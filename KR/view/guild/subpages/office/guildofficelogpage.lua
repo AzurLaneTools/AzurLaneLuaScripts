@@ -34,15 +34,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.uilist = UIItemList.New(slot0:findTF("frame/window/sliders/list/content"), slot0:findTF("frame/window/sliders/list/content/tpl"))
+	slot0.uilist = UIItemList.New(slot0._tf:Find("frame/window/sliders/list/content"), slot0._tf:Find("frame/window/sliders/list/content/tpl"))
 
-	setText(slot0:findTF("frame/window/top/bg/infomation/title"), i18n("guild_log_title"))
+	setText(slot0._tf:Find("frame/window/top/bg/infomation/title"), i18n("guild_log_title"))
 
-	slot0.btnAll = slot0:findTF("frame/window/sliders/filter/1")
+	slot1 = slot0._tf
+	slot0.btnAll = slot1:Find("frame/window/sliders/filter/1")
 	slot0.btns = {
-		slot0:findTF("frame/window/sliders/filter/2"),
-		slot0:findTF("frame/window/sliders/filter/3"),
-		slot0:findTF("frame/window/sliders/filter/4")
+		slot0._tf:Find("frame/window/sliders/filter/2"),
+		slot0._tf:Find("frame/window/sliders/filter/3"),
+		slot0._tf:Find("frame/window/sliders/filter/4")
 	}
 end
 

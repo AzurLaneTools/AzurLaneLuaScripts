@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.voiceActor = slot0:findTF("bg/author_panel/cvPanel/label/mask/Text"):GetComponent("ScrollText")
-	slot0.illustrator = slot0:findTF("bg/author_panel/illustPanel/illustrator/label/mask/Text"):GetComponent("ScrollText")
-	slot0.cvContainer = slot0:findTF("bg/lines_panel/lines_list/Grid")
+	slot0.voiceActor = slot0._tf:Find("bg/author_panel/cvPanel/label/mask/Text"):GetComponent("ScrollText")
+	slot0.illustrator = slot0._tf:Find("bg/author_panel/illustPanel/illustrator/label/mask/Text"):GetComponent("ScrollText")
+	slot0.cvContainer = slot0._tf:Find("bg/lines_panel/lines_list/Grid")
 	slot0.cvTpl = slot0:getTpl("bg/lines_panel/lines_list/Grid/lines_tpl")
-	slot0.weddingReview = slot0:findTF("bg/wedding")
-	slot0.voiceBtn = slot0:findTF("bg/language_change")
+	slot0.weddingReview = slot0._tf:Find("bg/wedding")
+	slot0.voiceBtn = slot0._tf:Find("bg/language_change")
 	slot0.voiceBtnSel = slot0.voiceBtn:Find("sel")
 	slot1 = slot0.voiceBtn
 	slot0.voiceBtnUnsel = slot1:Find("unsel")
@@ -20,8 +20,8 @@ slot0.OnLoaded = function(slot0)
 	}
 	slot0.voiceBtnTxt = slot0.voiceBtn:Find("Text"):GetComponent(typeof(Text))
 	slot0.voiceBtnTxt1 = slot0.voiceBtn:Find("Text1"):GetComponent(typeof(Text))
-	slot0.profilePlayBtn = slot0:findTF("bg/prototype_panel/title/playButton")
-	slot0.profileTxt = slot0:findTF("bg/prototype_panel/desc/scroll/Text"):GetComponent(typeof(Text))
+	slot0.profilePlayBtn = slot0._tf:Find("bg/prototype_panel/title/playButton")
+	slot0.profileTxt = slot0._tf:Find("bg/prototype_panel/desc/scroll/Text"):GetComponent(typeof(Text))
 end
 
 slot0.UpdateCvBtn = function(slot0, slot1)

@@ -7,29 +7,29 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.paintingTr = slot0:findTF("paint")
-	slot0.live2dContainer = slot0:findTF("paint/live2d")
-	slot0.mainImg = slot0:findTF("main"):GetComponent(typeof(UnityEngine.UI.Graphic))
-	slot0.backBtn = slot0:findTF("main/left/back")
-	slot0.nameTxt = slot0:findTF("main/left/name_bg/skin_name"):GetComponent(typeof(Text))
-	slot0.shipnameTxt = slot0:findTF("main/left/name_bg/name"):GetComponent(typeof(Text))
-	slot0.charParent = slot0:findTF("main/right/char")
-	slot0.viewBtn = slot0:findTF("main/right/view_btn")
-	slot0.changeBtn = slot0:findTF("main/right/change_btn")
+	slot0.paintingTr = slot0._tf:Find("paint")
+	slot0.live2dContainer = slot0._tf:Find("paint/live2d")
+	slot0.mainImg = slot0._tf:Find("main"):GetComponent(typeof(UnityEngine.UI.Graphic))
+	slot0.backBtn = slot0._tf:Find("main/left/back")
+	slot0.nameTxt = slot0._tf:Find("main/left/name_bg/skin_name"):GetComponent(typeof(Text))
+	slot0.shipnameTxt = slot0._tf:Find("main/left/name_bg/name"):GetComponent(typeof(Text))
+	slot0.charParent = slot0._tf:Find("main/right/char")
+	slot0.viewBtn = slot0._tf:Find("main/right/view_btn")
+	slot0.changeBtn = slot0._tf:Find("main/right/change_btn")
 	slot0.changeBtnDis = slot0.changeBtn:Find("dis")
 	slot0.changeBtnEn = slot0.changeBtn:Find("en")
-	slot0.obtainBtn = slot0:findTF("main/right/obtain_btn")
+	slot0.obtainBtn = slot0._tf:Find("main/right/obtain_btn")
 	slot0.bgFlag = true
 	slot0.l2dFlag = false
-	slot1 = slot0:findTF("main/left/tpl")
+	slot1 = slot0._tf:Find("main/left/tpl")
 	slot0.btns = {
 		ShipAtlasBgBtn.New(slot1, PlayerVitaeBaseBtn.HRZ_TYPE, slot0.event, slot0.bgFlag),
 		ShipAtlasLive2dBtn.New(slot1, PlayerVitaeBaseBtn.HRZ_TYPE, slot0.event, slot0.l2dFlag)
 	}
-	slot0.changeSkinUI = slot0:findTF("main/bottom/changeSkin")
+	slot0.changeSkinUI = slot0._tf:Find("main/bottom/changeSkin")
 	slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.changeSkinUI, "ChangeSkinToggleUI"))
-	slot0.bgView = SkinAtlasBgView.New(slot0:findTF("bg/bg"))
-	slot0.paintingView = SkinAtlasPaintingView.New(slot0:findTF("paint"))
+	slot0.bgView = SkinAtlasBgView.New(slot0._tf:Find("bg/bg"))
+	slot0.paintingView = SkinAtlasPaintingView.New(slot0._tf:Find("paint"))
 	slot0.selectShipPage = ChangeShipSkinPage.New(slot0._parentTf, slot0.event)
 end
 
@@ -101,7 +101,10 @@ slot0.OnInit = function(slot0)
 
 		uv0:UpdatePainting(uv0.ship)
 	end)
-	addSlip(SLIP_TYPE_HRZ, slot0:findTF("main"), function ()
+
+	slot4 = slot0._tf
+
+	addSlip(SLIP_TYPE_HRZ, slot4:Find("main"), function ()
 		uv0:OnPrev()
 	end, function ()
 		uv0:OnNext()

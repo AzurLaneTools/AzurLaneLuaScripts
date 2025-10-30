@@ -100,12 +100,17 @@ slot2 = function(slot0, slot1)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.listPanel = slot0:findTF("list_panel")
-	slot1 = slot0:findTF("scrollrect", slot0.listPanel)
+	slot1 = slot0._tf
+	slot0.listPanel = slot1:Find("list_panel")
+	slot1 = slot0.listPanel
+	slot1 = slot1:Find("scrollrect")
 	slot0.scolrect = slot1:GetComponent("LScrollRect")
-	slot0.confirmBtn = slot0:findTF("confirm", slot0.listPanel)
-	slot0.previewBtn = slot0:findTF("preview", slot0.listPanel)
-	slot0.lockBtn = slot0:findTF("lock", slot0.listPanel)
+	slot1 = slot0.listPanel
+	slot0.confirmBtn = slot1:Find("confirm")
+	slot1 = slot0.listPanel
+	slot0.previewBtn = slot1:Find("preview")
+	slot1 = slot0.listPanel
+	slot0.lockBtn = slot1:Find("lock")
 
 	slot0.scolrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -120,13 +125,17 @@ slot0.OnInit = function(slot0)
 	end
 
 	slot0.cards = {}
-	slot1 = slot0:findTF("total_count/Text")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("total_count/Text")
 	slot0.totalCount = slot1:GetComponent(typeof(Text))
-	slot0.preview = slot0:findTF("preview")
-	slot0.sea = slot0:findTF("preview/sea")
+	slot1 = slot0._tf
+	slot0.preview = slot1:Find("preview")
+	slot1 = slot0._tf
+	slot0.sea = slot1:Find("preview/sea")
 	slot1 = slot0.sea
 	slot0.rawImage = slot1:GetComponent("RawImage")
-	slot0.uiLayer = slot0:findTF("preview/ui")
+	slot1 = slot0._tf
+	slot0.uiLayer = slot1:Find("preview/ui")
 	slot2 = slot0.preview
 
 	setText(slot2:Find("bg/title/Image"), i18n("word_preview"))

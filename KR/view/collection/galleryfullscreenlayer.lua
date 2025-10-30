@@ -26,8 +26,8 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.picImg = slot0:findTF("Pic")
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.picImg = slot0._tf:Find("Pic")
 end
 
 slot0.initData = function(slot0)

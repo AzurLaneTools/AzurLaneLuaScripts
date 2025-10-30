@@ -6,36 +6,36 @@ end
 
 slot0.init = function(slot0)
 	slot0.mainAnim = slot0._tf:GetComponent(typeof(Animation))
-	slot0.topUI = slot0:findTF("ui/top")
-	slot1 = slot0:findTF("title/title_kinder", slot0.topUI)
+	slot0.topUI = slot0._tf:Find("ui/top")
+	slot1 = slot0.topUI:Find("title/title_kinder")
 
 	slot1:GetComponent(typeof(Image)):SetNativeSize()
 
-	slot0:findTF("FX/textmask", slot1).localScale = {
+	slot1:Find("FX/textmask").localScale = {
 		x = slot1.rect.width,
 		y = slot1.rect.height
 	}
-	slot0.bottomUI = slot0:findTF("ui/bottom")
-	slot0.paradiseBtn = slot0:findTF("paradise", slot0.bottomUI)
-	slot0.paradiseValue = slot0:findTF("value/Text", slot0.paradiseBtn)
-	slot0.adventureBtn = slot0:findTF("adventure", slot0.bottomUI)
-	slot0.rightUI = slot0:findTF("ui/right")
-	slot0.ptBtn = slot0:findTF("pt", slot0.rightUI)
-	slot0.ptValue = slot0:findTF("value/Text", slot0.ptBtn)
-	slot0.ptTip = slot0:findTF("tip", slot0.ptBtn)
-	slot0.rankBtn = slot0:findTF("rank", slot0.rightUI)
-	slot0.taskBtn = slot0:findTF("task", slot0.rightUI)
-	slot0.taskTip = slot0:findTF("tip", slot0.taskBtn)
+	slot0.bottomUI = slot0._tf:Find("ui/bottom")
+	slot0.paradiseBtn = slot0.bottomUI:Find("paradise")
+	slot0.paradiseValue = slot0.paradiseBtn:Find("value/Text")
+	slot0.adventureBtn = slot0.bottomUI:Find("adventure")
+	slot0.rightUI = slot0._tf:Find("ui/right")
+	slot0.ptBtn = slot0.rightUI:Find("pt")
+	slot0.ptValue = slot0.ptBtn:Find("value/Text")
+	slot0.ptTip = slot0.ptBtn:Find("tip")
+	slot0.rankBtn = slot0.rightUI:Find("rank")
+	slot0.taskBtn = slot0.rightUI:Find("task")
+	slot0.taskTip = slot0.taskBtn:Find("tip")
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("back", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("back"), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("home", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("home"), function ()
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("help", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip["202406_main_help"].tip

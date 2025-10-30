@@ -36,9 +36,9 @@ slot0.InitEquipment = function(slot0)
 	slot0.equipRCon = slot0._parentTf:Find("equipment_r_container")
 	slot0.equipLCon = slot0._parentTf:Find("equipment_l_container")
 	slot0.equipBCon = slot0._parentTf:Find("equipment_b_container")
-	slot0.equipmentR = slot0:findTF("equipment_r")
-	slot0.equipmentL = slot0:findTF("equipment_l")
-	slot0.equipmentB = slot0:findTF("equipment_b")
+	slot0.equipmentR = slot0._tf:Find("equipment_r")
+	slot0.equipmentL = slot0._tf:Find("equipment_l")
+	slot0.equipmentB = slot0._tf:Find("equipment_b")
 	slot0.equipmentR1 = slot0.equipmentR:Find("equipment/equipment_r1")
 	slot0.equipmentR2 = slot0.equipmentR:Find("equipment/equipment_r2")
 	slot0.equipmentR3 = slot0.equipmentR:Find("equipment/equipment_r3")
@@ -239,7 +239,7 @@ slot0.UpdateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 			setButtonText(slot7, slot19 and setColorStr(slot18 .. "%", COLOR_GREEN) or slot18 .. "%")
 		end
 
-		updateEquipment(slot0:findTF("IconTpl", slot5), slot2)
+		updateEquipment(slot5:Find("IconTpl"), slot2)
 
 		slot17 = slot2:getConfig("name")
 

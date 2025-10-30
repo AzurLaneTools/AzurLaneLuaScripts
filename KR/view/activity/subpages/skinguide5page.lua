@@ -9,7 +9,7 @@ slot2 = nil
 slot3 = "ui/activityuipage/skinguide5page_atlas"
 
 slot0.OnInit = function(slot0)
-	slot0.ad = slot0:findTF("AD")
+	slot0.ad = slot0._tf:Find("AD")
 
 	if PLATFORM_CODE == PLATFORM_JP then
 		uv0 = {

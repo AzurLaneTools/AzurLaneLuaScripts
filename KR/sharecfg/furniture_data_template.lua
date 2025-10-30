@@ -27756,7 +27756,7 @@ pg.base.furniture_data_template = {
 	},
 	[100078] = {
 		can_rotate = 0,
-		describe = "自然的精灵，于此处现身吧~",
+		describe = "자연의 정령들이여, 여기에 현현하거라~",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -27775,7 +27775,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		canputon = 0,
 		count = 1,
-		name = "召唤法杖",
+		name = "소환 지팡이",
 		advice = 0,
 		id = 100078,
 		tag = 6,

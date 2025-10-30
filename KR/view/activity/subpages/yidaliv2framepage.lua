@@ -10,13 +10,14 @@ slot0.OnFirstFlush = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot0.step = slot0:findTF("AD/switcher/phase2/Image/step")
-	slot0.progress = slot0:findTF("AD/switcher/phase2/Image/progress")
-	slot0.switchBtn = slot0:findTF("AD/switch_btn")
-	slot0.bar = slot0:findTF("AD/switcher/phase2/Image/barContent/bar")
+	slot0.step = slot0._tf:Find("AD/switcher/phase2/Image/step")
+	slot0.progress = slot0._tf:Find("AD/switcher/phase2/Image/progress")
+	slot0.switchBtn = slot0._tf:Find("AD/switch_btn")
+	slot1 = slot0._tf
+	slot0.bar = slot1:Find("AD/switcher/phase2/Image/barContent/bar")
 	slot0.phases = {
-		slot0:findTF("AD/switcher/phase1"),
-		slot0:findTF("AD/switcher/phase2")
+		slot0._tf:Find("AD/switcher/phase1"),
+		slot0._tf:Find("AD/switcher/phase2")
 	}
 	slot0.inPhase2 = false
 
@@ -66,7 +67,7 @@ end
 slot0.UpdateAwardGot = function(slot0)
 	slot2 = not slot0.ptData:CanGetNextAward() and slot0.inPhase2
 
-	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), slot2)
+	setActive(slot0.bg:Find("switcher/phase2/got"), slot2)
 	setActive(slot0.step, not slot2)
 	setActive(slot0.progress, not slot2)
 end

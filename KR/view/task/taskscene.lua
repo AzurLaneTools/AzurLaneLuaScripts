@@ -63,15 +63,15 @@ slot0.SetWeekTaskProgressInfo = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0._topPanel = slot0:findTF("blur_panel/adapt/top")
+	slot0._topPanel = slot0._tf:Find("blur_panel/adapt/top")
 	slot0._backBtn = slot0._topPanel:Find("back_btn")
-	slot0._leftLength = slot0:findTF("blur_panel/adapt/left_length")
-	slot0._tagRoot = slot0:findTF("blur_panel/adapt/left_length/frame/tagRoot")
-	slot0.taskIconTpl = slot0:findTF("taskTagOb/task_icon_default")
-	slot0.weekTip = slot0:findTF("weekly/tip", slot0._tagRoot)
-	slot0.oneStepBtn = slot0:findTF("blur_panel/adapt/top/GetAllButton")
+	slot0._leftLength = slot0._tf:Find("blur_panel/adapt/left_length")
+	slot0._tagRoot = slot0._tf:Find("blur_panel/adapt/left_length/frame/tagRoot")
+	slot0.taskIconTpl = slot0._tf:Find("taskTagOb/task_icon_default")
+	slot0.weekTip = slot0._tagRoot:Find("weekly/tip")
+	slot0.oneStepBtn = slot0._tf:Find("blur_panel/adapt/top/GetAllButton")
 	slot0.contextData.viewComponent = slot0
-	slot0.pageTF = slot0:findTF("pages")
+	slot0.pageTF = slot0._tf:Find("pages")
 end
 
 slot0.IsNewStyleTime = function()
@@ -122,11 +122,13 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
-	setActive(slot0:findTF("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	setActive(slot0._tf:Find("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
 	if LOCK_CLICK_MINGSHI then
-		setActive(slot0:findTF("stamp"), false)
+		setActive(slot0._tf:Find("stamp"), false)
 	end
+
+	slot5 = slot0._tf
 
 	slot6 = function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(5)
@@ -134,12 +136,13 @@ slot0.didEnter = function(slot0)
 
 	slot7 = SFX_CONFIRM
 
-	onButton(slot0, slot0:findTF("stamp"), slot6, slot7)
+	onButton(slot0, slot5:Find("stamp"), slot6, slot7)
 
 	slot0.toggles = {}
 
 	for slot6, slot7 in pairs(uv1) do
-		slot8 = slot0:findTF(slot6, slot0._tagRoot)
+		slot8 = slot0._tagRoot
+		slot8 = slot8:Find(slot6)
 
 		onToggle(slot0, slot8, function (slot0)
 			if slot0 then
@@ -271,7 +274,7 @@ slot0.UpdateWeekTip = function(slot0)
 end
 
 slot0.GoToFilter = function(slot0, slot1)
-	triggerToggle(slot0:findTF(slot1, slot0._tagRoot), true)
+	triggerToggle(slot0._tagRoot:Find(slot1), true)
 end
 
 slot0.onSubmit = function(slot0, slot1)

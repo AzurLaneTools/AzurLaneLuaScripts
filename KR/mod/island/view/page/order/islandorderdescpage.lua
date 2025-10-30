@@ -5,21 +5,21 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.infoPanel = slot0:findTF("info")
-	slot0.nameTxt = slot0:findTF("info/name/Text"):GetComponent(typeof(Text))
-	slot0.consumeUIList = UIItemList.New(slot0:findTF("info/subtitle_item/list"), slot0:findTF("info/subtitle_item/list/tpl"))
-	slot0.awardUIList = UIItemList.New(slot0:findTF("info/subtitle_reward/list"), slot0:findTF("info/subtitle_reward/list/tpl"))
-	slot0.submitBtn = slot0:findTF("info/btns/submit")
-	slot0.submitBtnMark = slot0:findTF("info/btns/submit/mask")
-	slot0.replaceBtn = slot0:findTF("info/btns/cancel")
-	slot0.speedUpBtn = slot0:findTF("loading/submit")
-	slot0.loadingPanel = slot0:findTF("loading")
+	slot0.infoPanel = slot0._tf:Find("info")
+	slot0.nameTxt = slot0._tf:Find("info/name/Text"):GetComponent(typeof(Text))
+	slot0.consumeUIList = UIItemList.New(slot0._tf:Find("info/subtitle_item/list"), slot0._tf:Find("info/subtitle_item/list/tpl"))
+	slot0.awardUIList = UIItemList.New(slot0._tf:Find("info/subtitle_reward/list"), slot0._tf:Find("info/subtitle_reward/list/tpl"))
+	slot0.submitBtn = slot0._tf:Find("info/btns/submit")
+	slot0.submitBtnMark = slot0._tf:Find("info/btns/submit/mask")
+	slot0.replaceBtn = slot0._tf:Find("info/btns/cancel")
+	slot0.speedUpBtn = slot0._tf:Find("loading/submit")
+	slot0.loadingPanel = slot0._tf:Find("loading")
 	slot0.loadingTimeTxt = slot0.loadingPanel:Find("Text/time"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("info/btns/cancel/Text"), i18n("island_word_turndown"))
-	setText(slot0:findTF("info/btns/submit/Text"), i18n("island_word_sbumit"))
-	setText(slot0:findTF("loading/Text"), i18n("island_order_cd_tip"))
-	setText(slot0:findTF("loading/submit/Text"), i18n("island_word_speedup"))
+	setText(slot0._tf:Find("info/btns/cancel/Text"), i18n("island_word_turndown"))
+	setText(slot0._tf:Find("info/btns/submit/Text"), i18n("island_word_sbumit"))
+	setText(slot0._tf:Find("loading/Text"), i18n("island_order_cd_tip"))
+	setText(slot0._tf:Find("loading/submit/Text"), i18n("island_word_speedup"))
 end
 
 slot0.OnInit = function(slot0)
@@ -230,6 +230,13 @@ slot0.FlushAwards = function(slot0, slot1)
 	slot0.awardUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			updateCustomDrop(slot2, uv0[slot1 + 1])
+			onButton(uv1, slot2, function ()
+				uv0:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = uv1
+				})
+			end)
 		end
 	end)
 	slot0.awardUIList:align(#slot1:GetDisplayAwards())
@@ -246,6 +253,13 @@ slot0.FlushConsume = function(slot0, slot1)
 			}
 
 			updateCustomDrop(slot2:Find("tpl"), slot4)
+			onButton(uv1, slot2, function ()
+				uv0:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = uv1
+				})
+			end)
 			setText(slot2:Find("Text"), slot4.cfg.name)
 
 			if slot3.count <= Drop.New({

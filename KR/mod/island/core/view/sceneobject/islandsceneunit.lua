@@ -68,6 +68,26 @@ slot0.Start = function(slot0)
 	slot0:OnStart()
 end
 
+slot0.IsMapTransfer = function(slot0)
+	if not slot0.behaviourTreeOwner then
+		return false, {}
+	end
+
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(IslandHelper.GetAllShowInteractionsTypeValue(slot0.behaviourTreeOwner):ToTable()) do
+		slot8 = pg.island_interaction.get_id_list_by_groupId[slot7] or {}
+
+		for slot12, slot13 in ipairs(slot8) do
+			if pg.island_interaction[slot13].type == IslandInteractionUntil.TYPE_TRANSFER or slot14.type == IslandInteractionUntil.TYPE_SP_TRANSFER then
+				table.insert(slot1, slot13)
+			end
+		end
+	end
+
+	return #slot1 > 0, slot1
+end
+
 slot0.OnDispose = function(slot0)
 	slot0:OnDetach()
 	slot0:ClearBt()

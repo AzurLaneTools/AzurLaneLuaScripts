@@ -5,13 +5,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.detailRightBlurRect = slot0:findTF("bg")
-	slot0.propertyTF = slot0:findTF("bg/property_panel/frame")
-	slot0.skillRect = slot0:findTF("bg/skill_panel/frame/skills_rect")
-	slot0.skillPanel = slot0:findTF("skills", slot0.skillRect)
-	slot0.skillTpl = slot0:findTF("skilltpl", slot0.skillRect)
-	slot0.skillArrLeft = slot0:findTF("bg/skill_panel/frame/arrow1")
-	slot0.skillArrRight = slot0:findTF("bg/skill_panel/frame/arrow2")
+	slot0.detailRightBlurRect = slot0._tf:Find("bg")
+	slot0.propertyTF = slot0._tf:Find("bg/property_panel/frame")
+	slot0.skillRect = slot0._tf:Find("bg/skill_panel/frame/skills_rect")
+	slot0.skillPanel = slot0.skillRect:Find("skills")
+	slot0.skillTpl = slot0.skillRect:Find("skilltpl")
+	slot0.skillArrLeft = slot0._tf:Find("bg/skill_panel/frame/arrow1")
+	slot0.skillArrRight = slot0._tf:Find("bg/skill_panel/frame/arrow2")
 end
 
 slot0.OnInit = function(slot0)
@@ -88,8 +88,8 @@ slot0.InitSkills = function(slot0)
 		if slot9 <= #slot3 then
 			slot0:UpdateSkill(slot10, slot3[slot9])
 		else
-			setActive(slot0:findTF("icon", slot10), false)
-			setActive(slot0:findTF("add", slot10), true)
+			setActive(slot10:Find("icon"), false)
+			setActive(slot10:Find("add"), true)
 		end
 
 		setActive(slot10, slot9 <= slot5)
@@ -124,8 +124,8 @@ slot0.UpdateSkill = function(slot0, slot1, slot2)
 	end
 
 	LoadImageSpriteAsync("skillicon/" .. getSkillConfig(slot2).icon, findTF(slot1, "icon"))
-	setActive(slot0:findTF("icon", slot1), true)
-	setActive(slot0:findTF("add", slot1), false)
+	setActive(slot1:Find("icon"), true)
+	setActive(slot1:Find("add"), false)
 	onButton(slot0, slot1, function ()
 		uv0:emit(ShipProfileScene.SHOW_SKILL_INFO, uv1.id, {
 			id = uv1.id,

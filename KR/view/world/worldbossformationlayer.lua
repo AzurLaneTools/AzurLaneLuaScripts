@@ -20,18 +20,18 @@ slot0.SetBossProxy = function(slot0, slot1, slot2)
 end
 
 slot0.init = function(slot0)
-	slot0._startBtn = slot0:findTF("right/start")
-	slot0._popup = slot0:findTF("right/start/cost_container/popup")
-	slot0._costText = slot0:findTF("right/start/cost_container/popup/Text")
-	slot0._backBtn = slot0:findTF("blur_panel/top/back_btn")
-	slot0._moveLayer = slot0:findTF("moveLayer")
-	slot1 = slot0:findTF("middle")
-	slot0._autoToggle = slot0:findTF("auto_toggle")
-	slot0.subToggle = slot0:findTF("sub_toggle_container")
+	slot0._startBtn = slot0.rtAdapt:Find("right/start")
+	slot0._popup = slot0.rtAdapt:Find("right/start/cost_container/popup")
+	slot0._costText = slot0.rtAdapt:Find("right/start/cost_container/popup/Text")
+	slot0._backBtn = slot0._tf:Find("blur_panel/top/back_btn")
+	slot0._moveLayer = slot0._tf:Find("moveLayer")
+	slot1 = slot0.rtAdapt:Find("middle")
+	slot0._autoToggle = slot0.rtAdapt:Find("auto_toggle")
+	slot0.subToggle = slot0.rtAdapt:Find("sub_toggle_container")
 
 	setActive(slot0.subToggle, false)
 
-	slot0._buffContainer = slot0._tf:Find("BuffContainer")
+	slot0._buffContainer = slot0.rtAdapt:Find("BuffContainer")
 
 	setActive(slot0._buffContainer, false)
 
@@ -54,21 +54,21 @@ slot0.init = function(slot0)
 		slot0._gridTFs[TeamType.Main][slot5] = slot0._gridFrame:Find("main_" .. slot5)
 	end
 
-	slot0._nextPage = slot0:findTF("middle/nextPage")
-	slot0._prevPage = slot0:findTF("middle/prevPage")
+	slot0._nextPage = slot0.rtAdapt:Find("middle/nextPage")
+	slot0._prevPage = slot0.rtAdapt:Find("middle/prevPage")
 
 	slot0:disableAllStepper()
 
 	slot0._heroContainer = slot1:Find("HeroContainer")
 	slot0._checkBtn = slot1:Find("checkBtn")
-	slot0._spoilsContainer = slot0:findTF("right/infomation/atlasloot/spoils/items/items_container")
-	slot0._item = slot0:getTpl("right/infomation/atlasloot/spoils/items/item_tpl")
-	slot0._goals = slot0:findTF("right/infomation/target/goal")
+	slot0._spoilsContainer = slot0.rtAdapt:Find("right/infomation/atlasloot/spoils/items/items_container")
+	slot0._item = slot0:getTpl("right/infomation/atlasloot/spoils/items/item_tpl", slot0.rtAdapt)
+	slot0._goals = slot0.rtAdapt:Find("right/infomation/target/goal")
 	slot0._heroInfo = slot0:getTpl("heroInfo")
 	slot0._starTpl = slot0:getTpl("star_tpl")
-	slot0._middle = slot0:findTF("middle")
-	slot0._right = slot0:findTF("right")
-	slot0.topPanel = slot0:findTF("blur_panel/top")
+	slot0._middle = slot0.rtAdapt:Find("middle")
+	slot0._right = slot0.rtAdapt:Find("right")
+	slot0.topPanel = slot0._tf:Find("blur_panel/top")
 
 	setAnchoredPosition(slot0._middle, {
 		x = -840
@@ -77,7 +77,7 @@ slot0.init = function(slot0)
 		x = 470
 	})
 
-	slot0.guideDesc = slot0:findTF("guideDesc", slot0._middle)
+	slot0.guideDesc = slot0._middle:Find("guideDesc")
 
 	if slot0.contextData.stageId then
 		slot0:SetStageID(slot0.contextData.stageId)
@@ -103,8 +103,8 @@ slot0.Register = function(slot0)
 		slot2:SetLocalScale(Vector3(0.65, 0.65, 1))
 		SetActive(slot0, true)
 
-		slot4 = findTF(findTF(slot0, "info"), "stars")
-		slot6 = findTF(slot3, "energy")
+		slot4 = slot0:Find("info"):Find("stars")
+		slot6 = slot3:Find("energy")
 
 		if slot1.energy <= Ship.ENERGY_MID then
 			slot7, slot8 = slot1:getEnergyPrint()
@@ -117,7 +117,7 @@ slot0.Register = function(slot0)
 		end
 
 		setActive(slot6, false)
-		setActive(findTF(slot3, "expbuff"), false)
+		setActive(slot3:Find("expbuff"), false)
 
 		for slot11 = 1, slot1:getStar() do
 			cloneTplTo(uv0._starTpl, slot4)
@@ -127,8 +127,8 @@ slot0.Register = function(slot0)
 			warning("找不到船形, shipConfigId: " .. slot1.configId)
 		end
 
-		setImageSprite(findTF(slot3, "type"), slot8, true)
-		setText(findTF(slot3, "frame/lv_contain/lv"), slot1.level)
+		setImageSprite(slot3:Find("type"), slot8, true)
+		setText(slot3:Find("frame/lv_contain/lv"), slot1.level)
 	end)
 
 	slot1 = slot0._formationLogic
@@ -147,13 +147,13 @@ slot0.Register = function(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddBeginDrag(function (slot0)
-		SetActive(findTF(slot0, "info"), false)
+		SetActive(slot0:Find("info"), false)
 	end)
 
 	slot1 = slot0._formationLogic
 
 	slot1:AddEndDrag(function (slot0)
-		SetActive(findTF(slot0, "info"), true)
+		SetActive(slot0:Find("info"), true)
 	end)
 
 	slot1 = slot0._formationLogic
@@ -247,9 +247,9 @@ slot0.SetStageID = function(slot0, slot1)
 		})
 	end
 
-	slot7 = findTF(slot0._goals, "goal_tpl")
-	slot8 = findTF(slot0._goals, "goal_sink")
-	slot9 = findTF(slot0._goals, "goal_time")
+	slot7 = slot0._goals:Find("goal_tpl")
+	slot8 = slot0._goals:Find("goal_sink")
+	slot9 = slot0._goals:Find("goal_time")
 
 	if slot3 == 1 then
 		slot10 = nil

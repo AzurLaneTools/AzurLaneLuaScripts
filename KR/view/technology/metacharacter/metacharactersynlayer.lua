@@ -35,8 +35,8 @@ slot0.willExit = function(slot0)
 end
 
 slot0.initUITextTips = function(slot0)
-	setText(slot0:findTF("PTPanel/TipText"), i18n("meta_cur_pt"))
-	setText(slot0:findTF("TaskPanel/ActTimePanel/Tip"), i18n("meta_acttime_limit"))
+	setText(slot0._tf:Find("PTPanel/TipText"), i18n("meta_cur_pt"))
+	setText(slot0._tf:Find("TaskPanel/ActTimePanel/Tip"), i18n("meta_acttime_limit"))
 end
 
 slot0.initData = function(slot0)
@@ -55,25 +55,25 @@ slot0.updateData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.shipImg = slot0:findTF("ShipImg")
-	slot0.ptPanel = slot0:findTF("PTPanel")
-	slot0.ptSynRateText = slot0:findTF("ProgressText", slot0.ptPanel)
-	slot0.ptNumText = slot0:findTF("Count/NumText", slot0.ptPanel)
-	slot0.ptIconLeft = slot0:findTF("Icon", slot0.ptPanel)
-	slot0.showWayBtn = slot0:findTF("ShowWayBtn", slot0.ptPanel)
-	slot0.taskPanel = slot0:findTF("TaskPanel")
-	slot0.taskTplContainer = slot0:findTF("Scroll/Viewport/Content", slot0.taskPanel)
-	slot0.taskTpl = slot0:findTF("TaskTpl", slot0.taskPanel)
-	slot0.getAllBtn = slot0:findTF("BtnGetAll", slot0.taskPanel)
-	slot0.getAllBtnDisable = slot0:findTF("BtnGetAllDisable", slot0.taskPanel)
-	slot0.getNextBtn = slot0:findTF("BtnGetMore", slot0.taskPanel)
+	slot0.shipImg = slot0._tf:Find("ShipImg")
+	slot0.ptPanel = slot0._tf:Find("PTPanel")
+	slot0.ptSynRateText = slot0.ptPanel:Find("ProgressText")
+	slot0.ptNumText = slot0.ptPanel:Find("Count/NumText")
+	slot0.ptIconLeft = slot0.ptPanel:Find("Icon")
+	slot0.showWayBtn = slot0.ptPanel:Find("ShowWayBtn")
+	slot0.taskPanel = slot0._tf:Find("TaskPanel")
+	slot0.taskTplContainer = slot0.taskPanel:Find("Scroll/Viewport/Content")
+	slot0.taskTpl = slot0.taskPanel:Find("TaskTpl")
+	slot0.getAllBtn = slot0.taskPanel:Find("BtnGetAll")
+	slot0.getAllBtnDisable = slot0.taskPanel:Find("BtnGetAllDisable")
+	slot0.getNextBtn = slot0.taskPanel:Find("BtnGetMore")
 	slot0.taskUIItemList = UIItemList.New(slot0.taskTplContainer, slot0.taskTpl)
 	slot0.sizeH = GetComponent(slot0.taskTpl, "LayoutElement").preferredHeight
 	slot0.spaceH = GetComponent(slot0.taskTplContainer, "VerticalLayoutGroup").spacing
 	slot0.topH = GetComponent(slot0.taskTplContainer, "VerticalLayoutGroup").padding.top
-	slot0.scrollSC = GetComponent(slot0:findTF("Scroll", slot0.taskPanel), "ScrollRect")
-	slot0.actTimePanel = slot0:findTF("TaskPanel/ActTimePanel")
-	slot0.actTimeText = slot0:findTF("TaskPanel/ActTimePanel/Text")
+	slot0.scrollSC = GetComponent(slot0.taskPanel:Find("Scroll"), "ScrollRect")
+	slot0.actTimePanel = slot0._tf:Find("TaskPanel/ActTimePanel")
+	slot0.actTimeText = slot0._tf:Find("TaskPanel/ActTimePanel/Text")
 end
 
 slot0.addListener = function(slot0)
@@ -153,27 +153,27 @@ slot0.updateTaskList = function(slot0)
 end
 
 slot0.updateTaskTpl = function(slot0, slot1, slot2)
-	slot9 = slot0:findTF("Info/AwardInfo/Award/Tag/Get", slot1)
-	slot10 = slot0:findTF("Info/AwardInfo/Award/Tag/Got", slot1)
-	slot11 = slot0:findTF("GotMask", slot1)
+	slot9 = slot1:Find("Info/AwardInfo/Award/Tag/Get")
+	slot10 = slot1:Find("Info/AwardInfo/Award/Tag/Got")
+	slot11 = slot1:Find("GotMask")
 
-	setText(slot0:findTF("Target/IndexText", slot1), slot2)
+	setText(slot1:Find("Target/IndexText"), slot2)
 
 	slot12 = slot0.curMetaProgressVO.metaPtData.targets[slot2]
 
-	setText(slot0:findTF("PT/Count/NumText", slot1), slot12)
-	setImageSprite(slot0:findTF("PT/Icon", slot1), LoadSprite(slot0.curMetaProgressVO:getPtIconPath()))
+	setText(slot1:Find("PT/Count/NumText"), slot12)
+	setImageSprite(slot1:Find("PT/Icon"), LoadSprite(slot0.curMetaProgressVO:getPtIconPath()))
 
 	slot13 = Drop.Create(slot0.curMetaProgressVO.metaPtData.dropList[slot2])
 
-	updateDrop(slot0:findTF("Info/AwardInfo/Award/Item", slot1), slot13, {
+	updateDrop(slot1:Find("Info/AwardInfo/Award/Item"), slot13, {
 		hideName = true
 	})
-	onButton(slot0, slot0:findTF("Info/AwardInfo/Award", slot1), function ()
+	onButton(slot0, slot1:Find("Info/AwardInfo/Award"), function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot0:findTF("Info/AwardInfo/NameMask/NameText", slot1), shortenString(slot13:getConfig("name"), 6))
-	setText(slot0:findTF("Info/AwardInfo/SynProgressText", slot1), math.round(slot12 / slot0.curMetaProgressVO.unlockPTNum * 100) .. "%")
+	setText(slot1:Find("Info/AwardInfo/NameMask/NameText"), shortenString(slot13:getConfig("name"), 6))
+	setText(slot1:Find("Info/AwardInfo/SynProgressText"), math.round(slot12 / slot0.curMetaProgressVO.unlockPTNum * 100) .. "%")
 
 	if slot2 < slot0.curMetaProgressVO.metaPtData.level + 1 then
 		setActive(slot10, true)

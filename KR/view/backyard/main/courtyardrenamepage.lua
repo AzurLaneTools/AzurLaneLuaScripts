@@ -5,15 +5,15 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.confirmBtn = slot0:findTF("frame/confirm")
-	slot0.cancelBtn = slot0:findTF("frame/cancel")
-	slot0.closeBtn = slot0:findTF("frame/close")
-	slot0.input = slot0:findTF("frame/input")
+	slot0.confirmBtn = slot0._tf:Find("frame/confirm")
+	slot0.cancelBtn = slot0._tf:Find("frame/cancel")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot0.input = slot0._tf:Find("frame/input")
 
-	setText(slot0:findTF("frame/cancel/Text"), i18n("word_cancel"))
-	setText(slot0:findTF("frame/confirm/Text"), i18n("word_ok"))
-	setText(slot0:findTF("frame/title"), i18n("backyard_rename_title"))
-	setText(slot0:findTF("frame/input/placehoder"), i18n("backyard_rename_tip"))
+	setText(slot0._tf:Find("frame/cancel/Text"), i18n("word_cancel"))
+	setText(slot0._tf:Find("frame/confirm/Text"), i18n("word_ok"))
+	setText(slot0._tf:Find("frame/title"), i18n("backyard_rename_title"))
+	setText(slot0._tf:Find("frame/input/placehoder"), i18n("backyard_rename_tip"))
 end
 
 slot0.OnInit = function(slot0)

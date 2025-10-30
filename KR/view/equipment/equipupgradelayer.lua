@@ -12,26 +12,26 @@ end
 slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
-	slot0.mainPanel = slot0:findTF("main")
-	slot0.finishPanel = slot0:findTF("finish_panel")
+	slot0.mainPanel = slot0._tf:Find("main")
+	slot0.finishPanel = slot0._tf:Find("finish_panel")
 
 	setActive(slot0.mainPanel, true)
 	setActive(slot0.finishPanel, false)
 
-	slot0.equipmentList = slot0:findTF("panel/equipment_list", slot0.mainPanel)
-	slot0.equipmentContain = slot0:findTF("equipments", slot0.equipmentList)
+	slot0.equipmentList = slot0.mainPanel:Find("panel/equipment_list")
+	slot0.equipmentContain = slot0.equipmentList:Find("equipments")
 	slot0.equipmentTpl = slot0:getTpl("equiptpl", slot0.equipmentContain)
 
 	setActive(slot0.equipmentList, false)
 
-	slot0.equipmentPanel = slot0:findTF("panel/equipment_panel", slot0.mainPanel)
-	slot0.materialPanel = slot0:findTF("panel/material_panel", slot0.mainPanel)
-	slot0.startBtn = slot0:findTF("start_btn", slot0.materialPanel)
-	slot0.overLimit = slot0:findTF("materials/limit", slot0.materialPanel)
+	slot0.equipmentPanel = slot0.mainPanel:Find("panel/equipment_panel")
+	slot0.materialPanel = slot0.mainPanel:Find("panel/material_panel")
+	slot0.startBtn = slot0.materialPanel:Find("start_btn")
+	slot0.overLimit = slot0.materialPanel:Find("materials/limit")
 
-	setText(slot0:findTF("text", slot0.overLimit), i18n("equipment_upgrade_overlimit"))
+	setText(slot0.overLimit:Find("text"), i18n("equipment_upgrade_overlimit"))
 
-	slot0.materialsContain = slot0:findTF("materials/materials", slot0.materialPanel)
+	slot0.materialsContain = slot0.materialPanel:Find("materials/materials")
 	slot0.uiMain = pg.UIMgr.GetInstance().UIMain
 	slot0.Overlay = pg.UIMgr.GetInstance().OverlayMain
 end
@@ -128,7 +128,7 @@ slot0.updateEquipment = function(slot0)
 	slot0:updateAttrs(slot0.equipmentPanel:Find("view/content"), slot1, slot1:getConfig("next") > 0 and slot1:MigrateTo(slot1:getConfig("next")) or nil)
 	changeToScrollText(slot0.equipmentPanel:Find("name_container"), slot1:getConfig("name"))
 	setActive(findTF(slot0.equipmentPanel, "unique"), slot1:isUnique())
-	updateEquipment(slot0:findTF("equiptpl", slot0.equipmentPanel), slot1)
+	updateEquipment(slot0.equipmentPanel:Find("equiptpl"), slot1)
 end
 
 slot1 = function(slot0)
@@ -280,7 +280,9 @@ slot0.updateMaterials = function(slot0)
 		end
 	end
 
-	setText(slot0:findTF("cost/consume", slot0.materialPanel), slot4)
+	slot8 = slot0.materialPanel
+
+	setText(slot8:Find("cost/consume"), slot4)
 	setActive(slot0.startBtn, slot3)
 
 	slot7 = Equipment.canUpgrade(slot2.configId)
@@ -329,8 +331,8 @@ slot0.upgradeFinish = function(slot0, slot1, slot2)
 	end, SFX_CANCEL)
 	changeToScrollText(slot0.finishPanel:Find("frame/equipment_panel/name_container"), slot2:getConfig("name"))
 	setActive(findTF(slot0.finishPanel, "frame/equipment_panel/unique"), slot2:isUnique())
-	updateEquipment(slot0:findTF("frame/equipment_panel/equiptpl", slot0.finishPanel), slot2)
-	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/view/content", slot0.finishPanel), slot1, slot2)
+	updateEquipment(slot0.finishPanel:Find("frame/equipment_panel/equiptpl"), slot2)
+	slot0:updateAttrs(slot0.finishPanel:Find("frame/equipment_panel/view/content"), slot1, slot2)
 end
 
 slot0.willExit = function(slot0)

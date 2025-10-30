@@ -1,9 +1,9 @@
 slot0 = class("ThirdAnniversarySignPageKR", import(".TemplatePage.LoginTemplatePage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.item = slot0:findTF("item", slot0.bg)
-	slot0.items = slot0:findTF("mask/items", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.item = slot0.bg:Find("item")
+	slot0.items = slot0.bg:Find("mask/items")
 	slot0.itemList = UIItemList.New(slot0.items, slot0.item)
 	slot0.initItems = {}
 end
@@ -18,10 +18,9 @@ slot0.OnFirstFlush = function(slot0)
 
 		if slot0 == UIItemList.EventUpdate then
 			if not table.contains(uv0.initItems, slot1) then
-				slot3 = uv0
 				slot4 = uv0.config.front_drops[slot1 + 1]
 
-				updateDrop(slot3:findTF("item", slot2), {
+				updateDrop(slot2:Find("item"), {
 					type = slot4[1],
 					id = slot4[2],
 					count = slot4[3]
@@ -32,7 +31,7 @@ slot0.OnFirstFlush = function(slot0)
 				table.insert(uv0.initItems, slot1)
 			end
 
-			setActive(uv0:findTF("got", slot2), slot1 < uv0.nday)
+			setActive(slot2:Find("got"), slot1 < uv0.nday)
 		end
 	end)
 	print(slot0.nday)

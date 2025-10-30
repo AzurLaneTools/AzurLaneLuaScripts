@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50081
+			50166
 		}
 	},
 	{
@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50114
+			50166
 		}
 	},
 	[11] = {
@@ -319,17 +319,17 @@ pg.activity_link_button = {
 		}
 	},
 	[110] = {
-		param = "TianYuTianYuanCoreActivityUI",
+		param = "ALYCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_ryza",
+		text_pic = "text_event_yumia",
 		type = 16,
-		pic = "event_ryza",
+		pic = "event_yumia",
 		id = 110,
 		group_id = 2,
 		order = 2,
 		time = {
 			"default",
-			50130
+			50058
 		}
 	},
 	[111] = {

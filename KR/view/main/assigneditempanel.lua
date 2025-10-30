@@ -11,10 +11,6 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.view = slot2
 end
 
-slot0.findTF = function(slot0, slot1)
-	return findTF(slot0._tf, slot1)
-end
-
 slot0.show = function(slot0)
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
@@ -38,15 +34,25 @@ end
 
 slot0.init = function(slot0)
 	slot0.isInited = true
-	slot0.ulist = UIItemList.New(slot0:findTF("got/bottom/scroll/list"), slot0:findTF("got/bottom/scroll/list/tpl"))
-	slot0.confirmBtn = slot0:findTF("calc/confirm")
-	slot0.rightArr = slot0:findTF("calc/value_bg/add")
-	slot0.leftArr = slot0:findTF("calc/value_bg/mius")
-	slot0.maxBtn = slot0:findTF("calc/max")
-	slot0.valueText = slot0:findTF("calc/value_bg/Text")
-	slot0.itemTF = slot0:findTF("item/bottom/item")
-	slot0.nameTF = slot0:findTF("item/bottom/name_bg/name")
-	slot0.descTF = slot0:findTF("item/bottom/desc")
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.ulist = UIItemList.New(slot2:Find("got/bottom/scroll/list"), slot3:Find("got/bottom/scroll/list/tpl"))
+	slot1 = slot0._tf
+	slot0.confirmBtn = slot1:Find("calc/confirm")
+	slot1 = slot0._tf
+	slot0.rightArr = slot1:Find("calc/value_bg/add")
+	slot1 = slot0._tf
+	slot0.leftArr = slot1:Find("calc/value_bg/mius")
+	slot1 = slot0._tf
+	slot0.maxBtn = slot1:Find("calc/max")
+	slot1 = slot0._tf
+	slot0.valueText = slot1:Find("calc/value_bg/Text")
+	slot1 = slot0._tf
+	slot0.itemTF = slot1:Find("item/bottom/item")
+	slot1 = slot0._tf
+	slot0.nameTF = slot1:Find("item/bottom/name_bg/name")
+	slot1 = slot0._tf
+	slot0.descTF = slot1:Find("item/bottom/desc")
 
 	onButton(slot0, slot0._tf, function ()
 		uv0:hide()

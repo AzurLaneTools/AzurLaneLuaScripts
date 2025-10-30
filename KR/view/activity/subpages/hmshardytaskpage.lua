@@ -3,8 +3,8 @@ slot0 = class("HMSHardyTaskPage", import(".TemplatePage.PassChaptersTemplatePage
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.notGetBtn = slot0:findTF("not_get_btn", slot0.bg)
-	slot0.goHuntBtn = slot0:findTF("gohunt_btn", slot0.bg)
+	slot0.notGetBtn = slot0.bg:Find("not_get_btn")
+	slot0.goHuntBtn = slot0.bg:Find("gohunt_btn")
 end
 
 slot0.OnFirstFlush = function(slot0)

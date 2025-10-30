@@ -79,6 +79,10 @@ slot0.EndAction = function(slot0)
 	slot0.starting = false
 end
 
+slot0.Stop = function(slot0)
+	slot0:EndAction()
+end
+
 slot0.OnDispose = function(slot0)
 	slot0.starting = nil
 	slot0.callback = nil

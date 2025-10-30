@@ -104,6 +104,7 @@ slot0.register = function(slot0)
 			data = {
 				pos = slot1,
 				callback = slot2,
+				groupName = uv0.viewComponent:getGroupName(),
 				emojiIconCallback = function (slot0)
 					uv0.viewComponent:insertEmojiToInputText(slot0)
 				end

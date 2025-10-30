@@ -29,10 +29,10 @@ slot0.initUIText = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
-	slot0.scrollRect = slot0:findTF("container/scrollrect")
-	slot0.scrollText = slot0:findTF("content/Text", slot0.scrollRect)
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.scrollRect = slot0._tf:Find("container/scrollrect")
+	slot0.scrollText = slot0.scrollRect:Find("content/Text")
 end
 
 slot0.addListener = function(slot0)

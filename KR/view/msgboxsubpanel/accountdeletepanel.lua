@@ -19,10 +19,10 @@ slot0.UpdateView = function(slot0, slot1)
 	slot0:PreRefresh(slot1)
 
 	rtf(slot0.viewParent._window).sizeDelta = Vector2.New(1000, 638)
-	slot0.inputField = slot0:findTF("InputField", slot0._tf)
+	slot0.inputField = slot0._tf:Find("InputField")
 
-	setText(slot0:findTF("Title", slot0._tf), i18n("box_account_del_input", i18n("box_account_del_target")))
-	setText(slot0:findTF("InputField/Placeholder", slot0._tf), i18n("box_account_del_click"))
+	setText(slot0._tf:Find("Title"), i18n("box_account_del_input", i18n("box_account_del_target")))
+	setText(slot0._tf:Find("InputField/Placeholder"), i18n("box_account_del_click"))
 	slot0:PostRefresh(slot1)
 end
 

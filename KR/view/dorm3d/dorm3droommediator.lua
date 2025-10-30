@@ -389,7 +389,8 @@ slot0.listNotificationInterests = function(slot0)
 	slot1 = underscore.keys(slot0.handleDic or {})
 
 	for slot6, slot7 in pairs({
-		SlideExtraSystem
+		SlideExtraSystem,
+		Dorm3dStockingMgr
 	}) do
 		slot1 = table.mergeArray(slot1, slot7.GetInterests())
 	end

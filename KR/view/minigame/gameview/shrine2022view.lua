@@ -156,27 +156,27 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot1 = slot0:findTF("Res")
+	slot1 = slot0._tf:Find("Res")
 	slot0.curBuffSpriteList = {
-		getImageSprite(slot0:findTF("CurBuff1", slot1)),
-		getImageSprite(slot0:findTF("CurBuff2", slot1)),
-		getImageSprite(slot0:findTF("CurBuff3", slot1))
+		getImageSprite(slot1:Find("CurBuff1")),
+		getImageSprite(slot1:Find("CurBuff2")),
+		getImageSprite(slot1:Find("CurBuff3"))
 	}
-	slot5 = slot0:findTF("Adapt")
-	slot0.tipGoldTF = slot0:findTF("TipGold", slot5)
-	slot0.backBtn = slot0:findTF("BackBtn", slot5)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot5)
-	slot6 = slot0:findTF("Data")
-	slot0.countText = slot0:findTF("Count", slot6)
-	slot0.goldText = slot0:findTF("Gold", slot6)
-	slot0.countText2 = slot0:findTF("Count2", slot6)
-	slot0.cardTpl = slot0:findTF("CardTpl")
-	slot0.cardContainer = slot0:findTF("CardContainer")
+	slot5 = slot0._tf:Find("Adapt")
+	slot0.tipGoldTF = slot5:Find("TipGold")
+	slot0.backBtn = slot5:Find("BackBtn")
+	slot0.helpBtn = slot5:Find("HelpBtn")
+	slot6 = slot0._tf:Find("Data")
+	slot0.countText = slot6:Find("Count")
+	slot0.goldText = slot6:Find("Gold")
+	slot0.countText2 = slot6:Find("Count2")
+	slot0.cardTpl = slot0._tf:Find("CardTpl")
+	slot0.cardContainer = slot0._tf:Find("CardContainer")
 	slot0.cardUIItemList = UIItemList.New(slot0.cardContainer, slot0.cardTpl)
-	slot0.selectBuffBtn = slot0:findTF("SelectBuffBtn")
-	slot0.selectBuffLight = slot0:findTF("SelectBuffLight")
-	slot0.curBuffTF = slot0:findTF("CurBuff")
-	slot0.curBuffImg = slot0:findTF("BuffImg", slot0.curBuffTF)
+	slot0.selectBuffBtn = slot0._tf:Find("SelectBuffBtn")
+	slot0.selectBuffLight = slot0._tf:Find("SelectBuffLight")
+	slot0.curBuffTF = slot0._tf:Find("CurBuff")
+	slot0.curBuffImg = slot0.curBuffTF:Find("BuffImg")
 end
 
 slot0.addListener = function(slot0)
@@ -229,10 +229,10 @@ slot0.updateCardList = function(slot0)
 
 			uv0:updateCardImg(slot3)
 			setLocalPosition(slot2, uv0.cardPosList[slot3])
-			onButton(uv0, uv0:findTF("Empty", slot2), function ()
+			onButton(uv0, slot2:Find("Empty"), function ()
 				uv0:openSelectShipView(uv1)
 			end, SFX_PANEL)
-			onButton(uv0, uv0:findTF("Ship", slot2), function ()
+			onButton(uv0, slot2:Find("Ship"), function ()
 				uv0:openShipWordView(uv0:getSelectedShipByCardIndex(uv1))
 			end, SFX_PANEL)
 		end
@@ -246,8 +246,8 @@ end
 
 slot0.updateCardImg = function(slot0, slot1)
 	slot2 = slot0.cardTFList[slot1]
-	slot3 = slot0:findTF("Empty", slot2)
-	slot4 = slot0:findTF("Ship", slot2)
+	slot3 = slot2:Find("Empty")
+	slot4 = slot2:Find("Ship")
 
 	if slot0:getSelectedShipByCardIndex(slot1) > 0 then
 		slot6 = "shipcard_" .. slot5
@@ -260,7 +260,7 @@ slot0.updateCardImg = function(slot0, slot1)
 end
 
 slot0.updateCardSelecting = function(slot0, slot1, slot2)
-	setActive(slot0:findTF("Selecting", slot0.cardTFList[slot1]), slot2)
+	setActive(slot0.cardTFList[slot1]:Find("Selecting"), slot2)
 end
 
 slot0.updateCardBuffTag = function(slot0)
@@ -273,7 +273,7 @@ slot0.updateCardBuffTag = function(slot0)
 	slot0:PrintLog("刷新舰娘BuffTtag")
 
 	for slot4, slot5 in ipairs(slot0.cardTFList) do
-		setActive(slot0:findTF("Ship/Buff", slot5), false)
+		setActive(slot5:Find("Ship/Buff"), false)
 	end
 
 	slot3 = slot0:getShipGameData():getConfig("config_data")[2]
@@ -282,7 +282,7 @@ slot0.updateCardBuffTag = function(slot0)
 	for slot8, slot9 in ipairs(slot0.playerProxy:getData().buff_list) do
 		if table.indexof(slot3, slot9.id, 1) then
 			if pg.TimeMgr.GetInstance():GetServerTime() < slot9.timestamp then
-				setActive(slot0:findTF("Ship/Buff", slot0.cardTFList[slot0:getCardIndexByShip(slot4)]), true)
+				setActive(slot0.cardTFList[slot0:getCardIndexByShip(slot4)]:Find("Ship/Buff"), true)
 
 				break
 			end
@@ -361,16 +361,16 @@ slot0.openSelectShipView = function(slot0, slot1)
 
 			slot0 = uv0.cardTFList[uv1]
 
-			setActive(uv0:findTF("Empty", slot0), true)
-			setActive(uv0:findTF("Ship", slot0), false)
+			setActive(slot0:Find("Empty"), true)
+			setActive(slot0:Find("Ship"), false)
 		end,
 		onSelect = function (slot0)
 			slot1 = uv0.cardTFList[uv1]
-			slot3 = uv0:findTF("Ship", slot1)
+			slot3 = slot1:Find("Ship")
 			slot4 = "shipcard_" .. slot0
 
 			setImageSprite(slot3, LoadSprite("Shrine2022/" .. slot4, slot4), true)
-			setActive(uv0:findTF("Empty", slot1), false)
+			setActive(slot1:Find("Empty"), false)
 			setActive(slot3, true)
 		end,
 		onConfirm = function (slot0)

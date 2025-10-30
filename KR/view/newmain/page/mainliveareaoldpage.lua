@@ -5,9 +5,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0._academyBtn = slot0:findTF("school_btn")
-	slot0._haremBtn = slot0:findTF("backyard_btn")
-	slot0._commanderBtn = slot0:findTF("commander_btn")
+	slot0._academyBtn = slot0._tf:Find("school_btn")
+	slot0._haremBtn = slot0._tf:Find("backyard_btn")
+	slot0._commanderBtn = slot0._tf:Find("commander_btn")
 
 	pg.redDotHelper:AddNode(RedDotNode.New(slot0._haremBtn:Find("tip"), {
 		pg.RedDotMgr.TYPES.COURTYARD

@@ -1,11 +1,11 @@
 slot0 = class("TWCelebrationPage2", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.getBtn = slot0:findTF("AD/get_btn")
-	slot0.gotBtn = slot0:findTF("AD/got_btn")
-	slot0.goBtn = slot0:findTF("AD/battle_btn")
-	slot0.mark = slot0:findTF("AD/mark")
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.getBtn = slot0._tf:Find("AD/get_btn")
+	slot0.gotBtn = slot0._tf:Find("AD/got_btn")
+	slot0.goBtn = slot0._tf:Find("AD/battle_btn")
+	slot0.mark = slot0._tf:Find("AD/mark")
 end
 
 slot0.OnFirstFlush = function(slot0)

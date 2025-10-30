@@ -31,9 +31,9 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.contextTF = slot0:findTF("scroll")
+	slot0.contextTF = slot0._tf:Find("scroll")
 	slot0.lScrollRect = GetComponent(slot0.contextTF, "LScrollRect")
-	slot0.scrollContent = slot0:findTF("scroll/content")
+	slot0.scrollContent = slot0._tf:Find("scroll/content")
 	slot0.scrollRectTF = GetComponent(slot0.scrollContent, typeof(RectTransform))
 	slot0.layoutGroup = GetComponent(slot0.scrollContent, typeof(GridLayoutGroup))
 	slot1 = slot0.scrollRectTF.rect.width
@@ -53,7 +53,7 @@ slot0.initUI = function(slot0)
 	slot0:initToggleList()
 	slot0:updateToggleList()
 	slot0:updateScrollRect()
-	triggerButton(slot0:findTF("toggleGroup"):GetChild(0))
+	triggerButton(slot0._tf:Find("toggleGroup"):GetChild(0))
 	slot0:blurView()
 end
 
@@ -182,16 +182,18 @@ slot0.updateToggleList = function(slot0)
 end
 
 slot0.initToggleList = function(slot0)
-	slot0.uiToggleList = UIItemList.New(slot0:findTF("toggleGroup"), slot0:findTF("toggleGroup/Toggle"))
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.uiToggleList = UIItemList.New(slot2:Find("toggleGroup"), slot3:Find("toggleGroup/Toggle"))
 	slot1 = slot0.uiToggleList
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			slot3 = uv0.packageSortList[slot1 + 1]
 
-			setText(uv0:findTF("selected/Label", slot2), i18n(string.format("shop_package_sort_%s", slot3)))
-			setText(uv0:findTF("selected/enText", slot2), i18n(string.format("shop_package_sort_en_%s", slot3)))
-			setText(uv0:findTF("unselected/Label", slot2), i18n(string.format("shop_package_sort_%s", slot3)))
+			setText(slot2:Find("selected/Label"), i18n(string.format("shop_package_sort_%s", slot3)))
+			setText(slot2:Find("selected/enText"), i18n(string.format("shop_package_sort_en_%s", slot3)))
+			setText(slot2:Find("unselected/Label"), i18n(string.format("shop_package_sort_%s", slot3)))
 			setActive(slot2:Find("unselected"), true)
 			setActive(slot2:Find("selected"), false)
 		elseif slot0 == UIItemList.EventUpdate then
@@ -329,7 +331,7 @@ end
 slot0.blurView = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		pbList = {
-			slot0:findTF("bg")
+			slot0._tf:Find("bg")
 		}
 	})
 end

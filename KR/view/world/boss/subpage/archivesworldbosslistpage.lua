@@ -32,31 +32,33 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.toggles = {
-		[uv0] = slot0:findTF("filter/finish"),
-		[uv1] = slot0:findTF("filter/parse")
+		[uv0] = slot0._tf:Find("filter/finish"),
+		[uv1] = slot0._tf:Find("filter/parse")
 	}
-	slot0.filterTr = slot0:findTF("filter")
-	slot0.mainTr = slot0:findTF("main")
-	slot0.scrollRect = slot0:findTF("main/list/scrollrect"):GetComponent("LScrollRect")
-	slot0.paintingTr = slot0:findTF("main/paint")
-	slot0.openTr = slot0:findTF("main/open")
-	slot0.ptIcon = slot0:findTF("main/award/pt/icon")
-	slot0.ptTr = slot0:findTF("main/award/pt/Text"):GetComponent(typeof(Text))
-	slot0.getAllBtn = slot0:findTF("main/award/get_all")
-	slot0.awardScrollrect = slot0:findTF("main/award/scrollrect"):GetComponent("LScrollRect")
-	slot0.awardArrTr = slot0:findTF("main/award/arr")
-	slot0.emptyTr = slot0:findTF("empty")
-	slot0.emptyFinishTr = slot0:findTF("empty_finsih")
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
+	slot0.filterTr = slot0._tf:Find("filter")
+	slot0.mainTr = slot0._tf:Find("main")
+	slot0.scrollRect = slot0._tf:Find("main/list/scrollrect"):GetComponent("LScrollRect")
+	slot0.paintingTr = slot0._tf:Find("main/paint")
+	slot0.openTr = slot0._tf:Find("main/open")
+	slot0.ptIcon = slot0._tf:Find("main/award/pt/icon")
+	slot0.ptTr = slot0._tf:Find("main/award/pt/Text"):GetComponent(typeof(Text))
+	slot0.getAllBtn = slot0._tf:Find("main/award/get_all")
+	slot0.awardScrollrect = slot0._tf:Find("main/award/scrollrect"):GetComponent("LScrollRect")
+	slot0.awardArrTr = slot0._tf:Find("main/award/arr")
+	slot0.emptyTr = slot0._tf:Find("empty")
+	slot0.emptyFinishTr = slot0._tf:Find("empty_finsih")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back")
 	slot0.msgBox = ArchivesWorldBossMsgboxPage.New(slot0._parentTf.parent, slot0.event)
 
-	setText(slot0:findTF("main/award/pt/label"), i18n("meta_syn_value_label"))
+	setText(slot0._tf:Find("main/award/pt/label"), i18n("meta_syn_value_label"))
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(WorldBossScene.ON_QUIT_ARCHIVES_LIST)
 	end, SFX_CANCEL)
+
+	slot3 = slot0._tf
 
 	slot4 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -67,7 +69,7 @@ slot0.OnInit = function(slot0)
 
 	slot5 = SFX_CANCEL
 
-	onButton(slot0, slot0:findTF("help"), slot4, slot5)
+	onButton(slot0, slot3:Find("help"), slot4, slot5)
 
 	slot0.cards = {}
 
@@ -103,8 +105,8 @@ slot0.OnInit = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	if slot0:findTF("empty_finsih") then
-		GetComponent(slot0:findTF("empty_finsih"), typeof(Image)):SetNativeSize()
+	if slot0._tf:Find("empty_finsih") then
+		GetComponent(slot0._tf:Find("empty_finsih"), typeof(Image)):SetNativeSize()
 	end
 end
 

@@ -52,34 +52,34 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot1 = slot0:findTF("Adapt")
-	slot0.backBtn = slot0:findTF("BackBtn", slot1)
-	slot0.homeBtn = slot0:findTF("HomeBtn", slot1)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
-	slot2 = slot0:findTF("PacketPanel")
-	slot0.countText = slot0:findTF("Count/CountText", slot2)
+	slot1 = slot0._tf:Find("Adapt")
+	slot0.backBtn = slot1:Find("BackBtn")
+	slot0.homeBtn = slot1:Find("HomeBtn")
+	slot0.helpBtn = slot1:Find("HelpBtn")
+	slot2 = slot0._tf:Find("PacketPanel")
+	slot0.countText = slot2:Find("Count/CountText")
 	slot0.packetTFList = {}
-	slot3 = slot0:findTF("ContainerBehide", slot2)
+	slot3 = slot2:Find("ContainerBehide")
 
 	for slot7 = 1, 5 do
 		table.insert(slot0.packetTFList, slot3:GetChild(slot7 - 1))
 	end
 
-	slot4 = slot0:findTF("ContainerFront", slot2)
+	slot4 = slot2:Find("ContainerFront")
 
 	for slot8 = 1, 5 do
 		table.insert(slot0.packetTFList, slot4:GetChild(slot8 - 1))
 	end
 
-	slot5 = slot0:findTF("AwardPanel")
-	slot0.awardTpl = slot0:findTF("AwardTpl", slot5)
+	slot5 = slot0._tf:Find("AwardPanel")
+	slot0.awardTpl = slot5:Find("AwardTpl")
 	slot0.iconTpl = Instantiate(slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0])
 
 	setLocalScale(slot0.iconTpl, {
 		x = 0.4,
 		y = 0.4
 	})
-	setParent(slot0.iconTpl, slot0:findTF("Icon", slot0.awardTpl))
+	setParent(slot0.iconTpl, slot0.awardTpl:Find("Icon"))
 
 	slot0.awardTFList = {}
 
@@ -89,13 +89,13 @@ slot0.findUI = function(slot0)
 		end
 	end
 
-	slot6(1, slot0.awardTpl, slot0:findTF("Container_1", slot5))
-	slot6(2, slot0.awardTpl, slot0:findTF("Container_2", slot5))
-	slot6(3, slot0.awardTpl, slot0:findTF("Container_3", slot5))
-	slot6(4, slot0.awardTpl, slot0:findTF("Container_4", slot5))
+	slot6(1, slot0.awardTpl, slot5:Find("Container_1"))
+	slot6(2, slot0.awardTpl, slot5:Find("Container_2"))
+	slot6(3, slot0.awardTpl, slot5:Find("Container_3"))
+	slot6(4, slot0.awardTpl, slot5:Find("Container_4"))
 
-	slot0.aniPanel = slot0:findTF("AniPanel")
-	slot0.aniTF = slot0:findTF("Ani", slot0.aniPanel)
+	slot0.aniPanel = slot0._tf:Find("AniPanel")
+	slot0.aniTF = slot0.aniPanel:Find("Ani")
 	slot0.aniSC = GetComponent(slot0.aniTF, "SpineAnimUI")
 end
 
@@ -138,11 +138,11 @@ slot0.updateActData = function(slot0)
 end
 
 slot0.updatePacketTpl = function(slot0, slot1, slot2)
-	slot5 = slot0:findTF("Selected", slot2)
+	slot5 = slot2:Find("Selected")
 	slot6 = slot0:isPacketIndexGot(slot1)
 
-	setActive(slot0:findTF("Got", slot2), slot6)
-	setActive(slot0:findTF("Normal", slot2), not slot6)
+	setActive(slot2:Find("Got"), slot6)
+	setActive(slot2:Find("Normal"), not slot6)
 	onButton(slot0, slot2, function ()
 		if not uv0 and uv1.curCount > 0 then
 			pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
@@ -161,8 +161,10 @@ slot0.updatePacketList = function(slot0)
 end
 
 slot0.updateAwardTpl = function(slot0, slot1, slot2)
-	updateDrop(slot0:findTF("Icon/IconTpl(Clone)", slot2), slot0.awardList[slot1])
-	setActive(slot0:findTF("Got", slot2), slot0:isAwardGot(slot1))
+	slot3 = slot0._tf
+
+	updateDrop(slot3:Find("Icon/IconTpl(Clone)", slot2), slot0.awardList[slot1])
+	setActive(slot2:Find("Got"), slot0:isAwardGot(slot1))
 	onButton(slot0, slot2, function ()
 		if not uv0 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({

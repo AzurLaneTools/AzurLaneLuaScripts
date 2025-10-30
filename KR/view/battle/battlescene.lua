@@ -49,17 +49,17 @@ slot0.init = function(slot0)
 	uv0 = ys.Battle.BattleVariable
 	slot1 = pg.UIMgr.GetInstance():GetMainCamera()
 	slot0.uiCanvas = findTF(GameObject.Find("UICamera"), "Canvas/UIMain")
-	slot0.skillTips = slot0:findTF("Skill_Activation")
-	slot0.skillRoot = slot0:findTF("Skill_Activation/Root")
-	slot0.skillTpl = slot0:findTF("Skill_Activation/mask").gameObject
+	slot0.skillTips = slot0._tf:Find("Skill_Activation")
+	slot0.skillRoot = slot0._tf:Find("Skill_Activation/Root")
+	slot0.skillTpl = slot0._tf:Find("Skill_Activation/mask").gameObject
 	slot0._skillFloatPool = pg.Pool.New(slot0.skillRoot, slot0.skillTpl, 15, 10, true, false):InitSize()
 
 	slot0._skillFloatPool:SetRecycleFuncs(function (slot0)
 		slot0.transform:GetComponent(typeof(DftAniEvent)):OnDestroy()
 	end)
 
-	slot0.skillCMDRoot = slot0:findTF("Skill_Activation/Root_cmd")
-	slot0.skillCMDTpl = slot0:findTF("Skill_Activation/mask_cmd").gameObject
+	slot0.skillCMDRoot = slot0._tf:Find("Skill_Activation/Root_cmd")
+	slot0.skillCMDTpl = slot0._tf:Find("Skill_Activation/mask_cmd").gameObject
 	slot0._skillFloatCMDPool = pg.Pool.New(slot0.skillCMDRoot, slot0.skillCMDTpl, 2, 4, true, false):InitSize()
 
 	slot0._skillFloatCMDPool:SetRecycleFuncs(function (slot0)
@@ -372,15 +372,15 @@ slot0.didEnter = function(slot0)
 	slot1 = ys.Battle.BattleState.GetInstance()
 
 	slot1:SetBattleUI(slot0)
-	onButton(slot0, slot0:findTF("PauseBtn"), function ()
+	onButton(slot0, slot0._tf:Find("PauseBtn"), function ()
 		uv0:emit(BattleMediator.ON_PAUSE)
 	end, SFX_CONFIRM)
 
-	slot0._chatBtn = slot0:findTF("chatBtn")
+	slot0._chatBtn = slot0._tf:Find("chatBtn")
 	slot2 = slot0._chatBtn:GetComponent(typeof(Animation))
 
 	onButton(slot0, slot0._chatBtn, function ()
-		uv0:emit(BattleMediator.ON_CHAT, uv0:findTF("chatContainer"))
+		uv0:emit(BattleMediator.ON_CHAT, uv0._tf:Find("chatContainer"))
 
 		if not uv1 then
 			setActive(uv0._chatBtn, false)
@@ -388,12 +388,12 @@ slot0.didEnter = function(slot0)
 			uv1:Play("chatbtn_out")
 		end
 	end)
-	onToggle(slot0, slot0:findTF("AutoBtn"), function (slot0)
+	onToggle(slot0, slot0._tf:Find("AutoBtn"), function (slot0)
 		slot1 = uv0:GetBattleType()
 
 		uv1:emit(BattleMediator.ON_AUTO, {
 			isOn = not slot0,
-			toggle = uv1:findTF("AutoBtn"),
+			toggle = uv1._tf:Find("AutoBtn"),
 			system = slot1
 		})
 		uv0:ActiveBot(ys.Battle.BattleState.IsAutoBotActive(slot1))
@@ -410,12 +410,12 @@ slot0.didEnter = function(slot0)
 			setActive(uv1._chatBtn, false)
 		end
 	end, SFX_PANEL, SFX_PANEL)
-	onButton(slot0, slot0:findTF("CardPuzzleConsole/relic/bg"), function ()
+	onButton(slot0, slot0._tf:Find("CardPuzzleConsole/relic/bg"), function ()
 		uv1:emit(BattleMediator.ON_PUZZLE_RELIC, {
 			relicList = uv0:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE):GetCardPuzzleComponent():GetRelicList()
 		})
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0:findTF("CardPuzzleConsole/deck/bg"), function ()
+	onButton(slot0, slot0._tf:Find("CardPuzzleConsole/deck/bg"), function ()
 		slot2 = uv0:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE):GetCardPuzzleComponent()
 
 		uv1:emit(BattleMediator.ON_PUZZLE_CARD, {
@@ -458,7 +458,7 @@ slot0.didEnter = function(slot0)
 	slot0:initPauseWindow()
 
 	if slot0.contextData.prePause then
-		triggerButton(slot0:findTF("PauseBtn"))
+		triggerButton(slot0._tf:Find("PauseBtn"))
 	end
 
 	setActive(slot0._chatBtn, slot1:ChatUseable())
@@ -524,15 +524,25 @@ slot0.setFleet = function(slot0, slot1, slot2)
 end
 
 slot0.initPauseWindow = function(slot0)
-	slot0.pauseWindow = slot0:findTF("Msgbox")
-	slot0.LeftTimeContainer = slot0:findTF("window/LeftTime", slot0.pauseWindow)
-	slot0.LeftTime = slot0:findTF("window/LeftTime/Text", slot0.pauseWindow)
+	slot1 = slot0._tf
+	slot0.pauseWindow = slot1:Find("Msgbox")
+	slot1 = slot0.pauseWindow
+	slot0.LeftTimeContainer = slot1:Find("window/LeftTime")
+	slot1 = slot0.pauseWindow
+	slot0.LeftTime = slot1:Find("window/LeftTime/Text")
 	slot0.mainTFs = {}
 	slot0.vanTFs = {}
+	slot2 = slot0.LeftTimeContainer
 
-	setText(slot0:findTF("label", slot0.LeftTimeContainer), i18n("battle_battleMediator_remainTime"))
-	setText(slot0:findTF("window/van/power/title", slot0.pauseWindow), i18n("word_vanguard_fleet"))
-	setText(slot0:findTF("window/main/power/title", slot0.pauseWindow), i18n("word_main_fleet"))
+	setText(slot2:Find("label"), i18n("battle_battleMediator_remainTime"))
+
+	slot2 = slot0.pauseWindow
+
+	setText(slot2:Find("window/van/power/title"), i18n("word_vanguard_fleet"))
+
+	slot2 = slot0.pauseWindow
+
+	setText(slot2:Find("window/main/power/title"), i18n("word_main_fleet"))
 
 	slot1 = function(slot0, slot1, slot2)
 		for slot6 = 1, 3 do
@@ -557,17 +567,17 @@ slot0.initPauseWindow = function(slot0)
 	end
 
 	if slot0._mainShipVOs then
-		slot1(true, slot0:findTF("window/main", slot0.pauseWindow), slot0._mainShipVOs)
-		slot1(false, slot0:findTF("window/van", slot0.pauseWindow), slot0._vanShipVOs)
+		slot1(true, slot0.pauseWindow:Find("window/main"), slot0._mainShipVOs)
+		slot1(false, slot0.pauseWindow:Find("window/van"), slot0._vanShipVOs)
 	end
 
 	slot3 = findTF(slot0.pauseWindow, "window/Chapter")
 	slot4 = findTF(slot0.pauseWindow, "window/Chapter/Text")
-	slot0.continueBtn = slot0:findTF("window/button_container/continue", slot0.pauseWindow)
-	slot0.leaveBtn = slot0:findTF("window/button_container/leave", slot0.pauseWindow)
+	slot0.continueBtn = slot0.pauseWindow:Find("window/button_container/continue")
+	slot0.leaveBtn = slot0.pauseWindow:Find("window/button_container/leave")
 
-	setText(slot0:findTF("pic", slot0.continueBtn), i18n("battle_battleMediator_goOnFight"))
-	setText(slot0:findTF("pic", slot0.leaveBtn), i18n("battle_battleMediator_existFight"))
+	setText(slot0.continueBtn:Find("pic"), i18n("battle_battleMediator_goOnFight"))
+	setText(slot0.leaveBtn:Find("pic"), i18n("battle_battleMediator_existFight"))
 
 	if ys.Battle.BattleState.GetInstance():GetBattleType() == SYSTEM_SCENARIO then
 		slot6 = slot0._chapter:getConfigTable()
@@ -636,7 +646,10 @@ slot0.initPauseWindow = function(slot0)
 			uv1:Resume()
 		end
 	end)
-	onButton(slot0, slot0:findTF("help", slot0.pauseWindow), function ()
+
+	slot8 = slot0.pauseWindow
+
+	onButton(slot0, slot8:Find("help"), function ()
 		if BATTLE_DEBUG and PLATFORM == 7 then
 			setActive(uv0.pauseWindow, false)
 			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.pauseWindow, uv0._tf)
@@ -649,7 +662,10 @@ slot0.initPauseWindow = function(slot0)
 			})
 		end
 	end)
-	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.pauseWindow), function ()
+
+	slot8 = slot0.pauseWindow
+
+	onButton(slot0, slot8:Find("window/top/btnBack"), function ()
 		triggerButton(uv0.continueBtn)
 	end)
 	onButton(slot0, slot0.pauseWindow, function ()

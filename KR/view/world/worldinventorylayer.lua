@@ -15,44 +15,44 @@ slot0.init = function(slot0)
 		uv0:setItemList(uv0.inventoryProxy:GetItemList())
 	end
 
-	slot0.blurPanel = slot0:findTF("adapt/blur_panel")
-	slot0.backBtn = slot0:findTF("adapt/top/back_btn", slot0.blurPanel)
-	slot0.topItems = slot0:findTF("adapt/topItems")
-	slot0.itemView = slot0:findTF("adapt/item_scrollview")
-	slot0.equipmentView = slot0:findTF("adapt/equipment_scrollview")
-	slot0.materialtView = slot0:findTF("adapt/material_scrollview")
+	slot0.blurPanel = slot0._tf:Find("adapt/blur_panel")
+	slot0.backBtn = slot0.blurPanel:Find("adapt/top/back_btn")
+	slot0.topItems = slot0._tf:Find("adapt/topItems")
+	slot0.itemView = slot0._tf:Find("adapt/item_scrollview")
+	slot0.equipmentView = slot0._tf:Find("adapt/equipment_scrollview")
+	slot0.materialtView = slot0._tf:Find("adapt/material_scrollview")
 	slot1 = nil
 	slot1 = (NotchAdapt.CheckNotchRatio == 2 or not getProxy(SettingsProxy):CheckLargeScreen()) and slot0.itemView.rect.width > 2000 or NotchAdapt.CheckNotchRatio >= 2
 	slot0.itemView:Find("Viewport/item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot1 and 8 or 7
 	slot0.equipmentView:Find("Viewport/moudle_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot1 and 8 or 7
 	slot0.materialtView:Find("Viewport/item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot1 and 8 or 7
-	slot0.itemUsagePanel = ItemUsagePanel.New(slot0:findTF("adapt/item_usage_panel"), slot0:findTF("adapt"))
-	slot0.itemResetPanel = ItemResetPanel.New(slot0:findTF("adapt/reset_info_panel"), slot0:findTF("adapt"))
-	slot0.assignedItemView = WorldAssignedItemView.New(slot0:findTF("adapt"), slot0.event)
+	slot0.itemUsagePanel = ItemUsagePanel.New(slot0._tf:Find("adapt/item_usage_panel"), slot0._tf:Find("adapt"))
+	slot0.itemResetPanel = ItemResetPanel.New(slot0._tf:Find("adapt/reset_info_panel"), slot0._tf:Find("adapt"))
+	slot0.assignedItemView = WorldAssignedItemView.New(slot0._tf:Find("adapt"), slot0.event)
 	slot0.itemCards = {}
 	slot0.equipmetItems = {}
 	slot0.materialCards = {}
-	slot0._itemToggle = slot0:findTF("bottom_back/types/properties", slot0.topItems)
-	slot0._weaponToggle = slot0:findTF("bottom_back/types/siren_weapon", slot0.topItems)
-	slot0._materialToggle = slot0:findTF("bottom_back/types/material", slot0.topItems)
-	slot0.exchangeTips = slot0:findTF("bottom_back/reset_exchange", slot0.topItems)
+	slot0._itemToggle = slot0.topItems:Find("bottom_back/types/properties")
+	slot0._weaponToggle = slot0.topItems:Find("bottom_back/types/siren_weapon")
+	slot0._materialToggle = slot0.topItems:Find("bottom_back/types/material")
+	slot0.exchangeTips = slot0.topItems:Find("bottom_back/reset_exchange")
 
-	setText(slot0:findTF("bottom_back/reset_exchange/Text", slot0.topItems), i18n("world_inventory_tip"))
+	setText(slot0.topItems:Find("bottom_back/reset_exchange/Text"), i18n("world_inventory_tip"))
 
-	slot0.filterBusyToggle = slot0:findTF("adapt/left_length/frame/toggle_equip", slot0.blurPanel)
-	slot0.sortBtn = slot0:findTF("adapt/top/buttons/sort_button", slot0.blurPanel)
-	slot0.indexBtn = slot0:findTF("adapt/top/buttons/index_button", slot0.blurPanel)
-	slot0.decBtn = slot0:findTF("adapt/top/buttons/dec_btn", slot0.blurPanel)
-	slot0.upOrderTF = slot0:findTF("asc", slot0.decBtn)
-	slot0.downOrderTF = slot0:findTF("desc", slot0.decBtn)
-	slot0.sortPanel = slot0:findTF("sort", slot0.topItems)
-	slot0.sortContain = slot0:findTF("adapt/mask/panel", slot0.sortPanel)
-	slot0.sortTpl = slot0:findTF("tpl", slot0.sortContain)
+	slot0.filterBusyToggle = slot0.blurPanel:Find("adapt/left_length/frame/toggle_equip")
+	slot0.sortBtn = slot0.blurPanel:Find("adapt/top/buttons/sort_button")
+	slot0.indexBtn = slot0.blurPanel:Find("adapt/top/buttons/index_button")
+	slot0.decBtn = slot0.blurPanel:Find("adapt/top/buttons/dec_btn")
+	slot0.upOrderTF = slot0.decBtn:Find("asc")
+	slot0.downOrderTF = slot0.decBtn:Find("desc")
+	slot0.sortPanel = slot0.topItems:Find("sort")
+	slot0.sortContain = slot0.sortPanel:Find("adapt/mask/panel")
+	slot0.sortTpl = slot0.sortContain:Find("tpl")
 
 	setActive(slot0.sortTpl, false)
 	slot0:initData()
 	slot0:addListener()
-	print(slot0:findTF("bg").rect.width)
+	print(slot0._tf:Find("bg").rect.width)
 end
 
 slot0.didEnter = function(slot0)
@@ -86,7 +86,7 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.onBackPressed = function(slot0)
-	print(slot0:findTF("bg").rect.width)
+	print(slot0._tf:Find("bg").rect.width)
 
 	if isActive(slot0.itemResetPanel._go) then
 		slot0.itemResetPanel:Close()
@@ -128,7 +128,7 @@ end
 
 slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		print(uv0:findTF("bg").rect.width)
+		print(uv0._tf:Find("bg").rect.width)
 		uv0:closeView()
 	end, SFX_CANCEL)
 
@@ -536,7 +536,7 @@ slot0.PlayOpenBox = function(slot0, slot1, slot2)
 
 		slot0 = tf(uv0[uv1])
 
-		slot0:SetParent(uv0:findTF("adapt"), false)
+		slot0:SetParent(uv0._tf:Find("adapt"), false)
 		slot0:SetAsLastSibling()
 
 		slot1 = slot0:GetComponent("DftAniEvent")
@@ -554,7 +554,7 @@ slot0.PlayOpenBox = function(slot0, slot1, slot2)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_EQUIPMENT_OPEN)
 	end
 
-	if slot0:findTF(slot1 .. "(Clone)") then
+	if slot0._tf:Find(slot1 .. "(Clone)") then
 		slot0[slot1] = go(slot4)
 	end
 
@@ -696,7 +696,7 @@ slot0.filterEquipment = function(slot0)
 	end
 
 	slot0:updateEquipmentCount()
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot1.spr), true)
+	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot1.spr), true)
 	setActive(slot0.downOrderTF, not slot0.contextData.asc)
 	setActive(slot0.upOrderTF, slot0.contextData.asc)
 end

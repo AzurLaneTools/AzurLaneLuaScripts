@@ -11,19 +11,29 @@ slot0.OnInit = function(slot0)
 	slot0.destroyBonusItem = slot1:Find("equipment_tpl")
 	slot1 = slot0._tf
 	slot0.destroyNoGotTip = slot1:Find("frame/bg/tip")
+	slot2 = slot0._tf
 
-	setText(slot0:findTF("frame/title_text/Text"), i18n("equipment_select_device_destroy_bonus_tip"))
+	setText(slot2:Find("frame/title_text/Text"), i18n("equipment_select_device_destroy_bonus_tip"))
 	setText(slot0.destroyNoGotTip, i18n("equipment_select_device_destroy_nobonus_tip"))
-	onButton(slot0, slot0:findTF("frame/actions/cancel_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame/actions/cancel_btn"), function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("frame/top/btnBack"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame/top/btnBack"), function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("frame/actions/confirm_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame/actions/confirm_btn"), function ()
 		uv0:emit(EquipmentMediator.ON_DESTROY, uv0.selectedIds)
 		uv0.confirmBtnCB()
 		uv0:Hide()

@@ -559,7 +559,7 @@ slot0.OnGetAllDelegationAward = function(slot0, slot1)
 		end
 	end
 
-	if slot1.build_id == IslandProductConst.FarmlandPlaceId then
+	if slot1.build_id == IslandProductConst.FarmlandPlaceId or slot1.build_id == IslandProductConst.OrchardPlaceId or slot1.build_id == IslandProductConst.GardenPlaceId then
 		for slot8, slot9 in ipairs(pg.island_production_slot[slot1.area_id].exclusion_slot) do
 			slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot3:GetUnitIdBySlotId(slot9))
 			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot3:GenHandPlantUnitBySlotData(slot9))

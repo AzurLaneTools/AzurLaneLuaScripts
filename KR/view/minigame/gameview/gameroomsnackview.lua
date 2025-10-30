@@ -56,13 +56,13 @@ slot0.updateSelectedList = function(slot0, slot1)
 
 	for slot5 = 1, uv0.Order_Num do
 		slot6 = slot0.selectedContainer:GetChild(slot5 - 1)
-		slot8 = slot0:findTF("Full", slot6)
-		slot9 = slot0:findTF("SnackImg", slot8)
+		slot8 = slot6:Find("Full")
+		slot9 = slot8:Find("SnackImg")
 		slot0.selectedTFList[slot5] = slot6
 		slot10 = slot1[slot5]
 
 		setActive(slot8, slot10)
-		setActive(slot0:findTF("Empty", slot6), not slot10)
+		setActive(slot6:Find("Empty"), not slot10)
 
 		if slot10 then
 			setImageSprite(slot9, GetSpriteFromAtlas("ui/minigameui/newyearsnackui_atlas", "snack_" .. slot10))
@@ -74,8 +74,8 @@ slot0.updateSnackList = function(slot0, slot1)
 	for slot5 = 1, uv0.Snack_Num do
 		slot6 = slot0.snackContainer:GetChild(slot5 - 1)
 
-		setImageSprite(slot0:findTF("SnackImg", slot6), GetSpriteFromAtlas("ui/minigameui/newyearsnackui_atlas", "snack_" .. slot1[slot5]))
-		setActive(slot0:findTF("SelectedTag", slot6), false)
+		setImageSprite(slot6:Find("SnackImg"), GetSpriteFromAtlas("ui/minigameui/newyearsnackui_atlas", "snack_" .. slot1[slot5]))
+		setActive(slot6:Find("SelectedTag"), false)
 
 		slot0.snackTFList[slot5] = slot6
 		slot5 = slot5 + 1
@@ -84,7 +84,7 @@ end
 
 slot0.updateSelectedOrderTag = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.selectedSnackTFList) do
-		slot7 = slot0:findTF("SelectedTag", slot6)
+		slot7 = slot6:Find("SelectedTag")
 
 		if slot1 then
 			setActive(slot7, false)

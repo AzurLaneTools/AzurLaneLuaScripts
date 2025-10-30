@@ -9,8 +9,8 @@ end
 
 slot0.didEnter = function(slot0)
 	slot0.diamondPanel = findTF(slot0._tf, "frame/viewContainer/diamondPanel")
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.detail = slot0:findTF("detail", slot0.blurPanel)
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.detail = slot0.blurPanel:Find("detail")
 	slot0.damondItems = {}
 
 	setText(findTF(slot0._tf, "frame/viewContainer/leftPanel/desc"), i18n("Supplement_pay2"))
@@ -79,7 +79,7 @@ slot0.initDiamondList = function(slot0, slot1)
 		end
 	end
 
-	slot6 = UIItemList.New(slot0:findTF("content", slot1), slot0:findTF("ItemTpl", slot1))
+	slot6 = UIItemList.New(slot1:Find("content"), slot1:Find("ItemTpl"))
 
 	slot6:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
@@ -172,9 +172,9 @@ slot0.showItemDetail = function(slot0, slot1)
 	slot11 = slot1.tagType
 	slot12 = slot1.normalTip
 
-	setActive(slot0:findTF("window2", slot0.detail), slot12)
-	setActive(slot0:findTF("window", slot0.detail), not slot12)
-	slot0:bindDetailTF(slot12 and slot0:findTF("window2", slot0.detail) or slot0:findTF("window", slot0.detail))
+	setActive(slot0.detail:Find("window2"), slot12)
+	setActive(slot0.detail:Find("window"), not slot12)
+	slot0:bindDetailTF(slot12 and slot0.detail:Find("window2") or slot0.detail:Find("window"))
 
 	if slot0.detailNormalTip then
 		setActive(slot0.detailNormalTip, slot12)
@@ -266,15 +266,15 @@ slot0.showItemDetail = function(slot0, slot1)
 		end
 	end
 
-	onButton(slot0, slot0:findTF("back_sign", slot0.detail), function ()
+	onButton(slot0, slot0.detail:Find("back_sign"), function ()
 		SetActive(uv0.detail, false)
 		uv0:revertDetailBlur()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("button_container/button_cancel", slot0.detailWindow), function ()
+	onButton(slot0, slot0.detailWindow:Find("button_container/button_cancel"), function ()
 		SetActive(uv0.detail, false)
 		uv0:revertDetailBlur()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("button_container/button_ok", slot0.detailWindow), slot1.onYes or function ()
+	onButton(slot0, slot0.detailWindow:Find("button_container/button_ok"), slot1.onYes or function ()
 	end, SFX_PANEL)
 	setActive(slot0.detail, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.blurPanel)
@@ -282,36 +282,36 @@ end
 
 slot0.bindDetailTF = function(slot0, slot1)
 	slot0.detailWindow = slot1
-	slot0.detailName = slot0:findTF("goods/name", slot0.detailWindow)
-	slot0.detailIcon = slot0:findTF("goods/icon", slot0.detailWindow)
+	slot0.detailName = slot0.detailWindow:Find("goods/name")
+	slot0.detailIcon = slot0.detailWindow:Find("goods/icon")
 	slot0.detailIconTF = slot0.detailIcon:GetComponent(typeof(Image))
-	slot0.detailRmb = slot0:findTF("prince_bg/contain/icon_rmb", slot0.detailWindow)
-	slot0.detailGem = slot0:findTF("prince_bg/contain/icon_gem", slot0.detailWindow)
-	slot0.detailPrice = slot0:findTF("prince_bg/contain/Text", slot0.detailWindow)
-	slot0.detailTag = slot0:findTF("goods/tag", slot0.detailWindow)
+	slot0.detailRmb = slot0.detailWindow:Find("prince_bg/contain/icon_rmb")
+	slot0.detailGem = slot0.detailWindow:Find("prince_bg/contain/icon_gem")
+	slot0.detailPrice = slot0.detailWindow:Find("prince_bg/contain/Text")
+	slot0.detailTag = slot0.detailWindow:Find("goods/tag")
 	slot0.detailTags = {}
 
-	table.insert(slot0.detailTags, slot0:findTF("hot", slot0.detailTag))
-	table.insert(slot0.detailTags, slot0:findTF("new", slot0.detailTag))
-	table.insert(slot0.detailTags, slot0:findTF("advice", slot0.detailTag))
-	table.insert(slot0.detailTags, slot0:findTF("double", slot0.detailTag))
-	table.insert(slot0.detailTags, slot0:findTF("discount", slot0.detailTag))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("hot"))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("new"))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("advice"))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("double"))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("discount"))
 
-	slot0.detailTagDoubleTF = slot0:findTF("double", slot0.detailTag)
-	slot0.detailTagAdviceTF = slot0:findTF("advice", slot0.detailTag)
-	slot0.detailContain = slot0:findTF("container", slot0.detailWindow)
+	slot0.detailTagDoubleTF = slot0.detailTag:Find("double")
+	slot0.detailTagAdviceTF = slot0.detailTag:Find("advice")
+	slot0.detailContain = slot0.detailWindow:Find("container")
 
 	if slot0.detailContain then
-		slot0.extra = slot0:findTF("container/items", slot0.detailWindow)
-		slot0.detailTip2 = slot0:findTF("Text", slot0.extra)
-		slot0.detailItemList = slot0:findTF("scrollview/list", slot0.extra)
-		slot0.normal = slot0:findTF("container/normal_items", slot0.detailWindow)
-		slot0.detailTip = slot0:findTF("Text", slot0.normal)
-		slot0.detailItem = slot0:findTF("item_tpl", slot0.normal)
-		slot0.detailDescExtra = slot0:findTF("container/Text", slot0.detailWindow)
+		slot0.extra = slot0.detailWindow:Find("container/items")
+		slot0.detailTip2 = slot0.extra:Find("Text")
+		slot0.detailItemList = slot0.extra:Find("scrollview/list")
+		slot0.normal = slot0.detailWindow:Find("container/normal_items")
+		slot0.detailTip = slot0.normal:Find("Text")
+		slot0.detailItem = slot0.normal:Find("item_tpl")
+		slot0.detailDescExtra = slot0.detailWindow:Find("container/Text")
 	end
 
-	slot0.detailNormalTip = slot0:findTF("NormalTips", slot0.detailWindow)
+	slot0.detailNormalTip = slot0.detailWindow:Find("NormalTips")
 end
 
 slot0.revertDetailBlur = function(slot0)

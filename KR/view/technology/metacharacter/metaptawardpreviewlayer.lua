@@ -23,10 +23,10 @@ slot0.willExit = function(slot0)
 end
 
 slot0.initUITextTips = function(slot0)
-	setText(slot0:findTF("Panel/AwardTpl/PointLight/PointTipText"), i18n("meta_pt_point"))
-	setText(slot0:findTF("Panel/AwardTpl/PointGray/PointTipText"), i18n("meta_pt_point"))
-	setText(slot0:findTF("Panel/AwardTpl/GetText"), i18n("meta_award_get"))
-	setText(slot0:findTF("Panel/AwardTpl/GotText"), i18n("meta_award_got"))
+	setText(slot0._tf:Find("Panel/AwardTpl/PointLight/PointTipText"), i18n("meta_pt_point"))
+	setText(slot0._tf:Find("Panel/AwardTpl/PointGray/PointTipText"), i18n("meta_pt_point"))
+	setText(slot0._tf:Find("Panel/AwardTpl/GetText"), i18n("meta_award_get"))
+	setText(slot0._tf:Find("Panel/AwardTpl/GotText"), i18n("meta_award_got"))
 end
 
 slot0.initData = function(slot0)
@@ -36,17 +36,17 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot1 = slot0:findTF("Panel")
-	slot2 = slot0:findTF("PT", slot1)
-	slot0.ptNumText = slot0:findTF("NumText", slot2)
-	slot0.ptIcon = slot0:findTF("PTIcon", slot2)
-	slot0.scrollViewTF = slot0:findTF("ScrollView", slot1)
-	slot0.awardContainerTF = slot0:findTF("ScrollView/Viewport/Content", slot1)
-	slot0.awardTpl = slot0:findTF("AwardTpl", slot1)
-	slot3 = slot0:findTF("NotchAdapt")
-	slot0.nextArrow = slot0:findTF("NextBtn", slot3)
-	slot0.preArrow = slot0:findTF("PreBtn", slot3)
+	slot0.bg = slot0._tf:Find("BG")
+	slot1 = slot0._tf:Find("Panel")
+	slot2 = slot1:Find("PT")
+	slot0.ptNumText = slot2:Find("NumText")
+	slot0.ptIcon = slot2:Find("PTIcon")
+	slot0.scrollViewTF = slot1:Find("ScrollView")
+	slot0.awardContainerTF = slot1:Find("ScrollView/Viewport/Content")
+	slot0.awardTpl = slot1:Find("AwardTpl")
+	slot3 = slot0._tf:Find("NotchAdapt")
+	slot0.nextArrow = slot3:Find("NextBtn")
+	slot0.preArrow = slot3:Find("PreBtn")
 	slot0.sizeW = GetComponent(slot0.awardTpl, "LayoutElement").preferredWidth
 	slot0.spaceW = GetComponent(slot0.awardContainerTF, "HorizontalLayoutGroup").spacing
 	slot0.leftW = GetComponent(slot0.awardContainerTF, "HorizontalLayoutGroup").padding.left
@@ -92,15 +92,17 @@ slot0.updateScrollList = function(slot0)
 end
 
 slot0.updateAwardTpl = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("Item", slot1)
-	slot4 = slot0:findTF("mask", slot3)
-	slot5 = slot0:findTF("Got", slot4)
-	slot6 = slot0:findTF("Lock", slot4)
-	slot11 = slot0:findTF("GetText", slot1)
-	slot12 = slot0:findTF("GotText", slot1)
-	slot14 = slot0:findTF("LineTpl", slot1)
-	slot15 = slot0:findTF("LineTpl/Light", slot1)
-	slot16 = slot0:findTF("LineTpl/Dark", slot1)
+	slot3 = slot1:Find("Item")
+	slot4 = slot3:Find("mask")
+	slot5 = slot4:Find("Got")
+	slot6 = slot4:Find("Lock")
+	slot7 = slot1:Find("PointLight")
+	slot9 = slot1:Find("PointGray")
+	slot11 = slot1:Find("GetText")
+	slot12 = slot1:Find("GotText")
+	slot14 = slot1:Find("LineTpl")
+	slot15 = slot1:Find("LineTpl/Light")
+	slot16 = slot1:Find("LineTpl/Dark")
 	slot17 = slot0.ptData.dropList[slot2]
 	slot18 = slot0.ptData.targets[slot2]
 
@@ -114,9 +116,9 @@ slot0.updateAwardTpl = function(slot0, slot1, slot2)
 	onButton(slot0, slot3, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot0:findTF("NumText", slot0:findTF("PointLight", slot1)), slot18)
-	setText(slot0:findTF("NumText", slot0:findTF("PointGray", slot1)), slot18)
-	setText(slot0:findTF("LockText", slot1), "PHASE " .. math.floor(slot18 / slot0.curMetaProgressVO.unlockPTNum * 100) .. "%")
+	setText(slot7:Find("NumText"), slot18)
+	setText(slot9:Find("NumText"), slot18)
+	setText(slot1:Find("LockText"), "PHASE " .. math.floor(slot18 / slot0.curMetaProgressVO.unlockPTNum * 100) .. "%")
 
 	if slot2 < slot0.ptData.level + 1 then
 		setActive(slot4, true)

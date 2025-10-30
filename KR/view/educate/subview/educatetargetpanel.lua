@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.contentTF = slot0:findTF("content")
+	slot0.contentTF = slot0._tf:Find("content")
 
 	onButton(slot0, slot0.contentTF, function ()
 		uv0:emit(EducateBaseUI.EDUCATE_GO_SUBLAYER, Context.New({
@@ -14,17 +14,17 @@ slot0.OnInit = function(slot0)
 		}))
 	end, SFX_PANEL)
 
-	slot0.taskTpl = slot0:findTF("tpl", slot0.contentTF)
+	slot0.taskTpl = slot0.contentTF:Find("tpl")
 
 	setActive(slot0.taskTpl, false)
 
-	slot0.listBg = slot0:findTF("task_list/bg", slot0.contentTF)
-	slot0.lineTF = slot0:findTF("task_list/line", slot0.contentTF)
-	slot0.mainTF = slot0:findTF("task_list/main", slot0.contentTF)
+	slot0.listBg = slot0.contentTF:Find("task_list/bg")
+	slot0.lineTF = slot0.contentTF:Find("task_list/line")
+	slot0.mainTF = slot0.contentTF:Find("task_list/main")
 
-	setText(slot0:findTF("title/Image/Text", slot0.mainTF), i18n("child_task_system_type3"))
+	setText(slot0.mainTF:Find("title/Image/Text"), i18n("child_task_system_type3"))
 
-	slot0.mainTaskUIList = UIItemList.New(slot0:findTF("list", slot0.mainTF), slot0.taskTpl)
+	slot0.mainTaskUIList = UIItemList.New(slot0.mainTF:Find("list"), slot0.taskTpl)
 
 	slot0.mainTaskUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -32,11 +32,11 @@ slot0.OnInit = function(slot0)
 		end
 	end)
 
-	slot0.otherTF = slot0:findTF("task_list/other", slot0.contentTF)
+	slot0.otherTF = slot0.contentTF:Find("task_list/other")
 
-	setText(slot0:findTF("title/Image/Text", slot0.otherTF), i18n("child_task_system_type2"))
+	setText(slot0.otherTF:Find("title/Image/Text"), i18n("child_task_system_type2"))
 
-	slot0.otherTaskUIList = UIItemList.New(slot0:findTF("list", slot0.otherTF), slot0.taskTpl)
+	slot0.otherTaskUIList = UIItemList.New(slot0.otherTF:Find("list"), slot0.taskTpl)
 
 	slot0.otherTaskUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -50,7 +50,7 @@ slot0.updateTaskItem = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 == "main" and slot0.mainTaskVOs[slot1 + 1] or slot0.otherTaskVOs[slot1 + 1]
 	slot5 = string.format("(%s)", slot4:GetProgress() .. "/" .. slot4:GetFinishNum())
 
-	setText(slot0:findTF("progress", slot2), slot5)
+	setText(slot2:Find("progress"), slot5)
 
 	slot6 = GetPerceptualSize(slot5)
 
@@ -58,7 +58,7 @@ slot0.updateTaskItem = function(slot0, slot1, slot2, slot3)
 		slot6 = slot6 + 2
 	end
 
-	setText(slot0:findTF("desc", slot2), shortenString(slot4:getConfig("name"), 11 - slot6))
+	setText(slot2:Find("desc"), shortenString(slot4:getConfig("name"), 11 - slot6))
 end
 
 slot0.Flush = function(slot0)
@@ -68,7 +68,7 @@ slot0.Flush = function(slot0)
 
 	slot0.taskProxy = getProxy(EducateProxy):GetTaskProxy()
 
-	setActive(slot0:findTF("target_btn/tip", slot0.contentTF), slot0.taskProxy:IsShowOtherTasksTip())
+	setActive(slot0.contentTF:Find("target_btn/tip"), slot0.taskProxy:IsShowOtherTasksTip())
 
 	slot0.mainTaskVOs = slot0.taskProxy:FilterByGroup(slot0.taskProxy:GetMainTasksForShow())
 

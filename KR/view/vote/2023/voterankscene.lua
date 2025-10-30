@@ -2,12 +2,12 @@ slot0 = class("VoteRankScene", import("..VoteScene"))
 
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
-	setActive(slot0:findTF("blur_panel/adapt/top/title_rank"), true)
-	setActive(slot0:findTF("blur_panel/adapt/top/title"), false)
-	setActive(slot0:findTF("main/right_panel/filter_bg"), false)
-	setActive(slot0:findTF("main/right_panel/title/help"), false)
-	setActive(slot0:findTF("main/right_panel/title/schedule"), false)
-	setActive(slot0:findTF("main/right_panel/title/Text"), false)
+	setActive(slot0._tf:Find("blur_panel/adapt/top/title_rank"), true)
+	setActive(slot0._tf:Find("blur_panel/adapt/top/title"), false)
+	setActive(slot0._tf:Find("main/right_panel/filter_bg"), false)
+	setActive(slot0._tf:Find("main/right_panel/title/help"), false)
+	setActive(slot0._tf:Find("main/right_panel/title/schedule"), false)
+	setActive(slot0._tf:Find("main/right_panel/title/Text"), false)
 end
 
 slot0.GetPageMap = function(slot0)

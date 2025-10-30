@@ -15,8 +15,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.valueTxt = findTF(slot0._go, "window/content/calc_panel/Text"):GetComponent(typeof(Text))
 	slot0.text = findTF(slot0._go, "window/content/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("window/btns/cancel_btn/Image/Image (1)"), i18n("text_cancel"))
-	setText(slot0:findTF("window/btns/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
+	setText(slot0._tf:Find("window/btns/cancel_btn/Image/Image (1)"), i18n("text_cancel"))
+	setText(slot0._tf:Find("window/btns/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
 end
 
 slot0.OnInit = function(slot0)

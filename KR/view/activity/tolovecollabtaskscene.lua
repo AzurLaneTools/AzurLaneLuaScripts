@@ -16,11 +16,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.scrollPanel = slot0:findTF("window/panel")
-	slot0.UIlist = UIItemList.New(slot0:findTF("window/panel/list"), slot0:findTF("window/panel/list/Tasktpl"))
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
-	slot0.getBtn = slot0:findTF("window/btn_get")
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.scrollPanel = slot0._tf:Find("window/panel")
+	slot0.UIlist = UIItemList.New(slot0._tf:Find("window/panel/list"), slot0._tf:Find("window/panel/list/Tasktpl"))
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.getBtn = slot0._tf:Find("window/btn_get")
 end
 
 slot0.didEnter = function(slot0)
@@ -189,12 +189,12 @@ slot0.updateAwards = function(slot0, slot1, slot2, slot3)
 				count = slot12[3]
 			}
 
-			updateDrop(slot0:findTF("mask", slot10), slot13)
+			updateDrop(slot10:Find("mask"), slot13)
 
 			if slot13.type == DROP_TYPE_EQUIPMENT_SKIN then
-				setActive(slot0:findTF("specialFrame", slot10), true)
+				setActive(slot10:Find("specialFrame"), true)
 			else
-				setActive(slot0:findTF("specialFrame", slot10), false)
+				setActive(slot10:Find("specialFrame"), false)
 			end
 
 			onButton(slot0, slot10, function ()

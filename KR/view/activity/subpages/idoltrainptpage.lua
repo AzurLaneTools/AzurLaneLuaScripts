@@ -13,46 +13,46 @@ slot1 = {
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.skills = slot0:findTF("skill", slot0.bg)
+	slot0.skills = slot0.bg:Find("skill")
 	slot0.skillBtns = {}
 
 	eachChild(slot0.skills, function (slot0)
 		table.insert(uv0.skillBtns, slot0)
 	end)
 
-	slot0.getGreyBtn = slot0:findTF("get_grey_btn", slot0.bg)
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
-	slot0.idol1 = slot0:findTF("idol1", slot0.bg)
-	slot0.idol2 = slot0:findTF("idol2", slot0.bg)
-	slot0.buffInfoBox = slot0:findTF("BuffInfoBox")
-	slot0.mask = slot0:findTF("mengban", slot0.buffInfoBox)
-	slot0.buffWindow = slot0:findTF("panel", slot0.buffInfoBox)
-	slot0.buffName = slot0:findTF("title/name", slot0.buffWindow)
-	slot0.titleLv = slot0:findTF("title/lv", slot0.buffWindow)
-	slot0.titleIcon = slot0:findTF("title/icon", slot0.buffWindow)
-	slot0.buffTip = slot0:findTF("content/tip", slot0.buffWindow)
-	slot0.desc = slot0:findTF("content/desc", slot0.buffWindow)
-	slot0.buffAwardTF = slot0:findTF("award_bg/award", slot0.buffWindow)
-	slot0.trainWindow = slot0:findTF("IdolTrainWindow")
-	slot0.trainTitle = slot0:findTF("panel/title/Text", slot0.trainWindow)
-	slot0.trainBtn = slot0:findTF("panel/train_btn", slot0.trainWindow)
-	slot0.trainSkills = slot0:findTF("panel/skills", slot0.trainWindow)
+	slot0.getGreyBtn = slot0.bg:Find("get_grey_btn")
+	slot0.helpBtn = slot0.bg:Find("help_btn")
+	slot0.idol1 = slot0.bg:Find("idol1")
+	slot0.idol2 = slot0.bg:Find("idol2")
+	slot0.buffInfoBox = slot0._tf:Find("BuffInfoBox")
+	slot0.mask = slot0.buffInfoBox:Find("mengban")
+	slot0.buffWindow = slot0.buffInfoBox:Find("panel")
+	slot0.buffName = slot0.buffWindow:Find("title/name")
+	slot0.titleLv = slot0.buffWindow:Find("title/lv")
+	slot0.titleIcon = slot0.buffWindow:Find("title/icon")
+	slot0.buffTip = slot0.buffWindow:Find("content/tip")
+	slot0.desc = slot0.buffWindow:Find("content/desc")
+	slot0.buffAwardTF = slot0.buffWindow:Find("award_bg/award")
+	slot0.trainWindow = slot0._tf:Find("IdolTrainWindow")
+	slot0.trainTitle = slot0.trainWindow:Find("panel/title/Text")
+	slot0.trainBtn = slot0.trainWindow:Find("panel/train_btn")
+	slot0.trainSkills = slot0.trainWindow:Find("panel/skills")
 	slot0.trainSkillBtns = {}
 
 	eachChild(slot0.trainSkills, function (slot0)
 		table.insert(uv0.trainSkillBtns, slot0)
 	end)
 
-	slot0.info = slot0:findTF("panel/info", slot0.trainWindow)
-	slot0.curBuff = slot0:findTF("preview/current", slot0.info)
-	slot0.nextBuff = slot0:findTF("preview/next", slot0.info)
-	slot0.msgBox = slot0:findTF("MsgBox")
-	slot0.msgIcon = slot0:findTF("panel/title/icon", slot0.msgBox)
-	slot0.msgContent = slot0:findTF("panel/content", slot0.msgBox)
-	slot0.msgBoxMask = slot0:findTF("mengban", slot0.msgBox)
-	slot0.cancelBtn = slot0:findTF("panel/cancel_btn", slot0.msgBox)
-	slot0.confirmBtn = slot0:findTF("panel/confirm_btn", slot0.msgBox)
-	slot0.tipPanel = slot0:findTF("Tip")
+	slot0.info = slot0.trainWindow:Find("panel/info")
+	slot0.curBuff = slot0.info:Find("preview/current")
+	slot0.nextBuff = slot0.info:Find("preview/next")
+	slot0.msgBox = slot0._tf:Find("MsgBox")
+	slot0.msgIcon = slot0.msgBox:Find("panel/title/icon")
+	slot0.msgContent = slot0.msgBox:Find("panel/content")
+	slot0.msgBoxMask = slot0.msgBox:Find("mengban")
+	slot0.cancelBtn = slot0.msgBox:Find("panel/cancel_btn")
+	slot0.confirmBtn = slot0.msgBox:Find("panel/confirm_btn")
+	slot0.tipPanel = slot0._tf:Find("Tip")
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -184,17 +184,17 @@ slot0.OnUpdateFlush = function(slot0)
 	end, SFX_PANEL)
 
 	for slot16, slot17 in ipairs(slot0.ptData:GetCurBuffInfos()) do
-		setActive(slot0:findTF("lv1", slot0.skillBtns[slot17.group]), false)
-		setActive(slot0:findTF("lv2", slot0.skillBtns[slot17.group]), false)
-		setActive(slot0:findTF("lv3", slot0.skillBtns[slot17.group]), false)
+		setActive(slot0.skillBtns[slot17.group]:Find("lv1"), false)
+		setActive(slot0.skillBtns[slot17.group]:Find("lv2"), false)
+		setActive(slot0.skillBtns[slot17.group]:Find("lv3"), false)
 
 		if slot17.next then
-			setActive(slot0:findTF("lv" .. slot17.lv, slot0.skillBtns[slot17.group]), true)
+			setActive(slot0.skillBtns[slot17.group]:Find("lv" .. slot17.lv), true)
 		else
-			setActive(slot0:findTF("lv3", slot0.skillBtns[slot17.group]), true)
+			setActive(slot0.skillBtns[slot17.group]:Find("lv3"), true)
 		end
 
-		setImageSprite(slot0:findTF("icon", slot0.skillBtns[slot17.group]), LoadSprite(pg.benefit_buff_template[slot17.id].icon))
+		setImageSprite(slot0.skillBtns[slot17.group]:Find("icon"), LoadSprite(pg.benefit_buff_template[slot17.id].icon))
 	end
 
 	onButton(slot0, slot0.helpBtn, function ()
@@ -250,28 +250,28 @@ end
 slot0.flushTrainPanel = function(slot0)
 	if slot0.ptData:GetCurBuffInfos() then
 		for slot5, slot6 in ipairs(slot1) do
-			setActive(slot0:findTF("lv1", slot0.trainSkillBtns[slot6.group]), false)
-			setActive(slot0:findTF("lv2", slot0.trainSkillBtns[slot6.group]), false)
-			setActive(slot0:findTF("lv3", slot0.trainSkillBtns[slot6.group]), false)
+			setActive(slot0.trainSkillBtns[slot6.group]:Find("lv1"), false)
+			setActive(slot0.trainSkillBtns[slot6.group]:Find("lv2"), false)
+			setActive(slot0.trainSkillBtns[slot6.group]:Find("lv3"), false)
 
 			if slot6.next then
-				setActive(slot0:findTF("lv" .. slot6.lv, slot0.trainSkillBtns[slot6.group]), true)
+				setActive(slot0.trainSkillBtns[slot6.group]:Find("lv" .. slot6.lv), true)
 			else
-				setActive(slot0:findTF("lv3", slot0.trainSkillBtns[slot6.group]), true)
+				setActive(slot0.trainSkillBtns[slot6.group]:Find("lv3"), true)
 			end
 
-			setImageSprite(slot0:findTF("icon", slot0.trainSkillBtns[slot6.group]), LoadSprite(pg.benefit_buff_template[slot6.id].icon))
-			setText(slot0:findTF("name", slot0.trainSkillBtns[slot6.group]), shortenString(pg.benefit_buff_template[slot6.id].name, 7))
+			setImageSprite(slot0.trainSkillBtns[slot6.group]:Find("icon"), LoadSprite(pg.benefit_buff_template[slot6.id].icon))
+			setText(slot0.trainSkillBtns[slot6.group]:Find("name"), shortenString(pg.benefit_buff_template[slot6.id].name, 7))
 		end
 	end
 
 	for slot5, slot6 in ipairs(slot0.trainSkillBtns) do
 		if slot5 == slot0.selectIndex then
-			setActive(slot0:findTF("selected", slot6), true)
-			setActive(slot0:findTF("name", slot6), true)
+			setActive(slot6:Find("selected"), true)
+			setActive(slot6:Find("name"), true)
 		else
-			setActive(slot0:findTF("selected", slot6), false)
-			setActive(slot0:findTF("name", slot6), false)
+			setActive(slot6:Find("selected"), false)
+			setActive(slot6:Find("name"), false)
 		end
 	end
 
@@ -300,10 +300,10 @@ slot0.showBuffInfoBox = function(slot0, slot1)
 
 	if slot1.next then
 		setText(slot0.titleLv, "Lv." .. slot1.lv)
-		setActive(slot0:findTF("icon_bg/got_mask", slot0.buffAwardTF), false)
+		setActive(slot0.buffAwardTF:Find("icon_bg/got_mask"), false)
 	else
 		setText(slot0.titleLv, "MAX")
-		setActive(slot0:findTF("icon_bg/got_mask", slot0.buffAwardTF), true)
+		setActive(slot0.buffAwardTF:Find("icon_bg/got_mask"), true)
 		removeOnButton(slot0.buffAwardTF)
 	end
 
@@ -385,7 +385,7 @@ slot0.showTip = function(slot0, slot1)
 	slot2 = cloneTplTo(slot0.tipPanel, slot0._tf)
 
 	setActive(slot2, true)
-	setText(slot0:findTF("Text", slot2), slot1)
+	setText(slot2:Find("Text"), slot1)
 
 	slot2.transform.localScale = Vector3(0, 0.1, 1)
 

@@ -47,19 +47,19 @@ slot2 = {
 }
 
 slot0.FindUI = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.top = slot0:findTF("top")
-	slot0.backBtn = slot0:findTF("back", slot0.top)
-	slot0.helpBtn = slot0:findTF("help", slot0.top)
-	slot0.progressText = slot0:findTF("middle/board/progress")
-	slot0.taskScroll = slot0:findTF("middle/board/Scroll View")
-	slot0.taskScrollBar = slot0:findTF("middle/board/Scrollbar")
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.top = slot0._tf:Find("top")
+	slot0.backBtn = slot0.top:Find("back")
+	slot0.helpBtn = slot0.top:Find("help")
+	slot0.progressText = slot0._tf:Find("middle/board/progress")
+	slot0.taskScroll = slot0._tf:Find("middle/board/Scroll View")
+	slot0.taskScrollBar = slot0._tf:Find("middle/board/Scrollbar")
 	slot0.taskListItems = CustomIndexLayer.Clone2Full(slot0.taskScroll:Find("Content"), #slot0.taskGroup)
-	slot0.medalListItems = CustomIndexLayer.Clone2Full(slot0:findTF("middle/console/grid"), 9)
+	slot0.medalListItems = CustomIndexLayer.Clone2Full(slot0._tf:Find("middle/console/grid"), 9)
 	slot4 = Image
-	slot0.medalImg = slot0:findTF("middle/console/slot"):GetComponent(typeof(slot4))
-	slot0.medalGet = slot0:findTF("middle/console/get")
-	slot0.medalGot = slot0:findTF("middle/console/got")
+	slot0.medalImg = slot0._tf:Find("middle/console/slot"):GetComponent(typeof(slot4))
+	slot0.medalGet = slot0._tf:Find("middle/console/get")
+	slot0.medalGot = slot0._tf:Find("middle/console/got")
 
 	for slot4 = 1, #slot0.taskGroup do
 		slot5 = LoadSprite("ui/HololiveMedalCollectionUI_atlas", uv0[slot4])
@@ -85,7 +85,8 @@ slot0.AddListener = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot1 = slot0:findTF("middle/board/arrow")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("middle/board/arrow")
 
 	onScroll(slot0, slot0.taskScroll, function (slot0)
 		setActive(uv0, slot0.y > 0.001)
@@ -134,15 +135,15 @@ slot0.UpdateView = function(slot0)
 
 	for slot7 = 1, #slot0.taskGroup do
 		slot8 = slot0.taskListItems[slot7]
-		slot11 = slot0:findTF("btn_go", slot8)
-		slot12 = slot0:findTF("btn_get", slot8)
-		slot13 = slot0:findTF("btn_got", slot8)
+		slot11 = slot8:Find("btn_go")
+		slot12 = slot8:Find("btn_get")
+		slot13 = slot8:Find("btn_got")
 		slot14 = table.contains(slot0.activeIDList, slot0.allIDList[slot7])
 		slot15 = nil
 		slot16 = 0
 
 		if slot0.taskProxy:getTaskVO(slot0.taskGroup[slot7]) then
-			setText(slot0:findTF("desc", slot8), string.gsub(string.gsub(slot10:getConfig("desc"), "$1", slot10:getProgress()), "$2", slot10:getConfig("target_num")))
+			setText(slot8:Find("desc"), string.gsub(string.gsub(slot10:getConfig("desc"), "$1", slot10:getProgress()), "$2", slot10:getConfig("target_num")))
 
 			slot15 = slot10:getTaskStatus() == 2 and slot0.materialGray or nil
 
@@ -155,7 +156,7 @@ slot0.UpdateView = function(slot0)
 		else
 			slot17 = pg.task_data_template[slot9].target_num
 
-			setText(slot0:findTF("desc", slot8), string.gsub(string.gsub(pg.task_data_template[slot9].desc, "$1", slot14 and slot17 or 0), "$2", slot17))
+			setText(slot8:Find("desc"), string.gsub(string.gsub(pg.task_data_template[slot9].desc, "$1", slot14 and slot17 or 0), "$2", slot17))
 
 			slot16 = slot14 and 2 or 0
 			slot15 = slot0.materialGray

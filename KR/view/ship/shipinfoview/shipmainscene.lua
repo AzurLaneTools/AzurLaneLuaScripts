@@ -184,22 +184,23 @@ slot0.init = function(slot0)
 	slot0:initEvents()
 
 	slot0.mainCanvasGroup = slot0._tf:GetComponent(typeof(CanvasGroup))
-	slot0.commonCanvasGroup = slot0:findTF("blur_panel/adapt"):GetComponent(typeof(CanvasGroup))
+	slot0.commonCanvasGroup = slot0._tf:Find("blur_panel/adapt"):GetComponent(typeof(CanvasGroup))
 	Input.multiTouchEnabled = false
 end
 
 slot0.initShip = function(slot0)
-	slot0.shipInfo = slot0:findTF("main/character")
+	slot1 = slot0._tf
+	slot0.shipInfo = slot1:Find("main/character")
 
 	setActive(slot0.shipInfo, true)
 
 	slot0.tablePainting = {
-		slot0:findTF("painting", slot0.shipInfo),
-		slot0:findTF("painting2", slot0.shipInfo)
+		slot0.shipInfo:Find("painting"),
+		slot0.shipInfo:Find("painting2")
 	}
 	slot0.nowPainting = nil
 	slot0.isRight = true
-	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
 	slot0.common = slot0.blurPanel:Find("adapt")
 	slot0.npcFlagTF = slot0.common:Find("name/npc")
 	slot0.shipName = slot0.common:Find("name")
@@ -216,10 +217,10 @@ slot0.initShip = function(slot0)
 
 	setActive(slot0.energyDescTF, false)
 
-	slot0.character = slot0:findTF("main/character")
-	slot0.chat = slot0:findTF("main/character/chat")
-	slot0.chatBg = slot0:findTF("main/character/chat/chatbgtop")
-	slot0.chatText = slot0:findTF("Text", slot0.chat)
+	slot0.character = slot0._tf:Find("main/character")
+	slot0.chat = slot0._tf:Find("main/character/chat")
+	slot0.chatBg = slot0._tf:Find("main/character/chat/chatbgtop")
+	slot0.chatText = slot0.chat:Find("Text")
 	rtf(slot0.chat).localScale = Vector3.New(0, 0, 1)
 	slot0.initChatBgH = slot0.chatBg.sizeDelta.y
 	slot0.initChatTextH = slot0.chatText.sizeDelta.y
@@ -228,13 +229,13 @@ end
 
 slot0.initPages = function(slot0)
 	ShipViewConst.currentPage = nil
-	slot0.background = slot0:findTF("background")
+	slot0.background = slot0._tf:Find("background")
 
 	setActive(slot0.background, true)
 
-	slot0.main = slot0:findTF("main")
+	slot0.main = slot0._tf:Find("main")
 	slot0.mainMask = slot0.main:GetComponent(typeof(RectMask2D))
-	slot0.toggles = slot0:findTF("left_length/frame/root", slot0.common)
+	slot0.toggles = slot0.common:Find("left_length/frame/root")
 	slot0.detailToggle = slot0.toggles:Find("detail_toggle")
 	slot0.equipmentToggle = slot0.toggles:Find("equpiment_toggle")
 	slot0.intensifyToggle = slot0.toggles:Find("intensify_toggle")
@@ -371,7 +372,10 @@ end
 
 slot0.didEnter = function(slot0)
 	slot0:addRingDragListenter()
-	onButton(slot0, slot0:findTF("top/back_btn", slot0.common), function ()
+
+	slot3 = slot0.common
+
+	onButton(slot0, slot3:Find("top/back_btn"), function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
 
 		if not uv0.everTriggerBack then
@@ -389,7 +393,8 @@ slot0.didEnter = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.common)
+	slot1 = slot0.common
+	slot0.helpBtn = slot1:Find("help_btn")
 
 	slot4 = function()
 		uv0:openHelpPage(ShipViewConst.currentPage)
@@ -498,7 +503,7 @@ slot0.showAwakenCompleteAni = function(slot0, slot1)
 		slot0 = tf(uv0.awakenAni)
 
 		pg.UIMgr.GetInstance():BlurPanel(slot0)
-		setText(uv0:findTF("window/desc", uv0.awakenAni), uv1)
+		setText(slot0:Find("window/desc"), uv1)
 		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 			uv0.awakenAni:GetComponent("Animator"):SetBool("endFlag", false)
 			pg.UIMgr.GetInstance():UnOverlayPanel(uv1, uv0.common)
@@ -508,7 +513,7 @@ slot0.showAwakenCompleteAni = function(slot0, slot1)
 		end)
 	end
 
-	if slot0:findTF("AwakenCompleteWindows(Clone)") then
+	if slot0._tf:Find("AwakenCompleteWindows(Clone)") then
 		slot0.awakenAni = go(slot3)
 	end
 
@@ -529,7 +534,7 @@ end
 
 slot0.updatePreference = function(slot0, slot1)
 	setScrollText(slot0.shipName:Find("nameRect/name_mask/Text"), slot0.shipVO:getName())
-	setText(slot0:findTF("english_name", slot0.shipName), slot1:getConfigTable().english_name)
+	setText(slot0.shipName:Find("english_name"), slot1:getConfigTable().english_name)
 	setActive(slot0.nameEditFlag, slot1.propose and not slot1:IsXIdol())
 
 	if not GetSpriteFromAtlas("energy", slot1:getEnergyPrint()) then
@@ -538,7 +543,7 @@ slot0.updatePreference = function(slot0, slot1)
 
 	setImageSprite(slot0.energyTF, slot4, true)
 	setActive(slot0.energyTF, true)
-	removeAllChildren(slot0:findTF("stars", slot0.shipName))
+	removeAllChildren(slot0.shipName:Find("stars"))
 
 	slot6 = slot1:getStar()
 
@@ -556,7 +561,7 @@ slot0.updatePreference = function(slot0, slot1)
 		warning("找不到船形, shipConfigId: " .. slot1.configId)
 	end
 
-	setImageSprite(slot0:findTF("type", slot0.shipName), slot8, true)
+	setImageSprite(slot0.shipName:Find("type"), slot8, true)
 end
 
 slot0.doUpgradeMaxLeveAnim = function(slot0, slot1, slot2, slot3)
@@ -1389,7 +1394,7 @@ slot0.onBackPressed = function(slot0)
 	end
 
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-	triggerButton(slot0:findTF("top/back_btn", slot0.common))
+	triggerButton(slot0.common:Find("top/back_btn"))
 end
 
 slot0.willExit = function(slot0)

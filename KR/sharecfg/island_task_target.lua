@@ -1059,7 +1059,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100010711] = {
-		tips = "order",
+		tips = "10020009",
 		name = "让帕特莉帮忙看看吧",
 		type = 3,
 		id = 100010711,
@@ -1295,7 +1295,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100020801] = {
-		tips = "shop",
+		tips = "10010040",
 		name = "购买小麦种子",
 		type = 5,
 		id = 100020801,
@@ -1651,7 +1651,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100022901] = {
-		tips = "",
+		tips = "10030009",
 		name = "获取日常补给",
 		type = 13,
 		id = 100022901,
@@ -1699,7 +1699,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023401] = {
-		tips = "",
+		tips = "10040022",
 		name = "收集煤炭",
 		type = 4,
 		id = 100023401,
@@ -1709,7 +1709,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023402] = {
-		tips = "",
+		tips = "10040002",
 		name = "收集自然之木",
 		type = 4,
 		id = 100023402,
@@ -1877,7 +1877,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100031001] = {
-		tips = "technology",
+		tips = "10070004",
 		name = "研发草莓种植技术",
 		type = 8,
 		id = 100031001,
@@ -1905,7 +1905,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100040201] = {
-		tips = "",
+		tips = "10040022",
 		name = "收集煤炭",
 		type = 4,
 		id = 100040201,
@@ -1935,7 +1935,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010021] = {
-		tips = "",
+		tips = "10040036",
 		name = "完成伐木",
 		type = 6,
 		id = 200010021,
@@ -1975,7 +1975,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010061] = {
-		tips = "",
+		tips = "10040002",
 		name = "收集实用之木",
 		type = 4,
 		id = 200010061,
@@ -1995,7 +1995,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010081] = {
-		tips = "",
+		tips = "10040022",
 		name = "收集铁矿 ",
 		type = 4,
 		id = 200010081,
@@ -2045,7 +2045,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200020041] = {
-		tips = "",
+		tips = "10010003",
 		name = "收集制作画笔的羊毛",
 		type = 4,
 		id = 200020041,
@@ -2055,7 +2055,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200020051] = {
-		tips = "",
+		tips = "10040002",
 		name = "收集制作画框的典雅之木",
 		type = 4,
 		id = 200020051,
@@ -2085,7 +2085,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200030021] = {
-		tips = "",
+		tips = "10040022",
 		name = "收集铝矿",
 		type = 4,
 		id = 200030021,
@@ -2133,7 +2133,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200040021] = {
-		tips = "",
+		tips = "10090008",
 		name = "研发并制作出胡萝卜厚蛋烧",
 		type = 4,
 		id = 200040021,
@@ -2343,7 +2343,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200060091] = {
-		tips = "",
+		tips = "10040002",
 		name = "收集自然之木",
 		type = 4,
 		id = 200060091,
@@ -2403,7 +2403,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200070061] = {
-		tips = "",
+		tips = "10050002",
 		name = "收集新鲜的柠檬",
 		type = 4,
 		id = 200070061,
@@ -2473,7 +2473,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200080021] = {
-		tips = "",
+		tips = "10040002",
 		name = "收集自然之木",
 		type = 4,
 		id = 200080021,
@@ -2483,7 +2483,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200080031] = {
-		tips = "",
+		tips = "10040022",
 		name = "收集煤炭",
 		type = 4,
 		id = 200080031,
@@ -2603,7 +2603,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200100071] = {
-		tips = "",
+		tips = "10010003",
 		name = "收集鸡蛋",
 		type = 4,
 		id = 200100071,
@@ -2653,7 +2653,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110041] = {
-		tips = "",
+		tips = "10040002",
 		name = "收集自然之木",
 		type = 4,
 		id = 200110041,
@@ -2663,7 +2663,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110042] = {
-		tips = "",
+		tips = "10040022",
 		name = "收集铁矿",
 		type = 4,
 		id = 200110042,
@@ -2673,7 +2673,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110051] = {
-		tips = "",
+		tips = "10010003",
 		name = "收集禽肉",
 		type = 4,
 		id = 200110051,
@@ -2683,7 +2683,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110052] = {
-		tips = "",
+		tips = "10010003",
 		name = "收集牛奶",
 		type = 4,
 		id = 200110052,
@@ -2733,7 +2733,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200120051] = {
-		tips = "",
+		tips = "10050002",
 		name = "收获柑橘",
 		type = 4,
 		id = 200120051,
@@ -2851,7 +2851,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200130061] = {
-		tips = "",
+		tips = "10050003",
 		name = "在苗圃中委派种植薰衣草",
 		type = 7,
 		id = 200130061,
@@ -2861,7 +2861,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200130071] = {
-		tips = "",
+		tips = "10050003",
 		name = "收集薰衣草",
 		type = 4,
 		id = 200130071,
@@ -3000,7 +3000,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[303010011] = {
-		tips = "",
+		tips = "10020004",
 		name = "完成任意货运委托",
 		type = 12,
 		id = 303010011,
@@ -3010,7 +3010,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[304010011] = {
-		tips = "",
+		tips = "10020009",
 		name = "交付任意岛屿订单",
 		type = 3,
 		id = 304010011,
@@ -3368,7 +3368,7 @@ pg.base.island_task_target = {
 		target_param = ""
 	},
 	[306010011] = {
-		tips = "",
+		tips = "10030009",
 		name = "接收日常补给",
 		type = 13,
 		id = 306010011,
@@ -3417,7 +3417,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307020011] = {
-		tips = "",
+		tips = "10060002",
 		name = "制作任意有鱼餐馆的餐品",
 		type = 7,
 		id = 307020011,
@@ -3433,7 +3433,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307030011] = {
-		tips = "",
+		tips = "10060002",
 		name = "制作任意白熊饮品的餐品",
 		type = 7,
 		id = 307030011,
@@ -3450,7 +3450,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307040011] = {
-		tips = "",
+		tips = "10060002",
 		name = "制作任意啾啾简餐的餐品",
 		type = 7,
 		id = 307040011,
@@ -3465,7 +3465,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307050011] = {
-		tips = "",
+		tips = "10060002",
 		name = "制作任意乌鱼烤肉的餐品",
 		type = 7,
 		id = 307050011,
@@ -3479,7 +3479,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307060011] = {
-		tips = "",
+		tips = "10090008",
 		name = "制作任意啾咖啡的餐品",
 		type = 7,
 		id = 307060011,
@@ -3494,7 +3494,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000011] = {
-		tips = "",
+		tips = "10040003",
 		name = "采集任意矿物",
 		type = 6,
 		id = 300000011,
@@ -3509,7 +3509,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000021] = {
-		tips = "",
+		tips = "10040013",
 		name = "采集任意木材",
 		type = 6,
 		id = 300000021,
@@ -3522,7 +3522,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000031] = {
-		tips = "",
+		tips = "10020009",
 		name = "交付任意岛屿订单",
 		type = 3,
 		id = 300000031,
@@ -3532,7 +3532,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000041] = {
-		tips = "",
+		tips = "10070004",
 		name = "完成任意科研",
 		type = 7,
 		id = 300000041,
@@ -3790,7 +3790,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401010011] = {
-		tips = "",
+		tips = "10040022",
 		name = "委派开采任意矿物",
 		type = 7,
 		id = 401010011,
@@ -3805,7 +3805,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401020011] = {
-		tips = "",
+		tips = "10040002",
 		name = "委派采集任意木材",
 		type = 7,
 		id = 401020011,
@@ -3818,7 +3818,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401030011] = {
-		tips = "",
+		tips = "10010040",
 		name = "委派种植任意农田作物",
 		type = 7,
 		id = 401030011,
@@ -3835,7 +3835,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401040011] = {
-		tips = "",
+		tips = "10050003",
 		name = "委派种植任意苗圃作物",
 		type = 7,
 		id = 401040011,
@@ -3851,7 +3851,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401050011] = {
-		tips = "",
+		tips = "10050002",
 		name = "委派种植任意果园树木",
 		type = 7,
 		id = 401050011,
@@ -3869,7 +3869,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401060011] = {
-		tips = "",
+		tips = "10010003",
 		name = "委派照顾任意牧场动物",
 		type = 7,
 		id = 401060011,
@@ -3882,7 +3882,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401070011] = {
-		tips = "",
+		tips = "10070016",
 		name = "生产任意手工产品",
 		type = 7,
 		id = 401070011,
@@ -3900,7 +3900,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401080011] = {
-		tips = "",
+		tips = "10070014",
 		name = "生产任意工业产品",
 		type = 7,
 		id = 401080011,
@@ -3915,7 +3915,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401090011] = {
-		tips = "",
+		tips = "10070013",
 		name = "生产任意木料产品",
 		type = 7,
 		id = 401090011,
@@ -3929,7 +3929,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401100011] = {
-		tips = "",
+		tips = "10070015",
 		name = "生产任意电子产品",
 		type = 7,
 		id = 401100011,

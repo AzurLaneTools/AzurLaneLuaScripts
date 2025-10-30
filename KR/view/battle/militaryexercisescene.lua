@@ -65,20 +65,20 @@ slot0.setSeasonInfo = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/backBtn")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/backBtn")
 	slot0._normalUIMain = pg.UIMgr.GetInstance().UIMain
 	slot0._overlayUIMain = pg.UIMgr.GetInstance().OverlayMain
 	slot0.top = findTF(slot0._tf, "blur_panel/adapt/top")
-	slot0.awardPanel = slot0:findTF("award_info_panel")
+	slot0.awardPanel = slot0._tf:Find("award_info_panel")
 
 	setActive(slot0.awardPanel, false)
 
-	slot0.rivalList = slot0:findTF("center/rival_list")
-	slot0.bottomPanel = slot0:findTF("bottom")
+	slot0.rivalList = slot0._tf:Find("center/rival_list")
+	slot0.bottomPanel = slot0._tf:Find("bottom")
 	slot0.shipTpl = slot0:getTpl("fleet_info/shiptpl", slot0.bottomPanel)
 	slot0.emptyTpl = slot0:getTpl("fleet_info/emptytpl", slot0.bottomPanel)
-	slot0.mainContainer = slot0:findTF("fleet_info/main", slot0.bottomPanel)
-	slot0.vanguardContainer = slot0:findTF("fleet_info/vanguard", slot0.bottomPanel)
+	slot0.mainContainer = slot0.bottomPanel:Find("fleet_info/main")
+	slot0.vanguardContainer = slot0.bottomPanel:Find("fleet_info/vanguard")
 	slot0.rankCfg = pg.arena_data_rank
 
 	slot0:uiStartAnimating()
@@ -87,7 +87,7 @@ end
 slot0.updatePlayer = function(slot0, slot1)
 	slot0.player = slot1
 
-	setText(findTF(slot0:findTF("bottom/player_info"), "statistics_panel/exploit_bg/score"), slot1.exploit)
+	setText(findTF(slot0._tf:Find("bottom/player_info"), "statistics_panel/exploit_bg/score"), slot1.exploit)
 end
 
 slot0.uiStartAnimating = function(slot0)
@@ -111,22 +111,33 @@ slot0.didEnter = function(slot0)
 			uv0:emit(uv1.ON_BACK)
 		end
 	end, SFX_CANCEL)
-	setActive(slot0:findTF("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	setActive(slot0._tf:Find("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
 	if LOCK_CLICK_MINGSHI then
-		setActive(slot0:findTF("stamp"), false)
+		setActive(slot0._tf:Find("stamp"), false)
 	end
 
-	onButton(slot0, slot0:findTF("stamp"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("stamp"), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(10)
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0:findTF("bottom/buttons/rank_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("bottom/buttons/rank_btn"), function ()
 		uv0:emit(MilitaryExerciseMediator.OPEN_RANK)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("bottom/buttons/shop_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("bottom/buttons/shop_btn"), function ()
 		uv0:emit(MilitaryExerciseMediator.OPEN_SHOP)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("bottom/buttons/award_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("bottom/buttons/award_btn"), function ()
 		uv0.isOpenAwards = true
 
 		pg.UIMgr.GetInstance():BlurPanel(uv0.awardPanel)
@@ -149,7 +160,7 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.updateSeasonTime = function(slot0)
-	slot0.seasonInfoPanel = slot0:findTF("center/season_info")
+	slot0.seasonInfoPanel = slot0._tf:Find("center/season_info")
 
 	slot0:updateSeasonLeftTime(slot0.seasonTime)
 	slot0:updateRecoverTime(slot0.recoverTime)
@@ -262,7 +273,7 @@ end
 
 slot0.initPlayerInfo = function(slot0)
 	slot1 = slot0.seasonInfo.score
-	slot2 = slot0:findTF("bottom/player_info")
+	slot2 = slot0._tf:Find("bottom/player_info")
 
 	setText(findTF(slot2, "statistics_panel/score_bg/score"), slot1)
 	setText(findTF(slot2, "statistics_panel/rank_bg/score"), slot0.seasonInfo.rank)
@@ -332,20 +343,31 @@ end
 slot0.initAwards = function(slot0)
 	assert(not slot0.isInitAward, "已经初始化奖励列表")
 	setActive(slot0.awardPanel, true)
-	onButton(slot0, slot0:findTF("top/btnBack", slot0.awardPanel), function ()
+
+	slot3 = slot0.awardPanel
+
+	onButton(slot0, slot3:Find("top/btnBack"), function ()
 		uv0:closeAwards()
 	end, SFX_CANCEL)
-	setText(slot0:findTF("bg/frame/content/time_panel/Text", slot0.awardPanel), i18n("exercise_time_tip", "   " .. os.date("%Y.%m.%d", slot0.activity.data1) .. " — " .. os.date("%Y.%m.%d", slot0.activity.stopTime)))
-	setText(slot0:findTF("bg/frame/content/desc_panel/Text", slot0.awardPanel), i18n("exercise_rule_tip"))
 
-	slot3 = slot0:findTF("bg/frame/content/award_panel/award_list", slot0.awardPanel)
+	slot1 = slot0.awardPanel
+
+	setText(slot1:Find("bg/frame/content/time_panel/Text"), i18n("exercise_time_tip", "   " .. os.date("%Y.%m.%d", slot0.activity.data1) .. " — " .. os.date("%Y.%m.%d", slot0.activity.stopTime)))
+
+	slot2 = slot0.awardPanel
+
+	setText(slot2:Find("bg/frame/content/desc_panel/Text"), i18n("exercise_rule_tip"))
+
+	slot3 = slot0.awardPanel
+	slot3 = slot3:Find("bg/frame/content/award_panel/award_list")
 	slot5 = slot0:getTpl("awards/equipmenttpl", slot0:getTpl("awardtpl", slot3))
-	slot6 = slot0:findTF("linetpl", slot3)
+	slot6 = slot3:Find("linetpl")
+	slot7 = slot0.awardPanel
 
-	setText(slot0:findTF("bg/frame/content/award_panel/Text", slot0.awardPanel), i18n("exercise_award_tip"))
+	setText(slot7:Find("bg/frame/content/award_panel/Text"), i18n("exercise_award_tip"))
 
 	slot8 = function(slot0, slot1)
-		slot2 = uv0:findTF("awards", slot0)
+		slot2 = slot0:Find("awards")
 		slot3 = uv0.rankCfg[slot1]
 		slot7 = ":"
 

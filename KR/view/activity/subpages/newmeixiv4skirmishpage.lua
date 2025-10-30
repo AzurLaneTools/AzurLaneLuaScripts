@@ -1,13 +1,13 @@
 slot0 = class("NewMeixiV4SkirmishPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.battleBtn = slot0:findTF("battle_btn", slot0.bg)
-	slot0.progressBar = slot0:findTF("progress/bar", slot0.bg)
-	slot0.curNum = slot0:findTF("progress/cur_num", slot0.bg)
-	slot0.curSection = slot0:findTF("progress/cur_section", slot0.bg)
-	slot0.item = slot0:findTF("scrollview/item", slot0.bg)
-	slot0.items = slot0:findTF("scrollview/items", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.battleBtn = slot0.bg:Find("battle_btn")
+	slot0.progressBar = slot0.bg:Find("progress/bar")
+	slot0.curNum = slot0.bg:Find("progress/cur_num")
+	slot0.curSection = slot0.bg:Find("progress/cur_section")
+	slot0.item = slot0.bg:Find("scrollview/item")
+	slot0.items = slot0.bg:Find("scrollview/items")
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
 end
 
@@ -75,12 +75,12 @@ slot0.OnFirstFlush = function(slot0)
 	end, SFX_PANEL)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("item", slot2)
+			slot4 = slot2:Find("item")
 			slot6 = uv0.taskProxy:getTaskById(uv0.taskList[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot5)
 
-			setActive(uv0:findTF("finish", slot2), slot6 and slot6:getTaskStatus() == 2 or slot3 <= uv0.clearTaskNum)
-			setActive(uv0:findTF("lock", slot2), false)
-			setText(uv0:findTF("title", slot2), "P" .. slot3)
+			setActive(slot2:Find("finish"), slot6 and slot6:getTaskStatus() == 2 or slot3 <= uv0.clearTaskNum)
+			setActive(slot2:Find("lock"), false)
+			setText(slot2:Find("title"), "P" .. slot3)
 		end
 	end)
 	slot0.uilist:align(#slot0.taskList)

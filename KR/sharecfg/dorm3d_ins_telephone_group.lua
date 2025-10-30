@@ -4,11 +4,11 @@ pg.dorm3d_ins_telephone_group = setmetatable({
 	get_id_list_by_ship_group = {
 		[10517] = {
 			10517301,
-			10517302,
-			30707302
+			10517302
 		},
 		[30707] = {
-			30707301
+			30707301,
+			30707302
 		}
 	},
 	all = {
@@ -57,7 +57,7 @@ pg.base.dorm3d_ins_telephone_group = {
 		}
 	},
 	[30707302] = {
-		ship_group = 10517,
+		ship_group = 30707,
 		name = "영상 통화·다이호",
 		background = "voice_placeholder",
 		type = 1,

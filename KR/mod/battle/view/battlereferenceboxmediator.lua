@@ -17,7 +17,7 @@ slot4.Initialize = function(slot0)
 	slot0._dataProxy = slot0._state:GetProxyByName(uv1.Battle.BattleDataProxy.__name)
 	slot0._sceneMediator = slot0._state:GetSceneMediator()
 	slot0._boxContainer = GameObject("BoxContainer")
-	slot0._detailContainer = slot0._state:GetUI():findGO("CharacterDetailContainer")
+	slot0._detailContainer = slot0._state:GetUI()._tf:Find("CharacterDetailContainer").gameObject
 	slot0._unitBoxList = {}
 	slot0._bulletBoxList = {}
 	slot0._wallBoxList = {}
@@ -170,7 +170,7 @@ slot4.createDetail = function(slot0, slot1)
 	slot3 = slot1:GetIFF()
 	slot5 = slot0._sceneMediator:InstantiateCharacterComponent("CharacterDetailContainer/detailPanel")
 
-	slot5.transform:SetParent(slot0._state:GetUI():findTF("CharacterDetailContainer/" .. slot1:GetIFF()), true)
+	slot5.transform:SetParent(slot0._state:GetUI()._tf:Find("CharacterDetailContainer/" .. slot1:GetIFF()), true)
 	slot2:ConfigSkin(slot5)
 	slot2:SetUnit(slot1)
 

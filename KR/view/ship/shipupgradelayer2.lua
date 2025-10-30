@@ -18,27 +18,27 @@ slot0.setPlayer = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.leftPanel = slot0:findTF("blur_panel/left_panel")
-	slot0.stages = slot0:findTF("stageScrollRect/stages", slot0.leftPanel)
+	slot0.leftPanel = slot0._tf:Find("blur_panel/left_panel")
+	slot0.stages = slot0.leftPanel:Find("stageScrollRect/stages")
 
 	setText(slot0.leftPanel:Find("bg/title/Image"), i18n("word_preview"))
 
-	slot0.stagesSnap = slot0:findTF("stageScrollRect", slot0.leftPanel):GetComponent("HorizontalScrollSnap")
-	slot0.breakView = slot0:findTF("content/Text", slot0.leftPanel)
-	slot0.rightPanel = slot0:findTF("blur_panel/right_panel")
-	slot0.attrs = slot0:findTF("top/attrs", slot0.rightPanel)
-	slot0.starTpl = slot0:findTF("top/rare/startpl", slot0.rightPanel)
+	slot0.stagesSnap = slot0.leftPanel:Find("stageScrollRect"):GetComponent("HorizontalScrollSnap")
+	slot0.breakView = slot0.leftPanel:Find("content/Text")
+	slot0.rightPanel = slot0._tf:Find("blur_panel/right_panel")
+	slot0.attrs = slot0.rightPanel:Find("top/attrs")
+	slot0.starTpl = slot0.rightPanel:Find("top/rare/startpl")
 
 	setActive(slot0.starTpl, false)
 
-	slot0.starsFrom = slot0:findTF("top/rare/stars_from", slot0.rightPanel)
-	slot0.starsTo = slot0:findTF("top/rare/stars_to", slot0.rightPanel)
-	slot0.starOpera = slot0:findTF("top/rare/opera", slot0.rightPanel)
-	slot0.materials = slot0:findTF("bottom/materials", slot0.rightPanel)
-	slot0.breakOutBtn = slot0:findTF("bottom/break_btn/tip_active/image", slot0.rightPanel)
-	slot0.appendStarTips = slot0:findTF("bottom/panel_title/tip", slot0.rightPanel)
-	slot0.tipActive = slot0:findTF("bottom/break_btn/tip_active", slot0.rightPanel)
-	slot0.tipDeactive = slot0:findTF("bottom/break_btn/tip_deactive", slot0.rightPanel)
+	slot0.starsFrom = slot0.rightPanel:Find("top/rare/stars_from")
+	slot0.starsTo = slot0.rightPanel:Find("top/rare/stars_to")
+	slot0.starOpera = slot0.rightPanel:Find("top/rare/opera")
+	slot0.materials = slot0.rightPanel:Find("bottom/materials")
+	slot0.breakOutBtn = slot0.rightPanel:Find("bottom/break_btn/tip_active/image")
+	slot0.appendStarTips = slot0.rightPanel:Find("bottom/panel_title/tip")
+	slot0.tipActive = slot0.rightPanel:Find("bottom/break_btn/tip_active")
+	slot0.tipDeactive = slot0.rightPanel:Find("bottom/break_btn/tip_deactive")
 
 	setText(slot0.rightPanel:Find("bottom/panel_title/tip"), i18n("breakout_tip"))
 	setText(slot0.rightPanel:Find("bottom/break_btn/tip_deactive/values/ok"), i18n("text_confirm"))
@@ -46,18 +46,18 @@ slot0.init = function(slot0)
 
 	slot0.recommandBtn = slot0.rightPanel:Find("bottom/auto_btn")
 	slot0.isEnoughItems = true
-	slot0.sea = slot0:findTF("sea", slot0.leftPanel)
+	slot0.sea = slot0.leftPanel:Find("sea")
 	slot0.rawImage = slot0.sea:GetComponent("RawImage")
 
 	setActive(slot0.rawImage, false)
 
-	slot0.healTF = slot0:findTF("resources/heal")
+	slot0.healTF = slot0._tf:Find("resources/heal")
 	slot0.healTF.transform.localPosition = Vector3(-360, 50, 40)
 
 	setActive(slot0.healTF, false)
 
-	slot0.qCharaContain = slot0:findTF("top/panel_bg/q_chara", slot0.rightPanel)
-	slot0.seaLoading = slot0:findTF("bg/loading", slot0.leftPanel)
+	slot0.qCharaContain = slot0.rightPanel:Find("top/panel_bg/q_chara")
+	slot0.seaLoading = slot0.leftPanel:Find("bg/loading")
 
 	slot0:playLoadingAni()
 
@@ -254,7 +254,7 @@ slot0.setShip = function(slot0, slot1)
 	slot0.itemTFs = {}
 
 	for slot5 = 1, 3 do
-		slot0.itemTFs[slot5] = slot0:findTF("item_" .. slot5, slot0.materials)
+		slot0.itemTFs[slot5] = slot0.materials:Find("item_" .. slot5)
 	end
 
 	slot0:updateBattleView()
@@ -285,7 +285,7 @@ end
 
 slot0.updateStagesScrollView = function(slot0)
 	if table.indexof(slot0.breakIds, slot0.shipVO.configId) and slot1 >= 1 and slot1 <= uv0 then
-		slot0:findTF("stage" .. slot1, slot0.stages):GetComponent(typeof(Toggle)).isOn = true
+		slot0.stages:Find("stage" .. slot1):GetComponent(typeof(Toggle)).isOn = true
 	end
 end
 
@@ -298,7 +298,10 @@ slot0.updateBattleView = function(slot0)
 		slot5 = slot0.breakIds[slot4]
 
 		assert(slot0.shipBreakOutCfg[slot5], "不存在配置" .. slot5)
-		onToggle(slot0, slot0:findTF("stage" .. slot4, slot0.stages), function (slot0)
+
+		slot7 = slot0.stages
+
+		onToggle(slot0, slot7:Find("stage" .. slot4), function (slot0)
 			if slot0 then
 				slot1 = uv0.breakout_view
 				slot2 = checkExist(pg.ship_data_template[uv0.breakout_id], {
@@ -315,15 +318,14 @@ slot0.updateBattleView = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot0:findTF("stage1", slot0.stages):GetComponent(typeof(Toggle)).group:SetAllTogglesOff()
+	slot0.stages:Find("stage1"):GetComponent(typeof(Toggle)).group:SetAllTogglesOff()
 
 	if math.clamp(table.indexof(slot0.breakIds, slot0.shipVO.configId), 1, uv0) and slot2 >= 1 and slot2 <= uv0 then
-		triggerToggle(slot0:findTF("stage" .. slot2, slot0.stages), true)
+		triggerToggle(slot0.stages:Find("stage" .. slot2), true)
 	end
 end
 
 slot2 = {
-	"level",
 	"durability",
 	"cannon",
 	"torpedo",
@@ -394,7 +396,7 @@ slot0.updateBreakOutView = function(slot0, slot1)
 		setActive(slot6, false)
 	end
 
-	slot1:getShipProperties().level = slot1:getMaxLevel()
+	slot2 = slot1:getShipProperties()
 	Clone(slot1).configId = slot0.breakCfg.breakout_id
 	slot4 = {}
 	slot6 = slot1:getBattleTotalExpend()
@@ -430,8 +432,18 @@ slot0.updateBreakOutView = function(slot0, slot1)
 
 	slot12 = 0
 
+	if slot8 and slot8 ~= slot0.shipTempCfg[slot1.configId].max_level then
+		slot11(slot0.attrs:Find("attr_1"), {
+			preAttr = slot0.shipTempCfg[slot1.configId].max_level,
+			afterAttr = slot8,
+			name = i18n("word_level_upperLimit")
+		})
+
+		slot12 = 1
+	end
+
 	for slot16 = 1, #uv0 do
-		slot17 = slot0:findTF("attr_" .. slot12 + slot16, slot0.attrs)
+		slot17 = slot0.attrs:Find("attr_" .. slot12 + slot16)
 
 		setActive(slot17, true)
 		slot11(slot17, {
@@ -442,7 +454,7 @@ slot0.updateBreakOutView = function(slot0, slot1)
 	end
 
 	slot13 = slot12 + #uv0 + 1
-	slot14 = slot0:findTF("attr_" .. slot13, slot0.attrs)
+	slot14 = slot0.attrs:Find("attr_" .. slot13)
 
 	setActive(slot14, true)
 
@@ -455,7 +467,7 @@ slot0.updateBreakOutView = function(slot0, slot1)
 	})
 
 	for slot18 = slot13 + 1, 8 do
-		setActive(slot0:findTF("attr_" .. slot18, slot0.attrs), false)
+		setActive(slot0.attrs:Find("attr_" .. slot18), false)
 	end
 
 	removeAllChildren(slot0.starsFrom)

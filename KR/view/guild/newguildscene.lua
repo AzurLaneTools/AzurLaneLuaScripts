@@ -13,17 +13,17 @@ slot0.setPlayer = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.createPanel = slot0:findTF("create_panel")
-	slot0.factionPanel = slot0:findTF("faction_panel")
-	slot0.createBtn = slot0:findTF("create_panel/frame/create_btn")
-	slot0.joinBtn = slot0:findTF("create_panel/frame/join_btn")
-	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
-	slot0.publicGuildBtn = slot0:findTF("create_panel/frame/public_btn")
-	slot0.backBtn = slot0:findTF("back", slot0.topPanel)
+	slot0.createPanel = slot0._tf:Find("create_panel")
+	slot0.factionPanel = slot0._tf:Find("faction_panel")
+	slot0.createBtn = slot0._tf:Find("create_panel/frame/create_btn")
+	slot0.joinBtn = slot0._tf:Find("create_panel/frame/join_btn")
+	slot0.topPanel = slot0._tf:Find("blur_panel/adapt/top")
+	slot0.publicGuildBtn = slot0._tf:Find("create_panel/frame/public_btn")
+	slot0.backBtn = slot0.topPanel:Find("back")
 
 	setActive(slot0.factionPanel, false)
 
-	slot0.mask = slot0:findTF("mask")
+	slot0.mask = slot0._tf:Find("mask")
 
 	SetActive(slot0.mask, false)
 

@@ -6,11 +6,11 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.shipList = {
-		slot0:findTF("frame/ships/1"),
-		slot0:findTF("frame/ships/2"),
-		slot0:findTF("frame/ships/3")
+		slot0._tf:Find("frame/ships/1"),
+		slot0._tf:Find("frame/ships/2"),
+		slot0._tf:Find("frame/ships/3")
 	}
-	slot0.returnBtn = slot0:findTF("frame/return")
+	slot0.returnBtn = slot0._tf:Find("frame/return")
 end
 
 slot0.OnInit = function(slot0)
@@ -20,12 +20,18 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.returnBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onToggle(slot0, slot0:findTF("frame/toggles/main"), function (slot0)
+
+	slot3 = slot0._tf
+
+	onToggle(slot0, slot3:Find("frame/toggles/main"), function (slot0)
 		if slot0 then
 			uv0:Switch(1)
 		end
 	end, SFX_PANEL)
-	onToggle(slot0, slot0:findTF("frame/toggles/vanguard"), function (slot0)
+
+	slot3 = slot0._tf
+
+	onToggle(slot0, slot3:Find("frame/toggles/vanguard"), function (slot0)
 		if slot0 then
 			uv0:Switch(2)
 		end
@@ -60,7 +66,7 @@ slot0.Show = function(slot0, slot1)
 		slot3
 	}
 
-	triggerToggle(slot0:findTF("frame/toggles/main"), true)
+	triggerToggle(slot0._tf:Find("frame/toggles/main"), true)
 end
 
 slot0.OnHide = function(slot0)

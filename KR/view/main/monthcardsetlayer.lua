@@ -14,14 +14,14 @@ slot0.setRatio = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.name = slot0:findTF("window/bg/name")
-	slot0.desc = slot0:findTF("window/bg/desc")
-	slot0.oil = slot0:findTF("window/black/oil/icon_bg/count")
-	slot0.gold = slot0:findTF("window/black/gold/icon_bg/count")
-	slot0.slider = slot0:findTF("window/black/slider")
-	slot0.rate = slot0:findTF("window/black/misc/rate")
-	slot0.confirm = slot0:findTF("window/confirm")
-	slot0.cancel = slot0:findTF("window/cancel")
+	slot0.name = slot0._tf:Find("window/bg/name")
+	slot0.desc = slot0._tf:Find("window/bg/desc")
+	slot0.oil = slot0._tf:Find("window/black/oil/icon_bg/count")
+	slot0.gold = slot0._tf:Find("window/black/gold/icon_bg/count")
+	slot0.slider = slot0._tf:Find("window/black/slider")
+	slot0.rate = slot0._tf:Find("window/black/misc/rate")
+	slot0.confirm = slot0._tf:Find("window/confirm")
+	slot0.cancel = slot0._tf:Find("window/cancel")
 end
 
 slot0.didEnter = function(slot0)

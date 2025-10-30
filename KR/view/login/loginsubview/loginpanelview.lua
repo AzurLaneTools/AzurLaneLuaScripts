@@ -13,10 +13,10 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.loginPanel = slot0._tf
-	slot0.loginUsername = slot0:findTF("account/username", slot0.loginPanel)
-	slot0.loginPassword = slot0:findTF("password/password", slot0.loginPanel)
-	slot0.loginButton = slot0:findTF("login_button", slot0.loginPanel)
-	slot0.registerButton = slot0:findTF("register_button", slot0.loginPanel)
+	slot0.loginUsername = slot0.loginPanel:Find("account/username")
+	slot0.loginPassword = slot0.loginPanel:Find("password/password")
+	slot0.loginButton = slot0.loginPanel:Find("login_button")
+	slot0.registerButton = slot0.loginPanel:Find("register_button")
 
 	slot0:InitEvent()
 end

@@ -4,35 +4,36 @@ slot1 = 6000
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
-	slot0.collectBtn = slot0:findTF("collect_btn", slot0.bg)
-	slot0.taskRedDot = slot0:findTF("red_dot", slot0.collectBtn)
-	slot0.resNumTF = slot0:findTF("res_num", slot0.collectBtn)
-	slot0.title = slot0:findTF("title", slot0.bg)
-	slot0.tags = slot0:findTF("tags", slot0.bg)
-	slot0.convertBtn = slot0:findTF("convert_btn", slot0.bg)
-	slot0.switchBtn = slot0:findTF("switch_btn", slot0.bg)
-	slot0.switchRedDot = slot0:findTF("red_dot", slot0.switchBtn)
+	slot0.helpBtn = slot0.bg:Find("help_btn")
+	slot0.collectBtn = slot0.bg:Find("collect_btn")
+	slot0.taskRedDot = slot0.collectBtn:Find("red_dot")
+	slot0.resNumTF = slot0.collectBtn:Find("res_num")
+	slot0.title = slot0.bg:Find("title")
+	slot0.tags = slot0.bg:Find("tags")
+	slot0.convertBtn = slot0.bg:Find("convert_btn")
+	slot0.switchBtn = slot0.bg:Find("switch_btn")
+	slot1 = slot0.switchBtn
+	slot0.switchRedDot = slot1:Find("red_dot")
 	slot0.paintings = {
-		slot0:findTF("paintings/ninghai", slot0.bg),
-		slot0:findTF("paintings/pinghai", slot0.bg)
+		slot0.bg:Find("paintings/ninghai"),
+		slot0.bg:Find("paintings/pinghai")
 	}
-	slot0.anim = slot0:findTF("anim", slot0.bg)
-	slot0.ninghaiTF = slot0:findTF("anim/panda_anim/ninghai", slot0.bg)
-	slot0.pinghaiTF = slot0:findTF("anim/panda_anim/pinghai", slot0.bg)
-	slot0.heartImages = slot0:findTF("hearts", slot0.bg)
-	slot0.step2 = slot0:findTF("step2", slot0.bg)
-	slot0.taskWindow = slot0:findTF("TaskWindow")
-	slot0.closeBtn = slot0:findTF("panel/close_btn", slot0.taskWindow)
-	slot0.maskBtn = slot0:findTF("mask", slot0.taskWindow)
-	slot0.item = slot0:findTF("panel/scrollview/item", slot0.taskWindow)
-	slot0.items = slot0:findTF("panel/scrollview/items", slot0.taskWindow)
+	slot0.anim = slot0.bg:Find("anim")
+	slot0.ninghaiTF = slot0.bg:Find("anim/panda_anim/ninghai")
+	slot0.pinghaiTF = slot0.bg:Find("anim/panda_anim/pinghai")
+	slot0.heartImages = slot0.bg:Find("hearts")
+	slot0.step2 = slot0.bg:Find("step2")
+	slot0.taskWindow = slot0._tf:Find("TaskWindow")
+	slot0.closeBtn = slot0.taskWindow:Find("panel/close_btn")
+	slot0.maskBtn = slot0.taskWindow:Find("mask")
+	slot0.item = slot0.taskWindow:Find("panel/scrollview/item")
+	slot0.items = slot0.taskWindow:Find("panel/scrollview/items")
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
-	slot0.typeImages = slot0:findTF("panel/tags", slot0.taskWindow)
-	slot0.barImages = slot0:findTF("panel/bars", slot0.taskWindow)
-	slot0.guide = slot0:findTF("Guide")
-	slot0.guideTarget = slot0:findTF("target", slot0.guide)
-	slot0.guideContent = slot0:findTF("dialogBox/content", slot0.guide)
+	slot0.typeImages = slot0.taskWindow:Find("panel/tags")
+	slot0.barImages = slot0.taskWindow:Find("panel/bars")
+	slot0.guide = slot0._tf:Find("Guide")
+	slot0.guideTarget = slot0.guide:Find("target")
+	slot0.guideContent = slot0.guide:Find("dialogBox/content")
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -316,7 +317,7 @@ slot0.OnUpdatePtAct = function(slot0)
 	setActive(slot0.convertBtn, not slot8)
 	setActive(slot0.getBtn, slot8)
 	setActive(slot0.gotBtn, not slot9)
-	setActive(slot0:findTF("10", slot0.step), not slot9)
+	setActive(slot0.step:Find("10"), not slot9)
 	setActive(slot0.switchRedDot, not slot9 and not slot0:isFinishAllAct())
 	setActive(slot0.taskRedDot, slot0.showTaskRedDot and not slot0.hasClickTask)
 end
@@ -341,8 +342,8 @@ end
 slot0.playSpineAni = function(slot0)
 	setActive(slot0.anim, true)
 
-	slot2 = slot0:findTF("panda_anim", slot0.anim)
-	slot3 = slot0:findTF("heart_anim", slot0.anim)
+	slot2 = slot0.anim:Find("panda_anim")
+	slot3 = slot0.anim:Find("heart_anim")
 
 	setActive(slot2, true)
 
@@ -408,7 +409,7 @@ slot0.initTaskWindow = function(slot0)
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("item", slot2)
+			slot4 = slot2:Find("item")
 			slot6 = uv0.taskProxy:getTaskById(uv0.curTask[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot5)
 
 			assert(slot6, "without this task by id: " .. slot5)
@@ -427,26 +428,26 @@ slot0.initTaskWindow = function(slot0)
 			slot9 = slot6:getProgress()
 			slot10 = slot6:getConfig("target_num")
 
-			setText(uv0:findTF("description", slot2), slot6:getConfig("desc"))
-			setText(uv0:findTF("progressText", slot2), slot9 .. "/" .. slot10)
-			setSlider(uv0:findTF("progress", slot2), 0, slot10, slot9)
+			setText(slot2:Find("description"), slot6:getConfig("desc"))
+			setText(slot2:Find("progressText"), slot9 .. "/" .. slot10)
+			setSlider(slot2:Find("progress"), 0, slot10, slot9)
 
-			slot11 = uv0:findTF("go_btn", slot2)
+			slot11 = slot2:Find("go_btn")
 
 			if slot6:getTaskStatus() == 1 then
 				table.insert(uv0.finishItemList, slot2)
 				table.insert(uv0.finishTaskVOList, slot6)
 			end
 
-			setActive(uv0:findTF("finnal", slot2), slot12 == 2)
+			setActive(slot2:Find("finnal"), slot12 == 2)
 			onButton(uv0, slot11, function ()
 				uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 			end, SFX_PANEL)
 
 			slot13 = slot6:getConfig("type")
 
-			setImageSprite(uv0:findTF("type", slot2), uv0.typeImages:Find(tostring(slot13)):GetComponent(typeof(Image)).sprite, true)
-			setImageSprite(uv0:findTF("progress/slider", slot2), uv0.barImages:Find(tostring(slot13)):GetComponent(typeof(Image)).sprite)
+			setImageSprite(slot2:Find("type"), uv0.typeImages:Find(tostring(slot13)):GetComponent(typeof(Image)).sprite, true)
+			setImageSprite(slot2:Find("progress/slider"), uv0.barImages:Find(tostring(slot13)):GetComponent(typeof(Image)).sprite)
 		end
 	end)
 	slot0.uilist:align(#slot0.curTask)
@@ -473,7 +474,7 @@ slot0.openTask = function(slot0)
 	slot0.hasClickTask = true
 
 	eachChild(slot0.items, function (slot0)
-		if isActive(uv0:findTF("finnal", slot0)) then
+		if isActive(slot0:Find("finnal")) then
 			slot0:SetAsLastSibling()
 		end
 	end)
@@ -499,8 +500,8 @@ slot0.autoFinishTask = function(slot0)
 			slot0:setOnComplete(System.Action(function ()
 				uv0.alpha = 1
 
-				setActive(uv1:findTF("finnal", uv2), true)
-				uv2:SetAsLastSibling()
+				setActive(uv1:Find("finnal"), true)
+				uv1:SetAsLastSibling()
 			end))
 		end, slot1, nil)
 

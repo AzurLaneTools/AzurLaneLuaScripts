@@ -27,15 +27,18 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot1 = slot0:findTF("DayImg")
+	slot1 = slot0._tf:Find("DayImg")
 	slot0.daySpriteList = {}
 
 	for slot5 = 0, slot0.totalDayCount - 1 do
 		table.insert(slot0.daySpriteList, getImageSprite(slot1:GetChild(slot5)))
 	end
 
-	slot0.itemTpl = slot0:findTF("ItemTpl")
-	slot0.taskUIList = UIItemList.New(slot0:findTF("ScrollRect/Container"), slot0:findTF("TaskTpl"))
+	slot2 = slot0._tf
+	slot0.itemTpl = slot2:Find("ItemTpl")
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.taskUIList = UIItemList.New(slot3:Find("ScrollRect/Container"), slot2:Find("TaskTpl"))
 	slot4 = slot0.taskUIList
 
 	slot4:make(function (slot0, slot1, slot2)
@@ -44,9 +47,12 @@ slot0.initUI = function(slot0)
 		end
 	end)
 
-	slot0.taskProgressText = slot0:findTF("BG/ProgressText")
-	slot0.oneStepBtnDisable = slot0:findTF("OneStepDisable")
-	slot0.oneStepBtn = slot0:findTF("OneStepBtn")
+	slot4 = slot0._tf
+	slot0.taskProgressText = slot4:Find("BG/ProgressText")
+	slot4 = slot0._tf
+	slot0.oneStepBtnDisable = slot4:Find("OneStepDisable")
+	slot4 = slot0._tf
+	slot0.oneStepBtn = slot4:Find("OneStepBtn")
 
 	onButton(slot0, slot0.oneStepBtn, function ()
 		if uv0:isTaskListOverflow() then
@@ -92,9 +98,9 @@ slot0.updateOutline = function(slot0)
 end
 
 slot0.updateItem = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("Icon", slot1)
+	slot3 = slot1:Find("Icon")
 
-	setText(slot0:findTF("Count", slot1), slot2.count)
+	setText(slot1:Find("Count"), slot2.count)
 
 	if slot2.type ~= DROP_TYPE_SHIP then
 		setImageSprite(slot3, LoadSprite(slot2:getIcon()))
@@ -110,25 +116,25 @@ slot0.updateTaskList = function(slot0)
 end
 
 slot0.updateTask = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("Go", slot1)
-	slot7 = slot0:findTF("Get", slot1)
+	slot3 = slot1:Find("Go")
+	slot7 = slot1:Find("Get")
 
 	setActive(slot3, slot2:getTaskStatus() == 0)
 	setActive(slot7, slot12 == 1)
-	setActive(slot0:findTF("Got", slot1), slot12 == 2)
-	setImageSprite(slot0:findTF("DayImg", slot1), slot0.daySpriteList[slot0:getTaskUnlockSignCount(slot2)])
-	setActive(slot0:findTF("Lock", slot1), not slot0:isTaskUnlocked(slot2))
-	setText(slot0:findTF("DescText", slot1), slot2:getConfig("desc"))
+	setActive(slot1:Find("Got"), slot12 == 2)
+	setImageSprite(slot1:Find("DayImg"), slot0.daySpriteList[slot0:getTaskUnlockSignCount(slot2)])
+	setActive(slot1:Find("Lock"), not slot0:isTaskUnlocked(slot2))
+	setText(slot1:Find("DescText"), slot2:getConfig("desc"))
 
 	slot17 = slot2:getProgress()
 	slot18 = slot2:getConfig("target_num")
 
 	setSlider(slot5, 0, slot18, slot17)
-	setText(slot0:findTF("Text", slot0:findTF("Progress", slot3)), slot17 .. "/" .. slot18)
+	setText(slot3:Find("Progress"):Find("Text"), slot17 .. "/" .. slot18)
 	setSlider(slot9, 0, slot18, slot17)
-	setText(slot0:findTF("Text", slot0:findTF("Progress", slot7)), slot17 .. "/" .. slot18)
+	setText(slot7:Find("Progress"):Find("Text"), slot17 .. "/" .. slot18)
 
-	slot21 = UIItemList.New(slot0:findTF("Drops", slot1), slot0.itemTpl)
+	slot21 = UIItemList.New(slot1:Find("Drops"), slot0.itemTpl)
 
 	slot21:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -136,12 +142,12 @@ slot0.updateTask = function(slot0, slot1, slot2)
 		end
 	end)
 	slot21:align(#slot0:getTaskAwardForShow(slot2))
-	onButton(slot0, slot0:findTF("Btn", slot3), function ()
+	onButton(slot0, slot3:Find("Btn"), function ()
 		pg.m02:sendNotification(GAME.TASK_GO, {
 			taskVO = uv0
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("Btn", slot7), function ()
+	onButton(slot0, slot7:Find("Btn"), function ()
 		slot0 = function()
 			pg.m02:sendNotification(GAME.SUBMIT_TASK, uv0.id)
 			uv1:setLastSubmitTask({

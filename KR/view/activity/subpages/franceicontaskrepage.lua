@@ -1,15 +1,15 @@
 slot0 = class("FranceIconTaskRePage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.slider = slot0:findTF("slider", slot0.bg)
-	slot0.step = slot0:findTF("step", slot0.bg)
-	slot0.progress = slot0:findTF("progress", slot0.bg)
-	slot0.displayBtn = slot0:findTF("display_btn", slot0.bg)
-	slot0.awardTF = slot0:findTF("award", slot0.bg)
-	slot0.battleBtn = slot0:findTF("battle_btn", slot0.bg)
-	slot0.getBtn = slot0:findTF("get_btn", slot0.bg)
-	slot0.gotBtn = slot0:findTF("got_btn", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.slider = slot0.bg:Find("slider")
+	slot0.step = slot0.bg:Find("step")
+	slot0.progress = slot0.bg:Find("progress")
+	slot0.displayBtn = slot0.bg:Find("display_btn")
+	slot0.awardTF = slot0.bg:Find("award")
+	slot0.battleBtn = slot0.bg:Find("battle_btn")
+	slot0.getBtn = slot0.bg:Find("get_btn")
+	slot0.gotBtn = slot0.bg:Find("got_btn")
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -22,13 +22,13 @@ slot0.OnFirstFlush = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot0.step = slot0:findTF("AD/switcher/phase2/Image/step")
-	slot0.progress = slot0:findTF("AD/switcher/phase2/Image/progress")
-	slot0.switchBtn = slot0:findTF("AD/switcher/switch_btn")
-	slot0.bar = slot0:findTF("AD/switcher/phase2/Image/barContent/bar")
+	slot0.step = slot0._tf:Find("AD/switcher/phase2/Image/step")
+	slot0.progress = slot0._tf:Find("AD/switcher/phase2/Image/progress")
+	slot0.switchBtn = slot0._tf:Find("AD/switcher/switch_btn")
+	slot0.bar = slot0._tf:Find("AD/switcher/phase2/Image/barContent/bar")
 	slot0.phases = {
-		slot0:findTF("AD/switcher/phase1"),
-		slot0:findTF("AD/switcher/phase2")
+		slot0._tf:Find("AD/switcher/phase1"),
+		slot0._tf:Find("AD/switcher/phase2")
 	}
 	slot0.inPhase2 = false
 
@@ -114,7 +114,7 @@ slot0.Switch = function(slot0, slot1)
 end
 
 slot0.UpdateAwardGot = function(slot0)
-	setActive(slot0:findTF("AD/switcher/phase2/got"), slot0.activity.data2 >= 1)
+	setActive(slot0._tf:Find("AD/switcher/phase2/got"), slot0.activity.data2 >= 1)
 end
 
 slot0.OnUpdateFlush = function(slot0)

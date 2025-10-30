@@ -55,10 +55,10 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.initUITipText = function(slot0)
-	setText(slot0:findTF("Preview/FinalAttrPanel/TitleText"), i18n("meta_energy_preview_title"))
-	setText(slot0:findTF("Preview/FinalAttrPanel/TipText"), i18n("meta_energy_preview_tip"))
-	setText(slot0:findTF("RightPanel/MaterialPanel/StarMax/Text"), i18n("word_level_upperLimit"))
-	setText(slot0:findTF("RightPanel/MaterialPanel/TipText"), i18n("meta_break"))
+	setText(slot0._tf:Find("Preview/FinalAttrPanel/TitleText"), i18n("meta_energy_preview_title"))
+	setText(slot0._tf:Find("Preview/FinalAttrPanel/TipText"), i18n("meta_energy_preview_tip"))
+	setText(slot0._tf:Find("RightPanel/MaterialPanel/StarMax/Text"), i18n("word_level_upperLimit"))
+	setText(slot0._tf:Find("RightPanel/MaterialPanel/TipText"), i18n("meta_break"))
 end
 
 slot0.initData = function(slot0)
@@ -74,60 +74,60 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.shipImg = slot0:findTF("ShipImg")
-	slot0.nameTF = slot0:findTF("NamePanel")
-	slot0.nameScrollText = slot0:findTF("NameMask/NameText", slot0.nameTF)
-	slot0.shipTypeImg = slot0:findTF("TypeImg", slot0.nameTF)
-	slot0.enNameText = slot0:findTF("NameENText", slot0.nameTF)
-	slot0.nameTFStarUIList = UIItemList.New(slot0:findTF("StarContainer", slot0.nameTF), slot0:findTF("StarTpl", slot0.nameTF))
-	slot0.previewBtn = slot0:findTF("PreviewBtn")
-	slot0.rightPanel = slot0:findTF("RightPanel")
-	slot0.qCharContain = slot0:findTF("DetailPanel/QChar", slot0.rightPanel)
-	slot0.starTpl = slot0:findTF("DetailPanel/RarePanel/StarTpl", slot0.rightPanel)
+	slot0.shipImg = slot0._tf:Find("ShipImg")
+	slot0.nameTF = slot0._tf:Find("NamePanel")
+	slot0.nameScrollText = slot0.nameTF:Find("NameMask/NameText")
+	slot0.shipTypeImg = slot0.nameTF:Find("TypeImg")
+	slot0.enNameText = slot0.nameTF:Find("NameENText")
+	slot0.nameTFStarUIList = UIItemList.New(slot0.nameTF:Find("StarContainer"), slot0.nameTF:Find("StarTpl"))
+	slot0.previewBtn = slot0._tf:Find("PreviewBtn")
+	slot0.rightPanel = slot0._tf:Find("RightPanel")
+	slot0.qCharContain = slot0.rightPanel:Find("DetailPanel/QChar")
+	slot0.starTpl = slot0.rightPanel:Find("DetailPanel/RarePanel/StarTpl")
 
 	setActive(slot0.starTpl, false)
 
-	slot0.starsFrom = slot0:findTF("DetailPanel/RarePanel/StarsFrom", slot0.rightPanel)
-	slot0.starsTo = slot0:findTF("DetailPanel/RarePanel/StarsTo", slot0.rightPanel)
-	slot0.starOpera = slot0:findTF("DetailPanel/RarePanel/OpImg", slot0.rightPanel)
+	slot0.starsFrom = slot0.rightPanel:Find("DetailPanel/RarePanel/StarsFrom")
+	slot0.starsTo = slot0.rightPanel:Find("DetailPanel/RarePanel/StarsTo")
+	slot0.starOpera = slot0.rightPanel:Find("DetailPanel/RarePanel/OpImg")
 	slot0.starFromList = UIItemList.New(slot0.starsFrom, slot0.starTpl)
 	slot0.starToList = UIItemList.New(slot0.starsTo, slot0.starTpl)
-	slot0.attrTpl = slot0:findTF("DetailPanel/AttrTpl", slot0.rightPanel)
+	slot0.attrTpl = slot0.rightPanel:Find("DetailPanel/AttrTpl")
 
 	setActive(slot0.attrTpl, false)
 
-	slot0.attrsContainer = slot0:findTF("DetailPanel/AttrsContainer", slot0.rightPanel)
+	slot0.attrsContainer = slot0.rightPanel:Find("DetailPanel/AttrsContainer")
 	slot0.attrsList = UIItemList.New(slot0.attrsContainer, slot0.attrTpl)
-	slot0.materialPanel = slot0:findTF("MaterialPanel", slot0.rightPanel)
-	slot0.levelNumText = slot0:findTF("Info/LevelTipText", slot0.materialPanel)
-	slot0.infoTF = slot0:findTF("Info", slot0.materialPanel)
-	slot0.repairRateText = slot0:findTF("Info/ProgressTipText", slot0.materialPanel)
-	slot0.materialTF = slot0:findTF("Info/Material", slot0.materialPanel)
-	slot0.breakOutTipImg = slot0:findTF("TipText", slot0.materialPanel)
-	slot0.goldTF = slot0:findTF("Gold", slot0.materialPanel)
-	slot0.goldNumText = slot0:findTF("NumText", slot0.goldTF)
-	slot0.starMaxTF = slot0:findTF("StarMax", slot0.materialPanel)
-	slot0.activeBtn = slot0:findTF("ActiveBtn", slot0.materialPanel)
-	slot0.activeBtnDisable = slot0:findTF("ActiveBtnDisable", slot0.materialPanel)
-	slot0.previewTF = slot0:findTF("Preview")
-	slot0.previewBG = slot0:findTF("BG", slot0.previewTF)
-	slot0.previewPanel = slot0:findTF("PreviewPanel", slot0.previewTF)
-	slot0.stages = slot0:findTF("StageScrollRect/Stages", slot0.previewPanel)
-	slot0.stagesSnap = slot0:findTF("StageScrollRect", slot0.previewPanel):GetComponent("HorizontalScrollSnap")
-	slot0.breakView = slot0:findTF("Content/Text", slot0.previewPanel)
-	slot0.sea = slot0:findTF("Sea", slot0.previewPanel)
+	slot0.materialPanel = slot0.rightPanel:Find("MaterialPanel")
+	slot0.levelNumText = slot0.materialPanel:Find("Info/LevelTipText")
+	slot0.infoTF = slot0.materialPanel:Find("Info")
+	slot0.repairRateText = slot0.materialPanel:Find("Info/ProgressTipText")
+	slot0.materialTF = slot0.materialPanel:Find("Info/Material")
+	slot0.breakOutTipImg = slot0.materialPanel:Find("TipText")
+	slot0.goldTF = slot0.materialPanel:Find("Gold")
+	slot0.goldNumText = slot0.goldTF:Find("NumText")
+	slot0.starMaxTF = slot0.materialPanel:Find("StarMax")
+	slot0.activeBtn = slot0.materialPanel:Find("ActiveBtn")
+	slot0.activeBtnDisable = slot0.materialPanel:Find("ActiveBtnDisable")
+	slot0.previewTF = slot0._tf:Find("Preview")
+	slot0.previewBG = slot0.previewTF:Find("BG")
+	slot0.previewPanel = slot0.previewTF:Find("PreviewPanel")
+	slot0.stages = slot0.previewPanel:Find("StageScrollRect/Stages")
+	slot0.stagesSnap = slot0.previewPanel:Find("StageScrollRect"):GetComponent("HorizontalScrollSnap")
+	slot0.breakView = slot0.previewPanel:Find("Content/Text")
+	slot0.sea = slot0.previewPanel:Find("Sea")
 	slot0.rawImage = slot0.sea:GetComponent("RawImage")
 
 	setActive(slot0.rawImage, false)
 
-	slot0.healTF = slot0:findTF("Resources/Heal")
+	slot0.healTF = slot0._tf:Find("Resources/Heal")
 	slot0.healTF.transform.localPosition = Vector3(-360, 50, 40)
 
 	setActive(slot0.healTF, false)
 
-	slot0.seaLoading = slot0:findTF("BG/Loading", slot0.previewPanel)
-	slot0.previewAttrTpl = slot0:findTF("FinalAttrPanel/AttrTpl", slot0.previewTF)
-	slot0.previewAttrContainer = slot0:findTF("FinalAttrPanel/AttrsContainer", slot0.previewTF)
+	slot0.seaLoading = slot0.previewPanel:Find("BG/Loading")
+	slot0.previewAttrTpl = slot0.previewTF:Find("FinalAttrPanel/AttrTpl")
+	slot0.previewAttrContainer = slot0.previewTF:Find("FinalAttrPanel/AttrsContainer")
 	slot0.previewAttrUIItemList = UIItemList.New(slot0.previewAttrContainer, slot0.previewAttrTpl)
 end
 
@@ -188,9 +188,9 @@ slot0.updateNamePanel = function(slot0)
 
 	slot0.nameTFStarUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0:findTF("empty", slot2)
+			slot3 = slot2:Find("empty")
 
-			setActive(uv0:findTF("on", slot2), slot1 + 1 <= uv1)
+			setActive(slot2:Find("on"), slot1 + 1 <= uv0)
 		end
 	end)
 	slot0.nameTFStarUIList:align(slot1:getMaxStar())
@@ -290,7 +290,7 @@ slot0.updateMaterialPanel = function(slot0, slot1)
 	slot9, slot10, slot11 = nil
 	slot9 = slot8[1].itemId
 	slot10 = slot5:getItemCountById(slot9)
-	slot12 = slot0:findTF("Item", slot0.materialTF)
+	slot12 = slot0.materialTF:Find("Item")
 
 	updateDrop(slot12, {
 		type = DROP_TYPE_ITEM,
@@ -302,7 +302,7 @@ slot0.updateMaterialPanel = function(slot0, slot1)
 	onButton(slot0, slot12, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot0:findTF("icon_bg/count", slot12), setColorStr(slot10, slot10 < slot8[1].count and COLOR_RED or COLOR_GREEN) .. "/" .. slot11)
+	setText(slot12:Find("icon_bg/count"), setColorStr(slot10, slot10 < slot8[1].count and COLOR_RED or COLOR_GREEN) .. "/" .. slot11)
 
 	if slot10 < slot11 then
 		slot6 = false
@@ -369,16 +369,16 @@ slot0.updatePreviewAttrListPanel = function(slot0)
 
 	slot0.previewAttrUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot5 = uv0:findTF("AddValueText", slot2)
-			slot6 = uv1[slot1 + 1]
+			slot5 = slot2:Find("AddValueText")
+			slot6 = uv0[slot1 + 1]
 
-			setImageSprite(uv0:findTF("AttrIcon", slot2), LoadSprite("attricon", slot6))
-			setText(uv0:findTF("NameText", slot2), AttributeType.Type2Name(slot6))
+			setImageSprite(slot2:Find("AttrIcon"), LoadSprite("attricon", slot6))
+			setText(slot2:Find("NameText"), AttributeType.Type2Name(slot6))
 
 			if slot6 == AttributeType.ArmorType then
-				setText(slot5, uv2:getShipArmorName())
+				setText(slot5, uv1:getShipArmorName())
 			else
-				setText(slot5, uv3[slot6] or 0)
+				setText(slot5, uv2[slot6] or 0)
 			end
 		end
 	end)
@@ -400,8 +400,9 @@ slot0.initPreviewPanel = function(slot0, slot1)
 
 	for slot7 = 1, 3 do
 		slot9 = uv0[slot0.breakIds[slot7]]
+		slot10 = slot0.stages
 
-		onToggle(slot0, slot0:findTF("Stage" .. slot7, slot0.stages), function (slot0)
+		onToggle(slot0, slot10:Find("Stage" .. slot7), function (slot0)
 			if slot0 then
 				slot1 = uv0.breakout_view
 				slot2 = checkExist(pg.ship_data_template[uv0.breakout_id], {

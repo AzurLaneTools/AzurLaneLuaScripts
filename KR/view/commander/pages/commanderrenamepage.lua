@@ -18,7 +18,7 @@ slot0.OnInit = function(slot0)
 	slot0.input = findTF(slot0._tf, "frame/bg/content/input")
 	slot0.confirmBtn = slot0._tf:Find("frame/confirm_btn")
 
-	setText(slot0:findTF("frame/bg/content/label"), i18n("commander_rename_tip"))
+	setText(slot0._tf:Find("frame/bg/content/label"), i18n("commander_rename_tip"))
 end
 
 slot0.Show = function(slot0, slot1)

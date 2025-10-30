@@ -59,22 +59,22 @@ slot0.GetFlagShip = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.backBtn = slot0:findTF("top/frame/back")
-	slot0.mainViewCg = slot0:findTF("adapt"):GetComponent(typeof(CanvasGroup))
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.backBtn = slot0._tf:Find("top/frame/back")
+	slot0.mainViewCg = slot0._tf:Find("adapt"):GetComponent(typeof(CanvasGroup))
 	slot0.mainTr = slot0.mainViewCg.gameObject.transform
-	slot0.painting = slot0:findTF("adapt/paint")
-	slot0.btnContainer = slot0:findTF("adapt/btns")
-	slot0.switchSkinBtn = slot0:findTF("adapt/btns/swichSkin_btn")
-	slot0.replaceBtn = slot0:findTF("adapt/btns/replace_btn")
+	slot0.painting = slot0._tf:Find("adapt/paint")
+	slot0.btnContainer = slot0._tf:Find("adapt/btns")
+	slot0.switchSkinBtn = slot0._tf:Find("adapt/btns/swichSkin_btn")
+	slot0.replaceBtn = slot0._tf:Find("adapt/btns/replace_btn")
 	slot0.replaceBtnTip = slot0.replaceBtn:Find("tip")
-	slot0.cryptolaliaBtn = slot0:findTF("adapt/btns/cryptolalia_btn")
-	slot0.switchSkinBtnTag = slot0:findTF("Tag", slot0.switchSkinBtn)
-	slot0.titlt = slot0:findTF("top/frame/title")
-	slot0.titltNative = slot0:findTF("top/frame/title_native")
-	slot0.titltRandom = slot0:findTF("top/frame/title_random")
-	slot0.detailCg = GetOrAddComponent(slot0:findTF("detail"), typeof(CanvasGroup))
-	slot2 = slot0:findTF("adapt/tpl")
+	slot0.cryptolaliaBtn = slot0._tf:Find("adapt/btns/cryptolalia_btn")
+	slot0.switchSkinBtnTag = slot0.switchSkinBtn:Find("Tag")
+	slot0.titlt = slot0._tf:Find("top/frame/title")
+	slot0.titltNative = slot0._tf:Find("top/frame/title_native")
+	slot0.titltRandom = slot0._tf:Find("top/frame/title_random")
+	slot0.detailCg = GetOrAddComponent(slot0._tf:Find("detail"), typeof(CanvasGroup))
+	slot2 = slot0._tf:Find("adapt/tpl")
 
 	setActive(slot2, false)
 
@@ -87,10 +87,11 @@ slot0.init = function(slot0)
 	}
 
 	for slot6 = 1, #slot0.btns do
-		slot0.btns[slot6]:setParent(slot0:findTF("adapt/toggleBtns"), #slot0.btns - slot6)
+		slot0.btns[slot6]:setParent(slot0._tf:Find("adapt/toggleBtns"), #slot0.btns - slot6)
 	end
 
-	slot0.btnLive2dReset = slot0:findTF("adapt/btnLive2dReset")
+	slot3 = slot0._tf
+	slot0.btnLive2dReset = slot3:Find("adapt/btnLive2dReset")
 	slot3 = GetComponent(findTF(slot0.btnLive2dReset, "img"), typeof(Image))
 
 	slot3:SetNativeSize()
@@ -98,15 +99,21 @@ slot0.init = function(slot0)
 	slot3 = GetComponent(slot0.btnLive2dReset, typeof(Image))
 
 	slot3:SetNativeSize()
-	SetParent(slot0.btnLive2dReset, slot0:findTF("adapt/toggleBtns"))
+
+	slot5 = slot0._tf
+
+	SetParent(slot0.btnLive2dReset, slot5:Find("adapt/toggleBtns"))
 
 	slot0.shipsPage = PlayerVitaeShipsPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.detailPage = PlayerVitaeDetailPage.New(slot1, slot0.event, slot0.contextData)
+	slot4 = slot0._tf
+	slot5 = slot0._tf
 
-	setParent(slot0:findTF("adapt/toggleBtns"), slot0:findTF("detail"), true)
+	setParent(slot4:Find("adapt/toggleBtns"), slot5:Find("detail"), true)
 
 	slot0.contextData.renamePage = PlayerVitaeRenamePage.New(slot0._tf, slot0.event)
-	slot0.topFrame = slot0:findTF("top/frame")
+	slot3 = slot0._tf
+	slot0.topFrame = slot3:Find("top/frame")
 	slot0.detailPosx = slot0._tf.rect.width * 0.5 - 937 * PlayerVitaeDetailPage.PreCalcAspect(slot1, 1080)
 
 	LoadSpriteAsync("CommonBG/bg_admiral", function (slot0)

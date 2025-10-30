@@ -6,7 +6,10 @@ end
 
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
-	onButton(slot0, slot0:findTF("backBtn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("backBtn"), function ()
 		uv0:OnBackward()
 	end, SFX_PANEL)
 end

@@ -34,11 +34,11 @@ slot0.OnUpdateRankList = function(slot0, slot1, slot2)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.tabContainer = slot0:findTF("frame/bg/tab")
-	slot0.ranTypeTF = slot0:findTF("frame/bg/week")
-	slot0.closeBtn = slot0:findTF("frame/close")
-	slot0.rankLabel = slot0:findTF("frame/bg/title/Text"):GetComponent(typeof(Text))
-	slot0.scrollrect = slot0:findTF("frame/bg/scrollrect"):GetComponent("LScrollRect")
+	slot0.tabContainer = slot0._tf:Find("frame/bg/tab")
+	slot0.ranTypeTF = slot0._tf:Find("frame/bg/week")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot0.rankLabel = slot0._tf:Find("frame/bg/title/Text"):GetComponent(typeof(Text))
+	slot0.scrollrect = slot0._tf:Find("frame/bg/scrollrect"):GetComponent("LScrollRect")
 
 	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)

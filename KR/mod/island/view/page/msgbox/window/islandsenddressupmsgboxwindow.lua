@@ -14,9 +14,9 @@ slot1 = {
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.itemFrameTF = slot0:findTF("item/icon_bg/frame")
-	slot0.itemIconTF = slot0:findTF("item/icon_bg/icon")
-	slot0.ownNum = slot0:findTF("own/ownCount")
+	slot0.itemFrameTF = slot0._tf:Find("item/icon_bg/frame")
+	slot0.itemIconTF = slot0._tf:Find("item/icon_bg/icon")
+	slot0.ownNum = slot0._tf:Find("own/ownCount")
 end
 
 slot0.OnShow = function(slot0)

@@ -52,15 +52,15 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.paintingTF = slot0:findTF("Painting")
-	slot0.paintingShadow1 = slot0:findTF("Painting/PaintingShadow1")
-	slot0.paintingNextTF = slot0:findTF("PaintingNext")
-	slot0.paintingNextShadow1 = slot0:findTF("PaintingNext/PaintingShadow1")
-	slot0.material1 = slot0:findTF("material1"):GetComponent(typeof(Image)).material
-	slot0.slider = slot0:findTF("Slider")
-	slot0.squareContainer = slot0:findTF("SquareList", slot0.slider)
-	slot0.squareTpl = slot0:findTF("Squre", slot0.slider)
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.paintingTF = slot0._tf:Find("Painting")
+	slot0.paintingShadow1 = slot0._tf:Find("Painting/PaintingShadow1")
+	slot0.paintingNextTF = slot0._tf:Find("PaintingNext")
+	slot0.paintingNextShadow1 = slot0._tf:Find("PaintingNext/PaintingShadow1")
+	slot0.material1 = slot0._tf:Find("material1"):GetComponent(typeof(Image)).material
+	slot0.slider = slot0._tf:Find("Slider")
+	slot0.squareContainer = slot0.slider:Find("SquareList")
+	slot0.squareTpl = slot0.slider:Find("Squre")
 	slot0.squareList = UIItemList.New(slot0.squareContainer, slot0.squareTpl)
 	slot0.sliderSC = GetComponent(slot0.slider, "Slider")
 end
@@ -126,7 +126,7 @@ slot0.updatePainting = function(slot0, slot1, slot2, slot3, slot4)
 
 	setPaintingPrefab(slot2, slot1, "chuanwu")
 
-	if slot0:findTF("fitter", slot2):GetChild(0) then
+	if slot2:Find("fitter"):GetChild(0) then
 		slot7 = GetComponent(slot6, "MeshImage")
 
 		if slot4 then
@@ -139,7 +139,7 @@ slot0.updatePainting = function(slot0, slot1, slot2, slot3, slot4)
 
 	setPaintingPrefabAsync(slot3, slot1, "chuanwu")
 
-	if slot0:findTF("fitter", slot3):GetChild(0) then
+	if slot3:Find("fitter"):GetChild(0) then
 		slot7:GetComponent("Image").color = Color.New(1, 1, 1, 0.15)
 	end
 
@@ -154,10 +154,10 @@ slot0.updateSlider = function(slot0, slot1)
 	slot0.sliderSC.value = (slot2 - 1) * 1 / (ChallengeConst.BOSS_NUM - 1)
 
 	slot0.squareList:make(function (slot0, slot1, slot2)
-		slot3 = uv0:findTF("UnFinished", slot2)
-		slot4 = uv0:findTF("Finished", slot2)
-		slot5 = uv0:findTF("Challengeing", slot2)
-		slot6 = uv0:findTF("Arrow", slot2)
+		slot3 = slot2:Find("UnFinished")
+		slot4 = slot2:Find("Finished")
+		slot5 = slot2:Find("Challengeing")
+		slot6 = slot2:Find("Arrow")
 
 		slot7 = function()
 			setActive(uv0, true)
@@ -178,13 +178,13 @@ slot0.updateSlider = function(slot0, slot1)
 		end
 
 		if slot0 == UIItemList.EventUpdate then
-			if slot1 + 1 < uv1 then
+			if slot1 + 1 < uv0 then
 				setActive(slot6, false)
 				slot7()
-			elseif slot1 + 1 == uv1 then
+			elseif slot1 + 1 == uv0 then
 				setActive(slot6, true)
 				slot9()
-			elseif uv1 < slot1 + 1 then
+			elseif uv0 < slot1 + 1 then
 				setActive(slot6, false)
 				slot8()
 			end

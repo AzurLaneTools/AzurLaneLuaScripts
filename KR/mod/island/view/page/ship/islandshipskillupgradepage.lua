@@ -5,16 +5,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.upgradeBtn = slot0:findTF("btn_confirm")
-	slot0.closeBtn = slot0:findTF("frame_1/close")
-	slot0.titleTxt = slot0:findTF("frame_1/title"):GetComponent(typeof(Text))
-	slot0.levelTxt = slot0:findTF("frame_1/level"):GetComponent(typeof(Text))
-	slot0.nextLevelTxt = slot0:findTF("frame_1/next_level"):GetComponent(typeof(Text))
-	slot0.descTxt = slot0:findTF("frame_2/desc_bg/Text"):GetComponent(typeof(Text))
-	slot0.nextDescTxt = slot0:findTF("frame_2/desc_bg_1/Text"):GetComponent(typeof(Text))
-	slot0.uiItemList = UIItemList.New(slot0:findTF("frame_2/item_bg/items"), slot0:findTF("frame_2/item_bg/items/tpl"))
+	slot0.upgradeBtn = slot0._tf:Find("btn_confirm")
+	slot0.closeBtn = slot0._tf:Find("frame_1/close")
+	slot0.titleTxt = slot0._tf:Find("frame_1/title"):GetComponent(typeof(Text))
+	slot0.levelTxt = slot0._tf:Find("frame_1/level"):GetComponent(typeof(Text))
+	slot0.nextLevelTxt = slot0._tf:Find("frame_1/next_level"):GetComponent(typeof(Text))
+	slot0.descTxt = slot0._tf:Find("frame_2/desc_bg/Text"):GetComponent(typeof(Text))
+	slot0.nextDescTxt = slot0._tf:Find("frame_2/desc_bg_1/Text"):GetComponent(typeof(Text))
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("frame_2/item_bg/items"), slot0._tf:Find("frame_2/item_bg/items/tpl"))
 
-	setText(slot0:findTF("frame_2/sub_title/Text"), i18n("island_skill_consume_title"))
+	setText(slot0._tf:Find("frame_2/sub_title/Text"), i18n("island_skill_consume_title"))
 	setText(slot0.upgradeBtn:Find("Text"), i18n("island_chara_up_button"))
 end
 

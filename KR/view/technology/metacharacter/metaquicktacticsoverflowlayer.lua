@@ -42,10 +42,10 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.text = slot0:findTF("Content/Context/Text")
-	slot0.cancelBtn = slot0:findTF("Content/CancelBtn")
-	slot0.confirmBtn = slot0:findTF("Content/ConfirmBtn")
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.text = slot0._tf:Find("Content/Context/Text")
+	slot0.cancelBtn = slot0._tf:Find("Content/CancelBtn")
+	slot0.confirmBtn = slot0._tf:Find("Content/ConfirmBtn")
 
 	setText(slot0.text, i18n("metaskill_overflow_tip", slot0.overExp))
 end

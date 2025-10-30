@@ -24,10 +24,10 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.itemTpl = slot0:findTF("ItemTpl")
-	slot1 = slot0:findTF("content")
-	slot0.monthCardTF = slot0:findTF("ItemMonth", slot1)
-	slot0.itemContainerTF = slot0:findTF("ItemList", slot1)
+	slot0.itemTpl = slot0._tf:Find("ItemTpl")
+	slot1 = slot0._tf:Find("content")
+	slot0.monthCardTF = slot1:Find("ItemMonth")
+	slot0.itemContainerTF = slot1:Find("ItemList")
 	slot0.uiItemList = slot0:initUIItemList()
 
 	slot0:updateView()

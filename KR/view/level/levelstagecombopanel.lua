@@ -5,13 +5,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.tf_combo = slot0:findTF("combo/text")
+	slot0.tf_combo = slot0._tf:Find("combo/text")
 	slot0.text_combo = slot0.tf_combo:GetComponent(typeof(Text))
-	slot0.tf_perfect = slot0:findTF("perfect/text")
+	slot0.tf_perfect = slot0._tf:Find("perfect/text")
 	slot0.text_perfect = slot0.tf_perfect:GetComponent(typeof(Text))
-	slot0.tf_good = slot0:findTF("good/text")
+	slot0.tf_good = slot0._tf:Find("good/text")
 	slot0.text_good = slot0.tf_good:GetComponent(typeof(Text))
-	slot0.tf_miss = slot0:findTF("miss/text")
+	slot0.tf_miss = slot0._tf:Find("miss/text")
 	slot0.text_miss = slot0.tf_miss:GetComponent(typeof(Text))
 	slot0.anims = {}
 end

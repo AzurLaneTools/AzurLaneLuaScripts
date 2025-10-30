@@ -5,29 +5,32 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.tpl = slot0:findTF("bg/tpl")
+	slot0.tpl = slot0._tf:Find("bg/tpl")
 
 	setActive(slot0.tpl, false)
 
-	slot0.frameTF = slot0:findTF("bg/frame")
-	slot0.contentTF = slot0:findTF("view/content", slot0.frameTF)
-	slot0.unlockTF = slot0:findTF("unlock", slot0.contentTF)
+	slot0.frameTF = slot0._tf:Find("bg/frame")
+	slot0.contentTF = slot0.frameTF:Find("view/content")
+	slot0.unlockTF = slot0.contentTF:Find("unlock")
 
-	setText(slot0:findTF("title/Text", slot0.unlockTF), i18n("word_unlock"))
+	setText(slot0.unlockTF:Find("title/Text"), i18n("word_unlock"))
 
-	slot0.unlockUIList = UIItemList.New(slot0:findTF("list", slot0.unlockTF), slot0.tpl)
-	slot0.lockTF = slot0:findTF("lock", slot0.contentTF)
+	slot0.unlockUIList = UIItemList.New(slot0.unlockTF:Find("list"), slot0.tpl)
+	slot0.lockTF = slot0.contentTF:Find("lock")
 
-	setText(slot0:findTF("title/Text", slot0.lockTF), i18n("word_lock"))
+	setText(slot0.lockTF:Find("title/Text"), i18n("word_lock"))
 
-	slot0.lockUIList = UIItemList.New(slot0:findTF("list", slot0.lockTF), slot0.tpl)
+	slot0.lockUIList = UIItemList.New(slot0.lockTF:Find("list"), slot0.tpl)
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:CheckSet()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("close", slot0.frameTF), function ()
+
+	slot3 = slot0.frameTF
+
+	onButton(slot0, slot3:Find("close"), function ()
 		uv0:CheckSet()
 	end, SFX_PANEL)
 
@@ -53,10 +56,10 @@ slot0.updateItem = function(slot0, slot1, slot2, slot3)
 	slot5 = slot3 == "unlock"
 	slot6 = slot5 and slot0.unlockList[slot4] or slot0.lockList[slot4]
 
-	LoadImageSpriteAsync(slot6:GetIcon(), slot0:findTF("icon", slot2), true)
-	setText(slot0:findTF("lock/Image/Text", slot2), slot6:GetUnlockText())
-	setActive(slot0:findTF("lock", slot2), not slot5)
-	setActive(slot0:findTF("selected", slot2), slot5)
+	LoadImageSpriteAsync(slot6:GetIcon(), slot2:Find("icon"), true)
+	setText(slot2:Find("lock/Image/Text"), slot6:GetUnlockText())
+	setActive(slot2:Find("lock"), not slot5)
+	setActive(slot2:Find("selected"), slot5)
 	onButton(slot0, slot2, function ()
 		if not uv0 then
 			return
@@ -77,8 +80,8 @@ slot0.updateItem = function(slot0, slot1, slot2, slot3)
 			end
 		end
 	end, SFX_CONFIRM)
-	setActive(slot0:findTF("new", slot2), slot6:IsNew())
-	setActive(slot0:findTF("selected", slot2), slot5 and slot0.selectedIdx == slot4)
+	setActive(slot2:Find("new"), slot6:IsNew())
+	setActive(slot2:Find("selected"), slot5 and slot0.selectedIdx == slot4)
 end
 
 slot0.Show = function(slot0)

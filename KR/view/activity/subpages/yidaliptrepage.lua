@@ -3,9 +3,9 @@ slot0 = class("YidaliPTRePage", import(".TemplatePage.PtTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.progresses = slot0:findTF("progresses", slot0.bg)
-	slot0.progress_r = slot0:findTF("progress_r", slot0.progresses)
-	slot0.progress_l = slot0:findTF("progress_l", slot0.progresses)
+	slot0.progresses = slot0.bg:Find("progresses")
+	slot0.progress_r = slot0.progresses:Find("progress_r")
+	slot0.progress_l = slot0.progresses:Find("progress_l")
 end
 
 slot0.OnUpdateFlush = function(slot0)

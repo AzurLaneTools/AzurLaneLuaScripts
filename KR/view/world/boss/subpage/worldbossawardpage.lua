@@ -8,9 +8,12 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot1 = slot0:findTF("frame/list/container1/tpl")
-	slot0.uilist1 = UIItemList.New(slot0:findTF("frame/list/container1"), slot1)
-	slot0.uilist2 = UIItemList.New(slot0:findTF("frame/list/container2"), slot1)
+	slot1 = slot0._tf
+	slot1 = slot1:Find("frame/list/container1/tpl")
+	slot3 = slot0._tf
+	slot0.uilist1 = UIItemList.New(slot3:Find("frame/list/container1"), slot1)
+	slot3 = slot0._tf
+	slot0.uilist2 = UIItemList.New(slot3:Find("frame/list/container2"), slot1)
 
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()

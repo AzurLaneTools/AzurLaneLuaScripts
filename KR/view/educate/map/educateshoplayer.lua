@@ -17,54 +17,56 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.windowTF = slot0:findTF("anim_root/window")
-	slot0.titleTF = slot0:findTF("title", slot0.windowTF)
+	slot0.windowTF = slot0._tf:Find("anim_root/window")
+	slot0.titleTF = slot0.windowTF:Find("title")
 
-	setText(slot0:findTF("Text", slot0.titleTF), i18n("word_shop"))
+	setText(slot0.titleTF:Find("Text"), i18n("word_shop"))
 
-	slot0.closeBtn = slot0:findTF("close_btn", slot0.titleTF)
-	slot0.discountTF = slot0:findTF("Text/discount", slot0.titleTF)
-	slot0.discountValueTF = slot0:findTF("Text", slot0.discountTF)
-	slot0.goodContent = slot0:findTF("view/content", slot0.windowTF)
-	slot0.goodUIList = UIItemList.New(slot0.goodContent, slot0:findTF("tpl", slot0.goodContent))
+	slot0.closeBtn = slot0.titleTF:Find("close_btn")
+	slot0.discountTF = slot0.titleTF:Find("Text/discount")
+	slot0.discountValueTF = slot0.discountTF:Find("Text")
+	slot0.goodContent = slot0.windowTF:Find("view/content")
+	slot0.goodUIList = UIItemList.New(slot0.goodContent, slot0.goodContent:Find("tpl"))
 
-	setText(slot0:findTF("tpl/sellout/Text", slot0.goodContent), i18n("word_sell_out"))
+	setText(slot0.goodContent:Find("tpl/sellout/Text"), i18n("word_sell_out"))
 
-	slot0.tipTF = slot0:findTF("tip", slot0.windowTF)
-	slot0.detailPanelTF = slot0:findTF("detail/content", slot0.windowTF)
-	slot0.detailEmptyTF = slot0:findTF("detail/empty", slot0.windowTF)
+	slot0.tipTF = slot0.windowTF:Find("tip")
+	slot0.detailPanelTF = slot0.windowTF:Find("detail/content")
+	slot0.detailEmptyTF = slot0.windowTF:Find("detail/empty")
 
-	setText(slot0:findTF("Text", slot0.detailEmptyTF), i18n("child_shop_empty_tip"))
+	setText(slot0.detailEmptyTF:Find("Text"), i18n("child_shop_empty_tip"))
 
-	slot0.detailName = slot0:findTF("title/Text", slot0.detailPanelTF)
-	slot0.detailDesc = slot0:findTF("desc", slot0.detailPanelTF)
-	slot0.detailIcon = slot0:findTF("icon", slot0.detailPanelTF)
-	slot0.detailAttrsTF = slot0:findTF("attrs", slot0.detailPanelTF)
+	slot0.detailName = slot0.detailPanelTF:Find("title/Text")
+	slot0.detailDesc = slot0.detailPanelTF:Find("desc")
+	slot0.detailIcon = slot0.detailPanelTF:Find("icon")
+	slot0.detailAttrsTF = slot0.detailPanelTF:Find("attrs")
 
-	setActive(slot0:findTF("count", slot0.detailPanelTF), false)
+	setActive(slot0.detailPanelTF:Find("count"), false)
 
-	slot0.countValueTF = slot0:findTF("count/bg/Text", slot0.detailPanelTF)
-	slot0.addCountBtn = slot0:findTF("count/add", slot0.detailPanelTF)
-	slot0.reduceCountBtn = slot0:findTF("count/reduce", slot0.detailPanelTF)
-	slot0.maxCountBtn = slot0:findTF("count/max", slot0.detailPanelTF)
-	slot0.priceValue = slot0:findTF("price/value/Text", slot0.detailPanelTF)
+	slot0.countValueTF = slot0.detailPanelTF:Find("count/bg/Text")
+	slot0.addCountBtn = slot0.detailPanelTF:Find("count/add")
+	slot0.reduceCountBtn = slot0.detailPanelTF:Find("count/reduce")
+	slot0.maxCountBtn = slot0.detailPanelTF:Find("count/max")
+	slot0.priceValue = slot0.detailPanelTF:Find("price/value/Text")
 
-	setText(slot0:findTF("price/title", slot0.detailPanelTF), i18n("child_shop_price_title"))
+	setText(slot0.detailPanelTF:Find("price/title"), i18n("child_shop_price_title"))
 
-	slot0.purchaseBtn = slot0:findTF("purchase_btn", slot0.detailPanelTF)
+	slot0.purchaseBtn = slot0.detailPanelTF:Find("purchase_btn")
 
-	setText(slot0:findTF("Text", slot0.purchaseBtn), i18n("word_buy"))
+	setText(slot0.purchaseBtn:Find("Text"), i18n("word_buy"))
 end
 
 slot0.addListener = function(slot0)
-	onButton(slot0, slot0:findTF("anim_root/bg"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("anim_root/bg"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
@@ -136,17 +138,17 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.updateGoodItem = function(slot0, slot1, slot2)
-	setActive(slot0:findTF("discount", slot2), slot0.isDiscount)
-	setText(slot0:findTF("discount/Text", slot2), "-" .. slot0.discountValue)
+	setActive(slot2:Find("discount"), slot0.isDiscount)
+	setText(slot2:Find("discount/Text"), "-" .. slot0.discountValue)
 
 	slot5 = slot0.goods[slot1 + 1]:GetPrice()
 
-	setActive(slot0:findTF("bottom/price/price_original", slot2), slot0.isDiscount)
-	setText(slot0:findTF("bottom/price/price_original", slot2), slot5)
-	setText(slot0:findTF("bottom/price/price_final", slot2), slot0.isDiscount and slot4:GetPrice(slot0.discountRatio) or slot5)
-	EducateHelper.UpdateDropShow(slot0:findTF("item", slot2), slot4:GetShowInfo())
-	setActive(slot0:findTF("sellout", slot2), not slot4:CanBuy())
-	setActive(slot0:findTF("selected", slot2), slot3 == slot0.selectedIndex)
+	setActive(slot2:Find("bottom/price/price_original"), slot0.isDiscount)
+	setText(slot2:Find("bottom/price/price_original"), slot5)
+	setText(slot2:Find("bottom/price/price_final"), slot0.isDiscount and slot4:GetPrice(slot0.discountRatio) or slot5)
+	EducateHelper.UpdateDropShow(slot2:Find("item"), slot4:GetShowInfo())
+	setActive(slot2:Find("sellout"), not slot4:CanBuy())
+	setActive(slot2:Find("selected"), slot3 == slot0.selectedIndex)
 	onButton(slot0, slot2, function ()
 		if uv0 == uv1.selectedIndex then
 			return
@@ -155,7 +157,7 @@ slot0.updateGoodItem = function(slot0, slot1, slot2)
 		uv1.selectedIndex = uv0
 
 		for slot3 = 0, uv1.goodContent.childCount - 1 do
-			setActive(uv1:findTF("selected", uv1.goodContent:GetChild(slot3)), slot3 + 1 == uv1.selectedIndex)
+			setActive(uv1.goodContent:GetChild(slot3):Find("selected"), slot3 + 1 == uv1.selectedIndex)
 		end
 
 		uv1:updateDetail()

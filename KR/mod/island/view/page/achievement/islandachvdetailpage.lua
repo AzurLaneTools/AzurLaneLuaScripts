@@ -146,7 +146,7 @@ slot0.FlushDetail = function(slot0)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
-	slot2 = IslandAchievementCard.New(slot1)
+	slot2 = IslandAchievementCard.New(slot1, slot0)
 	slot0.cards[slot1] = slot2
 
 	onButton(slot0, slot2.getBtn, function ()
@@ -163,8 +163,6 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 
 		slot3 = slot0.cards[slot2]
 	end
-
-	warning(slot1 + 1)
 
 	if slot0.showAchvList[slot1 + 1] then
 		slot3:Update(slot4)

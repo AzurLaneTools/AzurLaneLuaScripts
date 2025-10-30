@@ -49,11 +49,11 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	setActive(slot0:findTF("BG/MoneyTip"), false)
+	setActive(slot0._tf:Find("BG/MoneyTip"), false)
 
-	slot0.itemTpl = slot0:findTF("ItemTpl")
-	slot0.packTpl = slot0:findTF("PackTpl")
-	slot0.packContainerTF = slot0:findTF("Container")
+	slot0.itemTpl = slot0._tf:Find("ItemTpl")
+	slot0.packTpl = slot0._tf:Find("PackTpl")
+	slot0.packContainerTF = slot0._tf:Find("Container")
 	slot0.packItemList = UIItemList.New(slot0.packContainerTF, slot0.packTpl)
 
 	slot0.packItemList:make(function (slot0, slot1, slot2)
@@ -68,7 +68,7 @@ slot0.initUI = function(slot0)
 	slot0.packNextTimerList = {}
 	slot4 = tf(Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0]))
 
-	setActive(slot0:findTF("icon_bg/count", slot4), true)
+	setActive(slot4:Find("icon_bg/count"), true)
 	setParent(slot4, slot0.itemTpl)
 	setLocalScale(slot4, {
 		x = 0.45,
@@ -104,21 +104,21 @@ end
 slot0.updateOutline = function(slot0)
 	for slot5 = 1, slot0.packContainerTF.childCount do
 		slot7 = slot0.packContainerTF:GetChild(slot5 - 1)
-		slot9 = slot0:findTF("TimeLimit/Text", slot7):GetComponent(typeof(Text))
+		slot9 = slot7:Find("TimeLimit/Text"):GetComponent(typeof(Text))
 		slot9.material = Object.Instantiate(slot9.material)
-		slot11 = slot0:findTF("Price/Text", slot7):GetComponent(typeof(Text))
+		slot11 = slot7:Find("Price/Text"):GetComponent(typeof(Text))
 		slot11.material = Object.Instantiate(slot11.material)
-		slot13 = slot0:findTF("Mask/Text", slot7):GetComponent(typeof(Text))
+		slot13 = slot7:Find("Mask/Text"):GetComponent(typeof(Text))
 		slot13.material = Object.Instantiate(slot13.material)
 	end
 end
 
 slot0.updateItem = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("Frame", slot1)
-	slot4 = slot0:findTF("Icon", slot1)
+	slot3 = slot1:Find("Frame")
+	slot4 = slot1:Find("Icon")
 	slot7 = slot2.id or slot2[2]
 
-	setText(slot0:findTF("Count", slot1), slot2.count or slot2[3])
+	setText(slot1:Find("Count"), slot2.count or slot2[3])
 
 	if (slot2.type or slot2[1]) ~= DROP_TYPE_SHIP then
 		setImageSprite(slot4, LoadSprite(Drop.New({
@@ -135,7 +135,7 @@ slot0.updateItem = function(slot0, slot1, slot2)
 	setActive(slot4, false)
 	setActive(slot5, false)
 
-	slot9 = slot0:findTF("CommonItemTemplate(Clone)", slot1)
+	slot9 = findTF(slot1, "CommonItemTemplate(Clone)")
 
 	setActive(slot9, true)
 	updateDrop(slot9, {
@@ -166,9 +166,9 @@ slot0.updatePack = function(slot0, slot1, slot2, slot3)
 
 	slot7 = nil
 
-	setImageSprite(slot0:findTF("PackIcon", slot1), LoadSprite(slot3 == uv0.GiftPackType.Money and "chargeicon/" .. slot2:getConfig("picture") or slot5.icon), true)
+	setImageSprite(slot1:Find("PackIcon"), LoadSprite(slot3 == uv0.GiftPackType.Money and "chargeicon/" .. slot2:getConfig("picture") or slot5.icon), true)
 
-	slot8 = slot0:findTF("PackName", slot1)
+	slot8 = slot1:Find("PackName")
 
 	if slot3 == uv0.GiftPackType.Money then
 		setText(slot8, slot2:getConfig("name_display"))
@@ -177,7 +177,7 @@ slot0.updatePack = function(slot0, slot1, slot2, slot3)
 	end
 
 	slot10 = nil
-	slot11 = UIItemList.New(slot0:findTF("ItemList", slot1), slot0.itemTpl)
+	slot11 = UIItemList.New(slot1:Find("ItemList"), slot0.itemTpl)
 
 	slot11:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -186,7 +186,7 @@ slot0.updatePack = function(slot0, slot1, slot2, slot3)
 	end)
 	slot11:align(#((slot3 ~= uv0.GiftPackType.Money or slot2:getConfig("display")) and slot5.display_icon))
 
-	slot12 = slot0:findTF("DescFrame/Text", slot1)
+	slot12 = slot1:Find("DescFrame/Text")
 
 	if slot3 == uv0.GiftPackType.Money then
 		setText(slot12, slot2:getConfig("descrip"))
@@ -194,7 +194,7 @@ slot0.updatePack = function(slot0, slot1, slot2, slot3)
 		setText(slot12, slot5.display)
 	end
 
-	slot14 = slot0:findTF("Text", slot0:findTF("TimeLimit", slot1))
+	slot14 = slot1:Find("TimeLimit"):Find("Text")
 
 	if slot3 ~= uv0.GiftPackType.Money and slot0:isHaveNextPack(uv0.GiftPackTypeName[slot3]) and not slot0:isBuyEver(slot2.id) then
 		setActive(slot13, true)
@@ -203,12 +203,12 @@ slot0.updatePack = function(slot0, slot1, slot2, slot3)
 		setActive(slot13, false)
 	end
 
-	setActive(slot0:findTF("MoneyTag", slot1), slot3 == uv0.GiftPackType.Money)
+	setActive(slot1:Find("MoneyTag"), slot3 == uv0.GiftPackType.Money)
 
-	slot17 = slot0:findTF("Price/IconMoney", slot1)
-	slot18 = slot0:findTF("Price/Icon", slot1)
-	slot19 = slot0:findTF("Price/Icon/Res", slot1)
-	slot20 = slot0:findTF("Price/Text", slot1)
+	slot17 = slot1:Find("Price/IconMoney")
+	slot18 = slot1:Find("Price/Icon")
+	slot19 = slot1:Find("Price/Icon/Res")
+	slot20 = slot1:Find("Price/Text")
 
 	if slot3 == uv0.GiftPackType.Money then
 		setActive(slot17, true)
@@ -232,12 +232,12 @@ slot0.updatePack = function(slot0, slot1, slot2, slot3)
 
 	slot22 = slot0:isBuyEver(slot2.id)
 
-	setActive(slot0:findTF("Mask", slot1), slot22)
+	setActive(slot1:Find("Mask"), slot22)
 
 	if slot22 then
-		slot23 = slot0:findTF("NextTime", slot21)
-		slot24 = slot0:findTF("Text", slot21)
-		slot25 = slot0:findTF("Sellout", slot21)
+		slot23 = slot21:Find("NextTime")
+		slot24 = slot21:Find("Text")
+		slot25 = slot21:Find("Sellout")
 
 		if slot0:isHaveNextPack(uv0.GiftPackTypeName[slot3]) then
 			setActive(slot23, true)

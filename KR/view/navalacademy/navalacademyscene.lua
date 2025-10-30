@@ -38,11 +38,11 @@ slot0.onUILoaded = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("blur_container/adapt/top/title/back")
-	slot0._blurLayer = slot0:findTF("blur_container")
-	slot1 = slot0._blurLayer
-	slot0._topPanel = slot1:Find("adapt/top")
-	slot0.bg = slot0:findTF("academyMap/map")
+	slot0.backBtn = slot0._tf:Find("blur_container/adapt/top/title/back")
+	slot0._blurLayer = slot0._tf:Find("blur_container")
+	slot0._topPanel = slot0._blurLayer:Find("adapt/top")
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("academyMap/map")
 	slot0.buildings = {
 		ShopBuiding.New(slot0),
 		CanteenBuiding.New(slot0),

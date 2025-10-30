@@ -30,43 +30,51 @@ slot0.RequesetLive2dRes = function(slot0)
 end
 
 slot0.StartCheckUpdate = function(slot0, slot1)
-	if BundleWizard.Inst:GetGroupMgr("L2D").state == DownloadState.None or slot3 == DownloadState.CheckFailure then
-		slot2:CheckD()
-	end
-
-	if slot2:CheckF(slot1) == DownloadState.CheckToUpdate or slot4 == DownloadState.UpdateFailure then
+	if BundleWizard.Inst:GetGroupMgr("L2D"):CheckF(slot1) == DownloadState.CheckToUpdate or slot3 == DownloadState.UpdateFailure then
 		slot0:ShowOrHide(true)
 		slot0:UpdateBtnState(false, false)
 		onButton(slot0, slot0.tf, function ()
-			VersionMgr.Inst:RequestUIForUpdateF("L2D", uv0, true)
+			if uv0.isDownloading then
+				return
+			end
+
+			slot0 = "L2D"
+			slot2 = slot0 .. uv1
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_NORMAL,
+				content = string.format(i18n("group_download_tip", HashUtil.BytesToString(GroupHelper.CalcSizeWithFileArr(slot0, {
+					uv1
+				})))),
+				onYes = function ()
+					BundleWizardUpdater.Inst:StartUpdate(BundleWizardUpdater.Inst:CreateListInfo(uv5, BundleWizardUpdater.Inst:GetFileList(uv3, uv4), nil, function (slot0, slot1)
+						if not uv0.isDisposed then
+							slot2 = checkABExist(uv1)
+
+							uv0:ShowOrHide(slot2)
+
+							if slot2 then
+								uv0:UpdateBtnState(false, false)
+								uv2.super.InitBtn(uv0)
+							end
+						end
+
+						uv0.isDownloading = false
+					end, nil))
+
+					uv0.isDownloading = true
+				end
+			})
 		end, SFX_PANEL)
-	elseif slot4 == DownloadState.Updating then
-		slot0:ShowOrHide(true)
-		slot0:UpdateBtnState(true, false)
-		removeOnButton(slot0.tf)
 	else
-		slot5 = checkABExist(slot1)
+		slot4 = checkABExist(slot1)
 
-		slot0:ShowOrHide(slot5)
+		slot0:ShowOrHide(slot4)
 
-		if slot5 then
+		if slot4 then
 			slot0:UpdateBtnState(false, false)
 			uv0.super.InitBtn(slot0)
 		end
-	end
-
-	if slot0.live2dTimer then
-		slot0.live2dTimer:Stop()
-
-		slot0.live2dTimer = nil
-	end
-
-	if slot4 == DownloadState.CheckToUpdate or slot4 == DownloadState.UpdateFailure or slot4 == DownloadState.Updating then
-		slot0.live2dTimer = Timer.New(function ()
-			uv0:StartCheckUpdate(uv1)
-		end, 0.5, 1)
-
-		slot0.live2dTimer:Start()
 	end
 end
 
@@ -101,11 +109,7 @@ slot0.OnSwitch = function(slot0, slot1)
 end
 
 slot0.OnDispose = function(slot0)
-	if slot0.live2dTimer then
-		slot0.live2dTimer:Stop()
-
-		slot0.live2dTimer = nil
-	end
+	slot0.isDisposed = true
 end
 
 slot0.Load = function(slot0, slot1)

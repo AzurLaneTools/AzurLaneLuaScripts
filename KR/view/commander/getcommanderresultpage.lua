@@ -6,10 +6,10 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.treePanel = CommanderTreePage.New(slot0._tf, slot0.event)
-	slot0.uiList = UIItemList.New(slot0:findTF("frame/list"), slot0:findTF("frame/list/tpl"))
-	slot0.uiList1 = UIItemList.New(slot0:findTF("frame/list1"), slot0:findTF("frame/list/tpl"))
+	slot0.uiList = UIItemList.New(slot0._tf:Find("frame/list"), slot0._tf:Find("frame/list/tpl"))
+	slot0.uiList1 = UIItemList.New(slot0._tf:Find("frame/list1"), slot0._tf:Find("frame/list/tpl"))
 
-	setText(slot0:findTF("frame/Text"), i18n("word_click_to_close"))
+	setText(slot0._tf:Find("frame/Text"), i18n("word_click_to_close"))
 end
 
 slot0.OnInit = function(slot0)

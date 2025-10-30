@@ -1,10 +1,11 @@
 slot0 = class("ShioSkinRePage", import(".TemplatePage.SkinTemplatePage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.dayTF = slot0:findTF("day", slot0.bg)
-	slot0.item1TF = slot0:findTF("item1", slot0.bg)
-	slot0.item2TF = slot0:findTF("item2", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.dayTF = slot0.bg:Find("day")
+	slot0.item1TF = slot0.bg:Find("item1")
+	slot1 = slot0.bg
+	slot0.item2TF = slot1:Find("item2")
 	slot0.itemTFList = {
 		slot0.item1TF,
 		slot0.item2TF
@@ -32,7 +33,7 @@ slot0.OnUpdateFlush = function(slot0)
 
 	for slot6 = 1, 2 do
 		slot8 = slot6
-		slot9 = slot0:findTF("item", slot0.itemTFList[slot6])
+		slot9 = slot0.itemTFList[slot6]:Find("item")
 		slot11 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot6]) or slot0.taskProxy:getFinishTaskById(slot10)
 
 		assert(slot11, "without this task by id: " .. slot10)
@@ -51,15 +52,15 @@ slot0.OnUpdateFlush = function(slot0)
 		slot14 = slot11:getProgress()
 		slot15 = slot11:getConfig("target_num")
 
-		setText(slot0:findTF("description", slot7), slot11:getConfig("desc"))
-		setText(slot0:findTF("progressText", slot7), slot14 .. "/" .. slot15)
-		setSlider(slot0:findTF("progress", slot7), 0, slot15, slot14)
+		setText(slot7:Find("description"), slot11:getConfig("desc"))
+		setText(slot7:Find("progressText"), slot14 .. "/" .. slot15)
+		setSlider(slot7:Find("progress"), 0, slot15, slot14)
 
-		slot17 = slot0:findTF("get_btn", slot7)
+		slot17 = slot7:Find("get_btn")
 
-		setActive(slot0:findTF("go_btn", slot7), slot11:getTaskStatus() == 0)
+		setActive(slot7:Find("go_btn"), slot11:getTaskStatus() == 0)
 		setActive(slot17, slot19 == 1)
-		setActive(slot0:findTF("got_btn", slot7), slot19 == 2)
+		setActive(slot7:Find("got_btn"), slot19 == 2)
 		onButton(slot0, slot16, function ()
 			uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 		end, SFX_PANEL)

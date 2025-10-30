@@ -37,6 +37,12 @@ slot0.Ctor = function(slot0, slot1)
 	})
 end
 
+slot0.IsAnyLoadUp = function(slot0)
+	return _.any(slot0.consumeList, function (slot0)
+		return slot0.state == 1
+	end)
+end
+
 slot0.IsLoadUpAll = function(slot0)
 	return _.all(slot0.consumeList, function (slot0)
 		return slot0.state == 1

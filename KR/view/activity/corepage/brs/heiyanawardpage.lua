@@ -1,33 +1,34 @@
 slot0 = class("HeiYanAwardPage", import("view.activity.CorePage.CoreActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.AD = slot0:findTF("AD")
+	slot1 = slot0._tf
+	slot0.AD = slot1:Find("AD")
 	slot0.table_Top = {
-		slot0:findTF("tabs/top_1", slot0.AD),
-		slot0:findTF("tabs/top_2", slot0.AD),
-		slot0:findTF("tabs/top_3", slot0.AD),
-		slot0:findTF("tabs/top_4", slot0.AD)
+		slot0.AD:Find("tabs/top_1"),
+		slot0.AD:Find("tabs/top_2"),
+		slot0.AD:Find("tabs/top_3"),
+		slot0.AD:Find("tabs/top_4")
 	}
-	slot0.bg_1 = slot0:findTF("bg_1", slot0.AD)
-	slot0.bg_2 = slot0:findTF("bg_2", slot0.AD)
-	slot0.boxTF = slot0:findTF("Box")
-	slot0.boxBG = slot0:findTF("BG", slot0.boxTF)
-	slot0.panel = slot0:findTF("Panel", slot0.boxTF)
-	slot0.infoTF = slot0:findTF("Info", slot0.panel)
-	slot0.boxCloseBtn = slot0:findTF("CloseBtn", slot0.infoTF)
-	slot0.Title = slot0:findTF("Title", slot0.infoTF)
+	slot0.bg_1 = slot0.AD:Find("bg_1")
+	slot0.bg_2 = slot0.AD:Find("bg_2")
+	slot0.boxTF = slot0._tf:Find("Box")
+	slot0.boxBG = slot0.boxTF:Find("BG")
+	slot0.panel = slot0.boxTF:Find("Panel")
+	slot0.infoTF = slot0.panel:Find("Info")
+	slot0.boxCloseBtn = slot0.infoTF:Find("CloseBtn")
+	slot0.Title = slot0.infoTF:Find("Title")
 
 	setText(slot0.Title, i18n("brs_reward_tip_1"))
 
-	slot0.boxIconTF = slot0:findTF("Icon/Mask/IconTpl", slot0.infoTF)
-	slot0.boxNameText = slot0:findTF("NameText", slot0.infoTF)
-	slot0.boxNumTF = slot0:findTF("Num", slot0.infoTF)
-	slot0.boxNumTip = slot0:findTF("Text", slot0.boxNumTF)
-	slot0.boxNumText = slot0:findTF("NumText", slot0.boxNumTF)
-	slot0.boxDescText = slot0:findTF("DescText", slot0.infoTF)
-	slot0.boxSrcText = slot0:findTF("SrcText", slot0.infoTF)
-	slot0.boxSrcContent = slot0:findTF("Content", slot0.panel)
-	slot0.boxSrcTpl = slot0:findTF("SrcTpl", slot0.boxSrcContent)
+	slot0.boxIconTF = slot0.infoTF:Find("Icon/Mask/IconTpl")
+	slot0.boxNameText = slot0.infoTF:Find("NameText")
+	slot0.boxNumTF = slot0.infoTF:Find("Num")
+	slot0.boxNumTip = slot0.boxNumTF:Find("Text")
+	slot0.boxNumText = slot0.boxNumTF:Find("NumText")
+	slot0.boxDescText = slot0.infoTF:Find("DescText")
+	slot0.boxSrcText = slot0.infoTF:Find("SrcText")
+	slot0.boxSrcContent = slot0.panel:Find("Content")
+	slot0.boxSrcTpl = slot0.boxSrcContent:Find("SrcTpl")
 
 	onButton(slot0, slot0.boxBG, function ()
 		uv0:showBoxPanel(false)
@@ -94,7 +95,7 @@ end
 
 slot0.UpdateView = function(slot0)
 	for slot4 = 1, #slot0.table_Top do
-		setText(slot0:findTF("Label", slot0.table_Top[slot4]), slot0:OnGetCount(slot4) .. "/" .. slot0:OnCount(slot4))
+		setText(slot0.table_Top[slot4]:Find("Label"), slot0:OnGetCount(slot4) .. "/" .. slot0:OnCount(slot4))
 	end
 
 	triggerToggle(slot0.table_Top[slot0.pageIndex or 1], true)
@@ -178,12 +179,12 @@ end
 
 slot0.ShowSitePage = function(slot0)
 	slot1 = slot0.showDataList[1].config.drop_id
-	slot2 = slot0:findTF("Role_left", slot0.bg_1)
-	slot5 = slot0:findTF("get", slot2)
-	slot7 = slot0:findTF("notget", slot2)
+	slot2 = slot0.bg_1:Find("Role_left")
+	slot5 = slot2:Find("get")
+	slot7 = slot2:Find("notget")
 
-	setText(slot0:findTF("Text", slot5), i18n("word_got"))
-	setText(slot0:findTF("Text", slot7), i18n("word_not_get"))
+	setText(slot5:Find("Text"), i18n("word_got"))
+	setText(slot7:Find("Text"), i18n("word_not_get"))
 
 	slot9 = Drop.New({
 		type = slot0.showDataList[1].config.type,
@@ -191,17 +192,17 @@ slot0.ShowSitePage = function(slot0)
 	})
 	slot13 = tobool(getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot9.id].group_type))
 
-	setText(slot0:findTF("Text", slot0:findTF("name", slot2)), slot9:getName())
-	SetActive(slot0:findTF("lock_bg", slot2), not slot13)
+	setText(slot2:Find("name"):Find("Text"), slot9:getName())
+	SetActive(slot2:Find("lock_bg"), not slot13)
 	SetActive(slot5, slot13)
 	SetActive(slot7, not slot13)
 
-	slot14 = slot0:findTF("Role_right", slot0.bg_1)
-	slot17 = slot0:findTF("get", slot14)
-	slot19 = slot0:findTF("notget", slot14)
+	slot14 = slot0.bg_1:Find("Role_right")
+	slot17 = slot14:Find("get")
+	slot19 = slot14:Find("notget")
 
-	setText(slot0:findTF("Text", slot17), i18n("word_got"))
-	setText(slot0:findTF("Text", slot19), i18n("word_not_get"))
+	setText(slot17:Find("Text"), i18n("word_got"))
+	setText(slot19:Find("Text"), i18n("word_not_get"))
 
 	slot21 = slot0.showDataList[2].config.drop_id
 	slot22 = Drop.New({
@@ -210,15 +211,15 @@ slot0.ShowSitePage = function(slot0)
 	})
 	slot26 = tobool(getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot22.id].group_type))
 
-	setText(slot0:findTF("Text", slot0:findTF("name", slot14)), slot22:getName())
+	setText(slot14:Find("name"):Find("Text"), slot22:getName())
 	SetActive(slot19, not slot26)
 	SetActive(slot17, slot26)
-	SetActive(slot0:findTF("lock_bg", slot14), not slot26)
+	SetActive(slot14:Find("lock_bg"), not slot26)
 end
 
 slot0.ShowCharaPage = function(slot0)
-	slot0.award = slot0:findTF("tpl", slot0.bg_2)
-	slot0.count = slot0:findTF("count", slot0.bg_2)
+	slot0.award = slot0.bg_2:Find("tpl")
+	slot0.count = slot0.bg_2:Find("count")
 	slot0.tabsList = UIItemList.New(slot0.count, slot0.award)
 
 	slot0.tabsList:make(function (slot0, slot1, slot2)
@@ -231,7 +232,7 @@ end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.showDataList[slot1 + 1]
-	slot4 = slot0:findTF("icon_mask/icon", slot2)
+	slot4 = slot2:Find("icon_mask/icon")
 
 	updateDrop(slot4, {
 		type = slot3.config.type,
@@ -249,15 +250,15 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 		})
 		uv1:showBoxPanel(true)
 	end, SFX_PANEL)
-	changeToScrollText(slot0:findTF("name_mask/name", slot2), Drop.New({
+	changeToScrollText(slot2:Find("name_mask/name"), Drop.New({
 		type = slot3.config.type,
 		id = slot3.config.drop_id
 	}):getName())
-	setText(slot0:findTF("owner/number", slot2), slot3.count .. "/" .. slot3.config.count)
+	setText(slot2:Find("owner/number"), slot3.count .. "/" .. slot3.config.count)
 
-	GetOrAddComponent(slot0:findTF("owner", slot2), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
+	GetOrAddComponent(slot2:Find("owner"), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
 
-	setActive(slot0:findTF("got", slot2), slot3.count == slot3.config.count)
+	setActive(slot2:Find("got"), slot3.count == slot3.config.count)
 end
 
 slot0.updateBoxPanel = function(slot0, slot1)
@@ -282,15 +283,12 @@ slot0.updateBoxPanel = function(slot0, slot1)
 			slot3 = uv0.skipable_list[slot1 + 1]
 			slot4 = slot3[1]
 			slot5 = slot3[2]
-			slot8 = uv1
 
-			changeToScrollText(slot8:findTF("SrcText", slot2), slot3[3])
+			changeToScrollText(slot2:Find("SrcText"), slot3[3])
 
-			slot7 = uv1
-			slot7 = slot7:findTF("GoBtn", slot2)
-			slot9 = uv1
+			slot7 = slot2:Find("GoBtn")
 
-			setText(slot9:findTF("go", slot7), i18n("brs_reward_tip_2"))
+			setText(slot7:Find("go"), i18n("brs_reward_tip_2"))
 			onButton(uv1, slot7, function ()
 				if uv0 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
 					pg.m02:sendNotification(GAME.GO_SCENE, uv1[1], uv1[2] or {})

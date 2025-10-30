@@ -117,7 +117,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/1"
+				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/adapt/window/options/content/1"
 			}
 		}
 	}

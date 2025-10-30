@@ -24,10 +24,4 @@ slot0.Clear = function(slot0)
 	assert(nil, "Clear方法必须由子类实现")
 end
 
-slot0.findTF = function(slot0, slot1, slot2)
-	assert(slot0._tf, "transform should exist")
-
-	return findTF(slot2 or slot0._tf, slot1)
-end
-
 return slot0

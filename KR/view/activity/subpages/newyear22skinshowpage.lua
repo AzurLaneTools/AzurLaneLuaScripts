@@ -84,10 +84,14 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.paintBackTF = slot0:findTF("Paints/PaintBack")
-	slot0.paintFrontTF = slot0:findTF("Paints/PaintFront")
-	slot0.skinShopBtn = slot0:findTF("BtnShop")
-	slot0.goBtn = slot0:findTF("BtnGO")
+	slot1 = slot0._tf
+	slot0.paintBackTF = slot1:Find("Paints/PaintBack")
+	slot1 = slot0._tf
+	slot0.paintFrontTF = slot1:Find("Paints/PaintFront")
+	slot1 = slot0._tf
+	slot0.skinShopBtn = slot1:Find("BtnShop")
+	slot1 = slot0._tf
+	slot0.goBtn = slot1:Find("BtnGO")
 
 	onButton(slot0, slot0.skinShopBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)

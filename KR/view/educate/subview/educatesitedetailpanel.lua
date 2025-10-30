@@ -7,8 +7,8 @@ end
 slot0.OnInit = function(slot0)
 	setActive(slot0._tf, false)
 
-	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot0.anim = slot0._tf:Find("adapt"):GetComponent(typeof(Animation))
+	slot0.animEvent = slot0._tf:Find("adapt"):GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
 		setActive(uv0._tf, false)
@@ -18,21 +18,21 @@ slot0.OnInit = function(slot0)
 		end
 	end)
 
-	slot0.windowTF = slot0:findTF("anim_root/window")
-	slot0.closeBtn = slot0:findTF("close_btn", slot0.windowTF)
-	slot0.nameTF = slot0:findTF("name_bg/name", slot0.windowTF)
-	slot0.picTF = slot0:findTF("pic", slot0.windowTF)
-	slot0.descTF = slot0:findTF("desc", slot0.windowTF)
-	slot0.optionsTF = slot0:findTF("options/content", slot0.windowTF)
-	slot0.optionTpl = slot0:findTF("option_tpl", slot0.windowTF)
+	slot0.windowTF = slot0._tf:Find("adapt/window")
+	slot0.closeBtn = slot0.windowTF:Find("close_btn")
+	slot0.nameTF = slot0.windowTF:Find("name_bg/name")
+	slot0.picTF = slot0.windowTF:Find("pic")
+	slot0.descTF = slot0.windowTF:Find("desc")
+	slot0.optionsTF = slot0.windowTF:Find("options/content")
+	slot0.optionTpl = slot0.windowTF:Find("option_tpl")
 
-	setText(slot0:findTF("limit/Text", slot0.optionTpl), i18n("child_option_limit"))
-	setText(slot0:findTF("type_2/awards/polaroid/Text", slot0.optionTpl), i18n("child_random_polaroid_drop"))
+	setText(slot0.optionTpl:Find("limit/Text"), i18n("child_option_limit"))
+	setText(slot0.optionTpl:Find("type_2/awards/polaroid/Text"), i18n("child_random_polaroid_drop"))
 	setActive(slot0.optionTpl, false)
 
 	slot0.optionUIList = UIItemList.New(slot0.optionsTF, slot0.optionTpl)
-	slot0.performTF = slot0:findTF("anim_root/perform")
-	slot0.performName = slot0:findTF("name", slot0.performTF)
+	slot0.performTF = slot0._tf:Find("perform")
+	slot0.performName = slot0.performTF:Find("name")
 
 	slot0:addListener()
 	slot0:OverlayPanel(slot0._tf, {
@@ -41,7 +41,9 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.addListener = function(slot0)
-	onButton(slot0, slot0:findTF("anim_root/bg"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("bg"), function ()
 		uv0:onClose()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
@@ -199,52 +201,51 @@ slot0.updateOptionItem = function(slot0, slot1, slot2)
 	GetOrAddComponent(slot2, "CanvasGroup").alpha = 1
 	slot2.name = tostring(slot1 + 1)
 	slot3 = slot0.optionVOs[slot1 + 1]
-	slot8 = slot2
 
-	setActive(slot0:findTF("limit", slot8), slot3:IsShowLimit())
+	setActive(slot2:Find("limit"), slot3:IsShowLimit())
 
 	slot4 = slot3:GetType()
 
 	for slot8 = 1, 3 do
-		setActive(slot0:findTF("type_" .. slot8, slot2), slot8 == slot4)
+		setActive(slot2:Find("type_" .. slot8), slot8 == slot4)
 	end
 
-	slot5 = slot0:findTF("type_" .. slot4, slot2)
+	slot5 = slot2:Find("type_" .. slot4)
 
 	setGray(slot2, not (not slot3:IsCountLimit() and true or slot3:CanTrigger()))
 	switch(slot4, {
 		[EducateSiteOption.TYPE_SHOP] = function ()
-			setText(uv0:findTF("name/Text", uv1), uv2:getConfig("name"))
-			onButton(uv0, uv3, function ()
+			setText(uv0:Find("name/Text"), uv1:getConfig("name"))
+			onButton(uv2, uv3, function ()
 				uv0:emit(EducateMapMediator.ON_OPEN_SHOP, uv1:GetLinkId())
 			end, SFX_PANEL)
 		end,
 		[EducateSiteOption.TYPE_EVENT] = function ()
-			setText(uv0:findTF("name", uv1), shortenString(uv2:getConfig("name") .. uv2:GetCntText(), 12))
+			setText(uv0:Find("name"), shortenString(uv1:getConfig("name") .. uv1:GetCntText(), 12))
 
-			slot0 = uv2:IsShowPolaroid()
+			slot0 = uv1:IsShowPolaroid()
 
-			setActive(uv0:findTF("awards/polaroid", uv1), slot0)
+			setActive(uv0:Find("awards/polaroid"), slot0)
 
 			slot1 = slot0 and 2 or 3
-			slot3 = UIItemList.New(uv0:findTF("awards/normal", uv1), uv0:findTF("awards/normal/tpl", uv1))
+			slot3 = UIItemList.New(uv0:Find("awards/normal"), uv0:Find("awards/normal/tpl"))
 
 			slot3:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
 					uv0(slot2, uv1[slot1 + 1])
 				end
 			end)
-			slot3:align(slot1 < #uv2:GetResults() and slot1 or #slot2)
+			slot3:align(slot1 < #uv1:GetResults() and slot1 or #slot2)
 
-			slot6 = UIItemList.New(uv0:findTF("costs", uv1), uv0:findTF("costs/tpl", uv1))
+			slot6 = UIItemList.New(uv0:Find("costs"), uv0:Find("costs/tpl"))
 
 			slot6:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
 					uv0(slot2, uv1[slot1 + 1], "-")
 				end
 			end)
-			slot6:align(#uv2:GetCost())
-			onButton(uv0, uv5, function ()
+			slot6:align(#uv1:GetCost())
+			onButton(uv4, uv5, function ()
 				if not uv0 then
 					return
 				end
@@ -256,8 +257,8 @@ slot0.updateOptionItem = function(slot0, slot1, slot2)
 			end, SFX_PANEL)
 		end,
 		[EducateSiteOption.TYPE_SITE] = function ()
-			setText(uv0:findTF("name/Text", uv1), uv2:getConfig("name"))
-			onButton(uv0, uv3, function ()
+			setText(uv0:Find("name/Text"), uv1:getConfig("name"))
+			onButton(uv2, uv3, function ()
 				slot0 = uv0:GetLinkId()
 
 				assert(pg.child_site[slot0], "child_site不存在id:" .. slot0)

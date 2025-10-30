@@ -9,7 +9,7 @@ slot0.OnUpdateFlush = function(slot0)
 	LoadImageSpriteAsync(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot0.ptData.resId
-	}):getIcon(), slot0:findTF("AD/icon"), false)
+	}):getIcon(), slot0._tf:Find("AD/icon"), false)
 end
 
 return slot0

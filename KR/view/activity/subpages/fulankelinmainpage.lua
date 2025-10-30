@@ -4,7 +4,8 @@ slot2 = ActivityConst.Valleyhospital_ACT_ID
 slot3 = ActivityConst.Valleyhospital_ACT_ID
 
 slot0.OnInit = function(slot0)
-	slot0.ad = slot0:findTF("AD")
+	slot1 = slot0._tf
+	slot0.ad = slot1:Find("AD")
 	slot0.btnCollect = findTF(slot0.ad, "btnCollect")
 	slot0.btnSkin = findTF(slot0.ad, "btnSkin")
 	slot0.btnSkinText = findTF(slot0.btnSkin, "bgTime/text")

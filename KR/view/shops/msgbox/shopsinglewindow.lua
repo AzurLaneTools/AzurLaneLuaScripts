@@ -5,21 +5,23 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.itemTF = slot0:findTF("window/item")
+	slot0.itemTF = slot0._tf:Find("window/item")
 	slot0.nameTF = slot0.itemTF:Find("display_panel/name_container/name/Text"):GetComponent(typeof(Text))
 	slot0.descTF = slot0.itemTF:Find("display_panel/desc/Text"):GetComponent(typeof(Text))
 	slot0.itemOwnTF = slot0.itemTF:Find("left/own")
 	slot0.itemDetailTF = slot0.itemTF:Find("left/detail")
-	slot0.confirmBtn = slot0:findTF("window/actions/confirm_btn")
+	slot0.confirmBtn = slot0._tf:Find("window/actions/confirm_btn")
 
-	setText(slot0:findTF("window/actions/cancel_btn/pic"), i18n("shop_word_cancel"))
-	setText(slot0:findTF("window/actions/confirm_btn/pic"), i18n("shop_word_exchange"))
+	setText(slot0._tf:Find("window/actions/cancel_btn/pic"), i18n("shop_word_cancel"))
+	setText(slot0._tf:Find("window/actions/confirm_btn/pic"), i18n("shop_word_exchange"))
 	setText(slot0.itemTF:Find("ship_group/locked/Text"), i18n("tag_ship_locked"))
 	setText(slot0.itemTF:Find("ship_group/unlocked/Text"), i18n("tag_ship_unlocked"))
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0:findTF("window/actions/cancel_btn"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("window/actions/cancel_btn"), function ()
 		uv0:Close()
 	end, SFX_CANCEL)
 
@@ -28,7 +30,10 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot3:Find("bg"), function ()
 		uv0:Close()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("window/top/btnBack"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("window/top/btnBack"), function ()
 		uv0:Close()
 	end, SFX_CANCEL)
 end

@@ -5,15 +5,15 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
-	slot0.cancelBtn = slot0:findTF("window/btn_cancel")
-	slot0.goBtn = slot0:findTF("window/btn_go")
-	slot0.helpBtn = slot0:findTF("window/btn_help")
-	slot0.remindBtn = slot0:findTF("window/stopRemind")
-	slot0.uiItemList = UIItemList.New(slot0:findTF("window/item_panel/scrollview/list"), slot0:findTF("window/item_panel/scrollview/list/tpl"))
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.cancelBtn = slot0._tf:Find("window/btn_cancel")
+	slot0.goBtn = slot0._tf:Find("window/btn_go")
+	slot0.helpBtn = slot0._tf:Find("window/btn_help")
+	slot0.remindBtn = slot0._tf:Find("window/stopRemind")
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("window/item_panel/scrollview/list"), slot0._tf:Find("window/item_panel/scrollview/list/tpl"))
 
-	setText(slot0:findTF("window/item_panel/label/Text"), i18n("skin_discount_item_expired_tip"))
-	setText(slot0:findTF("window/stopRemind/Label"), i18n("skin_discount_item_repeat_remind_label"))
+	setText(slot0._tf:Find("window/item_panel/label/Text"), i18n("skin_discount_item_expired_tip"))
+	setText(slot0._tf:Find("window/stopRemind/Label"), i18n("skin_discount_item_repeat_remind_label"))
 end
 
 slot0.OnInit = function(slot0)

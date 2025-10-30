@@ -8,9 +8,9 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.slots = {
-		slot0:findTF("tpl")
+		slot0._tf:Find("tpl")
 	}
-	slot0.defaultPaintingPosition = slot0:findTF("tpl/mask/painting").anchoredPosition
+	slot0.defaultPaintingPosition = slot0._tf:Find("tpl/mask/painting").anchoredPosition
 end
 
 slot0.StaticGetFinalExpandPosition = function(slot0)
@@ -322,7 +322,7 @@ slot0.InitMainFleetShips = function(slot0, slot1)
 end
 
 slot0.AdjustPainting = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("mask/painting", slot1)
+	slot3 = slot1:Find("mask/painting")
 
 	if pg.ship_skin_newmainui_shift[slot2:getSkinId()] then
 		slot5 = slot4.battle_result_display_shift
@@ -336,7 +336,7 @@ slot0.AdjustPainting = function(slot0, slot1, slot2)
 end
 
 slot0.RevertPainting = function(slot0, slot1)
-	slot3 = slot0:findTF("mask/painting", slot1):GetComponent(typeof(RectTransform))
+	slot3 = slot1:Find("mask/painting"):GetComponent(typeof(RectTransform))
 	slot3.anchoredPosition = slot0.defaultPaintingPosition
 	slot3.localScale = Vector3(1, 1, 1)
 	slot3.localEulerAngles = Vector3(0, 0, 0)

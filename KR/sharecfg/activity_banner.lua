@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					16
+					30
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					10,
-					29
+					11,
+					5
 				},
 				{
 					23,
@@ -36,7 +36,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -46,24 +45,13 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		}
-	},
-	{
-		type = 2,
-		id = 3,
-		pic = "temp3",
-		param = {
-			"scene core activity",
-			{
-				coreName = "AEBCSCoreActivityUI"
-			}
 		},
 		time = {
 			{
 				{
 					2025,
 					10,
-					16
+					30
 				},
 				{
 					0,
@@ -74,8 +62,40 @@ pg.activity_banner = {
 			{
 				{
 					2025,
+					11,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		param = "50166",
+		type = 3,
+		id = 3,
+		pic = "temp3",
+		time = {
+			{
+				{
+					2025,
 					10,
 					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
 				},
 				{
 					12,
@@ -98,56 +118,25 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
-		type = 2,
+		param = "50163",
+		type = 3,
 		id = 6,
 		pic = "temp6",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		},
 		time = {
 			{
 				{
 					2025,
 					10,
-					16
+					30
 				},
 				{
 					0,
@@ -158,13 +147,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					10,
-					29
+					11,
+					6
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -181,7 +170,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					30
 				},
 				{
 					0,
@@ -192,13 +181,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					10,
-					16
+					11,
+					5
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -215,7 +204,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					17
+					30
 				},
 				{
 					0,
@@ -226,13 +215,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					10,
-					22
+					11,
+					6
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -281,10 +270,35 @@ pg.activity_banner = {
 	},
 	[102] = {
 		param = "桂花糕|用相传从月宫里摘下来的桂花制成的糕点，香甜可口！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
-		time = "stop",
 		type = 10,
 		id = 102,
-		pic = "guihuagao"
+		pic = "guihuagao",
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
 	},
 	[200] = {
 		param = "",
@@ -311,12 +325,14 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
 			4,
 			5,
-			6,
 			7,
 			9
+		},
+		[3] = {
+			3,
+			6
 		},
 		[9] = {
 			90,

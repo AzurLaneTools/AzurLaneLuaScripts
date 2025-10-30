@@ -262,7 +262,7 @@ slot5.InstBullet = function(slot0, slot1, slot2)
 		return true
 	else
 		ResourceMgr.Inst:getAssetAsync(slot3, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			if uv0._poolRoot then
+			if not uv0._poolRoot then
 				uv1.Destroy(slot0)
 
 				return

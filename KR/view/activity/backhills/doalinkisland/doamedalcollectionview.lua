@@ -53,14 +53,13 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot1 = slot0:findTF("NotchAdapt")
-	slot0.backBtn = slot0:findTF("BackBtn", slot1)
-	slot0.progressText = slot0:findTF("ProgressImg/ProgressText", slot1)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
-	slot0.tplButtom = findTF(slot0:findTF("SwitchBtnList", slot0._tf), "tplButtom")
-	slot6 = slot1
-	slot0.imgGot = slot0:findTF("ProgressImg/got", slot6)
+	slot0.bg = slot0._tf:Find("BG")
+	slot1 = slot0._tf:Find("NotchAdapt")
+	slot0.backBtn = slot1:Find("BackBtn")
+	slot0.progressText = slot1:Find("ProgressImg/ProgressText")
+	slot0.helpBtn = slot1:Find("HelpBtn")
+	slot0.tplButtom = findTF(slot0._tf:Find("SwitchBtnList"), "tplButtom")
+	slot0.imgGot = slot1:Find("ProgressImg/got")
 	slot0.switchBtnList = {}
 	slot0.medalTfList = {}
 
@@ -220,7 +219,7 @@ slot0.updateSwitchBtnTF = function(slot0)
 	setText(slot0.rightPage, (slot0.curPage - 1) * slot4 + 2)
 
 	for slot4, slot5 in ipairs(slot0.switchBtnList) do
-		slot6 = slot0:findTF("Tip", slot5)
+		slot6 = slot5:Find("Tip")
 
 		if slot0:caculateActivatable(slot4) == 0 or slot4 == slot0.curPage then
 			setActive(slot6, false)

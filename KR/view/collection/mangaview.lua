@@ -42,17 +42,17 @@ slot0.initUI = function(slot0)
 	slot0._tf.anchorMax = Vector2.one
 	slot0._tf.offsetMax = Vector2.zero
 	slot0._tf.offsetMin = Vector2.zero
-	slot1 = slot0:findTF("BtnList")
-	slot0.likeFilteBtn = slot0:findTF("LikeFilterBtn", slot1)
-	slot0.readFilteBtn = slot0:findTF("ReadFilteBtn", slot1)
-	slot0.orderBtn = slot0:findTF("OrderBtn", slot1)
-	slot0.repairBtn = slot0:findTF("RepairBtn", slot1)
-	slot0.scrollView = slot0:findTF("ScrollView")
-	slot0.emptyPanel = slot0:findTF("EmptyPanel")
-	slot0.downloadBtnPanel = slot0:findTF("UpdatePanel")
-	slot0.mangaContainer = slot0:findTF("ScrollView/Content")
-	slot0.lScrollRectSC = slot0:findTF("ScrollView/Content"):GetComponent("LScrollRect")
-	slot0.mangaTpl = slot0:findTF("MangaTpl")
+	slot1 = slot0._tf:Find("BtnList")
+	slot0.likeFilteBtn = slot1:Find("LikeFilterBtn")
+	slot0.readFilteBtn = slot1:Find("ReadFilteBtn")
+	slot0.orderBtn = slot1:Find("OrderBtn")
+	slot0.repairBtn = slot1:Find("RepairBtn")
+	slot0.scrollView = slot0._tf:Find("ScrollView")
+	slot0.emptyPanel = slot0._tf:Find("EmptyPanel")
+	slot0.downloadBtnPanel = slot0._tf:Find("UpdatePanel")
+	slot0.mangaContainer = slot0._tf:Find("ScrollView/Content")
+	slot0.lScrollRectSC = slot0._tf:Find("ScrollView/Content"):GetComponent("LScrollRect")
+	slot0.mangaTpl = slot0._tf:Find("MangaTpl")
 
 	slot0.lScrollRectSC:BeginLayout()
 	slot0.lScrollRectSC:EndLayout()
@@ -60,10 +60,10 @@ slot0.initUI = function(slot0)
 end
 
 slot0.initUIText = function(slot0)
-	setText(slot0:findTF("ShowingAll/Text", slot0.readFilteBtn), i18n("cartoon_notall"))
-	setText(slot0:findTF("ShowingNotRead/Text", slot0.readFilteBtn), i18n("cartoon_notall"))
-	setText(slot0:findTF("Content/Bottom/BottomNotRead/Tag/Text", slot0.mangaTpl), i18n("cartoon_notall"))
-	setText(slot0:findTF("Text", slot0.emptyPanel), i18n("cartoon_haveno"))
+	setText(slot0.readFilteBtn:Find("ShowingAll/Text"), i18n("cartoon_notall"))
+	setText(slot0.readFilteBtn:Find("ShowingNotRead/Text"), i18n("cartoon_notall"))
+	setText(slot0.mangaTpl:Find("Content/Bottom/BottomNotRead/Tag/Text"), i18n("cartoon_notall"))
+	setText(slot0.emptyPanel:Find("Text"), i18n("cartoon_haveno"))
 end
 
 slot0.addListener = function(slot0)
@@ -119,22 +119,22 @@ slot0.updateMangaTpl = function(slot0, slot1, slot2)
 	slot4 = slot0.mangaIDListForShow[slot1]
 
 	assert(slot4, "null mangaID")
-	setActive(slot0:findTF("Update", slot3), false)
+	setActive(slot3:Find("Update"), false)
 
-	slot7 = slot0:findTF("Content/Bottom/BottomNew", slot3)
-	slot8 = slot0:findTF("Content/Bottom/BottomNotRead", slot3)
-	slot9 = slot0:findTF("Content/Bottom/BottomNormal", slot3)
+	slot7 = slot3:Find("Content/Bottom/BottomNew")
+	slot8 = slot3:Find("Content/Bottom/BottomNotRead")
+	slot9 = slot3:Find("Content/Bottom/BottomNormal")
 	slot15 = MangaConst.isMangaEverReadByID(slot4)
 	slot16 = MangaConst.isMangaNewByID(slot4)
 
-	setActive(slot0:findTF("Content/Bottom/BottomTip", slot3), false)
+	setActive(slot3:Find("Content/Bottom/BottomTip"), false)
 	setActive(slot7, not slot15)
 	setActive(slot8, false)
 	setActive(slot9, slot15)
-	setActive(slot0:findTF("TopSpecial", slot3), not slot15)
-	setText(slot0:findTF("NumText", slot7), "#" .. pg.cartoon[slot4].cartoon_id)
-	setText(slot0:findTF("NumText", slot8), "#" .. pg.cartoon[slot4].cartoon_id)
-	setText(slot0:findTF("NumText", slot9), "#" .. pg.cartoon[slot4].cartoon_id)
+	setActive(slot3:Find("TopSpecial"), not slot15)
+	setText(slot7:Find("NumText"), "#" .. pg.cartoon[slot4].cartoon_id)
+	setText(slot8:Find("NumText"), "#" .. pg.cartoon[slot4].cartoon_id)
+	setText(slot9:Find("NumText"), "#" .. pg.cartoon[slot4].cartoon_id)
 	removeOnButton(slot3)
 	onButton(slot0, slot3, function ()
 		uv0:openMangaViewLayer(uv1)
@@ -142,7 +142,7 @@ slot0.updateMangaTpl = function(slot0, slot1, slot2)
 
 	slot18 = MangaConst.MANGA_PATH_PREFIX .. pg.cartoon[slot4].resource
 
-	if not IsNil(GetComponent(slot0:findTF("Content/Mask/Pic", slot3), "Image").sprite) then
+	if not IsNil(GetComponent(slot3:Find("Content/Mask/Pic"), "Image").sprite) then
 		if slot19.name ~= slot17 then
 			slot0.resLoader:LoadSprite(slot18, slot17, slot6, false)
 		end
@@ -154,18 +154,18 @@ end
 slot0.initEmpty = function(slot0, slot1)
 	slot2 = tf(slot1)
 
-	setActive(slot0:findTF("TopSpecial", slot2), false)
-	setActive(slot0:findTF("Content/Bottom/BottomNew", slot2), false)
-	setActive(slot0:findTF("Content/Bottom/BottomNotRead", slot2), false)
-	setActive(slot0:findTF("Content/Bottom/BottomNormal", slot2), false)
-	setActive(slot0:findTF("Content/Bottom/BottomTip", slot2), true)
+	setActive(slot2:Find("TopSpecial"), false)
+	setActive(slot2:Find("Content/Bottom/BottomNew"), false)
+	setActive(slot2:Find("Content/Bottom/BottomNotRead"), false)
+	setActive(slot2:Find("Content/Bottom/BottomNormal"), false)
+	setActive(slot2:Find("Content/Bottom/BottomTip"), true)
 
-	slot8 = slot0:findTF("Update", slot2)
-	slot10 = slot0:findTF("Progress", slot8)
-	slot11 = slot0:findTF("Slider", slot10)
+	slot8 = slot2:Find("Update")
+	slot10 = slot8:Find("Progress")
+	slot11 = slot10:Find("Slider")
 
 	setActive(slot8, true)
-	setActive(slot0:findTF("Btn", slot8), true)
+	setActive(slot8:Find("Btn"), true)
 	setActive(slot10, false)
 
 	slot12, slot13 = nil
@@ -179,8 +179,8 @@ slot0.initEmpty = function(slot0, slot1)
 		end
 	end
 
-	slot0.resLoader:LoadSprite(slot13, slot12, slot0:findTF("Content/Mask/Pic", slot2), false)
-	setText(slot0:findTF("Text", slot7), "")
+	slot0.resLoader:LoadSprite(slot13, slot12, slot2:Find("Content/Mask/Pic"), false)
+	setText(slot7:Find("Text"), "")
 	onButton(slot0, slot9, function ()
 		if uv0.group.state == DownloadState.None or slot0 == DownloadState.CheckFailure then
 			uv0.group:CheckD()
@@ -198,9 +198,9 @@ slot0.initEmpty = function(slot0, slot1)
 end
 
 slot0.updateEmpty = function(slot0, slot1)
-	slot3 = slot0:findTF("Update", tf(slot1))
-	slot5 = slot0:findTF("Text", slot0:findTF("Btn", slot3))
-	slot7 = slot0:findTF("Slider", slot0:findTF("Progress", slot3))
+	slot3 = tf(slot1):Find("Update")
+	slot5 = slot3:Find("Btn"):Find("Text")
+	slot7 = slot3:Find("Progress"):Find("Slider")
 
 	if slot0.group.state == DownloadState.None then
 		setText(slot5, "None")
@@ -283,10 +283,10 @@ slot0.updateMangaList = function(slot0)
 end
 
 slot0.initDownloadBtnPanel = function(slot0)
-	slot1 = slot0:findTF("Btn", slot0.downloadBtnPanel)
-	slot2 = slot0:findTF("Text", slot1)
-	slot3 = slot0:findTF("Progress", slot0.downloadBtnPanel)
-	slot4 = slot0:findTF("Slider", slot3)
+	slot1 = slot0.downloadBtnPanel:Find("Btn")
+	slot2 = slot1:Find("Text")
+	slot3 = slot0.downloadBtnPanel:Find("Progress")
+	slot4 = slot3:Find("Slider")
 
 	setActive(slot1, true)
 	setActive(slot3, false)
@@ -307,8 +307,8 @@ slot0.initDownloadBtnPanel = function(slot0)
 end
 
 slot0.updateDownloadBtnPanel = function(slot0)
-	slot2 = slot0:findTF("Text", slot0:findTF("Btn", slot0.downloadBtnPanel))
-	slot4 = slot0:findTF("Slider", slot0:findTF("Progress", slot0.downloadBtnPanel))
+	slot2 = slot0.downloadBtnPanel:Find("Btn"):Find("Text")
+	slot4 = slot0.downloadBtnPanel:Find("Progress"):Find("Slider")
 
 	if slot0.group.state == DownloadState.None then
 		setText(slot2, "None")
@@ -387,11 +387,11 @@ slot0.updatePanel = function(slot0)
 end
 
 slot0.updateBtnList = function(slot0)
-	setActive(slot0:findTF("On", slot0.likeFilteBtn), slot0.isShowLike)
-	setActive(slot0:findTF("ShowingAll", slot0.readFilteBtn), not slot0.isShowNotRead)
-	setActive(slot0:findTF("ShowingNotRead", slot0.readFilteBtn), slot0.isShowNotRead)
-	setActive(slot0:findTF("Up", slot0.orderBtn), slot0.isUpOrder)
-	setActive(slot0:findTF("Down", slot0.orderBtn), not slot0.isUpOrder)
+	setActive(slot0.likeFilteBtn:Find("On"), slot0.isShowLike)
+	setActive(slot0.readFilteBtn:Find("ShowingAll"), not slot0.isShowNotRead)
+	setActive(slot0.readFilteBtn:Find("ShowingNotRead"), slot0.isShowNotRead)
+	setActive(slot0.orderBtn:Find("Up"), slot0.isUpOrder)
+	setActive(slot0.orderBtn:Find("Down"), not slot0.isUpOrder)
 end
 
 slot0.tryShowTipMsgBox = function(slot0)
@@ -413,6 +413,8 @@ slot0.tryShowTipMsgBox = function(slot0)
 end
 
 slot0.openMangaViewLayer = function(slot0, slot1)
+	slot7 = slot0.readFilteBtn
+
 	LoadContextCommand.LoadLayerOnTopContext(Context.New({
 		mediator = MangaFullScreenMediator,
 		viewComponent = MangaFullScreenLayer,
@@ -420,7 +422,7 @@ slot0.openMangaViewLayer = function(slot0, slot1)
 			mangaIndex = slot1,
 			mangaIDLIst = slot0.mangaIDListForShow,
 			mangaContext = slot0,
-			isShowingNotRead = isActive(slot0:findTF("ShowingNotRead", slot0.readFilteBtn))
+			isShowingNotRead = isActive(slot7:Find("ShowingNotRead"))
 		},
 		onRemoved = function ()
 		end
@@ -428,13 +430,13 @@ slot0.openMangaViewLayer = function(slot0, slot1)
 end
 
 slot0.updateLineAfterRead = function(slot0, slot1)
-	if slot0:findTF(tostring(table.indexof(slot0.mangaIDListForShow, slot1) - 1), slot0.mangaContainer) then
+	if slot0.mangaContainer:Find(tostring(table.indexof(slot0.mangaIDListForShow, slot1) - 1)) then
 		slot8 = MangaConst.isMangaEverReadByID(slot1)
 
-		setActive(slot0:findTF("Content/Bottom/BottomNew", slot3), MangaConst.isMangaNewByID(slot1) and not slot8)
-		setActive(slot0:findTF("Content/Bottom/BottomNotRead", slot3), not slot9 and not slot8)
-		setActive(slot0:findTF("Content/Bottom/BottomNormal", slot3), slot8)
-		setActive(slot0:findTF("TopSpecial", slot3), not slot8)
+		setActive(slot3:Find("Content/Bottom/BottomNew"), MangaConst.isMangaNewByID(slot1) and not slot8)
+		setActive(slot3:Find("Content/Bottom/BottomNotRead"), not slot9 and not slot8)
+		setActive(slot3:Find("Content/Bottom/BottomNormal"), slot8)
+		setActive(slot3:Find("TopSpecial"), not slot8)
 	end
 end
 

@@ -5,28 +5,28 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.dispatch = slot2
-	slot0.bgNormal = slot0:findTF("bgNormal$").gameObject
-	slot0.bgEmergence = slot0:findTF("bgEmergence$").gameObject
-	slot0.timeLimit = slot0:findTF("timeLimit$").gameObject
-	slot0.labelLimitTime = slot0:findTF("timeLimit$/labelLimitTime$"):GetComponent("Text")
-	slot0.iconType = slot0:findTF("iconType$"):GetComponent("Image")
-	slot0.iconState = slot0:findTF("iconState$")
-	slot0.activityLimitBg = slot0:findTF("bgAct")
-	slot0.shadow = slot0:findTF("Image"):GetComponent(typeof(Image))
-	slot0.timerBg = slot0:findTF("labelTime$"):GetComponent(typeof(Image))
-	slot0.label = slot0:findTF("labelName$/Image"):GetComponent(typeof(Text))
-	slot0.labelLv = slot0:findTF("level/labelLv$"):GetComponent("Text")
-	slot0.iconTip = slot0:findTF("iconTip$").gameObject
-	slot0.labelName = slot0:findTF("labelName$"):GetComponent("Text")
-	slot0.labelTime = slot0:findTF("labelTime$/Text"):GetComponent("Text")
-	slot0.awardsTr = slot0:findTF("awards$")
-	slot0.specialAward = slot0:findTF("specialAward/item")
-	slot0.awardItem = slot0:findTF("awards$/item").gameObject
-	slot0.mark = slot0:findTF("mark")
+	slot0.bgNormal = slot0.tr:Find("bgNormal$").gameObject
+	slot0.bgEmergence = slot0.tr:Find("bgEmergence$").gameObject
+	slot0.timeLimit = slot0.tr:Find("timeLimit$").gameObject
+	slot0.labelLimitTime = slot0.tr:Find("timeLimit$/labelLimitTime$"):GetComponent("Text")
+	slot0.iconType = slot0.tr:Find("iconType$"):GetComponent("Image")
+	slot0.iconState = slot0.tr:Find("iconState$")
+	slot0.activityLimitBg = slot0.tr:Find("bgAct")
+	slot0.shadow = slot0.tr:Find("Image"):GetComponent(typeof(Image))
+	slot0.timerBg = slot0.tr:Find("labelTime$"):GetComponent(typeof(Image))
+	slot0.label = slot0.tr:Find("labelName$/Image"):GetComponent(typeof(Text))
+	slot0.labelLv = slot0.tr:Find("level/labelLv$"):GetComponent("Text")
+	slot0.iconTip = slot0.tr:Find("iconTip$").gameObject
+	slot0.labelName = slot0.tr:Find("labelName$"):GetComponent("Text")
+	slot0.labelTime = slot0.tr:Find("labelTime$/Text"):GetComponent("Text")
+	slot0.awardsTr = slot0.tr:Find("awards$")
+	slot0.specialAward = slot0.tr:Find("specialAward/item")
+	slot0.awardItem = slot0.tr:Find("awards$/item").gameObject
+	slot0.mark = slot0.tr:Find("mark")
 
 	SetActive(slot0.mark, false)
 
-	slot0.ptBonus = EventPtBonus.New(slot0:findTF("bonusPt"))
+	slot0.ptBonus = EventPtBonus.New(slot0.tr:Find("bonusPt"))
 end
 
 slot0.Update = function(slot0, slot1, slot2)
@@ -132,10 +132,6 @@ slot0.Flush = function(slot0)
 end
 
 slot0.Clear = function(slot0)
-end
-
-slot0.findTF = function(slot0, slot1)
-	return findTF(slot0.tr, slot1)
 end
 
 return slot0

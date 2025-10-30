@@ -9,7 +9,7 @@ slot0.OnInit = function(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.closeBtn = slot0:findTF("adapt/window_overflow/top/btnBack")
+	slot0.closeBtn = slot0._tf:Find("adapt/window_overflow/top/btnBack")
 
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()

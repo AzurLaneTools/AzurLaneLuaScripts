@@ -29,7 +29,9 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.rankAnimaFinish = function(slot0)
-	SetActive(slot0:findTF("main/conditions"), true)
+	slot1 = slot0._tf
+
+	SetActive(slot1:Find("main/conditions"), true)
 	SetActive(slot0._conditionBGNormal, false)
 	SetActive(slot0._conditionBGContribute, true)
 
@@ -40,7 +42,7 @@ slot0.rankAnimaFinish = function(slot0)
 	table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
 		uv0._stateFlag = uv1.STATE_REPORTED
 
-		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+		SetActive(uv0._bg:Find("jieuan01/tips"), true)
 	end)).id)
 
 	slot0._stateFlag = uv0.STATE_REPORT
@@ -52,7 +54,7 @@ slot0.displayBG = function(slot0)
 	LeanTween.moveLocal(go(rtf(slot0._grade)), slot0._gradeUpperLeftPos, uv0.DURATION_MOVE):setOnComplete(System.Action(function ()
 		uv0:showPainting()
 	end))
-	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
+	setActive(slot0._bg:Find("jieuan01/Bomb"), false)
 end
 
 slot0.setCondition = function(slot0, slot1, slot2, slot3)

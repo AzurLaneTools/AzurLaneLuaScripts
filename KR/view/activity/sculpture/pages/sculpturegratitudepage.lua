@@ -5,17 +5,17 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("back")
-	slot0.roleImg = slot0:findTF("char/Image")
-	slot0.container = slot0:findTF("frame/gift")
-	slot0.awards = slot0:findTF("frame/awards")
-	slot0.giftBg = slot0:findTF("frame/Image")
-	slot0.wordTxtScr = slot0:findTF("frame/scrollrect")
-	slot0.wordTxt = slot0:findTF("frame/scrollrect/content/Text"):GetComponent(typeof(Text))
-	slot0.typer = slot0:findTF("frame/scrollrect/content/Text"):GetComponent(typeof(Typewriter))
-	slot0.uilist = UIItemList.New(slot0:findTF("frame/awards"), slot0:findTF("frame/awards/tpl"))
-	slot0.arrLeft = slot0:findTF("frame/arr")
-	slot0.arrRight = slot0:findTF("frame/arr (1)")
+	slot0.backBtn = slot0._tf:Find("back")
+	slot0.roleImg = slot0._tf:Find("char/Image")
+	slot0.container = slot0._tf:Find("frame/gift")
+	slot0.awards = slot0._tf:Find("frame/awards")
+	slot0.giftBg = slot0._tf:Find("frame/Image")
+	slot0.wordTxtScr = slot0._tf:Find("frame/scrollrect")
+	slot0.wordTxt = slot0._tf:Find("frame/scrollrect/content/Text"):GetComponent(typeof(Text))
+	slot0.typer = slot0._tf:Find("frame/scrollrect/content/Text"):GetComponent(typeof(Typewriter))
+	slot0.uilist = UIItemList.New(slot0._tf:Find("frame/awards"), slot0._tf:Find("frame/awards/tpl"))
+	slot0.arrLeft = slot0._tf:Find("frame/arr")
+	slot0.arrRight = slot0._tf:Find("frame/arr (1)")
 end
 
 slot0.OnInit = function(slot0)
@@ -23,7 +23,7 @@ end
 
 slot0.Show = function(slot0, slot1, slot2, slot3)
 	slot0:Clear()
-	setText(slot0:findTF("tip"), i18n("sculpture_gratitude_tip"))
+	setText(slot0._tf:Find("tip"), i18n("sculpture_gratitude_tip"))
 	uv0.super.Show(slot0)
 	setActive(slot0.giftBg, true)
 	setAnchoredPosition(slot0.arrLeft, {
@@ -67,7 +67,7 @@ slot0.Flush = function(slot0, slot1)
 		setActive(slot0.awards, true)
 		slot0:InitAwards()
 		slot0:SetScrollTxt(slot1:getDataConfig(slot0.id, "thankwords"))
-		setText(slot0:findTF("tip"), "")
+		setText(slot0._tf:Find("tip"), "")
 		setActive(slot0.giftBg, false)
 		setAnchoredPosition(slot0.arrLeft, {
 			x = 260

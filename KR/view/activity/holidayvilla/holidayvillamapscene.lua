@@ -7,26 +7,26 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.mapScroll = slot0:findTF("mapScroll")
-	slot0.map = slot0:findTF("mapScroll/Viewport/map")
-	slot0.regionList = UIItemList.New(slot0:findTF("regions", slot0.map), slot0:findTF("regions/region", slot0.map))
-	slot0.siteList = UIItemList.New(slot0:findTF("sites", slot0.map), slot0:findTF("sites/site", slot0.map))
-	slot0.ani = slot0:findTF("ani", slot0.map)
-	slot0.backBtn = slot0:findTF("ui/top/backBtn")
-	slot0.homeBtn = slot0:findTF("ui/top/homeBtn")
-	slot0.helpBtn = slot0:findTF("ui/top/helpBtn")
-	slot0.res = slot0:findTF("ui/top/res")
-	slot0.watermelonGameBtn = slot0:findTF("ui/left/watermelonGameBtn")
-	slot0.minerGameBtn = slot0:findTF("ui/left/minerGameBtn")
-	slot0.springBtn = slot0:findTF("ui/left/springBtn")
-	slot0.taskBar = slot0:findTF("ui/taskBar")
-	slot0.bookBtn = slot0:findTF("ui/bookBtn")
-	slot0.taskBtn = slot0:findTF("ui/taskBtn")
-	slot0.shopBtn = slot0:findTF("ui/shopBtn")
-	slot0.wharfBtn = slot0:findTF("ui/wharfBtn")
-	slot0.mapScaleSlider = slot0:findTF("ui/mapScaleSlider")
-	slot0.siteDescPage = slot0:findTF("subPages/siteDescPage")
-	slot0.allRepairCompletePage = slot0:findTF("subPages/allRepairCompletePage")
+	slot0.mapScroll = slot0._tf:Find("mapScroll")
+	slot0.map = slot0._tf:Find("mapScroll/Viewport/map")
+	slot0.regionList = UIItemList.New(slot0.map:Find("regions"), slot0.map:Find("regions/region"))
+	slot0.siteList = UIItemList.New(slot0.map:Find("sites"), slot0.map:Find("sites/site"))
+	slot0.ani = slot0.map:Find("ani")
+	slot0.backBtn = slot0._tf:Find("ui/top/backBtn")
+	slot0.homeBtn = slot0._tf:Find("ui/top/homeBtn")
+	slot0.helpBtn = slot0._tf:Find("ui/top/helpBtn")
+	slot0.res = slot0._tf:Find("ui/top/res")
+	slot0.watermelonGameBtn = slot0._tf:Find("ui/left/watermelonGameBtn")
+	slot0.minerGameBtn = slot0._tf:Find("ui/left/minerGameBtn")
+	slot0.springBtn = slot0._tf:Find("ui/left/springBtn")
+	slot0.taskBar = slot0._tf:Find("ui/taskBar")
+	slot0.bookBtn = slot0._tf:Find("ui/bookBtn")
+	slot0.taskBtn = slot0._tf:Find("ui/taskBtn")
+	slot0.shopBtn = slot0._tf:Find("ui/shopBtn")
+	slot0.wharfBtn = slot0._tf:Find("ui/wharfBtn")
+	slot0.mapScaleSlider = slot0._tf:Find("ui/mapScaleSlider")
+	slot0.siteDescPage = slot0._tf:Find("subPages/siteDescPage")
+	slot0.allRepairCompletePage = slot0._tf:Find("subPages/allRepairCompletePage")
 
 	setText(slot0._tf:Find("ui/bookBtn/name"), i18n("holiday_tip_collection"))
 	setText(slot0._tf:Find("ui/taskBtn/name"), i18n("holiday_tip_task"))
@@ -62,18 +62,18 @@ slot0.didEnter = function(slot0)
 		slot1 = Vector3(1 / slot0, 1 / slot0, 1)
 		slot5 = "regions"
 
-		for slot5 = 0, uv0:findTF(slot5, uv0.map).childCount - 1 do
-			uv0:findTF("regions", uv0.map):GetChild(slot5).localScale = slot1
+		for slot5 = 0, uv0.map:Find(slot5).childCount - 1 do
+			uv0.map:Find("regions"):GetChild(slot5).localScale = slot1
 		end
 
 		slot5 = "sites"
 
-		for slot5 = 0, uv0:findTF(slot5, uv0.map).childCount - 1 do
-			uv0:findTF("sites", uv0.map):GetChild(slot5).localScale = slot1
+		for slot5 = 0, uv0.map:Find(slot5).childCount - 1 do
+			uv0.map:Find("sites"):GetChild(slot5).localScale = slot1
 		end
 
-		setActive(uv0:findTF("regions", uv0.map), slot0 > 0.75)
-		setActive(uv0:findTF("sites", uv0.map), slot0 > 0.75)
+		setActive(uv0.map:Find("regions"), slot0 > 0.75)
+		setActive(uv0.map:Find("sites"), slot0 > 0.75)
 	end)
 	slot0:Show()
 	setActive(slot0.ani, false)
@@ -249,7 +249,7 @@ slot0.ShowMap = function(slot0)
 	end
 
 	if slot1 ~= 6 then
-		setActive(slot0:findTF("bg" .. slot1, slot0.map), true)
+		setActive(slot0.map:Find("bg" .. slot1), true)
 	else
 		slot2 = pg.TimeMgr.GetInstance():GetServerHour()
 
@@ -259,7 +259,7 @@ slot0.ShowMap = function(slot0)
 			slot11 = slot7[3]
 
 			if slot7[1][1] <= slot2 and slot2 < slot9 then
-				setActive(slot0:findTF("bg" .. slot1 .. "_" .. slot10, slot0.map), true)
+				setActive(slot0.map:Find("bg" .. slot1 .. "_" .. slot10), true)
 
 				if slot0.bgm ~= slot11 then
 					slot0.bgm = slot11
@@ -364,13 +364,14 @@ slot0.ShowUI = function(slot0)
 
 	slot3 = slot0.taskProxy:getFinishTaskById(uv0[slot0.funtionIds[1]].task_id)
 
-	setActive(slot0:findTF("lock", slot0.watermelonGameBtn), not slot3)
-	setActive(slot0:findTF("remain", slot0.watermelonGameBtn), slot3)
+	setActive(slot0.watermelonGameBtn:Find("lock"), not slot3)
+	setActive(slot0.watermelonGameBtn:Find("remain"), slot3)
 
 	if slot3 then
+		slot5 = slot0.watermelonGameBtn
 		slot6 = getProxy(MiniGameProxy)
 
-		setText(slot0:findTF("remain/Text", slot0.watermelonGameBtn), slot6:GetHubByGameId(76).count)
+		setText(slot5:Find("remain/Text"), slot6:GetHubByGameId(76).count)
 		onButton(slot0, slot0.watermelonGameBtn, function ()
 			uv0:emit(HolidayVillaMapMediator.OPEN_MINI_GAME, 76)
 		end, SFX_PANEL)
@@ -382,13 +383,14 @@ slot0.ShowUI = function(slot0)
 
 	slot5 = slot0.taskProxy:getFinishTaskById(uv0[slot0.funtionIds[2]].task_id)
 
-	setActive(slot0:findTF("lock", slot0.minerGameBtn), not slot5)
-	setActive(slot0:findTF("remain", slot0.minerGameBtn), slot5)
+	setActive(slot0.minerGameBtn:Find("lock"), not slot5)
+	setActive(slot0.minerGameBtn:Find("remain"), slot5)
 
 	if slot5 then
+		slot7 = slot0.minerGameBtn
 		slot8 = getProxy(MiniGameProxy)
 
-		setText(slot0:findTF("remain/Text", slot0.minerGameBtn), slot8:GetHubByGameId(77).count)
+		setText(slot7:Find("remain/Text"), slot8:GetHubByGameId(77).count)
 		onButton(slot0, slot0.minerGameBtn, function ()
 			uv0:emit(HolidayVillaMapMediator.OPEN_MINI_GAME, 77)
 		end, SFX_PANEL)
@@ -400,11 +402,13 @@ slot0.ShowUI = function(slot0)
 
 	slot7 = slot0.taskProxy:getFinishTaskById(uv0[slot0.funtionIds[3]].task_id)
 
-	setActive(slot0:findTF("lock", slot0.springBtn), not slot7)
-	setActive(slot0:findTF("tip", slot0.springBtn), slot7)
+	setActive(slot0.springBtn:Find("lock"), not slot7)
+	setActive(slot0.springBtn:Find("tip"), slot7)
 
 	if slot7 then
-		setActive(slot0:findTF("tip", slot0.springBtn), false)
+		slot9 = slot0.springBtn
+
+		setActive(slot9:Find("tip"), false)
 		onButton(slot0, slot0.springBtn, function ()
 			uv0:emit(HolidayVillaMapMediator.GO_HOTSPRING)
 		end, SFX_PANEL)
@@ -422,25 +426,32 @@ slot0.ShowUI = function(slot0)
 	setActive(slot0.wharfBtn, slot9)
 
 	if slot9 then
-		setActive(slot0:findTF("tip", slot0.bookBtn), CollectionBookMediator.GetCollectionBookTip())
+		slot11 = slot0.bookBtn
+
+		setActive(slot11:Find("tip"), CollectionBookMediator.GetCollectionBookTip())
 		onButton(slot0, slot0.bookBtn, function ()
 			uv0:emit(HolidayVillaMapMediator.ON_BOOK)
 		end, SFX_PANEL)
-		setActive(slot0:findTF("tip", slot0.taskBtn), HolidayVillaTasksLayer.ShouldShowTip())
+
+		slot11 = slot0.taskBtn
+
+		setActive(slot11:Find("tip"), HolidayVillaTasksLayer.ShouldShowTip())
 		onButton(slot0, slot0.taskBtn, function ()
 			uv0:emit(HolidayVillaMapMediator.OPEN_HolidayVilla_TASk)
 		end, SFX_PANEL)
 
+		slot11 = slot0.shopBtn
 		slot12 = slot0.activity
 
-		setText(slot0:findTF("res/Text", slot0.shopBtn), slot12:getVitemNumber(66005))
+		setText(slot11:Find("res/Text"), slot12:getVitemNumber(66005))
 		onButton(slot0, slot0.shopBtn, function ()
 			uv0:emit(HolidayVillaMapMediator.ON_SHOP)
 		end, SFX_PANEL)
 
+		slot11 = slot0.wharfBtn
 		slot12 = slot0.activity
 
-		setText(slot0:findTF("res/Text", slot0.wharfBtn), slot12:getVitemNumber(66006))
+		setText(slot11:Find("res/Text"), slot12:getVitemNumber(66006))
 		onButton(slot0, slot0.wharfBtn, function ()
 			uv0:emit(HolidayVillaMapMediator.OPEN_WHARF)
 		end, SFX_PANEL)
@@ -461,7 +472,7 @@ slot0.SetRes = function(slot0, slot1, slot2)
 		for slot13 = 0, slot1.childCount - 1 do
 			if slot1:GetChild(slot13).name == tostring(slot8) then
 				setActive(slot14, true)
-				setText(slot0:findTF("Text", slot14), slot9)
+				setText(slot14:Find("Text"), slot9)
 
 				break
 			end
@@ -483,7 +494,9 @@ slot0.SetTaskBar = function(slot0)
 				slot0.initTaskPosition = false
 			end
 
-			setText(slot0:findTF("desc", slot0.taskBar), slot9:getConfig("desc"))
+			slot12 = slot0.taskBar
+
+			setText(slot12:Find("desc"), slot9:getConfig("desc"))
 			onButton(slot0, slot0.taskBar, function ()
 				uv0.mapScaleSlider:GetComponent(typeof(Slider)).value = 1
 				slot0 = uv0.mapScroll.rect.width
@@ -497,7 +510,9 @@ slot0.SetTaskBar = function(slot0)
 	end
 
 	if not slot1 then
-		setText(slot0:findTF("desc", slot0.taskBar), i18n("holiday_tip_task_finish"))
+		slot3 = slot0.taskBar
+
+		setText(slot3:Find("desc"), i18n("holiday_tip_task_finish"))
 		onButton(slot0, slot0.taskBar, function ()
 			uv0.mapScaleSlider:GetComponent(typeof(Slider)).value = 1
 
@@ -522,10 +537,22 @@ slot0.ShowSiteDescPage = function(slot0, slot1, slot2, slot3)
 	slot5 = slot0.siteDescPage
 
 	setActive(slot5:Find("repairComplete"), slot2)
-	setText(slot0:findTF("panel/name", slot0.siteDescPage), slot1.jumpto[1][1])
-	setText(slot0:findTF("panel/desc", slot0.siteDescPage), slot1.jumpto[2][1])
-	LoadImageSpriteAsync(slot1.jumpto[3][1], slot0:findTF("panel/picBg/mask/picture", slot0.siteDescPage))
-	onButton(slot0, slot0:findTF("bg", slot0.siteDescPage), function ()
+
+	slot5 = slot0.siteDescPage
+
+	setText(slot5:Find("panel/name"), slot1.jumpto[1][1])
+
+	slot5 = slot0.siteDescPage
+
+	setText(slot5:Find("panel/desc"), slot1.jumpto[2][1])
+
+	slot6 = slot0.siteDescPage
+
+	LoadImageSpriteAsync(slot1.jumpto[3][1], slot6:Find("panel/picBg/mask/picture"))
+
+	slot6 = slot0.siteDescPage
+
+	onButton(slot0, slot6:Find("bg"), function ()
 		setActive(uv0.siteDescPage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.siteDescPage, uv0._tf:Find("subPages"))
 
@@ -533,7 +560,10 @@ slot0.ShowSiteDescPage = function(slot0, slot1, slot2, slot3)
 			uv1()
 		end
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("closeBtn", slot0.siteDescPage), function ()
+
+	slot6 = slot0.siteDescPage
+
+	onButton(slot0, slot6:Find("closeBtn"), function ()
 		setActive(uv0.siteDescPage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.siteDescPage, uv0._tf:Find("subPages"))
 
@@ -549,16 +579,26 @@ slot0.ShowAllRepairPage = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:BlurPanel(slot0.allRepairCompletePage)
-	slot0:SetRes(slot0:findTF("panel/source/res", slot0.allRepairCompletePage), slot0.beforeExchangeResList)
 
+	slot3 = slot0.allRepairCompletePage
+
+	slot0:SetRes(slot3:Find("panel/source/res"), slot0.beforeExchangeResList)
+
+	slot2 = slot0.allRepairCompletePage
 	slot3 = slot0.activity
 
-	setText(slot0:findTF("panel/destination/res/Text", slot0.allRepairCompletePage), slot3:getVitemNumber(66005) - slot0.beforeExchangeResList[5][2])
-	onButton(slot0, slot0:findTF("bg", slot0.allRepairCompletePage), function ()
+	setText(slot2:Find("panel/destination/res/Text"), slot3:getVitemNumber(66005) - slot0.beforeExchangeResList[5][2])
+
+	slot3 = slot0.allRepairCompletePage
+
+	onButton(slot0, slot3:Find("bg"), function ()
 		setActive(uv0.allRepairCompletePage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.allRepairCompletePage, uv0._tf:Find("subPages"))
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("closeBtn", slot0.allRepairCompletePage), function ()
+
+	slot3 = slot0.allRepairCompletePage
+
+	onButton(slot0, slot3:Find("closeBtn"), function ()
 		setActive(uv0.allRepairCompletePage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.allRepairCompletePage, uv0._tf:Find("subPages"))
 	end, SFX_CANCEL)

@@ -6,17 +6,17 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.enterBtn = slot0:findTF("frame/visit")
-	slot0.saveBtn = slot0:findTF("frame/like")
-	slot0.inputTr = slot0:findTF("frame/input")
-	slot0.uiItemlist = UIItemList.New(slot0:findTF("frame/list"), slot0:findTF("frame/list/tpl"))
-	slot0.tipTxt = slot0:findTF("frame/sub_title/Text"):GetComponent(typeof(Text))
+	slot0.enterBtn = slot0._tf:Find("frame/visit")
+	slot0.saveBtn = slot0._tf:Find("frame/like")
+	slot0.inputTr = slot0._tf:Find("frame/input")
+	slot0.uiItemlist = UIItemList.New(slot0._tf:Find("frame/list"), slot0._tf:Find("frame/list/tpl"))
+	slot0.tipTxt = slot0._tf:Find("frame/sub_title/Text"):GetComponent(typeof(Text))
 	slot0.frequentlyUsedList = slot0:GetSaveCodeList()
 
-	setText(slot0:findTF("frame/title/Text"), i18n("island_input_code_tip"))
-	setText(slot0:findTF("frame/input/Text"), i18n("island_input_code_tip_1"))
-	setText(slot0:findTF("frame/like/Text"), i18n("island_set_like"))
-	setText(slot0:findTF("frame/visit/Text"), i18n("island_btn_label_visit"))
+	setText(slot0._tf:Find("frame/title/Text"), i18n("island_input_code_tip"))
+	setText(slot0._tf:Find("frame/input/Text"), i18n("island_input_code_tip_1"))
+	setText(slot0._tf:Find("frame/like/Text"), i18n("island_set_like"))
+	setText(slot0._tf:Find("frame/visit/Text"), i18n("island_btn_label_visit"))
 end
 
 slot0.OnInit = function(slot0)

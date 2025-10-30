@@ -70,10 +70,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.listPanel = slot0:findTF("list_panel")
-	slot1 = slot0:findTF("scrollrect", slot0.listPanel)
+	slot1 = slot0._tf
+	slot0.listPanel = slot1:Find("list_panel")
+	slot1 = slot0.listPanel
+	slot1 = slot1:Find("scrollrect")
 	slot0.scolrect = slot1:GetComponent("LScrollRect")
-	slot1 = slot0:findTF("total_count/Text")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("total_count/Text")
 	slot0.totalCount = slot1:GetComponent(typeof(Text))
 	slot1 = slot0.listPanel
 	slot1 = slot1:Find("selected_bg/Text")
@@ -89,7 +92,8 @@ slot0.OnInit = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	slot0.confirmBtn = slot0:findTF("list_panel/confirm")
+	slot1 = slot0._tf
+	slot0.confirmBtn = slot1:Find("list_panel/confirm")
 
 	onButton(slot0, slot0.confirmBtn, function ()
 		if #uv0.contextData.selectedMedalList == 0 and #uv0.playerVO.displayTrophyList == 0 then
@@ -105,7 +109,8 @@ slot0.OnInit = function(slot0)
 		uv0.event:emit(AttireMediator.ON_CHANGE_MEDAL_DISPLAY, uv0.contextData.selectedMedalList)
 	end, SFX_PANEL)
 
-	slot0.descPanel = uv0(slot0:findTF("desc_panel"))
+	slot2 = slot0._tf
+	slot0.descPanel = uv0(slot2:Find("desc_panel"))
 	slot0.selectMaxLevel = true
 
 	onToggle(slot0, slot0.toggle, function (slot0)
@@ -186,10 +191,10 @@ slot0.Update = function(slot0, slot1, slot2)
 			x = 0,
 			y = 22
 		})
-		setActive(slot0:findTF("scrollrect", slot0.listPanel), false)
+		setActive(slot0.listPanel:Find("scrollrect"), false)
 	elseif slot3 > 0 and slot0.emptyPage:GetLoaded() then
 		slot0.emptyPage:ExecuteAction("ShowOrHide", false)
-		setActive(slot0:findTF("scrollrect", slot0.listPanel), true)
+		setActive(slot0.listPanel:Find("scrollrect"), true)
 	end
 end
 

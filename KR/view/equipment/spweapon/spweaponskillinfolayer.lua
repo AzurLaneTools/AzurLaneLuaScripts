@@ -11,7 +11,10 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("panel/buttonList/ok_button"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("panel/buttonList/ok_button"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.upgradeBtn, function ()
@@ -46,7 +49,7 @@ slot0.didEnter = function(slot0)
 
 	slot0:showBase()
 	slot0:showInfo(false)
-	setText(slot0:findTF("panel/top/title_list/infomation/title"), i18n("words_information"))
+	setText(slot0._tf:Find("panel/top/title_list/infomation/title"), i18n("words_information"))
 	setText(slot0.buttonList:Find("ok_button/Image"), i18n("text_confirm"))
 	setText(slot0.buttonList:Find("level_button/Image"), i18n("msgbox_text_upgrade"))
 end

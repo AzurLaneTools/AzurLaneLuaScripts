@@ -5,15 +5,15 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.friendBtn = slot0:findTF("window/sliders/content/friend")
+	slot0.friendBtn = slot0._tf:Find("window/sliders/content/friend")
 	slot0.friendRequested = slot0.friendBtn:Find("requested")
 	slot0.friendMark = slot0.friendBtn:Find("mark")
 	slot0.friendSupportTimeTxt = slot0.friendBtn:Find("requested/Text"):GetComponent(typeof(Text))
-	slot0.guildBtn = slot0:findTF("window/sliders/content/guild")
+	slot0.guildBtn = slot0._tf:Find("window/sliders/content/guild")
 	slot0.guildRequested = slot0.guildBtn:Find("requested")
 	slot0.guildMark = slot0.guildBtn:Find("mark")
 	slot0.guildSupportTimeTxt = slot0.guildBtn:Find("requested/Text"):GetComponent(typeof(Text))
-	slot0.worldBtn = slot0:findTF("window/sliders/content/world")
+	slot0.worldBtn = slot0._tf:Find("window/sliders/content/world")
 	slot0.worldRequested = slot0.worldBtn:Find("requested")
 	slot0.worldMark = slot0.worldBtn:Find("mark")
 	slot0.worldSupportTimeTxt = slot0.worldBtn:Find("requested/Text"):GetComponent(typeof(Text))
@@ -24,10 +24,16 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("cancel_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("cancel_btn"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("window/top/btnBack"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("window/top/btnBack"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.friendBtn, function ()
@@ -51,7 +57,10 @@ slot0.OnInit = function(slot0)
 
 		setActive(uv0.worldMark, uv0.worldFlag)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("confirm_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("confirm_btn"), function ()
 		uv0:emit(WorldBossMediator.ON_SURPPORT, {
 			uv0.friendFlag,
 			uv0.guildFlag,

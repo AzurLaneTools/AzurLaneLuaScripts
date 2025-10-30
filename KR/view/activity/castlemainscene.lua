@@ -65,26 +65,27 @@ slot0.init = function(slot0)
 end
 
 slot0.InitTF = function(slot0)
-	slot0.main = slot0:findTF("main")
-	slot0.map = slot0:findTF("map", slot0.main)
+	slot0.main = slot0._tf:Find("main")
+	slot1 = slot0.main
+	slot0.map = slot1:Find("map")
 	slot0.floors = {
-		slot0:findTF("floor1", slot0.map),
-		slot0:findTF("floor2", slot0.map)
+		slot0.map:Find("floor1"),
+		slot0.map:Find("floor2")
 	}
 	slot0.rooms = {
-		slot0:findTF("rooms", slot0.floors[1]),
-		slot0:findTF("rooms", slot0.floors[2])
+		slot0.floors[1]:Find("rooms"),
+		slot0.floors[2]:Find("rooms")
 	}
-	slot0.top = slot0:findTF("top", slot0.main)
-	slot0.buttonBack = slot0:findTF("btn_back", slot0.top)
-	slot0.buttonHelp = slot0:findTF("btn_help", slot0.top)
-	slot0.buttonAward = slot0:findTF("btn_award", slot0.top)
-	slot0.buttonCharacter = slot0:findTF("btn_character", slot0.top)
-	slot0.buttonDice = slot0:findTF("btn_dice", slot0.top)
-	slot0.diceRes = slot0:findTF("dice_res", slot0.buttonDice)
-	slot0.button1F = slot0:findTF("btn_1F", slot0.top)
-	slot0.button2F = slot0:findTF("btn_2F", slot0.top)
-	slot0.window = slot0:findTF("window")
+	slot0.top = slot0.main:Find("top")
+	slot0.buttonBack = slot0.top:Find("btn_back")
+	slot0.buttonHelp = slot0.top:Find("btn_help")
+	slot0.buttonAward = slot0.top:Find("btn_award")
+	slot0.buttonCharacter = slot0.top:Find("btn_character")
+	slot0.buttonDice = slot0.top:Find("btn_dice")
+	slot0.diceRes = slot0.buttonDice:Find("dice_res")
+	slot0.button1F = slot0.top:Find("btn_1F")
+	slot0.button2F = slot0.top:Find("btn_2F")
+	slot0.window = slot0._tf:Find("window")
 end
 
 slot0.InitData = function(slot0)
@@ -128,12 +129,11 @@ slot0.InitData = function(slot0)
 end
 
 slot0.InitAward = function(slot0)
-	slot0.awardWindow = slot0:findTF("award_window", slot0.window)
-	slot0.buttonAwardGet = slot0:findTF("award_bg/btn_get", slot0.awardWindow)
-	slot0.awardWindowBg = slot0:findTF("bg", slot0.awardWindow)
-	slot0.awardItem = slot0:findTF("award_bg/mask/item", slot0.awardWindow)
-	slot4 = slot0.awardWindow
-	slot0.awardItems = slot0:findTF("award_bg/mask/content", slot4)
+	slot0.awardWindow = slot0.window:Find("award_window")
+	slot0.buttonAwardGet = slot0.awardWindow:Find("award_bg/btn_get")
+	slot0.awardWindowBg = slot0.awardWindow:Find("bg")
+	slot0.awardItem = slot0.awardWindow:Find("award_bg/mask/item")
+	slot0.awardItems = slot0.awardWindow:Find("award_bg/mask/content")
 	slot0.awardActivity = getProxy(ActivityProxy):getActivityById(uv0.AWARD_ACT_ID)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskGroup = slot0.awardActivity:getConfig("config_data")
@@ -146,43 +146,41 @@ slot0.InitAward = function(slot0)
 end
 
 slot0.InitDice = function(slot0)
-	slot0.diceWindow = slot0:findTF("dice_window", slot0.window)
-	slot0.buttonDiceContinue = slot0:findTF("btn_continue", slot0.diceWindow)
-	slot0.dice = slot0:findTF("dice", slot0.diceWindow)
+	slot0.diceWindow = slot0.window:Find("dice_window")
+	slot0.buttonDiceContinue = slot0.diceWindow:Find("btn_continue")
+	slot1 = slot0.diceWindow
+	slot0.dice = slot1:Find("dice")
 	slot0.dices = {
-		slot0:findTF("dice1", slot0.dice),
-		slot0:findTF("dice2", slot0.dice)
+		slot0.dice:Find("dice1"),
+		slot0.dice:Find("dice2")
 	}
-	slot0.result = slot0:findTF("result", slot0.diceWindow)
-	slot0.success = slot0:findTF("success", slot0.result)
-	slot0.criticalSuccess = slot0:findTF("critical_success", slot0.result)
-	slot0.failure = slot0:findTF("failure", slot0.result)
-	slot0.criticalFailure = slot0:findTF("critical_failure", slot0.result)
+	slot0.result = slot0.diceWindow:Find("result")
+	slot0.success = slot0.result:Find("success")
+	slot0.criticalSuccess = slot0.result:Find("critical_success")
+	slot0.failure = slot0.result:Find("failure")
+	slot0.criticalFailure = slot0.result:Find("critical_failure")
 end
 
 slot0.InitCharacter = function(slot0)
-	slot0.characterWindow = slot0:findTF("character_window", slot0.window)
-	slot0.characterWindowBg = slot0:findTF("bg", slot0.characterWindow)
-	slot0.characterCard = slot0:findTF("character_card", slot0.characterWindowBg)
-	slot0.characterName = slot0:findTF("title_base/name", slot0.characterCard)
-	slot0.profession = slot0:findTF("title_base/profession", slot0.characterCard)
-	slot0.nameInput = slot0:findTF("InputField", slot0.characterName)
-	slot0.attrGroup = slot0:findTF("title_attr/attrGroup", slot0.characterCard)
-	slot0.skillGroup = slot0:findTF("title_skill/skillGroup", slot0.characterCard)
-	slot0.characterTip = slot0:findTF("tip", slot0.characterCard)
+	slot0.characterWindow = slot0.window:Find("character_window")
+	slot0.characterWindowBg = slot0.characterWindow:Find("bg")
+	slot0.characterCard = slot0.characterWindowBg:Find("character_card")
+	slot0.characterName = slot0.characterCard:Find("title_base/name")
+	slot0.profession = slot0.characterCard:Find("title_base/profession")
+	slot0.nameInput = slot0.characterName:Find("InputField")
+	slot0.attrGroup = slot0.characterCard:Find("title_attr/attrGroup")
+	slot0.skillGroup = slot0.characterCard:Find("title_skill/skillGroup")
+	slot0.characterTip = slot0.characterCard:Find("tip")
 
 	setText(slot0.characterTip, i18n("roll_unlock"))
 
-	slot0.buttonRandom = slot0:findTF("random", slot0.characterCard)
-	slot0.randomLock = slot0:findTF("lock", slot0.buttonRandom)
-	slot0.randomText = slot0:findTF("Image", slot0.buttonRandom)
+	slot0.buttonRandom = slot0.characterCard:Find("random")
+	slot0.randomLock = slot0.buttonRandom:Find("lock")
+	slot0.randomText = slot0.buttonRandom:Find("Image")
 
-	setText(slot0:findTF("title_base", slot0.characterCard), i18n("roll_card_info"))
-	setText(slot0:findTF("title_attr", slot0.characterCard), i18n("roll_card_attr"))
-
-	slot5 = slot0.characterCard
-
-	setText(slot0:findTF("title_skill", slot5), i18n("roll_card_skill"))
+	setText(slot0.characterCard:Find("title_base"), i18n("roll_card_info"))
+	setText(slot0.characterCard:Find("title_attr"), i18n("roll_card_attr"))
+	setText(slot0.characterCard:Find("title_skill"), i18n("roll_card_skill"))
 
 	slot0.story2Attr = {}
 
@@ -488,17 +486,17 @@ slot0.UpdateCharacter = function(slot0)
 
 	slot0.nameInput:GetComponent(typeof(InputField)).interactable = slot0:IsFinish()
 
-	setActive(slot0:findTF("edit", slot0.characterName), slot0:IsFinish())
+	setActive(slot0.characterName:Find("edit"), slot0:IsFinish())
 end
 
 slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot3 = slot0.taskMap[slot1 + 1]
-	slot4 = slot0:findTF("IconTpl", slot2)
+	slot4 = slot2:Find("IconTpl")
 	slot5 = slot0.taskGroup[slot3]
 	slot6 = slot0.taskProxy:getTaskVO(slot5)
 
 	assert(slot6, "without this task by id: " .. slot5)
-	setText(slot0:findTF("title", slot2), i18n("roll_reward_word" .. slot3))
+	setText(slot2:Find("title"), i18n("roll_reward_word" .. slot3))
 
 	slot7 = slot6:getConfig("award_display")[1]
 
@@ -510,9 +508,9 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	onButton(slot0, slot4, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot0:findTF("progress", slot2), i18n("roll_reward_tip", slot6:getProgress(), slot6:getConfig("target_num")))
-	setText(slot0:findTF("mask/Text", slot2), i18n("roll_reward_got"))
-	setActive(slot0:findTF("mask", slot2), slot6:isReceive())
+	setText(slot2:Find("progress"), i18n("roll_reward_tip", slot6:getProgress(), slot6:getConfig("target_num")))
+	setText(slot2:Find("mask/Text"), i18n("roll_reward_got"))
+	setActive(slot2:Find("mask"), slot6:isReceive())
 end
 
 slot0.UpdateAttrLock = function(slot0)

@@ -5,7 +5,7 @@ slot0.GetUIName = function(slot0)
 end
 
 slot0.SetUIParent = function(slot0, slot1)
-	setParent(slot1, slot0:GetView().interactionContainer)
+	return slot0:GetView().interactionContainer
 end
 
 slot0.OnInit = function(slot0, slot1)

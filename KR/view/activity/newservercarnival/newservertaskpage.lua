@@ -26,15 +26,16 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.getAllBtn = slot0:findTF("get_all")
-	slot0.extendTpl = slot0:findTF("extend_tpl")
+	slot0.getAllBtn = slot0._tf:Find("get_all")
+	slot1 = slot0._tf
+	slot0.extendTpl = slot1:Find("extend_tpl")
 	slot0.typeToggles = {
-		slot0:findTF("types/all"),
-		slot0:findTF("types/daily"),
-		slot0:findTF("types/target")
+		slot0._tf:Find("types/all"),
+		slot0._tf:Find("types/daily"),
+		slot0._tf:Find("types/target")
 	}
-	slot0.content = slot0:findTF("view/content")
-	slot0.taskGroupItemList = UIItemList.New(slot0.content, slot0:findTF("tpl", slot0.content))
+	slot0.content = slot0._tf:Find("view/content")
+	slot0.taskGroupItemList = UIItemList.New(slot0.content, slot0.content:Find("tpl"))
 end
 
 slot0.addListener = function(slot0)

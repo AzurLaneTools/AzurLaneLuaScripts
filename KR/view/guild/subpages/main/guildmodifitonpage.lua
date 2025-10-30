@@ -21,7 +21,8 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.costTF.text = 0
-	slot0.modifyBackBG = slot0:findTF("bg_decorations", slot0._tf)
+	slot1 = slot0._tf
+	slot0.modifyBackBG = slot1:Find("bg_decorations")
 
 	setActive(slot0._tf, false)
 	onButton(slot0, slot0.cancelBtn, function ()
@@ -191,7 +192,7 @@ slot0.Show = function(slot0, slot1, slot2)
 	setActive(slot0.factionMask, slot0.guildVO:inChangefactionTime())
 
 	if slot0.guildVO:inChangefactionTime() then
-		setText(slot0:findTF("timer_container/Text", slot0.factionMask), slot0.guildVO:changeFactionLeftTime())
+		setText(slot0.factionMask:Find("timer_container/Text"), slot0.guildVO:changeFactionLeftTime())
 	end
 
 	slot5 = slot0.guildVO

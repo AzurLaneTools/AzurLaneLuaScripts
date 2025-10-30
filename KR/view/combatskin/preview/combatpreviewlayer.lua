@@ -16,9 +16,12 @@ slot0.OnInit = function(slot0)
 
 	slot1:BlurPanel(slot0._tf)
 
-	slot0.preview = slot0:findTF("preview")
-	slot0.uiLayer = slot0:findTF("preview/ui")
-	slot0.sea = slot0:findTF("preview/sea")
+	slot1 = slot0._tf
+	slot0.preview = slot1:Find("preview")
+	slot1 = slot0._tf
+	slot0.uiLayer = slot1:Find("preview/ui")
+	slot1 = slot0._tf
+	slot0.sea = slot1:Find("preview/sea")
 	slot1 = slot0.sea
 	slot0.rawImage = slot1:GetComponent("RawImage")
 	slot2 = slot0.preview

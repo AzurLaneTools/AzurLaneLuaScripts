@@ -8,39 +8,39 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.emojiGroup = slot0:findTF("frame/group")
-	slot0.emojiType = slot0:findTF("type", slot0.emojiGroup)
-	slot0.emojiEvent = slot0:findTF("frame/bg/mask/event")
-	slot0.emojiSnap = slot0:findTF("frame/bg/mask/event"):GetComponent("HScrollSnap")
+	slot0.emojiGroup = slot0._tf:Find("frame/group")
+	slot0.emojiType = slot0.emojiGroup:Find("type")
+	slot0.emojiEvent = slot0._tf:Find("frame/bg/mask/event")
+	slot0.emojiSnap = slot0._tf:Find("frame/bg/mask/event"):GetComponent("HScrollSnap")
 
 	slot0.emojiSnap:Init()
 
-	slot0.emojiContent = slot0:findTF("content", slot0.emojiSnap)
-	slot0.emojiItem = slot0:findTF("item", slot0.emojiSnap)
-	slot0.emojiDots = slot0:findTF("frame/dots")
-	slot0.emojiIconDots = slot0:findTF("frame/emojiDots")
-	slot0.emojiDot = slot0:findTF("dot", slot0.emojiSnap)
+	slot0.emojiContent = tf(slot0.emojiSnap):Find("content")
+	slot0.emojiItem = tf(slot0.emojiSnap):Find("item")
+	slot0.emojiDots = slot0._tf:Find("frame/dots")
+	slot0.emojiIconDots = slot0._tf:Find("frame/emojiDots")
+	slot0.emojiDot = tf(slot0.emojiSnap):Find("dot")
 
 	setText(slot0.emojiEvent:Find("null_tpl/Text"), i18n("recently_sticker_placeholder"))
 	setActive(slot0.emojiItem, false)
 	setActive(slot0.emojiDot, false)
 
-	slot0.emojiIconEvent = slot0:findTF("frame/bg/mask/emojiicon_event")
-	slot0.emojiIconSnap = slot0:findTF("frame/bg/mask/emojiicon_event"):GetComponent("HScrollSnap")
+	slot0.emojiIconEvent = slot0._tf:Find("frame/bg/mask/emojiicon_event")
+	slot0.emojiIconSnap = slot0._tf:Find("frame/bg/mask/emojiicon_event"):GetComponent("HScrollSnap")
 
 	slot0.emojiIconSnap:Init()
 
-	slot0.emojiIconContent = slot0:findTF("content", slot0.emojiIconSnap)
-	slot0.emojiIconItem = slot0:findTF("item_emojiicon", slot0.emojiIconSnap)
+	slot0.emojiIconContent = tf(slot0.emojiIconSnap):Find("content")
+	slot0.emojiIconItem = tf(slot0.emojiIconSnap):Find("item_emojiicon")
 
 	setActive(slot0.emojiIconItem, false)
 
 	slot0.parentTr = slot0._tf.parent
-	slot0.resource = slot0:findTF("frame/resource")
-	slot0.frame = slot0:findTF("frame")
+	slot0.resource = slot0._tf:Find("frame/resource")
+	slot0.frame = slot0._tf:Find("frame")
 	slot0.frame.position = slot0.contextData.pos or Vector3(0, 0, 0)
 	slot0.frame.localPosition = Vector3(slot0.frame.localPosition.x, slot0.frame.localPosition.y, 0)
-	slot0.newTag = slot0:findTF("newtag")
+	slot0.newTag = slot0._tf:Find("newtag")
 	slot0.emojiProxy = getProxy(EmojiProxy)
 end
 
@@ -237,16 +237,16 @@ slot0.emojiIconFliter = function(slot0)
 	end
 
 	for slot9 = slot0.emojiIconContent.childCount + 1, slot5 do
-		slot10 = Instantiate(slot0.emojiIconItem)
-		slot11 = slot0:findTF("TitleCommom", slot10)
-		slot12 = slot0:findTF("TitleAll", slot10)
-		slot13 = slot0:findTF("CommomIconContainer", slot10)
-		slot15 = GetComponent(slot0:findTF("AllIconContainer", slot10), "GridLayoutGroup")
+		slot11 = tf(Instantiate(slot0.emojiIconItem))
+		slot12 = slot11:Find("TitleCommom")
+		slot13 = slot11:Find("TitleAll")
+		slot14 = slot11:Find("CommomIconContainer")
+		slot16 = GetComponent(slot11:Find("AllIconContainer"), "GridLayoutGroup")
 
 		if slot9 == 1 then
-			slot17 = UIItemList.New(slot13, slot0:findTF("Icon", slot13))
+			slot18 = UIItemList.New(slot14, slot14:Find("Icon"))
 
-			slot17:make(function (slot0, slot1, slot2)
+			slot18:make(function (slot0, slot1, slot2)
 				slot3 = uv0[slot1 + 1]
 
 				if slot0 == UIItemList.EventUpdate then
@@ -265,12 +265,12 @@ slot0.emojiIconFliter = function(slot0)
 					end)
 				end
 			end)
-			slot17:align(#slot2)
+			slot18:align(#slot2)
 
-			slot15.padding.left = 20
-			slot19 = UIItemList.New(slot14, slot0:findTF("Icon", slot14))
+			slot16.padding.left = 20
+			slot20 = UIItemList.New(slot15, slot15:Find("Icon"))
 
-			slot19:make(function (slot0, slot1, slot2)
+			slot20:make(function (slot0, slot1, slot2)
 				slot3 = uv0[slot1 + 1]
 
 				if slot0 == UIItemList.EventUpdate then
@@ -289,13 +289,13 @@ slot0.emojiIconFliter = function(slot0)
 					end)
 				end
 			end)
-			slot19:align(uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num)
+			slot20:align(uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num)
 		else
-			slot16 = uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num
-			slot15.padding.left = 60
-			slot19 = UIItemList.New(slot14, slot0:findTF("Icon", slot14))
+			slot17 = uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num
+			slot16.padding.left = 60
+			slot20 = UIItemList.New(slot15, slot15:Find("Icon"))
 
-			slot19:make(function (slot0, slot1, slot2)
+			slot20:make(function (slot0, slot1, slot2)
 				slot3 = uv0[slot1 + 1]
 
 				if slot0 == UIItemList.EventUpdate then
@@ -314,12 +314,12 @@ slot0.emojiIconFliter = function(slot0)
 					end)
 				end
 			end)
-			slot19:align(#_.slice(slot1, (slot9 - 2) * uv0.True_Emoji_Num_Of_Page + 9 + 1, uv0.True_Emoji_Num_Of_Page))
+			slot20:align(#_.slice(slot1, (slot9 - 2) * uv0.True_Emoji_Num_Of_Page + 9 + 1, uv0.True_Emoji_Num_Of_Page))
 		end
 
-		setActive(slot11, slot9 == 1)
 		setActive(slot12, slot9 == 1)
 		setActive(slot13, slot9 == 1)
+		setActive(slot14, slot9 == 1)
 		setActive(slot10, true)
 		slot0.emojiIconSnap:AddChild(slot10)
 	end

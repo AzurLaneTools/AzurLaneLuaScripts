@@ -5,14 +5,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.input = slot0:findTF("frame/name/InputField")
-	slot0.closeBtn = slot0:findTF("frame/close")
-	slot0.confirmBtn = slot0:findTF("frame/confirm")
-	slot0.content = slot0:findTF("frame/Text")
+	slot0.input = slot0._tf:Find("frame/name/InputField")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot0.confirmBtn = slot0._tf:Find("frame/confirm")
+	slot0.content = slot0._tf:Find("frame/Text")
 
-	setText(slot0:findTF("frame/title"), i18n("island_rename_title"))
-	setText(slot0:findTF("frame/confirm/Text"), i18n("word_ok"))
-	setText(slot0:findTF("frame/name/InputField/Placeholder"), i18n("island_rename_input_tip"))
+	setText(slot0._tf:Find("frame/title"), i18n("island_rename_title"))
+	setText(slot0._tf:Find("frame/confirm/Text"), i18n("word_ok"))
+	setText(slot0._tf:Find("frame/name/InputField/Placeholder"), i18n("island_rename_input_tip"))
 end
 
 slot0.AddListeners = function(slot0)

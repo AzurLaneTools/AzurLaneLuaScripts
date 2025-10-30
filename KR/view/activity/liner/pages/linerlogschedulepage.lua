@@ -35,14 +35,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.togglesTF = slot0:findTF("toggles")
-	slot0.contentTF = slot0:findTF("content")
+	slot0.togglesTF = slot0._tf:Find("toggles")
+	slot0.contentTF = slot0._tf:Find("content")
 	slot0.anim = slot0.contentTF:GetComponent(typeof(Animation))
-	slot0.awardTF = slot0:findTF("award/mask/IconTpl")
-	slot0.awardDesc = slot0:findTF("award/Text")
-	slot0.goBtn = slot0:findTF("award/go")
-	slot0.getBtn = slot0:findTF("award/get")
-	slot0.gotTF = slot0:findTF("award/got")
+	slot0.awardTF = slot0._tf:Find("award/mask/IconTpl")
+	slot0.awardDesc = slot0._tf:Find("award/Text")
+	slot0.goBtn = slot0._tf:Find("award/go")
+	slot0.getBtn = slot0._tf:Find("award/get")
+	slot0.gotTF = slot0._tf:Find("award/got")
 end
 
 slot0.OnInit = function(slot0)
@@ -66,7 +66,7 @@ slot0.OnInit = function(slot0)
 		slot0.groups[slot4] = LinerTimeGroup.New(slot5)
 	end
 
-	slot0.itemUIList = UIItemList.New(slot0.contentTF, slot0:findTF("tpl", slot0.contentTF))
+	slot0.itemUIList = UIItemList.New(slot0.contentTF, slot0.contentTF:Find("tpl"))
 
 	slot0.itemUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -74,7 +74,7 @@ slot0.OnInit = function(slot0)
 		end
 	end)
 
-	slot0.toggleUIList = UIItemList.New(slot0.togglesTF, slot0:findTF("tpl", slot0.togglesTF))
+	slot0.toggleUIList = UIItemList.New(slot0.togglesTF, slot0.togglesTF:Find("tpl"))
 
 	slot0.toggleUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
@@ -114,7 +114,7 @@ slot0.OnInit = function(slot0)
 		end
 	end)
 	slot0.toggleUIList:align(#slot0.groupIds)
-	triggerToggle(slot0:findTF(tostring(slot0.curDay), slot0.toggleUIList.container), true)
+	triggerToggle(slot0._tf:Find(tostring(slot0.curDay), slot0.toggleUIList.container), true)
 end
 
 slot0.UpdateActivity = function(slot0, slot1)
@@ -170,9 +170,9 @@ end
 slot0.UpdateItem = function(slot0, slot1, slot2)
 	slot4 = uv0.SHOW_TIME_LIST[slot1 + 1]
 
-	setText(slot0:findTF("time/Text", slot2), slot0:_getLogDesc(slot4))
+	setText(slot2:Find("time/Text"), slot0:_getLogDesc(slot4))
 
-	slot7 = slot0:findTF("desc", slot2)
+	slot7 = slot2:Find("desc")
 	slot8 = table.contains(slot0.finishTimeIds, slot0:_getReallyTime(slot4).id) and slot5:GetAfterDesc(slot3) or slot5:GetBeforDesc(slot3)
 
 	if slot6 and slot5:GetType() == LinerTime.TYPE.EXPLORE then
@@ -182,7 +182,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 	end
 
 	setText(slot7, slot8)
-	setActive(slot0:findTF("time/finish", slot2), slot6)
+	setActive(slot2:Find("time/finish"), slot6)
 	setActive(slot7, slot0.curIdx <= slot0.curDay)
 end
 
@@ -207,7 +207,7 @@ slot0.FlushPage = function(slot0)
 
 	setActive(slot0.goBtn, not slot0.activity:IsGotTimeAward(slot0.curIdx) and not slot4)
 	setActive(slot0.gotTF, slot2)
-	setActive(slot0:findTF("mask", slot0.awardTF), slot2)
+	setActive(slot0.awardTF:Find("mask"), slot2)
 	setText(slot0.awardDesc, slot2 and i18n("liner_schedule_award_tip2", slot0.curIdx) or i18n("liner_schedule_award_tip1"))
 	setActive(slot0.getBtn, slot4)
 	slot0:Show()

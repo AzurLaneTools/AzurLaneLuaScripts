@@ -5,15 +5,15 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("back")
-	slot0.lineTr = slot0:findTF("frame/line")
-	slot0.frameTr = slot0:findTF("frame")
-	slot0.tipBtn = slot0:findTF("frame/tip")
-	slot0.tipGrayBtn = slot0:findTF("frame/tip_gray")
+	slot0.backBtn = slot0._tf:Find("back")
+	slot0.lineTr = slot0._tf:Find("frame/line")
+	slot0.frameTr = slot0._tf:Find("frame")
+	slot0.tipBtn = slot0._tf:Find("frame/tip")
+	slot0.tipGrayBtn = slot0._tf:Find("frame/tip_gray")
 	slot0.tipGrayBtnTxt = slot0.tipGrayBtn:Find("Text"):GetComponent(typeof(Text))
 
 	setActive(slot0.tipGrayBtn, false)
-	setText(slot0:findTF("frame/tip_text"), i18n("sculpture_puzzle_tip"))
+	setText(slot0._tf:Find("frame/tip_text"), i18n("sculpture_puzzle_tip"))
 end
 
 slot0.OnInit = function(slot0)

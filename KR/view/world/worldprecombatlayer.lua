@@ -10,18 +10,18 @@ end
 
 slot0.init = function(slot0)
 	slot0.eventTriggers = {}
-	slot0.middle = slot0:findTF("middle")
-	slot0.right = slot0:findTF("right")
-	slot0.top = slot0:findTF("top")
-	slot0.moveLayer = slot0:findTF("moveLayer")
+	slot0.middle = slot0._tf:Find("adapt/middle")
+	slot0.right = slot0._tf:Find("adapt/right")
+	slot0.top = slot0._tf:Find("adapt/top")
+	slot0.moveLayer = slot0._tf:Find("adapt/moveLayer")
 	slot0.backBtn = slot0.top:Find("back_btn")
 	slot0.playerResOb = slot0.top:Find("playerRes")
 	slot0.resPanel = WorldResource.New()
+	slot4 = false
 
-	tf(slot0.resPanel._go):SetParent(tf(slot0.playerResOb), false)
+	tf(slot0.resPanel._go):SetParent(tf(slot0.playerResOb), slot4)
 
-	slot4 = slot0.top
-	slot0.strategyInfo = slot0:findTF("strategy_info", slot4)
+	slot0.strategyInfo = slot0.top:Find("strategy_info")
 
 	setActive(slot0.strategyInfo, false)
 
@@ -48,7 +48,7 @@ slot0.init = function(slot0)
 
 	setActive(slot0.strategy, false)
 
-	slot0.fleet = slot0:findTF("middle/fleet")
+	slot0.fleet = slot0.middle:Find("fleet")
 	slot0.ship_tpl = findTF(slot0.fleet, "shiptpl")
 	slot0.empty_tpl = findTF(slot0.fleet, "emptytpl")
 
@@ -61,8 +61,8 @@ slot0.init = function(slot0)
 	slot0.infoBtn = slot0.right:Find("information")
 	slot0.heroInfo = slot0:getTpl("heroInfo")
 	slot0.starTpl = slot0:getTpl("star_tpl")
-	slot0.energyDescTF = slot0:findTF("energy_desc")
-	slot0.energyDescTextTF = slot0:findTF("energy_desc/Text")
+	slot0.energyDescTF = slot0._tf:Find("energy_desc")
+	slot0.energyDescTextTF = slot0._tf:Find("energy_desc/Text")
 	slot0.normaltab = slot0.right:Find("normal")
 	slot0.informationtab = slot0.right:Find("infomation")
 	slot0.buffInfo = slot0.normaltab:Find("buff")
@@ -142,7 +142,7 @@ slot0.didEnter = function(slot0)
 			setActive(uv0.autoSubToggle, false)
 		end
 	end, SFX_PANEL, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+	slot0:OverlayPanel(slot0._tf)
 	slot0:updateCharacters()
 	slot0:updateStageView()
 	triggerToggle(slot0.autoToggle, ys.Battle.BattleState.IsAutoBotActive(SYSTEM_WORLD))
@@ -743,7 +743,7 @@ slot0.recycleCharacterList = function(slot0, slot1, slot2)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 
 	if slot0.resPanel then
 		slot0.resPanel:exit()

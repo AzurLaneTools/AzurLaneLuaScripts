@@ -3,7 +3,7 @@ slot0 = class("OutPostPtPage", import(".MaoziPtPage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.getBtn1 = slot0:findTF("AD/switcher/phase2/get_btn")
+	slot0.getBtn1 = slot0._tf:Find("AD/switcher/phase2/get_btn")
 end
 
 slot0.OnFirstFlush = function(slot0)

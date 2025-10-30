@@ -3,8 +3,8 @@ slot0 = class("BlackFridayWithManualSignPage", import(".BlackFridayPage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.signList = UIItemList.New(slot0:findTF("AD/singlist"), slot0:findTF("AD/singlist/Award"))
-	slot0.signBtn = slot0:findTF("AD/signBtn")
+	slot0.signList = UIItemList.New(slot0._tf:Find("AD/singlist"), slot0._tf:Find("AD/singlist/Award"))
+	slot0.signBtn = slot0._tf:Find("AD/signBtn")
 
 	setText(slot0.signBtn:Find("Text"), i18n("SkinMagazinePage2_tip"))
 end

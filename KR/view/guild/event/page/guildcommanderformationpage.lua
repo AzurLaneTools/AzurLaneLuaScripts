@@ -5,28 +5,29 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.samllTF = slot0:findTF("small")
+	slot0.samllTF = slot0._tf:Find("small")
 
 	setActive(slot0.samllTF, true)
 
-	slot0.pos1 = slot0:findTF("small/commander1", slot0.topPanel)
-	slot0.pos2 = slot0:findTF("small/commander2", slot0.topPanel)
-	slot0.descPanel = slot0:findTF("desc")
+	slot0.pos1 = slot0._tf:Find("small/commander1")
+	slot0.pos2 = slot0._tf:Find("small/commander2")
+	slot0.descPanel = slot0._tf:Find("desc")
 
 	setActive(slot0.descPanel, false)
 
-	slot0.descFrameTF = slot0:findTF("desc/frame")
-	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
-	slot0.descPos2 = slot0:findTF("commander2/frame/info", slot0.descFrameTF)
-	slot0.skillTFPos1 = slot0:findTF("commander1/skill_info", slot0.descFrameTF)
-	slot0.skillTFPos2 = slot0:findTF("commander2/skill_info", slot0.descFrameTF)
-	slot0.abilitysTF = UIItemList.New(slot0:findTF("atttr_panel/abilitys/mask/content", slot0.descFrameTF), slot0:findTF("atttr_panel/abilitys/mask/content/attr", slot0.descFrameTF))
-	slot0.talentsTF = UIItemList.New(slot0:findTF("atttr_panel/talents/mask/content", slot0.descFrameTF), slot0:findTF("atttr_panel/talents/mask/content/attr", slot0.descFrameTF))
-	slot0.abilityArr = slot0:findTF("desc/frame/atttr_panel/abilitys/arr")
-	slot0.talentsArr = slot0:findTF("desc/frame/atttr_panel/talents/arr")
-	slot0.restAllBtn = slot0:findTF("rest_all", slot0.descFrameTF)
-	slot0.quickBtn = slot0:findTF("quick_btn", slot0.descFrameTF)
-	slot0.recordPanel = slot0:findTF("record_panel")
+	slot0.descFrameTF = slot0._tf:Find("desc/frame")
+	slot0.descPos1 = slot0.descFrameTF:Find("commander1/frame/info")
+	slot0.descPos2 = slot0.descFrameTF:Find("commander2/frame/info")
+	slot0.skillTFPos1 = slot0.descFrameTF:Find("commander1/skill_info")
+	slot0.skillTFPos2 = slot0.descFrameTF:Find("commander2/skill_info")
+	slot0.abilitysTF = UIItemList.New(slot0.descFrameTF:Find("atttr_panel/abilitys/mask/content"), slot0.descFrameTF:Find("atttr_panel/abilitys/mask/content/attr"))
+	slot0.talentsTF = UIItemList.New(slot0.descFrameTF:Find("atttr_panel/talents/mask/content"), slot0.descFrameTF:Find("atttr_panel/talents/mask/content/attr"))
+	slot0.abilityArr = slot0._tf:Find("desc/frame/atttr_panel/abilitys/arr")
+	slot0.talentsArr = slot0._tf:Find("desc/frame/atttr_panel/talents/arr")
+	slot0.restAllBtn = slot0.descFrameTF:Find("rest_all")
+	slot0.quickBtn = slot0.descFrameTF:Find("quick_btn")
+	slot1 = slot0._tf
+	slot0.recordPanel = slot1:Find("record_panel")
 	slot0.recordCommanders = {
 		slot0.recordPanel:Find("current/commanders/commander1/frame/info"),
 		slot0.recordPanel:Find("current/commanders/commander2/frame/info")

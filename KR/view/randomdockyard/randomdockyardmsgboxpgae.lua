@@ -5,16 +5,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("frame/top/btnBack")
-	slot0.cancelBtn = slot0:findTF("frame/cancel_button")
-	slot0.confirmBtn = slot0:findTF("frame/confirm_button")
-	slot0.scrollrect = slot0:findTF("frame/sliders"):GetComponent("LScrollRect")
-	slot0.titleTxt = slot0:findTF("frame/top/title_list/infomation/title"):GetComponent(typeof(Text))
-	slot0.titleEnTxt = slot0:findTF("frame/top/title_list/infomation/title_en"):GetComponent(typeof(Text))
-	slot0.subTitleTxt = slot0:findTF("frame/label/Text"):GetComponent(typeof(Text))
+	slot0.closeBtn = slot0._tf:Find("frame/top/btnBack")
+	slot0.cancelBtn = slot0._tf:Find("frame/cancel_button")
+	slot0.confirmBtn = slot0._tf:Find("frame/confirm_button")
+	slot0.scrollrect = slot0._tf:Find("frame/sliders"):GetComponent("LScrollRect")
+	slot0.titleTxt = slot0._tf:Find("frame/top/title_list/infomation/title"):GetComponent(typeof(Text))
+	slot0.titleEnTxt = slot0._tf:Find("frame/top/title_list/infomation/title_en"):GetComponent(typeof(Text))
+	slot0.subTitleTxt = slot0._tf:Find("frame/label/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("frame/confirm_button/pic"), i18n("text_confirm"))
-	setText(slot0:findTF("frame/cancel_button/pic"), i18n("text_cancel"))
+	setText(slot0._tf:Find("frame/confirm_button/pic"), i18n("text_confirm"))
+	setText(slot0._tf:Find("frame/cancel_button/pic"), i18n("text_cancel"))
 end
 
 slot0.OnInit = function(slot0)

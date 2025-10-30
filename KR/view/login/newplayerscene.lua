@@ -26,32 +26,32 @@ end
 
 slot0.init = function(slot0)
 	slot0.eventTriggers = {}
-	slot0.characters = slot0:findTF("select_character/characters")
-	slot0.propPanel = slot0:findTF("prop_panel")
-	slot0.selectPanel = slot0:findTF("select_character")
+	slot0.characters = slot0._tf:Find("select_character/characters")
+	slot0.propPanel = slot0._tf:Find("prop_panel")
+	slot0.selectPanel = slot0._tf:Find("select_character")
 
 	setActive(slot0.propPanel, false)
 	setActive(slot0.selectPanel, true)
 
-	slot0.confirmBtn = slot0:findTF("bg/qr_btn", slot0.propPanel)
-	slot0.tip = slot0:findTF("select_character/tip")
-	slot0.skillPanel = slot0:findTF("bg/skill_panel", slot0.propPanel)
+	slot0.confirmBtn = slot0.propPanel:Find("bg/qr_btn")
+	slot0.tip = slot0._tf:Find("select_character/tip")
+	slot0.skillPanel = slot0.propPanel:Find("bg/skill_panel")
 	slot0.skillTpl = slot0:getTpl("bg/skill_panel/frame/skilltpl", slot0.propPanel)
-	slot0.skillContainer = slot0:findTF("bg/skill_panel/frame", slot0.propPanel)
-	slot0.namedPanel = slot0:findTF("named_panel")
+	slot0.skillContainer = slot0.propPanel:Find("bg/skill_panel/frame")
+	slot0.namedPanel = slot0._tf:Find("named_panel")
 
 	setActive(slot0.namedPanel, false)
 
 	slot0.info = slot0.namedPanel:Find("info")
 	slot0.nickname = slot0.info:Find("nickname")
 	slot0.qChar = slot0.propPanel:Find("q_char")
-	slot0.chat = slot0:findTF("info/tip/chatbgtop0/Text", slot0.namedPanel)
+	slot0.chat = slot0.namedPanel:Find("info/tip/chatbgtop0/Text")
 	slot0.propertyPanel = PropertyPanel.New(slot0.propPanel:Find("bg/property_panel/frame"))
-	slot0.paintTF = slot0:findTF("prop_panel/bg/paint")
-	slot0.nameTF = slot0:findTF("prop_panel/bg/name")
-	slot0.nameEnTF = slot0:findTF("prop_panel/bg/english_name_bg")
-	slot0.titleShipinfoTF = slot0:findTF("lines/hori/shipinfo_text")
-	slot0.titleShipchooseTF = slot0:findTF("lines/hori/shipchoose_text")
+	slot0.paintTF = slot0._tf:Find("prop_panel/bg/paint")
+	slot0.nameTF = slot0._tf:Find("prop_panel/bg/name")
+	slot0.nameEnTF = slot0._tf:Find("prop_panel/bg/english_name_bg")
+	slot0.titleShipinfoTF = slot0._tf:Find("lines/hori/shipinfo_text")
+	slot0.titleShipchooseTF = slot0._tf:Find("lines/hori/shipchoose_text")
 
 	setImageAlpha(slot0.titleShipinfoTF, 1)
 	setImageAlpha(slot0.titleShipchooseTF, 0)
@@ -93,18 +93,18 @@ slot0.switchPanel = function(slot0)
 	slot0.skillPanel.localPosition = Vector3.New(-1000, slot0.skillPanel.localPosition.y, slot0.skillPanel.localPosition.z)
 
 	LeanTween.moveX(slot0.skillPanel, 339, 0.2)
-	LeanTween.moveY(slot0:findTF("lines/line"), -328, 0.2)
+	LeanTween.moveY(slot0._tf:Find("lines/line"), -328, 0.2)
 
 	slot8 = 0.2
 
-	LeanTween.moveX(slot0:findTF("lines/hori"), -820, slot8)
+	LeanTween.moveX(slot0._tf:Find("lines/hori"), -820, slot8)
 
 	for slot8 = 1, 3 do
-		slot9 = slot0:findTF("character_" .. slot8, slot0.characters)
+		slot9 = slot0.characters:Find("character_" .. slot8)
 
 		setImageAlpha(slot9, 1)
 		LeanTween.alpha(slot9, 0, 0.25)
-		LeanTween.move(go(slot9), slot0:findTF("bg/characters/character_" .. slot8, slot0.propPanel).position, 0.3)
+		LeanTween.move(go(slot9), slot0.propPanel:Find("bg/characters/character_" .. slot8).position, 0.3)
 		setImageAlpha(slot0.titleShipinfoTF, 0)
 		setImageAlpha(slot0.titleShipchooseTF, 1)
 		LeanTween.alpha(slot0.titleShipinfoTF, 1, 0.25)
@@ -116,14 +116,16 @@ slot0.initCharacters = function(slot0)
 	slot0.charInitPos = {}
 
 	for slot4 = 1, 3 do
-		onToggle(slot0, slot0:findTF("prop_panel/bg/characters/character_" .. slot4), function (slot0)
+		slot5 = slot0._tf
+
+		onToggle(slot0, slot5:Find("prop_panel/bg/characters/character_" .. slot4), function (slot0)
 			if slot0 then
 				uv0:selectCharacterByIdx(uv1, uv2[uv3])
-				setActive(uv0:findTF("selected", uv1), true)
+				setActive(uv1:Find("selected"), true)
 
 				uv1:GetComponent(typeof(RectTransform)).sizeDelta = Vector2(196, 196)
 			else
-				setActive(uv0:findTF("selected", uv1), false)
+				setActive(uv1:Find("selected"), false)
 
 				uv1:GetComponent(typeof(RectTransform)).sizeDelta = Vector2(140, 140)
 			end
@@ -137,11 +139,11 @@ slot0.initCharacters = function(slot0)
 	}
 
 	for slot5 = 1, 3 do
-		slot6 = slot0:findTF("character_" .. slot5, slot0.characters)
+		slot6 = slot0.characters:Find("character_" .. slot5)
 
 		onButton(slot0, slot6, function ()
 			uv0:switchPanel()
-			triggerToggle(uv0:findTF("prop_panel/bg/characters/character_" .. uv1), true)
+			triggerToggle(uv0._tf:Find("prop_panel/bg/characters/character_" .. uv1), true)
 		end)
 
 		slot6.localPosition = Vector3.New(slot6.localPosition.x, 912, slot6.localPosition.z)
@@ -204,8 +206,11 @@ slot0.selectCharacterByIdx = function(slot0, slot1, slot2)
 	slot3 = pg.ship_data_statistics[slot2]
 
 	setPaintingPrefab(slot0.paintTF, uv0[slot2], "chuanwu")
-	setText(slot0:findTF("name_mask/Text", slot0.nameTF), slot3.name)
-	setText(slot0:findTF("english_name", slot0.nameTF), slot3.english_name)
+	setText(slot0.nameTF:Find("name_mask/Text"), slot3.name)
+
+	slot5 = slot0.nameTF
+
+	setText(slot5:Find("english_name"), slot3.english_name)
 	setText(slot0.nameEnTF, string.upper(slot3.english_name))
 
 	if Ship.New({

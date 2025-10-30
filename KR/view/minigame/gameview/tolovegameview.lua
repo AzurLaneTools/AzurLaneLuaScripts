@@ -31,28 +31,28 @@ slot0.initUI = function(slot0)
 	slot0:initGamingUI()
 	slot0:initPopUI()
 
-	slot0.clickMask = slot0:findTF("clickMask")
+	slot0.clickMask = slot0._tf:Find("clickMask")
 end
 
 slot0.initMenuUI = function(slot0)
-	slot0.menuUI = slot0:findTF("ui/menuUI")
-	slot0.menuBack = slot0:findTF("btnBack", slot0.menuUI)
-	slot0.menuHome = slot0:findTF("btnHome", slot0.menuUI)
-	slot0.menuHighestScoreText = slot0:findTF("highestScore/Text", slot0.menuUI)
-	slot0.menuRule = slot0:findTF("btnRule", slot0.menuUI)
-	slot0.menuStart = slot0:findTF("btnStart", slot0.menuUI)
-	slot0.menuRank = slot0:findTF("btnRank", slot0.menuUI)
-	slot0.menuBuff = slot0:findTF("btnBuff", slot0.menuUI)
-	slot0.menuTask = slot0:findTF("btnTask", slot0.menuUI)
-	slot0.menuLastTimesText = slot0:findTF("lastTimes/desc", slot0.menuUI)
-	slot0.menuAwardList = UIItemList.New(slot0:findTF("awardsScrollView/Viewport/Content", slot0.menuUI), slot0:findTF("awardsScrollView/Viewport/Content/award", slot0.menuUI))
-	slot0.menuStartTip = slot0:findTF("tip", slot0.menuStart)
-	slot0.menuBuffTip = slot0:findTF("tip", slot0.menuBuff)
-	slot0.menuTaskTip = slot0:findTF("tip", slot0.menuTask)
+	slot0.menuUI = slot0._tf:Find("ui/menuUI")
+	slot0.menuBack = slot0.menuUI:Find("btnBack")
+	slot0.menuHome = slot0.menuUI:Find("btnHome")
+	slot0.menuHighestScoreText = slot0.menuUI:Find("highestScore/Text")
+	slot0.menuRule = slot0.menuUI:Find("btnRule")
+	slot0.menuStart = slot0.menuUI:Find("btnStart")
+	slot0.menuRank = slot0.menuUI:Find("btnRank")
+	slot0.menuBuff = slot0.menuUI:Find("btnBuff")
+	slot0.menuTask = slot0.menuUI:Find("btnTask")
+	slot0.menuLastTimesText = slot0.menuUI:Find("lastTimes/desc")
+	slot0.menuAwardList = UIItemList.New(slot0.menuUI:Find("awardsScrollView/Viewport/Content"), slot0.menuUI:Find("awardsScrollView/Viewport/Content/award"))
+	slot0.menuStartTip = slot0.menuStart:Find("tip")
+	slot0.menuBuffTip = slot0.menuBuff:Find("tip")
+	slot0.menuTaskTip = slot0.menuTask:Find("tip")
 
-	setText(slot0:findTF("awards/Text", slot0.menuUI), i18n("tolovegame_join_reward"))
-	slot0:findTF("title", slot0.menuUI):GetComponent(typeof(Image)):SetNativeSize()
-	slot0:findTF("desc", slot0.menuUI):GetComponent(typeof(Image)):SetNativeSize()
+	setText(slot0.menuUI:Find("awards/Text"), i18n("tolovegame_join_reward"))
+	slot0.menuUI:Find("title"):GetComponent(typeof(Image)):SetNativeSize()
+	slot0.menuUI:Find("desc"):GetComponent(typeof(Image)):SetNativeSize()
 	setActive(slot0.menuUI, true)
 	onButton(slot0, slot0.menuBack, function ()
 		uv0:closeView()
@@ -129,18 +129,30 @@ slot0.ShouldShowBuffTip = function(slot0)
 end
 
 slot0.initGamingUI = function(slot0)
-	slot0.gamingUI = slot0:findTF("ui/gamingUI")
-	slot0.gamingBack = slot0:findTF("back", slot0.gamingUI)
-	slot0.gamingPause = slot0:findTF("pause", slot0.gamingUI)
-	slot0.gamingScoreText = slot0:findTF("bgScore/score", slot0.gamingUI)
-	slot0.gamingTimeText = slot0:findTF("bgTime/time", slot0.gamingUI)
-	slot0.gamingBuff = slot0:findTF("buff", slot0.gamingUI)
-	slot0.gamingOperationArea = slot0:findTF("operationArea", slot0.gamingUI)
-	slot0.gamingUp = slot0:findTF("operationArea/up", slot0.gamingUI)
-	slot0.gamingDown = slot0:findTF("operationArea/down", slot0.gamingUI)
-	slot0.gamingLeft = slot0:findTF("operationArea/left", slot0.gamingUI)
-	slot0.gamingRight = slot0:findTF("operationArea/right", slot0.gamingUI)
-	slot0.gamingMap = slot0:findTF("map", slot0.gamingUI)
+	slot1 = slot0._tf
+	slot0.gamingUI = slot1:Find("ui/gamingUI")
+	slot1 = slot0.gamingUI
+	slot0.gamingBack = slot1:Find("back")
+	slot1 = slot0.gamingUI
+	slot0.gamingPause = slot1:Find("pause")
+	slot1 = slot0.gamingUI
+	slot0.gamingScoreText = slot1:Find("bgScore/score")
+	slot1 = slot0.gamingUI
+	slot0.gamingTimeText = slot1:Find("bgTime/time")
+	slot1 = slot0.gamingUI
+	slot0.gamingBuff = slot1:Find("buff")
+	slot1 = slot0.gamingUI
+	slot0.gamingOperationArea = slot1:Find("operationArea")
+	slot1 = slot0.gamingUI
+	slot0.gamingUp = slot1:Find("operationArea/up")
+	slot1 = slot0.gamingUI
+	slot0.gamingDown = slot1:Find("operationArea/down")
+	slot1 = slot0.gamingUI
+	slot0.gamingLeft = slot1:Find("operationArea/left")
+	slot1 = slot0.gamingUI
+	slot0.gamingRight = slot1:Find("operationArea/right")
+	slot1 = slot0.gamingUI
+	slot0.gamingMap = slot1:Find("map")
 
 	setActive(slot0.gamingUI, false)
 	setActive(slot0.gamingOperationArea, false)
@@ -170,38 +182,38 @@ slot0.initGamingUI = function(slot0)
 			slot1 = uv1
 
 			slot1:OperateMapPlayer(function (slot0)
-				slot1 = uv0:findTF("player", slot0):GetComponent(typeof(Animator))
-				slot2 = uv0:findTF("player", slot0):GetComponent(typeof(DftAniEvent))
-				uv0:findTF("player", slot0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+				slot1 = slot0:Find("player"):GetComponent(typeof(Animator))
+				slot2 = slot0:Find("player"):GetComponent(typeof(DftAniEvent))
+				slot0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
-				if uv1.currentPlayerPosition[1] - 1 == 0 then
+				if uv0.currentPlayerPosition[1] - 1 == 0 then
 					slot3 = 5
 				end
 
-				uv0:OperateMap(ToLoveGameConst.map[slot3][uv1.currentPlayerPosition[2]], function (slot0)
-					uv0:findTF("player", slot0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, -86)
+				uv1:OperateMap(ToLoveGameConst.map[slot3][uv0.currentPlayerPosition[2]], function (slot0)
+					slot0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, -86)
 				end)
 				slot2:SetEndEvent(function ()
 					uv0:SetEndEvent(nil)
 					uv1:OperateMapPlayer(function (slot0)
-						setActive(uv0:findTF("player", slot0), false)
+						setActive(slot0:Find("player"), false)
 					end)
 
 					uv2.currentPlayerPosition[1] = uv3
 
 					uv1:OperateMapPlayer(function (slot0)
-						setActive(uv0:findTF("player", slot0), true)
-						setActive(uv0:findTF("player/arrow", slot0), false)
-						setActive(uv0:findTF("player/happy", slot0), false)
-						setActive(uv0:findTF("player/sad", slot0), false)
+						setActive(slot0:Find("player"), true)
+						setActive(slot0:Find("player/arrow"), false)
+						setActive(slot0:Find("player/happy"), false)
+						setActive(slot0:Find("player/sad"), false)
 
-						if uv1.shieldCount > 0 then
-							setActive(uv0:findTF("player/shield", slot0), true)
+						if uv0.shieldCount > 0 then
+							setActive(slot0:Find("player/shield"), true)
 						else
-							setActive(uv0:findTF("player/shield", slot0), false)
+							setActive(slot0:Find("player/shield"), false)
 						end
 
-						uv0:findTF("player", slot0):GetComponent(typeof(Animator)):Play("playerDownBack")
+						slot0:Find("player"):GetComponent(typeof(Animator)):Play("playerDownBack")
 					end)
 				end)
 				slot1:Play("playerUp")
@@ -214,38 +226,38 @@ slot0.initGamingUI = function(slot0)
 			slot1 = uv1
 
 			slot1:OperateMapPlayer(function (slot0)
-				slot1 = uv0:findTF("player", slot0):GetComponent(typeof(Animator))
-				slot2 = uv0:findTF("player", slot0):GetComponent(typeof(DftAniEvent))
-				uv0:findTF("player", slot0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+				slot1 = slot0:Find("player"):GetComponent(typeof(Animator))
+				slot2 = slot0:Find("player"):GetComponent(typeof(DftAniEvent))
+				slot0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
-				if uv1.currentPlayerPosition[1] + 1 == 6 then
+				if uv0.currentPlayerPosition[1] + 1 == 6 then
 					slot3 = 1
 				end
 
-				uv0:OperateMap(ToLoveGameConst.map[slot3][uv1.currentPlayerPosition[2]], function (slot0)
-					uv0:findTF("player", slot0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 86)
+				uv1:OperateMap(ToLoveGameConst.map[slot3][uv0.currentPlayerPosition[2]], function (slot0)
+					slot0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 86)
 				end)
 				slot2:SetEndEvent(function ()
 					uv0:SetEndEvent(nil)
 					uv1:OperateMapPlayer(function (slot0)
-						setActive(uv0:findTF("player", slot0), false)
+						setActive(slot0:Find("player"), false)
 					end)
 
 					uv2.currentPlayerPosition[1] = uv3
 
 					uv1:OperateMapPlayer(function (slot0)
-						setActive(uv0:findTF("player", slot0), true)
-						setActive(uv0:findTF("player/arrow", slot0), false)
-						setActive(uv0:findTF("player/happy", slot0), false)
-						setActive(uv0:findTF("player/sad", slot0), false)
+						setActive(slot0:Find("player"), true)
+						setActive(slot0:Find("player/arrow"), false)
+						setActive(slot0:Find("player/happy"), false)
+						setActive(slot0:Find("player/sad"), false)
 
-						if uv1.shieldCount > 0 then
-							setActive(uv0:findTF("player/shield", slot0), true)
+						if uv0.shieldCount > 0 then
+							setActive(slot0:Find("player/shield"), true)
 						else
-							setActive(uv0:findTF("player/shield", slot0), false)
+							setActive(slot0:Find("player/shield"), false)
 						end
 
-						uv0:findTF("player", slot0):GetComponent(typeof(Animator)):Play("playerUpBack")
+						slot0:Find("player"):GetComponent(typeof(Animator)):Play("playerUpBack")
 					end)
 				end)
 				slot1:Play("playerDown")
@@ -258,38 +270,38 @@ slot0.initGamingUI = function(slot0)
 			slot1 = uv1
 
 			slot1:OperateMapPlayer(function (slot0)
-				slot1 = uv0:findTF("player", slot0):GetComponent(typeof(Animator))
-				slot2 = uv0:findTF("player", slot0):GetComponent(typeof(DftAniEvent))
-				uv0:findTF("player", slot0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+				slot1 = slot0:Find("player"):GetComponent(typeof(Animator))
+				slot2 = slot0:Find("player"):GetComponent(typeof(DftAniEvent))
+				slot0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
-				if uv1.currentPlayerPosition[2] - 1 == 0 then
+				if uv0.currentPlayerPosition[2] - 1 == 0 then
 					slot3 = 5
 				end
 
-				uv0:OperateMap(ToLoveGameConst.map[uv1.currentPlayerPosition[1]][slot3], function (slot0)
-					uv0:findTF("player", slot0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(82.5, 0)
+				uv1:OperateMap(ToLoveGameConst.map[uv0.currentPlayerPosition[1]][slot3], function (slot0)
+					slot0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(82.5, 0)
 				end)
 				slot2:SetEndEvent(function ()
 					uv0:SetEndEvent(nil)
 					uv1:OperateMapPlayer(function (slot0)
-						setActive(uv0:findTF("player", slot0), false)
+						setActive(slot0:Find("player"), false)
 					end)
 
 					uv2.currentPlayerPosition[2] = uv3
 
 					uv1:OperateMapPlayer(function (slot0)
-						setActive(uv0:findTF("player", slot0), true)
-						setActive(uv0:findTF("player/arrow", slot0), false)
-						setActive(uv0:findTF("player/happy", slot0), false)
-						setActive(uv0:findTF("player/sad", slot0), false)
+						setActive(slot0:Find("player"), true)
+						setActive(slot0:Find("player/arrow"), false)
+						setActive(slot0:Find("player/happy"), false)
+						setActive(slot0:Find("player/sad"), false)
 
-						if uv1.shieldCount > 0 then
-							setActive(uv0:findTF("player/shield", slot0), true)
+						if uv0.shieldCount > 0 then
+							setActive(slot0:Find("player/shield"), true)
 						else
-							setActive(uv0:findTF("player/shield", slot0), false)
+							setActive(slot0:Find("player/shield"), false)
 						end
 
-						uv0:findTF("player", slot0):GetComponent(typeof(Animator)):Play("playerRightBack")
+						slot0:Find("player"):GetComponent(typeof(Animator)):Play("playerRightBack")
 					end)
 				end)
 				slot1:Play("playerLeft")
@@ -302,38 +314,38 @@ slot0.initGamingUI = function(slot0)
 			slot1 = uv1
 
 			slot1:OperateMapPlayer(function (slot0)
-				slot1 = uv0:findTF("player", slot0):GetComponent(typeof(Animator))
-				slot2 = uv0:findTF("player", slot0):GetComponent(typeof(DftAniEvent))
-				uv0:findTF("player", slot0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+				slot1 = slot0:Find("player"):GetComponent(typeof(Animator))
+				slot2 = slot0:Find("player"):GetComponent(typeof(DftAniEvent))
+				slot0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
-				if uv1.currentPlayerPosition[2] + 1 == 6 then
+				if uv0.currentPlayerPosition[2] + 1 == 6 then
 					slot3 = 1
 				end
 
-				uv0:OperateMap(ToLoveGameConst.map[uv1.currentPlayerPosition[1]][slot3], function (slot0)
-					uv0:findTF("player", slot0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(-82.5, 0)
+				uv1:OperateMap(ToLoveGameConst.map[uv0.currentPlayerPosition[1]][slot3], function (slot0)
+					slot0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(-82.5, 0)
 				end)
 				slot2:SetEndEvent(function ()
 					uv0:SetEndEvent(nil)
 					uv1:OperateMapPlayer(function (slot0)
-						setActive(uv0:findTF("player", slot0), false)
+						setActive(slot0:Find("player"), false)
 					end)
 
 					uv2.currentPlayerPosition[2] = uv3
 
 					uv1:OperateMapPlayer(function (slot0)
-						setActive(uv0:findTF("player", slot0), true)
-						setActive(uv0:findTF("player/arrow", slot0), false)
-						setActive(uv0:findTF("player/happy", slot0), false)
-						setActive(uv0:findTF("player/sad", slot0), false)
+						setActive(slot0:Find("player"), true)
+						setActive(slot0:Find("player/arrow"), false)
+						setActive(slot0:Find("player/happy"), false)
+						setActive(slot0:Find("player/sad"), false)
 
-						if uv1.shieldCount > 0 then
-							setActive(uv0:findTF("player/shield", slot0), true)
+						if uv0.shieldCount > 0 then
+							setActive(slot0:Find("player/shield"), true)
 						else
-							setActive(uv0:findTF("player/shield", slot0), false)
+							setActive(slot0:Find("player/shield"), false)
 						end
 
-						uv0:findTF("player", slot0):GetComponent(typeof(Animator)):Play("playerLeftBack")
+						slot0:Find("player"):GetComponent(typeof(Animator)):Play("playerLeftBack")
 					end)
 				end)
 				slot1:Play("playerRight")
@@ -343,7 +355,7 @@ slot0.initGamingUI = function(slot0)
 end
 
 slot0.initPopUI = function(slot0)
-	slot0.popUI = slot0:findTF("ui/popUI")
+	slot0.popUI = slot0._tf:Find("ui/popUI")
 
 	slot0:initCountUI()
 	slot0:initSettlementUI()
@@ -355,8 +367,10 @@ slot0.initPopUI = function(slot0)
 end
 
 slot0.initCountUI = function(slot0)
-	slot0.countUI = slot0:findTF("countUI", slot0.popUI)
-	slot0.count = slot0:findTF("count", slot0.countUI)
+	slot1 = slot0.popUI
+	slot0.countUI = slot1:Find("countUI")
+	slot1 = slot0.countUI
+	slot0.count = slot1:Find("count")
 	slot1 = slot0.count
 	slot0.countAnimator = slot1:GetComponent(typeof(Animator))
 	slot1 = slot0.count
@@ -372,18 +386,26 @@ slot0.initCountUI = function(slot0)
 end
 
 slot0.initSettlementUI = function(slot0)
-	slot0.settlementUI = slot0:findTF("settleMentUI", slot0.popUI)
-	slot0.settlementCurrentText = slot0:findTF("ad/currentText", slot0.settlementUI)
-	slot0.settlementHighText = slot0:findTF("ad/highText", slot0.settlementUI)
-	slot0.settlementOverBtn = slot0:findTF("ad/btnOver", slot0.settlementUI)
-	slot0.settlementNew = slot0:findTF("ad/new", slot0.settlementUI)
-	slot0.settlementClose = slot0:findTF("ad/btnClose", slot0.settlementUI)
-	slot1 = slot0:findTF("ad/CurImg", slot0.settlementUI)
+	slot1 = slot0.popUI
+	slot0.settlementUI = slot1:Find("settleMentUI")
+	slot1 = slot0.settlementUI
+	slot0.settlementCurrentText = slot1:Find("ad/currentText")
+	slot1 = slot0.settlementUI
+	slot0.settlementHighText = slot1:Find("ad/highText")
+	slot1 = slot0.settlementUI
+	slot0.settlementOverBtn = slot1:Find("ad/btnOver")
+	slot1 = slot0.settlementUI
+	slot0.settlementNew = slot1:Find("ad/new")
+	slot1 = slot0.settlementUI
+	slot0.settlementClose = slot1:Find("ad/btnClose")
+	slot1 = slot0.settlementUI
+	slot1 = slot1:Find("ad/CurImg")
 	slot1 = slot1:GetComponent(typeof(Image))
 
 	slot1:SetNativeSize()
 
-	slot1 = slot0:findTF("ad/HighImg", slot0.settlementUI)
+	slot1 = slot0.settlementUI
+	slot1 = slot1:Find("ad/HighImg")
 	slot1 = slot1:GetComponent(typeof(Image))
 
 	slot1:SetNativeSize()
@@ -409,16 +431,22 @@ slot0.initSettlementUI = function(slot0)
 end
 
 slot0.initLeavelUI = function(slot0)
-	slot0.leaveUI = slot0:findTF("leaveUI", slot0.popUI)
-	slot0.leaveOkBtn = slot0:findTF("ad/btnOk", slot0.leaveUI)
-	slot0.leaveCancelBtn = slot0:findTF("ad/btnCancel", slot0.leaveUI)
-	slot0.leaveClose = slot0:findTF("ad/btnClose", slot0.leaveUI)
-	slot1 = slot0:findTF("ad/desc", slot0.leaveUI)
+	slot1 = slot0.popUI
+	slot0.leaveUI = slot1:Find("leaveUI")
+	slot1 = slot0.leaveUI
+	slot0.leaveOkBtn = slot1:Find("ad/btnOk")
+	slot1 = slot0.leaveUI
+	slot0.leaveCancelBtn = slot1:Find("ad/btnCancel")
+	slot1 = slot0.leaveUI
+	slot0.leaveClose = slot1:Find("ad/btnClose")
+	slot1 = slot0.leaveUI
+	slot1 = slot1:Find("ad/desc")
 	slot1 = slot1:GetComponent(typeof(Image))
 
 	slot1:SetNativeSize()
 
-	slot1 = slot0:findTF("ad/desc2", slot0.leaveUI)
+	slot1 = slot0.leaveUI
+	slot1 = slot1:Find("ad/desc2")
 	slot1 = slot1:GetComponent(typeof(Image))
 
 	slot1:SetNativeSize()
@@ -446,10 +474,14 @@ slot0.initLeavelUI = function(slot0)
 end
 
 slot0.initPauseUI = function(slot0)
-	slot0.pauseUI = slot0:findTF("pauseUI", slot0.popUI)
-	slot0.pauseOkBtn = slot0:findTF("ad/btnOk", slot0.pauseUI)
-	slot0.pauseClose = slot0:findTF("ad/btnClose", slot0.pauseUI)
-	slot1 = slot0:findTF("ad/desc", slot0.pauseUI)
+	slot1 = slot0.popUI
+	slot0.pauseUI = slot1:Find("pauseUI")
+	slot1 = slot0.pauseUI
+	slot0.pauseOkBtn = slot1:Find("ad/btnOk")
+	slot1 = slot0.pauseUI
+	slot0.pauseClose = slot1:Find("ad/btnClose")
+	slot1 = slot0.pauseUI
+	slot1 = slot1:Find("ad/desc")
 	slot1 = slot1:GetComponent(typeof(Image))
 
 	slot1:SetNativeSize()
@@ -472,16 +504,27 @@ slot0.initPauseUI = function(slot0)
 end
 
 slot0.initRankUI = function(slot0)
-	slot0.rankUI = slot0:findTF("rankUI", slot0.popUI)
-	slot0.rankCloseBtn = slot0:findTF("ad/btnClose", slot0.rankUI)
-	slot0.rankPlayerList = UIItemList.New(slot0:findTF("ad/Scroll View/Viewport/Content", slot0.rankUI), slot0:findTF("ad/Scroll View/Viewport/Content/playerTpl", slot0.rankUI))
-	slot0.rankMyself = slot0:findTF("ad/myself", slot0.rankUI)
-	slot0.rankDesc = slot0:findTF("ad/desc", slot0.rankUI)
+	slot1 = slot0.popUI
+	slot0.rankUI = slot1:Find("rankUI")
+	slot1 = slot0.rankUI
+	slot0.rankCloseBtn = slot1:Find("ad/btnClose")
+	slot2 = slot0.rankUI
+	slot3 = slot0.rankUI
+	slot0.rankPlayerList = UIItemList.New(slot2:Find("ad/Scroll View/Viewport/Content"), slot3:Find("ad/Scroll View/Viewport/Content/playerTpl"))
+	slot1 = slot0.rankUI
+	slot0.rankMyself = slot1:Find("ad/myself")
+	slot1 = slot0.rankUI
+	slot0.rankDesc = slot1:Find("ad/desc")
+	slot2 = slot0.rankUI
 
-	setText(slot0:findTF("ad/score", slot0.rankUI), i18n("tolovegame_score"))
-	setText(slot0:findTF("ad/desc", slot0.rankUI), i18n("tolovegame_rank_tip"))
+	setText(slot2:Find("ad/score"), i18n("tolovegame_score"))
 
-	slot1 = slot0:findTF("ad/bg/titleBg/title", slot0.rankUI)
+	slot2 = slot0.rankUI
+
+	setText(slot2:Find("ad/desc"), i18n("tolovegame_rank_tip"))
+
+	slot1 = slot0.rankUI
+	slot1 = slot1:Find("ad/bg/titleBg/title")
 	slot1 = slot1:GetComponent(typeof(Image))
 
 	slot1:SetNativeSize()
@@ -493,10 +536,15 @@ slot0.initRankUI = function(slot0)
 end
 
 slot0.initBuffUI = function(slot0)
-	slot0.buffUI = slot0:findTF("buffUI", slot0.popUI)
-	slot0.buffCloseBtn = slot0:findTF("ad/btnClose", slot0.buffUI)
-	slot0.buffList = UIItemList.New(slot0:findTF("ad/Scroll View/Viewport/Content", slot0.buffUI), slot0:findTF("ad/Scroll View/Viewport/Content/buff", slot0.buffUI))
-	slot1 = slot0:findTF("ad/bg/titleBg/title", slot0.buffUI)
+	slot1 = slot0.popUI
+	slot0.buffUI = slot1:Find("buffUI")
+	slot1 = slot0.buffUI
+	slot0.buffCloseBtn = slot1:Find("ad/btnClose")
+	slot2 = slot0.buffUI
+	slot3 = slot0.buffUI
+	slot0.buffList = UIItemList.New(slot2:Find("ad/Scroll View/Viewport/Content"), slot3:Find("ad/Scroll View/Viewport/Content/buff"))
+	slot1 = slot0.buffUI
+	slot1 = slot1:Find("ad/bg/titleBg/title")
 	slot1 = slot1:GetComponent(typeof(Image))
 
 	slot1:SetNativeSize()
@@ -508,10 +556,15 @@ slot0.initBuffUI = function(slot0)
 end
 
 slot0.initTaskUI = function(slot0)
-	slot0.taskUI = slot0:findTF("taskUI", slot0.popUI)
-	slot0.taskCloseBtn = slot0:findTF("ad/btnClose", slot0.taskUI)
-	slot0.taskTasklist = UIItemList.New(slot0:findTF("ad/Scroll View/Viewport/Content", slot0.taskUI), slot0:findTF("ad/Scroll View/Viewport/Content/Tasktpl", slot0.taskUI))
-	slot1 = slot0:findTF("ad/bg/titleBg/title", slot0.taskUI)
+	slot1 = slot0.popUI
+	slot0.taskUI = slot1:Find("taskUI")
+	slot1 = slot0.taskUI
+	slot0.taskCloseBtn = slot1:Find("ad/btnClose")
+	slot2 = slot0.taskUI
+	slot3 = slot0.taskUI
+	slot0.taskTasklist = UIItemList.New(slot2:Find("ad/Scroll View/Viewport/Content"), slot3:Find("ad/Scroll View/Viewport/Content/Tasktpl"))
+	slot1 = slot0.taskUI
+	slot1 = slot1:Find("ad/bg/titleBg/title")
 	slot1 = slot1:GetComponent(typeof(Image))
 
 	slot1:SetNativeSize()
@@ -596,8 +649,8 @@ slot0.ShowArrowAndPlayerMove = function(slot0)
 			uv0.gameArrowTime = uv0.gameArrowTime - uv0.doTime
 
 			slot0:OperateMapPlayer(function (slot0)
-				setActive(uv0:findTF("player/arrow", slot0), true)
-				uv0:ShowArraw(uv0:findTF("player/arrow", slot0), uv1.arrowList[uv1.nowArrowIndex])
+				setActive(slot0:Find("player/arrow"), true)
+				uv0:ShowArraw(slot0:Find("player/arrow"), uv1.arrowList[uv1.nowArrowIndex])
 
 				uv1.nowArrowIndex = uv1.nowArrowIndex + 1
 			end)
@@ -608,7 +661,7 @@ slot0.ShowArrowAndPlayerMove = function(slot0)
 
 			setActive(slot0.gamingOperationArea, true)
 			slot0:OperateMapPlayer(function (slot0)
-				setActive(uv0:findTF("player/arrow", slot0), false)
+				setActive(slot0:Find("player/arrow"), false)
 			end)
 		end
 
@@ -626,25 +679,25 @@ slot0.ShowArraw = function(slot0, slot1, slot2)
 	slot1:GetComponent(typeof(Animation)):Play("arrowUp")
 
 	if slot2 == ToLoveGameConst.arrowUp then
-		setActive(slot0:findTF("up", slot1), true)
-		setActive(slot0:findTF("down", slot1), false)
-		setActive(slot0:findTF("left", slot1), false)
-		setActive(slot0:findTF("right", slot1), false)
+		setActive(slot1:Find("up"), true)
+		setActive(slot1:Find("down"), false)
+		setActive(slot1:Find("left"), false)
+		setActive(slot1:Find("right"), false)
 	elseif slot2 == ToLoveGameConst.arrowDown then
-		setActive(slot0:findTF("up", slot1), false)
-		setActive(slot0:findTF("down", slot1), true)
-		setActive(slot0:findTF("left", slot1), false)
-		setActive(slot0:findTF("right", slot1), false)
+		setActive(slot1:Find("up"), false)
+		setActive(slot1:Find("down"), true)
+		setActive(slot1:Find("left"), false)
+		setActive(slot1:Find("right"), false)
 	elseif slot2 == ToLoveGameConst.arrowLeft then
-		setActive(slot0:findTF("up", slot1), false)
-		setActive(slot0:findTF("down", slot1), false)
-		setActive(slot0:findTF("left", slot1), true)
-		setActive(slot0:findTF("right", slot1), false)
+		setActive(slot1:Find("up"), false)
+		setActive(slot1:Find("down"), false)
+		setActive(slot1:Find("left"), true)
+		setActive(slot1:Find("right"), false)
 	elseif slot2 == ToLoveGameConst.arrowRight then
-		setActive(slot0:findTF("up", slot1), false)
-		setActive(slot0:findTF("down", slot1), false)
-		setActive(slot0:findTF("left", slot1), false)
-		setActive(slot0:findTF("right", slot1), true)
+		setActive(slot1:Find("up"), false)
+		setActive(slot1:Find("down"), false)
+		setActive(slot1:Find("left"), false)
+		setActive(slot1:Find("right"), true)
 	end
 
 	if uv0.arrowVideoCount > 0 then
@@ -663,9 +716,9 @@ slot0.BombBlast = function(slot0)
 		slot0.isOk = true
 
 		slot0:OperateMapOthers(function (slot0)
-			setActive(uv0:findTF("bomb", slot0), true)
+			setActive(slot0:Find("bomb"), true)
 
-			if isActive(uv0:findTF("player", slot0)) then
+			if isActive(slot0:Find("player")) then
 				uv0.isOk = false
 			end
 		end, uv0.safeCellPosition)
@@ -685,14 +738,14 @@ slot0.BombBlast = function(slot0)
 						uv0.shieldCount = uv0.shieldCount + 1
 
 						slot0:OperateMapPlayer(function (slot0)
-							setActive(uv0:findTF("player/shield", slot0), true)
+							setActive(slot0:Find("player/shield"), true)
 						end)
 					end
 				end
 			end
 
 			slot0:OperateMapPlayer(function (slot0)
-				setActive(uv0:findTF("player/happy", slot0), true)
+				setActive(slot0:Find("player/happy"), true)
 			end)
 		else
 			if uv0.shieldCount > 0 then
@@ -701,9 +754,9 @@ slot0.BombBlast = function(slot0)
 
 				slot0:OperateMapPlayer(function (slot0)
 					if uv0.shieldCount > 0 then
-						setActive(uv1:findTF("player/shield", slot0), true)
+						setActive(slot0:Find("player/shield"), true)
 					else
-						setActive(uv1:findTF("player/shield", slot0), false)
+						setActive(slot0:Find("player/shield"), false)
 					end
 				end)
 			else
@@ -711,7 +764,7 @@ slot0.BombBlast = function(slot0)
 			end
 
 			slot0:OperateMapPlayer(function (slot0)
-				setActive(uv0:findTF("player/sad", slot0), true)
+				setActive(slot0:Find("player/sad"), true)
 			end)
 		end
 
@@ -723,7 +776,7 @@ slot0.BombBlast = function(slot0)
 		uv0.gameBombBlastTime = 0
 
 		slot0:OperateMapOthers(function (slot0)
-			setActive(uv0:findTF("bomb", slot0), false)
+			setActive(slot0:Find("bomb"), false)
 		end, uv0.safeCellPosition)
 	end
 end
@@ -744,7 +797,7 @@ slot0.readyStart = function(slot0)
 
 	slot1:PlaySoundEffect_V3(uv0.SFX_COUNT_DOWN)
 	slot0:OperateMapAll(function (slot0)
-		setActive(uv0:findTF("bomb", slot0), false)
+		setActive(slot0:Find("bomb"), false)
 	end)
 end
 
@@ -771,22 +824,22 @@ slot0.ResetMapAndPlayer = function(slot0)
 	for slot5 = 0, slot0.gamingMap.childCount - 1 do
 		slot6 = slot0.gamingMap:GetChild(slot5)
 
-		setActive(slot0:findTF("player/happy", slot6), false)
-		setActive(slot0:findTF("player/sad", slot6), false)
+		setActive(slot6:Find("player/happy"), false)
+		setActive(slot6:Find("player/sad"), false)
 
-		slot0:findTF("player", slot6):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+		slot6:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
 		if slot5 == slot1 then
-			setActive(slot0:findTF("player", slot6), true)
-			setActive(slot0:findTF("player/arrow", slot6), false)
+			setActive(slot6:Find("player"), true)
+			setActive(slot6:Find("player/arrow"), false)
 
 			if uv0.shieldCount > 0 then
-				setActive(slot0:findTF("player/shield", slot6), true)
+				setActive(slot6:Find("player/shield"), true)
 			else
-				setActive(slot0:findTF("player/shield", slot6), false)
+				setActive(slot6:Find("player/shield"), false)
 			end
 		else
-			setActive(slot0:findTF("player", slot6), false)
+			setActive(slot6:Find("player"), false)
 		end
 	end
 end
@@ -1001,10 +1054,10 @@ slot0.SetRankUI = function(slot0, slot1)
 		setActive(slot2:Find("imgMe"), slot4)
 	end)
 	slot0.rankPlayerList:align(#slot1)
-	setText(slot0:findTF("nameText", slot0.rankMyself), getProxy(PlayerProxy).data:GetName())
+	setText(slot0.rankMyself:Find("nameText"), getProxy(PlayerProxy).data:GetName())
 
 	if nil then
-		setText(slot0:findTF("rank/count", slot0.rankMyself), slot3)
+		setText(slot0.rankMyself:Find("rank/count"), slot3)
 
 		if slot3 == 1 then
 			slot0:SetRankColor(slot0.rankMyself, "ea69fd", slot2.name, slot2.score)
@@ -1016,12 +1069,12 @@ slot0.SetRankUI = function(slot0, slot1)
 			slot0:SetRankColor(slot0.rankMyself, "83919c", slot2.name, slot2.score)
 		end
 
-		setActive(slot0:findTF("1", slot0.rankMyself), slot3 == 1)
-		setActive(slot0:findTF("2", slot0.rankMyself), slot3 == 2)
-		setActive(slot0:findTF("3", slot0.rankMyself), slot3 == 3)
-		setActive(slot0:findTF("rank/1", slot0.rankMyself), slot3 == 1)
-		setActive(slot0:findTF("rank/2", slot0.rankMyself), slot3 == 2)
-		setActive(slot0:findTF("rank/3", slot0.rankMyself), slot3 == 3)
+		setActive(slot0.rankMyself:Find("1"), slot3 == 1)
+		setActive(slot0.rankMyself:Find("2"), slot3 == 2)
+		setActive(slot0.rankMyself:Find("3"), slot3 == 3)
+		setActive(slot0.rankMyself:Find("rank/1"), slot3 == 1)
+		setActive(slot0.rankMyself:Find("rank/2"), slot3 == 2)
+		setActive(slot0.rankMyself:Find("rank/3"), slot3 == 3)
 	end
 end
 

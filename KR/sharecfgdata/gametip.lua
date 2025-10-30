@@ -12517,22 +12517,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 「하쿠호」 100% 획득 가능! (최대 4척까지)"
+	tip = "「클레망소」, 「기샹」 등의 등장 확률 UP!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「로마」, 「볼차노」 상시 건조 추가!"
+	tip = "「상 마르티뉴」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「주세페 가리발디」, 「알프레도 오리아니」  상시 건조 추가!"
+	tip = "「골든 하인드」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「레오나르도 다 빈치」 상시 건조 추가!"
+	tip = "「메리 셀러스트」, 「위다」 상시 건조 추가!"
 }
 
 
@@ -30658,7 +30658,7 @@ _G.pg.base.gametip.word_maingroup_updatefailure = {
 
 
 _G.pg.base.gametip.group_download_tip = {
-	tip = "업데이트하려면 $1의 데이터를 다운로드해야 합니다. 업데이트를 진행하겠습니까?"
+	tip = "업데이트 하려면 $1의 데이터를 먼저\n다운로드해야 합니다. 업데이트 하시겠습니까?"
 }
 
 
@@ -40480,6 +40480,11 @@ _G.pg.base.gametip.dorm3d_dafeng_bed = {
 }
 
 
+_G.pg.base.gametip.world_inventory_tip = {
+	tip = "리셋 후 지급될 교환권"
+}
+
+
 _G.pg.base.gametip.danmachi_main_sheet1 = {
 	tip = "푸른 하늘 아래의 만남"
 }
@@ -40547,4 +40552,19 @@ _G.pg.base.gametip.danmachi_award_get = {
 
 _G.pg.base.gametip.danmachi_award_unget = {
 	tip = "미획득"
+}
+
+
+_G.pg.base.gametip.dorm3d_touch2 = {
+	tip = "터치 ($1)"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_special = {
+	tip = "특전"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag8 = {
+	tip = "解锁丝袜互动"
 }

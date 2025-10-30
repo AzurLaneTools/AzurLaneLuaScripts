@@ -46,63 +46,68 @@ end
 slot0.init = function(slot0)
 	slot0:setBg()
 
-	slot0.version = slot0:findTF("version")
+	slot0.version = slot0._tf:Find("version")
 	slot0.version:GetComponent("Text").text = "ver " .. BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion:ToString()
-	slot0.bgLay = slot0:findTF("bg_lay")
-	slot0.accountBtn = slot0:findTF("bg_lay/buttons/account_button")
-	slot0.repairBtn = slot0:findTF("btns/repair_button")
-	slot0.privateBtn = slot0:findTF("btns/private_btn")
-	slot0.licenceBtn = slot0:findTF("btns/Licence_btn")
-	slot0.chInfo = slot0:findTF("background/info")
+	slot0.bgLay = slot0._tf:Find("bg_lay")
+	slot0.accountBtn = slot0._tf:Find("bg_lay/buttons/account_button")
+	slot0.repairBtn = slot0._tf:Find("btns/repair_button")
+	slot0.privateBtn = slot0._tf:Find("btns/private_btn")
+	slot0.licenceBtn = slot0._tf:Find("btns/Licence_btn")
+	slot0.chInfo = slot0._tf:Find("background/info")
 
 	setActive(slot0.chInfo, PLATFORM_CODE == PLATFORM_CH)
 
 	if PLATFORM_CODE == PLATFORM_CH then
-		slot0.urlClick = slot0:findTF("urlClick", slot0.chInfo)
+		slot2 = slot0.chInfo
+		slot0.urlClick = slot2:Find("urlClick")
 
 		onButton(slot0, slot0.urlClick, function ()
 			Application.OpenURL("https://beian.miit.gov.cn/#/home")
 		end)
 	end
 
-	slot0.pressToLogin = GetOrAddComponent(slot0:findTF("background/press_to_login"), "CanvasGroup")
+	slot0.pressToLogin = GetOrAddComponent(slot0._tf:Find("background/press_to_login"), "CanvasGroup")
 
 	LeanTween.alphaCanvas(slot0.pressToLogin, 0.25, uv0):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 
-	slot0.currentServer = slot0:findTF("current_server")
-	slot0.serviceBtn = slot0:findTF("bg_lay/buttons/service_button")
-	slot0.filingBtn = slot0:findTF("filingBtn")
+	slot0.currentServer = slot0._tf:Find("current_server")
+	slot0.serviceBtn = slot0._tf:Find("bg_lay/buttons/service_button")
+	slot0.filingBtn = slot0._tf:Find("filingBtn")
 
 	setActive(slot0.filingBtn, PLATFORM_CODE == PLATFORM_CH)
 
-	slot0.serversPanel = slot0:findTF("servers")
-	slot0.servers = slot0:findTF("panel/servers/content/server_list", slot0.serversPanel)
+	slot0.serversPanel = slot0._tf:Find("servers")
+	slot0.servers = slot0.serversPanel:Find("panel/panel/servers/content/server_list")
 	slot0.serverTpl = slot0:getTpl("server_tpl")
-	slot0.recentTF = slot0:findTF("panel/servers/content/advice_panel/recent", slot0.serversPanel)
-	slot0.adviceTF = slot0:findTF("panel/servers/content/advice_panel/advice", slot0.serversPanel)
-	slot0.userAgreenTF = slot0:findTF("UserAgreement")
-	slot0.userAgreenMainTF = slot0:findTF("UserAgreement/window")
+	slot0.recentTF = slot0.serversPanel:Find("panel/panel/servers/content/advice_panel/recent")
+	slot0.adviceTF = slot0.serversPanel:Find("panel/panel/servers/content/advice_panel/advice")
+	slot0.userAgreenTF = slot0._tf:Find("UserAgreement")
+	slot0.userAgreenMainTF = slot0._tf:Find("UserAgreement/window")
 	slot0.closeUserAgreenTF = slot0.userAgreenTF:Find("window/close_btn")
-	slot0.userAgreenConfirmTF = slot0:findTF("UserAgreement/window/accept_btn")
-	slot0.userDisagreeConfirmTF = slot0:findTF("UserAgreement/window/disagree_btn")
-	slot0.switchGatewayBtn = SwitchGatewayBtn.New(slot0:findTF("servers/panel/switch_platform"))
+	slot0.userAgreenConfirmTF = slot0._tf:Find("UserAgreement/window/accept_btn")
+	slot0.userDisagreeConfirmTF = slot0._tf:Find("UserAgreement/window/disagree_btn")
+	slot0.switchGatewayBtn = SwitchGatewayBtn.New(slot0._tf:Find("servers/panel/panel/switch_platform"))
+
+	if PLATFORM == PLATFORM_OPENHARMONY then
+		slot0.switchGatewayBtn4Oh = SwitchGatewayBtn4OpenHarmony.New(slot0._tf:Find("servers/panel/panel/switch_platform"))
+	end
 
 	setActive(slot0.userAgreenTF, false)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.userAgreenTF, slot0._tf)
 
-	slot0.opBtn = slot0:findTF("bg_lay/buttons/opBtn")
+	slot0.opBtn = slot0._tf:Find("bg_lay/buttons/opBtn")
 
 	if slot0.opBtn then
 		setActive(slot0.opBtn, slot0.isOpPlay)
 	end
 
-	slot0.airiUidTxt = slot0:findTF("airi_uid")
+	slot0.airiUidTxt = slot0._tf:Find("airi_uid")
 	slot0.shareData = {}
-	slot0.searchAccount = slot0:findTF("panel/searchAccount", slot0.serversPanel)
+	slot0.searchAccount = slot0.serversPanel:Find("panel/panel/searchAccount")
 
 	setText(findTF(slot0.searchAccount, "text"), i18n("query_role_button"))
 
-	slot0.serverPanelCanvas = GetComponent(slot0:findTF("servers/panel/servers"), typeof(CanvasGroup))
+	slot0.serverPanelCanvas = GetComponent(slot0._tf:Find("servers/panel/panel/servers"), typeof(CanvasGroup))
 
 	onButton(slot0, slot0.searchAccount, function ()
 		if not uv0.serversDic or uv0.searching then
@@ -167,7 +172,7 @@ slot0.init = function(slot0)
 	slot0.subViewList[LoginSceneConst.DEFINE.SERVER_PANEL] = slot0.serversPanel
 	slot0.subViewList[LoginSceneConst.DEFINE.ACCOUNT_BTN] = slot0.accountBtn
 	slot0.subViewList[LoginSceneConst.DEFINE.CURRENT_SERVER] = slot0.currentServer
-	slot0.age = slot0:findTF("background/age")
+	slot0.age = slot0._tf:Find("background/age")
 
 	if PLATFORM_CODE == PLATFORM_CH then
 		onButton(slot0, slot0.age, function ()
@@ -184,6 +189,14 @@ slot0.init = function(slot0)
 	setText(findTF(slot0.currentServer, "server_name"), "")
 	slot0:switchToServer()
 	slot0:initEvents()
+end
+
+slot0.FlushGateWaySwitchBtn = function(slot0)
+	slot0.switchGatewayBtn:Flush()
+
+	if PLATFORM == PLATFORM_OPENHARMONY then
+		slot0.switchGatewayBtn4Oh:Flush()
+	end
 end
 
 slot0.setServerAccountData = function(slot0, slot1)
@@ -358,9 +371,9 @@ slot0.showUserAgreement = function(slot0, slot1)
 end
 
 slot0.setBg = function(slot0)
-	slot0.bgImg = slot0:findTF("background/bg"):GetComponent(typeof(Image))
+	slot0.bgImg = slot0._tf:Find("background/bg"):GetComponent(typeof(Image))
 
-	if slot0:findTF("background/bg"):GetComponent("AspectRatioFitter") then
+	if slot0._tf:Find("background/bg"):GetComponent("AspectRatioFitter") then
 		slot1.aspectMode = AspectMode.FitInParent
 	end
 
@@ -451,13 +464,18 @@ slot0.didEnter = function(slot0)
 	end)
 
 	slot1 = function()
-		if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or slot0 == LoginType.PLATFORM_TENCENT then
+		if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM then
 			pg.SdkMgr.GetInstance():LoginSdk()
+		elseif slot0 == LoginType.PLATFORM_TENCENT then
+			uv0:switchToTencentLogin()
 		elseif slot0 == LoginType.PLATFORM_INNER then
 			uv0:switchToLogin()
 		end
 	end
 
+	onButton(slot0, slot0.filingBtn, function ()
+		Application.OpenURL("http://sq.ccm.gov.cn:80/ccnt/sczr/service/business/emark/gameNetTag/4028c08b58bd467b0158bd8bd80d062a")
+	end, SFX_PANEL)
 	onButton(slot0, slot0.currentServer, function ()
 		if table.getCount(uv0.serverList or {}) == 0 then
 			uv1()
@@ -470,7 +488,7 @@ slot0.didEnter = function(slot0)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.serversPanel, uv0._tf)
 		setActive(uv0.serversPanel, false)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("background"), function ()
+	onButton(slot0, slot0._tf:Find("background"), function ()
 		if pg.CpkPlayMgr.GetInstance():OnPlaying() then
 			return
 		end
@@ -629,9 +647,9 @@ slot0.autoLogin = function(slot0)
 
 		if slot0.loginPanelView:GetLoaded() then
 			if slot0.shareData.lastLoginUser.type == 1 then
-				slot0.loginPanelView:SetContent(slot0.shareData.lastLoginUser.arg2, slot0.shareData.lastLoginUser.arg3)
+				slot0.loginPanelView:ActionInvoke("SetContent", slot0.shareData.lastLoginUser.arg2, slot0.shareData.lastLoginUser.arg3)
 			elseif slot0.shareData.lastLoginUser.type == 2 then
-				slot0.loginPanelView:SetContent(slot0.shareData.lastLoginUser.arg1, slot0.shareData.lastLoginUser.arg2)
+				slot0.loginPanelView:ActionInvoke("SetContent", slot0.shareData.lastLoginUser.arg1, slot0.shareData.lastLoginUser.arg2)
 			end
 		end
 	end
@@ -672,8 +690,8 @@ slot0.updateServerTF = function(slot0, slot1, slot2)
 	slot3:GetComponent("Image").color = Color.New(uv0[slot2.status + 1][1], uv0[slot2.status + 1][2], uv0[slot2.status + 1][3], uv0[slot2.status + 1][4])
 
 	setActive(findTF(slot1, "mark"), slot2.isLogined)
-	setActive(slot0:findTF("tag_new", slot1), slot2.isNew)
-	setActive(slot0:findTF("tag_hot", slot1), slot2.isHot)
+	setActive(slot1:Find("tag_new"), slot2.isNew)
+	setActive(slot1:Find("tag_hot"), slot2.isHot)
 	onButton(slot0, slot1, function ()
 		if uv0.status == Server.STATUS.VINDICATE then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginScene_server_vindicate"))
@@ -820,8 +838,8 @@ slot0.switchToServer = function(slot0)
 end
 
 slot0.SwitchToWaitPanel = function(slot0, slot1)
-	slot2 = slot0:findTF("Msgbox")
-	slot3 = slot0:findTF("window/content", slot2)
+	slot2 = slot0._tf:Find("Msgbox")
+	slot3 = slot2:Find("window/content")
 	slot0.waitTimer = nil
 	slot4 = 0
 	slot5 = slot1
@@ -835,7 +853,7 @@ slot0.SwitchToWaitPanel = function(slot0, slot1)
 		end
 
 		if uv2 <= 0 then
-			triggerButton(uv3:findTF("background"))
+			triggerButton(uv3._tf:Find("background"))
 			uv3.waitTimer:Stop()
 
 			uv3.waitTimer = nil
@@ -862,6 +880,10 @@ slot0.willExit = function(slot0)
 	slot0.transcodeAlertView:Destroy()
 	slot0.yostarAlertView:Destroy()
 	slot0.switchGatewayBtn:Dispose()
+
+	if PLATFORM == PLATFORM_OPENHARMONY then
+		slot0.switchGatewayBtn4Oh:Dispose()
+	end
 
 	slot0.iconSpries = nil
 end

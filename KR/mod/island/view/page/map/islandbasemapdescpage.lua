@@ -5,14 +5,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.nameTxt = slot0:findTF("frame/title/name/Text"):GetComponent(typeof(Text))
-	slot0.descTxt = slot0:findTF("frame/Text"):GetComponent(typeof(Text))
-	slot0.goBtn = slot0:findTF("frame/go")
-	slot0.uiProductionList = UIItemList.New(slot0:findTF("frame/scrollrect/list"), slot0:findTF("frame/scrollrect/list/tpl"))
-	slot0.iconTr = slot0:findTF("frame/icon")
-	slot0.fullMark = slot0:findTF("frame/icon/tag")
+	slot0.nameTxt = slot0._tf:Find("frame/title/name/Text"):GetComponent(typeof(Text))
+	slot0.descTxt = slot0._tf:Find("frame/Text"):GetComponent(typeof(Text))
+	slot0.goBtn = slot0._tf:Find("frame/go")
+	slot0.uiProductionList = UIItemList.New(slot0._tf:Find("frame/scrollrect/list"), slot0._tf:Find("frame/scrollrect/list/tpl"))
+	slot0.iconTr = slot0._tf:Find("frame/icon")
+	slot0.fullMark = slot0._tf:Find("frame/icon/tag")
 
-	setText(slot0:findTF("frame/go/Text"), i18n("island_word_go"))
+	setText(slot0._tf:Find("frame/go/Text"), i18n("island_word_go"))
 end
 
 slot0.OnInit = function(slot0)

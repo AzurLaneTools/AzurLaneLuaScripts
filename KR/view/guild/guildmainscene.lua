@@ -68,30 +68,30 @@ slot0.NOTIFY_TYPE_BATTLE = 4
 slot0.NOTIFY_TYPE_TECH = 5
 
 slot0.init = function(slot0)
-	slot0._bg = slot0:findTF("bg")
+	slot0._bg = slot0._tf:Find("bg")
 
 	pg.GuildPaintingMgr.GetInstance():Enter(slot0._bg:Find("painting"))
 
-	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/res")
+	slot0._playerResOb = slot0._tf:Find("blur_panel/adapt/top/res")
 	slot0.guildRes = GuildResPage.New(slot0._playerResOb, slot0.event)
-	slot0.toggleRoot = slot0:findTF("blur_panel/adapt/left_length/frame/scroll_rect/tagRoot")
-	slot0.mainTip = slot0:findTF("main/tip", slot0.toggleRoot)
-	slot0.applyTip = slot0:findTF("apply/tip", slot0.toggleRoot)
-	slot0.officeTip = slot0:findTF("office/tip", slot0.toggleRoot)
-	slot0.techTip = slot0:findTF("technology/tip", slot0.toggleRoot)
-	slot0.battleTip = slot0:findTF("battle/tip", slot0.toggleRoot)
-	slot0.back = slot0:findTF("blur_panel/adapt/top/back")
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.mainTF = slot0:findTF("main")
-	slot0.eyeTF = slot0:findTF("blur_panel/adapt/eye")
+	slot0.toggleRoot = slot0._tf:Find("blur_panel/adapt/left_length/frame/scroll_rect/tagRoot")
+	slot0.mainTip = slot0.toggleRoot:Find("main/tip")
+	slot0.applyTip = slot0.toggleRoot:Find("apply/tip")
+	slot0.officeTip = slot0.toggleRoot:Find("office/tip")
+	slot0.techTip = slot0.toggleRoot:Find("technology/tip")
+	slot0.battleTip = slot0.toggleRoot:Find("battle/tip")
+	slot0.back = slot0._tf:Find("blur_panel/adapt/top/back")
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.mainTF = slot0._tf:Find("main")
+	slot0.eyeTF = slot0._tf:Find("blur_panel/adapt/eye")
 	slot0._leftLength = findTF(slot0.blurPanel, "adapt/left_length")
 	slot0._topPanel = findTF(slot0.blurPanel, "adapt/top")
-	slot0.topBg = slot0:findTF("blur_panel/top_bg")
+	slot0.topBg = slot0._tf:Find("blur_panel/top_bg")
 	slot0.topBgWidth = slot0.topBg.rect.height
 	slot0.topWidth = slot0._topPanel.rect.height
 	slot0.letfWidth = -1 * (slot0._leftLength.rect.width + 300)
 	slot0.logPage = GuildOfficeLogPage.New(slot0._tf, slot0.event)
-	slot0.dynamicBg = GuildDynamicBG.New(slot0:findTF("dynamic_bg"))
+	slot0.dynamicBg = GuildDynamicBG.New(slot0._tf:Find("dynamic_bg"))
 	Input.multiTouchEnabled = false
 end
 

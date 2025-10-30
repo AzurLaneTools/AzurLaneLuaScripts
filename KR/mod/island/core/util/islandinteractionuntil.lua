@@ -20,6 +20,7 @@ slot0.TYPE_ECHANGE_AGORA_BASE = 20
 slot0.TYPE_PERFORMANCE = 21
 slot0.TYPE_NEXT_INTERACTION = 22
 slot0.TYPE_FOLLOW_PLAYER = 23
+slot0.TYPE_SP_TRANSFER = 24
 slot0.SIGNIN_TIME_ID = 4002
 
 slot0.GetInteractionOptions = function(slot0, slot1, slot2)
@@ -202,7 +203,7 @@ slot0.Response = function(slot0, slot1, slot2)
 		uv5(slot1, slot0)
 	elseif slot3.type == uv0.TYPE_OPEN_PAGE then
 		uv6(slot3.param, slot0, slot1)
-	elseif slot3.type == uv0.TYPE_TRANSFER then
+	elseif slot3.type == uv0.TYPE_TRANSFER or slot3.type == uv0.TYPE_SP_TRANSFER then
 		uv7(slot3.param, slot0)
 	elseif slot3.type == uv0.TYPE_BT_VALUE then
 		uv8(slot3.param, slot1, slot0)

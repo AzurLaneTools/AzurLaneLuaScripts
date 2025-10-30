@@ -7,9 +7,9 @@ end
 slot0.init = function(slot0)
 	print("初始化")
 
-	slot0._closeBtn = slot0:findTF("main/top/btnBack")
-	slot0._btn1 = slot0:findTF("main/delete_all_button")
-	slot0._btn2 = slot0:findTF("main/get_all_button")
+	slot0._closeBtn = slot0._tf:Find("main/top/btnBack")
+	slot0._btn1 = slot0._tf:Find("main/delete_all_button")
+	slot0._btn2 = slot0._tf:Find("main/get_all_button")
 end
 
 slot0.didEnter = function(slot0)

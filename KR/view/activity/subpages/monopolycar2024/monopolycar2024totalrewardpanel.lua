@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.uiItemList = UIItemList.New(slot0:findTF("Window/Layout/Box/ScrollView/Content/ItemGrid2"), slot0:findTF("Window/Layout/Box/ScrollView/Content/ItemGrid2/GridItem"))
-	slot0.confirmBtn = slot0:findTF("Window/Fixed/ButtonGO")
-	slot0.closeBtn = slot0:findTF("BG")
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("Window/Layout/Box/ScrollView/Content/ItemGrid2"), slot0._tf:Find("Window/Layout/Box/ScrollView/Content/ItemGrid2/GridItem"))
+	slot0.confirmBtn = slot0._tf:Find("Window/Fixed/ButtonGO")
+	slot0.closeBtn = slot0._tf:Find("BG")
 
-	setText(slot0:findTF("Window/Fixed/top/bg/obtain/title"), i18n("MonopolyCar2024Game_total_award_title"))
-	setText(slot0:findTF("Window/Fixed/ButtonGO/pic"), i18n("text_confirm"))
+	setText(slot0._tf:Find("Window/Fixed/top/bg/obtain/title"), i18n("MonopolyCar2024Game_total_award_title"))
+	setText(slot0._tf:Find("Window/Fixed/ButtonGO/pic"), i18n("text_confirm"))
 end
 
 slot0.OnInit = function(slot0)

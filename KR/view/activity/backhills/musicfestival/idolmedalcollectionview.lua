@@ -43,23 +43,22 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot1 = slot0:findTF("NotchAdapt")
-	slot0.backBtn = slot0:findTF("BackBtn", slot1)
-	slot0.progressText = slot0:findTF("ProgressImg/ProgressText", slot1)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
-	slot2 = slot0:findTF("MedalContainer")
+	slot0.bg = slot0._tf:Find("BG")
+	slot1 = slot0._tf:Find("NotchAdapt")
+	slot0.backBtn = slot1:Find("BackBtn")
+	slot0.progressText = slot1:Find("ProgressImg/ProgressText")
+	slot0.helpBtn = slot1:Find("HelpBtn")
+	slot2 = slot0._tf:Find("MedalContainer")
 	slot0.medalItemList = {
-		slot0:findTF("Medal1", slot2),
-		slot0:findTF("Medal2", slot2)
+		slot2:Find("Medal1"),
+		slot2:Find("Medal2"),
+		slot2:Find("Medal3")
 	}
-	slot7 = slot2
-	slot0.medalItemList[3] = slot0:findTF("Medal3", slot7)
-	slot3 = slot0:findTF("SwitchBtnList", slot1)
+	slot3 = slot1:Find("SwitchBtnList")
 	slot0.switchBtnList = {}
 
 	for slot7 = 1, 5 do
-		slot0.switchBtnList[slot7] = slot0:findTF("Button" .. slot7, slot3)
+		slot0.switchBtnList[slot7] = slot3:Find("Button" .. slot7)
 	end
 end
 
@@ -115,11 +114,11 @@ slot0.updateMedalView = function(slot0, slot1, slot2)
 	slot4 = table.contains(slot0.activeIDList, slot2)
 	slot5 = table.contains(slot0.activatableIDList, slot2) and not slot4
 	slot7 = slot0.medalItemList[table.indexof(slot1, slot2, 1)]
-	slot8 = slot0:findTF("Active", slot7)
+	slot8 = slot7:Find("Active")
 
 	setActive(slot8, slot4)
-	setActive(slot0:findTF("Activable", slot7), slot5)
-	setActive(slot0:findTF("DisActive", slot7), not slot4 and not slot5)
+	setActive(slot7:Find("Activable"), slot5)
+	setActive(slot7:Find("DisActive"), not slot4 and not slot5)
 
 	if slot8 then
 		setImageSprite(slot8, GetSpriteFromAtlas("ui/musicfestivalmedalcollectionui_atlas", tostring(slot2)))
@@ -141,7 +140,7 @@ end
 
 slot0.updateSwitchBtnTF = function(slot0)
 	for slot4, slot5 in ipairs(slot0.switchBtnList) do
-		slot7 = slot0:findTF("Text", slot0:findTF("Tip", slot5))
+		slot7 = slot5:Find("Tip"):Find("Text")
 
 		if slot0:caculateActivatable(slot4) == 0 or slot4 == slot0.curPage then
 			setActive(slot6, false)

@@ -12,8 +12,8 @@ slot0.Buildings = {
 }
 
 slot0.init = function(slot0)
-	slot0.top = slot0:findTF("Top")
-	slot0._map = slot0:findTF("map")
+	slot0.top = slot0._tf:Find("Top")
+	slot0._map = slot0._tf:Find("map")
 
 	for slot4 = 0, slot0._map.childCount - 1 do
 		slot5 = slot0._map:GetChild(slot4)
@@ -27,7 +27,7 @@ slot0.init = function(slot0)
 		slot0.map_top
 	}
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.AmusementParkGraph"))
-	slot0._upper = slot0:findTF("upper")
+	slot0._upper = slot0._tf:Find("upper")
 
 	for slot4 = 0, slot0._upper.childCount - 1 do
 		slot5 = slot0._upper:GetChild(slot4)

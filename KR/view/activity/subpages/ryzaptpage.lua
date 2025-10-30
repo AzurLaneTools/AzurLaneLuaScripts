@@ -4,12 +4,12 @@ slot1 = 9
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.kalaSpine = slot0:findTF("shadow/kala", slot0.bg)
+	slot0.kalaSpine = slot0.bg:Find("shadow/kala")
 	slot0.kalaAnim = slot0.kalaSpine:GetComponent("SpineAnimUI")
-	slot0.puniSpine = slot0:findTF("puni", slot0.bg)
+	slot0.puniSpine = slot0.bg:Find("puni")
 	slot0.puniAnim = slot0.puniSpine:GetComponent("SpineAnimUI")
-	slot0.feedBtn = slot0:findTF("feed_btn", slot0.bg)
-	slot0.clickMask = slot0:findTF("click_mask", slot0.bg)
+	slot0.feedBtn = slot0.bg:Find("feed_btn")
+	slot0.clickMask = slot0.bg:Find("click_mask")
 end
 
 slot0.OnFirstFlush = function(slot0)

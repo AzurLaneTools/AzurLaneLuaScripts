@@ -29,15 +29,12 @@ slot0.Ctor = function(slot0, slot1)
 	end)
 
 	slot0.zoneDic = {}
-	slot0.zoneReplaceDic = {}
 
 	table.Ipairs(slot0:GetZoneIDList(), function (slot0, slot1)
 		slot2 = Dorm3dZone.New({
 			configId = slot1
 		})
-		slot3 = slot2:GetWatchCameraName()
-		uv0.zoneDic[slot3] = slot2
-		uv0.zoneReplaceDic[slot3] = {}
+		uv0.zoneDic[slot2:GetWatchCameraName()] = slot2
 
 		slot2:SetSlots(_.map(slot2:GetSlotIDList(), function (slot0)
 			return uv0.slotDic[slot0]
@@ -253,16 +250,6 @@ slot0.UpdateFurnitureReplaceConfig = function(slot0)
 			slot1[slot6.slotId] = slot6
 		end
 	end
-
-	for slot5, slot6 in pairs(slot0.zoneDic) do
-		if slot5 ~= "" then
-			for slot10, slot11 in ipairs(slot6:GetSlots()) do
-				if slot1[slot11.configId] and slot12:getConfig("touch_id") ~= "" then
-					slot0.zoneReplaceDic[slot5].touch_id = slot12:getConfig("touch_id")
-				end
-			end
-		end
-	end
 end
 
 slot0.ITEM_LOCK = 0
@@ -297,7 +284,7 @@ slot0.getNormalZoneNames = function(slot0)
 end
 
 slot0.getZoneConfig = function(slot0, slot1, slot2)
-	return slot0.zoneReplaceDic[slot1][slot2] or slot0.zoneDic[slot1]:getConfig(slot2)
+	return slot0.zoneDic[slot1]:getConfig(slot2)
 end
 
 slot0.getApartmentZoneConfig = function(slot0, slot1, slot2, slot3)
@@ -322,6 +309,31 @@ slot0.unlockAllInvite = function(slot0)
 	end
 
 	return true
+end
+
+slot0.GetAllTouchIDByZone = function(slot0, slot1, slot2)
+	slot3 = {}
+
+	if slot0:getApartmentZoneConfig(slot1, "touch_id", slot2) then
+		table.insert(slot3, {
+			touchId = slot4
+		})
+	end
+
+	for slot8, slot9 in pairs(slot0.furnitures) do
+		if slot9:GetSlotID() > 0 and slot0.slotDic[slot9:GetSlotID()] and pg.dorm3d_zone_template[slot10:GetZoneID()].watch_camera == slot1 then
+			slot12 = Apartment.getGroupConfig(slot2, slot9:getConfig("touch_id"))
+
+			if slot9:GetName() and slot12 then
+				table.insert(slot3, {
+					touchId = slot12,
+					furnitureName = slot11
+				})
+			end
+		end
+	end
+
+	return slot3
 end
 
 return slot0

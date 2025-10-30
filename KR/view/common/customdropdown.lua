@@ -27,27 +27,27 @@ slot0.UpdateVirtualBtn = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.btnTpl = slot0:findTF("resource/tpl")
+	slot0.btnTpl = slot0._tf:Find("resource/tpl")
 	slot0.btnList = {}
-	slot0.greySprite = slot0:findTF("resource/grey"):GetComponent(typeof(Image)).sprite
-	slot0.yellowSprite = slot0:findTF("resource/yellow"):GetComponent(typeof(Image)).sprite
+	slot0.greySprite = slot0._tf:Find("resource/grey"):GetComponent(typeof(Image)).sprite
+	slot0.yellowSprite = slot0._tf:Find("resource/yellow"):GetComponent(typeof(Image)).sprite
 	slot0.mainBtn = tf(instantiate(slot0.btnTpl))
-	slot0.mainTitle = slot0:findTF("Image", slot0.mainBtn)
+	slot0.mainTitle = slot0.mainBtn:Find("Image")
 
 	setImageSprite(slot0.mainBtn, slot0.yellowSprite)
 	setParent(slot0.mainBtn, slot0._tf)
 	setActive(slot0.mainBtn, true)
 
-	slot0:findTF("dropdown", slot0.mainBtn).localEulerAngles = Vector3.New(0, 0, 0)
+	slot0.mainBtn:Find("dropdown").localEulerAngles = Vector3.New(0, 0, 0)
 
 	onButton(slot0, slot0.mainBtn, function ()
 		uv0:Hide()
 	end)
-	onButton(slot0, slot0:findTF("mask", slot0._tf), function ()
+	onButton(slot0, slot0._tf:Find("mask"), function ()
 		uv0:Hide()
 	end)
 
-	slot0.attrs = slot0:findTF("Attrs", slot0._tf)
+	slot0.attrs = slot0._tf:Find("Attrs")
 	slot2 = GetComponent(slot0.attrs, typeof(GridLayoutGroup))
 
 	if #slot0.options > 6 then
@@ -64,8 +64,8 @@ slot0.OnInit = function(slot0)
 			go(slot8).name = i18n(slot0.names[slot6])
 
 			setActive(slot8, true)
-			setActive(slot0:findTF("dropdown", slot8), false)
-			setText(slot0:findTF("Image", slot8), i18n(slot0.names[slot6]))
+			setActive(slot8:Find("dropdown"), false)
+			setText(slot8:Find("Image"), i18n(slot0.names[slot6]))
 			setParent(slot8, slot0.attrs)
 			onButton(slot0, slot8, function ()
 				uv0:UpdateData(uv1)

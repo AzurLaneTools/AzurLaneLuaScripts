@@ -23,10 +23,10 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.parentTr = slot0._tf.parent
-	slot0.itemContainer = slot0:findTF("item/container")
-	slot0.itemTpl = slot0:findTF("item/tpl")
-	slot0.confirmBtn = slot0:findTF("confirm_btn")
-	slot0.lineTxt = slot0:findTF("words/text")
+	slot0.itemContainer = slot0._tf:Find("item/container")
+	slot0.itemTpl = slot0._tf:Find("item/tpl")
+	slot0.confirmBtn = slot0._tf:Find("confirm_btn")
+	slot0.lineTxt = slot0._tf:Find("words/text")
 
 	setText(slot0.confirmBtn:Find("text"), i18n("word_ok"))
 end

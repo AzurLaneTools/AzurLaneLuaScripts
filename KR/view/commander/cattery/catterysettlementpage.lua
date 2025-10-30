@@ -5,17 +5,17 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.painting = slot0:findTF("painting")
-	slot0.uilist = UIItemList.New(slot0:findTF("frame/commanders"), slot0:findTF("frame/commanders/tpl"))
+	slot0.painting = slot0._tf:Find("painting")
+	slot0.uilist = UIItemList.New(slot0._tf:Find("frame/commanders"), slot0._tf:Find("frame/commanders/tpl"))
 
-	setText(slot0:findTF("dialogue/label/Text1"), i18n("cattery_settlement_dialogue_1"))
-	setText(slot0:findTF("dialogue/label/Text3"), i18n("cattery_settlement_dialogue_2"))
-	setText(slot0:findTF("dialogue/label1/Text1"), i18n("cattery_settlement_dialogue_3"))
-	setText(slot0:findTF("dialogue/label1/Text3"), i18n("cattery_settlement_dialogue_4"))
+	setText(slot0._tf:Find("dialogue/label/Text1"), i18n("cattery_settlement_dialogue_1"))
+	setText(slot0._tf:Find("dialogue/label/Text3"), i18n("cattery_settlement_dialogue_2"))
+	setText(slot0._tf:Find("dialogue/label1/Text1"), i18n("cattery_settlement_dialogue_3"))
+	setText(slot0._tf:Find("dialogue/label1/Text3"), i18n("cattery_settlement_dialogue_4"))
 
-	slot0.timeTxt = slot0:findTF("dialogue/label/Text2"):GetComponent(typeof(Text))
-	slot0.expTxt = slot0:findTF("dialogue/label1/Text2"):GetComponent(typeof(Text))
-	slot0.confirmBtn = slot0:findTF("comfirm")
+	slot0.timeTxt = slot0._tf:Find("dialogue/label/Text2"):GetComponent(typeof(Text))
+	slot0.expTxt = slot0._tf:Find("dialogue/label1/Text2"):GetComponent(typeof(Text))
+	slot0.confirmBtn = slot0._tf:Find("comfirm")
 end
 
 slot0.OnInit = function(slot0)

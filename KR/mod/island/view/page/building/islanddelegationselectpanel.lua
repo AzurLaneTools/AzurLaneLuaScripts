@@ -254,23 +254,51 @@ slot0.FlushInfos = function(slot0)
 			GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. IslandShip.StaticGetPrefab(slot4.ship_id), "", slot0.shipIconTF)
 
 			slot11 = pg.island_formula[slot4.formula_id]
+			slot13 = slot11.commission_product[1][1]
+			slot15 = Drop.New({
+				count = 0,
+				type = DROP_TYPE_ISLAND_ITEM,
+				id = slot13
+			})
 
-			GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[slot11.commission_product[1][1]].icon, "", slot0.currentFormulaIcon)
+			onButton(slot0, slot0.currentFormulaIcon, function ()
+				uv0.contextData:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = uv1
+				})
+			end)
+			GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[slot13].icon, "", slot0.currentFormulaIcon)
 			setText(slot0.currentFormulaNum, "×" .. slot11.commission_product[1][2])
 
-			slot15 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+			slot16 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
 
-			if #slot11.second_product == 0 or not slot15:IsUnlcokSecondProduct(slot10) then
+			if #slot11.second_product == 0 or not slot16:IsUnlcokSecondProduct(slot10) then
 				setActive(slot0.extraProduct, false)
 			else
 				setActive(slot0.extraProduct, true)
 
-				slot16 = slot11.second_product_display
-				slot18 = pg.island_item_data_template[slot16[1][1]]
+				slot17 = slot11.second_product_display
+				slot18 = slot17[1][1]
+				slot19 = pg.island_item_data_template[slot18]
 
-				GetImageSpriteFromAtlasAsync("island/" .. slot18.icon, "", slot0.extraProductIcon)
-				setText(slot0.extraProductName, slot18.name)
-				setText(slot0.extraProductNum, "×" .. slot16[1][2])
+				GetImageSpriteFromAtlasAsync("island/" .. slot19.icon, "", slot0.extraProductIcon)
+				setText(slot0.extraProductName, slot19.name)
+				setText(slot0.extraProductNum, "×" .. slot17[1][2])
+
+				slot20 = Drop.New({
+					count = 0,
+					type = DROP_TYPE_ISLAND_ITEM,
+					id = slot18
+				})
+
+				onButton(slot0, slot0.extraProductIcon, function ()
+					uv0.contextData:ShowMsgBox({
+						title = i18n("island_word_desc"),
+						type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+						dropData = uv1
+					})
+				end)
 			end
 		end
 	end

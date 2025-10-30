@@ -7,19 +7,19 @@ end
 slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
-	slot0.backBtn = slot0:findTF("panel/top/btnBack")
-	slot0.skillInfoName = slot0:findTF("panel/bg/skill_name")
-	slot0.skillInfoLv = slot0:findTF("panel/bg/skill_lv")
-	slot0.skillInfoIntro = slot0:findTF("panel/bg/help_panel/skill_intro")
-	slot0.skillInfoIcon = slot0:findTF("panel/bg/skill_icon")
-	slot0.btnTypeNormal = slot0:findTF("panel/bg/btn_type_normal")
-	slot0.btnTypeWorld = slot0:findTF("panel/bg/btn_type_world")
-	slot0.buttonList = slot0:findTF("panel/buttonList")
-	slot0.upgradeBtn = slot0:findTF("panel/buttonList/level_button")
-	slot0.metaBtn = slot0:findTF("panel/buttonList/meta_button")
+	slot0.backBtn = slot0._tf:Find("panel/top/btnBack")
+	slot0.skillInfoName = slot0._tf:Find("panel/bg/skill_name")
+	slot0.skillInfoLv = slot0._tf:Find("panel/bg/skill_lv")
+	slot0.skillInfoIntro = slot0._tf:Find("panel/bg/help_panel/skill_intro")
+	slot0.skillInfoIcon = slot0._tf:Find("panel/bg/skill_icon")
+	slot0.btnTypeNormal = slot0._tf:Find("panel/bg/btn_type_normal")
+	slot0.btnTypeWorld = slot0._tf:Find("panel/bg/btn_type_world")
+	slot0.buttonList = slot0._tf:Find("panel/buttonList")
+	slot0.upgradeBtn = slot0._tf:Find("panel/buttonList/level_button")
+	slot0.metaBtn = slot0._tf:Find("panel/buttonList/meta_button")
 
-	setText(slot0:findTF("Image", slot0.metaBtn), i18n("meta_skillbtn_tactics"))
-	setText(slot0:findTF("panel/top/title_list/infomation/title"), i18n("words_information"))
+	setText(slot0.metaBtn:Find("Image"), i18n("meta_skillbtn_tactics"))
+	setText(slot0._tf:Find("panel/top/title_list/infomation/title"), i18n("words_information"))
 	setText(slot0.buttonList:Find("ok_button/Image"), i18n("text_confirm"))
 
 	if PLATFORM_CODE == PLATFORM_JP then
@@ -36,7 +36,10 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("panel/buttonList/ok_button"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("panel/buttonList/ok_button"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.upgradeBtn, function ()
@@ -126,27 +129,27 @@ end
 
 slot0.inOutAnim = function(slot0, slot1, slot2)
 	if slot1 then
-		slot4 = slot0:findTF("panel/bg_decorations"):GetComponent(typeof(Animation))
+		slot4 = slot0._tf:Find("panel/bg_decorations"):GetComponent(typeof(Animation))
 
 		slot4:Stop()
 		slot4:Play("anim_window_bg")
 
-		slot6 = slot0:findTF("panel/top"):GetComponent(typeof(Animation))
+		slot6 = slot0._tf:Find("panel/top"):GetComponent(typeof(Animation))
 
 		slot6:Stop()
 		slot6:Play("anim_top")
 
-		slot8 = slot0:findTF("panel/bg"):GetComponent(typeof(Animation))
+		slot8 = slot0._tf:Find("panel/bg"):GetComponent(typeof(Animation))
 
 		slot8:Stop()
 		slot8:Play("anim_content")
 
-		slot10 = slot0:findTF("bg"):GetComponent(typeof(Animation))
+		slot10 = slot0._tf:Find("bg"):GetComponent(typeof(Animation))
 
 		slot10:Stop()
 		slot10:Play("anim_bg_plus")
 
-		slot12 = slot0:findTF("panel/buttonList"):GetComponent(typeof(Animation))
+		slot12 = slot0._tf:Find("panel/buttonList"):GetComponent(typeof(Animation))
 
 		slot12:Stop()
 		slot12:Play("anim_button_container")

@@ -5,19 +5,19 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.leftPanel = slot0:findTF("main/left_panel")
-	slot0.rightPanel = slot0:findTF("main/right_panel")
-	slot0.fireBtn = slot0:findTF("fire_btn", slot0.rightPanel)
+	slot0.leftPanel = slot0._tf:Find("main/left_panel")
+	slot0.rightPanel = slot0._tf:Find("main/right_panel")
+	slot0.fireBtn = slot0.rightPanel:Find("fire_btn")
 
-	setText(slot0:findTF("tip", slot0.rightPanel), i18n("activity_yanhua_tip7"))
+	setText(slot0.rightPanel:Find("tip"), i18n("activity_yanhua_tip7"))
 
-	slot0.leftItem = slot0:findTF("scrollrect/content/item_tpl", slot0.leftPanel)
-	slot0.leftItems = slot0:findTF("scrollrect/content", slot0.leftPanel)
+	slot0.leftItem = slot0.leftPanel:Find("scrollrect/content/item_tpl")
+	slot0.leftItems = slot0.leftPanel:Find("scrollrect/content")
 	slot0.leftUIList = UIItemList.New(slot0.leftItems, slot0.leftItem)
-	slot0.rightItem = slot0:findTF("content/item_tpl", slot0.rightPanel)
-	slot0.rightItems = slot0:findTF("content", slot0.rightPanel)
+	slot0.rightItem = slot0.rightPanel:Find("content/item_tpl")
+	slot0.rightItems = slot0.rightPanel:Find("content")
 	slot0.rightUIList = UIItemList.New(slot0.rightItems, slot0.rightItem)
-	slot0.arrowsTF = slot0:findTF("arrows", slot0.rightPanel)
+	slot0.arrowsTF = slot0.rightPanel:Find("arrows")
 
 	slot0:initData()
 end
@@ -51,10 +51,10 @@ slot0.setLocalData = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("main/mask"), function ()
+	onButton(slot0, slot0._tf:Find("main/mask"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
-	onButton(slot0, slot0:findTF("close_btn", slot0.rightPanel), function ()
+	onButton(slot0, slot0.rightPanel:Find("close_btn"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 	onButton(slot0, slot0.fireBtn, function ()
@@ -68,8 +68,8 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.initLeft = function(slot0)
-	setActive(slot0:findTF("empty", slot0.leftPanel), #slot0.unlockIds == 0)
-	setActive(slot0:findTF("scrollrect", slot0.leftPanel), #slot0.unlockIds > 0)
+	setActive(slot0.leftPanel:Find("empty"), #slot0.unlockIds == 0)
+	setActive(slot0.leftPanel:Find("scrollrect"), #slot0.unlockIds > 0)
 	slot0.leftUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = "lock"
@@ -81,13 +81,13 @@ slot0.initLeft = function(slot0)
 			slot2.name = slot4
 
 			if slot4 == "lock" then
-				setActive(uv0:findTF("firework", slot2), false)
+				setActive(slot2:Find("firework"), false)
 			else
 				slot5 = tonumber(slot2.name)
 
-				setActive(uv0:findTF("firework", slot2), true)
-				setActive(uv0:findTF("firework/selected", slot2), table.contains(uv0.orderIds, slot5))
-				GetImageSpriteFromAtlasAsync(Item.getConfigData(slot5).icon, "", uv0:findTF("firework/icon", slot2))
+				setActive(slot2:Find("firework"), true)
+				setActive(slot2:Find("firework/selected"), table.contains(uv0.orderIds, slot5))
+				GetImageSpriteFromAtlasAsync(Item.getConfigData(slot5).icon, "", slot2:Find("firework/icon"))
 				onButton(uv0, slot2, function ()
 					uv0:onLeftClick(uv1, uv2)
 				end, SFX_PANEL)
@@ -99,7 +99,7 @@ end
 
 slot0.initRight = function(slot0)
 	for slot4 = 1, #slot0.allIds - 2 do
-		cloneTplTo(slot0:findTF("tpl", slot0.arrowsTF), slot0.arrowsTF)
+		cloneTplTo(slot0.arrowsTF:Find("tpl"), slot0.arrowsTF)
 	end
 
 	slot0.rightUIList:make(function (slot0, slot1, slot2)
@@ -111,9 +111,9 @@ slot0.initRight = function(slot0)
 			end
 
 			slot2.name = slot4
-			slot5 = uv0:findTF("icon", slot2)
+			slot5 = slot2:Find("icon")
 
-			setActive(uv0:findTF("add", slot2), slot4 == "null")
+			setActive(slot2:Find("add"), slot4 == "null")
 
 			if slot4 == "null" then
 				setActive(slot5, false)

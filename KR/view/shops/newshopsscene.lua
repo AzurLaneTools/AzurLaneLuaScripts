@@ -129,17 +129,17 @@ slot0.OnUpdateCommodity = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_button")
-	slot0.frame = slot0:findTF("blur_panel")
-	slot0.pageContainer = slot0:findTF("frame/bg/pages")
-	slot0.stamp = slot0:findTF("stamp")
-	slot0.switchBtn = slot0:findTF("blur_panel/adapt/switch_btn")
-	slot0.skinBtn = slot0:findTF("blur_panel/adapt/skin_btn")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back_button")
+	slot0.frame = slot0._tf:Find("blur_panel")
+	slot0.pageContainer = slot0._tf:Find("frame/bg/pages")
+	slot0.stamp = slot0._tf:Find("stamp")
+	slot0.switchBtn = slot0._tf:Find("blur_panel/adapt/switch_btn")
+	slot0.skinBtn = slot0._tf:Find("blur_panel/adapt/skin_btn")
 
 	setActive(slot0.skinBtn, not (LOCK_SKIN_SHOP_ENTER and getProxy(PlayerProxy):getData().level < LOCK_SKIN_SHOP_ENTER_LEVEL))
 
-	slot2 = slot0:findTF("frame/bg/pages/scrollrect"):GetComponent("LScrollRect")
-	slot3 = slot0:findTF("frame/bg/pages/scrollRectSpecial")
+	slot2 = slot0._tf:Find("frame/bg/pages/scrollrect"):GetComponent("LScrollRect")
+	slot3 = slot0._tf:Find("frame/bg/pages/scrollRectSpecial")
 
 	setActive(go(slot2), true)
 	setActive(slot3, false)
@@ -159,19 +159,19 @@ slot0.init = function(slot0)
 	slot0.contextData.singleWindow = ShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.singleWindowForESkin = EquipmentSkinInfoUIForShopWindow.New(slot0._tf, slot0.event)
-	slot0.contextData.paintingView = ShopPaintingView.New(slot0:findTF("paint/paint"), slot0:findTF("frame/chat"))
+	slot0.contextData.paintingView = ShopPaintingView.New(slot0._tf:Find("paint/paint"), slot0._tf:Find("frame/chat"))
 
-	slot0.contextData.paintingView:setSecretaryPos(slot0:findTF("paint/secretaryPos"))
+	slot0.contextData.paintingView:setSecretaryPos(slot0._tf:Find("paint/secretaryPos"))
 
-	slot0.contextData.bgView = ShopBgView.New(slot0:findTF("bg"))
+	slot0.contextData.bgView = ShopBgView.New(slot0._tf:Find("bg"))
 	slot0.recorder = {
 		[uv0.CATEGORY_ACTIVITY] = false,
 		[uv0.CATEGORY_MONTH] = false,
 		[uv0.CATEGORY_SUPPLY] = false
 	}
-	slot0.frameTr = slot0:findTF("frame")
-	slot0.categoryUIList = UIItemList.New(slot0:findTF("frame/bg/types"), slot0:findTF("frame/bg/types/tpl"))
-	slot0.shopUIList = UIItemList.New(slot0:findTF("frame/bg/shops"), slot0:findTF("frame/bg/shops/tpl"))
+	slot0.frameTr = slot0._tf:Find("frame")
+	slot0.categoryUIList = UIItemList.New(slot0._tf:Find("frame/bg/types"), slot0._tf:Find("frame/bg/types/tpl"))
+	slot0.shopUIList = UIItemList.New(slot0._tf:Find("frame/bg/shops"), slot0._tf:Find("frame/bg/shops/tpl"))
 end
 
 slot0.didEnter = function(slot0)

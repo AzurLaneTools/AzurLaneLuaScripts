@@ -26,7 +26,9 @@ slot0.SetActivity = function(slot0, slot1)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("List"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("List"), function ()
 		uv0._parentClass:OnClickFormulaBack()
 	end)
 end
@@ -42,13 +44,13 @@ slot0.RefreshFormulaInfo = function(slot0, slot1)
 	slot0.contextData.formulaId = slot1:GetConfigID()
 	slot2 = slot0._parentClass.loader
 
-	slot2:GetSpriteQuiet(slot0.bundleName, uv0[slot1:GetType()], slot0:findTF("Type", description))
-	slot0._parentClass:UpdateRyzaDrop(slot0:findTF("Icon"), {
+	slot2:GetSpriteQuiet(slot0.bundleName, uv0[slot1:GetType()], description:Find("Type"))
+	slot0._parentClass:UpdateRyzaDrop(slot0._tf:Find("Icon"), {
 		type = slot1:GetProduction()[1],
 		id = slot1:GetProduction()[2]
 	})
-	setText(slot0:findTF("Name"), slot1:GetName())
-	setText(slot0:findTF("Description/Text"), slot1:GetDesc())
+	setText(slot0._tf:Find("Name"), slot1:GetName())
+	setText(slot0._tf:Find("Description/Text"), slot1:GetDesc())
 
 	slot3 = tostring(slot1:GetMaxLimit() - slot1:GetUsedCount())
 
@@ -56,7 +58,7 @@ slot0.RefreshFormulaInfo = function(slot0, slot1)
 		slot3 = "∞"
 	end
 
-	setText(slot0:findTF("RestCount/Text"), i18n("ryza_rest_produce_count", slot3))
+	setText(slot0._tf:Find("RestCount/Text"), i18n("ryza_rest_produce_count", slot3))
 end
 
 slot0.willExit = function(slot0)

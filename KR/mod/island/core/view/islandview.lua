@@ -61,6 +61,7 @@ slot0.Init = function(slot0)
 		slot0:CreateSlotHudView(),
 		slot0:CreateTopHeadHudView(),
 		slot0:CreateBottomHeadHudeView(),
+		slot0:CreateCancelAnimationOpView(),
 		slot0:CreateAnimationOpView()
 	}
 end
@@ -81,6 +82,10 @@ end
 
 slot0.CreateSlotHudView = function(slot0)
 	return IslandSlotHudView.New(slot0)
+end
+
+slot0.CreateCancelAnimationOpView = function(slot0)
+	return IslandCancelAnimationOpView.New(slot0)
 end
 
 slot0.CreateTopHeadHudView = function(slot0)
@@ -227,6 +232,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.DISABLE_INPUT, slot0.DisableInput)
 	slot0:AddListener(ISLAND_EVT.ENABLE_INPUT, slot0.EnableInput)
 	slot0:AddListener(ISLAND_EVT.GEN_PATH_FINDER, slot0.OnGenPathFinder)
+	slot0:AddListener(ISLAND_EVT.REMOVE_PATH_FINDER, slot0.OnRemovePathFinder)
 	slot0:AddListener(ISLAND_EVT.ACTIVE_OR_DISACTIVE_UNIT, slot0.OnActiveOrDisactiveUnit)
 	slot0:AddListener(ISLAND_EVT.OPEN_ANIMATION_OP, slot0.OnOpenAniamtionOpPage)
 	slot0:AddListener(ISLAND_EVT.CLOSE_ANIMATION_OP, slot0.OnCloseAniamtionOpPage)
@@ -251,6 +257,9 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.END_COUPLE_ACTION, slot0.OnEndCoupleAction)
 	slot0:AddListener(ISLAND_EVT.REFRESH_WEATHER_SYSTEM, slot0.OnRefreshWeatherSystem)
 	slot0:AddListener(ISLAND_EVT.SYSTEM_UNLOCK, slot0.OnSystemUnlock)
+	slot0:AddListener(ISLAND_EVT.START_DO_COUPLE_ACTION, slot0.OnStartDoCoupleAction)
+	slot0:AddListener(ISLAND_EVT.END_DO_COUPLE_ACTION, slot0.OnEndDoCoupleAction)
+	slot0:AddListener(ISLAND_EVT.CANCEL_COUPLE_ACTION, slot0.OnCancelCoupleAction)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -318,6 +327,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.DISABLE_INPUT, slot0.DisableInput)
 	slot0:RemoveListener(ISLAND_EVT.ENABLE_INPUT, slot0.EnableInput)
 	slot0:RemoveListener(ISLAND_EVT.GEN_PATH_FINDER, slot0.OnGenPathFinder)
+	slot0:RemoveListener(ISLAND_EVT.REMOVE_PATH_FINDER, slot0.OnRemovePathFinder)
 	slot0:RemoveListener(ISLAND_EVT.ACTIVE_OR_DISACTIVE_UNIT, slot0.OnActiveOrDisactiveUnit)
 	slot0:RemoveListener(ISLAND_EVT.OPEN_ANIMATION_OP, slot0.OnOpenAniamtionOpPage)
 	slot0:RemoveListener(ISLAND_EVT.CLOSE_ANIMATION_OP, slot0.OnCloseAniamtionOpPage)
@@ -342,6 +352,9 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.END_COUPLE_ACTION, slot0.OnEndCoupleAction)
 	slot0:RemoveListener(ISLAND_EVT.REFRESH_WEATHER_SYSTEM, slot0.OnRefreshWeatherSystem)
 	slot0:RemoveListener(ISLAND_EVT.SYSTEM_UNLOCK, slot0.OnSystemUnlock)
+	slot0:RemoveListener(ISLAND_EVT.START_DO_COUPLE_ACTION, slot0.OnStartDoCoupleAction)
+	slot0:RemoveListener(ISLAND_EVT.END_DO_COUPLE_ACTION, slot0.OnEndDoCoupleAction)
+	slot0:RemoveListener(ISLAND_EVT.CANCEL_COUPLE_ACTION, slot0.OnCancelCoupleAction)
 end
 
 slot0.OnSystemUnlock = function(slot0, slot1)
@@ -358,6 +371,18 @@ end
 slot0.OnEndCoupleAction = function(slot0)
 	slot0:UnBlockLayer1Event(true)
 	slot0:GetSubView(IslandAniamtionOpView):OnEndCoupleAction()
+end
+
+slot0.OnCancelCoupleAction = function(slot0)
+	if slot0.coupleActionPlayer and slot0.coupleActionPlayer:IsPlaying() then
+		slot0.coupleActionPlayer:Stop()
+	end
+
+	if slot0.coupleAction4FollowerPlayer and slot0.coupleAction4FollowerPlayer:IsPlaying() then
+		slot0.coupleAction4FollowerPlayer:Stop()
+	end
+
+	slot0:OnEndCoupleAction()
 end
 
 slot0.OnCoupleActionWithFollower = function(slot0, slot1)
@@ -428,6 +453,14 @@ end
 
 slot0.OnHideNpcAniamtionBubble = function(slot0, slot1)
 	slot0:GetSubView(IslandBottomHeadHudView):HideAnimationOp(slot0:GetStrollUnitModule(slot1.id))
+end
+
+slot0.OnStartDoCoupleAction = function(slot0)
+	slot0:GetSubView(IslandCancelAnimationOpView):ShowCancelableAnimationOp(slot0.player)
+end
+
+slot0.OnEndDoCoupleAction = function(slot0)
+	slot0:GetSubView(IslandCancelAnimationOpView):HideCancelableAnimationOp(slot0.player)
 end
 
 slot0.OnResponAniamtionOp = function(slot0, slot1)
@@ -511,6 +544,20 @@ slot0.OnGenPathFinder = function(slot0, slot1)
 	end
 
 	table.insert(slot0.pathfinders, slot2)
+end
+
+slot0.OnRemovePathFinder = function(slot0, slot1)
+	slot2 = slot0:GetUnitModuleWithType(slot1.unitType, slot1.unitId)
+
+	if not _.detect(slot0.pathfinders, function (slot0)
+		return slot0:IsSameUnit(uv0)
+	end) then
+		return
+	end
+
+	slot3:Stop()
+	slot3:Dispose()
+	table.removebyvalue(slot0.pathfinders, slot3)
 end
 
 slot0.OnSceneInited = function(slot0, slot1)
@@ -783,13 +830,90 @@ slot0.OnTracking = function(slot0, slot1)
 end
 
 slot0.TryTrack = function(slot0)
-	if not slot0:GetUnitModule(slot0.trackId) or not slot1._go then
+	slot0:TrySetTrack(slot0.trackId)
+end
+
+slot0.TrySetTrack = function(slot0, slot1)
+	if not slot0:GetOptTrackingTarget(slot1) or not slot2._go then
 		return
 	end
 
-	slot0:GetSubView(IslandDistanceView):SetTrackingTarget(slot0.player, slot1, slot0.trackId)
+	slot0:GetSubView(IslandDistanceView):SetTrackingTarget(slot0.player, slot2, slot1)
 
 	slot0.needTryTrack = false
+end
+
+slot1 = function(slot0, slot1)
+	if not pg.island_world_objects[slot0] then
+		return
+	end
+
+	return slot2.mapId == slot1
+end
+
+slot2 = function(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot0) do
+		for slot11, slot12 in ipairs(slot7[2]) do
+			if pg.island_interaction[slot12].type == slot2 and uv0(tonumber(slot13.param), slot1) then
+				return slot7[1]
+			end
+		end
+	end
+
+	return nil
+end
+
+slot3 = function(slot0)
+	slot1 = {}
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0) do
+		for slot11, slot12 in ipairs(slot7[2]) do
+			if pg.island_interaction[slot12].type == IslandInteractionUntil.TYPE_TRANSFER then
+				table.insert(slot1, slot7[1])
+			elseif slot13.type == IslandInteractionUntil.TYPE_SP_TRANSFER then
+				table.insert(slot2, slot7[1])
+			end
+		end
+	end
+
+	if #slot2 > 0 then
+		return slot2[1]
+	end
+
+	if #slot1 > 0 then
+		return slot1[1]
+	end
+
+	return nil
+end
+
+slot0.GetOptTrackingTarget = function(slot0, slot1)
+	if slot0:GetUnitModule(slot1) then
+		return slot2
+	end
+
+	if not pg.island_world_objects[slot1] then
+		return nil
+	end
+
+	slot4 = {}
+	slot8 = IslandConst.UNIT_LIST_OBJ
+
+	for slot8, slot9 in ipairs(slot0:GetUnitListByKey(slot8)) do
+		slot10, slot11 = slot9:IsMapTransfer()
+
+		if slot10 then
+			table.insert(slot4, {
+				slot9,
+				slot11
+			})
+		end
+	end
+
+	slot5 = nil
+
+	return uv0(slot4, slot3.mapId, IslandInteractionUntil.TYPE_TRANSFER) or uv0(slot4, slot3.mapId, IslandInteractionUntil.TYPE_SP_TRANSFER) or uv1(slot4)
 end
 
 slot0.OnUnTracking = function(slot0)

@@ -3,7 +3,7 @@ slot0 = class("CravenCheeringSkinPage", import(".TemplatePage.SkinTemplatePage")
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.step_txt = slot0:findTF("step_text", slot0.bg)
+	slot0.step_txt = slot0.bg:Find("step_text")
 end
 
 slot0.OnUpdateFlush = function(slot0)

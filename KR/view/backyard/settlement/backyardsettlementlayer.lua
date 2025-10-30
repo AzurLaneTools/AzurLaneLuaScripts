@@ -14,13 +14,13 @@ slot0.setDormVO = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.frame = slot0:findTF("frame")
-	slot0.painting = slot0:findTF("painting")
-	slot0.confirmBtn = slot0:findTF("painting/confirm_btn")
-	slot0.timeTF = slot0:findTF("ship_word/text_contain1")
-	slot0.expTF = slot0:findTF("ship_word/text_contain2")
-	slot0.emptyTF = slot0:findTF("ship_word/Text")
-	slot0.uilist = UIItemList.New(slot0:findTF("container", slot0.frame), slot0:findTF("container/ship_tpl", slot0.frame))
+	slot0.frame = slot0._tf:Find("frame")
+	slot0.painting = slot0._tf:Find("painting")
+	slot0.confirmBtn = slot0._tf:Find("painting/confirm_btn")
+	slot0.timeTF = slot0._tf:Find("ship_word/text_contain1")
+	slot0.expTF = slot0._tf:Find("ship_word/text_contain2")
+	slot0.emptyTF = slot0._tf:Find("ship_word/Text")
+	slot0.uilist = UIItemList.New(slot0.frame:Find("container"), slot0.frame:Find("container/ship_tpl"))
 end
 
 slot0.didEnter = function(slot0)
@@ -53,7 +53,7 @@ slot0.InitPainting = function(slot0, slot1, slot2)
 	else
 		assert(#string.split(i18n("backyard_addExp_Info", pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():GetServerTime() - slot0.dormVO.load_time), slot0.dormVO.load_food, slot2), "||") > 0, "gametip ==> backyard_addExp_Info 必须用||分开")
 
-		slot6 = slot0:findTF("ship_word/text_contain1")
+		slot6 = slot0._tf:Find("ship_word/text_contain1")
 		slot7 = 0
 
 		while slot7 < slot6.childCount do
@@ -62,7 +62,7 @@ slot0.InitPainting = function(slot0, slot1, slot2)
 			slot7 = slot7 + 1
 		end
 
-		slot8 = slot0:findTF("ship_word/text_contain2")
+		slot8 = slot0._tf:Find("ship_word/text_contain2")
 		slot9 = 0
 
 		while slot9 < slot8.childCount do

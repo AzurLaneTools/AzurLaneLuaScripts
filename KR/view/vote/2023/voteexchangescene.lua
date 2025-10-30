@@ -5,23 +5,23 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.closeBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
-	slot0.dailyTask = slot0:findTF("left/task/slider/bar")
-	slot0.dailyTaskTxt = slot0:findTF("left/task/Text"):GetComponent(typeof(Text))
-	slot0.timeTxt = slot0:findTF("right/title/Text/Text"):GetComponent(typeof(Text))
-	slot0.dailyTaskGoBtn = slot0:findTF("left/go")
-	slot0.totalCntTxt = slot0:findTF("right/total/Text"):GetComponent(typeof(Text))
-	slot0.uiItemList = UIItemList.New(slot0:findTF("right/view/content"), slot0:findTF("right/view/content/tpl"))
-	slot0.taskContainer = slot0:findTF("right/view")
-	slot0.emptyTr = slot0:findTF("right/empty")
+	slot0.closeBtn = slot0._tf:Find("blur_panel/adapt/top/back_btn")
+	slot0.dailyTask = slot0._tf:Find("left/task/slider/bar")
+	slot0.dailyTaskTxt = slot0._tf:Find("left/task/Text"):GetComponent(typeof(Text))
+	slot0.timeTxt = slot0._tf:Find("right/title/Text/Text"):GetComponent(typeof(Text))
+	slot0.dailyTaskGoBtn = slot0._tf:Find("left/go")
+	slot0.totalCntTxt = slot0._tf:Find("right/total/Text"):GetComponent(typeof(Text))
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("right/view/content"), slot0._tf:Find("right/view/content/tpl"))
+	slot0.taskContainer = slot0._tf:Find("right/view")
+	slot0.emptyTr = slot0._tf:Find("right/empty")
 
-	setText(slot0:findTF("left/bg/Text"), i18n("vote_lable_daily_task_title"))
+	setText(slot0._tf:Find("left/bg/Text"), i18n("vote_lable_daily_task_title"))
 
 	slot1 = string.split(i18n("vote_lable_daily_task_tip"), "$1")
 
-	setText(slot0:findTF("left/task/desc/label1"), slot1[1])
-	setText(slot0:findTF("left/task/desc/labe2"), slot1[2])
-	setText(slot0:findTF("right/title/Text"), i18n("vote_lable_task_title"))
+	setText(slot0._tf:Find("left/task/desc/label1"), slot1[1])
+	setText(slot0._tf:Find("left/task/desc/labe2"), slot1[2])
+	setText(slot0._tf:Find("right/title/Text"), i18n("vote_lable_task_title"))
 	setText(slot0.emptyTr:Find("Image/Text"), i18n("vote_lable_task_list_is_empty"))
 end
 

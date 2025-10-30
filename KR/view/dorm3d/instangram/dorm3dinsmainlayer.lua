@@ -19,14 +19,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.bg = slot0:findTF("bg")
+	slot0.bg = slot0._tf:Find("bg")
 	slot1 = slot0._tf
 	slot0.mainTf = slot1:Find("main")
 	slot0.mainPages = {
 		[uv0] = Dorm3dInsPublicPage.New(slot0._tf:Find("main/public_page"), slot0.event),
 		[uv1] = Dorm3dInsCharPage.New(slot0._tf:Find("main/char_page"), slot0.event)
 	}
-	slot0.roomListContainer = slot0:findTF("left/scroll/mask/list")
+	slot0.roomListContainer = slot0._tf:Find("left/scroll/mask/list")
 	slot0.roomItemList = UIItemList.New(slot0.roomListContainer, slot0.roomListContainer:Find("tpl"))
 
 	slot0.roomItemList:make(function (slot0, slot1, slot2)
@@ -35,8 +35,8 @@ slot0.init = function(slot0)
 		end
 	end)
 
-	slot0.expandPanel = slot0:findTF("expand_panel")
-	slot0.expandListContainer = slot0:findTF("expand_panel/scroll/mask/list")
+	slot0.expandPanel = slot0._tf:Find("expand_panel")
+	slot0.expandListContainer = slot0._tf:Find("expand_panel/scroll/mask/list")
 	slot0.expandItemList = UIItemList.New(slot0.expandListContainer, slot0.expandListContainer:Find("tpl"))
 
 	slot0.expandItemList:make(function (slot0, slot1, slot2)
@@ -45,8 +45,8 @@ slot0.init = function(slot0)
 		end
 	end)
 
-	slot0.selectPanel = slot0:findTF("select_panel")
-	slot0.selectListContainer = slot0:findTF("select_panel/list")
+	slot0.selectPanel = slot0._tf:Find("select_panel")
+	slot0.selectListContainer = slot0._tf:Find("select_panel/list")
 	slot0.selectItemList = UIItemList.New(slot0.selectListContainer, slot0.selectListContainer:Find("tpl"))
 
 	slot0.selectItemList:make(function (slot0, slot1, slot2)
@@ -56,7 +56,7 @@ slot0.init = function(slot0)
 	end)
 
 	slot0.selectOpen = false
-	slot0.downloadTf = slot0:findTF("main/download")
+	slot0.downloadTf = slot0._tf:Find("main/download")
 	slot0.download = slot0.downloadTf:Find("btns/download")
 	slot0.downloading = slot0.downloadTf:Find("btns/downloading")
 	slot0.delete = slot0.downloadTf:Find("btns/delete")

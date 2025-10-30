@@ -8,8 +8,8 @@ slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 
-	slot0._top = slot0:findTF("Top")
-	slot0.memoryMask = slot0:findTF("StoryMask", slot0._top)
+	slot0._top = slot0._tf:Find("Top")
+	slot0.memoryMask = slot0._top:Find("StoryMask")
 
 	setActive(slot0.memoryMask, false)
 end
@@ -45,6 +45,7 @@ slot0.GetGroupLayer = function(slot0)
 	if not slot0.groupUI then
 		slot0.groupUI = WorldMediaCollectionMemoryGroupLayer.New(slot0, slot0._tf, slot0.event, slot0.contextData)
 
+		slot0.groupUI:RegisterView(slot0)
 		slot0.groupUI:Load()
 	end
 

@@ -5,17 +5,23 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.calendarTF = slot0:findTF("anim_root/calendar")
-	slot0.monthTF = slot0:findTF("month", slot0.calendarTF)
+	slot1 = slot0._tf
+	slot0.calendarTF = slot1:Find("anim_root/calendar")
+	slot1 = slot0.calendarTF
+	slot0.monthTF = slot1:Find("month")
+	slot2 = slot0.monthTF
 
-	setText(slot0:findTF("Text", slot0.monthTF), i18n("word_month"))
+	setText(slot2:Find("Text"), i18n("word_month"))
 
-	slot0.weekTF = slot0:findTF("week/week", slot0.calendarTF)
+	slot1 = slot0.calendarTF
+	slot0.weekTF = slot1:Find("week/week")
 	slot1 = getProxy(EducateProxy)
 	slot0.curTime = slot1:GetCurTime()
-	slot1 = slot0:findTF("anim_root")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("anim_root")
 	slot0.anim = slot1:GetComponent(typeof(Animation))
-	slot1 = slot0:findTF("anim_root")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("anim_root")
 	slot0.animEvent = slot1:GetComponent(typeof(DftAniEvent))
 	slot1 = slot0.animEvent
 

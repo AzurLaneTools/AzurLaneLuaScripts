@@ -24,13 +24,13 @@ slot0.init = function(slot0)
 		end
 	end
 
-	slot0.stamina = slot0:findTF("res/stamina")
+	slot0.stamina = slot0._tf:Find("res/stamina")
 
 	onButton(slot0, slot0.stamina, function ()
 		uv0.staminaMgr:Show()
 	end, SFX_PANEL)
 
-	slot0.oil = slot0:findTF("res/oil")
+	slot0.oil = slot0._tf:Find("res/oil")
 
 	onButton(slot0, slot0.oil, function ()
 		if not ShoppingStreet.getRiseShopId(ShopArgs.BuyOil, uv0.player.buyOilCount) then
@@ -77,7 +77,7 @@ slot0.init = function(slot0)
 		end
 	end, SFX_PANEL)
 
-	slot0.Whuobi = slot0:findTF("res/Whuobi")
+	slot0.Whuobi = slot0._tf:Find("res/Whuobi")
 
 	onButton(slot0, slot0.Whuobi, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -89,7 +89,7 @@ slot0.init = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot0.bossProgress = slot0:findTF("res/boss_progress")
+	slot0.bossProgress = slot0._tf:Find("res/boss_progress")
 
 	onButton(slot0, slot0.bossProgress, function ()
 		slot0 = WorldBossConst.GetCurrBossItemInfo()

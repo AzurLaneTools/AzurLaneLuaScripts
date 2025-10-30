@@ -45,32 +45,32 @@ slot0.InitData = function(slot0)
 end
 
 slot0.InitUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.titleText = slot0:findTF("mainPanel/topBar/left/nameMask/name")
-	slot0.tipText = slot0:findTF("mainPanel/topBar/left/tipText")
-	slot0.middleText = slot0:findTF("mainPanel/topBar/middle/Text")
-	slot0.closeBtn = slot0:findTF("mainPanel/topBar/right")
-	slot0.startShowBtn = slot0:findTF("mainPanel/main/showWindow")
-	slot0.normalWindow = slot0:findTF("mainPanel/main/normalWindow")
-	slot0.specialWindow = slot0:findTF("mainPanel/main/specialWindow")
-	slot0.normalText = slot0:findTF("title", slot0.normalWindow)
-	slot0.specialText = slot0:findTF("title", slot0.specialWindow)
-	slot0.buyNormalBtn = slot0:findTF("buyNormalButton", slot0.normalWindow)
-	slot0.buySpecialBtn = slot0:findTF("buySpecialButton", slot0.specialWindow)
-	slot0.itemTpl = slot0:findTF("itemTpl")
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.titleText = slot0._tf:Find("mainPanel/topBar/left/nameMask/name")
+	slot0.tipText = slot0._tf:Find("mainPanel/topBar/left/tipText")
+	slot0.middleText = slot0._tf:Find("mainPanel/topBar/middle/Text")
+	slot0.closeBtn = slot0._tf:Find("mainPanel/topBar/right")
+	slot0.startShowBtn = slot0._tf:Find("mainPanel/main/showWindow")
+	slot0.normalWindow = slot0._tf:Find("mainPanel/main/normalWindow")
+	slot0.specialWindow = slot0._tf:Find("mainPanel/main/specialWindow")
+	slot0.normalText = slot0.normalWindow:Find("title")
+	slot0.specialText = slot0.specialWindow:Find("title")
+	slot0.buyNormalBtn = slot0.normalWindow:Find("buyNormalButton")
+	slot0.buySpecialBtn = slot0.specialWindow:Find("buySpecialButton")
+	slot0.itemTpl = slot0._tf:Find("itemTpl")
 
-	setParent(Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0]), slot0:findTF("Container", slot0.itemTpl), false)
+	setParent(Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0]), slot0.itemTpl:Find("Container"), false)
 
-	slot0.normalList = UIItemList.New(slot0:findTF("list", slot0.normalWindow), slot0.itemTpl)
-	slot0.specialList = UIItemList.New(slot0:findTF("list", slot0.specialWindow), slot0.itemTpl)
+	slot0.normalList = UIItemList.New(slot0.normalWindow:Find("list"), slot0.itemTpl)
+	slot0.specialList = UIItemList.New(slot0.specialWindow:Find("list"), slot0.itemTpl)
 
 	setScrollText(slot0.titleText, "")
 	setText(slot0.tipText, i18n("ui_pack_tip1"))
 	setText(slot0.normalText, i18n("ui_pack_tip2"))
 	setText(slot0.specialText, i18n("ui_pack_tip3"))
 
-	slot0.preview = slot0:findTF("mainPanel/main/preview")
-	slot0.sea = slot0:findTF("sea", slot0.preview)
+	slot0.preview = slot0._tf:Find("mainPanel/main/preview")
+	slot0.sea = slot0.preview:Find("sea")
 	slot0.rawImage = slot0.sea:GetComponent("RawImage")
 
 	setActive(slot0.preview, false)
@@ -84,9 +84,9 @@ slot0.InitUI = function(slot0)
 		uv0:closeView()
 	end, SFX_PANEL)
 
-	slot0.tipsGo = slot0:findTF("mainPanel/topBar/left/tips")
-	slot0.tipsText = slot0:findTF("mainPanel/topBar/left/tips/text")
-	slot0.toggleList = UIItemList.New(slot0:findTF("mainPanel/topBar/left/elementList"), slot0:findTF("mainPanel/topBar/left/elementList/main_toggle"))
+	slot0.tipsGo = slot0._tf:Find("mainPanel/topBar/left/tips")
+	slot0.tipsText = slot0._tf:Find("mainPanel/topBar/left/tips/text")
+	slot0.toggleList = UIItemList.New(slot0._tf:Find("mainPanel/topBar/left/elementList"), slot0._tf:Find("mainPanel/topBar/left/elementList/main_toggle"))
 	slot0.handle = UpdateBeat:CreateListener(slot0.UpdateClick, slot0)
 
 	UpdateBeat:AddListener(slot0.handle)
@@ -137,18 +137,18 @@ slot0.updateGiftWindow = function(slot0)
 
 	slot0.normalList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("Container", slot2):GetChild(0)
-			slot6 = uv1[slot1 + 1]
+			slot4 = slot2:Find("Container"):GetChild(0)
+			slot6 = uv0[slot1 + 1]
 			slot6.notPlay = true
 
 			updateDrop(slot4, slot6)
-			onButton(uv0, slot4, function ()
+			onButton(uv1, slot4, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setScrollText(uv0:findTF("TextMask/Text", slot2), slot6:getName())
+			setScrollText(slot2:Find("TextMask/Text"), slot6:getName())
 
-			if uv0.titleText:GetComponent(typeof(Text)).text == "" then
-				setScrollText(uv0.titleText, slot6:getName())
+			if uv1.titleText:GetComponent(typeof(Text)).text == "" then
+				setScrollText(uv1.titleText, slot6:getName())
 			end
 		end
 	end)
@@ -162,17 +162,17 @@ slot0.updateGiftWindow = function(slot0)
 
 	slot0.specialList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("Container", slot2):GetChild(0)
-			slot6 = uv1[slot1 + 1]
+			slot4 = slot2:Find("Container"):GetChild(0)
+			slot6 = uv0[slot1 + 1]
 
 			updateDrop(slot4, slot6)
 
 			slot6.notPlay = true
 
-			onButton(uv0, slot4, function ()
+			onButton(uv1, slot4, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setScrollText(uv0:findTF("TextMask/Text", slot2), slot6:getName())
+			setScrollText(slot2:Find("TextMask/Text"), slot6:getName())
 		end
 	end)
 	slot0.specialList:align(#slot1)
@@ -268,7 +268,7 @@ slot0.InitTitle = function(slot0, slot1)
 
 			slot8 = pg.item_data_battleui[slot6.id]
 
-			slot0.loader:GetSpriteQuiet("ui/combatskinrare", string.format("rare_%s", slot8.rare), slot0:findTF("mainPanel/topBar/left/rareImage"))
+			slot0.loader:GetSpriteQuiet("ui/combatskinrare", string.format("rare_%s", slot8.rare), slot0._tf:Find("mainPanel/topBar/left/rareImage"))
 			slot0.toggleList:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
 					slot3 = uv0.rare_display[slot1 + 1]
@@ -277,7 +277,7 @@ slot0.InitTitle = function(slot0, slot1)
 					uv1.loader:GetSpriteQuiet("ui/combatskinrare", string.format("%s_unselected", CombatSkinConst.TYPE_ICON_NAME[slot3]), findTF(slot2, "off"))
 					onToggle(uv1, slot2, function (slot0)
 						setText(uv0.tipsText, i18n("battleui_display" .. uv1))
-						setLocalPosition(uv0.tipsGo, uv0:findTF("mainPanel/topBar/left"):InverseTransformPoint(uv2.transform.position) + Vector3(-20, 46, 0))
+						setLocalPosition(uv0.tipsGo, uv0._tf:Find("mainPanel/topBar/left"):InverseTransformPoint(uv2.transform.position) + Vector3(-20, 46, 0))
 						uv0:ShowTips(slot0)
 					end, SFX_CONFIGM)
 				end

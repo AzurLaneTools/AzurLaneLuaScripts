@@ -194,7 +194,13 @@ pg.island_item_data_template = setmetatable({
 			200012,
 			200013,
 			200014,
-			200015
+			200015,
+			300001,
+			300002,
+			300003,
+			300004,
+			300005,
+			300006
 		},
 		usage_island_gift = {
 			110001,
@@ -407,7 +413,13 @@ pg.island_item_data_template = setmetatable({
 			200012,
 			200013,
 			200014,
-			200015
+			200015,
+			300001,
+			300002,
+			300003,
+			300004,
+			300005,
+			300006
 		},
 		[5] = {
 			100001,
@@ -613,7 +625,13 @@ pg.island_item_data_template = setmetatable({
 		200012,
 		200013,
 		200014,
-		200015
+		200015,
+		300001,
+		300002,
+		300003,
+		300004,
+		300005,
+		300006
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -629,9 +647,10 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1,
+		tech_id = 0,
 		icon = "Islandprops/1",
 		price = 0,
-		icon_normal = "",
+		icon_normal = "props/item_island_1",
 		rarity = 1,
 		convert = 0,
 		resource_type = 0,
@@ -663,6 +682,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "Islandprops/2",
 		price = 0,
 		icon_normal = "",
@@ -697,6 +717,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "Islandprops/3",
 		price = 0,
 		icon_normal = "",
@@ -713,6 +734,10 @@ pg.base.island_item_data_template = {
 			{
 				"商店购买",
 				{}
+			},
+			{
+				"累计PT",
+				{}
 			}
 		}
 	},
@@ -727,6 +752,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "islandprops/4",
 		price = 0,
 		icon_normal = "",
@@ -752,6 +778,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "islandprops/Item_5",
 		price = 0,
 		icon_normal = "",
@@ -777,6 +804,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "islandprops/Item_5",
 		price = 0,
 		icon_normal = "",
@@ -802,6 +830,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "islandprops/Item_5",
 		price = 0,
 		icon_normal = "",
@@ -827,6 +856,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "islandprops/Item_5",
 		price = 0,
 		icon_normal = "",
@@ -852,6 +882,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "islandprops/Item_5",
 		price = 0,
 		icon_normal = "",
@@ -877,6 +908,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_1000",
 		price = 1,
 		icon_normal = "",
@@ -911,6 +943,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500212,
 		icon = "IslandProps/item_1001",
 		price = 1,
 		icon_normal = "",
@@ -945,6 +978,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 310202,
 		icon = "IslandProps/item_1002",
 		price = 1,
 		icon_normal = "",
@@ -979,6 +1013,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500215,
 		icon = "IslandProps/item_1003",
 		price = 1,
 		icon_normal = "",
@@ -1013,6 +1048,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 320204,
 		icon = "IslandProps/item_1004",
 		price = 1,
 		icon_normal = "",
@@ -1047,6 +1083,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500214,
 		icon = "IslandProps/item_1005",
 		price = 1,
 		icon_normal = "",
@@ -1081,6 +1118,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500213,
 		icon = "IslandProps/item_1006",
 		price = 1,
 		icon_normal = "",
@@ -1115,6 +1153,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 320206,
 		icon = "IslandProps/item_1007",
 		price = 1,
 		icon_normal = "",
@@ -1149,6 +1188,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 310201,
 		icon = "IslandProps/item_1008",
 		price = 1,
 		icon_normal = "",
@@ -1183,6 +1223,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500211,
 		icon = "IslandProps/item_1009",
 		price = 1,
 		icon_normal = "",
@@ -1217,6 +1258,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_1010",
 		price = 1,
 		icon_normal = "",
@@ -1251,6 +1293,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 320201,
 		icon = "IslandProps/item_1011",
 		price = 1,
 		icon_normal = "",
@@ -1285,6 +1328,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 320202,
 		icon = "IslandProps/item_1012",
 		price = 1,
 		icon_normal = "",
@@ -1319,6 +1363,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 320203,
 		icon = "IslandProps/item_1014",
 		price = 1,
 		icon_normal = "",
@@ -1353,6 +1398,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 320205,
 		icon = "IslandProps/item_1015",
 		price = 1,
 		icon_normal = "",
@@ -1387,6 +1433,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500231,
 		icon = "IslandProps/item_1016",
 		price = 1,
 		icon_normal = "",
@@ -1421,6 +1468,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500232,
 		icon = "IslandProps/item_1017",
 		price = 1,
 		icon_normal = "",
@@ -1455,6 +1503,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500233,
 		icon = "IslandProps/item_1018",
 		price = 1,
 		icon_normal = "",
@@ -1489,6 +1538,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500234,
 		icon = "IslandProps/item_1019",
 		price = 1,
 		icon_normal = "",
@@ -1523,6 +1573,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500235,
 		icon = "IslandProps/item_1020",
 		price = 1,
 		icon_normal = "",
@@ -1557,6 +1608,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 500236,
 		icon = "IslandProps/item_1021",
 		price = 1,
 		icon_normal = "",
@@ -1591,6 +1643,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 330201,
 		icon = "IslandProps/item_1022",
 		price = 1,
 		icon_normal = "",
@@ -1625,6 +1678,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 8,
+		tech_id = 0,
 		icon = "IslandProps/item_2000",
 		price = 1,
 		icon_normal = "",
@@ -1656,6 +1710,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 8,
+		tech_id = 500212,
 		icon = "IslandProps/item_2001",
 		price = 1,
 		icon_normal = "",
@@ -1687,6 +1742,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 17,
+		tech_id = 310202,
 		icon = "IslandProps/item_2002",
 		price = 1,
 		icon_normal = "",
@@ -1718,6 +1774,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 14,
+		tech_id = 500215,
 		icon = "IslandProps/item_2003",
 		price = 1,
 		icon_normal = "",
@@ -1749,6 +1806,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 34,
+		tech_id = 320204,
 		icon = "IslandProps/item_2004",
 		price = 1,
 		icon_normal = "",
@@ -1780,6 +1838,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 33,
+		tech_id = 500214,
 		icon = "IslandProps/item_2005",
 		price = 1,
 		icon_normal = "",
@@ -1811,6 +1870,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 14,
+		tech_id = 500213,
 		icon = "IslandProps/item_2006",
 		price = 1,
 		icon_normal = "",
@@ -1842,6 +1902,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 244,
+		tech_id = 320206,
 		icon = "IslandProps/item_2007",
 		price = 1,
 		icon_normal = "",
@@ -1873,6 +1934,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 11,
+		tech_id = 310201,
 		icon = "IslandProps/item_2008",
 		price = 1,
 		icon_normal = "",
@@ -1904,6 +1966,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 68,
+		tech_id = 500211,
 		icon = "IslandProps/item_2009",
 		price = 1,
 		icon_normal = "",
@@ -1935,6 +1998,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 72,
+		tech_id = 0,
 		icon = "IslandProps/item_2010",
 		price = 1,
 		icon_normal = "",
@@ -1966,6 +2030,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 54,
+		tech_id = 320201,
 		icon = "IslandProps/item_2011",
 		price = 1,
 		icon_normal = "",
@@ -1997,6 +2062,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 92,
+		tech_id = 320202,
 		icon = "IslandProps/item_2012",
 		price = 1,
 		icon_normal = "",
@@ -2028,6 +2094,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 118,
+		tech_id = 320203,
 		icon = "IslandProps/item_2014",
 		price = 1,
 		icon_normal = "",
@@ -2059,6 +2126,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 294,
+		tech_id = 320205,
 		icon = "IslandProps/item_2015",
 		price = 1,
 		icon_normal = "",
@@ -2090,6 +2158,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 50,
+		tech_id = 500231,
 		icon = "IslandProps/item_2016",
 		price = 1,
 		icon_normal = "",
@@ -2121,6 +2190,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 65,
+		tech_id = 500232,
 		icon = "IslandProps/item_2017",
 		price = 1,
 		icon_normal = "",
@@ -2152,6 +2222,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 80,
+		tech_id = 500233,
 		icon = "IslandProps/item_2018",
 		price = 1,
 		icon_normal = "",
@@ -2183,6 +2254,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 180,
+		tech_id = 500234,
 		icon = "IslandProps/item_2019",
 		price = 1,
 		icon_normal = "",
@@ -2214,6 +2286,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 32,
+		tech_id = 500235,
 		icon = "IslandProps/item_2020",
 		price = 1,
 		icon_normal = "",
@@ -2245,6 +2318,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 375,
+		tech_id = 500236,
 		icon = "IslandProps/item_2021",
 		price = 1,
 		icon_normal = "",
@@ -2276,6 +2350,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 250,
+		tech_id = 330201,
 		icon = "IslandProps/item_2022",
 		price = 1,
 		icon_normal = "",
@@ -2307,6 +2382,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 200,
+		tech_id = 420301,
 		icon = "IslandProps/item_2600",
 		price = 1,
 		icon_normal = "",
@@ -2338,6 +2414,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 55,
+		tech_id = 0,
 		icon = "IslandProps/item_2601",
 		price = 1,
 		icon_normal = "",
@@ -2369,6 +2446,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 20,
+		tech_id = 0,
 		icon = "IslandProps/item_2602",
 		price = 1,
 		icon_normal = "",
@@ -2400,6 +2478,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 136,
+		tech_id = 430301,
 		icon = "IslandProps/item_2603",
 		price = 1,
 		icon_normal = "",
@@ -2431,6 +2510,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 95,
+		tech_id = 0,
 		icon = "IslandProps/item_2604",
 		price = 1,
 		icon_normal = "",
@@ -2462,6 +2542,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 600,
+		tech_id = 440301,
 		icon = "IslandProps/item_2605",
 		price = 1,
 		icon_normal = "",
@@ -2493,6 +2574,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 200,
+		tech_id = 0,
 		icon = "IslandProps/item_2606",
 		price = 1,
 		icon_normal = "",
@@ -2524,6 +2606,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 12,
+		tech_id = 0,
 		icon = "IslandProps/item_2700",
 		price = 1,
 		icon_normal = "",
@@ -2555,6 +2638,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 100,
+		tech_id = 220101,
 		icon = "IslandProps/item_2701",
 		price = 1,
 		icon_normal = "",
@@ -2586,6 +2670,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 300,
+		tech_id = 220201,
 		icon = "IslandProps/item_2702",
 		price = 1,
 		icon_normal = "",
@@ -2617,6 +2702,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 180,
+		tech_id = 220202,
 		icon = "IslandProps/item_2703",
 		price = 1,
 		icon_normal = "",
@@ -2648,6 +2734,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 700,
+		tech_id = 220203,
 		icon = "IslandProps/item_2704",
 		price = 1,
 		icon_normal = "",
@@ -2679,6 +2766,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1600,
+		tech_id = 220204,
 		icon = "IslandProps/item_2705",
 		price = 1,
 		icon_normal = "",
@@ -2710,6 +2798,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 12,
+		tech_id = 0,
 		icon = "IslandProps/item_2800",
 		price = 1,
 		icon_normal = "",
@@ -2741,6 +2830,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 125,
+		tech_id = 210201,
 		icon = "IslandProps/item_2801",
 		price = 1,
 		icon_normal = "",
@@ -2772,6 +2862,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 360,
+		tech_id = 210202,
 		icon = "IslandProps/item_2802",
 		price = 1,
 		icon_normal = "",
@@ -2803,6 +2894,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1200,
+		tech_id = 210203,
 		icon = "IslandProps/item_2803",
 		price = 1,
 		icon_normal = "",
@@ -2834,6 +2926,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 25,
+		tech_id = 0,
 		icon = "IslandProps/item_3000",
 		price = 1,
 		icon_normal = "",
@@ -2865,6 +2958,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 25,
+		tech_id = 420301,
 		icon = "IslandProps/item_3001",
 		price = 1,
 		icon_normal = "",
@@ -2896,6 +2990,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 40,
+		tech_id = 430301,
 		icon = "IslandProps/item_3002",
 		price = 1,
 		icon_normal = "",
@@ -2927,6 +3022,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 40,
+		tech_id = 440301,
 		icon = "IslandProps/item_3003",
 		price = 1,
 		icon_normal = "",
@@ -2958,6 +3054,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 50,
+		tech_id = 0,
 		icon = "IslandProps/item_3004",
 		price = 1,
 		icon_normal = "",
@@ -2989,6 +3086,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 95,
+		tech_id = 0,
 		icon = "IslandProps/item_3005",
 		price = 1,
 		icon_normal = "",
@@ -3023,6 +3121,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 550,
+		tech_id = 550201,
 		icon = "IslandProps/item_3006",
 		price = 1,
 		icon_normal = "",
@@ -3057,6 +3156,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 250,
+		tech_id = 550202,
 		icon = "IslandProps/item_3007",
 		price = 1,
 		icon_normal = "",
@@ -3091,6 +3191,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 190,
+		tech_id = 550203,
 		icon = "IslandProps/item_3008",
 		price = 1,
 		icon_normal = "",
@@ -3125,6 +3226,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 385,
+		tech_id = 550204,
 		icon = "IslandProps/item_3009",
 		price = 1,
 		icon_normal = "",
@@ -3159,6 +3261,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 260,
+		tech_id = 550205,
 		icon = "IslandProps/item_3010",
 		price = 1,
 		icon_normal = "",
@@ -3193,6 +3296,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 340,
+		tech_id = 0,
 		icon = "IslandProps/item_3011",
 		price = 1,
 		icon_normal = "",
@@ -3227,6 +3331,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1300,
+		tech_id = 510201,
 		icon = "IslandProps/item_3012",
 		price = 1,
 		icon_normal = "",
@@ -3261,6 +3366,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 355,
+		tech_id = 510202,
 		icon = "IslandProps/item_3013",
 		price = 1,
 		icon_normal = "",
@@ -3295,6 +3401,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 425,
+		tech_id = 510203,
 		icon = "IslandProps/item_3014",
 		price = 1,
 		icon_normal = "",
@@ -3329,6 +3436,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 105,
+		tech_id = 510204,
 		icon = "IslandProps/item_3015",
 		price = 1,
 		icon_normal = "",
@@ -3363,6 +3471,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 105,
+		tech_id = 500235,
 		icon = "IslandProps/item_3017",
 		price = 1,
 		icon_normal = "",
@@ -3397,6 +3506,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 215,
+		tech_id = 520201,
 		icon = "IslandProps/item_3018",
 		price = 1,
 		icon_normal = "",
@@ -3431,6 +3541,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 140,
+		tech_id = 520202,
 		icon = "IslandProps/item_3019",
 		price = 1,
 		icon_normal = "",
@@ -3465,6 +3576,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 270,
+		tech_id = 520205,
 		icon = "IslandProps/item_3020",
 		price = 1,
 		icon_normal = "",
@@ -3499,6 +3611,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1590,
+		tech_id = 520204,
 		icon = "IslandProps/item_3021",
 		price = 1,
 		icon_normal = "",
@@ -3533,6 +3646,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 790,
+		tech_id = 520203,
 		icon = "IslandProps/item_3022",
 		price = 1,
 		icon_normal = "",
@@ -3567,6 +3681,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 45,
+		tech_id = 0,
 		icon = "IslandProps/item_3023",
 		price = 1,
 		icon_normal = "",
@@ -3601,6 +3716,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 375,
+		tech_id = 530206,
 		icon = "IslandProps/item_3024",
 		price = 1,
 		icon_normal = "",
@@ -3635,6 +3751,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 510,
+		tech_id = 530202,
 		icon = "IslandProps/item_3025",
 		price = 1,
 		icon_normal = "",
@@ -3669,6 +3786,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 230,
+		tech_id = 530203,
 		icon = "IslandProps/item_3026",
 		price = 1,
 		icon_normal = "",
@@ -3703,6 +3821,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1350,
+		tech_id = 530204,
 		icon = "IslandProps/item_3028",
 		price = 1,
 		icon_normal = "",
@@ -3737,6 +3856,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 390,
+		tech_id = 0,
 		icon = "IslandProps/item_3029",
 		price = 1,
 		icon_normal = "",
@@ -3771,6 +3891,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 370,
+		tech_id = 540201,
 		icon = "IslandProps/item_3030",
 		price = 1,
 		icon_normal = "",
@@ -3805,6 +3926,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 580,
+		tech_id = 540202,
 		icon = "IslandProps/item_3032",
 		price = 1,
 		icon_normal = "",
@@ -3839,6 +3961,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 170,
+		tech_id = 540204,
 		icon = "IslandProps/item_3033",
 		price = 1,
 		icon_normal = "",
@@ -3873,6 +3996,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 845,
+		tech_id = 540205,
 		icon = "IslandProps/item_3034",
 		price = 1,
 		icon_normal = "",
@@ -3907,6 +4031,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 340,
+		tech_id = 0,
 		icon = "IslandProps/item_3035",
 		price = 1,
 		icon_normal = "",
@@ -3938,6 +4063,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 600,
+		tech_id = 660201,
 		icon = "IslandProps/item_3036",
 		price = 1,
 		icon_normal = "",
@@ -3969,6 +4095,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 600,
+		tech_id = 660202,
 		icon = "IslandProps/item_3037",
 		price = 1,
 		icon_normal = "",
@@ -4000,6 +4127,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 890,
+		tech_id = 660203,
 		icon = "IslandProps/item_3038",
 		price = 1,
 		icon_normal = "",
@@ -4031,6 +4159,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1100,
+		tech_id = 660204,
 		icon = "IslandProps/item_3039",
 		price = 1,
 		icon_normal = "",
@@ -4062,6 +4191,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 2380,
+		tech_id = 660205,
 		icon = "IslandProps/item_3040",
 		price = 1,
 		icon_normal = "",
@@ -4093,6 +4223,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 2380,
+		tech_id = 660206,
 		icon = "IslandProps/item_3041",
 		price = 1,
 		icon_normal = "",
@@ -4124,6 +4255,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 300,
+		tech_id = 0,
 		icon = "IslandProps/item_3042",
 		price = 1,
 		icon_normal = "",
@@ -4155,6 +4287,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 770,
+		tech_id = 640202,
 		icon = "IslandProps/item_3043",
 		price = 1,
 		icon_normal = "",
@@ -4186,6 +4319,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 660,
+		tech_id = 640201,
 		icon = "IslandProps/item_3044",
 		price = 1,
 		icon_normal = "",
@@ -4217,6 +4351,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 840,
+		tech_id = 640203,
 		icon = "IslandProps/item_3045",
 		price = 1,
 		icon_normal = "",
@@ -4248,6 +4383,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1200,
+		tech_id = 640204,
 		icon = "IslandProps/item_3046",
 		price = 1,
 		icon_normal = "",
@@ -4279,6 +4415,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 2560,
+		tech_id = 640206,
 		icon = "IslandProps/item_3047",
 		price = 1,
 		icon_normal = "",
@@ -4310,6 +4447,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 175,
+		tech_id = 0,
 		icon = "IslandProps/item_3048",
 		price = 1,
 		icon_normal = "",
@@ -4341,6 +4479,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1230,
+		tech_id = 630201,
 		icon = "IslandProps/item_3049",
 		price = 1,
 		icon_normal = "",
@@ -4372,6 +4511,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 810,
+		tech_id = 630202,
 		icon = "IslandProps/item_3050",
 		price = 1,
 		icon_normal = "",
@@ -4403,6 +4543,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1610,
+		tech_id = 630203,
 		icon = "IslandProps/item_3051",
 		price = 1,
 		icon_normal = "",
@@ -4434,6 +4575,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 2880,
+		tech_id = 630204,
 		icon = "IslandProps/item_3052",
 		price = 1,
 		icon_normal = "",
@@ -4465,6 +4607,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 570,
+		tech_id = 0,
 		icon = "IslandProps/item_3053",
 		price = 1,
 		icon_normal = "",
@@ -4496,6 +4639,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 2590,
+		tech_id = 650201,
 		icon = "IslandProps/item_3054",
 		price = 1,
 		icon_normal = "",
@@ -4527,6 +4671,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1750,
+		tech_id = 650202,
 		icon = "IslandProps/item_3055",
 		price = 1,
 		icon_normal = "",
@@ -4558,6 +4703,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 2400,
+		tech_id = 650203,
 		icon = "IslandProps/item_3056",
 		price = 1,
 		icon_normal = "",
@@ -4589,6 +4735,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 50,
+		tech_id = 0,
 		icon = "IslandProps/item_3059",
 		price = 1,
 		icon_normal = "",
@@ -4623,6 +4770,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1735,
+		tech_id = 0,
 		icon = "IslandProps/item_3101",
 		price = 1,
 		icon_normal = "",
@@ -4657,6 +4805,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 695,
+		tech_id = 0,
 		icon = "IslandProps/item_3102",
 		price = 1,
 		icon_normal = "",
@@ -4691,6 +4840,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1700,
+		tech_id = 0,
 		icon = "IslandProps/item_3103",
 		price = 1,
 		icon_normal = "",
@@ -4725,6 +4875,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1000,
+		tech_id = 0,
 		icon = "IslandProps/item_3104",
 		price = 1,
 		icon_normal = "",
@@ -4759,6 +4910,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 410,
+		tech_id = 0,
 		icon = "IslandProps/item_3105",
 		price = 1,
 		icon_normal = "",
@@ -4793,6 +4945,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 560,
+		tech_id = 0,
 		icon = "IslandProps/item_3106",
 		price = 1,
 		icon_normal = "",
@@ -4827,6 +4980,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 615,
+		tech_id = 0,
 		icon = "IslandProps/item_3107",
 		price = 1,
 		icon_normal = "",
@@ -4861,6 +5015,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1730,
+		tech_id = 0,
 		icon = "IslandProps/item_3108",
 		price = 1,
 		icon_normal = "",
@@ -4895,6 +5050,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 760,
+		tech_id = 0,
 		icon = "IslandProps/item_3109",
 		price = 1,
 		icon_normal = "",
@@ -4929,6 +5085,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1430,
+		tech_id = 0,
 		icon = "IslandProps/item_3110",
 		price = 1,
 		icon_normal = "",
@@ -4963,6 +5120,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 300,
+		tech_id = 0,
 		icon = "IslandProps/item_3111",
 		price = 1,
 		icon_normal = "",
@@ -4997,6 +5155,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 650,
+		tech_id = 0,
 		icon = "IslandProps/item_3112",
 		price = 1,
 		icon_normal = "",
@@ -5031,6 +5190,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 450,
+		tech_id = 0,
 		icon = "IslandProps/item_3113",
 		price = 1,
 		icon_normal = "",
@@ -5065,6 +5225,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 400,
+		tech_id = 0,
 		icon = "IslandProps/item_4001",
 		price = 1,
 		icon_normal = "",
@@ -5095,6 +5256,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 200,
+		tech_id = 0,
 		icon = "IslandProps/item_4002",
 		price = 1,
 		icon_normal = "",
@@ -5125,6 +5287,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 150,
+		tech_id = 0,
 		icon = "IslandProps/item_4003",
 		price = 1,
 		icon_normal = "",
@@ -5155,6 +5318,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 800,
+		tech_id = 0,
 		icon = "IslandProps/item_4004",
 		price = 1,
 		icon_normal = "",
@@ -5185,6 +5349,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 70,
+		tech_id = 0,
 		icon = "IslandProps/item_4005",
 		price = 1,
 		icon_normal = "",
@@ -5216,6 +5381,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_4006",
 		price = 1,
 		icon_normal = "",
@@ -5249,6 +5415,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 200,
+		tech_id = 0,
 		icon = "IslandProps/item_4007",
 		price = 1,
 		icon_normal = "",
@@ -5280,6 +5447,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_4008",
 		price = 1,
 		icon_normal = "",
@@ -5313,6 +5481,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 210,
+		tech_id = 0,
 		icon = "IslandProps/item_4009",
 		price = 1,
 		icon_normal = "",
@@ -5347,6 +5516,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 900,
+		tech_id = 0,
 		icon = "IslandProps/item_4010",
 		price = 1,
 		icon_normal = "",
@@ -5381,6 +5551,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 705,
+		tech_id = 0,
 		icon = "IslandProps/item_4011",
 		price = 1,
 		icon_normal = "",
@@ -5415,6 +5586,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 1005,
+		tech_id = 0,
 		icon = "IslandProps/item_4012",
 		price = 1,
 		icon_normal = "",
@@ -5449,6 +5621,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 200,
+		tech_id = 0,
 		icon = "IslandProps/item_4013",
 		price = 1,
 		icon_normal = "",
@@ -5483,6 +5656,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 840,
+		tech_id = 0,
 		icon = "IslandProps/item_4014",
 		price = 1,
 		icon_normal = "",
@@ -5517,6 +5691,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "100",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100001",
 		price = 0,
 		icon_normal = "props/item_100001",
@@ -5531,7 +5706,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"白熊饮品",
+				"累计PT",
+				{}
+			},
+			{
+				"开发商店",
+				{}
+			},
+			{
+				"开发计划",
 				{}
 			}
 		}
@@ -5547,6 +5730,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "2000",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100002",
 		price = 0,
 		icon_normal = "props/item_100002",
@@ -5561,11 +5745,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
+				"累计PT",
+				{}
+			},
+			{
 				"开发商店",
 				{}
 			},
 			{
-				"计划",
+				"开发计划",
 				{}
 			}
 		}
@@ -5581,6 +5769,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "8000",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100003",
 		price = 0,
 		icon_normal = "",
@@ -5595,11 +5784,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
+				"累计PT",
+				{}
+			},
+			{
 				"开发商店",
 				{}
 			},
 			{
-				"计划",
+				"开发计划",
 				{}
 			}
 		}
@@ -5615,6 +5808,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "1",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100011",
 		price = 0,
 		icon_normal = "",
@@ -5622,40 +5816,6 @@ pg.base.island_item_data_template = {
 		convert = 0,
 		resource_type = 0,
 		id = 100011,
-		have_max = 0,
-		filter = {
-			10211
-		},
-		sub_attribute = {},
-		jump_page = {
-			{
-				"开发商店",
-				{}
-			},
-			{
-				"计划",
-				{}
-			}
-		}
-	},
-	[100012] = {
-		name = "经营指南T2",
-		desc = "一本内容详细的经营技巧指南。使用后，角色的经营能力将中幅提升。",
-		type = 2,
-		manage_influence = 0,
-		pt_num = 0,
-		group_max = 0,
-		usage = "usage_undefined",
-		usage_arg = "2",
-		drop_after_use = 0,
-		order_price = 0,
-		icon = "IslandProps/item_100012",
-		price = 0,
-		icon_normal = "",
-		rarity = 3,
-		convert = 0,
-		resource_type = 0,
-		id = 100012,
 		have_max = 0,
 		filter = {
 			10211
@@ -5672,24 +5832,25 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
-	[100013] = {
-		name = "经营指南T3",
-		desc = "一本内容丰富的经营技巧指南。使用后，角色的经营能力将大幅提升。",
+	[100012] = {
+		name = "经营指南T2",
+		desc = "一本内容详细的经营技巧指南。使用后，角色的经营能力将中幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
 		group_max = 0,
 		usage = "usage_undefined",
-		usage_arg = "5",
+		usage_arg = "2",
 		drop_after_use = 0,
 		order_price = 0,
-		icon = "IslandProps/item_100013",
+		tech_id = 0,
+		icon = "IslandProps/item_100012",
 		price = 0,
 		icon_normal = "",
-		rarity = 4,
+		rarity = 3,
 		convert = 0,
 		resource_type = 0,
-		id = 100013,
+		id = 100012,
 		have_max = 0,
 		filter = {
 			10211
@@ -5702,6 +5863,32 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[100013] = {
+		name = "经营指南T3",
+		desc = "一本内容丰富的经营技巧指南。使用后，角色的经营能力将大幅提升。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "5",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_100013",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 100013,
+		have_max = 0,
+		filter = {
+			10211
+		},
+		sub_attribute = {},
+		jump_page = {}
+	},
 	[100021] = {
 		name = "种植指南T1",
 		desc = "一本内容基础的种植技巧指南。使用后，角色的种植能力将少量提升。",
@@ -5713,6 +5900,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "1",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100021",
 		price = 0,
 		icon_normal = "",
@@ -5747,6 +5935,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "2",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100022",
 		price = 0,
 		icon_normal = "",
@@ -5777,6 +5966,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "5",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100023",
 		price = 0,
 		icon_normal = "",
@@ -5802,6 +5992,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "1",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100031",
 		price = 0,
 		icon_normal = "",
@@ -5836,6 +6027,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "2",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100032",
 		price = 0,
 		icon_normal = "",
@@ -5866,6 +6058,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "5",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100033",
 		price = 0,
 		icon_normal = "",
@@ -5891,6 +6084,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "1",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100041",
 		price = 0,
 		icon_normal = "",
@@ -5925,6 +6119,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "2",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100042",
 		price = 0,
 		icon_normal = "",
@@ -5955,6 +6150,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "5",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100043",
 		price = 0,
 		icon_normal = "",
@@ -5980,6 +6176,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "1",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100051",
 		price = 0,
 		icon_normal = "",
@@ -6014,6 +6211,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "2",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100052",
 		price = 0,
 		icon_normal = "",
@@ -6044,6 +6242,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "5",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100053",
 		price = 0,
 		icon_normal = "",
@@ -6069,6 +6268,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "1",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100061",
 		price = 0,
 		icon_normal = "",
@@ -6103,6 +6303,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "2",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100062",
 		price = 0,
 		icon_normal = "",
@@ -6133,6 +6334,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "5",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100063",
 		price = 0,
 		icon_normal = "",
@@ -6158,6 +6360,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100101",
 		price = 0,
 		icon_normal = "",
@@ -6172,7 +6375,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
+				"累计PT",
+				{}
+			},
+			{
 				"开发商店",
+				{}
+			},
+			{
+				"开发计划",
 				{}
 			}
 		}
@@ -6188,6 +6399,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100102",
 		price = 0,
 		icon_normal = "props/item_100102",
@@ -6202,7 +6414,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
+				"累计PT",
+				{}
+			},
+			{
 				"开发商店",
+				{}
+			},
+			{
+				"开发计划",
 				{}
 			}
 		}
@@ -6218,6 +6438,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100103",
 		price = 0,
 		icon_normal = "",
@@ -6232,7 +6453,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
+				"累计PT",
+				{}
+			},
+			{
 				"开发商店",
+				{}
+			},
+			{
+				"开发计划",
 				{}
 			}
 		}
@@ -6248,9 +6477,10 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_100201",
 		price = 0,
-		icon_normal = "",
+		icon_normal = "props/item_island_100201",
 		rarity = 3,
 		convert = 0,
 		resource_type = 0,
@@ -6277,6 +6507,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_island_gift",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_110001",
 		price = 0,
 		icon_normal = "",
@@ -6320,6 +6551,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_island_gift",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_110002",
 		price = 0,
 		icon_normal = "",
@@ -6361,6 +6593,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_island_gift",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_110003",
 		price = 0,
 		icon_normal = "",
@@ -6402,6 +6635,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_island_gift",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_110004",
 		price = 0,
 		icon_normal = "",
@@ -6443,6 +6677,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_island_gift",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_110005",
 		price = 0,
 		icon_normal = "",
@@ -6484,6 +6719,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_island_gift",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_110006",
 		price = 0,
 		icon_normal = "",
@@ -6524,6 +6760,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200001",
 		price = 0,
 		icon_normal = "",
@@ -6536,7 +6773,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
 	},
 	[200002] = {
 		name = "萨拉托加岛屿权限认证函",
@@ -6549,6 +6791,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200002",
 		price = 0,
 		icon_normal = "",
@@ -6574,6 +6817,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200003",
 		price = 0,
 		icon_normal = "",
@@ -6586,7 +6830,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"计划",
+				{}
+			}
+		}
 	},
 	[200004] = {
 		name = "{namecode:97:大凤}岛屿权限认证函",
@@ -6599,6 +6848,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200004",
 		price = 0,
 		icon_normal = "",
@@ -6624,6 +6874,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200005",
 		price = 0,
 		icon_normal = "",
@@ -6636,7 +6887,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"科技",
+				{}
+			}
+		}
 	},
 	[200006] = {
 		name = "{namecode:18:岛风}岛屿权限认证函",
@@ -6649,6 +6905,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200006",
 		price = 0,
 		icon_normal = "",
@@ -6661,7 +6918,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
 	},
 	[200007] = {
 		name = "应瑞岛屿权限认证函",
@@ -6674,6 +6936,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200007",
 		price = 0,
 		icon_normal = "",
@@ -6686,7 +6949,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"科技",
+				{}
+			}
+		}
 	},
 	[200008] = {
 		name = "恶毒岛屿权限认证函",
@@ -6699,6 +6967,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200008",
 		price = 0,
 		icon_normal = "",
@@ -6711,7 +6980,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"成就",
+				{}
+			}
+		}
 	},
 	[200009] = {
 		name = "独角兽岛屿权限认证函",
@@ -6724,6 +6998,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200009",
 		price = 0,
 		icon_normal = "",
@@ -6736,7 +7011,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
 	},
 	[200010] = {
 		name = "塔什干岛屿权限认证函",
@@ -6749,6 +7029,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200010",
 		price = 0,
 		icon_normal = "",
@@ -6761,7 +7042,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"科技",
+				{}
+			}
+		}
 	},
 	[200011] = {
 		name = "胡德岛屿权限认证函",
@@ -6774,6 +7060,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200011",
 		price = 0,
 		icon_normal = "",
@@ -6786,7 +7073,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"科技",
+				{}
+			}
+		}
 	},
 	[200012] = {
 		name = "{namecode:193:小天城}岛屿权限认证函",
@@ -6799,6 +7091,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200012",
 		price = 0,
 		icon_normal = "",
@@ -6811,7 +7104,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
 	},
 	[200013] = {
 		name = "{namecode:427:欧根亲王}岛屿权限认证函",
@@ -6824,6 +7122,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200013",
 		price = 0,
 		icon_normal = "",
@@ -6849,6 +7148,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200014",
 		price = 0,
 		icon_normal = "",
@@ -6861,7 +7161,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"科技",
+				{}
+			}
+		}
 	},
 	[200015] = {
 		name = "莱昂纳多·达·芬奇岛屿权限认证函",
@@ -6874,6 +7179,7 @@ pg.base.island_item_data_template = {
 		usage_arg = "[]",
 		drop_after_use = 0,
 		order_price = 0,
+		tech_id = 0,
 		icon = "IslandProps/item_200015",
 		price = 0,
 		icon_normal = "",
@@ -6886,6 +7192,185 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"成就",
+				{}
+			}
+		}
+	},
+	[300001] = {
+		name = "丰壤农田委派效率提高 4%",
+		desc = "获得后，丰壤农田委派效率提高 4%",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/buff",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 300001,
+		have_max = 0,
+		filter = {},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
+	},
+	[300002] = {
+		name = "坠香果园委派效率提高 4%",
+		desc = "获得后，坠香果园委派效率提高 4%",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/buff",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 300002,
+		have_max = 0,
+		filter = {},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
+	},
+	[300003] = {
+		name = "青芽苗圃委派效率提高 4%",
+		desc = "获得后，青芽苗圃委派效率提高 4%",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/buff",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 300003,
+		have_max = 0,
+		filter = {},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
+	},
+	[300004] = {
+		name = "丰壤农田委派效率提高 8%",
+		desc = "获得后，丰壤农田委派效率提高 8%",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/buff",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 300004,
+		have_max = 0,
+		filter = {},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
+	},
+	[300005] = {
+		name = "坠香果园委派效率提高 8%",
+		desc = "获得后，坠香果园委派效率提高 8%",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/buff",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 300005,
+		have_max = 0,
+		filter = {},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
+	},
+	[300006] = {
+		name = "青芽苗圃委派效率提高 8%",
+		desc = "获得后，青芽苗圃委派效率提高 8%",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/buff",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 300006,
+		have_max = 0,
+		filter = {},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
 	}
 }

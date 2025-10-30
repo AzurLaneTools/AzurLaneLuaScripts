@@ -45,8 +45,8 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.initUITextTips = function(slot0)
-	setText(slot0:findTF("ExpEveryDay", slot0:findTF("ExpPanel")), i18n("meta_exp_per_day"))
-	setText(slot0:findTF("TaskPanel/StudySkillTip/TipText"), i18n("meta_skill_unlock"))
+	setText(slot0._tf:Find("ExpPanel"):Find("ExpEveryDay"), i18n("meta_exp_per_day"))
+	setText(slot0._tf:Find("TaskPanel/StudySkillTip/TipText"), i18n("meta_skill_unlock"))
 end
 
 slot0.initData = function(slot0)
@@ -102,46 +102,46 @@ slot0.clearTaskInfo = function(slot0, slot1)
 end
 
 slot0.initUI = function(slot0)
-	slot0.shipImg = slot0:findTF("ShipImg")
-	slot0.nameTF = slot0:findTF("NamePanel")
-	slot0.nameScrollText = slot0:findTF("NameMask/NameText", slot0.nameTF)
-	slot0.shipTypeImg = slot0:findTF("TypeImg", slot0.nameTF)
-	slot0.enNameText = slot0:findTF("NameENText", slot0.nameTF)
-	slot0.nameTFStarUIList = UIItemList.New(slot0:findTF("StarContainer", slot0.nameTF), slot0:findTF("StarTpl", slot0.nameTF))
-	slot0.expPanel = slot0:findTF("ExpPanel")
-	slot0.expText = slot0:findTF("ExpText", slot0.expPanel)
-	slot0.expDoubleTag = slot0:findTF("DoubleTag", slot0.expText)
-	slot0.taskPanel = slot0:findTF("TaskPanel")
-	slot0.qCharContainer = slot0:findTF("QChar", slot0.taskPanel)
-	slot0.taskTpl = slot0:findTF("TaskTpl", slot0.taskPanel)
-	slot0.taskScrollTF = slot0:findTF("ScrollView", slot0.taskPanel)
-	slot0.taskTplContainer = slot0:findTF("ScrollView/Viewport/Content", slot0.taskPanel)
-	slot0.taskScrollBar = slot0:findTF("ScrollView/Scrollbar Vertical", slot0.taskPanel)
+	slot0.shipImg = slot0._tf:Find("ShipImg")
+	slot0.nameTF = slot0._tf:Find("NamePanel")
+	slot0.nameScrollText = slot0.nameTF:Find("NameMask/NameText")
+	slot0.shipTypeImg = slot0.nameTF:Find("TypeImg")
+	slot0.enNameText = slot0.nameTF:Find("NameENText")
+	slot0.nameTFStarUIList = UIItemList.New(slot0.nameTF:Find("StarContainer"), slot0.nameTF:Find("StarTpl"))
+	slot0.expPanel = slot0._tf:Find("ExpPanel")
+	slot0.expText = slot0.expPanel:Find("ExpText")
+	slot0.expDoubleTag = slot0.expText:Find("DoubleTag")
+	slot0.taskPanel = slot0._tf:Find("TaskPanel")
+	slot0.qCharContainer = slot0.taskPanel:Find("QChar")
+	slot0.taskTpl = slot0.taskPanel:Find("TaskTpl")
+	slot0.taskScrollTF = slot0.taskPanel:Find("ScrollView")
+	slot0.taskTplContainer = slot0.taskPanel:Find("ScrollView/Viewport/Content")
+	slot0.taskScrollBar = slot0.taskPanel:Find("ScrollView/Scrollbar Vertical")
 	slot0.taskUIItemList = UIItemList.New(slot0.taskTplContainer, slot0.taskTpl)
-	slot0.skillInfoPanel = slot0:findTF("SkillInfo", slot0.taskPanel)
-	slot0.curSkillIcon = slot0:findTF("Skill/Icon", slot0.skillInfoPanel)
-	slot0.curSkillNameScrollText = slot0:findTF("NameMask/Name", slot0.skillInfoPanel)
-	slot0.curSkillLevelText = slot0:findTF("LevelInfo/CurLevel", slot0.skillInfoPanel)
-	slot0.nextSkillLevelText = slot0:findTF("LevelInfo/NextLevel", slot0.skillInfoPanel)
-	slot0.curSkillDescText = slot0:findTF("DescView/Viewport/SkillDesc", slot0.skillInfoPanel)
-	slot0.curSkillProgressText = slot0:findTF("ExpProgress/Text", slot0.skillInfoPanel)
-	slot0.curSkillProgressSlider = slot0:findTF("ExpSlider", slot0.skillInfoPanel)
-	slot0.curSkillQuickBtn = slot0:findTF("QuickBtn", slot0.skillInfoPanel)
-	slot0.studySkillTip = slot0:findTF("StudySkillTip", slot0.taskPanel)
-	slot0.startSkillTip = slot0:findTF("StartLearn", slot0.taskPanel)
-	slot0.maxSkillTip = slot0:findTF("SkillMax", slot0.taskPanel)
-	slot0.studySkillBtn = slot0:findTF("StartLearnBtn", slot0.startSkillTip)
-	slot0.skillPanel = slot0:findTF("SkillPanel")
-	slot0.skillTpl = slot0:findTF("SkillTpl", slot0.skillPanel)
-	slot0.skillContainer = slot0:findTF("Skills/Content", slot0.skillPanel)
+	slot0.skillInfoPanel = slot0.taskPanel:Find("SkillInfo")
+	slot0.curSkillIcon = slot0.skillInfoPanel:Find("Skill/Icon")
+	slot0.curSkillNameScrollText = slot0.skillInfoPanel:Find("NameMask/Name")
+	slot0.curSkillLevelText = slot0.skillInfoPanel:Find("LevelInfo/CurLevel")
+	slot0.nextSkillLevelText = slot0.skillInfoPanel:Find("LevelInfo/NextLevel")
+	slot0.curSkillDescText = slot0.skillInfoPanel:Find("DescView/Viewport/SkillDesc")
+	slot0.curSkillProgressText = slot0.skillInfoPanel:Find("ExpProgress/Text")
+	slot0.curSkillProgressSlider = slot0.skillInfoPanel:Find("ExpSlider")
+	slot0.curSkillQuickBtn = slot0.skillInfoPanel:Find("QuickBtn")
+	slot0.studySkillTip = slot0.taskPanel:Find("StudySkillTip")
+	slot0.startSkillTip = slot0.taskPanel:Find("StartLearn")
+	slot0.maxSkillTip = slot0.taskPanel:Find("SkillMax")
+	slot0.studySkillBtn = slot0.startSkillTip:Find("StartLearnBtn")
+	slot0.skillPanel = slot0._tf:Find("SkillPanel")
+	slot0.skillTpl = slot0.skillPanel:Find("SkillTpl")
+	slot0.skillContainer = slot0.skillPanel:Find("Skills/Content")
 	slot0.skillUIItemList = UIItemList.New(slot0.skillContainer, slot0.skillTpl)
-	slot0.skillUnlockPanel = slot0:findTF("SkillLearnBox")
-	slot0.skillUnlockPanelBG = slot0:findTF("BG", slot0.skillUnlockPanel)
-	slot0.skillUnlockPanelTipText = slot0:findTF("Box/TipText", slot0.skillUnlockPanel)
-	slot0.skillUnlockPanelCancelBtn = slot0:findTF("Box/Btns/CancenBtn", slot0.skillUnlockPanel)
-	slot0.skillUnlockPanelConfirmBtn = slot0:findTF("Box/Btns/ConfirmBtn", slot0.skillUnlockPanel)
-	slot0.materialTpl = slot0:findTF("Box/Material", slot0.skillUnlockPanel)
-	slot0.materialTplContainer = slot0:findTF("Box/MaterialContainer", slot0.skillUnlockPanel)
+	slot0.skillUnlockPanel = slot0._tf:Find("SkillLearnBox")
+	slot0.skillUnlockPanelBG = slot0.skillUnlockPanel:Find("BG")
+	slot0.skillUnlockPanelTipText = slot0.skillUnlockPanel:Find("Box/TipText")
+	slot0.skillUnlockPanelCancelBtn = slot0.skillUnlockPanel:Find("Box/Btns/CancenBtn")
+	slot0.skillUnlockPanelConfirmBtn = slot0.skillUnlockPanel:Find("Box/Btns/ConfirmBtn")
+	slot0.materialTpl = slot0.skillUnlockPanel:Find("Box/Material")
+	slot0.materialTplContainer = slot0.skillUnlockPanel:Find("Box/MaterialContainer")
 	slot0.materialUIItemList = UIItemList.New(slot0.materialTplContainer, slot0.materialTpl)
 end
 
@@ -218,9 +218,9 @@ slot0.updateNamePanel = function(slot0)
 
 	slot0.nameTFStarUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0:findTF("empty", slot2)
+			slot3 = slot2:Find("empty")
 
-			setActive(uv0:findTF("on", slot2), slot1 + 1 <= uv1)
+			setActive(slot2:Find("on"), slot1 + 1 <= uv0)
 		end
 	end)
 	slot0.nameTFStarUIList:align(slot1:getMaxStar())
@@ -253,14 +253,14 @@ end
 
 slot0.updateSkillTF = function(slot0, slot1, slot2)
 	slot4 = slot0.curMetaCharacterVO
-	slot6 = slot0:findTF("Skill/Level", slot1)
-	slot8 = slot0:findTF("Skill/Arrow", slot1)
-	slot9 = slot0:findTF("Lock", slot1)
-	slot10 = slot0:findTF("Learning", slot1)
+	slot6 = slot1:Find("Skill/Level")
+	slot8 = slot1:Find("Skill/Arrow")
+	slot9 = slot1:Find("Lock")
+	slot10 = slot1:Find("Learning")
 	slot11 = getSkillConfig(slot2)
 
-	setImageSprite(slot0:findTF("Skill/Icon", slot1), LoadSprite("skillicon/" .. slot11.icon))
-	setScrollText(slot0:findTF("Skill/Mask/Name", slot1), getSkillName(slot11.id))
+	setImageSprite(slot1:Find("Skill/Icon"), LoadSprite("skillicon/" .. slot11.icon))
+	setScrollText(slot1:Find("Skill/Mask/Name"), getSkillName(slot11.id))
 
 	if slot0.curShipVO:getMetaSkillLevelBySkillID(slot2) > 0 then
 		setText(slot6, "LEVEL: " .. slot12)
@@ -268,7 +268,7 @@ slot0.updateSkillTF = function(slot0, slot1, slot2)
 		onButton(slot0, slot1, function ()
 			if not isActive(uv0) then
 				eachChild(uv1.skillContainer, function (slot0)
-					setActive(uv0:findTF("Skill/Arrow", slot0), false)
+					setActive(slot0:Find("Skill/Arrow"), false)
 				end)
 				setActive(uv0, true)
 				uv1:updateTaskPanel(uv2)
@@ -287,7 +287,7 @@ slot0.updateSkillTFLearning = function(slot0)
 	slot1 = slot0.curShipVO
 
 	for slot5, slot6 in pairs(slot0.skillBtnList) do
-		setActive(slot0:findTF("Learning", slot6), slot5 == slot0.curSkillID and not slot1:isSkillLevelMax(slot5))
+		setActive(slot6:Find("Learning"), slot5 == slot0.curSkillID and not slot1:isSkillLevelMax(slot5))
 	end
 end
 
@@ -345,11 +345,11 @@ end
 slot0.updateTaskListPanel = function(slot0, slot1)
 	slot0.taskUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0:findTF("Desc", slot2)
-			slot5 = uv0:findTF("Text", slot2)
-			slot9 = uv0:getTaskInfoBySkillAndTaskID(uv2, uv1[slot1 + 1][1]) and slot8.finishCount or 0
+			slot3 = slot2:Find("Desc")
+			slot5 = slot2:Find("Text")
+			slot9 = uv1:getTaskInfoBySkillAndTaskID(uv2, uv0[slot1 + 1][1]) and slot8.finishCount or 0
 
-			setText(uv0:findTF("AddExp", slot2), "+" .. slot6[3])
+			setText(slot2:Find("AddExp"), "+" .. slot6[3])
 
 			if slot6[2] == 0 then
 				setText(slot5, slot9 .. "/∞")
@@ -472,13 +472,13 @@ slot0.openUnlockSkillPanel = function(slot0, slot1)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
-			updateDrop(uv1:findTF("Item", slot2), {
+			updateDrop(slot2:Find("Item"), {
 				type = DROP_TYPE_ITEM,
 				id = slot3[2],
 				count = slot3[3]
 			})
-			setActive(uv1:findTF("SelectedTag", slot2), false)
-			setText(uv1:findTF("Count/Text", slot2), (getProxy(BagProxy):getItemCountById(slot3[2]) < slot3[3] and setColorStr(slot10, COLOR_RED) or setColorStr(slot10, COLOR_GREEN)) .. "/" .. slot9)
+			setActive(slot2:Find("SelectedTag"), false)
+			setText(slot2:Find("Count/Text"), (getProxy(BagProxy):getItemCountById(slot3[2]) < slot3[3] and setColorStr(slot10, COLOR_RED) or setColorStr(slot10, COLOR_GREEN)) .. "/" .. slot9)
 
 			uv1.curUnlockMaterialID = slot8
 			uv1.curUnlockMaterialNeedCount = slot9

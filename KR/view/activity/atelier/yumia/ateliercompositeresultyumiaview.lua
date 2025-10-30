@@ -9,12 +9,14 @@ slot0.ShowCompositeResult = function(slot0, slot1)
 		return
 	end
 
-	slot4 = slot0:findTF("Window/itemContant")
-	slot5 = slot0:findTF("Window/AtelierCommonYumiaItem")
+	slot4 = slot0._tf:Find("Window/itemContant")
+	slot5 = slot0._tf:Find("Window/AtelierCommonYumiaItem")
 
 	if slot3.type ~= DROP_TYPE_RYZA_DROP then
 		setActive(slot5, false)
 		setActive(slot4, true)
+
+		slot8 = slot0._tf
 
 		slot10 = function(slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
@@ -23,7 +25,7 @@ slot0.ShowCompositeResult = function(slot0, slot1)
 			end
 		end
 
-		UIItemList.StaticAlign(slot4, slot0:findTF("Window/itemContant/Icon"), #slot1, slot10)
+		UIItemList.StaticAlign(slot4, slot8:Find("Window/itemContant/Icon"), #slot1, slot10)
 
 		slot6 = 0
 
@@ -31,7 +33,7 @@ slot0.ShowCompositeResult = function(slot0, slot1)
 			slot6 = slot11:getCount() + slot6
 		end
 
-		setText(slot0:findTF("Window/CountBG/Text"), slot6)
+		setText(slot0._tf:Find("Window/CountBG/Text"), slot6)
 	else
 		slot6 = AtelierMaterial.New({
 			configId = slot3.id
@@ -41,7 +43,7 @@ slot0.ShowCompositeResult = function(slot0, slot1)
 		slot0._parentClass:UpdateRyzaItem(slot5, slot6)
 		setActive(slot5, true)
 		setActive(slot4, false)
-		setText(slot0:findTF("Window/CountBG/Text"), slot3:getCount())
+		setText(slot0._tf:Find("Window/CountBG/Text"), slot3:getCount())
 	end
 end
 

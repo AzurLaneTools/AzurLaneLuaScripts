@@ -1,12 +1,12 @@
 slot0 = class("LuoenTecCatchupPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.itemTF = slot0:findTF("Award", slot0.bg)
-	slot0.sliderTF = slot0:findTF("Slider", slot0.bg)
-	slot0.progressText = slot0:findTF("Progress", slot0.bg)
-	slot0.goBtn = slot0:findTF("GoBtn", slot0.bg)
-	slot0.finishBtn = slot0:findTF("FinishBtn", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.itemTF = slot0.bg:Find("Award")
+	slot0.sliderTF = slot0.bg:Find("Slider")
+	slot0.progressText = slot0.bg:Find("Progress")
+	slot0.goBtn = slot0.bg:Find("GoBtn")
+	slot0.finishBtn = slot0.bg:Find("FinishBtn")
 end
 
 slot0.OnDataSetting = function(slot0)

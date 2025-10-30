@@ -3,26 +3,26 @@ slot1 = 0.2
 
 slot0.init = function(slot0)
 	slot0.equipmentTFs = {
-		slot0:findTF("equipment_r/skin/equipment_r1"),
-		slot0:findTF("equipment_r/skin/equipment_r2"),
-		slot0:findTF("equipment_r/skin/equipment_r3"),
-		slot0:findTF("equipment_l/skin/equipment_l1"),
-		slot0:findTF("equipment_l/skin/equipment_l2")
+		slot0._tf:Find("equipment_r/skin/equipment_r1"),
+		slot0._tf:Find("equipment_r/skin/equipment_r2"),
+		slot0._tf:Find("equipment_r/skin/equipment_r3"),
+		slot0._tf:Find("equipment_l/skin/equipment_l1"),
+		slot0._tf:Find("equipment_l/skin/equipment_l2")
 	}
+	slot4 = "equipment_l/equipment/equipment_l2"
 	slot0.equipmentNormalTFs = {
-		slot0:findTF("equipment_r/equipment/equipment_r1"),
-		slot0:findTF("equipment_r/equipment/equipment_r2"),
-		slot0:findTF("equipment_r/equipment/equipment_r3"),
-		slot0:findTF("equipment_l/equipment/equipment_l1"),
-		slot0:findTF("equipment_l/equipment/equipment_l2")
+		slot0._tf:Find("equipment_r/equipment/equipment_r1"),
+		slot0._tf:Find("equipment_r/equipment/equipment_r2"),
+		slot0._tf:Find("equipment_r/equipment/equipment_r3"),
+		slot0._tf:Find("equipment_l/equipment/equipment_l1"),
+		slot0._tf:Find(slot4)
 	}
-	slot0.spweaponNormalTF = slot0:findTF("equipment_b/equipment")
-	slot0.equipmentR = slot0:findTF("equipment_r/equipment")
-	slot0.equipmentL = slot0:findTF("equipment_l/equipment")
-	slot0.skinR = slot0:findTF("equipment_r/skin")
-	slot0.skinL = slot0:findTF("equipment_l/skin")
-	slot4 = slot0.equipmentTFs[1]
-	slot0.infoPanel = slot0:findTF("info", slot4)
+	slot0.spweaponNormalTF = slot0._tf:Find("equipment_b/equipment")
+	slot0.equipmentR = slot0._tf:Find("equipment_r/equipment")
+	slot0.equipmentL = slot0._tf:Find("equipment_l/equipment")
+	slot0.skinR = slot0._tf:Find("equipment_r/skin")
+	slot0.skinL = slot0._tf:Find("equipment_l/skin")
+	slot0.infoPanel = slot0.equipmentTFs[1]:Find("info")
 	slot0.inSkinPage = true
 
 	for slot4 = 1, 3 do
@@ -109,13 +109,13 @@ slot0.updateAll = function(slot0, slot1)
 				slot0:updateEquipmentTF(slot1, slot5)
 			end
 
-			if slot0:findTF("shadow", slot6) then
+			if slot6:Find("shadow") then
 				setActive(slot8, slot0.inSkinPage)
 			end
 		end
 
 		for slot5, slot6 in ipairs(slot0.equipmentNormalTFs) do
-			if slot0:findTF("shadow", slot6) then
+			if slot6:Find("shadow") then
 				setActive(slot7, not slot0.inSkinPage)
 			end
 		end
@@ -137,7 +137,7 @@ slot0.updateEquipmentTF = function(slot0, slot1, slot2)
 			slot6 = cloneTplTo(slot0.infoPanel, slot3, "info")
 		end
 
-		slot0:findTF("panel_title/type", slot3):GetComponent(typeof(Text)).text = EquipType.LabelToName(EquipType.Types2Title(slot2, slot0.shipVO.configId))
+		slot3:Find("panel_title/type"):GetComponent(typeof(Text)).text = EquipType.LabelToName(EquipType.Types2Title(slot2, slot0.shipVO.configId))
 
 		setActive(slot3:Find("unequip"), false)
 

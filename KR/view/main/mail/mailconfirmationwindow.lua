@@ -9,14 +9,14 @@ slot0.OnInit = function(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.closeBtn = slot0:findTF("adapt/window/top/btnBack")
+	slot0.closeBtn = slot0._tf:Find("adapt/window/top/btnBack")
 
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.cancelButton = slot0:findTF("adapt/window/button_container/btn_not")
-	slot0.confirmButton = slot0:findTF("adapt/window/button_container/btn_ok")
+	slot0.cancelButton = slot0._tf:Find("adapt/window/button_container/btn_not")
+	slot0.confirmButton = slot0._tf:Find("adapt/window/button_container/btn_ok")
 	slot0._window = slot0._tf:Find("adapt/window")
 	slot0._window_details = slot0._tf:Find("adapt/window_details")
 	slot0.titleTips = slot0._window:Find("top/bg/infomation/title")

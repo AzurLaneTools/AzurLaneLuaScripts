@@ -96,11 +96,11 @@ slot0.getAnimId = function(slot0)
 end
 
 slot0.playSwingAnim = function(slot0, slot1)
-	slot0:findTF("pos/Image", slot1):GetComponent(typeof(Animation)):Play("swing")
+	slot1:Find("pos/Image"):GetComponent(typeof(Animation)):Play("swing")
 end
 
 slot0.stopSwingAnim = function(slot0, slot1)
-	slot0:findTF("pos/Image", slot1):GetComponent(typeof(Animation)):Stop()
+	slot1:Find("pos/Image"):GetComponent(typeof(Animation)):Stop()
 end
 
 return slot0

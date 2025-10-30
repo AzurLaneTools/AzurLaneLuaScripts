@@ -18,13 +18,13 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.content = slot0:findTF("scrollrect/content")
-	slot0.soldOutTF = slot0:findTF("sold_out")
+	slot0.content = slot0._tf:Find("scrollrect/content")
+	slot0.soldOutTF = slot0._tf:Find("sold_out")
 
-	setText(slot0:findTF("Text", slot0.soldOutTF), i18n("newserver_soldout"))
+	setText(slot0.soldOutTF:Find("Text"), i18n("newserver_soldout"))
 	setActive(slot0.soldOutTF, #slot0.giftGoodsVOList == 0)
 
-	slot0.giftItemList = UIItemList.New(slot0.content, slot0:findTF("gift_tpl"))
+	slot0.giftItemList = UIItemList.New(slot0.content, slot0._tf:Find("gift_tpl"))
 	slot0.chargeCardTable = {}
 
 	slot0.giftItemList:make(function (slot0, slot1, slot2)

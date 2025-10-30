@@ -2,16 +2,16 @@ slot0 = class("DreamSignPage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
 	slot0.lockNamed = PLATFORM_CODE == PLATFORM_CH and LOCK_NAMED
-	slot0.bg = slot0:findTF("AD")
-	slot0.signTF = slot0:findTF("sign", slot0.bg)
-	slot0.items = slot0:findTF("items", slot0.signTF)
-	slot0.uilist = UIItemList.New(slot0.items, slot0:findTF("tpl", slot0.items))
-	slot0.signBtn = slot0:findTF("get", slot0.signTF)
-	slot0.goBtn = slot0:findTF("go", slot0.signTF)
-	slot0.lock = slot0:findTF("lock", slot0.signTF)
-	slot0.countText = slot0:findTF("count", slot0.signBtn)
-	slot0.signRed = slot0:findTF("tip", slot0.signBtn)
-	slot0.dreamRed = slot0:findTF("tip", slot0.goBtn)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.signTF = slot0.bg:Find("sign")
+	slot0.items = slot0.signTF:Find("items")
+	slot0.uilist = UIItemList.New(slot0.items, slot0.items:Find("tpl"))
+	slot0.signBtn = slot0.signTF:Find("get")
+	slot0.goBtn = slot0.signTF:Find("go")
+	slot0.lock = slot0.signTF:Find("lock")
+	slot0.countText = slot0.signBtn:Find("count")
+	slot0.signRed = slot0.signBtn:Find("tip")
+	slot0.dreamRed = slot0.goBtn:Find("tip")
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -28,9 +28,7 @@ slot0.OnFirstFlush = function(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
-			slot5 = uv0
-
-			updateDrop(slot5:findTF("item_mask/item", slot2), Drop.Create(uv0.taskConfig[uv0.taskGroup[slot1 + 1]].award_display[1]))
+			updateDrop(slot2:Find("item_mask/item"), Drop.Create(uv0.taskConfig[uv0.taskGroup[slot1 + 1]].award_display[1]))
 			onButton(uv0, slot2, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
@@ -41,7 +39,7 @@ slot0.OnFirstFlush = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot5 = uv0.taskProxy:getTaskById(uv0.taskGroup[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot4)
 
-			setActive(uv0:findTF("got", slot2), slot3 < uv0.nday or slot5 and slot5:getTaskStatus() == 2)
+			setActive(slot2:Find("got"), slot3 < uv0.nday or slot5 and slot5:getTaskStatus() == 2)
 		end
 	end)
 	onButton(slot0, slot0.signBtn, function ()

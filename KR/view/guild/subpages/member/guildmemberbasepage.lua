@@ -6,7 +6,7 @@ slot0.SetCallBack = function(slot0, slot1, slot2)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.buttonContainer = slot0:findTF("frame/opera")
+	slot0.buttonContainer = slot0._tf:Find("frame/opera")
 	slot2 = pg.UIMgr.GetInstance().OverlayMain.transform:InverseTransformPoint(slot0.buttonContainer.position)
 	slot0.buttonPos = Vector3(slot2.x, slot2.y, 0)
 end

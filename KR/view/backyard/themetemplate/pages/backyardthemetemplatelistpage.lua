@@ -6,24 +6,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.LoadDetail = function(slot0)
-	setActive(slot0:findTF("adpter/descript"), false)
+	setActive(slot0._tf:Find("adpter/descript"), false)
 end
 
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.tipBg = slot0:findTF("tip")
+	slot1 = slot0._tf
+	slot0.tipBg = slot1:Find("tip")
 	slot0.tips = {
-		slot0:findTF("tip1"),
-		slot0:findTF("tip2"),
-		slot0:findTF("tip3")
+		slot0._tf:Find("tip1"),
+		slot0._tf:Find("tip2"),
+		slot0._tf:Find("tip3")
 	}
-	slot0.goBtn = slot0:findTF("go_btn")
-	slot0.helpBtn = slot0:findTF("adpter/help")
-	slot1 = slot0:findTF("preview_raw")
-	slot0.rawImage = slot1:GetComponent(typeof(RawImage))
-	slot0.listRect = slot0:findTF("list/frame")
-	slot0.refreshBtns = slot0:findTF("adpter/refresh_btns")
+	slot0.goBtn = slot0._tf:Find("go_btn")
+	slot0.helpBtn = slot0._tf:Find("adpter/help")
+	slot0.rawImage = slot0._tf:Find("preview_raw"):GetComponent(typeof(RawImage))
+	slot0.listRect = slot0._tf:Find("list/frame")
+	slot1 = slot0._tf
+	slot0.refreshBtns = slot1:Find("adpter/refresh_btns")
 	slot0.btns = {
 		[5] = slot0.refreshBtns:Find("random"),
 		[3] = slot0.refreshBtns:Find("hot"),
@@ -67,8 +68,8 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	slot0.scrollRect.onValueChanged:RemoveAllListeners()
 
-	slot0.arrLeftBtnShop = slot0:findTF("list/frame/zuobian_shop")
-	slot0.arrRightBtnShop = slot0:findTF("list/frame/youbian_shop")
+	slot0.arrLeftBtnShop = slot0._tf:Find("list/frame/zuobian_shop")
+	slot0.arrRightBtnShop = slot0._tf:Find("list/frame/youbian_shop")
 
 	onButton(slot0, slot0.arrLeftBtnShop, function ()
 		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
@@ -108,9 +109,9 @@ slot0.OnInit = function(slot0)
 	slot0.contextData.themeMsgBox = BackYardThemeTemplatePurchaseMsgbox.New(slot0._parentTf, slot0.event, slot0.contextData)
 
 	setText(slot0.goBtn:Find("Text"), i18n("courtyard_label_go"))
-	setText(slot0:findTF("tip1"), i18n("courtyard_label_empty_template_list"))
-	setText(slot0:findTF("tip2"), i18n("courtyard_label_empty_custom_template_list"))
-	setText(slot0:findTF("tip3"), i18n("courtyard_label_empty_collection_list"))
+	setText(slot0._tf:Find("tip1"), i18n("courtyard_label_empty_template_list"))
+	setText(slot0._tf:Find("tip2"), i18n("courtyard_label_empty_custom_template_list"))
+	setText(slot0._tf:Find("tip3"), i18n("courtyard_label_empty_collection_list"))
 end
 
 slot0.InitInput = function(slot0)
@@ -401,6 +402,8 @@ slot0.SetTotalCount = function(slot0)
 			end
 		end
 	end
+
+	slot0.scrollRect.enabsled = true
 
 	slot0.scrollRect:SetTotalCount(#slot0.disPlays)
 end

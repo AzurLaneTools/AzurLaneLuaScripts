@@ -121,13 +121,13 @@ slot0.init = function(slot0)
 	slot0.resAtlas:setParent(slot0.rtTopAtlas:Find("resources"), false)
 
 	slot0.resMap = WorldResource.New()
-	slot3 = slot0.rtTopMap
 
-	slot0.resMap:setParent(slot3:Find("resources"), false)
+	slot0.resMap:setParent(slot0.rtTopMap:Find("resources"), false)
 
 	slot0.wsPool = WSPool.New()
+	slot3 = slot0._tf
 
-	slot0.wsPool:Setup(slot0:findTF("resources"))
+	slot0.wsPool:Setup(slot3:Find("resources"))
 
 	slot0.wsAnim = WSAnim.New()
 
@@ -177,7 +177,8 @@ slot0.init = function(slot0)
 end
 
 slot0.InitSubView = function(slot0)
-	slot0.rtPanelList = slot0:findTF("panel_list")
+	slot1 = slot0._tf
+	slot0.rtPanelList = slot1:Find("panel_list")
 	slot0.svOrderPanel = SVOrderPanel.New(slot0.rtPanelList, slot0.event, {
 		wsPool = slot0.wsPool
 	})

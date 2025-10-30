@@ -5,18 +5,18 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
-	slot0.cancelBtn = slot0:findTF("window/button_container/cancel")
-	slot0.confirmBtn = slot0:findTF("window/button_container/confirm")
-	slot0.content = slot0:findTF("window/single_item_panel/Text")
-	slot0.itemTpl = slot0:findTF("window/single_item_panel/left")
-	slot0.resTpl = slot0:findTF("window/single_item_panel/right")
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.cancelBtn = slot0._tf:Find("window/button_container/cancel")
+	slot0.confirmBtn = slot0._tf:Find("window/button_container/confirm")
+	slot0.content = slot0._tf:Find("window/single_item_panel/Text")
+	slot0.itemTpl = slot0._tf:Find("window/single_item_panel/left")
+	slot0.resTpl = slot0._tf:Find("window/single_item_panel/right")
 	slot0.itemName = slot0.itemTpl:Find("name_bg/Text"):GetComponent(typeof(Text))
 	slot0.resName = slot0.resTpl:Find("name_bg/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("window/top/bg/infomation/title"), i18n("words_information"))
-	setText(slot0:findTF("window/button_container/cancel/pic"), i18n("word_cancel"))
-	setText(slot0:findTF("window/button_container/confirm/pic"), i18n("word_ok"))
+	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("words_information"))
+	setText(slot0._tf:Find("window/button_container/cancel/pic"), i18n("word_cancel"))
+	setText(slot0._tf:Find("window/button_container/confirm/pic"), i18n("word_ok"))
 end
 
 slot0.OnInit = function(slot0)

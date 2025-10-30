@@ -1,13 +1,13 @@
 slot0 = class("WarspiteTransformationPage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD", slot0._tf)
-	slot0.btn = slot0:findTF("battle_btn", slot0.bg)
-	slot0.tip = slot0:findTF("help", slot0.bg)
-	slot0.mainAward = slot0:findTF("award", slot0.bg)
-	slot0.subAwards = CustomIndexLayer.Clone2Full(slot0:findTF("list", slot0.bg), 7)
-	slot0.step = slot0:findTF("receivetimes", slot0.bg)
-	slot0.score = slot0:findTF("highscore", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.btn = slot0.bg:Find("battle_btn")
+	slot0.tip = slot0.bg:Find("help")
+	slot0.mainAward = slot0.bg:Find("award")
+	slot0.subAwards = CustomIndexLayer.Clone2Full(slot0.bg:Find("list"), 7)
+	slot0.step = slot0.bg:Find("receivetimes")
+	slot0.score = slot0.bg:Find("highscore")
 end
 
 slot0.OnDataSetting = function(slot0)

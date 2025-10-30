@@ -7,10 +7,10 @@ slot4 = "event:/ui/kaiji"
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.effectBlankScreen = slot0:findTF("blank_screen_effect", slot0.bg)
-	slot0.effectOpen = slot0:findTF("open_effect", slot0.bg)
-	slot0.effectBlink = slot0:findTF("blink_effect", slot0.bg)
-	slot0.effectClick = slot0:findTF("click_effect", slot0.bg)
+	slot0.effectBlankScreen = slot0.bg:Find("blank_screen_effect")
+	slot0.effectOpen = slot0.bg:Find("open_effect")
+	slot0.effectBlink = slot0.bg:Find("blink_effect")
+	slot0.effectClick = slot0.bg:Find("click_effect")
 end
 
 slot0.OnFirstFlush = function(slot0)
