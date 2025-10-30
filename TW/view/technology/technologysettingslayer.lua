@@ -73,36 +73,35 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
+	slot0.bg = slot0._tf:Find("BG")
 
-	setText(slot0:findTF("BackTips/ClickText", slot0.bg), i18n("click_back_tip"))
+	setText(slot0.bg:Find("BackTips/ClickText"), i18n("click_back_tip"))
 
 	slot0.leftBtnList = {}
-	slot7 = slot0:findTF("LeftScrollViewMask/LeftScrollView/LeftBtnList", slot0:findTF("Panel"))
-	slot0.tendencyBtn = slot0:findTF("TendencyBtn", slot7)
+	slot0.tendencyBtn = slot0._tf:Find("Panel"):Find("LeftScrollViewMask/LeftScrollView/LeftBtnList"):Find("TendencyBtn")
 	slot0.leftBtnList[uv0.TEC_PAGE_TENDENCY] = slot0.tendencyBtn
 	slot0.catchupBtns = {}
 
 	for slot7 = 1, uv0.CATCHUP_VERSION do
-		slot0.catchupBtns[slot7] = cloneTplTo(slot0:findTF("TargetCatchupBtn_tpl", slot3), slot3)
+		slot0.catchupBtns[slot7] = cloneTplTo(slot3:Find("TargetCatchupBtn_tpl"), slot3)
 		slot0.leftBtnList[slot7 + 1] = slot0.catchupBtns[slot7]
 	end
 
-	slot0.actCatchupBtn = slot0:findTF("ActCatchupBtn", slot3)
+	slot0.actCatchupBtn = slot3:Find("ActCatchupBtn")
 
 	slot0.actCatchupBtn:SetAsLastSibling()
 
 	slot0.leftBtnList[uv0.TEC_PAGE_CATCHUP_ACT] = slot0.actCatchupBtn
-	slot4 = slot0:findTF("RightPanelContainer", slot2)
+	slot4 = slot2:Find("RightPanelContainer")
 	slot0.rightPageTFList = {}
-	slot0.tendencyPanel = slot0:findTF("TecTendencyPanel", slot4)
+	slot0.tendencyPanel = slot4:Find("TecTendencyPanel")
 	slot0.rightPageTFList[uv0.TEC_PAGE_TENDENCY] = slot0.tendencyPanel
 	slot0.catchupPanels = {}
-	slot0.actCatchupPanel = slot0:findTF("ActCatchupPanel", slot4)
+	slot0.actCatchupPanel = slot4:Find("ActCatchupPanel")
 	slot0.rightPageTFList[uv0.TEC_PAGE_CATCHUP_ACT] = slot0.actCatchupPanel
-	slot0.showFinish = slot0:findTF("ShowFinishToggle")
+	slot0.showFinish = slot0._tf:Find("ShowFinishToggle")
 
-	setText(slot0:findTF("Label", slot0.showFinish), i18n("tec_target_catchup_show_the_finished_version"))
+	setText(slot0.showFinish:Find("Label"), i18n("tec_target_catchup_show_the_finished_version"))
 
 	slot0.showFinishFlag = PlayerPrefs.GetInt("isShowFinishCatchupVersion") or 0
 
@@ -128,7 +127,7 @@ slot0.addListener = function(slot0)
 
 			if uv0.curPageID ~= uv1 then
 				uv0:resetLeftBtnUnsel()
-				setActive(uv0:findTF("Selected", uv2), true)
+				setActive(uv2:Find("Selected"), true)
 				uv0:switchRightPage(uv1)
 			end
 		end, SFX_PANEL)
@@ -158,7 +157,7 @@ end
 
 slot0.resetLeftBtnUnsel = function(slot0)
 	for slot4, slot5 in pairs(slot0.leftBtnList) do
-		setActive(slot0:findTF("Selected", slot5), false)
+		setActive(slot5:Find("Selected"), false)
 	end
 end
 
@@ -167,8 +166,8 @@ slot0.switchRightPage = function(slot0, slot1)
 		function (slot0)
 			if not uv0.rightPageTFList[uv1] then
 				slot1 = uv1 - 1
-				slot2 = uv0
-				slot2 = slot2:findTF("Panel/RightPanelContainer")
+				slot2 = uv0._tf
+				slot2 = slot2:Find("Panel/RightPanelContainer")
 				uv0.catchupPanels[slot1] = uv2.CATCHUP_CLASSES[slot1].New(nil, function ()
 					uv0.rightPageTFList[uv1] = uv0.catchupPanels[uv2]._go
 
@@ -213,7 +212,7 @@ slot0.switchRightPage = function(slot0, slot1)
 end
 
 slot0.initTendencyPage = function(slot0)
-	slot2 = slot0:findTF("TecItemList", slot0.tendencyPanel)
+	slot2 = slot0.tendencyPanel:Find("TecItemList")
 	slot3 = UIItemList.New(slot2, slot2:Find("tpl"))
 
 	slot3:make(function (slot0, slot1, slot2)
@@ -233,7 +232,7 @@ slot0.initTendencyPage = function(slot0)
 end
 
 slot0.updateTendencyPage = function(slot0, slot1)
-	slot2 = slot0:findTF("TecItemList", slot0.tendencyPanel)
+	slot2 = slot0.tendencyPanel:Find("TecItemList")
 
 	setActive(slot2:GetChild(slot0.curTendency):Find("Selected"), false)
 
@@ -242,7 +241,7 @@ slot0.updateTendencyPage = function(slot0, slot1)
 	setActive(slot3, true)
 	setImageAlpha(slot3:Find("Image"), 0)
 	slot0:managedTween(LeanTween.alpha, nil, slot3:Find("Image"), 1, uv0.SELECT_TENDENCY_FADE_TIME):setFrom(0)
-	setImageAlpha(slot0:findTF("TendencyNum", slot0.tendencyPanel):Find("Image"), 0)
+	setImageAlpha(slot0.tendencyPanel:Find("TendencyNum"):Find("Image"), 0)
 
 	if slot1 > 0 then
 		GetImageSpriteFromAtlasAsync("ui/technologysettingsui_atlas", "right_tendency_num_" .. slot1, slot4:Find("Image"), true)
@@ -267,12 +266,12 @@ slot0.updateTargetCatchupBtns = function(slot0)
 	for slot4, slot5 in pairs(slot0.catchupBtns) do
 		if slot4 <= uv0.CATCHUP_VERSION then
 			slot7 = slot0.technologyProxy:getCatchupState(slot4) == TechnologyCatchup.STATE_CATCHUPING
-			slot8 = slot0:findTF("UnSelect/Text", slot5)
-			slot9 = slot0:findTF("Selected/Text", slot5)
-			slot10 = slot0:findTF("UnSelect/CharImg", slot5)
-			slot11 = slot0:findTF("Selected/CharImg", slot5)
-			slot12 = slot0:findTF("ProgressText", slot10)
-			slot13 = slot0:findTF("ProgressText", slot11)
+			slot8 = slot5:Find("UnSelect/Text")
+			slot9 = slot5:Find("Selected/Text")
+			slot10 = slot5:Find("UnSelect/CharImg")
+			slot11 = slot5:Find("Selected/CharImg")
+			slot12 = slot10:Find("ProgressText")
+			slot13 = slot11:Find("ProgressText")
 
 			setActive(slot10, slot7)
 			setActive(slot11, slot7)
@@ -319,16 +318,16 @@ slot0.initActCatchupPage = function(slot0)
 			})
 			setAnchoredPosition(slot0, Vector2.zero)
 
-			uv0.actCatchupTF = uv0:findTF("AD", tf(slot0))
-			uv0.actCatchupItemTF = uv0:findTF("Award", uv0.actCatchupTF)
-			uv0.actCatchupSliderTF = uv0:findTF("Slider", uv0.actCatchupTF)
-			uv0.actCatchupProgressText = uv0:findTF("Progress", uv0.actCatchupTF)
+			uv0.actCatchupTF = tf(slot0):Find("AD")
+			uv0.actCatchupItemTF = uv0.actCatchupTF:Find("Award")
+			uv0.actCatchupSliderTF = uv0.actCatchupTF:Find("Slider")
+			uv0.actCatchupProgressText = uv0.actCatchupTF:Find("Progress")
 
-			if uv0:findTF("GoBtn", uv0.actCatchupTF) then
+			if uv0.actCatchupTF:Find("GoBtn") then
 				setActive(slot1, false)
 			end
 
-			if uv0:findTF("FinishBtn", uv0.actCatchupTF) then
+			if uv0.actCatchupTF:Find("FinishBtn") then
 				setActive(slot2, false)
 			end
 
@@ -355,11 +354,11 @@ slot0.updateActCatchupPage = function(slot0)
 end
 
 slot0.updateActCatchupBtn = function(slot0)
-	setText(slot0:findTF("UnSelect/Text", slot0.actCatchupBtn), i18n("tec_act_catchup_btn_word"))
-	setText(slot0:findTF("Selected/Text", slot0.actCatchupBtn), i18n("tec_act_catchup_btn_word"))
+	setText(slot0.actCatchupBtn:Find("UnSelect/Text"), i18n("tec_act_catchup_btn_word"))
+	setText(slot0.actCatchupBtn:Find("Selected/Text"), i18n("tec_act_catchup_btn_word"))
 
-	slot5 = slot0:findTF("ProgressText", slot0:findTF("UnSelect/CharImg", slot0.actCatchupBtn))
-	slot6 = slot0:findTF("ProgressText", slot0:findTF("Selected/CharImg", slot0.actCatchupBtn))
+	slot5 = slot0.actCatchupBtn:Find("UnSelect/CharImg"):Find("ProgressText")
+	slot6 = slot0.actCatchupBtn:Find("Selected/CharImg"):Find("ProgressText")
 	slot7 = false
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot8:isEnd() then
@@ -381,10 +380,10 @@ slot0.updateActCatchupBtn = function(slot0)
 			slot0.actCatchupTimer = nil
 		end
 
-		slot14 = slot0:findTF("TimeLeft/Day", slot0.actCatchupBtn)
-		slot15 = slot0:findTF("TimeLeft/Hour", slot0.actCatchupBtn)
-		slot16 = slot0:findTF("TimeLeft/Min", slot0.actCatchupBtn)
-		slot17 = slot0:findTF("TimeLeft/NumText", slot0.actCatchupBtn)
+		slot14 = slot0.actCatchupBtn:Find("TimeLeft/Day")
+		slot15 = slot0.actCatchupBtn:Find("TimeLeft/Hour")
+		slot16 = slot0.actCatchupBtn:Find("TimeLeft/Min")
+		slot17 = slot0.actCatchupBtn:Find("TimeLeft/NumText")
 		slot0.actCatchupTimer = Timer.New(function ()
 			slot0, slot1, slot2, slot3 = pg.TimeMgr.GetInstance():parseTimeFrom(uv0)
 			uv0 = uv0 - 1

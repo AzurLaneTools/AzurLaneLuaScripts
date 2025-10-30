@@ -3,7 +3,8 @@ slot0 = class("ALYPtPage", import("..CorePageNewPtTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot1 = slot0:findTF("bg/Image_back")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("bg/Image_back")
 	slot0.anim = slot1:GetComponent(typeof(Animation))
 	slot1 = slot0.anim
 
@@ -24,8 +25,8 @@ slot0.OnInit = function(slot0)
 	slot1 = slot0._tfanimEvent
 
 	slot1:SetEndEvent(function ()
-		setActive(uv0:findTF("bg/Image_back_Loop"), true)
-		setActive(uv0:findTF("bg/VX"), true)
+		setActive(uv0._tf:Find("bg/Image_back_Loop"), true)
+		setActive(uv0._tf:Find("bg/VX"), true)
 	end)
 
 	slot0.itemAlpha = 0
@@ -85,10 +86,10 @@ end
 
 slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
-	setText(slot0:findTF("Text (Legacy)", slot0.shopBtn), i18n("yumia_pt_3"))
-	setText(slot0:findTF("Text (Legacy)", slot0.getBtn), i18n("yumia_pt_2"))
-	setText(slot0:findTF("rule_bg/rule_text", slot0.bg), i18n("yumia_pt_1"))
-	setText(slot0:findTF("pt_bg/Text (Legacy)", slot0.bg), i18n("yumia_pt_tip"))
+	setText(slot0._tf:Find("Text (Legacy)", slot0.shopBtn), i18n("yumia_pt_3"))
+	setText(slot0._tf:Find("Text (Legacy)", slot0.getBtn), i18n("yumia_pt_2"))
+	setText(slot0.bg:Find("rule_bg/rule_text"), i18n("yumia_pt_1"))
+	setText(slot0._tf:Find("pt_bg/Text (Legacy)", slot0.bg), i18n("yumia_pt_tip"))
 end
 
 slot0.UpdateNextAward = function(slot0, slot1)

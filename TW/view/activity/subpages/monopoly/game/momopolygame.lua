@@ -544,30 +544,30 @@ end
 slot0.init = function(slot0)
 	slot0:blockAllEvent(false)
 
-	slot0.bg = slot0:findTF("AD")
+	slot0.bg = slot0._tf:Find("AD")
 	slot0.mapCellTpl = slot0:getTpl("mapCell", slot0.bg)
-	slot0.mapContainer = slot0:findTF("mapContainer", slot0.bg)
+	slot0.mapContainer = slot0.bg:Find("mapContainer")
 	slot0.charTpl = slot0:getTpl("char", slot0.bg)
-	slot0.startBtn = slot0:findTF("start", slot0.bg)
-	slot0.valueImg = slot0:findTF("value", slot0.bg):GetComponent(typeof(Image))
-	slot0.leftcountLabel = slot0:findTF("leftcount", slot0.bg):GetComponent(typeof(Text))
-	slot0.leftCountTF = slot0:findTF("leftcount/Text", slot0.bg):GetComponent(typeof(Text))
-	slot0.nextRedPacketStepTF = slot0:findTF("nextRpStep/Text", slot0.bg):GetComponent(typeof(Text))
-	slot0.commonRp = slot0:findTF("rp", slot0.bg)
+	slot0.startBtn = slot0.bg:Find("start")
+	slot0.valueImg = slot0.bg:Find("value"):GetComponent(typeof(Image))
+	slot0.leftcountLabel = slot0.bg:Find("leftcount"):GetComponent(typeof(Text))
+	slot0.leftCountTF = slot0.bg:Find("leftcount/Text"):GetComponent(typeof(Text))
+	slot0.nextRedPacketStepTF = slot0.bg:Find("nextRpStep/Text"):GetComponent(typeof(Text))
+	slot0.commonRp = slot0.bg:Find("rp")
 	slot0.commonAnim = slot0.commonRp:GetComponent(typeof(Animator))
-	slot0.commonRpCnt = slot0:findTF("rp_text/Text", slot0.bg):GetComponent(typeof(Text))
-	slot0.dropShipTxt = slot0:findTF("AD/drop_ship_text"):GetComponent(typeof(Text))
-	slot0.helpBtn = slot0:findTF("AD/help")
-	slot0.anim = slot0:findTF("AD/anim")
+	slot0.commonRpCnt = slot0.bg:Find("rp_text/Text"):GetComponent(typeof(Text))
+	slot0.dropShipTxt = slot0._tf:Find("AD/drop_ship_text"):GetComponent(typeof(Text))
+	slot0.helpBtn = slot0._tf:Find("AD/help")
+	slot0.anim = slot0._tf:Find("AD/anim")
 
 	setActive(slot0.anim, false)
 
 	slot0.leftcountLabel.text = i18n("monopoly_left_count")
-	slot0.advanceTag = slot0:findTF("AD/rp/sp")
-	slot0.advanceLabel = slot0:findTF("AD/rp_text/sp")
-	slot0.advancecLabel = slot0:findTF("AD/rp_text/label")
-	slot0.advanceImage = slot0:findTF("AD/rp_text/sp_img")
-	slot0.advanceTxt = slot0:findTF("AD/rp_text/sp_img/Text"):GetComponent(typeof(Text))
+	slot0.advanceTag = slot0._tf:Find("AD/rp/sp")
+	slot0.advanceLabel = slot0._tf:Find("AD/rp_text/sp")
+	slot0.advancecLabel = slot0._tf:Find("AD/rp_text/label")
+	slot0.advanceImage = slot0._tf:Find("AD/rp_text/sp_img")
+	slot0.advanceTxt = slot0._tf:Find("AD/rp_text/sp_img/Text"):GetComponent(typeof(Text))
 end
 
 slot0.updateNextRedPacketStep = function(slot0)
@@ -861,14 +861,8 @@ slot0.playerAnim = function(slot0, slot1)
 	slot0.timer:Start()
 end
 
-slot0.findTF = function(slot0, slot1, slot2)
-	assert(slot0._tf, "transform should exist")
-
-	return findTF(slot2 or slot0._tf, slot1)
-end
-
 slot0.getTpl = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF(slot1, slot2)
+	slot3 = slot2:Find(slot1)
 
 	slot3:SetParent(slot0._tf, false)
 	SetActive(slot3, false)

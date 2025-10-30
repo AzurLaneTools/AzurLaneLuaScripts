@@ -54,17 +54,22 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUIText = function(slot0)
-	setText(slot0:findTF("Adapt/TipBG/Text"), i18n("tech_package_tip"))
+	setText(slot0._tf:Find("Adapt/TipBG/Text"), i18n("tech_package_tip"))
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.itemTpl = slot0:findTF("ItemTpl")
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("BG")
+	slot3 = slot0._tf
+	slot0.itemTpl = slot3:Find("ItemTpl")
+	slot3 = slot0.itemTpl
 
-	setParent(Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0]), slot0:findTF("Container", slot0.itemTpl), false)
+	setParent(Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0]), slot3:Find("Container"), false)
 
-	slot0.giftTpl = slot0:findTF("GiftTpl")
-	slot0.giftContainer = slot0:findTF("List")
+	slot4 = slot0._tf
+	slot0.giftTpl = slot4:Find("GiftTpl")
+	slot4 = slot0._tf
+	slot0.giftContainer = slot4:Find("List")
 	slot0.giftUIItemList = UIItemList.New(slot0.giftContainer, slot0.giftTpl)
 	slot4 = slot0.giftUIItemList
 
@@ -82,20 +87,20 @@ slot0.addListener = function(slot0)
 end
 
 slot0.updateGiftTF = function(slot0, slot1, slot2)
-	slot9 = slot0:findTF("Title", slot1)
-	slot10 = slot0:findTF("GiftImage", slot1)
-	slot11 = slot0:findTF("Desc1", slot1)
-	slot12 = slot0:findTF("Desc2", slot1)
-	slot13 = slot0:findTF("List", slot1)
+	slot9 = slot1:Find("Title")
+	slot10 = slot1:Find("GiftImage")
+	slot11 = slot1:Find("Desc1")
+	slot12 = slot1:Find("Desc2")
+	slot13 = slot1:Find("List")
 	slot15 = slot2:getConfig("limit_arg") == 2
 	slot17 = ChargeConst.getBuyCount(slot0.chargedList, slot0.normalGoodVO.id) > 0
 
-	setActive(slot0:findTF("BG/Normal", slot1), slot15)
-	setActive(slot0:findTF("BG/Special", slot1), not slot15)
-	setActive(slot0:findTF("Buy/Normal", slot1), slot15 and not slot17)
-	setActive(slot0:findTF("Buy/Special", slot1), slot2:getConfig("limit_arg") == 1)
-	setActive(slot0:findTF("Buy/Up", slot1), slot2:getConfig("limit_arg") == 3)
-	setActive(slot0:findTF("Buy/Disable", slot1), slot15 and slot17)
+	setActive(slot1:Find("BG/Normal"), slot15)
+	setActive(slot1:Find("BG/Special"), not slot15)
+	setActive(slot1:Find("Buy/Normal"), slot15 and not slot17)
+	setActive(slot1:Find("Buy/Special"), slot2:getConfig("limit_arg") == 1)
+	setActive(slot1:Find("Buy/Up"), slot2:getConfig("limit_arg") == 3)
+	setActive(slot1:Find("Buy/Disable"), slot15 and slot17)
 
 	if slot15 and slot17 then
 		setGray(slot1, true, true)
@@ -136,14 +141,14 @@ slot0.updateGiftTF = function(slot0, slot1, slot2)
 
 	slot20:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("Container", slot2):GetChild(0)
-			slot6 = uv1[slot1 + 1]
+			slot4 = slot2:Find("Container"):GetChild(0)
+			slot6 = uv0[slot1 + 1]
 
 			updateDrop(slot4, slot6)
-			onButton(uv0, slot4, function ()
+			onButton(uv1, slot4, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setScrollText(uv0:findTF("TextMask/Text", slot2), slot6:getName())
+			setScrollText(slot2:Find("TextMask/Text"), slot6:getName())
 		end
 	end)
 	slot20:align(#slot19)

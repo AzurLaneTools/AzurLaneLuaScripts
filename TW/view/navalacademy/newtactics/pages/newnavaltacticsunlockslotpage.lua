@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.contentTxt = slot0:findTF("content/Text"):GetComponent(typeof(Text))
-	slot0.discountDateTxt = slot0:findTF("content/discountDate"):GetComponent(typeof(Text))
-	slot0.discountTxt = slot0:findTF("content/discountInfo/Text"):GetComponent(typeof(Text))
-	slot0.confirmBtn = slot0:findTF("content/confirm_btn")
-	slot0.cancelBtn = slot0:findTF("content/cancel_btn")
-	slot0.closeBtn = slot0:findTF("content/btnBack")
+	slot0.contentTxt = slot0._tf:Find("content/Text"):GetComponent(typeof(Text))
+	slot0.discountDateTxt = slot0._tf:Find("content/discountDate"):GetComponent(typeof(Text))
+	slot0.discountTxt = slot0._tf:Find("content/discountInfo/Text"):GetComponent(typeof(Text))
+	slot0.confirmBtn = slot0._tf:Find("content/confirm_btn")
+	slot0.cancelBtn = slot0._tf:Find("content/cancel_btn")
+	slot0.closeBtn = slot0._tf:Find("content/btnBack")
 
 	setText(slot0.confirmBtn:Find("pic"), i18n("word_ok"))
 	setText(slot0.cancelBtn:Find("pic"), i18n("word_cancel"))

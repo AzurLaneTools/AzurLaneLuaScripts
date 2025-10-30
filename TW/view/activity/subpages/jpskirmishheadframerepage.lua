@@ -1,13 +1,13 @@
 slot0 = class("JPSkirmishHeadFrameRePage", import(".TemplatePage.FrameReTemplatePage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.battleBtn = slot0:findTF("GoBtn", slot0.bg)
-	slot0.getBtn = slot0:findTF("GetBtn", slot0.bg)
-	slot0.gotBtn = slot0:findTF("GotBtn", slot0.bg)
-	slot0.bar = slot0:findTF("Progress", slot0.bg)
-	slot0.progress = slot0:findTF("ProgressText", slot0.bg)
-	slot0.frameGot = slot0:findTF("GotTag", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.battleBtn = slot0.bg:Find("GoBtn")
+	slot0.getBtn = slot0.bg:Find("GetBtn")
+	slot0.gotBtn = slot0.bg:Find("GotBtn")
+	slot0.bar = slot0.bg:Find("Progress")
+	slot0.progress = slot0.bg:Find("ProgressText")
+	slot0.frameGot = slot0.bg:Find("GotTag")
 end
 
 slot0.OnUpdateFlush = function(slot0)

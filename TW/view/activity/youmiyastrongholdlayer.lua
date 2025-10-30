@@ -236,7 +236,7 @@ slot0.SetRes = function(slot0, slot1)
 		for slot14 = 0, slot1.childCount - 1 do
 			if slot1:GetChild(slot14).name == tostring(slot9) then
 				setActive(slot15, true)
-				setText(slot0:findTF("Text", slot15), slot10)
+				setText(slot15:Find("Text"), slot10)
 
 				break
 			end

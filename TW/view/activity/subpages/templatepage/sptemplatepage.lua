@@ -3,7 +3,7 @@ slot0 = class("SpTemplatePage", import(".PtTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.buildBtn = slot0:findTF("build_btn", slot0.bg)
+	slot0.buildBtn = slot0.bg:Find("build_btn")
 end
 
 slot0.OnFirstFlush = function(slot0)

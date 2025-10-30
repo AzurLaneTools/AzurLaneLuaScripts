@@ -5,18 +5,18 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.frame = slot0:findTF("frame")
-	slot0.attrPanel = slot0:findTF("right_panel/top/attrs")
-	slot0.rarePanel = slot0:findTF("right_panel/top/rare")
-	slot0.paintContain = slot0:findTF("paint")
-	slot0.qCharaContain = slot0:findTF("right_panel/top/q_chara")
-	slot0._chat = slot0:findTF("chat", slot0.paintContain)
+	slot0.frame = slot0._tf:Find("frame")
+	slot0.attrPanel = slot0._tf:Find("right_panel/top/attrs")
+	slot0.rarePanel = slot0._tf:Find("right_panel/top/rare")
+	slot0.paintContain = slot0._tf:Find("paint")
+	slot0.qCharaContain = slot0._tf:Find("right_panel/top/q_chara")
+	slot0._chat = slot0.paintContain:Find("chat")
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
-	slot0._shake = slot0:findTF("shake_panel")
-	slot0._bg = slot0:findTF("bg", slot0._shake)
-	slot0._paintingShadowTF = slot0:findTF("shadow")
+	slot0._shake = slot0._tf:Find("shake_panel")
+	slot0._bg = slot0._shake:Find("bg")
+	slot0._paintingShadowTF = slot0._tf:Find("shadow")
 end
 
 slot0.didEnter = function(slot0)
@@ -116,7 +116,7 @@ slot0.updateStatistics = function(slot0)
 
 	setWidgetText(slot0._chat, slot19)
 
-	slot20.alignment = CHAT_POP_STR_LEN < #slot0:findTF("Text", slot0._chat):GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft or TextAnchor.MiddleCenter
+	slot20.alignment = CHAT_POP_STR_LEN < #slot0._chat:Find("Text"):GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft or TextAnchor.MiddleCenter
 	slot0._chat.transform.localScale = Vector3(0, 0, 1)
 	slot0.delayTId = LeanTween.delayedCall(0.6, System.Action(function ()
 		SetActive(uv0._chat, true)

@@ -89,9 +89,9 @@ slot0.init = function(slot0)
 			slot2.name = slot3.id
 
 			if slot3:getConfig("title_res_tag") then
-				setImageSprite(uv0:findTF("off/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text", "") or GetSpriteFromAtlas("activityuitable/activity_text", ""), true)
-				setImageSprite(uv0:findTF("on/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text_selected", "") or GetSpriteFromAtlas("activityuitable/activity_text_selected", ""), true)
-				setActive(uv0:findTF("red", slot2), slot3:readyToAchieve())
+				setImageSprite(slot2:Find("off/text"), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text", "") or GetSpriteFromAtlas("activityuitable/activity_text", ""), true)
+				setImageSprite(slot2:Find("on/text"), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text_selected", "") or GetSpriteFromAtlas("activityuitable/activity_text_selected", ""), true)
+				setActive(slot2:Find("red"), slot3:readyToAchieve())
 				onToggle(uv0, slot2, function (slot0)
 					if slot0 then
 						uv0:selectActivity(uv1)
@@ -112,6 +112,8 @@ slot0.init = function(slot0)
 			end, SFX_PANEL)
 		end
 	end)
+
+	slot0.switchCount = 0
 end
 
 slot0.didEnter = function(slot0)
@@ -253,18 +255,6 @@ slot0.removeActivity = function(slot0, slot1)
 	end
 end
 
-slot0.loadLayers = function(slot0)
-	if slot0.pageDic[slot0.activity.id] and slot1.OnLoadLayers then
-		slot1:OnLoadLayers()
-	end
-end
-
-slot0.removeLayers = function(slot0)
-	if slot0.pageDic[slot0.activity.id] and slot1.OnRemoveLayers then
-		slot1:OnRemoveLayers()
-	end
-end
-
 slot0.GetOnShowEntranceData = function()
 	uv0 = uv0 or require("GameCfg.activity.EntranceData")
 
@@ -310,23 +300,70 @@ slot0.flushTabs = function(slot0)
 end
 
 slot0.selectActivity = function(slot0, slot1)
-	if slot1 and (not slot0.activity or slot0.activity.id ~= slot1.id) then
-		slot2 = slot0.pageDic[slot1.id]
+	if slot0.nextActivity == slot1 or not slot0.nextActivity and slot0.activity and slot1.id == slot0.activity.id then
+		return
+	end
 
-		assert(slot2, "找不到id:" .. slot1.id .. "的活动页，请检查")
-		slot2:Load()
-		slot2:ActionInvoke("Flush", slot1)
-		slot2:ActionInvoke("ShowOrHide", true)
+	slot2 = {}
 
-		if slot0.activity and slot0.activity.id ~= slot1.id then
-			slot0.pageDic[slot0.activity.id]:ActionInvoke("ShowOrHide", false)
+	if slot0.activity and not slot0.nextActivity then
+		slot0.switchCount = slot0.switchCount + 1
+
+		table.insert(slot2, function (slot0)
+			slot1 = uv0.pageDic[uv0.activity.id]
+
+			slot1:ActionInvoke("SwitchOut", function ()
+				uv0.switchCount = uv0.switchCount - 1
+
+				uv1()
+			end)
+		end)
+	end
+
+	if not slot0.activity or slot0.activity.id ~= slot1.id then
+		assert(slot0.pageDic[slot1.id], "找不到id:" .. slot1.id .. "的活动页，请检查")
+
+		slot0.switchCount = slot0.switchCount + 1
+
+		table.insert(slot2, function (slot0)
+			slot1 = uv0
+
+			slot1:Load()
+
+			slot1 = uv0
+
+			slot1:ActionInvoke("ShowOrHide", false)
+
+			slot1 = uv0
+
+			slot1:CallbackInvoke(function ()
+				uv0.switchCount = uv0.switchCount - 1
+
+				uv1()
+			end)
+		end)
+	end
+
+	slot0.nextActivity = slot1
+
+	parallelAsync(slot2, function ()
+		if uv0.switchCount > 0 then
+			return
 		end
 
-		slot0.activity = slot1
-		slot0.contextData.id = slot1.id
+		if uv0.activity then
+			uv0.pageDic[uv0.activity.id]:ActionInvoke("ShowOrHide", false)
+		end
 
-		setActive(slot0.permanentFinshMask, pg.activity_task_permanent[slot1.id] and slot1:canPermanentFinish())
-	end
+		uv0.activity = uv0.nextActivity
+		uv0.contextData.id = uv0.nextActivity.id
+		uv0.nextActivity = nil
+		slot0 = uv0.pageDic[uv0.activity.id]
+
+		slot0:ActionInvoke("Flush", uv0.activity)
+		slot0:ActionInvoke("ShowOrHide", true)
+		setActive(uv0.permanentFinshMask, pg.activity_task_permanent[uv1.id] and uv1:canPermanentFinish())
+	end)
 end
 
 slot0.checkAutoHideActivity = function(slot0)
@@ -352,7 +389,7 @@ slot0.loadActivityPanel = function(slot0, slot1, slot2)
 end
 
 slot0.getBonusWindow = function(slot0, slot1, slot2)
-	if not slot0:findTF(slot1) then
+	if not slot0._tf:Find(slot1) then
 		slot4 = PoolMgr.GetInstance()
 
 		slot4:GetUI("ActivitybonusWindow", true, function (slot0)
@@ -396,6 +433,7 @@ slot0.OnChargeSuccess = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
+	slot0.switchCount = nil
 	slot0.shareData = nil
 
 	for slot4, slot5 in pairs(slot0.pageDic) do

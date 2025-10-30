@@ -5,11 +5,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.contentTxt = slot0:findTF("frame/Text"):GetComponent(typeof(Text))
-	slot0.cancelBtn = slot0:findTF("frame/cancel")
+	slot0.contentTxt = slot0._tf:Find("frame/Text"):GetComponent(typeof(Text))
+	slot0.cancelBtn = slot0._tf:Find("frame/cancel")
 
-	setText(slot0:findTF("frame/title"), i18n("island_msg_info"))
-	setText(slot0:findTF("frame/cancel/Text"), i18n("island_cancel_queue"))
+	setText(slot0._tf:Find("frame/title"), i18n("island_msg_info"))
+	setText(slot0._tf:Find("frame/cancel/Text"), i18n("island_cancel_queue"))
 end
 
 slot0.OnInit = function(slot0)

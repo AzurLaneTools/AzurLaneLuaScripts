@@ -4286,7 +4286,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900473] = {
-		name = "安德莉亞·多利亞·META",
+		name = "安德烈亞·多里亞·META",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,

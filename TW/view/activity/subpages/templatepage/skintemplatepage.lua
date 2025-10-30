@@ -1,10 +1,10 @@
 slot0 = class("SkinTemplatePage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.dayTF = slot0:findTF("day", slot0.bg)
-	slot0.item = slot0:findTF("item", slot0.bg)
-	slot0.items = slot0:findTF("items", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.dayTF = slot0.bg:Find("day")
+	slot0.item = slot0.bg:Find("item")
+	slot0.items = slot0.bg:Find("items")
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
 
 	setActive(slot0.item, false)
@@ -29,7 +29,7 @@ slot0.OnFirstFlush = function(slot0)
 end
 
 slot0.UpdateTask = function(slot0, slot1, slot2)
-	slot4 = slot0:findTF("item", slot2)
+	slot4 = slot2:Find("item")
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
 
 	assert(slot6, "without this task by id: " .. slot5)
@@ -41,18 +41,18 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot8 = slot6:getProgress()
 	slot9 = slot6:getConfig("target_num")
 
-	setText(slot0:findTF("description", slot2), slot6:getConfig("desc"))
+	setText(slot2:Find("description"), slot6:getConfig("desc"))
 
 	slot10, slot11 = slot0:GetProgressColor()
 
-	setText(slot0:findTF("progressText", slot2), (slot10 and setColorStr(slot8, slot10) or slot8) .. (slot11 and setColorStr("/" .. slot9, slot11) or "/" .. slot9))
-	setSlider(slot0:findTF("progress", slot2), 0, slot9, slot8)
+	setText(slot2:Find("progressText"), (slot10 and setColorStr(slot8, slot10) or slot8) .. (slot11 and setColorStr("/" .. slot9, slot11) or "/" .. slot9))
+	setSlider(slot2:Find("progress"), 0, slot9, slot8)
 
-	slot13 = slot0:findTF("get_btn", slot2)
+	slot13 = slot2:Find("get_btn")
 
-	setActive(slot0:findTF("go_btn", slot2), slot6:getTaskStatus() == 0)
+	setActive(slot2:Find("go_btn"), slot6:getTaskStatus() == 0)
 	setActive(slot13, slot15 == 1)
-	setActive(slot0:findTF("got_btn", slot2), slot15 == 2)
+	setActive(slot2:Find("got_btn"), slot15 == 2)
 	onButton(slot0, slot12, function ()
 		uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)

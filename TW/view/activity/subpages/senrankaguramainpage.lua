@@ -5,10 +5,9 @@ slot0.SWITCH_WIDTH = 367
 slot0.TACHIE_DELAY = 0.03
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD/mask")
-	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
-	slot4 = slot0.bg
-	slot0.main = slot0:findTF("main", slot4)
+	slot0.bg = slot0._tf:Find("AD/mask")
+	slot0.btnList = slot0.bg:Find("btn_list")
+	slot0.main = slot0.bg:Find("main")
 	slot0.totalNum = slot0.main.childCount
 	slot0.randomList = {}
 	slot0.children = {}
@@ -28,11 +27,13 @@ end
 slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
+	slot3 = slot0.btnList
+
 	slot4 = function()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SENRANKAGURA_BACKHILL)
 	end
 
-	onButton(slot0, slot0:findTF("mountain", slot0.btnList), slot4, SFX_PANEL)
+	onButton(slot0, slot3:Find("mountain"), slot4, SFX_PANEL)
 
 	for slot4 = 1, slot0.totalNum do
 		table.insert(slot0.randomList, slot4)

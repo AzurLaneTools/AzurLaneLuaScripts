@@ -216,22 +216,22 @@ slot0.onCancel = function(slot0)
 end
 
 slot0.InitUI = function(slot0)
-	slot0.tfShipTpl = slot0:findTF("panel/Fixed/shiptpl")
-	slot0.tfEmptyTpl = slot0:findTF("panel/Fixed/emptytpl")
+	slot0.tfShipTpl = slot0._tf:Find("panel/Fixed/shiptpl")
+	slot0.tfEmptyTpl = slot0._tf:Find("panel/Fixed/emptytpl")
 	slot0.tfFleets = {
 		[FleetType.Normal] = {
-			slot0:findTF("panel/ShipList/fleet/1"),
-			slot0:findTF("panel/ShipList/fleet/2")
+			slot0._tf:Find("panel/ShipList/fleet/1"),
+			slot0._tf:Find("panel/ShipList/fleet/2")
 		},
 		[FleetType.Submarine] = {
-			slot0:findTF("panel/ShipList/sub/1")
+			slot0._tf:Find("panel/ShipList/sub/1")
 		},
 		[FleetType.Support] = {
-			slot0:findTF("panel/ShipList/support/1")
+			slot0._tf:Find("panel/ShipList/support/1")
 		}
 	}
-	slot1 = slot0:findTF("panel/Fixed/RightTabs")
-	slot2 = PLATFORM_CODE == PLATFORM_US and slot0:findTF("panel/Fixed/RightTabs/hTplBtn") or slot0:findTF("panel/Fixed/RightTabs/vTplBtn")
+	slot1 = slot0._tf:Find("panel/Fixed/RightTabs")
+	slot2 = PLATFORM_CODE == PLATFORM_US and slot0._tf:Find("panel/Fixed/RightTabs/hTplBtn") or slot0._tf:Find("panel/Fixed/RightTabs/vTplBtn")
 
 	for slot7 = 1, #{
 		"formation_btn",
@@ -246,21 +246,21 @@ slot0.InitUI = function(slot0)
 		setActive(slot8, false)
 	end
 
-	slot0.tfLimit = slot0:findTF("panel/Fixed/limit_list/limit")
-	slot0.tfLimitTips = slot0:findTF("panel/Fixed/limit_list/limit_tip")
-	slot0.tfLimitElite = slot0:findTF("panel/Fixed/limit_list/limit_elite")
-	slot0.tfLimitSubTip = slot0:findTF("panel/Fixed/limit_list/limit_sub_tip")
-	slot0.tfLimitContainer = slot0:findTF("panel/Fixed/limit_list/limit_elite/limit_list")
+	slot0.tfLimit = slot0._tf:Find("panel/Fixed/limit_list/limit")
+	slot0.tfLimitTips = slot0._tf:Find("panel/Fixed/limit_list/limit_tip")
+	slot0.tfLimitElite = slot0._tf:Find("panel/Fixed/limit_list/limit_elite")
+	slot0.tfLimitSubTip = slot0._tf:Find("panel/Fixed/limit_list/limit_sub_tip")
+	slot0.tfLimitContainer = slot0._tf:Find("panel/Fixed/limit_list/limit_elite/limit_list")
 	slot0.rtCostLimit = slot0._tf:Find("panel/Fixed/limit_list/cost_limit")
-	slot0.btnBack = slot0:findTF("panel/Fixed/btnBack")
-	slot0.btnGo = slot0:findTF("panel/Fixed/start_button")
-	slot0.btnMultiple = slot0:findTF("panel/Fixed/multiple")
-	slot0.formationToggle = slot0:findTF("panel/Fixed/RightTabs/formation_btn")
-	slot0.commanderToggle = slot0:findTF("panel/Fixed/RightTabs/commander_btn")
-	slot0.dutyToggle = slot0:findTF("panel/Fixed/RightTabs/duty_btn")
-	slot0.adjustmentToggle = slot0:findTF("panel/Fixed/RightTabs/adjustment_btn")
-	slot0.toggleMask = slot0:findTF("mask")
-	slot0.toggleList = slot0:findTF("mask/list")
+	slot0.btnBack = slot0._tf:Find("panel/Fixed/btnBack")
+	slot0.btnGo = slot0._tf:Find("panel/Fixed/start_button")
+	slot0.btnMultiple = slot0._tf:Find("panel/Fixed/multiple")
+	slot0.formationToggle = slot0._tf:Find("panel/Fixed/RightTabs/formation_btn")
+	slot0.commanderToggle = slot0._tf:Find("panel/Fixed/RightTabs/commander_btn")
+	slot0.dutyToggle = slot0._tf:Find("panel/Fixed/RightTabs/duty_btn")
+	slot0.adjustmentToggle = slot0._tf:Find("panel/Fixed/RightTabs/adjustment_btn")
+	slot0.toggleMask = slot0._tf:Find("mask")
+	slot0.toggleList = slot0._tf:Find("mask/list")
 	slot0.toggles = {}
 
 	setText(findTF(slot0.tfLimit, "text"), i18n("level_fleet_ship_desc"))
@@ -273,8 +273,8 @@ slot0.InitUI = function(slot0)
 		table.insert(slot0.toggles, slot0.toggleList:Find("item" .. slot7 + 1))
 	end
 
-	slot0.btnSp = slot0:findTF("panel/Fixed/sp")
-	slot0.spMask = slot0:findTF("mask_sp")
+	slot0.btnSp = slot0._tf:Find("panel/Fixed/sp")
+	slot0.spMask = slot0._tf:Find("mask_sp")
 	slot0.dutyItems = {}
 
 	for slot7 = 1, 2 do
@@ -305,9 +305,18 @@ slot0.InitUI = function(slot0)
 	setActive(slot0.toggleMask, false)
 	setActive(slot0.btnSp, false)
 	setActive(slot0.spMask, false)
-	setText(slot0:findTF("panel/Fixed/RightTabs/formation_btn/text"), i18n("autofight_formation"))
-	setText(slot0:findTF("panel/Fixed/RightTabs/commander_btn/text"), i18n("autofight_cat"))
-	setText(slot0:findTF("panel/Fixed/RightTabs/duty_btn/text"), i18n("autofight_function"))
+
+	slot6 = slot0._tf
+
+	setText(slot6:Find("panel/Fixed/RightTabs/formation_btn/text"), i18n("autofight_formation"))
+
+	slot6 = slot0._tf
+
+	setText(slot6:Find("panel/Fixed/RightTabs/commander_btn/text"), i18n("autofight_cat"))
+
+	slot6 = slot0._tf
+
+	setText(slot6:Find("panel/Fixed/RightTabs/duty_btn/text"), i18n("autofight_function"))
 
 	slot6 = slot0.adjustmentToggle
 
@@ -669,19 +678,19 @@ slot0.updateFleet = function(slot0, slot1, slot2)
 	slot6 = slot0.contextData.tabIndex == uv0.TabIndex.Adjustment
 	slot9 = slot0:getFleetById(slot0.selectIds[slot1][slot2])
 	slot11 = slot0.tfFleets[slot1][slot2]
-	slot13 = slot0:findTF("btn_select", slot11)
-	slot15 = slot0:findTF("btn_clear", slot11)
-	slot16 = slot0:findTF("blank", slot11)
-	slot18 = slot0:findTF("commander", slot11)
+	slot13 = slot11:Find("btn_select")
+	slot15 = slot11:Find("btn_clear")
+	slot16 = slot11:Find("blank")
+	slot18 = slot11:Find("commander")
 	slot19 = slot11:Find("adjustment_flag")
 
-	setActive(slot0:findTF("btn_recom", slot11), false)
-	setActive(slot0:findTF("selected", slot11), false)
+	setActive(slot11:Find("btn_recom"), false)
+	setActive(slot11:Find("selected"), false)
 	setText(findTF(slot11, "bg/name"), "")
 
-	slot20 = slot0:findTF(TeamType.Main, slot11)
-	slot21 = slot0:findTF(TeamType.Vanguard, slot11)
-	slot22 = slot0:findTF(TeamType.Submarine, slot11)
+	slot20 = slot11:Find(TeamType.Main)
+	slot21 = slot11:Find(TeamType.Vanguard)
+	slot22 = slot11:Find(TeamType.Submarine)
 
 	if not (slot2 <= slot0:getLimitNums(slot1)) then
 		setActive(slot15, false)
@@ -1009,10 +1018,10 @@ slot0.UpdateSonarRangeValues = function(slot0, slot1, slot2)
 end
 
 slot0.clearFleet = function(slot0, slot1)
-	slot3 = slot0:findTF(TeamType.Vanguard, slot1)
-	slot4 = slot0:findTF(TeamType.Submarine, slot1)
+	slot3 = slot1:Find(TeamType.Vanguard)
+	slot4 = slot1:Find(TeamType.Submarine)
 
-	if slot0:findTF(TeamType.Main, slot1) then
+	if slot1:Find(TeamType.Main) then
 		removeAllChildren(slot2)
 	end
 
@@ -1220,13 +1229,13 @@ slot0.updateEliteLimit = function(slot0)
 				slot4, slot5, slot6, slot7 = unpack(uv0.propetyLimitation[slot1])
 
 				if uv1[slot1] == 1 then
-					uv0:findTF("Text", slot2):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
+					slot2:Find("Text"):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
 				else
-					uv0:findTF("Text", slot2):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
+					slot2:Find("Text"):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
 				end
 
 				setActive(slot2, true)
-				setText(uv0:findTF("Text", slot2), AttributeType.EliteCondition2Name(slot4, slot7) .. AttributeType.eliteConditionCompareTip(slot5) .. slot6 .. "（" .. uv2[slot4] .. "）")
+				setText(slot2:Find("Text"), AttributeType.EliteCondition2Name(slot4, slot7) .. AttributeType.eliteConditionCompareTip(slot5) .. slot6 .. "（" .. uv2[slot4] .. "）")
 			end
 		end)
 		slot3:align(#slot0.propetyLimitation)
@@ -1302,20 +1311,20 @@ slot0.initAddButton = function(slot0, slot1, slot2, slot3, slot4)
 
 		if slot19 then
 			updateShip(slot22, slot19)
-			setActive(slot0:findTF("event_block", slot22), slot19:getFlag("inEvent"))
+			setActive(slot22:Find("event_block"), slot19:getFlag("inEvent"))
 
 			slot6[slot19] = true
 		else
 			slot9 = slot9 + 1
 		end
 
-		setActive(slot0:findTF("ship_type", slot22), slot20 and slot20 ~= 0)
+		setActive(slot22:Find("ship_type"), slot20 and slot20 ~= 0)
 
 		if slot20 and slot20 ~= 0 then
 			if type(slot20) == "number" then
-				setImageSprite(slot0:findTF("ship_type", slot22), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot20)), true)
+				setImageSprite(slot22:Find("ship_type"), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot20)), true)
 			elseif type(slot20) == "string" then
-				setImageSprite(slot0:findTF("ship_type", slot22), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot20)), true)
+				setImageSprite(slot22:Find("ship_type"), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot20)), true)
 			end
 		end
 
@@ -1505,19 +1514,19 @@ slot0.UpdateEliteFleet = function(slot0, slot1, slot2)
 	slot6 = slot0.contextData.tabIndex == uv0.TabIndex.Adjustment
 	slot8 = slot0.tfFleets[slot1][slot2]
 	slot9 = findTF(slot8, "bg/name")
-	slot11 = slot0:findTF("btn_recom", slot8)
-	slot12 = slot0:findTF("btn_clear", slot8)
-	slot13 = slot0:findTF("blank", slot8)
-	slot14 = slot0:findTF("selected", slot8)
-	slot15 = slot0:findTF("commander", slot8)
+	slot11 = slot8:Find("btn_recom")
+	slot12 = slot8:Find("btn_clear")
+	slot13 = slot8:Find("blank")
+	slot14 = slot8:Find("selected")
+	slot15 = slot8:Find("commander")
 	slot16 = slot8:Find("adjustment_flag")
 
-	setActive(slot0:findTF("btn_select", slot8), false)
+	setActive(slot8:Find("btn_select"), false)
 
-	slot17 = slot0:findTF(TeamType.Main, slot8)
-	slot18 = slot0:findTF(TeamType.Vanguard, slot8)
-	slot19 = slot0:findTF(TeamType.Submarine, slot8)
-	slot20 = slot0:findTF(TeamType.Support, slot8)
+	slot17 = slot8:Find(TeamType.Main)
+	slot18 = slot8:Find(TeamType.Vanguard)
+	slot19 = slot8:Find(TeamType.Submarine)
+	slot20 = slot8:Find(TeamType.Support)
 
 	if not (slot2 <= slot0:getLimitNums(slot1)) then
 		setActive(slot12, false)
@@ -1727,20 +1736,20 @@ slot0.initSupportAddButton = function(slot0, slot1, slot2, slot3)
 
 		if slot14 then
 			updateShip(slot17, slot14)
-			setActive(slot0:findTF("event_block", slot17), slot14:getFlag("inEvent"))
+			setActive(slot17:Find("event_block"), slot14:getFlag("inEvent"))
 
 			slot4[slot14] = true
 		else
 			slot7 = slot7 + 1
 		end
 
-		setActive(slot0:findTF("ship_type", slot17), slot15 and slot15 ~= 0)
+		setActive(slot17:Find("ship_type"), slot15 and slot15 ~= 0)
 
 		if slot15 and slot15 ~= 0 then
 			if type(slot15) == "number" then
-				setImageSprite(slot0:findTF("ship_type", slot17), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot15)), true)
+				setImageSprite(slot17:Find("ship_type"), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot15)), true)
 			elseif type(slot15) == "string" then
-				setImageSprite(slot0:findTF("ship_type", slot17), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot15)), true)
+				setImageSprite(slot17:Find("ship_type"), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot15)), true)
 			end
 		end
 
@@ -2250,10 +2259,10 @@ end
 slot0.SwitchDisplayMode = function(slot0)
 	slot1 = slot0.displayMode == uv0.ADDITION_SUPPORT
 
-	setActive(slot0:findTF("panel/ShipList/Line"), not slot1)
-	setActive(slot0:findTF("panel/ShipList/support"), slot1)
+	setActive(slot0._tf:Find("panel/ShipList/Line"), not slot1)
+	setActive(slot0._tf:Find("panel/ShipList/support"), slot1)
 
-	slot3 = slot0:findTF("panel/ShipList"):GetComponent(typeof(VerticalLayoutGroup)).padding
+	slot3 = slot0._tf:Find("panel/ShipList"):GetComponent(typeof(VerticalLayoutGroup)).padding
 	slot3.top = slot1 and 9 or 20
 	slot3.bottom = slot1 and 14 or 25
 	slot2.padding = slot3

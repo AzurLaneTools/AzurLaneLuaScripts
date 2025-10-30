@@ -9,11 +9,11 @@ slot1 = {
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.bg = slot0:findTF("AD")
-	slot0.switchBtn = slot0:findTF("AD/switcher/switch_btn")
-	slot0.bar = slot0:findTF("AD/switcher/phase2/Image/bar")
-	slot0.displayBtn = slot0:findTF("AD/display_btn")
-	slot0.gotTag = slot0:findTF("AD/switcher/phase2/Image/got")
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.switchBtn = slot0._tf:Find("AD/switcher/switch_btn")
+	slot0.bar = slot0._tf:Find("AD/switcher/phase2/Image/bar")
+	slot0.displayBtn = slot0._tf:Find("AD/display_btn")
+	slot0.gotTag = slot0._tf:Find("AD/switcher/phase2/Image/got")
 	slot3, slot4 = slot0:GetActTask()
 	slot5 = slot3 and slot3:isReceive() and slot4
 

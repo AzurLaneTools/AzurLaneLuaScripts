@@ -3,13 +3,13 @@ slot0.MINIGAME_HUB_ID = 63
 slot0.MINIGAME_ID = 50
 
 slot0.OnInit = function(slot0)
-	slot0.awardPreviewBtn = slot0:findTF("AD/award_preview_btn")
-	slot0.goBtn = slot0:findTF("AD/go")
+	slot0.awardPreviewBtn = slot0._tf:Find("AD/award_preview_btn")
+	slot0.goBtn = slot0._tf:Find("AD/go")
 	slot4 = Text
-	slot0.indexTxt = slot0:findTF("AD/index"):GetComponent(typeof(slot4))
-	slot0.iconBtn = slot0:findTF("AD/icon")
-	slot0.markContainer = slot0:findTF("AD/marks")
-	slot0.markTpl = slot0:findTF("AD/marks/1")
+	slot0.indexTxt = slot0._tf:Find("AD/index"):GetComponent(typeof(slot4))
+	slot0.iconBtn = slot0._tf:Find("AD/icon")
+	slot0.markContainer = slot0._tf:Find("AD/marks")
+	slot0.markTpl = slot0._tf:Find("AD/marks/1")
 
 	setActive(slot0.markTpl, false)
 

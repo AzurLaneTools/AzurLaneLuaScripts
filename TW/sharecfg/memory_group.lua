@@ -209,6 +209,7 @@ pg.memory_group = setmetatable({
 		316,
 		317,
 		318,
+		319,
 		322,
 		323,
 		324,
@@ -330,6 +331,8 @@ pg.memory_group = setmetatable({
 		600,
 		601,
 		602,
+		603,
+		604,
 		614,
 		1000,
 		1001,
@@ -5149,6 +5152,24 @@ pg.base.memory_group = {
 			4174
 		}
 	},
+	[319] = {
+		title = "受選者之路",
+		subtype = 1,
+		link_event = 5809,
+		type = 2,
+		id = 319,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4191,
+			4192,
+			4193,
+			4194,
+			4195,
+			4196,
+			4197
+		}
+	},
 	[322] = {
 		title = "深谷來信",
 		subtype = 2,
@@ -7662,6 +7683,46 @@ pg.base.memory_group = {
 			3915,
 			3916,
 			3917
+		},
+		group_id = {
+			10000
+		}
+	},
+	[603] = {
+		title = "外出！尋得珍寶吧！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 603,
+		icon = "title_chara_weidahao",
+		memories = {
+			3931,
+			3932,
+			3933,
+			3934,
+			3935,
+			3936,
+			3937
+		},
+		group_id = {
+			10000
+		}
+	},
+	[604] = {
+		title = "屬於彼此的甜蜜餅乾",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 604,
+		icon = "title_chara_hao",
+		memories = {
+			3991,
+			3992,
+			3993,
+			3994,
+			3995,
+			3996,
+			3997
 		},
 		group_id = {
 			10000

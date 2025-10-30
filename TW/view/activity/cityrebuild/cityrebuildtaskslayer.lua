@@ -35,6 +35,10 @@ slot0.ShouldShowTip = function()
 	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.NINJA_CITY_SP_TASK)
 	slot3 = slot2:getConfig("config_data")
 
+	if slot2.data3 then
+		return false
+	end
+
 	if slot2.data3 == 0 or slot4 == nil then
 		return false
 	end
@@ -159,7 +163,7 @@ slot0.GetAllAward = function(slot0)
 end
 
 slot0.UpdateList = function(slot0, slot1, slot2, slot3)
-	slot5 = slot0:findTF("frame", slot2)
+	slot5 = slot2:Find("frame")
 	slot6 = slot0.taskProxy:getTaskVO(slot3[slot1 + 1])
 
 	setText(slot2:Find("desc"), slot6:getConfig("desc"))
@@ -171,11 +175,11 @@ slot0.UpdateList = function(slot0, slot1, slot2, slot3)
 	setSlider(slot2:Find("slider"), 0, slot9, slot8)
 	slot0:updateAwards(slot6:getConfig("award_display"), slot2:Find("awards"), slot2:GetChild(0))
 
-	slot13 = slot0:findTF("get_btn", slot2)
+	slot13 = slot2:Find("get_btn")
 
-	setActive(slot0:findTF("go_btn", slot2), slot6:getTaskStatus() == 0)
+	setActive(slot2:Find("go_btn"), slot6:getTaskStatus() == 0)
 	setActive(slot13, slot15 == 1)
-	setActive(slot0:findTF("got_btn", slot2), slot15 == 2)
+	setActive(slot2:Find("got_btn"), slot15 == 2)
 	SetActive(slot2:Find("tip"), slot15 == 1)
 	onButton(slot0, slot13, function ()
 		for slot3 = 1, #uv0.data[uv0.nday] do

@@ -34,7 +34,7 @@ slot0.GetIsland = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.visitorBtn = slot0:findTF("top/visitor")
+	slot0.visitorBtn = slot0._tf:Find("top/visitor")
 	slot0.levelPanel = IslandLevelPanel.New(slot0._tf, slot0.event)
 	slot0.taskTrackPanel = Island3dTaskTrackPanel.New(slot0._tf, slot0.event)
 	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event)
@@ -334,9 +334,24 @@ slot0.OnUnlockTechnology = function(slot0)
 end
 
 slot0.OnUpgrade = function(slot0, slot1)
-	slot0.levelPanel:ExecuteAction("UpdateTip")
-	slot0.levelPanel:ExecuteAction("UpdateIslandInfo")
-	slot0:OpenPage(IslandUpgradeDisplayPage, slot1.dropData.abilitys, slot1.callback)
+	slot2 = slot0.levelPanel
+
+	slot2:ExecuteAction("UpdateTip")
+
+	slot2 = slot0.levelPanel
+
+	slot2:ExecuteAction("UpdateIslandInfo")
+
+	slot2 = {}
+
+	seriesAsync({
+		function (slot0)
+			uv0:OpenPage(IslandUpgradeDisplayPage, uv1.dropData.abilitys, slot0)
+		end,
+		function (slot0)
+			uv0:DisplaySystemUnlock(uv1.dropData.abilitys, slot0)
+		end
+	}, slot1.callback)
 end
 
 slot0.OnModifyName = function(slot0)

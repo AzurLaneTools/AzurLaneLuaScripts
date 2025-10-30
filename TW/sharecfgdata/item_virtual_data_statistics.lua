@@ -1953,6 +1953,138 @@ _G.pg.base.item_virtual_data_statistics[52082] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[52091] = {
+	drop_gold_max = 0,
+	name = "未知藍圖",
+	display = "有機率獲得以下藍圖",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/52001",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 52091,
+	display_icon = {
+		{
+			2,
+			42072,
+			1
+		},
+		{
+			2,
+			42075,
+			1
+		},
+		{
+			2,
+			42071,
+			1
+		},
+		{
+			2,
+			42073,
+			1
+		},
+		{
+			2,
+			42074,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[52092] = {
+	drop_gold_max = 0,
+	name = "未知限定裝備設計圖",
+	display = "有機率獲得以下設計圖",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 52092,
+	display_icon = {
+		{
+			2,
+			13049,
+			1
+		},
+		{
+			2,
+			13050,
+			1
+		},
+		{
+			2,
+			13051,
+			1
+		},
+		{
+			2,
+			13052,
+			1
+		},
+		{
+			2,
+			13053,
+			1
+		},
+		{
+			2,
+			13054,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13007,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[53000] = {
 	drop_gold_max = 0,
 	name = "未知裝備&設計圖",
@@ -171271,6 +171403,31 @@ _G.pg.base.item_virtual_data_statistics[65074] = {
 	drop_oil_max = 0,
 	virtual_type = 21,
 	id = 65074,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65079] = {
+	drop_gold_max = 0,
+	name = "訓練點數",
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_yv4",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65079,
 	display_icon = {},
 	price = {},
 	index = {},

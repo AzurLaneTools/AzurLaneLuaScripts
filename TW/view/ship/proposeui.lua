@@ -57,15 +57,15 @@ slot0.setPlayer = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.storybg = slot0:findTF("close/bg")
-	slot0.bgAdd = slot0:findTF("add")
+	slot0.storybg = slot0._tf:Find("close/bg")
+	slot0.bgAdd = slot0._tf:Find("add")
 
 	setActive(slot0.storybg, false)
 	setActive(slot0.bgAdd, false)
 
-	slot0.targetActorTF = slot0:findTF("actor_middle")
-	slot0.maskTF = slot0:findTF("mask")
-	slot0.skipBtn = slot0:findTF("skip_button")
+	slot0.targetActorTF = slot0._tf:Find("actor_middle")
+	slot0.maskTF = slot0._tf:Find("mask")
+	slot0.skipBtn = slot0._tf:Find("skip_button")
 	slot0.actorPainting = nil
 	slot0.materialFace = slot0._tf:Find("Resource/face"):GetComponent(typeof(Image)).material
 	slot0.materialPaint = slot0._tf:Find("Resource/paint"):GetComponent(typeof(Image)).material
@@ -152,14 +152,14 @@ slot0.doMain = function(slot0)
 	onButton(slot0, slot0.skipBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("close0"), function ()
+	onButton(slot0, slot0._tf:Find("close0"), function ()
 		if uv0.proposeEndFlag then
 			uv0:DisplayRenamePanel()
 		else
 			uv0:closeView()
 		end
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("close_end"), function ()
+	onButton(slot0, slot0._tf:Find("close_end"), function ()
 		if uv0.proposeEndFlag then
 			uv0:DisplayRenamePanel()
 		else
@@ -179,34 +179,34 @@ slot0.doMain = function(slot0)
 
 		uv0.window = tf(slot0)
 
-		setParent(tf(slot0), uv0:findTF("window"))
+		setParent(tf(slot0), uv0._tf:Find("window"))
 
-		uv0.intimacyTF = uv0:findTF("intimacy/icon", uv0.window)
-		uv0.intimacyValueTF = uv0:findTF("intimacy/value", uv0.window)
-		uv0.button = uv0:findTF("button", uv0.window)
-		uv0.giftButton = uv0:findTF("giftBtn", uv0.window)
-		uv0.intimacyDesc = uv0:findTF("desc", uv0.window)
-		uv0.intimacydescTime = uv0:findTF("descPic/desc_time", uv0.window)
-		uv0.intimacyDescPic = uv0:findTF("descPic", uv0.window)
-		uv0.intimacyBuffDesc = uv0:findTF("desc_buff", uv0.window)
-		uv0._paintingTF = uv0:findTF("paintMask/paint", uv0.window)
-		uv0.intimacyAchieved = uv0:findTF("intimacy/achieved", uv0.window)
-		uv0.intimacyNoAchieved = uv0:findTF("intimacy/no_achieved", uv0.window)
-		uv0.ringAchieved = uv0:findTF("ringCount/achieved", uv0.window)
-		uv0.ringNoAchieved = uv0:findTF("ringCount/no_achieved", uv0.window)
-		uv0.ringValue = uv0:findTF("ringCount/value", uv0.window)
-		uv0.nameTF = uv0:findTF("title1/Text", uv0.window)
-		uv0.shipNameTF = uv0:findTF("title2/Text", uv0.window)
-		uv0.campTF = uv0:findTF("Camp", uv0.window)
-		uv0.doneTF = uv0:findTF("done", uv0.window)
-		uv0.CampSprite = uv0:findTF("CampSprite", uv0.window)
+		uv0.intimacyTF = uv0.window:Find("intimacy/icon")
+		uv0.intimacyValueTF = uv0.window:Find("intimacy/value")
+		uv0.button = uv0.window:Find("button")
+		uv0.giftButton = uv0.window:Find("giftBtn")
+		uv0.intimacyDesc = uv0.window:Find("desc")
+		uv0.intimacydescTime = uv0.window:Find("descPic/desc_time")
+		uv0.intimacyDescPic = uv0.window:Find("descPic")
+		uv0.intimacyBuffDesc = uv0.window:Find("desc_buff")
+		uv0._paintingTF = uv0.window:Find("paintMask/paint")
+		uv0.intimacyAchieved = uv0.window:Find("intimacy/achieved")
+		uv0.intimacyNoAchieved = uv0.window:Find("intimacy/no_achieved")
+		uv0.ringAchieved = uv0.window:Find("ringCount/achieved")
+		uv0.ringNoAchieved = uv0.window:Find("ringCount/no_achieved")
+		uv0.ringValue = uv0.window:Find("ringCount/value")
+		uv0.nameTF = uv0.window:Find("title1/Text")
+		uv0.shipNameTF = uv0.window:Find("title2/Text")
+		uv0.campTF = uv0.window:Find("Camp")
+		uv0.doneTF = uv0.window:Find("done")
+		uv0.CampSprite = uv0.window:Find("CampSprite")
 
 		setActive(uv0.window, true)
 		setText(uv0.nameTF, uv0.player.name)
 		setText(uv0.shipNameTF, uv0.shipVO:getName())
 
 		if uv0.CampSprite then
-			if not getImageSprite(uv0:findTF(Nation.Nation2Print(uv2), uv0.CampSprite)) then
+			if not getImageSprite(uv0.CampSprite:Find(Nation.Nation2Print(uv2))) then
 				warning("找不到印花, shipConfigId: " .. uv0.shipVO.configId)
 				setActive(uv0.campTF, false)
 			else
@@ -407,7 +407,7 @@ slot0.onBackPressed = function(slot0)
 
 	if slot0.window and isActive(slot0.window) then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		triggerButton(slot0:findTF("close_end"))
+		triggerButton(slot0._tf:Find("close_end"))
 	end
 end
 
@@ -533,8 +533,13 @@ end
 slot0.Live2DProposeDelayTime = 2
 
 slot0.showLive2D = function(slot0, slot1)
-	setActive(slot0:findTF("fitter", slot0.targetActorTF), false)
-	setActive(slot0:findTF("live2d", slot0.targetActorTF), true)
+	slot3 = slot0.targetActorTF
+
+	setActive(slot3:Find("fitter"), false)
+
+	slot3 = slot0.targetActorTF
+
+	setActive(slot3:Find("live2d"), true)
 
 	slot5 = LeanTween.alphaCanvas(GetOrAddComponent(slot0.targetActorTF, typeof(CanvasGroup)), 1, uv0.Live2DProposeDelayTime)
 	slot5 = slot5:setFrom(0)
@@ -575,7 +580,8 @@ slot0.stampWindow = function(slot0)
 	end)
 	setActive(slot0.window, true)
 	setActive(slot0.button, false)
-	setActive(slot0:findTF("live2d", slot0.targetActorTF), false)
+	setActive(slot0.giftButton, false)
+	setActive(slot0.targetActorTF:Find("live2d"), false)
 
 	slot1 = nil
 
@@ -614,7 +620,7 @@ slot0.stampWindow = function(slot0)
 
 		setActive(uv1.doneTF, true)
 		uv1:setMask(false)
-		setActive(uv1:findTF("close_end"), true)
+		setActive(uv1._tf:Find("close_end"), true)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_SEAL)
 	end)).id
 end
@@ -648,7 +654,7 @@ slot0.showProposePanel = function(slot0)
 
 				uv0.proposePanel = tf(slot0)
 
-				setParent(tf(slot0), uv0:findTF("contain"))
+				setParent(tf(slot0), uv0._tf:Find("contain"))
 				eachChild(uv0.proposePanel:Find("ringBox"), function (slot0)
 					setActive(slot0, slot0.name == uv0.proposeType)
 
@@ -658,25 +664,25 @@ slot0.showProposePanel = function(slot0)
 				end)
 
 				uv0.ringBoxCG = GetOrAddComponent(uv0.ringBoxTF, typeof(CanvasGroup))
-				uv0.ringBoxFull = uv0:findTF("full", uv0.ringBoxTF)
-				uv0.churchBefore = uv0:findTF("before", uv0.proposePanel)
-				uv0.churchLight = uv0:findTF("light", uv0.churchBefore)
+				uv0.ringBoxFull = uv0.ringBoxTF:Find("full")
+				uv0.churchBefore = uv0.proposePanel:Find("before")
+				uv0.churchLight = uv0.churchBefore:Find("light")
 
 				setParent(uv0.churchLight, uv0._tf)
 				uv0.churchLight:SetSiblingIndex(2)
 
-				uv0.blackBG = uv0:findTF("blackbg", uv0.churchBefore)
-				uv0.doorLightBG = uv0:findTF("door_light", uv0.churchBefore)
-				uv0.door = uv0:findTF("door", uv0.churchBefore)
+				uv0.blackBG = uv0.churchBefore:Find("blackbg")
+				uv0.doorLightBG = uv0.churchBefore:Find("door_light")
+				uv0.door = uv0.churchBefore:Find("door")
 				uv0.doorAni = GetOrAddComponent(uv0.door, "SpineAnimUI")
 
-				setParent(uv0.churchBefore, uv0:findTF("contain"))
+				setParent(uv0.churchBefore, uv0._tf:Find("contain"))
 
-				uv0.ringTipTF = uv0:findTF("tip", uv0.proposePanel)
+				uv0.ringTipTF = uv0.proposePanel:Find("tip")
 				uv0.ringTipCG = GetOrAddComponent(uv0.ringTipTF, typeof(CanvasGroup))
 
-				setText(uv0:findTF("Text", uv0.ringTipTF), i18n(uv0.proposeType == "imas" and "word_propose_tiara_tip" or "word_propose_ring_tip"))
-				setActive(uv0:findTF("finger", uv0.ringTipTF), false)
+				setText(uv0.ringTipTF:Find("Text"), i18n(uv0.proposeType == "imas" and "word_propose_tiara_tip" or "word_propose_ring_tip"))
+				setActive(uv0.ringTipTF:Find("finger"), false)
 				LoadImageSpriteAsync(uv0.bgName, uv0.storybg)
 
 				uv0.storybg.localScale = Vector3(1.2, 1.2, 1.2)
@@ -712,12 +718,12 @@ slot0.showProposePanel = function(slot0)
 					setParent(uv0.transHand, uv0.proposePanel)
 					uv0.transHand:SetAsFirstSibling()
 
-					uv0.handTF = uv0:findTF("hand", uv0.transHand)
-					uv0.ringTF = uv0:findTF("ring", uv0.transHand)
+					uv0.handTF = uv0.transHand:Find("hand")
+					uv0.ringTF = uv0.transHand:Find("ring")
 					uv0.ringCG = GetOrAddComponent(uv0.ringTF, typeof(CanvasGroup))
 					uv0.ringAnim = uv0.ringTF:GetComponent(typeof(Animator))
 					uv0.ringAnim.enabled = false
-					uv0.ringLight = uv0:findTF("ring_light", uv0.ringTF)
+					uv0.ringLight = uv0.ringTF:Find("ring_light")
 					uv0.ringLightCG = GetOrAddComponent(uv0.ringLight, typeof(CanvasGroup))
 
 					uv2()
@@ -818,7 +824,7 @@ slot0.showProposePanel = function(slot0)
 		slot2 = slot2:setFrom(0)
 
 		table.insert(uv0.tweenList, slot2:setOnComplete(System.Action(function ()
-			setActive(uv0:findTF("finger", uv0.ringTipTF), true)
+			setActive(uv0.ringTipTF:Find("finger"), true)
 			uv0:enableRingDrag(true)
 		end)).uniqueId)
 	end)
@@ -984,19 +990,19 @@ slot0.showStoryUI = function(slot0, slot1)
 				end
 
 				uv0.storyTF = tf(slot0)
-				slot3 = uv0
+				slot3 = uv0._tf
 
-				setParent(tf(slot0), slot3:findTF("contain"))
+				setParent(tf(slot0), slot3:Find("contain"))
 
 				uv0.storyCG = GetOrAddComponent(uv0.storyTF, typeof(CanvasGroup))
-				slot2 = uv0
-				uv0.storyContent = slot2:findTF("dialogue/content", uv0.storyTF)
+				slot2 = uv0.storyTF
+				uv0.storyContent = slot2:Find("dialogue/content")
 				slot2 = uv0.storyContent
 				uv0.typeWriter = slot2:GetComponent(typeof(Typewriter))
-				slot2 = uv0
-				uv0.targetNameTF = slot2:findTF("dialogue/content/name", uv0.storyTF)
-				slot2 = uv0
-				uv0._renamePanel = slot2:findTF("changeName_panel", uv0.storyTF)
+				slot2 = uv0.storyTF
+				uv0.targetNameTF = slot2:Find("dialogue/content/name")
+				slot2 = uv0.storyTF
+				uv0._renamePanel = slot2:Find("changeName_panel")
 
 				setText(findTF(uv0._renamePanel, "frame/name_field/Placeholder"), i18n("rename_input"))
 				setActive(uv0._renamePanel, false)
@@ -1161,7 +1167,7 @@ slot0.createLive2D = function(slot0, slot1)
 	slot2 = pg.Live2DMgr.GetInstance()
 	slot0.live2dRequestId = slot2:GetLive2DModelAsync(slot1, function (slot0)
 		HotfixHelper.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
-		slot0.transform:SetParent(uv0:findTF("live2d", uv0.targetActorTF), true)
+		slot0.transform:SetParent(uv0.targetActorTF:Find("live2d"), true)
 
 		slot3 = nil
 		slot3 = (not uv0.reviewSkinID or uv0.reviewSkinID) and (not uv0.proposeSkin or uv0.proposeSkin.id) and uv0.shipVO:getSkinId()
@@ -1205,9 +1211,9 @@ slot0.showTip = function(slot0)
 		return
 	end
 
-	slot2 = slot0:findTF("tip", slot0.storyTF)
+	slot2 = slot0.storyTF:Find("tip")
 
-	setText(slot0:findTF("Image_bg/Text", slot2), i18n("achieve_propose_tip", slot1.name))
+	setText(slot2:Find("Image_bg/Text"), i18n("achieve_propose_tip", slot1.name))
 	eachChild(slot2:Find("Image_bg/Image"), function (slot0)
 		setActive(slot0, slot0.name == uv0.proposeType)
 	end)

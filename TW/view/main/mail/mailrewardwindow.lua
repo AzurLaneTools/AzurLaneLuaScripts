@@ -9,14 +9,14 @@ slot0.OnInit = function(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.closeBtn = slot0:findTF("adapt/window/top/btnBack")
+	slot0.closeBtn = slot0._tf:Find("adapt/window/top/btnBack")
 
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.cancelButton = slot0:findTF("adapt/window/button_container/btn_not")
-	slot0.confirmButton = slot0:findTF("adapt/window/button_container/btn_ok")
+	slot0.cancelButton = slot0._tf:Find("adapt/window/button_container/btn_not")
+	slot0.confirmButton = slot0._tf:Find("adapt/window/button_container/btn_ok")
 	slot0._window = slot0._tf:Find("adapt/window")
 	slot0.item_panel = slot0._window:Find("item_panel")
 	slot0.reward_gold = slot0.item_panel:Find("parentAdpter/textAdpter/reward_gold")

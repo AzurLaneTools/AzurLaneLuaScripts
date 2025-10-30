@@ -5,9 +5,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.yesBtn = slot0:findTF("Box/ConfirmBtn")
-	slot0.cancelBtn = slot0:findTF("Box/CancelBtn")
-	slot0.contentTxt = slot0:findTF("Box/Text"):GetComponent(typeof(Text))
+	slot0.yesBtn = slot0._tf:Find("Box/ConfirmBtn")
+	slot0.cancelBtn = slot0._tf:Find("Box/CancelBtn")
+	slot0.contentTxt = slot0._tf:Find("Box/Text"):GetComponent(typeof(Text))
 end
 
 slot0.OnInit = function(slot0)

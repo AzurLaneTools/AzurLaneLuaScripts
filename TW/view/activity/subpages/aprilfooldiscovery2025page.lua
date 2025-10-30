@@ -2,8 +2,8 @@ slot0 = class("AprilFoolDiscovery2025Page", import(".AprilFoolDiscoveryRePage"))
 slot1 = "burinteam"
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.items = CustomIndexLayer.Clone2Full(slot0:findTF("AD/List"), 9)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.items = CustomIndexLayer.Clone2Full(slot0._tf:Find("AD/List"), 9)
 	slot0.selectIndex = 0
 	slot0.btnHelp = slot0.bg:Find("help_btn")
 	slot0.btnBattle = slot0.bg:Find("battle_btn")

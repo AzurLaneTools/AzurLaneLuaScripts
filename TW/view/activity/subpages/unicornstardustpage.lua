@@ -1,7 +1,7 @@
 slot0 = class("UnicornStardustPage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
+	slot0.bg = slot0._tf:Find("AD")
 	slot0.textProgress = slot0.bg:Find("progress_text")
 	slot0.btnGo = slot0.bg:Find("btn_go")
 	slot0.got = slot0.bg:Find("got")

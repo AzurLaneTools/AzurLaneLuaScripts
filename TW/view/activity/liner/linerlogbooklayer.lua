@@ -21,8 +21,8 @@ slot0.init = function(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.togglesTF = slot0:findTF("frame/toggles")
-	slot1 = slot0:findTF("frame/pages")
+	slot0.togglesTF = slot0._tf:Find("frame/toggles")
+	slot1 = slot0._tf:Find("frame/pages")
 	slot0.schedulePage = LinerLogSchedulePage.New(slot1, slot0)
 	slot0.roomPage = LinerLogRoomPage.New(slot1, slot0)
 	slot0.eventPage = LinerLogEventPage.New(slot1, slot0)
@@ -31,19 +31,19 @@ slot0.init = function(slot0)
 		[uv0.PAGE_ROOM] = slot0.roomPage,
 		[uv0.PAGE_EVENT] = slot0.eventPage
 	}
-	slot0.reasoningPage = LinerReasoningPage.New(slot0:findTF("pages"), slot0)
+	slot0.reasoningPage = LinerReasoningPage.New(slot0._tf:Find("pages"), slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("frame/close"), function ()
+	onButton(slot0, slot0._tf:Find("frame/close"), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("mask"), function ()
+	onButton(slot0, slot0._tf:Find("mask"), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
 	eachChild(slot0.togglesTF, function (slot0)
-		setText(uv0:findTF("Text", slot0), i18n(uv1[tonumber(slot0.name)]))
-		onButton(uv0, slot0, function ()
+		setText(slot0:Find("Text"), i18n(uv0[tonumber(slot0.name)]))
+		onButton(uv1, slot0, function ()
 			if tonumber(uv0.name) == uv1.PAGE_EVENT and not LinerLogEventPage.IsUnlcok() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("liner_event_lock"))
 			else
@@ -59,14 +59,16 @@ slot0.didEnter = function(slot0)
 			end
 		end)
 	end)
-	triggerButton(slot0:findTF(tostring(slot0.contextData.page or uv2), slot0.togglesTF), true)
+	triggerButton(slot0._tf:Find(tostring(slot0.contextData.page or uv2), slot0.togglesTF), true)
 	slot0:UpdateTips()
 end
 
 slot0.UpdateToggles = function(slot0)
-	setActive(slot0:findTF("3/lock", slot0.togglesTF), not LinerLogEventPage.IsUnlcok())
+	slot2 = slot0.togglesTF
+
+	setActive(slot2:Find("3/lock"), not LinerLogEventPage.IsUnlcok())
 	eachChild(slot0.togglesTF, function (slot0)
-		setActive(uv0:findTF("selected", slot0), tonumber(slot0.name) == uv0.curPageIdx)
+		setActive(slot0:Find("selected"), tonumber(slot0.name) == uv0.curPageIdx)
 	end)
 end
 
@@ -93,7 +95,7 @@ end
 
 slot0.UpdateTips = function(slot0)
 	eachChild(slot0.togglesTF, function (slot0)
-		setActive(uv0:findTF("tip", slot0), uv0.pages[tonumber(slot0.name)].IsTip())
+		setActive(slot0:Find("tip"), uv0.pages[tonumber(slot0.name)].IsTip())
 	end)
 end
 

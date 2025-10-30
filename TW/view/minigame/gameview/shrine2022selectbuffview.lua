@@ -22,10 +22,10 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.cloud1 = slot0:findTF("Cloud1")
-	slot0.cloud2 = slot0:findTF("Cloud2")
-	slot0.buffListTF = slot0:findTF("BuffContainer")
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.cloud1 = slot0._tf:Find("Cloud1")
+	slot0.cloud2 = slot0._tf:Find("Cloud2")
+	slot0.buffListTF = slot0._tf:Find("BuffContainer")
 	slot0.buffListCG = GetComponent(slot0.buffListTF, "CanvasGroup")
 
 	for slot4 = 1, 3 do

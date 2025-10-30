@@ -1535,7 +1535,6 @@ slot1 = {
 		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
 			callback = slot1
 		})
-		slot1()
 	end,
 	IslandMediator = function (slot0, slot1)
 		slot2 = pg.GameTrackerMgr.GetInstance()

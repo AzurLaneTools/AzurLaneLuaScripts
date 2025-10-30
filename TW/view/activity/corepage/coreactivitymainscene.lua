@@ -36,7 +36,7 @@ slot0.init = function(slot0)
 			elseif not uv0.pageDic[slot3.id] then
 				warning(string.format("without page in act:", slot3.id))
 			else
-				slot5 = uv0:findTF("tip", slot2)
+				slot5 = slot2:Find("tip")
 
 				if uv0.pageDic[slot3.id]:IsShowReminder() == nil then
 					setActive(slot5, slot3:readyToAchieve())
@@ -52,6 +52,8 @@ slot0.init = function(slot0)
 			end
 		end
 	end)
+
+	slot0.switchCount = 0
 end
 
 slot0.didEnter = function(slot0)
@@ -147,21 +149,69 @@ slot0.flushTabs = function(slot0)
 end
 
 slot0.selectActivity = function(slot0, slot1)
-	if slot1 and (not slot0.activity or slot0.activity.id ~= slot1.id) then
-		slot2 = slot0.pageDic[slot1.id]
+	if slot0.nextActivity == slot1 or not slot0.nextActivity and slot0.activity and slot1.id == slot0.activity.id then
+		return
+	end
 
-		assert(slot2, "找不到id:" .. slot1.id .. "的活动页，请检查")
-		slot2:Load()
-		slot2:ActionInvoke("Flush", slot1)
-		slot2:ActionInvoke("ShowOrHide", true)
+	slot2 = {}
 
-		if slot0.activity and slot0.activity.id ~= slot1.id then
-			slot0.pageDic[slot0.activity.id]:ActionInvoke("ShowOrHide", false)
+	if slot0.activity and not slot0.nextActivity then
+		slot0.switchCount = slot0.switchCount + 1
+
+		table.insert(slot2, function (slot0)
+			slot1 = uv0.pageDic[uv0.activity.id]
+
+			slot1:ActionInvoke("SwitchOut", function ()
+				uv0.switchCount = uv0.switchCount - 1
+
+				uv1()
+			end)
+		end)
+	end
+
+	if not slot0.activity or slot0.activity.id ~= slot1.id then
+		assert(slot0.pageDic[slot1.id], "找不到id:" .. slot1.id .. "的活动页，请检查")
+
+		slot0.switchCount = slot0.switchCount + 1
+
+		table.insert(slot2, function (slot0)
+			slot1 = uv0
+
+			slot1:Load()
+
+			slot1 = uv0
+
+			slot1:ActionInvoke("ShowOrHide", false)
+
+			slot1 = uv0
+
+			slot1:CallbackInvoke(function ()
+				uv0.switchCount = uv0.switchCount - 1
+
+				uv1()
+			end)
+		end)
+	end
+
+	slot0.nextActivity = slot1
+
+	parallelAsync(slot2, function ()
+		if uv0.switchCount > 0 then
+			return
 		end
 
-		slot0.activity = slot1
-		slot0.contextData.id = slot1.id
-	end
+		if uv0.activity then
+			uv0.pageDic[uv0.activity.id]:ActionInvoke("ShowOrHide", false)
+		end
+
+		uv0.activity = uv0.nextActivity
+		uv0.contextData.id = uv0.nextActivity.id
+		uv0.nextActivity = nil
+		slot0 = uv0.pageDic[uv0.activity.id]
+
+		slot0:ActionInvoke("Flush", uv0.activity)
+		slot0:ActionInvoke("ShowOrHide", true)
+	end)
 end
 
 slot0.verifyTabs = function(slot0, slot1)

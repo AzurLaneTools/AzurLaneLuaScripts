@@ -6,15 +6,15 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.cg = GetOrAddComponent(slot0._parentTf, typeof(CanvasGroup))
-	slot0.backBtn = slot0:findTF("back")
-	slot0.helpBtn = slot0:findTF("help")
-	slot0.frame = slot0:findTF("frame")
-	slot0.eventTrigger = slot0:findTF("frame"):GetComponent(typeof(EventTriggerListener))
+	slot0.backBtn = slot0._tf:Find("back")
+	slot0.helpBtn = slot0._tf:Find("help")
+	slot0.frame = slot0._tf:Find("frame")
+	slot0.eventTrigger = slot0._tf:Find("frame"):GetComponent(typeof(EventTriggerListener))
 	slot0.uiCam = pg.UIMgr.GetInstance().uiCamera:GetComponent("Camera")
 	slot0.oneKeyBtn = slot0.frame:Find("onekey")
 	slot0.penTpl = slot0.frame:Find("pen")
 
-	setText(slot0:findTF("tip"), i18n("sculpture_drawline_tip"))
+	setText(slot0._tf:Find("tip"), i18n("sculpture_drawline_tip"))
 end
 
 slot0.OnInit = function(slot0)

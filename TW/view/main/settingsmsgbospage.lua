@@ -7,10 +7,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
-	slot0.textTr = slot0:findTF("window/view/content/Text")
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.textTr = slot0._tf:Find("window/view/content/Text")
 	slot0.text = slot0.textTr:GetComponent(typeof(Text))
-	slot0.scrollrect = slot0:findTF("window/view/content")
+	slot0.scrollrect = slot0._tf:Find("window/view/content")
 end
 
 slot0.OnInit = function(slot0)

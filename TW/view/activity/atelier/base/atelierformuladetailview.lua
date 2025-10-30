@@ -12,7 +12,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0:Init()
 	slot0:InitStr()
 
-	slot0.layerFormulaDescriptionPanel = slot0:findTF("Overlay/Description")
+	slot0.layerFormulaDescriptionPanel = slot0._tf:Find("Overlay/Description")
 
 	slot0:InitCustom()
 end
@@ -22,7 +22,7 @@ slot0.InitCustom = function(slot0)
 end
 
 slot0.Init = function(slot0)
-	slot0.viewContent = slot0:findTF("Content", slot0._parentClass.scrollView)
+	slot0.viewContent = slot0._parentClass.scrollView:Find("Content")
 
 	setActive(slot0._go, false)
 end
@@ -40,10 +40,10 @@ slot0.SetActivity = function(slot0, slot1)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("Composite"), function ()
+	onButton(slot0, slot0._tf:Find("Composite"), function ()
 		uv0:OnClickComposite()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("AutoFill"), function ()
+	onButton(slot0, slot0._tf:Find("AutoFill"), function ()
 		uv0:OnClickAutoFill()
 	end, SFX_PANEL)
 	slot0.atelierFormulaOverlayView:didEnter()
@@ -56,11 +56,15 @@ slot0.Show = function(slot0, slot1)
 	slot0.unLockLayerIndex = 1
 
 	if not slot0.nodePools then
+		slot4 = slot0._tf
+		slot4 = slot0._tf
+		slot4 = slot0._tf
+		slot4 = slot0._tf
 		slot0.nodePools = {
-			circle = uv0.New(slot0:findTF("CircleNode").gameObject, 100),
-			hexagon = uv0.New(slot0:findTF("HexagonNode").gameObject, 100),
-			anyHexagon = uv0.New(slot0:findTF("AnyHexagonNode").gameObject, 100),
-			doubleHexagon = uv0.New(slot0:findTF("DoubleHexagonNode").gameObject, 100)
+			circle = uv0.New(slot4:Find("CircleNode").gameObject, 100),
+			hexagon = uv0.New(slot4:Find("HexagonNode").gameObject, 100),
+			anyHexagon = uv0.New(slot4:Find("AnyHexagonNode").gameObject, 100),
+			doubleHexagon = uv0.New(slot4:Find("DoubleHexagonNode").gameObject, 100)
 		}
 
 		table.Foreach(slot0.nodePools, function (slot0, slot1)
@@ -74,8 +78,8 @@ slot0.Show = function(slot0, slot1)
 	_.each(slot0.nodeList, function (slot0)
 		slot2 = tf(slot0.GO)
 
-		SetComponentEnabled(uv0:findTF("Item", slot2), typeof(Image), false)
-		uv0._parentClass.loader:ClearRequest(uv0:findTF("Ring", slot2))
+		SetComponentEnabled(slot2:Find("Item"), typeof(Image), false)
+		uv0._parentClass.loader:ClearRequest(slot2:Find("Ring"))
 		uv0:CleanNodeLinks(slot0)
 		uv0._parentClass.loader:ClearRequest(slot2)
 
@@ -429,9 +433,9 @@ slot0.RefreshBtn = function(slot0)
 		return slot0.Instance ~= nil
 	end)
 
-	setText(slot0:findTF("Bar/Text"), i18n("ryza_tip_put_materials", slot2, slot1))
-	setGray(slot0:findTF("AutoFill"), not slot0.activity:GetFormulas()[slot0.contextData.formulaId]:IsAvaliable())
-	setActive(slot0:findTF("Composite/Disabled"), slot2 < slot1)
+	setText(slot0._tf:Find("Bar/Text"), i18n("ryza_tip_put_materials", slot2, slot1))
+	setGray(slot0._tf:Find("AutoFill"), not slot0.activity:GetFormulas()[slot0.contextData.formulaId]:IsAvaliable())
+	setActive(slot0._tf:Find("Composite/Disabled"), slot2 < slot1)
 end
 
 slot0.UpdateNodeView = function(slot0, slot1)
@@ -440,51 +444,51 @@ slot0.UpdateNodeView = function(slot0, slot1)
 	slot4 = slot1.Data:GetElementName()
 	slot5 = slot0:IsLockNode(slot1)
 
-	setActive(slot0:findTF("Lock", tf(slot1.GO)), slot5)
+	setActive(tf(slot1.GO):Find("Lock"), slot5)
 
 	if slot5 then
 		if slot3:GetType() ~= AtelierFormulaCircle.TYPE.ANY then
-			slot0._parentClass.loader:GetSpriteQuiet(slot0.commonBundleName, "element_" .. slot4, slot0:findTF("Lock/Require/Icon", slot2))
+			slot0._parentClass.loader:GetSpriteQuiet(slot0.commonBundleName, "element_" .. slot4, slot2:Find("Lock/Require/Icon"))
 		end
 
-		setText(slot0:findTF("Lock/Require/Text", slot2), "X" .. slot3:GetLevel())
+		setText(slot2:Find("Lock/Require/Text"), "X" .. slot3:GetLevel())
 	end
 
 	for slot9 = 3, slot3:GetLevel() + 1, -1 do
-		slot0._parentClass.loader:GetSpriteQuiet(slot0.bundleName, "slot_BLOCKED", slot0:findTF("Image", slot0:findTF("Slots", slot2):GetChild(slot9 - 1)))
+		slot0._parentClass.loader:GetSpriteQuiet(slot0.bundleName, "slot_BLOCKED", slot2:Find("Slots"):GetChild(slot9 - 1):Find("Image"))
 	end
 
-	slot7 = slot0:findTF("Item", slot2)
+	slot7 = slot2:Find("Item")
 
 	if not slot1.Instance then
 		if slot3:GetType() == AtelierFormulaCircle.TYPE.ANY then
-			setActive(slot0:findTF("All", slot2), true)
+			setActive(slot2:Find("All"), true)
 		else
-			setActive(slot0:findTF("Icon", slot2), true)
-			slot0._parentClass.loader:GetSpriteQuiet(slot0.bundleName, "icon_" .. slot4, slot0:findTF("Icon", slot2), true)
+			setActive(slot2:Find("Icon"), true)
+			slot0._parentClass.loader:GetSpriteQuiet(slot0.bundleName, "icon_" .. slot4, slot2:Find("Icon"), true)
 		end
 
 		setActive(slot7, false)
 
 		if slot3:GetType() == AtelierFormulaCircle.TYPE.BASE or slot3:GetType() == AtelierFormulaCircle.TYPE.SAIREN then
-			setActive(slot0:findTF("Name", slot2), true)
-			setScrollText(slot0:findTF("Name/Rect/Text", slot2), AtelierMaterial.New({
+			setActive(slot2:Find("Name"), true)
+			setScrollText(slot2:Find("Name/Rect/Text"), AtelierMaterial.New({
 				configId = slot3:GetLimitItemID()
 			}):GetName())
 		else
-			setActive(slot0:findTF("Name", slot2), false)
+			setActive(slot2:Find("Name"), false)
 		end
 
 		for slot11 = 1, slot3:GetLevel() do
-			slot0._parentClass.loader:GetSpriteQuiet(slot0.bundleName, "slot_NULL", slot0:findTF("Image", slot0:findTF("Slots", slot2):GetChild(slot11 - 1)))
+			slot0._parentClass.loader:GetSpriteQuiet(slot0.bundleName, "slot_NULL", slot2:Find("Slots"):GetChild(slot11 - 1):Find("Image"))
 		end
 	else
 		slot9 = AtelierFormulaCircle.ELEMENT_NAME[slot3:GetRingElement(slot6)]
 
 		if slot3:GetType() == AtelierFormulaCircle.TYPE.ANY then
-			setActive(slot0:findTF("All", slot2), false)
+			setActive(slot2:Find("All"), false)
 		else
-			setActive(slot0:findTF("Icon", slot2), false)
+			setActive(slot2:Find("Icon"), false)
 		end
 
 		setActive(slot7, true)
@@ -495,15 +499,15 @@ slot0.UpdateNodeView = function(slot0, slot1)
 		setLocalScale(slot7, Vector3.New(unpack(slot10, 1, 3)))
 		setAnchoredPosition(slot7, Vector2.New(unpack(slot10, 4, 5)))
 		slot0._parentClass.loader:GetSpriteQuiet(slot6:GetIconPath(), "", slot7, true)
-		setActive(slot0:findTF("Name", slot2), true)
-		setScrollText(slot0:findTF("Name/Rect/Text", slot2), slot6:GetName())
+		setActive(slot2:Find("Name"), true)
+		setScrollText(slot2:Find("Name/Rect/Text"), slot6:GetName())
 
 		for slot14 = 1, slot3:GetLevel() do
-			slot0._parentClass.loader:GetSpriteQuiet(slot0.bundleName, "slot_" .. slot9, slot0:findTF("Image", slot0:findTF("Slots", slot2):GetChild(slot14 - 1)))
+			slot0._parentClass.loader:GetSpriteQuiet(slot0.bundleName, "slot_" .. slot9, slot2:Find("Slots"):GetChild(slot14 - 1):Find("Image"))
 		end
 	end
 
-	setImageColor(slot0:findTF("Ring", slot2), slot3:GetElementRingColor(slot6))
+	setImageColor(slot2:Find("Ring"), slot3:GetElementRingColor(slot6))
 
 	if slot1.Change then
 		slot9 = slot1.Data:GetRingElement(slot6)
@@ -710,25 +714,25 @@ slot0.RefreshNodeLinks = function(slot0, slot1)
 	slot3 = slot1.Data
 
 	_.each(slot3:GetNeighbors(), function (slot0)
-		setActive(uv0:findTF("Links", uv1):GetChild(slot0[1] - 1), true)
+		setActive(uv0:Find("Links"):GetChild(slot0[1] - 1), true)
 	end)
 end
 
 slot0.RefreshNodeLinkEffects = function(slot0, slot1, slot2, slot3)
 	table.Foreach(slot2.links, function (slot0, slot1)
-		slot2 = uv0:findTF("Links/" .. slot0, uv1)
-		slot3 = uv0.lineEffect[3]
+		slot2 = uv0:Find("Links/" .. slot0)
+		slot3 = uv1.lineEffect[3]
 
 		if slot1.Lock and uv2 then
-			slot3 = uv0.lineEffect[1]
+			slot3 = uv1.lineEffect[1]
 		elseif not slot1.Lock and not uv2 then
-			slot3 = uv0.lineEffect[2]
+			slot3 = uv1.lineEffect[2]
 		end
 
-		slot4 = uv0._parentClass.loader
+		slot4 = uv1._parentClass.loader
 
 		slot4:GetPrefab("ui/" .. slot3, "", function (slot0)
-			setParent(slot0, uv0:findTF("Link", uv1))
+			setParent(slot0, uv0:Find("Link"))
 			setAnchoredPosition(slot0, Vector2.New(0, -15))
 		end, slot2)
 	end)
@@ -736,7 +740,7 @@ end
 
 slot0.CleanNodeLinks = function(slot0, slot1)
 	table.Foreach(slot1.links, function (slot0)
-		uv0._parentClass.loader:ClearRequest(uv0:findTF("Links/" .. slot0, nodeTF))
+		uv0._parentClass.loader:ClearRequest(nodeTF:Find("Links/" .. slot0))
 	end)
 end
 

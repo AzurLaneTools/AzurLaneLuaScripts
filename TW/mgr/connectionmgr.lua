@@ -254,16 +254,7 @@ slot1.onError = function(slot0)
 end
 
 slot1.Send = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	if not uv0 then
-		warning("Network is not connected. msgid " .. slot1)
-		uv1.m02:sendNotification(GAME.LOGOUT, {
-			code = 5
-		})
-
-		return
-	end
-
-	uv2:Queue(slot1, slot2, slot3, function (slot0)
+	uv1:Queue(slot1, slot2, slot3, function (slot0)
 		if slot0.result == 9998 then
 			uv0.m02:sendNotification(GAME.EXTRA_PROTO_RESULT, {
 				result = slot0.result

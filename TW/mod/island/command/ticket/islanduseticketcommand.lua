@@ -1,8 +1,9 @@
 slot0 = class("IslandUseTicketCommand", pm.SimpleCommand)
 slot0.TYPES = {
-	ORDER_CD = 1,
 	SHIP_ORDER = 2,
 	MANAGE = 3,
+	SHIP_ORDER_RELOAD = 5,
+	ORDER_CD = 1,
 	APPOINT = 4
 }
 
@@ -51,7 +52,7 @@ slot0.execute = function(slot0, slot1)
 		slot8 = slot8 + slot13:GetTime() * slot13:GetCount()
 	end
 
-	if slot3 == uv0.TYPES.ORDER_CD or slot3 == uv0.TYPES.SHIP_ORDER or slot3 == uv0.TYPES.MANAGE then
+	if slot3 == uv0.TYPES.ORDER_CD or slot3 == uv0.TYPES.SHIP_ORDER or slot3 == uv0.TYPES.SHIP_ORDER_RELOAD or slot3 == uv0.TYPES.MANAGE then
 		slot0:Send(slot3, slot4, slot7, slot8)
 	elseif slot3 == uv0.TYPES.APPOINT then
 		slot0:SendForAppoint(slot4, slot7, slot8)
@@ -70,7 +71,7 @@ slot0.Send = function(slot0, slot1, slot2, slot3, slot4)
 	}, 21424, function (slot0)
 		if slot0.result == 0 then
 			slot5 = function()
-				getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurant(uv0):UpdateEndTime(uv1)
+				getProxy(IslandProxy):GetIsland():GetOrderAgency():GetShipOrderSlot(uv0):AddReduceReloadingTime(uv1)
 			end
 
 			switch(uv0, {
@@ -80,7 +81,10 @@ slot0.Send = function(slot0, slot1, slot2, slot3, slot4)
 				[uv1.TYPES.SHIP_ORDER] = function ()
 					getProxy(IslandProxy):GetIsland():GetOrderAgency():GetShipOrderSlot(uv0):AddReduceTime(uv1)
 				end,
-				[uv1.TYPES.MANAGE] = slot5
+				[uv1.TYPES.MANAGE] = function ()
+					getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurant(uv0):UpdateEndTime(uv1)
+				end,
+				[uv1.TYPES.SHIP_ORDER_RELOAD] = slot5
 			})
 
 			slot1 = getProxy(IslandProxy):GetIsland():GetTicketAgency()

@@ -5,17 +5,17 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.resetFrame = slot0:findTF("frame/point/reset_frame")
-	slot0.resetTimeTF = slot0:findTF("frame/point/reset_frame/reset_time")
-	slot0.resetTimeTxt = slot0:findTF("frame/point/reset_frame/reset_time/Text"):GetComponent(typeof(Text))
-	slot0.resetTimeBtn = slot0:findTF("frame/point/reset_frame/reset_btn")
-	slot0.pointTxt = slot0:findTF("frame/point/usage_frame/point/Text"):GetComponent(typeof(Text))
-	slot0.useBtn = slot0:findTF("frame/point/usage_frame/use_btn")
-	slot0.uilist = UIItemList.New(slot0:findTF("frame/talents/content"), slot0:findTF("frame/talents/content/talent_tpl"))
+	slot0.resetFrame = slot0._tf:Find("frame/point/reset_frame")
+	slot0.resetTimeTF = slot0._tf:Find("frame/point/reset_frame/reset_time")
+	slot0.resetTimeTxt = slot0._tf:Find("frame/point/reset_frame/reset_time/Text"):GetComponent(typeof(Text))
+	slot0.resetTimeBtn = slot0._tf:Find("frame/point/reset_frame/reset_btn")
+	slot0.pointTxt = slot0._tf:Find("frame/point/usage_frame/point/Text"):GetComponent(typeof(Text))
+	slot0.useBtn = slot0._tf:Find("frame/point/usage_frame/use_btn")
+	slot0.uilist = UIItemList.New(slot0._tf:Find("frame/talents/content"), slot0._tf:Find("frame/talents/content/talent_tpl"))
 	slot0.resetPanel = CommanderResetTalentPage.New(slot0._parentTf, slot0.event, slot0.contextData)
 	slot0.usagePanel = CommanderUsageTalentPage.New(slot0._parentTf, slot0.event, slot0.contextData)
 
-	setText(slot0:findTF("frame/point/Text"), i18n("commander_level_up_tip"))
+	setText(slot0._tf:Find("frame/point/Text"), i18n("commander_level_up_tip"))
 end
 
 slot0.OnInit = function(slot0)

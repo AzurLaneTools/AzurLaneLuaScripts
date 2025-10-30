@@ -11,7 +11,7 @@ slot1 = {
 }
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
+	slot0.bg = slot0._tf:Find("AD")
 	slot0.masklist = slot0.bg:Find("maskList")
 	slot0.slider = slot0.bg:Find("slider")
 end

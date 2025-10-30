@@ -1,7 +1,7 @@
 slot0 = class("MikasaRepairePage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.layer = slot0:findTF("layer")
+	slot0.layer = slot0._tf:Find("layer")
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -30,15 +30,15 @@ slot0.update_task_list_mikasa_museum = function(slot0, slot1, slot2, slot3)
 	slot14, slot15 = nil
 
 	for slot19 = 1, 4 do
-		slot23 = slot8:Find("Panel/layout_layer/repair_panel" .. slot19 .. "/Panel")
-		slot12 = slot0:findTF("btn_repair", slot23)
+		slot23 = slot19
+		slot12 = slot8:Find("Panel/layout_layer/repair_panel" .. slot23 .. "/Panel"):Find("btn_repair")
 		slot13[slot19] = nil
 
 		for slot23 = 1, 4 do
 			slot14 = slot5[(slot19 - 1) * 4 + slot23]
 
 			print(tostring(slot14))
-			slot0:set_mikasa_btn(slot14, slot0:findTF("repair" .. slot23, slot10), slot23 == 1 and 0 or slot5[(slot19 - 1) * 4 + slot23 - 1], slot23 >= 4)
+			slot0:set_mikasa_btn(slot14, slot10:Find("repair" .. slot23), slot23 == 1 and 0 or slot5[(slot19 - 1) * 4 + slot23 - 1], slot23 >= 4)
 
 			if not slot13[slot19] then
 				slot13[slot19] = slot4:getTaskById(slot14) and slot14 or nil

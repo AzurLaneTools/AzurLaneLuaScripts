@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"受选者之路\n\n<size=45>计划之内？</size>",
+					"受選者之路\n\n<size=45>4.計劃之內？</size>",
 					1
 				}
 			}
@@ -21,15 +21,15 @@ return {
 			say = "NA海域·中心奇异点边缘",
 			sequence = {
 				{
-					"NA海域·中心奇异点边缘",
+					"NA海域·中心奇異點邊緣",
 					1
 				},
 				{
-					"审判庭特殊行动舰队",
+					"審判庭特殊行動艦隊",
 					2
 				},
 				{
-					"几日后",
+					"幾日後",
 					3
 				}
 			}
@@ -40,7 +40,7 @@ return {
 			bgm = "battle-eagleunion",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "透过指挥甲板的玻璃，奇异点的入口形状已经清晰可见了。",
+			say = "透過指揮甲板的玻璃，奇異點的入口形狀已經清晰可見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "鉴于马可波罗的存在是一个不宜公开的秘密，本次行动由审判庭一方独自负责。",
+			say = "鑑於馬可波羅的存在是一個不宜公開的秘密，本次行動由審判庭一方獨自負責。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "克莱蒙梭在完成部署后留在了欧罗巴吸引外部视线，护送则由可怖带领的审判庭人员负责。",
+			say = "克里蒙梭在完成部署後留在了歐羅巴吸引外部視線，護送則由可秉帶領的審判庭人員負責。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "临行前，{namecode:182:信浓}在船舱中布置了与之前在审判庭地下据点中相同的示警法阵，以防万一。",
+			say = "臨行前，信濃在船艙中佈置了與先前在審判庭地下據點中相同的示警法陣，以防萬一。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "还好，此行一路顺风。",
+			say = "還好，此行一路順風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 801070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，距离约定的时间还有半个多小时，我们是直接进去，还是再等一会？",
+			say = "指揮官，距離約定的時間還有半個多小時，我們是直接進去，還是再等一陣子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "奇异点内部的情况变幻难测，就算是较为温和的入口区域也不能放松警惕。",
+			say = "奇異點內部的情況變幻難測，就算是較溫和的入口區域也不能放鬆警戒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "多一分钟就多一分危险，还是等到准点再进入吧。",
+			say = "多一分鐘就多一分危險，還是等到準時再進入吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 801070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，那我再做一遍检查。",
+			say = "好，那我再做一次檢查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 801070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉·加利索尼埃，“帽子小姐”状态如何？",
+			say = "拉·加利索尼埃，「帽子小姐」狀態如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 902010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“帽子小姐”还是老样子，示警法阵也没变化。",
+			say = "「帽子小姐」還是老樣子，示警法陣也沒變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好，继续观察。我们还要再徘徊一阵，半小时后准时进入奇异点。",
+			say = "好，繼續觀察。我們還要再徘徊一陣，半小時後準時進入奇異點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "同样是为了行动的保密性，在任何联络和记录中，马可波罗的名字都是用代号表示的。",
+			say = "同樣是為了行動的保密性，在任何聯絡和紀錄中，馬可波羅的名字都是用代號表示的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "“帽子小姐”，就是本次行动中马可波罗的代号。",
+			say = "「帽子小姐」，就是本次行動中馬可波羅的代號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "这个代号是由克莱蒙梭亲自定下来的，不过当选理由不明。",
+			say = "這個代號是由克里蒙梭親自定下來的，不過當選理由不明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "在出于好奇询问的时候，她也只说了“反正马可波罗没意见”这种话……",
+			say = "在處於好奇詢問的時候，她也只說了「反正馬可波羅沒意見」這種話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "既然如此，其他人也自然是没意见的。",
+			say = "既然如此，其他人也自然是沒意見的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "就这样，半小时顺利过去，我与这艘特制的审判庭量产型一同，再次进入了这个位于NA海域中心的奇异点中。",
+			say = "就這樣，半小時順利過去，我與這艘特製的審判庭量產型一同，再次進入了這個位於NA海域中心奇異點中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_595",
-			say = "经历了一阵熟悉的眩晕感后，奇异点内与外部截然不同的海况出现在了眼前。",
+			say = "經歷了一陣熟悉的眩暈感後，奇異點內與外部截然不同的海況出現在了眼前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "望着窗户外涌动的暗红色云层，心中不禁涌现出些许感慨。",
+			say = "望著窗戶外湧動的暗紅色雲層，心中不禁湧現些許感慨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不知不觉间……已经逐渐熟悉这种穿过奇异点的感觉了啊。）",
+			say = "（不知不覺間……已經逐漸熟悉這種穿過奇異點的感覺了啊。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（从天气上来看……本日的环境主题是——红色系。）",
+			say = "（從天氣來看……本日的環境主題是——紅色系。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "没错，眼前这种看上去危险又邪恶的环境，其实与外部普通的蓝天白云并没有什么区别。",
+			say = "沒錯，眼前這種看起來危險又邪惡的環境，其實與外部普通的藍天白雲並沒有什麼差別。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "奇异点内对于危险的判定是不能从颜色上判断的。",
+			say = "奇異點內對於危險的判定是不能從顏色上判斷的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_595",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi,",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			hidePaintObj = true,
 			say = "滴滴——",
 			typewriter = {
@@ -408,7 +408,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "指挥官，很准时。",
+			say = "指揮官，很準時。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "事不宜迟，我们开始交接吧。",
+			say = "事不宜遲，我們開始交接吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你们现在在哪里？我没观测到你们的位置。",
+			say = "妳們現在在哪裡？我沒觀測到妳們的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "我们已经根据海伦娜的部署藏起来了。",
+			say = "我們已經根據海倫娜的部署藏起來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "你们把量产型留在这里，然后直接返回就好。",
+			say = "你們把量產型留在這裡，然後直接返回就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来海伦娜很确信这次能够把目标钓出来啊。",
+			say = "看來海倫娜很確信這次能夠把目標釣出來啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			actor = 9712010,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "放心吧，指挥官，我们会照顾好“帽子小姐”的。",
+			say = "放心吧，指揮官，我們會照顧好「帽子小姐」的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			actor = 902010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，可怖，示警法阵突然开始闪光了！",
+			say = "指揮官，可怖，示警法陣突然開始閃光了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……闪光，不就意味着……",
+			say = "……閃光，不就代表……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "不用担心，海伦娜发来了消息，目标上钩。",
+			say = "不用擔心，海倫娜發了訊息，目標上鉤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "她已经在外部开始拦截了，让我们等到示警法阵恢复正常后再行动。",
+			say = "她已經在外部開始攔截了，讓我們等到示警法陣恢復正常後再行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（没想到还真来了……我们才刚进入奇异点而已，反应是不是有些太快了……？）",
+			say = "（沒想到還真來了……我們才剛進入奇異點而已，反應是不是有些太快了……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（还是说，带着马可波罗进入奇异点这一行为，会触发她设下的某种监控机制？）",
+			say = "（還是說，帶著馬可波羅進入奇異點這行為，會觸發她設下的某種監控機制？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（海伦娜是想到了这一点，才把交接安排在奇异点内的么……？）",
+			say = "（海倫娜是想到了這一點，才把交接安排在奇異點內的嗎……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			actor = 902010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，示警法阵的闪烁停止，光芒也熄灭了。",
+			say = "指揮官，示警法陣的閃爍停止，光芒也熄滅了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海伦娜那边怎么说？",
+			say = "海倫娜那邊怎麼說？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "她说，“焦灼”。没事，不用担心她。",
+			say = "她說，「焦灼」。沒事，不用擔心她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "既然示警法阵已经恢复正常，我们就继续开始交接流程吧。",
+			say = "既然示警法陣已經恢復正常，我們就繼續開始交接流程吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "还是和之前说的一样，我们现在不宜露面，你们将量产型留在水面上离开，之后由我们接手就好。",
+			say = "還是跟之前說的一樣，我們現在不宜露面，你們將量產型留在水面上離開，之後由我們接手就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没问题，我去完成最后一次数据记录。",
+			say = "沒問題，我去完成最後一次數據紀錄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			stopbgm = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就这样，我推开了前往下层区的舱门。",
+			say = "就這樣，我推開了前往下層區的艙門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "映入眼帘的，是一片纯白构成的世界——",
+			say = "映入眼簾的，是一片純白構成的世界—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

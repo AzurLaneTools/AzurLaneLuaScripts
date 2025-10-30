@@ -108,6 +108,13 @@ slot0.game_char = {
 		tpl = "players/char_1",
 		speed = Vector2(1000, 0),
 		start_pos = Vector2(0, -400)
+	},
+	{
+		hp = 300,
+		id = 2,
+		tpl = "players/char_2",
+		speed = Vector2(1000, 0),
+		start_pos = Vector2(0, -400)
 	}
 }
 slot0.game_bg = {
@@ -1173,7 +1180,7 @@ slot0.game_enemy = {
 		hp = 500,
 		boss = true,
 		id = 902,
-		desc = "圣马丁号"
+		desc = "海豚号"
 	},
 	[903] = {
 		score = 500,
@@ -1181,7 +1188,7 @@ slot0.game_enemy = {
 		hp = 500,
 		boss = true,
 		id = 903,
-		desc = "幻想号"
+		desc = "皇家财富号"
 	},
 	[904] = {
 		score = 500,
@@ -1189,7 +1196,7 @@ slot0.game_enemy = {
 		hp = 500,
 		boss = true,
 		id = 904,
-		desc = "朴茨茅斯冒险号"
+		desc = "幻想号"
 	},
 	[905] = {
 		score = 500,
@@ -1197,7 +1204,7 @@ slot0.game_enemy = {
 		hp = 500,
 		boss = true,
 		id = 905,
-		desc = "海豚号"
+		desc = "朴茨冒险号"
 	},
 	[906] = {
 		score = 500,
@@ -1205,7 +1212,7 @@ slot0.game_enemy = {
 		hp = 500,
 		boss = true,
 		id = 906,
-		desc = "皇家财富号"
+		desc = "圣马丁号"
 	},
 	[907] = {
 		score = 500,
@@ -1214,6 +1221,30 @@ slot0.game_enemy = {
 		boss = true,
 		id = 907,
 		desc = "维达号"
+	},
+	[908] = {
+		score = 500,
+		tpl = "Enemys/boss_8",
+		hp = 500,
+		boss = true,
+		id = 908,
+		desc = "和睦号"
+	},
+	[909] = {
+		score = 500,
+		tpl = "Enemys/boss_9",
+		hp = 500,
+		boss = true,
+		id = 909,
+		desc = "莱姆号"
+	},
+	[910] = {
+		score = 500,
+		tpl = "Enemys/boss_10",
+		hp = 500,
+		boss = true,
+		id = 910,
+		desc = "珍珠号"
 	},
 	[911] = {
 		score = 500,
@@ -1229,7 +1260,7 @@ slot0.game_enemy = {
 		hp = 800,
 		boss = true,
 		id = 912,
-		desc = "圣马丁号"
+		desc = "海豚号"
 	},
 	[913] = {
 		score = 500,
@@ -1237,7 +1268,7 @@ slot0.game_enemy = {
 		hp = 800,
 		boss = true,
 		id = 913,
-		desc = "幻想号"
+		desc = "皇家财富号"
 	},
 	[914] = {
 		score = 500,
@@ -1245,7 +1276,7 @@ slot0.game_enemy = {
 		hp = 800,
 		boss = true,
 		id = 914,
-		desc = "朴茨茅斯冒险号"
+		desc = "幻想号"
 	},
 	[915] = {
 		score = 500,
@@ -1253,7 +1284,7 @@ slot0.game_enemy = {
 		hp = 800,
 		boss = true,
 		id = 915,
-		desc = "海豚号"
+		desc = "朴茨冒险号"
 	},
 	[916] = {
 		score = 500,
@@ -1261,7 +1292,7 @@ slot0.game_enemy = {
 		hp = 800,
 		boss = true,
 		id = 916,
-		desc = "皇家财富号"
+		desc = "圣马丁号"
 	},
 	[917] = {
 		score = 500,
@@ -1270,6 +1301,30 @@ slot0.game_enemy = {
 		boss = true,
 		id = 917,
 		desc = "维达号"
+	},
+	[918] = {
+		score = 500,
+		tpl = "Enemys/boss_8",
+		hp = 800,
+		boss = true,
+		id = 918,
+		desc = "和睦号"
+	},
+	[919] = {
+		score = 500,
+		tpl = "Enemys/boss_9",
+		hp = 800,
+		boss = true,
+		id = 919,
+		desc = "莱姆号"
+	},
+	[920] = {
+		score = 500,
+		tpl = "Enemys/boss_10",
+		hp = 800,
+		boss = true,
+		id = 920,
+		desc = "珍珠号"
 	},
 	[921] = {
 		score = 500,
@@ -1285,7 +1340,7 @@ slot0.game_enemy = {
 		hp = 1000,
 		boss = true,
 		id = 922,
-		desc = "圣马丁号"
+		desc = "海豚号"
 	},
 	[923] = {
 		score = 500,
@@ -1293,7 +1348,7 @@ slot0.game_enemy = {
 		hp = 1000,
 		boss = true,
 		id = 923,
-		desc = "幻想号"
+		desc = "皇家财富号"
 	},
 	[924] = {
 		score = 500,
@@ -1301,7 +1356,7 @@ slot0.game_enemy = {
 		hp = 1000,
 		boss = true,
 		id = 924,
-		desc = "朴茨茅斯冒险号"
+		desc = "幻想号"
 	},
 	[925] = {
 		score = 500,
@@ -1309,7 +1364,7 @@ slot0.game_enemy = {
 		hp = 1000,
 		boss = true,
 		id = 925,
-		desc = "海豚号"
+		desc = "朴茨冒险号"
 	},
 	[926] = {
 		score = 500,
@@ -1317,7 +1372,7 @@ slot0.game_enemy = {
 		hp = 1000,
 		boss = true,
 		id = 926,
-		desc = "皇家财富号"
+		desc = "圣马丁号"
 	},
 	[927] = {
 		score = 500,
@@ -1326,6 +1381,30 @@ slot0.game_enemy = {
 		boss = true,
 		id = 927,
 		desc = "维达号"
+	},
+	[928] = {
+		score = 500,
+		tpl = "Enemys/boss_8",
+		hp = 1000,
+		boss = true,
+		id = 928,
+		desc = "和睦号"
+	},
+	[929] = {
+		score = 500,
+		tpl = "Enemys/boss_9",
+		hp = 1000,
+		boss = true,
+		id = 929,
+		desc = "莱姆号"
+	},
+	[930] = {
+		score = 500,
+		tpl = "Enemys/boss_10",
+		hp = 1000,
+		boss = true,
+		id = 930,
+		desc = "珍珠号"
 	},
 	[931] = {
 		score = 500,
@@ -1341,7 +1420,7 @@ slot0.game_enemy = {
 		hp = 2000,
 		boss = true,
 		id = 932,
-		desc = "圣马丁号"
+		desc = "海豚号"
 	},
 	[933] = {
 		score = 500,
@@ -1349,7 +1428,7 @@ slot0.game_enemy = {
 		hp = 2000,
 		boss = true,
 		id = 933,
-		desc = "幻想号"
+		desc = "皇家财富号"
 	},
 	[934] = {
 		score = 500,
@@ -1357,7 +1436,7 @@ slot0.game_enemy = {
 		hp = 2000,
 		boss = true,
 		id = 934,
-		desc = "朴茨茅斯冒险号"
+		desc = "幻想号"
 	},
 	[935] = {
 		score = 500,
@@ -1365,7 +1444,7 @@ slot0.game_enemy = {
 		hp = 2000,
 		boss = true,
 		id = 935,
-		desc = "海豚号"
+		desc = "朴茨冒险号"
 	},
 	[936] = {
 		score = 500,
@@ -1373,7 +1452,7 @@ slot0.game_enemy = {
 		hp = 2000,
 		boss = true,
 		id = 936,
-		desc = "皇家财富号"
+		desc = "圣马丁号"
 	},
 	[937] = {
 		score = 500,
@@ -1382,6 +1461,30 @@ slot0.game_enemy = {
 		boss = true,
 		id = 937,
 		desc = "维达号"
+	},
+	[938] = {
+		score = 500,
+		tpl = "Enemys/boss_8",
+		hp = 2000,
+		boss = true,
+		id = 938,
+		desc = "和睦号"
+	},
+	[939] = {
+		score = 500,
+		tpl = "Enemys/boss_9",
+		hp = 2000,
+		boss = true,
+		id = 939,
+		desc = "莱姆号"
+	},
+	[940] = {
+		score = 500,
+		tpl = "Enemys/boss_10",
+		hp = 2000,
+		boss = true,
+		id = 940,
+		desc = "珍珠号"
 	},
 	[941] = {
 		score = 500,
@@ -1397,7 +1500,7 @@ slot0.game_enemy = {
 		hp = 3000,
 		boss = true,
 		id = 942,
-		desc = "圣马丁号"
+		desc = "海豚号"
 	},
 	[943] = {
 		score = 500,
@@ -1405,7 +1508,7 @@ slot0.game_enemy = {
 		hp = 3000,
 		boss = true,
 		id = 943,
-		desc = "幻想号"
+		desc = "皇家财富号"
 	},
 	[944] = {
 		score = 500,
@@ -1413,7 +1516,7 @@ slot0.game_enemy = {
 		hp = 3000,
 		boss = true,
 		id = 944,
-		desc = "朴茨茅斯冒险号"
+		desc = "幻想号"
 	},
 	[945] = {
 		score = 500,
@@ -1421,7 +1524,7 @@ slot0.game_enemy = {
 		hp = 3000,
 		boss = true,
 		id = 945,
-		desc = "海豚号"
+		desc = "朴茨冒险号"
 	},
 	[946] = {
 		score = 500,
@@ -1429,7 +1532,7 @@ slot0.game_enemy = {
 		hp = 3000,
 		boss = true,
 		id = 946,
-		desc = "皇家财富号"
+		desc = "圣马丁号"
 	},
 	[947] = {
 		score = 500,
@@ -1438,6 +1541,30 @@ slot0.game_enemy = {
 		boss = true,
 		id = 947,
 		desc = "维达号"
+	},
+	[948] = {
+		score = 500,
+		tpl = "Enemys/boss_8",
+		hp = 3000,
+		boss = true,
+		id = 948,
+		desc = "和睦号"
+	},
+	[949] = {
+		score = 500,
+		tpl = "Enemys/boss_9",
+		hp = 3000,
+		boss = true,
+		id = 949,
+		desc = "莱姆号"
+	},
+	[950] = {
+		score = 500,
+		tpl = "Enemys/boss_10",
+		hp = 3000,
+		boss = true,
+		id = 950,
+		desc = "珍珠号"
 	},
 	[951] = {
 		score = 500,
@@ -1453,7 +1580,7 @@ slot0.game_enemy = {
 		hp = 4000,
 		boss = true,
 		id = 952,
-		desc = "圣马丁号"
+		desc = "海豚号"
 	},
 	[953] = {
 		score = 500,
@@ -1461,7 +1588,7 @@ slot0.game_enemy = {
 		hp = 4000,
 		boss = true,
 		id = 953,
-		desc = "幻想号"
+		desc = "皇家财富号"
 	},
 	[954] = {
 		score = 500,
@@ -1469,7 +1596,7 @@ slot0.game_enemy = {
 		hp = 4000,
 		boss = true,
 		id = 954,
-		desc = "朴茨茅斯冒险号"
+		desc = "幻想号"
 	},
 	[955] = {
 		score = 500,
@@ -1477,7 +1604,7 @@ slot0.game_enemy = {
 		hp = 4000,
 		boss = true,
 		id = 955,
-		desc = "海豚号"
+		desc = "朴茨冒险号"
 	},
 	[956] = {
 		score = 500,
@@ -1485,7 +1612,7 @@ slot0.game_enemy = {
 		hp = 4000,
 		boss = true,
 		id = 956,
-		desc = "皇家财富号"
+		desc = "圣马丁号"
 	},
 	[957] = {
 		score = 500,
@@ -1494,6 +1621,30 @@ slot0.game_enemy = {
 		boss = true,
 		id = 957,
 		desc = "维达号"
+	},
+	[958] = {
+		score = 500,
+		tpl = "Enemys/boss_8",
+		hp = 4000,
+		boss = true,
+		id = 958,
+		desc = "和睦号"
+	},
+	[959] = {
+		score = 500,
+		tpl = "Enemys/boss_9",
+		hp = 4000,
+		boss = true,
+		id = 959,
+		desc = "莱姆号"
+	},
+	[960] = {
+		score = 500,
+		tpl = "Enemys/boss_10",
+		hp = 4000,
+		boss = true,
+		id = 960,
+		desc = "珍珠号"
 	},
 	[961] = {
 		score = 500,
@@ -1509,7 +1660,7 @@ slot0.game_enemy = {
 		hp = 5000,
 		boss = true,
 		id = 962,
-		desc = "圣马丁号"
+		desc = "海豚号"
 	},
 	[963] = {
 		score = 500,
@@ -1517,7 +1668,7 @@ slot0.game_enemy = {
 		hp = 5000,
 		boss = true,
 		id = 963,
-		desc = "幻想号"
+		desc = "皇家财富号"
 	},
 	[964] = {
 		score = 500,
@@ -1525,7 +1676,7 @@ slot0.game_enemy = {
 		hp = 5000,
 		boss = true,
 		id = 964,
-		desc = "朴茨茅斯冒险号"
+		desc = "幻想号"
 	},
 	[965] = {
 		score = 500,
@@ -1533,7 +1684,7 @@ slot0.game_enemy = {
 		hp = 5000,
 		boss = true,
 		id = 965,
-		desc = "海豚号"
+		desc = "朴茨冒险号"
 	},
 	[966] = {
 		score = 500,
@@ -1541,7 +1692,7 @@ slot0.game_enemy = {
 		hp = 5000,
 		boss = true,
 		id = 966,
-		desc = "皇家财富号"
+		desc = "圣马丁号"
 	},
 	[967] = {
 		score = 500,
@@ -1550,6 +1701,30 @@ slot0.game_enemy = {
 		boss = true,
 		id = 967,
 		desc = "维达号"
+	},
+	[968] = {
+		score = 500,
+		tpl = "Enemys/boss_8",
+		hp = 5000,
+		boss = true,
+		id = 968,
+		desc = "和睦号"
+	},
+	[969] = {
+		score = 500,
+		tpl = "Enemys/boss_9",
+		hp = 5000,
+		boss = true,
+		id = 969,
+		desc = "莱姆号"
+	},
+	[970] = {
+		score = 500,
+		tpl = "Enemys/boss_10",
+		hp = 5000,
+		boss = true,
+		id = 970,
+		desc = "珍珠号"
 	}
 }
 slot0.rule_data = {
@@ -1642,12 +1817,12 @@ slot0.rule_data = {
 		create_rate = 100,
 		ids = {
 			901,
-			902,
 			903,
-			904,
+			908,
 			905,
+			909,
 			906,
-			907
+			910
 		},
 		type = slot0.type_enemy
 	},
@@ -1656,12 +1831,12 @@ slot0.rule_data = {
 		create_rate = 100,
 		ids = {
 			911,
-			912,
 			913,
-			914,
+			918,
 			915,
+			919,
 			916,
-			917
+			920
 		},
 		type = slot0.type_enemy
 	},
@@ -1670,12 +1845,12 @@ slot0.rule_data = {
 		create_rate = 100,
 		ids = {
 			921,
-			922,
 			923,
-			924,
+			928,
 			925,
+			929,
 			926,
-			927
+			930
 		},
 		type = slot0.type_enemy
 	},
@@ -1684,12 +1859,12 @@ slot0.rule_data = {
 		create_rate = 100,
 		ids = {
 			931,
-			932,
 			933,
-			934,
+			938,
 			935,
+			939,
 			936,
-			937
+			940
 		},
 		type = slot0.type_enemy
 	},
@@ -1698,12 +1873,12 @@ slot0.rule_data = {
 		create_rate = 100,
 		ids = {
 			941,
-			942,
 			943,
-			944,
+			948,
 			945,
+			949,
 			946,
-			947
+			950
 		},
 		type = slot0.type_enemy
 	},
@@ -1712,12 +1887,12 @@ slot0.rule_data = {
 		create_rate = 100,
 		ids = {
 			951,
-			952,
 			953,
-			954,
+			958,
 			955,
+			959,
 			956,
-			957
+			960
 		},
 		type = slot0.type_enemy
 	},
@@ -1726,12 +1901,12 @@ slot0.rule_data = {
 		create_rate = 100,
 		ids = {
 			961,
-			962,
 			963,
-			964,
+			968,
 			965,
+			969,
 			966,
-			967
+			970
 		},
 		type = slot0.type_enemy
 	},

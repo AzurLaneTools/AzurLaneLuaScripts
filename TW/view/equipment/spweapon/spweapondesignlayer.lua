@@ -29,29 +29,29 @@ slot0.setPlayer = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.designScrollView = slot0:findTF("equipment_scrollview")
-	slot0.equipmentTpl = slot0:findTF("Template")
+	slot0.designScrollView = slot0._tf:Find("equipment_scrollview")
+	slot0.equipmentTpl = slot0._tf:Find("Template")
 
 	setActive(slot0.equipmentTpl, false)
 
-	slot0.equipmentContainer = slot0:findTF("equipment_grid", slot0.designScrollView)
+	slot0.equipmentContainer = slot0.designScrollView:Find("equipment_grid")
 	slot1 = nil
 	slot0.equipmentContainer:GetComponent(typeof(GridLayoutGroup)).constraintCount = ((NotchAdapt.CheckNotchRatio == 2 or not getProxy(SettingsProxy):CheckLargeScreen()) and slot0.designScrollView.rect.width > 2000 or NotchAdapt.CheckNotchRatio >= 2) and 8 or 7
-	slot0.top = slot0:findTF("top")
-	slot0.toggleOwned = slot0:findTF("toggle_owned")
-	slot0.sortBtn = slot0:findTF("sort_button", slot0.top)
-	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
-	slot0.decBtn = slot0:findTF("dec_btn", slot0.sortBtn)
-	slot0.sortImgAsc = slot0:findTF("desc", slot0.decBtn)
-	slot0.sortImgDec = slot0:findTF("asc", slot0.decBtn)
-	slot0.indexPanel = slot0:findTF("index")
-	slot0.tagContainer = slot0:findTF("adapt/mask/panel", slot0.indexPanel)
-	slot0.tagTpl = slot0:findTF("tpl", slot0.tagContainer)
-	slot0.listEmptyTF = slot0:findTF("empty")
+	slot0.top = slot0._tf:Find("top")
+	slot0.toggleOwned = slot0._tf:Find("toggle_owned")
+	slot0.sortBtn = slot0.top:Find("sort_button")
+	slot0.indexBtn = slot0.top:Find("index_button")
+	slot0.decBtn = slot0.sortBtn:Find("dec_btn")
+	slot0.sortImgAsc = slot0.decBtn:Find("desc")
+	slot0.sortImgDec = slot0.decBtn:Find("asc")
+	slot0.indexPanel = slot0._tf:Find("index")
+	slot0.tagContainer = slot0.indexPanel:Find("adapt/mask/panel")
+	slot0.tagTpl = slot0.tagContainer:Find("tpl")
+	slot0.listEmptyTF = slot0._tf:Find("empty")
 
 	setActive(slot0.listEmptyTF, false)
 
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot0.listEmptyTxt = slot0.listEmptyTF:Find("Text")
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
 	slot0:OverlayPanel(slot0.indexPanel)
@@ -59,7 +59,7 @@ end
 
 slot0.SetParentTF = function(slot0, slot1)
 	slot0.parentTF = slot1
-	slot0.equipmentView = slot0:findTF("adapt/equipment_scrollview", slot0.parentTF)
+	slot0.equipmentView = slot0.parentTF:Find("adapt/equipment_scrollview")
 
 	setActive(slot0.equipmentView, false)
 end
@@ -262,7 +262,7 @@ slot0.filter = function(slot0)
 	slot0.filterCraftList = slot2
 
 	slot0:UpdateCraftList()
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv1[slot0.contextData.index or 1]))
+	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv1[slot0.contextData.index or 1]))
 	setActive(slot0.sortImgAsc, slot0.contextData.asc)
 	setActive(slot0.sortImgDec, not slot0.contextData.asc)
 end

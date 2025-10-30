@@ -15,26 +15,26 @@ end
 slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
-	slot0.bg = slot0:findTF("frame/bg")
-	slot0.bluePrintBtn = slot0:findTF("blueprint_btn", slot0.bg)
+	slot0.bg = slot0._tf:Find("frame/bg")
+	slot0.bluePrintBtn = slot0.bg:Find("blueprint_btn")
 	slot0.bluePrintBtnTip = slot0.bluePrintBtn:Find("tip")
-	slot0.technologyBtn = slot0:findTF("technology_btn", slot0.bg)
+	slot0.technologyBtn = slot0.bg:Find("technology_btn")
 	slot0.technologyBtnTip = slot0.technologyBtn:Find("tip")
-	slot0.fleetBtn = slot0:findTF("fleet_btn", slot0.bg)
+	slot0.fleetBtn = slot0.bg:Find("fleet_btn")
 	slot0.fleetBtnTip = slot0.fleetBtn:Find("tip")
-	slot0.transformBtn = slot0:findTF("transform_btn", slot0.bg)
+	slot0.transformBtn = slot0.bg:Find("transform_btn")
 	slot0.transformBtnTip = slot0.transformBtn:Find("tip")
 
 	setActive(slot0.transformBtn, not LOCK_EQUIPMENT_TRANSFORM)
 
-	slot0.metaBtn = slot0:findTF("meta_btn", slot0.bg)
+	slot0.metaBtn = slot0.bg:Find("meta_btn")
 	slot0.metaBtnTip = slot0.metaBtn:Find("tip")
 
 	setActive(slot0.metaBtn, true)
 
-	slot0.helpBtn = slot0:findTF("help_btn")
-	slot0.lockedTpl = slot0:findTF("lockedTpl")
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
+	slot0.helpBtn = slot0._tf:Find("help_btn")
+	slot0.lockedTpl = slot0._tf:Find("lockedTpl")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back")
 
 	if not OPEN_TEC_TREE_SYSTEM then
 		setActive(slot0.fleetBtn, false)
@@ -59,7 +59,7 @@ slot0.didEnter = function(slot0)
 		uv0:emit(SelectTechnologyMediator.ON_TRANSFORM_EQUIPMENT)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.metaBtn, function ()
-		if isActive(uv0:findTF("word", uv0.metaBtn)) then
+		if isActive(uv0.metaBtn:Find("word")) then
 			uv0:emit(SelectTechnologyMediator.ON_META)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("meta_sys_lock_tip"))
@@ -82,12 +82,12 @@ slot0.checkSystemOpen = function(slot0, slot1, slot2)
 	if slot1 == "MetaCharacterMediator" then
 		slot3 = true
 
-		setActive(slot0:findTF("word", slot2), slot3)
+		setActive(slot2:Find("word"), slot3)
 		setGray(slot2, not slot3)
 
 		slot2:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, slot3 and 1 or 0.7)
 
-		if slot0:findTF("locked", slot2) then
+		if slot2:Find("locked") then
 			setActive(slot4, false)
 		end
 
@@ -104,12 +104,12 @@ slot0.checkSystemOpen = function(slot0, slot1, slot2)
 
 	slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.playerVO.level, slot1)
 
-	setActive(slot0:findTF("word", slot2), slot3)
+	setActive(slot2:Find("word"), slot3)
 	setGray(slot2, not slot3)
 
 	slot2:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, slot3 and 1 or 0.7)
 
-	if slot0:findTF("locked", slot2) then
+	if slot2:Find("locked") then
 		setActive(slot4, false)
 	end
 

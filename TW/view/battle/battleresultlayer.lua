@@ -84,60 +84,103 @@ slot0.setExpBuff = function(slot0, slot1, slot2)
 end
 
 slot0.init = function(slot0)
-	slot0._grade = slot0:findTF("grade")
-	slot0._levelText = slot0:findTF("chapterName/Text22", slot0._grade)
-	slot0.clearFX = slot0:findTF("clear")
-	slot0._main = slot0:findTF("main")
-	slot0._blurConatiner = slot0:findTF("blur_container")
-	slot0._bg = slot0:findTF("main/jiesuanbeijing")
-	slot0._painting = slot0:findTF("painting", slot0._blurConatiner)
-	slot0._failPainting = slot0:findTF("fail", slot0._painting)
-	slot0._chat = slot0:findTF("chat", slot0._painting)
-	slot0._leftPanel = slot0:findTF("leftPanel", slot0._main)
-	slot0._expResult = slot0:findTF("expResult", slot0._leftPanel)
-	slot0._expContainer = slot0:findTF("expContainer", slot0._expResult)
+	slot1 = slot0._tf
+	slot0._grade = slot1:Find("grade")
+	slot1 = slot0._grade
+	slot0._levelText = slot1:Find("chapterName/Text22")
+	slot1 = slot0._tf
+	slot0.clearFX = slot1:Find("clear")
+	slot1 = slot0._tf
+	slot0._main = slot1:Find("main")
+	slot1 = slot0._tf
+	slot0._blurConatiner = slot1:Find("blur_container")
+	slot1 = slot0._tf
+	slot0._bg = slot1:Find("main/jiesuanbeijing")
+	slot1 = slot0._blurConatiner
+	slot0._painting = slot1:Find("painting")
+	slot1 = slot0._painting
+	slot0._failPainting = slot1:Find("fail")
+	slot1 = slot0._painting
+	slot0._chat = slot1:Find("chat")
+	slot1 = slot0._main
+	slot0._leftPanel = slot1:Find("leftPanel")
+	slot1 = slot0._leftPanel
+	slot0._expResult = slot1:Find("expResult")
+	slot1 = slot0._expResult
+	slot0._expContainer = slot1:Find("expContainer")
 	slot0._extpl = slot0:getTpl("ShipCardTpl", slot0._expContainer)
-	slot0._playerExp = slot0:findTF("playerExp", slot0._leftPanel)
-	slot0._playerName = slot0:findTF("name_text", slot0._playerExp)
-	slot0._playerLv = slot0:findTF("lv_text", slot0._playerExp)
-	slot0._playerExpLabel = slot0:findTF("exp_label", slot0._playerExp)
-	slot0._playerExpProgress = slot0:findTF("exp_progress", slot0._playerExp)
-	slot0._playerBonusExp = slot0:findTF("exp_text", slot0._playerExp)
-	slot0._playerExpExtra = slot0:findTF("operation_bonus", slot0._playerExp)
-	slot0._atkBG = slot0:findTF("atkPanel", slot0._blurConatiner)
-	slot0._atkPanel = slot0:findTF("atkResult", slot0._atkBG)
-	slot0._atkResult = slot0:findTF("atkResult/result", slot0._atkBG)
-	slot0._atkContainer = slot0:findTF("Grid", slot0._atkResult)
-	slot0._atkContainerNext = slot0:findTF("Grid_next", slot0._atkResult)
-	slot0._atkToggle = slot0:findTF("switchAtk", slot0._atkPanel)
+	slot1 = slot0._leftPanel
+	slot0._playerExp = slot1:Find("playerExp")
+	slot1 = slot0._playerExp
+	slot0._playerName = slot1:Find("name_text")
+	slot1 = slot0._playerExp
+	slot0._playerLv = slot1:Find("lv_text")
+	slot1 = slot0._playerExp
+	slot0._playerExpLabel = slot1:Find("exp_label")
+	slot1 = slot0._playerExp
+	slot0._playerExpProgress = slot1:Find("exp_progress")
+	slot1 = slot0._playerExp
+	slot0._playerBonusExp = slot1:Find("exp_text")
+	slot1 = slot0._playerExp
+	slot0._playerExpExtra = slot1:Find("operation_bonus")
+	slot1 = slot0._blurConatiner
+	slot0._atkBG = slot1:Find("atkPanel")
+	slot1 = slot0._atkBG
+	slot0._atkPanel = slot1:Find("atkResult")
+	slot1 = slot0._atkBG
+	slot0._atkResult = slot1:Find("atkResult/result")
+	slot1 = slot0._atkResult
+	slot0._atkContainer = slot1:Find("Grid")
+	slot1 = slot0._atkResult
+	slot0._atkContainerNext = slot1:Find("Grid_next")
+	slot1 = slot0._atkPanel
+	slot0._atkToggle = slot1:Find("switchAtk")
 	slot0._atkTpl = slot0:getTpl("resulttpl", slot0._atkResult)
-	slot0._mvpFX = slot0:findTF("mvpFX", slot0._atkPanel)
-	slot0._rightBottomPanel = slot0:findTF("rightBottomPanel", slot0._blurConatiner)
-	slot0._confirmBtn = slot0:findTF("confirmBtn", slot0._rightBottomPanel)
+	slot1 = slot0._atkPanel
+	slot0._mvpFX = slot1:Find("mvpFX")
+	slot1 = slot0._blurConatiner
+	slot0._rightBottomPanel = slot1:Find("rightBottomPanel")
+	slot1 = slot0._rightBottomPanel
+	slot0._confirmBtn = slot1:Find("confirmBtn")
 	slot2 = slot0._confirmBtn
 
 	setText(slot2:Find("Text"), i18n("text_confirm"))
 
-	slot0._statisticsBtn = slot0:findTF("statisticsBtn", slot0._rightBottomPanel)
-	slot0._subExpResult = slot0:findTF("subExpResult", slot0._leftPanel)
-	slot0._subExpContainer = slot0:findTF("expContainer", slot0._subExpResult)
-	slot0._subToggle = slot0:findTF("switchFleet", slot0._leftPanel)
+	slot1 = slot0._rightBottomPanel
+	slot0._statisticsBtn = slot1:Find("statisticsBtn")
+	slot1 = slot0._leftPanel
+	slot0._subExpResult = slot1:Find("subExpResult")
+	slot1 = slot0._subExpResult
+	slot0._subExpContainer = slot1:Find("expContainer")
+	slot1 = slot0._leftPanel
+	slot0._subToggle = slot1:Find("switchFleet")
 
 	setActive(slot0._subToggle, false)
 
-	slot0._skipBtn = slot0:findTF("skipLayer", slot0._tf)
+	slot1 = slot0._tf
+	slot0._skipBtn = slot1:Find("skipLayer")
 	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
 	slot0.overlay = pg.UIMgr.GetInstance().OverlayMain
-	slot0._conditions = slot0:findTF("main/conditions")
-	slot0._conditionContainer = slot0:findTF("bg16/list", slot0._conditions)
-	slot0._conditionTpl = slot0:findTF("bg16/conditionTpl", slot0._conditions)
-	slot0._conditionSubTpl = slot0:findTF("bg16/conditionSubTpl", slot0._conditions)
-	slot0._conditionContributeTpl = slot0:findTF("bg16/conditionContributeTpl", slot0._conditions)
-	slot0._conditionBGNormal = slot0:findTF("bg16/bg_normal", slot0._conditions)
-	slot0._conditionBGContribute = slot0:findTF("bg16/bg_contribute", slot0._conditions)
-	slot0._cmdExp = slot0:findTF("commanderExp", slot0._leftPanel)
-	slot0._cmdContainer = slot0:findTF("commander_container", slot0._cmdExp)
-	slot0._cmdTpl = slot0:findTF("commander_tpl", slot0._cmdExp)
+	slot1 = slot0._tf
+	slot0._conditions = slot1:Find("main/conditions")
+	slot1 = slot0._conditions
+	slot0._conditionContainer = slot1:Find("bg16/list")
+	slot1 = slot0._conditions
+	slot0._conditionTpl = slot1:Find("bg16/conditionTpl")
+	slot1 = slot0._conditions
+	slot0._conditionSubTpl = slot1:Find("bg16/conditionSubTpl")
+	slot1 = slot0._conditions
+	slot0._conditionContributeTpl = slot1:Find("bg16/conditionContributeTpl")
+	slot1 = slot0._conditions
+	slot0._conditionBGNormal = slot1:Find("bg16/bg_normal")
+	slot1 = slot0._conditions
+	slot0._conditionBGContribute = slot1:Find("bg16/bg_contribute")
+	slot1 = slot0._leftPanel
+	slot0._cmdExp = slot1:Find("commanderExp")
+	slot1 = slot0._cmdExp
+	slot0._cmdContainer = slot1:Find("commander_container")
+	slot1 = slot0._cmdExp
+	slot0._cmdTpl = slot1:Find("commander_tpl")
 
 	slot0:setGradeLabel()
 	SetActive(slot0._levelText, false)
@@ -170,14 +213,14 @@ slot0.setGradeLabel = function(slot0)
 		"a",
 		"s"
 	}
-	slot2 = slot0:findTF("grade/Xyz/bg13")
-	slot3 = slot0:findTF("grade/Xyz/bg14")
+	slot2 = slot0._tf:Find("grade/Xyz/bg13")
+	slot3 = slot0._tf:Find("grade/Xyz/bg14")
 	slot4, slot5, slot6 = nil
 	slot8 = nil
 	slot9 = slot0.contextData.score > 0
 
-	setActive(slot0:findTF("jieuan01/BG/bg_victory", slot0._bg), slot9)
-	setActive(slot0:findTF("jieuan01/BG/bg_fail", slot0._bg), not slot9)
+	setActive(slot0._bg:Find("jieuan01/BG/bg_victory"), slot9)
+	setActive(slot0._bg:Find("jieuan01/BG/bg_fail"), not slot9)
 
 	if slot9 then
 		slot6 = slot1[slot7 + 1]
@@ -262,7 +305,7 @@ slot0.didEnter = function(slot0)
 	onToggle(slot0, slot0._subToggle, function (slot0)
 		SetActive(uv0._subExpResult, not slot0)
 		SetActive(uv0._expResult, slot0)
-		setActive(uv0:findTF("off", uv0._subToggle), not slot0)
+		setActive(uv0._subToggle:Find("off"), not slot0)
 		uv0:displayerCommanders(not slot0)
 	end, SFX_PANEL)
 
@@ -286,7 +329,9 @@ slot0.setStageName = function(slot0)
 end
 
 slot0.rankAnimaFinish = function(slot0)
-	SetActive(slot0:findTF("main/conditions"), true)
+	slot1 = slot0._tf
+
+	SetActive(slot1:Find("main/conditions"), true)
 
 	slot3 = pg.expedition_data_template[slot0.contextData.stageId]
 
@@ -302,7 +347,7 @@ slot0.rankAnimaFinish = function(slot0)
 	table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
 		uv0._stateFlag = uv1.STATE_REPORTED
 
-		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+		SetActive(uv0._bg:Find("jieuan01/tips"), true)
 
 		if uv0.skipFlag then
 			uv0:skip()
@@ -365,7 +410,9 @@ slot0.showRewardInfo = function(slot0)
 		return
 	end
 
-	SetActive(slot0:findTF("jieuan01/tips", slot0._bg), false)
+	slot2 = slot0._bg
+
+	SetActive(slot2:Find("jieuan01/tips"), false)
 	setParent(slot0._tf, slot0.UIMain)
 
 	slot1 = nil
@@ -496,7 +543,10 @@ slot0.displayBG = function(slot0)
 	LeanTween.moveX(rtf(slot0._conditions), 1300, uv0.DURATION_MOVE)
 	LeanTween.scale(slot0._grade, Vector3(0.6, 0.6, 0), uv0.DURATION_MOVE)
 	LeanTween.moveLocal(go(rtf(slot0._grade)), slot0._gradeUpperLeftPos, uv0.DURATION_MOVE)
-	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
+
+	slot4 = slot0._bg
+
+	setActive(slot4:Find("jieuan01/Bomb"), false)
 	onDelayTick(function ()
 		setLocalScale(uv0._grade, Vector3(0.6, 0.6, 0))
 		setAnchoredPosition(uv0._grade, uv0._gradeUpperLeftPos)
@@ -629,9 +679,9 @@ slot0.displayShips = function(slot0)
 				slot26 = slot26 - 1
 			end
 
-			slot0:findTF("result/mask/icon", slot19):GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot15:getPainting())
+			slot19:Find("result/mask/icon"):GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot15:getPainting())
 
-			setImageSprite(slot0:findTF("result/type", slot19), GetSpriteFromAtlas("shiptype", shipType2print(slot15:getShipType())), true)
+			setImageSprite(slot19:Find("result/type"), GetSpriteFromAtlas("shiptype", shipType2print(slot15:getShipType())), true)
 			slot0:setAtkAnima(slot19, slot20, slot3[slot15.id].output / slot5, slot5, slot4 and slot15.id == slot4.id, slot3[slot15.id].output, slot3[slot15.id].kill_count)
 
 			slot31 = nil
@@ -729,22 +779,22 @@ slot0.stopVoice = function(slot0)
 end
 
 slot0.setAtkAnima = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-	slot12 = slot0:findTF("result", slot1):GetComponent(typeof(DftAniEvent))
+	slot12 = slot1:Find("result"):GetComponent(typeof(DftAniEvent))
 
-	setText(slot0:findTF("result/atk", slot1), 0)
-	setText(slot0:findTF("result/killCount", slot1), 0)
+	setText(slot1:Find("result/atk"), 0)
+	setText(slot1:Find("result/killCount"), 0)
 
-	slot0:findTF("result/dmg_progress/progress_bar", slot1):GetComponent(typeof(Image)).fillAmount = 0
+	slot1:Find("result/dmg_progress/progress_bar"):GetComponent(typeof(Image)).fillAmount = 0
 
 	if slot5 then
-		slot13 = slot0:findTF("result/mvpBG", slot1)
+		slot13 = slot1:Find("result/mvpBG")
 
 		setParent(slot0._mvpFX, slot13)
 
 		slot0._mvpFX.localPosition = Vector3(-368.5, 0, 0)
 
 		setActive(slot13, true)
-		setActive(slot0:findTF("result/bg", slot1), false)
+		setActive(slot1:Find("result/bg"), false)
 	end
 
 	slot12:SetEndEvent(function (slot0)
@@ -774,7 +824,8 @@ slot0.setAtkAnima = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 	end)
 
 	if slot2.childCount > 1 then
-		slot13 = slot0:findTF("result", slot2:GetChild(slot2.childCount - 2))
+		slot13 = slot2:GetChild(slot2.childCount - 2)
+		slot13 = slot13:Find("result")
 		slot14 = slot13:GetComponent(typeof(DftAniEvent))
 
 		slot14:SetTriggerEvent(function (slot0)
@@ -899,7 +950,7 @@ slot0.skip = function(slot0)
 			slot1 = slot1 - 1
 		end
 
-		SetActive(slot0:findTF("jieuan01/tips", slot0._bg), true)
+		SetActive(slot0._bg:Find("jieuan01/tips"), true)
 
 		slot0._stateFlag = uv0.STATE_REPORTED
 
@@ -1027,8 +1078,8 @@ slot0.closeStatistics = function(slot0)
 end
 
 slot0.enabledStatisticsGizmos = function(slot0, slot1)
-	setActive(slot0:findTF("gizmos/xuxian_down", slot0._main), slot1)
-	setActive(slot0:findTF("gizmos/xuxian_middle", slot0._main), slot1)
+	setActive(slot0._main:Find("gizmos/xuxian_down"), slot1)
+	setActive(slot0._main:Find("gizmos/xuxian_middle"), slot1)
 end
 
 slot0.PlayAnimation = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
@@ -1045,7 +1096,7 @@ slot0.SetSkipFlag = function(slot0, slot1)
 end
 
 slot0.initMetaBtn = function(slot0)
-	slot0.metaBtn = slot0:findTF("MetaBtn", slot0._main)
+	slot0.metaBtn = slot0._main:Find("MetaBtn")
 
 	setActive(slot0.metaBtn, getProxy(MetaCharacterProxy):getLastMetaSkillExpInfoList() and #slot1 > 0 or false)
 	onButton(slot0, slot0.metaBtn, function ()

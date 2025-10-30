@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			dir = 1,
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			actor = 11400010,
 			nameColor = "#A9F548FF",
 			say = "雖然沒辦法打出什麼傷害，但我的輔助也是很有用的嘛！",

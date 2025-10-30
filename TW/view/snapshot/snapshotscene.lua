@@ -14,41 +14,41 @@ end
 slot0.init = function(slot0)
 	setActive(pg.UIMgr.GetInstance().OverlayEffect, false)
 
-	slot0.dummy = slot0:findTF("SnapshotInvisible")
+	slot0.dummy = slot0._tf:Find("SnapshotInvisible")
 
 	slot0:SetDummyForIOS(true)
 
-	slot0.ui = slot0:findTF("ui")
-	slot0.backBtn = slot0:findTF("ui/back")
-	slot0.switchDirBtn = slot0:findTF("ui/switchDir")
-	slot0.takeBtn = slot0:findTF("ui/bg/take")
-	slot0.videoTakeImg = slot0:findTF("ui/bg/take/videoTakeImg")
+	slot0.ui = slot0._tf:Find("ui")
+	slot0.backBtn = slot0._tf:Find("ui/back")
+	slot0.switchDirBtn = slot0._tf:Find("ui/switchDir")
+	slot0.takeBtn = slot0._tf:Find("ui/bg/take")
+	slot0.videoTakeImg = slot0._tf:Find("ui/bg/take/videoTakeImg")
 
 	SetActive(slot0.videoTakeImg, false)
 
-	slot0.switchCamBtn = slot0:findTF("ui/bg/switchCam")
-	slot0.selectCharBtn = slot0:findTF("ui/bg/selectChar")
-	slot0.l2dCtrlPanl = slot0:findTF("ui/bg/l2dBgImg")
-	slot0.l2dStopBtnGo = slot0:findTF("ui/bg/l2dBgImg/stopBtn")
-	slot0.l2dPlayBtnGo = slot0:findTF("ui/bg/l2dBgImg/playBtn")
+	slot0.switchCamBtn = slot0._tf:Find("ui/bg/switchCam")
+	slot0.selectCharBtn = slot0._tf:Find("ui/bg/selectChar")
+	slot0.l2dCtrlPanl = slot0._tf:Find("ui/bg/l2dBgImg")
+	slot0.l2dStopBtnGo = slot0._tf:Find("ui/bg/l2dBgImg/stopBtn")
+	slot0.l2dPlayBtnGo = slot0._tf:Find("ui/bg/l2dBgImg/playBtn")
 
 	SetActive(slot0.l2dPlayBtnGo, false)
 
-	slot0.l2dAnimationBtnGo = slot0:findTF("ui/bg/l2dBgImg/animationsBtn").gameObject
-	slot0.l2dAnimations = slot0:findTF("ui/bg/animationsBg")
-	slot0.l2dAnimationBackBtnTrans = slot0:findTF("animationsBackBtn", slot0.l2dAnimations)
+	slot0.l2dAnimationBtnGo = slot0._tf:Find("ui/bg/l2dBgImg/animationsBtn").gameObject
+	slot0.l2dAnimations = slot0._tf:Find("ui/bg/animationsBg")
+	slot0.l2dAnimationBackBtnTrans = slot0.l2dAnimations:Find("animationsBackBtn")
 
 	SetActive(slot0.l2dAnimations, false)
 
 	slot0.selectedID = 1
 	slot0.scrollItems = {}
 	slot0.isPause = false
-	slot0.animTpl = slot0:findTF("animation_tpl", slot0.l2dAnimations)
+	slot0.animTpl = slot0.l2dAnimations:Find("animation_tpl")
 
 	SetActive(slot0.animTpl, false)
 
-	slot0.animLayout = slot0:findTF("animation_container/animations", slot0.l2dAnimations)
-	slot0.animContainer = slot0:findTF("animation_container", slot0.l2dAnimations):GetComponent("LScrollRect")
+	slot0.animLayout = slot0.l2dAnimations:Find("animation_container/animations")
+	slot0.animContainer = slot0.l2dAnimations:Find("animation_container"):GetComponent("LScrollRect")
 	slot0.animContainer.decelerationRate = 0.1
 
 	slot0.animContainer.onInitItem = function(slot0)
@@ -67,19 +67,19 @@ slot0.init = function(slot0)
 		uv0:updateSelectedItem()
 	end
 
-	slot0.paintBtn = slot0:findTF("ui/bg/paintBtn")
-	slot0.live2dBtn = slot0:findTF("ui/bg/l2dBgImg/live2dBtn")
-	slot0.spineBtn = slot0:findTF("ui/bg/spineBtn")
-	slot0.modePnlTF = slot0:findTF("ui/bg/modePnl")
-	slot0.takePhotoBtn = slot0:findTF("ui/bg/modePnl/takePhotoBtn")
-	slot0.takeVideoBtn = slot0:findTF("ui/bg/modePnl/takeVideoBtn")
-	slot0.stopRecBtn = slot0:findTF("stopRec")
-	slot0.snapshot = slot0:findTF("snapshot")
+	slot0.paintBtn = slot0._tf:Find("ui/bg/paintBtn")
+	slot0.live2dBtn = slot0._tf:Find("ui/bg/l2dBgImg/live2dBtn")
+	slot0.spineBtn = slot0._tf:Find("ui/bg/spineBtn")
+	slot0.modePnlTF = slot0._tf:Find("ui/bg/modePnl")
+	slot0.takePhotoBtn = slot0._tf:Find("ui/bg/modePnl/takePhotoBtn")
+	slot0.takeVideoBtn = slot0._tf:Find("ui/bg/modePnl/takeVideoBtn")
+	slot0.stopRecBtn = slot0._tf:Find("stopRec")
+	slot0.snapshot = slot0._tf:Find("snapshot")
 	slot0.webcam = slot0.snapshot:GetComponent(typeof(WebCam))
 	slot0.ysScreenShoter = slot0.snapshot:GetComponent(typeof(YSTool.YSScreenShoter))
-	slot0.paint = slot0:findTF("container/paint")
-	slot0.live2d = slot0:findTF("live2d", slot0.paint)
-	slot0.spine = slot0:findTF("spine", slot0.paint)
+	slot0.paint = slot0._tf:Find("container/paint")
+	slot0.live2d = slot0.paint:Find("live2d")
+	slot0.spine = slot0.paint:Find("spine")
 	slot0.paintSkin = nil
 	slot0.showLive2d = false
 	slot0.showType = uv0.SHOW_PAINT
@@ -91,29 +91,29 @@ slot0.init = function(slot0)
 	slot0.horizontalEulerAngle = 0
 	slot0.rotateUseTime = 0.2
 	slot0.isVertical = false
-	slot0.backBtnImg = slot0:findTF("ui/back/Image")
-	slot0.selectCharBtnImg = slot0:findTF("ui/bg/selectChar/Image")
-	slot0.switchCamBtnImg = slot0:findTF("ui/bg/switchCam/Image")
-	slot0.l2dBtnImg = slot0:findTF("ui/bg/paintBtn/Image")
-	slot0.l2dStopBtnImg = slot0:findTF("ui/bg/l2dBgImg/stopBtn/Image")
-	slot0.l2dPlayBtnImg = slot0:findTF("ui/bg/l2dBgImg/playBtn/Image")
-	slot0.l2d2PaintBtnImg = slot0:findTF("ui/bg/l2dBgImg/live2dBtn/Image")
-	slot0.takePhotoVerticalText = slot0:findTF("ui/bg/modePnl/takePhotoBtn/verticalText")
-	slot0.takePhotoHorizontalText = slot0:findTF("ui/bg/modePnl/takePhotoBtn/horizontalText")
+	slot0.backBtnImg = slot0._tf:Find("ui/back/Image")
+	slot0.selectCharBtnImg = slot0._tf:Find("ui/bg/selectChar/Image")
+	slot0.switchCamBtnImg = slot0._tf:Find("ui/bg/switchCam/Image")
+	slot0.l2dBtnImg = slot0._tf:Find("ui/bg/paintBtn/Image")
+	slot0.l2dStopBtnImg = slot0._tf:Find("ui/bg/l2dBgImg/stopBtn/Image")
+	slot0.l2dPlayBtnImg = slot0._tf:Find("ui/bg/l2dBgImg/playBtn/Image")
+	slot0.l2d2PaintBtnImg = slot0._tf:Find("ui/bg/l2dBgImg/live2dBtn/Image")
+	slot0.takePhotoVerticalText = slot0._tf:Find("ui/bg/modePnl/takePhotoBtn/verticalText")
+	slot0.takePhotoHorizontalText = slot0._tf:Find("ui/bg/modePnl/takePhotoBtn/horizontalText")
 	slot0.takePhotoVerticalText:GetComponent("Text").text = i18n("word_photo_mode")
 	slot0.takePhotoHorizontalText:GetComponent("Text").text = i18n("word_photo_mode")
 
 	SetActive(slot0.takePhotoHorizontalText, false)
 
-	slot0.takeVideoVerticalText = slot0:findTF("ui/bg/modePnl/takeVideoBtn/verticalText")
-	slot0.takeVideoHorizontalText = slot0:findTF("ui/bg/modePnl/takeVideoBtn/horizontalText")
+	slot0.takeVideoVerticalText = slot0._tf:Find("ui/bg/modePnl/takeVideoBtn/verticalText")
+	slot0.takeVideoHorizontalText = slot0._tf:Find("ui/bg/modePnl/takeVideoBtn/horizontalText")
 	slot0.takeVideoVerticalText:GetComponent("Text").text = i18n("word_video_mode")
 	slot0.takeVideoHorizontalText:GetComponent("Text").text = i18n("word_video_mode")
 
 	SetActive(slot0.takeVideoHorizontalText, false)
 
 	slot0.isFlipping = false
-	slot0.videoTipPanel = slot0:findTF("videoTipPanel")
+	slot0.videoTipPanel = slot0._tf:Find("videoTipPanel")
 
 	setActive(slot0.videoTipPanel, false)
 end
@@ -181,7 +181,7 @@ slot0.didEnter = function(slot0)
 			if not PlayerPrefs.GetInt("hadShowForVideoTip") or slot2 <= 0 then
 				PlayerPrefs.SetInt("hadShowForVideoTip", 1)
 
-				uv0:findTF("Text", uv0.videoTipPanel):GetComponent("Text").text = i18n("word_take_video_tip")
+				uv0.videoTipPanel:Find("Text"):GetComponent("Text").text = i18n("word_take_video_tip")
 
 				onButton(uv0, uv0.videoTipPanel, function ()
 					setActive(uv0.videoTipPanel, false)
@@ -347,7 +347,7 @@ slot0.clearSkin = function(slot0)
 	end
 
 	if slot0.spineSkin and slot0.showType == uv0.SHOW_SPINE then
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.spineSkin, go(slot0:findTF("model", slot0.spine)))
+		PoolMgr.GetInstance():ReturnSpineChar(slot0.spineSkin, go(slot0.spine:Find("model")))
 	end
 
 	if slot0.live2dCom then
@@ -487,13 +487,15 @@ slot0.updateSkin = function(slot0)
 		slot4 = pg.Live2DMgr.GetInstance()
 		slot0.live2dRequestId = slot4:GetLive2DModelAsync(slot0.paintSkin, function (slot0)
 			HotfixHelper.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
+			slot0.transform:SetParent(uv0.live2d, true)
 
-			slot1 = slot0.transform
+			if uv0.skin.live2d_offset and #uv0.skin.live2d_offset >= 4 then
+				slot1.localScale = Vector3(uv0.skin.live2d_offset[4], uv0.skin.live2d_offset[4], uv0.skin.live2d_offset[4])
+			else
+				slot1.localScale = Vector3(52, 52, 52)
+			end
 
-			slot1:SetParent(uv0.live2d, true)
-
-			slot1.localScale = Vector3(52, 52, 52)
-			slot1.localPosition = BuildVector3(uv0.skin.live2d_offset)
+			slot1.localPosition = Vector3(uv0.skin.live2d_offset[1] + 500, uv0.skin.live2d_offset[2], uv0.skin.live2d_offset[3])
 			slot2 = slot0:GetComponent(typeof(Live2dChar))
 
 			slot2:SetAction(pg.AssistantInfo.action2Id.idle)
@@ -565,7 +567,7 @@ slot0.playAction = function(slot0, slot1)
 		return
 	end
 
-	GetOrAddComponent(slot0:findTF("model", slot0.spine), typeof(SpineAnimUI)):SetAction(slot1, 0)
+	GetOrAddComponent(slot0.spine:Find("model"), typeof(SpineAnimUI)):SetAction(slot1, 0)
 end
 
 slot0.ResetL2dPanel = function(slot0)

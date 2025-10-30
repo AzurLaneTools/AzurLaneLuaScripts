@@ -13,8 +13,8 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.tencentPanel = slot0._tf
-	slot0.wxLoginBtn = slot0:findTF("wx_login", slot0.tencentPanel)
-	slot0.qqLoginBtn = slot0:findTF("qq_login", slot0.tencentPanel)
+	slot0.wxLoginBtn = slot0.tencentPanel:Find("wx_login")
+	slot0.qqLoginBtn = slot0.tencentPanel:Find("qq_login")
 
 	slot0:InitEvent()
 end

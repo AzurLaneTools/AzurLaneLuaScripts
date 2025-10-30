@@ -11,7 +11,7 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.icon, false)
 
-	slot0.iconRaw = slot0:findTF("frame/icon/Image_raw"):GetComponent(typeof(RawImage))
+	slot0.iconRaw = slot0._tf:Find("frame/icon/Image_raw"):GetComponent(typeof(RawImage))
 
 	setActive(slot0.leftArrBtn, false)
 	setActive(slot0.rightArrBtn, false)

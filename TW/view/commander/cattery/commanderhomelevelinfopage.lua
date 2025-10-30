@@ -5,15 +5,15 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.close = slot0:findTF("bg/frame/close_btn")
-	slot0.scrollrect = slot0:findTF("bg/frame/scrollrect"):GetComponent("LScrollRect")
-	slot0.levelTxt = slot0:findTF("bg/frame/level/Text"):GetComponent(typeof(Text))
-	slot0.descPanel = slot0:findTF("desc_panel")
+	slot0.close = slot0._tf:Find("bg/frame/close_btn")
+	slot0.scrollrect = slot0._tf:Find("bg/frame/scrollrect"):GetComponent("LScrollRect")
+	slot0.levelTxt = slot0._tf:Find("bg/frame/level/Text"):GetComponent(typeof(Text))
+	slot0.descPanel = slot0._tf:Find("desc_panel")
 	slot0.descLevelTxt = slot0.descPanel:Find("frame/level"):GetComponent(typeof(Text))
 	slot0.descTxt = slot0.descPanel:Find("frame/Text"):GetComponent(typeof(Text))
-	slot0.expTxt = slot0:findTF("bg/frame/level/exp"):GetComponent(typeof(Text))
+	slot0.expTxt = slot0._tf:Find("bg/frame/level/exp"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("bg/frame/level/label"), i18n("commander_home_level_label"))
+	setText(slot0._tf:Find("bg/frame/level/label"), i18n("commander_home_level_label"))
 end
 
 slot0.OnInit = function(slot0)

@@ -1,12 +1,12 @@
 slot0 = class("AnniversaryEightLoginJpPage", import("view.activity.CorePage.templatePage.CoreLoginSignTemplatePage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.item = slot0:findTF("item", slot0.bg)
-	slot0.items = slot0:findTF("items/items", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.item = slot0.bg:Find("item")
+	slot0.items = slot0.bg:Find("items/items")
 	slot0.itemList = UIItemList.New(slot0.items, slot0.item)
-	slot0.signBtn = slot0:findTF("signBtn", slot0.bg)
-	slot0.signRedTip = slot0:findTF("signBtn/tip", slot0.bg)
+	slot0.signBtn = slot0.bg:Find("signBtn")
+	slot0.signRedTip = slot0.bg:Find("signBtn/tip")
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -26,7 +26,7 @@ slot0.OnFirstFlush = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv0.config.front_drops[slot1 + 1]
 
-			updateDrop(uv0:findTF("item", slot2), {
+			updateDrop(slot2:Find("item"), {
 				type = slot4[1],
 				id = slot4[2],
 				count = slot4[3]
@@ -34,8 +34,8 @@ slot0.OnFirstFlush = function(slot0)
 			onButton(uv0, slot2, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setActive(uv0:findTF("got", slot2), slot1 < uv0.nday)
-			setActive(uv0:findTF("getEffect", slot2), uv0.activity.data1 == slot1 and uv0.activity:readyToAchieve())
+			setActive(slot2:Find("got"), slot1 < uv0.nday)
+			setActive(slot2:Find("getEffect"), uv0.activity.data1 == slot1 and uv0.activity:readyToAchieve())
 
 			if table.contains(uv0.playedAnimationList, slot1) and slot1 == uv0.nday - 1 then
 				GetComponent(slot2, typeof(Animation)):Play("anim_AnniversaryEightLoginJPPage_tpl_get")

@@ -477,6 +477,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「天地萬物，皆在星光的注視之下」</color>\n「星光下的餘暉」活動獲取",
 		scene = {}
 	},
+	[334] = {
+		name = "筆下神光：聖翼之庇",
+		gain_by = "樊籠內的神光",
+		time_second = 0,
+		id = 334,
+		time_limit_type = 0,
+		desc = "透過後續活動獲得",
+		scene = {}
+	},
 	[335] = {
 		name = "薔薇之誓",
 		gain_by = "高塔上的薔薇",
@@ -873,6 +882,7 @@ pg.item_data_frame = {
 		331,
 		332,
 		333,
+		334,
 		335,
 		336,
 		401,

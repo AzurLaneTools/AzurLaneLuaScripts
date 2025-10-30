@@ -9,26 +9,34 @@ slot0.OnInit = function(slot0)
 	slot0.listTF = slot1:Find("window/bg/awards/awardList")
 	slot1 = slot0._tf
 	slot0.closeBtn = slot1:Find("window/top/btnBack")
-	slot0.winCondtitle = slot0:findTF("window/bg/winCond/title/text")
+	slot1 = slot0._tf
+	slot0.winCondtitle = slot1:Find("window/bg/winCond/title/text")
 
 	setText(slot0.winCondtitle, i18n("text_win_condition"))
 
-	slot0.winCondDesc = slot0:findTF("window/bg/winCond/desc")
-	slot0.loseCondtitle = slot0:findTF("window/bg/loseCond/title/text")
+	slot1 = slot0._tf
+	slot0.winCondDesc = slot1:Find("window/bg/winCond/desc")
+	slot1 = slot0._tf
+	slot0.loseCondtitle = slot1:Find("window/bg/loseCond/title/text")
 
 	setText(slot0.loseCondtitle, i18n("text_lose_condition"))
 
-	slot0.loseCondDesc = slot0:findTF("window/bg/loseCond/desc")
-	slot0.rewardList = slot0:findTF("window/bg/awards")
-	slot0.rewardtip = slot0:findTF("text", slot0.rewardList)
+	slot1 = slot0._tf
+	slot0.loseCondDesc = slot1:Find("window/bg/loseCond/desc")
+	slot1 = slot0._tf
+	slot0.rewardList = slot1:Find("window/bg/awards")
+	slot1 = slot0.rewardList
+	slot0.rewardtip = slot1:Find("text")
 
 	setText(slot0.rewardtip, i18n("desc_defense_reward"))
 
-	slot0.rewardWord = slot0:findTF("desc", slot0.rewardList)
+	slot1 = slot0.rewardList
+	slot0.rewardWord = slot1:Find("desc")
 
 	setText(slot0.rewardWord, i18n("word_reward"))
 
-	slot0.rewardCond = slot0:findTF("cond", slot0.rewardList)
+	slot1 = slot0.rewardList
+	slot0.rewardCond = slot1:Find("cond")
 
 	setText(slot0.rewardCond, i18n("text_rest_HP"))
 	onButton(slot0, slot0._tf, function ()

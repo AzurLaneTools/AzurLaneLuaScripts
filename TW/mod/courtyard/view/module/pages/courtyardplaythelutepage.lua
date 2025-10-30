@@ -5,9 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("back")
-	slot0.tpl = slot0:findTF("keys/key")
-	slot0.noteTr = slot0:findTF("prints/tansou_yinfu")
+	slot0.backBtn = slot0._tf:Find("back")
+	slot0.tpl = slot0._tf:Find("keys/key")
+	slot1 = slot0._tf
+	slot0.noteTr = slot1:Find("prints/tansou_yinfu")
 	slot0.keyTplPool = {
 		slot0.tpl
 	}

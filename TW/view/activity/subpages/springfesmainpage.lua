@@ -1,11 +1,11 @@
 slot0 = class("SpringFesMainPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.go1 = slot0:findTF("1", slot0.bg)
-	slot0.go2 = slot0:findTF("2", slot0.bg)
-	slot0.go3 = slot0:findTF("3", slot0.bg)
-	slot0.go4 = slot0:findTF("4", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.go1 = slot0.bg:Find("1")
+	slot0.go2 = slot0.bg:Find("2")
+	slot0.go3 = slot0.bg:Find("3")
+	slot0.go4 = slot0.bg:Find("4")
 end
 
 slot0.OnFirstFlush = function(slot0)

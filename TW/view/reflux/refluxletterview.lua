@@ -26,14 +26,15 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot1 = slot0:findTF("billboard")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("billboard")
 	slot0.billboardTF = slot1
-	slot0.yearText = slot0:findTF("year", slot1)
-	slot0.monthText = slot0:findTF("month", slot1)
-	slot0.dateText = slot0:findTF("date", slot1)
-	slot0.daysText = slot0:findTF("days", slot1)
-	slot0.countText = slot0:findTF("count", slot1)
-	slot0.shareBtn = slot0:findTF("btn_share", slot1)
+	slot0.yearText = slot1:Find("year")
+	slot0.monthText = slot1:Find("month")
+	slot0.dateText = slot1:Find("date")
+	slot0.daysText = slot1:Find("days")
+	slot0.countText = slot1:Find("count")
+	slot0.shareBtn = slot1:Find("btn_share")
 
 	setActive(slot0.shareBtn, false)
 	onButton(slot0, slot0.billboardTF, function ()

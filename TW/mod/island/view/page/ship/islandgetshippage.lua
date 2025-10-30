@@ -42,12 +42,12 @@ slot0.OnLoaded = function(slot0)
 	setActive(slot0.chatTr, false)
 
 	slot0.radarTxts = {
-		slot0:findTF("main/rader/1/Text"):GetComponent(typeof(Text)),
-		slot0:findTF("main/rader/2/Text"):GetComponent(typeof(Text)),
-		slot0:findTF("main/rader/3/Text"):GetComponent(typeof(Text)),
-		slot0:findTF("main/rader/4/Text"):GetComponent(typeof(Text)),
-		slot0:findTF("main/rader/5/Text"):GetComponent(typeof(Text)),
-		slot0:findTF("main/rader/6/Text"):GetComponent(typeof(Text))
+		slot0._tf:Find("main/rader/1/Text"):GetComponent(typeof(Text)),
+		slot0._tf:Find("main/rader/2/Text"):GetComponent(typeof(Text)),
+		slot0._tf:Find("main/rader/3/Text"):GetComponent(typeof(Text)),
+		slot0._tf:Find("main/rader/4/Text"):GetComponent(typeof(Text)),
+		slot0._tf:Find("main/rader/5/Text"):GetComponent(typeof(Text)),
+		slot0._tf:Find("main/rader/6/Text"):GetComponent(typeof(Text))
 	}
 end
 
@@ -125,7 +125,7 @@ slot0.PlayAnimation = function(slot0)
 end
 
 slot0.GetSmoothRotateObject = function(slot0)
-	return slot0:findTF("main/event")
+	return slot0._tf:Find("main/event")
 end
 
 slot0.UpdateChat = function(slot0, slot1)

@@ -6,7 +6,7 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
-	slot0.rtTop = slot1:Find("adapt/top")
+	slot0.rtTop = slot1:Find("top")
 	slot2 = slot0.rtTop
 
 	setText(slot2:Find("title/Text"), i18n("island_technology_title"))
@@ -49,8 +49,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.quickPanel:RegisterView(slot0.viewComponent)
 
 	slot0.detailPanel = IslandTechDetailPanel.New(slot0._tf, slot0.event, setmetatable({
-		onSelecteShip = function ()
+		onSelecteShip = function (slot0)
 			uv0:OpenPage(IslandShipSelectPage, {
+				attrType = pg.island_formula[slot0].attribute,
 				confirmFunc = function (slot0)
 					uv0.detailPanel:ExecuteAction("OnShipSelected", slot0[1])
 				end
@@ -66,6 +67,9 @@ slot0.OnLoaded = function(slot0)
 		end,
 		openTicketPage = function (slot0)
 			uv0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.APPOINT, slot0)
+		end,
+		ShowMsgBox = function (slot0, slot1)
+			uv0:ShowMsgBox(slot1)
 		end
 	}, {
 		__index = slot0.contextData
@@ -75,6 +79,15 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	slot3 = slot0.rtTop
+
+	onButton(slot0, slot3:Find("title/help"), function ()
+		uv0:ShowMsgBox({
+			type = IslandMsgBox.TYPE_WHITOUT_BTN,
+			content = i18n("island_helpbtn_technology")
+		})
+	end, SFX_PANEL)
+
 	slot3 = slot0.rtTop
 
 	onButton(slot0, slot3:Find("back"), function ()

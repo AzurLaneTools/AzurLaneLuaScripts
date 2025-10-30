@@ -5,7 +5,7 @@ slot0.GetCurrentDay = function()
 end
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
+	slot0.bg = slot0._tf:Find("AD")
 	slot0.leftStage = slot0.bg:Find("left")
 	slot0.rightStage = slot0.bg:Find("right")
 	slot0.taskDesc = slot0.leftStage:Find("task")

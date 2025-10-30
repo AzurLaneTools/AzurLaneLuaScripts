@@ -11,7 +11,8 @@ slot0.OnInit = function(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
+	slot1 = slot0._tf
+	slot0.closeBtn = slot1:Find("window/top/btnBack")
 
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()

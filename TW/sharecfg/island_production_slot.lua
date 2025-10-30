@@ -1447,6 +1447,71 @@ pg.island_production_slot = {
 		},
 		activity_formula = {}
 	},
+	[2006] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 401,
+		animal = "",
+		id = 2006,
+		attribute = 0,
+		formula = {
+			401001
+		},
+		activity_formula = {}
+	},
+	[2007] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 401,
+		animal = "",
+		id = 2007,
+		attribute = 0,
+		formula = {
+			401001
+		},
+		activity_formula = {}
+	},
+	[2008] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 401,
+		animal = "",
+		id = 2008,
+		attribute = 0,
+		formula = {
+			401001
+		},
+		activity_formula = {}
+	},
+	[2009] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 401,
+		animal = "",
+		id = 2009,
+		attribute = 0,
+		formula = {
+			401001
+		},
+		activity_formula = {}
+	},
+	[2010] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 401,
+		animal = "",
+		id = 2010,
+		attribute = 0,
+		formula = {
+			401001
+		},
+		activity_formula = {}
+	},
 	[2011] = {
 		exclusion_slot = "",
 		unlock_type = 0,
@@ -1506,6 +1571,71 @@ pg.island_production_slot = {
 		place = 402,
 		animal = "",
 		id = 2015,
+		attribute = 0,
+		formula = {
+			402001
+		},
+		activity_formula = {}
+	},
+	[2016] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 402,
+		animal = "",
+		id = 2016,
+		attribute = 0,
+		formula = {
+			402001
+		},
+		activity_formula = {}
+	},
+	[2017] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 402,
+		animal = "",
+		id = 2017,
+		attribute = 0,
+		formula = {
+			402001
+		},
+		activity_formula = {}
+	},
+	[2018] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 402,
+		animal = "",
+		id = 2018,
+		attribute = 0,
+		formula = {
+			402001
+		},
+		activity_formula = {}
+	},
+	[2019] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 402,
+		animal = "",
+		id = 2019,
+		attribute = 0,
+		formula = {
+			402001
+		},
+		activity_formula = {}
+	},
+	[2020] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 2,
+		place = 402,
+		animal = "",
+		id = 2020,
 		attribute = 0,
 		formula = {
 			402001
@@ -1883,7 +2013,7 @@ pg.island_production_slot = {
 	},
 	[9042] = {
 		exclusion_slot = "",
-		unlock_type = 0,
+		unlock_type = 1,
 		type = 9,
 		place = 901,
 		animal = "",
@@ -2909,6 +3039,11 @@ pg.island_production_slot = {
 			2003,
 			2004,
 			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			2010,
 			9011,
 			9012,
 			9013,
@@ -2920,6 +3055,11 @@ pg.island_production_slot = {
 			2013,
 			2014,
 			2015,
+			2016,
+			2017,
+			2018,
+			2019,
+			2020,
 			9021,
 			9022,
 			9023,
@@ -3036,11 +3176,21 @@ pg.island_production_slot = {
 		2003,
 		2004,
 		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
 		2011,
 		2012,
 		2013,
 		2014,
 		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
 		9001,
 		9002,
 		9003,

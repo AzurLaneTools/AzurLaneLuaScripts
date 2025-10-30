@@ -18,6 +18,10 @@ slot0.OnStart = function(slot0)
 		}
 		slot2 = slot0.data:GetWorkerList() or {}
 
+		if slot0.data.id == IslandProductConst.MinePlaceId then
+			return
+		end
+
 		for slot6, slot7 in ipairs(slot2) do
 			slot7.nextIn = table.contains(slot1, slot0.data.id)
 

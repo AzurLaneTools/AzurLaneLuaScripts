@@ -14,20 +14,20 @@ slot0.OnLoaded = function(slot0)
 	slot0.bgColor = slot0.bg:Find("color")
 	slot0.closeBtn = slot0._tf:Find("adapt/top/closeBtn")
 	slot0.helpBtn = slot0._tf:Find("adapt/top/helpBtn")
-	slot0.title = slot0:findTF("adapt/top/title")
-	slot0.resourceList = UIItemList.New(slot0:findTF("adapt/top/resources"), slot0:findTF("adapt/top/resources/resourceTpl"))
-	slot0.shop1List = UIItemList.New(slot0:findTF("adapt/shop1List"), slot0:findTF("adapt/shop1List/shop1Tpl"))
-	slot0.shop3 = slot0:findTF("adapt/shop3List")
-	slot0.shop3List = UIItemList.New(slot0:findTF("adapt/shop3List"), slot0:findTF("adapt/shop3List/shop3Tpl"))
-	slot0.shop32 = slot0:findTF("adapt/shop3List2")
-	slot0.shop3List2 = UIItemList.New(slot0:findTF("adapt/shop3List2"), slot0:findTF("adapt/shop3List2/shop3Tpl"))
-	slot0.recommendationPage = slot0:findTF("adapt/shopPage/recommendation")
-	slot0.shop2DPage = slot0:findTF("adapt/shopPage/shop2D")
-	slot0.shop3DPage = slot0:findTF("adapt/shopPage/shop3D")
-	slot0.shopFurniturePage = slot0:findTF("adapt/shopPage/shopFurniture")
-	slot0.shopSkinPage = slot0:findTF("adapt/shopPage/shopSkin")
+	slot0.title = slot0._tf:Find("adapt/top/title")
+	slot0.resourceList = UIItemList.New(slot0._tf:Find("adapt/top/resources"), slot0._tf:Find("adapt/top/resources/resourceTpl"))
+	slot0.shop1List = UIItemList.New(slot0._tf:Find("adapt/shop1List"), slot0._tf:Find("adapt/shop1List/shop1Tpl"))
+	slot0.shop3 = slot0._tf:Find("adapt/shop3List")
+	slot0.shop3List = UIItemList.New(slot0._tf:Find("adapt/shop3List"), slot0._tf:Find("adapt/shop3List/shop3Tpl"))
+	slot0.shop32 = slot0._tf:Find("adapt/shop3List2")
+	slot0.shop3List2 = UIItemList.New(slot0._tf:Find("adapt/shop3List2"), slot0._tf:Find("adapt/shop3List2/shop3Tpl"))
+	slot0.recommendationPage = slot0._tf:Find("adapt/shopPage/recommendation")
+	slot0.shop2DPage = slot0._tf:Find("adapt/shopPage/shop2D")
+	slot0.shop3DPage = slot0._tf:Find("adapt/shopPage/shop3D")
+	slot0.shopFurniturePage = slot0._tf:Find("adapt/shopPage/shopFurniture")
+	slot0.shopSkinPage = slot0._tf:Find("adapt/shopPage/shopSkin")
 	slot0.changeCharaPanel = slot0.shopSkinPage:Find("changeCharaPanel/panel")
-	slot0.subPageContainer = slot0:findTF("adapt/subPageContainer")
+	slot0.subPageContainer = slot0._tf:Find("adapt/subPageContainer")
 	slot0.drawAwardPage = IslandShopDrawAwardPage.New(slot0.subPageContainer, slot0)
 
 	setText(slot0.shopSkinPage:Find("changeCharaPanel/panel/title"), i18n("island_3Dshop_chara_choose"))
@@ -330,8 +330,8 @@ slot0.SetShopList = function(slot0)
 end
 
 slot0.SetShopPage = function(slot0)
-	setText(slot0:findTF("Text", slot0.title), slot0.showingShop:GetShopIcon()[1])
-	setText(slot0:findTF("Text/en", slot0.title), slot0.showingShop:GetShopIcon()[2])
+	setText(slot0.title:Find("Text"), slot0.showingShop:GetShopIcon()[1])
+	setText(slot0.title:Find("Text/en"), slot0.showingShop:GetShopIcon()[2])
 	slot0:SetResources()
 	setActive(slot0.recommendationPage, slot0.showingShop:GetShowType() == IslandConst.SHOP_TYPE_RECOMMENDATION)
 	setActive(slot0.shop2DPage, slot1 == IslandConst.SHOP_TYPE_2D)
@@ -485,10 +485,10 @@ slot0.SetCloseAndRefresh = function(slot0, slot1)
 		slot2 = slot0.showingShop.existTime
 	end
 
-	setActive(slot0:findTF("remainAndRefresh/remainTimer", slot1), slot2 ~= 0)
-	setActive(slot0:findTF("remainAndRefresh/refresh", slot1), slot0.showingShop.refreshTime ~= 0)
-	setActive(slot0:findTF("remainAndRefresh/refresh/refreshBtn", slot1), slot0.showingShop:GetPlayerRefreshResource())
-	setActive(slot0:findTF("remainAndRefresh", slot1), isActive(slot0:findTF("remainAndRefresh/remainTimer", slot1)) or isActive(slot0:findTF("remainAndRefresh/refresh", slot1)))
+	setActive(slot1:Find("remainAndRefresh/remainTimer"), slot2 ~= 0)
+	setActive(slot1:Find("remainAndRefresh/refresh"), slot0.showingShop.refreshTime ~= 0)
+	setActive(slot1:Find("remainAndRefresh/refresh/refreshBtn"), slot0.showingShop:GetPlayerRefreshResource())
+	setActive(slot1:Find("remainAndRefresh"), isActive(slot1:Find("remainAndRefresh/remainTimer")) or isActive(slot1:Find("remainAndRefresh/refresh")))
 
 	slot5 = pg.TimeMgr.GetInstance():GetTimeToNextTime()
 
@@ -502,28 +502,28 @@ slot0.SetCloseAndRefresh = function(slot0, slot1)
 		slot0 = pg.TimeMgr.GetInstance():GetServerTime()
 
 		if uv0 ~= 0 then
-			setText(uv1:findTF("remainAndRefresh/remainTimer", uv2), i18n("island_3Dshop_time_close", pg.TimeMgr.GetInstance():DescCDTime(uv0 - slot0)))
+			setText(uv1:Find("remainAndRefresh/remainTimer"), i18n("island_3Dshop_time_close", pg.TimeMgr.GetInstance():DescCDTime(uv0 - slot0)))
 		elseif normalShopExistTime and type(normalShopExistTime) == "table" then
 			-- Nothing
 		end
 
-		if uv3 ~= 0 then
-			setText(uv1:findTF("remainAndRefresh/refresh/refreshTimer", uv2), i18n("island_3Dshop_time_refresh", pg.TimeMgr.GetInstance():DescCDTime(uv3 - slot0)))
+		if uv2 ~= 0 then
+			setText(uv1:Find("remainAndRefresh/refresh/refreshTimer"), i18n("island_3Dshop_time_refresh", pg.TimeMgr.GetInstance():DescCDTime(uv2 - slot0)))
 
-			if uv3 < slot0 then
-				uv1:DoUpdateShowingShop()
+			if uv2 < slot0 then
+				uv3:DoUpdateShowingShop()
 			end
 		end
 
-		if uv3 == 0 and uv4 and uv5 < slot0 then
-			uv1:DoUpdateShowingShop()
+		if uv2 == 0 and uv4 and uv5 < slot0 then
+			uv3:DoUpdateShowingShop()
 		end
 	end, 1, -1)
 
 	slot0.timer:Start()
 
 	if slot4 then
-		onButton(slot0, slot0:findTF("remainAndRefresh/refresh/refreshBtn/button", slot1), function ()
+		onButton(slot0, slot1:Find("remainAndRefresh/refresh/refreshBtn/button"), function ()
 			if uv0.showingShop.refreshCount < uv0.showingShop:GetMaxRefreshCount() then
 				slot3 = uv1[3]
 
@@ -779,16 +779,16 @@ end
 slot0.SetCommodityList = function(slot0)
 	slot2 = switch(slot0.showingShop:GetShowType(), {
 		[IslandConst.SHOP_TYPE_2D] = function ()
-			return UIItemList.New(uv0:findTF("shopView/Viewport/Content", uv0.shop2DPage), uv0:findTF("shopView/Viewport/Content/IslandCommodityTpl", uv0.shop2DPage))
+			return UIItemList.New(uv0.shop2DPage:Find("shopView/Viewport/Content"), uv0.shop2DPage:Find("shopView/Viewport/Content/IslandCommodityTpl"))
 		end,
 		[IslandConst.SHOP_TYPE_3D] = function ()
-			return UIItemList.New(uv0:findTF("shopView/Viewport/Content", uv0.shop3DPage), uv0:findTF("shopView/Viewport/Content/IslandCommodityTpl", uv0.shop3DPage))
+			return UIItemList.New(uv0.shop3DPage:Find("shopView/Viewport/Content"), uv0.shop3DPage:Find("shopView/Viewport/Content/IslandCommodityTpl"))
 		end,
 		[IslandConst.SHOP_TYPE_FURNITURE] = function ()
-			return UIItemList.New(uv0:findTF("shopView/Viewport/Content", uv0.shopFurniturePage), uv0:findTF("shopView/Viewport/Content/IslandCommodityTpl", uv0.shopFurniturePage))
+			return UIItemList.New(uv0.shopFurniturePage:Find("shopView/Viewport/Content"), uv0.shopFurniturePage:Find("shopView/Viewport/Content/IslandCommodityTpl"))
 		end,
 		[IslandConst.SHOP_TYPE_SKIN] = function ()
-			return UIItemList.New(uv0:findTF("shopView/Viewport/Content", uv0.shopSkinPage), uv0:findTF("shopView/Viewport/Content/IslandCommodityTpl", uv0.shopSkinPage))
+			return UIItemList.New(uv0.shopSkinPage:Find("shopView/Viewport/Content"), uv0.shopSkinPage:Find("shopView/Viewport/Content/IslandCommodityTpl"))
 		end
 	})
 	slot3 = slot0.showingShop:GetCommodities()
@@ -815,7 +815,7 @@ slot0.ShowRecommendation = function(slot0)
 	setActive(slot0.bgColor, true)
 
 	slot0.shoppingCartCommodities = {}
-	slot2 = slot0:findTF("banners", slot0.recommendationPage)
+	slot2 = slot0.recommendationPage:Find("banners")
 
 	for slot6 = 1, #slot0.showingShop:GetBanners() do
 		slot8 = slot2:GetChild(slot6 - 1)
@@ -848,12 +848,12 @@ slot0.ShowShop2D = function(slot0)
 	slot0.shoppingCartCommodities = {}
 	slot1 = slot0.showingShop:IsInTime()
 
-	setActive(slot0:findTF("lock", slot0.shop2DPage), not slot1)
+	setActive(slot0.shop2DPage:Find("lock"), not slot1)
 
 	if slot1 then
 		slot0:SetCloseAndRefresh(slot0.shop2DPage)
 	else
-		setActive(slot0:findTF("remainAndRefresh", slot0.shop2DPage), false)
+		setActive(slot0.shop2DPage:Find("remainAndRefresh"), false)
 
 		if slot0.timer then
 			slot0.timer:Stop()

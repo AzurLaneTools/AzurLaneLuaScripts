@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.confirmBtn = slot0:findTF("confirm")
+	slot0.confirmBtn = slot0._tf:Find("confirm")
 	slot0.anim = slot0._tf:GetComponent(typeof(Animation))
 	slot0.animEvent = slot0.anim:GetComponent(typeof(DftAniEvent))
 	slot1 = slot0.animEvent
@@ -15,12 +15,12 @@ slot0.OnLoaded = function(slot0)
 	end)
 
 	slot0.items = {
-		slot0:findTF("list/1"),
-		slot0:findTF("list/2"),
-		slot0:findTF("list/3")
+		slot0._tf:Find("list/1"),
+		slot0._tf:Find("list/2"),
+		slot0._tf:Find("list/3")
 	}
 
-	setText(slot0:findTF("title/Text"), i18n("MonopolyCar2024Game_pick_tip"))
+	setText(slot0._tf:Find("title/Text"), i18n("MonopolyCar2024Game_pick_tip"))
 	setText(slot0.confirmBtn:Find("Text"), i18n("MonopolyCar2024Game_sel_label"))
 end
 

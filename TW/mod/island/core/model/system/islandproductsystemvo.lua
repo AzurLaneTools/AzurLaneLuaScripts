@@ -51,10 +51,6 @@ slot0.InitHandPlantCfg = function(slot0)
 end
 
 slot0.InitHandCollectCfg = function(slot0)
-	if slot0.productPlaceId == IslandProductConst.MinePlaceId then
-		return
-	end
-
 	for slot4, slot5 in ipairs(pg.island_production_mining.all) do
 		if not slot0.slotToUnitDic[pg.island_production_mining[slot5].slotId] then
 			slot0.slotToUnitDic[slot6.slotId] = slot6.objId
@@ -119,31 +115,28 @@ slot0.GenHandCollectSlotInSlotPlace = function(slot0, slot1)
 	end
 
 	for slot7, slot8 in pairs(slot2:GetCollectSlotDatasDic()) do
-		table.insert(slot1, slot0:GenHandCollectSlotByDataNew(slot8))
+		if slot0:GenHandCollectSlotByDataNew(slot8) then
+			table.insert(slot1, slot9)
+		end
 	end
 end
 
 slot0.GetHandCollectSlotBySlotId = function(slot0, slot1)
-	slot4 = (slot0.building or (slot0.isSelf and getProxy(IslandProxy):GetIsland() or getProxy(IslandProxy):GetSharedIsland()):GetBuildingAgency():GetBuilding(slot0.productPlaceId)):GetBuildingCollectData():GetCollectSlotData(slot1)
-
-	return slot0.productPlaceId == IslandProductConst.MinePlaceId and slot4.pos or slot0.slotToUnitDic[slot4.configId]
+	return slot0.slotToUnitDic[(slot0.building or (slot0.isSelf and getProxy(IslandProxy):GetIsland() or getProxy(IslandProxy):GetSharedIsland()):GetBuildingAgency():GetBuilding(slot0.productPlaceId)):GetBuildingCollectData():GetCollectSlotData(slot1).configId]
 end
 
 slot0.GenHandCollectSlotByDataNew = function(slot0, slot1)
-	slot3 = slot0.productPlaceId == IslandProductConst.MinePlaceId and slot1.pos or slot0.slotToUnitDic[slot1.configId]
+	slot2 = slot0.productPlaceId == IslandProductConst.FellingPlaceId
+	slot3 = slot0.slotToUnitDic[slot1.configId]
 	slot6 = pg.island_formula[pg.island_production_slot[slot1.configId].formula[1]].unitid[1][2]
-	slot7 = nil
 
-	if slot1:GetCanCollectTimeStamps() ~= 0 and slot2 then
-		slot7 = slot8 - pg.TimeMgr.GetInstance():GetServerTime()
+	if slot1:GetCanCollectTimeStamps() == 0 or slot2 then
+		return slot0:CollectSlotObj2IslandUnit(pg.island_world_objects[slot3] or {}, {
+			unitId = slot6,
+			typ = IslandConst.UNIT_TYPE_ITEM_HANDLE_COLLECT,
+			slotId = slot1.configId
+		})
 	end
-
-	return slot0:CollectSlotObj2IslandUnit(pg.island_world_objects[slot3] or {}, {
-		unitId = slot6,
-		typ = IslandConst.UNIT_TYPE_ITEM_HANDLE_COLLECT,
-		slotId = slot1.configId,
-		delayTime = slot7
-	})
 end
 
 slot0.InitHandCollectSlotBySlotId = function(slot0, slot1)
@@ -299,8 +292,7 @@ slot0.CollectSlotObj2IslandUnit = function(slot0, slot1, slot2)
 		formula_id = slot2.formula_id,
 		slotId = slot2.slotId,
 		slotType = slot2.slotType,
-		isSelfIsland = slot0.isSelf,
-		delayTime = slot2.delayTime
+		isSelfIsland = slot0.isSelf
 	})
 end
 

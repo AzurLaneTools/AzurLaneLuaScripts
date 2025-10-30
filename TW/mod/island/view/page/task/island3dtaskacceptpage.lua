@@ -7,7 +7,7 @@ end
 slot0.OnLoaded = function(slot0)
 	slot0.chapterText = slot0._tf:Find("frame/chapter")
 	slot0.nameText = slot0._tf:Find("frame/name")
-	slot0.tipText = slot0:findTF("frame/tip/Text")
+	slot0.tipText = slot0._tf:Find("frame/tip/Text")
 
 	setText(slot0.tipText, i18n("island_task_open"))
 end

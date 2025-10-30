@@ -11,7 +11,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot0.Init = function(slot0)
-	setText(slot0:findTF("Window/CountBG/Tip"), i18n("ryza_composite_count"))
+	setText(slot0._tf:Find("Window/CountBG/Tip"), i18n("ryza_composite_count"))
 end
 
 slot0.SetContextData = function(slot0, slot1)
@@ -23,7 +23,9 @@ slot0.SetActivity = function(slot0, slot1)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("BG"), function ()
 		uv0:HideCompositeResult()
 	end, SFX_CANCEL)
 end
@@ -36,9 +38,9 @@ slot0.ShowCompositeResult = function(slot0, slot1)
 		return
 	end
 
-	slot0._parentClass:UpdateRyzaDrop(slot0:findTF("Window/Icon"), slot2)
-	setScrollText(slot0:findTF("Window/NameBG/Rect/Name"), slot2:getName())
-	setText(slot0:findTF("Window/CountBG/Text"), slot2.count)
+	slot0._parentClass:UpdateRyzaDrop(slot0._tf:Find("Window/Icon"), slot2)
+	setScrollText(slot0._tf:Find("Window/NameBG/Rect/Name"), slot2:getName())
+	setText(slot0._tf:Find("Window/CountBG/Text"), slot2.count)
 end
 
 slot0.HideCompositeResult = function(slot0)

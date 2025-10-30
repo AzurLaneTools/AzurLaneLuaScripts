@@ -14069,6 +14069,71 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
 }
 
 
+_G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型三聯裝406mm/45主炮Mk7
+雙聯裝127mm高平兩用炮Mk12
+四聯40mm博福斯對空機炮
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型四聯裝305mmSKC39主炮
+雙聯裝127mmKM40主炮
+試作型55mm Gerät 58防空炮
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+雙聯裝135mm主炮Model1938
+試作型四聯裝533毫米魚雷Si 270
+試作型六聯裝Scotti20mm機炮Model1941
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型B-1-P三聯裝180mm主炮Model1932改
+三聯裝550mm魚雷
+雙聯裝57mm/L60博福斯對空機炮Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63> 
+試作型三聯裝283mm/54.5主炮
+雙聯100mm98式高射炮改
+雙聯裝57mm/L60博福斯對空機炮Mle1951
+</color></size>]]
+}
+
+
 _G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "鏡面海域擴展中"
 }
@@ -39523,4 +39588,9 @@ _G.pg.base.gametip.danmachi_award_get = {
 
 _G.pg.base.gametip.danmachi_award_unget = {
 	tip = "未獲得"
+}
+
+
+_G.pg.base.gametip.shop_sell_ended = {
+	tip = "不可购买"
 }

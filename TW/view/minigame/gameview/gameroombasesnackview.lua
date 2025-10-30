@@ -92,22 +92,22 @@ slot0.willExit = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot1 = slot0:findTF("ForNotch")
-	slot0.backBtn = slot0:findTF("BackBtn", slot1)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
-	slot0.countText = slot0:findTF("Count/CountText", slot1)
-	slot2 = slot0:findTF("GameContent")
-	slot0.startBtn = slot0:findTF("StartBtn", slot2)
-	slot0.ruleBtn = slot0:findTF("RuleBtn", slot2)
-	slot3 = slot0:findTF("Tip", slot2)
-	slot0.considerTipTF = slot0:findTF("ConsiderTip", slot3)
-	slot0.considerTimeText = slot0:findTF("TimeText", slot0.considerTipTF)
-	slot0.selectTipTF = slot0:findTF("SelectTip", slot3)
-	slot0.selectTimeText = slot0:findTF("TimeText", slot0.selectTipTF)
-	slot0.selectedContainer = slot0:findTF("SelectedContainer", slot2)
-	slot0.selectedTpl = slot0:findTF("SelectedTpl", slot2)
+	slot1 = slot0._tf:Find("ForNotch")
+	slot0.backBtn = slot1:Find("BackBtn")
+	slot0.helpBtn = slot1:Find("HelpBtn")
+	slot0.countText = slot1:Find("Count/CountText")
+	slot2 = slot0._tf:Find("GameContent")
+	slot0.startBtn = slot2:Find("StartBtn")
+	slot0.ruleBtn = slot2:Find("RuleBtn")
+	slot3 = slot2:Find("Tip")
+	slot0.considerTipTF = slot3:Find("ConsiderTip")
+	slot0.considerTimeText = slot0.considerTipTF:Find("TimeText")
+	slot0.selectTipTF = slot3:Find("SelectTip")
+	slot0.selectTimeText = slot0.selectTipTF:Find("TimeText")
+	slot0.selectedContainer = slot2:Find("SelectedContainer")
+	slot0.selectedTpl = slot2:Find("SelectedTpl")
 	slot0.selectedContainerCG = GetComponent(slot0.selectedContainer, "CanvasGroup")
-	slot0.snackContainer = slot0:findTF("SnackContainer", slot2)
+	slot0.snackContainer = slot2:Find("SnackContainer")
 	slot0.animtor = GetComponent(slot0.snackContainer, "Animator")
 	slot0.dftAniEvent = GetComponent(slot0.snackContainer, "DftAniEvent")
 
@@ -115,7 +115,7 @@ slot0.findUI = function(slot0)
 		uv0:setState(uv1.States_Select)
 	end)
 
-	slot0.spineCharContainer = slot0:findTF("SpineChar", slot2)
+	slot0.spineCharContainer = slot2:Find("SpineChar")
 end
 
 slot0.initData = function(slot0)
@@ -183,7 +183,7 @@ slot0.addListener = function(slot0)
 		onButton(slot0, slot5:GetChild(slot4 - 1), function ()
 			slot0 = uv0.snackIDList[uv1]
 
-			if isActive(uv0:findTF("SelectedTag", uv2)) == true then
+			if isActive(uv2:Find("SelectedTag")) == true then
 				table.removebyvalue(uv0.selectedIDList, slot0)
 				uv0:updateSelectedList(uv0.selectedIDList)
 
@@ -236,13 +236,13 @@ slot0.updateSelectedList = function(slot0, slot1)
 
 	for slot5 = 1, uv0.Order_Num do
 		slot6 = slot0.selectedContainer:GetChild(slot5 - 1)
-		slot8 = slot0:findTF("Full", slot6)
-		slot9 = slot0:findTF("SnackImg", slot8)
+		slot8 = slot6:Find("Full")
+		slot9 = slot8:Find("SnackImg")
 		slot0.selectedTFList[slot5] = slot6
 		slot10 = slot1[slot5]
 
 		setActive(slot8, slot10)
-		setActive(slot0:findTF("Empty", slot6), not slot10)
+		setActive(slot6:Find("Empty"), not slot10)
 
 		if slot10 then
 			setImageSprite(slot9, GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot10))
@@ -254,8 +254,8 @@ slot0.updateSnackList = function(slot0, slot1)
 	for slot5 = 1, uv0.Snack_Num do
 		slot6 = slot0.snackContainer:GetChild(slot5 - 1)
 
-		setImageSprite(slot0:findTF("SnackImg", slot6), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot1[slot5]))
-		setActive(slot0:findTF("SelectedTag", slot6), false)
+		setImageSprite(slot6:Find("SnackImg"), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot1[slot5]))
+		setActive(slot6:Find("SelectedTag"), false)
 
 		slot0.snackTFList[slot5] = slot6
 		slot5 = slot5 + 1
@@ -268,7 +268,7 @@ end
 
 slot0.updateSelectedOrderTag = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.selectedSnackTFList) do
-		slot7 = slot0:findTF("SelectedTag", slot6)
+		slot7 = slot6:Find("SelectedTag")
 
 		if slot1 then
 			setActive(slot7, false)

@@ -4,15 +4,14 @@ slot0.RefreshTime = 300
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot4 = slot0.bg
-	slot0.lableList = slot0:findTF("list", slot4)
+	slot0.lableList = slot0.bg:Find("list")
 	slot0.lableItems = {}
 
 	for slot4 = 0, slot0.lableList.childCount - 1 do
 		table.insert(slot0.lableItems, slot0.lableList:GetChild(slot4))
 	end
 
-	slot0.linkBtn = slot0:findTF("btn_link", slot0.bg)
+	slot0.linkBtn = slot0.bg:Find("btn_link")
 end
 
 slot0.OnDataSetting = function(slot0)

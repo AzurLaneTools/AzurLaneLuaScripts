@@ -16,28 +16,40 @@ slot0.init = function(slot0)
 	slot0._selectedShipList = {}
 	slot0._shipTFList = {}
 	slot0._shipVOList = {}
-	slot0.cancelBtn = slot0:findTF("actions/cancel_button")
-	slot0.confirmBtn = slot0:findTF("actions/compose_button")
-	slot0.itemTF = slot0:findTF("item")
-	slot0.nameTF = slot0:findTF("item/name_container/name")
-	slot0.descTF = slot0:findTF("item/desc")
-	slot0.fleetInfo = slot0:findTF("fleet_info")
+	slot1 = slot0._tf
+	slot0.cancelBtn = slot1:Find("actions/cancel_button")
+	slot1 = slot0._tf
+	slot0.confirmBtn = slot1:Find("actions/compose_button")
+	slot1 = slot0._tf
+	slot0.itemTF = slot1:Find("item")
+	slot1 = slot0._tf
+	slot0.nameTF = slot1:Find("item/name_container/name")
+	slot1 = slot0._tf
+	slot0.descTF = slot1:Find("item/desc")
+	slot1 = slot0._tf
+	slot0.fleetInfo = slot1:Find("fleet_info")
 	slot2 = slot0.fleetInfo
 
 	setText(slot2:Find("top/Text"), i18n("world_ship_repair"))
 
 	slot0.shipTpl = slot0:getTpl("fleet_info/shiptpl")
 	slot0.emptyTpl = slot0:getTpl("fleet_info/emptytpl")
-	slot0.shipsContainer = slot0:findTF("fleet_info/contain")
-	slot0.descLabel = slot0:findTF("fleet_info/top/Text")
+	slot1 = slot0._tf
+	slot0.shipsContainer = slot1:Find("fleet_info/contain")
+	slot1 = slot0._tf
+	slot0.descLabel = slot1:Find("fleet_info/top/Text")
 	slot2 = slot0.fleetInfo
 
 	setText(slot2:Find("tip/Text"), i18n("world_battle_damage"))
 
-	slot0.countLabel = slot0:findTF("count")
-	slot0.quotaTxt = slot0:findTF("count/value")
-	slot0.btnFleet = slot0:findTF("fleets/selected")
-	slot0.fleetToggleMask = slot0:findTF("fleets/list_mask")
+	slot1 = slot0._tf
+	slot0.countLabel = slot1:Find("count")
+	slot1 = slot0._tf
+	slot0.quotaTxt = slot1:Find("count/value")
+	slot1 = slot0._tf
+	slot0.btnFleet = slot1:Find("fleets/selected")
+	slot1 = slot0._tf
+	slot0.fleetToggleMask = slot1:Find("fleets/list_mask")
 	slot1 = slot0.fleetToggleMask
 	slot0.fleetToggleList = slot1:Find("list")
 

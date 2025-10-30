@@ -22,9 +22,9 @@ slot0.willExit = function(slot0)
 end
 
 slot0.initUITextTips = function(slot0)
-	setText(slot0:findTF("Window/top/bg/infomation/title"), i18n("battle_end_subtitle2"))
-	setText(slot0:findTF("Window/MetaSkillDetailBox/ExpDetail/ExpTipText"), i18n("meta_skill_dailyexp"))
-	setText(slot0:findTF("Window/MetaSkillDetailBox/TipText"), i18n("meta_skill_learn"))
+	setText(slot0._tf:Find("Window/top/bg/infomation/title"), i18n("battle_end_subtitle2"))
+	setText(slot0._tf:Find("Window/MetaSkillDetailBox/ExpDetail/ExpTipText"), i18n("meta_skill_dailyexp"))
+	setText(slot0._tf:Find("Window/MetaSkillDetailBox/TipText"), i18n("meta_skill_learn"))
 end
 
 slot0.initData = function(slot0)
@@ -33,16 +33,16 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.window = slot0:findTF("Window")
-	slot0.closeBtn = slot0:findTF("top/btnBack", slot0.window)
-	slot0.panel = slot0:findTF("MetaSkillDetailBox", slot0.window)
-	slot0.skillTpl = slot0:findTF("SkillTpl", slot0.panel)
-	slot0.expDetailTF = slot0:findTF("ExpDetail", slot0.panel)
-	slot0.shipIcon = slot0:findTF("IconTpl/Icon", slot0.expDetailTF)
-	slot0.shipNameText = slot0:findTF("NameMask/Name", slot0.expDetailTF)
-	slot0.expProgressText = slot0:findTF("ExpProgressText", slot0.expDetailTF)
-	slot0.skillContainer = slot0:findTF("ScrollView/Content", slot0.panel)
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.window = slot0._tf:Find("Window")
+	slot0.closeBtn = slot0.window:Find("top/btnBack")
+	slot0.panel = slot0.window:Find("MetaSkillDetailBox")
+	slot0.skillTpl = slot0.panel:Find("SkillTpl")
+	slot0.expDetailTF = slot0.panel:Find("ExpDetail")
+	slot0.shipIcon = slot0.expDetailTF:Find("IconTpl/Icon")
+	slot0.shipNameText = slot0.expDetailTF:Find("NameMask/Name")
+	slot0.expProgressText = slot0.expDetailTF:Find("ExpProgressText")
+	slot0.skillContainer = slot0.panel:Find("ScrollView/Content")
 	slot0.skillUIItemList = UIItemList.New(slot0.skillContainer, slot0.skillTpl)
 end
 
@@ -56,19 +56,19 @@ slot0.addListener = function(slot0)
 end
 
 slot0.updateSkillTF = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("frame", slot1)
-	slot4 = slot0:findTF("check_mark", slot1)
-	slot5 = slot0:findTF("skillInfo", slot3)
-	slot6 = slot0:findTF("mask", slot3)
-	slot7 = slot0:findTF("Slider", slot3)
-	slot9 = slot0:findTF("ExpProgressText", slot5)
-	slot12 = slot0:findTF("Tag/learing", slot3)
-	slot13 = slot0:findTF("Tag/unlockable", slot3)
+	slot3 = slot1:Find("frame")
+	slot4 = slot1:Find("check_mark")
+	slot5 = slot3:Find("skillInfo")
+	slot6 = slot3:Find("mask")
+	slot7 = slot3:Find("Slider")
+	slot9 = slot5:Find("ExpProgressText")
+	slot12 = slot3:Find("Tag/learing")
+	slot13 = slot3:Find("Tag/unlockable")
 	slot16 = getSkillConfig(slot2)
 
-	setImageSprite(slot0:findTF("icon", slot5), LoadSprite("skillicon/" .. slot16.icon))
-	setText(slot0:findTF("name_contain/name", slot5), shortenString(getSkillName(slot16.id), 8))
-	setText(slot0:findTF("name_contain/level_contain/Text", slot5), getProxy(BayProxy):getShipById(slot0.metaShipID):getMetaSkillLevelBySkillID(slot2))
+	setImageSprite(slot5:Find("icon"), LoadSprite("skillicon/" .. slot16.icon))
+	setText(slot5:Find("name_contain/name"), shortenString(getSkillName(slot16.id), 8))
+	setText(slot5:Find("name_contain/level_contain/Text"), getProxy(BayProxy):getShipById(slot0.metaShipID):getMetaSkillLevelBySkillID(slot2))
 
 	slot18 = slot2 == slot0.metaProxy:getMetaTacticsInfoByShipID(slot0.metaShipID).curSkillID
 	slot19 = slot15 > 0

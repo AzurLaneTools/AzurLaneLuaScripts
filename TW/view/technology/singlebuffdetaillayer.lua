@@ -53,26 +53,26 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.backBtn = slot0:findTF("BG")
-	slot0.detailPanel = slot0:findTF("DetailPanel")
-	slot0.baseImg = slot0:findTF("Info/BaseImg", slot0.detailPanel)
-	slot0.modelImg = slot0:findTF("ModelImg", slot0.baseImg)
+	slot0.backBtn = slot0._tf:Find("BG")
+	slot0.detailPanel = slot0._tf:Find("DetailPanel")
+	slot0.baseImg = slot0.detailPanel:Find("Info/BaseImg")
+	slot0.modelImg = slot0.baseImg:Find("ModelImg")
 	slot0.modelImgCom = slot0.modelImg:GetComponent(typeof(Image))
-	slot0.top = slot0:findTF("Info/top", slot0.detailPanel)
-	slot0.levelImg = slot0:findTF("LevelImg", slot0.top)
-	slot0.typeTextImg = slot0:findTF("TypeTextImg", slot0.top)
-	slot0.nameText = slot0:findTF("Name/NameText", slot0.top)
-	slot0.buffItemTpl = slot0:findTF("Info/BuffItemTpl", slot0.detailPanel)
-	slot0.buffGetItem = slot0:findTF("Info/BuffGetItemTop", slot0.detailPanel)
-	slot0.statusGetImg = slot0:findTF("StatusBG/StatusImg", slot0.buffGetItem)
-	slot0.pointNumGetText = slot0:findTF("Point/PointNumText", slot0.buffGetItem)
-	slot0.buffGetItemContainer = slot0:findTF("Info/BuffGetItemContainer", slot0.detailPanel)
-	slot0.buffCompleteItem = slot0:findTF("Info/BuffCompleteItemTop", slot0.detailPanel)
-	slot0.statusCompleteImg = slot0:findTF("StatusBG/StatusImg", slot0.buffCompleteItem)
-	slot0.pointNumCompleteText = slot0:findTF("Point/PointNumText", slot0.buffCompleteItem)
-	slot0.buffCompleteItemContainer = slot0:findTF("Info/BuffCompleteItemContainer", slot0.detailPanel)
-	slot0.allStarStatusImg = slot0:findTF("Info/AllStarTop/StatusBG/StatusImg", slot0.detailPanel)
-	slot0.allStarPointText = slot0:findTF("Info/AllStarTop/Point/PointNumText", slot0.detailPanel)
+	slot0.top = slot0.detailPanel:Find("Info/top")
+	slot0.levelImg = slot0.top:Find("LevelImg")
+	slot0.typeTextImg = slot0.top:Find("TypeTextImg")
+	slot0.nameText = slot0.top:Find("Name/NameText")
+	slot0.buffItemTpl = slot0.detailPanel:Find("Info/BuffItemTpl")
+	slot0.buffGetItem = slot0.detailPanel:Find("Info/BuffGetItemTop")
+	slot0.statusGetImg = slot0.buffGetItem:Find("StatusBG/StatusImg")
+	slot0.pointNumGetText = slot0.buffGetItem:Find("Point/PointNumText")
+	slot0.buffGetItemContainer = slot0.detailPanel:Find("Info/BuffGetItemContainer")
+	slot0.buffCompleteItem = slot0.detailPanel:Find("Info/BuffCompleteItemTop")
+	slot0.statusCompleteImg = slot0.buffCompleteItem:Find("StatusBG/StatusImg")
+	slot0.pointNumCompleteText = slot0.buffCompleteItem:Find("Point/PointNumText")
+	slot0.buffCompleteItemContainer = slot0.detailPanel:Find("Info/BuffCompleteItemContainer")
+	slot0.allStarStatusImg = slot0.detailPanel:Find("Info/AllStarTop/StatusBG/StatusImg")
+	slot0.allStarPointText = slot0.detailPanel:Find("Info/AllStarTop/Point/PointNumText")
 end
 
 slot0.onBackPressed = function(slot0)
@@ -125,16 +125,16 @@ slot0.updateDetail = function(slot0)
 
 	slot6:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot5 = uv0:findTF("TypeText", slot2)
-			slot8 = uv1[slot1 + 1]
-			slot9 = uv0.typeToColor[slot8]
+			slot5 = slot2:Find("TypeText")
+			slot8 = uv0[slot1 + 1]
+			slot9 = uv1.typeToColor[slot8]
 
-			setTextColor(uv0:findTF("Symbol/Left", slot2), slot9)
-			setTextColor(uv0:findTF("Symbol/Right", slot2), slot9)
+			setTextColor(slot2:Find("Symbol/Left"), slot9)
+			setTextColor(slot2:Find("Symbol/Right"), slot9)
 			setText(slot5, ShipType.Type2Name(slot8))
 			setTextColor(slot5, slot9)
-			setText(uv0:findTF("AttrText", slot2), AttributeType.Type2Name(pg.attribute_info_by_type[uv2].name))
-			setText(uv0:findTF("ValueText", slot2), "+" .. uv3)
+			setText(slot2:Find("AttrText"), AttributeType.Type2Name(pg.attribute_info_by_type[uv2].name))
+			setText(slot2:Find("ValueText"), "+" .. uv3)
 			setActive(slot2, true)
 		end
 	end)
@@ -146,17 +146,17 @@ slot0.updateDetail = function(slot0)
 
 	slot10:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0:findTF("Symbol/Left", slot2)
-			slot4 = uv0:findTF("Symbol/Right", slot2)
-			slot5 = uv0:findTF("TypeText", slot2)
-			slot6 = uv0:findTF("AttrText", slot2)
-			slot7 = uv0:findTF("ValueText", slot2)
-			slot8 = uv0:findTF("BG", slot2)
-			slot9 = uv1[slot1 + 1]
+			slot3 = slot2:Find("Symbol/Left")
+			slot4 = slot2:Find("Symbol/Right")
+			slot5 = slot2:Find("TypeText")
+			slot6 = slot2:Find("AttrText")
+			slot7 = slot2:Find("ValueText")
+			slot8 = slot2:Find("BG")
+			slot9 = uv0[slot1 + 1]
 			slot10 = nil
 
-			if TechnologyConst.SHIP_LEVEL_FOR_BUFF <= uv0.maxLV then
-				slot10 = uv0.typeToColor[slot9]
+			if TechnologyConst.SHIP_LEVEL_FOR_BUFF <= uv1.maxLV then
+				slot10 = uv1.typeToColor[slot9]
 
 				setGray(slot8, false)
 			else

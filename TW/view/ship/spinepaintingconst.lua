@@ -409,6 +409,56 @@ slot0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	laimuhao_2 = {
+		click_trigger = false,
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		replace_word = {
+			"ex"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					action = "drag",
+					idle = "normal",
+					is_default = true,
+					active = true,
+					hit = "drag"
+				},
+				{
+					change_idle = "normal",
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false,
+					active = true,
+					hit = "drag"
+				}
+			}
+		}
+	},
+	maoxianhao_2 = {
+		click_trigger = true,
+		multiple_face = {},
+		hit_area = {
+			"touch_special"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "normal",
+					action = "touch_special",
+					idle = "normal",
+					is_default = true,
+					hit = "touch_special"
+				}
+			}
+		}
 	}
 }
 slot0.ship_effect_action_able = {

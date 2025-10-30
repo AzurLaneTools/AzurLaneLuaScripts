@@ -13926,6 +13926,206 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[633] = {
+		id = 633,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-191-MI",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30013,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13044,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[634] = {
+		id = 634,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-166-MI",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30043,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13045,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[635] = {
+		id = 635,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-167-MI",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30043,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13046,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[636] = {
+		id = 636,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-13-MI",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30013,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13047,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[637] = {
+		id = 637,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-158-MI",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30033,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13048,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
 	[641] = {
 		id = 641,
 		rarity = 1,
@@ -15312,6 +15512,1994 @@ pg.technology_data_template = {
 			{
 				2,
 				52081,
+				1
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[701] = {
+		id = 701,
+		rarity = 1,
+		time = 21600,
+		type = 1,
+		name = "C-153-MI",
+		lv_limit = 30,
+		desc = "目前一切關於心智魔方的理論基礎，其基石都來源於對心智魔方基礎構造的了解程度。一些工程師們正致力於推導心智魔方的基礎構造。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "item_1",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[702] = {
+		id = 702,
+		rarity = 1,
+		time = 21600,
+		type = 1,
+		name = "C-153-MI",
+		lv_limit = 30,
+		desc = "目前一切關於心智魔方的理論基礎，其基石都來源於對心智魔方基礎構造的了解程度。一些工程師們正致力於推導心智魔方的基礎構造。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "item_1",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[703] = {
+		id = 703,
+		rarity = 2,
+		time = 28800,
+		type = 1,
+		name = "C-185-MI",
+		lv_limit = 30,
+		desc = "目前一切關於心智魔方的理論基礎，其基石都來源於對心智魔方基礎構造的了解程度。一些工程師們正致力於推導心智魔方的基礎構造。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "大型项目",
+		label = "tag_red",
+		bg_icon = "item_2",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[704] = {
+		id = 704,
+		rarity = 2,
+		time = 28800,
+		type = 1,
+		name = "C-185-MI",
+		lv_limit = 30,
+		desc = "目前一切關於心智魔方的理論基礎，其基石都來源於對心智魔方基礎構造的了解程度。一些工程師們正致力於推導心智魔方的基礎構造。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "大型项目",
+		label = "tag_red",
+		bg_icon = "item_2",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[711] = {
+		id = 711,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "B-622-MI",
+		lv_limit = 30,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52001,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[712] = {
+		id = 712,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "B-636-MI",
+		lv_limit = 30,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52002,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[713] = {
+		id = 713,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "B-654-MI",
+		lv_limit = 30,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52003,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[714] = {
+		id = 714,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "B-682-MI",
+		lv_limit = 40,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52004,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[715] = {
+		id = 715,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "B-235-MI",
+		lv_limit = 50,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52005,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[716] = {
+		id = 716,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "B-268-MI",
+		lv_limit = 60,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52006,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[717] = {
+		id = 717,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "B-128-MI",
+		lv_limit = 65,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52007,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[718] = {
+		id = 718,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "B-164-MI",
+		lv_limit = 70,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52008,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[721] = {
+		id = 721,
+		rarity = 1,
+		time = 10800,
+		type = 1,
+		name = "T-018-MI",
+		lv_limit = 30,
+		desc = "除去建造方面，心智魔方在日用性上的研究也被提上了進程。該科研計畫希望能夠找出心智魔方在日用性上的可能性。",
+		condition = 52021,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_1",
+		label_color = "tag_t",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[722] = {
+		id = 722,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "T-384-MI",
+		lv_limit = 30,
+		desc = "除去建造方面，心智魔方在日用性上的研究也被提上了進程。該科研計畫希望能夠找出心智魔方在日用性上的可能性。",
+		condition = 52022,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_1",
+		label_color = "tag_t",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[723] = {
+		id = 723,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "T-249-MI",
+		lv_limit = 30,
+		desc = "除去建造方面，心智魔方在日用性上的研究也被提上了進程。該科研計畫希望能夠找出心智魔方在日用性上的可能性。",
+		condition = 52023,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_t",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[731] = {
+		id = 731,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "E-031-MI",
+		lv_limit = 30,
+		desc = "試著闡明心智魔方與艦裝之間的聯繫，但這無疑必須建立在大量的實驗基礎上。用一些廢棄的艦裝當試驗品吧。",
+		condition = 52031,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_1",
+		label_color = "tag_e",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[732] = {
+		id = 732,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "E-315-MI",
+		lv_limit = 30,
+		desc = "試著闡明心智魔方與艦裝之間的聯繫，但這無疑必須建立在大量的實驗基礎上。用一些廢棄的艦裝當試驗品吧。",
+		condition = 52032,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[741] = {
+		id = 741,
+		rarity = 1,
+		time = 5400,
+		type = 1,
+		name = "G-412-MI",
+		lv_limit = 30,
+		desc = "科技的高速發展，離不開金錢的推動。如果指揮官願意投入大量的研發資金，相信一定能取得豐碩的成果。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[742] = {
+		id = 742,
+		rarity = 1,
+		time = 5400,
+		type = 1,
+		name = "G-412-MI",
+		lv_limit = 30,
+		desc = "科技的高速發展，離不開金錢的推動。如果指揮官願意投入大量的研發資金，相信一定能取得豐碩的成果。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[743] = {
+		id = 743,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "G-236-MI",
+		lv_limit = 30,
+		desc = "科技的高速發展，離不開金錢的推動。如果指揮官願意投入大量的研發資金，相信一定能取得豐碩的成果。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[744] = {
+		id = 744,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "G-236-MI",
+		lv_limit = 30,
+		desc = "科技的高速發展，離不開金錢的推動。如果指揮官願意投入大量的研發資金，相信一定能取得豐碩的成果。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[745] = {
+		id = 745,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "G-531-MI",
+		lv_limit = 30,
+		desc = "科技的高速發展，離不開金錢的推動。如果指揮官願意投入大量的研發資金，相信一定能取得豐碩的成果。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				6000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[746] = {
+		id = 746,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "G-531-MI",
+		lv_limit = 30,
+		desc = "科技的高速發展，離不開金錢的推動。如果指揮官願意投入大量的研發資金，相信一定能取得豐碩的成果。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				6000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[751] = {
+		id = 751,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-780-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_meikelunbao",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42072,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[752] = {
+		id = 752,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-736-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_jinshi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42075,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[753] = {
+		id = 753,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-787-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_dimiteli",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42074,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[754] = {
+		id = 754,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-711-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_kansasi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42071,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[755] = {
+		id = 755,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-764-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_kunibeierdi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42073,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[761] = {
+		id = 761,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-380-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "chara_meikelunbao",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42072,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[762] = {
+		id = 762,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-336-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "chara_jinshi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42075,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[763] = {
+		id = 763,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-387-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "chara_dimiteli",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42074,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[764] = {
+		id = 764,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-311-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "chara_kansasi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42071,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[765] = {
+		id = 765,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-364-MI",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "chara_kunibeierdi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42073,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[771] = {
+		id = 771,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-302-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17001,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[772] = {
+		id = 772,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-310-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17011,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[773] = {
+		id = 773,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-351-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17021,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[774] = {
+		id = 774,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-368-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17031,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[775] = {
+		id = 775,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-389-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17041,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[776] = {
+		id = 776,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-202-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17002,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[777] = {
+		id = 777,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-210-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17012,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[778] = {
+		id = 778,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-251-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17022,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[779] = {
+		id = 779,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-268-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17032,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[780] = {
+		id = 780,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-289-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17042,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[781] = {
+		id = 781,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-002-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17003,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[782] = {
+		id = 782,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-010-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17013,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[783] = {
+		id = 783,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-051-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17023,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[784] = {
+		id = 784,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-068-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17033,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[785] = {
+		id = 785,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-089-MI",
+		lv_limit = 30,
+		desc = "從已觀測到的心智魔方與艦裝的相互影響效果中，試圖以可控制且穩定的方式，尋找可以利用此效果的場景。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17043,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[791] = {
+		id = 791,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "H-387-MI",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的紀錄。但對於心智魔方的構造研究，最簡單粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54049,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[792] = {
+		id = 792,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "H-387-MI",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的紀錄。但對於心智魔方的構造研究，最簡單粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54049,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[793] = {
+		id = 793,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "H-339-MI",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的紀錄。但對於心智魔方的構造研究，最簡單粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				6
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[794] = {
+		id = 794,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "H-339-MI",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的紀錄。但對於心智魔方的構造研究，最簡單粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				6
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
 				1
 			},
 			{
@@ -23481,6 +25669,1141 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[1632] = {
+		id = 1632,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "E-866-MI",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10106,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13045,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1633] = {
+		id = 1633,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "E-867-MI",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10108,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13046,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1634] = {
+		id = 1634,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "E-83-MI",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10030,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13047,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1635] = {
+		id = 1635,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "E-858-MI",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10057,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13048,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1701] = {
+		id = 1701,
+		rarity = 3,
+		time = 43200,
+		type = 2,
+		name = "C-038-RF",
+		lv_limit = 30,
+		desc = "目前一切關於心智魔方的理論基礎，其基石都來源於對心智魔方基礎構造的了解程度。一些工程師們正致力於推導心智魔方的基礎構造。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "大型项目",
+		label = "tag_red",
+		bg_icon = "item_3",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1702] = {
+		id = 1702,
+		rarity = 3,
+		time = 43200,
+		type = 2,
+		name = "C-038-RF",
+		lv_limit = 30,
+		desc = "目前一切關於心智魔方的理論基礎，其基石都來源於對心智魔方基礎構造的了解程度。一些工程師們正致力於推導心智魔方的基礎構造。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "大型项目",
+		label = "tag_red",
+		bg_icon = "item_3",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1703] = {
+		id = 1703,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "B-351-RF",
+		lv_limit = 75,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52009,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_3",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1704] = {
+		id = 1704,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "B-397-RF",
+		lv_limit = 80,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52010,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_3",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1705] = {
+		id = 1705,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "D-480-RF",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "大型项目",
+		label = "tag_red",
+		bg_icon = "chara_meikelunbao",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42072,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1706] = {
+		id = 1706,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "D-436-RF",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "大型项目",
+		label = "tag_red",
+		bg_icon = "chara_jinshi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42075,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1707] = {
+		id = 1707,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "D-487-RF",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "大型项目",
+		label = "tag_red",
+		bg_icon = "chara_dimiteli",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42074,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1708] = {
+		id = 1708,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "D-411-RF",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "大型项目",
+		label = "tag_red",
+		bg_icon = "chara_kansasi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42071,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1709] = {
+		id = 1709,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "D-464-RF",
+		lv_limit = 30,
+		desc = "心智魔方能夠具象化人類對於某一事物的認知集合，如果能夠定向心智魔方具象化的目標，會有什麼樣的效果呢？",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "大型项目",
+		label = "tag_red",
+		bg_icon = "chara_kunibeierdi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42073,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1711] = {
+		id = 1711,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "H-207-RF",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的紀錄。但對於心智魔方的構造研究，最簡單粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "gold_3",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1712] = {
+		id = 1712,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "H-207-RF",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的紀錄。但對於心智魔方的構造研究，最簡單粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "gold_3",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1713] = {
+		id = 1713,
+		rarity = 4,
+		time = 1800,
+		type = 2,
+		name = "D-080-UL",
+		lv_limit = 30,
+		desc = "在心智魔方的認知具象化實驗中，突然產生異常的離散值升高的現象。找到異常的產生原因將會大大拓展我們對心智魔方的理論認知。",
+		condition = 0,
+		bg = "4",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_meikelunbao",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42072,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1714] = {
+		id = 1714,
+		rarity = 4,
+		time = 1800,
+		type = 2,
+		name = "D-036-UL",
+		lv_limit = 30,
+		desc = "在心智魔方的認知具象化實驗中，突然產生異常的離散值升高的現象。找到異常的產生原因將會大大拓展我們對心智魔方的理論認知。",
+		condition = 0,
+		bg = "4",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_jinshi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42075,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1715] = {
+		id = 1715,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "D-087-UL",
+		lv_limit = 30,
+		desc = "在心智魔方的認知具象化實驗中，突然產生異常的離散值升高的現象。找到異常的產生原因將會大大拓展我們對心智魔方的理論認知。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_dimiteli",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42074,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1716] = {
+		id = 1716,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "D-011-UL",
+		lv_limit = 30,
+		desc = "在心智魔方的認知具象化實驗中，突然產生異常的離散值升高的現象。找到異常的產生原因將會大大拓展我們對心智魔方的理論認知。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_kansasi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42071,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1717] = {
+		id = 1717,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "D-064-UL",
+		lv_limit = 30,
+		desc = "在心智魔方的認知具象化實驗中，突然產生異常的離散值升高的現象。找到異常的產生原因將會大大拓展我們對心智魔方的理論認知。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "chara_kunibeierdi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42073,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1719] = {
+		id = 1719,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "Q-002-UL",
+		lv_limit = 30,
+		desc = "在心智魔方與艦裝的影響實驗中，突然對某一部件產生了極高的相適度，也許這其中隱藏著一些我們都未所知的原理存在。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17003,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1720] = {
+		id = 1720,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "Q-010-UL",
+		lv_limit = 30,
+		desc = "在心智魔方與艦裝的影響實驗中，突然對某一部件產生了極高的相適度，也許這其中隱藏著一些我們都未所知的原理存在。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17013,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1721] = {
+		id = 1721,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "Q-051-UL",
+		lv_limit = 30,
+		desc = "在心智魔方與艦裝的影響實驗中，突然對某一部件產生了極高的相適度，也許這其中隱藏著一些我們都未所知的原理存在。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17023,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1722] = {
+		id = 1722,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "Q-068-UL",
+		lv_limit = 30,
+		desc = "在心智魔方與艦裝的影響實驗中，突然對某一部件產生了極高的相適度，也許這其中隱藏著一些我們都未所知的原理存在。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17033,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1723] = {
+		id = 1723,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "Q-089-UL",
+		lv_limit = 30,
+		desc = "在心智魔方與艦裝的影響實驗中，突然對某一部件產生了極高的相適度，也許這其中隱藏著一些我們都未所知的原理存在。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17043,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1724] = {
+		id = 1724,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "H-063-UL",
+		lv_limit = 30,
+		desc = "被軍部實驗室列為最高機密的項目，其結果對人類，甚至整個生態圈，都能產生巨大的影響。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_sh",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			},
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1725] = {
+		id = 1725,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "H-063-UL",
+		lv_limit = 30,
+		desc = "被軍部實驗室列為最高機密的項目，其結果對人類，甚至整個生態圈，都能產生巨大的影響。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_sh",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			},
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1726] = {
+		id = 1726,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "B-397-RF",
+		lv_limit = 85,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研計畫致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52011,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_3",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -23846,6 +27169,11 @@ pg.technology_data_template = {
 		623,
 		631,
 		632,
+		633,
+		634,
+		635,
+		636,
+		637,
 		641,
 		642,
 		643,
@@ -23881,6 +27209,58 @@ pg.technology_data_template = {
 		692,
 		693,
 		694,
+		701,
+		702,
+		703,
+		704,
+		711,
+		712,
+		713,
+		714,
+		715,
+		716,
+		717,
+		718,
+		721,
+		722,
+		723,
+		731,
+		732,
+		741,
+		742,
+		743,
+		744,
+		745,
+		746,
+		751,
+		752,
+		753,
+		754,
+		755,
+		761,
+		762,
+		763,
+		764,
+		765,
+		771,
+		772,
+		773,
+		774,
+		775,
+		776,
+		777,
+		778,
+		779,
+		780,
+		781,
+		782,
+		783,
+		784,
+		785,
+		791,
+		792,
+		793,
+		794,
 		1001,
 		1002,
 		1003,
@@ -24081,6 +27461,34 @@ pg.technology_data_template = {
 		1623,
 		1624,
 		1625,
-		1626
+		1626,
+		1632,
+		1633,
+		1634,
+		1635,
+		1701,
+		1702,
+		1703,
+		1704,
+		1705,
+		1706,
+		1707,
+		1708,
+		1709,
+		1711,
+		1712,
+		1713,
+		1714,
+		1715,
+		1716,
+		1717,
+		1719,
+		1720,
+		1721,
+		1722,
+		1723,
+		1724,
+		1725,
+		1726
 	}
 }

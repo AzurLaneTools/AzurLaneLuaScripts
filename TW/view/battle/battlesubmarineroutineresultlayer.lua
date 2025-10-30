@@ -1,7 +1,8 @@
 slot0 = class("BattleSubmarineRoutineResultLayer", import(".BattleResultLayer"))
 
 slot0.rankAnimaFinish = function(slot0)
-	slot1 = slot0:findTF("main/conditions")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("main/conditions")
 
 	SetActive(slot1, true)
 	SetActive(slot1:Find("bg16/bg_extra"), true)
@@ -15,7 +16,7 @@ slot0.rankAnimaFinish = function(slot0)
 	table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
 		uv0._stateFlag = uv1.STATE_REPORTED
 
-		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+		SetActive(uv0._bg:Find("jieuan01/tips"), true)
 	end)).id)
 
 	slot0._stateFlag = uv0.STATE_REPORT
@@ -53,7 +54,7 @@ slot0.displayBG = function(slot0)
 		uv0:displayPlayerInfo()
 		uv0:playSubExEnter()
 	end))
-	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
+	setActive(slot0._bg:Find("jieuan01/Bomb"), false)
 end
 
 slot0.showRightBottomPanel = function(slot0)

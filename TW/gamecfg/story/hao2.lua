@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"属于彼此的甜蜜饼干\n\n<size=45>二　这样，就可以牵手了</size>",
+					"屬於彼此的甜蜜餅乾\n\n<size=45>2.這樣，就可以牽手了</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "结完账，我提起购买的两袋食材，与豪一起踏上了返程的旅途。",
+			say = "結帳，我提起購買的兩袋食材，與豪一起踏上了回程的旅程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "与少女并肩而行的过程中，彼此的距离也逐渐拉近。",
+			say = "在與少女並肩而行的過程中，彼此的距離也逐漸拉近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "突然，豪低头看了看我手中的袋子，又抬头看向了我。",
+			say = "突然，豪低頭看了看我手中的袋子，又抬頭看向了我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "怎么了？",
+			say = "怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我把食材收到货仓里吧。",
+			say = "指揮官，我把食材收到貨倉吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那运行舰装消耗的石油价值岂不是比食材要贵得多？",
+			say = "那運行艦裝消耗的石油價值豈不是比食材貴很多？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对哦……那我也来提一些吧！",
+			say = "對哦……那我也來提一些吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没事，不重，我来就好。",
+			say = "沒事，不重，我來就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "然而少女却执拗地摇了摇头，随即伸手握住袋子的提手。",
+			say = "然而少女卻執拗地搖了搖頭，隨即伸手握住袋子的提手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官两只手都提着袋子的话，我就没办法牵你的手了。",
+			say = "指揮官兩隻手都提著袋子的話，我就沒辦法牽你的手了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以这只手的东西，就交给我吧。",
+			say = "所以這隻手的東西，就交給我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,14 +174,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "少女目光灼灼，满是真诚与期待。",
+			say = "少女目光灼灼，滿是真誠與期待。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "松开袋子的提手",
+					content = "鬆開袋子的提把",
 					flag = 1
 				}
 			}
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "顺着豪的动作，松开了手中的袋子，她很快便将袋子换手提好。",
+			say = "順著豪的動作，鬆開了手中的袋子，她很快便將袋子換手提好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "紧接着，她便伸出另一只手来与我紧握。掌心相贴，带来柔软而温暖的热度。",
+			say = "緊接著，她便伸出另一隻手來與我緊握。掌心相貼，帶來柔軟溫暖的熱度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "少女闪闪发亮的眼睛看着前方，脸颊之上带着些许她不自知的红晕。",
+			say = "少女閃閃發亮的眼睛看著前方，臉頰之上帶著些許她不自知的紅暈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我很久之前就想这么做了。",
+			say = "我很久之前就想這麼做了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "牵着指挥官的手，悠闲地散步、聊天。",
+			say = "牽著指揮官的手，悠閒地散步聊天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……",
+			say = "嗯…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "豪微微歪着脑袋思考着。",
+			say = "豪微微歪著腦袋思考著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "天长地久，海枯石烂？",
+			say = "天長地久，海枯石爛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼~果然我不大会说这种漂亮话呢。",
+			say = "呼~果然我不大會說這種漂亮話呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之就是想一直牵着你的手。",
+			say = "總之就是想一直牽著你的手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "少女笑着感慨着，我们交叠的双手随着走路的动作而被带着扬起。",
+			say = "少女笑著感慨著，我們交疊的雙手隨著走路的動作而被帶著揚起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "落入金色的暖阳之中。",
+			say = "落入金色的暖陽之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

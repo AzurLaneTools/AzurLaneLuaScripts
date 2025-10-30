@@ -12,17 +12,17 @@ end
 
 slot0.init = function(slot0)
 	slot0.icons = {
-		slot0:findTF("bg/icon/npc1"),
-		slot0:findTF("bg/icon/npc2"),
-		slot0:findTF("bg/icon/npc3"),
-		slot0:findTF("bg/icon/npc4"),
-		slot0:findTF("bg/icon/npc5"),
-		slot0:findTF("bg/icon/npc6"),
-		slot0:findTF("bg/icon/npc7")
+		slot0._tf:Find("bg/icon/npc1"),
+		slot0._tf:Find("bg/icon/npc2"),
+		slot0._tf:Find("bg/icon/npc3"),
+		slot0._tf:Find("bg/icon/npc4"),
+		slot0._tf:Find("bg/icon/npc5"),
+		slot0._tf:Find("bg/icon/npc6"),
+		slot0._tf:Find("bg/icon/npc7")
 	}
-	slot0.helpBtn = slot0:findTF("bg/btn/pngbtn_help")
-	slot0.getBtn = slot0:findTF("bg/btn/btn_djlq")
-	slot0.gotBtn = slot0:findTF("bg/btn/btn_ylq")
+	slot0.helpBtn = slot0._tf:Find("bg/btn/pngbtn_help")
+	slot0.getBtn = slot0._tf:Find("bg/btn/btn_djlq")
+	slot0.gotBtn = slot0._tf:Find("bg/btn/btn_ylq")
 	slot0.parent = slot0._tf.parent
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)

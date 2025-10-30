@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.scrollRect = slot0:findTF("adapt/attr_panel/srcollrect"):GetComponent("LScrollRect")
+	slot0.scrollRect = slot0._tf:Find("adapt/attr_panel/srcollrect"):GetComponent("LScrollRect")
 
 	slot0.scrollRect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -15,10 +15,10 @@ slot0.OnLoaded = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	slot0.giveBtn = slot0:findTF("adapt/attr_panel/send_panel/give_btn")
-	slot0.emptyTr = slot0:findTF("adapt/attr_panel/send_panel/empty")
-	slot0.giftEffectList = UIItemList.New(slot0:findTF("adapt/attr_panel/send_panel/scrollrect/list"), slot0:findTF("adapt/attr_panel/send_panel/scrollrect/list/tpl"))
-	slot0.statusPanel = IslandShipStatusPanel.New(slot0:findTF("adapt/attr_panel/status"), slot0:findTF("adapt/attr_panel/status_empty"))
+	slot0.giveBtn = slot0._tf:Find("adapt/attr_panel/send_panel/give_btn")
+	slot0.emptyTr = slot0._tf:Find("adapt/attr_panel/send_panel/empty")
+	slot0.giftEffectList = UIItemList.New(slot0._tf:Find("adapt/attr_panel/send_panel/scrollrect/list"), slot0._tf:Find("adapt/attr_panel/send_panel/scrollrect/list/tpl"))
+	slot0.statusPanel = IslandShipStatusPanel.New(slot0._tf:Find("adapt/attr_panel/status"), slot0._tf:Find("adapt/attr_panel/status_empty"))
 
 	setText(slot0.emptyTr:Find("Text"), i18n("island_select_ship_gift"))
 end

@@ -1,5 +1,6 @@
 slot0 = class("IslandBuildingAgency", import(".IslandBaseAgency"))
 slot0.COLLECT_SlOT_UNIT_INIT = "IslandBuildingAgency:COLLECT_SlOT_UNIT_INIT"
+slot0.COLLECT_SlOT_UNIT_UPDATE = "IslandBuildingAgency:COLLECT_SlOT_UNIT_UPDATE"
 slot0.COLLECT_SLOT_UNIT_REMOVE = "IslandBuildingAgency:COLLECT_SLOT_UNIT_REMOVE"
 slot0.SLOT_HANDPLABT_SLOT_UNIT_CHANGE = "IslandBuildingAgency:SLOT_HANDPLABT_SLOT_UNIT_CHANGE"
 slot0.SLOT_RESET_DELEGATION_STATE_DONE = "IslandBuildingAgency:SLOT_RESET_DELEGATION_STATE_DONE"
@@ -97,7 +98,7 @@ slot0.InitBuildData = function(slot0, slot1)
 
 	for slot7, slot8 in slot4(slot5) do
 		slot3:DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, {
-			slotId = slot8.id
+			slotId = slot8
 		})
 	end
 

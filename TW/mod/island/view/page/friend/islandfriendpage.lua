@@ -40,8 +40,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.giftTipTxt = slot0:findTF("top/gift_tip/Text"):GetComponent(typeof(Text))
+	slot0.backBtn = slot0._tf:Find("top/back")
+	slot0.giftTipTxt = slot0._tf:Find("top/gift_tip/Text"):GetComponent(typeof(Text))
 	slot0.uiToggleList = UIItemList.New(slot0._tf:Find("adapt/toggles/content"), slot0._tf:Find("adapt/toggles/content/tpl"))
 	slot1 = slot0._tf
 	slot0.mainTr = slot1:Find("adapt/main")
@@ -56,7 +56,7 @@ slot0.OnLoaded = function(slot0)
 		[uv7] = IslandFriendSettingPage.New(slot0.mainTr, slot0.event)
 	}
 
-	setText(slot0:findTF("top/title/Text"), i18n("island_btn_label_visit"))
+	setText(slot0._tf:Find("top/title/Text"), i18n("island_btn_label_visit"))
 end
 
 slot0.AddListeners = function(slot0)
@@ -201,6 +201,10 @@ end
 
 slot0.OnHide = function(slot0)
 	slot0:UnBlurPanel()
+end
+
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
 end
 
 slot0.OnDestroy = function(slot0)

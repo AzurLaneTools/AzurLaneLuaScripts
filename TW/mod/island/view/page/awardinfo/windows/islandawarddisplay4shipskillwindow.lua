@@ -7,11 +7,11 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.nameTxt = slot0:findTF("frame/bg/item/name"):GetComponent(typeof(Text))
-	slot0.levelTxt = slot0:findTF("frame/bg/item/level"):GetComponent(typeof(Text))
-	slot0.descTxt = slot0:findTF("frame/bg/item/desc"):GetComponent(typeof(Text))
-	slot0.iconTr = slot0:findTF("frame/bg/item/icon")
-	slot0.uiNewStart = UIItemList.New(slot0:findTF("frame/bg/starts"), slot0:findTF("frame/bg/starts/tpl"))
+	slot0.nameTxt = slot0._tf:Find("frame/bg/item/name"):GetComponent(typeof(Text))
+	slot0.levelTxt = slot0._tf:Find("frame/bg/item/level"):GetComponent(typeof(Text))
+	slot0.descTxt = slot0._tf:Find("frame/bg/item/desc"):GetComponent(typeof(Text))
+	slot0.iconTr = slot0._tf:Find("frame/bg/item/icon")
+	slot0.uiNewStart = UIItemList.New(slot0._tf:Find("frame/bg/starts"), slot0._tf:Find("frame/bg/starts/tpl"))
 end
 
 slot0.Show = function(slot0, slot1)

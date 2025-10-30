@@ -5,23 +5,23 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.storehouseRect = GetComponent(slot0:findTF("Window/ScrollView"), "LScrollRect")
+	slot0.storehouseRect = GetComponent(slot0._tf:Find("Window/ScrollView"), "LScrollRect")
 
-	setActive(slot0:findTF("Window/ScrollView/Item"), false)
+	setActive(slot0._tf:Find("Window/ScrollView/Item"), false)
 	slot0:InitCustom()
 end
 
 slot0.InitCustom = function(slot0)
-	setText(slot0:findTF("Window/Empty"), i18n("ryza_tip_no_item"))
+	setText(slot0._tf:Find("Window/Empty"), i18n("ryza_tip_no_item"))
 end
 
 slot0.didEnter = function(slot0)
 	slot0.activity = slot0.contextData.activity
 
-	onButton(slot0, slot0:findTF("Window/Close"), function ()
+	onButton(slot0, slot0._tf:Find("Window/Close"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	onButton(slot0, slot0._tf:Find("BG"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 	slot0:ShowStoreHouseWindow()
@@ -39,8 +39,8 @@ slot0.ShowStoreHouseWindow = function(slot0)
 	table.sort(slot2, function (slot0, slot1)
 		return slot0:GetConfigID() < slot1:GetConfigID()
 	end)
-	setActive(slot0:findTF("Window/Empty"), #slot2 == 0)
-	setActive(slot0:findTF("Window/ScrollView"), #slot2 > 0)
+	setActive(slot0._tf:Find("Window/Empty"), #slot2 == 0)
+	setActive(slot0._tf:Find("Window/ScrollView"), #slot2 > 0)
 
 	if #slot2 == 0 then
 		return
@@ -50,8 +50,8 @@ slot0.ShowStoreHouseWindow = function(slot0)
 		slot2 = tf(slot1)
 		slot3 = uv0[slot0 + 1]
 
-		uv1:UpdateRyzaItem(uv1:findTF("IconBG", slot2), slot3)
-		setScrollText(uv1:findTF("NameBG/Rect/Name", slot2), slot3:GetName())
+		uv1:UpdateRyzaItem(slot2:Find("IconBG"), slot3)
+		setScrollText(slot2:Find("NameBG/Rect/Name"), slot3:GetName())
 		onButton(uv1, slot2, function ()
 			uv0:ShowItemDetail(uv1)
 		end, SFX_PANEL)
@@ -68,20 +68,18 @@ slot0.UpdateRyzaItem = function(slot0, slot1, slot2)
 	end
 
 	GetImageSpriteFromAtlasAsync("ui/AtelierCommonUI_atlas", slot3, slot1)
-	GetImageSpriteFromAtlasAsync(slot2:GetIconPath(), "", slot0:findTF("Icon", slot1))
+	GetImageSpriteFromAtlasAsync(slot2:GetIconPath(), "", slot1:Find("Icon"))
 
-	if not IsNil(slot0:findTF("Lv", slot1)) then
-		setText(slot0:findTF("Lv/Text", slot1), slot2:GetLevel())
+	if not IsNil(slot1:Find("Lv")) then
+		setText(slot1:Find("Lv/Text"), slot2:GetLevel())
 	end
 
-	slot9 = slot1
-
-	for slot9, slot10 in ipairs(CustomIndexLayer.Clone2Full(slot0:findTF("List", slot9), #slot2:GetProps())) do
+	for slot9, slot10 in ipairs(CustomIndexLayer.Clone2Full(slot1:Find("List"), #slot2:GetProps())) do
 		GetImageSpriteFromAtlasAsync("ui/AtelierCommonUI_atlas", "element_" .. AtelierFormulaCircle.ELEMENT_NAME[slot4[slot9]], slot10)
 	end
 
-	if not IsNil(slot0:findTF("Text", slot1)) then
-		setText(slot0:findTF("Text", slot1), slot2.count)
+	if not IsNil(slot1:Find("Text")) then
+		setText(slot1:Find("Text"), slot2.count)
 	end
 end
 

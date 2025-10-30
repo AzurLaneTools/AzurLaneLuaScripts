@@ -17,20 +17,20 @@ slot0.TransformType = {
 }
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
+	slot0.bg = slot0._tf:Find("AD")
 	slot0.items = {
-		slot0:findTF("AD/Item1"),
-		slot0:findTF("AD/Item2")
+		slot0._tf:Find("AD/Item1"),
+		slot0._tf:Find("AD/Item2")
 	}
-	slot0.awardTF = slot0:findTF("AD/award")
-	slot0.battleBtn = slot0:findTF("AD/battle_btn")
-	slot0.shopBtn = slot0:findTF("AD/exchange_btn")
-	slot0.buildBtn = slot0:findTF("AD/build_btn")
-	slot0.tab = slot0:findTF("tab")
-	slot0.bar = slot0:findTF("bar")
-	slot0.scrollList = slot0:findTF("Scroll View", slot0.tab)
-	slot0.content = slot0:findTF("Content", slot0.scrollList)
-	slot0.listTmpl = slot0:findTF("listitem", slot0.tab)
+	slot0.awardTF = slot0._tf:Find("AD/award")
+	slot0.battleBtn = slot0._tf:Find("AD/battle_btn")
+	slot0.shopBtn = slot0._tf:Find("AD/exchange_btn")
+	slot0.buildBtn = slot0._tf:Find("AD/build_btn")
+	slot0.tab = slot0._tf:Find("tab")
+	slot0.bar = slot0._tf:Find("bar")
+	slot0.scrollList = slot0.tab:Find("Scroll View")
+	slot0.content = slot0.scrollList:Find("Content")
+	slot0.listTmpl = slot0.tab:Find("listitem")
 	slot0.taskList = UIItemList.New(slot0.content, slot0.listTmpl)
 	slot0.finalTasks = {}
 	slot0.subtasks = {}
@@ -45,7 +45,7 @@ slot0.OnFirstFlush = function(slot0)
 			table.insert(uv0.subtasks, Clone(slot2))
 		end
 	end)
-	setText(slot0:findTF("desc", slot0.bg), i18n("bismarck_chapter_desc"))
+	setText(slot0.bg:Find("desc"), i18n("bismarck_chapter_desc"))
 	slot0:SubimtCompletedMission()
 	slot0:InitInteractable()
 end
@@ -125,7 +125,7 @@ slot0.UpdateView = function(slot0)
 
 		slot9 = pg.task_data_template[slot6].award_display[1]
 
-		slot0:UpdateIcon(slot0:findTF("icon", slot8), slot9[1], slot9[2])
+		slot0:UpdateIcon(slot8:Find("icon"), slot9[1], slot9[2])
 		setActive(slot8:Find("active"), slot1:getTaskVO(slot6):getTaskStatus() == 0)
 		setActive(slot8:Find("finished"), slot11 == 1)
 		setActive(slot8:Find("achieved"), slot11 == 2)
@@ -158,7 +158,7 @@ slot0.UpdateTab = function(slot0)
 	for slot8 = 1, slot2 do
 		slot9 = slot0.content:GetChild(slot8 - 1)
 
-		setText(slot0:findTF("title/Text", slot9), string.format("Task-%02d", slot8))
+		setText(slot9:Find("title/Text"), string.format("Task-%02d", slot8))
 
 		slot11 = pg.task_data_template[slot1[slot8]]
 
@@ -169,13 +169,13 @@ slot0.UpdateTab = function(slot0)
 		slot15 = slot3:getTaskById(slot10) or slot3:getFinishTaskById(slot10)
 
 		setActive(slot9:Find("completed"), defaultValue(slot15 and slot15:isFinish(), false))
-		setText(slot0:findTF("text", slot9), slot11.desc)
-		slot0:UpdateIcon(slot0:findTF("icon", slot9), slot13, tonumber(slot11.target_id))
+		setText(slot9:Find("text"), slot11.desc)
+		slot0:UpdateIcon(slot9:Find("icon"), slot13, tonumber(slot11.target_id))
 
 		slot4 = slot4 + (slot15 and slot15:isFinish() and 1 or 0)
 	end
 
-	setText(slot0:findTF("slider/progress", slot0.tab), string.format("[%d/%d]", slot4, slot2))
+	setText(slot0.tab:Find("slider/progress"), string.format("[%d/%d]", slot4, slot2))
 
 	slot0.scrollList:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 1
 	slot5 = slot0.tab.transform.anchoredPosition

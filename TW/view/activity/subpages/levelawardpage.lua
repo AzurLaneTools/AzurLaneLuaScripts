@@ -1,12 +1,12 @@
 slot0 = class("LevelAwardPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.award = slot0:findTF("scroll/award")
-	slot0.content = slot0:findTF("scroll/content")
-	slot0.scrollTF = slot0:findTF("scroll")
-	slot0.pageSignDownTF = slot0:findTF("sign")
-	slot0.pageSignUpTF = slot0:findTF("sign_up")
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.award = slot0._tf:Find("scroll/award")
+	slot0.content = slot0._tf:Find("scroll/content")
+	slot0.scrollTF = slot0._tf:Find("scroll")
+	slot0.pageSignDownTF = slot0._tf:Find("sign")
+	slot0.pageSignUpTF = slot0._tf:Find("sign_up")
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -19,12 +19,12 @@ slot0.OnFirstFlush = function(slot0)
 	for slot4 = 1, #slot0.config.front_drops do
 		slot5 = slot0.config.front_drops[slot4]
 		slot7 = cloneTplTo(slot0.award, slot0.content, "award" .. tostring(slot4))
-		slot9 = slot0:findTF("btnAchieve", slot7)
-		slot10 = slot0:findTF("items", slot7)
+		slot9 = slot7:Find("btnAchieve")
+		slot10 = slot7:Find("items")
 
-		setActive(slot0:findTF("item", slot7), false)
+		setActive(slot7:Find("item"), false)
 
-		slot15 = slot0:findTF("limit_label/labelLevel", slot7)
+		slot15 = slot7:Find("limit_label/labelLevel")
 
 		GetImageSpriteFromAtlasAsync("ui/activityuipage/level_award_atlas", tostring(slot5[1]), slot15, true)
 
@@ -58,16 +58,16 @@ end
 
 slot0.OnUpdateFlush = function(slot0)
 	for slot4 = 1, #slot0.config.front_drops do
-		slot6 = slot0:findTF("award" .. tostring(slot4), slot0.content)
-		slot7 = slot0:findTF("btnAchieve", slot6)
-		slot8 = slot0:findTF("achieve_sign", slot6)
+		slot6 = slot0.content:Find("award" .. tostring(slot4))
+		slot7 = slot6:Find("btnAchieve")
+		slot8 = slot6:Find("achieve_sign")
 
 		if _.include(slot0.activity.data1_list, slot0.config.front_drops[slot4][1]) then
 			slot6.transform:SetAsLastSibling()
 		end
 
-		setGray(slot0:findTF("limit_label", slot6), slot9)
-		setGray(slot0:findTF("items", slot6), slot9)
+		setGray(slot6:Find("limit_label"), slot9)
+		setGray(slot6:Find("items"), slot9)
 		setActive(slot8, slot9)
 		setActive(slot7, slot5[1] <= slot0.shareData.player.level and not slot9)
 	end

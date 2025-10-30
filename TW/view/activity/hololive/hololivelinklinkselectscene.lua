@@ -31,17 +31,17 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.forNotchPanel = slot0:findTF("ForNotchPanel")
-	slot0.backBtn = slot0:findTF("BackBtn", slot0.forNotchPanel)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot0.forNotchPanel)
-	slot0.awardMask = slot0:findTF("AwardImg/Mask", slot0.forNotchPanel)
-	slot0.progressText = slot0:findTF("AwardImg/ProgressText", slot0.forNotchPanel)
-	slot0.getAwardBtn = slot0:findTF("AwardImg/GetBtn", slot0.forNotchPanel)
-	slot0.gotAwardBtn = slot0:findTF("AwardImg/GotBtn", slot0.forNotchPanel)
-	slot0.progressPanel = slot0:findTF("Progress", slot0.forNotchPanel)
-	slot0.lightPointContainer = slot0:findTF("Light", slot0.progressPanel)
-	slot0.lightLineContainer = slot0:findTF("LightLine", slot0.progressPanel)
-	slot0.entranceContainer = slot0:findTF("EntranceContainer")
+	slot0.forNotchPanel = slot0._tf:Find("ForNotchPanel")
+	slot0.backBtn = slot0.forNotchPanel:Find("BackBtn")
+	slot0.helpBtn = slot0.forNotchPanel:Find("HelpBtn")
+	slot0.awardMask = slot0.forNotchPanel:Find("AwardImg/Mask")
+	slot0.progressText = slot0.forNotchPanel:Find("AwardImg/ProgressText")
+	slot0.getAwardBtn = slot0.forNotchPanel:Find("AwardImg/GetBtn")
+	slot0.gotAwardBtn = slot0.forNotchPanel:Find("AwardImg/GotBtn")
+	slot0.progressPanel = slot0.forNotchPanel:Find("Progress")
+	slot0.lightPointContainer = slot0.progressPanel:Find("Light")
+	slot0.lightLineContainer = slot0.progressPanel:Find("LightLine")
+	slot0.entranceContainer = slot0._tf:Find("EntranceContainer")
 end
 
 slot0.initUI = function(slot0)
@@ -50,7 +50,7 @@ slot0.initUI = function(slot0)
 	eachChild(slot0.lightPointContainer, function (slot0)
 		table.insert(uv0.lightPointTFList, 1, slot0)
 		setActive(slot0, false)
-		setActive(uv0:findTF("Point", slot0), false)
+		setActive(slot0:Find("Point"), false)
 	end)
 	eachChild(slot0.lightLineContainer, function (slot0)
 		table.insert(uv0.lightLineTFList, 1, slot0)
@@ -61,9 +61,9 @@ slot0.initUI = function(slot0)
 		slot5 = slot0.entranceContainer:GetChild(slot4)
 
 		table.insert(slot0.entranceTFList, slot5)
-		setActive(slot0:findTF("Mask", slot5), true)
-		setActive(slot0:findTF("GotImg", slot5), false)
-		setActive(slot0:findTF("LockText", slot5), true)
+		setActive(slot5:Find("Mask"), true)
+		setActive(slot5:Find("GotImg"), false)
+		setActive(slot5:Find("LockText"), true)
 	end
 end
 
@@ -84,7 +84,7 @@ slot0.addListener = function(slot0)
 	onButton(slot0, slot0.helpBtn, slot4, slot5)
 
 	for slot4, slot5 in ipairs(slot0.entranceTFList) do
-		onButton(slot0, slot0:findTF("EntranceBtn", slot5), function ()
+		onButton(slot0, slot5:Find("EntranceBtn"), function ()
 			uv0.linkGameData:SetRuntimeData("curLinkGameID", uv1)
 			pg.m02:sendNotification(GAME.GO_MINI_GAME, uv2.HOLOLIVE_LINKGAME_ID)
 		end, SFX_PANEL)
@@ -97,7 +97,7 @@ slot0.updateProgressBar = function(slot0)
 			setActive(slot0.lightPointTFList[slot5], true)
 		end
 
-		setActive(slot0:findTF("Point", slot0.lightPointTFList[slot1]), true)
+		setActive(slot0.lightPointTFList[slot1]:Find("Point"), true)
 	end
 
 	if slot1 > 1 then
@@ -137,10 +137,10 @@ slot0.updateEntranceList = function(slot0)
 
 	for slot5 = 1, 8 do
 		slot6 = slot0.entranceTFList[slot5]
-		slot7 = slot0:findTF("Mask", slot6)
-		slot8 = slot0:findTF("GotImg", slot6)
+		slot7 = slot6:Find("Mask")
+		slot8 = slot6:Find("GotImg")
 
-		setText(slot0:findTF("LockText", slot6), slot0.linkGameData:GetConfigCsvLine(slot5).unlock_txt)
+		setText(slot6:Find("LockText"), slot0.linkGameData:GetConfigCsvLine(slot5).unlock_txt)
 
 		if slot5 <= slot1 then
 			setActive(slot7, false)

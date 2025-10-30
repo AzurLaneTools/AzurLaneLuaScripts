@@ -26,26 +26,26 @@ slot0.setColorGroups = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.topPanel = slot0:findTF("top")
-	slot0.btnBack = slot0:findTF("top/btnBack")
-	slot0.title = slot0:findTF("center/title_bar/text")
-	slot0.bg = slot0:findTF("center/board/container/bg")
-	slot0.painting = slot0:findTF("center/painting")
-	slot0.paintingCompleted = slot0:findTF("center/painting_completed")
+	slot0.topPanel = slot0.rtAdapt:Find("top")
+	slot0.btnBack = slot0.rtAdapt:Find("top/btnBack")
+	slot0.title = slot0.rtAdapt:Find("center/title_bar/text")
+	slot0.bg = slot0.rtAdapt:Find("center/board/container/bg")
+	slot0.painting = slot0.rtAdapt:Find("center/painting")
+	slot0.paintingCompleted = slot0.rtAdapt:Find("center/painting_completed")
 	slot0.zoom = slot0.bg:GetComponent("Zoom")
 	slot0.zoom.maxZoom = 3
-	slot0.cells = slot0:findTF("cells", slot0.bg)
-	slot0.cell = slot0:findTF("cell", slot0.bg)
-	slot0.lines = slot0:findTF("lines", slot0.bg)
-	slot0.line = slot0:findTF("line", slot0.bg)
-	slot0.btnHelp = slot0:findTF("top/btnHelp")
-	slot0.btnShare = slot0:findTF("top/btnShare")
-	slot0.colorgroupfront = slot0:findTF("center/colorgroupfront")
-	slot0.scrollColor = slot0:findTF("color_bar/scroll")
-	slot0.barExtra = slot0:findTF("color_bar/extra")
-	slot0.toggleEraser = slot0:findTF("eraser", slot0.barExtra)
-	slot0.btnEraserAll = slot0:findTF("eraser_all", slot0.barExtra)
-	slot0.arrowDown = slot0:findTF("arrow", slot0.barExtra)
+	slot0.cells = slot0.bg:Find("cells")
+	slot0.cell = slot0.bg:Find("cell")
+	slot0.lines = slot0.bg:Find("lines")
+	slot0.line = slot0.bg:Find("line")
+	slot0.btnHelp = slot0.rtAdapt:Find("top/btnHelp")
+	slot0.btnShare = slot0.rtAdapt:Find("top/btnShare")
+	slot0.colorgroupfront = slot0.rtAdapt:Find("center/colorgroupfront")
+	slot0.scrollColor = slot0.rtAdapt:Find("color_bar/scroll")
+	slot0.barExtra = slot0.rtAdapt:Find("color_bar/extra")
+	slot0.toggleEraser = slot0.barExtra:Find("eraser")
+	slot0.btnEraserAll = slot0.barExtra:Find("eraser_all")
+	slot0.arrowDown = slot0.barExtra:Find("arrow")
 
 	setActive(slot0.cell, false)
 	setActive(slot0.line, false)
@@ -53,14 +53,14 @@ slot0.init = function(slot0)
 end
 
 slot0.DidMediatorRegisterDone = function(slot0)
-	slot0.colorPlates = CustomIndexLayer.Clone2Full(slot0:findTF("content", slot0.scrollColor), #slot0.colorGroups[1]:getConfig("color_id_list"))
+	slot0.colorPlates = CustomIndexLayer.Clone2Full(slot0.scrollColor:Find("content"), #slot0.colorGroups[1]:getConfig("color_id_list"))
 	slot0.coloringUIGroupName = "ColoringUIGroupSize" .. #slot0.colorGroups
 
 	PoolMgr.GetInstance():GetUI(slot0.coloringUIGroupName, false, function (slot0)
-		slot3 = uv0
+		slot3 = uv0.rtAdapt
 		slot4 = slot3
 
-		setParent(slot0, slot3.findTF(slot4, "center"))
+		setParent(slot0, slot3.Find(slot4, "center"))
 		setAnchoredPosition(slot0, uv1)
 		tf(slot0):SetSiblingIndex(1)
 		setActive(slot0, true)
@@ -207,7 +207,7 @@ end
 
 slot0.SelectColoBar = function(slot0, slot1)
 	if slot0.selectedColorIndex ~= 0 and slot0.selectedColorIndex ~= slot1 then
-		slot3 = slot0:findTF("icon", slot0.colorPlates[slot0.selectedColorIndex])
+		slot3 = slot0.colorPlates[slot0.selectedColorIndex]:Find("icon")
 		slot4 = slot3.sizeDelta
 		slot4.x = uv0
 		slot3.sizeDelta = slot4
@@ -216,7 +216,7 @@ slot0.SelectColoBar = function(slot0, slot1)
 	slot0.selectedColorIndex = slot1
 
 	if slot0.selectedColorIndex ~= 0 then
-		slot3 = slot0:findTF("icon", slot0.colorPlates[slot0.selectedColorIndex])
+		slot3 = slot0.colorPlates[slot0.selectedColorIndex]:Find("icon")
 		slot4 = slot3.sizeDelta
 		slot4.x = uv1
 		slot3.sizeDelta = slot4

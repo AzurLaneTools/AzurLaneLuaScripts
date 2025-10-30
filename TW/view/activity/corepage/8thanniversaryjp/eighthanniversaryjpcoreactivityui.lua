@@ -9,9 +9,9 @@ slot0.optionsPath = {
 }
 
 slot0.CustomInit = function(slot0)
-	quickPlayAnimation(slot0:findTF("adapt/TopPage/top"), "Anim_SecretsAbyssCoreActivityUI_top_In")
-	setText(slot0:findTF("adapt/TopPage/top/deco/Text"), i18n("activity_ninjia_main_title"))
-	setText(slot0:findTF("adapt/TopPage/top/deco/Text/Text_1"), i18n("activity_ninjia_main_title_en"))
+	quickPlayAnimation(slot0._tf:Find("adapt/TopPage/top"), "Anim_SecretsAbyssCoreActivityUI_top_In")
+	setText(slot0._tf:Find("adapt/TopPage/top/deco/Text"), i18n("activity_ninjia_main_title"))
+	setText(slot0._tf:Find("adapt/TopPage/top/deco/Text/Text_1"), i18n("activity_ninjia_main_title_en"))
 end
 
 slot0.GetButtonNameText = function(slot0, slot1)

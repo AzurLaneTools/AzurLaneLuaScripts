@@ -5,16 +5,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
-	slot0.cancelBtn = slot0:findTF("window/button_container/cancel")
-	slot0.confirmBtn = slot0:findTF("window/button_container/confirm")
-	slot0.label1 = slot0:findTF("window/frame/Text"):GetComponent(typeof(Text))
-	slot0.leftItemTr = slot0:findTF("window/frame/left")
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.cancelBtn = slot0._tf:Find("window/button_container/cancel")
+	slot0.confirmBtn = slot0._tf:Find("window/button_container/confirm")
+	slot0.label1 = slot0._tf:Find("window/frame/Text"):GetComponent(typeof(Text))
+	slot0.leftItemTr = slot0._tf:Find("window/frame/left")
 	slot0.nameTxt = slot0.leftItemTr:Find("name_bg/Text"):GetComponent(typeof(Text))
 
 	setText(slot0.cancelBtn:Find("pic"), i18n("msgbox_text_cancel"))
 	setText(slot0.confirmBtn:Find("pic"), i18n("msgbox_text_confirm"))
-	setText(slot0:findTF("window/top/bg/infomation/title"), i18n("words_information"))
+	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("words_information"))
 end
 
 slot0.OnInit = function(slot0)

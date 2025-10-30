@@ -450,6 +450,10 @@ slot0.nextPage = function(slot0, slot1, slot2)
 			-- Nothing
 		end
 
+		if slot0.viewComponent:checkToggleActive(slot7) == false then
+			slot7 = ShipViewConst.PAGE.DETAIL
+		end
+
 		slot0.viewComponent:gotoPage(slot7)
 		slot0.viewComponent:switchToPage(slot7, true)
 	end

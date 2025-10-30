@@ -107,30 +107,31 @@ end
 
 slot0.displayLotteryAni = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getIndexByNumbers(slot2)
-	slot6 = slot0:findTF("omikuji_anim", findTF(slot0._tf, "lottery"))
+	slot5 = findTF(slot0._tf, "lottery")
+	slot6 = slot5:Find("omikuji_anim")
 	slot6 = slot6:GetComponent(typeof(DftAniEvent))
 
 	slot6:SetEndEvent(function (slot0)
 		setActive(uv0.gameObject, false)
 
-		slot1 = uv1:findTF("omikuji_result", uv2)
+		slot1 = uv1:Find("omikuji_result")
 
 		setActive(slot1, true)
 
-		for slot6 = 1, uv1:findTF("title", slot1).childCount do
-			setActive(slot2:GetChild(slot6 - 1), slot6 == uv3)
+		for slot6 = 1, slot1:Find("title").childCount do
+			setActive(slot2:GetChild(slot6 - 1), slot6 == uv2)
 		end
 
-		setText(uv1:findTF("desc", slot1), i18n("draw_" .. ({
+		setText(slot1:Find("desc"), i18n("draw_" .. ({
 			"big",
 			"medium",
 			"little"
-		})[uv3] .. "_luck_" .. math.random(1, 3)))
-		setActive(uv1:findTF("award", slot1), false)
-		removeAllChildren(uv1:findTF("award_list", slot1))
+		})[uv2] .. "_luck_" .. math.random(1, 3)))
+		setActive(slot1:Find("award"), false)
+		removeAllChildren(slot1:Find("award_list"))
 
-		if uv4 then
-			for slot11, slot12 in ipairs(uv4) do
+		if uv3 then
+			for slot11, slot12 in ipairs(uv3) do
 				slot13 = cloneTplTo(slot6, slot7)
 
 				updateDrop(slot13, {
@@ -138,16 +139,16 @@ slot0.displayLotteryAni = function(slot0, slot1, slot2, slot3)
 					id = slot12.id,
 					count = slot12.count
 				})
-				onButton(uv1, slot13, function ()
+				onButton(uv4, slot13, function ()
 					uv0:emit(BaseUI.ON_DROP, uv1)
 				end, SFX_PANEL)
 			end
 		end
 
-		slot8 = uv1
+		slot8 = uv4
 
 		slot8:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
-		onButton(uv1, slot1, function ()
+		onButton(uv4, slot1, function ()
 			setActive(uv0, false)
 			uv1()
 		end)
@@ -161,21 +162,28 @@ slot0.bobingUpdate = function(slot0)
 
 	if not slot0.bobingWrap then
 		slot3 = {
-			bg = slot0:findTF("AD", slot0._tf),
-			progress = slot0:findTF("award/nums", slot2),
-			get = slot0:findTF("award/get", slot2),
-			nums = slot0:findTF("nums/text", slot2),
-			bowlDisable = slot0:findTF("bowl_disable", slot2),
-			bowlEnable = slot0:findTF("bowl_enable", slot2)
+			bg = slot4:Find("AD"),
+			progress = slot2:Find("award/nums"),
+			get = slot2:Find("award/get"),
+			nums = slot2:Find("nums/text"),
+			bowlDisable = slot2:Find("bowl_disable"),
+			bowlEnable = slot2:Find("bowl_enable")
 		}
-		slot3.bowlShine = slot0:findTF("bowl_shine", slot3.bowlEnable)
-		slot3.btnRule = slot0:findTF("btnRule", slot2)
-		slot3.layerRule = slot0:findTF("rule", slot2)
-		slot3.btnReturn = slot0:findTF("btnReturn", slot3.layerRule)
-		slot3.item = slot0:findTF("item", slot3.layerRule)
-		slot3.top = slot0:findTF("top", slot3.layerRule)
-		slot3.itemRow = slot0:findTF("row", slot3.layerRule)
-		slot3.itemColumn = slot0:findTF("column", slot3.layerRule)
+		slot4 = slot0._tf
+		slot4 = slot3.bowlEnable
+		slot3.bowlShine = slot4:Find("bowl_shine")
+		slot3.btnRule = slot2:Find("btnRule")
+		slot3.layerRule = slot2:Find("rule")
+		slot4 = slot3.layerRule
+		slot3.btnReturn = slot4:Find("btnReturn")
+		slot4 = slot3.layerRule
+		slot3.item = slot4:Find("item")
+		slot4 = slot3.layerRule
+		slot3.top = slot4:Find("top")
+		slot4 = slot3.layerRule
+		slot3.itemRow = slot4:Find("row")
+		slot4 = slot3.layerRule
+		slot3.itemColumn = slot4:Find("column")
 
 		setActive(slot3.layerRule, false)
 		setActive(slot3.item, false)
@@ -262,9 +270,9 @@ slot0.bobingUpdate = function(slot0)
 end
 
 slot0.displayBBAnim = function(slot0, slot1)
-	slot2 = slot0:findTF("bobing/bb_anim")
-	slot3 = slot0:findTF("ship", slot2)
-	slot4 = slot0:findTF("bowl", slot2)
+	slot2 = slot0._tf:Find("bobing/bb_anim")
+	slot3 = slot2:Find("ship")
+	slot4 = slot2:Find("bowl")
 
 	if not slot0.animBowl then
 		slot0.animBowl = slot4:GetComponent(typeof(SpineAnimUI))
@@ -312,16 +320,16 @@ end
 slot0.displayBBResult = function(slot0, slot1, slot2, slot3)
 	slot0.animation = findTF(slot0._tf, "bobing")
 
-	setActive(slot0:findTF("bb_anim", slot0.animation), false)
+	setActive(slot0.animation:Find("bb_anim"), false)
 
-	slot4 = slot0:findTF("bb_result", slot0.animation)
-	slot5 = slot0:findTF("numbers", slot4)
-	slot7 = slot0:findTF("rank", slot4)
-	slot8 = slot0:findTF("bgRank", slot4)
+	slot4 = slot0.animation:Find("bb_result")
+	slot5 = slot4:Find("numbers")
+	slot7 = slot4:Find("rank")
+	slot8 = slot4:Find("bgRank")
 
-	setActive(slot0:findTF("number", slot4), false)
-	setActive(slot0:findTF("award", slot4), false)
-	removeAllChildren(slot0:findTF("award_list", slot4))
+	setActive(slot4:Find("number"), false)
+	setActive(slot4:Find("award"), false)
+	removeAllChildren(slot4:Find("award_list"))
 
 	if slot1 then
 		for slot14, slot15 in ipairs(slot1) do
@@ -378,7 +386,7 @@ slot0.displayBBResult = function(slot0, slot1, slot2, slot3)
 			uv0.localScale = Vector3.Lerp(Vector3(2, 2, 2), Vector3.one, slot0)
 		end))
 
-		slot15 = slot0:findTF("rank_p", slot4) or cloneTplTo(slot7, slot4, "rank_p")
+		slot15 = slot4:Find("rank_p") or cloneTplTo(slot7, slot4, "rank_p")
 
 		slot0:setSpriteTo("bobing/bb_icon/rank" .. slot12, slot15)
 		slot0:setSpriteTo("bobing/bb_icon/rank" .. slot12, slot7)
@@ -403,7 +411,7 @@ slot0.displayBBResult = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.setSpriteTo = function(slot0, slot1, slot2, slot3)
-	slot2:GetComponent(typeof(Image)).sprite = slot0:findTF(slot1):GetComponent(typeof(Image)).sprite
+	slot2:GetComponent(typeof(Image)).sprite = slot0._tf:Find(slot1):GetComponent(typeof(Image)).sprite
 
 	if slot3 then
 		slot4:SetNativeSize()

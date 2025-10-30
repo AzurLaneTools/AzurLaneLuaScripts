@@ -549,8 +549,6 @@ slot0.initNotificationHandleDic = function(slot0)
 			if slot1:getBody().context.mediator == VoteFameHallMediator then
 				slot0.viewComponent:updateEntrances()
 			end
-
-			slot0.viewComponent:removeLayers()
 		end,
 		[GAME.MONOPOLY_AWARD_DONE] = function (slot0, slot1)
 			slot2 = slot1:getBody()
@@ -590,11 +588,6 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[GAME.MEMORYBOOK_UNLOCK_AWARD_DONE] = function (slot0, slot1)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards)
-		end,
-		[GAME.LOAD_LAYERS] = function (slot0, slot1)
-			slot2 = slot1:getBody()
-
-			slot0.viewComponent:loadLayers()
 		end,
 		[GAME.CHARGE_SUCCESS] = function (slot0, slot1)
 			slot0.viewComponent:updateTaskLayers()

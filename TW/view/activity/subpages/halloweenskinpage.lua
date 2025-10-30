@@ -1,10 +1,10 @@
 slot0 = class("HalloweenSkinPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.stage = slot0:findTF("AD/Text"):GetComponent(typeof(Text))
-	slot0.goBtn = slot0:findTF("AD/go_btn")
-	slot0.gotBtn = slot0:findTF("AD/got_btn")
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.stage = slot0._tf:Find("AD/Text"):GetComponent(typeof(Text))
+	slot0.goBtn = slot0._tf:Find("AD/go_btn")
+	slot0.gotBtn = slot0._tf:Find("AD/got_btn")
 end
 
 slot0.OnFirstFlush = function(slot0)

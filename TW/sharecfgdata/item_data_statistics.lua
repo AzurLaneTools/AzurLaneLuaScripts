@@ -9763,6 +9763,192 @@ _G.pg.base.item_data_statistics[13048] = {
 }
 
 
+_G.pg.base.item_data_statistics[13049] = {
+	open_directly = 0,
+	name = "試作型四聯裝305mmSKC39主炮T0設計圖",
+	type = 9,
+	display = "試作型四聯裝305mmSKC39主炮T0設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/44320",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13049,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13050] = {
+	open_directly = 0,
+	name = "試作型三聯裝283mm/54.5主炮T0設計圖",
+	type = 9,
+	display = "試作型三聯裝283mm/54.5主炮T0設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/44420",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13050,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13051] = {
+	open_directly = 0,
+	name = "試作型三聯裝406mm/45主炮Mk7T0設計圖",
+	type = 9,
+	display = "試作型三聯裝406mm/45主炮Mk7T0設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/14480",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13051,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13052] = {
+	open_directly = 0,
+	name = "試作型六聯裝Scotti20mm機炮Model1941T0設計圖",
+	type = 9,
+	display = "試作型六聯裝Scotti20mm機炮Model1941T0設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/56260",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13052,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13053] = {
+	open_directly = 0,
+	name = "試作型四聯裝533毫米魚雷Si 270T0設計圖",
+	type = 9,
+	display = "試作型四聯裝533毫米魚雷Si 270T0設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/56280",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13053,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13054] = {
+	open_directly = 0,
+	name = "試作型B-1-P 三聯裝180mm主炮Model1932改T0設計圖",
+	type = 9,
+	display = "試作型B-1-P 三聯裝180mm主炮Model1932改T0設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/85640",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13054,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[14001] = {
 	open_directly = 0,
 	name = "原型科研圖紙·S-I",
@@ -17720,6 +17906,37 @@ _G.pg.base.item_data_statistics[30206] = {
 		1,
 		100
 	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30207] = {
+	open_directly = 0,
+	name = "薩丁裝備研發支援箱",
+	type = 5,
+	display = "包含一件稀有的薩丁裝備研發初始裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/30207",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30207",
+	id = 30207,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
@@ -43496,6 +43713,122 @@ _G.pg.base.item_data_statistics[40061] = {
 }
 
 
+_G.pg.base.item_data_statistics[40062] = {
+	open_directly = 1,
+	name = "最高方案研發禮包(五期)·高級版",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech5_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4063",
+	id = 40062,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40140,
+			1
+		},
+		{
+			2,
+			42040,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40063] = {
+	open_directly = 1,
+	name = "最高方案研發禮包(五期)·標準版",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech5_normal",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4064",
+	id = 40063,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40140,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40064] = {
+	open_directly = 1,
+	name = "最高方案研發禮包(五期)·升級版",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech5_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4065",
+	id = 40064,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42040,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40065] = {
 	open_directly = 1,
 	name = "忍者之城主題禮包(基礎版)",
@@ -45290,6 +45623,83 @@ _G.pg.base.item_data_statistics[40139] = {
 		{
 			ship_unlock,
 			69901
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[40140] = {
+	open_directly = 0,
+	name = "最高方案快速研​​發券·五期",
+	type = 17,
+	display = [[
+可於科研-開發船塢介面，從{namecode:484}、{namecode:224}、契卡洛夫中選擇並獲得一位等級與科研等級均為1級的角色
+<color=#92fc63>上述角色全部獲得時</color>，在倉庫中使用此道具將會獲得：
+科研測試數據·五期*300
+定向改造圖紙T3*5
+定向改造圖紙T2*10
+心智魔方*5
+物資*20000]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/research5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4210",
+	id = 40140,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20105,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {
+		{
+			ship_unlock,
+			49907
+		},
+		{
+			ship_unlock,
+			59901
+		},
+		{
+			ship_unlock,
+			79901
 		}
 	}
 }
@@ -71440,6 +71850,672 @@ _G.pg.base.item_data_statistics[42066] = {
 	shiptrans_id = {},
 	combination_display = {},
 	usage_arg = {
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42070] = {
+	open_directly = 0,
+	name = "定向藍圖・八期",
+	type = 13,
+	display = "使用後可從第一期、第二期、第三期、第四期、第五期、第六期、第七期、第八期方案艦的最高方案藍圖中任意選擇一張",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42070",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42070,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42071,
+			1
+		},
+		{
+			2,
+			42073,
+			1
+		},
+		{
+			2,
+			42074,
+			1
+		},
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			42071,
+			1
+		},
+		{
+			2,
+			42073,
+			1
+		},
+		{
+			2,
+			42074,
+			1
+		},
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42071] = {
+	open_directly = 0,
+	name = "藍圖：堪薩斯",
+	type = 12,
+	display = "白鷹戰列「堪薩斯」的設計藍圖。\n<color=#92fc63>獲得「堪薩斯」後，可在「開發船塢」中用於增強「堪薩斯」的能力。</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42071",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42071,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42072] = {
+	open_directly = 0,
+	name = "藍圖：{namecode:550}",
+	type = 12,
+	display = "鐵血戰列「{namecode:550}」的設計藍圖。\n<color=#92fc63>獲得「{namecode:550}」後，可在「開發船塢」中用於增強「{namecode:550}」的能力。</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42072",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42072,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42073] = {
+	open_directly = 0,
+	name = "藍圖：維托里奧·庫尼貝爾蒂",
+	type = 12,
+	display = "薩丁驅逐「維托里奧·庫尼貝爾蒂」的設計藍圖。\n<color=#92fc63>獲得「維托里奧·庫尼貝爾蒂」後，可在「開發船塢」中用於增強「維托里奧·庫尼貝爾蒂」的能力。</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42073",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42073,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42074] = {
+	open_directly = 0,
+	name = "藍圖：迪米特里·頓斯科伊",
+	type = 12,
+	display = "北聯巡洋「德米特里·頓斯科伊」的設計藍圖。\n<color=#92fc63>獲得「德米特里·頓斯科伊」後，可在「開發船塢」中用於增強「德米特里·頓斯科伊」的能力。</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42074",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42074,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42075] = {
+	open_directly = 0,
+	name = "藍圖：金獅",
+	type = 12,
+	display = "鬱金巡洋「金獅」的設計藍圖。\n<color=#92fc63>獲得「金獅」後，可在「開發船塢」中用於增強「金獅」的能力。</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42075",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42075,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42076] = {
+	open_directly = 0,
+	name = "高級定向藍圖・八期",
+	type = 13,
+	display = "使用後可從第二期、第三期、第四期、第五期、第六期、第七期、第八期方案艦的決戰方案藍圖中任意選擇一張",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42076",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42076,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42072,
+			1
+		},
+		{
+			2,
+			42075,
+			1
+		},
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			42072,
+			1
+		},
+		{
+			2,
+			42075,
+			1
+		},
 		{
 			2,
 			42063,

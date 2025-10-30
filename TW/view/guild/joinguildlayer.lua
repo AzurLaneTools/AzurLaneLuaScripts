@@ -14,26 +14,39 @@ slot0.setPlayerVO = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.guildViewRect = slot0:findTF("add_panel/view")
-	slot0.refreshBtn = slot0:findTF("add_panel/center/refresh")
-	slot0.searchBtn = slot0:findTF("add_panel/center/search")
-	slot1 = slot0:findTF("add_panel/center/search_bar")
+	slot1 = slot0._tf
+	slot0.guildViewRect = slot1:Find("add_panel/view")
+	slot1 = slot0._tf
+	slot0.refreshBtn = slot1:Find("add_panel/center/refresh")
+	slot1 = slot0._tf
+	slot0.searchBtn = slot1:Find("add_panel/center/search")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("add_panel/center/search_bar")
 	slot0.searchBar = slot1:GetComponent(typeof(InputField))
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
-	slot0.sortBtn = slot0:findTF("add_panel/center/sort_button")
-	slot0.sortBtnContainer = slot0:findTF("add_panel/sort_panel/mask/content")
+	slot1 = slot0._tf
+	slot0.backBtn = slot1:Find("blur_panel/adapt/top/back")
+	slot1 = slot0._tf
+	slot0.sortBtn = slot1:Find("add_panel/center/sort_button")
+	slot1 = slot0._tf
+	slot0.sortBtnContainer = slot1:Find("add_panel/sort_panel/mask/content")
 	slot0.sortBtnTpl = slot0:getTpl("add_panel/sort_panel/mask/content/tpl")
-	slot0.sortPanel = slot0:findTF("add_panel/sort_panel")
+	slot1 = slot0._tf
+	slot0.sortPanel = slot1:Find("add_panel/sort_panel")
 	slot0.applyRedPage = GuildApplyRedPage.New(slot0._tf, slot0.event)
 	slot0.applyBluePage = GuildApplyBluePage.New(slot0._tf, slot0.event)
-	slot0.listEmptyTF = slot0:findTF("empty")
+	slot1 = slot0._tf
+	slot0.listEmptyTF = slot1:Find("empty")
 
 	setActive(slot0.listEmptyTF, false)
 
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot1 = slot0.listEmptyTF
+	slot0.listEmptyTxt = slot1:Find("Text")
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_joinguildui"))
-	setText(slot0:findTF("tip"), uv0)
+
+	slot2 = slot0._tf
+
+	setText(slot2:Find("tip"), uv0)
 
 	slot1 = slot0.guildViewRect
 	slot0.viewRect = slot1:GetComponent("LScrollRect")
@@ -195,7 +208,7 @@ slot0.filter = function(slot0, slot1)
 	if not slot1 and not slot0.contextData.filterData or #slot2 < 2 then
 		slot0.sortVOs = slot0.guildVOs or {}
 
-		setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/joinguildui_atlas", "index_all"), true)
+		setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/joinguildui_atlas", "index_all"), true)
 	else
 		for slot6, slot7 in ipairs(slot0.guildVOs) do
 			if slot7[slot2[2][1]] == slot2[2][2] then
@@ -203,7 +216,7 @@ slot0.filter = function(slot0, slot1)
 			end
 		end
 
-		setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/joinguildui_atlas", slot2[1]), true)
+		setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/joinguildui_atlas", slot2[1]), true)
 	end
 
 	slot3 = _.all(slot0.sortVOs, function (slot0)

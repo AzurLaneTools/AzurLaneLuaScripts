@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"受选者之路\n\n<size=45>圣座冕下</size>",
+					"受選者之路\n\n<size=45>7.聖座冕下</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我自天国而归，我自云端而还。",
+			say = "我自天國而歸，我自雲端而還。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我行走在城市之中，感受着人间的古典与秩序。",
+			say = "我行走在城市之中，感受人間的古典與秩序。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我行走在街道之中，感受着人间的生命与活力。",
+			say = "我行走在街道之中，感受人間的生命與活力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我行走在教堂之中，感受着人间的肃穆与庄重。",
+			say = "我行走在教堂之中，感受人間的肅穆與莊重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于，旅途结束了。",
+			say = "終於，旅途結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			say = "撒丁教国·首都",
 			sequence = {
 				{
-					"撒丁教国·首都",
+					"薩丁教國·首都",
 					1
 				},
 				{
@@ -124,7 +124,7 @@ return {
 			bgm = "story-theme-sardinia",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明媚的阳光下，广场之上人山人海。",
+			say = "明媚的陽光下，廣場之上人山人海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "想象中的喧嚣不曾出现，所有人都面带凝重的注视着大教堂的阳台，静静等待着什么。",
+			say = "想像中的喧囂不曾出現，所有人都面帶凝重的注視著大教堂的陽台，靜靜等待著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "“有身影出现了！”，人群中有声音说道。",
+			say = "「有身影出現了！」，人群中有聲音說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "“啊，我看到了……冠冕，权杖，没错，一定是她！”，另一个声音说道。",
+			say = "「啊，我看到了……冠冕，權杖，沒錯，一定是她！」，另一個聲音說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "“圣座冕下出来了！”，越来越多的声音说道。",
+			say = "「聖座冕下出來了！」，越來越多的聲音說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "一时间，城市中的钟声一同响起，人群也沸腾了起来。",
+			say = "一時間，城市中的鐘聲一同響起，人群也沸騰了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "新任圣座冕下与群众见面的时刻终于到了——",
+			say = "新任聖座冕下與群眾見面的時刻終於到了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_541",
-			say = "同一时间，大教堂的阳台之上，新任圣座冕下在万众瞩目中睁开了双眼。",
+			say = "同一時間，大教堂的陽台之上，新任聖座冕下在萬眾矚目中睜開了雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……怎么这么多人在看我？",
+			say = "……怎麼這麼多人在看我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是梦么……？",
+			say = "這是夢嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是梦吧……？",
+			say = "這是夢吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "新任圣座冕下闭上双眼，略作沉思，再次睁开。",
+			say = "新任聖座冕下閉上雙眼，略作沉思，再次睜開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "眼见得景色毫无变化，或者说，眼前的景色比几秒前又热烈了几分。",
+			say = "眼見景色毫無變化，或者說，眼前的景色比幾秒前又熱烈了幾分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不是梦。",
+			say = "……不是夢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不是梦？！那这是什么情况！？！",
+			say = "……不是夢？！那這是什麼情況！？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……圣座冕下？",
+			say = "……聖座冕下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……谁？",
+			say = "……誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"——未完待续",
+					"——未完待續",
 					1
 				}
 			},

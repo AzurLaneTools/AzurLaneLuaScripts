@@ -159,7 +159,7 @@ slot0.initMv = function(slot0)
 end
 
 slot0.UpdateTask = function(slot0, slot1, slot2)
-	slot4 = slot0:findTF("itemMask/item", slot2)
+	slot4 = slot2:Find("itemMask/item")
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
 
 	assert(slot6, "without this task by id: " .. slot5)
@@ -178,18 +178,18 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot9 = slot6:getProgress()
 	slot10 = slot6:getConfig("target_num")
 
-	setText(slot0:findTF("description", slot2), slot6:getConfig("desc"))
+	setText(slot2:Find("description"), slot6:getConfig("desc"))
 
 	slot11, slot12 = slot0:GetProgressColor()
 
-	setText(slot0:findTF("progressText", slot2), (slot11 and setColorStr(slot9, slot11) or slot9) .. (slot12 and setColorStr("/" .. slot10, slot12) or "/" .. slot10))
-	setSlider(slot0:findTF("progress", slot2), 0, slot10, slot9)
+	setText(slot2:Find("progressText"), (slot11 and setColorStr(slot9, slot11) or slot9) .. (slot12 and setColorStr("/" .. slot10, slot12) or "/" .. slot10))
+	setSlider(slot2:Find("progress"), 0, slot10, slot9)
 
-	slot14 = slot0:findTF("get_btn", slot2)
+	slot14 = slot2:Find("get_btn")
 
-	setActive(slot0:findTF("go_btn", slot2), slot6:getTaskStatus() == 0)
+	setActive(slot2:Find("go_btn"), slot6:getTaskStatus() == 0)
 	setActive(slot14, slot16 == 1)
-	setActive(slot0:findTF("got_btn", slot2), slot16 == 2)
+	setActive(slot2:Find("got_btn"), slot16 == 2)
 	onButton(slot0, slot13, function ()
 		uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)
@@ -199,7 +199,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 
 	slot20 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot19)
 
-	onButton(slot0, slot0:findTF("get_btn", slot2), function ()
+	onButton(slot0, slot2:Find("get_btn"), function ()
 		if uv0.nday <= uv1 then
 			uv0.mvIndex = uv0.nday
 
@@ -216,7 +216,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv2)
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("got_btn", slot2), function ()
+	onButton(slot0, slot2:Find("got_btn"), function ()
 		uv0:displayWindow(true)
 	end, SFX_PANEL)
 end

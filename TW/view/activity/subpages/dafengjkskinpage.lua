@@ -1,12 +1,12 @@
 slot0 = class("DaFengJKSkinPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.getBtn = slot0:findTF("available", slot0.bg)
-	slot0.unavailableTF = slot0:findTF("unavailable", slot0.bg)
-	slot0.phaseTF = slot0:findTF("phase", slot0.bg)
-	slot0.item = slot0:findTF("item", slot0.bg)
-	slot0.items = slot0:findTF("items", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.getBtn = slot0.bg:Find("available")
+	slot0.unavailableTF = slot0.bg:Find("unavailable")
+	slot0.phaseTF = slot0.bg:Find("phase")
+	slot0.item = slot0.bg:Find("item")
+	slot0.items = slot0.bg:Find("items")
 	slot0.itemList = UIItemList.New(slot0.items, slot0.item)
 end
 
@@ -25,10 +25,9 @@ slot0.OnFirstFlush = function(slot0)
 		assert(uv0.taskProxy:getTaskById(uv0.taskList[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot3), "without this task by id: " .. slot3)
 
 		if slot0 == UIItemList.EventInit then
-			slot5 = uv0
 			slot6 = slot4:getConfig("award_display")[1]
 
-			updateDrop(slot5:findTF("item", slot2), {
+			updateDrop(slot2:Find("item"), {
 				type = slot6[1],
 				id = slot6[2],
 				count = slot6[3]
@@ -41,7 +40,7 @@ slot0.OnFirstFlush = function(slot0)
 		end
 
 		if slot0 == UIItemList.EventUpdate then
-			setActive(uv0:findTF("got", slot2), slot4:getTaskStatus() == 2)
+			setActive(slot2:Find("got"), slot4:getTaskStatus() == 2)
 		end
 	end)
 	onButton(slot0, slot0.getBtn, function ()

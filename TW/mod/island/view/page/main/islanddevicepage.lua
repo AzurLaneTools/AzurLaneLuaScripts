@@ -152,6 +152,7 @@ slot0.OnDisable = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:OnHide()
 	slot0:RemoveTimer()
 	slot0.systemTimeUtil:Dispose()
 

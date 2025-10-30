@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.shipTpl = slot0:findTF("window/content/ships/itemtpl")
-	slot0.contentTxt = slot0:findTF("window/content/Text"):GetComponent(typeof(Text))
-	slot0.cntTxt = slot0:findTF("window/content/count"):GetComponent(typeof(Text))
-	slot0.confirmBtn = slot0:findTF("window/confirm_btn")
+	slot0.shipTpl = slot0._tf:Find("window/content/ships/itemtpl")
+	slot0.contentTxt = slot0._tf:Find("window/content/Text"):GetComponent(typeof(Text))
+	slot0.cntTxt = slot0._tf:Find("window/content/count"):GetComponent(typeof(Text))
+	slot0.confirmBtn = slot0._tf:Find("window/confirm_btn")
 
 	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("title_info"))
 	setText(slot0.confirmBtn:Find("pic"), i18n("word_take"))

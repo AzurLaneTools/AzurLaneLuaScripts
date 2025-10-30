@@ -8,25 +8,28 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("back")
-	slot0.uiSlots = UIItemList.New(slot0:findTF("frame/list"), slot0:findTF("frame/list/tpl"))
-	slot0.onekeySlots = UIItemList.New(slot0:findTF("list_1"), slot0:findTF("list_1/onekey"))
-	slot0.switchBtn = slot0:findTF("frame/switch")
+	slot0.backBtn = slot0._tf:Find("back")
+	slot0.uiSlots = UIItemList.New(slot0._tf:Find("frame/list"), slot0._tf:Find("frame/list/tpl"))
+	slot0.onekeySlots = UIItemList.New(slot0._tf:Find("list_1"), slot0._tf:Find("list_1/onekey"))
+	slot0.switchBtn = slot0._tf:Find("frame/switch")
 	slot0.cards = {}
 	slot0.loadUpPage = IslandShipOrderLoadUpPage.New(slot0._tf, slot0.event)
 	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0.uilistAniamtion = slot0._tf:Find("frame/list"):GetComponent(typeof(Animation))
 
-	setText(slot0:findTF("frame/switch/on/Text"), i18n("island_order_ship_page_req"))
-	setText(slot0:findTF("frame/switch/off/Text"), i18n("island_order_ship_page_award"))
-	setText(slot0:findTF("list_1/onekey/btn/Text"), i18n("island_order_ship_page_onekey_loadup"))
+	setText(slot0._tf:Find("frame/switch/on/Text"), i18n("island_order_ship_page_req"))
+	setText(slot0._tf:Find("frame/switch/off/Text"), i18n("island_order_ship_page_award"))
+	setText(slot0._tf:Find("list_1/onekey/btn/Text"), i18n("island_order_ship_page_onekey_loadup"))
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("frame/help"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_ship_order.tip
@@ -44,11 +47,39 @@ end
 slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_SHIP_ORDER_OP_DONE, slot0.OnOrderUpdate)
 	slot0:AddListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
+	slot0:AddListener(GAME.ISLAND_REFRESH_SHIP_ORDER_DONE, slot0.OnRefreshOrder)
+	slot0:AddListener(IslandShipOrderCard.EVENT_CD_END, slot0.OnOrderReloadingEnd)
 end
 
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_SHIP_ORDER_OP_DONE, slot0.OnOrderUpdate)
 	slot0:RemoveListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
+	slot0:RemoveListener(GAME.ISLAND_REFRESH_SHIP_ORDER_DONE, slot0.OnRefreshOrder)
+	slot0:RemoveListener(IslandShipOrderCard.EVENT_CD_END, slot0.OnOrderReloadingEnd)
+end
+
+slot0.OnOrderReloadingEnd = function(slot0)
+	slot0:UpdateOnekeyBtns()
+end
+
+slot0.OnRefreshOrder = function(slot0, slot1)
+	slot2 = slot1.id
+	slot3 = nil
+
+	for slot7, slot8 in pairs(slot0.cards) do
+		if slot8.slot.id == slot2 then
+			slot3 = slot8
+
+			break
+		end
+	end
+
+	if not slot3 then
+		return
+	end
+
+	slot3:Flush(slot3.slot, slot0.mode)
+	slot0:UpdateOnekeyBtns()
 end
 
 slot0.OnOrderUpdate = function(slot0, slot1)
@@ -91,7 +122,7 @@ slot0.OnOrderUpdate = function(slot0, slot1)
 end
 
 slot0.OnUseTicketDone = function(slot0, slot1)
-	if slot1.type == IslandUseTicketCommand.TYPES.SHIP_ORDER then
+	if slot1.type == IslandUseTicketCommand.TYPES.SHIP_ORDER or slot1.type == IslandUseTicketCommand.TYPES.SHIP_ORDER_RELOAD then
 		slot2 = slot1.id
 		slot3 = nil
 
@@ -108,6 +139,7 @@ slot0.OnUseTicketDone = function(slot0, slot1)
 		end
 
 		slot3:Flush(slot3.slot, slot0.mode)
+		slot0:UpdateOnekeyBtns()
 	end
 end
 
@@ -175,9 +207,7 @@ end
 slot0.UpdateOnekeyBtns = function(slot0)
 	slot0.onekeySlots:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0.displays[slot1 + 1]
-
-			setActive(slot2:Find("btn"), slot4:IsWaiting())
+			setActive(slot2:Find("btn"), uv0.displays[slot1 + 1]:IsWaiting() and not slot4:IsReloading())
 
 			slot5 = slot4:IsWaiting() and not slot4:GetOrder():AnyCanLoadUp()
 
@@ -185,7 +215,11 @@ slot0.UpdateOnekeyBtns = function(slot0)
 
 			if not slot5 then
 				onButton(uv0, slot3, function ()
-					uv0:emit(IslandMediator.SUBMIT_SHIP_ORDER_ITME_ONEKEY, uv1.id)
+					if uv0:IsReloading() then
+						return
+					end
+
+					uv1:emit(IslandMediator.SUBMIT_SHIP_ORDER_ITME_ONEKEY, uv0.id)
 				end, SFX_PANEL)
 			else
 				removeOnButton(slot3)
@@ -196,7 +230,7 @@ slot0.UpdateOnekeyBtns = function(slot0)
 end
 
 slot0.UpdateSlot = function(slot0, slot1, slot2)
-	slot3 = slot0.cards[slot2] or IslandShipOrderCard.New(slot2)
+	slot3 = slot0.cards[slot2] or IslandShipOrderCard.New(slot2, slot0)
 
 	slot3:Flush(slot1, slot0.mode)
 	onButton(slot0, slot3.getBtn, function ()
@@ -207,6 +241,24 @@ slot0.UpdateSlot = function(slot0, slot1, slot2)
 	end, SFX_PANEL)
 	onButton(slot0, slot3.loadingRequest, function ()
 		uv0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.SHIP_ORDER, uv1.slot.id)
+	end, SFX_PANEL)
+	onButton(slot0, slot3.refreshBtn, function ()
+		if not uv0:CanRefresh() then
+			uv1:ShowMsgBox({
+				hideNo = true,
+				content = i18n("island_shiporder_refresh_tip1")
+			})
+		else
+			uv1:ShowMsgBox({
+				content = i18n("island_shiporder_refresh_tip2"),
+				onYes = function ()
+					uv0:emit(IslandMediator.REFRESH_SHIP_ORDER, uv1.slot.id)
+				end
+			})
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot3.reloadingTr, function ()
+		uv0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.SHIP_ORDER_RELOAD, uv1.slot.id)
 	end, SFX_PANEL)
 	onNextTick(function ()
 		uv0:RegisterCardEvent(uv1)

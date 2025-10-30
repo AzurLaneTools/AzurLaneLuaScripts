@@ -5,10 +5,10 @@ slot0.getTargetUI = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.rectView = slot0:findTF("scroll")
+	slot0.rectView = slot0._tf:Find("scroll")
 	slot0.rectRect = slot0.rectView:GetComponent("LScrollRect")
-	slot0.rankBtn = slot0:findTF("rank")
-	slot0.blurBg = slot0:findTF("blur_bg", slot0._tf)
+	slot0.rankBtn = slot0._tf:Find("rank")
+	slot0.blurBg = slot0._tf:Find("blur_bg")
 end
 
 slot0.OnInit = function(slot0)

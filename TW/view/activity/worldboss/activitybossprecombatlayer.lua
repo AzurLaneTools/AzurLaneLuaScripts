@@ -15,7 +15,7 @@ slot0.init = function(slot0)
 	slot0._ticket = slot0._startBtn:Find("ticket")
 	slot0._bonus = slot0._startBtn:Find("bonus")
 	slot0._costTip = slot0._startBtn:Find("cost_container/popup/tip")
-	slot0._continuousBtn = slot0:findTF("right/multiple")
+	slot0._continuousBtn = slot0._tf:Find("right/multiple")
 
 	setText(slot0._continuousBtn:Find("text"), i18n("multiple_sorties_title"))
 	setText(slot0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))

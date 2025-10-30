@@ -429,6 +429,17 @@ pg.fleet_tech_ship_class = {
 			10517
 		}
 	},
+	[10509] = {
+		shiptype = 5,
+		name = "堪薩斯",
+		t_level = 8,
+		id = 10509,
+		t_level_1 = 1,
+		nation = 1,
+		ships = {
+			19906
+		}
+	},
 	[10601] = {
 		shiptype = 6,
 		name = "長島級",
@@ -2427,6 +2438,17 @@ pg.fleet_tech_ship_class = {
 			40505
 		}
 	},
+	[40506] = {
+		shiptype = 5,
+		name = "梅克倫堡",
+		t_level = 10,
+		id = 40506,
+		t_level_1 = 0,
+		nation = 4,
+		ships = {
+			49910
+		}
+	},
 	[40601] = {
 		shiptype = 6,
 		name = "威悉",
@@ -2802,6 +2824,17 @@ pg.fleet_tech_ship_class = {
 			60110
 		}
 	},
+	[60106] = {
+		shiptype = 1,
+		name = "維托里奧·庫尼貝爾蒂",
+		t_level = 7,
+		id = 60106,
+		t_level_1 = 133,
+		nation = 6,
+		ships = {
+			69903
+		}
+	},
 	[60201] = {
 		shiptype = 2,
 		name = "阿布魯齊公爵級",
@@ -3078,6 +3111,17 @@ pg.fleet_tech_ship_class = {
 		nation = 7,
 		ships = {
 			70206
+		}
+	},
+	[70206] = {
+		shiptype = 2,
+		name = "德米特里·頓斯科伊",
+		t_level = 9,
+		id = 70206,
+		t_level_1 = 138,
+		nation = 7,
+		ships = {
+			79903
 		}
 	},
 	[70301] = {
@@ -3612,6 +3656,17 @@ pg.fleet_tech_ship_class = {
 		nation = 11,
 		ships = {
 			110201
+		}
+	},
+	[110301] = {
+		shiptype = 3,
+		name = "金獅",
+		t_level = 10,
+		id = 110301,
+		t_level_1 = 1,
+		nation = 11,
+		ships = {
+			119901
 		}
 	},
 	[960001] = {
@@ -4274,6 +4329,7 @@ pg.fleet_tech_ship_class = {
 		10506,
 		10507,
 		10508,
+		10509,
 		10601,
 		10602,
 		10604,
@@ -4438,6 +4494,7 @@ pg.fleet_tech_ship_class = {
 		40503,
 		40504,
 		40505,
+		40506,
 		40601,
 		40602,
 		40701,
@@ -4470,6 +4527,7 @@ pg.fleet_tech_ship_class = {
 		60103,
 		60104,
 		60105,
+		60106,
 		60201,
 		60301,
 		60302,
@@ -4494,6 +4552,7 @@ pg.fleet_tech_ship_class = {
 		70203,
 		70204,
 		70205,
+		70206,
 		70301,
 		70302,
 		70501,
@@ -4541,6 +4600,7 @@ pg.fleet_tech_ship_class = {
 		90701,
 		110101,
 		110201,
+		110301,
 		960001,
 		960002,
 		960003,

@@ -199,8 +199,8 @@ slot0.didEnter = function(slot0)
 			setActive(slot2:Find("result/Exp"), true)
 			setActive(slot2:Find("result/Statistics"), false)
 			uv2(slot2, slot3.id, uv3)
-			setImageSprite(uv4:findTF("result/type", slot2), GetSpriteFromAtlas("shiptype", shipType2print(slot4:getShipType())), true)
-			setImageSprite(uv4:findTF("result/mask/icon", slot2), LoadSprite("herohrzicon/" .. slot4:getPainting()))
+			setImageSprite(slot2:Find("result/type"), GetSpriteFromAtlas("shiptype", shipType2print(slot4:getShipType())), true)
+			setImageSprite(slot2:Find("result/mask/icon"), LoadSprite("herohrzicon/" .. slot4:getPainting()))
 
 			slot10 = slot4:getStar()
 
@@ -230,7 +230,7 @@ slot0.didEnter = function(slot0)
 				setText(slot12, "+" .. (slot4.expAdd or 0))
 			end
 
-			uv4:findTF("result/Progress/progress_bar", slot2):GetComponent(typeof(Image)).fillAmount = slot3:getExp() / getExpByRarityFromLv1(slot13, slot3.level)
+			slot2:Find("result/Progress/progress_bar"):GetComponent(typeof(Image)).fillAmount = slot3:getExp() / getExpByRarityFromLv1(slot13, slot3.level)
 		end)
 	end
 
@@ -260,8 +260,8 @@ slot0.didEnter = function(slot0)
 			setActive(slot2:Find("result/Statistics"), true)
 			setActive(slot2:Find("result/Exp"), false)
 			uv2(slot2, slot3.id, uv3)
-			setImageSprite(uv4:findTF("result/type", slot2), GetSpriteFromAtlas("shiptype", shipType2print(slot4:getShipType())), true)
-			setImageSprite(uv4:findTF("result/mask/icon", slot2), LoadSprite("herohrzicon/" .. slot4:getPainting()))
+			setImageSprite(slot2:Find("result/type"), GetSpriteFromAtlas("shiptype", shipType2print(slot4:getShipType())), true)
+			setImageSprite(slot2:Find("result/mask/icon"), LoadSprite("herohrzicon/" .. slot4:getPainting()))
 
 			slot10 = slot4:getStar()
 
@@ -274,20 +274,20 @@ slot0.didEnter = function(slot0)
 				SetActive(slot2:Find("star"), slot3 <= uv1)
 			end)
 
-			slot12 = uv5 and uv5[slot4.id].output or 0
-			slot14 = uv4:findTF("result/Statistics/atk", slot2)
+			slot12 = uv4 and uv4[slot4.id].output or 0
+			slot14 = slot2:Find("result/Statistics/atk")
 
 			setText(slot14, 0)
 			setText(slot14, slot12)
 
-			slot15 = uv4:findTF("result/Statistics/killCount", slot2)
+			slot15 = slot2:Find("result/Statistics/killCount")
 
 			setText(slot15, 0)
-			setText(slot15, uv5 and uv5[slot4.id].kill_count or 0)
+			setText(slot15, uv4 and uv4[slot4.id].kill_count or 0)
 
-			slot16 = uv4:findTF("result/Progress/progress_bar", slot2)
+			slot16 = slot2:Find("result/Progress/progress_bar")
 			slot16:GetComponent(typeof(Image)).fillAmount = 0
-			slot16:GetComponent(typeof(Image)).fillAmount = slot12 / uv6
+			slot16:GetComponent(typeof(Image)).fillAmount = slot12 / uv5
 		end)
 	end
 

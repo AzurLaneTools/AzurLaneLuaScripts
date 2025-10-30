@@ -5,37 +5,37 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.top = slot0:findTF("top")
-	slot0._map = slot0:findTF("map")
-	slot0._upper = slot0:findTF("upper")
+	slot0.top = slot0._tf:Find("top")
+	slot0._map = slot0._tf:Find("map")
+	slot0._upper = slot0._tf:Find("upper")
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("upper/task"), function ()
+	onButton(slot0, slot0._tf:Find("upper/task"), function ()
 		uv0:emit(ToLoveCollabBackHillMediator.TASK)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("upper/jinianzhang"), function ()
+	onButton(slot0, slot0._tf:Find("upper/jinianzhang"), function ()
 		uv0:emit(ToLoveCollabBackHillMediator.TROPHY)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("upper/help"), function ()
+	onButton(slot0, slot0._tf:Find("upper/help"), function ()
 		uv0:emit(ToLoveCollabBackHillMediator.PUZZLE)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/return_btn"), function ()
+	onButton(slot0, slot0._tf:Find("top/return_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/return_main_btn"), function ()
+	onButton(slot0, slot0._tf:Find("top/return_main_btn"), function ()
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/help_btn"), function ()
+	onButton(slot0, slot0._tf:Find("top/help_btn"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.tolove_main_help.tip
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("upper/xiaoyouxi"), function ()
+	onButton(slot0, slot0._tf:Find("upper/xiaoyouxi"), function ()
 		uv0:emit(ToLoveCollabBackHillMediator.MINI_GAME)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("upper/tebiezuozhan"), function ()
+	onButton(slot0, slot0._tf:Find("upper/tebiezuozhan"), function ()
 		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
 
 		if not slot1 or not slot0:getMapById(slot1):isUnlock() then
@@ -53,7 +53,7 @@ end
 slot0.UpdateView = function(slot0)
 	slot1 = getProxy(ActivityProxy)
 
-	setActive(slot0:findTF("upper/task/tips"), ToLoveCollabTaskMediator.GetTaskRedTip())
+	setActive(slot0._tf:Find("upper/task/tips"), ToLoveCollabTaskMediator.GetTaskRedTip())
 
 	slot3 = false
 
@@ -69,9 +69,9 @@ slot0.UpdateView = function(slot0)
 		slot3 = true
 	end
 
-	setActive(slot0:findTF("upper/jinianzhang/tips"), slot3)
-	setActive(slot0:findTF("upper/help/tips"), PuzzleConnectMediator.GetRedTip())
-	setActive(slot0:findTF("upper/xiaoyouxi/tips"), ToLoveGameVo.ShouldShowTip())
+	setActive(slot0._tf:Find("upper/jinianzhang/tips"), slot3)
+	setActive(slot0._tf:Find("upper/help/tips"), PuzzleConnectMediator.GetRedTip())
+	setActive(slot0._tf:Find("upper/xiaoyouxi/tips"), ToLoveGameVo.ShouldShowTip())
 end
 
 slot0.willExit = function(slot0)

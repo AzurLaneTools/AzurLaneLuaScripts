@@ -11,7 +11,13 @@ slot0.OnLoaded = function(slot0)
 
 	slot1 = slot0._tf:Find("Adapt/pages")
 	slot0.pages = {
-		[uv0.PAGE_PROD] = IslandPostProdPanel.New(slot1, slot0.event),
+		[uv0.PAGE_PROD] = IslandPostProdPanel.New(slot1, slot0.event, setmetatable({
+			ShowMsgBox = function (slot0, slot1)
+				uv0:ShowMsgBox(slot1)
+			end
+		}, {
+			__index = slot0.contextData
+		})),
 		[uv0.PAGE_REST] = IslandPostRestPanel.New(slot1, slot0.event)
 	}
 	slot0.togglesTF = slot0._tf:Find("Adapt/types/content")
@@ -26,6 +32,15 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/title/help"), function ()
+		uv0:ShowMsgBox({
+			type = IslandMsgBox.TYPE_WHITOUT_BTN,
+			content = i18n("island_helpbtn_commission")
+		})
+	end, SFX_PANEL)
+
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("top/back"), function ()
@@ -153,6 +168,8 @@ slot0.OnDisable = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:UnBlurPanel()
+
 	for slot4, slot5 in pairs(slot0.pages) do
 		if slot5 then
 			slot5:Destroy()

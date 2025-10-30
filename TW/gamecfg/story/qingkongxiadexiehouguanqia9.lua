@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "吃飽後，赫斯提亞與琉帶著盡可能多的補給再次出發了——",

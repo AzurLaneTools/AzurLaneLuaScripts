@@ -16,7 +16,8 @@ end
 slot0.init = function(slot0)
 	slot0:BlurPanel(slot0._tf)
 
-	slot0.window = slot0:findTF("window")
+	slot1 = slot0._tf
+	slot0.window = slot1:Find("window")
 	slot2 = slot0.window
 
 	setText(slot2:Find("top/bg/infomation/title"), i18n("words_information"))
@@ -89,7 +90,8 @@ slot0.init = function(slot0)
 
 	slot1 = slot0.window
 	slot0.itemTF = slot1:Find("item")
-	slot0.operatePanel = slot0:findTF("operate")
+	slot1 = slot0._tf
+	slot0.operatePanel = slot1:Find("operate")
 	slot1 = slot0.operatePanel
 	slot1 = slot1:Find("item/left/own/Text")
 	slot0.countTF = slot1:GetComponent(typeof(Text))
@@ -348,7 +350,7 @@ slot0.closeView = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	if slot0:findTF("OpenBox(Clone)") then
+	if slot0._tf:Find("OpenBox(Clone)") then
 		SetActive(slot1, false)
 	end
 
@@ -701,7 +703,7 @@ slot0.PlayOpenBox = function(slot0, slot1, slot2)
 
 	slot3 = {}
 
-	if slot0:findTF(slot1 .. "(Clone)") then
+	if slot0._tf:Find(slot1 .. "(Clone)") then
 		slot0[slot1] = go(slot4)
 	end
 
@@ -754,22 +756,22 @@ end
 
 slot0.inOutAnim = function(slot0, slot1, slot2)
 	if slot1 then
-		slot4 = slot0:findTF("window/bg_decorations"):GetComponent(typeof(Animation))
+		slot4 = slot0._tf:Find("window/bg_decorations"):GetComponent(typeof(Animation))
 
 		slot4:Stop()
 		slot4:Play("anim_window_bg")
 
-		slot6 = slot0:findTF("window/top"):GetComponent(typeof(Animation))
+		slot6 = slot0._tf:Find("window/top"):GetComponent(typeof(Animation))
 
 		slot6:Stop()
 		slot6:Play("anim_top")
 
-		slot8 = slot0:findTF("window"):GetComponent(typeof(Animation))
+		slot8 = slot0._tf:Find("window"):GetComponent(typeof(Animation))
 
 		slot8:Stop()
 		slot8:Play("anim_content")
 
-		slot10 = slot0:findTF("bg"):GetComponent(typeof(Animation))
+		slot10 = slot0._tf:Find("bg"):GetComponent(typeof(Animation))
 
 		slot10:Stop()
 		slot10:Play("anim_bg_plus")

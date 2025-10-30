@@ -63,16 +63,16 @@ slot0.setData = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.top = slot0:findTF("adapt/top", slot0.blurPanel)
-	slot0.resPanel = slot0:findTF("res", slot0.top)
-	slot0.backBtn = slot0:findTF("back_btn", slot0.top)
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.top)
-	slot0.leftPanel = slot0:findTF("left")
-	slot0.timeTF = slot0:findTF("time", slot0.leftPanel)
-	slot1 = slot0:findTF("frame/toggle_group/task", slot0.leftPanel)
-	slot2 = slot0:findTF("frame/toggle_group/shop", slot0.leftPanel)
-	slot3 = slot0:findTF("frame/toggle_group/gift", slot0.leftPanel)
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.top = slot0.blurPanel:Find("adapt/top")
+	slot0.resPanel = slot0.top:Find("res")
+	slot0.backBtn = slot0.top:Find("back_btn")
+	slot0.helpBtn = slot0.top:Find("help_btn")
+	slot0.leftPanel = slot0._tf:Find("left")
+	slot0.timeTF = slot0.leftPanel:Find("time")
+	slot1 = slot0.leftPanel:Find("frame/toggle_group/task")
+	slot2 = slot0.leftPanel:Find("frame/toggle_group/shop")
+	slot3 = slot0.leftPanel:Find("frame/toggle_group/gift")
 
 	setText(slot1:Find("Image"), i18n("blackfriday_task"))
 	setText(slot2:Find("Image"), i18n("blackfriday_shop"))
@@ -83,11 +83,12 @@ slot0.init = function(slot0)
 		slot2,
 		slot3
 	}
-	slot0.main = slot0:findTF("main")
+	slot4 = slot0._tf
+	slot0.main = slot4:Find("main")
 	slot0.pages = {
-		slot0:findTF("task_container", slot0.main),
-		slot0:findTF("shop_container", slot0.main),
-		slot0:findTF("gift_container", slot0.main)
+		slot0.main:Find("task_container"),
+		slot0.main:Find("shop_container"),
+		slot0.main:Find("gift_container")
 	}
 	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 end
@@ -102,7 +103,10 @@ slot0.didEnter = function(slot0)
 			helps = pg.gametip.blackfriday_main_tip.tip
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("gem", slot0.resPanel), function ()
+
+	slot5 = SFX_PANEL
+
+	onButton(slot0, slot0.resPanel:Find("gem"), function ()
 		slot0 = function()
 			if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
@@ -124,15 +128,14 @@ slot0.didEnter = function(slot0)
 		else
 			slot0()
 		end
-	end, SFX_PANEL)
+	end, slot5)
 	slot0:updatePages()
 	slot0:updateTime()
 
-	slot5 = slot0.resPanel
 	slot3 = slot0.player
 	slot4 = slot3
 
-	setText(slot0:findTF("gem/gem_value", slot5), slot3.getTotalGem(slot4))
+	setText(slot0.resPanel:Find("gem/gem_value"), slot3.getTotalGem(slot4))
 
 	for slot4, slot5 in ipairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
@@ -154,7 +157,7 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.updateShopDedDot = function(slot0)
-	setActive(slot0:findTF("tip", slot0.toggles[uv0.SHOP_PAGE]), slot0.blackFridaySalesShopPage:isTip())
+	setActive(slot0.toggles[uv0.SHOP_PAGE]:Find("tip"), slot0.blackFridaySalesShopPage:isTip())
 end
 
 slot0.updatePages = function(slot0)
@@ -166,7 +169,7 @@ slot0.updatePages = function(slot0)
 			slot0.blackFridayTaskPage:Load()
 		end
 
-		setActive(slot0:findTF("tip", slot0.toggles[uv0.TASK_PAGE]), slot0.blackFridayTaskPage:isTip())
+		setActive(slot0.toggles[uv0.TASK_PAGE]:Find("tip"), slot0.blackFridayTaskPage:isTip())
 	end
 
 	if slot0.shopActivity then
@@ -178,7 +181,7 @@ slot0.updatePages = function(slot0)
 			slot0.blackFridaySalesShopPage:Load()
 		end
 
-		setActive(slot0:findTF("tip", slot0.toggles[uv0.SHOP_PAGE]), slot0.blackFridaySalesShopPage:isTip())
+		setActive(slot0.toggles[uv0.SHOP_PAGE]:Find("tip"), slot0.blackFridaySalesShopPage:isTip())
 	end
 
 	if slot0.giftActivity then
@@ -190,7 +193,7 @@ slot0.updatePages = function(slot0)
 			slot0.blackFridaySalesGiftPage:initData()
 		end
 
-		setActive(slot0:findTF("tip", slot0.toggles[uv0.GIFT_PAGE]), slot0.blackFridaySalesGiftPage:isTip())
+		setActive(slot0.toggles[uv0.GIFT_PAGE]:Find("tip"), slot0.blackFridaySalesGiftPage:isTip())
 	end
 end
 
@@ -226,7 +229,7 @@ end
 slot0.onUpdatePlayer = function(slot0, slot1)
 	slot0.player = slot1
 
-	setText(slot0:findTF("gem/gem_value", slot0.resPanel), slot0.player:getTotalGem())
+	setText(slot0.resPanel:Find("gem/gem_value"), slot0.player:getTotalGem())
 
 	if slot0.blackFridaySalesGiftPage then
 		slot0.blackFridaySalesGiftPage:onUpdatePlayer(slot1)

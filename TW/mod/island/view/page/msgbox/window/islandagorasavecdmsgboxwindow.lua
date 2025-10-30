@@ -2,8 +2,8 @@ slot0 = class("IslandAgoraUpgradeMsgboxWindow", import(".IslandCommonMsgboxEXWin
 
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
-	setText(slot0:findTF("cancel/Text"), i18n("island_label_furniture_exit"))
-	setText(slot0:findTF("confirm/Text"), i18n("island_label_furniture_save"))
+	setText(slot0._tf:Find("cancel/Text"), i18n("island_label_furniture_exit"))
+	setText(slot0._tf:Find("confirm/Text"), i18n("island_label_furniture_save"))
 end
 
 slot0.OnShow = function(slot0)

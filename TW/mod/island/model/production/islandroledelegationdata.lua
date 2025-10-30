@@ -13,6 +13,7 @@ slot0.UpdateData = function(slot0, slot1)
 
 	slot0:SetCostList(slot1.cost_time_list)
 
+	slot0.extraList = slot1.times_extra or {}
 	slot0.once_cost_power = slot1.once_cost_power
 	slot0.speed_time = slot1.speed_time or 0
 
@@ -21,6 +22,42 @@ end
 
 slot0.ResetGetTimes = function(slot0, slot1)
 	slot0.get_times = slot0.get_times + slot1
+end
+
+slot0.AddExtraList = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		table.insert(slot0.extraList, slot6)
+	end
+end
+
+slot0.GetExtraMainProduct = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.extraList) do
+		if slot6.num == slot1 then
+			return slot6.main_extra
+		end
+	end
+
+	return 0
+end
+
+slot0.GetExtraExtraProduct = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.extraList) do
+		if slot6.num == slot1 then
+			return slot6.other_extra
+		end
+	end
+
+	return 0
+end
+
+slot0.GetExtraExtraCost = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.extraList) do
+		if slot6.num == slot1 then
+			return slot6.cost_extra
+		end
+	end
+
+	return 0
 end
 
 slot0.AddCostList = function(slot0, slot1)
@@ -127,6 +164,26 @@ end
 
 slot0.CanRewardTimes = function(slot0)
 	return slot0:InCurrentTime() - 1 - slot0.get_times
+end
+
+slot0.GetCurrentCanRewardExtraMainNum = function(slot0)
+	slot3 = 0
+
+	for slot7 = slot0:InCurrentTime() - 1, slot0.get_times + 1, -1 do
+		slot3 = slot3 + slot0:GetExtraMainProduct(slot7)
+	end
+
+	return slot3
+end
+
+slot0.GetReturnExtraNum = function(slot0, slot1)
+	slot3 = 0
+
+	for slot7 = #slot0.cost_time_list, #slot0.cost_time_list - slot1 + 1, -1 do
+		slot3 = slot3 + slot0:GetExtraExtraCost(slot7)
+	end
+
+	return slot3
 end
 
 slot0.LastTimes = function(slot0)

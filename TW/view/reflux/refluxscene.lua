@@ -63,14 +63,14 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.letterContainer = slot0:findTF("PanelLetter")
-	slot0.panelContainer = slot0:findTF("PanelContainer")
-	slot1 = slot0:findTF("left/left_bar")
-	slot0.letterBtn = slot0:findTF("letter", slot1)
-	slot0.signToggle = slot0:findTF("tabs/sign", slot1)
-	slot0.taskToggle = slot0:findTF("tabs/task", slot1)
-	slot0.ptToggle = slot0:findTF("tabs/pt", slot1)
-	slot0.shopToggle = slot0:findTF("tabs/shop", slot1)
+	slot0.letterContainer = slot0._tf:Find("PanelLetter")
+	slot0.panelContainer = slot0._tf:Find("PanelContainer")
+	slot1 = slot0._tf:Find("left/left_bar")
+	slot0.letterBtn = slot1:Find("letter")
+	slot0.signToggle = slot1:Find("tabs/sign")
+	slot0.taskToggle = slot1:Find("tabs/task")
+	slot0.ptToggle = slot1:Find("tabs/pt")
+	slot0.shopToggle = slot1:Find("tabs/shop")
 	slot0.toggleList = {
 		[uv0.Sign] = slot0.signToggle,
 		[uv0.Task] = slot0.taskToggle,
@@ -78,16 +78,16 @@ slot0.findUI = function(slot0)
 		[uv0.Shop] = slot0.shopToggle
 	}
 	slot0.redPotList = {
-		[uv0.Sign] = slot0:findTF("Red", slot0.signToggle),
-		[uv0.Task] = slot0:findTF("Red", slot0.taskToggle),
-		[uv0.PT] = slot0:findTF("Red", slot0.ptToggle),
-		[uv0.Shop] = slot0:findTF("Red", slot0.shopToggle)
+		[uv0.Sign] = slot0.signToggle:Find("Red"),
+		[uv0.Task] = slot0.taskToggle:Find("Red"),
+		[uv0.PT] = slot0.ptToggle:Find("Red"),
+		[uv0.Shop] = slot0.shopToggle:Find("Red")
 	}
-	slot0.backBtn = slot0:findTF("back", slot1)
-	slot0.dayText = slot0:findTF("time/text")
+	slot0.backBtn = slot1:Find("back")
+	slot0.dayText = slot0._tf:Find("time/text")
 
-	setText(slot0:findTF("time/icon"), i18n("reflux_word_1"))
-	setText(slot0:findTF("time/icon1"), i18n("word_date"))
+	setText(slot0._tf:Find("time/icon"), i18n("reflux_word_1"))
+	setText(slot0._tf:Find("time/icon1"), i18n("word_date"))
 end
 
 slot0.initData = function(slot0)

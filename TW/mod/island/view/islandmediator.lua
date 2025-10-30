@@ -88,8 +88,14 @@ slot0.NPC_ACTION_AWARD = "IslandMediator:NPC_ACTION_AWARD"
 slot0.ADD_FOLLOWER = "IslandMediator:ADD_FOLLOWER"
 slot0.DEL_FOLLOWER = "IslandMediator:DEL_FOLLOWER"
 slot0.DRAW_AWARD_OPERATION = "IslandMediator.DRAW_AWARD_OPERATION"
+slot0.REFRESH_SHIP_ORDER = "IslandMediator:REFRESH_SHIP_ORDER"
 
 slot0._register = function(slot0)
+	slot0:bind(uv0.REFRESH_SHIP_ORDER, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_REFRESH_SHIP_ORDER, {
+			id = slot1
+		})
+	end)
 	slot0:bind(uv0.CHANGE_SCENE, function (slot0, slot1, ...)
 		uv0:sendNotification(GAME.CHANGE_SCENE, slot1, ...)
 	end)
@@ -536,20 +542,22 @@ slot0._register = function(slot0)
 			callback = slot2
 		})
 	end)
-	slot0:bind(uv0.START_DELEGATION, function (slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0:bind(uv0.START_DELEGATION, function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		uv0:sendNotification(GAME.ISLAND_START_DELEGATION, {
 			build_id = slot1,
 			area_id = slot2,
 			ship_id = slot3,
 			formula_id = slot4,
-			num = slot5
+			num = slot5,
+			extraCost = slot6
 		})
 	end)
-	slot0:bind(uv0.ADD_DELEGATION, function (slot0, slot1, slot2, slot3)
+	slot0:bind(uv0.ADD_DELEGATION, function (slot0, slot1, slot2, slot3, slot4)
 		uv0:sendNotification(GAME.ISLAND_ADD_DELEGATION, {
 			build_id = slot1,
 			area_id = slot2,
-			add_num = slot3
+			add_num = slot3,
+			extraCost = slot4
 		})
 	end)
 	slot0:bind(uv0.STOP_DELEGATION, function (slot0, slot1, slot2)
@@ -657,6 +665,7 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE,
 		GAME.ISLAND_FOLLOWER_OP_DONE,
 		GAME.ISLAND_RESET_SP,
+		GAME.ISLAND_REFRESH_SHIP_ORDER_DONE,
 		NotificationProxy.FRIEND_REQUEST_REMOVED,
 		NotificationProxy.FRIEND_REQUEST_ADDED,
 		PlayerProxy.UPDATED,
@@ -671,7 +680,8 @@ slot0._listNotificationInterests = function(slot0)
 		IslandSettingsPage.SELECTCUSTOMGRAPHICSETTING,
 		IslandSettingsPage.SELECTGRAPHICSETTINGLEVEL,
 		ActivityProxy.ACTIVITY_UPDATED,
-		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE
+		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE,
+		IslandShipOrderCard.EVENT_CD_END
 	}
 end
 

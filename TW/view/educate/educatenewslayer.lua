@@ -39,33 +39,35 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.windowTF = slot0:findTF("anim_root/window")
-	slot0.tplTF = slot0:findTF("tpl", slot0.windowTF)
+	slot0.windowTF = slot0._tf:Find("anim_root/window")
+	slot0.tplTF = slot0.windowTF:Find("tpl")
 
 	setActive(slot0.tplTF, false)
 
-	slot0.importTF = slot0:findTF("scrollview/view/content/import_news", slot0.windowTF)
-	slot0.importUIList = UIItemList.New(slot0:findTF("list", slot0.importTF), slot0.tplTF)
+	slot0.importTF = slot0.windowTF:Find("scrollview/view/content/import_news")
+	slot0.importUIList = UIItemList.New(slot0.importTF:Find("list"), slot0.tplTF)
 
-	setText(slot0:findTF("title/Text", slot0.importTF), i18n("child_news_import_title"))
-	setText(slot0:findTF("empty/Text", slot0.importTF), i18n("child_news_import_empty"))
+	setText(slot0.importTF:Find("title/Text"), i18n("child_news_import_title"))
+	setText(slot0.importTF:Find("empty/Text"), i18n("child_news_import_empty"))
 
-	slot0.otherTF = slot0:findTF("scrollview/view/content/other_news", slot0.windowTF)
-	slot0.otherUIList = UIItemList.New(slot0:findTF("list", slot0.otherTF), slot0.tplTF)
+	slot0.otherTF = slot0.windowTF:Find("scrollview/view/content/other_news")
+	slot0.otherUIList = UIItemList.New(slot0.otherTF:Find("list"), slot0.tplTF)
 
-	setText(slot0:findTF("title/Text", slot0.otherTF), i18n("child_news_other_title"))
-	setText(slot0:findTF("empty/Text", slot0.otherTF), i18n("child_news_other_empty"))
+	setText(slot0.otherTF:Find("title/Text"), i18n("child_news_other_title"))
+	setText(slot0.otherTF:Find("empty/Text"), i18n("child_news_other_empty"))
 end
 
 slot0.addListener = function(slot0)
-	onButton(slot0, slot0:findTF("anim_root/bg"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("anim_root/bg"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
 end
@@ -101,13 +103,13 @@ slot0.updateEventItem = function(slot0, slot1, slot2, slot3)
 	slot5 = slot4:GetTag(slot0.finishEvents, slot0.curTime.week)
 	slot6 = EducateSpecialEvent.TAG2NAME[slot5]
 
-	setImageColor(slot0:findTF("block", slot2), Color.NewHex(uv0[slot5]))
-	setText(slot0:findTF("name", slot2), slot4:getConfig("main_desc"))
-	setTextColor(slot0:findTF("name", slot2), Color.NewHex(uv1[slot5]))
-	eachChild(slot0:findTF("name/tags", slot2), function (slot0)
+	setImageColor(slot2:Find("block"), Color.NewHex(uv0[slot5]))
+	setText(slot2:Find("name"), slot4:getConfig("main_desc"))
+	setTextColor(slot2:Find("name"), Color.NewHex(uv1[slot5]))
+	eachChild(slot2:Find("name/tags"), function (slot0)
 		setActive(slot0, slot0.name == uv0)
 	end)
-	setText(slot0:findTF("time/Text", slot2), slot4:GetTimeDesc())
+	setText(slot2:Find("time/Text"), slot4:GetTimeDesc())
 end
 
 slot0.updateNewsList = function(slot0)
@@ -122,8 +124,8 @@ slot0.updateNewsList = function(slot0)
 
 	table.sort(slot0.importEvents, slot1)
 	table.sort(slot0.otherEvents, slot1)
-	setActive(slot0:findTF("empty", slot0.importTF), #slot0.importEvents <= 0)
-	setActive(slot0:findTF("empty", slot0.otherTF), #slot0.otherEvents <= 0)
+	setActive(slot0.importTF:Find("empty"), #slot0.importEvents <= 0)
+	setActive(slot0.otherTF:Find("empty"), #slot0.otherEvents <= 0)
 	slot0.importUIList:align(#slot0.importEvents)
 	slot0.otherUIList:align(#slot0.otherEvents)
 end

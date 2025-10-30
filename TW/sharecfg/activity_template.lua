@@ -25832,6 +25832,230 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5808] = {
+		mark = 20251030,
+		type = 69,
+		login_pop = 0,
+		config_id = 30,
+		is_show = 45,
+		title_res_tag = "Georgia_catchup",
+		id = 5808,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FlandreTecCatchupPage",
+			ui_name = "FlandreTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42055
+		}
+	},
+	[5809] = {
+		mark = 20251030,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 46,
+		title_res_tag = "yidaliv4",
+		id = 5809,
+		page_core = "",
+		config_data = {
+			{
+				21241,
+				21242
+			},
+			{
+				21243,
+				21244
+			},
+			{
+				21245,
+				21246
+			},
+			{
+				21247,
+				21248
+			},
+			{
+				21249,
+				21250
+			},
+			{
+				21251,
+				21252
+			},
+			{
+				21253,
+				21254
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV4SkinPage",
+			ui_name = "YidaliV4SkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHOUXUANZHEZHILU1"
+				},
+				{
+					"SHOUXUANZHEZHILU2"
+				},
+				{
+					"SHOUXUANZHEZHILU3"
+				},
+				{
+					"SHOUXUANZHEZHILU4"
+				},
+				{
+					"SHOUXUANZHEZHILU5"
+				},
+				{
+					"SHOUXUANZHEZHILU6"
+				},
+				{
+					"SHOUXUANZHEZHILU7"
+				}
+			}
+		}
+	},
+	[5810] = {
+		mark = 20251030,
+		type = 87,
+		login_pop = 0,
+		config_id = 27,
+		is_show = 47,
+		config_client = "",
+		title_res_tag = "activity",
+		id = 5810,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV4FramePage",
+			ui_name = "YidaliV4FramePage"
+		}
+	},
+	[5811] = {
+		mark = 20251030,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 35,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5811,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5871] = {
 		mark = 20250522,
 		type = 123,
@@ -75886,6 +76110,7 @@ pg.activity_template = {
 			5625,
 			5699,
 			5734,
+			5809,
 			5922,
 			5924,
 			5979,
@@ -76776,6 +77001,7 @@ pg.activity_template = {
 			5511,
 			5550,
 			5698,
+			5808,
 			5921,
 			50101,
 			40400,
@@ -76812,6 +77038,7 @@ pg.activity_template = {
 			5513,
 			5552,
 			5700,
+			5810,
 			5923,
 			50102,
 			40724,
@@ -76851,6 +77078,7 @@ pg.activity_template = {
 			5514,
 			5553,
 			5701,
+			5811,
 			5925,
 			50103,
 			40178,
@@ -78160,6 +78388,10 @@ pg.activity_template = {
 		5803,
 		5806,
 		5807,
+		5808,
+		5809,
+		5810,
+		5811,
 		5871,
 		5872,
 		5873,

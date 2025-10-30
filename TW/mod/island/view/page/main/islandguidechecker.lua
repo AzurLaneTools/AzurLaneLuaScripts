@@ -122,6 +122,14 @@ slot0.pageConfig = {
 			return true
 		end,
 		type = slot0.FINISH_TYPE.ON_BEGIN
+	},
+	{
+		id = "ISLAND_GUIDE_31",
+		page = "IslandMallDelegationPage",
+		condition = function ()
+			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(uv0.COMBP_ABILITY_ID)
+		end,
+		type = slot0.FINISH_TYPE.ON_BEGIN
 	}
 }
 

@@ -7,18 +7,18 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.frame = slot0:findTF("window1")
-	slot0.content = slot0:findTF("window1/content"):GetComponent(typeof(Text))
-	slot0.frame1 = slot0:findTF("window2")
-	slot0.content1 = slot0:findTF("window2/content"):GetComponent(typeof(Text))
-	slot0.icon = slot0:findTF("window2/mask/Icon"):GetComponent(typeof(RawImage))
-	slot0.cancelBtn = slot0:findTF("btns/cancel")
-	slot0.cancelBtnTxt = slot0:findTF("btns/cancel/Text"):GetComponent(typeof(Text))
-	slot0.confirmBtn = slot0:findTF("btns/confirm")
-	slot0.confirmBtnTxt = slot0:findTF("btns/confirm/Text"):GetComponent(typeof(Text))
+	slot0.frame = slot0._tf:Find("window1")
+	slot0.content = slot0._tf:Find("window1/content"):GetComponent(typeof(Text))
+	slot0.frame1 = slot0._tf:Find("window2")
+	slot0.content1 = slot0._tf:Find("window2/content"):GetComponent(typeof(Text))
+	slot0.icon = slot0._tf:Find("window2/mask/Icon"):GetComponent(typeof(RawImage))
+	slot0.cancelBtn = slot0._tf:Find("btns/cancel")
+	slot0.cancelBtnTxt = slot0._tf:Find("btns/cancel/Text"):GetComponent(typeof(Text))
+	slot0.confirmBtn = slot0._tf:Find("btns/confirm")
+	slot0.confirmBtnTxt = slot0._tf:Find("btns/confirm/Text"):GetComponent(typeof(Text))
 	slot0._parentTF = slot0._tf.parent
 
-	setText(slot0:findTF("title"), i18n("words_information"))
+	setText(slot0._tf:Find("title"), i18n("words_information"))
 end
 
 slot0.OnInit = function(slot0)

@@ -1020,6 +1020,9 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["獅"] = {
+			this = true
 		}
 	}
 end
@@ -3730,6 +3733,23 @@ temp = function()
 			["克"] = {
 				this = true
 			}
+		},
+		["米"] = {
+			["特"] = {
+				["里"] = {
+					["·"] = {
+						["頓"] = {
+							["斯"] = {
+								["科"] = {
+									["伊"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -6082,6 +6102,17 @@ temp = function()
 									this = true
 								}
 							}
+						},
+						["庫"] = {
+							["尼"] = {
+								["貝"] = {
+									["爾"] = {
+										["蒂"] = {
+											this = true
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -7311,6 +7342,32 @@ temp = function()
 		["卡"] = {
 			["洛"] = {
 				["夫"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["堪"] = {
+		["薩"] = {
+			["斯"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["梅"] = {
+		["克"] = {
+			["倫"] = {
+				["堡"] = {
 					this = true
 				}
 			}

@@ -1,8 +1,57 @@
 slot0 = class("IslandCoupleActionPlayer", import("..IslandBaseUnit"))
+slot1 = 0
+slot2 = 1
+slot3 = 2
 
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
+
+	slot0.playing = false
+	slot0.phase = uv1
+
 	slot0:Init()
+end
+
+slot0.IsPlaying = function(slot0)
+	return slot0.playing
+end
+
+slot0.Stop = function(slot0)
+	if not slot0:IsPlaying() then
+		return
+	end
+
+	if slot0.phase == uv0 then
+		return
+	end
+
+	if slot0.phase == uv1 and slot0.playData then
+		slot1 = slot0.playData[2]
+
+		slot0:NotifiyCore(ISLAND_EVT.REMOVE_PATH_FINDER, {
+			unitId = slot1.id,
+			unitType = slot1.unitType
+		})
+		slot0:ResetAnimation()
+	elseif slot0.phase == uv2 and slot0.playData then
+		slot0:ResetAnimation()
+	end
+
+	slot0:WillExit(slot0.playData[2], slot0.playData[1])
+	slot0:Exit(slot0.playData[2], slot0.playData[1])
+end
+
+slot0.ResetAnimation = function(slot0)
+	slot1 = slot0.playData[1]
+	slot2 = slot0.playData[2]
+
+	if slot0:GetView():GetUnitModuleWithType(slot1.unitType, slot1.id) then
+		slot3:CheckMovement()
+	end
+
+	if slot0:GetView():GetUnitModuleWithType(slot2.unitType, slot2.id) then
+		slot4:CheckMovement()
+	end
 end
 
 slot0.Play = function(slot0, slot1, slot2, slot3)
@@ -10,9 +59,18 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	slot0.playData = {
+		slot2,
+		slot1
+	}
+
 	slot0:EnableOrDisablePlayerOp(slot2, slot1, false)
 	slot0:EnableOrDisableUnitSyn(slot2, slot1, false)
+
+	slot0.playing = true
+
 	slot0:SendStartEvent(slot2, slot1)
+	slot0:ShowOrHideCancelableBtn(slot2, slot1, true)
 
 	slot4 = false
 	slot5 = Vector3(0, 0, 0)
@@ -25,6 +83,10 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if not uv0.playing then
+				return
+			end
+
 			uv0:EnableOrDisablePlayerSyn(uv1, false)
 
 			if not uv2 then
@@ -36,24 +98,64 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 			uv0:Face2Face(uv3, uv4, uv1, slot0)
 		end,
 		function (slot0)
-			if not uv0 then
+			if not uv0.playing then
+				return
+			end
+
+			if not uv1 then
 				slot0()
 
 				return
 			end
 
-			uv1:PlayCoupleActions(uv2, uv3, uv4, slot0)
+			uv0:PlayCoupleActions(uv2, uv3, uv4, slot0)
 		end,
 		function (slot0)
-			IslandTaskHelper.OnActionEnd(uv0.id)
-			uv1:EnableOrDisablePlayerSyn(uv2, true)
-			uv1:EnableOrDisableUnitSyn(uv3, uv2, true)
-			uv1:EnableOrDisablePlayerOp(uv3, uv2, true)
+			if not uv0.playing then
+				return
+			end
+
+			IslandTaskHelper.OnActionEnd(uv1.id)
+			uv0:WillExit(uv2, uv3)
 			slot0()
 		end
 	}, function ()
-		uv0:SendEndEvent(uv1, uv2)
+		uv0:Exit(uv1, uv2, uv3)
 	end)
+end
+
+slot0.WillExit = function(slot0, slot1, slot2)
+	if slot1 then
+		slot0:EnableOrDisablePlayerSyn(slot1, true)
+	end
+
+	if slot2 and slot1 then
+		slot0:EnableOrDisableUnitSyn(slot2, slot1, true)
+		slot0:EnableOrDisablePlayerOp(slot2, slot1, true)
+	end
+end
+
+slot0.Exit = function(slot0, slot1, slot2)
+	if slot2 and slot1 then
+		slot0:ShowOrHideCancelableBtn(slot2, slot1, false)
+		slot0:SendEndEvent(slot2, slot1)
+	end
+
+	slot0.playing = false
+	slot0.phase = uv0
+	slot0.playData = nil
+end
+
+slot0.ShowOrHideCancelableBtn = function(slot0, slot1, slot2, slot3)
+	if not (slot0:GetView():IsPlayer(slot1.id) or slot0:GetView():IsPlayer(slot2.id)) then
+		return
+	end
+
+	if slot3 then
+		slot0:NotifiyCore(ISLAND_EVT.START_DO_COUPLE_ACTION)
+	else
+		slot0:NotifiyCore(ISLAND_EVT.END_DO_COUPLE_ACTION)
+	end
 end
 
 slot0.SendStartEvent = function(slot0, slot1, slot2)
@@ -69,6 +171,7 @@ slot0.SendEndEvent = function(slot0, slot1, slot2)
 end
 
 slot0.NavigateToPoint = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.phase = uv0
 	slot6 = slot3.respond_point and slot3.respond_point ~= "" and BuildVector3(slot3.respond_point) or Vector3(0, 0, 2)
 
 	if not IslandCalcUtil.GetCanReachOptPoint(slot2._go.transform.position, slot6.magnitude, slot1.agent, slot1._tf.position, slot1._go.transform.position + slot1._go.transform.rotation * slot6, 36) then
@@ -122,6 +225,8 @@ slot0.Face2Face = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.PlayCoupleActions = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.phase = uv0
+
 	parallelAsync({
 		function (slot0)
 			uv0:PlayAnimation(uv1.responder_feedback, 0.25, slot0)

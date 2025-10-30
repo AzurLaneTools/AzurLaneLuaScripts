@@ -11,9 +11,9 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0.nameTf, i18n("word_get"))
 
-	slot0.container = slot0:findTF("content")
-	slot0.item = slot0:findTF("tpl")
-	slot0.poolContainer = slot0:findTF("pool")
+	slot0.container = slot0._tf:Find("content")
+	slot0.item = slot0._tf:Find("tpl")
+	slot0.poolContainer = slot0._tf:Find("pool")
 end
 
 slot0.OnInit = function(slot0)

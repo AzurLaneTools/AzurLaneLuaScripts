@@ -31,13 +31,11 @@ slot0.init = function(slot0, ...)
 			elseif not uv0.pageDic[slot3.id] then
 				warning(string.format("without page in act:", slot3.id))
 			else
-				setText(uv0:findTF("on/name", slot2), i18n("outpost_20250904_Sidebar" .. slot3:getConfig("is_show")))
-				setText(uv0:findTF("name", slot2), i18n("outpost_20250904_Sidebar" .. slot3:getConfig("is_show")))
+				setText(slot2:Find("on/name"), i18n("outpost_20250904_Sidebar" .. slot3:getConfig("is_show")))
+				setText(slot2:Find("name"), i18n("outpost_20250904_Sidebar" .. slot3:getConfig("is_show")))
 
 				if uv0.pageDic[slot3.id] ~= nil then
-					slot6 = uv0
-
-					setActive(slot6:findTF("tip", slot2), slot3:readyToAchieve())
+					setActive(slot2:Find("tip"), slot3:readyToAchieve())
 					onToggle(uv0, slot2, function (slot0)
 						if slot0 then
 							uv0:selectActivity(uv1)

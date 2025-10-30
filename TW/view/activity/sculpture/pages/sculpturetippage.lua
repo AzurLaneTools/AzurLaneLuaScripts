@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.tip = slot0:findTF("tip")
+	slot0.tip = slot0._tf:Find("tip")
 end
 
 slot0.OnInit = function(slot0)

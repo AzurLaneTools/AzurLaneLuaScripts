@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"受选者之路\n\n<size=45>永夜的序幕</size>",
+					"受選者之路\n\n<size=45>5.永夜的序幕</size>",
 					1
 				}
 			}
@@ -21,11 +21,11 @@ return {
 			say = "撒丁教国·首都",
 			sequence = {
 				{
-					"撒丁教国·首都",
+					"薩丁教國·首都",
 					1
 				},
 				{
-					"某处宅邸",
+					"某處宅邸",
 					2
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			bgm = "story-theme-sardinia",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "午后，和煦的阳光下，一场聚会正在某个宁静的庭院中进行着。",
+			say = "午後，和煦的陽光下，一場聚會正在某個寧靜的庭院中進行著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,12 +62,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "根据我的情报，枢机主教团将会在今日宣布最终结果。",
+			say = "根據我的情報，樞機主教團將會在今日宣布最終結果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,11 +77,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "毫无效率，浪费时间。",
+			say = "毫無效率，浪費時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,11 +91,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "早已定下的事，也要装模作样商量这么久。",
+			say = "早已定下的事，也要裝模作樣商量這麼久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "别这么说嘛，下这个决心对于撒丁教国来说也不容易的。",
+			say = "別這麼說嘛，下這個決心對薩丁教國來說也不容易的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,11 +120,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "明明他们是最大得利方？",
+			say = "明明他們是最大得利方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,12 +133,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "世俗与宗教，王权与神权，人类与舰船，太多平衡，太多算计了。",
+			say = "世俗與宗教，王權與神權，人類與艦船，太多平衡，太多算計了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,11 +148,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "然而最终，教国还是迈出了这一步……",
+			say = "然而最終，教國還是踏出了這一步……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "千年前的「神光圣裁」，不但毁灭了入侵帝国心脏的敌人，也重塑了这片帝国心脏所在的土地。",
+			say = "千年前的「神光聖裁」，不但毀滅了入侵帝國心臟的敵人，也重塑了這片帝國心臟所在的土地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,11 +176,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那一日之后，半岛变为了群岛，帝国毁灭之日同时亦是教国诞生之日。",
+			say = "那一日之後，半島變成了群島，帝國毀滅之日同時依是教國誕生之日。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而我们也自此一直沐浴在神光之中。",
+			say = "而我們也自此一直沐浴在神光之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,11 +204,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们因神光获得了新生，亦被神光束缚在此，行走在神所安排的道路上。",
+			say = "我們因神光獲得了新生，亦被神光束縛在此，行走在神所安排的道路上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,12 +217,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果只是某种信仰也罢，然而我们都已经知道了……神不光是信仰。",
+			say = "如果只是某種信仰也罷，然而我們都已經知道了……神不光是信仰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,12 +232,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "祂不但是真实存在的……甚至现在就有一整支钢铁军军团静静沉睡在我们的脚下。",
+			say = "祂不但是真實存在的……甚至現在就有一整支鋼鐵軍軍團靜靜沉睡在我們的腳下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,12 +246,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……我自从知道这件事后，就没睡过一个好觉。",
+			say = "……我自從知道這件事後，我就沒睡過一個好覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,11 +261,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是啊，所以这么多年来，我们一直尝试用更温和的方式削弱神权，将神与世俗剥离开来。",
+			say = "是啊，所以我們在這麼多年來，我們一直嘗試用更溫和的方式削弱神權，將神與世俗剝離開來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,11 +275,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "然而很明显，撒丁教国不喜欢这样。",
+			say = "然而很明顯，薩丁教國不喜歡這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,11 +289,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而且……他们终于发现了神所认可的舰船是操控神之遗产的“钥匙”。",
+			say = "而且……他們終於發現了神所認可的艦船是操控神之遺產的「鑰匙」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,11 +303,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "教国已经迈向了危险的方向，我们该进行“激进一些”的方案了。",
+			say = "教國已經邁向了危險的方向，我們該進行「激進一些」的方案了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,12 +317,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……虽然我一直极力避免这个局面。",
+			say = "……雖然我一直極力避免這個局面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,12 +331,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过，我终究是撒丁尼亚联盟的骑士，效忠对象是联盟本身。",
+			say = "不過，我終究是薩丁尼亞聯盟的騎士，效忠對象才是聯盟本身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,12 +346,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "安德烈亚女士，我认为您的计划对于联盟整体来说是有益的。",
+			say = "安德烈亞女士，我認為您的計劃對於聯盟整體來說是有益的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,12 +361,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "在这个迈向自由的时代，联盟不能被重新束缚在神的枷锁下。",
+			say = "在這個邁向自由的時代，聯盟不能被重新束縛在神的枷鎖下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,12 +376,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果教国不愿意发生变化，我不介意帮它一把。",
+			say = "如果教國不願意發生變化，我不介意幫它一把。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,11 +391,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "终于，我们首次达成了全体一致。",
+			say = "終於，我們首次達成了全體一致。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,11 +405,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "——让我们一同拉开永夜的序幕吧。",
+			say = "——讓我們一同拉開永夜的序幕吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

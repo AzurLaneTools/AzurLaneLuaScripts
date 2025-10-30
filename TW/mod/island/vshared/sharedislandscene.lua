@@ -9,19 +9,19 @@ slot0.GetIsland = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.levelTxt = slot0:findTF("top/level_panel/level"):GetComponent(typeof(Text))
-	slot0.expTr = slot0:findTF("top/level_panel/exp")
-	slot0.nameTxt = slot0:findTF("top/level_panel/name"):GetComponent(typeof(Text))
-	slot0.prosperityTxt = slot0:findTF("top/level_panel/prosperity/Text"):GetComponent(typeof(Text))
-	slot0.prosperityLabel = slot0:findTF("top/level_panel/prosperity"):GetComponent(typeof(Text))
-	slot0.mapBtn = slot0:findTF("top/map_btn")
-	slot0.leaveBtn = slot0:findTF("top/leave_btn")
+	slot0.levelTxt = slot0._tf:Find("top/level_panel/level"):GetComponent(typeof(Text))
+	slot0.expTr = slot0._tf:Find("top/level_panel/exp")
+	slot0.nameTxt = slot0._tf:Find("top/level_panel/name"):GetComponent(typeof(Text))
+	slot0.prosperityTxt = slot0._tf:Find("top/level_panel/prosperity/Text"):GetComponent(typeof(Text))
+	slot0.prosperityLabel = slot0._tf:Find("top/level_panel/prosperity"):GetComponent(typeof(Text))
+	slot0.mapBtn = slot0._tf:Find("top/map_btn")
+	slot0.leaveBtn = slot0._tf:Find("top/leave_btn")
 
 	setText(slot0.leaveBtn:Find("Text"), i18n("island_leave"))
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("top/level_panel"), function ()
+	onButton(slot0, slot0._tf:Find("top/level_panel"), function ()
 		uv0:OpenPage(SharedIslandOtherCardPage, uv0:GetIsland().id)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.mapBtn, function ()

@@ -1,9 +1,12 @@
 slot0 = class("AnimeEndPage", import(".TemplatePage.LoginTemplatePage"))
 
 slot0.OnInit = function(slot0)
-	slot0.dayProgressImg = slot0:findTF("DayProgress")
-	slot0.awardImg = slot0:findTF("Award")
-	slot0.maskImg = slot0:findTF("Mask", slot0.awardImg)
+	slot1 = slot0._tf
+	slot0.dayProgressImg = slot1:Find("DayProgress")
+	slot1 = slot0._tf
+	slot0.awardImg = slot1:Find("Award")
+	slot1 = slot0.awardImg
+	slot0.maskImg = slot1:Find("Mask")
 
 	addSlip(SLIP_TYPE_HRZ, slot0.awardImg, function ()
 		if uv0.curShowDay > 1 then
@@ -15,8 +18,10 @@ slot0.OnInit = function(slot0)
 		end
 	end)
 
-	slot0.arrowLeft = slot0:findTF("ArrowLeft")
-	slot0.arrowRight = slot0:findTF("ArrowRight")
+	slot1 = slot0._tf
+	slot0.arrowLeft = slot1:Find("ArrowLeft")
+	slot1 = slot0._tf
+	slot0.arrowRight = slot1:Find("ArrowRight")
 
 	onButton(slot0, slot0.arrowLeft, function ()
 		uv0.curShowDay = uv0.curShowDay - 1
@@ -29,14 +34,16 @@ slot0.OnInit = function(slot0)
 		uv0:updateAwardInfo(uv0.curShowDay)
 	end, SFX_PANEL)
 
-	slot0.pointTpl = slot0:findTF("Point")
-	slot0.pointContainer = slot0:findTF("PointList")
+	slot1 = slot0._tf
+	slot0.pointTpl = slot1:Find("Point")
+	slot1 = slot0._tf
+	slot0.pointContainer = slot1:Find("PointList")
 	slot0.pointUIItemList = UIItemList.New(slot0.pointContainer, slot0.pointTpl)
 	slot1 = slot0.pointUIItemList
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0:findTF("Selected", slot2)
+			slot3 = slot2:Find("Selected")
 
 			if slot1 + 1 <= uv0.nday then
 				setImageAlpha(slot2, 1)

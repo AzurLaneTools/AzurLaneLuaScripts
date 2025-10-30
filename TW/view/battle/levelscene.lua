@@ -34,22 +34,24 @@ slot0.getBGM = function(slot0)
 				return
 			end
 
-			if uv0.contextData.map:getConfig("ani_controller") and #slot1 > 0 then
-				for slot5, slot6 in ipairs(slot1) do
-					for slot11, slot12 in ipairs(_.rest(slot6[2], 2)) do
-						if string.find(slot12, "^bgm_") and slot6[1] == uv1 then
-							slot14 = false
+			slot2 = getProxy(ChapterProxy)
 
-							for slot18, slot19 in ipairs(slot6[2][1]) do
-								if chapterProxy:GetChapterItemById(slot19) and slot20:isClear() then
-									slot14 = true
+			if uv0.contextData.map:getConfig("ani_controller") and #slot1 > 0 then
+				for slot6, slot7 in ipairs(slot1) do
+					for slot12, slot13 in ipairs(_.rest(slot7[2], 2)) do
+						if string.find(slot13, "^bgm_") and slot7[1] == uv1 then
+							slot15 = false
+
+							for slot19, slot20 in ipairs(slot7[2][1]) do
+								if slot2:GetChapterItemById(slot20) and slot21:isClear() then
+									slot15 = true
 
 									break
 								end
 							end
 
-							if not slot14 then
-								return string.sub(slot12, 5)
+							if not slot15 then
+								return string.sub(slot13, 5)
 							end
 						end
 					end
@@ -164,75 +166,74 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.topPanel = slot0:findTF("top")
+	slot0.topPanel = slot0._tf:Find("top")
 	slot0.canvasGroup = slot0.topPanel:GetComponent("CanvasGroup")
 	slot0.canvasGroup.blocksRaycasts = not slot0.canvasGroup.blocksRaycasts
 	slot0.canvasGroup.blocksRaycasts = not slot0.canvasGroup.blocksRaycasts
-	slot0.entranceLayer = slot0:findTF("entrance")
+	slot0.entranceLayer = slot0._tf:Find("entrance")
 	slot0.ptBonus = EventPtBonus.New(slot0.entranceLayer:Find("btns/btn_task/bonusPt"))
-	slot0.entranceBg = slot0:findTF("entrance_bg")
-	slot0.topChapter = slot0:findTF("top_chapter", slot0.topPanel)
+	slot0.entranceBg = slot0._tf:Find("entrance_bg")
+	slot0.topChapter = slot0.topPanel:Find("top_chapter")
 
 	setActive(slot0.topChapter:Find("title_chapter"), false)
 	setActive(slot0.topChapter:Find("type_chapter"), false)
 	setActive(slot0.topChapter:Find("type_escort"), false)
 	setActive(slot0.topChapter:Find("type_skirmish"), false)
 
-	slot0.chapterName = slot0:findTF("title_chapter/name", slot0.topChapter)
-	slot0.chapterNoTitle = slot0:findTF("title_chapter/chapter", slot0.topChapter)
-	slot0.resChapter = slot0:findTF("resources", slot0.topChapter)
+	slot0.chapterName = slot0.topChapter:Find("title_chapter/name")
+	slot0.chapterNoTitle = slot0.topChapter:Find("title_chapter/chapter")
+	slot0.resChapter = slot0.topChapter:Find("resources")
 
 	setActive(slot0.topChapter, true)
 
 	slot0._voteBookBtn = slot0.topChapter:Find("vote_book")
-	slot0.leftChapter = slot0:findTF("main/left_chapter")
+	slot0.leftChapter = slot0._tf:Find("main/left_chapter")
 
 	setActive(slot0.leftChapter, true)
 
 	slot0.leftCanvasGroup = slot0.leftChapter:GetComponent(typeof(CanvasGroup))
-	slot0.btnPrev = slot0:findTF("btn_prev", slot0.leftChapter)
-	slot0.btnPrevCol = slot0:findTF("btn_prev/prev_image", slot0.leftChapter)
-	slot0.eliteBtn = slot0:findTF("buttons/btn_elite", slot0.leftChapter)
-	slot0.normalBtn = slot0:findTF("buttons/btn_normal", slot0.leftChapter)
-	slot0.actNormalBtn = slot0:findTF("buttons/btn_act_normal", slot0.leftChapter)
-	slot0.actEliteBtn = slot0:findTF("buttons/btn_act_elite", slot0.leftChapter)
-	slot0.actExtraBtn = slot0:findTF("buttons/btn_act_extra", slot0.leftChapter)
-	slot0.actExtraBtnAnim = slot0:findTF("usm", slot0.actExtraBtn)
-	slot0.remasterBtn = slot0:findTF("buttons/btn_remaster", slot0.leftChapter)
-	slot0.escortBar = slot0:findTF("escort_bar", slot0.leftChapter)
-	slot0.eliteQuota = slot0:findTF("elite_quota", slot0.leftChapter)
-	slot0.skirmishBar = slot0:findTF("left_times", slot0.leftChapter)
-	slot0.mainLayer = slot0:findTF("main")
+	slot0.btnPrev = slot0.leftChapter:Find("btn_prev")
+	slot0.btnPrevCol = slot0.leftChapter:Find("btn_prev/prev_image")
+	slot0.eliteBtn = slot0.leftChapter:Find("buttons/btn_elite")
+	slot0.normalBtn = slot0.leftChapter:Find("buttons/btn_normal")
+	slot0.actNormalBtn = slot0.leftChapter:Find("buttons/btn_act_normal")
+	slot0.actEliteBtn = slot0.leftChapter:Find("buttons/btn_act_elite")
+	slot0.actExtraBtn = slot0.leftChapter:Find("buttons/btn_act_extra")
+	slot0.actExtraBtnAnim = slot0.actExtraBtn:Find("usm")
+	slot0.remasterBtn = slot0.leftChapter:Find("buttons/btn_remaster")
+	slot0.escortBar = slot0.leftChapter:Find("escort_bar")
+	slot0.eliteQuota = slot0.leftChapter:Find("elite_quota")
+	slot0.skirmishBar = slot0.leftChapter:Find("left_times")
+	slot0.mainLayer = slot0._tf:Find("main")
 
 	setActive(slot0.mainLayer:Find("title_chapter_lines"), false)
 
-	slot0.rightChapter = slot0:findTF("main/right_chapter")
+	slot0.rightChapter = slot0._tf:Find("main/right_chapter")
 	slot0.rightCanvasGroup = slot0.rightChapter:GetComponent(typeof(CanvasGroup))
-	slot0.eventContainer = slot0:findTF("event_btns/event_container", slot0.rightChapter)
-	slot0.btnSpecial = slot0:findTF("btn_task", slot0.eventContainer)
-	slot0.challengeBtn = slot0:findTF("btn_challenge", slot0.eventContainer)
-	slot0.dailyBtn = slot0:findTF("btn_daily", slot0.eventContainer)
-	slot0.militaryExerciseBtn = slot0:findTF("btn_pvp", slot0.eventContainer)
-	slot0.activityBtn = slot0:findTF("event_btns/activity_btn", slot0.rightChapter)
-	slot0.ptTotal = slot0:findTF("event_btns/pt_text", slot0.rightChapter)
-	slot0.ticketTxt = slot0:findTF("event_btns/tickets/Text", slot0.rightChapter)
-	slot0.remasterAwardBtn = slot0:findTF("btn_remaster_award", slot0.rightChapter)
-	slot0.btnNext = slot0:findTF("btn_next", slot0.rightChapter)
-	slot0.btnNextCol = slot0:findTF("btn_next/next_image", slot0.rightChapter)
-	slot0.countDown = slot0:findTF("event_btns/count_down", slot0.rightChapter)
+	slot0.eventContainer = slot0.rightChapter:Find("event_btns/event_container")
+	slot0.btnSpecial = slot0.eventContainer:Find("btn_task")
+	slot0.challengeBtn = slot0.eventContainer:Find("btn_challenge")
+	slot0.dailyBtn = slot0.eventContainer:Find("btn_daily")
+	slot0.militaryExerciseBtn = slot0.eventContainer:Find("btn_pvp")
+	slot0.activityBtn = slot0.rightChapter:Find("event_btns/activity_btn")
+	slot0.ptTotal = slot0.rightChapter:Find("event_btns/pt_text")
+	slot0.ticketTxt = slot0.rightChapter:Find("event_btns/tickets/Text")
+	slot0.remasterAwardBtn = slot0.rightChapter:Find("btn_remaster_award")
+	slot0.btnNext = slot0.rightChapter:Find("btn_next")
+	slot0.btnNextCol = slot0.rightChapter:Find("btn_next/next_image")
+	slot0.countDown = slot0.rightChapter:Find("event_btns/count_down")
 
-	setActive(slot0:findTF("event_btns/BottomList", slot0.rightChapter), true)
+	setActive(slot0.rightChapter:Find("event_btns/BottomList"), true)
 
-	slot0.actExchangeShopBtn = slot0:findTF("event_btns/BottomList/btn_exchange", slot0.rightChapter)
-	slot0.actAtelierBuffBtn = slot0:findTF("event_btns/BottomList/btn_control_center", slot0.rightChapter)
+	slot0.actExchangeShopBtn = slot0.rightChapter:Find("event_btns/BottomList/btn_exchange")
+	slot0.actAtelierBuffBtn = slot0.rightChapter:Find("event_btns/BottomList/btn_control_center")
+	slot0.actAtelierYumiaBuffBtn = slot0.rightChapter:Find("event_btns/BottomList/btn_yumia_buff")
 	slot1 = slot0.rightChapter
-	slot0.actAtelierYumiaBuffBtn = slot1:Find("event_btns/BottomList/btn_yumia_buff")
-	slot0.actExtraRank = slot0:findTF("event_btns/BottomList/act_extra_rank", slot0.rightChapter)
+	slot0.actExtraRank = slot1:Find("event_btns/BottomList/act_extra_rank")
 
 	setActive(slot0.rightChapter, true)
 
-	slot5 = slot0.topPanel
-	slot0.damageTextTemplate = go(slot0:findTF("damage", slot5))
+	slot0.damageTextTemplate = go(slot0.topPanel:Find("damage"))
 
 	setActive(slot0.damageTextTemplate, false)
 
@@ -240,37 +241,38 @@ slot0.initUI = function(slot0)
 		slot0.damageTextTemplate
 	}
 	slot0.damageTextActive = {}
-	slot0.mapHelpBtn = slot0:findTF("help_button", slot0.topPanel)
-	slot0.avoidText = slot0:findTF("text_avoid", slot0.topPanel)
-	slot0.commanderTinkle = slot0:findTF("neko_tinkle", slot0.topPanel)
+	slot0.mapHelpBtn = slot0.topPanel:Find("help_button")
+	slot0.avoidText = slot0.topPanel:Find("text_avoid")
+	slot0.commanderTinkle = slot0.topPanel:Find("neko_tinkle")
 
 	setActive(slot0.commanderTinkle, false)
 
-	slot0.spResult = slot0:findTF("sp_result", slot0.topPanel)
+	slot0.spResult = slot0.topPanel:Find("sp_result")
 
 	setActive(slot0.spResult, false)
 
-	slot0.helpPage = slot0:findTF("help_page", slot0.topPanel)
-	slot0.helpImage = slot0:findTF("icon", slot0.helpPage)
+	slot0.helpPage = slot0.topPanel:Find("help_page")
+	slot0.helpImage = slot0.helpPage:Find("icon")
 
 	setActive(slot0.helpPage, false)
 
-	slot0.curtain = slot0:findTF("curtain", slot0.topPanel)
+	slot0.curtain = slot0.topPanel:Find("curtain")
 
 	setActive(slot0.curtain, false)
 
-	slot0.map = slot0:findTF("maps")
+	slot1 = slot0._tf
+	slot0.map = slot1:Find("maps")
 	slot4 = "maps/map2"
 	slot0.mapTFs = {
-		slot0:findTF("maps/map1"),
-		slot0:findTF(slot4)
+		slot0._tf:Find("maps/map1"),
+		slot0._tf:Find(slot4)
 	}
 
 	for slot4, slot5 in ipairs(slot0.mapTFs) do
 		slot5:GetComponent(typeof(Image)).enabled = false
 	end
 
-	slot0.UIFXList = slot0:findTF("maps/UI_FX_list")
+	slot0.UIFXList = slot0._tf:Find("maps/UI_FX_list")
 
 	for slot5, slot6 in ipairs(slot0.UIFXList:GetComponentsInChildren(typeof(Renderer)):ToTable()) do
 		slot6.sortingOrder = -1
@@ -290,13 +292,13 @@ slot0.initUI = function(slot0)
 	setActive(slot0.levelGrid, true)
 
 	slot0.dragLayer = slot0.levelGrid:Find("DragLayer")
-	slot0.float = slot0:findTF("float")
-	slot0.clouds = slot0:findTF("clouds", slot0.float)
+	slot0.float = slot0._tf:Find("float")
+	slot0.clouds = slot0.float:Find("clouds")
 
 	setActive(slot0.clouds, true)
 	setActive(slot0.float:Find("levels"), false)
 
-	slot0.resources = slot0:findTF("resources"):GetComponent("ItemList")
+	slot0.resources = slot0._tf:Find("resources"):GetComponent("ItemList")
 	slot0.arrowTarget = slot0.resources.prefabItem[0]
 	slot0.destinationMarkTpl = slot0.resources.prefabItem[1]
 	slot0.championTpl = slot0.resources.prefabItem[3]
@@ -307,7 +309,7 @@ slot0.initUI = function(slot0)
 	slot0.subTpl = slot0.resources.prefabItem[9]
 	slot0.transportTpl = slot0.resources.prefabItem[11]
 
-	setText(slot0:findTF("fighting/Text", slot0.enemyTpl), i18n("ui_word_levelui2_inevent"))
+	setText(tf(slot0.enemyTpl):Find("fighting/Text"), i18n("ui_word_levelui2_inevent"))
 	slot0:HideBtns()
 	setAnchoredPosition(slot0.topChapter, {
 		y = 0
@@ -435,7 +437,7 @@ end
 slot0.didEnter = function(slot0)
 	slot0.openedCommanerSystem = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommanderCatMediator")
 
-	onButton(slot0, slot0:findTF("back_button", slot0.topChapter), function ()
+	onButton(slot0, slot0.topChapter:Find("back_button"), function ()
 		if uv0:isfrozen() then
 			return
 		end
@@ -801,7 +803,7 @@ slot0.onBackPressed = function(slot0)
 		return
 	end
 
-	triggerButton(slot0:findTF("back_button", slot0.topChapter))
+	triggerButton(slot0.topChapter:Find("back_button"))
 end
 
 slot0.ShowEntranceUI = function(slot0, slot1)
@@ -870,7 +872,7 @@ end
 
 slot0.setEliteQuota = function(slot0, slot1, slot2)
 	slot3 = slot2 - slot1
-	slot5 = slot0:findTF("bg/Text", slot0.eliteQuota):GetComponent(typeof(Text))
+	slot5 = slot0.eliteQuota:Find("bg/Text"):GetComponent(typeof(Text))
 
 	if slot1 == slot2 then
 		slot5.color = Color.red
@@ -1002,7 +1004,7 @@ slot0.updateClouds = function(slot0)
 	slot0.cloudTimer = {}
 
 	for slot4 = 1, 6 do
-		slot6 = rtf(slot0:findTF("cloud_" .. slot4, slot0.clouds))
+		slot6 = rtf(slot0.clouds:Find("cloud_" .. slot4))
 
 		table.insert(slot0.cloudRTFs, slot6)
 		table.insert(slot0.cloudRects, slot6.rect.width)

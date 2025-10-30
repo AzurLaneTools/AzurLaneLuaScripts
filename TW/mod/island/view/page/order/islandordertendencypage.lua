@@ -8,14 +8,14 @@ slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot0.toggles = {
-		[IslandOrderSlot.TENDENCY_TYPE_COMMON] = slot0:findTF("toggle/1"),
-		[IslandOrderSlot.TENDENCY_TYPE_EASY] = slot0:findTF("toggle/0"),
-		[IslandOrderSlot.TENDENCY_TYPE_HARD] = slot0:findTF("toggle/2")
+		[IslandOrderSlot.TENDENCY_TYPE_COMMON] = slot0._tf:Find("toggle/1"),
+		[IslandOrderSlot.TENDENCY_TYPE_EASY] = slot0._tf:Find("toggle/0"),
+		[IslandOrderSlot.TENDENCY_TYPE_HARD] = slot0._tf:Find("toggle/2")
 	}
 
-	setText(slot0:findTF("toggle/0/Text"), i18n("island_order_difficulty_2"))
-	setText(slot0:findTF("toggle/1/Text"), i18n("island_order_difficulty_1"))
-	setText(slot0:findTF("toggle/2/Text"), i18n("island_order_difficulty_3"))
+	setText(slot0._tf:Find("toggle/0/Text"), i18n("island_order_difficulty_2"))
+	setText(slot0._tf:Find("toggle/1/Text"), i18n("island_order_difficulty_1"))
+	setText(slot0._tf:Find("toggle/2/Text"), i18n("island_order_difficulty_3"))
 end
 
 slot0.OnInit = function(slot0)

@@ -94,6 +94,58 @@ slot0.getIcon = function(slot0)
 	end)
 end
 
+slot0.getDefaultIcon = function(slot0)
+	return switch(slot0.type, {
+		[DROP_TYPE_DORM3D_FURNITURE] = function ()
+			return "props/missing_icon_dorm"
+		end,
+		[DROP_TYPE_DORM3D_GIFT] = function ()
+			return "props/missing_icon_dorm"
+		end,
+		[DROP_TYPE_DORM3D_SKIN] = function ()
+			return "props/missing_icon_dorm"
+		end,
+		[DROP_TYPE_ISLAND_ITEM] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_OVERFLOWITEM] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_ABILITY] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_INVITATION] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_FURNITURE] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_COLLECTION_FRAMENT] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_COLLECTION] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_ACTION] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_CARD_DIY] = function ()
+			return "props/missing_icon_island"
+		end
+	}, function ()
+		return "props/missing_icon"
+	end)
+end
+
 slot0.getIslandRarity = function(slot0)
 	return switch(slot0.type, {
 		[DROP_TYPE_ISLAND_ITEM] = function ()
@@ -332,9 +384,10 @@ slot0.InitSwitch = function()
 			return slot1
 		end,
 		[DROP_TYPE_ISLAND_ITEM] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.island_item_data_template[slot0.id]
+			slot0.desc = slot1.desc
 
-			return pg.island_item_data_template[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_ISLAND_ABILITY] = function (slot0)
 			slot0.desc = ""
@@ -347,24 +400,28 @@ slot0.InitSwitch = function()
 			return pg.island_chara_template[slot0.id]
 		end,
 		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.island_furniture_template[slot0.id]
+			slot0.desc = slot1.describe
 
-			return pg.island_furniture_template[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_ISLAND_DRESS] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.island_dress_template[slot0.id]
+			slot0.desc = slot1.desc
 
-			return pg.island_dress_template[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.island_skin_template[slot0.id]
+			slot0.desc = slot1.desc
 
-			return pg.island_skin_template[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_ISLAND_ACTION] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.island_action[slot0.id]
+			slot0.desc = slot1.desc
 
-			return pg.island_action[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function (slot0)
 			slot1 = pg.island_speedup_ticket[slot0.id]
@@ -373,7 +430,10 @@ slot0.InitSwitch = function()
 			return slot1
 		end,
 		[DROP_TYPE_ISLAND_CARD_DIY] = function (slot0)
-			return pg.island_card_diy[slot0.id]
+			slot1 = pg.island_card_diy[slot0.id]
+			slot0.desc = slot1.desc
+
+			return slot1
 		end,
 		[DROP_TYPE_TRANS_ITEM] = function (slot0)
 			return pg.drop_data_restore[slot0.id]

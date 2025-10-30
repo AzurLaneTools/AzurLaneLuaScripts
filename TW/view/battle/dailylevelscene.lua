@@ -12,34 +12,34 @@ slot0.ResUISettings = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
-	slot0.backBtn = slot0:findTF("back_button", slot0.topPanel)
-	slot0.listPanel = slot0:findTF("list_panel")
-	slot0.content = slot0:findTF("list", slot0.listPanel)
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.topPanel = slot0._tf:Find("blur_panel/adapt/top")
+	slot0.backBtn = slot0.topPanel:Find("back_button")
+	slot0.listPanel = slot0._tf:Find("list_panel")
+	slot0.content = slot0.listPanel:Find("list")
 
 	setActive(slot0.content, true)
 
 	slot0.dailylevelTpl = slot0:getTpl("list_panel/list/captertpl")
-	slot0.descPanel = slot0:findTF("desc_panel")
+	slot0.descPanel = slot0._tf:Find("desc_panel")
 	slot0.selectedPanel = slot0.descPanel:Find("selected")
-	slot0.descMain = slot0:findTF("main_mask/main", slot0.descPanel)
+	slot0.descMain = slot0.descPanel:Find("main_mask/main")
 	slot0.stageTpl = slot0:getTpl("scrollview/content/stagetpl", slot0.descMain)
-	slot0.stageScrollRect = slot0:findTF("scrollview", slot0.descMain):GetComponent(typeof(ScrollRect))
-	slot0.stageContain = slot0:findTF("scrollview/content", slot0.descMain)
-	slot0.arrows = slot0:findTF("arrows")
+	slot0.stageScrollRect = slot0.descMain:Find("scrollview"):GetComponent(typeof(ScrollRect))
+	slot0.stageContain = slot0.descMain:Find("scrollview/content")
+	slot0.arrows = slot0._tf:Find("arrows")
 	slot0.itemTpl = slot0:getTpl("item_tpl")
 	slot0.selStageTF = slot0.selectedPanel:Find("stagetpl/info")
 	slot0.selQuicklyTF = slot0.selStageTF.parent:Find("quickly/bg")
 	slot0.selQuicklyTFSizeDeltaY = slot0.selQuicklyTF.sizeDelta.y
-	slot0.descChallengeNum = slot0:findTF("challenge_count", slot0.descMain)
-	slot0.descChallengeText = slot0:findTF("Text", slot0.descChallengeNum)
-	slot0.challengeQuotaDaily = slot0:findTF("challenge_count/label", slot0.descMain)
-	slot0.challengeQuotaWeekly = slot0:findTF("challenge_count/week_label", slot0.descMain)
-	slot0.fleetEditView = slot0:findTF("fleet_edit")
-	slot0.resource = slot0:findTF("resource")
-	slot0.rightBtn = slot0:findTF("arrows/arrow1")
-	slot0.leftBtn = slot0:findTF("arrows/arrow2")
+	slot0.descChallengeNum = slot0.descMain:Find("challenge_count")
+	slot0.descChallengeText = slot0.descChallengeNum:Find("Text")
+	slot0.challengeQuotaDaily = slot0.descMain:Find("challenge_count/label")
+	slot0.challengeQuotaWeekly = slot0.descMain:Find("challenge_count/week_label")
+	slot0.fleetEditView = slot0._tf:Find("fleet_edit")
+	slot0.resource = slot0._tf:Find("resource")
+	slot0.rightBtn = slot0._tf:Find("arrows/arrow1")
+	slot0.leftBtn = slot0._tf:Find("arrows/arrow2")
 
 	slot0:initItems()
 end
@@ -65,7 +65,7 @@ slot0.updateRes = function(slot0, slot1)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("help_btn"), function ()
+	onButton(slot0, slot0._tf:Find("help_btn"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_daily_task.tip
@@ -220,10 +220,10 @@ slot0.displayDailyLevels = function(slot0)
 					uv0.centerCardId = slot3
 				end
 
-				if uv0:findTF("icon/card", slot4) then
-					setActive(uv0:findTF("effect", slot7), slot6)
+				if slot4:Find("icon/card") then
+					setActive(slot7:Find("effect"), slot6)
 
-					if uv0:findTF("mask/char", slot7):GetComponent(typeof(Animator)) then
+					if slot7:Find("mask/char"):GetComponent(typeof(Animator)) then
 						slot8.speed = slot6 and 1 or 0
 					end
 				end
@@ -418,17 +418,17 @@ end
 slot0.updateStageTF = function(slot0, slot1, slot2)
 	setText(findTF(slot1, "left_panel/name"), pg.expedition_data_template[slot2.id].name)
 	setText(findTF(slot1, "left_panel/lv/Text"), "Lv." .. slot2.level)
-	setActive(slot0:findTF("mask", slot1), slot0.player.level < slot2.level)
+	setActive(slot1:Find("mask"), slot0.player.level < slot2.level)
 
 	if slot0.player.level < slot2.level then
-		setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot2.level .. " ")
+		setText(slot4:Find("msg/msg_contain/Text"), "Lv." .. slot2.level .. " ")
 
 		if PLATFORM_CODE == PLATFORM_US then
-			slot0:findTF("msg/msg_contain/Text", slot4):SetAsLastSibling()
+			slot4:Find("msg/msg_contain/Text"):SetAsLastSibling()
 		end
 	end
 
-	slot5 = UIItemList.New(slot0:findTF("scrollView/right_panel", slot1), slot0.itemTpl)
+	slot5 = UIItemList.New(slot1:Find("scrollView/right_panel"), slot0.itemTpl)
 
 	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -638,8 +638,9 @@ end
 
 slot0.enableDescMode = function(slot0, slot1, slot2)
 	slot0.descMode = slot1
+	slot4 = slot0._tf
 
-	setActive(slot0:findTF("help_btn"), not slot1)
+	setActive(slot4:Find("help_btn"), not slot1)
 
 	slot3 = function(slot0, slot1, slot2)
 		if LeanTween.isTweening(go(slot0)) then
@@ -723,7 +724,7 @@ slot0.tryPlayGuide = function(slot0)
 	slot1 = pg.SystemGuideMgr.GetInstance()
 
 	slot1:PlayDailyLevel(function ()
-		triggerButton(uv0:findTF("help_btn"))
+		triggerButton(uv0._tf:Find("help_btn"))
 	end)
 end
 

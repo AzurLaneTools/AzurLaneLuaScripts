@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"属于彼此的甜蜜饼干\n\n<size=45>五　制作之余的休息时间</size>",
+					"屬於彼此的甜蜜餅乾\n\n<size=45>5.製作之餘的休息時間</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一起清理掉脸上面粉的痕迹后，我与豪继续按部就班地分工制作着饼干。",
+			say = "一起清理掉臉上麵粉的痕跡後，我與豪繼續按部就班地分工製作著餅乾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "终于，在将饼干送入烤箱后，豪来到我身边，拉着我到一旁坐下。",
+			say = "終於，在將餅乾送入烤箱後，豪來到我身邊，拉著我到一旁坐下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "饼干要烤20分钟左右，这个时间……",
+			say = "餅乾要烤20分鐘左右，這個時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我帮你按摩一下手臂吧？",
+			say = "指揮官，我幫你按摩手臂吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。因为你刚刚一直在搅拌嘛，就算现在不累，明天可能也会酸痛的。",
+			say = "嗯。因為你剛剛一直在攪拌嘛，就算現在不累，明天可能也會酸痛的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是因为经常会做小饼干，所以肌肉早就习惯了~",
+			say = "我是因為常常會做小餅乾，所以肌肉早就習慣了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官不一样。所以就让我帮你按摩吧，稍稍放松一会儿。",
+			say = "指揮官不一樣。所以就讓我幫你按摩吧，稍微放鬆一會兒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女一脸认真地看着我。",
+			say = "少女一臉認真地看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那就麻烦你了。",
+			say = "那就麻煩妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "交给我吧~",
+			say = "交給我吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "豪将我的袖子整齐地往上卷着，推到了大臂上方。",
+			say = "豪將我的袖子整齊地往上捲著，推到了大臂上方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "温暖而柔软的手落在我的手臂上，力道适中地揉捏了起来。",
+			say = "溫暖柔軟的手落在我的手臂上，力道適中地揉捏了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "浓密的长睫毛之下，少女目光专注。",
+			say = "濃密的長睫毛之下，少女目光專注。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "手臂因长时间的搅拌动作而略微僵硬的肌肉，在她的按摩下，也逐渐放松下来。",
+			say = "手臂因長時間的攪拌動作而略微僵硬的肌肉，在她的按摩下，也逐漸放鬆下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "我们沉默着，只有仍在呼呼作响的烤箱，与愈发躁动的心跳。",
+			say = "我們沉默著，只有仍在呼呼作響的烤箱，與愈發躁動的心跳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，这样就好了。",
+			say = "嗯，這樣就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "豪说着将我的袖子重新归位，整理平整。",
+			say = "豪說著將我的袖子重新歸位，整理平整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "此时烤箱也发出了结束烘烤的提示音。",
+			say = "此時烤箱也發出了結束烘烤的提示音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正好~我们的饼干烤好了呢，过去看看吧。",
+			say = "剛好~我們的餅乾烤好了呢，過去看看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

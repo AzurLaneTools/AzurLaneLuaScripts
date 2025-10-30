@@ -42,15 +42,15 @@ slot0.getTaskById = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("bg/top/back")
-	slot0.mainPanel = slot0:findTF("bg/main")
-	slot0.scrollRect = slot0:findTF("scroll_rect", slot0.mainPanel)
-	slot0.taskGorupContainer = slot0:findTF("scroll_rect/content", slot0.mainPanel)
+	slot0.backBtn = slot0._tf:Find("bg/top/back")
+	slot0.mainPanel = slot0._tf:Find("bg/main")
+	slot0.scrollRect = slot0.mainPanel:Find("scroll_rect")
+	slot0.taskGorupContainer = slot0.mainPanel:Find("scroll_rect/content")
 	slot0.taskGorupTpl = slot0:getTpl("taskGroup", slot0.taskGorupContainer)
 	slot0.offset = Vector2(slot0.taskGorupTpl.rect.width / 2 + 30, slot0.taskGorupTpl.rect.height / 2 + 30)
-	slot0.taskGroupDesc = slot0:findTF("taskGroup_desc", slot0.taskGorupContainer)
-	slot0.bottomPanel = slot0:findTF("bg/bottom")
-	slot0.bottomTaskGroups = slot0:findTF("taskGroups", slot0.bottomPanel)
+	slot0.taskGroupDesc = slot0.taskGorupContainer:Find("taskGroup_desc")
+	slot0.bottomPanel = slot0._tf:Find("bg/bottom")
+	slot0.bottomTaskGroups = slot0.bottomPanel:Find("taskGroups")
 	slot0.bottomBTpl = slot0:getTpl("bottom_task_tpl", slot0.bottomTaskGroups)
 	slot0.startPosition = slot0.taskGorupContainer.localPosition
 	slot0.titles = {}
@@ -160,8 +160,8 @@ end
 
 slot0.updateTaskGroupDesc = function(slot0, slot1)
 	slot5 = nil
-	slot0:findTF("main/desc", slot0.taskGroupDesc):Find("Image"):GetComponent(typeof(Image)).sprite = (not slot0.titles[slot1] or slot0.titles[slot1]) and GetSpriteFromAtlas("ui/anniversaryui_atlas", "title" .. slot1)
-	slot6 = slot0:findTF("main/task_list", slot0.taskGroupDesc)
+	slot0.taskGroupDesc:Find("main/desc"):Find("Image"):GetComponent(typeof(Image)).sprite = (not slot0.titles[slot1] or slot0.titles[slot1]) and GetSpriteFromAtlas("ui/anniversaryui_atlas", "title" .. slot1)
+	slot6 = slot0.taskGroupDesc:Find("main/task_list")
 
 	setText(slot3, i18n("anniversary_task_title_" .. slot1))
 
@@ -185,7 +185,7 @@ slot0.updateTaskGroupDesc = function(slot0, slot1)
 		setActive(slot0:Find("confirm_btn/finished"), slot2:isReceive())
 		setActive(slot0:Find("confirm_btn/get"), slot2:isFinish() and not slot2:isReceive())
 
-		slot3 = uv0:findTF("icon", slot0)
+		slot3 = slot0:Find("icon")
 		slot5 = slot2:getConfig("award_display")[1]
 
 		updateDrop(slot3, {
@@ -207,9 +207,9 @@ slot0.updateTaskGroupDesc = function(slot0, slot1)
 			end
 		end, SFX_PANEL)
 
-		uv0:findTF("slider", slot0):GetComponent(typeof(Slider)).value = slot2:getProgress() / slot2:getConfig("target_num")
+		slot0:Find("slider"):GetComponent(typeof(Slider)).value = slot2:getProgress() / slot2:getConfig("target_num")
 
-		setText(uv0:findTF("slider/Text", slot0), slot2:getProgress() .. "/" .. slot2:getConfig("target_num"))
+		setText(slot0:Find("slider/Text"), slot2:getProgress() .. "/" .. slot2:getConfig("target_num"))
 	end
 
 	slot0.ulist = UIItemList.New(slot6, slot6:Find("task_tpl"))

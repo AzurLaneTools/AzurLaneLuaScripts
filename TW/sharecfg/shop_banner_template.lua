@@ -82,10 +82,10 @@ pg.shop_banner_template = {
 		name = "banner_big",
 		type = 2,
 		time_lable = 1,
-		pic = "shopbanner/shop_skin",
+		pic = "shopbanner/shop_skin3",
 		id = 12,
 		relation_param = "",
-		order = 10,
+		order = 8,
 		time = {
 			{
 				{
@@ -121,10 +121,10 @@ pg.shop_banner_template = {
 		name = "banner_big",
 		type = 2,
 		time_lable = 1,
-		pic = "shopbanner/shop_skin2",
+		pic = "shopbanner/shop_skin4",
 		id = 13,
 		relation_param = "",
-		order = 9,
+		order = 7,
 		time = {
 			{
 				{

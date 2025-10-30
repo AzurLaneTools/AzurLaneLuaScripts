@@ -37,7 +37,7 @@ return {
 			},
 			movableNode = {
 				{
-					name = "fengfan_haigu03",
+					name = "fengfan_haigu_boss01",
 					time = 1000,
 					spine = {
 						action = "",

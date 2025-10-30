@@ -101,14 +101,14 @@ slot0.calculateCurBuff = function(slot0, slot1, slot2)
 end
 
 slot0.findUI = function(slot0)
-	slot0.scrollRect = slot0:findTF("Scroll View")
-	slot0.tecItemContainer = slot0:findTF("Scroll View/Viewport/Content")
+	slot0.scrollRect = slot0._tf:Find("Scroll View")
+	slot0.tecItemContainer = slot0._tf:Find("Scroll View/Viewport/Content")
 	slot0.scrollRectCom = GetComponent(slot0.scrollRect, "ScrollRect")
-	slot0.tecItemTpl = slot0:findTF("CampTecItem")
-	slot0.typeItemTpl = slot0:findTF("TypeItem")
-	slot0.buffItemTpl = slot0:findTF("BuffItem")
+	slot0.tecItemTpl = slot0._tf:Find("CampTecItem")
+	slot0.typeItemTpl = slot0._tf:Find("TypeItem")
+	slot0.buffItemTpl = slot0._tf:Find("BuffItem")
 	slot0.tecItemTplOriginWidth = slot0.tecItemTpl.rect.width
-	slot0.oneStepBtn = slot0:findTF("OneStepBtn")
+	slot0.oneStepBtn = slot0._tf:Find("OneStepBtn")
 
 	if not LOCK_TEC_NATION_AWARD then
 		slot0.awardTpl = Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0])
@@ -119,7 +119,7 @@ slot0.findUI = function(slot0)
 		slot1.preferredWidth = 204
 		slot1.preferredHeight = 206
 
-		setText(slot0:findTF("CampTecItem/AwardPanel/FinishBtn/Text"), i18n("tec_nation_award_finish"))
+		setText(slot0._tf:Find("CampTecItem/AwardPanel/FinishBtn/Text"), i18n("tec_nation_award_finish"))
 	else
 		setActive(slot0.oneStepBtn, false)
 	end
@@ -156,21 +156,21 @@ end
 slot0.updateTecItem = function(slot0, slot1)
 	slot2 = slot0.panelList[slot1]
 
-	slot0:updateTecLevelAward(slot0:findTF("AwardPanel", slot2), slot1)
+	slot0:updateTecLevelAward(slot2:Find("AwardPanel"), slot1)
 
-	slot4 = slot0:findTF("BaseInfo", slot2)
-	slot6 = slot0:findTF("BG/UpLevelColor", slot4)
-	slot10 = slot0:findTF("UpLevelBG", slot4)
-	slot11 = slot0:findTF("UpLevelBtn", slot10)
-	slot12 = slot0:findTF("FinishBtn", slot10)
-	slot14 = slot0:findTF("Text", slot0:findTF("Uping", slot4))
+	slot4 = slot2:Find("BaseInfo")
+	slot6 = slot4:Find("BG/UpLevelColor")
+	slot10 = slot4:Find("UpLevelBG")
+	slot11 = slot10:Find("UpLevelBtn")
+	slot12 = slot10:Find("FinishBtn")
+	slot14 = slot4:Find("Uping"):Find("Text")
 	slot21 = pg.fleet_tech_group[slot1].nation[1]
 
-	setImageSprite(slot0:findTF("NationBG", slot4), GetSpriteFromAtlas("TecNation", "camptec_nation_bar_" .. slot21))
-	setImageSprite(slot0:findTF("NationTextImg", slot0:findTF("Code", slot4)), GetSpriteFromAtlas("TecNation", "camptec_nation_text_" .. slot21), true)
-	setImageSprite(slot0:findTF("EnglishTextImg", slot4), GetSpriteFromAtlas("TecNation", "camp_tec_english_" .. slot21), true)
-	setImageSprite(slot0:findTF("CampLogo", slot4), GetSpriteFromAtlas("TecNation", "camptec_logo_" .. slot21))
-	setText(slot0:findTF("BG/Title/Text", slot4), pg.fleet_tech_group[slot1].name)
+	setImageSprite(slot4:Find("NationBG"), GetSpriteFromAtlas("TecNation", "camptec_nation_bar_" .. slot21))
+	setImageSprite(slot4:Find("Code"):Find("NationTextImg"), GetSpriteFromAtlas("TecNation", "camptec_nation_text_" .. slot21), true)
+	setImageSprite(slot4:Find("EnglishTextImg"), GetSpriteFromAtlas("TecNation", "camp_tec_english_" .. slot21), true)
+	setImageSprite(slot4:Find("CampLogo"), GetSpriteFromAtlas("TecNation", "camptec_logo_" .. slot21))
+	setText(slot4:Find("BG/Title/Text"), pg.fleet_tech_group[slot1].name)
 
 	slot22, slot23 = nil
 	slot22 = not slot0.tecList[slot1] and 0 or table.indexof(pg.fleet_tech_group[slot1].techs, slot0.tecList[slot1].completeID, 1) or 0
@@ -178,9 +178,9 @@ slot0.updateTecItem = function(slot0, slot1)
 	slot25 = nil
 	slot25 = (slot22 ~= 0 or pg.fleet_tech_template[pg.fleet_tech_group[slot1].techs[1]].pt) and (slot22 ~= #pg.fleet_tech_group[slot1].techs or pg.fleet_tech_template[pg.fleet_tech_group[slot1].techs[slot22]].pt) and pg.fleet_tech_template[pg.fleet_tech_group[slot1].techs[slot22 + 1]].pt
 
-	BaseUI:setImageAmount(slot0:findTF("ProgressBarBG/Progress", slot4), 0.1 + 0.8 * slot24 / slot25)
-	setText(slot0:findTF("LevelText/Text", slot4), slot22)
-	setText(slot0:findTF("PointTextBar", slot4), slot24 .. "/" .. slot25)
+	BaseUI:setImageAmount(slot4:Find("ProgressBarBG/Progress"), 0.1 + 0.8 * slot24 / slot25)
+	setText(slot4:Find("LevelText/Text"), slot22)
+	setText(slot4:Find("PointTextBar"), slot24 .. "/" .. slot25)
 
 	slot26 = function(slot0, slot1, slot2)
 		setActive(uv0, slot0)
@@ -228,12 +228,12 @@ slot0.updateTecItem = function(slot0, slot1)
 		uv0:emit(TechnologyConst.CLICK_UP_TEC_BTN, uv1, uv2)
 	end, SFX_PANEL)
 
-	slot27 = slot0:findTF("Mask/DetailPanel", slot2)
+	slot27 = slot2:Find("Mask/DetailPanel")
 	slot28 = GetComponent(slot2, "LayoutElement")
-	slot29 = slot0:findTF("Toggle", slot27)
+	slot29 = slot27:Find("Toggle")
 
 	slot0:updateDetailPanel(slot27, slot22, slot1, slot21, false)
-	onToggle(slot0, slot0:findTF("BG", slot4), function (slot0)
+	onToggle(slot0, slot4:Find("BG"), function (slot0)
 		if slot0 then
 			triggerToggle(uv0, false)
 
@@ -264,11 +264,11 @@ slot0.updateTecItem = function(slot0, slot1)
 end
 
 slot0.updateDetailPanel = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6 = slot0:findTF("TypeItemContainer", slot1)
+	slot6 = slot1:Find("TypeItemContainer")
 
-	setImageSprite(slot0:findTF("BG/Logo", slot1), GetSpriteFromAtlas("TecNation", "camptec_logo_" .. slot4))
+	setImageSprite(slot1:Find("BG/Logo"), GetSpriteFromAtlas("TecNation", "camptec_logo_" .. slot4))
 
-	slot8 = slot0:findTF("Toggle", slot1)
+	slot8 = slot1:Find("Toggle")
 
 	if slot2 == #pg.fleet_tech_group[slot3].techs and slot5 == false then
 		setActive(slot8, false)
@@ -337,11 +337,11 @@ slot0.updateDetailPanel = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		slot3:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
-				slot4 = uv0:findTF("BuffItemContainer", slot2)
-				slot5 = uv1[slot1 + 1]
+				slot4 = slot2:Find("BuffItemContainer")
+				slot5 = uv0[slot1 + 1]
 
-				setImageSprite(uv0:findTF("TypeIcon", slot2), GetSpriteFromAtlas("ShipType", "buffitem_tec_" .. slot5))
-				uv0:upBuffList(slot2, uv2[slot5])
+				setImageSprite(slot2:Find("TypeIcon"), GetSpriteFromAtlas("ShipType", "buffitem_tec_" .. slot5))
+				uv1:upBuffList(slot2, uv2[slot5])
 			end
 		end)
 		slot3:align(#slot11)
@@ -361,16 +361,16 @@ slot0.updateDetailPanel = function(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 slot0.upBuffList = function(slot0, slot1, slot2)
-	slot4 = UIItemList.New(slot0:findTF("BuffItemContainer", slot1), slot0.buffItemTpl)
+	slot4 = UIItemList.New(slot1:Find("BuffItemContainer"), slot0.buffItemTpl)
 
 	slot4:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot8 = uv1[slot1 + 1].valueColor
+			slot8 = uv0[slot1 + 1].valueColor
 
-			setText(uv0:findTF("AttrText", slot2), AttributeType.Type2Name(pg.attribute_info_by_type[uv1[slot1 + 1].attr].name))
-			setText(uv0:findTF("ValueText", slot2), "+" .. uv1[slot1 + 1].value)
+			setText(slot2:Find("AttrText"), AttributeType.Type2Name(pg.attribute_info_by_type[uv0[slot1 + 1].attr].name))
+			setText(slot2:Find("ValueText"), "+" .. uv0[slot1 + 1].value)
 
-			if uv1[slot1 + 1].attrColor then
+			if uv0[slot1 + 1].attrColor then
 				setTextColor(slot3, slot7)
 			else
 				setTextColor(slot3, Color.white)
@@ -393,13 +393,13 @@ slot0.updateTecLevelAward = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = slot0:findTF("AwardItem")
-	slot5 = UIItemList.New(slot0:findTF("ItemContainer", slot1), slot0.awardTpl)
-	slot6 = slot0:findTF("Level", slot1)
-	slot7 = slot0:findTF("Level/Num", slot1)
-	slot8 = slot0:findTF("GetBtn", slot1)
-	slot9 = slot0:findTF("DisGetBtn", slot1)
-	slot10 = slot0:findTF("FinishBtn", slot1)
+	slot3 = slot0._tf:Find("AwardItem")
+	slot5 = UIItemList.New(slot1:Find("ItemContainer"), slot0.awardTpl)
+	slot6 = slot1:Find("Level")
+	slot7 = slot1:Find("Level/Num")
+	slot8 = slot1:Find("GetBtn")
+	slot9 = slot1:Find("DisGetBtn")
+	slot10 = slot1:Find("FinishBtn")
 	slot12 = pg.fleet_tech_group[slot2]
 	slot15 = table.indexof(slot12.techs, slot0.nationProxy:GetTecItemByGroupID(slot2) and slot11.rewardedID or 0, 1) or 0
 	slot17 = slot15 + 1

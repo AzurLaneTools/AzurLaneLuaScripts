@@ -26,26 +26,26 @@ slot0.SetActivity = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.mapTF = slot0:findTF("map")
-	slot0.bgTFs = slot0:findTF("map/bg")
-	slot0.slotTFs = slot0:findTF("map/content")
-	slot0.slotTpl = slot0:findTF("map/content/tpl")
+	slot0.mapTF = slot0._tf:Find("map")
+	slot0.bgTFs = slot0._tf:Find("map/bg")
+	slot0.slotTFs = slot0._tf:Find("map/content")
+	slot0.slotTpl = slot0._tf:Find("map/content/tpl")
 
 	setActive(slot0.slotTpl, false)
 
-	slot1 = slot0:findTF("ui")
-	slot0.topUI = slot0:findTF("top", slot1)
-	slot0.goldText = slot0:findTF("gold/Text", slot0.topUI):GetComponent(typeof(Text))
+	slot1 = slot0._tf:Find("ui")
+	slot0.topUI = slot1:Find("top")
+	slot0.goldText = slot0.topUI:Find("gold/Text"):GetComponent(typeof(Text))
 	slot0.infoPage = TownInfoPage.New(slot1, slot0)
 
 	slot0.infoPage:ExecuteAction("Flush")
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("back", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("back"), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("help", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.town_help.tip
@@ -151,7 +151,7 @@ slot0.UpdateBubbles = function(slot0)
 
 	for slot4, slot5 in ipairs(slot0.shipIds) do
 		if slot5 > 0 and getProxy(BayProxy):RawGetShipById(slot5) then
-			setActive(slot0:findTF(slot4 .. "/bubble", slot0.slotTFs), slot0.activity:GetBubbleCntByPos(slot4) > 0)
+			setActive(slot0.slotTFs:Find(slot4 .. "/bubble"), slot0.activity:GetBubbleCntByPos(slot4) > 0)
 
 			if slot6 > 0 then
 				table.insert(slot0.bubblesPosList, slot4)
@@ -176,7 +176,7 @@ slot0.UpdateShips = function(slot0)
 end
 
 slot0.UpdateShip = function(slot0, slot1, slot2)
-	if slot0:findTF(slot1, slot0.slotTFs) then
+	if slot0.slotTFs:Find(slot1) then
 		setActive(slot3, false)
 	end
 
@@ -196,7 +196,7 @@ slot0.UpdateShip = function(slot0, slot1, slot2)
 		table.removebyvalue(slot0.randomPos, slot6)
 	end
 
-	onButton(slot0, slot0:findTF("bubble", slot3), function ()
+	onButton(slot0, slot3:Find("bubble"), function ()
 		if not uv0.bubblesPosList or #uv0.bubblesPosList <= 0 then
 			return
 		end

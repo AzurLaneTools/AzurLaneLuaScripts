@@ -4,17 +4,17 @@ slot0.TYPEWRITE_SPEED = 0.05
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
-	slot0.eventTipBig = slot0:findTF("event_tip", slot0._tf)
-	slot0.content = slot0:findTF("content", slot0._tf)
-	slot0.image = slot0:findTF("Image", slot0.content)
-	slot0.nameTF = slot0:findTF("name_bg", slot0.content)
-	slot0.nameText = slot0:findTF("name", slot0.nameTF)
-	slot0.next = slot0:findTF("next", slot0.content)
-	slot0.eventTipSmall = slot0:findTF("event_tip", slot0.content)
-	slot0.text = slot0:findTF("Text", slot0.content)
-	slot0.text2 = slot0:findTF("Text2", slot0.content)
-	slot0.resultTF = slot0:findTF("result", slot0.content)
-	slot0.resultTpl = slot0:findTF("tpl", slot0.content)
+	slot0.eventTipBig = slot0._tf:Find("event_tip")
+	slot0.content = slot0._tf:Find("content")
+	slot0.image = slot0.content:Find("Image")
+	slot0.nameTF = slot0.content:Find("name_bg")
+	slot0.nameText = slot0.nameTF:Find("name")
+	slot0.next = slot0.content:Find("next")
+	slot0.eventTipSmall = slot0.content:Find("event_tip")
+	slot0.text = slot0.content:Find("Text")
+	slot0.text2 = slot0.content:Find("Text2")
+	slot0.resultTF = slot0.content:Find("result")
+	slot0.resultTpl = slot0.content:Find("tpl")
 end
 
 slot0.Play = function(slot0, slot1, slot2)
@@ -90,16 +90,16 @@ slot0._play = function(slot0, slot1, slot2, slot3)
 
 		for slot4 = 1, #uv0.drops do
 			table.insert(slot0, function (slot0)
-				uv0.resultTF = uv0:findTF("result", uv0.content)
-				uv0.resultTpl = uv0:findTF("tpl", uv0.content)
+				uv0.resultTF = uv0.content:Find("result")
+				uv0.resultTpl = uv0.content:Find("tpl")
 				slot2 = uv1 < uv0.resultTF.childCount and uv0.resultTF:GetChild(uv1 - 1) or cloneTplTo(uv0.resultTpl, uv0.resultTF)
 
 				if uv0.drops[uv1].type == EducateConst.DROP_TYPE_BUFF then
-					setActive(uv0:findTF("icon", slot2), false)
-					setText(uv0:findTF("name", slot2), pg.child_buff[slot1.id].name)
-					setText(uv0:findTF("value", slot2), "")
+					setActive(slot2:Find("icon"), false)
+					setText(slot2:Find("name"), pg.child_buff[slot1.id].name)
+					setText(slot2:Find("value"), "")
 				else
-					setActive(uv0:findTF("icon", slot2), true)
+					setActive(slot2:Find("icon"), true)
 					EducateHelper.UpdateDropShowForAttr(slot2, slot1)
 				end
 

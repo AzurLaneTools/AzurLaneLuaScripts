@@ -7,10 +7,10 @@ end
 slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
-	slot0.closeBtn = slot0:findTF("display/top/btnBack")
-	slot0.confirm = slot0:findTF("display/actions/confirm")
-	slot0.skinViewTF = slot0:findTF("display")
-	slot0.toggleList = UIItemList.New(slot0:findTF("display/info/display_panel/combat_skin/elementList"), slot0:findTF("display/info/display_panel/combat_skin/elementList/main"))
+	slot0.closeBtn = slot0._tf:Find("display/top/btnBack")
+	slot0.confirm = slot0._tf:Find("display/actions/confirm")
+	slot0.skinViewTF = slot0._tf:Find("display")
+	slot0.toggleList = UIItemList.New(slot0._tf:Find("display/info/display_panel/combat_skin/elementList"), slot0._tf:Find("display/info/display_panel/combat_skin/elementList/main"))
 end
 
 slot0.didEnter = function(slot0)
@@ -30,8 +30,8 @@ slot0.InitPanel = function(slot0)
 	slot1 = slot0.contextData.skinID
 	slot2 = pg.item_data_battleui[slot1]
 
-	setText(slot0:findTF("info/display_panel/name_container/name", slot0.skinViewTF), slot2.name)
-	setText(slot0:findTF("info/display_panel/desc/Text", slot0.skinViewTF), slot2.desc)
+	setText(slot0.skinViewTF:Find("info/display_panel/name_container/name"), slot2.name)
+	setText(slot0.skinViewTF:Find("info/display_panel/desc/Text"), slot2.desc)
 	slot0.toggleList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -41,7 +41,7 @@ slot0.InitPanel = function(slot0)
 		end
 	end)
 	slot0.toggleList:align(#slot2.rare_display)
-	onButton(slot0, slot0:findTF("info/play_btn", slot0.skinViewTF), function ()
+	onButton(slot0, slot0.skinViewTF:Find("info/play_btn"), function ()
 		uv0.combatPreview = CombatPreviewLayer.New(pg.UIMgr.GetInstance().OverlayMain)
 
 		uv0.combatPreview:ExecuteAction("Show", uv1, function ()
@@ -50,7 +50,7 @@ slot0.InitPanel = function(slot0)
 			uv0.combatPreview = nil
 		end)
 	end, SPX_PANEL)
-	updateDrop(slot0:findTF("info/equip", slot0.skinViewTF), Drop.New({
+	updateDrop(slot0.skinViewTF:Find("info/equip"), Drop.New({
 		count = 1,
 		type = DROP_TYPE_COMBAT_UI_STYLE,
 		id = slot1

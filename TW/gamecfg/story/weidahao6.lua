@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"外出！寻得珍宝吧！\n\n<size=45>六　最珍贵的宝藏</size>",
+					"外出！尋得珍寶吧！\n\n<size=45>6.最珍貴的寶藏</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-13",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "离开宝物库，经过一段狭长的走廊后，我们进入了一个具有现代化装修的房间中。",
+			say = "離開寶物庫，經過一段狹長的走廊後，我們進入了一個有現代化裝潢的房間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "房间的中央摆着一小块台子，周围用蓝色的绳子围了起来，标识着“宝藏展示区”。",
+			say = "房間的中央擺著一小塊台子，周圍用藍色的繩子圍了起來，標示著「寶藏展示區」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "请将最珍贵的宝藏提交至指定地点。",
+			actorName = "廣播音響提示",
+			say = "請將最珍貴的寶藏提交至指定地點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……看来是要把宝藏放到这个台子上才行呢……",
+			say = "嗯……看來是要把寶藏放到這個台子上才行呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你站到“宝藏展示区”那个台子上去吧。",
+			say = "指揮官，你站到「寶藏展示區」那個台子上去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来维达选择的最珍贵的宝藏是……）",
+			say = "（原來維達選擇的最珍貴的寶藏是……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "结合眼下的情况，我很快明白了维达的意思，走过去站到了台子上。",
+			say = "結合眼下的情況，我很快就明白了維達的意思，走過去站到了台子上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "然而——什么都没有发生。",
+			say = "然而——什麼都沒有發生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,8 +134,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "请将最珍贵的宝藏提交至指定地点。",
+			actorName = "廣播音響提示",
+			say = "請將最珍貴的寶藏提交至指定地點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我已经提交了最珍贵的宝物了。",
+			say = "……我已經提交了最珍貴的寶物了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官就是最珍贵的宝藏……",
+			say = "指揮官就是最珍貴的寶藏……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "请将最珍贵的宝藏提交至指定地点。",
+			actorName = "廣播音響提示",
+			say = "請將最珍貴的寶藏提交至指定地點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "绿头猫咪做的笨蛋系统……连指挥官是我最珍贵的宝藏都听不懂……",
+			say = "綠頭貓咪做的笨蛋系統……連指揮官是我最珍貴的寶藏都聽不懂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "维达轻轻叹了口气，然后抬起红扑扑的脸，看了过来。",
+			say = "維達輕輕嘆了口氣，然後抬起紅撲撲的臉，看了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能来到港区，能在这样风平浪静的地方生活，都是因为指挥官……",
+			say = "能來到港區，能在這樣風平浪靜的地方生活，都是因為指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能与指挥官相遇，能够留在指挥官的身边，我真的很开心……",
+			say = "能與指揮官相遇，能夠留在指揮官的身邊，我真的很開心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以指挥官是我最珍贵的宝藏……",
+			say = "所以指揮官是我最珍貴的寶藏……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "笨蛋系统，这样子听懂了吗？",
+			say = "笨蛋系統，這樣子聽懂了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,14 +272,14 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果不能提交“指挥官”的话，那么我要哭要闹……要差评要退票了哦……",
+			say = "如果不能提交「指揮官」的話，那麼我要哭要鬧……要差評要退票了哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摸摸维达的头",
+					content = "摸摸維達的頭",
 					flag = 1
 				}
 			}
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "能与维达相遇，我也很开心。",
+			say = "能與維達相遇，我也很開心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……会长不高的，指挥官！",
+			say = "唔……會長不高的，指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算了，抗议也很麻烦，想摸就摸吧……",
+			say = "算了，抗議也很麻煩，想摸就摸吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "广播音响提示",
+			actorName = "廣播音響提示",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……喵？！",
@@ -348,8 +348,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "咳……正在重新评定通关条件。",
+			actorName = "廣播音響提示",
+			say = "咳……正在重新評定通關條件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,9 +360,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
+			actorName = "廣播音響提示",
 			hidePaintObj = true,
-			say = "恭喜喵~指挥官是最珍贵的宝藏，恭喜通关喵！",
+			say = "恭喜喵~指揮官是最珍貴的寶藏，恭喜通關喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "伴随着广播中的通关宣言，彩带礼花随即从四处爆开。",
+			say = "伴隨著廣播中的通關宣言，彩帶禮花隨即從四處爆開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼……这样总算顺利通关了。",
+			say = "呼呼呼……這樣總算順利通關了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伟大的维达号与指挥官的大胜利~",
+			say = "偉大的維達號與指揮官的大勝利~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

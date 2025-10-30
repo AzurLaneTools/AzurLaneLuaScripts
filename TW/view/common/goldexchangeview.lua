@@ -34,12 +34,6 @@ slot0.init = function(slot0)
 	slot0:updateView()
 end
 
-slot0.findTF = function(slot0, slot1, slot2)
-	assert(slot0._tf, "transform should exist")
-
-	return findTF(slot2 or slot0._tf, slot1)
-end
-
 slot0.exit = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:overLayMyself(false)
@@ -56,37 +50,37 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.btnBack = slot0:findTF("Window/top/btnBack")
-	slot0.contentTF = slot0:findTF("Window/Content")
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.btnBack = slot0._tf:Find("Window/top/btnBack")
+	slot0.contentTF = slot0._tf:Find("Window/Content")
 	slot0.goldTF = {
 		{}
 	}
-	slot0.goldTF_1 = slot0:findTF("Gold1", slot0.contentTF)
+	slot0.goldTF_1 = slot0.contentTF:Find("Gold1")
 	slot0.goldTF[1].itemTF = slot0.goldTF_1
-	slot0.goldTF[1].countTF = slot0:findTF("item/icon_bg/count", slot0.goldTF_1)
-	slot0.goldTF[1].priceTF = slot0:findTF("item/consume/contain/price", slot0.goldTF_1)
-	slot0.goldTF[1].selectedTF = slot0:findTF("item/selected", slot0.goldTF_1)
-	slot0.goldTF[1].selectedNumTF = slot0:findTF("reduce/Text", slot0.goldTF[1].selectedTF)
+	slot0.goldTF[1].countTF = slot0.goldTF_1:Find("item/icon_bg/count")
+	slot0.goldTF[1].priceTF = slot0.goldTF_1:Find("item/consume/contain/price")
+	slot0.goldTF[1].selectedTF = slot0.goldTF_1:Find("item/selected")
+	slot0.goldTF[1].selectedNumTF = slot0.goldTF[1].selectedTF:Find("reduce/Text")
 
 	setText(slot0.goldTF[1].countTF, uv0.goldNum[1])
 	setText(slot0.goldTF[1].priceTF, uv0.gemNum[1])
 
 	slot0.goldTF[2] = {}
-	slot0.goldTF_2 = slot0:findTF("Gold2", slot0.contentTF)
+	slot0.goldTF_2 = slot0.contentTF:Find("Gold2")
 	slot0.goldTF[2].itemTF = slot0.goldTF_2
-	slot0.goldTF[2].countTF = slot0:findTF("item/icon_bg/count", slot0.goldTF_2)
-	slot0.goldTF[2].priceTF = slot0:findTF("item/consume/contain/price", slot0.goldTF_2)
-	slot0.goldTF[2].selectedTF = slot0:findTF("item/selected", slot0.goldTF_2)
-	slot0.goldTF[2].selectedNumTF = slot0:findTF("reduce/Text", slot0.goldTF[2].selectedTF)
+	slot0.goldTF[2].countTF = slot0.goldTF_2:Find("item/icon_bg/count")
+	slot0.goldTF[2].priceTF = slot0.goldTF_2:Find("item/consume/contain/price")
+	slot0.goldTF[2].selectedTF = slot0.goldTF_2:Find("item/selected")
+	slot0.goldTF[2].selectedNumTF = slot0.goldTF[2].selectedTF:Find("reduce/Text")
 
 	setText(slot0.goldTF[2].countTF, uv0.goldNum[2])
 	setText(slot0.goldTF[2].priceTF, uv0.gemNum[2])
 
-	slot0.gemCountText = slot0:findTF("Tip/DiamondCount", slot0.contentTF)
-	slot0.goldCountText = slot0:findTF("Tip/GoldCount", slot0.contentTF)
-	slot0.shopBtn = slot0:findTF("Window/button_container/ShopBtn")
-	slot0.confirmBtn = slot0:findTF("Window/button_container/ConfirmBtn")
+	slot0.gemCountText = slot0.contentTF:Find("Tip/DiamondCount")
+	slot0.goldCountText = slot0.contentTF:Find("Tip/GoldCount")
+	slot0.shopBtn = slot0._tf:Find("Window/button_container/ShopBtn")
+	slot0.confirmBtn = slot0._tf:Find("Window/button_container/ConfirmBtn")
 end
 
 slot0.addListener = function(slot0)

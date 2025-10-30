@@ -32,68 +32,68 @@ slot0.setOwnedSkinList = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.bg = slot0:findTF("bg")
+	slot0.bg = slot0._tf:Find("bg")
 	slot0.staticBg = slot0.bg:Find("static_bg")
-	slot0.painting = slot0:findTF("paint")
+	slot0.painting = slot0._tf:Find("paint")
 	slot0.paintingFitter = findTF(slot0.painting, "fitter")
 	slot0.paintingInitPos = slot0.painting.transform.localPosition
-	slot0.chatTF = slot0:findTF("paint/chat")
+	slot0.chatTF = slot0._tf:Find("paint/chat")
 
 	setActive(slot0.chatTF, false)
 
 	slot0.commonPainting = slot0.painting:Find("fitter")
-	slot0.l2dRoot = slot0:findTF("live2d", slot0.painting)
-	slot0.spinePaintingRoot = slot0:findTF("spinePainting", slot0.painting)
-	slot0.spinePaintingBgRoot = slot0:findTF("paintBg/spinePainting")
-	slot0.chatBg = slot0:findTF("chatbgtop", slot0.chatTF)
+	slot0.l2dRoot = slot0.painting:Find("live2d")
+	slot0.spinePaintingRoot = slot0.painting:Find("spinePainting")
+	slot0.spinePaintingBgRoot = slot0._tf:Find("paintBg/spinePainting")
+	slot0.chatBg = slot0.chatTF:Find("chatbgtop")
 	slot0.initChatBgH = slot0.chatBg.sizeDelta.y
-	slot0.chatText = slot0:findTF("Text", slot0.chatBg)
-	slot0.name = slot0:findTF("name")
+	slot0.chatText = slot0.chatBg:Find("Text")
+	slot0.name = slot0._tf:Find("name")
 	slot0.nameInitPos = slot0.name.transform.localPosition
-	slot0.shipType = slot0:findTF("type", slot0.name)
-	slot0.labelName = slot0:findTF("name_mask/Text", slot0.name):GetComponent(typeof(Text))
-	slot0.labelEnName = slot0:findTF("english_name", slot0.name):GetComponent(typeof(Text))
-	slot0.stars = slot0:findTF("stars", slot0.name)
+	slot0.shipType = slot0.name:Find("type")
+	slot0.labelName = slot0.name:Find("name_mask/Text"):GetComponent(typeof(Text))
+	slot0.labelEnName = slot0.name:Find("english_name"):GetComponent(typeof(Text))
+	slot0.stars = slot0.name:Find("stars")
 	slot0.star = slot0:getTpl("star_tpl", slot0.stars)
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.top = slot0:findTF("blur_panel/adapt/top")
-	slot0.btnBack = slot0:findTF("back", slot0.top)
-	slot0.bottomTF = slot0:findTF("adapt/bottom")
-	slot0.labelHeart = slot0:findTF("adapt/detail_left_panel/heart/label", slot0.blurPanel)
-	slot0.btnLike = slot0:findTF("adapt/detail_left_panel/heart/btnLike", slot0.blurPanel)
-	slot0.btnChangeSkin = slot0:findTF("adapt/detail_left_panel/change_skin", slot0.blurPanel)
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.top = slot0._tf:Find("blur_panel/adapt/top")
+	slot0.btnBack = slot0.top:Find("back")
+	slot0.bottomTF = slot0._tf:Find("adapt/bottom")
+	slot0.labelHeart = slot0.blurPanel:Find("adapt/detail_left_panel/heart/label")
+	slot0.btnLike = slot0.blurPanel:Find("adapt/detail_left_panel/heart/btnLike")
+	slot0.btnChangeSkin = slot0.blurPanel:Find("adapt/detail_left_panel/change_skin")
 	slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.btnChangeSkin, "toggle_ui"))
 	slot0.btnLikeAct = slot0.btnLike:Find("like")
 	slot0.btnLikeDisact = slot0.btnLike:Find("unlike")
-	slot0.obtainBtn = slot0:findTF("adapt/bottom/others/obtain_btn")
-	slot0.evaBtn = slot0:findTF("adapt/bottom/others/eva_btn")
-	slot0.viewBtn = slot0:findTF("adapt/bottom/others/view_btn")
-	slot0.shareBtn = slot0:findTF("adapt/bottom/others/share_btn")
-	slot0.rotateBtn = slot0:findTF("adapt/bottom/others/rotate_btn")
-	slot0.cryptolaliaBtn = slot0:findTF("adapt/bottom/others/cryptolalia_btn")
-	slot0.equipCodeBtn = slot0:findTF("adapt/bottom/others/equip_code_btn")
-	slot0.leftProfile = slot0:findTF("adapt/profile_left_panel", slot0.blurPanel)
-	slot0.modelContainer = slot0:findTF("model", slot0.leftProfile)
-	slot0.live2DBtn = ShipProfileLive2dBtn.New(slot0:findTF("L2D_btn", slot0.blurPanel))
+	slot0.obtainBtn = slot0._tf:Find("adapt/bottom/others/obtain_btn")
+	slot0.evaBtn = slot0._tf:Find("adapt/bottom/others/eva_btn")
+	slot0.viewBtn = slot0._tf:Find("adapt/bottom/others/view_btn")
+	slot0.shareBtn = slot0._tf:Find("adapt/bottom/others/share_btn")
+	slot0.rotateBtn = slot0._tf:Find("adapt/bottom/others/rotate_btn")
+	slot0.cryptolaliaBtn = slot0._tf:Find("adapt/bottom/others/cryptolalia_btn")
+	slot0.equipCodeBtn = slot0._tf:Find("adapt/bottom/others/equip_code_btn")
+	slot0.leftProfile = slot0.blurPanel:Find("adapt/profile_left_panel")
+	slot0.modelContainer = slot0.leftProfile:Find("model")
+	slot0.live2DBtn = ShipProfileLive2dBtn.New(slot0.blurPanel:Find("L2D_btn"))
 	slot0.l2dBtnOn = false
 
-	GetComponent(slot0:findTF("L2D_btn", slot0.blurPanel), typeof(Image)):SetNativeSize()
-	GetComponent(slot0:findTF("L2D_btn/img", slot0.blurPanel), typeof(Image)):SetNativeSize()
+	GetComponent(slot0.blurPanel:Find("L2D_btn"), typeof(Image)):SetNativeSize()
+	GetComponent(slot0.blurPanel:Find("L2D_btn/img"), typeof(Image)):SetNativeSize()
 
-	slot0.spinePaintingBtn = slot0:findTF("SP_btn", slot0.blurPanel)
+	slot0.spinePaintingBtn = slot0.blurPanel:Find("SP_btn")
 
 	GetComponent(slot0.spinePaintingBtn, typeof(Image)):SetNativeSize()
-	GetComponent(slot0:findTF("SP_btn/img", slot0.blurPanel), typeof(Image)):SetNativeSize()
-	GetComponent(slot0:findTF("adapt/top/title", slot0.blurPanel), typeof(Image)):SetNativeSize()
+	GetComponent(slot0.blurPanel:Find("SP_btn/img"), typeof(Image)):SetNativeSize()
+	GetComponent(slot0.blurPanel:Find("adapt/top/title"), typeof(Image)):SetNativeSize()
 
-	slot1 = slot0.spinePaintingBtn
-	slot0.spinePaintingToggle = slot1:Find("toggle")
+	slot0.spinePaintingToggle = slot0.spinePaintingBtn:Find("toggle")
 	slot0.cvLoader = ShipProfileCVLoader.New()
-	slot0.pageTFs = slot0:findTF("adapt/pages")
+	slot1 = slot0._tf
+	slot0.pageTFs = slot1:Find("adapt/pages")
 	slot0.paintingView = ShipProfilePaintingView.New(slot0._tf, slot0.painting)
 	slot0.toggles = {
-		slot0:findTF("adapt/bottom/detail"),
-		slot0:findTF("adapt/bottom/profile")
+		slot0._tf:Find("adapt/bottom/detail"),
+		slot0._tf:Find("adapt/bottom/profile")
 	}
 	slot1 = ShipProfileInformationPage.New(slot0.pageTFs, slot0.event)
 
@@ -502,11 +502,11 @@ slot0.ShiftSkin = function(slot0, slot1)
 	slot2 = nil
 
 	LoadSpriteAtlasAsync("ui/share/btn_l2d_atlas", slot1 and slot1.spine_use_live2d == 1 and "spine_painting_bg" or "live2d_bg", function (slot0)
-		GetComponent(uv0:findTF("L2D_btn", uv0.blurPanel), typeof(Image)).sprite = slot0
-		GetComponent(uv0:findTF("L2D_btn/img", uv0.blurPanel), typeof(Image)).sprite = slot0
+		GetComponent(uv0.blurPanel:Find("L2D_btn"), typeof(Image)).sprite = slot0
+		GetComponent(uv0.blurPanel:Find("L2D_btn/img"), typeof(Image)).sprite = slot0
 
-		GetComponent(uv0:findTF("L2D_btn", uv0.blurPanel), typeof(Image)):SetNativeSize()
-		GetComponent(uv0:findTF("L2D_btn/img", uv0.blurPanel), typeof(Image)):SetNativeSize()
+		GetComponent(uv0.blurPanel:Find("L2D_btn"), typeof(Image)):SetNativeSize()
+		GetComponent(uv0.blurPanel:Find("L2D_btn/img"), typeof(Image)):SetNativeSize()
 	end)
 
 	slot0.spinePaintingisOn = false

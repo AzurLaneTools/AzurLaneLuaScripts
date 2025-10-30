@@ -4,6 +4,8 @@ slot1 = pg.activity_holiday_site
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
+	slot1 = slot0._tf
+	slot0.icon = slot1:Find("AD/icon")
 	slot0.taskTypeDic = setmetatable({
 		[uv0.MINI_GAME] = function (slot0, slot1)
 			slot4 = getProxy(MiniGameProxy):GetHubByGameId(slot1[1]).count == 0

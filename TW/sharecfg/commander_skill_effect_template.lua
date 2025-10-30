@@ -1732,6 +1732,78 @@ pg.commander_skill_effect_template = {
 			}
 		}
 	},
+	[9600611] = {
+		id = 9600611,
+		name = "未了的传奇",
+		effect_type = "battle_buff",
+		args = {
+			40550
+		},
+		condition = {}
+	},
+	[9600612] = {
+		id = 9600612,
+		name = "未了的传奇",
+		effect_type = "battle_buff",
+		args = {
+			40560
+		},
+		condition = {
+			{
+				"around_enemy",
+				0,
+				{
+					4,
+					5,
+					6
+				}
+			}
+		}
+	},
+	[9600613] = {
+		id = 9600613,
+		name = "未了的传奇",
+		effect_type = "battle_buff",
+		args = {
+			40570
+		},
+		condition = {}
+	},
+	[9600711] = {
+		id = 9600711,
+		name = "绅士海盗的传说",
+		effect_type = "ambush_doge",
+		args = {
+			103,
+			0.05,
+			10,
+			250
+		},
+		condition = {}
+	},
+	[9600712] = {
+		id = 9600712,
+		name = "绅士海盗的传说",
+		effect_type = "battle_buff",
+		args = {
+			40590
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[9600713] = {
+		id = 9600713,
+		name = "绅士海盗的传说",
+		effect_type = "battle_buff",
+		args = {
+			40600
+		},
+		condition = {}
+	},
 	[9100111] = {
 		id = 9100111,
 		name = "31节的正义",
@@ -2026,6 +2098,20 @@ pg.commander_skill_effect_template = {
 			}
 		}
 	},
+	[99600711] = {
+		id = 99600711,
+		name = "绅士海盗的传说",
+		effect_type = "battle_buff",
+		args = {
+			40580
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2138,6 +2224,12 @@ pg.commander_skill_effect_template = {
 		9600511,
 		9600512,
 		9600513,
+		9600611,
+		9600612,
+		9600613,
+		9600711,
+		9600712,
+		9600713,
 		9100111,
 		9100112,
 		9100113,
@@ -2156,6 +2248,7 @@ pg.commander_skill_effect_template = {
 		9410213,
 		99600212,
 		99600311,
-		99600511
+		99600511,
+		99600711
 	}
 }

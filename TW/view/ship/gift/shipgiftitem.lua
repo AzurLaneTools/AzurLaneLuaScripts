@@ -3,8 +3,8 @@ slot0.SELECT_ITEM = "ShipGiftItem::selectItem"
 slot0.REFRESH_USE_ITEM_CNT = "ShipGiftItem::refreshUseItemCnt"
 
 slot0.Ctor = function(slot0, slot1, slot2)
-	slot0._go = slot1.gameObject
-	slot0._tf = slot1
+	slot0._go = slot1
+	slot0._tf = tf(slot1)
 	slot0._parentClass = slot2
 
 	slot0:attach(slot2)
@@ -12,18 +12,29 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot0.Init = function(slot0)
-	slot0.item = slot0:findTF("IconTpl")
-	slot0.nameText = slot0:findTF("name")
-	slot0.valueText = slot0:findTF("numberTitle/value")
-	slot0.useCntText = slot0:findTF("count/value")
-	slot0.selectImg = slot0:findTF("select")
-	slot0.countPanel = slot0:findTF("count")
-	slot0.maxBtn = slot0:findTF("count/maxBtn")
-	slot0.addBtn = slot0:findTF("count/addBtn")
-	slot0.subtractBtn = slot0:findTF("count/subtractBtn")
-	slot0.favoriteTF = slot0:findTF("favorite", slot0.item)
+	slot1 = slot0._tf
+	slot0.item = slot1:Find("IconTpl")
+	slot1 = slot0._tf
+	slot0.nameText = slot1:Find("name")
+	slot1 = slot0._tf
+	slot0.valueText = slot1:Find("numberTitle/value")
+	slot1 = slot0._tf
+	slot0.useCntText = slot1:Find("count/value")
+	slot1 = slot0._tf
+	slot0.selectImg = slot1:Find("select")
+	slot1 = slot0._tf
+	slot0.countPanel = slot1:Find("count")
+	slot1 = slot0._tf
+	slot0.maxBtn = slot1:Find("count/maxBtn")
+	slot1 = slot0._tf
+	slot0.addBtn = slot1:Find("count/addBtn")
+	slot1 = slot0._tf
+	slot0.subtractBtn = slot1:Find("count/subtractBtn")
+	slot1 = slot0.item
+	slot0.favoriteTF = slot1:Find("favorite")
+	slot2 = slot0._tf
 
-	setText(slot0:findTF("numberTitle"), i18n("ship_gift_cnt"))
+	setText(slot2:Find("numberTitle"), i18n("ship_gift_cnt"))
 	pressPersistTrigger(slot0.addBtn, 0.5, function (slot0)
 		if uv0.maxCnt <= uv0.selectCnt then
 			return

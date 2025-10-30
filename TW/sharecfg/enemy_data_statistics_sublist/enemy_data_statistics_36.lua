@@ -4207,130 +4207,286 @@ pg.enemy_data_statistics_36 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[611] = {
-		cannon = 22,
-		name = "【斬首行動】利根",
-		rarity = 4,
+	[91157] = {
+		cannon = 0,
+		name = "萊姆號",
+		antiaircraft_growth = 0,
 		speed_growth = 0,
-		hit_growth = 210,
+		luck = 0,
 		air = 0,
-		armor = 0,
-		antisub = 0,
-		antiaircraft_growth = 3600,
-		antiaircraft = 44,
-		speed = 16,
-		fog_fx = "",
-		dodge_growth = 126,
-		star = 5,
+		nationality = 96,
+		icon_type = 23,
+		type = 23,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "laimuhao",
+		star = 0,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90206,
-		durability = 580,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
 		armor_growth = 0,
-		torpedo_growth = 3456,
-		luck = 0,
-		id = 611,
-		cannon_growth = 2000,
+		torpedo_growth = 0,
+		speed = 10,
+		armor = 0,
+		friendly_cld = 0,
+		id = 91157,
+		scale = 150,
+		prefab = "laimuhao",
+		cannon_growth = 0,
 		pilot_ai_template_id = 10001,
 		reload = 150,
-		dodge = 9,
+		dodge = 0,
 		reload_growth = 0,
-		hit = 14,
-		torpedo = 42,
-		durability_growth = 28200,
+		wave_fx = "",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
 		luck_growth = 0,
-		battle_unit_type = 60,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					1,
+					0
+				}
+			},
+			plane = {
+				{
+					0,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.29,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[91158] = {
+		cannon = 0,
+		name = "寂靜守衛-掌燈幽影",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 96,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "fengfan_haigu_quzhu",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 0,
+		id = 91158,
+		scale = 220,
+		prefab = "fengfan_haigu_quzhu",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			6,
+			7.5,
+			6
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0,
+					0.5,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.5,
+					0
+				}
+			},
+			plane = {
+				{
+					0,
+					0.5,
+					0
+				}
+			}
+		},
+		smoke = {},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
 		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
+			"appearsmall"
+		},
+		position_offset = {
+			0,
+			0,
+			0
 		},
 		hp_bar = {
 			200,
-			4
+			3
 		},
-		equipment_list = {
-			100201,
-			311072,
-			311075,
-			311076
-		}
-	},
-	[612] = {
-		cannon = 24,
-		name = "【斬首行動】霧島",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 4680,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		dodge = 4,
-		rarity = 4,
-		antiaircraft = 57,
-		dodge_growth = 66,
-		fog_fx = "",
-		star = 5,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90222,
-		durability = 800,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 16,
-		luck = 0,
-		id = 612,
-		cannon_growth = 3000,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 0,
-		durability_growth = 32400,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.59,
-							0.87,
-							0.28
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.83,
-							2.62,
-							1.31
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			100201,
-			311077,
-			311078,
-			311089
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 1
-			}
-		}
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

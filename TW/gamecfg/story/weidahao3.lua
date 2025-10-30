@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"外出！寻得珍宝吧！\n\n<size=45>三　辛苦的寻宝之旅</size>",
+					"外出！尋得珍寶吧！\n\n<size=45>3.辛苦的尋寶之旅</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-13",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "走过漫长而黑暗的通道，我们终于进入了主题场景——“幽灵船”。",
+			say = "走過漫長而黑暗的通道，我們終於進入了主題場景——「幽靈船」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……细节什么的都很讲究……这艘海盗船做得很用心呢……",
+			say = "欸……細節什麼的都很講究……這艘海盜船做得很用心呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟一涉及到赚钱的事，{namecode:98:明石}就会完全进入认真模式。",
+			say = "畢竟一涉及賺錢的事，明石就會完全進入認真模式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊……真是一只活力满满的绿头猫咪。",
+			say = "哈啊……真是一隻活力滿滿的綠頭貓咪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……呼呼，确实有了一种熟悉的感觉呢。",
+			say = "不過……呼呼，確實有了一種熟悉的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，快去探索一番吧——",
+			say = "指揮官，快去探索一番吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "突然“豪气万丈”的维达在老旧的木板上随便踏出了一步。",
+			say = "突然「豪氣萬丈」的維達在老舊的木板上隨便踏出了一步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "随即，巨大的海怪触手从四面八方破开水面包围了海盗船。",
+			say = "隨即，巨大的海怪觸手從四面八方破開水面包圍了海盜船。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……居然还有战斗环节。",
+			say = "……居然還有戰鬥環節。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来，想要获得奖励果然没那么轻松呢……",
+			say = "看來，想要獲得獎勵果然沒那麼輕鬆呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，挥动手中的刀，将触手全部打倒吧！",
+			say = "指揮官，揮舞手中的刀，將觸手全部打倒吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "那你呢？",
+					content = "那妳呢？",
 					flag = 2
 				}
 			}
@@ -255,7 +255,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……我来掩护你的后背！",
+			say = "嗯……我來掩護你的背！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_162",
-			say = "在维达堪称“不动如山”的“完美”掩护下，战斗顺利结束了。",
+			say = "在維達堪稱「不動如山」的「完美」掩護下，戰鬥順利結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,18 +297,18 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，辛苦了。",
+			say = "指揮官，辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你也辛苦了！",
+					content = "妳也辛苦了！",
 					flag = 1
 				},
 				{
-					content = "最终战绩是12:0",
+					content = "最終戰績是12:0。",
 					flag = 2
 				}
 			}
@@ -337,7 +337,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喔——指挥官真厉害啊……",
+			say = "喔——指揮官真厲害啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……有什么关系嘛，指挥官不是也完美地获得胜利了嘛。",
+			say = "欸……有什麼關係嘛，指揮官不是也完美地獲得勝利了嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再说了为什么海盗就一定要打打杀杀啊……也太麻烦了……明明有其他方式可以轻松获得宝藏。",
+			say = "再說了為什麼海盜就一定要打打殺殺啊……也太麻煩了……明明有其他方式可以輕易獲得寶藏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼哈~不说这个了……指挥官，你看这里、还有那个、那个和那个……",
+			say = "呼哈~不說這個了……指揮官，你看這裡、還有那個、那個和那個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这四个机关是打完触手之后才出现的。",
+			say = "這四個機關是打完觸手之後才出現的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果按照游戏的套路的话，把它们全部启动，就会出现离开这里的出口了吧。",
+			say = "如果按照遊戲的套路的話，把它們全部啟動，就會出現離開這裡的出口了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这边这个就交给我了，其他的就交给指挥官了。",
+			say = "這邊這個就交給我了，其他的就交給指揮官了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "与维达一起启动了三个机关后，还剩下最后一个机关。",
+			say = "與維達一起啟動了三個機關後，還剩下最後一個機關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "机关悬挂在天花板上方，那并不是正常身高能够到的高度，周围也没有可以攀爬的工具。",
+			say = "機關懸掛在天花板上方，並不是正常身高能夠達到的高度，周圍也沒有可以攀爬的工具。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，怎么办？",
+			say = "指揮官，怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么麻烦的话，要不放弃好了……",
+			say = "這麼麻煩的話，要不放棄好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "举起维达",
+					content = "舉起維達",
 					flag = 2
 				}
 			}
@@ -537,7 +537,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官的表情……是还不想放弃吗？",
+			say = "指揮官的表情……是還不想放棄嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……那要不要试着把我举起来？那样的高度应该就能按到机关了。",
+			say = "嗯……那要不要試著把我舉起來？那樣的高度應該就能按到機關了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "维达低下头，巨大的帽子笼罩住她小小的脸，但脸颊那抹红晕却未被完全遮挡。",
+			say = "維達低下頭，巨大的帽子籠罩住她小小的臉，但臉頰那抹紅暈卻未被完全遮擋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "可以试试。",
+			say = "可以試試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（进入密室游玩的人数最少限制为两个人……）",
+			say = "（進入密室遊玩的人數最少限制為兩人……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（既然这里没有协助通关的道具，那么通关的方式应该就是依靠双人的合作……）",
+			say = "（既然這裡沒有協助通關的道具，那麼通關的方式應該就是靠雙人的合作……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "维达，我把你举起来，就能按到机关了吧？",
+			say = "維達，我把妳舉起來，就能按到機關了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "维达低下头，巨大的帽子笼罩住她小小的脸，但脸颊那抹红晕却未被完全遮挡。",
+			say = "維達低下頭，巨大的帽子籠罩住她小小的臉，但臉頰那抹紅暈卻未被完全遮擋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过指挥官要小心哦。",
+			say = "不過指揮官要小心哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我倒不怕被摔到地上啦，主要是你不要受伤了哦。",
+			say = "……我倒不怕被摔到地上啦，主要是你不要受傷了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "绕到维达身后，扶住了她的腰。",
+			say = "繞到維達身後，扶住了她的腰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "弄疼你了？",
+			say = "弄痛妳了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不是……指挥官快点啦！赶紧通关，我想回去躺着了。",
+			say = "不是……指揮官快點！趕緊通關，我想回去躺著了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "将维达朝着悬挂的机关处高高举起。",
+			say = "將維達朝著懸掛的機關處高高舉起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "或许是因为不习惯被人举起来，维达的手紧紧攥着我的衣袖，而双腿本能地晃动着。",
+			say = "或許是因為不習慣被舉起來，維達的手緊緊握著我的衣袖，而雙腿本能地晃動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "松垮的裙摆与袖子随着她的动作轻轻摇晃着，在掠过脸颊时带来一丝丝好闻的香气。",
+			say = "鬆垮的裙擺與袖子隨著她的動作輕輕搖晃著，在掠過臉頰時帶來一絲好聞的香氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……这样就好了吧？",
+			say = "嗯……這樣就好了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "维达伸手摁下了最后的机关，紧锁的船舱门缓缓打开了。",
+			say = "維達伸手按下了最後的機關，緊鎖的船艙門緩緩打開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太好了，这样就能继续前进了。",
+			say = "太好了，這樣就能繼續前進了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……把我放下来吧。",
+			say = "指揮官……把我放下來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "感觉还是这样过关效率高！",
+					content = "感覺還是這樣過關效率高！",
 					flag = 2
 				}
 			}
@@ -873,7 +873,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "收回手，将维达稳稳当当地放到了地上。",
+			say = "收回手，將維達穩穩地放到了地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,7 +903,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "分……分头行动效率才高啦……指挥官，快……放我下来。",
+			say = "分……分頭行動效率才高啦……指揮官，快……放我下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "少女双腿晃动的频率略微加快了。",
+			say = "少女雙腿晃動的頻率略微加快了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,7 +940,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "收回手，将维达稳稳当当地放到了地上。",
+			say = "收回手，將維達穩穩地放到了地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -951,7 +951,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "娇小的少女用脚尖点了点地，将即将掉落的宽松拖鞋重新穿好。",
+			say = "嬌小的少女用腳尖點了點地，將即將掉落的寬鬆拖鞋重新穿好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,7 +965,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，把手给我吧。",
+			say = "指揮官，把手給我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -977,7 +977,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么了？",
+			say = "怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -991,7 +991,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来……我们应该提高效率才是。",
+			say = "接下來……我們應該要提高效率才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些古老的陷阱难不倒我……",
+			say = "這些古老的陷阱難不倒我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你只需要看着就好，我来解决剩下的部分……",
+			say = "指揮官，你只要看著就好，我來解決剩下的部分……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,7 +1030,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "维达牵起了我的手，拉着我一起走向了房间的深处。",
+			say = "維達牽起了我的手，拉著我一起走向了房間的深處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

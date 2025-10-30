@@ -18,42 +18,42 @@ slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.animationPlayer = slot0._tf:GetComponent(typeof(Animation))
-	slot0.front = slot0:findTF("front")
+	slot0.front = slot0._tf:Find("front")
 	slot0.actorTr = slot0._tf:Find("actor")
 	slot0.frontTr = slot0._tf:Find("front")
-	slot0.backPanel = slot0:findTF("back")
+	slot0.backPanel = slot0._tf:Find("back")
 	slot0.goCG = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
-	slot0.asidePanel = slot0:findTF("front/aside_panel")
-	slot0.bgGlitch = slot0:findTF("back/bg_glitch")
-	slot0.oldPhoto = slot0:findTF("front/oldphoto"):GetComponent(typeof(Image))
-	slot0.bgPanel = slot0:findTF("back/bg")
+	slot0.asidePanel = slot0._tf:Find("front/aside_panel")
+	slot0.bgGlitch = slot0._tf:Find("back/bg_glitch")
+	slot0.oldPhoto = slot0._tf:Find("front/oldphoto"):GetComponent(typeof(Image))
+	slot0.bgPanel = slot0._tf:Find("back/bg")
 	slot0.bgPanelCg = slot0.bgPanel:GetComponent(typeof(CanvasGroup))
 
-	setActive(slot0:findTF("back/bg/sub"), false)
+	setActive(slot0._tf:Find("back/bg/sub"), false)
 
-	slot0.bgImage = slot0:findTF("image", slot0.bgPanel):GetComponent(typeof(Image))
+	slot0.bgImage = slot0.bgPanel:Find("image"):GetComponent(typeof(Image))
 	slot0.mainImg = slot0._tf:GetComponent(typeof(Image))
-	slot0.castPanel = slot0:findTF("front/cast_panel")
-	slot0.spAnimPanel = slot0:findTF("front/sp_anim_panel")
+	slot0.castPanel = slot0._tf:Find("front/cast_panel")
+	slot0.spAnimPanel = slot0._tf:Find("front/sp_anim_panel")
 	slot0.centerPanel = slot0._tf:Find("center")
-	slot0.actorPanel = slot0:findTF("actor")
-	slot0.dialoguePanel = slot0:findTF("front/dialogue")
-	slot0.effectPanel = slot0:findTF("front/effect")
-	slot0.movePanel = slot0:findTF("front/move_layer")
-	slot0.curtain = slot0:findTF("back/curtain")
+	slot0.actorPanel = slot0._tf:Find("actor")
+	slot0.dialoguePanel = slot0._tf:Find("front/dialogue")
+	slot0.effectPanel = slot0._tf:Find("front/effect")
+	slot0.movePanel = slot0._tf:Find("front/move_layer")
+	slot0.curtain = slot0._tf:Find("back/curtain")
 	slot0.curtainCg = slot0.curtain:GetComponent(typeof(CanvasGroup))
-	slot0.flash = slot0:findTF("front/flash")
+	slot0.flash = slot0._tf:Find("front/flash")
 	slot0.flashImg = slot0.flash:GetComponent(typeof(Image))
 	slot0.flashCg = slot0.flash:GetComponent(typeof(CanvasGroup))
-	slot0.curtainF = slot0:findTF("back/curtain_front")
+	slot0.curtainF = slot0._tf:Find("back/curtain_front")
 	slot0.curtainFCg = slot0.curtainF:GetComponent(typeof(CanvasGroup))
-	slot0.locationTr = slot0:findTF("front/location")
-	slot0.locationTxt = slot0:findTF("front/location/Text"):GetComponent(typeof(Text))
+	slot0.locationTr = slot0._tf:Find("front/location")
+	slot0.locationTxt = slot0._tf:Find("front/location/Text"):GetComponent(typeof(Text))
 	slot0.locationTrPos = slot0.locationTr.localPosition
 	slot0.locationAnim = slot0.locationTr:GetComponent(typeof(Animation))
 	slot0.locationAniEvent = slot0.locationTr:GetComponent(typeof(DftAniEvent))
-	slot0.iconImage = slot0:findTF("front/icon"):GetComponent(typeof(Image))
-	slot0.topEffectTr = slot0:findTF("top/effect")
+	slot0.iconImage = slot0._tf:Find("front/icon"):GetComponent(typeof(Image))
+	slot0.topEffectTr = slot0._tf:Find("top/effect")
 	slot0.dialogueWin = nil
 	slot0.bgs = {}
 	slot0.branchCodeList = {}
@@ -1491,12 +1491,6 @@ slot0.StartBlinkWithColorAnimation = function(slot0, slot1, slot2)
 	end
 
 	slot2()
-end
-
-slot0.findTF = function(slot0, slot1, slot2)
-	assert(slot0._tf, "transform should exist")
-
-	return findTF(slot2 or slot0._tf, slot1)
 end
 
 slot0.OnStart = function(slot0, slot1)

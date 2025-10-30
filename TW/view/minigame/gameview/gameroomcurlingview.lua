@@ -798,7 +798,7 @@ end
 
 slot0.AutoFitScreen = function(slot0)
 	slot6 = nil
-	slot6 = (1.7777777777777777 > Screen.width / Screen.height or math.clamp(1080 * slot1 / 2331, 1, 2)) and math.clamp(1920 / slot1 / slot0:findTF("bg_back").rect.height, 1, 2)
+	slot6 = (1.7777777777777777 > Screen.width / Screen.height or math.clamp(1080 * slot1 / 2331, 1, 2)) and math.clamp(1920 / slot1 / slot0._tf:Find("bg_back").rect.height, 1, 2)
 
 	setLocalScale(slot0._tf, {
 		x = slot6,
@@ -843,22 +843,22 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.clickMask = slot0:findTF("ui/click_mask")
-	slot0.mainUI = slot0:findTF("ui/main_ui")
+	slot0.clickMask = slot0._tf:Find("ui/click_mask")
+	slot0.mainUI = slot0._tf:Find("ui/main_ui")
 	slot0.listScrollRect = GetComponent(findTF(slot0.mainUI, "item_list"), typeof(ScrollRect))
 
-	onButton(slot0, slot0:findTF("skin_btn", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("skin_btn"), function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP, {
 			skinId = pg.mini_game[uv0:GetMGData().id].simple_config_data.skin_shop_id
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("return_btn", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("return_btn"), function ()
 		uv0:emit(uv1.ON_BACK_PRESSED)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("main_btn", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("main_btn"), function ()
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("help_btn", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("help_btn"), function ()
 		slot0 = uv0:getGameRoomData().game_help
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -866,23 +866,23 @@ slot0.initUI = function(slot0)
 			helps = uv0:getGameRoomData().game_help
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("start_btn", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("start_btn"), function ()
 		uv0:readyStart()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("rank_btn", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("rank_btn"), function ()
 	end, SFX_PANEL)
 
 	slot0.totalTimes = slot0:getGameTotalTime()
 
 	scrollTo(slot0.listScrollRect, 0, 1 - (slot0:getGameUsedTimes() - 4 < 0 and 0 or slot0:getGameUsedTimes() - 4) / (slot0.totalTimes - 4))
-	onButton(slot0, slot0:findTF("right_panel/arrows_up", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("right_panel/arrows_up"), function ()
 		if uv0.listScrollRect.normalizedPosition.y + 1 / (uv0.totalTimes - 4) > 1 then
 			slot0 = 1
 		end
 
 		scrollTo(uv0.listScrollRect, 0, slot0)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("right_panel/arrows_down", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("right_panel/arrows_down"), function ()
 		if uv0.listScrollRect.normalizedPosition.y - 1 / (uv0.totalTimes - 4) < 0 then
 			slot0 = 0
 		end
@@ -890,9 +890,9 @@ slot0.initUI = function(slot0)
 		scrollTo(uv0.listScrollRect, 0, slot0)
 	end, SFX_PANEL)
 
-	slot0.countUI = slot0:findTF("ui/count_ui")
-	slot0.countAnimator = GetComponent(slot0:findTF("count", slot0.countUI), typeof(Animator))
-	slot0.countDft = GetOrAddComponent(slot0:findTF("count", slot0.countUI), typeof(DftAniEvent))
+	slot0.countUI = slot0._tf:Find("ui/count_ui")
+	slot0.countAnimator = GetComponent(slot0.countUI:Find("count"), typeof(Animator))
+	slot0.countDft = GetOrAddComponent(slot0.countUI:Find("count"), typeof(DftAniEvent))
 
 	slot0.countDft:SetTriggerEvent(function ()
 	end)
@@ -901,28 +901,28 @@ slot0.initUI = function(slot0)
 		uv0:startGame()
 	end)
 
-	slot0.pauseUI = slot0:findTF("ui/pause_ui")
+	slot0.pauseUI = slot0._tf:Find("ui/pause_ui")
 
-	onButton(slot0, slot0:findTF("ad/panel/sure_btn", slot0.pauseUI), function ()
+	onButton(slot0, slot0.pauseUI:Find("ad/panel/sure_btn"), function ()
 		setActive(uv0.pauseUI, false)
 		uv0:resumeGame()
 	end, SFX_PANEL)
 
-	slot0.returnUI = slot0:findTF("ui/return_ui")
+	slot0.returnUI = slot0._tf:Find("ui/return_ui")
 
-	onButton(slot0, slot0:findTF("ad/panel/sure_btn", slot0.returnUI), function ()
+	onButton(slot0, slot0.returnUI:Find("ad/panel/sure_btn"), function ()
 		setActive(uv0.returnUI, false)
 		uv0:resumeGame()
 		uv0:endGame()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("ad/panel/cancel_btn", slot0.returnUI), function ()
+	onButton(slot0, slot0.returnUI:Find("ad/panel/cancel_btn"), function ()
 		setActive(uv0.returnUI, false)
 		uv0:resumeGame()
 	end, SFX_PANEL)
 
-	slot0.endUI = slot0:findTF("ui/end_ui")
+	slot0.endUI = slot0._tf:Find("ui/end_ui")
 
-	onButton(slot0, slot0:findTF("ad/panel/end_btn", slot0.endUI), function ()
+	onButton(slot0, slot0.endUI:Find("ad/panel/end_btn"), function ()
 		setActive(uv0.endUI, false)
 		uv0:openMainUI()
 	end, SFX_PANEL)
@@ -935,41 +935,41 @@ slot0.initUI = function(slot0)
 end
 
 slot0.initGameUI = function(slot0)
-	slot0.gameUI = slot0:findTF("ui/game_ui")
-	slot0.roundTF = slot0:findTF("score_panel/round_text", slot0.gameUI)
-	slot0.scoreTF = slot0:findTF("score_panel/score_text", slot0.gameUI)
+	slot0.gameUI = slot0._tf:Find("ui/game_ui")
+	slot0.roundTF = slot0.gameUI:Find("score_panel/round_text")
+	slot0.scoreTF = slot0.gameUI:Find("score_panel/score_text")
 
-	onButton(slot0, slot0:findTF("pause_btn", slot0.gameUI), function ()
+	onButton(slot0, slot0.gameUI:Find("pause_btn"), function ()
 		uv0:pauseGame()
 		setActive(uv0.pauseUI, true)
 	end)
-	onButton(slot0, slot0:findTF("return_btn", slot0.gameUI), function ()
+	onButton(slot0, slot0.gameUI:Find("return_btn"), function ()
 		uv0:pauseGame()
 		setActive(uv0.returnUI, true)
 	end)
 
-	slot0.scoreGroup = slot0:findTF("score_group", slot0.gameUI)
+	slot0.scoreGroup = slot0.gameUI:Find("score_group")
 
-	setActive(slot0:findTF("bg_front/wall"), uv0)
+	setActive(slot0._tf:Find("bg_front/wall"), uv0)
 end
 
 slot0.initController = function(slot0)
-	slot0.scene = slot0:findTF("scene")
-	slot0.gridTF = slot0:findTF("ui/grid")
-	slot0.player = uv0(slot0:findTF("player", slot0.scene), slot0)
-	slot0.phy = slot0:findTF("Ayanami_phy", slot0.scene)
-	slot0.drawDot = slot0:findTF("draw_dot", slot0.scene)
-	slot0.curlingTpls = slot0:findTF("curling_Tpl", slot0.scene)
+	slot0.scene = slot0._tf:Find("scene")
+	slot0.gridTF = slot0._tf:Find("ui/grid")
+	slot0.player = uv0(slot0.scene:Find("player"), slot0)
+	slot0.phy = slot0.scene:Find("Ayanami_phy")
+	slot0.drawDot = slot0.scene:Find("draw_dot")
+	slot0.curlingTpls = slot0.scene:Find("curling_Tpl")
 	slot0.curling = uv1(slot0.curlingTpls, slot0.player._tf, slot0)
-	slot0.ofunya = uv2(slot0:findTF("bg_back/07_Ofunya"), slot0)
-	slot0.manjuu = uv3(slot0:findTF("bg_back/08_Manjuu"), slot0)
-	slot0.walker = uv4(slot0:findTF("obstacle/walker", slot0.scene), slot0)
-	slot0.obsTF = slot0:findTF("scene/obstacle")
+	slot0.ofunya = uv2(slot0._tf:Find("bg_back/07_Ofunya"), slot0)
+	slot0.manjuu = uv3(slot0._tf:Find("bg_back/08_Manjuu"), slot0)
+	slot0.walker = uv4(slot0.scene:Find("obstacle/walker"), slot0)
+	slot0.obsTF = slot0._tf:Find("scene/obstacle")
 	slot0.obsCanvas = GetComponent(slot0.obsTF, typeof(CanvasGroup))
-	slot0.obsTpl = slot0:findTF("scene/obstacle_Tpl")
-	slot0.minerGroups = slot0:findTF("miner_groups", slot0.obsTF)
-	slot0.oilGroups = slot0:findTF("oil_groups", slot0.obsTF)
-	slot0.cubeGroups = slot0:findTF("cube_groups", slot0.obsTF)
+	slot0.obsTpl = slot0._tf:Find("scene/obstacle_Tpl")
+	slot0.minerGroups = slot0.obsTF:Find("miner_groups")
+	slot0.oilGroups = slot0.obsTF:Find("oil_groups")
+	slot0.cubeGroups = slot0.obsTF:Find("cube_groups")
 end
 
 slot0.updateMainUI = function(slot0)
@@ -1098,7 +1098,7 @@ slot0.staticObsStart = function(slot0)
 	for slot6, slot7 in ipairs(uv0.oil) do
 		if math.random() <= slot7.appear then
 			for slot12 = 1, slot7.num do
-				slot13 = cloneTplTo(slot0:findTF("oil_Tpl", slot0.obsTpl), slot0.oilGroups, "oil")
+				slot13 = cloneTplTo(slot0.obsTpl:Find("oil_Tpl"), slot0.oilGroups, "oil")
 
 				setActive(slot13, true)
 
@@ -1116,7 +1116,7 @@ slot0.staticObsStart = function(slot0)
 	for slot6, slot7 in ipairs(uv0.cube) do
 		if math.random() <= slot7.appear then
 			for slot12 = 1, slot7.num do
-				slot13 = cloneTplTo(slot0:findTF("cube_Tpl", slot0.obsTpl), slot0.cubeGroups, "cube")
+				slot13 = cloneTplTo(slot0.obsTpl:Find("cube_Tpl"), slot0.cubeGroups, "cube")
 
 				setActive(slot13, true)
 
@@ -1136,7 +1136,7 @@ slot0.staticObsStart = function(slot0)
 	for slot6, slot7 in ipairs(uv0.miner) do
 		if math.random() <= slot7.appear then
 			for slot12 = 1, slot7.num do
-				slot13 = cloneTplTo(slot0:findTF("miner_Tpl", slot0.obsTpl), slot0.minerGroups, "miner")
+				slot13 = cloneTplTo(slot0.obsTpl:Find("miner_Tpl"), slot0.minerGroups, "miner")
 
 				setActive(slot13, true)
 				table.insert(slot0.minerControls, uv4(slot13, slot0))
@@ -1202,7 +1202,7 @@ slot0.updateGameUI = function(slot0)
 end
 
 slot0.addScore = function(slot0, slot1, slot2)
-	slot3 = cloneTplTo(slot0:findTF("score_tf", slot0.gameUI), slot0.scoreGroup)
+	slot3 = cloneTplTo(slot0.gameUI:Find("score_tf"), slot0.scoreGroup)
 
 	if slot2 then
 		setLocalPosition(slot3, slot2)
@@ -1275,7 +1275,7 @@ slot0.showEndUI = function(slot0)
 	slot3 = getProxy(MiniGameProxy):GetHighScore(slot0:GetMGData().id) and #slot2 > 0 and slot2[1] or 0
 	slot4 = slot2 and #slot2 > 1 and slot2[2] or 0
 
-	setActive(slot0:findTF("ad/panel/cur_score/new", slot0.endUI), slot3 < slot1)
+	setActive(slot0.endUI:Find("ad/panel/cur_score/new"), slot3 < slot1)
 
 	if slot3 <= slot1 then
 		slot0:StoreDataToServer({
@@ -1283,8 +1283,8 @@ slot0.showEndUI = function(slot0)
 		})
 	end
 
-	setText(slot0:findTF("ad/panel/highest_score", slot0.endUI), slot3)
-	setText(slot0:findTF("ad/panel/cur_score", slot0.endUI), slot1)
+	setText(slot0.endUI:Find("ad/panel/highest_score"), slot3)
+	setText(slot0.endUI:Find("ad/panel/cur_score"), slot1)
 	slot0:SendSuccess(slot1 or 0)
 end
 

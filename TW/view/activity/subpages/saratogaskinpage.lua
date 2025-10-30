@@ -4,8 +4,8 @@ slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.fightBtn = slot0:findTF("btn_list/fight", slot0.bg)
-	slot0.shopBtn = slot0:findTF("btn_list/shop", slot0.bg)
-	slot0.fightBtn = slot0:findTF("btn_list/fight", slot0.bg)
+	slot0.shopBtn = slot0.bg:Find("btn_list/shop")
+	slot0.fightBtn = slot0.bg:Find("btn_list/fight")
 end
 
 slot0.OnFirstFlush = function(slot0)

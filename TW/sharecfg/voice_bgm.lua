@@ -76,12 +76,12 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "danmachi-1",
+		default_bgm = "login",
 		special_bgm = "",
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "danmachi-1",
+		default_bgm = "main",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -135,20 +135,10 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
-	ActivityShop50129 = {
-		default_bgm = "story-amahara-stage1",
+	ActivityShop50206 = {
+		default_bgm = "theme-tempest-light",
 		special_bgm = "",
-		bgm = "story-amahara-stage1"
-	},
-	ActivityShop50088 = {
-		default_bgm = "theme-fushun-adventure",
-		special_bgm = "",
-		bgm = "theme-fushun-adventure"
-	},
-	NewShopsScene = {
-		default_bgm = "theme-fushun-adventure",
-		special_bgm = "",
-		bgm = "theme-fushun-adventure"
+		bgm = "theme-tempest-light"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1830,6 +1820,21 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-richang-5"
 	},
+	FlandreTecCatchupPage = {
+		default_bgm = "theme-kerguelen",
+		special_bgm = "",
+		bgm = "theme-kerguelen"
+	},
+	YidaliV4SkinPage = {
+		default_bgm = "theme-marcopolo",
+		special_bgm = "",
+		bgm = "theme-marcopolo"
+	},
+	YidaliV4FramePage = {
+		default_bgm = "story-theme-sardinia",
+		special_bgm = "",
+		bgm = "story-theme-sardinia"
+	},
 	FulankelinMainPage = {
 		default_bgm = "theme-hospital-deep",
 		special_bgm = "",
@@ -2204,5 +2209,30 @@ pg.voice_bgm = {
 		default_bgm = "danmachi-3",
 		special_bgm = "",
 		bgm = "danmachi-3"
+	},
+	ClemenceauMainRePage = {
+		default_bgm = "theme-clemenceau",
+		special_bgm = "",
+		bgm = "theme-clemenceau"
+	},
+	ExpoTicketTaskRePage = {
+		default_bgm = "story-clemenceau-judgement",
+		special_bgm = "",
+		bgm = "story-clemenceau-judgement"
+	},
+	SaDingPtRePage = {
+		default_bgm = "story-expo-lastday",
+		special_bgm = "",
+		bgm = "story-expo-lastday"
+	},
+	SaDingFrameRePage = {
+		default_bgm = "theme-marcopolo",
+		special_bgm = "",
+		bgm = "theme-marcopolo"
+	},
+	SaDingLoginRePage = {
+		default_bgm = "theme-irisangel",
+		special_bgm = "",
+		bgm = "theme-irisangel"
 	}
 }

@@ -13,9 +13,9 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.registerPanel = slot0._tf
-	slot0.registerUsername = slot0:findTF("account/username", slot0.registerPanel)
-	slot0.cancelButton = slot0:findTF("cancel_button", slot0.registerPanel)
-	slot0.confirmButton = slot0:findTF("confirm_button", slot0.registerPanel)
+	slot0.registerUsername = slot0.registerPanel:Find("account/username")
+	slot0.cancelButton = slot0.registerPanel:Find("cancel_button")
+	slot0.confirmButton = slot0.registerPanel:Find("confirm_button")
 
 	slot0:InitEvent()
 end

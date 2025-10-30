@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.photoImgTrans = slot0:findTF("PhotoImg")
-	slot0.shareBtnTrans = slot0:findTF("ShareBtn")
-	slot0.confirmBtnTrans = slot0:findTF("ConfirmBtn")
-	slot0.cancelBtnTrans = slot0:findTF("CancelBtn")
-	slot0.frameBtn = slot0:findTF("frameBtn")
-	slot0.photoAdapter = slot0:findTF("photoAdapter")
+	slot0.photoImgTrans = slot0._tf:Find("PhotoImg")
+	slot0.shareBtnTrans = slot0._tf:Find("ShareBtn")
+	slot0.confirmBtnTrans = slot0._tf:Find("ConfirmBtn")
+	slot0.cancelBtnTrans = slot0._tf:Find("CancelBtn")
+	slot0.frameBtn = slot0._tf:Find("frameBtn")
+	slot0.photoAdapter = slot0._tf:Find("photoAdapter")
 end
 
 slot0.OnInit = function(slot0)
@@ -295,6 +295,8 @@ slot0.OnHide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:OnHide()
+
 	slot1 = ipairs
 	slot2 = slot0.loadingIdList or {}
 

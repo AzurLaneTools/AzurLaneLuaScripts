@@ -336,8 +336,6 @@ return {
 		uv0.isPretest = IsUnityEditor or uv0.isPreAudit
 		uv0.isGoogleSimulator = NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
 		uv0.isRelease = NetConst.GATEWAY_PORT == 80 and NetConst.GATEWAY_HOST == "blhxusgate.yo-star.com"
-		uv0.isAudit = NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
-		uv0.isGoogleSimulator = false
 		uv0.LoginPlatform = PLATFORM_YOSTARUS
 		uv0.SDK_PID_TEST = ""
 		uv0.SDK_PID_RELEASE = ""

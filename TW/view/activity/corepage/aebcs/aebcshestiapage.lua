@@ -2,8 +2,8 @@ slot0 = class("AEBCSHestiaPage", import("view.activity.CorePage.BRS.HeiYanPtPage
 
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
-	setText(slot0:findTF("Text", slot0.displayBtn), i18n("other_world_temple_award"))
-	setText(slot0:findTF("schedule", slot0.task_bg), i18n("Outpost_20250904_Progress"))
+	setText(slot0.displayBtn:Find("Text"), i18n("other_world_temple_award"))
+	setText(slot0.task_bg:Find("schedule"), i18n("Outpost_20250904_Progress"))
 end
 
 slot0.OnUpdateFlush = function(slot0)

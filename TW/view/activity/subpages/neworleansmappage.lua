@@ -1,11 +1,11 @@
 slot0 = class("NewOrleansMapPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.item = slot0:findTF("item", slot0.bg)
-	slot0.itemMask = slot0:findTF("icon_mask", slot0.item)
-	slot0.gotaskBtn = slot0:findTF("gotask", slot0.bg)
-	slot0.gobattleBtn = slot0:findTF("gobattle", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.item = slot0.bg:Find("item")
+	slot0.itemMask = slot0.item:Find("icon_mask")
+	slot0.gotaskBtn = slot0.bg:Find("gotask")
+	slot0.gobattleBtn = slot0.bg:Find("gobattle")
 end
 
 slot0.OnDataSetting = function(slot0)

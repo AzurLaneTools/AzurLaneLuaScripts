@@ -15,7 +15,7 @@ return {
 				posX = -410,
 				ui = {
 					lineMode = true,
-					path = "OverlayCamera/Overlay/UIMain/PreCombatUI(Clone)/BuffContainer/Icon"
+					path = "OverlayCamera/Overlay/UIMain/PreCombatUI(Clone)/adapt/BuffContainer/Icon"
 				}
 			}
 		}

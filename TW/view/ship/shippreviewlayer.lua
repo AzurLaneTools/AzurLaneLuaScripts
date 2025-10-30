@@ -12,8 +12,8 @@ slot0.init = function(slot0)
 
 	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
 	slot0.seaCameraGO = GameObject.Find("BarrageCamera")
-	slot0.leftPanel = slot0:findTF("left_panel")
-	slot0.sea = slot0:findTF("sea", slot0.leftPanel)
+	slot0.leftPanel = slot0._tf:Find("left_panel")
+	slot0.sea = slot0.leftPanel:Find("sea")
 	slot0.seaCamera = slot0.seaCameraGO:GetComponent("Camera")
 	slot0.seaCamera.enabled = true
 	slot0.rawImage = slot0.sea:GetComponent("RawImage")
@@ -21,7 +21,7 @@ slot0.init = function(slot0)
 	setActive(slot0.rawImage, false)
 
 	slot0.seaCamera.targetTexture = slot0.rawImage.texture
-	slot0.healTF = slot0:findTF("resources/heal")
+	slot0.healTF = slot0._tf:Find("resources/heal")
 	slot0.healTF.transform.localPosition = Vector3(-360, 50, 40)
 
 	setActive(slot0.healTF, false)
@@ -30,7 +30,7 @@ slot0.init = function(slot0)
 		setText(uv0.healTF:Find("text"), "")
 	end)
 
-	slot0.seaLoading = slot0:findTF("bg/loading", slot0.leftPanel)
+	slot0.seaLoading = slot0.leftPanel:Find("bg/loading")
 
 	slot0:playLoadingAni()
 end

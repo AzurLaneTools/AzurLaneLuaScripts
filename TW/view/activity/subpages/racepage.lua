@@ -2,23 +2,23 @@ slot0 = class("RacePage", import("...base.BaseActivityPage"))
 slot1 = 58
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.help = slot0:findTF("help", slot0.bg)
-	slot0.goBtn = slot0:findTF("go_btn", slot0.bg)
-	slot0.ticketStat = slot0:findTF("ticket_static", slot0.bg)
-	slot0.ticketNum = slot0:findTF("ticket_num", slot0.bg)
-	slot0.costTf = slot0:findTF("cost", slot0.bg)
-	slot0.progressBar = slot0:findTF("progress_bar", slot0.bg)
-	slot0.progressTpl = slot0:findTF("progress_tpl", slot0.bg)
-	slot0.progressContainer = slot0:findTF("progress", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.help = slot0.bg:Find("help")
+	slot0.goBtn = slot0.bg:Find("go_btn")
+	slot0.ticketStat = slot0.bg:Find("ticket_static")
+	slot0.ticketNum = slot0.bg:Find("ticket_num")
+	slot0.costTf = slot0.bg:Find("cost")
+	slot0.progressBar = slot0.bg:Find("progress_bar")
+	slot0.progressTpl = slot0.bg:Find("progress_tpl")
+	slot0.progressContainer = slot0.bg:Find("progress")
 	slot0.progressList = UIItemList.New(slot0.progressContainer, slot0.progressTpl)
-	slot0.rankBtn = slot0:findTF("rank_btn", slot0.bg)
-	slot0.rankPanel = slot0:findTF("rank_panel", slot0.bg)
-	slot0.rankBlank = slot0:findTF("rank_panel/static/blank_img", slot0.bg)
-	slot0.rankSelf = slot0:findTF("rank_panel/self", slot0.bg)
-	slot0.rankContainer = slot0:findTF("rank_panel/list_panel/view_content/list", slot0.bg)
-	slot0.rankTpl = slot0:findTF("rank_panel/list_panel/view_content/tpl", slot0.bg)
-	slot0.rankMask = slot0:findTF("rank_panel/mask", slot0.bg)
+	slot0.rankBtn = slot0.bg:Find("rank_btn")
+	slot0.rankPanel = slot0.bg:Find("rank_panel")
+	slot0.rankBlank = slot0.bg:Find("rank_panel/static/blank_img")
+	slot0.rankSelf = slot0.bg:Find("rank_panel/self")
+	slot0.rankContainer = slot0.bg:Find("rank_panel/list_panel/view_content/list")
+	slot0.rankTpl = slot0.bg:Find("rank_panel/list_panel/view_content/tpl")
+	slot0.rankMask = slot0.bg:Find("rank_panel/mask")
 
 	slot0:hideRankPanel()
 end
@@ -67,14 +67,14 @@ slot0.OnFirstFlush = function(slot0)
 	end, SFX_PANEL)
 	slot0.progressList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
-			slot4 = pg.mini_game[uv1].simple_config_data.drop[slot1 + 1]
+			slot4 = pg.mini_game[uv0].simple_config_data.drop[slot1 + 1]
 
-			updateDrop(uv0:findTF("item_mask/item", slot2), {
+			updateDrop(slot2:Find("item_mask/item"), {
 				type = slot4[1],
 				id = slot4[2],
 				count = slot4[3]
 			})
-			onButton(uv0, slot2, function ()
+			onButton(uv1, slot2, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
 			setText(slot2:Find("text"), slot1 + 1)
@@ -83,8 +83,8 @@ slot0.OnFirstFlush = function(slot0)
 		end
 
 		if slot0 == UIItemList.EventUpdate then
-			setActive(slot2:Find("item_mask/got"), slot1 < uv0.playedCount)
-			setActive(slot2:Find("got_sequence"), slot1 < uv0.playedCount)
+			setActive(slot2:Find("item_mask/got"), slot1 < uv1.playedCount)
+			setActive(slot2:Find("got_sequence"), slot1 < uv1.playedCount)
 		end
 	end)
 	slot0.progressList:align(slot0.needCount)

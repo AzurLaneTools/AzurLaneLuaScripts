@@ -5,7 +5,7 @@ slot0.Ctor = function(slot0)
 	slot0:onUILoaded(DebugMgr.Inst.DebugPanel)
 	setActive(slot0._tf, false)
 
-	slot0.ctrls = slot0:findTF("ctrls")
+	slot0.ctrls = slot0._tf:Find("ctrls")
 	slot0._customBtnTpl = slot0:getTpl("ctrls/custom_button")
 end
 

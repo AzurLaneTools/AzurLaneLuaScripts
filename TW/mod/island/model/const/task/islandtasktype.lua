@@ -120,4 +120,20 @@ slot0.GetHudPriority = function(slot0)
 	end)
 end
 
+slot0.GetTrackingIconName = function(slot0)
+	if slot0 == uv0.MAIN then
+		return "task_type_1"
+	elseif slot0 == uv0.BRANCH then
+		return "task_type_2"
+	elseif slot0 == uv0.DAILY then
+		return "task_type_3"
+	elseif slot0 == uv0.WEEKLY then
+		return "task_type_4"
+	elseif slot0 == uv0.ACTIVITY_BRANCH or slot0 == uv0.ACTIVITY_DAILY or slot0 == uv0.ACTIVITY_WEEKLY or slot0 == uv0.SEASON or slot0 == uv0.HIDE then
+		return "task_type_5"
+	end
+
+	assert(false, "Unknown type >>>" .. slot0)
+end
+
 return slot0

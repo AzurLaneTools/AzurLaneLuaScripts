@@ -5,26 +5,26 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.timeTF = slot0:findTF("content/top/time")
-	slot0.weekTF = slot0:findTF("week", slot0.timeTF)
-	slot0.dayTF = slot0:findTF("day", slot0.timeTF)
-	slot0.homeTF = slot0:findTF("content/top/home")
+	slot0.timeTF = slot0._tf:Find("content/top/time")
+	slot0.weekTF = slot0.timeTF:Find("week")
+	slot0.dayTF = slot0.timeTF:Find("day")
+	slot0.homeTF = slot0._tf:Find("content/top/home")
 
-	setText(slot0:findTF("Text", slot0.homeTF), i18n("child_date_text1"))
+	setText(slot0.homeTF:Find("Text"), i18n("child_date_text1"))
 
-	slot0.schoolTF = slot0:findTF("content/top/school")
+	slot0.schoolTF = slot0._tf:Find("content/top/school")
 
-	setText(slot0:findTF("Text", slot0.schoolTF), i18n("child_date_text2"))
+	setText(slot0.schoolTF:Find("Text"), i18n("child_date_text2"))
 
-	slot0.upgradeTF = slot0:findTF("content/top/upgrade")
+	slot0.upgradeTF = slot0._tf:Find("content/top/upgrade")
 
-	setText(slot0:findTF("Text", slot0.upgradeTF), i18n("child_date_text3"))
+	setText(slot0.upgradeTF:Find("Text"), i18n("child_date_text3"))
 
-	slot0.dataTF = slot0:findTF("content/top/data")
+	slot0.dataTF = slot0._tf:Find("content/top/data")
 
-	setText(slot0:findTF("Text", slot0.dataTF), i18n("child_date_text4"))
+	setText(slot0.dataTF:Find("Text"), i18n("child_date_text4"))
 
-	slot0.newsBtn = slot0:findTF("content/bottom")
+	slot0.newsBtn = slot0._tf:Find("content/bottom")
 
 	onButton(slot0, slot0.newsBtn, function ()
 		uv0:emit(EducateBaseUI.EDUCATE_GO_SUBLAYER, Context.New({

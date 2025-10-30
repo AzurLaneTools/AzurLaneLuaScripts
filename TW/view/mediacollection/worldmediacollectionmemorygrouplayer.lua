@@ -15,7 +15,7 @@ slot0.OnInit = function(slot0)
 	slot0.memoryGroups = _.map(pg.memory_group.all, function (slot0)
 		return pg.memory_group[slot0]
 	end)
-	slot0.memoryGroupList = slot0:findTF("GroupRect"):GetComponent("LScrollRect")
+	slot0.memoryGroupList = slot0._tf:Find("GroupRect"):GetComponent("LScrollRect")
 
 	slot0.memoryGroupList.onInitItem = function(slot0)
 		uv0:onInitMemoryGroup(slot0)
@@ -27,19 +27,19 @@ slot0.OnInit = function(slot0)
 
 	slot0.memoryGroupInfos = {}
 
-	setActive(slot0:findTF("GroupItem", slot0.memoryGroupList), false)
+	setActive(tf(slot0.memoryGroupList):Find("GroupItem"), false)
 
-	slot0.memoryGroupViewport = slot0:findTF("Viewport", slot0.memoryGroupList)
-	slot0.memoryGroupsGrid = slot0:findTF("Viewport/Content", slot0.memoryGroupList):GetComponent(typeof(GridLayoutGroup))
-	slot5 = slot0._tf
-	slot0.memoryTogGroup = slot0:findTF("Toggles", slot5)
+	slot0.memoryGroupViewport = tf(slot0.memoryGroupList):Find("Viewport")
+	slot5 = GridLayoutGroup
+	slot0.memoryGroupsGrid = tf(slot0.memoryGroupList):Find("Viewport/Content"):GetComponent(typeof(slot5))
+	slot0.memoryTogGroup = slot0._tf:Find("Toggles")
 
 	setActive(slot0.memoryTogGroup, true)
 
 	slot0.memoryToggles = {}
 
 	for slot5 = 0, 3 do
-		slot0.memoryToggles[slot5 + 1] = slot0:findTF(slot5, slot0.memoryTogGroup)
+		slot0.memoryToggles[slot5 + 1] = slot0.memoryTogGroup:Find(slot5)
 	end
 
 	slot0.memoryFilterIndex = {
@@ -47,16 +47,15 @@ slot0.OnInit = function(slot0)
 		true,
 		true
 	}
-	slot0.groupToggle = slot0:findTF("ActivityToggle", slot0._tf)
-	slot5 = slot0._tf
-	slot0.memoryActivityTogGroup = slot0:findTF("ActivityToggle/ActivityBar", slot5)
+	slot0.groupToggle = slot0._tf:Find("ActivityToggle")
+	slot0.memoryActivityTogGroup = slot0._tf:Find("ActivityToggle/ActivityBar")
 
 	setActive(slot0.memoryActivityTogGroup, true)
 
 	slot0.memoryActivityToggles = {}
 
 	for slot5 = 0, 3 do
-		slot0.memoryActivityToggles[slot5 + 1] = slot0:findTF(slot5, slot0.memoryActivityTogGroup)
+		slot0.memoryActivityToggles[slot5 + 1] = slot0.memoryActivityTogGroup:Find(slot5)
 	end
 
 	slot0.activityFilter = 0
@@ -109,16 +108,20 @@ slot0.OnInit = function(slot0)
 		end, SFX_UI_TAG)
 	end
 
-	slot3 = slot0.viewParent
-
-	slot3:Add2TopContainer(slot0.memoryTogGroup)
+	slot0:OverlayPanel(slot0.memoryTogGroup, {
+		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+	})
 
 	slot0.loader = AutoLoader.New()
-	slot0.searchBtn = slot0:findTF("ActivityToggle/search_btn/btn", slot0._tf)
-	slot0.nameSearchInput = slot0:findTF("ActivityToggle/search_btn/search", slot0._tf)
-	slot0.closeSearch = slot0:findTF("ActivityToggle/search_btn/icon", slot0._tf)
+	slot3 = slot0._tf
+	slot0.searchBtn = slot3:Find("ActivityToggle/search_btn/btn")
+	slot3 = slot0._tf
+	slot0.nameSearchInput = slot3:Find("ActivityToggle/search_btn/search")
+	slot3 = slot0._tf
+	slot0.closeSearch = slot3:Find("ActivityToggle/search_btn/icon")
+	slot4 = slot0.searchBtn
 
-	setText(slot0:findTF("label", slot0.searchBtn), i18n("storyline_memorysearch2"))
+	setText(slot4:Find("label"), i18n("storyline_memorysearch2"))
 	onButton(slot0, slot0.searchBtn, function ()
 		setActive(uv0.nameSearchInput, true)
 		setActive(uv0.searchBtn, false)
@@ -130,7 +133,7 @@ slot0.OnInit = function(slot0)
 		if uv0.searchOpen then
 			setActive(uv0.nameSearchInput, false)
 			setActive(uv0.searchBtn, true)
-			setText(uv0:findTF("label", uv0.searchBtn), i18n("storyline_memorysearch2"))
+			setText(uv0.searchBtn:Find("label"), i18n("storyline_memorysearch2"))
 		else
 			triggerButton(uv0.searchBtn)
 		end
@@ -141,13 +144,17 @@ slot0.OnInit = function(slot0)
 	end)
 	slot0:MemoryFilter()
 
-	slot0.rectAnchorX = slot0:findTF("GroupRect").anchoredPosition.x
+	slot3 = slot0._tf
+	slot0.rectAnchorX = slot3:Find("GroupRect").anchoredPosition.x
 
 	slot0:UpdateView()
 
-	slot0.storyLineBtn = slot0:findTF("StoryLineBtn")
-	slot0.storyLineEntranceBtn = slot0:findTF("StoryLineBtn/entranceBtn")
-	slot0.storyLineHideBtn = slot0:findTF("StoryLineBtn/closeBtn")
+	slot3 = slot0._tf
+	slot0.storyLineBtn = slot3:Find("StoryLineBtn")
+	slot3 = slot0._tf
+	slot0.storyLineEntranceBtn = slot3:Find("StoryLineBtn/entranceBtn")
+	slot3 = slot0._tf
+	slot0.storyLineHideBtn = slot3:Find("StoryLineBtn/closeBtn")
 	slot0.currentMode = uv0.FORM_MODE
 
 	onButton(slot0, slot0.storyLineEntranceBtn, function ()
@@ -160,7 +167,8 @@ slot0.OnInit = function(slot0)
 		uv0:StoryLineBtnSetActive(true)
 	end)
 
-	slot0.storylineTF = slot0:findTF("StoryLine")
+	slot3 = slot0._tf
+	slot0.storylineTF = slot3:Find("StoryLine")
 	slot0.storyLineView = WorldMediaCollectionStoryLineView.New(slot0.storylineTF)
 	slot5 = slot0.storyLineView
 
@@ -175,14 +183,14 @@ end
 slot0.StoryLineBtnSetActive = function(slot0, slot1)
 	setActive(slot0.storyLineEntranceBtn, slot1)
 	setActive(slot0.storyLineHideBtn, slot1)
-	setActive(slot0:findTF("StoryLineBtn/on"), not slot1)
+	setActive(slot0._tf:Find("StoryLineBtn/on"), not slot1)
 end
 
 slot0.SwitchStoryLineMode = function(slot0, slot1)
 	slot0.currentMode = slot1
 
 	if slot1 == uv0.FORM_MODE then
-		setActive(slot0:findTF("GroupRect"), true)
+		setActive(slot0._tf:Find("GroupRect"), true)
 		setActive(slot0.memoryTogGroup, true)
 		setActive(slot0.groupToggle, true)
 		setActive(slot0.storylineTF, false)
@@ -191,7 +199,7 @@ slot0.SwitchStoryLineMode = function(slot0, slot1)
 		slot0:MemoryFilter()
 		pg.BgmMgr.GetInstance():ContinuePlay()
 	elseif slot1 == uv0.LINE_MODE then
-		setActive(slot0:findTF("GroupRect"), false)
+		setActive(slot0._tf:Find("GroupRect"), false)
 		setActive(slot0.memoryTogGroup, false)
 		setActive(slot0.groupToggle, false)
 		setActive(slot0.storylineTF, true)
@@ -362,7 +370,7 @@ slot0.GetIndexRatio = function(slot0, slot1)
 end
 
 slot0.UpdateView = function(slot0)
-	setAnchoredPosition(slot0:findTF("GroupRect"), {
+	setAnchoredPosition(slot0._tf:Find("GroupRect"), {
 		x = WorldMediaCollectionScene.WorldRecordLock() and 0 or slot0.rectAnchorX
 	})
 
@@ -385,6 +393,7 @@ end
 slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 	slot0.storyLineView:Dispose()
+	slot0:UnOverlayPanel(slot0.memoryTogGroup, slot0._tf)
 end
 
 slot0.GetMatchGroupList = function(slot0, slot1, slot2)

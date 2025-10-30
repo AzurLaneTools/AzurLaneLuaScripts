@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("frame/close")
-	slot0.icon = slot0:findTF("frame/icon/Image"):GetComponent(typeof(Image))
-	slot0.name = slot0:findTF("frame/name"):GetComponent(typeof(Text))
-	slot0.desc = slot0:findTF("frame/scrollrect/desc"):GetComponent(typeof(Text))
-	slot0.outPut = slot0:findTF("frame/output/Text"):GetComponent(typeof(Text))
-	slot0.goBtn = slot0:findTF("frame/output/btn")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot0.icon = slot0._tf:Find("frame/icon/Image"):GetComponent(typeof(Image))
+	slot0.name = slot0._tf:Find("frame/name"):GetComponent(typeof(Text))
+	slot0.desc = slot0._tf:Find("frame/scrollrect/desc"):GetComponent(typeof(Text))
+	slot0.outPut = slot0._tf:Find("frame/output/Text"):GetComponent(typeof(Text))
+	slot0.goBtn = slot0._tf:Find("frame/output/btn")
 end
 
 slot0.OnInit = function(slot0)

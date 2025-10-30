@@ -44,6 +44,10 @@ slot0.Update = function(slot0)
 	end)
 end
 
+slot0.IsPlayerInTimeline = function(slot0)
+	return slot0.player and slot0.player:InTimeline()
+end
+
 slot0.InitPlayer = function(slot0)
 	slot0.player = SyncLocalPlayer.New(slot0.playerId, slot0.view.player)
 end
@@ -273,6 +277,12 @@ slot0.OnVisitorInteract = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.TryControlUnit = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	if slot0:IsPlayerInTimeline() then
+		slot5(false)
+
+		return
+	end
+
 	slot6 = slot0:GetUnit(slot1, slot2)
 
 	slot0:ControlUnit(slot2, slot3, 1, slot4, slot1, function (slot0)

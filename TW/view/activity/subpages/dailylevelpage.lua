@@ -1,12 +1,12 @@
 slot0 = class("DailyLevelPage", import("view.activity.CorePage.CoreActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.goBtn = slot0:findTF("bg/goBtn")
-	slot0.levelContant = slot0:findTF("bg/titleText/itemList")
-	slot0.itemGO = slot0:findTF("levelItem", slot0.levelContant)
+	slot0.goBtn = slot0._tf:Find("bg/goBtn")
+	slot0.levelContant = slot0._tf:Find("bg/titleText/itemList")
+	slot0.itemGO = slot0.levelContant:Find("levelItem")
 
-	setText(slot0:findTF("bg/titleText"), i18n("open_today"))
-	setText(slot0:findTF("bg/goBtn/Text"), i18n("daily_level_go"))
+	setText(slot0._tf:Find("bg/titleText"), i18n("open_today"))
+	setText(slot0._tf:Find("bg/goBtn/Text"), i18n("daily_level_go"))
 
 	slot0.itemList = UIItemList.New(slot0.levelContant, slot0.itemGO)
 end
@@ -17,7 +17,7 @@ slot0.OnFirstFlush = function(slot0)
 	end)
 	slot0.itemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setText(uv0:findTF("Text", slot2), pg.expedition_daily_template[uv0.activeList[slot1 + 1]].title)
+			setText(slot2:Find("Text"), pg.expedition_daily_template[uv0.activeList[slot1 + 1]].title)
 		end
 	end)
 	slot0.activity:SetLoginRedPoint()

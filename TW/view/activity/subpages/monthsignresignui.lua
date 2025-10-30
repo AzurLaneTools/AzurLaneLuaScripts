@@ -15,12 +15,19 @@ slot0.InitUI = function(slot0)
 	slot0.destroyBonusList = slot1:Find("frame/bg/scrollview/list")
 	slot1 = slot0.destroyBonusList
 	slot0.itemTpl = slot1:Find("item_tpl")
+	slot2 = slot0._tf
 
-	setText(slot0:findTF("frame/title_text/Text"), i18n("month_sign_resign"))
-	onButton(slot0, slot0:findTF("frame/top/btnBack"), function ()
+	setText(slot2:Find("frame/title_text/Text"), i18n("month_sign_resign"))
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame/top/btnBack"), function ()
 		uv0:Destroy()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("frame/actions/confirm_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame/actions/confirm_btn"), function ()
 		uv0:Destroy()
 	end, SFX_UI_EQUIPMENT_RESOLVE)
 end

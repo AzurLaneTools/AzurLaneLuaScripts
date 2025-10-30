@@ -1,13 +1,13 @@
 slot0 = class("CollectionEventPtPage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.helpBtn = slot0:findTF("help", slot0.bg)
-	slot0.shopBtn = slot0:findTF("shop", slot0.bg)
-	slot0.eventBtn = slot0:findTF("event", slot0.bg)
-	slot0.resTF = slot0:findTF("res", slot0.bg)
-	slot0.resIcon = slot0:findTF("icon", slot0.resTF):GetComponent(typeof(Image))
-	slot0.resNum = slot0:findTF("num", slot0.resTF):GetComponent(typeof(Text))
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.helpBtn = slot0.bg:Find("help")
+	slot0.shopBtn = slot0.bg:Find("shop")
+	slot0.eventBtn = slot0.bg:Find("event")
+	slot0.resTF = slot0.bg:Find("res")
+	slot0.resIcon = slot0.resTF:Find("icon"):GetComponent(typeof(Image))
+	slot0.resNum = slot0.resTF:Find("num"):GetComponent(typeof(Text))
 end
 
 slot0.OnDataSetting = function(slot0)

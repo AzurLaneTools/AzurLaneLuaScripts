@@ -8,11 +8,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.container = slot0:findTF("frame/window")
-	slot0.closeBtn = slot0:findTF("frame/top/btnBack")
-	slot0.confirmBtn = slot0:findTF("frame/confirm")
+	slot0.container = slot0._tf:Find("frame/window")
+	slot0.closeBtn = slot0._tf:Find("frame/top/btnBack")
+	slot0.confirmBtn = slot0._tf:Find("frame/confirm")
 
-	setText(slot0:findTF("frame/top/title"), i18n("words_information"))
+	setText(slot0._tf:Find("frame/top/title"), i18n("words_information"))
 	setText(slot0.confirmBtn:Find("Text"), i18n("msgbox_text_confirm"))
 end
 

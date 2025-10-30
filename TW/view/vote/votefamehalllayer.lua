@@ -13,8 +13,8 @@ slot0.SetPastVoteData = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.tip = slot0:findTF("Text"):GetComponent(typeof(Text))
-	slot0.backBtn = slot0:findTF("adapt/back")
+	slot0.tip = slot0._tf:Find("Text"):GetComponent(typeof(Text))
+	slot0.backBtn = slot0._tf:Find("adapt/back")
 end
 
 slot0.didEnter = function(slot0)
@@ -30,7 +30,8 @@ slot0.InitData = function(slot0)
 	slot1 = false
 
 	for slot5, slot6 in pairs(slot0.voteData) do
-		slot7 = slot0:findTF("adapt/btns/btn_" .. slot5)
+		slot7 = slot0._tf
+		slot7 = slot7:Find("adapt/btns/btn_" .. slot5)
 		slot0.displays[slot5] = slot6
 
 		onToggle(slot0, slot7, function (slot0)
@@ -54,10 +55,11 @@ end
 slot0.Flush = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.displays[slot1]) do
 		slot8 = pg.vote_champion[slot7]
+		slot9 = slot0._tf
 		slot10 = slot8.story
 		slot11 = slot8.task
 
-		onButton(slot0, slot0:findTF(slot1 .. "/" .. slot8.rank), function ()
+		onButton(slot0, slot9:Find(slot1 .. "/" .. slot8.rank), function ()
 			uv0:GetAward(uv1, uv2)
 		end, SFX_PANEL)
 	end
@@ -95,7 +97,7 @@ slot0.UpdateTips = function(slot0, slot1)
 		slot4[slot8][2] = slot3:getAttireFrame(AttireConst.TYPE_ICON_FRAME, pg.task_data_template[slot12].award_display[1][2]) ~= nil and slot17:isOwned()
 		slot4[slot8][1] = ShipGroup.getDefaultShipConfig(slot10.ship_group).name
 
-		setActive(slot0:findTF(slot1 .. "/" .. slot10.rank .. "/title/tip"), slot14 and slot14:isFinish() and not slot14:isReceive() and (slot17 == nil or not slot17:isOwned()))
+		setActive(slot0._tf:Find(slot1 .. "/" .. slot10.rank .. "/title/tip"), slot14 and slot14:isFinish() and not slot14:isReceive() and (slot17 == nil or not slot17:isOwned()))
 	end
 
 	slot5 = _.map(slot4, function (slot0)

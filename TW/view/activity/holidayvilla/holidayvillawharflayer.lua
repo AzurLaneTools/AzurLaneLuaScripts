@@ -6,12 +6,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.closeBtn = slot0:findTF("closeBtn")
-	slot0.res = slot0:findTF("res")
-	slot0.wharfResCount = slot0:findTF("frame/resNum")
-	slot0.transportList = slot0:findTF("frame/transportList")
-	slot0.transportCompletePage = slot0:findTF("transportCompletePage")
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.closeBtn = slot0._tf:Find("closeBtn")
+	slot0.res = slot0._tf:Find("res")
+	slot0.wharfResCount = slot0._tf:Find("frame/resNum")
+	slot0.transportList = slot0._tf:Find("frame/transportList")
+	slot0.transportCompletePage = slot0._tf:Find("transportCompletePage")
 
 	setText(slot0._tf:Find("frame/nameBg/name"), i18n("holiday_tip_trans_tip"))
 	setText(slot0._tf:Find("frame/resDesc"), i18n("holiday_tip_trans_get"))
@@ -139,7 +139,7 @@ slot0.SetRes = function(slot0, slot1, slot2)
 		for slot13 = 0, slot1.childCount - 1 do
 			if slot1:GetChild(slot13).name == tostring(slot8) then
 				setActive(slot14, true)
-				setText(slot0:findTF("Text", slot14), slot9)
+				setText(slot14:Find("Text"), slot9)
 			end
 		end
 	end
@@ -155,19 +155,29 @@ slot0.ShowCompletePage = function(slot0)
 	slot2 = slot0.transportCompletePage
 
 	SetAction(slot2:Find("ani"), "normal" .. slot0.doingTransCfg.id, false)
-	setText(slot0:findTF("desc/Text", slot0.transportCompletePage), slot0.doingTransCfg.result_desc)
-	setActive(slot0:findTF("desc/triangle", slot0.transportCompletePage), false)
 
-	slot1 = GetOrAddComponent(slot0:findTF("desc/Text", slot0.transportCompletePage), typeof(Typewriter))
+	slot2 = slot0.transportCompletePage
+
+	setText(slot2:Find("desc/Text"), slot0.doingTransCfg.result_desc)
+
+	slot2 = slot0.transportCompletePage
+
+	setActive(slot2:Find("desc/triangle"), false)
+
+	slot2 = slot0.transportCompletePage
+	slot1 = GetOrAddComponent(slot2:Find("desc/Text"), typeof(Typewriter))
 
 	slot1:setSpeed(0.05)
 
 	slot1.endFunc = function()
-		setActive(uv0:findTF("desc/triangle", uv0.transportCompletePage), true)
+		setActive(uv0.transportCompletePage:Find("desc/triangle"), true)
 	end
 
 	slot1:Play()
-	onButton(slot0, slot0:findTF("bg", slot0.transportCompletePage), function ()
+
+	slot4 = slot0.transportCompletePage
+
+	onButton(slot0, slot4:Find("bg"), function ()
 		setActive(uv0.transportCompletePage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.transportCompletePage, uv0._tf)
 
@@ -177,7 +187,10 @@ slot0.ShowCompletePage = function(slot0)
 			uv0:emit(BaseUI.ON_ACHIEVE, uv0.awards)
 		end
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("desc", slot0.transportCompletePage), function ()
+
+	slot4 = slot0.transportCompletePage
+
+	onButton(slot0, slot4:Find("desc"), function ()
 		setActive(uv0.transportCompletePage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.transportCompletePage, uv0._tf)
 

@@ -63,101 +63,100 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.shareBtn = slot0:findTF("share_btn", slot0.bg)
-	slot0.empty = slot0:findTF("empty", slot0.bg)
-	slot0.pizzaTF = slot0:findTF("Pizza", slot0.bg)
-	slot0.openBtn = slot0:findTF("open_btn", slot0.bg)
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
-	slot0.specialTF = slot0:findTF("Special")
-	slot0.backBG = slot0:findTF("BG", slot0.specialTF)
-	slot0.closeBtn = slot0:findTF("CloseBtn", slot0.specialTF)
-	slot0.menuTF = slot0:findTF("Menu", slot0.specialTF)
-	slot4 = slot0.menuTF
-	slot0.mainPanel = slot0:findTF("MainPanel", slot4)
+	slot0.shareBtn = slot0.bg:Find("share_btn")
+	slot0.empty = slot0.bg:Find("empty")
+	slot0.pizzaTF = slot0.bg:Find("Pizza")
+	slot0.openBtn = slot0.bg:Find("open_btn")
+	slot0.helpBtn = slot0.bg:Find("help_btn")
+	slot0.specialTF = slot0._tf:Find("Special")
+	slot0.backBG = slot0.specialTF:Find("BG")
+	slot0.closeBtn = slot0.specialTF:Find("CloseBtn")
+	slot0.menuTF = slot0.specialTF:Find("Menu")
+	slot0.mainPanel = slot0.menuTF:Find("MainPanel")
 	slot0.mainToggleTFList = {}
 
 	for slot4 = 1, 6 do
 		slot0.mainToggleTFList[slot4] = slot0.mainPanel:GetChild(slot4 - 1)
 	end
 
-	slot0.secondPanel = slot0:findTF("SecondList", slot0.menuTF)
-	slot0.selectBtn = slot0:findTF("SelectBtn", slot0.menuTF)
+	slot0.secondPanel = slot0.menuTF:Find("SecondList")
+	slot0.selectBtn = slot0.menuTF:Find("SelectBtn")
 	slot0.mainPanelCG = GetComponent(slot0.mainPanel, "CanvasGroup")
 	slot0.secondPanelCG = GetComponent(slot0.secondPanel, "CanvasGroup")
 	slot0.selectBtnImg = GetComponent(slot0.selectBtn, "Image")
-	slot0.resTF = slot0:findTF("Res")
+	slot0.resTF = slot0._tf:Find("Res")
 	slot0.iconTable = {
 		["1"] = {
-			slot0:findTF("1/1", slot0.resTF),
-			slot0:findTF("1/2", slot0.resTF),
-			slot0:findTF("1/3", slot0.resTF)
+			slot0.resTF:Find("1/1"),
+			slot0.resTF:Find("1/2"),
+			slot0.resTF:Find("1/3")
 		},
 		["21"] = {
-			slot0:findTF("2/1/1", slot0.resTF),
-			slot0:findTF("2/1/2", slot0.resTF),
-			slot0:findTF("2/1/3", slot0.resTF)
+			slot0.resTF:Find("2/1/1"),
+			slot0.resTF:Find("2/1/2"),
+			slot0.resTF:Find("2/1/3")
 		},
 		["22"] = {
-			slot0:findTF("2/2/1", slot0.resTF),
-			slot0:findTF("2/2/2", slot0.resTF),
-			slot0:findTF("2/2/3", slot0.resTF)
+			slot0.resTF:Find("2/2/1"),
+			slot0.resTF:Find("2/2/2"),
+			slot0.resTF:Find("2/2/3")
 		},
 		["23"] = {
-			slot0:findTF("2/3/1", slot0.resTF),
-			slot0:findTF("2/3/2", slot0.resTF),
-			slot0:findTF("2/3/3", slot0.resTF)
+			slot0.resTF:Find("2/3/1"),
+			slot0.resTF:Find("2/3/2"),
+			slot0.resTF:Find("2/3/3")
 		},
 		["311"] = {
-			slot0:findTF("3/1/1", slot0.resTF)
+			slot0.resTF:Find("3/1/1")
 		},
 		["312"] = {
-			slot0:findTF("3/1/2", slot0.resTF)
+			slot0.resTF:Find("3/1/2")
 		},
 		["313"] = {
-			slot0:findTF("3/1/3", slot0.resTF)
+			slot0.resTF:Find("3/1/3")
 		},
 		["321"] = {
-			slot0:findTF("3/2/1", slot0.resTF)
+			slot0.resTF:Find("3/2/1")
 		},
 		["322"] = {
-			slot0:findTF("3/2/2", slot0.resTF)
+			slot0.resTF:Find("3/2/2")
 		},
 		["323"] = {
-			slot0:findTF("3/2/3", slot0.resTF)
+			slot0.resTF:Find("3/2/3")
 		},
 		["331"] = {
-			slot0:findTF("3/3/1", slot0.resTF)
+			slot0.resTF:Find("3/3/1")
 		},
 		["332"] = {
-			slot0:findTF("3/3/2", slot0.resTF)
+			slot0.resTF:Find("3/3/2")
 		},
 		["333"] = {
-			slot0:findTF("3/3/3", slot0.resTF)
+			slot0.resTF:Find("3/3/3")
 		},
 		["4"] = {
-			slot0:findTF("4/1", slot0.resTF),
-			slot0:findTF("4/2", slot0.resTF),
-			slot0:findTF("4/3", slot0.resTF)
+			slot0.resTF:Find("4/1"),
+			slot0.resTF:Find("4/2"),
+			slot0.resTF:Find("4/3")
 		},
 		["5"] = {
-			slot0:findTF("5/1", slot0.resTF),
-			slot0:findTF("5/2", slot0.resTF),
-			slot0:findTF("5/3", slot0.resTF)
+			slot0.resTF:Find("5/1"),
+			slot0.resTF:Find("5/2"),
+			slot0.resTF:Find("5/3")
 		},
 		["6"] = {
-			slot0:findTF("6/1", slot0.resTF),
-			slot0:findTF("6/2", slot0.resTF),
-			slot0:findTF("6/3", slot0.resTF)
+			slot0.resTF:Find("6/1"),
+			slot0.resTF:Find("6/2"),
+			slot0.resTF:Find("6/3")
 		}
 	}
-	slot0.pizzaResTF = slot0:findTF("Pizza")
+	slot0.pizzaResTF = slot0._tf:Find("Pizza")
 	slot0.mainToggleSelectedTF = {}
 
 	for slot34, slot35 in ipairs(slot0.mainToggleTFList) do
 		slot0.mainToggleSelectedTF[slot34] = slot35:GetChild(0)
 	end
 
-	slot0.selectedIconResTF = slot0:findTF("SelectedIcon")
+	slot0.selectedIconResTF = slot0._tf:Find("SelectedIcon")
 end
 
 slot0.addListener = function(slot0)
@@ -253,9 +252,9 @@ slot0.initMainPanel = function(slot0)
 					setActive(slot3[2], false)
 					setActive(slot3[3], false)
 
-					slot6 = uv0
+					slot6 = slot3[1]
 
-					setImageSprite(slot6:findTF("icon", slot3[1]), getImageSprite(slot2[1]), true)
+					setImageSprite(slot6:Find("icon"), getImageSprite(slot2[1]), true)
 					onToggle(uv0, slot3[1], function (slot0)
 						if slot0 == true then
 							uv0:openSelectBtn()
@@ -269,9 +268,9 @@ slot0.initMainPanel = function(slot0)
 					setActive(slot3[3], true)
 
 					for slot7 = 1, 3 do
-						slot10 = uv0
+						slot10 = slot3[slot7]
 
-						setImageSprite(slot10:findTF("icon", slot3[slot7]), getImageSprite(slot2[slot7]), true)
+						setImageSprite(slot10:Find("icon"), getImageSprite(slot2[slot7]), true)
 						onToggle(uv0, slot3[slot7], function (slot0)
 							if slot0 == true then
 								uv0:openSelectBtn()
@@ -508,66 +507,66 @@ end
 slot0.updatePizza = function(slot0)
 	setActive(slot0.empty, slot0.selectedList[1] == 0)
 	setActive(slot0.pizzaTF, slot0.selectedList[1] > 0)
-	setActive(slot0:findTF("PizzaPan", slot0.pizzaTF), slot0.selectedList[1] and slot0.selectedList[1] > 0)
-	setActive(slot0:findTF("PizzaSauce", slot0.pizzaTF), slot0.selectedList[2] and slot0.selectedList[2] > 0)
-	setActive(slot0:findTF("PizzaCheese", slot0.pizzaTF), slot0.selectedList[3] and slot0.selectedList[3] > 0)
-	setActive(slot0:findTF("EX1", slot0.pizzaTF), slot0.selectedList[4] and slot0.selectedList[4] > 0)
-	setActive(slot0:findTF("EX2", slot0.pizzaTF), slot0.selectedList[5] and slot0.selectedList[5] > 0)
-	setActive(slot0:findTF("EX3", slot0.pizzaTF), slot0.selectedList[6] and slot0.selectedList[6] > 0)
+	setActive(slot0.pizzaTF:Find("PizzaPan"), slot0.selectedList[1] and slot0.selectedList[1] > 0)
+	setActive(slot0.pizzaTF:Find("PizzaSauce"), slot0.selectedList[2] and slot0.selectedList[2] > 0)
+	setActive(slot0.pizzaTF:Find("PizzaCheese"), slot0.selectedList[3] and slot0.selectedList[3] > 0)
+	setActive(slot0.pizzaTF:Find("EX1"), slot0.selectedList[4] and slot0.selectedList[4] > 0)
+	setActive(slot0.pizzaTF:Find("EX2"), slot0.selectedList[5] and slot0.selectedList[5] > 0)
+	setActive(slot0.pizzaTF:Find("EX3"), slot0.selectedList[6] and slot0.selectedList[6] > 0)
 
 	if slot0.selectedList[1] and slot0.selectedList[1] > 0 then
-		setImageSprite(slot1, getImageSprite(slot0:findTF(tostring(slot0.selectedList[1]), slot0.pizzaResTF)), true)
+		setImageSprite(slot1, getImageSprite(slot0._tf:Find(tostring(slot0.selectedList[1]), slot0.pizzaResTF)), true)
 	end
 
 	if slot0.selectedList[2] and slot0.selectedList[2] > 0 then
-		setImageSprite(slot2, getImageSprite(slot0:findTF(slot0.selectedList[1] .. slot0.selectedList[2], slot0.pizzaResTF)), true)
+		setImageSprite(slot2, getImageSprite(slot0.pizzaResTF:Find(slot0.selectedList[1] .. slot0.selectedList[2])), true)
 	end
 
 	if slot0.selectedList[3] and slot0.selectedList[3] > 0 then
-		setImageSprite(slot3, getImageSprite(slot0:findTF(slot0.selectedList[1] .. slot0.selectedList[2] .. slot0.selectedList[3], slot0.pizzaResTF)), true)
+		setImageSprite(slot3, getImageSprite(slot0.pizzaResTF:Find(slot0.selectedList[1] .. slot0.selectedList[2] .. slot0.selectedList[3])), true)
 	end
 
 	if slot0.selectedList[4] and slot0.selectedList[4] > 0 then
-		setImageSprite(slot4, getImageSprite(slot0:findTF(4 .. slot0.selectedList[4], slot0.pizzaResTF)), true)
+		setImageSprite(slot4, getImageSprite(slot0.pizzaResTF:Find(4 .. slot0.selectedList[4])), true)
 	end
 
 	if slot0.selectedList[5] and slot0.selectedList[5] > 0 then
-		setImageSprite(slot5, getImageSprite(slot0:findTF(5 .. slot0.selectedList[5], slot0.pizzaResTF)), true)
+		setImageSprite(slot5, getImageSprite(slot0.pizzaResTF:Find(5 .. slot0.selectedList[5])), true)
 	end
 
 	if slot0.selectedList[6] and slot0.selectedList[6] > 0 then
-		setImageSprite(slot6, getImageSprite(slot0:findTF(6 .. slot0.selectedList[6], slot0.pizzaResTF)), true)
+		setImageSprite(slot6, getImageSprite(slot0.pizzaResTF:Find(6 .. slot0.selectedList[6])), true)
 	end
 end
 
 slot0.updateMainSelectPanel = function(slot0)
 	if slot0.selectedList[1] and slot0.selectedList[1] > 0 then
-		setImageSprite(slot0.mainToggleSelectedTF[1], getImageSprite(slot0:findTF(tostring(slot0.selectedList[1]), slot0.selectedIconResTF)), true)
+		setImageSprite(slot0.mainToggleSelectedTF[1], getImageSprite(slot0._tf:Find(tostring(slot0.selectedList[1]), slot0.selectedIconResTF)), true)
 		setActive(slot0.mainToggleSelectedTF[1], true)
 	end
 
 	if slot0.selectedList[2] and slot0.selectedList[2] > 0 then
-		setImageSprite(slot0.mainToggleSelectedTF[2], getImageSprite(slot0:findTF(slot0.selectedList[1] .. slot0.selectedList[2], slot0.selectedIconResTF)), true)
+		setImageSprite(slot0.mainToggleSelectedTF[2], getImageSprite(slot0.selectedIconResTF:Find(slot0.selectedList[1] .. slot0.selectedList[2])), true)
 		setActive(slot0.mainToggleSelectedTF[2], true)
 	end
 
 	if slot0.selectedList[3] and slot0.selectedList[3] > 0 then
-		setImageSprite(slot0.mainToggleSelectedTF[3], getImageSprite(slot0:findTF(slot0.selectedList[1] .. slot0.selectedList[2] .. slot0.selectedList[3], slot0.selectedIconResTF)), true)
+		setImageSprite(slot0.mainToggleSelectedTF[3], getImageSprite(slot0.selectedIconResTF:Find(slot0.selectedList[1] .. slot0.selectedList[2] .. slot0.selectedList[3])), true)
 		setActive(slot0.mainToggleSelectedTF[3], true)
 	end
 
 	if slot0.selectedList[4] and slot0.selectedList[4] > 0 then
-		setImageSprite(slot0.mainToggleSelectedTF[4], getImageSprite(slot0:findTF(4 .. slot0.selectedList[4], slot0.selectedIconResTF)), true)
+		setImageSprite(slot0.mainToggleSelectedTF[4], getImageSprite(slot0.selectedIconResTF:Find(4 .. slot0.selectedList[4])), true)
 		setActive(slot0.mainToggleSelectedTF[4], true)
 	end
 
 	if slot0.selectedList[5] and slot0.selectedList[5] > 0 then
-		setImageSprite(slot0.mainToggleSelectedTF[5], getImageSprite(slot0:findTF(5 .. slot0.selectedList[5], slot0.selectedIconResTF)), true)
+		setImageSprite(slot0.mainToggleSelectedTF[5], getImageSprite(slot0.selectedIconResTF:Find(5 .. slot0.selectedList[5])), true)
 		setActive(slot0.mainToggleSelectedTF[5], true)
 	end
 
 	if slot0.selectedList[6] and slot0.selectedList[6] > 0 then
-		setImageSprite(slot0.mainToggleSelectedTF[6], getImageSprite(slot0:findTF(6 .. slot0.selectedList[6], slot0.selectedIconResTF)), true)
+		setImageSprite(slot0.mainToggleSelectedTF[6], getImageSprite(slot0.selectedIconResTF:Find(6 .. slot0.selectedList[6])), true)
 		setActive(slot0.mainToggleSelectedTF[6], true)
 	end
 end
@@ -623,17 +622,17 @@ slot0.share = function(slot0)
 
 		uv0.shareGo = slot0
 
-		setText(uv0:findTF("PlayerName", slot0), getProxy(PlayerProxy):getData().name)
+		setText(slot0:Find("PlayerName"), getProxy(PlayerProxy):getData().name)
 
 		slot7 = getProxy(PlayerProxy):getRawData()
 		slot9 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot8.server or 0]
-		slot12 = uv0:findTF("deck", slot0)
+		slot12 = slot0:Find("deck")
 
 		setText(slot12:Find("name/value"), slot7 and slot7.name or "")
 		setText(slot12:Find("server/value"), slot9 and slot9.name or "")
 		setText(slot12:Find("lv/value"), slot7.level)
 
-		slot13 = cloneTplTo(uv0.pizzaTF, uv0:findTF("PizzaContainer", slot0))
+		slot13 = cloneTplTo(uv0.pizzaTF, slot0:Find("PizzaContainer"))
 
 		setLocalPosition(tf(slot13), {
 			x = 0,
@@ -654,7 +653,7 @@ slot0.share = function(slot0)
 end
 
 slot0.initSD = function(slot0)
-	slot0.sdContainer = slot0:findTF("sdcontainer", slot0.bg)
+	slot0.sdContainer = slot0.bg:Find("sdcontainer")
 	slot0.spine = nil
 	slot0.spineLRQ = GetSpineRequestPackage.New("chuixue_6", function (slot0)
 		SetParent(slot0, uv0.sdContainer)

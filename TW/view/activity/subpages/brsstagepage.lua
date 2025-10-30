@@ -1,7 +1,7 @@
 slot0 = class("BRSStagePage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("panel")
+	slot0.bg = slot0._tf:Find("panel")
 
 	setText(slot0.bg:Find("hint"), i18n("brs_expedition_tip"))
 

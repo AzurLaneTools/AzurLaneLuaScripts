@@ -20,35 +20,35 @@ slot0.init = function(slot0)
 	slot0.ITEM_ID_1 = 1
 	slot0.ITEM_ID_2 = 2
 	slot0.ITEM_ID_3 = 3
-	slot0.startUI = slot0:findTF("start_ui")
-	slot0.startBtn = slot0:findTF("start_btn", slot0.startUI)
-	slot0.ruleBtn = slot0:findTF("rule_btn", slot0.startUI)
-	slot0.qBtn = slot0:findTF("q_btn", slot0.startUI)
-	slot0.countUI = slot0:findTF("count_ui")
-	slot0.countNumTxt = slot0:findTF("num", slot0.countUI)
-	slot0.endUI = slot0:findTF("end_ui")
-	slot0.endExitBtn = slot0:findTF("exit_btn", slot0.endUI)
-	slot0.endBestTxt = slot0:findTF("rope/paper/best_txt", slot0.endUI)
-	slot0.endScoreTxt = slot0:findTF("rope/paper/score_txt", slot0.endUI)
-	slot0.endComboTxt = slot0:findTF("rope/paper/combo_txt", slot0.endUI)
-	slot0.endMissTxt = slot0:findTF("rope/paper/miss_txt", slot0.endUI)
-	slot0.endHitTxt = slot0:findTF("rope/paper/hit_txt", slot0.endUI)
-	slot0.endUIEvent = slot0:findTF("rope", slot0.endUI):GetComponent("DftAniEvent")
-	slot0.content = slot0:findTF("content")
-	slot0.res = slot0:findTF("res")
-	slot0.gameBg = slot0:findTF("game_bg", slot0.content)
-	slot0.xgmPos = slot0:findTF("xiongguimao_pos", slot0.content)
-	slot0.guinuPos = slot0:findTF("guinu_pos", slot0.content)
-	slot0.bucketA = slot0:findTF("content/bucket_A")
+	slot0.startUI = slot0._tf:Find("start_ui")
+	slot0.startBtn = slot0.startUI:Find("start_btn")
+	slot0.ruleBtn = slot0.startUI:Find("rule_btn")
+	slot0.qBtn = slot0.startUI:Find("q_btn")
+	slot0.countUI = slot0._tf:Find("count_ui")
+	slot0.countNumTxt = slot0.countUI:Find("num")
+	slot0.endUI = slot0._tf:Find("end_ui")
+	slot0.endExitBtn = slot0.endUI:Find("exit_btn")
+	slot0.endBestTxt = slot0.endUI:Find("rope/paper/best_txt")
+	slot0.endScoreTxt = slot0.endUI:Find("rope/paper/score_txt")
+	slot0.endComboTxt = slot0.endUI:Find("rope/paper/combo_txt")
+	slot0.endMissTxt = slot0.endUI:Find("rope/paper/miss_txt")
+	slot0.endHitTxt = slot0.endUI:Find("rope/paper/hit_txt")
+	slot0.endUIEvent = slot0.endUI:Find("rope"):GetComponent("DftAniEvent")
+	slot0.content = slot0._tf:Find("content")
+	slot0.res = slot0._tf:Find("res")
+	slot0.gameBg = slot0.content:Find("game_bg")
+	slot0.xgmPos = slot0.content:Find("xiongguimao_pos")
+	slot0.guinuPos = slot0.content:Find("guinu_pos")
+	slot0.bucketA = slot0._tf:Find("content/bucket_A")
 	slot0.bucketASpine = slot0.bucketA:GetComponent("SpineAnimUI")
 	slot0.bucketAGraphic = slot0.bucketA:GetComponent("SkeletonGraphic")
-	slot0.bucketB = slot0:findTF("content/bucket_B")
+	slot0.bucketB = slot0._tf:Find("content/bucket_B")
 	slot0.bucketBSpine = slot0.bucketB:GetComponent("SpineAnimUI")
 	slot0.bucketBGraphic = slot0.bucketB:GetComponent("SkeletonGraphic")
-	slot0.bucketC = slot0:findTF("content/bucket_C")
-	slot0.msHand = slot0:findTF("ani", slot0.bucketC)
+	slot0.bucketC = slot0._tf:Find("content/bucket_C")
+	slot0.msHand = slot0.bucketC:Find("ani")
 	slot0.msHandAnimator = slot0.msHand:GetComponent("Animator")
-	slot0.msHandSlot = slot0:findTF("slot", slot0.msHand)
+	slot0.msHandSlot = slot0.msHand:Find("slot")
 	slot0.msHandEvent = slot0.msHand:GetComponent("DftAniEvent")
 	slot0.msBlockList = {}
 
@@ -89,9 +89,9 @@ slot0.init = function(slot0)
 		idle = 1,
 		attack = 0.6
 	}
-	slot0.cut1 = slot0:findTF("cut_1", slot0.bucketB)
-	slot0.cut2 = slot0:findTF("cut_2", slot0.bucketB)
-	slot0.cut3 = slot0:findTF("cut_3", slot0.bucketB)
+	slot0.cut1 = slot0.bucketB:Find("cut_1")
+	slot0.cut2 = slot0.bucketB:Find("cut_2")
+	slot0.cut3 = slot0.bucketB:Find("cut_3")
 	slot0.cut1Animator = slot0.cut1:GetComponent("Animator")
 	slot0.cut2Animator = slot0.cut2:GetComponent("Animator")
 	slot0.cut3Animator = slot0.cut3:GetComponent("Animator")
@@ -109,16 +109,16 @@ slot0.init = function(slot0)
 		setActive(uv0.cut3, false)
 	end)
 
-	slot0.keyUI = slot0:findTF("key_ui", slot0.content)
-	slot0.keyBar = slot0:findTF("key_bar", slot0.keyUI)
-	slot0.aBtn = slot0:findTF("A_btn", slot0.keyUI)
-	slot0.bBtn = slot0:findTF("B_btn", slot0.keyUI)
-	slot0.cBtn = slot0:findTF("C_btn", slot0.keyUI)
-	slot0.comboAni = slot0:findTF("combo_bar/center", slot0.content):GetComponent("Animator")
-	slot0.comboTxt = slot0:findTF("combo_bar/center/combo_txt", slot0.content)
+	slot0.keyUI = slot0.content:Find("key_ui")
+	slot0.keyBar = slot0.keyUI:Find("key_bar")
+	slot0.aBtn = slot0.keyUI:Find("A_btn")
+	slot0.bBtn = slot0.keyUI:Find("B_btn")
+	slot0.cBtn = slot0.keyUI:Find("C_btn")
+	slot0.comboAni = slot0.content:Find("combo_bar/center"):GetComponent("Animator")
+	slot0.comboTxt = slot0.content:Find("combo_bar/center/combo_txt")
 	slot0.comboAni.enabled = false
-	slot0.scoreTxt = slot0:findTF("score_bar/txt", slot0.content)
-	slot0.remainTxt = slot0:findTF("remain_time_bar/txt", slot0.content)
+	slot0.scoreTxt = slot0.content:Find("score_bar/txt")
+	slot0.remainTxt = slot0.content:Find("remain_time_bar/txt")
 
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.keyBar, {
 		pbList = {
@@ -126,14 +126,14 @@ slot0.init = function(slot0)
 		}
 	})
 
-	slot0.roundTxt = slot0:findTF("round_time_bar/txt", slot0.keyUI)
-	slot0.firePos = slot0:findTF("content/pos/fire_pos").anchoredPosition
-	slot0.hitPos = slot0:findTF("content/pos/hit_pos").anchoredPosition
-	slot0.aPos = slot0:findTF("content/pos/a_pos").anchoredPosition
-	slot0.bPos = slot0:findTF("content/pos/b_pos").anchoredPosition
-	slot0.cPos = slot0:findTF("content/pos/c_pos").anchoredPosition
-	slot0.missPos = slot0:findTF("content/pos/miss_pos").anchoredPosition
-	slot0.backBtn = slot0:findTF("back_btn", slot0.content)
+	slot0.roundTxt = slot0.keyUI:Find("round_time_bar/txt")
+	slot0.firePos = slot0._tf:Find("content/pos/fire_pos").anchoredPosition
+	slot0.hitPos = slot0._tf:Find("content/pos/hit_pos").anchoredPosition
+	slot0.aPos = slot0._tf:Find("content/pos/a_pos").anchoredPosition
+	slot0.bPos = slot0._tf:Find("content/pos/b_pos").anchoredPosition
+	slot0.cPos = slot0._tf:Find("content/pos/c_pos").anchoredPosition
+	slot0.missPos = slot0._tf:Find("content/pos/miss_pos").anchoredPosition
+	slot0.backBtn = slot0.content:Find("back_btn")
 	slot0.autoLoader = AutoLoader.New()
 
 	slot0.autoLoader:LoadSprite("ui/minigameui/qtegameuiasync_atlas", "background", slot0.gameBg, false)
@@ -755,7 +755,7 @@ slot0.getBlock = function(slot0, slot1, slot2)
 		for slot7 = 1, 3 do
 			for slot11 = 1, 3 do
 				slot12 = slot7 .. "-" .. slot11
-				slot13 = slot0:findTF("res/item" .. slot12)
+				slot13 = slot0._tf:Find("res/item" .. slot12)
 				slot0.blockPool[slot12] = {
 					[#slot0.blockPool[slot12] + 1] = slot13
 				}
@@ -837,10 +837,13 @@ slot0.getShowBlock = function(slot0, slot1, slot2)
 			type = slot1,
 			id = slot2,
 			goName = slot4,
-			tf = slot0:findTF(slot4, slot0.keyBar)
+			tf = slot6:Find(slot4)
 		}
-		slot5.wrongTag = slot0:findTF("wrong", slot5.tf)
-		slot5.rightTag = slot0:findTF("right", slot5.tf)
+		slot6 = slot0.keyBar
+		slot6 = slot5.tf
+		slot5.wrongTag = slot6:Find("wrong")
+		slot6 = slot5.tf
+		slot5.rightTag = slot6:Find("right")
 		slot5.nextBlock = nil
 		slot5.userChoose = nil
 

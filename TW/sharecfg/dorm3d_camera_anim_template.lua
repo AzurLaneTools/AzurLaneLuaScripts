@@ -15,6 +15,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1001,
 		icon = "camera_action1",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1002] = {
@@ -32,6 +33,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1002,
 		icon = "camera_action2",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1003] = {
@@ -49,6 +51,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1003,
 		icon = "camera_action3",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1004] = {
@@ -66,6 +69,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1004,
 		icon = "camera_action4",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1005] = {
@@ -83,6 +87,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1005,
 		icon = "camera_action5",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1006] = {
@@ -100,6 +105,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1006,
 		icon = "camera_action6",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1007] = {
@@ -117,6 +123,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1007,
 		icon = "camera_action7",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1008] = {
@@ -134,6 +141,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1008,
 		icon = "camera_action8",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1009] = {
@@ -151,6 +159,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1009,
 		icon = "camera_action9",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1010] = {
@@ -168,6 +177,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1010,
 		icon = "camera_action10",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1011] = {
@@ -185,6 +195,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1011,
 		icon = "camera_action11",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1012] = {
@@ -202,6 +213,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1012,
 		icon = "camera_action12",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1101] = {
@@ -219,6 +231,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1101,
 		icon = "camera_action13",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1102] = {
@@ -236,6 +249,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1102,
 		icon = "camera_action15",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1103] = {
@@ -253,6 +267,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1103,
 		icon = "camera_action18",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1104] = {
@@ -270,6 +285,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1104,
 		icon = "camera_action19",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1201] = {
@@ -287,6 +303,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1201,
 		icon = "camera_action20",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1202] = {
@@ -304,6 +321,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1202,
 		icon = "camera_action21",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1203] = {
@@ -321,6 +339,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1203,
 		icon = "camera_action24",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1301] = {
@@ -338,6 +357,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1301,
 		icon = "camera_action25",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1302] = {
@@ -355,6 +375,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1302,
 		icon = "camera_action27",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1303] = {
@@ -372,6 +393,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1303,
 		icon = "camera_action29",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1304] = {
@@ -389,6 +411,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1304,
 		icon = "camera_action32",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1305] = {
@@ -406,6 +429,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1305,
 		icon = "camera_action33",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1306] = {
@@ -423,6 +447,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1306,
 		icon = "camera_action34",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1307] = {
@@ -440,6 +465,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1307,
 		icon = "camera_action36",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1308] = {
@@ -457,6 +483,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1308,
 		icon = "camera_action32",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1309] = {
@@ -474,6 +501,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1309,
 		icon = "camera_action34",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1310] = {
@@ -491,6 +519,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1310,
 		icon = "camera_action36",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1311] = {
@@ -508,6 +537,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 1311,
 		icon = "camera_action33",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2001] = {
@@ -525,6 +555,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2001,
 		icon = "camera_action1",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2002] = {
@@ -542,6 +573,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2002,
 		icon = "camera_action2",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2003] = {
@@ -559,6 +591,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2003,
 		icon = "camera_action3",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2004] = {
@@ -576,6 +609,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2004,
 		icon = "camera_action6",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2005] = {
@@ -593,6 +627,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2005,
 		icon = "camera_action5",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2006] = {
@@ -610,6 +645,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2006,
 		icon = "camera_action6",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2007] = {
@@ -627,6 +663,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2007,
 		icon = "camera_action1",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2008] = {
@@ -644,6 +681,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2008,
 		icon = "camera_action3",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2009] = {
@@ -661,6 +699,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2009,
 		icon = "camera_action2",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2010] = {
@@ -678,6 +717,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2010,
 		icon = "camera_action5",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2011] = {
@@ -695,6 +735,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2011,
 		icon = "camera_action12",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2012] = {
@@ -712,6 +753,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2012,
 		icon = "camera_action8",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2013] = {
@@ -729,6 +771,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2013,
 		icon = "camera_action12",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2101] = {
@@ -746,6 +789,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2101,
 		icon = "camera_action13",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2102] = {
@@ -763,6 +807,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2102,
 		icon = "camera_action24",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2103] = {
@@ -780,6 +825,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2103,
 		icon = "camera_action21",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2104] = {
@@ -797,6 +843,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2104,
 		icon = "camera_action23",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2201] = {
@@ -814,6 +861,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2201,
 		icon = "camera_action25",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2202] = {
@@ -831,6 +879,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2202,
 		icon = "camera_action28",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2203] = {
@@ -848,6 +897,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2203,
 		icon = "camera_action27",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2204] = {
@@ -865,6 +915,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2204,
 		icon = "camera_action26",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2301] = {
@@ -882,6 +933,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2301,
 		icon = "camera_action20",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2302] = {
@@ -899,6 +951,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2302,
 		icon = "camera_action19",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2303] = {
@@ -916,6 +969,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2303,
 		icon = "camera_action22",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2304] = {
@@ -933,6 +987,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2304,
 		icon = "camera_action17",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2401] = {
@@ -950,6 +1005,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2401,
 		icon = "camera_action25",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2402] = {
@@ -967,6 +1023,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2402,
 		icon = "camera_action26",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2403] = {
@@ -984,6 +1041,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2403,
 		icon = "camera_action27",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2404] = {
@@ -1001,6 +1059,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2404,
 		icon = "camera_action28",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2405] = {
@@ -1018,6 +1077,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2405,
 		icon = "camera_action29",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2501] = {
@@ -1035,6 +1095,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2501,
 		icon = "camera_action20",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2502] = {
@@ -1052,6 +1113,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2502,
 		icon = "camera_action25",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2503] = {
@@ -1069,6 +1131,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2503,
 		icon = "camera_action26",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2504] = {
@@ -1086,6 +1149,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2504,
 		icon = "camera_action27",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2505] = {
@@ -1103,6 +1167,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 2505,
 		icon = "camera_action26",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3001] = {
@@ -1120,6 +1185,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3001,
 		icon = "camera_action2",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3002] = {
@@ -1137,6 +1203,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3002,
 		icon = "camera_action7",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3003] = {
@@ -1154,6 +1221,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3003,
 		icon = "camera_action12",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3005] = {
@@ -1171,6 +1239,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3005,
 		icon = "camera_action10",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3006] = {
@@ -1188,6 +1257,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3006,
 		icon = "camera_action11",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3007] = {
@@ -1205,6 +1275,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3007,
 		icon = "camera_action6",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3008] = {
@@ -1222,6 +1293,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3008,
 		icon = "camera_action3",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3010] = {
@@ -1239,6 +1311,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3010,
 		icon = "camera_action8",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3011] = {
@@ -1256,6 +1329,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3011,
 		icon = "camera_action5",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3012] = {
@@ -1273,6 +1347,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3012,
 		icon = "camera_action11",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3013] = {
@@ -1290,6 +1365,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3013,
 		icon = "camera_action5",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3014] = {
@@ -1307,6 +1383,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3014,
 		icon = "camera_action10",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3015] = {
@@ -1324,6 +1401,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3015,
 		icon = "camera_action9",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3016] = {
@@ -1341,6 +1419,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3016,
 		icon = "camera_action4",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3017] = {
@@ -1358,6 +1437,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3017,
 		icon = "camera_action2",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3018] = {
@@ -1375,6 +1455,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3018,
 		icon = "camera_action6",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3101] = {
@@ -1392,6 +1473,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3101,
 		icon = "camera_action25",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3102] = {
@@ -1409,6 +1491,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3102,
 		icon = "camera_action26",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3103] = {
@@ -1426,6 +1509,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3103,
 		icon = "camera_action27",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3104] = {
@@ -1443,6 +1527,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3104,
 		icon = "camera_action28",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3201] = {
@@ -1460,6 +1545,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3201,
 		icon = "camera_action32",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3202] = {
@@ -1477,6 +1563,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3202,
 		icon = "camera_action33",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3203] = {
@@ -1494,6 +1581,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3203,
 		icon = "camera_action34",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3204] = {
@@ -1511,6 +1599,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3204,
 		icon = "camera_action33",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3301] = {
@@ -1528,6 +1617,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3301,
 		icon = "camera_action13",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3302] = {
@@ -1545,6 +1635,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3302,
 		icon = "camera_action16",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3303] = {
@@ -1562,6 +1653,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3303,
 		icon = "camera_action18",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3304] = {
@@ -1579,6 +1671,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3304,
 		icon = "camera_action19",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3401] = {
@@ -1596,6 +1689,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3401,
 		icon = "camera_action13",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3402] = {
@@ -1613,6 +1707,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3402,
 		icon = "camera_action16",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3403] = {
@@ -1630,6 +1725,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3403,
 		icon = "camera_action18",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3404] = {
@@ -1647,6 +1743,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3404,
 		icon = "camera_action19",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3405] = {
@@ -1664,6 +1761,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 3405,
 		icon = "camera_action15",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4001] = {
@@ -1681,6 +1779,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4001,
 		icon = "camera_action1",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4002] = {
@@ -1698,6 +1797,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4002,
 		icon = "camera_action3",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4003] = {
@@ -1715,6 +1815,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4003,
 		icon = "camera_action5",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4004] = {
@@ -1732,6 +1833,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4004,
 		icon = "camera_action8",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4005] = {
@@ -1749,6 +1851,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4005,
 		icon = "camera_action12",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4201] = {
@@ -1766,6 +1869,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4201,
 		icon = "camera_action1",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4202] = {
@@ -1783,6 +1887,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4202,
 		icon = "camera_action3",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4203] = {
@@ -1800,6 +1905,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4203,
 		icon = "camera_action5",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4204] = {
@@ -1817,6 +1923,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4204,
 		icon = "camera_action8",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4205] = {
@@ -1834,6 +1941,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4205,
 		icon = "camera_action12",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4401] = {
@@ -1851,6 +1959,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4401,
 		icon = "camera_action2",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4402] = {
@@ -1868,6 +1977,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4402,
 		icon = "camera_action8",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4403] = {
@@ -1885,6 +1995,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4403,
 		icon = "camera_action5",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4404] = {
@@ -1902,6 +2013,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4404,
 		icon = "camera_action11",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4405] = {
@@ -1919,6 +2031,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		id = 4405,
 		icon = "camera_action10",
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	get_id_list_by_furniture_id = {

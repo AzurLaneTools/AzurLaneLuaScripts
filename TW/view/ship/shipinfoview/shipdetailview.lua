@@ -21,6 +21,7 @@ slot0.OnInit = function(slot0)
 	setParent(slot0.randomFlagToggle, slot0._tf.parent)
 	setActive(slot0.randomFlagToggle, true)
 	triggerToggle(slot0.showQuickBtn, false)
+	triggerToggle(slot0.showRecordBtn, false)
 end
 
 slot0.InitDetail = function(slot0)
@@ -53,7 +54,7 @@ slot0.InitDetail = function(slot0)
 	slot0.commonTagToggle = slot0.detailPanel:Find("common_toggle")
 	slot0.spWeaponSlot = slot0.equipments:Find("SpSlot")
 	slot0.propertyIcons = slot0.detailPanel:Find("attrs/attrs/property/icons")
-	slot0.intimacyTF = slot0:findTF("intimacy")
+	slot0.intimacyTF = slot0._tf:Find("intimacy")
 	slot0.updateItemTick = 0
 	slot0.quickPanel = slot0.detailPanel:Find("quick_panel")
 	slot0.equiping = slot0.quickPanel:Find("equiping")
@@ -302,7 +303,7 @@ slot0.InitEvent = function(slot0)
 			end
 
 			setActive(findTF(tf(slot1), "IconTpl/icon_bg/icon"), true)
-			updateEquipment(uv0:findTF("IconTpl", tf(slot1)), slot3)
+			updateEquipment(findTF(tf(slot1), "IconTpl"), slot3)
 
 			if slot3.shipId then
 				setImageSprite(findTF(tf(slot1), "IconTpl/icon_bg/equip_flag/Image"), LoadSprite("qicon/" .. getProxy(BayProxy):getShipById(slot3.shipId):getPainting()))
@@ -500,7 +501,7 @@ slot0.UpdateEquipments = function(slot0, slot1)
 				tf = slot9,
 				index = slot10
 			})
-			updateEquipment(slot0:findTF("IconTpl", slot9), slot7)
+			updateEquipment(slot9:Find("IconTpl"), slot7)
 			onButton(slot0, slot9, function ()
 				if uv0.isShowQuick then
 					uv0:selectedEquipItem(uv1)
@@ -817,7 +818,7 @@ slot0.UpdateRecordEquipments = function(slot0, slot1)
 			slot17 = not (slot0:GetShipVO().equipments[slot8] and slot15.id == slot9 or false) and (not slot14 or slot14.count <= 0)
 
 			setActive(slot13:Find("tip"), slot17)
-			updateEquipment(slot0:findTF("IconTpl", slot13), Equipment.New({
+			updateEquipment(slot13:Find("IconTpl"), Equipment.New({
 				id = slot9
 			}))
 

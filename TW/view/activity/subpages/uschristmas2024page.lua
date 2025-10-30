@@ -1,12 +1,12 @@
 slot0 = class("USChristmas2024Page", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.item = slot0:findTF("item", slot0.bg)
-	slot0.items = slot0:findTF("items", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.item = slot0.bg:Find("item")
+	slot0.items = slot0.bg:Find("items")
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
-	slot0.awardNum = slot0:findTF("awardNum", slot0.bg)
-	slot0.linkBtn = slot0:findTF("linkBtn", slot0.bg)
+	slot0.awardNum = slot0.bg:Find("awardNum")
+	slot0.linkBtn = slot0.bg:Find("linkBtn")
 
 	setActive(slot0.item, false)
 end
@@ -28,7 +28,7 @@ slot0.OnFirstFlush = function(slot0)
 end
 
 slot0.UpdateTask = function(slot0, slot1, slot2)
-	slot4 = slot0:findTF("item", slot2)
+	slot4 = slot2:Find("item")
 	slot5 = slot0.taskGroup[slot0.nday][slot1 + 1]
 	slot6 = nil
 	slot8 = slot0.activityTaskProxy:getFinishTaskById(slot0.activity.id)
@@ -62,19 +62,19 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot11 = slot6:getProgress()
 	slot12 = slot6:getConfig("target_num")
 
-	setText(slot0:findTF("description", slot2), slot6:getConfig("desc"))
+	setText(slot2:Find("description"), slot6:getConfig("desc"))
 
 	slot13, slot14 = slot0:GetProgressColor()
 
-	setText(slot0:findTF("progressText", slot2), (slot13 and setColorStr(slot11, slot13) or slot11) .. (slot14 and setColorStr("/" .. slot12, slot14) or "/" .. slot12))
-	setSlider(slot0:findTF("progress", slot2), 0, slot12, slot11)
+	setText(slot2:Find("progressText"), (slot13 and setColorStr(slot11, slot13) or slot11) .. (slot14 and setColorStr("/" .. slot12, slot14) or "/" .. slot12))
+	setSlider(slot2:Find("progress"), 0, slot12, slot11)
 
-	slot16 = slot0:findTF("get_btn", slot2)
+	slot16 = slot2:Find("get_btn")
 	slot18 = slot6:getTaskStatus()
 
-	setActive(slot0:findTF("go_btn", slot2), not slot9 and slot18 == 0)
+	setActive(slot2:Find("go_btn"), not slot9 and slot18 == 0)
 	setActive(slot16, not slot9 and slot18 == 1)
-	setActive(slot0:findTF("got_btn", slot2), slot9)
+	setActive(slot2:Find("got_btn"), slot9)
 	onButton(slot0, slot15, function ()
 		uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)

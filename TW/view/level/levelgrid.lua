@@ -467,7 +467,7 @@ slot0.initPlane = function(slot0)
 end
 
 slot0.updatePoisonArea = function(slot0)
-	if not GetOrAddComponent(slot0:findTF("plane/display/mask"), "RawImage").enabled then
+	if not GetOrAddComponent(slot0._tf:Find("plane/display/mask"), "RawImage").enabled then
 		return
 	end
 
@@ -475,7 +475,7 @@ slot0.updatePoisonArea = function(slot0)
 end
 
 slot0.getPoisonTex = function(slot0)
-	slot2 = slot0:findTF("plane/display")
+	slot2 = slot0._tf:Find("plane/display")
 	slot5 = math.floor(256 / (slot2.sizeDelta.x / slot2.sizeDelta.y))
 	slot6 = nil
 

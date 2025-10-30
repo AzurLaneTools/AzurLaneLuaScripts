@@ -4941,6 +4941,41 @@ _G.pg.base.shop_template[31144] = {
 }
 
 
+_G.pg.base.shop_template[31060] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "900物資兌換1個薩丁裝備研發支援箱",
+	group_limit = 0,
+	resource_num = 900,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 1,
+	id = 31060,
+	genre = "shopping_street",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30207
+	}
+}
+
+
 _G.pg.base.shop_template[31080] = {
 	group_type = 0,
 	package_sort_id = 0,
@@ -8047,6 +8082,41 @@ _G.pg.base.shop_template[33044] = {
 	limit_args = {},
 	effect_args = {
 		30044
+	}
+}
+
+
+_G.pg.base.shop_template[33060] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "400功勳兌換1個薩丁裝備研發支援箱",
+	group_limit = 0,
+	resource_num = 400,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 9,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 3,
+	id = 33060,
+	genre = "arena_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30207
 	}
 }
 

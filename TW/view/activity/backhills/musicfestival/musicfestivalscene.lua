@@ -7,12 +7,12 @@ end
 slot0.HUB_ID = 2
 
 slot0.init = function(slot0)
-	slot0.top = slot0:findTF("top")
-	slot0._closeBtn = slot0:findTF("top/back")
-	slot0._helpBtn = slot0:findTF("top/help")
+	slot0.top = slot0._tf:Find("top")
+	slot0._closeBtn = slot0._tf:Find("top/back")
+	slot0._helpBtn = slot0._tf:Find("top/help")
 	slot0.btn_actskin = slot0.top:Find("idol_jump")
 	slot0.btn_ins = slot0.top:Find("ins_jump")
-	slot0._map = slot0:findTF("scrollRect/map")
+	slot0._map = slot0._tf:Find("scrollRect/map")
 	slot0.stage = slot0._map:Find("stage")
 	slot0.screen = slot0._map:Find("screen")
 	slot0.shop = slot0._map:Find("shop")

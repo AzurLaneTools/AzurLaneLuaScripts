@@ -106,8 +106,8 @@ pg.base.island_collection_reward = {
 		id = 5,
 		level = 5,
 		award_display = {
-			43,
-			38001,
+			41,
+			300001,
 			1
 		}
 	},
@@ -161,8 +161,8 @@ pg.base.island_collection_reward = {
 		id = 10,
 		level = 10,
 		award_display = {
-			43,
-			39001,
+			41,
+			300002,
 			1
 		}
 	},
@@ -216,8 +216,8 @@ pg.base.island_collection_reward = {
 		id = 15,
 		level = 15,
 		award_display = {
-			43,
-			40001,
+			41,
+			300003,
 			1
 		}
 	},
@@ -271,8 +271,8 @@ pg.base.island_collection_reward = {
 		id = 20,
 		level = 20,
 		award_display = {
-			43,
-			38002,
+			41,
+			300004,
 			1
 		}
 	},
@@ -326,8 +326,8 @@ pg.base.island_collection_reward = {
 		id = 25,
 		level = 25,
 		award_display = {
-			43,
-			39002,
+			41,
+			300005,
 			1
 		}
 	},
@@ -381,8 +381,8 @@ pg.base.island_collection_reward = {
 		id = 30,
 		level = 30,
 		award_display = {
-			43,
-			39002,
+			41,
+			300006,
 			1
 		}
 	},
@@ -476,7 +476,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 3200,
-		describe = "累计获得3200收集点：林中小屋*1",
+		describe = "累计获得3200收集点：森林木屋*1",
 		id = 39,
 		level = 39,
 		award_display = {
@@ -531,7 +531,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 4200,
-		describe = "累计获得4200收集点：林中小屋*1",
+		describe = "累计获得4200收集点：森林木屋*1",
 		id = 44,
 		level = 44,
 		award_display = {
@@ -586,7 +586,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 5500,
-		describe = "累计获得5500收集点：林中小屋*1",
+		describe = "累计获得5500收集点：森林木屋*1",
 		id = 49,
 		level = 49,
 		award_display = {

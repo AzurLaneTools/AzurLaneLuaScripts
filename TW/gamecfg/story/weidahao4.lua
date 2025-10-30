@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"外出！寻得珍宝吧！\n\n<size=45>四　恐怖的暴风雨</size>",
+					"外出！尋得珍寶吧！\n\n<size=45>4.恐怖的暴風雨</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……应该就是这样吧，把这个道具嵌进去……嗯，听见机关响动的声音了。",
+			say = "啊……應該就是這樣吧，把這個道具嵌進去……嗯，聽見機關響的聲音了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些关卡都太简单了，完全没有游戏好玩啊……",
+			say = "這些關卡都太簡單了，完全沒有遊戲好玩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下次还是一起在家打游戏吧，指挥官。",
+			say = "下次還是一起在家打遊戲吧，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "轰隆隆——",
+			say = "轟隆隆——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "房间最前方的大门打开了。可是大门通向的是一个暴风雨中的甲板，而不是温馨的离场通道。",
+			say = "房間最前方的大門打開了。可是大門通往的是一個暴風雨中的甲板，而不是溫馨的離場通道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明刚刚都解完谜了……解谜错误的可能性很低……难道还有隐藏谜题吗？",
+			say = "明明剛剛都解完謎了……解謎錯誤的可能性很低……難道還有隱藏謎題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_504",
-			say = "走上甲板，雷声震耳欲聋，密集的雨滴砸在身上，黏腻潮湿。",
+			say = "走上甲板，雷聲震耳欲聾，密集的雨滴砸在身上，黏膩潮濕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃啊……好大的风雨……好讨厌……",
+			say = "呃啊……好大的風雨……好討厭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个绿头猫咪……认真过头了吧……",
+			say = "那個綠頭貓咪……認真過頭了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "（维达有些慌张……是因为不喜欢暴风雨吧……）",
+			say = "（維達有些慌張……是因為不喜歡暴風雨吧……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,19 +181,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "往四周看了看，角落里有一处地方，顶部有可以遮挡住风雨的木板。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "维达，你去那边等我。",
+			say = "往四周看了看，角落有一處地方，頂端有可以遮擋住風雨的木板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +193,19 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我去找找过关线索。",
+			say = "維達，妳去那邊等我。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "我去找找過關線索。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_504",
-			say = "在甲板区域内仔细检查了一遍后，没有发现任何有用的线索。",
+			say = "在甲板區域內仔細檢查了一遍後，沒有發現任何有用的線索。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "随着时间推移，暴风雨愈发猛烈了。海盗船的甲板上下颠簸，就像被卷入洪水中的树叶。",
+			say = "隨著時間推移，暴風雨愈發猛烈了。海盜船的甲板上下顛簸，就像被捲入洪水中的樹葉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到密室逃脱也这么危险……好想回家……吃薯片……打游戏……",
+			say = "沒想到密室逃脫也這麼危險……好想回家……吃洋芋片……打遊戲……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "维达的声音比平时更加无精打采。",
+			say = "維達的聲音比平常更無精打采。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "维达，不要怕，这里的景象都是假的。",
+			say = "維達，不要怕，這裡的景象都是假的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，果然还是很讨厌呢……这种危险的场景……",
+			say = "不過，果然還是很討厭呢……這種危險的場景……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,18 +333,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "即使嘴上说着没事，少女却又努力地缩了缩，让自己躲进宽大的外套里。",
+			say = "即使嘴上說著沒事，少女卻又努力地縮了縮，讓自己躲進寬大的外套裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拥抱安慰",
+					content = "擁抱安慰",
 					flag = 1
 				},
 				{
-					content = "放弃通关",
+					content = "放棄通關",
 					flag = 2
 				}
 			}
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "走到维达身边，将纤瘦娇小的少女拥入怀中，她有些惊讶地在我怀中僵住。",
+			say = "走到維達身邊，將纖瘦嬌小的少女擁入懷中，她有些驚訝地在我懷中僵住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "不用害怕，我在这里。",
+			say = "不用害怕，我在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "很快，维达回过神来，伸手回抱，轻轻抓住了我背后的衣服。",
+			say = "很快，維達回過神來，伸手回抱，輕輕抓住了我背後的衣服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……指挥官的怀抱让人很安心……",
+			say = "……指揮官的懷抱讓人很安心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（本来就是为了放松心情而来的，继续和这暴风雨僵持的话，维达会很难受。）",
+			say = "（本來就是為了放鬆心情而來的，繼續和這暴風雨僵持的話，維達會很難受。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "要不我们弃权吧，先离开这里。",
+			say = "要不我們棄權吧，先離開這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "维达抬起头，直勾勾地看了我一会儿。",
+			say = "維達抬起頭，直勾勾地看了我一陣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "接着她站起来，朝我走来，埋入我的怀中。",
+			say = "接著她站起來，朝我走來，埋入我的懷抱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都到这里了，累死了，现在弃权也太不值当了……",
+			say = "都到這裡了，累死了，現在棄權也太不划算了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样就好了，指挥官的怀抱让人很安心……",
+			say = "這樣就好了，指揮官的懷抱讓人很安心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "少女因为害怕而僵硬的身体逐渐在我的怀中放松下来。",
+			say = "少女因為害怕而僵硬的身體逐漸在我的懷抱中放鬆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "小小的脸蛋在我的肩头蹭了蹭。",
+			say = "小小的臉蛋在我的肩頭蹭了蹭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢你，指挥官。",
+			say = "謝謝你，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "分享着彼此的温度，直至暴风雨渐歇。",
+			say = "分享彼此的溫度，直至暴風雨漸歇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……？风暴消散了……？",
+			say = "嗯……？風暴消散了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "艳阳高照，晴空万里。平静的海面之上已经没有了那场猛烈风暴的痕迹。",
+			say = "艷陽高照，晴空萬里。平靜的海面之上已經沒有了那場猛烈風暴的痕跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "而甲板之上，凭空出现了一扇门。",
+			say = "而甲板之上，憑空出現了一扇門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这样就算，过关了？",
+			say = "……這樣就算，過關了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……虽说暴风雨有点恐怖，不过……",
+			say = "嗯……雖說暴風雨有點恐怖，不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么一动不动就能过关的形式……",
+			say = "這麼一動不動就能過關的形式……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒是不错……",
+			say = "倒是不錯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……我们继续前进吧。",
+			say = "指揮官……我們繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

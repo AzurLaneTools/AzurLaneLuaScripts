@@ -23,8 +23,10 @@ end
 slot2 = Vector3(0, 0, 0)
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.title = slot0:findTF("top/title")
+	slot1 = slot0._tf
+	slot0.backBtn = slot1:Find("top/back")
+	slot1 = slot0._tf
+	slot0.title = slot1:Find("top/title")
 	slot1 = slot0._tf
 	slot0.content = slot1:Find("content")
 	slot3 = slot0.content
@@ -53,10 +55,15 @@ slot0.OnLoaded = function(slot0)
 		end
 	end)
 
-	slot0.selectPanel = IslandDelegationSelectPanel.New(slot0._tf, slot0.event, {
+	slot0.selectPanel = IslandDelegationSelectPanel.New(slot0._tf, slot0.event, setmetatable({
+		alignRight = true,
 		isPermanent = true,
-		alignRight = true
-	})
+		ShowMsgBox = function (slot0, slot1)
+			uv0:ShowMsgBox(slot1)
+		end
+	}, {
+		__index = slot0.contextData
+	}))
 	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event)
 end
 
@@ -107,8 +114,8 @@ slot0.UpdateDelegationItem = function(slot0, slot1, slot2)
 	slot7 = pg.island_world_objects[slot4.birthplace].param.rotation
 	slot2.transform.localPosition = IslandCalcUtil.WorldPosition2LocalPosition(slot0.content, Vector3(slot5[1], slot5[2], slot5[3])) + uv0
 
-	setActive(slot0:findTF("select", slot2), false)
-	setActive(slot0:findTF("unselect", slot2), false)
+	setActive(slot2:Find("select"), false)
+	setActive(slot2:Find("unselect"), false)
 	setButtonEnabled(slot2, getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(slot0.placeId):GetDelegationSlotData(pg.island_production_commission[slot0.placeCommissionList[slot1 + 1]].slot) ~= nil)
 	slot0:emitCore(ISLAND_EVT.SELECTDELEEFFECT_SHOW, slot1 + 1, slot0.selectedIdx, slot6, Vector3(slot7[1], slot7[2], slot7[3]))
 end
@@ -143,12 +150,12 @@ slot0.OnSelectTargetIndexCommission = function(slot0, slot1, slot2)
 end
 
 slot0.UpdateDelegationTabItem = function(slot0, slot1, slot2)
-	setActive(slot0:findTF("select", slot2), slot0.selectedIdx == slot1 + 1)
-	setActive(slot0:findTF("unselect", slot2), slot0.selectedIdx ~= slot3)
+	setActive(slot2:Find("select"), slot0.selectedIdx == slot1 + 1)
+	setActive(slot2:Find("unselect"), slot0.selectedIdx ~= slot3)
 
 	slot9 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(slot0.placeId):GetDelegationSlotData(pg.island_production_commission[slot0.placeCommissionList[slot3]].slot)
 
-	setActive(slot0:findTF("lock", slot2), not slot9)
+	setActive(slot2:Find("lock"), not slot9)
 	setButtonEnabled(slot2, slot9 ~= nil)
 
 	if slot0.selectedIdx == slot3 then
@@ -156,21 +163,21 @@ slot0.UpdateDelegationTabItem = function(slot0, slot1, slot2)
 	end
 
 	if not slot9 then
-		setActive(slot0:findTF("complete ", slot2), false)
-		setActive(slot0:findTF("product_icon", slot2), false)
+		setActive(slot2:Find("complete "), false)
+		setActive(slot2:Find("product_icon"), false)
 
 		return
 	end
 
 	slot11 = slot9:GetSlotRewardData()
 
-	setActive(slot0:findTF("complete ", slot2), slot9:GetSlotRoleData() == nil and slot11 ~= nil)
+	setActive(slot2:Find("complete "), slot9:GetSlotRoleData() == nil and slot11 ~= nil)
 
 	if slot10 and slot10.formula_id or nil or slot11 and slot11.formula_id or nil then
-		setActive(slot0:findTF("product_icon", slot2), true)
-		GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[pg.island_formula[slot13].item_id].icon, "", slot0:findTF("product_icon", slot2))
+		setActive(slot2:Find("product_icon"), true)
+		GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[pg.island_formula[slot13].item_id].icon, "", slot2:Find("product_icon"))
 	else
-		setActive(slot0:findTF("product_icon", slot2), false)
+		setActive(slot2:Find("product_icon"), false)
 	end
 end
 
@@ -204,8 +211,8 @@ slot0.OnShow = function(slot0, slot1, slot2)
 
 	slot0:StopTimer()
 	slot0:StartTimer()
-	setText(slot0:findTF("top/title/Text"), slot0.placeCfg.name)
-	setText(slot0:findTF("top/title/Text/en"), "PRODUCTING")
+	setText(slot0._tf:Find("top/title/Text"), slot0.placeCfg.name)
+	setText(slot0._tf:Find("top/title/Text/en"), "PRODUCTING")
 end
 
 slot0.DefaultTargetTabIndex = function(slot0)

@@ -82,30 +82,30 @@ slot0.preload = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.top = slot0:findTF("Top")
-	slot0.layerFormulaPanel = slot0:findTF("FormulaList")
-	slot0.layerFormulaOverlayPanel = slot0:findTF("FormulaDetail/Overlay")
-	slot0.layerFormulaDetailPanel = slot0:findTF("FormulaDetail")
-	slot0.scrollView = slot0:findTF("FormulaDetail/ScrollView")
-	slot0.materialSelectPanel = slot0:findTF("FormulaDetail/Overlay/AvaliableMaterials")
-	slot0.materialsPreviewPanel = slot0:findTF("FormulaMaterialsPreview")
-	slot0.compositeConfirmPanel = slot0:findTF("CompositeConfirmWindow")
-	slot0.compositeResultPanel = slot0:findTF("CompositeResultWindow")
+	slot0.top = slot0._tf:Find("Top")
+	slot0.layerFormulaPanel = slot0._tf:Find("FormulaList")
+	slot0.layerFormulaOverlayPanel = slot0._tf:Find("FormulaDetail/Overlay")
+	slot0.layerFormulaDetailPanel = slot0._tf:Find("FormulaDetail")
+	slot0.scrollView = slot0._tf:Find("FormulaDetail/ScrollView")
+	slot0.materialSelectPanel = slot0._tf:Find("FormulaDetail/Overlay/AvaliableMaterials")
+	slot0.materialsPreviewPanel = slot0._tf:Find("FormulaMaterialsPreview")
+	slot0.compositeConfirmPanel = slot0._tf:Find("CompositeConfirmWindow")
+	slot0.compositeResultPanel = slot0._tf:Find("CompositeResultWindow")
 
 	slot0:InitCustom()
 	setActive(slot0.layerEmpty, false)
 end
 
 slot0.InitCustom = function(slot0)
-	slot0.layerEmpty = slot0:findTF("Empty")
+	slot0.layerEmpty = slot0._tf:Find("Empty")
 
-	setText(slot0:findTF("Empty/Bar/Text"), i18n(slot0.unlockText))
+	setText(slot0._tf:Find("Empty/Bar/Text"), i18n(slot0.unlockText))
 
-	slot0.painting = slot0:findTF("Painting")
+	slot0.painting = slot0._tf:Find("Painting")
 	slot0.chat = slot0.painting:Find("Chat")
 
 	setActive(slot0.chat, false)
-	pg.ViewUtils.SetSortingOrder(slot0:findTF("Mask/BG"):GetChild(0), -1)
+	pg.ViewUtils.SetSortingOrder(slot0._tf:Find("Mask/BG"):GetChild(0), -1)
 end
 
 slot0.SetContextData = function(slot0, slot1)
@@ -142,19 +142,19 @@ slot0.didEnter = function(slot0)
 	slot0.atelierMaterialsPreview:didEnter()
 	slot0.atelierCompositeConfirmView:didEnter()
 	slot0.atelierCompositeResultView:didEnter()
-	onButton(slot0, slot0:findTF("Top/TopBar/Back"), function ()
+	onButton(slot0, slot0._tf:Find("Top/TopBar/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("Top/TopBar/Home"), function ()
+	onButton(slot0, slot0._tf:Find("Top/TopBar/Home"), function ()
 		uv0:quickExitFunc()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("Top/TopBar/Help"), function ()
+	onButton(slot0, slot0._tf:Find("Top/TopBar/Help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n(uv0.helpStr)
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("Top/TopBar/StoreHouse"), function ()
+	onButton(slot0, slot0._tf:Find("Top/TopBar/StoreHouse"), function ()
 		uv0:OnClickStore()
 	end, SFX_PANEL)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.top)
@@ -173,7 +173,7 @@ end
 
 slot0.PlayGuide = function(slot0)
 	if slot0.unlockSystem and PlayerPrefs.GetInt(string.format("first_enter_ryza_atelier_%s_%s", getProxy(PlayerProxy):getRawData().id, slot0.activity.id), 0) == 0 then
-		triggerButton(slot0:findTF("Top/TopBar/Help"))
+		triggerButton(slot0._tf:Find("Top/TopBar/Help"))
 		PlayerPrefs.SetInt(string.format("first_enter_ryza_atelier_%s_%s", getProxy(PlayerProxy):getRawData().id, slot0.activity.id), 1)
 	end
 end
@@ -224,10 +224,10 @@ end
 
 slot0.UpdateRyzaDrop = function(slot0, slot1, slot2, slot3)
 	updateDrop(slot1, slot2)
-	SetCompomentEnabled(slot0:findTF("icon_bg", slot1), typeof(Image), false)
-	setActive(slot0:findTF("bg", slot1), false)
-	setActive(slot0:findTF("icon_bg/frame", slot1), false)
-	setActive(slot0:findTF("icon_bg/stars", slot1), false)
+	SetCompomentEnabled(slot1:Find("icon_bg"), typeof(Image), false)
+	setActive(slot1:Find("bg"), false)
+	setActive(slot1:Find("icon_bg/frame"), false)
+	setActive(slot1:Find("icon_bg/stars"), false)
 
 	slot4 = slot2:getConfig("rarity")
 
@@ -260,20 +260,18 @@ slot0.UpdateRyzaItem = function(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.loader:GetSpriteQuiet(slot0.commonBundleName, slot4, slot1)
-	slot0.loader:GetSpriteQuiet(slot2:GetIconPath(), "", slot0:findTF("Icon", slot1))
+	slot0.loader:GetSpriteQuiet(slot2:GetIconPath(), "", slot1:Find("Icon"))
 
-	if not IsNil(slot0:findTF("Lv", slot1)) then
-		setText(slot0:findTF("Lv/Text", slot1), slot2:GetLevel())
+	if not IsNil(slot1:Find("Lv")) then
+		setText(slot1:Find("Lv/Text"), slot2:GetLevel())
 	end
 
-	slot10 = slot1
-
-	for slot10, slot11 in ipairs(CustomIndexLayer.Clone2Full(slot0:findTF("List", slot10), #slot2:GetProps())) do
+	for slot10, slot11 in ipairs(CustomIndexLayer.Clone2Full(slot1:Find("List"), #slot2:GetProps())) do
 		slot0.loader:GetSpriteQuiet(slot0.commonBundleName, "element_" .. AtelierFormulaCircle.ELEMENT_NAME[slot5[slot10]], slot11)
 	end
 
-	if not IsNil(slot0:findTF("Text", slot1)) then
-		setText(slot0:findTF("Text", slot1), slot2.count)
+	if not IsNil(slot1:Find("Text")) then
+		setText(slot1:Find("Text"), slot2.count)
 	end
 end
 
@@ -366,7 +364,7 @@ slot0.DispalyChat = function(slot0, slot1)
 		uv0:HideChat()
 	end)).uniqueId
 
-	setText(slot0:findTF("Text", slot0.chat), _.detect(pg.gametip[slot0.tipStr].tip, function (slot0)
+	setText(slot0.chat:Find("Text"), _.detect(pg.gametip[slot0.tipStr].tip, function (slot0)
 		return slot0[1] == uv0
 	end) and slot5[2])
 	slot0:PlaySound(slot0:GetSoundPath() .. slot1[math.random(#slot1)])

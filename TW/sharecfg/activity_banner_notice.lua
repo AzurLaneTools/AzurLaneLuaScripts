@@ -173,6 +173,15 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 22,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SailingShip3CoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -194,6 +203,7 @@ pg.activity_banner_notice = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	}
 }

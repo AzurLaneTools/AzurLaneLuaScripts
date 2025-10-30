@@ -3,9 +3,12 @@ slot0.SHOW_RE_MONTH_SIGN = "show re month sign award"
 slot0.MONTH_SIGN_SHOW = {}
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.items = slot0:findTF("items")
-	slot0.item = slot0:findTF("item", slot0.items)
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("bg")
+	slot1 = slot0._tf
+	slot0.items = slot1:Find("items")
+	slot1 = slot0.items
+	slot0.item = slot1:Find("item")
 	slot0.monthSignReSignUI = MonthSignReSignUI.New(slot0._tf, slot0.event, nil)
 
 	slot0:bind(uv0.SHOW_RE_MONTH_SIGN, function (slot0, slot1, slot2)
@@ -62,7 +65,7 @@ slot0.OnFirstFlush = function(slot0)
 			setActive(slot2:Find("today"), slot3 == #uv0.activity.data1_list)
 
 			if uv0.specialTag and slot3 == uv0.specialDay then
-				slot5 = uv0:findTF("icon_bg/SpecialFrame", slot2)
+				slot5 = slot2:Find("icon_bg/SpecialFrame")
 
 				if uv0.isShowFrame == 1 then
 					setActive(slot5, false)
@@ -82,7 +85,7 @@ slot0.OnUpdateFlush = function(slot0)
 	slot0.list:align(slot0.monthDays)
 
 	if slot0.specialTag then
-		slot1 = slot0:findTF("DayNumText")
+		slot1 = slot0._tf:Find("DayNumText")
 
 		if slot0.specialDay - #slot0.activity.data1_list < 0 then
 			slot2 = 0
@@ -90,7 +93,7 @@ slot0.OnUpdateFlush = function(slot0)
 
 		setText(slot1, slot2)
 
-		GetComponent(slot0:findTF("ProgressBar"), "Slider").value = #slot0.activity.data1_list
+		GetComponent(slot0._tf:Find("ProgressBar"), "Slider").value = #slot0.activity.data1_list
 	end
 
 	if slot0.activity:getSpecialData("month_sign_awards") and #slot1 > 0 then

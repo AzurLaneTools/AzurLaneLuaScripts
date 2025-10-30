@@ -13,9 +13,11 @@ slot0.SpineActionByStep = {
 slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
-	slot0.shop = slot0:findTF("shop", slot0.bg)
+	slot1 = slot0.bg
+	slot0.shop = slot1:Find("shop")
 	slot0.shopAnim = GetComponent(slot0.shop, "SpineAnimUI")
-	slot0.sdContainer = slot0:findTF("sdcontainer", slot0.bg)
+	slot1 = slot0.bg
+	slot0.sdContainer = slot1:Find("sdcontainer")
 	slot0.spine = nil
 	slot1 = GetSpineRequestPackage.New("mingshi_5", function (slot0)
 		SetParent(slot0, uv0.sdContainer)
@@ -30,15 +32,20 @@ slot0.OnFirstFlush = function(slot0)
 		uv0.spineLRQ = nil
 	end)
 	slot0.spineLRQ = slot1:Start()
+	slot3 = slot0.bg
 
-	onButton(slot0, slot0:findTF("sdBtn", slot0.bg), function ()
+	onButton(slot0, slot3:Find("sdBtn"), function ()
 		uv0:showBubble()
 	end, SFX_PANEL)
 
-	slot0.levelBtn = slot0:findTF("level_btn", slot0.bg)
-	slot0.ptBtn = slot0:findTF("pt_btn", slot0.bg)
-	slot0.bubble = slot0:findTF("bubble", slot0.bg)
-	slot0.bubbleText = slot0:findTF("Text", slot0.bubble)
+	slot1 = slot0.bg
+	slot0.levelBtn = slot1:Find("level_btn")
+	slot1 = slot0.bg
+	slot0.ptBtn = slot1:Find("pt_btn")
+	slot1 = slot0.bg
+	slot0.bubble = slot1:Find("bubble")
+	slot1 = slot0.bubble
+	slot0.bubbleText = slot1:Find("Text")
 	slot0.bubbleCG = GetComponent(slot0.bubble, "CanvasGroup")
 	slot0.showBubbleTag = false
 

@@ -7880,7 +7880,7 @@ pg.base.ship_skin_template_7 = {
 		}
 	},
 	[301139] = {
-		name = "{namecode:15}改",
+		name = "{namecode:15}.改",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,

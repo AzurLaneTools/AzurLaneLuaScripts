@@ -18,13 +18,15 @@ slot0.OpenPage = function(slot0, slot1, slot2, ...)
 	slot3 = packEx(...)
 
 	if slot0:IsSceneType(slot1) then
-		slot0:CheckOverflowAndDestory()
+		slot4 = slot0:CreateScenePage(slot2)
+
+		slot0:CheckOverflowAndDestory(slot4)
 		slot0:ClosePrevScenePage(function ()
 			uv0:Record(IslandSceneContext.New(uv1, unpackEx(uv2)), true)
 			uv0:StartPage(uv3, uv2)
 		end)
 
-		return slot0:CreateScenePage(slot2)
+		return slot4
 	else
 		slot4 = slot0:CreateSubPage(slot1, slot2)
 		slot5 = slot0:GetContext(slot1)
@@ -115,13 +117,13 @@ slot0.ClosePrevScenePage = function(slot0, slot1)
 	end
 end
 
-slot0.CheckOverflowAndDestory = function(slot0)
+slot0.CheckOverflowAndDestory = function(slot0, slot1)
 	if slot0.capacity < #slot0.pages then
-		if slot0:GetContext(slot0.pages[1].class) then
-			slot2:DisabelDelRecordWhenClose()
+		if slot0:GetContext(slot0:GetLongestNoUsePage(slot1).class) then
+			slot3:DisabelDelRecordWhenClose()
 		end
 
-		slot0:DestroyPage(slot1, nil, true)
+		slot0:DestroyPage(slot2, nil, true)
 
 		slot0.gcCnt = slot0.gcCnt + 1
 
@@ -131,6 +133,24 @@ slot0.CheckOverflowAndDestory = function(slot0)
 			slot0.gcCnt = 0
 		end
 	end
+end
+
+slot0.GetLongestNoUsePage = function(slot0, slot1)
+	slot2 = function(slot0)
+		return uv0:GetContext(slot0.class) ~= nil
+	end
+
+	slot3 = 0
+
+	for slot7, slot8 in ipairs(slot0.pages) do
+		if slot1 ~= slot8 and not slot2(slot8) then
+			slot3 = slot7
+
+			break
+		end
+	end
+
+	return slot0.pages[math.max(slot3, 1)]
 end
 
 slot0.ClosePage = function(slot0, slot1)
@@ -177,6 +197,7 @@ slot0.OpenPrevScenePage = function(slot0)
 
 	if slot0.stack[#slot0.stack] then
 		if slot0:GetPage(slot1.class) and slot2:GetLoaded() and slot2:isShowing() then
+			slot0:Record(slot1)
 			slot2:Enable()
 
 			for slot6, slot7 in ipairs(slot1:GetSubPages()) do
@@ -262,9 +283,12 @@ slot0.Record = function(slot0, slot1, slot2)
 		return
 	end
 
-	if _.any(slot0.stack, function (slot0)
+	if _.detect(slot0.stack, function (slot0)
 		return slot0.class == uv0.class
 	end) then
+		table.removebyvalue(slot0.stack, slot3)
+		table.insert(slot0.stack, slot1)
+
 		return
 	end
 

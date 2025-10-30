@@ -535,2251 +535,6 @@ pg.island_world_objects = {
 			}
 		}
 	},
-	[10040001] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "Player",
-		gen_type = 0,
-		id = 10040001,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				27.95,
-				3.348,
-				105.17
-			},
-			rotation = {
-				0,
-				119.7555,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040002] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_1007",
-		unitId = 100700,
-		type = 1,
-		name = "npc-famu",
-		gen_type = 2,
-		id = 10040002,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				10001000,
-				1
-			},
-			{
-				3,
-				3100014,
-				3
-			},
-			{
-				0,
-				10001000,
-				0
-			},
-			{
-				2,
-				20001009,
-				0
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3100007,
-				2
-			},
-			{
-				0,
-				20001009,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				74.85,
-				2.912,
-				111.58
-			},
-			rotation = {
-				0,
-				198.9234,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040003] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint1",
-		gen_type = 1,
-		id = 10040003,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				39.667,
-				8.67,
-				53.965
-			},
-			rotation = {
-				0,
-				20.42698,
-				0
-			},
-			scale = {
-				0.45,
-				0.45,
-				1
-			}
-		}
-	},
-	[10040004] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint2",
-		gen_type = 1,
-		id = 10040004,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				28.458,
-				8.863,
-				54.082
-			},
-			rotation = {
-				5.122642e-06,
-				22.70899,
-				45.00001
-			},
-			scale = {
-				0.5,
-				0.5,
-				1
-			}
-		}
-	},
-	[10040005] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint3",
-		gen_type = 1,
-		id = 10040005,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				39.653,
-				11.288,
-				48.198
-			},
-			rotation = {
-				344.992,
-				14.671,
-				30
-			},
-			scale = {
-				0.4,
-				0.4,
-				1
-			}
-		}
-	},
-	[10040006] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint4",
-		gen_type = 1,
-		id = 10040006,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				31.287,
-				8.237,
-				65.702
-			},
-			rotation = {
-				1.536793e-05,
-				114.419,
-				45.00012
-			},
-			scale = {
-				0.45,
-				0.45,
-				1
-			}
-		}
-	},
-	[10040007] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint5",
-		gen_type = 1,
-		id = 10040007,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				33.128,
-				7.473,
-				56.147
-			},
-			rotation = {
-				1.898381,
-				18.62296,
-				31.70918
-			},
-			scale = {
-				0.5,
-				0.5,
-				1
-			}
-		}
-	},
-	[10040008] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MinePoint6",
-		gen_type = 1,
-		id = 10040008,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				43.752,
-				8.383,
-				52.386
-			},
-			rotation = {
-				-8.537737e-07,
-				22.88621,
-				145
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040009] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MinePost1",
-		gen_type = 1,
-		id = 10040009,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				61.29,
-				3.902,
-				61.71
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040010] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MinePost2",
-		gen_type = 1,
-		id = 10040010,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				61.78,
-				3.902,
-				63.87
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040011] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MinePost3",
-		gen_type = 1,
-		id = 10040011,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				57.69,
-				3.902,
-				63.38
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040012] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MinePost4",
-		gen_type = 1,
-		id = 10040012,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				58.1,
-				3.902,
-				65.53
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040013] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "LoggingPost1",
-		gen_type = 1,
-		id = 10040013,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				58.947,
-				2.874932,
-				118.451
-			},
-			rotation = {
-				0,
-				150.975,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040014] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "LoggingPost2",
-		gen_type = 1,
-		id = 10040014,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				60.594,
-				2.874932,
-				119.252
-			},
-			rotation = {
-				0,
-				150.975,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040015] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "LoggingPost3",
-		gen_type = 1,
-		id = 10040015,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				62.217,
-				2.874932,
-				119.926
-			},
-			rotation = {
-				0,
-				150.975,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040016] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "LoggingPost4",
-		gen_type = 1,
-		id = 10040016,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				63.914,
-				2.874932,
-				120.601
-			},
-			rotation = {
-				0,
-				174.1441,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040017] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint1",
-		gen_type = 1,
-		id = 10040017,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				54.466,
-				3.64,
-				116.945
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040018] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint2",
-		gen_type = 1,
-		id = 10040018,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				52.921,
-				3.345,
-				127.262
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040019] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint3",
-		gen_type = 1,
-		id = 10040019,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				69.078,
-				3.304,
-				121.434
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040020] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "LoggingPoint4",
-		gen_type = 1,
-		id = 10040020,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				65.357,
-				3.438,
-				131.013
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040021] = {
-		behaviourTree = "",
-		unitId = 1008,
-		type = 0,
-		name = "Minecart",
-		gen_type = 0,
-		id = 10040021,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				60.547,
-				4.071,
-				68.194
-			},
-			rotation = {
-				0,
-				10.41414,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040022] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_1006",
-		unitId = 100600,
-		type = 1,
-		name = "npc-kuangchang",
-		gen_type = 0,
-		id = 10040022,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {
-			{
-				0,
-				10001050,
-				0
-			},
-			{
-				0,
-				10001060,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				69.612,
-				3.938,
-				69.897
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040023] = {
-		behaviourTree = "",
-		unitId = 1009,
-		type = 0,
-		name = "MineGate",
-		gen_type = 0,
-		id = 10040023,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				56.806,
-				3.73,
-				51.88
-			},
-			rotation = {
-				0,
-				187.47,
-				0
-			},
-			scale = {
-				1,
-				1.2753,
-				-1
-			}
-		}
-	},
-	[10040024] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "BornStation",
-		gen_type = 0,
-		id = 10040024,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				37.4,
-				2.575,
-				99.5
-			},
-			rotation = {
-				0,
-				26.44602,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040025] = {
-		behaviourTree = "Island/NodeCanvas/SceneAnimal_Cat",
-		unitId = 300902,
-		type = 1,
-		name = "SceneAnimalCat",
-		gen_type = 0,
-		id = 10040025,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				44.832,
-				3.274,
-				90.89
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040026] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi301",
-		gen_type = 1,
-		id = 10040026,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				55.394,
-				4.21,
-				156.518
-			},
-			rotation = {
-				0,
-				178.6864,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040027] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi302",
-		gen_type = 1,
-		id = 10040027,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				51.769,
-				3.805,
-				150.794
-			},
-			rotation = {
-				0,
-				128.879,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040028] = {
-		behaviourTree = "",
-		unitId = 100401,
-		type = 0,
-		name = "Collider",
-		gen_type = 0,
-		id = 10040028,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				0,
-				0,
-				0
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040029] = {
-		behaviourTree = "",
-		unitId = 100402,
-		type = 0,
-		name = "Station",
-		gen_type = 0,
-		id = 10040029,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				35.995,
-				2.843,
-				96.938
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040030] = {
-		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
-		unitId = 1014,
-		type = 0,
-		name = "MissionMinePoint1",
-		gen_type = 1,
-		id = 10040030,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				28.846,
-				8.237,
-				60.275
-			},
-			rotation = {
-				-1.707547e-06,
-				114.676,
-				145
-			},
-			scale = {
-				0.5,
-				0.5,
-				1
-			}
-		}
-	},
-	[10040031] = {
-		behaviourTree = "",
-		unitId = 100700,
-		type = 1,
-		name = "npc-famu-task2",
-		gen_type = 2,
-		id = 10040031,
-		mapId = 1004,
-		show_param = {
-			{
-				3,
-				3120001,
-				1
-			}
-		},
-		hide_param = {
-			{
-				2,
-				10001060,
-				2
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				41.57,
-				2.657,
-				94.38
-			},
-			rotation = {
-				0,
-				18.75212,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040032] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_fell_mining_task",
-		unitId = 100600,
-		type = 1,
-		name = "npc-kuangchang-task1",
-		gen_type = 2,
-		id = 10040032,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				10001040,
-				1
-			}
-		},
-		hide_param = {
-			{
-				2,
-				10001060,
-				2
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				39.78,
-				2.625,
-				95.31
-			},
-			rotation = {
-				359.9536,
-				40.29847,
-				359.9767
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040033] = {
-		behaviourTree = "Island/NodeCanvas/Fell_station",
-		unitId = 1012,
-		type = 0,
-		name = "Station1",
-		gen_type = 2,
-		id = 10040033,
-		mapId = 1004,
-		show_param = {
-			{
-				3,
-				3100091,
-				0
-			},
-			{
-				2,
-				10001050,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = true,
-			position = {
-				36.154,
-				2.613,
-				96.721
-			},
-			rotation = {
-				0,
-				25.5517,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040034] = {
-		behaviourTree = "",
-		unitId = 1011,
-		type = 0,
-		name = "Station2",
-		gen_type = 0,
-		id = 10040034,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {
-			{
-				0,
-				10001060,
-				1
-			},
-			{
-				2,
-				10001060,
-				1
-			}
-		},
-		param = {
-			hide = true,
-			position = {
-				36.154,
-				2.613,
-				96.721
-			},
-			rotation = {
-				0,
-				25.5517,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040035] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MissionMinePoint1_Track",
-		gen_type = 2,
-		id = 10040035,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				10001030,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				28.638,
-				8.237,
-				60.303
-			},
-			rotation = {
-				-1.707547e-06,
-				114.676,
-				145
-			},
-			scale = {
-				0.5,
-				0.5,
-				1
-			}
-		}
-	},
-	[10040036] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Loggingperform1",
-		gen_type = 0,
-		id = 10040036,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				57.423,
-				3.437,
-				140.164
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040037] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Loggingperform2",
-		gen_type = 0,
-		id = 10040037,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				43.961,
-				3.437,
-				139.18
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040038] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Loggingperform3",
-		gen_type = 0,
-		id = 10040038,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				39.165,
-				4.4,
-				149.385
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040039] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Loggingperform4",
-		gen_type = 0,
-		id = 10040039,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				50.398,
-				4.64,
-				157.768
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040040] = {
-		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
-		unitId = 0,
-		type = 0,
-		name = "MissionloggingPoint1",
-		gen_type = 1,
-		id = 10040040,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				57.402,
-				3.33,
-				140.186
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040041] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "MissionloggingPoint1_Track",
-		gen_type = 2,
-		id = 10040041,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				10001040,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				69.001,
-				3.17,
-				121.427
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040042] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "DefaultSpawnPoint",
-		gen_type = 1,
-		id = 10040042,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				93.05,
-				2.969,
-				65.89
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040043] = {
-		behaviourTree = "",
-		unitId = 1021,
-		type = 0,
-		name = "GuideCollider",
-		gen_type = 2,
-		id = 10040043,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				10001000,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				0,
-				0,
-				0
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040044] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "GuideEffect1",
-		gen_type = 2,
-		id = 10040044,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				10001000,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				78.09,
-				3.05,
-				85.83
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040045] = {
-		behaviourTree = "",
-		unitId = 100700,
-		type = 1,
-		name = "npc-famu-task1",
-		gen_type = 2,
-		id = 10040045,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				10001030,
-				2
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3120000,
-				2
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				80.028,
-				3.169,
-				72.687
-			},
-			rotation = {
-				0,
-				234.2948,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040046] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20037,
-		type = 0,
-		name = "feixingqi06",
-		gen_type = 1,
-		id = 10040046,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				54.654,
-				3.178518,
-				123.6498
-			},
-			rotation = {
-				356.8235,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040047] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20039,
-		type = 0,
-		name = "feixingqi07",
-		gen_type = 1,
-		id = 10040047,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				41.75,
-				9.96,
-				51.02
-			},
-			rotation = {
-				352.0229,
-				119.8817,
-				355.738
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040048] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20040,
-		type = 0,
-		name = "feixingqi08",
-		gen_type = 1,
-		id = 10040048,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				89.41952,
-				3.520228,
-				101.4244
-			},
-			rotation = {
-				351.9954,
-				4.367276,
-				356.6403
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040049] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20041,
-		type = 0,
-		name = "feixingqi09",
-		gen_type = 1,
-		id = 10040049,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				36.39441,
-				4.879592,
-				82.368
-			},
-			rotation = {
-				0,
-				0,
-				350.3124
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040050] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_20010001",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20010001",
-		gen_type = 2,
-		id = 10040050,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20001001,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				51.7,
-				2.978,
-				121.48
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040051] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_20014002&3",
-		unitId = 1014,
-		type = 0,
-		name = "Sidetask_20014002&3",
-		gen_type = 2,
-		id = 10040051,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20014002,
-				0
-			},
-			{
-				0,
-				20014003,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				23.246,
-				3.565,
-				142.84
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040052] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi303",
-		gen_type = 1,
-		id = 10040052,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				58.763,
-				4.083,
-				156.64
-			},
-			rotation = {
-				0,
-				87.3877,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040053] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi401",
-		gen_type = 1,
-		id = 10040053,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				66.729,
-				3.344,
-				124.838
-			},
-			rotation = {
-				0,
-				167.1911,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040054] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi402",
-		gen_type = 1,
-		id = 10040054,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				69.99,
-				2.74,
-				128.62
-			},
-			rotation = {
-				0,
-				283.0175,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040055] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20036,
-		type = 0,
-		name = "fengmi403",
-		gen_type = 1,
-		id = 10040055,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				76.06,
-				2.73,
-				123.77
-			},
-			rotation = {
-				0,
-				246.2951,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040056] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20001009",
-		gen_type = 2,
-		id = 10040056,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20001009,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				94.96,
-				2.72,
-				102.02
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040057] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
-		unitId = 1014,
-		type = 0,
-		name = "Sidetask_20007001",
-		gen_type = 2,
-		id = 10040057,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				10003060,
-				0
-			},
-			{
-				1,
-				20007001,
-				0
-			},
-			{
-				0,
-				20007010,
-				0
-			},
-			{
-				3,
-				3130054,
-				1
-			}
-		},
-		hide_param = {
-			{
-				0,
-				20007001,
-				0
-			},
-			{
-				2,
-				20007001,
-				0
-			},
-			{
-				3,
-				3130055,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				44.445,
-				5.068,
-				161.267
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040058] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
-		unitId = 20036,
-		type = 0,
-		name = "Sidetask_20007001_1",
-		gen_type = 2,
-		id = 10040058,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20007001,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				60.387,
-				4.656,
-				152.026
-			},
-			rotation = {
-				0,
-				325.0818,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040059] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20009001",
-		gen_type = 2,
-		id = 10040059,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20009001,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				80.25,
-				2.99,
-				63.23
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040060] = {
-		behaviourTree = "Island/NodeCanvas/Main_Quest_Fell_Aobulaien1",
-		unitId = 100700,
-		type = 1,
-		name = "Storynpc_famu1",
-		gen_type = 2,
-		id = 10040060,
-		mapId = 1004,
-		show_param = {
-			{
-				3,
-				3120000,
-				0
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3120001,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				60.42,
-				2.88,
-				114.36
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040061] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_1007",
-		unitId = 100700,
-		type = 1,
-		name = "npc-famu-Sidetask_20001009",
-		gen_type = 2,
-		id = 10040061,
-		mapId = 1004,
-		show_param = {
-			{
-				0,
-				20001009,
-				0
-			},
-			{
-				1,
-				20001009,
-				0
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3130010,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				95.101,
-				2.72,
-				103.44
-			},
-			rotation = {
-				0,
-				188.3768,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040062] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20050,
-		type = 0,
-		name = "luweicong01",
-		gen_type = 1,
-		id = 10040062,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				95.75,
-				2.459,
-				107.24
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040063] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20050,
-		type = 0,
-		name = "luweicong02",
-		gen_type = 1,
-		id = 10040063,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				97.97686,
-				2.41,
-				104.9117
-			},
-			rotation = {
-				0,
-				289.1514,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040064] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20048,
-		type = 0,
-		name = "jvhuacong01",
-		gen_type = 1,
-		id = 10040064,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				38.714,
-				2.2,
-				111.068
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040065] = {
-		behaviourTree = "Island/NodeCanvas/WildGatherItem",
-		unitId = 20048,
-		type = 0,
-		name = "jvhuacong02",
-		gen_type = 1,
-		id = 10040065,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				43.2255,
-				2.27,
-				112.057
-			},
-			rotation = {
-				0,
-				340.642,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040066] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "Station_task",
-		gen_type = 0,
-		id = 10040066,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {
-			{
-				2,
-				10001060,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				40.61,
-				2.613,
-				94.669
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040067] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "Sidetask_qianglideren4",
-		gen_type = 1,
-		id = 10040067,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				44.615,
-				5.115,
-				161.071
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040068] = {
-		behaviourTree = "",
-		unitId = 0,
-		type = 0,
-		name = "Sidetask_qianglideren5",
-		gen_type = 1,
-		id = 10040068,
-		mapId = 1004,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				44.615,
-				5.115,
-				161.071
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10040069] = {
-		behaviourTree = "",
-		unitId = 101500,
-		type = 1,
-		name = "SidetaskNpc_qianglideren",
-		gen_type = 2,
-		id = 10040069,
-		mapId = 1004,
-		show_param = {
-			{
-				2,
-				20007010,
-				1
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3130063,
-				2
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				48.856,
-				4.367,
-				157.868
-			},
-			rotation = {
-				0,
-				278.1066,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
 	[10050000] = {
 		behaviourTree = "",
 		unitId = 101100,
@@ -12494,6 +10249,2483 @@ pg.island_world_objects = {
 			}
 		}
 	},
+	[10040001] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "Player",
+		gen_type = 0,
+		id = 10040001,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				27.95,
+				3.348,
+				105.17
+			},
+			rotation = {
+				0,
+				119.7555,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040002] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_1007",
+		unitId = 100700,
+		type = 1,
+		name = "npc-famu",
+		gen_type = 2,
+		id = 10040002,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				10001000,
+				1
+			},
+			{
+				3,
+				3100014,
+				3
+			},
+			{
+				0,
+				10001000,
+				0
+			},
+			{
+				2,
+				20001009,
+				0
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3100007,
+				2
+			},
+			{
+				0,
+				20001009,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				74.85,
+				2.912,
+				111.58
+			},
+			rotation = {
+				0,
+				198.9234,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040003] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint1",
+		gen_type = 1,
+		id = 10040003,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.667,
+				8.67,
+				53.965
+			},
+			rotation = {
+				0,
+				20.42698,
+				0
+			},
+			scale = {
+				0.45,
+				0.45,
+				1
+			}
+		}
+	},
+	[10040004] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint2",
+		gen_type = 1,
+		id = 10040004,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				28.458,
+				8.863,
+				54.082
+			},
+			rotation = {
+				5.122642e-06,
+				22.70899,
+				45.00001
+			},
+			scale = {
+				0.5,
+				0.5,
+				1
+			}
+		}
+	},
+	[10040005] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint3",
+		gen_type = 1,
+		id = 10040005,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.653,
+				11.288,
+				48.286
+			},
+			rotation = {
+				343.942,
+				12.17626,
+				37.3582
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040006] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint4",
+		gen_type = 1,
+		id = 10040006,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				31.287,
+				8.237,
+				65.702
+			},
+			rotation = {
+				1.536793e-05,
+				114.419,
+				45.00012
+			},
+			scale = {
+				0.45,
+				0.45,
+				1
+			}
+		}
+	},
+	[10040007] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint5",
+		gen_type = 1,
+		id = 10040007,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				33.128,
+				7.473,
+				56.147
+			},
+			rotation = {
+				1.898381,
+				18.62296,
+				31.70918
+			},
+			scale = {
+				0.5,
+				0.5,
+				1
+			}
+		}
+	},
+	[10040008] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint6",
+		gen_type = 1,
+		id = 10040008,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				43.752,
+				8.383,
+				52.386
+			},
+			rotation = {
+				-8.537737e-07,
+				22.88621,
+				145
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040009] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MinePost1",
+		gen_type = 1,
+		id = 10040009,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				61.29,
+				3.902,
+				61.71
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040010] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MinePost2",
+		gen_type = 1,
+		id = 10040010,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				61.78,
+				3.902,
+				63.87
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040011] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MinePost3",
+		gen_type = 1,
+		id = 10040011,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				57.69,
+				3.902,
+				63.38
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040012] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MinePost4",
+		gen_type = 1,
+		id = 10040012,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				58.1,
+				3.902,
+				65.53
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040013] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "LoggingPost1",
+		gen_type = 1,
+		id = 10040013,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				58.947,
+				2.874932,
+				118.451
+			},
+			rotation = {
+				0,
+				150.975,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040014] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "LoggingPost2",
+		gen_type = 1,
+		id = 10040014,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				60.594,
+				2.874932,
+				119.252
+			},
+			rotation = {
+				0,
+				150.975,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040015] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "LoggingPost3",
+		gen_type = 1,
+		id = 10040015,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				62.217,
+				2.874932,
+				119.926
+			},
+			rotation = {
+				0,
+				150.975,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040016] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "LoggingPost4",
+		gen_type = 1,
+		id = 10040016,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				63.914,
+				2.874932,
+				120.601
+			},
+			rotation = {
+				0,
+				174.1441,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040017] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint1",
+		gen_type = 1,
+		id = 10040017,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				54.466,
+				3.64,
+				116.945
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040018] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint2",
+		gen_type = 1,
+		id = 10040018,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				52.921,
+				3.345,
+				127.262
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040019] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint3",
+		gen_type = 1,
+		id = 10040019,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				69.078,
+				3.304,
+				121.434
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040020] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint4",
+		gen_type = 1,
+		id = 10040020,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				65.357,
+				3.438,
+				131.013
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040021] = {
+		behaviourTree = "",
+		unitId = 1008,
+		type = 0,
+		name = "Minecart",
+		gen_type = 0,
+		id = 10040021,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				60.547,
+				4.071,
+				68.194
+			},
+			rotation = {
+				0,
+				10.41414,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040022] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_1006",
+		unitId = 100600,
+		type = 1,
+		name = "npc-kuangchang",
+		gen_type = 0,
+		id = 10040022,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {
+			{
+				0,
+				10001050,
+				0
+			},
+			{
+				0,
+				10001060,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				69.612,
+				3.938,
+				69.897
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040023] = {
+		behaviourTree = "",
+		unitId = 1009,
+		type = 0,
+		name = "MineGate",
+		gen_type = 0,
+		id = 10040023,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				56.806,
+				3.73,
+				51.88
+			},
+			rotation = {
+				0,
+				187.47,
+				0
+			},
+			scale = {
+				1,
+				1.2753,
+				-1
+			}
+		}
+	},
+	[10040024] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "BornStation",
+		gen_type = 0,
+		id = 10040024,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				37.4,
+				2.575,
+				99.5
+			},
+			rotation = {
+				0,
+				26.44602,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040025] = {
+		behaviourTree = "Island/NodeCanvas/SceneAnimal_Cat",
+		unitId = 300902,
+		type = 1,
+		name = "SceneAnimalCat",
+		gen_type = 0,
+		id = 10040025,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				44.832,
+				3.274,
+				90.89
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040026] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi301",
+		gen_type = 1,
+		id = 10040026,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				55.394,
+				4.21,
+				156.518
+			},
+			rotation = {
+				0,
+				178.6864,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040027] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi302",
+		gen_type = 1,
+		id = 10040027,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				51.769,
+				3.805,
+				150.794
+			},
+			rotation = {
+				0,
+				128.879,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040028] = {
+		behaviourTree = "",
+		unitId = 100401,
+		type = 0,
+		name = "Collider",
+		gen_type = 0,
+		id = 10040028,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				0,
+				0,
+				0
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040029] = {
+		behaviourTree = "",
+		unitId = 100402,
+		type = 0,
+		name = "Station",
+		gen_type = 0,
+		id = 10040029,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				35.995,
+				2.843,
+				96.938
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040030] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 1014,
+		type = 0,
+		name = "MissionMinePoint1",
+		gen_type = 1,
+		id = 10040030,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				28.846,
+				8.237,
+				60.275
+			},
+			rotation = {
+				-1.707547e-06,
+				114.676,
+				145
+			},
+			scale = {
+				0.5,
+				0.5,
+				1
+			}
+		}
+	},
+	[10040031] = {
+		behaviourTree = "",
+		unitId = 100700,
+		type = 1,
+		name = "npc-famu-task2",
+		gen_type = 2,
+		id = 10040031,
+		mapId = 1004,
+		show_param = {
+			{
+				3,
+				3120001,
+				1
+			}
+		},
+		hide_param = {
+			{
+				2,
+				10001060,
+				2
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				41.57,
+				2.657,
+				94.38
+			},
+			rotation = {
+				0,
+				18.75212,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040032] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_fell_mining_task",
+		unitId = 100600,
+		type = 1,
+		name = "npc-kuangchang-task1",
+		gen_type = 2,
+		id = 10040032,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				10001040,
+				1
+			}
+		},
+		hide_param = {
+			{
+				2,
+				10001060,
+				2
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				39.78,
+				2.625,
+				95.31
+			},
+			rotation = {
+				359.9536,
+				40.29847,
+				359.9767
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040033] = {
+		behaviourTree = "Island/NodeCanvas/Fell_station",
+		unitId = 1012,
+		type = 0,
+		name = "Station1",
+		gen_type = 2,
+		id = 10040033,
+		mapId = 1004,
+		show_param = {
+			{
+				3,
+				3100091,
+				0
+			},
+			{
+				2,
+				10001050,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = true,
+			position = {
+				36.154,
+				2.613,
+				96.721
+			},
+			rotation = {
+				0,
+				25.5517,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040034] = {
+		behaviourTree = "",
+		unitId = 1011,
+		type = 0,
+		name = "Station2",
+		gen_type = 0,
+		id = 10040034,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {
+			{
+				0,
+				10001060,
+				1
+			},
+			{
+				2,
+				10001060,
+				1
+			}
+		},
+		param = {
+			hide = true,
+			position = {
+				36.154,
+				2.613,
+				96.721
+			},
+			rotation = {
+				0,
+				25.5517,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040035] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MissionMinePoint1_Track",
+		gen_type = 2,
+		id = 10040035,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				10001030,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				28.638,
+				8.237,
+				60.303
+			},
+			rotation = {
+				-1.707547e-06,
+				114.676,
+				145
+			},
+			scale = {
+				0.5,
+				0.5,
+				1
+			}
+		}
+	},
+	[10040036] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Loggingperform1",
+		gen_type = 0,
+		id = 10040036,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				57.423,
+				3.437,
+				140.164
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040037] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Loggingperform2",
+		gen_type = 0,
+		id = 10040037,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				43.961,
+				3.437,
+				139.18
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040038] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Loggingperform3",
+		gen_type = 0,
+		id = 10040038,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.165,
+				4.4,
+				149.385
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040039] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Loggingperform4",
+		gen_type = 0,
+		id = 10040039,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				50.398,
+				4.64,
+				157.768
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040040] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MissionloggingPoint1",
+		gen_type = 1,
+		id = 10040040,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				50.35,
+				5.19,
+				157.692
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040041] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "MissionloggingPoint1_Track",
+		gen_type = 2,
+		id = 10040041,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				10001040,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				69.001,
+				3.17,
+				121.427
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040042] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "DefaultSpawnPoint",
+		gen_type = 1,
+		id = 10040042,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				93.05,
+				2.969,
+				65.89
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040043] = {
+		behaviourTree = "",
+		unitId = 1021,
+		type = 0,
+		name = "GuideCollider",
+		gen_type = 2,
+		id = 10040043,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				10001000,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				0,
+				0,
+				0
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040044] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "GuideEffect1",
+		gen_type = 2,
+		id = 10040044,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				10001000,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				78.09,
+				3.05,
+				85.83
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040045] = {
+		behaviourTree = "",
+		unitId = 100700,
+		type = 1,
+		name = "npc-famu-task1",
+		gen_type = 2,
+		id = 10040045,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				10001030,
+				2
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3120000,
+				2
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				80.028,
+				3.169,
+				72.687
+			},
+			rotation = {
+				0,
+				234.2948,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040046] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20037,
+		type = 0,
+		name = "feixingqi06",
+		gen_type = 1,
+		id = 10040046,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				54.654,
+				3.178518,
+				123.6498
+			},
+			rotation = {
+				356.8235,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040047] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20039,
+		type = 0,
+		name = "feixingqi07",
+		gen_type = 1,
+		id = 10040047,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				41.75,
+				9.96,
+				51.02
+			},
+			rotation = {
+				352.0229,
+				119.8817,
+				355.738
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040048] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20040,
+		type = 0,
+		name = "feixingqi08",
+		gen_type = 1,
+		id = 10040048,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				89.41952,
+				3.520228,
+				101.4244
+			},
+			rotation = {
+				351.9954,
+				4.367276,
+				356.6403
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040049] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20041,
+		type = 0,
+		name = "feixingqi09",
+		gen_type = 1,
+		id = 10040049,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				36.39441,
+				4.879592,
+				82.368
+			},
+			rotation = {
+				0,
+				0,
+				350.3124
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040050] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_20010001",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20010001",
+		gen_type = 2,
+		id = 10040050,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20001001,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				51.7,
+				2.978,
+				121.48
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040051] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_20014002&3",
+		unitId = 1014,
+		type = 0,
+		name = "Sidetask_20014002&3",
+		gen_type = 2,
+		id = 10040051,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20014002,
+				0
+			},
+			{
+				0,
+				20014003,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				23.246,
+				3.565,
+				142.84
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040052] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi303",
+		gen_type = 1,
+		id = 10040052,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				58.763,
+				4.083,
+				156.64
+			},
+			rotation = {
+				0,
+				87.3877,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040053] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi401",
+		gen_type = 1,
+		id = 10040053,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				66.729,
+				3.344,
+				124.838
+			},
+			rotation = {
+				0,
+				167.1911,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040054] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi402",
+		gen_type = 1,
+		id = 10040054,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				69.99,
+				2.74,
+				128.62
+			},
+			rotation = {
+				0,
+				283.0175,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040055] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20036,
+		type = 0,
+		name = "fengmi403",
+		gen_type = 1,
+		id = 10040055,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				76.06,
+				2.73,
+				123.77
+			},
+			rotation = {
+				0,
+				246.2951,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040056] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20001009",
+		gen_type = 2,
+		id = 10040056,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20001009,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				94.96,
+				2.72,
+				102.02
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040057] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
+		unitId = 1014,
+		type = 0,
+		name = "Sidetask_20007001",
+		gen_type = 2,
+		id = 10040057,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				10003060,
+				0
+			},
+			{
+				1,
+				20007001,
+				0
+			},
+			{
+				0,
+				20007010,
+				0
+			},
+			{
+				3,
+				3130054,
+				1
+			}
+		},
+		hide_param = {
+			{
+				0,
+				20007001,
+				0
+			},
+			{
+				2,
+				20007001,
+				0
+			},
+			{
+				3,
+				3130055,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				44.445,
+				5.068,
+				161.267
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040058] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
+		unitId = 20036,
+		type = 0,
+		name = "Sidetask_20007001_1",
+		gen_type = 2,
+		id = 10040058,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20007001,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				60.387,
+				4.656,
+				152.026
+			},
+			rotation = {
+				0,
+				325.0818,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040059] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20009001",
+		gen_type = 2,
+		id = 10040059,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20009001,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				80.25,
+				2.99,
+				63.23
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040060] = {
+		behaviourTree = "Island/NodeCanvas/Main_Quest_Fell_Aobulaien1",
+		unitId = 100700,
+		type = 1,
+		name = "Storynpc_famu1",
+		gen_type = 2,
+		id = 10040060,
+		mapId = 1004,
+		show_param = {
+			{
+				3,
+				3120000,
+				0
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3120001,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				60.42,
+				2.88,
+				114.36
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040061] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_1007",
+		unitId = 100700,
+		type = 1,
+		name = "npc-famu-Sidetask_20001009",
+		gen_type = 2,
+		id = 10040061,
+		mapId = 1004,
+		show_param = {
+			{
+				0,
+				20001009,
+				0
+			},
+			{
+				1,
+				20001009,
+				0
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3130010,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				95.101,
+				2.72,
+				103.44
+			},
+			rotation = {
+				0,
+				188.3768,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040062] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20050,
+		type = 0,
+		name = "luweicong01",
+		gen_type = 1,
+		id = 10040062,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				95.75,
+				2.459,
+				107.24
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040063] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20050,
+		type = 0,
+		name = "luweicong02",
+		gen_type = 1,
+		id = 10040063,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				97.97686,
+				2.41,
+				104.9117
+			},
+			rotation = {
+				0,
+				289.1514,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040064] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20048,
+		type = 0,
+		name = "jvhuacong01",
+		gen_type = 1,
+		id = 10040064,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				38.714,
+				2.2,
+				111.068
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040065] = {
+		behaviourTree = "Island/NodeCanvas/WildGatherItem",
+		unitId = 20048,
+		type = 0,
+		name = "jvhuacong02",
+		gen_type = 1,
+		id = 10040065,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				43.2255,
+				2.27,
+				112.057
+			},
+			rotation = {
+				0,
+				340.642,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040066] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "Station_task",
+		gen_type = 0,
+		id = 10040066,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {
+			{
+				2,
+				10001060,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				40.61,
+				2.613,
+				94.669
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040067] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "Sidetask_qianglideren4",
+		gen_type = 1,
+		id = 10040067,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				44.615,
+				5.115,
+				161.071
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040068] = {
+		behaviourTree = "",
+		unitId = 0,
+		type = 0,
+		name = "Sidetask_qianglideren5",
+		gen_type = 1,
+		id = 10040068,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				44.615,
+				5.115,
+				161.071
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040069] = {
+		behaviourTree = "",
+		unitId = 101500,
+		type = 1,
+		name = "SidetaskNpc_qianglideren",
+		gen_type = 2,
+		id = 10040069,
+		mapId = 1004,
+		show_param = {
+			{
+				2,
+				20007010,
+				1
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3130063,
+				2
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				48.856,
+				4.367,
+				157.868
+			},
+			rotation = {
+				0,
+				278.1066,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040070] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint7",
+		gen_type = 1,
+		id = 10040070,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				36.718,
+				1.482,
+				62.308
+			},
+			rotation = {
+				359.2002,
+				17.06201,
+				34.66647
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040071] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint8",
+		gen_type = 1,
+		id = 10040071,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				39.882,
+				2.038,
+				59.492
+			},
+			rotation = {
+				0,
+				22.77457,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040072] = {
+		behaviourTree = "Island/NodeCanvas/PlaceCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "MinePoint9",
+		gen_type = 1,
+		id = 10040072,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				45.165,
+				5.04,
+				55.289
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040073] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint5",
+		gen_type = 1,
+		id = 10040073,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				57.399,
+				3.438,
+				140.151
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040074] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint6",
+		gen_type = 1,
+		id = 10040074,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				68.804,
+				3.438,
+				141.674
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040075] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint7",
+		gen_type = 1,
+		id = 10040075,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				43.99,
+				3.438,
+				139.237
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040076] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint8",
+		gen_type = 1,
+		id = 10040076,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				60.506,
+				4.72,
+				151.584
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10040077] = {
+		behaviourTree = "Island/NodeCanvas/PlaceFellCollectionPoint",
+		unitId = 0,
+		type = 0,
+		name = "LoggingPoint9",
+		gen_type = 1,
+		id = 10040077,
+		mapId = 1004,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				48.589,
+				4.7,
+				149.58
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
 	get_id_list_by_mapId = {
 		[1003] = {
 			10030001,
@@ -12513,77 +12745,6 @@ pg.island_world_objects = {
 			10030015,
 			10030016,
 			10030017
-		},
-		[1004] = {
-			10040001,
-			10040002,
-			10040003,
-			10040004,
-			10040005,
-			10040006,
-			10040007,
-			10040008,
-			10040009,
-			10040010,
-			10040011,
-			10040012,
-			10040013,
-			10040014,
-			10040015,
-			10040016,
-			10040017,
-			10040018,
-			10040019,
-			10040020,
-			10040021,
-			10040022,
-			10040023,
-			10040024,
-			10040025,
-			10040026,
-			10040027,
-			10040028,
-			10040029,
-			10040030,
-			10040031,
-			10040032,
-			10040033,
-			10040034,
-			10040035,
-			10040036,
-			10040037,
-			10040038,
-			10040039,
-			10040040,
-			10040041,
-			10040042,
-			10040043,
-			10040044,
-			10040045,
-			10040046,
-			10040047,
-			10040048,
-			10040049,
-			10040050,
-			10040051,
-			10040052,
-			10040053,
-			10040054,
-			10040055,
-			10040056,
-			10040057,
-			10040058,
-			10040059,
-			10040060,
-			10040061,
-			10040062,
-			10040063,
-			10040064,
-			10040065,
-			10040066,
-			10040067,
-			10040068,
-			10040069
 		},
 		[1005] = {
 			10050000,
@@ -12909,6 +13070,85 @@ pg.island_world_objects = {
 			10020039,
 			10020040,
 			10020041
+		},
+		[1004] = {
+			10040001,
+			10040002,
+			10040003,
+			10040004,
+			10040005,
+			10040006,
+			10040007,
+			10040008,
+			10040009,
+			10040010,
+			10040011,
+			10040012,
+			10040013,
+			10040014,
+			10040015,
+			10040016,
+			10040017,
+			10040018,
+			10040019,
+			10040020,
+			10040021,
+			10040022,
+			10040023,
+			10040024,
+			10040025,
+			10040026,
+			10040027,
+			10040028,
+			10040029,
+			10040030,
+			10040031,
+			10040032,
+			10040033,
+			10040034,
+			10040035,
+			10040036,
+			10040037,
+			10040038,
+			10040039,
+			10040040,
+			10040041,
+			10040042,
+			10040043,
+			10040044,
+			10040045,
+			10040046,
+			10040047,
+			10040048,
+			10040049,
+			10040050,
+			10040051,
+			10040052,
+			10040053,
+			10040054,
+			10040055,
+			10040056,
+			10040057,
+			10040058,
+			10040059,
+			10040060,
+			10040061,
+			10040062,
+			10040063,
+			10040064,
+			10040065,
+			10040066,
+			10040067,
+			10040068,
+			10040069,
+			10040070,
+			10040071,
+			10040072,
+			10040073,
+			10040074,
+			10040075,
+			10040076,
+			10040077
 		}
 	},
 	all = {
@@ -12929,75 +13169,6 @@ pg.island_world_objects = {
 		10030015,
 		10030016,
 		10030017,
-		10040001,
-		10040002,
-		10040003,
-		10040004,
-		10040005,
-		10040006,
-		10040007,
-		10040008,
-		10040009,
-		10040010,
-		10040011,
-		10040012,
-		10040013,
-		10040014,
-		10040015,
-		10040016,
-		10040017,
-		10040018,
-		10040019,
-		10040020,
-		10040021,
-		10040022,
-		10040023,
-		10040024,
-		10040025,
-		10040026,
-		10040027,
-		10040028,
-		10040029,
-		10040030,
-		10040031,
-		10040032,
-		10040033,
-		10040034,
-		10040035,
-		10040036,
-		10040037,
-		10040038,
-		10040039,
-		10040040,
-		10040041,
-		10040042,
-		10040043,
-		10040044,
-		10040045,
-		10040046,
-		10040047,
-		10040048,
-		10040049,
-		10040050,
-		10040051,
-		10040052,
-		10040053,
-		10040054,
-		10040055,
-		10040056,
-		10040057,
-		10040058,
-		10040059,
-		10040060,
-		10040061,
-		10040062,
-		10040063,
-		10040064,
-		10040065,
-		10040066,
-		10040067,
-		10040068,
-		10040069,
 		10050000,
 		10050001,
 		10050002,
@@ -13306,6 +13477,83 @@ pg.island_world_objects = {
 		10020038,
 		10020039,
 		10020040,
-		10020041
+		10020041,
+		10040001,
+		10040002,
+		10040003,
+		10040004,
+		10040005,
+		10040006,
+		10040007,
+		10040008,
+		10040009,
+		10040010,
+		10040011,
+		10040012,
+		10040013,
+		10040014,
+		10040015,
+		10040016,
+		10040017,
+		10040018,
+		10040019,
+		10040020,
+		10040021,
+		10040022,
+		10040023,
+		10040024,
+		10040025,
+		10040026,
+		10040027,
+		10040028,
+		10040029,
+		10040030,
+		10040031,
+		10040032,
+		10040033,
+		10040034,
+		10040035,
+		10040036,
+		10040037,
+		10040038,
+		10040039,
+		10040040,
+		10040041,
+		10040042,
+		10040043,
+		10040044,
+		10040045,
+		10040046,
+		10040047,
+		10040048,
+		10040049,
+		10040050,
+		10040051,
+		10040052,
+		10040053,
+		10040054,
+		10040055,
+		10040056,
+		10040057,
+		10040058,
+		10040059,
+		10040060,
+		10040061,
+		10040062,
+		10040063,
+		10040064,
+		10040065,
+		10040066,
+		10040067,
+		10040068,
+		10040069,
+		10040070,
+		10040071,
+		10040072,
+		10040073,
+		10040074,
+		10040075,
+		10040076,
+		10040077
 	}
 }

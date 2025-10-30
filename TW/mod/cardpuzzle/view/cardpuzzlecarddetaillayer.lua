@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.cardView = CardPuzzleCardView.New(slot0:findTF("CardTowerCard"))
-	slot0.keywordList = slot0:findTF("KeywordList")
+	slot0.cardView = CardPuzzleCardView.New(slot0._tf:Find("CardTowerCard"))
+	slot0.keywordList = slot0._tf:Find("KeywordList")
 end
 
 slot1 = {
@@ -15,7 +15,7 @@ slot1 = {
 }
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	onButton(slot0, slot0._tf:Find("BG"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 	slot0.cardView:SetData(slot0.contextData.cardData)

@@ -6,10 +6,16 @@ end
 
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
-	onButton(slot0, slot0:findTF("btn_quit"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("btn_quit"), function ()
 		uv0:emit(CardPuzzleCombatPauseMediator.QUIT_COMBAT, {})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("btn_resume"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("btn_resume"), function ()
 		uv0:OnBackward()
 	end, SFX_PANEL)
 end

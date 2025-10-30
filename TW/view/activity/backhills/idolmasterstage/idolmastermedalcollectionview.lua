@@ -59,14 +59,13 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot1 = slot0:findTF("NotchAdapt")
-	slot0.backBtn = slot0:findTF("BackBtn", slot1)
-	slot0.progressText = slot0:findTF("ProgressImg/ProgressText", slot1)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
-	slot0.tplButtom = findTF(slot0:findTF("SwitchBtnList", slot0._tf), "tplButtom")
-	slot6 = slot1
-	slot0.imgGot = slot0:findTF("ProgressImg/got", slot6)
+	slot0.bg = slot0._tf:Find("BG")
+	slot1 = slot0._tf:Find("NotchAdapt")
+	slot0.backBtn = slot1:Find("BackBtn")
+	slot0.progressText = slot1:Find("ProgressImg/ProgressText")
+	slot0.helpBtn = slot1:Find("HelpBtn")
+	slot0.tplButtom = findTF(slot0._tf:Find("SwitchBtnList"), "tplButtom")
+	slot0.imgGot = slot1:Find("ProgressImg/got")
 	slot0.switchBtnList = {}
 
 	for slot6 = 1, uv0.PAGE_NUM do
@@ -87,9 +86,9 @@ slot0.findUI = function(slot0)
 		table.insert(slot0.switchBtnList, slot7)
 	end
 
-	slot0.infoNode = slot0:findTF("book/info")
-	slot0.photoNode = slot0:findTF("book/photo")
-	slot0.photo = slot0:findTF("got", slot0.photoNode)
+	slot0.infoNode = slot0._tf:Find("book/info")
+	slot0.photoNode = slot0._tf:Find("book/photo")
+	slot0.photo = slot0.photoNode:Find("got")
 end
 
 slot0.addListener = function(slot0)
@@ -145,9 +144,9 @@ slot0.getMedalStatus = function(slot0, slot1)
 end
 
 slot0.updatePhotoNode = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("task", slot0.photoNode)
-	slot4 = slot0:findTF("get", slot0.photoNode)
-	slot5 = slot0:findTF("got", slot0.photoNode)
+	slot3 = slot0.photoNode:Find("task")
+	slot4 = slot0.photoNode:Find("get")
+	slot5 = slot0.photoNode:Find("got")
 	slot7 = (slot0.curPage - 1) * uv0.MEDAL_NUM_PER_PAGE + 1
 
 	if slot0:getMedalStatus(slot1) == uv0.MEDAL_STATUS_UNACTIVATED then
@@ -200,9 +199,9 @@ slot0.updatePhotoNode = function(slot0, slot1, slot2)
 end
 
 slot0.updateInfoNode = function(slot0, slot1)
-	slot2 = slot0:findTF("task", slot0.infoNode)
-	slot3 = slot0:findTF("get", slot0.infoNode)
-	slot4 = slot0:findTF("got", slot0.infoNode)
+	slot2 = slot0.infoNode:Find("task")
+	slot3 = slot0.infoNode:Find("get")
+	slot4 = slot0.infoNode:Find("got")
 	slot6 = (slot0.curPage - 1) * uv0.MEDAL_NUM_PER_PAGE + 2
 
 	if slot0:getMedalStatus(slot1) == uv0.MEDAL_STATUS_UNACTIVATED then
@@ -237,7 +236,7 @@ end
 
 slot0.updateSwitchBtnTF = function(slot0)
 	for slot4, slot5 in ipairs(slot0.switchBtnList) do
-		slot6 = slot0:findTF("tip", slot5)
+		slot6 = slot5:Find("tip")
 
 		if slot0:caculateActivatable(slot4) == 0 or slot4 == slot0.curPage then
 			setActive(slot6, false)
@@ -249,8 +248,8 @@ slot0.updateSwitchBtnTF = function(slot0)
 
 		slot8 = slot4 == slot0.curPage
 
-		setActive(slot0:findTF("icon", slot5), not slot8)
-		setActive(slot0:findTF("iconSelect", slot5), slot8)
+		setActive(slot5:Find("icon"), not slot8)
+		setActive(slot5:Find("iconSelect"), slot8)
 	end
 end
 

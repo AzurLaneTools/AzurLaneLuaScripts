@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
-	slot0.uiItemList = UIItemList.New(slot0:findTF("window/panel/list"), slot0:findTF("window/panel/list/item"))
-	slot0.currentTitle = slot0:findTF("window/pt/title"):GetComponent(typeof(Text))
-	slot0.currentTxt = slot0:findTF("window/pt/Text"):GetComponent(typeof(Text))
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("window/panel/list"), slot0._tf:Find("window/panel/list/item"))
+	slot0.currentTitle = slot0._tf:Find("window/pt/title"):GetComponent(typeof(Text))
+	slot0.currentTxt = slot0._tf:Find("window/pt/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
+	setText(slot0._tf:Find("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
 end
 
 slot0.OnInit = function(slot0)

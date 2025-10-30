@@ -5,16 +5,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.replaceList = UIItemList.New(slot0:findTF("bg/frame/bg/talents/content"), slot0:findTF("bg/frame/bg/talents/content/talent"))
-	slot0.replaceTargetTF = slot0:findTF("bg/frame/bg/talent")
-	slot0.replaceTalent = slot0:findTF("bg/frame/bg/replace")
-	slot0.replaceCloseBtn = slot0:findTF("bg/frame/close_btn")
-	slot0.replaceCancelBtn = slot0:findTF("bg/frame/cancel_btn")
-	slot0.confirmBtn = slot0:findTF("bg/frame/confirm_btn")
+	slot0.replaceList = UIItemList.New(slot0._tf:Find("bg/frame/bg/talents/content"), slot0._tf:Find("bg/frame/bg/talents/content/talent"))
+	slot0.replaceTargetTF = slot0._tf:Find("bg/frame/bg/talent")
+	slot0.replaceTalent = slot0._tf:Find("bg/frame/bg/replace")
+	slot0.replaceCloseBtn = slot0._tf:Find("bg/frame/close_btn")
+	slot0.replaceCancelBtn = slot0._tf:Find("bg/frame/cancel_btn")
+	slot0.confirmBtn = slot0._tf:Find("bg/frame/confirm_btn")
 
-	setActive(slot0:findTF("bg/frame/consume"), false)
-	setText(slot0:findTF("bg/frame/bg/title/Text"), i18n("commander_choice_talent_3"))
-	setText(slot0:findTF("bg/frame/bg/talents/title/Text"), i18n("commander_choice_talent_2"))
+	setActive(slot0._tf:Find("bg/frame/consume"), false)
+	setText(slot0._tf:Find("bg/frame/bg/title/Text"), i18n("commander_choice_talent_3"))
+	setText(slot0._tf:Find("bg/frame/bg/talents/title/Text"), i18n("commander_choice_talent_2"))
 end
 
 slot0.OnInit = function(slot0)

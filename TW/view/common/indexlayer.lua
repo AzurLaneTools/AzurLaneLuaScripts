@@ -28,17 +28,26 @@ slot0.panelNames = {
 }
 
 slot0.init = function(slot0)
-	slot0.panel = slot0:findTF("index_panel")
+	slot1 = slot0._tf
+	slot0.panel = slot1:Find("index_panel")
+	slot2 = slot0.panel
+	slot2 = slot0.panel
+	slot2 = slot0.panel
+	slot2 = slot0.panel
+	slot2 = slot0.panel
+	slot2 = slot0.panel
+	slot2 = slot0.panel
+	slot2 = slot0.panel
 	slot4 = "layout/EquipSkinTheme"
 	slot0.displayTFs = {
-		slot0:findTF("layout/sort", slot0.panel),
-		slot0:findTF("layout/index", slot0.panel),
-		slot0:findTF("layout/camp", slot0.panel),
-		slot0:findTF("layout/rarity", slot0.panel),
-		slot0:findTF("layout/extra", slot0.panel),
-		slot0:findTF("layout/EquipSkinSort", slot0.panel),
-		slot0:findTF("layout/EquipSkinIndex", slot0.panel),
-		slot0:findTF(slot4, slot0.panel)
+		slot2:Find("layout/sort"),
+		slot2:Find("layout/index"),
+		slot2:Find("layout/camp"),
+		slot2:Find("layout/rarity"),
+		slot2:Find("layout/extra"),
+		slot2:Find("layout/EquipSkinSort"),
+		slot2:Find("layout/EquipSkinIndex"),
+		slot2:Find(slot4)
 	}
 
 	_.each(slot0.displayTFs, function (slot0)
@@ -52,11 +61,11 @@ slot0.init = function(slot0)
 
 	slot0.displayList = {}
 	slot0.typeList = {}
-	slot0.btnConfirm = slot0:findTF("layout/btns/ok", slot0.panel)
-	slot0.btnCancel = slot0:findTF("layout/btns/cancel", slot0.panel)
-	slot0.greySprite = slot0:findTF("resource/grey", slot0.panel):GetComponent(typeof(Image)).sprite
-	slot0.blueSprite = slot0:findTF("resource/blue", slot0.panel):GetComponent(typeof(Image)).sprite
-	slot0.yellowSprite = slot0:findTF("resource/yellow", slot0.panel):GetComponent(typeof(Image)).sprite
+	slot0.btnConfirm = slot0.panel:Find("layout/btns/ok")
+	slot0.btnCancel = slot0.panel:Find("layout/btns/cancel")
+	slot0.greySprite = slot0.panel:Find("resource/grey"):GetComponent(typeof(Image)).sprite
+	slot0.blueSprite = slot0.panel:Find("resource/blue"):GetComponent(typeof(Image)).sprite
+	slot0.yellowSprite = slot0.panel:Find("resource/yellow"):GetComponent(typeof(Image)).sprite
 end
 
 slot0.didEnter = function(slot0)
@@ -81,7 +90,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnCancel, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("btn", slot0.panel), function ()
+	onButton(slot0, slot0.panel:Find("btn"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 
@@ -135,7 +144,7 @@ slot0.initEquipSkinSort = function(slot0)
 
 	slot0.typeList[IndexConst.DisplayEquipSkinSort] = slot1
 	slot2 = slot0.displayTFs[IndexConst.DisplayEquipSkinSort]
-	slot3 = UIItemList.New(slot0:findTF("panel", slot2), slot0:findTF("panel/tpl", slot2))
+	slot3 = UIItemList.New(slot2:Find("panel"), slot2:Find("panel/tpl"))
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -176,7 +185,7 @@ slot0.initEquipSkinIndex = function(slot0)
 
 	slot0.typeList[IndexConst.DisplayEquipSkinIndex] = slot1
 	slot2 = slot0.displayTFs[IndexConst.DisplayEquipSkinIndex]
-	slot3 = UIItemList.New(slot0:findTF("panel", slot2), slot0:findTF("panel/tpl", slot2))
+	slot3 = UIItemList.New(slot2:Find("panel"), slot2:Find("panel/tpl"))
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -217,7 +226,7 @@ slot0.initEquipSkinTheme = function(slot0)
 
 	slot0.typeList[IndexConst.DisplayEquipSkinTheme] = slot1
 	slot2 = slot0.displayTFs[IndexConst.DisplayEquipSkinTheme]
-	slot3 = UIItemList.New(slot0:findTF("bg/panel", slot2), slot0:findTF("bg/panel/tpl", slot2))
+	slot3 = UIItemList.New(slot2:Find("bg/panel"), slot2:Find("bg/panel/tpl"))
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then

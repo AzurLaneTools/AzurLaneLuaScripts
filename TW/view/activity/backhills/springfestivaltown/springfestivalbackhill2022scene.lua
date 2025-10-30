@@ -11,18 +11,18 @@ slot0.edge2area = {
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	slot0.top = slot0:findTF("top")
-	slot0._bg = slot0:findTF("BG")
-	slot0._map = slot0:findTF("map")
+	slot0.top = slot0._tf:Find("top")
+	slot0._bg = slot0._tf:Find("BG")
+	slot0._map = slot0._tf:Find("map")
 
 	for slot4 = 0, slot0._map.childCount - 1 do
 		slot5 = slot0._map:GetChild(slot4)
 		slot0["map_" .. go(slot5).name] = slot5
 	end
 
-	slot0._shipTpl = slot0:findTF("ship")
-	slot0._sdPlace = slot0:findTF("SDPlace")
-	slot0._upper = slot0:findTF("upper")
+	slot0._shipTpl = slot0._tf:Find("ship")
+	slot0._sdPlace = slot0._tf:Find("SDPlace")
+	slot0._upper = slot0._tf:Find("upper")
 
 	for slot4 = 0, slot0._upper.childCount - 1 do
 		slot5 = slot0._upper:GetChild(slot4)
@@ -36,13 +36,13 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("top/back"), function ()
+	onButton(slot0, slot0._tf:Find("top/back"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("top/home"), function ()
+	onButton(slot0, slot0._tf:Find("top/home"), function ()
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/help"), function ()
+	onButton(slot0, slot0._tf:Find("top/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.springfes_tips1.tip

@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.btnUpgrade = slot0:findTF("window/frame/upgrade_btn")
+	slot0.btnUpgrade = slot0._tf:Find("window/frame/upgrade_btn")
 
-	setText(slot0:findTF("window/frame/costback/label"), i18n("word_consume"))
-	setText(slot0:findTF("window/frame/upgrade_btn/Image"), i18n("msgbox_text_upgrade"))
+	setText(slot0._tf:Find("window/frame/costback/label"), i18n("word_consume"))
+	setText(slot0._tf:Find("window/frame/upgrade_btn/Image"), i18n("msgbox_text_upgrade"))
 
 	slot0.loader = AutoLoader.New()
 end
@@ -19,10 +19,10 @@ end
 
 slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
-	onButton(slot0, slot0:findTF("window/top/btnBack"), function ()
+	onButton(slot0, slot0._tf:Find("window/top/btnBack"), function ()
 		uv0:closeView()
 	end)
-	onButton(slot0, slot0:findTF("mengban"), function ()
+	onButton(slot0, slot0._tf:Find("mengban"), function ()
 		uv0:closeView()
 	end)
 	slot0:Set(slot0.activity)
@@ -44,34 +44,34 @@ slot0.Set = function(slot0, slot1, slot2)
 		slot9 = slot7 or slot6[1][3] <= (slot1.data1KeyValueList[1][slot6[1][2]] or 0)
 	end
 
-	setText(slot0:findTF("window/top/name"), slot3.name)
-	setText(slot0:findTF("window/top/name/lv"), "Lv." .. slot5)
-	setScrollText(slot0:findTF("window/frame/describe/text"), slot3.desc)
-	setText(slot0:findTF("window/frame/content/title/lv/current"), "Lv." .. slot5)
-	setActive(slot0:findTF("window/frame/content/title/lv/next"), not slot7)
+	setText(slot0._tf:Find("window/top/name"), slot3.name)
+	setText(slot0._tf:Find("window/top/name/lv"), "Lv." .. slot5)
+	setScrollText(slot0._tf:Find("window/frame/describe/text"), slot3.desc)
+	setText(slot0._tf:Find("window/frame/content/title/lv/current"), "Lv." .. slot5)
+	setActive(slot0._tf:Find("window/frame/content/title/lv/next"), not slot7)
 
 	if not slot7 then
-		setText(slot0:findTF("window/frame/content/title/lv/next"), "Lv." .. slot5 + 1)
+		setText(slot0._tf:Find("window/frame/content/title/lv/next"), "Lv." .. slot5 + 1)
 	end
 
 	slot10 = slot3.buff[slot5]
 	slot11 = pg.benefit_buff_template[slot10]
 
 	assert(slot11, "Can't Find benefit_buff_template Config ID: " .. slot10)
-	setText(slot0:findTF("window/frame/content/preview/current"), slot11.desc)
-	setActive(slot0:findTF("window/frame/content/preview/arrow"), not slot7)
-	setActive(slot0:findTF("window/frame/content/preview/next"), not slot7)
+	setText(slot0._tf:Find("window/frame/content/preview/current"), slot11.desc)
+	setActive(slot0._tf:Find("window/frame/content/preview/arrow"), not slot7)
+	setActive(slot0._tf:Find("window/frame/content/preview/next"), not slot7)
 
 	if not slot7 then
 		slot12 = slot3.buff[slot5 + 1]
 		slot11 = pg.benefit_buff_template[slot12]
 
 		assert(slot11, "Can't Find benefit_buff_template Config ID: " .. slot12)
-		setText(slot0:findTF("window/frame/content/preview/next"), slot11.desc)
-		slot0.loader:GetSprite(Item.getConfigData(slot8).icon, "", slot0:findTF("window/frame/costback/icon"))
+		setText(slot0._tf:Find("window/frame/content/preview/next"), slot11.desc)
+		slot0.loader:GetSprite(Item.getConfigData(slot8).icon, "", slot0._tf:Find("window/frame/costback/icon"))
 	end
 
-	setText(slot0:findTF("window/frame/costback/cost"), not slot7 and slot3.material[slot5][1][3] or 0)
+	setText(slot0._tf:Find("window/frame/costback/cost"), not slot7 and slot3.material[slot5][1][3] or 0)
 	onButton(slot0, slot0.btnUpgrade, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("building_upgrade_tip"),

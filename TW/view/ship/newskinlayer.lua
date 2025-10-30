@@ -16,8 +16,10 @@ slot0.preload = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0._shake = slot0:findTF("shake_panel")
-	slot0._shade = slot0:findTF("shade")
+	slot1 = slot0._tf
+	slot0._shake = slot1:Find("shake_panel")
+	slot1 = slot0._tf
+	slot0._shade = slot1:Find("shade")
 	slot1 = slot0._shake
 	slot0._bg = slot1:Find("bg")
 	slot1 = slot0._bg
@@ -44,8 +46,10 @@ slot0.init = function(slot0)
 
 	setActive(slot0.newTF, false)
 
-	slot0.changeSkinBtn = slot0:findTF("set_skin_btn", slot0._shake)
-	slot0.selectPanel = slot0:findTF("select_ship_panel")
+	slot1 = slot0._shake
+	slot0.changeSkinBtn = slot1:Find("set_skin_btn")
+	slot1 = slot0._tf
+	slot0.selectPanel = slot1:Find("select_ship_panel")
 	slot0.isTimeLimit = slot0.contextData.timeLimit
 
 	setActive(slot0.timelimit, slot0.isTimeLimit)

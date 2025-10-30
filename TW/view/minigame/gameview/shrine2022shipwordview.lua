@@ -22,10 +22,14 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.wordImg = slot0:findTF("Word")
-	slot0.cloud1 = slot0:findTF("Cloud1")
-	slot0.cloud2 = slot0:findTF("Cloud2")
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("BG")
+	slot1 = slot0._tf
+	slot0.wordImg = slot1:Find("Word")
+	slot1 = slot0._tf
+	slot0.cloud1 = slot1:Find("Cloud1")
+	slot1 = slot0._tf
+	slot0.cloud2 = slot1:Find("Cloud2")
 	slot1 = "shipword_" .. slot0.curSelectShip
 
 	setImageSprite(slot0.wordImg, LoadSprite("Shrine2022/" .. slot1, slot1), true)

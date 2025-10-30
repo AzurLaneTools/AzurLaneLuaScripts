@@ -37,9 +37,9 @@ end
 slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 	setActive(slot0.atlasBtn, false)
-	setActive(slot0:findTF("overlay/left/mask"), false)
+	setActive(slot0._tf:Find("overlay/left/mask"), false)
 
-	slot1 = slot0:findTF("overlay/bottom")
+	slot1 = slot0._tf:Find("overlay/bottom")
 	slot3 = rtf(slot0.scrollrect.gameObject)
 	slot3.sizeDelta = Vector2(slot1.sizeDelta.x - 160, slot1.sizeDelta.y)
 
@@ -49,7 +49,7 @@ slot0.didEnter = function(slot0)
 	setAnchoredPosition(slot0.prevBtn, {
 		x = 32
 	})
-	setActive(slot0:findTF("overlay/right/price"), false)
+	setActive(slot0._tf:Find("overlay/right/price"), false)
 	setActive(slot0.live2dFilter, false)
 	setActive(slot0.changeBtn, false)
 end

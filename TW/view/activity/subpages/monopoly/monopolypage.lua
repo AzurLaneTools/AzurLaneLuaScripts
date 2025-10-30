@@ -5,7 +5,8 @@ slot0.ON_TRIGGER = "MonopolyGame:ON_TRIGGER"
 slot0.ON_AWARD = "MonopolyGame:ON_AWARD"
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("AD")
 
 	slot0:bind(uv0.ON_START, function (slot0, slot1, slot2)
 		pg.m02:sendNotification(GAME.MONOPOLY_OP, {

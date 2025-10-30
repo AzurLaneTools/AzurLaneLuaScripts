@@ -13,7 +13,7 @@ slot3 = 0.4
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.paintTF = slot0:findTF("Image", slot0.bg)
+	slot0.paintTF = slot0.bg:Find("Image")
 end
 
 slot0.OnUpdateFlush = function(slot0)

@@ -81,7 +81,10 @@ slot0.UpdateTask = function(slot0)
 		return
 	end
 
-	GetImageSpriteFromAtlasAsync("island/islandtasktype", IslandTaskType.ShowTypeFields[slot0.task:GetShowType()], slot0.iconTF)
+	slot1 = slot0.task:GetShowType()
+
+	GetImageSpriteFromAtlasAsync("island/islandtasktype", IslandTaskType.ShowTypeFields[slot1], slot0.iconTF)
+	setImageColor(slot0.contentTF:Find("title/bg"), Color.NewHex(IslandTaskType.ShowTypeColors[slot1]))
 	setText(slot0.nameTF, HXSet.hxLan(slot0.task:GetName()))
 	slot0:UpdateTarget()
 	slot0:TrackUI()
@@ -123,14 +126,11 @@ slot0.TrackUI = function(slot0)
 	end
 
 	if tonumber(slot0.task:GetTraceParam()) then
-		if getProxy(IslandProxy):GetIsland():GetMapId() == pg.island_world_objects[slot2].mapId then
-			if _IslandCore then
-				_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
-					id = slot2
-				})
-			end
-		else
-			slot0:UnTrackUI()
+		if _IslandCore then
+			_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
+				id = slot2,
+				typ = slot0.task:GetType()
+			})
 		end
 	else
 		slot0:UnTrackUI()

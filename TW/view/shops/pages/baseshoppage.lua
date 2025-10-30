@@ -11,16 +11,16 @@ end
 
 slot0.init = function(slot0)
 	slot0.canvasGroup = slot0._go:GetComponent(typeof(CanvasGroup))
-	slot0.lScrollrect = GetComponent(slot0:findTF("scroll"), "LScrollRect")
-	slot0.scrollbar = slot0:findTF("scroll/Scrollbar")
-	slot0.tipTextGo = slot0:findTF("bg/tipBg")
-	slot0.tipText = slot0:findTF("bg/tipBg/tipText"):GetComponent(typeof(Text))
-	slot0.helpBtn = slot0:findTF("bg/resList/helpBtn")
-	slot0.refreshBtn = slot0:findTF("timeBtn")
-	slot0.timerText = slot0:findTF("timeBtn/Text"):GetComponent(typeof(Text))
-	slot0.resolveBtn = slot0:findTF("resolveBtn")
+	slot0.lScrollrect = GetComponent(slot0._tf:Find("scroll"), "LScrollRect")
+	slot0.scrollbar = slot0._tf:Find("scroll/Scrollbar")
+	slot0.tipTextGo = slot0._tf:Find("bg/tipBg")
+	slot0.tipText = slot0._tf:Find("bg/tipBg/tipText"):GetComponent(typeof(Text))
+	slot0.helpBtn = slot0._tf:Find("bg/resList/helpBtn")
+	slot0.refreshBtn = slot0._tf:Find("timeBtn")
+	slot0.timerText = slot0._tf:Find("timeBtn/Text"):GetComponent(typeof(Text))
+	slot0.resolveBtn = slot0._tf:Find("resolveBtn")
 
-	setText(slot0:findTF("resolveBtn/Text"), i18n("shop_fragment_resolve"))
+	setText(slot0._tf:Find("resolveBtn/Text"), i18n("shop_fragment_resolve"))
 end
 
 slot0.CustomInit = function(slot0)

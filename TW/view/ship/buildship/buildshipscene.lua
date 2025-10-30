@@ -66,16 +66,17 @@ end
 
 slot0.init = function(slot0)
 	Input.multiTouchEnabled = false
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
-	slot0.backBtn = slot0:findTF("back_btn", slot0.topPanel)
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.topPanel = slot0.blurPanel:Find("adapt/top")
+	slot1 = slot0.topPanel
+	slot0.backBtn = slot1:Find("back_btn")
 	slot0.toggles = {
-		slot0:findTF("adapt/left_length/frame/tagRoot/build_btn", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/queue_btn", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/support_btn", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/unseam_btn", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/pray_btn", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/other_build_btn", slot0.blurPanel)
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/build_btn"),
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/queue_btn"),
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/support_btn"),
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/unseam_btn"),
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/pray_btn"),
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/other_build_btn")
 	}
 	slot0.tip = slot0.toggles[2]:Find("tip")
 	slot0.contextData.msgbox = BuildShipMsgBox.New(slot0._tf, slot0.event)
@@ -90,7 +91,8 @@ slot0.didEnter = function(slot0)
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
 
-	slot1 = slot0:findTF("adapt/left_length/stamp", slot0.blurPanel)
+	slot1 = slot0.blurPanel
+	slot1 = slot1:Find("adapt/left_length/stamp")
 	slot4 = getProxy(TaskProxy)
 
 	setActive(slot1, slot4:mingshiTouchFlagEnabled())

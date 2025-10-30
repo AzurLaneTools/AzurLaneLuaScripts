@@ -10,10 +10,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot0.Init = function(slot0)
-	slot0.BG = slot0:findTF("BG")
-	slot0.candicatesRect = GetComponent(slot0:findTF("Frame/List"), "LScrollRect")
+	slot0.BG = slot0._tf:Find("BG")
+	slot0.candicatesRect = GetComponent(slot0._tf:Find("Frame/List"), "LScrollRect")
 
-	setActive(slot0:findTF("Frame/Item"), false)
+	setActive(slot0._tf:Find("Frame/Item"), false)
 
 	slot0.candicatesRect.onUpdateItem = function(slot0, slot1)
 		uv0:UpdateCandicateItem(slot0 + 1, slot1)
@@ -24,7 +24,7 @@ slot0.Init = function(slot0)
 end
 
 slot0.InitCustom = function(slot0)
-	setText(slot0:findTF("IconBG/Lack/Text", slot0:findTF("Frame/Item")), i18n("ryza_ui_show_acess"))
+	setText(slot0._tf:Find("Frame/Item"):Find("IconBG/Lack/Text"), i18n("ryza_ui_show_acess"))
 end
 
 slot0.SetContextData = function(slot0, slot1)
@@ -44,8 +44,8 @@ end
 slot0.UpdateCandicateItem = function(slot0, slot1, slot2)
 	slot4 = slot0.candicates[slot1]
 
-	slot0._parentClass:UpdateRyzaItem(slot0:findTF("IconBG", tf(slot2)), slot4, true)
-	setActive(slot0:findTF("IconBG/Lack", slot3), slot4.count <= 0)
+	slot0._parentClass:UpdateRyzaItem(tf(slot2):Find("IconBG"), slot4, true)
+	setActive(slot3:Find("IconBG/Lack"), slot4.count <= 0)
 	onButton(slot0, slot3, function ()
 		if uv0 then
 			uv1 = CreateShell(uv1)
@@ -60,18 +60,18 @@ slot0.UpdateCandicateItem = function(slot0, slot1, slot2)
 end
 
 slot0.ShowCandicatePanel = function(slot0, slot1, slot2, slot3)
-	slot4 = slot0:findTF("Target")
+	slot4 = slot0._tf:Find("Target")
 	slot5 = tf(Instantiate(slot1))
 
 	SetComponentEnabled(slot5, typeof(Button), false)
-	removeAllChildren(slot0:findTF("Target"))
+	removeAllChildren(slot0._tf:Find("Target"))
 	setParent(slot5, slot4)
 	setAnchoredPosition(slot5, Vector2.zero)
 	slot0:HideNodeLinks(slot5)
 
 	slot6 = slot0._parentClass.layerFormulaDetailPanel
 
-	setAnchoredPosition(slot0:findTF("Content", slot0._parentClass.scrollView), slot4.anchoredPosition - (slot1.anchoredPosition + slot0._parentClass.scrollView.anchoredPosition))
+	setAnchoredPosition(slot0._parentClass.scrollView:Find("Content"), slot4.anchoredPosition - (slot1.anchoredPosition + slot0._parentClass.scrollView.anchoredPosition))
 	pg.UIMgr.GetInstance():BlurPanel(slot0._parentClass.top)
 	setActive(slot0._go, true)
 	SetComponentEnabled(slot0._parentClass.scrollView, typeof(ScrollRect), false)
@@ -96,7 +96,7 @@ slot0.HideCandicatePanel = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._parentClass.top)
 	slot0._parentClass.painting:SetSiblingIndex(1)
 	setActive(slot0._go, false)
-	removeAllChildren(slot0:findTF("Target"))
+	removeAllChildren(slot0._tf:Find("Target"))
 	SetComponentEnabled(slot0._parentClass.scrollView, typeof(ScrollRect), true)
 
 	slot0.candicateTarget = nil
@@ -153,12 +153,12 @@ end
 
 slot0.HideNodeLinks = function(slot0, slot1)
 	for slot5 = 1, 6 do
-		setActive(slot0:findTF("Links", slot1):GetChild(slot5 - 1), false)
+		setActive(slot1:Find("Links"):GetChild(slot5 - 1), false)
 	end
 end
 
 slot0.PlayBgAnimation = function(slot0)
-	slot0:findTF("TargetBG").localRotation = Quaternion.identity
+	slot0._tf:Find("TargetBG").localRotation = Quaternion.identity
 	slot2 = slot0.nodeTarget.Data:GetType() == AtelierFormulaCircle.TYPE.BASE and 300 or 245
 
 	setSizeDelta(slot1, {
@@ -170,12 +170,12 @@ end
 
 slot0.StopBgAnimation = function(slot0, slot1)
 	slot0._parentClass:LoadingOn()
-	GetComponent(slot0:findTF("TargetBG"), typeof(DftAniEvent)):SetEndEvent(function ()
+	GetComponent(slot0._tf:Find("TargetBG"), typeof(DftAniEvent)):SetEndEvent(function ()
 		uv0._parentClass:LoadingOff()
 		uv1()
 		uv2:SetEndEvent(nil)
 	end)
-	GetComponent(slot0:findTF("TargetBG"), typeof(Animator)):SetBool("Selecting", false)
+	GetComponent(slot0._tf:Find("TargetBG"), typeof(Animator)):SetBool("Selecting", false)
 end
 
 return slot0

@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("overview/back")
+	slot0.backBtn = slot0._tf:Find("overview/back")
 end
 
 slot1 = 7

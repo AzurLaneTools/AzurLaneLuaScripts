@@ -59,14 +59,14 @@ slot7.InitPopNumPool = function(slot0)
 	slot2 = slot0._state:GetUI()
 
 	if slot0._dataProxy:GetInitData().battleType == SYSTEM_DODGEM then
-		slot0._popNumMgr:InitialScorePool(slot2:findTF(slot1.CONTAINER_CHARACTER_HP .. "/container"))
+		slot0._popNumMgr:InitialScorePool(slot2._tf:Find(slot1.CONTAINER_CHARACTER_HP .. "/container"))
 	else
-		slot0._popNumMgr:InitialBundlePool(slot2:findTF(slot1.CONTAINER_CHARACTER_HP .. "/container"))
+		slot0._popNumMgr:InitialBundlePool(slot2._tf:Find(slot1.CONTAINER_CHARACTER_HP .. "/container"))
 	end
 end
 
 slot7.InitFlagShipMark = function(slot0)
-	slot1 = slot0._state:GetUI():findGO("flagShipMark")
+	slot1 = slot0._state:GetUI()._tf:Find("flagShipMark").gameObject
 
 	slot1:SetActive(true)
 
@@ -81,8 +81,8 @@ end
 slot7.InitCharacterFactory = function(slot0)
 	slot1 = slot0._state:GetUI()
 
-	uv0.Battle.BattleHPBarManager.GetInstance():InitialPoolRoot(slot1:findTF(uv0.Battle.BattleHPBarManager.ROOT_NAME))
-	uv0.Battle.BattleArrowManager.GetInstance():Init(slot1:findTF(uv0.Battle.BattleArrowManager.ROOT_NAME))
+	uv0.Battle.BattleHPBarManager.GetInstance():InitialPoolRoot(slot1._tf:Find(uv0.Battle.BattleHPBarManager.ROOT_NAME))
+	uv0.Battle.BattleArrowManager.GetInstance():Init(slot1._tf:Find(uv0.Battle.BattleArrowManager.ROOT_NAME))
 
 	slot0._characterFactoryList = {
 		[uv1.UnitType.PLAYER_UNIT] = uv0.Battle.BattlePlayerCharacterFactory.GetInstance(),
@@ -653,7 +653,7 @@ slot7.GetBulletRoot = function(slot0)
 end
 
 slot7.EnablePopContainer = function(slot0, slot1, slot2)
-	setActive(slot0._state:GetUI():findTF(slot1), slot2)
+	setActive(slot0._state:GetUI()._tf:Find(slot1), slot2)
 end
 
 slot7.AddPlayerCharacter = function(slot0, slot1)
@@ -679,7 +679,7 @@ slot7.AppendCharacter = function(slot0, slot1)
 end
 
 slot7.InstantiateCharacterComponent = function(slot0, slot1)
-	slot3 = slot0._state:GetUI():findTF(slot1)
+	slot3 = slot0._state:GetUI()._tf:Find(slot1)
 
 	return cloneTplTo(slot3, slot3.parent).gameObject
 end

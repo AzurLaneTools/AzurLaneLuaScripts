@@ -19,11 +19,11 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0.okBtn:Find("Text"), i18n("word_ok"))
 	setText(slot0.cancelBtn:Find("Text"), i18n("word_cancel"))
-	setText(slot0:findTF("frame/tip_1/text_1"), i18n("backyard_extend_tip_1"))
-	setText(slot0:findTF("frame/tip_1/text_2"), i18n("backyard_extend_tip_2"))
-	setText(slot0:findTF("frame/tip_2/text_1"), i18n("backyard_extend_tip_3"))
-	setText(slot0:findTF("frame/tip_2/text_2"), i18n("backyard_extend_tip_4"))
-	setText(slot0:findTF("frame/title"), i18n("words_information"))
+	setText(slot0._tf:Find("frame/tip_1/text_1"), i18n("backyard_extend_tip_1"))
+	setText(slot0._tf:Find("frame/tip_1/text_2"), i18n("backyard_extend_tip_2"))
+	setText(slot0._tf:Find("frame/tip_2/text_1"), i18n("backyard_extend_tip_3"))
+	setText(slot0._tf:Find("frame/tip_2/text_2"), i18n("backyard_extend_tip_4"))
+	setText(slot0._tf:Find("frame/title"), i18n("words_information"))
 end
 
 slot0.OnInit = function(slot0)

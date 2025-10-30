@@ -49,7 +49,7 @@ slot0.OnInit = function(slot0)
 
 	uv1.keepFateTog = slot0._tf:Find("control/condition/keep_tog")
 
-	setText(slot0:findTF("label", slot0.keepFateTog), i18n("keep_fate_tip"))
+	setText(slot0.keepFateTog:Find("label"), i18n("keep_fate_tip"))
 
 	uv1.keepFateState = not getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_DONT_KEEP_FATE_ITEM)
 	GetComponent(slot0.keepFateTog, typeof(Toggle)).isOn = uv1.keepFateState

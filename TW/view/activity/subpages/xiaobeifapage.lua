@@ -5,14 +5,14 @@ slot0.checkList = {
 }
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.layer = slot0:findTF("layer")
-	slot0.btn = slot0:findTF("btn", slot0.layer)
-	slot0.bonusList = slot0:findTF("bonus_list", slot0.layer)
-	slot0.progress = slot0:findTF("progress", slot0.layer)
-	slot0.progressTxt = slot0:findTF("progressText", slot0.layer)
-	slot0.phaseTxt = slot0:findTF("phase/Text", slot0.layer)
-	slot0.award = slot0:findTF("award", slot0.layer)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.layer = slot0._tf:Find("layer")
+	slot0.btn = slot0.layer:Find("btn")
+	slot0.bonusList = slot0.layer:Find("bonus_list")
+	slot0.progress = slot0.layer:Find("progress")
+	slot0.progressTxt = slot0.layer:Find("progressText")
+	slot0.phaseTxt = slot0.layer:Find("phase/Text")
+	slot0.award = slot0.layer:Find("award")
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -38,7 +38,7 @@ slot0.flush_task_list_pt_xiaobeifa = function(slot0)
 	slot2, slot3, slot4 = slot0:getDoingTask(slot1)
 
 	if slot1:getConfig("config_client").main_task then
-		slot0:setImportantProgress(slot1, slot0:findTF("progress_important"), slot4 and slot2 or slot2 - 1, slot1:getConfig("config_client").main_task, slot1:getConfig("config_data"))
+		slot0:setImportantProgress(slot1, slot0._tf:Find("progress_important"), slot4 and slot2 or slot2 - 1, slot1:getConfig("config_client").main_task, slot1:getConfig("config_data"))
 	end
 end
 
@@ -144,7 +144,7 @@ slot0.setImportantProgress = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				slot25 = pg.task_data_template[slot19]
 				slot26 = slot25.award_display[1]
-				slot27 = slot0:findTF("award", slot14)
+				slot27 = slot14:Find("award")
 
 				updateDrop(slot27, {
 					type = slot26[1],
@@ -154,12 +154,12 @@ slot0.setImportantProgress = function(slot0, slot1, slot2, slot3, slot4, slot5)
 				onButton(slot0, slot27, function ()
 					uv0:emit(BaseUI.ON_DROP, uv1)
 				end, SFX_PANEL)
-				setText(slot0:findTF("Text", slot14), slot25.target_num)
+				setText(slot14:Find("Text"), slot25.target_num)
 				print(slot25.id)
 
 				slot31 = getProxy(TaskProxy):getTaskById(slot5[#slot5]) or getProxy(TaskProxy):getFinishTaskById(slot30)
 
-				setActive(slot0:findTF("mask", slot27), slot23 < slot3 or slot31 and slot31:isReceive())
+				setActive(slot27:Find("mask"), slot23 < slot3 or slot31 and slot31:isReceive())
 
 				break
 			end
