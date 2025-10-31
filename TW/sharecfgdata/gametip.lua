@@ -39591,6 +39591,11 @@ _G.pg.base.gametip.danmachi_award_unget = {
 }
 
 
+_G.pg.base.gametip.dorm3d_touch2 = {
+	tip = "觸摸（$1）"
+}
+
+
 _G.pg.base.gametip.shop_sell_ended = {
 	tip = "不可购买"
 }

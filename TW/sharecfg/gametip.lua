@@ -30316,8 +30316,13 @@ cs.gametip = {
 		93,
 		true
 	},
-	shop_sell_ended = {
+	dorm3d_touch2 = {
 		1057170,
+		91,
+		true
+	},
+	shop_sell_ended = {
+		1057261,
 		91,
 		true
 	}

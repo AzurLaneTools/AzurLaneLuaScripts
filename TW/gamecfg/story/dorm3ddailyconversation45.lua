@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没想到能从您这里得到这个问题的答案……天狼星十分开心哦，我骄傲的{dorm3d}。",
+			say = "沒想到能從您這裡得到這個問題的答案……天狼星十分開心哦，我驕傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
