@@ -102,55 +102,75 @@ slot0.OnInit = function(slot0)
 			return
 		end
 
-		slot0 = function()
-			uv0.mediator:GoIsland(getProxy(PlayerProxy):getRawData().id)
-			uv0:Hide()
-		end
-
+		slot0 = {}
 		slot1 = "MAP"
 
-		if Application.isEditor or GroupHelper.IsGroupVerLastest(slot1) or not GroupHelper.IsGroupWaitToUpdate(slot1) then
-			slot0()
+		if not Application.isEditor and not GroupHelper.IsGroupVerLastest(slot1) then
+			if GroupHelper.IsGroupWaitToUpdate(slot1) then
+				slot2 = GroupHelper.GetGroupSize(slot1)
+				slot3 = HashUtil.BytesToString(slot2)
 
-			return
+				if slot2 > 0 then
+					table.insert(slot0, function (slot0)
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							modal = true,
+							locked = true,
+							type = MSGBOX_TYPE_FILE_DOWNLOAD,
+							content = string.format(i18n("group_download_tip", uv0)),
+							onYes = slot0
+						})
+					end)
+				end
+
+				table.insert(slot0, function (slot0)
+					slot1 = {}
+
+					if GroupHelper.GetGroupMgrByName(uv0).toUpdate then
+						for slot7 = 0, slot2.toUpdate.Count - 1 do
+							table.insert(slot1, slot2.toUpdate[slot7][0])
+						end
+					end
+
+					pg.FileDownloadMgr.GetInstance():Main({
+						dataList = {
+							{
+								groupName = uv0,
+								fileNameList = slot1
+							}
+						},
+						onFinish = slot0
+					})
+				end)
+			end
 		end
 
-		slot2 = {}
-		slot3 = GroupHelper.GetGroupSize(slot1)
-		slot4 = HashUtil.BytesToString(slot3)
+		slot2 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d", true)
 
-		if slot3 > 0 then
-			table.insert(slot2, function (slot0)
+		if not LOCK_ISLAND_ENTER_TIP_WINDOW and PlayerPrefs.GetString("ISLAND_ENTER_TIP_WINDOW", "") ~= slot2 then
+			table.insert(slot0, function (slot0)
+				slot1 = function()
+					if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
+						PlayerPrefs.SetString("ISLAND_ENTER_TIP_WINDOW", uv0)
+					end
+
+					uv1()
+				end
+
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					modal = true,
-					locked = true,
-					type = MSGBOX_TYPE_FILE_DOWNLOAD,
-					content = string.format(i18n("group_download_tip", uv0)),
-					onYes = slot0
+					showStopRemind = true,
+					toggleStatus = true,
+					type = MSGBOX_TYPE_HELP,
+					helps = i18n("island_urgent_notice"),
+					onYes = slot1,
+					onNo = slot1
 				})
 			end)
 		end
 
-		table.insert(slot2, function (slot0)
-			slot1 = {}
-
-			if GroupHelper.GetGroupMgrByName(uv0).toUpdate then
-				for slot7 = 0, slot2.toUpdate.Count - 1 do
-					table.insert(slot1, slot2.toUpdate[slot7][0])
-				end
-			end
-
-			pg.FileDownloadMgr.GetInstance():Main({
-				dataList = {
-					{
-						groupName = uv0,
-						fileNameList = slot1
-					}
-				},
-				onFinish = slot0
-			})
+		seriesAsync(slot0, function ()
+			uv0.mediator:GoIsland(getProxy(PlayerProxy):getRawData().id)
+			uv0:Hide()
 		end)
-		seriesAsync(slot2, slot0)
 	end, SFX_MAIN)
 	onButton(slot0, slot0._dormBtn, function ()
 		uv0.mediator:OpenDormSelectLayer()

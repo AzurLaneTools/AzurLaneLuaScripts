@@ -27,7 +27,7 @@ pg.island_shop_normal_template = {
 					8
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -49,7 +49,7 @@ pg.island_shop_normal_template = {
 					6
 				},
 				{
-					0,
+					18,
 					0,
 					0
 				}
@@ -61,7 +61,7 @@ pg.island_shop_normal_template = {
 					8
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -95,7 +95,7 @@ pg.island_shop_normal_template = {
 					8
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
