@@ -49,7 +49,7 @@ pg.island_shop_normal_template = {
 					6
 				},
 				{
-					0,
+					14,
 					0,
 					0
 				}

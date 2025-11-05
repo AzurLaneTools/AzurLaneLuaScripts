@@ -35350,5 +35350,10 @@ cs.gametip = {
 		1265917,
 		91,
 		true
+	},
+	island_urgent_notice = {
+		1266008,
+		2711,
+		true
 	}
 }
