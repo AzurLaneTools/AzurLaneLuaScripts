@@ -40590,12 +40590,12 @@ _G.pg.base.gametip.fengfanV3_20251023_Sidebar1 = {
 
 
 _G.pg.base.gametip.fengfanV3_20251023_Sidebar2 = {
-	tip = "자유 군도 보급지"
+	tip = "자유 군도 보급소 "
 }
 
 
 _G.pg.base.gametip.fengfanV3_20251023_Sidebar3 = {
-	tip = "할로윈 II"
+	tip = "도깨비 괴담집 II "
 }
 
 

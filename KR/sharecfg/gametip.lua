@@ -30968,21 +30968,21 @@ cs.gametip = {
 	},
 	fengfanV3_20251023_Sidebar2 = {
 		1232808,
-		114,
+		115,
 		true
 	},
 	fengfanV3_20251023_Sidebar3 = {
-		1232922,
-		103,
+		1232923,
+		114,
 		true
 	},
 	fengfanV3_20251023_jinianshouce = {
-		1233025,
+		1233037,
 		101,
 		true
 	},
 	shop_sell_ended = {
-		1233126,
+		1233138,
 		91,
 		true
 	}
