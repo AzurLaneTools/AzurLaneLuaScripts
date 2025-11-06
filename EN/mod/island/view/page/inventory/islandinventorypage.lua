@@ -2,6 +2,7 @@ slot0 = class("IslandInventoryPage", import("...base.IslandBasePage"))
 slot1 = 101
 slot2 = 102
 slot3 = 103
+slot4 = false
 slot0.INVENTORY_TYPE_OVERFLOW = 100
 slot0.INVENTORY_TYPE_COMMON = 101
 slot0.MODE_VIEW = 0
@@ -35,9 +36,17 @@ slot0.OnLoaded = function(slot0)
 	slot0.upgradeProg = slot0._tf:Find("window/upgrade/bar")
 	slot0.batchSellBtn = slot0._tf:Find("window/batch_sell")
 	slot0.sellPanel = slot0._tf:Find("window/sell_panel")
+
+	setText(slot0.sellPanel:Find("tip"), i18n("island_quickselect_tip"))
+
 	slot0.sortPaenl = slot0._tf:Find("window/sort_panel")
 	slot0.sellBtn = slot0._tf:Find("window/sell_panel/batch_sell_1")
 	slot0.sellCancelBtn = slot0._tf:Find("window/sell_panel/cancel")
+	slot0.sellAllBtn = slot0._tf:Find("window/sell_panel/all")
+
+	setActive(slot0.sellAllBtn, uv4)
+
+	slot0.sellAllFlagTF = slot0.sellAllBtn:Find("flag")
 	slot0.sellPriceTxt = slot0._tf:Find("window/sell_panel/price/Text"):GetComponent(typeof(Text))
 
 	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, slot0._tf:Find("window/sell_panel/price/Text/icon"))
@@ -50,6 +59,7 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0._tf:Find("window/batch_sell/Text"), i18n("island_batch_covert"))
 	setText(slot0._tf:Find("window/sell_panel/price/label"), i18n("island_total_price"))
 	setText(slot0._tf:Find("window/sell_panel/cancel/Text"), i18n("word_cancel"))
+	setText(slot0._tf:Find("window/sell_panel/all/Text"), i18n("island_selectall"))
 	setText(slot0._tf:Find("window/sell_panel/batch_sell_1/Text"), i18n("island_batch_covert"))
 	setText(slot0._tf:Find("window/one_key_panel/fetch_btn/Text"), i18n("mail_get_oneclick"))
 end
@@ -80,6 +90,17 @@ slot0.OnInit = function(slot0)
 
 		for slot3, slot4 in ipairs(uv0.values) do
 			uv0.values[slot3] = 0
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.sellAllBtn, function (slot0)
+		if not uv0 then
+			return
+		end
+
+		if uv1.selAllFlag then
+			uv1:UpdataUnselAll()
+		else
+			uv1:UpdataSelAll()
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sellBtn, function ()
@@ -138,6 +159,10 @@ slot0.UpdateStyle = function(slot0)
 	setActive(slot0.sortPaenl, slot0.mode == uv0.MODE_VIEW and slot0.tagType ~= uv0.INVENTORY_TYPE_OVERFLOW)
 	setActive(slot0.oneKeyPanel, slot0.tagType == uv0.INVENTORY_TYPE_OVERFLOW and slot0.mode ~= uv0.MODE_EDIT)
 	setActive(slot0.batchSellBtn, slot0.mode == uv0.MODE_VIEW)
+
+	if slot0.mode == uv0.MODE_EDIT then
+		slot0:CheckSelAllFlag()
+	end
 end
 
 slot0.AddListeners = function(slot0)
@@ -319,6 +344,7 @@ end
 slot0.SetTotalCount = function(slot0)
 	slot0.displays = slot0:Filter()
 	slot0.values = {}
+	slot0.selAllFlag = false
 
 	for slot4, slot5 in ipairs(slot0.displays) do
 		table.insert(slot0.values, 0)
@@ -344,7 +370,7 @@ slot0.OnInitItem = function(slot0, slot1)
 			uv0:OnClickItemForSell(uv2)
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot2.calcPanel, function ()
+	onButton(slot0, slot2.reduceBtn, function ()
 		if uv0.mode == uv1.MODE_EDIT then
 			uv0:UpdateSellPrice(uv2, -1)
 		end
@@ -362,6 +388,11 @@ slot0.OnInitItem = function(slot0, slot1)
 
 		uv0:UpdateSellPrice(uv1, tonumber(slot0) - uv0.values[slot1])
 	end)
+	pressPersistTrigger(slot2.calcPanel, 0.5, function ()
+		if uv0.mode == uv1.MODE_EDIT then
+			uv0:UpdateSellPrice(uv2, 1)
+		end
+	end, nil, true, true, 0.1, SFX_PANEL)
 
 	slot0.cards[slot1] = slot2
 end
@@ -390,6 +421,52 @@ slot0.OnClickItemForSell = function(slot0, slot1)
 	slot0:UpdateSellPrice(slot1, 1)
 end
 
+slot0._IsSelAll = function(slot0)
+	for slot4, slot5 in ipairs(slot0.values) do
+		if slot5 ~= slot0.displays[slot4]:GetCount() then
+			return false
+		end
+	end
+
+	return true
+end
+
+slot0.CheckSelAllFlag = function(slot0)
+	slot0.selAllFlag = slot0:_IsSelAll()
+
+	setActive(slot0.sellAllFlagTF, slot0.selAllFlag)
+end
+
+slot0.UpdataSelAll = function(slot0)
+	slot0.values = {}
+
+	for slot4, slot5 in ipairs(slot0.displays) do
+		slot0.values[slot4] = slot5:GetCount()
+	end
+
+	slot0.scrollRect:SetTotalCount(#slot0.displays, -1)
+
+	slot1 = 0
+
+	for slot5, slot6 in ipairs(slot0.values) do
+		slot1 = slot0.displays[slot5]:GetConvertPt() * slot6 + slot1
+	end
+
+	slot0.sellPriceTxt.text = "x " .. slot1
+	slot0.selAllFlag = true
+
+	setActive(slot0.sellAllFlagTF, slot0.selAllFlag)
+end
+
+slot0.UpdataUnselAll = function(slot0)
+	slot0:SetTotalCount()
+
+	slot0.sellPriceTxt.text = "x 0"
+	slot0.selAllFlag = false
+
+	setActive(slot0.sellAllFlagTF, slot0.selAllFlag)
+end
+
 slot0.UpdateSellPrice = function(slot0, slot1, slot2)
 	if not table.indexof(slot0.displays, slot1.item) then
 		return
@@ -409,6 +486,8 @@ slot0.UpdateSellPrice = function(slot0, slot1, slot2)
 	end
 
 	slot0.sellPriceTxt.text = "x " .. slot5
+
+	slot0:CheckSelAllFlag()
 end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)

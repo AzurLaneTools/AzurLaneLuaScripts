@@ -2,11 +2,6 @@ pg = pg or {}
 pg.island_shop_goods = setmetatable({
 	__name = "island_shop_goods",
 	all = {
-		103000,
-		103001,
-		103002,
-		103003,
-		103004,
 		10000,
 		10001,
 		10002,
@@ -66,12 +61,68 @@ pg.island_shop_goods = setmetatable({
 		10056,
 		10057,
 		10058,
-		4600001,
-		4600002,
-		4600003,
-		471070301,
-		473120101,
-		471051701,
+		10102,
+		10103,
+		10104,
+		10105,
+		10106,
+		10107,
+		10108,
+		10109,
+		10110,
+		10111,
+		10112,
+		10113,
+		10114,
+		10115,
+		10116,
+		10117,
+		10118,
+		10119,
+		10120,
+		10121,
+		10122,
+		10123,
+		10124,
+		10125,
+		10126,
+		10127,
+		10128,
+		10129,
+		10130,
+		10131,
+		10132,
+		10133,
+		10134,
+		10135,
+		10136,
+		10137,
+		10138,
+		10139,
+		10140,
+		10141,
+		10142,
+		10143,
+		10144,
+		10145,
+		10146,
+		10147,
+		10148,
+		10149,
+		10150,
+		10151,
+		10152,
+		10153,
+		10154,
+		10155,
+		10156,
+		10157,
+		10158,
+		103000,
+		103001,
+		103002,
+		103003,
+		103004,
 		411000,
 		411001,
 		411002,
@@ -97,218 +148,19 @@ pg.island_shop_goods = setmetatable({
 		411023,
 		411024,
 		412000,
+		4600001,
+		4600002,
+		4600003,
 		5010001,
 		5020001,
-		5030001
+		5030001,
+		471070301,
+		473120101,
+		471051701
 	}
 }, confHX)
 pg.base = pg.base or {}
 pg.base.island_shop_goods = {
-	[103000] = {
-		goods_have = 0,
-		items_model = "",
-		goods_detail_type = 1,
-		groups_detail_type = "",
-		limited_num = 0,
-		unlock = "",
-		goods_name = "Clucky Clucky Bird Feed",
-		desc = "Feed for the Clucky Clucky Bird. Made by processing wheat.",
-		pt_award = 0,
-		icon = "IslandProps/item_3000",
-		pay_id = 0,
-		time = "always",
-		remian_show = 0,
-		have_show = 0,
-		discount = 0,
-		limited_show = 0,
-		id = 103000,
-		weight = 0,
-		discount_time = "",
-		model_param = {
-			{
-				0,
-				0
-			},
-			0,
-			1
-		},
-		resource_consume = {
-			41,
-			2000,
-			30
-		},
-		items = {
-			{
-				41,
-				3000,
-				10
-			}
-		}
-	},
-	[103001] = {
-		goods_have = 0,
-		items_model = "",
-		goods_detail_type = 1,
-		groups_detail_type = "",
-		limited_num = 0,
-		unlock = "",
-		goods_name = "Oinky Oinky Pig Feed",
-		desc = "Feed for the Oinky Oinky Pig. Made by processing corn.",
-		pt_award = 0,
-		icon = "IslandProps/item_3001",
-		pay_id = 0,
-		time = "always",
-		remian_show = 0,
-		have_show = 0,
-		discount = 0,
-		limited_show = 0,
-		id = 103001,
-		weight = 0,
-		discount_time = "",
-		model_param = {
-			{
-				0,
-				0
-			},
-			0,
-			1
-		},
-		resource_consume = {
-			41,
-			2001,
-			30
-		},
-		items = {
-			{
-				41,
-				3001,
-				10
-			}
-		}
-	},
-	[103002] = {
-		goods_have = 0,
-		items_model = "",
-		goods_detail_type = 1,
-		groups_detail_type = "",
-		limited_num = 0,
-		unlock = "",
-		goods_name = "Moo Moo Cow Feed",
-		desc = "Feed for the Moo Moo Cow. Made by processing grass.",
-		pt_award = 0,
-		icon = "IslandProps/item_3002",
-		pay_id = 0,
-		time = "always",
-		remian_show = 0,
-		have_show = 0,
-		discount = 0,
-		limited_show = 0,
-		id = 103002,
-		weight = 0,
-		discount_time = "",
-		model_param = {
-			{
-				0,
-				0
-			},
-			0,
-			1
-		},
-		resource_consume = {
-			41,
-			2008,
-			30
-		},
-		items = {
-			{
-				41,
-				3002,
-				10
-			}
-		}
-	},
-	[103003] = {
-		goods_have = 0,
-		items_model = "",
-		goods_detail_type = 1,
-		groups_detail_type = "",
-		limited_num = 0,
-		unlock = "",
-		goods_name = "Baa Baa Sheep Feed",
-		desc = "Feed for the Baa Baa Sheep. Made by processing grass.",
-		pt_award = 0,
-		icon = "IslandProps/item_3003",
-		pay_id = 0,
-		time = "always",
-		remian_show = 0,
-		have_show = 0,
-		discount = 0,
-		limited_show = 0,
-		id = 103003,
-		weight = 0,
-		discount_time = "",
-		model_param = {
-			{
-				0,
-				0
-			},
-			0,
-			1
-		},
-		resource_consume = {
-			41,
-			2008,
-			30
-		},
-		items = {
-			{
-				41,
-				3003,
-				10
-			}
-		}
-	},
-	[103004] = {
-		goods_have = 0,
-		items_model = "",
-		goods_detail_type = 1,
-		groups_detail_type = "",
-		limited_num = 0,
-		unlock = "",
-		goods_name = "Flour",
-		desc = "Flour made from ground wheat.",
-		pt_award = 0,
-		icon = "IslandProps/item_3004",
-		pay_id = 0,
-		time = "always",
-		remian_show = 0,
-		have_show = 0,
-		discount = 0,
-		limited_show = 0,
-		id = 103004,
-		weight = 0,
-		discount_time = "",
-		model_param = {
-			{
-				0,
-				0
-			},
-			0,
-			1
-		},
-		resource_consume = {
-			41,
-			2000,
-			6
-		},
-		items = {
-			{
-				41,
-				3004,
-				1
-			}
-		}
-	},
 	[10000] = {
 		goods_have = 0,
 		items_model = "",
@@ -323,7 +175,7 @@ pg.base.island_shop_goods = {
 		pay_id = 0,
 		time = "always",
 		remian_show = 1,
-		have_show = 0,
+		have_show = 1,
 		discount = 0,
 		limited_show = 1,
 		id = 10000,
@@ -2728,147 +2580,24 @@ pg.base.island_shop_goods = {
 			}
 		}
 	},
-	[4600001] = {
+	[10102] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "Cotton Candy Clouds",
-		desc = "Purchase to receive Cotton Candy Clouds, a floating character outfit.",
-		pt_award = 0,
-		icon = "IslandDressIcon/dress_2020001",
-		pay_id = 0,
-		time = "always",
-		remian_show = 1,
-		have_show = 0,
-		discount = 0,
-		limited_show = 0,
-		id = 4600001,
-		weight = 0,
-		discount_time = "",
-		model_param = {
-			{
-				0,
-				0
-			},
-			0,
-			1
-		},
-		resource_consume = {
-			1,
-			14,
-			200
-		},
-		items = {
-			{
-				46,
-				2020001,
-				1
-			}
-		}
-	},
-	[4600002] = {
-		goods_have = 0,
-		items_model = "",
-		goods_detail_type = 2,
-		groups_detail_type = "",
-		limited_num = 1,
-		unlock = "",
-		goods_name = "Trail of Dancing Cherry Blossoms",
-		desc = "Purchase to receive Trail of Dancing Cherry Blossoms, a character outfit that goes in the trail slot.",
-		pt_award = 0,
-		icon = "IslandDressIcon/dress_2030004",
-		pay_id = 0,
-		time = "always",
-		remian_show = 1,
-		have_show = 0,
-		discount = 0,
-		limited_show = 0,
-		id = 4600002,
-		weight = 0,
-		discount_time = "",
-		model_param = {
-			{
-				0,
-				0
-			},
-			0,
-			1
-		},
-		resource_consume = {
-			1,
-			14,
-			200
-		},
-		items = {
-			{
-				46,
-				2030004,
-				1
-			}
-		}
-	},
-	[4600003] = {
-		goods_have = 0,
-		items_model = "",
-		goods_detail_type = 2,
-		groups_detail_type = "",
-		limited_num = 1,
-		unlock = "",
-		goods_name = "Rocket Pack",
-		desc = "Purchase to receive Rocket Pack, a character outfit that goes on the back.",
-		pt_award = 0,
-		icon = "IslandDressIcon/dress_2010001",
-		pay_id = 0,
-		time = "always",
-		remian_show = 1,
-		have_show = 0,
-		discount = 0,
-		limited_show = 0,
-		id = 4600003,
-		weight = 0,
-		discount_time = "",
-		model_param = {
-			{
-				0,
-				0
-			},
-			0,
-			1
-		},
-		resource_consume = {
-			1,
-			14,
-			200
-		},
-		items = {
-			{
-				46,
-				2010001,
-				1
-			}
-		}
-	},
-	[471070301] = {
-		goods_have = 0,
-		items_model = "",
-		goods_detail_type = 4,
-		groups_detail_type = "",
-		limited_num = 1,
-		unlock = "",
-		goods_name = "Canvas Day",
-		desc = "Purchase to receive Canvas Day, an island costume for Saratoga.",
-		pt_award = 0,
-		icon = "IslandGoodsIcon/skin_1070301",
+		goods_name = "Hay Bale Shadow",
+		desc = "Purchase to receive Hay Bale Shadow, a floating Commander outfit.",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_1010007",
 		pay_id = 0,
 		time = "always",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
-		limited_show = 0,
-		id = 471070301,
+		limited_show = 1,
+		id = 10102,
 		weight = 0,
 		discount_time = "",
 		model_param = {
@@ -2880,36 +2609,36 @@ pg.base.island_shop_goods = {
 			1
 		},
 		resource_consume = {
+			41,
 			1,
-			14,
-			900
+			10000
 		},
 		items = {
 			{
-				47,
-				1070301,
+				46,
+				1010007,
 				1
 			}
 		}
 	},
-	[473120101] = {
+	[10103] = {
 		goods_have = 0,
 		items_model = "",
-		goods_detail_type = 4,
+		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "Night of the Empty Bell",
-		desc = "Purchase to receive Night of the Empty Bell, an island costume for Akashi.",
-		pt_award = 0,
-		icon = "IslandGoodsIcon/skin_3120101",
+		goods_name = "The Hero is Here",
+		desc = "The hero is here! Express your style and enthusiasm to the world.",
+		pt_award = 500,
+		icon = "IslandActionIcon/herocoming",
 		pay_id = 0,
 		time = "always",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
-		limited_show = 0,
-		id = 473120101,
+		limited_show = 1,
+		id = 10103,
 		weight = 0,
 		discount_time = "",
 		model_param = {
@@ -2921,36 +2650,36 @@ pg.base.island_shop_goods = {
 			1
 		},
 		resource_consume = {
+			41,
 			1,
-			14,
-			900
+			5000
 		},
 		items = {
 			{
-				47,
-				3120101,
+				51,
+				1013,
 				1
 			}
 		}
 	},
-	[471051701] = {
+	[10104] = {
 		goods_have = 0,
 		items_model = "",
-		goods_detail_type = 4,
+		goods_detail_type = 1,
 		groups_detail_type = "",
-		limited_num = 1,
+		limited_num = 10,
 		unlock = "",
-		goods_name = "Daily Steps",
-		desc = "Purchase to receive Daily Steps, an island costume for New Jersey.",
-		pt_award = 0,
-		icon = "IslandGoodsIcon/skin_1051701",
+		goods_name = "Stellar Tickets",
+		desc = "Tickets that glitter like the stars. Can be used to draw prizes in the Stellar Prize Draw.",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
 		time = "always",
 		remian_show = 1,
-		have_show = 1,
+		have_show = 0,
 		discount = 0,
-		limited_show = 0,
-		id = 471051701,
+		limited_show = 1,
+		id = 10104,
 		weight = 0,
 		discount_time = "",
 		model_param = {
@@ -2962,14 +2691,2433 @@ pg.base.island_shop_goods = {
 			1
 		},
 		resource_consume = {
+			41,
 			1,
-			14,
-			900
+			20000
 		},
 		items = {
 			{
-				47,
-				1051701,
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[10105] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Wheat",
+		desc = "Fresh wheat straight from the fields. The base ingredient needed to make flour.",
+		pt_award = 20,
+		icon = "IslandProps/item_2000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10105,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2000,
+				10
+			}
+		}
+	},
+	[10106] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Corn",
+		desc = "Ripe, golden corn. It lends a sweet smell to the fields.",
+		pt_award = 20,
+		icon = "IslandProps/item_2001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10106,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2001,
+				10
+			}
+		}
+	},
+	[10107] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Grass",
+		desc = "High-quality grass. Provides life in abundance to the farm!",
+		pt_award = 20,
+		icon = "IslandProps/item_2008",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10107,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2008,
+				10
+			}
+		}
+	},
+	[10108] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Rice",
+		desc = "White, high-quality rice. Contains plentiful starch and granular protein.",
+		pt_award = 20,
+		icon = "IslandProps/item_2002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10108,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2002,
+				10
+			}
+		}
+	},
+	[10109] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Napa Cabbage",
+		desc = "Crisp and delicious napa cabbage. It's straight from the farm!",
+		pt_award = 20,
+		icon = "IslandProps/item_2003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10109,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2003,
+				10
+			}
+		}
+	},
+	[10110] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Soy Beans",
+		desc = "Round, fluffy, and filled with protein. Has all sorts of uses, not just in cooking, but in manufacturing as well.",
+		pt_award = 20,
+		icon = "IslandProps/item_2006",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10110,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2006,
+				10
+			}
+		}
+	},
+	[10111] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Potato",
+		desc = "The king of starch in the vegetable world. Can be prepared in all kinds of ways.",
+		pt_award = 40,
+		icon = "IslandProps/item_2005",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10111,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			400
+		},
+		items = {
+			{
+				41,
+				2005,
+				10
+			}
+		}
+	},
+	[10112] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 25,
+		unlock = "",
+		goods_name = "Island EXP Textbook T1",
+		desc = "A book containing fundamental knowledge on island living. Used to slightly increase a character's Island EXP.",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10112,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	},
+	[10113] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Island EXP Textbook T2",
+		desc = "A book containing detailed knowledge on island living. Used to moderately increase a character's Island EXP.",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10113,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[10114] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Island EXP Textbook T3",
+		desc = "A book containing abundant knowledge on island living. Used to greatly increase a character's Island EXP.",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10114,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	},
+	[10115] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Production Textbook T1",
+		desc = "A book containing fundamental knowledge on production techniques. Used to slightly increase a character's Production stats.",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10115,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	},
+	[10116] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Production Textbook T2",
+		desc = "A book containing detailed knowledge on production techniques. Used to moderately increase a character's Production stats.",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10116,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	},
+	[10117] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 6,
+		unlock = "",
+		goods_name = "Production Textbook T3",
+		desc = "A book containing abundant knowledge on production techniques. Used to greatly increase a character's Production stats.",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10117,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	},
+	[10118] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Island Development Gem",
+		desc = "A crystal of island development experience. Required to Limit Break characters.",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10118,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[10119] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Hardcover Book",
+		desc = "A hardcover book that smells of ink and sports a classic vibe. It's worthy of going on your table and being reread time and time again.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10119,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	},
+	[10120] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Bouquet",
+		desc = "A gorgeous, fresh bouquet. Its flowers are brimming with color and life, and they promise joy for the days to come.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10120,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	},
+	[10121] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Ceremonial Sword",
+		desc = "This ceremonial sword with a flowing silhouette gives off the cold brilliance of steel. It silently speaks of order and majesty.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10121,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	},
+	[10122] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Fluffy Stuffed Animal",
+		desc = "An adorable stuffed animal that's soft to the touch. Give it a hug, and its fluffy warmth and innocent smile will soften your heart.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10122,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	},
+	[10123] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Antique Ornament",
+		desc = "The sands of time have poured over this ornament, turning it into an elegant antique. Quietly, it lends an air of tranquility to a room.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10123,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	},
+	[10124] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Exquisite Accessory",
+		desc = "An accessory that, although understated, glimmers with exceptional craftsmanship. It adds just a little light to every moment of one's life.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10124,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	},
+	[10125] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Premium Perfume",
+		desc = "A wonderfully pure aroma hides inside this modest flask. Just one spray of this fragrance brings out tones of refined class.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10125,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	},
+	[10126] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Game Console Set",
+		desc = "An entertainment system that will fill up every moment of your spare time. This thoughtful gift contains just about all the content you need for a fun play session.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10126,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	},
+	[10127] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "Stellar Tickets",
+		desc = "Tickets that glitter like the stars. Can be used to draw prizes in the Stellar Prize Draw.",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10127,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[10128] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 25,
+		unlock = "",
+		goods_name = "Island EXP Textbook T1",
+		desc = "A book containing fundamental knowledge on island living. Used to slightly increase a character's Island EXP.",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10128,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	},
+	[10129] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "Island EXP Textbook T2",
+		desc = "A book containing detailed knowledge on island living. Used to moderately increase a character's Island EXP.",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10129,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[10130] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Island EXP Textbook T3",
+		desc = "A book containing abundant knowledge on island living. Used to greatly increase a character's Island EXP.",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10130,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	},
+	[10131] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Production Textbook T1",
+		desc = "A book containing fundamental knowledge on production techniques. Used to slightly increase a character's Production stats.",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10131,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	},
+	[10132] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Production Textbook T2",
+		desc = "A book containing detailed knowledge on production techniques. Used to moderately increase a character's Production stats.",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10132,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	},
+	[10133] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 8,
+		unlock = "",
+		goods_name = "Production Textbook T3",
+		desc = "A book containing abundant knowledge on production techniques. Used to greatly increase a character's Production stats.",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10133,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	},
+	[10134] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 3,
+		unlock = "",
+		goods_name = "Island Development Gem",
+		desc = "A crystal of island development experience. Required to Limit Break characters.",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10134,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[10135] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Hardcover Book",
+		desc = "A hardcover book that smells of ink and sports a classic vibe. It's worthy of going on your table and being reread time and time again.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10135,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	},
+	[10136] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Bouquet",
+		desc = "A gorgeous, fresh bouquet. Its flowers are brimming with color and life, and they promise joy for the days to come.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10136,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	},
+	[10137] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Ceremonial Sword",
+		desc = "This ceremonial sword with a flowing silhouette gives off the cold brilliance of steel. It silently speaks of order and majesty.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10137,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	},
+	[10138] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Fluffy Stuffed Animal",
+		desc = "An adorable stuffed animal that's soft to the touch. Give it a hug, and its fluffy warmth and innocent smile will soften your heart.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10138,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	},
+	[10139] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Antique Ornament",
+		desc = "The sands of time have poured over this ornament, turning it into an elegant antique. Quietly, it lends an air of tranquility to a room.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10139,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	},
+	[10140] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Exquisite Accessory",
+		desc = "An accessory that, although understated, glimmers with exceptional craftsmanship. It adds just a little light to every moment of one's life.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10140,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	},
+	[10141] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Premium Perfume",
+		desc = "A wonderfully pure aroma hides inside this modest flask. Just one spray of this fragrance brings out tones of refined class.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10141,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	},
+	[10142] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "Game Console Set",
+		desc = "An entertainment system that will fill up every moment of your spare time. This thoughtful gift contains just about all the content you need for a fun play session.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10142,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	},
+	[10143] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "Stellar Tickets",
+		desc = "Tickets that glitter like the stars. Can be used to draw prizes in the Stellar Prize Draw.",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10143,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[10144] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 50,
+		unlock = "",
+		goods_name = "Island EXP Textbook T1",
+		desc = "A book containing fundamental knowledge on island living. Used to slightly increase a character's Island EXP.",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10144,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	},
+	[10145] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 15,
+		unlock = "",
+		goods_name = "Island EXP Textbook T2",
+		desc = "A book containing detailed knowledge on island living. Used to moderately increase a character's Island EXP.",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10145,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[10146] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "Island EXP Textbook T3",
+		desc = "A book containing abundant knowledge on island living. Used to greatly increase a character's Island EXP.",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10146,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	},
+	[10147] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "Production Textbook T1",
+		desc = "A book containing fundamental knowledge on production techniques. Used to slightly increase a character's Production stats.",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10147,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	},
+	[10148] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "Production Textbook T2",
+		desc = "A book containing detailed knowledge on production techniques. Used to moderately increase a character's Production stats.",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10148,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	},
+	[10149] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "Production Textbook T3",
+		desc = "A book containing abundant knowledge on production techniques. Used to greatly increase a character's Production stats.",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10149,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	},
+	[10150] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "Island Development Gem",
+		desc = "A crystal of island development experience. Required to Limit Break characters.",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10150,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[10151] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "Hardcover Book",
+		desc = "A hardcover book that smells of ink and sports a classic vibe. It's worthy of going on your table and being reread time and time again.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10151,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	},
+	[10152] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "Bouquet",
+		desc = "A gorgeous, fresh bouquet. Its flowers are brimming with color and life, and they promise joy for the days to come.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10152,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	},
+	[10153] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "Ceremonial Sword",
+		desc = "This ceremonial sword with a flowing silhouette gives off the cold brilliance of steel. It silently speaks of order and majesty.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10153,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	},
+	[10154] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "Fluffy Stuffed Animal",
+		desc = "An adorable stuffed animal that's soft to the touch. Give it a hug, and its fluffy warmth and innocent smile will soften your heart.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10154,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	},
+	[10155] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "Antique Ornament",
+		desc = "The sands of time have poured over this ornament, turning it into an elegant antique. Quietly, it lends an air of tranquility to a room.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10155,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	},
+	[10156] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "Exquisite Accessory",
+		desc = "An accessory that, although understated, glimmers with exceptional craftsmanship. It adds just a little light to every moment of one's life.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10156,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	},
+	[10157] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "Premium Perfume",
+		desc = "A wonderfully pure aroma hides inside this modest flask. Just one spray of this fragrance brings out tones of refined class.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10157,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	},
+	[10158] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "Game Console Set",
+		desc = "An entertainment system that will fill up every moment of your spare time. This thoughtful gift contains just about all the content you need for a fun play session.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10158,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	},
+	[103000] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 0,
+		unlock = "",
+		goods_name = "Clucky Clucky Bird Feed",
+		desc = "Feed for the Clucky Clucky Bird. Made by processing wheat.",
+		pt_award = 0,
+		icon = "IslandProps/item_3000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 103000,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			2000,
+			30
+		},
+		items = {
+			{
+				41,
+				3000,
+				10
+			}
+		}
+	},
+	[103001] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 0,
+		unlock = "",
+		goods_name = "Oinky Oinky Pig Feed",
+		desc = "Feed for the Oinky Oinky Pig. Made by processing corn.",
+		pt_award = 0,
+		icon = "IslandProps/item_3001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 103001,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			2001,
+			30
+		},
+		items = {
+			{
+				41,
+				3001,
+				10
+			}
+		}
+	},
+	[103002] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 0,
+		unlock = "",
+		goods_name = "Moo Moo Cow Feed",
+		desc = "Feed for the Moo Moo Cow. Made by processing grass.",
+		pt_award = 0,
+		icon = "IslandProps/item_3002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 103002,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			2008,
+			30
+		},
+		items = {
+			{
+				41,
+				3002,
+				10
+			}
+		}
+	},
+	[103003] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 0,
+		unlock = "",
+		goods_name = "Baa Baa Sheep Feed",
+		desc = "Feed for the Baa Baa Sheep. Made by processing grass.",
+		pt_award = 0,
+		icon = "IslandProps/item_3003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 103003,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			2008,
+			30
+		},
+		items = {
+			{
+				41,
+				3003,
+				10
+			}
+		}
+	},
+	[103004] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 0,
+		unlock = "",
+		goods_name = "Flour",
+		desc = "Flour made from ground wheat.",
+		pt_award = 0,
+		icon = "IslandProps/item_3004",
+		pay_id = 0,
+		time = "always",
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 103004,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			2000,
+			6
+		},
+		items = {
+			{
+				41,
+				3004,
 				1
 			}
 		}
@@ -3971,8 +6119,8 @@ pg.base.island_shop_goods = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4037,8 +6185,8 @@ pg.base.island_shop_goods = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4085,6 +6233,129 @@ pg.base.island_shop_goods = {
 			{
 				41,
 				3,
+				1
+			}
+		}
+	},
+	[4600001] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Cotton Candy Clouds",
+		desc = "Purchase to receive Cotton Candy Clouds, a floating character outfit.",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2020001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4600001,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2020001,
+				1
+			}
+		}
+	},
+	[4600002] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Trail of Dancing Cherry Blossoms",
+		desc = "Purchase to receive Trail of Dancing Cherry Blossoms, a character outfit that goes in the trail slot.",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2030004",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4600002,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2030004,
+				1
+			}
+		}
+	},
+	[4600003] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Rocket Pack",
+		desc = "Purchase to receive Rocket Pack, a character outfit that goes on the back.",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2010001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4600003,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2010001,
 				1
 			}
 		}
@@ -4144,8 +6415,8 @@ pg.base.island_shop_goods = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4210,8 +6481,8 @@ pg.base.island_shop_goods = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4276,14 +6547,137 @@ pg.base.island_shop_goods = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
 					0,
 					0
 				}
+			}
+		}
+	},
+	[471070301] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Canvas Day",
+		desc = "Purchase to receive Canvas Day, an island costume for Saratoga.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_1070301",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 471070301,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			900
+		},
+		items = {
+			{
+				47,
+				1070301,
+				1
+			}
+		}
+	},
+	[473120101] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Night of the Empty Bell",
+		desc = "Purchase to receive Night of the Empty Bell, an island costume for Akashi.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_3120101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 473120101,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			900
+		},
+		items = {
+			{
+				47,
+				3120101,
+				1
+			}
+		}
+	},
+	[471051701] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Daily Steps",
+		desc = "Purchase to receive Daily Steps, an island costume for New Jersey.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_1051701",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 471051701,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			900
+		},
+		items = {
+			{
+				47,
+				1051701,
+				1
 			}
 		}
 	}

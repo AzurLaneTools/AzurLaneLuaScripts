@@ -10,6 +10,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.timeTxt = slot0._tf:Find("time/Text"):GetComponent(typeof(Text))
 
 	slot0:UpdateUseItemStyle(WorldBossConst.GetCurrBossGroup() or "")
+
+	slot0.simulateBtn = slot0._tf:Find("simulate_btn")
 end
 
 slot0.OnInit = function(slot0)
@@ -19,6 +21,19 @@ slot0.OnInit = function(slot0)
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.world_boss_help_meta.tip
 		})
+	end, SFX_PANEL)
+	setActive(slot0.simulateBtn, true)
+	onButton(slot0, slot0.simulateBtn, function ()
+		slot0 = uv0
+
+		slot0:emit(WorldBossMediator.ON_UPDATE_BOSS_INFO, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("meta_simulated_btn", nowWorld():GetBossProxy().currentBossLV),
+				onYes = function ()
+					uv0:emit(WorldBossMediator.ON_BATTLE, WorldBossConst.GetCurrBossID(), nil, 1, true)
+				end
+			})
+		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.progressTr, function ()
 		slot0 = WorldBossConst.GetCurrBossItemInfo()

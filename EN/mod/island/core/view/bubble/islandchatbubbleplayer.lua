@@ -6,7 +6,8 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.tpl = slot1
 	slot0.role = slot2
 	slot0.contentTr = slot0.tpl.transform:Find("content")
-	slot0.emojiTr = slot0.tpl.transform:Find("face")
+	slot0.emojiContainer = slot0.tpl.transform:Find("face")
+	slot0.expressionContainer = slot0.tpl.transform:Find("expression")
 	slot0.contentTxt = slot0.contentTr:Find("Text"):GetComponent("RichText")
 	slot0.isPlaying = false
 	slot0.canShowFlag = true
@@ -20,7 +21,7 @@ slot0.Play = function(slot0, slot1, slot2)
 
 	seriesAsync({
 		function (slot0)
-			uv0:ClearEmoji()
+			uv0:ClearEmojiAndExpressionEmoji()
 			uv0:ShowOrHide(true)
 			uv0:UpdateBubble(uv1, slot0)
 		end,
@@ -42,9 +43,11 @@ slot0.UpdateBubble = function(slot0, slot1, slot2)
 	slot0:PlayCharatorAnimation(slot1)
 
 	slot3 = slot1:ExistEmoji()
+	slot4 = slot1:GetEmojiType()
 
 	setActive(slot0.contentTr, not slot3)
-	setActive(slot0.emojiTr, slot3)
+	setActive(slot0.emojiContainer, slot3 and slot4 == BubbleStep.EMOJI_TYPE_CHAT)
+	setActive(slot0.expressionContainer, slot3 and slot4 == BubbleStep.EMOJI_TYPE_EXPRESSION)
 
 	if slot3 then
 		slot0:UpdateEmoji(slot1, slot2)
@@ -95,22 +98,32 @@ slot0.GetContent = function(slot0, slot1, slot2)
 end
 
 slot0.UpdateEmoji = function(slot0, slot1, slot2)
-	slot0:ClearEmoji()
+	slot0:ClearEmojiAndExpressionEmoji()
 
-	slot4 = pg.emoji_template[slot1:GetEmoji()]
-	slot5 = PoolMgr.GetInstance()
+	slot3, slot4 = slot1:GetEmoji()
 
-	slot5:GetPrefab("emoji/" .. slot4.pic, slot4.pic, true, function (slot0)
+	if slot4 == BubbleStep.EMOJI_TYPE_CHAT then
+		slot0:UpdateChatTypeEmoji(slot3, slot2)
+	elseif slot4 == BubbleStep.EMOJI_TYPE_EXPRESSION then
+		slot0:UpdateExpressionTypeEmoji(slot3, slot2)
+	end
+end
+
+slot0.UpdateChatTypeEmoji = function(slot0, slot1, slot2)
+	slot3 = pg.emoji_template[slot1]
+	slot4 = PoolMgr.GetInstance()
+
+	slot4:GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
 		if slot0:GetComponent("Animator") then
 			slot1.enabled = true
 		end
 
-		setParent(slot0, uv0.emojiTr, false)
+		setParent(slot0, uv0.emojiContainer, false)
 
 		if slot0:GetComponent(typeof(CriManaEffectUI)) or slot1 then
-			slot0.transform.localScale = Vector3(0.48, 0.48, 1)
+			slot0.transform.localScale = Vector3(0.72, 0.72, 1)
 		else
-			slot0.transform.localScale = Vector3(0.48, 0.48, 1)
+			slot0.transform.localScale = Vector3(0.72, 0.72, 1)
 		end
 
 		setAnchoredPosition3D(slot0, Vector3(0, 9, 0))
@@ -126,6 +139,29 @@ slot0.UpdateEmoji = function(slot0, slot1, slot2)
 
 		uv2()
 	end)
+end
+
+slot0.ClearExpressionEmoji = function(slot0)
+	if slot0.expressionTr then
+		Object.Destroy(slot0.expressionTr)
+
+		slot0.expressionTr = nil
+	end
+end
+
+slot0.UpdateExpressionTypeEmoji = function(slot0, slot1, slot2)
+	slot3 = ResourceMgr.Inst
+
+	slot3:getAssetAsync("Island/emoji/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot1 = Object.Instantiate(slot0)
+
+		setParent(slot1, uv0.expressionContainer, false)
+		setAnchoredPosition3D(slot1, Vector3(0, 9, 0))
+
+		uv0.expressionTr = slot1
+
+		uv1()
+	end), true, true)
 end
 
 slot0.ClearEmoji = function(slot0)
@@ -168,14 +204,14 @@ slot0.EneAction = function(slot0, slot1)
 	slot2, slot3 = slot1:GetHideType()
 
 	if slot2 == BubbleStep.HIDE_TYPE_IMMEDIATELY then
-		slot0:ClearEmoji()
+		slot0:ClearEmojiAndExpressionEmoji()
 		slot0:ShowOrHide(false)
 	elseif slot2 == BubbleStep.HIDE_TYPE_NEVER then
 		-- Nothing
 	elseif slot2 == BubbleStep.HIDE_TYPE_TIME then
 		slot0.timer = slot0:CreateDelayTimer(slot3, function ()
 			if not IsNil(uv0.tpl) then
-				uv0:ClearEmoji()
+				uv0:ClearEmojiAndExpressionEmoji()
 				uv0:ShowOrHide(false)
 			end
 		end)
@@ -190,9 +226,14 @@ slot0.RemnoveTimer = function(slot0)
 	end
 end
 
+slot0.ClearEmojiAndExpressionEmoji = function(slot0)
+	slot0:ClearEmoji()
+	slot0:ClearExpressionEmoji()
+end
+
 slot0.Stop = function(slot0)
 	slot0:RemnoveTimer()
-	slot0:ClearEmoji()
+	slot0:ClearEmojiAndExpressionEmoji()
 	slot0:ClearAnimation()
 	slot0:ShowOrHide(show)
 

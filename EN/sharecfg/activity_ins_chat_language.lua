@@ -6332,7 +6332,191 @@ pg.activity_ins_chat_language = setmetatable({
 		6329,
 		6330,
 		6331,
-		6332
+		6332,
+		6333,
+		6334,
+		6335,
+		6336,
+		6337,
+		6338,
+		6339,
+		6340,
+		6341,
+		6342,
+		6343,
+		6344,
+		6345,
+		6346,
+		6347,
+		6348,
+		6349,
+		6350,
+		6351,
+		6352,
+		6353,
+		6354,
+		6355,
+		6356,
+		6357,
+		6358,
+		6359,
+		6360,
+		6361,
+		6362,
+		6363,
+		6364,
+		6365,
+		6366,
+		6367,
+		6368,
+		6369,
+		6370,
+		6371,
+		6372,
+		6373,
+		6374,
+		6375,
+		6376,
+		6377,
+		6378,
+		6379,
+		6380,
+		6381,
+		6382,
+		6383,
+		6384,
+		6385,
+		6386,
+		6387,
+		6388,
+		6389,
+		6390,
+		6391,
+		6392,
+		6393,
+		6394,
+		6395,
+		6396,
+		6397,
+		6398,
+		6399,
+		6400,
+		6401,
+		6402,
+		6403,
+		6404,
+		6405,
+		6406,
+		6407,
+		6408,
+		6409,
+		6410,
+		6411,
+		6412,
+		6413,
+		6414,
+		6415,
+		6416,
+		6417,
+		6418,
+		6419,
+		6420,
+		6421,
+		6422,
+		6423,
+		6424,
+		6425,
+		6426,
+		6427,
+		6428,
+		6429,
+		6430,
+		6431,
+		6432,
+		6433,
+		6434,
+		6435,
+		6436,
+		6437,
+		6438,
+		6439,
+		6440,
+		6441,
+		6442,
+		6443,
+		6444,
+		6445,
+		6446,
+		6447,
+		6448,
+		6449,
+		6450,
+		6451,
+		6452,
+		6453,
+		6454,
+		6455,
+		6456,
+		6457,
+		6458,
+		6459,
+		6460,
+		6461,
+		6462,
+		6463,
+		6464,
+		6465,
+		6466,
+		6467,
+		6468,
+		6469,
+		6470,
+		6471,
+		6472,
+		6473,
+		6474,
+		6475,
+		6476,
+		6477,
+		6478,
+		6479,
+		6480,
+		6481,
+		6482,
+		6483,
+		6484,
+		6485,
+		6486,
+		6487,
+		6488,
+		6489,
+		6490,
+		6491,
+		6492,
+		6493,
+		6494,
+		6495,
+		6496,
+		6497,
+		6498,
+		6499,
+		6500,
+		6501,
+		6502,
+		6503,
+		6504,
+		6505,
+		6506,
+		6507,
+		6508,
+		6509,
+		6510,
+		6511,
+		6512,
+		6513,
+		6514,
+		6515,
+		6516
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -62706,5 +62890,1649 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 6332,
 		flag = 5
+	},
+	[6333] = {
+		param = "Yo Commander I need some help...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6333,
+		flag = 0
+	},
+	[6334] = {
+		param = "My communicator's been on all night just ringing nonstop!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6334,
+		flag = 0
+	},
+	[6335] = {
+		param = "I'm getting sooo many comments and dms it just never stops and I'm at my limit here!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6335,
+		flag = 0
+	},
+	[6336] = {
+		param = "I set up a counseling account on a whim and didn't expect it to blow tf up...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6336,
+		flag = 0
+	},
+	[6337] = {
+		param = "The heck am I supposed to do?",
+		ship_group = 10324,
+		type = 1,
+		id = 6337,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Prioritize important messages..."
+			},
+			{
+				2,
+				"Go from oldest to newest..."
+			}
+		}
+	},
+	[6338] = {
+		param = "You could prioritize the important messages.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6338,
+		flag = 1
+	},
+	[6339] = {
+		param = "How about going in the order of responding to the people who messaged you first?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6339,
+		flag = 2
+	},
+	[6340] = {
+		param = "Sure, that's one solution, but I'll be doing this forever with how many there are!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6340,
+		flag = 0
+	},
+	[6341] = {
+		param = "When I started out, I'd only get a dm every now and then.",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6341,
+		flag = 0
+	},
+	[6342] = {
+		param = "Then my account got some attention and my consultation requests started snowballing out of control!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6342,
+		flag = 0
+	},
+	[6343] = {
+		param = "Like I type really fast, and even I can't keep up!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6343,
+		flag = 0
+	},
+	[6344] = {
+		param = "But it's not like I can ghost ppl either since they confided in me...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6344,
+		flag = 0
+	},
+	[6345] = {
+		param = "Got any good ideas, Commander?",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6345,
+		flag = 0
+	},
+	[6346] = {
+		param = "Cause at this rate, I'm gonna be doing this...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6346,
+		flag = 0
+	},
+	[6347] = {
+		param = "5",
+		ship_group = 10324,
+		type = 4,
+		id = 6347,
+		flag = 0,
+		option = {
+			{
+				3,
+				"What kind of troubles do they have?"
+			}
+		}
+	},
+	[6348] = {
+		param = "What kind of troubles do they have?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6348,
+		flag = 3
+	},
+	[6349] = {
+		param = "I can't give you any concrete deets for obvious reasons, but it's basically like:",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6349,
+		flag = 3
+	},
+	[6350] = {
+		param = "\"What should I have for breakfast lunch and dinner?\"",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6350,
+		flag = 3
+	},
+	[6351] = {
+		param = "\"My sister's gonna be mad with me, how do I get out of that?\"",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6351,
+		flag = 3
+	},
+	[6352] = {
+		param = "Heh some people also have questions related to you, of course.",
+		ship_group = 10324,
+		type = 1,
+		id = 6352,
+		flag = 3,
+		option = {
+			{
+				4,
+				"I can relate to the food questions."
+			},
+			{
+				5,
+				"Family issues demand quick solutions."
+			},
+			{
+				6,
+				"That's really long..."
+			}
+		}
+	},
+	[6353] = {
+		param = "I can relate to the food questions.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6353,
+		flag = 4
+	},
+	[6354] = {
+		param = "Family issues demand quick solutions.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6354,
+		flag = 5
+	},
+	[6355] = {
+		param = "Wait, some were about me?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6355,
+		flag = 6
+	},
+	[6356] = {
+		param = "Ahaha yeah, you get the gist.",
+		ship_group = 10324,
+		type = 1,
+		id = 6356,
+		flag = 0,
+		option = {
+			{
+				7,
+				"To me, it sounds like..."
+			}
+		}
+	},
+	[6357] = {
+		param = "To me, it sounds like most of their problems stem from a lack of communication and advice.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6357,
+		flag = 7
+	},
+	[6358] = {
+		param = "Why not make a consultation bulletin board? Like sorting all the problems into categories and letting people discuss them with each other.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6358,
+		flag = 7
+	},
+	[6359] = {
+		param = "Ohh! I get what you mean!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6359,
+		flag = 7
+	},
+	[6360] = {
+		param = "Then they could work out straightforward issues among themselves and stuff!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6360,
+		flag = 7
+	},
+	[6361] = {
+		param = "And if someone's got something more serious then I can come in and help!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6361,
+		flag = 7
+	},
+	[6362] = {
+		param = "You're a genius, Commander!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6362,
+		flag = 7
+	},
+	[6363] = {
+		param = "But I've still not got enough responses to make a summary out of...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6363,
+		flag = 7
+	},
+	[6364] = {
+		param = "Guess I could make a questionnaire to get some direction on ppl's questions!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6364,
+		flag = 7
+	},
+	[6365] = {
+		param = "Yeah let's go with that!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6365,
+		flag = 7
+	},
+	[6366] = {
+		param = "Thanks for the help, Commander!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6366,
+		flag = 7
+	},
+	[6367] = {
+		param = "I made a questionnaire just for you, Commander!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6367,
+		flag = 0
+	},
+	[6368] = {
+		param = "Think you can fill it out when you've got time?",
+		ship_group = 10324,
+		type = 1,
+		id = 6368,
+		flag = 0,
+		option = {
+			{
+				1,
+				"A questionnaire just for me?"
+			}
+		}
+	},
+	[6369] = {
+		param = "A questionnaire just for me?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6369,
+		flag = 1
+	},
+	[6370] = {
+		param = "Is it the same one you mentioned a while back? Are you asking for some information about me?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6370,
+		flag = 1
+	},
+	[6371] = {
+		param = "Nah you're thinking of my consultation questionnaire.",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6371,
+		flag = 1
+	},
+	[6372] = {
+		param = "This is a special one made just for you specifically! Took quite some time to come up with the questions for it!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6372,
+		flag = 1
+	},
+	[6373] = {
+		param = "I changed the name of it several times too and the one I ultimately settled on is...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6373,
+		flag = 1
+	},
+	[6374] = {
+		param = "A Non-Compulsory Questionnaire Concerning Your Health This Week",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6374,
+		flag = 1
+	},
+	[6375] = {
+		param = "Sounds pretty interesting huh?",
+		ship_group = 10324,
+		type = 1,
+		id = 6375,
+		flag = 1,
+		option = {
+			{
+				2,
+				"That's really long..."
+			}
+		}
+	},
+	[6376] = {
+		param = "Did you make it really long on purpose?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6376,
+		flag = 2
+	},
+	[6377] = {
+		param = "Something tells me there aren't any proper questions in that questionnaire...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6377,
+		flag = 2
+	},
+	[6378] = {
+		param = "Hahah of course there are! I picked each and every one carefully.",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6378,
+		flag = 2
+	},
+	[6379] = {
+		param = "For example: do you think caffeine intake has any correlation with sleep quality and dreams?",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6379,
+		flag = 2
+	},
+	[6380] = {
+		param = "Or: do you think volleyball and baseball are good for your mental and physical health?",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6380,
+		flag = 2
+	},
+	[6381] = {
+		param = "Bam! All proper questions concerning sleep and health!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6381,
+		flag = 2
+	},
+	[6382] = {
+		param = "And there's about 100 more of those.",
+		ship_group = 10324,
+		type = 1,
+		id = 6382,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Could we do this more... efficiently?"
+			}
+		}
+	},
+	[6383] = {
+		param = "Could we do this more... efficiently?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6383,
+		flag = 3
+	},
+	[6384] = {
+		param = "Good point actually! Let's go with a few of the more important questions and have you answer those!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6384,
+		flag = 3
+	},
+	[6385] = {
+		param = "First question...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6385,
+		flag = 3
+	},
+	[6386] = {
+		param = "Do you feel that drinking coffee helps keep you awake?",
+		ship_group = 10324,
+		type = 1,
+		id = 6386,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Yes."
+			}
+		}
+	},
+	[6387] = {
+		param = "Yes.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6387,
+		flag = 4
+	},
+	[6388] = {
+		param = "Do you think that exercise can improve your physical strength?",
+		ship_group = 10324,
+		type = 1,
+		id = 6388,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Yes."
+			}
+		}
+	},
+	[6389] = {
+		param = "Yes.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6389,
+		flag = 5
+	},
+	[6390] = {
+		param = "Do you believe that baseball and volleyball are popular sports?",
+		ship_group = 10324,
+		type = 1,
+		id = 6390,
+		flag = 5,
+		option = {
+			{
+				6,
+				"Yes."
+			}
+		}
+	},
+	[6391] = {
+		param = "Yes.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6391,
+		flag = 6
+	},
+	[6392] = {
+		param = "Are gym uniforms your favorite kind of costume?",
+		ship_group = 10324,
+		type = 1,
+		id = 6392,
+		flag = 6,
+		option = {
+			{
+				7,
+				"Yes."
+			},
+			{
+				8,
+				"No."
+			}
+		}
+	},
+	[6393] = {
+		param = "Yes.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6393,
+		flag = 7
+	},
+	[6394] = {
+		param = "Wait, hang on!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6394,
+		flag = 7
+	},
+	[6395] = {
+		param = "Wait... hang on!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6395,
+		flag = 8
+	},
+	[6396] = {
+		param = "Ahaha I know what you're thinking rn.",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6396,
+		flag = 0
+	},
+	[6397] = {
+		param = "I just bought a new one yesterday so I'll wear it tomorrow.",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6397,
+		flag = 0
+	},
+	[6398] = {
+		param = "Knowing you you're gonna love it!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6398,
+		flag = 0
+	},
+	[6399] = {
+		param = "224",
+		ship_group = 10324,
+		option = "",
+		type = 4,
+		id = 6399,
+		flag = 0
+	},
+	[6400] = {
+		param = "Commander, you know what day it is tomorrow?",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6400,
+		flag = 0
+	},
+	[6401] = {
+		param = "Hint: it starts with a D!",
+		ship_group = 10324,
+		type = 1,
+		id = 6401,
+		flag = 0,
+		option = {
+			{
+				1,
+				"That's easy..."
+			}
+		}
+	},
+	[6402] = {
+		param = "Date day for us, right?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6402,
+		flag = 1
+	},
+	[6403] = {
+		param = "Don't think we've talked about where we're going yet.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6403,
+		flag = 1
+	},
+	[6404] = {
+		param = "Heh! That's cause the more excitement you build, the more impactful it is when you find out!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6404,
+		flag = 1
+	},
+	[6405] = {
+		param = "After many hours of hard work, I've finally finished an exercise plan for us!",
+		ship_group = 10324,
+		type = 1,
+		id = 6405,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Exercise?"
+			}
+		}
+	},
+	[6406] = {
+		param = "Exercise? So... Baseball? Volleyball? Some other activity entirely?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6406,
+		flag = 2
+	},
+	[6407] = {
+		param = "Bzzt! All wrong.",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6407,
+		flag = 2
+	},
+	[6408] = {
+		param = "No, the place we're going this time is...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6408,
+		flag = 2
+	},
+	[6409] = {
+		param = "The arcade!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6409,
+		flag = 2
+	},
+	[6410] = {
+		param = "32",
+		ship_group = 10324,
+		type = 4,
+		id = 6410,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Games count as exercise now?"
+			},
+			{
+				4,
+				"So, you can exercise at an arcade...?"
+			}
+		}
+	},
+	[6411] = {
+		param = "Games count as exercise now?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6411,
+		flag = 3
+	},
+	[6412] = {
+		param = "So, you can exercise at an arcade...?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6412,
+		flag = 4
+	},
+	[6413] = {
+		param = "They've got crane games dancing games and even the hottest VR titles.",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6413,
+		flag = 0
+	},
+	[6414] = {
+		param = "Then once we're done gaming let's hit up a restaurant famous for its home cooking!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6414,
+		flag = 0
+	},
+	[6415] = {
+		param = "A tasty bite right after some exercise sounds perfect am I right?",
+		ship_group = 10324,
+		type = 1,
+		id = 6415,
+		flag = 0,
+		option = {
+			{
+				5,
+				"I like the plan, don't get me wrong..."
+			}
+		}
+	},
+	[6416] = {
+		param = "I like the plan, don't get me wrong, but does it really qualify as exercise?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6416,
+		flag = 5
+	},
+	[6417] = {
+		param = "I mean, dancing games improve your reaction speed and flexibility.",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6417,
+		flag = 5
+	},
+	[6418] = {
+		param = "Crane games improve your hand-eye coordination and build concentration and patience.",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6418,
+		flag = 5
+	},
+	[6419] = {
+		param = "And VR games put your whole body to work!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6419,
+		flag = 5
+	},
+	[6420] = {
+		param = "But most important of all...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6420,
+		flag = 5
+	},
+	[6421] = {
+		param = "Being on a date with you raises my heart's bpm by double digits!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6421,
+		flag = 5
+	},
+	[6422] = {
+		param = "And anything that does that to your heart is good exercise in my book!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6422,
+		flag = 5
+	},
+	[6423] = {
+		param = "And that's why this date",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6423,
+		flag = 5
+	},
+	[6424] = {
+		param = "Oops, I mean...",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6424,
+		flag = 5
+	},
+	[6425] = {
+		param = "Why this exercise plan is 100% sound and proper!",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6425,
+		flag = 5
+	},
+	[6426] = {
+		param = "239",
+		ship_group = 10324,
+		option = "",
+		type = 4,
+		id = 6426,
+		flag = 5
+	},
+	[6427] = {
+		param = "Commander...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6427,
+		flag = 0
+	},
+	[6428] = {
+		param = "One is really annoyed by FleetChat's username character limit.",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6428,
+		flag = 0
+	},
+	[6429] = {
+		param = "One came up with the perfect username, but it's too long...",
+		ship_group = 80503,
+		type = 1,
+		id = 6429,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Oh yeah? What is it?"
+			}
+		}
+	},
+	[6430] = {
+		param = "Oh yeah? What is it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6430,
+		flag = 1
+	},
+	[6431] = {
+		param = "\"Sacrament of the Unified Orthodoxy, an Unreachable Dream, Guardian of the Holy See, the Commander's Noble Protecting Blade - Battleship Alsace\"",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6431,
+		flag = 1
+	},
+	[6432] = {
+		param = "It not only symbolizes the Orthodoxy's glory, but it also speaks to one's duty of protecting you.",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6432,
+		flag = 1
+	},
+	[6433] = {
+		param = "It's a wonderful name!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6433,
+		flag = 1
+	},
+	[6434] = {
+		param = "And yet it cuts off partway through...",
+		ship_group = 80503,
+		type = 1,
+		id = 6434,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Don't let it get you down."
+			},
+			{
+				3,
+				"There's always more than one solution."
+			}
+		}
+	},
+	[6435] = {
+		param = "Don't let it get you down. We can think of something else.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6435,
+		flag = 2
+	},
+	[6436] = {
+		param = "There's always more than one solution. We'll surely find one if we think about it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6436,
+		flag = 3
+	},
+	[6437] = {
+		param = "Think...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6437,
+		flag = 0
+	},
+	[6438] = {
+		param = "A solution just dawned upon this one!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6438,
+		flag = 0
+	},
+	[6439] = {
+		param = "Let us give it a try!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6439,
+		flag = 0
+	},
+	[6440] = {
+		param = "User \"Sacrament of the Unified Orthodoxy\" has entered the channel",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6440,
+		flag = 0
+	},
+	[6441] = {
+		param = "User \"an Unreachable Dream\" has entered the channel",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6441,
+		flag = 0
+	},
+	[6442] = {
+		param = "User \"Guardian of the Holy See\" has entered the channel",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6442,
+		flag = 0
+	},
+	[6443] = {
+		param = "User \"the Commander's Noble Protecting Blade\" has entered the channel",
+		ship_group = 1,
+		type = 5,
+		id = 6443,
+		flag = 0,
+		option = {
+			{
+				4,
+				"It's getting really crowded here..."
+			}
+		}
+	},
+	[6444] = {
+		param = "It's getting really crowded here for being a private channel...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6444,
+		flag = 4
+	},
+	[6445] = {
+		param = "There we are!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6445,
+		flag = 4
+	},
+	[6446] = {
+		param = "Now one needs only make a few more alt accounts and change their names.",
+		ship_group = 80503,
+		type = 1,
+		id = 6446,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Stick to just \"Alsace.\" It's cuter that way."
+			}
+		}
+	},
+	[6447] = {
+		param = "Stick to just \"Alsace.\" It's cuter that way.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6447,
+		flag = 5
+	},
+	[6448] = {
+		param = "Cute... You said I'm cute! CUTE!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6448,
+		flag = 5
+	},
+	[6449] = {
+		param = "36",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6449,
+		flag = 5
+	},
+	[6450] = {
+		param = "User \"Sacrament of the Unified Orthodoxy\" has left the channel",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6450,
+		flag = 5
+	},
+	[6451] = {
+		param = "User \"an Unreachable Dream\" has left the channel",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6451,
+		flag = 5
+	},
+	[6452] = {
+		param = "User \"Guardian of the Holy See\" has left the channel",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6452,
+		flag = 5
+	},
+	[6453] = {
+		param = "User \"the Commander's Noble Protecting Blade\" has left the channel",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6453,
+		flag = 5
+	},
+	[6454] = {
+		param = "Tell me more, Commander! Your cute girl is here and listening!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6454,
+		flag = 5
+	},
+	[6455] = {
+		param = "Greetings, Commander...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6455,
+		flag = 0
+	},
+	[6456] = {
+		param = "From the Sacrament of the Unified Orthodoxy, the cute Alsace.",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6456,
+		flag = 0
+	},
+	[6457] = {
+		param = "25",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6457,
+		flag = 0
+	},
+	[6458] = {
+		param = "Oh no! I let my inner voice leak out!",
+		ship_group = 80503,
+		type = 1,
+		id = 6458,
+		flag = 0,
+		option = {
+			{
+				1,
+				"You ARE extremely cute."
+			},
+			{
+				2,
+				"You're absolutely right about that."
+			}
+		}
+	},
+	[6459] = {
+		param = "You ARE extremely cute.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6459,
+		flag = 1
+	},
+	[6460] = {
+		param = "You're absolutely right about that.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6460,
+		flag = 2
+	},
+	[6461] = {
+		param = "Oh god... I can't... We just started chatting, and it's already getting hot...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6461,
+		flag = 0
+	},
+	[6462] = {
+		param = "Help, Commander, or I'm gonna lose it...",
+		ship_group = 80503,
+		type = 1,
+		id = 6462,
+		flag = 0,
+		option = {
+			{
+				3,
+				"Is your device overheating?"
+			}
+		}
+	},
+	[6463] = {
+		param = "Is your device overheating?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6463,
+		flag = 3
+	},
+	[6464] = {
+		param = "Try removing your case. It'll help with the heat.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6464,
+		flag = 3
+	},
+	[6465] = {
+		param = "Remove... my case? Right now?",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6465,
+		flag = 3
+	},
+	[6466] = {
+		param = "Okay, I'll give it a try... This might take a minute, so just hold on...",
+		ship_group = 80503,
+		type = 1,
+		id = 6466,
+		flag = 3,
+		option = {
+			{
+				4,
+				"So? Did it help?"
+			}
+		}
+	},
+	[6467] = {
+		param = "So? Did it help?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6467,
+		flag = 4
+	},
+	[6468] = {
+		param = "Well, the temperature did go down once I took it off...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6468,
+		flag = 4
+	},
+	[6469] = {
+		param = "But seeing your message now is making it go up again, and even more than last time...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6469,
+		flag = 4
+	},
+	[6470] = {
+		param = "I need help, Commander!",
+		ship_group = 80503,
+		type = 1,
+		id = 6470,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Just receiving a message raises the temp?"
+			}
+		}
+	},
+	[6471] = {
+		param = "Just receiving a message raises the temp? Sounds like a serious issue.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6471,
+		flag = 5
+	},
+	[6472] = {
+		param = "Doubt the in-built heat dissipation will be enough. You've gotta get some external cooling.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6472,
+		flag = 5
+	},
+	[6473] = {
+		param = "External... cooling?",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6473,
+		flag = 5
+	},
+	[6474] = {
+		param = "I get it! It just so happens I have something like that.",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6474,
+		flag = 5
+	},
+	[6475] = {
+		param = "Wait a minute, Commander. It'll be ready soon...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6475,
+		flag = 5
+	},
+	[6476] = {
+		param = "8",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6476,
+		flag = 5
+	},
+	[6477] = {
+		param = "Commander, I did as you asked and entered the external cooling device.",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6477,
+		flag = 5
+	},
+	[6478] = {
+		param = "It does work to an extent, but it still feels hot...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6478,
+		flag = 5
+	},
+	[6479] = {
+		param = "It only ever gets this bad when we chat with each other…",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6479,
+		flag = 5
+	},
+	[6480] = {
+		param = "Even my cooling liquid is on the brink of boiling...",
+		ship_group = 80503,
+		type = 1,
+		id = 6480,
+		flag = 5,
+		option = {
+			{
+				6,
+				"What is your \"cooling device\"?"
+			},
+			{
+				7,
+				"Where are you now?"
+			}
+		}
+	},
+	[6481] = {
+		param = "What is your \"cooling device\"?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6481,
+		flag = 6
+	},
+	[6482] = {
+		param = "Where are you now?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6482,
+		flag = 7
+	},
+	[6483] = {
+		param = "What? I did as you told me to...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6483,
+		flag = 0
+	},
+	[6484] = {
+		param = "I'm in my bath now, chatting with you...",
+		ship_group = 80503,
+		type = 1,
+		id = 6484,
+		flag = 0,
+		option = {
+			{
+				8,
+				"Oh..."
+			}
+		}
+	},
+	[6485] = {
+		param = "Oh...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6485,
+		flag = 8
+	},
+	[6486] = {
+		param = "This whole time, I thought it was your phone getting hot... This is another problem entirely...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6486,
+		flag = 8
+	},
+	[6487] = {
+		param = "41",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6487,
+		flag = 8
+	},
+	[6488] = {
+		param = "User \"Alsace\" has lost connection",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6488,
+		flag = 8
+	},
+	[6489] = {
+		param = "Commander! Do you have a moment?",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6489,
+		flag = 0
+	},
+	[6490] = {
+		param = "You see, one bought a new cellphone! According to Akashi, its thermal performance is outstanding.",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6490,
+		flag = 0
+	},
+	[6491] = {
+		param = "It surely won't break like the previous one did!",
+		ship_group = 80503,
+		type = 1,
+		id = 6491,
+		flag = 0,
+		option = {
+			{
+				1,
+				"So that's what happened?"
+			}
+		}
+	},
+	[6492] = {
+		param = "So that's why you disconnected earlier. Your phone broke.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6492,
+		flag = 1
+	},
+	[6493] = {
+		param = "That's so weird. Does your temperature go up from just chatting with me, even if we're not physically interacting?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6493,
+		flag = 1
+	},
+	[6494] = {
+		param = "Yes! It happens even through text.",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6494,
+		flag = 1
+	},
+	[6495] = {
+		param = "One knows the cause: it's your brainwaves, relentlessly shooting into this one's body!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6495,
+		flag = 1
+	},
+	[6496] = {
+		param = "Simply being aware that one is chatting with you makes one's emotion module warm to the touch...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6496,
+		flag = 1
+	},
+	[6497] = {
+		param = "62",
+		ship_group = 80503,
+		type = 4,
+		id = 6497,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Sounds kind of like..."
+			}
+		}
+	},
+	[6498] = {
+		param = "Sounds kind of like how a cellphone receives radio waves, doesn't it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6498,
+		flag = 2
+	},
+	[6499] = {
+		param = "Oh!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6499,
+		flag = 2
+	},
+	[6500] = {
+		param = "Maybe sending a message through the phone... can also transmit this one's brainwaves into your heart?!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6500,
+		flag = 2
+	},
+	[6501] = {
+		param = "It's worth a shot!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6501,
+		flag = 2
+	},
+	[6502] = {
+		param = "Transmitting one's brainwaves now!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6502,
+		flag = 2
+	},
+	[6503] = {
+		param = "[One wants to chat with you forever!]",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6503,
+		flag = 2
+	},
+	[6504] = {
+		param = "[One wants to be with you forever!]",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6504,
+		flag = 2
+	},
+	[6505] = {
+		param = "Did that work? Did it reach your heart?",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6505,
+		flag = 2
+	},
+	[6506] = {
+		param = "I sent you my brainwaves, my feelings...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6506,
+		flag = 2
+	},
+	[6507] = {
+		param = "But...",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6507,
+		flag = 2
+	},
+	[6508] = {
+		param = "My body still keeps getting hotter…",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6508,
+		flag = 2
+	},
+	[6509] = {
+		param = "My emotion module... feels like it's gonna explode...♡",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6509,
+		flag = 2
+	},
+	[6510] = {
+		param = "I need to amplify these burning hot feelings and send them to you!",
+		ship_group = 80503,
+		type = 1,
+		id = 6510,
+		flag = 2,
+		option = {
+			{
+				3,
+				"I'm getting them."
+			}
+		}
+	},
+	[6511] = {
+		param = "I'm getting them. They're making me wanna see you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6511,
+		flag = 3
+	},
+	[6512] = {
+		param = "315",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6512,
+		flag = 3
+	},
+	[6513] = {
+		param = "User \"Alsace\" has lost connection",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6513,
+		flag = 3
+	},
+	[6514] = {
+		param = "Connection restored",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6514,
+		flag = 3
+	},
+	[6515] = {
+		param = "Can I really... come see you?",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6515,
+		flag = 3
+	},
+	[6516] = {
+		param = "Then... I'll go! Right now!",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6516,
+		flag = 3
 	}
 }

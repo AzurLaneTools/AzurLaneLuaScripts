@@ -99,6 +99,24 @@ pg.island_storage_filter_template = {
 		res = "",
 		sort_id = 0
 	},
+	[10125] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "Sweetscent Orchard",
+		id = 10125,
+		res = "",
+		sort_id = 0
+	},
+	[10132] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "Newsprout Nursery",
+		id = 10132,
+		res = "",
+		sort_id = 0
+	},
 	[10126] = {
 		belong_filter_id = 1012,
 		filter_level = 3,
@@ -292,6 +310,8 @@ pg.island_storage_filter_template = {
 			10122,
 			10123,
 			10124,
+			10125,
+			10132,
 			10126,
 			10127,
 			10128,
@@ -332,6 +352,8 @@ pg.island_storage_filter_template = {
 		10122,
 		10123,
 		10124,
+		10125,
+		10132,
 		10126,
 		10127,
 		10128,

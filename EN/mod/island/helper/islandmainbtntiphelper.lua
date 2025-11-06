@@ -32,8 +32,12 @@ slot0.IsTip = function(slot0)
 end
 
 slot0.IsMapTip = function()
-	if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask() and tonumber(slot1:GetTraceParam()) then
-		return slot0:GetMapId() ~= pg.island_world_objects[slot3].mapId
+	if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask() and tonumber(slot1:GetTraceParam()) and slot0:GetMapId() ~= pg.island_world_objects[slot3].mapId then
+		return true
+	end
+
+	if slot0:GetTaskAgency():GetMainTraceTask() and tonumber(slot2:GetTraceParam()) and slot0:GetMapId() ~= pg.island_world_objects[slot4].mapId then
+		return true
 	end
 
 	return false
@@ -46,14 +50,8 @@ slot0.IsDeviceTip = function()
 		slot6 = pg.island_main_btns[slot5]
 		slot7 = slot6.btn_name
 
-		if slot0:HasAbility(slot6.ability_id) then
-			if slot7 == "book" then
-				if uv0.IsBookTipInDeviceBtn() then
-					return true
-				end
-			elseif uv0.IsTip(slot7) then
-				return true
-			end
+		if slot0:HasAbility(slot6.ability_id) and uv0.IsTip(slot7) then
+			return true
 		end
 	end
 
@@ -105,12 +103,6 @@ slot0.IsBookTip = function()
 		IslandIllustration.TYPES.CHAR,
 		IslandIllustration.TYPES.NPC,
 		IslandIllustration.TYPES.ITEM
-	})
-end
-
-slot0.IsBookTipInDeviceBtn = function()
-	return getProxy(IslandProxy):GetIsland():GetBookAgency():IsTipFromTypes({
-		IslandIllustration.TYPES.CHAR
 	})
 end
 

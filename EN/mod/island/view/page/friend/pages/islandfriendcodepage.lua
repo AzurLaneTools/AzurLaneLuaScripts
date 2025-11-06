@@ -73,7 +73,7 @@ slot0.RemoveCode = function(slot0, slot1)
 end
 
 slot0.SaveCodeList = function(slot0)
-	slot3 = PlayerPrefs.SetString("_ISLAND_CODE_" .. getProxy(PlayerProxy):getRawData().id, table.concat(slot0.frequentlyUsedList, ",#"))
+	slot3 = PlayerPrefs.SetString("_ISLAND_CODE_" .. getProxy(PlayerProxy):getRawData().id, table.concat(slot0.frequentlyUsedList, "#"))
 
 	PlayerPrefs.Save()
 end

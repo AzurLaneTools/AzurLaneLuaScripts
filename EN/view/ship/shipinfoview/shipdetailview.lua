@@ -27,55 +27,109 @@ end
 slot0.InitDetail = function(slot0)
 	slot0.mainPanel = slot0._parentTf.parent
 	slot0.detailPanel = slot0._tf
-	slot0.attrs = slot0.detailPanel:Find("attrs")
+	slot1 = slot0.detailPanel
+	slot0.attrs = slot1:Find("attrs")
 
 	setActive(slot0.attrs, false)
 
 	slot0.shipDetailLogicPanel = ShipDetailLogicPanel.New(slot0.attrs)
+	slot1 = slot0.shipDetailLogicPanel
 
-	slot0.shipDetailLogicPanel:attach(slot0)
+	slot1:attach(slot0)
 
-	slot0.equipments = slot0.detailPanel:Find("equipments")
-	slot0.equipmentsGrid = slot0.equipments:Find("equipments")
-	slot0.detailEquipmentTpl = slot0.equipments:Find("equipment_tpl")
-	slot0.emptyGridTpl = slot0.equipments:Find("empty_tpl")
-	slot0.showRecordBtn = slot0.equipments:Find("unload_all")
-	slot0.showQuickBtn = slot0.equipments:Find("quickButton")
-	slot0.showECodeShareBtn = slot0.equipments:Find("shareButton")
-	slot0.equipCodeBtn = slot0.equipments:Find("equip_code")
-	slot0.lockBtn = slot0.detailPanel:Find("lock_btn")
-	slot0.unlockBtn = slot0.detailPanel:Find("unlock_btn")
-	slot0.viewBtn = slot0.detailPanel:Find("view_btn")
-	slot0.evaluationBtn = slot0.detailPanel:Find("evaluation_btn")
-	slot0.profileBtn = slot0.detailPanel:Find("profile_btn")
-	slot0.fashionToggle = slot0.detailPanel:Find("fashion_toggle")
-	slot0.randomFlagToggle = slot0.detailPanel:Find("random_flag_toggle")
-	slot0.fashionTag = slot0.fashionToggle:Find("Tag")
-	slot0.commonTagToggle = slot0.detailPanel:Find("common_toggle")
-	slot0.spWeaponSlot = slot0.equipments:Find("SpSlot")
-	slot0.propertyIcons = slot0.detailPanel:Find("attrs/attrs/property/icons")
-	slot0.intimacyTF = slot0._tf:Find("intimacy")
+	slot1 = slot0.detailPanel
+	slot0.equipments = slot1:Find("equipments")
+	slot1 = slot0.equipments
+	slot0.equipmentsGrid = slot1:Find("equipments")
+	slot1 = slot0.equipments
+	slot0.detailEquipmentTpl = slot1:Find("equipment_tpl")
+	slot1 = slot0.equipments
+	slot0.emptyGridTpl = slot1:Find("empty_tpl")
+	slot1 = slot0.equipments
+	slot0.showRecordBtn = slot1:Find("unload_all")
+	slot1 = slot0.equipments
+	slot0.showQuickBtn = slot1:Find("quickButton")
+	slot1 = slot0.equipments
+	slot0.showECodeShareBtn = slot1:Find("shareButton")
+	slot1 = slot0.equipments
+	slot0.equipCodeBtn = slot1:Find("equip_code")
+	slot1 = slot0.detailPanel
+	slot0.lockBtn = slot1:Find("lock_btn")
+	slot1 = slot0.detailPanel
+	slot0.unlockBtn = slot1:Find("unlock_btn")
+	slot1 = slot0.detailPanel
+	slot0.viewBtn = slot1:Find("view_btn")
+	slot1 = slot0.detailPanel
+	slot0.evaluationBtn = slot1:Find("evaluation_btn")
+	slot1 = slot0.detailPanel
+	slot0.profileBtn = slot1:Find("profile_btn")
+	slot1 = slot0.detailPanel
+	slot0.fashionToggle = slot1:Find("fashion_toggle")
+	slot1 = slot0.detailPanel
+	slot0.randomFlagToggle = slot1:Find("random_flag_toggle")
+	slot1 = slot0.fashionToggle
+	slot0.fashionTag = slot1:Find("Tag")
+	slot1 = slot0.detailPanel
+	slot0.commonTagToggle = slot1:Find("common_toggle")
+	slot1 = slot0.equipments
+	slot0.spWeaponSlot = slot1:Find("SpSlot")
+	slot1 = slot0.detailPanel
+	slot0.propertyIcons = slot1:Find("attrs/attrs/property/icons")
+	slot1 = slot0._tf
+	slot0.intimacyTF = slot1:Find("intimacy")
 	slot0.updateItemTick = 0
-	slot0.quickPanel = slot0.detailPanel:Find("quick_panel")
-	slot0.equiping = slot0.quickPanel:Find("equiping")
-	slot0.fillter = slot0.quickPanel:Find("fillter")
-	slot0.selectTitle = slot0.quickPanel:Find("frame/selectTitle")
-	slot0.emptyTitle = slot0.quickPanel:Find("frame/emptyTitle")
-	slot0.list = slot0.quickPanel:Find("frame/container/Content"):GetComponent("LScrollRect")
+	slot1 = slot0.detailPanel
+	slot0.quickPanel = slot1:Find("quick_panel")
+	slot1 = slot0.quickPanel
+	slot0.equiping = slot1:Find("equiping")
+	slot1 = slot0.quickPanel
+	slot0.fillter = slot1:Find("fillter")
+	slot1 = slot0.quickPanel
+	slot0.selectTitle = slot1:Find("frame/selectTitle")
+	slot1 = slot0.quickPanel
+	slot0.emptyTitle = slot1:Find("frame/emptyTitle")
+	slot1 = slot0.quickPanel
+	slot1 = slot1:Find("frame/container/Content")
+	slot0.list = slot1:GetComponent("LScrollRect")
 	slot0.indexData = {}
 
 	slot0:CloseQuickPanel()
-	setText(slot0.quickPanel:Find("fillter/on/text2"), i18n("quick_equip_tip2"))
-	setText(slot0.quickPanel:Find("fillter/off/text2"), i18n("quick_equip_tip2"))
-	setText(slot0.quickPanel:Find("equiping/on/text2"), i18n("quick_equip_tip1"))
-	setText(slot0.quickPanel:Find("equiping/off/text2"), i18n("quick_equip_tip1"))
-	setText(slot0.quickPanel:Find("title/text"), i18n("quick_equip_tip3"))
-	setText(slot0.quickPanel:Find("frame/emptyTitle/text"), i18n("quick_equip_tip4"))
-	setText(slot0.quickPanel:Find("frame/selectTitle/text"), i18n("quick_equip_tip5"))
-	setText(slot0.randomFlagToggle:Find("bg/Text"), i18n("ship_random_secretary_tag"))
+
+	slot2 = slot0.quickPanel
+
+	setText(slot2:Find("fillter/on/text2"), i18n("quick_equip_tip2"))
+
+	slot2 = slot0.quickPanel
+
+	setText(slot2:Find("fillter/off/text2"), i18n("quick_equip_tip2"))
+
+	slot2 = slot0.quickPanel
+
+	setText(slot2:Find("equiping/on/text2"), i18n("quick_equip_tip1"))
+
+	slot2 = slot0.quickPanel
+
+	setText(slot2:Find("equiping/off/text2"), i18n("quick_equip_tip1"))
+
+	slot2 = slot0.quickPanel
+
+	setText(slot2:Find("title/text"), i18n("quick_equip_tip3"))
+
+	slot2 = slot0.quickPanel
+
+	setText(slot2:Find("frame/emptyTitle/text"), i18n("quick_equip_tip4"))
+
+	slot2 = slot0.quickPanel
+
+	setText(slot2:Find("frame/selectTitle/text"), i18n("quick_equip_tip5"))
+
+	slot2 = slot0.randomFlagToggle
+
+	setText(slot2:Find("bg/Text"), i18n("ship_random_secretary_tag"))
 
 	slot0.equipmentProxy = getProxy(EquipmentProxy)
-	slot0.recordPanel = slot0.detailPanel:Find("record_panel")
+	slot1 = slot0.detailPanel
+	slot0.recordPanel = slot1:Find("record_panel")
 	slot1 = slot0.recordPanel
 	slot0.unloadAllBtn = slot1:Find("frame/unload_all")
 	slot0.recordBars = _.map({
@@ -85,22 +139,40 @@ slot0.InitDetail = function(slot0)
 	}, function (slot0)
 		return uv0.recordPanel:Find("frame/container"):GetChild(slot0 - 1)
 	end)
+	slot2 = slot0.recordPanel
+	slot2 = slot0.recordPanel
+	slot2 = slot0.recordPanel
 	slot0.recordBtns = {
-		slot0.recordPanel:Find("frame/container/record_1/record_btn"),
-		slot0.recordPanel:Find("frame/container/record_2/record_btn"),
-		slot0.recordPanel:Find("frame/container/record_3/record_btn")
+		slot2:Find("frame/container/record_1/record_btn"),
+		slot2:Find("frame/container/record_2/record_btn"),
+		slot2:Find("frame/container/record_3/record_btn")
 	}
+	slot2 = slot0.recordPanel
+	slot2 = slot0.recordPanel
+	slot2 = slot0.recordPanel
 	slot0.recordEquipmentsTFs = {
-		slot0.recordPanel:Find("frame/container/record_1/equipments"),
-		slot0.recordPanel:Find("frame/container/record_2/equipments"),
-		slot0.recordPanel:Find("frame/container/record_3/equipments")
+		slot2:Find("frame/container/record_1/equipments"),
+		slot2:Find("frame/container/record_2/equipments"),
+		slot2:Find("frame/container/record_3/equipments")
 	}
+	slot2 = slot0.recordPanel
+	slot2 = slot0.recordPanel
+	slot2 = slot0.recordPanel
 	slot0.equipRecordBtns = {
-		slot0.recordPanel:Find("frame/container/record_1/equip_btn"),
-		slot0.recordPanel:Find("frame/container/record_2/equip_btn"),
-		slot0.recordPanel:Find("frame/container/record_3/equip_btn")
+		slot2:Find("frame/container/record_1/equip_btn"),
+		slot2:Find("frame/container/record_2/equip_btn"),
+		slot2:Find("frame/container/record_3/equip_btn")
 	}
+	slot1 = slot0.quickPanel
+	slot0.nameSearchInput = slot1:Find("serachPanel/search")
+	slot1 = slot0.nameSearchInput
+	slot0.nameSearchText = slot1:Find("holder")
 
+	setText(slot0.nameSearchText, i18n("search_equipment"))
+	setInputText(slot0.nameSearchInput, "")
+	onInputChanged(slot0, slot0.nameSearchInput, function ()
+		uv0:updateQuickPanel(true)
+	end)
 	setActive(slot0.detailPanel, true)
 	setActive(slot0.attrs, true)
 	setActive(slot0.recordPanel, false)
@@ -441,6 +513,8 @@ slot0.OnSelected = function(slot0, slot1)
 end
 
 slot0.UpdateUI = function(slot0)
+	setInputText(slot0.nameSearchInput, "")
+
 	slot1 = slot0:GetShipVO()
 
 	slot0:UpdateIntimacy(slot1)
@@ -656,37 +730,40 @@ slot0.getEquipments = function(slot0)
 	slot1 = getProxy(BayProxy)
 	slot2 = slot0:GetShipVO()
 	slot6 = getProxy(EquipmentProxy):getEquipmentsByFillter(slot2:getShipType(), pg.ship_data_template[slot2.configId]["equip_" .. slot0.selectedEquip.index])
+	slot7 = getInputText(slot0.nameSearchInput)
 
 	if slot0.equipingFlag then
-		slot10 = function(slot0, slot1)
+		slot11 = function(slot0, slot1)
 			return uv0.id ~= slot1 and not uv0:isForbiddenAtPos(slot0, uv1.selectedEquip.index)
 		end
 
-		for slot10, slot11 in ipairs(slot1:getEquipsInShips(slot10)) do
-			table.insert(slot6, slot11)
+		for slot11, slot12 in ipairs(slot1:getEquipsInShips(slot11)) do
+			if slot7 == "" or slot12:IsMatchKey(slot7) then
+				table.insert(slot6, slot12)
+			end
 		end
 	end
 
-	slot7 = {}
-	slot8 = {
+	slot8 = {}
+	slot9 = {
 		slot0.indexData.equipPropertyIndex,
 		slot0.indexData.equipPropertyIndex2
 	}
 
-	for slot12, slot13 in pairs(slot6) do
-		if slot0:checkFillter(slot13, slot8) then
-			table.insert(slot7, slot13)
+	for slot13, slot14 in pairs(slot6) do
+		if slot0:checkFillter(slot14, slot9) and (slot7 == "" or slot14:IsMatchKey(slot7)) then
+			table.insert(slot8, slot14)
 		end
 	end
 
-	_.each(slot7, function (slot0)
+	_.each(slot8, function (slot0)
 		if not uv0:canEquipAtPos(slot0, uv1.selectedEquip.index) then
 			slot0.mask = true
 		end
 	end)
-	table.sort(slot7, CompareFuncs(uv0.sortFunc(uv0.sort[1], false)))
+	table.sort(slot8, CompareFuncs(uv0.sortFunc(uv0.sort[1], false)))
 
-	return slot7
+	return slot8
 end
 
 slot0.checkFillter = function(slot0, slot1, slot2)
@@ -895,6 +972,7 @@ slot0.clearListener = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	triggerToggle(slot0.quickPanel:Find("serachPanel/Image"), true)
 	setParent(slot0.randomFlagToggle, slot0._tf)
 	slot0:clearListener()
 	removeAllChildren(slot0.equipmentsGrid)

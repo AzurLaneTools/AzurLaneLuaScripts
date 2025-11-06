@@ -432,7 +432,7 @@ slot0.OnShow = function(slot0, slot1)
 	if slot0.addDelegateFormulaTimes then
 		setActive(slot0.barLimit, true)
 
-		slot0.barLimit.sizeDelta = Vector2(slot0.addDelegateFormulaTimes / 5 * 352.6, 22)
+		slot0.barLimit.sizeDelta = Vector2(slot0.addDelegateFormulaTimes / (pg.island_formula[slot0.addDelegateFormula].production_limit or 5) * 352.6, 22)
 
 		setActive(slot0.addCountTips, true)
 	else
@@ -575,15 +575,22 @@ slot0.RefreshCurSelectCount = function(slot0)
 		slot3 = string.format("×(%s<color=#7df39f>+%d</color>)", slot0.formulaCfg.commission_product[1][2], slot4)
 	end
 
-	setText(slot0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), slot3)
+	setText(slot0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), slot3 .. i18n("island_production_tip"))
 
-	slot6 = 0
+	slot5, slot6 = slot0:CacaluteProductTime()
+	slot7 = 0
 
-	for slot10, slot11 in ipairs(slot0:CacaluteProductTime()) do
-		slot6 = slot6 + slot11
+	for slot11, slot12 in ipairs(slot5) do
+		slot7 = slot7 + slot12
 	end
 
-	setText(slot0.needTimeText, pg.TimeMgr.GetInstance():DescCDTime(slot6))
+	slot9 = pg.TimeMgr.GetInstance():DescCDTime(slot7)
+
+	if slot6 - slot7 > 0 then
+		slot9 = string.format("%s(<color=#7df39f>-%s</color>)", slot9, pg.TimeMgr.GetInstance():DescCDTime(slot8))
+	end
+
+	setText(slot0.needTimeText, slot9)
 end
 
 slot0.RefreshExtraProduct = function(slot0)
@@ -619,7 +626,7 @@ slot0.RefreshExtraProduct = function(slot0)
 		slot6 = string.format("×(%s<color=#7df39f>+%d</color>)", slot3, slot7)
 	end
 
-	setText(slot0.extraProductNum, slot6)
+	setText(slot0.extraProductNum, slot6 .. i18n("island_production_tip"))
 	setText(slot0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), curCountStr)
 
 	slot13 = slot0.formulaCfg.second_product[1]
@@ -639,7 +646,9 @@ slot0.RefreshExtraProduct = function(slot0)
 end
 
 slot0.CacaluteProductTime = function(slot0)
-	return IslandProductTimeHelper.CalculateTimeToProductFormula(slot0.selectedShipId, slot0.selectFormulaId, slot0.addDelegateFormulaTimes and slot0.curSelectCount - slot0.addDelegateFormulaTimes or slot0.curSelectCount, slot0.placeId, slot0.slotId)
+	slot1 = slot0.addDelegateFormulaTimes and slot0.curSelectCount - slot0.addDelegateFormulaTimes or slot0.curSelectCount
+
+	return IslandProductTimeHelper.CalculateTimeToProductFormula(slot0.selectedShipId, slot0.selectFormulaId, slot1, slot0.placeId, slot0.slotId), math.ceil(slot0.formulaCfg.workload / pg.island_set.base_efficiency.key_value_int) * slot1
 end
 
 slot0.CheckInPlace = function(slot0, slot1, slot2)

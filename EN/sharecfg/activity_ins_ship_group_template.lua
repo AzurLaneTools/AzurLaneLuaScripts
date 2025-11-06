@@ -1101,7 +1101,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Bremerton",
 		background = "",
 		sculpture = "bulaimodun",
-		nationality = 0,
+		nationality = 1,
 		type = 1
 	},
 	[10738] = {
@@ -3876,8 +3876,8 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 80503,
 		name = "Alsace",
 		background = "",
-		sculpture = "aersasi_3",
-		nationality = 0,
+		sculpture = "aersasi",
+		nationality = 8,
 		type = 1
 	},
 	[80302] = {

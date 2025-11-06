@@ -15,6 +15,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.cards = {}
 	slot0.loadUpPage = IslandShipOrderLoadUpPage.New(slot0._tf, slot0.event)
 	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
+	slot0.delegateBtn = slot0._tf:Find("frame/event_btn")
 	slot0.uilistAniamtion = slot0._tf:Find("frame/list"):GetComponent(typeof(Animation))
 
 	setText(slot0._tf:Find("frame/switch/on/Text"), i18n("island_order_ship_page_req"))
@@ -35,6 +36,9 @@ slot0.OnInit = function(slot0)
 			helps = pg.gametip.island_help_ship_order.tip
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0.delegateBtn, function ()
+		uv0:OpenPage(IslandShipOrderDelegatePage)
+	end, SFX_PANEL)
 	slot0:bind(uv0.EVENT_CLOSE_LOAD_UP, function ()
 		uv0:ClearSelected()
 	end)
@@ -49,6 +53,8 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
 	slot0:AddListener(GAME.ISLAND_REFRESH_SHIP_ORDER_DONE, slot0.OnRefreshOrder)
 	slot0:AddListener(IslandShipOrderCard.EVENT_CD_END, slot0.OnOrderReloadingEnd)
+	slot0:AddListener(GAME.ISLAND_EXCHANGE_SHIP_ORDER_DONE, slot0.OnExchangeShipOrderDone)
+	slot0:AddListener(GAME.ISLAND_RESET_SHIP_ORDER_DONE, slot0.OnResetShipOrderList)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -56,6 +62,19 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
 	slot0:RemoveListener(GAME.ISLAND_REFRESH_SHIP_ORDER_DONE, slot0.OnRefreshOrder)
 	slot0:RemoveListener(IslandShipOrderCard.EVENT_CD_END, slot0.OnOrderReloadingEnd)
+	slot0:RemoveListener(GAME.ISLAND_EXCHANGE_SHIP_ORDER_DONE, slot0.OnExchangeShipOrderDone)
+	slot0:RemoveListener(GAME.ISLAND_RESET_SHIP_ORDER_DONE, slot0.OnResetShipOrderList)
+end
+
+slot0.OnResetShipOrderList = function(slot0)
+	slot0:FlushSlots()
+end
+
+slot0.OnExchangeShipOrderDone = function(slot0, slot1)
+	slot0:OnRefreshOrder({
+		id = slot1.id
+	})
+	slot0:UpdateOnekeyBtns()
 end
 
 slot0.OnOrderReloadingEnd = function(slot0)
@@ -122,7 +141,7 @@ slot0.OnOrderUpdate = function(slot0, slot1)
 end
 
 slot0.OnUseTicketDone = function(slot0, slot1)
-	if slot1.type == IslandUseTicketCommand.TYPES.SHIP_ORDER or slot1.type == IslandUseTicketCommand.TYPES.SHIP_ORDER_RELOAD then
+	if slot1.type == IslandUseTicketCommand.TYPES.SHIP_ORDER then
 		slot2 = slot1.id
 		slot3 = nil
 
@@ -139,8 +158,9 @@ slot0.OnUseTicketDone = function(slot0, slot1)
 		end
 
 		slot3:Flush(slot3.slot, slot0.mode)
-		slot0:UpdateOnekeyBtns()
 	end
+
+	slot0:UpdateOnekeyBtns()
 end
 
 slot0.OnShow = function(slot0)
@@ -197,6 +217,7 @@ slot0.FlushSlots = function(slot0)
 	end)
 	slot0.uiSlots:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			print(uv0.displays[slot1 + 1].finishCnt, uv0.displays[slot1 + 1].nextRefreshFinishCntTime <= pg.TimeMgr.GetInstance():GetServerTime())
 			uv0:UpdateSlot(uv0.displays[slot1 + 1], slot2)
 		end
 	end)
@@ -207,15 +228,15 @@ end
 slot0.UpdateOnekeyBtns = function(slot0)
 	slot0.onekeySlots:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setActive(slot2:Find("btn"), uv0.displays[slot1 + 1]:IsWaiting() and not slot4:IsReloading())
+			setActive(slot2:Find("btn"), uv0.displays[slot1 + 1]:IsWaiting() and not slot4:IsEmpty())
 
-			slot5 = slot4:IsWaiting() and not slot4:GetOrder():AnyCanLoadUp()
+			slot5 = slot4:IsWaiting() and not slot4:GetOrder():AnyCanLoadUp() or not slot4:CanTransport()
 
 			setGray(slot3, slot5, true)
 
 			if not slot5 then
 				onButton(uv0, slot3, function ()
-					if uv0:IsReloading() then
+					if uv0:IsEmpty() then
 						return
 					end
 
@@ -242,23 +263,11 @@ slot0.UpdateSlot = function(slot0, slot1, slot2)
 	onButton(slot0, slot3.loadingRequest, function ()
 		uv0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.SHIP_ORDER, uv1.slot.id)
 	end, SFX_PANEL)
-	onButton(slot0, slot3.refreshBtn, function ()
-		if not uv0:CanRefresh() then
-			uv1:ShowMsgBox({
-				hideNo = true,
-				content = i18n("island_shiporder_refresh_tip1")
-			})
-		else
-			uv1:ShowMsgBox({
-				content = i18n("island_shiporder_refresh_tip2"),
-				onYes = function ()
-					uv0:emit(IslandMediator.REFRESH_SHIP_ORDER, uv1.slot.id)
-				end
-			})
-		end
+	onButton(slot0, slot3.exchangeBtn, function ()
+		uv0:OpenPage(IslandShipOrderDelegatePage, uv1.slot.id)
 	end, SFX_PANEL)
-	onButton(slot0, slot3.reloadingTr, function ()
-		uv0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.SHIP_ORDER_RELOAD, uv1.slot.id)
+	onButton(slot0, slot3.emptyTr, function ()
+		uv0:OpenPage(IslandShipOrderDelegatePage, uv1.slot.id)
 	end, SFX_PANEL)
 	onNextTick(function ()
 		uv0:RegisterCardEvent(uv1)

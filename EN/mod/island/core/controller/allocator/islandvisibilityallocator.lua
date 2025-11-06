@@ -51,52 +51,53 @@ slot0.ApplyCondition = function(slot0, slot1)
 
 	slot4 = slot0.controller.island:GetTaskAgency()
 	slot5 = slot4:GetTraceId()
-	slot6 = slot0:CollectAllTaskStatus(slot4)
-	slot7 = pg.NewStoryMgr.GetInstance():GetPlayedList()
-	slot8 = slot0.flags[slot1.id]
-	slot9 = slot0:GetCondition(slot6, slot7, slot5, slot2)
-	slot10 = slot0:GetCondition(slot6, slot7, slot5, slot3)
+	slot6 = slot4:GetMainTraceId()
+	slot7 = slot0:CollectAllTaskStatus(slot4)
+	slot8 = pg.NewStoryMgr.GetInstance():GetPlayedList()
+	slot9 = slot0.flags[slot1.id]
+	slot10 = slot0:GetCondition(slot7, slot8, slot5, slot6, slot2)
+	slot11 = slot0:GetCondition(slot7, slot8, slot5, slot6, slot3)
 
 	if #slot2 > 0 and #slot3 == 0 then
-		if slot9 then
-			slot8 = true
+		if slot10 then
+			slot9 = true
 		end
 	elseif #slot2 == 0 and #slot3 > 0 then
-		if slot10 then
-			slot8 = false
+		if slot11 then
+			slot9 = false
 		end
 	elseif #slot2 > 0 and #slot3 > 0 then
-		slot8 = slot0:SortCondition(slot1, slot5, slot9, slot10)
+		slot9 = slot0:SortCondition(slot1, slot5, slot6, slot10, slot11)
 	end
 
-	slot0.flags[slot1.id] = slot8
+	slot0.flags[slot1.id] = slot9
 end
 
-slot0.SortCondition = function(slot0, slot1, slot2, slot3, slot4)
-	if not slot3 and not slot4 then
+slot0.SortCondition = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	if not slot4 and not slot5 then
 		return false
-	elseif slot3 and not slot4 then
+	elseif slot4 and not slot5 then
 		return true
-	elseif not slot3 and slot4 then
+	elseif not slot4 and slot5 then
 		return false
 	end
 
-	if slot0:IsTaskType(slot3) and slot0:IsTaskType(slot4) then
-		return slot0:SortTaskCondition(slot2, slot3, slot4)
-	elseif slot0:IsStoryType(slot3) and slot0:IsStoryType(slot4) then
-		return slot0:SortStoryCondition(slot3, slot4)
-	elseif slot3[3] == slot4[3] then
-		if slot0:IsStoryType(slot3) then
+	if slot0:IsTaskType(slot4) and slot0:IsTaskType(slot5) then
+		return slot0:SortTaskCondition(slot2, slot3, slot4, slot5)
+	elseif slot0:IsStoryType(slot4) and slot0:IsStoryType(slot5) then
+		return slot0:SortStoryCondition(slot4, slot5)
+	elseif slot4[3] == slot5[3] then
+		if slot0:IsStoryType(slot4) then
 			return true
 		end
 
-		if slot0:IsStoryType(slot4) then
+		if slot0:IsStoryType(slot5) then
 			return false
 		end
 
 		return true
 	else
-		return slot4[3] < slot3[3]
+		return slot5[3] < slot4[3]
 	end
 end
 
@@ -117,15 +118,15 @@ slot0.SortStoryCondition = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.SortTaskCondition = function(slot0, slot1, slot2, slot3)
-	if slot2[2] == slot1 and slot3[2] == slot1 then
-		if slot2[3] == slot3[3] then
-			slot4 = {
-				slot2[2],
-				slot3[2]
+slot0.SortTaskCondition = function(slot0, slot1, slot2, slot3, slot4)
+	if slot3[2] == slot1 and slot4[2] == slot1 or slot3[2] == slot2 and slot4[2] == slot2 then
+		if slot3[3] == slot4[3] then
+			slot5 = {
+				slot3[2],
+				slot4[2]
 			}
 
-			table.sort(slot4, CompareFuncs({
+			table.sort(slot5, CompareFuncs({
 				function (slot0)
 					return -1 * pg.island_task[slot0].type
 				end,
@@ -134,12 +135,14 @@ slot0.SortTaskCondition = function(slot0, slot1, slot2, slot3)
 				end
 			}))
 
-			return slot4[1] == slot2[2]
+			return slot5[1] == slot3[2]
 		else
-			return slot3[3] < slot2[3]
+			return slot4[3] < slot3[3]
 		end
 	else
-		return slot2[2] == slot1
+		slot5 = slot3[2] == slot1 or slot3[2] == slot2
+
+		return slot5
 	end
 end
 
@@ -169,48 +172,48 @@ slot0.IsStoryType = function(slot0, slot1)
 	return slot1[1] == IslandConst.UNIT_SHOW_TYPE_STORY_PLAYED
 end
 
-slot0.GetCondition = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = {}
+slot0.GetCondition = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = {}
+	slot7 = {}
 
-	for slot10, slot11 in ipairs(slot4) do
-		if slot0:IsTaskType(slot11) then
-			table.insert(slot5, slot11)
-		elseif slot0:IsStoryType(slot11) then
-			table.insert(slot6, slot11)
+	for slot11, slot12 in ipairs(slot5) do
+		if slot0:IsTaskType(slot12) then
+			table.insert(slot6, slot12)
+		elseif slot0:IsStoryType(slot12) then
+			table.insert(slot7, slot12)
 		end
 	end
 
-	slot8 = slot0:GetStoryCondition(slot2, slot6)
+	slot9 = slot0:GetStoryCondition(slot2, slot7)
 
-	if slot0:GetTaskCondition(slot5, slot3, slot1) and slot8 then
-		return slot7[3] <= slot8[3] and slot8 or slot7
-	elseif slot7 and not slot8 then
-		return slot7
-	elseif slot8 and not slot7 then
+	if slot0:GetTaskCondition(slot6, slot3, slot4, slot1) and slot9 then
+		return slot8[3] <= slot9[3] and slot9 or slot8
+	elseif slot8 and not slot9 then
 		return slot8
+	elseif slot9 and not slot8 then
+		return slot9
 	end
 
 	return nil
 end
 
-slot0.GetTaskCondition = function(slot0, slot1, slot2, slot3)
-	slot7 = {
+slot0.GetTaskCondition = function(slot0, slot1, slot2, slot3, slot4)
+	slot8 = {
 		function (slot0)
-			return slot0[2] == uv0 and 1 or 0
+			return (slot0[2] == uv0 or slot0[2] == uv1) and 1 or 0
 		end,
-		slot8
+		slot9
 	}
 
-	slot8 = function(slot0)
+	slot9 = function(slot0)
 		return slot0[3]
 	end
 
-	table.sort(slot1, CompareFuncs(slot7))
+	table.sort(slot1, CompareFuncs(slot8))
 
-	for slot7, slot8 in ipairs(slot1) do
-		if slot3[slot8[2]] == slot8[1] then
-			return slot8
+	for slot8, slot9 in ipairs(slot1) do
+		if slot4[slot9[2]] == slot9[1] then
+			return slot9
 		end
 	end
 

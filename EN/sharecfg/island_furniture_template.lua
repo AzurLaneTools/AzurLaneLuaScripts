@@ -640,7 +640,12 @@ pg.island_furniture_template = {
 			3,
 			1
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[10304] = {
 		setNum = 999,
@@ -661,7 +666,12 @@ pg.island_furniture_template = {
 			6,
 			5
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[10305] = {
 		setNum = 999,
@@ -682,7 +692,12 @@ pg.island_furniture_template = {
 			4,
 			2
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[10306] = {
 		setNum = 999,
@@ -703,7 +718,12 @@ pg.island_furniture_template = {
 			3,
 			4
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[10401] = {
 		setNum = 999,
@@ -858,7 +878,12 @@ pg.island_furniture_template = {
 			4,
 			4
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[10407] = {
 		setNum = 999,
@@ -879,7 +904,12 @@ pg.island_furniture_template = {
 			4,
 			4
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[10408] = {
 		setNum = 999,

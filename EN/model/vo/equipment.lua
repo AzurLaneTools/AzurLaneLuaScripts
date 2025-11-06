@@ -765,4 +765,10 @@ slot0.GetEquipComposeCfgStatic = function(slot0)
 	end
 end
 
+slot0.IsMatchKey = function(slot0, slot1)
+	return EquipmentTools.IsMatchKey({
+		slot0:getConfig("name")
+	}, slot1)
+end
+
 return slot0

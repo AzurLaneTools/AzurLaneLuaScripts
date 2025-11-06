@@ -2534,5 +2534,10 @@ pg.voice_bgm = {
 		default_bgm = "theme-tempest-light",
 		special_bgm = "",
 		bgm = "theme-tempest-light"
+	},
+	MarseillaiseSpRePage = {
+		default_bgm = "theme-irisangel",
+		special_bgm = "",
+		bgm = "theme-irisangel"
 	}
 }

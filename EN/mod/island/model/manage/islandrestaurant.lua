@@ -135,6 +135,19 @@ slot0.GetRemainCnt = function(slot0)
 	return slot0.remainCnt
 end
 
+slot0.InitEstimateData = function(slot0, slot1)
+	slot0.estimateData = {
+		cntMin = slot1.sell_num_min or 0,
+		cntMax = slot1.sell_num_max or 0,
+		salesMin = slot1.sell_money_min or 0,
+		salesMax = slot1.sell_money_max or 0
+	}
+end
+
+slot0.GetEstimateData = function(slot0)
+	return slot0.estimateData
+end
+
 slot0.InitEventData = function(slot0, slot1, slot2)
 	slot0.eventId = slot1
 	slot0.eventEffects = slot2

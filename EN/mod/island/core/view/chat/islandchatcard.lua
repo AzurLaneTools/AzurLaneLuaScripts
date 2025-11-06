@@ -8,7 +8,9 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.Update = function(slot0, slot1)
-	slot2 = slot1.player
+	if not slot1.player then
+		return
+	end
 
 	if slot0.data and slot2.id == slot0.data.player.id and slot0.data.timestamp == slot1.timestamp then
 		return

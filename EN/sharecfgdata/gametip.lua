@@ -2140,7 +2140,7 @@ _G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
 
 
 _G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
-	tip = "Are you sure you want to use the recommended formation?"
+	tip = "Do you want to replace your current formation with the recommended formation?"
 }
 
 
@@ -12959,17 +12959,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "São Martinho added to standard build pool!"
+	tip = "Musashi and Haguro added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Golden Hind added to standard build pool!"
+	tip = "Wakatsuki and Sakawa added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Mary Celeste and Whydah added to standard build pool!"
+	tip = "Musashi added to standard build pool!"
 }
 
 
@@ -40895,6 +40895,11 @@ _G.pg.base.gametip.island_chara_list_attribute = {
 }
 
 
+_G.pg.base.gametip.island_chara_list_workspeed = {
+	tip = "Efficiency"
+}
+
+
 _G.pg.base.gametip.island_index_name = {
 	tip = "Stamina Left"
 }
@@ -41252,9 +41257,10 @@ _G.pg.base.gametip.island_visit_tip7 = {
 _G.pg.base.gametip.island_season_help = {
 	tip = [[
 1. When a new season begins, your Island Development Points (IDP) will be <color=#FD5650>automatically reset</color>.
-2. During a season, you can earn IDP by doing things such as <color=#39bfff>converting</color> and <color=#39bfff>producing specific resources</color>, <color=#39bfff>completing transport jobs</color>, <color=#39bfff>participate in seasonal events</color>, and <color=#39bfff>making purchases in the seasonal shop</color>.
+2. During a season, you can earn IDP by doing things such as <color=#39bfff>converting</color> and <color=#39bfff>producing specific resources</color>, <color=#39bfff>participate in seasonal events</color>, and <color=#39bfff>making purchases in the seasonal shop</color>.
 3. At the end of a season, the resources in your warehouse will be <color=#FD5650>automatically converted into IDP</color>, and you will be placed on the development ranking accordingly.
-4. When the season finishes, you will be <color=#FD5650>unable to claim</color> development and milestone rewards from the season that just ended.]]
+4. When the season finishes, active <color=#39bfff> island requests, transport jobs, character assignments, manual farming, store management</color> will be reset.
+5. When the season finishes, you will be <color=#FD5650>unable to claim</color> development and milestone rewards from the season that just ended.]]
 }
 
 
@@ -41363,6 +41369,11 @@ _G.pg.base.gametip.island_season_charts_refresh = {
 }
 
 
+_G.pg.base.gametip.island_season_charts_out = {
+	tip = "Not in Rank"
+}
+
+
 _G.pg.base.gametip.island_season_review_charnum = {
 	tip = "No. of Characters"
 }
@@ -41424,7 +41435,11 @@ _G.pg.base.gametip.island_season_window_end2 = {
 
 
 _G.pg.base.gametip.island_season_window_rule = {
-	tip = "1. At the end of a season, the <color=#39bfff>resources in your warehouse</color> will be automatically <color=#FD5650>converted to Island Development Points (IDP)</color>, and you will be placed on the development ranking accordingly. Additionally, the contents of your <color=#FD5650>temporary warehouse will be cleared</color>, and all <color=#39bfff>active requests, transport jobs, food production, and character assignments will be reset</color>.\n2. When the season finishes, you will be <color=#39bfff>unable to claim development and milestone rewards from the season that just ended</color>.\n3. When a new season begins, your IDP will <color=#FD5650>automatically reset</color>."
+	tip = [[
+1. At the end of a season, the contents of your <color=#39bfff>temporary warehouse</color> will be <color=#FD5650>cleared</color>, and the <color=#39bfff>resources in your warehouse</color> will be automatically converted to Island Development Points (IDP), and you will be placed on the development ranking accordingly.
+2. When the season finishes, all active <color=#39bfff> island requests, transport jobs, character assignments, manual farming, store management</color> will be reset.
+3. When the season finishes, you will be <color=#FD5650>unable to claim development and milestone rewards from the season that just ended</color>.
+4. When a new season begins, your IDP will <color=#FD5650>automatically reset</color>.]]
 }
 
 
@@ -41481,6 +41496,18 @@ _G.pg.base.gametip.island_help_ship_order = {
 			icon = {
 				path = "",
 				atlas = "helpbg/island_help_ship_order3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order5"
 			}
 		},
 		disableScroll = true,
@@ -43853,6 +43880,36 @@ _G.pg.base.gametip.island_production_seeds_empty = {
 }
 
 
+_G.pg.base.gametip.island_production_tip = {
+	tip = "/time(s)"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition1 = {
+	tip = "<color=#39bfff>$1</color> Stat"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition2 = {
+	tip = "Skill Effect"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition3 = {
+	tip = "Buff Effect"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip1 = {
+	tip = "Working Efficiency <color=#39bfff>+$1%</color>"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip2 = {
+	tip = "Working Efficiency Buff"
+}
+
+
 _G.pg.base.gametip.island_order_ship_page_onekey_loadup = {
 	tip = "<size=20>Submit</size>\nAll"
 }
@@ -44380,6 +44437,20 @@ Unlocking character-related content on the island gives you Collection Points. O
 1. When you <color=#39bfff>obtain a character (complete their Island Authority Permit process)</color>, you'll receive <color=#39bfff>20</color> Collection Points per character.
 2. When you <color=#39bfff>Limit Break a character (use a Profession Star on them)</color>, you'll receive <color=#39bfff>30</color> Collection Points per Limit Break. And when a character reaches Limit Break ★5, you'll receive an additional <color=#39bfff>10</color> Collection Points.
 3. When <color=#39bfff>raising a character's Island Level to 50</color>, you'll receive <color=#39bfff>50</color> Collection Points.]]
+}
+
+
+_G.pg.base.gametip.island_guide_help_npc = {
+	tip = "Unlocking development team-related on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards: \nInteract with development team members to unlock the Collection and receive Collection Points."
+}
+
+
+_G.pg.base.gametip.island_guide_help_item = {
+	tip = [[
+Unlocking resource-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards: 
+
+1. <color=#39bfff>Unlocking</color> Resources: Unlocking a resource in the Collection gives you <color=#39bfff>20</color> Collection points. 
+2. <color=#39bfff>Obtaining</color> Resources: Getting a specific amount of a resource gives you Collection points. You can view the reward stages and the required amounts of each resource in the Collection.]]
 }
 
 
@@ -45389,8 +45460,148 @@ _G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
 }
 
 
+_G.pg.base.gametip.island_selectall = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.island_quickselect_tip = {
+	tip = "* Press and hold the icon to quickly increase the amount used"
+}
+
+
+_G.pg.base.gametip.search_equipment = {
+	tip = "Search Gear by Name"
+}
+
+
+_G.pg.base.gametip.search_sp_equipment = {
+	tip = "Search Aug. Module by Name"
+}
+
+
+_G.pg.base.gametip.search_equipment_appearance = {
+	tip = "Search Gear Skin by Name"
+}
+
+
+_G.pg.base.gametip.meta_reproduce_btn = {
+	tip = "Would you like to simulate a battle of the current META showdown? \nDifficulty: Lv. 15\n* Simulated battles cost no Oil and give no rewards."
+}
+
+
+_G.pg.base.gametip.meta_simulated_btn = {
+	tip = "Would you like to simulate a battle of the current META showdown? \nDifficulty: Lv. $1\n* Simulated battles cost no Oil and give no rewards."
+}
+
+
+_G.pg.base.gametip.equip_enhancement_tip = {
+	tip = "Insufficient Materials"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv1 = {
+	tip = "Enhance +1"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lvx = {
+	tip = "Enhance to +$1"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_finish = {
+	tip = "Enhanced"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv = {
+	tip = "0"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_title = {
+	tip = "Enhance"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_required = {
+	tip = "Materials Needed:"
+}
+
+
 _G.pg.base.gametip.shop_sell_ended = {
-	tip = "Unavailable "
+	tip = "Unavailable"
+}
+
+
+_G.pg.base.gametip.island_taskjump_systemnoopen_tips = {
+	tip = "You have not yet unlocked this feature."
+}
+
+
+_G.pg.base.gametip.island_taskjump_placenoopen_tips = {
+	tip = "You have not yet unlocked this location."
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_award = {
+	tip = "Rewards"
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_request = {
+	tip = "Cost"
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_label = {
+	tip = "There are no transport jobs you can accept."
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_time = {
+	tip = "Transport Job List Refreshes in:"
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt = {
+	tip = "Transports $1/$2"
+}
+
+
+_G.pg.base.gametip.island_order_ship_sel_delegate_label = {
+	tip = "- Tap to Select Job -"
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt_not_enough = {
+	tip = "Refresh"
+}
+
+
+_G.pg.base.gametip.island_order_ship_reset_all = {
+	tip = "Do you want to refresh all displayed jobs?"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip = {
+	tip = "Do you want to change to a new transport job?"
+}
+
+
+_G.pg.base.gametip.island_order_ship_btn_replace = {
+	tip = "Change Jobs"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_2 = {
+	tip = "Insufficient number of transport job attempts"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_1 = {
+	tip = "Do you want to update the jobs list? (If you have submitted any materials, they will not be reimbursed, and your transport job attempt will be deducted.)"
 }
 
 

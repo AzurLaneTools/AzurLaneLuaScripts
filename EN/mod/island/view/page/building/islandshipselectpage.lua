@@ -59,7 +59,25 @@ slot0.OnLoaded = function(slot0)
 	slot0.skillDes = slot0.skill:Find("desc/Text"):GetComponent(typeof(Text))
 	slot0.shipContent = slot0.frameTF:Find("ships")
 	slot0.shipEmpty = slot0.frameTF:Find("empShip")
+	slot0.addStutasTF = slot0._tf:Find("addStutas")
+	slot0.addStutasNum = slot0._tf:Find("addStutas/num")
+	slot0.addStutasBtn = slot0._tf:Find("addStutas/num/tipbtn")
+	slot0.addStutasInfoPanel = slot0._tf:Find("addinfo_panel")
+	slot0.buffInfoUIList = UIItemList.New(slot0.addStutasInfoPanel:Find("effects"), slot0.addStutasInfoPanel:Find("effects/tpl"))
 
+	setText(slot0.addStutasInfoPanel:Find("Text"), i18n("island_production_speed_tip2"))
+
+	slot0.buffInfoEmptyTF = slot0.addStutasInfoPanel:Find("empty")
+
+	setText(slot0.buffInfoEmptyTF:Find("Text"), i18n("island_manage_no_addition"))
+	slot0.buffInfoUIList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0.buffInfos[slot1 + 1]
+
+			setText(slot2:Find("bg/name"), slot3.name)
+			setText(slot2:Find("bg/effect"), slot3.effect)
+		end
+	end)
 	setText(slot0.shipEmpty:Find("Text"), i18n("island_production_selected_tip2"))
 	setText(slot0.recoveryTimeTips, i18n("island_ship_energy_recoverytips"))
 end
@@ -68,6 +86,15 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 		existCall(uv0.cancelFunc)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.addStutasBtn, function ()
+		if isActive(uv0.addStutasInfoPanel) then
+			setActive(uv0.addStutasInfoPanel, false)
+		else
+			setActive(uv0.addStutasInfoPanel, true)
+			uv0.buffInfoUIList:align(#uv0.buffInfos)
+			setActive(uv0.buffInfoEmptyTF, #uv0.buffInfos == 0)
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sureBtn, function ()
 		slot1 = getProxy(IslandProxy):GetIsland():GetFollowerAgency()
@@ -107,7 +134,8 @@ slot0.OnInit = function(slot0)
 				OnFilter = function (slot0)
 					uv0:OnFilter(slot0)
 				end,
-				defaultIndex = uv0.sortData
+				defaultIndex = uv0.sortData,
+				needWorkSpeed = uv0.needWorkSpeed
 			})
 		end
 	end, SFX_PANEL)
@@ -174,7 +202,7 @@ slot0.OnFilter = function(slot0, slot1)
 end
 
 slot0.UpdateSortBtn = function(slot0)
-	slot0.orderIco.localScale = slot0.selectAsc and Vector3(1, -1, 1) or Vector3(1, 1, 1)
+	slot0.orderIco.localScale = slot0.selectAsc and Vector3(1, 1, 1) or Vector3(1, -1, 1)
 	slot1, slot2 = IslandShipIndexLayer.getSortFuncAndName(slot0.sortData.sortIndex, slot0.selectAsc)
 	slot0.orderTxt.text = i18n(slot2)
 end
@@ -197,6 +225,8 @@ slot0.UpdateAttr = function(slot0, slot1, slot2, slot3, slot4)
 	slot8 = IslandShipAttr.Grade2Img(slot4:GetAttrGrade(slot5))
 	slot1:Find("grade"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/IslandShipUI_atlas", slot8[1])
 	slot1:Find("grade_bg"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/IslandShipUI_atlas", slot8[2])
+
+	setActive(slot1:Find("vx_tpl"), slot0.attrType == slot3)
 end
 
 slot0.OnShow = function(slot0, slot1)
@@ -209,11 +239,19 @@ slot0.OnShow = function(slot0, slot1)
 	slot0.cancelFunc = slot1.cancelFunc
 	slot0.placeId = slot1.placeId
 	slot0.showBenefits = slot1.showBenefits
+	slot0.needWorkSpeed = slot1.needWorkSpeed or false
 
 	setText(slot0.infoEmptyTitleTF, slot1.emptyInfoTitle or "")
 
 	slot0.characterAgency = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
 
+	if slot0.needWorkSpeed then
+		slot0.sortData.sortIndex = IslandShipIndexLayer.SortWorkSpeed
+	else
+		slot0.sortData.sortIndex = IslandShipIndexLayer.SortLevel
+	end
+
+	slot0:UpdateSortBtn()
 	slot0:FlushShips(#slot0.selectedIds == 0 and slot0.selectNum == 1)
 end
 
@@ -289,7 +327,7 @@ slot0.GetFristSelectableShipId = function(slot0)
 		end
 	end
 
-	return nil
+	return nilGetShipsAttrProgress
 end
 
 slot0.UpdateTimer = function(slot0, slot1)
@@ -311,6 +349,7 @@ slot0.FlushInfo = function(slot0)
 	setActive(slot0.sureBtn, slot0.showId)
 	setActive(slot0.infoPanel, slot0.showId)
 	setActive(slot0.infoEmptyTF, not slot0.showId)
+	slot0:FlushAddPercent()
 
 	if not slot0.showId then
 		return
@@ -360,6 +399,49 @@ slot0.FlushInfo = function(slot0)
 
 	slot0.skillName.text = string.format("%s - %s", slot5:GetName(), "[Lv." .. slot5:GetLevel() .. "]")
 	slot0.skillDes.text = slot5:GetEffectDesc()
+
+	slot0:FlushAddPercent()
+end
+
+slot0.FlushAddPercent = function(slot0)
+	if not slot0.showId or not slot0.needWorkSpeed then
+		setActive(slot0.addStutasTF, false)
+		setActive(slot0.addStutasInfoPanel, false)
+
+		return
+	end
+
+	slot1, slot2, slot3 = IslandProductTimeHelper.GetAllAddPercent(slot0.showId, slot0.placeId, slot0.attrType)
+
+	setActive(slot0.addStutasTF, true)
+	setText(slot0.addStutasNum, i18n("island_production_speed_tip1", slot1 + slot2 + slot3))
+
+	slot0.buffInfos = {}
+	slot5 = IslandProductTimeHelper.GetAttributeAddPercent(slot0.showId, slot0.attrType)
+
+	if slot1 > 0 then
+		table.insert(slot0.buffInfos, {
+			name = i18n("island_production_speed_addition1", IslandShipAttr.ToChinese(IslandShipAttr.GetAtrrName(slot0.attrType))),
+			effect = "+" .. slot1 .. "%"
+		})
+	end
+
+	if slot2 > 0 then
+		table.insert(slot0.buffInfos, {
+			name = i18n("island_production_speed_addition2"),
+			effect = "+" .. slot2 .. "%"
+		})
+	end
+
+	if slot3 > 0 then
+		table.insert(slot0.buffInfos, {
+			name = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0.showId):GetSkill():GetName(),
+			effect = "+" .. slot3 .. "%"
+		})
+	end
+
+	slot0.buffInfoUIList:align(#slot0.buffInfos)
+	setActive(slot0.buffInfoEmptyTF, #slot0.buffInfos == 0)
 end
 
 slot0.FlushBenefits = function(slot0)
@@ -425,14 +507,33 @@ end
 
 slot0.GetShips = function(slot0)
 	slot1 = {}
+	slot2 = {}
 
-	for slot6, slot7 in ipairs(slot0.characterAgency:GetShipsContainNpc()) do
-		if uv0(slot7.id, slot0.searchKey) and uv1(slot0, slot7.id, slot0.sortData) then
-			table.insert(slot1, slot7.id)
+	for slot7, slot8 in ipairs(slot0.characterAgency:GetShipsContainNpc()) do
+		if uv0(slot8.id, slot0.searchKey) and uv1(slot0, slot8.id, slot0.sortData) then
+			if slot0.needWorkSpeed then
+				table.insert(slot2, setmetatable({
+					GetWorkSpeed = function ()
+						slot0, slot1, slot2 = IslandProductTimeHelper.GetAllAddPercent(uv0.id, uv1.placeId, uv1.attrType)
+
+						return slot0 + slot1 + slot2
+					end
+				}, {
+					__index = slot8
+				}))
+			else
+				table.insert(slot2, slot8)
+			end
 		end
 	end
 
-	table.sort(slot1, CompareFuncs(IslandShipIndexLayer.getSortFuncAndName(slot0.sortData.sortIndex, slot0.selectAsc)))
+	slot8 = IslandShipIndexLayer.getSortFuncAndName(slot0.sortData.sortIndex, slot0.selectAsc)
+
+	table.sort(slot2, CompareFuncs(slot8))
+
+	for slot8, slot9 in ipairs(slot2) do
+		table.insert(slot1, slot9.id)
+	end
 
 	return slot1
 end
@@ -444,6 +545,10 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.OnHide = function(slot0)
+	if isActive(slot0.addStutasInfoPanel) then
+		setActive(slot0.addStutasInfoPanel, false)
+	end
+
 	slot0:UnBlurPanel()
 end
 

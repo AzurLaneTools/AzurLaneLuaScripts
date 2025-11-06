@@ -40649,6 +40649,276 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50213] = {
+		mark = 20251106,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50213,
+		page_core = "",
+		config_data = {
+			1730001,
+			1730002,
+			1730003
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[50214] = {
+		mark = 20251106,
+		type = 74,
+		login_pop = 0,
+		config_id = 50214,
+		is_show = 47,
+		title_res_tag = "Marseillaise_sp",
+		id = 50214,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MarseillaiseSpRePage",
+			ui_name = "MarseillaiseSpRePage"
+		},
+		config_client = {
+			linkPoolActID = 50217,
+			linkActID = 50213
+		}
+	},
+	[50215] = {
+		mark = 20251106,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 581,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "",
+		id = 50215,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50216] = {
+		mark = 20251106,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50216,
+		page_core = "",
+		config_data = {
+			21861,
+			21862,
+			21863,
+			21864,
+			21865,
+			21866
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50217] = {
+		mark = 20251106,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_50217",
+		title_res_tag = "",
+		id = 50217,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Rate UP for Marseillaise!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 26%",
+				"Common: 55%",
+				"<color=#ffde38>Marseillaise</color>: 1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[50218] = {
+		mark = 20251106,
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 73,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50218,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		time = "stop",
@@ -67722,13 +67992,13 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					2,
+					5
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -67778,13 +68048,13 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					2,
+					5
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -67827,13 +68097,13 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					2,
+					5
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -67876,13 +68146,13 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					2,
+					5
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -67916,13 +68186,13 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					2,
+					5
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -68237,6 +68507,7 @@ pg.activity_template = {
 			50153,
 			50169,
 			50205,
+			50214,
 			1086,
 			6006,
 			6010,
@@ -68458,6 +68729,7 @@ pg.activity_template = {
 			50203,
 			50207,
 			50209,
+			50216,
 			1079,
 			1080,
 			1081,
@@ -68914,6 +69186,7 @@ pg.activity_template = {
 			50131,
 			50172,
 			50183,
+			50215,
 			30015,
 			30023,
 			30044,
@@ -69010,6 +69283,7 @@ pg.activity_template = {
 			50166,
 			50167,
 			50181,
+			50213,
 			30012,
 			30020,
 			30021,
@@ -69359,6 +69633,7 @@ pg.activity_template = {
 			5181,
 			5546,
 			5766,
+			50217,
 			30063,
 			30064,
 			30073,
@@ -69468,6 +69743,7 @@ pg.activity_template = {
 			5959,
 			50045,
 			50122,
+			50218,
 			8010,
 			8051,
 			8052,
@@ -70714,6 +70990,12 @@ pg.activity_template = {
 		50210,
 		50211,
 		50212,
+		50213,
+		50214,
+		50215,
+		50216,
+		50217,
+		50218,
 		7001,
 		7011,
 		7012,

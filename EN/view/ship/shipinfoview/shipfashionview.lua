@@ -146,7 +146,7 @@ slot0.UpdateAllFashion = function(slot0, slot1)
 		end
 	else
 		for slot7, slot8 in ipairs(slot0.fashionSkins) do
-			slot0.fashionCellMap[slot0.styleContainer:GetChild(slot7 - 1)]:updateData(slot0:GetShipVO(), slot8, slot0:GetShipVO():proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot0:GetShipVO():getRemouldSkinId() == slot8.id and slot0:GetShipVO():isRemoulded() or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD)
+			slot0.fashionCellMap[slot0.styleContainer:GetChild(slot7 - 1)]:updateData(slot0:GetShipVO(), slot8, slot0:GetShipVO():proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot0:GetShipVO():getRemouldSkinId() == slot8.id and slot0:GetShipVO():isRemoulded() or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD or getProxy(ShipSkinProxy):hasSkin(slot8.id))
 		end
 	end
 

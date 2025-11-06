@@ -251,7 +251,7 @@ slot0.OnAddFollower = function(slot0, slot1)
 		end
 	end
 
-	slot0:NotifiyCore(ISLAND_EVT.ADD_FOLLOWER)
+	slot0:NotifiyCore(ISLAND_EVT.ADD_FOLLOWER, slot7.id)
 end
 
 slot0.OnDelFollower = function(slot0, slot1)
@@ -288,7 +288,7 @@ slot0.OnDelFollower = function(slot0, slot1)
 		end
 	end
 
-	slot0:NotifiyCore(ISLAND_EVT.DEL_FOLLOWER)
+	slot0:NotifiyCore(ISLAND_EVT.DEL_FOLLOWER, slot3.id)
 end
 
 slot0.OnResetNpcActionFeedback = function(slot0)

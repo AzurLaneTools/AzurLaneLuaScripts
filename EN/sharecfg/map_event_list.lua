@@ -5659,6 +5659,138 @@ pg.map_event_list = {
 		event_list_loop = {},
 		help_pictures = {}
 	},
+	[2100521] = {
+		help_open = 0,
+		chapter_id = 2100521,
+		event_list = {
+			733
+		},
+		event_list_loop = {
+			733
+		},
+		help_pictures = {}
+	},
+	[2100522] = {
+		help_open = 0,
+		chapter_id = 2100522,
+		event_list = {
+			734
+		},
+		event_list_loop = {
+			735
+		},
+		help_pictures = {}
+	},
+	[2100523] = {
+		help_open = 0,
+		chapter_id = 2100523,
+		event_list = {
+			736
+		},
+		event_list_loop = {
+			737
+		},
+		help_pictures = {}
+	},
+	[2100524] = {
+		help_open = 0,
+		chapter_id = 2100524,
+		event_list = {
+			738
+		},
+		event_list_loop = {
+			739
+		},
+		help_pictures = {}
+	},
+	[2100525] = {
+		help_open = 0,
+		chapter_id = 2100525,
+		event_list = {
+			740
+		},
+		event_list_loop = {
+			741
+		},
+		help_pictures = {}
+	},
+	[2100526] = {
+		help_open = 0,
+		chapter_id = 2100526,
+		event_list = {
+			742
+		},
+		event_list_loop = {
+			731
+		},
+		help_pictures = {}
+	},
+	[2100531] = {
+		help_open = 0,
+		chapter_id = 2100531,
+		event_list = {
+			733
+		},
+		event_list_loop = {
+			733
+		},
+		help_pictures = {}
+	},
+	[2100532] = {
+		help_open = 0,
+		chapter_id = 2100532,
+		event_list = {
+			734
+		},
+		event_list_loop = {
+			735
+		},
+		help_pictures = {}
+	},
+	[2100533] = {
+		help_open = 0,
+		chapter_id = 2100533,
+		event_list = {
+			736
+		},
+		event_list_loop = {
+			737
+		},
+		help_pictures = {}
+	},
+	[2100534] = {
+		help_open = 0,
+		chapter_id = 2100534,
+		event_list = {
+			738
+		},
+		event_list_loop = {
+			739
+		},
+		help_pictures = {}
+	},
+	[2100535] = {
+		help_open = 0,
+		chapter_id = 2100535,
+		event_list = {
+			740
+		},
+		event_list_loop = {
+			741
+		},
+		help_pictures = {}
+	},
+	[2100536] = {
+		help_open = 0,
+		chapter_id = 2100536,
+		event_list = {
+			742
+		},
+		event_list_loop = {
+			731
+		},
+		help_pictures = {}
+	},
 	[2200071] = {
 		help_open = 1,
 		chapter_id = 2200071,
@@ -6104,6 +6236,18 @@ pg.map_event_list = {
 		2100511,
 		2100514,
 		2100516,
+		2100521,
+		2100522,
+		2100523,
+		2100524,
+		2100525,
+		2100526,
+		2100531,
+		2100532,
+		2100533,
+		2100534,
+		2100535,
+		2100536,
 		2200071,
 		2200072,
 		2200073,

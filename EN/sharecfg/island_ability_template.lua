@@ -33,31 +33,31 @@ pg.island_ability_template = {
 	[7] = {
 		unlock_text = "Request List",
 		effect = 6,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 7,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Island Requests|Can be viewed by speaking to <color=#7EBEFF>Patrick</color> at the <color=#7EBEFF>harbor</color>",
 		show_type = 1
 	},
 	[8] = {
 		unlock_text = "",
 		effect = 7,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 8,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Island Tech|Can be found from the <color=#7EBEFF>Tech Research menu</color> at the <color=#7EBEFF>base by the harbor</color>",
 		show_type = 1
 	},
 	[9] = {
 		unlock_text = "",
 		effect = 8,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 9,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Warehouse|Can be found from the <color=#7EBEFF>Warehouse button</color> on the <color=#7EBEFF>main screen</color>",
 		show_type = 1
 	},
 	[10] = {
@@ -171,7 +171,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[26] = {
-		unlock_text = "Shop Management",
+		unlock_text = "Store Management",
 		effect = 9,
 		show_pop = 0,
 		type = 1,
@@ -183,71 +183,71 @@ pg.island_ability_template = {
 	[27] = {
 		unlock_text = "",
 		effect = 10,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 27,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Friends|Can be found from the <color=#7EBEFF>friends button</color> on the <color=#7EBEFF>management screen</color>",
 		show_type = 1
 	},
 	[28] = {
 		unlock_text = "",
 		effect = 11,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 28,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Characters|Can be found from the <color=#7EBEFF>Characters menu</color> on the <color=#7EBEFF>main screen</color>",
 		show_type = 1
 	},
 	[29] = {
 		unlock_text = "",
 		effect = 12,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 29,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Collection|Can be found on the <color=#7EBEFF>main screen</color>",
 		show_type = 1
 	},
 	[30] = {
 		unlock_text = "",
 		effect = 13,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 30,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Achievements|Can be found on the <color=#7EBEFF>main screen</color>",
 		show_type = 1
 	},
 	[31] = {
 		unlock_text = "",
 		effect = 14,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 31,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Seasonal Content|Can be found under the <color=#7EBEFF>seasonal menu</color> on the <color=#7EBEFF>main screen</color>",
 		show_type = 1
 	},
 	[32] = {
 		unlock_text = "Transport Job",
 		effect = 15,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 32,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Transport Jobs|Can be viewed by speaking to <color=#7EBEFF>Stephen</color> at the <color=#7EBEFF>harbor</color>",
 		show_type = 1
 	},
 	[33] = {
 		unlock_text = "",
 		effect = 16,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 33,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Outfits|Can be found under <color=#7EBEFF>Outfits</color> on the <color=#7EBEFF>management screen</color>",
 		show_type = 1
 	},
 	[34] = {
@@ -263,11 +263,11 @@ pg.island_ability_template = {
 	[35] = {
 		unlock_text = "",
 		effect = 18,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 35,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Shop|The <color=#7EBEFF>shop</color> can be found on the <color=#7EBEFF>main screen</color>",
 		show_type = 1
 	},
 	[36] = {
@@ -313,21 +313,21 @@ pg.island_ability_template = {
 	[40] = {
 		unlock_text = "",
 		effect = 19,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 40,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Interactions|Can be found on the <color=#7EBEFF>interactions button</color> on the right on the <color=#7EBEFF>main screen</color>, which you can use to <color=#7EBEFF>perform actions</color> and <color=#7EBEFF>chat</color>",
 		show_type = 1
 	},
 	[41] = {
 		unlock_text = "",
 		effect = 20,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 41,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Camera|Can be found from the <color=#7EBEFF>camera button</color> on the <color=#7EBEFF>management screen</color>",
 		show_type = 1
 	},
 	[42] = {
@@ -501,73 +501,73 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[2001] = {
-		unlock_text = "Island Center",
+		unlock_text = "Faircrop Fields",
 		effect = 101,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2001,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Faircrop Fields|<color=#7EBEFF>Crops</color> can be grown at <color=#7EBEFF>Morningdew Farm</color>",
 		show_type = 1
 	},
 	[2002] = {
-		unlock_text = "Faircrop Fields",
+		unlock_text = "Laidback Ranch",
 		effect = 102,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2002,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Laidback Ranch|Can be found by speaking to <color=#7EBEFF>Amerigo</color> at <color=#7EBEFF>Morningdew Farm</color>",
 		show_type = 2
 	},
 	[2003] = {
 		unlock_text = "Rockheap Mine",
 		effect = 401,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Rockheap Mine|<color=#7EBEFF>Ore</color> can be mined in the <color=#7EBEFF>Windswept Plains</color>",
 		show_type = 3
 	},
 	[2004] = {
 		unlock_text = "Verdant Woods",
 		effect = 402,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2004,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Verdant Woods|<color=#7EBEFF>Lumber</color> can be logged in the <color=#7EBEFF>Windswept Plains</color>",
 		show_type = 1
 	},
 	[2005] = {
 		unlock_text = "Sweetscent Orchard",
 		effect = 501,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2005,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Sweetscent Orchard|<color=#7EBEFF>Crops</color> can be grown at the <color=#7EBEFF>Prosperous Plantation</color>",
 		show_type = 1
 	},
 	[2006] = {
 		unlock_text = "Newsprout Nursery",
 		effect = 502,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2006,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Newsprout Nursery|<color=#7EBEFF>Crops</color> can be grown at the <color=#7EBEFF>Prosperous Plantation</color>",
 		show_type = 1
 	},
 	[2008] = {
 		unlock_text = "Golden Koi Restaurant",
 		effect = 601,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2008,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Golden Koi Restaurant|Can be found by speaking to <color=#7EBEFF>Am-Mer-Mar</color> in the <color=#7EBEFF>commercial area</color>",
 		show_type = 1
 	},
 	[2009] = {
@@ -603,11 +603,11 @@ pg.island_ability_template = {
 	[2012] = {
 		unlock_text = "Lumber Processing",
 		effect = 703,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2012,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Lumber Processing|Can be found by speaking to <color=#7EBEFF>Russell</color> at the <color=#7EBEFF>base by the harbor</color>",
 		show_type = 1
 	},
 	[2013] = {
@@ -643,11 +643,11 @@ pg.island_ability_template = {
 	[2016] = {
 		unlock_text = "Café Manjuu",
 		effect = 901,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2016,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Café Manjuu|Can be found by speaking to <color=#7EBEFF>Bremen</color> at <color=#7EBEFF>Café Manjuu by the harbor</color>",
 		show_type = 1
 	},
 	[5001] = {
@@ -1073,21 +1073,21 @@ pg.island_ability_template = {
 	[17002] = {
 		unlock_text = "Café Manjuu management",
 		effect = 901,
-		show_pop = 0,
+		show_pop = 1,
 		type = 17,
 		id = 17002,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Café Manjuu Management|Can be found by speaking to <color=#7EBEFF>Bremen</color> at <color=#7EBEFF>Café Manjuu by the harbor</color>",
 		show_type = 1
 	},
 	[17003] = {
 		unlock_text = "Golden Koi Restaurant",
 		effect = 601,
-		show_pop = 0,
+		show_pop = 1,
 		type = 17,
 		id = 17003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "Golden Koi Restaurant Management|Can be found by speaking to <color=#7EBEFF>Am-Mer-Mar</color> in the <color=#7EBEFF>commercial area</color>",
 		show_type = 1
 	},
 	[17004] = {

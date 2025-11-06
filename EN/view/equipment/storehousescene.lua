@@ -47,6 +47,14 @@ slot0.init = function(slot0)
 	setActive(slot0.sortTpl, false)
 
 	slot0.equipSkinFilteBtn = slot0.topPanel:Find("buttons/EquipSkinFilteBtn")
+	slot0.nameSearchInput = slot0.topPanel:Find("buttons/serachPanel/search")
+	slot0.nameSearchText = slot0.nameSearchInput:Find("holder")
+
+	setInputText(slot0.nameSearchInput, "")
+	onInputChanged(slot0, slot0.nameSearchInput, function ()
+		uv0:filterEquipment()
+	end)
+
 	slot0.itemView = slot0._tf:Find("adapt/item_scrollview")
 	slot2 = nil
 	slot2 = (NotchAdapt.CheckNotchRatio == 2 or not getProxy(SettingsProxy):CheckLargeScreen()) and slot0.itemView.rect.width > 2000 or NotchAdapt.CheckNotchRatio >= 2
@@ -245,6 +253,7 @@ slot0.didEnter = function(slot0)
 		if slot0 then
 			uv0.page = uv1
 
+			uv0:SwitchEquipmentType(uv1)
 			uv0:UpdateWeaponWrapButtons()
 			uv0:filterEquipment()
 		end
@@ -253,6 +262,7 @@ slot0.didEnter = function(slot0)
 		if slot0 then
 			uv0.page = uv1
 
+			uv0:SwitchEquipmentType(uv1)
 			uv0:UpdateWeaponWrapButtons()
 			uv0:filterEquipment()
 		end
@@ -261,6 +271,7 @@ slot0.didEnter = function(slot0)
 		if slot0 then
 			uv0.page = uv1
 
+			uv0:SwitchEquipmentType(uv1)
 			uv0:UpdateWeaponWrapButtons()
 			uv0:filterEquipment()
 		end
@@ -868,8 +879,14 @@ slot0.filterEquipment = function(slot0)
 		end
 	end
 
+	if getInputText(slot0.nameSearchInput) and slot4 ~= "" then
+		slot0.loadEquipmentVOs = underscore.filter(slot0.loadEquipmentVOs, function (slot0)
+			return slot0:IsMatchKey(uv0)
+		end)
+	end
+
 	if slot0.contextData.sortData then
-		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv2.sortFunc(slot4, slot0.asc)))
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv2.sortFunc(slot5, slot0.asc)))
 	end
 
 	if slot0.contextData.qiutBtn then
@@ -878,7 +895,7 @@ slot0.filterEquipment = function(slot0)
 
 	slot0:updateSelected()
 	slot0:updateEquipmentCount()
-	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot4.spr), true)
+	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot5.spr), true)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
 	slot0:updateCapacity()
@@ -894,28 +911,30 @@ slot0.filterEquipSkin = function(slot0)
 		assert(false, "不是外观分页")
 	end
 
-	for slot8, slot9 in pairs(slot0.equipmentVOs) do
-		if slot9.isSkin and slot9.count > 0 then
-			table.insert(slot4, slot9)
+	slot5 = getInputText(slot0.nameSearchInput)
+
+	for slot9, slot10 in pairs(slot0.equipmentVOs) do
+		if slot10.isSkin and slot10.count > 0 and (slot5 == "" or EquipmentTools.IsMatchEquipmentSkinKey(slot10.id, slot5)) then
+			table.insert(slot4, slot10)
 		end
 	end
 
-	for slot8, slot9 in pairs(slot4) do
-		if IndexConst.filterEquipSkinByIndex(slot9, slot1) and IndexConst.filterEquipSkinByTheme(slot9, slot2) and slot0:checkFitBusyCondition(slot9) then
-			table.insert(slot0.loadEquipmentVOs, slot9)
+	for slot9, slot10 in pairs(slot4) do
+		if IndexConst.filterEquipSkinByIndex(slot10, slot1) and IndexConst.filterEquipSkinByTheme(slot10, slot2) and slot0:checkFitBusyCondition(slot10) then
+			table.insert(slot0.loadEquipmentVOs, slot10)
 		end
 	end
 
 	if slot0.filterImportance ~= nil then
-		for slot8 = #slot0.loadEquipmentVOs, 1, -1 do
-			if slot0.loadEquipmentVOs[slot8].isSkin or not slot9.isSkin and slot9:isImportance() then
-				table.remove(slot0.loadEquipmentVOs, slot8)
+		for slot9 = #slot0.loadEquipmentVOs, 1, -1 do
+			if slot0.loadEquipmentVOs[slot9].isSkin or not slot10.isSkin and slot10:isImportance() then
+				table.remove(slot0.loadEquipmentVOs, slot9)
 			end
 		end
 	end
 
 	if slot0.contextData.sortData then
-		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv1.sortFunc(slot5, slot0.asc)))
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv1.sortFunc(slot6, slot0.asc)))
 	end
 
 	if slot0.contextData.qiutBtn then
@@ -947,8 +966,15 @@ slot0.filterSpWeapon = function(slot0)
 		end
 	end
 
+	if getInputText(slot0.nameSearchInput) and slot5 ~= "" then
+		slot6 = EquipmentTools.GetMatchSpEquipmentListKeyByShip(slot5)
+		slot0.loadEquipmentVOs = underscore.filter(slot0.loadEquipmentVOs, function (slot0)
+			return slot0:IsMatchKey(uv0) or table.contains(uv1, slot0.id)
+		end)
+	end
+
 	if slot0.contextData.spweaponSortData then
-		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv1.sortFunc(slot5, slot0.asc)))
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv1.sortFunc(slot6, slot0.asc)))
 	end
 
 	if slot0.contextData.qiutBtn then
@@ -957,7 +983,7 @@ slot0.filterSpWeapon = function(slot0)
 
 	slot0:updateSelected()
 	slot0:updateEquipmentCount()
-	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot5.spr), true)
+	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot6.spr), true)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
 	slot0:UpdateSpweaponCapacity()
@@ -1373,6 +1399,13 @@ slot0.SwitchToSpWeaponStoreHouse = function(slot0)
 	slot0.page = uv0
 
 	triggerToggle(slot0.weaponToggle, true)
+end
+
+slot0.SwitchEquipmentType = function(slot0, slot1)
+	slot2 = nil
+
+	setText(slot0.nameSearchText, (slot1 ~= uv0 or i18n("search_sp_equipment")) and (slot1 ~= uv1 or i18n("search_equipment_appearance")) and i18n("search_equipment"))
+	setInputText(slot0.nameSearchInput, "")
 end
 
 slot0.willExit = function(slot0)

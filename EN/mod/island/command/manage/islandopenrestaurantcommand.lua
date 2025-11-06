@@ -27,7 +27,8 @@ slot0.execute = function(slot0, slot1)
 	slot6:Send(21418, {
 		trade_id = slot3,
 		post_list = slot4,
-		food_list = slot5
+		food_list = slot5,
+		presell = slot2.estimateData
 	}, 21419, function (slot0)
 		if slot0.result == 0 then
 			slot2 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
@@ -42,6 +43,7 @@ slot0.execute = function(slot0, slot1)
 			slot3:SetAssistants(slot0.trade_data.post_list)
 			slot3:SetEndTime(slot0.trade_data.end_time)
 			slot3:ReduceRemainCnt()
+			slot3:InitEstimateData(uv2.estimateData)
 
 			slot5 = slot1:GetCharacterAgency()
 
@@ -53,11 +55,11 @@ slot0.execute = function(slot0, slot1)
 				slot11:UpdateState(IslandShip.STATE_RESTAURANT, uv1)
 			end
 
-			slot1:DispatchEvent(uv2.OPEN_RESTAURANT, {
+			slot1:DispatchEvent(uv3.OPEN_RESTAURANT, {
 				restId = uv1,
-				postList = uv3
+				postList = uv4
 			})
-			uv4:sendNotification(GAME.ISLAND_OPEN_RESTAURANT_DONE)
+			uv5:sendNotification(GAME.ISLAND_OPEN_RESTAURANT_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

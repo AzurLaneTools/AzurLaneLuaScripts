@@ -12,6 +12,7 @@ pg.island_item_data_template = setmetatable({
 			7,
 			8,
 			9,
+			10,
 			1000,
 			1001,
 			1002,
@@ -213,6 +214,7 @@ pg.island_item_data_template = setmetatable({
 	},
 	get_id_list_by_type = {
 		{
+			10,
 			1000,
 			1001,
 			1002,
@@ -437,6 +439,7 @@ pg.island_item_data_template = setmetatable({
 		7,
 		8,
 		9,
+		10,
 		1000,
 		1001,
 		1002,
@@ -893,6 +896,32 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {}
 	},
+	{
+		name = "Island Seasonal PT Exchange Ticket",
+		desc = "A ticket that can be exchanged for Island Dev. Points. Will be automatically converted into Island Dev. Points when a season ends, but can also be used manually in your Warehouse.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "islandprops/Item_6",
+		price = 1,
+		icon_normal = "props/item_island_6",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 10,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {}
+	},
 	[1000] = {
 		name = "Wheat Seeds",
 		desc = "A bunch of the port's premium wheat seeds. Can be used to grow quality wheat.",
@@ -915,7 +944,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -950,7 +979,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -985,7 +1014,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1020,7 +1049,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1055,7 +1084,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1090,7 +1119,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1125,7 +1154,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1160,7 +1189,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1195,7 +1224,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1230,7 +1259,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1265,7 +1294,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1300,7 +1329,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1335,7 +1364,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1370,7 +1399,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1405,7 +1434,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1440,7 +1469,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1475,7 +1504,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1510,7 +1539,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1545,7 +1574,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1580,7 +1609,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1615,7 +1644,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1650,7 +1679,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1825,7 +1854,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1930,7 +1959,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2035,7 +2064,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2070,7 +2099,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2105,7 +2134,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2140,7 +2169,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2175,7 +2204,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2210,7 +2239,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2245,7 +2274,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2280,7 +2309,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2315,7 +2344,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2350,7 +2379,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2385,7 +2414,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2420,7 +2449,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2665,7 +2694,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3033,7 +3062,7 @@ pg.base.island_item_data_template = {
 		desc = "High-protein feed for the clucky clucky bird. Provides it with all the energy it needs.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 3,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3050,7 +3079,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3068,7 +3097,7 @@ pg.base.island_item_data_template = {
 		desc = "Fattening feed for the oinky oinky pig. Perfect for a growing animal.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 3,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3085,7 +3114,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3120,7 +3149,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3155,7 +3184,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3173,7 +3202,7 @@ pg.base.island_item_data_template = {
 		desc = "White flour made from grinding wheat. Needed to make bread, cakes, and pizzas.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 6,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3190,7 +3219,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3208,7 +3237,7 @@ pg.base.island_item_data_template = {
 		desc = "A refreshing flavor that's sure to top up your batteries!",
 		type = 1,
 		manage_influence = 190,
-		pt_num = 1,
+		pt_num = 15,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3322,7 +3351,7 @@ pg.base.island_item_data_template = {
 		desc = "A coffee beverage with citrus juice added. Its pleasant acidity and fruity smell are its standout traits.",
 		type = 1,
 		manage_influence = 180,
-		pt_num = 20,
+		pt_num = 25,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3377,7 +3406,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -3398,7 +3427,7 @@ pg.base.island_item_data_template = {
 		desc = "It's smooth as velvet, cool, and airy, with a rich flavor.",
 		type = 1,
 		manage_influence = 240,
-		pt_num = 25,
+		pt_num = 60,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3453,7 +3482,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -3491,7 +3520,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			3,
@@ -3529,7 +3558,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			4,
@@ -3550,7 +3579,7 @@ pg.base.island_item_data_template = {
 		desc = "The sweetness of napa cabbage and the umami flavor of tofu. A light and healthy dish.",
 		type = 1,
 		manage_influence = 180,
-		pt_num = 40,
+		pt_num = 65,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3567,7 +3596,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -3605,7 +3634,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			3,
@@ -3643,7 +3672,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -3664,7 +3693,7 @@ pg.base.island_item_data_template = {
 		desc = "The perfect combination of banana and mango. It's pure, concentrated tropical flavor!",
 		type = 1,
 		manage_influence = 190,
-		pt_num = 20,
+		pt_num = 25,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3681,7 +3710,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -3719,7 +3748,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3740,7 +3769,7 @@ pg.base.island_item_data_template = {
 		desc = "A fruity combination of strawberries and lemons. Cooling and great for blowing off the summer heat!",
 		type = 1,
 		manage_influence = 180,
-		pt_num = 25,
+		pt_num = 50,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3757,7 +3786,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3795,7 +3824,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -3833,7 +3862,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3854,7 +3883,7 @@ pg.base.island_item_data_template = {
 		desc = "Lightly steamed, golden corn kernels put into a cup. A common and yummy snack.",
 		type = 1,
 		manage_influence = 180,
-		pt_num = 4,
+		pt_num = 7,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3871,7 +3900,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -3909,7 +3938,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -3947,7 +3976,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			4,
@@ -3985,7 +4014,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -4023,7 +4052,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			4,
@@ -4061,7 +4090,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -4099,7 +4128,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -4137,7 +4166,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -4175,7 +4204,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -4213,7 +4242,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -4251,7 +4280,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4286,7 +4315,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4321,7 +4350,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4356,7 +4385,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4391,7 +4420,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4426,7 +4455,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4461,7 +4490,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4496,7 +4525,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4531,7 +4560,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4566,7 +4595,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4601,7 +4630,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4636,7 +4665,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4671,7 +4700,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4689,7 +4718,7 @@ pg.base.island_item_data_template = {
 		desc = "Often made out of cheap plant fiber. Easy to preserve and write on.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 6,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -4706,7 +4735,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4741,7 +4770,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4776,7 +4805,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4811,7 +4840,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4846,7 +4875,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4881,7 +4910,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4916,7 +4945,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4951,7 +4980,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4986,7 +5015,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -5004,7 +5033,7 @@ pg.base.island_item_data_template = {
 		desc = "Tender filling covered with a fluffy egg skin. Golden and tempting, it's a simple but satisfying delicacy.",
 		type = 1,
 		manage_influence = 210,
-		pt_num = 1,
+		pt_num = 2,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -5042,7 +5071,7 @@ pg.base.island_item_data_template = {
 		desc = "A serving of minced meat with tofu and a soup with napa cabbage and tofu. Straightforward and tasty.",
 		type = 1,
 		manage_influence = 210,
-		pt_num = 200,
+		pt_num = 230,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -5059,7 +5088,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -5097,7 +5126,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -5118,7 +5147,7 @@ pg.base.island_item_data_template = {
 		desc = "The soothing scent of the lavender and the fresh sweetness of the apple come together exquisitely, providing a double-layered kind of enjoyment.",
 		type = 1,
 		manage_influence = 210,
-		pt_num = 200,
+		pt_num = 250,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -5135,7 +5164,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -5173,7 +5202,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -5194,7 +5223,7 @@ pg.base.island_item_data_template = {
 		desc = "A combination of sweet strawberry honey and honey-lemon water. Its sunny flavor will fill you with energy.",
 		type = 1,
 		manage_influence = 260,
-		pt_num = 60,
+		pt_num = 70,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -5211,7 +5240,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -5232,7 +5261,7 @@ pg.base.island_item_data_template = {
 		desc = "Fragrant and tropical mango meets a sweet and crispy corn cup. It lets you taste two types of happiness at once.",
 		type = 1,
 		manage_influence = 250,
-		pt_num = 65,
+		pt_num = 70,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -5249,7 +5278,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -5287,7 +5316,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -5325,7 +5354,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -5363,7 +5392,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			3,
@@ -5401,7 +5430,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -5439,7 +5468,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			5,
@@ -5477,7 +5506,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			3,
@@ -5498,7 +5527,7 @@ pg.base.island_item_data_template = {
 		desc = "Citrus coffee and a strawberry milkshake. This one-two punch of delicious drinks is sure to satisfy you.",
 		type = 1,
 		manage_influence = 260,
-		pt_num = 65,
+		pt_num = 90,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -5515,7 +5544,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			3,
@@ -5809,7 +5838,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10129
+			10127
 		},
 		sub_attribute = {
 			4,
@@ -5844,7 +5873,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10129
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -7061,7 +7090,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -7299,7 +7328,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -7392,7 +7421,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}

@@ -126,6 +126,7 @@ pg.furniture_data_template = setmetatable({
 			251,
 			253,
 			254,
+			255,
 			256,
 			257,
 			258,
@@ -5997,6 +5998,7 @@ pg.furniture_data_template = setmetatable({
 			251,
 			253,
 			254,
+			255,
 			258,
 			260,
 			263,
@@ -7215,6 +7217,7 @@ pg.furniture_data_template = setmetatable({
 			248,
 			253,
 			254,
+			255,
 			256,
 			257,
 			258,
@@ -10516,6 +10519,7 @@ pg.furniture_data_template = setmetatable({
 		251,
 		253,
 		254,
+		255,
 		256,
 		257,
 		258,
@@ -19762,6 +19766,82 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[255] = {
+		advice = 0,
+		name = "Exercise Ball",
+		count = 2,
+		type = 7,
+		dir = 0,
+		rarity = 3,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 0,
+		icon = "yujiatantanqiuicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 255,
+		comfortable = 0,
+		describe = "\"Okay, now just keep your balance and... Aahh!\"",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujiatantanqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

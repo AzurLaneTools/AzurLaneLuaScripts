@@ -82,6 +82,7 @@ slot0.Show = function(slot0, slot1)
 	slot0.story = slot1
 
 	setActive(slot0.speedBtn, true)
+	setActiveByCanvasGroup(slot0.speedBtn, true)
 
 	slot0.speedImg.sprite = GetSpriteFromAtlas("ui/story_atlas", uv0(slot1))
 
@@ -101,7 +102,7 @@ slot0.Hide = function(slot0)
 end
 
 slot0.ShowSettings = function(slot0)
-	setActive(slot0.speedBtn, false)
+	setActiveByCanvasGroup(slot0.speedBtn, false)
 	setActive(slot0.speedPanel, true)
 
 	slot5 = uv0(slot0.story)
@@ -161,6 +162,7 @@ end
 slot0.Clear = function(slot0)
 	slot0:RemoveTimer()
 	setActive(slot0.speedBtn, false)
+	setActiveByCanvasGroup(slot0.speedBtn, true)
 	setActive(slot0.speedPanel, false)
 	slot0.speedAnim:Stop()
 	slot0.speedPanelAnim:Stop()

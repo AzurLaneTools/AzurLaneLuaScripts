@@ -295,9 +295,10 @@ slot0.BuildIslandShipUpgrade = function(slot0, slot1)
 	}, {})
 end
 
-slot0.BuildIslandShipBreakout = function(slot0)
+slot0.BuildIslandShipBreakout = function(slot0, slot1)
 	return uv0(30015, {
-		slot0
+		slot0,
+		slot1
 	}, {})
 end
 

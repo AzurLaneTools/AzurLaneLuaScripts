@@ -266,6 +266,7 @@ slot0.Show = function(slot0)
 
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.adpter, {
+		groupName = "NewBackYardThemeTemplateLayer",
 		pbList = {
 			slot0._tf:Find("adpter/frame")
 		}

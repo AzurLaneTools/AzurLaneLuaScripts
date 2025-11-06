@@ -116,7 +116,14 @@ slot0.OnInit = function(slot0)
 		uv0:emit(IslandMediator.OPEN_RESTAURANT, {
 			restId = uv0.restId,
 			ships = slot0,
-			commodities = uv0.selectedDic
+			commodities = uv0.selectedDic,
+			estimateData = {
+				trade_id = uv0.restId,
+				sell_num_min = uv0.totalMinCnt,
+				sell_num_max = uv0.totalMaxCnt,
+				sell_money_min = uv0.totalMinSales,
+				sell_money_max = uv0.totalMaxSales
+			}
 		})
 	end, SFX_PANEL)
 
@@ -604,6 +611,11 @@ slot0.UpdateShelfItem = function(slot0, slot1, slot2)
 			uv0:ReduceShelfCnt(uv1.id, 1)
 			uv0:FlushEstimate()
 		end, SFX_PANEL)
+
+		if slot7 < slot5.num then
+			slot0:ReduceShelfCnt(slot5.id, slot5.num - slot7)
+			slot0:FlushEstimate()
+		end
 	end
 end
 
@@ -619,24 +631,32 @@ slot0.ReduceShelfCnt = function(slot0, slot1, slot2)
 end
 
 slot0.FlushEstimate = function(slot0)
-	slot1, slot2 = slot0.rest:GetRandomSaleCntBound()
-	slot3 = 0
-	slot4 = 0
-	slot5 = 0
-	slot6 = 0
+	if slot0.rest:GetStatus() == IslandRestaurant.STATUS.OPENING or slot1 == IslandRestaurant.STATUS.CLOSE then
+		slot2 = slot0.rest:GetEstimateData()
 
-	for slot10, slot11 in pairs(slot0.selectedDic) do
-		slot12 = slot0:CaclBaseSaleCnt(slot10)
-		slot13 = math.min(slot11, math.max(slot0.minSaleCnt, slot12 + slot1))
-		slot14 = math.min(slot11, math.max(slot0.minSaleCnt, slot12 + slot2))
-		slot5 = slot5 + slot0:CaclGroupPrice(slot10, slot13)
-		slot6 = slot6 + slot0:CaclGroupPrice(slot10, slot14)
-		slot3 = slot3 + slot13
-		slot4 = slot4 + slot14
+		setText(slot0.estimateCntTF, slot2.cntMin .. "-" .. slot2.cntMax)
+		setText(slot0.estimateSalesTF, slot2.salesMin .. "-" .. slot2.salesMax)
+	else
+		slot2, slot3 = slot0.rest:GetRandomSaleCntBound()
+		slot7 = 0
+		slot0.totalMaxSales = slot7
+		slot0.totalMinSales = 0
+		slot0.totalMaxCnt = 0
+		slot0.totalMinCnt = 0
+
+		for slot7, slot8 in pairs(slot0.selectedDic) do
+			slot9 = slot0:CaclBaseSaleCnt(slot7)
+			slot10 = math.min(slot8, math.max(slot0.minSaleCnt, slot9 + slot2))
+			slot11 = math.min(slot8, math.max(slot0.minSaleCnt, slot9 + slot3))
+			slot0.totalMinSales = slot0.totalMinSales + slot0:CaclGroupPrice(slot7, slot10)
+			slot0.totalMaxSales = slot0.totalMaxSales + slot0:CaclGroupPrice(slot7, slot11)
+			slot0.totalMinCnt = slot0.totalMinCnt + slot10
+			slot0.totalMaxCnt = slot0.totalMaxCnt + slot11
+		end
+
+		setText(slot0.estimateCntTF, slot0.totalMinCnt .. "-" .. slot0.totalMaxCnt)
+		setText(slot0.estimateSalesTF, slot0.totalMinSales .. "-" .. slot0.totalMaxSales)
 	end
-
-	setText(slot0.estimateCntTF, slot3 .. "-" .. slot4)
-	setText(slot0.estimateSalesTF, slot5 .. "-" .. slot6)
 end
 
 slot0.CaclBaseSaleCnt = function(slot0, slot1)

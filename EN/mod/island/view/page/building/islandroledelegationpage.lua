@@ -156,6 +156,7 @@ slot0.UpdateDelegationTabItem = function(slot0, slot1, slot2)
 	slot9 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(slot0.placeId):GetDelegationSlotData(pg.island_production_commission[slot0.placeCommissionList[slot3]].slot)
 
 	setActive(slot2:Find("lock"), not slot9)
+	setActive(slot2:Find("slotName"), slot9)
 	setButtonEnabled(slot2, slot9 ~= nil)
 
 	if slot0.selectedIdx == slot3 then
@@ -232,6 +233,8 @@ end
 slot0.OnExit = function(slot0)
 	slot0.contextData.selectedIdx = nil
 	slot0.contextData.selectedShip = nil
+
+	IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME)
 end
 
 slot0.StartTimer = function(slot0)

@@ -159,6 +159,23 @@ pg.island_action = {
 		responder_feedback = "",
 		jump_page = {}
 	},
+	[1013] = {
+		resource = "herocoming",
+		name = "The Hero is Here",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		tech_id = 0,
+		desc = "The hero is here! Express your style and enthusiasm to the world.",
+		id = 1013,
+		responder_feedback = "",
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
+	},
 	[2000] = {
 		resource = "givemefive",
 		name = "High Five",
@@ -225,7 +242,8 @@ pg.island_action = {
 			1008,
 			1009,
 			1011,
-			1012
+			1012,
+			1013
 		},
 		{
 			2000,
@@ -246,6 +264,7 @@ pg.island_action = {
 		1009,
 		1011,
 		1012,
+		1013,
 		2000,
 		2001,
 		2002

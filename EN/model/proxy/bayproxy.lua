@@ -797,6 +797,12 @@ slot0.GetRecommendShip = function(slot0, slot1, slot2, slot3)
 		return uv0[slot0] < uv0[slot1]
 	end)
 
+	if getProxy(SettingsProxy):GetRecommendLowEnerySkipEnable() then
+		slot4 = underscore.filter(slot4, function (slot0)
+			return not slot0:isLowEnergy()
+		end)
+	end
+
 	slot6 = {}
 
 	for slot10, slot11 in ipairs(slot2) do

@@ -199,6 +199,7 @@ pg.pay_data_display = setmetatable({
 		2057,
 		2058,
 		2059,
+		2063,
 		5011,
 		5012,
 		5013,
@@ -20918,6 +20919,114 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40066,
+				1
+			}
+		}
+	},
+	[2063] = {
+		picture = "huteng_package",
+		name = "Outfit Selection Pack (Musashi)",
+		type = 0,
+		second_text = "",
+		descrip = "Contains an Outfit Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
+		subject = "Outfit Selection Pack (Musashi)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1799,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 0,
+		package_tag = "Great\nDeal",
+		type_order = 5,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.pack33",
+		extra_gem = 0,
+		id = 2063,
+		airijp_id = "com.yostaren.azurlane.pack33",
+		name_display = "Outfit Selection Pack (Musashi)",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 1,
+		extra_service_item = {
+			{
+				2,
+				59565,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59565,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40070,
 				1
 			}
 		}

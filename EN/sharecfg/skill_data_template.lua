@@ -2696,6 +2696,7 @@ pg.skill_data_template = setmetatable({
 		902320,
 		902330,
 		902340,
+		902350,
 		1010140,
 		1010390,
 		1010410,
@@ -2793,6 +2794,8 @@ pg.skill_data_template = setmetatable({
 		1011450,
 		1012430,
 		10151810,
+		1011910,
+		1011390,
 		1090010,
 		1090020,
 		1090030,
@@ -177139,6 +177142,20 @@ Additionally, once per battle each, the following effects activate based on the 
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902350] = {
+		desc_get = "",
+		name = "Rapid Response",
+		type = 1,
+		max_level = 1,
+		desc = "When this ship launches an airstrike: additionally launches an interceptive airstrike.",
+		id = 902350,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -190021,6 +190038,256 @@ When this ship's Divine Marksman barrage activates, if there is an enemy with th
 				},
 				{
 					"15.0%"
+				}
+			}
+		}
+	},
+	[1011910] = {
+		desc_get = "",
+		name = "Patriotic Spirit+",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship uses Eagle Union aircraft: increases that aircraft's efficiency by $1. When the battle starts: increases your Eagle Union Vanguard ships' AA and EVA by $1 and decreases your Eagle Union Main Fleet ships' DMG taken by $1. Every 20s: launches a $2 special airstrike (DMG is based on the skill's level).",
+		id = 1011910,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1011390] = {
+		desc_get = "",
+		name = "Silent Hunter+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this boat's torpedo DMG dealt by $1 and increases her DMG dealt against CVs and CVLs by $3. When this boat's torpedoes hit an enemy: $2 chance to inflict Flooding ailment on that enemy for 24s, inflicting DMG every 3s (DMG is based on this ship's TRP stat). If this effect activates again while the Flooding ailment is active, its duration is reset.",
+		id = 1011390,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
 				}
 			}
 		}

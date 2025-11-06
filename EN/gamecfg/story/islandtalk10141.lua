@@ -1,6 +1,6 @@
 return {
 	mode = 9,
-	id = "ISLANDTALK10131",
+	id = "ISLANDTALK10141",
 	map = {
 		{
 			101400,
