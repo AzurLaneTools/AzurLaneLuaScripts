@@ -9,7 +9,7 @@ return {
 			bgm = "story-theme-sardinia",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自从结束了九号神之军械库的视察后，马可波罗就将自己关在大教堂的圣座办公室中，用全部精力开始思考起对策来。",
+			say = "自從結束了九號神之軍械庫的視察後，馬可波羅就將自己關在大教堂的聖座辦公室中，用全部精力開始思考起對策來。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -32,7 +32,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"大教堂·圣座办公室",
+				"大教堂聖座辦公室",
 				3
 			}
 		},
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "与此同时，原本属于圣座的工作她也没有丝毫落下。",
+			say = "與此同時，原本屬於聖座的工作她也沒有絲毫落下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "就这样，一周时间转瞬即逝。",
+			say = "就這樣，一週時間轉瞬即逝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "虽然马可波罗的应对计划还没写出个所以然，但是教廷所积压的所有工作都已经被一扫而空了。",
+			say = "雖然馬可波羅的應對計畫還沒寫出個所以然，但是教廷所積壓的所有工作都已經被一掃而空了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/knockdoor1",
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,11 +85,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣座冕下，您叫我？",
+			say = "聖座冕下，您叫我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +98,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……卡尔杜齐啊，我手头的工作都处理完了，有新的么？",
+			say = "啊……卡爾杜奇啊，我手邊的工作都處理完了，有新的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,11 +113,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……非常抱歉，已经没有了。",
+			say = "……非常抱歉，已經沒有了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,12 +126,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉……还不够，远远不够。我需要更多的工作，更多的数据，更多的表格……",
+			say = "…………….還不夠，遠遠不夠。我需要更多的工作，更多的數據，更多的表格……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,12 +141,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我对于这里的了解，终究还是太少了……",
+			say = "我對於這裡的了解，終究還是太少了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,12 +155,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样下去，伟大的反制计划什么时候才能做出来啊！",
+			say = "這樣下去，偉大的反制計畫什麼時候才能做出來啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,13 +170,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			dir = 1,
 			fontsize = 24,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我说，卡尔杜齐……圣座冕下不会工作把脑子用傻了吧？（小声）",
+			say = "我說，卡爾杜奇……聖座冕下不會工作把腦子用傻了吧？（小聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,12 +185,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			fontsize = 24,
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘘……别乱说话！（小声）",
+			say = "噓……別亂說話！（小聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,13 +200,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			dir = 1,
 			fontsize = 24,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你都没反驳我，说明你也是这么想的……（小声）",
+			say = "妳都沒反駁我，表示妳也是這麼想的……（小聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,12 +215,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			fontsize = 24,
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "胡说，我对如此勤奋工作的圣座冕下心中只有无尽的敬佩……（小声）",
+			say = "胡說，我對如此勤奮工作的聖座冕下心中只有無盡的敬佩……（小聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,12 +230,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳、我听得到啊！",
+			say = "咳咳、我聽得到啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,10 +250,10 @@ return {
 			actor = 601110,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "圣座冕下，我们认为您最近有些工作过度了。您还是应该多休息一下，保重身体才是。",
+			say = "聖座冕下，我們認為您最近有些工作過度了。您還是應該多休息一下，保重身體才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,10 +263,10 @@ return {
 			actor = 601110,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不如我们今天去佛罗伦萨，验收一下那里新完工的教廷设施，也顺便转换一下心情如何？",
+			say = "不如我們今天去佛羅倫斯，驗收那裡新完工的教廷設施，也順便轉換一下心情如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,12 +276,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，是那座教堂吧~那里还有我最近才完成的画廊哦！",
+			say = "啊，是那座教堂吧~那裡還有我最近才完成的畫廊喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,12 +291,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（去欣赏新完成的教堂壁画么……不错，确实是个转换心情的好方式！）",
+			say = "（去欣賞新完成的教堂壁畫嗎……不錯，確實是個轉換心情的好方式！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,12 +306,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不过教廷设施又是什么……该不会是什么塞壬授意下修建的危险设施吧！）",
+			say = "（不過教廷設施又是什麼……該不會是什麼塞壬授意下修建的危險設施吧！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,12 +320,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（嗯……于情于理，都得去看一下了！）",
+			say = "（嗯……於情於理，都得去看一下了！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,11 +335,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣座冕下，您意下如何？",
+			say = "聖座冕下，您意下如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,12 +349,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不错，甚合本座心意。你去做出发准备吧~！",
+			say = "不錯，甚合本座心意。妳去做出發準備吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "star_level_bg_546",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "列车有规律的振动声中，马可波罗一行人踏上了前往佛罗伦萨的旅程。",
+			say = "在列車有規律的振動聲中，馬可波羅一行人踏上了前往佛羅倫斯的旅程。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -388,7 +388,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"圣座专列·车厢",
+				"聖座專列·車廂",
 				3
 			}
 		},
@@ -397,7 +397,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "此刻，焦苏埃·卡尔杜齐一个人在隔壁车厢静静地构思着诗句。",
+			say = "此刻，焦蘇埃·卡爾杜奇一個人在隔壁車廂靜靜地構思詩句。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "在一旁的拉斐尔则正对着窗外驶过的景色出神，似是构思着下一幅伟大的作品。",
+			say = "在一旁的拉斐爾則正對著窗外駛過的景色出神，似是構思下一幅偉大的作品。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "在更远处的车厢中，负责护卫工作的巴拉卡少校正与不请自来的大记者阿尔弗雷多·奥里亚尼和蹭顺风车的大发明家达芬奇闹成一团。",
+			say = "在更遠處的車廂中，負責護衛工作的巴拉卡少校正與不請自來的大記者阿爾弗雷多·奧里亞尼和蹭順風車的大發明家達文西鬧成一團。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "马可波罗听着这些或陌生或熟悉的声音，连日来紧绷的心神不知不觉放松下来。",
+			say = "馬可波羅聽著這些或陌生或熟悉的聲音，連日來緊繃的心神不知不覺放鬆下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "再次成为受选者的兴奋、来到陌生世界的孤独、发现塞壬阴谋的紧张，连日工作的疲惫，复杂的感情如潮水般袭来。",
+			say = "再次成為受選者的興奮、來到陌生世界的孤獨、發現塞壬陰謀的緊張，連日工作的疲憊，複雜的感情如潮水般襲來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "终于——她沉沉地进入了梦乡。",
+			say = "終於——她沉沉地進入了夢鄉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			bgm = "theme-marcopolo",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "晨光下，一支整装待发的军队正等待着接受领袖的检阅。",
+			say = "晨光下，一隻整裝待發的軍隊正等待接受領袖的檢閱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "圣座冕下，圣教军正在等待您的检阅。",
+			say = "聖座冕下，聖教軍正在等待您的檢閱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们为这场您圣座一百周年纪念阅兵式已经筹备了很久，一定不会让您失望的！",
+			say = "我們為這場您聖座一百週年紀念閱兵儀式已經籌備了很久，一定不會讓您失望的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,9 +520,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "很好，做得不错。",
+			say = "很好，做得很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,8 +534,8 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "伟大的马可波罗",
-			say = "嗯，天气稍微有些凉了啊。",
+			actorName = "偉大的馬可波羅",
+			say = "嗯，天氣稍微涼了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣座冕下，您的披风。",
+			say = "聖座冕下，您的披風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,9 +560,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "很好，很好~本圣座的权杖呢？",
+			say = "很好，很好~本聖座的權杖呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣座冕下，您的权杖。",
+			say = "聖座冕下，您的權杖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,9 +587,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "啊哈哈哈哈哈哈——",
+			say = "啊哈哈哈哈哈哈哈——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,9 +633,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "阿尔弗雷多，刚才那张本圣座还没摆好姿势，重来重来。",
+			say = "阿爾弗雷多，剛才那張聖座還沒擺好姿勢，重來重來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好的，一切听您的吩咐！",
+			say = "好的，一切都聽您的指示！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,9 +670,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "还有拉斐尔和达芬奇，画的构图也要好好选一选哦！",
+			say = "還有拉斐爾和達文西，畫的構圖也要好好選一選哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心吧，伟大的马可波罗圣座冕下~",
+			say = "放心吧，偉大的馬可波羅聖座冕下~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我办事，您放心！",
+			say = "我辦事，您放心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "圣座冕下，时间差不多，可以开始了。",
+			say = "聖座冕下，時間差不多，可以開始了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,8 +732,8 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "伟大的马可波罗",
-			say = "第一方阵，我记得是黎塞留带头没错吧？",
+			actorName = "偉大的馬可波羅",
+			say = "第一方陣，我記得是黎胥留帶頭沒錯吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,9 +758,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "呵呵呵~不错，后面几个方阵呢？你再念给我听一遍~",
+			say = "呵呵呵~不錯，後面幾個方陣呢？妳再念一遍給我聽~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601110,
-			say = "遵命。第二方阵由伊丽莎白女王带领、第三方阵由{namecode:435:俾斯麦}带领、第四方阵由罗马带领——",
+			say = "遵命。第二方陣由伊莉莎白女王帶領、第三方陣由俾斯麥帶領、第四方陣由羅馬帶領——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "第五方阵由{namecode:529:苏维埃同盟}带领、第六方阵由{namecode:201:衣阿华}带领、第七方阵由{namecode:83:大和}带领，第八方阵由逸仙带领——",
+			say = "第五方陣由蘇維埃聯盟帶領、第六方陣由愛荷華帶領、第七方陣由大和帶領，第八方陣由逸仙帶領——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601110,
-			say = "第九至第十三方阵则由五位大天使分别带领。",
+			say = "第九至第十三方陣則由五位大天使分別帶領。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			say = "嗯……嗯？五位大天使？",
 			typewriter = {
 				speed = 0.05,
@@ -824,7 +824,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601110,
-			say = "没错，那五位在神的命令下降临世界，成为您忠实盟友的那五位大天使阁下呀。",
+			say = "沒錯，那五位在神的命令下降臨世界，成為您忠實盟友的那五位大天使閣下呀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,7 +836,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "分别是洞察之大天使、无量之大天使、净化之大天使、毁灭之大天使、构建之大天使。",
+			say = "分別是洞察之大天使、無量之大天使、淨化之大天使、毀滅之大天使、構建之大天使。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,9 +848,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "……啊？观察者、测试者、净化者、清除者和构建者？！",
+			say = "……啊？觀察者、測試者、淨化者、清除者和構建者？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -867,9 +867,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "它们也听我号令了？",
+			say = "它們也聽我號令了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601110,
-			say = "怎么可能啊，伟大的马可波罗圣座冕下，它们可是神的使者啊。",
+			say = "怎麼可能啊，偉大的馬可波羅聖座冕下，它們可是神的使者啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +894,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
 			say = "那我呢？！",
 			typewriter = {
@@ -914,7 +914,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601110,
-			say = "您的话……您自己不是很清楚么？",
+			say = "您的話……您自己不是很清楚嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -926,7 +926,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
 			say = "不、不——我不是傀儡！",
 			typewriter = {
@@ -950,9 +950,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "这些塞壬的神是假的！受选者的身份也是假的！",
+			say = "這些塞壬的神是假的！受選者的身分也是假的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,7 +976,7 @@ return {
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣座冕下，大天使能听到您说话的，您冷静一点！",
+			say = "聖座冕下，大天使能聽見您說話的，您冷靜一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,9 +994,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "我才是神的使者！我才是被祂选中之人！",
+			say = "我才是神的使者！我才是被祂選中之人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "圣座冕下，圣座冕下！",
+			say = "聖座冕下，聖座冕下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1037,9 +1037,9 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大的馬可波羅",
 			hidePaintObj = true,
-			say = "神啊——请赐予我消灭敌人的力量吧！",
+			say = "神啊——請賜給我消滅敵人的力量吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1055,7 +1055,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			bgm = "story-theme-sardinia",
 			actor = 699010,
@@ -1077,11 +1077,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣座冕下……您、是做噩梦了么？",
+			say = "聖座冕下……您、是做惡夢了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1090,12 +1090,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噩、噩梦么……明明最开始是个好梦呢……",
+			say = "惡、惡夢嗎……明明最開始是個好夢呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1105,12 +1105,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……没事，只是这段时间没睡好，梦中也有些不宁静罢了。",
+			say = "呼……沒事，只是這段時間沒睡好，夢中也有些不寧靜罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1119,12 +1119,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "车怎么停了？",
+			say = "車怎麼停了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1134,11 +1134,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们已经抵达目的地了，巴拉卡少校正在带人做车站的安全检查，等检查结束后我们就可以下车了。",
+			say = "我們已經抵達目的地了，巴拉卡少校正在帶人做車站的安全檢查，等檢查結束後我們就可以下車了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,13 +1148,13 @@ return {
 			portrait = 608020,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			dir = 1,
 			hidePainting = true,
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣座冕下，我还有事先走了，多谢你的顺风车啦~",
+			say = "聖座冕下，我還有事先走了，多謝妳的順風車啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1164,13 +1164,13 @@ return {
 			portrait = 601080,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			hidePainting = true,
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有机会再见啦，拜拜~！",
+			say = "有機會再見啦，拜拜~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1179,12 +1179,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们不用等安全检查么？",
+			say = "她們不用等安全檢查嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1194,10 +1194,10 @@ return {
 			actor = 601110,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "达芬奇说没人能伤得了她，还说……我们一群舰船坐在火车上等安全检查很奇怪。",
+			say = "達文西說沒人能傷了她，還說……我們一群艦船坐在火車上等安全檢查很奇怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1207,12 +1207,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………确实，是好奇怪，我们为什么要坐在车上等安全检查？",
+			say = "……確實，是好奇怪，我們為什麼要坐在車上等安全檢查？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1222,11 +1222,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦，巴拉卡少校说这是圣座出行一直以来的惯例。",
+			say = "哦，巴拉卡少校說這是聖座一直以來的慣例。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1236,12 +1236,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是，我是舰船啊……让她不必麻烦了，一切从简，我们直接去教堂吧。",
+			say = "可是，我是艦船啊……讓她不必麻煩了，一切從簡，我們直接去教堂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1251,11 +1251,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣座冕下，您确定么？",
+			say = "聖座冕下，您確定嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1264,12 +1264,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，在我讲排场的时候，敌人正在行动，我也应该行动起来了。",
+			say = "嗯，在我講排場的時候，敵人正在行動，我也應該要行動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1278,12 +1278,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正好在刚才的梦中我得到了一点破局的思路……",
+			say = "正好在剛才的夢中我得到了一點破局的思路……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1293,10 +1293,10 @@ return {
 			actor = 601110,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我有点不太明白您在说什么。",
+			say = "我有點不太明白您在說什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1306,12 +1306,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_546",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没关系！总而言之，我们别傻等在这里了，快点行动起来吧！",
+			say = "沒關係！總而言之，我們別傻等在這裡了，快點行動起來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

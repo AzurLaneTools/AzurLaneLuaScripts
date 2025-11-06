@@ -20728,6 +20728,156 @@ pg.activity_ins_template = {
 			5593
 		}
 	},
+	[541] = {
+		ship_group = 60508,
+		name = "Raffaello",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "lafeier",
+		id = 541,
+		group_id = 541,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				6
+			},
+			{
+				15,
+				23,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[542] = {
+		ship_group = 60803,
+		name = "Maggiore Baracca",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "balaka",
+		id = 542,
+		group_id = 542,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				7
+			},
+			{
+				11,
+				7,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[543] = {
+		ship_group = 60111,
+		name = "Giosuè Carducci",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "jiaosuai",
+		id = 543,
+		group_id = 543,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				8
+			},
+			{
+				13,
+				52,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[544] = {
+		ship_group = 60203,
+		name = "Bartolomeo Colleoni",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "batuoluomeiao",
+		id = 544,
+		group_id = 544,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				9
+			},
+			{
+				19,
+				36,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[545] = {
+		ship_group = 50209,
+		name = "Chi An",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "jian",
+		id = 545,
+		group_id = 545,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				10
+			},
+			{
+				17,
+				29,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[546] = {
+		ship_group = 20233,
+		name = "Scylla",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "sikula_3",
+		id = 546,
+		group_id = 546,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				11
+			},
+			{
+				12,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	[547] = {
 		ship_group = 10713,
 		name = "Franklin",
@@ -23136,6 +23286,12 @@ pg.activity_ins_template = {
 		538,
 		539,
 		540,
+		541,
+		542,
+		543,
+		544,
+		545,
+		546,
 		547,
 		548,
 		549,

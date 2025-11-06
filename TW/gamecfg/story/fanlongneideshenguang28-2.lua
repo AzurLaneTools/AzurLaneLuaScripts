@@ -9,7 +9,7 @@ return {
 			bgm = "battle-thechariotvii",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此起彼伏的爆炸声中，仿佛更加凝实的红黑色的巨兽对陷入其中的猎物发出了怒涛般的攻击。",
+			say = "此起彼伏的爆炸聲中，彷彿更凝實的紅黑色的巨獸對陷入其中的獵物發出了怒濤般的攻擊。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -45,7 +45,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "（有些急促的机械轰鸣声）",
+			say = "（有些急促地機械轟鳴聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,12 +55,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "就是现在——",
+			say = "就是現在——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,12 +70,12 @@ return {
 			expression = 6,
 			side = 2,
 			dir = 1,
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			actor = 699010,
 			bgName = "star_level_bg_598",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于，反攻之时已到——",
+			say = "終於，反攻之時已到——",
 			effects = {
 				{
 					center = true,
@@ -105,7 +105,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"撒丁岛·马可波罗准备区",
+				"薩丁島·馬可波羅準備區",
 				3
 			}
 		},
@@ -113,12 +113,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "卡尔杜齐，命令各处节点立刻关闭永夜战旗，重启神光之网。",
+			say = "卡爾杜奇，命令各處節點立刻關閉永夜戰旗，重啟神光之網。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,12 +128,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			paintingNoise = true,
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命，圣座冕下。",
+			say = "遵命，聖座冕下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,12 +143,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉斐尔，立刻带领审判型机甲武装加入战斗！",
+			say = "拉斐爾，立刻帶領審判型機甲武裝加入戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,13 +158,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			dir = 1,
 			paintingNoise = true,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我优秀的作品们，随我一起去大闹一场吧~！",
+			say = "我優秀的作品們，隨我一起去大鬧一場吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,12 +174,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有巴拉卡少校，你也带领教廷近卫舰队全军出击！",
+			say = "還有巴拉卡少校，妳也帶領教廷近衛艦隊全軍出擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,13 +189,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			paintingNoise = true,
 			actor = 608030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于可以加入战斗了，我已经待命多时了！",
+			say = "終於可以加入戰鬥了，我已經待命多時了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,12 +205,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后——",
+			say = "最後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,12 +220,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "神啊——请赐予我力量，让天国降临吧——！",
+			say = "神啊——請賜給我力量，讓天國降臨吧——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

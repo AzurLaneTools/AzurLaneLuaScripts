@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			bgm = "battle-thechariotvii",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "轟——————！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -71,7 +71,7 @@ return {
 				number = 2
 			},
 			location = {
-				"撒丁岛·安德烈亚防线",
+				"薩丁島·安德烈亞防線",
 				3
 			}
 		},
@@ -79,11 +79,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			paintingNoise = true,
 			actor = 602030,
 			nameColor = "#A9F548FF",
-			say = "安德烈亚，我们已经与代行者发生了战斗。",
+			say = "安德烈亞，我們已經與代行者發生了戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,11 +93,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			paintingNoise = true,
 			actor = 602030,
 			nameColor = "#A9F548FF",
-			say = "敌方战斗力比预期中要强，速战速决已经不可能了，我们只能尽可能拖住她们。",
+			say = "敵方戰鬥力比預期中強，速戰速決已經不可能了，我們只能盡量拖住她們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			nameColor = "#FFC960",
 			say = "我知道了。",
@@ -120,12 +120,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			paintingNoise = true,
 			actor = 601080,
 			nameColor = "#A9F548FF",
-			say = "飞空艇舰队这边倒是作战顺利哦！",
+			say = "飛空艇艦隊這邊倒是作戰順利哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,11 +135,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 601080,
 			nameColor = "#A9F548FF",
-			say = "敌人明显没有做好应对空中打击的能力，量产型舰队已经被我们炸得人仰马翻了~",
+			say = "敵人明顯沒有做好應對空中打擊的能力，量產型艦隊已經被我們炸得人仰馬翻了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,12 +149,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			dir = 1,
 			paintingNoise = true,
 			actor = 608020,
 			nameColor = "#A9F548FF",
-			say = "目前我们有余力支援，要派遣航空编队过去么？",
+			say = "目前我們有餘力支援，要派遣航空編隊過去嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,11 +164,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "不用，计划不变。",
+			say = "不用，計劃不變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			dir = 1,
 			paintingNoise = true,
 			actor = 608020,
@@ -194,7 +194,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,12 +243,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9703010,
 			nameColor = "#FFC960",
-			say = "安德烈亚！本轮攻击依然无效，也没有观察到永夜领域对它产生了任何干扰效果！",
+			say = "安德烈亞！本輪攻擊依然無效，也沒有觀察到永夜領域對它產生了任何干擾效果！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,11 +258,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "……整体功率依然不足。卡尔杜齐，各处节点需要尽快夺回来。",
+			say = "……整體功率依然不足。卡爾杜奇，各處節點需要盡快奪回。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,10 +272,10 @@ return {
 			actor = 601110,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "各处已经竭尽全力在进攻了……嗯，我会想办法再快一点的。",
+			say = "各處已經竭盡全力再進攻了……嗯，我會想辦法再快一點的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,11 +285,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
-			say = "是不是该考虑备用方案了？",
+			say = "是不是該考慮備用方案了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,11 +299,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "还不到时候，准备进行下一轮打击吧。",
+			say = "還不到時候，準備進行下一輪打擊吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -157,6 +157,7 @@ pg.furniture_data_template = setmetatable({
 			291,
 			292,
 			293,
+			295,
 			296,
 			297,
 			298,
@@ -174,6 +175,7 @@ pg.furniture_data_template = setmetatable({
 			316,
 			317,
 			318,
+			320,
 			100002,
 			100003,
 			100004,
@@ -3139,6 +3141,31 @@ pg.furniture_data_template = setmetatable({
 			318304,
 			318305
 		},
+		[119] = {
+			319001,
+			319002,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116,
+			319117,
+			319301,
+			319302,
+			319303,
+			319304
+		},
 		[120] = {
 			320001,
 			320002,
@@ -5224,6 +5251,22 @@ pg.furniture_data_template = setmetatable({
 			318113,
 			318114,
 			318115,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116,
 			320101,
 			320102,
 			320103,
@@ -5613,6 +5656,7 @@ pg.furniture_data_template = setmetatable({
 			308,
 			313,
 			317,
+			320,
 			100002,
 			100003,
 			100004,
@@ -5723,6 +5767,7 @@ pg.furniture_data_template = setmetatable({
 			289,
 			292,
 			293,
+			295,
 			296,
 			302,
 			303,
@@ -5914,6 +5959,7 @@ pg.furniture_data_template = setmetatable({
 			316123,
 			317111,
 			318305,
+			319117,
 			320115,
 			321114,
 			322116,
@@ -6026,6 +6072,7 @@ pg.furniture_data_template = setmetatable({
 			316001,
 			317001,
 			318001,
+			319001,
 			320001,
 			321001,
 			322001,
@@ -6139,6 +6186,7 @@ pg.furniture_data_template = setmetatable({
 			316002,
 			317002,
 			318002,
+			319002,
 			320002,
 			321002,
 			322002,
@@ -6484,6 +6532,10 @@ pg.furniture_data_template = setmetatable({
 			318302,
 			318303,
 			318304,
+			319301,
+			319302,
+			319303,
+			319304,
 			320301,
 			320302,
 			320303,
@@ -6599,6 +6651,7 @@ pg.furniture_data_template = setmetatable({
 			316002,
 			317002,
 			318002,
+			319002,
 			320002,
 			321002,
 			322002,
@@ -6744,6 +6797,7 @@ pg.furniture_data_template = setmetatable({
 			290,
 			292,
 			293,
+			295,
 			296,
 			297,
 			298,
@@ -6760,6 +6814,7 @@ pg.furniture_data_template = setmetatable({
 			316,
 			317,
 			318,
+			320,
 			100002,
 			100004,
 			100005,
@@ -8667,6 +8722,23 @@ pg.furniture_data_template = setmetatable({
 			318113,
 			318114,
 			318115,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116,
+			319117,
 			320101,
 			320102,
 			320103,
@@ -8988,6 +9060,7 @@ pg.furniture_data_template = setmetatable({
 			316001,
 			317001,
 			318001,
+			319001,
 			320001,
 			321001,
 			322001,
@@ -9609,6 +9682,9 @@ pg.furniture_data_template = setmetatable({
 			318303,
 			318304,
 			318305,
+			319302,
+			319303,
+			319304,
 			320301,
 			320302,
 			320303,
@@ -9651,7 +9727,8 @@ pg.furniture_data_template = setmetatable({
 			310303,
 			310304,
 			310305,
-			312301
+			312301,
+			319301
 		},
 		[12] = {
 			46131
@@ -9814,6 +9891,7 @@ pg.furniture_data_template = setmetatable({
 		291,
 		292,
 		293,
+		295,
 		296,
 		297,
 		298,
@@ -9831,6 +9909,7 @@ pg.furniture_data_template = setmetatable({
 		316,
 		317,
 		318,
+		320,
 		100002,
 		100003,
 		100004,
@@ -12591,6 +12670,29 @@ pg.furniture_data_template = setmetatable({
 		318303,
 		318304,
 		318305,
+		319001,
+		319002,
+		319101,
+		319102,
+		319103,
+		319104,
+		319105,
+		319106,
+		319107,
+		319108,
+		319109,
+		319110,
+		319111,
+		319112,
+		319113,
+		319114,
+		319115,
+		319116,
+		319117,
+		319301,
+		319302,
+		319303,
+		319304,
 		320001,
 		320002,
 		320101,
@@ -20694,6 +20796,50 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[295] = {
+		can_rotate = 0,
+		describe = "仿照永夜之冠製造的複製品，在保留了其獨有光芒的同時，消除了META化侵蝕，請放心欣賞。",
+		gain_by = "樊籠內的神光 ",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "永夜之冠（複製品）",
+		advice = 0,
+		id = 295,
+		tag = 8,
+		comfortable = 0,
+		icon = "lafeierxunzhangicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"lafeierxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[296] = {
 		can_rotate = 0,
 		describe = "冷藏有關鍵樣本的關鍵樣本冷藏櫃，十分關鍵。",
@@ -21429,6 +21575,100 @@ pg.base.furniture_data_template = {
 				"shengligouhuo",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[320] = {
+		advice = 0,
+		name = "老先覺功夫湯浴桶",
+		count = 1,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "laoxianjuehuoguoicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 320,
+		comfortable = 2,
+		describe = "咕嘟咕嘟~溫暖到心~",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"laoxianjuehuoguoB",
+				"normal"
+			},
+			{
+				"laoxianjuehuoguoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash",
+						nil,
+						"wash"
+					}
+				},
+				{
+					[3] = {
+						"walk",
+						"walk",
+						1
+					},
+					[4] = walk
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					3,
+					194.91
+				},
+				{
+					257.3,
+					362.7
+				},
+				"chuanmo/laoxianjuehuoguo_mask"
+			},
+			{
+				3.71,
+				-195.3
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -146940,6 +147180,1006 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"zhuangshiguahuacj7",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319001] = {
+		can_rotate = 0,
+		describe = "踏上這片金色的土地，彷彿能聽見遠古的迴響……",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/dibanaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "黃金聖域地磚",
+		advice = 0,
+		tag = 4,
+		id = 319001,
+		icon = "dibanajicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319002] = {
+		can_rotate = 0,
+		describe = "踏上這片金色的土地，彷彿能聽見遠古的迴響……",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "黃金聖域壁紙",
+		advice = 0,
+		id = 319002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbiajicon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiaj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[319101] = {
+		can_rotate = 0,
+		describe = "清涼的湖水蕩漾著古老的祝福，要不要來享受一下？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/chitangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "聖潔淨池",
+		advice = 0,
+		id = 319101,
+		tag = 1,
+		comfortable = 4,
+		icon = "chitangajicon",
+		size = {
+			11,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-19.1,
+					-100.8
+				},
+				{
+					-1,
+					1
+				},
+				"aj/chitangaj_using",
+				0,
+				{
+					{
+						0.5,
+						2
+					},
+					{
+						662,
+						399
+					},
+					"aj/chitangaj_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319102] = {
+		can_rotate = 0,
+		describe = "上面擺滿了異國水果與古老典籍……躺上去說不定能夢到些不可思議的事呢",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/ditanaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "神秘魔毯",
+		advice = 0,
+		id = 319102,
+		tag = 1,
+		comfortable = 3,
+		icon = "ditanajicon",
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					13.9,
+					12.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319103] = {
+		can_rotate = 0,
+		describe = "守護神殿的神聖衛士，它與夥伴一起日夜巡視著這片領域！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/jiudiaoxiang1aj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "守望啾神像",
+		advice = 0,
+		tag = 1,
+		id = 319103,
+		icon = "jiudiaoxiang1ajicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319104] = {
+		can_rotate = 0,
+		describe = "守護神殿的神聖衛士，它與夥伴一起日夜巡視著這片領域！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/jiudiaoxiang2aj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "守望啾神像2",
+		advice = 0,
+		tag = 1,
+		id = 319104,
+		icon = "jiudiaoxiang2ajicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319105] = {
+		can_rotate = 0,
+		describe = "凝視著遠方的獅身人面像，它的目光中藏著多少千年的秘密？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/shishendiaoxiang1aj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "獅面守護者",
+		advice = 0,
+		tag = 1,
+		id = 319105,
+		icon = "shishendiaoxiang1ajicon",
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319106] = {
+		can_rotate = 0,
+		describe = "凝視著遠方的獅身人面像，它的目光中藏著多少千年的秘密？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/shishendiaoxiang2aj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "獅面守護者2",
+		advice = 0,
+		tag = 1,
+		id = 319106,
+		icon = "shishendiaoxiang2ajicon",
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319107] = {
+		can_rotate = 0,
+		describe = "飄著香氣的異國水果，商人們正在耐心等待下一位顧客！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/xiaotanaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "異國市集攤",
+		advice = 0,
+		tag = 1,
+		id = 319107,
+		icon = "xiaotanajicon",
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319108] = {
+		can_rotate = 0,
+		describe = "這片沙堆下是否埋藏著尚未被發現的寶藏……要不要靠近看看？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/shaduiaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "遠古沙堆",
+		advice = 0,
+		tag = 1,
+		id = 319108,
+		icon = "shaduiajicon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319109] = {
+		can_rotate = 0,
+		describe = "高高在上的指揮喵雕像，它那威嚴的姿態似乎在指引著什麼！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/maoshixiangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮喵守望者",
+		advice = 0,
+		tag = 1,
+		id = 319109,
+		icon = "maoshixiangajicon",
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319110] = {
+		can_rotate = 0,
+		describe = "來自遠方的商人帶來了神秘的商品，每一件都藏著不為人知的故事！要不要挑選一件帶回去？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/guangchangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "異邦集市",
+		advice = 0,
+		tag = 1,
+		id = 319110,
+		icon = "guangchangajicon",
+		comfortable = 4,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319111] = {
+		can_rotate = 0,
+		describe = "看似普通的陶罐……但還是不要隨便敲打比較好！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "眠蛇陶罐",
+		advice = 0,
+		id = 319111,
+		tag = 1,
+		comfortable = 2,
+		icon = "taoqiajicon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taoqiaj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319112] = {
+		can_rotate = 0,
+		describe = "巍峨的石柱托起神殿，每一道紋飾都是匠人智慧的見證！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/hengliangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "聖殿柱",
+		advice = 0,
+		tag = 1,
+		id = 319112,
+		icon = "hengliangajicon",
+		comfortable = 2,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319113] = {
+		can_rotate = 0,
+		describe = "裹著繃帶的啾啾，是被法老的詛咒纏上了嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/bengdaijiuaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "木乃伊啾",
+		advice = 0,
+		tag = 1,
+		id = 319113,
+		icon = "bengdaijiuajicon",
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319114] = {
+		can_rotate = 0,
+		describe = "金光閃閃的神秘棺木，還是不要隨便打開比較好呢……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/guanmuaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "法老王密棺",
+		advice = 0,
+		id = 319114,
+		tag = 1,
+		comfortable = 4,
+		icon = "guanmuajicon",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanmuaj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319115] = {
+		can_rotate = 0,
+		describe = "刻滿神秘符文的方尖碑，每個符號都在訴說著不為人知的古老智慧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/fangjianbeiaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "智慧方尖碑",
+		advice = 0,
+		tag = 1,
+		id = 319115,
+		icon = "fangjianbeiajicon",
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319116] = {
+		can_rotate = 0,
+		describe = "整齊排列的綠色作物，為炎熱的沙漠帶來一絲生氣與希望。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/huatanaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "裝飾花壇",
+		advice = 0,
+		tag = 1,
+		id = 319116,
+		icon = "huatanajicon",
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319117] = {
+		advice = 0,
+		name = "翼神寶座",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "baozuoajicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 119,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 319117,
+		comfortable = 4,
+		describe = "坐上這神秘的王座，讓金色翅膀帶你遨遊古老的天際吧！只是不要飛得太高哦……",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baozuoajB",
+				"normal"
+			},
+			{
+				"baozuoajT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[319301] = {
+		can_rotate = 0,
+		describe = "巨大的雕像彷彿在看著每一位訪客！",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/jianzhuqiangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "巨神之壁",
+		advice = 0,
+		tag = 5,
+		id = 319301,
+		icon = "jianzhuqiangajicon",
+		comfortable = 4,
+		size = {
+			12,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319302] = {
+		can_rotate = 0,
+		describe = "推開這扇千禧年古門，會有什麼在等著我們呢？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "貝斯特之門",
+		advice = 0,
+		id = 319302,
+		tag = 5,
+		comfortable = 4,
+		icon = "shixiangdamenajicon",
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shixiangdamenaj",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319303] = {
+		can_rotate = 0,
+		describe = "那些特別的金色紋路，會是暗示著某種咒語嗎？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/jinzitaqiangshiaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "金字塔壁飾",
+		advice = 0,
+		tag = 5,
+		id = 319303,
+		icon = "jinzitaqiangshiajicon",
+		comfortable = 2,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319304] = {
+		can_rotate = 0,
+		describe = "被歲月染成金色的鳥形石版，傳說它紀錄著通往來世的秘密…",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 119,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "黃金飛鳥石版畫",
+		advice = 0,
+		id = 319304,
+		tag = 5,
+		comfortable = 3,
+		icon = "feiniaoajicon",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feiniaoaj",
 				"normal",
 				{
 					"action",

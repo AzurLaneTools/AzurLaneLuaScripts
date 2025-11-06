@@ -52,6 +52,9 @@ pg.pay_data_display = setmetatable({
 		2038,
 		2039,
 		2040,
+		2042,
+		2043,
+		2044,
 		2045,
 		2046,
 		2047,
@@ -5261,6 +5264,259 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40053,
+				1
+			}
+		}
+	},
+	[2042] = {
+		picture = "ui3",
+		name = "聖砂之約主題禮包",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題聖砂之約*1",
+		subject = "聖砂之約主題禮包",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 103,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui18",
+		extra_gem = 0,
+		id = 2042,
+		airijp_id = "com.yostarjp.azurlane.ui6",
+		name_display = "聖砂之約主題禮包",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2043] = {
+		picture = "ui3",
+		name = "聖砂之約主題禮包（基礎版）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題聖砂之約*1",
+		subject = "聖砂之約主題禮包（基礎版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 103,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui19",
+		extra_gem = 0,
+		id = 2043,
+		airijp_id = "com.yostarjp.azurlane.ui7",
+		name_display = "聖砂之約主題禮包（基礎版）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40055,
+				1
+			}
+		}
+	},
+	[2044] = {
+		picture = "ui3",
+		name = "聖砂之約主題禮包（豪華版）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題聖砂之約*1,3060鑽石",
+		subject = "聖砂之約主題禮包（豪華版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1320,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 103,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui20",
+		extra_gem = 0,
+		id = 2044,
+		airijp_id = "com.yostarjp.azurlane.ui8",
+		name_display = "聖砂之約主題禮包（豪華版）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				202,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				202,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40056,
 				1
 			}
 		}

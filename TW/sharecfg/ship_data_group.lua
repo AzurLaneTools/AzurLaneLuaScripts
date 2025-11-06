@@ -1598,6 +1598,9 @@ pg.ship_data_group = setmetatable({
 		[60110] = {
 			596
 		},
+		[60111] = {
+			680
+		},
 		[60107] = {
 			541
 		},
@@ -1606,6 +1609,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[60202] = {
 			559
+		},
+		[60203] = {
+			681
 		},
 		[60301] = {
 			414
@@ -1643,6 +1649,9 @@ pg.ship_data_group = setmetatable({
 		[60507] = {
 			595
 		},
+		[60508] = {
+			678
+		},
 		[60701] = {
 			502
 		},
@@ -1654,6 +1663,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[60802] = {
 			558
+		},
+		[60803] = {
+			679
 		},
 		[70108] = {
 			499
@@ -2333,6 +2345,9 @@ pg.ship_data_group = setmetatable({
 		[970306] = {
 			30043
 		},
+		[970508] = {
+			30044
+		},
 		[970509] = {
 			30046
 		},
@@ -2877,9 +2892,11 @@ pg.ship_data_group = setmetatable({
 			490,
 			562,
 			596,
+			680,
 			541,
 			501,
 			559,
+			681,
 			414,
 			542,
 			413,
@@ -2892,10 +2909,12 @@ pg.ship_data_group = setmetatable({
 			411,
 			412,
 			595,
+			678,
 			502,
 			540,
 			503,
 			558,
+			679,
 			499,
 			497,
 			431,
@@ -3128,6 +3147,7 @@ pg.ship_data_group = setmetatable({
 			30041,
 			30042,
 			30043,
+			30044,
 			30046,
 			30047,
 			30048
@@ -3666,9 +3686,11 @@ pg.ship_data_group = setmetatable({
 		490,
 		562,
 		596,
+		680,
 		541,
 		501,
 		559,
+		681,
 		414,
 		542,
 		413,
@@ -3681,10 +3703,12 @@ pg.ship_data_group = setmetatable({
 		411,
 		412,
 		595,
+		678,
 		502,
 		540,
 		503,
 		558,
+		679,
 		499,
 		497,
 		431,
@@ -3911,6 +3935,7 @@ pg.ship_data_group = setmetatable({
 		30041,
 		30042,
 		30043,
+		30044,
 		30046,
 		30047,
 		30048
@@ -26737,6 +26762,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[680] = {
+		nationality = 6,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 60111,
+		index_id = 534,
+		code = 680,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：樊籠內的神光",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[541] = {
 		nationality = 6,
 		type = 1,
@@ -26826,6 +26883,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：雄鷹的敘事歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[681] = {
+		nationality = 6,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 60203,
+		index_id = 538,
+		code = 681,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：樊籠內的神光",
 				{
 					""
 				},
@@ -27291,6 +27380,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[678] = {
+		nationality = 6,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 60508,
+		index_id = 551,
+		code = 678,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：樊籠內的神光",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[502] = {
 		nationality = 6,
 		type = 7,
@@ -27412,6 +27533,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：雄鷹的敘事歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[679] = {
+		nationality = 6,
+		type = 8,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 60803,
+		index_id = 556,
+		code = 679,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：樊籠內的神光",
 				{
 					""
 				},
@@ -35349,6 +35502,38 @@ pg.base.ship_data_group = {
 					{
 						autoOpenShipConfigID = 9703061
 					}
+				},
+				0
+			}
+		}
+	},
+	[30044] = {
+		nationality = 97,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970508,
+		index_id = 30044,
+		code = 30044,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：樊籠內的神光",
+				{
+					""
 				},
 				0
 			}

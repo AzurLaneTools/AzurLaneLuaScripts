@@ -1344,7 +1344,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91040] = {
 		cannon = 0,
-		name = "神光輕巡洋艦",
+		name = "神光型輕巡洋艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

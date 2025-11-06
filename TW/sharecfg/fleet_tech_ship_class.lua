@@ -2785,7 +2785,8 @@ pg.fleet_tech_ship_class = {
 		nation = 6,
 		ships = {
 			60103,
-			60108
+			60108,
+			60111
 		}
 	},
 	[60103] = {
@@ -2845,6 +2846,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			60201,
 			60202
+		}
+	},
+	[60202] = {
+		shiptype = 2,
+		name = "朱薩諾級",
+		t_level = 7,
+		id = 60202,
+		t_level_1 = 132,
+		nation = 6,
+		ships = {
+			60203
 		}
 	},
 	[60301] = {
@@ -2941,6 +2953,17 @@ pg.fleet_tech_ship_class = {
 			60507
 		}
 	},
+	[60505] = {
+		shiptype = 5,
+		name = "拉斐爾",
+		t_level = 8,
+		id = 60505,
+		t_level_1 = 1,
+		nation = 6,
+		ships = {
+			60508
+		}
+	},
 	[60701] = {
 		shiptype = 7,
 		name = "天鷹",
@@ -2982,7 +3005,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 1,
 		nation = 6,
 		ships = {
-			60802
+			60802,
+			60803
 		}
 	},
 	[70101] = {
@@ -4142,6 +4166,17 @@ pg.fleet_tech_ship_class = {
 			970507
 		}
 	},
+	[970508] = {
+		shiptype = 5,
+		name = "安德烈亞·多里亞·META",
+		t_level = 3,
+		id = 970508,
+		t_level_1 = 15,
+		nation = 97,
+		ships = {
+			970508
+		}
+	},
 	[970509] = {
 		shiptype = 5,
 		name = "內華達·META",
@@ -4529,6 +4564,7 @@ pg.fleet_tech_ship_class = {
 		60105,
 		60106,
 		60201,
+		60202,
 		60301,
 		60302,
 		60303,
@@ -4537,6 +4573,7 @@ pg.fleet_tech_ship_class = {
 		60502,
 		60503,
 		60504,
+		60505,
 		60701,
 		60702,
 		60801,
@@ -4644,6 +4681,7 @@ pg.fleet_tech_ship_class = {
 		970505,
 		970506,
 		970507,
+		970508,
 		970509,
 		970601,
 		970602,

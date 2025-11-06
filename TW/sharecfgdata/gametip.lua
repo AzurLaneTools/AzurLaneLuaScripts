@@ -12095,7 +12095,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "曾克爾將軍、U-552建造追加！"
+	tip = "拉斐爾、巴拉卡少校、巴托洛梅奥·科莱奥尼 建造概率UP！"
 }
 
 
@@ -36313,7 +36313,7 @@ _G.pg.base.gametip.notify_clock_button = {
 
 
 _G.pg.base.gametip.TW_build_chase_tip = {
-	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>奇渊下的秘密</color>關卡，可獲得單建券獎勵"
+	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>樊籠內的神光</color>關卡，可獲得單建券獎勵"
 }
 
 
@@ -36323,12 +36323,12 @@ _G.pg.base.gametip.TW_build_chase_phase = {
 
 
 _G.pg.base.gametip.TW_build_chase_time = {
-	tip = "獎勵領取時間截止至2025.9.12維護"
+	tip = "獎勵領取時間截止至2025.11.20維護"
 }
 
 
 _G.pg.base.gametip.ship_task_lottery_title = {
-	tip = "起舞於天原之上活動期間累積通關「起舞於天原之上」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+	tip = "樊籠內的神光活動期間累積通關「樊籠內的神光」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
 }
 
 
@@ -39593,6 +39593,11 @@ _G.pg.base.gametip.danmachi_award_unget = {
 
 _G.pg.base.gametip.dorm3d_touch2 = {
 	tip = "觸摸（$1）"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_special = {
+	tip = "特典"
 }
 
 

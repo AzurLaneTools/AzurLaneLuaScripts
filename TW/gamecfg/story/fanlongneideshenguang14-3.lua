@@ -10,7 +10,7 @@ return {
 			bgm = "battle-shenguang-freely",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,12 +76,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈哈——感受艺术的力量吧☆",
+			say = "啊哈哈哈－感受藝術的力量吧☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,11 +91,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "集中火力，先拿下一个人！",
+			say = "集中火力，先拿下一個人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "star_level_bg_307",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,12 +155,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没想到，我们竟然会落入下风……",
+			say = "沒想到，我們竟然會落入下風……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,12 +169,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "临时决定的阻击计划，确实难以周全。",
+			say = "臨時決定的阻擊計劃，確實難以周全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,12 +183,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们已经没有取胜的可能了，不必继续纠缠。",
+			say = "我們已經沒有取勝的可能了，不必繼續糾纏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,12 +197,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "哎——也只能放弃这次斩首的机会了。",
+			say = "哎——也只能放棄這次斬首的機會了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,12 +211,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "圣座冕下，我们正面战场上见。",
+			say = "聖座冕下，我們正面戰場上見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,12 +235,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎，别走啊，帮我给你们老大带个话——！",
+			say = "哎，別走啊，幫我給你們老大帶個話——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
@@ -265,12 +265,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			dir = 1,
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快追快追，别让她们跑了！",
+			say = "快追快追，別讓她們跑了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,10 +280,10 @@ return {
 			actor = 601110,
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "佛羅倫斯共和國",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "圣座冕下，不可。",
+			say = "聖座冕下，不可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,12 +292,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本圣座知道，追她们做什么？跑去另一个伏击圈自投罗网么？",
+			say = "本聖座知道，追她們做什麼？跑去另一個伏擊圈自投羅網嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,12 +307,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们说正面战场……恐怕全面战争已经开始了",
+			say = "她們說正面戰場……恐怕全面戰爭已經開始了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,12 +322,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_307",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当务之急是返回罗马主持大局，整队出发！",
+			say = "當務之急是返回羅馬主持大局，整隊出發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

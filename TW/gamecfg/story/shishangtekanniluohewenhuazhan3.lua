@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_304",
 			bgm = "story-richang-4",
-			say = "若有若无的水流声引领着我穿过长廊，来到绿洲中一处布置精美的“寝宫”。",
+			say = "若有若無的水流聲引領我穿過長廊，來到綠洲中一處佈置精美的「寢宮」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_304",
-			say = "帷幔轻拂，阳光透过薄纱洒落在床榻边缘。",
+			say = "帷幔輕拂，陽光透過薄紗灑落在床榻邊緣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "济安正端坐床榻之上，手指轻柔地梳理着刚刚睡醒后的秀发。",
+			say = "濟安正端坐床榻之上，手指輕柔地梳理著剛睡醒後的秀髮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她察觉到我的到来，眼中闪过一丝惊喜。",
+			say = "她察覺到我的到來，眼中閃過一絲驚喜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呼……真是想不到……刚刚醒来，就遇到了梦中所预示的命定之人。",
+			say = "呼……真是想不到……剛醒來，就遇到了夢中所預示的命定之人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "也许这就是……这就是命运的指引？",
+			say = "也許這就是……這就是命運的指引？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（原来如此，看来这应该就是她在沉浸式参观期间拿到的身份设定。）",
+			say = "（原來如此，看來這應該是她在沉浸式參觀期間拿到的身份設定。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "嘘……不必解释。",
+			say = "噓……不必解釋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的声音清澈动人，带着难以抗拒的魅力。",
+			say = "她的聲音清澈動人，帶著難以抗拒的魅力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "误入此处的旅人啊，您现在一定很是茫然，对吧？",
+			say = "誤入此處的旅人啊，您現在一定很茫然，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "为何我会将您称呼为“命定之人”，以及，这里又是何处……",
+			say = "為何我會將您稱呼為「命定之人」，以及，這裡又是何處……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但这些在我看来，都不重要哦~",
+			say = "但這些在我看來，都不重要哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "这一路走来……您应该已经见识到了不少瑰丽的景致，对吧~？",
+			say = "這一路走來……您應該已經見識到了不少瑰麗的景色，對吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "济安冲我眨了眨眼，带着几分我所熟悉的俏皮色彩。",
+			say = "濟安對我眨了眨眼，帶著幾分我所熟悉的俏皮色彩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "或许她是在用这种方式提醒我——",
+			say = "或許她是用這種方式提醒我——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "即使她此刻身着与往日大相径庭的服饰、专注地扮演着角色……",
+			say = "即使她此刻穿著與往日大相逕庭的服飾、專注地扮演角色……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她也依旧是平时我所熟悉的那个济安。",
+			say = "她也依舊是平常我所熟悉的那個濟安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……确实。",
+			say = "嗯……確實。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不论是展馆的其他区域，还是这里，都有很多特别的风景。",
+			say = "不論是展館的其他區域，還是這裡，都有很多特別的風景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "济安的手指划过床边的纱帐，轻纱随风舞动。",
+			say = "濟安的手指劃過床邊的紗帳，輕紗隨風舞動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = "home",
-			say = "那么，走过了那么多处所在的您，一定累了吧？",
+			say = "那麼，走過了那麼多處所在的您，一定累了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "您需要一个宁静安详的隐世天堂……一个能够容纳所有的烦恼的怀抱。",
+			say = "您需要一個寧靜安詳的隱世天堂……一個能容納所有煩惱的懷抱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "阳光透过帷幔，在济安身上镀上一层柔和的光晕。",
+			say = "陽光透過帷幔，在濟安身上鍍上一層柔和的光暈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她又抬起手臂，深入发丝之中，像是十分放松与惬意。",
+			say = "她又抬起手臂，深入髮絲之中，像是十分放鬆與愜意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "此刻，就连她呼吸间胸口的起伏，都让人感到无比安宁舒适。",
+			say = "此刻，就連她呼吸間胸口的起伏，都讓人感到無比安寧舒適。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			side = 2,
-			say = "留下来吧，好不好？",
+			say = "留下來吧，好不好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "带着一丝撒娇和几分央求的口吻，让她的邀请格外充满了诱惑力。",
+			say = "帶著一絲撒嬌和幾分央求的口吻，讓她的邀請格外充滿了誘惑力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我不禁向前迈出一步，却又停住了脚步。",
+			say = "我不禁向前踏出一步，卻又停下了腳步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，您看起来似乎还有些迟疑呢~？",
+			say = "呵呵，您看起來似乎還有些遲疑呢~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她微微侧头，发丝随着动作轻轻滑落，在阳光下泛着淡淡的光泽。",
+			say = "她微微側頭，髮絲隨著動作輕輕滑落，在陽光下泛著淡淡的光澤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "您知道吗？每当夜幕降临，这里的星空总是格外迷人……",
+			say = "您知道嗎？每當夜幕降臨，這裡的星空總是格外迷人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "而白昼时分，阳光又会洒满整座宫殿。",
+			say = "而白晝時分，陽光又會灑滿整座宮殿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "还有……会不论白昼黑夜，都会陪在您身边的我。",
+			say = "還有……不論白晝黑夜，都會陪在您身邊的我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "既然命运之神如此眷顾我，让我与您相遇。",
+			say = "既然命運之神如此眷顧我，讓我與您相遇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "那么，您为何要违抗命运，不将这短暂的相遇……",
+			say = "那麼，您為何要違抗命運，不將這短暫的相遇……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "化作永恒的相守呢？",
+			say = "化為永恆的相守呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的声音轻柔似水，却又带着不容拒绝的魅力。",
+			say = "她的聲音輕柔似水，卻又帶著不容拒絕的魅力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "就让我们在这座宫殿中……",
+			say = "就讓我們在這座宮殿中…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "编织属于我们的未来，好不好……？",
+			say = "編織屬於我們的未來，好不好……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她靠近，用指尖轻轻挑起我的下巴，温热的吐息已在咫尺之间。",
+			say = "她靠近，用指尖輕輕挑起我的下巴，溫熱的吐息已在咫尺之間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 502092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "至于我的回答，早已淹没于她欺近的唇边。",
+			say = "至於我的回答，早已淹沒於她欺近的唇邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

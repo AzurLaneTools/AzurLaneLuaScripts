@@ -1034,11 +1034,6 @@ pg.painting_filte_map = {
 			"painting/andelieyaduoliya_rw_tex",
 			"painting/andelieyaduoliya_n_tex",
 			"painting/andelieyaduoliya_n",
-			"painting/andelieyaduoliya_alter_tex",
-			"painting/andelieyaduoliya_alter_rw_tex",
-			"painting/andelieyaduoliya_alter_n_tex",
-			"painting/andelieyaduoliya_alter_n",
-			"painting/andelieyaduoliya_alter",
 			"painting/andelieyaduoliya"
 		}
 	},
@@ -1048,6 +1043,16 @@ pg.painting_filte_map = {
 			"painting/andelieyaduoliya_2_tex",
 			"painting/andelieyaduoliya_2_rw_tex",
 			"painting/andelieyaduoliya_2"
+		}
+	},
+	andelieyaduoliya_alter = {
+		key = "andelieyaduoliya_alter",
+		res_list = {
+			"painting/andelieyaduoliya_alter_tex",
+			"painting/andelieyaduoliya_alter_rw_tex",
+			"painting/andelieyaduoliya_alter_n_tex",
+			"painting/andelieyaduoliya_alter_n",
+			"painting/andelieyaduoliya_alter"
 		}
 	},
 	anjie = {
@@ -7733,16 +7738,6 @@ pg.painting_filte_map = {
 			"painting/jian_n_bj_tex",
 			"painting/jian_n",
 			"painting/jian_bj1_tex",
-			"painting/jian_3_tex",
-			"painting/jian_3_rw_tex",
-			"painting/jian_3_rw_hx_tex",
-			"painting/jian_3_n_tex",
-			"painting/jian_3_n_hx_tex",
-			"painting/jian_3_n_hx",
-			"painting/jian_3_n",
-			"painting/jian_3_hx_tex",
-			"painting/jian_3_hx",
-			"painting/jian_3",
 			"painting/jian"
 		}
 	},
@@ -7756,6 +7751,21 @@ pg.painting_filte_map = {
 			"painting/jian_2_n",
 			"painting/jian_2_bj_tex",
 			"painting/jian_2"
+		}
+	},
+	jian_3 = {
+		key = "jian_3",
+		res_list = {
+			"painting/jian_3_tex",
+			"painting/jian_3_rw_tex",
+			"painting/jian_3_rw_hx_tex",
+			"painting/jian_3_n_tex",
+			"painting/jian_3_n_hx_tex",
+			"painting/jian_3_n_hx",
+			"painting/jian_3_n",
+			"painting/jian_3_hx_tex",
+			"painting/jian_3_hx",
+			"painting/jian_3"
 		}
 	},
 	jiangfeng = {

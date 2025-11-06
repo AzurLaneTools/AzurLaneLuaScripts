@@ -7873,6 +7873,163 @@ pg.base.ship_skin_template_13 = {
 			}
 		}
 	},
+	[502092] = {
+		name = "異域綺夢",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "呼……想不到剛醒來，就遇到了夢中所預示的命定之人。呵呵，既然這是命運的指引，就請這位舟車勞頓的旅人暫且停留腳步，在這裡歇息一番吧~",
+		group_index = 2,
+		purchase_offset = "",
+		painting = "jian_3",
+		ship_group = 50209,
+		bg_sp = "",
+		shop_type_id = 27,
+		l2d_ignore_drag = 0,
+		hand_id = 9,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "303",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		id = 502092,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "jian_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71118,
+		voice_actor = 395,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			60,
+			-145,
+			0
+		},
+		live2d_offset_profile = {
+			80,
+			-110,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.793,
+					1.545,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.781,
+					1.547,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.892,
+					3.27,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.014,
+							3.531,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-10,
+				10
+			},
+			ParamAngleY = {
+				-10,
+				10
+			}
+		},
+		ship_l2d_id = {
+			50209201,
+			50209202,
+			50209203,
+			50209204,
+			50209205,
+			50209206
+		}
+	},
 	[502100] = {
 		name = "海容",
 		shop_offset = "",
@@ -12399,11 +12556,11 @@ pg.base.ship_skin_template_13 = {
 		}
 	},
 	[601110] = {
-		name = "焦苏埃·卡尔杜齐",
+		name = "焦蘇埃·卡爾杜奇",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "奥利亚尼级驱逐舰—焦苏埃·卡尔杜齐",
+		desc = "奧利亞尼級驅逐艦—焦蘇埃·卡爾杜奇",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "jiaosuai",
@@ -12518,11 +12675,11 @@ pg.base.ship_skin_template_13 = {
 		}
 	},
 	[601111] = {
-		name = "定格的诗篇",
+		name = "定格的詩篇",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "远道而来的旅人，请让我以舞为笔，为你献上欢迎的诗篇……问我为何定格在这个动作？唔……因为“静默是表示快乐最好的方法”……",
+		desc = "遠道而來的旅人，請讓我以舞為筆，為你獻上歡迎的詩篇……問我為何定格在這個動作？嗯……因為「靜默是表示快樂最好的方法」……",
 		group_index = 1,
 		purchase_offset = "",
 		painting = "jiaosuai_2",
@@ -13119,11 +13276,11 @@ pg.base.ship_skin_template_13 = {
 		}
 	},
 	[602030] = {
-		name = "巴托洛梅奥·科莱奥尼",
+		name = "巴托洛梅奧·科萊奧尼",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "佣兵队长型朱萨诺级轻巡洋舰—巴托洛梅奥·科莱奥尼",
+		desc = "傭兵隊長型朱薩諾級輕巡洋艦—巴托洛梅奧·科萊奧尼",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "batuoluomeiao",
@@ -13238,11 +13395,11 @@ pg.base.ship_skin_template_13 = {
 		}
 	},
 	[602031] = {
-		name = "艳后的浪漫攻心计",
+		name = "豔后的浪漫攻心計",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "嗯……根据从多本恋爱小说统计分析，这个姿势的成功率应该是最高的……啊，指、指挥官你来了……咳……闯入妾身休息之处的人啊……你有什么目的吗？……",
+		desc = "嗯……根據從多本戀愛小說統計分析，這個姿勢的成功率應該是最高的……啊，指、指揮官你來了……咳……闖入妾身休息之處的人啊……你有什麼目的嗎？……",
 		group_index = 1,
 		purchase_offset = "",
 		painting = "batuoluomeiao_2",
@@ -15402,125 +15559,6 @@ pg.base.ship_skin_template_13 = {
 			6030611,
 			6030613,
 			6030614
-		}
-	},
-	[605010] = {
-		name = "維托里奧·維內托",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "維托里奧·維內托級戰列艦—維托里奧·維內托",
-		group_index = 0,
-		purchase_offset = "",
-		painting = "weineituo",
-		ship_group = 60501,
-		bg_sp = "",
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		ship_l2d_id = "",
-		id = 605010,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "weineituo",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 192,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.002,
-					1.011,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.011,
-					1.019,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.006,
-					0.986,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.483,
-							2.531,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

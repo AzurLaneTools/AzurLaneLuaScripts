@@ -11,15 +11,15 @@ return {
 			say = "NA海域中心奇异点",
 			sequence = {
 				{
-					"NA海域中心奇异点",
+					"NA海域中心奇異點",
 					1
 				},
 				{
-					"审判庭特殊行动舰队",
+					"審判庭特殊行動艦隊",
 					2
 				},
 				{
-					"下层船舱",
+					"下層船艙",
 					3
 				}
 			}
@@ -30,7 +30,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			bgm = "battle-eagleunion",
-			say = "回过神来时，我正维持着用手推开舱门的姿势。",
+			say = "回過神來時，我正維持著用手推開艙門的姿勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我这是，回来了？",
+			say = "……我這是，回來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "时间——",
+			say = "時間——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "怀表的指针只过去了数秒而已。",
+			say = "懷錶的指針只過了數秒而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,20 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不远处，“帽子小姐”依然在酣睡之中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "没有醒过来啊……",
+			say = "不遠處，「帽子小姐」依然在酣睡之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +91,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "此行，她和海洛芬特之间的关联更密切了……也不知道是福是祸。",
+			say = "沒有醒過來啊……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "此行，她和海洛芬特之間的關聯更密切了……也不知道是福是禍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			hidePaintObj = true,
 			say = "滴————",
 			typewriter = {
@@ -132,7 +132,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "指挥官，数据记录完成了么？",
+			say = "指揮官，數據紀錄完成了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，已经记录完毕了。“帽子小姐”还在沉睡中，可以进行交接了。",
+			say = "嗯，已經紀錄完畢了。「帽子小姐」還在沉睡中，可以進行交接了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "好，我们这就来。",
+			say = "好，我們這就來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "对了，麻烦帮我转达一下海伦娜。",
+			say = "對了，麻煩幫我轉達海倫娜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "让她忙完手头的事之后立刻联系我，我有一件重要的事要跟她说。",
+			say = "讓她忙完手邊的事之後立刻聯絡我，我有一件重要的事要跟她說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "好的，一定转达。",
+			say = "好的，一定轉達。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 9712010,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "那么指挥官，奇异点内情况变幻莫测，请您尽快返航吧~",
+			say = "那麼指揮官，奇異點內情況變幻莫測，請您盡快返航吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

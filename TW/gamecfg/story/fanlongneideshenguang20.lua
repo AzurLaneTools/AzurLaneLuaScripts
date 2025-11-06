@@ -26,7 +26,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无垠的纯白中，我终于来到了祂的面前。",
+			say = "無垠的純白中，我終於來到了祂的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "果然是你，一路上的片段，都是你让我看到的？",
+			say = "果然是妳，一路上的片段，都是妳讓我看到的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无人回答，不远处的海洛芬特如同一座尚未完工的雕像静静地矗立着。",
+			say = "無人回答，不遠處的海洛芬特如同一座尚未完工的雕像靜靜地矗立著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你一路上让我看到的，我都看过了。",
+			say = "妳一路上讓我看到的，我都看過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以你……是受困于此了，对么？",
+			say = "所以妳……是受困於此了，對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不论是与{namecode:522:旗风·META}合作还是诱导马可波罗建立陆上神国，你都只是为了离开。",
+			say = "不論是與旗風·META合作還是誘導馬可波羅建立陸上神國，妳都只是為了離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "在这过程中，你不存在主观的恶意，只是很多事情不由你控制，对么？",
+			say = "在這過程中，妳不存在主觀的惡意，只是很多事情不由妳控制，對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像沉默无声，但是那宝石般的眼眸中，似乎闪过了一抹光泽。",
+			say = "雕像沉默無聲，但是那寶石般的眼眸中，似乎閃過了一抹光澤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我猜测，马可波罗现在身上发生的异常状况依然与你有关。",
+			say = "我猜測，馬可波羅現在身上發生的異常狀況依然與妳有關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你为她安排了什么？",
+			say = "妳為她安排了什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "平静的纯白开始震颤，如同海潮来临的前兆。",
+			say = "平靜的純白開始震顫，如同海潮來臨的前兆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "而后，我被无声的浪潮卷入——",
+			say = "而後，我被無聲的浪潮捲入——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgm = "theme-thehierophantv",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "浪潮之外的景色则快速消融，最终变为了一片虚无。",
+			say = "浪潮外的景色則快速消融，最後變成為了一片虛無。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "随后，马可波罗的身影自纯白的浪潮中浮现而出。",
+			say = "隨後，馬可波羅的身影自純白的浪潮中浮現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,19 +267,19 @@ return {
 			hidePainting = true,
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「神啊，我将全部的信仰献与你」",
+			say = "「神啊，我將全部的信仰獻與妳」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "齊頌之音",
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
@@ -295,7 +295,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "齐颂之音响起，纯白的浪潮重新覆盖在虚空之上。",
+			say = "齊頌之音響起，純白的浪潮重新覆蓋在虛空之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,19 +305,19 @@ return {
 			hidePainting = true,
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「我与你同在，你亦与我同在」",
+			say = "「我與妳同在，妳亦與我同在」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "齊頌之音",
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "齐颂之音响起，祂的身影亦随之浮现。",
+			say = "齊頌之音響起，祂的身影亦隨之浮現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,19 +343,19 @@ return {
 			hidePainting = true,
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「请再次赐予我，对抗塞壬的力量」",
+			say = "「請再賜給我，對抗塞壬的力量」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "齊頌之音",
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
@@ -371,7 +371,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "齐颂之音响起，名为迪洛伊的巨大机甲亦随之浮现。",
+			say = "齊頌之音響起，名為迪洛伊的巨大機甲亦隨之浮現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "而后，另一层纯白的浪潮再次洗刷而来，让世间的一切都回归了纯白。",
+			say = "而後，另一層純白的浪潮再次洗刷而來，讓世間的一切都回歸了純白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无垠的纯白回归了平静，雕像依然沉默无声。",
+			say = "無垠的純白回歸了平靜，雕像依然沉默無聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "不过从其如宝石般的眼眸中，我可以清晰地看到马可波罗的倒影。",
+			say = "不過從其如寶石般的眼眸中，我可以清楚地看到馬可波羅的倒影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "——她们，已然建立了更深层的联系。",
+			say = "——她們，已然建立了更深層的連結。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,20 +444,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "在见证了这一切后，我有很多疑问，但是一时间不知道从何说起。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_499",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……她，想利用你的力量去对抗……塞壬。",
+			say = "見證了這一切後，我有很多疑問，但是一時間不知道從何說起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +457,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这件事，你怎么看……？",
+			say = "……她，想利用妳的力量去對抗……塞壬。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_499",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "這件事，妳怎麼看……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像，沉默无声。",
+			say = "雕像，沉默無聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

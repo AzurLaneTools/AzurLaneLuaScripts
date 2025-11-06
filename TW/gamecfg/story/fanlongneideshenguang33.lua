@@ -26,7 +26,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "马可波罗彷徨在无垠的纯白之中，时间与空间仿佛在此处失去了意义。",
+			say = "馬可波羅彷在無垠的純白之中，時間與空間彷彿在此失去了意義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里四处都是一个样……向哪里走才能回家啊。",
+			say = "這裡四處都是一個樣……往哪裡走才能回家啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……累了，想念本圣座的王座。",
+			say = "……累了，想念本聖座的王座。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			side = 2,
-			say = "于是，马可波罗端坐在了王座之上。",
+			say = "於是，馬可波羅端坐在了王座之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那本圣座……想要一个更酷的王座！",
+			say = "那本聖座……想要一個更酷的王座！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			side = 2,
-			say = "于是，马可波罗端坐在了更酷的王座之上。",
+			say = "於是，馬可波羅端坐在了更酷的王座之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇——这、这是怎么回事？！",
+			say = "哇——這、這是怎麼回事？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇——圣座冕下，你这个王座好帅啊？！",
+			say = "哇——聖座冕下，妳這個王座好帥？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………拉斐尔？！你怎么到这里来了？！",
+			say = "……拉斐爾？！妳怎麼到這裡來了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……我就记得在庆功宴上多喝了点然后就……",
+			say = "呃……我就記得在慶功宴上多喝了點然後就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣座冕下，这里是什么地方啊？",
+			say = "聖座冕下，這裡是什麼地方啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于这个问题……",
+			say = "關於這個問題……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -26,7 +26,7 @@ return {
 			bgm = "theme-thehierophantv",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是——",
+			say = "光芒消散後，映入眼簾的是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……塞壬的主机塔？",
+			say = "……塞壬的主機塔？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "虚假的天空下，钢铁构成的都市静静矗立在同样虚假的大海上。",
+			say = "在虛假的天空下，鋼鐵構成的都市靜靜矗立在同樣虛假的大海上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "雕像依然沉默，只是用一抹纯白裹挟着我一同在钢铁都市中穿行着。",
+			say = "雕像依然沉默，只是用一抹純白裹挾著我一同在鋼鐵都市中穿梭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "我们一同穿过了不知名的街道，穿过了不知名的广场，穿过了不知名的甬道，最后穿入了位于都市中心的高塔中。",
+			say = "我們一同穿過了不知名的街道，穿過了不知名的廣場，穿過了不知名的甬道，最後穿入了位於都市中心的高塔中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_tower",
-			say = "而后，我们在纯白的裹挟中笔直向上，径直穿过了一层层楼板。",
+			say = "而後，我們在純白的裹挾中筆直向上，徑直穿過了一層層樓板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "终于，我们在一处大厅中停下了。",
+			say = "終於，我們在一處大廳中停了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_306",
-			say = "审判机「战车」的投影正静静漂浮在前方。",
+			say = "審判機「戰車」的投影靜靜漂浮在前方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "而后我注意到，在投影的不远处有一个布设有数百个按钮的控制台。",
+			say = "而後我注意到，在投影的不遠處有一個布設有數百個按鈕的控制台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这个，难道是之前提尔瑞特留下来的安保系统控制面板？！",
+			say = "……這個，難道是之前提爾瑞特留下來的保全系統控制面板？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,20 +216,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "走近细看，面板上的按钮编号为1至255，整体呈现出一种与周围高科技设备截然不同的原始气息。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_306",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……看来没错了。",
+			say = "走進細看，面板上的按鈕編號為1至255，整體呈現出一種與周圍高科技設備截然不同的原始氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +229,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这二百五十五个按钮对应的应该就是提尔瑞特在走之前为海洛芬特留下的一系列安保系统预设方案。",
+			say = "……看來沒錯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +242,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而在这些按钮之外……",
+			say = "這二百五十五個按鈕對應的應該是提爾瑞特在走之前為海洛芬特留下的一系列保全系統預設方案。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_306",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "而在這些按鈕之外是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "在这些密集按钮所在区域的旁边，还有一块明显独立的区域，其中只有一个大大的红色按钮。",
+			say = "在這些密集按鈕所在區域的旁邊，還有一塊明顯獨立的區域，其中只有一個大大的紅色按鈕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "仔细一看，按钮旁边还印刷有一行小字——「安保系统紧急停机键，没事不要按！」",
+			say = "仔細一看，按鈕旁邊還印有一行小字——「保全系統緊急停機鍵，沒事不要按！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原来如此……就算马可波罗她们在外部击破了审判机的护盾，却依然远远不足以消灭它。",
+			say = "原來如此……就算馬可波羅她們在外部擊破了審判機的護盾，卻依然遠遠不足以消滅它。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是却可以削弱到让现在的你对它进行干涉的程度……",
+			say = "但卻可以削弱到讓現在的妳對它進行干涉的程度……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而你真正需要我帮你做的，是摁下这个按钮？",
+			say = "而妳真正需要我幫妳做的，是按下這個按鈕？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,14 +353,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声，不过我明白了她想要表达的话语。",
+			say = "雕像依然沉默無聲，不過我明白了她想表達的話語。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "按下安保系统紧急停机键",
+					content = "按下保全系統緊急停機鍵",
 					flag = 1
 				}
 			}
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_306",
-			say = "大厅的灯光开始一盏盏熄灭，审判机「战车」的投影也逐渐黯淡，而后彻底消失了。",
+			say = "大廳的燈光開始一盞盞熄滅，審判機「戰車」戰車的投影也逐漸黯淡，而後徹底消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "呼……这样一来，总算是结束了。",
+			say = "呼……這樣一來，總算是結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_306",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			hidePaintObj = true,
 			say = "滴————",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……通讯器？",
+			say = "……通訊器？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgm = "theme-thechariotvii",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明无人接听，通讯器还是在发出了一声“滴”后，自顾自响了起来。",
+			say = "明明無人接聽，通訊器還是在發出了一聲「滴」後，自顧自響了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咦？为什么这里的按钮被摁下去了……",
+			say = "咦？為什麼這裡的按鈕被按下去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海洛芬特，是你么？你又整出什么篓子了——",
+			say = "海洛芬特，是妳嗎？妳又搞出什麼簍子了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一阵令人目眩的浪潮席卷而过，世界回归了纯白之中——",
+			say = "一陣令人目眩的浪潮席捲而過，世界回歸了純白之中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -483,7 +483,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 334,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "<color=#ffffff>「拿起畫筆，繪製獨屬於自己的神光吧～」</color>\n「樊籠內的神光」活動取得",
 		scene = {}
 	},
 	[335] = {

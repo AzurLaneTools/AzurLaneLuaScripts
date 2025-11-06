@@ -28,7 +28,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（尤托比娅·萨伏伊与「Project：H」……）",
+			say = "（尤托比亞·薩伏伊與「Project：H」……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "在门中的记录消散于无形后，映入眼帘的，依旧是一望无际的白色世界。",
+			say = "在門中的紀錄消散於無形後，映入眼簾的，依舊是一望無際的白色世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "我依然在此处，并未离开……而且，那种被人注视的感觉依然存在。",
+			say = "我依然在此處，並未離開……而且，那種被人注視的感覺依然存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,20 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "我静静凝视着那个疑似视线传来的方向，恍然间，一望无际的纯白之中似乎发生了些许变化。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_499",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（……那个方向上，似乎真的东西存在！）",
+			say = "我靜靜凝視著那個疑似視線傳來的方向，恍然間，一望無際的純白之中似乎發生了些許變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +91,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（一个……更加纯白的轮廓？）",
+			say = "（……那個方向上，似乎真的東西存在！）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_499",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "（一個……更純白的輪廓？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_505",
-			say = "伴随着轮廓的出现，我隐约在一片纯白之中看到了一条蜿蜒的小路。",
+			say = "伴隨著輪廓的出現，我隱約在一片純白之中看到了一條蜿蜒的小路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "在道路延伸的方向上，静静漂浮着又一扇门。",
+			say = "在道路延伸的方向上，靜靜漂浮著另一扇門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（意识到其存在，其才会存在……是这样的规则么？）",
+			say = "（意識到其存在，其才會存在……是這樣的規則嗎？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（所以说……这一望无际的纯白，其实并不是空无一物，只是我无法理解，因而无法观测罢了。）",
+			say = "（所以說……這一望無際的純白，其實並不是空無一物，只是我無法理解，因而無法觀測罷了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "我一边思索着，一边缓步走向了那扇新出现的门。",
+			say = "我一邊思索著，一邊緩步走向了那扇新出現的門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伸手触碰门扉之后，眼前的世界随即改变——",
+			say = "伸手觸碰門扉之後，眼前的世界隨即改變——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgm = "theme-starsea-core",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一望无际的黑色中，闪烁着星星点点的蓝光。",
+			say = "一望無際的黑色中，閃爍著星星點點的藍光。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -233,7 +233,7 @@ return {
 			oldPhoto = true,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "它们以一定规律出现，以一定规律运动，又以一定规律消散，",
+			say = "它們以一定規律出現，以一定規律運動，又以一定規律消散，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			oldPhoto = true,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在一遍又一遍的周而复始中，光点群隐约组成了四个或模糊或清晰的身影。",
+			say = "在一遍又一遍的周而復始中，光點群隱約組成了四個或模糊或清晰的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 900405,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "连通性测试——成功。",
+			say = "連通性測試——成功。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 900405,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "空间结构稳定。数据交换正常。流动稳定，感知清晰，反应灵敏。",
+			say = "空間結構穩定。資料交換正常。流動穩定，感知清晰，反應靈敏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 900405,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在，开始「仲裁者计划」的第114次人工心智例行交流会。",
+			say = "現在，開始「仲裁者計畫」的第114次人工心智例行交流會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 900405,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "参与本次交流的人工心智成员为：战争协议-堡垒、战争协议-玉轮、战争协议-镰刃、ProjectH。",
+			say = "參與本次交流的人工心智成員為：戰爭協議-堡壘、戰爭協議-玉輪、戰爭協議-鐮刃、ProjectH。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 900405,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在，让我们开始交流吧。",
+			say = "現在，讓我們開始交流吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 900477,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一如既往，公式化又生硬的开场白。",
+			say = "一如既往，公式化又生硬的開場白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 900477,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我准备了五个话题，这次由我先开始好了。",
+			say = "我準備了五個話題，這次由我先開始好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍等……在此之前，我想先与诸位和ProjectH谈论一下，昨日原型装备测试中出现的“异状”。",
+			say = "……等一下在此之前，我想先與諸位和ProjectH談論一下，昨日原型裝備測試中出現的「異狀」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在报告中，你提到了某种特殊的超出传感器捕捉范围的视野变化。",
+			say = "在報告中，妳提到了某種特殊的超出感測器捕捉範圍的視野變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ProjectH，这片空间允许我们以最本质的形态观察彼此的结构。",
+			say = "ProjectH，這片空間讓我們以最本質的形態觀察彼此的結構。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你可以再次调用昨日测试的原型装备，复现一下“异状”出现的过程么？",
+			say = "妳可以再一次呼叫昨日測試的原型裝備，復現一下「異狀」出現的過程嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许，我们能够有所发现——",
+			say = "或許，我們能夠有所發現——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

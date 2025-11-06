@@ -12774,11 +12774,11 @@ pg.base.ship_skin_template_5 = {
 		}
 	},
 	[202333] = {
-		name = "侍女的裁决",
+		name = "侍女的裁決",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "歡迎您的到來，我的主人——啊，不，現在您只是一比特“旅人”呢。 本想說“若要通過此處就要接受審判”，但既然是主人您的話，直接通行也沒關係的哦？",
+		desc = "歡迎您的到來，我的主人——啊，不，現在您只是一位「旅人」呢。本想說「若要通過此處就要接受審判」，但既然是主人您的話，直接通行也沒關係的哦？",
 		group_index = 3,
 		purchase_offset = "",
 		painting = "sikula_4",

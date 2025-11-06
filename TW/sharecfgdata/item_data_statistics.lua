@@ -15311,6 +15311,37 @@ _G.pg.base.item_data_statistics[21043] = {
 }
 
 
+_G.pg.base.item_data_statistics[21044] = {
+	open_directly = 0,
+	name = "結晶：安德烈亞·多里亞·META",
+	type = 4,
+	display = "安德烈亞·多里亞·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21044",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21044,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21046] = {
 	open_directly = 0,
 	name = "結晶：內華達·META",
@@ -25367,6 +25398,131 @@ _G.pg.base.item_data_statistics[30364] = {
 		{
 			9,
 			4112,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30365] = {
+	open_directly = 1,
+	name = "外觀裝備箱(法老的黃金祕器)",
+	type = 11,
+	display = "可以獲得一件隨機的法老的黃金祕器風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxaiji",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30365",
+	id = 30365,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4113,
+			1
+		},
+		{
+			9,
+			4114,
+			1
+		},
+		{
+			9,
+			4115,
+			1
+		},
+		{
+			9,
+			4116,
+			1
+		},
+		{
+			9,
+			4117,
+			1
+		},
+		{
+			9,
+			4118,
+			1
+		},
+		{
+			9,
+			4119,
+			1
+		},
+		{
+			9,
+			4120,
+			1
+		},
+		{
+			9,
+			4121,
+			1
+		},
+		{
+			9,
+			4122,
+			1
+		},
+		{
+			9,
+			4123,
+			1
+		},
+		{
+			9,
+			4124,
+			1
+		},
+		{
+			9,
+			4125,
+			1
+		},
+		{
+			9,
+			4126,
+			1
+		},
+		{
+			9,
+			4127,
+			1
+		},
+		{
+			9,
+			4128,
+			1
+		},
+		{
+			9,
+			4129,
+			1
+		},
+		{
+			9,
+			4130,
 			1
 		}
 	},
@@ -38776,6 +38932,219 @@ _G.pg.base.item_data_statistics[30551] = {
 }
 
 
+_G.pg.base.item_data_statistics[30552] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(法老的黃金祕器)",
+	type = 13,
+	display = "使用後可從「法老的黃金祕器」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxaijizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30552,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4113,
+			1
+		},
+		{
+			9,
+			4114,
+			1
+		},
+		{
+			9,
+			4115,
+			1
+		},
+		{
+			9,
+			4116,
+			1
+		},
+		{
+			9,
+			4117,
+			1
+		},
+		{
+			9,
+			4118,
+			1
+		},
+		{
+			9,
+			4119,
+			1
+		},
+		{
+			9,
+			4120,
+			1
+		},
+		{
+			9,
+			4121,
+			1
+		},
+		{
+			9,
+			4122,
+			1
+		},
+		{
+			9,
+			4123,
+			1
+		},
+		{
+			9,
+			4124,
+			1
+		},
+		{
+			9,
+			4125,
+			1
+		},
+		{
+			9,
+			4126,
+			1
+		},
+		{
+			9,
+			4127,
+			1
+		},
+		{
+			9,
+			4128,
+			1
+		},
+		{
+			9,
+			4129,
+			1
+		},
+		{
+			9,
+			4130,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4113,
+			1
+		},
+		{
+			9,
+			4114,
+			1
+		},
+		{
+			9,
+			4115,
+			1
+		},
+		{
+			9,
+			4116,
+			1
+		},
+		{
+			9,
+			4117,
+			1
+		},
+		{
+			9,
+			4118,
+			1
+		},
+		{
+			9,
+			4119,
+			1
+		},
+		{
+			9,
+			4120,
+			1
+		},
+		{
+			9,
+			4121,
+			1
+		},
+		{
+			9,
+			4122,
+			1
+		},
+		{
+			9,
+			4123,
+			1
+		},
+		{
+			9,
+			4124,
+			1
+		},
+		{
+			9,
+			4125,
+			1
+		},
+		{
+			9,
+			4126,
+			1
+		},
+		{
+			9,
+			4127,
+			1
+		},
+		{
+			9,
+			4128,
+			1
+		},
+		{
+			9,
+			4129,
+			1
+		},
+		{
+			9,
+			4130,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30553] = {
 	open_directly = 0,
 	name = "定向外觀裝備箱(病院冒險)",
@@ -43540,6 +43909,85 @@ _G.pg.base.item_data_statistics[40053] = {
 			2,
 			30113,
 			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40055] = {
+	open_directly = 1,
+	name = "聖砂之約主題禮包（基礎版）",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題聖砂之約*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4056",
+	id = 40055,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			202,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40056] = {
+	open_directly = 1,
+	name = "聖砂之約主題禮包（豪華版）",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題聖砂之約*1,3060鑽石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4057",
+	id = 40056,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			202,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},

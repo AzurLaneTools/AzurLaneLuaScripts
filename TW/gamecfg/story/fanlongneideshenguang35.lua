@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			bgm = "story-startravel",
-			say = "无垠的星海中，漫长的追逐战终于迎来了尾声。",
+			say = "在無垠的星海中，漫長的追逐戰終於迎來了尾聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "快把我的鲸鱼还给我——！",
+			say = "快把我的鯨魚還給我——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "真是顽强的害虫……但是，就到此为止吧。",
+			say = "真是頑強的害蟲……但是，就到此為止吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "很好~继续给本王加大火力，它要坚持不住了！",
+			say = "很好~繼續給本王加大火力，它要堅持不住了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FF9B93",
 			dir = 1,
-			say = "可恶……真是没完没了……",
+			say = "可惡……真是沒完沒了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FF9B93",
 			dir = 1,
-			say = "反正数据也拿到不少了……你们想要就给你们好了！",
+			say = "反正數據也拿到不少了……妳們想要就給妳們好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FF9B93",
 			dir = 1,
-			say = "但是不要以为你们这就赢了！",
+			say = "但不要以為妳們這就贏了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FF9B93",
 			dir = 1,
-			say = "——我还会回来的！",
+			say = "——我還會回來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
-			say = "随着仲裁者迪贝路的机体在炮火中四分五裂，一切都尘埃落定了。",
+			say = "隨著仲裁者迪貝路的機體在炮火中四分五裂，一切都塵埃落定了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900430,
-			say = "鲸鱼鲸鱼鲸鱼！我的鲸鱼终于回来啦！！",
+			say = "鯨魚鯨魚鯨魚！我的鯨魚終於回來！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900430,
-			say = "多谢啦，谢菲尔德姐姐！",
+			say = "多謝啦，謝菲爾德姊姊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900430,
-			say = "要不是你在关键时刻出手，我们还不知道要追到什么时候呢！",
+			say = "要不是妳在關鍵時刻出手，我們還不知道要追到什麼時候呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702030,
-			say = "……我只是恰好在附近执行任务，举手之劳。",
+			say = "……我只是剛好在附近執行任務，舉手之勞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "此战能够成功，还要多亏陛下的判断与坚持。",
+			say = "此戰能夠成功，還要多虧陛下的判斷與堅持。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900430,
-			say = "没错没错~多谢你啦，伊丽莎白！",
+			say = "沒錯沒錯~多謝妳啦，伊莉莎白！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "好了，感谢的话之后再说，先看看鲸鱼拿回来之后，你有没有什么变化。",
+			say = "好了，感謝的話之後再說，先看看鯨魚拿回來之後，你有沒有改變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900430,
-			say = "欸…………",
+			say = "欸………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "你怎么了？",
+			say = "妳怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "伊丽莎白……我忘了鲸鱼该怎么用了！",
+			say = "伊莉莎白……我忘了鯨魚該怎麼用了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……你会用么？！",
+			say = "……妳會用麼嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "这……总之，鲸鱼终于成功到了我们手里，用法总能找出来的。",
+			say = "這…總之，鯨魚終於成功到了我們手裡，用法總能找出來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "实验场β的新坐标本王已经算得差不多了，剩下的事等回去之后慢慢研究吧。",
+			say = "實驗場β的新座標本王已經算得差不多了，剩下的事等回去之後慢慢研究。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900430,
-			say = "呜呜呜……好……",
+			say = "嗚嗚嗚……好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900430,
-			say = "那我们要怎么把鲸鱼带回去？",
+			say = "那我們要這麼把鯨魚帶回去？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "打包装箱，不用担心，本王的「女王之光号」装下一只鲸鱼绰绰有余——",
+			say = "打包裝箱，不用擔心，本王的「女王之光號」裝下一隻鯨魚綽綽有餘——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			bgm = "theme-themagiciani",
 			actor = 9702030,
 			nameColor = "#FFC960",
-			say = "陛下，情况不对。",
+			say = "陛下，情況不對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "这种感觉……有点难缠啊。",
+			say = "這種感覺……有點難纏啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "……失策了，应该在出发前把那几节车厢回收回来的。",
+			say = "……失策了，應該在出發前把那幾節車廂回收回來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900430,
-			say = "伊丽莎白，出什么事了？",
+			say = "伊莉莎白，出什麼事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "有难缠的家伙来了。",
+			say = "有難纏的傢伙來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "你和谢菲继续回收鲸鱼，然后乖乖待在车厢里。",
+			say = "妳和謝菲繼續回收鯨魚，然後乖乖待在車廂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

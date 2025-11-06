@@ -11,11 +11,11 @@ return {
 			say = "那不勒斯王国·边境",
 			sequence = {
 				{
-					"那不勒斯王国·边境",
+					"拿坡里王國·邊境",
 					1
 				},
 				{
-					"某处要塞",
+					"某處要塞",
 					2
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			bgm = "story-shenguang-holy",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "边境要塞的指挥室中，永夜的女王正在汇总着最新情报。",
+			say = "在邊境要塞的指揮室中，永夜的女王正在總結最新情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,12 +52,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "永夜战旗布设得十分顺利，目前包括米兰公国在内的五国已经完全笼罩在永夜之下了。",
+			say = "永夜戰旗布置得十分順利，目前包括米蘭公國在內的五國已經完全籠罩在永夜之下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "米兰公国如约没有行动，热那亚舰队已经开向了佛罗伦萨共和国。",
+			say = "米蘭公國如約沒有行動，熱那亞艦隊已經開向了佛羅倫斯共和國。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,12 +80,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "威尼斯共和国也已经兵分两路推进至教国境内，升起永夜战旗只是时间问题。",
+			say = "威尼斯共和國也已經兵分兩路推進至教國境內，升起永夜戰旗只是時間問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,12 +94,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "教廷一方完全被打了个措手不及……只可惜，斩首行动失败了。",
+			say = "教廷一方完全被打了個措手不及……只可惜，斬首行動失敗了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,12 +108,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "确实是令人遗憾的挫折。",
+			say = "確實是令人遺憾的挫折。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,12 +122,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "作为神之预言中诞生的舰船圣座，我们都有些小看她的战斗力了。",
+			say = "作為神之預言中誕生的艦船聖座，我們都有些小看她的戰鬥力了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,12 +136,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "特伦托提到的那种诡异的瓦解力量也很令我不安。",
+			say = "特倫托提到的那種詭異的瓦解力量也很令我不安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,12 +150,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "教廷一方或许已经基于这个钥匙，开始逐步掌控更加强大的神之兵器了。",
+			say = "教廷一方或許已經基於這個鑰匙，開始逐步掌控更強大的神之兵器了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,12 +164,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "还有一个消息。",
+			say = "還有一個消息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +178,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我已经确定了日前被开启的九号神之军械库之中，封存有另一支全新型号的神之军团，战斗能力不明。",
+			say = "我已經確定了日前被開啟的九號神之軍械庫之中，封存有另一隻全新型號的神之軍團，戰鬥能力不明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,12 +192,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "也就是说接下来，我们确定会与比预期中更多的神之军团正面交战了。",
+			say = "也就是說接下來，我們確定會與比預期中更多的神之軍團正面交戰了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,12 +206,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "把这个情报同步给加富尔伯爵，看看米兰公国的意思。",
+			say = "把這個情報同步給加富爾伯爵，看看米蘭公國的意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,12 +220,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "永夜战旗是最关键的一环。",
+			say = "永夜戰旗是最關鍵的一環。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,12 +234,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "只有让各处的永夜战旗将神光之网彻底转换为永夜领域，我们才能得到与神之军团分庭抗礼的资本。",
+			say = "只有讓各處的永夜戰旗將神光之網徹底轉換為永夜領域，我們才能得到與神之軍團分庭抗禮的資本。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,12 +248,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那个圣座所展现出的力量对于永夜领域是个威胁。",
+			say = "那個聖座所展現出的力量對於永夜領域是個威脅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,12 +262,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我现在将全局指挥交给你。",
+			say = "我現在將全域指揮交給妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,12 +276,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "接下来，我该去前线准备强攻罗马城，亲自会一会这位圣座了——",
+			say = "接下來，我該去前線準備強攻羅馬城，親自會一會這位聖座了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_303",
 			bgm = "story-richang-4",
-			say = "走廊上飘来阵阵异域香气，带着几分诱人的甜美。",
+			say = "走廊上飄來陣陣異域香氣，帶著幾分誘人的甜美。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_303",
-			say = "循着香气来到一扇门前，轻轻推开后，眼前的景象出乎我的预料。",
+			say = "循著香氣來到一扇門前，輕輕推開後，眼前的景像出乎我的預料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "巴拉卡少校慵懒地趴在长榻上，双腿交叠摆动，手中把玩着一枚水润的桃子。",
+			say = "巴拉卡少校慵懶地趴在長榻上，雙腿交疊擺動，手中把玩著一枚水潤的桃子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "哎呀哎呀……这不是指挥官吗？",
+			say = "哎呀哎呀……這不是指揮官嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "难道说……指挥官是参观累了，所以来找我玩的~？",
+			say = "難道說……指揮官是參觀累了，所以來找我玩的~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "她微微扭动身体，露出暧昧的微笑。",
+			say = "她微微扭動身體，露出曖昧的微笑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "与平日里风格截然不同的异域装扮，此时让人感觉十分新奇。",
+			say = "與平日風格截然不同的異國裝扮，此時讓人感覺十分新奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "看到我不说话，她的眼中闪过一丝玩味。",
+			say = "看到我不說話，她的眼中閃過一絲玩味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,18 +135,18 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "嗯~？怎么不说话了，指挥官~",
+			say = "嗯~？怎麼不說話了，指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是在参观的时候闻到了奇妙的香味。",
+					content = "是在參觀的時候聞到了奇妙的香味。",
 					flag = 1
 				},
 				{
-					content = "是在参观的时候不小心迷路了。",
+					content = "是在參觀的時候不小心迷路了。",
 					flag = 2
 				}
 			}
@@ -161,7 +161,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "我是在参观时候，闻到了一股很奇妙的香味。",
+			say = "我是在參觀時候，聞到了一股很奇妙的香味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "有点在意，就循着味道找过来了。",
+			say = "有點在意，就循著味道找過來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			optionFlag = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "呵呵~原来是这样。",
+			say = "呵呵~原來是這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "她将手中的桃子举到唇边，嘴唇轻轻触碰果实的表面，留下一道若有若无的痕迹。",
+			say = "她將手中的桃子舉到唇邊，嘴唇輕輕觸碰果實的表面，留下一道若有若無的痕跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			optionFlag = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "指挥官说的香味，应该是这些水果和香料的混合香气哦~",
+			say = "指揮官說的香味，應該是這些水果和香料的混合香氣哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "其实是因为这次展馆修建得比较大，我不小心迷路了。",
+			say = "其實是因為這次展館建造得比較大，所以我不小心迷路了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "不过，你所在的这个房间……应该也是后续参观路线的一环吧？",
+			say = "不過，你所在的這個房間……應該也是後續參觀路線的一環吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			optionFlag = 2,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "当然。",
+			say = "當然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			optionFlag = 2,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "能提前来到这里……说明指挥官和我有着冥冥注定的缘分呢~",
+			say = "能提前來到這裡…說明指揮官和我有著冥冥注定的緣分呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "说着，巴拉卡将手中的桃子举到唇边，轻轻吻了桃子一下。",
+			say = "說著，巴拉卡將手中的桃子舉到唇邊，輕輕吻了桃子一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "指挥官来都来了……",
+			say = "指揮官來都來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "要不要品尝一下这上等的贡品呢~？",
+			say = "要不要品嚐一下這上等的貢品呢~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "巴拉卡轻轻摇晃着手中的桃子，果实在光芒下泛着诱人的光泽。",
+			say = "巴拉卡輕輕搖晃著手中的桃子，果實在光芒下泛著誘人的光澤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "贡品？这些水果么？",
+			say = "貢品？這些水果嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "当然咯~这次沉浸式参观，我拿到的角色设定就是这样呢——悠闲地品尝着贡品的神明。",
+			say = "當然囉~這次沉浸式參觀，我拿到的角色設定就是這樣呢——悠閒地品嚐著貢品的神明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "欸~这么一说，我应该更沉浸在角色里一点，惩罚一下不该来这里的指挥官呢。",
+			say = "欸~這麼一說，我應該更沉浸在角色裡一點，懲罰一下不該來這裡的指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "她故意拉长了语调，双脚轻轻摇晃着像是在思索着什么坏主意。",
+			say = "她故意拉長了語調，雙腳輕輕搖晃著像是在思索著什麼壞主意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "但是直接惩罚又太没意思了……",
+			say = "但直接懲罰又太沒意思了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "不如我们来玩猜谜游戏吧？我们轮流出题，让对方猜。",
+			say = "不如我們來玩猜謎遊戲吧？我們輪流出題，讓對方猜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "纤细的手指轻轻划过桃子表面，她眼波流转，似笑非笑地看向我。",
+			say = "纖細的手指輕輕劃過桃子表面，她眼波流轉，似笑非笑地看向我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "她刻意停顿了一下，眼神中闪过一丝期待。",
+			say = "她刻意停頓了一下，眼神中閃過一絲期待。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "就要被对方惩罚哦~",
+			say = "就要被對方懲罰哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,18 +492,18 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "空气中的芬芳似乎更加浓郁了，更多了几分魅惑的意味。",
+			say = "空氣中的芬芳似乎更加濃郁了，更多了幾分魅惑的意味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "答应玩游戏",
+					content = "答應玩遊戲",
 					flag = 1
 				},
 				{
-					content = "拒绝玩游戏",
+					content = "拒絕玩遊戲",
 					flag = 2
 				}
 			}
@@ -518,7 +518,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "也不是不行……好，我答应你。",
+			say = "也不是不行……好，我答應妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			optionFlag = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "哎呀~真是爽快。这样的指挥官也很迷人呢~",
+			say = "哎呀~真是爽快。這樣的指揮官也很迷人呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "听起来似乎对我没什么益处……算了。",
+			say = "聽起來似乎對我沒什麼益處……算了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			optionFlag = 2,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "事到如今，指挥官觉得自己还有拒绝的权力吗~？",
+			say = "事到如今，指揮官覺得自己還有拒絕的權力嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			optionFlag = 2,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "不陪我玩猜谜游戏的话，我是不会放你走的哦。",
+			say = "不陪我玩猜謎遊戲的話，我是不會放你走的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "嗯……把玩游戏作为离开的条件么……好，那就来吧。",
+			say = "嗯……把玩遊戲當作離開的條件嗎……好，那就來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			optionFlag = 2,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "呵呵~这才对嘛~",
+			say = "呵呵~這才對嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "巴拉卡伸了一下懒腰，摆出一副悠然自得的姿态。",
+			say = "巴拉卡伸了一下懶腰，擺出一副悠然自得的姿態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "那么，第一个谜题——",
+			say = "那麼，第一個謎題——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "不如就猜猜我想对指挥官，做些什么吧？呵呵~♡",
+			say = "不如就猜猜我想對指揮官，做些什麼吧？呵呵~♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

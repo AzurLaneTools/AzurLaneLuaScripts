@@ -1,6 +1,125 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[605010] = {
+		name = "維托里奧·維內托",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "維托里奧·維內托級戰列艦—維托里奧·維內托",
+		group_index = 0,
+		purchase_offset = "",
+		painting = "weineituo",
+		ship_group = 60501,
+		bg_sp = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		ship_l2d_id = "",
+		id = 605010,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "weineituo",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 192,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.002,
+					1.011,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.011,
+					1.019,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.006,
+					0.986,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.483,
+							2.531,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[605011] = {
 		name = "拉斯佩齊亞之花",
 		shop_offset = "",
@@ -1981,7 +2100,7 @@ pg.base.ship_skin_template_14 = {
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "UP41型战列舰—拉斐尔",
+		desc = "UP41型戰艦—拉斐爾",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "lafeier",
@@ -2101,11 +2220,11 @@ pg.base.ship_skin_template_14 = {
 		}
 	},
 	[605081] = {
-		name = "爱与美的秘密珍藏",
+		name = "愛與美的秘密珍藏",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "哼哼~作为此处的守护者，我要给不速之客一点小惩罚……啊，等等！从这个角度看过去……轮廓实在是太完美了！把这样的你变成雕像什么的太可惜了。不如就永远留在这里，让我好好观察记录你的一举一动吧~",
+		desc = "哼哼~作為這裡的守護者，我要給不速之客一點小懲罰……啊，等等！從這個角度看過去……輪廓實在太完美了！把這樣的你變成雕像什麼的太可惜了。不如就永遠留在這裡，讓我好好觀察紀錄你的一舉一動吧~",
 		group_index = 1,
 		purchase_offset = "",
 		painting = "lafeier_2",
@@ -3414,7 +3533,7 @@ pg.base.ship_skin_template_14 = {
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "马可尼级潜艇—巴拉卡少校",
+		desc = "馬可尼級潛艦—巴拉卡少校",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "balaka",
@@ -3515,11 +3634,11 @@ pg.base.ship_skin_template_14 = {
 		}
 	},
 	[608031] = {
-		name = "死亡之神的戏谑",
+		name = "死亡之神的戲謔",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "呵呵~没想到指挥官会来到这里呢~作为“死亡之神”，我必须要好好“审判”您一下才行了~",
+		desc = "呵呵~沒想到指揮官會來到這裡呢~作為「死亡之神」，我必須要好好「審判」您一下才行了~",
 		group_index = 1,
 		purchase_offset = "",
 		painting = "balaka_2",
@@ -15383,127 +15502,6 @@ pg.base.ship_skin_template_14 = {
 				{
 					0.467,
 					0.826,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[801022] = {
-		name = "學園的見習騎士",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "自由鳶尾見習騎士福爾班，現在正作為學生努力適應著校園生活。唔……這樣是不是有些悠閒過頭了？",
-		group_index = 2,
-		purchase_offset = "",
-		painting = "fuerban_3",
-		ship_group = 80102,
-		bg_sp = "",
-		shop_type_id = 4,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "103",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		ship_l2d_id = "",
-		id = 801022,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "fuerban_3",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70201,
-		voice_actor = 124,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.93,
-					0.997,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.964,
-					0.981,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.14,
-					0.042,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.95,
-					1.009,
 					0
 				}
 			}

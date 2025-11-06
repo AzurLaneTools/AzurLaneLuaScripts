@@ -26,7 +26,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在马可波罗风风火火地前往撒丁岛时，我也从雕像的眼眸中同步了解到了一切。",
+			say = "在馬可波羅風火火地前往薩丁島時，我也從雕像的眼眸中同步了解到了一切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你果然是这个打算……",
+			say = "妳果然是這個打算……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过从她的反应来看，你让她看到的并非原本的记录，而是一个经过加工的幻象么？",
+			say = "不過從她的反應來看，妳讓她看到的並非原本的紀錄，而是經過加工的幻象嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声，不过想必答案就是如此，不然马可波罗没有理由对于仲裁者·海洛芬特·V这一身份毫无反应。",
+			say = "雕像依然沉默無聲，不過想必答案就是如此，不然馬可波羅沒有理由對於仲裁者·海洛芬特·I這一身份毫無反應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以……你其实是在她一开始误会了之后错过了解释的时间，之后也不知道该怎么解释，所以干脆放弃了？",
+			say = "所以……妳其實是在她一開始誤會了之後錯過了解釋的時間，之後也不知道該怎麼解釋，所以乾脆放棄了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "脑海中突然想到了这样一种有趣的可能性。",
+			say = "腦海中突然想到了這樣有趣的可能性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声，但眼神似乎躲闪了一下。",
+			say = "雕像依然沉默無聲，但眼神似乎閃了出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "………………那你确定，你给出去的情报足够马可波罗应对敌人么？",
+			say = "…………那妳確定，妳給出去的情報足夠馬可波羅應對敵人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "提尔瑞特不是说，她留下的审判机「战车」战斗力足以匹敌实验场中所有阵营军事力量的总和么？",
+			say = "提爾瑞特不是說，她留下的審判機「戰車」戰鬥力足以匹敵實驗場中所有陣營軍事力量的總和嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声，但眼神似乎又躲闪了一下。",
+			say = "雕像依然沉默無聲，但眼神似乎又閃躲了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我好像有点明白，你这次为什么把我也卷进来了。",
+			say = "……我好像有點明白，妳這次為什麼把我也捲進來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……你之前给我看的记录中有提到，META化侵蚀与心念样本之间存在中和现象。",
+			say = "嗯……妳之前給我看的紀錄中有提到，META化侵蝕與心念樣本之間存在中和現象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而构成永夜领域的力量来自于META化侵蚀，陆上神国则传递的是心念具现化的力量……",
+			say = "而構成永夜領域的力量來自於META化侵蝕，陸上神國則傳遞的是心念具現化的力量……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "记得实验机关里，主要负责战斗的测试者、净化者和清除者用的都是自适应型护盾……",
+			say = "記得實驗機關裡，主要負責戰鬥的測試者、淨化者和清除者用的都是自適應型護盾……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海洛芬特，这个审判机「战车」上所搭载的是自适应型护盾么？",
+			say = "海洛芬特，這個審判機「戰車」上所搭載的是自適應型護盾嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_505",
-			say = "不远处，一扇门出现了。",
+			say = "不遠處，一扇門出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伸手触碰门扉之后，眼前的世界随即改变——",
+			say = "伸手觸碰門扉之後，眼前的世界隨即改變——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而后，我回到了无垠的纯白之中——",
+			say = "而後，我回到了無垠的純白之中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然无声，雕像沉默以对。",
+			say = "雕像依然無聲，雕像沉默以對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "…………行吧。",
+			say = "………行吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这样一来……最可行的方案应该就是利用极性急转了。",
+			say = "這樣一來……最可行的方案應該就是利用極性急轉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "首先，安德烈亚·多利亚·META应当利用永夜领域的力量对审判机的护盾进行最初的打击。",
+			say = "首先，安德烈亞·多里亞·META應當利用永夜領域的力量對審判機的護盾進行最初的打擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "同时，拉斐尔等撒丁尼亚联盟的其余舰队应当尽可能多地夺回神光之网的节点，并布设永夜战旗，增强永夜领域的力量。",
+			say = "同時，拉斐爾等薩丁尼亞聯盟的其餘艦隊應盡可能奪回神光之網的節點，並佈設永夜戰旗，增強永夜領域的力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而马可波罗需要在撒丁岛的镜面海域内准备陆上神国，并且在神国即将完成时停止仪式，以待时机。",
+			say = "而馬可波羅需要在薩丁島的鏡面海域內準備陸上神國，並且在神國即將完成時停止儀式，以待時機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "直到安德烈亚部将审判机诱入陆上神国的中心，并且已经动用了全部力量，濒临极限的时候。",
+			say = "直到安德烈亞部將審判機誘入陸上神國的中心，並且已經動用了全部力量，瀕臨極限的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这时，敌人的自适应型护盾已经完全偏向了处理META化侵蚀的方向，也是发动进攻的最好时机。",
+			say = "這時，敵人的自適應型護盾已經完全偏向了處理META化侵蝕的方向，也是發動攻擊的最佳時機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "马可波罗需要在此时完成仪式，让敌人深陷陆上神国的中心，之后利用全部力量在最短时间内对其发动总攻，以期能够将其一举摧毁。",
+			say = "馬可波羅需要在此時完成儀式，讓敵人深陷陸上神國的中心，之後利用全部力量在最短時間內對其發動總攻，以期能夠將其一舉摧毀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……这是她们在现有条件下能够取胜的最优方案了。",
+			say = "嗯……這是她們在現有條件下能夠取勝的最優方案了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海洛芬特，我需要你把这个计划传递给马可波罗。",
+			say = "海洛芬特，我需要妳把這個計畫傳遞給馬可波羅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgm = "battle-shenguang-freely",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与此同时，已经转移至撒丁岛的撒丁尼亚联盟作战司令部中，安德烈亚也提出了同样的问题。",
+			say = "同時，已經轉移到薩丁島的薩丁尼亞聯盟合作戰司令部中，安德烈亞也提出了同樣的問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,12 +536,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "歼敌的这部分计划，似乎有些太粗糙了……",
+			say = "殲敵的這部分計劃，似乎有些太粗糙了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,12 +551,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果在你全力进攻之后依然没能打败神之兵器，我们之后应当如何应对？",
+			say = "如果在妳全力進攻之後依然沒能打敗神之兵器，我們之後該如何應對？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,12 +565,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "虽然我们对于敌人的情报确实知之甚少，但是我们还是需要在最坏情况发生时的预案。",
+			say = "雖然我們對於敵人的情報確實知之甚少，但是我們還是需要在最壞情況發生時的預案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,12 +580,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说得也不无道理……稍等，我请示一下神谕。",
+			say = "妳說得也不無道理……稍等，我請示一下神諭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,12 +594,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "威尼斯共和国",
+			factiontag = "威尼斯共和國",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "说请示神谕、就……能请示到神谕？",
+			say = "說請示神諭、就……能請示到神諭？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
@@ -625,7 +625,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_shenguang_4",
 			hidePaintObj = true,
-			say = "马可波罗没有理会众人疑惑的目光。她只是紧闭双眼，而在片刻后再次睁开。",
+			say = "馬可波羅沒有理會眾人疑惑的目光。她只是緊閉雙眼，而在片刻後再次睜開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,12 +634,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——本圣座知道了。",
+			say = "——本聖座知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,12 +649,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这么快？你的神跟你说了什么？",
+			say = "這麼快？妳的神跟妳說了什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,12 +664,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "神说——「极性急转」。",
+			say = "神說——「極性急轉」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,12 +678,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要利用自适应型护盾的特性，在短时间内用两种性质截然相反的攻击体系交替打击，以便突破其转换极限。",
+			say = "要利用自適應型護盾的特性，在短時間內用兩種性質截然相反的攻擊體系交替打擊，以便突破其轉換極限。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
@@ -708,12 +708,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这是……神谕？",
+			say = "這是……神諭？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,12 +723,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没错啊？幻象里的影子这么说的啊……怎么了？",
+			say = "……沒錯啊？幻象裡的影子這麼說的啊……怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,12 +738,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "兩西西里王國",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你这个神真是……非同一般。",
+			say = "妳這個神真是……非同一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,12 +753,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼哼，本圣座也是如此认为的！",
+			say = "哼哼哼，本聖座也是如此認為的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,12 +768,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然方向已经有了，接下来，让我们来制定更细致的计划吧！",
+			say = "既然方向已經有了，接下來，讓我們來制定更細緻的計畫吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

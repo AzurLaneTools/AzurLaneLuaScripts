@@ -9,7 +9,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "于是，永暗在顷刻间消散了。",
+			say = "於是，永暗在頃刻間消散了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "世界在这一刻变得明亮、广阔、平和。",
+			say = "世界在這一刻變得明亮、廣闊、和平。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "纯白之中，齐颂之音在回响。",
+			say = "純白之中，齊頌之音在迴響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,19 +58,19 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「吾乃圣座，马可波罗」",
+			say = "「吾乃聖座，馬可波羅」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "齊頌之音",
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
@@ -84,19 +84,19 @@ return {
 		{
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「神之军团，听吾号令」",
+			say = "「神之軍團，聽吾號令」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "齊頌之音",
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
@@ -111,19 +111,19 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "薩丁教國",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「厉兵秣马，征贼讨逆」",
+			say = "「厲兵秣馬，征賊討逆」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "齊頌之音",
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,

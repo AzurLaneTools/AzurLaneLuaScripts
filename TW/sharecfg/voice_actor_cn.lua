@@ -1760,47 +1760,59 @@ pg.voice_actor_CN = {
 		actor_name = "咲川雛乃",
 		code = 440
 	},
-	[444] = {
+	{
+		actor_name = "朝井彩加",
+		code = 441
+	},
+	{
+		actor_name = "結川麻希",
+		code = 442
+	},
+	{
+		actor_name = "藤本侑里",
+		code = 443
+	},
+	{
 		actor_name = "永瀨安娜",
 		code = 444
 	},
-	[445] = {
+	{
 		actor_name = "平塚紗依",
 		code = 445
 	},
-	[446] = {
+	{
 		actor_name = "橘杏咲",
 		code = 446
 	},
-	[447] = {
+	{
 		actor_name = "花岩香奈",
 		code = 447
 	},
-	[448] = {
+	{
 		actor_name = "寺崎裕香",
 		code = 448
 	},
-	[449] = {
+	{
 		actor_name = "三川華月",
 		code = 449
 	},
-	[450] = {
+	{
 		actor_name = "內田愛美",
 		code = 450
 	},
-	[451] = {
+	{
 		actor_name = "金澤舞",
 		code = 451
 	},
-	[452] = {
+	{
 		actor_name = "米澤圓",
 		code = 452
 	},
-	[453] = {
+	{
 		actor_name = "薄井友里",
 		code = 453
 	},
-	[454] = {
+	{
 		actor_name = "櫻木tsugumi",
 		code = 454
 	},

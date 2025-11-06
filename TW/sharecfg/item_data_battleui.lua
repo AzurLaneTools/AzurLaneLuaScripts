@@ -135,6 +135,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[202] = {
+		name = "聖砂之約",
+		key = "SkinNormal_20250227",
+		display_icon = "ui_202",
+		unlock = "聖砂之約戰鬥主題禮包獲取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "古老符文與黃金紋飾交織，每個細節都訴說著尼羅河文明的不朽傳說。",
+		id = 202,
+		icon = "202",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	[203] = {
 		name = "基因之源",
 		key = "SkinElite_20250327",
@@ -196,6 +213,7 @@ pg.item_data_battleui = {
 		106,
 		107,
 		201,
+		202,
 		203,
 		204,
 		205
