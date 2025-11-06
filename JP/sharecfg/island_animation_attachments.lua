@@ -161,6 +161,13 @@ pg.island_animation_attachments = {
 		animator = "island/animator/ani_item_1_02_10005",
 		unlock = 0
 	},
+	[200000] = {
+		id = 200000,
+		model = "island/effect/prefab/timeline/juqing/vfx_chuchang01",
+		attack = 0,
+		animator = "",
+		unlock = 0
+	},
 	all = {
 		10004,
 		10006,
@@ -184,6 +191,7 @@ pg.island_animation_attachments = {
 		100041,
 		100042,
 		100051,
-		100052
+		100052,
+		200000
 	}
 }

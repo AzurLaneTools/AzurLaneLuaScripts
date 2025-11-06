@@ -58,35 +58,42 @@ slot0.register = function(slot0)
 		uv0:onAutoBtn(slot1)
 	end)
 	slot0:bind(uv0.ON_START, function (slot0)
-		slot1, slot2 = uv0:GetFleet(uv1.contextData.bossId):isLegalToFight()
+		slot1 = SYSTEM_WORLD_BOSS
 
-		if slot1 ~= true then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
+		if not uv0.contextData.isSimulate then
+			slot2, slot3 = uv1:GetFleet(uv0.contextData.bossId):isLegalToFight()
 
-			return
+			if slot2 ~= true then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
+
+				return
+			end
+
+			if not nowWorld():GetBossProxy():GetBossById(uv0.contextData.bossId) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_not_found"))
+
+				return
+			end
+
+			if uv0.contextData.isOther and uv1:GetPt() <= 0 and WorldBossConst._IsCurrBoss(slot5) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
+
+				return
+			end
+
+			if uv0.contextData.isOther then
+				WorldBossScene.inOtherBossBattle = uv0.contextData.bossId
+			end
+		else
+			slot1 = SYSTEM_WORLD_BOSS_SIMULATE
 		end
 
-		if not nowWorld():GetBossProxy():GetBossById(uv1.contextData.bossId) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_not_found"))
-
-			return
-		end
-
-		if uv1.contextData.isOther and uv0:GetPt() <= 0 and WorldBossConst._IsCurrBoss(slot4) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
-
-			return
-		end
-
-		if uv1.contextData.isOther then
-			WorldBossScene.inOtherBossBattle = uv1.contextData.bossId
-		end
-
-		uv1:sendNotification(GAME.BEGIN_STAGE, {
+		uv0:sendNotification(GAME.BEGIN_STAGE, {
 			actId = 0,
-			bossId = uv1.contextData.bossId,
-			system = SYSTEM_WORLD_BOSS,
-			hpRate = uv1.contextData.hpRate
+			bossId = uv0.contextData.bossId,
+			system = slot1,
+			hpRate = uv0.contextData.hpRate,
+			isSimulate = isSimulate
 		})
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)

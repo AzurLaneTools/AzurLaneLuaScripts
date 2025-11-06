@@ -51,8 +51,8 @@ slot0.GetLinkObjectsByTaskId = function(slot0)
 	end
 
 	for slot8, slot9 in ipairs(slot1.target_id) do
-		if table.contains(IslandTaskTargetType.GetObjectLinkTypes(), pg.island_task_target[slot9].type) then
-			slot4[slot10.target_param[1]] = {
+		if tonumber(pg.island_task_target[slot9].tips) then
+			slot4[slot11] = {
 				slot0,
 				slot9
 			}

@@ -115,7 +115,7 @@ slot0.ExitShareBossSystem = function(slot0, slot1)
 end
 
 slot0.ExitWorldBossSystem = function(slot0, slot1)
-	if getProxy(ContextProxy):getContextByMediator(WorldBossMediator):getContextByMediator(WorldBossFormationMediator) then
+	if getProxy(ContextProxy):getContextByMediator(WorldBossMediator):getContextByMediator(WorldBossFormationMediator) and not slot1.isSimulate then
 		slot3:removeChild(slot4)
 	end
 
@@ -225,11 +225,7 @@ end
 slot0.ExitRewardPerform = function(slot0, slot1)
 	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatLiteMediator)
 
-	print(slot3.parent)
-
 	if slot3 then
-		print(slot4.mediator.__cname)
-
 		slot5 = slot4:removeChild(slot3)
 	end
 

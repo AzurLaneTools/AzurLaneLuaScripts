@@ -4,16 +4,16 @@ slot0.SIGN_CNT_UPDATE = "IslandSignInAgency:SIGN_CNT_UPDATE"
 slot0.OTHER_FETCH_CNT_UPDATE = "IslandSignInAgency:OTHER_FETCH_CNT_UPDATE"
 
 slot0.OnInit = function(slot0, slot1)
-	slot0.defaultGiftCnt = pg.island_set.daily_gift_drop_num.key_value_int + slot0:GetHost():GetAblityAgency():GetSignInGiftAddition()
+	slot0.defaultGiftCnt = pg.island_set.daily_gift_drop_num.key_value_int
 	slot0.maxFetchCnt = pg.island_set.daily_gift_get_max.key_value_int
 	slot0.giftEndTime = slot1.tree_gift_timestamp or 0
 	slot0.giftCnt = slot1.tree_gift_count or 0
 	slot0.inviteList = {}
-	slot3 = ipairs
-	slot4 = slot1.tree_gift_invited or {}
+	slot2 = ipairs
+	slot3 = slot1.tree_gift_invited or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		table.insert(slot0.inviteList, slot7)
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot0.inviteList, slot6)
 	end
 
 	slot0.fetchedList = {}
@@ -30,7 +30,7 @@ slot0.UpdateGiftEndTime = function(slot0, slot1)
 end
 
 slot0.IsMaxFetchCnt = function(slot0)
-	return slot0.maxFetchCnt <= slot0.otherFetchCnt
+	return slot0:GetMaxOtheFetchcnt() <= slot0.otherFetchCnt
 end
 
 slot0.InInInviteList = function(slot0, slot1)
@@ -102,11 +102,11 @@ slot0.UpdateOtherFetchCnt = function(slot0, slot1)
 end
 
 slot0.GetLeftOtherFetchCnt = function(slot0)
-	return slot0.maxFetchCnt - slot0.otherFetchCnt
+	return slot0:GetMaxOtheFetchcnt() - slot0.otherFetchCnt
 end
 
 slot0.GetMaxOtheFetchcnt = function(slot0)
-	return slot0.maxFetchCnt
+	return slot0.maxFetchCnt + slot0:GetHost():GetAblityAgency():GetSignInGiftAddition()
 end
 
 slot0.CanInvite = function(slot0)

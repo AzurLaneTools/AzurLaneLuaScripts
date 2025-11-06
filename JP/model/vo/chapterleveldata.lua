@@ -2378,12 +2378,12 @@ slot0.GetAllEnemies = function(slot0, slot1)
 	return slot2
 end
 
-slot0.GetFleetofDuty = function(slot0, slot1)
+slot0.GetFleetOfDuty = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in ipairs(slot0.fleets) do
 		if slot7:isValid() and slot7:getFleetType() == FleetType.Normal then
-			if (slot0.duties[slot7.id] or 0) == ChapterFleet.DUTY_KILLALL or slot1 and slot8 == ChapterFleet.DUTY_KILLBOSS or not slot1 and slot8 == ChapterFleet.DUTY_CLEANPATH then
+			if (slot0.duties[slot7.id] or 0) == ChapterFleet.DUTY_KILLALL or slot8 == ChapterFleet.DUTY_KILLBOSS and tobool(slot1) or slot8 == ChapterFleet.DUTY_CLEANPATH and not tobool(slot1) then
 				return slot7
 			end
 

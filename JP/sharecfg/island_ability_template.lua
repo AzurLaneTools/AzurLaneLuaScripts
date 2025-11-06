@@ -33,31 +33,31 @@ pg.island_ability_template = {
 	[7] = {
 		unlock_text = "依頼一覧",
 		effect = 6,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 7,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "離島依頼| <color=#1E8FFE>港</color>の<color=#1E8FFE>パトリック</color>で確認可能",
+		show_pop_text = "離島依頼| <color=#7EBEFF>港</color>の<color=#7EBEFF>パトリック</color>で確認可能",
 		show_type = 1
 	},
 	[8] = {
 		unlock_text = "",
 		effect = 7,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 8,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "離島技術| <color=#1E8FFE>港口‐基地</color>の<color=#1E8FFE>技術研究</color>で確認可能",
+		show_pop_text = "離島技術| <color=#7EBEFF>港口‐基地</color>の<color=#7EBEFF>技術研究</color>で確認可能",
 		show_type = 1
 	},
 	[9] = {
 		unlock_text = "",
 		effect = 8,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 9,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "倉庫|<color=#1E8FFE>管理画面</color>の<color=#1E8FFE>倉庫</color>で確認可能",
+		show_pop_text = "倉庫|<color=#7EBEFF>管理画面</color>の<color=#7EBEFF>倉庫</color>で確認可能",
 		show_type = 1
 	},
 	[10] = {
@@ -183,71 +183,71 @@ pg.island_ability_template = {
 	[27] = {
 		unlock_text = "",
 		effect = 10,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 27,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "友達| <color=#1E8FFE>管理画面</color>の<color=#1E8FFE>友達ボタン</color>で確認可能",
+		show_pop_text = "友達| <color=#7EBEFF>管理画面</color>の<color=#7EBEFF>友達ボタン</color>で確認可能",
 		show_type = 1
 	},
 	[28] = {
 		unlock_text = "",
 		effect = 11,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 28,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "仲間| <color=#1E8FFE>メイン画面</color>の<color=#1E8FFE>キャラ</color>で確認可能",
+		show_pop_text = "仲間| <color=#7EBEFF>メイン画面</color>の<color=#7EBEFF>キャラ</color>で確認可能",
 		show_type = 1
 	},
 	[29] = {
 		unlock_text = "",
 		effect = 12,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 29,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "図鑑| <color=#1E8FFE>メイン画面</color>の<color=#1E8FFE>図鑑</color>で確認可能",
+		show_pop_text = "図鑑| <color=#7EBEFF>メイン画面</color>の<color=#7EBEFF>図鑑</color>で確認可能",
 		show_type = 1
 	},
 	[30] = {
 		unlock_text = "",
 		effect = 13,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 30,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "実績| <color=#1E8FFE>メイン画面</color>の<color=#1E8FFE>実績</color>で確認可能",
+		show_pop_text = "実績| <color=#7EBEFF>メイン画面</color>の<color=#7EBEFF>実績</color>で確認可能",
 		show_type = 1
 	},
 	[31] = {
 		unlock_text = "",
 		effect = 14,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 31,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "シーズン| <color=#1E8FFE>メイン画面</color>の<color=#1E8FFE>シーズン</color>で確認可能",
+		show_pop_text = "シーズン| <color=#7EBEFF>メイン画面</color>の<color=#7EBEFF>シーズン</color>で確認可能",
 		show_type = 1
 	},
 	[32] = {
 		unlock_text = "輸送委託",
 		effect = 15,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 32,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "輸送委託| <color=#1E8FFE>港</color>の<color=#1E8FFE>ステファン</color>で確認可能",
+		show_pop_text = "輸送委託| <color=#7EBEFF>港</color>の<color=#7EBEFF>ステファン</color>で確認可能",
 		show_type = 1
 	},
 	[33] = {
 		unlock_text = "",
 		effect = 16,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 33,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "着せ替え| <color=#1E8FFE>管理画面</color>の<color=#1E8FFE>着せ替え</color>で確認可能",
+		show_pop_text = "着せ替え| <color=#7EBEFF>管理画面</color>の<color=#7EBEFF>着せ替え</color>で確認可能",
 		show_type = 1
 	},
 	[34] = {
@@ -263,11 +263,11 @@ pg.island_ability_template = {
 	[35] = {
 		unlock_text = "",
 		effect = 18,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 35,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "ショップ| <color=#1E8FFE>メイン画面</color>の<color=#1E8FFE>ショップ</color>で確認可能",
+		show_pop_text = "ショップ| <color=#7EBEFF>メイン画面</color>の<color=#7EBEFF>ショップ</color>で確認可能",
 		show_type = 1
 	},
 	[36] = {
@@ -313,21 +313,21 @@ pg.island_ability_template = {
 	[40] = {
 		unlock_text = "",
 		effect = 19,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 40,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "インタラクト| <color=#1E8FFE>メイン画面</color>右側の<color=#1E8FFE>インタラクトボタン</color>で確認でき、<color=#1E8FFE>アクション</color>や<color=#1E8FFE>チャット</color>が可能",
+		show_pop_text = "インタラクト| <color=#7EBEFF>メイン画面</color>右側の<color=#7EBEFF>インタラクトボタン</color>で確認でき、<color=#7EBEFF>アクション</color>や<color=#7EBEFF>チャット</color>が可能",
 		show_type = 1
 	},
 	[41] = {
 		unlock_text = "",
 		effect = 20,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 41,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "撮影| <color=#1E8FFE>管理画面</color>の<color=#1E8FFE>カメラボタン</color>で確認可能",
+		show_pop_text = "撮影| <color=#7EBEFF>管理画面</color>の<color=#7EBEFF>カメラボタン</color>で確認可能",
 		show_type = 1
 	},
 	[42] = {
@@ -503,71 +503,71 @@ pg.island_ability_template = {
 	[2001] = {
 		unlock_text = "豊穣の畑",
 		effect = 101,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2001,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "豊穣の畑| <color=#1E8FFE>朝露農場</color>で<color=#1E8FFE>作物</color>を栽培可能",
+		show_pop_text = "豊穣の畑| <color=#7EBEFF>朝露農場</color>で<color=#7EBEFF>作物</color>を栽培可能",
 		show_type = 1
 	},
 	[2002] = {
 		unlock_text = "悠々牧場",
 		effect = 102,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2002,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "悠々牧場| <color=#1E8FFE>朝露農場</color>の<color=#1E8FFE>アメリゴ</color>で確認可能",
+		show_pop_text = "悠々牧場| <color=#7EBEFF>朝露農場</color>の<color=#7EBEFF>アメリゴ</color>で確認可能",
 		show_type = 2
 	},
 	[2003] = {
 		unlock_text = "積岩鉱山",
 		effect = 401,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "積岩鉱山| <color=#1E8FFE>風の原野</color>で<color=#1E8FFE>鉱石</color>を採掘可能",
+		show_pop_text = "積岩鉱山| <color=#7EBEFF>風の原野</color>で<color=#7EBEFF>鉱石</color>を採掘可能",
 		show_type = 3
 	},
 	[2004] = {
 		unlock_text = "翠緑の森",
 		effect = 402,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2004,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "翠緑の森| <color=#1E8FFE>風の原野</color>で<color=#1E8FFE>木材</color>を伐採可能",
+		show_pop_text = "翠緑の森| <color=#7EBEFF>風の原野</color>で<color=#7EBEFF>木材</color>を伐採可能",
 		show_type = 1
 	},
 	[2005] = {
 		unlock_text = "薫る果樹園",
 		effect = 501,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2005,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "薫る果樹園| <color=#1E8FFE>繁茂農園</color>で<color=#1E8FFE>作物</color>を栽培可能",
+		show_pop_text = "薫る果樹園| <color=#7EBEFF>繁茂農園</color>で<color=#7EBEFF>作物</color>を栽培可能",
 		show_type = 1
 	},
 	[2006] = {
 		unlock_text = "青々苗場",
 		effect = 502,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2006,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "青々苗場| <color=#1E8FFE>繁茂農園</color>で<color=#1E8FFE>作物</color>を栽培可能",
+		show_pop_text = "青々苗場| <color=#7EBEFF>繁茂農園</color>で<color=#7EBEFF>作物</color>を栽培可能",
 		show_type = 1
 	},
 	[2008] = {
 		unlock_text = "有魚飯店",
 		effect = 601,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2008,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "有魚飯店| <color=#1E8FFE>港口商店街</color>の<color=#1E8FFE>アムマーマー</color>で確認可能",
+		show_pop_text = "有魚飯店| <color=#7EBEFF>港口商店街</color>の<color=#7EBEFF>アムマーマー</color>で確認可能",
 		show_type = 1
 	},
 	[2009] = {
@@ -603,11 +603,11 @@ pg.island_ability_template = {
 	[2012] = {
 		unlock_text = "木材加工",
 		effect = 703,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2012,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "木材加工| <color=#1E8FFE>港口‐基地</color>の<color=#1E8FFE>ラッセル</color>で確認可能",
+		show_pop_text = "木材加工| <color=#7EBEFF>港口‐基地</color>の<color=#7EBEFF>ラッセル</color>で確認可能",
 		show_type = 1
 	},
 	[2013] = {
@@ -643,11 +643,11 @@ pg.island_ability_template = {
 	[2016] = {
 		unlock_text = "饅頭カフェ",
 		effect = 901,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2016,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "饅頭カフェ| <color=#1E8FFE>港口‐饅頭カフェ</color>の<color=#1E8FFE>ブレーメン</color>で確認可能",
+		show_pop_text = "饅頭カフェ| <color=#7EBEFF>港口‐饅頭カフェ</color>の<color=#7EBEFF>ブレーメン</color>で確認可能",
 		show_type = 1
 	},
 	[5001] = {
@@ -1073,21 +1073,21 @@ pg.island_ability_template = {
 	[17002] = {
 		unlock_text = "カフェ経営",
 		effect = 901,
-		show_pop = 0,
+		show_pop = 1,
 		type = 17,
 		id = 17002,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "カフェ経営| <color=#1E8FFE>港口‐饅頭カフェ</color>の<color=#1E8FFE>ブレーメン</color>で確認可能",
+		show_pop_text = "カフェ経営| <color=#7EBEFF>港口‐饅頭カフェ</color>の<color=#7EBEFF>ブレーメン</color>で確認可能",
 		show_type = 1
 	},
 	[17003] = {
 		unlock_text = "有魚飯店",
 		effect = 601,
-		show_pop = 0,
+		show_pop = 1,
 		type = 17,
 		id = 17003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "有魚飯店経営| <color=#1E8FFE>港口商店街</color>の<color=#1E8FFE>アムマーマー</color>で確認可能",
+		show_pop_text = "有魚飯店経営| <color=#7EBEFF>港口商店街</color>の<color=#7EBEFF>アムマーマー</color>で確認可能",
 		show_type = 1
 	},
 	[17004] = {

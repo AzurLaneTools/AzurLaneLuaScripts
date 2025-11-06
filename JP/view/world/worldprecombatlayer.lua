@@ -3,6 +3,9 @@ slot1 = import("..ship.FormationUI")
 slot2 = {
 	[99.0] = true
 }
+slot0.optionsPath = {
+	"adapt/top/option"
+}
 
 slot0.getUIName = function(slot0)
 	return "WorldPreCombatUI"

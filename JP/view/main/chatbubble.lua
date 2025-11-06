@@ -129,18 +129,17 @@ slot0.update = function(slot0, slot1)
 			end
 
 			if uv0.tf and uv0.data then
-				slot1 = tf(slot0)
-				slot1 = slot1:Find("Text")
-				slot1:GetComponent("RichText").supportRichText = false
-				slot3 = tf(slot0)
+				tf(slot0):Find("Text"):GetComponent("RichText").supportRichText = false
 
-				eachChild(slot3:Find("Text"), function (slot0)
+				eachChild(tf(slot0):Find("Text"), function (slot0)
 					Destroy(slot0)
 				end)
 
+				slot2 = string.gmatch
+				slot3 = uv1.content or ""
 				slot3 = false
 
-				for slot7 in string.gmatch(uv1.content, ChatConst.EmojiIconCodeMatch), nil,  do
+				for slot7 in slot2(slot3, ChatConst.EmojiIconCodeMatch), nil,  do
 					if table.contains(pg.emoji_small_template.all, tonumber(slot7)) then
 						slot3 = true
 

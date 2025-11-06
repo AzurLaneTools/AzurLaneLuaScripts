@@ -201,6 +201,43 @@ pg.island_dress_template = {
 			}
 		}
 	},
+	[1010007] = {
+		related_dress = 0,
+		quality = 4,
+		type = 1,
+		sub_type = 0,
+		remove = 1,
+		name = "草わらの影",
+		desc = "草編みのピュアナチュラル。気分はスッキリサマーデー。",
+		exclusive_default_skin = "",
+		model = "island/item/03/39003/prefab/pre_item_03_39003",
+		icon = "dress_1010007",
+		attachmentPoint = "Bip001 Spine1",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1010007,
+		face_clip = "",
+		offset = {
+			0.026,
+			-0.365,
+			0.015
+		},
+		rotation = {
+			92.258,
+			-58.98901,
+			-337.28
+		},
+		scale = {
+			0.8
+		},
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
+	},
 	[1020001] = {
 		scale = "",
 		related_dress = 0,
@@ -1302,6 +1339,7 @@ pg.island_dress_template = {
 			1010004,
 			1010005,
 			1010006,
+			1010007,
 			2010001,
 			2010002
 		},
@@ -1366,6 +1404,7 @@ pg.island_dress_template = {
 			1010004,
 			1010005,
 			1010006,
+			1010007,
 			1020001,
 			1020002,
 			1020003,
@@ -1429,6 +1468,7 @@ pg.island_dress_template = {
 		1010004,
 		1010005,
 		1010006,
+		1010007,
 		1020001,
 		1020002,
 		1020003,

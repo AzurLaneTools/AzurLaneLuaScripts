@@ -214,7 +214,7 @@ return {
 	OnAiriBuying = -1,
 	BuyingLimit = 60,
 	CheckAudit = function ()
-		return NetConst.GATEWAY_PORT == 20001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+		return NetConst.getwayType == 1
 	end,
 	CheckPreAudit = function ()
 		return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"

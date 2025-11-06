@@ -6,6 +6,7 @@ slot0.ANIMATION_MOVEMENT = "movement"
 slot0.ANIMATION_JUMP_START = "jumpstart"
 slot0.ANIMATION_JUMP_LOOP = "jumploop"
 slot0.ANIMATION_JUMP_LAND = "jumpland"
+slot0.ANIMATION_HEROCOMING = "herocoming"
 slot0.LAYER_GROUND = "Ground"
 slot0.LAYER_WORLDMAP3D = "WorldMap3D"
 slot0.CANT_SWITCH_TO_MOVEMENT_STATES = {

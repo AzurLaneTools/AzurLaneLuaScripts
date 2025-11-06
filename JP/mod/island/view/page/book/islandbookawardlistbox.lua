@@ -32,17 +32,6 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-
-	slot0.ids = Clone(pg.island_collection_reward.all)
-
-	table.sort(slot0.ids, CompareFuncs({
-		function (slot0)
-			return pg.island_collection_reward[slot0].level
-		end,
-		function (slot0)
-			return slot0
-		end
-	}))
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -75,7 +64,9 @@ end
 slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 
-	slot0.gotIds = getProxy(IslandProxy):GetIsland():GetBookAgency():GetPointAwardGotIds()
+	slot1 = getProxy(IslandProxy):GetIsland():GetBookAgency()
+	slot0.ids = slot1:GetPointAwardIds(slot0.contextData.type)
+	slot0.gotIds = slot1:GetPointAwardGotIds(slot0.contextData.type)
 
 	slot0.scrollRect:SetTotalCount(#slot0.ids, -1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
@@ -87,6 +78,7 @@ slot0.Hide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:Hide()
 	ClearLScrollrect(slot0.scrollRect)
 end
 

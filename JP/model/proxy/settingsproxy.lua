@@ -1090,7 +1090,9 @@ slot0.GetMainSceneScreenSleepTime = function(slot0)
 		return SleepTimeout.SystemSetting
 	end
 
-	if PlayerPrefs.GetInt(pg.settings_other_template[20].name, 1) == 1 then
+	slot1 = pg.settings_other_template[20]
+
+	if PlayerPrefs.GetInt(_G[slot1.name], slot1.default) == 1 then
 		return SleepTimeout.NeverSleep
 	else
 		return SleepTimeout.SystemSetting
@@ -1098,7 +1100,15 @@ slot0.GetMainSceneScreenSleepTime = function(slot0)
 end
 
 slot0.ShowL2dResetInMainScene = function(slot0)
-	return PlayerPrefs.GetInt(pg.settings_other_template[21].name, 0) == 1
+	slot1 = pg.settings_other_template[21]
+
+	return PlayerPrefs.GetInt(_G[slot1.name], slot1.default) == 1
+end
+
+slot0.GetRecommendLowEnerySkipEnable = function(slot0)
+	slot1 = pg.settings_other_template[25]
+
+	return PlayerPrefs.GetInt(_G[slot1.name], slot1.default) == 1
 end
 
 slot0.Reset = function(slot0)

@@ -51,10 +51,12 @@ slot0.OnLoaded = function(slot0)
 	slot0.detailPanel = IslandTechDetailPanel.New(slot0._tf, slot0.event, setmetatable({
 		onSelecteShip = function (slot0)
 			uv0:OpenPage(IslandShipSelectPage, {
+				needWorkSpeed = true,
 				attrType = pg.island_formula[slot0].attribute,
 				confirmFunc = function (slot0)
 					uv0.detailPanel:ExecuteAction("OnShipSelected", slot0[1])
-				end
+				end,
+				placeId = IslandProductConst.TechnologyPlaceId
 			})
 		end,
 		onFinishImmd = function (slot0)

@@ -287,6 +287,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100502,
 		2100511,
 		2100512,
+		2100521,
+		2100522,
+		2100531,
+		2100532,
 		2200000,
 		2200010,
 		2200020,
@@ -4366,7 +4370,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1730001",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4940,
+		on_activity = 50213,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -18487,6 +18491,206 @@ pg.base.expedition_data_by_map = {
 		anchor = {
 			0.5,
 			0.5
+		}
+	},
+	[2100521] = {
+		map = 2100521,
+		name = "赫の涙月　菫の暁風·前編|| ||CHAPTER EX||E.X.",
+		bgm = "theme-musashi-inside",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZIJIANGJINLAN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1680001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1680001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100531,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100522] = {
+		map = 2100522,
+		name = "赫の涙月　菫の暁風·後編|| ||CHAPTER EX||E.X.",
+		bgm = "musashi-1",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZIJIANGJINLAN19",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1680002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1680002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100532,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100531] = {
+		map = 2100531,
+		name = "赫の涙月　菫の暁風·前編|| ||CHAPTER EX||E.X.",
+		bgm = "theme-musashi-inside",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZIJIANGJINLAN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1680003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1680003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100521,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100532] = {
+		map = 2100532,
+		name = "赫の涙月　菫の暁風·後編|| ||CHAPTER EX||E.X.",
+		bgm = "musashi-1",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZIJIANGJINLAN19",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1680004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1680004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100522,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
 		}
 	},
 	[2200000] = {

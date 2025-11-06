@@ -12,10 +12,18 @@ slot0.execute = function(slot0, slot1)
 	slot5:Send(34501, {
 		type = 0
 	}, 34502, function (slot0)
-		slot1 = uv0.worldBossProxy
+		if uv0.worldBossProxy.currentBossLV ~= nil then
+			slot1.currentBossLV = slot0.self_boss_lv
+
+			if uv1 then
+				uv1()
+			end
+
+			return
+		end
 
 		slot1:Setup(slot0)
-		uv1:sendNotification(GAME.WORLD_GET_BOSS_DONE)
+		uv2:sendNotification(GAME.WORLD_GET_BOSS_DONE)
 
 		if not slot1:IsOpen() and slot1:GetSelfBoss() ~= nil then
 			originalPrint("Notification : boss is overtime")
@@ -28,8 +36,8 @@ slot0.execute = function(slot0, slot1)
 			end)
 		end
 
-		if uv2 then
-			uv2()
+		if uv1 then
+			uv1()
 		end
 	end)
 end

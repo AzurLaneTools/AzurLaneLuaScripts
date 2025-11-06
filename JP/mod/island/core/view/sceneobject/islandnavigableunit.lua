@@ -224,6 +224,11 @@ end
 
 slot0.PlayAnimation = function(slot0, slot1, slot2, slot3)
 	slot4 = defaultValue(slot2, 0.25)
+
+	if slot1 == IslandConst.ANIMATION_HEROCOMING then
+		slot4 = 0
+	end
+
 	slot6 = Animator.StringToHash(slot1)
 
 	for slot10 = 1, slot0:GetAnimator().layerCount do

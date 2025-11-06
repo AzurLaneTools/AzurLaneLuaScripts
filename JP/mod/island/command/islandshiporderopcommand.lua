@@ -44,11 +44,24 @@ slot0.HandleUnlock = function(slot0, slot1)
 		ship_slot_id = slot1.id
 	}, 21409, function (slot0)
 		if slot0.result == 0 then
+			slot1 = IslandDropHelper.AddItems(slot0)
+
 			uv0:sendNotification(GAME.CONSUME_ITEM, uv1)
 			uv2:Init(slot0.slot, true)
+
+			if slot0.appoint_list and #slot2 > 0 then
+				slot3 = {}
+
+				for slot7, slot8 in ipairs(slot0.appoint_list) do
+					slot3[slot8.id] = IslandShipOrderDelegateSlot.New(slot8)
+				end
+
+				getProxy(IslandProxy):GetIsland():GetOrderAgency():AddDelegateSlotList(slot3)
+			end
+
 			uv0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP_DONE, {
 				op = IslandShipOrder.OP_TYPE_UNLOCK,
-				dropData = IslandDropHelper.AddItems(slot0),
+				dropData = slot1,
 				id = uv2.id
 			})
 		else
@@ -82,6 +95,10 @@ slot0.HandleGetAward = function(slot0, slot1)
 end
 
 slot0.HandleLoadUpAll = function(slot0, slot1)
+	if not slot1:CanTransport() then
+		return
+	end
+
 	slot3 = 0
 	slot4 = {}
 	slot5 = {}
@@ -140,6 +157,10 @@ slot0.HandleLoadUpAll = function(slot0, slot1)
 end
 
 slot0.HandleLoadUp = function(slot0, slot1, slot2)
+	if not slot1:CanTransport() then
+		return
+	end
+
 	slot3 = slot1:GetOrder()
 	slot5 = Drop.New(slot3:GetComsume(slot2))
 	slot6 = slot3:GetConsumeAwards(slot2)

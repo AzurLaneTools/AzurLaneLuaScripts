@@ -7,6 +7,10 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
+	if slot3 == SYSTEM_WORLD_BOSS and slot2.isSimulate then
+		slot3 = SYSTEM_WORLD_BOSS_SIMULATE
+	end
+
 	ys.Battle.BattleGate.Gates[slot3].Exit(slot2, slot0)
 end
 

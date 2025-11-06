@@ -247,13 +247,22 @@ pg.settings_other_template = {
 		desc = "ONにすると、離島に来訪者がいる場合にポップアップで通知する"
 	},
 	{
-		default = 1,
+		default = 0,
 		name = "GRAPHI_API_SWITCH_OPTION",
 		alignment = 0,
 		type = 3,
 		id = 24,
 		title = "レンダリング互換性モード",
 		desc = "レンダリング互換性モードをONにすると、特定な状況下および一部の環境で画面が黒くなる不具合を軽減できます"
+	},
+	{
+		default = 1,
+		name = "REMOVE_LOW_MOOD",
+		alignment = 0,
+		type = 0,
+		id = 25,
+		title = "オススメ編成時の艦船フィルター",
+		desc = "ONにすると、オススメ編成で艦隊を自動編成する際、コンディションの低い艦隊が選択されなくなります"
 	},
 	all = {
 		1,
@@ -279,6 +288,7 @@ pg.settings_other_template = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

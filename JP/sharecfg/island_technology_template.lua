@@ -1022,20 +1022,20 @@ pg.base.island_technology_template = {
 		}
 	},
 	[130301] = {
-		complete_title = "集会島の定期補給の投下物資が増えました。<color=#1E8FFE>集会島の受領ポイント</color>で確認できます",
+		complete_title = "<color=#1E8FFE>友達定期補給</color>の入手可能回数が1増加。<color=#1E8FFE>友達訪問</color>画面で確認可能",
 		tech_level = "1",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "集会島の定期補給の投下物資が増えました。<color=#1E8FFE>集会島の受領ポイント</color>で確認できます",
+		complete_tips = "<color=#1E8FFE>友達定期補給</color>の入手可能回数が1増加。<color=#1E8FFE>友達訪問</color>画面で確認可能",
 		island_level = 19,
-		tech_desc = "定期補給の投下数が増加。新しい驚きを収穫しに行こう！",
+		tech_desc = "友達定期補給の入手可能回数が1増加。新しいサプライズを手に入れよう！",
 		tech_icon = "tech_130301",
 		tech_belong = 1,
 		tech_name = "定期補給数＋I",
 		formula_id = 7130301,
 		id = 130301,
-		complete_map_id = 1003,
+		complete_map_id = 0,
 		sys_unlock = {
 			{
 				1,
@@ -1124,20 +1124,20 @@ pg.base.island_technology_template = {
 		}
 	},
 	[130302] = {
-		complete_title = "集会島の定期補給の投下物資が増えました。<color=#1E8FFE>集会島の受領ポイント</color>で確認できます",
+		complete_title = "<color=#1E8FFE>友達定期補給</color>の入手可能回数が1増加。<color=#1E8FFE>友達訪問</color>画面で確認可能",
 		tech_level = "2",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "集会島の定期補給の投下物資が増えました。<color=#1E8FFE>集会島の受領ポイント</color>で確認できます",
+		complete_tips = "<color=#1E8FFE>友達定期補給</color>の入手可能回数が1増加。<color=#1E8FFE>友達訪問</color>画面で確認可能",
 		island_level = 22,
-		tech_desc = "定期補給の投下数が増加。新しい驚きを収穫しに行こう！",
+		tech_desc = "友達定期補給の入手可能回数が1増加。新しいサプライズを手に入れよう！",
 		tech_icon = "tech_130301",
 		tech_belong = 1,
 		tech_name = "定期補給数＋II",
 		formula_id = 7130302,
 		id = 130302,
-		complete_map_id = 1003,
+		complete_map_id = 0,
 		sys_unlock = {
 			{
 				1,
@@ -4493,7 +4493,7 @@ pg.base.island_technology_template = {
 		tech_name = "野菜サラダ",
 		formula_id = 7510204,
 		id = 510204,
-		complete_map_id = 1005,
+		complete_map_id = 1006,
 		sys_unlock = {
 			{
 				3,
@@ -4741,7 +4741,7 @@ pg.base.island_technology_template = {
 		tech_name = "アボカドの木栽培",
 		formula_id = 7500236,
 		id = 500236,
-		complete_map_id = 1006,
+		complete_map_id = 1005,
 		sys_unlock = {
 			{
 				1,
@@ -4809,7 +4809,7 @@ pg.base.island_technology_template = {
 		tech_name = "いちごレモンドリンク",
 		formula_id = 7520205,
 		id = 520205,
-		complete_map_id = 1005,
+		complete_map_id = 1006,
 		sys_unlock = {
 			{
 				3,
@@ -4873,7 +4873,7 @@ pg.base.island_technology_template = {
 		tech_name = "マンゴーともち米の蒸し飯",
 		formula_id = 7530202,
 		id = 530202,
-		complete_map_id = 1005,
+		complete_map_id = 1006,
 		sys_unlock = {
 			{
 				3,

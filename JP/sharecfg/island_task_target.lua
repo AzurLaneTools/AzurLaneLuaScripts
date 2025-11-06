@@ -17,6 +17,7 @@ pg.island_task_target = setmetatable({
 		902,
 		903,
 		40005,
+		500000011,
 		50001001,
 		50001002,
 		50001003,
@@ -65,6 +66,36 @@ pg.island_task_target = setmetatable({
 		80010028,
 		80010029,
 		80010030,
+		80011001,
+		80011002,
+		80011003,
+		80011004,
+		80011005,
+		80011006,
+		80011007,
+		80011008,
+		80011009,
+		80011010,
+		80011011,
+		80011012,
+		80011013,
+		80011014,
+		80011015,
+		80011016,
+		80011017,
+		80011018,
+		80011019,
+		80011020,
+		80011021,
+		80011022,
+		80011023,
+		80011024,
+		80011025,
+		80011026,
+		80011027,
+		80011028,
+		80011029,
+		80011030,
 		100010001,
 		100010101,
 		100010201,
@@ -343,6 +374,7 @@ pg.base = pg.base or {}
 pg.base.island_task_target = {
 	[101] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "明石と話す",
 		type = 1,
 		id = 101,
@@ -353,6 +385,7 @@ pg.base.island_task_target = {
 	},
 	[201] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "目標区域に到着",
 		type = 2,
 		id = 201,
@@ -363,6 +396,7 @@ pg.base.island_task_target = {
 	},
 	[301] = {
 		tips = "order",
+		jump_ui = "",
 		name = "依頼1をこなす",
 		type = 3,
 		id = 301,
@@ -371,6 +405,7 @@ pg.base.island_task_target = {
 	},
 	[302] = {
 		tips = "order",
+		jump_ui = "",
 		name = "依頼2をこなす",
 		type = 3,
 		id = 302,
@@ -381,6 +416,7 @@ pg.base.island_task_target = {
 	},
 	[401] = {
 		tips = "",
+		jump_ui = "",
 		name = "アイテム回収",
 		type = 4,
 		id = 401,
@@ -391,6 +427,7 @@ pg.base.island_task_target = {
 	},
 	[501] = {
 		tips = "",
+		jump_ui = "",
 		name = "任意のアイテムを入手",
 		type = 5,
 		id = 501,
@@ -399,6 +436,7 @@ pg.base.island_task_target = {
 	},
 	[502] = {
 		tips = "",
+		jump_ui = "",
 		name = "任意のアイテムを入手",
 		type = 5,
 		id = 502,
@@ -409,6 +447,7 @@ pg.base.island_task_target = {
 	},
 	[601] = {
 		tips = "",
+		jump_ui = "",
 		name = "任意のレシピでアイテムを手動で作る",
 		type = 6,
 		id = 601,
@@ -417,6 +456,7 @@ pg.base.island_task_target = {
 	},
 	[602] = {
 		tips = "",
+		jump_ui = "",
 		name = "指定のレシピでアイテムを手動で作る",
 		type = 6,
 		id = 602,
@@ -427,6 +467,7 @@ pg.base.island_task_target = {
 	},
 	[701] = {
 		tips = "",
+		jump_ui = "",
 		name = "任意のレシピを配置仲間に作らせる",
 		type = 7,
 		id = 701,
@@ -435,6 +476,7 @@ pg.base.island_task_target = {
 	},
 	[702] = {
 		tips = "",
+		jump_ui = "",
 		name = "指定のレシピを配置仲間に作らせる",
 		type = 7,
 		id = 702,
@@ -445,6 +487,7 @@ pg.base.island_task_target = {
 	},
 	[901] = {
 		tips = "",
+		jump_ui = "",
 		name = "開発レベルが必要です",
 		type = 9,
 		id = 901,
@@ -453,6 +496,7 @@ pg.base.island_task_target = {
 	},
 	[902] = {
 		tips = "",
+		jump_ui = "",
 		name = "開発レベルが必要です",
 		type = 9,
 		id = 902,
@@ -461,6 +505,7 @@ pg.base.island_task_target = {
 	},
 	[903] = {
 		tips = "",
+		jump_ui = "",
 		name = "開発レベルが必要です",
 		type = 9,
 		id = 903,
@@ -469,6 +514,7 @@ pg.base.island_task_target = {
 	},
 	[40005] = {
 		tips = "",
+		jump_ui = "",
 		name = "債務返済",
 		type = 5,
 		id = 40005,
@@ -477,8 +523,20 @@ pg.base.island_task_target = {
 			1
 		}
 	},
+	[500000011] = {
+		tips = "10020025",
+		jump_ui = "",
+		name = "ピアリに会いに行こう",
+		type = 1,
+		id = 500000011,
+		target_num = 1,
+		target_param = {
+			5822
+		}
+	},
 	[50001001] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を採集",
 		type = 40,
 		id = 50001001,
@@ -489,6 +547,7 @@ pg.base.island_task_target = {
 	},
 	[50001002] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を採集",
 		type = 40,
 		id = 50001002,
@@ -499,6 +558,7 @@ pg.base.island_task_target = {
 	},
 	[50001003] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を採集",
 		type = 40,
 		id = 50001003,
@@ -509,6 +569,7 @@ pg.base.island_task_target = {
 	},
 	[50001004] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を採集",
 		type = 40,
 		id = 50001004,
@@ -519,6 +580,7 @@ pg.base.island_task_target = {
 	},
 	[50001005] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を採集",
 		type = 40,
 		id = 50001005,
@@ -529,6 +591,7 @@ pg.base.island_task_target = {
 	},
 	[50001006] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を採集",
 		type = 40,
 		id = 50001006,
@@ -539,6 +602,7 @@ pg.base.island_task_target = {
 	},
 	[50001007] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を採集",
 		type = 40,
 		id = 50001007,
@@ -549,6 +613,7 @@ pg.base.island_task_target = {
 	},
 	[50002001] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を制作",
 		type = 26,
 		id = 50002001,
@@ -566,6 +631,7 @@ pg.base.island_task_target = {
 	},
 	[50002002] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を制作",
 		type = 26,
 		id = 50002002,
@@ -583,6 +649,7 @@ pg.base.island_task_target = {
 	},
 	[50002003] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を制作",
 		type = 26,
 		id = 50002003,
@@ -600,6 +667,7 @@ pg.base.island_task_target = {
 	},
 	[50002004] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を制作",
 		type = 26,
 		id = 50002004,
@@ -617,6 +685,7 @@ pg.base.island_task_target = {
 	},
 	[50002005] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を制作",
 		type = 26,
 		id = 50002005,
@@ -634,6 +703,7 @@ pg.base.island_task_target = {
 	},
 	[50002006] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を制作",
 		type = 26,
 		id = 50002006,
@@ -651,6 +721,7 @@ pg.base.island_task_target = {
 	},
 	[50002007] = {
 		tips = "",
+		jump_ui = "",
 		name = "累計で秋のお土産を制作",
 		type = 26,
 		id = 50002007,
@@ -668,6 +739,7 @@ pg.base.island_task_target = {
 	},
 	[50003001] = {
 		tips = "",
+		jump_ui = "",
 		name = "秋の土産依頼をこなす",
 		type = 39,
 		id = 50003001,
@@ -678,6 +750,7 @@ pg.base.island_task_target = {
 	},
 	[50003002] = {
 		tips = "",
+		jump_ui = "",
 		name = "秋の土産依頼をこなす",
 		type = 39,
 		id = 50003002,
@@ -688,6 +761,7 @@ pg.base.island_task_target = {
 	},
 	[50003003] = {
 		tips = "",
+		jump_ui = "",
 		name = "秋の土産依頼をこなす",
 		type = 39,
 		id = 50003003,
@@ -698,6 +772,7 @@ pg.base.island_task_target = {
 	},
 	[50003004] = {
 		tips = "",
+		jump_ui = "",
 		name = "秋の土産依頼をこなす",
 		type = 39,
 		id = 50003004,
@@ -708,6 +783,7 @@ pg.base.island_task_target = {
 	},
 	[80010001] = {
 		tips = "",
+		jump_ui = "",
 		name = "小麦を500個提出する",
 		type = 4,
 		id = 80010001,
@@ -718,6 +794,7 @@ pg.base.island_task_target = {
 	},
 	[80010002] = {
 		tips = "",
+		jump_ui = "",
 		name = "牧草を500個提出する",
 		type = 4,
 		id = 80010002,
@@ -728,6 +805,7 @@ pg.base.island_task_target = {
 	},
 	[80010003] = {
 		tips = "",
+		jump_ui = "",
 		name = "大豆を500個提出する",
 		type = 4,
 		id = 80010003,
@@ -738,6 +816,7 @@ pg.base.island_task_target = {
 	},
 	[80010004] = {
 		tips = "",
+		jump_ui = "",
 		name = "米を500個提出する",
 		type = 4,
 		id = 80010004,
@@ -748,6 +827,7 @@ pg.base.island_task_target = {
 	},
 	[80010005] = {
 		tips = "",
+		jump_ui = "",
 		name = "とうもろこしを500個提出する",
 		type = 4,
 		id = 80010005,
@@ -758,6 +838,7 @@ pg.base.island_task_target = {
 	},
 	[80010006] = {
 		tips = "",
+		jump_ui = "",
 		name = "ニンジンを250個提出する",
 		type = 4,
 		id = 80010006,
@@ -768,6 +849,7 @@ pg.base.island_task_target = {
 	},
 	[80010007] = {
 		tips = "",
+		jump_ui = "",
 		name = "牛乳を250個提出する",
 		type = 4,
 		id = 80010007,
@@ -778,6 +860,7 @@ pg.base.island_task_target = {
 	},
 	[80010008] = {
 		tips = "",
+		jump_ui = "",
 		name = "アップルパイを250個提出する",
 		type = 4,
 		id = 80010008,
@@ -788,6 +871,7 @@ pg.base.island_task_target = {
 	},
 	[80010009] = {
 		tips = "",
+		jump_ui = "",
 		name = "アイスコーヒーを250個提出する",
 		type = 4,
 		id = 80010009,
@@ -798,6 +882,7 @@ pg.base.island_task_target = {
 	},
 	[80010010] = {
 		tips = "",
+		jump_ui = "",
 		name = "炭火串焼きを250個提出する",
 		type = 4,
 		id = 80010010,
@@ -808,6 +893,7 @@ pg.base.island_task_target = {
 	},
 	[80010011] = {
 		tips = "",
+		jump_ui = "",
 		name = "玉ねぎを100個提出する",
 		type = 4,
 		id = 80010011,
@@ -818,6 +904,7 @@ pg.base.island_task_target = {
 	},
 	[80010012] = {
 		tips = "",
+		jump_ui = "",
 		name = "野菜サラダを100個提出する",
 		type = 4,
 		id = 80010012,
@@ -828,6 +915,7 @@ pg.base.island_task_target = {
 	},
 	[80010013] = {
 		tips = "",
+		jump_ui = "",
 		name = "肉そぼろ豆腐を100個提出する",
 		type = 4,
 		id = 80010013,
@@ -838,6 +926,7 @@ pg.base.island_task_target = {
 	},
 	[80010014] = {
 		tips = "",
+		jump_ui = "",
 		name = "ラテを100個提出する",
 		type = 4,
 		id = 80010014,
@@ -848,6 +937,7 @@ pg.base.island_task_target = {
 	},
 	[80010015] = {
 		tips = "",
+		jump_ui = "",
 		name = "鶏肉炒めを100個提出する",
 		type = 4,
 		id = 80010015,
@@ -858,6 +948,7 @@ pg.base.island_task_target = {
 	},
 	[80010016] = {
 		tips = "",
+		jump_ui = "",
 		name = "ハンバーグ丼を50個提出する",
 		type = 4,
 		id = 80010016,
@@ -868,6 +959,7 @@ pg.base.island_task_target = {
 	},
 	[80010017] = {
 		tips = "",
+		jump_ui = "",
 		name = "定期補給1回を受け取る",
 		type = 13,
 		id = 80010017,
@@ -876,6 +968,7 @@ pg.base.island_task_target = {
 	},
 	[80010018] = {
 		tips = "",
+		jump_ui = "",
 		name = "定期補給3回を受け取る",
 		type = 13,
 		id = 80010018,
@@ -884,6 +977,7 @@ pg.base.island_task_target = {
 	},
 	[80010019] = {
 		tips = "",
+		jump_ui = "",
 		name = "定期補給5回を受け取る",
 		type = 13,
 		id = 80010019,
@@ -892,6 +986,7 @@ pg.base.island_task_target = {
 	},
 	[80010020] = {
 		tips = "",
+		jump_ui = "",
 		name = "定期補給10回を受け取る",
 		type = 13,
 		id = 80010020,
@@ -900,6 +995,7 @@ pg.base.island_task_target = {
 	},
 	[80010021] = {
 		tips = "",
+		jump_ui = "",
 		name = "定期補給15回を受け取る",
 		type = 13,
 		id = 80010021,
@@ -908,6 +1004,7 @@ pg.base.island_task_target = {
 	},
 	[80010022] = {
 		tips = "",
+		jump_ui = "",
 		name = "定期補給20回を受け取る",
 		type = 13,
 		id = 80010022,
@@ -916,6 +1013,7 @@ pg.base.island_task_target = {
 	},
 	[80010023] = {
 		tips = "",
+		jump_ui = "",
 		name = "定期補給25回を受け取る",
 		type = 13,
 		id = 80010023,
@@ -924,6 +1022,7 @@ pg.base.island_task_target = {
 	},
 	[80010024] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島依頼を10個こなす",
 		type = 3,
 		id = 80010024,
@@ -932,6 +1031,7 @@ pg.base.island_task_target = {
 	},
 	[80010025] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島依頼を30個こなす",
 		type = 3,
 		id = 80010025,
@@ -940,6 +1040,7 @@ pg.base.island_task_target = {
 	},
 	[80010026] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島依頼を50個こなす",
 		type = 3,
 		id = 80010026,
@@ -948,6 +1049,7 @@ pg.base.island_task_target = {
 	},
 	[80010027] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島依頼を100個こなす",
 		type = 3,
 		id = 80010027,
@@ -956,6 +1058,7 @@ pg.base.island_task_target = {
 	},
 	[80010028] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島依頼を150個こなす",
 		type = 3,
 		id = 80010028,
@@ -964,6 +1067,7 @@ pg.base.island_task_target = {
 	},
 	[80010029] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島依頼を200個こなす",
 		type = 3,
 		id = 80010029,
@@ -972,14 +1076,318 @@ pg.base.island_task_target = {
 	},
 	[80010030] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島依頼を300個こなす",
 		type = 3,
 		id = 80010030,
 		target_num = 300,
 		target_param = ""
 	},
+	[80011001] = {
+		tips = "",
+		jump_ui = "",
+		name = "小麦を500個提出する",
+		type = 4,
+		id = 80011001,
+		target_num = 500,
+		target_param = {
+			2000
+		}
+	},
+	[80011002] = {
+		tips = "",
+		jump_ui = "",
+		name = "牧草を500個提出する",
+		type = 4,
+		id = 80011002,
+		target_num = 500,
+		target_param = {
+			2008
+		}
+	},
+	[80011003] = {
+		tips = "",
+		jump_ui = "",
+		name = "大豆を500個提出する",
+		type = 4,
+		id = 80011003,
+		target_num = 500,
+		target_param = {
+			2006
+		}
+	},
+	[80011004] = {
+		tips = "",
+		jump_ui = "",
+		name = "米を500個提出する",
+		type = 4,
+		id = 80011004,
+		target_num = 500,
+		target_param = {
+			2002
+		}
+	},
+	[80011005] = {
+		tips = "",
+		jump_ui = "",
+		name = "とうもろこしを500個提出する",
+		type = 4,
+		id = 80011005,
+		target_num = 500,
+		target_param = {
+			2001
+		}
+	},
+	[80011006] = {
+		tips = "",
+		jump_ui = "",
+		name = "ニンジンを250個提出する",
+		type = 4,
+		id = 80011006,
+		target_num = 250,
+		target_param = {
+			2004
+		}
+	},
+	[80011007] = {
+		tips = "",
+		jump_ui = "",
+		name = "牛乳を250個提出する",
+		type = 4,
+		id = 80011007,
+		target_num = 250,
+		target_param = {
+			2603
+		}
+	},
+	[80011008] = {
+		tips = "",
+		jump_ui = "",
+		name = "りんごジュースを250個提出する",
+		type = 4,
+		id = 80011008,
+		target_num = 250,
+		target_param = {
+			3017
+		}
+	},
+	[80011009] = {
+		tips = "",
+		jump_ui = "",
+		name = "アイスコーヒーを250個提出する",
+		type = 4,
+		id = 80011009,
+		target_num = 250,
+		target_param = {
+			3005
+		}
+	},
+	[80011010] = {
+		tips = "",
+		jump_ui = "",
+		name = "炭火串焼きを250個提出する",
+		type = 4,
+		id = 80011010,
+		target_num = 250,
+		target_param = {
+			3029
+		}
+	},
+	[80011011] = {
+		tips = "",
+		jump_ui = "",
+		name = "玉ねぎを100個提出する",
+		type = 4,
+		id = 80011011,
+		target_num = 100,
+		target_param = {
+			2007
+		}
+	},
+	[80011012] = {
+		tips = "",
+		jump_ui = "",
+		name = "野菜サラダを100個提出する",
+		type = 4,
+		id = 80011012,
+		target_num = 100,
+		target_param = {
+			3015
+		}
+	},
+	[80011013] = {
+		tips = "",
+		jump_ui = "",
+		name = "ニンジン厚焼き玉子を100個提出する",
+		type = 4,
+		id = 80011013,
+		target_num = 100,
+		target_param = {
+			3033
+		}
+	},
+	[80011014] = {
+		tips = "",
+		jump_ui = "",
+		name = "ラテを100個提出する",
+		type = 4,
+		id = 80011014,
+		target_num = 100,
+		target_param = {
+			3007
+		}
+	},
+	[80011015] = {
+		tips = "",
+		jump_ui = "",
+		name = "鶏肉炒めを100個提出する",
+		type = 4,
+		id = 80011015,
+		target_num = 100,
+		target_param = {
+			3032
+		}
+	},
+	[80011016] = {
+		tips = "",
+		jump_ui = "",
+		name = "ハンバーグ丼を50個提出する",
+		type = 4,
+		id = 80011016,
+		target_num = 50,
+		target_param = {
+			3034
+		}
+	},
+	[80011017] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を1回受け取る",
+		type = 13,
+		id = 80011017,
+		target_num = 1,
+		target_param = ""
+	},
+	[80011018] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を5回受け取る",
+		type = 13,
+		id = 80011018,
+		target_num = 5,
+		target_param = ""
+	},
+	[80011019] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を10回受け取る",
+		type = 13,
+		id = 80011019,
+		target_num = 10,
+		target_param = ""
+	},
+	[80011020] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を20回受け取る",
+		type = 13,
+		id = 80011020,
+		target_num = 20,
+		target_param = ""
+	},
+	[80011021] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を30回受け取る",
+		type = 13,
+		id = 80011021,
+		target_num = 30,
+		target_param = ""
+	},
+	[80011022] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を45回受け取る",
+		type = 13,
+		id = 80011022,
+		target_num = 45,
+		target_param = ""
+	},
+	[80011023] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を60回受け取る",
+		type = 13,
+		id = 80011023,
+		target_num = 60,
+		target_param = ""
+	},
+	[80011024] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を10個完了する",
+		type = 3,
+		id = 80011024,
+		target_num = 10,
+		target_param = ""
+	},
+	[80011025] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を30個完了する",
+		type = 3,
+		id = 80011025,
+		target_num = 30,
+		target_param = ""
+	},
+	[80011026] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を50個完了する",
+		type = 3,
+		id = 80011026,
+		target_num = 50,
+		target_param = ""
+	},
+	[80011027] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を100個完了する",
+		type = 3,
+		id = 80011027,
+		target_num = 100,
+		target_param = ""
+	},
+	[80011028] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を150個完了する",
+		type = 3,
+		id = 80011028,
+		target_num = 150,
+		target_param = ""
+	},
+	[80011029] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を200個完了する",
+		type = 3,
+		id = 80011029,
+		target_num = 200,
+		target_param = ""
+	},
+	[80011030] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を300個完了する",
+		type = 3,
+		id = 80011030,
+		target_num = 300,
+		target_param = ""
+	},
 	[100010001] = {
 		tips = "10040044",
+		jump_ui = "",
 		name = "前へ行ってみる",
 		type = 2,
 		id = 100010001,
@@ -990,6 +1398,7 @@ pg.base.island_task_target = {
 	},
 	[100010101] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "オブラインを探す",
 		type = 34,
 		id = 100010101,
@@ -1000,6 +1409,7 @@ pg.base.island_task_target = {
 	},
 	[100010201] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "ジョンを探す",
 		type = 2,
 		id = 100010201,
@@ -1010,6 +1420,7 @@ pg.base.island_task_target = {
 	},
 	[100010301] = {
 		tips = "10040035",
+		jump_ui = "",
 		name = "石炭を採集",
 		type = 4,
 		id = 100010301,
@@ -1020,6 +1431,7 @@ pg.base.island_task_target = {
 	},
 	[100010401] = {
 		tips = "10040017",
+		jump_ui = "",
 		name = "大自然の原木を採集",
 		type = 4,
 		id = 100010401,
@@ -1030,6 +1442,7 @@ pg.base.island_task_target = {
 	},
 	[100010501] = {
 		tips = "10040066",
+		jump_ui = "",
 		name = "バス停を修復する",
 		type = 34,
 		id = 100010501,
@@ -1040,6 +1453,7 @@ pg.base.island_task_target = {
 	},
 	[100010601] = {
 		tips = "10040032",
+		jump_ui = "",
 		name = "ジョンと話そう",
 		type = 2,
 		id = 100010601,
@@ -1050,6 +1464,7 @@ pg.base.island_task_target = {
 	},
 	[100010701] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックを探す",
 		type = 1,
 		id = 100010701,
@@ -1060,7 +1475,8 @@ pg.base.island_task_target = {
 	},
 	[100010711] = {
 		tips = "10020009",
-		name = "パトリックに手伝ってもらおう",
+		jump_ui = "",
+		name = "パトリックに会いに行こう",
 		type = 3,
 		id = 100010711,
 		target_num = 1,
@@ -1070,6 +1486,7 @@ pg.base.island_task_target = {
 	},
 	[100010801] = {
 		tips = "10020006",
+		jump_ui = "",
 		name = "明石の姿を探す",
 		type = 2,
 		id = 100010801,
@@ -1080,6 +1497,7 @@ pg.base.island_task_target = {
 	},
 	[100010901] = {
 		tips = "10020007",
+		jump_ui = "",
 		name = "饅頭カフェに入る",
 		type = 2,
 		id = 100010901,
@@ -1090,6 +1508,7 @@ pg.base.island_task_target = {
 	},
 	[100011001] = {
 		tips = "10100007",
+		jump_ui = "",
 		name = "うまく警報装置を避けつつ明石を追う",
 		type = 2,
 		id = 100011001,
@@ -1100,6 +1519,7 @@ pg.base.island_task_target = {
 	},
 	[100011101] = {
 		tips = "10090011",
+		jump_ui = "",
 		name = "隠し通路を探す",
 		type = 1,
 		id = 100011101,
@@ -1110,6 +1530,7 @@ pg.base.island_task_target = {
 	},
 	[100011201] = {
 		tips = "10070038",
+		jump_ui = "",
 		name = "明石を捕まえる",
 		type = 1,
 		id = 100011201,
@@ -1120,6 +1541,7 @@ pg.base.island_task_target = {
 	},
 	[100011301] = {
 		tips = "10070027",
+		jump_ui = "",
 		name = "明石に権限移譲を求める",
 		type = 1,
 		id = 100011301,
@@ -1130,6 +1552,7 @@ pg.base.island_task_target = {
 	},
 	[100011401] = {
 		tips = "10070004",
+		jump_ui = "",
 		name = "離島権限認証装置を研究開発",
 		type = 2,
 		id = 100011401,
@@ -1140,6 +1563,7 @@ pg.base.island_task_target = {
 	},
 	[100011411] = {
 		tips = "10070004",
+		jump_ui = "",
 		name = "離島権限認証装置を研究開発",
 		type = 8,
 		id = 100011411,
@@ -1150,6 +1574,7 @@ pg.base.island_task_target = {
 	},
 	[100011501] = {
 		tips = "10070003",
+		jump_ui = "",
 		name = "明石を探しに行く",
 		type = 2,
 		id = 100011501,
@@ -1160,6 +1585,7 @@ pg.base.island_task_target = {
 	},
 	[100011511] = {
 		tips = "10070003",
+		jump_ui = "",
 		name = "離島権限認証装置を使用",
 		type = 11,
 		id = 100011511,
@@ -1170,6 +1596,7 @@ pg.base.island_task_target = {
 	},
 	[100011601] = {
 		tips = "10020012",
+		jump_ui = "",
 		name = "サラトガに挨拶する",
 		type = 1,
 		id = 100011601,
@@ -1180,6 +1607,7 @@ pg.base.island_task_target = {
 	},
 	[100011701] = {
 		tips = "",
+		jump_ui = "",
 		name = "デイリー計画を完成させる",
 		type = 23,
 		id = 100011701,
@@ -1190,6 +1618,7 @@ pg.base.island_task_target = {
 	},
 	[100011801] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島開発レベルを上げよう",
 		type = 9,
 		id = 100011801,
@@ -1198,6 +1627,7 @@ pg.base.island_task_target = {
 	},
 	[100020101] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックに相談してみよう",
 		type = 1,
 		id = 100020101,
@@ -1208,6 +1638,7 @@ pg.base.island_task_target = {
 	},
 	[100020201] = {
 		tips = "10020035",
+		jump_ui = "",
 		name = "ステファンのところへ行こう",
 		type = 2,
 		id = 100020201,
@@ -1218,6 +1649,7 @@ pg.base.island_task_target = {
 	},
 	[100020301] = {
 		tips = "10020031",
+		jump_ui = "",
 		name = "ステファンの足跡を探す",
 		type = 2,
 		id = 100020301,
@@ -1228,6 +1660,7 @@ pg.base.island_task_target = {
 	},
 	[100020311] = {
 		tips = "10020032",
+		jump_ui = "",
 		name = "ステファンの足跡を探す",
 		type = 2,
 		id = 100020311,
@@ -1238,6 +1671,7 @@ pg.base.island_task_target = {
 	},
 	[100020321] = {
 		tips = "10020033",
+		jump_ui = "",
 		name = "ステファンの足跡を探す",
 		type = 2,
 		id = 100020321,
@@ -1248,6 +1682,7 @@ pg.base.island_task_target = {
 	},
 	[100020401] = {
 		tips = "10020034",
+		jump_ui = "",
 		name = "ステファンに相談してみよう",
 		type = 1,
 		id = 100020401,
@@ -1258,6 +1693,7 @@ pg.base.island_task_target = {
 	},
 	[100020501] = {
 		tips = "10020004",
+		jump_ui = "",
 		name = "ステファンの積み込み作業を手伝おう",
 		type = 1,
 		id = 100020501,
@@ -1268,6 +1704,7 @@ pg.base.island_task_target = {
 	},
 	[100020511] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島開発レベルを上げよう",
 		type = 9,
 		id = 100020511,
@@ -1276,6 +1713,7 @@ pg.base.island_task_target = {
 	},
 	[100020601] = {
 		tips = "10020005",
+		jump_ui = "",
 		name = "朝露農場へ向かう",
 		type = 2,
 		id = 100020601,
@@ -1286,6 +1724,7 @@ pg.base.island_task_target = {
 	},
 	[100020701] = {
 		tips = "10010068",
+		jump_ui = "",
 		name = "ホメリックを探す",
 		type = 1,
 		id = 100020701,
@@ -1296,6 +1735,7 @@ pg.base.island_task_target = {
 	},
 	[100020801] = {
 		tips = "10010040",
+		jump_ui = "",
 		name = "小麦の種を買う",
 		type = 5,
 		id = 100020801,
@@ -1306,6 +1746,7 @@ pg.base.island_task_target = {
 	},
 	[100020811] = {
 		tips = "10010004",
+		jump_ui = "",
 		name = "小麦の種を蒔こう",
 		type = 14,
 		id = 100020811,
@@ -1316,6 +1757,7 @@ pg.base.island_task_target = {
 	},
 	[100020901] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "アメリゴを探す",
 		type = 1,
 		id = 100020901,
@@ -1326,6 +1768,7 @@ pg.base.island_task_target = {
 	},
 	[100021001] = {
 		tips = "10010046",
+		jump_ui = "",
 		name = "迷子になった動物を連れ戻す",
 		type = 1,
 		id = 100021001,
@@ -1336,6 +1779,7 @@ pg.base.island_task_target = {
 	},
 	[100021101] = {
 		tips = "10010041",
+		jump_ui = "",
 		name = "風車へ向かう",
 		type = 1,
 		id = 100021101,
@@ -1346,6 +1790,7 @@ pg.base.island_task_target = {
 	},
 	[100021201] = {
 		tips = "10010041",
+		jump_ui = "",
 		name = "コッコートリの餌を作る",
 		type = 5,
 		id = 100021201,
@@ -1356,6 +1801,7 @@ pg.base.island_task_target = {
 	},
 	[100021301] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "牧場の様子を視る",
 		type = 1,
 		id = 100021301,
@@ -1366,6 +1812,7 @@ pg.base.island_task_target = {
 	},
 	[100021311] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "ホメリックと話す",
 		type = 1,
 		id = 100021311,
@@ -1376,6 +1823,7 @@ pg.base.island_task_target = {
 	},
 	[100021401] = {
 		tips = "10010040",
+		jump_ui = "",
 		name = "ホメリックを探しに行く",
 		type = 1,
 		id = 100021401,
@@ -1386,6 +1834,7 @@ pg.base.island_task_target = {
 	},
 	[100021411] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島開発レベルを上げよう",
 		type = 9,
 		id = 100021411,
@@ -1394,6 +1843,7 @@ pg.base.island_task_target = {
 	},
 	[100021501] = {
 		tips = "10090001",
+		jump_ui = "",
 		name = "港の饅頭カフェへ向かう",
 		type = 2,
 		id = 100021501,
@@ -1404,6 +1854,7 @@ pg.base.island_task_target = {
 	},
 	[100021601] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ブレーメンを探す",
 		type = 1,
 		id = 100021601,
@@ -1414,6 +1865,7 @@ pg.base.island_task_target = {
 	},
 	[100021701] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "オムレツを制作",
 		type = 5,
 		id = 100021701,
@@ -1424,6 +1876,7 @@ pg.base.island_task_target = {
 	},
 	[100021801] = {
 		tips = "10020004",
+		jump_ui = "",
 		name = "オムレツを制作",
 		type = 4,
 		id = 100021801,
@@ -1434,6 +1887,7 @@ pg.base.island_task_target = {
 	},
 	[100021901] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "戻ってブレーメンに話を聞いてみよう",
 		type = 1,
 		id = 100021901,
@@ -1444,6 +1898,7 @@ pg.base.island_task_target = {
 	},
 	[100022001] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "オムレツを販売ラインナップに追加する",
 		type = 27,
 		id = 100022001,
@@ -1454,6 +1909,7 @@ pg.base.island_task_target = {
 	},
 	[100022101] = {
 		tips = "10090019",
+		jump_ui = "",
 		name = "明石と話そう",
 		type = 1,
 		id = 100022101,
@@ -1464,6 +1920,7 @@ pg.base.island_task_target = {
 	},
 	[100022111] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島開発レベルを上げよう",
 		type = 9,
 		id = 100022111,
@@ -1472,6 +1929,7 @@ pg.base.island_task_target = {
 	},
 	[100022201] = {
 		tips = "10090020",
+		jump_ui = "",
 		name = "明石を探しに行く",
 		type = 1,
 		id = 100022201,
@@ -1482,6 +1940,7 @@ pg.base.island_task_target = {
 	},
 	[100022301] = {
 		tips = "",
+		jump_ui = "",
 		name = "埠頭の長い堤防にある破片",
 		type = 10,
 		id = 100022301,
@@ -1492,6 +1951,7 @@ pg.base.island_task_target = {
 	},
 	[100022302] = {
 		tips = "",
+		jump_ui = "",
 		name = "港の釣り場にある破片",
 		type = 10,
 		id = 100022302,
@@ -1502,6 +1962,7 @@ pg.base.island_task_target = {
 	},
 	[100022303] = {
 		tips = "",
+		jump_ui = "",
 		name = "貨物船埠頭横にある破片",
 		type = 10,
 		id = 100022303,
@@ -1512,6 +1973,7 @@ pg.base.island_task_target = {
 	},
 	[100022401] = {
 		tips = "",
+		jump_ui = "",
 		name = "翠緑の森にある破片",
 		type = 10,
 		id = 100022401,
@@ -1522,6 +1984,7 @@ pg.base.island_task_target = {
 	},
 	[100022402] = {
 		tips = "",
+		jump_ui = "",
 		name = "積岩鉱山にある破片",
 		type = 10,
 		id = 100022402,
@@ -1532,6 +1995,7 @@ pg.base.island_task_target = {
 	},
 	[100022403] = {
 		tips = "",
+		jump_ui = "",
 		name = "川辺の小屋の横にある破片",
 		type = 10,
 		id = 100022403,
@@ -1542,6 +2006,7 @@ pg.base.island_task_target = {
 	},
 	[100022404] = {
 		tips = "",
+		jump_ui = "",
 		name = "原野駅待機所の後ろにある破片",
 		type = 10,
 		id = 100022404,
@@ -1552,6 +2017,7 @@ pg.base.island_task_target = {
 	},
 	[100022501] = {
 		tips = "",
+		jump_ui = "",
 		name = "悠々牧場にある破片",
 		type = 10,
 		id = 100022501,
@@ -1562,6 +2028,7 @@ pg.base.island_task_target = {
 	},
 	[100022502] = {
 		tips = "",
+		jump_ui = "",
 		name = "農場の風車の横にある破片 ",
 		type = 10,
 		id = 100022502,
@@ -1572,6 +2039,7 @@ pg.base.island_task_target = {
 	},
 	[100022503] = {
 		tips = "",
+		jump_ui = "",
 		name = "悠々牧場外にある破片 ",
 		type = 10,
 		id = 100022503,
@@ -1582,6 +2050,7 @@ pg.base.island_task_target = {
 	},
 	[100022504] = {
 		tips = "",
+		jump_ui = "",
 		name = "豊穣の畑にある破片",
 		type = 10,
 		id = 100022504,
@@ -1592,6 +2061,7 @@ pg.base.island_task_target = {
 	},
 	[100022505] = {
 		tips = "",
+		jump_ui = "",
 		name = "牧場脇門外にある破片",
 		type = 10,
 		id = 100022505,
@@ -1602,6 +2072,7 @@ pg.base.island_task_target = {
 	},
 	[100022511] = {
 		tips = "10090020",
+		jump_ui = "",
 		name = "明石のところへ行こう",
 		type = 1,
 		id = 100022511,
@@ -1612,6 +2083,7 @@ pg.base.island_task_target = {
 	},
 	[100022601] = {
 		tips = "10020016",
+		jump_ui = "",
 		name = "明石を探す",
 		type = 1,
 		id = 100022601,
@@ -1622,6 +2094,7 @@ pg.base.island_task_target = {
 	},
 	[100022701] = {
 		tips = "10030001",
+		jump_ui = "",
 		name = "宝の島へ向かう",
 		type = 2,
 		id = 100022701,
@@ -1632,26 +2105,29 @@ pg.base.island_task_target = {
 	},
 	[100022711] = {
 		tips = "10030003",
+		jump_ui = "",
 		name = "メリーのところへ行こう",
 		type = 1,
 		id = 100022711,
 		target_num = 1,
 		target_param = {
-			2502
+			7802
 		}
 	},
 	[100022801] = {
-		tips = "10030009",
+		tips = "",
+		jump_ui = "",
 		name = "急いでメリーについていく",
 		type = 2,
 		id = 100022801,
 		target_num = 1,
 		target_param = {
-			10030009
+			10030006
 		}
 	},
 	[100022901] = {
 		tips = "10030009",
+		jump_ui = "",
 		name = "定期補給を入手しよう",
 		type = 13,
 		id = 100022901,
@@ -1660,6 +2136,7 @@ pg.base.island_task_target = {
 	},
 	[100023001] = {
 		tips = "10030008",
+		jump_ui = "",
 		name = "エリザベスを探す",
 		type = 1,
 		id = 100023001,
@@ -1670,6 +2147,7 @@ pg.base.island_task_target = {
 	},
 	[100023101] = {
 		tips = "10030008",
+		jump_ui = "",
 		name = "「くまくまバス停」を配置する",
 		type = 1,
 		id = 100023101,
@@ -1679,7 +2157,8 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023201] = {
-		tips = "10030008",
+		tips = "",
+		jump_ui = "19",
 		name = "自分の集会島を写真に撮ろう",
 		type = 43,
 		id = 100023201,
@@ -1689,7 +2168,8 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023301] = {
-		tips = "10030008",
+		tips = "",
+		jump_ui = "19",
 		name = "集会島の動物を写真に撮ろう",
 		type = 43,
 		id = 100023301,
@@ -1700,6 +2180,7 @@ pg.base.island_task_target = {
 	},
 	[100023401] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "石炭を集める",
 		type = 4,
 		id = 100023401,
@@ -1710,6 +2191,7 @@ pg.base.island_task_target = {
 	},
 	[100023402] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "大自然の原木を集める",
 		type = 4,
 		id = 100023402,
@@ -1720,6 +2202,7 @@ pg.base.island_task_target = {
 	},
 	[100023501] = {
 		tips = "10030005",
+		jump_ui = "",
 		name = "謎の専門家を探す",
 		type = 1,
 		id = 100023501,
@@ -1730,6 +2213,7 @@ pg.base.island_task_target = {
 	},
 	[100023601] = {
 		tips = "10030007",
+		jump_ui = "",
 		name = "飛行装置に乗る",
 		type = 1,
 		id = 100023601,
@@ -1740,6 +2224,7 @@ pg.base.island_task_target = {
 	},
 	[100023701] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックに状況報告を聞こう",
 		type = 2,
 		id = 100023701,
@@ -1750,6 +2235,7 @@ pg.base.island_task_target = {
 	},
 	[100023801] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島開発レベルを上げよう",
 		type = 9,
 		id = 100023801,
@@ -1758,6 +2244,7 @@ pg.base.island_task_target = {
 	},
 	[100030101] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックを探しに行く",
 		type = 1,
 		id = 100030101,
@@ -1768,6 +2255,7 @@ pg.base.island_task_target = {
 	},
 	[100030111] = {
 		tips = "10060001",
+		jump_ui = "",
 		name = "港商店街へ向かう",
 		type = 2,
 		id = 100030111,
@@ -1778,6 +2266,7 @@ pg.base.island_task_target = {
 	},
 	[100030201] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーを探す",
 		type = 1,
 		id = 100030201,
@@ -1788,6 +2277,7 @@ pg.base.island_task_target = {
 	},
 	[100030301] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "豆腐を作る",
 		type = 5,
 		id = 100030301,
@@ -1798,6 +2288,7 @@ pg.base.island_task_target = {
 	},
 	[100030401] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "商店街の店舗を経営してみる",
 		type = 1,
 		id = 100030401,
@@ -1808,6 +2299,7 @@ pg.base.island_task_target = {
 	},
 	[100030501] = {
 		tips = "10050001",
+		jump_ui = "",
 		name = "繁茂農園に到着",
 		type = 2,
 		id = 100030501,
@@ -1818,6 +2310,7 @@ pg.base.island_task_target = {
 	},
 	[100030511] = {
 		tips = "10050003",
+		jump_ui = "",
 		name = "前へ行ってみる",
 		type = 1,
 		id = 100030511,
@@ -1828,6 +2321,7 @@ pg.base.island_task_target = {
 	},
 	[100030601] = {
 		tips = "10050034",
+		jump_ui = "",
 		name = "蜂巣を集める",
 		type = 1,
 		id = 100030601,
@@ -1838,6 +2332,7 @@ pg.base.island_task_target = {
 	},
 	[100030701] = {
 		tips = "",
+		jump_ui = "",
 		name = "はちみつを手に入れる",
 		type = 5,
 		id = 100030701,
@@ -1848,6 +2343,7 @@ pg.base.island_task_target = {
 	},
 	[100030801] = {
 		tips = "10050010",
+		jump_ui = "",
 		name = "りんごの木を植える",
 		type = 14,
 		id = 100030801,
@@ -1858,6 +2354,7 @@ pg.base.island_task_target = {
 	},
 	[100030901] = {
 		tips = "10050010",
+		jump_ui = "",
 		name = "りんごを収穫",
 		type = 6,
 		id = 100030901,
@@ -1868,6 +2365,7 @@ pg.base.island_task_target = {
 	},
 	[100030911] = {
 		tips = "",
+		jump_ui = "",
 		name = "りんごを集める",
 		type = 4,
 		id = 100030911,
@@ -1877,7 +2375,8 @@ pg.base.island_task_target = {
 		}
 	},
 	[100031001] = {
-		tips = "10070004",
+		tips = "",
+		jump_ui = "12",
 		name = "「いちご栽培」を研究する",
 		type = 8,
 		id = 100031001,
@@ -1888,6 +2387,7 @@ pg.base.island_task_target = {
 	},
 	[100031101] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島開発レベルを上げよう",
 		type = 9,
 		id = 100031101,
@@ -1896,6 +2396,7 @@ pg.base.island_task_target = {
 	},
 	[100040101] = {
 		tips = "10070030",
+		jump_ui = "",
 		name = "明石を探しに行く",
 		type = 1,
 		id = 100040101,
@@ -1906,6 +2407,7 @@ pg.base.island_task_target = {
 	},
 	[100040201] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "石炭を集める",
 		type = 4,
 		id = 100040201,
@@ -1916,6 +2418,7 @@ pg.base.island_task_target = {
 	},
 	[100040301] = {
 		tips = "10070031",
+		jump_ui = "",
 		name = "工場を見に行く",
 		type = 2,
 		id = 100040301,
@@ -1926,6 +2429,7 @@ pg.base.island_task_target = {
 	},
 	[200010011] = {
 		tips = "10040050",
+		jump_ui = "",
 		name = "音の元を探す",
 		type = 1,
 		id = 200010011,
@@ -1936,6 +2440,7 @@ pg.base.island_task_target = {
 	},
 	[200010021] = {
 		tips = "10040036",
+		jump_ui = "",
 		name = "伐採完了",
 		type = 6,
 		id = 200010021,
@@ -1946,6 +2451,7 @@ pg.base.island_task_target = {
 	},
 	[200010031] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "戻ってオブラインに伝えよう",
 		type = 1,
 		id = 200010031,
@@ -1956,6 +2462,7 @@ pg.base.island_task_target = {
 	},
 	[200010041] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "積岩鉱山へ行って何が起きたか見てみる",
 		type = 1,
 		id = 200010041,
@@ -1966,6 +2473,7 @@ pg.base.island_task_target = {
 	},
 	[200010051] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "仮設レールに適した木材を探す",
 		type = 1,
 		id = 200010051,
@@ -1976,6 +2484,7 @@ pg.base.island_task_target = {
 	},
 	[200010061] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "実用の木材を集める",
 		type = 4,
 		id = 200010061,
@@ -1986,6 +2495,7 @@ pg.base.island_task_target = {
 	},
 	[200010071] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "レールをジョンに渡そう",
 		type = 1,
 		id = 200010071,
@@ -1996,6 +2506,7 @@ pg.base.island_task_target = {
 	},
 	[200010081] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "鉄鉱石を集める",
 		type = 4,
 		id = 200010081,
@@ -2006,6 +2517,7 @@ pg.base.island_task_target = {
 	},
 	[200010091] = {
 		tips = "10040056",
+		jump_ui = "",
 		name = "歌っている人を探す",
 		type = 2,
 		id = 200010091,
@@ -2016,6 +2528,7 @@ pg.base.island_task_target = {
 	},
 	[200020011] = {
 		tips = "10020018",
+		jump_ui = "",
 		name = "埠頭の先を見に行く",
 		type = 1,
 		id = 200020011,
@@ -2026,6 +2539,7 @@ pg.base.island_task_target = {
 	},
 	[200020021] = {
 		tips = "10020004",
+		jump_ui = "",
 		name = "ステファンにインスピレーションを求める",
 		type = 1,
 		id = 200020021,
@@ -2036,6 +2550,7 @@ pg.base.island_task_target = {
 	},
 	[200020031] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ブレーメンに意見を求める",
 		type = 1,
 		id = 200020031,
@@ -2046,6 +2561,7 @@ pg.base.island_task_target = {
 	},
 	[200020041] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "絵筆制作用の羊毛を収集",
 		type = 4,
 		id = 200020041,
@@ -2056,6 +2572,7 @@ pg.base.island_task_target = {
 	},
 	[200020051] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "額縁制作用のエレガント木材を集める",
 		type = 4,
 		id = 200020051,
@@ -2066,6 +2583,7 @@ pg.base.island_task_target = {
 	},
 	[200020061] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "額縁をパトリックに持って行こう",
 		type = 1,
 		id = 200020061,
@@ -2076,6 +2594,7 @@ pg.base.island_task_target = {
 	},
 	[200030011] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ブレーメンに伝えに行こう",
 		type = 1,
 		id = 200030011,
@@ -2086,6 +2605,7 @@ pg.base.island_task_target = {
 	},
 	[200030021] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "アルミ鉱石を集める",
 		type = 4,
 		id = 200030021,
@@ -2096,6 +2616,7 @@ pg.base.island_task_target = {
 	},
 	[200030031] = {
 		tips = "10020019",
+		jump_ui = "",
 		name = "貨物船埠頭で注文した部品を探す",
 		type = 1,
 		id = 200030031,
@@ -2106,6 +2627,7 @@ pg.base.island_task_target = {
 	},
 	[200030041] = {
 		tips = "10070011",
+		jump_ui = "",
 		name = "電力システムをサーバーに取り付ける",
 		type = 1,
 		id = 200030041,
@@ -2116,6 +2638,7 @@ pg.base.island_task_target = {
 	},
 	[200040000] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島開発レベルを上げよう",
 		type = 9,
 		id = 200040000,
@@ -2124,6 +2647,7 @@ pg.base.island_task_target = {
 	},
 	[200040011] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ブレーメンのところへ行って料理創作の秘訣を相談しよう",
 		type = 1,
 		id = 200040011,
@@ -2134,6 +2658,7 @@ pg.base.island_task_target = {
 	},
 	[200040021] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ニンジン厚焼き玉子を作る",
 		type = 4,
 		id = 200040021,
@@ -2144,6 +2669,7 @@ pg.base.island_task_target = {
 	},
 	[200040031] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーのところへ行こう",
 		type = 1,
 		id = 200040031,
@@ -2154,6 +2680,7 @@ pg.base.island_task_target = {
 	},
 	[200050011] = {
 		tips = "10010040",
+		jump_ui = "",
 		name = "農場管理者ホメリックに聞いてみる",
 		type = 1,
 		id = 200050011,
@@ -2164,6 +2691,7 @@ pg.base.island_task_target = {
 	},
 	[200050021] = {
 		tips = "10010069",
+		jump_ui = "",
 		name = "森へ行って状況を確認する",
 		type = 2,
 		id = 200050021,
@@ -2174,6 +2702,7 @@ pg.base.island_task_target = {
 	},
 	[200050031] = {
 		tips = "10010040",
+		jump_ui = "",
 		name = "森へ行って状況を確認する",
 		type = 1,
 		id = 200050031,
@@ -2184,6 +2713,7 @@ pg.base.island_task_target = {
 	},
 	[200050041] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "牧場管理者アメリゴに聞いてみる",
 		type = 1,
 		id = 200050041,
@@ -2194,6 +2724,7 @@ pg.base.island_task_target = {
 	},
 	[200050051] = {
 		tips = "10010070",
+		jump_ui = "",
 		name = "工具小屋へ行って状況を確認する",
 		type = 1,
 		id = 200050051,
@@ -2204,6 +2735,7 @@ pg.base.island_task_target = {
 	},
 	[200050061] = {
 		tips = "10010041",
+		jump_ui = "",
 		name = "オリンピックのところへ行こう",
 		type = 1,
 		id = 200050061,
@@ -2214,6 +2746,7 @@ pg.base.island_task_target = {
 	},
 	[200050071] = {
 		tips = "10010071",
+		jump_ui = "",
 		name = "牧場を巡回して状況を確認する",
 		type = 2,
 		id = 200050071,
@@ -2224,6 +2757,7 @@ pg.base.island_task_target = {
 	},
 	[200050081] = {
 		tips = "10010072",
+		jump_ui = "",
 		name = "牧場を巡回して状況を確認する",
 		type = 2,
 		id = 200050081,
@@ -2234,6 +2768,7 @@ pg.base.island_task_target = {
 	},
 	[200050091] = {
 		tips = "10010073",
+		jump_ui = "",
 		name = "牧場を巡回して状況を確認する",
 		type = 1,
 		id = 200050091,
@@ -2244,6 +2779,7 @@ pg.base.island_task_target = {
 	},
 	[200060011] = {
 		tips = "10010075",
+		jump_ui = "",
 		name = "アメリゴとヒツジが好きな場所を見に行く",
 		type = 1,
 		id = 200060011,
@@ -2254,6 +2790,7 @@ pg.base.island_task_target = {
 	},
 	[200060021] = {
 		tips = "10010076",
+		jump_ui = "",
 		name = "足跡を追って調査する",
 		type = 1,
 		id = 200060021,
@@ -2264,6 +2801,7 @@ pg.base.island_task_target = {
 	},
 	[200060031] = {
 		tips = "10010077",
+		jump_ui = "",
 		name = "痕跡を追ってみる",
 		type = 2,
 		id = 200060031,
@@ -2274,6 +2812,7 @@ pg.base.island_task_target = {
 	},
 	[200060041] = {
 		tips = "10010074",
+		jump_ui = "",
 		name = "メェメーヒツジを捕まえる",
 		type = 1,
 		id = 200060041,
@@ -2284,6 +2823,7 @@ pg.base.island_task_target = {
 	},
 	[200060051] = {
 		tips = "10010040",
+		jump_ui = "",
 		name = "ホメリックにヒツジの群れの位置を聞く",
 		type = 1,
 		id = 200060051,
@@ -2294,6 +2834,7 @@ pg.base.island_task_target = {
 	},
 	[200060061] = {
 		tips = "10010081",
+		jump_ui = "",
 		name = "ヒツジの群れの方向へ向かう",
 		type = 2,
 		id = 200060061,
@@ -2304,6 +2845,7 @@ pg.base.island_task_target = {
 	},
 	[200060071] = {
 		tips = "10010078",
+		jump_ui = "",
 		name = "ヒツジを全部引く",
 		type = 1,
 		id = 200060071,
@@ -2314,6 +2856,7 @@ pg.base.island_task_target = {
 	},
 	[200060072] = {
 		tips = "10010079",
+		jump_ui = "",
 		name = "ヒツジを全部引く",
 		type = 1,
 		id = 200060072,
@@ -2324,6 +2867,7 @@ pg.base.island_task_target = {
 	},
 	[200060073] = {
 		tips = "10010080",
+		jump_ui = "",
 		name = "ヒツジを全部引く",
 		type = 1,
 		id = 200060073,
@@ -2334,6 +2878,7 @@ pg.base.island_task_target = {
 	},
 	[200060081] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "アメリゴのところへ行こう",
 		type = 1,
 		id = 200060081,
@@ -2344,6 +2889,7 @@ pg.base.island_task_target = {
 	},
 	[200060091] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "大自然の原木を集める",
 		type = 4,
 		id = 200060091,
@@ -2354,6 +2900,7 @@ pg.base.island_task_target = {
 	},
 	[200070011] = {
 		tips = "10040057",
+		jump_ui = "",
 		name = "近くにある蜂の巣を撤去する",
 		type = 1,
 		id = 200070011,
@@ -2364,6 +2911,7 @@ pg.base.island_task_target = {
 	},
 	[200070021] = {
 		tips = "10020026",
+		jump_ui = "",
 		name = "港の蜂の巣を撤去する",
 		type = 1,
 		id = 200070021,
@@ -2374,6 +2922,7 @@ pg.base.island_task_target = {
 	},
 	[200070031] = {
 		tips = "10010082",
+		jump_ui = "",
 		name = "農場の蜂の巣を撤去する",
 		type = 1,
 		id = 200070031,
@@ -2384,6 +2933,7 @@ pg.base.island_task_target = {
 	},
 	[200070041] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ブレーメンにはちみつ水のレシピを聞く",
 		type = 1,
 		id = 200070041,
@@ -2394,6 +2944,7 @@ pg.base.island_task_target = {
 	},
 	[200070051] = {
 		tips = "10060030",
+		jump_ui = "",
 		name = "商店街へ向かい、レシピを見つける",
 		type = 1,
 		id = 200070051,
@@ -2404,6 +2955,7 @@ pg.base.island_task_target = {
 	},
 	[200070061] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "新鮮なレモンを手に入れる",
 		type = 4,
 		id = 200070061,
@@ -2414,6 +2966,7 @@ pg.base.island_task_target = {
 	},
 	[200070062] = {
 		tips = "",
+		jump_ui = "",
 		name = "新鮮なハチミツを手に入れる",
 		type = 4,
 		id = 200070062,
@@ -2424,6 +2977,7 @@ pg.base.island_task_target = {
 	},
 	[200070071] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーにローズマリーについて聞く",
 		type = 1,
 		id = 200070071,
@@ -2434,6 +2988,7 @@ pg.base.island_task_target = {
 	},
 	[200070081] = {
 		tips = "10060031",
+		jump_ui = "",
 		name = "有魚飯店にローズマリーを探しに行こう",
 		type = 1,
 		id = 200070081,
@@ -2444,6 +2999,7 @@ pg.base.island_task_target = {
 	},
 	[200070091] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "食材を全部ブレーメンに渡しに行こう",
 		type = 1,
 		id = 200070091,
@@ -2454,6 +3010,7 @@ pg.base.island_task_target = {
 	},
 	[200070101] = {
 		tips = "10040057",
+		jump_ui = "",
 		name = "謎の存在にはちみつ水を届けよう",
 		type = 1,
 		id = 200070101,
@@ -2464,6 +3021,7 @@ pg.base.island_task_target = {
 	},
 	[200080011] = {
 		tips = "10020004",
+		jump_ui = "",
 		name = "パトリックの依頼を確認する",
 		type = 1,
 		id = 200080011,
@@ -2474,6 +3032,7 @@ pg.base.island_task_target = {
 	},
 	[200080021] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "大自然の原木を集める",
 		type = 4,
 		id = 200080021,
@@ -2484,6 +3043,7 @@ pg.base.island_task_target = {
 	},
 	[200080031] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "石炭を集める",
 		type = 4,
 		id = 200080031,
@@ -2494,6 +3054,7 @@ pg.base.island_task_target = {
 	},
 	[200080041] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックに会って依頼を完遂する",
 		type = 1,
 		id = 200080041,
@@ -2504,6 +3065,7 @@ pg.base.island_task_target = {
 	},
 	[200090011] = {
 		tips = "10040059",
+		jump_ui = "",
 		name = "鉱山の横で待とう",
 		type = 2,
 		id = 200090011,
@@ -2514,6 +3076,7 @@ pg.base.island_task_target = {
 	},
 	[200090021] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "鉱石をオブラインのところへ送ろう",
 		type = 1,
 		id = 200090021,
@@ -2524,6 +3087,7 @@ pg.base.island_task_target = {
 	},
 	[200090031] = {
 		tips = "10020029",
+		jump_ui = "",
 		name = "鉱石を明石のところへ送ろう",
 		type = 1,
 		id = 200090031,
@@ -2534,6 +3098,7 @@ pg.base.island_task_target = {
 	},
 	[200090041] = {
 		tips = "10020004",
+		jump_ui = "",
 		name = "ステファンのところへ戻ろう",
 		type = 1,
 		id = 200090041,
@@ -2544,6 +3109,7 @@ pg.base.island_task_target = {
 	},
 	[200100011] = {
 		tips = "10010041",
+		jump_ui = "",
 		name = "オリンピックと対策を相談しに行く",
 		type = 1,
 		id = 200100011,
@@ -2554,6 +3120,7 @@ pg.base.island_task_target = {
 	},
 	[200100021] = {
 		tips = "10020004",
+		jump_ui = "",
 		name = "ステファンに聞いてみよう",
 		type = 1,
 		id = 200100021,
@@ -2564,6 +3131,7 @@ pg.base.island_task_target = {
 	},
 	[200100031] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ブレーメンに手伝ってもらう",
 		type = 1,
 		id = 200100031,
@@ -2574,6 +3142,7 @@ pg.base.island_task_target = {
 	},
 	[200100041] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ブレーメンのところへ戻る",
 		type = 1,
 		id = 200100041,
@@ -2584,6 +3153,7 @@ pg.base.island_task_target = {
 	},
 	[200100051] = {
 		tips = "10010040",
+		jump_ui = "",
 		name = "ホメリックに手伝ってもらう",
 		type = 1,
 		id = 200100051,
@@ -2594,6 +3164,7 @@ pg.base.island_task_target = {
 	},
 	[200100061] = {
 		tips = "10010041",
+		jump_ui = "",
 		name = "オリンピックに手伝ってもらう",
 		type = 1,
 		id = 200100061,
@@ -2604,6 +3175,7 @@ pg.base.island_task_target = {
 	},
 	[200100071] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "卵を収集する",
 		type = 4,
 		id = 200100071,
@@ -2614,6 +3186,7 @@ pg.base.island_task_target = {
 	},
 	[200100081] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "エナジードリンクをパトリックに持って行く",
 		type = 1,
 		id = 200100081,
@@ -2624,6 +3197,7 @@ pg.base.island_task_target = {
 	},
 	[200110011] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "饅頭カフェでブレーメンにヒアリングしてみる",
 		type = 1,
 		id = 200110011,
@@ -2634,6 +3208,7 @@ pg.base.island_task_target = {
 	},
 	[200110021] = {
 		tips = "10020028",
+		jump_ui = "",
 		name = "埠頭へ見に行く",
 		type = 2,
 		id = 200110021,
@@ -2644,6 +3219,7 @@ pg.base.island_task_target = {
 	},
 	[200110031] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーのところへ行こう",
 		type = 1,
 		id = 200110031,
@@ -2654,6 +3230,7 @@ pg.base.island_task_target = {
 	},
 	[200110041] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "大自然の原木を収集",
 		type = 4,
 		id = 200110041,
@@ -2664,6 +3241,7 @@ pg.base.island_task_target = {
 	},
 	[200110042] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "鉄鉱石を集める",
 		type = 4,
 		id = 200110042,
@@ -2674,6 +3252,7 @@ pg.base.island_task_target = {
 	},
 	[200110051] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "鶏肉を集める",
 		type = 4,
 		id = 200110051,
@@ -2684,6 +3263,7 @@ pg.base.island_task_target = {
 	},
 	[200110052] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "牛乳を集める",
 		type = 4,
 		id = 200110052,
@@ -2694,6 +3274,7 @@ pg.base.island_task_target = {
 	},
 	[200120011] = {
 		tips = "10010040",
+		jump_ui = "",
 		name = "ホメリックから剪定ばさみを1本借りる",
 		type = 1,
 		id = 200120011,
@@ -2704,6 +3285,7 @@ pg.base.island_task_target = {
 	},
 	[200120021] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "戻ってルシタニアに渡そう",
 		type = 1,
 		id = 200120021,
@@ -2714,6 +3296,7 @@ pg.base.island_task_target = {
 	},
 	[200120031] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "戻ってルシタニアに渡そう",
 		type = 1,
 		id = 200120031,
@@ -2724,6 +3307,7 @@ pg.base.island_task_target = {
 	},
 	[200120041] = {
 		tips = "10050036",
+		jump_ui = "",
 		name = "ルシタニアが土壌に施肥するのを手伝う",
 		type = 1,
 		id = 200120041,
@@ -2734,6 +3318,7 @@ pg.base.island_task_target = {
 	},
 	[200120051] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "柑橘を収穫しよう",
 		type = 4,
 		id = 200120051,
@@ -2744,6 +3329,7 @@ pg.base.island_task_target = {
 	},
 	[200120061] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "柑橘をブレーメンに渡そう",
 		type = 1,
 		id = 200120061,
@@ -2754,6 +3340,7 @@ pg.base.island_task_target = {
 	},
 	[200120071] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "シトラスコーヒーをルシタニアに持って行く",
 		type = 1,
 		id = 200120071,
@@ -2764,6 +3351,7 @@ pg.base.island_task_target = {
 	},
 	[200120081] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックに注文数量を確認する",
 		type = 1,
 		id = 200120081,
@@ -2774,6 +3362,7 @@ pg.base.island_task_target = {
 	},
 	[200120091] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "防虫剤をルシタニアに持って行く",
 		type = 1,
 		id = 200120091,
@@ -2784,6 +3373,7 @@ pg.base.island_task_target = {
 	},
 	[200120101] = {
 		tips = "10050037",
+		jump_ui = "",
 		name = "果樹に防虫剤を撒く",
 		type = 1,
 		id = 200120101,
@@ -2794,6 +3384,7 @@ pg.base.island_task_target = {
 	},
 	[200130000] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島開発レベルを上げよう",
 		type = 9,
 		id = 200130000,
@@ -2802,6 +3393,7 @@ pg.base.island_task_target = {
 	},
 	[200130011] = {
 		tips = "10020004",
+		jump_ui = "",
 		name = "ステファンに聞く",
 		type = 1,
 		id = 200130011,
@@ -2812,6 +3404,7 @@ pg.base.island_task_target = {
 	},
 	[200130021] = {
 		tips = "10050003",
+		jump_ui = "",
 		name = "ラコニアのところへ戻る",
 		type = 1,
 		id = 200130021,
@@ -2822,6 +3415,7 @@ pg.base.island_task_target = {
 	},
 	[200130031] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックのところへ行って再注文する",
 		type = 1,
 		id = 200130031,
@@ -2832,6 +3426,7 @@ pg.base.island_task_target = {
 	},
 	[200130041] = {
 		tips = "10020030",
+		jump_ui = "",
 		name = "港の貨物船埠頭に行って肥料を探す",
 		type = 1,
 		id = 200130041,
@@ -2842,6 +3437,7 @@ pg.base.island_task_target = {
 	},
 	[200130051] = {
 		tips = "10050003",
+		jump_ui = "",
 		name = "肥料をラコニアに渡す",
 		type = 1,
 		id = 200130051,
@@ -2852,6 +3448,7 @@ pg.base.island_task_target = {
 	},
 	[200130061] = {
 		tips = "10050003",
+		jump_ui = "",
 		name = "仲間を配置して苗場でラベンダーを植える",
 		type = 7,
 		id = 200130061,
@@ -2862,6 +3459,7 @@ pg.base.island_task_target = {
 	},
 	[200130071] = {
 		tips = "10050003",
+		jump_ui = "",
 		name = "ラベンダーを集める",
 		type = 4,
 		id = 200130071,
@@ -2872,6 +3470,7 @@ pg.base.island_task_target = {
 	},
 	[200130081] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "包装済みのラベンダーをパトリックに渡す",
 		type = 1,
 		id = 200130081,
@@ -2882,6 +3481,7 @@ pg.base.island_task_target = {
 	},
 	[200140011] = {
 		tips = "",
+		jump_ui = "",
 		name = "失われた地図の破片を島の各所で探す-1",
 		type = 4,
 		id = 200140011,
@@ -2892,6 +3492,7 @@ pg.base.island_task_target = {
 	},
 	[200140012] = {
 		tips = "",
+		jump_ui = "",
 		name = "失われた地図の破片を島の各所で探す-2",
 		type = 4,
 		id = 200140012,
@@ -2902,6 +3503,7 @@ pg.base.island_task_target = {
 	},
 	[200140013] = {
 		tips = "",
+		jump_ui = "",
 		name = "失われた地図の破片を島の各所で探す-3",
 		type = 4,
 		id = 200140013,
@@ -2912,6 +3514,7 @@ pg.base.island_task_target = {
 	},
 	[200140014] = {
 		tips = "",
+		jump_ui = "",
 		name = "失われた地図の破片を島の各所で探す-4",
 		type = 4,
 		id = 200140014,
@@ -2922,6 +3525,7 @@ pg.base.island_task_target = {
 	},
 	[200140015] = {
 		tips = "",
+		jump_ui = "",
 		name = "失われた地図の破片を島の各所で探す-5",
 		type = 4,
 		id = 200140015,
@@ -2932,6 +3536,7 @@ pg.base.island_task_target = {
 	},
 	[200140021] = {
 		tips = "10040051",
+		jump_ui = "",
 		name = "地図に記された場所に宝物を探しに行こう",
 		type = 2,
 		id = 200140021,
@@ -2942,6 +3547,7 @@ pg.base.island_task_target = {
 	},
 	[200140031] = {
 		tips = "10040051",
+		jump_ui = "",
 		name = "地面を掘ってみる",
 		type = 1,
 		id = 200140031,
@@ -2952,6 +3558,7 @@ pg.base.island_task_target = {
 	},
 	[200150011] = {
 		tips = "",
+		jump_ui = "11",
 		name = "シーズンショップの着せ替えを入手する",
 		type = 44,
 		id = 200150011,
@@ -2962,8 +3569,9 @@ pg.base.island_task_target = {
 	},
 	[200150021] = {
 		tips = "",
+		jump_ui = "",
 		name = "シーズン計画をこなす",
-		type = 23,
+		type = 24,
 		id = 200150021,
 		target_num = 5,
 		target_param = {
@@ -2972,6 +3580,7 @@ pg.base.island_task_target = {
 	},
 	[301010011] = {
 		tips = "",
+		jump_ui = "",
 		name = "手動で木材か鉱物を採集する",
 		type = 6,
 		id = 301010011,
@@ -2991,6 +3600,7 @@ pg.base.island_task_target = {
 	},
 	[302010011] = {
 		tips = "",
+		jump_ui = "8",
 		name = "資源生産枠に仲間を配置する",
 		type = 7,
 		id = 302010011,
@@ -3000,7 +3610,8 @@ pg.base.island_task_target = {
 		}
 	},
 	[303010011] = {
-		tips = "10020004",
+		tips = "",
+		jump_ui = "7",
 		name = "輸送委託を1回完了する",
 		type = 12,
 		id = 303010011,
@@ -3010,7 +3621,8 @@ pg.base.island_task_target = {
 		}
 	},
 	[304010011] = {
-		tips = "10020009",
+		tips = "",
+		jump_ui = "6",
 		name = "離島依頼を1回こなす",
 		type = 3,
 		id = 304010011,
@@ -3021,6 +3633,7 @@ pg.base.island_task_target = {
 	},
 	[305010011] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックを探しに行こう",
 		type = 1,
 		id = 305010011,
@@ -3031,6 +3644,7 @@ pg.base.island_task_target = {
 	},
 	[305010021] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "オブラインを探しに行こう",
 		type = 1,
 		id = 305010021,
@@ -3041,6 +3655,7 @@ pg.base.island_task_target = {
 	},
 	[305010022] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "アメリゴのところへ行こう",
 		type = 1,
 		id = 305010022,
@@ -3051,6 +3666,7 @@ pg.base.island_task_target = {
 	},
 	[305010023] = {
 		tips = "10030008",
+		jump_ui = "",
 		name = "エリザベスと話す",
 		type = 1,
 		id = 305010023,
@@ -3061,6 +3677,7 @@ pg.base.island_task_target = {
 	},
 	[305010111] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックを探しに行こう",
 		type = 1,
 		id = 305010111,
@@ -3071,6 +3688,7 @@ pg.base.island_task_target = {
 	},
 	[305010121] = {
 		tips = "10050003",
+		jump_ui = "",
 		name = "ラコニアのところへ行こう",
 		type = 1,
 		id = 305010121,
@@ -3081,6 +3699,7 @@ pg.base.island_task_target = {
 	},
 	[305010122] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "ジョンのところへ行こう",
 		type = 1,
 		id = 305010122,
@@ -3091,6 +3710,7 @@ pg.base.island_task_target = {
 	},
 	[305010123] = {
 		tips = "10010041",
+		jump_ui = "",
 		name = "オリンピックのところへ行こう",
 		type = 1,
 		id = 305010123,
@@ -3101,6 +3721,7 @@ pg.base.island_task_target = {
 	},
 	[305010211] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックを探しに行こう",
 		type = 1,
 		id = 305010211,
@@ -3111,6 +3732,7 @@ pg.base.island_task_target = {
 	},
 	[305010221] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーのところへ行こう",
 		type = 1,
 		id = 305010221,
@@ -3121,6 +3743,7 @@ pg.base.island_task_target = {
 	},
 	[305010222] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "ジョンのところへ行こう",
 		type = 1,
 		id = 305010222,
@@ -3131,6 +3754,7 @@ pg.base.island_task_target = {
 	},
 	[305010223] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "ルシタニアを探しに行こう",
 		type = 1,
 		id = 305010223,
@@ -3141,6 +3765,7 @@ pg.base.island_task_target = {
 	},
 	[305010311] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックを探しに行こう",
 		type = 1,
 		id = 305010311,
@@ -3151,6 +3776,7 @@ pg.base.island_task_target = {
 	},
 	[305010321] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーのところへ行こう",
 		type = 1,
 		id = 305010321,
@@ -3161,6 +3787,7 @@ pg.base.island_task_target = {
 	},
 	[305010322] = {
 		tips = "10050003",
+		jump_ui = "",
 		name = "ラコニアのところへ行こう",
 		type = 1,
 		id = 305010322,
@@ -3171,6 +3798,7 @@ pg.base.island_task_target = {
 	},
 	[305010323] = {
 		tips = "10030008",
+		jump_ui = "",
 		name = "エリザベスと話す",
 		type = 1,
 		id = 305010323,
@@ -3181,6 +3809,7 @@ pg.base.island_task_target = {
 	},
 	[305020011] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーのところへ行こう",
 		type = 1,
 		id = 305020011,
@@ -3191,6 +3820,7 @@ pg.base.island_task_target = {
 	},
 	[305020021] = {
 		tips = "10050003",
+		jump_ui = "",
 		name = "ラコニアのところへ行こう",
 		type = 1,
 		id = 305020021,
@@ -3201,6 +3831,7 @@ pg.base.island_task_target = {
 	},
 	[305020022] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックを探しに行こう",
 		type = 1,
 		id = 305020022,
@@ -3211,6 +3842,7 @@ pg.base.island_task_target = {
 	},
 	[305020023] = {
 		tips = "10030008",
+		jump_ui = "",
 		name = "エリザベスと話す",
 		type = 1,
 		id = 305020023,
@@ -3221,6 +3853,7 @@ pg.base.island_task_target = {
 	},
 	[305020111] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーのところへ行こう",
 		type = 1,
 		id = 305020111,
@@ -3231,6 +3864,7 @@ pg.base.island_task_target = {
 	},
 	[305020121] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "オブラインを探しに行こう",
 		type = 1,
 		id = 305020121,
@@ -3241,6 +3875,7 @@ pg.base.island_task_target = {
 	},
 	[305020122] = {
 		tips = "10030008",
+		jump_ui = "",
 		name = "エリザベスと話す",
 		type = 1,
 		id = 305020122,
@@ -3251,6 +3886,7 @@ pg.base.island_task_target = {
 	},
 	[305020123] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ブレーメンのところへ行こう",
 		type = 1,
 		id = 305020123,
@@ -3261,6 +3897,7 @@ pg.base.island_task_target = {
 	},
 	[305020211] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーのところへ行こう",
 		type = 1,
 		id = 305020211,
@@ -3271,6 +3908,7 @@ pg.base.island_task_target = {
 	},
 	[305020221] = {
 		tips = "10010040",
+		jump_ui = "",
 		name = "ホメリックを探しに行こう",
 		type = 1,
 		id = 305020221,
@@ -3281,6 +3919,7 @@ pg.base.island_task_target = {
 	},
 	[305020222] = {
 		tips = "10030008",
+		jump_ui = "",
 		name = "エリザベスと話す",
 		type = 1,
 		id = 305020222,
@@ -3291,6 +3930,7 @@ pg.base.island_task_target = {
 	},
 	[305020223] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "ルシタニアを探しに行こう",
 		type = 1,
 		id = 305020223,
@@ -3301,6 +3941,7 @@ pg.base.island_task_target = {
 	},
 	[305020311] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "アムマーマーのところへ行こう",
 		type = 1,
 		id = 305020311,
@@ -3311,6 +3952,7 @@ pg.base.island_task_target = {
 	},
 	[305020321] = {
 		tips = "10030008",
+		jump_ui = "",
 		name = "エリザベスと話す",
 		type = 1,
 		id = 305020321,
@@ -3321,6 +3963,7 @@ pg.base.island_task_target = {
 	},
 	[305020322] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "ルシタニアを探しに行こう",
 		type = 1,
 		id = 305020322,
@@ -3331,6 +3974,7 @@ pg.base.island_task_target = {
 	},
 	[305020323] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "オブラインを探しに行こう",
 		type = 1,
 		id = 305020323,
@@ -3341,6 +3985,7 @@ pg.base.island_task_target = {
 	},
 	[305040011] = {
 		tips = "",
+		jump_ui = "",
 		name = "猫を撫でる",
 		type = 1,
 		id = 305040011,
@@ -3351,6 +3996,7 @@ pg.base.island_task_target = {
 	},
 	[305050011] = {
 		tips = "",
+		jump_ui = "",
 		name = "アクションをする",
 		type = 36,
 		id = 305050011,
@@ -3361,6 +4007,7 @@ pg.base.island_task_target = {
 	},
 	[305080011] = {
 		tips = "",
+		jump_ui = "",
 		name = "キャラとインタラクトする",
 		type = 37,
 		id = 305080011,
@@ -3369,6 +4016,7 @@ pg.base.island_task_target = {
 	},
 	[306010011] = {
 		tips = "10030009",
+		jump_ui = "",
 		name = "定期補給を受け取る",
 		type = 13,
 		id = 306010011,
@@ -3377,6 +4025,7 @@ pg.base.island_task_target = {
 	},
 	[307010011] = {
 		tips = "",
+		jump_ui = "5",
 		name = "任意の料理を制作",
 		type = 7,
 		id = 307010011,
@@ -3418,6 +4067,7 @@ pg.base.island_task_target = {
 	},
 	[307020011] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "任意の有魚飯店のメニューを作る",
 		type = 7,
 		id = 307020011,
@@ -3434,6 +4084,7 @@ pg.base.island_task_target = {
 	},
 	[307030011] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "任意の白クマ茶房のメニューを作る",
 		type = 7,
 		id = 307030011,
@@ -3451,6 +4102,7 @@ pg.base.island_task_target = {
 	},
 	[307040011] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "任意の饅頭軽食のメニューを作る",
 		type = 7,
 		id = 307040011,
@@ -3466,6 +4118,7 @@ pg.base.island_task_target = {
 	},
 	[307050011] = {
 		tips = "10060002",
+		jump_ui = "",
 		name = "任意の鳥魚焼肉のメニューを作る",
 		type = 7,
 		id = 307050011,
@@ -3480,6 +4133,7 @@ pg.base.island_task_target = {
 	},
 	[307060011] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "任意の饅頭カフェのメニューを作る",
 		type = 7,
 		id = 307060011,
@@ -3495,6 +4149,7 @@ pg.base.island_task_target = {
 	},
 	[300000011] = {
 		tips = "10040003",
+		jump_ui = "",
 		name = "任意の鉱物を採集",
 		type = 6,
 		id = 300000011,
@@ -3510,6 +4165,7 @@ pg.base.island_task_target = {
 	},
 	[300000021] = {
 		tips = "10040013",
+		jump_ui = "",
 		name = "任意の木材を採集",
 		type = 6,
 		id = 300000021,
@@ -3522,7 +4178,8 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000031] = {
-		tips = "10020009",
+		tips = "",
+		jump_ui = "6",
 		name = "任意の離島依頼をこなす",
 		type = 3,
 		id = 300000031,
@@ -3532,7 +4189,8 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000041] = {
-		tips = "10070004",
+		tips = "",
+		jump_ui = "12",
 		name = "任意の研究を完了する",
 		type = 7,
 		id = 300000041,
@@ -3731,6 +4389,7 @@ pg.base.island_task_target = {
 	},
 	[300000051] = {
 		tips = "",
+		jump_ui = "",
 		name = "アクションをする",
 		type = 36,
 		id = 300000051,
@@ -3741,6 +4400,7 @@ pg.base.island_task_target = {
 	},
 	[300000061] = {
 		tips = "10020009",
+		jump_ui = "",
 		name = "パトリックを探しに行こう",
 		type = 1,
 		id = 300000061,
@@ -3751,6 +4411,7 @@ pg.base.island_task_target = {
 	},
 	[300000071] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "オブラインを探しに行こう",
 		type = 1,
 		id = 300000071,
@@ -3761,6 +4422,7 @@ pg.base.island_task_target = {
 	},
 	[300000072] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "ジョンのところへ行こう",
 		type = 1,
 		id = 300000072,
@@ -3771,6 +4433,7 @@ pg.base.island_task_target = {
 	},
 	[300000073] = {
 		tips = "10090008",
+		jump_ui = "",
 		name = "ブレーメンのところへ行こう",
 		type = 1,
 		id = 300000073,
@@ -3781,6 +4444,7 @@ pg.base.island_task_target = {
 	},
 	[300000081] = {
 		tips = "",
+		jump_ui = "",
 		name = "猫を撫でる",
 		type = 1,
 		id = 300000081,
@@ -3791,6 +4455,7 @@ pg.base.island_task_target = {
 	},
 	[401010011] = {
 		tips = "10040022",
+		jump_ui = "",
 		name = "仲間を配置し、鉱石を生産させる",
 		type = 7,
 		id = 401010011,
@@ -3806,6 +4471,7 @@ pg.base.island_task_target = {
 	},
 	[401020011] = {
 		tips = "10040002",
+		jump_ui = "",
 		name = "仲間を配置し、木材を生産させる",
 		type = 7,
 		id = 401020011,
@@ -3819,6 +4485,7 @@ pg.base.island_task_target = {
 	},
 	[401030011] = {
 		tips = "10010040",
+		jump_ui = "",
 		name = "仲間を配置し、農作物を生産させる",
 		type = 7,
 		id = 401030011,
@@ -3836,6 +4503,7 @@ pg.base.island_task_target = {
 	},
 	[401040011] = {
 		tips = "10050003",
+		jump_ui = "",
 		name = "仲間を配置し、苗圃産物を生産させる",
 		type = 7,
 		id = 401040011,
@@ -3852,6 +4520,7 @@ pg.base.island_task_target = {
 	},
 	[401050011] = {
 		tips = "10050002",
+		jump_ui = "",
 		name = "仲間を配置し、果樹園産物を生産させる",
 		type = 7,
 		id = 401050011,
@@ -3870,6 +4539,7 @@ pg.base.island_task_target = {
 	},
 	[401060011] = {
 		tips = "10010003",
+		jump_ui = "",
 		name = "仲間を配置し、牧場産物を生産させる",
 		type = 7,
 		id = 401060011,
@@ -3883,6 +4553,7 @@ pg.base.island_task_target = {
 	},
 	[401070011] = {
 		tips = "10070016",
+		jump_ui = "",
 		name = "手工製品を生産する",
 		type = 7,
 		id = 401070011,
@@ -3901,6 +4572,7 @@ pg.base.island_task_target = {
 	},
 	[401080011] = {
 		tips = "10070014",
+		jump_ui = "",
 		name = "機械製品を生産する",
 		type = 7,
 		id = 401080011,
@@ -3916,6 +4588,7 @@ pg.base.island_task_target = {
 	},
 	[401090011] = {
 		tips = "10070013",
+		jump_ui = "",
 		name = "木製品を生産する",
 		type = 7,
 		id = 401090011,
@@ -3930,6 +4603,7 @@ pg.base.island_task_target = {
 	},
 	[401100011] = {
 		tips = "10070015",
+		jump_ui = "",
 		name = "電子製品を生産する",
 		type = 7,
 		id = 401100011,
@@ -3943,6 +4617,7 @@ pg.base.island_task_target = {
 	},
 	[402010011] = {
 		tips = "",
+		jump_ui = "5",
 		name = "セットメニューを作る",
 		type = 7,
 		id = 402010011,
@@ -3965,6 +4640,7 @@ pg.base.island_task_target = {
 	},
 	[403010011] = {
 		tips = "",
+		jump_ui = "5",
 		name = "任意の商品を出品",
 		type = 27,
 		id = 403010011,
@@ -3975,6 +4651,7 @@ pg.base.island_task_target = {
 	},
 	[404010011] = {
 		tips = "",
+		jump_ui = "19",
 		name = "写真を1枚撮る",
 		type = 43,
 		id = 404010011,
@@ -3985,6 +4662,7 @@ pg.base.island_task_target = {
 	},
 	[405010011] = {
 		tips = "",
+		jump_ui = "",
 		name = "デイリー計画をこなす",
 		type = 23,
 		id = 405010011,
@@ -3995,10 +4673,11 @@ pg.base.island_task_target = {
 	},
 	[406010011] = {
 		tips = "",
+		jump_ui = "",
 		name = "離島開発資金を入手する",
 		type = 5,
 		id = 406010011,
-		target_num = 400000,
+		target_num = 120000,
 		target_param = {
 			1
 		}

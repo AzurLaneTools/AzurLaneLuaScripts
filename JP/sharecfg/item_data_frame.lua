@@ -639,6 +639,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>母港パーティーの参加記念。特別な日には参加者に特別な祝福を！</color>\n「宴会会場」イベントに参加した指揮官に贈る",
 		scene = {}
 	},
+	[604] = {
+		name = "ストレッチアワード",
+		gain_by = "",
+		time_second = 0,
+		id = 604,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>ともに汗をかいた証ーー</color>",
+		scene = {}
+	},
 	[605] = {
 		name = "極速の証",
 		gain_by = "",
@@ -963,6 +972,7 @@ pg.item_data_frame = {
 		601,
 		602,
 		603,
+		604,
 		605,
 		606,
 		607,

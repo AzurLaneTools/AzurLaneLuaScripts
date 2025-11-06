@@ -343,7 +343,7 @@ return {
 		uv0.SDK_TRANS_URL = ""
 	end,
 	CheckAudit = function ()
-		return uv0.isAudit
+		return NetConst.getwayType == 1
 	end,
 	CheckPreAudit = function ()
 		return uv0.isPreAudit

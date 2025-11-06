@@ -2151,7 +2151,7 @@ _G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
 
 
 _G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
-	tip = "選択中の編成をオススメ編成に変更しますか？"
+	tip = "選択中の編成をおすすめ編成で再編成しますか？"
 }
 
 
@@ -12867,17 +12867,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「サン・マルチーニョ」常設実装！"
+	tip = "「武蔵」「羽黒」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ゴールデン・ハインド」常設実装！"
+	tip = "「若月」「酒匂」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「メアリー・セレスト」「ウィダー」常設実装！"
+	tip = "「武蔵」常設実装！"
 }
 
 
@@ -41087,6 +41087,11 @@ _G.pg.base.gametip.island_chara_list_attribute = {
 }
 
 
+_G.pg.base.gametip.island_chara_list_workspeed = {
+	tip = "作業効率"
+}
+
+
 _G.pg.base.gametip.island_index_name = {
 	tip = "残り体力"
 }
@@ -41443,10 +41448,11 @@ _G.pg.base.gametip.island_visit_tip7 = {
 
 _G.pg.base.gametip.island_season_help = {
 	tip = [[
-新しいシーズンが開始すると、離島開発PTは<color=#FD5650>自動でリセット</color>されます。
-開発シーズンでは、<color=#39bfff>資源変換</color>・<color=#39bfff>特定の資源を生産</color>・<color=#39bfff>限定イベント参加</color>・<color=#39bfff>ショップ購入</color>で離島開発PTを入手できます。
-3.シーズン終了時、資源倉庫の資源は<color=#FD5650>自動で開発PTに変換されト</color>、開発順位の計算において統計されます
-4.シーズンが終了すると、終了したシーズンの開発計画報酬と累計PT報酬が<color=#FD5650>受け取れなくなりますト</color>。]]
+1.新しいシーズンが開始すると、離島開発PTは<color=#FD5650>自動でリセット</color>されます
+ 2.開発シーズンでは、<color=#39bfff>資源変換</color>・<color=#39bfff>特定の資源を生産</color>・<color=#39bfff>離島イベント参加</color>・<color=#39bfff>ショップ購入</color>で離島開発PTを入手できます
+ 3.シーズン終了時、資源倉庫の資源は<color=#FD5650>自動で開発PTに変換</color>され、開発順位の計算において統計されます
+ 4.シーズンが終了すると、<color=#39bfff>離島依頼、輸送委託、配置作業、手動での栽培、店舗経営</color>など、各種進行中のタスクがリセットされます。
+ 5.終了したシーズンの開発計画報酬と累計PT報酬が<color=#39bfff>受け取れなくなります</color>。]]
 }
 
 
@@ -41555,6 +41561,11 @@ _G.pg.base.gametip.island_season_charts_refresh = {
 }
 
 
+_G.pg.base.gametip.island_season_charts_out = {
+	tip = "ランク外"
+}
+
+
 _G.pg.base.gametip.island_season_review_charnum = {
 	tip = "仲間人数"
 }
@@ -41616,7 +41627,11 @@ _G.pg.base.gametip.island_season_window_end2 = {
 
 
 _G.pg.base.gametip.island_season_window_rule = {
-	tip = "1.シーズンが終了すると、資源倉庫の<color=#39bfff>資源</color>は自動で<color=#FD5650>開発Ptに変換され</color>、開発順位の計算において統計されます。また、<color=#39bfff>一時倉庫</color>の中身が<color=#FD5650>リセット</color>され、<color=#39bfff>進行中の依頼・輸送委託・料理制作・仲間の作業配置</color>もリセットされます\n2.シーズンが終了すると、終了したシーズンの<color=#39bfff>開発計画報酬と累計PT報酬</color>が受け取れなくなります\n3.新しいシーズンが開始すると、開発PTは<color=#FD5650>自動でリセット</color>されます"
+	tip = [[
+1.シーズンが終了すると、資源倉庫の資源は<color=#FD5650>自動で開発PTに変換</color>され、開発順位の計算において統計されます。また、一時倉庫の中身がクリアされます。
+ 2.進行中の<color=#39bfff>離島依頼、輸送委託、配置作業、手動での栽培、店舗経営</color>など、各種進行中のタスクがリセットされます。
+ 3.シーズンが終了すると、終了したシーズンの開発計画報酬と累計PT報酬が<color=#39bfff>受け取れなくなります</color>。
+ 4.新しいシーズンが開始すると、開発PTは<color=#FD5650>自動でリセット</color>されます。]]
 }
 
 
@@ -41673,6 +41688,18 @@ _G.pg.base.gametip.island_help_ship_order = {
 			icon = {
 				path = "",
 				atlas = "helpbg/island_help_ship_order3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order5"
 			}
 		},
 		disableScroll = true,
@@ -44035,6 +44062,36 @@ _G.pg.base.gametip.island_production_seeds_empty = {
 }
 
 
+_G.pg.base.gametip.island_production_tip = {
+	tip = "/回"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition1 = {
+	tip = "<color=#39bfff>$1</color>能力"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition2 = {
+	tip = "技術効果"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition3 = {
+	tip = "バフ効果"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip1 = {
+	tip = "作業効率 <color=#39bfff>+$1%</color>"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip2 = {
+	tip = "作業効率バフ"
+}
+
+
 _G.pg.base.gametip.island_order_ship_page_onekey_loadup = {
 	tip = "一括受注"
 }
@@ -44562,6 +44619,20 @@ _G.pg.base.gametip.island_guide_help = {
 1.キャラを<color=#39bfff>入手（離島権限認証を完了）</color>すると、キャラ1名につき<color=#39bfff>20</color>の図鑑Ptを入手できます
 2.キャラを<color=#39bfff>突破（職責の星を使用する）</color>すると、突破する毎に<color=#39bfff>30</color>の図鑑Ptを入手でき、更に★5に突破した場合追加で<color=#39bfff>10</color>の図鑑Ptを入手できます
 3.キャラを育成し<color=#39bfff>離島でのレベルが50到達</color>させると、図鑑Ptを<color=#39bfff>50</color>入手可能]]
+}
+
+
+_G.pg.base.gametip.island_guide_help_npc = {
+	tip = "離島のキャラ関連のコンテンツを開放することで図鑑Ptを貯めることができます。図鑑Ptが貯まると図鑑Lvが上がり、対応の図鑑報酬を開放できます：\nNPCキャラとインタラクトすると、図鑑を解放でき図鑑Ptを入手できます"
+}
+
+
+_G.pg.base.gametip.island_guide_help_item = {
+	tip = [[
+離島のキャラ関連のコンテンツを開放することで図鑑Ptを貯めることができます。図鑑Ptが貯まると図鑑Lvが上がり、対応の図鑑報酬を開放できます：
+
+1.資源<color=#39bfff>解放</color>：図鑑で資源を解放すると、図鑑Ptを<color=#39bfff>20</color>入手可能
+2.資源<color=#39bfff>入手</color>：報酬の入手条件に定められた数の資源を入手すると、図鑑Ptを入手可能。それぞれの資源の報酬段階と必要な入手数は図鑑で確認できます]]
 }
 
 
@@ -45571,8 +45642,148 @@ _G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
 }
 
 
+_G.pg.base.gametip.island_selectall = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.island_quickselect_tip = {
+	tip = "*アイコンを長押しすると使用数を高速で増やせます"
+}
+
+
+_G.pg.base.gametip.search_equipment = {
+	tip = "装備名検索"
+}
+
+
+_G.pg.base.gametip.search_sp_equipment = {
+	tip = "特殊装備名検索"
+}
+
+
+_G.pg.base.gametip.search_equipment_appearance = {
+	tip = "装備外装名検索"
+}
+
+
+_G.pg.base.gametip.meta_reproduce_btn = {
+	tip = "現在のMETA戦の模擬戦闘を始めますか？\n戦闘難易度：Lv$1\n*模擬戦闘は石油を消費せず、報酬を獲得しません"
+}
+
+
+_G.pg.base.gametip.meta_simulated_btn = {
+	tip = "現在のMETA戦の模擬戦闘を始めますか？\n戦闘難易度：Lv$1\n*模擬戦闘は石油を消費せず、報酬を獲得しません"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_tip = {
+	tip = "素材が不足しています"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv1 = {
+	tip = "1レベル強化"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lvx = {
+	tip = "レベル$1まで強化"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_finish = {
+	tip = "強化完了"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv = {
+	tip = "LV"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_title = {
+	tip = "強化"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_required = {
+	tip = "消費素材："
+}
+
+
 _G.pg.base.gametip.shop_sell_ended = {
 	tip = "交換不可"
+}
+
+
+_G.pg.base.gametip.island_taskjump_systemnoopen_tips = {
+	tip = "機能はまだ解放されていません"
+}
+
+
+_G.pg.base.gametip.island_taskjump_placenoopen_tips = {
+	tip = "ロケーションはまだ解放されていません"
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_award = {
+	tip = "報酬確認"
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_request = {
+	tip = "消費確認"
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_label = {
+	tip = "受注できる輸送委託はありません"
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_time = {
+	tip = "委託リスト自動更新まで："
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt = {
+	tip = "輸送回数$1/$2"
+}
+
+
+_G.pg.base.gametip.island_order_ship_sel_delegate_label = {
+	tip = "- タップで委託選択 -"
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt_not_enough = {
+	tip = "リセット"
+}
+
+
+_G.pg.base.gametip.island_order_ship_reset_all = {
+	tip = "表示中の全ての委託を更新しますか？"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip = {
+	tip = "新しい委託に更新しますか？"
+}
+
+
+_G.pg.base.gametip.island_order_ship_btn_replace = {
+	tip = "委託更新"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_2 = {
+	tip = "輸送回数が不足しています"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_1 = {
+	tip = "新しい委託に更新しますか？（受注中の資材がある場合、更新を行うと、輸送回数が1回消費され、消費資材は返還されません）"
 }
 
 

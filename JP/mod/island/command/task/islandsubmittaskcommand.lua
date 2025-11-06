@@ -10,7 +10,7 @@ slot0.execute = function(slot0, slot1)
 	}, 21039, function (slot0)
 		if slot0.result == 0 then
 			slot2 = getProxy(IslandProxy):GetIsland():GetTaskAgency()
-			slot4 = slot2:GetTask(uv0).id == slot2:GetTraceId()
+			slot4 = slot2:GetTask(uv0).id == slot2:GetTraceId() or slot3.id == slot2:GetMainTraceId()
 			slot5 = slot3:GetExp()
 
 			if slot3:GetType() == IslandTaskType.MAIN then
@@ -30,6 +30,7 @@ slot0.execute = function(slot0, slot1)
 			slot2:RemoveTask(uv0)
 			slot2:AddFinishId(uv0)
 			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK)
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK_TYPE_PLUS)
 			slot2:TryAcceptAutoTasks(function ()
 				if uv0 then
 					getProxy(IslandProxy):GetIsland():GetTaskAgency():TryAutoTrackTask()

@@ -9,12 +9,14 @@ slot0.OnLoaded = function(slot0)
 	slot0.cntTxt = slot0._tf:Find("main/name/count"):GetComponent(typeof(Text))
 	slot0.submitBtn = slot0._tf:Find("main/btn/btn_1")
 	slot0.noResBtn = slot0._tf:Find("main/btn/btn_2")
+	slot0.disableBtn = slot0._tf:Find("main/btn/btn_3")
 	slot0.awardCntTxt = slot0._tf:Find("main/price/Text"):GetComponent(typeof(Text))
 	slot0.nameTxt = slot0._tf:Find("main/name"):GetComponent(typeof(Text))
 
 	setText(slot0._tf:Find("main/title/Text"), i18n("island_order_ship_loadup_award"))
 	setText(slot0._tf:Find("main/btn/btn_2/Text"), i18n("island_order_ship_loadup_nores"))
 	setText(slot0._tf:Find("main/btn/btn_1/Text"), i18n("island_order_ship_loadup"))
+	setText(slot0._tf:Find("main/btn/btn_3/Text"), i18n("island_order_ship_finish_cnt_not_enough"))
 end
 
 slot0.OnInit = function(slot0)
@@ -23,6 +25,10 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.submitBtn, function ()
 		if not uv0.slot or not uv0.index then
+			return
+		end
+
+		if not uv0.slot:CanTransport() then
 			return
 		end
 
@@ -41,9 +47,11 @@ slot0.Show = function(slot0, slot1, slot2, slot3)
 	slot0.cntTxt.text = setColorStr(slot6 .. "/" .. slot7, slot8 and "#39beff" or "#f36c6e")
 	slot0.nameTxt.text = slot5:getName()
 	slot0.awardCntTxt.text = "X" .. slot2:GetOrder():GetConsumeAwards(slot3)[1].count
+	slot10 = slot0.slot:CanTransport()
 
-	setActive(slot0.submitBtn, slot8)
-	setActive(slot0.noResBtn, not slot8)
+	setActive(slot0.submitBtn, slot8 and slot10)
+	setActive(slot0.noResBtn, not slot8 and slot10)
+	setActive(slot0.disableBtn, not slot10)
 end
 
 slot0.OnDestroy = function(slot0)
