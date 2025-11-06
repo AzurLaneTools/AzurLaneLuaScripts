@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			dir = 1,
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			actor = 11400010,
 			nameColor = "#A9F548FF",
 			say = "직접 피해를 줄 수는 없지만, 서포트 역할도 꽤 쓸만한걸?",

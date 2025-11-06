@@ -175,6 +175,7 @@ pg.furniture_data_template = setmetatable({
 			316,
 			317,
 			318,
+			319,
 			100002,
 			100003,
 			100004,
@@ -3562,6 +3563,24 @@ pg.furniture_data_template = setmetatable({
 			329118,
 			329119,
 			329120
+		},
+		[132] = {
+			332001,
+			332002,
+			332101,
+			332102,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112,
+			332113,
+			332301
 		}
 	},
 	get_id_list_by_tag = {
@@ -5686,7 +5705,19 @@ pg.furniture_data_template = setmetatable({
 			329116,
 			329117,
 			329118,
-			329119
+			329119,
+			332101,
+			332102,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112
 		},
 		{
 			1108,
@@ -6096,7 +6127,8 @@ pg.furniture_data_template = setmetatable({
 			311,
 			314,
 			316,
-			318
+			318,
+			319
 		},
 		[7] = {
 			213,
@@ -6304,7 +6336,8 @@ pg.furniture_data_template = setmetatable({
 			325126,
 			328118,
 			330102,
-			329120
+			329120,
+			332113
 		},
 		[4] = {
 			1001,
@@ -6421,7 +6454,8 @@ pg.furniture_data_template = setmetatable({
 			327001,
 			328001,
 			330001,
-			329001
+			329001,
+			332001
 		},
 		[3] = {
 			1002,
@@ -6539,7 +6573,8 @@ pg.furniture_data_template = setmetatable({
 			327002,
 			328002,
 			330002,
-			329002
+			329002,
+			332002
 		},
 		[5] = {
 			1301,
@@ -6910,7 +6945,8 @@ pg.furniture_data_template = setmetatable({
 			325302,
 			325303,
 			327301,
-			327302
+			327302,
+			332301
 		}
 	},
 	get_id_list_by_type = {
@@ -7030,7 +7066,8 @@ pg.furniture_data_template = setmetatable({
 			327002,
 			328002,
 			330002,
-			329002
+			329002,
+			332002
 		},
 		[7] = {
 			1,
@@ -7182,6 +7219,7 @@ pg.furniture_data_template = setmetatable({
 			316,
 			317,
 			318,
+			319,
 			100002,
 			100004,
 			100005,
@@ -9362,7 +9400,19 @@ pg.furniture_data_template = setmetatable({
 			329117,
 			329118,
 			329119,
-			329120
+			329120,
+			332101,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112,
+			332113
 		},
 		[11] = {
 			131,
@@ -9560,7 +9610,8 @@ pg.furniture_data_template = setmetatable({
 			327001,
 			328001,
 			330001,
-			329001
+			329001,
+			332001
 		},
 		[5] = {
 			1101,
@@ -9715,7 +9766,8 @@ pg.furniture_data_template = setmetatable({
 			328104,
 			330102,
 			329103,
-			329108
+			329108,
+			332102
 		},
 		[3] = {
 			1108,
@@ -10236,7 +10288,8 @@ pg.furniture_data_template = setmetatable({
 			325302,
 			325303,
 			327301,
-			327302
+			327302,
+			332301
 		},
 		[8] = {
 			17121
@@ -10451,6 +10504,7 @@ pg.furniture_data_template = setmetatable({
 		316,
 		317,
 		318,
+		319,
 		100002,
 		100003,
 		100004,
@@ -13607,7 +13661,23 @@ pg.furniture_data_template = setmetatable({
 		329117,
 		329118,
 		329119,
-		329120
+		329120,
+		332001,
+		332002,
+		332101,
+		332102,
+		332103,
+		332104,
+		332105,
+		332106,
+		332107,
+		332108,
+		332109,
+		332110,
+		332111,
+		332112,
+		332113,
+		332301
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22368,6 +22438,50 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[319] = {
+		can_rotate = 0,
+		describe = "자유 군도의 대등대를 모티브로 만든 모형. 비록 모형이지만 장대함이 느껴진다. ――「템페스타와 자유 군도」  이벤트 참가 보상.",
+		gain_by = "템페스타와 자유 군도",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "군도 등대 모형",
+		advice = 0,
+		id = 319,
+		tag = 8,
+		comfortable = 0,
+		icon = "fengfan3xunzhangicon",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"fengfan3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		name = "우정의 공기 펌프",
@@ -27756,7 +27870,7 @@ pg.base.furniture_data_template = {
 	},
 	[100078] = {
 		can_rotate = 0,
-		describe = "자연의 정령들이여, 여기에 현현하거라~",
+		describe = "자연의 정령들이여, 여기 현현하라.",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -27775,7 +27889,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		canputon = 0,
 		count = 1,
-		name = "소환 지팡이",
+		name = "서몬 스태프",
 		advice = 0,
 		id = 100078,
 		tag = 6,
@@ -166809,6 +166923,715 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[332001] = {
+		can_rotate = 0,
+		describe = "사라진 문을 열고, 눈부신 빛의 흐름 속에서 고대가 남긴 마지막 언어를 찾아라.",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mf/dibanmf",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "신전 바닥",
+		advice = 0,
+		tag = 4,
+		id = 332001,
+		icon = "dibanmficon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[332002] = {
+		can_rotate = 0,
+		describe = "사라진 문을 열고, 눈부신 빛의 흐름 속에서 고대가 남긴 마지막 언어를 찾아라.",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mf/qiangbimf",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "신전 벽",
+		advice = 0,
+		tag = 3,
+		id = 332002,
+		icon = "qiangbimficon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[332101] = {
+		can_rotate = 0,
+		describe = "매끄러운 촉수들이 연못 가장자리를 감싸며, 축축한 자국을 남기고 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신전의 성수못",
+		advice = 0,
+		id = 332101,
+		tag = 1,
+		comfortable = 4,
+		icon = "chitangmficon",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chitangmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332102] = {
+		can_rotate = 0,
+		describe = "별들로부터 무언가를 불러내려는 걸까?",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신전의 융단",
+		advice = 0,
+		id = 332102,
+		tag = 1,
+		comfortable = 2,
+		icon = "ditanmficon",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ditanmf",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332103] = {
+		can_rotate = 0,
+		describe = "Carcosa~Carcosa~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신전의 벽화",
+		advice = 0,
+		id = 332103,
+		tag = 1,
+		comfortable = 2,
+		icon = "huaxiangmficon",
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huaxiangmf",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332104] = {
+		can_rotate = 0,
+		describe = "계단은 계속된다. 고요함, 더 깊은 미지 속으로.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "신전의 계단",
+		advice = 0,
+		id = 332104,
+		tag = 1,
+		comfortable = 2,
+		icon = "loutimficon",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"loutimf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332105] = {
+		can_rotate = 0,
+		describe = "지나친 호기심은 결국 그 존재에 종말을 불러오는 법.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "잠든 대지",
+		advice = 0,
+		id = 332105,
+		tag = 1,
+		comfortable = 1,
+		icon = "mubeimficon",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mubeimf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332106] = {
+		can_rotate = 0,
+		describe = "아무 쓸모 없는 정화의식이 곧 시작되리라~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "정화의 통",
+		advice = 0,
+		id = 332106,
+		tag = 1,
+		comfortable = 1,
+		icon = "mutongmficon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mutongmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332107] = {
+		can_rotate = 0,
+		describe = "원항의 꿈이 담긴 인형은, 얽혀드는 속삭임과 함께 가라앉았다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "침몰의 꿈",
+		advice = 0,
+		id = 332107,
+		tag = 1,
+		comfortable = 3,
+		icon = "pofengfanmficon",
+		size = {
+			3,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pofengfanmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332108] = {
+		can_rotate = 0,
+		describe = "사라진 문을 열고, 눈부신 빛의 흐름 속에서 고대가 남긴 마지막 언어를 찾아라.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신전 입구",
+		advice = 0,
+		id = 332108,
+		tag = 1,
+		comfortable = 3,
+		icon = "shiqiangmficon",
+		size = {
+			3,
+			24
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shiqiangmf",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332109] = {
+		can_rotate = 0,
+		describe = "고대의 신상이 고요히 서 있다. 말로 표현할 수 없는 위압감이 느껴진다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신전의 석상",
+		advice = 0,
+		id = 332109,
+		tag = 1,
+		comfortable = 3,
+		icon = "shixiangmficon",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shixiangmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332110] = {
+		can_rotate = 0,
+		describe = "잊혀진 돌기둥. 어떤 생명체가 자신의 영역으로 삼은 듯하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "신전의 석주",
+		advice = 0,
+		id = 332110,
+		tag = 1,
+		comfortable = 1,
+		icon = "shizhumficon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhumf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332111] = {
+		can_rotate = 0,
+		describe = "흩어져 있는 잔해들. 표면에는 오래된 문양이 새겨져 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신전의 잔해",
+		advice = 0,
+		id = 332111,
+		tag = 1,
+		comfortable = 2,
+		icon = "suishikuaimficon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"suishikuaimf",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332112] = {
+		can_rotate = 0,
+		describe = "촛불의 불꽃이 그림자와 함께 흔들린다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "신전의 촛불",
+		advice = 0,
+		id = 332112,
+		tag = 1,
+		comfortable = 2,
+		icon = "zhutaimficon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhutaimf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332113] = {
+		can_rotate = 0,
+		describe = "주의: 거리를 유지하라! 놀라움일지, 함정일지는 오직 운에 달려 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "유광의 부름",
+		advice = 0,
+		id = 332113,
+		tag = 7,
+		comfortable = 4,
+		icon = "shenmipenmficon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenmipenmf",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332301] = {
+		can_rotate = 0,
+		describe = "그것이 불길 속이어도, 여름의 벌레는 빛을 향할 수밖에 없는 법.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mf/diaodengmf",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "신전의 걸이등",
+		advice = 0,
+		tag = 5,
+		id = 332301,
+		icon = "diaodengmficon",
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

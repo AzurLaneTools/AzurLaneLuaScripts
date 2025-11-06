@@ -107,7 +107,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 크라켄 텐터클",
-		model = "fengfan_haigu03",
+		model = "fengfan_haigu_boss01",
 		id = 5,
 		first_drop = 907154,
 		scale = "1",
@@ -325,7 +325,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		id = 13,
 		first_drop = 907162,
 		scale = "1",
@@ -460,7 +460,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		id = 18,
 		first_drop = 907167,
 		scale = "1",
@@ -690,7 +690,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 초롱아귀",
-		model = "fengfan_haigu04",
+		model = "fengfan_lingti_quzhu",
 		id = 28,
 		first_drop = 907177,
 		scale = "1",
@@ -711,7 +711,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		id = 29,
 		first_drop = 907178,
 		scale = "1",
@@ -900,7 +900,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		id = 38,
 		first_drop = 907187,
 		scale = "1.2",
@@ -963,7 +963,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		id = 41,
 		first_drop = 907190,
 		scale = "1.2",
@@ -1194,7 +1194,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		id = 52,
 		first_drop = 907201,
 		scale = "1.2",
@@ -1320,7 +1320,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		id = 58,
 		first_drop = 907207,
 		scale = "1.2",
@@ -1488,7 +1488,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 초롱아귀",
-		model = "fengfan_haigu04",
+		model = "fengfan_lingti_quzhu",
 		id = 66,
 		first_drop = 907215,
 		scale = "1.2",
@@ -1656,7 +1656,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		id = 74,
 		first_drop = 907223,
 		scale = "1.2",
@@ -1740,7 +1740,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 초롱아귀",
-		model = "fengfan_haigu04",
+		model = "fengfan_lingti_quzhu",
 		id = 78,
 		first_drop = 907227,
 		scale = "1.2",
@@ -1761,7 +1761,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		id = 79,
 		first_drop = 907228,
 		scale = "1.2",
@@ -1929,7 +1929,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		id = 87,
 		first_drop = 907236,
 		scale = "1.4",
@@ -1992,7 +1992,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 거대 괴수 - 크라켄",
-		model = "fengfan_haigu06",
+		model = "fengfan_lingti_boss01",
 		id = 90,
 		first_drop = 907239,
 		scale = "1.4",
@@ -2034,7 +2034,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		id = 92,
 		first_drop = 907241,
 		scale = "1.4",
@@ -2076,7 +2076,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		id = 94,
 		first_drop = 907243,
 		scale = "1.4",
@@ -2118,7 +2118,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		id = 96,
 		first_drop = 907245,
 		scale = "1.4",
@@ -2160,7 +2160,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		id = 98,
 		first_drop = 907247,
 		scale = "1.4",
@@ -2202,7 +2202,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 크라켄 텐터클",
-		model = "fengfan_haigu03",
+		model = "fengfan_haigu_boss01",
 		id = 100,
 		first_drop = 907249,
 		scale = "1.4",
@@ -2273,7 +2273,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		id = 106,
 		first_drop = 0,
 		scale = "1.4",
@@ -2313,7 +2313,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 거대 괴수 - 크라켄",
-		model = "fengfan_haigu06",
+		model = "fengfan_lingti_boss01",
 		id = 110,
 		first_drop = 0,
 		scale = "1.4",
@@ -2323,7 +2323,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		id = 111,
 		first_drop = 0,
 		scale = "1.4",
@@ -2343,7 +2343,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		id = 113,
 		first_drop = 0,
 		scale = "1.4",
@@ -2353,7 +2353,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		id = 114,
 		first_drop = 0,
 		scale = "1.4",
@@ -2403,7 +2403,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		id = 119,
 		first_drop = 0,
 		scale = "1.4",

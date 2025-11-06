@@ -38,7 +38,9 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.run = slot0.opPanel:Find("run")
 	slot0.moveBtn = slot0.opUI:Find("move")
 	slot0.animationOpBtn = slot0.opPanel:Find("aniamtionop")
+	slot0.animationOpEffect = slot0.animationOpBtn:Find("effect")
 	slot0.followerBtn = slot0.opPanel:Find("follower")
+	slot0.animationOpEffectCounter = {}
 	slot0.uiFollowerPanel = slot0.followerBtn:Find("list")
 	slot0.uiFollowerList = UIItemList.New(slot0.uiFollowerPanel, slot0.followerBtn:GetComponent(typeof(ItemList)).prefabItem[0])
 
@@ -69,8 +71,30 @@ slot0.OnInit = function(slot0, slot1)
 	slot0:UpdateAnimationOpBtn()
 end
 
+slot0.LaterInit = function(slot0)
+	if slot0.showBalance < 1 then
+		slot0:DisablePlayerOp()
+	end
+end
+
 slot0.UpdateAnimationOpBtn = function(slot0)
 	setActive(slot0.animationOpBtn, getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(IslandAblityAgency.ANIMATION_OP_ID))
+end
+
+slot0.UpdateAnimationOpEffect = function(slot0, slot1, slot2)
+	if slot2 then
+		table.insert(slot0.animationOpEffectCounter, slot1)
+	else
+		table.removebyvalue(slot0.animationOpEffectCounter, slot1)
+	end
+
+	setActive(slot0.animationOpEffect, _.detect(_.map(slot0.animationOpEffectCounter, function (slot0)
+		slot1, slot2 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot0)
+
+		return uv0:GetView():GetUnitModuleWithType(slot1, slot2)
+	end), function (slot0)
+		return slot0 and isa(slot0, IslandStrollNpcUnit) and slot0:ExistActionFeedbackBubble()
+	end))
 end
 
 slot0.UpdateFollowBtn = function(slot0)
@@ -443,6 +467,8 @@ slot0.OnDestroy = function(slot0)
 	end
 
 	slot0:RemoveFollowerListTimer()
+
+	slot0.animationOpEffectCounter = {}
 end
 
 return slot0

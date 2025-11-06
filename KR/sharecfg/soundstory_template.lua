@@ -352,11 +352,11 @@ pg.soundstory_template = {
 		story_resource_JP = "soundStory9_JP",
 		story_resource_CN = "",
 		audition_resource_CN = "ss-51901-1",
-		CV_JP = "타나카 치에미",
+		CV_JP = "다나카 치에미",
 		audition_resource_JP = "ss-51901-2",
-		overview = "요리 솜씨도 보여주고, 딤섬 만드는 팁도 알려주겠다는 딩안. 부엌의 열기 속에서 두사람의 분위기도 점점 달아오르는데…?",
+		overview = "요리 실력도 뽐낼 겸, 딤섬 만들기 노하우를 보여주겠다고 제안하는 딩안. 후덥지근한 부엌에서 두 사람 사이의 열기도 점점 높아만 가는데……",
 		order = 1,
-		audition_text = "뭐, 지휘관님 마음속은 저도 잘 모르겠네요. 일단은 같이 좀 쉬고 몸을 가다듬죠. 실전은 지금부터니까요.",
+		audition_text = "음, 지휘관님의 마음 속을 정확히 맞추기는 어렵네요. 아무튼 같이 쉬면서 몸을 가다듬는 게 어때요? 진짜 시작은 지금부터니까요.",
 		ship_id = 51901,
 		id = 9,
 		captions_color = "#712220",
@@ -375,9 +375,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					5,
-					9
+					2025,
+					11,
+					6
 				},
 				{
 					0,
@@ -387,9 +387,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					5,
-					15
+					2025,
+					11,
+					12
 				},
 				{
 					23,
@@ -1221,6 +1221,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "마물의 섭취 활동",
+		story_resource_JP = "soundStory26_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "유즈키 츠바메",
+		audition_resource_JP = "ss-960008-1",
+		overview = "팬시가 이상한 걸 먹었다는 이야기를 듣고 걱정이 된 지휘관. \n그렇게 그녀에게 끌려가 그녀의 섭취 활동을 관찰하고 설명을 듣게 되는데……",
+		order = 2,
+		audition_text = "먹힐지도 모르는데 안 무서워? 우리 맛있고도 맛있는 지휘관…?",
+		ship_id = 960008,
+		id = 26,
+		captions_color = "#274576",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "마음이 쉬는 곳",
+		story_resource_JP = "soundStory27_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Lynn",
+		audition_resource_JP = "ss-30510-1",
+		overview = "마음이 놓이고 편안한, 가장 구미가 당기는 최고의 잠자리는 과연 어디일까? \n흔들흔들 움직이는 무사시의 포근한 꼬리가 그 답을 알려주는 것만 같다.",
+		order = 2,
+		audition_text = "그래, 이곳은 그대에게 맡기도록 하지.",
+		ship_id = 30510,
+		id = 27,
+		captions_color = "#3a343a",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1246,6 +1352,8 @@ pg.soundstory_template = {
 		22,
 		23,
 		24,
-		25
+		25,
+		26,
+		27
 	}
 }

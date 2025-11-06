@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50166
+			50181
 		}
 	},
 	[11] = {
@@ -250,10 +250,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5765
+			50204
 		},
 		param = {
-			73
+			68
 		}
 	},
 	[106] = {
@@ -305,7 +305,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "AEBCSCoreActivityUI",
+		param = "SailingShip3CoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -315,7 +315,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50152
+			50205
 		}
 	},
 	[110] = {

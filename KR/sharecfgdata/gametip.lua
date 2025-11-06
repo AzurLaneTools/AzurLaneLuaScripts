@@ -1084,7 +1084,7 @@ _G.pg.base.gametip.word_heavyarmor = {
 
 
 _G.pg.base.gametip.word_level_upperLimit = {
-	tip = "최대 등급 도달"
+	tip = "최대 레벨"
 }
 
 
@@ -11897,7 +11897,7 @@ _G.pg.base.gametip.ai_change_2 = {
 
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*교환 개방 시간 : <color=#FFF693>$1</color>"
+	tip = "※ 교환 가능 기간: <color=#539b2c>$1</color>"
 }
 
 
@@ -40567,4 +40567,43 @@ _G.pg.base.gametip.dorm3d_furnitrue_type_special = {
 
 _G.pg.base.gametip.dorm3d_shop_tag8 = {
 	tip = "解锁丝袜互动"
+}
+
+
+_G.pg.base.gametip.island_chara_attr_help = {
+	tip = [[
+1. 동료의 <color=#39bfff>능력(스테이터스)</color>이 높으면, 대응하는 <color=#39bfff>등급</color>도 상승합니다.
+2. <color=#39bfff>등급</color>이 높으면, <color=#39bfff>해당 능력에 대응하는 작업</color>을 수행할 때, <color=#39bfff>효율</color>이 상승합니다.
+3. <color=#39bfff>등급</color>별 <color=#39bfff>능력</color> 범위:
+	<color=#E79CC6>S</color> 능력>=200
+	<color=#FFDC1C>A</color> 120<=능력<200
+	<color=#B7A4FF>B</color> 80<=능력<120
+	<color=#97CFF6>C</color> 50<=능력<80
+	<color=#757577>D</color> 25<=능력<50
+	<color=#757577>E</color> 0<=능력<25]]
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_Sidebar1 = {
+	tip = "템페스타와 자유 군도"
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_Sidebar2 = {
+	tip = "자유 군도 보급지"
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_Sidebar3 = {
+	tip = "할로윈 II"
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
+	tip = "실적"
+}
+
+
+_G.pg.base.gametip.shop_sell_ended = {
+	tip = "不可购买"
 }

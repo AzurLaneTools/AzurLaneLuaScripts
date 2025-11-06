@@ -2632,6 +2632,27 @@ pg.medal_template = {
 		explain1 = "「아마하라에 바치는 춤」",
 		explain2 = "이벤트"
 	},
+	[200101] = {
+		target_id = "50209",
+		name = "자유 군도 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "자유 군도. 자유를 추구하는 사람들의 군도. 프리덤폴리스의 군도. \n——자유를 추구하는 자여, 프리덤폴리스로 오라!",
+		next = 0,
+		icon = "9101",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9101",
+		condition = "「템페스타와 자유 군도」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200101,
+		explain1 = "「템페스타와 자유 군도」",
+		explain2 = "이벤트"
+	},
 	all = {
 		10011,
 		10012,
@@ -2752,6 +2773,7 @@ pg.medal_template = {
 		200061,
 		200071,
 		200081,
-		200091
+		200091,
+		200101
 	}
 }

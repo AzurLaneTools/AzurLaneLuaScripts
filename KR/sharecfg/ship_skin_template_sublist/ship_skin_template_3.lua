@@ -1,237 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103262] = {
-		name = "떠도는 레이지 크레인",
-		change_skin = "",
-		desc = "휴우…… 이스트 글림 축제 분위기를 더 즐기려고 갈아입었는데… 보기에도 좋고 착용감도 최고인데 왠지 부끄러워지네…… 응? 지휘관, 언제 왔어?",
-		illustrator2 = -1,
-		ship_group = 10326,
-		group_index = 2,
-		purchase_offset = "",
-		painting = "beianpudunII_3",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 3,
-		l2d_ignore_drag = 0,
-		hand_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "157",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 103262,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "beianpudunII_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70961,
-		voice_actor = 27,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.57,
-					0.82,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.56,
-					0.82,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.34,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103270] = {
-		name = "루이빌",
-		change_skin = "",
-		desc = "노샘프턴급 중순양함—루이빌, 현호 CA-28",
-		illustrator2 = -1,
-		ship_group = 10327,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "luyisiweier",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 103270,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "luyisiweier",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 393,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.059,
-					0.999,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.052,
-					0.061,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.058,
-					1.038,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.134,
-					1.089,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.261,
-							2.531,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103271] = {
 		name = "판타지 추천",
 		change_skin = "",
@@ -14880,6 +14649,320 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.517,
 							2.402,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107381] = {
+		name = "유토피아의 수집가 ",
+		change_skin = "",
+		desc = "지휘관님, 저의 '유토피아'에 온 것을 환영합니다. 여기 있는 것은 제 자랑스러운 컬렉션…… 그럼, 제가 일단 설명해 드리도록 할까요？ ",
+		illustrator2 = -1,
+		ship_group = 10738,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "xianggelila_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 9,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "110",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107381,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "xianggelila_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70162,
+		voice_actor = 161,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.83,
+					0.694,
+					0
+				}
+			},
+			plane = {
+				{
+					1.045,
+					0.675,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.612,
+							2.709,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
+	[107382] = {
+		name = "잃어버린 세계의 탐험가",
+		change_skin = "",
+		desc = "정말 오래된 화석이네요... 네네, 지휘관은 뒤에서 저를 지켜주셔도 좋고, 원한다면 이리 와서 같이 관찰해도 좋아요. 마음껏 지금의 상황을 즐겨봐요~ ",
+		illustrator2 = -1,
+		ship_group = 10738,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "xianggelila_3",
+		bg_sp = "1102",
+		skin_type = 0,
+		shop_type_id = 9,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107382,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "xianggelila_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70390,
+		voice_actor = 161,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.31,
+					1.04,
+					0
+				}
+			},
+			plane = {
+				{
+					1.32,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.612,
+							2.52,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
+	[107990] = {
+		name = "꼬마 엔터프라이즈",
+		change_skin = "",
+		desc = "요크타운급 항공모함—엔터프라이즈, 현호 CV-6",
+		illustrator2 = -1,
+		ship_group = 10799,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "qiye_younv",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107990,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "qiye_younv",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 31,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.164,
+					1.298,
+					0
+				}
+			},
+			plane = {
+				{
+					1.271,
+					1.356,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.164,
 							-0.25
 						}
 					}

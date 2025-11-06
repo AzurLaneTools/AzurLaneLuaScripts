@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			dir = 1,
-			bgm = "danmachi-1",
+			bgm = "danmachi-az-story",
 			actor = 11400010,
 			nameColor = "#A9F548FF",
 			say = "엘프, 이거 봐! 이 근처는 보급 지점인 것 같아.",

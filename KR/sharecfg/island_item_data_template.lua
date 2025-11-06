@@ -1634,7 +1634,7 @@ pg.base.island_item_data_template = {
 	},
 	[1022] = {
 		name = "橡胶树种",
-		desc = "随熟随采随播，没有休眠期！",
+		desc = "港区精选的橡胶树种，可以产出优质的橡胶。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,

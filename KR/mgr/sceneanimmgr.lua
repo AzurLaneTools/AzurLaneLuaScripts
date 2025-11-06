@@ -114,8 +114,7 @@ slot0.DoSceneChange = function(slot0)
 	end
 
 	table.insert(slot4, function (slot0)
-		uv0:GetComponent("DftAniEvent"):SetTriggerEvent(slot0)
-		uv1:StartLoading(uv2, uv0)
+		uv0:StartLoading(uv1, uv2, slot0)
 	end)
 	table.insert(slot4, function (slot0)
 		slot1 = nil
@@ -132,8 +131,7 @@ slot0.DoSceneChange = function(slot0)
 		uv0:LoopLoading(uv1, uv3)
 	end)
 	table.insert(slot4, function (slot0)
-		uv0:GetComponent("DftAniEvent"):SetEndEvent(slot0)
-		uv1:EndLoading(uv2, uv0)
+		uv0:EndLoading(uv1, uv2, slot0)
 	end)
 	seriesAsync(slot4, function ()
 		PoolMgr.GetInstance():ReturnUI(uv0, uv1.gameObject)
@@ -149,7 +147,7 @@ slot0.DoSceneChange = function(slot0)
 	end)
 end
 
-slot0.StartLoading = function(slot0, slot1, slot2)
+slot0.StartLoading = function(slot0, slot1, slot2, slot3)
 	switch(slot1, {
 		Dorm3DLoading = function ()
 			GetComponent(uv0, typeof(Animator)):SetBool("Finish", false)
@@ -157,15 +155,30 @@ slot0.StartLoading = function(slot0, slot1, slot2)
 			LeanTween.value(1, 0, 0.6):setOnUpdate(System.Action_float(function (slot0)
 				uv0:SetFloat("_Dissolve", slot0)
 			end)):setEase(LeanTweenType.easeOutCubic)
+			uv0:GetComponent("DftAniEvent"):SetTriggerEvent(uv1)
 			quickPlayAnimator(uv0, "anim_dorm3d_loading_in")
 		end,
 		IslandplaneLoading = function ()
+			uv0:GetComponent("DftAniEvent"):SetTriggerEvent(uv1)
 			quickPlayAnimation(uv0, "anim_planeLoading_in")
 			uv0:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "cut_in", false)
 		end,
 		IslandcarLoading = function ()
+			uv0:GetComponent("DftAniEvent"):SetTriggerEvent(uv1)
 			quickPlayAnimation(uv0, "anim_planeLoading_in")
 			uv0:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "cut_in", false)
+		end,
+		jufengyuziyouqundao = function ()
+			uv0 = uv0:Find("scale")
+
+			uv0:GetComponent("DftAniEvent"):SetTriggerEvent(uv1)
+			quickPlayAnimator(uv0, "jufeng")
+		end,
+		jufengyuziyouqundao_fullscreen = function ()
+			uv0 = uv0:Find("scale")
+
+			uv0:GetComponent("DftAniEvent"):SetTriggerEvent(uv1)
+			quickPlayAnimator(uv0, "jufeng")
 		end
 	}, function ()
 	end)
@@ -186,20 +199,29 @@ slot0.LoopLoading = function(slot0, slot1, slot2)
 	end)
 end
 
-slot0.EndLoading = function(slot0, slot1, slot2)
+slot0.EndLoading = function(slot0, slot1, slot2, slot3)
 	switch(slot1, {
 		Dorm3DLoading = function ()
 			uv0:Find("bg"):GetComponent(typeof(Image)).material:SetInt("_DissolveTexFlip", 0)
 			LeanTween.value(0, 1, 0.6):setOnUpdate(System.Action_float(function (slot0)
 				uv0:SetFloat("_Dissolve", slot0)
 			end)):setEase(LeanTweenType.easeInOutCubic)
+			uv0:GetComponent("DftAniEvent"):SetEndEvent(uv1)
 			GetComponent(uv0, typeof(Animator)):SetBool("Finish", true)
 		end,
 		IslandplaneLoading = function ()
+			uv0:GetComponent("DftAniEvent"):SetEndEvent(uv1)
 			quickPlayAnimation(uv0, "anim_planeLoading_out")
 		end,
 		IslandcarLoading = function ()
+			uv0:GetComponent("DftAniEvent"):SetEndEvent(uv1)
 			quickPlayAnimation(uv0, "anim_planeLoading_out")
+		end,
+		jufengyuziyouqundao = function ()
+			uv0()
+		end,
+		jufengyuziyouqundao_fullscreen = function ()
+			uv0()
 		end
 	}, function ()
 	end)

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			dir = 1,
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			actor = 11400020,
 			nameColor = "#A9F548FF",
 			say = "출구는 저 앞이에요. 하지만 보아하니 저기서 기다리는 건 이 층의 주인일 가능성이 커요……",

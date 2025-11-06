@@ -17,18 +17,19 @@ slot0.execute = function(slot0, slot1)
 			slot1 = uv0:GetBuilding(uv1)
 
 			if slot0.return_num and slot0.return_num > 0 then
-				slot5 = {}
+				slot4 = slot1:GetDelegationSlotData(uv2):GetSlotRoleData():GetReturnExtraNum(slot0.return_num)
+				slot6 = {}
 
-				for slot9, slot10 in ipairs(pg.island_formula[slot1:GetDelegationSlotData(uv2):GetFormulaId()].commission_cost) do
-					table.insert(slot5, {
+				for slot10, slot11 in ipairs(pg.island_formula[slot1:GetDelegationSlotData(uv2):GetFormulaId()].commission_cost) do
+					table.insert(slot6, {
 						type = DROP_TYPE_ISLAND_ITEM,
-						id = slot10[1],
-						number = slot10[2] * slot0.return_num
+						id = slot11[1],
+						number = slot11[2] * slot0.return_num + slot4
 					})
 				end
 
-				slot6 = IslandDropHelper.AddItems({
-					drop_list = slot5
+				slot7 = IslandDropHelper.AddItems({
+					drop_list = slot6
 				})
 			end
 

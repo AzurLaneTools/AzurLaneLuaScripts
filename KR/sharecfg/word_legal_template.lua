@@ -702,6 +702,9 @@ temp = function()
 					}
 				}
 			}
+		},
+		["임"] = {
+			this = true
 		}
 	}
 end
@@ -2956,6 +2959,19 @@ temp = function()
 						}
 					}
 				}
+			},
+			["앤"] = {
+				["즈"] = {
+					[" "] = {
+						["리"] = {
+							["벤"] = {
+								["지"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -5084,6 +5100,13 @@ temp = function()
 					["춘"] = {
 						this = true
 					}
+				},
+				["제"] = {
+					["임"] = {
+						["스"] = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -7048,6 +7071,7 @@ temp = function()
 		["드"] = {
 			["벤"] = {
 				["처"] = {
+					this = true,
 					[" "] = {
 						["갤"] = {
 							["리"] = {
@@ -7338,6 +7362,18 @@ end
 temp()
 
 temp = function()
+	uv0["和"] = {
+		["睦"] = {
+			["号"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["펠"] = {
 		["릭"] = {
 			["스"] = {
@@ -7396,6 +7432,16 @@ temp()
 temp = function()
 	uv0["돌"] = {
 		["핀"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["펄"] = {
+		this = {
 			this = true
 		}
 	}

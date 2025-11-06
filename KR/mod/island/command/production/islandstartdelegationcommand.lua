@@ -3,15 +3,11 @@ slot0.START_DELEGATION = "IslandStartDelegationCommand:START_DELEGATION"
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot8 = getProxy(IslandProxy)
-	slot8 = slot8:GetIsland()
-	slot9 = slot8:GetBuildingAgency()
-	slot10 = getProxy(IslandProxy)
-	slot10 = slot10:GetIsland()
-	slot10 = slot10:GetInventoryAgency()
-	slot11 = pg.ConnectionMgr.GetInstance()
+	slot9 = getProxy(IslandProxy):GetIsland():GetBuildingAgency()
+	slot10 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
+	slot11 = slot2.extraCost or 0
 
-	slot11:Send(21501, {
+	pg.ConnectionMgr.GetInstance():Send(21501, {
 		build_id = slot2.build_id,
 		area_id = slot2.area_id,
 		ship_id = slot2.ship_id,
@@ -30,18 +26,18 @@ slot0.execute = function(slot0, slot1)
 			slot2:UpdateState(uv1 == IslandTechnologyAgency.PLACE_ID and IslandShip.STATE_DELEGATION or IslandShip.STATE_TECHNOLOGY, uv1)
 
 			for slot12, slot13 in ipairs(pg.island_formula[slot3:GetFormulaId()].commission_cost) do
-				uv4:RemoveItem(slot13[1], slot13[2] * uv5)
+				uv4:RemoveItem(slot13[1], (slot13[2] + uv5) * uv6)
 			end
 
-			uv2:DispatchEvent(uv6.START_DELEGATION, {
+			uv2:DispatchEvent(uv7.START_DELEGATION, {
 				build_id = uv1,
 				ship_id = uv3,
-				area_id = uv7
+				area_id = uv8
 			})
-			uv8:sendNotification(GAME.ISLAND_START_DELEGATION_DONE, {
-				slotId = uv7
+			uv9:sendNotification(GAME.ISLAND_START_DELEGATION_DONE, {
+				slotId = uv8
 			})
-			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandStartDelegation(uv3, uv1, uv7, uv9, uv5))
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandStartDelegation(uv3, uv1, uv8, uv10, uv6))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

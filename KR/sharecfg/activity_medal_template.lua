@@ -948,6 +948,102 @@ pg.activity_medal_template = {
 		id = 5013608,
 		medal_asset = "ActivityMedal/5013608"
 	},
+	[5020901] = {
+		activity_medal_desc = "자유 군도. 자유를 추구하는 사람들의 군도.",
+		next_medal = 0,
+		item = 65723,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "1",
+		task_id = 21850,
+		activity_medal_name = "스티커: 자유 군도",
+		id = 5020901,
+		medal_asset = "ActivityMedal/5020901"
+	},
+	[5020902] = {
+		activity_medal_desc = "복수의 여왕 선단의 스티커!",
+		next_medal = 0,
+		item = 65724,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "2",
+		task_id = 21851,
+		activity_medal_name = "스티커: 복수의 여왕 선단",
+		id = 5020902,
+		medal_asset = "ActivityMedal/5020902"
+	},
+	[5020903] = {
+		activity_medal_desc = "템페스타 선단의 스티커!",
+		next_medal = 0,
+		item = 65725,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "3",
+		task_id = 21852,
+		activity_medal_name = "스티커: 템페스타 선단",
+		id = 5020903,
+		medal_asset = "ActivityMedal/5020903"
+	},
+	[5020904] = {
+		activity_medal_desc = "벽운의 수호자의 스티커!",
+		next_medal = 0,
+		item = 65726,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "4",
+		task_id = 21853,
+		activity_medal_name = "스티커: 벽운의 수호자",
+		id = 5020904,
+		medal_asset = "ActivityMedal/5020904"
+	},
+	[5020905] = {
+		activity_medal_desc = "자유 군도에 위치한 유적 등대. 비밀이 숨겨져 있다.",
+		next_medal = 0,
+		item = 65727,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "5",
+		task_id = 21854,
+		activity_medal_name = "스티커: 유적 등대",
+		id = 5020905,
+		medal_asset = "ActivityMedal/5020905"
+	},
+	[5020906] = {
+		activity_medal_desc = "여신 교회의 스티커!",
+		next_medal = 0,
+		item = 65728,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "6",
+		task_id = 21855,
+		activity_medal_name = "스티커: 여신 교회",
+		id = 5020906,
+		medal_asset = "ActivityMedal/5020906"
+	},
+	[5020907] = {
+		activity_medal_desc = "로열 포춘이 직접 만든 목제 나침반. 누가 봐도 진짜처럼 보인다.",
+		next_medal = 0,
+		item = 65729,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "7",
+		task_id = 21856,
+		activity_medal_name = "스티커: 목제 나침반",
+		id = 5020907,
+		medal_asset = "ActivityMedal/5020907"
+	},
+	[5020908] = {
+		activity_medal_desc = "트레저 헌터의 스티커!",
+		next_medal = 0,
+		item = 65730,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "8",
+		task_id = 21857,
+		activity_medal_name = "스티커: 트레저 헌터",
+		id = 5020908,
+		medal_asset = "ActivityMedal/5020908"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1047,6 +1143,16 @@ pg.activity_medal_template = {
 			5013606,
 			5013607,
 			5013608
+		},
+		[50209] = {
+			5020901,
+			5020902,
+			5020903,
+			5020904,
+			5020905,
+			5020906,
+			5020907,
+			5020908
 		}
 	},
 	all = {
@@ -1128,6 +1234,14 @@ pg.activity_medal_template = {
 		5013605,
 		5013606,
 		5013607,
-		5013608
+		5013608,
+		5020901,
+		5020902,
+		5020903,
+		5020904,
+		5020905,
+		5020906,
+		5020907,
+		5020908
 	}
 }

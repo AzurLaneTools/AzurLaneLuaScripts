@@ -5004,6 +5004,551 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[291] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 보물",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_163",
+		story = "JUFENGYUZIYOUQUNDAO1",
+		change_bgm = "theme-SeaAndSun-image",
+		id = 291,
+		lock = ""
+	},
+	[292] = {
+		story_type = 1,
+		name = "EP1-1 초대장",
+		change_prefab = "",
+		unlock_conditions = "EPS-1 클리어",
+		change_background = "star_level_bg_163",
+		story = "JUFENGYUZIYOUQUNDAO2",
+		change_bgm = "theme-SeaAndSun-soft",
+		id = 292,
+		pre_event = {
+			291
+		},
+		lock = {
+			{
+				4,
+				291
+			}
+		}
+	},
+	[293] = {
+		story_type = 1,
+		name = "EP1-2 목제 나침반",
+		change_prefab = "",
+		unlock_conditions = "EP1-1 클리어",
+		change_background = "star_level_bg_194",
+		story = "JUFENGYUZIYOUQUNDAO3",
+		change_bgm = "danmachi-az-story",
+		id = 293,
+		pre_event = {
+			292
+		},
+		lock = {
+			{
+				4,
+				292
+			}
+		}
+	},
+	[294] = {
+		story_type = 1,
+		name = "EP1-3 회색 바위 섬",
+		change_prefab = "",
+		unlock_conditions = "EP1-2 클리어",
+		change_background = "star_level_bg_598",
+		story = "JUFENGYUZIYOUQUNDAO4",
+		change_bgm = "story-tempest-marching",
+		id = 294,
+		pre_event = {
+			293
+		},
+		lock = {
+			{
+				4,
+				293
+			}
+		}
+	},
+	[295] = {
+		story_type = 1,
+		name = "EP2-1 템페스타의 꿈Ⅰ",
+		change_prefab = "",
+		unlock_conditions = "EP1-3 클리어",
+		change_background = "star_level_bg_598",
+		story = "JUFENGYUZIYOUQUNDAO5",
+		change_bgm = "story-tempest-marching",
+		id = 295,
+		pre_event = {
+			294
+		},
+		lock = {
+			{
+				4,
+				294
+			}
+		}
+	},
+	[296] = {
+		story_type = 1,
+		name = "EP2-2 밤하늘의 베일",
+		change_prefab = "",
+		unlock_conditions = "EP2-1 클리어",
+		change_background = "bg_jufengv3_cg1",
+		story = "JUFENGYUZIYOUQUNDAO6",
+		change_bgm = "theme-tempest-light",
+		id = 296,
+		pre_event = {
+			295
+		},
+		lock = {
+			{
+				4,
+				295
+			}
+		}
+	},
+	[297] = {
+		story_type = 1,
+		name = "EP2-3 군도 도착",
+		change_prefab = "",
+		unlock_conditions = "EP2-2 클리어",
+		change_background = "star_level_bg_525",
+		story = "JUFENGYUZIYOUQUNDAO7",
+		change_bgm = "theme-tempest-light",
+		id = 297,
+		pre_event = {
+			296
+		},
+		lock = {
+			{
+				4,
+				296
+			}
+		}
+	},
+	[298] = {
+		story_type = 1,
+		name = "EP2-4 보물찾기 준비",
+		change_prefab = "",
+		unlock_conditions = "EP2-3 클리어",
+		change_background = "star_level_bg_504",
+		story = "JUFENGYUZIYOUQUNDAO8",
+		change_bgm = "theme-tempest-up",
+		id = 298,
+		pre_event = {
+			297
+		},
+		lock = {
+			{
+				4,
+				297
+			}
+		}
+	},
+	[299] = {
+		story_type = 1,
+		name = "EP3-1 마물의 바다의 헌터",
+		change_prefab = "",
+		unlock_conditions = "EP2-4 클리어",
+		change_background = "star_level_bg_194",
+		story = "JUFENGYUZIYOUQUNDAO9",
+		change_bgm = "theme-tempest-light",
+		id = 299,
+		pre_event = {
+			298
+		},
+		lock = {
+			{
+				4,
+				298
+			}
+		}
+	},
+	[300] = {
+		story_type = 1,
+		name = "EP3-2 전부 쓸어 담아라!",
+		change_prefab = "",
+		unlock_conditions = "EP3-1 클리어",
+		change_background = "star_level_bg_162",
+		story = "JUFENGYUZIYOUQUNDAO10",
+		change_bgm = "theme-tempest-light",
+		id = 300,
+		pre_event = {
+			298
+		},
+		lock = {
+			{
+				4,
+				299
+			}
+		}
+	},
+	[301] = {
+		story_type = 1,
+		name = "EP3-3 옛 친구의 방문",
+		change_prefab = "",
+		unlock_conditions = "EP3-2 클리어",
+		change_background = "bg_jufengv3_1",
+		story = "JUFENGYUZIYOUQUNDAO11",
+		change_bgm = "theme-tempest-light",
+		id = 301,
+		pre_event = {
+			299,
+			300
+		},
+		lock = {
+			{
+				4,
+				300
+			}
+		}
+	},
+	[302] = {
+		story_type = 1,
+		name = "EP4-1 대등대 조사",
+		change_prefab = "",
+		unlock_conditions = "EP3-3 클리어",
+		change_background = "star_level_bg_598",
+		story = "JUFENGYUZIYOUQUNDAO12",
+		change_bgm = "story-temepest-1",
+		id = 302,
+		pre_event = {
+			301
+		},
+		lock = {
+			{
+				4,
+				301
+			}
+		}
+	},
+	[303] = {
+		story_type = 1,
+		name = "EP4-2 초대받지 않은 손님",
+		change_prefab = "",
+		unlock_conditions = "EP4-1 클리어",
+		change_background = "star_level_bg_598",
+		story = "JUFENGYUZIYOUQUNDAO13",
+		change_bgm = "theme-tempest",
+		id = 303,
+		pre_event = {
+			302
+		},
+		lock = {
+			{
+				4,
+				302
+			}
+		}
+	},
+	[304] = {
+		story_type = 1,
+		name = "EP4-3 상 마르티뉴의 걱정",
+		change_prefab = "",
+		unlock_conditions = "EP4-2 클리어",
+		change_background = "star_level_bg_598",
+		story = "JUFENGYUZIYOUQUNDAO14",
+		change_bgm = "theme-ganjisawai",
+		id = 304,
+		pre_event = {
+			303
+		},
+		lock = {
+			{
+				4,
+				303
+			}
+		}
+	},
+	[305] = {
+		story_type = 1,
+		name = "EP5-1 초대받지 않은 손님Ⅱ",
+		change_prefab = "",
+		unlock_conditions = "EP4-3 클리어",
+		change_background = "star_level_bg_504",
+		story = "JUFENGYUZIYOUQUNDAO15",
+		change_bgm = "story-tempest-marching",
+		id = 305,
+		pre_event = {
+			304
+		},
+		lock = {
+			{
+				4,
+				304
+			}
+		}
+	},
+	[306] = {
+		story_type = 1,
+		name = "EP5-2 이른 아침의 잔해",
+		change_prefab = "",
+		unlock_conditions = "EP5-1 클리어",
+		change_background = "bg_jufengv3_cg2",
+		story = "JUFENGYUZIYOUQUNDAO16",
+		change_bgm = "battle-nightmare-theme",
+		id = 306,
+		pre_event = {
+			305
+		},
+		lock = {
+			{
+				4,
+				305
+			}
+		}
+	},
+	[307] = {
+		story_type = 2,
+		name = "EP5-3 임기응변",
+		change_prefab = "",
+		unlock_conditions = "EP5-2 클리어",
+		change_background = "star_level_bg_524",
+		story = "1978001",
+		change_bgm = "theme-ganjisawai",
+		id = 307,
+		pre_event = {
+			306
+		},
+		lock = {
+			{
+				4,
+				306
+			}
+		}
+	},
+	[308] = {
+		story_type = 1,
+		name = "EP6-1 의혹",
+		change_prefab = "",
+		unlock_conditions = "EP5-3 클리어",
+		change_background = "bg_jufengv3_1",
+		story = "JUFENGYUZIYOUQUNDAO18",
+		change_bgm = "theme-tempest-light",
+		id = 308,
+		pre_event = {
+			307
+		},
+		lock = {
+			{
+				4,
+				307
+			}
+		}
+	},
+	[309] = {
+		story_type = 1,
+		name = "EP6-2 유적 전당 조사",
+		change_prefab = "",
+		unlock_conditions = "EP6-1 클리어",
+		change_background = "star_level_bg_598",
+		story = "JUFENGYUZIYOUQUNDAO19",
+		change_bgm = "story-tempest-marching",
+		id = 309,
+		pre_event = {
+			308
+		},
+		lock = {
+			{
+				4,
+				308
+			}
+		}
+	},
+	[310] = {
+		story_type = 1,
+		name = "EPS-2 템페스타의 꿈Ⅱ",
+		change_prefab = "",
+		unlock_conditions = "EP6-2 클리어",
+		change_background = "star_level_bg_106",
+		story = "JUFENGYUZIYOUQUNDAO20",
+		change_bgm = "theme-SeaAndSun-soft",
+		id = 310,
+		pre_event = {
+			309
+		},
+		lock = {
+			{
+				4,
+				309
+			}
+		}
+	},
+	[311] = {
+		story_type = 1,
+		name = "EPS-3 재회",
+		change_prefab = "",
+		unlock_conditions = "EPS-2 클리어",
+		change_background = "bg_jufengv3_1",
+		story = "JUFENGYUZIYOUQUNDAO21",
+		change_bgm = "theme-tempest-light",
+		id = 311,
+		pre_event = {
+			310
+		},
+		lock = {
+			{
+				4,
+				310
+			}
+		}
+	},
+	[312] = {
+		story_type = 1,
+		name = "EP7-1 금속 암굴 조사",
+		change_prefab = "",
+		unlock_conditions = "EPS-3 클리어",
+		change_background = "star_level_bg_598",
+		story = "JUFENGYUZIYOUQUNDAO22",
+		change_bgm = "story-tempest-marching",
+		id = 312,
+		pre_event = {
+			311
+		},
+		lock = {
+			{
+				4,
+				311
+			}
+		}
+	},
+	[313] = {
+		story_type = 1,
+		name = "EP7-2 템페스타의 꿈Ⅲ",
+		change_prefab = "",
+		unlock_conditions = "EP7-1 클리어",
+		change_background = "bg_jufengv3_cg3",
+		story = "JUFENGYUZIYOUQUNDAO23",
+		change_bgm = "theme-ganjisawai",
+		id = 313,
+		pre_event = {
+			312
+		},
+		lock = {
+			{
+				4,
+				312
+			}
+		}
+	},
+	[314] = {
+		story_type = 1,
+		name = "EP7-3 대등대 조사Ⅱ",
+		change_prefab = "",
+		unlock_conditions = "EP7-2 클리어",
+		change_background = "bg_jufengv3_2",
+		story = "JUFENGYUZIYOUQUNDAO24",
+		change_bgm = "story-temepest-2",
+		id = 314,
+		pre_event = {
+			313
+		},
+		lock = {
+			{
+				4,
+				313
+			}
+		}
+	},
+	[315] = {
+		story_type = 2,
+		name = "EP7-4 승리의 일격",
+		change_prefab = "",
+		unlock_conditions = "EP7-3 클리어",
+		change_background = "star_level_bg_539",
+		story = "1978002",
+		change_bgm = "story-tempest-freedom",
+		id = 315,
+		pre_event = {
+			314
+		},
+		lock = {
+			{
+				4,
+				314
+			}
+		}
+	},
+	[316] = {
+		story_type = 1,
+		name = "EP7-5 프리덤폴리스",
+		change_prefab = "",
+		unlock_conditions = "EP7-4 클리어",
+		change_background = "star_level_bg_524",
+		story = "JUFENGYUZIYOUQUNDAO26",
+		change_bgm = "theme-ganjisawai",
+		id = 316,
+		pre_event = {
+			315
+		},
+		lock = {
+			{
+				4,
+				315
+			}
+		}
+	},
+	[317] = {
+		story_type = 1,
+		name = "EX-1 사제와 여신의 사령II",
+		change_prefab = "",
+		unlock_conditions = "EP7-5 클리어",
+		change_background = "star_level_bg_163",
+		story = "JUFENGYUZIYOUQUNDAO27",
+		change_bgm = "theme-tempest-up",
+		id = 317,
+		pre_event = {
+			316
+		},
+		lock = {
+			{
+				4,
+				316
+			}
+		}
+	},
+	[318] = {
+		story_type = 1,
+		name = "EX-2 미정 사항",
+		change_prefab = "",
+		unlock_conditions = "EX-1 클리어",
+		change_background = "bg_story_task_3",
+		story = "JUFENGYUZIYOUQUNDAO28",
+		change_bgm = "battle-eagleunion",
+		id = 318,
+		pre_event = {
+			317
+		},
+		lock = {
+			{
+				4,
+				317
+			}
+		}
+	},
+	[319] = {
+		story_type = 1,
+		name = "EX-3 세계의 경계",
+		change_prefab = "Map_1970001",
+		unlock_conditions = "EX-2 클리어",
+		change_background = "bg_jufengv3_1",
+		story = "JUFENGYUZIYOUQUNDAO29",
+		change_bgm = "theme-tempest-light",
+		id = 319,
+		pre_event = {
+			318
+		},
+		lock = {
+			{
+				4,
+				318
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -5270,6 +5815,35 @@ pg.activity_sp_story = {
 		282,
 		283,
 		284,
-		285
+		285,
+		291,
+		292,
+		293,
+		294,
+		295,
+		296,
+		297,
+		298,
+		299,
+		300,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319
 	}
 }

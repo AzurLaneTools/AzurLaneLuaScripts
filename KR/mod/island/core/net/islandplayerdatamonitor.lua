@@ -40,13 +40,8 @@ slot0.register = function(slot0)
 		uv0:HandleBookData(slot0.item_ids)
 	end)
 	slot0:on(21518, function (slot0)
-		if slot0.type == 1 or slot0.type == 3 then
-			uv0:HandleSlotFormulaData(slot0)
-		end
-
-		if slot0.type == 1 or slot0.type == 2 then
-			getProxy(IslandProxy):GetIsland():GetBuildingAgency():AddFormulaNum(slot0.formula_id, slot0.num * pg.island_formula[slot0.formula_id].commission_product[1][2])
-		end
+		uv0:HandleSlotFormulaData(slot0)
+		getProxy(IslandProxy):GetIsland():GetBuildingAgency():AddFormulaNum(slot0.formula_id, slot0.comb_num)
 	end)
 	slot0:on(21519, function (slot0)
 		uv0:HandleBuildUnlockData(slot0)

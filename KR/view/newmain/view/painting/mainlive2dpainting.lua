@@ -57,10 +57,23 @@ slot0.OnLoad = function(slot0, slot1)
 
 		uv1()
 	end)
-	slot0.shipGroup = getProxy(CollectionProxy):getShipGroup(slot0.ship.groupId)
+	slot3 = getProxy(CollectionProxy)
+	slot0.shipGroup = slot3:getShipGroup(slot0.ship.groupId)
 
 	slot0:UpdateContainerPosition()
 	slot0:AddScreenChangeTimer()
+
+	slot0.cvLoaded = false
+
+	slot0:preloadCv(function ()
+		uv0.cvLoaded = true
+
+		if uv0.pretriggerEvent then
+			uv0:_TriggerEvent(uv0.pretriggerEvent)
+
+			uv0.pretriggerEvent = nil
+		end
+	end)
 end
 
 slot0.ResetState = function(slot0)
@@ -133,6 +146,7 @@ slot0.OnUnload = function(slot0)
 
 		slot0.cg.blocksRaycasts = false
 
+		slot0.live2dChar:saveLive2dData()
 		slot0.live2dChar:Dispose()
 
 		slot0.live2dChar = nil
@@ -162,6 +176,12 @@ slot0.OnClick = function(slot0)
 end
 
 slot0._TriggerEvent = function(slot0, slot1)
+	if not slot0.cvLoaded then
+		slot0.pretriggerEvent = slot1
+
+		return
+	end
+
 	if not slot1 then
 		return
 	end
@@ -298,7 +318,7 @@ slot0.OnPause = function(slot0)
 
 	slot0.actionWaiting = false
 
-	slot0.live2dChar:SetVisible(false)
+	slot0:OnUnload()
 end
 
 slot0.OnUpdateShip = function(slot0, slot1)
@@ -310,12 +330,23 @@ end
 slot0.SetContainerVisible = function(slot0, slot1)
 end
 
+slot0.IsLoaded = function(slot0)
+	if not slot0.live2dChar then
+		return false
+	end
+
+	return uv0.super.IsLoaded(slot0)
+end
+
 slot0.OnResume = function(slot0)
 	slot0:SetContainerVisible(true)
 	slot0:AddScreenChangeTimer()
 	slot0:UpdateContainerPosition()
-	slot0.live2dChar:SetVisible(true)
-	slot0.live2dChar:UpdateAtomSource()
+	onNextTick(function ()
+		if uv0.ship then
+			uv0:Load(uv0.ship)
+		end
+	end)
 end
 
 slot0.Dispose = function(slot0)

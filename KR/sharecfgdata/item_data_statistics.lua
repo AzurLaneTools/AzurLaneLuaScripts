@@ -27967,6 +27967,131 @@ _G.pg.base.item_data_statistics[30375] = {
 }
 
 
+_G.pg.base.item_data_statistics[30376] = {
+	open_directly = 1,
+	name = "장비 스킨 상자(심해 보물찾기)",
+	type = 11,
+	display = "랜덤으로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshenhaixunbao",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30373",
+	id = 30376,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4240,
+			1
+		},
+		{
+			9,
+			4241,
+			1
+		},
+		{
+			9,
+			4242,
+			1
+		},
+		{
+			9,
+			4243,
+			1
+		},
+		{
+			9,
+			4244,
+			1
+		},
+		{
+			9,
+			4245,
+			1
+		},
+		{
+			9,
+			4246,
+			1
+		},
+		{
+			9,
+			4247,
+			1
+		},
+		{
+			9,
+			4248,
+			1
+		},
+		{
+			9,
+			4249,
+			1
+		},
+		{
+			9,
+			4250,
+			1
+		},
+		{
+			9,
+			4251,
+			1
+		},
+		{
+			9,
+			4252,
+			1
+		},
+		{
+			9,
+			4253,
+			1
+		},
+		{
+			9,
+			4254,
+			1
+		},
+		{
+			9,
+			4255,
+			1
+		},
+		{
+			9,
+			4256,
+			1
+		},
+		{
+			9,
+			4257,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -41916,6 +42041,219 @@ _G.pg.base.item_data_statistics[30559] = {
 		{
 			9,
 			4239,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30560] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자(심해 보물찾기)",
+	type = 13,
+	display = "사용하면 장비 스킨(심해 보물찾기) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshenhaixunbaozixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30560,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4240,
+			1
+		},
+		{
+			9,
+			4241,
+			1
+		},
+		{
+			9,
+			4242,
+			1
+		},
+		{
+			9,
+			4243,
+			1
+		},
+		{
+			9,
+			4244,
+			1
+		},
+		{
+			9,
+			4245,
+			1
+		},
+		{
+			9,
+			4246,
+			1
+		},
+		{
+			9,
+			4247,
+			1
+		},
+		{
+			9,
+			4248,
+			1
+		},
+		{
+			9,
+			4249,
+			1
+		},
+		{
+			9,
+			4250,
+			1
+		},
+		{
+			9,
+			4251,
+			1
+		},
+		{
+			9,
+			4252,
+			1
+		},
+		{
+			9,
+			4253,
+			1
+		},
+		{
+			9,
+			4254,
+			1
+		},
+		{
+			9,
+			4255,
+			1
+		},
+		{
+			9,
+			4256,
+			1
+		},
+		{
+			9,
+			4257,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4240,
+			1
+		},
+		{
+			9,
+			4241,
+			1
+		},
+		{
+			9,
+			4242,
+			1
+		},
+		{
+			9,
+			4243,
+			1
+		},
+		{
+			9,
+			4244,
+			1
+		},
+		{
+			9,
+			4245,
+			1
+		},
+		{
+			9,
+			4246,
+			1
+		},
+		{
+			9,
+			4247,
+			1
+		},
+		{
+			9,
+			4248,
+			1
+		},
+		{
+			9,
+			4249,
+			1
+		},
+		{
+			9,
+			4250,
+			1
+		},
+		{
+			9,
+			4251,
+			1
+		},
+		{
+			9,
+			4252,
+			1
+		},
+		{
+			9,
+			4253,
+			1
+		},
+		{
+			9,
+			4254,
+			1
+		},
+		{
+			9,
+			4255,
+			1
+		},
+		{
+			9,
+			4256,
+			1
+		},
+		{
+			9,
+			4257,
 			1
 		}
 	},
@@ -102103,6 +102441,114 @@ _G.pg.base.item_data_statistics[68071] = {
 	combination_display = {},
 	usage_arg = {
 		90344
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68133] = {
+	open_directly = 0,
+	name = "",
+	type = 1,
+	display = "",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68133,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90390
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68134] = {
+	open_directly = 0,
+	name = "",
+	type = 1,
+	display = "",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68134,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90391
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68135] = {
+	open_directly = 0,
+	name = "",
+	type = 1,
+	display = "",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68135,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90392
 	},
 	limit = {}
 }

@@ -295,6 +295,8 @@ slot0.OnHide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:OnHide()
+
 	slot1 = ipairs
 	slot2 = slot0.loadingIdList or {}
 

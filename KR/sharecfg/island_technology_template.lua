@@ -1633,7 +1633,7 @@ pg.base.island_technology_template = {
 		auto_finish = 1,
 		complete_tips = "可前往<color=#1E8FFE>栖风原野翠土林场</color>处手动获取",
 		island_level = 8,
-		tech_desc = "手动伐木的恢复时间减少，快去获取更多的资源吧！",
+		tech_desc = "手动伐木次数将会在每日18:00额外恢复一次，快去获取更多的资源吧！",
 		tech_icon = "tech_210401",
 		tech_belong = 2,
 		tech_name = "手动伐木恢复加快",
@@ -1695,7 +1695,7 @@ pg.base.island_technology_template = {
 		auto_finish = 1,
 		complete_tips = "可前往<color=#1E8FFE>栖风原野沉石矿山</color>处手动获取",
 		island_level = 9,
-		tech_desc = "手动采矿的恢复时间减少，快去获取更多的资源吧！",
+		tech_desc = "手动采矿次数将会在每日18:00额外恢复一次，快去获取更多的资源吧！",
 		tech_icon = "tech_220401",
 		tech_belong = 2,
 		tech_name = "手动采矿恢复加快",
@@ -3252,11 +3252,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[410301] = {
-		complete_title = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 6,
 		tech_desc = "增加悠然牧场里咯咯鸡的数量，鸡你又双叒叕加。",
 		tech_icon = "tech_410301",
@@ -3316,11 +3316,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[410302] = {
-		complete_title = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "2",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 8,
 		tech_desc = "增加悠然牧场里咯咯鸡的数量，鸡你又双叒叕加。",
 		tech_icon = "tech_410301",
@@ -3348,11 +3348,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[420302] = {
-		complete_title = "哼哼猪产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "哼哼猪委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "哼哼猪产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "哼哼猪委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 8,
 		tech_desc = "增加悠然牧场里哼哼猪的数量，猪你又双叒叕加。",
 		tech_icon = "tech_420302",
@@ -3444,11 +3444,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[430302] = {
-		complete_title = "哞哞牛产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "哞哞牛委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "哞哞牛产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "哞哞牛委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 10,
 		tech_desc = "增加悠然牧场里哞哞牛的数量，牛你又双叒叕加。",
 		tech_icon = "tech_430302",
@@ -3508,11 +3508,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[440302] = {
-		complete_title = "咩咩羊产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "咩咩羊委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "咩咩羊产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "咩咩羊委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 12,
 		tech_desc = "增加悠然牧场里咩咩羊的数量，羊你又双叒叕加。",
 		tech_icon = "tech_440302",
@@ -3540,11 +3540,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[420303] = {
-		complete_title = "哼哼猪产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "哼哼猪委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "2",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "哼哼猪产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "哼哼猪委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 13,
 		tech_desc = "增加悠然牧场里哼哼猪的数量，猪你又双叒叕加。",
 		tech_icon = "tech_420302",
@@ -3572,11 +3572,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[410303] = {
-		complete_title = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "3",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 14,
 		tech_desc = "增加悠然牧场里咯咯鸡的数量，鸡你又双叒叕加。",
 		tech_icon = "tech_410301",
@@ -3604,11 +3604,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[430303] = {
-		complete_title = "哞哞牛产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "哞哞牛委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "2",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "哞哞牛产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "哞哞牛委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 15,
 		tech_desc = "增加悠然牧场里哞哞牛的数量，牛你又双叒叕加。",
 		tech_icon = "tech_430302",
@@ -3636,11 +3636,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[410304] = {
-		complete_title = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "4",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 16,
 		tech_desc = "增加悠然牧场里咯咯鸡的数量，鸡你又双叒叕加。",
 		tech_icon = "tech_410301",
@@ -3668,11 +3668,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[440303] = {
-		complete_title = "咩咩羊产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "咩咩羊委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "2",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "咩咩羊产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "咩咩羊委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 17,
 		tech_desc = "增加悠然牧场里咩咩羊的数量，羊你又双叒叕加。",
 		tech_icon = "tech_440302",
@@ -3700,11 +3700,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[410305] = {
-		complete_title = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "5",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "咯咯鸡产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "咯咯鸡委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 21,
 		tech_desc = "增加悠然牧场里咯咯鸡的数量，鸡你又双叒叕加。",
 		tech_icon = "tech_410301",
@@ -3732,11 +3732,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[420304] = {
-		complete_title = "哼哼猪产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "哼哼猪委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "3",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "哼哼猪产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "哼哼猪委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 22,
 		tech_desc = "增加悠然牧场里哼哼猪的数量，猪你又双叒叕加。",
 		tech_icon = "tech_420302",
@@ -3764,11 +3764,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[430304] = {
-		complete_title = "哞哞牛产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "哞哞牛委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "3",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "哞哞牛产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "哞哞牛委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 25,
 		tech_desc = "增加悠然牧场里哞哞牛的数量，牛你又双叒叕加。",
 		tech_icon = "tech_430302",
@@ -3821,11 +3821,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[440304] = {
-		complete_title = "咩咩羊产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_title = "咩咩羊委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "3",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "咩咩羊产出增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
+		complete_tips = "咩咩羊委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		island_level = 27,
 		tech_desc = "增加悠然牧场里咩咩羊的数量，羊你又双叒叕加。",
 		tech_icon = "tech_440302",

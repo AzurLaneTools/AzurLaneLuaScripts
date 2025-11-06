@@ -1163,5 +1163,8 @@ pg.activity_const = {
 	},
 	NINJA_CITY_MAIN_ACTIVITY_ID = {
 		act_id = 50112
+	},
+	SAILING_SHIP_3_SKIN_ACT_ID = {
+		act_id = 50202
 	}
 }
