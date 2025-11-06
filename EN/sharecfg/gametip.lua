@@ -35453,96 +35453,96 @@ cs.gametip = {
 	},
 	equip_enhancement_lv = {
 		1269539,
-		85,
+		86,
 		true
 	},
 	equip_enhancement_title = {
-		1269624,
+		1269625,
 		94,
 		true
 	},
 	equip_enhancement_required = {
-		1269718,
+		1269719,
 		107,
 		true
 	},
 	shop_sell_ended = {
-		1269825,
+		1269826,
 		90,
 		true
 	},
 	island_taskjump_systemnoopen_tips = {
-		1269915,
+		1269916,
 		137,
 		true
 	},
 	island_taskjump_placenoopen_tips = {
-		1270052,
+		1270053,
 		137,
 		true
 	},
 	island_ship_order_toggle_label_award = {
-		1270189,
+		1270190,
 		107,
 		true
 	},
 	island_ship_order_toggle_label_request = {
-		1270296,
+		1270297,
 		106,
 		true
 	},
 	island_ship_order_delegate_auto_refresh_label = {
-		1270402,
+		1270403,
 		153,
 		true
 	},
 	island_ship_order_delegate_auto_refresh_time = {
-		1270555,
+		1270556,
 		141,
 		true
 	},
 	island_order_ship_finish_cnt = {
-		1270696,
+		1270697,
 		108,
 		true
 	},
 	island_order_ship_sel_delegate_label = {
-		1270804,
+		1270805,
 		121,
 		true
 	},
 	island_order_ship_finish_cnt_not_enough = {
-		1270925,
+		1270926,
 		110,
 		true
 	},
 	island_order_ship_reset_all = {
-		1271035,
+		1271036,
 		134,
 		true
 	},
 	island_order_ship_exchange_tip = {
-		1271169,
+		1271170,
 		140,
 		true
 	},
 	island_order_ship_btn_replace = {
-		1271309,
+		1271310,
 		104,
 		true
 	},
 	island_order_ship_exchange_tip_2 = {
-		1271413,
+		1271414,
 		142,
 		true
 	},
 	island_order_ship_exchange_tip_1 = {
-		1271555,
+		1271556,
 		251,
 		true
 	},
 	island_urgent_notice = {
-		1271806,
+		1271807,
 		2711,
 		true
 	}

@@ -7090,7 +7090,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"Stellar Draw Prize",
 				{}
 			}
 		}
@@ -7147,7 +7147,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"计划",
+				"Island Plan",
 				{}
 			}
 		}
@@ -7204,7 +7204,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7235,7 +7235,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
@@ -7266,7 +7266,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7297,7 +7297,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"成就",
+				"Island Achievement",
 				{}
 			}
 		}
@@ -7328,7 +7328,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"Stellar Draw Prize",
 				{}
 			}
 		}
@@ -7359,7 +7359,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7390,7 +7390,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7421,7 +7421,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"Stellar Draw Prize",
 				{}
 			}
 		}
@@ -7478,7 +7478,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7509,7 +7509,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"成就",
+				"Island Achievement",
 				{}
 			}
 		}

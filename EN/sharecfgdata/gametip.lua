@@ -45516,7 +45516,7 @@ _G.pg.base.gametip.equip_enhancement_finish = {
 
 
 _G.pg.base.gametip.equip_enhancement_lv = {
-	tip = "0"
+	tip = "+ "
 }
 
 
