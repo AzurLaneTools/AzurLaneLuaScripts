@@ -52,6 +52,7 @@ slot0.Init = function(slot0)
 	slot0.coupleAction4FollowerPlayer = IslandCoupleAction4FollowerPlayer.New(slot0)
 	slot0.npcActionPlayer = IslandNpcActionPlayer.New(slot0)
 	slot0.weatherSystem = IslandWeatherSystem.New(slot0)
+	slot0.coupleNpcWordPlayer = IslandCoupleNpcWordPlayer.New(slot0)
 	slot0.pathfinders = {}
 	slot0.views = {
 		slot0:CreateInteractionView(),
@@ -146,6 +147,10 @@ slot0.Update = function(slot0)
 	if slot0.needTryTrack then
 		slot0:TryTrack()
 	end
+
+	if slot0.needTryMainTrack then
+		slot0:TryMainTrack()
+	end
 end
 
 slot0.LateUpdate = function(slot0)
@@ -195,6 +200,8 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.Change_Photo_Height, slot0.OnChange_Photo_Height)
 	slot0:AddListener(ISLAND_EVT.SetOpMoveBtnActve, slot0.OnSetOpMoveBtnActve)
 	slot0:AddListener(ISLAND_EVT.PLAY_BUBBLE, slot0.OnPlayChatBubble)
+	slot0:AddListener(ISLAND_EVT.RAW_PLAY_BUBBLE, slot0.OnRawPlayChatBubble)
+	slot0:AddListener(ISLAND_EVT.RAW_STOP_BUBBLE, slot0.OnRawStopChatBubble)
 	slot0:AddListener(ISLAND_EVT.START_STORY, slot0.OnStartStory)
 	slot0:AddListener(ISLAND_EVT.END_STORY, slot0.OnEndStory)
 	slot0:AddListener(ISLAND_EVT.START_DEGATION, slot0.OnStartDelegation)
@@ -291,6 +298,8 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.SetOpMoveBtnActve, slot0.OnSetOpMoveBtnActve)
 	slot0:RemoveListener(ISLAND_EVT.ALL_PAGE_CLOSED, slot0.OnAllPageClose)
 	slot0:RemoveListener(ISLAND_EVT.PLAY_BUBBLE, slot0.OnPlayChatBubble)
+	slot0:RemoveListener(ISLAND_EVT.RAW_PLAY_BUBBLE, slot0.OnRawPlayChatBubble)
+	slot0:RemoveListener(ISLAND_EVT.RAW_STOP_BUBBLE, slot0.OnRawStopChatBubble)
 	slot0:RemoveListener(ISLAND_EVT.START_STORY, slot0.OnStartStory)
 	slot0:RemoveListener(ISLAND_EVT.END_STORY, slot0.OnEndStory)
 	slot0:RemoveListener(ISLAND_EVT.START_DEGATION, slot0.OnStartDelegation)
@@ -399,12 +408,14 @@ slot0.OnCoupleActionWithFollower = function(slot0, slot1)
 	slot0:GetSubView(IslandAniamtionOpView):RemoveWaitTimer(false)
 end
 
-slot0.OnFollowerAdd = function(slot0)
+slot0.OnFollowerAdd = function(slot0, slot1)
 	slot0:GetSubView(IslandOpView):FlushFollowerList()
+	slot0.coupleNpcWordPlayer:Play(slot1)
 end
 
-slot0.OnFollowerDel = function(slot0)
+slot0.OnFollowerDel = function(slot0, slot1)
 	slot0:GetSubView(IslandOpView):FlushFollowerList()
+	slot0.coupleNpcWordPlayer:Stop(slot1)
 end
 
 slot0.OnResetFollowRandomizer = function(slot0, slot1)
@@ -709,6 +720,14 @@ slot0.OnPlayChatBubble = function(slot0, slot1)
 	slot0:GetSubView(IslandTopHeadHudView):PlayBubble(slot1.name, slot0:GetAllUnits(), slot1.callback)
 end
 
+slot0.OnRawPlayChatBubble = function(slot0, slot1)
+	slot0:GetSubView(IslandTopHeadHudView):RawPlayBubble(slot1.info, slot0:GetAllUnits(), slot1.callback)
+end
+
+slot0.OnRawStopChatBubble = function(slot0, slot1)
+	slot0:GetSubView(IslandTopHeadHudView):RawStopBubble(slot1.info)
+end
+
 slot0.OnAnyPageOpen = function(slot0, slot1)
 	slot0.anyPageOpen = true
 
@@ -836,9 +855,14 @@ slot0.EnableInput = function(slot0)
 end
 
 slot0.OnTracking = function(slot0, slot1)
-	slot0.trackId = tonumber(slot1.id)
-	slot0.trackType = slot1.typ or IslandTaskType.MAIN
-	slot0.needTryTrack = true
+	if slot1.trackType == IslandTaskTrackCard.TYPES.MAIN then
+		slot0.mainTrackId = tonumber(slot1.id)
+		slot0.needTryMainTrack = true
+	elseif slot2 == IslandTaskTrackCard.TYPES.OTHER then
+		slot0.trackId = tonumber(slot1.id)
+		slot0.trackType = slot1.typ or IslandTaskType.MAIN
+		slot0.needTryTrack = true
+	end
 end
 
 slot0.TryTrack = function(slot0)
@@ -850,9 +874,33 @@ slot0.TrySetTrack = function(slot0, slot1)
 		return
 	end
 
-	slot0:GetSubView(IslandDistanceView):SetTrackingTarget(slot0.player, slot2, slot1, slot0.trackType)
+	slot0:GetSubView(IslandDistanceView):SetTrackingTarget(slot0.player, slot2, slot1, slot0.trackType, IslandTaskTrackCard.TYPES.OTHER)
 
 	slot0.needTryTrack = false
+end
+
+slot0.TryMainTrack = function(slot0)
+	slot0:TrySetMainTrack(slot0.mainTrackId)
+end
+
+slot0.TrySetMainTrack = function(slot0, slot1)
+	if not slot0:GetOptTrackingTarget(slot1) or not slot2._go then
+		return
+	end
+
+	slot0:GetSubView(IslandDistanceView):SetTrackingTarget(slot0.player, slot2, slot1, IslandTaskType.MAIN, IslandTaskTrackCard.TYPES.MAIN)
+
+	slot0.needTryMainTrack = false
+end
+
+slot0.OnUnTracking = function(slot0, slot1)
+	if slot1 == IslandTaskTrackCard.TYPES.MAIN then
+		slot0.mainTrackId = nil
+	elseif slot1 == IslandTaskTrackCard.TYPES.OTHER then
+		slot0.trackId = nil
+	end
+
+	slot0:GetSubView(IslandDistanceView):CancelTracking(slot1)
 end
 
 slot1 = function(slot0, slot1)
@@ -926,12 +974,6 @@ slot0.GetOptTrackingTarget = function(slot0, slot1)
 	slot5 = nil
 
 	return uv0(slot4, slot3.mapId, IslandInteractionUntil.TYPE_TRANSFER) or uv0(slot4, slot3.mapId, IslandInteractionUntil.TYPE_SP_TRANSFER) or uv1(slot4)
-end
-
-slot0.OnUnTracking = function(slot0)
-	slot0.trackId = nil
-
-	slot0:GetSubView(IslandDistanceView):CancelTracking()
 end
 
 slot0.OnUpdateCustomOpPositon = function(slot0)
@@ -1049,6 +1091,10 @@ slot0.GetAllUnits = function(slot0)
 end
 
 slot0.GetUnitModuleWithType = function(slot0, slot1, slot2)
+	if slot1 == IslandConst.UNIT_LIST_PLAYER and slot2 == 0 then
+		return slot0.player
+	end
+
 	for slot7, slot8 in ipairs(slot0:GetUnitListByKey(slot1)) do
 		if slot8.id == slot2 then
 			return slot8
@@ -1385,6 +1431,7 @@ slot0.OnDispose = function(slot0)
 	slot0.coupleAction4FollowerPlayer:Dispose()
 	slot0.npcActionPlayer:Dispose()
 	slot0.weatherSystem:Dispose()
+	slot0.coupleNpcWordPlayer:Dispose()
 
 	for slot4, slot5 in ipairs(slot0.views) do
 		slot5:Dispose()
@@ -1418,6 +1465,7 @@ slot0.OnDispose = function(slot0)
 	slot0._unitList = nil
 	slot0.detectionSystem = nil
 	slot0.effectMgr = nil
+	slot0.coupleNpcWordPlayer = nil
 end
 
 return slot0

@@ -174,7 +174,6 @@ pg.island_task = setmetatable({
 			20012008,
 			20012009,
 			20012010,
-			20013000,
 			20013001,
 			20013002,
 			20013003,
@@ -247,6 +246,7 @@ pg.island_task = setmetatable({
 			40601001
 		},
 		[5] = {
+			50000001,
 			50001001,
 			50001002,
 			50001003,
@@ -296,7 +296,40 @@ pg.island_task = setmetatable({
 			80001027,
 			80001028,
 			80001029,
-			80001030
+			80001030,
+			80001101,
+			80001102,
+			80001103,
+			80001104,
+			80001105,
+			80001106,
+			80001107,
+			80001108,
+			80001109,
+			80001110,
+			80001111,
+			80001112,
+			80001113,
+			80001114,
+			80001115,
+			80001116,
+			80001117,
+			80001118,
+			80001119,
+			80001120,
+			80001121,
+			80001122,
+			80001123,
+			80001124,
+			80001125,
+			80001126,
+			80001127,
+			80001128,
+			80001129,
+			80001130
+		},
+		[9] = {
+			20013000
 		}
 	},
 	all = {
@@ -387,6 +420,7 @@ pg.island_task = setmetatable({
 		10004020,
 		10004030,
 		10019999,
+		50000001,
 		50001001,
 		50001002,
 		50001003,
@@ -435,6 +469,36 @@ pg.island_task = setmetatable({
 		80001028,
 		80001029,
 		80001030,
+		80001101,
+		80001102,
+		80001103,
+		80001104,
+		80001105,
+		80001106,
+		80001107,
+		80001108,
+		80001109,
+		80001110,
+		80001111,
+		80001112,
+		80001113,
+		80001114,
+		80001115,
+		80001116,
+		80001117,
+		80001118,
+		80001119,
+		80001120,
+		80001121,
+		80001122,
+		80001123,
+		80001124,
+		80001125,
+		80001126,
+		80001127,
+		80001128,
+		80001129,
+		80001130,
 		20001001,
 		20001002,
 		20001003,
@@ -2987,7 +3051,7 @@ pg.base.island_task = {
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
-		complete_data = 10030003,
+		complete_data = 10030006,
 		reward_exp = 300,
 		complete_tips = "去和玛丽聊聊(0/1)",
 		is_tech_task = 0,
@@ -3006,8 +3070,8 @@ pg.base.island_task = {
 		},
 		link_task = {},
 		com_perform = {
-			1,
-			"ISLAND1001032_2"
+			2,
+			"ISLANDPERFORMANCE_PATH_10"
 		},
 		target_id = {
 			100022901
@@ -4155,6 +4219,71 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[50000001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "优化进行中",
+		type = 5,
+		task_desc = "岛屿开发遇到了难题，佩芮陷入了崩溃与重做的螺旋，去找她看看情况吧。",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "岛屿开发季",
+		id = 50000001,
+		unlock_condition = {
+			{
+				2,
+				20015002
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			500000011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				2000
+			}
+		}
+	},
 	[50001001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -4198,8 +4327,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4268,8 +4397,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4340,8 +4469,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4412,8 +4541,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4484,8 +4613,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4561,8 +4690,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4638,8 +4767,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4715,8 +4844,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4785,8 +4914,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4857,8 +4986,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4929,8 +5058,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5001,8 +5130,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5078,8 +5207,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5155,8 +5284,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5232,8 +5361,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5302,8 +5431,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5374,8 +5503,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5446,8 +5575,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5489,7 +5618,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5534,7 +5663,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5579,7 +5708,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5624,7 +5753,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5669,7 +5798,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5714,7 +5843,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5759,7 +5888,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5804,7 +5933,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5849,7 +5978,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5894,7 +6023,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5939,7 +6068,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5984,7 +6113,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6029,7 +6158,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6074,7 +6203,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6119,7 +6248,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6164,7 +6293,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6209,7 +6338,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6244,7 +6373,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6284,7 +6413,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6324,7 +6453,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6364,7 +6493,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6404,7 +6533,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6444,7 +6573,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6489,7 +6618,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6524,7 +6653,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6564,7 +6693,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6604,7 +6733,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6644,7 +6773,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6684,7 +6813,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6729,7 +6858,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6741,6 +6870,1291 @@ pg.base.island_task = {
 		link_task = {},
 		target_id = {
 			80010030
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001101] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "麦田守望",
+		type = 8,
+		task_desc = "为岛屿仓库输送优质的小麦，保障基础粮食供应。\n提交小麦*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001101,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011001
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001102] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "动物食品",
+		type = 8,
+		task_desc = "供应新鲜的牧草，满足牧场动物的基础需求。\n提交牧草*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001102,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011002
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001103] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "开拓豆源",
+		type = 8,
+		task_desc = "供应大量高蛋白大豆，丰富食品加工原料。\n提交大豆*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001103,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011003
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001104] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "稻米供应",
+		type = 8,
+		task_desc = "稳定的主粮供应是开发的基础。\n提交大米*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001104,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011004
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001105] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "黄金粮仓",
+		type = 8,
+		task_desc = "交付大量饱满的玉米，扩充开发区的食物种类。\n提交玉米*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001105,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011005
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001106] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "橙色活力",
+		type = 8,
+		task_desc = "提供丰富的胡萝卜，增强维生素摄入，支持健康开发。\n提交胡萝卜*250",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001106,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011006
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001107] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "乳品补给",
+		type = 8,
+		task_desc = "供应新鲜牛奶，补充钙质来源。\n提交牛奶*250",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001107,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011007
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001108] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "甜蜜引擎",
+		type = 8,
+		task_desc = "充足的苹果汁能显著提升岛屿开发效率。\n提交苹果汁*250",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001108,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011008
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001109] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "咖啡供应",
+		type = 8,
+		task_desc = "充足的冰咖啡能维持全岛开发者的工作效率。\n提交冰咖啡*250",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001109,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011009
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001110] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "烤肉能量",
+		type = 8,
+		task_desc = "提供美味的炭烤肉串，快速补充体力。\n提交炭烤肉串*250",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001110,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011010
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001111] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "调味基础",
+		type = 8,
+		task_desc = "优质的洋葱能提升开发区餐品风味。\n提交洋葱*100",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001111,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011011
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001112] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "健康饮食",
+		type = 8,
+		task_desc = "调配蔬菜沙拉，提供均衡营养。\n提交蔬菜沙拉*100",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001112,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011012
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001113] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "营养组合",
+		type = 8,
+		task_desc = "供给胡萝卜厚蛋烧，满足多样化的餐食需求。\n提交胡萝卜厚蛋烧*100",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001113,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001114] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "拿铁时光",
+		type = 8,
+		task_desc = "提供香醇拿铁，提高开发人员的工作热情。\n提交拿铁*100",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001114,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001115] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "禽肉快炒",
+		type = 8,
+		task_desc = "供应爆炒禽肉，美味餐点，高效开发。\n提交爆炒禽肉*100",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001115,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011015
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001116] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "便携快餐",
+		type = 8,
+		task_desc = "便捷的餐食选择，确保开发人员精力充沛。\n提交汉堡肉饭*50",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001116,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011016
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001117] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "首次接收",
+		type = 8,
+		task_desc = "成功领取第一份日常补给。\n接收1次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001117,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011017
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001118] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "稳定入库",
+		type = 8,
+		task_desc = "稳定接收三批日常补给，仓库渐丰。\n接收5次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001118,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001119] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "定期补给",
+		type = 8,
+		task_desc = "规律性地接收补给已成习惯。\n接收10次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001119,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001120] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "高效接收",
+		type = 8,
+		task_desc = "补给的接收工作高效顺畅！\n接收20次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001120,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011020
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001121] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "补给充足",
+		type = 8,
+		task_desc = "储备丰厚，底气十足！\n接收30次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001121,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011021
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	},
+	[80001122] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "永续储备",
+		type = 8,
+		task_desc = "源源不断的补给已成为开发区重要的物资来源。\n接收45次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001122,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011022
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				3
+			}
+		}
+	},
+	[80001123] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "发展根基",
+		type = 8,
+		task_desc = "日复一日的积累，已成为开发区发展的根基。\n接收60次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001123,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011023
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001124] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "初识订单",
+		type = 8,
+		task_desc = "对岛屿订单有了初步认知。\n交付10次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001124,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011024
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001125] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "稳定交付",
+		type = 8,
+		task_desc = "稳定且持续地交付岛屿订单。\n交付30次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001125,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011025
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001126] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "坚实后盾",
+		type = 8,
+		task_desc = "岛屿开发建设不可或缺的可靠力量。\n交付50次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001126,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011026
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001127] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "订单专家",
+		type = 8,
+		task_desc = "对大家的需求了如指掌，总能精准高效地满足。\n交付100次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001127,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011027
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001128] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "发展支柱",
+		type = 8,
+		task_desc = "持续的支援是岛屿发展的关键动力。\n交付150次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001128,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011028
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				5
+			}
+		}
+	},
+	[80001129] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "开发核心",
+		type = 8,
+		task_desc = "大家心中最重要、最值得依赖的人。\n交付200次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001129,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011029
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001130] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "繁荣之基",
+		type = 8,
+		task_desc = "承载开发的重任，托起繁荣的未来。\n交付300次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001130,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011030
 		},
 		reward_show = {
 			{
@@ -10005,7 +11419,7 @@ pg.base.island_task = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "提升开发等级",
-		type = 2,
+		type = 9,
 		task_desc = "提升开发等级",
 		map_trigger_tips = 0,
 		complete_type = 2,

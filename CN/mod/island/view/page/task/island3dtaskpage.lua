@@ -26,6 +26,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.finishedTargetLocTF = slot0.finishedTargetTF:Find("location")
 	slot0.targetContent = slot0.targetTF:Find("content/list")
 	slot0.targetUIList = UIItemList.New(slot0.targetContent, slot0.targetContent:Find("tpl"))
+	slot0.targetBtnUIList = UIItemList.New(slot0.detailTF:Find("view/Viewport/btns"), slot0.detailTF:Find("view/Viewport/btns/tpl"))
 	slot0.awardsTF = slot0.detailTF:Find("awards")
 
 	setText(slot0.awardsTF:Find("title/Text"), i18n("island_task_award"))
@@ -74,6 +75,14 @@ slot0.OnInit = function(slot0)
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateTargetItem(slot1, slot2)
+		end
+	end)
+
+	slot1 = slot0.targetBtnUIList
+
+	slot1:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			uv0:UpdateTargetBtnItem(slot1, slot2)
 		end
 	end)
 
@@ -210,7 +219,7 @@ slot0.UpdateTargetItem = function(slot0, slot1, slot2)
 	slot3 = slot0.showTargets[slot1 + 1]
 
 	setText(slot2:Find("content/Text"), slot3:getConfig("name"))
-	setText(slot2:Find("content/num"), string.format("(%d/%d)", slot3:GetProgress(), slot3:GetTargetNum()))
+	setText(slot2:Find("content/num"), "(" .. (slot3:GetProgress() < slot3:GetTargetNum() and setColorStr(slot4, "#dd374e") or slot4) .. "/" .. slot5 .. ")")
 
 	slot6 = slot3:IsFinish()
 
@@ -224,6 +233,76 @@ slot0.UpdateTargetItem = function(slot0, slot1, slot2)
 
 	if slot10 then
 		slot0:UpdateLocation(slot9, slot0.showVO)
+	end
+end
+
+slot0._SkipBtn = function(slot0, slot1)
+	if not getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(pg.island_main_btns[slot1].ability_id) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_taskjump_systemnoopen_tips"))
+
+		return
+	end
+
+	if slot2.open_page ~= "" then
+		slot0:Hide()
+		slot0:emit(IslandMediator.OPEN_PAGE, slot2.open_page, slot2.page_param)
+	end
+end
+
+slot0._SkipObj = function(slot0, slot1)
+	if not getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlockMap(pg.island_world_objects[slot1].mapId) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_taskjump_placenoopen_tips"))
+
+		return
+	end
+
+	slot0:Hide(false)
+	slot0:emit(IslandBaseMediator.SWITCH_MAP, slot2, pg.island_map[slot2].born_object)
+end
+
+slot0.UpdateTargetBtnItem = function(slot0, slot1, slot2)
+	slot4 = slot2:Find("btn")
+
+	removeOnButton(slot4)
+	setActive(slot4, false)
+
+	if slot0.showTargets[slot1 + 1] then
+		slot5 = pg.island_task_target[slot3.id]
+		slot6 = tonumber(slot5.tips)
+		slot7 = tonumber(slot5.jump_ui)
+
+		if not slot3:IsFinish() then
+			if slot7 then
+				setActive(slot4, true)
+				onButton(slot0, slot4, function ()
+					uv0:_SkipBtn(uv1)
+				end, SFX_PANEL)
+			elseif slot6 then
+				slot8 = pg.island_world_objects[slot6].mapId
+
+				if IslandMainBtnTipHelper.IsUnlock("map") and slot0.curMapId ~= slot8 then
+					setActive(slot4, true)
+					onButton(slot0, slot4, function ()
+						uv0:_SkipObj(uv1)
+					end, SFX_PANEL)
+				end
+			end
+		end
+
+		return
+	end
+
+	setActive(slot4, false)
+
+	if tonumber(slot0.showVO:getConfig("complete_data")) and slot5 ~= 0 then
+		slot6 = pg.island_world_objects[slot5].mapId
+
+		if IslandMainBtnTipHelper.IsUnlock("map") and slot0.curMapId ~= slot6 then
+			setActive(slot4, true)
+			onButton(slot0, slot4, function ()
+				uv0:_SkipObj(uv1)
+			end, SFX_PANEL)
+		end
 	end
 end
 
@@ -354,16 +433,28 @@ slot0.FlushDetail = function(slot0)
 			slot0:UpdateLocation(slot0.finishedTargetLocTF, slot0.showVO)
 		end
 
+		slot4 = slot0.targetBtnUIList
+
+		slot4:align(#slot0.showTargets + (slot3 and 1 or 0))
+
 		slot0.showAwards = slot0.showVO:GetAwards()
 
 		slot0.awardUIList:align(#slot0.showAwards)
-		setActive(slot0.traceBtn, slot0.showVO.id ~= slot0.trackTaskId)
+
+		slot4 = slot0.showVO:GetType() == IslandTaskType.MAIN
+		slot5 = slot4 and IslandTaskTrackCard.TYPES.MAIN or IslandTaskTrackCard.TYPES.OTHER
+
+		setActive(slot0.traceBtn, not slot4 and slot0.showVO.id ~= slot0.trackTaskId)
 		onButton(slot0, slot0.traceBtn, function ()
-			uv0:emit(IslandMediator.ON_SET_TRACE_ID, uv0.showVO.id)
+			uv0:emit(IslandMediator.ON_SET_TRACE_ID, uv0.showVO.id, uv1)
 		end, SFX_PANEL)
-		setActive(slot0.tracedBtn, slot0.showVO.id == slot0.trackTaskId)
+		setActive(slot0.tracedBtn, slot4 or slot0.showVO.id == slot0.trackTaskId)
 		onButton(slot0, slot0.tracedBtn, function ()
-			uv0:emit(IslandMediator.ON_SET_TRACE_ID, 0)
+			if uv0 then
+				return
+			end
+
+			uv1:emit(IslandMediator.ON_SET_TRACE_ID, 0, uv2)
 		end, SFX_PANEL)
 	end
 end

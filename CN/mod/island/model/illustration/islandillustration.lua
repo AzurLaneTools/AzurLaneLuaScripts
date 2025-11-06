@@ -17,7 +17,9 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.isTip = false
 	slot0.basePoint = 0
 	slot0.levelPoints = 0
+	slot0.levelPointGotData = {}
 	slot0.starPoints = 0
+	slot0.starPointGotData = {}
 end
 
 slot0.bindConfigTable = function(slot0)
@@ -115,15 +117,19 @@ end
 slot0.SetPointData = function(slot0, slot1)
 	slot0.basePoint = slot1.base
 	slot0.levelPoints = 0
+	slot0.levelPointGotData = {}
 
 	for slot5, slot6 in ipairs(slot1.lv_list) do
 		slot0.levelPoints = slot0.levelPoints + slot6.value
+		slot0.levelPointGotData[slot6.lv] = slot6.value
 	end
 
 	slot0.starPoints = 0
+	slot0.starPointGotData = {}
 
 	for slot5, slot6 in ipairs(slot1.star_list) do
 		slot0.starPoints = slot0.starPoints + slot6.value
+		slot0.starPointGotData[slot6.lv] = slot6.value
 	end
 end
 

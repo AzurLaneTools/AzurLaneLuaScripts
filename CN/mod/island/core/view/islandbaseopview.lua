@@ -21,10 +21,18 @@ slot0.SetUIParent = function(slot0, slot1)
 end
 
 slot0.TryDisable = function(slot0, slot1)
+	if slot0.exiting then
+		return
+	end
+
 	slot0.enableCnt = slot0.enableCnt - 1
 
 	if slot0.enableCnt == 0 then
+		slot0.exiting = true
+
 		slot0:HideUI(slot1, function ()
+			uv0.exiting = false
+
 			uv0:OnDisable()
 		end)
 	end

@@ -29,7 +29,7 @@ slot0.execute = function(slot0, slot1)
 				isUnlockSkill = slot6
 			})
 			IslandBookHelper.OnShipUpgradeOrBreakOut(uv2)
-			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandShipBreakout(uv2))
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandShipBreakout(uv2, uv0:GetBreakLevel()))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

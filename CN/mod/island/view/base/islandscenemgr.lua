@@ -326,15 +326,9 @@ slot0.IsSceneType = function(slot0, slot1)
 end
 
 slot0.OnBackPressed = function(slot0)
-	for slot4 = #slot0.noStatePages, 1, -1 do
-		slot0:ClosePage(slot0.noStatePages[slot4].class)
-
-		return true
-	end
-
-	for slot4 = #slot0.pages, 1, -1 do
-		if slot0.pages[slot4]:CanEsc() then
-			slot0:ClosePage(slot5.class)
+	if slot0.stack[#slot0.stack] then
+		if slot0:GetPage(slot1.class) and slot2:CanEsc() then
+			slot2:Hide()
 		end
 
 		return true

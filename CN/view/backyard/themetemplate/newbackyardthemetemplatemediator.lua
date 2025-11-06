@@ -224,7 +224,8 @@ slot0.handleNotification = function(slot0, slot1)
 					backyardView = true,
 					friend = slot3.list[1],
 					pos = slot0.contextData.pos,
-					msg = slot0.contextData.themeName
+					msg = slot0.contextData.themeName,
+					groupName = slot0.viewComponent:getGroupName()
 				}
 			}))
 

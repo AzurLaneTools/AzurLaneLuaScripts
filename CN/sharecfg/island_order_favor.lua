@@ -23,7 +23,7 @@ pg.island_order_favor = {
 		}
 	},
 	{
-		exp = 100,
+		exp = 50,
 		level = 3,
 		award_display = {
 			{
@@ -34,7 +34,7 @@ pg.island_order_favor = {
 		}
 	},
 	{
-		exp = 200,
+		exp = 100,
 		level = 4,
 		award_display = {
 			{
@@ -45,7 +45,7 @@ pg.island_order_favor = {
 		}
 	},
 	{
-		exp = 300,
+		exp = 100,
 		level = 5,
 		award_display = {
 			{
@@ -56,7 +56,7 @@ pg.island_order_favor = {
 		}
 	},
 	{
-		exp = 400,
+		exp = 100,
 		level = 6,
 		award_display = {
 			{
@@ -67,7 +67,7 @@ pg.island_order_favor = {
 		}
 	},
 	{
-		exp = 500,
+		exp = 100,
 		level = 7,
 		award_display = {
 			{
@@ -78,7 +78,7 @@ pg.island_order_favor = {
 		}
 	},
 	{
-		exp = 600,
+		exp = 100,
 		level = 8,
 		award_display = {
 			{
@@ -89,7 +89,7 @@ pg.island_order_favor = {
 		}
 	},
 	{
-		exp = 800,
+		exp = 200,
 		level = 9,
 		award_display = {
 			{
@@ -100,7 +100,7 @@ pg.island_order_favor = {
 		}
 	},
 	{
-		exp = 1000,
+		exp = 200,
 		level = 10,
 		award_display = {
 			{

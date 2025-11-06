@@ -346,6 +346,22 @@ slot0.OnHide = function(slot0)
 	end
 end
 
+slot0.CanEsc = function(slot0)
+	if slot0.childPage then
+		slot1 = slot0.childPage
+
+		slot1:CheckInReturn(function ()
+			uv0:Hide()
+
+			uv0.childPage = nil
+		end)
+
+		return false
+	else
+		return true
+	end
+end
+
 slot0.OnCharLoaded = function(slot0, slot1)
 	if slot0.shipDressHelper then
 		slot0.shipDressHelper:OnRoleLoaded(slot0.role.transform, slot1)

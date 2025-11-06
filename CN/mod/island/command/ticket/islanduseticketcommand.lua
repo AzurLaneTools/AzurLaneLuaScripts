@@ -71,7 +71,7 @@ slot0.Send = function(slot0, slot1, slot2, slot3, slot4)
 	}, 21424, function (slot0)
 		if slot0.result == 0 then
 			slot5 = function()
-				getProxy(IslandProxy):GetIsland():GetOrderAgency():GetShipOrderSlot(uv0):AddReduceReloadingTime(uv1)
+				getProxy(IslandProxy):GetIsland():GetOrderAgency():ReduceNextManualReloadDelegateTime(uv0)
 			end
 
 			switch(uv0, {

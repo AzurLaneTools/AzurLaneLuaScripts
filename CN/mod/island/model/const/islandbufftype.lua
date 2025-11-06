@@ -41,4 +41,8 @@ slot0.GetLimitRestaurantTypes = function()
 	}
 end
 
+slot0.IsLimitRestaurantType = function(slot0)
+	return table.contains(uv0.GetLimitRestaurantTypes(), slot0)
+end
+
 return slot0

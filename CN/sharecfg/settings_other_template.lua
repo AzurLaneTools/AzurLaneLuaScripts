@@ -224,13 +224,22 @@ pg.settings_other_template = {
 		desc = "功能开启后，他人问访问您的岛屿将弹框通知"
 	},
 	{
-		default = 1,
+		default = 0,
 		name = "GRAPHI_API_SWITCH_OPTION",
 		alignment = 0,
 		type = 3,
 		id = 24,
 		title = "渲染兼容模式",
 		desc = "功能开启后，可以解决部分机型在默认模式下会出现黑屏的问题"
+	},
+	{
+		default = 1,
+		name = "REMOVE_LOW_MOOD",
+		alignment = 0,
+		type = 0,
+		id = 25,
+		title = "自动编队时不编入低心情角色",
+		desc = "功能开启后，使用推荐功能自动编队时，不再编入低心情角色"
 	},
 	all = {
 		1,
@@ -256,6 +265,7 @@ pg.settings_other_template = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

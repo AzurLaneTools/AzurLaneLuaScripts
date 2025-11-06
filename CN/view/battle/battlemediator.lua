@@ -37,7 +37,8 @@ slot0.register = function(slot0)
 			actId = uv0.contextData.actId,
 			mode = uv0.contextData.mode,
 			puzzleCombatID = uv0.contextData.puzzleCombatID,
-			useVariableTicket = uv0.contextData.useVariableTicket
+			useVariableTicket = uv0.contextData.useVariableTicket,
+			isSimulate = uv0.contextData.isSimulate
 		})
 	end)
 	slot0:bind(uv0.ON_AUTO, function (slot0, slot1)
@@ -787,8 +788,7 @@ slot0.GenBattleData = function(slot0)
 		slot7 = nowWorld():GetBossProxy()
 		slot8 = slot0.contextData.bossId
 		slot9 = slot7:GetFleet(slot8)
-
-		assert(slot7:GetBossById(slot8), slot8)
+		slot10 = slot7:GetBossById(slot8)
 
 		if slot0.contextData.hpRate then
 			slot1.RepressInfo = {
@@ -831,7 +831,7 @@ slot0.GenBattleData = function(slot0)
 
 		slot1.MapAidSkills = {}
 
-		if slot10:IsSelf() then
+		if slot10 and slot10:IsSelf() then
 			slot17, slot18, slot19 = slot7.GetSupportValue()
 
 			if slot17 then

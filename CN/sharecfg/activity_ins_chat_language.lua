@@ -6332,7 +6332,191 @@ pg.activity_ins_chat_language = setmetatable({
 		6329,
 		6330,
 		6331,
-		6332
+		6332,
+		6333,
+		6334,
+		6335,
+		6336,
+		6337,
+		6338,
+		6339,
+		6340,
+		6341,
+		6342,
+		6343,
+		6344,
+		6345,
+		6346,
+		6347,
+		6348,
+		6349,
+		6350,
+		6351,
+		6352,
+		6353,
+		6354,
+		6355,
+		6356,
+		6357,
+		6358,
+		6359,
+		6360,
+		6361,
+		6362,
+		6363,
+		6364,
+		6365,
+		6366,
+		6367,
+		6368,
+		6369,
+		6370,
+		6371,
+		6372,
+		6373,
+		6374,
+		6375,
+		6376,
+		6377,
+		6378,
+		6379,
+		6380,
+		6381,
+		6382,
+		6383,
+		6384,
+		6385,
+		6386,
+		6387,
+		6388,
+		6389,
+		6390,
+		6391,
+		6392,
+		6393,
+		6394,
+		6395,
+		6396,
+		6397,
+		6398,
+		6399,
+		6400,
+		6401,
+		6402,
+		6403,
+		6404,
+		6405,
+		6406,
+		6407,
+		6408,
+		6409,
+		6410,
+		6411,
+		6412,
+		6413,
+		6414,
+		6415,
+		6416,
+		6417,
+		6418,
+		6419,
+		6420,
+		6421,
+		6422,
+		6423,
+		6424,
+		6425,
+		6426,
+		6427,
+		6428,
+		6429,
+		6430,
+		6431,
+		6432,
+		6433,
+		6434,
+		6435,
+		6436,
+		6437,
+		6438,
+		6439,
+		6440,
+		6441,
+		6442,
+		6443,
+		6444,
+		6445,
+		6446,
+		6447,
+		6448,
+		6449,
+		6450,
+		6451,
+		6452,
+		6453,
+		6454,
+		6455,
+		6456,
+		6457,
+		6458,
+		6459,
+		6460,
+		6461,
+		6462,
+		6463,
+		6464,
+		6465,
+		6466,
+		6467,
+		6468,
+		6469,
+		6470,
+		6471,
+		6472,
+		6473,
+		6474,
+		6475,
+		6476,
+		6477,
+		6478,
+		6479,
+		6480,
+		6481,
+		6482,
+		6483,
+		6484,
+		6485,
+		6486,
+		6487,
+		6488,
+		6489,
+		6490,
+		6491,
+		6492,
+		6493,
+		6494,
+		6495,
+		6496,
+		6497,
+		6498,
+		6499,
+		6500,
+		6501,
+		6502,
+		6503,
+		6504,
+		6505,
+		6506,
+		6507,
+		6508,
+		6509,
+		6510,
+		6511,
+		6512,
+		6513,
+		6514,
+		6515,
+		6516
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -62716,5 +62900,1649 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 6332,
 		flag = 5
+	},
+	[6333] = {
+		param = "指挥官，救救——",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6333,
+		flag = 0
+	},
+	[6334] = {
+		param = "我的通讯器亮一整晚了！也响一整晚了！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6334,
+		flag = 0
+	},
+	[6335] = {
+		param = "海量的留言和讯息正在疯狂涌入脑海——完全回不过来了！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6335,
+		flag = 0
+	},
+	[6336] = {
+		param = "谁能想到我当初随手开创的解忧账号，竟然能发展到如今这种规模……",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6336,
+		flag = 0
+	},
+	[6337] = {
+		param = "这该怎么办才好啦——",
+		ship_group = 10324,
+		type = 1,
+		id = 6337,
+		flag = 0,
+		option = {
+			{
+				1,
+				"优先处理重要的消息"
+			},
+			{
+				2,
+				"按照时间顺序回复"
+			}
+		}
+	},
+	[6338] = {
+		param = "可以优先处理重要的消息",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6338,
+		flag = 1
+	},
+	[6339] = {
+		param = "可以按照时间顺序回复",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6339,
+		flag = 2
+	},
+	[6340] = {
+		param = "虽然这是一个解决办法啦，但我收到的留言实在太多了！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6340,
+		flag = 0
+	},
+	[6341] = {
+		param = "明明一开始只是时不时收到几个问题",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6341,
+		flag = 0
+	},
+	[6342] = {
+		param = "但随着注意到这个账号的人越来越多……问题也像滚雪球一样扑过来了！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6342,
+		flag = 0
+	},
+	[6343] = {
+		param = "我引以为傲的手速~完全跟不上了啊~！！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6343,
+		flag = 0
+	},
+	[6344] = {
+		param = "但是！既然已经知晓了大家的烦恼，放任不管什么的也是不可能的……",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6344,
+		flag = 0
+	},
+	[6345] = {
+		param = "所以所以！指挥官，帮我想想办法吧~！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6345,
+		flag = 0
+	},
+	[6346] = {
+		param = "再这样下去的话，我就只能——",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6346,
+		flag = 0
+	},
+	[6347] = {
+		param = "5",
+		ship_group = 10324,
+		type = 4,
+		id = 6347,
+		flag = 0,
+		option = {
+			{
+				3,
+				"大家的烦恼是什么呢？"
+			}
+		}
+	},
+	[6348] = {
+		param = "大家的烦恼是什么呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6348,
+		flag = 3
+	},
+	[6349] = {
+		param = "虽然不能把具体内容透露给指挥官，不过大体上就是——",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6349,
+		flag = 3
+	},
+	[6350] = {
+		param = "“早上中午晚上吃什么？”",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6350,
+		flag = 3
+	},
+	[6351] = {
+		param = "“触发姐姐的严酷家教后该如何自救？”",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6351,
+		flag = 3
+	},
+	[6352] = {
+		param = "嘿嘿，当然啦，还有和指挥官你有关的话题哦~",
+		ship_group = 10324,
+		type = 1,
+		id = 6352,
+		flag = 3,
+		option = {
+			{
+				4,
+				"餐点的选择确实值得困扰"
+			},
+			{
+				5,
+				"家庭矛盾确实要及时介入"
+			},
+			{
+				6,
+				"怎么还有我的事？"
+			}
+		}
+	},
+	[6353] = {
+		param = "餐点的选择确实值得困扰",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6353,
+		flag = 4
+	},
+	[6354] = {
+		param = "家庭矛盾确实要及时介入",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6354,
+		flag = 5
+	},
+	[6355] = {
+		param = "怎么还有我的事？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6355,
+		flag = 6
+	},
+	[6356] = {
+		param = "啊哈哈，基本就是这些吧~",
+		ship_group = 10324,
+		type = 1,
+		id = 6356,
+		flag = 0,
+		option = {
+			{
+				7,
+				"听起来，大家的烦恼其实源于……"
+			}
+		}
+	},
+	[6357] = {
+		param = "听起来，大家的烦恼其实源于缺乏交流和参谋？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6357,
+		flag = 7
+	},
+	[6358] = {
+		param = "那你可以成立一个谈心论坛，创建不同的主题模块，让大家畅所欲言",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6358,
+		flag = 7
+	},
+	[6359] = {
+		param = "……啊！我明白了！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6359,
+		flag = 7
+	},
+	[6360] = {
+		param = "这样的话，一些简单的烦恼就可以自然地在讨论中解决了！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6360,
+		flag = 7
+	},
+	[6361] = {
+		param = "要是遇到了难办的事情，我也可以随时介入，提供帮助！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6361,
+		flag = 7
+	},
+	[6362] = {
+		param = "指挥官真是天才啊！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6362,
+		flag = 7
+	},
+	[6363] = {
+		param = "不过现在能总结的回复内容还不够……",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6363,
+		flag = 7
+	},
+	[6364] = {
+		param = "要不再设计一个问卷，归纳总结一下大家烦恼的方向吧！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6364,
+		flag = 7
+	},
+	[6365] = {
+		param = "很好~流程就这么轻松敲定了！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6365,
+		flag = 7
+	},
+	[6366] = {
+		param = "多谢指挥官啦~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6366,
+		flag = 7
+	},
+	[6367] = {
+		param = "指挥官，我给你准备了一套特别问卷！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6367,
+		flag = 0
+	},
+	[6368] = {
+		param = "有空的话来做做吧？",
+		ship_group = 10324,
+		type = 1,
+		id = 6368,
+		flag = 0,
+		option = {
+			{
+				1,
+				"特别问卷？"
+			}
+		}
+	},
+	[6369] = {
+		param = "特别问卷？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6369,
+		flag = 1
+	},
+	[6370] = {
+		param = "是上次说的烦恼咨询问卷么，打算从我这里取材了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6370,
+		flag = 1
+	},
+	[6371] = {
+		param = "咳咳，不是烦恼问卷啦！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6371,
+		flag = 1
+	},
+	[6372] = {
+		param = "是指挥官特供版关怀问卷哦，我选了好久的题呢~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6372,
+		flag = 1
+	},
+	[6373] = {
+		param = "问卷名都设计了好几版，最终的命名是——",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6373,
+		flag = 1
+	},
+	[6374] = {
+		param = "《关于指挥官本周精神状态的非强制性健康关怀问卷》",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6374,
+		flag = 1
+	},
+	[6375] = {
+		param = "怎么样~第一眼看上去就很吸引人吧！",
+		ship_group = 10324,
+		type = 1,
+		id = 6375,
+		flag = 1,
+		option = {
+			{
+				2,
+				"……长难句"
+			}
+		}
+	},
+	[6376] = {
+		param = "……是想用长难句把人绕晕么",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6376,
+		flag = 2
+	},
+	[6377] = {
+		param = "我有预感，这个问卷里的问题大概率都不正经",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6377,
+		flag = 2
+	},
+	[6378] = {
+		param = "哼哼，并非不正经，这些问题都是精挑细选出来的~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6378,
+		flag = 2
+	},
+	[6379] = {
+		param = "比如“你是否认为咖啡因摄入量与睡眠时入梦有关”",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6379,
+		flag = 2
+	},
+	[6380] = {
+		param = "“你是否认为排球和棒球运动有助于身心健康”等等",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6380,
+		flag = 2
+	},
+	[6381] = {
+		param = "这些都是关怀睡眠和健康的，很正经的对吧！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6381,
+		flag = 2
+	},
+	[6382] = {
+		param = "像这么正经的题，我们还有100道哦~",
+		ship_group = 10324,
+		type = 1,
+		id = 6382,
+		flag = 2,
+		option = {
+			{
+				3,
+				"……要么换个更高效的处理形式？"
+			}
+		}
+	},
+	[6383] = {
+		param = "……要么换个更高效的处理形式？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6383,
+		flag = 3
+	},
+	[6384] = {
+		param = "也是哦！那我就挑选其中最重要的问题，直接进行一波我问你答吧！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6384,
+		flag = 3
+	},
+	[6385] = {
+		param = "那么请听题——",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6385,
+		flag = 3
+	},
+	[6386] = {
+		param = "“你是否认为喝咖啡有助于提神？”",
+		ship_group = 10324,
+		type = 1,
+		id = 6386,
+		flag = 3,
+		option = {
+			{
+				4,
+				"对"
+			}
+		}
+	},
+	[6387] = {
+		param = "对",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6387,
+		flag = 4
+	},
+	[6388] = {
+		param = "“你是否认为运动有助于提高体力？”",
+		ship_group = 10324,
+		type = 1,
+		id = 6388,
+		flag = 4,
+		option = {
+			{
+				5,
+				"对"
+			}
+		}
+	},
+	[6389] = {
+		param = "对",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6389,
+		flag = 5
+	},
+	[6390] = {
+		param = "“你是否认为棒球排球等运动受人欢迎？”",
+		ship_group = 10324,
+		type = 1,
+		id = 6390,
+		flag = 5,
+		option = {
+			{
+				6,
+				"对"
+			}
+		}
+	},
+	[6391] = {
+		param = "对",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6391,
+		flag = 6
+	},
+	[6392] = {
+		param = "“你是否认为体操服是你的最爱？”",
+		ship_group = 10324,
+		type = 1,
+		id = 6392,
+		flag = 6,
+		option = {
+			{
+				7,
+				"对"
+			},
+			{
+				8,
+				"不对"
+			}
+		}
+	},
+	[6393] = {
+		param = "对",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6393,
+		flag = 7
+	},
+	[6394] = {
+		param = "等等，哪里不对！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6394,
+		flag = 7
+	},
+	[6395] = {
+		param = "……等等，不对！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6395,
+		flag = 8
+	},
+	[6396] = {
+		param = "啊哈哈，指挥官~我理解你的意思了哦~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6396,
+		flag = 0
+	},
+	[6397] = {
+		param = "正好我最近新买了一套体操服哦，明天穿给指挥官看吧~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6397,
+		flag = 0
+	},
+	[6398] = {
+		param = "我相信指挥官肯定会好好评价一番的，对吧！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6398,
+		flag = 0
+	},
+	[6399] = {
+		param = "224",
+		ship_group = 10324,
+		option = "",
+		type = 4,
+		id = 6399,
+		flag = 0
+	},
+	[6400] = {
+		param = "指挥官~记得明天是什么日子吗~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6400,
+		flag = 0
+	},
+	[6401] = {
+		param = "提示词是——“约定”！",
+		ship_group = 10324,
+		type = 1,
+		id = 6401,
+		flag = 0,
+		option = {
+			{
+				1,
+				"我记得……"
+			}
+		}
+	},
+	[6402] = {
+		param = "我记得……是约定好一起外出的日子吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6402,
+		flag = 1
+	},
+	[6403] = {
+		param = "不过目的地直到现在还没告诉我",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6403,
+		flag = 1
+	},
+	[6404] = {
+		param = "嘿嘿~期待得越久，公布答案的那一刻就越惊喜嘛~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6404,
+		flag = 1
+	},
+	[6405] = {
+		param = "我可是规划了很久，才准备好了这个——特别运动计划！",
+		ship_group = 10324,
+		type = 1,
+		id = 6405,
+		flag = 1,
+		option = {
+			{
+				2,
+				"运动……"
+			}
+		}
+	},
+	[6406] = {
+		param = "运动……是棒球？排球？还是其他户外运动设施？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6406,
+		flag = 2
+	},
+	[6407] = {
+		param = "nonono~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6407,
+		flag = 2
+	},
+	[6408] = {
+		param = "全都猜错啦~我们这次要去的目的地是……",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6408,
+		flag = 2
+	},
+	[6409] = {
+		param = "游、戏、中、心！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6409,
+		flag = 2
+	},
+	[6410] = {
+		param = "32",
+		ship_group = 10324,
+		type = 4,
+		id = 6410,
+		flag = 2,
+		option = {
+			{
+				3,
+				"游戏也是一种运动？"
+			},
+			{
+				4,
+				"游戏未尝不是一种运动呢"
+			}
+		}
+	},
+	[6411] = {
+		param = "游戏也是一种运动？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6411,
+		flag = 3
+	},
+	[6412] = {
+		param = "游戏未尝不是一种运动呢",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6412,
+		flag = 4
+	},
+	[6413] = {
+		param = "嗯嗯，我们可以去抓娃娃~玩跳舞机~试试最新的VR设备~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6413,
+		flag = 0
+	},
+	[6414] = {
+		param = "就连体验结束后的去处我也找好啦，是一家很有名的家庭餐厅哦~",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6414,
+		flag = 0
+	},
+	[6415] = {
+		param = "运动后的一顿美餐，听起来就很棒不是吗！",
+		ship_group = 10324,
+		type = 1,
+		id = 6415,
+		flag = 0,
+		option = {
+			{
+				5,
+				"单论计划确实不错，但……"
+			}
+		}
+	},
+	[6416] = {
+		param = "单论计划确实不错，但……运动呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6416,
+		flag = 5
+	},
+	[6417] = {
+		param = "跳舞机可以锻炼反应力和灵活度",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6417,
+		flag = 5
+	},
+	[6418] = {
+		param = "抓娃娃机锻炼手眼协调、专注力和耐力",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6418,
+		flag = 5
+	},
+	[6419] = {
+		param = "VR游戏机则可以提供全方位的身体活动！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6419,
+		flag = 5
+	},
+	[6420] = {
+		param = "最重要的是",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6420,
+		flag = 5
+	},
+	[6421] = {
+		param = "只要是和指挥官一起约会，我的心率绝对会突破150！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6421,
+		flag = 5
+	},
+	[6422] = {
+		param = "这怎么不算在剧烈运动呢~！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6422,
+		flag = 5
+	},
+	[6423] = {
+		param = "所以这场约会……",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6423,
+		flag = 5
+	},
+	[6424] = {
+		param = "啊不是",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6424,
+		flag = 5
+	},
+	[6425] = {
+		param = "所以这场运动的规划是绝对靠谱的！！！",
+		ship_group = 10324,
+		option = "",
+		type = 1,
+		id = 6425,
+		flag = 5
+	},
+	[6426] = {
+		param = "239",
+		ship_group = 10324,
+		option = "",
+		type = 4,
+		id = 6426,
+		flag = 5
+	},
+	[6427] = {
+		param = "指挥官……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6427,
+		flag = 0
+	},
+	[6428] = {
+		param = "啾信的ID长度限制，真是个令人困扰的设计",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6428,
+		flag = 0
+	},
+	[6429] = {
+		param = "我明明想到了一个非常合适的名字，但用不了……",
+		ship_group = 80503,
+		type = 1,
+		id = 6429,
+		flag = 0,
+		option = {
+			{
+				1,
+				"想取什么名字？"
+			}
+		}
+	},
+	[6430] = {
+		param = "想取什么名字？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6430,
+		flag = 1
+	},
+	[6431] = {
+		param = "「属于鸢尾的圣迹·人类难以企及之幻梦·圣座守护·指挥官的守护之剑·战列舰阿尔萨斯」",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6431,
+		flag = 1
+	},
+	[6432] = {
+		param = "既能体现鸢尾的荣光、又能表明守护指挥官之职责——",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6432,
+		flag = 1
+	},
+	[6433] = {
+		param = "真是一个极好的名字啊！",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6433,
+		flag = 1
+	},
+	[6434] = {
+		param = "可惜显示不全",
+		ship_group = 80503,
+		type = 1,
+		id = 6434,
+		flag = 1,
+		option = {
+			{
+				2,
+				"不要气馁"
+			},
+			{
+				3,
+				"解决问题的方式不止一种"
+			}
+		}
+	},
+	[6435] = {
+		param = "不要气馁，想想还有没有别的办法？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6435,
+		flag = 2
+	},
+	[6436] = {
+		param = "解决问题的方式不止一种，再想想？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6436,
+		flag = 3
+	},
+	[6437] = {
+		param = "想想么……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6437,
+		flag = 0
+	},
+	[6438] = {
+		param = "等等，阿尔萨斯明白该怎么做了",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6438,
+		flag = 0
+	},
+	[6439] = {
+		param = "先试一下效果吧！",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6439,
+		flag = 0
+	},
+	[6440] = {
+		param = "用户“属于鸢尾的圣迹”已加入频道",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6440,
+		flag = 0
+	},
+	[6441] = {
+		param = "用户“人类难以企及之幻梦”已加入频道",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6441,
+		flag = 0
+	},
+	[6442] = {
+		param = "用户“圣座守护”已加入频道",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6442,
+		flag = 0
+	},
+	[6443] = {
+		param = "用户“指挥官的守护之剑”已加入频道",
+		ship_group = 1,
+		type = 5,
+		id = 6443,
+		flag = 0,
+		option = {
+			{
+				4,
+				"……来了些不得了的东西"
+			}
+		}
+	},
+	[6444] = {
+		param = "……我们的私人聊天频道里好像进来了一些不得了的东西",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6444,
+		flag = 4
+	},
+	[6445] = {
+		param = "就是这样~",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6445,
+		flag = 4
+	},
+	[6446] = {
+		param = "接下来只需要再注册几个阿尔萨斯的小号，换上名字——",
+		ship_group = 80503,
+		type = 1,
+		id = 6446,
+		flag = 4,
+		option = {
+			{
+				5,
+				"其实，只有“阿尔萨斯”也很可爱"
+			}
+		}
+	},
+	[6447] = {
+		param = "其实，只有“阿尔萨斯”也很可爱",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6447,
+		flag = 5
+	},
+	[6448] = {
+		param = "指挥官说阿尔萨斯……可爱可爱可爱可爱……！！",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6448,
+		flag = 5
+	},
+	[6449] = {
+		param = "36",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6449,
+		flag = 5
+	},
+	[6450] = {
+		param = "用户“属于鸢尾的圣迹”已退出频道",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6450,
+		flag = 5
+	},
+	[6451] = {
+		param = "用户“人类难以企及之幻梦”已退出频道",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6451,
+		flag = 5
+	},
+	[6452] = {
+		param = "用户“圣座守护”已退出频道",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6452,
+		flag = 5
+	},
+	[6453] = {
+		param = "用户“指挥官的守护之剑”已退出频道",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6453,
+		flag = 5
+	},
+	[6454] = {
+		param = "指挥官，继续吧！可爱的阿尔萨斯就在这里哦~",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6454,
+		flag = 5
+	},
+	[6455] = {
+		param = "指挥官，属于鸢尾的圣迹……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6455,
+		flag = 0
+	},
+	[6456] = {
+		param = "可爱的阿尔萨斯，向您致意",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6456,
+		flag = 0
+	},
+	[6457] = {
+		param = "25",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6457,
+		flag = 0
+	},
+	[6458] = {
+		param = "啊！阿尔萨斯不小心把心声发出来了……！",
+		ship_group = 80503,
+		type = 1,
+		id = 6458,
+		flag = 0,
+		option = {
+			{
+				1,
+				"阿尔萨斯是很可爱"
+			},
+			{
+				2,
+				"这个自称很合适"
+			}
+		}
+	},
+	[6459] = {
+		param = "阿尔萨斯是很可爱",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6459,
+		flag = 1
+	},
+	[6460] = {
+		param = "这个自称很合适",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6460,
+		flag = 2
+	},
+	[6461] = {
+		param = "啊……不行了……明明才刚开始对话，又开始发烫了……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6461,
+		flag = 0
+	},
+	[6462] = {
+		param = "怎么办，指挥官，再这样继续下去的话，会坏掉的……",
+		ship_group = 80503,
+		type = 1,
+		id = 6462,
+		flag = 0,
+		option = {
+			{
+				3,
+				"设备发烫？"
+			}
+		}
+	},
+	[6463] = {
+		param = "设备发烫？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6463,
+		flag = 3
+	},
+	[6464] = {
+		param = "那就先把保护壳去掉吧，有助于散热",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6464,
+		flag = 3
+	},
+	[6465] = {
+		param = "欸——去掉保护壳……现在吗……？",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6465,
+		flag = 3
+	},
+	[6466] = {
+		param = "那……阿尔萨斯试试……可能需要点时间，指挥官等我一会",
+		ship_group = 80503,
+		type = 1,
+		id = 6466,
+		flag = 3,
+		option = {
+			{
+				4,
+				"怎么样，好点了么？"
+			}
+		}
+	},
+	[6467] = {
+		param = "怎么样，好点了么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6467,
+		flag = 4
+	},
+	[6468] = {
+		param = "唔……刚去掉的时候，温度确实降了很多……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6468,
+		flag = 4
+	},
+	[6469] = {
+		param = "可一看到指挥官发的消息，阿尔萨斯……阿尔萨斯感觉更热了……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6469,
+		flag = 4
+	},
+	[6470] = {
+		param = "指挥官……快救救阿尔萨斯……！",
+		ship_group = 80503,
+		type = 1,
+		id = 6470,
+		flag = 4,
+		option = {
+			{
+				5,
+				"只是接收消息就会发热？"
+			}
+		}
+	},
+	[6471] = {
+		param = "只是接收消息就会发热？问题有点严重啊……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6471,
+		flag = 5
+	},
+	[6472] = {
+		param = "看来不能只靠自然散热，还得外置一套水冷装置",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6472,
+		flag = 5
+	},
+	[6473] = {
+		param = "外……外置水冷……？",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6473,
+		flag = 5
+	},
+	[6474] = {
+		param = "阿尔萨斯明白了！房间里……正好有……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6474,
+		flag = 5
+	},
+	[6475] = {
+		param = "指挥官请稍等……阿尔萨斯这就去准备……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6475,
+		flag = 5
+	},
+	[6476] = {
+		param = "8",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6476,
+		flag = 5
+	},
+	[6477] = {
+		param = "指挥官……阿尔萨斯已经按照指示……进入外置水冷装置了……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6477,
+		flag = 5
+	},
+	[6478] = {
+		param = "虽然确实有效果……但还是感觉好热……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6478,
+		flag = 5
+	},
+	[6479] = {
+		param = "特别是和指挥官说话的时候……身体就会变得很奇怪……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6479,
+		flag = 5
+	},
+	[6480] = {
+		param = "冷却液……好像也要沸腾了……",
+		ship_group = 80503,
+		type = 1,
+		id = 6480,
+		flag = 5,
+		option = {
+			{
+				6,
+				"你说的“水冷装置”是什么？"
+			},
+			{
+				7,
+				"你现在在哪？"
+			}
+		}
+	},
+	[6481] = {
+		param = "你说的“水冷装置”是什么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6481,
+		flag = 6
+	},
+	[6482] = {
+		param = "你现在在哪？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6482,
+		flag = 7
+	},
+	[6483] = {
+		param = "欸？就像指挥官建议的那样……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6483,
+		flag = 0
+	},
+	[6484] = {
+		param = "阿尔萨斯现在正泡在浴缸里……和指挥官发消息……",
+		ship_group = 80503,
+		type = 1,
+		id = 6484,
+		flag = 0,
+		option = {
+			{
+				8,
+				"……"
+			}
+		}
+	},
+	[6485] = {
+		param = "……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6485,
+		flag = 8
+	},
+	[6486] = {
+		param = "我一直以为是你的手机在发热……不过这样好像也没问题",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6486,
+		flag = 8
+	},
+	[6487] = {
+		param = "41",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6487,
+		flag = 8
+	},
+	[6488] = {
+		param = "用户'80503'已断开连接",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6488,
+		flag = 8
+	},
+	[6489] = {
+		param = "指挥官~在吗？",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6489,
+		flag = 0
+	},
+	[6490] = {
+		param = "嘿嘿，阿尔萨斯刚换了新手机！明石说超级耐热~",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6490,
+		flag = 0
+	},
+	[6491] = {
+		param = "绝对不会再像上次一样被轻易烫坏了！",
+		ship_group = 80503,
+		type = 1,
+		id = 6491,
+		flag = 0,
+		option = {
+			{
+				1,
+				"所以上次掉线是手机坏了么"
+			}
+		}
+	},
+	[6492] = {
+		param = "所以上次掉线是手机坏了么",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6492,
+		flag = 1
+	},
+	[6493] = {
+		param = "虽然我还是没懂……明明没有接触，只是发消息你也会升温吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6493,
+		flag = 1
+	},
+	[6494] = {
+		param = "会的会的！因为就算只是文字……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6494,
+		flag = 1
+	},
+	[6495] = {
+		param = "阿尔萨斯也能感觉到，指挥官电波正源源不断地注入到自己的身体里！",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6495,
+		flag = 1
+	},
+	[6496] = {
+		param = "光是想着是在和指挥官聊天，就已经让阿尔萨斯的感情模块热乎乎的了……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6496,
+		flag = 1
+	},
+	[6497] = {
+		param = "62",
+		ship_group = 80503,
+		type = 4,
+		id = 6497,
+		flag = 1,
+		option = {
+			{
+				2,
+				"听起来……"
+			}
+		}
+	},
+	[6498] = {
+		param = "听起来……和手机收发信号的原理好像有点像？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6498,
+		flag = 2
+	},
+	[6499] = {
+		param = "！！！",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6499,
+		flag = 2
+	},
+	[6500] = {
+		param = "难道说……通过手机发消息，也能把阿尔萨斯电波……传进指挥官心里？！",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6500,
+		flag = 2
+	},
+	[6501] = {
+		param = "我、我懂了！",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6501,
+		flag = 2
+	},
+	[6502] = {
+		param = "【阿尔萨斯电波】开始传输！",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6502,
+		flag = 2
+	},
+	[6503] = {
+		param = "【想一直和指挥官说话】",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6503,
+		flag = 2
+	},
+	[6504] = {
+		param = "【想和指挥官待在一起】",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6504,
+		flag = 2
+	},
+	[6505] = {
+		param = "这些话……都能送进指挥官心里吗？",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6505,
+		flag = 2
+	},
+	[6506] = {
+		param = "阿尔萨斯电波、阿尔萨斯的心情……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6506,
+		flag = 2
+	},
+	[6507] = {
+		param = "呜……明明是阿尔萨斯在向指挥官传输电波……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6507,
+		flag = 2
+	},
+	[6508] = {
+		param = "怎么感觉自己的身体也变得……奇怪了……",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6508,
+		flag = 2
+	},
+	[6509] = {
+		param = "哈……哈啊……情感模块……要爆炸了……♡",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6509,
+		flag = 2
+	},
+	[6510] = {
+		param = "得把这份加倍滚烫的心情也传给指挥官才行！",
+		ship_group = 80503,
+		type = 1,
+		id = 6510,
+		flag = 2,
+		option = {
+			{
+				3,
+				"听到了，我也想见你"
+			}
+		}
+	},
+	[6511] = {
+		param = "听到了，我也想见你",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6511,
+		flag = 3
+	},
+	[6512] = {
+		param = "315",
+		ship_group = 80503,
+		option = "",
+		type = 4,
+		id = 6512,
+		flag = 3
+	},
+	[6513] = {
+		param = "用户'80503'已断开连接",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6513,
+		flag = 3
+	},
+	[6514] = {
+		param = "【连接已恢复——】",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 6514,
+		flag = 3
+	},
+	[6515] = {
+		param = "……现在真的可以过去吗？",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6515,
+		flag = 3
+	},
+	[6516] = {
+		param = "阿尔萨斯……阿尔萨斯马上就到！",
+		ship_group = 80503,
+		option = "",
+		type = 1,
+		id = 6516,
+		flag = 3
 	}
 }

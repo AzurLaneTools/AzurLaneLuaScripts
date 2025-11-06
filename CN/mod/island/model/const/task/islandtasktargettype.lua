@@ -22,7 +22,7 @@ slot0.SKIN_COLOR = 20
 slot0.ACHIEVEMENT = 21
 slot0.TASK = 22
 slot0.TASK_TYPE = 23
-slot0.HAND_PROD_PLUS = 24
+slot0.TASK_TYPE_PLUS = 24
 slot0.GIVE_GIFT = 25
 slot0.PROD_ITEM = 26
 slot0.RESTAURANT_SHELVE = 27
@@ -60,6 +60,7 @@ slot0.GetRuntimeTypes = function()
 		uv0.SKIN_COLOR,
 		uv0.ACHIEVEMENT,
 		uv0.TASK,
+		uv0.TASK_TYPE_PLUS,
 		uv0.RESTAURANT_RANK,
 		uv0.STORY,
 		uv0.ACTION,

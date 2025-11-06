@@ -645,7 +645,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 604,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>在炎炎夏日中，一起挥洒汗水的证明</color>\n通过参与「夏日签到」获取（23.08.03 – 23.08.17）",
+		desc = "<color=#ffffff>在炎炎夏日中，一起挥洒汗水的证明</color>",
 		scene = {}
 	},
 	[605] = {

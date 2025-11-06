@@ -3,9 +3,20 @@ slot0 = class("EnterIslandCommand", pm.SimpleCommand)
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.id
+	slot4 = slot2.code
 	slot5 = slot2.reconnect
 
-	if slot2.code and slot4 ~= "" then
+	if getProxy(PlayerProxy):getRawData() then
+		slot8, slot9 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot7.level, IslandMediator.__cname)
+
+		if not slot8 then
+			pg.TipsMgr.GetInstance():ShowTips(slot9)
+
+			return
+		end
+	end
+
+	if slot4 and slot4 ~= "" then
 		slot0:Send(0, slot4, slot5)
 	else
 		slot0:Send(slot3, 0, slot5)

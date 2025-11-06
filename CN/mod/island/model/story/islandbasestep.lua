@@ -70,11 +70,19 @@ slot0.GetUnitData = function(slot0)
 end
 
 slot0.GenUnitData = function(slot0, slot1, slot2)
-	return {
-		id = slot1,
-		type = slot2,
-		key = slot2 .. "_" .. slot1
-	}
+	if slot1 == 0 then
+		return {
+			id = slot1,
+			type = IslandConst.UNIT_LIST_PLAYER,
+			key = IslandConst.UNIT_LIST_PLAYER .. "_" .. slot1
+		}
+	else
+		return {
+			id = slot1,
+			type = slot2,
+			key = slot2 .. "_" .. slot1
+		}
+	end
 end
 
 slot0.GetAnimation = function(slot0)

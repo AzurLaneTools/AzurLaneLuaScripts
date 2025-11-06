@@ -15,6 +15,7 @@ slot0.OnInit = function(slot0, slot1)
 
 	slot0:InitEventData(slot2)
 	slot0:InitRemainCnt(slot2.today_num)
+	slot0:InitEstimateData(slot2.presell_list)
 end
 
 slot0.InitEventData = function(slot0, slot1)
@@ -48,6 +49,20 @@ slot0.InitRemainCnt = function(slot0, slot1)
 
 	for slot6, slot7 in pairs(slot0.restaurants) do
 		slot7:InitRemainCnt(slot2[slot7.id] or 0)
+	end
+end
+
+slot0.InitEstimateData = function(slot0, slot1)
+	slot2 = {}
+	slot3 = ipairs
+	slot4 = slot1 or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot2[slot7.trade_id] = slot7
+	end
+
+	for slot6, slot7 in pairs(slot0.restaurants) do
+		slot7:InitEstimateData(slot2[slot7.id] or {})
 	end
 end
 

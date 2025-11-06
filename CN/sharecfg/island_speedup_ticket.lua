@@ -14,8 +14,8 @@ pg.island_speedup_ticket = {
 		expiration_time = {
 			{
 				2026,
-				1,
-				8
+				2,
+				5
 			},
 			{
 				12,
@@ -77,8 +77,8 @@ pg.island_speedup_ticket = {
 		expiration_time = {
 			{
 				2026,
-				1,
-				8
+				2,
+				5
 			},
 			{
 				12,
@@ -140,8 +140,8 @@ pg.island_speedup_ticket = {
 		expiration_time = {
 			{
 				2026,
-				1,
-				8
+				2,
+				5
 			},
 			{
 				12,

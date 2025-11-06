@@ -6,8 +6,12 @@ slot0.FUTURE_TASK_REMOVED = "IslandTaskAgency.FUTURE_TASK_REMOVED"
 slot0.TASK_FINISH = "IslandTaskAgency.TASK_FINISH"
 
 slot0.OnInit = function(slot0, slot1)
-	slot2 = slot1.task_info or {}
-	slot0.traceId = slot2.focus_id or 0
+	slot0.traceId = (slot1.task_info or {}).focus_id or 0
+
+	if slot0.traceId ~= 0 and pg.island_task[slot0.traceId].type == IslandTaskType.MAIN then
+		slot0.traceId = 0
+	end
+
 	slot0.finishedIds = slot2.task_id_list_finish or {}
 	slot0.tasks = {}
 	slot3 = ipairs
@@ -25,6 +29,8 @@ slot0.OnInit = function(slot0, slot1)
 			slot7:SetEndTime(slot0.randomTaskTimes[slot7.id])
 		end
 	end
+
+	slot0:SetMainTraceId(slot0:GetPriorityMainTraceTaskId())
 
 	slot0.acceptCheckTimestampTags = {}
 end
@@ -50,7 +56,7 @@ slot0.InitFutureTasks = function(slot0, slot1)
 
 	for slot5, slot6 in ipairs(IslandTaskType.GetPermanentTypes()) do
 		underscore.each(underscore.select(pg.island_task.get_id_list_by_type[slot6] or {}, function (slot0)
-			return not uv0.IsServerAcceptType(slot0) and not uv1:CheckMutex(slot0)
+			return pg.island_task[slot0].unlock_time ~= "stop" and not uv0.IsServerAcceptType(slot0) and not uv1:CheckMutex(slot0)
 		end), function (slot0)
 			slot1 = IslandFutureTask.New({
 				task_id = slot0
@@ -86,6 +92,12 @@ end
 
 slot0.IsFinishTask = function(slot0, slot1)
 	return table.contains(slot0.finishedIds, slot1)
+end
+
+slot0.GetFinishCntByType = function(slot0, slot1)
+	return underscore.reduce(slot0.finishedIds, 0, function (slot0, slot1)
+		return slot0 + (pg.island_task[slot1].type == uv0 and 1 or 0)
+	end)
 end
 
 slot0.IsPassId = function(slot0, slot1)
@@ -142,6 +154,22 @@ slot0.GetTraceTask = function(slot0)
 	return slot0.tasks[slot0.traceId]
 end
 
+slot0.SetMainTraceId = function(slot0, slot1)
+	slot0.mainTraceId = slot1
+end
+
+slot0.GetMainTraceId = function(slot0)
+	return slot0.mainTraceId
+end
+
+slot0.GetMainTraceTask = function(slot0)
+	if slot0.mainTraceId == 0 then
+		return nil
+	end
+
+	return slot0.tasks[slot0.mainTraceId]
+end
+
 slot0.GetPriorityTraceTaskId = function(slot0)
 	slot1 = {}
 
@@ -163,7 +191,17 @@ slot0.GetPriorityTraceTaskId = function(slot0)
 		end
 	}))
 
-	return slot1[1] and slot1[1].id
+	return slot1[1] and slot1[1].id or 0
+end
+
+slot0.GetPriorityMainTraceTaskId = function(slot0)
+	for slot4, slot5 in pairs(slot0.tasks) do
+		if slot5:GetType() == IslandTaskType.MAIN then
+			return slot5.id
+		end
+	end
+
+	return 0
 end
 
 slot0.AddTask = function(slot0, slot1)
@@ -339,7 +377,15 @@ end
 slot0.TryAutoTrackTask = function(slot0)
 	if slot0:GetPriorityTraceTaskId() then
 		pg.m02:sendNotification(GAME.ISLAND_SET_TRACE_TASK, {
-			traceId = slot1
+			traceId = slot1,
+			type = IslandTaskTrackCard.TYPES.OTHER
+		})
+	end
+
+	if slot0:GetPriorityMainTraceTaskId() then
+		pg.m02:sendNotification(GAME.ISLAND_SET_TRACE_TASK, {
+			traceId = slot2,
+			type = IslandTaskTrackCard.TYPES.MAIN
 		})
 	end
 end

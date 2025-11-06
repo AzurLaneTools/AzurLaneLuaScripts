@@ -22,6 +22,41 @@ slot0.GetSpeedAddtionTypeByPlaceId = function(slot0)
 	end)
 end
 
+slot0.GetAllAddPercent = function(slot0, slot1, slot2)
+	return uv0.GetAttributeAddPercent(slot0, slot2), uv0.GetPlaceAddPercent(slot0, slot1), uv0.GetSkillAddPercent(slot0, slot1)
+end
+
+slot0.GetAttributeAddPercent = function(slot0, slot1)
+	slot4 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0)
+
+	return pg.island_chara_att[slot4:GetAttrGradeByValue(slot4:GetAttr(IslandShipAttr.ATTRS[slot1]))].effect
+end
+
+slot0.GetPlaceAddPercent = function(slot0, slot1)
+	slot2 = 0
+	slot3 = getProxy(IslandProxy):GetIsland()
+
+	if uv0.GetSpeedAddtionTypeByPlaceId(slot1) then
+		slot2 = slot2 + slot3:GetAblityAgency():GetProductAdditionSpeedByAblityType(slot4)
+	end
+
+	return slot2
+end
+
+slot0.GetSkillAddPercent = function(slot0, slot1)
+	slot5 = 0
+
+	for slot9, slot10 in ipairs(getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0):GetSkill():GetUnlockShipEffectIds()) do
+		if pg.island_buff_template[slot10].buff_type == IslandBuffType.SHIP_PRODUCT_RATIO and underscore.any(slot11.type_use[1], function (slot0)
+			return slot0 == uv0
+		end) then
+			slot5 = slot5 + slot12[2]
+		end
+	end
+
+	return slot5
+end
+
 slot0.CalculateTimeToProductFormula = function(slot0, slot1, slot2, slot3, slot4)
 	slot8 = pg.island_set.base_efficiency.key_value_int
 	slot10 = pg.island_formula[slot1].attribute

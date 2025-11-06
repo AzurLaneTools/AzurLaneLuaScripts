@@ -65,7 +65,15 @@ slot0.ShowTypeColors = {
 	[slot0.SHOW_WEEKLY] = "#46cd92",
 	[slot0.SHOW_ACTIVITY] = "#ffc561"
 }
+slot0.ShowTypeTrackColors = {
+	[slot0.SHOW_MAIN] = "#39bfff",
+	[slot0.SHOW_BRANCH] = "#cb72d1",
+	[slot0.SHOW_DAILY] = "#b29dff",
+	[slot0.SHOW_WEEKLY] = "#8dffc0",
+	[slot0.SHOW_ACTIVITY] = "#ffe18e"
+}
 slot0.EXCLUED_TRACK_TYPES = {
+	slot0.MAIN,
 	slot0.SEASON,
 	slot0.HIDE
 }
@@ -99,7 +107,7 @@ slot0.GetTrackPriority = function(slot0)
 end
 
 slot0.GetHudPriority = function(slot0)
-	return switch(type, {
+	return switch(slot0, {
 		[uv0.SHOW_MAIN] = function ()
 			return 1
 		end,

@@ -1469,7 +1469,7 @@ _G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
 
 
 _G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
-	tip = "是否确定要清除已经选择的编队，使用推荐的配置？"
+	tip = "是否采用推荐配置补齐空余位置?"
 }
 
 
@@ -12495,17 +12495,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "圣马丁号 建造追加！"
+	tip = "{namecode:84}、{namecode:65} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "金鹿号 建造追加！"
+	tip = "{namecode:225}、{namecode:226} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "玛丽·西莱斯特号、维达号 建造追加！"
+	tip = "{namecode:84} 建造追加！"
 }
 
 
@@ -40587,6 +40587,11 @@ _G.pg.base.gametip.island_chara_list_attribute = {
 }
 
 
+_G.pg.base.gametip.island_chara_list_workspeed = {
+	tip = "工作速度"
+}
+
+
 _G.pg.base.gametip.island_index_name = {
 	tip = "剩余体力"
 }
@@ -40943,10 +40948,11 @@ _G.pg.base.gametip.island_visit_tip7 = {
 
 _G.pg.base.gametip.island_season_help = {
 	tip = [[
-新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>。
-开发季持续时间内，可通过<color=#39bfff>资材转化</color>、<color=#39bfff>生产指定资材</color>、<color=#39bfff>参与岛屿活动</color>、以及<color=#39bfff>在开发季商店购买商品</color>获得岛屿开发PT。
-岛屿开发季结束后，资材仓库中的资材将<color=#FD5650>自动转化</color>为岛屿开发PT并计入当前开发排行。
-岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>。]]
+1.新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>
+2.开发季持续时间内，可通过<color=#39bfff>资材转化</color>、<color=#39bfff>生产指定资材</color>、<color=#39bfff>参与岛屿活动</color>以及<color=#39bfff>在开发季商店购买商品</color>获得岛屿开发PT
+3.岛屿开发季结束后，临时仓库中的物品将直接清空，资材仓库中的资材将<color=#FD5650>自动转化</color>为岛屿开发PT并计入当前开发排行
+4.岛屿开发季结束后，正在进行的<color=#39bfff>岛屿订单、货运委托、角色委派、手动种植、店铺经营</color>等将清理重置
+5.岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>]]
 }
 
 
@@ -41055,6 +41061,11 @@ _G.pg.base.gametip.island_season_charts_refresh = {
 }
 
 
+_G.pg.base.gametip.island_season_charts_out = {
+	tip = "暂未上榜"
+}
+
+
 _G.pg.base.gametip.island_season_review_charnum = {
 	tip = "角色数量"
 }
@@ -41116,7 +41127,11 @@ _G.pg.base.gametip.island_season_window_end2 = {
 
 
 _G.pg.base.gametip.island_season_window_rule = {
-	tip = "1.岛屿开发季结束时，资材仓库中的<color=#39bfff>资材</color>将<color=#FD5650>自动转化</color>为岛屿开发PT并计入<color=#FD5650>当前开发排行</color>，<color=#39bfff>临时仓库</color>中的物品将直接<color=#FD5650>清空</color>，正在进行的<color=#39bfff>岛屿订单、货运委托、餐品制作、角色委派</color>等将<color=#FD5650>清理重置</color>，请注意安排避免浪费\n2.岛屿开发季结束后，当前开发季<color=#39bfff>未领取的开发计划奖励和累积PT奖励</color>将<color=#FD5650>不再可领取</color>\n3.新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>"
+	tip = [[
+1.岛屿开发季结束后，<color=#39bfff>临时仓库</color>中的物品将<color=#FD5650>直接清空</color>，资材仓库中的<color=#39bfff>资材</color>将自动转化为岛屿开发PT并计入当前开发排行
+2.岛屿开发季结束后，正在进行的<color=#39bfff>岛屿订单、货运委托、角色委派、手动种植、店铺经营</color>等将清理重置
+3.岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>
+4.新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>]]
 }
 
 
@@ -41173,6 +41188,18 @@ _G.pg.base.gametip.island_help_ship_order = {
 			icon = {
 				path = "",
 				atlas = "helpbg/island_help_ship_order3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order5"
 			}
 		},
 		disableScroll = true,
@@ -43539,6 +43566,36 @@ _G.pg.base.gametip.island_production_seeds_empty = {
 }
 
 
+_G.pg.base.gametip.island_production_tip = {
+	tip = "/次"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition1 = {
+	tip = "<color=#39bfff>$1</color>能力"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition2 = {
+	tip = "科技加成"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition3 = {
+	tip = "增益效果"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip1 = {
+	tip = "工作速度 <color=#39bfff>+$1%</color>"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip2 = {
+	tip = "工作速度加成"
+}
+
+
 _G.pg.base.gametip.island_order_ship_page_onekey_loadup = {
 	tip = "全部装载"
 }
@@ -44067,6 +44124,21 @@ _G.pg.base.gametip.island_guide_help = {
 1.<color=#39bfff>获取</color>角色：每名角色解锁后可领取<color=#39bfff>20</color>收集点
 2.<color=#39bfff>提升星级</color>：每名角色提升星级可领取<color=#39bfff>30</color>收集点，提升至5星时可额外获得<color=#39bfff>10</color>收集点
 3.角色<color=#39bfff>生活等级</color>：每名角色生活等级达到<color=#39bfff>50级</color>后可领取<color=#39bfff>50</color>收集点]]
+}
+
+
+_G.pg.base.gametip.island_guide_help_npc = {
+	tip = "积累收集点可以提升收藏等级，并解锁对应的收藏奖励。\n与NPC互动并解锁图鉴可以领取收集点"
+}
+
+
+_G.pg.base.gametip.island_guide_help_item = {
+	tip = [[
+积累收集点可以提升收藏等级，并解锁对应的收藏奖励。
+达成以下条件可以领取资材收集点：
+
+1.<color=#39bfff>获取</color>资材：每种资材解锁后可领取<color=#39bfff>20</color>收集点
+2.<color=#39bfff>累计获取某种资材达到一定数量</color>：获取某种资材的数量达到奖励阶段的目标数量后可领取收集点，每种资材都有各自的奖励阶段及其对应的目标数量，可在图鉴中查看]]
 }
 
 
@@ -45072,8 +45144,148 @@ _G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
 }
 
 
+_G.pg.base.gametip.island_selectall = {
+	tip = "全选"
+}
+
+
+_G.pg.base.gametip.island_quickselect_tip = {
+	tip = "*长按图标可快速增加选择数量"
+}
+
+
+_G.pg.base.gametip.search_equipment = {
+	tip = "搜索装备名"
+}
+
+
+_G.pg.base.gametip.search_sp_equipment = {
+	tip = "搜索特殊兵装名"
+}
+
+
+_G.pg.base.gametip.search_equipment_appearance = {
+	tip = "搜索装备外观名"
+}
+
+
+_G.pg.base.gametip.meta_reproduce_btn = {
+	tip = "是否进入当前信标META的档案重现战斗？\n战斗强度：Lv15\n*该战斗不消耗石油，不会获得任何奖励"
+}
+
+
+_G.pg.base.gametip.meta_simulated_btn = {
+	tip = "是否进入当前信标META的模拟战斗？\n战斗强度：Lv$1\n*该战斗不消耗石油，不会获得任何奖励"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_tip = {
+	tip = "材料不足"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv1 = {
+	tip = "强化至下一级"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lvx = {
+	tip = "强化至$1级"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_finish = {
+	tip = "强化完成"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv = {
+	tip = "级"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_title = {
+	tip = "强化"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_required = {
+	tip = "需要素材："
+}
+
+
 _G.pg.base.gametip.shop_sell_ended = {
 	tip = "不可购买"
+}
+
+
+_G.pg.base.gametip.island_taskjump_systemnoopen_tips = {
+	tip = "系统未解锁，无法跳转"
+}
+
+
+_G.pg.base.gametip.island_taskjump_placenoopen_tips = {
+	tip = "地点未解锁，无法跳转"
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_award = {
+	tip = "查看奖励"
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_request = {
+	tip = "查看需求"
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_label = {
+	tip = "当前无可运输的货运委托"
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_time = {
+	tip = "委托列表自动刷新时间："
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt = {
+	tip = "运输次数$1/$2"
+}
+
+
+_G.pg.base.gametip.island_order_ship_sel_delegate_label = {
+	tip = "- 点击选择货运委托 -"
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt_not_enough = {
+	tip = "停止装载"
+}
+
+
+_G.pg.base.gametip.island_order_ship_reset_all = {
+	tip = "是否确认刷新委托列表中的全部委托"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip = {
+	tip = "是否确认更换新的货运委托？"
+}
+
+
+_G.pg.base.gametip.island_order_ship_btn_replace = {
+	tip = "更换委托"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_2 = {
+	tip = "无可运输次数"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_1 = {
+	tip = "该委托已装载资材，更换将消耗一次运输次数且已装载资材无法取回，是否确认更换新的货运委托？"
 }
 
 

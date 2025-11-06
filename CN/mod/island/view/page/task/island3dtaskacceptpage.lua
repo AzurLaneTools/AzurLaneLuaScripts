@@ -14,23 +14,27 @@ end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
-		uv0._tf:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
-			uv0:SetEndEvent(nil)
-
-			if uv1.onExit then
-				uv1.onExit()
-
-				uv1.onExit = nil
-			end
-
-			if uv1.taskId == IslandGuideChecker.FIRST_TASK_ID then
-				IslandGuideChecker.CheckGuide("ISLAND_GUIDE_4")
-			end
-
-			uv1:Hide()
-		end)
-		uv0._tf:GetComponent(typeof(Animation)):Play("Anim_Island3dTaskAcceptUI_out")
+		uv0:TouchEvent()
 	end, SFX_PANEL)
+end
+
+slot0.TouchEvent = function(slot0)
+	slot0._tf:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+		uv0:SetEndEvent(nil)
+
+		if uv1.onExit then
+			uv1.onExit()
+
+			uv1.onExit = nil
+		end
+
+		if uv1.taskId == IslandGuideChecker.FIRST_TASK_ID then
+			IslandGuideChecker.CheckGuide("ISLAND_GUIDE_4")
+		end
+
+		uv1:Hide()
+	end)
+	slot0._tf:GetComponent(typeof(Animation)):Play("Anim_Island3dTaskAcceptUI_out")
 end
 
 slot0.Show = function(slot0, slot1, slot2)

@@ -247,12 +247,14 @@ slot0._Init = function(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = tf(slot0._go)
 	slot0.frontTr = findTF(slot0._tf, "front")
+	slot0.frontEvtTr = findTF(slot0._tf, "block")
 	slot0.skipBtn = findTF(slot0._tf, "front/btns/btns/skip_button")
 	slot0.autoBtn = findTF(slot0._tf, "front/btns/btns/auto_button")
 	slot0.autoBtnImg = findTF(slot0._tf, "front/btns/btns/auto_button/sel"):GetComponent(typeof(Image))
 	slot0.alphaImage = slot0._tf:GetComponent(typeof(Image))
 	slot0.mainImage = slot0._tf:GetComponent(typeof(Image))
 	slot0.recordBtn = findTF(slot0._tf, "front/btns/record")
+	slot0.hideUIBtn = findTF(slot0._tf, "front/btns/btns/hide_ui_button")
 	slot0.dialogueContainer = findTF(slot0._tf, "front/dialogue")
 	slot0.players = {
 		AsideStoryPlayer.New(slot1),
@@ -700,6 +702,24 @@ slot0.OnStart = function(slot0)
 	slot0:RegistSkipBtn()
 	slot0:RegistAutoBtn()
 	slot0:RegistRecordBtn()
+	slot0:RegistHideUIBtn()
+end
+
+slot0.RegistHideUIBtn = function(slot0)
+	onButton(slot0, slot0.hideUIBtn, function ()
+		if uv0.storyScript:GetAutoPlayFlag() then
+			uv0.storyScript:StopAutoPlay()
+			uv0.currPlayer:CancelAuto()
+			uv0:UpdateAutoBtn()
+		end
+
+		setActiveByCanvasGroup(uv0.frontTr, false)
+		setActive(uv0.frontEvtTr, true)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.frontEvtTr, function ()
+		setActiveByCanvasGroup(uv0.frontTr, true)
+		setActive(uv0.frontEvtTr, false)
+	end, SFX_PANEL)
 end
 
 slot0.TrackingStart = function(slot0)
@@ -802,6 +822,8 @@ slot0.Clear = function(slot0)
 	removeOnButton(slot0.skipBtn)
 	removeOnButton(slot0.recordBtn)
 	removeOnButton(slot0.autoBtn)
+	removeOnButton(slot0.hideUIBtn)
+	removeOnButton(slot0.frontEvtTr)
 	slot0:ClearAutoBtn(false)
 
 	if isActive(slot0._go) then

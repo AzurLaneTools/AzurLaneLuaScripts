@@ -159,7 +159,7 @@ end
 
 slot0.GetUnitIdFromCharaId = function(slot0, slot1)
 	if not slot1 or slot1 == 0 then
-		return 0, IslandConst.UNIT_LIST_OBJ
+		return 0, IslandConst.UNIT_LIST_PLAYER
 	end
 
 	for slot5, slot6 in ipairs(slot0.unitMap) do
@@ -171,7 +171,7 @@ slot0.GetUnitIdFromCharaId = function(slot0, slot1)
 		end
 	end
 
-	return 0, IslandConst.UNIT_LIST_OBJ
+	return 0, IslandConst.UNIT_LIST_PLAYER
 end
 
 slot0.GetLookGroup = function(slot0)
