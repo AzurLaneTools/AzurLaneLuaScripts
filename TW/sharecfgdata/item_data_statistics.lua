@@ -25414,9 +25414,9 @@ _G.pg.base.item_data_statistics[30364] = {
 
 _G.pg.base.item_data_statistics[30365] = {
 	open_directly = 1,
-	name = "外觀裝備箱(法老的黃金祕器)",
+	name = "外觀裝備箱(法老的黃金秘器)",
 	type = 11,
-	display = "可以獲得一件隨機的法老的黃金祕器風格外觀裝備",
+	display = "可以獲得一件隨機的法老的黃金秘器風格外觀裝備",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -38934,9 +38934,9 @@ _G.pg.base.item_data_statistics[30551] = {
 
 _G.pg.base.item_data_statistics[30552] = {
 	open_directly = 0,
-	name = "定向外觀裝備箱(法老的黃金祕器)",
+	name = "定向外觀裝備箱(法老的黃金秘器)",
 	type = 13,
-	display = "使用後可從「法老的黃金祕器」主題外觀裝備中任意選擇一種獲得1個",
+	display = "使用後可從「法老的黃金秘器」主題外觀裝備中任意選擇一種獲得1個",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop_appointed",
