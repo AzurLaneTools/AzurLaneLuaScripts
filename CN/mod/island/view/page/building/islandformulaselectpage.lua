@@ -432,7 +432,7 @@ slot0.OnShow = function(slot0, slot1)
 	if slot0.addDelegateFormulaTimes then
 		setActive(slot0.barLimit, true)
 
-		slot0.barLimit.sizeDelta = Vector2(slot0.addDelegateFormulaTimes / 5 * 352.6, 22)
+		slot0.barLimit.sizeDelta = Vector2(slot0.addDelegateFormulaTimes / (pg.island_formula[slot0.addDelegateFormula].production_limit or 5) * 352.6, 22)
 
 		setActive(slot0.addCountTips, true)
 	else

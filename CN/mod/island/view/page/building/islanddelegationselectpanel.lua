@@ -408,7 +408,7 @@ slot0.UpdateTime = function(slot0)
 		setActive(slot0.getBtn, true)
 		setActive(slot0.addBtn, false)
 	else
-		setActive(slot0.addBtn, slot15 < 5)
+		setActive(slot0.addBtn, slot15 < (slot8.production_limit or 5))
 		onButton(slot0, slot0.addBtn, function ()
 			uv0:OpenFormulaSelectPage(uv1, uv2, uv3, uv4.ship_id)
 		end, SFX_PANEL)
