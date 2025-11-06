@@ -4310,7 +4310,7 @@ pg.backyard_theme_template = {
 	},
 	[119] = {
 		Cfg_1 = 5,
-		name = "法老祕境",
+		name = "法老秘境",
 		desc = "踏上這金色的土地，彷彿能聽到遠古的回音…",
 		deblocking = 1,
 		new = 1,

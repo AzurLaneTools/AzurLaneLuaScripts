@@ -1347,7 +1347,7 @@ pg.equip_skin_theme_template = {
 	},
 	[65] = {
 		id = 65,
-		name = "黃金法老的祕器",
+		name = "黃金法老的秘器",
 		ids = {
 			4113,
 			4114,

@@ -2494,7 +2494,7 @@ pg.activity_sp_story = {
 	},
 	[142] = {
 		story_type = 1,
-		name = "EP1-2 撒丁尼亞聯盟",
+		name = "EP1-2 薩丁尼亞聯盟",
 		change_prefab = "",
 		unlock_conditions = "完成EP1-1",
 		change_background = "star_level_bg_530",

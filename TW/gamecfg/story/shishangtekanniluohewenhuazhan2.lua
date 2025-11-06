@@ -253,7 +253,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "不過，你所在的這個房間……應該也是後續參觀路線的一環吧？",
+			say = "不過，妳所在的這個房間……應該也是後續參觀路線的一環吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
