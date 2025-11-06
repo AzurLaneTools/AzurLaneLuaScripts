@@ -6,7 +6,10 @@ slot0.getUIName = function(slot0)
 	return "IslandAwardDisplayInMainPanel"
 end
 
+slot3 = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandUI(Clone)/track_container/Island3dTaskTrackPanel(Clone)"
+
 slot0.OnLoaded = function(slot0)
+	slot0.tileTF = slot0._tf:Find("title")
 	slot0.nameTf = slot0._tf:Find("title/name")
 
 	setText(slot0.nameTf, i18n("word_get"))
@@ -27,6 +30,27 @@ end
 
 slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
+
+	slot0.trackPanelTF = tf(GameObject.Find(uv1))
+	slot2 = 0
+
+	if slot0.contextData and slot0.contextData.needAdapt and not IsNil(slot0.trackPanelTF) then
+		slot2 = slot0.trackPanelTF.rect.height
+
+		setAnchoredPosition(slot0.tileTF, {
+			y = -256 - slot2
+		})
+		setAnchoredPosition(slot0.container, {
+			y = -306 - slot2
+		})
+	else
+		setAnchoredPosition(slot0.tileTF, {
+			y = -410
+		})
+		setAnchoredPosition(slot0.container, {
+			y = -450
+		})
+	end
 
 	slot0.isShow = true
 end

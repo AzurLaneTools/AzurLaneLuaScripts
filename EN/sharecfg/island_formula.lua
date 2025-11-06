@@ -26,7 +26,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2000,
-				9
+				18
 			}
 		},
 		commission_cost = {
@@ -157,7 +157,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2008,
-				9
+				12
 			}
 		},
 		commission_cost = {

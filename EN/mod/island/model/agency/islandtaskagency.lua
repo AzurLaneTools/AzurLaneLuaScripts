@@ -6,12 +6,8 @@ slot0.FUTURE_TASK_REMOVED = "IslandTaskAgency.FUTURE_TASK_REMOVED"
 slot0.TASK_FINISH = "IslandTaskAgency.TASK_FINISH"
 
 slot0.OnInit = function(slot0, slot1)
-	slot0.traceId = (slot1.task_info or {}).focus_id or 0
-
-	if slot0.traceId ~= 0 and pg.island_task[slot0.traceId].type == IslandTaskType.MAIN then
-		slot0.traceId = 0
-	end
-
+	slot2 = slot1.task_info or {}
+	slot0.traceId = slot2.focus_id or 0
 	slot0.finishedIds = slot2.task_id_list_finish or {}
 	slot0.tasks = {}
 	slot3 = ipairs
@@ -33,6 +29,10 @@ slot0.OnInit = function(slot0, slot1)
 	slot0:SetMainTraceId(slot0:GetPriorityMainTraceTaskId())
 
 	slot0.acceptCheckTimestampTags = {}
+
+	if slot0.traceId ~= 0 and (slot0.tasks[slot0.traceId] and slot3:GetType() == IslandTaskType.MAIN or not slot0:IsShowInTaskUI(slot3)) then
+		slot0.traceId = 0
+	end
 end
 
 slot0.InitFutureTasks = function(slot0, slot1)
@@ -112,22 +112,36 @@ slot0.GetShowTasks = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.tasks) do
-		if slot6:getConfig("type") ~= IslandTaskType.SEASON then
-			slot9 = underscore.all(slot6:getConfig("link_task"), function (slot0)
-				return uv0:IsFinishTask(slot0)
-			end)
-
-			if slot7 == IslandTaskType.HIDE then
-				if #slot8 > 0 and slot9 then
-					table.insert(slot1, slot6)
-				end
-			elseif slot9 then
-				table.insert(slot1, slot6)
-			end
+		if slot0:IsShowInTaskUI(slot6) then
+			table.insert(slot1, slot6)
 		end
 	end
 
 	return slot1
+end
+
+slot0.IsShowInTaskUI = function(slot0, slot1)
+	if not slot1 then
+		return false
+	end
+
+	if slot1:getConfig("type") == IslandTaskType.SEASON then
+		return false
+	end
+
+	slot4 = underscore.all(slot1:getConfig("link_task"), function (slot0)
+		return uv0:IsFinishTask(slot0)
+	end)
+
+	if slot2 == IslandTaskType.HIDE then
+		if #slot3 > 0 and slot4 then
+			return true
+		end
+	elseif slot4 then
+		return true
+	end
+
+	return false
 end
 
 slot0.GetTask = function(slot0, slot1)
@@ -174,7 +188,7 @@ slot0.GetPriorityTraceTaskId = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.tasks) do
-		if not table.contains(IslandTaskType.EXCLUED_TRACK_TYPES, slot6:GetType()) then
+		if not table.contains(IslandTaskType.EXCLUED_TRACK_TYPES, slot6:GetType()) and slot0:IsShowInTaskUI(slot6) then
 			table.insert(slot1, slot6)
 		end
 	end

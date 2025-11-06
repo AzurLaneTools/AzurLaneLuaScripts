@@ -11922,8 +11922,13 @@ pg.island_world_objects = {
 		show_param = {
 			{
 				3,
-				3100091,
+				3110004,
 				1
+			},
+			{
+				2,
+				10001060,
+				0
 			}
 		},
 		hide_param = {},
