@@ -37,7 +37,11 @@ slot0.init = function(slot0)
 	slot0.visitorBtn = slot0._tf:Find("top/visitor")
 	slot0.levelPanel = IslandLevelPanel.New(slot0._tf, slot0.event)
 	slot0.taskTrackPanel = Island3dTaskTrackPanel.New(slot0._tf:Find("track_container"), slot0.event)
-	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event)
+	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event, setmetatable({
+		needAdapt = true
+	}, {
+		__index = slot0.contextData
+	}))
 	slot0.btnContainer = IslandMainBtnContainer.New(slot0._tf:Find("top/btn_container"), slot0.event)
 end
 

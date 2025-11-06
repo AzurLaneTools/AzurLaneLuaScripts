@@ -3,11 +3,11 @@ slot0 = class("IslandShipIndexLayer", import("view.common.CustomIndexLayer"))
 slot0.SortFunc = function(slot0)
 	return {
 		function (slot0)
-			if slot0 then
+			if not slot0.isInvite then
 				slot1 = slot0["Get" .. uv0](slot0)
 
 				return slot0["Get" .. uv0](slot0)
-			else
+			elseif slot0.isInvite then
 				return 0
 			end
 		end,
