@@ -18,9 +18,9 @@ end
 
 slot0.canPurchase = function(slot0)
 	if slot0.type == Goods.TYPE_MILITARY then
-		return slot0.buyCount == 0
+		return slot0:getBuyCount() == 0
 	elseif slot0.type == Goods.TYPE_GIFT_PACKAGE or slot0.type == Goods.TYPE_SKIN or slot0.type == Goods.TYPE_WORLD or slot0.type == Goods.TYPE_NEW_SERVER then
-		return slot0:getLimitCount() <= 0 or slot0.buyCount < slot1
+		return slot0:getLimitCount() <= 0 or slot0:getBuyCount() < slot1
 	elseif slot0.type == Goods.TYPE_CRUISE then
 		return slot0:getLimitCount() - slot0:GetOwnedCnt() > 0
 	else
@@ -81,7 +81,7 @@ slot0.GetPrice = function(slot0)
 
 	if slot0:isDisCount() then
 		if slot0:IsItemDiscountType() then
-			slot3 = (slot2 - SkinCouponActivity.GetSkinCouponAct(slot0.id):GetNewPrice(slot2)) / slot2 * 100
+			slot3 = (slot2 - SkinCouponActivity.GetBestReadySkinCouponAct(slot0.id):GetNewPrice(slot2)) * 100 / slot2
 		else
 			slot1 = slot2 * (100 - slot0:getConfig("discount")) / 100
 		end
@@ -115,7 +115,7 @@ slot0.GetConsume = function(slot0)
 end
 
 slot0.IsItemDiscountType = function(slot0)
-	return slot0:getConfig("genre") == ShopArgs.SkinShop and SkinCouponActivity.StaticCanUsageSkinCoupon(slot0.id)
+	return slot0:getConfig("genre") == ShopArgs.SkinShop and SkinCouponActivity.StaticExistActivityAndCoupon(slot0.id)
 end
 
 slot0.CanUseVoucherType = function(slot0)
@@ -164,6 +164,10 @@ slot0.getLimitCount = function(slot0)
 	return 0
 end
 
+slot0.getBuyCount = function(slot0)
+	return slot0.buyCount or 0
+end
+
 slot0.GetDiscountItem = function(slot0)
 	if slot0:IsItemDiscountType() then
 		return SkinCouponActivity.StaticGetItemConfig(slot0.id)
@@ -190,10 +194,6 @@ slot0.getLevelLimit = function(slot0)
 	end
 
 	return 0
-end
-
-slot0.isTimeLimit = function(slot0)
-	return slot0:getLimitCount() <= 0 or slot1 < slot0.buyCount
 end
 
 slot0.getSkinId = function(slot0)
@@ -302,7 +302,7 @@ slot0.IsGroupLimit = function(slot0)
 end
 
 slot0.GetLimitDesc = function(slot0)
-	slot2 = slot0.buyCount or 0
+	slot2 = slot0:getBuyCount()
 
 	if slot0:getLimitCount() > 0 then
 		return i18n("charge_limit_all", slot1 - slot2, slot1)
@@ -336,6 +336,19 @@ slot0.GetPackageTag = function(slot0)
 		return ""
 	else
 		return slot0:getConfig("package_tag")
+	end
+end
+
+slot0.isTip = function(slot0)
+	if slot0:isGiftPackage() or slot0:isActGiftPackage() then
+		slot2 = slot0:getConfig("akashi_pick") > 0 and "payshop_pack_red_dot" or "gemshop_pack_red_dot"
+		slot3, slot4 = unpack(getGameset(slot2))
+
+		if PlayerPrefs.GetInt(slot2, 0) ~= slot3 and table.contains(slot4[1], slot0.id) then
+			return true
+		end
+
+		return slot0:isFree()
 	end
 end
 

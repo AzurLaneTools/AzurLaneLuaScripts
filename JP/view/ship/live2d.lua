@@ -564,6 +564,14 @@ slot0.checkActionExist = function(slot0, slot1)
 	return table.indexof(slot0.animationClipNames, slot1)
 end
 
+slot0.checkActionProfile = function(slot0, slot1)
+	if (not table.indexof(slot0.animationClipNames, slot1) or slot2 == false) and string.find(slot1, "main_") then
+		return true
+	end
+
+	return slot2
+end
+
 slot0.onListenerHandle = function(slot0, slot1, slot2)
 	if not slot0.drags or #slot0.drags == 0 then
 		return
@@ -766,10 +774,16 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 	slot0.modelName = slot0.live2dData:GetShipName()
 	slot0.live2dRequestId = pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot0.modelName, function (slot0)
-		uv0(uv1, slot0)
+		if slot0 then
+			if uv0.state == uv1.STATE_LOADING then
+				uv2(uv0, slot0)
 
-		if uv2 then
-			uv2(uv1)
+				if uv3 then
+					uv3(uv0)
+				end
+			else
+				pg.Live2DMgr.GetInstance():ReturnLive2DModel(uv0.modelName, slot0)
+			end
 		end
 	end)
 	Input.gyro.enabled = slot0.live2dData.gyro == 1 and PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
@@ -1193,14 +1207,14 @@ slot0.changeIdleIndex = function(slot0, slot1)
 		slot2 = true
 	end
 
-	slot0:onListenerHandle(Live2D.ON_ACTION_CHANGE_IDLE, {
-		idle = slot0.idleIndex,
-		idle_change = slot2
-	})
 	print("live2d 待机动作设置为 = " .. slot1)
 
 	slot0.idleIndex = slot1
 
+	slot0:onListenerHandle(Live2D.ON_ACTION_CHANGE_IDLE, {
+		idle = slot0.idleIndex,
+		idle_change = slot2
+	})
 	slot0:updateDragsSateData()
 end
 

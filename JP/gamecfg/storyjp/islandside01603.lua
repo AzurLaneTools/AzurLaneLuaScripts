@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			say = "那现在，还有哪些问题或难点是需要我帮忙处理的么？",
+			say = "――今、まだ他に何か問題や課題はある？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

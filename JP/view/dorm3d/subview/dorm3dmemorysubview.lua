@@ -40,6 +40,10 @@ slot0.OnInit = function(slot0)
 
 		slot0.unlockDic[slot9] = slot2[slot10] and slot2[slot10].talkDic[slot9] or false
 
+		if DORM_LOCK_GUIDE and slot9 == 10010 then
+			slot0.unlockDic[slot9] = true
+		end
+
 		if slot0.unlockDic[slot9] then
 			slot3 = slot3 + 1
 		end

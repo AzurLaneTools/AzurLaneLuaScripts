@@ -155,10 +155,10 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 						if slot0.actionTrigger.change_focus == false then
 							slot0.prepareTargetValue = slot20
 
-							print(slot0.parameterName .. "等待动作结束后的target赋值" .. slot0.parameterTargetValue)
+							print(slot0.id .. "=" .. slot0.parameterName .. "等待动作结束后的target赋值" .. slot0.parameterTargetValue)
 						else
 							slot0:setTargetValue(slot20)
-							print(slot0.parameterName .. "监听 数值变更为" .. slot0.parameterTargetValue)
+							print(slot0.id .. "=" .. slot0.parameterName .. "监听 数值变更为" .. slot0.parameterTargetValue)
 						end
 					end
 

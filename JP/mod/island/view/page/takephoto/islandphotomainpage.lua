@@ -408,7 +408,9 @@ slot0.OnHide = function(slot0)
 
 		return
 	end
+end
 
+slot0.OnExit = function(slot0)
 	slot0.takePhotoModel = nil
 
 	slot0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, IslandConst.TakePhotoModel.None)

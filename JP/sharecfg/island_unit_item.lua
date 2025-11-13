@@ -710,6 +710,11 @@ pg.island_unit_item = {
 		navAgentParam = "",
 		model = "Island/Unit_Item/Infrastructure/Farm/pre_coffeeshop01_03C"
 	},
+	[100501] = {
+		id = 100501,
+		navAgentParam = "",
+		model = "island/item/collider/1005/prefab/pre_collider"
+	},
 	all = {
 		1001,
 		1002,
@@ -852,6 +857,7 @@ pg.island_unit_item = {
 		100702,
 		100703,
 		100901,
-		100902
+		100902,
+		100501
 	}
 }

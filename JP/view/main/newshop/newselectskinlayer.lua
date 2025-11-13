@@ -87,6 +87,60 @@ slot0.ClickTrigger = function(slot0, slot1, slot2)
 	slot0:Check(slot1.skin)
 end
 
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
+	TweenItemAlphaAndWhite(slot2)
+
+	slot3 = slot0.scrollDisplays[slot1 + 1]
+
+	if slot0.goDic[slot2] and slot0.goDic[slot2] ~= slot1 then
+		slot4 = slot0.scrollShowClassifyIds[slot0.goDic[slot2]]
+
+		slot0:ReturnIndex(slot0.goDic[slot2])
+
+		if slot0:GetDisplayIndex(slot4) ~= slot0:GetDisplayIndex(slot4) then
+			slot6 = {}
+
+			table.insert(slot6, slot5)
+			table.insert(slot6, slot0:GetDisplayIndex(slot4))
+			slot0:ChangeClassifyName(slot6)
+		end
+	end
+
+	slot0.goDic[slot2] = slot1
+	slot4 = slot0.scrollShowClassifyIds[slot1]
+
+	slot0:RegisterIndex(slot1)
+
+	slot6 = {}
+
+	if slot0:GetDisplayIndex(slot4) ~= slot0:GetDisplayIndex(slot4) then
+		table.insert(slot6, slot5)
+	end
+
+	table.insert(slot6, slot1)
+	slot0:ChangeClassifyName(slot6)
+
+	if slot3 then
+		slot7 = UIItemList.New(tf(slot2):Find("skins"), tf(slot2):Find("skins/SkinAtlasCard"))
+
+		slot7:make(function (slot0, slot1, slot2)
+			if slot0 == UIItemList.EventUpdate then
+				slot4 = SkinAtlasCard.New(slot2)
+
+				table.insert(uv1.cards, slot4)
+				slot4:Update(uv0[slot1 + 1], slot1 + 1, true)
+				onButton(uv1, slot2, function ()
+					uv0:ClickTrigger(uv1, uv2)
+				end, SFX_PANEL)
+				onButton(uv1, slot4.changeSkinUI, function ()
+					uv0:changeSkinNext()
+				end, SFX_PANEL)
+			end
+		end)
+		slot7:align(#slot3)
+	end
+end
+
 slot0.willExit = function(slot0)
 	uv0.super.willExit(slot0)
 	slot0.msgBox:Destroy()

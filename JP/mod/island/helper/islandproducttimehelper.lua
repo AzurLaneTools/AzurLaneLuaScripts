@@ -77,7 +77,7 @@ slot0.CalculateTimeToProductFormula = function(slot0, slot1, slot2, slot3, slot4
 	end
 
 	slot17 = pg.island_chara_att[slot7:GetAttrGradeByValue(slot7:GetAttr(IslandShipAttr.ATTRS[slot10]))].effect
-	slot18 = slot8 * (1 + 0.01 * (slot11 + slot12 + 0))
+	slot18 = slot11 + slot12 + 0
 	slot19 = slot7:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
 
 	table.sort(slot19, function (slot0, slot1)
@@ -124,7 +124,7 @@ slot0.CalculateTimeToProductFormula = function(slot0, slot1, slot2, slot3, slot4
 		end
 
 		table.insert(slot24, {
-			buffSpeed = slot18 * (1 + 0.01 * pg.island_chara_att[slot34].effect),
+			buffSpeed = slot8 * (1 + 0.01 * (pg.island_chara_att[slot34].effect + slot18)),
 			timeLength = slot29.timeLength
 		})
 	end
@@ -151,7 +151,7 @@ slot0.CalculateTimeToProductFormula = function(slot0, slot1, slot2, slot3, slot4
 		end
 
 		if slot31 > 0 then
-			slot32 = slot32 + math.floor(slot31 / (slot18 * (1 + 0.01 * slot17)))
+			slot32 = slot32 + math.floor(slot31 / (slot8 * (1 + 0.01 * (slot17 + slot18))))
 		end
 
 		table.insert(slot25, slot32)

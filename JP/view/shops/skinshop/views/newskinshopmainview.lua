@@ -838,13 +838,13 @@ slot0.FlushObtainBtn = function(slot0, slot1)
 	onButton(slot0, slot0.obtainBtn, function ()
 		slot0 = {}
 
-		if SkinCouponActivity.StaticEncoreActTip(uv0.id) then
+		if tobool(SkinCouponActivity.StaticEncoreActTip(uv0.id)) then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("SkinDiscount_Hint"),
 					onYes = function ()
-						if SkinCouponActivity.GetSkinCouponEncoreAct(uv0.id) then
-							uv1:emit(NewSkinShopMediator.OPEN_ACTIVITY, slot0.id)
+						if uv0 and not uv0:isEnd() then
+							uv1:emit(NewSkinShopMediator.OPEN_ACTIVITY, uv0.id)
 						end
 					end,
 					onNo = function ()

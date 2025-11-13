@@ -11,7 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "没想到{dorm3d}您会送天狼星这本书呢，一定是天狼星的觉悟还不够……！",
+			nameColor = "#FFFFFF",
+			actorName = 20220,
+			say = "この本を贈ってくださるなんて…きっとシリアスの覚悟がまだ足りていないと気を遣わせてしまったに違いありません！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +36,9 @@ return {
 			}
 		},
 		{
-			say = "天狼星一定会好好研读这本书，成为让{dorm3d}赞不绝口的完美女仆！",
+			nameColor = "#FFFFFF",
+			actorName = 20220,
+			say = "シリアス、本を読み込んで、{dorm3d}が誇れるような完璧なメイドを目指すと誓います！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

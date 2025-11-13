@@ -26,7 +26,7 @@ pg.island_map_details = {
 	},
 	[100201] = {
 		belong_map = 1002,
-		name = "JUU'運輸",
+		name = "饅頭物流",
 		ability_id = 7,
 		production_place_id = 0,
 		id = 100201,
@@ -50,7 +50,7 @@ pg.island_map_details = {
 	},
 	[100204] = {
 		belong_map = 1002,
-		name = "饅頭カフェ",
+		name = "離島技術",
 		ability_id = 5007,
 		production_place_id = 702,
 		id = 100204,
@@ -74,7 +74,7 @@ pg.island_map_details = {
 	},
 	[100302] = {
 		belong_map = 1003,
-		name = "自由建設地",
+		name = "定期補給",
 		ability_id = 5003,
 		production_place_id = 0,
 		id = 100302,
@@ -122,7 +122,7 @@ pg.island_map_details = {
 	},
 	[100602] = {
 		belong_map = 1006,
-		name = "有魚飯店",
+		name = "白クマ茶房",
 		ability_id = 2009,
 		production_place_id = 602,
 		id = 100602,

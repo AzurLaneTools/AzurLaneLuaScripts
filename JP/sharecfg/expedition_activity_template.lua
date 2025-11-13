@@ -5024,68 +5024,146 @@ pg.expedition_activity_template = {
 	},
 	[1750013] = {
 		id = 1750013,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50222,
+				582,
+				30
+			}
+		}
 	},
 	[1750113] = {
 		id = 1750113,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50222,
+				582,
+				40
+			}
+		}
 	},
 	[1750213] = {
 		id = 1750213,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50222,
+				582,
+				50
+			}
+		}
 	},
 	[1751013] = {
 		id = 1751013,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50223,
+				582,
+				60
+			}
+		}
 	},
 	[1751113] = {
 		id = 1751113,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50223,
+				582,
+				70
+			}
+		}
 	},
 	[1751213] = {
 		id = 1751213,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50223,
+				582,
+				80
+			}
+		}
 	},
 	[1752013] = {
 		id = 1752013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50222,
+				582,
+				90
+			}
+		}
 	},
 	[1752113] = {
 		id = 1752113,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50222,
+				582,
+				100
+			}
+		}
 	},
 	[1752213] = {
 		id = 1752213,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50222,
+				582,
+				110
+			}
+		}
 	},
 	[1753013] = {
 		id = 1753013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50223,
+				582,
+				120
+			}
+		}
 	},
 	[1753113] = {
 		id = 1753113,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50223,
+				582,
+				150
+			}
+		}
 	},
 	[1753213] = {
 		id = 1753213,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50223,
+				582,
+				180
+			}
+		}
 	},
 	[1754013] = {
 		id = 1754013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50223,
+				582,
+				800
+			}
+		}
 	},
 	[1760013] = {
 		id = 1760013,

@@ -673,7 +673,7 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 						function (slot0)
 							uv0:RemoveLive2DTimer()
 
-							if uv0.l2dChar:checkActionExist(uv1) then
+							if uv0.l2dChar:checkActionProfile(uv1) then
 								slot2 = uv0.l2dChar
 								uv0.l2dActioning = slot2:TriggerAction(uv1, slot0, nil, function (slot0)
 									uv0:PlayVoice(uv1, uv2)

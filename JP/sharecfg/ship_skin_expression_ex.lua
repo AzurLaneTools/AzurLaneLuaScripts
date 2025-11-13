@@ -23970,5 +23970,116 @@ pg.ship_skin_expression_ex = {
 				"2"
 			}
 		}
+	},
+	aisaikesi = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mail = "",
+		painting = "aisaikesi",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				""
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3||2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				""
+			}
+		}
+	},
+	tierbici = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mail = "",
+		painting = "tierbici",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				""
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"||"
+			}
+		},
+		touch = {
+			{
+				1100,
+				""
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				""
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				""
+			}
+		}
 	}
 }

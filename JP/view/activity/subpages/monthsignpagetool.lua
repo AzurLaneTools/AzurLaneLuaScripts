@@ -68,9 +68,7 @@ slot0.onAcheve = function(slot0, slot1, slot2)
 
 			for slot12, slot13 in pairs(uv0) do
 				if slot13.type == DROP_TYPE_SKIN then
-					if pg.ship_skin_template[slot13.id].skin_type == ShipSkin.SKIN_TYPE_REMAKE then
-						-- Nothing
-					elseif not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot13.id) then
+					if pg.ship_skin_template[slot13.id].skin_type ~= ShipSkin.SKIN_TYPE_REMAKE then
 						uv1._event:emit(ActivityMediator.OPEN_LAYER, Context.New({
 							mediator = NewSkinMediator,
 							viewComponent = NewSkinLayer,

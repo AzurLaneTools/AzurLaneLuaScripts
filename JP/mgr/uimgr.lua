@@ -92,11 +92,6 @@ slot0.Init = function(slot0, slot1)
 			slot5.GetComponent(slot6, slot7)
 		}
 	}
-	slot0.camLockStatus = {
-		[uv0.CameraUI] = false,
-		[uv0.CameraLevel] = false,
-		[uv0.CameraOverlay] = false
-	}
 	slot2 = DevicePerformanceUtil.GetDeviceLevel()
 
 	for slot6, slot7 in ipairs(slot0.cameraBlurs) do
@@ -288,9 +283,6 @@ slot0.ClearStick = function(slot0)
 	slot0._stickCom = nil
 end
 
-slot6 = {}
-slot7 = false
-
 slot0.OverlayPanel = function(slot0, slot1, slot2)
 	slot2 = slot2 or {}
 	slot2.type = LayerWeightConst.UI_TYPE_SUB
@@ -311,56 +303,51 @@ slot0.UnOverlayPanel = function(slot0, slot1, slot2)
 end
 
 slot0.PartialBlurTfs = function(slot0, slot1)
-	uv0 = true
-	uv1 = slot1
+	slot0:UpdatePBList(slot1)
 
-	slot0:UpdatePBEnable(true)
+	if slot0.levelCameraComp.enabled then
+		slot0:UpdatePBEnable(true, slot0.cameraBlurs[uv0.CameraLevel])
+		slot0:UpdatePBEnable(false, slot0.cameraBlurs[uv0.CameraUI])
+	else
+		slot0:UpdatePBEnable(false, slot0.cameraBlurs[uv0.CameraLevel])
+		slot0:UpdatePBEnable(true, slot0.cameraBlurs[uv0.CameraUI])
+	end
 end
 
-slot0.ShutdownPartialBlur = function(slot0, slot1)
-	uv0 = false
-	uv1 = slot1 or {}
-
-	slot0:UpdatePBEnable(false)
+slot0.ShutdownPartialBlur = function(slot0)
+	slot0:UpdatePBList({})
+	slot0:UpdatePBEnable(false, slot0.cameraBlurs[uv0.CameraLevel])
+	slot0:UpdatePBEnable(false, slot0.cameraBlurs[uv0.CameraUI])
 end
 
-slot0.RevertPBMaterial = function(slot0, slot1)
+slot6 = {}
+
+slot0.UpdatePBList = function(slot0, slot1)
+	for slot5, slot6 in pairs(uv0) do
+		if not IsNil(slot5) then
+			slot5.material = slot6
+		end
+
+		uv0[slot5] = nil
+	end
+
+	uv0 = {}
+
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = slot6:GetComponent(typeof(Image))
 
 		assert(slot7, "mask should be an image.")
 
-		slot7.material = slot0.defaultMaterial
+		uv0[slot7] = slot7.material
+		slot7.material = slot0.partialBlurMaterial
 	end
 end
 
-slot0.UpdatePBEnable = function(slot0, slot1)
-	if uv0 ~= nil then
-		for slot5, slot6 in ipairs(uv0) do
-			assert(slot6:GetComponent(typeof(Image)), "mask should be an image.")
-
-			slot7.material = slot1 and slot0.partialBlurMaterial or nil
-		end
-	end
-
-	if slot1 then
-		if slot0.levelCameraComp.enabled then
-			slot0.cameraBlurs[uv1.CameraLevel][uv1.PartialBlur].enabled = true
-			slot0.cameraBlurs[uv1.CameraUI][uv1.PartialBlur].enabled = false
-		else
-			slot0.cameraBlurs[uv1.CameraLevel][uv1.PartialBlur].enabled = false
-			slot0.cameraBlurs[uv1.CameraUI][uv1.PartialBlur].enabled = true
-		end
-	else
-		for slot5, slot6 in ipairs(slot0.cameraBlurs) do
-			if slot6[uv1.PartialBlur] then
-				slot6[uv1.PartialBlur].enabled = false
-			end
-		end
-	end
+slot0.UpdatePBEnable = function(slot0, slot1, slot2)
+	slot2[uv0.PartialBlur].enabled = slot1
 end
 
-slot8 = nil
+slot7 = nil
 
 slot0.TempOverlayPanelPB = function(slot0, slot1, slot2)
 	slot0:OverlayPanel(slot1, setmetatable({}, {
@@ -373,77 +360,81 @@ slot0.TempOverlayPanelPB = function(slot0, slot1, slot2)
 		end
 	}))
 
-	uv0 = slot2.pbList
 	slot3 = slot2.baseCamera
-	uv1 = {
+	uv0 = {
 		slot3:GetComponent("BlurOptimized"),
 		slot3:GetComponent("UIPartialBlur")
 	}
 
 	if DevicePerformanceUtil.GetDeviceLevel() == DevicePerformanceLevel.Low then
-		uv2(uv1[uv3.OptimizedBlur])
-		uv4(uv1[uv3.PartialBlur])
+		uv1(uv0[uv2.OptimizedBlur])
+		uv3(uv0[uv2.PartialBlur])
 	else
-		uv5(uv1[uv3.OptimizedBlur])
-		uv6(uv1[uv3.PartialBlur])
+		uv4(uv0[uv2.OptimizedBlur])
+		uv5(uv0[uv2.PartialBlur])
 	end
 
-	uv1[uv3.PartialBlur].maskCam = slot0.overlayCamera:GetComponent("Camera")
+	uv0[uv2.PartialBlur].maskCam = slot0.overlayCamera:GetComponent("Camera")
 
-	slot0:UpdateOtherPBEnable(true, uv1)
+	slot0:UpdateOtherPBList(slot2.pbList)
+	slot0:UpdatePBEnable(true, uv0)
 end
 
 slot0.TempUnOverlayPanelPB = function(slot0, slot1, slot2)
-	slot0:UnOverlayPanel(slot1, slot2)
-	slot0:UpdateOtherPBEnable(false, uv0)
+	slot0:UpdateOtherPBList({})
+	slot0:UpdatePBEnable(false, uv0)
 
 	uv0 = nil
 
-	setParent(slot1, slot2)
+	slot0:UnOverlayPanel(slot1, slot2)
 end
 
-slot0.UpdateOtherPBEnable = function(slot0, slot1, slot2)
-	if uv0 ~= nil then
-		for slot6, slot7 in ipairs(uv0) do
-			assert(slot7:GetComponent(typeof(Image)), "mask should be an image.")
+slot8 = {}
 
-			slot8.material = slot1 and slot0.partialBlurMaterial or nil
-		end
+slot0.UpdateOtherPBList = function(slot0, slot1)
+	for slot5, slot6 in pairs(uv0) do
+		slot5.material = slot6
 	end
 
-	slot2[uv1.PartialBlur].enabled = slot1
+	uv0 = {}
+	slot2 = ipairs
+	slot3 = slot1 or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot7 = slot6:GetComponent(typeof(Image))
+
+		assert(slot7, "mask should be an image.")
+
+		uv0[slot7] = slot7.material
+		slot7.material = slot0.partialBlurMaterial
+	end
 end
 
 slot0.BlurCamera = function(slot0, slot1, slot2, slot3)
-	if not slot0.camLockStatus[slot1] or slot3 then
-		slot4 = slot0.cameraBlurs[slot1][uv0.OptimizedBlur]
-
-		if slot2 then
-			slot4.enabled = true
-			slot4.staticBlur = true
-		else
-			if slot4.enabled == true and slot4.staticBlur == true then
-				slot4.enabled = false
-			end
-
-			slot4.enabled = true
-			slot4.staticBlur = false
-		end
-
-		if slot3 then
-			slot0.camLockStatus[slot1] = true
-		end
+	if slot0.camLockStatus then
+		return
 	end
+
+	slot4 = slot0.cameraBlurs[slot1][uv0.OptimizedBlur]
+
+	if not slot2 and slot4.enabled and slot4.staticBlur then
+		slot4.enabled = false
+	end
+
+	slot4.enabled = true
+	slot4.staticBlur = tobool(slot2)
 end
 
 slot0.UnblurCamera = function(slot0, slot1, slot2)
-	if not slot0.camLockStatus[slot1] or slot2 then
-		slot0.cameraBlurs[slot1][uv0.OptimizedBlur].enabled = false
-
-		if slot2 then
-			slot0.camLockStatus[slot1] = false
-		end
+	if slot0.camLockStatus then
+		return
 	end
+
+	slot0.cameraBlurs[slot1][uv0.OptimizedBlur].enabled = false
+end
+
+slot0.SetCameraBlurLock = function(slot0, slot1)
+	slot0.camLockStatus = slot1
 end
 
 slot0.SetMainCamBlurTexture = function(slot0, slot1)

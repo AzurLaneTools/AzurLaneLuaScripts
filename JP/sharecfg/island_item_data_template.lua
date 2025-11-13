@@ -5389,7 +5389,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -5455,7 +5455,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {

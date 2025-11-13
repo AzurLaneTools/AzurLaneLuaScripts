@@ -135,10 +135,10 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
-	ActivityShop50206 = {
-		default_bgm = "theme-tempest-light",
+	ActivityShop50221 = {
+		default_bgm = "theme-sakuraholyplace",
 		special_bgm = "",
-		bgm = "theme-tempest-light"
+		bgm = "theme-sakuraholyplace"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2539,5 +2539,40 @@ pg.voice_bgm = {
 		default_bgm = "theme-irisangel",
 		special_bgm = "",
 		bgm = "theme-irisangel"
+	},
+	YunXianMainRePage = {
+		default_bgm = "theme-unzen",
+		special_bgm = "",
+		bgm = "theme-unzen"
+	},
+	XuYuWangYueChaoPtRePage = {
+		default_bgm = "story-unzen",
+		special_bgm = "",
+		bgm = "story-unzen"
+	},
+	ChongYingFrameRePage = {
+		default_bgm = "nagato-map",
+		special_bgm = "",
+		bgm = "nagato-map"
+	},
+	YueYeWeiYangRePage = {
+		default_bgm = "story-unzen-heart",
+		special_bgm = "",
+		bgm = "story-unzen-heart"
+	},
+	ChongYingLoginRePage = {
+		default_bgm = "story-afterrain-soft",
+		special_bgm = "",
+		bgm = "story-afterrain-soft"
+	},
+	PSSSkinPage = {
+		default_bgm = "story-richang-11",
+		special_bgm = "",
+		bgm = "story-richang-11"
+	},
+	PSSSkinMagazinePage = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		bgm = "story-richang-5"
 	}
 }

@@ -184,9 +184,16 @@ slot0.GetShips = function(slot0)
 	slot1 = {}
 	slot2 = {}
 
-	for slot7, slot8 in ipairs(slot0.characterAgency:GetShipsContainNpc()) do
-		if uv0(slot8.id, slot0.searchKey) and uv1(slot0, slot8.id, slot0.sortData) then
-			table.insert(slot2, slot8)
+	for slot7, slot8 in ipairs(slot0.characterAgency:GetUnlockOrCanUnlockShipConfigIds()) do
+		if uv0(slot8, slot0.searchKey) and uv1(slot0, slot8, slot0.sortData) then
+			if slot0.characterAgency:GetShipById(slot8) then
+				table.insert(slot2, slot9)
+			else
+				table.insert(slot2, {
+					isInvite = true,
+					configId = slot8
+				})
+			end
 		end
 	end
 
@@ -195,7 +202,7 @@ slot0.GetShips = function(slot0)
 	table.sort(slot2, CompareFuncs(slot8))
 
 	for slot8, slot9 in ipairs(slot2) do
-		table.insert(slot1, slot9.id)
+		table.insert(slot1, slot9.configId)
 	end
 
 	return slot1

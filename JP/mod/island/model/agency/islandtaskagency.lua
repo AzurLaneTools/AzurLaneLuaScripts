@@ -6,12 +6,8 @@ slot0.FUTURE_TASK_REMOVED = "IslandTaskAgency.FUTURE_TASK_REMOVED"
 slot0.TASK_FINISH = "IslandTaskAgency.TASK_FINISH"
 
 slot0.OnInit = function(slot0, slot1)
-	slot0.traceId = (slot1.task_info or {}).focus_id or 0
-
-	if slot0.traceId ~= 0 and pg.island_task[slot0.traceId].type == IslandTaskType.MAIN then
-		slot0.traceId = 0
-	end
-
+	slot2 = slot1.task_info or {}
+	slot0.traceId = slot2.focus_id or 0
 	slot0.finishedIds = slot2.task_id_list_finish or {}
 	slot0.tasks = {}
 	slot3 = ipairs
@@ -22,40 +18,27 @@ slot0.OnInit = function(slot0, slot1)
 		slot0.tasks[slot8.id] = slot8
 	end
 
-	slot0:InitFutureTasks(slot2.task_list_random or {})
-
-	for slot6, slot7 in pairs(slot0.tasks) do
-		if slot0.randomTaskTimes[slot7.id] then
-			slot7:SetEndTime(slot0.randomTaskTimes[slot7.id])
-		end
-	end
-
+	slot0:InitFutureTasks()
 	slot0:SetMainTraceId(slot0:GetPriorityMainTraceTaskId())
 
 	slot0.acceptCheckTimestampTags = {}
+
+	if slot0.traceId ~= 0 and (slot0.tasks[slot0.traceId] and slot3:GetType() == IslandTaskType.MAIN or not slot0:IsShowInTaskUI(slot3)) then
+		slot0.traceId = 0
+	end
 end
 
-slot0.InitFutureTasks = function(slot0, slot1)
+slot0.InitFutureTasks = function(slot0)
 	slot0.mutexIds = Clone(slot0.finishedIds)
 
-	for slot5, slot6 in pairs(slot0.tasks) do
-		table.insert(slot0.mutexIds, slot6.id)
+	for slot4, slot5 in pairs(slot0.tasks) do
+		table.insert(slot0.mutexIds, slot5.id)
 	end
 
 	slot0.futureTasks = {}
-	slot0.randomTaskTimes = {}
 
-	for slot5, slot6 in ipairs(slot1) do
-		slot0.randomTaskTimes[slot6.task_id] = slot6.timestamp
-
-		if not slot0:CheckMutex(slot6.task_id) then
-			slot7 = IslandFutureTask.New(slot6)
-			slot0.futureTasks[slot7.id] = slot7
-		end
-	end
-
-	for slot5, slot6 in ipairs(IslandTaskType.GetPermanentTypes()) do
-		underscore.each(underscore.select(pg.island_task.get_id_list_by_type[slot6] or {}, function (slot0)
+	for slot4, slot5 in ipairs(IslandTaskType.GetPermanentTypes()) do
+		underscore.each(underscore.select(pg.island_task.get_id_list_by_type[slot5] or {}, function (slot0)
 			return pg.island_task[slot0].unlock_time ~= "stop" and not uv0.IsServerAcceptType(slot0) and not uv1:CheckMutex(slot0)
 		end), function (slot0)
 			slot1 = IslandFutureTask.New({
@@ -112,22 +95,36 @@ slot0.GetShowTasks = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.tasks) do
-		if slot6:getConfig("type") ~= IslandTaskType.SEASON then
-			slot9 = underscore.all(slot6:getConfig("link_task"), function (slot0)
-				return uv0:IsFinishTask(slot0)
-			end)
-
-			if slot7 == IslandTaskType.HIDE then
-				if #slot8 > 0 and slot9 then
-					table.insert(slot1, slot6)
-				end
-			elseif slot9 then
-				table.insert(slot1, slot6)
-			end
+		if slot0:IsShowInTaskUI(slot6) then
+			table.insert(slot1, slot6)
 		end
 	end
 
 	return slot1
+end
+
+slot0.IsShowInTaskUI = function(slot0, slot1)
+	if not slot1 then
+		return false
+	end
+
+	if slot1:getConfig("type") == IslandTaskType.SEASON then
+		return false
+	end
+
+	slot4 = underscore.all(slot1:getConfig("link_task"), function (slot0)
+		return uv0:IsFinishTask(slot0)
+	end)
+
+	if slot2 == IslandTaskType.HIDE then
+		if #slot3 > 0 and slot4 then
+			return true
+		end
+	elseif slot4 then
+		return true
+	end
+
+	return false
 end
 
 slot0.GetTask = function(slot0, slot1)
@@ -174,7 +171,7 @@ slot0.GetPriorityTraceTaskId = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.tasks) do
-		if not table.contains(IslandTaskType.EXCLUED_TRACK_TYPES, slot6:GetType()) then
+		if not table.contains(IslandTaskType.EXCLUED_TRACK_TYPES, slot6:GetType()) and slot0:IsShowInTaskUI(slot6) then
 			table.insert(slot1, slot6)
 		end
 	end
@@ -206,11 +203,6 @@ end
 
 slot0.AddTask = function(slot0, slot1)
 	slot0.tasks[slot1.id] = slot1
-
-	if slot0.randomTaskTimes[slot1.id] then
-		slot0.tasks[slot1.id]:SetEndTime(slot0.randomTaskTimes[slot1.id])
-	end
-
 	slot0.futureTasks[slot1.id] = nil
 
 	table.insert(slot0.mutexIds, slot1.id)
@@ -226,10 +218,6 @@ end
 
 slot0.UpdateTask = function(slot0, slot1)
 	slot0.tasks[slot1.id] = slot1
-
-	if slot0.randomTaskTimes[slot1.id] then
-		slot0.tasks[slot1.id]:SetEndTime(slot0.randomTaskTimes[slot1.id])
-	end
 
 	slot0:DispatchEvent(uv0.TASK_UPDATED, slot1)
 
@@ -308,7 +296,16 @@ slot0.UpdateRandomRefreshTask = function(slot0, slot1)
 		table.removebyvalue(slot0.finishedIds, slot6)
 	end
 
-	slot0:InitFutureTasks(slot1.task_list_random or {})
+	slot2 = ipairs
+	slot3 = slot1.task_list or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot0:AddTask(IslandTask.New(slot6))
+	end
+
+	if slot1.task_list and #slot1.task_list > 0 then
+		slot0:TryAutoTrackTask()
+	end
 end
 
 slot0.UpdatePerSecond = function(slot0)

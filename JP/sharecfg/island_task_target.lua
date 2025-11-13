@@ -2439,7 +2439,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010021] = {
-		tips = "10040036",
+		tips = "10040080",
 		jump_ui = "",
 		name = "伐採完了",
 		type = 6,
@@ -4148,7 +4148,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000011] = {
-		tips = "10040003",
+		tips = "10040079",
 		jump_ui = "",
 		name = "任意の鉱物を採集",
 		type = 6,
@@ -4164,7 +4164,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000021] = {
-		tips = "10040013",
+		tips = "10040080",
 		jump_ui = "",
 		name = "任意の木材を採集",
 		type = 6,

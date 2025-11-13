@@ -3830,6 +3830,9 @@ pg.memory_template = setmetatable({
 		4755,
 		4756,
 		4757,
+		4761,
+		4762,
+		4763,
 		10000,
 		10001,
 		10002,
@@ -46170,6 +46173,39 @@ pg.base.memory_template = {
 		story = "QISHENG7",
 		id = 4757,
 		icon = "memory_qisheng",
+		is_open = 0
+	},
+	[4761] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "ブラック・プレリュード",
+		condition = "「着せ替え特集」ページでニュージャージーを選択",
+		story = "SHISHANGTEKANJICHIRELANG1",
+		id = 4761,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0
+	},
+	[4762] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "チアリング・チューナー？",
+		condition = "「着せ替え特集」ページでアドミラル・ナヒーモフを選択",
+		story = "SHISHANGTEKANJICHIRELANG2",
+		id = 4762,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0
+	},
+	[4763] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "スタートライン・スプラッシュ",
+		condition = "「着せ替え特集」ページでエセックスを選択",
+		story = "SHISHANGTEKANJICHIRELANG3",
+		id = 4763,
+		icon = "memory_gangqushishangtekan",
 		is_open = 0
 	},
 	[10000] = {

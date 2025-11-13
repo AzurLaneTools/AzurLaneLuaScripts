@@ -175134,6 +175134,222 @@ _G.pg.base.item_virtual_data_statistics[65731] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65732] = {
+	drop_gold_max = 0,
+	name = "聖域の重桜",
+	display = "「須臾望月抄」報酬交換用アイテム。イベント終了後に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/yunxian_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65732,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65733] = {
+	drop_gold_max = 0,
+	name = "建造支援チケット",
+	display = "イベント「須臾望月抄」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50236,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65733,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65734] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「作戦準備・重桜」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_rv3",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65734,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65735] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2025.12.3まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2025.12.3まで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65735,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65736] = {
+	drop_gold_max = 0,
+	name = "装備外装箱（妖怪夜遊）",
+	display = "一定の確率で下記の装備外装を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/equipskin_drop_display",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65736,
+	display_icon = {
+		{
+			9,
+			830,
+			1
+		},
+		{
+			9,
+			831,
+			1
+		},
+		{
+			9,
+			832,
+			1
+		},
+		{
+			9,
+			833,
+			1
+		},
+		{
+			9,
+			834,
+			1
+		},
+		{
+			9,
+			835,
+			1
+		},
+		{
+			9,
+			836,
+			1
+		},
+		{
+			9,
+			837,
+			1
+		},
+		{
+			9,
+			838,
+			1
+		},
+		{
+			9,
+			839,
+			1
+		},
+		{
+			9,
+			840,
+			1
+		},
+		{
+			9,
+			841,
+			1
+		},
+		{
+			9,
+			842,
+			1
+		},
+		{
+			9,
+			843,
+			1
+		},
+		{
+			9,
+			844,
+			1
+		},
+		{
+			9,
+			845,
+			1
+		},
+		{
+			9,
+			846,
+			1
+		},
+		{
+			9,
+			847,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "木材",
@@ -183377,35 +183593,35 @@ _G.pg.base.item_virtual_data_statistics[86215] = {
 	drop_gold_max = 0,
 	name = "ランダム着せ替え",
 	display = [[
-購入すると当該着せ替えの中からランダムで未所持の着せ替え1着（すべての着せ替えを所持している場合は自動でダイヤ×680に変換されます）。各着せ替えは同じ確率で出現します;
-アストリア「黒うさかーにばる！」;
-ステフェン・ポッター「セーフハウス・ヘア」;
-モリソン「クマちゃんは整備中」;
-アカスタ「ラブリー・モノクロミック」;
-鬼怒「トークンとゴースト」;
-サンフランシスコ「Funny Bunny！」;
-ニュージャージー「リッピング・ステッピング！」;
-タイコンデロガ「グランドステージ・ショー！」;
-アーチャーフィッシュ「キャッツィバニィ！」;
-伊19「ブロッサム・バニー」;
-アーデント「マスター・アーデント？」;
-イングラハム「ドリンクもお手の物！」;
-ノーチラス「ちょっびり、背伸び～」;
-海風「もこもこふんわり」;
-山風「奇術タイムスタンバイ！」;
-ラフィーⅡ「うとうとビジーデー」;
-ブラック・プリンス「ぼんやり世話焼き？」;
-五十鈴「オーバーヒート？」;
-由良「ふたりはさきゅばす？」;
-葛城「夜明輝祭」;
-ニューオリンズ「アグリコールの夜」;
-ヒューストンⅡ「レディ・トゥ・サービス！」;
-ルイビル「オーダー・ディリュージョン」;
-コンステレーション「セレクト・ギャラクシー」;
-サン・ジャシント「レコメンデッド・テースト」;
-ヒンデンブルク「パラリティク・バーサス」;
-フルーレ「ラッキー・ホーリー・ナイト」;
-エペ「ひとりぼっちのロンリーナイト」;]],
+購入すると当該着せ替えの中からランダムで未所持の着せ替え1着（すべての着せ替えを所持している場合は自動でダイヤ×680に変換されます）。各着せ替えは同じ確率で出現します：
+アストリア「黒うさかーにばる！」；
+ステフェン・ポッター「セーフハウス・ヘア」；
+モリソン「クマちゃんは整備中」；
+アカスタ「ラブリー・モノクロミック」；
+鬼怒「トークンとゴースト」；
+サンフランシスコ「Funny Bunny！」；
+ニュージャージー「リッピング・ステッピング！」；
+タイコンデロガ「グランドステージ・ショー！」；
+アーチャーフィッシュ「キャッツィバニィ！」；
+伊19「ブロッサム・バニー」；
+アーデント「マスター・アーデント？」；
+イングラハム「ドリンクもお手の物！」；
+ノーチラス「ちょっびり、背伸び～」；
+海風「もこもこふんわり」；
+山風「奇術タイムスタンバイ！」；
+ラフィーⅡ「うとうとビジーデー」；
+ブラック・プリンス「ぼんやり世話焼き？」；
+五十鈴「オーバーヒート？」；
+由良「ふたりはさきゅばす？」；
+葛城「夜明輝祭」；
+ニューオリンズ「アグリコールの夜」；
+ヒューストンⅡ「レディ・トゥ・サービス！」；
+ルイビル「オーダー・ディリュージョン」；
+コンステレーション「セレクト・ギャラクシー」；
+サン・ジャシント「レコメンデッド・テースト」；
+ヒンデンブルク「パラリティク・バーサス」；
+フルーレ「ラッキー・ホーリー・ナイト」；
+エペ「ひとりぼっちのロンリーナイト」；]],
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -183539,7 +183755,7 @@ _G.pg.base.item_virtual_data_statistics[86219] = {
 	drop_gold_max = 0,
 	name = "ランダム衣装",
 	display = [[
-購入すると当該着せ替えの中からランダムで未所持の着せ替え1着（すべての着せ替えを所持している場合は自動でダイヤ×680に変換されます）。各着せ替えは均一の確率で出現します;
+購入すると当該着せ替えの中からランダムで未所持の着せ替え1着（すべての着せ替えを所持している場合は自動でダイヤ×680に変換されます）。各着せ替えは均一の確率で出現します：
   シュフラン「インパルシブ・アクシデント」；
  ウェストバージニア「シーニック・ラプソディ」；
  リヨン「ペア・エクササイズ」；

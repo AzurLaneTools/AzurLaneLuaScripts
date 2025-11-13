@@ -4927,6 +4927,198 @@ pg.ship_skin_newmainui_shift = {
 			0
 		}
 	},
+	[799023] = {
+		skin = 799023,
+		skin_shift = {
+			-145.8,
+			35.9,
+			0,
+			1
+		},
+		l2d_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			145.8,
+			-35.9,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			-17.36,
+			0,
+			0,
+			1,
+			333.1
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			344.63
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			341
+		}
+	},
+	[307074] = {
+		skin = 307074,
+		skin_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		l2d_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_shop_shift = {
+			100,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		}
+	},
+	[301891] = {
+		skin = 301891,
+		skin_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		l2d_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			13.34,
+			-79.83996,
+			0,
+			1.2,
+			0
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		}
+	},
+	[303191] = {
+		skin = 303191,
+		skin_shift = {
+			-64.75999,
+			40.3,
+			0,
+			1
+		},
+		l2d_shift = {
+			64.75999,
+			-40.3,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		}
+	},
 	all = {
 		403101,
 		206072,
@@ -5031,6 +5223,10 @@ pg.ship_skin_newmainui_shift = {
 		9600131,
 		9600151,
 		399022,
-		301572
+		301572,
+		799023,
+		307074,
+		301891,
+		303191
 	}
 }

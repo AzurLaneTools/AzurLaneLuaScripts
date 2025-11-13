@@ -93,9 +93,30 @@ slot0.init = function(slot0)
 	slot0.painting = slot0._tf:Find("frame/painting")
 	slot0.chat = slot0._tf:Find("frame/chat")
 	slot0.chatText = slot0.chat:Find("Text")
-	slot2 = slot0._tf
-	slot0.stamp = slot2:Find("frame/stamp")
-	slot0.giftTip = slot1:Find("shop1List/specialShop/shop1Tg/tip")
+	slot0.stamp = slot0._tf:Find("frame/stamp")
+	slot0.specialTip = slot1:Find("shop1List/specialShop/shop1Tg/tip")
+	slot0.giftTip = slot1:Find("shop1List/giftPackShop/shop1Tg/tip")
+
+	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(slot0.specialTip, {
+		"specialShop",
+		"Charge_Page_Exposure"
+	}, function (slot0)
+		getProxy(ShopsProxy):GiftPackageRedDotTip({
+			slot0
+		}, true)
+	end)
+
+	slot2 = pg.EasyRedDotMgr.GetInstance()
+
+	slot2:RegisterRedDot(slot0.giftTip, {
+		"specialShop",
+		"Charge_Page_Exposure"
+	}, function (slot0)
+		getProxy(ShopsProxy):GiftPackageRedDotTip({
+			slot0
+		}, false)
+	end)
+
 	slot0.toggleList = {
 		{
 			type = ChargeScene.TYPE_DIAMOND,
@@ -334,6 +355,25 @@ slot0.didEnter = function(slot0)
 				originalPrint(string.format("End: warp=%s", uv0.contextData.warp))
 				uv0:switchSubView(uv0:GetShopID(ShopConst.SHOP_TYPE.CHARGE, uv2.type))
 			end
+
+			if switch(uv2.type, {
+				[ChargeScene.TYPE_PICK] = function ()
+					return "payshop_pack_red_dot"
+				end,
+				[ChargeScene.TYPE_GIFT] = function ()
+					return "gemshop_pack_red_dot"
+				end
+			}) then
+				if slot0 then
+					uv0.toggleMark = uv0.toggleMark or {}
+					uv0.toggleMark[uv2.type] = defaultValue(uv0.toggleMark[uv2.type], 0) + 1
+				elseif uv0.toggleMark and defaultValue(uv0.toggleMark[uv2.type], 0) > 0 then
+					uv0.toggleMark[uv2.type] = uv0.toggleMark[uv2.type] - 1
+
+					PlayerPrefs.SetInt(slot1, getGameset(slot1)[1])
+					pg.EasyRedDotMgr.GetInstance():TriggerMarks("Charge_Page_Exposure")
+				end
+			end
 		end, SFX_PANEL)
 	end
 
@@ -517,7 +557,13 @@ slot0.ShowChargeWarp = function(slot0, slot1)
 	slot0:ShowResourceBar(slot1)
 
 	if slot0.subViewList[slot0.curSubViewNum] then
-		slot2:ShowPanel(slot1)
+		if slot1 == false then
+			slot2:Destroy()
+
+			slot0.curSubViewNum = 0
+		else
+			slot2:ShowPanel(slot1)
+		end
 	end
 end
 
@@ -532,6 +578,28 @@ slot0.ShowResourceBar = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
+	pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot0.specialTip)
+	pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot0.giftTip)
+
+	if slot0.toggleMark then
+		for slot4, slot5 in pairs(slot0.toggleMark) do
+			if slot5 > 0 then
+				slot6 = switch(slot4, {
+					[ChargeScene.TYPE_PICK] = function ()
+						return "payshop_pack_red_dot"
+					end,
+					[ChargeScene.TYPE_GIFT] = function ()
+						return "gemshop_pack_red_dot"
+					end
+				})
+
+				PlayerPrefs.SetInt(slot6, getGameset(slot6)[1])
+			end
+		end
+
+		slot0.toggleMark = nil
+	end
+
 	slot0:ShowResourceBar()
 	slot0:unBlurView()
 
@@ -681,6 +749,10 @@ slot0.switchSubViewByTogger = function(slot0, slot1)
 end
 
 slot0.updateCurSubView = function(slot0)
+	if not isActive(slot0.viewContainer) then
+		return
+	end
+
 	if slot0.subViewList[slot0.curSubViewNum] == nil then
 		return
 	end
@@ -944,12 +1016,6 @@ slot0.addRefreshTimer = function(slot0, slot1)
 
 	slot0.refreshTimer:Start()
 	slot0.refreshTimer.func()
-end
-
-slot0.checkFreeGiftTag = function(slot0)
-	TagTipHelper.FreeGiftTag({
-		slot0.giftTip
-	})
 end
 
 return slot0

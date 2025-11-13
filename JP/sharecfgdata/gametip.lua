@@ -1806,7 +1806,7 @@ _G.pg.base.gametip.common_ship_type = {
 
 
 _G.pg.base.gametip.common_dont_remind_dur_login = {
-	tip = "次回アプリ起動まで表示しない"
+	tip = "<size=30>次回起動まで表示しない</size>"
 }
 
 
@@ -12862,7 +12862,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「クレマンソー」「ギシャン」など出現率UP！"
+	tip = "期間限定建造を累計200回行うと「雲仙」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -28094,6 +28094,11 @@ _G.pg.base.gametip.technology_mission_unfinish = {
 
 _G.pg.base.gametip.word_chinese = {
 	tip = "中文"
+}
+
+
+_G.pg.base.gametip.word_japanese_3 = {
+	tip = "①"
 }
 
 
@@ -43968,7 +43973,7 @@ _G.pg.base.gametip.island_production_selected_character = {
 
 
 _G.pg.base.gametip.island_production_collect = {
-	tip = "生産物獲得"
+	tip = "入手"
 }
 
 
@@ -45813,6 +45818,75 @@ _G.pg.base.gametip.island_urgent_notice = {
  6.その他リセットされる内容：離島依頼（デイリー・ウィークリー緊急依頼の回数と評価）、輸送委託（更新回数）、出現中の開発計画（デイリー、ウィークリー）、定期補給・定期補給受領可能回数、キャラインタラクト回数、資源採取ポイント（マップ上の採集可能な資源ポイント）、店舗の経営回数もリセットされます。
  7.下記コンテンツはリセットされません：星彩賞（入手済みの賞品、所持中のチケット、星彩賞を引いた回数、累計回数報酬）、秋の特産経営コンテンツ（特産資源、特産制作アイテム、限定依頼、イベント計画の進捗）、加速券ははリセットされません。
  　また、一度入手・完了するとシーズンリセット関係なく永続的に解放・所持するるコンテンツ：開発資金、離島開発レベル、離島キャラの加入と育成状況、購入・入手済みの家具/着せ替え/配置オブジェクト、離島技術の研究（完了済みの研究、研究進捗）、店舗レベル、メイン開発計画、実績などはリセットされません。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar1 = {
+	tip = "ピット・スタンバイ"
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar2 = {
+	tip = "着せ替え特集"
+}
+
+
+_G.pg.base.gametip.black5_bundle_desc = {
+	tip = "対象着せ替え3着購入で誓いの指輪入手可能"
+}
+
+
+_G.pg.base.gametip.black5_bundle_purchased = {
+	tip = "購入済"
+}
+
+
+_G.pg.base.gametip.black5_bundle_tip = {
+	tip = "購入で一括入手"
+}
+
+
+_G.pg.base.gametip.black5_bundle_buy_all = {
+	tip = "全て購入"
+}
+
+
+_G.pg.base.gametip.black5_bundle_popup = {
+	tip = "ダイヤ<color=#92fc63>$1</color>を消費し<color=#92fc63>$2</color>を購入しますか？"
+}
+
+
+_G.pg.base.gametip.black5_bundle_receive = {
+	tip = "特典入手"
+}
+
+
+_G.pg.base.gametip.black5_bundle_button = {
+	tip = "パック"
+}
+
+
+_G.pg.base.gametip.skinshop_on_sale_tip = {
+	tip = "パック販売中"
+}
+
+
+_G.pg.base.gametip.skinshop_on_sale_tip_2 = {
+	tip = "福袋販売中"
+}
+
+
+_G.pg.base.gametip.shop_tag_control_tip = {
+	tip = "アセットをDLできません"
+}
+
+
+_G.pg.base.gametip.black5_bundle_help = {
+	tip = {
+		{
+			info = "対象の新規着せ替えを着せ替えショップにて購入済みの場合、購入した分のダイヤが割引されます。\nまた、パック購入の際に、着せ替えクーポンを適用することができません。着せ替えクーポンは着せ替えショップで対象着せ替えを購入する際に適用できます"
 		}
 	}
 }

@@ -42,7 +42,7 @@ slot0.register = function(slot0)
 	slot0.freeGiftIdList = {}
 
 	for slot5, slot6 in pairs(pg.shop_template.all) do
-		if slot1[slot6].genre == "gift_package" and slot1[slot6].discount == 100 then
+		if slot1[slot6].genre == ShopArgs.GiftPackage and slot1[slot6].discount == 100 then
 			table.insert(slot0.freeGiftIdList, slot6)
 		end
 	end
@@ -518,6 +518,154 @@ slot0.SpecialBannerBlockCheck = function(slot0, slot1)
 	slot2, slot3 = unpack(getGameset("levellimit_shopbanner"))
 
 	return slot2 <= slot1.level or slot0.name ~= "banner_big" or table.contains(slot3, slot0.id)
+end
+
+slot0.GiftPackageRedDotTip = function(slot0, slot1, slot2)
+	slot3 = {}
+
+	if slot0:ShouldRefreshChargeList() then
+		table.insert(slot3, function (slot0)
+			pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+				callback = slot0
+			})
+		end)
+	end
+
+	seriesAsync(slot3, function ()
+		slot1 = uv0
+		slot0 = underscore.any(slot1:GetAllShowGiftPackages(uv1), function (slot0)
+			return slot0:isTip()
+		end)
+
+		for slot4, slot5 in ipairs(uv2) do
+			setActive(slot5, slot0)
+		end
+	end)
+end
+
+slot0.GetAllShowGiftPackages = function(slot0, slot1)
+	assert(not slot0:ShouldRefreshChargeList())
+
+	slot2 = {}
+	slot3 = RefluxShopView.getAllRefluxPackID()
+	slot4 = getProxy(PlayerProxy):getRawData()
+
+	for slot9, slot10 in pairs(pg.pay_data_display.all) do
+		if not table.contains(slot3, slot10) then
+			slot11 = slot5[slot10]
+			slot12 = slot11.extra_service
+			slot13 = slot11.akashi_pick > 0
+
+			if (slot1 == nil or slot13 == slot1) and (slot12 == Goods.ITEM_BOX or slot12 == Goods.PASS_ITEM) and slot0:filterLimitTypeGoods(Goods.Create({
+				shop_id = slot10
+			}, Goods.TYPE_CHARGE), slot4) then
+				table.insert(slot2, slot14)
+			end
+		end
+	end
+
+	for slot9, slot10 in pairs(pg.shop_template.get_id_list_by_genre[ShopArgs.GiftPackage]) do
+		slot12 = pg.shop_template[slot10].akashi_pick > 0
+
+		if (slot1 == nil or slot12 == slot1) and not table.contains(slot3, slot10) then
+			table.insert(slot2, Goods.Create({
+				shop_id = slot10
+			}, Goods.TYPE_GIFT_PACKAGE))
+		end
+	end
+
+	for slot9, slot10 in pairs(pg.shop_template.get_id_list_by_genre[ShopArgs.GiftActPackage]) do
+		slot12 = pg.shop_template[slot10].akashi_pick > 0
+
+		if (slot1 == nil or slot12 == slot1) and not table.contains(slot3, slot10) then
+			table.insert(slot2, Goods.Create({
+				shop_id = slot10
+			}, Goods.TYPE_GIFT_PACKAGE_ACT))
+		end
+	end
+
+	slot6 = {}
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(slot2) do
+		if slot12:isChargeType() then
+			slot12:updateBuyCount(ChargeConst.getBuyCount(slot0.chargeList, slot12.id))
+
+			if slot12:canPurchase() and slot12:inTime() then
+				table.insert(slot6, slot12)
+			end
+		elseif not slot12:isLevelLimit(slot4.level, true) then
+			slot12:updateBuyCount(ChargeConst.getBuyCount(slot0.normalList, slot12.id))
+
+			slot15 = false
+
+			if (slot12:getConfig("group") or 0) > 0 then
+				slot12:updateGroupCount(ChargeConst.getGroupLimit(slot0.normalGroupList, slot14))
+
+				slot15 = slot12:getConfig("group_limit") > 0 and slot16 <= slot17
+			end
+
+			slot16, slot17 = pg.TimeMgr.GetInstance():inTime(slot12:getConfig("time"))
+
+			if slot17 then
+				table.insert(slot7, slot12)
+			end
+
+			if slot16 and slot12:canPurchase() and not slot15 then
+				table.insert(slot6, slot12)
+			end
+		end
+	end
+
+	return slot6, slot7
+end
+
+slot0.filterLimitTypeGoods = function(slot0, slot1, slot2)
+	return switch(slot1:getConfig("limit_type"), {
+		[3] = function ()
+			if uv0:getConfig("limit_arg") ~= 0 or uv0:isLevelLimit(uv1.level, true) then
+				return false
+			end
+
+			slot0, slot1, slot2 = nil
+
+			for slot6, slot7 in ipairs(uv0:getSameLimitGroupTecGoods()) do
+				if slot7:getConfig("limit_arg") == 1 then
+					slot1 = slot7
+				elseif slot7:getConfig("limit_arg") == 2 then
+					slot0 = slot7
+				elseif slot7:getConfig("limit_arg") == 3 then
+					slot2 = slot7
+				end
+			end
+
+			slot3 = ChargeConst.getBuyCount(uv2.chargeList, slot0.id)
+			slot5 = ChargeConst.getBuyCount(uv2.chargeList, slot2.id)
+
+			if ChargeConst.getBuyCount(uv2.chargeList, slot1.id) > 0 then
+				return false
+			elseif slot3 > 0 and slot5 > 0 then
+				return false
+			else
+				return true
+			end
+		end,
+		[5] = function ()
+			if uv0:getConfig("limit_arg") ~= 0 or uv0:isLevelLimit(uv1.level, true) then
+				return false
+			end
+
+			for slot3, slot4 in ipairs(uv0:getSameLimitGroupTecGoods()) do
+				if slot4:getConfig("limit_arg") ~= 0 and ChargeConst.getBuyCount(uv2.chargeList, slot4.id) > 0 then
+					return false
+				end
+			end
+
+			return true
+		end
+	}, function ()
+		return true
+	end)
 end
 
 return slot0

@@ -48150,6 +48150,43 @@ _G.pg.base.item_data_statistics[40140] = {
 }
 
 
+_G.pg.base.item_data_statistics[40141] = {
+	open_directly = 1,
+	name = "レースクイーンパック",
+	type = 17,
+	display = "限定着せ替えと誓いの指輪を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 50242,
+	is_world = 0,
+	icon = "Props/black5bundle1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 40141,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40701] = {
 	open_directly = 1,
 	name = "カムバック補給",

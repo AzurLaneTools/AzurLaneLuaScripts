@@ -78,7 +78,9 @@ slot13 = function(slot0, slot1, slot2, slot3)
 		slot3[1] = true
 	end
 
-	if (type(uv3(slot6[slot1], slot2)) == "table" and #slot8 == 0 or uv4(slot8)) and not slot7 then
+	slot8 = uv3(slot6[slot1], slot2)
+
+	if not slot7 and (type(slot8) == "table" and #slot8 == 0 or uv4(slot8)) then
 		if slot3 then
 			slot3[1] = true
 		end
@@ -128,9 +130,10 @@ end
 
 slot16 = function(slot0)
 	slot1 = pg.ship_skin_words[slot0]
-	slot3 = PlayerPrefs.GetInt(CV_LANGUAGE_KEY .. uv0[slot0].ship_group)
 
-	if PLATFORM_CODE == PLATFORM_CH and (slot0 == 407010 or slot0 == 407020 or slot0 == 204010 or slot0 == 204040 or slot0 == 9704040 or slot0 == 303120 or slot0 == 305070 or slot0 == 307020) and slot3 == 2 then
+	if PlayerPrefs.GetInt(CV_LANGUAGE_KEY .. uv0[slot0].ship_group) == 2 and underscore.any(getGameset("profile_cvchange_button_block")[2], function (slot0)
+		return uv0 == slot0
+	end) then
 		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot2, 1)
 		PlayerPrefs.Save()
 
