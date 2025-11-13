@@ -1,4 +1,4 @@
-slot0 = class("SkinCouponMultiMsgBox", import("view.base.BaseSubView"))
+slot0 = class("SkinCouponMultiMsgBox", import("view.shops.skinShop.SkinCouponMsgBox"))
 slot1 = 0
 slot2 = 1
 
