@@ -564,6 +564,14 @@ slot0.checkActionExist = function(slot0, slot1)
 	return table.indexof(slot0.animationClipNames, slot1)
 end
 
+slot0.checkActionProfile = function(slot0, slot1)
+	if (not table.indexof(slot0.animationClipNames, slot1) or slot2 == false) and string.find(slot1, "main_") then
+		return true
+	end
+
+	return slot2
+end
+
 slot0.onListenerHandle = function(slot0, slot1, slot2)
 	if not slot0.drags or #slot0.drags == 0 then
 		return
