@@ -52,6 +52,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.addBtn = slot0.contentTF:Find("btns/add")
 	slot0.canRewardIcon = slot0.getBtn:Find("hasicon")
 	slot0.canRewardNum = slot0.getBtn:Find("num")
+	slot0.canExtraRewardIcon = slot0.getBtn:Find("extraIcon")
+	slot0.canExtraRewardNum = slot0.getBtn:Find("extraNum")
 	slot0.shipDetailsBtn = slot0.processTF:Find("ship/details")
 	slot0.shipDetailsPanel = slot0._tf:Find("layout/ship_container")
 	slot0.shipDetailBack = slot0.shipDetailsPanel:Find("back")
@@ -187,6 +189,8 @@ slot0.FlushInfos = function(slot0)
 	setActive(slot0.lockSlot, not slot0.slotData)
 	setActive(slot0.unlockSlot, slot0.slotData)
 	setActive(slot0.addBtn, false)
+	setActive(slot0.canExtraRewardIcon, false)
+	setActive(slot0.canExtraRewardNum, false)
 
 	if not slot0.slotData then
 		return
@@ -239,14 +243,38 @@ slot0.FlushInfos = function(slot0)
 				id = slot8[1][1]
 			}):getConfigTable().icon, "", slot0.canRewardIcon)
 
-			slot13 = "×" .. slot5.formula_drop_list[1].num * slot8[1][2]
+			slot13 = slot5.main_num or 0
+			slot14 = "×" .. slot5.formula_drop_list[1].num * slot8[1][2] + slot13
 
-			if slot5.main_num and slot14 > 0 then
-				slot13 = string.format("×(%d<color=#7df39f>+%d</color>)", slot10, slot14)
+			if slot13 > 0 then
+				setTextColor(slot0.canRewardNum, Color.NewHex("#7df39f"))
+			else
+				setTextColor(slot0.canRewardNum, Color.NewHex("#FFFFFF"))
 			end
 
-			setText(slot0.canRewardNum, slot13)
+			setText(slot0.canRewardNum, slot14)
 			GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[pg.island_formula[slot7].item_id].icon, "", slot0.finishFurmalaIcon)
+
+			if slot5.formula_drop_list[2] then
+				setActive(slot0.canExtraRewardIcon, true)
+				setActive(slot0.canExtraRewardNum, true)
+				GetImageSpriteFromAtlasAsync("island/" .. Drop.New({
+					count = 0,
+					type = DROP_TYPE_ISLAND_ITEM,
+					id = pg.island_formula[slot7].second_product_display[1][1]
+				}):getConfigTable().icon, "", slot0.canExtraRewardIcon)
+
+				slot21 = slot5.other_num or 0
+				slot22 = "×" .. slot5.formula_drop_list[2].num * pg.island_formula[slot7].second_product_display[1][2] + slot21
+
+				if slot21 > 0 then
+					setTextColor(slot0.canExtraRewardNum, Color.NewHex("#7df39f"))
+				else
+					setTextColor(slot0.canExtraRewardNum, Color.NewHex("#FFFFFF"))
+				end
+
+				setText(slot0.canExtraRewardNum, slot22)
+			end
 		end
 
 		if slot4 then
@@ -261,6 +289,7 @@ slot0.FlushInfos = function(slot0)
 
 			slot11 = pg.island_formula[slot4.formula_id]
 			slot13 = slot11.commission_product[1][1]
+			slot14 = pg.island_item_data_template[slot13]
 			slot15 = Drop.New({
 				count = 0,
 				type = DROP_TYPE_ISLAND_ITEM,
@@ -274,13 +303,16 @@ slot0.FlushInfos = function(slot0)
 					dropData = uv1
 				})
 			end)
-			GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[slot13].icon, "", slot0.currentFormulaIcon)
+			GetImageSpriteFromAtlasAsync("island/" .. slot14.icon, "", slot0.currentFormulaIcon)
 			setText(slot0.currentFormulaNum, "×" .. slot11.commission_product[1][2])
+			GetImageSpriteFromAtlasAsync("island/" .. slot14.icon, "", slot0.canRewardIcon)
 
 			slot16 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
 
 			if #slot11.second_product == 0 or not slot16:IsUnlcokSecondProduct(slot10) then
 				setActive(slot0.extraProduct, false)
+				setActive(slot0.canExtraRewardIcon, false)
+				setActive(slot0.canExtraRewardNum, false)
 			else
 				setActive(slot0.extraProduct, true)
 
@@ -289,6 +321,7 @@ slot0.FlushInfos = function(slot0)
 				slot19 = pg.island_item_data_template[slot18]
 
 				GetImageSpriteFromAtlasAsync("island/" .. slot19.icon, "", slot0.extraProductIcon)
+				GetImageSpriteFromAtlasAsync("island/" .. slot19.icon, "", slot0.canExtraRewardIcon)
 				setText(slot0.extraProductName, slot19.name)
 				setText(slot0.extraProductNum, "×" .. slot17[1][2])
 
@@ -359,76 +392,91 @@ slot0.UpdateTime = function(slot0)
 		return
 	end
 
-	slot4 = slot2:GetSlotRewardData()
-
 	if not slot2:GetSlotRoleData() then
 		slot0:FlushInfos()
 
 		return
 	end
 
-	slot5 = slot3:GetFinishTime() - slot0.timeMgr:GetServerTime()
+	slot4 = slot3:GetFinishTime() - slot0.timeMgr:GetServerTime()
 
-	setText(slot0.timeTF, slot0.timeMgr:DescCDTime(slot5))
-	setSlider(slot0.roleDelegationSliderTF, 0, 1, 1 - slot5 / slot3:GetAllTime())
+	setText(slot0.timeTF, slot0.timeMgr:DescCDTime(slot4))
+	setSlider(slot0.roleDelegationSliderTF, 0, 1, 1 - slot4 / slot3:GetAllTime())
 
-	slot10 = "×" .. tostring(pg.island_formula[slot3.formula_id].commission_product[1][2] * slot3:CanRewardTimes())
+	slot8 = slot3:GetCurrentCanRewardExtraMainNum()
+	slot9 = "×" .. tostring(pg.island_formula[slot3.formula_id].commission_product[1][2] * slot3:CanRewardTimes() + slot8)
 
-	if slot3:GetCurrentCanRewardExtraMainNum() and slot9 > 0 then
-		slot10 = string.format("×(%d<color=#7df39f>+%d</color>)", slot8.commission_product[1][2] * slot6, slot9)
+	if slot8 and slot8 > 0 then
+		setTextColor(slot0.canRewardNum, Color.NewHex("#7df39f"))
+	else
+		setTextColor(slot0.canRewardNum, Color.NewHex("#FFFFFF"))
 	end
 
-	setText(slot0.canRewardNum, slot10)
+	setText(slot0.canRewardNum, slot9)
 
-	slot11 = slot3:InCurrentTime()
-	slot0.formulaProcess.fillAmount = (slot0.timeMgr:GetServerTime() - slot3:InCurrentTimeStart(slot11)) / slot3:CurrentTimeNeed(slot11)
+	slot10 = slot3:InCurrentTime()
+	slot0.formulaProcess.fillAmount = (slot0.timeMgr:GetServerTime() - slot3:InCurrentTimeStart(slot10)) / slot3:CurrentTimeNeed(slot10)
 
-	GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[slot8.commission_product[1][1]].icon, "", slot0.canRewardIcon)
 	setText(slot0.currentFormulaLastNum, slot3:LastTimes())
 
-	slot17 = "×" .. slot8.commission_product[1][2]
+	slot14 = "×" .. slot7.commission_product[1][2]
 
-	if slot3:GetExtraMainProduct(slot11) > 0 then
-		slot17 = string.format("×(%s<color=#7df39f>+%d</color>)", slot8.commission_product[1][2], slot16)
+	if slot3:GetExtraMainProduct(slot10) > 0 then
+		slot14 = string.format("×(%s<color=#7df39f>+%d</color>)", slot7.commission_product[1][2], slot13)
 	end
 
-	setText(slot0.currentFormulaNum, slot17 .. i18n("island_production_tip"))
+	setText(slot0.currentFormulaNum, slot14 .. i18n("island_production_tip"))
 
-	if #slot8.second_product > 0 and getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlcokSecondProduct(slot7) then
-		slot19 = "×" .. slot8.second_product_display[1][2]
-
-		if slot3:GetExtraExtraProduct(slot11) > 0 then
-			slot19 = string.format("×(%s<color=#7df39f>+%d</color>)", slot8.second_product_display[1][2], slot18)
-		end
-
-		setText(slot0.extraProductNum, slot19 .. i18n("island_production_tip"))
-	end
-
-	if slot6 > 0 then
+	if slot5 > 0 then
 		setActive(slot0.getBtn, true)
 		setActive(slot0.addBtn, false)
 	else
-		setActive(slot0.addBtn, slot15 < (slot8.production_limit or 5))
+		setActive(slot0.addBtn, slot12 < (slot7.production_limit or 5))
 		onButton(slot0, slot0.addBtn, function ()
 			uv0:OpenFormulaSelectPage(uv1, uv2, uv3, uv4.ship_id)
 		end, SFX_PANEL)
 	end
 
-	if #slot8.second_product == 0 then
+	if #slot7.second_product == 0 or not getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlcokSecondProduct(slot6) then
 		return
 	end
 
-	slot18 = slot2:GetFromulaTatalCount(slot8.id) + slot6
-	slot19 = slot8.second_product[1]
-	slot20 = math.floor(slot18 / slot19)
+	slot16 = "×" .. slot7.second_product_display[1][2]
 
-	if slot18 % slot19 ~= slot0.extraProcess then
-		slot0.extraProcess = slot21
+	if slot3:GetExtraExtraProduct(slot10) > 0 then
+		slot16 = string.format("×(%s<color=#7df39f>+%d</color>)", slot7.second_product_display[1][2], slot15)
+	end
+
+	setText(slot0.extraProductNum, slot16 .. i18n("island_production_tip"))
+
+	if (slot2:GetFromulaTatalCount(slot7.id) + slot5) % slot7.second_product[1] ~= slot0.extraProcess then
+		slot0.extraProcess = slot20
 
 		slot0.extraProductList:align(slot19)
 	end
 
-	setText(slot0.extraProductLastNum, "×" .. math.floor((slot15 + slot21) / slot19))
+	setText(slot0.extraProductLastNum, "×" .. math.floor((slot12 + slot20) / slot19))
+	setActive(slot0.canExtraRewardIcon, math.floor(slot18 / slot19) - math.floor(slot17 / slot19) > 0)
+	setActive(slot0.canExtraRewardNum, slot24 > 0)
+
+	if slot24 > 0 then
+		slot25 = slot17 % slot19
+		slot26 = 0
+
+		for slot30 = 1, slot24 do
+			slot26 = slot26 + slot3:GetExtraExtraProduct(math.floor((slot10 - (slot30 - 1) * slot19 + slot25) / slot19) * slot19 - slot25)
+		end
+
+		slot27 = "×" .. slot7.second_product_display[1][2] * slot24 + slot26
+
+		if slot26 > 0 then
+			setTextColor(slot0.canExtraRewardNum, Color.NewHex("#7df39f"))
+		else
+			setTextColor(slot0.canExtraRewardNum, Color.NewHex("#FFFFFF"))
+		end
+
+		setText(slot0.canExtraRewardNum, slot27)
+	end
 end
 
 slot0.StartTimer = function(slot0)

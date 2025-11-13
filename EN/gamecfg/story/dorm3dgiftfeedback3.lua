@@ -1,14 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DGIFTFEEDBACK3",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DGIFTFEEDBACK3",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			say = "You'd give me this book? That must mean that my lack of determination has caused trouble for you!",
+			nameColor = "#FFFFFF",
+			actorName = 20220,
+			say = "You gifting me this book can mean only one thing... that I'm not adequately capable in my role, and that worries you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +36,9 @@ return {
 			}
 		},
 		{
-			say = "I vow to read this book from cover to cover and become the perfect maid that you can be proud of!",
+			nameColor = "#FFFFFF",
+			actorName = 20220,
+			say = "I vow to read this book carefully and become the perfect maid who will be the pride of {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

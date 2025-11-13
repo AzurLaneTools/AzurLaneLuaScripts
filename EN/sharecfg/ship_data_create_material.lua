@@ -209,13 +209,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 28.8%",
 			" ",
-			"<color=#ff5e39>Hakuhou</color>: 1.2% (<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>Unzen</color>: 1.2% (<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>Oumi</color>: 2.0% (<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Owari</color>: 2.0% (<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>Asama</color>: 0.5%",
+			"<color=#ffde38>Hatsuzuki</color>: 0.5%",
 			" ",
-			"<color=#d797ff>Minase</color>: 2.5% (<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Natori</color>: 2.5% (<color=#92fc63>up!</color>)"
 		}
 	},
 	{

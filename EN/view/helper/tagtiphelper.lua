@@ -87,6 +87,10 @@ slot0.MonthCardTagTip = function(slot0)
 	triggerToggle(slot0, MonthCardOutDateTipPanel.GetShowMonthCardTag())
 end
 
+slot0.GiftPackagesTag = function(slot0)
+	getProxy(ShopsProxy):GiftPackageRedDotTip(slot0, nil)
+end
+
 slot0.FreeGiftTag = function(slot0)
 	if not getProxy(ShopsProxy):getChargedList() then
 		pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {

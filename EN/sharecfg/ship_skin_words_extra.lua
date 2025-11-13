@@ -366,7 +366,9 @@ pg.ship_skin_words_extra = setmetatable({
 		9600130,
 		9600140,
 		9600150,
-		9600160
+		9600160,
+		107090,
+		405020
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -25868,6 +25870,117 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Life with you is the peace I've always dreamed of! As long as I have you, I can go confidently to the most dangerous deserted islands or the deepest trenches of the ocean!"
+			}
+		}
+	},
+	[107090] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 107090,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Hello and welcome back to port, Commander! ...Hmm? There I go being formal again. I-it's just that, since you came home, I wanted to be as polite as possible..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Stay with me a little longer, would you?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"If I ever become the kind of person who my juniors admire... then I think it'll be because you gave me the courage to become that person.|Peaceful afternoons with you are so nice... Heehee, mind if I bring you a cup of coffee?|Ah... I looked at your last combat report. No, I wasn't analyzing your tactics – I just saw you in the video, and... I couldn't take my eyes off of you."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hm? You wanna chat? I'd love to! Oh... Another sortie, huh?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"A-an ambush?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I feel your love and trust in me, Commander... I promise, I'll prove that you made the right choice even if it takes my whole life to do it – because I'm your one and only Essex!"
+			}
+		}
+	},
+	[405020] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 405020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"You're finally here, Commander... My waiting was worth it."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"It used to be so easy to bear with the loneliness... Now that I have you, even a single second of it feels unbelievably long.|Sometimes, when I leave home, I can't help but think that someone is waiting for me... It makes the passage of time suddenly feel so much faster.|You are my morning sun that melts the winter ice... Let me stay with you, if only for a little longer."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Your body is... delightfully warm."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"...Can you not wait even a moment longer? Well, I feel the same way..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"In my endless waiting, I've looked forward to the end of the bitter cold thousands of times, hoping for the moment when all the despair, anguish, and loneliness will disappear. Now, my wish has finally come true, because I have you by my side."
 			}
 		}
 	}

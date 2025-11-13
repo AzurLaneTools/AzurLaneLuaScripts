@@ -48,7 +48,8 @@ pg.dorm3d_rooms = {
 			4,
 			5,
 			6,
-			7
+			7,
+			8
 		},
 		ar_anim = {
 			{

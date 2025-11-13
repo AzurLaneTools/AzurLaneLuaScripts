@@ -77,7 +77,7 @@ end
 slot0._CollectExpiredItems = function(slot0, slot1)
 	slot2 = {}
 
-	for slot7, slot8 in pairs(pg.shop_template.get_id_list_by_genre.gift_package) do
+	for slot7, slot8 in pairs(pg.shop_template.get_id_list_by_genre[ShopArgs.GiftPackage]) do
 		if slot0:InTime(pg.shop_template[slot8].time) and pg.item_data_statistics[slot9.effect_args[1] or 0] then
 			slot0:GetExpiredItemIdFromDropList(slot2, slot11.display_icon, slot1)
 		end

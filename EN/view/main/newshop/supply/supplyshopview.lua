@@ -308,7 +308,7 @@ slot0.UpdateShop = function(slot0)
 	slot4, slot5 = slot0.pages[slot1.type]:CanOpen(slot1.shopData, slot0.player)
 
 	if slot4 then
-		if slot0.page then
+		if slot0.page and slot0.page ~= slot3 then
 			slot0.page:Hide()
 		end
 

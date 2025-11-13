@@ -96,6 +96,19 @@ pg.dorm3d_recall = {
 			2022002
 		}
 	},
+	{
+		story_id = 10080,
+		name = "In the Morning",
+		type = 1,
+		id = 8,
+		image = "gift_03",
+		unlock_text = "Unlocked after gifting The Perfect Maid's Guidebook.",
+		desc = "As the light of dawn breaks through, you hear her voice. This is the start of a wonderful day.",
+		unlock = {
+			3,
+			2022003
+		}
+	},
 	[21] = {
 		story_id = 20500,
 		name = "Surprise for Sore Eyes",
@@ -364,6 +377,9 @@ pg.dorm3d_recall = {
 		[10070] = {
 			7
 		},
+		[10080] = {
+			8
+		},
 		[20500] = {
 			21
 		},
@@ -427,6 +443,7 @@ pg.dorm3d_recall = {
 		5,
 		6,
 		7,
+		8,
 		21,
 		22,
 		23,

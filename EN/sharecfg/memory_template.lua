@@ -3764,6 +3764,10 @@ pg.memory_template = setmetatable({
 		4755,
 		4756,
 		4757,
+		4761,
+		4762,
+		4763,
+		4771,
 		10011,
 		10012,
 		10013,
@@ -45354,6 +45358,50 @@ pg.base.memory_template = {
 		story = "QISHENG7",
 		id = 4757,
 		icon = "memory_qisheng",
+		is_open = 0
+	},
+	[4761] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Black Blur Prelude",
+		condition = "Complete New Jersey's Vignette in \"Port Fashion Collection: Race Track Fever\"",
+		story = "SHISHANGTEKANJICHIRELANG1",
+		id = 4761,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0
+	},
+	[4762] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Cheerleading Mechanic?",
+		condition = "Complete Admiral Nakhimov's Vignette in \"Port Fashion Collection: Race Track Fever\"",
+		story = "SHISHANGTEKANJICHIRELANG2",
+		id = 4762,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0
+	},
+	[4763] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Start Line Splash",
+		condition = "Complete Essex's Vignette in \"Port Fashion Collection: Race Track Fever\"",
+		story = "SHISHANGTEKANJICHIRELANG3",
+		id = 4763,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0
+	},
+	[4771] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The New Sales Campaign Just Dropped!",
+		condition = "Unlock \"The New Sales Campaign Just Dropped!\"",
+		story = "JINNIANDECUXIAOXINGSHISHI1",
+		id = 4771,
+		icon = "memory_jinniandecuxiaoxingshishi",
 		is_open = 0
 	},
 	[10011] = {

@@ -68,11 +68,25 @@ end
 
 slot0.GetExtraServiceItem = function(slot0)
 	slot1 = nil
-	slot1 = (not slot0:isPassItem() or PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot0:getConfig("sub_display")[1]].award_pay, function (slot0)
-		return Drop.Create(pg.battlepass_event_award[slot0].drop_client)
-	end))) and underscore.map(slot0:getConfig("extra_service_item"), function (slot0)
-		return Drop.Create(slot0)
-	end)
+
+	if slot0:isPassItem() then
+		slot6 = nil
+
+		if getProxy(ActivityProxy):getActivityById(slot0:getConfig("sub_display")[1]):getConfig("type") == 130 then
+			slot1 = PlayerConst.MergePassItemDrop(underscore.map(pg.black_friday_battlepass_event_pt[slot3].award_pay, function (slot0)
+				return Drop.Create(pg.black_friday_battlepass_event_award[slot0].drop_client)
+			end))
+		elseif slot5 == 54 then
+			slot1 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot3].award_pay, function (slot0)
+				return Drop.Create(pg.battlepass_event_award[slot0].drop_client)
+			end))
+		end
+	else
+		slot1 = underscore.map(slot0:getConfig("extra_service_item"), function (slot0)
+			return Drop.Create(slot0)
+		end)
+	end
+
 	slot2 = slot0:GetGemCnt()
 
 	if not slot0:isMonthCard() and slot2 > 0 then
@@ -118,12 +132,22 @@ slot0.GetExtraDrop = function(slot0)
 
 	if slot0:isPassItem() then
 		slot2, slot3 = unpack(slot0:getConfig("sub_display"))
-		slot4 = pg.battlepass_event_pt[slot2].pt
-		slot1 = Drop.New({
-			type = DROP_TYPE_VITEM,
-			id = pg.battlepass_event_pt[slot2].pt,
-			count = slot3
-		})
+
+		if getProxy(ActivityProxy):getActivityById(slot2):getConfig("type") == 130 then
+			slot6 = pg.black_friday_battlepass_event_pt[slot2].pt
+			slot1 = Drop.New({
+				type = DROP_TYPE_VITEM,
+				id = pg.black_friday_battlepass_event_pt[slot2].pt,
+				count = slot3
+			})
+		elseif slot5 == 54 then
+			slot6 = pg.battlepass_event_pt[slot2].pt
+			slot1 = Drop.New({
+				type = DROP_TYPE_VITEM,
+				id = pg.battlepass_event_pt[slot2].pt,
+				count = slot3
+			})
+		end
 	end
 
 	return slot1
@@ -272,6 +296,30 @@ slot0.GetPackageTag = function(slot0)
 	else
 		return slot0:getConfig("package_tag")
 	end
+end
+
+slot0.isTip = function(slot0)
+	if slot0:isGiftPackage() or slot0:isActGiftPackage() then
+		slot2 = slot0:getConfig("akashi_pick") > 0 and "payshop_pack_red_dot" or "gemshop_pack_red_dot"
+		slot3, slot4 = unpack(getGameset(slot2))
+
+		if PlayerPrefs.GetInt(slot2, 0) ~= slot3 and table.contains(slot4[1], slot0.id) then
+			return true
+		end
+
+		return slot0:isFree()
+	end
+end
+
+slot0.isTip = function(slot0)
+	slot2 = slot0:getConfig("akashi_pick") > 0 and "payshop_pack_red_dot" or "gemshop_pack_red_dot"
+	slot3, slot4 = unpack(getGameset(slot2))
+
+	if PlayerPrefs.GetInt(slot2, 0) ~= slot3 and table.contains(slot4[2], slot0.id) then
+		return true
+	end
+
+	return slot0:isFree()
 end
 
 return slot0

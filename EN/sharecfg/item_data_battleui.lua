@@ -148,6 +148,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[110] = {
+		name = "Black Friday",
+		key = "SkinNormal_20251113",
+		display_icon = "ui_110",
+		unlock = "Obtained from Black Friday Cruise Pass.",
+		is_unlock = 1,
+		rare = 3,
+		desc = "This Battle UI is designed for shopping-loving Commanders. While enjoying the thrill of shopping, overwhelm your opponents with a deluge of gifts.",
+		id = 110,
+		icon = "110",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "Christmas",
 		key = "SkinNormal_20241209",
@@ -244,6 +259,7 @@ pg.item_data_battleui = {
 		107,
 		108,
 		109,
+		110,
 		201,
 		202,
 		203,

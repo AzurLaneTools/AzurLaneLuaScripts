@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50213
+			50222
 		}
 	},
 	{
@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50213
+			50222
 		}
 	},
 	[11] = {
@@ -289,17 +289,20 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "SailingShip3CoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_core",
+		text_pic = "text_event_blackfriday",
 		type = 16,
-		pic = "event_core",
+		pic = "event_blackfriday",
 		id = 109,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			50205
+			50234
+		},
+		param = {
+			"PSSCoreActivityUI",
+			"JINNIANDECUXIAOXINGSHISHI1"
 		}
 	},
 	[110] = {

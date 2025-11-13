@@ -419,6 +419,7 @@ slot0.StartInteraction = function(slot0)
 	slot0:ShowOrHideGameObject(slot0.moveBtn, false)
 	slot0:ShowOrHideGameObject(slot0.opPanel, false)
 	slot0.playerInputManager:DisablePlayerHandle()
+	slot0:GetView().player:StopMoveHandle()
 end
 
 slot0.EndInteraction = function(slot0)

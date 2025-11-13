@@ -153,8 +153,8 @@ slot0.onRegister = function(slot0)
 	end
 
 	slot2 = function(slot0, slot1)
-		for slot5, slot6 in pairs(slot0) do
-			if slot6.type == DROP_TYPE_SKIN and pg.ship_skin_template[slot6.id].skin_type ~= ShipSkin.SKIN_TYPE_REMAKE and not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot6.id) then
+		for slot5, slot6 in ipairs(slot0) do
+			if slot6.type == DROP_TYPE_SKIN and pg.ship_skin_template[slot6.id].skin_type ~= ShipSkin.SKIN_TYPE_REMAKE then
 				table.insert(slot1, function (slot0)
 					uv0:addSubLayers(Context.New({
 						mediator = NewSkinMediator,
@@ -168,7 +168,7 @@ slot0.onRegister = function(slot0)
 			end
 
 			if slot6.type == DROP_TYPE_SKIN_TIMELIMIT then
-				if slot6.count > 0 and not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot6.id) then
+				if slot6.count > 0 and not getProxy(ShipSkinProxy):hasNonLimitSkin(slot6.id) then
 					table.insert(slot1, function (slot0)
 						uv0:addSubLayers(Context.New({
 							mediator = NewSkinMediator,

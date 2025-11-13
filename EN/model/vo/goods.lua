@@ -3,6 +3,7 @@ slot0.TYPE_SHOPSTREET = 1
 slot0.TYPE_MILITARY = 2
 slot0.TYPE_CHARGE = 3
 slot0.TYPE_GIFT_PACKAGE = 4
+slot0.TYPE_GIFT_PACKAGE_ACT = 5
 slot0.TYPE_SKIN = 6
 slot0.TYPE_ACTIVITY = 7
 slot0.TYPE_ACTIVITY_EXTRA = 8
@@ -39,6 +40,9 @@ end
 slot1 = {
 	[slot0.TYPE_CHARGE] = function (slot0, slot1)
 		return ChargeCommodity.New(slot0, slot1)
+	end,
+	[slot0.TYPE_GIFT_PACKAGE_ACT] = function (slot0, slot1)
+		return GiftActCommodity.New(slot0, slot1)
 	end,
 	[slot0.TYPE_ACTIVITY] = function (slot0, slot1)
 		return ActivityCommodity.New(slot0, slot1)

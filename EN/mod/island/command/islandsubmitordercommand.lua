@@ -89,6 +89,7 @@ slot0.HandleFirmOrder = function(slot0, slot1)
 			slot1 = uv0:HandleDrops(uv1)
 
 			uv0:HandleConsume(uv1)
+			uv0:HandleFirmActivityOrder(uv1)
 			uv2:RemoveSlot(uv1.id)
 			uv2:RecordNextCanSubmitTime()
 
@@ -118,6 +119,16 @@ end
 slot0.HandleConsume = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot1:GetOrder():GetConsume()) do
 		slot0:sendNotification(GAME.CONSUME_ITEM, slot7)
+	end
+end
+
+slot0.HandleFirmActivityOrder = function(slot0, slot1)
+	if isa(slot1:GetOrder(), IslandFirmActivityOrder) then
+		if slot2:getConfig("next_order") == 0 then
+			getProxy(IslandProxy):GetIsland():GetOrderAgency():AddFinishedActGroupId(slot2:GetActivityId(), slot2:GetGroupId())
+		end
+
+		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.ACTIVITY_ORDER)
 	end
 end
 

@@ -45,6 +45,13 @@ pg.dorm3d_subtitle = setmetatable({
 		1006,
 		1007,
 		1008,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
 		2101,
 		2102,
 		2103,
@@ -318,6 +325,34 @@ pg.base.dorm3d_subtitle = {
 	[1008] = {
 		id = 1008,
 		subtitle = "Phew... That should do it!"
+	},
+	[1101] = {
+		id = 1101,
+		subtitle = "Honourable Master? It's about time to wake up..."
+	},
+	[1102] = {
+		id = 1102,
+		subtitle = "To think I get to wake up right beside you..."
+	},
+	[1103] = {
+		id = 1103,
+		subtitle = "Were you able to sleep well, Master?"
+	},
+	[1104] = {
+		id = 1104,
+		subtitle = "How did you like the bed? And the pillow? I strive to improve!"
+	},
+	[1105] = {
+		id = 1105,
+		subtitle = "What an embarrassment of a maid I am, flaling asleep before her master did..."
+	},
+	[1106] = {
+		id = 1106,
+		subtitle = "Oh, I-I'm so sorry... I didn't mean to..."
+	},
+	[1107] = {
+		id = 1107,
+		subtitle = "Please, punish me for my insolence, my honourable Master!"
 	},
 	[2101] = {
 		id = 2101,

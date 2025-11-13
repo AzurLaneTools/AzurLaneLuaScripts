@@ -242,6 +242,8 @@ pg.memory_group = setmetatable({
 		342,
 		343,
 		344,
+		345,
+		346,
 		501,
 		502,
 		503,
@@ -6011,6 +6013,32 @@ pg.base.memory_group = {
 			4747,
 			4748,
 			4749
+		}
+	},
+	[345] = {
+		title = "Port Fashion Collection: Race Track Fever",
+		subtype = 3,
+		link_event = 50235,
+		type = 2,
+		id = 345,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4761,
+			4762,
+			4763
+		}
+	},
+	[346] = {
+		title = "The New Sales Campaign Just Dropped!",
+		subtype = 3,
+		link_event = 50240,
+		type = 2,
+		id = 346,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4771
 		}
 	},
 	[501] = {

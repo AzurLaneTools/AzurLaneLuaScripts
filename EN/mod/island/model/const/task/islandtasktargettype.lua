@@ -65,7 +65,8 @@ slot0.GetRuntimeTypes = function()
 		uv0.STORY,
 		uv0.ACTION,
 		uv0.COMMANDER_DRESS_ID,
-		uv0.SHIP_DRESS_ID
+		uv0.SHIP_DRESS_ID,
+		uv0.ACTIVITY_ORDER
 	}
 end
 

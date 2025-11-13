@@ -39,8 +39,18 @@ slot0.execute = function(slot0, slot1)
 				return
 			end
 		end
-	elseif slot4 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 and slot2.cmd == 2 and not slot3:CanRequest() then
-		return
+	elseif slot4 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
+		if slot2.cmd == 2 and not slot3:CanRequest() then
+			return
+		end
+	elseif slot4 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+		slot5 = slot2.costDrop
+
+		if slot5:getOwnedCount() < slot5.count then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+
+			return
+		end
 	end
 
 	print(slot2.activity_id, slot2.cmd, slot2.arg1, slot2.arg2)
@@ -626,6 +636,12 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 		elseif slot1.cmd == 2 then
 			slot3:updateKVPList(1, slot1.arg1, slot1.canGetIndex)
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+		assert(slot3.data1 == 0)
+
+		slot3.data1 = 1
+
+		reducePlayerOwn(slot1.costDrop)
 	end
 
 	return slot3
@@ -735,6 +751,9 @@ slot0.performance = function(slot0, slot1, slot2, slot3, slot4)
 			if uv1:getConfig("config_client").ActID and slot2:getActivityById(slot3) then
 				slot2:updateActivity(slot4)
 			end
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+			getProxy(ActivityProxy):updateActivity(uv1)
+			uv3:sendNotification(NewShopMainMediator.NOTI_UPDATE_CURRENT)
 		end
 
 		if #uv5 > 0 then

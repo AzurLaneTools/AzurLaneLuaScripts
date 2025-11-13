@@ -2741,6 +2741,10 @@ slot0.CheckGuide = function(slot0)
 		return
 	end
 
+	if DORM_LOCK_GUIDE then
+		return false
+	end
+
 	slot4 = function()
 		return uv0:CheckSystemOpen("DayNight")
 	end

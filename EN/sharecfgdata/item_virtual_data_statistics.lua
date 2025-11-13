@@ -168519,6 +168519,31 @@ _G.pg.base.item_virtual_data_statistics[65106] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65107] = {
+	drop_gold_max = 0,
+	name = "BF Progress Pts.",
+	display = "A currency earned from completing Black Friday Cruise Missions during the campaign, used to obtain milestone rewards. Will disappear after the campaign ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7301,
+	icon = "props/battlepass_blackfriday_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 29,
+	id = 65107,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "Stellar Resistance Medal",
@@ -169899,6 +169924,56 @@ _G.pg.base.item_virtual_data_statistics[65552] = {
 	drop_oil_max = 0,
 	virtual_type = 13,
 	id = 65552,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65553] = {
+	drop_gold_max = 0,
+	name = "Skin Coupon (Black Friday 2025)",
+	display = "During the campaign, this coupon can used to gain a discount of 300 Gems when buying a Black Friday rerun skin in the Shop.\nValid until 2025/12/3 23:59:59 (UTC-7).",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50241,
+	icon = "Props/skin_300",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65553,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65554] = {
+	drop_gold_max = 0,
+	name = "Skin Coupon (BF Cruise Missions)",
+	display = "During the campaign, this coupon can used to gain a discount of 180 Gems when buying a Black Friday rerun skin in the Shop.\nValid until 2025/12/3 23:59:59 (UTC-7).",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50243,
+	icon = "Props/skin_180_blackfriday",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65554,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173032,6 +173107,222 @@ _G.pg.base.item_virtual_data_statistics[65731] = {
 	virtual_type = 0,
 	id = 65731,
 	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65732] = {
+	drop_gold_max = 0,
+	name = "Sakura Emblems",
+	display = "Used to exchange for items in \"Effulgence Before Eclipse\" rerun event. Will be removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/yunxian_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65732,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65733] = {
+	drop_gold_max = 0,
+	name = "Shipbuilding Support Ticket",
+	display = "A limited construction ticket for use during the \"Effulgence Before Eclipse\" rerun event. Removed after the event ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50236,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65733,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65734] = {
+	drop_gold_max = 0,
+	name = "Training Pts",
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_rv3",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65734,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65735] = {
+	drop_gold_max = 0,
+	name = "Rental Outfit Voucher",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65735,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65736] = {
+	drop_gold_max = 0,
+	name = "Gear Skin Box (Spirits Eve)",
+	display = "Contains a random Spirits Eve-themed gear skin.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/equipskin_drop_display",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65736,
+	display_icon = {
+		{
+			9,
+			830,
+			1
+		},
+		{
+			9,
+			831,
+			1
+		},
+		{
+			9,
+			832,
+			1
+		},
+		{
+			9,
+			833,
+			1
+		},
+		{
+			9,
+			834,
+			1
+		},
+		{
+			9,
+			835,
+			1
+		},
+		{
+			9,
+			836,
+			1
+		},
+		{
+			9,
+			837,
+			1
+		},
+		{
+			9,
+			838,
+			1
+		},
+		{
+			9,
+			839,
+			1
+		},
+		{
+			9,
+			840,
+			1
+		},
+		{
+			9,
+			841,
+			1
+		},
+		{
+			9,
+			842,
+			1
+		},
+		{
+			9,
+			843,
+			1
+		},
+		{
+			9,
+			844,
+			1
+		},
+		{
+			9,
+			845,
+			1
+		},
+		{
+			9,
+			846,
+			1
+		},
+		{
+			9,
+			847,
+			1
+		}
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {},
@@ -183647,6 +183938,162 @@ _G.pg.base.item_virtual_data_statistics[86418] = {
 			1800
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86419] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86419,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307084,
+			830
+		},
+		{
+			499022,
+			830
+		},
+		{
+			699021,
+			830
+		},
+		{
+			205161,
+			830
+		},
+		{
+			499053,
+			830
+		},
+		{
+			307076,
+			830
+		},
+		{
+			202204,
+			870
+		},
+		{
+			904021,
+			830
+		},
+		{
+			407041,
+			830
+		},
+		{
+			799021,
+			830
+		},
+		{
+			901072,
+			830
+		},
+		{
+			405013,
+			830
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86420] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = [[
+Contains a random unowned Live2D skin of from the list. Commanders that have owned all Live2D skins will get 1080 Gems instead.
+The probability of acquiring any unowned skin is the same. The list is as followed:
+Cheshire - The Cat in the Magic Hat (L2D);
+Prinz Adalbert - Bathroom Slip-Up (L2D);
+Monarch - Sovereign of the Beach (L2D);
+Friedrich Carl - Tender Summer Care (L2D);
+Formidable - Anniversary Memories (L2D);
+Alsace - Heat-Beating Summer Sacrament (L2D);
+Mogador - Locker Room Lechery (L2D);
+St. Louis - An Afternoon on the Lido Deck (L2D);
+Lion - The Reclining Dandelion (L2D);
+Trafalgar - Sea Breeze, Moonlit Talks (L2D);
+Taihou - Fun on the Baize (L2D);
+De Zeven Provinciën - Snuggling for Warmth (L2D);
+Kursk - Lone Wolf Amid the Steam (L2D);
+Grozny - Bunny in the Banya (L2D);
+Mogador - Olfactory Nursery Call (L2D);
+Formidable - The Lover's Heart Flutters On Duty (L2D);
+Raffaello - Protector of Love and Beauty (L2D);
+Chi An - Exotic Dreamland (L2D);
+Lung Wu - Ascendant Dragon's Spring Feast (L2D);
+Northampton II - Swimming Star (L2D);
+Albion - Scent of Spring in the Red Pavilion (L2D);
+Anchorage - Moonlit Boat Ride (L2D);
+Perseus - Spring's Lackadaisical Leisure (L2D);
+Mainz - A Blend of Serenity (L2D);
+Jean Bart - Springlight Étoiles (L2D);
+Brest - Moonlit Night's Spring Vista (L2D);
+Strasbourg - Faerie of the Race Circuit (L2D);
+Joffre - Blessings' First Flight (L2D);
+Illustrious - Our Private "Study" Session (L2D);
+Kazagumo - Diligent Domestic Discipline (L2D);
+Kearsarge - All-Night Charge (L2D);
+Admiral Nakhimov - First Time in the Limelight (L2D);
+Shinano - Visions of Fantasy (L2D);
+Napoli - Dreamy Night (L2D);
+Guam - Stage-Setting Charmer (L2D);
+Cleveland - Knight of the Pop-Up Shop (L2D);
+Fritz Rumey - Schwarzes Kaninchen (L2D);
+Bismarck - Unpacked Surprise (L2D);
+Ägir - One-on-One Leisure Time (L2D);
+Honolulu - Among the Stalls (L2D);
+Vampire - Night Princess's Regalia (L2D);
+Aurora - Heritage of Yu City (L2D);
+Reno - Reno Bunnino (L2D);
+North Carolina - The Heart's Desire (L2D);
+Abercrombie - Mischief on the Rocks (L2D);
+Gorizia - Unrequited Office Love? (L2D);
+Ulrich von Hutten - Ignition Matrician (L2D);
+Sovetsky Soyuz - Skyfall Agent (L2D);
+Devonshire - Sadistic Demon (L2D);
+Owari - My Wish is For Love (L2D);
+Hindenburg - Delirious Duel (L2D);
+Amagi(CV) - Throne of Fallen Petals (L2D);
+Watarase - Garments of Everlasting Magic (L2D);
+Sirius - Rabbit of Paradise (L2D);
+Musashi - The Purple Rabbit's Marksmanship (L2D)；]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86420,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

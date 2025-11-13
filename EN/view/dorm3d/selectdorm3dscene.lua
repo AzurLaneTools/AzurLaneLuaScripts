@@ -123,7 +123,7 @@ slot0.InitIconTrigger = function(slot0, slot1)
 			return
 		end
 
-		if uv0 ~= 1 and (not getProxy(ApartmentProxy):getRoom(1) or not pg.NewStoryMgr.GetInstance():IsPlayed("DORM3D_GUIDE_02")) then
+		if uv0 ~= 1 and (not getProxy(ApartmentProxy):getRoom(1) or not pg.NewStoryMgr.GetInstance():IsPlayed("DORM3D_GUIDE_02")) and not DORM_LOCK_GUIDE then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_guide_tip"))
 
 			return
@@ -132,7 +132,7 @@ slot0.InitIconTrigger = function(slot0, slot1)
 		slot0 = getProxy(ApartmentProxy):getRoom(uv0)
 
 		if pg.dorm3d_rooms[uv0].type == 1 then
-			if uv0 ~= 4 and not pg.NewStoryMgr.GetInstance():IsPlayed("DORM3D_GUIDE_06") then
+			if uv0 ~= 4 and not pg.NewStoryMgr.GetInstance():IsPlayed("DORM3D_GUIDE_06") and not DORM_LOCK_GUIDE then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_guide_tip2"))
 
 				return
@@ -256,6 +256,10 @@ slot0.ReplaceSpecialRoomIcon = function(slot0)
 		table.sort(slot6)
 
 		slot9 = pg.dorm3d_dialogue_group[slot6[1]]
+
+		if DORM_LOCK_GUIDE and slot8 == 10010 then
+			return
+		end
 
 		onButton(slot0, slot7, function ()
 			slot0 = uv0
@@ -437,6 +441,10 @@ end
 slot0.CheckGuide = function(slot0, slot1)
 	if pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
 		return
+	end
+
+	if DORM_LOCK_GUIDE then
+		return false
 	end
 
 	return switch(slot1, {

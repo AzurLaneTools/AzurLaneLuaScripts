@@ -267,6 +267,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[2022003] = {
+		display = "This book explains in detail the knowledge, skills, and mindset that a perfect maid must have, using examples and thought-out theory.\nIt urges the reader to carry the spirit of maidly service with them even in daily life.",
+		name = "The Perfect Maid's Guidebook",
+		unlock_dialogue_id = 10080,
+		rarity = 4,
+		ship_group_id = 20220,
+		favor_trigger_id = 1004,
+		id = 2022003,
+		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift4",
+		reply_dialogue_id = {
+			{
+				20220,
+				1506
+			}
+		},
+		shop_id = {
+			260303
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				20220,
+				{
+					"banner_gift2022003"
+				}
+			}
+		}
+	},
 	[3022101] = {
 		display = "A simple design with a simple color scheme. Easy and comfortable to wear. \nThey fit perfectly around the heel and welcome your feet every time you put them on.",
 		name = "Sincere Loafers",
@@ -455,7 +485,8 @@ pg.dorm3d_gift = {
 		},
 		[20220] = {
 			2022001,
-			2022002
+			2022002,
+			2022003
 		},
 		[30221] = {
 			3022101,
@@ -478,6 +509,7 @@ pg.dorm3d_gift = {
 		1021003,
 		2022001,
 		2022002,
+		2022003,
 		3022101,
 		3022102,
 		1990301,

@@ -5,6 +5,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1.transform
 	slot0.usingTr = findTF(slot0._tf, "using")
 	slot0.unavailableTr = findTF(slot0._tf, "unavailable")
+	slot0.have = slot0._tf:Find("have")
 	slot0.icon = findTF(slot0._tf, "mask/icon")
 	slot0.name = findTF(slot0._tf, "name/Text"):GetComponent(typeof(Text))
 	slot0.enName = findTF(slot0._tf, "name/en"):GetComponent(typeof(Text))
@@ -14,36 +15,44 @@ slot0.Ctor = function(slot0, slot1)
 
 	setText(slot0.usingTr:Find("Text"), i18n("shop_new_in_use"))
 	setText(slot0.unavailableTr:Find("Text"), i18n("shop_new_unable_to_use"))
+	setText(slot0.have:Find("Text"), i18n("shop_new_owned"))
+	setActive()
 end
 
-slot0.Update = function(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	slot0.index = slot2
 	slot0.skin = slot1
 
 	GetImageSpriteFromAtlasAsync("shipYardIcon/" .. slot1:getConfig("painting"), "", slot0.icon)
 
-	slot4 = false
 	slot5 = false
+	slot6 = false
 
 	if pg.ship_skin_template[slot0.skin.id].skin_type ~= ShipSkin.SKIN_TYPE_TB then
-		slot8 = not slot1:WithoutUse()
-		slot9 = #getProxy(BayProxy):findShipsByGroup(slot1:getConfig("ship_group")) == 0 or getProxy(CollectionProxy).shipGroups[slot6] == nil
+		slot9 = not slot1:WithoutUse()
+		slot10 = #getProxy(BayProxy):findShipsByGroup(slot1:getConfig("ship_group")) == 0 or getProxy(CollectionProxy).shipGroups[slot7] == nil
 	end
 
-	setActive(slot0.usingTr, slot4)
-	setActive(slot0.unavailableTr, slot5)
+	setActive(slot0.usingTr, slot5)
+	setActive(slot0.unavailableTr, slot6)
+
+	if slot3 then
+		setActive(slot0.have, getProxy(ShipSkinProxy):hasSkin(slot0.skin.id))
+	else
+		setActive(slot0.have, false)
+	end
 
 	slot0.name.text = shortenString(slot1:getConfig("name"), 7)
 
-	if slot3.skin_type == ShipSkin.SKIN_TYPE_TB then
+	if slot4.skin_type == ShipSkin.SKIN_TYPE_TB then
 		slot0.enName.text = NewEducateHelper.GetShipNameBySecId(NewEducateHelper.GetSecIdBySkinId(slot0.skinId))
 	else
-		slot0.enName.text = ShipGroup.getDefaultShipConfig(slot3.ship_group).english_name
+		slot0.enName.text = ShipGroup.getDefaultShipConfig(slot4.ship_group).english_name
 	end
 
 	setActive(slot0.changeSkinUI, ShipSkin.GetChangeSkinData(slot0.skin.id) and true or false)
 
-	if slot7 then
+	if slot8 then
 		if not slot0.changeSkinToggle then
 			slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.changeSkinUI, "ChangeSkinToggleUI"))
 		end

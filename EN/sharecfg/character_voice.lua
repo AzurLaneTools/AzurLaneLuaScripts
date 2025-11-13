@@ -111,7 +111,7 @@ pg.character_voice = {
 		spine_action = "normal",
 		profile_index = 9,
 		sp_trans_l2d = 0,
-		l2d_action = "main_3",
+		l2d_action = "main_6",
 		unlock_condition = {
 			0,
 			0
