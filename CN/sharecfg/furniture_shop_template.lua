@@ -395,8 +395,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2025,
-					5,
-					20
+					11,
+					13
 				},
 				{
 					0,
@@ -407,8 +407,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2025,
-					5,
-					24
+					11,
+					16
 				},
 				{
 					23,

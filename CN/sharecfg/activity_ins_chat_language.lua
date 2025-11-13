@@ -62229,7 +62229,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[6255] = {
-		param = "所以你为什么会去仓库得集装箱里躲着？",
+		param = "所以你为什么会去仓库的集装箱里躲着？",
 		ship_group = 0,
 		option = "",
 		type = 1,

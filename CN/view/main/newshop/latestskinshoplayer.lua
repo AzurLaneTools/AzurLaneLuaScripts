@@ -75,6 +75,7 @@ slot0.init = function(slot0)
 	slot0.furnitureContainer = slot0.charContainer:Find("fur")
 	slot0.switchPreviewBtn = slot0.charContainer:Find("switch")
 	slot0.dynamicToggle = slot0.adapt:Find("right/functionsAndTags/dynamic")
+	slot0.dynamicIcon = slot0.adapt:Find("right/functionsAndTags/dynamic/icon")
 	slot0.showBgToggle = slot0.adapt:Find("right/functionsAndTags/showBg")
 	slot0.dynamicResToggle = slot0.adapt:Find("right/functionsAndTags/dynamic/l2d_res_state")
 	slot0.tagList = UIItemList.New(slot0.adapt:Find("right/functionsAndTags/tags"), slot0.adapt:Find("right/functionsAndTags/tags/tag"))
@@ -966,25 +967,33 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 		slot3 = false
 	end
 
-	if slot3 and PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1 then
+	slot4 = slot0.shipSkin:IsHxDynamicPreview()
+
+	if slot3 and not slot4 and PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1 then
 		slot0.isToggleDynamic = true
 	end
 
 	if slot3 then
-		slot4 = 0
+		slot5 = 0
 
 		if slot0.shipSkin:IsSpine() then
-			slot4 = 6
+			slot5 = 6
 		elseif slot0.shipSkin:IsLive2d() then
-			slot4 = 1
+			slot5 = 1
 		elseif slot0.shipSkin:IsSpinePlus() then
-			slot4 = 7
+			slot5 = 7
 		elseif slot0.shipSkin:IsLive2dPlus() then
-			slot4 = 9
+			slot5 = 9
 		end
 
-		LoadImageSpriteAtlasAsync("SkinIcon", "type_" .. ShipSkin.Tag2Name(slot4) .. "_off", slot0.dynamicToggle)
-		LoadImageSpriteAtlasAsync("SkinIcon", "type_" .. ShipSkin.Tag2Name(slot4), slot0.dynamicToggle:Find("select"))
+		LoadImageSpriteAtlasAsync("SkinIcon", "type_" .. ShipSkin.Tag2Name(slot5) .. "_off", slot0.dynamicToggle)
+		LoadImageSpriteAtlasAsync("SkinIcon", "type_" .. ShipSkin.Tag2Name(slot5), slot0.dynamicToggle:Find("select"))
+	end
+
+	if slot4 and slot0.isToggleDynamic then
+		triggerToggle(slot0.dynamicToggle, false)
+
+		slot0.isToggleDynamic = false
 	end
 
 	if slot0.isToggleDynamic and not slot3 then
@@ -1016,6 +1025,16 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 
 	if slot0.shipSkin:IsSpine() or slot0.shipSkin:IsLive2d() or slot0.shipSkin:IsSpinePlus() or slot0.shipSkin:IsLive2dPlus() then
 		onToggle(slot0, slot0.dynamicToggle, function (slot0)
+			slot1 = uv0.shipSkin:IsHxDynamicPreview()
+
+			if slot0 and slot1 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("shop_tag_control_tip"))
+				triggerToggle(uv0.dynamicToggle, false)
+				setActive(uv0.dynamicResToggle, false)
+
+				return
+			end
+
 			if slot0 and Live2dConst.GetLive2DArm32MatchAble() and (uv0.shipSkin:IsLive2d() or uv0.shipSkin:IsLive2dPlus()) then
 				Live2dConst.ShowLive2DArm32Tips()
 				triggerToggle(uv0.dynamicToggle, false)
@@ -1032,8 +1051,13 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
+	setActive(slot0.dynamicIcon, true)
+
 	if slot0.isToggleDynamic then
 		slot0:FlushDynamicPaintingResState(slot1)
+	elseif slot4 then
+		setActive(slot0.dynamicResToggle, false)
+		setActive(slot0.dynamicIcon, false)
 	end
 
 	setActive(slot0.dynamicToggle, slot3)
@@ -1489,13 +1513,13 @@ slot0.FlushObtainBtn = function(slot0, slot1)
 	onButton(slot0, slot6:Find("btn"), function ()
 		slot0 = {}
 
-		if SkinCouponActivity.StaticEncoreActTip(uv0.id) then
+		if tobool(SkinCouponActivity.StaticEncoreActTip(uv0.id)) then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("SkinDiscount_Hint"),
 					onYes = function ()
-						if SkinCouponActivity.GetSkinCouponEncoreAct(uv0.id) then
-							uv1:emit(LatestSkinShopMediator.OPEN_ACTIVITY, slot0.id)
+						if uv0 and not uv0:isEnd() then
+							uv1:emit(LatestSkinShopMediator.OPEN_ACTIVITY, uv0.id)
 						end
 					end,
 					onNo = slot0
@@ -1503,18 +1527,13 @@ slot0.FlushObtainBtn = function(slot0, slot1)
 			end)
 		end
 
-		if SkinCouponActivity.GetSkinCouponEncoreAct(uv0.id) and not uv0:IsItemDiscountType() then
-			slot2 = SkinCouponActivity.GetSkinCouponAct()
-			slot3, slot4 = slot2:GetOwnCount()
-
-			if slot2:GetCanUsageCnt() + slot1:getData1() + 1 > slot4 - slot3 - 1 then
-				table.insert(slot0, function (slot0)
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("SkinDiscount_Last_Coupon"),
-						onYes = slot0
-					})
-				end)
-			end
+		if uv0:getConfig("genre") == ShopArgs.SkinShop and not uv0:IsItemDiscountType() and #SkinCouponActivity.GetOvercountEncoreActs(uv0.id) > 0 then
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("SkinDiscount_Last_Coupon"),
+					onYes = slot0
+				})
+			end)
 		end
 
 		seriesAsync(slot0, function ()
@@ -1601,13 +1620,37 @@ slot0.FlushGifgPackBtn = function(slot0, slot1)
 		end
 	end
 
-	setActive(slot0.giftPackBtn, slot2)
-
 	if slot2 then
+		slot7 = slot0.giftPackBtn
+
+		setText(slot7:Find("title"), i18n("skinshop_on_sale_tip_2"))
 		onButton(slot0, slot0.giftPackBtn, function ()
 			uv0:emit(LatestSkinShopMediator.OPEN_GIFT_PACK_LAYER, uv1, uv2, uv3)
 		end, SFX_PANEL)
+	else
+		slot9 = ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE
+
+		for slot9, slot10 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot9)) do
+			if slot10 and not slot10:isEnd() and slot10.data1 < 1 and underscore.any(slot10:getConfig("config_data")[1], function (slot0)
+				return pg.ship_skin_template[slot0].shop_id == uv0.id
+			end) then
+				slot2 = slot10
+
+				break
+			end
+		end
+
+		if slot2 then
+			slot7 = slot0.giftPackBtn
+
+			setText(slot7:Find("title"), i18n("skinshop_on_sale_tip"))
+			onButton(slot0, slot0.giftPackBtn, function ()
+				uv0:emit(LatestSkinShopMediator.OPEN_GIFT_ACT_LAYER, uv1.id)
+			end, SFX_PANEL)
+		end
 	end
+
+	setActive(slot0.giftPackBtn, slot2)
 end
 
 slot0.SetGiftPackLayer = function(slot0)

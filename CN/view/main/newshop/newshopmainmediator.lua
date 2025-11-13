@@ -30,6 +30,8 @@ slot0.ON_QUOTA_SHOPPING = "NewShopMainMediator:ON_QUOTA_SHOPPING"
 slot0.ON_MINI_GAME_SHOP_BUY = "NewShopMainMediator:ON_MINI_GAME_SHOP_BUY"
 slot0.ON_MINI_GAME_SHOP_FLUSH = "NewShopMainMediator:ON_MINI_GAME_SHOP_FLUSH"
 slot0.UR_EXCHANGE_TRACKING = "NewShopMainMediator:UR_EXCHANGE_TRACKING"
+slot0.ON_ACT_OPERATION = "NewShopMainMediator.ON_ACT_OPERATION"
+slot0.NOTI_UPDATE_CURRENT = "NewShopMainMediator.NOTI_UPDATE_CURRENT"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.OPEN_LAYER, function (slot0, slot1, slot2, slot3)
@@ -44,10 +46,6 @@ slot0.register = function(slot0)
 	slot3 = slot0.viewComponent
 
 	slot3:setPlayer(slot1:getData())
-
-	slot3 = slot0.viewComponent
-
-	slot3:checkFreeGiftTag()
 
 	slot3 = slot0.viewComponent
 
@@ -175,6 +173,13 @@ slot0.register = function(slot0)
 			arg2 = slot4
 		})
 	end)
+	slot0:bind(uv0.ON_ACT_OPERATION, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.ACTIVITY_OPERATION, setmetatable({
+			activity_id = slot1
+		}, {
+			__index = slot2
+		}))
+	end)
 	slot0:bind(uv0.SELL_BLUEPRINT, function (slot0, slot1)
 		uv0:sendNotification(GAME.FRAG_SELL, slot1)
 	end)
@@ -297,7 +302,8 @@ slot0.listNotificationInterests = function(slot0)
 		ShopsProxy.META_SHOP_GOODS_UPDATED,
 		ShopsProxy.QUOTA_SHOP_UPDATED,
 		GAME.QUOTA_SHOPPING_DONE,
-		GAME.MINI_GAME_SHOP_BUY_DONE
+		GAME.MINI_GAME_SHOP_BUY_DONE,
+		uv0.NOTI_UPDATE_CURRENT
 	}
 end
 
@@ -355,7 +361,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot0.viewComponent:checkBuyDone(slot3.id)
 		slot0.viewComponent:updateCurSubView()
-		slot0.viewComponent:checkFreeGiftTag()
+		pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
 	elseif slot2 == GAME.USE_ITEM_DONE then
 		if #slot3.drops ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
@@ -387,7 +393,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:updateCurSubView()
 		end
 
-		slot0.viewComponent:checkFreeGiftTag()
+		pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
 	elseif slot2 == GAME.CLICK_MING_SHI_SUCCESS then
 		slot0.viewComponent:playHeartEffect()
 	elseif slot2 == PlayerResUI.GO_MALL then
@@ -458,6 +464,9 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 
 		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MINI_GAME, getProxy(ShopsProxy):getMiniShop())
+	elseif slot2 == uv0.NOTI_UPDATE_CURRENT then
+		slot0.viewComponent:updateCurSubView()
+		pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
 	end
 end
 

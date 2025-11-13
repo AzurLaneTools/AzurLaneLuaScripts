@@ -108,7 +108,6 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 	slot0.endTime = slot1.end_time or slot1.time or 0
-	slot0.isNew = true
 
 	if slot0:getConfig("skin_type") == uv0.SKIN_TYPE_TB then
 		slot0.shipName = NewEducateHelper.GetShipNameBySecId(NewEducateHelper.GetSecIdBySkinId(slot0.id))
@@ -117,14 +116,6 @@ slot0.Ctor = function(slot0, slot1)
 	end
 
 	slot0.skinName = slot0:getConfig("name")
-end
-
-slot0.HasNewFlag = function(slot0)
-	return slot0.isNew
-end
-
-slot0.SetIsNew = function(slot0, slot1)
-	slot0.isNew = slot1
 end
 
 slot0.bindConfigTable = function(slot0)
@@ -284,6 +275,14 @@ end
 
 slot0.IsProposeSkin = function(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_PROPOSE
+end
+
+slot0.IsHxDynamicPreview = function(slot0)
+	if HXSet.isHx() then
+		return slot0:getConfig("shop_dynamic_hx") == 1
+	end
+
+	return false
 end
 
 slot0.IsChangeSkinMainIndex = function(slot0)

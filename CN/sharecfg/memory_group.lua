@@ -251,6 +251,7 @@ pg.memory_group = setmetatable({
 		342,
 		343,
 		344,
+		345,
 		501,
 		502,
 		503,
@@ -6212,6 +6213,20 @@ pg.base.memory_group = {
 			4747,
 			4748,
 			4749
+		}
+	},
+	[345] = {
+		title = "港区时尚特刊：疾驰热浪",
+		subtype = 3,
+		link_event = 50235,
+		type = 2,
+		id = 345,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4761,
+			4762,
+			4763
 		}
 	},
 	[501] = {

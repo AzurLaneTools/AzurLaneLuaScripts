@@ -16,10 +16,12 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = false,
+							sceneRoot = "Tianlangxing_DB/SiriusHostel",
 							name = "FFliwu_cadiban",
 							time = 0,
 							type = "timeline",
+							scene = "map_siriushostel_01",
+							skip = false,
 							options = {},
 							touchs = {
 								[0] = {

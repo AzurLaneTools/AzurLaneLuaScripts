@@ -12490,7 +12490,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "克莱蒙梭、吉尚等角色建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:294}(最多4次)"
 }
 
 
@@ -27768,8 +27768,13 @@ _G.pg.base.gametip.word_chinese = {
 }
 
 
+_G.pg.base.gametip.word_japanese_3 = {
+	tip = "日文①"
+}
+
+
 _G.pg.base.gametip.word_japanese_2 = {
-	tip = "日文2"
+	tip = "日文②"
 }
 
 
@@ -43472,7 +43477,7 @@ _G.pg.base.gametip.island_production_selected_character = {
 
 
 _G.pg.base.gametip.island_production_collect = {
-	tip = "收取产物"
+	tip = "收取"
 }
 
 
@@ -45312,6 +45317,85 @@ _G.pg.base.gametip.island_urgent_notice = {
 *秋季特产经营的特产资材不会随开发季重置；
 *仅可获得一次、购买后永久获得或持有的内容将不会被重置，如开发资金、岛屿开发等级、角色的获取和养成、角色养成相关道具、集会岛建筑和家具、角色装扮、配饰，指挥官装扮、配饰、岛屿科技、店铺等级、岛屿计划（主线、支线）完成情况、成就等内容不会被重置
 *开发季限时加速券不会随开发季重置]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar1 = {
+	tip = "赛道上的等候"
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar2 = {
+	tip = "港区时尚特刊"
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar3 = {
+	tip = "BF Cruise Missions"
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar4 = {
+	tip = "BF Ltd. Rerun Outfits"
+}
+
+
+_G.pg.base.gametip.black5_bundle_desc = {
+	tip = "购买三件指定换装可获得永恒礼盒*1"
+}
+
+
+_G.pg.base.gametip.black5_bundle_purchased = {
+	tip = "已购买"
+}
+
+
+_G.pg.base.gametip.black5_bundle_tip = {
+	tip = "购买全部即获得"
+}
+
+
+_G.pg.base.gametip.black5_bundle_buy_all = {
+	tip = "购买全部"
+}
+
+
+_G.pg.base.gametip.black5_bundle_popup = {
+	tip = "是否消耗<color=#92fc63>$1</color>钻石购买<color=#92fc63>$2</color>"
+}
+
+
+_G.pg.base.gametip.black5_bundle_receive = {
+	tip = "领取奖励"
+}
+
+
+_G.pg.base.gametip.black5_bundle_button = {
+	tip = "特别礼包"
+}
+
+
+_G.pg.base.gametip.skinshop_on_sale_tip = {
+	tip = "礼包在售"
+}
+
+
+_G.pg.base.gametip.skinshop_on_sale_tip_2 = {
+	tip = "福袋在售"
+}
+
+
+_G.pg.base.gametip.shop_tag_control_tip = {
+	tip = "该动态资源在商店内暂无法下载"
+}
+
+
+_G.pg.base.gametip.black5_bundle_help = {
+	tip = {
+		{
+			info = "若已购买部分皮肤，可通过补差价方式获取剩余礼包内容。\n本礼包购买时不支持使用换装抵扣券，如需使用，可在皮肤商店单独购买皮肤时使用。"
 		}
 	}
 }

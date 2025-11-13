@@ -1927,7 +1927,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 576
+		key_value = 586
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -4009,6 +4009,55 @@ pg.gameset = {
 				9,
 				"Live 2d+"
 			}
+		}
+	},
+	payshop_pack_red_dot = {
+		key_value = 20251113,
+		description = {
+			{
+				60697
+			},
+			{}
+		}
+	},
+	gemshop_pack_red_dot = {
+		key_value = 20251113,
+		description = {
+			{
+				60697
+			},
+			{}
+		}
+	},
+	profile_cvchange_button_block = {
+		key_value = 0,
+		description = {
+			204010,
+			204011,
+			204040,
+			303120,
+			303121,
+			303122,
+			303123,
+			303124,
+			303125,
+			303128,
+			305070,
+			307020,
+			307021,
+			307022,
+			307023,
+			307024,
+			307025,
+			307026,
+			307028,
+			407010,
+			407011,
+			407020,
+			900245,
+			900260,
+			900261,
+			900280
 		}
 	}
 }

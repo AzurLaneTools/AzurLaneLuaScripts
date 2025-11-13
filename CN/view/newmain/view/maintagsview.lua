@@ -31,14 +31,9 @@ slot0.Init = function(slot0)
 		onNextTick(slot0)
 	end)
 	table.insert(slot1, function (slot0)
-		if not uv0:AnyMallTipShowing() then
-			TagTipHelper.FreeGiftTag({
-				uv0.mallTip
-			})
-		else
-			setActive(uv0.mallTip, false)
-		end
-
+		TagTipHelper.GiftPackagesTag({
+			uv0.mallTip
+		})
 		onNextTick(slot0)
 	end)
 	table.insert(slot1, function (slot0)
@@ -46,17 +41,6 @@ slot0.Init = function(slot0)
 		onNextTick(slot0)
 	end)
 	seriesAsync(slot1)
-end
-
-slot0.AnyMallTipShowing = function(slot0)
-	return _.any({
-		slot0.monthCardTag,
-		slot0.sellTag,
-		slot0.skinTag,
-		slot0.tecShipGiftTag
-	}, function (slot0)
-		return slot0:GetComponent(typeof(Image)).enabled
-	end)
 end
 
 slot0.Refresh = function(slot0)

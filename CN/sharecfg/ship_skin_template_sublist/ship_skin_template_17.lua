@@ -1,6 +1,380 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_17 = {
+	[900323] = {
+		name = "？",
+		change_skin = "",
+		desc = "？",
+		illustrator2 = -1,
+		ship_group = 900323,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "tbniang_hei",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 900323,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "tbniang_hei",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					0.43,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.27,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					0.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.559,
+							1.15,
+							-0.51
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.293,
+							0.826,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900324] = {
+		name = "试作型布里MKII",
+		change_skin = "",
+		desc = "试作型布里MKII，可以用于超稀有角色的突破",
+		illustrator2 = -1,
+		ship_group = 900324,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "kin",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 900324,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "kin",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.02,
+					0.6,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.02,
+					0.6,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.02,
+					0.6,
+					0
+				}
+			},
+			remote = {
+				-30,
+				0,
+				0
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.266,
+							0.329,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.45,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[900325] = {
+		name = "544845544F574552",
+		change_skin = "",
+		desc = "544845544F574552",
+		illustrator2 = -1,
+		ship_group = 900325,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "sairenboss14_jz",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 900325,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "sairenboss14_jz",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.7,
+					1.23,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.65,
+					1.23,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.69,
+							2.05,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[900326] = {
 		name = "声望·META",
 		change_skin = "",
@@ -33,6 +407,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "shengwang_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -164,6 +539,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "fanji_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -295,6 +671,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "yanusi",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -426,6 +803,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "luoma_ghost",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -544,6 +922,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "wuzang",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -662,6 +1041,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "shentong_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -780,6 +1160,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "anjie",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -898,6 +1279,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "aosita",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -1029,6 +1411,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "lafeiII_n",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -1160,6 +1543,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "devil",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -1291,6 +1675,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "shentong",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -1408,6 +1793,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "xinzexi",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -1542,6 +1928,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "yilishabai_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -1660,6 +2047,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "jialisuoniye_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -1778,6 +2166,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "suweiaitongmeng",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -1889,6 +2278,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "hermit_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -2000,6 +2390,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "tower",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -2111,6 +2502,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "hierophant",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -2222,6 +2614,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "shengnvzhende",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -2340,6 +2733,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "xiefeierde",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -2458,6 +2852,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "nengdai",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -2576,6 +2971,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "junhe",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -2694,6 +3090,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "diguo",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -2798,6 +3195,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "liang",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -2916,6 +3314,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "mengfeisi_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -3034,6 +3433,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "abuluqi",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -3151,6 +3551,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "kalangshitade",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -3278,6 +3679,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "feilong_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -3396,6 +3798,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "huangjiafangzhou_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -3514,6 +3917,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "guanghui",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -3631,6 +4035,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "jiasikenie",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -3742,6 +4147,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "xiangbin",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -3853,6 +4259,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "aoding",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -3971,6 +4378,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "luyijiushi",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -4082,6 +4490,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "lupuleixite",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -4200,6 +4609,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "fulandeer",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -4318,6 +4728,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "ruifeng",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -4436,6 +4847,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "silverfox_shadow",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -4554,6 +4966,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "baolei1",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -4672,6 +5085,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "baolei2",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -4790,6 +5204,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "aisaikesi_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -4908,6 +5323,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "silverfox",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -5026,6 +5442,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "kelei",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -5144,6 +5561,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "lafei_10",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -5255,6 +5673,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "biaoqiang_8",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -5366,6 +5785,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "z23_10",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -5484,6 +5904,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "lingbo_15",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -5602,6 +6023,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "fushun",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -5720,6 +6142,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "liwupu_2",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -5838,6 +6261,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "dujiaoshou_10",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -5956,6 +6380,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "nubiyaren_2",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -6074,6 +6499,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "lumang",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -6192,6 +6618,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "juejiang",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -6310,6 +6737,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "aerjiliya",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -6428,6 +6856,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "buqu",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -6546,6 +6975,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "shengnvzhende",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -6664,6 +7094,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "qianwei",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -6782,6 +7213,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "xiafei",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -6893,6 +7325,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "feiteliekaer",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -7011,6 +7444,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "jinbulijijia",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -7129,6 +7563,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "jinbulijijia",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -7247,6 +7682,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "jinbulijijia",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -7365,6 +7801,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "unknown6",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -7483,6 +7920,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "aimudeng_4_npc",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = 310,
@@ -7601,6 +8039,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "MissD",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -7719,6 +8158,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "moon",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -7837,6 +8277,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "weiqita_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -7955,6 +8396,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcchaijun_5",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -8073,6 +8515,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "tuzuo_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -8191,6 +8634,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcadaerbote_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -8309,6 +8753,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "tashigan_4",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -8427,6 +8872,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "sikula_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -8545,6 +8991,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "mingqu_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -8663,6 +9110,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "salatuojia_10",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -8781,6 +9229,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "kuersike_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -8899,6 +9348,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcaersasi_2",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -9017,6 +9467,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcshengluyisi_5",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -9135,6 +9586,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcedu_4",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -9253,6 +9705,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcmojiaduoer_2",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -9371,6 +9824,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npctiancheng",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -9489,6 +9943,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcchicheng",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -9607,6 +10062,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcjiahe",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -9725,6 +10181,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "chicheng_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -9843,6 +10300,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "leftchicheng_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -9961,6 +10419,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "rightchicheng_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -10079,6 +10538,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "midchicheng_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -10197,6 +10657,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "huangjiafangzhou_6",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -10315,6 +10776,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcjianye_5",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -10433,6 +10895,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcbulaimodun_6",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -10551,6 +11014,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "lupuleixite_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -10669,6 +11133,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "longxiang_4",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -10787,6 +11252,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "geluosite_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -10905,6 +11371,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "wuzang_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -11023,6 +11490,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npctianlangxing_5",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -11141,6 +11609,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcgangyishawa_2",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -11259,6 +11728,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npchuanxianghao_2",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -11377,6 +11847,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcpucimaosi_2",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -11495,6 +11966,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npchaitunhao_2",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -11613,6 +12085,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcweizhang_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -11731,6 +12204,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "madamM",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -11849,6 +12323,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "yuekecheng_alter_hei",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -11967,6 +12442,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "linghangyuan1_1",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -12085,6 +12561,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "starbeast",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -12203,6 +12680,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "machinemagician",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -12321,6 +12799,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcxinzexi_4",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -12439,6 +12918,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcrangbaer_5",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -12557,6 +13037,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcmeiyinci_3",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -12675,6 +13156,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcandelieyaduoliya_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -12793,6 +13275,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "youtuobiya",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -12911,6 +13394,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "yulun",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -13029,6 +13513,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "shenpanjizhanche",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -13147,6 +13632,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "lianren",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -13265,6 +13751,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "chariot",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -13383,6 +13870,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "MissR",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -13501,6 +13989,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "linghangyuan1_5",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -13619,6 +14108,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "linghangyuan1_5",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -13737,6 +14227,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "makeboluo_wangzuo",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -13855,6 +14346,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "enpuleisi",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -13973,6 +14465,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcguangrong_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -14091,6 +14584,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcgelunweier_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -14209,6 +14703,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "unknownstar",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -14327,6 +14822,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "Magician",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -14445,6 +14941,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcheianjie_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -14563,6 +15060,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npclieren_alter",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -14681,6 +15179,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "sairenboss11",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -14792,6 +15291,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npckewei_6",
 		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,
@@ -14896,360 +15396,7 @@ pg.base.ship_skin_template_17 = {
 		get_showing = "",
 		prefab = "npcjunzhu_5",
 		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.742,
-					1.616,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.729,
-					1.626,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.634,
-					1.744,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.374,
-							2.451,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900509] = {
-		name = "{namecode:531}",
-		change_skin = "",
-		desc = "无描述",
-		illustrator2 = -1,
-		ship_group = 900509,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "npcfeiteliekaer_3",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 900509,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "npcfeiteliekaer_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.742,
-					1.616,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.729,
-					1.626,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.634,
-					1.744,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.374,
-							2.451,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900510] = {
-		name = "马里兰",
-		change_skin = "",
-		desc = "无描述",
-		illustrator2 = -1,
-		ship_group = 900510,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "npcmalilan_3_n",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 900510,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "npcmalilan_3_n",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.742,
-					1.616,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.729,
-					1.626,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.634,
-					1.744,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.374,
-							2.451,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900511] = {
-		name = "{namecode:189}",
-		change_skin = "",
-		desc = "无描述",
-		illustrator2 = -1,
-		ship_group = 900511,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "npcchuyue_3_n",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 900511,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "npcchuyue_3_n",
-		l2d_se = "",
+		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = -1,

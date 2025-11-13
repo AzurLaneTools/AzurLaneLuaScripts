@@ -49,10 +49,6 @@ slot0.GetCanUsageCnt = function(slot0)
 	return slot0.data1 - slot0.data2
 end
 
-slot0.CanUsageSkinCoupon = function(slot0, slot1)
-	return slot0:IncludeShop(slot1) and slot0:GetCanUsageCnt() > 0
-end
-
 slot0.GetEquivalentRes = function(slot0)
 	if slot0.dataConfig.change_resource_type == 0 or slot0.dataConfig.change_resource_num == 0 then
 		return nil
@@ -110,66 +106,95 @@ slot0.OwnAllSkin = function(slot0)
 	return slot1 == slot2
 end
 
-slot0.GetSkinCouponAct = function(slot0)
-	slot1 = ipairs
-	slot2 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] or {}
+slot0.GetSkinCouponActivities = function(slot0)
+	slot1 = {}
+	slot2 = ipairs
+	slot3 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] or {}
 
-	for slot4, slot5 in slot1(slot2) do
-		if getProxy(ActivityProxy):RawGetActivityById(slot5) and not slot6:isEnd() and (not slot0 or slot6:IncludeShop(slot0)) then
-			return slot6
+	for slot5, slot6 in slot2(slot3) do
+		if getProxy(ActivityProxy):RawGetActivityById(slot6) and not slot7:isEnd() and (not slot0 or slot7:IncludeShop(slot0)) then
+			table.insert(slot1, slot7)
 		end
 	end
 
-	return nil
+	return slot1
 end
 
-slot0.GetSkinCouponEncoreAct = function(slot0)
-	slot1 = ipairs
-	slot2 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] or {}
+slot0.GetBestReadySkinCouponAct = function(slot0)
+	slot1 = 0
+	slot2 = nil
 
-	for slot4, slot5 in slot1(slot2) do
-		if getProxy(ActivityProxy):RawGetActivityById(slot5) and not slot6:isEnd() and (not slot0 or table.contains(slot6:getConfig("config_data")[2], slot0)) then
-			return slot6
+	for slot6, slot7 in ipairs(uv0.GetSkinCouponActivities(slot0)) do
+		if slot7:GetCanUsageCnt() > 0 and slot1 < slot7:GetDiscountPrice() then
+			slot1 = slot7:GetDiscountPrice()
+			slot2 = slot7
 		end
 	end
 
-	return nil
+	return slot2
 end
 
 slot0.StaticExistActivityAndCoupon = function(slot0)
-	return uv0.GetSkinCouponAct(slot0) and slot1:GetCanUsageCnt() > 0
+	return underscore.any(uv0.GetSkinCouponActivities(slot0), function (slot0)
+		return slot0:GetCanUsageCnt() > 0
+	end)
 end
 
-slot0.StaticOwnMaxCntSkinCoupon = function(slot0)
-	return uv0.GetSkinCouponAct(slot0) and slot1:IsMaxCnt()
-end
+slot0.GetSkinCouponActFromEncoreAct = function(slot0)
+	if not slot0 then
+		return
+	end
 
-slot0.StaticCanUsageSkinCoupon = function(slot0)
-	return uv0.GetSkinCouponAct(slot0) and slot1:CanUsageSkinCoupon(slot0)
-end
-
-slot0.StaticGetItemDrop = function(slot0)
-	return uv0.GetSkinCouponAct(slot0) and Drop.New({
+	if getProxy(ActivityProxy):getActivityById(Drop.New({
 		type = DROP_TYPE_VITEM,
-		id = slot1:GetItemId(),
-		count = slot1:GetCanUsageCnt()
-	})
+		id = slot0:GetConfigClientSetting("item_id")
+	}):getConfig("link_id")) and not slot2:isEnd() then
+		return slot2
+	end
+end
+
+slot0.GetSkinCouponEncoreActivities = function(slot0)
+	slot1 = {}
+	slot2 = ipairs
+	slot3 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		if getProxy(ActivityProxy):RawGetActivityById(slot6) and not slot7:isEnd() and (not slot0 or table.contains(slot7:getConfig("config_data")[2], slot0)) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
 end
 
 slot0.StaticEncoreActTip = function(slot0)
 	assert(slot0)
 
-	slot2 = uv0.GetSkinCouponEncoreAct(slot0)
+	for slot4, slot5 in ipairs(uv0.GetSkinCouponEncoreActivities()) do
+		if uv0.GetSkinCouponActFromEncoreAct(slot5) and not slot6:isEnd() and slot5 and not slot5:isEnd() and slot6:IncludeShop(slot0) and slot6:GetCanUsageCnt() <= 0 and slot5:getData1() > 0 then
+			return slot5
+		end
+	end
+end
 
-	if not uv0.GetSkinCouponAct(slot0) or not slot2 then
-		return false
+slot0.GetOvercountEncoreActs = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(uv0.GetSkinCouponEncoreActivities(slot0)) do
+		if SkinCouponActivity.GetSkinCouponActFromEncoreAct(slot6) and not slot7:isEnd() then
+			slot8, slot9 = slot7:GetOwnCount()
+
+			if slot7:GetCanUsageCnt() + slot6:getData1() + 1 > slot9 - slot8 - 1 then
+				table.insert(slot1, slot6)
+			end
+		end
 	end
 
-	return slot1:GetCanUsageCnt() <= 0 and slot2:getData1() > 0
+	return slot1
 end
 
 slot0.UseSkinCoupon = function(slot0)
-	if not uv0.GetSkinCouponAct(slot0) then
+	if not getProxy(ActivityProxy):getActivityById(slot0) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return

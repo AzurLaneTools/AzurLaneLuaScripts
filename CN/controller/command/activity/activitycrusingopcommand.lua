@@ -21,7 +21,20 @@ slot0.execute = function(slot0, slot1)
 			slot1 = {}
 
 			if uv0.cmd == 1 then
-				-- Nothing
+				slot1 = PlayerConst.addTranDrop(slot0.award_list)
+				uv1.data1_list = {}
+
+				for slot5, slot6 in ipairs(pg.black_friday_battlepass_event_pt[uv1.id].target) do
+					if slot6 <= uv1.data1 then
+						table.insert(uv1.data1_list, slot6)
+					else
+						break
+					end
+				end
+
+				if uv1.data2 == 1 then
+					uv1.data2_list = underscore.rest(uv1.data1_list, 1)
+				end
 			elseif uv0.cmd == 2 then
 				slot1 = PlayerConst.addTranDrop(slot0.award_list)
 

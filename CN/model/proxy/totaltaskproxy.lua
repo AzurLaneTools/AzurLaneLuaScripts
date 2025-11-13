@@ -13,7 +13,8 @@ slot0.activity_task_type = {
 }
 slot0.normal_task_type = {
 	ActivityConst.ACTIVITY_TYPE_TASKS,
-	ActivityConst.ACTIVITY_TYPE_PT_CRUSING
+	ActivityConst.ACTIVITY_TYPE_PT_CRUSING,
+	ActivityConst.ACTIVITY_TYPE_PT_HEI5
 }
 
 slot0.register = function(slot0)

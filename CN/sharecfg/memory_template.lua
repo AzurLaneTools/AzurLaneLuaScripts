@@ -3860,6 +3860,9 @@ pg.memory_template = setmetatable({
 		4755,
 		4756,
 		4757,
+		4761,
+		4762,
+		4763,
 		10011,
 		10012,
 		10013,
@@ -46506,6 +46509,39 @@ pg.base.memory_template = {
 		story = "QISHENG7",
 		id = 4757,
 		icon = "memory_qisheng",
+		is_open = 0
+	},
+	[4761] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "极速祝福之吻",
+		condition = "完成「港区时尚特刊：疾驰热浪」新泽西的签到",
+		story = "SHISHANGTEKANJICHIRELANG1",
+		id = 4761,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0
+	},
+	[4762] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "夺冠的香槟一刻",
+		condition = "完成「港区时尚特刊：疾驰热浪」纳希莫夫海军上将的签到",
+		story = "SHISHANGTEKANJICHIRELANG2",
+		id = 4762,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0
+	},
+	[4763] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "水漾在疾驰之前",
+		condition = "完成「港区时尚特刊：疾驰热浪」埃塞克斯的签到",
+		story = "SHISHANGTEKANJICHIRELANG3",
+		id = 4763,
+		icon = "memory_gangqushishangtekan",
 		is_open = 0
 	},
 	[10011] = {

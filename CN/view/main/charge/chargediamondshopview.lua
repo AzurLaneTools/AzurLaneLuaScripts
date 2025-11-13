@@ -194,41 +194,27 @@ slot0.sortDiamondGoodsVOList = function(slot0)
 		end
 	end
 
-	table.sort(slot0.diamondGoodsVOListForShow, function (slot0, slot1)
-		slot3 = not table.contains(uv0.firstChargeIds, slot0.id) and slot0:firstPayDouble() and 1 or 0
-		slot5 = not table.contains(uv0.firstChargeIds, slot1.id) and slot1:firstPayDouble() and 1 or 0
-		slot6 = 0
-		slot7 = 0
+	table.sort(slot0.diamondGoodsVOListForShow, CompareFuncs({
+		function (slot0)
+			return slot0:isFree() and 0 or 1
+		end,
+		function (slot0)
+			if slot0:isChargeType() and slot0:isMonthCard() and uv0.player:getCardById(VipCard.MONTH) and math.floor((slot1:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400) > (slot0:getConfig("limit_arg") or 0) then
+				return 1
+			end
 
-		if slot0:isFree() then
-			return true
-		elseif slot1:isFree() then
-			return false
+			return 0
+		end,
+		function (slot0)
+			return not table.contains(uv0.firstChargeIds, slot0.id) and slot0:firstPayDouble() and 0 or 1
+		end,
+		function (slot0)
+			return slot0:getConfig("tag") == 2 and 0 or 1
+		end,
+		function (slot0)
+			return slot0.id
 		end
-
-		if slot0:isChargeType() and slot0:isMonthCard() and uv0.player:getCardById(VipCard.MONTH) then
-			slot6 = math.floor((slot8:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400) > (slot0:getConfig("limit_arg") or 0) and 1 or 0
-		end
-
-		if slot1:isChargeType() and slot1:isMonthCard() and uv0.player:getCardById(VipCard.MONTH) then
-			slot7 = math.floor((slot8:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400) > (slot1:getConfig("limit_arg") or 0) and 1 or 0
-		end
-
-		if slot6 ~= slot7 then
-			return slot6 < slot7
-		end
-
-		slot8 = slot0:getConfig("tag") == 2 and 1 or 0
-		slot9 = slot1:getConfig("tag") == 2 and 1 or 0
-
-		if slot3 == slot5 and slot8 == slot9 then
-			return slot0.id < slot1.id
-		else
-			slot10 = slot5 < slot3 or slot3 == slot5 and slot9 < slot8
-
-			return slot10
-		end
-	end)
+	}))
 end
 
 slot0.updateGoodsData = function(slot0)

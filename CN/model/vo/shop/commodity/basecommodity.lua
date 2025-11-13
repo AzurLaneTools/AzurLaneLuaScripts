@@ -64,6 +64,10 @@ slot0.isFree = function(slot0)
 	return slot0:getConfig("discount") == 100
 end
 
+slot0.isTip = function(slot0)
+	return false
+end
+
 slot0.isDisCount = function(slot0)
 	return false
 end
@@ -74,6 +78,10 @@ end
 
 slot0.isGiftPackage = function(slot0)
 	return slot0.type == Goods.TYPE_GIFT_PACKAGE
+end
+
+slot0.isActGiftPackage = function(slot0)
+	return slot0.type == Goods.TYPE_GIFT_PACKAGE_ACT
 end
 
 slot0.isSham = function(slot0)
