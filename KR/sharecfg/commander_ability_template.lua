@@ -6395,7 +6395,7 @@ pg.commander_ability_template = {
 		name = "대담한 도전",
 		group_id = 517,
 		worth = 1,
-		desc = "<color=#3dc6ff>정규 항공모함<color>의 항공 및 장전 10 상승. <color=#3dc6ff>범선</color>의 포격 15 상승.",
+		desc = "<color=#3dc6ff>정규 항공모함</color>의 항공 및 장전 10 상승, <color=#3dc6ff>범선</color>의 포격 15 상승.",
 		next = 0,
 		id = 5171,
 		icon = "special_one",
