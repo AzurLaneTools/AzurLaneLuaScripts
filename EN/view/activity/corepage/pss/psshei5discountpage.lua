@@ -108,7 +108,7 @@ slot0.GetCouponCountText = function(slot0)
 end
 
 slot0.GetGiftShopType = function(slot0)
-	return ChargeScene.TYPE_GIFT
+	return ChargeScene.TYPE_PICK
 end
 
 return slot0

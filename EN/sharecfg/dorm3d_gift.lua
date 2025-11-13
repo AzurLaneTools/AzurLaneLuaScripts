@@ -209,7 +209,7 @@ pg.dorm3d_gift = {
 	},
 	[2022001] = {
 		display = "A toolbox of must-have items for cleaning and tidying up both at home and at the workplace. It's built with durable and resilient materials to protect the tools inside from damage.",
-		name = "Cleaning Supplies Toolbox",
+		name = "Cleaning Supplies\nToolbox",
 		unlock_dialogue_id = 10060,
 		rarity = 4,
 		ship_group_id = 20220,
@@ -269,7 +269,7 @@ pg.dorm3d_gift = {
 	},
 	[2022003] = {
 		display = "This book explains in detail the knowledge, skills, and mindset that a perfect maid must have, using examples and thought-out theory.\nIt urges the reader to carry the spirit of maidly service with them even in daily life.",
-		name = "The Perfect Maid's Guidebook",
+		name = "The Perfect Maid's\nGuidebook",
 		unlock_dialogue_id = 10080,
 		rarity = 4,
 		ship_group_id = 20220,
