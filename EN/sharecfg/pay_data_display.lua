@@ -16215,7 +16215,7 @@ pg.base.pay_data_display = {
 					3
 				},
 				{
-					22,
+					23,
 					59,
 					59
 				}
