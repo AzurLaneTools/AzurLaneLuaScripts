@@ -6,11 +6,11 @@ slot0.OnInit = function(slot0)
 	slot0.item = slot0.items:Find("item")
 	slot0.btn = slot0.bg:Find("btn")
 	slot0.itemList = UIItemList.New(slot0.items, slot0.item)
+	slot0.red = slot0.bg:Find("btn/red")
 end
 
 slot0.OnFirstFlush = function(slot0)
-	slot1 = slot0.activity
-	slot0.config_client = slot1:getConfig("config_client")[1]
+	slot0.config_client = slot0.activity:getConfig("config_client")[1]
 	slot0.taskProxy = getProxy(TaskProxy)
 
 	setActive(slot0.item, false)
@@ -20,6 +20,7 @@ slot0.OnFirstFlush = function(slot0)
 			viewComponent = PSSHei5Scene
 		}))
 	end, SOUND_BACK)
+	SetActive(slot0.red, #slot0.activity:GetHei5UnreceiveAward() > 0)
 end
 
 slot0.OnUpdateFlush = function(slot0)
