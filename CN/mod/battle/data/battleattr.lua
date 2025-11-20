@@ -403,10 +403,16 @@ slot0.SetMinionAttr = function(slot0, slot1)
 	slot6.formulaLevel = slot5
 
 	slot7 = function(slot0, slot1)
-		if uv0[slot0 .. "_growth"] ~= 0 then
-			uv1[slot1] = uv2[slot1] * slot2 * 0.0001
-		else
+		if uv0[slot0 .. "_growth"] == 0 then
 			uv1[slot1] = uv0[slot0]
+		elseif slot2 == -1 then
+			if slot0 == "durability" then
+				uv1[slot1] = uv2:GetCurrentHP()
+			else
+				uv1[slot1] = uv3[slot1]
+			end
+		else
+			uv1[slot1] = uv3[slot1] * slot2 * 0.0001
 		end
 	end
 

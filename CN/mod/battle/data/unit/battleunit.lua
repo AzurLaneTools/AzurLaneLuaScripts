@@ -1233,6 +1233,10 @@ slot9.GetTemplate = function(slot0)
 	return nil
 end
 
+slot9.GetGroupID = function(slot0)
+	return nil
+end
+
 slot9.GetTemplateValue = function(slot0, slot1)
 	return slot0:GetTemplate()[slot1]
 end

@@ -50,8 +50,8 @@ slot0.updateStudent = function(slot0, slot1, slot2)
 	setActive(slot0._go, true)
 
 	if slot0.shipVO == nil or slot0.shipVO.configId ~= slot1.configId then
-		if not IsNil(slot0.model) then
-			PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab, slot0.model)
+		if slot0.model then
+			slot0.model:Dispose()
 		end
 
 		slot0.prefab = slot1:getPrefab()
@@ -61,28 +61,36 @@ slot0.updateStudent = function(slot0, slot1, slot2)
 		slot5 = slot0.pathFinder
 		slot0.targetPoint = slot5:getPoint(slot3[math.random(1, #slot3)])
 		slot0._tf.anchoredPosition = Vector2.New(slot0.currentPoint.x, slot0.currentPoint.y)
-		slot6 = PoolMgr.GetInstance()
+		slot0.model = SpineAnimChar.New()
+		slot6 = slot0.model
 
-		slot6:GetSpineChar(slot0.prefab, true, function (slot0)
+		slot6:SetPaint(slot0.prefab)
+
+		slot6 = slot0.model
+
+		slot6:Load(true, function (slot0)
 			if uv0 ~= uv1.prefab then
-				PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0)
+				slot0:Dispose()
 
 				return
 			end
 
-			uv1.model = slot0
-			uv1.model.transform.localScale = Vector3(0.5, 0.5, 1)
-			uv1.model.transform.localPosition = Vector3.zero
-			slot1 = uv1.model.transform
+			slot1 = uv1.model
 
-			slot1:SetParent(uv1._tf, false)
+			slot1:SetLocalScale(Vector3(0.5, 0.5, 1))
 
-			slot1 = uv1.model.transform
+			slot1 = uv1.model
+
+			slot1:SetLocalPosition(Vector3.zero)
+
+			slot1 = uv1.model
+
+			slot1:SetParent(uv1._tf)
+
+			slot1 = uv1.model
 
 			slot1:SetSiblingIndex(1)
 
-			slot2 = uv1.model
-			uv1.anim = slot2:GetComponent(typeof(SpineAnimUI))
 			slot1 = uv1
 
 			slot1:updateState(uv2.ShipState.Idle)
@@ -93,7 +101,7 @@ slot0.updateStudent = function(slot0, slot1, slot2)
 	end
 
 	onButton(slot0, slot0.clickArea, function ()
-		if not IsNil(uv0.model) then
+		if uv0.model then
 			uv0:updateState(uv1.ShipState.Touch)
 		end
 	end)
@@ -130,17 +138,17 @@ slot0.updateState = function(slot0, slot1)
 end
 
 slot0.updateAction = function(slot0)
-	if not IsNil(slot0.anim) then
+	if slot0.model then
 		if slot0.state == uv0.ShipState.Walk then
-			slot0.anim:SetAction("walk", 0)
+			slot0.model:SetAction("walk", 0)
 		elseif slot0.state == uv0.ShipState.Idle then
-			slot0.anim:SetAction("stand2", 0)
+			slot0.model:SetAction("stand2", 0)
 		elseif slot0.state == uv0.ShipState.Touch then
-			slot1 = slot0.anim
+			slot1 = slot0.model
 
 			slot1:SetAction("touch", 0)
 
-			slot1 = slot0.anim
+			slot1 = slot0.model
 
 			slot1:SetActionCallBack(function (slot0)
 				uv0:updateState(uv1.ShipState.Idle)
@@ -209,18 +217,15 @@ end
 slot0.clear = function(slot0)
 	slot0:clearLogic()
 
-	if not IsNil(slot0.model) then
-		slot0.anim:SetActionCallBack(nil)
-
-		slot0.model.transform.localScale = Vector3.one
-
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab, slot0.model)
+	if slot0.model then
+		slot0.model:SetActionCallBack(nil)
+		slot0.model:SetLocalScale(Vector3.one)
+		slot0.model:Dispose()
 	end
 
 	slot0.shipVO = nil
 	slot0.prefab = nil
 	slot0.model = nil
-	slot0.anim = nil
 	slot0.position = nil
 	slot0.currentPoint = nil
 	slot0.targetPoint = nil

@@ -152,6 +152,8 @@ slot2.EnterBattle = function(slot0, slot1, slot2)
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleGuildBossCommand.New())
 	elseif slot1.battleType == SYSTEM_CARDPUZZLE then
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleCardPuzzleCommand.New())
+	elseif slot1.battleType == SYSTEM_BOSS_RUSH_COLLABRATE then
+		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleDALCollabSingleDungeonCommand.New())
 	else
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSingleDungeonCommand.New())
 	end

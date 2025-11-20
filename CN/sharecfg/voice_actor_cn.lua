@@ -1889,7 +1889,7 @@ pg.voice_actor_CN = {
 		code = 472
 	},
 	{
-		actor_name = "小泽实里",
+		actor_name = "小泽实乃里",
 		code = 473
 	},
 	{
@@ -1927,5 +1927,25 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "本田贵子 ",
 		code = 482
+	},
+	{
+		actor_name = "富樫美铃",
+		code = 483
+	},
+	{
+		actor_name = "竹达彩奈",
+		code = 484
+	},
+	{
+		actor_name = "野水伊织",
+		code = 485
+	},
+	{
+		actor_name = "真田麻美 ",
+		code = 486
+	},
+	{
+		actor_name = "内田真礼&布里德卡特·塞拉·惠美 ",
+		code = 487
 	}
 }

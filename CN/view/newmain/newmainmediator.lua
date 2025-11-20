@@ -162,6 +162,7 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.BEGIN_STAGE_DONE,
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.FETCH_NPC_SHIP_DONE,
+		GAME.FETCH_NPC_SHIP_ACTIVITY_DONE,
 		GAME.ZERO_HOUR_OP_DONE,
 		GAME.CONFIRM_GET_SHIP,
 		GAME.WILL_LOGOUT,
@@ -230,7 +231,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot4:Execute(function ()
 		end)
-	elseif slot2 == GAME.FETCH_NPC_SHIP_DONE then
+	elseif slot2 == GAME.FETCH_NPC_SHIP_DONE or slot2 == GAME.FETCH_NPC_SHIP_ACTIVITY_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == uv0.REFRESH_VIEW then
 		slot0.viewComponent:setVisible(false)

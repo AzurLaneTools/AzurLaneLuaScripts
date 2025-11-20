@@ -153,7 +153,7 @@ slot0.register = function(slot0)
 		for slot17, slot18 in ipairs(slot11:GetSubFleet():GetShips()) do
 			table.insert(slot8, slot18.ship)
 		end
-	elseif slot7 == SYSTEM_BOSS_RUSH or slot7 == SYSTEM_BOSS_RUSH_EX then
+	elseif slot7 == SYSTEM_BOSS_RUSH or slot7 == SYSTEM_BOSS_RUSH_EX or slot7 == SYSTEM_BOSS_RUSH_COLLABRATE then
 		slot11 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()
 
 		assert(slot11)
@@ -326,7 +326,7 @@ slot0.register = function(slot0)
 			if slot2:getContextByMediator(WorldMediator):getContextByMediator(WorldPreCombatMediator) or slot3:getContextByMediator(WorldBossInformationMediator) then
 				slot3:removeChild(slot4)
 			end
-		elseif uv0 == SYSTEM_BOSS_RUSH or uv0 == SYSTEM_BOSS_RUSH_EX then
+		elseif uv0 == SYSTEM_BOSS_RUSH or uv0 == SYSTEM_BOSS_RUSH_EX or uv0 == SYSTEM_BOSS_RUSH_COLLABRATE then
 			slot3 = ys.Battle.BattleConst.BattleScore.C < uv1.contextData.score
 			slot6 = getProxy(ActivityProxy):getActivityById(uv1.contextData.actId):GetSeriesData()
 
@@ -632,9 +632,22 @@ slot0.handleNotification = function(slot0, slot1)
 			return
 		end
 
+		slot8, slot9 = nil
+
+		if slot4 == SYSTEM_BOSS_RUSH_COLLABRATE then
+			slot8 = BossRushDALBattleResultMediator
+			slot9 = BossRushDALBattleResultLayer
+		elseif slot4 == SYSTEM_BOSS_RUSH_EX then
+			slot8 = BossRushBattleResultMediator
+			slot9 = BossRushConst.GetEXBattleResultLayer(slot5)
+		else
+			slot8 = BossRushBattleResultMediator
+			slot9 = BossRushBattleResultLayer
+		end
+
 		slot0:addSubLayers(Context.New({
-			mediator = slot4 == SYSTEM_BOSS_RUSH and BossRushBattleResultMediator or BossRushBattleResultMediator,
-			viewComponent = slot4 == SYSTEM_BOSS_RUSH and BossRushBattleResultLayer or BossRushConst.GetEXBattleResultLayer(slot5),
+			mediator = slot8,
+			viewComponent = slot9,
 			data = {
 				awards = slot3.awards,
 				system = slot0.contextData.system,

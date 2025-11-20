@@ -57,6 +57,7 @@ slot4.initWaveModule = function(slot0)
 			return
 		end
 
+		uv0._dataProxy:TriggerFinishBattle()
 		uv0._dataProxy:CalcSubRoutineScore()
 		uv0._state:BattleEnd()
 	end, nil)
@@ -84,6 +85,7 @@ slot4.onPlayerShutDown = function(slot0, slot1)
 	if #slot0._userFleet:GetSubBench() > 0 then
 		slot0._userFleet:ShiftManualSub()
 	else
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._dataProxy:CalcSubRountineElimate()
 		slot0._state:BattleEnd()
 	end

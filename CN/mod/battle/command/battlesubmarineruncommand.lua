@@ -61,6 +61,7 @@ slot4.initWaveModule = function(slot0)
 			return
 		end
 
+		uv0._dataProxy:TriggerFinishBattle()
 		uv0._dataProxy:CalcSubRunScore()
 		uv0._state:BattleEnd()
 	end, nil)
@@ -146,6 +147,7 @@ slot4.onSubmarineShift = function(slot0, slot1)
 end
 
 slot4.onShutDownPlayer = function(slot0)
+	slot0._dataProxy:TriggerFinishBattle()
 	slot0._dataProxy:CalcSubRunDead()
 	slot0._state:BattleEnd()
 end

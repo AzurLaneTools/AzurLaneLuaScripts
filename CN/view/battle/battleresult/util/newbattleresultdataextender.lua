@@ -1,7 +1,7 @@
 slot0 = class("NewBattleResultDataExtender")
 
 slot0.NeedCloseCamera = function(slot0)
-	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS and slot0 ~= SYSTEM_WORLD_BOSS and slot0 ~= SYSTEM_BOSS_SINGLE and slot0 ~= SYSTEM_BOSS_SINGLE_VARIABLE
+	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_BOSS_RUSH_COLLABRATE and slot0 ~= SYSTEM_ACT_BOSS and slot0 ~= SYSTEM_WORLD_BOSS and slot0 ~= SYSTEM_BOSS_SINGLE and slot0 ~= SYSTEM_BOSS_SINGLE_VARIABLE
 end
 
 slot0.NeedVibrate = function(slot0)
@@ -176,7 +176,7 @@ slot0.GetNewMainShips = function(slot0)
 		slot2 = uv4(slot0)
 	elseif slot1 == SYSTEM_GUILD then
 		slot2 = uv5()
-	elseif slot1 == SYSTEM_BOSS_RUSH or slot1 == SYSTEM_BOSS_RUSH_EX then
+	elseif slot1 == SYSTEM_BOSS_RUSH or slot1 == SYSTEM_BOSS_RUSH_COLLABRATE or slot1 == SYSTEM_BOSS_RUSH_EX then
 		slot2 = uv6(slot0)
 	elseif slot1 ~= SYSTEM_DODGEM and slot1 ~= SYSTEM_SUBMARINE_RUN and slot1 ~= SYSTEM_REWARD_PERFORM and slot1 ~= SYSTEM_AIRFIGHT and slot1 ~= SYSTEM_CARDPUZZLE then
 		if slot1 == SYSTEM_CHALLENGE then

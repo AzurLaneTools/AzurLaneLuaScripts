@@ -843,6 +843,21 @@ slot0.InitSwitch = function()
 						return uv0, nil
 					end
 				end,
+				[17] = function ()
+					if getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")).data1 < 1 then
+						return Drop.New({
+							count = 1,
+							type = DROP_TYPE_SHIP,
+							id = slot0:getConfig("config_id")
+						}), uv0
+					else
+						return Drop.New({
+							id = 3,
+							type = DROP_TYPE_OPERATION,
+							count = slot0.data2
+						}), uv0
+					end
+				end,
 				[21] = function ()
 					return nil, uv0
 				end,
@@ -1064,6 +1079,15 @@ slot0.InitSwitch = function()
 							slot0:updateActivity(slot6)
 						end
 					end
+				end,
+				[17] = function ()
+					if not getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) or slot1:isEnd() then
+						return
+					end
+
+					slot1.data1 = 2
+
+					slot0:updateActivity(slot1)
 				end,
 				[20] = function ()
 					slot1 = pg.gameset.urpt_chapter_max.description

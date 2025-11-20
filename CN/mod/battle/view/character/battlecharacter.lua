@@ -696,7 +696,18 @@ slot6.OnActionChange = function(slot0, slot1)
 end
 
 slot6.PlayAction = function(slot0, slot1)
-	slot0._animator:SetAction(slot1, 0, uv0.ActionLoop[slot1])
+	slot2 = slot1
+	slot3 = false
+
+	if slot0._skeleton then
+		slot2, slot3 = SpineAnimUtil.GetCharAnimDirect(slot0._skeleton, math.sign(slot0._modelScale.x), slot2)
+	end
+
+	if slot3 then
+		slot0:setLocalScale(Vector3(math.abs(slot0._modelScale.x), slot0._modelScale.y, slot0._modelScale.z), true)
+	end
+
+	slot0._animator:SetAction(slot2, 0, uv0.ActionLoop[slot1])
 
 	slot0._actionIndex = slot1
 
@@ -705,20 +716,20 @@ slot6.PlayAction = function(slot0, slot1)
 	end
 
 	if #slot0._orbitActionUpdateList > 0 then
-		for slot5, slot6 in ipairs(slot0._orbitActionUpdateList) do
-			slot7 = slot6.orbit
-			slot10 = false
+		for slot7, slot8 in ipairs(slot0._orbitActionUpdateList) do
+			slot9 = slot8.orbit
+			slot12 = false
 
-			for slot14, slot15 in ipairs(slot6.change.condition.param) do
-				if string.find(slot1, slot15) then
-					slot10 = true
+			for slot16, slot17 in ipairs(slot8.change.condition.param) do
+				if string.find(slot1, slot17) then
+					slot12 = true
 
 					break
 				end
 			end
 
-			if slot10 then
-				slot0:changeOrbitAction(slot7, slot8)
+			if slot12 then
+				slot0:changeOrbitAction(slot9, slot10)
 
 				break
 			end
@@ -965,6 +976,7 @@ slot6.AddModel = function(slot0, slot1)
 
 	slot0._hpBarOffset = Vector3(0, slot0._unitData:GetBoxSize().y, 0)
 	slot0._animator = slot0:GetTf():GetComponent(typeof(SpineAnim))
+	slot0._skeleton = slot0:GetTf():GetComponent("SkeletonAnimation")
 
 	if slot0._animator then
 		slot0._animator:Start()
@@ -975,7 +987,8 @@ slot6.AddModel = function(slot0, slot1)
 	slot0._unitData:ActiveCldBox()
 
 	slot2 = slot0:GetInitScale()
-	slot0._tf.localScale = Vector3(slot2 * slot0._unitData:GetDirection(), slot2, slot2)
+
+	slot0:setLocalScale(Vector3(slot2 * slot0._unitData:GetDirection(), slot2, slot2))
 
 	if slot0._unitData:GetOxyState() and slot3:GetCurrentDiveState() == uv0.Battle.BattleConst.OXY_STATE.DIVE then
 		slot0:PlayAction(uv0.Battle.BattleConst.ActionName.DIVE)
@@ -999,6 +1012,7 @@ slot6.SwitchModel = function(slot0, slot1, slot2)
 	slot0:SetGO(slot1)
 
 	slot0._animator = slot0:GetTf():GetComponent(typeof(SpineAnim))
+	slot0._skeleton = slot0:GetTf():GetComponent("SkeletonAnimation")
 
 	if slot0._animator then
 		slot0._animator:Start()
@@ -1015,8 +1029,9 @@ slot6.SwitchModel = function(slot0, slot1, slot2)
 	slot0:UpdateHPBarPosition()
 
 	slot4 = slot0:GetInitScale()
-	slot0._tf.localScale = Vector3(slot4 * slot0._unitData:GetDirection(), slot4, slot4)
+	slot10 = slot4
 
+	slot0:setLocalScale(Vector3(slot4 * slot0._unitData:GetDirection(), slot4, slot10))
 	slot0._animator:SetActionCallBack(function (slot0)
 		if slot0 == "finish" then
 			uv0:OnAnimatorEnd()
@@ -1050,41 +1065,47 @@ slot6.SwitchModel = function(slot0, slot1, slot2)
 	uv0.GetInstance():DestroyOb(slot3)
 end
 
-slot6.AddOrbit = function(slot0, slot1, slot2)
-	slot4 = slot2.orbit_combat_bound[2]
-	slot5 = slot2.orbit_hidden_action
-	slot1.transform.localPosition = Vector3(slot4[1], slot4[2], slot4[3])
-	slot6 = SpineAnim.AddFollower(slot2.orbit_combat_bound[1], slot0._tf, slot1.transform):GetComponent("Spine.Unity.BoneFollower")
+slot6.AddOrbit = function(slot0, slot1, slot2, slot3)
+	slot4 = slot2.orbit_combat_bound[1]
+
+	if slot3 then
+		slot4 = slot3 .. "_" .. slot4
+	end
+
+	slot5 = slot2.orbit_combat_bound[2]
+	slot6 = slot2.orbit_hidden_action
+	slot1.transform.localPosition = Vector3(slot5[1], slot5[2], slot5[3])
+	slot7 = SpineAnim.AddFollower(slot4, slot0._tf, slot1.transform):GetComponent("Spine.Unity.BoneFollower")
 
 	if slot2.orbit_rotate then
-		slot6.followBoneRotation = true
-		slot7 = slot1.transform.localEulerAngles
-		slot1.transform.localEulerAngles = Vector3(slot7.x, slot7.y, slot7.z - 90)
+		slot7.followBoneRotation = true
+		slot8 = slot1.transform.localEulerAngles
+		slot1.transform.localEulerAngles = Vector3(slot8.x, slot8.y, slot8.z - 90)
 	else
-		slot6.followBoneRotation = false
+		slot7.followBoneRotation = false
 	end
 
 	slot0._orbitList[slot1] = {
-		hiddenAction = slot5,
-		boundBone = slot3,
+		hiddenAction = slot6,
+		boundBone = slot4,
 		offset = slot0._orbitSpineOrderOffset
 	}
 
 	if slot2.orbit_combat_anima_change.default then
-		slot11 = slot7
+		slot12 = slot8
 
-		slot0:changeOrbitAction(slot1, slot11)
+		slot0:changeOrbitAction(slot1, slot12)
 
-		for slot11, slot12 in ipairs(slot2.orbit_combat_anima_change.change) do
-			if slot12.condition.type == 1 then
+		for slot12, slot13 in ipairs(slot2.orbit_combat_anima_change.change) do
+			if slot13.condition.type == 1 then
 				table.insert(slot0._orbitSpeedUpdateList, {
 					orbit = slot1,
-					change = Clone(slot12)
+					change = Clone(slot13)
 				})
-			elseif slot12.condition.type == 2 then
+			elseif slot13.condition.type == 2 then
 				table.insert(slot0._orbitActionUpdateList, {
 					orbit = slot1,
-					change = Clone(slot12)
+					change = Clone(slot13)
 				})
 			end
 		end
@@ -1270,6 +1291,18 @@ slot6.AddAimBiasBar = function(slot0, slot1)
 	slot0._aimBiarBar:UpdateAimBiasProgress()
 end
 
+slot6.IsDoubleChar = function(slot0)
+	if slot0._skeleton then
+		slot2 = slot0._skeleton.skeleton:FindBoneIndex("char2_face")
+
+		if slot0._skeleton.skeleton:FindBoneIndex("char1_face") >= 0 or slot2 >= 0 then
+			return true
+		end
+	end
+
+	return false
+end
+
 slot6.UpdateAimBiasBar = function(slot0)
 	if slot0._aimBiarBar then
 		slot0._aimBiarBar:UpdateAimBiasProgress()
@@ -1418,7 +1451,7 @@ slot6.updateSomkeFX = function(slot0)
 end
 
 slot6.doChangeSize = function(slot0, slot1)
-	slot0._tf.localScale = slot0._tf.localScale * slot1.Data.size_ratio
+	slot0:setLocalScale(slot0._tf.localScale * slot1.Data.size_ratio)
 end
 
 slot6.InitEffectView = function(slot0)
@@ -1527,6 +1560,14 @@ slot6.Voice = function(slot0, slot1, slot2)
 			end)
 		end
 	end)
+end
+
+slot6.setLocalScale = function(slot0, slot1, slot2)
+	slot0._tf.localScale = slot1
+
+	if not slot2 then
+		slot0._modelScale = slot1
+	end
 end
 
 slot6.SonarAcitve = function(slot0, slot1)

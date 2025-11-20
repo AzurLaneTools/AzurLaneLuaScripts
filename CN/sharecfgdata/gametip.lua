@@ -6445,6 +6445,11 @@ _G.pg.base.gametip.word_shipNation_danmachi = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_dal = {
+	tip = "Date A Live"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
@@ -12490,7 +12495,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:294}(最多4次)"
+	tip = "夜刀神十香、五河琴里等角色 建造概率UP！"
 }
 
 
@@ -45398,4 +45403,264 @@ _G.pg.base.gametip.black5_bundle_help = {
 			info = "若已购买部分皮肤，可通过补差价方式获取剩余礼包内容。\n本礼包购买时不支持使用换装抵扣券，如需使用，可在皮肤商店单独购买皮肤时使用。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2512 = {
+	tip = "2025/12/1-2026/1/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「树城·META 」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2512 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2025.12.1-2026.1.31)
+
+·<color=#92fc63>开放时间</color>
+ 2025.12.1 0点 ~ 2026.1.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「树城·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·八期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>十纱换装「放学后的观察作业 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即1.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2512 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+ 2025.12.1 0点 ~ 2026.1.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2512 = {
+	tip = "世界巡游·第二十六期"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_data = {
+	tip = "海域情报"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_support = {
+	tip = "空中支援"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_commander = {
+	tip = "指挥系统"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_analysis_2 = {
+	tip = "分析完成"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_analysis_1 = {
+	tip = "分析中"
+}
+
+
+_G.pg.base.gametip.DAL_stage_finish_at = {
+	tip = "完成于："
+}
+
+
+_G.pg.base.gametip.activity_remain_time = {
+	tip = "活动剩余时间"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet1 = {
+	tip = "主题页"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet2 = {
+	tip = "累计PT"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet3 = {
+	tip = "梦魇狂想曲"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet4 = {
+	tip = "日常篇"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet5 = {
+	tip = "奖励汇总"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_ship = {
+	tip = "飞船升级"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_active = {
+	tip = "已生效"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet1_en = {
+	tip = "Main Page"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet2_en = {
+	tip = "Milestone"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet3_en = {
+	tip = "Kurumi Event"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet4_en = {
+	tip = "Side Stories"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet5_en = {
+	tip = "Reward List"
+}
+
+
+_G.pg.base.gametip.DAL_story_tip = {
+	tip = "阅读故事集获得活动限定外观奖励"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_program = {
+	tip = "飞船升级"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_1 = {
+	tip = "AREA-1"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_2 = {
+	tip = "AREA-2"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_3 = {
+	tip = "AREA-3"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_4 = {
+	tip = "AREA-4"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_5 = {
+	tip = "AREA-5"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_6 = {
+	tip = "AREA-6"
+}
+
+
+_G.pg.base.gametip.dal_story_tip1 = {
+	tip = "解锁剧情并阅读后\n可获取奖励"
+}
+
+
+_G.pg.base.gametip.dal_story_tip2 = {
+	tip = "阅读剧情后获取"
+}
+
+
+_G.pg.base.gametip.dal_story_tip3 = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.dal_AwardPage_name_1 = {
+	tip = "Gear"
+}
+
+
+_G.pg.base.gametip.dal_AwardPage_name_2 = {
+	tip = "Module"
+}
+
+
+_G.pg.base.gametip.dal_chapter_goto = {
+	tip = "立刻前往"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_unlock = {
+	tip = "未解锁"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_not_enough = {
+	tip = "佛拉克西纳斯AL升级数据数量不足，完成活动任务获取更多"
 }

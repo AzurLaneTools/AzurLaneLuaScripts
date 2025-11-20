@@ -25,7 +25,7 @@ slot0.IsShowTip = function(slot0)
 
 	if slot0:GetActivityID() == ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID then
 		return OtherworldMapScene.IsShowTip()
-	elseif slot3 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+	elseif slot3 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH or slot3 == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
 		return false
 	end
 

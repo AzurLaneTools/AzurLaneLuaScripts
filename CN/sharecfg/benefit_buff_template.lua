@@ -200,7 +200,35 @@ pg.benefit_buff_template = setmetatable({
 		300218,
 		300219,
 		300220,
-		300221
+		300221,
+		300300,
+		300301,
+		300302,
+		300303,
+		300304,
+		300305,
+		300306,
+		300307,
+		300308,
+		300309,
+		300310,
+		300311,
+		300312,
+		300313,
+		300314,
+		300315,
+		300316,
+		300317,
+		300318,
+		300319,
+		300320,
+		300321,
+		300322,
+		300323,
+		300324,
+		300325,
+		300326,
+		300327
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3845,5 +3873,504 @@ pg.base.benefit_buff_template = {
 		id = 300221,
 		type_priority = 0,
 		benefit_type = "desc"
+	},
+	[300300] = {
+		icon = "Props/xinshou",
+		name = "无效效果",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "占位用buff",
+		benefit_effect = "0",
+		id = 300300,
+		type_priority = 0,
+		benefit_type = "desc"
+	},
+	[300301] = {
+		icon = "Props/xinshou",
+		name = "白鹰科技模块LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色单场战斗中累计损失耐久百分比超过40%时，恢复其3%耐久，每个角色限一次",
+		benefit_effect = "201561",
+		id = 300301,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300302] = {
+		icon = "Props/xinshou",
+		name = "白鹰科技模块LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色单场战斗中累计损失耐久百分比超过30%时，恢复其3%耐久，每个角色限一次",
+		benefit_effect = "201562",
+		id = 300302,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300303] = {
+		icon = "Props/xinshou",
+		name = "白鹰科技模块LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色单场战斗中累计损失耐久百分比超过20%时，恢复其3%耐久，每个角色限一次",
+		benefit_effect = "201563",
+		id = 300303,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300304] = {
+		icon = "Props/xinshou",
+		name = "皇家科技模块LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中航空升2%",
+		benefit_effect = "201565",
+		id = 300304,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300305] = {
+		icon = "Props/xinshou",
+		name = "皇家科技模块LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中航空升4%",
+		benefit_effect = "201566",
+		id = 300305,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300306] = {
+		icon = "Props/xinshou",
+		name = "皇家科技模块LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中航空升6%",
+		benefit_effect = "201567",
+		id = 300306,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300307] = {
+		icon = "Props/xinshou",
+		name = "鸢尾科技模块LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中受到的伤害降低1%",
+		benefit_effect = "201568",
+		id = 300307,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300308] = {
+		icon = "Props/xinshou",
+		name = "鸢尾科技模块LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中受到的伤害降低2%",
+		benefit_effect = "201569",
+		id = 300308,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300309] = {
+		icon = "Props/xinshou",
+		name = "鸢尾科技模块LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中受到的伤害降低3%",
+		benefit_effect = "201570",
+		id = 300309,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300310] = {
+		icon = "Props/xinshou",
+		name = "铁血科技模块LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中炮击提升2%",
+		benefit_effect = "201571",
+		id = 300310,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300311] = {
+		icon = "Props/xinshou",
+		name = "铁血科技模块LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中炮击提升4%",
+		benefit_effect = "201572",
+		id = 300311,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300312] = {
+		icon = "Props/xinshou",
+		name = "铁血科技模块LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中炮击提升6%",
+		benefit_effect = "201573",
+		id = 300312,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300313] = {
+		icon = "Props/xinshou",
+		name = "东煌科技模块LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中命中提升2%",
+		benefit_effect = "201586",
+		id = 300313,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300314] = {
+		icon = "Props/xinshou",
+		name = "东煌科技模块LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中命中提升4%",
+		benefit_effect = "201587",
+		id = 300314,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300315] = {
+		icon = "Props/xinshou",
+		name = "东煌科技模块LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中命中提升6%",
+		benefit_effect = "201588",
+		id = 300315,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300316] = {
+		icon = "Props/xinshou",
+		name = "撒丁科技模块LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色在每场战斗开始的前10秒内装填提升15%",
+		benefit_effect = "201574",
+		id = 300316,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300317] = {
+		icon = "Props/xinshou",
+		name = "撒丁科技模块LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色在每场战斗开始的前15秒内装填提升15%",
+		benefit_effect = "201575",
+		id = 300317,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300318] = {
+		icon = "Props/xinshou",
+		name = "撒丁科技模块LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色在每场战斗开始的前20秒内装填提升15%",
+		benefit_effect = "201576",
+		id = 300318,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300319] = {
+		icon = "Props/xinshou",
+		name = "郁金科技模块LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中航速提升2点",
+		benefit_effect = "201580",
+		id = 300319,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300320] = {
+		icon = "Props/xinshou",
+		name = "郁金科技模块LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中航速提升4点",
+		benefit_effect = "201581",
+		id = 300320,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300321] = {
+		icon = "Props/xinshou",
+		name = "郁金科技模块LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中航速提升6点",
+		benefit_effect = "201582",
+		id = 300321,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300322] = {
+		icon = "Props/xinshou",
+		name = "北联科技模块LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中造成的伤害提升1%",
+		benefit_effect = "201577",
+		id = 300322,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300323] = {
+		icon = "Props/xinshou",
+		name = "北联科技模块LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中造成的伤害提升2%",
+		benefit_effect = "201578",
+		id = 300323,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300324] = {
+		icon = "Props/xinshou",
+		name = "北联科技模块LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中造成的伤害提升3%",
+		benefit_effect = "201579",
+		id = 300324,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300325] = {
+		icon = "Props/xinshou",
+		name = "重樱科技模块LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中雷击提升2%",
+		benefit_effect = "201589",
+		id = 300325,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300326] = {
+		icon = "Props/xinshou",
+		name = "重樱科技模块LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中雷击提升4%",
+		benefit_effect = "201590",
+		id = 300326,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300327] = {
+		icon = "Props/xinshou",
+		name = "重樱科技模块LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "我方角色战斗中雷击提升6%",
+		benefit_effect = "201591",
+		id = 300327,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
 	}
 }

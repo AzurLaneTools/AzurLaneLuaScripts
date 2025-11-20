@@ -2186,6 +2186,24 @@ pg.ship_data_group = setmetatable({
 		[1140002] = {
 			10142
 		},
+		[1150001] = {
+			10151
+		},
+		[1150002] = {
+			10152
+		},
+		[1150003] = {
+			10153
+		},
+		[1150004] = {
+			10154
+		},
+		[1150005] = {
+			10155
+		},
+		[1150006] = {
+			10156
+		},
 		[29901] = {
 			20001
 		},
@@ -2467,6 +2485,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970110] = {
 			30052
+		},
+		[970208] = {
+			30053
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3200,7 +3221,13 @@ pg.ship_data_group = setmetatable({
 			10133,
 			10134,
 			10141,
-			10142
+			10142,
+			10151,
+			10152,
+			10153,
+			10154,
+			10155,
+			10156
 		},
 		{
 			20001,
@@ -3298,7 +3325,8 @@ pg.ship_data_group = setmetatable({
 			30049,
 			30050,
 			30051,
-			30052
+			30052,
+			30053
 		}
 	},
 	all = {
@@ -4030,6 +4058,12 @@ pg.ship_data_group = setmetatable({
 		10134,
 		10141,
 		10142,
+		10151,
+		10152,
+		10153,
+		10154,
+		10155,
+		10156,
 		20001,
 		20002,
 		20003,
@@ -4123,7 +4157,8 @@ pg.ship_data_group = setmetatable({
 		30049,
 		30050,
 		30051,
-		30052
+		30052,
+		30053
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -34764,6 +34799,198 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[10151] = {
+		nationality = 115,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1150001,
+		index_id = 10151,
+		code = 10151,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：DATE A LANE",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10152] = {
+		nationality = 115,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1150002,
+		index_id = 10152,
+		code = 10152,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：DATE A LANE",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10153] = {
+		nationality = 115,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1150003,
+		index_id = 10153,
+		code = 10153,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：DATE A LANE",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10154] = {
+		nationality = 115,
+		type = 6,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1150004,
+		index_id = 10154,
+		code = 10154,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"A",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：DATE A LANE",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10155] = {
+		nationality = 115,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1150005,
+		index_id = 10155,
+		code = 10155,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"B",
+			"B",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：DATE A LANE",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10156] = {
+		nationality = 115,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1150006,
+		index_id = 10156,
+		code = 10156,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：DATE A LANE",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[20001] = {
 		nationality = 2,
 		type = 2,
@@ -38031,6 +38258,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9701101
+					}
+				},
+				0
+			}
+		}
+	},
+	[30053] = {
+		nationality = 97,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970208,
+		index_id = 30050,
+		code = 30053,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702081
 					}
 				},
 				0

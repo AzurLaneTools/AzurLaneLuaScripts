@@ -1,53 +1,5 @@
 pg = pg or {}
 pg.enemy_data_statistics_3 = {
-	[50069] = {
-		antiaircraft_growth = 9400,
-		name = "兔兔打击者",
-		armor_growth = 0,
-		cannon_growth = 9400,
-		durability_growth = 0,
-		fog_fx = "",
-		bubble_fx = "",
-		reload_growth = 9400,
-		dodge_growth = 4700,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50061,
-		durability = 920,
-		torpedo_growth = 9400,
-		luck_growth = 10000,
-		hit_growth = 9400,
-		id = 50069,
-		specific_fx_scale = {},
-		appear_fx = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[50070] = {
-		antiaircraft_growth = 10000,
-		name = "兔兔打击者",
-		armor_growth = 0,
-		cannon_growth = 10000,
-		durability_growth = 0,
-		fog_fx = "",
-		bubble_fx = "",
-		reload_growth = 10000,
-		dodge_growth = 5000,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50061,
-		durability = 1000,
-		torpedo_growth = 10000,
-		luck_growth = 10000,
-		hit_growth = 10000,
-		id = 50070,
-		specific_fx_scale = {},
-		appear_fx = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
 	[50071] = {
 		cannon = 0,
 		name = "「罗德尼」",
@@ -1605,6 +1557,69 @@ pg.enemy_data_statistics_3 = {
 		id = 50105,
 		equipment_list = {
 			167085
+		}
+	},
+	[50106] = {
+		antiaircraft_growth = 7750,
+		name = "“飞剑龙”式双翼无人机",
+		torpedo_growth = 0,
+		cannon_growth = 7750,
+		luck_growth = 10000,
+		fog_fx = "",
+		reload_growth = 7750,
+		dodge_growth = 4000,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50101,
+		armor_growth = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		hit_growth = 7750,
+		id = 50106,
+		equipment_list = {
+			167086
+		}
+	},
+	[50107] = {
+		antiaircraft_growth = 8300,
+		name = "“飞剑龙”式双翼无人机",
+		torpedo_growth = 0,
+		cannon_growth = 8300,
+		luck_growth = 10000,
+		fog_fx = "",
+		reload_growth = 8300,
+		dodge_growth = 4200,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50101,
+		armor_growth = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		hit_growth = 8300,
+		id = 50107,
+		equipment_list = {
+			167087
+		}
+	},
+	[50108] = {
+		antiaircraft_growth = 8850,
+		name = "“飞剑龙”式双翼无人机",
+		torpedo_growth = 0,
+		cannon_growth = 8850,
+		luck_growth = 10000,
+		fog_fx = "",
+		reload_growth = 8850,
+		dodge_growth = 4400,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50101,
+		armor_growth = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		hit_growth = 8850,
+		id = 50108,
+		equipment_list = {
+			167088
 		}
 	}
 }

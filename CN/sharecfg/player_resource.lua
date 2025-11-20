@@ -2110,6 +2110,46 @@ pg.player_resource = {
 		name = "skinTicket100",
 		itemid = 65735
 	},
+	[587] = {
+		id = 587,
+		name = "dal_kuangsan_pt",
+		itemid = 65743
+	},
+	[588] = {
+		id = 588,
+		name = "dal_pt",
+		itemid = 65741
+	},
+	[589] = {
+		id = 589,
+		name = "dal_upgrade_pt",
+		itemid = 65742
+	},
+	[590] = {
+		id = 590,
+		name = "limit_skinticket49",
+		itemid = 68151
+	},
+	[591] = {
+		id = 591,
+		name = "limit_skinticket50",
+		itemid = 68152
+	},
+	[592] = {
+		id = 592,
+		name = "limit_skinticket51",
+		itemid = 68153
+	},
+	[593] = {
+		id = 593,
+		name = "skinTicket101",
+		itemid = 65746
+	},
+	[594] = {
+		id = 594,
+		name = "newserver_pt_251120",
+		itemid = 65110
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2505,15 +2545,20 @@ pg.player_resource = {
 		name = "Battlepass_24",
 		itemid = 65101
 	},
+	[4101] = {
+		id = 4101,
+		name = "Battlepass_black_friday",
+		itemid = 65107
+	},
 	[4025] = {
 		id = 4025,
 		name = "Battlepass_25",
 		itemid = 65106
 	},
-	[4101] = {
-		id = 4101,
-		name = "Battlepass_black_friday",
-		itemid = 65107
+	[4026] = {
+		id = 4026,
+		name = "Battlepass_26",
+		itemid = 65108
 	},
 	[4186] = {
 		id = 4186,
@@ -3942,6 +3987,30 @@ pg.player_resource = {
 		skinTicket100 = {
 			586
 		},
+		dal_kuangsan_pt = {
+			587
+		},
+		dal_pt = {
+			588
+		},
+		dal_upgrade_pt = {
+			589
+		},
+		limit_skinticket49 = {
+			590
+		},
+		limit_skinticket50 = {
+			591
+		},
+		limit_skinticket51 = {
+			592
+		},
+		skinTicket101 = {
+			593
+		},
+		newserver_pt_251120 = {
+			594
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4179,11 +4248,14 @@ pg.player_resource = {
 		Battlepass_24 = {
 			4024
 		},
+		Battlepass_black_friday = {
+			4101
+		},
 		Battlepass_25 = {
 			4025
 		},
-		Battlepass_black_friday = {
-			4101
+		Battlepass_26 = {
+			4026
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -4705,6 +4777,14 @@ pg.player_resource = {
 		584,
 		585,
 		586,
+		587,
+		588,
+		589,
+		590,
+		591,
+		592,
+		593,
+		594,
 		950,
 		951,
 		952,
@@ -4784,8 +4864,9 @@ pg.player_resource = {
 		4022,
 		4023,
 		4024,
-		4025,
 		4101,
+		4025,
+		4026,
 		4186,
 		4276,
 		4599,

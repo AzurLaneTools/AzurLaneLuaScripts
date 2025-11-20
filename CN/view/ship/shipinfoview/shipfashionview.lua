@@ -254,18 +254,22 @@ slot0.UpdateFashionDetail = function(slot0, slot1)
 		end
 
 		slot2.prefab = slot1.prefab
-		slot6 = PoolMgr.GetInstance()
+		slot0.spineChar = SpineAnimChar.New()
+		slot6 = slot0.spineChar
 
-		slot6:GetSpineChar(slot2.prefab, true, function (slot0)
+		slot6:SetPaint(slot2.prefab)
+
+		slot6 = slot0.spineChar
+
+		slot6:Load(true, function (slot0)
 			if uv0.prefab ~= uv1 then
-				PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
+				slot0:Dispose()
 			else
-				slot0.name = uv1
-				slot0.transform.localPosition = Vector3.zero
-				slot0.transform.localScale = Vector3(0.5, 0.5, 1)
-
-				slot0.transform:SetParent(uv0.character, false)
-				slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv2.show_skin or "stand", 0)
+				slot0:SetName(uv1)
+				slot0:SetLocalPosition(Vector3.zero)
+				slot0:SetLocalScale(Vector3(0.5, 0.5, 1))
+				slot0:SetParent(uv0.character)
+				slot0:SetAction(uv2.show_skin or "stand", 0)
 			end
 		end)
 	end
@@ -366,8 +370,10 @@ slot0.OnDestroy = function(slot0)
 	if slot0.fashionDetailWrapper then
 		slot1 = slot0.fashionDetailWrapper
 
-		if not IsNil(slot1.character:Find(slot1.prefab)) then
-			PoolMgr.GetInstance():ReturnSpineChar(slot1.prefab, slot2.gameObject)
+		if slot1.character:Find(slot1.prefab) and slot0.spineChar then
+			slot0.spineChar:Dispose()
+
+			slot0.spineChar = nil
 		end
 	end
 

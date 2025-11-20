@@ -183,23 +183,19 @@ slot0.LoadClassRoom = function(slot0)
 end
 
 slot0.AddStudent = function(slot0, slot1, slot2)
-	slot3 = slot1.transform
-	slot3.localScale = Vector3(-0.9, 0.9, 1)
-	slot3.localPosition = Vector3(37, 62, 0)
-
-	setParent(slot3, slot2)
+	slot1:SetLocalScale(Vector3(-0.9, 0.9, 1))
+	slot1:SetLocalPosition(Vector3(37, 62, 0))
+	slot1:SetParent(slot2)
 	setActive(slot2:Find("icon"), true)
-	slot1:GetComponent("SpineAnimUI"):SetAction("sit", 0)
-	slot3:SetSiblingIndex(0)
+	slot1:SetAction("sit", 0)
+	slot1:SetSiblingIndex(0)
 end
 
 slot0.AddTeacher = function(slot0, slot1, slot2)
-	slot3 = slot1.transform
-	slot3.localScale = Vector3(0.9, 0.9, 1)
-	slot3.localPosition = Vector3(0, 0, 0)
-
-	setParent(slot3, slot2)
-	slot1:GetComponent("SpineAnimUI"):SetAction("stand2", 0)
+	slot1:SetLocalScale(Vector3(0.9, 0.9, 1))
+	slot1:SetLocalPosition(Vector3(0, 0, 0))
+	slot1:SetParent(slot2)
+	slot1:SetAction("stand2", 0)
 end
 
 slot0.willExit = function(slot0)
@@ -210,16 +206,17 @@ slot0.willExit = function(slot0)
 end
 
 slot0.LoadChar = function(slot0, slot1, slot2)
-	slot3 = PoolMgr.GetInstance()
+	slot3 = SpineAnimChar.New()
 
-	slot3:GetSpineChar(slot1, true, function (slot0)
+	slot3:SetPaint(slot1)
+	slot3:Load(true, function (slot0)
 		if uv0.exited then
-			PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
+			slot0:Dispose()
 
 			return
 		end
 
-		pg.ViewUtils.SetLayer(slot0.transform, Layer.UI)
+		slot0:SetLayer(Layer.UI)
 
 		uv0.chars[uv1] = slot0
 
@@ -229,7 +226,7 @@ end
 
 slot0.ClearChars = function(slot0)
 	for slot4, slot5 in pairs(slot0.chars) do
-		PoolMgr.GetInstance():ReturnSpineChar(slot4, slot5)
+		slot5:Dispose()
 	end
 
 	slot0.chars = {}

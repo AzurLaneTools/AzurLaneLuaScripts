@@ -224,6 +224,7 @@ slot0.InitHideMode = function(slot0)
 
 				setActive(uv0.stockingTFs[uv1], true)
 				setActive(uv0.sceneStockingTFs[uv1], false)
+				GraphicsInterface.Instance:SetStockingPos(uv0.stockingTFs[uv1].gameObject, uv2.wear_initial_pos[uv1])
 			end)
 		end
 

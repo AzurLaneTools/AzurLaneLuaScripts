@@ -93,16 +93,14 @@ slot0.LoadSpine = function(slot0, slot1)
 			return
 		end
 
-		slot0 = uv1.modelRoot.transform
-		uv1.model:GetComponent("SkeletonGraphic").raycastTarget = false
-		slot0.anchoredPosition3D = Vector3.zero
-		slot0.localScale = Vector3.one
-
-		pg.ViewUtils.SetLayer(slot0, Layer.UI)
+		uv1:SetRaycastTarget(false)
+		uv1:SetAnchoredPosition3D(Vector3.zero)
+		uv1:SetLocalScale(Vector3.one)
+		uv1:SetLayer(Layer.UI)
 		uv1:SetParent(uv0.model)
 
 		uv0.modelComps = {
-			uv1.model:GetComponent("SpineAnimUI")
+			uv1:GetSpineAnimUI()
 		}
 		uv0.spineRole = uv1
 

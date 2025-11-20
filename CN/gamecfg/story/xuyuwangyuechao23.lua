@@ -867,7 +867,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，术式已经启动了，{namecode:74}大人已经知{namecode:11}了我们的方位。",
+			say = "不，术式已经启动了，{namecode:74}大人已经知晓了我们的方位。",
 			painting = {
 				alpha = 0.3,
 				time = 1

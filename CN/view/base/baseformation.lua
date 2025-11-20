@@ -135,7 +135,7 @@ slot0.LoadAllCharacter = function(slot0)
 		slot0:SetRaycastTarget(false)
 		slot0:SetLocalScale(Vector3(0.8, 0.8, 1))
 		slot0:SetLayer(Layer.UI)
-		slot0.modelRoot.transform:SetAsFirstSibling()
+		slot0:SetAsFirstSibling()
 
 		if uv0._heroInfoModifyCb ~= nil then
 			uv0._heroInfoModifyCb(slot5, slot4, slot0)
@@ -171,10 +171,10 @@ slot0.LoadAllCharacter = function(slot0)
 				return
 			end
 
-			uv0._modelDrag = uv3.modelRoot
+			uv0._modelDrag = uv3:GetRootModel()
 			uv0._currentDragDelegate = uv4
 
-			LeanTween.cancel(uv3.modelRoot)
+			LeanTween.cancel(uv0._modelDrag)
 			uv5:SetAsLastSibling()
 			uv0:SwitchToShiftMode(uv5, uv2)
 			uv3:SetAction("tuozhuai")
@@ -186,14 +186,14 @@ slot0.LoadAllCharacter = function(slot0)
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
 		end)
 		slot10:AddDragFunc(function (slot0, slot1)
-			if uv0._modelDrag ~= uv1.modelRoot then
+			if uv0._modelDrag ~= uv1:GetRootModel() then
 				return
 			end
 
 			uv2.localPosition = Vector3(slot1.position.x * uv0._widthRate - uv0._halfWidth - uv0._offset.x, slot1.position.y * uv0._heightRate - uv0._halfHeight - uv0._offset.y, -22)
 		end)
 		slot10:AddDragEndFunc(function (slot0, slot1)
-			if uv0._modelDrag ~= uv1.modelRoot then
+			if uv0._modelDrag ~= uv1:GetRootModel() then
 				return
 			end
 
@@ -320,7 +320,7 @@ slot0.SetCharacterPos = function(slot0, slot1, slot2, slot3)
 	assert(slot0._gridTFs[slot1], "没有找到编队显示对象_teamType:" .. tostring(slot1))
 
 	slot5 = slot3.spineRole
-	slot6 = slot5.modelRoot
+	slot6 = slot5:GetRootModel()
 	slot7 = slot0._gridTFs[slot1][slot2]
 	slot8 = slot7.localPosition
 
@@ -395,7 +395,7 @@ slot0.SwitchToShiftMode = function(slot0, slot1, slot2)
 	end
 
 	for slot7, slot8 in ipairs(slot0._characterList[slot2]) do
-		slot11 = slot8.spineRole.modelRoot
+		slot11 = slot8.spineRole:GetRootModel()
 
 		if slot8.heroInfoTF ~= slot1 then
 			LeanTween.moveY(rtf(slot11), slot11.transform.localPosition.y + 20, 0.5)
@@ -442,7 +442,7 @@ slot0.SwitchToDisplayMode = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6 = slot5.heroInfoTF
 			slot7 = slot5.spineRole
-			slot8 = slot7.modelRoot
+			slot8 = slot7:GetRootModel()
 			slot9, slot10, slot11 = slot7:GetInterface()
 
 			if slot11 then
@@ -507,7 +507,7 @@ slot0.Shift = function(slot0, slot1, slot2, slot3)
 	slot10 = slot0._gridTFs[slot3][slot1].localPosition
 	slot6.heroInfoTF.localPosition = Vector3(slot10.x, slot10.y + 20, -15 + slot10.z + slot1)
 
-	LeanTween.cancel(slot6.spineRole.modelRoot)
+	LeanTween.cancel(slot6.spineRole:GetRootModel())
 
 	slot4[slot2] = slot4[slot1]
 	slot4[slot1] = slot4[slot2]

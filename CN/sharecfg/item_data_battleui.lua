@@ -148,6 +148,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[111] = {
+		name = "月下皮影",
+		key = "SkinNormal_20251120",
+		display_icon = "ui_111",
+		unlock = "世界巡游二十六期获取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "简单皮影勾勒无穷遐想，简约故事蕴含美好期望。暖色基调与宁静风韵共同营造出淡泊氛围。",
+		id = 111,
+		icon = "111",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "圣诞雪境",
 		key = "SkinNormal_20241209",
@@ -244,6 +259,7 @@ pg.item_data_battleui = {
 		107,
 		108,
 		109,
+		111,
 		201,
 		202,
 		203,

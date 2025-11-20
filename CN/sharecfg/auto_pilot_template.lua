@@ -651,6 +651,159 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15019] = {
+		id = 15019,
+		name = "角色用/技能用AI - 时崎狂三分身移动1号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -65,
+					z = 85
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 5,
+				param = {
+					stopCount = 60,
+					Z2 = -25,
+					moveCount = 240,
+					Z1 = 5,
+					duration = -1,
+					X1 = -5,
+					X2 = 25
+				}
+			}
+		}
+	},
+	[15020] = {
+		id = 15020,
+		name = "角色用/技能用AI - 时崎狂三分身移动2号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -65,
+					z = 60
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 5,
+				param = {
+					stopCount = 60,
+					Z2 = -25,
+					moveCount = 240,
+					Z1 = 5,
+					duration = -1,
+					X1 = -5,
+					X2 = 25
+				}
+			}
+		}
+	},
+	[15021] = {
+		id = 15021,
+		name = "角色用/技能用AI - 时崎狂三分身移动3号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -65,
+					z = 25
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 5,
+				param = {
+					stopCount = 60,
+					Z2 = -5,
+					moveCount = 240,
+					Z1 = 25,
+					duration = -1,
+					X1 = -5,
+					X2 = 25
+				}
+			}
+		}
+	},
+	[15022] = {
+		id = 15022,
+		name = "角色用/技能用AI - 拉菲机器人移动1号-演习",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 60,
+					Z2 = -5,
+					moveCount = 240,
+					Z1 = 30,
+					duration = -1,
+					X1 = -15,
+					X2 = 5
+				}
+			}
+		}
+	},
+	[15023] = {
+		id = 15023,
+		name = "角色用/技能用AI - 拉菲机器人移动2号-演习",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 60,
+					Z2 = -15,
+					moveCount = 240,
+					Z1 = 15,
+					duration = -1,
+					X1 = -15,
+					X2 = 5
+				}
+			}
+		}
+	},
+	[15024] = {
+		id = 15024,
+		name = "角色用/技能用AI - 拉菲机器人移动3号-演习",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 60,
+					Z2 = -30,
+					moveCount = 240,
+					Z1 = 5,
+					duration = -1,
+					X1 = -15,
+					X2 = 5
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",
