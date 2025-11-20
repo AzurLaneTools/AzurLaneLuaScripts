@@ -69,16 +69,6 @@ pg.extraenemy_series_template = {
 			4001,
 			4002
 		},
-		normal_expedition_damage = {
-			{
-				30,
-				40
-			},
-			{
-				35,
-				50
-			}
-		},
 		aid_buff = {
 			0.5,
 			201602
@@ -158,16 +148,6 @@ pg.extraenemy_series_template = {
 		activity_series_enemy_id = {
 			4011,
 			4012
-		},
-		normal_expedition_damage = {
-			{
-				300,
-				400
-			},
-			{
-				375,
-				500
-			}
 		},
 		aid_buff = {
 			0.25,
@@ -249,16 +229,6 @@ pg.extraenemy_series_template = {
 			4021,
 			4022
 		},
-		normal_expedition_damage = {
-			{
-				300,
-				400
-			},
-			{
-				375,
-				500
-			}
-		},
 		aid_buff = {
 			0.25,
 			201610
@@ -339,16 +309,6 @@ pg.extraenemy_series_template = {
 			4031,
 			4032
 		},
-		normal_expedition_damage = {
-			{
-				300,
-				400
-			},
-			{
-				375,
-				500
-			}
-		},
 		aid_buff = {
 			0.25,
 			201614
@@ -428,16 +388,6 @@ pg.extraenemy_series_template = {
 		activity_series_enemy_id = {
 			4041,
 			4042
-		},
-		normal_expedition_damage = {
-			{
-				300,
-				400
-			},
-			{
-				375,
-				500
-			}
 		},
 		aid_buff = {
 			0.25,
@@ -562,16 +512,6 @@ pg.extraenemy_series_template = {
 		activity_series_enemy_id = {
 			4051,
 			4052
-		},
-		normal_expedition_damage = {
-			{
-				120,
-				160
-			},
-			{
-				145,
-				190
-			}
 		},
 		aid_buff = {
 			0.7,

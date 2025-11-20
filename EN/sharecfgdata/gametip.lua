@@ -46109,7 +46109,7 @@ If you begin playing the collab event while a given stage has already been compl
 5. If a control bar reaches 0% on a stage which you have not cleared a single time, you will receive special missions that give you the rewards upon completing them.
 
 - Upgrade Airship -
-2. In the bottom right on the event stage select screen, there is an Upgrade Airship button. Tapping this will bring you to the Upgrade Airship screen.
+1. In the bottom right on the event stage select screen, there is an Upgrade Airship button. Tapping this will bring you to the Upgrade Airship screen.
 2. On this screen, you can use the Fraxinus AL Improvement Data that you've obtained through collab missions to upgrade its various faction-specific modules. Upgrading these modules will give you buffs on the collab stages.
 ]]
 }

@@ -305,17 +305,20 @@ pg.activity_link_button = {
 		}
 	},
 	[110] = {
-		param = "PSSCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_core2",
+		text_pic = "text_event_blackfriday",
 		type = 16,
-		pic = "event_core2",
+		pic = "event_blackfriday",
 		id = 110,
 		group_id = 2,
 		order = 2,
 		time = {
 			"default",
 			50234
+		},
+		param = {
+			"PSSCoreActivityUI",
+			"JINNIANDECUXIAOXINGSHISHI1"
 		}
 	},
 	[111] = {
