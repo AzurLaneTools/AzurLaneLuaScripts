@@ -80,9 +80,9 @@ pg.ship_data_create_material = {
 			" ",
 			"<color=#ffde38>鳶一折紙</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>五河琴理</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>五河琴里</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>八舞耶倶矢・八舞弓弦</color>：0.5%"
+			"<color=#ffde38>八舞耶倶矢・八舞夕弦</color>：0.5%"
 		}
 	},
 	{

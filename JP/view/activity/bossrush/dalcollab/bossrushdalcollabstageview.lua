@@ -63,11 +63,7 @@ slot0.SetData = function(slot0, slot1)
 
 		updateDrop(slot2, Drop.Create(uv0[slot1 + 1]))
 
-		slot6 = getProxy(ActivityTaskProxy):getTaskById(uv1._series:GetReplaceTaskIDList()[1])
-
-		if uv1._series:IsPass() and slot6 then
-			-- Nothing
-		end
+		slot6 = getProxy(TaskProxy):getTaskById(uv1._series:GetReplaceTaskIDList()[1])
 
 		if uv1._series:IsPass() then
 			if slot6 then

@@ -39,7 +39,7 @@ slot0.GetCollabSeriesDataList = function(slot0)
 end
 
 slot0.HasAwards = function(slot0)
-	return slot0.data1 == 1
+	return slot0.data2 == 1
 end
 
 slot0.GetPassCounts = function(slot0)

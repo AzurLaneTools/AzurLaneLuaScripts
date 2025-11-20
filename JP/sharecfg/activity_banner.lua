@@ -320,7 +320,7 @@ pg.activity_banner = {
 					4
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
