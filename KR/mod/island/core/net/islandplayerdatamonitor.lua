@@ -37,7 +37,7 @@ slot0.register = function(slot0)
 		uv0:HandleAchievementData(slot0.event_list)
 	end)
 	slot0:on(21342, function (slot0)
-		uv0:HandleBookData(slot0.item_ids)
+		uv0:HandleBookData(slot0.item_list)
 	end)
 	slot0:on(21518, function (slot0)
 		uv0:HandleSlotFormulaData(slot0)
@@ -238,7 +238,7 @@ slot0.HandleAchievementData = function(slot0, slot1)
 end
 
 slot0.HandleBookData = function(slot0, slot1)
-	getProxy(IslandProxy):GetIsland():GetBookAgency():AddCanUnlockItems(slot1)
+	getProxy(IslandProxy):GetIsland():GetBookAgency():HandlePushData(slot1)
 end
 
 slot0.HandleSlotFormulaData = function(slot0, slot1)

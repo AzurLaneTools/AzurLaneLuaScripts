@@ -12,7 +12,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.bgTr = slot1:Find("bg")
 	slot0.bgImg = slot1:Find("bg"):GetComponent(typeof(Image))
 	slot0.request = slot1:Find("request")
-	slot0.refreshBtn = slot1:Find("refresh")
+	slot0.exchangeBtn = slot1:Find("refresh")
 	slot0.requestCG = GetOrAddComponent(slot0.request, typeof(CanvasGroup))
 	slot0.uiRequestList = UIItemList.New(slot1:Find("request"), slot1:Find("request/tpl"))
 	slot0.titleTr = slot1:Find("title")
@@ -34,12 +34,14 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.getBtn = slot1:Find("state_finish/get")
 	slot0.signTr = slot1:Find("sign")
 	slot0.resImg = slot1:Find("state_lock/gold/content/icon")
-	slot0.reloadingTr = slot1:Find("reloading")
-	slot0.reloadingTimerTxt = slot0.reloadingTr:Find("timer/Text"):GetComponent(typeof(Text))
+	slot0.emptyTr = slot1:Find("empty")
+	slot0.finishCntTxt = slot1:Find("count"):GetComponent(typeof(Text))
 
 	setText(slot1:Find("loading_award/state/Text"), i18n("island_order_get_label"))
 	setText(slot1:Find("normal_award/state/Text"), i18n("island_order_get_label"))
 	setText(slot0.getBtn:Find("Text"), i18n("island_order_get_label"))
+	setText(slot1:Find("empty/Text"), i18n("island_order_ship_sel_delegate_label"))
+	setText(slot0.exchangeBtn:Find("Text"), i18n("island_order_ship_btn_replace"))
 
 	slot0.animator = slot1:GetComponent(typeof(Animation))
 	slot0.aniDft = slot1:GetComponent(typeof(DftAniEvent))
@@ -58,12 +60,12 @@ slot0.FlushMain = function(slot0, slot1, slot2)
 	slot0:UpdateAward(slot1)
 	slot0:UpdateLockTip(slot1)
 	slot0:UpdateTitle(slot1)
-	slot0:UpdateReloadingTime(slot1)
+	slot0:UpdateFinishCnt(slot1)
 end
 
-slot0.UpdateRefreshBtn = function(slot0, slot1, slot2)
-	setGray(slot0.refreshBtn, not slot1:CanRefresh(), true)
-	setActive(slot0.refreshBtn, slot1:IsWaiting() and slot2 == IslandShipOrderPage.MODE_REQUEST_VIEW and not slot1:IsReloading())
+slot0.UpdateFinishCnt = function(slot0, slot1)
+	slot3 = slot1:GetMaxFinishCnt()
+	slot0.finishCntTxt.text = i18n("island_order_ship_finish_cnt", slot3 - slot1:GetRealFinishCnt(), slot3)
 end
 
 slot0.PlayAniamtion = function(slot0, slot1, slot2, slot3)
@@ -120,7 +122,6 @@ slot0.SwitchMode = function(slot0, slot1, slot2)
 	slot0.mode = slot2
 
 	slot0:UpdateStyle(slot1, slot2)
-	slot0:UpdateRefreshBtn(slot1, slot2)
 end
 
 slot0.UpdateTimer = function(slot0, slot1)
@@ -221,7 +222,7 @@ slot0.UpdateStyle = function(slot0, slot1, slot2)
 	slot5 = slot1:IsFinished()
 	slot6 = slot1:IsSubmited() and not slot5
 	slot7 = slot1:CanUnlock()
-	slot8 = slot1:IsReloading()
+	slot8 = slot1:IsEmpty()
 	slot9 = slot2 == IslandShipOrderPage.MODE_REQUEST_VIEW
 	slot10 = slot2 == IslandShipOrderPage.MODE_AWARD_VIEW
 
@@ -236,38 +237,15 @@ slot0.UpdateStyle = function(slot0, slot1, slot2)
 	setActive(slot0.levelLockTr, slot3 and not slot7)
 	setActive(slot0.resLockTr, slot3 and slot7)
 	setActive(slot0.titleTr, not slot3 and not slot8)
-	setActive(slot0.reloadingTr, slot8)
+	setActive(slot0.emptyTr, slot8 and slot4)
+	setActive(slot0.exchangeBtn, not slot8 and slot4 and slot9)
+	setActive(slot0.finishCntTxt.gameObject, not slot3)
 
 	slot0.requestCG.alpha = slot6 and 0.6 or 1
 	slot0.titleTr.sizeDelta = slot4 and Vector2(360, 39) or Vector2(155, 39)
 
 	slot0:UpdateBgColor(slot1)
 	slot0:UpdateTitleColor(slot1)
-end
-
-slot0.UpdateReloadingTime = function(slot0, slot1)
-	slot0:RemoveReloadingTimer()
-
-	if not slot1:IsReloading() then
-		return
-	end
-
-	slot2 = slot1:GetReloadingEndTime()
-	slot0.reloadingTimer = Timer.New(function ()
-		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-			uv1:RemoveReloadingTimer()
-
-			uv1.reloadingTimerTxt.text = ""
-
-			uv1:Flush(uv2, uv1.mode)
-			pg.m02:sendNotification(uv3.EVENT_CD_END)
-		else
-			uv1.reloadingTimerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
-		end
-	end, 1, -1)
-
-	slot0.reloadingTimer:Start()
-	slot0.reloadingTimer.func()
 end
 
 slot0.RemoveReloadingTimer = function(slot0)

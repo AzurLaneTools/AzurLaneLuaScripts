@@ -105,4 +105,22 @@ slot0.CheckDressIsDirty = function(slot0)
 	return slot0.currentChildPage:CheckDressIsDirty()
 end
 
+slot0.CanEsc = function(slot0)
+	if not slot0:CheckDressIsDirty() then
+		return true
+	end
+
+	slot0:ShowMsgBox({
+		type = IslandMsgBox.TYPE_COMMON,
+		content = i18n("island_dressup_tip_1"),
+		onYes = function ()
+			uv0.currentChildPage:SaveDressUpData()
+			uv0:Hide()
+		end,
+		onNo = function ()
+			uv0:Hide()
+		end
+	})
+end
+
 return slot0

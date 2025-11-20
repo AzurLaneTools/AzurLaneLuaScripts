@@ -1,5 +1,5 @@
 return {
-	mode = 9,
+	mode = 10,
 	id = "ISLAND1001036",
 	map = {
 		{
@@ -19,18 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "这里是已经完全停工了么？",
+			say = "아모마…… 여긴 공사가 완전히 멈춘 건가?",
 			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "指挥官！欢迎前来视察~",
-			animation = "hi",
-			characterId = 100800,
-			subName = "商区管理员",
 			face2Face = {
 				{
 					0,
@@ -43,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "呃……不过如您所见，因为港口商区项目暂时搁置了。",
-			animation = "talk",
+			subName = "상업 지구 관리자",
+			say = "지휘관님! 어서 와요~환영해요~",
 			characterId = 100800,
-			subName = "商区管理员",
+			animation = "hi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我正在清点余下的建材……看看有哪些还能用到其他更紧急的工程上。",
-			subName = "商区管理员",
+			say = "윽……보시는 것처럼, 항구 상업 지구 프로젝트는 잠시 보류된 상태예요.",
+			subName = "상업 지구 관리자",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +52,16 @@ return {
 			}
 		},
 		{
-			say = "不用了——我想重启这个工程！",
-			animation = "shakehead",
+			say = "저는 남아 있는 건축 자재를 정리하고 있어요. 그러면서 다른 긴급 공사에 쓸 수 있는 자재가 있는지 보고 있어요.",
+			subName = "상업 지구 관리자",
+			characterId = 100800,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "그럴 필요 없어——난 이 프로젝트를 다시 시작하고 싶어!",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +69,8 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "重启？指挥官，虽然作为负责人，我很高兴能听到你这么说。",
+			subName = "상업 지구 관리자",
+			say = "다시 시작한다고요? 지휘관님, 책임자로서 그런 말을 들으니 정말 기뻐요.",
 			characterId = 100800,
 			animation = "amaze",
 			typewriter = {
@@ -81,105 +79,98 @@ return {
 			}
 		},
 		{
+			say = "다만 지금은 좋은 생각이 아니에요. 개발구의 자금은 한정적이니, 더 급한 곳에 써야 하잖아요.",
+			subName = "상업 지구 관리자",
+			characterId = 100800,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "아모마, 내가 봤을 때…… 지금 이 항구의 상업 지구가 가장 시급해.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "일 때문에 삶을 잃으면, 행복과 멀어지게 될 거야.",
 			animation = "shakehead",
-			nameColor = "#A9F548FF",
-			subName = "商区管理员",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "일단…… 상업 지구는 마지막 가게만 지으면 완성이라, 큰돈이 들지 않아. 게다가 장기적으로는 수익도 낼 수 있어.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "하지만 다른 프로젝트에 비해, 개발구의 인원이 적어서 자금을 회수하는 데 시간이 오래 걸릴 거예요……",
+			animation = "doubt",
 			characterId = 100800,
-			say = "不过这可能并不是一个好主意，现在开发区的资金有限，我们得用在更要紧的地方才对。",
+			subName = "상업 지구 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "阿莫玛，我想说……这个港口商区就是更要紧的地方！",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "一个只有工作没有生活的地方，可能不会让大家感到快乐。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "shakehead",
-			say = "而且……商区里似乎只差最后商店的建设了，这并不会花费太多的钱，甚至长远来看，还有的赚。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "可相比于其他项目，在开发区人数有限的情况下，这里的回报时间明显有些太长了……",
-			animation = "talk",
-			characterId = 100800,
-			subName = "商区管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "但这样……至少大家不用再去排队买数量有限的苹果派了，对吧？",
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			characterId = 0,
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "elation",
-			say = "呵呵呵~那指挥官可能要失望了，毕竟布莱梅的手艺真的很不错呢。",
-			characterId = 100800,
-			subName = "商区管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "说的也是，所以我们就只能靠量取胜了——",
-			nameColor = "#A9F548FF",
-			characterId = 0,
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "一起为岛上的伙伴们打造一个温暖热闹的美食商区，怎么样？",
-			nameColor = "#A9F548FF",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			subName = "商区管理员",
-			say = "指挥官……我明白了！我会重新做好规划的。",
-			characterId = 100800,
-			animation = "talk",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "嗯，建设用的材料和资金就由我来搞定，一起加油吧！",
+			say = "하지만 이걸 하면……개발구의 사람들이 쉴 수 있고, 즐길 수 있는 공간이 생기잖아.",
 			animation = "nod",
 			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "아모마, 우리 같이 섬의 동료들을 위해 따뜻하고 활기찬 미식 상업 지구를 만들어 보자!",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "idea",
+			say = "지휘관님……알겠습니다! 제가 다시 기획할게요.",
+			characterId = 100800,
+			subName = "상업 지구 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "첫 번째 가게 건설은 제가 할게요. 하지만 가게에서 팔 음식은…… 지휘관님이 도와줘야 해요. 저는 이런 건 잘 못하거든요.",
+			subName = "상업 지구 관리자",
+			characterId = 100800,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "알았어. 판매할 음식은 내가 맡을게. 같이 힘내자.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			say = "네, 열심히 할게요.",
+			characterId = 100800,
+			subName = "상업 지구 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

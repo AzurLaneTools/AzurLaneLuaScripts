@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "今天的客流量又增长了一些……",
+			say = "오늘도 손님 수가 또 늘어났네요.",
 			hideType = 2,
 			characterId = 100800,
 			animation = "nod"

@@ -90,13 +90,17 @@ end
 
 slot0.IsEffectiveInPlace = function(slot0, slot1)
 	return underscore.any(slot0:GetEffectIds(), function (slot0)
-		return IslandBuffType.GetLimitPlaceTypes(pg.island_buff_template[slot0].buff_type) and table.contains(slot1.type_use[1], uv0)
+		if pg.island_buff_template[slot0].buff_type == IslandBuffType.SHIP_POWER_RECOVER then
+			return true
+		end
+
+		return IslandBuffType.IsLimitPlaceType(slot1.buff_type) and table.contains(slot1.type_use[1], uv0)
 	end)
 end
 
 slot0.IsEffectiveInRest = function(slot0, slot1)
 	return underscore.any(slot0:GetEffectIds(), function (slot0)
-		return IslandBuffType.GetLimitRestaurantTypes(pg.island_buff_template[slot0].buff_type) and table.contains(slot1.type_use[1], uv0)
+		return IslandBuffType.IsLimitRestaurantType(pg.island_buff_template[slot0].buff_type) and table.contains(slot1.type_use[1], uv0)
 	end)
 end
 

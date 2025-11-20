@@ -5,15 +5,16 @@ return {
 	scripts = {
 		{
 			animation = "nod",
-			say = "（嗯……是在这里面么，居然把整个电梯伪装成了展柜。）",
+			say = "(음…… 여기인가? 엘리베이터를 진열장으로 위장하다니. )",
 			characterId = 0,
+			camera = "StoryCamera3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "（那控制电梯的机关……是这个吧？）",
+			say = "(엘리베이터를 제어하는 장치는…… 이거겠지? )",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

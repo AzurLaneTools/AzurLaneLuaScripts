@@ -4,7 +4,7 @@ return {
 	map = {
 		{
 			101300,
-			10030003
+			10030016
 		}
 	},
 	look_weight = {
@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "集会岛向导",
+			subName = "하모니섬 가이드",
 			animation = "hi",
 			characterId = 101300,
-			say = "欢迎来到最棒的集会！美食！美酒！奇珍！异宝！玛丽随时为你指路！",
+			say = "최고의 파티에 온 걸 환영해! 맛있는 음식! 술! 진귀한 보물까지! 마리가 언제든 안내해 줄게!",
 			face2Face = {
 				{
 					0,

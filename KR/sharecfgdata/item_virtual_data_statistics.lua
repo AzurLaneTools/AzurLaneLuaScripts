@@ -174724,6 +174724,31 @@ _G.pg.base.item_virtual_data_statistics[65730] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65731] = {
+	drop_gold_max = 0,
+	name = "빈 악보",
+	display = "「불타는 아이리스 회상곡」에서 획득할 수 있는 이벤트 포인트. 모으면 획득 합계 보상을 이벤트 배너에서 획득할 수 있다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/masaiqu_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65731,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "목재",
@@ -183915,6 +183940,56 @@ _G.pg.base.item_virtual_data_statistics[150004] = {
 			1
 		}
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170000] = {
+	drop_gold_max = 0,
+	name = "별빛 티켓",
+	display = "별빛이 반짝이는 티켓. 이를 사용하면 「별빛상」에서 상품을 뽑을 수 있습니다. 「별빛상」 진행 기간이 종료되면, 자동으로 사용되어 추첨이 진행됩니다(남은 티켓은 다이아로 변환됨).",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 999901,
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170000,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170001] = {
+	drop_gold_max = 0,
+	name = "별빛 티켓",
+	display = "별빛이 반짝이는 티켓. 이를 사용하면 「별빛상」에서 상품을 뽑을 수 있습니다. 「별빛상」 진행 기간이 종료되면, 자동으로 사용되어 추첨이 진행됩니다(남은 티켓은 다이아로 변환됨). ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 999901,
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170001,
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {},

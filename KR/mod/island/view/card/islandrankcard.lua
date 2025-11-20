@@ -16,6 +16,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.ptText = slot0._tf:Find("pt"):GetComponent(typeof(Text))
 
 	setText(slot0._tf:Find("island"), i18n("island_season_charts_level"))
+	setText(slot0.notOnTF, i18n("island_season_charts_out"))
 
 	slot0.awardsTF = slot0._tf:Find("awards")
 end

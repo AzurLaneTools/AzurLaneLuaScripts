@@ -1,18 +1,18 @@
 pg = pg or {}
 pg.island_formula = {
 	[101001] = {
-		workload = 18000,
-		name = "小麦",
+		workload = 24000,
+		name = "밀",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 6,
+		stamina_cost = 8,
 		item_id = 2000,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
-		ship_exp = 30,
+		ship_exp = 40,
 		pt_award = 0,
 		id = 101001,
 		collectable_vfx = 60002,
@@ -26,7 +26,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2000,
-				1
+				18
 			}
 		},
 		commission_cost = {
@@ -38,7 +38,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2000,
-				9
+				162
 			}
 		},
 		second_product_display = {},
@@ -68,19 +68,19 @@ pg.island_formula = {
 		}
 	},
 	[101002] = {
-		workload = 36000,
-		name = "玉米",
+		workload = 24000,
+		name = "옥수수",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 12,
+		stamina_cost = 8,
 		item_id = 2001,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3101002,
 		affected_vfx = "",
-		ship_exp = 60,
+		ship_exp = 40,
 		pt_award = 0,
 		id = 101002,
 		collectable_vfx = 60002,
@@ -94,7 +94,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2001,
-				2
+				18
 			}
 		},
 		commission_cost = {
@@ -106,7 +106,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2001,
-				18
+				162
 			}
 		},
 		second_product_display = {},
@@ -132,7 +132,7 @@ pg.island_formula = {
 	},
 	[101003] = {
 		workload = 24000,
-		name = "牧草",
+		name = "목초",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -140,7 +140,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 2008,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3101003,
 		affected_vfx = "",
 		ship_exp = 40,
@@ -157,7 +157,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2008,
-				1
+				12
 			}
 		},
 		commission_cost = {
@@ -169,7 +169,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2008,
-				9
+				108
 			}
 		},
 		second_product_display = {},
@@ -194,19 +194,19 @@ pg.island_formula = {
 		}
 	},
 	[101004] = {
-		workload = 120000,
-		name = "咖啡豆",
+		workload = 84000,
+		name = "커피콩",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 40,
+		stamina_cost = 28,
 		item_id = 2009,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3101004,
 		affected_vfx = "",
-		ship_exp = 200,
+		ship_exp = 140,
 		pt_award = 0,
 		id = 101004,
 		collectable_vfx = 60002,
@@ -220,7 +220,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2009,
-				1
+				9
 			}
 		},
 		commission_cost = {
@@ -232,7 +232,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2009,
-				9
+				81
 			}
 		},
 		second_product_display = {},
@@ -257,19 +257,19 @@ pg.island_formula = {
 		}
 	},
 	[101005] = {
-		workload = 72000,
-		name = "大米",
+		workload = 48000,
+		name = "쌀",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 24,
+		stamina_cost = 16,
 		item_id = 2002,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3101005,
 		affected_vfx = "",
-		ship_exp = 120,
+		ship_exp = 80,
 		pt_award = 0,
 		id = 101005,
 		collectable_vfx = 60002,
@@ -283,7 +283,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2002,
-				2
+				18
 			}
 		},
 		commission_cost = {
@@ -295,7 +295,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2002,
-				18
+				162
 			}
 		},
 		second_product_display = {},
@@ -320,19 +320,19 @@ pg.island_formula = {
 		}
 	},
 	[101006] = {
-		workload = 30000,
-		name = "白菜",
+		workload = 24000,
+		name = "배추",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 10,
+		stamina_cost = 8,
 		item_id = 2003,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3101006,
 		affected_vfx = "",
-		ship_exp = 50,
+		ship_exp = 40,
 		pt_award = 0,
 		id = 101006,
 		collectable_vfx = 60002,
@@ -346,7 +346,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2003,
-				1
+				9
 			}
 		},
 		commission_cost = {
@@ -358,7 +358,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2003,
-				9
+				81
 			}
 		},
 		second_product_display = {},
@@ -383,19 +383,19 @@ pg.island_formula = {
 		}
 	},
 	[101007] = {
-		workload = 216000,
-		name = "土豆",
+		workload = 108000,
+		name = "감자",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 72,
+		stamina_cost = 36,
 		item_id = 2005,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3101008,
 		affected_vfx = "",
-		ship_exp = 360,
+		ship_exp = 180,
 		pt_award = 0,
 		id = 101007,
 		collectable_vfx = 60002,
@@ -409,7 +409,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2005,
-				3
+				27
 			}
 		},
 		commission_cost = {
@@ -421,7 +421,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2005,
-				9
+				243
 			}
 		},
 		second_product_display = {},
@@ -446,19 +446,19 @@ pg.island_formula = {
 		}
 	},
 	[101008] = {
-		workload = 60000,
-		name = "大豆",
+		workload = 42000,
+		name = "대두",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 20,
+		stamina_cost = 14,
 		item_id = 2006,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3101007,
 		affected_vfx = "",
-		ship_exp = 100,
+		ship_exp = 70,
 		pt_award = 0,
 		id = 101008,
 		collectable_vfx = 60002,
@@ -472,7 +472,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2006,
-				1
+				27
 			}
 		},
 		commission_cost = {
@@ -484,7 +484,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2006,
-				27
+				243
 			}
 		},
 		second_product_display = {},
@@ -509,20 +509,20 @@ pg.island_formula = {
 		}
 	},
 	[101013] = {
-		workload = 48000,
-		name = "鸡蛋",
+		workload = 36000,
+		name = "달걀",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		is_condition = 0,
-		stamina_cost = 16,
+		stamina_cost = 12,
 		item_id = 2601,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 80,
+		ship_exp = 60,
 		pt_award = 0,
 		id = 101013,
 		collectable_vfx = 0,
@@ -532,7 +532,7 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				3000,
-				4
+				2
 			}
 		},
 		commission_product = {
@@ -556,20 +556,20 @@ pg.island_formula = {
 		}
 	},
 	[101015] = {
-		workload = 108000,
-		name = "鲜肉",
+		workload = 72000,
+		name = "신선한 고기",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		is_condition = 0,
-		stamina_cost = 36,
+		stamina_cost = 24,
 		item_id = 2600,
 		hitpoint = 0,
 		production_limit = 5,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 180,
+		ship_exp = 120,
 		pt_award = 0,
 		id = 101015,
 		collectable_vfx = 0,
@@ -579,7 +579,7 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				3001,
-				3
+				2
 			}
 		},
 		commission_product = {
@@ -592,20 +592,20 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[101016] = {
-		workload = 216000,
-		name = "牛奶",
+		workload = 54000,
+		name = "우유",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		is_condition = 0,
-		stamina_cost = 72,
+		stamina_cost = 18,
 		item_id = 2603,
 		hitpoint = 0,
 		production_limit = 5,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 360,
+		ship_exp = 90,
 		pt_award = 0,
 		id = 101016,
 		collectable_vfx = 0,
@@ -639,20 +639,20 @@ pg.island_formula = {
 		}
 	},
 	[101018] = {
-		workload = 282000,
-		name = "羊毛",
+		workload = 180000,
+		name = "양모",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		is_condition = 0,
-		stamina_cost = 94,
+		stamina_cost = 60,
 		item_id = 2605,
 		hitpoint = 0,
 		production_limit = 5,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 470,
+		ship_exp = 300,
 		pt_award = 0,
 		id = 101018,
 		collectable_vfx = 0,
@@ -668,7 +668,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2605,
-				2
+				4
 			}
 		},
 		second_product_display = {},
@@ -676,13 +676,13 @@ pg.island_formula = {
 	},
 	[401001] = {
 		workload = 12000,
-		name = "煤炭",
+		name = "석탄",
 		harvest_vfx = 60021,
 		is_condition = 0,
 		stamina_cost = 4,
 		item_id = 2700,
 		hitpoint = 80,
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		ship_exp = 20,
 		pt_award = 0,
@@ -690,17 +690,12 @@ pg.island_formula = {
 		collectable_vfx = 60005,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2700,
-				8
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2700,
-				2
+				8
 			}
 		},
 		second_product_display = {},
@@ -742,7 +737,7 @@ pg.island_formula = {
 	},
 	[401002] = {
 		workload = 24000,
-		name = "铜矿",
+		name = "구리 광석",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -750,7 +745,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 2701,
 		hitpoint = 80,
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		ship_exp = 40,
 		pt_award = 0,
@@ -758,17 +753,12 @@ pg.island_formula = {
 		collectable_vfx = 60005,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2701,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2701,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -786,7 +776,7 @@ pg.island_formula = {
 	},
 	[401004] = {
 		workload = 60000,
-		name = "铝矿",
+		name = "알루미늄 광석",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -802,17 +792,12 @@ pg.island_formula = {
 		collectable_vfx = 60005,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2702,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2702,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -830,7 +815,7 @@ pg.island_formula = {
 	},
 	[401005] = {
 		workload = 36000,
-		name = "铁矿",
+		name = "철광석",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -838,7 +823,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 2703,
 		hitpoint = 80,
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3401005,
 		ship_exp = 60,
 		pt_award = 0,
@@ -846,17 +831,12 @@ pg.island_formula = {
 		collectable_vfx = 60005,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2703,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2703,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -874,7 +854,7 @@ pg.island_formula = {
 	},
 	[401006] = {
 		workload = 120000,
-		name = "硫矿",
+		name = "황광석",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -890,17 +870,12 @@ pg.island_formula = {
 		collectable_vfx = 60005,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2704,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2704,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -918,7 +893,7 @@ pg.island_formula = {
 	},
 	[401007] = {
 		workload = 240000,
-		name = "银矿",
+		name = "은광석",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -934,17 +909,12 @@ pg.island_formula = {
 		collectable_vfx = 60005,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2705,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2705,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -962,13 +932,13 @@ pg.island_formula = {
 	},
 	[402001] = {
 		workload = 12000,
-		name = "自然之木",
+		name = "자연 목재",
 		harvest_vfx = 60021,
 		is_condition = 0,
 		stamina_cost = 4,
 		item_id = 2800,
 		hitpoint = 80,
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		ship_exp = 20,
 		pt_award = 0,
@@ -976,17 +946,12 @@ pg.island_formula = {
 		collectable_vfx = 60006,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2800,
-				8
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2800,
-				2
+				8
 			}
 		},
 		second_product_display = {},
@@ -1028,7 +993,7 @@ pg.island_formula = {
 	},
 	[402002] = {
 		workload = 30000,
-		name = "实用之木",
+		name = "실용 목재",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -1036,7 +1001,7 @@ pg.island_formula = {
 		stamina_cost = 10,
 		item_id = 2801,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 9,
 		unlock_type = 3402002,
 		ship_exp = 50,
 		pt_award = 0,
@@ -1044,17 +1009,12 @@ pg.island_formula = {
 		collectable_vfx = 60006,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2801,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2801,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -1072,7 +1032,7 @@ pg.island_formula = {
 	},
 	[402003] = {
 		workload = 72000,
-		name = "精选之木",
+		name = "엄선 목재",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -1088,17 +1048,12 @@ pg.island_formula = {
 		collectable_vfx = 60006,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2802,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2802,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -1116,7 +1071,7 @@ pg.island_formula = {
 	},
 	[402004] = {
 		workload = 180000,
-		name = "典雅之木",
+		name = "우아한 목재",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -1132,17 +1087,12 @@ pg.island_formula = {
 		collectable_vfx = 60006,
 		attribute = 2,
 		cost = {},
-		drop_display = {
-			{
-				2803,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2803,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -1159,19 +1109,19 @@ pg.island_formula = {
 		}
 	},
 	[501001] = {
-		workload = 72000,
-		name = "苹果",
+		workload = 45000,
+		name = "사과",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 24,
+		stamina_cost = 15,
 		item_id = 2016,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 120,
+		ship_exp = 75,
 		pt_award = 0,
 		id = 501001,
 		collectable_vfx = 60002,
@@ -1191,13 +1141,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1016,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2016,
-				8
+				32
 			}
 		},
 		second_product_display = {},
@@ -1222,19 +1172,19 @@ pg.island_formula = {
 		}
 	},
 	[501002] = {
-		workload = 96000,
-		name = "柑橘",
+		workload = 45000,
+		name = "감귤",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 32,
+		stamina_cost = 15,
 		item_id = 2017,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3501002,
 		affected_vfx = "",
-		ship_exp = 160,
+		ship_exp = 75,
 		pt_award = 0,
 		id = 501002,
 		collectable_vfx = 60002,
@@ -1254,13 +1204,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1017,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2017,
-				8
+				32
 			}
 		},
 		second_product_display = {},
@@ -1285,19 +1235,19 @@ pg.island_formula = {
 		}
 	},
 	[501003] = {
-		workload = 120000,
-		name = "香蕉",
+		workload = 60000,
+		name = "바나나",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 40,
+		stamina_cost = 20,
 		item_id = 2018,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3501003,
 		affected_vfx = "",
-		ship_exp = 200,
+		ship_exp = 100,
 		pt_award = 0,
 		id = 501003,
 		collectable_vfx = 60002,
@@ -1317,13 +1267,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1018,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2018,
-				8
+				32
 			}
 		},
 		second_product_display = {},
@@ -1348,19 +1298,19 @@ pg.island_formula = {
 		}
 	},
 	[501004] = {
-		workload = 180000,
-		name = "芒果",
+		workload = 90000,
+		name = "망고",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 60,
+		stamina_cost = 30,
 		item_id = 2019,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3501004,
 		affected_vfx = "",
-		ship_exp = 300,
+		ship_exp = 150,
 		pt_award = 0,
 		id = 501004,
 		collectable_vfx = 60002,
@@ -1374,19 +1324,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2019,
-				6
+				8
 			}
 		},
 		commission_cost = {
 			{
 				1019,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2019,
-				6
+				32
 			}
 		},
 		second_product_display = {},
@@ -1411,19 +1361,19 @@ pg.island_formula = {
 		}
 	},
 	[501005] = {
-		workload = 60000,
-		name = "柠檬",
+		workload = 36000,
+		name = "레몬",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 20,
+		stamina_cost = 12,
 		item_id = 2020,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3501005,
 		affected_vfx = "",
-		ship_exp = 100,
+		ship_exp = 60,
 		pt_award = 0,
 		id = 501005,
 		collectable_vfx = 60002,
@@ -1443,13 +1393,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1020,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2020,
-				12
+				48
 			}
 		},
 		second_product_display = {},
@@ -1474,19 +1424,19 @@ pg.island_formula = {
 		}
 	},
 	[501006] = {
-		workload = 216000,
-		name = "牛油果",
+		workload = 120000,
+		name = "아보카도",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 72,
+		stamina_cost = 40,
 		item_id = 2021,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3501006,
 		affected_vfx = "",
-		ship_exp = 360,
+		ship_exp = 200,
 		pt_award = 0,
 		id = 501006,
 		collectable_vfx = 60002,
@@ -1506,13 +1456,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1021,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2021,
-				4
+				16
 			}
 		},
 		second_product_display = {},
@@ -1537,19 +1487,19 @@ pg.island_formula = {
 		}
 	},
 	[501007] = {
-		workload = 294000,
-		name = "橡胶",
+		workload = 96000,
+		name = "고무",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 98,
+		stamina_cost = 32,
 		item_id = 2022,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3501007,
 		affected_vfx = "",
-		ship_exp = 490,
+		ship_exp = 160,
 		pt_award = 0,
 		id = 501007,
 		collectable_vfx = 60002,
@@ -1569,13 +1519,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1022,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2022,
-				8
+				32
 			}
 		},
 		second_product_display = {},
@@ -1600,19 +1550,19 @@ pg.island_formula = {
 		}
 	},
 	[502001] = {
-		workload = 42000,
-		name = "亚麻",
+		workload = 24000,
+		name = "아마",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 14,
+		stamina_cost = 8,
 		item_id = 2010,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 70,
+		ship_exp = 40,
 		pt_award = 0,
 		id = 502001,
 		collectable_vfx = 60002,
@@ -1626,19 +1576,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2010,
-				3
+				6
 			}
 		},
 		commission_cost = {
 			{
 				1010,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2010,
-				3
+				18
 			}
 		},
 		second_product_display = {},
@@ -1663,19 +1613,19 @@ pg.island_formula = {
 		}
 	},
 	[502002] = {
-		workload = 96000,
-		name = "草莓",
+		workload = 54000,
+		name = "딸기",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 32,
+		stamina_cost = 18,
 		item_id = 2011,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3502002,
 		affected_vfx = "",
-		ship_exp = 160,
+		ship_exp = 90,
 		pt_award = 0,
 		id = 502002,
 		collectable_vfx = 60002,
@@ -1689,19 +1639,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2011,
-				9
+				18
 			}
 		},
 		commission_cost = {
 			{
 				1011,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2011,
-				9
+				54
 			}
 		},
 		second_product_display = {},
@@ -1726,19 +1676,19 @@ pg.island_formula = {
 		}
 	},
 	[502003] = {
-		workload = 54000,
-		name = "棉花",
+		workload = 36000,
+		name = "목화",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 18,
+		stamina_cost = 12,
 		item_id = 2012,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3502003,
 		affected_vfx = "",
-		ship_exp = 90,
+		ship_exp = 60,
 		pt_award = 0,
 		id = 502003,
 		collectable_vfx = 60002,
@@ -1752,19 +1702,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2012,
-				3
+				6
 			}
 		},
 		commission_cost = {
 			{
 				1012,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2012,
-				3
+				18
 			}
 		},
 		second_product_display = {},
@@ -1789,19 +1739,19 @@ pg.island_formula = {
 		}
 	},
 	[502004] = {
-		workload = 180000,
-		name = "茶叶",
+		workload = 54000,
+		name = "찻잎",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 60,
+		stamina_cost = 18,
 		item_id = 2014,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3502004,
 		affected_vfx = "",
-		ship_exp = 300,
+		ship_exp = 90,
 		pt_award = 0,
 		id = 502004,
 		collectable_vfx = 60002,
@@ -1815,19 +1765,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2014,
-				9
+				12
 			}
 		},
 		commission_cost = {
 			{
 				1014,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2014,
-				9
+				36
 			}
 		},
 		second_product_display = {},
@@ -1852,19 +1802,19 @@ pg.island_formula = {
 		}
 	},
 	[502005] = {
-		workload = 300000,
-		name = "薰衣草",
+		workload = 108000,
+		name = "라벤더",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 100,
+		stamina_cost = 36,
 		item_id = 2015,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3502005,
 		affected_vfx = "",
-		ship_exp = 500,
+		ship_exp = 180,
 		pt_award = 0,
 		id = 502005,
 		collectable_vfx = 60002,
@@ -1878,19 +1828,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2015,
-				6
+				8
 			}
 		},
 		commission_cost = {
 			{
 				1015,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2015,
-				6
+				24
 			}
 		},
 		second_product_display = {},
@@ -1915,19 +1865,19 @@ pg.island_formula = {
 		}
 	},
 	[502006] = {
-		workload = 72000,
-		name = "胡萝卜",
+		workload = 24000,
+		name = "당근",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 24,
+		stamina_cost = 8,
 		item_id = 2004,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3502006,
 		affected_vfx = "",
-		ship_exp = 120,
+		ship_exp = 40,
 		pt_award = 0,
 		id = 502006,
 		collectable_vfx = 60002,
@@ -1941,19 +1891,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2004,
-				9
+				12
 			}
 		},
 		commission_cost = {
 			{
 				1004,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2004,
-				9
+				36
 			}
 		},
 		second_product_display = {},
@@ -1978,19 +1928,19 @@ pg.island_formula = {
 		}
 	},
 	[502007] = {
-		workload = 144000,
-		name = "洋葱",
+		workload = 54000,
+		name = "양파",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
 		is_condition = 0,
-		stamina_cost = 48,
+		stamina_cost = 18,
 		item_id = 2007,
 		hitpoint = 0,
 		production_limit = 5,
 		unlock_type = 3502007,
 		affected_vfx = "",
-		ship_exp = 240,
+		ship_exp = 90,
 		pt_award = 0,
 		id = 502007,
 		collectable_vfx = 60002,
@@ -2004,19 +1954,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2007,
-				3
+				4
 			}
 		},
 		commission_cost = {
 			{
 				1007,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2007,
-				3
+				12
 			}
 		},
 		second_product_display = {},
@@ -2042,7 +1992,7 @@ pg.island_formula = {
 	},
 	[601001] = {
 		workload = 72000,
-		name = "豆腐",
+		name = "두부",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2078,7 +2028,7 @@ pg.island_formula = {
 	},
 	[601002] = {
 		workload = 48000,
-		name = "肉末烧豆腐",
+		name = "다진 고기 두부볶음",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2086,7 +2036,7 @@ pg.island_formula = {
 		stamina_cost = 16,
 		item_id = 3012,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 6,
 		unitid = "",
 		unlock_type = 3601002,
 		affected_vfx = "",
@@ -2118,7 +2068,7 @@ pg.island_formula = {
 	},
 	[601003] = {
 		workload = 24000,
-		name = "蛋包饭",
+		name = "오므라이스",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2126,7 +2076,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3013,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3601003,
 		affected_vfx = "",
@@ -2158,7 +2108,7 @@ pg.island_formula = {
 	},
 	[601004] = {
 		workload = 36000,
-		name = "白菜豆腐汤",
+		name = "배추 두부탕",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2166,7 +2116,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3014,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unitid = "",
 		unlock_type = 3601004,
 		affected_vfx = "",
@@ -2198,7 +2148,7 @@ pg.island_formula = {
 	},
 	[601005] = {
 		workload = 12000,
-		name = "蔬菜沙拉",
+		name = "야채 샐러드",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2206,7 +2156,7 @@ pg.island_formula = {
 		stamina_cost = 4,
 		item_id = 3015,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3601005,
 		affected_vfx = "",
@@ -2242,7 +2192,7 @@ pg.island_formula = {
 	},
 	[601101] = {
 		workload = 6000,
-		name = "经典豆腐套餐",
+		name = "정통 두부 세트",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2250,7 +2200,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3101,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -2282,7 +2232,7 @@ pg.island_formula = {
 	},
 	[601102] = {
 		workload = 6000,
-		name = "绵玉定食",
+		name = "부드러운 한 상",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2290,7 +2240,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3102,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -2322,7 +2272,7 @@ pg.island_formula = {
 	},
 	[602001] = {
 		workload = 12000,
-		name = "苹果汁",
+		name = "사과 주스",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2330,7 +2280,7 @@ pg.island_formula = {
 		stamina_cost = 4,
 		item_id = 3017,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
@@ -2358,7 +2308,7 @@ pg.island_formula = {
 	},
 	[602002] = {
 		workload = 18000,
-		name = "香蕉芒果汁",
+		name = "바나나 망고 주스",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2366,7 +2316,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3018,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3602002,
 		affected_vfx = "",
@@ -2398,7 +2348,7 @@ pg.island_formula = {
 	},
 	[602003] = {
 		workload = 12000,
-		name = "蜂蜜柠檬水",
+		name = "꿀 레몬 워터",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2406,7 +2356,7 @@ pg.island_formula = {
 		stamina_cost = 4,
 		item_id = 3019,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3602003,
 		affected_vfx = "",
@@ -2438,7 +2388,7 @@ pg.island_formula = {
 	},
 	[602004] = {
 		workload = 24000,
-		name = "草莓蜜沁",
+		name = "딸기 레몬 드링크",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2446,7 +2396,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3020,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3602004,
 		affected_vfx = "",
@@ -2478,7 +2428,7 @@ pg.island_formula = {
 	},
 	[602005] = {
 		workload = 48000,
-		name = "薰衣草茶",
+		name = "라벤더 차",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2486,7 +2436,7 @@ pg.island_formula = {
 		stamina_cost = 16,
 		item_id = 3021,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 6,
 		unitid = "",
 		unlock_type = 3602005,
 		affected_vfx = "",
@@ -2518,7 +2468,7 @@ pg.island_formula = {
 	},
 	[602006] = {
 		workload = 36000,
-		name = "草莓蜂蜜冰沙",
+		name = "딸기 꿀 프라페",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2526,7 +2476,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3022,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unitid = "",
 		unlock_type = 3602006,
 		affected_vfx = "",
@@ -2558,7 +2508,7 @@ pg.island_formula = {
 	},
 	[602101] = {
 		workload = 6000,
-		name = "花香果韵",
+		name = "향기로운 과일 세트",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2566,7 +2516,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3103,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -2598,7 +2548,7 @@ pg.island_formula = {
 	},
 	[602102] = {
 		workload = 6000,
-		name = "缤纷果乐园",
+		name = "컬러풀 프루트 파라다이스",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2606,7 +2556,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3104,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -2638,7 +2588,7 @@ pg.island_formula = {
 	},
 	[602103] = {
 		workload = 6000,
-		name = "阳光蜜水",
+		name = "태양의 꿀물",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2646,7 +2596,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3105,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -2678,7 +2628,7 @@ pg.island_formula = {
 	},
 	[603001] = {
 		workload = 6000,
-		name = "玉米杯",
+		name = "옥수수 컵",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2686,7 +2636,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3023,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
@@ -2718,7 +2668,7 @@ pg.island_formula = {
 	},
 	[603002] = {
 		workload = 36000,
-		name = "苹果派",
+		name = "애플파이",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2726,7 +2676,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3009,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unitid = "",
 		unlock_type = 3603002,
 		affected_vfx = "",
@@ -2758,7 +2708,7 @@ pg.island_formula = {
 	},
 	[603003] = {
 		workload = 36000,
-		name = "香橙派",
+		name = "오렌지 파이",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2766,7 +2716,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3024,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unitid = "",
 		unlock_type = 3603003,
 		affected_vfx = "",
@@ -2798,7 +2748,7 @@ pg.island_formula = {
 	},
 	[603004] = {
 		workload = 24000,
-		name = "芒果糯米饭",
+		name = "망고 찹쌀밥",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2806,7 +2756,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3025,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3603004,
 		affected_vfx = "",
@@ -2838,7 +2788,7 @@ pg.island_formula = {
 	},
 	[603005] = {
 		workload = 18000,
-		name = "香蕉可丽饼",
+		name = "바나나 크레이프",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2846,7 +2796,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3026,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3603005,
 		affected_vfx = "",
@@ -2878,7 +2828,7 @@ pg.island_formula = {
 	},
 	[603006] = {
 		workload = 42000,
-		name = "草莓夏洛特",
+		name = "딸기 샬럿",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2886,7 +2836,7 @@ pg.island_formula = {
 		stamina_cost = 14,
 		item_id = 3028,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 6,
 		unitid = "",
 		unlock_type = 3603006,
 		affected_vfx = "",
@@ -2922,7 +2872,7 @@ pg.island_formula = {
 	},
 	[603101] = {
 		workload = 6000,
-		name = "香甜组合",
+		name = "스위트 테이스트",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2930,7 +2880,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3106,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -2962,7 +2912,7 @@ pg.island_formula = {
 	},
 	[603102] = {
 		workload = 6000,
-		name = "果园二重奏",
+		name = "과수원의 이중주",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -2970,7 +2920,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3107,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -3002,7 +2952,7 @@ pg.island_formula = {
 	},
 	[603103] = {
 		workload = 6000,
-		name = "莓果香橙甜点组",
+		name = "베리 오렌지 디저트",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3010,7 +2960,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3108,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -3042,7 +2992,7 @@ pg.island_formula = {
 	},
 	[604001] = {
 		workload = 24000,
-		name = "炭烤肉串",
+		name = "숯불고기 꼬치",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3050,7 +3000,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3029,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
@@ -3078,7 +3028,7 @@ pg.island_formula = {
 	},
 	[604002] = {
 		workload = 36000,
-		name = "禽肉土豆拼盘",
+		name = "닭고기 감자 플래터",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3086,7 +3036,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3030,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unitid = "",
 		unlock_type = 3604002,
 		affected_vfx = "",
@@ -3118,7 +3068,7 @@ pg.island_formula = {
 	},
 	[604004] = {
 		workload = 30000,
-		name = "爆炒禽肉",
+		name = "닭고기 볶음",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3126,7 +3076,7 @@ pg.island_formula = {
 		stamina_cost = 10,
 		item_id = 3032,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 9,
 		unitid = "",
 		unlock_type = 3604004,
 		affected_vfx = "",
@@ -3158,7 +3108,7 @@ pg.island_formula = {
 	},
 	[604005] = {
 		workload = 12000,
-		name = "胡萝卜厚蛋烧",
+		name = "두꺼운 당근 계란말이",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3166,7 +3116,7 @@ pg.island_formula = {
 		stamina_cost = 4,
 		item_id = 3033,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3604005,
 		affected_vfx = "",
@@ -3198,7 +3148,7 @@ pg.island_formula = {
 	},
 	[604006] = {
 		workload = 30000,
-		name = "汉堡肉饭",
+		name = "햄버그 덮밥",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3206,7 +3156,7 @@ pg.island_formula = {
 		stamina_cost = 10,
 		item_id = 3034,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 9,
 		unitid = "",
 		unlock_type = 3604006,
 		affected_vfx = "",
@@ -3242,7 +3192,7 @@ pg.island_formula = {
 	},
 	[604101] = {
 		workload = 6000,
-		name = "烤肉狂欢",
+		name = "미트 카니발",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3250,7 +3200,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3109,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -3282,7 +3232,7 @@ pg.island_formula = {
 	},
 	[604102] = {
 		workload = 6000,
-		name = "能量双拼套餐",
+		name = "에너지 더블 콤보",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3290,7 +3240,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3110,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -3322,7 +3272,7 @@ pg.island_formula = {
 	},
 	[701001] = {
 		workload = 18000,
-		name = "布料",
+		name = "천",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3330,7 +3280,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3035,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
@@ -3358,7 +3308,7 @@ pg.island_formula = {
 	},
 	[701002] = {
 		workload = 60000,
-		name = "皮革",
+		name = "가죽",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3394,7 +3344,7 @@ pg.island_formula = {
 	},
 	[701003] = {
 		workload = 108000,
-		name = "绳索",
+		name = "밧줄",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3434,7 +3384,7 @@ pg.island_formula = {
 	},
 	[701004] = {
 		workload = 72000,
-		name = "手套",
+		name = "장갑",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3474,7 +3424,7 @@ pg.island_formula = {
 	},
 	[701005] = {
 		workload = 108000,
-		name = "香囊",
+		name = "향낭",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3514,7 +3464,7 @@ pg.island_formula = {
 	},
 	[701006] = {
 		workload = 144000,
-		name = "鞋靴",
+		name = "신발",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3558,7 +3508,7 @@ pg.island_formula = {
 	},
 	[701007] = {
 		workload = 48000,
-		name = "绷带",
+		name = "붕대",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3566,7 +3516,7 @@ pg.island_formula = {
 		stamina_cost = 16,
 		item_id = 3041,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 6,
 		unitid = "",
 		unlock_type = 3701007,
 		affected_vfx = "",
@@ -3602,7 +3552,7 @@ pg.island_formula = {
 	},
 	[701008] = {
 		workload = 36000,
-		name = "炭笔",
+		name = "연필",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3610,7 +3560,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3042,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
@@ -3642,7 +3592,7 @@ pg.island_formula = {
 	},
 	[701009] = {
 		workload = 108000,
-		name = "电缆",
+		name = "케이블",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3682,7 +3632,7 @@ pg.island_formula = {
 	},
 	[701010] = {
 		workload = 144000,
-		name = "铁钉",
+		name = "못",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3718,7 +3668,7 @@ pg.island_formula = {
 	},
 	[701011] = {
 		workload = 72000,
-		name = "硫酸",
+		name = "화학품",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3754,7 +3704,7 @@ pg.island_formula = {
 	},
 	[701012] = {
 		workload = 72000,
-		name = "火药",
+		name = "화약",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3794,7 +3744,7 @@ pg.island_formula = {
 	},
 	[701013] = {
 		workload = 216000,
-		name = "刀叉餐具",
+		name = "식기",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3830,7 +3780,7 @@ pg.island_formula = {
 	},
 	[701014] = {
 		workload = 36000,
-		name = "纸张",
+		name = "종이",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3838,7 +3788,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3048,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
@@ -3866,7 +3816,7 @@ pg.island_formula = {
 	},
 	[701015] = {
 		workload = 72000,
-		name = "记事本",
+		name = "수첩",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3906,7 +3856,7 @@ pg.island_formula = {
 	},
 	[701016] = {
 		workload = 108000,
-		name = "桌椅",
+		name = "책상과 의자",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3946,7 +3896,7 @@ pg.island_formula = {
 	},
 	[701017] = {
 		workload = 108000,
-		name = "精选木桶",
+		name = "특선 나무통",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3986,7 +3936,7 @@ pg.island_formula = {
 	},
 	[701018] = {
 		workload = 180000,
-		name = "文件柜",
+		name = "서류 캐비닛",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4026,7 +3976,7 @@ pg.island_formula = {
 	},
 	[701019] = {
 		workload = 72000,
-		name = "墨盒",
+		name = "잉크 카트리지",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4066,7 +4016,7 @@ pg.island_formula = {
 	},
 	[701020] = {
 		workload = 216000,
-		name = "钟表",
+		name = "시계",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4110,7 +4060,7 @@ pg.island_formula = {
 	},
 	[701021] = {
 		workload = 108000,
-		name = "蓄电池",
+		name = "축전지",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4154,7 +4104,7 @@ pg.island_formula = {
 	},
 	[701022] = {
 		workload = 144000,
-		name = "净水滤芯",
+		name = "정수 필터",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4198,7 +4148,7 @@ pg.island_formula = {
 	},
 	[901001] = {
 		workload = 6000,
-		name = "欧姆蛋",
+		name = "오믈렛",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4206,7 +4156,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3059,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
@@ -4234,7 +4184,7 @@ pg.island_formula = {
 	},
 	[901002] = {
 		workload = 18000,
-		name = "冰咖啡",
+		name = "아이스 커피",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4242,7 +4192,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3005,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 0,
 		affected_vfx = "",
@@ -4270,7 +4220,7 @@ pg.island_formula = {
 	},
 	[901003] = {
 		workload = 54000,
-		name = "芝士",
+		name = "치즈",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4306,7 +4256,7 @@ pg.island_formula = {
 	},
 	[901004] = {
 		workload = 24000,
-		name = "拿铁",
+		name = "라떼",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4314,7 +4264,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3007,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3901004,
 		affected_vfx = "",
@@ -4346,7 +4296,7 @@ pg.island_formula = {
 	},
 	[901005] = {
 		workload = 18000,
-		name = "柑橘咖啡",
+		name = "시트러스 커피",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4354,7 +4304,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3008,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3901005,
 		affected_vfx = "",
@@ -4386,7 +4336,7 @@ pg.island_formula = {
 	},
 	[901006] = {
 		workload = 24000,
-		name = "草莓奶绿",
+		name = "딸기 밀크쉐이크",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4394,7 +4344,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3010,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = 3901006,
 		affected_vfx = "",
@@ -4430,7 +4380,7 @@ pg.island_formula = {
 	},
 	[901101] = {
 		workload = 6000,
-		name = "晨光活力组合",
+		name = "아침의 활력 콤보",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4438,7 +4388,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3111,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -4470,7 +4420,7 @@ pg.island_formula = {
 	},
 	[901102] = {
 		workload = 6000,
-		name = "醒神套餐",
+		name = "굿모닝 브렉퍼스트",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4478,7 +4428,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3112,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -4510,7 +4460,7 @@ pg.island_formula = {
 	},
 	[901103] = {
 		workload = 6000,
-		name = "果香双杯乐",
+		name = "프루트 트윈즈",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4518,7 +4468,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3113,
 		hitpoint = 0,
-		production_limit = 5,
+		production_limit = 12,
 		unitid = "",
 		unlock_type = -1,
 		affected_vfx = "",
@@ -4550,7 +4500,7 @@ pg.island_formula = {
 	},
 	[7100001] = {
 		workload = 300,
-		name = "岛屿权限认证函",
+		name = "아일랜드 권한 인증 장치",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4586,7 +4536,7 @@ pg.island_formula = {
 	},
 	[7100002] = {
 		workload = 300,
-		name = "开启岛屿地图",
+		name = "오픈: 아일랜드 지도",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4622,7 +4572,7 @@ pg.island_formula = {
 	},
 	[7100003] = {
 		workload = 18000,
-		name = "解锁经营事件",
+		name = "오픈: 경영 이벤트",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4658,7 +4608,7 @@ pg.island_formula = {
 	},
 	[7100004] = {
 		workload = 36000,
-		name = "集成管理界面",
+		name = "종합 관리 화면",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4694,7 +4644,7 @@ pg.island_formula = {
 	},
 	[7110001] = {
 		workload = 300,
-		name = "开启加急订单",
+		name = "오픈: 긴급 의뢰",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4730,7 +4680,7 @@ pg.island_formula = {
 	},
 	[7110002] = {
 		workload = 300,
-		name = "解锁订单好评反馈",
+		name = "오픈: 의뢰 평가",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4766,7 +4716,7 @@ pg.island_formula = {
 	},
 	[7110101] = {
 		workload = 300,
-		name = "订单接取数量增加I",
+		name = "동시 의뢰 수주 수 1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4802,7 +4752,7 @@ pg.island_formula = {
 	},
 	[7110102] = {
 		workload = 600,
-		name = "订单接取数量增加II",
+		name = "동시 의뢰 수주 수 2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4838,7 +4788,7 @@ pg.island_formula = {
 	},
 	[7110103] = {
 		workload = 36000,
-		name = "订单接取数量增加III",
+		name = "동시 의뢰 수주 수 3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4874,7 +4824,7 @@ pg.island_formula = {
 	},
 	[7110301] = {
 		workload = 3000,
-		name = "岛屿订单上限提升I",
+		name = "아일랜드 의뢰 한도 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4910,7 +4860,7 @@ pg.island_formula = {
 	},
 	[7110302] = {
 		workload = 3000,
-		name = "岛屿订单上限提升II",
+		name = "아일랜드 의뢰 한도 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4946,7 +4896,7 @@ pg.island_formula = {
 	},
 	[7110303] = {
 		workload = 6000,
-		name = "岛屿订单上限提升III",
+		name = "아일랜드 의뢰 한도 +3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4982,7 +4932,7 @@ pg.island_formula = {
 	},
 	[7110304] = {
 		workload = 36000,
-		name = "岛屿订单上限提升IV",
+		name = "아일랜드 의뢰 한도 +4",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5018,7 +4968,7 @@ pg.island_formula = {
 	},
 	[7110305] = {
 		workload = 72000,
-		name = "岛屿订单上限提升V",
+		name = "아일랜드 의뢰 한도 +5",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5054,7 +5004,7 @@ pg.island_formula = {
 	},
 	[7110306] = {
 		workload = 144000,
-		name = "岛屿订单上限提升VI",
+		name = "아일랜드 의뢰 한도 +6",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5090,7 +5040,7 @@ pg.island_formula = {
 	},
 	[7110307] = {
 		workload = 180000,
-		name = "岛屿订单上限提升VII",
+		name = "아일랜드 의뢰 한도 +7",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5126,7 +5076,7 @@ pg.island_formula = {
 	},
 	[7110308] = {
 		workload = 216000,
-		name = "岛屿订单上限提升VIII",
+		name = "아일랜드 의뢰 한도 +8",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5162,7 +5112,7 @@ pg.island_formula = {
 	},
 	[7110309] = {
 		workload = 288000,
-		name = "岛屿订单上限提升IX",
+		name = "아일랜드 의뢰 한도 +9",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5198,7 +5148,7 @@ pg.island_formula = {
 	},
 	[7110310] = {
 		workload = 432000,
-		name = "岛屿订单上限提升X",
+		name = "아일랜드 의뢰 한도 +10",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5234,7 +5184,7 @@ pg.island_formula = {
 	},
 	[7120001] = {
 		workload = 6000,
-		name = "认证函生产",
+		name = "인증 추가",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5270,7 +5220,7 @@ pg.island_formula = {
 	},
 	[7120002] = {
 		workload = 999999,
-		name = "认证函生产",
+		name = "인증 추가",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5296,7 +5246,7 @@ pg.island_formula = {
 	},
 	[7120003] = {
 		workload = 72000,
-		name = "认证函生产",
+		name = "인증 추가",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5332,7 +5282,7 @@ pg.island_formula = {
 	},
 	[7120004] = {
 		workload = 180000,
-		name = "认证函生产",
+		name = "인증 추가",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5368,7 +5318,7 @@ pg.island_formula = {
 	},
 	[7120005] = {
 		workload = 360000,
-		name = "认证函生产",
+		name = "인증 추가",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5404,7 +5354,7 @@ pg.island_formula = {
 	},
 	[7120006] = {
 		workload = 432000,
-		name = "认证函生产",
+		name = "인증 추가",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5440,7 +5390,7 @@ pg.island_formula = {
 	},
 	[7100301] = {
 		workload = 6000,
-		name = "仓库扩建I",
+		name = "창고 용량 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5476,7 +5426,7 @@ pg.island_formula = {
 	},
 	[7100302] = {
 		workload = 36000,
-		name = "仓库扩建II",
+		name = "창고 용량 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5512,7 +5462,7 @@ pg.island_formula = {
 	},
 	[7100303] = {
 		workload = 36000,
-		name = "仓库扩建III",
+		name = "창고 용량 +3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5548,7 +5498,7 @@ pg.island_formula = {
 	},
 	[7100304] = {
 		workload = 72000,
-		name = "仓库扩建IV",
+		name = "창고 용량 +4",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5584,7 +5534,7 @@ pg.island_formula = {
 	},
 	[7100305] = {
 		workload = 144000,
-		name = "仓库扩建V",
+		name = "창고 용량 +5",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5620,7 +5570,7 @@ pg.island_formula = {
 	},
 	[7100306] = {
 		workload = 180000,
-		name = "仓库扩建VI",
+		name = "창고 용량 +6",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5656,7 +5606,7 @@ pg.island_formula = {
 	},
 	[7100307] = {
 		workload = 216000,
-		name = "仓库扩建VII",
+		name = "창고 용량 +7",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5692,7 +5642,7 @@ pg.island_formula = {
 	},
 	[7100308] = {
 		workload = 288000,
-		name = "仓库扩建VIII",
+		name = "창고 용량 +8",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5728,7 +5678,7 @@ pg.island_formula = {
 	},
 	[7130301] = {
 		workload = 72000,
-		name = "日常补给数量增加I",
+		name = "일상 보급 수 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5764,7 +5714,7 @@ pg.island_formula = {
 	},
 	[7130302] = {
 		workload = 72000,
-		name = "日常补给数量增加II",
+		name = "일상 보급 수 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5800,7 +5750,7 @@ pg.island_formula = {
 	},
 	[7140101] = {
 		workload = 18000,
-		name = "基地科研岗位增加",
+		name = "연구 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5836,7 +5786,7 @@ pg.island_formula = {
 	},
 	[7210101] = {
 		workload = 600,
-		name = "解锁林场伐木岗位",
+		name = "오픈: 벌목 배치 슬롯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5872,7 +5822,7 @@ pg.island_formula = {
 	},
 	[7210102] = {
 		workload = 18000,
-		name = "林场伐木岗位增加I",
+		name = "벌목 배치 슬롯 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5916,7 +5866,7 @@ pg.island_formula = {
 	},
 	[7210103] = {
 		workload = 144000,
-		name = "林场伐木岗位增加II",
+		name = "벌목 배치 슬롯 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5960,7 +5910,7 @@ pg.island_formula = {
 	},
 	[7210104] = {
 		workload = 144000,
-		name = "林场伐木岗位增加III",
+		name = "벌목 배치 슬롯 +3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6004,7 +5954,7 @@ pg.island_formula = {
 	},
 	[7210401] = {
 		workload = 3000,
-		name = "手动伐木恢复加快",
+		name = "수동 벌목 자원 회복 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6040,7 +5990,7 @@ pg.island_formula = {
 	},
 	[7210201] = {
 		workload = 18000,
-		name = "实用之木生产技术",
+		name = "실용 목재 벌목",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6084,7 +6034,7 @@ pg.island_formula = {
 	},
 	[7210202] = {
 		workload = 36000,
-		name = "精选之木生产技术",
+		name = "엄선 목재 벌목",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6128,7 +6078,7 @@ pg.island_formula = {
 	},
 	[7210203] = {
 		workload = 144000,
-		name = "典雅之木生产技术",
+		name = "우아한 목재 벌목",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6172,7 +6122,7 @@ pg.island_formula = {
 	},
 	[7210501] = {
 		workload = 18000,
-		name = "手动伐木效率提升I",
+		name = "수동 벌목 효율 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6216,7 +6166,7 @@ pg.island_formula = {
 	},
 	[7210502] = {
 		workload = 36000,
-		name = "手动伐木效率提升II",
+		name = "수동 벌목 효율 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6260,7 +6210,7 @@ pg.island_formula = {
 	},
 	[7210601] = {
 		workload = 288000,
-		name = "伐木岗位效率提升",
+		name = "벌목 배치 슬롯 효율 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6304,7 +6254,7 @@ pg.island_formula = {
 	},
 	[7220101] = {
 		workload = 600,
-		name = "解锁矿山采矿岗位",
+		name = "오픈: 광산 채굴 배치 슬롯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6340,7 +6290,7 @@ pg.island_formula = {
 	},
 	[7220102] = {
 		workload = 36000,
-		name = "矿山采矿岗位增加I",
+		name = "채굴 배치 슬롯 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6384,7 +6334,7 @@ pg.island_formula = {
 	},
 	[7220103] = {
 		workload = 72000,
-		name = "矿山采矿岗位增加II",
+		name = "채굴 배치 슬롯 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6428,7 +6378,7 @@ pg.island_formula = {
 	},
 	[7220104] = {
 		workload = 180000,
-		name = "矿山采矿岗位增加III",
+		name = "채굴 배치 슬롯 +3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6472,7 +6422,7 @@ pg.island_formula = {
 	},
 	[7220201] = {
 		workload = 6000,
-		name = "铝矿勘探技术",
+		name = "알루미늄 광석 탐사",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6508,7 +6458,7 @@ pg.island_formula = {
 	},
 	[7220202] = {
 		workload = 18000,
-		name = "铁矿勘探技术",
+		name = "철광석 탐사",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6552,7 +6502,7 @@ pg.island_formula = {
 	},
 	[7220203] = {
 		workload = 36000,
-		name = "硫矿勘探技术",
+		name = "황광석 탐사",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6596,7 +6546,7 @@ pg.island_formula = {
 	},
 	[7220204] = {
 		workload = 72000,
-		name = "银矿勘探技术",
+		name = "은광석 탐사",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6640,7 +6590,7 @@ pg.island_formula = {
 	},
 	[7220401] = {
 		workload = 6000,
-		name = "手动采矿恢复加快",
+		name = "수동 채굴 자원 회복 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6676,7 +6626,7 @@ pg.island_formula = {
 	},
 	[7220501] = {
 		workload = 3000,
-		name = "手动采矿效率提升I",
+		name = "수동 채굴 효율 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6712,7 +6662,7 @@ pg.island_formula = {
 	},
 	[7220502] = {
 		workload = 36000,
-		name = "手动采矿效率提升II",
+		name = "수동 채굴 효율 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6756,7 +6706,7 @@ pg.island_formula = {
 	},
 	[7220601] = {
 		workload = 360000,
-		name = "采矿岗位效率提升",
+		name = "채굴 배치 슬롯 효율 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6800,7 +6750,7 @@ pg.island_formula = {
 	},
 	[7310001] = {
 		workload = 72000,
-		name = "手动播种范围增加",
+		name = "수동 파종 범위 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6844,7 +6794,7 @@ pg.island_formula = {
 	},
 	[7310002] = {
 		workload = 999999,
-		name = "手动播种范围增加",
+		name = "수동 파종 범위 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6870,7 +6820,7 @@ pg.island_formula = {
 	},
 	[7310101] = {
 		workload = 3000,
-		name = "解锁农场管理岗位",
+		name = "오픈: 농장 배치 슬롯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6906,7 +6856,7 @@ pg.island_formula = {
 	},
 	[7310102] = {
 		workload = 36000,
-		name = "农场管理岗位增加I",
+		name = "농장 배치 슬롯 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6950,7 +6900,7 @@ pg.island_formula = {
 	},
 	[7310103] = {
 		workload = 144000,
-		name = "农场管理岗位增加II",
+		name = "농장 배치 슬롯 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6994,7 +6944,7 @@ pg.island_formula = {
 	},
 	[7310104] = {
 		workload = 360000,
-		name = "农场管理岗位增加III",
+		name = "농장 배치 슬롯 +3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7038,7 +6988,7 @@ pg.island_formula = {
 	},
 	[7310301] = {
 		workload = 600,
-		name = "扩建晨露农场I",
+		name = "이슬 농장 확장 1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7074,7 +7024,7 @@ pg.island_formula = {
 	},
 	[7310302] = {
 		workload = 3000,
-		name = "扩建晨露农场II",
+		name = "이슬 농장 확장 2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7110,7 +7060,7 @@ pg.island_formula = {
 	},
 	[7310303] = {
 		workload = 18000,
-		name = "扩建晨露农场III",
+		name = "이슬 농장 확장 3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7154,7 +7104,7 @@ pg.island_formula = {
 	},
 	[7310304] = {
 		workload = 18000,
-		name = "扩建晨露农场IV",
+		name = "이슬 농장 확장 4",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7198,7 +7148,7 @@ pg.island_formula = {
 	},
 	[7310305] = {
 		workload = 18000,
-		name = "扩建晨露农场V",
+		name = "이슬 농장 확장 5",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7242,7 +7192,7 @@ pg.island_formula = {
 	},
 	[7310306] = {
 		workload = 36000,
-		name = "扩建晨露农场VI",
+		name = "이슬 농장 확장 6",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7286,7 +7236,7 @@ pg.island_formula = {
 	},
 	[7310307] = {
 		workload = 72000,
-		name = "扩建晨露农场VII",
+		name = "이슬 농장 확장 7",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7330,7 +7280,7 @@ pg.island_formula = {
 	},
 	[7310308] = {
 		workload = 144000,
-		name = "扩建晨露农场VIII",
+		name = "이슬 농장 확장 8",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7374,7 +7324,7 @@ pg.island_formula = {
 	},
 	[7310309] = {
 		workload = 180000,
-		name = "扩建晨露农场IX",
+		name = "이슬 농장 확장 9",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7418,7 +7368,7 @@ pg.island_formula = {
 	},
 	[7320101] = {
 		workload = 18000,
-		name = "解锁苗圃管理岗位",
+		name = "이슬 농장 확장 10",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7462,7 +7412,7 @@ pg.island_formula = {
 	},
 	[7320102] = {
 		workload = 216000,
-		name = "苗圃管理岗位增加",
+		name = "모밭 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7506,7 +7456,7 @@ pg.island_formula = {
 	},
 	[7320301] = {
 		workload = 3000,
-		name = "扩建青芽苗圃I",
+		name = "초록색 모밭 확장 1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7542,7 +7492,7 @@ pg.island_formula = {
 	},
 	[7320302] = {
 		workload = 36000,
-		name = "扩建青芽苗圃II",
+		name = "초록색 모밭 확장 2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7586,7 +7536,7 @@ pg.island_formula = {
 	},
 	[7320303] = {
 		workload = 72000,
-		name = "扩建青芽苗圃III",
+		name = "초록색 모밭 확장 3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7630,7 +7580,7 @@ pg.island_formula = {
 	},
 	[7320304] = {
 		workload = 216000,
-		name = "扩建青芽苗圃IV",
+		name = "초록색 모밭 확장 4",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7674,7 +7624,7 @@ pg.island_formula = {
 	},
 	[7330101] = {
 		workload = 18000,
-		name = "解锁果园管理岗位",
+		name = "오픈: 과수원 배치 슬롯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7718,7 +7668,7 @@ pg.island_formula = {
 	},
 	[7330102] = {
 		workload = 36000,
-		name = "果园管理岗位增加I",
+		name = "과수원 배치 슬롯 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7762,7 +7712,7 @@ pg.island_formula = {
 	},
 	[7330103] = {
 		workload = 144000,
-		name = "果园管理岗位增加II",
+		name = "과수원 배치 슬롯 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7806,7 +7756,7 @@ pg.island_formula = {
 	},
 	[7330104] = {
 		workload = 288000,
-		name = "果园管理岗位增加III",
+		name = "과수원 배치 슬롯 +3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7850,7 +7800,7 @@ pg.island_formula = {
 	},
 	[7330301] = {
 		workload = 6000,
-		name = "扩建坠香果园I",
+		name = "향기로운 과수원 확장 1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7886,7 +7836,7 @@ pg.island_formula = {
 	},
 	[7330302] = {
 		workload = 36000,
-		name = "扩建坠香果园II",
+		name = "향기로운 과수원 확장 2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7930,7 +7880,7 @@ pg.island_formula = {
 	},
 	[7330303] = {
 		workload = 144000,
-		name = "扩建坠香果园III",
+		name = "향기로운 과수원 확장 3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7974,7 +7924,7 @@ pg.island_formula = {
 	},
 	[7310201] = {
 		workload = 600,
-		name = "牧草种植技术",
+		name = "목초 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8010,7 +7960,7 @@ pg.island_formula = {
 	},
 	[7310202] = {
 		workload = 3000,
-		name = "旱稻种植技术",
+		name = "밭벼 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8046,7 +7996,7 @@ pg.island_formula = {
 	},
 	[7320201] = {
 		workload = 18000,
-		name = "草莓种植技术",
+		name = "딸기 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8090,7 +8040,7 @@ pg.island_formula = {
 	},
 	[7320202] = {
 		workload = 18000,
-		name = "棉花种植技术",
+		name = "목화 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8134,7 +8084,7 @@ pg.island_formula = {
 	},
 	[7320203] = {
 		workload = 36000,
-		name = "茶树种植技术",
+		name = "차나무 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8178,7 +8128,7 @@ pg.island_formula = {
 	},
 	[7320204] = {
 		workload = 72000,
-		name = "胡萝卜种植技术",
+		name = "당근 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8222,7 +8172,7 @@ pg.island_formula = {
 	},
 	[7320205] = {
 		workload = 72000,
-		name = "薰衣草种植技术",
+		name = "라벤더 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8266,7 +8216,7 @@ pg.island_formula = {
 	},
 	[7320206] = {
 		workload = 144000,
-		name = "洋葱种植技术",
+		name = "양파 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8310,7 +8260,7 @@ pg.island_formula = {
 	},
 	[7330201] = {
 		workload = 72000,
-		name = "橡胶树种植技术",
+		name = "고무나무 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8354,7 +8304,7 @@ pg.island_formula = {
 	},
 	[7400001] = {
 		workload = 6000,
-		name = "牧场额外产出",
+		name = "목장 생산 품목 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8390,7 +8340,7 @@ pg.island_formula = {
 	},
 	[7410301] = {
 		workload = 600,
-		name = "更多的鸡！I",
+		name = "닭을 더 키우자! 1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8426,7 +8376,7 @@ pg.island_formula = {
 	},
 	[7410302] = {
 		workload = 3000,
-		name = "更多的鸡！II",
+		name = "닭을 더 키우자! 2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8462,7 +8412,7 @@ pg.island_formula = {
 	},
 	[7410303] = {
 		workload = 18000,
-		name = "更多的鸡！III",
+		name = "닭을 더 키우자! 3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8506,7 +8456,7 @@ pg.island_formula = {
 	},
 	[7410304] = {
 		workload = 36000,
-		name = "更多的鸡！IV",
+		name = "닭을 더 키우자! 4",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8550,7 +8500,7 @@ pg.island_formula = {
 	},
 	[7410305] = {
 		workload = 72000,
-		name = "更多的鸡！V",
+		name = "닭을 더 키우자! 5",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8594,7 +8544,7 @@ pg.island_formula = {
 	},
 	[7420301] = {
 		workload = 3000,
-		name = "哼哼猪养殖",
+		name = "꿀꿀이 사육",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8630,7 +8580,7 @@ pg.island_formula = {
 	},
 	[7420302] = {
 		workload = 3000,
-		name = "更多的猪！I",
+		name = "돼지를 더 키우자! 1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8666,7 +8616,7 @@ pg.island_formula = {
 	},
 	[7420303] = {
 		workload = 18000,
-		name = "更多的猪！II",
+		name = "돼지를 더 키우자! 2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8710,7 +8660,7 @@ pg.island_formula = {
 	},
 	[7420304] = {
 		workload = 72000,
-		name = "更多的猪！III",
+		name = "돼지를 더 키우자! 3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8754,7 +8704,7 @@ pg.island_formula = {
 	},
 	[7430301] = {
 		workload = 6000,
-		name = "哞哞牛养殖",
+		name = "무무소 사육",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8790,7 +8740,7 @@ pg.island_formula = {
 	},
 	[7430302] = {
 		workload = 6000,
-		name = "更多的牛！I",
+		name = "소를 더 키우자! 1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8834,7 +8784,7 @@ pg.island_formula = {
 	},
 	[7430303] = {
 		workload = 36000,
-		name = "更多的牛！II",
+		name = "소를 더 키우자! 2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8878,7 +8828,7 @@ pg.island_formula = {
 	},
 	[7430304] = {
 		workload = 144000,
-		name = "更多的牛！III",
+		name = "소를 더 키우자! 3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8922,7 +8872,7 @@ pg.island_formula = {
 	},
 	[7440301] = {
 		workload = 18000,
-		name = "咩咩羊养殖",
+		name = "메메양 사육",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8966,7 +8916,7 @@ pg.island_formula = {
 	},
 	[7440302] = {
 		workload = 18000,
-		name = "更多的羊！I",
+		name = "양을 더 키우자! 1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9010,7 +8960,7 @@ pg.island_formula = {
 	},
 	[7440303] = {
 		workload = 36000,
-		name = "更多的羊！II",
+		name = "양을 더 키우자! 2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9054,7 +9004,7 @@ pg.island_formula = {
 	},
 	[7440304] = {
 		workload = 180000,
-		name = "更多的羊！III",
+		name = "양을 더 키우자! 3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9098,7 +9048,7 @@ pg.island_formula = {
 	},
 	[7450301] = {
 		workload = 144000,
-		name = "蜂蜜采集点增加I",
+		name = "꿀 채집지 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9142,7 +9092,7 @@ pg.island_formula = {
 	},
 	[7450302] = {
 		workload = 180000,
-		name = "蜂蜜采集点增加II",
+		name = "꿀 채집지 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9186,7 +9136,7 @@ pg.island_formula = {
 	},
 	[7500211] = {
 		workload = 600,
-		name = "咖啡树种植技术",
+		name = "커피나무 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9222,7 +9172,7 @@ pg.island_formula = {
 	},
 	[7500212] = {
 		workload = 3000,
-		name = "玉米种植技术",
+		name = "옥수수 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9258,7 +9208,7 @@ pg.island_formula = {
 	},
 	[7500213] = {
 		workload = 6000,
-		name = "大豆种植技术",
+		name = "대두 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9294,7 +9244,7 @@ pg.island_formula = {
 	},
 	[7500214] = {
 		workload = 6000,
-		name = "土豆种植技术",
+		name = "감자 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9338,7 +9288,7 @@ pg.island_formula = {
 	},
 	[7500215] = {
 		workload = 6000,
-		name = "白菜种植技术",
+		name = "배추 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9374,7 +9324,7 @@ pg.island_formula = {
 	},
 	[7500231] = {
 		workload = 3000,
-		name = "苹果树种植技术",
+		name = "사과나무 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9410,7 +9360,7 @@ pg.island_formula = {
 	},
 	[7500232] = {
 		workload = 6000,
-		name = "柑橘树种植技术",
+		name = "귤나무 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9454,7 +9404,7 @@ pg.island_formula = {
 	},
 	[7500233] = {
 		workload = 18000,
-		name = "香蕉树种植技术",
+		name = "바나나나무 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9498,7 +9448,7 @@ pg.island_formula = {
 	},
 	[7500234] = {
 		workload = 18000,
-		name = "芒果树种植技术",
+		name = "망고나무 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9542,7 +9492,7 @@ pg.island_formula = {
 	},
 	[7500235] = {
 		workload = 36000,
-		name = "柠檬树种植技术",
+		name = "레몬나무 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9586,7 +9536,7 @@ pg.island_formula = {
 	},
 	[7500236] = {
 		workload = 36000,
-		name = "牛油果树种植技术",
+		name = "아보카도 재배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9630,7 +9580,7 @@ pg.island_formula = {
 	},
 	[7500001] = {
 		workload = 18000,
-		name = "解锁美食搭配",
+		name = "오픈: 요리 조합",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9674,7 +9624,7 @@ pg.island_formula = {
 	},
 	[7510101] = {
 		workload = 180000,
-		name = "有鱼餐馆岗位增加",
+		name = "유어 레스토랑 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9718,7 +9668,7 @@ pg.island_formula = {
 	},
 	[7510201] = {
 		workload = 18000,
-		name = "肉沫烧豆腐食谱",
+		name = "다진 고기 두부볶음",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9762,7 +9712,7 @@ pg.island_formula = {
 	},
 	[7510202] = {
 		workload = 18000,
-		name = "蛋包饭食谱",
+		name = "오므라이스",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9806,7 +9756,7 @@ pg.island_formula = {
 	},
 	[7510203] = {
 		workload = 18000,
-		name = "白菜豆腐汤食谱",
+		name = "배추 두부탕",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9850,7 +9800,7 @@ pg.island_formula = {
 	},
 	[7510204] = {
 		workload = 18000,
-		name = "蔬菜沙拉食谱",
+		name = "야채 샐러드",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9894,7 +9844,7 @@ pg.island_formula = {
 	},
 	[7520001] = {
 		workload = 6000,
-		name = "建设白熊饮品",
+		name = "오픈: 백곰 음료",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9930,7 +9880,7 @@ pg.island_formula = {
 	},
 	[7520101] = {
 		workload = 288000,
-		name = "白熊饮品岗位增加",
+		name = "백곰 음료 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9974,7 +9924,7 @@ pg.island_formula = {
 	},
 	[7520201] = {
 		workload = 36000,
-		name = "香蕉芒果汁食谱",
+		name = "바나나 망고 주스",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10018,7 +9968,7 @@ pg.island_formula = {
 	},
 	[7520202] = {
 		workload = 36000,
-		name = "蜂蜜柠檬水食谱",
+		name = "꿀 레몬 워터",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10062,7 +10012,7 @@ pg.island_formula = {
 	},
 	[7520203] = {
 		workload = 36000,
-		name = "草莓蜂蜜冰沙食谱",
+		name = "딸기 꿀 프라페",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10106,7 +10056,7 @@ pg.island_formula = {
 	},
 	[7520204] = {
 		workload = 144000,
-		name = "薰衣草茶食谱",
+		name = "라벤더 차",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10150,7 +10100,7 @@ pg.island_formula = {
 	},
 	[7520205] = {
 		workload = 72000,
-		name = "草莓蜜沁食谱",
+		name = "딸기 레몬 드링크",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10194,7 +10144,7 @@ pg.island_formula = {
 	},
 	[7530001] = {
 		workload = 36000,
-		name = "建设啾啾简餐",
+		name = "오픈: 쥬쥬 간편식",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10238,7 +10188,7 @@ pg.island_formula = {
 	},
 	[7530101] = {
 		workload = 360000,
-		name = "啾啾简餐岗位增加",
+		name = "쥬쥬 간편식 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10282,7 +10232,7 @@ pg.island_formula = {
 	},
 	[7530201] = {
 		workload = 36000,
-		name = "玉米杯食谱",
+		name = "옥수수 컵",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10326,7 +10276,7 @@ pg.island_formula = {
 	},
 	[7530202] = {
 		workload = 72000,
-		name = "芒果糯米饭食谱",
+		name = "망고 찹쌀밥",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10370,7 +10320,7 @@ pg.island_formula = {
 	},
 	[7530203] = {
 		workload = 144000,
-		name = "香蕉可丽饼食谱",
+		name = "바나나 크레이프",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10414,7 +10364,7 @@ pg.island_formula = {
 	},
 	[7530204] = {
 		workload = 180000,
-		name = "草莓夏洛特食谱",
+		name = "딸기 샬럿",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10458,7 +10408,7 @@ pg.island_formula = {
 	},
 	[7530205] = {
 		workload = 36000,
-		name = "苹果派食谱",
+		name = "애플파이",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10502,7 +10452,7 @@ pg.island_formula = {
 	},
 	[7530206] = {
 		workload = 72000,
-		name = "香橙派食谱",
+		name = "오렌지 파이",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10546,7 +10496,7 @@ pg.island_formula = {
 	},
 	[7540001] = {
 		workload = 72000,
-		name = "建设乌鱼烤肉",
+		name = "오픈: 오징어 구이",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10590,7 +10540,7 @@ pg.island_formula = {
 	},
 	[7540101] = {
 		workload = 432000,
-		name = "乌鱼烤肉岗位增加",
+		name = "오징어 구이 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10634,7 +10584,7 @@ pg.island_formula = {
 	},
 	[7540201] = {
 		workload = 144000,
-		name = "禽肉土豆拼盘食谱",
+		name = "닭고기 감자 플래터",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10678,7 +10628,7 @@ pg.island_formula = {
 	},
 	[7540202] = {
 		workload = 180000,
-		name = "爆炒禽肉食谱",
+		name = "닭고기 볶음",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10722,7 +10672,7 @@ pg.island_formula = {
 	},
 	[7540204] = {
 		workload = 180000,
-		name = "胡萝卜厚蛋烧食谱",
+		name = "두꺼운 당근 계란말이",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10766,7 +10716,7 @@ pg.island_formula = {
 	},
 	[7540205] = {
 		workload = 216000,
-		name = "汉堡肉饭食谱",
+		name = "햄버그 덮밥",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10810,7 +10760,7 @@ pg.island_formula = {
 	},
 	[7550201] = {
 		workload = 3000,
-		name = "起司食谱",
+		name = "치즈",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10846,7 +10796,7 @@ pg.island_formula = {
 	},
 	[7550202] = {
 		workload = 6000,
-		name = "拿铁食谱",
+		name = "라떼",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10890,7 +10840,7 @@ pg.island_formula = {
 	},
 	[7550203] = {
 		workload = 18000,
-		name = "柑橘咖啡食谱",
+		name = "시트러스 커피",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10934,7 +10884,7 @@ pg.island_formula = {
 	},
 	[7550204] = {
 		workload = 72000,
-		name = "草莓奶绿食谱",
+		name = "딸기 밀크쉐이크",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10978,7 +10928,7 @@ pg.island_formula = {
 	},
 	[7610101] = {
 		workload = 600,
-		name = "货运委托上限提升I",
+		name = "운송 의뢰 한도 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11014,7 +10964,7 @@ pg.island_formula = {
 	},
 	[7610102] = {
 		workload = 18000,
-		name = "货运委托上限提升II",
+		name = "운송 의뢰 한도 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11058,7 +11008,7 @@ pg.island_formula = {
 	},
 	[7610401] = {
 		workload = 3000,
-		name = "货运效率提升I",
+		name = "운송 효율 +1",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11094,7 +11044,7 @@ pg.island_formula = {
 	},
 	[7610402] = {
 		workload = 18000,
-		name = "货运效率提升II",
+		name = "운송 효율 +2",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11138,7 +11088,7 @@ pg.island_formula = {
 	},
 	[7610403] = {
 		workload = 36000,
-		name = "货运效率提升III",
+		name = "운송 효율 +3",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11182,7 +11132,7 @@ pg.island_formula = {
 	},
 	[7620101] = {
 		workload = 36000,
-		name = "啾咖啡岗位增加",
+		name = "쥬카페 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11226,7 +11176,7 @@ pg.island_formula = {
 	},
 	[7630101] = {
 		workload = 36000,
-		name = "木料加工岗位增加",
+		name = "목재 가공 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11270,7 +11220,7 @@ pg.island_formula = {
 	},
 	[7630201] = {
 		workload = 18000,
-		name = "记事本生产工艺",
+		name = "수첩",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11314,7 +11264,7 @@ pg.island_formula = {
 	},
 	[7630202] = {
 		workload = 18000,
-		name = "桌椅生产工艺",
+		name = "책상과 의자",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11358,7 +11308,7 @@ pg.island_formula = {
 	},
 	[7630203] = {
 		workload = 72000,
-		name = "精选木桶生产工艺",
+		name = "오크통",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11402,7 +11352,7 @@ pg.island_formula = {
 	},
 	[7630204] = {
 		workload = 144000,
-		name = "文件柜生产工艺",
+		name = "서류 캐비닛",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11446,7 +11396,7 @@ pg.island_formula = {
 	},
 	[7640001] = {
 		workload = 36000,
-		name = "解锁工业生产设备",
+		name = "오픈: 공업 아이템",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11490,7 +11440,7 @@ pg.island_formula = {
 	},
 	[7640101] = {
 		workload = 72000,
-		name = "工业生产岗位增加",
+		name = "공업 생산 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11534,7 +11484,7 @@ pg.island_formula = {
 	},
 	[7640201] = {
 		workload = 36000,
-		name = "铁钉生产工艺",
+		name = "못",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11578,7 +11528,7 @@ pg.island_formula = {
 	},
 	[7640202] = {
 		workload = 72000,
-		name = "电缆生产工艺",
+		name = "케이블",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11622,7 +11572,7 @@ pg.island_formula = {
 	},
 	[7640203] = {
 		workload = 72000,
-		name = "硫酸生产工艺",
+		name = "화학품",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11666,7 +11616,7 @@ pg.island_formula = {
 	},
 	[7640204] = {
 		workload = 180000,
-		name = "火药生产工艺",
+		name = "화약",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11710,7 +11660,7 @@ pg.island_formula = {
 	},
 	[7640205] = {
 		workload = 180000,
-		name = "餐具生产工艺",
+		name = "식기",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11754,7 +11704,7 @@ pg.island_formula = {
 	},
 	[7650001] = {
 		workload = 144000,
-		name = "解锁电子加工设备",
+		name = "오픈: 전자 가공 아이템",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11798,7 +11748,7 @@ pg.island_formula = {
 	},
 	[7650101] = {
 		workload = 216000,
-		name = "电子加工岗位增加",
+		name = "전자 가공 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11842,7 +11792,7 @@ pg.island_formula = {
 	},
 	[7650201] = {
 		workload = 180000,
-		name = "钟表生产工艺",
+		name = "시계",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11886,7 +11836,7 @@ pg.island_formula = {
 	},
 	[7650202] = {
 		workload = 288000,
-		name = "蓄电池生产工艺",
+		name = "축전지",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11930,7 +11880,7 @@ pg.island_formula = {
 	},
 	[7650203] = {
 		workload = 360000,
-		name = "净水滤芯生产工艺",
+		name = "정수 필터",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11974,7 +11924,7 @@ pg.island_formula = {
 	},
 	[7660001] = {
 		workload = 72000,
-		name = "解锁手工制作设备",
+		name = "오픈: 수공업 아이템",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12018,7 +11968,7 @@ pg.island_formula = {
 	},
 	[7660101] = {
 		workload = 180000,
-		name = "手工制作岗位增加",
+		name = "수공제작 배치 슬롯 +",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12062,7 +12012,7 @@ pg.island_formula = {
 	},
 	[7660201] = {
 		workload = 72000,
-		name = "皮革生产工艺",
+		name = "가죽",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12106,7 +12056,7 @@ pg.island_formula = {
 	},
 	[7660202] = {
 		workload = 72000,
-		name = "绳索生产工艺",
+		name = "밧줄",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12150,7 +12100,7 @@ pg.island_formula = {
 	},
 	[7660203] = {
 		workload = 144000,
-		name = "手套生产工艺",
+		name = "장갑",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12194,7 +12144,7 @@ pg.island_formula = {
 	},
 	[7660204] = {
 		workload = 144000,
-		name = "香囊生产工艺",
+		name = "향낭",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12238,7 +12188,7 @@ pg.island_formula = {
 	},
 	[7660205] = {
 		workload = 216000,
-		name = "鞋靴生产工艺",
+		name = "신발",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12282,7 +12232,7 @@ pg.island_formula = {
 	},
 	[7660206] = {
 		workload = 288000,
-		name = "绷带生产工艺",
+		name = "붕대",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12326,7 +12276,7 @@ pg.island_formula = {
 	},
 	[9900001] = {
 		workload = 18000,
-		name = "秋月梨",
+		name = "아키즈키 배",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -12389,7 +12339,7 @@ pg.island_formula = {
 	},
 	[9900002] = {
 		workload = 18000,
-		name = "柿子",
+		name = "감",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -12452,7 +12402,7 @@ pg.island_formula = {
 	},
 	[9900003] = {
 		workload = 18000,
-		name = "柿子饼",
+		name = "곶감",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12488,7 +12438,7 @@ pg.island_formula = {
 	},
 	[9900004] = {
 		workload = 18000,
-		name = "松茸鸡汤",
+		name = "송이버섯 닭고기 스프",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12528,7 +12478,7 @@ pg.island_formula = {
 	},
 	[9900005] = {
 		workload = 18000,
-		name = "秋季花束",
+		name = "가을 꽃다발",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12568,7 +12518,7 @@ pg.island_formula = {
 	},
 	[9900006] = {
 		workload = 18000,
-		name = "花生油",
+		name = "땅콩기름",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12604,7 +12554,7 @@ pg.island_formula = {
 	},
 	[9900007] = {
 		workload = 18000,
-		name = "胡萝卜秋梨汁",
+		name = "당근과 배 주스",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12644,7 +12594,7 @@ pg.island_formula = {
 	},
 	[9900008] = {
 		workload = 18000,
-		name = "菊花茶",
+		name = "국화차",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			animation = "nod",
 			characterId = 100500,
-			say = "喂最新鲜的牧草产的奶才会格外好哦~这就是努力的回报！",
+			say = "더 신선한 목초를 먹이면 우유 맛도 더욱 좋아져~ 이게 바로 노력의 성과야!",
 			face2Face = {
 				{
 					0,

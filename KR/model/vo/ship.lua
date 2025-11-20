@@ -165,6 +165,10 @@ slot0.getEnergeConfig = function(slot0)
 	assert(false, "疲劳配置不存在：" .. slot0.energy)
 end
 
+slot0.isLowEnergy = function(slot0)
+	return slot0:getEnergeConfig().id < 3
+end
+
 slot0.getEnergyPrint = function(slot0)
 	slot1 = slot0:getEnergeConfig()
 

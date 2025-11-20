@@ -2,170 +2,187 @@ pg = pg or {}
 pg.island_action = {
 	[1000] = {
 		resource = "hi",
-		name = "打招呼",
+		name = "인사",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的打招呼，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 인사. 자신의 감정을 어필하세요!",
 		id = 1000,
 		responder_feedback = "",
 		jump_page = {}
 	},
 	[1001] = {
 		resource = "bye",
-		name = "道别",
+		name = "작별 인사",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的道别，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 작별 인사. 자신의 감정을 어필하세요!",
 		id = 1001,
 		responder_feedback = "",
 		jump_page = {}
 	},
 	[1002] = {
 		resource = "nod",
-		name = "点头",
+		name = "끄덕임",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的点头，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 끄덕임. 자신의 감정을 어필하세요!",
 		id = 1002,
 		responder_feedback = "",
 		jump_page = {}
 	},
 	[1003] = {
 		resource = "shakehead",
-		name = "摇头",
+		name = "머리 흔들기",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的摇头，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 머리 흔들기. 자신의 감정을 어필하세요!",
 		id = 1003,
 		responder_feedback = "",
 		jump_page = {}
 	},
 	[1004] = {
 		resource = "clap",
-		name = "拍手",
+		name = "박수",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的拍手，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 박수. 자신의 감정을 어필하세요!",
 		id = 1004,
 		responder_feedback = "",
 		jump_page = {}
 	},
 	[1005] = {
 		resource = "handsup",
-		name = "赞美太阳",
+		name = "태양 포즈",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的赞美太阳，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 태양 포즈. 자신의 감정을 어필하세요!",
 		id = 1005,
 		responder_feedback = "",
 		jump_page = {}
 	},
 	[1006] = {
 		resource = "akimbo",
-		name = "叉腰",
+		name = "양손을 허리에",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的叉腰，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 양손을 허리에. 자신의 감정을 어필하세요!",
 		id = 1006,
 		responder_feedback = "",
 		jump_page = {}
 	},
 	[1007] = {
 		resource = "bow",
-		name = "鞠躬",
+		name = "인사",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的鞠躬，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 인사. 자신의 감정을 어필하세요!",
 		id = 1007,
 		responder_feedback = "",
 		jump_page = {
 			{
-				"图鉴",
+				"도감",
 				{}
 			}
 		}
 	},
 	[1008] = {
 		resource = "vjump",
-		name = "胜利起跳",
+		name = "승리의 점프",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的胜利起跳，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 승리의 점프. 자신의 감정을 어필하세요!",
 		id = 1008,
 		responder_feedback = "",
 		jump_page = {
 			{
-				"开发商店",
+				"상점",
 				{}
 			}
 		}
 	},
 	[1009] = {
 		resource = "stomp",
-		name = "跺脚",
+		name = "발 구르기",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的跺脚，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 발 구르기. 자신의 감정을 어필하세요!",
 		id = 1009,
 		responder_feedback = "",
 		jump_page = {}
 	},
 	[1011] = {
 		resource = "muscle",
-		name = "展示肌肉",
+		name = "근육 자랑",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的展示肌肉，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 근육 자랑. 자신의 감정을 어필하세요!",
 		id = 1011,
 		responder_feedback = "",
 		jump_page = {
 			{
-				"开发商店",
+				"상점",
 				{}
 			}
 		}
 	},
 	[1012] = {
 		resource = "dance",
-		name = "跳舞",
+		name = "춤추기",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		tech_id = 0,
-		desc = "自然流畅的跳舞，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 춤추기. 자신의 감정을 어필하세요!",
 		id = 1012,
 		responder_feedback = "",
 		jump_page = {}
 	},
+	[1013] = {
+		resource = "herocoming",
+		name = "히어로 등장",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		tech_id = 0,
+		desc = "캐릭터 액션 - 히어로 등장. 자신의 감정을 어필하세요!",
+		id = 1013,
+		responder_feedback = "",
+		jump_page = {
+			{
+				"상점",
+				{}
+			}
+		}
+	},
 	[2000] = {
 		resource = "givemefive",
-		name = "击掌",
+		name = "하이파이브",
 		type = 2,
 		feedback_type = 0,
 		tech_id = 0,
-		desc = "自然流畅的击掌，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 하이파이브. 자신의 감정을 어필하세요!",
 		id = 2000,
 		responder_feedback = "givemefive_end",
 		respond_point = {
@@ -177,11 +194,11 @@ pg.island_action = {
 	},
 	[2001] = {
 		resource = "handshake",
-		name = "握手",
+		name = "악수",
 		type = 2,
 		feedback_type = 0,
 		tech_id = 0,
-		desc = "自然流畅的握手，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 악수. 자신의 감정을 어필하세요!",
 		id = 2001,
 		responder_feedback = "handshake_end",
 		respond_point = {
@@ -191,18 +208,18 @@ pg.island_action = {
 		},
 		jump_page = {
 			{
-				"开发商店",
+				"상점",
 				{}
 			}
 		}
 	},
 	[2002] = {
 		resource = "hug",
-		name = "拥抱",
+		name = "포옹",
 		type = 2,
 		feedback_type = 0,
 		tech_id = 0,
-		desc = "自然流畅的拥抱，生动形象地表达情感与态度。",
+		desc = "캐릭터 액션 - 포옹. 자신의 감정을 어필하세요!",
 		id = 2002,
 		responder_feedback = "hug_end",
 		respond_point = {
@@ -225,7 +242,8 @@ pg.island_action = {
 			1008,
 			1009,
 			1011,
-			1012
+			1012,
+			1013
 		},
 		{
 			2000,
@@ -246,6 +264,7 @@ pg.island_action = {
 		1009,
 		1011,
 		1012,
+		1013,
 		2000,
 		2001,
 		2002

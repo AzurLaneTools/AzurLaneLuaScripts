@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "好……放这边，我来看看成色。",
+			say = "오늘 채굴량은…… 어라? 이게 다야?!",
 			characterId = 100600
 		}
 	}

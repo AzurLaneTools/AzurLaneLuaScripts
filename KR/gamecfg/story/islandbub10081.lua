@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "补货单需要加急处理了。",
+			say = "재고 보충 요청에 서둘러 대응해야겠어요.",
 			hideType = 2,
 			characterId = 100800,
 			animation = "note"

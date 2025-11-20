@@ -704,6 +704,12 @@ setCanvasGroupAlpha = function(slot0, slot1)
 	GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = slot1
 end
 
+setActiveByCanvasGroup = function(slot0, slot1)
+	slot2 = GetOrAddComponent(slot0, typeof(CanvasGroup))
+	slot2.alpha = slot1 and 1 or 0
+	slot2.blocksRaycasts = slot1
+end
+
 setActiveViaLayer = function(slot0, slot1)
 	HotfixHelper.SetUIActiveViaLayer(go(slot0), slot1)
 end

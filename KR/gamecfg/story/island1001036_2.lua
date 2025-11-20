@@ -1,5 +1,5 @@
 return {
-	mode = 9,
+	mode = 10,
 	id = "ISLAND1001036_2",
 	map = {
 		{
@@ -19,18 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "所有的套餐都准备好了哦。",
+			say = "아모마——요리를 전부 준비했어.",
 			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "辛苦指挥官了，放到这里的桌子上就好。",
-			animation = "clap",
-			characterId = 100800,
-			subName = "商区管理员",
 			face2Face = {
 				{
 					0,
@@ -43,7 +33,17 @@ return {
 			}
 		},
 		{
-			say = "咦，这里已经有这么多制作好的美食了么？",
+			subName = "상업 지구 관리자",
+			say = "수고하셨어요. 지휘관님, 테이블에 두세요.",
+			characterId = 100800,
+			animation = "note",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "음…… 이제 보니, 메뉴 종류가 좀 단조로운 것 같아.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,58 +51,55 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "这些啊，大家一听说要举办聚会，就送来了不少好东西。",
-			characterId = 100800,
-			animation = "elation",
+			say = "가게 하나라면 괜찮지만…… 상업 지구 전체를 응대하려면 이걸로는 한참 부족해.",
+			animation = "nod",
+			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "赫莫的蔬菜，梅莉的肉和奶牛，布莱梅的派……",
-			nameColor = "#A9F548FF",
+			subName = "상업 지구 관리자",
+			say = "메뉴 종류……지휘관님, 지금 개발구의 농장과 목장에서 꽤 많은 산출물이 나온다고 들었어요.",
 			characterId = 100800,
-			subName = "商区管理员",
+			animation = "think",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "嗯！伙伴们的心意和指挥官的努力，都凝聚在这里面了！",
+			say = "그늘 농원 쪽에 가서 살펴보는 건 어때요?",
+			subName = "상업 지구 관리자",
 			characterId = 100800,
-			animation = "talk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "看来大家是很期待啊。",
+			say = "그늘 농원?",
 			hidePaintObj = true,
 			characterId = 0,
-			animation = "nod",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "idea",
-			say = "呵呵呵~指挥官，在聚会正式开始前，你可以去休息一下。",
+			animation = "talk",
+			say = "응, 그쪽도 지은 지 꽤 됐는데, 별다른 움직임이 없는 것 같아요……",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "상업 지구 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这里我来盯着就好。",
-			subName = "商区管理员",
+			say = "무슨 어려움이 생긴 걸지도 몰라요.",
+			subName = "상업 지구 관리자",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +107,7 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "好，那就辛苦你了，阿莫玛。",
+			say = "그렇다면 내가 확인해 봐야겠군, 개발구에 낙오자가 있으면 안 되지.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +115,26 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "嗯，我保证今天的商区一定会香气四溢地等着大家光临！",
+			subName = "상업 지구 관리자",
+			say = "지휘관님, 다녀오세요. 여긴 제가 잘 살필게요.",
+			characterId = 100800,
+			animation = "clap",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "그래, 잘 부탁한다. 아모마.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "상업 지구 관리자",
+			say = "네, 오늘 이 상업 지구에 향긋한 냄새로 가득 채워서 모두를 기다릴 거에요.",
 			characterId = 100800,
 			animation = "nod",
 			typewriter = {

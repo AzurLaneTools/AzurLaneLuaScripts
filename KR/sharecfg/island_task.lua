@@ -174,7 +174,6 @@ pg.island_task = setmetatable({
 			20012008,
 			20012009,
 			20012010,
-			20013000,
 			20013001,
 			20013002,
 			20013003,
@@ -247,6 +246,7 @@ pg.island_task = setmetatable({
 			40601001
 		},
 		[5] = {
+			50000001,
 			50001001,
 			50001002,
 			50001003,
@@ -296,7 +296,40 @@ pg.island_task = setmetatable({
 			80001027,
 			80001028,
 			80001029,
-			80001030
+			80001030,
+			80001101,
+			80001102,
+			80001103,
+			80001104,
+			80001105,
+			80001106,
+			80001107,
+			80001108,
+			80001109,
+			80001110,
+			80001111,
+			80001112,
+			80001113,
+			80001114,
+			80001115,
+			80001116,
+			80001117,
+			80001118,
+			80001119,
+			80001120,
+			80001121,
+			80001122,
+			80001123,
+			80001124,
+			80001125,
+			80001126,
+			80001127,
+			80001128,
+			80001129,
+			80001130
+		},
+		[9] = {
+			20013000
 		}
 	},
 	all = {
@@ -387,6 +420,7 @@ pg.island_task = setmetatable({
 		10004020,
 		10004030,
 		10019999,
+		50000001,
 		50001001,
 		50001002,
 		50001003,
@@ -435,6 +469,36 @@ pg.island_task = setmetatable({
 		80001028,
 		80001029,
 		80001030,
+		80001101,
+		80001102,
+		80001103,
+		80001104,
+		80001105,
+		80001106,
+		80001107,
+		80001108,
+		80001109,
+		80001110,
+		80001111,
+		80001112,
+		80001113,
+		80001114,
+		80001115,
+		80001116,
+		80001117,
+		80001118,
+		80001119,
+		80001120,
+		80001121,
+		80001122,
+		80001123,
+		80001124,
+		80001125,
+		80001126,
+		80001127,
+		80001128,
+		80001129,
+		80001130,
 		20001001,
 		20001002,
 		20001003,
@@ -591,9 +655,9 @@ pg.base.island_task = {
 	[10001000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "原野之上",
+		name = "벌판에서",
 		type = 1,
-		task_desc = "开发区原野上建筑林立，靠近看看……或许找到些熟悉的身影。",
+		task_desc = "개발 구역의 벌판에 건물이 들어서 있다. 가까이서 살펴보면 익숙한 인물이 보일지도 모른다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -604,11 +668,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "原野初探",
+		series_name = "벌판 탐색",
 		id = 10001000,
 		unlock_condition = {},
 		link_task = {},
@@ -623,9 +687,9 @@ pg.base.island_task = {
 	[10001010] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "重逢之时",
+		name = "재회의 순간",
 		type = 1,
-		task_desc = "那边忙碌的……是奥布莱恩？快去和她打个招呼吧。",
+		task_desc = "저쪽에서 바쁜 시간을 보내고 있는 건 오브라이언…? 어서 인사를 나누자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -636,12 +700,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "原野初探",
+		series_name = "벌판 탐색",
 		id = 10001010,
 		unlock_condition = {
 			{
@@ -657,9 +721,9 @@ pg.base.island_task = {
 	[10001020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "乔安的修复计划",
+		name = "조안의 복구 계획",
 		type = 1,
-		task_desc = "听奥布莱恩说前往港口的交通线因爆炸受损了，去找负责修复计划的乔安详细问问呢。",
+		task_desc = "오브라이언 말로는 항구로 향하는 교통 노선이 일시적으로 정지되었다고 한다. 조안이 있는 곳으로 가서 자세한 이야기를 듣자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -669,11 +733,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "原野初探",
+		series_name = "벌판 탐색",
 		id = 10001020,
 		unlock_condition = {
 			{
@@ -700,23 +764,23 @@ pg.base.island_task = {
 	[10001030] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "镐下煤炭",
+		name = "곡괭이로 석탄 캐기",
 		type = 1,
-		task_desc = "去帮乔安开采到足够修复用的煤炭吧。",
+		task_desc = "복구에 필요한 석탄을 채집하여 조안을 도와주자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040022,
 		reward_exp = 50,
-		complete_tips = "把煤炭交给乔安吧",
+		complete_tips = "석탄을 조안에게 건네주기",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1004,
 		map_complete_tips = 1004,
 		rec_perform = "",
-		series_name = "受损的交通线",
+		series_name = "마비된 교통",
 		id = 10001030,
 		unlock_condition = {
 			{
@@ -743,23 +807,23 @@ pg.base.island_task = {
 	[10001040] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "斧上林木",
+		name = "도끼로 나무 패기",
 		type = 1,
-		task_desc = "去帮奥布莱恩采集到足够修复用的自然之木吧。",
+		task_desc = "복구에 필요한 자연 목재를 채집해서 오브라이언을 도와주자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040060,
 		reward_exp = 100,
-		complete_tips = "把自然之木交给奥布莱恩吧",
+		complete_tips = "자연 목재를 오브라이언에게 건네주기",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1004,
 		map_complete_tips = 1004,
 		rec_perform = "",
-		series_name = "受损的交通线",
+		series_name = "마비된 교통",
 		id = 10001040,
 		unlock_condition = {
 			{
@@ -786,9 +850,9 @@ pg.base.island_task = {
 	[10001050] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "原野上的协力",
+		name = "벌판에서의 협력",
 		type = 1,
-		task_desc = "快去原野的车站附近，与乔安和奥布莱恩一起修复受损的交通线吧。",
+		task_desc = "벌판의 역 근처에서 조안 일행과 함께 파손된 교통 노선을 복구하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -798,12 +862,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "受损的交通线",
+		series_name = "마비된 교통",
 		id = 10001050,
 		unlock_condition = {
 			{
@@ -826,9 +890,9 @@ pg.base.island_task = {
 	[10001060] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "向着远方",
+		name = "먼 곳을 향해",
 		type = 1,
-		task_desc = "线路畅通，是时候前往港口了。",
+		task_desc = "버스 운행이 재개되었다. 항구로 향하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -838,12 +902,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "受损的交通线",
+		series_name = "마비된 교통",
 		id = 10001060,
 		unlock_condition = {
 			{
@@ -866,9 +930,9 @@ pg.base.island_task = {
 	[10001070] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "原野的馈赠",
+		name = "벌판의 선물",
 		type = 1,
-		task_desc = "时间紧迫，去码头附近找找看，帕特莉应该就在那边。",
+		task_desc = "부두 근처를 찾아보자. 패트리는 그 근처에 있을 것이다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -878,12 +942,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "{namecode:98:明石}的秘密",
+		series_name = "아카시의 비밀",
 		id = 10001070,
 		unlock_condition = {
 			{
@@ -903,9 +967,9 @@ pg.base.island_task = {
 	[10001071] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "原野的馈赠",
+		name = "벌판의 선물",
 		type = 1,
-		task_desc = "时间紧迫，去码头附近找找看，帕特莉应该就在那边。",
+		task_desc = "부두 근처를 찾아보자. 패트리는 그 근처에 있을 것이다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -916,12 +980,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "{namecode:98:明石}的秘密",
+		series_name = "아카시의 비밀",
 		id = 10001071,
 		unlock_condition = {
 			{
@@ -937,9 +1001,9 @@ pg.base.island_task = {
 	[10001080] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "港口寻踪",
+		name = "항구에서 단서 찾기",
 		type = 1,
-		task_desc = "{namecode:98:明石}的踪迹出现在了港口的啾咖啡附近……快去找找看吧。",
+		task_desc = "아카시의 단서가 항구의 쥬카페 근처에 있는 듯하다. 서둘러 찾자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -949,11 +1013,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "{namecode:98:明石}的秘密",
+		series_name = "아카시의 비밀",
 		id = 10001080,
 		unlock_condition = {
 			{
@@ -980,9 +1044,9 @@ pg.base.island_task = {
 	[10001090] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "神秘的啾咖啡",
+		name = "수수께끼의 쥬카페",
 		type = 1,
-		task_desc = "港口的啾咖啡，香气中的秘密？{namecode:98:明石}的身影消失在了门后……快跟过去。",
+		task_desc = "부두에 있는 쥬카페의 향기에는 어떤 비밀이...? 문 너머로 사라진 아카시를 서둘러 쫒아가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -992,12 +1056,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "{namecode:98:明石}的秘密",
+		series_name = "아카시의 비밀",
 		id = 10001090,
 		unlock_condition = {
 			{
@@ -1020,9 +1084,9 @@ pg.base.island_task = {
 	[10001100] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "警报之围",
+		name = "경보의 포위",
 		type = 1,
-		task_desc = "啾咖啡里到处都是警报装置，小心避开它们，别被{namecode:98:明石}发现了。",
+		task_desc = "쥬카페 내에는 온통 경보 장치가 설치되어 있다. 이를 잘 피하면서 아카시에게 들키지 않도록 조심하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1032,11 +1096,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "{namecode:98:明石}的秘密",
+		series_name = "아카시의 비밀",
 		id = 10001100,
 		unlock_condition = {
 			{
@@ -1063,9 +1127,9 @@ pg.base.island_task = {
 	[10001110] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "消失的{namecode:98:明石}",
+		name = "사라진 아카시",
 		type = 1,
-		task_desc = "门后的房间里没有发现{namecode:98:明石}的身影，她去哪里了呢？",
+		task_desc = "아카시의 모습이 보이지 않는다. 대체 어디로 간 걸까?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1075,12 +1139,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "{namecode:98:明石}的秘密",
+		series_name = "아카시의 비밀",
 		id = 10001110,
 		unlock_condition = {
 			{
@@ -1103,9 +1167,9 @@ pg.base.island_task = {
 	[10001120] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秘密基地？",
+		name = "비밀 기지?",
 		type = 1,
-		task_desc = "迷雾渐散，是时候直面{namecode:98:明石}，问个水落石出了。",
+		task_desc = "안개가 걷혔다. 아카시에게 진상을 캐물을 차례다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1115,11 +1179,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1007,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "{namecode:98:明石}的秘密",
+		series_name = "아카시의 비밀",
 		id = 10001120,
 		unlock_condition = {
 			{
@@ -1151,9 +1215,9 @@ pg.base.island_task = {
 	[10001130] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "把握权限",
+		name = "권한 장악",
 		type = 1,
-		task_desc = "{namecode:98:明石}终于松口了，岛屿开发区的权限即将到手！但随之而来的，是她……",
+		task_desc = "아카시가 드디어 입을 열었다. 아일랜드의 개발 구역 권한을 곧 얻을 수 있을 것 같다. 하지만 아카시는……",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1164,12 +1228,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1007,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "开发区的邀约",
+		series_name = "아일랜드의 초대",
 		id = 10001130,
 		unlock_condition = {
 			{
@@ -1185,9 +1249,9 @@ pg.base.island_task = {
 	[10001140] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "岛屿科技",
+		name = "아일랜드 기술",
 		type = 1,
-		task_desc = "快去看看{namecode:98:明石}的岛屿科技，研发岛屿权限认证函吧。",
+		task_desc = "아카시의 아일랜드 기술을 참고하여 권한 인증 장치를 연구하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1197,11 +1261,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1007,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "开发区的邀约",
+		series_name = "아일랜드의 초대",
 		id = 10001140,
 		unlock_condition = {
 			{
@@ -1228,23 +1292,23 @@ pg.base.island_task = {
 	[10001141] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "岛屿科技",
+		name = "아일랜드 기술",
 		type = 1,
-		task_desc = "快去看看{namecode:98:明石}的岛屿科技，研发岛屿权限认证函吧。",
+		task_desc = "아카시의 아일랜드 기술을 참고하여 권한 인증 장치를 연구하자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10070028,
 		reward_exp = 100,
-		complete_tips = "和{namecode:98:明石}聊聊(0/1)",
+		complete_tips = "아카시가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1007,
 		map_complete_tips = 1007,
 		rec_perform = "",
-		series_name = "开发区的邀约",
+		series_name = "아일랜드의 초대",
 		id = 10001141,
 		unlock_condition = {
 			{
@@ -1271,9 +1335,9 @@ pg.base.island_task = {
 	[10001150] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "权限认证装置",
+		name = "권한 인증 장치",
 		type = 1,
-		task_desc = "用权限认证装置邀请港区的伙伴们吧！岛屿的未来，需要大家一同来构筑！",
+		task_desc = "권한 인증 장치로 모항 동료들을 초대하자! 섬의 미래를 모두 함께 만들어 나가자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1283,11 +1347,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1007,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "开发区的邀约",
+		series_name = "아일랜드의 초대",
 		id = 10001150,
 		unlock_condition = {
 			{
@@ -1314,9 +1378,9 @@ pg.base.island_task = {
 	[10001151] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "权限认证装置",
+		name = "권한 인증 장치",
 		type = 1,
-		task_desc = "用权限认证装置邀请港区的伙伴们吧！岛屿的未来，需要大家一同来构筑！",
+		task_desc = "권한 인증 장치로 모항 동료들을 초대하자! 섬의 미래를 모두 함께 만들어 나가자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1327,12 +1391,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1007,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "开发区的邀约",
+		series_name = "아일랜드의 초대",
 		id = 10001151,
 		unlock_condition = {
 			{
@@ -1348,9 +1412,9 @@ pg.base.island_task = {
 	[10001160] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "远帆来港",
+		name = "먼 곳에서",
 		type = 1,
-		task_desc = "现在到来的是——萨拉托加！快去码头迎接她吧。 ",
+		task_desc = "새러토가가 섬으로 찾아왔다! 서둘러 부두로 마중하러 나가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1360,12 +1424,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "开发区的邀约",
+		series_name = "아일랜드의 초대",
 		id = 10001160,
 		unlock_condition = {
 			{
@@ -1388,23 +1452,23 @@ pg.base.island_task = {
 	[10001170] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "生活经验指南",
+		name = "아일랜드 EXP 교본",
 		type = 1,
-		task_desc = "{namecode:98:明石}拿出了一本她半年来总结的开发区生活经验指南，只要帮她一点点小忙就能获得。",
+		task_desc = "아카시가 반년 동안 정리한 아일랜드 EXP 교본을 꺼냈다. 그녀의 부탁을 들어주면 손에 넣을 수 있다.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020013,
 		reward_exp = 200,
-		complete_tips = "去找{namecode:98:明石}吧(0/1)",
+		complete_tips = "아카시와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1002,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		series_name = "开发区的邀约",
+		series_name = "아일랜드의 초대",
 		id = 10001170,
 		unlock_condition = {
 			{
@@ -1441,9 +1505,9 @@ pg.base.island_task = {
 	[10001180] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "提升开发等级",
+		name = "개발 등급 올리기",
 		type = 1,
-		task_desc = "开发区里每天都会有新的每日计划和岛屿订单，快去提升岛屿开发等级吧！",
+		task_desc = "아일랜드에서는 매일 계획과 의뢰가 등장한다. 어서 개발 등급을 올리자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1454,12 +1518,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "初临篇",
+		series = "도착편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "开发区的邀约",
+		series_name = "아일랜드의 초대",
 		id = 10001180,
 		unlock_condition = {
 			{
@@ -1475,9 +1539,9 @@ pg.base.island_task = {
 	[10002010] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "忙碌是一件好事",
+		name = "바쁘단 건 좋은 거야",
 		type = 1,
-		task_desc = "高额贷款，债务危机，谁能指点迷津……当然是最忙碌的帕特莉！",
+		task_desc = "막대한 대출로 인한 부채 위기! 이 길을 밝혀줄 수 있는 것은…… 당연히 가장 바쁜 패트리뿐!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1487,12 +1551,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "债务危机",
+		series_name = "채무 위기",
 		id = 10002010,
 		unlock_condition = {
 			{
@@ -1520,9 +1584,9 @@ pg.base.island_task = {
 	[10002020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "宝藏的传闻",
+		name = "보물에 대한 소문",
 		type = 1,
-		task_desc = "关于宝藏，斯蒂芬妮好像知道什么……去找她问问吧。",
+		task_desc = "보물에 대해 스테파니가 무언가 알고 있는 듯하다. 어서 물어보자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1532,11 +1596,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "债务危机",
+		series_name = "채무 위기",
 		id = 10002020,
 		unlock_condition = {
 			{
@@ -1563,9 +1627,9 @@ pg.base.island_task = {
 	[10002030] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "斯蒂芬妮的踪迹",
+		name = "스테파니의 행적",
 		type = 1,
-		task_desc = "空无一人的货运中心，是宝藏岛的诅咒，还是……",
+		task_desc = "아무도 없는 화물센터… 이것은 보물섬의 저주일까? 아니면……",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1576,12 +1640,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "债务危机",
+		series_name = "채무 위기",
 		id = 10002030,
 		unlock_condition = {
 			{
@@ -1597,9 +1661,9 @@ pg.base.island_task = {
 	[10002031] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "斯蒂芬妮的踪迹",
+		name = "스테파니의 행적",
 		type = 1,
-		task_desc = "空无一人的货运中心，是宝藏岛的诅咒，还是……",
+		task_desc = "아무도 없는 화물센터… 이것은 보물섬의 저주일까? 아니면……",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1610,12 +1674,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "债务危机",
+		series_name = "채무 위기",
 		id = 10002031,
 		unlock_condition = {
 			{
@@ -1631,9 +1695,9 @@ pg.base.island_task = {
 	[10002032] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "斯蒂芬妮的踪迹",
+		name = "스테파니의 행적",
 		type = 1,
-		task_desc = "空无一人的货运中心，是宝藏岛的诅咒，还是……",
+		task_desc = "아무도 없는 화물센터… 이것은 보물섬의 저주일까? 아니면……",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1643,11 +1707,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "债务危机",
+		series_name = "채무 위기",
 		id = 10002032,
 		unlock_condition = {
 			{
@@ -1679,9 +1743,9 @@ pg.base.island_task = {
 	[10002040] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "劳逸结合不了",
+		name = "워라벨",
 		type = 1,
-		task_desc = "紧急关头，“劳逸结合”会有奇效？",
+		task_desc = "긴급할 때야말로 워라벨이 효과를 발휘한다…?!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1692,12 +1756,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "债务危机",
+		series_name = "채무 위기",
 		id = 10002040,
 		unlock_condition = {
 			{
@@ -1713,9 +1777,9 @@ pg.base.island_task = {
 	[10002050] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "勤劳有什么用？",
+		name = "부지런하면 뭐 하냐고?",
 		type = 1,
-		task_desc = "勤劳有什么用？能找到财富的突破口……",
+		task_desc = "부지런하면 뭐 하냐고? 어쩌면 부를 이룰 수 있는 돌파구를 찾을 수 있을지도 모른다.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
@@ -1723,14 +1787,14 @@ pg.base.island_task = {
 		reward_show = "",
 		complete_data = 10020004,
 		reward_exp = 0,
-		complete_tips = "跟斯蒂芬妮聊聊(0/1)",
+		complete_tips = "스테파니와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		series_name = "债务危机",
+		series_name = "채무 위기",
 		id = 10002050,
 		unlock_condition = {
 			{
@@ -1750,9 +1814,9 @@ pg.base.island_task = {
 	[10002051] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "提升开发等级",
+		name = "개발 등급 올리기",
 		type = 1,
-		task_desc = "开发区里每天都会有新的每日计划和岛屿订单，快去提升岛屿开发等级吧！",
+		task_desc = "아일랜드에서는 매일 계획과 의뢰가 등장한다. 어서 개발 등급을 올리자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1763,12 +1827,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 0,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "债务危机",
+		series_name = "채무 위기",
 		id = 10002051,
 		unlock_condition = {
 			{
@@ -1784,9 +1848,9 @@ pg.base.island_task = {
 	[10002060] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "晨露农场",
+		name = "이슬 농장",
 		type = 1,
-		task_desc = "前往港口站乘车，去晨露农场吧。",
+		task_desc = "항구역으로 가서 버스를 타고 이슬 농장으로 향하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1796,11 +1860,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002060,
 		unlock_condition = {
 			{
@@ -1827,9 +1891,9 @@ pg.base.island_task = {
 	[10002070] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "农田里的守望",
+		name = "밭 지키기",
 		type = 1,
-		task_desc = "守望一片麦田，需要的不仅仅是耐心……",
+		task_desc = "밀밭을 지키려면 인내만으로는 부족하다……",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1839,12 +1903,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002070,
 		unlock_condition = {
 			{
@@ -1867,9 +1931,9 @@ pg.base.island_task = {
 	[10002080] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "生长的作物",
+		name = "성장하는 작물",
 		type = 1,
-		task_desc = "去商店购买小麦种子，试着播种下去吧。",
+		task_desc = "상점에서 밀 씨앗을 구매하여 파종하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1880,12 +1944,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002080,
 		unlock_condition = {
 			{
@@ -1901,23 +1965,23 @@ pg.base.island_task = {
 	[10002081] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "生长的作物",
+		name = "성장하는 작물",
 		type = 1,
-		task_desc = "去商店购买小麦种子，试着播种下去吧。",
+		task_desc = "상점에서 밀 씨앗을 구매하여 파종하자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010040,
 		reward_exp = 100,
-		complete_tips = "跟赫莫聊聊(0/1)",
+		complete_tips = "헤르모와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 1001,
 		rec_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002081,
 		unlock_condition = {
 			{
@@ -1944,9 +2008,9 @@ pg.base.island_task = {
 	[10002090] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "牧场的宝藏",
+		name = "목장의 보물",
 		type = 1,
-		task_desc = "想要靠农场赚钱的关键就在牧场里，去看看隐藏的宝藏吧。",
+		task_desc = "농장에서 수익을 내는 핵심은 목장이 쥐고 있다. 숨겨진 보물을 찾으러 가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -1956,12 +2020,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002090,
 		unlock_condition = {
 			{
@@ -1984,23 +2048,23 @@ pg.base.island_task = {
 	[10002100] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "追捕时间到！",
+		name = "추적 시간!",
 		type = 1,
-		task_desc = "帮梅莉把咯咯鸡找回来吧。",
+		task_desc = "꼬꼬닭을 찾는 메리를 돕자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 200,
-		complete_tips = "回去找梅莉吧(0/1)",
+		complete_tips = "돌아가서 메리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 1001,
 		rec_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002100,
 		unlock_condition = {
 			{
@@ -2027,9 +2091,9 @@ pg.base.island_task = {
 	[10002110] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "咯咯鸡的饲料",
+		name = "꼬꼬닭의 사료",
 		type = 1,
-		task_desc = "咯咯鸡的饲料不够了，去磨坊帮梅莉制作一些吧。",
+		task_desc = "꼬꼬닭의 사료가 부족하다. 메리를 위해 방앗간으로 가서 만들어 주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2039,12 +2103,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002110,
 		unlock_condition = {
 			{
@@ -2067,23 +2131,23 @@ pg.base.island_task = {
 	[10002120] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "制作饲料",
+		name = "사료 제작",
 		type = 1,
-		task_desc = "使用小麦在奥林匹克处制作饲料吧",
+		task_desc = "올림픽에게 밀을 가져가서 사료를 만들자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 200,
-		complete_tips = "回去找梅莉吧(0/1)",
+		complete_tips = "돌아가서 메리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 1001,
 		rec_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002120,
 		unlock_condition = {
 			{
@@ -2110,9 +2174,9 @@ pg.base.island_task = {
 	[10002130] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "动物之礼",
+		name = "동물의 선물",
 		type = 1,
-		task_desc = "和梅莉一起看看动物的产出吧。",
+		task_desc = "메리와 함께 동물의 생산품을 확인하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2122,12 +2186,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002130,
 		unlock_condition = {
 			{
@@ -2150,9 +2214,9 @@ pg.base.island_task = {
 	[10002131] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "动物之礼",
+		name = "동물의 선물",
 		type = 1,
-		task_desc = "和梅莉一起看看动物的产出吧。",
+		task_desc = "메리와 함께 동물의 생산품을 확인하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2162,12 +2226,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002131,
 		unlock_condition = {
 			{
@@ -2190,9 +2254,9 @@ pg.base.island_task = {
 	[10002140] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "欣欣向荣",
+		name = "나날이 번창",
 		type = 1,
-		task_desc = "一眨眼，梅莉就已经不见了踪影，快去赫莫那里找她吧。",
+		task_desc = "메리가 눈 깜짝할 사이에 사라졌다. 헤르모에게 가서 그녀를 찾자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2202,12 +2266,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002140,
 		unlock_condition = {
 			{
@@ -2235,9 +2299,9 @@ pg.base.island_task = {
 	[10002141] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "提升开发等级",
+		name = "개발 등급 올리기",
 		type = 1,
-		task_desc = "开发区里每天都会有新的每日计划和岛屿订单，快去提升岛屿开发等级吧！",
+		task_desc = "아일랜드에서는 매일 계획과 의뢰가 등장한다. 어서 개발 등급을 올리자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2248,12 +2312,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 0,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "农场牧歌",
+		series_name = "농장의 목가",
 		id = 10002141,
 		unlock_condition = {
 			{
@@ -2269,9 +2333,9 @@ pg.base.island_task = {
 	[10002150] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "小憩时光",
+		name = "휴식 시간",
 		type = 1,
-		task_desc = "是时候犒劳自己了，去港口的啾咖啡看看。",
+		task_desc = "자신에게 보상을 줄 때다. 항구의 쥬카페를 확인하러 가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2281,12 +2345,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿美食",
+		series_name = "아일랜드의 미식",
 		id = 10002150,
 		unlock_condition = {
 			{
@@ -2309,9 +2373,9 @@ pg.base.island_task = {
 	[10002160] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "暖炉里的蛋香",
+		name = "달걀의 향기",
 		type = 1,
-		task_desc = "尝尝店里新鲜出炉的欧姆蛋吧。",
+		task_desc = "가게에서 갓 만든 오믈렛을 맛보자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2321,12 +2385,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿美食",
+		series_name = "아일랜드의 미식",
 		id = 10002160,
 		unlock_condition = {
 			{
@@ -2349,23 +2413,23 @@ pg.base.island_task = {
 	[10002170] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "美味欧姆蛋！",
+		name = "맛있는 오믈렛!",
 		type = 1,
-		task_desc = "把鸡蛋交给布莱梅制作欧姆蛋吧。",
+		task_desc = "달걀을 브레멘에게 건네서 오믈렛을 만들어 달라고 하자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 200,
-		complete_tips = "跟布莱梅聊聊(0/1)",
+		complete_tips = "브레멘과 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 1009,
 		rec_perform = "",
-		series_name = "岛屿美食",
+		series_name = "아일랜드의 미식",
 		id = 10002170,
 		unlock_condition = {
 			{
@@ -2392,23 +2456,23 @@ pg.base.island_task = {
 	[10002180] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "港口速递",
+		name = "항구 배송",
 		type = 1,
-		task_desc = "将斯蒂芬妮最爱的欧姆蛋送过去吧。",
+		task_desc = "스테파니가 가장 좋아하는 오믈렛을 전달하자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020004,
 		reward_exp = 200,
-		complete_tips = "将欧姆蛋带给斯蒂芬妮",
+		complete_tips = "오믈렛을 스테파니에게 가져다 주기",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		series_name = "岛屿美食",
+		series_name = "아일랜드의 미식",
 		id = 10002180,
 		unlock_condition = {
 			{
@@ -2435,9 +2499,9 @@ pg.base.island_task = {
 	[10002190] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "购得到的美味",
+		name = "돈으로 살 수 있는 별미",
 		type = 1,
-		task_desc = "新的资金来源，人人都能买到的美味。",
+		task_desc = "새로운 자금원, 누구나 구매할 수 있는 별미.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2447,12 +2511,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿美食",
+		series_name = "아일랜드의 미식",
 		id = 10002190,
 		unlock_condition = {
 			{
@@ -2475,23 +2539,23 @@ pg.base.island_task = {
 	[10002200] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "第一位顾客",
+		name = "손님 제1호",
 		type = 1,
-		task_desc = "将欧姆蛋上架耐心等待第一位顾客的到来吧。",
+		task_desc = "오믈렛을 메뉴에 추가하여 첫 손님을 기다리자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 200,
-		complete_tips = "和布莱梅一起耐心等待",
+		complete_tips = "브레멘과 함께 인내심을 가지고 대기",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 1009,
 		rec_perform = "",
-		series_name = "岛屿美食",
+		series_name = "아일랜드의 미식",
 		id = 10002200,
 		unlock_condition = {
 			{
@@ -2518,9 +2582,9 @@ pg.base.island_task = {
 	[10002210] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "限时优选-{namecode:98:明石}",
+		name = "아카시의 한정 판매",
 		type = 1,
-		task_desc = "限时优选……是促销手段，还是真有好物？去{namecode:98:明石}的店里一探究竟吧。",
+		task_desc = "한정 판매…… 광고를 위한 걸까? 아니면 정말로 괜찮은 게 있는 걸까? 아카시의 가게로 가서 실제로는 어떤지 확인하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2530,12 +2594,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿美食",
+		series_name = "아일랜드의 미식",
 		id = 10002210,
 		unlock_condition = {
 			{
@@ -2568,9 +2632,9 @@ pg.base.island_task = {
 	[10002211] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "提升开发等级",
+		name = "개발 등급 올리기",
 		type = 1,
-		task_desc = "开发区里每天都会有新的每日计划和岛屿订单，快去提升岛屿开发等级吧！",
+		task_desc = "아일랜드에서는 매일 계획과 의뢰가 등장한다. 어서 개발 등급을 올리자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2581,12 +2645,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 0,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿美食",
+		series_name = "아일랜드의 미식",
 		id = 10002211,
 		unlock_condition = {
 			{
@@ -2602,9 +2666,9 @@ pg.base.island_task = {
 	[10002220] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "宝藏岛？",
+		name = "보물섬?",
 		type = 1,
-		task_desc = "{namecode:98:明石}好像有事情要告诉你，快去找她吧。",
+		task_desc = "아카시가 하고 싶은 말이 있는 듯하다. 어서 만나러 가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2614,12 +2678,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002220,
 		unlock_condition = {
 			{
@@ -2642,9 +2706,9 @@ pg.base.island_task = {
 	[10002230] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "飞行器的新生-港口",
+		name = "비행 장치 부활 - 항구",
 		type = 1,
-		task_desc = "为了宝藏，为了完好的飞行器，收集散落在港口的飞行器碎片吧。",
+		task_desc = "보물을 위해, 그리고 비행 장치 부활을 위해, 항구에 흩어진 비행 장치의 파편을 모으자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2654,11 +2718,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002230,
 		unlock_condition = {
 			{
@@ -2687,9 +2751,9 @@ pg.base.island_task = {
 	[10002240] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "飞行器的新生-栖风原野",
+		name = "비행 장치의 부활 - 바람의 벌판",
 		type = 1,
-		task_desc = "为了宝藏，为了完好的飞行器，收集散落在栖风原野的飞行器碎片吧。",
+		task_desc = "보물을 위해, 그리고 비행 장치 부활을 위해, 바람의 벌판에 흩어진 비행 장치의 파편을 모으자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2699,11 +2763,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002240,
 		unlock_condition = {
 			{
@@ -2733,9 +2797,9 @@ pg.base.island_task = {
 	[10002250] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "飞行器的新生-晨露农场",
+		name = "비행 장치 부활 - 이슬 농장",
 		type = 1,
-		task_desc = "为了宝藏，为了完好的飞行器，收集散落在晨露农场的飞行器碎片吧。",
+		task_desc = "보물을 위해, 그리고 비행 장치 부활을 위해, 이슬 농장에 흩어진 비행 장치의 파편을 모으자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2745,11 +2809,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002250,
 		unlock_condition = {
 			{
@@ -2780,9 +2844,9 @@ pg.base.island_task = {
 	[10002251] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "飞行器的新生-晨露农场",
+		name = "비행 장치 부활 - 이슬 농장",
 		type = 1,
-		task_desc = "为了宝藏，为了完好的飞行器，收集散落在晨露农场的飞行器碎片吧。",
+		task_desc = "보물을 위해, 그리고 비행 장치 부활을 위해, 이슬 농장에 흩어진 비행 장치의 파편을 모으자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2792,12 +2856,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002251,
 		unlock_condition = {
 			{
@@ -2820,9 +2884,9 @@ pg.base.island_task = {
 	[10002260] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "碧空待航",
+		name = "하늘을 날아보자",
 		type = 1,
-		task_desc = "准备出发，去码头找{namecode:98:明石}吧。",
+		task_desc = "부두로 가서 아카시와 대화하고 출발할 준비를 하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2832,12 +2896,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002260,
 		unlock_condition = {
 			{
@@ -2860,9 +2924,9 @@ pg.base.island_task = {
 	[10002270] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "出发，宝藏岛！",
+		name = "보물섬으로 출발!",
 		type = 1,
-		task_desc = "万事俱备，该乘上{namecode:98:明石}的飞行器前往宝藏岛啦！",
+		task_desc = "준비 끝! 아카시의 비행 장치를 타고 보물섬으로 출발할 때가 왔다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2873,11 +2937,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002270,
 		unlock_condition = {
 			{
@@ -2897,9 +2961,9 @@ pg.base.island_task = {
 	[10002271] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "出发，宝藏岛！",
+		name = "보물섬으로 출발!",
 		type = 1,
-		task_desc = "万事俱备，该乘上{namecode:98:明石}的飞行器前往宝藏岛啦！",
+		task_desc = "준비 끝! 아카시의 비행 장치를 타고 보물섬으로 출발할 때가 왔다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -2909,12 +2973,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002271,
 		unlock_condition = {
 			{
@@ -2937,23 +3001,23 @@ pg.base.island_task = {
 	[10002280] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "所谓宝藏",
+		name = "보물의 정체",
 		type = 1,
-		task_desc = "跟随玛丽去看看岛上的宝藏吧。",
+		task_desc = "마리를 따라가서 섬의 보물을 확인하자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10030006,
 		reward_exp = 300,
-		complete_tips = "问问玛丽吧(0/1)",
+		complete_tips = "마리에게 물어보기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1003,
 		map_complete_tips = 1003,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002280,
 		unlock_condition = {
 			{
@@ -2980,23 +3044,23 @@ pg.base.island_task = {
 	[10002290] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "日常补给",
+		name = "일상 보급",
 		type = 1,
-		task_desc = "试试启动装置发送空投信号吧。",
+		task_desc = "장치를 가동하여 공중 투하 신호를 송신하자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
-		complete_data = 10030003,
+		complete_data = 10030006,
 		reward_exp = 300,
-		complete_tips = "去和玛丽聊聊(0/1)",
+		complete_tips = "마리와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1003,
 		map_complete_tips = 1003,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002290,
 		unlock_condition = {
 			{
@@ -3006,8 +3070,8 @@ pg.base.island_task = {
 		},
 		link_task = {},
 		com_perform = {
-			1,
-			"ISLAND1001032_2"
+			2,
+			"ISLANDPERFORMANCE_PATH_10"
 		},
 		target_id = {
 			100022901
@@ -3023,9 +3087,9 @@ pg.base.island_task = {
 	[10002300] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "集会岛上的浪漫休憩",
+		name = "하모니섬에서의 달콤한 휴식",
 		type = 1,
-		task_desc = "悠闲浪漫，休闲度假~……真是美好啊~（还记得贷款吗？）",
+		task_desc = "느긋하고 로맨틱한, 레져 바캉스…… 정말 좋다~ (빚 있는 거 잊지 말자)",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3035,12 +3099,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1003,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002300,
 		unlock_condition = {
 			{
@@ -3063,23 +3127,23 @@ pg.base.island_task = {
 	[10002310] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "集会岛的宝藏",
+		name = "하모니섬의 보물",
 		type = 1,
-		task_desc = "宝藏岛？集会岛！一起把这里打造成属于大家的快乐宝藏吧！",
+		task_desc = "보물섬? 하모니섬! 이곳을 모두의 즐거운 보물로 만들자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10030008,
 		reward_exp = 300,
-		complete_tips = "去找莉莎吧(0/1)",
+		complete_tips = "리사와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1003,
 		map_complete_tips = 1003,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002310,
 		unlock_condition = {
 			{
@@ -3106,23 +3170,23 @@ pg.base.island_task = {
 	[10002320] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "最棒的集会岛",
+		name = "최고의 하모니섬",
 		type = 1,
-		task_desc = "快找个绝佳角度，拍下你亲手搭建的集会岛杰作吧！",
+		task_desc = "최고의 각도를 찾아, 직접 건설한 하모니섬의 모습을 촬영하자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10030008,
 		reward_exp = 300,
-		complete_tips = "去找莉莎吧(0/1)",
+		complete_tips = "리사와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1003,
 		map_complete_tips = 1003,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002320,
 		unlock_condition = {
 			{
@@ -3149,23 +3213,23 @@ pg.base.island_task = {
 	[10002330] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "动物邻居",
+		name = "이웃 동물",
 		type = 1,
-		task_desc = "别忘了岛上可爱的动物邻居们！快去找它们拍张温馨的合影留念吧~",
+		task_desc = "섬에 있는 귀여운 이웃들을 잊지 말자! 같이 기념 사진을 찍어보자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10030008,
 		reward_exp = 300,
-		complete_tips = "去找莉莎吧(0/1)",
+		complete_tips = "리사와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1003,
 		map_complete_tips = 1003,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002330,
 		unlock_condition = {
 			{
@@ -3192,23 +3256,23 @@ pg.base.island_task = {
 	[10002340] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "飞行器大升级",
+		name = "비행 장치 빅 업그레이드",
 		type = 1,
-		task_desc = "莉莎说开发区有个能升级飞行器的专家！不过，收集材料就靠指挥官你啦！",
+		task_desc = "개발 구역에 비행 장치를 업그레이드할 수 있는 전문가가 있다고 한다. 단, 재료는 우리 쪽에서 준비해야 하는 모양이다.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10030008,
 		reward_exp = 300,
-		complete_tips = "去找莉莎吧(0/1)",
+		complete_tips = "리사와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1003,
 		map_complete_tips = 1003,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002340,
 		unlock_condition = {
 			{
@@ -3236,9 +3300,9 @@ pg.base.island_task = {
 	[10002350] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "神秘专家",
+		name = "신비한 전문가",
 		type = 1,
-		task_desc = "玛丽请的帮手到港啦！我们快去港口迎接吧！",
+		task_desc = "마리가 부른 조력자가 항구에 도착했다! 서둘러 마중하러 가자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3248,12 +3312,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1003,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002350,
 		unlock_condition = {
 			{
@@ -3276,9 +3340,9 @@ pg.base.island_task = {
 	[10002360] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "奇妙集会岛",
+		name = "기묘한 하모니섬",
 		type = 1,
-		task_desc = "快试试升级后的飞行器，嗖地一声，体验集会岛的奇妙之处吧~",
+		task_desc = "업그레이드한 비행 장치를 테스트하고, 하모니섬을 즐기자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3288,12 +3352,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1003,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002360,
 		unlock_condition = {
 			{
@@ -3316,9 +3380,9 @@ pg.base.island_task = {
 	[10002370] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "闪亮的未来",
+		name = "빛나는 미래",
 		type = 1,
-		task_desc = "回港口看看最近又有什么新变化吧！",
+		task_desc = "항구로 돌아가 새로운 변화는 없는지 확인하자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3328,11 +3392,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002370,
 		unlock_condition = {
 			{
@@ -3364,9 +3428,9 @@ pg.base.island_task = {
 	[10002380] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "提升开发等级",
+		name = "개발 등급 올리기",
 		type = 1,
-		task_desc = "开发区里每天都会有新的每日计划和岛屿订单，快去提升岛屿开发等级吧！",
+		task_desc = "아일랜드에서는 매일 계획과 의뢰가 등장한다. 어서 개발 등급을 올리자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3377,12 +3441,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "债务篇",
+		series = "채무편",
 		navigation = 0,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "传说中的宝藏岛",
+		series_name = "전설 속의 보물섬",
 		id = 10002380,
 		unlock_condition = {
 			{
@@ -3398,9 +3462,9 @@ pg.base.island_task = {
 	[10003010] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "开发区的生活",
+		name = "개발 구역에서의 생활",
 		type = 1,
-		task_desc = "帕特莉似乎在找你呢，快过去看看有什么事吧！",
+		task_desc = "패트리가 날 찾고 있는 모양이다. 무슨 일인지 어서 확인하자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3411,12 +3475,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "繁荣之初",
+		series_name = "번영의 시작",
 		id = 10003010,
 		unlock_condition = {
 			{
@@ -3432,9 +3496,9 @@ pg.base.island_task = {
 	[10003011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "开发区的生活",
+		name = "개발 구역에서의 생활",
 		type = 1,
-		task_desc = "帕特莉似乎在找你呢，快过去看看有什么事吧！",
+		task_desc = "패트리가 날 찾고 있는 모양이다. 무슨 일인지 어서 확인하자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3444,11 +3508,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1006,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "繁荣之初",
+		series_name = "번영의 시작",
 		id = 10003011,
 		unlock_condition = {
 			{
@@ -3475,9 +3539,9 @@ pg.base.island_task = {
 	[10003020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区建设",
+		name = "상업 지구 건설",
 		type = 1,
-		task_desc = "开发区的潜力，肯定不止于此！",
+		task_desc = "개발 구역의 잠재력은 이게 다가 아니다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3487,12 +3551,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1006,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "繁荣之初",
+		series_name = "번영의 시작",
 		id = 10003020,
 		unlock_condition = {
 			{
@@ -3515,23 +3579,23 @@ pg.base.island_task = {
 	[10003030] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区美食",
+		name = "상업 지구의 맛집",
 		type = 1,
-		task_desc = "阿莫玛，计划不能停，继续努力吧！",
+		task_desc = "아모마, 이제 와서 멈출 수는 없어. 조금만 더 힘내자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10060002,
 		reward_exp = 400,
-		complete_tips = "去找阿莫玛吧(0/1)",
+		complete_tips = "아모마가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1006,
 		map_complete_tips = 1006,
 		rec_perform = "",
-		series_name = "繁荣之初",
+		series_name = "번영의 시작",
 		id = 10003030,
 		unlock_condition = {
 			{
@@ -3558,23 +3622,23 @@ pg.base.island_task = {
 	[10003040] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "百业烟火",
+		name = "상업 진흥",
 		type = 1,
-		task_desc = "商区的活力，就靠大家用心经营的店铺啦！",
+		task_desc = "상업 지구의 활력은 다들 열심히 경영하고 있는 가게에 달려있다!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10060002,
 		reward_exp = 400,
-		complete_tips = "去找阿莫玛吧(0/1)",
+		complete_tips = "아모마가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1006,
 		map_complete_tips = 1006,
 		rec_perform = "",
-		series_name = "繁荣之初",
+		series_name = "번영의 시작",
 		id = 10003040,
 		unlock_condition = {
 			{
@@ -3601,9 +3665,9 @@ pg.base.island_task = {
 	[10003050] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "繁荫之下",
+		name = "그늘 농원에서",
 		type = 1,
-		task_desc = "想丰富商区的美味？繁荫农圃正等着你的到来！快去看看！",
+		task_desc = "상업 지구에서의 맛 체험의 다양화를 위해, 그늘 농원으로 가보자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3614,11 +3678,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1005,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "甜蜜农圃",
+		series_name = "행복한 농지",
 		id = 10003050,
 		unlock_condition = {
 			{
@@ -3638,9 +3702,9 @@ pg.base.island_task = {
 	[10003051] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "繁荫之下",
+		name = "그늘 농원에서",
 		type = 1,
-		task_desc = "想丰富商区的美味？繁荫农圃正等着你的到来！快去看看！",
+		task_desc = "상업 지구에서의 맛 체험의 다양화를 위해, 그늘 농원으로 가보자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3650,12 +3714,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1005,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "甜蜜农圃",
+		series_name = "행복한 농지",
 		id = 10003051,
 		unlock_condition = {
 			{
@@ -3678,23 +3742,23 @@ pg.base.island_task = {
 	[10003060] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "野地寻蜂",
+		name = "들판에서 꿀벌 찾기",
 		type = 1,
-		task_desc = "想要结果？嗡嗡嗡~快去找些蜜蜂伙伴来帮忙授粉吧！",
+		task_desc = "즉각적인 성과를 끌어내기 위해, 꿀벌의 친구들을 찾아 수분을 도와달라고 하자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 400,
-		complete_tips = "带回去给拉科尼亚看看",
+		complete_tips = "돌아가서 라코니아에게 물어보기",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1005,
 		map_complete_tips = 1005,
 		rec_perform = "",
-		series_name = "甜蜜农圃",
+		series_name = "행복한 농지",
 		id = 10003060,
 		unlock_condition = {
 			{
@@ -3721,23 +3785,23 @@ pg.base.island_task = {
 	[10003070] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "蜜蜂与蜂蜜",
+		name = "꿀벌과 꿀",
 		type = 1,
-		task_desc = "新来的蜜蜂朋友有点紧张？去采些甜甜的蜂蜜，让它们放心安家吧~",
+		task_desc = "새로 온 꿀벌의 친구가 긴장하고 있는 듯하다. 달콤한 꿀을 채집해서 안심하고 살 수 있도록 해주자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 400,
-		complete_tips = "去找拉科尼娅吧(0/1)",
+		complete_tips = "라코니아가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1005,
 		map_complete_tips = 1005,
 		rec_perform = "",
-		series_name = "甜蜜农圃",
+		series_name = "행복한 농지",
 		id = 10003070,
 		unlock_condition = {
 			{
@@ -3769,9 +3833,9 @@ pg.base.island_task = {
 	[10003080] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "苹果树",
+		name = "사과나무",
 		type = 1,
-		task_desc = "授粉搞定！是时候种下期待已久的苹果树苗啦~",
+		task_desc = "수분 완료! 드디어 사과 묘목을 심을 때다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3781,11 +3845,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1005,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "甜蜜农圃",
+		series_name = "행복한 농지",
 		id = 10003080,
 		unlock_condition = {
 			{
@@ -3812,9 +3876,9 @@ pg.base.island_task = {
 	[10003090] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "丰收的苹果",
+		name = "사과 풍작",
 		type = 1,
-		task_desc = "苹果树苗种好啦！一起期待它茁壮成长，结出甜甜的果实吧！",
+		task_desc = "사과 묘목을 심었다! 같이 자라는 걸 지켜보며 달콤한 열매가 맺히기를 기다리자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3825,11 +3889,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1005,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "甜蜜农圃",
+		series_name = "행복한 농지",
 		id = 10003090,
 		unlock_condition = {
 			{
@@ -3849,23 +3913,23 @@ pg.base.island_task = {
 	[10003091] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "丰收的苹果",
+		name = "사과 풍작",
 		type = 1,
-		task_desc = "苹果树苗种好啦！一起期待它茁壮成长，结出甜甜的果实吧！",
+		task_desc = "사과 묘목을 심었다! 같이 자라는 걸 지켜보며 달콤한 열매가 맺히기를 기다리자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 400,
-		complete_tips = "也给拉科尼娅尝尝吧(0/1)",
+		complete_tips = "라코니아도 맛을 보게 해주기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1005,
 		map_complete_tips = 1005,
 		rec_perform = "",
-		series_name = "甜蜜农圃",
+		series_name = "행복한 농지",
 		id = 10003091,
 		unlock_condition = {
 			{
@@ -3892,23 +3956,23 @@ pg.base.island_task = {
 	[10003100] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "开拓苗圃",
+		name = "모밭 개척",
 		type = 1,
-		task_desc = "拉科尼娅也想帮上你！看看这片沃土，还能孕育出什么惊喜吧？",
+		task_desc = "라코니아도 돕고 싶은 모양이다! 이 비옥한 땅에 또 어떤 놀라운 일이 펼쳐질까? !",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 400,
-		complete_tips = "去告诉拉科尼娅吧(0/1)",
+		complete_tips = "라코니아에게 전하러 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 1005,
 		map_complete_tips = 1005,
 		rec_perform = "",
-		series_name = "甜蜜农圃",
+		series_name = "행복한 농지",
 		id = 10003100,
 		unlock_condition = {
 			{
@@ -3945,9 +4009,9 @@ pg.base.island_task = {
 	[10003110] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "提升开发等级",
+		name = "개발 등급 올리기",
 		type = 1,
-		task_desc = "开发区里每天都会有新的每日计划和岛屿订单，快去提升岛屿开发等级吧！",
+		task_desc = "아일랜드에서는 매일 계획과 의뢰가 등장한다. 어서 개발 등급을 올리자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3958,12 +4022,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "新枝篇",
+		series = "새로운 시작편",
 		navigation = 0,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "甜蜜农圃",
+		series_name = "행복한 농지",
 		id = 10003110,
 		unlock_condition = {
 			{
@@ -3979,9 +4043,9 @@ pg.base.island_task = {
 	[10004010] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "奇怪的{namecode:98:明石}",
+		name = "기묘한 아카시",
 		type = 1,
-		task_desc = "{namecode:98:明石}最近似乎专注于什么事情？去和她聊聊，看看有什么新发现！",
+		task_desc = "아카시가 요즘 무언가에 집중하고 있는 듯하다 이야기를 나누면서 무언가 새로 발견한 건 없는지 확인하자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -3991,12 +4055,12 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "发展篇",
+		series = "발전편",
 		navigation = 1007,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿工业",
+		series_name = "아일랜드의 공업",
 		id = 10004010,
 		unlock_condition = {
 			{
@@ -4019,23 +4083,23 @@ pg.base.island_task = {
 	[10004020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "工业化的开端",
+		name = "공업화의 시작",
 		type = 1,
-		task_desc = "想让岛屿更繁荣？工业的力量不可或缺！快帮{namecode:98:明石}收集材料，启动计划吧！",
+		task_desc = "섬을 더 번영시키려면 공업의 힘은 필수! 아카시를 위해 재료 모으는 걸 돕고, 계획을 시동하자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10070030,
 		reward_exp = 500,
-		complete_tips = "去找{namecode:98:明石}吧(0/1)",
+		complete_tips = "아카시와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
-		series = "发展篇",
+		series = "발전편",
 		navigation = 1007,
 		map_complete_tips = 1007,
 		rec_perform = "",
-		series_name = "岛屿工业",
+		series_name = "아일랜드의 공업",
 		id = 10004020,
 		unlock_condition = {
 			{
@@ -4062,9 +4126,9 @@ pg.base.island_task = {
 	[10004030] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "岛屿工厂",
+		name = "아일랜드 공장",
 		type = 1,
-		task_desc = "工厂竟然藏在地下？！快去看看{namecode:98:明石}的神秘工厂吧！",
+		task_desc = "설마 지하에 이런 공장이 숨겨져 있을 줄이야! 아카시의 비밀 공장을 보러 가자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -4074,11 +4138,11 @@ pg.base.island_task = {
 		complete_tips = "",
 		is_tech_task = 1,
 		unlock_time = "always",
-		series = "发展篇",
+		series = "발전편",
 		navigation = 1007,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "岛屿工业",
+		series_name = "아일랜드의 공업",
 		id = 10004030,
 		unlock_condition = {
 			{
@@ -4110,23 +4174,23 @@ pg.base.island_task = {
 	[10019999] = {
 		trigger_data = 0,
 		trigger_tips = 1,
-		name = "繁荣与债务",
+		name = "번영과 채무",
 		type = 2,
-		task_desc = "与岛屿权限一同转移的，还有{namecode:98:明石}刻意隐瞒的巨额贷款。",
+		task_desc = "아일랜드의 권한 이전과 함께 아카시로부터 거액의 빚을 떠안았다…",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10090018,
 		reward_exp = 500,
-		complete_tips = "去找{namecode:98:明石}吧(0/1)",
+		complete_tips = "아카시와 대화하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1009,
 		rec_perform = "",
-		series_name = "巨额贷款",
+		series_name = "거액의 대출",
 		id = 10019999,
 		unlock_condition = {
 			{
@@ -4155,26 +4219,91 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[50000001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "개선 진행 중",
+		type = 5,
+		task_desc = "아일랜드 개발에 문제가 발생했다. 피어리가 오류 발생과 재시도의 무한 루프에 빠진 모양이다. 어서 상태를 보러 가자.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "아일랜드 시즌",
+		id = 50000001,
+		unlock_condition = {
+			{
+				2,
+				20015002
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			500000011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				2000
+			}
+		}
+	},
 	[50001001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产采集（1/7）",
+		name = "가을 특산품 채집 (1/7)",
 		type = 5,
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
+		task_desc = "아일랜드가 가을을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요?",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时采集",
+		series_name = "한정 채집",
 		id = 50001001,
 		unlock_condition = {
 			{
@@ -4186,8 +4315,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4198,8 +4327,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4228,23 +4357,23 @@ pg.base.island_task = {
 	[50001002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产采集（2/7）",
+		name = "가을 특산품 채집 (2/7)",
 		type = 5,
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
+		task_desc = "아일랜드가 가을을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요?",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时采集",
+		series_name = "한정 채집",
 		id = 50001002,
 		unlock_condition = {
 			{
@@ -4256,8 +4385,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4268,8 +4397,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4300,23 +4429,23 @@ pg.base.island_task = {
 	[50001003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产采集（3/7）",
+		name = "가을 특산품 채집 (3/7)",
 		type = 5,
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
+		task_desc = "아일랜드가 가을을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요?",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时采集",
+		series_name = "한정 채집",
 		id = 50001003,
 		unlock_condition = {
 			{
@@ -4328,8 +4457,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4340,8 +4469,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4372,23 +4501,23 @@ pg.base.island_task = {
 	[50001004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产采集（4/7）",
+		name = "가을 특산품 채집 (4/7)",
 		type = 5,
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
+		task_desc = "아일랜드가 가을을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요?",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时采集",
+		series_name = "한정 채집",
 		id = 50001004,
 		unlock_condition = {
 			{
@@ -4400,8 +4529,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4412,8 +4541,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4444,23 +4573,23 @@ pg.base.island_task = {
 	[50001005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产采集（5/7）",
+		name = "가을 특산품 채집 (5/7)",
 		type = 5,
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
+		task_desc = "아일랜드가 가을을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요?",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时采集",
+		series_name = "한정 채집",
 		id = 50001005,
 		unlock_condition = {
 			{
@@ -4472,8 +4601,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4484,8 +4613,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4521,23 +4650,23 @@ pg.base.island_task = {
 	[50001006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产采集（6/7）",
+		name = "가을 특산품 채집 (6/7)",
 		type = 5,
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
+		task_desc = "아일랜드가 가을을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요?",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时采集",
+		series_name = "한정 채집",
 		id = 50001006,
 		unlock_condition = {
 			{
@@ -4549,8 +4678,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4561,8 +4690,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4598,23 +4727,23 @@ pg.base.island_task = {
 	[50001007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产采集（7/7）",
+		name = "가을 특산품 채집 (7/7)",
 		type = 5,
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
+		task_desc = "아일랜드가 가을을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요?",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时采集",
+		series_name = "한정 채집",
 		id = 50001007,
 		unlock_condition = {
 			{
@@ -4626,8 +4755,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4638,8 +4767,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4675,23 +4804,23 @@ pg.base.island_task = {
 	[50002001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产制作（1/7）",
+		name = "가을 특산품 제작 (1/7)",
 		type = 5,
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
+		task_desc = "가을 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时配方",
+		series_name = "한정 레시피",
 		id = 50002001,
 		unlock_condition = {
 			{
@@ -4703,8 +4832,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4715,8 +4844,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4745,23 +4874,23 @@ pg.base.island_task = {
 	[50002002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产制作（2/7）",
+		name = "가을 특산품 제작 (2/7)",
 		type = 5,
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
+		task_desc = "가을 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时配方",
+		series_name = "한정 레시피",
 		id = 50002002,
 		unlock_condition = {
 			{
@@ -4773,8 +4902,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4785,8 +4914,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4817,23 +4946,23 @@ pg.base.island_task = {
 	[50002003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产制作（3/7）",
+		name = "가을 특산품 제작 (3/7)",
 		type = 5,
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
+		task_desc = "가을 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时配方",
+		series_name = "한정 레시피",
 		id = 50002003,
 		unlock_condition = {
 			{
@@ -4845,8 +4974,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4857,8 +4986,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4889,23 +5018,23 @@ pg.base.island_task = {
 	[50002004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产制作（4/7）",
+		name = "가을 특산품 제작 (4/7)",
 		type = 5,
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
+		task_desc = "가을 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时配方",
+		series_name = "한정 레시피",
 		id = 50002004,
 		unlock_condition = {
 			{
@@ -4917,8 +5046,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -4929,8 +5058,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -4961,23 +5090,23 @@ pg.base.island_task = {
 	[50002005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产制作（5/7）",
+		name = "가을 특산품 제작 (5/7)",
 		type = 5,
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
+		task_desc = "가을 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时配方",
+		series_name = "한정 레시피",
 		id = 50002005,
 		unlock_condition = {
 			{
@@ -4989,8 +5118,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -5001,8 +5130,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -5038,23 +5167,23 @@ pg.base.island_task = {
 	[50002006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产制作（6/7）",
+		name = "가을 특산품 제작 (6/7)",
 		type = 5,
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
+		task_desc = "가을 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时配方",
+		series_name = "한정 레시피",
 		id = 50002006,
 		unlock_condition = {
 			{
@@ -5066,8 +5195,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -5078,8 +5207,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -5115,23 +5244,23 @@ pg.base.island_task = {
 	[50002007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产制作（7/7）",
+		name = "가을 특산품 제작 (7/7)",
 		type = 5,
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
+		task_desc = "가을 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时配方",
+		series_name = "한정 레시피",
 		id = 50002007,
 		unlock_condition = {
 			{
@@ -5143,8 +5272,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -5155,8 +5284,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -5192,23 +5321,23 @@ pg.base.island_task = {
 	[50003001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产订单（1/4）",
+		name = "가을 특산품 의뢰 (1/4)",
 		type = 5,
-		task_desc = "指挥官带来的秋季特产，我都会好好用在岛屿建设上的~让我们继续稳步推进开发计划吧！",
+		task_desc = "지휘관님께서 가져다 준 특산품은 아일랜드 건설에 잘 활용할 테니, 계속해서 개발 계획을 잘 진행해 봐요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时订单",
+		series_name = "한정 의뢰",
 		id = 50003001,
 		unlock_condition = {
 			{
@@ -5220,8 +5349,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -5232,8 +5361,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -5262,23 +5391,23 @@ pg.base.island_task = {
 	[50003002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产订单（2/4）",
+		name = "가을 특산품 의뢰 (2/4)",
 		type = 5,
-		task_desc = "指挥官带来的秋季特产，我都会好好用在岛屿建设上的~让我们继续稳步推进开发计划吧！",
+		task_desc = "지휘관님께서 가져다 준 특산품은 아일랜드 건설에 잘 활용할 테니, 계속해서 개발 계획을 잘 진행해 봐요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时订单",
+		series_name = "한정 의뢰",
 		id = 50003002,
 		unlock_condition = {
 			{
@@ -5290,8 +5419,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -5302,8 +5431,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -5334,23 +5463,23 @@ pg.base.island_task = {
 	[50003003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产订单（3/4）",
+		name = "가을 특산품 의뢰 (3/4)",
 		type = 5,
-		task_desc = "指挥官带来的秋季特产，我都会好好用在岛屿建设上的~让我们继续稳步推进开发计划吧！",
+		task_desc = "지휘관님께서 가져다 준 특산품은 아일랜드 건설에 잘 활용할 테니, 계속해서 개발 계획을 잘 진행해 봐요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时订单",
+		series_name = "한정 의뢰",
 		id = 50003003,
 		unlock_condition = {
 			{
@@ -5362,8 +5491,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -5374,8 +5503,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -5406,23 +5535,23 @@ pg.base.island_task = {
 	[50003004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "秋季特产订单（4/4）",
+		name = "가을 특산품 의뢰 (4/4)",
 		type = 5,
-		task_desc = "指挥官带来的秋季特产，我都会好好用在岛屿建设上的~让我们继续稳步推进开发计划吧！",
+		task_desc = "지휘관님께서 가져다 준 특산품은 아일랜드 건설에 잘 활용할 테니, 계속해서 개발 계획을 잘 진행해 봐요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
-		series = "【秋季特产经营】",
+		series = "[가을 특산품 경영]",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "限时订单",
+		series_name = "한정 의뢰",
 		id = 50003004,
 		unlock_condition = {
 			{
@@ -5434,8 +5563,8 @@ pg.base.island_task = {
 			{
 				{
 					2025,
-					9,
-					29
+					11,
+					20
 				},
 				{
 					0,
@@ -5446,8 +5575,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -5478,9 +5607,9 @@ pg.base.island_task = {
 	[80001001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "麦田守望",
+		name = "밭 지키기",
 		type = 8,
-		task_desc = "为岛屿仓库输送优质的小麦，保障基础粮食供应。\n提交小麦*500",
+		task_desc = "아일랜드 창고에 밀을 공급해서 기초 식량을 확보하자. \n밀×500 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5489,7 +5618,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5523,9 +5652,9 @@ pg.base.island_task = {
 	[80001002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "动物食品",
+		name = "애니멀 푸드",
 		type = 8,
-		task_desc = "供应新鲜的牧草，满足牧场动物的基础需求。\n提交牧草*500",
+		task_desc = "목장에 신선한 목초를 공급해서 동물들의 기초 수요를 충족시키자. \n목초×500 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5534,7 +5663,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5568,9 +5697,9 @@ pg.base.island_task = {
 	[80001003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "开拓豆源",
+		name = "콩 공급 개척",
 		type = 8,
-		task_desc = "供应大量高蛋白大豆，丰富食品加工原料。\n提交大豆*500",
+		task_desc = "단백질이 풍부한 대두를 공급해서 가공 원료를 보충하자. \n대두×500 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5579,7 +5708,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5613,9 +5742,9 @@ pg.base.island_task = {
 	[80001004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "稻米供应",
+		name = "쌀 생산",
 		type = 8,
-		task_desc = "稳定的主粮供应是开发的基础。\n提交大米*500",
+		task_desc = "안정된 주식 공급이야말로 개발 작업의 기반. \n쌀×500 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5624,7 +5753,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5658,9 +5787,9 @@ pg.base.island_task = {
 	[80001005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "黄金粮仓",
+		name = "황금 곡창",
 		type = 8,
-		task_desc = "交付大量饱满的玉米，扩充开发区的食物种类。\n提交玉米*500",
+		task_desc = "옥수수를 대량으로 공급해서 식재료의 다양화를 꾀하자. \n옥수수×500 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5669,7 +5798,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5703,9 +5832,9 @@ pg.base.island_task = {
 	[80001006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "橙色活力",
+		name = "활기찬 주황빛",
 		type = 8,
-		task_desc = "提供丰富的胡萝卜，增强维生素摄入，支持健康开发。\n提交胡萝卜*250",
+		task_desc = "당근 공급으로 비타민을 보충시켜서 아일랜드의 건강을 도모하자. \n당근×250 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5714,7 +5843,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5748,9 +5877,9 @@ pg.base.island_task = {
 	[80001007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "乳品补给",
+		name = "우유 보급",
 		type = 8,
-		task_desc = "供应新鲜牛奶，补充钙质来源。\n提交牛奶*250",
+		task_desc = "우유를 공급해서 칼슘을 보충하자. \n우유×250 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5759,7 +5888,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5793,9 +5922,9 @@ pg.base.island_task = {
 	[80001008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "甜蜜引擎",
+		name = "스위트 엔진",
 		type = 8,
-		task_desc = "充足的苹果派能显著提升岛屿开发效率。\n提交苹果派*250",
+		task_desc = "애플파이를 제공해서 개발 효율을 향상시키자. \n애플파이×250 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5804,7 +5933,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5838,9 +5967,9 @@ pg.base.island_task = {
 	[80001009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "咖啡供应",
+		name = "커피 공급",
 		type = 8,
-		task_desc = "充足的冰咖啡能维持全岛开发者的工作效率。\n提交冰咖啡*250",
+		task_desc = "아이스 커피로 개발 직원들의 작업 효율을 유지시키자. \n아이스 커피×250 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5849,7 +5978,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5883,9 +6012,9 @@ pg.base.island_task = {
 	[80001010] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "烤肉能量",
+		name = "고기 파워",
 		type = 8,
-		task_desc = "提供美味的炭烤肉串，快速补充体力。\n提交炭烤肉串*250",
+		task_desc = "숯불고기 꼬치를 제공해서 스태미나를 빠르게 회복시키자. \n숯불고기 꼬치×250 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5894,7 +6023,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5928,9 +6057,9 @@ pg.base.island_task = {
 	[80001011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "调味基础",
+		name = "맛내기의 기본",
 		type = 8,
-		task_desc = "优质的洋葱能提升开发区餐品风味。\n提交洋葱*100",
+		task_desc = "양파를 공급해서 요리에 풍미를 더하자. \n양파×100 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5939,7 +6068,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -5973,9 +6102,9 @@ pg.base.island_task = {
 	[80001012] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "健康饮食",
+		name = "건강한 한 상",
 		type = 8,
-		task_desc = "调配蔬菜沙拉，提供均衡营养。\n提交蔬菜沙拉*100",
+		task_desc = "야채 샐러드를 만들어 균형 잡힌 식사를 제공하자. \n야채 샐러드×100 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -5984,7 +6113,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6018,9 +6147,9 @@ pg.base.island_task = {
 	[80001013] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "营养组合",
+		name = "영양 세트",
 		type = 8,
-		task_desc = "供给肉末烧豆腐，满足多样化的餐食需求。\n提交肉末烧豆腐*100",
+		task_desc = "다진 고기 두부볶음을 만들어 다양한 식사를 실현하자. \n다진 고기 두부볶음×100 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6029,7 +6158,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6063,9 +6192,9 @@ pg.base.island_task = {
 	[80001014] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "拿铁时光",
+		name = "라떼 타임",
 		type = 8,
-		task_desc = "提供香醇拿铁，提高开发人员的工作热情。\n提交拿铁*100",
+		task_desc = "라떼를 제공해서 작업 의욕을 고취시키자. \n라떼×100 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6074,7 +6203,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6108,9 +6237,9 @@ pg.base.island_task = {
 	[80001015] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "禽肉快炒",
+		name = "고기 볶기",
 		type = 8,
-		task_desc = "供应爆炒禽肉，美味餐点，高效开发。\n提交爆炒禽肉*100",
+		task_desc = "닭고기 볶음을 공급해서 맛있고 효율적인 식사를 지원하자. \n닭고기 볶음×100 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6119,7 +6248,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6153,9 +6282,9 @@ pg.base.island_task = {
 	[80001016] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "便携快餐",
+		name = "효율적인 식사",
 		type = 8,
-		task_desc = "便捷的餐食选择，确保开发人员精力充沛。\n提交汉堡肉饭*50",
+		task_desc = "간편한 햄버그 덮밥으로 활력을 유지하자. \n햄버그 덮밥×50 제출",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6164,7 +6293,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6198,9 +6327,9 @@ pg.base.island_task = {
 	[80001017] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "首次接收",
+		name = "첫 수령",
 		type = 8,
-		task_desc = "成功领取第一份日常补给。\n接收1次日常补给",
+		task_desc = "처음으로 일상 보급을 수령하자. \n일상 보급 1회 수령",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6209,7 +6338,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6233,9 +6362,9 @@ pg.base.island_task = {
 	[80001018] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "稳定入库",
+		name = "안정적인 납품",
 		type = 8,
-		task_desc = "稳定接收三批日常补给，仓库渐丰。\n接收5次日常补给",
+		task_desc = "세 번의 일상 보급으로 창고가 점점 풍족해지고 있다. \n일상 보급 5회 수령",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6244,7 +6373,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6273,9 +6402,9 @@ pg.base.island_task = {
 	[80001019] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "定期补给",
+		name = "일상적인 보급",
 		type = 8,
-		task_desc = "规律性地接收补给已成习惯。\n接收10次日常补给",
+		task_desc = "일상 보급을 수령하는 게 어느새 하루의 일과가 되었다. \n일상 보급 10회 수령",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6284,7 +6413,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6313,9 +6442,9 @@ pg.base.island_task = {
 	[80001020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "高效接收",
+		name = "고효율 납품",
 		type = 8,
-		task_desc = "补给的接收工作高效顺畅！\n接收20次日常补给",
+		task_desc = "보급 수령을 보다 효율적이고 매끄럽게! \n일상 보급 20회 수령",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6324,7 +6453,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6353,9 +6482,9 @@ pg.base.island_task = {
 	[80001021] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "补给充足",
+		name = "여유로운 재고",
 		type = 8,
-		task_desc = "储备丰厚，底气十足！\n接收30次日常补给",
+		task_desc = "든든한 비축 덕분에 마음이 여유롭다. \n일상 보급 30회 수령",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6364,7 +6493,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6393,9 +6522,9 @@ pg.base.island_task = {
 	[80001022] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "永续储备",
+		name = "비축은 영원하리",
 		type = 8,
-		task_desc = "源源不断的补给已成为开发区重要的物资来源。\n接收45次日常补给",
+		task_desc = "끊임없는 물자 보급이 아일랜드의 중요한 자원이 되어주고 있다. \n일상 보급 45회 수령",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6404,7 +6533,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6433,9 +6562,9 @@ pg.base.island_task = {
 	[80001023] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "发展根基",
+		name = "발전의 토대",
 		type = 8,
-		task_desc = "日复一日的积累，已成为开发区发展的根基。\n接收60次日常补给",
+		task_desc = "하루하루 쌓인 보급이 아일랜드 개발의 기반을 이루고 있다. \n일상 보급 60회 수령",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6444,7 +6573,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6478,9 +6607,9 @@ pg.base.island_task = {
 	[80001024] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "初识订单",
+		name = "첫 의뢰",
 		type = 8,
-		task_desc = "对岛屿订单有了初步认知。\n交付10次岛屿订单",
+		task_desc = "아일랜드 의뢰에 대해 조금이나마 이해하게 되었다. \n아일랜드 의뢰 10회 완료",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6489,7 +6618,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6513,9 +6642,9 @@ pg.base.island_task = {
 	[80001025] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "稳定交付",
+		name = "안정적인 의뢰",
 		type = 8,
-		task_desc = "稳定且持续地交付岛屿订单。\n交付30次岛屿订单",
+		task_desc = "안정적으로 의뢰가 이어지고 있다. \n아일랜드 의뢰 30회 완료",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6524,7 +6653,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6553,9 +6682,9 @@ pg.base.island_task = {
 	[80001026] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "坚实后盾",
+		name = "건실한 지원군",
 		type = 8,
-		task_desc = "岛屿开发建设不可或缺的可靠力量。\n交付50次岛屿订单",
+		task_desc = "아일랜드 개발에 있어서 빼놓을 수 없는 존재가 되었다. \n아일랜드 의뢰 50회 완료",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6564,7 +6693,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6593,9 +6722,9 @@ pg.base.island_task = {
 	[80001027] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "订单专家",
+		name = "의뢰 전문가",
 		type = 8,
-		task_desc = "对大家的需求了如指掌，总能精准高效地满足。\n交付100次岛屿订单",
+		task_desc = "동료들의 수요를 정확히 파악해 효율적으로 해결하고 있다. \n아일랜드 의뢰 100회 완료",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6604,7 +6733,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6633,9 +6762,9 @@ pg.base.island_task = {
 	[80001028] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "发展支柱",
+		name = "발전의 기둥",
 		type = 8,
-		task_desc = "持续的支援是岛屿发展的关键动力。\n交付150次岛屿订单",
+		task_desc = "끊임없는 지원이야말로 개발을 이끄는 원동력. \n아일랜드 의뢰 150회 완료",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6644,7 +6773,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6673,9 +6802,9 @@ pg.base.island_task = {
 	[80001029] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "开发核心",
+		name = "발전의 중심",
 		type = 8,
-		task_desc = "大家心中最重要、最值得依赖的人。\n交付200次岛屿订单",
+		task_desc = "모두가 가장 믿고 의지하는 존재가 되었다. \n아일랜드 의뢰 200회 완료",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6684,7 +6813,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6718,9 +6847,9 @@ pg.base.island_task = {
 	[80001030] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "繁荣之基",
+		name = "번영의 기반",
 		type = 8,
-		task_desc = "承载开发的重任，托起繁荣的未来。\n交付300次岛屿订单",
+		task_desc = "개발의 책임을 지고 번영하는 미래를 실현하고 있다. \n아일랜드 의뢰 300회 완료",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6729,7 +6858,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
-		unlock_time = "always",
+		unlock_time = "stop",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -6760,26 +6889,1311 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[80001101] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "밭 지키기",
+		type = 8,
+		task_desc = "아일랜드 창고에 밀을 공급해서 기초 식량을 확보하자. \n밀×500 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001101,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011001
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001102] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "애니멀 푸드",
+		type = 8,
+		task_desc = "목장에 신선한 목초를 공급해서 동물들의 기초 수요를 충족시키자. \n목초×500 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001102,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011002
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001103] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "콩 공급 개척",
+		type = 8,
+		task_desc = "단백질이 풍부한 대두를 공급해서 가공 원료를 보충하자. \n대두×500 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001103,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011003
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001104] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "쌀 생산",
+		type = 8,
+		task_desc = "안정된 주식 공급이야말로 개발 작업의 기반. \n쌀×500 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001104,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011004
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001105] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "황금 곡창",
+		type = 8,
+		task_desc = "옥수수를 대량으로 공급해서 식재료의 다양화를 꾀하자. \n옥수수×500 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001105,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011005
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001106] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "활기찬 주황빛",
+		type = 8,
+		task_desc = "당근 공급으로 비타민을 보충시켜서 아일랜드의 건강을 도모하자. \n당근×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001106,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011006
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001107] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "우유 보급",
+		type = 8,
+		task_desc = "우유를 공급해서 칼슘을 보충하자. \n우유×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001107,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011007
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001108] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "스위트 엔진",
+		type = 8,
+		task_desc = "사과 주스를 제공해서 개발 효율을 향상시키자. \n사과 주스×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001108,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011008
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001109] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "커피 공급",
+		type = 8,
+		task_desc = "아이스 커피로 개발 직원들의 작업 효율을 유지시키자. \n아이스 커피×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001109,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011009
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001110] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "고기 파워",
+		type = 8,
+		task_desc = "숯불고기 꼬치를 제공해서 스태미나를 빠르게 회복시키자. \n숯불고기 꼬치×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001110,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011010
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001111] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "맛내기의 기본",
+		type = 8,
+		task_desc = "양파를 공급해서 요리에 풍미를 더하자. \n양파×100 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001111,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011011
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001112] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "건강한 한 상",
+		type = 8,
+		task_desc = "야채 샐러드를 만들어 균형 잡힌 식사를 제공하자. \n야채 샐러드×100 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001112,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011012
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001113] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "영양 세트",
+		type = 8,
+		task_desc = "두꺼운 당근 계란말이를 만들어 다양한 식사를 실현하자. \n두꺼운 당근 계란말이×100 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001113,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001114] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "라떼 타임",
+		type = 8,
+		task_desc = "라떼를 제공해서 작업 의욕을 고취시키자. \n라떼×100 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001114,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001115] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "고기 볶기",
+		type = 8,
+		task_desc = "닭고기 볶음을 공급해서 맛있고 효율적인 식사를 지원하자. \n닭고기 볶음×100 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001115,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011015
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001116] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "효율적인 식사",
+		type = 8,
+		task_desc = "간편한 햄버그 덮밥으로 활력을 유지하자. \n햄버그 덮밥×50 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001116,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011016
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001117] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "첫 수령",
+		type = 8,
+		task_desc = "처음으로 일상 보급을 수령하자. \n일상 보급 1회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001117,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011017
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001118] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "안정적인 납품",
+		type = 8,
+		task_desc = "일상 보급으로 창고가 점점 풍족해지고 있다. \n일상 보급 5회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001118,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001119] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "일상적인 보급",
+		type = 8,
+		task_desc = "일상 보급을 수령하는 게 어느새 하루의 일과가 되었다. \n일상 보급 10회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001119,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001120] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "고효율 납품",
+		type = 8,
+		task_desc = "보급 수령을 보다 효율적이고 매끄럽게! \n일상 보급 20회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001120,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011020
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001121] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여유로운 재고",
+		type = 8,
+		task_desc = "든든한 비축 덕분에 마음이 여유롭다. \n일상 보급 30회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001121,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011021
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	},
+	[80001122] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "비축은 영원하리",
+		type = 8,
+		task_desc = "끊임없는 물자 보급이 아일랜드의 중요한 자원이 되어주고 있다. \n일상 보급 45회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001122,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011022
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				3
+			}
+		}
+	},
+	[80001123] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "발전의 토대",
+		type = 8,
+		task_desc = "하루하루 쌓인 보급이 아일랜드 개발의 기반을 이루고 있다. \n일상 보급 60회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001123,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011023
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001124] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "첫 의뢰",
+		type = 8,
+		task_desc = "아일랜드 의뢰에 대해 조금이나마 이해하게 되었다. \n아일랜드 의뢰 10회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001124,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011024
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001125] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "안정적인 의뢰",
+		type = 8,
+		task_desc = "안정적으로 의뢰가 이어지고 있다. \n아일랜드 의뢰 30회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001125,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011025
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001126] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "건실한 지원군",
+		type = 8,
+		task_desc = "아일랜드 개발에 있어서 빼놓을 수 없는 존재가 되었다. \n아일랜드 의뢰 50회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001126,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011026
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001127] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "의뢰 전문가",
+		type = 8,
+		task_desc = "동료들의 수요를 정확히 파악해 효율적으로 해결하고 있다. \n아일랜드 의뢰 100회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001127,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011027
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001128] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "발전의 기둥",
+		type = 8,
+		task_desc = "끊임없는 지원이야말로 개발을 이끄는 원동력. \n아일랜드 의뢰 150회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001128,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011028
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				5
+			}
+		}
+	},
+	[80001129] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "발전의 중심",
+		type = 8,
+		task_desc = "모두가 가장 믿고 의지하는 존재가 되었다. \n아일랜드 의뢰 200회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001129,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011029
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001130] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "번영의 기반",
+		type = 8,
+		task_desc = "개발의 책임을 지고 번영하는 미래를 실현하고 있다. \n아일랜드 의뢰 300회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001130,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011030
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
 	[20001001] = {
 		trigger_data = 10040002,
 		trigger_tips = 1,
-		name = "森林里的声音",
+		name = "숲속에서 나는 소리",
 		type = 2,
-		task_desc = "森林中为什么会有惨叫声呢……奥布莱恩很害怕。",
+		task_desc = "왜 숲속에서 비명 소리가…… 오브라이언이 두려움에 떨고 있다.",
 		map_trigger_tips = 1004,
 		complete_type = 1,
 		trigger_type = 1,
 		com_page = "",
 		complete_data = 10040002,
 		reward_exp = 0,
-		complete_tips = "回去告诉奥布莱恩吧(0/1)",
+		complete_tips = "돌아가서 오브라이언에게 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
 		map_complete_tips = 1004,
 		rec_perform = "ISLANDSIDE00101",
-		series_name = "有压力才有弯折的铁轨",
+		series_name = "끊어진 레일",
 		id = 20001001,
 		unlock_condition = {
 			{
@@ -6800,9 +8214,9 @@ pg.base.island_task = {
 	[20001002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "效率致胜",
+		name = "효율은 곧 승리",
 		type = 2,
-		task_desc = "效率致胜，伐木工作的精妙之处在于精神起来！",
+		task_desc = "효율이야 말로 승리를 이끄는 열쇠! 벌목 작업의 핵심은 정신 집중이다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -6816,7 +8230,7 @@ pg.base.island_task = {
 		navigation = 0,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "有压力才有弯折的铁轨",
+		series_name = "끊어진 레일",
 		id = 20001002,
 		unlock_condition = {
 			{
@@ -6848,9 +8262,9 @@ pg.base.island_task = {
 	[20001003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "效率致胜",
+		name = "효율은 곧 승리",
 		type = 2,
-		task_desc = "效率致胜，伐木工作的精妙之处在于精神起来！",
+		task_desc = "효율이야 말로 승리를 이끄는 열쇠! 벌목 작업의 핵심은 정신 집중이다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -6865,7 +8279,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "有压力才有弯折的铁轨",
+		series_name = "끊어진 레일",
 		id = 20001003,
 		unlock_condition = {
 			{
@@ -6882,9 +8296,9 @@ pg.base.island_task = {
 	[20001004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "叮咚——嘭！",
+		name = "덜컹! 펑!",
 		type = 2,
-		task_desc = "远处传来了叮咚——嘭！的一声，发生什么了？",
+		task_desc = "멀리서 이상한 소리가 들렸다. 무슨 일이 일어난 걸까?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -6899,7 +8313,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "有压力才有弯折的铁轨",
+		series_name = "끊어진 레일",
 		id = 20001004,
 		unlock_condition = {
 			{
@@ -6916,9 +8330,9 @@ pg.base.island_task = {
 	[20001005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "折断的铁轨",
+		name = "끊어진 레일",
 		type = 2,
-		task_desc = "原来是高强度的工作把矿山的铁轨都压折了……",
+		task_desc = "아무래도 과도한 작업량 때문에 광산의 레일이 파손된 모양이다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -6933,7 +8347,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "有压力才有弯折的铁轨",
+		series_name = "끊어진 레일",
 		id = 20001005,
 		unlock_condition = {
 			{
@@ -6950,23 +8364,23 @@ pg.base.island_task = {
 	[20001006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "临时轨道",
+		name = "임시 레일",
 		type = 2,
-		task_desc = "暂时如此，临时如此……总之先如此，干完再说。",
+		task_desc = "일단은 이렇게 해두고 다음은 일을 마치고 난 다음에 생각하자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040002,
 		reward_exp = 0,
-		complete_tips = "快拿给奥布莱恩吧(0/1)",
+		complete_tips = "서둘러 오브라이언에게 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1004,
 		rec_perform = "",
-		series_name = "有压力才有弯折的铁轨",
+		series_name = "끊어진 레일",
 		id = 20001006,
 		unlock_condition = {
 			{
@@ -6998,9 +8412,9 @@ pg.base.island_task = {
 	[20001007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "今天必须完成",
+		name = "오늘은 꼭 완성하리라",
 		type = 2,
-		task_desc = "加工好的木轨，重新启动的矿车。",
+		task_desc = "임시 레일이 가설되어 광차가 움직이기 시작했다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7015,7 +8429,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "有压力才有弯折的铁轨",
+		series_name = "끊어진 레일",
 		id = 20001007,
 		unlock_condition = {
 			{
@@ -7032,23 +8446,23 @@ pg.base.island_task = {
 	[20001008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "最后的矿石",
+		name = "마지막 광석",
 		type = 2,
-		task_desc = "进度被耽误了，要跟不上了……怎么办！",
+		task_desc = "진척이 너무 느려서 따라잡을 수 없을 것 같다…… 이를 어쩌지!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040022,
 		reward_exp = 0,
-		complete_tips = "告诉乔安可以休息了(0/1)",
+		complete_tips = "조안에게 쉬라고 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1004,
 		rec_perform = "",
-		series_name = "有压力才有弯折的铁轨",
+		series_name = "끊어진 레일",
 		id = 20001008,
 		unlock_condition = {
 			{
@@ -7080,9 +8494,9 @@ pg.base.island_task = {
 	[20001009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "河岸音符",
+		name = "강가의 선율",
 		type = 2,
-		task_desc = "河岸边也传来了愉悦的歌声，是谁的工作也做完了呢？",
+		task_desc = "강가에서 즐거운 노랫소리가 들려왔다. 누가 일을 마치고 부르는 건가?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7096,7 +8510,7 @@ pg.base.island_task = {
 		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "有压力才有弯折的铁轨",
+		series_name = "끊어진 레일",
 		id = 20001009,
 		unlock_condition = {
 			{
@@ -7138,9 +8552,9 @@ pg.base.island_task = {
 	[20002001] = {
 		trigger_data = 10020009,
 		trigger_tips = 1,
-		name = "装饰画",
+		name = "장식용 그림",
 		type = 2,
-		task_desc = "听说有人收藏了装饰画……你说对吧帕特莉？",
+		task_desc = "누가 장식용 그림을 모은다고 하던데…",
 		map_trigger_tips = 1002,
 		complete_type = 2,
 		trigger_type = 1,
@@ -7155,7 +8569,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE00201",
 		com_perform = "",
-		series_name = "写生计划",
+		series_name = "스케치 계획",
 		id = 20002001,
 		unlock_condition = {
 			{
@@ -7172,9 +8586,9 @@ pg.base.island_task = {
 	[20002002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "写生内容",
+		name = "스케치 내용",
 		type = 2,
-		task_desc = "如何抓住一闪而逝的灵感呢~",
+		task_desc = "어떻게 해야 순간적인 영감을 캐치할 수 있을까?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7189,7 +8603,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "写生计划",
+		series_name = "스케치 계획",
 		id = 20002002,
 		unlock_condition = {
 			{
@@ -7206,23 +8620,23 @@ pg.base.island_task = {
 	[20002003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "收集建议",
+		name = "의견 모으기",
 		type = 2,
-		task_desc = "多听听别人的建议是很有帮助的！",
+		task_desc = "다른 사람의 의견을 듣는 것도 중요하다.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020009,
 		reward_exp = 0,
-		complete_tips = "回去告诉帕特莉吧(0/1)",
+		complete_tips = "돌아가서 패트리에게 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		series_name = "写生计划",
+		series_name = "스케치 계획",
 		id = 20002003,
 		unlock_condition = {
 			{
@@ -7243,23 +8657,23 @@ pg.base.island_task = {
 	[20002004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "画笔制作",
+		name = "화필 제작",
 		type = 2,
-		task_desc = "画师的笔如同舰船的炮！",
+		task_desc = "화가의 붓은 군함의 함포와도 같은 것!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020009,
 		reward_exp = 0,
-		complete_tips = "把画笔拿给帕特莉吧(0/1)",
+		complete_tips = "화필을 패트리에게 가져다 주기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		series_name = "写生计划",
+		series_name = "스케치 계획",
 		id = 20002004,
 		unlock_condition = {
 			{
@@ -7280,23 +8694,23 @@ pg.base.island_task = {
 	[20002005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "画框制作",
+		name = "액자 제작",
 		type = 2,
-		task_desc = "绘画作品也讲究门当户对~",
+		task_desc = "그림도 액자가 잘 맞아야 빛나는 법!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040002,
 		reward_exp = 0,
-		complete_tips = "去找奥布莱恩制作画框吧(0/1)",
+		complete_tips = "오브라이언이 있는 곳으로 가서 액자 만들기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1004,
 		rec_perform = "",
-		series_name = "写生计划",
+		series_name = "스케치 계획",
 		id = 20002005,
 		unlock_condition = {
 			{
@@ -7317,9 +8731,9 @@ pg.base.island_task = {
 	[20002006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "报酬",
+		name = "보상",
 		type = 2,
-		task_desc = "带着心意的画就该配上用心制作的画框！",
+		task_desc = "마음이 담긴 그림은 정성껏 만든 액자에 넣어야 해!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7334,7 +8748,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "写生计划",
+		series_name = "스케치 계획",
 		id = 20002006,
 		unlock_condition = {
 			{
@@ -7372,9 +8786,9 @@ pg.base.island_task = {
 	[20003001] = {
 		trigger_data = 10070025,
 		trigger_tips = 1,
-		name = "服务器的焦香味",
+		name = "서버 타는 냄새",
 		type = 2,
-		task_desc = "岛屿基地的服务器似乎停止工作了。",
+		task_desc = "아일랜드 기지의 서버가 멈춘 것 같다.",
 		map_trigger_tips = 1007,
 		complete_type = 2,
 		trigger_type = 1,
@@ -7389,7 +8803,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE00301",
 		com_perform = "",
-		series_name = "服务器宕机了？",
+		series_name = "서버 다운?",
 		id = 20003001,
 		unlock_condition = {
 			{
@@ -7406,23 +8820,23 @@ pg.base.island_task = {
 	[20003002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "修复的原材料",
+		name = "수리용 재료",
 		type = 2,
-		task_desc = "服务器宕机的原因调查清楚了，去找布莱梅吧。",
+		task_desc = "서버가 다운된 원인을 찾았다. 브레멘이 있는 곳으로 가자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040022,
 		reward_exp = 0,
-		complete_tips = "去找乔安吧(0/1)",
+		complete_tips = "조안이 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1004,
 		rec_perform = "",
-		series_name = "服务器宕机了？",
+		series_name = "서버 다운?",
 		id = 20003002,
 		unlock_condition = {
 			{
@@ -7443,23 +8857,23 @@ pg.base.island_task = {
 	[20003003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "寻找零件",
+		name = "부품 찾기",
 		type = 2,
-		task_desc = "维修服务器的乔安似乎遇到了困难。",
+		task_desc = "서버를 수리하는 조안이 난관에 부딪힌 것 같다.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040022,
 		reward_exp = 0,
-		complete_tips = "回去找乔安吧(0/1)",
+		complete_tips = "돌아가서 조안이 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
 		map_complete_tips = 1004,
 		rec_perform = "",
-		series_name = "服务器宕机了？",
+		series_name = "서버 다운?",
 		id = 20003003,
 		unlock_condition = {
 			{
@@ -7480,9 +8894,9 @@ pg.base.island_task = {
 	[20003004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "开服！",
+		name = "서버 가동!",
 		type = 2,
-		task_desc = "服务器电力系统的维修终于完成了。",
+		task_desc = "서버의 전력 시스템 수리가 끝났다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7497,7 +8911,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "服务器宕机了？",
+		series_name = "서버 다운?",
 		id = 20003004,
 		unlock_condition = {
 			{
@@ -7535,7 +8949,7 @@ pg.base.island_task = {
 	[20004000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "提升开发等级",
+		name = "개발 등급 올리기",
 		type = 2,
 		task_desc = "前置",
 		map_trigger_tips = 0,
@@ -7552,7 +8966,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "提升开发等级",
+		series_name = "개발 등급 올리기",
 		id = 20004000,
 		unlock_condition = {
 			{
@@ -7575,9 +8989,9 @@ pg.base.island_task = {
 	[20004001] = {
 		trigger_data = 10060002,
 		trigger_tips = 1,
-		name = "来自管理员的问候",
+		name = "관리자의 인사",
 		type = 2,
-		task_desc = "新餐品对商区可是非常重要的！",
+		task_desc = "새로운 요리는 상업 지구에 있어서 매우 중요하다!",
 		map_trigger_tips = 1006,
 		complete_type = 2,
 		trigger_type = 1,
@@ -7592,7 +9006,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE00401",
 		com_perform = "",
-		series_name = "商区招牌餐！",
+		series_name = "대표 메뉴!",
 		id = 20004001,
 		unlock_condition = {
 			{
@@ -7609,23 +9023,23 @@ pg.base.island_task = {
 	[20004002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "新品研发要诀",
+		name = "신제품 개발 비결",
 		type = 2,
-		task_desc = "吃久了难免单调，要试试研发新口味吗？",
+		task_desc = "똑같은 걸 오래 먹으면 누구든 질리기 마련이다. 새로운 맛을 개발해보면 어떨까?",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 0,
-		complete_tips = "去找布莱梅吧(0/1)",
+		complete_tips = "브레멘이 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1009,
 		rec_perform = "",
-		series_name = "商区招牌餐！",
+		series_name = "대표 메뉴!",
 		id = 20004002,
 		unlock_condition = {
 			{
@@ -7646,9 +9060,9 @@ pg.base.island_task = {
 	[20004003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区的新招牌",
+		name = "상업 지구의 새 명물",
 		type = 2,
-		task_desc = "新的餐品制作完毕，快去给阿莫玛一个惊喜吧。",
+		task_desc = "새로운 창작 요리를 만들었다. 서둘러 아모마가 있는 곳으로 가서 놀라게 해주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7663,7 +9077,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "商区招牌餐！",
+		series_name = "대표 메뉴!",
 		id = 20004003,
 		unlock_condition = {
 			{
@@ -7701,9 +9115,9 @@ pg.base.island_task = {
 	[20005001] = {
 		trigger_data = 10090008,
 		trigger_tips = 1,
-		name = "闹鬼传闻",
+		name = "유령 소동",
 		type = 2,
-		task_desc = "夜深人静的牧场，似乎经常会传出奇怪的动静！",
+		task_desc = "늦은 밤마다 목장에서 기묘한 소리가 자주 들린다고 한다.",
 		map_trigger_tips = 1009,
 		complete_type = 2,
 		trigger_type = 1,
@@ -7718,7 +9132,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE00501",
 		com_perform = "",
-		series_name = "闹鬼？看我让你现出真身！",
+		series_name = "유령? 내가 정체를 밝혀주마!",
 		id = 20005001,
 		unlock_condition = {
 			{
@@ -7735,9 +9149,9 @@ pg.base.island_task = {
 	[20005002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "深夜的铃铛",
+		name = "심야의 방울 소리",
 		type = 2,
-		task_desc = "叮当声在夜晚中回荡……但至少不是来自迷雾。",
+		task_desc = "한밤 중에 방울 소리가 울린다. 안개 속에서 나는 소리는 아닌 듯하다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7751,7 +9165,7 @@ pg.base.island_task = {
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "闹鬼？看我让你现出真身！",
+		series_name = "유령? 내가 정체를 밝혀주마!",
 		id = 20005002,
 		unlock_condition = {
 			{
@@ -7772,9 +9186,9 @@ pg.base.island_task = {
 	[20005003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "深夜的铃铛",
+		name = "심야의 방울 소리",
 		type = 2,
-		task_desc = "叮当声在夜晚中回荡……但至少不是来自迷雾。",
+		task_desc = "한밤 중에 방울 소리가 울린다. 안개 속에서 나는 소리는 아닌 듯하다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7789,7 +9203,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "闹鬼？看我让你现出真身！",
+		series_name = "유령? 내가 정체를 밝혀주마!",
 		id = 20005003,
 		unlock_condition = {
 			{
@@ -7806,9 +9220,9 @@ pg.base.island_task = {
 	[20005004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "另一阵怪声",
+		name = "또 다른 이상한 소리",
 		type = 2,
-		task_desc = "来不及为解决一件怪事而欢呼，接下来登场的是另一件怪事！",
+		task_desc = "사건을 해결했다고 기뻐할 틈도 없이 다른 기묘한 사건이 일어났다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7823,7 +9237,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "闹鬼？看我让你现出真身！",
+		series_name = "유령? 내가 정체를 밝혀주마!",
 		id = 20005004,
 		unlock_condition = {
 			{
@@ -7840,23 +9254,23 @@ pg.base.island_task = {
 	[20005005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "是谁在深夜敲打？",
+		name = "한밤중에 누가 두드리는 거야?",
 		type = 2,
-		task_desc = "只是听到了怪声，也好。",
+		task_desc = "그냥 이상한 소리일 뿐인가? 뭐, 그럴 수도 있지.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 0,
-		complete_tips = "回去找梅莉吧(0/1)",
+		complete_tips = "돌아가서 메리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
 		map_complete_tips = 1001,
 		rec_perform = "",
-		series_name = "闹鬼？看我让你现出真身！",
+		series_name = "유령? 내가 정체를 밝혀주마!",
 		id = 20005005,
 		unlock_condition = {
 			{
@@ -7877,9 +9291,9 @@ pg.base.island_task = {
 	[20005006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "短腿鬼影",
+		name = "숏다리 그림자",
 		type = 2,
-		task_desc = "像这样的怪事，果然有二就会有三。",
+		task_desc = "역시 이런 괴상한 일은 한 번으로 끝나지 않는 법.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7894,7 +9308,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "闹鬼？看我让你现出真身！",
+		series_name = "유령? 내가 정체를 밝혀주마!",
 		id = 20005006,
 		unlock_condition = {
 			{
@@ -7911,9 +9325,9 @@ pg.base.island_task = {
 	[20005007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "捉鬼专家",
+		name = "유령 퇴치 전문가",
 		type = 2,
-		task_desc = "一连串怪事的始作俑者……究竟是？！",
+		task_desc = "이 괴이한 사건들의 배후는… 대체 누구지? !",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7928,7 +9342,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "闹鬼？看我让你现出真身！",
+		series_name = "유령? 내가 정체를 밝혀주마!",
 		id = 20005007,
 		unlock_condition = {
 			{
@@ -7945,9 +9359,9 @@ pg.base.island_task = {
 	[20005008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "捉鬼专家",
+		name = "유령 퇴치 전문가",
 		type = 2,
-		task_desc = "一连串怪事的始作俑者……究竟是？！",
+		task_desc = "이 괴이한 사건들의 배후는… 대체 누구지? !",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7961,7 +9375,7 @@ pg.base.island_task = {
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "闹鬼？看我让你现出真身！",
+		series_name = "유령? 내가 정체를 밝혀주마!",
 		id = 20005008,
 		unlock_condition = {
 			{
@@ -7982,9 +9396,9 @@ pg.base.island_task = {
 	[20005009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "捉鬼专家",
+		name = "유령 퇴치 전문가",
 		type = 2,
-		task_desc = "一连串怪事的始作俑者……究竟是？！",
+		task_desc = "이 괴이한 사건들의 배후는… 대체 누구지? !",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -7999,7 +9413,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "闹鬼？看我让你现出真身！",
+		series_name = "유령? 내가 정체를 밝혀주마!",
 		id = 20005009,
 		unlock_condition = {
 			{
@@ -8037,9 +9451,9 @@ pg.base.island_task = {
 	[20006001] = {
 		trigger_data = 10010003,
 		trigger_tips = 1,
-		name = "羊丢了！！",
+		name = "양이 사라졌다! !",
 		type = 2,
-		task_desc = "羊群追踪任务开启！",
+		task_desc = "양떼 추적 임무! 개시!",
 		map_trigger_tips = 1001,
 		complete_type = 2,
 		trigger_type = 1,
@@ -8054,7 +9468,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE00601",
 		com_perform = "",
-		series_name = "羊群大追捕",
+		series_name = "양떼 대추격",
 		id = 20006001,
 		unlock_condition = {
 			{
@@ -8071,9 +9485,9 @@ pg.base.island_task = {
 	[20006002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "仔细调查",
+		name = "꼼꼼한 조사",
 		type = 2,
-		task_desc = "跟着脚印你就能找到……",
+		task_desc = "발자국을 따라가면 찾을 수 있으려나?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8088,7 +9502,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "羊群大追捕",
+		series_name = "양떼 대추격",
 		id = 20006002,
 		unlock_condition = {
 			{
@@ -8105,9 +9519,9 @@ pg.base.island_task = {
 	[20006003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "仔细调查",
+		name = "꼼꼼한 조사",
 		type = 2,
-		task_desc = "跟着脚印你就能找到……",
+		task_desc = "발자국을 따라가면 찾을 수 있으려나?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8121,7 +9535,7 @@ pg.base.island_task = {
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "羊群大追捕",
+		series_name = "양떼 대추격",
 		id = 20006003,
 		unlock_condition = {
 			{
@@ -8142,23 +9556,23 @@ pg.base.island_task = {
 	[20006004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "找到你了！",
+		name = "찾았다!",
 		type = 2,
-		task_desc = "躲在林子里的咩咩羊！回去吧！",
+		task_desc = "숲속에 숨어 있는 메메양을 찾았다! 데리고 돌아가자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 0,
-		complete_tips = "回去找梅莉吧(0/1)",
+		complete_tips = "돌아가서 메리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
 		map_complete_tips = 1001,
 		rec_perform = "",
-		series_name = "羊群大追捕",
+		series_name = "양떼 대추격",
 		id = 20006004,
 		unlock_condition = {
 			{
@@ -8179,9 +9593,9 @@ pg.base.island_task = {
 	[20006005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "目击者",
+		name = "목격자",
 		type = 2,
-		task_desc = "找线索最重要的一环就是找目击者！",
+		task_desc = "단서를 찾을 때 가장 중요한 건 목격자를 찾는 것!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8196,7 +9610,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "羊群大追捕",
+		series_name = "양떼 대추격",
 		id = 20006005,
 		unlock_condition = {
 			{
@@ -8213,9 +9627,9 @@ pg.base.island_task = {
 	[20006006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "追到了！！",
+		name = "따라잡았다!!",
 		type = 2,
-		task_desc = "找到羊群啦，快去把咩咩羊都带回去吧。",
+		task_desc = "양떼를 찾았다. 서둘러 메메양을 데리고 돌아가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8229,7 +9643,7 @@ pg.base.island_task = {
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "羊群大追捕",
+		series_name = "양떼 대추격",
 		id = 20006006,
 		unlock_condition = {
 			{
@@ -8250,9 +9664,9 @@ pg.base.island_task = {
 	[20006007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "追到了！！",
+		name = "따라잡았다!!",
 		type = 2,
-		task_desc = "找到羊群啦，快去把咩咩羊都带回去吧。",
+		task_desc = "양떼를 찾았다. 서둘러 메메양을 데리고 돌아가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8266,7 +9680,7 @@ pg.base.island_task = {
 		navigation = 1001,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "羊群大追捕",
+		series_name = "양떼 대추격",
 		id = 20006007,
 		unlock_condition = {
 			{
@@ -8289,9 +9703,9 @@ pg.base.island_task = {
 	[20006008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "追到了！！",
+		name = "따라잡았다!!",
 		type = 2,
-		task_desc = "找到羊群啦，快去把咩咩羊都带回去吧。",
+		task_desc = "양떼를 찾았다. 서둘러 메메양을 데리고 돌아가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8306,7 +9720,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "羊群大追捕",
+		series_name = "양떼 대추격",
 		id = 20006008,
 		unlock_condition = {
 			{
@@ -8323,23 +9737,23 @@ pg.base.island_task = {
 	[20006009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "加固围栏",
+		name = "울타리 보강",
 		type = 2,
-		task_desc = "追踪任务圆满完成，接下来是预防时间！",
+		task_desc = "추적 임무는 끝났다. 이제는 재발 방지 대책을 실행할 때다!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 100,
-		complete_tips = "回去找梅莉吧(0/1)",
+		complete_tips = "돌아가서 메리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1001,
 		rec_perform = "",
-		series_name = "羊群大追捕",
+		series_name = "양떼 대추격",
 		id = 20006009,
 		unlock_condition = {
 			{
@@ -8376,23 +9790,23 @@ pg.base.island_task = {
 	[20007001] = {
 		trigger_data = 10040057,
 		trigger_tips = 1,
-		name = "被困墙内的无名氏",
+		name = "벽에 갇힌 누군가",
 		type = 2,
-		task_desc = "发现了被困在墙内的无名氏，帮她清除附近的蜜蜂吧。",
+		task_desc = "벽 속에 누군가 갇힌 듯하다. 근처에 있는 꿀벌을 몰아내 주자.",
 		map_trigger_tips = 1004,
 		complete_type = 1,
 		trigger_type = 1,
 		com_page = "",
 		complete_data = 10040057,
 		reward_exp = 0,
-		complete_tips = "去找墙内的无名氏吧(0/1)",
+		complete_tips = "벽 속에 있는 누군가를 만나러 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
 		map_complete_tips = 1004,
 		rec_perform = "ISLANDSIDE00701",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007001,
 		unlock_condition = {
 			{
@@ -8424,23 +9838,23 @@ pg.base.island_task = {
 	[20007002] = {
 		trigger_data = 10020026,
 		trigger_tips = 1,
-		name = "港口的蜜蜂防治",
+		name = "항구의 꿀벌 구제",
 		type = 2,
-		task_desc = "港口的蜜蜂也不能放过！",
+		task_desc = "항구에 있는 꿀벌도 놓칠 순 없지!",
 		map_trigger_tips = 1002,
 		complete_type = 1,
 		trigger_type = 1,
 		com_page = "",
 		complete_data = 10020026,
 		reward_exp = 0,
-		complete_tips = "去找小车里的无名氏吧(0/1)",
+		complete_tips = "카트 속에 있는 누군가를 만나러 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
 		map_complete_tips = 1002,
 		rec_perform = "ISLANDSIDE00703",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007002,
 		unlock_condition = {
 			{
@@ -8472,23 +9886,23 @@ pg.base.island_task = {
 	[20007003] = {
 		trigger_data = 10010087,
 		trigger_tips = 1,
-		name = "农场的蜜蜂防治",
+		name = "농장의 꿀벌 구제",
 		type = 2,
-		task_desc = "农场的蜜蜂也不能放过！",
+		task_desc = "농장에 있는 꿀벌도 놓칠 순 없지!",
 		map_trigger_tips = 1001,
 		complete_type = 1,
 		trigger_type = 1,
 		com_page = "",
 		complete_data = 10010087,
 		reward_exp = 0,
-		complete_tips = "去找井里的无名氏吧(0/1)",
+		complete_tips = "우물 속에 있는 누군가를 만나러 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
 		map_complete_tips = 1001,
 		rec_perform = "ISLANDSIDE00705",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007003,
 		unlock_condition = {
 			{
@@ -8520,9 +9934,9 @@ pg.base.island_task = {
 	[20007004] = {
 		trigger_data = 10040057,
 		trigger_tips = 1,
-		name = "消除疲劳的蜂蜜水",
+		name = "피로 회복에 좋은 꿀물",
 		type = 2,
-		task_desc = "能够赐予一夜好梦的蜂蜜水……听起来很美味呢？",
+		task_desc = "하룻밤 푹 잘 수 있게 해주는 꿀물. 듣기만 해도 맛있을 것 같다.",
 		map_trigger_tips = 1004,
 		complete_type = 2,
 		trigger_type = 1,
@@ -8537,7 +9951,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE00707",
 		com_perform = "",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007004,
 		unlock_condition = {
 			{
@@ -8554,23 +9968,23 @@ pg.base.island_task = {
 	[20007005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "超美味蜂蜜水配方",
+		name = "맛있는 꿀물 레시피",
 		type = 2,
-		task_desc = "布莱梅珍藏的蜂蜜水配方，就藏在商业街的某个角落！",
+		task_desc = "브레멘의 비장의 꿀물 레시피는 상업 지구 어딘가에 숨겨져 있다!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 0,
-		complete_tips = "回去找布莱梅吧(0/1)",
+		complete_tips = "돌아가서 브레멘이 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
 		map_complete_tips = 1009,
 		rec_perform = "",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007005,
 		unlock_condition = {
 			{
@@ -8591,9 +10005,9 @@ pg.base.island_task = {
 	[20007006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "食材告急！",
+		name = "식재료 부족!",
 		type = 2,
-		task_desc = "布莱梅的蜂蜜水缺少一些食材，去帮她收集一些吧。",
+		task_desc = "브레멘의 꿀물을 만들기에는 재료가 부족하다. 모으는 걸 돕자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8607,7 +10021,7 @@ pg.base.island_task = {
 		navigation = 0,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007006,
 		unlock_condition = {
 			{
@@ -8629,9 +10043,9 @@ pg.base.island_task = {
 	[20007007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "寻找迷迭香",
+		name = "로즈메리를 찾자",
 		type = 2,
-		task_desc = "最后就差迷迭香了，去找阿莫玛问问吧。",
+		task_desc = "이제 남은 건 로즈메리뿐이다. 아모마에게 물어보러 가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8646,7 +10060,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007007,
 		unlock_condition = {
 			{
@@ -8663,9 +10077,9 @@ pg.base.island_task = {
 	[20007008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "寻找迷迭香",
+		name = "로즈메리를 찾자",
 		type = 2,
-		task_desc = "最后就差迷迭香了，去找阿莫玛问问吧。",
+		task_desc = "이제 남은 건 로즈메리뿐이다. 아모마에게 물어보러 가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8679,7 +10093,7 @@ pg.base.island_task = {
 		navigation = 1006,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007008,
 		unlock_condition = {
 			{
@@ -8700,9 +10114,9 @@ pg.base.island_task = {
 	[20007009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "新鲜的食材",
+		name = "신선한 식재료",
 		type = 2,
-		task_desc = "食材获得了布莱梅的肯定，似乎能做成不错的蜂蜜水呢！",
+		task_desc = "식재료로 브레멘의 인정을 받았다. 꽤 훌륭한 꿀물이 만들어질 것 같다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8717,7 +10131,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007009,
 		unlock_condition = {
 			{
@@ -8734,9 +10148,9 @@ pg.base.island_task = {
 	[20007010] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "无名之人",
+		name = "누군가",
 		type = 2,
-		task_desc = "独特的蜂蜜水或许能赋予无名之人现出真身的勇气，快去试试吧！",
+		task_desc = "꿀물로 수수께끼의 존재에게 정체를 드러낼 용기를 줄 수 있을지도 모른다. 어서 전해주러 가자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8751,7 +10165,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "蜜蜂与蜂蜜水与无名之人 ",
+		series_name = "꿀벌, 꿀, 누군가",
 		id = 20007010,
 		unlock_condition = {
 			{
@@ -8784,9 +10198,9 @@ pg.base.island_task = {
 	[20008001] = {
 		trigger_data = 10020009,
 		trigger_tips = 1,
-		name = "紧急订单",
+		name = "긴급 의뢰",
 		type = 2,
-		task_desc = "帕特莉收到了斯蒂芬妮的紧急订单，去看看什么情况吧。",
+		task_desc = "패트리가 스테파니의 긴급 의뢰를 받은 모양이다. 무슨 일인지 확인하러 가자.",
 		map_trigger_tips = 1002,
 		complete_type = 2,
 		trigger_type = 1,
@@ -8801,7 +10215,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE00801",
 		com_perform = "",
-		series_name = "斯蒂芬妮的请求",
+		series_name = "스테파니의 부탁",
 		id = 20008001,
 		unlock_condition = {
 			{
@@ -8818,23 +10232,23 @@ pg.base.island_task = {
 	[20008002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "意外发生",
+		name = "사고 발생",
 		type = 2,
-		task_desc = "港口仓库里少了一批木材，需要紧急补充！",
+		task_desc = "항구 창고에서 목재가 일부 사라졌다. 긴급 보충 필요!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020004,
 		reward_exp = 0,
-		complete_tips = "回去找斯蒂芬妮吧(0/1)",
+		complete_tips = "돌아가서 스테파니가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		series_name = "斯蒂芬妮的请求",
+		series_name = "스테파니의 부탁",
 		id = 20008002,
 		unlock_condition = {
 			{
@@ -8855,23 +10269,23 @@ pg.base.island_task = {
 	[20008003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "风险处理",
+		name = "위기 관리",
 		type = 2,
-		task_desc = "煤炭也丢失了，快去收集一批煤炭交给斯蒂芬妮吧。",
+		task_desc = "석탄도 사라졌다. 어서 모아서 스테파니에게 전달하자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020004,
 		reward_exp = 0,
-		complete_tips = "回去找斯蒂芬妮吧(0/1)",
+		complete_tips = "돌아가서 스테파니가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		series_name = "斯蒂芬妮的请求",
+		series_name = "스테파니의 부탁",
 		id = 20008003,
 		unlock_condition = {
 			{
@@ -8892,9 +10306,9 @@ pg.base.island_task = {
 	[20008004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "订单完成",
+		name = "의뢰 완료",
 		type = 2,
-		task_desc = "紧急订单完成，去找帕特莉汇报吧。",
+		task_desc = "긴급 의뢰를 완료했다. 패트리가 있는 곳으로 가서 보고하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -8909,7 +10323,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "斯蒂芬妮的请求",
+		series_name = "스테파니의 부탁",
 		id = 20008004,
 		unlock_condition = {
 			{
@@ -8942,9 +10356,9 @@ pg.base.island_task = {
 	[20009001] = {
 		trigger_data = 10020004,
 		trigger_tips = 1,
-		name = "神秘委托",
+		name = "이상한 의뢰",
 		type = 2,
-		task_desc = "斯蒂芬妮遇到了奇怪的订单，帮她看看吧。",
+		task_desc = "스테파니에게 이상한 의뢰가 들어온 듯하다. 도와주자.",
 		map_trigger_tips = 1002,
 		complete_type = 2,
 		trigger_type = 1,
@@ -8958,7 +10372,7 @@ pg.base.island_task = {
 		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE00901",
-		series_name = "神秘的订单",
+		series_name = "수수께끼의 의뢰",
 		id = 20009001,
 		unlock_condition = {
 			{
@@ -8983,9 +10397,9 @@ pg.base.island_task = {
 	[20009002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "矿石运输",
+		name = "광석 운송",
 		type = 2,
-		task_desc = "矿石贵重需要包装，去找奥布莱恩吧。",
+		task_desc = "광석을 포장해야 한다. 오브라이언이 있는 곳으로 가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9000,7 +10414,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "神秘的订单",
+		series_name = "수수께끼의 의뢰",
 		id = 20009002,
 		unlock_condition = {
 			{
@@ -9017,9 +10431,9 @@ pg.base.island_task = {
 	[20009003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "{namecode:98:明石}的计划",
+		name = "아카시의 계획",
 		type = 2,
-		task_desc = "拜托奥布莱恩发布秘密委托的人是{namecode:98:明石}，去看看{namecode:98:明石}有什么计划吧。",
+		task_desc = "오브라이언에게 의뢰한 사람은 아카시라고 한다. 무슨 계획을 가지고 있는지 보러 가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9034,7 +10448,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "神秘的订单",
+		series_name = "수수께끼의 의뢰",
 		id = 20009003,
 		unlock_condition = {
 			{
@@ -9051,9 +10465,9 @@ pg.base.island_task = {
 	[20009004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "真相大白",
+		name = "진상 규명",
 		type = 2,
-		task_desc = "原来{namecode:98:明石}想要秘密研究矿石，委托已经调查清楚去给斯蒂芬妮说一声吧。",
+		task_desc = "아카시가 광석을 비밀리에 연구하려던 사실이 드러났다. 현 상황을 스테파니에게 전하러 가자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9068,7 +10482,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "神秘的订单",
+		series_name = "수수께끼의 의뢰",
 		id = 20009004,
 		unlock_condition = {
 			{
@@ -9101,9 +10515,9 @@ pg.base.island_task = {
 	[20010001] = {
 		trigger_data = 10020009,
 		trigger_tips = 1,
-		name = "给帕特莉的礼物",
+		name = "패트리에게 줄 선물",
 		type = 2,
-		task_desc = "想要为辛苦工作的帕特莉做些什么……那要做些什么呢？",
+		task_desc = "열심히 일하는 패트리를 위해 무언가 해주고 싶은데, 뭐가 좋을까?",
 		map_trigger_tips = 1002,
 		complete_type = 2,
 		trigger_type = 1,
@@ -9118,7 +10532,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE01001",
 		com_perform = "",
-		series_name = "畅饮活力",
+		series_name = "활력 음료",
 		id = 20010001,
 		unlock_condition = {
 			{
@@ -9135,23 +10549,23 @@ pg.base.island_task = {
 	[20010002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "倾听心声",
+		name = "상담",
 		type = 2,
-		task_desc = "向帕特莉本人征求了意见，似乎有方向了！",
+		task_desc = "패트리 본인에게 물어본 덕분에 대충 방향성이 잡혔다.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020009,
 		reward_exp = 0,
-		complete_tips = "询问帕特莉的想法(0/1)",
+		complete_tips = "패트리의 생각 묻기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		series_name = "畅饮活力",
+		series_name = "활력 음료",
 		id = 20010002,
 		unlock_condition = {
 			{
@@ -9172,23 +10586,23 @@ pg.base.island_task = {
 	[20010003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "元气的秘诀！",
+		name = "건강의 비결!",
 		type = 2,
-		task_desc = "让梅莉元气满满的秘诀……竟然是运动？！",
+		task_desc = "메리가 늘 활기찬 비결은…… 운동? !",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 0,
-		complete_tips = "找梅莉了解保持元气的秘诀(0/1)",
+		complete_tips = "메리의 건강 유지 비결 묻기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
 		map_complete_tips = 1001,
 		rec_perform = "",
-		series_name = "畅饮活力",
+		series_name = "활력 음료",
 		id = 20010003,
 		unlock_condition = {
 			{
@@ -9209,9 +10623,9 @@ pg.base.island_task = {
 	[20010004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "能量特饮制作中~",
+		name = "에너지 드링크 제작 중",
 		type = 2,
-		task_desc = "田园版能量特调正在制作中——",
+		task_desc = "전원풍 에너지 드링크 제작 중.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9226,7 +10640,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "畅饮活力",
+		series_name = "활력 음료",
 		id = 20010004,
 		unlock_condition = {
 			{
@@ -9243,23 +10657,23 @@ pg.base.island_task = {
 	[20010005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "寻找胡萝卜",
+		name = "당근 찾기",
 		type = 2,
-		task_desc = "新鲜胡萝卜制作的能力特调初版完成，找谁试试效果呢？",
+		task_desc = "신선한 당근으로 에너지 드링크 시제품을 완성했다. 누구에게 시음을 부탁할까?",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 0,
-		complete_tips = "把胡萝卜交给布莱梅",
+		complete_tips = "당근을 브레멘에게 건네기",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
 		map_complete_tips = 1009,
 		rec_perform = "",
-		series_name = "畅饮活力",
+		series_name = "활력 음료",
 		id = 20010005,
 		unlock_condition = {
 			{
@@ -9280,23 +10694,23 @@ pg.base.island_task = {
 	[20010006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "睡得更香了~",
+		name = "쿨쿨!",
 		type = 2,
-		task_desc = "能量特调竟成助眠特调？换配方试试吧！",
+		task_desc = "에너지 드링크에 숙면 효과가...? 레시피를 바꿔보자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 0,
-		complete_tips = "找布莱梅改进配方(0/1)",
+		complete_tips = "브레멘과 레시피 개량 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
 		map_complete_tips = 1009,
 		rec_perform = "",
-		series_name = "畅饮活力",
+		series_name = "활력 음료",
 		id = 20010006,
 		unlock_condition = {
 			{
@@ -9317,23 +10731,23 @@ pg.base.island_task = {
 	[20010007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "甜甜蛋白霜",
+		name = "달콤한 머랭",
 		type = 2,
-		task_desc = "用甜甜的蛋白霜给能量特调带来不一样的风味！",
+		task_desc = "달콤한 머랭으로 에너지 드링크에 색다른 풍미를 더하자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 0,
-		complete_tips = "将获得的鸡蛋带给布莱梅",
+		complete_tips = "얻은 달걀을 브레멘에게 가져다 주기",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1009,
 		rec_perform = "",
-		series_name = "畅饮活力",
+		series_name = "활력 음료",
 		id = 20010007,
 		unlock_condition = {
 			{
@@ -9354,23 +10768,23 @@ pg.base.island_task = {
 	[20010008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "心意送达",
+		name = "마음 전하기",
 		type = 2,
-		task_desc = "把大家的心意，传递给帕特莉吧~",
+		task_desc = "모두의 마음을 패트리에게 전달하자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 100,
-		complete_tips = "向布莱梅反馈帕特莉的建议(0/1)",
+		complete_tips = "패트리의 제안을 브레멘에게 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
 		map_complete_tips = 1009,
 		rec_perform = "",
-		series_name = "畅饮活力",
+		series_name = "활력 음료",
 		id = 20010008,
 		unlock_condition = {
 			{
@@ -9417,9 +10831,9 @@ pg.base.island_task = {
 	[20011001] = {
 		trigger_data = 10060002,
 		trigger_tips = 1,
-		name = "孤零零的餐馆",
+		name = "고독한 식당",
 		type = 2,
-		task_desc = "阿莫玛想要在商区开设新店，去帮她调研一下吧。",
+		task_desc = "아모마가 상업 지구에 새 가게를 열고자 한다. 시장 조사를 도와주자.",
 		map_trigger_tips = 1006,
 		complete_type = 2,
 		trigger_type = 1,
@@ -9434,7 +10848,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE01101",
 		com_perform = "",
-		series_name = "美食扩容计划！",
+		series_name = "미식 확장 계획!",
 		id = 20011001,
 		unlock_condition = {
 			{
@@ -9451,9 +10865,9 @@ pg.base.island_task = {
 	[20011002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "喜爱的美食",
+		name = "좋아하는 음식",
 		type = 2,
-		task_desc = "大家都喜爱的美食是什么呢？问问码头上的大家吧。",
+		task_desc = "다들 어떤 음식을 좋아하는지 부두에 있는 사람들에게 물어보자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9467,7 +10881,7 @@ pg.base.island_task = {
 		navigation = 1002,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "美食扩容计划！",
+		series_name = "미식 확장 계획!",
 		id = 20011002,
 		unlock_condition = {
 			{
@@ -9488,9 +10902,9 @@ pg.base.island_task = {
 	[20011003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "可别忘了自己",
+		name = "자신을 잃지 말기",
 		type = 2,
-		task_desc = "在考虑别人的同时，也不要忘了自己哦~",
+		task_desc = "다른 사람을 신경 쓰는 것도 중요하지만, 자기 자신도 신경써야 한다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9505,7 +10919,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "美食扩容计划！",
+		series_name = "미식 확장 계획!",
 		id = 20011003,
 		unlock_condition = {
 			{
@@ -9522,23 +10936,23 @@ pg.base.island_task = {
 	[20011004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "店铺建设中",
+		name = "가게 건설 중",
 		type = 2,
-		task_desc = "新加的店铺也意味着新的建材，快去努力收集吧。",
+		task_desc = "가게를 건설하려면 새로운 건축 자재가 필요하다. 열심히 모으자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10060002,
 		reward_exp = 0,
-		complete_tips = "回去交给阿莫玛吧(0/1)",
+		complete_tips = "돌아가서 아모마에게 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1006,
 		rec_perform = "",
-		series_name = "美食扩容计划！",
+		series_name = "미식 확장 계획!",
 		id = 20011004,
 		unlock_condition = {
 			{
@@ -9571,23 +10985,23 @@ pg.base.island_task = {
 	[20011005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "大家的商区",
+		name = "모두를 위한 상업 지구",
 		type = 2,
-		task_desc = "丰富的店铺没有丰富的餐品可不行，去帮阿莫玛收集到足够的食材吧。",
+		task_desc = "요리의 다양화를 위해 식재료를 충분히 모아 아모마를 도와주자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10060002,
 		reward_exp = 200,
-		complete_tips = "回去交给阿莫玛吧(0/1)",
+		complete_tips = "돌아가서 아모마에게 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1006,
 		rec_perform = "",
-		series_name = "美食扩容计划！",
+		series_name = "미식 확장 계획!",
 		id = 20011005,
 		unlock_condition = {
 			{
@@ -9625,9 +11039,9 @@ pg.base.island_task = {
 	[20012001] = {
 		trigger_data = 10050002,
 		trigger_tips = 1,
-		name = "事已至此，先借一个吧",
+		name = "일단 빌리고 보자",
 		type = 2,
-		task_desc = "露西的修枝剪罢工了，先借一个应急吧！",
+		task_desc = "루시의 전지가위가 망가진 모양이다. 우선 하나 빌리자!",
 		map_trigger_tips = 1005,
 		complete_type = 2,
 		trigger_type = 1,
@@ -9642,7 +11056,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE01201",
 		com_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012001,
 		unlock_condition = {
 			{
@@ -9659,23 +11073,23 @@ pg.base.island_task = {
 	[20012002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "得赶紧买个新的才行",
+		name = "어서 새로운 걸 사야 해",
 		type = 2,
-		task_desc = "有借自然有还，趁现在买个新的吧！",
+		task_desc = "빌린 건 나중에 돌려줘야 한다. 이번 기회에 새로 하나 사자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040002,
 		reward_exp = 0,
-		complete_tips = "找奥布莱恩制作一个新的修枝剪(0/1)",
+		complete_tips = "오브라이언에게 새로운 전지가위를 1개 만들어달라고 하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
 		map_complete_tips = 1004,
 		rec_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012002,
 		unlock_condition = {
 			{
@@ -9696,9 +11110,9 @@ pg.base.island_task = {
 	[20012003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "果树当然也是要施肥的",
+		name = "과일나무도 비료가 필요해",
 		type = 2,
-		task_desc = "帮忙碌的露西处理一下工作吧，就从施肥开始。",
+		task_desc = "루시가 일하는 걸 도와주자. 우선은 비료부터.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9713,7 +11127,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012003,
 		unlock_condition = {
 			{
@@ -9730,23 +11144,23 @@ pg.base.island_task = {
 	[20012004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "果树当然也是要施肥的",
+		name = "과일나무도 비료가 필요해",
 		type = 2,
-		task_desc = "帮忙碌的露西处理一下工作吧，就从施肥开始。",
+		task_desc = "루시가 일하는 걸 도와주자. 우선은 비료부터.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050002,
 		reward_exp = 0,
-		complete_tips = "回去交给露西吧(0/1)",
+		complete_tips = "돌아가서 루시에게 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
 		map_complete_tips = 1005,
 		rec_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012004,
 		unlock_condition = {
 			{
@@ -9767,23 +11181,23 @@ pg.base.island_task = {
 	[20012005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "丰收的喜悦精简版",
+		name = "농작물의 기쁨 - 간략판",
 		type = 2,
-		task_desc = "在露西的果园里种一些柑橘树并收获吧。",
+		task_desc = "루시의 과수원에 귤나무를 심어 수확하자.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050002,
 		reward_exp = 0,
-		complete_tips = "回去交给露西吧(0/1)",
+		complete_tips = "돌아가서 루시에게 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1005,
 		rec_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012005,
 		unlock_condition = {
 			{
@@ -9815,9 +11229,9 @@ pg.base.island_task = {
 	[20012006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "礼尚往来",
+		name = "오고 가는 정",
 		type = 2,
-		task_desc = "布莱梅的柑橘咖啡……会是用果园的柑橘做的吗？",
+		task_desc = "브레멘의 시트러스 커피는 과수원의 귤로 만드는 건가?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9832,7 +11246,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012006,
 		unlock_condition = {
 			{
@@ -9849,9 +11263,9 @@ pg.base.island_task = {
 	[20012007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "确认订单数量",
+		name = "주문 수량 확인",
 		type = 2,
-		task_desc = "有些担心订单的数量……先确认一下吧！",
+		task_desc = "주문 수량이 조금 걱정된다. 일단 확인부터 해보자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9866,7 +11280,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012007,
 		unlock_condition = {
 			{
@@ -9883,9 +11297,9 @@ pg.base.island_task = {
 	[20012008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "还有“意外收获”？",
+		name = "「예상 밖의 수확」?",
 		type = 2,
-		task_desc = "记得订购防虫剂，却忘了订购新的农具？",
+		task_desc = "방충제 주문은 기억했으면서, 새로운 농기구를 주문하는 건 잊어버리다니...?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9900,7 +11314,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012008,
 		unlock_condition = {
 			{
@@ -9917,9 +11331,9 @@ pg.base.island_task = {
 	[20012009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "不是我喜欢的虫子，直接拒绝",
+		name = "싫어하는 벌레니까 박멸",
 		type = 2,
-		task_desc = "消灭那些危害果树的害虫吧！",
+		task_desc = "과수에 피해를 주는 해충을 박멸하자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -9934,7 +11348,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012009,
 		unlock_condition = {
 			{
@@ -9951,23 +11365,23 @@ pg.base.island_task = {
 	[20012010] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "不是我喜欢的虫子，直接拒绝",
+		name = "싫어하는 벌레니까 박멸",
 		type = 2,
-		task_desc = "消灭那些危害果树的害虫吧！",
+		task_desc = "과수에 피해를 주는 해충을 박멸하자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050002,
 		reward_exp = 200,
-		complete_tips = "回去交给露西吧(0/1)",
+		complete_tips = "돌아가서 루시에게 전하기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
 		map_complete_tips = 1005,
 		rec_perform = "",
-		series_name = "管理果园可是很辛苦的！",
+		series_name = "과수원 관리는 힘들어",
 		id = 20012010,
 		unlock_condition = {
 			{
@@ -10004,16 +11418,16 @@ pg.base.island_task = {
 	[20013000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "提升开发等级",
-		type = 2,
-		task_desc = "提升开发等级",
+		name = "개발 등급 올리기",
+		type = 9,
+		task_desc = "개발 등급 올리기",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
 		reward_exp = 0,
-		complete_tips = "提升开发等级",
+		complete_tips = "개발 등급 올리기",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10021,7 +11435,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "提升开发等级",
+		series_name = "개발 등급 올리기",
 		id = 20013000,
 		unlock_condition = {
 			{
@@ -10040,9 +11454,9 @@ pg.base.island_task = {
 	[20013001] = {
 		trigger_data = 10050003,
 		trigger_tips = 1,
-		name = "杳无音讯的肥料",
+		name = "사라진 비료",
 		type = 2,
-		task_desc = "拉科尼娅订购的肥料一直没有送到，去斯蒂芬妮那里看看情况吧。",
+		task_desc = "라코니아가 주문한 비료가 아직도 오지 않은 모양이다. 스테파니에게 가서 상황을 확인하자.",
 		map_trigger_tips = 1005,
 		complete_type = 2,
 		trigger_type = 1,
@@ -10057,7 +11471,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE01301",
 		com_perform = "",
-		series_name = "薰衣草种植来不及了！",
+		series_name = "라벤더 심을 시간이 모자라",
 		id = 20013001,
 		unlock_condition = {
 			{
@@ -10074,9 +11488,9 @@ pg.base.island_task = {
 	[20013002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "散落的货物",
+		name = "흩어진 화물",
 		type = 2,
-		task_desc = "拉科尼娅的肥料都撒掉了，回去告诉她这个坏消息吧。",
+		task_desc = "라코니아의 비료가 몽땅 쏟아지고 말았다. 이 안타까운 소식을 전해야 한다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10091,7 +11505,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "薰衣草种植来不及了！",
+		series_name = "라벤더 심을 시간이 모자라",
 		id = 20013002,
 		unlock_condition = {
 			{
@@ -10108,9 +11522,9 @@ pg.base.island_task = {
 	[20013003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "重新订购……",
+		name = "재주문……",
 		type = 2,
-		task_desc = "现在重新下单还来得及吗？",
+		task_desc = "지금 다시 발주하면 늦지 않을까?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10125,7 +11539,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "薰衣草种植来不及了！",
+		series_name = "라벤더 심을 시간이 모자라",
 		id = 20013003,
 		unlock_condition = {
 			{
@@ -10142,16 +11556,16 @@ pg.base.island_task = {
 	[20013004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "寻找肥料中……",
+		name = "비료 찾기……",
 		type = 2,
-		task_desc = "只能去货运中心碰碰运气了！",
+		task_desc = "화물센터에 가서 운에 맡길 수 밖에!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
 		reward_exp = 0,
-		complete_tips = "回去找帕特莉吧(0/1)",
+		complete_tips = "돌아가서 패트리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10159,7 +11573,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "薰衣草种植来不及了！",
+		series_name = "라벤더 심을 시간이 모자라",
 		id = 20013004,
 		unlock_condition = {
 			{
@@ -10176,9 +11590,9 @@ pg.base.island_task = {
 	[20013005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "得救了！",
+		name = "천만 다행",
 		type = 2,
-		task_desc = "找到肥料了！",
+		task_desc = "비료를 찾았다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10193,7 +11607,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "薰衣草种植来不及了！",
+		series_name = "라벤더 심을 시간이 모자라",
 		id = 20013005,
 		unlock_condition = {
 			{
@@ -10210,23 +11624,23 @@ pg.base.island_task = {
 	[20013006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "一起播种吧",
+		name = "같이 씨 뿌리기",
 		type = 2,
-		task_desc = "时间紧迫！一起来种植薰衣草吧！",
+		task_desc = "같이 라벤더를 심자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 0,
-		complete_tips = "回去找拉科尼娅吧(0/1)",
+		complete_tips = "돌아가서 라코니아가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1005,
 		rec_perform = "",
-		series_name = "薰衣草种植来不及了！",
+		series_name = "라벤더 심을 시간이 모자라",
 		id = 20013006,
 		unlock_condition = {
 			{
@@ -10247,23 +11661,23 @@ pg.base.island_task = {
 	[20013007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "收获时间",
+		name = "수확할 시간",
 		type = 2,
-		task_desc = "大丰收！",
+		task_desc = "풍년이다!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 0,
-		complete_tips = "回去找拉科尼娅吧(0/1)",
+		complete_tips = "돌아가서 라코니아가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1005,
 		rec_perform = "",
-		series_name = "薰衣草种植来不及了！",
+		series_name = "라벤더 심을 시간이 모자라",
 		id = 20013007,
 		unlock_condition = {
 			{
@@ -10284,9 +11698,9 @@ pg.base.island_task = {
 	[20013008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "薰衣草包裹派送中！",
+		name = "라벤더 배송!",
 		type = 2,
-		task_desc = "最后的生死时速！",
+		task_desc = "마지막 사투의 시간!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10301,7 +11715,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "薰衣草种植来不及了！",
+		series_name = "라벤더 심을 시간이 모자라",
 		id = 20013008,
 		unlock_condition = {
 			{
@@ -10334,9 +11748,9 @@ pg.base.island_task = {
 	[20014001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "拼合的秘密",
+		name = "맞춰진 비밀",
 		type = 2,
-		task_desc = "一张张散落的残片能拼出怎样的秘密呢……",
+		task_desc = "흩어진 조각을 하나 하나 맞추면 어떤 비밀이 드러날까…?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10350,7 +11764,7 @@ pg.base.island_task = {
 		navigation = 0,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "失落的秘宝？",
+		series_name = "잃어버린 보물?",
 		id = 20014001,
 		unlock_condition = {
 			{
@@ -10381,23 +11795,23 @@ pg.base.island_task = {
 	[20014002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "拼合的秘密",
+		name = "맞춰진 비밀",
 		type = 2,
-		task_desc = "一张张散落的残片能拼出怎样的秘密呢……",
+		task_desc = "흩어진 조각을 하나 하나 맞추면 어떤 비밀이 드러날까…?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
 		reward_exp = 0,
-		complete_tips = "去地图上标记的地方寻找秘宝吧(0/1)",
+		complete_tips = "지도에 표시된 곳으로 보물을 찾으러 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
-		series_name = "失落的秘宝？",
+		series_name = "잃어버린 보물?",
 		id = 20014002,
 		unlock_condition = {
 			{
@@ -10418,23 +11832,23 @@ pg.base.island_task = {
 	[20014003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "猫的报恩",
+		name = "고양이의 보은",
 		type = 2,
-		task_desc = "原野上似乎传来了宝藏的风声……挥动铁铲尽情地开挖吧！",
+		task_desc = "벌판에 보물이 있다는 소문을 들었다. 삽을 가지고 가서 열심히 파보자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10070026,
 		reward_exp = 200,
-		complete_tips = "去岛屿基地里看看卡里的余额吧(0/1)",
+		complete_tips = "아일랜드 기지에서 카드 잔액을 확인하러 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		series_name = "失落的秘宝？",
+		series_name = "잃어버린 보물?",
 		id = 20014003,
 		unlock_condition = {
 			{
@@ -10466,16 +11880,16 @@ pg.base.island_task = {
 	[20015001] = {
 		trigger_data = 10020025,
 		trigger_tips = 0,
-		name = "启动时刻！",
+		name = "시작!",
 		type = 2,
-		task_desc = "现在正是开发岛屿的好时候，佩芮正好在进行资材规划，快去找她吧。",
+		task_desc = "아일랜드를 개발할 시간이다! 피어리가 자원 계획을 세우고 있는 모양이니, 만나러 가보자.",
 		map_trigger_tips = 1002,
 		complete_type = 2,
 		trigger_type = 1,
 		com_page = "",
 		complete_data = 0,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10483,7 +11897,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE01601",
 		com_perform = "",
-		series_name = "岛屿开发季",
+		series_name = "시즌",
 		id = 20015001,
 		unlock_condition = {
 			{
@@ -10511,23 +11925,23 @@ pg.base.island_task = {
 	[20015002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "岛屿大开发",
+		name = "아일랜드 대개발",
 		type = 2,
-		task_desc = "这个季节正是努力的好时候，快和大家一起进行岛屿大开发吧！",
+		task_desc = "열심히 개발할 시즌이다! 어서 모두와 함께 아일랜드 개발을 진행하자!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧(0/1)",
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
 		map_complete_tips = 1003,
 		rec_perform = "",
-		series_name = "岛屿开发季",
+		series_name = "시즌",
 		id = 20015002,
 		unlock_condition = {
 			{
@@ -10559,9 +11973,9 @@ pg.base.island_task = {
 	[30000001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "矿物储备",
+		name = "광물 비축",
 		type = 3,
-		task_desc = "订单一直延期，不能再这样下去啦！给我一些矿石作储备吧！",
+		task_desc = "의뢰가 계속 미뤄지고 있어! 비축용 광석을 채집해줬으면 해!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10576,7 +11990,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30000001,
 		unlock_condition = {
 			{
@@ -10599,9 +12013,9 @@ pg.base.island_task = {
 	[30000002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "生长的树木",
+		name = "자라는 나무들",
 		type = 3,
-		task_desc = "林场里的树木生长得好快……能来帮我砍伐一些吗？",
+		task_desc = "숲속 나무들이 너무 빨리 자라서… 벌목 하는 걸 좀 도와주실 수 있나요?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10616,7 +12030,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30000002,
 		unlock_condition = {
 			{
@@ -10639,9 +12053,9 @@ pg.base.island_task = {
 	[30000003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "岛屿订单",
+		name = "아일랜드 의뢰",
 		type = 3,
-		task_desc = "岛上的大家每天都会有新需求，遇到不合理的要记得驳回哦~",
+		task_desc = "다들 매일 새로운 부탁을 하지만, 무리한 요구는 과감하게 거절하는 것도 중요해.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10656,7 +12070,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30000003,
 		unlock_condition = {
 			{
@@ -10679,9 +12093,9 @@ pg.base.island_task = {
 	[30000004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "科研计划",
+		name = "연구 계획",
 		type = 3,
-		task_desc = "开发区的发展离不开岛屿科技的支持，去研发更多的科技吧~",
+		task_desc = "아일랜드 개발에 기술 연구는 빼놓을 수 없지. 더 많은 기술을 개발해보자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10696,7 +12110,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30000004,
 		unlock_condition = {
 			{
@@ -10719,9 +12133,9 @@ pg.base.island_task = {
 	[30000005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "愿此刻永存！",
+		name = "이 순간이 영원하길!",
 		type = 3,
-		task_desc = "新的一天，展现新的自己。",
+		task_desc = "새로운 하루, 새로운 나를 보여주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10736,7 +12150,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30000005,
 		unlock_condition = {
 			{
@@ -10759,9 +12173,9 @@ pg.base.island_task = {
 	[30000006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10776,7 +12190,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30000006,
 		unlock_condition = {
 			{
@@ -10793,9 +12207,9 @@ pg.base.island_task = {
 	[30000007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10810,7 +12224,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30000007,
 		unlock_condition = {
 			{
@@ -10834,9 +12248,9 @@ pg.base.island_task = {
 	[30000008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "喵不可言",
+		name = "고양이는 중요해",
 		type = 3,
-		task_desc = "岛上的猫咪们最近无精打采的，快用你神奇的撸猫技巧让它们打起精神吧！",
+		task_desc = "아일랜드의 고양이들이 요즘 기운이 없는 모양이다. 지휘관만의 스킬로 고양이들에게 활기를 되찾아 주자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10851,7 +12265,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30000008,
 		unlock_condition = {
 			{
@@ -10874,9 +12288,9 @@ pg.base.island_task = {
 	[30101001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "劳动光荣",
+		name = "노동의 기쁨",
 		type = 3,
-		task_desc = "试着采集一些木材和矿石，与乔安和奥布莱恩一起体验劳动的快乐吧！",
+		task_desc = "목재와 광석을 채집해서 조안과 오브라이언에게 노동의 기쁨을 전해주자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10891,7 +12305,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30101001,
 		unlock_condition = {
 			{
@@ -10914,9 +12328,9 @@ pg.base.island_task = {
 	[30201001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "管理有方",
+		name = "완벽한 관리",
 		type = 3,
-		task_desc = "快看看开发区还缺些什么，委派大家快速生产一些吧~",
+		task_desc = "아일랜드에 부족한 부분은 없는지 확인하고, 동료를 배치해서 생산을 진행하자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10931,7 +12345,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30201001,
 		unlock_condition = {
 			{
@@ -10954,9 +12368,9 @@ pg.base.island_task = {
 	[30301001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "货运委托",
+		name = "운송 의뢰",
 		type = 3,
-		task_desc = "今日的货运委托可都是我精挑细选出来的，一定能赚很多钱吧~",
+		task_desc = "오늘 운송 의뢰는 신중하게 고른 거니, 큰 수익을 낼 수 있겠지.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -10971,7 +12385,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30301001,
 		unlock_condition = {
 			{
@@ -10994,9 +12408,9 @@ pg.base.island_task = {
 	[30401001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "岛屿订单",
+		name = "아일랜드 의뢰",
 		type = 3,
-		task_desc = "岛上的大家每天都会有新需求，遇到不合理的要记得驳回哦~",
+		task_desc = "다들 매일 새로운 부탁을 하지만, 무리한 요구는 과감하게 거절하는 것도 중요해.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11011,7 +12425,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30401001,
 		unlock_condition = {
 			{
@@ -11034,9 +12448,9 @@ pg.base.island_task = {
 	[30501001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11051,7 +12465,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30501001,
 		unlock_condition = {
 			{
@@ -11068,9 +12482,9 @@ pg.base.island_task = {
 	[30501002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11085,7 +12499,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30501002,
 		unlock_condition = {
 			{
@@ -11110,9 +12524,9 @@ pg.base.island_task = {
 	[30501011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11127,7 +12541,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30501011,
 		unlock_condition = {
 			{
@@ -11144,9 +12558,9 @@ pg.base.island_task = {
 	[30501012] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11161,7 +12575,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30501012,
 		unlock_condition = {
 			{
@@ -11186,9 +12600,9 @@ pg.base.island_task = {
 	[30501021] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11203,7 +12617,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30501021,
 		unlock_condition = {
 			{
@@ -11226,9 +12640,9 @@ pg.base.island_task = {
 	[30501022] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11243,7 +12657,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30501022,
 		unlock_condition = {
 			{
@@ -11268,9 +12682,9 @@ pg.base.island_task = {
 	[30501031] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11285,7 +12699,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30501031,
 		unlock_condition = {
 			{
@@ -11308,9 +12722,9 @@ pg.base.island_task = {
 	[30501032] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "JUU'速运",
+		name = "JUU' 배달",
 		type = 3,
-		task_desc = "货运繁忙，需要运给大家的物资都积压在了港口，怎么办呢……",
+		task_desc = "화물 운송이 밀려서, 모두에게 전달해야 하는 물자가 항구에 쌓인 상태다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11325,7 +12739,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30501032,
 		unlock_condition = {
 			{
@@ -11350,9 +12764,9 @@ pg.base.island_task = {
 	[30502001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区外送服务",
+		name = "배달 서비스",
 		type = 3,
-		task_desc = "阿莫玛开拓了新的外送服务，去帮她把餐品送到需要的人手中吧。",
+		task_desc = "아모마가 새로운 배달 서비스를 개척했다. 음식이 필요한 사람에게 전해주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11367,7 +12781,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30502001,
 		unlock_condition = {
 			{
@@ -11390,9 +12804,9 @@ pg.base.island_task = {
 	[30502002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区外送服务",
+		name = "배달 서비스",
 		type = 3,
-		task_desc = "阿莫玛开拓了新的外送服务，去帮她把餐品送到需要的人手中吧。",
+		task_desc = "아모마가 새로운 배달 서비스를 개척했다. 음식이 필요한 사람에게 전해주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11407,7 +12821,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30502002,
 		unlock_condition = {
 			{
@@ -11432,9 +12846,9 @@ pg.base.island_task = {
 	[30502011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区外送服务",
+		name = "배달 서비스",
 		type = 3,
-		task_desc = "阿莫玛开拓了新的外送服务，去帮她把餐品送到需要的人手中吧。",
+		task_desc = "아모마가 새로운 배달 서비스를 개척했다. 음식이 필요한 사람에게 전해주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11449,7 +12863,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30502011,
 		unlock_condition = {
 			{
@@ -11472,9 +12886,9 @@ pg.base.island_task = {
 	[30502012] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区外送服务",
+		name = "배달 서비스",
 		type = 3,
-		task_desc = "阿莫玛开拓了新的外送服务，去帮她把餐品送到需要的人手中吧。",
+		task_desc = "아모마가 새로운 배달 서비스를 개척했다. 음식이 필요한 사람에게 전해주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11489,7 +12903,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30502012,
 		unlock_condition = {
 			{
@@ -11514,9 +12928,9 @@ pg.base.island_task = {
 	[30502021] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区外送服务",
+		name = "배달 서비스",
 		type = 3,
-		task_desc = "阿莫玛开拓了新的外送服务，去帮她把餐品送到需要的人手中吧。",
+		task_desc = "아모마가 새로운 배달 서비스를 개척했다. 음식이 필요한 사람에게 전해주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11531,7 +12945,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30502021,
 		unlock_condition = {
 			{
@@ -11554,9 +12968,9 @@ pg.base.island_task = {
 	[30502022] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区外送服务",
+		name = "배달 서비스",
 		type = 3,
-		task_desc = "阿莫玛开拓了新的外送服务，去帮她把餐品送到需要的人手中吧。",
+		task_desc = "아모마가 새로운 배달 서비스를 개척했다. 음식이 필요한 사람에게 전해주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11571,7 +12985,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30502022,
 		unlock_condition = {
 			{
@@ -11596,9 +13010,9 @@ pg.base.island_task = {
 	[30502031] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区外送服务",
+		name = "배달 서비스",
 		type = 3,
-		task_desc = "阿莫玛开拓了新的外送服务，去帮她把餐品送到需要的人手中吧。",
+		task_desc = "아모마가 새로운 배달 서비스를 개척했다. 음식이 필요한 사람에게 전해주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11613,7 +13027,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30502031,
 		unlock_condition = {
 			{
@@ -11636,9 +13050,9 @@ pg.base.island_task = {
 	[30502032] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区外送服务",
+		name = "배달 서비스",
 		type = 3,
-		task_desc = "阿莫玛开拓了新的外送服务，去帮她把餐品送到需要的人手中吧。",
+		task_desc = "아모마가 새로운 배달 서비스를 개척했다. 음식이 필요한 사람에게 전해주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11653,7 +13067,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30502032,
 		unlock_condition = {
 			{
@@ -11678,9 +13092,9 @@ pg.base.island_task = {
 	[30504001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "喵不可言",
+		name = "고양이는 중요해",
 		type = 3,
-		task_desc = "岛上的猫咪们最近无精打采的，快用你神奇的撸猫技巧让它们打起精神吧！",
+		task_desc = "아일랜드의 고양이들이 요즘 기운이 없는 모양이다. 지휘관만의 스킬로 고양이들에게 활기를 되찾아 주자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11695,7 +13109,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30504001,
 		unlock_condition = {
 			{
@@ -11718,9 +13132,9 @@ pg.base.island_task = {
 	[30505001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "愿此刻永存！",
+		name = "이 순간이 영원하길!",
 		type = 3,
-		task_desc = "新的一天，展现新的自己。",
+		task_desc = "새로운 하루, 새로운 나를 보여주자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11735,7 +13149,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30505001,
 		unlock_condition = {
 			{
@@ -11758,9 +13172,9 @@ pg.base.island_task = {
 	[30508001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "美好的一天",
+		name = "아름다운 하루",
 		type = 3,
-		task_desc = "亲切的互动，会开启最为美好的一天~快去和岛上的角色互动一次吧！ ",
+		task_desc = "친절한 인사는 아름다운 하루의 시작이다. 아일랜드의 주민들에게 인사해보자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11775,7 +13189,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30508001,
 		unlock_condition = {
 			{
@@ -11798,9 +13212,9 @@ pg.base.island_task = {
 	[30601001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "日常补给",
+		name = "일상 보급",
 		type = 3,
-		task_desc = "又是新的一天，快去集会岛上接收今日的补给吧。",
+		task_desc = "또 새로운 하루가 시작되었다. 하모니섬으로 가서 오늘 받을 보급을 수령하자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11815,7 +13229,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30601001,
 		unlock_condition = {
 			{
@@ -11838,9 +13252,9 @@ pg.base.island_task = {
 	[30701001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "餐品制作",
+		name = "요리 제작",
 		type = 3,
-		task_desc = "经营店铺没有餐品可不行，制作一批新餐品进行销售吧~",
+		task_desc = "가게를 열어도 메뉴가 없으면 안 되지! 새로운 메뉴를 만들자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11855,7 +13269,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30701001,
 		unlock_condition = {
 			{
@@ -11878,9 +13292,9 @@ pg.base.island_task = {
 	[30702001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "灶台上的烟火",
+		name = "화로의 불꽃",
 		type = 3,
-		task_desc = "有鱼餐馆的灶火正旺！快去挥动大勺，让浓郁的香气飘满整个商区吧！",
+		task_desc = "유어 레스토랑, 성황리에 영업 중! 국자를 휘두르며 요리의 향기로 상업 지구를 가득 채우자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11895,7 +13309,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30702001,
 		unlock_condition = {
 			{
@@ -11918,9 +13332,9 @@ pg.base.island_task = {
 	[30703001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "商区里的甜蜜",
+		name = "달콤한 상업 지구",
 		type = 3,
-		task_desc = "去调制几杯招牌饮品，用甜蜜治愈商区里的每一位客人吧！",
+		task_desc = "대표 메뉴를 만들어 상업 지구의 손님들에게 최고의 달콤함을 선물하자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11935,7 +13349,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30703001,
 		unlock_condition = {
 			{
@@ -11962,9 +13376,9 @@ pg.base.island_task = {
 	[30704001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "简餐救援",
+		name = "간편식 구조대",
 		type = 3,
-		task_desc = "用餐高峰来袭，快速制作出美味又营养的简餐，让客人充满活力吧~",
+		task_desc = "러시 타임! 영양 가득한 간편식을 만들어 손님들의 기운을 복돋아 주자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -11979,7 +13393,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30704001,
 		unlock_condition = {
 			{
@@ -12006,9 +13420,9 @@ pg.base.island_task = {
 	[30705001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "炭火美食",
+		name = "숯불 요리",
 		type = 3,
-		task_desc = "炭炉里的烟火已经燃起，是时候为食客们烤出焦香诱人的美食了！",
+		task_desc = "붉게 타오르는 숯불―― 드디어 숯불 요리를 즐길 시간이 왔다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12023,7 +13437,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30705001,
 		unlock_condition = {
 			{
@@ -12050,9 +13464,9 @@ pg.base.island_task = {
 	[30706001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "啾啾时光",
+		name = "쥬 타임",
 		type = 3,
-		task_desc = "啾咖啡的客人享受着悠闲的时光，用几杯香醇的咖啡招待她们吧~",
+		task_desc = "쥬카페에서 손님들이 여유로운 시간을 즐기고 있다. 향긋한 커피로 손님들을 대접하자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12067,7 +13481,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 30706001,
 		unlock_condition = {
 			{
@@ -12094,9 +13508,9 @@ pg.base.island_task = {
 	[40101001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "更多的储备",
+		name = "더 많은 비축",
 		type = 4,
-		task_desc = "之前储备的矿物很有效果！能再采集一些吗？拜托了！",
+		task_desc = "지난 번에 모아둔 광물이 큰 도움이 되었다. 조금 더 채집해두는 편이 좋을 것 같다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12111,7 +13525,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40101001,
 		unlock_condition = {
 			{
@@ -12134,9 +13548,9 @@ pg.base.island_task = {
 	[40102001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "源源不断的木材",
+		name = "끝없는 목재",
 		type = 4,
-		task_desc = "指挥官，林场里的树木又长出来了许多……可以再帮我砍伐一些吗？",
+		task_desc = "지휘관님, 숲속에 나무가 또 자랐는데… 다시 벌목을 부탁드려도 될까요?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12151,7 +13565,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40102001,
 		unlock_condition = {
 			{
@@ -12174,9 +13588,9 @@ pg.base.island_task = {
 	[40103001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "丰收一日",
+		name = "풍작의 날",
 		type = 4,
-		task_desc = "现在农田里的肥力还很充足，可以多种一些作物的。",
+		task_desc = "논밭이 아직 비옥하니, 작물을 더 심어도 될 것 같아요.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12191,7 +13605,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40103001,
 		unlock_condition = {
 			{
@@ -12218,9 +13632,9 @@ pg.base.island_task = {
 	[40104001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "苗圃的帮手",
+		name = "모밭 돕기",
 		type = 4,
-		task_desc = "指挥官，拉科尼亚有些忙不过来……你能帮我吗？",
+		task_desc = "지휘관, 라코니아가 너무 바빠서 손이 부족한데… 좀 도와줄 수 있어?",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12235,7 +13649,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40104001,
 		unlock_condition = {
 			{
@@ -12262,9 +13676,9 @@ pg.base.island_task = {
 	[40105001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "缤纷果园计划",
+		name = "컬러풀한 과수원 계획",
 		type = 4,
-		task_desc = "我想在果园里种满各种不同的树木，这次要种哪种呢？",
+		task_desc = "과수원에 다양한 종류의 나무를 심어볼까 하는데, 어떤게 좋을지…",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12279,7 +13693,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40105001,
 		unlock_condition = {
 			{
@@ -12306,9 +13720,9 @@ pg.base.island_task = {
 	[40106001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "动物之友",
+		name = "동물은 우리의 친구",
 		type = 4,
-		task_desc = "指挥官，牧场里的动物越来越多，梅莉都快照顾不过来了~",
+		task_desc = "목장에 동물들이 점점 늘어나서, 메리가 감당할 수 없을지도…!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12323,7 +13737,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40106001,
 		unlock_condition = {
 			{
@@ -12350,9 +13764,9 @@ pg.base.island_task = {
 	[40107001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "手工制作设备检修",
+		name = "수공제작 설비 점검",
 		type = 4,
-		task_desc = "开发区的发展需要各种手工产品，设备放着不动可是会生锈的！",
+		task_desc = "개발 구역을 발전시키려면 아직 수공업품이 필요하다. 설비를 방치하면 녹이 슬지도 모른다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12367,7 +13781,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40107001,
 		unlock_condition = {
 			{
@@ -12394,9 +13808,9 @@ pg.base.island_task = {
 	[40108001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "工业生产设备检修",
+		name = "공업 생산 설비 점검",
 		type = 4,
-		task_desc = "开发区的发展需要各种工业产品，设备放着不动可是会生锈的！",
+		task_desc = "개발 구역을 발전시키려면 아직 공업 제품이 필요하다. 설비를 방치하면 녹이 슬지도 모른다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12411,7 +13825,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40108001,
 		unlock_condition = {
 			{
@@ -12438,9 +13852,9 @@ pg.base.island_task = {
 	[40109001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "木料加工设备检修",
+		name = "목재 가공 설비 점검",
 		type = 4,
-		task_desc = "开发区的发展需要各种木料产品，设备放着不动可是会生锈的！",
+		task_desc = "개발 구역을 발전시키려면 아직 목제품이 필요하다. 설비를 방치하면 녹이 슬지도 모른다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12455,7 +13869,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40109001,
 		unlock_condition = {
 			{
@@ -12482,9 +13896,9 @@ pg.base.island_task = {
 	[40110001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "电子加工设备检修",
+		name = "전자 가공 설비 점검",
 		type = 4,
-		task_desc = "开发区的发展需要各种电子产品，设备放着不动可是会生锈的！",
+		task_desc = "개발 구역을 발전시키려면 아직 전자 제품이 필요하다. 설비를 방치하면 녹이 슬지도 모른다!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12499,7 +13913,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40110001,
 		unlock_condition = {
 			{
@@ -12526,9 +13940,9 @@ pg.base.island_task = {
 	[40201001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "套餐制作",
+		name = "요리 세트",
 		type = 4,
-		task_desc = "可以把餐品组合在一起进行销售，这样就能赚到更多的开发资金了。",
+		task_desc = "요리를 세트로 묶어 판매하면 더 많은 개발 자금을 벌 수 있다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12543,7 +13957,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40201001,
 		unlock_condition = {
 			{
@@ -12566,9 +13980,9 @@ pg.base.island_task = {
 	[40301001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "热销商品补货中",
+		name = "인기 상품 보충 중",
 		type = 4,
-		task_desc = "商区里的商品可不能有缺少的部分。",
+		task_desc = "상점가에 품절된 상품이 생기면 안 된다.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12583,7 +13997,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40301001,
 		unlock_condition = {
 			{
@@ -12606,9 +14020,9 @@ pg.base.island_task = {
 	[40401001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "岛屿印象",
+		name = "섬의 인상",
 		type = 4,
-		task_desc = "岛上有什么令人印象深刻的地方吗？去拍一张留作纪念吧。",
+		task_desc = "섬에서 인상 깊었던 장소가 있다면 기념 사진을 촬영해보자.",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12623,7 +14037,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40401001,
 		unlock_condition = {
 			{
@@ -12646,9 +14060,9 @@ pg.base.island_task = {
 	[40501001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "勤勉每一天",
+		name = "동물이 있는 일상",
 		type = 4,
-		task_desc = "搞定每日计划，轻松获取开发资材，让岛屿发展又快又好！",
+		task_desc = "일일 계획을 처리하여 개발 자원을 얻어 아일랜드 개발에 박차를 가하자!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12663,7 +14077,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40501001,
 		unlock_condition = {
 			{
@@ -12691,9 +14105,9 @@ pg.base.island_task = {
 	[40601001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "每周小目标",
+		name = "매주 목표",
 		type = 4,
-		task_desc = "叮铃铃！来赚点岛屿开发资金，把小金库塞得满满当当吧！",
+		task_desc = "아일랜드 개발 자금을 벌어, 금고를 가득 채우는 게 목표!",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
@@ -12708,7 +14122,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40601001,
 		unlock_condition = {
 			{

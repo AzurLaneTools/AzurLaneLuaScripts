@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "嗯……柑橘的香味，很清晰。",
+			say = "음…… 시트러스 향이 아주 상큼한걸.",
 			hideType = 2,
 			characterId = 101200,
 			animation = "nod"

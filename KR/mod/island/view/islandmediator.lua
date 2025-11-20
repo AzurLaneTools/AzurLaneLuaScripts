@@ -89,8 +89,19 @@ slot0.ADD_FOLLOWER = "IslandMediator:ADD_FOLLOWER"
 slot0.DEL_FOLLOWER = "IslandMediator:DEL_FOLLOWER"
 slot0.DRAW_AWARD_OPERATION = "IslandMediator.DRAW_AWARD_OPERATION"
 slot0.REFRESH_SHIP_ORDER = "IslandMediator:REFRESH_SHIP_ORDER"
+slot0.EXCHANGE_SHIP_ORDER = "IslandMediator:EXCHANGE_SHIP_ORDER"
+slot0.RESET_SHIP_ORDER = "IslandMediator:RESET_SHIP_ORDER"
 
 slot0._register = function(slot0)
+	slot0:bind(uv0.RESET_SHIP_ORDER, function (slot0)
+		uv0:sendNotification(GAME.ISLAND_RESET_SHIP_ORDER)
+	end)
+	slot0:bind(uv0.EXCHANGE_SHIP_ORDER, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.ISLAND_EXCHANGE_SHIP_ORDER, {
+			id = slot1,
+			delegateId = slot2
+		})
+	end)
 	slot0:bind(uv0.REFRESH_SHIP_ORDER, function (slot0, slot1)
 		uv0:sendNotification(GAME.ISLAND_REFRESH_SHIP_ORDER, {
 			id = slot1
@@ -441,9 +452,10 @@ slot0._register = function(slot0)
 			progress = slot1.progress
 		})
 	end)
-	slot0:bind(uv0.ON_SET_TRACE_ID, function (slot0, slot1)
+	slot0:bind(uv0.ON_SET_TRACE_ID, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.ISLAND_SET_TRACE_TASK, {
-			traceId = slot1
+			traceId = slot1,
+			type = slot2
 		})
 	end)
 	slot0:bind(uv0.ON_RESET_SEASON, function (slot0, slot1)
@@ -478,7 +490,8 @@ slot0._register = function(slot0)
 		uv0:sendNotification(GAME.ISLAND_OPEN_RESTAURANT, {
 			restId = slot1.restId,
 			ships = slot1.ships,
-			commodities = slot1.commodities
+			commodities = slot1.commodities,
+			estimateData = slot1.estimateData
 		})
 	end)
 	slot0:bind(uv0.CLOSE_RESTAURANT, function (slot0, slot1, slot2)
@@ -505,7 +518,7 @@ slot0._register = function(slot0)
 	end)
 	slot0:bind(uv0.UNLOCK_ILLUSTRATION, function (slot0, slot1)
 		uv0:sendNotification(GAME.ISLAND_UNLOCK_ILLUSTRATION, {
-			id = slot1
+			ids = slot1
 		})
 	end)
 	slot0:bind(uv0.GET_COLLECT_POINT, function (slot0, slot1)
@@ -666,6 +679,8 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_FOLLOWER_OP_DONE,
 		GAME.ISLAND_RESET_SP,
 		GAME.ISLAND_REFRESH_SHIP_ORDER_DONE,
+		GAME.ISLAND_EXCHANGE_SHIP_ORDER_DONE,
+		GAME.ISLAND_RESET_SHIP_ORDER_DONE,
 		NotificationProxy.FRIEND_REQUEST_REMOVED,
 		NotificationProxy.FRIEND_REQUEST_ADDED,
 		PlayerProxy.UPDATED,
@@ -762,7 +777,7 @@ slot0._handleNotification = function(slot0, slot1)
 			end)
 		end)
 	elseif slot2 == GAME.ISLAND_SET_TRACE_TASK_DONE then
-		slot0.viewComponent:OnUpdateTrackTask(slot3.traceId)
+		slot0.viewComponent:OnUpdateTrackTask(slot3.traceId, slot3.type)
 	elseif slot2 == GAME.ISLAND_RESET_SEASON_DONE then
 		seriesAsync({
 			function (slot0)

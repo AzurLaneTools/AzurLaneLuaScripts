@@ -32480,6 +32480,276 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50213] = {
+		mark = 20251106,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50213,
+		page_core = "",
+		config_data = {
+			1730001,
+			1730002,
+			1730003
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[50214] = {
+		mark = 20251106,
+		type = 74,
+		login_pop = 0,
+		config_id = 50214,
+		is_show = 47,
+		title_res_tag = "Marseillaise_sp",
+		id = 50214,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MarseillaiseSpRePage",
+			ui_name = "MarseillaiseSpRePage"
+		},
+		config_client = {
+			linkPoolActID = 50217,
+			linkActID = 50213
+		}
+	},
+	[50215] = {
+		mark = 20251106,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 581,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "",
+		id = 50215,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50216] = {
+		mark = 20251106,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50216,
+		page_core = "",
+		config_data = {
+			21861,
+			21862,
+			21863,
+			21864,
+			21865,
+			21866
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[50217] = {
+		mark = 20251106,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_50217",
+		title_res_tag = "",
+		id = 50217,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "「마르세예즈」 등장 확률 UP! ",
+			rate_tip = {
+				"<color=#ffde38>SSR</color>: 7%",
+				"<color=#d797ff>SR</color>: 12%",
+				"<color=#3dc6ff>R</color>: 26%",
+				"노멀: 55%",
+				"<color=#ffde38>마르세예즈</color>: 1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[50218] = {
+		mark = 20251106,
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 73,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50218,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					4
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		time = "stop",
@@ -34260,6 +34530,71 @@ pg.activity_template = {
 		page_info = {
 			class_name = "DormSignTwoPage",
 			ui_name = "DormSignTwoPage"
+		}
+	},
+	[7503] = {
+		mark = 20250929,
+		type = 89,
+		login_pop = 99,
+		config_id = 0,
+		is_show = 44,
+		config_client = "",
+		title_res_tag = "Island_Sign",
+		id = 7503,
+		page_core = "",
+		config_data = {
+			{
+				24481
+			},
+			{
+				24482
+			},
+			{
+				24483
+			},
+			{
+				24484
+			},
+			{
+				24485
+			},
+			{
+				24486
+			},
+			{
+				24487
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					12,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "IslandSignPage",
+			ui_name = "IslandSignPage"
 		}
 	},
 	[8009] = {
@@ -42249,6 +42584,242 @@ pg.activity_template = {
 			ui_name = "glorytaskpage"
 		}
 	},
+	[990001] = {
+		mark = 20250929,
+		page_info = "",
+		type = 5001,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990001,
+		page_core = "",
+		config_data = {
+			1
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[990002] = {
+		mark = 20250929,
+		page_info = "",
+		type = 5002,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990002,
+		page_core = "",
+		config_data = {
+			100001,
+			100002,
+			100003,
+			100004,
+			100005,
+			100006,
+			100007,
+			100008,
+			100009,
+			100010,
+			100011,
+			100012,
+			100013,
+			100014,
+			100015
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[990003] = {
+		mark = 20250929,
+		page_info = "",
+		type = 5003,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990003,
+		page_core = "",
+		config_data = {
+			1001,
+			1002,
+			1003,
+			1004,
+			1005,
+			1006,
+			1007,
+			1008
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[990004] = {
+		mark = 20250929,
+		page_info = "",
+		type = 5004,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990004,
+		page_core = "",
+		config_data = {
+			9900001,
+			9900002,
+			9900003,
+			9900004,
+			9900005,
+			9900006,
+			9900007,
+			9900008
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[999901] = {
+		mark = 20250929,
+		page_info = "",
+		type = 800,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 999901,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
 	get_id_list_by_type = {
 		[0] = {
 			20135,
@@ -42503,6 +43074,7 @@ pg.activity_template = {
 			50153,
 			50169,
 			50205,
+			50214,
 			1086,
 			6006,
 			6010,
@@ -42572,6 +43144,7 @@ pg.activity_template = {
 			5959,
 			50045,
 			50122,
+			50218,
 			8010,
 			8030,
 			8041,
@@ -42933,6 +43506,7 @@ pg.activity_template = {
 			50203,
 			50207,
 			50209,
+			50216,
 			1079,
 			1080,
 			1081,
@@ -43100,6 +43674,7 @@ pg.activity_template = {
 			50131,
 			50172,
 			50183,
+			50215,
 			20682
 		},
 		[12] = {
@@ -43165,7 +43740,8 @@ pg.activity_template = {
 			50115,
 			50166,
 			50167,
-			50181
+			50181,
+			50213
 		},
 		[80] = {
 			4902,
@@ -43284,7 +43860,8 @@ pg.activity_template = {
 			4946,
 			5181,
 			5546,
-			5766
+			5766,
+			50217
 		},
 		[69] = {
 			4950,
@@ -43388,7 +43965,8 @@ pg.activity_template = {
 			5261,
 			50044,
 			7501,
-			7502
+			7502,
+			7503
 		},
 		[22] = {
 			5264
@@ -43574,6 +44152,21 @@ pg.activity_template = {
 			20996,
 			21001,
 			21007
+		},
+		[5001] = {
+			990001
+		},
+		[5002] = {
+			990002
+		},
+		[5003] = {
+			990003
+		},
+		[5004] = {
+			990004
+		},
+		[800] = {
+			999901
 		}
 	},
 	all = {
@@ -44483,6 +45076,12 @@ pg.activity_template = {
 		50210,
 		50211,
 		50212,
+		50213,
+		50214,
+		50215,
+		50216,
+		50217,
+		50218,
 		7001,
 		7004,
 		7005,
@@ -44510,6 +45109,7 @@ pg.activity_template = {
 		7104,
 		7501,
 		7502,
+		7503,
 		8009,
 		8010,
 		8029,
@@ -44717,6 +45317,11 @@ pg.activity_template = {
 		25061,
 		200001,
 		40089,
-		40090
+		40090,
+		990001,
+		990002,
+		990003,
+		990004,
+		999901
 	}
 }

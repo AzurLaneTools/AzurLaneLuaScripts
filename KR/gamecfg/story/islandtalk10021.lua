@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "订单管理员",
+			subName = "의뢰 관리자",
 			animation = "note",
 			characterId = 100200,
-			say = "唔……今天矿山的出货量好大，得协调好运输船才行……",
+			say = "음…… 오늘은 광산 출하량이 많아서 수송선을 잘 조정해야겠어……",
 			face2Face = {
 				{
 					0,

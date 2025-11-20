@@ -126,6 +126,7 @@ pg.furniture_data_template = setmetatable({
 			248,
 			251,
 			254,
+			255,
 			256,
 			257,
 			258,
@@ -5956,6 +5957,7 @@ pg.furniture_data_template = setmetatable({
 			242,
 			251,
 			254,
+			255,
 			258,
 			260,
 			263,
@@ -7174,6 +7176,7 @@ pg.furniture_data_template = setmetatable({
 			245,
 			248,
 			254,
+			255,
 			256,
 			257,
 			258,
@@ -10455,6 +10458,7 @@ pg.furniture_data_template = setmetatable({
 		248,
 		251,
 		254,
+		255,
 		256,
 		257,
 		258,
@@ -19696,6 +19700,82 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[255] = {
+		advice = 0,
+		name = "스트레칭 볼",
+		count = 2,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "yujiatantanqiuicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		id = 255,
+		comfortable = 0,
+		describe = "「음…! 바른 자세로… 균형을…… 으아! 」",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujiatantanqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

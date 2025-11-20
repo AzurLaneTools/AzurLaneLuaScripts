@@ -46074,6 +46074,58 @@ _G.pg.base.item_data_statistics[40066] = {
 }
 
 
+_G.pg.base.item_data_statistics[40070] = {
+	open_directly = 1,
+	name = "선택 가능한 UR 스킨 복주머니F",
+	type = 17,
+	display = "아이템을 대량으로 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4071",
+	id = 40070,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59565,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "백년가약 패키지",
@@ -90707,6 +90759,57 @@ _G.pg.base.item_data_statistics[59564] = {
 }
 
 
+_G.pg.base.item_data_statistics[59565] = {
+	open_directly = 0,
+	name = "선택 가능한 스킨 티켓 (무사시)",
+	type = 26,
+	display = "창고에서 사용할 수 있으며, 스킨 1개를 골라 획득 가능. \n(<color=#ff5c5c>지정된 일부 스킨만 획득 가능. 획득 가능한 스킨을 이미 모두 소지하고 있는 경우에는 획득 아이템이 자동으로 「스킨 쿠폰」으로 변환됩니다.</color>)",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59565,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			305101,
+			1
+		},
+		{
+			7,
+			305102,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			305101,
+			305102
+		},
+		0,
+		59552
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59711] = {
 	open_directly = 0,
 	name = "재탄생의 새벽 ",
@@ -104170,6 +104273,48 @@ _G.pg.base.item_data_statistics[81219] = {
 }
 
 
+_G.pg.base.item_data_statistics[81220] = {
+	open_directly = 1,
+	name = "두근두근 패키지",
+	type = 17,
+	display = "구매하면 한정 기념 코인 10개, 연습 데이터 T2 12개를 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxDokidoki",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998561",
+	id = 81220,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			180001,
+			10
+		},
+		{
+			2,
+			16502,
+			12
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81407] = {
 	open_directly = 1,
 	name = "봄날 선택 패키지1",
@@ -105357,5 +105502,311 @@ _G.pg.base.item_data_statistics[100025] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180001] = {
+	open_directly = 0,
+	name = "한정 기념 코인",
+	type = 50,
+	display = "꽤 묵직한 기념 코인. 범상치 않은 광택을 띠며, 특별한 영광과 추억을 상징한다. 이 선물을 좋아하는 함선에게 주면, 호감도가 5 상승한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift01",
+	price = "",
+	order = 0,
+	rarity = 5,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180001,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180001,
+		500
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180002] = {
+	open_directly = 0,
+	name = "특산본",
+	type = 50,
+	display = "잉크의 향기와 향수를 불러일으키는 분위기가 감도는 하드커버 책. 책상에 두고 여러 번 탐독하기에 적합한 책이다. 이 선물을 좋아하는 함선에게 주면, 호감도가 1 상승한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift02",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180002,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180002,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180003] = {
+	open_directly = 0,
+	name = "꽃다발",
+	type = 50,
+	display = "화려하고도 신선한 꽃다발. 자연의 생명력과 다채로운 색상이 일상에 편안함과 기쁨을 전한다. 이 선물을 좋아하는 함선에게 주면, 호감도가 1 상승한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift03",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180003,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180003,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180004] = {
+	open_directly = 0,
+	name = "의식용 검",
+	type = 50,
+	display = "날렵한 실루엣에서 금속 특유의 차가운 빛을 뿜어내는 의식용 검. 질서와 위엄을 묵묵히 이야기하고 있다. 이 선물을 좋아하는 함선에게 주면, 호감도가 1 상승한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift04",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180004,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180004,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180005] = {
+	open_directly = 0,
+	name = "복슬복슬 인형",
+	type = 50,
+	display = "복슬복슬한 감촉의 사랑스러운 인형. 꼭 안으면 포근한 따뜻함과 순수한 미소가 마음을 달래준다. 이 선물을 좋아하는 함선에게 주면, 호감도가 1 상승한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift05",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180005,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180005,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180006] = {
+	open_directly = 0,
+	name = "앤티크 장식품",
+	type = 50,
+	display = "세월의 흔적이 깊이 스민 고풍스러운 앤티크 장식. 고요한 존재감이 공간에 차분함과 멋을 더해 준다. 이 선물을 좋아하는 함선에게 주면, 호감도가 1 상승한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift06",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180006,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180006,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180007] = {
+	open_directly = 0,
+	name = "섬세한 액세서리",
+	type = 50,
+	display = "화려하지는 않지만 정교한 솜씨로 빚어진 빛나는 장신구. 일상의 사소한 순간도 밝게 밝혀준다. 이 선물을 좋아하는 함선에게 주면, 호감도가 1 상승한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift07",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180007,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180007,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180008] = {
+	open_directly = 0,
+	name = "고급 향수",
+	type = 50,
+	display = "간소한 병에는 맑은 향기가 담겨져 있다. 세련된 취향을 가감없이 드러내는 우아한 향수. 이 선물을 좋아하는 함선에게 주면, 호감도가 1 상승한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift08",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180008,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180008,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180009] = {
+	open_directly = 0,
+	name = "게임기 세트",
+	type = 50,
+	display = "여가 시간을 완벽히 채워주는 오락용 아이템. 편하게 가지고 놀 수 있는 콘텐츠가 갖추어져 있는, 배려심 넘치는 선물이다. 이 선물을 좋아하는 함선에게 주면, 호감도가 1 상승한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift09",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180009,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180009,
+		100
+	},
 	limit = {}
 }

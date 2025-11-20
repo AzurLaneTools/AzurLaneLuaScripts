@@ -4,7 +4,7 @@ return {
 	map = {
 		{
 			100400,
-			10010040
+			10010068
 		}
 	},
 	look_weight = {
@@ -19,9 +19,10 @@ return {
 	},
 	scripts = {
 		{
+			say = "헤르모?",
 			animation = "hi",
 			characterId = 0,
-			say = "这么专注，莫非……是发现什么宝藏了？",
+			camera = "StoryCamera8",
 			face2Face = {
 				{
 					0,
@@ -34,17 +35,25 @@ return {
 			}
 		},
 		{
-			say = "嗯？指挥官……我只是在观察这些新长的小麦……",
+			say = "뭘 그리 보고 있어? 설마……보물을 발견한 거야?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "네? 지휘관님……전 그저 새로 자란 밀을 관찰하고 있었어요……",
 			animation = "shy",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "밭 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "它们是有什么特别之处吗？",
+			say = "무슨 특별한 점이 있어?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……你看，它的分蘖数会比岛外种植出的平均多上1.5个。",
+			say = "네……보세요. 여기서는 분얼수가 섬 밖에서 재배한 것보다 평균 1.5개나 더 많아요.",
 			animation = "talk",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "밭 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "生长更快，茎秆更粗壮，抗倒伏性也明显更强。",
-			subName = "农田管理员",
+			say = "성장 속도가 빠르고, 줄기도 굵직하며, 도복 저항성도 훨씬 강해요.",
+			subName = "밭 관리자",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +80,8 @@ return {
 			}
 		},
 		{
-			say = "是所有的作物都这样吗？",
+			say = "모든 작물이 다 이런가요?",
+			animation = "talk",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,29 +89,66 @@ return {
 			}
 		},
 		{
-			say = "嗯，就目前我观察到的情况来说……",
+			say = "네, 지금까지 관찰한 바로는 그래요……",
+			animation = "nod",
+			characterId = 100400,
+			subName = "밭 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "똑같은 씨앗이라도 섬에서 재배하면 외부보다 훨씬 잘 나와요.",
+			subName = "밭 관리자",
+			characterId = 100400,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "작물들이 유독 잘 자라는 원인을 찾고 싶어요……햇빛 때문일까요? 아니면 토양 문제일까요……",
+			animation = "think",
+			characterId = 100400,
+			subName = "밭 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "관찰력 정말 좋네요……",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "이건 별것 아니에요……특징이 워낙 뚜렷해서, 직접 재배해 본 사람이라면 쉽게 알 수 있어요.",
+			animation = "shy",
+			characterId = 100400,
+			subName = "밭 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "아참! 저에게 남은 밀 씨앗이 있어요. 지휘관님도 직접 재배해 볼 수 있어요.",
+			subName = "밭 관리자",
+			characterId = 100400,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			animation = "talk",
+			say = "파종부터 수확까지~ 자라나는 과정을 유심히 관찰하세요!",
 			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "即使是同样的种子，岛上种出来的都会比外面好上不少。",
-			subName = "农田管理员",
-			characterId = 100400,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "我想找出它们表现优异的原因……到底是光照？还是土壤呢……",
-			animation = "doubt",
-			characterId = 100400,
-			subName = "农田管理员",
+			subName = "밭 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,46 +156,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "真是了不起的观察力……",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "这、这没什么……特征都很明显的，只要种过就能轻松知道差异。",
-			animation = "shy",
-			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "对了！我这里还剩下一些小麦种子，指挥官也可以自己试试的。",
-			animation = "idea",
-			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "talk",
-			say = "从播种到收获~慢慢观察它们生长的全过程！",
-			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			say = "嗯，给我一些种子吧，我也来试试。",
+			say = "좋아요. 씨앗을 좀 주세요. 나도 직접 해볼게요.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

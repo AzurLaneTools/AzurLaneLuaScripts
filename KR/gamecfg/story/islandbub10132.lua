@@ -4,13 +4,13 @@ return {
 	map = {
 		{
 			101300,
-			10030003
+			10030016
 		}
 	},
 	scripts = {
 		{
 			hideTime = 3,
-			say = "呼~虽然很累，但为了看到大家开心的脸，继续加油吧！",
+			say = "후~ 피곤하긴 하지만, 모두 웃을 수 있도록 열심히 하자!",
 			hideType = 2,
 			characterId = 101300,
 			animation = "rest"

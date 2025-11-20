@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "风车转啊转……看得人……更困了……",
+			say = "풍차가 빙글빙글 도는 걸…… 보고 있으니까…… 더 졸린 것 같아……",
 			characterId = 100100
 		}
 	}

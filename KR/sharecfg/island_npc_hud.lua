@@ -23,113 +23,113 @@ pg.island_npc_hud = setmetatable({
 pg.base = pg.base or {}
 pg.base.island_npc_hud = {
 	[1001] = {
-		title = "磨坊管理员",
-		name = "奥林匹克 ",
+		title = "방앗간 관리자",
+		name = "올림픽",
 		id = 1001,
 		icon = "1001",
 		show_condition = {}
 	},
 	[1002] = {
-		title = "订单管理员 ",
-		name = "帕特莉 ",
+		title = "의뢰 관리자",
+		name = "패트리",
 		id = 1002,
 		icon = "1002",
 		show_condition = {}
 	},
 	[1003] = {
-		title = "货运管理员 ",
-		name = "斯蒂芬妮 ",
+		title = "물류 직원",
+		name = "스테파니",
 		id = 1003,
 		icon = "1003",
 		show_condition = {}
 	},
 	[1004] = {
-		title = "农田管理员 ",
-		name = "赫莫 ",
+		title = "밭 관리자",
+		name = "헤르모",
 		id = 1004,
 		icon = "1004",
 		show_condition = {}
 	},
 	[1005] = {
-		title = "牧场管理员 ",
-		name = "梅莉 ",
+		title = "목장 관리자",
+		name = "메리",
 		id = 1005,
 		icon = "1005",
 		show_condition = {}
 	},
 	[1006] = {
-		title = "矿山管理员",
-		name = "乔安 ",
+		title = "광산 관리자",
+		name = "조안",
 		id = 1006,
 		icon = "1006",
 		show_condition = {}
 	},
 	[1007] = {
-		title = "林场管理员",
-		name = "奥布莱恩 ",
+		title = "숲 관리자",
+		name = "오브라이언",
 		id = 1007,
 		icon = "1007",
 		show_condition = {}
 	},
 	[1008] = {
-		title = "商区管理员 ",
-		name = "阿莫玛 ",
+		title = "상업 지구 관리자",
+		name = "아모마",
 		id = 1008,
 		icon = "1008",
 		show_condition = {}
 	},
 	[1009] = {
-		title = "工厂管理员",
-		name = "萝莎 ",
+		title = "공장 관리자",
+		name = "로사",
 		id = 1009,
 		icon = "1009",
 		show_condition = {}
 	},
 	[1010] = {
-		title = "集会岛接待员 ",
-		name = "莉莎 ",
+		title = "하모니섬 접수",
+		name = "리사",
 		id = 1010,
 		icon = "1010",
 		show_condition = {}
 	},
 	[1011] = {
-		title = "果园管理员 ",
-		name = "露西 ",
+		title = "과수원 관리자",
+		name = "루시",
 		id = 1011,
 		icon = "1011",
 		show_condition = {}
 	},
 	[1012] = {
-		title = "啾咖啡店员 ",
-		name = "布莱梅 ",
+		title = "카페 점원",
+		name = "브레멘",
 		id = 1012,
 		icon = "1012",
 		show_condition = {}
 	},
 	[1013] = {
-		title = "集会岛向导",
-		name = "玛丽",
+		title = "하모니섬 가이드",
+		name = "마리",
 		id = 1013,
 		icon = "",
 		show_condition = {}
 	},
 	[1014] = {
-		title = "苗圃管理员 ",
-		name = "拉科尼娅",
+		title = "농원 관리자",
+		name = "라코니아",
 		id = 1014,
 		icon = "1014",
 		show_condition = {}
 	},
 	[1015] = {
-		title = "神秘商人",
-		name = "珂汀 ",
+		title = "수수께끼의 상인",
+		name = "캐틴",
 		id = 1015,
 		icon = "1015",
 		show_condition = {}
 	},
 	[1016] = {
-		title = "开发季管理员 ",
-		name = "佩芮 ",
+		title = "시즌 담당",
+		name = "피어리",
 		id = 1016,
 		icon = "",
 		show_condition = {}

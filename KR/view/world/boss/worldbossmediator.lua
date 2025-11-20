@@ -15,6 +15,7 @@ slot0.ON_ACTIVE_ARCHIVES_BOSS = "WorldBossMediator:ON_ACTIVE_ARCHIVES_BOSS"
 slot0.ON_ARCHIVES_BOSS_AUTO_BATTLE = "WorldBossMediator:ON_ARCHIVES_BOSS_AUTO_BATTLE"
 slot0.ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE = "WorldBossMediator:ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE"
 slot0.ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER = "WorldBossMediator:ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER"
+slot0.ON_UPDATE_BOSS_INFO = "WorldBossMediator:UPDATE_BOSS_INFO"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE, function (slot0, slot1)
@@ -93,11 +94,12 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.ON_FETCH_BOSS, function (slot0)
 		uv0:updateBossProxy()
 	end)
-	slot0:bind(uv0.ON_BATTLE, function (slot0, slot1, slot2, slot3)
+	slot0:bind(uv0.ON_BATTLE, function (slot0, slot1, slot2, slot3, slot4)
 		uv0:sendNotification(GAME.WORLD_BOSS_START_BATTLE, {
 			bossId = slot1,
 			isOther = slot2,
-			hpRate = slot3 or 1
+			hpRate = slot3 or 1,
+			isSimulate = slot4
 		})
 	end)
 	slot0:bind(uv0.ON_RANK_LIST, function (slot0, slot1)
@@ -117,6 +119,11 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.UPDATE_CACHE_BOSS_HP, function (slot0, slot1)
 		uv0:sendNotification(GAME.GET_CACHE_BOSS_HP, {
+			callback = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_UPDATE_BOSS_INFO, function (slot0, slot1)
+		uv0:sendNotification(GAME.WORLD_GET_BOSS, {
 			callback = slot1
 		})
 	end)

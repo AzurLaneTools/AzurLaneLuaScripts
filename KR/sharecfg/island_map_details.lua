@@ -2,7 +2,7 @@ pg = pg or {}
 pg.island_map_details = {
 	[100101] = {
 		belong_map = 1001,
-		name = "丰壤农田",
+		name = "비옥한 농지",
 		ability_id = 2001,
 		production_place_id = 101,
 		id = 100101,
@@ -10,7 +10,7 @@ pg.island_map_details = {
 	},
 	[100102] = {
 		belong_map = 1001,
-		name = "悠然牧场",
+		name = "한가로운 목장",
 		ability_id = 2002,
 		production_place_id = 102,
 		id = 100102,
@@ -18,7 +18,7 @@ pg.island_map_details = {
 	},
 	[100103] = {
 		belong_map = 1001,
-		name = "风车磨坊",
+		name = "풍차 방앗간",
 		ability_id = 2002,
 		production_place_id = 0,
 		id = 100103,
@@ -26,7 +26,7 @@ pg.island_map_details = {
 	},
 	[100201] = {
 		belong_map = 1002,
-		name = "JUU'物流",
+		name = "JUU' 물류",
 		ability_id = 7,
 		production_place_id = 0,
 		id = 100201,
@@ -34,7 +34,7 @@ pg.island_map_details = {
 	},
 	[100202] = {
 		belong_map = 1002,
-		name = "货运中心",
+		name = "화물센터",
 		ability_id = 32,
 		production_place_id = 0,
 		id = 100202,
@@ -42,7 +42,7 @@ pg.island_map_details = {
 	},
 	[100203] = {
 		belong_map = 1002,
-		name = "啾咖啡",
+		name = "쥬카페",
 		ability_id = 5009,
 		production_place_id = 901,
 		id = 100203,
@@ -50,7 +50,7 @@ pg.island_map_details = {
 	},
 	[100204] = {
 		belong_map = 1002,
-		name = "岛屿科技",
+		name = "쥬카페",
 		ability_id = 5007,
 		production_place_id = 702,
 		id = 100204,
@@ -58,7 +58,7 @@ pg.island_map_details = {
 	},
 	[100205] = {
 		belong_map = 1002,
-		name = "基地工厂",
+		name = "기지 공장",
 		ability_id = 2012,
 		production_place_id = 0,
 		id = 100205,
@@ -66,7 +66,7 @@ pg.island_map_details = {
 	},
 	[100301] = {
 		belong_map = 1003,
-		name = "自由搭建区",
+		name = "자유 건축 지역",
 		ability_id = 5003,
 		production_place_id = 0,
 		id = 100301,
@@ -74,7 +74,7 @@ pg.island_map_details = {
 	},
 	[100302] = {
 		belong_map = 1003,
-		name = "日常补给",
+		name = "자유 건축 지역",
 		ability_id = 5003,
 		production_place_id = 0,
 		id = 100302,
@@ -82,7 +82,7 @@ pg.island_map_details = {
 	},
 	[100401] = {
 		belong_map = 1004,
-		name = "沉石矿山",
+		name = "석암 광산",
 		ability_id = 2003,
 		production_place_id = 401,
 		id = 100401,
@@ -90,7 +90,7 @@ pg.island_map_details = {
 	},
 	[100402] = {
 		belong_map = 1004,
-		name = "翠土林场 ",
+		name = "우거진 벌목장",
 		ability_id = 2004,
 		production_place_id = 402,
 		id = 100402,
@@ -98,7 +98,7 @@ pg.island_map_details = {
 	},
 	[100501] = {
 		belong_map = 1005,
-		name = "坠香果园",
+		name = "향기로운 과수원",
 		ability_id = 2005,
 		production_place_id = 501,
 		id = 100501,
@@ -106,7 +106,7 @@ pg.island_map_details = {
 	},
 	[100502] = {
 		belong_map = 1005,
-		name = "青芽苗圃",
+		name = "초록색 모밭",
 		ability_id = 2006,
 		production_place_id = 502,
 		id = 100502,
@@ -114,7 +114,7 @@ pg.island_map_details = {
 	},
 	[100601] = {
 		belong_map = 1006,
-		name = "有鱼餐馆",
+		name = "유어 레스토랑",
 		ability_id = 2008,
 		production_place_id = 601,
 		id = 100601,
@@ -122,7 +122,7 @@ pg.island_map_details = {
 	},
 	[100602] = {
 		belong_map = 1006,
-		name = "白熊饮品",
+		name = "유어 레스토랑",
 		ability_id = 2009,
 		production_place_id = 602,
 		id = 100602,
@@ -130,7 +130,7 @@ pg.island_map_details = {
 	},
 	[100603] = {
 		belong_map = 1006,
-		name = "啾啾简餐",
+		name = "쥬쥬 간편식",
 		ability_id = 2010,
 		production_place_id = 603,
 		id = 100603,
@@ -138,7 +138,7 @@ pg.island_map_details = {
 	},
 	[100604] = {
 		belong_map = 1006,
-		name = "乌鱼烤肉",
+		name = "오징어 구이",
 		ability_id = 2011,
 		production_place_id = 604,
 		id = 100604,

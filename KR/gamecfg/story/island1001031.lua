@@ -1,27 +1,85 @@
 return {
-	mode = 9,
 	id = "ISLAND1001031",
+	mode = 10,
 	map = {
 		{
-			3120100,
-			10090013
-		}
-	},
-	look_weight = {
-		{
-			0.7,
-			0
+			101200,
+			10090008
 		},
 		{
-			0.3,
-			0
+			3120100,
+			10090021
 		}
 	},
 	scripts = {
 		{
-			say = "喵？！指挥官？！",
+			say = "좋아, 이 오믈렛들을 판매로 올렸어.",
+			animation = "nod",
+			characterId = 0,
+			camera = "StoryCamera4",
+			face2Face = {
+				{
+					0,
+					101200
+				}
+			},
+			turnto = {
+				{
+					3120100,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "이 진한 향기…… 과연 첫 번째 손님은 누구일까……",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "브레멘도 무척 기대돼요……",
+			animation = "nod",
+			characterId = 101200,
+			subName = "카페 점원",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			style = 2,
+			sequence = {
+				{
+					"<size=45>잠시 후……</size>",
+					2
+				}
+			}
+		},
+		{
+			say = "야옹——! 이 맛은! 틀림없다냥! 갓 구운 최상급 오믈렛의 향기다냥!",
 			characterId = 3120100,
-			animation = "amaze",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "(익숙한 목소리 같은데……)",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "어라—— 아카시잖아!",
+			characterId = 0,
 			face2Face = {
 				{
 					0,
@@ -34,8 +92,8 @@ return {
 			}
 		},
 		{
-			say = "啊呀呀！原来是指挥官喵！唔，你手上的派看起来……色泽金黄，酥皮完美，内馅饱满……",
-			animation = "curious",
+			say = "야옹?! 지휘관?!",
+			animation = "amaze",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "一定是布莱梅的巅峰之作喵！那个……你一个人也吃不完这么大一块喵，不如……",
+			say = "아이고! 지휘관이다냥! 으음, 네 손에 든 오믈렛은……색은 황금빛에, 모양이 온전하고, 속은 꽉 찬 거 보니…… 분명 브레멘의 걸작이다냥!",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +109,16 @@ return {
 			}
 		},
 		{
-			say = "{namecode:98:明石}，这是我辛苦找齐食材，在高额负债压力下得到的第一块苹果派，意义重大。",
+			say = "그거…… 혼자선 그렇게 큰 걸 다 못 먹는다냥, 그러니까……",
+			animation = "talk",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "가게에서 팔아…… 설마 돈 없는 거 아니겠지?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -59,109 +126,8 @@ return {
 			}
 		},
 		{
-			say = "不如……",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "好吧好吧……不过指挥官，只是一块苹果派你难道就满足了吗？",
-			animation = "sad",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "可以继续往下说，说完就能吃苹果派。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "咳咳——看到指挥官能在这么短的时间里就把开发区管理得井井有条，{namecode:98:明石}很是佩服喵~",
-			animation = "elation",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "但即使这样，岛屿上的食品种类也很单一对吧？",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "……说吧，又想推销什么了？",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "喵？！指挥官怎么能这样想{namecode:98:明石}喵！",
-			animation = "embarrass",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "{namecode:98:明石}是真心实意为指挥官、为开发区的蓬勃发展感到高兴和骄傲的喵！",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "而且！正是因为看到了指挥官如此英明，看到了这座岛屿无限光明的未来喵~",
-			animation = "elation",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "{namecode:98:明石}才决定，要把压箱底的好东西拿出来，全力支持您的事业喵！",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "哦？压箱底的好东西？",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "没错喵！请看{namecode:98:明石}为助力开发计划，特意给指挥官打造的——限定商店喵！",
-			nameColor = "#A9F548FF",
-			characterId = 3120100,
+			say = "당연히 있다냥! 이게 지휘관을 위한 한정 메뉴인 줄 알았다냥~",
 			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "商品可都是我跑遍各地，精挑细选，专为指挥官您的伟大开发事业所准备的喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -169,17 +135,8 @@ return {
 			}
 		},
 		{
-			say = "绝对物超所值，买到就是赚到喵！指挥官快看看吧！",
-			animation = "clap",
+			say = "알겠다냥! 브레멘, 오믈렛 하나—— 아니, 두 개 주문한다냥~",
 			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "……",
-			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

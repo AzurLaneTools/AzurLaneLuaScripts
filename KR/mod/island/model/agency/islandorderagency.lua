@@ -15,6 +15,7 @@ slot0.InitData = function(slot0, slot1)
 	slot0.tendency = slot1.daily_select or IslandOrderSlot.TENDENCY_TYPE_COMMON
 	slot0.finishCnt = slot1.daily_slot_num or 0
 	slot0.urgencyFinishCnt = slot1.time_slot_num or 0
+	slot0.nextManualReloadDelegateTime = slot1.ship_refresh or 0
 	slot0.awardIndexList = {}
 	slot2 = ipairs
 	slot3 = slot1.get_favor or {}
@@ -50,6 +51,15 @@ slot0.InitData = function(slot0, slot1)
 		end
 	end
 
+	slot0.shipOrderDelegateSlots = {}
+	slot2 = ipairs
+	slot3 = slot1.appoint_list or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot7 = IslandShipOrderDelegateSlot.New(slot6)
+		slot0.shipOrderDelegateSlots[slot7.id] = slot7
+	end
+
 	slot2 = ipairs
 	slot3 = slot1.speed_list or {}
 
@@ -78,6 +88,58 @@ end
 
 slot0.UpdateShipSlot = function(slot0, slot1)
 	slot0.shipSlotList[slot1.id] = slot1
+end
+
+slot0.CanRefreshShipOrderDelegate = function(slot0)
+	return slot0:GetNextManualReloadDelegateTime() <= pg.TimeMgr.GetInstance():GetServerTime(), slot2
+end
+
+slot0.GetDelegateList = function(slot0)
+	return slot0.shipOrderDelegateSlots
+end
+
+slot0.RemoveDelegateSlot = function(slot0, slot1)
+	if slot0.shipOrderDelegateSlots[slot1] then
+		slot0.shipOrderDelegateSlots[slot1] = nil
+	end
+end
+
+slot0.GetDelegateSlot = function(slot0, slot1)
+	return slot0.shipOrderDelegateSlots[slot1]
+end
+
+slot0.AddDelegateSlot = function(slot0, slot1)
+	slot0.shipOrderDelegateSlots[slot1.id] = slot1
+end
+
+slot0.AddDelegateSlotList = function(slot0, slot1)
+	slot0.shipOrderDelegateSlots = slot1
+end
+
+slot0.GetNextAutoReloadDelegateTime = function(slot0)
+	slot1 = pg.TimeMgr.GetInstance():GetServerTime() + 86400
+
+	for slot5, slot6 in ipairs(slot0.shipOrderDelegateSlots) do
+		slot7 = slot6:GetShowTime()
+
+		if not slot6:CanShow() and slot7 < slot1 then
+			slot1 = slot7
+		end
+	end
+
+	return slot1
+end
+
+slot0.GetNextManualReloadDelegateTime = function(slot0)
+	return slot0.nextManualReloadDelegateTime
+end
+
+slot0.UpdateNextManualReloadDelegateTime = function(slot0, slot1)
+	slot0.nextManualReloadDelegateTime = slot1
+end
+
+slot0.ReduceNextManualReloadDelegateTime = function(slot0, slot1)
+	slot0.nextManualReloadDelegateTime = slot0.nextManualReloadDelegateTime - slot1
 end
 
 slot0.AddSlot = function(slot0, slot1)
@@ -182,7 +244,7 @@ slot0.StaticGetTargetExp = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = 1, slot1 do
-		slot2 = slot2 + pg.island_order_favor[slot6].exp
+		slot2 = slot2 + (pg.island_order_favor[slot6] and slot7.exp or 0)
 	end
 
 	return slot2
@@ -190,20 +252,24 @@ end
 
 slot0.GetLevel = function(slot0)
 	for slot4, slot5 in ipairs(pg.island_order_favor.all) do
-		if slot0.exp <= slot0:StaticGetTargetExp(slot5) then
+		if slot0.exp < slot0:StaticGetTargetExp(slot5 + 1) then
 			return slot5
 		end
+	end
+
+	if slot0:IsMaxLevel() then
+		slot1 = pg.island_order_favor.all
+
+		return slot1[#slot1]
+	else
+		return 0
 	end
 end
 
 slot0.IsMaxLevel = function(slot0)
-	return slot0:StaticIsMaxLevel(slot0:GetLevel())
-end
+	slot1 = pg.island_order_favor.all
 
-slot0.StaticIsMaxLevel = function(slot0, slot1)
-	slot2 = pg.island_order_favor.all
-
-	return slot2[#slot2] <= slot1
+	return slot0:StaticGetTargetExp(slot1[#slot1]) <= slot0.exp
 end
 
 slot0.GetSlots = function(slot0)

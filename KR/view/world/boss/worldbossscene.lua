@@ -16,7 +16,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.SetBossProxy = function(slot0, slot1, slot2)
-	assert(not slot0.bossProxy)
+	if slot0.bossProxy then
+		return
+	end
 
 	slot0.bossProxy = slot1
 	slot0.metaCharacterProxy = slot2

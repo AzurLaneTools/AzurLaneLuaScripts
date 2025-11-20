@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			animation = "hi",
-			subName = "牧场管理员",
-			characterId = 100500,
-			say = "呀！是指挥官！欢迎来到梅莉的悠然牧场！",
+			say = "메리?",
+			characterId = 0,
 			face2Face = {
 				{
 					0,
@@ -35,17 +33,26 @@ return {
 			}
 		},
 		{
-			say = "我正在给未来的小家伙们收拾睡觉的地方呢！",
-			animation = "talk",
+			say = "아! 지휘관! 메리의 느긋 목장에 온 걸 환영해!",
+			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "计划上的……高精尖技术聚合而成，能让动物们获得最佳生存环境的悠然牧场……",
+			say = "난 지금 곧 태어날 꼬마 친구들의 보금자리를 준비하고 있어!",
+			subName = "목장 관리자",
+			characterId = 100500,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "계획상으로는……첨단 기술을 사용하고, 동물에게 최적의 생활 환경을 제공하는 느긋 목장……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -53,17 +60,17 @@ return {
 			}
 		},
 		{
-			say = "没错，很快这里就能变得超——级舒服，动物们一定会喜欢的！",
+			say = "맞아. 이곳은 곧 엄청나게 아늑해질 거고, 동물들도 분명 좋아할 거야!",
 			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "辛苦了梅莉……但是计划中的动物……怎么一只也没有呢？",
+			say = "수고했어, 메리……그런데 계획에 있던 동물들은……왜 하나도 없는 거지?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -71,17 +78,16 @@ return {
 			}
 		},
 		{
-			say = "计划是计划啦~现在的牧场还只有一只咯咯鸡哦，我散养着呢！",
-			animation = "embarrass",
+			say = "계획은 계획일 뿐이야~ 지금 목장에는 꼬꼬닭 한 마리밖에 없어. 방목하면서 키우고 있어!",
+			subName = "목장 관리자",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……散养？梅莉，我怎么什么都没看到？",
+			say = "……방목? 메리, 내 눈에는 아무것도 안 보이는데?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -89,18 +95,18 @@ return {
 			}
 		},
 		{
-			say = "哎呀，指挥官你真是不懂牧场的浪漫！",
+			say = "에이, 지휘관은 정말 목장의 낭만을 모르네!",
 			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "散养嘛~就是让它自由自在地在牧场范围内活动呀！",
-			subName = "牧场管理员",
+			say = "방목이잖아~ 목장 안에서 자유롭게 활동하게 두는 게 정석이지!",
+			subName = "목장 관리자",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -108,27 +114,28 @@ return {
 			}
 		},
 		{
-			say = "你看~只要这样撒上一点食物……然后再……",
+			say = "봐봐~ 이렇게 모이를 뿌리고……그다음……",
 			animation = "sow",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "咕咕咕——！开饭啦！好吃的来喽！快回来呀——！",
+			say = "구구구——! 밥 시간이야! 맛있는 거야! 어서 와——！",
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……好像什么也没发生啊。",
+			animation = "talk",
+			say = "……아무 일 없는데?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -136,48 +143,46 @@ return {
 			}
 		},
 		{
-			say = "等等！让我再试试！",
-			animation = "embarrass",
+			say = "잠깐만! 다시 해볼게!",
+			subName = "목장 관리자",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "咕咕咕——！今天有好吃的玉米粒哦！再不回来就被小鸟吃掉啦！",
+			say = "구구구——! 맛있는 옥수수 있어! 늦으면 병아리한테 다 뺏긴다!",
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "奇、奇怪……平时一叫它就扑腾扑腾跑回来了啊……",
-			animation = "doubt",
+			say = "이, 이상하네……보통 부르면 바로 달려오는데……",
+			subName = "목장 관리자",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "该不会……该不会是跑出牧场范围了吧？！",
-			animation = "embarrass",
+			say = "설마……목장 밖으로 나간 거 아니겠지?!",
+			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "nod",
-			say = "看来……我们唯一的牧场居民追求更大的自由去了。",
+			animation = "talk",
+			say = "보아하니……목장의 유일한 동물 입주자가 자유를 찾아 나갔나 봐.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -185,28 +190,27 @@ return {
 			}
 		},
 		{
-			say = "指——挥——官——！帮帮我！求求你帮我把它带回来好不好？",
+			say = "지——휘——관——! 도와줘! 걜 다시 데려와줘! 응?",
 			animation = "sad",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没有它，我的牧场梦想第一步就要完蛋了啦！",
-			animation = "embarrass",
+			say = "그애가 없으면 내 목장 드림도 끝장이야!",
+			subName = "목장 관리자",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "clap",
-			say = "好了好了，别慌~它应该不会跑远，我这就去把我们牧场的唯一居民给……请回来。",
+			animation = "nod",
+			say = "그래, 그래. 침착해~ 멀리 못 갔을 거야. 내가 바로 목장의 동물 입주자를 모셔 올게.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -214,10 +218,10 @@ return {
 			}
 		},
 		{
-			say = "嗯嗯！指挥官你最好啦！",
+			say = "응응! 지휘관 최고!",
 			animation = "nod",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

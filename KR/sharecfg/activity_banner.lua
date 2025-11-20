@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					6
+					20
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					19
+					26
 				},
 				{
 					23,
@@ -51,7 +51,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					6
+					20
 				},
 				{
 					0,
@@ -63,7 +63,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					12,
@@ -74,21 +74,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "50213",
+		type = 3,
 		id = 3,
 		pic = "temp3",
-		param = {
-			"scene core activity",
-			{
-				coreName = "SailingShip3CoreActivityUI"
-			}
-		},
 		time = {
 			{
 				{
 					2025,
 					11,
-					6
+					20
 				},
 				{
 					0,
@@ -100,7 +95,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					12,
@@ -125,7 +120,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					6
+					20
 				},
 				{
 					0,
@@ -137,7 +132,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					19
+					26
 				},
 				{
 					23,
@@ -148,21 +143,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "7503",
+		type = 3,
 		id = 5,
 		pic = "temp5",
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
 		time = {
 			{
 				{
 					2025,
 					11,
-					6
+					20
 				},
 				{
 					0,
@@ -174,48 +164,23 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					12
+					27
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -232,15 +197,18 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene Cryptolalia",
-			{}
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					11,
-					6
+					20
 				},
 				{
 					0,
@@ -252,12 +220,12 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					12
+					27
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -285,35 +253,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -386,12 +329,14 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
 			4,
-			5,
 			6,
 			7,
 			9
+		},
+		[3] = {
+			3,
+			5
 		},
 		[9] = {
 			90,

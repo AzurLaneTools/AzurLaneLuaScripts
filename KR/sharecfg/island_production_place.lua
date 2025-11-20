@@ -2,7 +2,7 @@ pg = pg or {}
 pg.island_production_place = {
 	[101] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_farm",
-		name = "丰壤农田",
+		name = "비옥한 농지",
 		map_id = 1001,
 		delegationCamera = "RoleDelegationCamera101",
 		behaviourTree = "island/nodecanvas/system/system_farm_place",
@@ -34,7 +34,7 @@ pg.island_production_place = {
 	},
 	[102] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_pasture",
-		name = "悠然牧场",
+		name = "한가로운 목장",
 		map_id = 1001,
 		delegationCamera = "RoleDelegationCamera102",
 		seed_list = "",
@@ -57,7 +57,7 @@ pg.island_production_place = {
 	},
 	[401] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_mine",
-		name = "沉石矿山",
+		name = "석암 광산",
 		map_id = 1004,
 		delegationCamera = "RoleDelegationCamera401",
 		seed_list = "",
@@ -89,7 +89,7 @@ pg.island_production_place = {
 	},
 	[402] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_felling",
-		name = "翠土林场 ",
+		name = "우거진 벌목장",
 		map_id = 1004,
 		delegationCamera = "RoleDelegationCamera402",
 		seed_list = "",
@@ -121,7 +121,7 @@ pg.island_production_place = {
 	},
 	[501] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_orchard",
-		name = "坠香果园",
+		name = "향기로운 과수원",
 		map_id = 1005,
 		delegationCamera = "RoleDelegationCamera501",
 		behaviourTree = "island/nodecanvas/system/system_orchard_place",
@@ -154,7 +154,7 @@ pg.island_production_place = {
 	},
 	[502] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_garden",
-		name = "青芽苗圃",
+		name = "초록색 모밭",
 		map_id = 1005,
 		delegationCamera = "RoleDelegationCamera502",
 		behaviourTree = "island/nodecanvas/system/system_garden_place",
@@ -183,7 +183,7 @@ pg.island_production_place = {
 	},
 	[601] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_cook",
-		name = "有鱼餐馆",
+		name = "유어 레스토랑",
 		map_id = 1006,
 		delegationCamera = "RoleDelegationCamera601",
 		seed_list = "",
@@ -204,7 +204,7 @@ pg.island_production_place = {
 	},
 	[602] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_cook",
-		name = "白熊饮品",
+		name = "백곰 음료",
 		map_id = 1006,
 		delegationCamera = "RoleDelegationCamera602",
 		seed_list = "",
@@ -225,7 +225,7 @@ pg.island_production_place = {
 	},
 	[603] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_cook",
-		name = "啾啾简餐",
+		name = "쥬쥬 간편식",
 		map_id = 1006,
 		delegationCamera = "RoleDelegationCamera603",
 		seed_list = "",
@@ -246,7 +246,7 @@ pg.island_production_place = {
 	},
 	[604] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_cook",
-		name = "乌鱼烤肉",
+		name = "오징어 구이",
 		map_id = 1006,
 		delegationCamera = "RoleDelegationCamera604",
 		seed_list = "",
@@ -267,7 +267,7 @@ pg.island_production_place = {
 	},
 	[702] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_technology",
-		name = "岛屿科技",
+		name = "아일랜드 기술",
 		map_id = 1007,
 		delegationCamera = "",
 		seed_list = "",
@@ -288,7 +288,7 @@ pg.island_production_place = {
 	},
 	[703] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_factory",
-		name = "木料加工设备",
+		name = "목재 가공",
 		map_id = 1007,
 		delegationCamera = "RoleDelegationCamera703",
 		seed_list = "",
@@ -309,7 +309,7 @@ pg.island_production_place = {
 	},
 	[704] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_factory",
-		name = "工业生产设备",
+		name = "공장 기계",
 		map_id = 1007,
 		delegationCamera = "RoleDelegationCamera704",
 		seed_list = "",
@@ -330,7 +330,7 @@ pg.island_production_place = {
 	},
 	[705] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_factory",
-		name = "电子加工设备",
+		name = "전자 부품 가공",
 		map_id = 1007,
 		delegationCamera = "RoleDelegationCamera705",
 		seed_list = "",
@@ -351,7 +351,7 @@ pg.island_production_place = {
 	},
 	[706] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_factory",
-		name = "手工制作设备",
+		name = "수공 작업대",
 		map_id = 1007,
 		delegationCamera = "RoleDelegationCamera706",
 		seed_list = "",
@@ -372,7 +372,7 @@ pg.island_production_place = {
 	},
 	[901] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_coffeeshop",
-		name = "啾咖啡",
+		name = "쥬카페",
 		map_id = 1009,
 		delegationCamera = "RoleDelegationCamera901",
 		seed_list = "",

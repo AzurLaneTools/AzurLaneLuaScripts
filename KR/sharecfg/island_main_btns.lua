@@ -2,7 +2,7 @@ pg = pg or {}
 pg.island_main_btns = {
 	{
 		ability_id = 9,
-		name = "仓库",
+		name = "창고",
 		main_type = 2,
 		btn_name = "inventory",
 		open_page = "IslandInventoryPage",
@@ -13,7 +13,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 28,
-		name = "角色",
+		name = "캐릭터",
 		main_type = 1,
 		btn_name = "char",
 		open_page = "IslandShipMainPage",
@@ -24,7 +24,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 6,
-		name = "地图",
+		name = "지도",
 		main_type = 1,
 		btn_name = "map",
 		open_page = "IslandMapPage",
@@ -35,7 +35,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 35,
-		name = "商店",
+		name = "상점",
 		main_type = 1,
 		btn_name = "shop",
 		open_page = "IslandShopPage",
@@ -60,7 +60,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 2,
-		name = "设备",
+		name = "설비",
 		main_type = 1,
 		btn_name = "device",
 		open_page = "IslandDevicePage",
@@ -71,7 +71,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 7,
-		name = "岛屿订单",
+		name = "아일랜드 의뢰",
 		main_type = 2,
 		btn_name = "order",
 		open_page = "IslandOrderPage",
@@ -82,7 +82,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 32,
-		name = "货运委托",
+		name = "운송 의뢰",
 		main_type = 2,
 		btn_name = "ship_order",
 		open_page = "IslandShipOrderPage",
@@ -93,7 +93,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 37001,
-		name = "管理",
+		name = "배치",
 		main_type = 2,
 		btn_name = "post_manage",
 		open_page = "IslandPostManagePage",
@@ -104,7 +104,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 29001,
-		name = "套餐图鉴",
+		name = "세트 도감",
 		main_type = 2,
 		btn_name = "collection",
 		open_page = "IslandSetMealHandbookPage",
@@ -115,7 +115,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 30,
-		name = "成就",
+		name = "실적",
 		main_type = 2,
 		btn_name = "achievement",
 		open_page = "IslandAchvDetailPage",
@@ -126,7 +126,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 31,
-		name = "开发季",
+		name = "시즌",
 		main_type = 1,
 		btn_name = "season",
 		open_page = "IslandSeasonPage",
@@ -137,7 +137,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 28,
-		name = "科技研发",
+		name = "기술 연구",
 		main_type = 1,
 		btn_name = "technology",
 		open_page = "IslandTechnologyPage",
@@ -148,7 +148,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 27,
-		name = "好友",
+		name = "친구",
 		main_type = 2,
 		btn_name = "friend",
 		open_page = "IslandFriendPage",
@@ -159,7 +159,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 33,
-		name = "装扮",
+		name = "스킨",
 		main_type = 2,
 		btn_name = "commander",
 		open_page = "IslandShipIslandCommanderMainPage",
@@ -170,7 +170,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 2,
-		name = "计划",
+		name = "계획",
 		main_type = 2,
 		btn_name = "task",
 		open_page = "Island3dTaskPage",
@@ -181,7 +181,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 0,
-		name = "邮件",
+		name = "우편",
 		main_type = 2,
 		btn_name = "mail",
 		open_page = "IslandMailPage",
@@ -192,7 +192,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 0,
-		name = "设置",
+		name = "설정",
 		main_type = 2,
 		btn_name = "setting",
 		open_page = "IslandSettingsPage",
@@ -203,7 +203,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 0,
-		name = "图鉴",
+		name = "도감",
 		main_type = 2,
 		btn_name = "book",
 		open_page = "IslandBookPage",
@@ -214,7 +214,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 41,
-		name = "拍照",
+		name = "사진",
 		main_type = 2,
 		btn_name = "photo",
 		open_page = "IslandPhotoMainPage",

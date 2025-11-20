@@ -28,7 +28,7 @@ slot0.OnInit = function(slot0, slot1)
 			slot0.dataMap[slot10] = {}
 		end
 
-		slot12 = slot10 == IslandIllustration.TYPES.CHAR and IslandCharIllustration.New(slot9) or IslandIllustration.New(slot9)
+		slot12 = slot0:CreateClass(slot10, slot9)
 
 		if table.contains(slot3, slot9) then
 			slot12:SetStatus(IslandIllustration.STATUS.UNLOCK)
@@ -40,23 +40,58 @@ slot0.OnInit = function(slot0, slot1)
 	end
 
 	slot0:SetPointDatas(slot2.book_collects)
+	slot0:SetRecordDatas(slot2.item_list or {})
 
-	slot0.pointAwardGotIds = {}
+	slot0.pointAwardGotMaps = {}
+	slot0.pointAwardIdsMaps = {}
 
-	for slot8, slot9 in ipairs(slot2.book_awards) do
-		table.insert(slot0.pointAwardGotIds, slot9)
+	for slot8, slot9 in ipairs(pg.island_collection_reward.get_id_list_by_type) do
+		slot0.pointAwardGotMaps[slot8] = {}
+		slot0.pointAwardIdsMaps[slot8] = slot9
+
+		table.sort(slot0.pointAwardIdsMaps[slot8], CompareFuncs({
+			function (slot0)
+				return pg.island_collection_reward[slot0].level
+			end,
+			function (slot0)
+				return slot0
+			end
+		}))
 	end
 
-	slot0.pointAwardIds = Clone(pg.island_collection_reward.all)
+	slot5 = pg.island_collection_reward
 
-	table.sort(slot0.pointAwardIds, CompareFuncs({
-		function (slot0)
-			return pg.island_collection_reward[slot0].level
+	for slot9, slot10 in ipairs(slot2.book_awards) do
+		table.insert(slot0.pointAwardGotMaps[slot5[slot10].type], slot10)
+	end
+end
+
+slot0.CreateClass = function(slot0, slot1, slot2)
+	return switch(slot1, {
+		[IslandIllustration.TYPES.CHAR] = function ()
+			return IslandCharIllustration.New(uv0)
 		end,
-		function (slot0)
-			return slot0
+		[IslandIllustration.TYPES.ITEM] = function ()
+			return IslandItemIllustration.New(uv0)
 		end
-	}))
+	}, function ()
+		return IslandIllustration.New(uv0)
+	end)
+end
+
+slot0.SetRecordDatas = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot2[slot7.id] = slot7.num
+	end
+
+	slot3 = pairs
+	slot4 = slot0.dataMap[IslandIllustration.TYPES.ITEM] or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot7:SetHistoryCnt(slot2[slot7:GetLinkConfigID()] or 0)
+	end
 end
 
 slot0.SetPointDatas = function(slot0, slot1)
@@ -94,65 +129,88 @@ slot0.GetIllustration = function(slot0, slot1, slot2)
 	return slot0.dataMap[slot1] and slot0.dataMap[slot1][slot2]
 end
 
-slot0.GetAllPoints = function(slot0)
+slot0.GetTotalPoints = function(slot0)
 	slot1 = 0
 
-	for slot5, slot6 in pairs(slot0.dataMap[IslandIllustration.TYPES.CHAR]) do
-		slot1 = slot1 + slot6:GetPoints()
+	for slot5, slot6 in pairs(slot0.dataMap) do
+		for slot10, slot11 in pairs(slot6) do
+			slot1 = slot1 + slot11:GetPoints()
+		end
 	end
 
 	return slot1
+end
+
+slot0.GetAllPoints = function(slot0, slot1)
+	slot2 = 0
+
+	for slot6, slot7 in pairs(slot0.dataMap[slot1]) do
+		slot2 = slot2 + slot7:GetPoints()
+	end
+
+	return slot2
 end
 
 slot0.GetPoints = function(slot0, slot1, slot2)
 	return slot0.dataMap[slot1][slot2]:GetPoints()
 end
 
-slot0.GetCurLevelPointAwardId = function(slot0)
-	for slot4, slot5 in ipairs(slot0.pointAwardIds) do
-		if not table.contains(slot0.pointAwardGotIds, slot5) then
-			return slot5
+slot0.GetCurLevelPointAwardId = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.pointAwardIdsMaps[slot1]) do
+		if not table.contains(slot0.pointAwardGotMaps[slot1], slot6) then
+			return slot6
 		end
 	end
 
-	return slot0.pointAwardIds[#slot0.pointAwardIds]
+	return slot0.pointAwardIdsMaps[slot1][#slot0.pointAwardIdsMaps[slot1]]
 end
 
-slot0.GetPointAwardGotIds = function(slot0)
-	return slot0.pointAwardGotIds
+slot0.GetPointAwardIds = function(slot0, slot1)
+	return slot0.pointAwardIdsMaps[slot1]
 end
 
-slot0.IsGotAllPointAward = function(slot0)
-	return table.contains(slot0.pointAwardGotIds, slot0.pointAwardIds[#slot0.pointAwardIds])
+slot0.GetPointAwardGotIds = function(slot0, slot1)
+	return slot0.pointAwardGotMaps[slot1]
 end
 
-slot0.GetCurPointInfos = function(slot0)
-	return slot0:GetAllPoints(), pg.island_collection_reward[slot0:GetCurLevelPointAwardId()].need_exp
+slot0.IsGotAllPointAward = function(slot0, slot1)
+	return table.contains(slot0.pointAwardGotMaps[slot1], slot0.pointAwardIdsMaps[slot1][#slot0.pointAwardIdsMaps[slot1]])
+end
+
+slot0.GetCurPointInfos = function(slot0, slot1)
+	return slot0:GetAllPoints(slot1), pg.island_collection_reward[slot0:GetCurLevelPointAwardId(slot1)].need_exp
 end
 
 slot0.AddCanUnlock = function(slot0, slot1, slot2)
 	slot0.dataMap[slot1][slot2]:SetStatus(IslandIllustration.STATUS.CAN_UNLOCK)
 end
 
-slot0.AddCanUnlockItems = function(slot0, slot1)
+slot0.HandlePushData = function(slot0, slot1)
 	slot2 = IslandIllustration.TYPES.ITEM
-	slot3 = ipairs
-	slot4 = slot1 or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		slot0:AddCanUnlock(slot2, slot7)
+	for slot6, slot7 in ipairs(slot1) do
+		if slot0.dataMap[slot2][slot7.id] then
+			if slot8:GetStatus() == IslandIllustration.STATUS.LOCK then
+				slot0:AddCanUnlock(slot2, slot7.id)
+			end
+
+			slot8:AddHistoryCnt(slot7.num)
+			slot8:CheckTip()
+		end
 	end
 end
 
 slot0.AddUnlock = function(slot0, slot1)
-	slot2, slot3 = IslandIllustration.GetTypeAndLinkId(slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		slot7, slot8 = IslandIllustration.GetTypeAndLinkId(slot6)
 
-	slot0.dataMap[slot2][slot3]:SetStatus(IslandIllustration.STATUS.UNLOCK)
-	slot0.dataMap[slot2][slot3]:CheckTip()
+		slot0.dataMap[slot7][slot8]:SetStatus(IslandIllustration.STATUS.UNLOCK)
+		slot0.dataMap[slot7][slot8]:CheckTip()
+	end
 end
 
 slot0.AddPointAwardGotId = function(slot0, slot1)
-	table.insert(slot0.pointAwardGotIds, slot1)
+	table.insert(slot0.pointAwardGotMaps[pg.island_collection_reward[slot1].type], slot1)
 end
 
 slot0.OnGetPointDone = function(slot0, slot1)
@@ -181,16 +239,15 @@ slot0.OnShipUpgradeOrBreakOut = function(slot0, slot1)
 end
 
 slot0.IsTipFromTypes = function(slot0, slot1)
-	slot2, slot3 = slot0:GetCurPointInfos()
-	slot5 = not slot0:IsGotAllPointAward() and slot3 <= slot2
+	for slot5, slot6 in ipairs(slot1) do
+		slot7, slot8 = slot0:GetCurPointInfos(slot6)
 
-	if table.contains(slot1, IslandIllustration.TYPES.CHAR) and slot5 then
-		return true
-	end
+		if not slot0:IsGotAllPointAward(slot6) and slot8 <= slot7 then
+			return true
+		end
 
-	for slot9, slot10 in ipairs(slot1) do
 		slot11 = pairs
-		slot12 = slot0.dataMap[slot10] or {}
+		slot12 = slot0.dataMap[slot6] or {}
 
 		for slot14, slot15 in slot11(slot12) do
 			if slot15:IsTip() then

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
+			say = "후우…… 드디어 오셨군요! 정말 감사합니다!",
 			animation = "clap",
-			subName = "货运管理员",
 			characterId = 100300,
-			say = "呼——终于等到了！指挥官你真是我的大救星！",
+			subName = "물류 직원",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "有了这些东西，货运中心的船就能启航了。",
-			subName = "货运管理员",
+			say = "아아…… 또 바빠지겠지만…… 그래도 지휘관님의 도움이 될 수 있다면 괜찮아요.",
+			subName = "물류 직원",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -44,20 +44,9 @@ return {
 			}
 		},
 		{
-			say = "啊，装船……感觉又要开始忙了……不过能帮到指挥官就好~",
-			animation = "talk",
+			say = "에헤헤, 안심하세요! 아무리 저라도 계속 게으름만 피는 건 아니라구요.",
+			subName = "물류 직원",
 			characterId = 100300,
-			subName = "货运管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "嘿嘿~放心吧！即使是我，也不会一直偷懒的啦~",
-			animation = "nod",
-			characterId = 100300,
-			subName = "货运管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

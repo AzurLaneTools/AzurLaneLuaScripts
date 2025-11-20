@@ -48,7 +48,7 @@ pg.island_set = {
 		key_value_int = 0,
 		key_value_varchar = {
 			1,
-			10,
+			25,
 			0
 		}
 	},
@@ -153,7 +153,7 @@ pg.island_set = {
 	work_points = {
 		key_value_varchar = "",
 		key = "work_points",
-		key_value_int = 15
+		key_value_int = 10
 	},
 	mining_recovery_time = {
 		key = "mining_recovery_time",
@@ -437,7 +437,7 @@ pg.island_set = {
 		key = "season_pt",
 		key_value_int = 0,
 		key_value_varchar = {
-			"岛屿开发PT",
+			"아일랜드 개발 Pt",
 			"IslandProps/season_pt"
 		}
 	},
@@ -489,7 +489,7 @@ pg.island_set = {
 		key = "farm_empty_state_info",
 		key_value_int = 0,
 		key_value_varchar = {
-			"无作物",
+			"작물이 없습니다.",
 			"islandprops/plant_seedings"
 		}
 	},
@@ -866,7 +866,7 @@ pg.island_set = {
 		key = "island_default_name",
 		key_value_int = 0,
 		key_value_varchar = {
-			"的小岛"
+			"의 아일랜드"
 		}
 	},
 	island_message_bubble_range = {
@@ -948,19 +948,47 @@ pg.island_set = {
 		key = "island_corncup_return_mail_content",
 		key_value_int = 0,
 		key_value_varchar = {
-			"岛屿科技额外消耗资源返还",
-			"感谢指挥官在岛屿计划中作出的贡献喵~"
+			"아일랜드 기술 연구 자원 보상",
+			"아일랜드 기술 연구 사양 변경에 따라 소모된 자원을 보상해드립니다. 불편을 끼쳐 드려 대단히 죄송합니다."
 		}
 	},
 	island_shiporder_refresh_cd = {
 		key_value_varchar = "",
 		key = "island_shiporder_refresh_cd",
-		key_value_int = 1800
+		key_value_int = 14400
 	},
 	island_combo_count_limit = {
 		key_value_varchar = "",
 		key = "island_combo_count_limit",
 		key_value_int = 9999
+	},
+	couple_word_cd = {
+		key_value_varchar = "",
+		key = "couple_word_cd",
+		key_value_int = 3
+	},
+	island_shiporder_refresh = {
+		key = "island_shiporder_refresh",
+		key_value_int = 0,
+		key_value_varchar = {
+			10800,
+			64800
+		}
+	},
+	island_shiporder_list_quantity = {
+		key_value_varchar = "",
+		key = "island_shiporder_list_quantity",
+		key_value_int = 6
+	},
+	island_shiporder_limit = {
+		key_value_varchar = "",
+		key = "island_shiporder_limit",
+		key_value_int = 1
+	},
+	island_guide_itemlimit = {
+		key_value_varchar = "",
+		key = "island_guide_itemlimit",
+		key_value_int = 99999
 	},
 	all = {
 		"order_complete_refresh_time",
@@ -1059,6 +1087,11 @@ pg.island_set = {
 		"agora_reloading_base_cd",
 		"island_corncup_return_mail_content",
 		"island_shiporder_refresh_cd",
-		"island_combo_count_limit"
+		"island_combo_count_limit",
+		"couple_word_cd",
+		"island_shiporder_refresh",
+		"island_shiporder_list_quantity",
+		"island_shiporder_limit",
+		"island_guide_itemlimit"
 	}
 }

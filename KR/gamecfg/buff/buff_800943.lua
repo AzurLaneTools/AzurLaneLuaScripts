@@ -23,6 +23,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
@@ -66,6 +76,16 @@ return {
 					group = 800940,
 					number = 1,
 					attr = "isInvincible"
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
 				}
 			},
 			{
@@ -115,6 +135,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
@@ -158,6 +188,16 @@ return {
 					group = 800940,
 					number = 1,
 					attr = "isInvincible"
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
 				}
 			},
 			{
@@ -207,6 +247,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
@@ -250,6 +300,16 @@ return {
 					group = 800940,
 					number = 1,
 					attr = "isInvincible"
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
 				}
 			},
 			{
@@ -299,6 +359,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
@@ -342,6 +412,16 @@ return {
 					group = 800940,
 					number = 1,
 					attr = "isInvincible"
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
 				}
 			},
 			{
@@ -391,6 +471,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
@@ -434,6 +524,16 @@ return {
 					group = 800940,
 					number = 1,
 					attr = "isInvincible"
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
 				}
 			},
 			{
@@ -495,6 +595,16 @@ return {
 				group = 800940,
 				number = 1,
 				attr = "isInvincible"
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "isInvincible_1"
 			}
 		},
 		{

@@ -9,6 +9,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.scrollNameTF = slot0._tf:Find("scrollName/Text")
 	slot0.iconTF = slot0._tf:Find("mask/icon")
 	slot0.selectedTF = slot0._tf:Find("selected")
+	slot0.phaseTF = slot0._tf:Find("phase")
 	slot0.lockTF = slot0._tf:Find("lock")
 	slot0.canUnLockTF = slot0._tf:Find("can_unlock")
 
@@ -36,14 +37,26 @@ slot0.Update = function(slot0, slot1, slot2)
 	setActive(slot0.canUnLockTF, slot4 == IslandIllustration.STATUS.CAN_UNLOCK)
 	setActive(slot0.tipTF, slot0.illustration:IsTip())
 
+	slot6 = slot3 and not slot5
+
+	setActive(slot0.phaseTF, slot6)
+
+	if slot6 then
+		setActive(slot0.phaseTF, slot0.illustration:GetCurPhase() > 0)
+
+		if slot7 > 0 then
+			GetImageSpriteFromAtlasAsync("ui/islandbookui_atlas", "item_phase_" .. slot7, slot0.phaseTF, true)
+		end
+	end
+
 	if not slot5 and slot4 ~= IslandIllustration.STATUS.CAN_UNLOCK then
 		if GetPerceptualSize(slot0.illustration:GetName()) < 7 then
 			setActive(slot0.nameTF, true)
-			setText(slot0.nameTF, slot7)
+			setText(slot0.nameTF, slot8)
 			setActive(slot0.scrollNameTF, false)
 		else
 			setActive(slot0.scrollNameTF, true)
-			setScrollText(slot0.scrollNameTF, slot7)
+			setScrollText(slot0.scrollNameTF, slot8)
 			setActive(slot0.nameTF, false)
 		end
 	else
@@ -61,7 +74,7 @@ slot0.UpdateSelected = function(slot0, slot1)
 end
 
 slot0.PlayUnlockAnim = function(slot0, slot1)
-	if slot0.illustration.id ~= slot1 then
+	if not table.contains(slot1, slot0.illustration.id) then
 		return
 	end
 

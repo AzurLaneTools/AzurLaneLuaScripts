@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "您好，集会引导员莉莎为您服务。",
+			say = "안녕하세요. 하모니섬 안내 담당 리사가 상대해 드리죠.",
 			hideType = 2,
 			characterId = 101000,
 			animation = "hi"

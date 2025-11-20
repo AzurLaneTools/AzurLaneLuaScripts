@@ -23,10 +23,9 @@ return {
 	},
 	scripts = {
 		{
-			animation = "talk",
-			subName = "矿山管理员",
-			characterId = 100600,
-			say = "终于修好了，这样一来交通线就能恢复正常运转了。",
+			animation = "hi",
+			characterId = 0,
+			say = "이렇게 하면 돼?",
 			face2Face = {
 				{
 					0,
@@ -45,10 +44,29 @@ return {
 			}
 		},
 		{
-			animation = "clap",
-			say = "说不定还能赶在晚上前把货物送到呢。",
+			animation = "rest",
+			say = "다됐어요! 드디어 수리했어요!",
+			characterId = 100600,
+			subName = "광산 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "승강장을 수리하는 건 정말 쉽지 않았어요!",
+			subName = "광산 관리자",
+			characterId = 100600,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "rest",
+			say = "이 정도면……늦기 전에 화물을 보낼 수 있겠지?",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,32 +74,41 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯嗯，真是多亏指挥官了。",
+			say = "응, 물론이지! 지휘관님이 도와주신 덕분이야!",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "광산 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "对了，作为谢礼……啊，在这儿，这个送给你——",
+			say = "아참! 답례는……여기에 있어요!",
+			subName = "광산 관리자",
 			characterId = 100600,
-			subName = "矿山管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "이걸 드릴게요.——제가 광산을 캘 때 발견한 거예요. 유니크하죠?",
+			characterId = 100600,
+			subName = "광산 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好漂亮的矿石。",
+					content = "빛나는 광석",
 					flag = 1
 				}
 			}
 		},
 		{
-			say = "是我采矿时发现的。",
-			subName = "矿山管理员",
+			say = "제말 맞죠? 반짝거리는 게, 아주 예뻐요!",
+			subName = "광산 관리자",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -89,28 +116,28 @@ return {
 			}
 		},
 		{
+			animation = "shy",
+			say = "그, 그리고 이것……",
+			characterId = 100700,
+			subName = "숲 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "제가……특별 처리를 한 목재예요. 위에 있는 무늬……별같지 않나요?",
+			subName = "숲 관리자",
+			characterId = 100700,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "고마워.",
 			animation = "nod",
-			say = "还有我的这份！是特别加工过的木材，上面的木纹是不是很像星星呀~",
-			characterId = 100700,
-			subName = "林场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "谢谢~看来你们在这里待得还算开心。",
 			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "elation",
-			say = "哼哼，车来啦~不过上面好像装满了货物，指挥官不急的话可以等下一班的。",
-			characterId = 100700,
-			subName = "林场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,25 +145,9 @@ return {
 		},
 		{
 			animation = "embarrass",
-			say = "因为交通瘫痪的原因，这里堆积了很多需要加急送往码头的货物。",
-			characterId = 100600,
-			subName = "矿山管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "没关系，由我来带着这些货物一起去码头就好。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "刚好我也很好奇现在这片区域的运作情况。",
-			characterId = 0,
+			say = "화물차 왔어요——어……그런데 위에 화물이 잔뜩 있네요……",
+			characterId = 100700,
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,35 +155,80 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "那麻烦指挥官了，这是货物清单，等货物运到港口后帮忙交给帕特莉就好。",
+			say = "역이 파손되는 바람에, 부두로 급히 보내야 할 화물이 가득 쌓여 있어요!",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "광산 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "지휘관님, 괜찮으시다면 다음 차 타도 될까요?",
+			subName = "광산 관리자",
+			characterId = 100600,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "괜찮아, 내가 화물을 가지고 부두로 갈게.",
+			animation = "shakehead",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "마침 나도 이 지역이 어떻게 돌아가는지 궁금했거든.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "clap",
+			say = "그럼 부탁드릴게요! 이건 화물 목록이에요. 항구에 도착하면 패트리에게 전해주세요!",
+			characterId = 100600,
+			subName = "광산 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "그녀라면 분명 부두에서 지켜보고 있을 거예요.",
+			characterId = 100600,
+			subName = "광산 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "帕特莉？好的，交给我吧。",
+					content = "패트리? 그래, 내게 맡겨.",
 					flag = 1
 				}
 			}
 		},
 		{
-			animation = "hi",
-			say = "指挥官，车来啦~一路顺风哦~",
+			animation = "bye",
+			say = "지휘관님……조심히 가세요.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "hi",
-			say = "一路顺风。",
+			animation = "bye",
+			say = "지휘관님, 안녕히 가세요! 다음엔 광산 차량 타보세요!",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "광산 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

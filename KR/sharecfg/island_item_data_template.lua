@@ -12,6 +12,7 @@ pg.island_item_data_template = setmetatable({
 			7,
 			8,
 			9,
+			10,
 			1000,
 			1001,
 			1002,
@@ -213,6 +214,7 @@ pg.island_item_data_template = setmetatable({
 	},
 	get_id_list_by_type = {
 		{
+			10,
 			1000,
 			1001,
 			1002,
@@ -437,6 +439,7 @@ pg.island_item_data_template = setmetatable({
 		7,
 		8,
 		9,
+		10,
 		1000,
 		1001,
 		1002,
@@ -637,8 +640,8 @@ pg.island_item_data_template = setmetatable({
 pg.base = pg.base or {}
 pg.base.island_item_data_template = {
 	{
-		name = "开发资金",
-		desc = "在岛屿开发区内流通的货币，是开发区持续发展的基础。",
+		name = "개발 자금",
+		desc = "아일랜드 개발 구역에서 유통되는 화폐. 지속적인 발전의 기본이다.",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -662,18 +665,18 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"岛屿订单",
+				"아일랜드 의뢰",
 				{}
 			},
 			{
-				"店铺经营",
+				"점포 경영",
 				{}
 			}
 		}
 	},
 	{
-		name = "开发经验",
-		desc = "岛屿的开发经验，累积足够的开发经验可以提升岛屿的开发等级",
+		name = "개발 EXP",
+		desc = "아일랜드 개발 경험치. 개발 경험치가 쌓이면 개발 등급이 상승한다.",
 		type = 4,
 		manage_influence = 0,
 		pt_num = 0,
@@ -697,18 +700,18 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"岛屿订单",
+				"아일랜드 의뢰",
 				{}
 			},
 			{
-				"计划",
+				"계획",
 				{}
 			}
 		}
 	},
 	{
-		name = "装扮染色盘",
-		desc = "盘中包含多种染料，能随心所欲地改变装扮的颜色，打造真正独一无二的装扮。 ",
+		name = "스킨 색상",
+		desc = "다양한 염료가 담긴 컬러 팔레트. 스킨 색상을 자유롭게 바꿔 나만의 스타일을 완성할 수 있다!",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -732,18 +735,18 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{}
 			},
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			}
 		}
 	},
 	{
-		name = "搭建凭证",
-		desc = "集会岛搭建凭证，使用凭证，在集会岛上搭建属于自己的乐园。",
+		name = "건축 허가증",
+		desc = "하모니섬의 건축 허가증. 이것이 있으면 섬에서 자신만의 공간을 자유롭게 꾸밀 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -768,8 +771,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	{
-		name = "地图残片-1",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "지도 조각 - 1",
+		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -794,8 +797,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	{
-		name = "地图残片-2",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "지도 조각 - 2",
+		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -820,8 +823,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	{
-		name = "地图残片-3",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "지도 조각 - 3",
+		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -846,8 +849,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	{
-		name = "地图残片-4",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "지도 조각 - 4",
+		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -872,8 +875,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	{
-		name = "地图残片-5",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "지도 조각 - 5",
+		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -897,9 +900,35 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {}
 	},
+	{
+		name = "아일랜드 시즌 Pt 교환 티켓",
+		desc = "아일랜드 시즌 개발 Pt 교환 티켓. 시즌 종료 시에 자동으로 해당 시즌의 개발 Pt로 변환됩니다(창고에서 수동으로 변환 가능).",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "islandprops/Item_6",
+		price = 1,
+		icon_normal = "props/item_island_6",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 10,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {}
+	},
 	[1000] = {
-		name = "小麦种子",
-		desc = "港区精选的小麦种子，可以产出优质的小麦。",
+		name = "밀 씨앗",
+		desc = "모항에서 엄선된 밀 씨앗. 좋은 품질의 밀을 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -919,12 +948,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -933,8 +962,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1001] = {
-		name = "玉米种子",
-		desc = "港区精选的玉米种子，蕴含丰收的力量。",
+		name = "옥수수 씨앗",
+		desc = "모항에서 엄선된 옥수수 씨앗. 농작물의 힘이 담겨져 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -954,12 +983,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -968,8 +997,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1002] = {
-		name = "旱稻种子",
-		desc = "港区精选的旱稻种子，一起等待丰收时刻吧~",
+		name = "밭벼 씨앗",
+		desc = "모항에서 엄선된 밭벼 씨앗. 수확할 때를 인내심을 가지고 기다리자.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -989,12 +1018,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1003,8 +1032,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1003] = {
-		name = "白菜种子",
-		desc = "港区精选的白菜种子，可以种出水灵灵的大白菜！",
+		name = "배추 씨앗",
+		desc = "모항에서 엄선된 배추 씨앗. 촉촉하고 커다란 배추를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1024,12 +1053,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1038,8 +1067,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1004] = {
-		name = "胡萝卜种子",
-		desc = "港区精选的胡萝卜种子，可以种出香甜的胡萝卜。",
+		name = "당근 씨앗",
+		desc = "모항에서 엄선된 당근 씨앗. 달콤한 당근을 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1059,12 +1088,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1073,8 +1102,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1005] = {
-		name = "土豆种子",
-		desc = "港区精选的土豆的种子，可以轻松种出高产的土豆。",
+		name = "감자 씨앗",
+		desc = "모항에서 엄선된 감자 씨앗. 수확량이 많은 감자를 얻을 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1094,12 +1123,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1108,8 +1137,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1006] = {
-		name = "大豆种子",
-		desc = "港区精选的大豆的种子，可以轻松种出优质的大豆。",
+		name = "대두 씨앗",
+		desc = "모항에서 엄선된 대두 씨앗. 좋은 품질의 대두를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1129,12 +1158,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1143,8 +1172,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1007] = {
-		name = "洋葱种子",
-		desc = "港区精选的洋葱种子，能轻松培育出迷人的洋葱。",
+		name = "양파 씨앗",
+		desc = "모항에서 엄선된 양파 씨앗. 매력적인 양파를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1164,12 +1193,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1178,8 +1207,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1008] = {
-		name = "牧草种子",
-		desc = "港区精选的选牧草种子，能种出丰饶的牧草。",
+		name = "목초 씨앗",
+		desc = "모항에서 엄선된 목초 씨앗. 풍부한 목초를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1199,12 +1228,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1213,8 +1242,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1009] = {
-		name = "咖啡树种",
-		desc = "港区精选的咖啡树种，可以结出风味独特的咖啡豆。",
+		name = "커피나무 씨앗",
+		desc = "모항에서 엄선된 커피나무 씨앗. 풍미가 깊은 커피콩을 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1234,12 +1263,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1248,8 +1277,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1010] = {
-		name = "亚麻种子",
-		desc = "港区精选的亚麻种子，生长迅速，纤维长且坚韧，是纺织的好帮手。",
+		name = "아마 씨앗",
+		desc = "모항에서 엄선된 아마 씨앗. 성장 속도가 빠르며, 오래 가는 튼튼한 섬유를 획득할 수 있다. 방적할 때 좋은 재료.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1269,12 +1298,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1283,8 +1312,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1011] = {
-		name = "草莓种子",
-		desc = "港区精选的草莓种子，可以种出鲜红的草莓。",
+		name = "딸기 씨앗",
+		desc = "모항에서 엄선된 딸기 씨앗. 빨간 딸기를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1304,12 +1333,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1318,8 +1347,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1012] = {
-		name = "棉花种子",
-		desc = "港区精选的棉花种子，可以结出柔软的棉花。",
+		name = "목화 씨앗",
+		desc = "모항에서 엄선된 목화 씨앗. 부드러운 목화가 열린다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1339,12 +1368,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1353,8 +1382,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1014] = {
-		name = "茶树种子",
-		desc = "港区精选的茶树种子，可以种出品质上乘的茶叶。",
+		name = "차나무 씨앗",
+		desc = "모항에서 엄선된 차나무 씨앗. 좋은 품질의 찻잎을 획득할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1374,12 +1403,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1388,8 +1417,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1015] = {
-		name = "薰衣草种子",
-		desc = "港区精选的薰衣草种子，可以种出一片紫色的花海。",
+		name = "라벤더 씨앗",
+		desc = "모항에서 엄선된 라벤더 씨앗. 보랏빛 꽃밭이 자라난다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1409,12 +1438,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1423,8 +1452,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1016] = {
-		name = "苹果树种",
-		desc = "港区培育的优质苹果树种，可以结出清脆可口的苹果。",
+		name = "사과나무 씨앗",
+		desc = "모항에서 재배한 좋은 품질의 사과나무 씨앗. 과즙이 많고 맛있는 사과를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1444,12 +1473,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1458,8 +1487,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1017] = {
-		name = "柑橘树种",
-		desc = "港区培育的优质柑橘树种，可以结出鲜甜多汁的柑橘。",
+		name = "귤나무 씨앗",
+		desc = "모항에서 재배한 좋은 품질의 귤나무 씨앗. 달콤하고 새콤한 귤나무를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1479,12 +1508,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1493,8 +1522,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1018] = {
-		name = "香蕉树种",
-		desc = "港区培育的优质香蕉树种，可以结出饱满的香蕉。",
+		name = "바나나나무 씨앗",
+		desc = "모항에서 재배한 좋은 품질의 바나나나무 씨앗. 부드러운 바나나를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1514,12 +1543,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1528,8 +1557,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1019] = {
-		name = "芒果树种",
-		desc = "港区培育的优质芒果树种，可以结出香甜的芒果。",
+		name = "망고나무 씨앗",
+		desc = "모항에서 재배한 좋은 품질의 망고나무 씨앗. 달콤한 망고를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1549,12 +1578,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1563,8 +1592,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1020] = {
-		name = "柠檬树种",
-		desc = "港区培育的优质柠檬树种，可以结出清新的柠檬。",
+		name = "레몬나무 씨앗",
+		desc = "모항에서 재배한 좋은 품질의 레몬나무 씨앗. 상큼한 레몬을 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1584,12 +1613,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1598,8 +1627,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1021] = {
-		name = "牛油果树种",
-		desc = "港区培育的优质牛油果树种，可以结出营养丰富的牛油果。",
+		name = "아보카도 나무 씨앗",
+		desc = "모항에서 재배한 좋은 품질의 아보카도나무 씨앗. 영양이 풍부한 아보카도를 수확할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1619,12 +1648,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1633,8 +1662,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[1022] = {
-		name = "橡胶树种",
-		desc = "港区精选的橡胶树种，可以产出优质的橡胶。",
+		name = "고무나무 씨앗",
+		desc = "언제든 재배, 채집이 가능하다. 휴식기가 없다!",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1654,12 +1683,12 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -1668,8 +1697,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[2000] = {
-		name = "小麦",
-		desc = "刚收获不久的新鲜小麦，制作面粉的重要原料。",
+		name = "밀",
+		desc = "막 수확한 신선한 밀. 밀가루를 만드는데 빼놓을 수 없는 재료.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1694,14 +1723,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"비옥한 농지",
 				{}
 			}
 		}
 	},
 	[2001] = {
-		name = "玉米",
-		desc = "金黄饱满的玉米，散发着田野的清甜气息。",
+		name = "옥수수",
+		desc = "황금빛 열매가 맺힌 옥수수. 밭에 달콤한 향이 감돈다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1726,14 +1755,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"비옥한 농지",
 				{}
 			}
 		}
 	},
 	[2002] = {
-		name = "大米",
-		desc = "清白色的优质大米，含有丰富的淀粉和谷物蛋白。",
+		name = "쌀",
+		desc = "새하얀 양질의 쌀. 풍부한 전분과 곡물 단백질을 포함하고 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1758,14 +1787,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"비옥한 농지",
 				{}
 			}
 		}
 	},
 	[2003] = {
-		name = "白菜",
-		desc = "清脆可口的白菜，新鲜直采！",
+		name = "배추",
+		desc = "촉촉하고 맛있는 배추. 갓 채집해서 신선하다!",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1790,14 +1819,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"비옥한 농지",
 				{}
 			}
 		}
 	},
 	[2004] = {
-		name = "胡萝卜",
-		desc = "家中常备蔬菜，营养丰富，口感清甜。",
+		name = "당근",
+		desc = "가정에서도 흔히 사용하는 채소. 영양이 풍부하고 달콤하다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1817,19 +1846,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"青芽苗圃",
+				"초록색 모밭",
 				{}
 			}
 		}
 	},
 	[2005] = {
-		name = "土豆",
-		desc = "蔬菜中的淀粉代表，可以被做成千变万化的形态。",
+		name = "감자",
+		desc = "전분하면 빼놓을 수 없는 채소. 다양한 모양으로 조리할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1854,14 +1883,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"비옥한 농지",
 				{}
 			}
 		}
 	},
 	[2006] = {
-		name = "大豆",
-		desc = "圆润饱满，富含蛋白质，除了制作美食之外，也有丰富的工业用途。",
+		name = "대두",
+		desc = "동그랗고 풍성하며, 단백질이 풍부하다. 요리뿐만 아니라 공업에서도 쓰임새가 많다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1886,14 +1915,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"비옥한 농지",
 				{}
 			}
 		}
 	},
 	[2007] = {
-		name = "洋葱",
-		desc = "紫色的外衣剥开……小心别被弄掉眼泪！",
+		name = "양파",
+		desc = "보랏빛 껍질을 벗기면… 눈물이 나올 수도 있으니 조심!",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 24,
@@ -1913,19 +1942,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"青芽苗圃",
+				"초록색 모밭",
 				{}
 			}
 		}
 	},
 	[2008] = {
-		name = "牧草",
-		desc = "高品质牧草，让牧场充满生机！",
+		name = "목초",
+		desc = "우수한 품질의 목초. 목장에 넘칠 정도의 활기를 부여한다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1950,14 +1979,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"비옥한 농지",
 				{}
 			}
 		}
 	},
 	[2009] = {
-		name = "咖啡豆",
-		desc = "香气浓郁，提神醒脑，不来一杯吗？",
+		name = "커피콩",
+		desc = "향기도 진하고 기분도 상쾌해진다. 한 잔 어떠신지…?",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 6,
@@ -1982,14 +2011,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"비옥한 농지",
 				{}
 			}
 		}
 	},
 	[2010] = {
-		name = "亚麻",
-		desc = "长纤维亚麻，适合纺线织布，你的工坊佳选！",
+		name = "아마",
+		desc = "장섬유인 아마. 실을 잣거나 천을 짜기에 안성맞춤이다. 공방 작업에도 제격이다!",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 6,
@@ -2009,19 +2038,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"青芽苗圃",
+				"초록색 모밭",
 				{}
 			}
 		}
 	},
 	[2011] = {
-		name = "草莓",
-		desc = "红彤彤的果实酸甜多汁，很适合搭配甜点食用。",
+		name = "딸기",
+		desc = "새빨간 열매가 새콤하고 맛있다. 달콤한 디저트와 잘 어우러진다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 5,
@@ -2041,19 +2070,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"青芽苗圃",
+				"초록색 모밭",
 				{}
 			}
 		}
 	},
 	[2012] = {
-		name = "棉花",
-		desc = "柔软的白色棉花，纺织业的重要材料。",
+		name = "목화",
+		desc = "부드럽고 하얀 목화. 방적에 중요한 재료.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 6,
@@ -2073,19 +2102,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"青芽苗圃",
+				"초록색 모밭",
 				{}
 			}
 		}
 	},
 	[2014] = {
-		name = "茶叶",
-		desc = "苦涩清香，享受大自然的味道~",
+		name = "찻잎",
+		desc = "쌉쌀하지만 상쾌한 향이 난다. 자연의 맛을 즐겨보자.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 14,
@@ -2105,19 +2134,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"青芽苗圃",
+				"초록색 모밭",
 				{}
 			}
 		}
 	},
 	[2015] = {
-		name = "薰衣草",
-		desc = "芬芳四溢，除点缀花园外，还能用来萃取精油。",
+		name = "라벤더",
+		desc = "풍부한 향으로 정원을 채워줄 뿐만 아니라, 정유를 추출하는 데에도 쓰인다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 35,
@@ -2137,19 +2166,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"青芽苗圃",
+				"초록색 모밭",
 				{}
 			}
 		}
 	},
 	[2016] = {
-		name = "苹果",
-		desc = "清脆多汁，富含多种维生素，可直接食用也可加工为果汁。",
+		name = "사과",
+		desc = "새콤하고 맛있다. 각종 비타민이 함유되어 있어, 그대로 먹어도 좋고 주스로 마셔도 좋다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2169,19 +2198,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"향기로운 과수원",
 				{}
 			}
 		}
 	},
 	[2017] = {
-		name = "柑橘",
-		desc = "便宜、易保存、还带有美好香气的水果。",
+		name = "감귤",
+		desc = "저렴하고 보존하기 편하며, 상쾌한 향이 매력적인 과일.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2201,19 +2230,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"향기로운 과수원",
 				{}
 			}
 		}
 	},
 	[2018] = {
-		name = "香蕉",
-		desc = "热带风情的象征，柔软香甜，富含丰富的膳食纤维。",
+		name = "바나나",
+		desc = "휴양지 느낌이 물씬 풍기는 과일. 달콤하면서도 부드러우며, 식물 섬유가 풍부하다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2233,19 +2262,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"향기로운 과수원",
 				{}
 			}
 		}
 	},
 	[2019] = {
-		name = "芒果",
-		desc = "果肉细腻的夏日水果，拥有超高的甜度，可以榨汁食用。",
+		name = "망고",
+		desc = "과육이 부드러운 여름 대표 과일. 무척 달콤하면서도 맛있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 18,
@@ -2265,19 +2294,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"향기로운 과수원",
 				{}
 			}
 		}
 	},
 	[2020] = {
-		name = "柠檬",
-		desc = "果皮清香，酸甜适中，时常用来调味。",
+		name = "레몬",
+		desc = "껍질은 상쾌한 향기가 풍기고, 내용물은 딱 좋을 정도로 새콤하다. 요리의 맛을 잡는 데에도 쓰인다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 3,
@@ -2297,19 +2326,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"향기로운 과수원",
 				{}
 			}
 		}
 	},
 	[2021] = {
-		name = "牛油果",
-		desc = "口感细腻软糯，美味无糖更健康。",
+		name = "아보카도",
+		desc = "매끄럽고 크리미한 식감. 칼로리가 적지만 맛있고 건강에 좋다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 45,
@@ -2329,19 +2358,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"향기로운 과수원",
 				{}
 			}
 		}
 	},
 	[2022] = {
-		name = "橡胶",
-		desc = "高弹性，工业加工的常见材料，用途广泛！",
+		name = "고무",
+		desc = "높은 탄성을 가진 일반적인 공업 가공 재료. 쓰임새가 많다!",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 30,
@@ -2361,19 +2390,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"향기로운 과수원",
 				{}
 			}
 		}
 	},
 	[2600] = {
-		name = "鲜肉",
-		desc = "动物产出的鲜肉，最为优质的蛋白质来源。",
+		name = "신선한 고기",
+		desc = "동물에게서 채취할 수 있는 신선한 고기. 최고급 품질의 단백질원이다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 2,
@@ -2398,14 +2427,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"한가로운 목장",
 				{}
 			}
 		}
 	},
 	[2601] = {
-		name = "鸡蛋",
-		desc = "土褐色的鸡蛋，是烹饪的常见原料。",
+		name = "달걀",
+		desc = "갈색 달걀. 요리에 자주 쓰이는 식재료.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2430,14 +2459,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"한가로운 목장",
 				{}
 			}
 		}
 	},
 	[2602] = {
-		name = "禽肉",
-		desc = "低脂肪高蛋白肉类，适合多种菜肴。",
+		name = "닭고기",
+		desc = "저지방에 고단백인 육류. 다양한 요리에 쓰인다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2462,14 +2491,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"한가로운 목장",
 				{}
 			}
 		}
 	},
 	[2603] = {
-		name = "牛奶",
-		desc = "不仅是天然的饮品，还能用来制作酸奶和奶酪等美味。",
+		name = "우유",
+		desc = "천연 음료. 가공하면 요거트나 치즈로도 만들 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2494,14 +2523,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"한가로운 목장",
 				{}
 			}
 		}
 	},
 	[2604] = {
-		name = "皮料",
-		desc = "经过简单处理的动物皮，可进一步加工为皮革。",
+		name = "가죽 재료",
+		desc = "가볍게 손질한 동물 가죽. 무두질하면 가죽으로 만들 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 10,
@@ -2526,14 +2555,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"한가로운 목장",
 				{}
 			}
 		}
 	},
 	[2605] = {
-		name = "羊毛",
-		desc = "动物身上的毛纤维，是纺织工业的重要原料。",
+		name = "양모",
+		desc = "동물에게서 얻은 털 섬유. 직물 공업에 중요한 원료다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 72,
@@ -2558,14 +2587,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"한가로운 목장",
 				{}
 			}
 		}
 	},
 	[2606] = {
-		name = "新鲜蜂蜜",
-		desc = "新鲜采集的蜂蜜，充满了自然的香甜。",
+		name = "신선한 꿀",
+		desc = "갓 채집한 꿀. 자연의 달콤한 향기가 가득하다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 2,
@@ -2585,19 +2614,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"지도에서 채집",
 				{}
 			}
 		}
 	},
 	[2700] = {
-		name = "煤炭",
-		desc = "基础的燃料，燃烧效率高，常用于加热或工业生产。",
+		name = "석탄",
+		desc = "기본적인 연료. 연소 효율이 높아 난방이나 공업 생산에 쓰인다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2622,14 +2651,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"석암 광산",
 				{}
 			}
 		}
 	},
 	[2701] = {
-		name = "铜矿",
-		desc = "富含铜元素的矿石，冶炼出的铜常用于生产电子产品。",
+		name = "구리 광석",
+		desc = "구리를 풍부하게 함유하고 있는 광석. 제련 후에는 전자 제품 제조에 자주 사용된다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2654,14 +2683,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"석암 광산",
 				{}
 			}
 		}
 	},
 	[2702] = {
-		name = "铝矿",
-		desc = "富含铝元素的矿石，冶炼出的铝常用于制造飞行器和船舶。",
+		name = "알루미늄 광석",
+		desc = "알루미늄을 풍부하게 함유하고 있는 광석. 제련 후에는 항공기나 함선 제조에 자주 사용된다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 30,
@@ -2686,14 +2715,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"석암 광산",
 				{}
 			}
 		}
 	},
 	[2703] = {
-		name = "铁矿",
-		desc = "富含铁元素的矿石，冶炼出的铁常用于建造各种建筑。",
+		name = "철광석",
+		desc = "철을 풍부하게 함유하고 있는 광석. 제련 후에는 시설 건설에 자주 사용된다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 18,
@@ -2718,14 +2747,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"석암 광산",
 				{}
 			}
 		}
 	},
 	[2704] = {
-		name = "硫矿",
-		desc = "富含硫元素的矿石，冶炼出的硫常用于制作肥料和杀虫剂。",
+		name = "황광석",
+		desc = "유황을 풍부하게 함유하고 있는 광석. 제련 후에는 비료나 살충제 제조에 자주 사용된다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 80,
@@ -2750,14 +2779,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"석암 광산",
 				{}
 			}
 		}
 	},
 	[2705] = {
-		name = "银矿",
-		desc = "富含银元素的矿石，冶炼出的银常用于制作合金和化学仪器。",
+		name = "은광석",
+		desc = "은을 풍부하게 함유하고 있는 광석. 제련 후에는 합금이나 화학 재료 제조에 자주 사용된다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 240,
@@ -2782,14 +2811,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"석암 광산",
 				{}
 			}
 		}
 	},
 	[2800] = {
-		name = "自然之木",
-		desc = "木材中的基础款，从造纸到建筑，用途广泛。",
+		name = "자연 목재",
+		desc = "기본적인 목재. 제지에서 건축까지 다양한 용도를 가진다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2814,14 +2843,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"翠土林场",
+				"우거진 벌목장",
 				{}
 			}
 		}
 	},
 	[2801] = {
-		name = "实用之木",
-		desc = "纹理美观，适合制作家具和地板。",
+		name = "실용 목재",
+		desc = "무늬가 아름다워 가구나 바닥재 제작에 적합하다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2846,14 +2875,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"翠土林场",
+				"우거진 벌목장",
 				{}
 			}
 		}
 	},
 	[2802] = {
-		name = "精选之木",
-		desc = "坚固耐用，传统造船和高端家具料。",
+		name = "엄선 목재",
+		desc = "튼튼하고 내구성이 뛰어나, 전통적인 조선이나 고급 가구 제조에 사용된다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 36,
@@ -2878,14 +2907,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"翠土林场",
+				"우거진 벌목장",
 				{}
 			}
 		}
 	},
 	[2803] = {
-		name = "典雅之木",
-		desc = "美观且坚硬，适合高档装饰和家具。",
+		name = "우아한 목재",
+		desc = "아름답고 튼튼하다. 고급 장식이나 가구 제조에 적합하다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 180,
@@ -2910,17 +2939,17 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"翠土林场",
+				"우거진 벌목장",
 				{}
 			}
 		}
 	},
 	[3000] = {
-		name = "咯咯鸡饲料",
-		desc = "专为咯咯鸡打造的高蛋白饲料，能为其提供充足的能量。",
+		name = "꼬꼬닭의 사료",
+		desc = "꼬꼬닭 전용 고단백 사료. 충분한 에너지를 공급한다.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 3,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -2937,22 +2966,22 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"방앗간",
 				{}
 			}
 		}
 	},
 	[3001] = {
-		name = "哼哼猪饲料",
-		desc = "专为哼哼猪打造的增重用饲料，适合食量大的动物食用。",
+		name = "꿀꿀이 사료",
+		desc = "꿀꿀이 전용 체중 증가용 사료. 많이 먹는 동물에게 적합하다.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 3,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -2969,19 +2998,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"방앗간",
 				{}
 			}
 		}
 	},
 	[3002] = {
-		name = "哞哞牛饲料",
-		desc = "专为哞哞牛打造的营养饲料，能帮助哞哞牛产出香甜浓郁的牛奶。",
+		name = "무무소 사료",
+		desc = "무무소 전용 영양 사료. 향기가 좋고 고소한 우유가 생산될 수 있게 해준다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 4,
@@ -3001,19 +3030,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"방앗간",
 				{}
 			}
 		}
 	},
 	[3003] = {
-		name = "咩咩羊饲料",
-		desc = "专为咩咩羊打造的玉米粉制饲料，能帮助咩咩羊长出更加柔顺的羊毛 。",
+		name = "메메양의 사료",
+		desc = "메메양 전용 옥수수 가루 사료. 더 부드러운 양털을 얻는데 도움을 준다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 4,
@@ -3033,22 +3062,22 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"방앗간",
 				{}
 			}
 		}
 	},
 	[3004] = {
-		name = "面粉",
-		desc = "由小麦磨成的白面粉，制作面包、蛋糕和披萨的必需品。",
+		name = "밀가루",
+		desc = "밀을 갈아 만든 하얀 가루. 빵, 케이크, 피자 등을 만드는데 빼놓을 수 없는 재료다.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 6,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3065,22 +3094,22 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"방앗간",
 				{}
 			}
 		}
 	},
 	[3005] = {
-		name = "冰咖啡",
-		desc = "口感清爽，适合夏日消暑和提神。",
+		name = "아이스 커피",
+		desc = "개운한 맛으로 기분을 상쾌하게 해준다!",
 		type = 1,
 		manage_influence = 190,
-		pt_num = 1,
+		pt_num = 15,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3105,14 +3134,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾咖啡",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[3006] = {
-		name = "芝士",
-		desc = "以奶类为原料制成，含有丰富的蛋白质和脂质，常用来搭配面包使用。",
+		name = "치즈",
+		desc = "우유를 원료로 만들어져, 풍부한 단백질과 지방을 함유하고 있다. 빵에 곁들여 사용할 때가 많다.",
 		type = 1,
 		manage_influence = 150,
 		pt_num = 55,
@@ -3140,14 +3169,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾咖啡",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[3007] = {
-		name = "拿铁",
-		desc = "浓缩咖啡与蒸奶混合，口感香滑，深受咖啡爱好者喜爱 。",
+		name = "라떼",
+		desc = "에스프레소와 우유를 섞은 음료. 향기가 좋고 부드러워 커피 애호가들의 사랑을 받고 있다.",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 25,
@@ -3175,17 +3204,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾咖啡",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[3008] = {
-		name = "柑橘咖啡",
-		desc = "加入了柑橘汁的咖啡饮品，以清新的酸度和自然的果香为特色。",
+		name = "시트러스 커피",
+		desc = "감귤 과즙을 더한 커피 음료. 상쾌한 산미와 과일 향이 특징이다.",
 		type = 1,
 		manage_influence = 180,
-		pt_num = 20,
+		pt_num = 25,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3210,14 +3239,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾咖啡",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[3009] = {
-		name = "苹果派",
-		desc = "将苹果馅料裹在酥皮之中，口感香甜，是经典甜点代表之一。",
+		name = "애플파이",
+		desc = "설탕으로 졸인 사과를 파이로 감싸 구운 달콤한 음식. 대표적인 디저트이다.",
 		type = 1,
 		manage_influence = 190,
 		pt_num = 35,
@@ -3237,7 +3266,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -3245,17 +3274,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾咖啡",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[3010] = {
-		name = "草莓奶绿",
-		desc = "入口细腻的奶沫，清新丝滑，口感丰富。",
+		name = "딸기 밀크쉐이크",
+		desc = "부드러운 우유 크림과 상쾌하고 부드러운 딸기가 어우러진 음료수.",
 		type = 1,
 		manage_influence = 240,
-		pt_num = 25,
+		pt_num = 60,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3280,14 +3309,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾咖啡",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[3011] = {
-		name = "豆腐",
-		desc = "白净柔嫩，由大豆制成，富含丰富的植物蛋白。",
+		name = "두부",
+		desc = "하얗고 부드럽다. 대두로 만들어 풍부한 식물성 단백질을 함유하고 있다.",
 		type = 1,
 		manage_influence = 170,
 		pt_num = 35,
@@ -3307,7 +3336,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -3315,14 +3344,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"유어 레스토랑",
 				{}
 			}
 		}
 	},
 	[3012] = {
-		name = "肉末烧豆腐",
-		desc = "经典家常菜，口感滑嫩、汤汁浓郁。",
+		name = "다진 고기 두부볶음",
+		desc = "이스트 글림의 전통 가정식. 부드러운 식감에 국물이 아주 진하다.",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 155,
@@ -3342,7 +3371,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			3,
@@ -3350,14 +3379,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"유어 레스토랑",
 				{}
 			}
 		}
 	},
 	[3013] = {
-		name = "蛋包饭",
-		desc = "金黄的煎蛋包裹着松软的米饭，每一口都充满了惊喜！",
+		name = "오므라이스",
+		desc = "노릇한 달걀 부침으로 부드러운 밥을 감싼 요리. 한 입마다 특별한 맛이 가득하다.",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 35,
@@ -3377,7 +3406,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			4,
@@ -3385,17 +3414,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"유어 레스토랑",
 				{}
 			}
 		}
 	},
 	[3014] = {
-		name = "白菜豆腐汤",
-		desc = "白菜的鲜甜与豆腐的嫩滑交织，是非常清淡健康的菜式。",
+		name = "배추 두부탕",
+		desc = "배추의 단 맛과 두부의 감칠맛이 어우러진 단백한 건강식.",
 		type = 1,
 		manage_influence = 180,
-		pt_num = 40,
+		pt_num = 65,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3412,7 +3441,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -3420,14 +3449,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"유어 레스토랑",
 				{}
 			}
 		}
 	},
 	[3015] = {
-		name = "蔬菜沙拉",
-		desc = "新鲜的蔬菜搭配香浓的酱汁，清爽可口！",
+		name = "야채 샐러드",
+		desc = "신선한 야채와 드레싱의 조합. 상큼하고 맛있다!",
 		type = 1,
 		manage_influence = 160,
 		pt_num = 10,
@@ -3447,7 +3476,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			3,
@@ -3455,14 +3484,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"유어 레스토랑",
 				{}
 			}
 		}
 	},
 	[3017] = {
-		name = "苹果汁",
-		desc = "鲜榨水果汁果香浓郁，是很受欢迎的健康饮品！",
+		name = "사과 주스",
+		desc = "갓 짜낸 주스에 과일 향이 가득하다. 건강한 인기 메뉴다!",
 		type = 1,
 		manage_influence = 200,
 		pt_num = 10,
@@ -3482,7 +3511,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -3490,17 +3519,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[3018] = {
-		name = "香蕉芒果汁",
-		desc = "香蕉与芒果的完美融合，是热带风味的浓缩！",
+		name = "바나나 망고 주스",
+		desc = "바나나와 망고의 완벽한 조화. 열대 과일의 맛이 응축되어 있다.",
 		type = 1,
 		manage_influence = 190,
-		pt_num = 20,
+		pt_num = 25,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3517,7 +3546,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -3525,14 +3554,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[3019] = {
-		name = "蜂蜜柠檬水",
-		desc = "甘甜蜂蜜与清爽柠檬的美妙融合，还能补充维c。",
+		name = "꿀 레몬 워터",
+		desc = "달콤한 꿀과 상쾌한 레몬의 절묘한 조화. 비타민 C더 섭취할 수 있다.",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 15,
@@ -3552,7 +3581,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3560,17 +3589,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[3020] = {
-		name = "草莓蜜沁",
-		desc = "草莓与柠檬的奇妙组合，清爽不腻的果味特饮。",
+		name = "딸기 레몬 드링크",
+		desc = "딸기와 레몬의 절묘한 조합으로 상큼하고도 질리지 않는 과일 풍미의 특제 음료.",
 		type = 1,
 		manage_influence = 180,
-		pt_num = 25,
+		pt_num = 50,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3587,7 +3616,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3595,14 +3624,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[3021] = {
-		name = "薰衣草茶",
-		desc = "具有净化心绪，舒解压力的作用，很适合调养身心。",
+		name = "라벤더 차",
+		desc = "마음을 진정시키고, 스트레스를 해소하여 심신을 달래준다.",
 		type = 1,
 		manage_influence = 160,
 		pt_num = 240,
@@ -3622,7 +3651,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -3630,14 +3659,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[3022] = {
-		name = "草莓蜂蜜冰沙",
-		desc = "草莓的酸甜与蜂蜜的香浓完美融合，构成甜蜜的冰沙世界。",
+		name = "딸기 꿀 프라페",
+		desc = "딸기의 새콤함과 꿀의 달콤함이 완벽하게 융합된 감미로운 프라페.",
 		type = 1,
 		manage_influence = 220,
 		pt_num = 95,
@@ -3657,7 +3686,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3665,17 +3694,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[3023] = {
-		name = "玉米杯",
-		desc = "金黄的玉米粒经过简单蒸煮变得香甜可口，是常见的美味小吃。",
+		name = "옥수수 컵",
+		desc = "가볍게 쪄낸 황금빛 옥수수 알을 컵에 담아낸 요리. 흔히 볼 수 있는 맛있는 간식.",
 		type = 1,
 		manage_influence = 180,
-		pt_num = 4,
+		pt_num = 7,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -3692,7 +3721,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -3700,14 +3729,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"쥬쥬 간편식",
 				{}
 			}
 		}
 	},
 	[3024] = {
-		name = "香橙派",
-		desc = "经典甜点，下午茶时间食用更佳。",
+		name = "오렌지 파이",
+		desc = "클래식한 디저트. 오후의 티 타임에 먹으면 맛있다.",
 		type = 1,
 		manage_influence = 185,
 		pt_num = 35,
@@ -3727,7 +3756,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -3735,14 +3764,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"쥬쥬 간편식",
 				{}
 			}
 		}
 	},
 	[3025] = {
-		name = "芒果糯米饭",
-		desc = "热带风情特色家常菜，适合没食欲的时候食用。",
+		name = "망고 찹쌀밥",
+		desc = "열대 과일의 매력을 즐길 수 있는 가정 요리. 입맛이 없을 때 먹으면 좋다.",
 		type = 1,
 		manage_influence = 160,
 		pt_num = 60,
@@ -3762,7 +3791,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			4,
@@ -3770,14 +3799,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"쥬쥬 간편식",
 				{}
 			}
 		}
 	},
 	[3026] = {
-		name = "香蕉可丽饼",
-		desc = "经典早餐，口感酥脆，老少皆宜。",
+		name = "바나나 크레페",
+		desc = "클래식한 조식 메뉴. 바삭한 식감으로 남녀노소 가리지 않고 인기가 있다.",
 		type = 1,
 		manage_influence = 170,
 		pt_num = 30,
@@ -3797,7 +3826,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -3805,14 +3834,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"쥬쥬 간편식",
 				{}
 			}
 		}
 	},
 	[3028] = {
-		name = "草莓夏洛特",
-		desc = "口感酥脆的蛋白霜底搭配香甜的草莓馅料，深受甜品爱好者的喜爱。",
+		name = "딸기 샬럿",
+		desc = "바삭바삭한 머랭에 달콤한 딸기 무스를 조합한, 디저트 애호가들의 최애 요리.",
 		type = 1,
 		manage_influence = 190,
 		pt_num = 200,
@@ -3832,7 +3861,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			4,
@@ -3840,14 +3869,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"쥬쥬 간편식",
 				{}
 			}
 		}
 	},
 	[3029] = {
-		name = "炭烤肉串",
-		desc = "外焦里嫩，香气扑鼻，烧烤派对的必备美食！",
+		name = "숯불고기 꼬치",
+		desc = "겉은 바삭하고 속은 촉촉하며, 향긋한 불맛이 가득하다. 바비큐 파티의 필수 요리다.",
 		type = 1,
 		manage_influence = 210,
 		pt_num = 40,
@@ -3867,7 +3896,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -3875,14 +3904,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"오징어 구이",
 				{}
 			}
 		}
 	},
 	[3030] = {
-		name = "禽肉土豆拼盘",
-		desc = "简单而美味，是家庭餐桌上的经典搭配！",
+		name = "닭고기 감자 플래터",
+		desc = "단순하면서도 맛있다. 가정식에서 빼놓을 수 없는 요리!",
 		type = 1,
 		manage_influence = 230,
 		pt_num = 36,
@@ -3902,7 +3931,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -3910,14 +3939,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"오징어 구이",
 				{}
 			}
 		}
 	},
 	[3032] = {
-		name = "爆炒禽肉",
-		desc = "禽肉搭配调料爆炒出锅，香气四溢！",
+		name = "닭고기 볶음",
+		desc = "닭고기를 조미료와 함께 볶아낸 요리. 고소한 냄새가 식욕을 자극한다.",
 		type = 1,
 		manage_influence = 220,
 		pt_num = 70,
@@ -3937,7 +3966,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -3945,14 +3974,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"오징어 구이",
 				{}
 			}
 		}
 	},
 	[3033] = {
-		name = "胡萝卜厚蛋烧",
-		desc = "薄薄的蛋皮裹着香甜的胡萝卜，口感层次丰富，是早餐或下午茶的绝佳选择！",
+		name = "두꺼운 당근 계란말이",
+		desc = "얇은 달걀 부침으로 달콤한 당근을 감싸 풍부한 식감을 자랑한다. 아침이나 오후 티 타임에 어울리는 요리다.",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 16,
@@ -3972,7 +4001,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -3980,14 +4009,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"오징어 구이",
 				{}
 			}
 		}
 	},
 	[3034] = {
-		name = "汉堡肉饭",
-		desc = "既有快餐的便捷，又能享受主食的饱腹感，当之无愧的多功能美食！",
+		name = "햄버그 덮밥",
+		desc = "간편한 조리로 배를 한 가득 채울 수 있다. 시간 절약에 좋은 요리다.",
 		type = 1,
 		manage_influence = 150,
 		pt_num = 100,
@@ -4007,7 +4036,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -4015,14 +4044,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"오징어 구이",
 				{}
 			}
 		}
 	},
 	[3035] = {
-		name = "布料",
-		desc = "由带有纤维的材料制成的织品，是很多日用品和工业产品的原料。",
+		name = "천",
+		desc = "섬유가 포함된 재료로 만든 천 재료. 다양한 생활용품과 공업 제품의 원료다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 34,
@@ -4042,19 +4071,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"수공 작업대",
 				{}
 			}
 		}
 	},
 	[3036] = {
-		name = "皮革",
-		desc = "由动物的皮毛加工而来，常用于服装和家具的制作。",
+		name = "가죽",
+		desc = "동물의 가죽을 가공한 재료. 의류나 가구 제작에도 자주 쓰인다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 60,
@@ -4074,19 +4103,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"수공 작업대",
 				{}
 			}
 		}
 	},
 	[3037] = {
-		name = "绳索",
-		desc = "紧实坚韧，无论是绑货物还是搭架子，都能派上用场。",
+		name = "밧줄",
+		desc = "튼튼하고 질기다. 짐을 묶을 때는 물론이고, 구조물을 세울 때도 자주 쓰인다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 72,
@@ -4106,19 +4135,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"수공 작업대",
 				{}
 			}
 		}
 	},
 	[3038] = {
-		name = "手套",
-		desc = "家家必备的保暖用品，寒冷天气出行少不了它。",
+		name = "장갑",
+		desc = "어느 가정에도 하나씩은 있는 필수 보온용품. 추운 날에 외출하려면 꼭 필요하다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 105,
@@ -4138,19 +4167,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"수공 작업대",
 				{}
 			}
 		}
 	},
 	[3039] = {
-		name = "香囊",
-		desc = "装满草药或香料，随身携带提神醒脑。",
+		name = "향낭",
+		desc = "허브나 향신료가 담긴 주머니. 가지고 다니면 정신을 맑게 해준다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 130,
@@ -4170,19 +4199,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"수공 작업대",
 				{}
 			}
 		}
 	},
 	[3040] = {
-		name = "鞋靴",
-		desc = "皮革制品，通常用于保护足部。",
+		name = "신발",
+		desc = "가죽 제품. 발을 보호하기 위해 신는다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 350,
@@ -4202,19 +4231,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"수공 작업대",
 				{}
 			}
 		}
 	},
 	[3041] = {
-		name = "绷带",
-		desc = "急救必备品，无论割伤还是擦伤，都能及时处理。",
+		name = "붕대",
+		desc = "필수 구급용품. 베이거나 긁힌 상처에 즉시 사용할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 350,
@@ -4234,19 +4263,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"수공 작업대",
 				{}
 			}
 		}
 	},
 	[3042] = {
-		name = "炭笔",
-		desc = "通常用于绘画和速写，美术常用工具的一种。",
+		name = "연필",
+		desc = "드로잉이나 스케치에 자주 사용되는 미술 도구.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 30,
@@ -4266,19 +4295,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"공장 기계",
 				{}
 			}
 		}
 	},
 	[3043] = {
-		name = "电缆",
-		desc = "现代化的象征，为众多设施提供了电力支持。",
+		name = "케이블",
+		desc = "많은 시설에 전력을 공급하는 현대 문물의 상징.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 92,
@@ -4298,19 +4327,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"공장 기계",
 				{}
 			}
 		}
 	},
 	[3044] = {
-		name = "铁钉",
-		desc = "常见建造用品，经常用于固定木板和制作家具。",
+		name = "못",
+		desc = "흔히 보이는 건축 자재. 나무판을 고정하거나, 가구를 제조하는데 사용된다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 66,
@@ -4330,19 +4359,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"공장 기계",
 				{}
 			}
 		}
 	},
 	[3045] = {
-		name = "硫酸",
-		desc = "拥有很强腐蚀性的化学品。",
+		name = "화학품",
+		desc = "강한 부식성을 가진 화학품.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 84,
@@ -4362,19 +4391,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"공장 기계",
 				{}
 			}
 		}
 	},
 	[3046] = {
-		name = "火药",
-		desc = "现代武器的必需品，需要妥善保管的危险品。",
+		name = "화약",
+		desc = "현대 무기에 자주 쓰인다. 적절한 관리가 이뤄져야 하는 위험한 물품.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 150,
@@ -4394,19 +4423,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"공장 기계",
 				{}
 			}
 		}
 	},
 	[3047] = {
-		name = "刀叉餐具",
-		desc = "家家户户，餐桌必备。",
+		name = "식기",
+		desc = "어느 가정에도 빼놓을 수 없는 필수품.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 380,
@@ -4426,22 +4455,22 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"공장 기계",
 				{}
 			}
 		}
 	},
 	[3048] = {
-		name = "纸张",
-		desc = "常以廉价的植物纤维制成，保存容易，书写方便。",
+		name = "종이",
+		desc = "저렴한 식물 섬유로 만들어지는 경우가 많다. 보관하기도 쉽고, 무언가를 기록하기 좋다.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 6,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -4458,19 +4487,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"목재 가공",
 				{}
 			}
 		}
 	},
 	[3049] = {
-		name = "记事本",
-		desc = "记满了日常事务的本子，也可当作日记本使用。",
+		name = "수첩",
+		desc = "일상적인 업무가 빼곡하게 적힌 노트. 일기장으로도 쓸 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 120,
@@ -4490,19 +4519,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"목재 가공",
 				{}
 			}
 		}
 	},
 	[3050] = {
-		name = "桌椅",
-		desc = "最常见的家具，能够提供一个休息的地方。",
+		name = "책상과 의자",
+		desc = "가장 일반적인 가구. 휴식할 곳을 제공해 준다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 80,
@@ -4522,19 +4551,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"목재 가공",
 				{}
 			}
 		}
 	},
 	[3051] = {
-		name = "精选木桶",
-		desc = "多功能工具，通常用来储存红酒或蜂蜜。",
+		name = "특선 나무통",
+		desc = "와인이나 꿀을 저장할 때 쓰이는 다기능 통.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 190,
@@ -4554,19 +4583,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"목재 가공",
 				{}
 			}
 		}
 	},
 	[3052] = {
-		name = "文件柜",
-		desc = "办公室必备，可以方便存放、管理各类文件。",
+		name = "서류 캐비닛",
+		desc = "사무실의 필수품. 각종 서류를 보관하고 관리하기 편리하다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 430,
@@ -4586,19 +4615,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"목재 가공",
 				{}
 			}
 		}
 	},
 	[3053] = {
-		name = "墨盒",
-		desc = "用来存储打印墨水，是打印机的核心组件。",
+		name = "잉크 카트리지",
+		desc = "인쇄용 잉크가 보관된 용기. 프린터의 핵심 부품이다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 55,
@@ -4618,19 +4647,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"电子加工设备",
+				"전자 부품 가공",
 				{}
 			}
 		}
 	},
 	[3054] = {
-		name = "钟表",
-		desc = "指示时间的精密仪器，常被固定在房间墙上。",
+		name = "시계",
+		desc = "시간을 알려주는 정밀 기기. 보통은 벽에 고정해서 쓴다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 310,
@@ -4650,19 +4679,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"电子加工设备",
+				"전자 부품 가공",
 				{}
 			}
 		}
 	},
 	[3055] = {
-		name = "蓄电池",
-		desc = "可重复使用，为电机、照明设备等提供稳定的能源。",
+		name = "축전지",
+		desc = "여러 번 사용할 수 있으며, 모터나 조명 장치 등에 안정적인 전력을 공급한다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 210,
@@ -4682,19 +4711,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"电子加工设备",
+				"전자 부품 가공",
 				{}
 			}
 		}
 	},
 	[3056] = {
-		name = "净水滤芯",
-		desc = "过滤掉水中的杂质，为大家提供纯净的水源！",
+		name = "정수 필터",
+		desc = "물속의 불순물을 걸러내어 깨끗한 식수를 제공한다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 360,
@@ -4714,22 +4743,22 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"电子加工设备",
+				"전자 부품 가공",
 				{}
 			}
 		}
 	},
 	[3059] = {
-		name = "欧姆蛋",
-		desc = "蓬松蛋皮包裹柔嫩内馅，金黄诱人，简单而满足的美味",
+		name = "오믈렛",
+		desc = "폭신폭신한 달걀로 부드러운 식재료를 감싼 황금빛의 유혹적인 요리. 단순하면서도 만족감이 느껴지는 맛.",
 		type = 1,
 		manage_influence = 210,
-		pt_num = 1,
+		pt_num = 2,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -4754,17 +4783,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"啾咖啡",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[3101] = {
-		name = "经典豆腐套餐",
-		desc = "肉末烧豆腐搭配白菜豆腐汤，简单美味的一餐。",
+		name = "정통 두부 세트",
+		desc = "다진 고기 두부볶음과 배추 두부 스프의 조합. 단순하면서도 맛있다.",
 		type = 1,
 		manage_influence = 210,
-		pt_num = 200,
+		pt_num = 230,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -4781,7 +4810,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -4789,14 +4818,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"유어 레스토랑",
 				{}
 			}
 		}
 	},
 	[3102] = {
-		name = "绵玉定食",
-		desc = "蓬松蛋包饭搭配温润嫩豆腐，简单却令人满足的滋味。",
+		name = "부드러운 한 상",
+		desc = "폭신한 오므라이스와 따뜻하고 부드러운 두부의 조합. 단순하지만 만족스러운 맛.",
 		type = 1,
 		manage_influence = 220,
 		pt_num = 100,
@@ -4816,7 +4845,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -4824,17 +4853,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"유어 레스토랑",
 				{}
 			}
 		}
 	},
 	[3103] = {
-		name = "花香果韵",
-		desc = "薰衣草的舒缓芬芳与苹果的清新甘甜巧妙融合，带来双重味觉享受。",
+		name = "향기로운 과일 세트",
+		desc = "라벤더의 은은한 향기와 사과의 상쾌한 단맛이 절묘하게 어우러져, 즐거움을 이중으로 느낄 수 있다.",
 		type = 1,
 		manage_influence = 210,
-		pt_num = 200,
+		pt_num = 250,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -4851,7 +4880,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -4859,14 +4888,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[3104] = {
-		name = "缤纷果乐园",
-		desc = "香甜香蕉芒果汁碰撞草莓蜂蜜冰沙，双重果味为你带去清爽的体验。",
+		name = "컬러풀 프루트 파라다이스",
+		desc = "바나나 망고 주스와 꿀 딸기 빙수 세트. 과일의 풍미로 상쾌한 맛을 선사해준다.",
 		type = 1,
 		manage_influence = 215,
 		pt_num = 120,
@@ -4886,7 +4915,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -4894,17 +4923,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[3105] = {
-		name = "阳光蜜水",
-		desc = "草莓蜜沁的甜美与蜂蜜柠檬水的清新，碰撞出活力十足的阳光味道。",
+		name = "태양의 꿀물",
+		desc = "꿀 딸기의 달콤함과 레몬 꿀물의 조합. 생기가 넘치는 태양의 맛.",
 		type = 1,
 		manage_influence = 260,
-		pt_num = 60,
+		pt_num = 70,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -4921,7 +4950,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -4929,17 +4958,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[3106] = {
-		name = "香甜组合",
-		desc = "热带芒果香糯，遇上甜脆玉米杯，一次尝遍两种幸福甜味。",
+		name = "스위트 테이스트",
+		desc = "열대 망고의 향이 풍부한 식감과 옥수수 컵의 든든함이 함께 어울려, 한 번에 두 가지 행복을 맛볼 수 있다.",
 		type = 1,
 		manage_influence = 250,
-		pt_num = 65,
+		pt_num = 70,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -4956,7 +4985,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -4964,14 +4993,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"쥬쥬 간편식",
 				{}
 			}
 		}
 	},
 	[3107] = {
-		name = "果园二重奏",
-		desc = "香蕉可丽饼的柔软搭配金黄苹果派的酥香，一次享受双重果味甜蜜。",
+		name = "과수원의 이중주",
+		desc = "부드러운 바나나 크레페와 황금빛 애플파이의 바삭함이 어우러져, 한 번에 두 과일의 달콤한 풍미를 즐길 수 있다.",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 70,
@@ -4991,7 +5020,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -4999,14 +5028,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"쥬쥬 간편식",
 				{}
 			}
 		}
 	},
 	[3108] = {
-		name = "莓果香橙甜点组",
-		desc = "草莓的浪漫邂逅香橙的阳光气息，碰撞出令人陶醉的甜点时光。",
+		name = "베리 오렌지 디저트",
+		desc = "딸기의 낭만적인 만남과 오렌지의 태양 같은 향이 융합되어, 황홀한 디저트 시간을 연출해준다.",
 		type = 1,
 		manage_influence = 210,
 		pt_num = 260,
@@ -5026,7 +5055,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -5034,14 +5063,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"쥬쥬 간편식",
 				{}
 			}
 		}
 	},
 	[3109] = {
-		name = "烤肉狂欢",
-		desc = "香烤肉串配酥嫩禽肉土豆，让你一次吃个过瘾。",
+		name = "미트 카니발",
+		desc = "고소한 꼬치와 부드러운 닭고기, 바삭한 감자튀김. 마음껏 배불리 먹을 수 있다.",
 		type = 1,
 		manage_influence = 230,
 		pt_num = 90,
@@ -5061,7 +5090,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			3,
@@ -5069,14 +5098,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"오징어 구이",
 				{}
 			}
 		}
 	},
 	[3110] = {
-		name = "能量双拼套餐",
-		desc = "经典汉堡肉饭搭配香辣爆炒禽肉，双重蛋白质满足你一天的能量。",
+		name = "에너지 더블 콤보",
+		desc = "햄버그 덮밥과 향신료의 맛을 살린 닭고기 볶음까지, 단백질이 넘치는 구성으로 하루 에너지를 보충해 준다.",
 		type = 1,
 		manage_influence = 210,
 		pt_num = 210,
@@ -5096,7 +5125,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -5104,14 +5133,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"오징어 구이",
 				{}
 			}
 		}
 	},
 	[3111] = {
-		name = "晨光活力组合",
-		desc = "蓬松欧姆蛋邂逅香浓拿铁，给你一个完美的早餐时刻。",
+		name = "아침의 활력 콤보",
+		desc = "폭신한 오믈렛과 고급스러운 라떼로 완벽한 아침 식사 시간을 만들어 준다.",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 36,
@@ -5131,7 +5160,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			5,
@@ -5139,14 +5168,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[3112] = {
-		name = "醒神套餐",
-		desc = "冰咖啡搭配浓郁芝士，苦甜平衡的经典醒神套餐。",
+		name = "굿모닝 브렉퍼스트",
+		desc = "아이스 커피와 진한 치즈, 쓴맛과 단맛의 균형이 어우러진 전형적인 아침 식사.",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 80,
@@ -5166,7 +5195,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			3,
@@ -5174,17 +5203,17 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[3113] = {
-		name = "果香双杯乐",
-		desc = "柑橘咖啡的微酸邂逅草莓奶绿的香甜，两份特调一次满足。",
+		name = "프루트 트윈즈",
+		desc = "시트러스 커피와 딸기 밀크쉐이크. 두 가지 특제 음료를 한 번에 마음껏 즐길 수 있다.",
 		type = 1,
 		manage_influence = 260,
-		pt_num = 65,
+		pt_num = 90,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -5201,7 +5230,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			3,
@@ -5209,14 +5238,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"套餐菜单",
+				"쥬카페",
 				{}
 			}
 		}
 	},
 	[4001] = {
-		name = "秋菊",
-		desc = "金黄色的秋菊，随风摇曳，是秋季观赏与泡茶的佳品。",
+		name = "가을 국화",
+		desc = "바람에 흔들리는 황금빛 가을 국화. 감상용으로도, 차로 우려 마시기에도 좋다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 40,
@@ -5240,14 +5269,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"지도에서 채집",
 				{}
 			}
 		}
 	},
 	[4002] = {
-		name = "芦苇花",
-		desc = "轻盈洁白的芦苇花，生于水岸，常用于制作干花装饰。",
+		name = "갈대꽃",
+		desc = "물가에서 자라는 가벼운 순백색 갈대 꽃. 드라이 플라워 장식으로 자주 쓰인다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 2,
@@ -5271,14 +5300,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"지도에서 채집",
 				{}
 			}
 		}
 	},
 	[4003] = {
-		name = "花生",
-		desc = "香脆可口的花生，富含蛋白质和健康脂肪。",
+		name = "땅콩",
+		desc = "고소하고 맛있는 땅콩에는 단백질과 건강한 지방이 풍부하다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -5302,14 +5331,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"지도에서 채집",
 				{}
 			}
 		}
 	},
 	[4004] = {
-		name = "松茸",
-		desc = "鲜嫩的山林珍品松茸，香气独特，是煲汤提鲜的顶级食材。",
+		name = "송이버섯",
+		desc = "신선한 산의 진미. 독특한 향취를 지니고 있어, 스프의 육수로도 쓰이는 최고급 식자재.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 95,
@@ -5333,14 +5362,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"지도에서 채집",
 				{}
 			}
 		}
 	},
 	[4005] = {
-		name = "秋月梨",
-		desc = "清甜多汁的秋月梨，果肉细腻，是生津润燥的秋季佳果。",
+		name = "아키즈키 배",
+		desc = "달콤하고 촉촉한 배. 섬세한 감촉으로 목을 적셔주는 가을의 별미.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 5,
@@ -5360,19 +5389,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"향기로운 과수원",
 				{}
 			}
 		}
 	},
 	[4006] = {
-		name = "秋月梨树种",
-		desc = "秋月梨树种，蕴藏清甜的未来，可培育优质梨树。",
+		name = "아키즈키 배 씨앗",
+		desc = "달콤한 미래가 담긴 아키즈키 배나무 씨앗. 좋은 품질의 배나무를 재배할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -5396,7 +5425,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -5405,8 +5434,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[4007] = {
-		name = "柿子",
-		desc = "红艳饱满的柿子，软糯甘甜，富含维生素，是秋日时令鲜果。",
+		name = "감",
+		desc = "선명한 붉은 빛으로 익은 감. 부드럽고 달콤하며, 비타민이 풍부한 가을 제철 과일.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 24,
@@ -5426,19 +5455,19 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"향기로운 과수원",
 				{}
 			}
 		}
 	},
 	[4008] = {
-		name = "柿子树种",
-		desc = "种下种子，收获“柿柿”如意的美好。",
+		name = "감 씨앗",
+		desc = "씨앗을 심어서 의사의 얼굴이 파랗게 질릴 정도로 건강해지자.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -5462,7 +5491,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"상점 구매",
 				{
 					"IslandShopScene",
 					"page = 1"
@@ -5471,8 +5500,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[4009] = {
-		name = "柿子饼",
-		desc = "香甜软糯的柿子饼，由鲜柿制作而成，是传统风味茶点。",
+		name = "곶감",
+		desc = "달콤하고 쫄깃한 곶감. 신선한 감으로 만든다.",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 25,
@@ -5492,7 +5521,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10129
+			10127
 		},
 		sub_attribute = {
 			4,
@@ -5500,14 +5529,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"유어 레스토랑",
 				{}
 			}
 		}
 	},
 	[4010] = {
-		name = "松茸鸡汤",
-		desc = "鲜香浓郁的松茸鸡汤，使用禽肉与松茸慢炖，温补滋养。",
+		name = "송이버섯 닭고기 스프",
+		desc = "향기롭고 진한 송이버섯과 닭고기 수프. 송이버섯과 닭고기를 정성스럽게 끓인, 따뜻한 보양 음식.",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 135,
@@ -5527,7 +5556,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10129
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -5535,14 +5564,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"유어 레스토랑",
 				{}
 			}
 		}
 	},
 	[4011] = {
-		name = "秋季花束",
-		desc = "温暖橘黄的秋季花束，精选菊花、芦苇等时令花材，装点秋意。",
+		name = "가을 꽃다발",
+		desc = "따뜻한 오렌지빛 꽃다발. 국화, 갈대 등 제철 꽃 재료를 엄선하여 가을 분위기를 연출한다.",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 70,
@@ -5570,14 +5599,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"手工制作设备",
+				"수공 작업대",
 				{}
 			}
 		}
 	},
 	[4012] = {
-		name = "花生油",
-		desc = "醇香浓郁的花生油，由优质花生压榨，是健康烹饪用油。",
+		name = "땅콩기름",
+		desc = "부드러운 땅콩기름. 좋은 땅콩을 짜서 만든 건강한 조리용 기름.",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 100,
@@ -5605,14 +5634,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"手工制作设备",
+				"수공 작업대",
 				{}
 			}
 		}
 	},
 	[4013] = {
-		name = "胡萝卜秋梨汁",
-		desc = "鲜榨甘甜的胡萝卜秋梨汁，融合秋梨的清润与胡萝卜的营养，清爽解渴。",
+		name = "당근과 배 주스",
+		desc = "당근과 배를 사용한 신선하고 달콤한 주스. 당근의 영양과 배의 깔끔한 맛이 어우러진 상쾌한 음료.",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 20,
@@ -5640,14 +5669,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[4014] = {
-		name = "菊花茶",
-		desc = "淡雅清香的菊花茶，冲泡秋菊花瓣，清热降火，回味甘醇。",
+		name = "국화차",
+		desc = "우아하고 맑은 향을 지닌 국화차. 국화 꽃잎을 우려내, 열을 내려주고 담백한 여운을 입안에 남긴다.",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 100,
@@ -5675,14 +5704,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"백곰 음료",
 				{}
 			}
 		}
 	},
 	[100001] = {
-		name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		name = "아일랜드 EXP 교본 T1",
+		desc = "아일랜드 생활의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 조금 증가한다.",
 		type = 5,
 		manage_influence = 0,
 		pt_num = 0,
@@ -5706,22 +5735,22 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发商店",
+				"상점",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100002] = {
-		name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		name = "아일랜드 EXP 교본 T2",
+		desc = "아일랜드 생활 경험을 자세히 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 어느 정도 증가한다.",
 		type = 5,
 		manage_influence = 0,
 		pt_num = 0,
@@ -5745,22 +5774,22 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发商店",
+				"상점",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100003] = {
-		name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		name = "아일랜드 EXP 교본 T3",
+		desc = "아일랜드 생활에 대한 풍부한 노하우가 가득 담긴 지침서. 사용하면 캐릭터의 아일랜드 EXP가 대폭 증가한다.",
 		type = 5,
 		manage_influence = 0,
 		pt_num = 0,
@@ -5784,22 +5813,22 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发商店",
+				"상점",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100011] = {
-		name = "经营指南T1",
-		desc = "一本内容基础的经营技巧指南。使用后，角色的经营能力将少量提升。",
+		name = "경영 교본 T1",
+		desc = "경영 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 경영 능력치가 조금 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -5823,18 +5852,18 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100012] = {
-		name = "经营指南T2",
-		desc = "一本内容详细的经营技巧指南。使用后，角色的经营能力将中幅提升。",
+		name = "경영 교본 T2",
+		desc = "경영 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 경영 능력치가 어느 정도 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -5858,14 +5887,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			}
 		}
 	},
 	[100013] = {
-		name = "经营指南T3",
-		desc = "一本内容丰富的经营技巧指南。使用后，角色的经营能力将大幅提升。",
+		name = "경영 교본 T3",
+		desc = "경영 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 경영 능력치가 대폭 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -5890,8 +5919,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	[100021] = {
-		name = "种植指南T1",
-		desc = "一本内容基础的种植技巧指南。使用后，角色的种植能力将少量提升。",
+		name = "농업 교본 T1",
+		desc = "농업 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 농업 능력치가 조금 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -5915,18 +5944,18 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100022] = {
-		name = "种植指南T2",
-		desc = "一本内容详细的种植技巧指南。使用后，角色的种植能力将中幅提升。",
+		name = "농업 교본 T2",
+		desc = "농업 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 농업 능력치가 어느 정도 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -5950,14 +5979,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			}
 		}
 	},
 	[100023] = {
-		name = "种植指南T3",
-		desc = "一本内容丰富的种植技巧指南。使用后，角色的种植能力将大幅提升。",
+		name = "농업 교본 T3",
+		desc = "농업 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 농업 능력치가 대폭 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -5982,8 +6011,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	[100031] = {
-		name = "制造指南T1",
-		desc = "一本内容基础的制造技巧指南。使用后，角色的制造能力将少量提升。",
+		name = "제작 교본 T1",
+		desc = "제작 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 제작 능력치가 조금 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6007,18 +6036,18 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100032] = {
-		name = "制造指南T2",
-		desc = "一本内容详细的制造技巧指南。使用后，角色的制造能力将中幅提升。",
+		name = "제작 교본 T2",
+		desc = "제작 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 제작 능력치가 어느 정도 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6042,14 +6071,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			}
 		}
 	},
 	[100033] = {
-		name = "制造指南T3",
-		desc = "一本内容丰富的制造技巧指南。使用后，角色的制造能力将大幅提升。",
+		name = "제작 교본 T3",
+		desc = "제작 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 제작 능력치가 대폭 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6074,8 +6103,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	[100041] = {
-		name = "采集指南T1",
-		desc = "一本内容基础的采集技巧指南。使用后，角色的采集能力将少量提升。",
+		name = "채집 교본 T1",
+		desc = "채집 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 채집 능력치가 조금 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6099,18 +6128,18 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100042] = {
-		name = "采集指南T2",
-		desc = "一本内容详细的采集技巧指南。使用后，角色的采集能力将中幅提升。",
+		name = "채집 교본 T2",
+		desc = "채집 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 채집 능력치가 어느 정도 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6134,14 +6163,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			}
 		}
 	},
 	[100043] = {
-		name = "采集指南T3",
-		desc = "一本内容丰富的采集技巧指南。使用后，角色的采集能力将大幅提升。",
+		name = "채집 교본 T3",
+		desc = "채집 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 채집 능력치가 대폭 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6166,8 +6195,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	[100051] = {
-		name = "养护指南T1",
-		desc = "一本内容基础的养护技巧指南。使用后，能少量提升角色的养护能力。",
+		name = "사육 교본 T1",
+		desc = "사육 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 사육 능력치가 조금 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6191,18 +6220,18 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100052] = {
-		name = "养护指南T2",
-		desc = "一本内容详细的养护技巧指南。使用后，角色的养护能力将中幅提升。",
+		name = "사육 교본 T2",
+		desc = "사육 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 사육 능력치가 어느 정도 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6226,14 +6255,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			}
 		}
 	},
 	[100053] = {
-		name = "养护指南T3",
-		desc = "一本内容丰富的养护技巧指南。使用后，角色的养护能力将大幅提升。",
+		name = "사육 교본 T3",
+		desc = "사육 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 사육 능력치가 대폭 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6258,8 +6287,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	[100061] = {
-		name = "烹调指南T1",
-		desc = "一本内容基础的烹调技巧指南。使用后，角色的烹调能力将少量提升。",
+		name = "요리 교본 T1",
+		desc = "요리 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 요리 능력치가 조금 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6283,18 +6312,18 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100062] = {
-		name = "烹调指南T2",
-		desc = "一本内容详细的烹调技巧指南。使用后，角色的烹调能力将中幅提升。",
+		name = "요리 교본 T2",
+		desc = "요리 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 요리 능력치가 어느 정도 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6318,14 +6347,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			}
 		}
 	},
 	[100063] = {
-		name = "烹调指南T3",
-		desc = "一本内容丰富的烹调技巧指南。使用后，角色的烹调能力将大幅提升。",
+		name = "요리 교본 T3",
+		desc = "요리 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 요리 능력치가 대폭 상승한다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6350,8 +6379,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	[100101] = {
-		name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		name = "생산 기술 교본 T1",
+		desc = "생산 기술에 대한 기초 지식이 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 조금 향상된다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6375,22 +6404,22 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发商店",
+				"상점",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100102] = {
-		name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		name = "생산 기술 교본 T2",
+		desc = "생산 기술에 대한 지식이 자세히 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 어느 정도 향상된다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6414,22 +6443,22 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发商店",
+				"상점",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100103] = {
-		name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		name = "생산 기술 교본 T3",
+		desc = "생산 기술에 대한 지식이 풍부하게 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 대폭 향상된다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6453,22 +6482,22 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"합계 PT",
 				{}
 			},
 			{
-				"开发商店",
+				"상점",
 				{}
 			},
 			{
-				"开发计划",
+				"개발 계획",
 				{}
 			}
 		}
 	},
 	[100201] = {
-		name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		name = "아일랜드 개발 결정",
+		desc = "아일랜드 개발 경험의 결정체. 캐릭터 돌파에 필요한 재료.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6492,14 +6521,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发商店",
+				"상점",
 				{}
 			}
 		}
 	},
 	[110001] = {
-		name = "海盐特饮",
-		desc = "使用后恢复角色50体力。基础款能量特饮，咸甜交织的独特口感，像海风拂过舌尖。",
+		name = "씨솔트 드링크",
+		desc = "체력 50 회복. 이를 좋아하는 캐릭터는 추가로 버프 효과를 얻는다. 마치 바닷바람이 혀끝을 스친 것처럼 짭짤하고도 달콤한 독특한 맛이 느껴진다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6532,18 +6561,18 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"일상 보급",
 				{}
 			},
 			{
-				"每日计划",
+				"일간",
 				{}
 			}
 		}
 	},
 	[110002] = {
-		name = "新叶特饮",
-		desc = "使用后恢复角色50体力，全能力提高3%，持续8小时。散发着嫩芽的清香，清新提神。",
+		name = "신록 드링크",
+		desc = "체력 50 회복. 마치 바닷바람이 혀끝을 스친 것처럼 짭짤하고도 달콤한 독특한 맛이 느껴진다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6578,14 +6607,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"일상 보급",
 				{}
 			}
 		}
 	},
 	[110003] = {
-		name = "草莓特饮",
-		desc = "使用后恢复角色50体力，生产基础资材时，产出所需时间缩短5%，持续8小时。饱含草莓的甜香，酸甜之中活力满满。",
+		name = "딸기 드링크",
+		desc = "체력을 50 회복하고, 8시간 동안 기본 자원 생산 시 필요 시간이 5% 단축된다. 딸기의 달콤한 향이 활기찬 하루를 만들어 준다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6620,14 +6649,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"일상 보급",
 				{}
 			}
 		}
 	},
 	[110004] = {
-		name = "金桔特饮",
-		desc = "使用后恢复角色50体力，在基地工厂制作产品时，产出所需时间缩短5%，持续8小时。带着金桔微涩的口感，清爽解乏一口回甘。",
+		name = "금귤 드링크",
+		desc = "체력을 50 회복하고, 8시간 동안 기지 공장에서의 아이템 제작 필요 시간이 5% 단축된다. 금귤의 쌉쌀한 맛 뒤에 따라오는 달콤한 여운이 기분을 상쾌하게 해준다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6662,14 +6691,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"일상 보급",
 				{}
 			}
 		}
 	},
 	[110005] = {
-		name = "蓝莓特饮",
-		desc = "使用后恢复角色50体力，制作店铺餐品时，烹饪所需时间缩短5%，持续8小时。融汇蓝莓酸甜，馥郁果香令人愉悦。",
+		name = "베리 드링크",
+		desc = "체력을 50 회복하고, 8시간 동안 가게에서의 요리 아이템 제작 필요 시간이 5% 단축된다. 상큼하고 달콤한, 프루티한 베리의 즐거운 맛.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6704,14 +6733,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"일상 보급",
 				{}
 			}
 		}
 	},
 	[110006] = {
-		name = "葡萄特饮",
-		desc = "使用后恢复角色50体力，角色经营店铺时，销售额提高5%，持续8小时。每一口都是圆润饱满的甜蜜风味。",
+		name = "포도 드링크",
+		desc = "체력을 50 회복하고, 8시간 동안 가게에서 점원 담당 시 가게 매상이 5% 오른다. 부드럽고도 달콤한 풍미가 매력적이다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6744,14 +6773,14 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"일상 보급",
 				{}
 			}
 		}
 	},
 	[200001] = {
-		name = "柴郡岛屿权限认证函",
-		desc = "柴郡的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "체셔 - 아일랜드 권한 인증",
+		desc = "체셔의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6775,14 +6804,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩赏",
+				"별빛상",
 				{}
 			}
 		}
 	},
 	[200002] = {
-		name = "萨拉托加岛屿权限认证函",
-		desc = "萨拉托加的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "새러토가 - 아일랜드 권한 인증",
+		desc = "새러토가의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6807,8 +6836,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	[200003] = {
-		name = "{namecode:98:明石}岛屿权限认证函",
-		desc = "{namecode:98:明石}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "아카시 - 아일랜드 권한 인증",
+		desc = "아카시의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6832,14 +6861,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"计划",
+				"계획",
 				{}
 			}
 		}
 	},
 	[200004] = {
-		name = "{namecode:97:大凤}岛屿权限认证函",
-		desc = "{namecode:97:大凤}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "다이호 - 아일랜드 권한 인증",
+		desc = "다이호의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6864,8 +6893,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	[200005] = {
-		name = "{namecode:199:新泽西}岛屿权限认证函",
-		desc = "{namecode:199:新泽西}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "뉴저지 - 아일랜드 권한 인증",
+		desc = "뉴저지의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6889,14 +6918,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"기술",
 				{}
 			}
 		}
 	},
 	[200006] = {
-		name = "{namecode:18:岛风}岛屿权限认证函",
-		desc = "{namecode:18:岛风}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "시마카제 - 아일랜드 권한 인증",
+		desc = "시마카제의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6920,14 +6949,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"도감",
 				{}
 			}
 		}
 	},
 	[200007] = {
-		name = "应瑞岛屿权限认证函",
-		desc = "应瑞的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "잉 루이 - 아일랜드 권한 인증",
+		desc = "잉 루이의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6951,14 +6980,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"기술",
 				{}
 			}
 		}
 	},
 	[200008] = {
-		name = "恶毒岛屿权限认证函",
-		desc = "恶毒的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "르 말랭 - 아일랜드 권한 인증",
+		desc = "르 말랭의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6982,14 +7011,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"成就",
+				"실적",
 				{}
 			}
 		}
 	},
 	[200009] = {
-		name = "独角兽岛屿权限认证函",
-		desc = "独角兽的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "유니콘 - 아일랜드 권한 인증",
+		desc = "유니콘의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7013,14 +7042,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩赏",
+				"별빛상",
 				{}
 			}
 		}
 	},
 	[200010] = {
-		name = "塔什干岛屿权限认证函",
-		desc = "塔什干的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "타슈켄트 - 아일랜드 권한 인증",
+		desc = "타슈켄트의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7044,14 +7073,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"기술",
 				{}
 			}
 		}
 	},
 	[200011] = {
-		name = "胡德岛屿权限认证函",
-		desc = "胡德的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "후드 - 아일랜드 권한 인증",
+		desc = "후드의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7075,14 +7104,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"기술",
 				{}
 			}
 		}
 	},
 	[200012] = {
-		name = "{namecode:193:小天城}岛屿权限认证函",
-		desc = "{namecode:193:小天城}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "꼬마 아마기 - 아일랜드 권한 인증",
+		desc = "꼬마 아마기의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7106,14 +7135,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩赏",
+				"별빛상",
 				{}
 			}
 		}
 	},
 	[200013] = {
-		name = "{namecode:427:欧根亲王}岛屿权限认证函",
-		desc = "{namecode:427:欧根亲王}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "프린츠 오이겐 - 아일랜드 권한 인증",
+		desc = "프린츠 오이겐의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7138,8 +7167,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	[200014] = {
-		name = "肇和岛屿权限认证函",
-		desc = "肇和的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "차오 호 - 아일랜드 권한 인증",
+		desc = "차오 호의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7163,14 +7192,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"기술",
 				{}
 			}
 		}
 	},
 	[200015] = {
-		name = "莱昂纳多·达·芬奇岛屿权限认证函",
-		desc = "莱昂纳多·达·芬奇的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "레오나르도 다 빈치 - 아일랜드 권한 인증",
+		desc = "레오나르도 다 빈치의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7194,14 +7223,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"成就",
+				"실적",
 				{}
 			}
 		}
 	},
 	[300001] = {
-		name = "丰壤农田委派效率提高 4%",
-		desc = "获得后，丰壤农田委派效率提高 4%",
+		name = "비옥한 농지 배치 작업 효율 4% 상승",
+		desc = "획득 후 비옥한 농지 배치 작업 효율 4% 상승",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7223,14 +7252,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"도감",
 				{}
 			}
 		}
 	},
 	[300002] = {
-		name = "坠香果园委派效率提高 4%",
-		desc = "获得后，坠香果园委派效率提高 4%",
+		name = "향기로운 과수원 배치 작업 효율 4% 상승",
+		desc = "획득 후 향기로운 과수원 배치 작업 효율 4% 상승",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7252,14 +7281,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"도감",
 				{}
 			}
 		}
 	},
 	[300003] = {
-		name = "青芽苗圃委派效率提高 4%",
-		desc = "获得后，青芽苗圃委派效率提高 4%",
+		name = "초록색 모밭 배치 작업 효율 4% 상승",
+		desc = "획득 후 초록색 모밭 배치 작업 효율 4% 상승",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7281,14 +7310,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"도감",
 				{}
 			}
 		}
 	},
 	[300004] = {
-		name = "丰壤农田委派效率提高 8%",
-		desc = "获得后，丰壤农田委派效率提高 8%",
+		name = "비옥한 농지 배치 작업 효율 8% 상승",
+		desc = "획득 후 비옥한 농지 배치 작업 효율 8% 상승",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7310,14 +7339,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"도감",
 				{}
 			}
 		}
 	},
 	[300005] = {
-		name = "坠香果园委派效率提高 8%",
-		desc = "获得后，坠香果园委派效率提高 8%",
+		name = "향기로운 과수원 배치 작업 효율 8% 상승",
+		desc = "획득 후 향기로운 과수원 배치 작업 효율 8% 상승",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7339,14 +7368,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"도감",
 				{}
 			}
 		}
 	},
 	[300006] = {
-		name = "青芽苗圃委派效率提高 8%",
-		desc = "获得后，青芽苗圃委派效率提高 8%",
+		name = "초록색 모밭 배치 작업 효율 8% 상승",
+		desc = "획득 후 초록색 모밭 배치 작업 효율 8% 상승",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7368,7 +7397,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"도감",
 				{}
 			}
 		}

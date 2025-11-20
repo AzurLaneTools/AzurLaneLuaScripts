@@ -594,7 +594,6 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 				uv4()
 			end)
 		elseif string.find(slot9, "UI/") then
-			print(slot11)
 			LoadAndInstantiateAsync("UI", slot11, function (slot0)
 				if slot0 == nil then
 					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
@@ -612,7 +611,6 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 					end
 				end
 
-				print(uv0)
 				uv1:InitPool(uv0, slot0)
 				uv3()
 			end, true, true)
@@ -1107,8 +1105,6 @@ slot5.GetStageResource = function(slot0)
 		if slot8.stageBuff then
 			for slot12, slot13 in ipairs(slot8.stageBuff) do
 				for slot18, slot19 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot13.id, slot13.level, {})) do
-					print(slot19)
-
 					slot2[#slot2 + 1] = slot19
 				end
 			end

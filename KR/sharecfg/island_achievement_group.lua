@@ -2,7 +2,7 @@ pg = pg or {}
 pg.island_achievement_group = {
 	{
 		id = 1,
-		name = "筑梦之章",
+		name = "꿈을 짜는 장",
 		icon = "achv_type_2",
 		achievement_list = {
 			1,
@@ -18,7 +18,7 @@ pg.island_achievement_group = {
 	},
 	{
 		id = 2,
-		name = "繁荣之道",
+		name = "번영의 길",
 		icon = "achv_type_1",
 		achievement_list = {
 			101,
@@ -33,7 +33,7 @@ pg.island_achievement_group = {
 	},
 	{
 		id = 3,
-		name = "商贸之路",
+		name = "상업의 길",
 		icon = "achv_type_3",
 		achievement_list = {
 			201,
@@ -45,7 +45,7 @@ pg.island_achievement_group = {
 	},
 	{
 		id = 4,
-		name = "成长之旅",
+		name = "성장하는 여정",
 		icon = "achv_type_4",
 		achievement_list = {
 			301,

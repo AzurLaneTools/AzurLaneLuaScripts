@@ -50,6 +50,9 @@ slot0.GetRuntimeData = function(slot0, slot1)
 		[IslandTaskTargetType.TASK] = function ()
 			return uv0:GetTaskAgency():IsFinishTask(uv1) and 1 or 0
 		end,
+		[IslandTaskTargetType.TASK_TYPE_PLUS] = function ()
+			return uv0:GetTaskAgency():GetFinishCntByType(uv1)
+		end,
 		[IslandTaskTargetType.RESTAURANT_RANK] = function ()
 			return uv0:GetManageAgency():GetCntByRestLevel(uv1)
 		end,

@@ -74,6 +74,7 @@ pg.benefit_buff_template = setmetatable({
 		70,
 		71,
 		72,
+		73,
 		74,
 		75,
 		76,
@@ -1406,7 +1407,20 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[74] = {
+	{
+		icon = "Props/60413",
+		name = "스포츠 드링크",
+		hide = 0,
+		max_time = 0,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "숙소에서의 컨디션 회복 속도 증가",
+		benefit_effect = "1",
+		id = 73,
+		type_priority = 0,
+		benefit_type = "dorm_energy"
+	},
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "U-101의 축복",
 		hide = 0,
@@ -1423,7 +1437,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[75] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "카자구모의 축복",
 		hide = 0,
@@ -1440,7 +1454,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[76] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "포미더블의 축복",
 		hide = 0,
@@ -1457,7 +1471,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[77] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "리슐리외의 축복",
 		hide = 0,
@@ -1474,7 +1488,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[78] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "타슈켄트 의 축복",
 		hide = 0,
@@ -1491,7 +1505,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[79] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "샹그릴라 의축복",
 		hide = 0,
@@ -1508,7 +1522,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[80] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "차라의 축복",
 		hide = 0,
@@ -1525,7 +1539,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[81] = {
+	{
 		icon = "Props/60458",
 		name = "겨울 운동 음료",
 		hide = 0,
@@ -1538,7 +1552,7 @@ pg.base.benefit_buff_template = {
 		type_priority = 0,
 		benefit_type = "dorm_energy"
 	},
-	[82] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "그라프 체펠린의 축복",
 		hide = 0,
@@ -1555,7 +1569,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[83] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "벨파스트의 축복",
 		hide = 0,
@@ -1572,7 +1586,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[84] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "사우스다코타의 축복",
 		hide = 0,
@@ -1589,7 +1603,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[85] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "포미더블의 축복",
 		hide = 0,
@@ -1606,7 +1620,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[86] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "노시로의 축복",
 		hide = 0,
@@ -1623,7 +1637,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[87] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "비스마르크의 축복",
 		hide = 0,
@@ -1640,7 +1654,7 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
-	[88] = {
+	{
 		icon = "Props/jianchuanqiyuan",
 		name = "리슐리외의 축복",
 		hide = 0,

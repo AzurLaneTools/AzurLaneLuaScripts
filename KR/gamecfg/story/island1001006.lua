@@ -4,7 +4,7 @@ return {
 	map = {
 		{
 			100700,
-			10040002
+			10040060
 		}
 	},
 	look_weight = {
@@ -19,8 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "呼……怎么样，这些木材够了吗？",
+			say = "오브라이언……이 정도 목재면 충분할까?",
 			characterId = 0,
+			animation = "talk",
 			face2Face = {
 				{
 					0,
@@ -33,17 +34,17 @@ return {
 			}
 		},
 		{
-			animation = "talk",
-			say = "嗯嗯，辛苦指挥官啦~有了这些我们就能修复好交通线了。",
+			animation = "clap",
+			say = "네! 지휘관님 수고하셨어요……이 정도면 충분해요.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那我们快去找乔安吧。",
+			say = "그럼 어서 조안을 찾아가자.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,17 +53,17 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "好，乔安应该正在通往港口的路上等我们。",
+			say = "좋아요…조안은 항구로 가는 승강장에서 우리를 기다릴 거예요.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我们拿上木材一起过去吧~",
-			subName = "林场管理员",
+			say = "목재를 챙겨서 함께 가요……",
+			subName = "숲 관리자",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,

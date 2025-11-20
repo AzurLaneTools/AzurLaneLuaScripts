@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "嗯，还剩几家店的日报没看完。",
+			say = "아직 몇몇 가게의 일일 보고서를 확인하지 못했어요.",
 			characterId = 100800
 		}
 	}

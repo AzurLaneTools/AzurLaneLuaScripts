@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "呼~订单又堆成一座小山了！",
+			say = "후… 또 의뢰가 산더미야…!",
 			hideType = 2,
 			characterId = 100300,
 			animation = "rest"

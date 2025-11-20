@@ -23,10 +23,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "啊，指挥官快来！赫莫一直在说一些我听不懂的话！",
-			subName = "牧场管理员",
-			characterId = 100500,
-			animation = "nod",
+			characterId = 0,
+			say = "메리……넌 너무 빨라.",
 			face2Face = {
 				{
 					0,
@@ -45,7 +43,17 @@ return {
 			}
 		},
 		{
-			say = "听不懂的话？",
+			say = "아, 지휘관, 빨리 와요! 헤르모가 아까부터 알아듣지 못할 말만 하고 있어!",
+			animation = "hi",
+			characterId = 100500,
+			subName = "목장 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "못 알아듣는 말이라고?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -53,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "指、指挥官，刚才梅莉告诉了我牧场产出的事情，我就和她聊了聊，嗯……",
+			say = "지, 지휘관, 아까 메리가 목장의 생산품 이야기를 해서 그녀와 얘기를 조금 나눴어요. 음……",
 			animation = "think",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "밭 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "关于您之前提到的，利用牧场有机肥料滋养农田的生态循环构想。",
-			subName = "农田管理员",
+			say = "전에 말씀하신, 목장의 유기 비료로 농지를 비옥하게 하는 생태 순환 구상에 관해서요.",
+			subName = "밭 관리자",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "哦？赫莫，你已经有结论了？",
+			say = "어? 헤르모, 벌써 결론을 낸 건가?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,18 +88,18 @@ return {
 			}
 		},
 		{
-			say = "嗯。结合牧场的现状和农田的需求，我认为——牧场和农田的发展必须同步进行。",
+			say = "네. 목장의 현황과 농지의 수요를 종합해 보면, 목장과 농지의 발전은 반드시 병행되어야 해요.",
 			animation = "talk",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "밭 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "单靠一只家禽还是远远不够支撑农场大规模种植需求的。",
-			subName = "农田管理员",
+			say = "가금류 한두 마리로는 농장의 대규모 경작 수요를 뒷받침하기엔 턱없이 부족해요.",
+			subName = "밭 관리자",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -99,17 +107,17 @@ return {
 			}
 		},
 		{
-			say = "嗯？简单来说就是我的牧场还需要更多的动物？好棒！",
+			say = "응? 그러니까 내 목장에는 더 많은 동물이 필요하다는 거지? 잘 됐다!",
 			animation = "doubt",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过这并不着急对吧？",
+			say = "이건 급한 건 아니지?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -117,17 +125,18 @@ return {
 			}
 		},
 		{
-			say = "嗯，目前农田里的土壤还很健康，梅莉可以慢慢来的……不着急……",
-			subName = "农田管理员",
+			say = "네, 지금 농지의 토양 상태는 좋아요. 메리는 천천히 해도 되고…… 서두를 필요 없어요……",
+			animation = "nod",
 			characterId = 100400,
+			subName = "밭 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "clap",
-			say = "很好！只要这样稳步发展，不仅能还掉欠款，还能极大地丰富岛上的产出。",
+			animation = "nod",
+			say = "좋아! 이대로 발전해 나간다면 빚도 갚을 수 있을 뿐만 아니라, 섬의 생산도 많이 늘어날 거야.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +144,7 @@ return {
 			}
 		},
 		{
-			say = "不过梅莉，往后可就要辛苦你了哦！",
+			say = "하지만 메리, 앞으로 네가 꽤 고생하겠구나!",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -143,74 +152,37 @@ return {
 			}
 		},
 		{
-			say = "包在我身上！指挥官，我一定会把所有动物都养得白白胖胖的！",
+			say = "나한테 맡겨! 지휘관, 내가 반드시 동물들을 건강하고 통통하게 잘 키울게!",
+			animation = "nod",
+			characterId = 100500,
+			subName = "목장 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			say = "자신 있다니 다행이군……어느새 많이 늦었구나. 하루 종일 바쁘게 움직였더니 배가 고픈데, 아일랜드에 맛있는 거 있어?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "아! 지휘관, 배고파? 그럼 항구에 있는 그 만쥬 카페에 꼭 가봐!",
 			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "목장 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "nod",
-			say = "有自信就好……不过不知不觉都这么晚了，忙了一整天，岛屿上有什么好吃的吗？",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "啊！指挥官你是饿了吗？那一定要去港口的那家啾咖啡！",
-			animation = "nod",
-			characterId = 100500,
-			subName = "牧场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "啾咖啡……饿了去咖啡馆做什么？不会来了这里也要我熬夜工作吧？",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "不是咖啡，是她家的苹果派啦！外皮烤得酥酥脆脆，里面的苹果馅也又香又软！",
-			subName = "牧场管理员",
-			characterId = 100500,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "指挥官你一定要去尝尝！",
-			animation = "hi",
-			characterId = 100500,
-			subName = "牧场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "嗯……听梅莉的描述，似乎确实……很诱人。",
 			animation = "talk",
-			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			say = "好吧，那就听你们的，我去犒劳一下自己。",
+			say = "만쥬 카페……배고픈데 카페는 뭘 어쩌라는 거지? 설마 여기서도 밤새 일 시키려는 생각이야?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -218,28 +190,65 @@ return {
 			}
 		},
 		{
-			say = "你们也早点休息，农场的未来可就要靠你们了。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "放心吧指挥官！快去快去！记得一定要点苹果派哦！",
-			animation = "hi",
+			say = "일이 아니야, 지휘관, 아까 달걀 하나 얻었잖아?",
+			subName = "목장 관리자",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官慢走。",
-			animation = "hi",
+			say = "만쥬 카페에 가서 브레멘을 찾아봐. 그녀가 오믈렛을 만들어 줄 거야, 정말 맛있어!",
+			animation = "talk",
+			characterId = 100500,
+			subName = "목장 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "음…… 오믈렛이라, 듣기만 해도…… 먹고 싶어지는군요.",
+			animation = "nod",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "밭 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "좋아, 그러면 나는 만쥬 카페로 가야겠어. 오늘만큼은 자신에게 보상해야겠어.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "너희도 일찍 쉬어. 농장의 미래는 너희에게 달려 있어.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "지휘관, 걱정하지 마! 어서 가봐! 꼭 수확한 달걀로 만들어야 해!",
+			animation = "bye",
+			characterId = 100500,
+			subName = "목장 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "지휘관님, 살펴 가세요.",
+			animation = "bye",
+			characterId = 100400,
+			subName = "밭 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

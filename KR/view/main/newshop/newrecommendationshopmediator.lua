@@ -9,7 +9,8 @@ end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		NewShopMainScene.CLOSE_ALL_LAYER
+		NewShopMainScene.CLOSE_ALL_LAYER,
+		PlayerProxy.UPDATED
 	}
 end
 
@@ -18,6 +19,8 @@ slot0.handleNotification = function(slot0, slot1)
 
 	if slot1:getName() == NewShopMainScene.CLOSE_ALL_LAYER then
 		slot0.viewComponent:closeView()
+	elseif slot2 == PlayerProxy.UPDATED then
+		slot0.viewComponent:ShowResUI()
 	end
 end
 

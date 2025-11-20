@@ -2069,21 +2069,12 @@ slot0.TryAutoFight = function(slot0)
 		return
 	end
 
-	slot4 = _.detect(slot1:GetAllEnemies(), function (slot0)
+	if slot1:GetFleetOfDuty(tobool(_.detect(slot1:GetAllEnemies(), function (slot0)
 		return ChapterConst.IsBossCell(slot0)
-	end)
-	slot5 = nil
-
-	if ChapterConst.IsAtelierMap(slot2) then
-		slot5 = _.filter(slot1:findChapterCells(ChapterConst.AttachBox), function (slot0)
-			return slot0.flag ~= ChapterConst.CellFlagDisabled
-		end)
-	end
-
-	if slot1:GetFleetofDuty(tobool(slot4)) and slot6.id ~= slot1.fleet.id then
+	end))) and slot5.id ~= slot1.fleet.id then
 		slot0:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpSwitch,
-			id = slot6.id
+			id = slot5.id
 		})
 		slot0:tryAutoTrigger()
 
@@ -2096,81 +2087,123 @@ slot0.TryAutoFight = function(slot0)
 		return
 	end
 
-	if slot5 and #slot5 > 0 then
-		slot3 = _.map(slot5, function (slot0)
-			slot1, slot2 = uv0:findPath(ChapterConst.SubjectPlayer, uv1.line, slot0)
+	slot6 = nil
+	slot10 = "box_auto_pick"
 
-			return {
-				target = slot0,
-				priority = slot1,
-				path = slot2
-			}
-		end)
-	elseif slot4 then
-		slot7, slot8 = slot1:FindBossPath(slot6.line, slot4)
-		slot9 = {}
-		slot10 = nil
+	for slot10, slot11 in ipairs(slot1:getConfig(slot10)) do
+		slot16 = ChapterConst.AttachSupply
 
-		for slot14, slot15 in ipairs(slot8) do
-			table.insert(slot9, slot15)
+		slot17 = function()
+			slot0, slot1 = uv0:getFleetAmmo(uv1)
 
-			if slot1:existEnemy(ChapterConst.SubjectPlayer, slot15.row, slot15.column) then
-				slot7 = slot14
-				slot10 = slot15
+			if slot0 - slot1 < 3 then
+				return {}
+			else
+				slot3 = uv0
 
-				break
+				return underscore.filter(slot3:findChapterCells(uv2), function (slot0)
+					return slot0.attachmentId > 0
+				end)
 			end
 		end
 
-		slot3 = {
-			{
-				target = slot10 or slot4,
-				priority = slot7 or 0,
-				path = slot9
-			}
-		}
-	else
-		slot7 = function(slot0)
-			slot1 = slot0.target
+		for slot16, slot17 in ipairs(underscore.filter(switch(slot11, {
+			[ChapterConst.AttachBox] = function ()
+				return uv0:findChapterCells(uv1)
+			end,
+			[slot16] = slot17
+		}), function (slot0)
+			return slot0.flag ~= ChapterConst.CellFlagDisabled
+		end)) do
+			slot18, slot19 = slot1:findPath(ChapterConst.SubjectPlayer, slot5.line, slot17)
 
-			assert(pg.expedition_data_template[slot1.attachmentId], "expedition_data_template not exist: " .. slot1.attachmentId)
-
-			if slot1.flag == ChapterConst.CellFlagDisabled then
-				return 0
+			if slot18 < PathFinding.PrioObstacle then
+				table.insert(slot6 or {}, {
+					target = slot17,
+					priority = slot18,
+					path = slot19
+				})
 			end
-
-			return ChapterConst.EnemyPreference[slot2.type]
 		end
 
-		table.sort(_.map(slot3, function (slot0)
-			slot1, slot2 = uv0:findPath(ChapterConst.SubjectPlayer, uv1.line, slot0)
+		if slot6 then
+			table.sort(slot6, CompareFuncs({
+				function (slot0)
+					return slot0.priority
+				end
+			}))
 
-			return {
-				target = slot0,
-				priority = slot1,
-				path = slot2
-			}
-		end), function (slot0, slot1)
-			if PathFinding.PrioObstacle <= slot0.priority ~= (PathFinding.PrioObstacle <= slot1.priority) then
-				return not slot2
-			end
-
-			if uv0(slot0) ~= uv0(slot1) then
-				return slot5 < slot4
-			end
-
-			return slot0.priority < slot1.priority
-		end)
+			break
+		end
 	end
 
-	if slot3[1] and slot7.priority < PathFinding.PrioObstacle then
-		slot8 = slot7.target
+	if not slot6 then
+		if slot4 then
+			slot7, slot8 = slot1:FindBossPath(slot5.line, slot4)
+			slot9 = {}
+			slot10 = nil
+
+			for slot14, slot15 in ipairs(slot8) do
+				table.insert(slot9, slot15)
+
+				if slot1:existEnemy(ChapterConst.SubjectPlayer, slot15.row, slot15.column) then
+					slot7 = slot14
+					slot10 = slot15
+
+					break
+				end
+			end
+
+			slot6 = {
+				{
+					target = slot10 or slot4,
+					priority = slot7 or 0,
+					path = slot9
+				}
+			}
+		else
+			slot7 = function(slot0)
+				slot1 = slot0.target
+
+				assert(pg.expedition_data_template[slot1.attachmentId], "expedition_data_template not exist: " .. slot1.attachmentId)
+
+				if slot1.flag == ChapterConst.CellFlagDisabled then
+					return 0
+				end
+
+				return ChapterConst.EnemyPreference[slot2.type]
+			end
+
+			table.sort(underscore.map(slot3, function (slot0)
+				slot1, slot2 = uv0:findPath(ChapterConst.SubjectPlayer, uv1.line, slot0)
+
+				return {
+					target = slot0,
+					priority = slot1,
+					path = slot2
+				}
+			end), CompareFuncs({
+				function (slot0)
+					return slot0.priority < PathFinding.PrioObstacle and 0 or 1
+				end,
+				function (slot0)
+					return -uv0(slot0)
+				end,
+				function (slot0)
+					return slot0.priority
+				end
+			}))
+		end
+	end
+
+	if slot6 and #slot6 > 0 and slot6[1].priority < PathFinding.PrioObstacle then
+		slot7 = slot6[1].target
 
 		slot0:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpMove,
-			id = slot6.id,
-			arg1 = slot8.row,
-			arg2 = slot8.column
+			id = slot5.id,
+			arg1 = slot7.row,
+			arg2 = slot7.column
 		})
 	else
 		pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_errors_tip"))

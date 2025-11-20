@@ -4,13 +4,13 @@ return {
 	map = {
 		{
 			101300,
-			10030003
+			10030016
 		}
 	},
 	scripts = {
 		{
 			hideTime = 3,
-			say = "欢迎光临——这里是集会的欢乐向导玛丽！",
+			say = "어서 와! 나는 즐거운 하모니섬의 가이드, 마리야!",
 			hideType = 2,
 			characterId = 101300,
 			animation = "hi"

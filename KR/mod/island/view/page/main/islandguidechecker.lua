@@ -3,6 +3,16 @@ slot0.MOVE_TASK_ID = 10001000
 slot0.FIRST_TASK_ID = 10001010
 slot0.ORDER_TASK_ID = 10001071
 slot0.ORDER_TASK_PRE_ID = 10001070
+slot0.ORDER_NEED_ITEMS = {
+	{
+		2700,
+		1
+	},
+	{
+		2800,
+		1
+	}
+}
 slot0.TECH_TASK_ID = 10001141
 slot0.MAP_GUIDE_ABILITY_ID = 5004
 slot0.INVITE_TASK_ID = 10001151
@@ -181,7 +191,15 @@ slot0.CheckGuide = function(slot0, slot1, slot2)
 	uv0._PlayGuide(slot0, slot1 or uv0.FINISH_TYPE.ON_BEGIN, slot2)
 end
 
-slot0._PlayGuide = function(slot0, slot1, slot2)
+slot0.CheckGuideWithArgs = function(slot0, slot1, slot2, slot3)
+	if pg.NewStoryMgr.GetInstance():IsPlayed(slot0) then
+		return
+	end
+
+	uv0._PlayGuide(slot0, slot1 or uv0.FINISH_TYPE.ON_BEGIN, slot2, slot3)
+end
+
+slot0._PlayGuide = function(slot0, slot1, slot2, slot3)
 	if LOCK_ISLAND_GUIDE then
 		if slot2 then
 			slot2()
@@ -212,9 +230,9 @@ slot0._PlayGuide = function(slot0, slot1, slot2)
 		_IslandCore:Link(ISLAND_EVT.START_GUIDE)
 	end
 
-	slot3 = pg.NewGuideMgr.GetInstance()
+	slot4 = pg.NewGuideMgr.GetInstance()
 
-	slot3:Play(slot0, nil, function ()
+	slot4:Play(slot0, slot3, function ()
 		if _IslandCore then
 			_IslandCore:Link(ISLAND_EVT.END_GUIDE)
 		end

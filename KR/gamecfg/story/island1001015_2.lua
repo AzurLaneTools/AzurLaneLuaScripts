@@ -4,8 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			animation = "nod",
-			say = "被我抓住了吧——{namecode:98:明石}……？",
+			say = "딱 걸렸어——아카……시……?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -13,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "欸？我明明是看着她进来的啊……怎么不见了？！",
+			say = "네? 분명 그녀가 들어오는 걸 봤는데…… 어디로 간 거지?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -21,7 +20,8 @@ return {
 			}
 		},
 		{
-			say = "（难道我刚看见的那个……）",
+			say = "(설마 내가 귀신이라도 본……아니, 아니, 그럴 리가. )",
+			animation = "shakehaed",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			say = "（众所周知，猫是不会凭空消失的，所以这里一定是有暗道……究竟在哪里呢？）",
+			say = "(다들 알다시피, 고양이는 저절로 사라지지 않아. 그렇다면 이곳에는 비밀 통로가 있어……대체 어디지? )",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

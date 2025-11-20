@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "嗯~又截了一单！先休息会儿。",
+			say = "후…… 목재 처리는 끝났으니 잠깐만 쉴게요~",
 			hideType = 2,
 			characterId = 100700,
 			animation = "rest"

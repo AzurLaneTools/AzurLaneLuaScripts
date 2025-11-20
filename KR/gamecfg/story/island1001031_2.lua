@@ -1,10 +1,10 @@
 return {
-	mode = 9,
+	mode = 10,
 	id = "ISLAND1001031_2",
 	map = {
 		{
 			3120100,
-			10090013
+			10090020
 		}
 	},
 	look_weight = {
@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "零件的位置都发给你了，你拿到了吗？",
+			say = "아카시, 무슨 일 있어?",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,40 +33,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官！你来得正好喵！",
-			animation = "clap",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "{namecode:98:明石}已经都带回来了，等下就可以开始修复了。",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "零件归位，想要修复简直就是轻而易举喵！",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "你确定？那个状态可以轻而易举修好吗……",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "小小的瑕疵而已~在{namecode:98:明石}无敌的修复技术面前，都不是问题喵！分分钟搞定！",
+			say = "지휘관, 어서 와라냥! 내가 당신의 비행기를 고칠 방법을 찾았다냥~",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -75,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "行吧……你说了算，那大约要修多久？",
+			say = "비행기? 설마 추락한 그 기체 말이야?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -83,17 +50,24 @@ return {
 			}
 		},
 		{
-			say = "给{namecode:98:明石}……嗯……一顿饭的功夫！不！一杯咖啡的时间！总之很快就好喵！",
-			nameColor = "#A9F548FF",
+			say = "맞다냥~ 바로 그거다냥!",
 			characterId = 3120100,
-			animation = "elation",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "你没在开玩笑？",
+			animation = "embarrass",
+			say = "다만 네가 그때 추락하면서 아일랜드 곳곳에 흩어진 기체 파편들을 모아 와야 한다냥.",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "네가 갑자기 왜 비행기를 고치려는 거야?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +75,195 @@ return {
 			}
 		},
 		{
-			say = "完全没有喵~指挥官，等会你直接来码头找我就好喵！",
+			say = "그건 말이다냥…… 지휘관, 최근 항구에서 떠도는 보물섬의 전설을 알고 있냥?",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			say = "보물섬? 패트리랑 스테파니도 이야기했었지…… 하지만 그게 파편을 찾는 거랑 무슨 관련이 있지?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "뭐야, 너도 그 보물에 관심이 있어?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "헤헤, 당연히 관심 있다냥~",
+			animation = "nod",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "하지만…… 지휘관이 요즘 아카시의 장사를 챙겨주고 있는데, 나도 보답해야 되지 않겠냥?!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "이 기회는 지휘관한테 양보하겠다냥~",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "무슨 기회?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "흥흥~ 섬 주위는 전부 기묘한 안개와 난류투성이여서, 배들은 죄다 물속에서 빙글빙글 맴돈다냥!",
+			animation = "elation",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "하지만! 아카시는 방법 있다냥!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "……설마 날아갈 생각이야?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "지휘관, 역시 똑똑하다냥~ 바로 그거다냥!",
 			animation = "clap",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "이미 산산조각난 비행기를 의지한다고?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			say = "맞다냥~ 섬에 흩어진 부품만 전부 모으면, 아카시는 반드시 그걸 고쳐낼 수 있다냥!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "장담할 수 있겠어?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "야옹! 지휘관 어떻게 아카시의 기술을 의심할 수 있냥! 공중에서 괴이한 안개와 난류를 돌파하는 게 유일한 방법이다냥!",
+			characterId = 3120100,
+			animation = "amaze",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			options = {
+				{
+					content = "뭔가 이상하긴 한데……",
+					flag = 1
+				},
+				{
+					content = "보물이라……",
+					flag = 2
+				}
+			}
+		},
+		{
+			say = "지금 개발구는 이미 제 궤도에 올랐으니…… 새로운 성장 동력을 찾는다고 생각해야겠지?",
+			characterId = 0,
+			optionFlag = 1,
+			animation = "nod",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "아일랜드는 꾸준히 발전 중이지만, 만약 추가로 운영할 수 있는 자금이 있다면……",
+			optionFlag = 2,
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "(빚의 압박이 있지만, 발전 방향은 이미 정해졌어. 모든 것이 착실하게 나아가고 있다……)",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "좋아.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "냥호호, 지휘관이 분명 가고 싶어 할 줄 알고, 아카시는 이미 준비를 끝냈다냥~",
+			animation = "nod",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "아직 중요한 부품이 꽤 많이 모자라는데, 그것들이 전부 산들바람 벌판, 이슬 농장, 그리고 항구에 흩어져 있다냥.",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "당신이 부품들의 정확한 위치를 찾으면 아카시를 호출하라냥~ 그러면 내가 방법을 강구하겠다냥~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

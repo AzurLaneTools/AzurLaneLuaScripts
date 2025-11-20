@@ -1,5 +1,109 @@
 pg = pg or {}
 pg.island_skin_template = {
-	get_id_list_by_ship_group = {},
-	all = {}
+	[1051701] = {
+		ship_group = 10517,
+		name = "가벼운 일상",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "일상 생활에 딱 맞는 쾌적한 차림. 당신과 즐겁게 놀 준비를 마친 듯하다.",
+		shop_goods_id = 0,
+		model = 1051701,
+		id = 1051701,
+		icon = "skin_1051701",
+		icon_normal = "props/skin_1051701",
+		jump_page = {}
+	},
+	[1070301] = {
+		ship_group = 10703,
+		name = "순수한 캠퍼스",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "넘치는 귀여움과 활기. 작은 비밀이 가득 담긴 가방을 메고, 구김살 없는 미소를 바람결에 전한다.",
+		shop_goods_id = 0,
+		model = 1070301,
+		id = 1070301,
+		icon = "skin_1070301",
+		icon_normal = "props/skin_1070301",
+		jump_page = {}
+	},
+	[2060301] = {
+		ship_group = 20603,
+		name = "동경의 별빛",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "마치 밤하늘에서 밝게 빛나는 별이 떨어진 것처럼, 작은 부분 하나하나가 희망의 빛으로 빛난다.",
+		shop_goods_id = 0,
+		model = 2060301,
+		id = 2060301,
+		icon = "skin_2060301",
+		icon_normal = "props/skin_2060301",
+		jump_page = {}
+	},
+	[2990301] = {
+		ship_group = 29903,
+		name = "씨솔트 레저",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "선선한 바닷바람이 전해주는 달콤한 향기와 활기찬 에너지. 대체 누구의 마음을 설레게 한 걸까?",
+		shop_goods_id = 0,
+		model = 2990301,
+		id = 2990301,
+		icon = "skin_2990301",
+		icon_normal = "props/skin_2990301",
+		jump_page = {}
+	},
+	[3040701] = {
+		ship_group = 30407,
+		name = "동화 속 병아리",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "부드러운 빛을 발하는 태양에 비춰진 노란 병아리. 달콤한 사탕과 조가비가 노래하는 동화.",
+		shop_goods_id = 0,
+		model = 3040701,
+		id = 3040701,
+		icon = "skin_3040701",
+		icon_normal = "props/skin_3040701",
+		jump_page = {}
+	},
+	[3120101] = {
+		ship_group = 31201,
+		name = "밤의 방울소리",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "반듯한 세일러복 칼라 아래에는 장난스러운 미소가 숨어 있다. 밤바다와도 같은 검은 옷자락을 휘날리며, 「악덕 상인」이 학교에서 몰래 영업 중…이다냥.",
+		shop_goods_id = 0,
+		model = 3120101,
+		id = 3120101,
+		icon = "skin_3120101",
+		icon_normal = "props/skin_3120101",
+		jump_page = {}
+	},
+	get_id_list_by_ship_group = {
+		[10517] = {
+			1051701
+		},
+		[10703] = {
+			1070301
+		},
+		[20603] = {
+			2060301
+		},
+		[29903] = {
+			2990301
+		},
+		[30407] = {
+			3040701
+		},
+		[31201] = {
+			3120101
+		}
+	},
+	all = {
+		1051701,
+		1070301,
+		2060301,
+		2990301,
+		3040701,
+		3120101
+	}
 }

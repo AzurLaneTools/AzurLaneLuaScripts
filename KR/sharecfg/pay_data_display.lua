@@ -176,6 +176,7 @@ pg.pay_data_display = setmetatable({
 		2057,
 		2058,
 		2059,
+		2063,
 		5011,
 		5012,
 		5013,
@@ -18319,6 +18320,114 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40066,
+				1
+			}
+		}
+	},
+	[2063] = {
+		picture = "huteng_package",
+		name = "선택 가능한 UR 스킨 복주머니F",
+		type = 0,
+		second_text = "",
+		descrip = "선택 가능한 스킨 티켓, 큐브, 연습 데이터 T2 등 획득 가능",
+		subject = "선택 가능한 UR 스킨 복주머니F",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 27000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 0,
+		package_tag = "특별 ",
+		type_order = 5,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift162",
+		extra_gem = 0,
+		id = 2063,
+		airijp_id = "com.yostarjp.azurlane.package126",
+		name_display = "선택 가능한 UR 스킨 복주머니F",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 1,
+		extra_service_item = {
+			{
+				2,
+				59565,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59565,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40070,
 				1
 			}
 		}

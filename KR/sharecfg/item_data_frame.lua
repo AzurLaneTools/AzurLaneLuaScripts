@@ -603,6 +603,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>모항 파티 참가 기념. 특별한 날에 참가한 모든 이에게 특별한 축복을! </color>\n\"연회장\" 이벤트 참가 보상.",
 		scene = {}
 	},
+	[604] = {
+		name = "스트레칭 어워드",
+		gain_by = "",
+		time_second = 0,
+		id = 604,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>함께 땀을 흘린 보상ーー</color>",
+		scene = {}
+	},
 	[605] = {
 		name = "극속의 증표",
 		gain_by = "극속 레이스",
@@ -923,6 +932,7 @@ pg.item_data_frame = {
 		601,
 		602,
 		603,
+		604,
 		605,
 		606,
 		607,

@@ -21,7 +21,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[6] = {
-		unlock_text = "岛屿地图",
+		unlock_text = "아일랜드 지도",
 		effect = 5,
 		show_pop = 0,
 		type = 1,
@@ -31,33 +31,33 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[7] = {
-		unlock_text = "订单中心",
+		unlock_text = "의뢰 목록",
 		effect = 6,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 7,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "아일랜드 의뢰| <color=#7EBEFF>항구</color>의 <color=#7EBEFF>패트리</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[8] = {
 		unlock_text = "",
 		effect = 7,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 8,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "아일랜드 기술| <color=#7EBEFF>항구 - 기지</color>의 <color=#7EBEFF>기술 연구</color>에서 확인 가능",
 		show_type = 1
 	},
 	[9] = {
 		unlock_text = "",
 		effect = 8,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 9,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "창고| <color=#7EBEFF>관리 화면</color>의 <color=#7EBEFF>창고</color>에서 확인 가능",
 		show_type = 1
 	},
 	[10] = {
@@ -171,7 +171,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[26] = {
-		unlock_text = "店铺经营",
+		unlock_text = "점포 경영",
 		effect = 9,
 		show_pop = 0,
 		type = 1,
@@ -183,71 +183,71 @@ pg.island_ability_template = {
 	[27] = {
 		unlock_text = "",
 		effect = 10,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 27,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "친구| <color=#7EBEFF>관리 화면</color>의 <color=#7EBEFF>친구 버튼</color>으로 확인 가능",
 		show_type = 1
 	},
 	[28] = {
 		unlock_text = "",
 		effect = 11,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 28,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "동료| <color=#7EBEFF>메인 화면</color>의 <color=#7EBEFF>캐릭터</color>에서 확인 가능",
 		show_type = 1
 	},
 	[29] = {
 		unlock_text = "",
 		effect = 12,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 29,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "도감| <color=#7EBEFF>메인 화면</color>의 <color=#7EBEFF>도감</color>에서 확인 가능",
 		show_type = 1
 	},
 	[30] = {
 		unlock_text = "",
 		effect = 13,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 30,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "실적| <color=#7EBEFF>메인 화면</color>의 <color=#7EBEFF>실적</color>에서 확인 가능",
 		show_type = 1
 	},
 	[31] = {
 		unlock_text = "",
 		effect = 14,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 31,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "시즌| <color=#7EBEFF>메인 화면</color>의 <color=#7EBEFF>시즌</color>에서 확인 가능",
 		show_type = 1
 	},
 	[32] = {
-		unlock_text = "货运委托",
+		unlock_text = "운송 의뢰",
 		effect = 15,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 32,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "운송 의뢰| <color=#7EBEFF>항구</color>의 <color=#7EBEFF>스테파니</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[33] = {
 		unlock_text = "",
 		effect = 16,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 33,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "스킨| <color=#7EBEFF>관리 화면</color>의 <color=#7EBEFF>스킨</color>에서 확인 가능",
 		show_type = 1
 	},
 	[34] = {
@@ -263,11 +263,11 @@ pg.island_ability_template = {
 	[35] = {
 		unlock_text = "",
 		effect = 18,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 35,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "상점| <color=#7EBEFF>메인 화면</color>의 <color=#7EBEFF>상점</color>에서 확인 가능",
 		show_type = 1
 	},
 	[36] = {
@@ -313,21 +313,21 @@ pg.island_ability_template = {
 	[40] = {
 		unlock_text = "",
 		effect = 19,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 40,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "상호작용| <color=#7EBEFF>메인 화면</color> 우측의 <color=#7EBEFF>상호작용 버튼</color>으로 확인할 수 있고, <color=#7EBEFF>액션</color> 및 <color=#7EBEFF>채팅</color> 가능",
 		show_type = 1
 	},
 	[41] = {
 		unlock_text = "",
 		effect = 20,
-		show_pop = 0,
+		show_pop = 1,
 		type = 1,
 		id = 41,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "촬영| <color=#7EBEFF>관리 화면</color>의 <color=#7EBEFF>카메라 버튼</color>으로 확인 가능",
 		show_type = 1
 	},
 	[42] = {
@@ -501,77 +501,77 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[2001] = {
-		unlock_text = "丰壤农田",
+		unlock_text = "비옥한 농지",
 		effect = 101,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2001,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "비옥한 농지| <color=#7EBEFF>이슬 농장</color>에서 <color=#7EBEFF>작물</color> 재배 가능",
 		show_type = 1
 	},
 	[2002] = {
-		unlock_text = "悠然牧场",
+		unlock_text = "한가로운 목장",
 		effect = 102,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2002,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "한가로운 목장| <color=#7EBEFF>이슬 농장</color>의 <color=#7EBEFF>메리</color>에게서 확인 가능",
 		show_type = 2
 	},
 	[2003] = {
-		unlock_text = "沉石矿山 ",
+		unlock_text = "석암 광산",
 		effect = 401,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "석암 광산| <color=#7EBEFF>바람의 벌판</color>에서 <color=#7EBEFF>광석</color> 채굴 가능",
 		show_type = 3
 	},
 	[2004] = {
-		unlock_text = "翠土林场",
+		unlock_text = "우거진 벌목장",
 		effect = 402,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2004,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "우거진 벌목장| <color=#7EBEFF>바람의 벌판</color>에서 <color=#7EBEFF>목재</color> 벌목 가능",
 		show_type = 1
 	},
 	[2005] = {
-		unlock_text = "坠香果园 ",
+		unlock_text = "향기로운 과수원",
 		effect = 501,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2005,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "향기로운 과수원| <color=#7EBEFF>그늘 농원</color>에서 <color=#7EBEFF>작물</color> 재배 가능",
 		show_type = 1
 	},
 	[2006] = {
-		unlock_text = "青芽苗圃 ",
+		unlock_text = "초록색 모밭",
 		effect = 502,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2006,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "초록색 모밭| <color=#7EBEFF>그늘 농원</color>에서 <color=#7EBEFF>작물</color> 재배 가능",
 		show_type = 1
 	},
 	[2008] = {
-		unlock_text = "有鱼餐馆",
+		unlock_text = "유어 레스토랑",
 		effect = 601,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2008,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "유어 레스토랑| <color=#7EBEFF>항구 상업 지구</color>의 <color=#7EBEFF>아모마</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[2009] = {
-		unlock_text = "白熊饮品",
+		unlock_text = "백곰 음료",
 		effect = 602,
 		show_pop = 0,
 		type = 2,
@@ -581,7 +581,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[2010] = {
-		unlock_text = "啾啾简餐",
+		unlock_text = "쥬쥬 간편식",
 		effect = 603,
 		show_pop = 0,
 		type = 2,
@@ -591,7 +591,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[2011] = {
-		unlock_text = "乌鱼烤肉",
+		unlock_text = "오징어 구이",
 		effect = 604,
 		show_pop = 0,
 		type = 2,
@@ -601,17 +601,17 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[2012] = {
-		unlock_text = "木料加工设备",
+		unlock_text = "목재 가공",
 		effect = 703,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2012,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "목재 가공| <color=#7EBEFF>항구 상업 지구</color>의 <color=#7EBEFF>로사</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[2013] = {
-		unlock_text = "工业生产设备",
+		unlock_text = "공장 기계",
 		effect = 704,
 		show_pop = 0,
 		type = 2,
@@ -621,7 +621,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[2014] = {
-		unlock_text = "电子加工设备",
+		unlock_text = "전자 부품 가공",
 		effect = 705,
 		show_pop = 0,
 		type = 2,
@@ -631,7 +631,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[2015] = {
-		unlock_text = "手工制作设备",
+		unlock_text = "수공 작업대",
 		effect = 706,
 		show_pop = 0,
 		type = 2,
@@ -641,17 +641,17 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[2016] = {
-		unlock_text = "啾咖啡",
+		unlock_text = "쥬카페",
 		effect = 901,
-		show_pop = 0,
+		show_pop = 1,
 		type = 2,
 		id = 2016,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "쥬카페| <color=#7EBEFF>항구 - 쥬카페</color>의 <color=#7EBEFF>브레멘</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[5001] = {
-		unlock_text = "晨露农场",
+		unlock_text = "이슬 농장",
 		effect = 1001,
 		show_pop = 0,
 		type = 11,
@@ -661,7 +661,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5002] = {
-		unlock_text = "港口 ",
+		unlock_text = "아일랜드의 항구",
 		effect = 1002,
 		show_pop = 0,
 		type = 11,
@@ -671,7 +671,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5003] = {
-		unlock_text = "集会岛",
+		unlock_text = "하모니섬",
 		effect = 1003,
 		show_pop = 0,
 		type = 11,
@@ -681,7 +681,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5004] = {
-		unlock_text = "栖风原野",
+		unlock_text = "바람의 벌판",
 		effect = 1004,
 		show_pop = 0,
 		type = 11,
@@ -691,7 +691,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5005] = {
-		unlock_text = "繁荫农圃",
+		unlock_text = "그늘 농원",
 		effect = 1005,
 		show_pop = 0,
 		type = 11,
@@ -701,7 +701,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5006] = {
-		unlock_text = "港口商区",
+		unlock_text = "항구 상업 지구",
 		effect = 1006,
 		show_pop = 0,
 		type = 11,
@@ -711,7 +711,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5007] = {
-		unlock_text = "基地工厂",
+		unlock_text = "기지 공장",
 		effect = 1007,
 		show_pop = 0,
 		type = 11,
@@ -721,7 +721,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5009] = {
-		unlock_text = "啾咖啡",
+		unlock_text = "쥬카페",
 		effect = 1009,
 		show_pop = 0,
 		type = 11,
@@ -1071,27 +1071,27 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[17002] = {
-		unlock_text = "啾咖啡经营",
+		unlock_text = "카페 경영",
 		effect = 901,
-		show_pop = 0,
+		show_pop = 1,
 		type = 17,
 		id = 17002,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "카페 경영| <color=#7EBEFF>항구 - 쥬카페</color>의 <color=#7EBEFF>브레멘</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[17003] = {
-		unlock_text = "有鱼餐馆",
+		unlock_text = "유어 레스토랑",
 		effect = 601,
-		show_pop = 0,
+		show_pop = 1,
 		type = 17,
 		id = 17003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
+		show_pop_text = "유어 레스토랑 경영| <color=#7EBEFF>항구 상업 지구</color>의 <color=#7EBEFF>아모마</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[17004] = {
-		unlock_text = "白熊饮品",
+		unlock_text = "백곰 음료",
 		effect = 602,
 		show_pop = 0,
 		type = 17,
@@ -1101,7 +1101,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[17005] = {
-		unlock_text = "啾啾简餐",
+		unlock_text = "쥬쥬 간편식",
 		effect = 603,
 		show_pop = 0,
 		type = 17,
@@ -1111,7 +1111,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[17006] = {
-		unlock_text = "乌鱼烤肉",
+		unlock_text = "오징어 구이",
 		effect = 604,
 		show_pop = 0,
 		type = 17,
@@ -1561,7 +1561,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[38001] = {
-		unlock_text = "丰壤农田委派效率提高 4%",
+		unlock_text = "비옥한 농지 배치 작업 효율 4% 상승",
 		effect = 4,
 		show_pop = 0,
 		type = 38,
@@ -1571,7 +1571,7 @@ pg.island_ability_template = {
 		show_type = 0
 	},
 	[38002] = {
-		unlock_text = "丰壤农田委派效率提高 8%",
+		unlock_text = "향기로운 과수원 배치 작업 효율 8% 상승",
 		effect = 8,
 		show_pop = 0,
 		type = 38,
@@ -1581,7 +1581,7 @@ pg.island_ability_template = {
 		show_type = 0
 	},
 	[39001] = {
-		unlock_text = "坠香果园委派效率提高 4%",
+		unlock_text = "초록색 모밭 배치 작업 효율 4% 상승",
 		effect = 4,
 		show_pop = 0,
 		type = 39,
@@ -1591,7 +1591,7 @@ pg.island_ability_template = {
 		show_type = 0
 	},
 	[39002] = {
-		unlock_text = "坠香果园委派效率提高 8%",
+		unlock_text = "비옥한 농지 배치 작업 효율 8% 상승",
 		effect = 8,
 		show_pop = 0,
 		type = 39,
@@ -1601,7 +1601,7 @@ pg.island_ability_template = {
 		show_type = 0
 	},
 	[40001] = {
-		unlock_text = "青芽苗圃委派效率提高 4%",
+		unlock_text = "향기로운 과수원 배치 작업 효율 4% 상승",
 		effect = 4,
 		show_pop = 0,
 		type = 40,
@@ -1611,7 +1611,7 @@ pg.island_ability_template = {
 		show_type = 0
 	},
 	[40002] = {
-		unlock_text = "青芽苗圃委派效率提高 8%",
+		unlock_text = "초록색 모밭 배치 작업 효율 8% 상승",
 		effect = 8,
 		show_pop = 0,
 		type = 40,

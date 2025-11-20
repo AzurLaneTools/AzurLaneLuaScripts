@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "唉，还差这么多，这该怎么办呢……",
-			animation = "shakehead",
+			say = "세상에! 아직 멀었어! 어쩜 좋아!",
+			animation = "sad",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "광산 관리자",
 			face2Face = {
 				{
 					0,
@@ -35,33 +35,33 @@ return {
 			},
 			options = {
 				{
-					content = "乔安，是遇到了什么困难吗？",
+					content = "조안, 무슨 일이야?",
 					flag = 1
 				}
 			}
 		},
 		{
 			animation = "scare",
-			say = "呀！原来是指挥官啊。",
+			say = "와! 지휘관님! 너무 잘 됐어요!",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "광산 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "sad",
-			say = "唔，交通线损坏的部分太多了……修复工作需要的煤炭还要很久才能集齐……",
+			say = "이것 보세요! 저쪽 승강이 완전히 망가졌어요. 복구하는데 많은 석탄이 필요해요! 혼자서 도무지 석탄을 채굴할 수 없어요!",
+			subName = "광산 관리자",
 			characterId = 100600,
-			subName = "矿山管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "矿场里没有存货吗？",
+			say = "응? 여기가 광산이잖아? 보관 중인 석탄도 없어?",
+			animation = "talk",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,41 +70,42 @@ return {
 		},
 		{
 			animation = "embarrass",
-			say = "没了，全都加上才勉强够订单上的量，结果正准备运往港口就发生了这种事……",
+			say = "이젠 없어요! 모든 재고를 긁어모아야 겨우 주문량을 맞출 수 있어요! 항구의 승강장으로 옮기려던 순간 폭발해 버려서……",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "광산 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "唉，看来这次是赶不上了。",
+			say = "하, 아무래도 기한을 맞출 수 없겠어요……",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "광산 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那我也来帮忙吧。",
+					content = "그럼 내가 도울게.",
 					flag = 1
 				}
 			}
 		},
 		{
-			animation = "doubt",
-			say = "欸，可是指挥官——",
+			animation = "amaze",
+			say = "네?! 진심이세요? 지휘관님?! 잘 됐어요!",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "광산 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没事，交通线瘫痪我也有责任，帮帮忙是应该的。",
+			say = "아니야, 교통망이 마비된 데에는 나도 책임이 있으니, 도와주는 건 당연한 일이야.",
+			animation = "nod",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -112,10 +113,19 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "这样啊……那太好了，现在正缺人手呢!",
+			animation = "clap",
+			say = "좋아요! 마침 인력이 부족했는데, 지휘관님께서 도와주시다니 큰 도움이 돼요!",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "광산 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "어서 서둘러요!",
+			subName = "광산 관리자",
+			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

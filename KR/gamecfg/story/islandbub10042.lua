@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "喝饱水~长得高高~",
+			say = "마음껏 마시고~ 쑥쑥 자라세요~",
 			hideType = 2,
 			characterId = 100400,
 			animation = "clap"

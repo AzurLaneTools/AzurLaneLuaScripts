@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "长势真好……阳光都收在里面了。",
+			say = "좋네요…… 태양의 은혜가 꽉 들어 차 있어요.",
 			hideType = 2,
 			characterId = 100400,
 			animation = "nod"

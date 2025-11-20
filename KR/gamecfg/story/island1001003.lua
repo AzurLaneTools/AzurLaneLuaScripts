@@ -19,10 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "啊——突然出现的指挥官！真的假的？",
-			subName = "林场管理员",
-			characterId = 100700,
-			animation = "amaze",
+			say = "안녕, 오브라이언",
+			characterId = 0,
+			animation = "hi",
 			face2Face = {
 				{
 					0,
@@ -35,8 +34,17 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "当然是真的！",
+			animation = "amaze",
+			say = "어……지휘관님? 정말 지휘관님이세요?",
+			characterId = 100700,
+			subName = "숲 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "당연히 진짜지!",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -44,27 +52,26 @@ return {
 			}
 		},
 		{
-			animation = "hi",
-			say = "嘿嘿~好久不见，我还以为你都把我们忘了呢~",
+			animation = "shy",
+			say = "너무 잘 됐어요……오랜만이에요. 저희 모두 지휘관님을 그리워했어요. 저희를 잊은 줄 알고……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "elation",
-			say = "这半年来，我们可是一直都在很努力地建设这里哦~没有偷懒的。",
+			say = "우리는 반년 동안 이곳에서 열심히 건설했어요……게으름 피운 적 없어요.",
+			subName = "숲 관리자",
 			characterId = 100700,
-			subName = "林场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "半年？",
+			say = "반년?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -72,26 +79,26 @@ return {
 			}
 		},
 		{
+			animation = "embarrass",
+			say = "네……여기는 크게 다를 것 없지만, 항구 쪽은……많이 달라졌어요. 시간 되시면 꼭 한번 보세요!",
+			characterId = 100700,
+			subName = "숲 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "(시간 흐르는 속도가 달라서인가……차이가 크면 비행기가 고장 날 만도 하지. )",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "음……너희 이곳에서 오랫동안 머물면서 이상한 점 없었어?",
 			animation = "talk",
-			say = "是啊，虽然这里看着是有些不明显，不过港口那边可是被我们建得超漂亮的，指挥官一定要去看看哦~",
-			characterId = 100700,
-			subName = "林场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "（是时间流速不同的原因么……这么大的差值也难怪飞行器会故障了。）",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			say = "嗯……你们在这里待了这么久，就没有发现什么异常吗？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -100,36 +107,44 @@ return {
 		},
 		{
 			animation = "doubt",
-			say = "异常么……之前岛屿上一直都很正常的。",
+			say = "이상한 점이요……아직 아무 이상 없는데요.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "idea",
-			say = "倒是指挥官你来之前，附近刚刚发生了大爆炸哦，好像是有一艘飞行器坠毁在这附近了！",
+			say = "다만 지휘관님이 오시기 직전, 이 근처에서……큰 폭발이 일어났습니다.",
+			subName = "숲 관리자",
 			characterId = 100700,
-			subName = "林场管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "무언가……비행기가 추락한 느낌이었어요.",
+			characterId = 100700,
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "实不相瞒……",
+					content = "말하자면……",
 					flag = 1
 				},
 				{
-					content = "有么？我怎么没听到。",
+					content = "그……그래? 나는 전혀 모르고 있었어.",
 					flag = 2
 				}
 			}
 		},
 		{
-			say = "其实那是我来时乘坐的飞行器，出了点小意外。",
+			say = "사실 그건 내가 타고 온 비행기야. 작은 사고가 있었어.",
 			optionFlag = 1,
 			characterId = 0,
 			typewriter = {
@@ -138,21 +153,20 @@ return {
 			}
 		},
 		{
-			say = "欸？原来是指挥官的飞行器啊，爆炸时散落的零件把到港口交通线都给砸坏了呢。",
+			say = "네? 지휘관님의 비행기였어요?……폭발하면서 튕겨 나온 파편에 항구로 가는 승강장이 망가졌어요……",
 			characterId = 100700,
 			optionFlag = 1,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "talk",
-			say = "肯定有啦！爆炸散落的零件把到港口交通线都破坏了。",
+			say = "그, 그럼요! 폭발하면서 튕겨 나온 파편에 항구로 가는 승강장이 망가졌어요.",
 			characterId = 100700,
 			optionFlag = 2,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,16 +174,16 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "因为是{namecode:98:明石}订单期限的最后一天，现在原材料运送受阻，乔安正在矿场那边发愁呢~",
+			say = "오늘이 아카시 주문 기한의 마지막 날인데……원자재 운송이 막혀버렸네…… 하아……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "{namecode:98:明石}的订单么……你知道她在哪吗？",
+			say = "아카시의 주문……그녀가 어디 있는지 알아?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -178,25 +192,24 @@ return {
 		},
 		{
 			animation = "think",
-			say = "她一般都会待在港口那边的，指挥官想去找她也得等交通线修复后哦~",
+			say = "음, 평소라면 항구 쪽에 있을 텐데……지금은 항구로 가는 승강장이 망가져서, 지휘관님 조금 기다리셔야 해요.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "숲 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我过去看看。",
+					content = "승강장이라……그렇다면 나도 가서 확인해야겠어.",
 					flag = 1
 				}
 			}
 		},
 		{
-			animation = "nod",
-			say = "好哦~指挥官可以去矿场找乔安问问~车站的修复工作是她在负责的。",
+			say = "네……지휘관님, 석암 광산에 가서 조안에게 물어보세요……역 수리 작업은 그녀가 담당하고 있어요.",
+			subName = "숲 관리자",
 			characterId = 100700,
-			subName = "林场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4,13 +4,13 @@ return {
 	map = {
 		{
 			101300,
-			10030003
+			10030016
 		}
 	},
 	scripts = {
 		{
 			hideTime = 3,
-			say = "嘀嘀嗒~嘀嘀嗒~♪ 今天又会发生什么新鲜事呢？",
+			say = "째깍째깍~♪ 오늘은 또 어떤 새로운 사건이 일어나려나?",
 			hideType = 2,
 			characterId = 101300,
 			animation = "slap"

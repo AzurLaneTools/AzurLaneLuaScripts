@@ -11,6 +11,9 @@ slot0.Init = function(slot0, slot1, slot2)
 	slot0.forceUnlock = slot2
 	slot0.id = slot1.id
 	slot0.state = slot1.state or uv0.STATE_LOCK
+	slot0.maxFinishCnt = pg.island_set.island_shiporder_limit.key_value_int
+	slot0.finishCnt = slot1.finish_num or 0
+	slot0.nextRefreshFinishCntTime = slot1.auto_time or 0
 	slot0.totalTime = slot1.load_time or 0
 	slot0.endTime = 0
 
@@ -30,16 +33,35 @@ slot0.Init = function(slot0, slot1, slot2)
 	slot0.config = pg.island_order_list[slot0.id]
 end
 
-slot0.CanRefresh = function(slot0)
-	if slot0:GetOrder():IsAnyLoadUp() then
-		return false
+slot0.Reset = function(slot0)
+	slot0.openTime = 0
+end
+
+slot0.FillDelegate = function(slot0, slot1)
+	slot0.openTime = 0
+
+	slot0.order:FillConsumeList(Clone(slot1:GetRequestList()))
+	slot0.order:FillAwardList(Clone(slot1:GetAwardList()))
+end
+
+slot0.CanTransport = function(slot0)
+	return slot0.finishCnt < slot0.maxFinishCnt or slot0.nextRefreshFinishCntTime <= pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+slot0.GetFinishCnt = function(slot0)
+	return slot0.finishCnt
+end
+
+slot0.GetRealFinishCnt = function(slot0)
+	if slot0.nextRefreshFinishCntTime <= pg.TimeMgr.GetInstance():GetServerTime() then
+		return math.max(0, slot0.finishCnt - 1)
 	end
 
-	if slot0:IsReloading() then
-		return false
-	end
+	return slot0.finishCnt
+end
 
-	return true
+slot0.GetMaxFinishCnt = function(slot0)
+	return slot0.maxFinishCnt
 end
 
 slot0.GetWorldObjId = function(slot0)
@@ -49,6 +71,24 @@ end
 slot0.Submit = function(slot0, slot1)
 	slot0.endTime = slot1
 	slot0.state = uv0.STATE_SUBMITED
+
+	slot0:IncreaseFinishCnt()
+end
+
+slot0.IncreaseFinishCnt = function(slot0)
+	slot0.finishCnt = math.min(slot0.finishCnt + 1, slot0.maxFinishCnt)
+	slot0.nextRefreshFinishCntTime = slot0:GetNextRefreshFinishCntTime()
+end
+
+slot0.GetNextRefreshFinishCntTime = function(slot0)
+	slot1 = GetZeroTime() - 86400
+	slot4 = pg.TimeMgr.GetInstance():GetServerTime()
+
+	return _.detect(_.map(pg.island_set.island_shiporder_refresh.key_value_varchar, function (slot0)
+		return slot0 + uv0
+	end), function (slot0)
+		return uv0 < slot0
+	end) or GetZeroTime() + slot2[1]
 end
 
 slot0.GetOrder = function(slot0)
@@ -63,13 +103,13 @@ slot0.GetNeedTime = function(slot0)
 	return slot0.totalTime
 end
 
-slot0.GetReloadingEndTime = function(slot0)
-	return slot0.openTime - slot0.reloadingReduceTime
+slot0.GetShowTime = function(slot0)
+	return slot0.openTime
 end
 
-slot0.IsReloading = function(slot0)
+slot0.IsEmpty = function(slot0)
 	if slot0:IsWaiting() then
-		return pg.TimeMgr.GetInstance():GetServerTime() < slot0:GetReloadingEndTime()
+		return pg.TimeMgr.GetInstance():GetServerTime() < slot0:GetShowTime()
 	else
 		return false
 	end

@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "嗯哼~今天的订单又创新高了~",
+			say = "후훗~ 의뢰 수가 오늘도 신기록을 달성했어.",
 			hideType = 2,
 			characterId = 100200,
 			animation = "slack"

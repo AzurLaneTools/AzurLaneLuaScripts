@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "麦子香……闻着……好想打个盹……",
+			say = "보리 향기를…… 맡으니까…… 낮잠이 자고 싶어져……",
 			characterId = 100100
 		}
 	}

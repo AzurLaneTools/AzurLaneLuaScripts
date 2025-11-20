@@ -220,8 +220,26 @@ pg.settings_other_template = {
 		alignment = 0,
 		type = 0,
 		id = 23,
-		title = "岛屿访客通知",
-		desc = "功能开启后，他人问访问您的岛屿将弹框通知"
+		title = "아일랜드 방문 알림",
+		desc = "ON으로 설정하면, 아일랜드에 방문자가 있을 때 팝업으로 알려줍니다."
+	},
+	{
+		default = 0,
+		name = "GRAPHI_API_SWITCH_OPTION",
+		alignment = 0,
+		type = 3,
+		id = 24,
+		title = "렌더링 호환 모드",
+		desc = "렌더링 호환 모드를 ON으로 설정하면, 특정 상황 및 일부 환경에서 화면이 검게 변하는 오류를 줄일 수 있습니다."
+	},
+	{
+		default = 1,
+		name = "REMOVE_LOW_MOOD",
+		alignment = 0,
+		type = 0,
+		id = 25,
+		title = "추천 편성 시의 함선 필터",
+		desc = "ON으로 설정하면 추천 편성으로 함대를 자동 편성할 때 컨디션이 낮은 함선이 선택되지 않습니다."
 	},
 	all = {
 		1,
@@ -246,6 +264,8 @@ pg.settings_other_template = {
 		20,
 		21,
 		22,
-		23
+		23,
+		24,
+		25
 	}
 }

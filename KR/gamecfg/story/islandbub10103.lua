@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "集会指南、简易医疗包、备用联络器……准备万全。",
+			say = "하모니섬 가이드, 간이 의료 키트, 예비 통신기…… 모두 준비가 끝났습니다.",
 			hideType = 2,
 			characterId = 101000,
 			animation = "note"

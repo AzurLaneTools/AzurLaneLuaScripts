@@ -2,43 +2,36 @@ pg = pg or {}
 pg.island_shop_normal_template = {
 	[10012] = {
 		refresh_player = "",
+		exist_time = "stop",
 		refresh_free = 0,
 		refresh_set = 0,
 		id = 10012,
 		refresh_time = 0,
-		unlock = "",
-		exist_time = {
-			{
-				{
-					2025,
-					9,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
+		unlock = ""
 	},
 	[10013] = {
 		refresh_player = "",
+		exist_time = "stop",
 		refresh_free = 0,
 		refresh_set = 0,
 		id = 10013,
+		refresh_time = 0,
+		unlock = ""
+	},
+	[10014] = {
+		refresh_player = "",
+		exist_time = "stop",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10014,
+		refresh_time = 0,
+		unlock = ""
+	},
+	[10015] = {
+		refresh_player = "",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10015,
 		refresh_time = 0,
 		unlock = "",
 		exist_time = {
@@ -46,7 +39,7 @@ pg.island_shop_normal_template = {
 				{
 					2025,
 					11,
-					6
+					20
 				},
 				{
 					0,
@@ -57,8 +50,8 @@ pg.island_shop_normal_template = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					19
 				},
 				{
 					12,
@@ -68,11 +61,11 @@ pg.island_shop_normal_template = {
 			}
 		}
 	},
-	[10014] = {
+	[10016] = {
 		refresh_player = "",
 		refresh_free = 0,
 		refresh_set = 0,
-		id = 10014,
+		id = 10016,
 		refresh_time = 0,
 		unlock = "",
 		exist_time = {
@@ -80,7 +73,7 @@ pg.island_shop_normal_template = {
 				{
 					2025,
 					12,
-					4
+					18
 				},
 				{
 					0,
@@ -91,8 +84,42 @@ pg.island_shop_normal_template = {
 			{
 				{
 					2026,
+					2,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[10017] = {
+		refresh_player = "",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10017,
+		refresh_time = 0,
+		unlock = "",
+		exist_time = {
+			{
+				{
+					2026,
 					1,
-					8
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					19
 				},
 				{
 					12,
@@ -218,6 +245,9 @@ pg.island_shop_normal_template = {
 		10012,
 		10013,
 		10014,
+		10015,
+		10016,
+		10017,
 		10021,
 		10111,
 		10112,

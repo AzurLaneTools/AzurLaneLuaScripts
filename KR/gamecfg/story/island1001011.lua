@@ -19,9 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			animation = "hi",
+			say = "패트리, 굉장히 바쁜 모양이네, 항구 주문은 네가 총괄하고 있어?",
 			characterId = 0,
-			say = "帕特莉，这里是你在管理的订单么？",
+			animation = "hi",
 			face2Face = {
 				{
 					0,
@@ -34,28 +34,27 @@ return {
 			}
 		},
 		{
-			say = "咦，是指挥官来了啊，港口的订单是我在管理！",
-			animation = "hi",
+			say = "지휘관님?! 네, 항구의 주문은 제가 관리하고 있어요~",
+			animation = "amaze",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "의뢰 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "doubt",
-			say = "你怎么突然来无人岛开发区了，提前说一声的话，大家都会来港口迎接你的哦~",
+			say = "그런데 어쩐 일로 개발구에 오신 거예요? 미리 말씀하셨다면, 모두가 항구로 마중 나갔을 거예요.",
+			subName = "의뢰 관리자",
 			characterId = 100200,
-			subName = "订单管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			say = "다들 눈코 뜰 새 없이 바빠 보이는데, 마중 나올 겨를도 없었을 거야……",
 			animation = "shakehead",
-			say = "那还是算了，我刚才看你忙得订单都快处理不过来了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -63,17 +62,17 @@ return {
 			}
 		},
 		{
-			animation = "talk",
-			say = "嗯，最近订单确实源源不断~港口也十分繁忙。",
+			animation = "sad",
+			say = "네, 하긴요. 주문량이 무려 세 배나 폭증했어요.",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "의뢰 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "（可我记得港区这周明明就没给{namecode:98:明石}下过订单的啊。）",
+			say = "(내가 기억에 의하면, 이번 주에 모항은 아카시에게 주문을 내린 적 없는데. )",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "（那这些货都是运到哪里去了呢……）",
+			say = "(그렇다면 이 물건들은 다 어디로 보내는 거지……)",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -89,17 +88,18 @@ return {
 			}
 		},
 		{
-			animation = "doubt",
-			say = "指挥官也是来下单的吗？",
+			animation = "curious",
+			say = "응? 지휘관님이 뭘 그리 열심히 보세요…… 설마 감사하러 오신 것 아니죠?",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "의뢰 관리자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "啊，其实我是来提交订单的！这些都是乔安和奥布莱恩的货物。",
+			say = "아니, 나는 조안 일행의 주문을 전달하러 왔어. 이건 조안과 오브라이언이 준비한 화물이야.",
+			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			say = "嗯，是今天就要发的货，真是多谢指挥官了~",
-			subName = "订单管理员",
+			say = "아, 급송 건이군요! 지휘관님, 정말 고맙습니다~",
+			subName = "의뢰 관리자",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -117,9 +117,18 @@ return {
 		},
 		{
 			animation = "elation",
-			say = "不过即使是指挥官送来的，我也会好好核对清楚的，接下来就麻烦指挥官挨个提交一下订单啦~",
+			say = "지휘관님이 가져오셨더라도, 저는 꼼꼼히 확인할 거예요~",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "의뢰 관리자",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "그럼 지휘관님께서 주문서를 일일이 기재해 주세요~",
+			subName = "의뢰 관리자",
+			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

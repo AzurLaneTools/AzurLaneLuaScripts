@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "汗水都洒在这田里了。",
+			say = "땀을 흘려서 일궈낸 게 바로 이 논이에요.",
 			hideType = 2,
 			characterId = 100400,
 			animation = "rest"

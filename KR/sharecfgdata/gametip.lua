@@ -1483,6 +1483,11 @@ _G.pg.base.gametip.channel_name_5 = {
 }
 
 
+_G.pg.base.gametip.channel_name_6 = {
+	tip = "아일랜드"
+}
+
+
 _G.pg.base.gametip.common_wait = {
 	tip = "잠시만 기다려주시기 바랍니다."
 }
@@ -12522,17 +12527,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「상 마르티뉴」 상시 건조 추가!"
+	tip = "「무사시」, 「하구로」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「골든 하인드」 상시 건조 추가!"
+	tip = "「와카츠키」, 「사카와」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「메리 셀러스트」, 「위다」 상시 건조 추가!"
+	tip = "「무사시」 상시 건조 추가!"
 }
 
 
@@ -38105,6 +38110,21 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 }
 
 
+_G.pg.base.gametip.island_name_too_long_or_too_short = {
+	tip = "섬 명칭은 1 ~ 9글자로 제한됩니다."
+}
+
+
+_G.pg.base.gametip.island_name_exist_special_word = {
+	tip = "사용할 수 없는 문자가 포함되어 있습니다."
+}
+
+
+_G.pg.base.gametip.island_name_exist_ban_word = {
+	tip = "사용할 수 없는 문자가 포함되어 있습니다."
+}
+
+
 _G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
 	tip = "GPUPU 허가"
 }
@@ -38285,6 +38305,141 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 }
 
 
+_G.pg.base.gametip.grapihcs3d_setting_3Dquality = {
+	tip = "화질 설정"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_control = {
+	tip = "조작 설정"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_general = {
+	tip = "아일랜드 설치"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_title = {
+	tip = "프로필"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_tag = {
+	tip = "태그 설정"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_socialdata = {
+	tip = "데이터 전시"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_title = {
+	tip = "아일랜드 범용 기능"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_use = {
+	tip = "사용"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_unstuck = {
+	tip = "위치 초기화"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_unstuck_msgbox = {
+	tip = "위치 초기화를 사용하여, 현재 위치를 구역의 초기 위치로 되돌리시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_daily_gift_invite_success = {
+	tip = "보급 수령 요청을 발송했습니다."
+}
+
+
+_G.pg.base.gametip.island_build_save_conflict = {
+	tip = "이곳에는 배치할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_build_save_success = {
+	tip = "저장 성공"
+}
+
+
+_G.pg.base.gametip.island_build_capacity_tip = {
+	tip = "배치 용량을 초과했습니다."
+}
+
+
+_G.pg.base.gametip.island_build_clean_tip = {
+	tip = "가구 배치를 모두 해제하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_build_revert_tip = {
+	tip = "변경 사항을 모두 초기화 하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_dress_exit = {
+	tip = "스킨을 저장하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_dress_exit2 = {
+	tip = "보유하고 있지 않은 스킨이 자동으로 해제되었습니다."
+}
+
+
+_G.pg.base.gametip.island_dress_mutually_exclusive = {
+	tip = "$1(와)과 현재 스킨은 동시에 적용할 수 없어, 자동으로 해제되었습니다."
+}
+
+
+_G.pg.base.gametip.island_dress_skin_buy = {
+	tip = "$1(을)를 사용하여 $2(을)를 구매하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_dress_color_buy = {
+	tip = "$1(으)로 이 색상을 오픈하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_dress_color_unlock = {
+	tip = "색상을 오픈했습니다."
+}
+
+
+_G.pg.base.gametip.island_dress_save1 = {
+	tip = "저장에 성공했습니다."
+}
+
+
+_G.pg.base.gametip.island_dress_save2 = {
+	tip = "저장에 성공했습니다. 보유하고 있지 않은 스킨이 자동으로 해제되었습니다."
+}
+
+
+_G.pg.base.gametip.island_dress_mutually_exclusive1 = {
+	tip = "이 스킨은 해당 캐릭터에게 적용할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_dress_send_tip = {
+	tip = "$1(을)를 $1에게 선물하여 적용하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_dress_send_tip_success = {
+	tip = "$1(을)를 $1에게 선물했습니다."
+}
+
+
 _G.pg.base.gametip.handbook_new_player_task_locked_by_section = {
 	tip = "전 단계의 모든 임무 완료 시 오픈"
 }
@@ -38382,11 +38537,6 @@ _G.pg.base.gametip.handbook_research_final_task_btn_locked = {
 
 _G.pg.base.gametip.handbook_research_final_task_btn_claim = {
 	tip = "수령"
-}
-
-
-_G.pg.base.gametip.handbook_research_final_task_btn_unfinished = {
-	tip = "미완료"
 }
 
 
@@ -40027,6 +40177,3850 @@ _G.pg.base.gametip.shop_filter_retro = {
 }
 
 
+_G.pg.base.gametip.island_chara_invitename = {
+	tip = "$1 아일랜드 권한 인증"
+}
+
+
+_G.pg.base.gametip.island_chara_totalname = {
+	tip = "캐릭터 상세 정보"
+}
+
+
+_G.pg.base.gametip.island_chara_totalname_en = {
+	tip = "SHIPINFO"
+}
+
+
+_G.pg.base.gametip.island_chara_power = {
+	tip = "체력"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute1 = {
+	tip = "농업"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute2 = {
+	tip = "채집"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute3 = {
+	tip = "사육"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute4 = {
+	tip = "요리"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute5 = {
+	tip = "경영"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute6 = {
+	tip = "제조"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_lock = {
+	tip = "★2까지 돌파해야 합니다."
+}
+
+
+_G.pg.base.gametip.island_chara_list = {
+	tip = "캐릭터 목록"
+}
+
+
+_G.pg.base.gametip.island_chara_list_filter = {
+	tip = "필터링"
+}
+
+
+_G.pg.base.gametip.island_chara_list_sort = {
+	tip = "정렬"
+}
+
+
+_G.pg.base.gametip.island_chara_list_level = {
+	tip = "생활 LV"
+}
+
+
+_G.pg.base.gametip.island_chara_list_attribute = {
+	tip = "능력 종합"
+}
+
+
+_G.pg.base.gametip.island_chara_list_workspeed = {
+	tip = "작업 효율"
+}
+
+
+_G.pg.base.gametip.island_index_name = {
+	tip = "남은 체력"
+}
+
+
+_G.pg.base.gametip.island_index_extra_all = {
+	tip = "무제한"
+}
+
+
+_G.pg.base.gametip.island_index_potency = {
+	tip = "능력 강화 가능"
+}
+
+
+_G.pg.base.gametip.island_index_skill = {
+	tip = "스킬 강화 가능"
+}
+
+
+_G.pg.base.gametip.island_index_status = {
+	tip = "버프 있음"
+}
+
+
+_G.pg.base.gametip.island_confirm = {
+	tip = "확정"
+}
+
+
+_G.pg.base.gametip.island_cancel = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.island_chara_levelup = {
+	tip = "레벨업"
+}
+
+
+_G.pg.base.gametip.islland_chara_material_consum = {
+	tip = "소비 재료"
+}
+
+
+_G.pg.base.gametip.island_chara_up_button = {
+	tip = "레벨업"
+}
+
+
+_G.pg.base.gametip.island_chara_now_rank = {
+	tip = "현재★"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout = {
+	tip = "돌파"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_tip = {
+	tip = "스킬 오픈:"
+}
+
+
+_G.pg.base.gametip.island_chara_consum = {
+	tip = "소비"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout_button = {
+	tip = "돌파"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout_down = {
+	tip = "돌파 완료"
+}
+
+
+_G.pg.base.gametip.island_chara_level_limit = {
+	tip = "레벨 한도"
+}
+
+
+_G.pg.base.gametip.island_chara_power_limit = {
+	tip = "체력 한도"
+}
+
+
+_G.pg.base.gametip.island_click_to_close = {
+	tip = "화면을 탭하여 돌아가기"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_unlock = {
+	tip = "스킬 오픈"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute_develop = {
+	tip = "능력 강화"
+}
+
+
+_G.pg.base.gametip.island_chara_choose_attribute = {
+	tip = "강화할 능력 선택"
+}
+
+
+_G.pg.base.gametip.island_chara_rating_up = {
+	tip = "능력 강화"
+}
+
+
+_G.pg.base.gametip.island_chara_limit_up = {
+	tip = "한도 돌파"
+}
+
+
+_G.pg.base.gametip.island_chara_ceiling_unlock = {
+	tip = "직책의 별을 1개 소비하여 한계 돌파하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_chara_choose_gift = {
+	tip = "탭하여 선물 선택"
+}
+
+
+_G.pg.base.gametip.island_chara_buff_better = {
+	tip = "효과가 가장 큰 버프가 적용되어 있습니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_chara_buff_nomal = {
+	tip = "적용 중인 버프가 덮어씌워집니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_chara_gift_power = {
+	tip = "체력 회복: $1"
+}
+
+
+_G.pg.base.gametip.island_visit_title = {
+	tip = "방문"
+}
+
+
+_G.pg.base.gametip.island_visit_friend = {
+	tip = "친구"
+}
+
+
+_G.pg.base.gametip.island_visit_teammate = {
+	tip = "대함대"
+}
+
+
+_G.pg.base.gametip.island_visit_code = {
+	tip = "코드"
+}
+
+
+_G.pg.base.gametip.island_visit_search = {
+	tip = "검색"
+}
+
+
+_G.pg.base.gametip.island_visit_whitelist = {
+	tip = "자동 허가"
+}
+
+
+_G.pg.base.gametip.island_visit_balcklist = {
+	tip = "방문 금지"
+}
+
+
+_G.pg.base.gametip.island_visit_set = {
+	tip = "설정"
+}
+
+
+_G.pg.base.gametip.island_visit_delete = {
+	tip = "삭제"
+}
+
+
+_G.pg.base.gametip.island_visit_more = {
+	tip = "더 보기"
+}
+
+
+_G.pg.base.gametip.island_visit_code_title = {
+	tip = "방문 코드"
+}
+
+
+_G.pg.base.gametip.island_visit_code_input = {
+	tip = "코드 입력"
+}
+
+
+_G.pg.base.gametip.island_visit_code_like = {
+	tip = "자주 쓰는 항목으로 설정"
+}
+
+
+_G.pg.base.gametip.island_visit_code_likelist = {
+	tip = "자주 쓰는 코드"
+}
+
+
+_G.pg.base.gametip.island_visit_code_remove = {
+	tip = "해제"
+}
+
+
+_G.pg.base.gametip.island_visit_code_copy = {
+	tip = "복사"
+}
+
+
+_G.pg.base.gametip.island_visit_search_mineid = {
+	tip = "UID"
+}
+
+
+_G.pg.base.gametip.island_visit_search_input = {
+	tip = "탭하여 입력"
+}
+
+
+_G.pg.base.gametip.island_visit_whitelist_tip = {
+	tip = "자동 허가 목록 내의 유저는 방문이 자동으로 허가됩니다."
+}
+
+
+_G.pg.base.gametip.island_visit_balcklist_tip = {
+	tip = "방문 금지 목록 내의 유저는 방문이 허용되지 않습니다."
+}
+
+
+_G.pg.base.gametip.island_visit_set_title = {
+	tip = "아일랜드 방문 허가"
+}
+
+
+_G.pg.base.gametip.island_visit_set_tip = {
+	tip = "허가 개방 범위 선택"
+}
+
+
+_G.pg.base.gametip.island_visit_set_refresh = {
+	tip = "업데이트"
+}
+
+
+_G.pg.base.gametip.island_visit_set_close = {
+	tip = "아일랜드 방문을 허가하지 않습니다."
+}
+
+
+_G.pg.base.gametip.island_visit_set_help = {
+	tip = [[
+방문 허가 ON: 방문 허가를 선택한 그룹의 유저만 아일랜드를 방문할 수 있습니다.
+방문 허가 OFF: 아일랜드 방문을 허용하지 않습니다.
+방문 코드: 방문 허가를 ON으로 설정하면, 방문 금지 목록에 없는 유저에 한해 코드를 사용하여 아일랜드에 방문할 수 있습니다.
+코드 초기화: 방문 코드는 하루에 한 번 초기화할 수 있습니다.]]
+}
+
+
+_G.pg.base.gametip.island_visitor_button = {
+	tip = "방문"
+}
+
+
+_G.pg.base.gametip.island_visitor_status = {
+	tip = "방문 중"
+}
+
+
+_G.pg.base.gametip.island_visitor_record = {
+	tip = "방문 기록"
+}
+
+
+_G.pg.base.gametip.island_visitor_num = {
+	tip = "현재 대기: XX"
+}
+
+
+_G.pg.base.gametip.island_visitor_kick = {
+	tip = "추방"
+}
+
+
+_G.pg.base.gametip.island_visitor_kickall = {
+	tip = "일괄 추방"
+}
+
+
+_G.pg.base.gametip.island_visitor_close = {
+	tip = "방문 금지"
+}
+
+
+_G.pg.base.gametip.island_lineup_tip = {
+	tip = "아일랜드 방문 수가 한도에 달했습니다. 대기 목록에 들어갑니다."
+}
+
+
+_G.pg.base.gametip.island_lineup_button = {
+	tip = "방문 중지"
+}
+
+
+_G.pg.base.gametip.island_visit_tip1 = {
+	tip = "아일랜드에 방문할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_visit_tip2 = {
+	tip = "아일랜드 방문이 허가되지 않았습니다."
+}
+
+
+_G.pg.base.gametip.island_visit_tip3 = {
+	tip = "잘못된 방문 코드입니다."
+}
+
+
+_G.pg.base.gametip.island_visit_tip4 = {
+	tip = "아일랜드에서 추방되었습니다."
+}
+
+
+_G.pg.base.gametip.island_visit_tip5 = {
+	tip = "방문 쿨타임: $1"
+}
+
+
+_G.pg.base.gametip.island_visit_tip6 = {
+	tip = "조작에 성공했습니다."
+}
+
+
+_G.pg.base.gametip.island_visit_tip7 = {
+	tip = "자주 쓰는 코드를 추가로 설정할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_season_help = {
+	tip = [[
+새로운 시즌이 시작되면 아일랜드 개발 PT는 <color=#FD5650>자동으로 초기화</color>됩니다. 
+개발 시즌에는 <color=#39bfff>자원 변환</color>·<color=#39bfff>특정 자원 생산</color>·<color=#39bfff>수송 의뢰</color>·<color=#39bfff>한정 이벤트 참여</color>·<color=#39bfff>상점 구매</color>로 아일랜드 개발 PT를 획득할 수 있습니다. 
+3. 시즌이 종료되면 자원 창고에 있는 자원은 <color=#FD5650>자동으로 개발 PT로 변환되며</color>, 개발 순위 계산에 따라 총계가 이루어집니다.
+4. 시즌이 종료되면, 해당 시즌의 개발 계획 보상과 합계 PT 보상은 <color=#FD5650>수령할 수 없게 됩니다</color>.]]
+}
+
+
+_G.pg.base.gametip.island_season_title = {
+	tip = "시즌"
+}
+
+
+_G.pg.base.gametip.island_season_pt_hold = {
+	tip = "획득 완료"
+}
+
+
+_G.pg.base.gametip.island_season_pt_collectall = {
+	tip = "일괄 획득"
+}
+
+
+_G.pg.base.gametip.island_season_activity = {
+	tip = "이벤트"
+}
+
+
+_G.pg.base.gametip.island_season_pt = {
+	tip = "합계 PT"
+}
+
+
+_G.pg.base.gametip.island_season_task = {
+	tip = "개발 계획"
+}
+
+
+_G.pg.base.gametip.island_season_shop = {
+	tip = "상점"
+}
+
+
+_G.pg.base.gametip.island_season_charts = {
+	tip = "개발 순위"
+}
+
+
+_G.pg.base.gametip.island_season_review = {
+	tip = "회고"
+}
+
+
+_G.pg.base.gametip.island_season_task_collect = {
+	tip = "수령"
+}
+
+
+_G.pg.base.gametip.island_season_task_collected = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.island_season_task_collectall = {
+	tip = "일괄 수령"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage1 = {
+	tip = "단계Ⅰ"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage2 = {
+	tip = "단계Ⅱ"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage3 = {
+	tip = "단계Ⅲ"
+}
+
+
+_G.pg.base.gametip.island_season_charts_ranking = {
+	tip = "개발 순위"
+}
+
+
+_G.pg.base.gametip.island_season_charts_information = {
+	tip = "아일랜드 정보"
+}
+
+
+_G.pg.base.gametip.island_season_charts_pt = {
+	tip = "아일랜드 개발 PT"
+}
+
+
+_G.pg.base.gametip.island_season_charts_award = {
+	tip = "순위 보상"
+}
+
+
+_G.pg.base.gametip.island_season_charts_level = {
+	tip = "아일랜드 개발 등급"
+}
+
+
+_G.pg.base.gametip.island_season_charts_refresh = {
+	tip = "개발 순위는 30분마다 업데이트됩니다."
+}
+
+
+_G.pg.base.gametip.island_season_charts_out = {
+	tip = "랭크 외"
+}
+
+
+_G.pg.base.gametip.island_season_review_charnum = {
+	tip = "동료 수"
+}
+
+
+_G.pg.base.gametip.island_season_review_projuctnum = {
+	tip = "기술 연구"
+}
+
+
+_G.pg.base.gametip.island_season_review_ptnum = {
+	tip = "개발 PT"
+}
+
+
+_G.pg.base.gametip.island_season_review_ptrank = {
+	tip = "개발 순위"
+}
+
+
+_G.pg.base.gametip.island_season_review_produce = {
+	tip = "아일랜드 생산"
+}
+
+
+_G.pg.base.gametip.island_season_review_ordernum = {
+	tip = "운송 자원 수"
+}
+
+
+_G.pg.base.gametip.island_season_review_formulanum = {
+	tip = "메뉴 제작 수"
+}
+
+
+_G.pg.base.gametip.island_season_review_relax = {
+	tip = "미니 게임"
+}
+
+
+_G.pg.base.gametip.island_season_review_fishnum = {
+	tip = "낚시 성과"
+}
+
+
+_G.pg.base.gametip.island_season_review_gamenum = {
+	tip = "이벤트 참여"
+}
+
+
+_G.pg.base.gametip.island_season_window_end = {
+	tip = "이제 곧 시즌이 종료됩니다."
+}
+
+
+_G.pg.base.gametip.island_season_window_end2 = {
+	tip = "남은 기간: $1일"
+}
+
+
+_G.pg.base.gametip.island_season_window_rule = {
+	tip = "1. 시즌이 종료되면 자원 창고에 있는 자원은 자동으로 개발 PT로 변환되며, 개발 순위 계산에 따라 통계가 이루어집니다. 또한 임시 창고 안이 비워져, 진행 중인 의뢰 및 운송 의뢰, 요리 제작, 동료의 생산 배치도 모두 초기화됩니다.\n2. 시즌이 종료되면, 해당 시즌의 개발 계획 보상과 합계 PT 보상을 수령할 수 없게 됩니다.\n3. 새로운 시즌이 시작되면 개발 PT가 자동으로 초기화됩니다."
+}
+
+
+_G.pg.base.gametip.island_season_window_transformtip = {
+	tip = "선택한 아이템을 변환하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_season_window_pt = {
+	tip = "$1 자원 변환으로 획득"
+}
+
+
+_G.pg.base.gametip.island_season_window_ranking = {
+	tip = "최종 순위"
+}
+
+
+_G.pg.base.gametip.island_season_window_award = {
+	tip = "순위 보상"
+}
+
+
+_G.pg.base.gametip.island_season_window_out = {
+	tip = "순위권 외"
+}
+
+
+_G.pg.base.gametip.island_season_review_miss = {
+	tip = "시즌에 참여하고 있지 않습니다."
+}
+
+
+_G.pg.base.gametip.island_season_reset = {
+	tip = "시즌이 초기화되었습니다."
+}
+
+
+_G.pg.base.gametip.island_help_ship_order = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_farm = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_farm"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_commission = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_cafe_minigame = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_cafe_minigame"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_signin = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_signin1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_signin2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_ranch = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ranch1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ranch2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_manage = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_combo = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_combo1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_combo2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_friends = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_friends1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_friends2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_season = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_archive = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_archive1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_renovation = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_renovation1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_renovation2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_photo = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_photo1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_greet = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_greet1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_greet2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_character_info = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_skin_original_desc = {
+	tip = "기본"
+}
+
+
+_G.pg.base.gametip.island_dress_no_item = {
+	tip = "이 분류에 해당하는 스킨이 없습니다."
+}
+
+
+_G.pg.base.gametip.island_agora_deco_empty = {
+	tip = "배치되어 있지 않습니다."
+}
+
+
+_G.pg.base.gametip.island_agora_pos_unavailability = {
+	tip = "이미 배치 중입니다."
+}
+
+
+_G.pg.base.gametip.island_agora_max_capacity = {
+	tip = "배치 용량이 가득 찼습니다."
+}
+
+
+_G.pg.base.gametip.island_agora_label_base = {
+	tip = "주거지"
+}
+
+
+_G.pg.base.gametip.island_agora_label_building = {
+	tip = "부지"
+}
+
+
+_G.pg.base.gametip.island_agora_label_furniture = {
+	tip = "오브젝트"
+}
+
+
+_G.pg.base.gametip.island_agora_label_dec = {
+	tip = "장식"
+}
+
+
+_G.pg.base.gametip.island_agora_label_floor = {
+	tip = "바닥"
+}
+
+
+_G.pg.base.gametip.island_agora_label_tile = {
+	tip = "바닥 장식"
+}
+
+
+_G.pg.base.gametip.island_agora_label_collection = {
+	tip = "수집"
+}
+
+
+_G.pg.base.gametip.island_agora_label_default = {
+	tip = "디폴트"
+}
+
+
+_G.pg.base.gametip.island_agora_label_rarity = {
+	tip = "레어도"
+}
+
+
+_G.pg.base.gametip.island_agora_label_gettime = {
+	tip = "획득 순"
+}
+
+
+_G.pg.base.gametip.island_agora_label_capacity = {
+	tip = "점유 용량"
+}
+
+
+_G.pg.base.gametip.island_agora_capacity = {
+	tip = "점유 용량"
+}
+
+
+_G.pg.base.gametip.island_agora_furniure_preview = {
+	tip = "미리보기"
+}
+
+
+_G.pg.base.gametip.island_agora_function_unuse = {
+	tip = "기능이 오픈되지 않았습니다."
+}
+
+
+_G.pg.base.gametip.island_agora_signIn_tip = {
+	tip = "새로운 하루가 시작되었다. 일상 보급을 확인하자!"
+}
+
+
+_G.pg.base.gametip.island_agora_working = {
+	tip = "변경 사항 적용 중……"
+}
+
+
+_G.pg.base.gametip.island_agora_using = {
+	tip = "적용 중"
+}
+
+
+_G.pg.base.gametip.island_agora_save_theme = {
+	tip = "세팅 저장"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_clear = {
+	tip = "클리어"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_revert = {
+	tip = "초기화"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_save = {
+	tip = "저장"
+}
+
+
+_G.pg.base.gametip.island_agora_title = {
+	tip = "하모니섬"
+}
+
+
+_G.pg.base.gametip.island_agora_label_search = {
+	tip = "탭하여 검색"
+}
+
+
+_G.pg.base.gametip.island_agora_label_theme = {
+	tip = "테마"
+}
+
+
+_G.pg.base.gametip.island_agora_label_empty_tip = {
+	tip = "이 분류에 해당하는 가구가 없습니다."
+}
+
+
+_G.pg.base.gametip.island_agora_clear_tip = {
+	tip = "현재 배치를 초기화 하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_agora_revert_tip = {
+	tip = "변경 사항을 모두 초기화 하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_agora_save_or_exit_tip = {
+	tip = "현재 배치를 내 세팅에 저장하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_agora_exit_and_unsave = {
+	tip = "세팅 삭제"
+}
+
+
+_G.pg.base.gametip.island_agora_exit_and_save = {
+	tip = "일괄 배치"
+}
+
+
+_G.pg.base.gametip.island_agora_no_pos_place = {
+	tip = "저장할 곳이 없습니다."
+}
+
+
+_G.pg.base.gametip.island_agora_pave_tip = {
+	tip = "드래그 앤 드롭으로 배치 가능"
+}
+
+
+_G.pg.base.gametip.island_enter_island_ban = {
+	tip = "방문 금지"
+}
+
+
+_G.pg.base.gametip.island_order_not_get_award = {
+	tip = "수령할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_order_cant_replace = {
+	tip = "교체할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_rename_tip = {
+	tip = "현재 이름으로 확정하시겠습니까?\n추후에도 변경할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.island_rename_confirm = {
+	tip = "아일랜드 이름 변경: $1"
+}
+
+
+_G.pg.base.gametip.island_bag_max_level = {
+	tip = "최대 레벨에 달했습니다."
+}
+
+
+_G.pg.base.gametip.island_bag_uprade_success = {
+	tip = "레벨업에 성공했습니다."
+}
+
+
+_G.pg.base.gametip.island_agora_save_success = {
+	tip = "저장했습니다."
+}
+
+
+_G.pg.base.gametip.island_agora_max_level = {
+	tip = "최대 레벨에 달했습니다."
+}
+
+
+_G.pg.base.gametip.island_white_list_full = {
+	tip = "자동 허가 목록이 가득 찼습니다."
+}
+
+
+_G.pg.base.gametip.island_black_list_full = {
+	tip = "방문 금지 목록이 가득 찼습니다."
+}
+
+
+_G.pg.base.gametip.island_inviteCode_refresh = {
+	tip = "오늘은 이미 업데이트를 완료했습니다."
+}
+
+
+_G.pg.base.gametip.island_give_gift_success = {
+	tip = "선물했습니다."
+}
+
+
+_G.pg.base.gametip.island_get_git_tip = {
+	tip = "아일랜드 보급을 이미 수령했습니다."
+}
+
+
+_G.pg.base.gametip.island_get_git_cnt_tip = {
+	tip = "오늘은 더 이상 수령할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_share_gift_success = {
+	tip = "설정을 완료했습니다."
+}
+
+
+_G.pg.base.gametip.island_invitation_gift_success = {
+	tip = "보급 수령 요청을 발송했습니다."
+}
+
+
+_G.pg.base.gametip.island_dectect_mode3x3 = {
+	tip = "3×3 모드로 변경"
+}
+
+
+_G.pg.base.gametip.island_dectect_mode1x1 = {
+	tip = "1칸 모드로 변경"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover = {
+	tip = "현재 적용 중인 버프 효과가 덮어씌워집니다. 선물을 사용하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_1 = {
+	tip = "현재 적용 중인 버프 효과가 덮어씌워집니다. 선물을 사용하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_2 = {
+	tip = "이미 더 큰 버프 효과가 적용되어 있습니다. 선물을 사용하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_3 = {
+	tip = "이미 더 큰 버프 효과가 적용되어 있습니다. 선물을 사용하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_log_visit = {
+	tip = "(이)가 아일랜드를 방문했습니다."
+}
+
+
+_G.pg.base.gametip.island_log_exit = {
+	tip = "(이)가 아일랜드에서 나갔습니다."
+}
+
+
+_G.pg.base.gametip.island_log_gift = {
+	tip = "(이)가 보급 수령 요청을 보냈습니다."
+}
+
+
+_G.pg.base.gametip.island_item_type_res = {
+	tip = "자원"
+}
+
+
+_G.pg.base.gametip.island_item_type_consume = {
+	tip = "소모품"
+}
+
+
+_G.pg.base.gametip.island_item_type_spe = {
+	tip = "특수"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_1 = {
+	tip = "재배"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_2 = {
+	tip = "채집"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_3 = {
+	tip = "사육"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_4 = {
+	tip = "요리"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_5 = {
+	tip = "경영"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_6 = {
+	tip = "제조"
+}
+
+
+_G.pg.base.gametip.island_task_title = {
+	tip = "개발 계획"
+}
+
+
+_G.pg.base.gametip.island_task_title_en = {
+	tip = "MISSIONS"
+}
+
+
+_G.pg.base.gametip.island_task_type_1 = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.island_task_type_2 = {
+	tip = "아일랜드 개발"
+}
+
+
+_G.pg.base.gametip.island_task_type_3 = {
+	tip = "아일랜드 생활"
+}
+
+
+_G.pg.base.gametip.island_task_type_4 = {
+	tip = "데일리"
+}
+
+
+_G.pg.base.gametip.island_task_type_5 = {
+	tip = "위클리"
+}
+
+
+_G.pg.base.gametip.island_task_type_6 = {
+	tip = "이벤트"
+}
+
+
+_G.pg.base.gametip.island_tech_type_1 = {
+	tip = "연구 본부"
+}
+
+
+_G.pg.base.gametip.island_default_name = {
+	tip = "$1의 아일랜드"
+}
+
+
+_G.pg.base.gametip.island_order_type_1 = {
+	tip = "일반 의뢰"
+}
+
+
+_G.pg.base.gametip.island_order_type_2 = {
+	tip = "긴급 의뢰"
+}
+
+
+_G.pg.base.gametip.island_order_desc_1 = {
+	tip = "조금 노력이 필요한 의뢰. 열심히 일한 만큼 보상을 받을 수 있다."
+}
+
+
+_G.pg.base.gametip.island_order_desc_2 = {
+	tip = "편하게 처리할 수 있는 의뢰. 단, 보상이 조금 작게 느껴질 수 있다."
+}
+
+
+_G.pg.base.gametip.island_order_desc_3 = {
+	tip = "조금 도전적인 의뢰. 보상을 대량으로 받을 수 있다."
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_1 = {
+	tip = "보통"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_2 = {
+	tip = "쉬움"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_3 = {
+	tip = "어려움"
+}
+
+
+_G.pg.base.gametip.island_commander = {
+	tip = "지휘관"
+}
+
+
+_G.pg.base.gametip.island_task_lefttime = {
+	tip = "$1일 $2시간"
+}
+
+
+_G.pg.base.gametip.island_seek_game_tip = {
+	tip = "경비 장치를 조심하자!"
+}
+
+
+_G.pg.base.gametip.island_item_transfer = {
+	tip = "다음 아이템이 이동되었습니다."
+}
+
+
+_G.pg.base.gametip.island_set_manifesto_success = {
+	tip = "수정 완료"
+}
+
+
+_G.pg.base.gametip.island_prosperity_level = {
+	tip = "번영도"
+}
+
+
+_G.pg.base.gametip.island_toast_status = {
+	tip = "$2(은)는 버프 효과\n[$1](을)를 획득했습니다."
+}
+
+
+_G.pg.base.gametip.island_toast_level = {
+	tip = "$2(은)는 레벨 $1(이)가 되었습니다."
+}
+
+
+_G.pg.base.gametip.island_toast_ship = {
+	tip = "$2(은)는 정식으로 $1에 가입했습니다."
+}
+
+
+_G.pg.base.gametip.island_lock_map_tip = {
+	tip = "지도가 오픈되지 않았습니다."
+}
+
+
+_G.pg.base.gametip.island_home_btn_cant_use = {
+	tip = "지금은 사용할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_item_overflow = {
+	tip = "초과 ×$1"
+}
+
+
+_G.pg.base.gametip.island_item_no_capacity = {
+	tip = "창고가 가득 참"
+}
+
+
+_G.pg.base.gametip.island_ship_no_energy = {
+	tip = "피로"
+}
+
+
+_G.pg.base.gametip.island_ship_working = {
+	tip = "작업 중:"
+}
+
+
+_G.pg.base.gametip.island_ship_level_limit = {
+	tip = "체력 한도"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_limit = {
+	tip = "레벨 한도"
+}
+
+
+_G.pg.base.gametip.island_click_close = {
+	tip = "화면을 탭하면 닫힙니다."
+}
+
+
+_G.pg.base.gametip.island_break_finish = {
+	tip = "<color=#39bfff>[ 돌파 완료 ]</color>"
+}
+
+
+_G.pg.base.gametip.island_unlock_skill = {
+	tip = "<color=#39bfff>[ 스킬 오픈 ]</color>"
+}
+
+
+_G.pg.base.gametip.island_ship_title_info = {
+	tip = "캐릭터 정보"
+}
+
+
+_G.pg.base.gametip.island_building_title_info = {
+	tip = "시설 정보"
+}
+
+
+_G.pg.base.gametip.island_word_effect = {
+	tip = "효과:"
+}
+
+
+_G.pg.base.gametip.island_word_dispatch = {
+	tip = "배치 중:"
+}
+
+
+_G.pg.base.gametip.island_word_working = {
+	tip = "작업 중"
+}
+
+
+_G.pg.base.gametip.island_word_stop_work = {
+	tip = "작업 중지"
+}
+
+
+_G.pg.base.gametip.island_level_to_unlock = {
+	tip = "아일랜드 레벨 $1 달성 시 오픈"
+}
+
+
+_G.pg.base.gametip.island_select_product = {
+	tip = "생산물 선택"
+}
+
+
+_G.pg.base.gametip.island_sub_product_cnt = {
+	tip = "부산물 × $1"
+}
+
+
+_G.pg.base.gametip.island_make_unlock_tip = {
+	tip = "$1 레벨 $2 달성 시 오픈"
+}
+
+
+_G.pg.base.gametip.island_need_star = {
+	tip = "★$1까지 돌파해야 합니다."
+}
+
+
+_G.pg.base.gametip.island_need_star_1 = {
+	tip = "$1까지 돌파해야 합니다."
+}
+
+
+_G.pg.base.gametip.island_select_ship = {
+	tip = "캐릭터 선택"
+}
+
+
+_G.pg.base.gametip.island_select_ship_label_1 = {
+	tip = "선택 완료:"
+}
+
+
+_G.pg.base.gametip.island_select_ship_overview = {
+	tip = "캐릭터 버프 목록"
+}
+
+
+_G.pg.base.gametip.island_select_ship_tip = {
+	tip = [[
+메뉴의 고객 유치력은 매출에 영향을 줍니다. 고객 유치력이 높을수록 손님이 구매할 확률도 올라갑니다. 
+고객 유치력은 담당 동료의 능력(메인/서브)에 따라 달라집니다. 
+ 메인 능력: 고객 유치력을 크게 올려주는 능력
+ 서브 능력: 고객 유치력을 다소 올려주는 능력]]
+}
+
+
+_G.pg.base.gametip.island_friend = {
+	tip = "친구"
+}
+
+
+_G.pg.base.gametip.island_guild = {
+	tip = "대함대"
+}
+
+
+_G.pg.base.gametip.island_code = {
+	tip = "방문 코드"
+}
+
+
+_G.pg.base.gametip.island_search = {
+	tip = "검색"
+}
+
+
+_G.pg.base.gametip.island_whiteList = {
+	tip = "자동 허가"
+}
+
+
+_G.pg.base.gametip.island_add_friend = {
+	tip = "추가"
+}
+
+
+_G.pg.base.gametip.island_blackList = {
+	tip = "방문 금지"
+}
+
+
+_G.pg.base.gametip.island_settings = {
+	tip = "설정"
+}
+
+
+_G.pg.base.gametip.island_settings_en = {
+	tip = "SETTINGS"
+}
+
+
+_G.pg.base.gametip.island_btn_label_visit = {
+	tip = "방문"
+}
+
+
+_G.pg.base.gametip.island_git_cnt_tip = {
+	tip = "오늘 획득 가능:"
+}
+
+
+_G.pg.base.gametip.island_public_invitation = {
+	tip = "공개 초대"
+}
+
+
+_G.pg.base.gametip.island_onekey_invitation = {
+	tip = "일괄 초대"
+}
+
+
+_G.pg.base.gametip.island_public_invitation_1 = {
+	tip = "이미 공개 상태입니다."
+}
+
+
+_G.pg.base.gametip.island_curr_visitor = {
+	tip = "방문 중"
+}
+
+
+_G.pg.base.gametip.island_visitor_log = {
+	tip = "방문 기록"
+}
+
+
+_G.pg.base.gametip.island_kick_all = {
+	tip = "일괄 추방"
+}
+
+
+_G.pg.base.gametip.island_close_visit = {
+	tip = "방문 불가"
+}
+
+
+_G.pg.base.gametip.island_curr_people_cnt = {
+	tip = "방문자 수:"
+}
+
+
+_G.pg.base.gametip.island_close_access_state = {
+	tip = "이미 방문 불가 상태입니다."
+}
+
+
+_G.pg.base.gametip.island_btn_label_remove = {
+	tip = "해제"
+}
+
+
+_G.pg.base.gametip.island_btn_label_del = {
+	tip = "삭제"
+}
+
+
+_G.pg.base.gametip.island_btn_label_copy = {
+	tip = "복사"
+}
+
+
+_G.pg.base.gametip.island_btn_label_more = {
+	tip = "기타"
+}
+
+
+_G.pg.base.gametip.island_btn_label_invitation = {
+	tip = "초대"
+}
+
+
+_G.pg.base.gametip.island_btn_label_invitation_already = {
+	tip = "초대 완료"
+}
+
+
+_G.pg.base.gametip.island_btn_label_online = {
+	tip = "로그인 중"
+}
+
+
+_G.pg.base.gametip.island_btn_label_kick = {
+	tip = "추방"
+}
+
+
+_G.pg.base.gametip.island_btn_label_location = {
+	tip = "대기 순위: $1"
+}
+
+
+_G.pg.base.gametip.island_black_list_tip = {
+	tip = "방문 금지 목록 내의 유저는 방문이 허용되지 않습니다."
+}
+
+
+_G.pg.base.gametip.island_white_list_tip = {
+	tip = "자동 허가 목록 내의 유저는 방문이 자동으로 허가됩니다."
+}
+
+
+_G.pg.base.gametip.island_input_code_tip = {
+	tip = "방문 코드"
+}
+
+
+_G.pg.base.gametip.island_input_code_tip_1 = {
+	tip = "코드 입력"
+}
+
+
+_G.pg.base.gametip.island_set_like = {
+	tip = "자주 쓰는 항목 설정"
+}
+
+
+_G.pg.base.gametip.island_input_code_erro = {
+	tip = "코드를 입력하세요."
+}
+
+
+_G.pg.base.gametip.island_code_exist = {
+	tip = "이미 존재하는 코드입니다."
+}
+
+
+_G.pg.base.gametip.island_like_title = {
+	tip = "자주 쓰는 코드"
+}
+
+
+_G.pg.base.gametip.island_my_id = {
+	tip = "내 UID"
+}
+
+
+_G.pg.base.gametip.island_input_my_id = {
+	tip = "탭하여 UID 입력"
+}
+
+
+_G.pg.base.gametip.island_open_settings = {
+	tip = "아일랜드 방문 허가"
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip1 = {
+	tip = "방문 허가 범위를 설정하세요."
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip2 = {
+	tip = "방문을 금지합니다."
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip3 = {
+	tip = "방문 허가 ON: 방문 허가를 선택한 그룹의 유저만 아일랜드를 방문할 수 있습니다. 방문 허가 OFF: 아일랜드 방문을 허용하지 않습니다. 방문 코드: 방문 허가를 ON으로 설정하면, 방문 금지 목록에 없는 유저에 한해 코드를 사용하여 아일랜드에 방문할 수 있습니다. 코드 초기화: 방문 코드는 하루에 한 번 초기화할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.island_code_refresh_cnt = {
+	tip = "업데이트($1/1)"
+}
+
+
+_G.pg.base.gametip.island_word_sort = {
+	tip = "정렬"
+}
+
+
+_G.pg.base.gametip.island_word_reset = {
+	tip = "초기화"
+}
+
+
+_G.pg.base.gametip.island_bag_title = {
+	tip = "창고"
+}
+
+
+_G.pg.base.gametip.island_batch_covert = {
+	tip = "일괄 변환"
+}
+
+
+_G.pg.base.gametip.island_total_price = {
+	tip = "금액 합계:"
+}
+
+
+_G.pg.base.gametip.island_word_temp = {
+	tip = "일시"
+}
+
+
+_G.pg.base.gametip.island_word_desc = {
+	tip = "상세 내용"
+}
+
+
+_G.pg.base.gametip.island_open_ship_tip = {
+	tip = "연구 본부로 이동합니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_tip = {
+	tip = "자원 창고 확장"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_req = {
+	tip = "확장에 필요"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_max_level = {
+	tip = "최대 레벨에 달했습니다."
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_capacity = {
+	tip = "자원 창고 용량"
+}
+
+
+_G.pg.base.gametip.island_rename_title = {
+	tip = "아일랜드 이름 변경"
+}
+
+
+_G.pg.base.gametip.island_rename_input_tip = {
+	tip = "탭하여 이름 입력"
+}
+
+
+_G.pg.base.gametip.island_rename_consutme_tip = {
+	tip = "아일랜드 이름은 최대 9글자까지입니다. 아일랜드 이름을 변경하려면 $1(이)가 필요합니다."
+}
+
+
+_G.pg.base.gametip.island_upgrade_preview = {
+	tip = "레벨업 효과"
+}
+
+
+_G.pg.base.gametip.island_upgrade_exp = {
+	tip = "아일랜드 개발 EXP"
+}
+
+
+_G.pg.base.gametip.island_upgrade_res = {
+	tip = "필요 자원"
+}
+
+
+_G.pg.base.gametip.island_word_award = {
+	tip = "보상"
+}
+
+
+_G.pg.base.gametip.island_word_unlock = {
+	tip = "오픈"
+}
+
+
+_G.pg.base.gametip.island_word_get = {
+	tip = "수령"
+}
+
+
+_G.pg.base.gametip.island_prosperity_level_display = {
+	tip = "아일랜드 번영도: $1"
+}
+
+
+_G.pg.base.gametip.island_prosperity_value_display = {
+	tip = "필요 번영도: $1"
+}
+
+
+_G.pg.base.gametip.island_rename_subtitle = {
+	tip = "아일랜드 이름"
+}
+
+
+_G.pg.base.gametip.island_manage_title = {
+	tip = "가게 경영"
+}
+
+
+_G.pg.base.gametip.island_manage_sp_event = {
+	tip = "경영 이벤트"
+}
+
+
+_G.pg.base.gametip.island_manage_no_work = {
+	tip = "미영업"
+}
+
+
+_G.pg.base.gametip.island_manage_end_work = {
+	tip = "영업 종료"
+}
+
+
+_G.pg.base.gametip.island_manage_view = {
+	tip = "경영 상황"
+}
+
+
+_G.pg.base.gametip.island_manage_result = {
+	tip = "경영 시작"
+}
+
+
+_G.pg.base.gametip.island_manage_prepare = {
+	tip = "경영 시작"
+}
+
+
+_G.pg.base.gametip.island_manage_daily_cnt_tip = {
+	tip = "휴가 중"
+}
+
+
+_G.pg.base.gametip.island_manage_produce_tip = {
+	tip = "일부 상품의 고객 유치력 상승"
+}
+
+
+_G.pg.base.gametip.island_manage_sel_worker = {
+	tip = "직원 선택"
+}
+
+
+_G.pg.base.gametip.island_manage_upgrade_worker_level = {
+	tip = "골드 등급 가게 필요"
+}
+
+
+_G.pg.base.gametip.island_manage_saleroom = {
+	tip = "매출"
+}
+
+
+_G.pg.base.gametip.island_manage_capacity = {
+	tip = "메뉴 슬롯 용량"
+}
+
+
+_G.pg.base.gametip.island_manage_skill_cant_use = {
+	tip = "스킬이 적용되지 않습니다."
+}
+
+
+_G.pg.base.gametip.island_manage_predict_saleroom = {
+	tip = "예상 수익"
+}
+
+
+_G.pg.base.gametip.island_manage_cnt = {
+	tip = "수량:"
+}
+
+
+_G.pg.base.gametip.island_manage_addition = {
+	tip = "캐릭터 버프 목록"
+}
+
+
+_G.pg.base.gametip.island_manage_no_addition = {
+	tip = "적용 중인 버프가 없습니다."
+}
+
+
+_G.pg.base.gametip.island_manage_auto_work = {
+	tip = "자동 선택"
+}
+
+
+_G.pg.base.gametip.island_manage_start_work = {
+	tip = "경영 시작"
+}
+
+
+_G.pg.base.gametip.island_manage_working = {
+	tip = "영업 중"
+}
+
+
+_G.pg.base.gametip.island_manage_end_daily_work = {
+	tip = "휴가 중"
+}
+
+
+_G.pg.base.gametip.island_manage_attr_effect = {
+	tip = "관련 능력:"
+}
+
+
+_G.pg.base.gametip.island_manage_need_ext = {
+	tip = "필요 EXP"
+}
+
+
+_G.pg.base.gametip.island_manage_reach = {
+	tip = "달성 완료"
+}
+
+
+_G.pg.base.gametip.island_manage_slot = {
+	tip = "메뉴 슬롯 수"
+}
+
+
+_G.pg.base.gametip.island_manage_food_cnt = {
+	tip = "메뉴 수량"
+}
+
+
+_G.pg.base.gametip.island_manage_sale_ratio = {
+	tip = "판매 확률"
+}
+
+
+_G.pg.base.gametip.island_manage_worker_cnt = {
+	tip = "직원 수"
+}
+
+
+_G.pg.base.gametip.island_manage_sale_daily = {
+	tip = "판매 메뉴"
+}
+
+
+_G.pg.base.gametip.island_manage_fake_price = {
+	tip = "가격 숨기기"
+}
+
+
+_G.pg.base.gametip.island_manage_real_price = {
+	tip = "가격 표시"
+}
+
+
+_G.pg.base.gametip.island_manage_result_1 = {
+	tip = "남은 메뉴"
+}
+
+
+_G.pg.base.gametip.island_manage_result_3 = {
+	tip = "판매 상황"
+}
+
+
+_G.pg.base.gametip.island_manage_word_cnt = {
+	tip = "판매 수"
+}
+
+
+_G.pg.base.gametip.island_manage_shop_exp = {
+	tip = "가게 EXP"
+}
+
+
+_G.pg.base.gametip.island_manage_help_tip = {
+	tip = "메뉴의 고객 유치력은 매출에 영향을 줍니다. 고객 유치력이 높을수록 손님이 구매할 확률도 올라갑니다. 고객 유치력은 담당 동료의 능력(메인/서브)에 따라 달라집니다. 메인 능력: 고객 유치력을 크게 올려주는 능력, 서브 능력: 고객 유치력을 다소 올려주는 능력"
+}
+
+
+_G.pg.base.gametip.island_word_go = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.island_map_title = {
+	tip = "아일랜드 지도"
+}
+
+
+_G.pg.base.gametip.island_label_furniture = {
+	tip = "가구"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_cnt = {
+	tip = "수량"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_capacity = {
+	tip = "점유 용량"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_tip = {
+	tip = "가구는 배치 용량을 소모합니다. 가구의 배치 수량은 배치 용량의 한도를 초과할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_label_furniture_capacity_display = {
+	tip = "총 용량 소모:"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_exit = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_save = {
+	tip = "나중에 저장"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_save_tip = {
+	tip = "$1 후에 저장 가능"
+}
+
+
+_G.pg.base.gametip.island_agora_extend = {
+	tip = "확장"
+}
+
+
+_G.pg.base.gametip.island_agora_extend_consume = {
+	tip = "확장 재료"
+}
+
+
+_G.pg.base.gametip.island_agora_extend_capacity = {
+	tip = "배치 용량"
+}
+
+
+_G.pg.base.gametip.island_msg_info = {
+	tip = "정보"
+}
+
+
+_G.pg.base.gametip.island_get_way = {
+	tip = "획득 방법"
+}
+
+
+_G.pg.base.gametip.island_own_cnt = {
+	tip = "보유 중:"
+}
+
+
+_G.pg.base.gametip.island_word_convert = {
+	tip = "변환"
+}
+
+
+_G.pg.base.gametip.island_no_remind_today = {
+	tip = "오늘은 더 이상 표시하지 않음"
+}
+
+
+_G.pg.base.gametip.island_input_theme_name = {
+	tip = "테마 이름 입력"
+}
+
+
+_G.pg.base.gametip.island_custom_theme_name = {
+	tip = "내 테마 $1"
+}
+
+
+_G.pg.base.gametip.island_custom_theme_name_tip = {
+	tip = "이 배치를 내 세팅에 저장하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_skill_desc = {
+	tip = "스킬 상세 정보"
+}
+
+
+_G.pg.base.gametip.island_word_place = {
+	tip = "배치"
+}
+
+
+_G.pg.base.gametip.island_word_turndown = {
+	tip = "거절"
+}
+
+
+_G.pg.base.gametip.island_word_sbumit = {
+	tip = "수주"
+}
+
+
+_G.pg.base.gametip.island_word_speedup = {
+	tip = "가속"
+}
+
+
+_G.pg.base.gametip.island_order_cd_tip = {
+	tip = "의뢰 준비 중\n새로운 의뢰가 나올 때까지"
+}
+
+
+_G.pg.base.gametip.island_order_leftcnt_dispaly = {
+	tip = "이번 주 남은 긴급 의뢰: $1"
+}
+
+
+_G.pg.base.gametip.island_order_title = {
+	tip = "의뢰 목록"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty = {
+	tip = "의뢰 성향"
+}
+
+
+_G.pg.base.gametip.island_order_leftCnt_tip = {
+	tip = "오늘 남은 의뢰:"
+}
+
+
+_G.pg.base.gametip.island_order_get_label = {
+	tip = "보상 수령"
+}
+
+
+_G.pg.base.gametip.island_order_ship_working = {
+	tip = "운송 중..."
+}
+
+
+_G.pg.base.gametip.island_order_ship_end_work = {
+	tip = "완료..."
+}
+
+
+_G.pg.base.gametip.island_order_ship_worktime = {
+	tip = "시작 대기 운송 시간 $1"
+}
+
+
+_G.pg.base.gametip.island_order_ship_unlock_tip = {
+	tip = "기술 개발로 슬롯을 오픈할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.island_order_ship_unlock_tip_2 = {
+	tip = "오픈"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup_award = {
+	tip = "수주 보상"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup = {
+	tip = "수주"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup_nores = {
+	tip = "수량 부족"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_req = {
+	tip = "의뢰 내용 확인"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_award = {
+	tip = "의뢰 보상 확인"
+}
+
+
+_G.pg.base.gametip.island_cancel_queue = {
+	tip = "방문 중지"
+}
+
+
+_G.pg.base.gametip.island_queue_display = {
+	tip = "아일랜드 방문 수가 한도에 달했습니다. 대기 목록에 들어갑니다.\n지휘관의 대기 번호: $1"
+}
+
+
+_G.pg.base.gametip.island_first_season = {
+	tip = "시즌 I"
+}
+
+
+_G.pg.base.gametip.island_word_own = {
+	tip = "보유 중: $1"
+}
+
+
+_G.pg.base.gametip.island_ship_title1 = {
+	tip = "능력 육성"
+}
+
+
+_G.pg.base.gametip.island_ship_title2 = {
+	tip = "능력 강화"
+}
+
+
+_G.pg.base.gametip.island_ship_title3 = {
+	tip = "한계 돌파"
+}
+
+
+_G.pg.base.gametip.island_ship_title4 = {
+	tip = "필요 자원"
+}
+
+
+_G.pg.base.gametip.island_ship_lock_attr_tip = {
+	tip = "탭으로 강화할 능력 선택"
+}
+
+
+_G.pg.base.gametip.island_ship_unlock_limit_tip = {
+	tip = "직책의 별을 1개 소비하여 한계 돌파하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_ship_breakout = {
+	tip = "돌파"
+}
+
+
+_G.pg.base.gametip.island_ship_breakout_consume = {
+	tip = "소비"
+}
+
+
+_G.pg.base.gametip.island_ship_newskill_unlock = {
+	tip = "스킬 오픈:"
+}
+
+
+_G.pg.base.gametip.island_word_give = {
+	tip = "미증여"
+}
+
+
+_G.pg.base.gametip.island_unlock_ship_skill_color = {
+	tip = "색상을 오픈하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_dressup_tip = {
+	tip = "현재 외형을 확정하시겠습니까? 추후에도 변경 가능합니다."
+}
+
+
+_G.pg.base.gametip.island_dressup_titile = {
+	tip = "스킨"
+}
+
+
+_G.pg.base.gametip.island_dressup_tip_1 = {
+	tip = "외형이 변경되었습니다. 현재 외형을 확정하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_ship_energy = {
+	tip = "체력:"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_full = {
+	tip = "체력이 가득 찼습니다."
+}
+
+
+_G.pg.base.gametip.island_ship_energy_recoverytips = {
+	tip = "체력 회복까지 남은 시간"
+}
+
+
+_G.pg.base.gametip.island_word_ship_buff_desc = {
+	tip = "상세 내용"
+}
+
+
+_G.pg.base.gametip.island_word_ship_desc = {
+	tip = "캐릭터 상세 정보"
+}
+
+
+_G.pg.base.gametip.island_need_ship_level = {
+	tip = "캐릭터 레벨 $1 달성 필요"
+}
+
+
+_G.pg.base.gametip.island_skill_consume_title = {
+	tip = "소모 자원"
+}
+
+
+_G.pg.base.gametip.island_select_ship_gift = {
+	tip = "선물을 선택하세요."
+}
+
+
+_G.pg.base.gametip.island_word_ship_enengy_recover = {
+	tip = "체력 회복"
+}
+
+
+_G.pg.base.gametip.island_word_ship_level_upgrade = {
+	tip = "레벨 강화"
+}
+
+
+_G.pg.base.gametip.island_word_ship_level_upgrade_1 = {
+	tip = "레벨 상승 시"
+}
+
+
+_G.pg.base.gametip.island_word_ship_rank = {
+	tip = "현재★"
+}
+
+
+_G.pg.base.gametip.island_task_open = {
+	tip = "오픈 완료"
+}
+
+
+_G.pg.base.gametip.island_task_target = {
+	tip = "목표:"
+}
+
+
+_G.pg.base.gametip.island_task_award = {
+	tip = "보상"
+}
+
+
+_G.pg.base.gametip.island_task_tracking = {
+	tip = "선택"
+}
+
+
+_G.pg.base.gametip.island_task_tracked = {
+	tip = "선택 완료"
+}
+
+
+_G.pg.base.gametip.island_dev_level = {
+	tip = "아일랜드 개발 등급"
+}
+
+
+_G.pg.base.gametip.island_dev_level_tip = {
+	tip = "아일랜드 개발 등급을 올리면, 연구 권한이 상승하여 더 많은 기술을 연구할 수 있게 됩니다."
+}
+
+
+_G.pg.base.gametip.island_invite_title = {
+	tip = "아일랜드 권한 인증 장치"
+}
+
+
+_G.pg.base.gametip.island_technology_title = {
+	tip = "기술 개발"
+}
+
+
+_G.pg.base.gametip.island_tech_noauthority = {
+	tip = "연구 미오픈"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_need = {
+	tip = "기술 연구 조건"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_dev = {
+	tip = "연구 오픈"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_start = {
+	tip = "연구 시작"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_starting = {
+	tip = "연구 중"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_success = {
+	tip = "연구 완료"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_finish = {
+	tip = "연구 끝"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_finish_1 = {
+	tip = "연구 완료"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_cost = {
+	tip = "연구 소모"
+}
+
+
+_G.pg.base.gametip.island_tech_detail_desctitle = {
+	tip = " 기술 효과"
+}
+
+
+_G.pg.base.gametip.island_tech_detail_unlocktitle = {
+	tip = "오픈 조건"
+}
+
+
+_G.pg.base.gametip.island_tech_nodev = {
+	tip = "연구 없음"
+}
+
+
+_G.pg.base.gametip.island_tech_can_get = {
+	tip = "수령 가능"
+}
+
+
+_G.pg.base.gametip.island_get_item_tip = {
+	tip = "아이템 획득"
+}
+
+
+_G.pg.base.gametip.island_add_temp_bag = {
+	tip = "다음 아이템은 임시 창고로 이동됩니다."
+}
+
+
+_G.pg.base.gametip.island_buff_lasttime = {
+	tip = "남은 시간: $1"
+}
+
+
+_G.pg.base.gametip.island_visit_off = {
+	tip = "OFF"
+}
+
+
+_G.pg.base.gametip.island_visit_on = {
+	tip = "ON"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip = {
+	tip = "필요 레벨 & 아이템이 부족합니다."
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip0 = {
+	tip = "필요 개발 등급: $1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip1 = {
+	tip = "완료해야 하는 계획: $1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip2 = {
+	tip = "오픈해야 하는 기능: $1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip3 = {
+	tip = "연구를 완료해야 하는 기술: $1"
+}
+
+
+_G.pg.base.gametip.island_tech_no_slot = {
+	tip = "연구 슬롯이 가득 찼습니다."
+}
+
+
+_G.pg.base.gametip.island_tech_lock = {
+	tip = "미오픈"
+}
+
+
+_G.pg.base.gametip.island_tech_empty = {
+	tip = "미실장"
+}
+
+
+_G.pg.base.gametip.island_submit_order_cd_tip = {
+	tip = "$1 후에 제출 가능"
+}
+
+
+_G.pg.base.gametip.island_friend_add = {
+	tip = "추가"
+}
+
+
+_G.pg.base.gametip.island_friend_agree = {
+	tip = "동의"
+}
+
+
+_G.pg.base.gametip.island_friend_refuse = {
+	tip = "거부"
+}
+
+
+_G.pg.base.gametip.island_friend_refuse_all = {
+	tip = "일괄 거부"
+}
+
+
+_G.pg.base.gametip.island_request = {
+	tip = "신청"
+}
+
+
+_G.pg.base.gametip.island_post_manage = {
+	tip = "일괄 관리"
+}
+
+
+_G.pg.base.gametip.island_post_produce = {
+	tip = "생산"
+}
+
+
+_G.pg.base.gametip.island_post_operate = {
+	tip = "경영"
+}
+
+
+_G.pg.base.gametip.island_post_acceptable = {
+	tip = "채집"
+}
+
+
+_G.pg.base.gametip.island_post_vacant = {
+	tip = "배치 가능"
+}
+
+
+_G.pg.base.gametip.island_production_selected_character = {
+	tip = "배치"
+}
+
+
+_G.pg.base.gametip.island_production_collect = {
+	tip = "생산물 획득"
+}
+
+
+_G.pg.base.gametip.island_production_selected_item = {
+	tip = "생산물 선택"
+}
+
+
+_G.pg.base.gametip.island_production_byproduct = {
+	tip = "추가 획득 × $1"
+}
+
+
+_G.pg.base.gametip.island_production_start = {
+	tip = "작업 시작"
+}
+
+
+_G.pg.base.gametip.island_production_finish = {
+	tip = "작업이 완료되었습니다."
+}
+
+
+_G.pg.base.gametip.island_production_additional = {
+	tip = "추가 배치"
+}
+
+
+_G.pg.base.gametip.island_production_count = {
+	tip = "생산 횟수"
+}
+
+
+_G.pg.base.gametip.island_production_character_info = {
+	tip = "캐릭터 상세 정보"
+}
+
+
+_G.pg.base.gametip.island_production_selected_tip1 = {
+	tip = "조건을 충족하는 캐릭터가 없습니다."
+}
+
+
+_G.pg.base.gametip.island_production_selected_tip2 = {
+	tip = "캐릭터를 선택하세요."
+}
+
+
+_G.pg.base.gametip.island_production_hold = {
+	tip = "보유: $1"
+}
+
+
+_G.pg.base.gametip.island_production_log_recover = {
+	tip = "채집 횟수가 소진되었습니다. 회복까지 남은 시간: $1"
+}
+
+
+_G.pg.base.gametip.island_production_plantable = {
+	tip = "재배 가능"
+}
+
+
+_G.pg.base.gametip.island_production_being_planted = {
+	tip = "성장 중인 작물은 수확할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_production_cost_notenough = {
+	tip = "배치에 실패했습니다. 캐릭터 체력·자원을 확인하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.island_production_manually_cancel = {
+	tip = "이미 작물을 재배하고 있습니다. 현재 재배를 중지하고 캐릭터를 배치하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_production_harvestable = {
+	tip = "수확 가능"
+}
+
+
+_G.pg.base.gametip.island_production_seeds_notenough = {
+	tip = "씨앗이 부족합니다."
+}
+
+
+_G.pg.base.gametip.island_production_seeds_empty = {
+	tip = "씨앗을 보유하고 있지 않습니다. 상점에서 구매하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.island_production_tip = {
+	tip = "/회"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition1 = {
+	tip = "<color=#39bfff>$1</color> 능력"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition2 = {
+	tip = "기술 효과"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition3 = {
+	tip = "버프 효과"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip1 = {
+	tip = "작업 효율 <color=#39bfff>+$1%</color>"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip2 = {
+	tip = "작업 효율 버프"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_onekey_loadup = {
+	tip = "일괄 수주"
+}
+
+
+_G.pg.base.gametip.agora_belong_theme = {
+	tip = "테마: $1"
+}
+
+
+_G.pg.base.gametip.agora_belong_theme_none = {
+	tip = "-없음-"
+}
+
+
+_G.pg.base.gametip.island_achievement_title = {
+	tip = "아일랜드 실적"
+}
+
+
+_G.pg.base.gametip.island_achv_total = {
+	tip = "달성 실적:"
+}
+
+
+_G.pg.base.gametip.island_achv_finish_tip = {
+	tip = "실적: [$1] 달성 완료"
+}
+
+
+_G.pg.base.gametip.island_card_edit_name = {
+	tip = "아일랜드 이름 변경"
+}
+
+
+_G.pg.base.gametip.island_card_edit_word = {
+	tip = "인사 수정"
+}
+
+
+_G.pg.base.gametip.island_card_default_word = {
+	tip = "아일랜드 개발 구역에 오신 것을 환영합니다."
+}
+
+
+_G.pg.base.gametip.island_card_view_detaills = {
+	tip = "평판 태그 확인"
+}
+
+
+_G.pg.base.gametip.island_card_close = {
+	tip = "탭하여 닫기"
+}
+
+
+_G.pg.base.gametip.island_card_choose_photo = {
+	tip = "아일랜드 사진 선택"
+}
+
+
+_G.pg.base.gametip.island_card_word_title = {
+	tip = "아일랜드 인사"
+}
+
+
+_G.pg.base.gametip.island_card_label_list = {
+	tip = "아일랜드 평판 태그"
+}
+
+
+_G.pg.base.gametip.island_card_choose_achievement = {
+	tip = "선택 완료: $1/4"
+}
+
+
+_G.pg.base.gametip.island_card_edit_label = {
+	tip = "평판 태그 추가"
+}
+
+
+_G.pg.base.gametip.island_card_choose_label = {
+	tip = "선택 완료: $1/$2"
+}
+
+
+_G.pg.base.gametip.island_card_like_done = {
+	tip = "오늘은 이미 좋아요를 보냈습니다."
+}
+
+
+_G.pg.base.gametip.island_card_label_done = {
+	tip = "이번 주에는 이미 평가를 완료했습니다."
+}
+
+
+_G.pg.base.gametip.island_card_no_achv_self = {
+	tip = "전시된 실적이 없습니다."
+}
+
+
+_G.pg.base.gametip.island_card_no_achv_other = {
+	tip = "-전시된 실적 없음-"
+}
+
+
+_G.pg.base.gametip.island_leave = {
+	tip = "모항으로 복귀"
+}
+
+
+_G.pg.base.gametip.island_repeat_vip = {
+	tip = "이미 자동 허가 목록에 있습니다."
+}
+
+
+_G.pg.base.gametip.island_repeat_blacklist = {
+	tip = "이미 방문 금지 목록에 있습니다."
+}
+
+
+_G.pg.base.gametip.island_chat_settings = {
+	tip = "채팅 설정"
+}
+
+
+_G.pg.base.gametip.island_card_no_label = {
+	tip = "태그가 없습니다."
+}
+
+
+_G.pg.base.gametip.ship_gift = {
+	tip = "선물"
+}
+
+
+_G.pg.base.gametip.ship_gift_cnt = {
+	tip = "수량:"
+}
+
+
+_G.pg.base.gametip.ship_gift2 = {
+	tip = "전달하기"
+}
+
+
+_G.pg.base.gametip.shipyard_gift_exceed = {
+	tip = "선물 티켓이 한도에 도달하여 획득할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.shipyard_gift_non_existent = {
+	tip = "전달할 선물이 없습니다."
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_exceed = {
+	tip = "호감도는 최대치를 초과하면 무효 처리됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_threshold = {
+	tip = "호감도가 최대치에 달했습니다. 서약을 통해 호감도의 최대치를 상승시킬 수 있습니다."
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_max = {
+	tip = "호감도가 최대치에 달했습니다."
+}
+
+
+_G.pg.base.gametip.island_activity_decorative_word = {
+	tip = "SPECIAL EVENT"
+}
+
+
+_G.pg.base.gametip.island_no_activity = {
+	tip = "진행 중인 이벤트가 없습니다."
+}
+
+
+_G.pg.base.gametip.island_spoperation_level_2509_1 = {
+	tip = "오픈 조건: 아일랜드 개발 등급.1"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_1 = {
+	tip = "이벤트 기간 중에 피어리의 특산품 의뢰가 등장합니다. 특산품 의뢰를 처리하면 시즌 PT를 비롯한 보상을 획득할 수 있습니다. \n*특산품 의뢰는 의뢰 완성 한도에 영향을 주지 않으며, 평가 레벨을 상승시킬 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_2 = {
+	tip = "이벤트 기간 중 특정 구역 내에 매일 이벤트 채집 아이템이 등장합니다. 어서 찾으러 가보세요!"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_3 = {
+	tip = "이벤트 기간 내 [향기로운 과수원], [유어 레스토랑], [백곰 음료], [기지 공장]에서 대응하는 특산품 생산 가능"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_1 = {
+	tip = "특산품 제작"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_2 = {
+	tip = "특산품 채집"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_3 = {
+	tip = "이벤트 관리자"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_1 = {
+	tip = "가을 국화"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_2 = {
+	tip = "갈대꽃"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_3 = {
+	tip = "땅콩"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_4 = {
+	tip = "송이버섯"
+}
+
+
+_G.pg.base.gametip.island_follow_success = {
+	tip = "동반 성공"
+}
+
+
+_G.pg.base.gametip.island_cancel_follow_success = {
+	tip = "동반 해제"
+}
+
+
+_G.pg.base.gametip.island_follower_cnt_max = {
+	tip = "동반 가능 인원을 초과했습니다."
+}
+
+
+_G.pg.base.gametip.island_cancel_follow_tip = {
+	tip = "현재 동반 중인 동료입니다. 동반을 해제하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_follower_state_no_normal = {
+	tip = "다른 작업 중"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_usable = {
+	tip = "동반 요청"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_cancel = {
+	tip = "동반 해제"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_disable = {
+	tip = "사용 중"
+}
+
+
+_G.pg.base.gametip.island_draw_tab = {
+	tip = "별빛상"
+}
+
+
+_G.pg.base.gametip.island_draw_tab_en = {
+	tip = "Stellar Prize Draw"
+}
+
+
+_G.pg.base.gametip.island_draw_last = {
+	tip = "잔여량:"
+}
+
+
+_G.pg.base.gametip.island_draw_null = {
+	tip = "모두 획득"
+}
+
+
+_G.pg.base.gametip.island_draw_num = {
+	tip = "뽑은 횟수"
+}
+
+
+_G.pg.base.gametip.island_draw_lottery = {
+	tip = "뽑기"
+}
+
+
+_G.pg.base.gametip.island_draw_pick = {
+	tip = "내용 선택 가능"
+}
+
+
+_G.pg.base.gametip.island_draw_reward = {
+	tip = "상세 내용 확인"
+}
+
+
+_G.pg.base.gametip.island_draw_time = {
+	tip = "시작 시간:"
+}
+
+
+_G.pg.base.gametip.island_draw_time_1 = {
+	tip = "점검"
+}
+
+
+_G.pg.base.gametip.island_draw_S_order_title = {
+	tip = "S상 획득 순서"
+}
+
+
+_G.pg.base.gametip.island_draw_S_order = {
+	tip = "드래그하여 획득 순서 변경 가능"
+}
+
+
+_G.pg.base.gametip.island_draw_S = {
+	tip = "S상"
+}
+
+
+_G.pg.base.gametip.island_draw_A = {
+	tip = "A상"
+}
+
+
+_G.pg.base.gametip.island_draw_B = {
+	tip = "B상"
+}
+
+
+_G.pg.base.gametip.island_draw_C = {
+	tip = "C상"
+}
+
+
+_G.pg.base.gametip.island_draw_get = {
+	tip = "획득 완료"
+}
+
+
+_G.pg.base.gametip.island_draw_ready = {
+	tip = "별빛상을 뽑으시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_draw_float = {
+	tip = "상품이 부족합니다."
+}
+
+
+_G.pg.base.gametip.island_draw_choice_title = {
+	tip = "내용 선택 가능"
+}
+
+
+_G.pg.base.gametip.island_draw_choice = {
+	tip = "뽑은 횟수"
+}
+
+
+_G.pg.base.gametip.island_draw_sort = {
+	tip = "획득 순서를 변경했습니다."
+}
+
+
+_G.pg.base.gametip.island_draw_tip1 = {
+	tip = "$1(을)를 사용하여 1회 뽑기를 진행하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_draw_tip2 = {
+	tip = "$1(을)를 사용하여 10회 뽑기를 진행하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_draw_tip3 = {
+	tip = "$1(을)를 사용하여 $2(을)를 구매하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_draw_tip4 = {
+	tip = "다이아가 부족합니다. 구매하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_locked = {
+	tip = "미오픈"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_receive = {
+	tip = "획득 가능"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_idle = {
+	tip = "수주 대기"
+}
+
+
+_G.pg.base.gametip.island_ticket_shop = {
+	tip = "획득하러 가기"
+}
+
+
+_G.pg.base.gametip.island_ticket_remain_time = {
+	tip = "남은 시간"
+}
+
+
+_G.pg.base.gametip.island_ticket_auto_select = {
+	tip = "자동 선택"
+}
+
+
+_G.pg.base.gametip.island_ticket_use = {
+	tip = "가속권 사용"
+}
+
+
+_G.pg.base.gametip.island_ticket_view = {
+	tip = "모두 표시"
+}
+
+
+_G.pg.base.gametip.island_ticket_storage_title = {
+	tip = "가속권"
+}
+
+
+_G.pg.base.gametip.island_ticket_sort_valid = {
+	tip = "유효 기한"
+}
+
+
+_G.pg.base.gametip.island_ticket_sort_speedup = {
+	tip = "단축 시간"
+}
+
+
+_G.pg.base.gametip.island_ticket_completed_quantity = {
+	tip = "가속 $1회"
+}
+
+
+_G.pg.base.gametip.island_ticket_nearing_expiration = {
+	tip = "곧 만료됨: $1장"
+}
+
+
+_G.pg.base.gametip.island_ticket_expiration_tip1 = {
+	tip = "다음 가속권이 곧 만료됩니다."
+}
+
+
+_G.pg.base.gametip.island_ticket_expiration_tip2 = {
+	tip = "다음 가속권이 만료되었습니다."
+}
+
+
+_G.pg.base.gametip.island_ticket_finished = {
+	tip = "종료"
+}
+
+
+_G.pg.base.gametip.island_ticket_expired = {
+	tip = "만료"
+}
+
+
+_G.pg.base.gametip.island_use_ticket_success = {
+	tip = "사용 성공"
+}
+
+
+_G.pg.base.gametip.island_sure_ticket_overflow = {
+	tip = "생산에 필요한 시간보다 선택한 가속권의 시간이 깁니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_ticket_expired_day = {
+	tip = "$1일"
+}
+
+
+_G.pg.base.gametip.island_dress_replace_tip = {
+	tip = "다른 캐릭터에게 적용 중인 스킨입니다. 스킨 적용을 해제하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_activity_expired = {
+	tip = "이벤트가 종료되었습니다."
+}
+
+
+_G.pg.base.gametip.island_guide = {
+	tip = "도감"
+}
+
+
+_G.pg.base.gametip.island_guide_help = {
+	tip = [[
+아일랜드의 캐릭터 관련 콘텐츠를 오픈하면 도감Pt를 모을 수 있습니다. 도감 Pt가 모이면 도감 Lv이 상승하고, 이에 해당하는 도감 보상이 오픈됩니다.
+
+1. 캐릭터를 <color=#39bfff>획득(아일랜드 권한 인증 완료)</color>하면, 캐릭터 1명당 <color=#39bfff>20</color> 도감 Pt를 획득할 수 있습니다.
+2. 캐릭터를 <color=#39bfff>돌파(직책의 별 사용)</color>하면, 돌파할 때마다 <color=#39bfff>30</color> 도감 Pt를 획득할 수 있으며, 또한 ★5으로 돌파한 경우에는 추가로 <color=#39bfff>10</color> 도감 Pt를 획득할 수 있습니다.
+3. 캐릭터를 육성하여 <color=#39bfff>아일랜드 레벨이 50에 도달</color>하면, 도감 Pt를 <color=#39bfff>50</color>획득할 수 있습니다.]]
+}
+
+
+_G.pg.base.gametip.island_guide_help_npc = {
+	tip = "아일랜드의 캐릭터 관련 콘텐츠를 오픈하면 도감Pt를 모을 수 있습니다. 도감 Pt가 모이면 도감 Lv이 상승하며, 해당하는 도감 보상을 오픈할 수 있습니다.\nNPC 캐릭터와 상호작용하면 도감을 오픈할 수 있으며, 도감 Pt를 얻을 수 있습니다."
+}
+
+
+_G.pg.base.gametip.island_guide_help_item = {
+	tip = [[
+아일랜드의 캐릭터 관련 콘텐츠를 오픈하면 도감Pt를 모을 수 있습니다. 도감 Pt가 모이면 도감 Lv이 상승하며, 해당하는 도감 보상을 오픈할 수 있습니다.
+
+1. 자원 <color=#39bfff>오픈</color>:  도감에서 자원을 오픈하면 도감 Pt <color=#39bfff>20</color> 획득 가능
+2. 자원 <color=#39bfff>획득</color>:  보상 획득 조건으로 정해진 숫자만큼 자원을 획득하면 도감 Pt 획득 가능. 각 자원의 보상 단계와 필요한 획득 수는 도감에서 확인할 수 있습니다.]]
+}
+
+
+_G.pg.base.gametip.island_guide_character_help = {
+	tip = "정보"
+}
+
+
+_G.pg.base.gametip.island_guide_en = {
+	tip = "HANDBOOK"
+}
+
+
+_G.pg.base.gametip.island_guide_character = {
+	tip = "캐릭터"
+}
+
+
+_G.pg.base.gametip.island_guide_character_en = {
+	tip = "CHARACTER"
+}
+
+
+_G.pg.base.gametip.island_guide_npc = {
+	tip = "아일랜드 개발팀"
+}
+
+
+_G.pg.base.gametip.island_guide_npc_en = {
+	tip = "ISLAND DEVELOPMENT TEAM"
+}
+
+
+_G.pg.base.gametip.island_guide_item = {
+	tip = "자원"
+}
+
+
+_G.pg.base.gametip.island_guide_item_en = {
+	tip = "MATERIALS"
+}
+
+
+_G.pg.base.gametip.island_guide_collectionpoint = {
+	tip = "도감 Pt 획득"
+}
+
+
+_G.pg.base.gametip.island_get_collect_point_success = {
+	tip = "도감 포인트 총 $1 획득"
+}
+
+
+_G.pg.base.gametip.island_guide_active = {
+	tip = "오픈 가능"
+}
+
+
+_G.pg.base.gametip.island_book_collection_award_title = {
+	tip = "도감 Lv 보상 - Lv $1"
+}
+
+
+_G.pg.base.gametip.island_book_award_title = {
+	tip = "보상 상세 정보"
+}
+
+
+_G.pg.base.gametip.island_guide_do_active = {
+	tip = "오픈"
+}
+
+
+_G.pg.base.gametip.island_guide_lock_desc = {
+	tip = "미오픈"
+}
+
+
+_G.pg.base.gametip.island_gift_entrance = {
+	tip = "일상 보급"
+}
+
+
+_G.pg.base.gametip.island_sign_text = {
+	tip = "- 아일랜드 개발 스타 -"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_chara_set = {
+	tip = "전시 캐릭터 변경"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_chara_choose = {
+	tip = "캐릭터 선택"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_res_have = {
+	tip = "아이템 최대 보유 가능 수:"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_close = {
+	tip = "상점 종료까지 $1 남음 "
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_refresh = {
+	tip = "$1 후에 초기화"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_refresh_limit = {
+	tip = "더 이상 초기화할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_have = {
+	tip = "보유:"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_unlock = {
+	tip = "$1 후에 오픈됩니다."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_no = {
+	tip = "구매 수"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_last = {
+	tip = "(잔여: $1)"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_close = {
+	tip = "화면을 탭하면 닫힙니다."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_no_have = {
+	tip = "보유 수($1)"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_goods_time = {
+	tip = "남은 기간 $1일"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_clothes_jump = {
+	tip = "스킨 화면으로 이동하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_confirm = {
+	tip = "구매"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy = {
+	tip = "구매"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_tip0 = {
+	tip = "획득"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_return = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_price = {
+	tip = "가격"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_have = {
+	tip = "보유"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_bag_max = {
+	tip = "아일랜드 아이템 보유 수가 한도에 도달했습니다."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_gold = {
+	tip = "모항 자원이 부족합니다."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_gem = {
+	tip = "다이아가 부족합니다."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_res = {
+	tip = "아일랜드 자원이 부족합니다."
+}
+
+
+_G.pg.base.gametip.island_photo_fur_lock = {
+	tip = "지금은 카메라를 사용할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_opengl = {
+	tip = "일부 환경에서는 렌더링 호환 모드를 OFF로 설정하면, 특정 상황에서 화면이 검게 변할 수 있습니다. 렌더링 호환 모드 설정을 변경하면 게임을 다시 시작해야 합니다. 렌더링 호환 모드를 변경하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_vulkan = {
+	tip = "렌더링 호환 모드에서는 AR 기능을 사용할 수 없습니다. 렌더링 호환 모드 설정을 변경하면 게임을 다시 시작해야 합니다. 렌더링 호환 모드를 변경하시겠습니까?"
+}
+
+
 _G.pg.base.gametip["3ddorm_beach_slide_tip1"] = {
 	tip = "미끄럼틀"
 }
@@ -40460,6 +44454,41 @@ _G.pg.base.gametip.ninja_game_booktip = {
 }
 
 
+_G.pg.base.gametip.island_no_position_to_reponse_action = {
+	tip = "현재 위치에서는 상호작용할 수 없습니다. 연출이 스킵되었습니다."
+}
+
+
+_G.pg.base.gametip.island_position_cant_play_cp_action = {
+	tip = "현재 위치에서는 상호작용을 진행할 수 없습니다. 위치를 조정한 후에 다시 시도하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.island_position_cant_response_cp_action = {
+	tip = "현재 위치에서는 상호작용이 불가능합니다. 위치를 조정한 후에 다시 시도하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.island_card_no_achieve_tip = {
+	tip = "달성한 실적이 없습니다."
+}
+
+
+_G.pg.base.gametip.island_card_no_label_tip = {
+	tip = "획득한 평가 태그가 없습니다."
+}
+
+
+_G.pg.base.gametip.gift_giving_prefer = {
+	tip = "선물이 무척 마음에 든 모양이다."
+}
+
+
+_G.pg.base.gametip.gift_giving_dislike = {
+	tip = "선물에 조금 당황한 눈치다.　"
+}
+
+
 _G.pg.base.gametip.dorm3d_publicroom_unlock = {
 	tip = "공공 구역을 오픈해야 합니다."
 }
@@ -40480,8 +44509,112 @@ _G.pg.base.gametip.dorm3d_dafeng_bed = {
 }
 
 
+_G.pg.base.gametip.island_draw_help = {
+	tip = [[
+별빛상은 「별빛 티켓」을 사용하여 무작위로 S·A·B·C 랭크의 상품 아이템을 획득할 수 있습니다. 
+ 1. 별빛상의 「별빛 티켓」은 아일랜드 경영 관련 각종 콘텐츠를 플레이하거나, 다이아를 사용하여 구매할 수 있습니다. 
+ 2. 별빛상의 각 랭크 상품은 각각 총 수량이 고정되어 있으며, 출현 확률은 동일합니다. 한 번 상품을 획득하면, 해당 상품은 이벤트 기간 중에 다시 출현하지 않습니다. 
+   또한, S급 상품은 획득 순서(출현 순서)를 변경할 수 있습니다. 
+ 3. 별빛상은 매 회차마다 기간 한정으로 진행됩니다. 진행 기간이 종료되면, 상품 목록이 업데이트됩니다. 
+ 4. 별빛상의 진행 기간 중에 상품을 일정 수 이상 획득(뽑기)하면, 별빛상 화면에서 「획득 수 합계 보상」을 골라 획득할 수 있습니다. 「획득 수 합계 보상」의 누적 획득 수는 진행 기간 종료 시에 초기화됩니다. 
+ 5. 별빛상의 진행 기간 종료 시, 상품을 전부 획득하지 못했고 「별빛 티켓」을 보유하고 있다면, 남은 상품을 전부 획득할 수 있도록 자동으로 「별빛 티켓」이 소모됩니다. 
+ 　상품을 전부 획득한 경우, 남은 「별빛 티켓」은 자동으로 다이아로 변환됩니다. 
+ 　이 방법으로 자동으로 획득한 상품 및 변환 다이아는 우편함으로 발송됩니다.]]
+}
+
+
+_G.pg.base.gametip.island_dress_initial_makesure = {
+	tip = "확정"
+}
+
+
+_G.pg.base.gametip.island_shop_lock_tip = {
+	tip = "상점이 오픈되지 않았습니다."
+}
+
+
+_G.pg.base.gametip.island_agora_no_size = {
+	tip = "남은 공간이 없습니다."
+}
+
+
+_G.pg.base.gametip.island_combo_unlock = {
+	tip = "세트 메뉴 제작이 오픈되었습니다."
+}
+
+
+_G.pg.base.gametip.island_additional_production_tip1 = {
+	tip = "추가 생산"
+}
+
+
+_G.pg.base.gametip.island_additional_production_tip2 = {
+	tip = "작업이 종료되어 추가할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_manage_stock_out = {
+	tip = "판매할 수 있는 메뉴가 없습니다."
+}
+
+
+_G.pg.base.gametip.island_manage_item_select = {
+	tip = "선택된 식재료"
+}
+
+
+_G.pg.base.gametip.island_combo_produced = {
+	tip = "제조"
+}
+
+
+_G.pg.base.gametip.island_combo_produced_times = {
+	tip = "$1회"
+}
+
+
+_G.pg.base.gametip.island_agora_no_interact_point = {
+	tip = "상호작용할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_reward_tip = {
+	tip = "획득"
+}
+
+
+_G.pg.base.gametip.island_commontips_close = {
+	tip = "화면을 탭하여 닫기"
+}
+
+
 _G.pg.base.gametip.world_inventory_tip = {
-	tip = "리셋 후 지급될 교환권"
+	tip = "초기화 후에 변환됨"
+}
+
+
+_G.pg.base.gametip.island_setmeal_title = {
+	tip = "세트 도감"
+}
+
+
+_G.pg.base.gametip.island_setmeal_benifit_title = {
+	tip = "매출 UP"
+}
+
+
+_G.pg.base.gametip.island_shipselect_confirm = {
+	tip = "확정"
+}
+
+
+_G.pg.base.gametip.island_dresscolorunlock_tips = {
+	tip = "오픈 소모"
+}
+
+
+_G.pg.base.gametip.island_dresscolorunlock = {
+	tip = "오픈"
 }
 
 
@@ -40565,6 +44698,76 @@ _G.pg.base.gametip.dorm3d_furnitrue_type_special = {
 }
 
 
+_G.pg.base.gametip.island_helpbtn_order = {
+	tip = [[
+<color=#E58A00>아일랜드 의뢰</color>: 지정된 <color=#39bfff>자원</color>을 소비하면 아일랜드 의뢰를 완수할 수 있습니다. 의뢰를 완수하면 <color=#39bfff>개발 자금</color>과 <color=#39bfff>아일랜드 개발 EXP</color>을 획득할 수 있습니다. 
+<color=#E58A00>긴급 의뢰</color>: <color=#39bfff>기술 연구</color>에서 긴급 의뢰 기술을 연구하면 오픈됩니다. 아일랜드에서의 <color=#39bfff>시간 경과</color>·<color=#39bfff>일반 의뢰 완수</color>·<color=#39bfff>운송 의뢰 수주</color> 시에 일정 확률로 긴급 의뢰가 등장합니다. 
+<color=#E58A00>의뢰 한도</color>: 일반 의뢰와 긴급 의뢰의 완수 숫자에는 각각 한도가 있습니다. 일반 의뢰는 <color=#39bfff>매일</color>, 긴급 의뢰는 <color=#39bfff>매주</color> 한도가 초기화됩니다. 
+<color=#E58A00>의뢰 성향</color>: 「의뢰 성향」 항목에서는 등장하는 아일랜드 의뢰의 난이도를 변경할 수 있습니다. 변경 결과는 <color=#39bfff>다음 의뢰 등장 시</color>에 반영됩니다.]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_commission = {
+	tip = [[
+「일괄 관리」에서는 오픈된 <color=#39bfff>생산</color>·<color=#39bfff>경영</color>·<color=#39bfff>정기 보급</color> 상황을 확인하고 관리할 수 있습니다. 
+<color=#E58A00>생산</color>: <color=#39bfff>배치 슬롯</color>을 탭하면, 캐릭터 배치 및 생산물 획득을 실시할 수 있습니다. <color=#39bfff>전환 버튼</color>을 탭하여 캐릭터 배치 상황 및 생산물을 확인할 수 있습니다. 
+<color=#E58A00>경영</color>: <color=#39bfff>경영 준비</color>를 탭하면, 직원 배치 및 선택된 판매 메뉴 상황을 확인할 수 있습니다. <color=#39bfff>경영 시작</color>을 탭하면 매출을 회수할 수 있습니다. 
+<color=#E58A00>보급</color>: <color=#39bfff>보급 버튼</color>을 탭하면, 하모니섬의 일상 보급 수령 지점으로 즉시 이동할 수 있습니다.]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_speedup = {
+	tip = "가속권을 사용하면 <color=#39bfff>배치 슬롯의 생산 작업 시간</color>, <color=#39bfff>아일랜드 의뢰의 준비 시간</color> 등을 단축시킬 수 있습니다. \n\n각각 가속권으로 <color=#39bfff>단축할 수 있는 시간은 다릅니다</color>. 초과된 단축 시간은 다시 <color=#FD5650>반환되지 않습니다</color>. 또한, 가속권에는 <color=#39bfff>사용 기한</color>이 있으며, 사용 기한을 넘기면 가속권이 자동으로 <color=#FD5650>무효화</color>됩니다."
+}
+
+
+_G.pg.base.gametip.island_helpbtn_card = {
+	tip = {
+		{
+			info = [[
+프로필 화면에는 지휘관의 아일랜드 정보가 표시됩니다. <color=#39bfff>채팅</color>과 <color=#39bfff>방문</color> 기능으로 다른 지휘관의 프로필을 확인할 수 있습니다. 
+<color=#E58A00>실적 전시</color>: 탭하면 달성한 <color=#39bfff>실적</color>을 프로필에 전시할 수 있습니다. 
+<color=#E58A00>아일랜드 이름 변경</color>:탭하면 아일랜드 명칭을 변경할 수 있습니다. 
+<color=#E58A00>인사 수정</color>: 탭하면 프로필에 표시되는 인사말을 수정할 수 있습니다. 
+<color=#E58A00>태그 설정</color>: 획득한 평판 태그를 확인할 수 있습니다. 
+<color=#E58A00>아일랜드 사진</color>: 탭하면 아일랜드의 표시 사진을 변경할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_helpbtn_technology = {
+	tip = [[
+아일랜드 기술에서는 오픈 조건을 달성한 연구에 동료를 배치하고, 자원을 소비하여 연구를 시작할 수 있습니다. 연구를 진행하면, 새로운 <color=#39bfff>생산 점수</color>와 <color=#39bfff>생산물</color>을 오픈할 수 있습니다. 
+
+<color=#E58A00>본부 인증</color>
+새로운 <color=#39bfff>지도</color>, <color=#39bfff>일괄 관리</color> 등의 기능, <color=#39bfff>아일랜드 의뢰</color>·<color=#39bfff>운송 의뢰</color>, <color=#39bfff>일상 보급</color> <color=#39bfff>추가</color> 등을 실시할 수 있으며, <color=#39bfff>새로운 동료</color>의 아일랜드 권한 인증 아이템을 획득할 수 있습니다. 
+
+<color=#E58A00>연구</color>
+각 생산 점수의 <color=#39bfff>배치 작업</color>을 오픈할 수 있으며, 수동 채집과 배치 작업의 효율을 향상시키고, 생산 점수의 <color=#39bfff>레시피</color>를 오픈할 수 있습니다.]]
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip1 = {
+	tip = "이미 수주하여 변경할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip2 = {
+	tip = "운송 의뢰를 변경하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_preparing = {
+	tip = "운송 의뢰 준비 중"
+}
+
+
+_G.pg.base.gametip.island_information_tech = {
+	tip = "아일랜드 기술-$1-$2"
+}
+
+
 _G.pg.base.gametip.dorm3d_shop_tag8 = {
 	tip = "解锁丝袜互动"
 }
@@ -40604,6 +44807,177 @@ _G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
 }
 
 
+_G.pg.base.gametip.island_selectall = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.island_quickselect_tip = {
+	tip = "*아이콘을 길게 누르면 사용 숫자를 빠르게 늘릴 수 있습니다."
+}
+
+
+_G.pg.base.gametip.search_equipment = {
+	tip = "장비명 검색"
+}
+
+
+_G.pg.base.gametip.search_sp_equipment = {
+	tip = "특수 장비명 검색"
+}
+
+
+_G.pg.base.gametip.search_equipment_appearance = {
+	tip = "장비 스킨명 검색"
+}
+
+
+_G.pg.base.gametip.meta_reproduce_btn = {
+	tip = "현재 META전의 모의전을 시작하시겠습니까? \n전투 난이도 Lv$1\n*모의전은 석유를 소모하지 않으며, 보상을 획득할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.meta_simulated_btn = {
+	tip = "현재 META전의 모의전을 시작하시겠습니까? \n전투 난이도 Lv$1\n*모의전은 석유를 소모하지 않으며, 보상을 획득할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.equip_enhancement_tip = {
+	tip = "재료가 부족합니다."
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv1 = {
+	tip = "1레벨 강화"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lvx = {
+	tip = "레벨$1까지 강화"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_finish = {
+	tip = "강화 완료"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv = {
+	tip = "LV"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_title = {
+	tip = "강화"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_required = {
+	tip = "소비 재료:"
+}
+
+
 _G.pg.base.gametip.shop_sell_ended = {
 	tip = "不可购买"
+}
+
+
+_G.pg.base.gametip.island_taskjump_systemnoopen_tips = {
+	tip = "기능이 아직 오픈되지 않았습니다."
+}
+
+
+_G.pg.base.gametip.island_taskjump_placenoopen_tips = {
+	tip = "해당 장소는 아직 오픈되지 않았습니다."
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_award = {
+	tip = "보상 확인"
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_request = {
+	tip = "소비 확인"
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_label = {
+	tip = "수주할 수 있는 운송 의뢰가 없습니다."
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_time = {
+	tip = "의뢰 목록 자동 갱신까지:"
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt = {
+	tip = "운송 횟수 $1/$2"
+}
+
+
+_G.pg.base.gametip.island_order_ship_sel_delegate_label = {
+	tip = "- 탭하여 의뢰 선택 -"
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt_not_enough = {
+	tip = "초기화"
+}
+
+
+_G.pg.base.gametip.island_order_ship_reset_all = {
+	tip = "표시 중인 모든 의뢰를 갱신하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip = {
+	tip = "새로운 의뢰로 갱신하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_order_ship_btn_replace = {
+	tip = "의뢰 갱신"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_2 = {
+	tip = "운송 횟수가 부족합니다."
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_1 = {
+	tip = "새로운 의뢰로 갱신하시겠습니까? (수주 중인 자재가 있는 경우, 갱신을 실시하면 운송 횟수가 1회 소비되며, 소비된 자재는 반환되지 않습니다.)"
+}
+
+
+_G.pg.base.gametip.island_urgent_notice = {
+	tip = {
+		{
+			info = "시즌 초기화에 대해"
+		},
+		{
+			info = [[
+<color=#39bfff>11/20(목) 점검 후</color>, 밸런스 조정 및 각종 시스템 개선·개편을 위해 현재 진행 중인 아일랜드 경영 개발 시즌에 초기화를 진행할 예정입니다. 
+ 초기화 후의 개발 시즌은 <color=#39bfff>2025년11월 20일(목) 점검 후 ~ 2026년 2월 19일(목) 점검</color>까지 진행됩니다. 
+ 아일랜드 경영을 모두 플레이한 지휘관님께는 <color=#39bfff>「메인 화면」-「보상」</color>에서 관련 보상 아이템을 지급해드립니다. 
+ 이번 「아일랜드 경영」 콘텐츠 도입 관련으로 많은 불편과 혼란을 끼쳐 드린 점, 진심으로 사죄의 말씀 드립니다. 
+
+  ① 개발 Pt에 대해
+ 개발 시즌 종료 시, 자원 창고 내 일부 자원(창고의 「자원」 카테고리에서 확인 가능)이 각각 변환 비율에 따라 시즌 개발 Pt로 자동 변환되며, 획득한 개발 Pt의 총 수량에 따라 합계 Pt 보상이 오픈됩니다. 
+ 11/20(목) 점검 후에 진행되는 시즌 초기화의 경우, 시즌 기간이 평소와 다르므로 변환 비율이 <color=#39bfff>평소의 4배</color>로 적용됩니다. 합계 Pt 보상은 「메인 화면」 → 「보상」에서 획득할 수 있습니다. 
+ '가을 특산품 경영'의 특산품 자원은 개발 Pt로 변환되지 않습니다. 
+
+  ② 초기화 내용에 대해
+ 1. 생산·경영 작업: <color=#39bfff>아일랜드 의뢰, 운송 의뢰, 배치 작업, 수동 재배, 점포 경영</color> 등 진행 중인 각종 작업이 초기화됩니다. (예: 점검 전에 점포 경영에 출품한 요리는 수익을 수령하지 못한 상태로 삭제됨)
+ 2. 개발 순위: 시즌의 개발 순위(랭킹)이 초기화됩니다. 또한, 아일랜드 경영에 참여한 모든 지휘관님께 순위 1위의 보상이 지급될 예정입니다. 
+ 3. 개발 계획: 시즌 관련 개발 계획의 진행도가 초기화됩니다. 미완료된 개발 계획은 획득 가능한 별빛상 티켓을 보상으로 지급할 예정입니다. 초기화 시점에 이미 완료했지만, 보상을 획득하지 않은 개발 계획의 경우에는 해당 보상의 별빛상 티켓을 따로 지급할 예정입니다. 
+ 4. 개발 상점: 개발 상점의 상품 구매 가능 횟수가 초기화됩니다. 또한 11/20(목) 점검 후에는 새로운 지휘관 스킨과 모션 판매가 시작됩니다. 11/20(목) 점검까지 판매할 예정이었던 지휘관 스킨과 모션만 2/19(목) 점검까지 기간이 연장됩니다(이미 구매했으면 다시 구매 불가). 
+ 5. 아일랜드 의뢰: 11/20(목) 점검 시점에 완료한 이벤트 의뢰 개수에 따라 <color=#39bfff>「아일랜드 시즌 Pt 교환 티켓」</color>이 지급됩니다. 「아일랜드 시즌 Pt 교환 티켓」은 아일랜드 개발 Pt로 변환할 수 있습니다. (예: 11/20 점검 후에 획득한 「아일랜드 시즌 Pt 교환 티켓」은 2/19 시즌 종료 시에 아일랜드 개발 Pt로 변환됨)
+ 6. 그 외에 초기화되는 내용: 아일랜드 의뢰(일간, 주간 긴급 의뢰의 횟수와 평가), 운송 의뢰(갱신 횟수), 현재 출현 중인 개발 계획(일간, 주간), 일상 보급·일상 보급 수령 가능 횟수, 캐릭터 상호작용 횟수, 자원 채취 포인트(지도 상의 채집 가능한 자원 포인트), 점포 경영 횟수도 초기화됩니다. 
+ 7. 초기화되지 않는 콘텐츠: 별빛상(획득을 완료한 상품, 보유 중인 티켓, 별빛상을 뽑은 횟수, 누적 횟수 보상), 가을 특산품 경영 콘텐츠(특산품 자원, 특산품 제작 아이템, 한정 의뢰, 이벤트 계획 진행도), 가속권은 초기화되지 않습니다. 
+ 　한 번 획득하거나 완료하면 시즌 초기화와 상관없이 영원히 오픈·보유할 수 있는 콘텐츠: 개발 자금, 아일랜드 개발 레벨, 아일랜드 캐릭터 가입 및 육성 상황, 구매 및 획득 완료 가구/스킨/배치 오브젝트, 아일랜드 기술 연구(완료한 연구, 연구 진행도), 가게 레벨, 메인 개발 계획, 실적 등은 초기화되지 않습니다. ]]
+		}
+	}
 }

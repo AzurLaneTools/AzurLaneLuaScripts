@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			animation = "hi",
-			subName = "啾咖啡店员",
-			characterId = 101200,
-			say = "啊——欢迎光临，指挥官。",
+			say = "안녕, 브레멘",
+			characterId = 0,
 			face2Face = {
 				{
 					0,
@@ -35,8 +33,18 @@ return {
 			}
 		},
 		{
-			say = "您是来店里巡视的吗？我马上就把今天的营业额计算出来！",
-			subName = "啾咖啡店员",
+			say = "아——지휘관님, 어서 오세요.",
+			animation = "hi",
+			characterId = 101200,
+			subName = "카페 점원",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "지휘관님, 가게에 순찰 나오신 건가요? 바로 오늘의 매출을 계산해볼게요!",
+			subName = "카페 점원",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -44,17 +52,17 @@ return {
 			}
 		},
 		{
-			say = "——还有周报表、月报表，以及营业情况总结等，我马上给您说明情况。",
+			say = "——그리고 주간 보고서, 월간 보고서, 영업 현황 요약까지 전부 설명해 드릴게요.",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "카페 점원",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯？什么……情况？",
+			say = "응? 이게……무슨 상황이지?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,18 +70,18 @@ return {
 			}
 		},
 		{
-			say = "欸？指挥官不知道吗？这家店从昨天起就已经从{namecode:98:明石}那里转移到你的名下了。",
+			say = "네? 지휘관님, 모르셨나요? 이 가게는 어제부로 지휘관님의 명의로 이전되었어요.",
 			animation = "doubt",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "카페 점원",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "所以我连忙做了工作汇报……",
-			subName = "啾咖啡店员",
+			say = "그래서 급히 업무 보고를 준비했던 거예요……",
+			subName = "카페 점원",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "（是跟着开发区一起转让的么……）",
+			say = "(개발구와 함께 넘어온 건가……)",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +97,7 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "辛苦完成工作汇报了……但在那之前……",
+			say = "수고 많았어. 보고까지 준비하다니…… 하지만 그 전에……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +105,8 @@ return {
 			}
 		},
 		{
-			say = "布莱梅，能给我来一份梅莉极力推荐的招牌苹果派吗？",
+			animation = "talk",
+			say = "브레멘, 여기 시그니처 메뉴인 오믈렛을 하나 부탁해.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -106,26 +114,17 @@ return {
 			}
 		},
 		{
-			say = "苹果派？非常抱歉，指挥官……今天的苹果派，已经卖光了。",
+			say = "오믈렛이요? 정말 죄송합니다. 지휘관님…… 오늘 오믈렛은 다 팔렸어요.",
 			animation = "shakehead",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "카페 점원",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "最后一份在中午就卖掉了，下次可以给您单独留一份……",
-			subName = "啾咖啡店员",
-			characterId = 101200,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "……那现在还有别的吗？",
+			say = "전부 다——팔렸다고? 이게 한정 메뉴였던 거야?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -133,27 +132,35 @@ return {
 			}
 		},
 		{
-			say = "也没有了……店里餐品的原料大多都是从港区送来的，数量有限。",
+			say = "음…… 아까 스테파니 씨도 똑같은 말을 했어요~",
+			subName = "카페 점원",
+			characterId = 101200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "한정 판매가 맞긴 하지만…… 사실은 식재료가 부족하기 때문이에요……",
 			animation = "sad",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "카페 점원",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过……新鲜的苹果还有一些富余，品质也很好~指挥官想吃吗？",
-			animation = "idea",
+			say = "지금 섬의 식자재는 대부분 모항에서 들여오고 있어서, 제한이 있어요……",
+			subName = "카페 점원",
 			characterId = 101200,
-			subName = "啾咖啡店员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "想吃，但更想吃能稍微饱腹一点的……",
+			say = "식재료가 없어서였구나. 브레멘, 이 달걀들을 한번 봐 줘.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -161,18 +168,18 @@ return {
 			}
 		},
 		{
-			say = "指挥官，如果你真的很想吃苹果派……",
-			animation = "think",
+			say = "달걀이요? 음…… 색도 고르고, 껍질도 매끈하네요. 아주 훌륭해 보여요!",
+			animation = "doubt",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "카페 점원",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "你只要弄来一些面粉和鸡蛋的话……不用多久，我就能给您做出来苹果派。",
-			subName = "啾咖啡店员",
+			say = "이건 어느 모항에서 가져온 건가요?",
+			subName = "카페 점원",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -180,17 +187,8 @@ return {
 			}
 		},
 		{
-			say = "而且……不止是苹果派，如果有对应材料，店里所有的餐品都能正常供应！",
-			animation = "talk",
-			characterId = 101200,
-			subName = "啾咖啡店员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "（……或许是新的收入来源？）",
+			animation = "shakehead",
+			say = "아니, 아니야. 이건 메리의 목장에서 처음 수확한 거야.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -198,17 +196,19 @@ return {
 			}
 		},
 		{
-			say = "……我这就去岛屿仓库里找找看。",
-			characterId = 0,
+			say = "그렇군요, 어쩐지 신선해 보인다고 했어요……",
+			subName = "카페 점원",
+			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			say = "지휘관님, 식재료들을 제게 맡겨 주세요…… 안심하세요, 제가 잘 다룰게요.",
 			animation = "nod",
-			say = "好吧，不是为了收入，是为了让大家都能吃上热乎的苹果派……",
-			characterId = 0,
+			characterId = 101200,
+			subName = "카페 점원",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

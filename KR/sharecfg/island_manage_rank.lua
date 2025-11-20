@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.island_manage_rank = {
 	{
-		name = "铜牌店铺",
+		name = "브론즈",
 		assistant_num = 1,
 		bonus_coefficient = 90,
 		id = 1,
@@ -60,7 +60,7 @@ pg.island_manage_rank = {
 		}
 	},
 	{
-		name = "银牌店铺",
+		name = "실버",
 		assistant_num = 1,
 		bonus_coefficient = 100,
 		id = 2,
@@ -120,7 +120,7 @@ pg.island_manage_rank = {
 		}
 	},
 	{
-		name = "金牌店铺",
+		name = "골드",
 		assistant_num = 2,
 		bonus_coefficient = 110,
 		id = 3,
@@ -181,7 +181,7 @@ pg.island_manage_rank = {
 		}
 	},
 	{
-		name = "钻石店铺",
+		name = "다이아",
 		assistant_num = 2,
 		bonus_coefficient = 115,
 		id = 4,

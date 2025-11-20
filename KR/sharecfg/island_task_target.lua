@@ -17,6 +17,7 @@ pg.island_task_target = setmetatable({
 		902,
 		903,
 		40005,
+		500000011,
 		50001001,
 		50001002,
 		50001003,
@@ -65,6 +66,36 @@ pg.island_task_target = setmetatable({
 		80010028,
 		80010029,
 		80010030,
+		80011001,
+		80011002,
+		80011003,
+		80011004,
+		80011005,
+		80011006,
+		80011007,
+		80011008,
+		80011009,
+		80011010,
+		80011011,
+		80011012,
+		80011013,
+		80011014,
+		80011015,
+		80011016,
+		80011017,
+		80011018,
+		80011019,
+		80011020,
+		80011021,
+		80011022,
+		80011023,
+		80011024,
+		80011025,
+		80011026,
+		80011027,
+		80011028,
+		80011029,
+		80011030,
 		100010001,
 		100010101,
 		100010201,
@@ -343,7 +374,8 @@ pg.base = pg.base or {}
 pg.base.island_task_target = {
 	[101] = {
 		tips = "10040022",
-		name = "与{namecode:98:明石}互动",
+		jump_ui = "",
+		name = "아카시와 대화하기",
 		type = 1,
 		id = 101,
 		target_num = 1,
@@ -353,7 +385,8 @@ pg.base.island_task_target = {
 	},
 	[201] = {
 		tips = "10040022",
-		name = "到达目标区域",
+		jump_ui = "",
+		name = "목표 구역에 도착",
 		type = 2,
 		id = 201,
 		target_num = 1,
@@ -363,7 +396,8 @@ pg.base.island_task_target = {
 	},
 	[301] = {
 		tips = "order",
-		name = "完成订单1",
+		jump_ui = "",
+		name = "의뢰 1 처리",
 		type = 3,
 		id = 301,
 		target_num = 1,
@@ -371,7 +405,8 @@ pg.base.island_task_target = {
 	},
 	[302] = {
 		tips = "order",
-		name = "完成订单2",
+		jump_ui = "",
+		name = "의뢰 2 처리",
 		type = 3,
 		id = 302,
 		target_num = 1,
@@ -381,7 +416,8 @@ pg.base.island_task_target = {
 	},
 	[401] = {
 		tips = "",
-		name = "回收道具",
+		jump_ui = "",
+		name = "아이템 회수",
 		type = 4,
 		id = 401,
 		target_num = 20,
@@ -391,7 +427,8 @@ pg.base.island_task_target = {
 	},
 	[501] = {
 		tips = "",
-		name = "获得任意道具",
+		jump_ui = "",
+		name = "임의의 아이템 획득",
 		type = 5,
 		id = 501,
 		target_num = 20,
@@ -399,7 +436,8 @@ pg.base.island_task_target = {
 	},
 	[502] = {
 		tips = "",
-		name = "获得指定道具",
+		jump_ui = "",
+		name = "임의의 아이템 획득",
 		type = 5,
 		id = 502,
 		target_num = 20,
@@ -409,7 +447,8 @@ pg.base.island_task_target = {
 	},
 	[601] = {
 		tips = "",
-		name = "任意配方手动完成",
+		jump_ui = "",
+		name = "임의의 레시피로 아이템 수동 제작",
 		type = 6,
 		id = 601,
 		target_num = 1,
@@ -417,7 +456,8 @@ pg.base.island_task_target = {
 	},
 	[602] = {
 		tips = "",
-		name = "指定配方手动完成",
+		jump_ui = "",
+		name = "지정된 레시피로 아이템 수동 제작",
 		type = 6,
 		id = 602,
 		target_num = 1,
@@ -427,7 +467,8 @@ pg.base.island_task_target = {
 	},
 	[701] = {
 		tips = "",
-		name = "任意配方委派完成",
+		jump_ui = "",
+		name = "배치된 동료에게 임의의 레시피 제작 맡기기",
 		type = 7,
 		id = 701,
 		target_num = 1,
@@ -435,7 +476,8 @@ pg.base.island_task_target = {
 	},
 	[702] = {
 		tips = "",
-		name = "指定配方委派完成",
+		jump_ui = "",
+		name = "배치된 동료에게 지정된 레시피 제작 맡기기",
 		type = 7,
 		id = 702,
 		target_num = 1,
@@ -445,7 +487,8 @@ pg.base.island_task_target = {
 	},
 	[901] = {
 		tips = "",
-		name = "请先达到指定岛屿开发等级",
+		jump_ui = "",
+		name = "개발 등급 필요",
 		type = 9,
 		id = 901,
 		target_num = 10,
@@ -453,7 +496,8 @@ pg.base.island_task_target = {
 	},
 	[902] = {
 		tips = "",
-		name = "请先达到指定岛屿开发等级",
+		jump_ui = "",
+		name = "개발 등급 필요",
 		type = 9,
 		id = 902,
 		target_num = 4,
@@ -461,7 +505,8 @@ pg.base.island_task_target = {
 	},
 	[903] = {
 		tips = "",
-		name = "请先达到指定岛屿开发等级",
+		jump_ui = "",
+		name = "개발 등급 필요",
 		type = 9,
 		id = 903,
 		target_num = 8,
@@ -469,7 +514,8 @@ pg.base.island_task_target = {
 	},
 	[40005] = {
 		tips = "",
-		name = "偿还贷款",
+		jump_ui = "",
+		name = "채무 상환",
 		type = 5,
 		id = 40005,
 		target_num = 2000000,
@@ -477,9 +523,21 @@ pg.base.island_task_target = {
 			1
 		}
 	},
+	[500000011] = {
+		tips = "10020025",
+		jump_ui = "",
+		name = "피어리를 만나러 가기",
+		type = 1,
+		id = 500000011,
+		target_num = 1,
+		target_param = {
+			5822
+		}
+	},
 	[50001001] = {
 		tips = "",
-		name = "累计采集秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 채집",
 		type = 40,
 		id = 50001001,
 		target_num = 8,
@@ -489,7 +547,8 @@ pg.base.island_task_target = {
 	},
 	[50001002] = {
 		tips = "",
-		name = "累计采集秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 채집",
 		type = 40,
 		id = 50001002,
 		target_num = 24,
@@ -499,7 +558,8 @@ pg.base.island_task_target = {
 	},
 	[50001003] = {
 		tips = "",
-		name = "累计采集秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 채집",
 		type = 40,
 		id = 50001003,
 		target_num = 48,
@@ -509,7 +569,8 @@ pg.base.island_task_target = {
 	},
 	[50001004] = {
 		tips = "",
-		name = "累计采集秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 채집",
 		type = 40,
 		id = 50001004,
 		target_num = 96,
@@ -519,7 +580,8 @@ pg.base.island_task_target = {
 	},
 	[50001005] = {
 		tips = "",
-		name = "累计采集秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 채집",
 		type = 40,
 		id = 50001005,
 		target_num = 120,
@@ -529,7 +591,8 @@ pg.base.island_task_target = {
 	},
 	[50001006] = {
 		tips = "",
-		name = "累计采集秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 채집",
 		type = 40,
 		id = 50001006,
 		target_num = 160,
@@ -539,7 +602,8 @@ pg.base.island_task_target = {
 	},
 	[50001007] = {
 		tips = "",
-		name = "累计采集秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 채집",
 		type = 40,
 		id = 50001007,
 		target_num = 240,
@@ -549,7 +613,8 @@ pg.base.island_task_target = {
 	},
 	[50002001] = {
 		tips = "",
-		name = "累计制作秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 제작",
 		type = 26,
 		id = 50002001,
 		target_num = 40,
@@ -566,7 +631,8 @@ pg.base.island_task_target = {
 	},
 	[50002002] = {
 		tips = "",
-		name = "累计制作秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 제작",
 		type = 26,
 		id = 50002002,
 		target_num = 80,
@@ -583,7 +649,8 @@ pg.base.island_task_target = {
 	},
 	[50002003] = {
 		tips = "",
-		name = "累计制作秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 제작",
 		type = 26,
 		id = 50002003,
 		target_num = 100,
@@ -600,7 +667,8 @@ pg.base.island_task_target = {
 	},
 	[50002004] = {
 		tips = "",
-		name = "累计制作秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 제작",
 		type = 26,
 		id = 50002004,
 		target_num = 200,
@@ -617,7 +685,8 @@ pg.base.island_task_target = {
 	},
 	[50002005] = {
 		tips = "",
-		name = "累计制作秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 제작",
 		type = 26,
 		id = 50002005,
 		target_num = 400,
@@ -634,7 +703,8 @@ pg.base.island_task_target = {
 	},
 	[50002006] = {
 		tips = "",
-		name = "累计制作秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 제작",
 		type = 26,
 		id = 50002006,
 		target_num = 600,
@@ -651,7 +721,8 @@ pg.base.island_task_target = {
 	},
 	[50002007] = {
 		tips = "",
-		name = "累计制作秋季特产",
+		jump_ui = "",
+		name = "합계로 가을 특산품 제작",
 		type = 26,
 		id = 50002007,
 		target_num = 800,
@@ -668,7 +739,8 @@ pg.base.island_task_target = {
 	},
 	[50003001] = {
 		tips = "",
-		name = "累计完成秋季特产订单",
+		jump_ui = "",
+		name = "가을 특산품 의뢰 처리",
 		type = 39,
 		id = 50003001,
 		target_num = 1,
@@ -678,7 +750,8 @@ pg.base.island_task_target = {
 	},
 	[50003002] = {
 		tips = "",
-		name = "累计完成秋季特产订单",
+		jump_ui = "",
+		name = "가을 특산품 의뢰 처리",
 		type = 39,
 		id = 50003002,
 		target_num = 5,
@@ -688,7 +761,8 @@ pg.base.island_task_target = {
 	},
 	[50003003] = {
 		tips = "",
-		name = "累计完成秋季特产订单",
+		jump_ui = "",
+		name = "가을 특산품 의뢰 처리",
 		type = 39,
 		id = 50003003,
 		target_num = 10,
@@ -698,7 +772,8 @@ pg.base.island_task_target = {
 	},
 	[50003004] = {
 		tips = "",
-		name = "累计完成秋季特产订单",
+		jump_ui = "",
+		name = "가을 특산품 의뢰 처리",
 		type = 39,
 		id = 50003004,
 		target_num = 15,
@@ -708,7 +783,8 @@ pg.base.island_task_target = {
 	},
 	[80010001] = {
 		tips = "",
-		name = "提交小麦*500",
+		jump_ui = "",
+		name = "밀 500개 제출",
 		type = 4,
 		id = 80010001,
 		target_num = 500,
@@ -718,7 +794,8 @@ pg.base.island_task_target = {
 	},
 	[80010002] = {
 		tips = "",
-		name = "提交牧草*500",
+		jump_ui = "",
+		name = "목초 500개 제출",
 		type = 4,
 		id = 80010002,
 		target_num = 500,
@@ -728,7 +805,8 @@ pg.base.island_task_target = {
 	},
 	[80010003] = {
 		tips = "",
-		name = "提交大豆*500",
+		jump_ui = "",
+		name = "대두 500개 제출",
 		type = 4,
 		id = 80010003,
 		target_num = 500,
@@ -738,7 +816,8 @@ pg.base.island_task_target = {
 	},
 	[80010004] = {
 		tips = "",
-		name = "提交大米*500",
+		jump_ui = "",
+		name = "쌀 500개 제출",
 		type = 4,
 		id = 80010004,
 		target_num = 500,
@@ -748,7 +827,8 @@ pg.base.island_task_target = {
 	},
 	[80010005] = {
 		tips = "",
-		name = "提交玉米*500",
+		jump_ui = "",
+		name = "옥수수 500개 제출",
 		type = 4,
 		id = 80010005,
 		target_num = 500,
@@ -758,7 +838,8 @@ pg.base.island_task_target = {
 	},
 	[80010006] = {
 		tips = "",
-		name = "提交胡萝卜*250",
+		jump_ui = "",
+		name = "당근 250개 제출",
 		type = 4,
 		id = 80010006,
 		target_num = 250,
@@ -768,7 +849,8 @@ pg.base.island_task_target = {
 	},
 	[80010007] = {
 		tips = "",
-		name = "提交牛奶*250",
+		jump_ui = "",
+		name = "우유 250개 제출",
 		type = 4,
 		id = 80010007,
 		target_num = 250,
@@ -778,7 +860,8 @@ pg.base.island_task_target = {
 	},
 	[80010008] = {
 		tips = "",
-		name = "提交苹果派*250",
+		jump_ui = "",
+		name = "애플파이 250개 제출",
 		type = 4,
 		id = 80010008,
 		target_num = 250,
@@ -788,7 +871,8 @@ pg.base.island_task_target = {
 	},
 	[80010009] = {
 		tips = "",
-		name = "提交冰咖啡*250",
+		jump_ui = "",
+		name = "아이스 커피 250개 제출",
 		type = 4,
 		id = 80010009,
 		target_num = 250,
@@ -798,7 +882,8 @@ pg.base.island_task_target = {
 	},
 	[80010010] = {
 		tips = "",
-		name = "提交炭烤肉串*250",
+		jump_ui = "",
+		name = "숯불고기 꼬치 250개 제출",
 		type = 4,
 		id = 80010010,
 		target_num = 250,
@@ -808,7 +893,8 @@ pg.base.island_task_target = {
 	},
 	[80010011] = {
 		tips = "",
-		name = "提交洋葱*100",
+		jump_ui = "",
+		name = "양파 100개 제출",
 		type = 4,
 		id = 80010011,
 		target_num = 100,
@@ -818,7 +904,8 @@ pg.base.island_task_target = {
 	},
 	[80010012] = {
 		tips = "",
-		name = "提交蔬菜沙拉*100",
+		jump_ui = "",
+		name = "야채 샐러드 100개 제출",
 		type = 4,
 		id = 80010012,
 		target_num = 100,
@@ -828,7 +915,8 @@ pg.base.island_task_target = {
 	},
 	[80010013] = {
 		tips = "",
-		name = "提交肉末烧豆腐*100",
+		jump_ui = "",
+		name = "다진 고기 두부볶음 100개 제출",
 		type = 4,
 		id = 80010013,
 		target_num = 100,
@@ -838,7 +926,8 @@ pg.base.island_task_target = {
 	},
 	[80010014] = {
 		tips = "",
-		name = "提交拿铁*100",
+		jump_ui = "",
+		name = "라떼 100개 제출",
 		type = 4,
 		id = 80010014,
 		target_num = 100,
@@ -848,7 +937,8 @@ pg.base.island_task_target = {
 	},
 	[80010015] = {
 		tips = "",
-		name = "提交爆炒禽肉*100",
+		jump_ui = "",
+		name = "닭고기 볶음 100개 제출",
 		type = 4,
 		id = 80010015,
 		target_num = 100,
@@ -858,7 +948,8 @@ pg.base.island_task_target = {
 	},
 	[80010016] = {
 		tips = "",
-		name = "提交汉堡肉饭*50",
+		jump_ui = "",
+		name = "햄버그 덮밥 50개 제출",
 		type = 4,
 		id = 80010016,
 		target_num = 50,
@@ -868,7 +959,8 @@ pg.base.island_task_target = {
 	},
 	[80010017] = {
 		tips = "",
-		name = "接收1次日常补给",
+		jump_ui = "",
+		name = "일상 보급 1회 수령",
 		type = 13,
 		id = 80010017,
 		target_num = 1,
@@ -876,7 +968,8 @@ pg.base.island_task_target = {
 	},
 	[80010018] = {
 		tips = "",
-		name = "接收5次日常补给",
+		jump_ui = "",
+		name = "일상 보급 3회 수령",
 		type = 13,
 		id = 80010018,
 		target_num = 5,
@@ -884,7 +977,8 @@ pg.base.island_task_target = {
 	},
 	[80010019] = {
 		tips = "",
-		name = "接收10次日常补给",
+		jump_ui = "",
+		name = "일상 보급 5회 수령",
 		type = 13,
 		id = 80010019,
 		target_num = 10,
@@ -892,7 +986,8 @@ pg.base.island_task_target = {
 	},
 	[80010020] = {
 		tips = "",
-		name = "接收20次日常补给",
+		jump_ui = "",
+		name = "일상 보급 10회 수령",
 		type = 13,
 		id = 80010020,
 		target_num = 20,
@@ -900,7 +995,8 @@ pg.base.island_task_target = {
 	},
 	[80010021] = {
 		tips = "",
-		name = "接收30次日常补给",
+		jump_ui = "",
+		name = "일상 보급 15회 수령",
 		type = 13,
 		id = 80010021,
 		target_num = 30,
@@ -908,7 +1004,8 @@ pg.base.island_task_target = {
 	},
 	[80010022] = {
 		tips = "",
-		name = "接收45次日常补给",
+		jump_ui = "",
+		name = "일상 보급 20회 수령",
 		type = 13,
 		id = 80010022,
 		target_num = 45,
@@ -916,7 +1013,8 @@ pg.base.island_task_target = {
 	},
 	[80010023] = {
 		tips = "",
-		name = "接收60次日常补给",
+		jump_ui = "",
+		name = "일상 보급 25회 수령",
 		type = 13,
 		id = 80010023,
 		target_num = 60,
@@ -924,7 +1022,8 @@ pg.base.island_task_target = {
 	},
 	[80010024] = {
 		tips = "",
-		name = "交付10次岛屿订单",
+		jump_ui = "",
+		name = "아일랜드 의뢰 10개 처리",
 		type = 3,
 		id = 80010024,
 		target_num = 10,
@@ -932,7 +1031,8 @@ pg.base.island_task_target = {
 	},
 	[80010025] = {
 		tips = "",
-		name = "交付30次岛屿订单",
+		jump_ui = "",
+		name = "아일랜드 의뢰 30개 처리",
 		type = 3,
 		id = 80010025,
 		target_num = 30,
@@ -940,7 +1040,8 @@ pg.base.island_task_target = {
 	},
 	[80010026] = {
 		tips = "",
-		name = "交付50次岛屿订单",
+		jump_ui = "",
+		name = "아일랜드 의뢰 50개 처리",
 		type = 3,
 		id = 80010026,
 		target_num = 50,
@@ -948,7 +1049,8 @@ pg.base.island_task_target = {
 	},
 	[80010027] = {
 		tips = "",
-		name = "交付100次岛屿订单",
+		jump_ui = "",
+		name = "아일랜드 의뢰 100개 처리",
 		type = 3,
 		id = 80010027,
 		target_num = 100,
@@ -956,7 +1058,8 @@ pg.base.island_task_target = {
 	},
 	[80010028] = {
 		tips = "",
-		name = "交付150次岛屿订单",
+		jump_ui = "",
+		name = "아일랜드 의뢰 150개 처리",
 		type = 3,
 		id = 80010028,
 		target_num = 150,
@@ -964,7 +1067,8 @@ pg.base.island_task_target = {
 	},
 	[80010029] = {
 		tips = "",
-		name = "交付200次岛屿订单",
+		jump_ui = "",
+		name = "아일랜드 의뢰 200개 처리",
 		type = 3,
 		id = 80010029,
 		target_num = 200,
@@ -972,15 +1076,319 @@ pg.base.island_task_target = {
 	},
 	[80010030] = {
 		tips = "",
-		name = "交付300次岛屿订单",
+		jump_ui = "",
+		name = "아일랜드 의뢰 300개 처리",
 		type = 3,
 		id = 80010030,
 		target_num = 300,
 		target_param = ""
 	},
+	[80011001] = {
+		tips = "",
+		jump_ui = "",
+		name = "밀 500개 제출",
+		type = 4,
+		id = 80011001,
+		target_num = 500,
+		target_param = {
+			2000
+		}
+	},
+	[80011002] = {
+		tips = "",
+		jump_ui = "",
+		name = "목초 500개 제출",
+		type = 4,
+		id = 80011002,
+		target_num = 500,
+		target_param = {
+			2008
+		}
+	},
+	[80011003] = {
+		tips = "",
+		jump_ui = "",
+		name = "대두 500개 제출",
+		type = 4,
+		id = 80011003,
+		target_num = 500,
+		target_param = {
+			2006
+		}
+	},
+	[80011004] = {
+		tips = "",
+		jump_ui = "",
+		name = "쌀 500개 제출",
+		type = 4,
+		id = 80011004,
+		target_num = 500,
+		target_param = {
+			2002
+		}
+	},
+	[80011005] = {
+		tips = "",
+		jump_ui = "",
+		name = "옥수수 500개 제출",
+		type = 4,
+		id = 80011005,
+		target_num = 500,
+		target_param = {
+			2001
+		}
+	},
+	[80011006] = {
+		tips = "",
+		jump_ui = "",
+		name = "당근 250개 제출",
+		type = 4,
+		id = 80011006,
+		target_num = 250,
+		target_param = {
+			2004
+		}
+	},
+	[80011007] = {
+		tips = "",
+		jump_ui = "",
+		name = "우유 250개 제출",
+		type = 4,
+		id = 80011007,
+		target_num = 250,
+		target_param = {
+			2603
+		}
+	},
+	[80011008] = {
+		tips = "",
+		jump_ui = "",
+		name = "사과 주스 250개 제출",
+		type = 4,
+		id = 80011008,
+		target_num = 250,
+		target_param = {
+			3017
+		}
+	},
+	[80011009] = {
+		tips = "",
+		jump_ui = "",
+		name = "아이스 커피 250개 제출",
+		type = 4,
+		id = 80011009,
+		target_num = 250,
+		target_param = {
+			3005
+		}
+	},
+	[80011010] = {
+		tips = "",
+		jump_ui = "",
+		name = "숯불고기 꼬치 250개 제출",
+		type = 4,
+		id = 80011010,
+		target_num = 250,
+		target_param = {
+			3029
+		}
+	},
+	[80011011] = {
+		tips = "",
+		jump_ui = "",
+		name = "양파 100개 제출",
+		type = 4,
+		id = 80011011,
+		target_num = 100,
+		target_param = {
+			2007
+		}
+	},
+	[80011012] = {
+		tips = "",
+		jump_ui = "",
+		name = "야채 샐러드 100개 제출",
+		type = 4,
+		id = 80011012,
+		target_num = 100,
+		target_param = {
+			3015
+		}
+	},
+	[80011013] = {
+		tips = "",
+		jump_ui = "",
+		name = "두꺼운 당근 계란말이 100개 제출",
+		type = 4,
+		id = 80011013,
+		target_num = 100,
+		target_param = {
+			3033
+		}
+	},
+	[80011014] = {
+		tips = "",
+		jump_ui = "",
+		name = "라떼 100개 제출",
+		type = 4,
+		id = 80011014,
+		target_num = 100,
+		target_param = {
+			3007
+		}
+	},
+	[80011015] = {
+		tips = "",
+		jump_ui = "",
+		name = "닭고기 볶음 100개 제출",
+		type = 4,
+		id = 80011015,
+		target_num = 100,
+		target_param = {
+			3032
+		}
+	},
+	[80011016] = {
+		tips = "",
+		jump_ui = "",
+		name = "햄버그 덮밥 50개 제출",
+		type = 4,
+		id = 80011016,
+		target_num = 50,
+		target_param = {
+			3034
+		}
+	},
+	[80011017] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 1회 수령",
+		type = 13,
+		id = 80011017,
+		target_num = 1,
+		target_param = ""
+	},
+	[80011018] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 5회 수령",
+		type = 13,
+		id = 80011018,
+		target_num = 5,
+		target_param = ""
+	},
+	[80011019] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 10회 수령",
+		type = 13,
+		id = 80011019,
+		target_num = 10,
+		target_param = ""
+	},
+	[80011020] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 20회 수령",
+		type = 13,
+		id = 80011020,
+		target_num = 20,
+		target_param = ""
+	},
+	[80011021] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 30회 수령",
+		type = 13,
+		id = 80011021,
+		target_num = 30,
+		target_param = ""
+	},
+	[80011022] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 45회 수령",
+		type = 13,
+		id = 80011022,
+		target_num = 45,
+		target_param = ""
+	},
+	[80011023] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 60회 수령",
+		type = 13,
+		id = 80011023,
+		target_num = 60,
+		target_param = ""
+	},
+	[80011024] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 10개 완료",
+		type = 3,
+		id = 80011024,
+		target_num = 10,
+		target_param = ""
+	},
+	[80011025] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 30개 완료",
+		type = 3,
+		id = 80011025,
+		target_num = 30,
+		target_param = ""
+	},
+	[80011026] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 50개 완료",
+		type = 3,
+		id = 80011026,
+		target_num = 50,
+		target_param = ""
+	},
+	[80011027] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 100개 완료",
+		type = 3,
+		id = 80011027,
+		target_num = 100,
+		target_param = ""
+	},
+	[80011028] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 150개 완료",
+		type = 3,
+		id = 80011028,
+		target_num = 150,
+		target_param = ""
+	},
+	[80011029] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 200개 완료",
+		type = 3,
+		id = 80011029,
+		target_num = 200,
+		target_param = ""
+	},
+	[80011030] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 300개 완료",
+		type = 3,
+		id = 80011030,
+		target_num = 300,
+		target_param = ""
+	},
 	[100010001] = {
 		tips = "10040044",
-		name = "去前面看看",
+		jump_ui = "",
+		name = "앞쪽으로 가보기",
 		type = 2,
 		id = 100010001,
 		target_num = 1,
@@ -990,7 +1398,8 @@ pg.base.island_task_target = {
 	},
 	[100010101] = {
 		tips = "10040002",
-		name = "寻找奥布莱恩",
+		jump_ui = "",
+		name = "오브라이언 찾기",
 		type = 34,
 		id = 100010101,
 		target_num = 1,
@@ -1000,7 +1409,8 @@ pg.base.island_task_target = {
 	},
 	[100010201] = {
 		tips = "10040022",
-		name = "寻找乔安",
+		jump_ui = "",
+		name = "조안 찾기",
 		type = 2,
 		id = 100010201,
 		target_num = 1,
@@ -1010,7 +1420,8 @@ pg.base.island_task_target = {
 	},
 	[100010301] = {
 		tips = "10040035",
-		name = "收集煤炭",
+		jump_ui = "",
+		name = "석탄 채집",
 		type = 4,
 		id = 100010301,
 		target_num = 1,
@@ -1020,7 +1431,8 @@ pg.base.island_task_target = {
 	},
 	[100010401] = {
 		tips = "10040017",
-		name = "收集自然之木",
+		jump_ui = "",
+		name = "자연 목재 채집",
 		type = 4,
 		id = 100010401,
 		target_num = 1,
@@ -1030,7 +1442,8 @@ pg.base.island_task_target = {
 	},
 	[100010501] = {
 		tips = "10040066",
-		name = "修复受损的车站",
+		jump_ui = "",
+		name = "버스 정류장 수리",
 		type = 34,
 		id = 100010501,
 		target_num = 1,
@@ -1040,7 +1453,8 @@ pg.base.island_task_target = {
 	},
 	[100010601] = {
 		tips = "10040032",
-		name = "和乔安聊聊吧",
+		jump_ui = "",
+		name = "조안과 대화하기",
 		type = 2,
 		id = 100010601,
 		target_num = 1,
@@ -1050,7 +1464,8 @@ pg.base.island_task_target = {
 	},
 	[100010701] = {
 		tips = "10020009",
-		name = "寻找帕特莉",
+		jump_ui = "",
+		name = "패트리 찾기",
 		type = 1,
 		id = 100010701,
 		target_num = 1,
@@ -1060,7 +1475,8 @@ pg.base.island_task_target = {
 	},
 	[100010711] = {
 		tips = "10020009",
-		name = "让帕特莉帮忙看看吧",
+		jump_ui = "",
+		name = "패트리에게 도와달라고 하기",
 		type = 3,
 		id = 100010711,
 		target_num = 1,
@@ -1070,7 +1486,8 @@ pg.base.island_task_target = {
 	},
 	[100010801] = {
 		tips = "10020006",
-		name = "寻找{namecode:98:明石}的身影",
+		jump_ui = "",
+		name = "아카시의 행방 찾기",
 		type = 2,
 		id = 100010801,
 		target_num = 1,
@@ -1080,7 +1497,8 @@ pg.base.island_task_target = {
 	},
 	[100010901] = {
 		tips = "10020007",
-		name = "进入啾咖啡",
+		jump_ui = "",
+		name = "쥬카페 입장",
 		type = 2,
 		id = 100010901,
 		target_num = 1,
@@ -1090,7 +1508,8 @@ pg.base.island_task_target = {
 	},
 	[100011001] = {
 		tips = "10100007",
-		name = "避开装置跟上{namecode:98:明石}",
+		jump_ui = "",
+		name = "경보 장치를 잘 피하며 아카시 쫒기",
 		type = 2,
 		id = 100011001,
 		target_num = 1,
@@ -1100,7 +1519,8 @@ pg.base.island_task_target = {
 	},
 	[100011101] = {
 		tips = "10090011",
-		name = "寻找隐藏通道",
+		jump_ui = "",
+		name = "숨겨진 통로 찾기",
 		type = 1,
 		id = 100011101,
 		target_num = 1,
@@ -1110,7 +1530,8 @@ pg.base.island_task_target = {
 	},
 	[100011201] = {
 		tips = "10070038",
-		name = "抓住{namecode:98:明石}",
+		jump_ui = "",
+		name = "아카시 잡기",
 		type = 1,
 		id = 100011201,
 		target_num = 1,
@@ -1120,7 +1541,8 @@ pg.base.island_task_target = {
 	},
 	[100011301] = {
 		tips = "10070027",
-		name = "找{namecode:98:明石}转移权限",
+		jump_ui = "",
+		name = "아카시에게 권한 양도 요구",
 		type = 1,
 		id = 100011301,
 		target_num = 1,
@@ -1130,7 +1552,8 @@ pg.base.island_task_target = {
 	},
 	[100011401] = {
 		tips = "10070004",
-		name = "研发岛屿权限认证函",
+		jump_ui = "",
+		name = "아일랜드 권한 인증 장치 개발",
 		type = 2,
 		id = 100011401,
 		target_num = 1,
@@ -1140,7 +1563,8 @@ pg.base.island_task_target = {
 	},
 	[100011411] = {
 		tips = "10070004",
-		name = "研发岛屿权限认证函",
+		jump_ui = "",
+		name = "아일랜드 권한 인증 장치 개발",
 		type = 8,
 		id = 100011411,
 		target_num = 1,
@@ -1150,7 +1574,8 @@ pg.base.island_task_target = {
 	},
 	[100011501] = {
 		tips = "10070003",
-		name = "去找{namecode:98:明石}",
+		jump_ui = "",
+		name = "아카시를 찾으러 가기",
 		type = 2,
 		id = 100011501,
 		target_num = 1,
@@ -1160,7 +1585,8 @@ pg.base.island_task_target = {
 	},
 	[100011511] = {
 		tips = "10070003",
-		name = "使用岛屿权限认证装置",
+		jump_ui = "",
+		name = "아일랜드 권한 인증 장치 사용",
 		type = 11,
 		id = 100011511,
 		target_num = 1,
@@ -1170,7 +1596,8 @@ pg.base.island_task_target = {
 	},
 	[100011601] = {
 		tips = "10020012",
-		name = "和萨拉托加打招呼",
+		jump_ui = "",
+		name = "새러토가에게 인사하기",
 		type = 1,
 		id = 100011601,
 		target_num = 1,
@@ -1180,7 +1607,8 @@ pg.base.island_task_target = {
 	},
 	[100011701] = {
 		tips = "",
-		name = "完成一项每日计划",
+		jump_ui = "",
+		name = "일일 계획 완성하기",
 		type = 23,
 		id = 100011701,
 		target_num = 1,
@@ -1190,7 +1618,8 @@ pg.base.island_task_target = {
 	},
 	[100011801] = {
 		tips = "",
-		name = "提升岛屿开发等级",
+		jump_ui = "",
+		name = "아일랜드 개발 등급 올리기",
 		type = 9,
 		id = 100011801,
 		target_num = 8,
@@ -1198,7 +1627,8 @@ pg.base.island_task_target = {
 	},
 	[100020101] = {
 		tips = "10020009",
-		name = "去找帕特莉问问",
+		jump_ui = "",
+		name = "패트리와 이야기하기",
 		type = 1,
 		id = 100020101,
 		target_num = 1,
@@ -1208,7 +1638,8 @@ pg.base.island_task_target = {
 	},
 	[100020201] = {
 		tips = "10020035",
-		name = "去找斯蒂芬妮吧",
+		jump_ui = "",
+		name = "스테파니가 있는 곳으로 가기",
 		type = 2,
 		id = 100020201,
 		target_num = 1,
@@ -1218,7 +1649,8 @@ pg.base.island_task_target = {
 	},
 	[100020301] = {
 		tips = "10020031",
-		name = "寻找斯蒂芬妮的踪迹",
+		jump_ui = "",
+		name = "스테파니의 흔적 탐색",
 		type = 2,
 		id = 100020301,
 		target_num = 1,
@@ -1228,7 +1660,8 @@ pg.base.island_task_target = {
 	},
 	[100020311] = {
 		tips = "10020032",
-		name = "寻找斯蒂芬妮的踪迹",
+		jump_ui = "",
+		name = "스테파니의 흔적 탐색",
 		type = 2,
 		id = 100020311,
 		target_num = 1,
@@ -1238,7 +1671,8 @@ pg.base.island_task_target = {
 	},
 	[100020321] = {
 		tips = "10020033",
-		name = "寻找斯蒂芬妮的踪迹",
+		jump_ui = "",
+		name = "스테파니의 흔적 탐색",
 		type = 2,
 		id = 100020321,
 		target_num = 1,
@@ -1248,7 +1682,8 @@ pg.base.island_task_target = {
 	},
 	[100020401] = {
 		tips = "10020034",
-		name = "去找斯蒂芬妮聊聊吧",
+		jump_ui = "",
+		name = "스테파니와 이야기하기",
 		type = 1,
 		id = 100020401,
 		target_num = 1,
@@ -1258,7 +1693,8 @@ pg.base.island_task_target = {
 	},
 	[100020501] = {
 		tips = "10020004",
-		name = "帮斯蒂芬妮装载资材吧",
+		jump_ui = "",
+		name = "스테파니의 적재 작업 돕기",
 		type = 1,
 		id = 100020501,
 		target_num = 1,
@@ -1268,7 +1704,8 @@ pg.base.island_task_target = {
 	},
 	[100020511] = {
 		tips = "",
-		name = "提升岛屿开发等级",
+		jump_ui = "",
+		name = "아일랜드 개발 등급 올리기",
 		type = 9,
 		id = 100020511,
 		target_num = 10,
@@ -1276,7 +1713,8 @@ pg.base.island_task_target = {
 	},
 	[100020601] = {
 		tips = "10020005",
-		name = "前往晨露农场",
+		jump_ui = "",
+		name = "이슬 농장으로 이동",
 		type = 2,
 		id = 100020601,
 		target_num = 1,
@@ -1286,7 +1724,8 @@ pg.base.island_task_target = {
 	},
 	[100020701] = {
 		tips = "10010068",
-		name = "寻找赫莫",
+		jump_ui = "",
+		name = "헤르모 찾기",
 		type = 1,
 		id = 100020701,
 		target_num = 1,
@@ -1296,7 +1735,8 @@ pg.base.island_task_target = {
 	},
 	[100020801] = {
 		tips = "10010040",
-		name = "购买小麦种子",
+		jump_ui = "",
+		name = "밀 씨앗 구매",
 		type = 5,
 		id = 100020801,
 		target_num = 1,
@@ -1306,7 +1746,8 @@ pg.base.island_task_target = {
 	},
 	[100020811] = {
 		tips = "10010004",
-		name = "播种小麦",
+		jump_ui = "",
+		name = "밀 씨앗 뿌리기",
 		type = 14,
 		id = 100020811,
 		target_num = 1,
@@ -1316,7 +1757,8 @@ pg.base.island_task_target = {
 	},
 	[100020901] = {
 		tips = "10010003",
-		name = "寻找梅莉",
+		jump_ui = "",
+		name = "메리 찾기",
 		type = 1,
 		id = 100020901,
 		target_num = 1,
@@ -1326,7 +1768,8 @@ pg.base.island_task_target = {
 	},
 	[100021001] = {
 		tips = "10010046",
-		name = "寻回走丢的动物",
+		jump_ui = "",
+		name = "길 잃은 동물 찾아오기",
 		type = 1,
 		id = 100021001,
 		target_num = 1,
@@ -1336,7 +1779,8 @@ pg.base.island_task_target = {
 	},
 	[100021101] = {
 		tips = "10010041",
-		name = "前往磨坊",
+		jump_ui = "",
+		name = "방앗간으로 이동",
 		type = 1,
 		id = 100021101,
 		target_num = 1,
@@ -1346,7 +1790,8 @@ pg.base.island_task_target = {
 	},
 	[100021201] = {
 		tips = "10010041",
-		name = "制作咯咯鸡饲料",
+		jump_ui = "",
+		name = "꼬꼬닭의 사료 제작",
 		type = 5,
 		id = 100021201,
 		target_num = 1,
@@ -1356,7 +1801,8 @@ pg.base.island_task_target = {
 	},
 	[100021301] = {
 		tips = "10010003",
-		name = "查看牧场",
+		jump_ui = "",
+		name = "목장의 상태 확인",
 		type = 1,
 		id = 100021301,
 		target_num = 1,
@@ -1366,7 +1812,8 @@ pg.base.island_task_target = {
 	},
 	[100021311] = {
 		tips = "10010003",
-		name = "和梅利聊聊",
+		jump_ui = "",
+		name = "헤르모와 대화하기",
 		type = 1,
 		id = 100021311,
 		target_num = 1,
@@ -1376,7 +1823,8 @@ pg.base.island_task_target = {
 	},
 	[100021401] = {
 		tips = "10010040",
-		name = "去找赫莫",
+		jump_ui = "",
+		name = "헤르모를 찾으러 가기",
 		type = 1,
 		id = 100021401,
 		target_num = 1,
@@ -1386,7 +1834,8 @@ pg.base.island_task_target = {
 	},
 	[100021411] = {
 		tips = "",
-		name = "提升岛屿开发等级",
+		jump_ui = "",
+		name = "아일랜드 개발 등급 올리기",
 		type = 9,
 		id = 100021411,
 		target_num = 12,
@@ -1394,7 +1843,8 @@ pg.base.island_task_target = {
 	},
 	[100021501] = {
 		tips = "10090001",
-		name = "前往港口啾咖啡",
+		jump_ui = "",
+		name = "항구의 쥬카페로 이동",
 		type = 2,
 		id = 100021501,
 		target_num = 1,
@@ -1404,7 +1854,8 @@ pg.base.island_task_target = {
 	},
 	[100021601] = {
 		tips = "10090008",
-		name = "寻找布莱梅",
+		jump_ui = "",
+		name = "브레멘 찾기",
 		type = 1,
 		id = 100021601,
 		target_num = 1,
@@ -1414,7 +1865,8 @@ pg.base.island_task_target = {
 	},
 	[100021701] = {
 		tips = "10090008",
-		name = "制作欧姆蛋",
+		jump_ui = "",
+		name = "오믈렛 만들기",
 		type = 5,
 		id = 100021701,
 		target_num = 1,
@@ -1424,7 +1876,8 @@ pg.base.island_task_target = {
 	},
 	[100021801] = {
 		tips = "10020004",
-		name = "制作欧姆蛋",
+		jump_ui = "",
+		name = "오믈렛 만들기",
 		type = 4,
 		id = 100021801,
 		target_num = 1,
@@ -1434,7 +1887,8 @@ pg.base.island_task_target = {
 	},
 	[100021901] = {
 		tips = "10090008",
-		name = "回去问问布莱梅吧",
+		jump_ui = "",
+		name = "돌아가서 브레멘에게 물어보기",
 		type = 1,
 		id = 100021901,
 		target_num = 1,
@@ -1444,7 +1898,8 @@ pg.base.island_task_target = {
 	},
 	[100022001] = {
 		tips = "10090008",
-		name = "上架欧姆蛋",
+		jump_ui = "",
+		name = "오믈렛을 판매 목록에 추가",
 		type = 27,
 		id = 100022001,
 		target_num = 1,
@@ -1454,7 +1909,8 @@ pg.base.island_task_target = {
 	},
 	[100022101] = {
 		tips = "10090019",
-		name = "去和{namecode:98:明石}聊聊",
+		jump_ui = "",
+		name = "아카시와 대화하기",
 		type = 1,
 		id = 100022101,
 		target_num = 1,
@@ -1464,7 +1920,8 @@ pg.base.island_task_target = {
 	},
 	[100022111] = {
 		tips = "",
-		name = "提升岛屿开发等级",
+		jump_ui = "",
+		name = "아일랜드 개발 등급 올리기",
 		type = 9,
 		id = 100022111,
 		target_num = 15,
@@ -1472,7 +1929,8 @@ pg.base.island_task_target = {
 	},
 	[100022201] = {
 		tips = "10090020",
-		name = "去找{namecode:98:明石}",
+		jump_ui = "",
+		name = "아카시를 찾으러 가기",
 		type = 1,
 		id = 100022201,
 		target_num = 1,
@@ -1482,7 +1940,8 @@ pg.base.island_task_target = {
 	},
 	[100022301] = {
 		tips = "",
-		name = "码头长堤上的碎片",
+		jump_ui = "",
+		name = "부두의 긴 방파제에 있는 파편",
 		type = 10,
 		id = 100022301,
 		target_num = 1,
@@ -1492,7 +1951,8 @@ pg.base.island_task_target = {
 	},
 	[100022302] = {
 		tips = "",
-		name = "港口钓场里的碎片",
+		jump_ui = "",
+		name = "항구 낚시터에 있는 파편",
 		type = 10,
 		id = 100022302,
 		target_num = 1,
@@ -1502,7 +1962,8 @@ pg.base.island_task_target = {
 	},
 	[100022303] = {
 		tips = "",
-		name = "货运中心旁的碎片",
+		jump_ui = "",
+		name = "화물센터 옆에 있는 파편",
 		type = 10,
 		id = 100022303,
 		target_num = 1,
@@ -1512,7 +1973,8 @@ pg.base.island_task_target = {
 	},
 	[100022401] = {
 		tips = "",
-		name = "翠土林场里的碎片",
+		jump_ui = "",
+		name = "우거진 벌목장에 있는 파편",
 		type = 10,
 		id = 100022401,
 		target_num = 1,
@@ -1522,7 +1984,8 @@ pg.base.island_task_target = {
 	},
 	[100022402] = {
 		tips = "",
-		name = "沉石矿山上的碎片",
+		jump_ui = "",
+		name = "석암 광산에 있는 파편",
 		type = 10,
 		id = 100022402,
 		target_num = 1,
@@ -1532,7 +1995,8 @@ pg.base.island_task_target = {
 	},
 	[100022403] = {
 		tips = "",
-		name = "河边小屋旁的碎片",
+		jump_ui = "",
+		name = "강가 오두막 옆에 있는 파편",
 		type = 10,
 		id = 100022403,
 		target_num = 1,
@@ -1542,7 +2006,8 @@ pg.base.island_task_target = {
 	},
 	[100022404] = {
 		tips = "",
-		name = "原野站台后的碎片",
+		jump_ui = "",
+		name = "벌판 승강장 뒤에 있는 파편",
 		type = 10,
 		id = 100022404,
 		target_num = 1,
@@ -1552,7 +2017,8 @@ pg.base.island_task_target = {
 	},
 	[100022501] = {
 		tips = "",
-		name = "悠然牧场里的碎片",
+		jump_ui = "",
+		name = "한가로운 목장에 있는 파편",
 		type = 10,
 		id = 100022501,
 		target_num = 1,
@@ -1562,7 +2028,8 @@ pg.base.island_task_target = {
 	},
 	[100022502] = {
 		tips = "",
-		name = "农场磨坊旁的碎片",
+		jump_ui = "",
+		name = "농장 방앗간 옆에 있는 파편 ",
 		type = 10,
 		id = 100022502,
 		target_num = 1,
@@ -1572,7 +2039,8 @@ pg.base.island_task_target = {
 	},
 	[100022503] = {
 		tips = "",
-		name = "悠然牧场外的碎片",
+		jump_ui = "",
+		name = "한가로운 목장 밖에 있는 파편 ",
 		type = 10,
 		id = 100022503,
 		target_num = 1,
@@ -1582,7 +2050,8 @@ pg.base.island_task_target = {
 	},
 	[100022504] = {
 		tips = "",
-		name = "丰壤农田里的碎片",
+		jump_ui = "",
+		name = "비옥한 농지에 있는 파편",
 		type = 10,
 		id = 100022504,
 		target_num = 1,
@@ -1592,7 +2061,8 @@ pg.base.island_task_target = {
 	},
 	[100022505] = {
 		tips = "",
-		name = "牧场侧门外的碎片",
+		jump_ui = "",
+		name = "목장 쪽문 밖에 있는 파편",
 		type = 10,
 		id = 100022505,
 		target_num = 1,
@@ -1602,7 +2072,8 @@ pg.base.island_task_target = {
 	},
 	[100022511] = {
 		tips = "10090020",
-		name = "去找{namecode:98:明石}吧",
+		jump_ui = "",
+		name = "아카시가 있는 곳으로 가기",
 		type = 1,
 		id = 100022511,
 		target_num = 1,
@@ -1612,7 +2083,8 @@ pg.base.island_task_target = {
 	},
 	[100022601] = {
 		tips = "10020016",
-		name = "寻找{namecode:98:明石}的身影",
+		jump_ui = "",
+		name = "아카시 찾기",
 		type = 1,
 		id = 100022601,
 		target_num = 1,
@@ -1622,7 +2094,8 @@ pg.base.island_task_target = {
 	},
 	[100022701] = {
 		tips = "10030001",
-		name = "前往宝藏岛",
+		jump_ui = "",
+		name = "보물섬으로 이동",
 		type = 2,
 		id = 100022701,
 		target_num = 1,
@@ -1632,27 +2105,30 @@ pg.base.island_task_target = {
 	},
 	[100022711] = {
 		tips = "10030003",
-		name = "去找玛丽吧",
+		jump_ui = "",
+		name = "마리가 있는 곳으로 가기",
 		type = 1,
 		id = 100022711,
 		target_num = 1,
 		target_param = {
-			2502
+			7802
 		}
 	},
 	[100022801] = {
-		tips = "10030009",
-		name = "快跟上玛丽的脚步",
+		tips = "",
+		jump_ui = "",
+		name = "서둘러서 마리를 따라가기",
 		type = 2,
 		id = 100022801,
 		target_num = 1,
 		target_param = {
-			10030009
+			10030006
 		}
 	},
 	[100022901] = {
 		tips = "10030009",
-		name = "获取日常补给",
+		jump_ui = "",
+		name = "일상 보급 획득",
 		type = 13,
 		id = 100022901,
 		target_num = 1,
@@ -1660,7 +2136,8 @@ pg.base.island_task_target = {
 	},
 	[100023001] = {
 		tips = "10030008",
-		name = "寻找莉莎",
+		jump_ui = "",
+		name = "리사 찾기",
 		type = 1,
 		id = 100023001,
 		target_num = 1,
@@ -1670,7 +2147,8 @@ pg.base.island_task_target = {
 	},
 	[100023101] = {
 		tips = "10030008",
-		name = "搭建熊熊候车亭",
+		jump_ui = "",
+		name = "「곰곰 정류장」 배치",
 		type = 1,
 		id = 100023101,
 		target_num = 1,
@@ -1679,8 +2157,9 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023201] = {
-		tips = "10030008",
-		name = "拍摄自己的集会岛",
+		tips = "",
+		jump_ui = "19",
+		name = "나의 하모니섬 사진 찍기",
 		type = 43,
 		id = 100023201,
 		target_num = 1,
@@ -1689,8 +2168,9 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023301] = {
-		tips = "10030008",
-		name = "拍摄集会岛动物",
+		tips = "",
+		jump_ui = "19",
+		name = "하모니섬의 동물 사진 찍기",
 		type = 43,
 		id = 100023301,
 		target_num = 1,
@@ -1700,7 +2180,8 @@ pg.base.island_task_target = {
 	},
 	[100023401] = {
 		tips = "10040022",
-		name = "收集煤炭",
+		jump_ui = "",
+		name = "석탄 모으기",
 		type = 4,
 		id = 100023401,
 		target_num = 10,
@@ -1710,7 +2191,8 @@ pg.base.island_task_target = {
 	},
 	[100023402] = {
 		tips = "10040002",
-		name = "收集自然之木",
+		jump_ui = "",
+		name = "자연 목재 모으기",
 		type = 4,
 		id = 100023402,
 		target_num = 10,
@@ -1720,7 +2202,8 @@ pg.base.island_task_target = {
 	},
 	[100023501] = {
 		tips = "10030005",
-		name = "寻找神秘专家",
+		jump_ui = "",
+		name = "신비한 전문가 찾기",
 		type = 1,
 		id = 100023501,
 		target_num = 1,
@@ -1730,7 +2213,8 @@ pg.base.island_task_target = {
 	},
 	[100023601] = {
 		tips = "10030007",
-		name = "乘坐飞行器",
+		jump_ui = "",
+		name = "비행장치 탑승",
 		type = 1,
 		id = 100023601,
 		target_num = 1,
@@ -1740,7 +2224,8 @@ pg.base.island_task_target = {
 	},
 	[100023701] = {
 		tips = "10020009",
-		name = "去找帕特莉了解一下开发区情况",
+		jump_ui = "",
+		name = "패트리에게 상황 보고 듣기",
 		type = 2,
 		id = 100023701,
 		target_num = 1,
@@ -1750,7 +2235,8 @@ pg.base.island_task_target = {
 	},
 	[100023801] = {
 		tips = "",
-		name = "提升岛屿开发等级",
+		jump_ui = "",
+		name = "아일랜드 개발 등급 올리기",
 		type = 9,
 		id = 100023801,
 		target_num = 18,
@@ -1758,7 +2244,8 @@ pg.base.island_task_target = {
 	},
 	[100030101] = {
 		tips = "10020009",
-		name = "去找帕特莉",
+		jump_ui = "",
+		name = "패트리를 찾으러 가기",
 		type = 1,
 		id = 100030101,
 		target_num = 1,
@@ -1768,7 +2255,8 @@ pg.base.island_task_target = {
 	},
 	[100030111] = {
 		tips = "10060001",
-		name = "前往港口商区",
+		jump_ui = "",
+		name = "항구 상업 지구로 이동",
 		type = 2,
 		id = 100030111,
 		target_num = 1,
@@ -1778,7 +2266,8 @@ pg.base.island_task_target = {
 	},
 	[100030201] = {
 		tips = "10060002",
-		name = "寻找阿莫玛",
+		jump_ui = "",
+		name = "아모마 찾기",
 		type = 1,
 		id = 100030201,
 		target_num = 1,
@@ -1788,7 +2277,8 @@ pg.base.island_task_target = {
 	},
 	[100030301] = {
 		tips = "10060002",
-		name = "制作豆腐",
+		jump_ui = "",
+		name = "두부 제작",
 		type = 5,
 		id = 100030301,
 		target_num = 1,
@@ -1798,7 +2288,8 @@ pg.base.island_task_target = {
 	},
 	[100030401] = {
 		tips = "10060002",
-		name = "经营商区店铺",
+		jump_ui = "",
+		name = "상업 지구에서 가게 경영하기",
 		type = 1,
 		id = 100030401,
 		target_num = 1,
@@ -1808,7 +2299,8 @@ pg.base.island_task_target = {
 	},
 	[100030501] = {
 		tips = "10050001",
-		name = "抵达繁荫农圃",
+		jump_ui = "",
+		name = "그늘 농원에 도착",
 		type = 2,
 		id = 100030501,
 		target_num = 1,
@@ -1818,7 +2310,8 @@ pg.base.island_task_target = {
 	},
 	[100030511] = {
 		tips = "10050003",
-		name = "去前面看看",
+		jump_ui = "",
+		name = "앞쪽으로 가보기",
 		type = 1,
 		id = 100030511,
 		target_num = 1,
@@ -1828,7 +2321,8 @@ pg.base.island_task_target = {
 	},
 	[100030601] = {
 		tips = "10050034",
-		name = "收集蜂巢",
+		jump_ui = "",
+		name = "벌집 모으기",
 		type = 1,
 		id = 100030601,
 		target_num = 1,
@@ -1838,7 +2332,8 @@ pg.base.island_task_target = {
 	},
 	[100030701] = {
 		tips = "",
-		name = "收集蜂蜜",
+		jump_ui = "",
+		name = "꿀 얻기",
 		type = 5,
 		id = 100030701,
 		target_num = 1,
@@ -1848,7 +2343,8 @@ pg.base.island_task_target = {
 	},
 	[100030801] = {
 		tips = "10050010",
-		name = "种植苹果树",
+		jump_ui = "",
+		name = "사과나무 심기",
 		type = 14,
 		id = 100030801,
 		target_num = 1,
@@ -1858,7 +2354,8 @@ pg.base.island_task_target = {
 	},
 	[100030901] = {
 		tips = "10050010",
-		name = "收集苹果",
+		jump_ui = "",
+		name = "사과 수확",
 		type = 6,
 		id = 100030901,
 		target_num = 1,
@@ -1868,7 +2365,8 @@ pg.base.island_task_target = {
 	},
 	[100030911] = {
 		tips = "",
-		name = "收集苹果",
+		jump_ui = "",
+		name = "사과 모으기",
 		type = 4,
 		id = 100030911,
 		target_num = 1,
@@ -1877,8 +2375,9 @@ pg.base.island_task_target = {
 		}
 	},
 	[100031001] = {
-		tips = "10070004",
-		name = "研发草莓种植技术",
+		tips = "",
+		jump_ui = "12",
+		name = "「딸기 재배」 연구",
 		type = 8,
 		id = 100031001,
 		target_num = 1,
@@ -1888,7 +2387,8 @@ pg.base.island_task_target = {
 	},
 	[100031101] = {
 		tips = "",
-		name = "提升岛屿开发等级",
+		jump_ui = "",
+		name = "아일랜드 개발 등급 올리기",
 		type = 9,
 		id = 100031101,
 		target_num = 20,
@@ -1896,7 +2396,8 @@ pg.base.island_task_target = {
 	},
 	[100040101] = {
 		tips = "10070030",
-		name = "去找{namecode:98:明石}",
+		jump_ui = "",
+		name = "아카시를 찾으러 가기",
 		type = 1,
 		id = 100040101,
 		target_num = 1,
@@ -1906,7 +2407,8 @@ pg.base.island_task_target = {
 	},
 	[100040201] = {
 		tips = "10040022",
-		name = "收集煤炭",
+		jump_ui = "",
+		name = "석탄 모으기",
 		type = 4,
 		id = 100040201,
 		target_num = 10,
@@ -1916,7 +2418,8 @@ pg.base.island_task_target = {
 	},
 	[100040301] = {
 		tips = "10070031",
-		name = "去工厂看看",
+		jump_ui = "",
+		name = "공장 보러 가기",
 		type = 2,
 		id = 100040301,
 		target_num = 1,
@@ -1926,7 +2429,8 @@ pg.base.island_task_target = {
 	},
 	[200010011] = {
 		tips = "10040050",
-		name = "寻找会发出声音的东西……",
+		jump_ui = "",
+		name = "소리가 어디서 나는지 찾기",
 		type = 1,
 		id = 200010011,
 		target_num = 1,
@@ -1936,7 +2440,8 @@ pg.base.island_task_target = {
 	},
 	[200010021] = {
 		tips = "10040036",
-		name = "完成伐木",
+		jump_ui = "",
+		name = "벌목 완료",
 		type = 6,
 		id = 200010021,
 		target_num = 5,
@@ -1946,7 +2451,8 @@ pg.base.island_task_target = {
 	},
 	[200010031] = {
 		tips = "10040002",
-		name = "回去告诉奥布莱恩吧",
+		jump_ui = "",
+		name = "돌아가서 오브라이언에게 전하기",
 		type = 1,
 		id = 200010031,
 		target_num = 1,
@@ -1956,7 +2462,8 @@ pg.base.island_task_target = {
 	},
 	[200010041] = {
 		tips = "10040022",
-		name = "去沉石矿山看看发生了什么",
+		jump_ui = "",
+		name = "석암 광산에 가서 무슨 일이 일어났는지 확인하기",
 		type = 1,
 		id = 200010041,
 		target_num = 1,
@@ -1966,7 +2473,8 @@ pg.base.island_task_target = {
 	},
 	[200010051] = {
 		tips = "10040002",
-		name = "寻找适合做临时轨道的木头",
+		jump_ui = "",
+		name = "임시 레일로 쓸만한 목재 찾기",
 		type = 1,
 		id = 200010051,
 		target_num = 1,
@@ -1976,7 +2484,8 @@ pg.base.island_task_target = {
 	},
 	[200010061] = {
 		tips = "10040002",
-		name = "收集实用之木",
+		jump_ui = "",
+		name = "실용 목재 모으기",
 		type = 4,
 		id = 200010061,
 		target_num = 10,
@@ -1986,7 +2495,8 @@ pg.base.island_task_target = {
 	},
 	[200010071] = {
 		tips = "10040022",
-		name = "把木轨交给乔安吧",
+		jump_ui = "",
+		name = "레일을 조안에게 건네주기",
 		type = 1,
 		id = 200010071,
 		target_num = 1,
@@ -1996,7 +2506,8 @@ pg.base.island_task_target = {
 	},
 	[200010081] = {
 		tips = "10040022",
-		name = "收集铁矿 ",
+		jump_ui = "",
+		name = "철광석 모으기",
 		type = 4,
 		id = 200010081,
 		target_num = 10,
@@ -2006,7 +2517,8 @@ pg.base.island_task_target = {
 	},
 	[200010091] = {
 		tips = "10040056",
-		name = "寻找唱下工歌曲的神秘朋友",
+		jump_ui = "",
+		name = "노래하는 사람 찾기",
 		type = 2,
 		id = 200010091,
 		target_num = 1,
@@ -2016,7 +2528,8 @@ pg.base.island_task_target = {
 	},
 	[200020011] = {
 		tips = "10020018",
-		name = "去港口远点看看",
+		jump_ui = "",
+		name = "부두 끝을 살펴보러 가기",
 		type = 1,
 		id = 200020011,
 		target_num = 1,
@@ -2026,7 +2539,8 @@ pg.base.island_task_target = {
 	},
 	[200020021] = {
 		tips = "10020004",
-		name = "找斯蒂芬妮寻求灵感",
+		jump_ui = "",
+		name = "스테파니에게 영감 구하기",
 		type = 1,
 		id = 200020021,
 		target_num = 1,
@@ -2036,7 +2550,8 @@ pg.base.island_task_target = {
 	},
 	[200020031] = {
 		tips = "10090008",
-		name = "向布莱梅寻求建议",
+		jump_ui = "",
+		name = "브레멘에게 조언 구하기",
 		type = 1,
 		id = 200020031,
 		target_num = 1,
@@ -2046,7 +2561,8 @@ pg.base.island_task_target = {
 	},
 	[200020041] = {
 		tips = "10010003",
-		name = "收集制作画笔的羊毛",
+		jump_ui = "",
+		name = "화필 제작용 양모 수집",
 		type = 4,
 		id = 200020041,
 		target_num = 5,
@@ -2056,7 +2572,8 @@ pg.base.island_task_target = {
 	},
 	[200020051] = {
 		tips = "10040002",
-		name = "收集制作画框的典雅之木",
+		jump_ui = "",
+		name = "액자 제작용 우아한 목재 수집",
 		type = 4,
 		id = 200020051,
 		target_num = 4,
@@ -2066,7 +2583,8 @@ pg.base.island_task_target = {
 	},
 	[200020061] = {
 		tips = "10020009",
-		name = "把画框带给帕特莉吧",
+		jump_ui = "",
+		name = "액자를 패트릭에게 가져다 주기",
 		type = 1,
 		id = 200020061,
 		target_num = 1,
@@ -2076,7 +2594,8 @@ pg.base.island_task_target = {
 	},
 	[200030011] = {
 		tips = "10090008",
-		name = "去告诉布莱梅吧",
+		jump_ui = "",
+		name = "브레멘에게 전하러 가기",
 		type = 1,
 		id = 200030011,
 		target_num = 1,
@@ -2086,7 +2605,8 @@ pg.base.island_task_target = {
 	},
 	[200030021] = {
 		tips = "10040022",
-		name = "收集铝矿",
+		jump_ui = "",
+		name = "알루미늄 광석 모으기",
 		type = 4,
 		id = 200030021,
 		target_num = 10,
@@ -2096,7 +2616,8 @@ pg.base.island_task_target = {
 	},
 	[200030031] = {
 		tips = "10020019",
-		name = "到货运中心寻找订购的零件",
+		jump_ui = "",
+		name = "화물센터에서 주문한 부품 찾기",
 		type = 1,
 		id = 200030031,
 		target_num = 1,
@@ -2106,7 +2627,8 @@ pg.base.island_task_target = {
 	},
 	[200030041] = {
 		tips = "10070011",
-		name = "将电力系统装到岛屿基地的服务器里",
+		jump_ui = "",
+		name = "전력 시스템을 서버에 설치하기",
 		type = 1,
 		id = 200030041,
 		target_num = 1,
@@ -2116,7 +2638,8 @@ pg.base.island_task_target = {
 	},
 	[200040000] = {
 		tips = "",
-		name = "提升岛屿开发等级",
+		jump_ui = "",
+		name = "아일랜드 개발 등급 올리기",
 		type = 9,
 		id = 200040000,
 		target_num = 29,
@@ -2124,7 +2647,8 @@ pg.base.island_task_target = {
 	},
 	[200040011] = {
 		tips = "10090008",
-		name = "去找布莱梅咨询餐品创作要诀吧",
+		jump_ui = "",
+		name = "브레멘에게 가서 요리 창작 비결 물어보기",
 		type = 1,
 		id = 200040011,
 		target_num = 1,
@@ -2134,7 +2658,8 @@ pg.base.island_task_target = {
 	},
 	[200040021] = {
 		tips = "10090008",
-		name = "研发并制作出胡萝卜厚蛋烧",
+		jump_ui = "",
+		name = "두꺼운 당근 계란말이 제작",
 		type = 4,
 		id = 200040021,
 		target_num = 1,
@@ -2144,7 +2669,8 @@ pg.base.island_task_target = {
 	},
 	[200040031] = {
 		tips = "10060002",
-		name = "去找阿莫玛吧",
+		jump_ui = "",
+		name = "아모마가 있는 곳으로 가기",
 		type = 1,
 		id = 200040031,
 		target_num = 1,
@@ -2154,7 +2680,8 @@ pg.base.island_task_target = {
 	},
 	[200050011] = {
 		tips = "10010040",
-		name = "询问农田管理员赫莫",
+		jump_ui = "",
+		name = "농장 관리자 헤르모에게 물어보기",
 		type = 1,
 		id = 200050011,
 		target_num = 1,
@@ -2164,7 +2691,8 @@ pg.base.island_task_target = {
 	},
 	[200050021] = {
 		tips = "10010069",
-		name = "去森林查看情况",
+		jump_ui = "",
+		name = "숲으로 가서 상황 확인",
 		type = 2,
 		id = 200050021,
 		target_num = 1,
@@ -2174,7 +2702,8 @@ pg.base.island_task_target = {
 	},
 	[200050031] = {
 		tips = "10010040",
-		name = "去告诉赫莫吧",
+		jump_ui = "",
+		name = "숲으로 가서 상황 확인",
 		type = 1,
 		id = 200050031,
 		target_num = 1,
@@ -2184,7 +2713,8 @@ pg.base.island_task_target = {
 	},
 	[200050041] = {
 		tips = "10010003",
-		name = "询问牧场管理员梅莉",
+		jump_ui = "",
+		name = "목장 관리자 메리에게 물어보기",
 		type = 1,
 		id = 200050041,
 		target_num = 1,
@@ -2194,7 +2724,8 @@ pg.base.island_task_target = {
 	},
 	[200050051] = {
 		tips = "10010070",
-		name = "去工具房查看情况",
+		jump_ui = "",
+		name = "도구 창고에서 상황 확인",
 		type = 1,
 		id = 200050051,
 		target_num = 1,
@@ -2204,7 +2735,8 @@ pg.base.island_task_target = {
 	},
 	[200050061] = {
 		tips = "10010041",
-		name = "去找奥林匹克吧",
+		jump_ui = "",
+		name = "올림픽이 있는 곳으로 가기",
 		type = 1,
 		id = 200050061,
 		target_num = 1,
@@ -2214,7 +2746,8 @@ pg.base.island_task_target = {
 	},
 	[200050071] = {
 		tips = "10010071",
-		name = "巡视牧场查看情况",
+		jump_ui = "",
+		name = "목장을 순찰하며 상황 확인",
 		type = 2,
 		id = 200050071,
 		target_num = 1,
@@ -2224,7 +2757,8 @@ pg.base.island_task_target = {
 	},
 	[200050081] = {
 		tips = "10010072",
-		name = "巡视牧场查看情况",
+		jump_ui = "",
+		name = "목장을 순찰하며 상황 확인",
 		type = 2,
 		id = 200050081,
 		target_num = 1,
@@ -2234,7 +2768,8 @@ pg.base.island_task_target = {
 	},
 	[200050091] = {
 		tips = "10010073",
-		name = "巡视牧场查看情况",
+		jump_ui = "",
+		name = "목장을 순찰하며 상황 확인",
 		type = 1,
 		id = 200050091,
 		target_num = 1,
@@ -2244,7 +2779,8 @@ pg.base.island_task_target = {
 	},
 	[200060011] = {
 		tips = "10010075",
-		name = "跟梅莉去咩咩羊喜欢去的地方看看",
+		jump_ui = "",
+		name = "메리와 함께 양들이 좋아하는 곳 보러 가기",
 		type = 1,
 		id = 200060011,
 		target_num = 1,
@@ -2254,7 +2790,8 @@ pg.base.island_task_target = {
 	},
 	[200060021] = {
 		tips = "10010076",
-		name = "跟着脚印一路调查下去",
+		jump_ui = "",
+		name = "발자국을 따라 조사",
 		type = 1,
 		id = 200060021,
 		target_num = 1,
@@ -2264,7 +2801,8 @@ pg.base.island_task_target = {
 	},
 	[200060031] = {
 		tips = "10010077",
-		name = "跟着痕迹过去看看",
+		jump_ui = "",
+		name = "흔적을 따라가기",
 		type = 2,
 		id = 200060031,
 		target_num = 1,
@@ -2274,7 +2812,8 @@ pg.base.island_task_target = {
 	},
 	[200060041] = {
 		tips = "10010074",
-		name = "抓住咩咩羊",
+		jump_ui = "",
+		name = "메메양 잡기",
 		type = 1,
 		id = 200060041,
 		target_num = 1,
@@ -2284,7 +2823,8 @@ pg.base.island_task_target = {
 	},
 	[200060051] = {
 		tips = "10010040",
-		name = "询问赫莫羊群的位置",
+		jump_ui = "",
+		name = "헤르모에게 양떼 위치 물어보기",
 		type = 1,
 		id = 200060051,
 		target_num = 1,
@@ -2294,7 +2834,8 @@ pg.base.island_task_target = {
 	},
 	[200060061] = {
 		tips = "10010081",
-		name = "去往羊群的方向",
+		jump_ui = "",
+		name = "양떼가 있는 방향으로 가기",
 		type = 2,
 		id = 200060061,
 		target_num = 1,
@@ -2304,7 +2845,8 @@ pg.base.island_task_target = {
 	},
 	[200060071] = {
 		tips = "10010078",
-		name = "牵上所有羊",
+		jump_ui = "",
+		name = "양을 모두 끌어오기",
 		type = 1,
 		id = 200060071,
 		target_num = 1,
@@ -2314,7 +2856,8 @@ pg.base.island_task_target = {
 	},
 	[200060072] = {
 		tips = "10010079",
-		name = "牵上所有羊",
+		jump_ui = "",
+		name = "양을 모두 끌어오기",
 		type = 1,
 		id = 200060072,
 		target_num = 1,
@@ -2324,7 +2867,8 @@ pg.base.island_task_target = {
 	},
 	[200060073] = {
 		tips = "10010080",
-		name = "牵上所有羊",
+		jump_ui = "",
+		name = "양을 모두 끌어오기",
 		type = 1,
 		id = 200060073,
 		target_num = 1,
@@ -2334,7 +2878,8 @@ pg.base.island_task_target = {
 	},
 	[200060081] = {
 		tips = "10010003",
-		name = "去找梅莉吧",
+		jump_ui = "",
+		name = "메리가 있는 곳으로 가기",
 		type = 1,
 		id = 200060081,
 		target_num = 1,
@@ -2344,7 +2889,8 @@ pg.base.island_task_target = {
 	},
 	[200060091] = {
 		tips = "10040002",
-		name = "收集自然之木",
+		jump_ui = "",
+		name = "자연 목재 모으기",
 		type = 4,
 		id = 200060091,
 		target_num = 10,
@@ -2354,7 +2900,8 @@ pg.base.island_task_target = {
 	},
 	[200070011] = {
 		tips = "10040057",
-		name = "拆除附近的蜂巢",
+		jump_ui = "",
+		name = "근처에 있는 벌집 제거",
 		type = 1,
 		id = 200070011,
 		target_num = 1,
@@ -2364,7 +2911,8 @@ pg.base.island_task_target = {
 	},
 	[200070021] = {
 		tips = "10020026",
-		name = "拆除港口的蜂巢",
+		jump_ui = "",
+		name = "항구에 있는 벌집 제거",
 		type = 1,
 		id = 200070021,
 		target_num = 1,
@@ -2374,7 +2922,8 @@ pg.base.island_task_target = {
 	},
 	[200070031] = {
 		tips = "10010082",
-		name = "拆除农场的蜂巢",
+		jump_ui = "",
+		name = "농장에 있는 벌집 제거",
 		type = 1,
 		id = 200070031,
 		target_num = 1,
@@ -2384,7 +2933,8 @@ pg.base.island_task_target = {
 	},
 	[200070041] = {
 		tips = "10090008",
-		name = "向布莱梅询问蜂蜜水配方",
+		jump_ui = "",
+		name = "브레멘에게 꿀물 레시피 물어보기",
 		type = 1,
 		id = 200070041,
 		target_num = 1,
@@ -2394,7 +2944,8 @@ pg.base.island_task_target = {
 	},
 	[200070051] = {
 		tips = "10060030",
-		name = "前往商业街，找到配方",
+		jump_ui = "",
+		name = "상업 지구로 가서 레시피 찾기",
 		type = 1,
 		id = 200070051,
 		target_num = 1,
@@ -2404,7 +2955,8 @@ pg.base.island_task_target = {
 	},
 	[200070061] = {
 		tips = "10050002",
-		name = "收集新鲜的柠檬",
+		jump_ui = "",
+		name = "신선한 레몬 얻기",
 		type = 4,
 		id = 200070061,
 		target_num = 3,
@@ -2414,7 +2966,8 @@ pg.base.island_task_target = {
 	},
 	[200070062] = {
 		tips = "",
-		name = "收集新鲜的蜂蜜",
+		jump_ui = "",
+		name = "신선한 꿀 얻기",
 		type = 4,
 		id = 200070062,
 		target_num = 3,
@@ -2424,7 +2977,8 @@ pg.base.island_task_target = {
 	},
 	[200070071] = {
 		tips = "10060002",
-		name = "去问问阿莫玛哪里有迷迭香吧",
+		jump_ui = "",
+		name = "아모마에게 로즈메리에 대해 묻기",
 		type = 1,
 		id = 200070071,
 		target_num = 1,
@@ -2434,7 +2988,8 @@ pg.base.island_task_target = {
 	},
 	[200070081] = {
 		tips = "10060031",
-		name = "去有鱼餐馆寻找迷迭香吧",
+		jump_ui = "",
+		name = "유어 레스토랑에서 로즈메리 찾기",
 		type = 1,
 		id = 200070081,
 		target_num = 1,
@@ -2444,7 +2999,8 @@ pg.base.island_task_target = {
 	},
 	[200070091] = {
 		tips = "10090008",
-		name = "去把食材都交给布莱梅吧",
+		jump_ui = "",
+		name = "식재료를 모두 브레멘에게 전달하기",
 		type = 1,
 		id = 200070091,
 		target_num = 1,
@@ -2454,7 +3010,8 @@ pg.base.island_task_target = {
 	},
 	[200070101] = {
 		tips = "10040057",
-		name = "将蜂蜜水送给无名氏",
+		jump_ui = "",
+		name = "수수께끼의 존재에게 꿀물 전달하기",
 		type = 1,
 		id = 200070101,
 		target_num = 1,
@@ -2464,7 +3021,8 @@ pg.base.island_task_target = {
 	},
 	[200080011] = {
 		tips = "10020004",
-		name = "找斯蒂芬妮查看情况",
+		jump_ui = "",
+		name = "패트리의 의뢰 확인",
 		type = 1,
 		id = 200080011,
 		target_num = 1,
@@ -2474,7 +3032,8 @@ pg.base.island_task_target = {
 	},
 	[200080021] = {
 		tips = "10040002",
-		name = "收集自然之木",
+		jump_ui = "",
+		name = "자연 목재 모으기",
 		type = 4,
 		id = 200080021,
 		target_num = 10,
@@ -2484,7 +3043,8 @@ pg.base.island_task_target = {
 	},
 	[200080031] = {
 		tips = "10040022",
-		name = "收集煤炭",
+		jump_ui = "",
+		name = "석탄 모으기",
 		type = 4,
 		id = 200080031,
 		target_num = 10,
@@ -2494,7 +3054,8 @@ pg.base.island_task_target = {
 	},
 	[200080041] = {
 		tips = "10020009",
-		name = "找帕特莉完成订单",
+		jump_ui = "",
+		name = "패트리를 만나 의뢰 완료하기",
 		type = 1,
 		id = 200080041,
 		target_num = 1,
@@ -2504,7 +3065,8 @@ pg.base.island_task_target = {
 	},
 	[200090011] = {
 		tips = "10040059",
-		name = "去矿场旁等待神秘人吧",
+		jump_ui = "",
+		name = "광산 옆에서 기다리기",
 		type = 2,
 		id = 200090011,
 		target_num = 1,
@@ -2514,7 +3076,8 @@ pg.base.island_task_target = {
 	},
 	[200090021] = {
 		tips = "10040002",
-		name = "把矿石送到奥布莱恩那里吧",
+		jump_ui = "",
+		name = "광석을 오브라이언에게 가져다 주기",
 		type = 1,
 		id = 200090021,
 		target_num = 1,
@@ -2524,7 +3087,8 @@ pg.base.island_task_target = {
 	},
 	[200090031] = {
 		tips = "10020029",
-		name = "把矿石送到{namecode:98:明石}那里吧",
+		jump_ui = "",
+		name = "광석을 아카시에게 가져다 주기",
 		type = 1,
 		id = 200090031,
 		target_num = 1,
@@ -2534,7 +3098,8 @@ pg.base.island_task_target = {
 	},
 	[200090041] = {
 		tips = "10020004",
-		name = "回斯蒂芬妮那里完成委托吧",
+		jump_ui = "",
+		name = "스테파니에게 돌아가기",
 		type = 1,
 		id = 200090041,
 		target_num = 1,
@@ -2544,7 +3109,8 @@ pg.base.island_task_target = {
 	},
 	[200100011] = {
 		tips = "10010041",
-		name = "去和奥林匹克一起商量对策",
+		jump_ui = "",
+		name = "올림픽과 대책을 의논하기",
 		type = 1,
 		id = 200100011,
 		target_num = 1,
@@ -2554,7 +3120,8 @@ pg.base.island_task_target = {
 	},
 	[200100021] = {
 		tips = "10020004",
-		name = "问问斯蒂芬妮吧",
+		jump_ui = "",
+		name = "스테파니에게 물어보기",
 		type = 1,
 		id = 200100021,
 		target_num = 1,
@@ -2564,7 +3131,8 @@ pg.base.island_task_target = {
 	},
 	[200100031] = {
 		tips = "10090008",
-		name = "找布莱梅帮忙",
+		jump_ui = "",
+		name = "브레멘에게 도와달라고 하기",
 		type = 1,
 		id = 200100031,
 		target_num = 1,
@@ -2574,7 +3142,8 @@ pg.base.island_task_target = {
 	},
 	[200100041] = {
 		tips = "10090008",
-		name = "回去找布莱梅",
+		jump_ui = "",
+		name = "브레멘에게 돌아가기",
 		type = 1,
 		id = 200100041,
 		target_num = 1,
@@ -2584,7 +3153,8 @@ pg.base.island_task_target = {
 	},
 	[200100051] = {
 		tips = "10010040",
-		name = "找赫莫帮忙",
+		jump_ui = "",
+		name = "헤르모에게 도와달라고 하기",
 		type = 1,
 		id = 200100051,
 		target_num = 1,
@@ -2594,7 +3164,8 @@ pg.base.island_task_target = {
 	},
 	[200100061] = {
 		tips = "10010041",
-		name = "找奥林匹克帮忙",
+		jump_ui = "",
+		name = "올림픽에게 도와달라고 하기",
 		type = 1,
 		id = 200100061,
 		target_num = 1,
@@ -2604,7 +3175,8 @@ pg.base.island_task_target = {
 	},
 	[200100071] = {
 		tips = "10010003",
-		name = "收集鸡蛋",
+		jump_ui = "",
+		name = "달걀 수집",
 		type = 4,
 		id = 200100071,
 		target_num = 5,
@@ -2614,7 +3186,8 @@ pg.base.island_task_target = {
 	},
 	[200100081] = {
 		tips = "10020009",
-		name = "将能量特调带给帕特莉",
+		jump_ui = "",
+		name = "에너지 드링크를 패트리에게 주기",
 		type = 1,
 		id = 200100081,
 		target_num = 1,
@@ -2624,7 +3197,8 @@ pg.base.island_task_target = {
 	},
 	[200110011] = {
 		tips = "10090008",
-		name = "去啾咖啡问问布莱梅吧",
+		jump_ui = "",
+		name = "쥬카페에 가서 브레멘의 이야기를 듣기",
 		type = 1,
 		id = 200110011,
 		target_num = 1,
@@ -2634,7 +3208,8 @@ pg.base.island_task_target = {
 	},
 	[200110021] = {
 		tips = "10020028",
-		name = "去码头看看。",
+		jump_ui = "",
+		name = "부두에 살펴보러 가기",
 		type = 2,
 		id = 200110021,
 		target_num = 1,
@@ -2644,7 +3219,8 @@ pg.base.island_task_target = {
 	},
 	[200110031] = {
 		tips = "10060002",
-		name = "去找阿莫玛吧。",
+		jump_ui = "",
+		name = "아모마가 있는 곳으로 가기",
 		type = 1,
 		id = 200110031,
 		target_num = 1,
@@ -2654,7 +3230,8 @@ pg.base.island_task_target = {
 	},
 	[200110041] = {
 		tips = "10040002",
-		name = "收集自然之木",
+		jump_ui = "",
+		name = "자연 목재 수집",
 		type = 4,
 		id = 200110041,
 		target_num = 5,
@@ -2664,7 +3241,8 @@ pg.base.island_task_target = {
 	},
 	[200110042] = {
 		tips = "10040022",
-		name = "收集铁矿",
+		jump_ui = "",
+		name = "철광석 모으기",
 		type = 4,
 		id = 200110042,
 		target_num = 5,
@@ -2674,7 +3252,8 @@ pg.base.island_task_target = {
 	},
 	[200110051] = {
 		tips = "10010003",
-		name = "收集禽肉",
+		jump_ui = "",
+		name = "닭고기 수집",
 		type = 4,
 		id = 200110051,
 		target_num = 5,
@@ -2684,7 +3263,8 @@ pg.base.island_task_target = {
 	},
 	[200110052] = {
 		tips = "10010003",
-		name = "收集牛奶",
+		jump_ui = "",
+		name = "우유 수집",
 		type = 4,
 		id = 200110052,
 		target_num = 5,
@@ -2694,7 +3274,8 @@ pg.base.island_task_target = {
 	},
 	[200120011] = {
 		tips = "10010040",
-		name = "向赫莫借一个修枝剪",
+		jump_ui = "",
+		name = "헤르모에게 전지가위 1개 빌리기",
 		type = 1,
 		id = 200120011,
 		target_num = 1,
@@ -2704,7 +3285,8 @@ pg.base.island_task_target = {
 	},
 	[200120021] = {
 		tips = "10050002",
-		name = "回去交给露西吧",
+		jump_ui = "",
+		name = "돌아가서 루시에게 건네주기",
 		type = 1,
 		id = 200120021,
 		target_num = 1,
@@ -2714,7 +3296,8 @@ pg.base.island_task_target = {
 	},
 	[200120031] = {
 		tips = "10050002",
-		name = "回去交给露西吧",
+		jump_ui = "",
+		name = "돌아가서 루시에게 건네주기",
 		type = 1,
 		id = 200120031,
 		target_num = 1,
@@ -2724,7 +3307,8 @@ pg.base.island_task_target = {
 	},
 	[200120041] = {
 		tips = "10050036",
-		name = "帮露西给土壤施肥",
+		jump_ui = "",
+		name = "루시가 비료를 뿌리는 것을 도와주기",
 		type = 1,
 		id = 200120041,
 		target_num = 1,
@@ -2734,7 +3318,8 @@ pg.base.island_task_target = {
 	},
 	[200120051] = {
 		tips = "10050002",
-		name = "收获柑橘",
+		jump_ui = "",
+		name = "귤 수확",
 		type = 4,
 		id = 200120051,
 		target_num = 5,
@@ -2744,7 +3329,8 @@ pg.base.island_task_target = {
 	},
 	[200120061] = {
 		tips = "10090008",
-		name = "将柑橘交给布莱梅吧",
+		jump_ui = "",
+		name = "귤을 브레멘에게 건네주기",
 		type = 1,
 		id = 200120061,
 		target_num = 1,
@@ -2754,7 +3340,8 @@ pg.base.island_task_target = {
 	},
 	[200120071] = {
 		tips = "10050002",
-		name = "将柑橘咖啡带给露西",
+		jump_ui = "",
+		name = "시트러스 커피를 루시에게 가져다 주기",
 		type = 1,
 		id = 200120071,
 		target_num = 1,
@@ -2764,7 +3351,8 @@ pg.base.island_task_target = {
 	},
 	[200120081] = {
 		tips = "10020009",
-		name = "向帕特莉确认订单数量",
+		jump_ui = "",
+		name = "패트리에게 주문 수량 확인",
 		type = 1,
 		id = 200120081,
 		target_num = 1,
@@ -2774,7 +3362,8 @@ pg.base.island_task_target = {
 	},
 	[200120091] = {
 		tips = "10050002",
-		name = "将防虫剂带给露西",
+		jump_ui = "",
+		name = "방충제를 루시에게 가져다 주기",
 		type = 1,
 		id = 200120091,
 		target_num = 1,
@@ -2784,7 +3373,8 @@ pg.base.island_task_target = {
 	},
 	[200120101] = {
 		tips = "10050037",
-		name = "给果树施加防虫剂",
+		jump_ui = "",
+		name = "과수에 방충제 살포",
 		type = 1,
 		id = 200120101,
 		target_num = 1,
@@ -2794,7 +3384,8 @@ pg.base.island_task_target = {
 	},
 	[200130000] = {
 		tips = "",
-		name = "提升岛屿开发等级",
+		jump_ui = "",
+		name = "아일랜드 개발 등급 올리기",
 		type = 9,
 		id = 200130000,
 		target_num = 22,
@@ -2802,7 +3393,8 @@ pg.base.island_task_target = {
 	},
 	[200130011] = {
 		tips = "10020004",
-		name = "询问斯蒂芬妮",
+		jump_ui = "",
+		name = "스테파니에게 물어보기",
 		type = 1,
 		id = 200130011,
 		target_num = 1,
@@ -2812,7 +3404,8 @@ pg.base.island_task_target = {
 	},
 	[200130021] = {
 		tips = "10050003",
-		name = "回去找拉科尼娅",
+		jump_ui = "",
+		name = "라코니아에게 돌아가기",
 		type = 1,
 		id = 200130021,
 		target_num = 1,
@@ -2822,7 +3415,8 @@ pg.base.island_task_target = {
 	},
 	[200130031] = {
 		tips = "10020009",
-		name = "找帕特莉重新订购肥料",
+		jump_ui = "",
+		name = "패트리에게 가서 다시 주문하기",
 		type = 1,
 		id = 200130031,
 		target_num = 1,
@@ -2832,7 +3426,8 @@ pg.base.island_task_target = {
 	},
 	[200130041] = {
 		tips = "10020030",
-		name = "前往港口货运中心寻找肥料",
+		jump_ui = "",
+		name = "항구 화물센터로 가서 비료 찾기",
 		type = 1,
 		id = 200130041,
 		target_num = 1,
@@ -2842,7 +3437,8 @@ pg.base.island_task_target = {
 	},
 	[200130051] = {
 		tips = "10050003",
-		name = "将肥料交给拉科尼娅",
+		jump_ui = "",
+		name = "비료를 라코니아에게 건네주기",
 		type = 1,
 		id = 200130051,
 		target_num = 1,
@@ -2852,7 +3448,8 @@ pg.base.island_task_target = {
 	},
 	[200130061] = {
 		tips = "10050003",
-		name = "在苗圃中委派种植薰衣草",
+		jump_ui = "",
+		name = "동료를 배치해서 모밭에 라벤더 심기",
 		type = 7,
 		id = 200130061,
 		target_num = 1,
@@ -2862,7 +3459,8 @@ pg.base.island_task_target = {
 	},
 	[200130071] = {
 		tips = "10050003",
-		name = "收集薰衣草",
+		jump_ui = "",
+		name = "라벤더 모으기",
 		type = 4,
 		id = 200130071,
 		target_num = 1,
@@ -2872,7 +3470,8 @@ pg.base.island_task_target = {
 	},
 	[200130081] = {
 		tips = "10020009",
-		name = "将打包好的薰衣草包裹交给帕特莉",
+		jump_ui = "",
+		name = "포장된 라벤더를 패트리에게 건네주기",
 		type = 1,
 		id = 200130081,
 		target_num = 1,
@@ -2882,7 +3481,8 @@ pg.base.island_task_target = {
 	},
 	[200140011] = {
 		tips = "",
-		name = "寻找岛上各处失落的地图残片-1",
+		jump_ui = "",
+		name = "섬 곳곳에 흩어진 지도 조각 찾기 - 1",
 		type = 4,
 		id = 200140011,
 		target_num = 1,
@@ -2892,7 +3492,8 @@ pg.base.island_task_target = {
 	},
 	[200140012] = {
 		tips = "",
-		name = "寻找岛上各处失落的地图残片-2",
+		jump_ui = "",
+		name = "섬 곳곳에 흩어진 지도 조각 찾기 - 2",
 		type = 4,
 		id = 200140012,
 		target_num = 1,
@@ -2902,7 +3503,8 @@ pg.base.island_task_target = {
 	},
 	[200140013] = {
 		tips = "",
-		name = "寻找岛上各处失落的地图残片-3",
+		jump_ui = "",
+		name = "섬 곳곳에 흩어진 지도 조각 찾기 - 3",
 		type = 4,
 		id = 200140013,
 		target_num = 1,
@@ -2912,7 +3514,8 @@ pg.base.island_task_target = {
 	},
 	[200140014] = {
 		tips = "",
-		name = "寻找岛上各处失落的地图残片-4",
+		jump_ui = "",
+		name = "섬 곳곳에 흩어진 지도 조각 찾기 - 4",
 		type = 4,
 		id = 200140014,
 		target_num = 1,
@@ -2922,7 +3525,8 @@ pg.base.island_task_target = {
 	},
 	[200140015] = {
 		tips = "",
-		name = "寻找岛上各处失落的地图残片-5",
+		jump_ui = "",
+		name = "섬 곳곳에 흩어진 지도 조각 찾기 - 5",
 		type = 4,
 		id = 200140015,
 		target_num = 1,
@@ -2932,7 +3536,8 @@ pg.base.island_task_target = {
 	},
 	[200140021] = {
 		tips = "10040051",
-		name = "去地图上标记的地方寻找秘宝吧",
+		jump_ui = "",
+		name = "지도에 표시된 곳으로 가서 보물 찾기",
 		type = 2,
 		id = 200140021,
 		target_num = 1,
@@ -2942,7 +3547,8 @@ pg.base.island_task_target = {
 	},
 	[200140031] = {
 		tips = "10040051",
-		name = "将地面挖开看看",
+		jump_ui = "",
+		name = "땅을 파서 확인하기",
 		type = 1,
 		id = 200140031,
 		target_num = 1,
@@ -2952,7 +3558,8 @@ pg.base.island_task_target = {
 	},
 	[200150011] = {
 		tips = "",
-		name = "获取开发商店中的装扮",
+		jump_ui = "11",
+		name = "시즌 상점의 스킨 획득",
 		type = 44,
 		id = 200150011,
 		target_num = 1,
@@ -2962,8 +3569,9 @@ pg.base.island_task_target = {
 	},
 	[200150021] = {
 		tips = "",
-		name = "完成开发季活动计划",
-		type = 23,
+		jump_ui = "",
+		name = "시즌 계획 완수하기",
+		type = 24,
 		id = 200150021,
 		target_num = 5,
 		target_param = {
@@ -2972,7 +3580,8 @@ pg.base.island_task_target = {
 	},
 	[301010011] = {
 		tips = "",
-		name = "手动采集任意矿石和木材",
+		jump_ui = "",
+		name = "수동으로 목재나 광물 채집",
 		type = 6,
 		id = 301010011,
 		target_num = 4,
@@ -2991,7 +3600,8 @@ pg.base.island_task_target = {
 	},
 	[302010011] = {
 		tips = "",
-		name = "委派生产任意资材",
+		jump_ui = "8",
+		name = "자원 생산 슬롯에 동료 배치",
 		type = 7,
 		id = 302010011,
 		target_num = 1,
@@ -3000,8 +3610,9 @@ pg.base.island_task_target = {
 		}
 	},
 	[303010011] = {
-		tips = "10020004",
-		name = "完成任意货运委托",
+		tips = "",
+		jump_ui = "7",
+		name = "운송 의뢰 1회 완료",
 		type = 12,
 		id = 303010011,
 		target_num = 1,
@@ -3010,8 +3621,9 @@ pg.base.island_task_target = {
 		}
 	},
 	[304010011] = {
-		tips = "10020009",
-		name = "交付任意岛屿订单",
+		tips = "",
+		jump_ui = "6",
+		name = "아일랜드 의뢰 1회 처리",
 		type = 3,
 		id = 304010011,
 		target_num = 1,
@@ -3021,7 +3633,8 @@ pg.base.island_task_target = {
 	},
 	[305010011] = {
 		tips = "10020009",
-		name = "去找帕特莉吧",
+		jump_ui = "",
+		name = "패트리를 찾으러 가기",
 		type = 1,
 		id = 305010011,
 		target_num = 1,
@@ -3031,7 +3644,8 @@ pg.base.island_task_target = {
 	},
 	[305010021] = {
 		tips = "10040002",
-		name = "去找奥布莱恩吧",
+		jump_ui = "",
+		name = "오브라이언을 찾으러 가기",
 		type = 1,
 		id = 305010021,
 		target_num = 1,
@@ -3041,7 +3655,8 @@ pg.base.island_task_target = {
 	},
 	[305010022] = {
 		tips = "10010003",
-		name = "去找梅莉吧",
+		jump_ui = "",
+		name = "메리가 있는 곳으로 가기",
 		type = 1,
 		id = 305010022,
 		target_num = 1,
@@ -3051,7 +3666,8 @@ pg.base.island_task_target = {
 	},
 	[305010023] = {
 		tips = "10030008",
-		name = "去找莉莎吧",
+		jump_ui = "",
+		name = "리사와 대화하기",
 		type = 1,
 		id = 305010023,
 		target_num = 1,
@@ -3061,7 +3677,8 @@ pg.base.island_task_target = {
 	},
 	[305010111] = {
 		tips = "10020009",
-		name = "去找帕特莉吧",
+		jump_ui = "",
+		name = "패트리를 찾으러 가기",
 		type = 1,
 		id = 305010111,
 		target_num = 1,
@@ -3071,7 +3688,8 @@ pg.base.island_task_target = {
 	},
 	[305010121] = {
 		tips = "10050003",
-		name = "去找拉科尼娅吧",
+		jump_ui = "",
+		name = "라코니아가 있는 곳으로 가기",
 		type = 1,
 		id = 305010121,
 		target_num = 1,
@@ -3081,7 +3699,8 @@ pg.base.island_task_target = {
 	},
 	[305010122] = {
 		tips = "10040022",
-		name = "去找乔安吧",
+		jump_ui = "",
+		name = "조안이 있는 곳으로 가기",
 		type = 1,
 		id = 305010122,
 		target_num = 1,
@@ -3091,7 +3710,8 @@ pg.base.island_task_target = {
 	},
 	[305010123] = {
 		tips = "10010041",
-		name = "去找奥利匹克吧",
+		jump_ui = "",
+		name = "올림픽이 있는 곳으로 가기",
 		type = 1,
 		id = 305010123,
 		target_num = 1,
@@ -3101,7 +3721,8 @@ pg.base.island_task_target = {
 	},
 	[305010211] = {
 		tips = "10020009",
-		name = "去找帕特莉吧",
+		jump_ui = "",
+		name = "패트리를 찾으러 가기",
 		type = 1,
 		id = 305010211,
 		target_num = 1,
@@ -3111,7 +3732,8 @@ pg.base.island_task_target = {
 	},
 	[305010221] = {
 		tips = "10060002",
-		name = "去找阿莫玛吧",
+		jump_ui = "",
+		name = "아모마가 있는 곳으로 가기",
 		type = 1,
 		id = 305010221,
 		target_num = 1,
@@ -3121,7 +3743,8 @@ pg.base.island_task_target = {
 	},
 	[305010222] = {
 		tips = "10040022",
-		name = "去找乔安吧",
+		jump_ui = "",
+		name = "조안이 있는 곳으로 가기",
 		type = 1,
 		id = 305010222,
 		target_num = 1,
@@ -3131,7 +3754,8 @@ pg.base.island_task_target = {
 	},
 	[305010223] = {
 		tips = "10050002",
-		name = "去找露西吧",
+		jump_ui = "",
+		name = "루시를 찾으러 가기",
 		type = 1,
 		id = 305010223,
 		target_num = 1,
@@ -3141,7 +3765,8 @@ pg.base.island_task_target = {
 	},
 	[305010311] = {
 		tips = "10020009",
-		name = "去找帕特莉吧",
+		jump_ui = "",
+		name = "패트리를 찾으러 가기",
 		type = 1,
 		id = 305010311,
 		target_num = 1,
@@ -3151,7 +3776,8 @@ pg.base.island_task_target = {
 	},
 	[305010321] = {
 		tips = "10060002",
-		name = "去找阿莫玛吧",
+		jump_ui = "",
+		name = "아모마가 있는 곳으로 가기",
 		type = 1,
 		id = 305010321,
 		target_num = 1,
@@ -3161,7 +3787,8 @@ pg.base.island_task_target = {
 	},
 	[305010322] = {
 		tips = "10050003",
-		name = "去找拉科尼娅吧",
+		jump_ui = "",
+		name = "라코니아가 있는 곳으로 가기",
 		type = 1,
 		id = 305010322,
 		target_num = 1,
@@ -3171,7 +3798,8 @@ pg.base.island_task_target = {
 	},
 	[305010323] = {
 		tips = "10030008",
-		name = "去找莉莎吧",
+		jump_ui = "",
+		name = "리사와 대화하기",
 		type = 1,
 		id = 305010323,
 		target_num = 1,
@@ -3181,7 +3809,8 @@ pg.base.island_task_target = {
 	},
 	[305020011] = {
 		tips = "10060002",
-		name = "去找阿莫玛吧",
+		jump_ui = "",
+		name = "아모마가 있는 곳으로 가기",
 		type = 1,
 		id = 305020011,
 		target_num = 1,
@@ -3191,7 +3820,8 @@ pg.base.island_task_target = {
 	},
 	[305020021] = {
 		tips = "10050003",
-		name = "去找拉科尼娅吧",
+		jump_ui = "",
+		name = "라코니아가 있는 곳으로 가기",
 		type = 1,
 		id = 305020021,
 		target_num = 1,
@@ -3201,7 +3831,8 @@ pg.base.island_task_target = {
 	},
 	[305020022] = {
 		tips = "10020009",
-		name = "去找帕特莉吧",
+		jump_ui = "",
+		name = "패트리를 찾으러 가기",
 		type = 1,
 		id = 305020022,
 		target_num = 1,
@@ -3211,7 +3842,8 @@ pg.base.island_task_target = {
 	},
 	[305020023] = {
 		tips = "10030008",
-		name = "去找莉莎吧",
+		jump_ui = "",
+		name = "리사와 대화하기",
 		type = 1,
 		id = 305020023,
 		target_num = 1,
@@ -3221,7 +3853,8 @@ pg.base.island_task_target = {
 	},
 	[305020111] = {
 		tips = "10060002",
-		name = "去找阿莫玛吧",
+		jump_ui = "",
+		name = "아모마가 있는 곳으로 가기",
 		type = 1,
 		id = 305020111,
 		target_num = 1,
@@ -3231,7 +3864,8 @@ pg.base.island_task_target = {
 	},
 	[305020121] = {
 		tips = "10040002",
-		name = "去找奥布莱恩吧",
+		jump_ui = "",
+		name = "오브라이언을 찾으러 가기",
 		type = 1,
 		id = 305020121,
 		target_num = 1,
@@ -3241,7 +3875,8 @@ pg.base.island_task_target = {
 	},
 	[305020122] = {
 		tips = "10030008",
-		name = "去找莉莎吧",
+		jump_ui = "",
+		name = "리사와 대화하기",
 		type = 1,
 		id = 305020122,
 		target_num = 1,
@@ -3251,7 +3886,8 @@ pg.base.island_task_target = {
 	},
 	[305020123] = {
 		tips = "10090008",
-		name = "去找布莱梅吧",
+		jump_ui = "",
+		name = "브레멘이 있는 곳으로 가기",
 		type = 1,
 		id = 305020123,
 		target_num = 1,
@@ -3261,7 +3897,8 @@ pg.base.island_task_target = {
 	},
 	[305020211] = {
 		tips = "10060002",
-		name = "去找阿莫玛吧",
+		jump_ui = "",
+		name = "아모마가 있는 곳으로 가기",
 		type = 1,
 		id = 305020211,
 		target_num = 1,
@@ -3271,7 +3908,8 @@ pg.base.island_task_target = {
 	},
 	[305020221] = {
 		tips = "10010040",
-		name = "去找赫莫吧",
+		jump_ui = "",
+		name = "헤르모를 찾으러 가기",
 		type = 1,
 		id = 305020221,
 		target_num = 1,
@@ -3281,7 +3919,8 @@ pg.base.island_task_target = {
 	},
 	[305020222] = {
 		tips = "10030008",
-		name = "去找莉莎吧",
+		jump_ui = "",
+		name = "리사와 대화하기",
 		type = 1,
 		id = 305020222,
 		target_num = 1,
@@ -3291,7 +3930,8 @@ pg.base.island_task_target = {
 	},
 	[305020223] = {
 		tips = "10050002",
-		name = "去找露西吧",
+		jump_ui = "",
+		name = "루시를 찾으러 가기",
 		type = 1,
 		id = 305020223,
 		target_num = 1,
@@ -3301,7 +3941,8 @@ pg.base.island_task_target = {
 	},
 	[305020311] = {
 		tips = "10060002",
-		name = "去找阿莫玛吧",
+		jump_ui = "",
+		name = "아모마가 있는 곳으로 가기",
 		type = 1,
 		id = 305020311,
 		target_num = 1,
@@ -3311,7 +3952,8 @@ pg.base.island_task_target = {
 	},
 	[305020321] = {
 		tips = "10030008",
-		name = "去找莉莎吧",
+		jump_ui = "",
+		name = "리사와 대화하기",
 		type = 1,
 		id = 305020321,
 		target_num = 1,
@@ -3321,7 +3963,8 @@ pg.base.island_task_target = {
 	},
 	[305020322] = {
 		tips = "10050002",
-		name = "去找露西吧",
+		jump_ui = "",
+		name = "루시를 찾으러 가기",
 		type = 1,
 		id = 305020322,
 		target_num = 1,
@@ -3331,7 +3974,8 @@ pg.base.island_task_target = {
 	},
 	[305020323] = {
 		tips = "10040002",
-		name = "去找奥布莱恩吧",
+		jump_ui = "",
+		name = "오브라이언을 찾으러 가기",
 		type = 1,
 		id = 305020323,
 		target_num = 1,
@@ -3341,7 +3985,8 @@ pg.base.island_task_target = {
 	},
 	[305040011] = {
 		tips = "",
-		name = "抚摸猫咪",
+		jump_ui = "",
+		name = "고양이 쓰다듬기",
 		type = 1,
 		id = 305040011,
 		target_num = 1,
@@ -3351,7 +3996,8 @@ pg.base.island_task_target = {
 	},
 	[305050011] = {
 		tips = "",
-		name = "做出任意动作",
+		jump_ui = "",
+		name = "액션 취하기",
 		type = 36,
 		id = 305050011,
 		target_num = 1,
@@ -3361,7 +4007,8 @@ pg.base.island_task_target = {
 	},
 	[305080011] = {
 		tips = "",
-		name = "和角色进行一次互动",
+		jump_ui = "",
+		name = "캐릭터와 상호작용하기",
 		type = 37,
 		id = 305080011,
 		target_num = 1,
@@ -3369,7 +4016,8 @@ pg.base.island_task_target = {
 	},
 	[306010011] = {
 		tips = "10030009",
-		name = "接收日常补给",
+		jump_ui = "",
+		name = "일상 보급 수령",
 		type = 13,
 		id = 306010011,
 		target_num = 1,
@@ -3377,7 +4025,8 @@ pg.base.island_task_target = {
 	},
 	[307010011] = {
 		tips = "",
-		name = "制作任意餐品",
+		jump_ui = "5",
+		name = "임의의 요리 제작",
 		type = 7,
 		id = 307010011,
 		target_num = 5,
@@ -3418,7 +4067,8 @@ pg.base.island_task_target = {
 	},
 	[307020011] = {
 		tips = "10060002",
-		name = "制作任意有鱼餐馆的餐品",
+		jump_ui = "",
+		name = "임의의 유어 레스토랑 메뉴 만들기",
 		type = 7,
 		id = 307020011,
 		target_num = 3,
@@ -3434,7 +4084,8 @@ pg.base.island_task_target = {
 	},
 	[307030011] = {
 		tips = "10060002",
-		name = "制作任意白熊饮品的餐品",
+		jump_ui = "",
+		name = "임의의 백곰 음료 메뉴 만들기",
 		type = 7,
 		id = 307030011,
 		target_num = 3,
@@ -3451,7 +4102,8 @@ pg.base.island_task_target = {
 	},
 	[307040011] = {
 		tips = "10060002",
-		name = "制作任意啾啾简餐的餐品",
+		jump_ui = "",
+		name = "임의의 쥬쥬 간편식 메뉴 만들기",
 		type = 7,
 		id = 307040011,
 		target_num = 3,
@@ -3466,7 +4118,8 @@ pg.base.island_task_target = {
 	},
 	[307050011] = {
 		tips = "10060002",
-		name = "制作任意乌鱼烤肉的餐品",
+		jump_ui = "",
+		name = "임의의 오징어 구이 메뉴 만들기",
 		type = 7,
 		id = 307050011,
 		target_num = 3,
@@ -3480,7 +4133,8 @@ pg.base.island_task_target = {
 	},
 	[307060011] = {
 		tips = "10090008",
-		name = "制作任意啾咖啡的餐品",
+		jump_ui = "",
+		name = "임의의 쥬카페 메뉴 만들기",
 		type = 7,
 		id = 307060011,
 		target_num = 3,
@@ -3495,7 +4149,8 @@ pg.base.island_task_target = {
 	},
 	[300000011] = {
 		tips = "10040003",
-		name = "采集任意矿物",
+		jump_ui = "",
+		name = "임의의 광물 채집",
 		type = 6,
 		id = 300000011,
 		target_num = 4,
@@ -3510,7 +4165,8 @@ pg.base.island_task_target = {
 	},
 	[300000021] = {
 		tips = "10040013",
-		name = "采集任意木材",
+		jump_ui = "",
+		name = "임의의 목재 채집",
 		type = 6,
 		id = 300000021,
 		target_num = 4,
@@ -3522,8 +4178,9 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000031] = {
-		tips = "10020009",
-		name = "交付任意岛屿订单",
+		tips = "",
+		jump_ui = "6",
+		name = "임의의 아일랜드 의뢰 처리",
 		type = 3,
 		id = 300000031,
 		target_num = 1,
@@ -3532,8 +4189,9 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000041] = {
-		tips = "10070004",
-		name = "完成任意科研",
+		tips = "",
+		jump_ui = "12",
+		name = "임의의 연구 완료",
 		type = 7,
 		id = 300000041,
 		target_num = 1,
@@ -3731,7 +4389,8 @@ pg.base.island_task_target = {
 	},
 	[300000051] = {
 		tips = "",
-		name = "做出任意动作",
+		jump_ui = "",
+		name = "액션 취하기",
 		type = 36,
 		id = 300000051,
 		target_num = 1,
@@ -3741,7 +4400,8 @@ pg.base.island_task_target = {
 	},
 	[300000061] = {
 		tips = "10020009",
-		name = "去找帕特莉吧",
+		jump_ui = "",
+		name = "패트리를 찾으러 가기",
 		type = 1,
 		id = 300000061,
 		target_num = 1,
@@ -3751,7 +4411,8 @@ pg.base.island_task_target = {
 	},
 	[300000071] = {
 		tips = "10040002",
-		name = "去找奥布莱恩吧",
+		jump_ui = "",
+		name = "오브라이언을 찾으러 가기",
 		type = 1,
 		id = 300000071,
 		target_num = 1,
@@ -3761,7 +4422,8 @@ pg.base.island_task_target = {
 	},
 	[300000072] = {
 		tips = "10040022",
-		name = "去找乔安吧",
+		jump_ui = "",
+		name = "조안이 있는 곳으로 가기",
 		type = 1,
 		id = 300000072,
 		target_num = 1,
@@ -3771,7 +4433,8 @@ pg.base.island_task_target = {
 	},
 	[300000073] = {
 		tips = "10090008",
-		name = "去找布莱梅吧",
+		jump_ui = "",
+		name = "브레멘이 있는 곳으로 가기",
 		type = 1,
 		id = 300000073,
 		target_num = 1,
@@ -3781,7 +4444,8 @@ pg.base.island_task_target = {
 	},
 	[300000081] = {
 		tips = "",
-		name = "抚摸猫咪",
+		jump_ui = "",
+		name = "고양이 쓰다듬기",
 		type = 1,
 		id = 300000081,
 		target_num = 1,
@@ -3791,7 +4455,8 @@ pg.base.island_task_target = {
 	},
 	[401010011] = {
 		tips = "10040022",
-		name = "委派开采任意矿物",
+		jump_ui = "",
+		name = "동료를 배치하여 광석 생산",
 		type = 7,
 		id = 401010011,
 		target_num = 30,
@@ -3806,7 +4471,8 @@ pg.base.island_task_target = {
 	},
 	[401020011] = {
 		tips = "10040002",
-		name = "委派采集任意木材",
+		jump_ui = "",
+		name = "동료를 배치하여 목재 생산",
 		type = 7,
 		id = 401020011,
 		target_num = 30,
@@ -3819,7 +4485,8 @@ pg.base.island_task_target = {
 	},
 	[401030011] = {
 		tips = "10010040",
-		name = "委派种植任意农田作物",
+		jump_ui = "",
+		name = "동료를 배치하여 농작물 생산",
 		type = 7,
 		id = 401030011,
 		target_num = 30,
@@ -3836,7 +4503,8 @@ pg.base.island_task_target = {
 	},
 	[401040011] = {
 		tips = "10050003",
-		name = "委派种植任意苗圃作物",
+		jump_ui = "",
+		name = "동료를 배치하여 묘포 작물 생산",
 		type = 7,
 		id = 401040011,
 		target_num = 30,
@@ -3852,7 +4520,8 @@ pg.base.island_task_target = {
 	},
 	[401050011] = {
 		tips = "10050002",
-		name = "委派种植任意果园树木",
+		jump_ui = "",
+		name = "동료를 배치하여 과수원 나무 재배",
 		type = 7,
 		id = 401050011,
 		target_num = 30,
@@ -3870,7 +4539,8 @@ pg.base.island_task_target = {
 	},
 	[401060011] = {
 		tips = "10010003",
-		name = "委派照顾任意牧场动物",
+		jump_ui = "",
+		name = "동료를 배치하여 목장 동물 돌보기",
 		type = 7,
 		id = 401060011,
 		target_num = 30,
@@ -3883,7 +4553,8 @@ pg.base.island_task_target = {
 	},
 	[401070011] = {
 		tips = "10070016",
-		name = "生产任意手工产品",
+		jump_ui = "",
+		name = "수공제품 생산",
 		type = 7,
 		id = 401070011,
 		target_num = 20,
@@ -3901,7 +4572,8 @@ pg.base.island_task_target = {
 	},
 	[401080011] = {
 		tips = "10070014",
-		name = "生产任意工业产品",
+		jump_ui = "",
+		name = "공산품 생산",
 		type = 7,
 		id = 401080011,
 		target_num = 20,
@@ -3916,7 +4588,8 @@ pg.base.island_task_target = {
 	},
 	[401090011] = {
 		tips = "10070013",
-		name = "生产任意木料产品",
+		jump_ui = "",
+		name = "목제품 생산",
 		type = 7,
 		id = 401090011,
 		target_num = 20,
@@ -3930,7 +4603,8 @@ pg.base.island_task_target = {
 	},
 	[401100011] = {
 		tips = "10070015",
-		name = "生产任意电子产品",
+		jump_ui = "",
+		name = "전자제품 생산",
 		type = 7,
 		id = 401100011,
 		target_num = 20,
@@ -3943,7 +4617,8 @@ pg.base.island_task_target = {
 	},
 	[402010011] = {
 		tips = "",
-		name = "制作任意套餐",
+		jump_ui = "5",
+		name = "세트 메뉴 제작",
 		type = 7,
 		id = 402010011,
 		target_num = 20,
@@ -3965,7 +4640,8 @@ pg.base.island_task_target = {
 	},
 	[403010011] = {
 		tips = "",
-		name = "上架任意商品",
+		jump_ui = "5",
+		name = "임의의 상품 출품",
 		type = 27,
 		id = 403010011,
 		target_num = 100,
@@ -3975,7 +4651,8 @@ pg.base.island_task_target = {
 	},
 	[404010011] = {
 		tips = "",
-		name = "拍摄任意照片",
+		jump_ui = "19",
+		name = "사진 1장 촬영",
 		type = 43,
 		id = 404010011,
 		target_num = 3,
@@ -3985,7 +4662,8 @@ pg.base.island_task_target = {
 	},
 	[405010011] = {
 		tips = "",
-		name = "完成每日计划",
+		jump_ui = "",
+		name = "일일 계획 처리",
 		type = 23,
 		id = 405010011,
 		target_num = 25,
@@ -3995,10 +4673,11 @@ pg.base.island_task_target = {
 	},
 	[406010011] = {
 		tips = "",
-		name = "获得岛屿开发资金",
+		jump_ui = "",
+		name = "아일랜드 개발 자금 획득",
 		type = 5,
 		id = 406010011,
-		target_num = 400000,
+		target_num = 120000,
 		target_param = {
 			1
 		}

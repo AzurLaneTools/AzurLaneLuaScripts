@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "完美的焦糖色，喜欢苹果的甜香。",
+			say = "완벽한 캐러멜색, 사과의 달콤한 향기가 좋아.",
 			hideType = 2,
 			characterId = 101200,
 			animation = "rest"

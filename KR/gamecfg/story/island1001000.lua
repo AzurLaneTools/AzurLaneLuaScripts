@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-12",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这寻常的一天，我看着手中的报告陷入了沉思。",
+			say = "어느 날, 나는 손에 든 보고서를 보며 깊은 생각에 잠겼다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}居然已经有一周以上没有回港区了……",
+			say = "아카시는 벌써 일주일째 모항에 돌아오지 않아……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是她的经营活动数据量却在一直攀升……",
+			say = "그런데 경영 활동 데이터는 계속 치솟고 있어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "无人岛开发的利润那么大……已经让她乐不思港了？",
+			say = "무인도 개발의 이익이 너무 커서……모항 생각이 안 날 정도로 즐거운 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，帮我联系一下{namecode:98:明石}，我亲自问问她。",
+			say = "TB, 아카시에게 연락해 봐, 내가 직접 물어봐야겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认，正在联络中——",
+			say = "지령 확인, 연락 중입니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "异常警告：与无人岛开发区的联络线路遭受干扰，联络请求失败。",
+			say = "이상 경고: 무인도 개발구의 회선이 간섭을 받아, 연락 요청에 실패했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……遭受干扰？立刻接周围的监测站，看看无人岛那边出了什么事。",
+			say = "……간섭을 받았다고？ 즉시 주변의 관측소에 접속해, 무인도에 무슨 일이 일어났는지 확인하라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认，正在控制监测站扫描无人岛开发区及其周边区域——",
+			say = "지령 확인, 관측소를 제어하여 무인도 개발구 및 주변 지역을 스캔 중입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "数据结果……很奇妙。",
+			say = "데이터 결과가……흥미롭군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，不同监测站针对开发区的同一片区域，给出了截然不同的结果。",
+			say = "지휘관님, 서로 다른 관측소에서 개발구의 동일 구역을 스캔했지만 상반된 결과가 나왔습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "推测，无人岛开发区上空存在细微时空异常现象。",
+			say = "추측건대 무인도 개발구 상공에 미세한 시공간 이상 현상이 존재하는 듯합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "区域性时空异常现象……难道说是奇异点？",
+			say = "국지적 시공간 이상 현상…… 설마 특이점인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你的意思是，我们的无人岛度假开发区的天上出现了一个未知奇异点……？",
+			say = "네 말은 우리 무인도 휴양 개발구의 상공에 정체불명의 특이점이 생겼다는 거야……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且{namecode:98:明石}和整个开发团队都失联了！？！",
+			say = "게다가 아카시와 개발팀 전체가 연락 두절 상태야! ?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "肯定，这是当前最合理的推测。",
+			say = "그렇습니다. 현재로서는 가장 합리적인 추측입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是{namecode:98:明石}的经营活动数据量却一直在攀升……？",
+			say = "하지만 아카시의 경영 활동 데이터는 계속 치솟고 있잖아……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是的，根据统计，{namecode:98:明石}小姐本周的经营活动数据相较于历史同期提高了170%。",
+			say = "네, 통계에 따르면 아카시 씨의 이번 주 경영 활동 데이터는 과거 같은 기간 대비 170% 상승했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她……生意都做到奇异点里去了？",
+			say = "설마……하다 하다 특이점에서까지 장사하고 있는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "情报不足，我无法得出确切结论。不过，这是一个相当有合理性的推论。",
+			say = "정보가 부족해 정확한 결론을 내릴 수 없습니다. 하지만 합리적인 추론입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真可疑……我必须去亲自调查一下了。",
+			say = "수상해…… 내가 직접 조사해 봐야겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，帮我准备一个安全可靠的飞行器。",
+			say = "TB, 안전한 비행기를 준비해 줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正在查询“安全可靠的飞行器”——",
+			say = "\"안전한 비행기\"검색 중입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "查询到20台不同型号的飞行器，设计者均为莱昂纳多·达·芬奇。",
+			say = "서로 다른 기종의 비행기 20대를 조회했으며, 설계자는 모두 레오나르도 다빈치입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "达芬奇的飞行器么……应该是可靠的……吧？",
+			say = "다빈치가 만든 비행기라……믿을 수 있겠……지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也好，帮我随便抽选一台，做好起飞准备。",
+			say = "좋아, 아무거나 하나 골라서 이륙 준비를 해둬.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "让我们去无人岛上空的奇异点中一探究竟吧——",
+			say = "무인도 상공의 특이점을 직접 확인해 보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
