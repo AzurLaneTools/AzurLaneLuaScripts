@@ -45958,7 +45958,7 @@ _G.pg.base.gametip.activity_remain_time = {
 
 
 _G.pg.base.gametip.dal_main_sheet1 = {
-	tip = "List"
+	tip = "Main Page"
 }
 
 
@@ -46116,5 +46116,5 @@ If you begin playing the collab event while a given stage has already been compl
 
 
 _G.pg.base.gametip.dal_chapter_tip2 = {
-	tip = "Complete event missions to get rewards."
+	tip = "Complete missions for rewards."
 }

@@ -343,13 +343,14 @@ slot0.UpdateBattle = function(slot0)
 			setActive(slot1:Find("active/current"), false)
 
 			slot1:Find("active/current/progress"):GetComponent(typeof(Image)).fillAmount = slot3:IsPass() and 1 or slot3:GetBossHpRate()
-			slot9 = slot1:Find("active/common/bullets")
+		end
 
-			if slot7 > 3 then
-				setActive(slot9, false)
+		slot8 = function(slot0)
+			if uv0 > 3 then
+				setActive(slot0, false)
 			else
-				setActive(slot9, true)
-				table.Foreach(_.map(_.range(slot9.childCount), function (slot0)
+				setActive(slot0, true)
+				table.Foreach(_.map(_.range(slot0.childCount), function (slot0)
 					return uv0:GetChild(slot0 - 1)
 				end), function (slot0, slot1)
 					setActive(slot1, slot0 <= 4 - uv0)
@@ -357,6 +358,8 @@ slot0.UpdateBattle = function(slot0)
 			end
 		end
 
+		slot8(slot1:Find("active/common/bullets"))
+		slot8(slot1:Find("clear/common/bullets"))
 		onButton(uv2, slot1, function ()
 			if not uv0 then
 				slot0 = uv1:GetPreSeriesId()

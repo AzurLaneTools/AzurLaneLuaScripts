@@ -35778,152 +35778,152 @@ cs.gametip = {
 	},
 	dal_main_sheet1 = {
 		1287772,
-		83,
+		88,
 		true
 	},
 	dal_main_sheet2 = {
-		1287855,
+		1287860,
 		96,
 		true
 	},
 	dal_main_sheet3 = {
-		1287951,
+		1287956,
 		97,
 		true
 	},
 	dal_main_sheet4 = {
-		1288048,
+		1288053,
 		91,
 		true
 	},
 	dal_main_sheet5 = {
-		1288139,
+		1288144,
 		90,
 		true
 	},
 	DAL_upgrade_ship = {
-		1288229,
+		1288234,
 		95,
 		true
 	},
 	DAL_upgrade_active = {
-		1288324,
+		1288329,
 		89,
 		true
 	},
 	dal_main_sheet1_en = {
-		1288413,
+		1288418,
 		91,
 		true
 	},
 	dal_main_sheet2_en = {
-		1288504,
+		1288509,
 		91,
 		true
 	},
 	dal_main_sheet3_en = {
-		1288595,
+		1288600,
 		94,
 		true
 	},
 	dal_main_sheet4_en = {
-		1288689,
+		1288694,
 		94,
 		true
 	},
 	dal_main_sheet5_en = {
-		1288783,
+		1288788,
 		93,
 		true
 	},
 	DAL_story_tip = {
-		1288876,
+		1288881,
 		137,
 		true
 	},
 	DAL_upgrade_program = {
-		1289013,
+		1289018,
 		98,
 		true
 	},
 	dal_story_tip_name_en_1 = {
-		1289111,
+		1289116,
 		95,
 		true
 	},
 	dal_story_tip_name_en_2 = {
-		1289206,
+		1289211,
 		95,
 		true
 	},
 	dal_story_tip_name_en_3 = {
-		1289301,
+		1289306,
 		95,
 		true
 	},
 	dal_story_tip_name_en_4 = {
-		1289396,
+		1289401,
 		95,
 		true
 	},
 	dal_story_tip_name_en_5 = {
-		1289491,
+		1289496,
 		95,
 		true
 	},
 	dal_story_tip_name_en_6 = {
-		1289586,
+		1289591,
 		95,
 		true
 	},
 	dal_story_tip1 = {
-		1289681,
+		1289686,
 		107,
 		true
 	},
 	dal_story_tip2 = {
-		1289788,
+		1289793,
 		102,
 		true
 	},
 	dal_story_tip3 = {
-		1289890,
+		1289895,
 		86,
 		true
 	},
 	dal_AwardPage_name_1 = {
-		1289976,
+		1289981,
 		88,
 		true
 	},
 	dal_AwardPage_name_2 = {
-		1290064,
+		1290069,
 		90,
 		true
 	},
 	dal_chapter_goto = {
-		1290154,
+		1290159,
 		82,
 		true
 	},
 	DAL_upgrade_unlock = {
-		1290236,
+		1290241,
 		88,
 		true
 	},
 	DAL_upgrade_not_enough = {
-		1290324,
+		1290329,
 		154,
 		true
 	},
 	dal_chapter_tip = {
-		1290478,
+		1290483,
 		1939,
 		true
 	},
 	dal_chapter_tip2 = {
-		1292417,
-		119,
+		1292422,
+		110,
 		true
 	}
 }

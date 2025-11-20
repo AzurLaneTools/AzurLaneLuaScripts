@@ -161,12 +161,12 @@ pg.extraenemy_series_template = {
 		},
 		normal_expedition_damage = {
 			{
-				60,
-				80
+				300,
+				400
 			},
 			{
-				75,
-				100
+				375,
+				500
 			}
 		},
 		aid_buff = {
@@ -251,12 +251,12 @@ pg.extraenemy_series_template = {
 		},
 		normal_expedition_damage = {
 			{
-				60,
-				80
+				300,
+				400
 			},
 			{
-				75,
-				100
+				375,
+				500
 			}
 		},
 		aid_buff = {
@@ -341,12 +341,12 @@ pg.extraenemy_series_template = {
 		},
 		normal_expedition_damage = {
 			{
-				60,
-				80
+				300,
+				400
 			},
 			{
-				75,
-				100
+				375,
+				500
 			}
 		},
 		aid_buff = {
@@ -431,12 +431,12 @@ pg.extraenemy_series_template = {
 		},
 		normal_expedition_damage = {
 			{
-				60,
-				80
+				300,
+				400
 			},
 			{
-				75,
-				100
+				375,
+				500
 			}
 		},
 		aid_buff = {

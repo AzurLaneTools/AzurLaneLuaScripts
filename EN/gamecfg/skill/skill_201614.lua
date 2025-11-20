@@ -2,7 +2,7 @@ return {
 	cd = 0,
 	name = "2025约战联动 角色支援 四糸乃",
 	focus_duration = 1,
-	cutin_script = "将一切归于寂静……！——冰结傀儡",
+	cutin_script = "Return everything to silence...! —Zadkiel",
 	cutin_cover_DAL = "sisinai",
 	painting = 0,
 	id = 201614,
