@@ -1,0 +1,589 @@
+pg = pg or {}
+pg.extraenemy_series_template = {
+	{
+		id = 1,
+		chapter_name = "AREA-1",
+		pos_x = 0,
+		damage_resource = 586,
+		chapter_name2 = "異常海域・第1作戦エリア",
+		pre_chapter = {},
+		story_worldboss = {
+			{
+				"DATEALANEGUANQIA2",
+				100
+			},
+			{
+				"DATEALANEGUANQIA3",
+				50
+			},
+			{
+				"DATEALANEGUANQIA4",
+				0
+			}
+		},
+		profile_pre = {
+			{
+				{
+					"幻像の塔周辺に時空異常海域が出現",
+					"？？？？？？？？",
+					false,
+					"偵察艦隊配置完了"
+				},
+				100,
+				{
+					"分析完了",
+					"分析中"
+				}
+			},
+			{
+				{
+					"ユニオン艦隊進撃中",
+					"異世界からの来訪者確認：五河琴里",
+					false,
+					"指揮官が艦隊指揮を開始"
+				},
+				50,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			},
+			{
+				{
+					"敵確認：Ⅳ型量産型セイレーン艦隊",
+					"異世界からの来訪者確認：五河琴里",
+					false,
+					"指揮官が艦隊指揮を開始"
+				},
+				0,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			}
+		},
+		boss_id = {
+			13
+		},
+		activity_series_enemy_id = {
+			4001,
+			4002
+		},
+		normal_expedition_damage = {
+			{
+				30,
+				40
+			},
+			{
+				35,
+				50
+			}
+		},
+		aid_buff = {
+			0.5,
+			201602
+		}
+	},
+	{
+		id = 2,
+		chapter_name = "AREA-2",
+		pos_x = 0,
+		damage_resource = 586,
+		chapter_name2 = "異常海域・第2作戦エリア",
+		pre_chapter = {
+			1
+		},
+		story_worldboss = {
+			{
+				"DATEALANEGUANQIA5",
+				100
+			},
+			{
+				"DATEALANEGUANQIA6",
+				75
+			},
+			{
+				"DATEALANEGUANQIA7",
+				25
+			},
+			{
+				"DATEALANEGUANQIA8",
+				0
+			}
+		},
+		profile_pre = {
+			{
+				{
+					"アイリス艦隊・東煌艦隊進撃中",
+					"？？？？？？？？",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				100,
+				{
+					"分析完了",
+					"分析中"
+				}
+			},
+			{
+				{
+					"母港パトロール艦隊を確認",
+					"異世界からの来訪者確認：夜刀神十香",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				25,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			},
+			{
+				{
+					"敵確認：維持ユニット-ソードⅢ「Collide」",
+					"異世界からの来訪者確認：夜刀神十香",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				0,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			}
+		},
+		boss_id = {
+			14
+		},
+		activity_series_enemy_id = {
+			4011,
+			4012
+		},
+		normal_expedition_damage = {
+			{
+				60,
+				80
+			},
+			{
+				75,
+				100
+			}
+		},
+		aid_buff = {
+			0.25,
+			201605
+		}
+	},
+	{
+		id = 3,
+		chapter_name = "AREA-3",
+		pos_x = 0,
+		damage_resource = 586,
+		chapter_name2 = "異常海域・第3作戦エリア",
+		pre_chapter = {
+			1
+		},
+		story_worldboss = {
+			{
+				"DATEALANEGUANQIA9",
+				100
+			},
+			{
+				"DATEALANEGUANQIA10",
+				75
+			},
+			{
+				"DATEALANEGUANQIA11",
+				25
+			},
+			{
+				"DATEALANEGUANQIA12",
+				0
+			}
+		},
+		profile_pre = {
+			{
+				{
+					"鉄血艦隊・サディア艦隊進撃中",
+					"？？？？？？？？",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				100,
+				{
+					"分析完了",
+					"分析中"
+				}
+			},
+			{
+				{
+					"母港パトロール艦隊を確認",
+					" 異世界からの来訪者確認：鳶一折紙",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				25,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			},
+			{
+				{
+					"敵確認：維持ユニット-ソードⅣ「Recover」",
+					"異世界からの来訪者確認：鳶一折紙",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				0,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			}
+		},
+		boss_id = {
+			15
+		},
+		activity_series_enemy_id = {
+			4021,
+			4022
+		},
+		normal_expedition_damage = {
+			{
+				60,
+				80
+			},
+			{
+				75,
+				100
+			}
+		},
+		aid_buff = {
+			0.25,
+			201610
+		}
+	},
+	{
+		id = 4,
+		chapter_name = "AREA-4",
+		pos_x = 0,
+		damage_resource = 586,
+		chapter_name2 = "異常海域・第4作戦エリア",
+		pre_chapter = {
+			1
+		},
+		story_worldboss = {
+			{
+				"DATEALANEGUANQIA13",
+				100
+			},
+			{
+				"DATEALANEGUANQIA14",
+				75
+			},
+			{
+				"DATEALANEGUANQIA15",
+				25
+			},
+			{
+				"DATEALANEGUANQIA16",
+				0
+			}
+		},
+		profile_pre = {
+			{
+				{
+					"ロイヤル艦隊・北方連合艦隊進撃中",
+					"？？？？？？？？",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				100,
+				{
+					"分析完了",
+					"分析中"
+				}
+			},
+			{
+				{
+					"母港パトロール艦隊を確認",
+					" 異世界からの来訪者確認：四糸乃",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				25,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			},
+			{
+				{
+					"敵確認：維持ユニット-ソードⅤ「Repay」",
+					"異世界からの来訪者確認：四糸乃",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				0,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			}
+		},
+		boss_id = {
+			16
+		},
+		activity_series_enemy_id = {
+			4031,
+			4032
+		},
+		normal_expedition_damage = {
+			{
+				60,
+				80
+			},
+			{
+				75,
+				100
+			}
+		},
+		aid_buff = {
+			0.25,
+			201614
+		}
+	},
+	{
+		id = 5,
+		chapter_name = "AREA-5",
+		pos_x = 0,
+		damage_resource = 586,
+		chapter_name2 = "異常海域・第5作戦エリア",
+		pre_chapter = {
+			1
+		},
+		story_worldboss = {
+			{
+				"DATEALANEGUANQIA17",
+				100
+			},
+			{
+				"DATEALANEGUANQIA18",
+				75
+			},
+			{
+				"DATEALANEGUANQIA19",
+				25
+			},
+			{
+				"DATEALANEGUANQIA20",
+				0
+			}
+		},
+		profile_pre = {
+			{
+				{
+					"重桜艦隊・チュリッパ艦隊進撃中",
+					"？？？？？？？？",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				100,
+				{
+					"分析完了",
+					"分析中"
+				}
+			},
+			{
+				{
+					"母港パトロール艦隊を確認",
+					" 異世界からの来訪者確認：八舞耶俱矢、八舞弓弦",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				25,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			},
+			{
+				{
+					"敵確認：維持ユニット-ソードⅥ「Pilgrimage」",
+					"異世界からの来訪者確認：八舞耶俱矢、八舞弓弦",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				0,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			}
+		},
+		boss_id = {
+			17
+		},
+		activity_series_enemy_id = {
+			4041,
+			4042
+		},
+		normal_expedition_damage = {
+			{
+				60,
+				80
+			},
+			{
+				75,
+				100
+			}
+		},
+		aid_buff = {
+			0.25,
+			201618
+		}
+	},
+	{
+		id = 6,
+		chapter_name = "AREA-6",
+		pos_x = 0,
+		damage_resource = 586,
+		chapter_name2 = "異常海域・第6作戦エリア",
+		pre_chapter = {
+			2,
+			3,
+			4,
+			5
+		},
+		story_worldboss = {
+			{
+				"DATEALANEGUANQIA22",
+				100
+			},
+			{
+				"DATEALANEGUANQIA23",
+				90
+			},
+			{
+				"DATEALANEGUANQIA24",
+				80
+			},
+			{
+				"DATEALANEGUANQIA25",
+				70
+			},
+			{
+				"DATEALANEGUANQIA26",
+				60
+			},
+			{
+				"DATEALANEGUANQIA27",
+				50
+			},
+			{
+				"DATEALANEGUANQIA28",
+				40
+			},
+			{
+				"DATEALANEGUANQIA29",
+				30
+			},
+			{
+				"DATEALANEGUANQIA30",
+				20
+			},
+			{
+				"DATEALANEGUANQIA31",
+				10
+			},
+			{
+				"DATEALANEGUANQIA32",
+				0
+			}
+		},
+		profile_pre = {
+			{
+				{
+					"悪夢迷宮周辺を探索中",
+					"？？？？؟؟？？",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				100,
+				{
+					"分析完了",
+					"分析中"
+				}
+			},
+			{
+				{
+					"悪夢迷宮中心部に接近中",
+					"異世界からの来訪者確認：時崎狂三",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				70,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			},
+			{
+				{
+					"母港連合艦隊が攻撃中",
+					"異世界からの来訪者確認：時崎狂三",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				60,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			},
+			{
+				{
+					"敵確認：維持ユニット-ソードⅦ「Impulse」",
+					"異世界からの来訪者確認：時崎狂三",
+					"「フラクシナスAL」海域上空に到着",
+					"指揮官が艦隊指揮を開始"
+				},
+				0,
+				{
+					"分析完了",
+					"分析完了"
+				}
+			}
+		},
+		boss_id = {
+			18
+		},
+		activity_series_enemy_id = {
+			4051,
+			4052
+		},
+		normal_expedition_damage = {
+			{
+				120,
+				160
+			},
+			{
+				145,
+				190
+			}
+		},
+		aid_buff = {
+			0.7,
+			201621
+		}
+	},
+	all = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6
+	}
+}

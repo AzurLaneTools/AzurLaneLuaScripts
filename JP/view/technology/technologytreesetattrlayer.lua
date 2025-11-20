@@ -218,11 +218,7 @@ slot0.updateAttrTF = function(slot0, slot1, slot2)
 		setText(uv3, slot0)
 	end, SFX_PANEL)
 	onInputEndEdit(slot0, slot2:Find("Attr/InputField"), function (slot0)
-		if tonumber(slot0) and slot1 > 0 then
-			slot1 = (slot1 >= 0 or nil) and (math.floor(slot1) == slot1 and slot2 or nil)
-		end
-
-		if slot1 then
+		if tonumber(slot0) and (slot1 >= 0 or nil) and (math.floor(slot1) == slot1 and slot2 or nil) then
 			slot1 = math.min(slot1, uv0)
 
 			uv1:setAttrValue(uv1.curType, uv2, slot1)

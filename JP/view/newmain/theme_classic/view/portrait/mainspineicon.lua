@@ -1,60 +1,54 @@
 slot0 = class("MainSpineIcon", import(".MainBaseIcon"))
 
 slot0.Resume = function(slot0)
-	if slot0.spineAnim and not IsNil(slot0.spineAnim) then
-		slot0.spineAnim:Resume()
+	if slot0.spineChar then
+		slot0.spineChar:Resume()
 	end
 end
 
 slot0.Pause = function(slot0)
-	if slot0.spineAnim and not IsNil(slot0.spineAnim) and slot0.spineAnim.Pause ~= nil and not IsNil(slot0.spineAnim:GetAnimationState()) then
-		slot0.spineAnim:Pause()
+	if slot0.spineChar and slot0.spineChar:GetPauseStatue() ~= nil and not IsNil(slot0.spineChar:GetAnimationState()) then
+		slot0.spineChar:Pause()
 	end
 end
 
 slot0.Load = function(slot0, slot1)
 	slot0.loading = true
+	slot0.spineChar = SpineAnimChar.New()
+	slot2 = slot0.spineChar
 
-	assert(not slot0.shipModel)
+	slot2:SetPaint(slot1)
 
-	slot0.name = slot1
-	slot2 = PoolMgr.GetInstance()
+	slot2 = slot0.spineChar
 
-	slot2:GetSpineChar(slot1, true, function (slot0)
-		if uv0.name ~= uv1 then
-			PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
+	slot2:Load(true, function (slot0)
+		if uv0.exited then
+			uv0:Unload()
 
 			return
 		end
 
-		LeanTween.cancel(slot0)
-
 		uv0.loading = false
-		uv0.shipModel = slot0
-		tf(slot0).localScale = Vector3(0.75, 0.75, 1)
+		uv0.shipModel = slot0:GetModel()
 
-		setParent(slot0, uv0._tf)
-
-		tf(slot0).localPosition = Vector3(pg.ship_spine_shift[uv1] and slot1.mainui_shift[1] or 0, -130 + (slot1 and slot1.mainui_shift[2] or 0), 0)
-		slot4 = slot0:GetComponent("SpineAnimUI")
-
-		slot4:SetAction("normal", 0)
-
-		uv0.spineAnim = slot4
-
+		LeanTween.cancel(uv0.shipModel)
+		slot0:SetNormalAction("normal")
+		slot0:SetAction("normal", 0)
+		slot0:SetLocalScale(Vector3(0.75, 0.75, 1))
+		slot0:SetParent(uv0._tf)
+		slot0:SetLocalPosition(Vector3(pg.ship_spine_shift[uv1] and slot1.mainui_shift[1] or 0, -130 + (slot1 and slot1.mainui_shift[2] or 0), 0))
 		onNextTick(function ()
-			if uv0.name ~= uv1 then
-				return
-			end
-
-			uv2:Resume()
+			uv0:Resume()
 		end)
 	end)
+
+	slot0.name = slot1
 end
 
 slot0.Unload = function(slot0)
-	if slot0.name and slot0.shipModel then
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.name, slot0.shipModel)
+	if slot0.spineChar then
+		slot0.spineChar:Resume()
+		slot0.spineChar:Dispose()
 	end
 
 	slot0.name = nil

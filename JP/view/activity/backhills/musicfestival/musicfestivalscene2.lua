@@ -131,13 +131,12 @@ slot0.updateStageShip = function(slot0)
 	slot3 = slot0.loader
 
 	slot3:GetSpine(slot1, function (slot0)
-		slot0.transform.localScale = Vector3(0.63, 0.63, 1)
-		slot0.transform.localPosition = Vector3.zero
-
-		slot0.transform:SetParent(uv0._stageShip, false)
-		slot0.transform:SetSiblingIndex(1)
+		slot0:SetLocalScale(Vector3(0.63, 0.63, 1))
+		slot0:SetLocalPosition(Vector3.zero)
+		slot0:SetParent(uv0._stageShip)
+		slot0:SetSiblingIndex(1)
 		setActive(uv0._stageShip, true)
-		slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv1, 0)
+		slot0:SetAction(uv1, 0)
 	end, slot0._stageShip)
 end
 

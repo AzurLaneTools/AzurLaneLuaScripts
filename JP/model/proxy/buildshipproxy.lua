@@ -43,9 +43,9 @@ slot0.GetPools = function(slot0)
 			end
 		end)
 		table.insert(slot8, function (slot0)
-			slot1 = pg.ship_data_create_exchange[uv0.id] or {}
+			slot1 = pg.ship_data_create_exchange[uv0.id]
 
-			if uv0:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD or uv0.data2 < (slot1.exchange_available_times or 0) then
+			if uv0:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD or slot1.exchange_available_times > uv0.data2 then
 				slot0()
 			end
 		end)

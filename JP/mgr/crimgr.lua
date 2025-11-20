@@ -5,6 +5,7 @@ slot1 = slot0.CriMgr
 slot1.Category_CV = "Category_CV"
 slot1.Category_BGM = "Category_BGM"
 slot1.Category_SE = "Category_SE"
+slot1.Category_Mute_Other_CV = "Mute_Other_CV"
 slot1.C_BGM = "C_BGM"
 slot1.C_VOICE = "cv"
 slot1.C_SE = "C_SE"
@@ -60,24 +61,22 @@ slot1.InitCri = function(slot0, slot1)
 	slot0.criInst = CriWareMgr.Inst
 
 	slot0.criInst:Init(function ()
-		CriWare.CriAtom.SetCategoryVolume(uv0.Category_CV, uv1:getCVVolume())
-		CriWare.CriAtom.SetCategoryVolume(uv0.Category_SE, uv1:getSEVolume())
-		CriWare.CriAtom.SetCategoryVolume(uv0.Category_BGM, uv1:getBGMVolume())
+		uv0:ResetAllVolume()
 
-		slot0 = uv1.criInst:GetChannelData(uv0.C_VOICE)
+		slot0 = uv0.criInst:GetChannelData(uv1.C_VOICE)
 
-		uv1.criInst:CreateChannel(uv0.C_GALLERY_MUSIC, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
+		uv0.criInst:CreateChannel(uv1.C_GALLERY_MUSIC, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
 
-		uv1.criInst:GetChannelData(uv0.C_BGM).channelPlayer.loop = true
+		uv0.criInst:GetChannelData(uv1.C_BGM).channelPlayer.loop = true
 
-		uv1.criInst:CreateChannel(uv0.C_BATTLE_CV_EXTRA, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
+		uv0.criInst:CreateChannel(uv1.C_BATTLE_CV_EXTRA, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
 
-		uv1.criInst:GetChannelData(uv0.C_BATTLE_CV_EXTRA).channelPlayer.volume = 0.6
-		uv1.bgmWaveAnalyzer = GetOrAddComponent(GameObject.Find("CRIWARE/C_BGM"), typeof(CriAtomWaveAnalyzer))
+		uv0.criInst:GetChannelData(uv1.C_BATTLE_CV_EXTRA).channelPlayer.volume = 0.6
+		uv0.bgmWaveAnalyzer = GetOrAddComponent(GameObject.Find("CRIWARE/C_BGM"), typeof(CriAtomWaveAnalyzer))
 
-		uv1.bgmWaveAnalyzer:Init()
-		uv1.criInst:RemoveChannel(uv0.C_TIMELINE)
-		uv1.criInst:CreateChannel(uv0.C_TIMELINE, CriWareMgr.CRI_CHANNEL_TYPE.MULTI)
+		uv0.bgmWaveAnalyzer:Init()
+		uv0.criInst:RemoveChannel(uv1.C_TIMELINE)
+		uv0.criInst:CreateChannel(uv1.C_TIMELINE, CriWareMgr.CRI_CHANNEL_TYPE.MULTI)
 		uv2()
 	end)
 end
@@ -334,6 +333,7 @@ end
 slot1.setCVVolume = function(slot0, slot1)
 	PlayerPrefs.SetFloat("cv_vol", slot1)
 	CriWare.CriAtom.SetCategoryVolume(uv0.Category_CV, slot1)
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_Mute_Other_CV, slot1)
 end
 
 slot1.getBGMVolume = function(slot0)
@@ -352,6 +352,20 @@ end
 slot1.setSEVolume = function(slot0, slot1)
 	PlayerPrefs.SetFloat("se_vol", slot1)
 	CriWare.CriAtom.SetCategoryVolume(uv0.Category_SE, slot1)
+end
+
+slot1.MuteAllVolume = function(slot0)
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_CV, 0)
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_Mute_Other_CV, 0)
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_BGM, 0)
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_SE, 0)
+end
+
+slot1.ResetAllVolume = function(slot0)
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_CV, slot0:getCVVolume())
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_Mute_Other_CV, slot0:getCVVolume())
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_BGM, slot0:getBGMVolume())
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_SE, slot0:getSEVolume())
 end
 
 slot1.InitBgmCfg = function(slot0, slot1)

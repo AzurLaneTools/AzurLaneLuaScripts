@@ -801,21 +801,22 @@ slot0.MoveAllNode = function(slot0, slot1, slot2, slot3)
 end
 
 slot12 = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = PoolMgr.GetInstance()
+	slot0.spineChar = SpineAnimChar.New()
+	slot5 = slot0.spineChar
 
-	slot5:GetSpineChar(slot1, true, function (slot0)
-		slot0.transform:SetParent(uv0.movePanel)
+	slot5:SetPaint(slot1)
 
-		slot1 = uv1.scale
-		slot0.transform.localScale = Vector3(slot1, slot1, 0)
-		slot0.transform.localPosition = uv2
+	slot5 = slot0.spineChar
 
-		slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv1.action, 0)
-
-		slot0.name = uv3
+	slot5:Load(true, function (slot0)
+		slot0:SetParent(uv0.movePanel)
+		slot0:SetLocalScale(Vector3(uv1.scale, uv1.scale, 0))
+		slot0:SetLocalPosition(uv2)
+		slot0:SetAction(uv1.action, 0)
+		slot0:SetName(uv3)
 
 		if uv4 then
-			uv4(slot0)
+			uv4(uv0.spineChar:GetModel())
 		end
 	end)
 end

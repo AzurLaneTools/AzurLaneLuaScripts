@@ -120,11 +120,32 @@ slot0.AddShip = function(slot0, slot1)
 		return
 	end
 
-	if slot0.storey:GetRandomPosition(slot0:DataToShip(slot1)) then
-		slot2:SetPosition(slot3)
-		slot0.storey:AddShip(slot2)
+	slot2 = slot0:DataToShip(slot1)
+
+	if slot1:IsDoubleSkin() then
+		slot2:SetSide(1)
+
+		slot3 = slot0:DataToShip(slot1)
+		slot3.id = slot3.id + CourtYardConst.DOUBLE_SKIN_ADD
+
+		slot3:SetSide(2)
+
+		slot3.inimacy = 0
+		slot3.coin = 0
+
+		slot0:CreateShip(slot2)
+		slot0:CreateShip(slot3)
 	else
-		slot0:SendNotification(CourtYardEvent._NO_POS_TO_ADD_SHIP, slot2.id)
+		slot0:CreateShip(slot2)
+	end
+end
+
+slot0.CreateShip = function(slot0, slot1)
+	if slot0.storey:GetRandomPosition(slot1) then
+		slot1:SetPosition(slot2)
+		slot0.storey:AddShip(slot1)
+	else
+		slot0:SendNotification(CourtYardEvent._NO_POS_TO_ADD_SHIP, slot1.id)
 	end
 end
 

@@ -118,6 +118,7 @@ pg.pay_data_display = setmetatable({
 		1022,
 		1023,
 		1024,
+		1025,
 		2001,
 		2002,
 		2003,
@@ -176,6 +177,7 @@ pg.pay_data_display = setmetatable({
 		2058,
 		2059,
 		2063,
+		2064,
 		5001,
 		5002,
 		5003,
@@ -13360,6 +13362,91 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1025] = {
+		picture = "battlepass_1",
+		name = "クルーズパス(25初冬)",
+		type = 0,
+		second_text = "特別報酬開放",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		subject = "クルーズパス(25初冬)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1200,
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.battlepass27",
+		extra_gem = 0,
+		id = 1025,
+		airijp_id = "com.yostarjp.azurlane.seasonpass26",
+		name_display = "クルーズパス(25初冬)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4026,
+				1500
+			},
+			{
+				8,
+				65108,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7026,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		picture = "tech1_display",
 		name = "PR特別計画艦パック・Ⅰ期",
@@ -18350,6 +18437,124 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40070,
+				1
+			}
+		}
+	},
+	[2064] = {
+		picture = "boxSkill",
+		name = "教科書パック",
+		type = 0,
+		second_text = "",
+		descrip = "購入すると教科書を大量に入手可能",
+		subject = "教科書パック",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 480,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.libao127",
+		extra_gem = 0,
+		id = 2064,
+		airijp_id = "com.yostarjp.azurlane.package127",
+		name_display = "教科書パック",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

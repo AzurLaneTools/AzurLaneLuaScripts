@@ -197,6 +197,7 @@ slot3.onPlayerShutDown = function(slot0, slot1)
 
 		slot0._failReason = nil
 
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._state:BattleEnd()
 	end
 
@@ -234,6 +235,7 @@ slot3.onUpdateCountDown = function(slot0, slot1)
 		slot2, slot3 = slot0._userFleet:GetDamageRatioResult()
 		slot4, slot5 = slot0._rivalFleet:GetDamageRatioResult()
 
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._dataProxy:CalcDuelScoreAtTimesUp(slot2, slot4, slot3, slot5)
 		slot0._state:BattleEnd()
 	end

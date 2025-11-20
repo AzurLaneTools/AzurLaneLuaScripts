@@ -76,14 +76,14 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "dal-az-theme",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "dal-az-theme"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "dal-az-theme",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "dal-az-theme"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -135,10 +135,10 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
-	ActivityShop50221 = {
-		default_bgm = "theme-sakuraholyplace",
+	ActivityShop50246 = {
+		default_bgm = "dal-az-story-up",
 		special_bgm = "",
-		bgm = "theme-sakuraholyplace"
+		bgm = "dal-az-story-up"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2574,5 +2574,30 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-5",
 		special_bgm = "",
 		bgm = "story-richang-5"
+	},
+	DALMainPage = {
+		default_bgm = "dal-az-battle",
+		special_bgm = "",
+		bgm = "dal-az-battle"
+	},
+	DALptPage = {
+		default_bgm = "dal-az-story-up",
+		special_bgm = "",
+		bgm = "dal-az-story-up"
+	},
+	DALFavorabilityPage = {
+		default_bgm = "dal-az-story-up",
+		special_bgm = "",
+		bgm = "dal-az-story-up"
+	},
+	DALStagePage = {
+		default_bgm = "dal-az-theme",
+		special_bgm = "",
+		bgm = "dal-az-theme"
+	},
+	DALAwardPage = {
+		default_bgm = "dal-az-theme",
+		special_bgm = "",
+		bgm = "dal-az-theme"
 	}
 }

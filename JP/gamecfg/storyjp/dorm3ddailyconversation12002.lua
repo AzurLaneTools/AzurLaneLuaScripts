@@ -35,7 +35,7 @@ return {
 						},
 						{
 							skip = true,
-							name = "face_amazed_start",
+							name = "Face_amazed_start",
 							type = "action"
 						},
 						{

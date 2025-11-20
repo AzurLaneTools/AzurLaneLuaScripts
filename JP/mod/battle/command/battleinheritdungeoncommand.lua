@@ -24,6 +24,7 @@ slot3.initWaveModule = function(slot0)
 			return
 		end
 
+		uv0._dataProxy:TriggerFinishBattle()
 		uv0:CalcStatistic()
 		uv0:calcDamageData()
 		uv0._state:BattleEnd()

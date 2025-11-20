@@ -724,9 +724,13 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 
 				slot1:LoadBundle(uv1, function (slot0)
 					for slot4, slot5 in ipairs(slot0:GetAllAssetNames()) do
-						slot6, slot7, slot8 = string.find(slot5, "material_hx[/\\](.*).mat")
+						slot6, slot7, slot8 = string.find(string.lower(slot5), "material_hx[/\\](.*).mat")
 
 						if slot6 then
+							uv0.hxMatDict[slot8 .. " (Instance)"] = {
+								slot0,
+								slot5
+							}
 							uv0.hxMatDict[slot8] = {
 								slot0,
 								slot5
@@ -752,11 +756,7 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 				ladyGameObject = slot0
 			}
 
-			if uv3 ~= uv4:GetHXModel() then
-				uv1:HXCharacter(slot0.transform)
-			end
-
-			uv5()
+			uv3()
 		end)
 	end)
 
@@ -774,15 +774,10 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 							uv0.skinDict[uv1] = {
 								ladyGameObject = slot0
 							}
-
-							if uv2 ~= uv3:GetHXModel() then
-								uv0:HXCharacter(slot0.transform)
-							end
-
 							GetComponent(slot0, "GraphOwner").enabled = false
 
 							setActive(slot0, false)
-							uv4()
+							uv2()
 						end)
 					end)
 				end
@@ -840,6 +835,7 @@ end
 
 slot0.InitCharacter = function(slot0, slot1, slot2)
 	slot1:InitCharacter(slot2)
+	slot0:HXCharacter(slot1.lady)
 	slot1:SetZone(slot0.contextData.ladyZone[slot2])
 	slot0:ChangeCharacterPosition(slot1)
 end

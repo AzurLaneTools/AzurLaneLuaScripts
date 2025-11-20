@@ -7134,6 +7134,11 @@ _G.pg.base.gametip.word_shipNation_danmachi = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_dal = {
+	tip = "Date A Live"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "クリア"
 }
@@ -12862,7 +12867,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「雲仙」を確定で入手可能！（最大4隻まで）"
+	tip = "「夜刀神十香」「五河琴里」など出現率がUP!"
 }
 
 
@@ -45889,4 +45894,270 @@ _G.pg.base.gametip.black5_bundle_help = {
 			info = "対象の新規着せ替えを着せ替えショップにて購入済みの場合、購入した分のダイヤが割引されます。\nまた、パック購入の際に、着せ替えクーポンを適用することができません。着せ替えクーポンは着せ替えショップで対象着せ替えを購入する際に適用できます"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2512 = {
+	tip = "2025/12/1-2026/1/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ボイシ(META)」</color>などを入手可能"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2512 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2025.12.1（月）0:00～2026.1.31（土）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「ボイシ(META)」、SP報酬からは潜水空母「伊13」の限定着せ替え「ほろ酔いに熱冷まし」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+ さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+ ①通常報酬
+ 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+ ②SP報酬
+ 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+ シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+ ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+ 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません。
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2512 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません……
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2512 = {
+	tip = "シーズン任務・26期"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_data = {
+	tip = "海域情報"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_support = {
+	tip = "空中支援"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_commander = {
+	tip = "指揮システム"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_analysis_2 = {
+	tip = "分析完了"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_analysis_1 = {
+	tip = "分析中"
+}
+
+
+_G.pg.base.gametip.DAL_stage_finish_at = {
+	tip = "完了済："
+}
+
+
+_G.pg.base.gametip.activity_remain_time = {
+	tip = "イベント残り"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet1 = {
+	tip = "一覧"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet2 = {
+	tip = "累計Pt"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet3 = {
+	tip = "夢魔狂想曲"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet4 = {
+	tip = "日常編"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet5 = {
+	tip = "報酬一覧"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_ship = {
+	tip = "飛空艦強化"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_active = {
+	tip = "適用中"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet1_en = {
+	tip = "Main Page"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet2_en = {
+	tip = "Milestone"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet3_en = {
+	tip = "Kurumi Event"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet4_en = {
+	tip = "Side Stories"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet5_en = {
+	tip = "Reward List"
+}
+
+
+_G.pg.base.gametip.DAL_story_tip = {
+	tip = "ストーリーを読み、限定装備外装をGET"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_program = {
+	tip = "飛空艦強化"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_1 = {
+	tip = "AREA-1"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_2 = {
+	tip = "AREA-2"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_3 = {
+	tip = "AREA-3"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_4 = {
+	tip = "AREA-4"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_5 = {
+	tip = "AREA-5"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_6 = {
+	tip = "AREA-6"
+}
+
+
+_G.pg.base.gametip.dal_story_tip1 = {
+	tip = "ストーリーを読むと\n報酬を入手可能"
+}
+
+
+_G.pg.base.gametip.dal_story_tip2 = {
+	tip = "ストーリー確認で入手"
+}
+
+
+_G.pg.base.gametip.dal_story_tip3 = {
+	tip = "完了済"
+}
+
+
+_G.pg.base.gametip.dal_AwardPage_name_1 = {
+	tip = "Gear"
+}
+
+
+_G.pg.base.gametip.dal_AwardPage_name_2 = {
+	tip = "Module"
+}
+
+
+_G.pg.base.gametip.dal_chapter_goto = {
+	tip = "確認へ"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_unlock = {
+	tip = "未開放"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_not_enough = {
+	tip = "限定任務をクリアし、フラクシナスAL強化データを入手しましょう"
+}
+
+
+_G.pg.base.gametip.dal_chapter_tip = {
+	tip = [[
+コラボイベント『DATE A LANE』共闘ステージについて：
+ 1.イベント期間中AREA1～AREA6の合計6つの共闘ステージが出現します。共闘ステージをクリアすると、イベントPtアイテム「戦役貢献」を入手できます。
+ 　共闘ステージはそれぞれノーマル/ハードの難易度が存在し、難易度によって入手する「戦役貢献」の数が異なり、また一部報酬の入手確率が異なります。
+ 2.共闘ステージでは、所属サーバーの全ての指揮官のステージでの「戦役貢献」累計獲得数に応じて、作戦進捗が変動（ステージゲージが減少）していきます。
+ 3.共闘ステージは始めはAREA1のみが出現します。AREA1ステージのゲージが0%になると、AREA2～AREA5ステージが開放されます。AREA2～AREA5ステージのゲージが全部0%になると、AREA6ステージが開放されます。
+   コラボイベント参加時にすでにイベントステージがクリア「完全制圧」になっている場合でも、引き続き当該ステージに挑戦することができます。また、「完全制圧」のステージを1度クリアすると、作戦進捗ストーリーが解放され、次のステージに挑戦できるようになります。
+ 4.共闘ステージのゲージが0%になると、イベントに参加した指揮官に完全制圧報酬がメールで配布されます。
+ 5.ステージのゲージが0％になるまでに当該ステージを一度もクリアしいなかった指揮官には、報酬を入手できる特殊任務が出現します。
+
+  <飛空艦強化>
+ 1.イベントステージ選択画面の右下の「飛空艦強化」をタップすると、飛空艦強化画面に移動できます。 2.「飛空艦強化」では、コラボイベント任務で入手した「フラクシナスAL強化データ」を消費し、それぞれの陣営の強化モジュールを有効化できます。モジュールを有効化すると、コラボステージで艦隊に強化効果が付与されます。
+]]
 }

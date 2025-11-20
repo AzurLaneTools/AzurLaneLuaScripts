@@ -105,6 +105,8 @@ slot0.onRegister = function(slot0)
 		underscore.each(slot0, function (slot0)
 			if slot0.type == DROP_TYPE_OPERATION then
 				table.insert(uv0, uv1:getShipById(slot0.count))
+			elseif slot0.type == DROP_TYPE_VITEM and slot0:getConfig("virtual_type") == 17 then
+				table.insert(uv0, uv1:getShipById(getProxy(ActivityProxy):getActivityById(slot0:getConfig("link_id")).data2))
 			elseif slot0.type == DROP_TYPE_SHIP then
 				if Ship.isMetaShipByConfigID(slot0.configId or slot0.id) then
 					if table.indexof(uv2, slot1) then

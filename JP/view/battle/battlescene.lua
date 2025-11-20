@@ -359,6 +359,32 @@ slot0.CutInPainting = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._paintingAnimator:Play("skill_painting", -1, 0)
 end
 
+slot0.CutInPaintingDAL = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = ys.Battle.BattleResourceManager.GetInstance()
+	slot6 = slot5:InstSkillPaintingDALUI()
+
+	setParent(slot6, slot0.uiCanvas, false)
+
+	slot7 = findTF(slot6, "hero/fitter")
+	slot9 = GetOrAddComponent(slot7, "PaintingScaler")
+	slot9.FrameName = "lihuisha"
+	slot9.Tween = 1
+	slot10 = ys.Battle.BattleResourceManager.GetInstance()
+
+	setParent(slot10:InstPainting(slot4.cutin_cover_DAL), slot7, false)
+
+	slot11 = slot6:GetComponent(typeof(Animator))
+
+	slot11:Play("skill_painting", -1, 0)
+	setText(findTF(slot6, "pop/text"), slot4.cutin_script)
+
+	slot11 = slot6:GetComponent(typeof(DftAniEvent))
+
+	slot11:SetEndEvent(function (slot0)
+		setActive(uv0, false)
+	end)
+end
+
 slot0.didEnter = function(slot0)
 	setActive(slot0._tf, false)
 
@@ -582,7 +608,7 @@ slot0.initPauseWindow = function(slot0)
 
 		setText(slot3, slot6.chapter_name)
 		setText(slot4, string.split(slot6.name, "|")[1])
-	elseif slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_BOSS_EXPERIMENT or slot5 == SYSTEM_ACT_BOSS or slot5 == SYSTEM_ACT_BOSS_SP or slot5 == SYSTEM_BOSS_RUSH or slot5 == SYSTEM_BOSS_RUSH_EX or slot5 == SYSTEM_LIMIT_CHALLENGE or slot5 == SYSTEM_BOSS_SINGLE or slot5 == SYSTEM_BOSS_SINGLE_VARIABLE then
+	elseif slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_BOSS_EXPERIMENT or slot5 == SYSTEM_ACT_BOSS or slot5 == SYSTEM_ACT_BOSS_SP or slot5 == SYSTEM_BOSS_RUSH or slot5 == SYSTEM_BOSS_RUSH_EX or slot5 == SYSTEM_BOSS_RUSH_COLLABRATE or slot5 == SYSTEM_LIMIT_CHALLENGE or slot5 == SYSTEM_BOSS_SINGLE or slot5 == SYSTEM_BOSS_SINGLE_VARIABLE then
 		setText(slot3, "SP")
 		setText(slot4, pg.expedition_data_template[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().StageTmpId].name)
 	elseif slot5 == SYSTEM_DEBUG then

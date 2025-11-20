@@ -114,6 +114,12 @@ slot5.UpdateArrowBarPosition = function(slot0)
 			slot0._arrowCG.alpha = 1
 		end
 	end
+
+	if slot0._unitData:GetGroupID() and table.contains(uv1.MIRROR_QICON_SHIP_GROUP, slot0._unitData:GetGroupID()) then
+		slot2 = nil
+
+		setImageSprite(findTF(slot0._arrowBar, "icon"), uv2.Battle.BattleResourceManager.GetInstance():GetCharacterQIcon(slot0._arrowVector.x > 0 and slot0._unitData:GetTemplate().painting .. uv1.MIRROR_QICON_KEY or slot0._unitData:GetTemplate().painting))
+	end
 end
 
 slot5.UpdateHpBar = function(slot0)

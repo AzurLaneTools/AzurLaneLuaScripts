@@ -1839,5 +1839,25 @@ pg.voice_actor_CN = {
 	[482] = {
 		actor_name = "本田貴子",
 		code = 482
+	},
+	[483] = {
+		actor_name = "富樫美鈴",
+		code = 483
+	},
+	[484] = {
+		actor_name = "竹達彩奈",
+		code = 484
+	},
+	[485] = {
+		actor_name = "野水伊織",
+		code = 485
+	},
+	[486] = {
+		actor_name = "真田アサミ",
+		code = 486
+	},
+	[487] = {
+		actor_name = "内田真礼&ブリドカット セーラ 恵美",
+		code = 487
 	}
 }

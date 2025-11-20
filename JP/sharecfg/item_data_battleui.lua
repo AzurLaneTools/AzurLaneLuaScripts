@@ -137,12 +137,27 @@ pg.item_data_battleui = {
 		name = "墨と竹",
 		key = "SkinNormal_20250925",
 		display_icon = "ui_109",
-		unlock = "世界巡游二十五期获取",
+		unlock = "クルーズパス25期報酬",
 		is_unlock = 1,
 		rare = 3,
 		desc = "墨絵風のインターフェイス。白黒の中で広がる墨と、揺れているように描かれている竹の影が、雅の雰囲気を醸し出す",
 		id = 109,
 		icon = "109",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
+	[111] = {
+		name = "影絵",
+		key = "SkinNormal_20251120",
+		display_icon = "ui_111",
+		unlock = "クルーズパス26期報酬",
+		is_unlock = 1,
+		rare = 3,
+		desc = "シンプルな影絵は無限の幻想を描き出し、簡単な物語は素晴らしい希望を与える",
+		id = 111,
+		icon = "111",
 		scene = {},
 		rare_display = {
 			1
@@ -244,6 +259,7 @@ pg.item_data_battleui = {
 		107,
 		108,
 		109,
+		111,
 		201,
 		202,
 		203,

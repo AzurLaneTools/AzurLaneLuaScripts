@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					13
+					20
 				},
 				{
 					0,
@@ -24,13 +24,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					3
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -51,7 +51,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					13
+					20
 				},
 				{
 					0,
@@ -62,8 +62,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					4
 				},
 				{
 					16,
@@ -74,16 +74,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50222",
-		type = 3,
+		type = 2,
 		id = 3,
 		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "DALCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					11,
-					13
+					20
 				},
 				{
 					0,
@@ -94,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					4
 				},
 				{
 					16,
@@ -120,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					13
+					20
 				},
 				{
 					0,
@@ -157,7 +162,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					13
+					20
 				},
 				{
 					0,
@@ -168,8 +173,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					19
+					12,
+					3
 				},
 				{
 					23,
@@ -180,27 +185,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene court yard"
-		}
-	},
-	{
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
 					11,
-					13
+					20
 				},
 				{
 					0,
@@ -211,8 +207,42 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"crusing"
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					11
 				},
 				{
 					16,
@@ -223,20 +253,78 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "7503",
-		time = "stop",
-		type = 3,
+		type = 2,
 		id = 8,
-		pic = "temp8"
+		pic = "temp8",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene Cryptolalia",
-			{}
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					4
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
 		}
 	},
 	[90] = {
@@ -270,7 +358,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					13
+					20
 				},
 				{
 					0,
@@ -363,15 +451,13 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
 			6,
 			7,
+			8,
 			9
-		},
-		[3] = {
-			3,
-			8
 		},
 		[9] = {
 			90,

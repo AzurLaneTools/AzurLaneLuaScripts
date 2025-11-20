@@ -16,6 +16,7 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = ActivityBossActivity,
 		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = BossRushActivity,
 		[ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK] = BossRushRankActivity,
+		[ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB] = CollabrateBossRushActivity,
 		[ActivityConst.ACTIVITY_TYPE_WORKBENCH] = WorkBenchActivity,
 		[ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG] = VirtualBagActivity,
 		[ActivityConst.ACTIVITY_TYPE_SCULPTURE] = SculptureActivity,

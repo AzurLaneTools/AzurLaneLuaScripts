@@ -15753,6 +15753,37 @@ _G.pg.base.item_data_statistics[21052] = {
 }
 
 
+_G.pg.base.item_data_statistics[21053] = {
+	open_directly = 0,
+	name = "結晶：ボイシ(META)",
+	type = 4,
+	display = "ボイシ(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21053",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21053,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -27831,6 +27862,131 @@ _G.pg.base.item_data_statistics[30376] = {
 }
 
 
+_G.pg.base.item_data_statistics[30377] = {
+	open_directly = 1,
+	name = "装備外装箱(Date A Live)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdal",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30374",
+	id = 30377,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1511,
+			1
+		},
+		{
+			9,
+			1512,
+			1
+		},
+		{
+			9,
+			1513,
+			1
+		},
+		{
+			9,
+			1514,
+			1
+		},
+		{
+			9,
+			1515,
+			1
+		},
+		{
+			9,
+			1516,
+			1
+		},
+		{
+			9,
+			1517,
+			1
+		},
+		{
+			9,
+			1518,
+			1
+		},
+		{
+			9,
+			1519,
+			1
+		},
+		{
+			9,
+			1520,
+			1
+		},
+		{
+			9,
+			1521,
+			1
+		},
+		{
+			9,
+			1522,
+			1
+		},
+		{
+			9,
+			1523,
+			1
+		},
+		{
+			9,
+			1524,
+			1
+		},
+		{
+			9,
+			1525,
+			1
+		},
+		{
+			9,
+			1526,
+			1
+		},
+		{
+			9,
+			1527,
+			1
+		},
+		{
+			9,
+			1528,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -29452,6 +29608,58 @@ _G.pg.base.item_data_statistics[30431] = {
 		{
 			9,
 			2108,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30432] = {
+	open_directly = 1,
+	name = "ランダム装備外装",
+	type = 11,
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111226",
+	id = 30432,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2109,
+			1
+		},
+		{
+			9,
+			2110,
+			1
+		},
+		{
+			9,
+			2111,
+			1
+		},
+		{
+			9,
+			2112,
 			1
 		}
 	},
@@ -42222,6 +42430,219 @@ _G.pg.base.item_data_statistics[30560] = {
 		{
 			9,
 			4257,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30561] = {
+	open_directly = 0,
+	name = "選択装備外装箱（Date A Live）",
+	type = 13,
+	display = "使用すると、装備外装（Date A Live）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdalzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30561,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1511,
+			1
+		},
+		{
+			9,
+			1512,
+			1
+		},
+		{
+			9,
+			1513,
+			1
+		},
+		{
+			9,
+			1514,
+			1
+		},
+		{
+			9,
+			1515,
+			1
+		},
+		{
+			9,
+			1516,
+			1
+		},
+		{
+			9,
+			1517,
+			1
+		},
+		{
+			9,
+			1518,
+			1
+		},
+		{
+			9,
+			1519,
+			1
+		},
+		{
+			9,
+			1520,
+			1
+		},
+		{
+			9,
+			1521,
+			1
+		},
+		{
+			9,
+			1522,
+			1
+		},
+		{
+			9,
+			1523,
+			1
+		},
+		{
+			9,
+			1524,
+			1
+		},
+		{
+			9,
+			1525,
+			1
+		},
+		{
+			9,
+			1526,
+			1
+		},
+		{
+			9,
+			1527,
+			1
+		},
+		{
+			9,
+			1528,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			1511,
+			1
+		},
+		{
+			9,
+			1512,
+			1
+		},
+		{
+			9,
+			1513,
+			1
+		},
+		{
+			9,
+			1514,
+			1
+		},
+		{
+			9,
+			1515,
+			1
+		},
+		{
+			9,
+			1516,
+			1
+		},
+		{
+			9,
+			1517,
+			1
+		},
+		{
+			9,
+			1518,
+			1
+		},
+		{
+			9,
+			1519,
+			1
+		},
+		{
+			9,
+			1520,
+			1
+		},
+		{
+			9,
+			1521,
+			1
+		},
+		{
+			9,
+			1522,
+			1
+		},
+		{
+			9,
+			1523,
+			1
+		},
+		{
+			9,
+			1524,
+			1
+		},
+		{
+			9,
+			1525,
+			1
+		},
+		{
+			9,
+			1526,
+			1
+		},
+		{
+			9,
+			1527,
+			1
+		},
+		{
+			9,
+			1528,
 			1
 		}
 	},

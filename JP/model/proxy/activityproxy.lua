@@ -50,6 +50,8 @@ slot0.register = function(slot0)
 					uv0:InitActtivityFleet(slot6, slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE then
 					uv0:CheckDailyEventRequest(slot6)
+				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
+					uv0:InitActtivityFleet(slot6, slot5)
 				end
 
 				uv0.data[slot5.id] = slot6
@@ -122,7 +124,7 @@ slot0.register = function(slot0)
 	slot0:on(40009, function (slot0)
 		slot2 = nil
 
-		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
+		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) or uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB) then
 			slot2 = slot1:GetSeriesData()
 		end
 
@@ -897,6 +899,9 @@ slot0.getEnterReadyActivity = function(slot0)
 			return true
 		end,
 		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = function (slot0)
+			return true
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB] = function (slot0)
 			return true
 		end
 	}

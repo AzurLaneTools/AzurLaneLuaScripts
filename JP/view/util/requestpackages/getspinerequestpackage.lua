@@ -5,11 +5,16 @@ slot0.__call = function(slot0)
 		return
 	end
 
-	slot2 = PoolMgr.GetInstance()
+	slot0.spineChar = SpineAnimChar.New()
+	slot2 = slot0.spineChar
 
-	slot2:GetSpineChar(slot0.name, true, function (slot0)
+	slot2:SetPaint(slot0.name)
+
+	slot2 = slot0.spineChar
+
+	slot2:Load(true, function (slot0)
 		if uv0.stopped then
-			PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
+			slot0:Dispose()
 
 			return
 		end

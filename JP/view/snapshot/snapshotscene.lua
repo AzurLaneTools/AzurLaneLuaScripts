@@ -346,8 +346,10 @@ slot0.clearSkin = function(slot0)
 		retPaintingPrefab(slot0.paint, slot0.paintSkin)
 	end
 
-	if slot0.spineSkin and slot0.showType == uv0.SHOW_SPINE then
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.spineSkin, go(slot0.spine:Find("model")))
+	if slot0.spineSkin and slot0.showType == uv0.SHOW_SPINE and slot0.spineChar then
+		slot0.spineChar:Dispose()
+
+		slot0.spineChar = nil
 	end
 
 	if slot0.live2dCom then
@@ -546,17 +548,18 @@ slot0.updateSkin = function(slot0)
 		SetActive(slot0.live2d, false)
 		SetActive(slot0.spine, true)
 
-		slot4 = PoolMgr.GetInstance()
+		slot0.spineChar = SpineAnimChar.New()
+		slot4 = slot0.spineChar
 
-		slot4:GetSpineChar(slot0.spineSkin, true, function (slot0)
-			slot0.name = "model"
-			slot1 = slot0.transform
+		slot4:SetPaint(slot0.spineSkin)
 
-			slot1:SetParent(uv0.spine, true)
+		slot4 = slot0.spineChar
 
-			slot1.localScale = Vector3(0.5, 0.5, 0.5)
-			slot1.localPosition = Vector3.zero
-
+		slot4:Load(true, function (slot0)
+			slot0:SetName("model")
+			slot0:SetParent(uv0.spine, true)
+			slot0:SetLocalScale(Vector3(0.5, 0.5, 0.5))
+			slot0:SetLocalPosition(Vector3.zero)
 			uv0:playAction("normal")
 		end)
 	end
@@ -567,7 +570,9 @@ slot0.playAction = function(slot0, slot1)
 		return
 	end
 
-	GetOrAddComponent(slot0.spine:Find("model"), typeof(SpineAnimUI)):SetAction(slot1, 0)
+	if slot0.spineChar then
+		slot0.spineChar:SetAction(slot1, 0)
+	end
 end
 
 slot0.ResetL2dPanel = function(slot0)
@@ -804,13 +809,9 @@ end
 
 slot0.SetMute = function(slot0, slot1)
 	if slot1 then
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
+		pg.CriMgr.GetInstance():MuteAllVolume()
 	else
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", pg.CriMgr.GetInstance():getCVVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", pg.CriMgr.GetInstance():getBGMVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", pg.CriMgr.GetInstance():getSEVolume())
+		pg.CriMgr.GetInstance():ResetAllVolume()
 	end
 end
 

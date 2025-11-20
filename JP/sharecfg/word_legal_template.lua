@@ -4506,6 +4506,17 @@ temp = function()
 								}
 							}
 						}
+					},
+					M = {
+						E = {
+							T = {
+								A = {
+									[")"] = {
+										this = true
+									}
+								}
+							}
+						}
 					}
 				}
 			}
@@ -6329,6 +6340,13 @@ temp = function()
 	uv0["時"] = {
 		["雨"] = {
 			this = true
+		},
+		["崎"] = {
+			["狂"] = {
+				["三"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6976,6 +6994,13 @@ temp = function()
 		["十"] = {
 			["鈴"] = {
 				this = true
+			}
+		},
+		["河"] = {
+			["琴"] = {
+				["里"] = {
+					this = true
+				}
 			}
 		}
 	}
@@ -8341,6 +8366,11 @@ temp = function()
 			["十"] = {
 				this = true
 			}
+		},
+		["糸"] = {
+			["乃"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -9082,6 +9112,62 @@ temp = function()
 	uv0["焔"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["夜"] = {
+		["刀"] = {
+			["神"] = {
+				["十"] = {
+					["香"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鳶"] = {
+		["一"] = {
+			["折"] = {
+				["紙"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["八"] = {
+		["舞"] = {
+			["耶"] = {
+				["倶"] = {
+					["矢"] = {
+						["・"] = {
+							["八"] = {
+								["舞"] = {
+									["夕"] = {
+										["弦"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

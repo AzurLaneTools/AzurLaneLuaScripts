@@ -103,7 +103,7 @@ return {
 		end
 
 		if getProxy(BayProxy) then
-			for slot9, slot10 in ipairs(slot4.activityNpcShipIds) do
+			for slot9, slot10 in ipairs(slot4.activityNPCShipIds) do
 				uv0.AddPaintingNameByShipGroupID(slot0, slot4.getShipById(slot4, slot10).groupId)
 			end
 		end

@@ -176,7 +176,24 @@ slot2.MakeSkinOrbit = function(slot0, slot1)
 		for slot7, slot8 in ipairs(slot3) do
 			slot9 = uv0.Battle.BattleDataFunction.GetEquipSkinDataFromID(slot8)
 
-			slot1:AddOrbit(uv0.Battle.BattleResourceManager.GetInstance():InstOrbit(slot9.orbit_combat), slot9)
+			if slot1:IsDoubleChar() then
+				slot10 = uv0.Battle.BattleResourceManager.GetInstance():InstOrbit(slot9.orbit_combat)
+				slot11 = uv0.Battle.BattleResourceManager.GetInstance():InstOrbit(slot9.orbit_combat)
+
+				if slot9.double_char_bone and #slot12 > 0 and slot12[1] == 1 then
+					slot1:AddOrbit(slot11, slot9, "char2")
+				end
+
+				if slot12 and #slot12 > 0 and slot12[2] == 1 then
+					slot1:AddOrbit(slot10, slot9)
+				end
+
+				if slot12 and #slot12 > 0 and slot12[3] == 1 then
+					slot1:AddOrbit(slot10, slot9, "char1")
+				end
+			else
+				slot1:AddOrbit(uv0.Battle.BattleResourceManager.GetInstance():InstOrbit(slot9.orbit_combat), slot9)
+			end
 		end
 	end
 end

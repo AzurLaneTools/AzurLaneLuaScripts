@@ -24,6 +24,7 @@ slot0.SPINE_SCALE = 2
 slot0.BULLET_UPPER_BOUND_VISION_OFFSET = 30
 slot0.BULLET_LEFT_BOUND_SPLIT_OFFSET = 8
 slot0.BULLET_LOWER_BOUND_SPLIT_OFFSET = 8
+slot0.BULLET_SPLIT_SHIFT_DELAY = 0.2
 slot0.CAMERA_INIT_POS = Vector3(0, 62, -10)
 slot0.CAMERA_SIZE = 20
 slot0.CAMERA_BASE_HEIGH = 8
@@ -414,13 +415,15 @@ slot0.AIM_BIAS_MAX_RANGE_MONSTER = 60
 slot0.AIM_BIAS_MAX_RANGE_SUB = 25
 slot0.AIM_BIAS_ENEMY_INIT_TIME = 1.5
 slot0.FLEET_ATTR_CAP = {
+	kuangsanshuliang = 3,
 	huohun = 5,
+	YumiaManaFlow = 10,
+	Judgement = 12,
 	shenpanzhijian = 6,
+	kuangsanshijian = 50,
 	ReisalinAP = 99,
 	KansasSP = 3,
-	Judgement = 12,
 	YumiaMANA = 100,
-	YumiaManaFlow = 10,
 	yuanchou = 9
 }
 slot0.TARGET_SELECT_PRIORITY = {
@@ -464,3 +467,7 @@ slot0.YUMIA_MANA_UI = {
 	113
 }
 slot0.YUMIA_MANA_NAME = "YumiaMANA"
+slot0.MIRROR_QICON_KEY = "_turn"
+slot0.MIRROR_QICON_SHIP_GROUP = {
+	1150005
+}

@@ -27,6 +27,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 	slot0.state = uv0.STATE_IDLE
 	slot0.moveCnt = 0
+	slot0.sideIndex = 0
 end
 
 slot0.GetLevel = function(slot0)
@@ -178,11 +179,41 @@ slot0.GetState = function(slot0)
 end
 
 slot0.GetPrefab = function(slot0)
+	slot1 = pg.ship_skin_template[slot0.skinId]
+
+	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
+
+	if slot1.double_char and slot1.double_char == 1 and slot0.sideIndex and slot0.sideIndex ~= 0 then
+		slot2 = nil
+
+		if slot0.sideIndex == 1 then
+			return slot0.prefab .. "_L"
+		elseif slot0.sideIndex == 2 then
+			return slot0.prefab .. "_R"
+		end
+	end
+
 	return slot0.prefab
 end
 
 slot0.getPrefab = function(slot0)
 	return slot0:GetPrefab()
+end
+
+slot0.SetSide = function(slot0, slot1)
+	slot0.sideIndex = slot1
+end
+
+slot0.GetSide = function(slot0, slot1)
+	return slot0.sideIndex
+end
+
+slot0.IsDoubleSkin = function(slot0)
+	slot1 = pg.ship_skin_template[slot0.skinId]
+
+	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
+
+	return slot1.double_char and slot1.double_char == 1 or false
 end
 
 slot0.getAttachmentPrefab = function(slot0)

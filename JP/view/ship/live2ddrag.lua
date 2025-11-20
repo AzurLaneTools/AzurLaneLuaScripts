@@ -1062,7 +1062,7 @@ slot0.updateTrigger = function(slot0)
 			slot7 = slot4[1]
 			slot8 = slot4[2]
 
-			if math.abs(slot0:fixParameterTargetValue(slot0.offsetDragX, slot0.range, slot0.rangeAbs, slot0.dragDirect) - slot7) < math.abs(slot7) * 0.25 and math.abs(slot6 - slot8) < math.abs(slot8) * 0.25 then
+			if math.abs(slot0:fixParameterTargetValue(slot0.offsetDragX, slot0.range, slot0.rangeAbs, slot0.dragDirect) - slot7) <= math.abs(slot7) * 0.25 and math.abs(slot6 - slot8) <= math.abs(slot8) * 0.25 then
 				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
 
 				if slot3 < slot0.triggerActionTime and not slot0.l2dIsPlaying then

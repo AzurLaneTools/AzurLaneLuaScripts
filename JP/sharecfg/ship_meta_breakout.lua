@@ -70,6 +70,10 @@ pg.ship_meta_breakout = setmetatable({
 		9702072,
 		9702073,
 		9702074,
+		9702081,
+		9702082,
+		9702083,
+		9702084,
 		9703011,
 		9703012,
 		9703013,
@@ -1282,6 +1286,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9702074,
 		item1 = 21030,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9702081] = {
+		breakout_view = "【構造の理-ボイシ(META)】習得/主砲補正+5%",
+		item2 = 21053,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9702082,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702081,
+		item1 = 21053,
+		level = 10,
+		weapon_ids = {
+			70121
+		}
+	},
+	[9702082] = {
+		breakout_view = "主砲砲座+1/主砲補正+10%",
+		item2 = 21053,
+		pre_id = 9702081,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9702083,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702082,
+		item1 = 21053,
+		level = 30,
+		weapon_ids = {
+			12100,
+			12100
+		}
+	},
+	[9702083] = {
+		breakout_view = "【構造の理-ボイシ(META)】強化/主砲補正+15%",
+		item2 = 21053,
+		pre_id = 9702082,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9702084,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702083,
+		item1 = 21053,
+		level = 70,
+		weapon_ids = {
+			70122
+		}
+	},
+	[9702084] = {
+		breakout_view = "なし",
+		item2 = 21053,
+		pre_id = 9702083,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702084,
+		item1 = 21053,
 		level = 0,
 		weapon_ids = {}
 	},

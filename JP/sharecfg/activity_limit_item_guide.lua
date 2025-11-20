@@ -2545,6 +2545,191 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[171] = {
+		is_new = 1,
+		activity = 50249,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 171,
+		drop_id = 150860,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[172] = {
+		is_new = 1,
+		activity = 50249,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 172,
+		drop_id = 150880,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 50246,
+						warp = 1
+					}
+				},
+				"ショップで交換"
+			}
+		}
+	},
+	[173] = {
+		is_new = 1,
+		activity = 50249,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 173,
+		drop_id = 150900,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 50246,
+						warp = 1
+					}
+				},
+				"ショップで交換"
+			}
+		}
+	},
+	[174] = {
+		is_new = 1,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 174,
+		drop_id = 14780,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「異常海域·第1作戦エリア」完全制圧報酬"
+			}
+		}
+	},
+	[175] = {
+		is_new = 1,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 175,
+		drop_id = 14760,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「異常海域·第2作戦エリア」完全制圧報酬"
+			}
+		}
+	},
+	[176] = {
+		is_new = 1,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 176,
+		drop_id = 14800,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「異常海域·第3作戦エリア」完全制圧報酬"
+			}
+		}
+	},
+	[177] = {
+		is_new = 1,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 177,
+		drop_id = 14840,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「異常海域·第4作戦エリア」完全制圧報酬"
+			}
+		}
+	},
+	[178] = {
+		is_new = 1,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 178,
+		drop_id = 14860,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「異常海域·第5作戦エリア」完全制圧報酬"
+			}
+		}
+	},
+	[179] = {
+		is_new = 1,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 179,
+		drop_id = 14820,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「異常海域·第6作戦エリア」完全制圧報酬"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -2696,6 +2881,17 @@ pg.activity_limit_item_guide = {
 			163,
 			164,
 			165
+		},
+		[50249] = {
+			171,
+			172,
+			173,
+			174,
+			175,
+			176,
+			177,
+			178,
+			179
 		}
 	},
 	all = {
@@ -2837,6 +3033,15 @@ pg.activity_limit_item_guide = {
 		162,
 		163,
 		164,
-		165
+		165,
+		171,
+		172,
+		173,
+		174,
+		175,
+		176,
+		177,
+		178,
+		179
 	}
 }

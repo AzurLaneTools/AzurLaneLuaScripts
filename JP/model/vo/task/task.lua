@@ -137,6 +137,21 @@ slot0.getProgress = function(slot0)
 		end,
 		[TASK_SUB_TYPE_JOIN_GUILD] = function ()
 			return getProxy(GuildProxy):getData() and 1 or 0
+		end,
+		[TASK_SUB_TYPE_COLLAB_BOSS_RUSH_DEFEAT] = function ()
+			slot0 = tonumber(uv0:getConfig("target_id"))
+
+			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB) then
+				return 0
+			end
+
+			for slot6, slot7 in pairs(slot1:GetCollabSeriesDataList()) do
+				if slot7:GetCollabBossID() == slot0 then
+					return slot7:GetBossTimeStamp() ~= 0 and 1 or 0
+				end
+			end
+
+			return 0
 		end
 	}, function ()
 		return uv0.progress

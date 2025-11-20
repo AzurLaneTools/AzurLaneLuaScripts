@@ -71,7 +71,7 @@ slot0.Show = function(slot0)
 		end
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot0:BlurPanel(slot0._tf)
 	slot0:TryPlaySupportGuide()
 	slot0:CheckGuideElement()
 end
@@ -106,7 +106,7 @@ slot0.Hide = function(slot0)
 
 	slot0.spItemID = nil
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.setOpenCommanderTag = function(slot0, slot1)

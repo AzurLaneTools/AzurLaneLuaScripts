@@ -129,7 +129,7 @@ slot0.register = function(slot0)
 					}
 				}))
 			end
-		elseif uv0 == SYSTEM_BOSS_RUSH then
+		elseif uv0 == SYSTEM_BOSS_RUSH or uv0 == SYSTEM_BOSS_RUSH_COLLABRATE then
 			if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
 				getProxy(ContextProxy):GetPrevContext(1):addChild(Context.New({
 					mediator = BossRushTotalRewardPanelMediator,
@@ -987,7 +987,7 @@ slot0.GenBattleData = function(slot0)
 		slot1.SubCommanderList = slot18:BuildBattleBuffList()
 
 		slot0.viewComponent:setFleet(slot11, slot12, slot13)
-	elseif slot2 == SYSTEM_BOSS_RUSH or slot2 == SYSTEM_BOSS_RUSH_EX then
+	elseif slot2 == SYSTEM_BOSS_RUSH or slot2 == SYSTEM_BOSS_RUSH_EX or slot2 == SYSTEM_BOSS_RUSH_COLLABRATE then
 		slot7 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()
 
 		assert(slot7)
@@ -1066,6 +1066,22 @@ slot0.GenBattleData = function(slot0)
 		end
 
 		slot0.viewComponent:setFleet(slot15, slot16, slot17)
+
+		if slot2 == SYSTEM_BOSS_RUSH_COLLABRATE then
+			slot1.ChapterBuffIDs = {}
+
+			for slot37, slot38 in ipairs(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF):GetBuildingIds()) do
+				if slot32:GetBuildingConfigTable(slot38).buff[slot32:GetBuildingLevel(slot38)] ~= 0 and ActivityBuff.New(slot32.id, slot40):isActivate() and slot41:getConfig("benefit_type") == ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF then
+					table.insert(slot1.ChapterBuffIDs, slot41:getConfig("benefit_effect"))
+				end
+			end
+
+			slot1.DALAidBuffIDs = {}
+
+			if slot7:GetBossHpRate() <= slot7:getConfig("aid_buff")[1] then
+				table.insert(slot1.DALAidBuffIDs, slot34[2])
+			end
+		end
 	elseif slot2 == SYSTEM_LIMIT_CHALLENGE then
 		slot1.ExtraBuffList = AcessWithinNull(pg.expedition_constellation_challenge_template[LimitChallengeConst.GetChallengeIDByStageID(slot0.contextData.stageId)], "buff_id")
 		slot10 = getProxy(FleetProxy)

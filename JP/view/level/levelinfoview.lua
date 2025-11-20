@@ -29,13 +29,13 @@ end
 
 slot0.Show = function(slot0)
 	setActive(slot0._tf, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot0:BlurPanel(slot0._tf)
 end
 
 slot0.Hide = function(slot0)
 	slot0:clear()
 	setActive(slot0._tf, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.setCBFunc = function(slot0, slot1, slot2)

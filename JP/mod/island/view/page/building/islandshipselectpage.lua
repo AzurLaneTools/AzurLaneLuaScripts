@@ -411,13 +411,13 @@ slot0.FlushAddPercent = function(slot0)
 		return
 	end
 
-	slot1, slot2, slot3 = IslandProductTimeHelper.GetAllAddPercent(slot0.showId, slot0.placeId, slot0.attrType)
+	slot1, slot2, slot3, slot4 = IslandProductTimeHelper.GetAllAddPercent(slot0.showId, slot0.placeId, slot0.attrType)
 
 	setActive(slot0.addStutasTF, true)
-	setText(slot0.addStutasNum, i18n("island_production_speed_tip1", slot1 + slot2 + slot3))
+	setText(slot0.addStutasNum, i18n("island_production_speed_tip1", slot1 + slot2 + slot3 + slot4))
 
 	slot0.buffInfos = {}
-	slot5 = IslandProductTimeHelper.GetAttributeAddPercent(slot0.showId, slot0.attrType)
+	slot6 = IslandProductTimeHelper.GetAttributeAddPercent(slot0.showId, slot0.attrType)
 
 	if slot1 > 0 then
 		table.insert(slot0.buffInfos, {
@@ -437,6 +437,13 @@ slot0.FlushAddPercent = function(slot0)
 		table.insert(slot0.buffInfos, {
 			name = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0.showId):GetSkill():GetName(),
 			effect = "+" .. slot3 .. "%"
+		})
+	end
+
+	if slot4 > 0 then
+		table.insert(slot0.buffInfos, {
+			name = i18n("island_production_speed_addition3"),
+			effect = "+" .. slot4 .. "%"
 		})
 	end
 
@@ -514,9 +521,9 @@ slot0.GetShips = function(slot0)
 			if slot0.needWorkSpeed then
 				table.insert(slot2, setmetatable({
 					GetWorkSpeed = function ()
-						slot0, slot1, slot2 = IslandProductTimeHelper.GetAllAddPercent(uv0.id, uv1.placeId, uv1.attrType)
+						slot0, slot1, slot2, slot3 = IslandProductTimeHelper.GetAllAddPercent(uv0.id, uv1.placeId, uv1.attrType)
 
-						return slot0 + slot1 + slot2
+						return slot0 + slot1 + slot2 + slot3
 					end
 				}, {
 					__index = slot8

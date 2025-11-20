@@ -107,7 +107,7 @@ slot2 = {
 		end
 	end,
 	isActivityNpc = function ()
-		return getProxy(BayProxy).activityNpcShipIds
+		return getProxy(BayProxy).activityNPCShipIds
 	end,
 	inGuildEvent = function ()
 		if getProxy(GuildProxy):getRawData() then

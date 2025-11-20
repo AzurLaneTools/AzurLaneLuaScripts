@@ -51,6 +51,10 @@ pg.dorm3d_stocking = {
 		scene_stocking_path = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_sock01/pre_db_df_sock01_l",
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_sock01/pre_db_df_sock01_r"
+		},
+		wear_initial_pos = {
+			0.1,
+			0
 		}
 	},
 	{
@@ -104,6 +108,10 @@ pg.dorm3d_stocking = {
 		scene_stocking_path = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_sock01/pre_db_df_sock01_l",
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_sock01/pre_db_df_sock01_r"
+		},
+		wear_initial_pos = {
+			0.1,
+			0.1
 		}
 	},
 	all = {

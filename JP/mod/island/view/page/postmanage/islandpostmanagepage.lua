@@ -63,6 +63,7 @@ slot0.OnInit = function(slot0)
 		onToggle(uv0, slot0, function (slot0)
 			if slot0 then
 				uv0.curPage = uv1.name
+				uv0.contextData.curPage = uv0.curPage
 
 				uv0:SwitchPage()
 			end
@@ -107,7 +108,7 @@ end
 
 slot0.OnShow = function(slot0)
 	slot0:BlurPanel()
-	triggerToggle(slot0.togglesTF:Find(uv0.PAGE_PROD), true)
+	triggerToggle(slot0.togglesTF:Find(slot0.contextData.curPage or uv0.PAGE_PROD), true)
 	slot0:FlushTips()
 	setActive(slot0.signInNoticeTF, getProxy(IslandProxy):GetIsland():GetSignInAgency():CanSignIn())
 end

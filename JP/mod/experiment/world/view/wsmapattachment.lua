@@ -2,12 +2,13 @@ slot0 = class("WSMapAttachment", import(".WSMapTransform"))
 slot0.Fields = {
 	cell = "table",
 	lurkTimer = "table",
-	map = "table",
 	isInit = "boolean",
+	map = "table",
 	attachment = "table",
 	twTimer = "userdata",
-	twBreathId = "number",
-	isFighting = "boolean"
+	isFighting = "boolean",
+	spineChar = "table",
+	twBreathId = "number"
 }
 slot0.Listeners = {
 	onUpdate = "Update"
