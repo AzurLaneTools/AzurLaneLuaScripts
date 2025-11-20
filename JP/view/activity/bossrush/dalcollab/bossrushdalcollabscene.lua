@@ -97,16 +97,6 @@ slot0.init = function(slot0)
 
 	slot0.mapAnima = slot0._tf:Find("Map"):GetComponent(typeof(Animation))
 	slot0.mapDftEvt = slot0._tf:Find("Map"):GetComponent(typeof(DftAniEvent))
-
-	slot0.mapDftEvt:SetEndEvent(function ()
-		for slot3, slot4 in pairs(uv0.shiftMapList) do
-			slot6 = uv0.maps[slot3]:GetComponent(typeof(Image))
-			slot6.sprite = slot4:GetComponent(typeof(Image)).sprite
-
-			slot6:SetNativeSize()
-		end
-	end)
-
 	slot0.mapFX = slot0._tf:Find("Map/state_fx")
 	slot0.upgradeBtn = slot0._tf:Find("Right/Upgrade")
 	slot0.shopBtn = slot0._tf:Find("Right/Store")
@@ -212,11 +202,11 @@ end
 
 slot0.PlayMapShiftAnima = function(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in pairs(slot0.maps) do
-		setImageSprite(slot8, GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. slot7 .. slot1), true)
+		setImageSprite(slot8, GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. slot7 .. slot2), true)
 	end
 
 	for slot7, slot8 in pairs(slot0.shiftMapList) do
-		setImageSprite(slot8, GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. slot7 .. slot2), true)
+		setImageSprite(slot8, GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. slot7 .. slot1), true)
 	end
 
 	setActive(slot0.shiftMap, true)
@@ -504,6 +494,7 @@ slot0.checkAllStory = function(slot0)
 			slot4 = uv2
 
 			slot4:PlayStory(slot2[1], function ()
+				setActive(uv0.shiftMap:Find("map_6"), false)
 				uv0:PlayMapShiftAnima("", "_3")
 			end)
 		else

@@ -191,6 +191,15 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 24,
+		param = {
+			"scene core activity",
+			{
+				coreName = "DALCoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -214,6 +223,7 @@ pg.activity_banner_notice = {
 		20,
 		21,
 		22,
-		23
+		23,
+		24
 	}
 }

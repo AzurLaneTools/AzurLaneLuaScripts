@@ -1,5 +1,5 @@
 slot0 = class("DALCoreActivityUI", import("view.activity.CorePage.SailingShip3.SailingShip3CoreActivityUI"))
-slot0.finishtime = 50245
+slot0.finishtime = 50256
 
 slot0.getUIName = function(slot0)
 	return "DALCoreActivityUI"

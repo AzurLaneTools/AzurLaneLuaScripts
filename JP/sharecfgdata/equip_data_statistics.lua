@@ -175051,7 +175051,7 @@ _G.pg.base.equip_data_statistics[150851] = {
 
 
 _G.pg.base.equip_data_statistics[150860] = {
-	name = "<封解主（Michael）>",
+	name = "封解主（ミカエル）",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",

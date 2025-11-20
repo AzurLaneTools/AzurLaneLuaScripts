@@ -35510,5 +35510,10 @@ cs.gametip = {
 		1386090,
 		2237,
 		true
+	},
+	dal_chapter_tip2 = {
+		1388327,
+		116,
+		true
 	}
 }
