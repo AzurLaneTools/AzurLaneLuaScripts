@@ -919,7 +919,7 @@ pg.base.island_interaction = {
 		show_condition = {}
 	},
 	[701] = {
-		text = "그늘 농원으로 이동",
+		text = "쑥쑥 농원으로 이동",
 		groupId = 7,
 		only_self = 0,
 		type = 7,
@@ -3351,7 +3351,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[3101] = {
-		text = "그늘 농원으로 이동",
+		text = "쑥쑥 농원으로 이동",
 		groupId = 31,
 		only_self = 0,
 		type = 7,
@@ -3381,7 +3381,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[3202] = {
-		text = "바람의 벌판으로 이동",
+		text = "산들바람 벌판으로 이동",
 		groupId = 32,
 		only_self = 0,
 		type = 24,
@@ -3396,7 +3396,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[3203] = {
-		text = "그늘 농원으로 이동",
+		text = "쑥쑥 농원으로 이동",
 		groupId = 32,
 		only_self = 0,
 		type = 24,
@@ -3540,7 +3540,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[3803] = {
-		text = "그늘 농원으로 이동",
+		text = "쑥쑥 농원으로 이동",
 		groupId = 38,
 		only_self = 0,
 		type = 24,
@@ -3700,7 +3700,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[4301] = {
-		text = "바람의 벌판으로 이동",
+		text = "산들바람 벌판으로 이동",
 		groupId = 43,
 		only_self = 0,
 		type = 24,
@@ -3730,7 +3730,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[4303] = {
-		text = "항구 상업 지구로 이동",
+		text = "모항 상점가로 이동",
 		groupId = 43,
 		only_self = 0,
 		type = 24,
@@ -5864,7 +5864,7 @@ pg.base.island_interaction = {
 		show_condition = {}
 	},
 	[7701] = {
-		text = "바람의 벌판으로 이동",
+		text = "산들바람 벌판으로 이동",
 		groupId = 77,
 		only_self = 0,
 		type = 24,

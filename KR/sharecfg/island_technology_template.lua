@@ -1532,11 +1532,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210101] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		island_level = 5,
 		tech_desc = "우거진 벌목장의 벌목 배치 슬롯을 오픈한다. 목재를 끝없이 항구로 나르자.",
 		tech_icon = "tech_210101",
@@ -1564,11 +1564,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220101] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		island_level = 6,
 		tech_desc = "석암 광산의 채굴 배치 슬롯을 오픈한다. 광석을 산더미처럼 쌓아 올리자!",
 		tech_icon = "tech_220101",
@@ -1596,12 +1596,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220501] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
 		island_level = 7,
 		tech_desc = "수동 채굴 효율 증가. 각종 자원을 더 빠르게 획득할 수 있다.",
 		tech_icon = "tech_220501",
@@ -1626,12 +1626,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210401] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
 		island_level = 8,
 		tech_desc = "수동으로 벌목하는 자원의 회복 시간이 짧아진다. 더 많은 자원을 손에 넣자!",
 		tech_icon = "tech_210401",
@@ -1656,11 +1656,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220201] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 <color=#1E8FFE>알루미늄 광석</color>을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 <color=#1E8FFE>알루미늄 광석</color>을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 <color=#1E8FFE>알루미늄 광석</color>을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 <color=#1E8FFE>알루미늄 광석</color>을 생산할 수 있습니다.",
 		island_level = 9,
 		tech_desc = "새로운 탐사 기술로 지하에 매장된 알루미늄 광석을 채굴할 수 있게 된다.",
 		tech_icon = "tech_220201",
@@ -1688,12 +1688,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220401] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
 		island_level = 9,
 		tech_desc = "수동으로 채굴하는 자원의 회복 시간이 짧아진다. 더 많은 자원을 손에 넣자!",
 		tech_icon = "tech_220401",
@@ -1718,11 +1718,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210102] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		island_level = 11,
 		tech_desc = "우거진 벌목장의 벌목 배치 슬롯을 늘린다. 목재 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_210102",
@@ -1750,11 +1750,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210201] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>실용 목재</color>를 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>실용 목재</color>를 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>실용 목재</color>를 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>실용 목재</color>를 생산할 수 있습니다.",
 		island_level = 11,
 		tech_desc = "새로운 벌목 기술로 숲에서 실용 목재를 벌목할 수 있게 된다.",
 		tech_icon = "tech_210201",
@@ -1782,11 +1782,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220202] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>철광석</color>을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>철광석</color>을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>철광석</color>을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>철광석</color>을 생산할 수 있습니다.",
 		island_level = 12,
 		tech_desc = "새로운 탐사 기술로 지하에 매장된 철광석을 채굴할 수 있게 된다.",
 		tech_icon = "tech_220201",
@@ -1814,12 +1814,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210501] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
 		island_level = 13,
 		tech_desc = "수동 벌목 효율 증가. 각종 자원을 더 빠르게 획득할 수 있다.",
 		tech_icon = "tech_210501",
@@ -1844,12 +1844,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220502] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
 		tech_level = "2",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판의 석암 광산</color>에서 수동으로 채집할 수 있습니다.",
 		island_level = 15,
 		tech_desc = "수동 채굴 효율 증가. 각종 자원을 더 빠르게 획득할 수 있다.",
 		tech_icon = "tech_220501",
@@ -1874,11 +1874,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220102] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		island_level = 16,
 		tech_desc = "석암 광산의 채굴 배치 슬롯을 늘린다. 광석 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_220102",
@@ -1906,11 +1906,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220203] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>황광석</color>을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>황광석</color>을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>황광석</color>을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>황광석</color>을 생산할 수 있습니다.",
 		island_level = 16,
 		tech_desc = "새로운 탐사 기술로 지하에 매장된 황광석을 채굴할 수 있게 된다.",
 		tech_icon = "tech_220201",
@@ -1938,11 +1938,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210202] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>엄선 목재</color>를 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>엄선 목재</color>를 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>엄선 목재</color>를 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>엄선 목재</color>를 생산할 수 있습니다.",
 		island_level = 17,
 		tech_desc = "새로운 벌목 기술로 숲에서 엄선 목재를 벌목할 수 있게 된다.",
 		tech_icon = "tech_210201",
@@ -1970,12 +1970,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210502] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
 		tech_level = "2",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판의 우거진 벌목장</color>에서 수동으로 채집할 수 있습니다.",
 		island_level = 18,
 		tech_desc = "수동 벌목 효율 증가. 각종 자원을 더 빠르게 획득할 수 있다.",
 		tech_icon = "tech_210501",
@@ -2000,11 +2000,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220103] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		tech_level = "2",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		island_level = 21,
 		tech_desc = "석암 광산의 채굴 배치 슬롯을 늘린다. 광석 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_220102",
@@ -2032,11 +2032,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220204] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>은광석</color>을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>은광석</color>을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>은광석</color>을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여<color=#1E8FFE>은광석</color>을 생산할 수 있습니다.",
 		island_level = 21,
 		tech_desc = "새로운 탐사 기술로 지하에 매장된 은광석을 채굴할 수 있게 된다.",
 		tech_icon = "tech_220201",
@@ -2064,11 +2064,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210103] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		tech_level = "2",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		island_level = 24,
 		tech_desc = "우거진 벌목장의 벌목 배치 슬롯을 늘린다. 목재 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_210102",
@@ -2096,11 +2096,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210203] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>우아한 목재</color>를 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>우아한 목재</color>를 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>우아한 목재</color>를 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 <color=#1E8FFE>우아한 목재</color>를 생산할 수 있습니다.",
 		island_level = 24,
 		tech_desc = "새로운 벌목 기술로 숲에서 우아한 목재를 벌목할 수 있게 된다.",
 		tech_icon = "tech_210201",
@@ -2128,11 +2128,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210104] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		tech_level = "3",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		island_level = 26,
 		tech_desc = "우거진 벌목장의 벌목 배치 슬롯을 늘린다. 목재 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_210102",
@@ -2160,11 +2160,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220104] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		tech_level = "3",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		island_level = 29,
 		tech_desc = "석암 광산의 채굴 배치 슬롯을 늘린다. 광석 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_220102",
@@ -2192,11 +2192,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[210601] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 오브라이언</color>에게 가면 동료를 배치하여 목재를 생산할 수 있습니다.",
 		island_level = 35,
 		tech_desc = "우거진 벌목장의 벌목 배치 슬롯의 벌목 효율 증가. 각종 자원을 더 빠르게 획득할 수 있다.",
 		tech_icon = "tech_210601",
@@ -2224,11 +2224,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220601] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판에 있는 조안</color>에게 가면 동료를 배치하여 광석을 생산할 수 있습니다.",
 		island_level = 41,
 		tech_desc = "석암 광산의 채굴 배치 슬롯의 채굴 효율 증가. 각종 자원을 더 빠르게 획득할 수 있다.",
 		tech_icon = "tech_220601",
@@ -2348,12 +2348,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320301] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		island_level = 7,
 		tech_desc = "초록색 모밭의 재배 구역을 확장한다. 아일랜드 전체에 생명력을 불어넣자!",
 		tech_icon = "tech_320301",
@@ -2442,12 +2442,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[330301] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		island_level = 9,
 		tech_desc = "향기로운 과수원의 재배 구역을 확장한다. 아일랜드 전체에 과일의 향기를 채워넣자!",
 		tech_icon = "tech_330301",
@@ -2532,11 +2532,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[330101] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		island_level = 12,
 		tech_desc = "향기로운 과수원의 관리 배치 슬롯을 오픈한다. 과일 수확이 더욱 편해진다.",
 		tech_icon = "tech_330101",
@@ -2594,11 +2594,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320202] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 「목화 씨앗」을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 「목화 씨앗」을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 「목화 씨앗」을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 「목화 씨앗」을 얻을 수 있게 되었습니다.",
 		island_level = 13,
 		tech_desc = "첨단 목화 재배 기술로 아일랜드 개발 구역의 환경에서도 목화가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_320201",
@@ -2630,11 +2630,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320101] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		island_level = 14,
 		tech_desc = "초록색 모밭의 관리 배치 슬롯을 오픈한다. 모밭 생산이 더욱 안정화되며, 효율도 증가한다.",
 		tech_icon = "tech_320101",
@@ -2662,12 +2662,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320302] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		tech_level = "2",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		island_level = 15,
 		tech_desc = "초록색 모밭의 재배 구역을 확장한다. 아일랜드 전체에 생명력을 불어넣자!",
 		tech_icon = "tech_320301",
@@ -2692,12 +2692,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[330302] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		tech_level = "2",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		island_level = 15,
 		tech_desc = "향기로운 과수원의 재배 구역을 확장한다. 아일랜드 전체에 과일의 향기를 채워넣자!",
 		tech_icon = "tech_330301",
@@ -2752,11 +2752,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[330102] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		island_level = 17,
 		tech_desc = "향기로운 과수원의 관리 배치 슬롯을 늘린다. 과일 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_330102",
@@ -2816,12 +2816,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320303] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		tech_level = "3",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		island_level = 19,
 		tech_desc = "초록색 모밭의 재배 구역을 확장한다. 아일랜드 전체에 생명력을 불어넣자!",
 		tech_icon = "tech_320301",
@@ -2846,11 +2846,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[330201] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 「고무나무 씨앗」을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 「고무나무 씨앗」을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 「고무나무 씨앗」을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 「고무나무 씨앗」을 얻을 수 있게 되었습니다.",
 		island_level = 19,
 		tech_desc = "첨단 고무나무 재배 기술로 아일랜드 개발 구역의 환경에서도 고무나무가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_320201",
@@ -2942,11 +2942,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320205] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 「라벤더 씨앗」을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 「라벤더 씨앗」을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 「라벤더 씨앗」을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 「라벤더 씨앗」을 얻을 수 있게 되었습니다.",
 		island_level = 22,
 		tech_desc = "첨단 라벤더 재배 기술로 아일랜드 개발 구역의 환경에서도 라벤더가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_320201",
@@ -3004,12 +3004,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[330303] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		tech_level = "3",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 향기로운 과수원</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		island_level = 24,
 		tech_desc = "향기로운 과수원의 재배 구역을 확장한다. 아일랜드 전체에 과일의 향기를 채워넣자!",
 		tech_icon = "tech_330301",
@@ -3066,11 +3066,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[330103] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		tech_level = "2",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		island_level = 26,
 		tech_desc = "향기로운 과수원의 관리 배치 슬롯을 늘린다. 과일 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_330102",
@@ -3128,12 +3128,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320304] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		tech_level = "4",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 초록색 모밭</color>에서 더 많은 작물을 재배할 수 있게 되었습니다.",
 		island_level = 32,
 		tech_desc = "초록색 모밭의 재배 구역을 확장한다. 아일랜드 전체에 생명력을 불어넣자!",
 		tech_icon = "tech_320301",
@@ -3158,12 +3158,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320102] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		island_level = 34,
 		tech_desc = "초록색 모밭의 관리 배치 슬롯을 늘린다. 모밭 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_320102",
@@ -3188,11 +3188,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[330104] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		tech_level = "3",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 가면 동료를 배치하여 작물을 생산할 수 있습니다.",
 		island_level = 37,
 		tech_desc = "향기로운 과수원의 관리 배치 슬롯을 늘린다. 과일 생산량을 간단히 향상시킬 수 있다.",
 		tech_icon = "tech_330102",
@@ -3853,12 +3853,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[450302] = {
-		complete_title = "<color=#1E8FFE>바람의 벌판의 꿀 채집 지점</color>에서 꿀을 채집할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>산들바람 벌판의 꿀 채집 지점</color>에서 꿀을 채집할 수 있습니다.",
 		tech_level = "2",
 		tech_chara = 1,
 		complete_character_id = "",
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>바람의 벌판의 꿀 채집 지점</color>에서 꿀을 채집할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>산들바람 벌판의 꿀 채집 지점</color>에서 꿀을 채집할 수 있습니다.",
 		island_level = 30,
 		tech_desc = "꿀을 채집할 수 있는 곳을 늘린다. 꿀벌은 당신의 충실한 파트너!",
 		tech_icon = "tech_450301",
@@ -3947,11 +3947,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[500231] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 「사과나무 씨앗」을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 「사과나무 씨앗」을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 「사과나무 씨앗」을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 「사과나무 씨앗」을 얻을 수 있게 되었습니다.",
 		island_level = 8,
 		tech_desc = "첨단 사과나무 재배 기술로 아일랜드 개발 구역의 환경에서도 사과나무가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_500231",
@@ -4147,11 +4147,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[500232] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>귤나무 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>귤나무 씨앗</color>을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>귤나무 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>귤나무 씨앗</color>을 얻을 수 있게 되었습니다.",
 		island_level = 10,
 		tech_desc = "첨단 귤나무 재배 기술로 아일랜드 개발 구역의 환경에서도 귤나무가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_500231",
@@ -4241,11 +4241,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[510201] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		island_level = 11,
 		tech_desc = "부드러운 식감에 진한 다진 고기 두부볶음 제작 가능.",
 		tech_icon = "tech_510201",
@@ -4277,11 +4277,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[510202] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		island_level = 11,
 		tech_desc = "부드러운 금빛 오므라이스 제작 가능.",
 		tech_icon = "tech_510201",
@@ -4309,11 +4309,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[510203] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		island_level = 12,
 		tech_desc = "단백하고 건강한 배추 두부탕 제작 가능.",
 		tech_icon = "tech_510201",
@@ -4377,11 +4377,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320201] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 <color=#1E8FFE>딸기 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 <color=#1E8FFE>딸기 씨앗</color>을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 <color=#1E8FFE>딸기 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 <color=#1E8FFE>딸기 씨앗</color>을 얻을 수 있게 되었습니다.",
 		island_level = 12,
 		tech_desc = "첨단 딸기 재배 기술로 아일랜드 개발 구역의 환경에서도 딸기가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_320201",
@@ -4413,11 +4413,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[500233] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>バナナの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>バナナの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>バナナの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>バナナの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
 		island_level = 13,
 		tech_desc = "첨단 바나나나무 재배 기술로 아일랜드 개발 구역의 환경에서도 바나나나무가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_500231",
@@ -4445,11 +4445,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[500234] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>マンゴーの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>マンゴーの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>マンゴーの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>マンゴーの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
 		island_level = 14,
 		tech_desc = "첨단 망고나무 재배 기술로 아일랜드 개발 구역의 환경에서도 망고나무가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_500231",
@@ -4481,11 +4481,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[510204] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		island_level = 14,
 		tech_desc = "신선하고 맛있는 야채 샐러드 제작 가능.",
 		tech_icon = "tech_510201",
@@ -4517,11 +4517,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[500235] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>レモンの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>レモンの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>レモンの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>レモンの木の 씨앗</color>을 얻을 수 있게 되었습니다.",
 		island_level = 15,
 		tech_desc = "첨단 레몬나무 재배 기술로 아일랜드 개발 구역의 환경에서도 레몬나무가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_500231",
@@ -4553,11 +4553,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[520201] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		island_level = 15,
 		tech_desc = "진하고 달콤한 바나나 망고 주스 제작 가능.",
 		tech_icon = "tech_520201",
@@ -4593,11 +4593,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[520202] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		island_level = 16,
 		tech_desc = "상큼하고 새콤한 꿀 레몬 워터 제작 가능.",
 		tech_icon = "tech_520201",
@@ -4665,11 +4665,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320203] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 <color=#1E8FFE>차나무 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 <color=#1E8FFE>차나무 씨앗</color>을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 <color=#1E8FFE>차나무 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 <color=#1E8FFE>차나무 씨앗</color>을 얻을 수 있게 되었습니다.",
 		island_level = 16,
 		tech_desc = "첨단 차나무 재배 기술로 아일랜드 개발 구역의 환경에서도 차나무가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_320201",
@@ -4697,11 +4697,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[520203] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		island_level = 17,
 		tech_desc = "시원하고 달콤한 딸기 꿀 프라페 제작 가능.",
 		tech_icon = "tech_520201",
@@ -4729,11 +4729,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[500236] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>아보카도나무 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>아보카도나무 씨앗</color>을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 루시</color>에게 <color=#1E8FFE>아보카도나무 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 루시</color>에게 <color=#1E8FFE>아보카도나무 씨앗</color>을 얻을 수 있게 되었습니다.",
 		island_level = 18,
 		tech_desc = "첨단 아보카도나무 재배 기술로 아일랜드 개발 구역의 환경에서도 아보카도나무가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_500231",
@@ -4765,11 +4765,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530205] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 18,
 		tech_desc = "향기롭고 바삭바삭하고도 달콤한 애플파이 제작 가능.",
 		tech_icon = "tech_530201",
@@ -4797,11 +4797,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[520205] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		island_level = 19,
 		tech_desc = "달콤하고 맛있는 딸기 레몬 드링크 제작 가능.",
 		tech_icon = "tech_520201",
@@ -4829,11 +4829,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530206] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 19,
 		tech_desc = "새콤하고 바삭바삭한 오렌지 파이 제작 가능.",
 		tech_icon = "tech_530201",
@@ -4861,11 +4861,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530202] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 20,
 		tech_desc = "달콤하고 쫄깃한 망고 찹쌀밥 제작 가능.",
 		tech_icon = "tech_530201",
@@ -4897,11 +4897,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320204] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 <color=#1E8FFE>당근 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 <color=#1E8FFE>당근 씨앗</color>을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 <color=#1E8FFE>당근 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 <color=#1E8FFE>당근 씨앗</color>을 얻을 수 있게 되었습니다.",
 		island_level = 21,
 		tech_desc = "첨단 당근 재배 기술로 아일랜드 개발 구역의 환경에서도 당근이 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_320201",
@@ -4961,11 +4961,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540001] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 22,
 		tech_desc = "모두 같이 고기 먹으러 가자!",
 		tech_icon = "tech_540001",
@@ -4997,11 +4997,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540201] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 23,
 		tech_desc = "단순하면서도 맛있는 닭고기와 감자 모둠 제작 가능.",
 		tech_icon = "tech_540201",
@@ -5029,11 +5029,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[520204] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		island_level = 24,
 		tech_desc = "진정 효과가 있는 라벤더 차 제작 가능.",
 		tech_icon = "tech_520201",
@@ -5065,11 +5065,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530203] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 24,
 		tech_desc = "부드럽고 달콤한 바나나 크레페 제작 가능.",
 		tech_icon = "tech_530201",
@@ -5101,11 +5101,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320206] = {
-		complete_title = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 <color=#1E8FFE>양파 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_title = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 <color=#1E8FFE>양파 씨앗</color>을 얻을 수 있게 되었습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>그늘 농원의 라코니아</color>에게 <color=#1E8FFE>양파 씨앗</color>을 얻을 수 있게 되었습니다.",
+		complete_tips = "<color=#1E8FFE>쑥쑥 농원의 라코니아</color>에게 <color=#1E8FFE>양파 씨앗</color>을 얻을 수 있게 되었습니다.",
 		island_level = 25,
 		tech_desc = "첨단 양파 재배 기술로 아일랜드 개발 구역의 환경에서도 양파가 쑥쑥 자라나게 된다.",
 		tech_icon = "tech_320201",
@@ -5133,11 +5133,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540202] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 27,
 		tech_desc = "맛있는 냄새가 사방으로 퍼지는 닭고기 볶음 제작 가능.",
 		tech_icon = "tech_540201",
@@ -5165,11 +5165,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530204] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 28,
 		tech_desc = "섬세한 맛이 매력인 디저트 딸기 샬럿 제작 가능.",
 		tech_icon = "tech_530201",
@@ -5197,11 +5197,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540204] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 29,
 		tech_desc = "식감이 풍부한 두꺼운 당근 계란말이 제작 가능.",
 		tech_icon = "tech_540201",
@@ -5229,11 +5229,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[510101] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
 		island_level = 30,
 		tech_desc = "유어 레스토랑의 직원 배치 슬롯을 늘린다. 요리 제작 속도를 향상시킨다.",
 		tech_icon = "tech_510101",
@@ -5265,11 +5265,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540205] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 32,
 		tech_desc = "맛있고 편리한 햄버그 덮밥 제작 가능.",
 		tech_icon = "tech_540201",
@@ -5297,11 +5297,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[520101] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>백곰 음료</color>에서 확인할 수 있습니다.",
 		island_level = 35,
 		tech_desc = "백곰 음료의 직원 배치 슬롯을 늘린다. 요리 제작 속도를 향상시킨다.",
 		tech_icon = "tech_520101",
@@ -5329,11 +5329,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530101] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 41,
 		tech_desc = "쥬쥬 간편식의 직원 배치 슬롯을 늘린다. 요리 제작 속도를 향상시킨다.",
 		tech_icon = "tech_530101",
@@ -5361,11 +5361,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540101] = {
-		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>의 가게 관리 화면 내 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 47,
 		tech_desc = "오징어 구이의 직원 배치 슬롯을 늘린다. 요리 제작 속도를 향상시킨다.",
 		tech_icon = "tech_540101",

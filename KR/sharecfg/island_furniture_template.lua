@@ -77,16 +77,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50239/prefab/pre_item_05_50239",
 		bt = "",
 		id = 4,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			3
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	{
@@ -187,16 +182,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50248/prefab/pre_item_05_50248",
 		bt = "",
 		id = 9,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			3
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	{
@@ -234,16 +224,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50246/prefab/pre_item_05_50246",
 		bt = "",
 		id = 11,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			3
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	{
@@ -533,16 +518,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50101/prefab/pre_item_05_50101",
 		bt = "",
 		id = 10101,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			22,
 			22
-		},
-		jump_page = {
-			{
-				"도감",
-				{}
-			}
 		}
 	},
 	[10201] = {
@@ -583,6 +563,7 @@ pg.island_furniture_template = {
 		model = "island/item/05/50104/prefab/pre_item_05_50104",
 		bt = "",
 		id = 10301,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
@@ -590,12 +571,6 @@ pg.island_furniture_template = {
 		},
 		interact_point = {
 			4
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10302] = {
@@ -635,16 +610,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50113/prefab/pre_item_05_50113",
 		bt = "",
 		id = 10303,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			1
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10304] = {
@@ -661,16 +631,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50114/prefab/pre_item_05_50114",
 		bt = "",
 		id = 10304,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			6,
 			5
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10305] = {
@@ -687,16 +652,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50115/prefab/pre_item_05_50115",
 		bt = "",
 		id = 10305,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			4,
 			2
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10306] = {
@@ -713,16 +673,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50116/prefab/pre_item_05_50116",
 		bt = "",
 		id = 10306,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			4
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10401] = {
@@ -738,6 +693,7 @@ pg.island_furniture_template = {
 		model = "island/item/05/50103/prefab/pre_item_05_50103",
 		bt = "",
 		id = 10401,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			4,
@@ -745,12 +701,6 @@ pg.island_furniture_template = {
 		},
 		interact_point = {
 			6
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10402] = {
@@ -767,16 +717,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50106/prefab/pre_item_05_50106",
 		bt = "",
 		id = 10402,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			5,
 			4
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10403] = {
@@ -792,6 +737,7 @@ pg.island_furniture_template = {
 		model = "island/item/05/50107/prefab/pre_item_05_50107",
 		bt = "",
 		id = 10403,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
@@ -799,12 +745,6 @@ pg.island_furniture_template = {
 		},
 		interact_point = {
 			7
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10404] = {
@@ -821,16 +761,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50109/prefab/pre_item_05_50109",
 		bt = "",
 		id = 10404,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			3
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10405] = {
@@ -847,16 +782,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50110/prefab/pre_item_05_50110",
 		bt = "",
 		id = 10405,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			2
-		},
-		jump_page = {
-			{
-				"도감",
-				{}
-			}
 		}
 	},
 	[10406] = {
@@ -873,16 +803,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50111/prefab/pre_item_05_50111",
 		bt = "",
 		id = 10406,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			4,
 			4
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10407] = {
@@ -899,16 +824,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50118/prefab/pre_item_05_50118",
 		bt = "",
 		id = 10407,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			4,
 			4
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10408] = {
@@ -924,6 +844,7 @@ pg.island_furniture_template = {
 		model = "island/item/05/50119/prefab/pre_item_05_50119",
 		bt = "",
 		id = 10408,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
@@ -931,12 +852,6 @@ pg.island_furniture_template = {
 		},
 		interact_point = {
 			8
-		},
-		jump_page = {
-			{
-				"합계 PT",
-				{}
-			}
 		}
 	},
 	[10409] = {
@@ -953,16 +868,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50120/prefab/pre_item_05_50120",
 		bt = "",
 		id = 10409,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10410] = {
@@ -979,16 +889,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50121/prefab/pre_item_05_50121",
 		bt = "",
 		id = 10410,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10411] = {
@@ -1005,16 +910,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50122/prefab/pre_item_05_50122",
 		bt = "",
 		id = 10411,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10412] = {
@@ -1031,16 +931,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50123/prefab/pre_item_05_50123",
 		bt = "",
 		id = 10412,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			2,
 			1
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10413] = {
@@ -1057,16 +952,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50124/prefab/pre_item_05_50124",
 		bt = "",
 		id = 10413,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			2,
 			1
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10414] = {
@@ -1083,16 +973,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50125/prefab/pre_item_05_50125",
 		bt = "",
 		id = 10414,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			2,
 			1
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10415] = {
@@ -1109,16 +994,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50126/prefab/pre_item_05_50126",
 		bt = "",
 		id = 10415,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			2,
 			2
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10416] = {
@@ -1135,16 +1015,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50127/prefab/pre_item_05_50127",
 		bt = "",
 		id = 10416,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			3
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10417] = {
@@ -1161,16 +1036,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50108/prefab/pre_item_05_50108",
 		bt = "",
 		id = 10417,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			6
-		},
-		jump_page = {
-			{
-				"도감",
-				{}
-			}
 		}
 	},
 	[10418] = {
@@ -1187,16 +1057,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50133/prefab/pre_item_05_50133",
 		bt = "",
 		id = 10418,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10419] = {
@@ -1234,16 +1099,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50132/prefab/pre_item_05_50132",
 		bt = "",
 		id = 10420,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			2
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10421] = {
@@ -1260,16 +1120,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50117/prefab/pre_item_05_50117",
 		bt = "",
 		id = 10421,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			2,
 			1
-		},
-		jump_page = {
-			{
-				"실적",
-				{}
-			}
 		}
 	},
 	[10801] = {
@@ -1349,16 +1204,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50200/prefab/pre_item_05_50200",
 		bt = "",
 		id = 20101,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			22,
 			22
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20201] = {
@@ -1374,6 +1224,7 @@ pg.island_furniture_template = {
 		model = "island/item/05/50201/prefab/pre_item_05_50201",
 		bt = "",
 		id = 20201,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			20,
@@ -1382,12 +1233,6 @@ pg.island_furniture_template = {
 		interact_point = {
 			9,
 			10
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20301] = {
@@ -1403,6 +1248,7 @@ pg.island_furniture_template = {
 		model = "island/item/05/50202/prefab/pre_item_05_50202",
 		bt = "",
 		id = 20301,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
@@ -1410,12 +1256,6 @@ pg.island_furniture_template = {
 		},
 		interact_point = {
 			11
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20302] = {
@@ -1432,16 +1272,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50204/prefab/pre_item_05_50204",
 		bt = "",
 		id = 20302,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			5,
 			3
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20303] = {
@@ -1458,16 +1293,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50215/prefab/pre_item_05_50215",
 		bt = "",
 		id = 20303,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			2
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20304] = {
@@ -1484,16 +1314,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50216/prefab/pre_item_05_50216",
 		bt = "",
 		id = 20304,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			5,
 			2
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20305] = {
@@ -1510,16 +1335,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50217/prefab/pre_item_05_50217",
 		bt = "",
 		id = 20305,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			4,
 			1
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20306] = {
@@ -1536,16 +1356,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50225/prefab/pre_item_05_50225",
 		bt = "",
 		id = 20306,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			5,
 			3
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20401] = {
@@ -1561,6 +1376,7 @@ pg.island_furniture_template = {
 		model = "island/item/05/50205/prefab/pre_item_05_50205",
 		bt = "",
 		id = 20401,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			4,
@@ -1568,12 +1384,6 @@ pg.island_furniture_template = {
 		},
 		interact_point = {
 			12
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20402] = {
@@ -1590,16 +1400,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50206/prefab/pre_item_05_50206",
 		bt = "",
 		id = 20402,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20403] = {
@@ -1616,16 +1421,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50208/prefab/pre_item_05_50208",
 		bt = "",
 		id = 20403,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			6,
 			4
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20404] = {
@@ -1642,16 +1442,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50210/prefab/pre_item_05_50210",
 		bt = "",
 		id = 20404,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			2,
 			2
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20405] = {
@@ -1668,16 +1463,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50235/prefab/pre_item_05_50235",
 		bt = "",
 		id = 20405,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			3
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20406] = {
@@ -1694,16 +1484,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50211/prefab/pre_item_05_50211",
 		bt = "",
 		id = 20406,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			2
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20407] = {
@@ -1719,6 +1504,7 @@ pg.island_furniture_template = {
 		model = "island/item/05/50212/prefab/pre_item_05_50212",
 		bt = "",
 		id = 20407,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			2,
@@ -1726,12 +1512,6 @@ pg.island_furniture_template = {
 		},
 		interact_point = {
 			13
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20408] = {
@@ -1748,16 +1528,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50236/prefab/pre_item_05_50236",
 		bt = "",
 		id = 20408,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			2,
 			3
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20409] = {
@@ -1774,16 +1549,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50227/prefab/pre_item_05_50227",
 		bt = "",
 		id = 20409,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			4,
 			3
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20410] = {
@@ -1800,16 +1570,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50228/prefab/pre_item_05_50228",
 		bt = "",
 		id = 20410,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20411] = {
@@ -1826,16 +1591,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50229/prefab/pre_item_05_50229",
 		bt = "",
 		id = 20411,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20412] = {
@@ -1852,16 +1612,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50230/prefab/pre_item_05_50230",
 		bt = "",
 		id = 20412,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20413] = {
@@ -1878,16 +1633,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50231/prefab/pre_item_05_50231",
 		bt = "",
 		id = 20413,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20414] = {
@@ -1904,16 +1654,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50232/prefab/pre_item_05_50232",
 		bt = "",
 		id = 20414,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20415] = {
@@ -1930,16 +1675,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50233/prefab/pre_item_05_50233",
 		bt = "",
 		id = 20415,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			1,
 			1
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20801] = {
@@ -1956,16 +1696,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50240/prefab/pre_item_05_50240",
 		bt = "",
 		id = 20801,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			2,
 			2
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20802] = {
@@ -1982,16 +1717,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50241/prefab/pre_item_05_50241",
 		bt = "",
 		id = 20802,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			3,
 			3
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	[20803] = {
@@ -2008,16 +1738,11 @@ pg.island_furniture_template = {
 		model = "island/item/05/50242/prefab/pre_item_05_50242",
 		bt = "",
 		id = 20803,
+		jump_page = "",
 		tech_id = 0,
 		size = {
 			5,
 			5
-		},
-		jump_page = {
-			{
-				"별빛상",
-				{}
-			}
 		}
 	},
 	all = {

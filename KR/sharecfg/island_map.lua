@@ -19,7 +19,7 @@ pg.island_map = {
 	},
 	[1002] = {
 		minigame_id = 0,
-		name = "아일랜드의 항구",
+		name = "모항",
 		time = "always",
 		default_bgm = "story-richang-2",
 		loading = 0,
@@ -53,7 +53,7 @@ pg.island_map = {
 	},
 	[1004] = {
 		minigame_id = 0,
-		name = "바람의 벌판",
+		name = "산들바람 벌판",
 		time = "always",
 		default_bgm = "story-richang-10",
 		loading = 0,
@@ -70,7 +70,7 @@ pg.island_map = {
 	},
 	[1005] = {
 		minigame_id = 0,
-		name = "그늘 농원",
+		name = "쑥쑥 농원",
 		time = "always",
 		default_bgm = "story-richang-10",
 		loading = 0,
@@ -87,7 +87,7 @@ pg.island_map = {
 	},
 	[1006] = {
 		minigame_id = 0,
-		name = "항구 상업 지구",
+		name = "모항 상점가",
 		time = "always",
 		default_bgm = "story-richang-6",
 		loading = 0,

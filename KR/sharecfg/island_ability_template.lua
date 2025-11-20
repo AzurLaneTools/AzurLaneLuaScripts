@@ -527,7 +527,7 @@ pg.island_ability_template = {
 		type = 2,
 		id = 2003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "석암 광산| <color=#7EBEFF>바람의 벌판</color>에서 <color=#7EBEFF>광석</color> 채굴 가능",
+		show_pop_text = "석암 광산| <color=#7EBEFF>산들바람 벌판</color>에서 <color=#7EBEFF>광석</color> 채굴 가능",
 		show_type = 3
 	},
 	[2004] = {
@@ -537,7 +537,7 @@ pg.island_ability_template = {
 		type = 2,
 		id = 2004,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "우거진 벌목장| <color=#7EBEFF>바람의 벌판</color>에서 <color=#7EBEFF>목재</color> 벌목 가능",
+		show_pop_text = "우거진 벌목장| <color=#7EBEFF>산들바람 벌판</color>에서 <color=#7EBEFF>목재</color> 벌목 가능",
 		show_type = 1
 	},
 	[2005] = {
@@ -547,7 +547,7 @@ pg.island_ability_template = {
 		type = 2,
 		id = 2005,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "향기로운 과수원| <color=#7EBEFF>그늘 농원</color>에서 <color=#7EBEFF>작물</color> 재배 가능",
+		show_pop_text = "향기로운 과수원| <color=#7EBEFF>쑥쑥 농원</color>에서 <color=#7EBEFF>작물</color> 재배 가능",
 		show_type = 1
 	},
 	[2006] = {
@@ -557,7 +557,7 @@ pg.island_ability_template = {
 		type = 2,
 		id = 2006,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "초록색 모밭| <color=#7EBEFF>그늘 농원</color>에서 <color=#7EBEFF>작물</color> 재배 가능",
+		show_pop_text = "초록색 모밭| <color=#7EBEFF>쑥쑥 농원</color>에서 <color=#7EBEFF>작물</color> 재배 가능",
 		show_type = 1
 	},
 	[2008] = {
@@ -567,7 +567,7 @@ pg.island_ability_template = {
 		type = 2,
 		id = 2008,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "유어 레스토랑| <color=#7EBEFF>항구 상업 지구</color>의 <color=#7EBEFF>아모마</color>에게서 확인 가능",
+		show_pop_text = "유어 레스토랑| <color=#7EBEFF>모항 상점가</color>의 <color=#7EBEFF>아모마</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[2009] = {
@@ -607,7 +607,7 @@ pg.island_ability_template = {
 		type = 2,
 		id = 2012,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "목재 가공| <color=#7EBEFF>항구 상업 지구</color>의 <color=#7EBEFF>로사</color>에게서 확인 가능",
+		show_pop_text = "목재 가공| <color=#7EBEFF>모항 상점가</color>의 <color=#7EBEFF>로사</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[2013] = {
@@ -661,7 +661,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5002] = {
-		unlock_text = "아일랜드의 항구",
+		unlock_text = "모항",
 		effect = 1002,
 		show_pop = 0,
 		type = 11,
@@ -681,7 +681,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5004] = {
-		unlock_text = "바람의 벌판",
+		unlock_text = "산들바람 벌판",
 		effect = 1004,
 		show_pop = 0,
 		type = 11,
@@ -691,7 +691,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5005] = {
-		unlock_text = "그늘 농원",
+		unlock_text = "쑥쑥 농원",
 		effect = 1005,
 		show_pop = 0,
 		type = 11,
@@ -701,7 +701,7 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[5006] = {
-		unlock_text = "항구 상업 지구",
+		unlock_text = "모항 상점가",
 		effect = 1006,
 		show_pop = 0,
 		type = 11,
@@ -1087,7 +1087,7 @@ pg.island_ability_template = {
 		type = 17,
 		id = 17003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "유어 레스토랑 경영| <color=#7EBEFF>항구 상업 지구</color>의 <color=#7EBEFF>아모마</color>에게서 확인 가능",
+		show_pop_text = "유어 레스토랑 경영| <color=#7EBEFF>모항 상점가</color>의 <color=#7EBEFF>아모마</color>에게서 확인 가능",
 		show_type = 1
 	},
 	[17004] = {
