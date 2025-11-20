@@ -3,7 +3,7 @@ slot0 = class("MainReceiveBossRushAwardsSequence")
 slot0.Execute = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
-			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) or slot1:isEnd() or not slot1:HasAwards() then
+			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) and not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB) or slot1:isEnd() or not slot1:HasAwards() then
 				slot0()
 
 				return

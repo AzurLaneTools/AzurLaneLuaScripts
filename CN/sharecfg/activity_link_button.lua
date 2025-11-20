@@ -317,21 +317,21 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50245
+			50256
 		}
 	},
 	[110] = {
-		param = "ALYCoreActivityUI",
+		param = "PSSCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_yumia",
+		text_pic = "text_event_core2",
 		type = 16,
-		pic = "event_yumia",
+		pic = "event_core2",
 		id = 110,
 		group_id = 2,
 		order = 2,
 		time = {
 			"default",
-			50058
+			50234
 		}
 	},
 	[111] = {

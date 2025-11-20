@@ -62,7 +62,21 @@ slot0.SetData = function(slot0, slot1)
 		end
 
 		updateDrop(slot2, Drop.Create(uv0[slot1 + 1]))
-		setActive(slot2:Find("got"), uv1._series:GetBossTimeStamp() ~= 0)
+
+		slot6 = getProxy(TaskProxy):getTaskById(uv1._series:GetReplaceTaskIDList()[1])
+
+		if uv1._series:IsPass() then
+			if slot6 then
+				setActive(uv1._rewardRemind, true)
+				setActive(slot2:Find("got"), false)
+			else
+				setActive(uv1._rewardRemind, false)
+				setActive(slot2:Find("got"), true)
+			end
+		else
+			setActive(uv1._rewardRemind, false)
+			setActive(slot2:Find("got"), false)
+		end
 	end)
 end
 
@@ -99,6 +113,10 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0._tf:Find("Panel/StageInfo/label/label/text"), i18n("DAL_stage_label_data"))
 	setText(slot0._tf:Find("Panel/StageInfo/commander_label/label/text"), i18n("DAL_stage_label_commander"))
 	setText(slot0._tf:Find("Panel/StageInfo/label_2/label/text"), i18n("DAL_stage_label_support"))
+
+	slot0._rewardRemind = slot0._tf:Find("Panel/Reward/remind")
+
+	setText(slot0._rewardRemind:Find("text"), i18n("dal_chapter_tip2"))
 	setText(slot0._tf:Find("Panel/Reward/label"), i18n("item_type17_tip1"))
 
 	slot0._arwardList = slot0._tf:Find("Panel/Reward/Items")

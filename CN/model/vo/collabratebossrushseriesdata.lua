@@ -232,6 +232,10 @@ slot0.GetName = function(slot0, slot1)
 	return uv0[slot0:GetActivitySeriesID(slot1)].name
 end
 
+slot0.GetReplaceTaskIDList = function(slot0)
+	return uv0[slot0:getConfig("boss_id")[1]].replace_task
+end
+
 slot0.GetRewardDisplay = function(slot0)
 	return uv0[slot0:getConfig("boss_id")[1]].reward_display
 end

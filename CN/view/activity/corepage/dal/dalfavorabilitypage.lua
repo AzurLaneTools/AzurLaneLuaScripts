@@ -81,10 +81,6 @@ slot0.OnUpdateFlush = function(slot0)
 
 	slot2, slot3, slot4 = slot0.ptData:GetResProgress()
 
-	if slot3 < slot2 then
-		slot2 = slot3
-	end
-
 	setText(slot0.progres, setColorStr(slot2, "#ffffff") .. setColorStr("/" .. slot3, "#DD9D9D"))
 
 	slot5 = slot0.ptData:CanGetAward()

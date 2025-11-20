@@ -80,6 +80,9 @@ end
 
 slot0.SetPtActivity = function(slot0, slot1)
 	slot0.ptActivity = slot1
+
+	print(slot1)
+
 	slot0.ptData = ActivityPtData.New(slot0.ptActivity)
 end
 
@@ -209,7 +212,8 @@ slot0.UpdateView = function(slot0)
 end
 
 slot0.UpdateBattle = function(slot0)
-	slot2 = slot0.activity:GetActiveSeriesIds()
+	slot1 = slot0.activity
+	slot2 = slot1:GetActiveSeriesIds()
 
 	table.Foreach(slot0.seriesNodes, function (slot0, slot1)
 		slot3 = BossRushSeriesData.New({
@@ -257,6 +261,7 @@ slot0.UpdateBattle = function(slot0)
 			uv3:emit(BossRushKurskMediator.ON_FLEET_SELECT, uv1)
 		end, SFX_PANEL)
 	end)
+	print(slot1.id)
 	setActive(slot0._tf:Find("Battle/Reward/Tip"), slot0.ptData:CanGetAward())
 	setText(slot0.ptText, slot0.ptActivity.data1)
 end
