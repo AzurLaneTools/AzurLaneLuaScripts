@@ -5266,7 +5266,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2025.11.20-2026.2.12</color>期間限時開放「大黃蜂·META」的挑戰，在此期間指揮官可挑戰「大黃蜂·META」累計其同步值獲得<color=#92fc63>「{大黃蜂·META」角色</c olor>及其他豐厚獎勵
+1. <color=#92fc63>2025.11.20-2026.2.12</color>期間限時開放「大黃蜂·META」的挑戰，在此期間指揮官可挑戰「大黃蜂·META」累計其同步值獲得<color=#92fc63>「大黃蜂·META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲得與解析
@@ -20796,9 +20796,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>資訊同步</color>
-·<color=#92fc63>2025.8.21-2025.11.20</color>期間限時開放「大鳳·META」的「資訊同步」，透過「信標大鳳·META」戰鬥取得其同步值，達到一定同步值可以獲得<color=#92fc63>「大鳳·META」角色</color>
+·<color=#92fc63>2025.11.20-2026.2.12</color>期間限時開放「大黃蜂·META」的「資訊同步」，透過「信標大黃蜂·META」戰鬥取得其同步值，達到一定同步值可以獲得<color=#92fc63>「大黃蜂·META」角色</color>
 ·獲得META角色後可以透過角色的<color=#92fc63>「資訊同步」</color>模組在<color=#92fc63>上述時間</color>內繼續取得包含養成材料在內的豐厚獎勵
-·注意：<color=#ff5c5c>「大鳳·META」的「資訊同步」將在時間結束後暫時關閉，已累積的同步值也會消失。</color>
+·注意：<color=#ff5c5c>「大黃蜂·META」的「資訊同步」將在時間結束後暫時關閉，已累積的同步值也會消失。</color>
 
 2.<color=#92fc63>能量啟動</color>
 ·META角色達到指定等級後可以使用對應的角色結晶進行啟動。啟動後可以提升角色星級
@@ -39711,6 +39711,41 @@ _G.pg.base.gametip.meta_simulated_btn = {
 }
 
 
+_G.pg.base.gametip.equip_enhancement_tip = {
+	tip = "材料不足"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv1 = {
+	tip = "強化至下一級"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lvx = {
+	tip = "強化至$1級"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_finish = {
+	tip = "強化完成"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_lv = {
+	tip = "級"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_title = {
+	tip = "強化"
+}
+
+
+_G.pg.base.gametip.equip_enhancement_required = {
+	tip = "需要素材："
+}
+
+
 _G.pg.base.gametip.shop_sell_ended = {
-	tip = "不可购买"
+	tip = "不可購買"
 }
