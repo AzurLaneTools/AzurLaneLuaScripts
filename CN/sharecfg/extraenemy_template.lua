@@ -445,7 +445,7 @@ pg.extraenemy_template = {
 			{
 				2,
 				20001,
-				3
+				1
 			}
 		},
 		replace_task = {
@@ -471,7 +471,7 @@ pg.extraenemy_template = {
 			{
 				2,
 				20001,
-				3
+				1
 			}
 		},
 		replace_task = {
@@ -497,7 +497,7 @@ pg.extraenemy_template = {
 			{
 				2,
 				20001,
-				3
+				1
 			}
 		},
 		replace_task = {
@@ -523,7 +523,7 @@ pg.extraenemy_template = {
 			{
 				2,
 				20001,
-				3
+				1
 			}
 		},
 		replace_task = {
@@ -549,7 +549,7 @@ pg.extraenemy_template = {
 			{
 				2,
 				20001,
-				3
+				1
 			}
 		},
 		replace_task = {

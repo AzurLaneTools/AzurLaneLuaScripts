@@ -78,6 +78,7 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.parentTr = slot0._tf.parent
+	slot0._bg = slot0._tf:Find("BG")
 	slot0._stageName = slot0._tf:Find("Panel/Progress/name")
 	slot0._delta = slot0._tf:Find("Panel/Progress/delta")
 	slot0._hpRate = slot0._tf:Find("Panel/Progress/value")
@@ -119,6 +120,9 @@ slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0._goBtnHard, function ()
 		uv0._series:SetDifficulty(CollabrateBossRushSeriesData.DIFF.HARD)
 		uv0.event:emit(BossRushDALCollabMediator.ON_FLEET_SELECT, uv0._series)
+	end, SFX_PANEL)
+	onButton(slot0, slot0._bg, function ()
+		uv0:Hide()
 	end, SFX_PANEL)
 end
 

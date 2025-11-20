@@ -71,6 +71,7 @@ slot0.init = function(slot0)
 					uv1.stageView:ExecuteAction("SetData", uv1._openSeriesData)
 					uv1.stageView:ExecuteAction("Show")
 
+					uv1.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = true
 					uv1._openSeriesData = nil
 				end
 
@@ -96,16 +97,6 @@ slot0.init = function(slot0)
 
 	slot0.mapAnima = slot0._tf:Find("Map"):GetComponent(typeof(Animation))
 	slot0.mapDftEvt = slot0._tf:Find("Map"):GetComponent(typeof(DftAniEvent))
-
-	slot0.mapDftEvt:SetEndEvent(function ()
-		for slot3, slot4 in pairs(uv0.shiftMapList) do
-			slot6 = uv0.maps[slot3]:GetComponent(typeof(Image))
-			slot6.sprite = slot4:GetComponent(typeof(Image)).sprite
-
-			slot6:SetNativeSize()
-		end
-	end)
-
 	slot0.mapFX = slot0._tf:Find("Map/state_fx")
 	slot0.upgradeBtn = slot0._tf:Find("Right/Upgrade")
 	slot0.shopBtn = slot0._tf:Find("Right/Store")
@@ -211,11 +202,11 @@ end
 
 slot0.PlayMapShiftAnima = function(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in pairs(slot0.maps) do
-		setImageSprite(slot8, GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. slot7 .. slot1), true)
+		setImageSprite(slot8, GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. slot7 .. slot2), true)
 	end
 
 	for slot7, slot8 in pairs(slot0.shiftMapList) do
-		setImageSprite(slot8, GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. slot7 .. slot2), true)
+		setImageSprite(slot8, GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. slot7 .. slot1), true)
 	end
 
 	setActive(slot0.shiftMap, true)
@@ -235,11 +226,15 @@ slot0.UpdateMap = function(slot0)
 		setActive(slot0.mapFX:Find("state_3"), true)
 		setActive(slot0.mapFX:Find("state_4"), true)
 
-		slot7 = "state_4/7"
+		slot7 = "state_4/6_3"
 
 		setActive(slot0.mapFX:Find(slot7), true)
 
 		for slot7, slot8 in pairs(slot0.maps) do
+			if slot7 ~= 1 and slot7 ~= 6 then
+				setActive(slot0.mapFX:Find("state_4/k"), false)
+			end
+
 			setActive(slot8, true)
 			setImageSprite(slot8, GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. slot7), true)
 		end
@@ -257,9 +252,9 @@ slot0.UpdateMap = function(slot0)
 				if slot3:GetBossHpRate() > 0.5 then
 					slot9 = "_1"
 
-					setActive(slot0.mapFX:Find("state_4/5"), true)
+					setActive(slot0.mapFX:Find("state_4/6_1"), true)
 				else
-					setActive(slot0.mapFX:Find("state_4/6"), true)
+					setActive(slot0.mapFX:Find("state_4/6_2"), true)
 
 					slot9 = "_2"
 				end
@@ -309,14 +304,19 @@ slot0.UpdateBattle = function(slot0)
 		table.insert(slot4, slot9)
 	end
 
-	table.sort(list, function (slot0, slot1)
+	table.sort(slot4, function (slot0, slot1)
 		return slot1:GetTrafficPerH() < slot0:GetTrafficPerH()
 	end)
 	table.Foreach(slot0.seriesNodes, function (slot0, slot1)
-		slot3 = uv1:GetCollabSeriesData(uv0[slot0])
+		slot2 = uv0[slot0]
+		slot3 = uv1:GetCollabSeriesData(slot2)
 		slot4 = slot3:IsPlayerUnlock(uv1)
 		slot5 = slot3:IsPass()
 		slot6 = slot3:GetDefeated(uv2.activity)
+
+		if slot2 == 6 and not slot4 then
+			setActive(slot1, false)
+		end
 
 		setActive(slot1:Find("lock"), not slot4)
 		setActive(slot1:Find("clear"), slot4 and slot5 and slot6)
@@ -384,6 +384,8 @@ slot0.UpdateBattle = function(slot0)
 				if not uv0:updateShipPosition() then
 					uv0.stageView:ExecuteAction("SetData", uv1)
 					uv0.stageView:ExecuteAction("Show")
+
+					uv0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = true
 				end
 			end
 
@@ -449,6 +451,8 @@ slot0.updateShipPosition = function(slot0)
 		if slot0._lastShip ~= slot0._currentShip then
 			slot0:playAnima(slot0._lastShip, "anim_BossRushDALCollabUI_ship_out")
 			setActive(slot0._lastShip:Find("vx_teleport_2"), true)
+
+			slot0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = false
 		end
 	else
 		setActive(slot0._currentShip, true)
@@ -490,6 +494,7 @@ slot0.checkAllStory = function(slot0)
 			slot4 = uv2
 
 			slot4:PlayStory(slot2[1], function ()
+				setActive(uv0.shiftMap:Find("map_6"), false)
 				uv0:PlayMapShiftAnima("", "_3")
 			end)
 		else

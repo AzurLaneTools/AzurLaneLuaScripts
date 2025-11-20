@@ -34965,5 +34965,15 @@ cs.gametip = {
 		1201067,
 		164,
 		true
+	},
+	dal_chapter_tip = {
+		1201231,
+		1563,
+		true
+	},
+	dal_chapter_tip2 = {
+		1202794,
+		113,
+		true
 	}
 }
