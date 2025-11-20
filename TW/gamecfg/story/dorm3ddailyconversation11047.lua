@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "今天也要战斗下去……嗯！",
+			say = "今天也要戰鬥下去……嗯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "战斗？和谁？",
+			say = "戰鬥？和誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然是今天是主动的{namecode:199:新泽西}，还是被动的{namecode:199:新泽西}！",
+			say = "當然今天是主動的紐澤西，還是被動的紐澤西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那么结果是？",
+			say = "那麼結果是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

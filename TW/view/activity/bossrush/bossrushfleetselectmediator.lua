@@ -310,9 +310,17 @@ slot0.getRecommendShip = function(slot0, slot1, slot2)
 		slot6[slot11] = slot11:getShipCombatPower()
 	end
 
-	table.sort(slot5, function (slot0, slot1)
-		return uv0[slot0] < uv0[slot1]
-	end)
+	table.sort(slot5, CompareFuncs({
+		function (slot0)
+			return uv0[slot0]
+		end
+	}))
+
+	if getProxy(SettingsProxy):GetRecommendLowEnerySkipEnable() then
+		slot5 = underscore.filter(slot5, function (slot0)
+			return not slot0:isLowEnergy()
+		end)
+	end
 
 	slot7 = {}
 	slot8 = slot4:getRawData()

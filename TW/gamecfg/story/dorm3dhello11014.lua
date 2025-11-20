@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello14",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今天的能量已经快耗尽了……Honey！我需要你来为我充能了！这次换你来摸摸我的头了，快点！",
+			say = "今天的能量已經快耗盡了……Honey！我需要你來為我充能了！這次換你來摸我的頭了，快點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,13 +15,13 @@ return {
 					{
 						pathIndex = -1,
 						lineMode = 1,
-						path = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandUI(Clone)/Island3dTaskTrackPanel(Clone)/content"
+						path = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandUI(Clone)/track_container/Island3dTaskTrackPanel(Clone)/content"
 					}
 				}
 			},
 			ui = {
 				pathIndex = -1,
-				path = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandUI(Clone)/Island3dTaskTrackPanel(Clone)/content"
+				path = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandUI(Clone)/track_container/Island3dTaskTrackPanel(Clone)/content"
 			}
 		},
 		{

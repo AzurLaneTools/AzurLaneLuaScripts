@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我扑！",
+			say = "我撲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "比月亮更美的{namecode:199:新泽西}，正在看着你哦，指~挥~官！",
+			say = "比月亮更美的紐澤西，正在看著你哦，指~揮~官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

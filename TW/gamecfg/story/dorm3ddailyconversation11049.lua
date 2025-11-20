@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯…Ho…还是算了吧。",
+			say = "嗯…Ho…還是算了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？",
+			say = "紐澤西？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "之前看上个很想要的东西，但想想还是算啦。",
+			say = "之前看上個很想要的東西，但想想還是算啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "网购是可怕的无底洞呢…",
+			say = "網購是可怕的無底洞呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "…撒娇还是留到下一次有更有意义的事情上吧！",
+			say = "……撒嬌還是留到下次有更有意義的事情吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

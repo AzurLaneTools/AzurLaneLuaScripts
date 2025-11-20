@@ -3,30 +3,41 @@ slot0 = class("IslandShipIndexLayer", import("view.common.CustomIndexLayer"))
 slot0.SortFunc = function(slot0)
 	return {
 		function (slot0)
-			if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0) then
-				return slot1["Get" .. uv0](slot1)
-			else
+			if not slot0.isInvite then
+				slot1 = slot0["Get" .. uv0](slot0)
+
+				return slot0["Get" .. uv0](slot0)
+			elseif slot0.isInvite then
 				return 0
 			end
 		end,
 		function (slot0)
-			return slot0
+			return slot0.configId
 		end
 	}
 end
 
+slot0.SortNames = {
+	"island_chara_list_level",
+	"island_chara_list_attribute",
+	"island_index_name"
+}
 slot0.sort = {
 	{
 		sortFuncs = slot0.SortFunc("Level"),
-		name = ShipIndexConst.SortNames[2]
+		name = slot0.SortNames[1]
 	},
 	{
 		sortFuncs = slot0.SortFunc("Power"),
-		name = ShipIndexConst.SortNames[3]
+		name = slot0.SortNames[2]
 	},
 	{
-		sortFuncs = slot0.SortFunc("Energy"),
-		name = ShipIndexConst.SortNames[6]
+		sortFuncs = slot0.SortFunc("CurrentEnergy"),
+		name = slot0.SortNames[3]
+	},
+	{
+		name = "island_chara_list_workspeed",
+		sortFuncs = slot0.SortFunc("WorkSpeed")
 	}
 }
 
@@ -35,7 +46,9 @@ slot0.getSortFuncAndName = function(slot0, slot1)
 		if bit.band(bit.lshift(1, slot5 - 1), slot0) > 0 then
 			return underscore.map(uv0.sort[slot5].sortFuncs, function (slot0)
 				return function (slot0)
-					return (uv0 and -1 or 1) * uv1(slot0)
+					slot1 = uv0(slot0)
+
+					return (uv1 and -1 or 1) * uv0(slot0)
 				end
 			end), uv0.sort[slot5].name
 		end
@@ -45,15 +58,11 @@ end
 slot0.SortLevel = bit.lshift(1, 0)
 slot0.SortPower = bit.lshift(1, 1)
 slot0.SortEnergy = bit.lshift(1, 2)
+slot0.SortWorkSpeed = bit.lshift(1, 3)
 slot0.SortIndexs = {
 	slot0.SortLevel,
 	slot0.SortPower,
 	slot0.SortEnergy
-}
-slot0.SortNames = {
-	"island_chara_list_level",
-	"island_chara_list_attribute",
-	"island_index_name"
 }
 slot0.ExtraPotency = bit.lshift(1, 0)
 slot0.ExtraCanUpgSkill = bit.lshift(1, 1)
@@ -127,6 +136,7 @@ slot0.init = function(slot0)
 	slot1 = slot0.contextData
 	slot0.OnFilter = slot1.OnFilter
 	slot0.indexDatas = slot1.defaultIndex or {}
+	slot0.needWorkSpeed = slot1.needWorkSpeed or false
 end
 
 slot0.BlurPanel = function(slot0)
@@ -167,14 +177,22 @@ slot0.InitGroup = function(slot0)
 end
 
 slot0.InitData = function(slot0)
+	slot1 = Clone(uv0.SortNames)
+	slot2 = Clone(uv0.SortIndexs)
+
+	if slot0.needWorkSpeed then
+		table.insert(slot1, "island_chara_list_workspeed")
+		table.insert(slot2, uv0.SortWorkSpeed)
+	end
+
 	return {
 		indexDatas = Clone(slot0.indexDatas),
 		customPanels = {
 			sortIndex = {
 				isSort = true,
 				mode = CustomIndexLayer.Mode.OR,
-				options = uv0.SortIndexs,
-				names = uv0.SortNames
+				options = slot2,
+				names = slot1
 			},
 			extraIndex = {
 				blueSeleted = true,

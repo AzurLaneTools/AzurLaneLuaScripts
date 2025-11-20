@@ -601,6 +601,174 @@ pg.dorm3d_touch_data = {
 			310910
 		}
 	},
+	[1051710] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1051710,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400110
+		}
+	},
+	[1051720] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1051720,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400210
+		}
+	},
+	[1051730] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1051730,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400310
+		}
+	},
+	[1051740] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1051740,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400410
+		}
+	},
+	[1051750] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1051750,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400710
+		}
+	},
+	[1051760] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1051760,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400510
+		}
+	},
+	[1051790] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1051790,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			410910
+		}
+	},
 	all = {
 		101,
 		102,
@@ -626,6 +794,13 @@ pg.dorm3d_touch_data = {
 		1990330,
 		1990340,
 		1990350,
-		1990390
+		1990390,
+		1051710,
+		1051720,
+		1051730,
+		1051740,
+		1051750,
+		1051760,
+		1051790
 	}
 }

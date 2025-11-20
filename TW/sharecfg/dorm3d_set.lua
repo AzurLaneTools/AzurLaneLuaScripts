@@ -146,6 +146,16 @@ pg.dorm3d_set = {
 		key = "drom3d_memory_limit",
 		key_value_int = 5400
 	},
+	drom3d_new_room_remind = {
+		key_value_varchar = "",
+		key = "drom3d_new_room_remind",
+		key_value_int = 11
+	},
+	dorm3d_furniture_slide = {
+		key_value_varchar = "",
+		key = "dorm3d_furniture_slide",
+		key_value_int = 401
+	},
 	all = {
 		"favor_level",
 		"stage",
@@ -173,6 +183,8 @@ pg.dorm3d_set = {
 		"drom3d_favir_trigger_game",
 		"drom3d_weekly_task",
 		"drom3d_appellation_time",
-		"drom3d_memory_limit"
+		"drom3d_memory_limit",
+		"drom3d_new_room_remind",
+		"dorm3d_furniture_slide"
 	}
 }

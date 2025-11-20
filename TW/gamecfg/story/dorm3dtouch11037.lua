@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_furniture2_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "被Honey这样对待……我倒是觉得很幸福呢……",
+			say = "被Honey這樣對待……我倒是覺得很幸福呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

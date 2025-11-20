@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_furniture1_tone2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这样的触碰……居然让我都有点紧张呢……",
+			say = "這樣的觸碰……居然讓我都有點緊張呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

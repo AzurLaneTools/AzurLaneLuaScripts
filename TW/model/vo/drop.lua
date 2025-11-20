@@ -625,6 +625,17 @@ slot0.InitSwitch = function()
 			end
 
 			return 0
+		end,
+		[DROP_TYPE_ISLAND_ACTION] = function (slot0)
+			if not getProxy(IslandProxy) then
+				return 0
+			end
+
+			if slot1:GetIsland() then
+				return slot2:GetActionAgency():ExistAction(slot0.id) and 1 or 0
+			end
+
+			return 0
 		end
 	}
 
@@ -1393,16 +1404,16 @@ slot0.InitSwitch = function()
 			setText(slot2, "")
 		end,
 		[DROP_TYPE_ISLAND_INVITATION] = function (slot0, slot1, slot2)
-			setText(slot2, "")
+			setText(slot2, slot0.desc)
 		end,
 		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0, slot1, slot2)
-			setText(slot2, "")
+			setText(slot2, slot0.desc)
 		end,
 		[DROP_TYPE_ISLAND_DRESS] = function (slot0, slot1, slot2)
-			setText(slot2, "")
+			setText(slot2, slot0.desc)
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function (slot0, slot1, slot2)
-			setText(slot2, "")
+			setText(slot2, slot0.desc)
 		end
 	}
 

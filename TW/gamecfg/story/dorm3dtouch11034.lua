@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit1_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "Honey这样做……是在邀请我吗~？",
+			say = "Honey這樣做……是在邀請我嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

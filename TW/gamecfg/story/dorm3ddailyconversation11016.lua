@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey！帮我把这个切……等等！",
+			say = "Honey！幫我切這個……等等！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "把手给我看看，你怎么这么不小心……",
+			say = "把手給我看看，你怎麼這麼不小心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "chu……接下来我们去紧急处理一下吧！不行，还是联系医务处吧？",
+			say = "chu……接下來我們就去緊急處理一下吧！不行，還是聯絡醫務處吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只是割伤而已，简单处理一下就好了。",
+			say = "只是割傷而已，簡單處理一下就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "真的吗？Honey？我感觉心都快跳出来了，真的！",
+			say = "真的嗎？Honey？我感覺心都快跳出來了，真的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

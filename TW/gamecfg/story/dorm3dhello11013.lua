@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello13",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "wow！honey，你太会给我惊喜了！我刚刚还在想你呢，如果没有你，感觉今天冰激凌都会变得难吃呢！",
+			say = "WOW！Honey，你太會給我驚喜了！我剛剛還在想你呢，如果沒有你，感覺今天冰淇淋都會變得難吃呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

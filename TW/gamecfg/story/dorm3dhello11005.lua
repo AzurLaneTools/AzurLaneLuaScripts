@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "Honey，要试试我刚做的曲奇吗？毕竟工作那么累，当然要好好奖励一下Honey了，口味，应该还合适吧？",
+			say = "Honey，要試試我剛做的曲奇嗎？畢竟工作那麼累，當然要好好獎勵Honey了，口味，應該還適合吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

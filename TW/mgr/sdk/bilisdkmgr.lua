@@ -87,6 +87,10 @@ PayFailed = function(slot0, slot1)
 		return
 	end
 
+	if uv0.GetChannelUID() == "21" then
+		return
+	end
+
 	pg.m02:sendNotification(GAME.CHARGE_FAILED, {
 		payId = slot0,
 		code = slot1

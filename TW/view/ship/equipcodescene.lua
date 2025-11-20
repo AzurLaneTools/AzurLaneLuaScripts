@@ -261,6 +261,7 @@ slot0.init = function(slot0)
 		uv0:initQuickPanel()
 	end, SFX_CANCEL)
 	onToggle(slot0, slot0.rtCodePanel:Find("btns/toggle_quick"), function (slot0)
+		setInputText(uv0.nameSearchInput, "")
 		setActive(uv0.rtMainPanel, false)
 		setActive(uv0.rtBottomPanel, false)
 		setActive(uv0.rtQuickPanel, false)
@@ -311,6 +312,15 @@ slot0.init = function(slot0)
 			uv0:updateQuickPanel(true)
 		end
 	end, SFX_PANEL)
+
+	slot0.nameSearchInput = slot0.rtQuickPanel:Find("title/serachPanel/search")
+	slot0.nameSearchText = slot0.nameSearchInput:Find("holder")
+
+	setText(slot0.nameSearchText, i18n("search_equipment"))
+	setInputText(slot0.nameSearchInput, "")
+	onInputChanged(slot0, slot0.nameSearchInput, function ()
+		uv0:updateQuickPanel(true)
+	end)
 
 	slot0.indexData = slot0.indexData or {}
 	slot0.spweaponIndexDatas = slot0.spweaponIndexDatas or {}
@@ -661,7 +671,8 @@ end
 
 slot0.getFilterEquipments = function(slot0)
 	slot1 = slot0:getEquipShipVO(slot0.equipData)
-	slot2 = {
+	slot2 = getInputText(slot0.nameSearchInput)
+	slot3 = {
 		slot0.indexData.equipPropertyIndex,
 		slot0.indexData.equipPropertyIndex2
 	}
@@ -669,7 +680,7 @@ slot0.getFilterEquipments = function(slot0)
 	return underscore(slot0.equips):chain():filter(function (slot0)
 		return (not slot0.shipId or uv0.equipingFlag) and underscore.reduce(uv0.equipData, 0, function (slot0, slot1)
 			return slot0 + (uv0 == slot1 and 1 or 0)
-		end) < slot0.count and not uv1:isForbiddenAtPos(slot0, uv0.quickIndex) and IndexConst.filterEquipByType(slot0, uv0.indexData.typeIndex) and IndexConst.filterEquipByProperty(slot0, uv2) and IndexConst.filterEquipAmmo1(slot0, uv0.indexData.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot0, uv0.indexData.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot0, uv0.indexData.equipCampIndex) and IndexConst.filterEquipByRarity(slot0, uv0.indexData.rarityIndex) and IndexConst.filterEquipByExtra(slot0, uv0.indexData.extraIndex)
+		end) < slot0.count and not uv1:isForbiddenAtPos(slot0, uv0.quickIndex) and IndexConst.filterEquipByType(slot0, uv0.indexData.typeIndex) and IndexConst.filterEquipByProperty(slot0, uv2) and IndexConst.filterEquipAmmo1(slot0, uv0.indexData.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot0, uv0.indexData.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot0, uv0.indexData.equipCampIndex) and IndexConst.filterEquipByRarity(slot0, uv0.indexData.rarityIndex) and IndexConst.filterEquipByExtra(slot0, uv0.indexData.extraIndex) and (uv3 == "" or slot0:IsMatchKey(uv3))
 	end):each(function (slot0)
 		slot0.mask = not uv0:canEquipAtPos(slot0, uv1.quickIndex)
 	end):value()
@@ -677,9 +688,10 @@ end
 
 slot0.getFilterSpWeapon = function(slot0)
 	slot1 = slot0:getEquipShipVO(slot0.equipData)
+	slot2 = getInputText(slot0.nameSearchInput)
 
 	return underscore.filter(slot0.spWeapons, function (slot0)
-		return (not slot0.shipId or uv0.equipingFlag) and slot0 ~= uv0.equipData[6] and not uv1:IsSpWeaponForbidden(slot0) and IndexConst.filterSpWeaponByType(slot0, uv0.spweaponIndexDatas.typeIndex) and IndexConst.filterSpWeaponByRarity(slot0, uv0.spweaponIndexDatas.rarityIndex)
+		return (not slot0.shipId or uv0.equipingFlag) and slot0 ~= uv0.equipData[6] and not uv1:IsSpWeaponForbidden(slot0) and IndexConst.filterSpWeaponByType(slot0, uv0.spweaponIndexDatas.typeIndex) and IndexConst.filterSpWeaponByRarity(slot0, uv0.spweaponIndexDatas.rarityIndex) and (uv2 == "" or slot0:IsMatchKey(uv2))
 	end)
 end
 

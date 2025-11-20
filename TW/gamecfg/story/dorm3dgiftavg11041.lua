@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "哇哦~在阳光下闪闪亮亮的糖果！真漂亮呢~",
+			say = "哇哦~在陽光下閃閃發光的糖果！真漂亮呢~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼哼——Honey，你听！",
+			say = "哼哼——Honey，你聽！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,14 +68,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "触碰过阳光的糖果，有水晶的声音哦~",
+			say = "碰觸過陽光的糖果，有水晶的聲音哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "真的么？难道不会化——",
+					content = "真的嗎？難道不會化——",
 					flag = 1
 				}
 			}
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘘——Honey！不要打破这份想象嘛！",
+			say = "噓——Honey！不要打破這份想像嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,14 +98,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这可是气泡水果糖哦，你猜甜蜜的水晶会不会也是这个味道呢~",
+			say = "這可是氣泡水果糖哦，你猜甜蜜的水晶會不會也是這個味道呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你可以先尝尝看",
+					content = "妳可以先嚐嚐看",
 					flag = 1
 				}
 			},
@@ -144,7 +144,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那我就不客气啦~欸——啊！我的糖！",
+			say = "那我就不客氣啦~欸——啊！我的糖！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

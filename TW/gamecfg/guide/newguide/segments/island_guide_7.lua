@@ -2,8 +2,11 @@ return {
 	id = "ISLAND_GUIDE_7",
 	events = {
 		{
-			is3dDorm = false,
 			alpha = 0,
+			is3dDorm = false,
+			code = {
+				1
+			},
 			style = {
 				text = "点击打开等待交付的岛屿订单",
 				mode = 2,
@@ -21,8 +24,11 @@ return {
 			}
 		},
 		{
-			is3dDorm = false,
 			alpha = 0,
+			is3dDorm = false,
+			code = {
+				2
+			},
 			style = {
 				text = "交付订单所需资材后，就能获得下方的订单奖励",
 				mode = 2,
@@ -45,8 +51,11 @@ return {
 			}
 		},
 		{
-			is3dDorm = false,
 			alpha = 0,
+			is3dDorm = false,
+			code = {
+				2
+			},
 			style = {
 				text = "如果觉得订单交付困难，可以点击驳回按钮，重新接取新订单。",
 				mode = 2,
@@ -64,8 +73,11 @@ return {
 			}
 		},
 		{
-			is3dDorm = false,
 			alpha = 0,
+			is3dDorm = false,
+			code = {
+				2
+			},
 			style = {
 				text = "点击按钮交付订单",
 				mode = 2,
@@ -88,6 +100,9 @@ return {
 		},
 		{
 			delay = 1.3,
+			code = {
+				2
+			},
 			hideui = {
 				{
 					ishide = true,
@@ -96,9 +111,12 @@ return {
 			}
 		},
 		{
-			delay = 0.3,
 			is3dDorm = false,
 			alpha = 0,
+			delay = 0.3,
+			code = {
+				2
+			},
 			style = {
 				text = "点击关闭订单",
 				mode = 2,
@@ -118,8 +136,11 @@ return {
 			}
 		},
 		{
-			is3dDorm = false,
 			alpha = 0,
+			is3dDorm = false,
+			code = {
+				2
+			},
 			style = {
 				text = "点击关闭岛屿订单界面",
 				mode = 2,
@@ -136,6 +157,9 @@ return {
 		},
 		{
 			alpha = 0,
+			code = {
+				2
+			},
 			doFunc = function ()
 				if _IslandCore then
 					_IslandCore:GetView():NotifiyIsland(ISLAND_EX_EVT.PLAY_STORY, {
@@ -143,6 +167,42 @@ return {
 					})
 				end
 			end
+		},
+		{
+			alpha = 0,
+			is3dDorm = false,
+			code = {
+				3
+			},
+			style = {
+				text = "当前资材不足，无法交付订单",
+				mode = 2,
+				char = 1,
+				posY = -300,
+				dir = -1,
+				posX = 300,
+				uiset = {}
+			}
+		},
+		{
+			alpha = 0,
+			is3dDorm = false,
+			code = {
+				3
+			},
+			style = {
+				text = "点击关闭岛屿订单界面，前往栖风原野采集资材再来吧",
+				mode = 2,
+				char = 1,
+				posY = 0,
+				dir = -1,
+				posX = 0,
+				uiset = {}
+			},
+			ui = {
+				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandOrderUI(Clone)/top/back"
+			}
 		}
 	}
 }

@@ -1,125 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
-	[9703060] = {
-		name = "博爾扎諾·META",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "我是博爾扎諾，歸屬於薩丁尼亞聯盟的騎士。要交給我的任務是什麼，指揮官？",
-		group_index = 0,
-		purchase_offset = "",
-		painting = "boerzhanuo_alter",
-		ship_group = 970306,
-		bg_sp = "",
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		ship_l2d_id = "",
-		id = 9703060,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "boerzhanuo_alter",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 335,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.386,
-					0.941,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.395,
-					0.95,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.026,
-					1.979,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.43,
-							2.24,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[9704010] = {
 		name = "格奈森瑙·META",
 		shop_offset = "",
@@ -2794,11 +2675,11 @@ pg.base.ship_skin_template_19 = {
 		}
 	},
 	[9707060] = {
-		name = "大黄蜂·META",
+		name = "大黃蜂·META",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "你就是舰队的指挥官吗？初次见面，你好你好！我是约克城级的小妹，大黄蜂！虽然比不上姐姐们，不过我也是很厉害的哦……大概！",
+		desc = "你就是艦隊的指揮官嗎？初次見面，你好！我是約克鎮級的小妹，大黃蜂！雖然比不上姐姐們，不過我也是很厲害的哦……大概！",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "dahuangfeng_alter",
@@ -14720,6 +14601,125 @@ pg.base.ship_skin_template_19 = {
 						{
 							-0.329,
 							2.418,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[11100060] = {
+		name = "古手川唯",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "你就是指揮官嗎？初次見面，我是古手川唯。因為一些小意外才來到這裡的……不過既然要承蒙你照顧，我就一定會好好維護港區的紀律的！",
+		group_index = 0,
+		purchase_offset = "",
+		painting = "gushouchuan_tolove",
+		ship_group = 1110006,
+		bg_sp = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		ship_l2d_id = "",
+		id = 11100060,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "gushouchuan_tolove",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 434,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-1.24,
+					2.31,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-1.27,
+					2.35,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.821,
+					2.186,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.285,
+							2.353,
 							0
 						}
 					}

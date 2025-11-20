@@ -882,7 +882,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在焦蘇埃·卡爾杜奇一行人被拉斐爾以儀式出現為藉口騙過來後，馬可波羅將此前對拉斐爾說的話對眾人又說了一遍。",
+			say = "在焦蘇埃·卡爾杜奇一行人被拉斐爾以儀式出現問題為藉口騙過來後，馬可波羅將此前對拉斐爾說的話對眾人又說了一遍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

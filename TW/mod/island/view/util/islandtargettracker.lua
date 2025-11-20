@@ -1,12 +1,13 @@
 slot0 = class("IslandTargetTracker")
 slot1 = {
 	200,
-	180
+	200
 }
+slot2 = 25
 
 slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
-	slot0.distanceTr = findTF(slot0._tf, "distance")
+	slot0.distanceTr = slot0._tf
 
 	setActive(slot0.distanceTr, true)
 
@@ -18,7 +19,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.screenCenter = Vector2(slot0.screenSize.x * 0.5, slot0.screenSize.y * 0.5)
 	slot0.radiusOfEllipse = Vector2(uv0[1], uv0[2])
 	slot0.lines = {}
-	slot0.targetosition = Vector3.zero
+	slot0.targetPosition = Vector3.zero
 	slot0.lerpSpeed = 25
 	slot0.showHudDic = {}
 end
@@ -31,12 +32,33 @@ slot0.UnTracking = function(slot0)
 	slot0:Clear()
 end
 
-slot0.Update = function(slot0)
+slot0.Update = function(slot0, slot1)
 	if slot0.cg.alpha == 0 then
 		return
 	end
 
-	slot0.distanceTr.localPosition = Vector3.Lerp(slot0.distanceTr.localPosition, slot0.targetosition, Time.deltaTime * slot0.lerpSpeed)
+	if slot1 then
+		slot0:AdjustTargetPosition(slot1)
+	end
+
+	slot0.distanceTr.localPosition = Vector3.Lerp(slot0.distanceTr.localPosition, slot0.targetPosition, Time.deltaTime * slot0.lerpSpeed)
+end
+
+slot0.GetShowTargetPosition = function(slot0)
+	return slot0.cg.alpha ~= 0 and slot0.targetPosition or nil
+end
+
+slot0.AdjustTargetPosition = function(slot0, slot1)
+	if math.abs(math.rad2Deg * math.atan2(slot0.targetPosition.x - 1, slot0.targetPosition.y) - math.rad2Deg * math.atan2(slot1.x - 1, slot1.y)) < uv0 then
+		slot4, slot5 = slot0:RotatePoint(slot1.x, slot1.y, uv0)
+		slot0.targetPosition = Vector3(slot4, slot5, 0)
+	end
+end
+
+slot0.RotatePoint = function(slot0, slot1, slot2, slot3)
+	slot4 = math.deg2Rad * slot3
+
+	return slot1 * math.cos(slot4) - slot2 * math.sin(slot4), slot1 * math.sin(slot4) + slot2 * math.cos(slot4)
 end
 
 slot0.Disable = function(slot0)
@@ -60,7 +82,7 @@ slot0.SetUp = function(slot0, slot1, slot2, slot3)
 	slot0:ShutDown()
 
 	slot0.trackId = slot3
-	slot0.timer = Timer.New(function ()
+	slot0.timer = FrameTimer.New(function ()
 		if IsNil(uv0) then
 			uv1.cg.alpha = 0
 
@@ -76,9 +98,9 @@ slot0.SetUp = function(slot0, slot1, slot2, slot3)
 
 		uv1.distanceTxt.text = math.ceil(Vector3.Distance(slot0, uv2.transform.position)) .. "M"
 		slot4, slot5 = uv1:CalcPosition(uv0.transform)
-		uv1.targetosition = Vector3(slot4.x, slot4.y, 0)
+		uv1.targetPosition = Vector3(slot4.x, slot4.y, 0)
 		uv1.arrTr.localEulerAngles = Vector3(0, 0, slot5)
-	end, Time.deltaTime, -1)
+	end, 1, -1)
 
 	slot0.timer:Start()
 end

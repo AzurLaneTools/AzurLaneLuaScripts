@@ -2125,7 +2125,6 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10100] = {
-		type_use = "3",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2134,13 +2133,15 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 1,
 		id = 10100,
+		type_use = {
+			3
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10101] = {
-		type_use = "3.2",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2149,13 +2150,15 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 2,
 		id = 10101,
+		type_use = {
+			3.2
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10102] = {
-		type_use = "3.5",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2164,13 +2167,15 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 3,
 		id = 10102,
+		type_use = {
+			3.5
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10103] = {
-		type_use = "3.7",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2179,13 +2184,15 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 4,
 		id = 10103,
+		type_use = {
+			3.7
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10104] = {
-		type_use = "4",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2194,13 +2201,15 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 5,
 		id = 10104,
+		type_use = {
+			4
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10105] = {
-		type_use = "4.2",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2209,13 +2218,15 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 6,
 		id = 10105,
+		type_use = {
+			4.2
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10106] = {
-		type_use = "4.5",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2224,13 +2235,15 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 7,
 		id = 10106,
+		type_use = {
+			4.5
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10107] = {
-		type_use = "5",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2239,13 +2252,15 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 8,
 		id = 10107,
+		type_use = {
+			5
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10108] = {
-		type_use = "5.5",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2254,13 +2269,15 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 9,
 		id = 10108,
+		type_use = {
+			5.5
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10109] = {
-		type_use = "6",
 		name = "高效回复",
 		buff_group = 1010,
 		buff_desc = "无需本地化，角色技能读skill表",
@@ -2269,6 +2286,9 @@ pg.island_buff_template = {
 		buff_time = 0,
 		buff_level = 10,
 		id = 10109,
+		type_use = {
+			6
+		},
 		type_duel = {
 			1010
 		},

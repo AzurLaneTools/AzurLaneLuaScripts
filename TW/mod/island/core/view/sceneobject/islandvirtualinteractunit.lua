@@ -17,10 +17,9 @@ slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 
 	if slot7 then
 		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", true)
-		slot0:SetPlayerTransform(slot1, slot0.attachGo.transform.parent)
-	else
-		slot0:SetVisitorTransform(slot1, slot0.attachGo.transform.parent)
 	end
+
+	slot0:SetPlayerTransform(slot1, slot0.attachGo.transform.parent)
 
 	if slot5 and #slot5 > 1 then
 		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue(slot5[1], slot5[2])

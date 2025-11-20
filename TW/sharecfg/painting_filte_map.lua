@@ -15822,7 +15822,6 @@ pg.painting_filte_map = {
 		key = "tiancheng",
 		res_list = {
 			"painting/tiancheng_tex",
-			"painting/tiancheng_h_rw_tex",
 			"painting/tiancheng"
 		}
 	},
@@ -15872,6 +15871,7 @@ pg.painting_filte_map = {
 		key = "tiancheng_cv_h",
 		res_list = {
 			"painting/tiancheng_cv_h_tex",
+			"painting/tiancheng_cv_h_rw_tex",
 			"painting/tiancheng_cv_h_n_rw_tex",
 			"painting/tiancheng_cv_h_n",
 			"painting/tiancheng_cv_h_bj_tex",

@@ -11099,6 +11099,37 @@ _G.pg.base.item_data_statistics[15022] = {
 }
 
 
+_G.pg.base.item_data_statistics[15023] = {
+	open_directly = 0,
+	name = "咖啡館建設券",
+	type = 100,
+	display = "用於擴建咖啡館功能區的建設開發券。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/15022",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 15023,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[16001] = {
 	open_directly = 0,
 	name = "艦艇攻擊教材T1",
@@ -15342,6 +15373,37 @@ _G.pg.base.item_data_statistics[21044] = {
 }
 
 
+_G.pg.base.item_data_statistics[21045] = {
+	open_directly = 0,
+	name = "結晶：大黃蜂·META",
+	type = 4,
+	display = "大黃蜂·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21045",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21045,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21046] = {
 	open_directly = 0,
 	name = "結晶：內華達·META",
@@ -16075,6 +16137,37 @@ _G.pg.base.item_data_statistics[21917] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21917,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21918] = {
+	open_directly = 0,
+	name = "同步值：大黃蜂·META",
+	type = 0,
+	display = "於「信標·META」戰鬥中收集的數據，可以提升大黃蜂·META同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21918",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21918,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

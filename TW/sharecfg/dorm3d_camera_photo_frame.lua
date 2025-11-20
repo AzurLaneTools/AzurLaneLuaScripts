@@ -8,7 +8,9 @@ pg.dorm3d_camera_photo_frame = setmetatable({
 		1004,
 		1005,
 		1006,
-		1007
+		1007,
+		1008,
+		1009
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -146,6 +148,46 @@ pg.base.dorm3d_camera_photo_frame = {
 		unlock = {
 			1,
 			30221,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1008] = {
+		name = "雅緻胡桃",
+		rarity = 3,
+		farme_path = "photo_frame_Wood",
+		frameTfName = "WoodFrame",
+		desc = "獲得後可在相機功能中解鎖雅緻胡桃相框",
+		unlock_text = "{namecode:199}5級解鎖",
+		id = 1008,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_Wood_small",
+		unlock = {
+			1,
+			10517,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1009] = {
+		name = "鏡頭感",
+		rarity = 3,
+		farme_path = "photo_frame_Focus",
+		frameTfName = "FocusFrame",
+		desc = "獲得後可在相機功能中解鎖鏡頭感相框",
+		unlock_text = "{namecode:199}契合度13級解鎖",
+		id = 1009,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_Focus_small",
+		unlock = {
+			1,
+			10517,
 			13
 		},
 		watermark_location = {

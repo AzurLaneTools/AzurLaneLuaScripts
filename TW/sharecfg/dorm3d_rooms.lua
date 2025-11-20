@@ -443,6 +443,159 @@ pg.dorm3d_rooms = {
 			}
 		}
 	},
+	[11] = {
+		assets_prefix = "Xinzexi",
+		resource_name = "Xinzexi_DB",
+		type = 2,
+		id = 11,
+		invite_cost = "",
+		in_map = "floor_2",
+		room = "紐澤西",
+		invite_mark = "",
+		tag = "",
+		room_bgm = "Story-room-newjersey",
+		invite_icon = "",
+		invite_banner = "",
+		room_des = "",
+		scene_info = "map_newjerseyhostel_01|Xinzexi_DB/Newjerseyhostel",
+		is_common = 0,
+		character = {
+			10517
+		},
+		character_pay = {},
+		character_welcome = {
+			{
+				10517,
+				0
+			}
+		},
+		character_range = {
+			1
+		},
+		unlock_item = {},
+		default_zone = {
+			{
+				10517,
+				"Chair"
+			}
+		},
+		furniture_zones = {
+			11001,
+			11002,
+			11003
+		},
+		recall_list = {
+			101,
+			102,
+			103,
+			104
+		},
+		ar_anim = {
+			{
+				10517,
+				{
+					11001,
+					11002,
+					11003,
+					11004,
+					11005,
+					11006,
+					11007,
+					11008,
+					11009,
+					11010,
+					11011,
+					11012,
+					11013,
+					11014
+				}
+			}
+		}
+	},
+	[16] = {
+		assets_prefix = "Publiccafe",
+		resource_name = "Publiccafe",
+		type = 1,
+		id = 16,
+		in_map = "floor_2",
+		room = "咖啡廳",
+		tag = "cafe",
+		room_bgm = "Story-room-bar",
+		room_des = "優雅與精緻，奢華與愉悅。在金色的流光中，經歷這一場夢幻奇遇。",
+		scene_info = "map_publiccafe_01|Publiccafe",
+		is_common = 0,
+		character = {},
+		character_pay = {
+			10517
+		},
+		character_welcome = {
+			{
+				10517,
+				0
+			}
+		},
+		character_range = {
+			0,
+			3
+		},
+		unlock_item = {
+			{
+				2,
+				15023,
+				1
+			}
+		},
+		default_zone = {
+			{
+				10517,
+				"xinzexi"
+			}
+		},
+		furniture_zones = {},
+		recall_list = {},
+		invite_cost = {
+			{
+				10517,
+				270113
+			}
+		},
+		invite_banner = {
+			{
+				10517,
+				{
+					"banner_cafe1"
+				}
+			}
+		},
+		invite_icon = {
+			{
+				10517,
+				"dorm3dicon/3Ddrom_invitation"
+			}
+		},
+		invite_mark = {
+			{
+				10517,
+				{
+					1,
+					5,
+					6
+				}
+			}
+		},
+		ar_anim = {
+			{
+				10517,
+				{
+					16001,
+					16001,
+					16003,
+					16004,
+					16005
+				}
+			}
+		}
+	},
 	get_id_list_by_in_map = {
 		floor_1 = {
 			1,
@@ -450,6 +603,10 @@ pg.dorm3d_rooms = {
 			3,
 			4,
 			5
+		},
+		floor_2 = {
+			11,
+			16
 		}
 	},
 	all = {
@@ -457,6 +614,8 @@ pg.dorm3d_rooms = {
 		2,
 		3,
 		4,
-		5
+		5,
+		11,
+		16
 	}
 }

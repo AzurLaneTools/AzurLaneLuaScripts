@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "想去什么地方玩？",
+			say = "想去什麼地方玩？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "有很多！但，在哪里都比不上在这里。",
+			say = "有很多！但，在哪裡都比不上在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "闹闹哄哄的港区，和喜欢的人。",
+			say = "鬧鬧哄哄的港區，和喜歡的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这就是Black Dragon最大的财富啦！",
+			say = "這就是Black Dragon最大的財富！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

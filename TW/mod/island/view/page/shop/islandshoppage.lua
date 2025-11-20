@@ -551,8 +551,6 @@ end
 slot0.SetCommodity = function(slot0, slot1, slot2)
 	uv0.StaticUpdateCommodityTpl(slot1, slot2)
 	setActive(slot1:Find("notInTime"), not slot0.showingShop:IsInTime())
-	setText(slot1:Find("sellOut/Text"), i18n("common_sale_out"))
-	setText(slot1:Find("hold/Text"), i18n("common_already owned"))
 
 	slot3 = false
 
@@ -1342,6 +1340,8 @@ slot0.StaticUpdateCommodityTpl = function(slot0, slot1)
 	setActive(slot0:Find("sellOut"), slot1:GetMaxNum() ~= 0 and slot2 == 0 and not isActive(slot0:Find("hold")))
 	setActive(slot0:Find("cost"), not isActive(slot0:Find("sellOut")) and not isActive(slot0:Find("hold")))
 	setActive(slot0:Find("select"), false)
+	setText(slot0:Find("sellOut/Text"), i18n("common_sale_out"))
+	setText(slot0:Find("hold/Text"), i18n("common_already owned"))
 end
 
 slot0.SortShopCommodities = function(slot0)

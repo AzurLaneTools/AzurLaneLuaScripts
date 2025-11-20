@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "最近房间周围长了不少花，回来的路上我顺手摘的。",
+			say = "最近房間周圍長了不少花，回來的路上我順手摘的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "让我们一起把它们放进花瓶里吧，Honey？",
+			say = "讓我們一起把它們放進花瓶裡吧，Honey？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

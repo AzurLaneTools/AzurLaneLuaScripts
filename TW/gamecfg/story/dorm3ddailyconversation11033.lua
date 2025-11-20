@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？怎么了？",
+			say = "紐澤西？怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "之前我在网上看了一下，有人说人类每周需要很多~拥抱来保持身心健康！",
+			say = "之前我在網路上看了一下，有人說人類每週需要很多~擁抱來保持身心健康！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我只是想实践一下……嘿嘿，你会喜欢的吧？",
+			say = "我只是想實踐一下……嘿嘿，你會喜歡的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

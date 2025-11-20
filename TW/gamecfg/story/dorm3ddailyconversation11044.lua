@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……最近的训练水平又有提升，太好了！",
+			say = "嗯…最近的訓練水準又有提升，太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}已经很强了。",
+			say = "紐澤西已經很強了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还不够呢！Black Dragon还可以为了Honey变得更强！",
+			say = "還不夠呢！Black Dragon還可以為了Honey變得更強！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "强到什么都能一下解决的话，能和Honey共处的机会不就更多了吗？",
+			say = "強到什麼都能一下解決的話，能和Honey共處的機會不就更多了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？",
+			say = "紐澤西？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "原来是，honey……来了啊。",
+			say = "原來是，Honey……來了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我……我怎么流口水了？",
+			say = "我……我怎麼流口水了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我正梦到吃到限量版冰激凌的时候，听到声音就醒了……",
+			say = "我正夢到吃到限量版冰淇淋的時候，聽到聲音就醒了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯？为什么？当然是honey比起冰激凌更加重要还用说嘛？！",
+			say = "嗯？為什麼？當然是Honey比起冰淇淋更重要還用說嘛？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

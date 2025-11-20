@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_furniture2_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "继续下去的话……会变得奇怪的啦……！",
+			say = "繼續下去的話……會變得奇怪的啦……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

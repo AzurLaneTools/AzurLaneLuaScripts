@@ -1484,7 +1484,7 @@ _G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
 
 
 _G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
-	tip = "是否確定要清除已經選擇的編隊，使用推薦的配置？"
+	tip = "是否採用建議配置補齊空餘位置?"
 }
 
 
@@ -5266,16 +5266,16 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2025.8.21-2025.11.20</color>期間限時開放「大鳳·META」的挑戰，在此期間指揮官可挑戰「大鳳·META」累計其同步值獲取<color=#92fc63>「大鳳·META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2025.11.20-2026.2.12</color>期間限時開放「大黃蜂·META」的挑戰，在此期間指揮官可挑戰「大黃蜂·META」累計其同步值獲得<color=#92fc63>「{大黃蜂·META」角色</c olor>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲得與解析
-·指揮官可透過在大型作戰中取得「信標數據」，達到指定數據量後進行解析並發現特定信標
-·每日最多可取得 <color=#92fc63>200</color>點，每日0點刷新可取得點數，尚未使用的「信標數據」將會保留。
+·指揮官可透過在大型作戰中獲得「信標數據」，達到指定數據量後進行解析並發現特定信標
+·每日最多可獲得 <color=#92fc63>200</color>點，每日0點更新可獲得點數，尚未使用的「信標數據」將會保留。
 ·每次解析「信標數據」所需量為<color=#92fc63>100</color>點
 
 3.挑戰自己解析的信標
-·第一次挑戰自己解析的信標不會消耗石油，從第二次開始，隨著挑戰次數的增加，每次挑戰消耗的石油會從<color=#92fc63>40</color> 點逐漸減少至<color=#92fc63>0</color>點。(不會消耗挑戰次數)
+·第一次挑戰自己解析的信標不會消耗石油，從第二次開始，隨著挑戰次數的增加，每次挑戰消耗的石油會從<color=#92fc63>40</color>點逐漸減少至<color=#92fc63>0</color>点。(不會消耗挑戰次數)
 ·當信標HP歸零後視為戰鬥勝利，指揮官可以領取大量角色同步值獎勵。
 ·每個被解析的信標只會存在<color=#92fc63>24小時</color>，過期後將會消失，記得向其他指揮官請求支援哦。
 ·每次挑戰成功後，信標的強度將會提升1階段，總計15階段。隨著階段提升，戰鬥獎勵也會提升。
@@ -5287,16 +5287,16 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一個信標最多能允許累計30位指揮官進行挑戰
 
 5.戰鬥說明
-·挑戰信標大鳳·META暫不可使用指揮喵與潛艇
+·挑戰信標大黃蜂·META暫不可使用指揮喵與潛艇
 ·戰鬥結算時不會獲得經驗值，不會影響艦船心情值
-·戰鬥中不可中途退出，如果出現網路波動導致斷線的情況：
+·戰鬥中不可中途退出，如果出現網路波動導致掉線的情況：
 ①挑戰自己解析的信標時將會消耗40點石油(非第一次挑戰)，且不會計算已造成的傷害
-②挑戰信標清單中的信標時將會消耗挑戰次數且無法獲得任何獎勵
+②挑戰信標列表中的信標時將會消耗挑戰次數且無法獲得任何獎勵
  <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
 
 6.火力支援
-隨著信標大鳳·META挑戰的進行，從第31天開始，即2025.9.20 ~ 2025.11.20期間，艦隊挑戰「大鳳·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標大鳳·META開放的日期增加，火力支援提供的傷害也會增加。
-※此支援只會在指揮官自己發現的信標大鳳·META戰鬥中出現，每次挑戰均會觸發。]]
+隨著信標大黃蜂·META挑戰的進行，從第31天開始，即2025.12.9~2026.2.12期間，艦隊挑戰「大黃蜂·META」時將會獲得一次額外支援火力。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標大黃蜂·META開放的日期增加，火力支援提供的傷害也會增加。
+※此支援只會在指揮官自己發現的信標大黃蜂·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
 }
@@ -12095,7 +12095,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "拉斐爾、巴拉卡少校、巴托洛梅奥·科莱奥尼 建造概率UP！"
+	tip = "埃姆登、呂措、約克、埃爾賓 建造概率UP！"
 }
 
 
@@ -34486,7 +34486,7 @@ _G.pg.base.gametip.dorm3d_role_choose = {
 
 
 _G.pg.base.gametip.dorm3d_beach_buy = {
-	tip = "是否消耗<color=#39bfff>$1</color> 解鎖 <color=#169fff>沙灘</color>"
+	tip = "是否消耗<color=#39bfff>$1</color> 解鎖<color=#169fff>$2</color>"
 }
 
 
@@ -37176,6 +37176,81 @@ _G.pg.base.gametip.SuperBulin2_lock_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_shop_buy_tips = {
+	tip = "是否消耗$1<color=#169fff>$2</color>（總計$1<color=#169fff>$3</color>）購買<color=#169fff>$4</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_title = {
+	tip = "宿舍商店"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit = {
+	tip = "限購"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_sold_out = {
+	tip = "已售罄"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_all = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift1 = {
+	tip = "禮物"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_furniture = {
+	tip = "家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_others = {
+	tip = "其他"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit1 = {
+	tip = "本週限購"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
+	tip = "$1的即興舞蹈"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame2 = {
+	tip = "抓拍$1期待的照片吧！"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame3 = {
+	tip = "拍攝完成"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame4 = {
+	tip = "再來一次"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame5 = {
+	tip = "離開舞台"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame6 = {
+	tip = "匹配度：$1"
+}
+
+
 _G.pg.base.gametip.xiaoankeleiqi_npc = {
 	tip = {
 		{
@@ -37962,6 +38037,16 @@ _G.pg.base.gametip.brs_reward_tip_1 = {
 
 _G.pg.base.gametip.brs_reward_tip_2 = {
 	tip = "前往"
+}
+
+
+_G.pg.base.gametip.dorm3d_dance_button = {
+	tip = "舞蹈 "
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_cafe = {
+	tip = "咖啡馆"
 }
 
 
@@ -39598,6 +39683,31 @@ _G.pg.base.gametip.dorm3d_touch2 = {
 
 _G.pg.base.gametip.dorm3d_furnitrue_type_special = {
 	tip = "特典"
+}
+
+
+_G.pg.base.gametip.search_equipment = {
+	tip = "搜尋裝備名"
+}
+
+
+_G.pg.base.gametip.search_sp_equipment = {
+	tip = "搜尋特殊兵裝名"
+}
+
+
+_G.pg.base.gametip.search_equipment_appearance = {
+	tip = "搜尋裝備外觀名"
+}
+
+
+_G.pg.base.gametip.meta_reproduce_btn = {
+	tip = "是否進入目前信標META的檔案重現戰鬥？\n戰鬥強度：Lv15\n*該戰鬥不消耗石油，不會獲得任何獎勵"
+}
+
+
+_G.pg.base.gametip.meta_simulated_btn = {
+	tip = "是否進入目前信標META的模擬戰鬥？\n戰鬥強度：Lv$1\n*該戰鬥不消耗石油，不會獲得任何獎勵"
 }
 
 

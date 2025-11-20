@@ -12,178 +12,139 @@ slot0.OnLoaded = function(slot0)
 		uv0:Hide()
 	end)
 
-	slot0.contentTF = slot0._tf:Find("content")
-	slot0.iconTF = slot0.contentTF:Find("title/icon")
-	slot0.nameTF = slot0.contentTF:Find("title/name")
-	slot0.finishedTF = slot0.contentTF:Find("target/finished")
-	slot0.unFinishTF = slot0.contentTF:Find("target/unfinish")
-	slot0.targetUIList = UIItemList.New(slot0.unFinishTF, slot0.unFinishTF:Find("tpl"))
+	slot0.mainTrackCard = IslandTaskTrackCard.New(slot0._tf:Find("content"), slot0.event, IslandTaskTrackCard.TYPES.MAIN)
+	slot0.otherTrackCard = IslandTaskTrackCard.New(slot0._tf:Find("other_content"), slot0.event, IslandTaskTrackCard.TYPES.OTHER)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.targetUIList:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			uv0:UpdateTargetItem(slot1, slot2)
-		end
-	end)
-	onButton(slot0, slot0.contentTF, function ()
+	onButton(slot0, slot0.mainTrackCard._tf, function ()
 		if not getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(IslandGuideChecker.MOVE_TASK_ID) then
 			return
 		end
 
 		uv0:emit(IslandMediator.OPEN_PAGE, "Island3dTaskPage", {
 			0,
-			uv0.task.id
+			uv0.mainTask.id
+		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0.otherTrackCard._tf, function ()
+		if not getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(IslandGuideChecker.MOVE_TASK_ID) then
+			return
+		end
+
+		uv0:emit(IslandMediator.OPEN_PAGE, "Island3dTaskPage", {
+			0,
+			uv0.otherTask.id
 		})
 	end, SFX_PANEL)
 
 	slot0.unlock = getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(pg.island_set.main_page_function_unlock.key_value_varchar[2])
 end
 
-slot0.UpdateTargetItem = function(slot0, slot1, slot2)
-	slot4 = slot0.task:GetTargetList()[slot1 + 1]:IsFinish()
-
-	setActive(slot2:Find("status/unfinish"), not slot4)
-	setActive(slot2:Find("status/finished"), slot4)
-
-	if slot4 then
-		slot2:GetComponent(typeof(Animation)):Play("Island3dTaskTrackPanel_tpl_finish_in")
-	else
-		slot2:GetComponent(typeof(Animation)):Play("Island3dTaskTrackPanel_tpl_unfinished_in")
-	end
-
-	GetOrAddComponent(slot2:Find("content"), "CanvasGroup").alpha = slot4 and 0.5 or 1
-
-	if slot0:GetMapTip(tonumber(slot3:GetTrackParma())) and not slot4 then
-		setText(slot2:Find("content/Text"), slot5)
-		setText(slot2:Find("content/num"), "")
-	else
-		setText(slot2:Find("content/Text"), HXSet.hxLan(slot3:getConfig("name")))
-		setText(slot2:Find("content/num"), string.format("(%d/%d)", slot3:GetProgress(), slot3:GetTargetNum()))
-	end
-end
-
 slot0.Show = function(slot0)
 	setActive(slot0._tf, slot0.unlock)
 	slot0:ShowOrHideResUI(true)
 	slot0:PlayBGM()
-	slot0:UpdateTask()
+	slot0:UpdataAllTask()
 end
 
-slot0.PlayShowAnim = function(slot0)
-	slot0.uiAnim:Play("Island3dTaskTrackPanel_in")
-end
+slot0.UpdataAllTask = function(slot0)
+	slot0.mainTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetMainTraceTask()
 
-slot0.UpdateTask = function(slot0)
-	slot0.task = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
-
-	if not slot0.task then
-		return
+	if not slot0.mainTask then
+		slot0.mainTrackCard:UnTrackUI()
 	end
 
-	slot1 = slot0.task:GetShowType()
+	slot0.otherTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
 
-	GetImageSpriteFromAtlasAsync("island/islandtasktype", IslandTaskType.ShowTypeFields[slot1], slot0.iconTF)
-	setImageColor(slot0.contentTF:Find("title/bg"), Color.NewHex(IslandTaskType.ShowTypeColors[slot1]))
-	setText(slot0.nameTF, HXSet.hxLan(slot0.task:GetName()))
-	slot0:UpdateTarget()
-	slot0:TrackUI()
+	if not slot0.otherTask then
+		slot0.otherTrackCard:UnTrackUI()
+	end
+
+	if not slot0.mainTask and not slot0.otherTask then
+		return
+	end
 
 	if slot0.unlock then
-		slot0:PlayShowAnim()
+		slot0.uiAnim:Play("Island3dTaskTrackPanel_in")
+	end
+
+	slot0:UpdateTask(IslandTaskTrackCard.TYPES.MAIN)
+	slot0:UpdateTask(IslandTaskTrackCard.TYPES.OTHER)
+end
+
+slot0.UpdateTask = function(slot0, slot1)
+	if slot1 == IslandTaskTrackCard.TYPES.MAIN then
+		slot0.mainTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetMainTraceTask()
+
+		slot0.mainTrackCard:Update(slot0.mainTask, slot0.unlock)
+	elseif slot1 == IslandTaskTrackCard.TYPES.OTHER then
+		slot0.otherTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
+
+		slot0.otherTrackCard:Update(slot0.otherTask, slot0.unlock)
 	end
 end
 
-slot0.UpdateTarget = function(slot0)
-	slot1 = not slot0.task:IsSubmitImmediately() and slot0.task:IsFinish()
+slot0.UpdateProgress = function(slot0, slot1)
+	if slot1 == IslandTaskTrackCard.TYPES.MAIN then
+		slot0.mainTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetMainTraceTask()
 
-	slot0.targetUIList:align(#slot0.task:GetTargetList())
-	setActive(slot0.finishedTF, slot1)
+		if slot0.mainTask then
+			slot0.mainTrackCard:UpdateProgress(slot0.mainTask)
+		end
+	elseif slot1 == IslandTaskTrackCard.TYPES.OTHER then
+		slot0.otherTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
 
-	if slot1 then
-		if slot0:GetMapTip(tonumber(slot0.task:GetTraceParam())) then
-			setText(slot0.finishedTF:Find("Text"), slot2)
-		else
-			setText(slot0.finishedTF:Find("Text"), HXSet.hxLan(slot0.task:GetFinishedDesc()))
+		if slot0.otherTask then
+			slot0.otherTrackCard:UpdateProgress(slot0.otherTask)
 		end
 	end
 end
 
-slot0.UpdateProgress = function(slot0)
-	slot0.task = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
-
-	if not slot0.task then
-		return
+slot0.RemoveTask = function(slot0, slot1)
+	if slot1 == IslandTaskTrackCard.TYPES.MAIN then
+		slot0.mainTrackCard:RemoveTask()
+	elseif slot1 == IslandTaskTrackCard.TYPES.OTHER then
+		slot0.otherTrackCard:RemoveTask()
 	end
 
-	slot0:UpdateTarget()
-	slot0:TrackUI()
-end
+	slot0:emit(IslandMediator.ON_SET_TRACE_ID, 0, slot1)
 
-slot0.TrackUI = function(slot0)
-	if not slot0.unlock then
-		return
+	slot0.mainTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetMainTraceTask()
+	slot0.otherTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
+
+	if not slot0.mainTask and not slot0.otherTask then
+		slot0.uiAnim:Play("Island3dTaskTrackPanel_out")
 	end
-
-	if tonumber(slot0.task:GetTraceParam()) then
-		if _IslandCore then
-			_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
-				id = slot2,
-				typ = slot0.task:GetType()
-			})
-		end
-	else
-		slot0:UnTrackUI()
-	end
-end
-
-slot0.GetMapTip = function(slot0, slot1)
-	if not slot1 then
-		return nil
-	end
-
-	if not pg.island_world_objects[slot1] then
-		return nil
-	end
-
-	if getProxy(IslandProxy):GetIsland():GetMapId() == slot2.mapId then
-		return nil
-	end
-
-	return i18n("island_word_go") .. pg.island_map[slot2.mapId].name
-end
-
-slot0.UnTrackUI = function(slot0)
-	if not slot0.unlock then
-		return
-	end
-
-	if _IslandCore then
-		_IslandCore:GetController():NotifiyCore(ISLAND_EVT.UNTRACKING)
-	end
-end
-
-slot0.RemoveTask = function(slot0)
-	slot0:emit(IslandMediator.ON_SET_TRACE_ID, 0)
-	slot0:UnTrackUI()
-	slot0.uiAnim:Play("Island3dTaskTrackPanel_out")
 end
 
 slot0.SetUnlock = function(slot0)
 	slot0.unlock = true
 
-	if slot0.task then
-		slot0:UpdateTask()
+	if slot0.mainTask then
+		slot0.mainTrackCard:Update(slot0.mainTask, slot0.unlock)
+	end
+
+	if slot0.otherTask then
+		slot0.otherTrackCard:Update(slot0.otherTask, slot0.unlock)
 	end
 end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	slot0:UnTrackUI()
+	slot0.mainTrackCard:UnTrackUI()
+	slot0.otherTrackCard:UnTrackUI()
 end
 
 slot0.OnDestroy = function(slot0)
 	slot0.uiAnimEvent:SetEndEvent(nil)
+	slot0.mainTrackCard:Dispose()
+
+	slot0.mainTrackCard = nil
+
+	slot0.otherTrackCard:Dispose()
+
+	slot0.otherTrackCard = nil
 end
 
 return slot0

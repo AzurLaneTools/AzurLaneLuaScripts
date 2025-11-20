@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哇啊……！honey，还好你在……不然又要摔倒了。",
+			say = "哇啊……！Honey，還好你在……不然又要跌倒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "新的舞步有点困难呢……不过为了Honey看得开心，我能做到的！",
+			say = "新的舞步有點困難呢……不過為了Honey看得開心，我能做到的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

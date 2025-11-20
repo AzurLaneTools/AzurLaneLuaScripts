@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你是说大衣吗？哼哼哼，很帅气吧。",
+			say = "你是說大衣嗎？哼哼哼，很帥氣吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这可不是一般的大衣，这个呀……",
+			say = "這可不是一般的大衣，這個呀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "当年我可是经常看到有人这么穿着站在讲台作为优秀学生演讲呢。",
+			say = "當年我可是常常看到有人這麼穿著站在講台作為優秀學生演講呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那时候我就觉得这样实在是太帅了。",
+			say = "那時候我就覺得這樣實在太帥了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "直到再次相遇，我也依然觉得honey十分帅气，不，是200%倍的帅气哦。",
+			say = "直到再次相遇，我仍然覺得Honey十分帥氣，不，是200%倍的帥氣哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

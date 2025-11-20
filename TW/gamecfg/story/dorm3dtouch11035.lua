@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit3_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "Honey的气息……每一秒都让人心动不已……",
+			say = "Honey的氣息……每一秒都讓人心動不已……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

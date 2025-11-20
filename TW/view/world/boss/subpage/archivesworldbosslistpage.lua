@@ -40,6 +40,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.scrollRect = slot0._tf:Find("main/list/scrollrect"):GetComponent("LScrollRect")
 	slot0.paintingTr = slot0._tf:Find("main/paint")
 	slot0.openTr = slot0._tf:Find("main/open")
+	slot0.simulateBtn = slot0._tf:Find("main/simulate")
 	slot0.ptIcon = slot0._tf:Find("main/award/pt/icon")
 	slot0.ptTr = slot0._tf:Find("main/award/pt/Text"):GetComponent(typeof(Text))
 	slot0.getAllBtn = slot0._tf:Find("main/award/get_all")
@@ -214,16 +215,25 @@ end
 slot0.UpdateMain = function(slot0, slot1)
 	setMetaPaintingPrefabAsync(slot0.paintingTr, slot1.progress.id, "archives")
 
-	slot4 = slot1.id == WorldBossConst.GetArchivesId() or slot1.progress.metaPtData:IsMaxPt()
+	slot5 = slot1.id == WorldBossConst.GetArchivesId() or slot1.progress.metaPtData:IsMaxPt()
 
-	setActive(slot0.openTr, not slot4)
+	setActive(slot0.openTr, not slot5)
+	setActive(slot0.simulateBtn, not slot1.progress.metaPtData:CanGetNextAward())
 
-	if slot4 then
+	if slot5 then
 		removeOnButton(slot0.openTr)
 	else
 		onButton(slot0, slot0.openTr, function ()
 			uv0:Switch(uv1)
 		end, SFX_PANEL)
+	end
+
+	if slot4 then
+		onButton(slot0, slot0.simulateBtn, function ()
+			uv0:Simulate(uv1)
+		end)
+	else
+		removeOnButton(slot0.simulateBtn)
 	end
 end
 
@@ -238,6 +248,15 @@ slot0.Switch = function(slot0, slot1)
 			end
 		})
 	end
+end
+
+slot0.Simulate = function(slot0, slot1)
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		content = i18n("meta_reproduce_btn"),
+		onYes = function ()
+			uv0:emit(WorldBossMediator.ON_BATTLE, uv1.id, false, 1, true)
+		end
+	})
 end
 
 slot0.UpdateAwards = function(slot0, slot1)

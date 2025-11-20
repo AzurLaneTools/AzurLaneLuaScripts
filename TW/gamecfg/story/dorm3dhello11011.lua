@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello11",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "哇……哇！Honey真是坏心眼，搞这种背后袭击……嘿嘿，不过我知道的，你喜欢，对吧！？",
+			say = "哇……哇！Honey真是壞心眼，搞這種背後襲擊……嘿嘿，不過我知道的，你喜歡，對吧！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

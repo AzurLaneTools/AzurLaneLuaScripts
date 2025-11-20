@@ -25,6 +25,7 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.includePlayerStorys = {}
 	slot0.animationOpShowDistance = pg.island_set.action_detection.key_value_int
 	slot0.chatBubbleShowDistance = pg.island_set.island_message_bubble_range.key_value_int
+	slot0.bubbleTasks = {}
 
 	uv0.super.OnInit(slot0, slot1)
 end
@@ -123,11 +124,13 @@ slot0.TryHidePlayerChat = function(slot0)
 	end
 end
 
-slot0.PlayBubble = function(slot0, slot1, slot2, slot3)
+slot0.RawPlayBubble = function(slot0, slot1, slot2, slot3)
+	slot4 = slot1.id
+
 	slot0:TryHidePlayerChat()
 
-	if IslandStory.New(pg.NewStoryMgr.GetInstance():GetScript(slot1), slot2, IslandStory.MODE_BUBBLE):ContainerPlayer() then
-		table.insert(slot0.includePlayerStorys, slot1)
+	if IslandStory.New(slot1, slot2, IslandStory.MODE_BUBBLE):ContainerPlayer() then
+		table.insert(slot0.includePlayerStorys, slot4)
 	end
 
 	slot6 = {}
@@ -142,19 +145,48 @@ slot0.PlayBubble = function(slot0, slot1, slot2, slot3)
 		table.insert(slot6, function (slot0)
 			slot1 = uv0.bubblePlayers[uv1.key] or IslandChatBubblePlayer.New(Object.Instantiate(uv0.chatTpl, uv2), uv3._go)
 
-			slot1:Play(uv4, uv5)
+			slot1:Play(uv4, slot0)
 
 			uv0.bubblePlayers[uv1.key] = slot1
 		end)
 	end
 
-	seriesAsync(slot6, function ()
+	seriesAsyncExtend(slot6, function ()
 		table.removebyvalue(uv0.includePlayerStorys, uv1)
 
-		if uv2 then
-			uv2()
+		uv0.bubbleTasks[uv2.id] = nil
+
+		if uv3 then
+			uv3()
 		end
 	end)
+
+	slot0.bubbleTasks[slot1.id] = slot6
+end
+
+slot0.PlayBubble = function(slot0, slot1, slot2, slot3)
+	slot0:RawPlayBubble(pg.NewStoryMgr.GetInstance():GetScript(slot1), slot2, slot3)
+end
+
+slot0.StopBubble = function(slot0, slot1)
+	slot0:RawStopBubble(pg.NewStoryMgr.GetInstance():GetScript(slot1))
+end
+
+slot0.RawStopBubble = function(slot0, slot1)
+	if not slot0.bubbleTasks[slot1.id] then
+		return
+	end
+
+	slot0.bubbleTasks[slot1.id] = {}
+
+	for slot6, slot7 in ipairs(IslandStory.New(slot1, unitList, IslandStory.MODE_BUBBLE).steps) do
+		if slot0.bubblePlayers[slot7:GetUnitData().key] then
+			slot9:Stop()
+			slot9:Dispose()
+		end
+
+		slot0.bubblePlayers[slot8.key] = nil
+	end
 end
 
 slot0.ShowAnimationOp = function(slot0, slot1, slot2)
@@ -266,6 +298,7 @@ slot0.OnDispose = function(slot0)
 	slot0.animationOpShowFlags = nil
 	slot0.includePlayerStorys = nil
 	slot0.isResponeAnimationOp = nil
+	slot0.bubbleTasks = nil
 end
 
 return slot0

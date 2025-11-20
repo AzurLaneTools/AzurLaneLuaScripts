@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "气色不太好呢……honey。",
+			say = "氣色不太好呢……Honey。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天就把工作放一边，拿上爆米花享受一下:电影吧！",
+			say = "今天就把工作放一邊，拿上爆米花享受電影吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "俗话说得好，只工作不玩耍，聪明杰克也变傻。",
+			say = "俗話說得好，只工作不玩耍，聰明傑克也變傻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "别太担心，之后的问题，我们就一起来面对吧~",
+			say = "別太擔心，之後的問題，我們就一起來面對吧~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

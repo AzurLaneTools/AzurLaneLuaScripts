@@ -726,6 +726,291 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/entertainmentarea"
 		}
 	},
+	[1101] = {
+		rarity = 3,
+		name = "兔兔搖籃",
+		unlock_tips = "",
+		type = 4,
+		room_id = 11,
+		desc = "注重體驗的舒適大床，結構穩定，堅固耐用。抱著柔軟的兔兔抱枕入睡，或許會夢見星河下的胡蘿蔔莊園？",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1101,
+		target_slots = {
+			1110102
+		},
+		touch_id = {
+			{
+				10517,
+				1051730
+			}
+		},
+		shop_id = {}
+	},
+	[1102] = {
+		rarity = 3,
+		name = "極冰紀元",
+		unlock_tips = "",
+		type = 6,
+		room_id = 11,
+		desc = "以簡約線條勾勒未來美學，搭載澎湃冷凍系統。提供酸素可樂暢飲，為生活注入冰爽與愜意。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1102,
+		target_slots = {
+			1110203
+		},
+		touch_id = {
+			{
+				10517,
+				1051710
+			}
+		},
+		shop_id = {}
+	},
+	[1103] = {
+		rarity = 3,
+		name = "日光棉島",
+		unlock_tips = "",
+		type = 5,
+		room_id = 11,
+		desc = "一款經典的布沙發，質感蓬鬆柔軟。每當午後陽光灑落其上，這裡就是最適合打盹的一小塊漂浮陸地。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1103,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051720
+			}
+		},
+		shop_id = {}
+	},
+	[1104] = {
+		rarity = 2,
+		name = "惑星夜燈",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "形狀像行星的檯燈，在夜晚靜靜發出朦朧微光。深空之中，總有一顆不熄滅的星星在靜靜地守候著你。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical03",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1104,
+		target_slots = {
+			1110101
+		},
+		shop_id = {}
+	},
+	[1105] = {
+		rarity = 2,
+		name = "裝飾畫",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "精美的裝飾畫，為咖啡店增添藝術氣息與美感，讓咖啡時光更具溫馨。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1105,
+		target_slots = {
+			1110301
+		},
+		shop_id = {}
+	},
+	[1106] = {
+		rarity = 2,
+		name = "靜謐深藍",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "輕輕旋動開關，柔光如流水般漫溢而出，水母群浮游於深藍色的虛空。是從何時……墜入了這如夢似幻的海洋？",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_fishtank01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1106,
+		target_slots = {
+			1110302
+		},
+		shop_id = {}
+	},
+	[1107] = {
+		rarity = 2,
+		name = "微波爐",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "方便快速的加熱工具，無論是早餐或下午茶，都能讓美食保持溫暖，為每一餐增添一份貼心的關懷。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical04",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1107,
+		target_slots = {
+			1110201
+		},
+		shop_id = {}
+	},
+	[1108] = {
+		rarity = 2,
+		name = "綠意盆栽",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "別小看它，美化環境的同時還能淨化空氣哦~",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_pottedplant01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture9",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1108,
+		target_slots = {
+			1110202
+		},
+		shop_id = {}
+	},
+	[1151] = {
+		rarity = 4,
+		name = "星空一隅",
+		type = 5,
+		room_id = 11,
+		desc = "未來感十足的新概念卡座，同步配置了智慧控溫功能。 24小時供應冰鎮飲品，詮釋對服務與舒適的極致追求。",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_livingroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture1",
+		acesses = "",
+		id = 1151,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051740
+			}
+		},
+		shop_id = {
+			271101
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1151"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
+	[1152] = {
+		rarity = 5,
+		name = "動感飛輪",
+		type = 5,
+		room_id = 11,
+		desc = "專業的健身器材，甚至考慮了使用者的精神娛樂需求。 \n只要蹬上踏板，足不出戶也能開啟心跳加速的暢快旅途。",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_entertainment01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture4",
+		acesses = "",
+		id = 1152,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051750
+			}
+		},
+		shop_id = {
+			270204
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1152"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
+	[1153] = {
+		rarity = 4,
+		name = "天外庇所",
+		type = 4,
+		room_id = 11,
+		desc = "將科技美學轉化為私密的休憩空間，建構出甜蜜的天外庇護所。 \n投身其中，就彷彿置身於遙遠星空外的溫暖角落。",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_bedroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture2",
+		acesses = "",
+		id = 1153,
+		target_slots = {
+			1110102
+		},
+		touch_id = {
+			{
+				10517,
+				1051760
+			}
+		},
+		shop_id = {
+			270205
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1153"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -761,6 +1046,19 @@ pg.dorm3d_furniture_template = {
 			306,
 			307,
 			321
+		},
+		[11] = {
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1151,
+			1152,
+			1153
 		}
 	},
 	all = {
@@ -792,6 +1090,17 @@ pg.dorm3d_furniture_template = {
 		305,
 		306,
 		307,
-		321
+		321,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1151,
+		1152,
+		1153
 	}
 }

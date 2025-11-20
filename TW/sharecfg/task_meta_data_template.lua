@@ -287,6 +287,11 @@ pg.task_meta_data_template = setmetatable({
 		100393,
 		100394,
 		100395,
+		100401,
+		100402,
+		100403,
+		100404,
+		100405,
 		100411,
 		100412,
 		100413,
@@ -427,6 +432,10 @@ pg.task_meta_data_template = setmetatable({
 		200302,
 		200303,
 		200304,
+		200311,
+		200312,
+		200313,
+		200314,
 		200321,
 		200322,
 		200323,
@@ -2723,6 +2732,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用安德烈亞·多里亞·META擊破等級＞100的敵方1次"
 	},
+	[100401] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100401,
+		target_num = 1,
+		desc = "使用大黃蜂·META獲得1次勝利"
+	},
+	[100402] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100402,
+		target_num = 1,
+		desc = "使用大黃蜂·META擊破等級＞30的敵方1次"
+	},
+	[100403] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100403,
+		target_num = 1,
+		desc = "使用大黃蜂·META擊破等級＞55的敵方1次"
+	},
+	[100404] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100404,
+		target_num = 1,
+		desc = "使用大黃蜂·META擊破等級＞80的敵方1次"
+	},
+	[100405] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100405,
+		target_num = 1,
+		desc = "使用大黃蜂·META擊破等級＞100的敵方1次"
+	},
 	[100411] = {
 		target_id = "0",
 		sub_type = 180,
@@ -3842,6 +3891,38 @@ pg.base.task_meta_data_template = {
 		id = 200304,
 		target_num = 1,
 		desc = "大型作戰內使用安德烈亞·多里亞·META擊破等級＞100的敵方1次"
+	},
+	[200311] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200311,
+		target_num = 1,
+		desc = "大型作戰內使用大黃蜂·META獲得1次勝利"
+	},
+	[200312] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200312,
+		target_num = 1,
+		desc = "大型作戰內使用大黃蜂·META擊破等級＞70的敵方1次"
+	},
+	[200313] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200313,
+		target_num = 1,
+		desc = "大型作戰內使用大黃蜂·META擊破等級＞90的敵方1次"
+	},
+	[200314] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200314,
+		target_num = 1,
+		desc = "大型作戰內使用大黃蜂·META擊破等級＞100的敵方1次"
 	},
 	[200321] = {
 		target_id = "0",

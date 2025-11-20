@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit1_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这样的节奏刚刚好呢……今天就让我们一直这样吧？",
+			say = "這樣的節奏剛好呢……今天就讓我們一直這樣吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

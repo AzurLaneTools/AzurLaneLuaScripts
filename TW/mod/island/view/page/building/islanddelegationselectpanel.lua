@@ -242,7 +242,7 @@ slot0.FlushInfos = function(slot0)
 			slot13 = "×" .. slot5.formula_drop_list[1].num * slot8[1][2]
 
 			if slot5.main_num and slot14 > 0 then
-				slot13 = string.format("%s+%d", slot13, slot14)
+				slot13 = string.format("×(%d<color=#7df39f>+%d</color>)", slot10, slot14)
 			end
 
 			setText(slot0.canRewardNum, slot13)
@@ -321,6 +321,7 @@ end
 slot0.OpenShipSelectPage = function(slot0)
 	slot0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
 		{
+			needWorkSpeed = true,
 			attrType = pg.island_production_slot[slot0.slotId].attribute,
 			confirmFunc = function (slot0)
 				uv0:AfterShipSelect(slot0[1])
@@ -374,7 +375,7 @@ slot0.UpdateTime = function(slot0)
 	slot10 = "×" .. tostring(pg.island_formula[slot3.formula_id].commission_product[1][2] * slot3:CanRewardTimes())
 
 	if slot3:GetCurrentCanRewardExtraMainNum() and slot9 > 0 then
-		slot10 = string.format("%s+%d", slot10, slot9)
+		slot10 = string.format("×(%d<color=#7df39f>+%d</color>)", slot8.commission_product[1][2] * slot6, slot9)
 	end
 
 	setText(slot0.canRewardNum, slot10)
@@ -391,7 +392,7 @@ slot0.UpdateTime = function(slot0)
 		slot17 = string.format("×(%s<color=#7df39f>+%d</color>)", slot8.commission_product[1][2], slot16)
 	end
 
-	setText(slot0.currentFormulaNum, slot17)
+	setText(slot0.currentFormulaNum, slot17 .. i18n("island_production_tip"))
 
 	if #slot8.second_product > 0 and getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlcokSecondProduct(slot7) then
 		slot19 = "×" .. slot8.second_product_display[1][2]
@@ -400,14 +401,14 @@ slot0.UpdateTime = function(slot0)
 			slot19 = string.format("×(%s<color=#7df39f>+%d</color>)", slot8.second_product_display[1][2], slot18)
 		end
 
-		setText(slot0.extraProductNum, slot19)
+		setText(slot0.extraProductNum, slot19 .. i18n("island_production_tip"))
 	end
 
 	if slot6 > 0 then
 		setActive(slot0.getBtn, true)
 		setActive(slot0.addBtn, false)
 	else
-		setActive(slot0.addBtn, slot15 < 5)
+		setActive(slot0.addBtn, slot15 < (slot8.production_limit or 5))
 		onButton(slot0, slot0.addBtn, function ()
 			uv0:OpenFormulaSelectPage(uv1, uv2, uv3, uv4.ship_id)
 		end, SFX_PANEL)

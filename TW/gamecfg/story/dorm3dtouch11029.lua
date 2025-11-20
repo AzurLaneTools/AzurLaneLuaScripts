@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit4_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "哼哼~想要我投降是不可能的哦？我还可以继续呢~！",
+			say = "哼哼~想要我投降是不可能的哦？我還可以繼續呢~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

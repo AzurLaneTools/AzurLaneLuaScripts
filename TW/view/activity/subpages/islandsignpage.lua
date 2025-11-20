@@ -83,7 +83,7 @@ slot0.GetDate = function()
 end
 
 slot0.IsShowRed = function()
-	return uv0.IsShowGoRed() or uv0.IsShowAwardRed()
+	return uv0.IsShowAwardRed()
 end
 
 slot0.IsShowGoRed = function()

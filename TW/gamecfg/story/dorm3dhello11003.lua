@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "指挥……我是说，H……没什么，总之，欢迎！嘿嘿嘿！别太在意！来让我们喝杯饮料吧！",
+			say = "指揮……我是說，H……沒什麼，總之，歡迎！嘿嘿嘿！別太在意！來讓我們喝杯飲料吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

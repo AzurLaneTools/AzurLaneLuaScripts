@@ -711,6 +711,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>追逐這跳躍的浪花，開啟一段充滿歡樂與驚喜的奇遇。</color>\n透過提升「宿舍計畫」中安克拉治的契合度等級獲取",
 		scene = {}
 	},
+	[1007] = {
+		name = "星雪依偎",
+		gain_by = "",
+		time_second = 0,
+		id = 1007,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>純潔的星雪之下，兩隻兔兔互相依偎，守護著彼此的溫暖。</color>\n透過提升「宿舍計劃」中紐澤西的契合度等級獲取",
+		scene = {}
+	},
+	[1008] = {
+		name = "炫光躍動",
+		gain_by = "",
+		time_second = 0,
+		id = 1008,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>電子炫光閃爍耀眼，是哪隻兔兔在跟著光芒躍動呢？</color>\n透過提升「宿舍計劃」中紐澤西的契合度等級獲取",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界的挑戰者·雙子座",
 		gain_by = "",
@@ -908,6 +926,8 @@ pg.item_data_frame = {
 		1004,
 		1005,
 		1006,
+		1007,
+		1008,
 		10001,
 		10002,
 		10003,

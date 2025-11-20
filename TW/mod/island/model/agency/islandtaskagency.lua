@@ -26,7 +26,13 @@ slot0.OnInit = function(slot0, slot1)
 		end
 	end
 
+	slot0:SetMainTraceId(slot0:GetPriorityMainTraceTaskId())
+
 	slot0.acceptCheckTimestampTags = {}
+
+	if slot0.traceId ~= 0 and (slot0.tasks[slot0.traceId] and slot3:GetType() == IslandTaskType.MAIN or not slot0:IsShowInTaskUI(slot3)) then
+		slot0.traceId = 0
+	end
 end
 
 slot0.InitFutureTasks = function(slot0, slot1)
@@ -50,7 +56,7 @@ slot0.InitFutureTasks = function(slot0, slot1)
 
 	for slot5, slot6 in ipairs(IslandTaskType.GetPermanentTypes()) do
 		underscore.each(underscore.select(pg.island_task.get_id_list_by_type[slot6] or {}, function (slot0)
-			return not uv0.IsServerAcceptType(slot0) and not uv1:CheckMutex(slot0)
+			return pg.island_task[slot0].unlock_time ~= "stop" and not uv0.IsServerAcceptType(slot0) and not uv1:CheckMutex(slot0)
 		end), function (slot0)
 			slot1 = IslandFutureTask.New({
 				task_id = slot0
@@ -88,6 +94,12 @@ slot0.IsFinishTask = function(slot0, slot1)
 	return table.contains(slot0.finishedIds, slot1)
 end
 
+slot0.GetFinishCntByType = function(slot0, slot1)
+	return underscore.reduce(slot0.finishedIds, 0, function (slot0, slot1)
+		return slot0 + (pg.island_task[slot1].type == uv0 and 1 or 0)
+	end)
+end
+
 slot0.IsPassId = function(slot0, slot1)
 	return table.contains(slot0.mutexIds, slot1)
 end
@@ -100,22 +112,36 @@ slot0.GetShowTasks = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.tasks) do
-		if slot6:getConfig("type") ~= IslandTaskType.SEASON then
-			slot9 = underscore.all(slot6:getConfig("link_task"), function (slot0)
-				return uv0:IsFinishTask(slot0)
-			end)
-
-			if slot7 == IslandTaskType.HIDE then
-				if #slot8 > 0 and slot9 then
-					table.insert(slot1, slot6)
-				end
-			elseif slot9 then
-				table.insert(slot1, slot6)
-			end
+		if slot0:IsShowInTaskUI(slot6) then
+			table.insert(slot1, slot6)
 		end
 	end
 
 	return slot1
+end
+
+slot0.IsShowInTaskUI = function(slot0, slot1)
+	if not slot1 then
+		return false
+	end
+
+	if slot1:getConfig("type") == IslandTaskType.SEASON then
+		return false
+	end
+
+	slot4 = underscore.all(slot1:getConfig("link_task"), function (slot0)
+		return uv0:IsFinishTask(slot0)
+	end)
+
+	if slot2 == IslandTaskType.HIDE then
+		if #slot3 > 0 and slot4 then
+			return true
+		end
+	elseif slot4 then
+		return true
+	end
+
+	return false
 end
 
 slot0.GetTask = function(slot0, slot1)
@@ -142,11 +168,27 @@ slot0.GetTraceTask = function(slot0)
 	return slot0.tasks[slot0.traceId]
 end
 
+slot0.SetMainTraceId = function(slot0, slot1)
+	slot0.mainTraceId = slot1
+end
+
+slot0.GetMainTraceId = function(slot0)
+	return slot0.mainTraceId
+end
+
+slot0.GetMainTraceTask = function(slot0)
+	if slot0.mainTraceId == 0 then
+		return nil
+	end
+
+	return slot0.tasks[slot0.mainTraceId]
+end
+
 slot0.GetPriorityTraceTaskId = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.tasks) do
-		if not table.contains(IslandTaskType.EXCLUED_TRACK_TYPES, slot6:GetType()) then
+		if not table.contains(IslandTaskType.EXCLUED_TRACK_TYPES, slot6:GetType()) and slot0:IsShowInTaskUI(slot6) then
 			table.insert(slot1, slot6)
 		end
 	end
@@ -163,7 +205,17 @@ slot0.GetPriorityTraceTaskId = function(slot0)
 		end
 	}))
 
-	return slot1[1] and slot1[1].id
+	return slot1[1] and slot1[1].id or 0
+end
+
+slot0.GetPriorityMainTraceTaskId = function(slot0)
+	for slot4, slot5 in pairs(slot0.tasks) do
+		if slot5:GetType() == IslandTaskType.MAIN then
+			return slot5.id
+		end
+	end
+
+	return 0
 end
 
 slot0.AddTask = function(slot0, slot1)
@@ -339,7 +391,15 @@ end
 slot0.TryAutoTrackTask = function(slot0)
 	if slot0:GetPriorityTraceTaskId() then
 		pg.m02:sendNotification(GAME.ISLAND_SET_TRACE_TASK, {
-			traceId = slot1
+			traceId = slot1,
+			type = IslandTaskTrackCard.TYPES.OTHER
+		})
+	end
+
+	if slot0:GetPriorityMainTraceTaskId() then
+		pg.m02:sendNotification(GAME.ISLAND_SET_TRACE_TASK, {
+			traceId = slot2,
+			type = IslandTaskTrackCard.TYPES.MAIN
 		})
 	end
 end

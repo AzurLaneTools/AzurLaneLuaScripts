@@ -178,6 +178,10 @@ pg.ship_meta_breakout = setmetatable({
 		9707052,
 		9707053,
 		9707054,
+		9707061,
+		9707062,
+		9707063,
+		9707064,
 		9707071,
 		9707072,
 		9707073,
@@ -3072,6 +3076,75 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9707054,
 		item1 = 21041,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9707061] = {
+		breakout_view = "習得技能【破敵之炬·大黃蜂】/所有戰鬥機+1/艦載機效率提高3%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9707062,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707061,
+		item1 = 21045,
+		level = 10,
+		weapon_ids = {
+			60081,
+			54014
+		}
+	},
+	[9707062] = {
+		breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高5%",
+		item2 = 21001,
+		pre_id = 9707061,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9707063,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707062,
+		item1 = 21045,
+		level = 30,
+		weapon_ids = {
+			60082,
+			54014,
+			60082,
+			54014
+		}
+	},
+	[9707063] = {
+		breakout_view = "【破敵之炬·大黃蜂】升級/所有艦載機+1/艦載機效率提高7%",
+		item2 = 21001,
+		pre_id = 9707062,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9707064,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9707063,
+		item1 = 21045,
+		level = 70,
+		weapon_ids = {
+			60083,
+			54015,
+			60083,
+			54015
+		}
+	},
+	[9707064] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9707063,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9707064,
+		item1 = 21045,
 		level = 0,
 		weapon_ids = {}
 	},

@@ -9,87 +9,87 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone1",
 			wait = 2,
-			say = "最大最强的Black Dragon——新泽西号准确地捕捉到了Honey出现的信号~"
+			say = "最大最強的Black Dragon——紐澤西號準確地捕捉了Honey出現的訊號～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone2",
 			wait = 1,
-			say = "先为我最爱的Honey献上欢迎的亲亲~啾，辛苦啦~♡"
+			say = "先為我最愛的Honey獻上歡迎的親親～啾，辛苦啦～♡"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone3",
 			wait = 1,
-			say = "你的状态很不错嘛，似乎带回了很多值得分享的趣闻呢~"
+			say = "你的狀態很不錯嘛，似乎帶回了很多值得分享的趣聞呢～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone4",
 			wait = 1,
-			say = "哦……哦~听起来很精彩嘛~♪"
+			say = "喔……喔～聽起來很精彩嘛～♪"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone5",
 			wait = 1,
-			say = "像这样和Honey你一起聊些轻松愉快的话题，真让人开心啊~"
+			say = "像這樣和Honey你一起聊些輕鬆愉快的話題，真讓人開心啊～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone6",
 			wait = 1,
-			say = "咦，你问我最近在做什么吗？"
+			say = "咦，你問我最近在做什麼嗎？"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone7",
 			wait = 1,
-			say = "是指的工作，还是……日常生活？"
+			say = "是指的工作，還是……日常生活？"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone8",
 			wait = 1,
-			say = "无论选哪个，答案都是你~Honey已经完完全全地，占据了我的全部哦~♡"
+			say = "無論選哪一個，答案都是你～Honey已經完完全全地，佔據了我的全部哦～♡"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone9",
 			wait = 1,
-			say = "其实我已经把房间收拾得干干净净啦~"
+			say = "其實我已經把房間收拾得乾乾淨淨啦～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone10",
 			wait = 1,
-			say = "而且还换上了最~舒服的床单被套呢！"
+			say = "而且還換上了最～舒服的床單被套呢！"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone11",
 			wait = 1,
-			say = "等下就可以舒舒服服地躺在Honey你身边休息了~"
+			say = "等下就可以舒舒服服地躺在Honey你身邊休息了～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone12",
 			wait = 1,
-			say = "这样温馨的暖场时间，也很不错吧？"
+			say = "這樣溫馨的暖場時間，也很不錯吧？"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone13",
 			wait = 1,
-			say = "不过，Honey你不在的时候，无论是工作还是生活都有点打不起精神啊~"
+			say = "不過，Honey你不在的時候，無論是工作或生活都有點打不起精神啊～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone14",
 			wait = 1,
-			say = "虽然依旧能完美地完成工作啦……"
+			say = "雖然依舊能完美地完成工作啦……"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone15",
 			wait = 1,
-			say = "但果然~只有被Honey注视着，才能激发我全部的干劲~！"
+			say = "但果然～只有被Honey注視著，才能激發我全部的幹勁～！"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone16",
 			wait = 1,
-			say = "毕竟我的视线，也一刻也离不开Honey你呢。"
+			say = "畢竟我的視線，也一刻也離不開Honey你呢。"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone17",
 			wait = 1,
-			say = "你应该能感受到吧，这份炙热的感情。",
+			say = "你應該可以感受到吧，這份炙熱的感情。",
 			options = {
 				{
 					content = "想要更深刻地感受一下。",
@@ -100,37 +100,37 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone18",
 			wait = 1,
-			say = "哦？看来我需要用行动来表达了——"
+			say = "哦？看來我需要用行動來表達了——"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone19",
 			wait = 1,
-			say = "Honey你靠近些！对，就是这样~"
+			say = "Honey你靠近一點！對，就是這樣～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone20",
 			wait = 1,
-			say = "……听到了吗Honey？扑通，扑通地跳个不停……♡"
+			say = "……聽到了嗎Honey？撲通，撲通地跳個不停……♡"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone21",
 			wait = 1,
-			say = "和Honey在一起的每一天，我的心都会像这样雀跃不止哦。"
+			say = "和Honey在一起的每一天，我的心都會像這樣雀躍不止哦。"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone22",
 			wait = 1,
-			say = "竟然让我露出了这种必杀技，Honey你应该也做好对应的准备了吧？"
+			say = "竟然讓我露出了這種必殺技，Honey你應該也做好對應的準備了吧？"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone23",
 			wait = 1,
-			say = "好了，现在也该让我看看Honey你的心意和觉悟吧~！"
+			say = "好了，現在也該讓我看看Honey你的心意和覺悟吧～！"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone24",
 			wait = 1,
-			say = "我现在，就要出发去你身边了哦！准备好融入我的心跳吧~♡"
+			say = "我現在，就要出發去你身邊了哦！準備好融入我的心跳～♡"
 		}
 	}
 }

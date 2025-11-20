@@ -527,7 +527,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "頂多算是反亂撥正罷了。",
+			say = "頂多算是撥亂反正罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

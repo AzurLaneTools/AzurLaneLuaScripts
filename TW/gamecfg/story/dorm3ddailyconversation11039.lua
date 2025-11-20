@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……好麻烦啊这个……",
+			say = "嗯……好麻煩啊這個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "看来只能去请教一下其他人了。",
+			say = "看來只能去請教其他人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？这坨毛线是……",
+			say = "紐澤西？這坨毛線是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "是礼物，准确的说是正在准备的礼物呢。",
+			say = "是禮物，準確的說是正在準備的禮物呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然还没完成，但一定比太阳还要温暖，这可是Dragon的恩惠呢！",
+			say = "雖然還沒完成，但一定比太陽還要溫暖，這可是Dragon的恩惠呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

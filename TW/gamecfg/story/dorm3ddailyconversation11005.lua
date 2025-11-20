@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊……累了累了，{dorm3d}，一起去食堂吗？",
+			say = "啊……累了累了，{dorm3d}一起去餐廳嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天会是哪位舰船轮值呢，真期待啊。",
+			say = "今天會是哪位艦船輪值呢，真期待啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你会轮值吗？",
+			say = "妳會輪值嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我从不轮值，但……你的建议，我可以考虑一下~",
+			say = "我從不輪值，但……你的建議，我可以考慮一下~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

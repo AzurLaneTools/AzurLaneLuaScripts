@@ -16,7 +16,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "今天的碟片有些无聊呢……",
+			say = "今天的光碟有點無聊呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "似乎全是老桥段了。…真不愧是Honey……居然还能看得下去。",
+			say = "似乎全是老橋段了。…真不愧是Honey……居然還能看得下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "当然看不下去，因为吸引我的不只有电影。",
+			say = "當然看不下去，因為吸引我的不只電影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……咳咳，那就更多地看着我吧，因为我是最可爱的{namecode:199:新泽西}嘛！",
+			say = "……咳咳，那就更多地看著我吧，因為我是最可愛的紐澤西嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

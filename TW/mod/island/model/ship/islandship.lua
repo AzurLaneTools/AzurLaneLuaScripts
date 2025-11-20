@@ -166,12 +166,30 @@ slot0.InitEnergyRecoverTime = function(slot0)
 	slot0.recoverSpeed = slot0:getConfig("power_recover")
 end
 
+slot0.GetSkillAddRecoverSpeed = function(slot0)
+	slot1 = 0
+
+	if slot0.skill then
+		for slot6, slot7 in ipairs(slot0.skill:GetUnlockShipEffectIds()) do
+			if pg.island_buff_template[slot7].buff_type == IslandBuffType.SHIP_POWER_RECOVER then
+				slot1 = slot1 + slot8.type_use[1]
+			end
+		end
+	end
+
+	return slot1
+end
+
 slot0.GetCurrentEnergy = function(slot0)
 	if slot0:GetState() ~= uv0.STATE_NORMAL then
 		return math.min(slot0.maxEnerey, slot0.energy)
 	end
 
 	slot2 = math.floor(slot0.energy + (pg.TimeMgr.GetInstance():GetServerTime() - slot0.recorverTime) / slot0.recoverSpeed)
+
+	if slot0:GetSkillAddRecoverSpeed() > 0 then
+		slot2 = slot2 + math.floor(math.floor((slot1 - slot0.recorverTime) / slot0.recoverSpeed) * slot3 * 0.01)
+	end
 
 	if #slot0:GetVaildStatusByType(IslandBuffType.SHIP_POWER_RECOVER) == 0 then
 		return math.min(slot0.maxEnerey, slot2)
@@ -183,13 +201,18 @@ slot0.GetCurrentEnergy = function(slot0)
 		else
 			return 0
 		end
-	end)(slot0.recorverTime, slot1, slot3:GetStartTime(), slot3:GetEndTime()) / slot0.recoverSpeed * slot3:GetBuffEffect()[1] * 0.01))
+	end)(slot0.recorverTime, slot1, slot4:GetStartTime(), slot4:GetEndTime()) / slot0.recoverSpeed * slot4:GetBuffEffect()[1] * 0.01))
 end
 
 slot0.GetCurrentEnergyDecimal = function(slot0)
 	slot2 = slot0.energy + (pg.TimeMgr.GetInstance():GetServerTime() - slot0.recorverTime) / slot0.recoverSpeed
+	slot3 = slot0:GetVaildStatusByType(IslandBuffType.SHIP_POWER_RECOVER)
 
-	if #slot0:GetVaildStatusByType(IslandBuffType.SHIP_POWER_RECOVER) == 0 then
+	if slot0:GetSkillAddRecoverSpeed() > 0 then
+		slot2 = slot2 + (slot1 - slot0.recorverTime) / slot0.recoverSpeed * slot4 * 0.01
+	end
+
+	if #slot3 == 0 then
 		return math.min(slot0.maxEnerey, slot2)
 	end
 
@@ -205,20 +228,21 @@ end
 slot0.GetEnergyMaxTime = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 	slot2 = slot0.maxEnerey - slot0:GetCurrentEnergyDecimal()
+	slot5 = slot0:GetSkillAddRecoverSpeed() > 0 and slot0.recoverSpeed / (1 + slot4 * 0.01) or slot0.recoverSpeed
 
 	if #slot0:GetVaildStatusByType(IslandBuffType.SHIP_POWER_RECOVER) == 0 then
-		return slot1 + slot2 * slot0.recoverSpeed
+		return slot1 + math.floor(slot2 * slot5)
 	end
 
 	if slot1 <= slot3:GetEndTime() then
-		if slot2 <= slot0.recoverSpeed / (1 + slot3:GetBuffEffect()[1] * 0.01) * (slot3:GetEndTime() - slot1) then
-			return slot1 + slot2 / slot6
+		if slot2 <= slot5 / (1 + slot3:GetBuffEffect()[1] * 0.01) * (slot3:GetEndTime() - slot1) then
+			return slot1 + math.floor(slot2 / slot8)
 		end
 
-		return slot1 + (slot2 - slot7) / slot0.recoverSpeed + slot2 / slot6
+		return slot1 + math.floor((slot2 - slot9) / slot5) + math.floor(slot2 / slot8)
 	end
 
-	return slot1 + slot2 * slot0.recoverSpeed
+	return slot1 + math.floor(slot2 * slot5)
 end
 
 slot0.AnySkillCanUpgrade = function(slot0)
@@ -388,7 +412,7 @@ slot0.UpgradeBreakOut = function(slot0)
 	slot0:InitMaxEnergy(true)
 
 	if slot1 < slot0:GetMaxEnergy() then
-		slot0.energy = slot0.energy + slot3
+		slot0.energy = slot4 - slot3
 	end
 
 	slot0:InitSkill()

@@ -309,7 +309,84 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		305,
 		306,
 		307,
-		308
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
+		338,
+		339,
+		340,
+		341,
+		342,
+		343,
+		344,
+		345,
+		346,
+		347,
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358,
+		359,
+		360,
+		361,
+		362,
+		363,
+		364,
+		365,
+		366,
+		367,
+		368,
+		369,
+		370,
+		371,
+		372,
+		373,
+		374,
+		375,
+		376,
+		377,
+		378,
+		379,
+		380,
+		381,
+		382,
+		383,
+		384,
+		385
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2992,5 +3069,676 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 308,
 		flag = 2
+	},
+	{
+		param = "剛剛窩在Honey身邊，睡了個好覺呢~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 309,
+		flag = 0
+	},
+	{
+		param = "不過你啊……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 310,
+		flag = 0
+	},
+	{
+		param = "怎麼可以趁我睡著，就偷偷回去工作了呢~！！",
+		ship_group = 10517,
+		type = 1,
+		id = 311,
+		flag = 0,
+		option = {
+			{
+				1,
+				"不忍心叫醒妳"
+			}
+		}
+	},
+	{
+		param = "看妳睡得香，不忍心叫醒妳",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 312,
+		flag = 1
+	},
+	{
+		param = "明明是被我的睡臉迷住了吧~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 313,
+		flag = 1
+	},
+	{
+		param = "再說，要不是玩得太開心了，我才不會輕易睡過去呢",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 314,
+		flag = 1
+	},
+	{
+		param = "不過，你竟然還有力氣加班…",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 315,
+		flag = 1
+	},
+	{
+		param = "明明是兩個人的遊戲，你怎麼能偷懶呢！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 316,
+		flag = 1
+	},
+	{
+		param = "最重要的是——",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 317,
+		flag = 1
+	},
+	{
+		param = "下次，可不許再消失了哦~！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 318,
+		flag = 1
+	},
+	{
+		param = "一想到醒來後看不到Honey，我都要做惡夢啦！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 319,
+		flag = 1
+	},
+	{
+		param = "65",
+		ship_group = 10517,
+		option = "",
+		type = 4,
+		id = 320,
+		flag = 1
+	},
+	{
+		param = "讓女孩子這樣擔心可不行呢！",
+		ship_group = 10517,
+		type = 1,
+		id = 321,
+		flag = 1,
+		option = {
+			{
+				2,
+				"下次不會再讓妳擔心了"
+			}
+		}
+	},
+	{
+		param = "下次不會再讓妳擔心了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 322,
+		flag = 2
+	},
+	{
+		param = "我啊~希望每次醒來的時候，都能看到Honey你呢",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 323,
+		flag = 2
+	},
+	{
+		param = "要永遠留在我身邊哦，Honey♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 324,
+		flag = 2
+	},
+	{
+		param = "好啦，快點搞定工作回來找我吧！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 325,
+		flag = 2
+	},
+	{
+		param = "我在軟軟的床上~等你哦~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 326,
+		flag = 2
+	},
+	{
+		param = "啾♡",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 327,
+		flag = 2
+	},
+	{
+		param = "Honey~看這裡看這裡♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 328,
+		flag = 0
+	},
+	{
+		param = "準備好接受「Big J」的超高密度簡訊轟炸了嘛~",
+		ship_group = 10517,
+		type = 1,
+		id = 329,
+		flag = 0,
+		option = {
+			{
+				1,
+				"很有活力呢……"
+			}
+		}
+	},
+	{
+		param = "很有活力呢。房間佈置得怎麼樣了，需要幫忙嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 330,
+		flag = 1
+	},
+	{
+		param = "入住很順利，不過，感覺還需要補充些生活必需品……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 331,
+		flag = 1
+	},
+	{
+		param = "冰箱也空蕩蕩的……",
+		ship_group = 10517,
+		type = 1,
+		id = 332,
+		flag = 1,
+		option = {
+			{
+				2,
+				"附近的商業街……"
+			}
+		}
+	},
+	{
+		param = "附近的商業街進駐了不少店家，可以解決妳的需求",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 333,
+		flag = 2
+	},
+	{
+		param = "還是Honey想得周到~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 334,
+		flag = 2
+	},
+	{
+		param = "剛好你有空，就過來陪我一起逛街吧~",
+		ship_group = 10517,
+		type = 1,
+		id = 335,
+		flag = 2,
+		option = {
+			{
+				3,
+				"好啊，想逛什麼？"
+			}
+		}
+	},
+	{
+		param = "好啊，想逛什麼？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 336,
+		flag = 3
+	},
+	{
+		param = "關於行程安排，我已經有規劃了呢",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 337,
+		flag = 3
+	},
+	{
+		param = "首先嘛，當然要從填飽肚子開始——",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 338,
+		flag = 3
+	},
+	{
+		param = "30",
+		ship_group = 10517,
+		type = 4,
+		id = 339,
+		flag = 3,
+		option = {
+			{
+				4,
+				"難道是……冰淇淋暢享套裝行程？"
+			}
+		}
+	},
+	{
+		param = "難道是……冰淇淋暢享套裝行程？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 340,
+		flag = 4
+	},
+	{
+		param = "哦？這個想法很不錯！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 341,
+		flag = 4
+	},
+	{
+		param = "不過在Honey眼中，我就是那種會把甜點當主食的人嗎~！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 342,
+		flag = 4
+	},
+	{
+		param = "雖然這麼想也沒錯～嘿嘿♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 343,
+		flag = 4
+	},
+	{
+		param = "總之，你來了就知道了~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 344,
+		flag = 4
+	},
+	{
+		param = "那就約好在商業街路口碰頭了！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 345,
+		flag = 4
+	},
+	{
+		param = "現在——出發吧~！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 346,
+		flag = 4
+	},
+	{
+		param = "晚到的人，會被懲罰~♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 347,
+		flag = 4
+	},
+	{
+		param = "Honey~上次，我們一起看的那部動作電影……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 348,
+		flag = 0
+	},
+	{
+		param = "你覺得好看嗎？晚點要一起看續集嗎？",
+		ship_group = 10517,
+		type = 1,
+		id = 349,
+		flag = 0,
+		option = {
+			{
+				1,
+				"動作片……？"
+			}
+		}
+	},
+	{
+		param = "哪種動作片？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 350,
+		flag = 1
+	},
+	{
+		param = "就是那部男女主各自使出了神奇招式纏鬥在一起——",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 351,
+		flag = 1
+	},
+	{
+		param = "321",
+		ship_group = 10517,
+		option = "",
+		type = 4,
+		id = 352,
+		flag = 1
+	},
+	{
+		param = "唔，不過細說的話……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 353,
+		flag = 1
+	},
+	{
+		param = "我最喜歡的，其實是片裡超——高燃的爆炸特效哦♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 354,
+		flag = 1
+	},
+	{
+		param = "感覺比暗夜下殺出的黑龍之炎還要帥氣~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 355,
+		flag = 1
+	},
+	{
+		param = "還有電影結尾的時候……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 356,
+		flag = 1
+	},
+	{
+		param = "那個主角，竟然被奇怪的魔法變成冰淇淋球了~！",
+		ship_group = 10517,
+		type = 1,
+		id = 357,
+		flag = 1,
+		option = {
+			{
+				2,
+				"編劇欄應該寫妳的名字"
+			}
+		}
+	},
+	{
+		param = "編劇欄應該寫妳的名字",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 358,
+		flag = 2
+	},
+	{
+		param = "只有熱愛冰淇淋的人，才能想出這麼有趣的情節",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 359,
+		flag = 2
+	},
+	{
+		param = "唔，真想對Honey施展這個魔法呢~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 360,
+		flag = 2
+	},
+	{
+		param = "如果Honey你也被變成了冰淇淋球的話……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 361,
+		flag = 2
+	},
+	{
+		param = "會是什麼味道呢~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 362,
+		flag = 2
+	},
+	{
+		param = "哈密瓜、西瓜、鳳梨——大概會比這些更美味吧~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 363,
+		flag = 2
+	},
+	{
+		param = "我已經忍不住想嚐一口了~呼呼~♡",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 364,
+		flag = 2
+	},
+	{
+		param = "哼哼，看起來……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 365,
+		flag = 0
+	},
+	{
+		param = "Honey在我房間裡發現了不少有趣的寶貝嘛~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 366,
+		flag = 0
+	},
+	{
+		param = "不愧是Honey，已經對我瞭如指掌了啊~",
+		ship_group = 10517,
+		type = 1,
+		id = 367,
+		flag = 0,
+		option = {
+			{
+				1,
+				"找到一本筆記本……"
+			}
+		}
+	},
+	{
+		param = "找到一本筆記本，封皮上寫著「戀愛作戰筆記」",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 368,
+		flag = 1
+	},
+	{
+		param = "咦、咦~？！！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 369,
+		flag = 1
+	},
+	{
+		param = "這可是我特地藏在角落的秘密~！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 370,
+		flag = 1
+	},
+	{
+		param = "Honey你沒有翻開看過吧！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 371,
+		flag = 1
+	},
+	{
+		param = "快向我承諾~絕對~絕對沒有吧~！！！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 372,
+		flag = 1
+	},
+	{
+		param = "54",
+		ship_group = 10517,
+		type = 4,
+		id = 373,
+		flag = 1,
+		option = {
+			{
+				2,
+				"放心，我放回原位了"
+			}
+		}
+	},
+	{
+		param = "放心，我放回原位了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 374,
+		flag = 2
+	},
+	{
+		param = "Honey……愛你喲♡",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 375,
+		flag = 2
+	},
+	{
+		param = "不過，你真的完全不好奇筆記的內容嗎？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 376,
+		flag = 2
+	},
+	{
+		param = "難道不怕我在悄悄~說你的壞話嘛~！",
+		ship_group = 10517,
+		type = 1,
+		id = 377,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我相信紐澤西"
+			}
+		}
+	},
+	{
+		param = "我相信紐澤西",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 378,
+		flag = 3
+	},
+	{
+		param = "……嘿嘿~安心吧Honey",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 379,
+		flag = 3
+	},
+	{
+		param = "我也要用100%的信任來回饋你的坦誠呢！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 380,
+		flag = 3
+	},
+	{
+		param = "正好藉著今天的機會，一起告訴你吧~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 381,
+		flag = 3
+	},
+	{
+		param = "所謂戀愛，可是一場不見硝煙的戰爭哦~♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 382,
+		flag = 3
+	},
+	{
+		param = "選擇合適的時機，把握進退的時機",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 383,
+		flag = 3
+	},
+	{
+		param = "而在這場緊張的攻略戰中，唯一不變的原則就是——",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 384,
+		flag = 3
+	},
+	{
+		param = "「世界第一好的Honey——最愛你了喲♡」",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 385,
+		flag = 3
 	}
 }

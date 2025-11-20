@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello10",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "房间OK，灯光OK，香薰OK~！再加上honey~！让我们开始房间约会吧！我可是很期待呢！",
+			say = "房間OK，燈光OK，香薰OK~！再加上Honey~！讓我們開始房間約會吧！我可是很期待呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

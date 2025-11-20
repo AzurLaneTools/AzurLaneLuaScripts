@@ -2080,6 +2080,11 @@ pg.player_resource = {
 		name = "activity_xunzhang11",
 		itemid = 65722
 	},
+	[581] = {
+		id = 581,
+		name = "masaiqu_pt2",
+		itemid = 65731
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -3889,6 +3894,9 @@ pg.player_resource = {
 		activity_xunzhang11 = {
 			578
 		},
+		masaiqu_pt2 = {
+			581
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4643,6 +4651,7 @@ pg.player_resource = {
 		576,
 		577,
 		578,
+		581,
 		950,
 		951,
 		952,

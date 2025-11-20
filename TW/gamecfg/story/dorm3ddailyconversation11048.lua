@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "Honey，你忘了今天是什么日子吗？",
+			say = "Honey，你忘了今天是什麼日子嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "当然记得。",
+			say = "當然記得。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那就好！我预定了最美味的晚餐！还有草莓口味的冰激凌做饭后甜点！",
+			say = "那就好！我預訂了最美味的晚餐！還有草莓口味的冰淇淋當作飯後甜點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就让我们创造一个值得纪念的夜晚吧！誓约纪念日快乐！Honey！",
+			say = "就讓我們創造一個值得紀念的夜晚吧！誓約紀念日快樂！Honey！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "奶油再多来点……再加点中和口味的树莓……",
+			say = "奶油再多來點……再加點中和口味的樹莓……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这是在做什么？",
+			say = "這是在做什麼？\t",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "来的正好，Honey，帮我尝一下味道？",
+			say = "來的正好，Honey，幫我嚐一下味道？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这甜到头晕的感觉……",
+			say = "這甜到頭暈的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这可是我自制的独家……Honey？honey！？",
+			say = "這可是我自製的獨家……Honey？Honey！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

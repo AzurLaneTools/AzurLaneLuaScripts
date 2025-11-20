@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "需要帮忙还是做点什么？别客气啦，就和在军事学校的时候一样就好了！",
+			say = "需要幫忙還是做點什麼？別客氣啦，就跟在軍事學校的時候一樣就好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

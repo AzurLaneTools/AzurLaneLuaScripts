@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这个时间来……Honey一定是过度疲劳了，让我来想办法为你舒缓压力吧！先从一个拥抱开始如何？还是膝枕开始你会喜欢呢~？",
+			say = "這個時間來…Honey一定是過度疲勞了，讓我來想辦法為你舒緩壓力吧！先從一個擁抱開始如何？還是膝枕開始會喜歡呢~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

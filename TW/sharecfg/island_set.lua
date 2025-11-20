@@ -48,7 +48,7 @@ pg.island_set = {
 		key_value_int = 0,
 		key_value_varchar = {
 			1,
-			10,
+			25,
 			0
 		}
 	},
@@ -153,7 +153,7 @@ pg.island_set = {
 	work_points = {
 		key_value_varchar = "",
 		key = "work_points",
-		key_value_int = 15
+		key_value_int = 10
 	},
 	mining_recovery_time = {
 		key = "mining_recovery_time",
@@ -955,12 +955,40 @@ pg.island_set = {
 	island_shiporder_refresh_cd = {
 		key_value_varchar = "",
 		key = "island_shiporder_refresh_cd",
-		key_value_int = 1800
+		key_value_int = 14400
 	},
 	island_combo_count_limit = {
 		key_value_varchar = "",
 		key = "island_combo_count_limit",
 		key_value_int = 9999
+	},
+	couple_word_cd = {
+		key_value_varchar = "",
+		key = "couple_word_cd",
+		key_value_int = 3
+	},
+	island_shiporder_refresh = {
+		key = "island_shiporder_refresh",
+		key_value_int = 0,
+		key_value_varchar = {
+			10800,
+			64800
+		}
+	},
+	island_shiporder_list_quantity = {
+		key_value_varchar = "",
+		key = "island_shiporder_list_quantity",
+		key_value_int = 6
+	},
+	island_shiporder_limit = {
+		key_value_varchar = "",
+		key = "island_shiporder_limit",
+		key_value_int = 1
+	},
+	island_guide_itemlimit = {
+		key_value_varchar = "",
+		key = "island_guide_itemlimit",
+		key_value_int = 99999
 	},
 	all = {
 		"order_complete_refresh_time",
@@ -1059,6 +1087,11 @@ pg.island_set = {
 		"agora_reloading_base_cd",
 		"island_corncup_return_mail_content",
 		"island_shiporder_refresh_cd",
-		"island_combo_count_limit"
+		"island_combo_count_limit",
+		"couple_word_cd",
+		"island_shiporder_refresh",
+		"island_shiporder_list_quantity",
+		"island_shiporder_limit",
+		"island_guide_itemlimit"
 	}
 }

@@ -36,8 +36,12 @@ end
 slot0.init = function(slot0)
 	slot0.visitorBtn = slot0._tf:Find("top/visitor")
 	slot0.levelPanel = IslandLevelPanel.New(slot0._tf, slot0.event)
-	slot0.taskTrackPanel = Island3dTaskTrackPanel.New(slot0._tf, slot0.event)
-	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event)
+	slot0.taskTrackPanel = Island3dTaskTrackPanel.New(slot0._tf:Find("track_container"), slot0.event)
+	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event, setmetatable({
+		needAdapt = true
+	}, {
+		__index = slot0.contextData
+	}))
 	slot0.btnContainer = IslandMainBtnContainer.New(slot0._tf:Find("top/btn_container"), slot0.event)
 end
 
@@ -234,14 +238,18 @@ slot0.OnApproachObject = function(slot0, slot1)
 	IslandTaskHelper.OnApproach(slot1)
 end
 
-slot0.OnUpdateTrackTask = function(slot0, slot1)
-	slot0.traceTaskId = slot1
+slot0.OnUpdateTrackTask = function(slot0, slot1, slot2)
+	if slot2 == IslandTaskTrackCard.TYPES.MAIN then
+		slot0.mainTraceTaskId = slot1
+	elseif slot2 == IslandTaskTrackCard.TYPES.OTHER then
+		slot0.otherTraceTaskId = slot1
+	end
 
-	if slot0.traceTaskId ~= 0 then
+	if slot0.mainTraceTaskId and slot0.mainTraceTaskId ~= 0 or slot0.otherTraceTaskId and slot0.otherTraceTaskId ~= 0 then
 		if not slot0.taskTrackPanel:isShowing() then
 			slot0.taskTrackPanel:ExecuteAction("Show")
 		else
-			slot0.taskTrackPanel:ExecuteAction("UpdateTask")
+			slot0.taskTrackPanel:ExecuteAction("UpdateTask", slot2)
 		end
 	end
 
@@ -249,33 +257,40 @@ slot0.OnUpdateTrackTask = function(slot0, slot1)
 end
 
 slot0.OnAddedTask = function(slot0, slot1)
-	slot0.btnContainer:OnTrackTaskChange()
 end
 
 slot0.OnUpdateTask = function(slot0, slot1)
-	if slot0.traceTaskId and slot0.traceTaskId ~= slot1.id then
-		return
+	if slot0.mainTraceTaskId and slot0.mainTraceTaskId == slot1.id then
+		slot0.taskTrackPanel:ExecuteAction("UpdateProgress", IslandTaskTrackCard.TYPES.MAIN)
+		slot0.btnContainer:OnTrackTaskChange()
+	elseif slot0.otherTraceTaskId and slot0.otherTraceTaskId == slot1.id then
+		slot0.taskTrackPanel:ExecuteAction("UpdateProgress", IslandTaskTrackCard.TYPES.OTHER)
+		slot0.btnContainer:OnTrackTaskChange()
 	end
-
-	slot0.taskTrackPanel:ExecuteAction("UpdateProgress", slot1)
-	slot0.btnContainer:OnTrackTaskChange()
 end
 
 slot0.OnRemoveTask = function(slot0, slot1)
-	if slot0.traceTaskId and slot0.traceTaskId ~= slot1.id then
-		return
+	if slot0.mainTraceTaskId and slot0.mainTraceTaskId == slot1.id then
+		slot0.taskTrackPanel:ExecuteAction("RemoveTask", IslandTaskTrackCard.TYPES.MAIN)
+		slot0.btnContainer:OnTrackTaskChange()
+	elseif slot0.otherTraceTaskId and slot0.otherTraceTaskId == slot1.id then
+		slot0.taskTrackPanel:ExecuteAction("RemoveTask", IslandTaskTrackCard.TYPES.OTHER)
+		slot0.btnContainer:OnTrackTaskChange()
 	end
-
-	slot0.taskTrackPanel:ExecuteAction("RemoveTask")
-	slot0.btnContainer:OnTrackTaskChange()
 end
 
 slot0.UpdateTaskInfo = function(slot0)
-	if slot0:GetIsland():GetTaskAgency():GetTraceTask() then
-		slot0.traceTaskId = slot1.id
+	slot2 = slot0:GetIsland():GetTaskAgency():GetTraceTask()
+
+	if slot0:GetIsland():GetTaskAgency():GetMainTraceTask() then
+		slot0.mainTraceTaskId = slot1.id
 	end
 
-	if slot0.traceTaskId and slot0.traceTaskId ~= 0 then
+	if slot2 then
+		slot0.otherTraceTaskId = slot2.id
+	end
+
+	if slot0.otherTraceTaskId and slot0.otherTraceTaskId ~= 0 or slot0.mainTraceTaskId and slot0.mainTraceTaskId ~= 0 then
 		slot0.taskTrackPanel:ExecuteAction("Show")
 	else
 		slot0.taskTrackPanel:ExecuteAction("Hide")

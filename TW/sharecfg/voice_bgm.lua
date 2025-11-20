@@ -135,15 +135,10 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
-	NewShopsScene = {
-		default_bgm = "story-theme-sardinia",
-		special_bgm = "",
-		bgm = "story-theme-sardinia"
-	},
 	ActivityShop50206 = {
-		default_bgm = "story-theme-sardinia",
+		default_bgm = "theme-tempest-light",
 		special_bgm = "",
-		bgm = "story-theme-sardinia"
+		bgm = "theme-tempest-light"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2079,11 +2074,6 @@ pg.voice_bgm = {
 		default_bgm = "yumia-az-theme-pv",
 		special_bgm = "",
 		bgm = "yumia-az-theme-pv"
-	},
-	NewSkinShopScene = {
-		default_bgm = "yumia-81",
-		special_bgm = "",
-		bgm = "yumia-81"
 	},
 	KearsargeTecCatchUpPage = {
 		default_bgm = "theme-designshipVI",

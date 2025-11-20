@@ -7,10 +7,10 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone49",
 			wait = 2,
-			say = "感应到Honey正在想我，所以我瞅准时机打来电话了~",
+			say = "感應到Honey在想我，所以我看準時機打來電話了~",
 			options = {
 				{
-					content = "听起来更像是你突然想起我了。",
+					content = "聽起來更像是你突然想起我了。",
 					flag = 1
 				}
 			},
@@ -46,30 +46,30 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone50",
 			wait = 1,
-			say = "听起来不赖，不过Honey你就得接收我的通讯轰炸了~"
+			say = "聽起來不賴，不過Honey你就得接收我的通訊轟炸了～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone51",
 			wait = 1,
-			say = "好了，开玩笑的~虽然是开玩笑，不过想你也是真的哦~♪"
+			say = "好了，開玩笑的～雖然是開玩笑，不過想你也是真的喔～♪"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone52",
 			wait = 1,
-			say = "提醒你别忘记晚上的约会，才是我这通电话的主要目的呢。"
+			say = "提醒你別忘記晚上的約會，才是我這通電話的主要目的呢。"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone53",
 			wait = 1,
-			say = "Honey你对行程安排有想法吗？或者说……更期待我专门为你准备的惊喜呢？"
+			say = "Honey你對行程有想法嗎？或者說……更期待我專門為你準備的驚喜呢？"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone54",
 			wait = 2,
-			say = "不过，这种放纵的事情，可不能在通讯里说明哦……♡",
+			say = "不過，這種放縱的事情，可不能在通訊裡說明哦……♡",
 			options = {
 				{
-					content = "放纵……是指？。",
+					content = "放縱……是指？。",
 					flag = 1
 				}
 			},
@@ -105,20 +105,20 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone55",
 			wait = 1,
-			say = "当然是……做些会让我们都很开心的事情~♡"
+			say = "當然是……做些會讓我們都很開心的事情～♡"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone56",
 			wait = 1,
-			say = "Honey靠过来一点！乖~这个距离还不够近，再过来一些~"
+			say = "Honey靠過來一點！乖～這個距離還不夠近，再來一些～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone57",
 			wait = 2,
-			say = "能…听…到…吗？",
+			say = "能聽…到…嗎？",
 			options = {
 				{
-					content = "能听到，不过为什么要压低声音说话……？",
+					content = "能聽到，不過為什麼要壓低聲音說話……？",
 					flag = 1
 				}
 			},
@@ -154,35 +154,35 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone58",
 			wait = 1,
-			say = "那当然是因为这样比较有氛围啦~！"
+			say = "那當然是因為這樣比較有氛圍啦~！"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone59",
 			wait = 1,
-			say = "想象一下……就我们两个人紧紧靠在一起……"
+			say = "想像一下……就我們兩個緊緊靠在一起……"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone60",
 			wait = 1,
-			say = "在最适合感受到彼此体温的距离下……"
+			say = "在最適合感受到彼此體溫的距離下……"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone61",
 			wait = 1,
-			say = "让我喂你吃那些我准备好的冰淇淋~"
+			say = "讓我餵你吃那些我準備好的冰淇淋～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone62",
 			wait = 1,
-			say = "看着你投入地、愉悦地……融化在冰淇淋甜腻轻盈的味道中~"
+			say = "看著你投入地、愉悅地……融化在冰淇淋甜膩輕盈的味道中~"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone63",
 			wait = 2,
-			say = "是不是听起来就很幸福~？",
+			say = "是不是聽起來就很幸福~？",
 			options = {
 				{
-					content = "这就是你说的，让我们两个都开心的事么？",
+					content = "這就是你說的，讓我們兩個都開心的事？",
 					flag = 1
 				}
 			},
@@ -218,25 +218,25 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone64",
 			wait = 1,
-			say = "是或不是，你比较期待哪个答案呢~♪"
+			say = "是或不是，你比較期待哪個答案呢～♪"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone65",
 			wait = 1,
-			say = "不过我觉得，与你共度的时间才是最开心的~"
+			say = "不過我覺得，與你共度的時間才是最開心的～"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone66",
 			wait = 1,
-			say = "好啦~我要去为晚上的约会做准备了~就先挂电话了哦~！"
+			say = "好啦～我要去為晚上的約會做準備了～就先掛電話了哦～！"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone67",
 			wait = 2,
-			say = "等会直接见面吧~我最爱的Honey！",
+			say = "等會直接見面吧～我最爱的Honey！",
 			options = {
 				{
-					content = "嗯，等下见",
+					content = "嗯，等下見",
 					flag = 1
 				}
 			},
@@ -272,7 +272,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone68",
 			wait = 0.5,
-			say = "mua~（Kiss音）"
+			say = "mua～（Kiss音）"
 		}
 	}
 }

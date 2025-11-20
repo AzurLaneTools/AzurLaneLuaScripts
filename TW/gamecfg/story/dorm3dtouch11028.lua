@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit1_tone2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "原来Honey也有这么坏心眼的时候呢！",
+			say = "原來Honey也有這麼壞心眼的時候呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello15",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嘿嘿，Honey！你让我等得好急！这是为你特制的冰激凌，让我们一边吃一遍分享今天的开心和不快吧！",
+			say = "嘿嘿，Honey！你讓我等得好急！這是為你特製的冰淇淋，讓我們一邊吃一遍分享今天的開心與不快樂吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "“无敌的Black Dragon”？",
+			say = "「無敵的Black Dragon」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不，我迄今为止最自豪的事情，就是有你爱我。",
+			say = "不，我迄今為止最自豪的事情，就是有你愛我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这么说，你会喜欢的吧~？有没有心潮澎湃的感觉~？",
+			say = "這麼說，你會喜歡的吧~？有沒有心潮澎湃的感覺~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

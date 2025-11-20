@@ -204,7 +204,17 @@ end
 slot0.CheckGuide = function(slot0)
 	if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(IslandGuideChecker.ORDER_TASK_ID) then
 		onDelayTick(function ()
-			IslandGuideChecker.CheckGuide("ISLAND_GUIDE_7", IslandGuideChecker.FINISH_TYPE.ON_GUIDE)
+			slot0 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
+
+			IslandGuideChecker.CheckGuideWithArgs("ISLAND_GUIDE_7", IslandGuideChecker.FINISH_TYPE.ON_GUIDE, nil, underscore.all(IslandGuideChecker.ORDER_NEED_ITEMS, function (slot0)
+				return slot0[2] <= uv0:GetOwnCount(slot0[1])
+			end) and {
+				1,
+				2
+			} or {
+				1,
+				3
+			})
 		end, 0.2)
 	end
 end

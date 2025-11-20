@@ -29,12 +29,14 @@ slot0.Ctor = function(slot0, slot1)
 			count = slot6.num
 		})
 	end
+end
 
-	table.insert(slot0.awardList, {
-		id = 0,
-		type = VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT,
-		count = slot1.add_pt or 0
-	})
+slot0.FillConsumeList = function(slot0, slot1)
+	slot0.consumeList = slot1
+end
+
+slot0.FillAwardList = function(slot0, slot1)
+	slot0.awardList = slot1
 end
 
 slot0.IsAnyLoadUp = function(slot0)

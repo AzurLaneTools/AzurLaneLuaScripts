@@ -18539,6 +18539,680 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5367] = {
+		mark = 20251120,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5367,
+		page_core = "",
+		config_data = {
+			20243
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5368] = {
+		mark = 20251120,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 17,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5368,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5369] = {
+		mark = 20251120,
+		type = 87,
+		login_pop = 0,
+		config_id = 19,
+		is_show = 51,
+		config_client = "",
+		title_res_tag = "dexiV3_frame",
+		id = 5369,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DexiV4FrameReRePage",
+			ui_name = "DexiV4FrameReRePage"
+		}
+	},
+	[5370] = {
+		mark = 20251120,
+		page_info = "",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5370,
+		page_core = "",
+		config_data = {
+			4
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			59590
+		}
+	},
+	[5371] = {
+		mark = 20251120,
+		type = 3,
+		login_pop = 0,
+		config_id = 59,
+		is_show = 51,
+		config_client = "",
+		title_res_tag = "YidaliV2_login",
+		id = 5371,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "GongHaiLoginPage",
+			ui_name = "GongHaiLoginPage"
+		}
+	},
+	[5372] = {
+		mark = 20251120,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5372,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5374] = {
+		mark = 20251120,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 51,
+		title_res_tag = "gonghai_main",
+		id = 5374,
+		page_core = "",
+		config_data = {
+			1640001,
+			1640002,
+			1640003,
+			1640021,
+			1640022,
+			1640023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "GongHaiMainPage",
+			ui_name = "GongHaiMainPageRe"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10",
+			PTID = 414
+		}
+	},
+	[5375] = {
+		mark = 20251120,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5375,
+		page_core = "",
+		config_data = {
+			1640004,
+			1640005,
+			1640006,
+			1640024,
+			1640025,
+			1640026,
+			1640041,
+			1640051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10",
+			PTID = 414
+		}
+	},
+	[5376] = {
+		mark = 20251120,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5376,
+		page_core = "",
+		config_data = {
+			20224,
+			20225,
+			20226,
+			20227,
+			20228,
+			20229,
+			20230,
+			20231,
+			20232,
+			20233,
+			20234,
+			20235,
+			20236,
+			20237,
+			20238,
+			20239,
+			20240,
+			20241,
+			20242
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5377] = {
+		mark = 20251120,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 414,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 5377,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5378] = {
+		mark = 20251120,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5378,
+		page_core = "",
+		config_data = {
+			1645001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5379] = {
+		mark = 20251120,
+		type = 74,
+		login_pop = 0,
+		config_id = 5379,
+		is_show = 51,
+		title_res_tag = "gonghai_pt",
+		id = 5379,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "GongHaiPtRePage",
+			ui_name = "GongHaiPtRePage"
+		},
+		config_client = {
+			linkActID = 5374
+		}
+	},
+	[5380] = {
+		mark = 20251120,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5380,
+		page_core = "",
+		config_data = {
+			2558,
+			2559,
+			2560,
+			2561,
+			2562,
+			2563,
+			2564,
+			2565,
+			2566,
+			2567,
+			2568,
+			2569,
+			2570,
+			2571,
+			2572,
+			2573,
+			2574,
+			2575,
+			2576,
+			2577,
+			2578,
+			2579
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_gonghaijiandui",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 414,
+			painting = "saidelici_pt",
+			use_secretary = false,
+			outline = {
+				0,
+				0,
+				0,
+				0.8
+			}
+		}
+	},
+	[5381] = {
+		mark = 20251120,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5381,
+		page_core = "",
+		config_data = {
+			{
+				31968,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5401] = {
 		mark = 20241017,
 		page_info = "",
@@ -36265,6 +36939,71 @@ pg.activity_template = {
 		page_info = {
 			class_name = "DormSignPage",
 			ui_name = "DormSignPage"
+		}
+	},
+	[7502] = {
+		mark = 20241120,
+		type = 89,
+		login_pop = 99,
+		config_id = 0,
+		is_show = 44,
+		config_client = "",
+		title_res_tag = "DormSignTwo",
+		id = 7502,
+		page_core = "",
+		config_data = {
+			{
+				23846
+			},
+			{
+				23847
+			},
+			{
+				23848
+			},
+			{
+				23849
+			},
+			{
+				23850
+			},
+			{
+				23851
+			},
+			{
+				23852
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormSignTwoPage",
+			ui_name = "DormSignTwoPage"
 		}
 	},
 	[8009] = {
@@ -76386,6 +77125,7 @@ pg.activity_template = {
 			5285,
 			5307,
 			5352,
+			5372,
 			5401,
 			5507,
 			5530,
@@ -76469,6 +77209,7 @@ pg.activity_template = {
 			5243,
 			5284,
 			5348,
+			5371,
 			5782,
 			5960,
 			50117,
@@ -76661,6 +77402,8 @@ pg.activity_template = {
 			5345,
 			5361,
 			5363,
+			5367,
+			5376,
 			5406,
 			5407,
 			5435,
@@ -77131,6 +77874,7 @@ pg.activity_template = {
 			5293,
 			5317,
 			5354,
+			5380,
 			5508,
 			5531,
 			5572,
@@ -77304,6 +78048,7 @@ pg.activity_template = {
 			5321,
 			5346,
 			5362,
+			5379,
 			5404,
 			5505,
 			5524,
@@ -77492,6 +78237,8 @@ pg.activity_template = {
 			5301,
 			5331,
 			5332,
+			5374,
+			5375,
 			5501,
 			5521,
 			5522,
@@ -77619,6 +78366,7 @@ pg.activity_template = {
 			5294,
 			5313,
 			5343,
+			5381,
 			5410,
 			5525,
 			5567,
@@ -77695,6 +78443,7 @@ pg.activity_template = {
 			5291,
 			5303,
 			5334,
+			5378,
 			5503,
 			5529,
 			5577,
@@ -77770,6 +78519,7 @@ pg.activity_template = {
 			5290,
 			5302,
 			5333,
+			5377,
 			5408,
 			5510,
 			5528,
@@ -77854,6 +78604,7 @@ pg.activity_template = {
 			5163,
 			5241,
 			5283,
+			5370,
 			41251,
 			41282,
 			41353,
@@ -77955,6 +78706,7 @@ pg.activity_template = {
 			5211,
 			5282,
 			5340,
+			5369,
 			5513,
 			5552,
 			5700,
@@ -77994,6 +78746,7 @@ pg.activity_template = {
 			5281,
 			5316,
 			5342,
+			5368,
 			5506,
 			5514,
 			5553,
@@ -78275,6 +79028,7 @@ pg.activity_template = {
 			5261,
 			50044,
 			7501,
+			7502,
 			40950
 		},
 		[30] = {
@@ -79139,6 +79893,20 @@ pg.activity_template = {
 		5362,
 		5363,
 		5364,
+		5367,
+		5368,
+		5369,
+		5370,
+		5371,
+		5372,
+		5374,
+		5375,
+		5376,
+		5377,
+		5378,
+		5379,
+		5380,
+		5381,
 		5401,
 		5402,
 		5403,
@@ -79498,6 +80266,7 @@ pg.activity_template = {
 		50159,
 		7104,
 		7501,
+		7502,
 		8009,
 		8010,
 		8019,

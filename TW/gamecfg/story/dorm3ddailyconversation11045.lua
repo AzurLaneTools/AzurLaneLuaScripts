@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "猫派还是狗派啊……",
+			say = "貓派還是狗派啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "猫猫非常治愈呢，但是狗狗活力的样子也不错……",
+			say = "貓貓非常治癒呢，但是狗狗活力的樣子也不錯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "但我觉得都不够好，因为我是兔子派！",
+			say = "但我覺得都不夠好，因為我是兔子派！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是能够跳进Honey心中的兔子哦，你一定会喜欢的吧~？",
+			say = "是能夠跳進Honey心中的兔子哦，你一定會喜歡的吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

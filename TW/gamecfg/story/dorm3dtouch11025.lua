@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_furniture1_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "哎呀，Honey要是再靠近一点的话……会让我心跳加速的啦！",
+			say = "哎呀，Honey要是再靠近一點的話……會讓我心跳加速的啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

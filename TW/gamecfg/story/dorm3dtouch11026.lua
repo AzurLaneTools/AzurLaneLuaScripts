@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_furniture1_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "还想要尝试新的方式吗？我当然会配合你哦~",
+			say = "還想要嘗試新的方式嗎？我當然會配合你哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

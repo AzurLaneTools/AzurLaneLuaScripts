@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼~哼哼~这悦耳的音乐，真让人忍不住想要做些什么呢……",
+			say = "哼~哼哼~這悅耳的音樂，真讓人忍不住想要做些什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "要一起跳支舞吗？",
+			say = "要一起跳支舞嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不要将目光移开哦，{namecode:199:新泽西}一定会让Honey大吃一惊的！",
+			say = "不要將目光移開哦，紐澤西一定會讓Honey大吃一驚的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

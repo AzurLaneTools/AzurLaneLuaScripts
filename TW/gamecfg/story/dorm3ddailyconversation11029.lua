@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果吵架了……吗？",
+			say = "如果吵架了……嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那还用说吗？我和你不会吵架的，Honey。",
+			say = "那還用說嗎？我和你不會吵架的，Honey。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我们要一起面对问题，而不是被问题打垮！",
+			say = "我們要一起面對問題，而不是被問題打倒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所以吵架什么的，一开始就不在我的考虑范围内哦。",
+			say = "所以吵架什麼的，一開始就不在我的考慮範圍內哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

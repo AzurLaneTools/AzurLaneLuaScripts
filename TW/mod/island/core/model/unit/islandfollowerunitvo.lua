@@ -32,6 +32,10 @@ slot0.IsSameShip = function(slot0, slot1)
 	return slot0.shipId == slot1
 end
 
+slot0.GetShipId = function(slot0)
+	return slot0.shipId
+end
+
 slot0.IsRandomizer = function(slot0)
 	return slot0.randomizer
 end

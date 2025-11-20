@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "拉开窗帘",
+			say = "拉開窗簾",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

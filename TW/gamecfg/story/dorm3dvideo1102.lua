@@ -7,7 +7,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone25",
 			wait = 1,
-			say = "嗯？Honey接电话的速度真快~~",
+			say = "嗯？Honey接電話的速度真快～",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -40,7 +40,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone26",
 			wait = 1,
-			say = "难道是……一直在那边默默地等着我的电话嘛~♪",
+			say = "難道是……一直在那邊默默地等著我的電話嘛～♪",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -73,7 +73,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone27",
 			wait = 1,
-			say = "咦，Honey你这是认真地在等我？对不起，是我来迟了~",
+			say = "咦，Honey你這是認真地在等我？對不起，是我來遲了～",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -106,7 +106,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone28",
 			wait = 1,
-			say = "但是好开心~乖乖期待着我的电话的Honey……",
+			say = "但好開心～乖乖期待著我的電話的Honey……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -139,7 +139,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone29",
 			wait = 1,
-			say = "以静制动，等待我主动出击的Honey……",
+			say = "以靜制動，等待我主動出擊的Honey……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -172,7 +172,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone30",
 			wait = 1,
-			say = "怎么想都可爱过头了吧~♡",
+			say = "怎麼想都可愛過頭了吧～♡",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -205,7 +205,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone31",
 			wait = 1,
-			say = "说起来，我的表现也值得夸奖吧？",
+			say = "說起來，我的表現也值得誇獎吧？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -238,12 +238,12 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone32",
 			wait = 1,
-			say = "精心地筹划，又辛辛苦苦地忍耐了这么久……"
+			say = "精心籌劃，又辛苦地忍耐了這麼久……"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone33",
 			wait = 2,
-			say = "就为了在Honey最想我的时候，闪耀登场——",
+			say = "就為了在Honey最想我的時候，閃耀登場——",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -276,7 +276,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone34",
 			wait = 1,
-			say = "呼呼，这番表现也很惊艳吧！",
+			say = "呼呼，這番表現也很驚艷吧！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -309,17 +309,17 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone35",
 			wait = 1,
-			say = "Honey的视线要牢牢地锁定在我身上，绝对不能移开哦~♪"
+			say = "Honey的視線要牢牢地鎖定在我身上，絕對不能移開哦～♪"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone36",
 			wait = 1,
-			say = "既然我们配合得这么默契——"
+			say = "既然我們配合得這麼默契——"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone37",
 			wait = 1,
-			say = "那我也要好好想想怎么奖励你才行呢~~",
+			say = "那我也要好好想想怎麼獎勵你才行呢～",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -352,7 +352,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone38",
 			wait = 1,
-			say = "要怎么办呢……奖励的话，好像只能我亲自上了嘛~？",
+			say = "要怎麼做呢……獎勵的話，好像只能我親自上了嘛～？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -385,7 +385,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone39",
 			wait = 1,
-			say = "想对Honey你做些，这样的……那样的事情……",
+			say = "想對Honey你做些，這樣的……那樣的事情……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -418,12 +418,12 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone40",
 			wait = 1,
-			say = "再像甜甜的冰淇淋一样，包裹着你……"
+			say = "再像甜甜的冰淇淋一樣，包裹著你……"
 		},
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone41",
 			wait = 1,
-			say = "呼呼，要融化了~♡",
+			say = "呼呼，要融化了～♡",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -456,10 +456,10 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone42",
 			wait = 2,
-			say = "Honey现在的表情好有趣，好想录下来啊",
+			say = "Honey現在的表情好有趣，好想錄下來啊～",
 			options = {
 				{
-					content = "我也很喜欢你现在的表情。",
+					content = "我也很喜歡你現在的表情。",
 					flag = 1
 				}
 			},
@@ -495,7 +495,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone43",
 			wait = 0.5,
-			say = "咦，竟然被你抓到了反击点？",
+			say = "咦，竟然被你抓到反擊點了？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -528,7 +528,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone44",
 			wait = 0.5,
-			say = "不愧是Honey，从不放过任何战略机会啊~♪",
+			say = "不愧是Honey，從不放過任何策略機會啊～♪",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -561,7 +561,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone45",
 			wait = 0.5,
-			say = "不过呢，现在还有一个更好的机会摆在你面前哦……",
+			say = "不過呢，現在還有一個更好的機會擺在你面前哦……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -594,7 +594,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone46",
 			wait = 0.5,
-			say = "我可是特地为稍后的约会，安排了奖励的kiss和……更甜蜜的环节~♡",
+			say = "我可是特地為了稍後的約會，安排了獎勵的kiss和……更甜蜜的環節～♡",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -627,7 +627,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone47",
 			wait = 0.5,
-			say = "所以，快点来见我吧~！",
+			say = "所以，快點來見我吧～！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -660,7 +660,7 @@ return {
 		{
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone48",
 			wait = 0.5,
-			say = "否则……我就要主动出击了！",
+			say = "……否則我就要主動出擊了！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {

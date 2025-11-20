@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不管看多少次，都觉得Honey喝咖啡的样子好成熟帅气~",
+			say = "不管看多少次，都覺得Honey喝咖啡的樣子好成熟帥氣~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔……如果我也能喝咖啡的话……",
+			say = "嗯……如果我也能喝咖啡的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我觉得喝果汁的{namecode:199:新泽西}就非常可爱了。",
+			say = "我覺得喝果汁的紐澤西就非常可愛了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey真是的……我会越来越喜欢你的哦！",
+			say = "Honey真是的……我會越來越喜歡你的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

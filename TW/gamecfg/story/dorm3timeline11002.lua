@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "{namecode:199}……？奇怪，不在吗？"
+										content = "{namecode:199}……？奇怪，不在嗎？"
 									}
 								}
 							},

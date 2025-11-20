@@ -215,13 +215,22 @@ pg.settings_other_template = {
 		desc = "功能開啟後，自動鎖定新獲得角色，不再跳出鎖定提示"
 	},
 	[24] = {
-		default = 1,
+		default = 0,
 		name = "GRAPHI_API_SWITCH_OPTION",
 		alignment = 0,
 		type = 3,
 		id = 24,
 		title = "渲染相容模式",
 		desc = "功能開啟後，可以解決部分機型在預設模式下會出現黑畫面的問題"
+	},
+	[25] = {
+		default = 1,
+		name = "REMOVE_LOW_MOOD",
+		alignment = 0,
+		type = 0,
+		id = 25,
+		title = "自动编队时不编入低心情角色",
+		desc = "功能开启后，使用推荐功能自动编队时，不再编入低心情角色"
 	},
 	all = {
 		1,
@@ -246,6 +255,7 @@ pg.settings_other_template = {
 		20,
 		21,
 		22,
-		24
+		24,
+		25
 	}
 }

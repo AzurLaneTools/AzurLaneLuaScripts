@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呀，Honey，你上次想要看的电影我已经准备好了哦，还有点心，冰激凌，爆米花……以及最喜欢你的Black Dragon！",
+			say = "呀，Honey，你上次想要看的電影我已經準備好了哦，還有點心，冰淇淋，爆米花……以及最喜歡你的Black Dragon！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

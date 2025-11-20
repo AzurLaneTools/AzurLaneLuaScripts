@@ -231,11 +231,7 @@ slot0.SetSystemData = function(slot0)
 			uv0.allTime = uv0.appointRoleData:GetAllTime()
 		end,
 		[IslandUseTicketCommand.TYPES.SHIP_ORDER_RELOAD] = function ()
-			if not getProxy(IslandProxy):GetIsland():GetOrderAgency():GetShipOrderSlot(uv0.id) then
-				return
-			end
-
-			uv0.endTime = slot0:GetReloadingEndTime()
+			uv0.endTime = getProxy(IslandProxy):GetIsland():GetOrderAgency():GetNextManualReloadDelegateTime()
 			uv0.allTime = pg.island_set.island_shiporder_refresh_cd.key_value_int
 		end
 	}, function ()

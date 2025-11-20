@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello12",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "Black Dragon的特别舞蹈即将开演，这可是为了欢迎Honey而新练习的哦！你会喜欢的！",
+			say = "Black Dragon的特別舞蹈即將開演，這可是為了歡迎Honey而新練習的哦！你會喜歡的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

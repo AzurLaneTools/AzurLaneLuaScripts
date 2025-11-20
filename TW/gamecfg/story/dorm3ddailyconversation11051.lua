@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "Honey~你看！这个转椅好好玩！",
+			say = "Honey~你看！這個轉椅好好玩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "骨碌骨碌骨碌骨碌——",
+			say = "骨碌骨碌骨碌——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……咦？我怎么好像看到了……两个Honey……？",
+			say = "……咦？我怎麼好像看到了……兩個Honey……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "但一想到来自Honey的Double Love……",
+			say = "但一想到來自Honey的Double Love……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我感觉好幸福哦……嘿、嘿嘿……",
+			say = "我覺得好幸福喔……嘿、嘿嘿……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

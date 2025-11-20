@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "要来试试我的料理吗？料理这种事情也难不倒身为Black Dragon的我呢！",
+			say = "要來試試我的料理嗎？料理這種事也難不倒身為Black Dragon的我呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就算是鸢尾的菜系我也能做给你看！但是之后打扫厨房的事情……",
+			say = "就算是鳶尾的菜色我也能做給你看！但是之後打掃廚房的事情……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "看来就算Black Dragon也有弱点呢。",
+			say = "看來就算Black Dragon也有弱點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "弱点什么的……别说的那么夸张嘛，总之我就知道你会答应的啦，Honey！",
+			say = "弱點什麼的……別說的那麼誇張嘛，總之我就知道你會答應的啦，Honey！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

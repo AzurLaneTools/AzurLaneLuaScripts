@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit1_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔……！被你找到弱点了，真是糟糕~！",
+			say = "唔……！被你找到弱點了，真是糟糕~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

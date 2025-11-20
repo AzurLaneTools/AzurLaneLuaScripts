@@ -2348,6 +2348,9 @@ pg.ship_data_group = setmetatable({
 		[970508] = {
 			30044
 		},
+		[970706] = {
+			30045
+		},
 		[970509] = {
 			30046
 		},
@@ -3148,6 +3151,7 @@ pg.ship_data_group = setmetatable({
 			30042,
 			30043,
 			30044,
+			30045,
 			30046,
 			30047,
 			30048
@@ -3936,6 +3940,7 @@ pg.ship_data_group = setmetatable({
 		30042,
 		30043,
 		30044,
+		30045,
 		30046,
 		30047,
 		30048
@@ -35534,6 +35539,41 @@ pg.base.ship_data_group = {
 				"限時活動：樊籠內的神光",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[30045] = {
+		nationality = 97,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970706,
+		index_id = 30045,
+		code = 30045,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9707061
+					}
 				},
 				0
 			}
