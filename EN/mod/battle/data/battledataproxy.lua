@@ -781,7 +781,7 @@ slot9.updateLoop = function(slot0, slot1)
 			else
 				slot0:RemoveBulletUnit(slot11:GetUniqueID())
 			end
-		elseif slot15 == uv2.BulletOutBound.COMMON and (slot0._bulletRightBound < slot13.x and slot12.x > 0 or slot13.z < slot0._bulletLowerBound and slot12.z < 0) then
+		elseif (slot15 == uv2.BulletOutBound.COMMON or slot15 == uv2.BulletOutBound.SHIFT_SPLIT) and (slot0._bulletRightBound < slot13.x and slot12.x > 0 or slot13.z < slot0._bulletLowerBound and slot12.z < 0) then
 			slot0:RemoveBulletUnit(slot11:GetUniqueID())
 		elseif slot13.x < slot0._bulletLeftBound and slot12.x < 0 and slot14 ~= uv2.BulletType.BOMB then
 			if slot15 == uv2.BulletOutBound.RANDOM and slot0._fleetList[uv0.FRIENDLY_CODE]:RandomMainVictim() then
@@ -796,7 +796,7 @@ slot9.updateLoop = function(slot0, slot1)
 				-- Nothing
 			elseif slot16 == uv1.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not slot11:IsFragile() then
 				-- Nothing
-			elseif slot15 == uv2.BulletOutBound.COMMON and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot15 == uv2.BulletOutBound.VISION and slot0._bulletUpperBoundVision < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
+			elseif (slot15 == uv2.BulletOutBound.COMMON or slot15 == uv2.BulletOutBound.SHIFT_SPLIT) and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot15 == uv2.BulletOutBound.VISION and slot0._bulletUpperBoundVision < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
 				if slot11:GetExist() then
 					slot11:OutRange()
 				else
@@ -2381,5 +2381,17 @@ slot9.GetFleetLegal = function(slot0, slot1, slot2)
 		return false
 	else
 		return true
+	end
+end
+
+slot9.TriggerFinishBattle = function(slot0)
+	for slot4, slot5 in pairs(slot0._fleetList) do
+		for slot10, slot11 in ipairs(slot5:GetUnitList()) do
+			slot11:TriggerBuff(uv0.BuffEffectType.ON_FINISH_GAME)
+		end
+	end
+
+	for slot4, slot5 in pairs(slot0._minionShipList) do
+		slot5:TriggerBuff(uv0.BuffEffectType.ON_FINISH_GAME)
 	end
 end

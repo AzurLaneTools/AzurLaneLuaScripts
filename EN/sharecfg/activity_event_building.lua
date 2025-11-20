@@ -769,6 +769,348 @@ pg.activity_event_building = {
 			12
 		}
 	},
+	[31] = {
+		name = "Eagle Union Tech Module",
+		id = 31,
+		buff = {
+			300300,
+			300301,
+			300302,
+			300303
+		},
+		material = {
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			}
+		},
+		desc = {
+			"During battle, when an ally has taken DMG totalling to 40% of her max HP: restores 3% of her max HP (once per ally per battle).",
+			"During battle, when an ally has taken DMG totalling to 30% of her max HP: restores 3% of her max HP (once per ally per battle).",
+			"During battle, when an ally has taken DMG totalling to 20% of her max HP: restores 3% of her max HP (once per ally per battle)."
+		}
+	},
+	[32] = {
+		name = "Royal Navy Tech Module",
+		id = 32,
+		buff = {
+			300300,
+			300304,
+			300305,
+			300306
+		},
+		material = {
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			}
+		},
+		desc = {
+			"Increases your allies' AVI by 2%.",
+			"Increases your allies' AVI by 4%.",
+			"Increases your allies' AVI by 6%."
+		}
+	},
+	[33] = {
+		name = "Iris Orthodoxy Tech Module",
+		id = 33,
+		buff = {
+			300300,
+			300307,
+			300308,
+			300309
+		},
+		material = {
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			}
+		},
+		desc = {
+			"Decreases your allies' DMG taken by 1%.",
+			"Decreases your allies' DMG taken by 2%.",
+			"Decreases your allies' DMG taken by 3%."
+		}
+	},
+	[34] = {
+		name = "Iron Blood Tech Module",
+		id = 34,
+		buff = {
+			300300,
+			300310,
+			300311,
+			300312
+		},
+		material = {
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			}
+		},
+		desc = {
+			"Increases your allies' FP by 2%.",
+			"Increases your allies' FP by 4%.",
+			"Increases your allies' FP by 6%."
+		}
+	},
+	[35] = {
+		name = "Dragon Empery Tech Module",
+		id = 35,
+		buff = {
+			300300,
+			300313,
+			300314,
+			300315
+		},
+		material = {
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			}
+		},
+		desc = {
+			"Increases your allies' ACC by 2%.",
+			"Increases your allies' ACC by 4%.",
+			"Increases your allies' ACC by 6%."
+		}
+	},
+	[36] = {
+		name = "Sardegna Empire Tech Module",
+		id = 36,
+		buff = {
+			300300,
+			300316,
+			300317,
+			300318
+		},
+		material = {
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			}
+		},
+		desc = {
+			"When the battle starts: increases your allies' RLD by 15% for 10s.",
+			"When the battle starts: increases your allies' RLD by 15% for 15s.",
+			"When the battle starts: increases your allies' RLD by 15% for 20s."
+		}
+	},
+	[37] = {
+		name = "Kingdom of Tulipa Tech Module",
+		id = 37,
+		buff = {
+			300300,
+			300319,
+			300320,
+			300321
+		},
+		material = {
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			}
+		},
+		desc = {
+			"Increases your allies' SPD by 2.",
+			"Increases your allies' SPD by 4.",
+			"Increases your allies' SPD by 6."
+		}
+	},
+	[38] = {
+		name = "Northern Parliament Tech Module",
+		id = 38,
+		buff = {
+			300300,
+			300322,
+			300323,
+			300324
+		},
+		material = {
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			}
+		},
+		desc = {
+			"Increases your allies' DMG dealt by 1%.",
+			"Increases your allies' DMG dealt by 2%.",
+			"Increases your allies' DMG dealt by 3%."
+		}
+	},
+	[39] = {
+		name = "Sakura Empire Tech Module",
+		id = 39,
+		buff = {
+			300300,
+			300325,
+			300326,
+			300327
+		},
+		material = {
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			},
+			{
+				{
+					8,
+					65742,
+					1
+				}
+			}
+		},
+		desc = {
+			"Increases your allies' TRP by 2%.",
+			"Increases your allies' TRP by 4%.",
+			"Increases your allies' TRP by 6%."
+		}
+	},
 	all = {
 		1,
 		2,
@@ -796,6 +1138,15 @@ pg.activity_event_building = {
 		24,
 		25,
 		26,
-		27
+		27,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39
 	}
 }

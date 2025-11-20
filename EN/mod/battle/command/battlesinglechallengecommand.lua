@@ -47,6 +47,7 @@ slot4.initWaveModule = function(slot0)
 			return
 		end
 
+		uv0._dataProxy:TriggerFinishBattle()
 		uv0._dataProxy:CalcChallengeScore(true)
 		uv0._state:BattleEnd()
 	end, function (slot0, slot1, slot2, slot3, slot4)
@@ -80,6 +81,7 @@ slot4.onPlayerShutDown = function(slot0, slot1)
 	end
 
 	if slot1.Data.unit == slot0._userFleet:GetFlagShip() then
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._dataProxy:CalcChallengeScore(false)
 		slot0._state:BattleEnd()
 
@@ -87,6 +89,7 @@ slot4.onPlayerShutDown = function(slot0, slot1)
 	end
 
 	if #slot0._userFleet:GetScoutList() == 0 then
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._dataProxy:CalcChallengeScore(false)
 		slot0._state:BattleEnd()
 	end
@@ -94,6 +97,7 @@ end
 
 slot4.onUpdateCountDown = function(slot0, slot1)
 	if slot0._dataProxy:GetCountDown() <= 0 then
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._dataProxy:CalcChallengeScore(false)
 		slot0._state:BattleEnd()
 	end

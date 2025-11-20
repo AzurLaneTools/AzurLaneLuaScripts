@@ -24,6 +24,7 @@ slot3.initWaveModule = function(slot0)
 			return
 		end
 
+		uv0._dataProxy:TriggerFinishBattle()
 		uv0:CalcStatistic()
 		uv0:calcDamageData()
 		uv0._state:BattleEnd()
@@ -53,6 +54,7 @@ slot3.onPlayerShutDown = function(slot0, slot1)
 	end
 
 	if slot1.Data.unit == slot0._userFleet:GetFlagShip() and slot0._dataProxy:GetInitData().battleType ~= SYSTEM_PROLOGUE and slot0._dataProxy:GetInitData().battleType ~= SYSTEM_PERFORM then
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0:CalcStatistic()
 		slot0:calcDamageData()
 		slot0._state:BattleEnd()
@@ -61,6 +63,7 @@ slot3.onPlayerShutDown = function(slot0, slot1)
 	end
 
 	if #slot0._userFleet:GetScoutList() == 0 then
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0:CalcStatistic()
 		slot0:calcDamageData()
 		slot0._state:BattleEnd()

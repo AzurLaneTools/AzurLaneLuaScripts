@@ -294,7 +294,7 @@ end
 slot0.SetSpineWash = function(slot0, slot1)
 	slot1:SetAction("wash")
 	slot1:ChangeMaterial(Object.Instantiate(slot0.washMaterial))
-	slot1._modleGraphic.material:SetFloat("_PositionY", slot1.model.transform.position.y + 1.5)
+	slot1:GetSkeletonGraphic().material:SetFloat("_PositionY", slot1:GetRoleModel().transform.position.y + 1.5)
 end
 
 slot0.CleanSpines = function(slot0)

@@ -52,6 +52,7 @@ slot0.SHOW_ATELIER_BUFF = "LevelMediator2:SHOW_ATELIER_BUFF"
 slot0.ON_SPITEM_CHANGED = "LevelMediator2:ON_SPITEM_CHANGED"
 slot0.ON_BOSSSINGLE_MAP = "LevelMediator2:ON_BOSSSINGLE_MAP"
 slot0.ON_CLUE_MAP = "LevelMediator2:ON_CLUE_MAP"
+slot0.ON_COLLAB_BOSSRUSH_MAP = "LevelMediator2:ON_COLLAB_BOSSRUSH_MAP"
 slot0.ON_UPDATE_LOWPRIORITY_TASK = "LevelMediator2:ON_UPDATE_LOWPRIORITY_TASK"
 
 slot0.register = function(slot0)
@@ -363,6 +364,9 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.ON_CLUE_MAP, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.CLUE_MAP)
+	end)
+	slot0:bind(uv0.ON_COLLAB_BOSSRUSH_MAP, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_DAL_COLLAB)
 	end)
 	slot0:bind(uv0.GO_ACT_SHOP, function ()
 		slot0 = uv0.contextData.map and uv0.contextData.map:getConfig("on_activity") or nil

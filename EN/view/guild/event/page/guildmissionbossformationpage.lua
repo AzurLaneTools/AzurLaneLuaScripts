@@ -260,19 +260,19 @@ slot0.UpdateShip = function(slot0, slot1, slot2, slot3, slot4)
 
 	if slot4 then
 		slot6 = slot4.ship
-		slot8 = PoolMgr.GetInstance()
+		slot8 = SpineAnimChar.New()
 
-		slot8:GetSpineChar(slot6:getPrefab(), true, function (slot0)
-			slot0.name = uv0
-
-			SetParent(slot0, uv1.parent)
+		slot8:SetPaint(slot6:getPrefab())
+		slot8:Load(true, function (slot0)
+			slot0:SetName(uv0)
+			slot0:SetParent(uv1.parent)
 
 			slot1 = GuildBossFormationShipCard.New(slot0)
 
 			slot1:Update(uv2, uv3)
-			SetAction(slot0, "stand")
+			slot0:SetAction("stand", 0)
 
-			slot2 = GetOrAddComponent(slot0, "EventTriggerListener")
+			slot2 = GetOrAddComponent(slot0:GetModel(), "EventTriggerListener")
 
 			slot2:AddPointClickFunc(function (slot0, slot1)
 				if uv0.dragging then
@@ -285,7 +285,7 @@ slot0.UpdateShip = function(slot0, slot1, slot2, slot3, slot4)
 				uv0.dragging = true
 
 				slot0.transform:SetAsLastSibling()
-				SetAction(slot0, "tuozhuai")
+				uv1:SetAction("tuozhuai", 0)
 			end)
 			slot2:AddDragFunc(function (slot0, slot1)
 				uv2:SetLocalPosition(uv0.Scr2Lpos(uv1.parent, slot1.position))
@@ -298,7 +298,7 @@ slot0.UpdateShip = function(slot0, slot1, slot2, slot3, slot4)
 				uv0.dragging = false
 
 				uv1:RefreshPosition(uv1:GetSoltIndex(), true)
-				SetAction(slot0, "stand")
+				uv2:SetAction("stand", 0)
 				uv0:RefreshFleet()
 			end)
 			table.insert(uv4.shipCards, slot1)

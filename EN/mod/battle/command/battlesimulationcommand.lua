@@ -189,10 +189,12 @@ slot3.onPlayerShutDown = function(slot0, slot1)
 
 		slot0._failReason = nil
 
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._state:BattleEnd()
 	end
 
 	if slot1.Data.unit == slot0._userFleet:GetFlagShip() then
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._dataProxy:CalcSimulationScoreAtEnd(slot0._userFleet, slot0._rivalFleet)
 		slot0._state:BattleEnd()
 
@@ -200,6 +202,7 @@ slot3.onPlayerShutDown = function(slot0, slot1)
 	end
 
 	if #slot0._userFleet:GetScoutList() == 0 then
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._dataProxy:CalcSimulationScoreAtEnd(slot0._userFleet, slot0._rivalFleet)
 		slot0._state:BattleEnd()
 	end
@@ -245,6 +248,7 @@ slot3.onUpdateCountDown = function(slot0, slot1)
 		slot3, slot4 = slot0._userFleet:GetDamageRatioResult()
 		slot5, slot6 = slot0._rivalFleet:GetDamageRatioResult()
 
+		slot0._dataProxy:TriggerFinishBattle()
 		slot0._dataProxy:CalcSimulationScoreAtTimesUp(slot3, slot5, slot4, slot6, slot0._rivalFleet)
 		slot0._state:BattleEnd()
 	end

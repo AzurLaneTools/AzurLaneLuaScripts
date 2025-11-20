@@ -1534,6 +1534,7 @@ pg.skill_data_display = setmetatable({
 		16990,
 		17000,
 		17002,
+		17003,
 		17010,
 		17020,
 		17031,
@@ -3033,6 +3034,35 @@ pg.skill_data_display = setmetatable({
 		114121,
 		114122,
 		114128,
+		115021,
+		115031,
+		115053,
+		115055,
+		115062,
+		115065,
+		115072,
+		115075,
+		115091,
+		115092,
+		115093,
+		115101,
+		115102,
+		115103,
+		115111,
+		115112,
+		115113,
+		115141,
+		115142,
+		115143,
+		115151,
+		115152,
+		115161,
+		115162,
+		115172,
+		115191,
+		115200,
+		115210,
+		115220,
 		190001,
 		190002,
 		190003,
@@ -3348,6 +3378,7 @@ pg.skill_data_display = setmetatable({
 		801845,
 		801891,
 		801921,
+		801952,
 		902201,
 		1010140,
 		1010143,
@@ -9941,6 +9972,10 @@ pg.base.skill_data_display = {
 		id = 17002,
 		name = "Holy Iris's Wishes"
 	},
+	[17003] = {
+		id = 17003,
+		name = "Holy Iris's Wishes"
+	},
 	[17010] = {
 		id = 17010,
 		name = "Absolving Light"
@@ -15937,6 +15972,122 @@ pg.base.skill_data_display = {
 		id = 114128,
 		name = "Luminous Wind+"
 	},
+	[115021] = {
+		id = 115021,
+		name = "Astral Dress - Adonai Melek"
+	},
+	[115031] = {
+		id = 115031,
+		name = "Halvanhelev+"
+	},
+	[115053] = {
+		id = 115053,
+		name = "Astral Dress - Elohim Gibor"
+	},
+	[115055] = {
+		id = 115055,
+		name = "Astral Dress - Elohim Gibor"
+	},
+	[115062] = {
+		id = 115062,
+		name = "Efreet's Might"
+	},
+	[115065] = {
+		id = 115065,
+		name = "Efreet's Might"
+	},
+	[115072] = {
+		id = 115072,
+		name = "Efreet's Might+"
+	},
+	[115075] = {
+		id = 115075,
+		name = "Efreet's Might+"
+	},
+	[115091] = {
+		id = 115091,
+		name = "Constrictor"
+	},
+	[115092] = {
+		id = 115092,
+		name = "Piercer"
+	},
+	[115093] = {
+		id = 115093,
+		name = "El Kanaph"
+	},
+	[115101] = {
+		id = 115101,
+		name = "Astral Dress - Elohim Sabaoth"
+	},
+	[115102] = {
+		id = 115102,
+		name = "Astral Dress - Elohim Sabaoth"
+	},
+	[115103] = {
+		id = 115103,
+		name = "Astral Dress - Elohim Sabaoth"
+	},
+	[115111] = {
+		id = 115111,
+		name = "Constrictor"
+	},
+	[115112] = {
+		id = 115112,
+		name = "Piercer"
+	},
+	[115113] = {
+		id = 115113,
+		name = "El Kanaph+"
+	},
+	[115141] = {
+		id = 115141,
+		name = "Time-Eating Castle"
+	},
+	[115142] = {
+		id = 115142,
+		name = "Time-Eating Castle"
+	},
+	[115143] = {
+		id = 115143,
+		name = "Time-Eating Castle"
+	},
+	[115151] = {
+		id = 115151,
+		name = "Astral Dress - Elohim"
+	},
+	[115152] = {
+		id = 115152,
+		name = "Astral Dress - Elohim"
+	},
+	[115161] = {
+		id = 115161,
+		name = "Astral Dress - Elohim+"
+	},
+	[115162] = {
+		id = 115162,
+		name = "Astral Dress - Elohim+"
+	},
+	[115172] = {
+		id = 115172,
+		name = "Metatron - Kadour"
+	},
+	[115191] = {
+		id = 115191,
+		name = "Astral Dress - Ehyeh"
+	},
+	[115200] = {
+		id = 115200,
+		name = "Zadkiel"
+	},
+	[115210] = {
+		id = 115210,
+		name = "Zadkiel"
+	},
+	[115220] = {
+		id = 115220,
+		name = "Shiryon"
+	},
 	[190001] = {
 		id = 190001,
 		name = "Steelsurge Concerto"
@@ -17196,6 +17347,10 @@ pg.base.skill_data_display = {
 	[801921] = {
 		id = 801921,
 		name = "Offensive Stance"
+	},
+	[801952] = {
+		id = 801952,
+		name = "Tragedy's Ward"
 	},
 	[902201] = {
 		id = 902201,

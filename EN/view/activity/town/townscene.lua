@@ -217,14 +217,12 @@ slot0.UpdateShip = function(slot0, slot1, slot2)
 
 	slot6:SetData(slot4:getPrefab())
 	slot6:Load(function ()
-		slot0 = uv0.modelRoot
-		slot0.name = "model"
-		slot0.transform.localScale = Vector2.New(uv1.SDScale, uv1.SDScale)
-		rtf(slot0).sizeDelta = Vector2.New(200, 500)
-
-		SetParent(slot0, uv2)
+		uv0:SetName("model")
+		uv0:SetLocalScale(Vector2.New(uv1.SDScale, uv1.SDScale))
+		uv0:SetSizeDelta(Vector2.New(200, 500))
+		uv0:SetParent(uv2)
 		uv0:SetAction("stand")
-		slot0.transform:SetAsFirstSibling()
+		go.transform:SetAsFirstSibling()
 		setActive(uv2, true)
 	end, true)
 

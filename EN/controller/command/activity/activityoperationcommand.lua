@@ -86,6 +86,10 @@ slot0.execute = function(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips("错误!:" .. slot0.result)
 			elseif uv3 == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("activity_op_error", slot0.result))
+			elseif uv3 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
+				if uv2:getConfig("config_client").resource_ID == BossRushDALUpgradeView.RES_ID then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("DAL_upgrade_not_enough"))
+				end
 			elseif slot0.result == 3 or slot0.result == 4 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 			else

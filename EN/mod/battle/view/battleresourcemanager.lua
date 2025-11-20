@@ -309,7 +309,14 @@ slot5.InstFX = function(slot0, slot1, slot2)
 	end
 
 	if tf(slot4):Find("bullet") and slot6:GetComponent(typeof(SpineAnim)) then
-		slot6:GetComponent(typeof(SpineAnim)):SetAction("normal", 0, false)
+		slot7 = slot6:GetComponent(typeof(SpineAnim))
+		slot9 = "normal"
+
+		if slot6:GetComponent("SkeletonAnimation") then
+			slot9 = SpineAnimUtil.GetCharAnimDirect(slot8, math.sign(slot6.localScale.x), "normal")
+		end
+
+		slot7:SetAction(slot9, 0, false)
 	end
 
 	return slot4
@@ -348,6 +355,14 @@ end
 
 slot5.InstSkillPaintingUI = function(slot0)
 	slot1 = slot0._allPool["UI/SkillPainting"]
+	slot2 = slot1:GetObject()
+	slot0._ob2Pool[slot2] = slot1
+
+	return slot2
+end
+
+slot5.InstSkillPaintingDALUI = function(slot0)
+	slot1 = slot0._allPool["UI/SkillPaintingDAL"]
 	slot2 = slot1:GetObject()
 	slot0._ob2Pool[slot2] = slot1
 
@@ -718,6 +733,8 @@ slot5.InitPool = function(slot0, slot1, slot2)
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 2, 20, false, false):InitSize()
 	elseif slot1 == "UI/SkillPainting" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
+	elseif slot1 == "UI/SkillPaintingDAL" then
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/MonsterAppearUI" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/CardTowerCardCombat" then
@@ -815,6 +832,11 @@ slot5.GetShipResource = function(slot0, slot1, slot2)
 	slot3[#slot3 + 1] = uv1.GetCharacterPath(slot5.prefab)
 	slot3[#slot3 + 1] = uv1.GetHrzIcon(slot5.painting)
 	slot3[#slot3 + 1] = uv1.GetQIcon(slot5.painting)
+
+	if table.contains(uv2.MIRROR_QICON_SHIP_GROUP, slot5.ship_group) then
+		slot3[#slot3 + 1] = uv1.GetQIcon(slot5.painting .. uv2.MIRROR_QICON_KEY)
+	end
+
 	slot3[#slot3 + 1] = uv1.GetSquareIcon(slot5.painting)
 
 	if slot2 and uv0.GetShipTypeTmp(slot4.type).team_type == TeamType.Main then

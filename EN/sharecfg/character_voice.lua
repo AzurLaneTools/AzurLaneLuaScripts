@@ -870,5 +870,31 @@ pg.character_voice = {
 			0,
 			0
 		}
+	},
+	skill_dal_1 = {
+		voice_name = "Skill Extra - 1",
+		key = "skill_dal_1",
+		resource_key = "skill_dal_1",
+		spine_action = "stand",
+		profile_index = 68,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	skill_dal_2 = {
+		voice_name = "Skill Extra - 2",
+		key = "skill_dal_2",
+		resource_key = "skill_dal_2",
+		spine_action = "stand",
+		profile_index = 69,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
 	}
 }

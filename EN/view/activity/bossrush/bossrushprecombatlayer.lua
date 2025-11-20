@@ -26,66 +26,67 @@ end
 
 slot0.CommonInit = function(slot0)
 	slot0.eventTriggers = {}
-	slot0._startBtn = slot0._tf:Find("right/start")
-	slot0._costContainer = slot0._tf:Find("right/start/cost_container")
+	slot1 = slot0._tf:Find("adapt")
+	slot0._startBtn = slot1:Find("right/start")
+	slot0._costContainer = slot1:Find("right/start/cost_container")
 	slot0._popup = slot0._costContainer:Find("popup")
 	slot0._costText = slot0._popup:Find("Text")
-	slot0._moveLayer = slot0._tf:Find("moveLayer")
-	slot1 = slot0._tf:Find("middle")
-	slot0._autoToggle = slot0._tf:Find("auto_toggle")
-	slot0._autoSubToggle = slot0._tf:Find("sub_toggle_container/sub_toggle")
-	slot0._fleetInfo = slot1:Find("fleet_info")
-	slot0._fleetNameText = slot1:Find("fleet_info/fleet_name/Text")
-	slot0._fleetNumText = slot1:Find("fleet_info/fleet_number")
+	slot0._moveLayer = slot1:Find("moveLayer")
+	slot2 = slot1:Find("middle")
+	slot0._autoToggle = slot1:Find("auto_toggle")
+	slot0._autoSubToggle = slot1:Find("sub_toggle_container/sub_toggle")
+	slot0._fleetInfo = slot2:Find("fleet_info")
+	slot0._fleetNameText = slot2:Find("fleet_info/fleet_name/Text")
+	slot0._fleetNumText = slot2:Find("fleet_info/fleet_number")
 
 	setActive(slot0._fleetInfo, slot0.contextData.system ~= SYSTEM_DUEL)
 
-	slot0._mainGS = slot1:Find("gear_score/main/Text")
-	slot0._vanguardGS = slot1:Find("gear_score/vanguard/Text")
-	slot0._subGS = slot1:Find("gear_score/submarine/Text")
-	slot0._bgFleet = slot1:Find("mask/grid_bg")
-	slot0._bgSub = slot1:Find("mask/bg_sub")
+	slot0._mainGS = slot2:Find("gear_score/main/Text")
+	slot0._vanguardGS = slot2:Find("gear_score/vanguard/Text")
+	slot0._subGS = slot2:Find("gear_score/submarine/Text")
+	slot0._bgFleet = slot2:Find("mask/grid_bg")
+	slot0._bgSub = slot2:Find("mask/bg_sub")
 	slot0._gridTFs = {
 		[TeamType.Vanguard] = {},
 		[TeamType.Main] = {},
 		[TeamType.Submarine] = {}
 	}
-	slot0._gridFrame = slot1:Find("mask/GridFrame")
+	slot0._gridFrame = slot2:Find("mask/GridFrame")
 
-	for slot5 = 1, 3 do
-		slot0._gridTFs[TeamType.Main][slot5] = slot0._gridFrame:Find("main_" .. slot5)
-		slot0._gridTFs[TeamType.Vanguard][slot5] = slot0._gridFrame:Find("vanguard_" .. slot5)
-		slot0._gridTFs[TeamType.Submarine][slot5] = slot0._gridFrame:Find("submarine_" .. slot5)
+	for slot6 = 1, 3 do
+		slot0._gridTFs[TeamType.Main][slot6] = slot0._gridFrame:Find("main_" .. slot6)
+		slot0._gridTFs[TeamType.Vanguard][slot6] = slot0._gridFrame:Find("vanguard_" .. slot6)
+		slot0._gridTFs[TeamType.Submarine][slot6] = slot0._gridFrame:Find("submarine_" .. slot6)
 	end
 
-	slot0._nextPage = slot0._tf:Find("middle/nextPage")
-	slot0._prevPage = slot0._tf:Find("middle/prevPage")
-	slot0._heroContainer = slot1:Find("HeroContainer")
-	slot0._checkBtn = slot1:Find("checkBtn")
+	slot0._nextPage = slot1:Find("middle/nextPage")
+	slot0._prevPage = slot1:Find("middle/prevPage")
+	slot0._heroContainer = slot2:Find("HeroContainer")
+	slot0._checkBtn = slot2:Find("checkBtn")
 	slot0._blurPanel = slot0._tf:Find("blur_panel")
 	slot0.topPanel = slot0._blurPanel:Find("top")
 	slot0.topPanelBg = slot0._blurPanel:Find("top_bg")
 	slot0._backBtn = slot0.topPanel:Find("back_btn")
-	slot0._spoilsContainer = slot0._tf:Find("right/infomation/atlasloot/spoils/items/items_container")
-	slot0._item = slot0._tf:Find("right/infomation/atlasloot/spoils/items/item_tpl")
+	slot0._spoilsContainer = slot1:Find("right/infomation/atlasloot/spoils/items/items_container")
+	slot0._item = slot1:Find("right/infomation/atlasloot/spoils/items/item_tpl")
 
 	SetActive(slot0._item, false)
 
-	slot0._goals = slot0._tf:Find("right/infomation/target/goal")
+	slot0._goals = slot1:Find("right/infomation/target/goal")
 	slot0._heroInfo = slot0:getTpl("heroInfo")
 	slot0._starTpl = slot0:getTpl("star_tpl")
 
-	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
-	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
-	setText(findTF(slot0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+	setText(findTF(slot1, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(findTF(slot1, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(findTF(slot1, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
 	setText(slot0._costContainer:Find("title"), i18n("pre_combat_consume"))
-	setText(findTF(slot0._tf, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
-	setText(findTF(slot0._tf, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
+	setText(findTF(slot1, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
+	setText(findTF(slot1, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
 	setText(slot0._startBtn:Find("text"), i18n("pre_combat_start"))
 	setText(slot0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
 
-	slot0._middle = slot0._tf:Find("middle")
-	slot0._right = slot0._tf:Find("right")
+	slot0._middle = slot1:Find("middle")
+	slot0._right = slot1:Find("right")
 
 	setAnchoredPosition(slot0._middle, {
 		x = -840
@@ -96,7 +97,7 @@ slot0.CommonInit = function(slot0)
 
 	slot0.guideDesc = slot0._middle:Find("guideDesc")
 	slot0._costTip = slot0._startBtn:Find("cost_container/popup/tip")
-	slot0._continuousBtn = slot0._tf:Find("right/multiple")
+	slot0._continuousBtn = slot1:Find("right/multiple")
 
 	setText(slot0._continuousBtn:Find("text"), i18n("multiple_sorties_title"))
 	setText(slot0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))
@@ -478,7 +479,8 @@ slot0.didEnter = function(slot0)
 			return
 		end
 
-		slot1 = uv2:HasPassSeries(uv0.id)
+		slot1 = nil
+		slot1 = (uv2:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB or uv2:HasPlayerDefeatSeries(uv0.id)) and uv2:HasPassSeries(uv0.id)
 
 		setActive(uv1._continuousBtn:Find("lock"), not slot1)
 
@@ -497,7 +499,7 @@ slot0.didEnter = function(slot0)
 	end)()
 
 	slot5 = slot2:GetBossIcons()
-	slot6 = slot0._tf:Find("middle/Boss")
+	slot6 = slot0._tf:Find("adapt/middle/Boss")
 
 	UIItemList.StaticAlign(slot6, slot6:GetChild(0), #slot2:GetExpeditionIds(), function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
@@ -541,7 +543,7 @@ slot0.displayFleetInfo = function(slot0)
 	setText(slot0._fleetNameText, Fleet.DEFAULT_NAME[slot0._curFleetIndex])
 	setText(slot0._fleetNumText, slot0._curFleetIndex)
 
-	slot8 = slot0._tf:Find("middle/Boss")
+	slot8 = slot0._tf:Find("adapt/middle/Boss")
 
 	UIItemList.StaticAlign(slot8, slot8:GetChild(0), #slot0.contextData.seriesData:GetExpeditionIds(), function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then

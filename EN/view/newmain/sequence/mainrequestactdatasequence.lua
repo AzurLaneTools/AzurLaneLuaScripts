@@ -7,6 +7,7 @@ slot0.Execute = function(slot0, slot1)
 	slot0:RequestMetaData()
 	slot0:RequestManualSignAct()
 	slot0:RequestRandomDailyTask()
+	slot0:RequestDALDailyTask()
 	slot1()
 end
 
@@ -88,6 +89,16 @@ slot0.RequestRandomDailyTask = function(slot0)
 	pg.m02:sendNotification(GAME.ACT_RANDOM_DAILY_TASK, {
 		activity_id = slot1.id,
 		cmd = ActivityConst.RANDOM_DAILY_TASK_OP_RANDOM
+	})
+end
+
+slot0.RequestDALDailyTask = function(slot0)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB) then
+		return 0
+	end
+
+	pg.m02:sendNotification(GAME.COLLABRATE_BOSS_RUSH_REQUEST_DATA, {
+		actId = slot1.id
 	})
 end
 

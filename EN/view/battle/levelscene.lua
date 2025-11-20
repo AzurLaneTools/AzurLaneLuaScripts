@@ -326,6 +326,8 @@ slot0.initUI = function(slot0)
 	slot0.levelFleetView = LevelFleetView.New(slot0.topPanel, slot0.event, slot0.contextData)
 	slot0.levelInfoView = LevelInfoView.New(slot0.topPanel, slot0.event, slot0.contextData)
 
+	slot0.levelInfoView:RegisterView(slot0)
+	slot0.levelFleetView:RegisterView(slot0)
 	slot0:buildCommanderPanel()
 
 	slot0.levelRemasterView = LevelRemasterView.New(slot0.topPanel, slot0.event, slot0.contextData)
@@ -562,6 +564,9 @@ slot0.didEnter = function(slot0)
 			end,
 			[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = function ()
 				uv0:emit(LevelMediator2.ON_CLUE_MAP)
+			end,
+			[ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB] = function ()
+				uv0:emit(LevelMediator2.ON_COLLAB_BOSSRUSH_MAP)
 			end
 		})
 	end, SFX_PANEL)
@@ -1385,10 +1390,16 @@ slot0.registerActBtn = function(slot0)
 			return
 		end
 
-		if uv0.activityBtnLinkAct and uv0.activityBtnLinkAct:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
+		if uv0.activityBtnLinkAct then
+			if uv0.activityBtnLinkAct:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
 
-			return
+				return
+			elseif slot0 == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_DAL_COLLAB)
+
+				return
+			end
 		end
 
 		uv0:emit(LevelMediator2.ON_ACTIVITY_MAP)
@@ -2985,14 +2996,13 @@ slot0.doPlayStrikeAnim = function(slot0, slot1, slot2, slot3)
 		slot4 = findTF(slot1, "ship")
 
 		setParent(uv2, slot3:Find("fitter"), false)
-		setParent(uv3, slot4, false)
+		uv3:SetParent(slot4)
 		setActive(slot4, false)
 		setActive(findTF(slot1, "torpedo"), false)
 		slot1:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
 		slot1:SetAsLastSibling()
 
 		slot5 = slot1:GetComponent("DftAniEvent")
-		slot6 = uv3:GetComponent("SpineAnimUI")
 
 		slot5:SetStartEvent(function (slot0)
 			uv0:SetAction("attack", 0)
@@ -3018,11 +3028,11 @@ slot0.doPlayStrikeAnim = function(slot0, slot1, slot2, slot3)
 		onButton(uv0, slot1, uv4, SFX_CANCEL)
 		coroutine.yield()
 		retPaintingPrefab(slot3, uv5:getPainting())
-		slot6:SetActionCallBack(nil)
+		uv3:SetActionCallBack(nil)
 
-		slot6:GetComponent("SkeletonGraphic").freeze = false
+		uv3:GetSkeletonGraphic().freeze = false
 
-		PoolMgr.GetInstance():ReturnSpineChar(uv5:getPrefab(), uv3)
+		uv3:Dispose()
 		setActive(slot0, false)
 
 		uv0.playing = false
@@ -3046,10 +3056,12 @@ slot0.doPlayStrikeAnim = function(slot0, slot1, slot2, slot3)
 		ShipExpressionHelper.SetExpression(uv0, uv1:getPainting())
 		uv2()
 	end)
-	PoolMgr.GetInstance():GetSpineChar(slot1:getPrefab(), true, function (slot0)
-		uv0 = slot0
-		uv0.transform.localScale = Vector3.one
 
+	slot5 = SpineAnimChar.New()
+
+	slot5:SetPaint(slot1:getPrefab())
+	slot5:Load(true, function (slot0)
+		uv0:SetLocalScale(Vector3.one)
 		uv1()
 	end)
 
@@ -3099,14 +3111,13 @@ slot0.doPlayEnemyAnim = function(slot0, slot1, slot2, slot3)
 		slot1 = tf(slot0)
 		slot3 = findTF(slot1, "ship")
 
-		setParent(uv2, slot3, false)
+		uv2:SetParent(slot3)
 		setActive(slot3, false)
 		setActive(findTF(slot1, "torpedo"), false)
 		slot1:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
 		slot1:SetAsLastSibling()
 
 		slot4 = slot1:GetComponent("DftAniEvent")
-		slot5 = uv2:GetComponent("SpineAnimUI")
 
 		slot4:SetStartEvent(function (slot0)
 			uv0:SetAction("attack", 0)
@@ -3131,19 +3142,19 @@ slot0.doPlayEnemyAnim = function(slot0, slot1, slot2, slot3)
 		end)
 		onButton(uv0, slot1, uv3, SFX_CANCEL)
 		coroutine.yield()
-		slot5:SetActionCallBack(nil)
+		uv2:SetActionCallBack(nil)
 
-		slot5:GetComponent("SkeletonGraphic").freeze = false
+		uv2:GetSkeletonGraphic().freeze = false
 
-		PoolMgr.GetInstance():ReturnSpineChar(uv4:getPrefab(), uv2)
+		uv2:Dispose()
 		setActive(slot0, false)
 
 		uv0.playing = false
 
 		uv0:unfrozen()
 
-		if uv5 then
-			uv5()
+		if uv4 then
+			uv4()
 		end
 	end)
 
@@ -3153,11 +3164,12 @@ slot0.doPlayEnemyAnim = function(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	PoolMgr.GetInstance():GetSpineChar(slot1:getPrefab(), true, function (slot0)
-		uv0 = slot0
-		uv0.transform.localScale = Vector3.one
+	slot4 = SpineAnimChar.New()
 
-		uv1()
+	slot4:SetPaint(slot1:getPrefab())
+	slot4:Load(true, function (slot0)
+		slot0:SetLocalScale(Vector3.one)
+		uv0()
 	end)
 
 	if not slot0.strikeAnims[slot2] then

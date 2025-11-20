@@ -890,18 +890,37 @@ slot0.hasEquipmentSkinInPos = function(slot0, slot1)
 	return slot0.equipments[slot1] and slot2:hasSkin()
 end
 
-slot0.getPrefab = function(slot0)
-	slot1 = slot0:getSkinId()
+slot0.getPrefab = function(slot0, slot1)
+	slot2 = slot0:getSkinId()
 
 	if slot0:hasEquipmentSkinInPos(uv0) and uv1[slot0:getEquip(uv0):getSkinId()].ship_skin_id ~= 0 then
-		slot1 = slot3 or slot1
+		slot2 = slot4 or slot2
 	end
 
+	slot3 = pg.ship_skin_template[slot2]
+
+	assert(slot3, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot2)
+
+	if slot3.double_char and slot3.double_char == 1 and slot1 ~= nil then
+		slot4 = nil
+
+		if slot1 == 1 then
+			return slot3.prefab .. "_L"
+		elseif slot1 == 2 then
+			return slot3.prefab .. "_R"
+		end
+	end
+
+	return slot3.prefab
+end
+
+slot0.IsDoubleSkin = function(slot0)
+	slot1 = slot0:getSkinId()
 	slot2 = pg.ship_skin_template[slot1]
 
 	assert(slot2, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot1)
 
-	return slot2.prefab
+	return slot2.double_char and slot2.double_char == 1 or false
 end
 
 slot0.getAttachmentPrefab = function(slot0)

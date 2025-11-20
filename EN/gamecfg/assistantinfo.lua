@@ -337,8 +337,11 @@ slot1.PaintingTouchEvents = {
 }
 slot1.PaintingTouchParts = {
 	["3"] = "TouchHead",
+	["22"] = "TouchBody",
+	["33"] = "TouchHead",
+	["2"] = "TouchBody",
 	["1"] = "TouchSpecial",
-	["2"] = "TouchBody"
+	["11"] = "TouchSpecial"
 }
 
 slot1.enable = function()

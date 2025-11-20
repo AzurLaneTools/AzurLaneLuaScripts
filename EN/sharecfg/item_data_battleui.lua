@@ -163,6 +163,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[111] = {
+		name = "Shadow Pictures",
+		key = "SkinNormal_20251120",
+		display_icon = "ui_111",
+		unlock = "Cruise Missions S26",
+		is_unlock = 1,
+		rare = 3,
+		desc = "Simple shadow pictures evoke boundless imagination, and modest stories abound with wonderful hopes.",
+		id = 111,
+		icon = "111",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "Christmas",
 		key = "SkinNormal_20241209",
@@ -260,6 +275,7 @@ pg.item_data_battleui = {
 		108,
 		109,
 		110,
+		111,
 		201,
 		202,
 		203,

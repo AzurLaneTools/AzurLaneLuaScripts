@@ -283,30 +283,25 @@ slot0.initShipModel = function(slot0)
 	slot1 = slot0.shipVO:getPrefab()
 
 	if slot0.shipContainer.childCount ~= 0 then
-		PoolMgr.GetInstance():ReturnSpineChar(slot1, go(slot0.shipModel))
+		slot0.shipModel:Dispose()
 	end
 
 	slot2 = function(slot0)
 		if not IsNil(uv0._tf) then
-			slot1 = tf(slot0)
-			uv0.shipModel = slot1
-			uv0.spineAnimUI = slot1:GetComponent("SpineAnimUI")
+			uv0.shipModel = slot0
 
-			pg.ViewUtils.SetLayer(slot1, Layer.UI)
-
-			slot1.localScale = Vector3(uv1, uv1, 1)
-
-			setParent(slot1, uv0.shipContainer)
-
-			slot1.localPosition = Vector2(0, 10)
-
-			uv0.spineAnimUI:SetAction("stand2", 0)
+			slot0:SetLayer(Layer.UI)
+			slot0:SetLocalScale(Vector3(uv1, uv1, 1))
+			slot0:SetParent(uv0.shipContainer)
+			slot0:SetLocalPosition(Vector2(0, 10))
+			slot0:SetAction("stand2", 0)
 		end
 	end
 
-	slot3 = PoolMgr.GetInstance()
+	slot3 = SpineAnimChar.New()
 
-	slot3:GetSpineChar(slot1, true, function (slot0)
+	slot3:SetPaint(slot1)
+	slot3:Load(true, function (slot0)
 		uv0(slot0)
 	end)
 end

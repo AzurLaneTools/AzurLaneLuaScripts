@@ -536,16 +536,17 @@ slot0.LoadModel = function(slot0, slot1)
 	slot0:ReturnModel()
 
 	slot0.inLoading = true
-	slot3 = PoolMgr.GetInstance()
+	slot3 = SpineAnimChar.New()
 
-	slot3:GetSpineChar(slot1.prefab, true, function (slot0)
+	slot3:SetPaint(slot1.prefab)
+	slot3:Load(true, function (slot0)
 		uv0.inLoading = false
-		slot0.name = uv1
-		slot0.transform.localPosition = Vector3.zero
-		slot0.transform.localScale = Vector3(0.8, 0.8, 1)
 
-		slot0.transform:SetParent(uv0.modelContainer, false)
-		slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv2.show_skin or "stand", 0)
+		slot0:SetName(uv1)
+		slot0:SetLocalPosition(Vector3.zero)
+		slot0:SetLocalScale(Vector3(0.8, 0.8, 1))
+		slot0:SetParent(uv0.modelContainer)
+		slot0:SetAction(uv2.show_skin or "stand", 0)
 
 		uv0.characterModel = slot0
 		uv0.modelName = uv1
@@ -553,8 +554,10 @@ slot0.LoadModel = function(slot0, slot1)
 end
 
 slot0.ReturnModel = function(slot0)
-	if not IsNil(slot0.characterModel) then
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.modelName, slot0.characterModel)
+	if slot0.characterModel then
+		slot0.characterModel:Dispose()
+
+		slot0.characterModel = nil
 	end
 end
 
@@ -641,7 +644,7 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 		uv2:UpdatePaintingFace(uv0)
 
 		if uv2.characterModel then
-			uv2.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(uv2:GetModelAction(uv1), 0)
+			uv2.characterModel:SetAction(uv2:GetModelAction(uv1), 0)
 		end
 
 		slot1 = {

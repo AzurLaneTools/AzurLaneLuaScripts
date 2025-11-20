@@ -37,17 +37,19 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
-		param = "0",
 		name = "event_map",
 		text_pic = "text_event_map",
-		type = 0,
+		type = 2,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
 		order = 1,
 		time = {
 			"default",
-			50222
+			50256
+		},
+		param = {
+			"bossrush dal collab"
 		}
 	},
 	[11] = {
@@ -289,13 +291,27 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
+		param = "DALCoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_blackfriday",
+		text_pic = "text_event_core",
 		type = 16,
-		pic = "event_blackfriday",
+		pic = "event_core",
 		id = 109,
 		group_id = 1,
 		order = 1,
+		time = {
+			"default",
+			50245
+		}
+	},
+	[110] = {
+		name = "event_core_2",
+		text_pic = "text_event_blackfriday",
+		type = 16,
+		pic = "event_blackfriday",
+		id = 110,
+		group_id = 2,
+		order = 2,
 		time = {
 			"default",
 			50234
@@ -303,20 +319,6 @@ pg.activity_link_button = {
 		param = {
 			"PSSCoreActivityUI",
 			"JINNIANDECUXIAOXINGSHISHI1"
-		}
-	},
-	[110] = {
-		param = "ALYCoreActivityUI",
-		name = "event_core_2",
-		text_pic = "text_event_yumia",
-		type = 16,
-		pic = "event_yumia",
-		id = 110,
-		group_id = 2,
-		order = 2,
-		time = {
-			"default",
-			50058
 		}
 	},
 	[111] = {

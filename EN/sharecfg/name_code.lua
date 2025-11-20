@@ -2968,6 +2968,13 @@ pg.name_code = {
 		code = "Mecklenburg",
 		nation = 0
 	},
+	[551] = {
+		name = "Boise META",
+		type = 1,
+		id = 551,
+		code = "Boise META",
+		nation = 0
+	},
 	[10000] = {
 		name = "Type 0 Fighter Model 52",
 		type = 2,

@@ -24,7 +24,7 @@ slot0.Execute = function(slot0)
 		slot0:ExitWorldBossSystem(slot1)
 	elseif slot2 == SYSTEM_WORLD then
 		slot0:ExitWorldSystem(slot1)
-	elseif slot2 == SYSTEM_BOSS_RUSH or slot2 == SYSTEM_BOSS_RUSH_EX then
+	elseif slot2 == SYSTEM_BOSS_RUSH or slot2 == SYSTEM_BOSS_RUSH_EX or slot2 == SYSTEM_BOSS_RUSH_COLLABRATE then
 		if slot0:CheckBossRushSystem(slot1) then
 			slot0:ResultRushBossSystem(slot1)
 		end
@@ -168,18 +168,31 @@ slot0.ResultRushBossSystem = function(slot0, slot1)
 end
 
 slot0.ExitRushBossSystem = function(slot0, slot1, slot2)
-	slot3 = slot1.system
 	slot4 = slot1.actId
+	slot5 = slot2.seriesData
+	slot6 = ys.Battle.BattleConst.BattleScore.C < slot1.score
+	slot7, slot8 = nil
+
+	if slot1.system == SYSTEM_BOSS_RUSH_COLLABRATE then
+		slot7 = BossRushDALBattleResultMediator
+		slot8 = BossRushDALBattleResultLayer
+	elseif slot3 == SYSTEM_BOSS_RUSH_EX then
+		slot7 = BossRushBattleResultMediator
+		slot8 = BossRushConst.GetEXBattleResultLayer(slot4)
+	else
+		slot7 = BossRushBattleResultMediator
+		slot8 = BossRushBattleResultLayer
+	end
 
 	slot0:addSubLayers(Context.New({
-		mediator = slot3 == SYSTEM_BOSS_RUSH and BossRushBattleResultMediator or BossRushBattleResultMediator,
-		viewComponent = slot3 == SYSTEM_BOSS_RUSH and BossRushBattleResultLayer or BossRushConst.GetEXBattleResultLayer(slot4),
+		mediator = slot7,
+		viewComponent = slot8,
 		data = {
 			awards = slot2.awards,
 			system = slot3,
 			actId = slot4,
-			seriesData = slot2.seriesData,
-			win = ys.Battle.BattleConst.BattleScore.C < slot1.score,
+			seriesData = slot5,
+			win = slot6,
 			isAutoFight = slot0.contextData.isAutoFight
 		}
 	}), true)
@@ -410,15 +423,19 @@ end
 slot0.ContinuousBossRush = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	seriesAsync({
 		function (slot0)
-			uv0:addSubLayers(Context.New({
-				mediator = ChallengePassedMediator,
-				viewComponent = BossRushConst.GetPassedLayer(uv1),
-				data = {
-					curIndex = uv2 - 1,
-					maxIndex = #uv3
-				},
-				onRemoved = slot0
-			}))
+			if uv0 == SYSTEM_BOSS_RUSH_COLLABRATE then
+				slot0()
+			else
+				uv1:addSubLayers(Context.New({
+					mediator = ChallengePassedMediator,
+					viewComponent = BossRushConst.GetPassedLayer(uv2),
+					data = {
+						curIndex = uv3 - 1,
+						maxIndex = #uv4
+					},
+					onRemoved = slot0
+				}))
+			end
 		end,
 		function (slot0)
 			pg.m02:sendNotification(GAME.BEGIN_STAGE, {

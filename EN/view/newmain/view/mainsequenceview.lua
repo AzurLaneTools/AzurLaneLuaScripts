@@ -5,6 +5,7 @@ slot0.Ctor = function(slot0)
 		MainAwakeGuideSequence.New(),
 		MainRefundSequence.New(),
 		MainForcePlayerNameModificationSequence.New(),
+		MainRequestNPCShipSequence.New(),
 		MainRequestVoteInfoSequence.New(),
 		MainStroySequence.New(),
 		MainRequestActDataSequence.New(),

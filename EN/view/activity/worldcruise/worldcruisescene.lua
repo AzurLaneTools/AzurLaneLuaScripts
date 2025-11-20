@@ -89,8 +89,20 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	LoadImageSpriteAtlasAsync("bg/" .. pg.battlepass_event_pt[slot0.activity.id].bg, "", slot0._tf:Find("bg"), true)
-	onButton(slot0, slot0.topUI:Find("title/back"), function ()
+	slot1 = pg.battlepass_event_pt[slot0.activity.id]
+
+	LoadImageSpriteAtlasAsync("bg/" .. slot1.bg, "", slot0._tf:Find("bg/bg_1"), true)
+
+	slot2 = slot0._tf:Find("bg/bg_2")
+
+	if slot1.bg_tips ~= "" then
+		LoadImageSpriteAtlasAsync("bg/" .. slot1.bg_tips, "", slot2, true)
+		setActive(slot2, true)
+	else
+		setActive(slot2, false)
+	end
+
+	onButton(slot0, slot0.topUI:Find("back"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
@@ -107,8 +119,8 @@ slot0.didEnter = function(slot0)
 		}, 20, "build_ship_quickly_buy_stone")
 	end, SFX_PANEL)
 
-	slot1 = slot0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
-	slot0.dayTxt.text = i18n("battlepass_main_time_title") .. i18n("battlepass_main_time", math.floor(slot1 / 86400), math.floor(slot1 % 86400 / 3600))
+	slot3 = slot0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
+	slot0.dayTxt.text = i18n("battlepass_main_time_title") .. i18n("battlepass_main_time", math.floor(slot3 / 86400), math.floor(slot3 % 86400 / 3600))
 
 	slot0:UpdateRes()
 	slot0:UpdatePhase()
