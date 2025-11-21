@@ -84,18 +84,14 @@ slot0.OnInit = function(slot0)
 	slot0.aniContainerTF = slot0.bg:Find("AniContainer")
 	slot0.tplList = GetComponent(slot0._tf, "ItemList").prefabItem:ToTable()
 	slot0.sdName = slot0.sdNameList[math.random(#slot0.sdNameList)]
-	slot0.spine = nil
-	slot0.spineLRQ = GetSpineRequestPackage.New(slot0.sdName, function (slot0)
-		SetParent(slot0, uv0.sdContainer)
+	slot0.animChar = nil
 
-		uv0.spine = slot0
-		uv0.spine.transform.localScale = Vector3.one
+	GetSpineRequestPackage.New(slot0.sdName, function (slot0)
+		uv0.animChar = slot0
 
-		if uv0.spine:GetComponent("SpineAnimUI") then
-			slot1:SetAction("stand2", 0)
-		end
-
-		uv0.spineLRQ = nil
+		uv0.animChar:SetParent(uv0.sdContainer)
+		uv0.animChar:SetLocalScale(Vector3.one)
+		uv0.animChar:SetAction("stand2", 0)
 	end):Start()
 end
 
@@ -180,18 +176,10 @@ end
 slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 
-	if slot0.spineLRQ then
-		slot0.spineLRQ:Stop()
+	if slot0.animChar then
+		slot0.animChar:Dispose()
 
-		slot0.spineLRQ = nil
-	end
-
-	if slot0.spine then
-		slot0.spine.transform.localScale = Vector3.one
-
-		pg.PoolMgr.GetInstance():ReturnSpineChar(slot0.sdName, slot0.spine)
-
-		slot0.spine = nil
+		slot0.animChar = nil
 	end
 end
 
