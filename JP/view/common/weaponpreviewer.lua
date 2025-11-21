@@ -187,7 +187,7 @@ end
 
 slot0.setSeaAction = function(slot0, slot1, slot2, slot3)
 	if slot0.seaAnimator then
-		slot0.seaAnimator:SetAction(SpineAnimUtil.GetCharAnimDirect(slot0.skeletonAnimation, 1, slot1), 0, true)
+		slot0.seaAnimator:SetAction(SpineAnimUtil.GetCharAnimDirect(slot0.skeletonAnimation, 1, slot1), 0, slot3)
 	end
 end
 

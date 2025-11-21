@@ -66,7 +66,8 @@ slot0.ConcludeEXP = function(slot0, slot1, slot2)
 		for slot9, slot10 in pairs(pg.extraenemy_series_template) do
 			if table.contains(slot10.activity_series_enemy_id, slot4) then
 				slot5 = CollabrateBossRushSeriesData.New({
-					id = slot9
+					id = slot9,
+					actId = slot1.id
 				})
 				slot4 = slot9
 
