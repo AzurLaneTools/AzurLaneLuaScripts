@@ -9744,6 +9744,86 @@ pg.expedition_activity_template = {
 		pt_drop_display = "",
 		bonus_time = 0
 	},
+	[1981007] = {
+		id = 1981007,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1981008] = {
+		id = 1981008,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1981009] = {
+		id = 1981009,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1981010] = {
+		id = 1981010,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1981011] = {
+		id = 1981011,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1981012] = {
+		id = 1981012,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1981013] = {
+		id = 1981013,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1981014] = {
+		id = 1981014,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1982007] = {
+		id = 1982007,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1982008] = {
+		id = 1982008,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1982009] = {
+		id = 1982009,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1982010] = {
+		id = 1982010,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1982011] = {
+		id = 1982011,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1982012] = {
+		id = 1982012,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1982013] = {
+		id = 1982013,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1982014] = {
+		id = 1982014,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
 	[3000013] = {
 		id = 3000013,
 		bonus_time = 1,
@@ -11059,6 +11139,22 @@ pg.expedition_activity_template = {
 		1984002,
 		1984003,
 		1984004,
+		1981007,
+		1981008,
+		1981009,
+		1981010,
+		1981011,
+		1981012,
+		1981013,
+		1981014,
+		1982007,
+		1982008,
+		1982009,
+		1982010,
+		1982011,
+		1982012,
+		1982013,
+		1982014,
 		3000013,
 		3000113,
 		3000213,

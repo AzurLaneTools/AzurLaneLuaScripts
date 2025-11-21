@@ -108,24 +108,25 @@ slot0.AttachOrbit = function(slot0, slot1)
 
 		if slot11 ~= "" then
 			slot12 = slot9.orbit_ui_bound[1]
-			slot14 = slot0._modleGraphic.Skeleton:FindBoneIndex("char2_" .. slot12)
-			slot15 = slot9.double_char_bone
-			slot16 = ys.Battle.BattleResourceManager.GetOrbitPath(slot11)
+			slot14 = slot0._modleGraphic.Skeleton:FindBoneIndex("char1_" .. slot12)
+			slot15 = slot0._modleGraphic.Skeleton:FindBoneIndex("char2_" .. slot12)
+			slot16 = slot9.double_char_bone
+			slot17 = ys.Battle.BattleResourceManager.GetOrbitPath(slot11)
 
-			if slot0._modleGraphic.Skeleton:FindBoneIndex("char1_" .. slot12) >= 0 or slot14 > 0 then
-				if slot14 >= 0 and slot15 and #slot15 > 0 and slot15[1] == 1 then
-					slot0:loadOrbitUI(slot16, slot2, slot11, "char2" .. "_" .. slot12, slot10, slot9)
+			if (slot0.ship and slot0.ship:IsDoubleSkin() and true or false) and (slot14 >= 0 or slot15 > 0) or slot14 >= 0 and slot15 > 0 then
+				if slot15 >= 0 and slot16 and #slot16 > 0 and slot16[1] == 1 then
+					slot0:loadOrbitUI(slot17, slot2, slot11, "char2" .. "_" .. slot12, slot10, slot9)
 				end
 
-				if slot15 and #slot15 > 0 and slot15[2] == 1 then
-					slot0:loadOrbitUI(slot16, slot2, slot11, slot12, slot10, slot9)
+				if slot16 and #slot16 > 0 and slot16[2] == 1 then
+					slot0:loadOrbitUI(slot17, slot2, slot11, slot12, slot10, slot9)
 				end
 
-				if slot13 >= 0 and slot15 and #slot15 > 0 and slot15[3] == 1 then
-					slot0:loadOrbitUI(slot16, slot2, slot11, "char1" .. "_" .. slot12, slot10, slot9)
+				if slot14 >= 0 and slot16 and #slot16 > 0 and slot16[3] == 1 then
+					slot0:loadOrbitUI(slot17, slot2, slot11, "char1" .. "_" .. slot12, slot10, slot9)
 				end
 			else
-				slot0:loadOrbitUI(slot16, slot2, slot11, slot12, slot10, slot9)
+				slot0:loadOrbitUI(slot17, slot2, slot11, slot12, slot10, slot9)
 			end
 		end
 	end

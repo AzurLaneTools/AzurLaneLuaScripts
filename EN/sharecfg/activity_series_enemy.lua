@@ -1176,8 +1176,8 @@ May your inner child always be with you.]],
 		id = 4011,
 		limitation = {},
 		expedition_id = {
-			1981001,
-			1981002,
+			1981007,
+			1981011,
 			1981003
 		},
 		boss_icon = {
@@ -1260,8 +1260,8 @@ May your inner child always be with you.]],
 		id = 4012,
 		limitation = {},
 		expedition_id = {
-			1982001,
-			1982002,
+			1982007,
+			1982011,
 			1982003
 		},
 		boss_icon = {
@@ -1344,8 +1344,8 @@ May your inner child always be with you.]],
 		id = 4021,
 		limitation = {},
 		expedition_id = {
-			1981001,
-			1981002,
+			1981008,
+			1981012,
 			1981004
 		},
 		boss_icon = {
@@ -1428,8 +1428,8 @@ May your inner child always be with you.]],
 		id = 4022,
 		limitation = {},
 		expedition_id = {
-			1982001,
-			1982002,
+			1982008,
+			1982012,
 			1982004
 		},
 		boss_icon = {
@@ -1512,8 +1512,8 @@ May your inner child always be with you.]],
 		id = 4031,
 		limitation = {},
 		expedition_id = {
-			1981001,
-			1981002,
+			1981009,
+			1981013,
 			1981005
 		},
 		boss_icon = {
@@ -1596,8 +1596,8 @@ May your inner child always be with you.]],
 		id = 4032,
 		limitation = {},
 		expedition_id = {
-			1982001,
-			1982002,
+			1982009,
+			1982013,
 			1982005
 		},
 		boss_icon = {
@@ -1680,8 +1680,8 @@ May your inner child always be with you.]],
 		id = 4041,
 		limitation = {},
 		expedition_id = {
-			1981001,
-			1981002,
+			1981010,
+			1981014,
 			1981006
 		},
 		boss_icon = {
@@ -1764,8 +1764,8 @@ May your inner child always be with you.]],
 		id = 4042,
 		limitation = {},
 		expedition_id = {
-			1982001,
-			1982002,
+			1982010,
+			1982014,
 			1982006
 		},
 		boss_icon = {
