@@ -99,9 +99,34 @@ slot0.UpdateView = function(slot0)
 		setText(slot0.boxView:Find("Content/TextArea2/Text"), table.concat(slot6, "\n"))
 	end
 
+	slot0:ShowShips(slot2)
 	seriesAsync(slot3, function ()
 		uv0:SkipAnim()
 	end)
+end
+
+slot0.ShowShips = function(slot0, slot1, slot2)
+	slot4 = getProxy(BayProxy)
+	slot4 = slot4:getNewShip(true)
+	slot5 = {}
+
+	for slot9 = math.max(1, #slot4 - #_.filter(slot1, function (slot0)
+		return slot0.type == DROP_TYPE_SHIP
+	end) + 1), #slot4 do
+		slot10 = slot4[slot9]
+		slot11 = PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot10.virgin or ShipRarity.Purple <= slot10:getRarity()
+
+		print(slot11)
+
+		if slot11 then
+			table.insert(slot5, function (slot0)
+				print("eeeeeeeeeeeee")
+				uv0:emit(ActivityBossTotalRewardPanelMediator.GET_NEW_SHIP, uv1, slot0)
+			end)
+		end
+	end
+
+	seriesAsync(slot5, slot2)
 end
 
 slot0.SkipAnim = function(slot0)

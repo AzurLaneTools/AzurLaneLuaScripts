@@ -981,7 +981,8 @@ end
 slot0.GetBossRushRuntime = function(slot0, slot1)
 	if not slot0.extraDatas[slot1] then
 		slot0.extraDatas[slot1] = {
-			record = 0
+			record = 0,
+			diff = 1
 		}
 	end
 

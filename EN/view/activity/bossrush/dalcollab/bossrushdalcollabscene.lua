@@ -232,7 +232,7 @@ slot0.UpdateMap = function(slot0)
 
 		for slot7, slot8 in pairs(slot0.maps) do
 			if slot7 ~= 1 and slot7 ~= 6 then
-				setActive(slot0.mapFX:Find("state_4/k"), false)
+				setActive(slot0.mapFX:Find("state_4/" .. slot7), false)
 			end
 
 			setActive(slot8, true)

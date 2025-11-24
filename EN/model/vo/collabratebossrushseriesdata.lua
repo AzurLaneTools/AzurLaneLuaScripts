@@ -26,7 +26,6 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.trafficPerHour = 0
 	slot0.damagePerHour = 0
 	slot0.actId = slot1.actId
-	slot0.diff = 1
 end
 
 slot0.UpdateCollabBossData = function(slot0, slot1, slot2, slot3, slot4)
@@ -105,7 +104,7 @@ slot0.GetFleets = function(slot0)
 end
 
 slot0.GetExpeditionIds = function(slot0)
-	return uv0[slot0:getConfig("activity_series_enemy_id")[slot0.diff]].expedition_id
+	return uv0[slot0:getConfig("activity_series_enemy_id")[getProxy(ActivityProxy):GetBossRushRuntime(slot0.actId).diff]].expedition_id
 end
 
 slot0.GetFleetIds = function(slot0)
@@ -205,11 +204,7 @@ slot0.GetCurrentProfile = function(slot0)
 end
 
 slot0.SetDifficulty = function(slot0, slot1)
-	slot0.diff = slot1
-end
-
-slot0.GetDifficulty = function(slot0)
-	return slot0.diff
+	getProxy(ActivityProxy):GetBossRushRuntime(slot0.actId).diff = slot1
 end
 
 slot0.GetSeriesCode = function(slot0)
@@ -225,7 +220,7 @@ slot0.GetCollabBossID = function(slot0)
 end
 
 slot0.GetActivitySeriesID = function(slot0, slot1)
-	return slot0:getConfig("activity_series_enemy_id")[slot1 or slot0.diff]
+	return slot0:getConfig("activity_series_enemy_id")[slot1 or getProxy(ActivityProxy):GetBossRushRuntime(slot0.actId).diff]
 end
 
 slot0.GetName = function(slot0, slot1)
@@ -240,52 +235,52 @@ slot0.GetRewardDisplay = function(slot0)
 	return uv0[slot0:getConfig("boss_id")[1]].reward_display
 end
 
-slot0.GetLimitations = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].limitation
+slot0.GetLimitations = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].limitation
 end
 
-slot0.GetOilCost = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].oil
+slot0.GetOilCost = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].oil
 end
 
-slot0.GetDescription = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].profiles
+slot0.GetDescription = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].profiles
 end
 
-slot0.IsSingleFight = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].whether_singlefight == 1
+slot0.IsSingleFight = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].whether_singlefight == 1
 end
 
-slot0.GetBossIcons = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].boss_icon
+slot0.GetBossIcons = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].boss_icon
 end
 
-slot0.GetPassAwards = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].pass_awards_display
+slot0.GetPassAwards = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].pass_awards_display
 end
 
-slot0.GetAdditionalAwards = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].additional_awards_display
+slot0.GetAdditionalAwards = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].additional_awards_display
 end
 
-slot0.GetDefeatStories = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].defeat_story
+slot0.GetDefeatStories = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].defeat_story
 end
 
-slot0.GetDefeatStoriesCount = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].defeat_story_count
+slot0.GetDefeatStoriesCount = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].defeat_story_count
 end
 
-slot0.GetMaxBonusCount = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].count
+slot0.GetMaxBonusCount = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].count
 end
 
-slot0.GetOilLimit = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].use_oil_limit
+slot0.GetOilLimit = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].use_oil_limit
 end
 
-slot0.GetEXParamater = function(slot0, slot1)
-	return uv0[slot0:GetActivitySeriesID(slot1)].ex_count
+slot0.GetEXParamater = function(slot0)
+	return uv0[slot0:GetActivitySeriesID()].ex_count
 end
 
 slot0.StaticCalculateFleetIds = function(slot0, slot1)

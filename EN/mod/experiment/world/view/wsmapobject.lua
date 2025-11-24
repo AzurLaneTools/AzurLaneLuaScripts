@@ -80,7 +80,41 @@ slot0.PlayModelAction = function(slot0, slot1, slot2, slot3)
 
 	if slot0.model then
 		if slot0.modelType == WorldConst.ModelSpine then
-			if slot0.modelComps and slot0.modelComps[1] and slot5:GetModel().transform.gameObject.activeInHierarchy then
+			if slot0.modelComps[1] and isa(slot5, SpineAnimChar) and slot5:GetModel().transform.gameObject.activeInHierarchy then
+				table.insert(slot4, function (slot0)
+					uv0:SetAction(uv1, 0)
+
+					if uv2 then
+						uv3:NewActionTimer(uv2, slot0)
+					else
+						slot1 = uv0
+
+						slot1:SetActionCallBack(function (slot0)
+							if slot0 == "finish" then
+								uv0:SetActionCallBack(nil)
+								uv1()
+							end
+						end)
+					end
+				end)
+			elseif slot5 and isa(slot5, SpineRole) and slot5:GetRootModel().transform.gameObject.activeInHierarchy then
+				table.insert(slot4, function (slot0)
+					uv0:SetAction(uv1, 0)
+
+					if uv2 then
+						uv3:NewActionTimer(uv2, slot0)
+					else
+						slot1 = uv0
+
+						slot1:SetActionCallBack(function (slot0)
+							if slot0 == "finish" then
+								uv0:SetActionCallBack(nil)
+								uv1()
+							end
+						end)
+					end
+				end)
+			elseif slot5 and slot5.transform.gameObject.activeInHierarchy then
 				table.insert(slot4, function (slot0)
 					uv0:SetAction(uv1, 0)
 
@@ -196,18 +230,14 @@ slot0.UnloadModel = function(slot0)
 end
 
 slot0.LoadSpine = function(slot0, slot1)
-	slot0.spineChar = SpineAnimChar.New()
-	slot4 = slot0.spineChar
+	slot4 = SpineAnimChar.New()
 
 	slot4:SetPaint(slot0.modelResPath)
-
-	slot4 = slot0.spineChar
-
 	slot4:Load(slot0.modelResAsync, function (slot0)
 		if uv0.modelType ~= WorldConst.ModelSpine or uv0.modelResPath ~= uv1 then
 			slot0:Dispose()
 
-			uv0.spineChar = nil
+			uv2 = nil
 
 			return
 		end
@@ -223,7 +253,7 @@ slot0.LoadSpine = function(slot0, slot1)
 			slot0
 		}
 
-		uv2()
+		uv3()
 	end)
 end
 
@@ -257,10 +287,10 @@ slot0.LoadPrefab = function(slot0, slot1)
 end
 
 slot0.UnloadSpine = function(slot0)
-	slot1 = slot0.modelComps[1]
-
-	slot1:SetActionCallBack(nil)
-	slot1:Dispose()
+	if slot0.modelComps[1] and isa(slot1, SpineAnimChar) then
+		slot1:SetActionCallBack(nil)
+		slot1:Dispose()
+	end
 end
 
 slot0.UnloadPrefab = function(slot0)

@@ -100,7 +100,7 @@ slot0.LoadSpine = function(slot0, slot1)
 		uv1:SetParent(uv0.model)
 
 		uv0.modelComps = {
-			uv1:GetSpineAnimUI()
+			uv1
 		}
 		uv0.spineRole = uv1
 
