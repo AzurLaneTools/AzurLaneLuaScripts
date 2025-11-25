@@ -58,6 +58,18 @@ slot0.Load = function(slot0, slot1, slot2)
 	end
 end
 
+slot0.SetPivot = function(slot0, slot1)
+	if slot0:isComplete() then
+		tf(slot0._model).pivot = slot1
+	end
+end
+
+slot0.SetSizeDelta = function(slot0, slot1)
+	if slot0:isComplete() then
+		tf(slot0._model).sizeDelta = slot1
+	end
+end
+
 slot0.SetParent = function(slot0, slot1, slot2)
 	if not slot0:isComplete() then
 		slot0.loadedParent = slot1

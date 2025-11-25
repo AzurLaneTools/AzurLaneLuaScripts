@@ -960,16 +960,12 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 		slot0.isToggleShowBg = true
 	end
 
-	slot3 = slot0.shipSkin:IsSpine() or slot0.shipSkin:IsLive2d() or slot0.shipSkin:IsSpinePlus() or slot0.shipSkin:IsLive2dPlus()
+	print("is hx prever" .. tostring(slot0.shipSkin:IsHxDynamicPreview()))
 
-	if LOCK_SKIN_SHOP_ANIM_PREVIEW == "all" or LOCK_SKIN_SHOP_ANIM_PREVIEW and table.contains(LOCK_SKIN_SHOP_ANIM_PREVIEW, slot0.shipSkin.id) then
-		slot3 = false
-	end
-
-	slot4 = slot0.shipSkin:IsHxDynamicPreview()
-
-	if slot3 and not slot4 and PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1 then
+	if (slot0.shipSkin:IsSpine() or slot0.shipSkin:IsLive2d() or slot0.shipSkin:IsSpinePlus() or slot0.shipSkin:IsLive2dPlus()) and not slot4 and PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1 then
 		slot0.isToggleDynamic = true
+
+		print("os   sssssssssssssssssssssssss")
 	end
 
 	if slot3 then

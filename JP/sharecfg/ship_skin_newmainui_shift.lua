@@ -3103,54 +3103,6 @@ pg.ship_skin_newmainui_shift = {
 			0
 		}
 	},
-	[10900020] = {
-		skin = 10900020,
-		skin_shift = {
-			-87.99001,
-			0,
-			0,
-			1
-		},
-		l2d_shift = {
-			0,
-			0,
-			0,
-			1
-		},
-		spine_shift = {
-			0,
-			0,
-			0,
-			1
-		},
-		battle_result_display_shift = {
-			0,
-			0,
-			0,
-			1,
-			0
-		},
-		skin_shop_shift = {
-			0,
-			0,
-			0,
-			1
-		},
-		formation_shift = {
-			0,
-			0,
-			0,
-			1,
-			0
-		},
-		skin_card_shift = {
-			0,
-			0,
-			0,
-			1,
-			0
-		}
-	},
 	[408140] = {
 		skin = 408140,
 		skin_shift = {
@@ -5314,8 +5266,8 @@ pg.ship_skin_newmainui_shift = {
 	[11500041] = {
 		skin = 11500041,
 		skin_shift = {
-			-110.1,
-			0,
+			-80.39999,
+			41,
 			0,
 			1
 		},
@@ -5474,7 +5426,6 @@ pg.ship_skin_newmainui_shift = {
 		301892,
 		11200011,
 		103168,
-		10900020,
 		408140,
 		401131,
 		601091,

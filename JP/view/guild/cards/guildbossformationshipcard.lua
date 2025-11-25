@@ -1,7 +1,7 @@
 slot0 = class("GuildBossFormationShipCard")
 
 slot0.Ctor = function(slot0, slot1)
-	slot0.char = slot1
+	slot0._char = slot1
 	slot0._go = slot1:GetModel()
 	tf(slot0._go).pivot = Vector2(0.5, 0)
 	tf(slot0._go).sizeDelta = Vector2(200, 300)

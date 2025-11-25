@@ -805,8 +805,8 @@ pg.base.ship_skin_template_20 = {
 			}
 		},
 		spine_offset = {
-			-35.2,
-			-737.3,
+			147.3,
+			-745,
 			0,
 			0.44
 		},
@@ -1085,10 +1085,10 @@ pg.base.ship_skin_template_20 = {
 			}
 		},
 		spine_offset = {
-			-180.2,
-			-405.8,
+			-58.6,
+			-447.1,
 			0,
-			0.39
+			0.4
 		},
 		get_showing = {
 			show = 1,
