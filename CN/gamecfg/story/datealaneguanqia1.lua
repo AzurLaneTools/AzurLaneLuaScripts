@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "启动III级……不II级预警吧。",
+			say = "启动III级……不，II级预警吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

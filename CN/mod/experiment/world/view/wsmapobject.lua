@@ -125,8 +125,8 @@ slot0.PlayModelAction = function(slot0, slot1, slot2, slot3)
 
 						slot1:SetActionCallBack(function (slot0)
 							if slot0 == "finish" then
-								spineChar:SetActionCallBack(nil)
-								uv0()
+								uv0:SetActionCallBack(nil)
+								uv1()
 							end
 						end)
 					end
