@@ -714,168 +714,227 @@ pg.enemy_data_statistics_4 = {
 		equipment_list = {},
 		random_equipment_list = {},
 		random_nub = {},
-		buff_list = {}
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 1
+			}
+		}
 	},
 	[50132] = {
-		antisub_growth = 5500,
+		air_growth = 0,
 		name = "Yoshino",
-		torpedo_growth = 5500,
+		luck_growth = 10000,
 		cannon_growth = 5500,
+		torpedo_growth = 5500,
+		fog_fx = "",
+		antiaircraft_growth = 5500,
+		reload_growth = 5500,
+		dodge_growth = 3200,
+		antisub_growth = 5500,
 		base = 50131,
 		armor_growth = 0,
 		durability_growth = 5500,
-		luck_growth = 10000,
-		antiaircraft_growth = 5500,
-		hit_growth = 5500,
-		air_growth = 0,
-		reload_growth = 5500,
-		id = 50132,
-		dodge_growth = 3200,
 		bubble_fx = "",
-		fog_fx = ""
+		hit_growth = 5500,
+		id = 50132,
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 2
+			}
+		}
 	},
 	[50133] = {
-		antisub_growth = 6100,
+		air_growth = 0,
 		name = "Yoshino",
-		torpedo_growth = 6100,
+		luck_growth = 10000,
 		cannon_growth = 6100,
+		torpedo_growth = 6100,
+		fog_fx = "",
+		antiaircraft_growth = 6100,
+		reload_growth = 6100,
+		dodge_growth = 3400,
+		antisub_growth = 6100,
 		base = 50131,
 		armor_growth = 0,
 		durability_growth = 6100,
-		luck_growth = 10000,
-		antiaircraft_growth = 6100,
-		hit_growth = 6100,
-		air_growth = 0,
-		reload_growth = 6100,
-		id = 50133,
-		dodge_growth = 3400,
 		bubble_fx = "",
-		fog_fx = ""
+		hit_growth = 6100,
+		id = 50133,
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 3
+			}
+		}
 	},
 	[50134] = {
-		antisub_growth = 6650,
+		air_growth = 0,
 		name = "Yoshino",
-		torpedo_growth = 6650,
+		luck_growth = 10000,
 		cannon_growth = 6650,
+		torpedo_growth = 6650,
+		fog_fx = "",
+		antiaircraft_growth = 6650,
+		reload_growth = 6650,
+		dodge_growth = 3600,
+		antisub_growth = 6650,
 		base = 50131,
 		armor_growth = 0,
 		durability_growth = 6650,
-		luck_growth = 10000,
-		antiaircraft_growth = 6650,
-		hit_growth = 6650,
-		air_growth = 0,
-		reload_growth = 6650,
-		id = 50134,
-		dodge_growth = 3600,
 		bubble_fx = "",
-		fog_fx = ""
+		hit_growth = 6650,
+		id = 50134,
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 4
+			}
+		}
 	},
 	[50135] = {
-		antisub_growth = 7200,
+		air_growth = 0,
 		name = "Yoshino",
-		torpedo_growth = 7200,
+		luck_growth = 10000,
 		cannon_growth = 7200,
+		torpedo_growth = 7200,
+		fog_fx = "",
+		antiaircraft_growth = 7200,
+		reload_growth = 7200,
+		dodge_growth = 3800,
+		antisub_growth = 7200,
 		base = 50131,
 		armor_growth = 0,
 		durability_growth = 7200,
-		luck_growth = 10000,
-		antiaircraft_growth = 7200,
-		hit_growth = 7200,
-		air_growth = 0,
-		reload_growth = 7200,
-		id = 50135,
-		dodge_growth = 3800,
 		bubble_fx = "",
-		fog_fx = ""
+		hit_growth = 7200,
+		id = 50135,
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 5
+			}
+		}
 	},
 	[50136] = {
-		antisub_growth = 7750,
+		air_growth = 0,
 		name = "Yoshino",
-		torpedo_growth = 7750,
+		luck_growth = 10000,
 		cannon_growth = 7750,
+		torpedo_growth = 7750,
+		fog_fx = "",
+		antiaircraft_growth = 7750,
+		reload_growth = 7750,
+		dodge_growth = 4000,
+		antisub_growth = 7750,
 		base = 50131,
 		armor_growth = 0,
 		durability_growth = 7750,
-		luck_growth = 10000,
-		antiaircraft_growth = 7750,
-		hit_growth = 7750,
-		air_growth = 0,
-		reload_growth = 7750,
-		id = 50136,
-		dodge_growth = 4000,
 		bubble_fx = "",
-		fog_fx = ""
+		hit_growth = 7750,
+		id = 50136,
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 6
+			}
+		}
 	},
 	[50137] = {
-		antisub_growth = 8300,
+		air_growth = 0,
 		name = "Yoshino",
-		torpedo_growth = 8300,
+		luck_growth = 10000,
 		cannon_growth = 8300,
+		torpedo_growth = 8300,
+		fog_fx = "",
+		antiaircraft_growth = 8300,
+		reload_growth = 8300,
+		dodge_growth = 4200,
+		antisub_growth = 8300,
 		base = 50131,
 		armor_growth = 0,
 		durability_growth = 8300,
-		luck_growth = 10000,
-		antiaircraft_growth = 8300,
-		hit_growth = 8300,
-		air_growth = 0,
-		reload_growth = 8300,
-		id = 50137,
-		dodge_growth = 4200,
 		bubble_fx = "",
-		fog_fx = ""
+		hit_growth = 8300,
+		id = 50137,
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 7
+			}
+		}
 	},
 	[50138] = {
-		antisub_growth = 8850,
+		air_growth = 0,
 		name = "Yoshino",
-		torpedo_growth = 8850,
+		luck_growth = 10000,
 		cannon_growth = 8850,
+		torpedo_growth = 8850,
+		fog_fx = "",
+		antiaircraft_growth = 8850,
+		reload_growth = 8850,
+		dodge_growth = 4400,
+		antisub_growth = 8850,
 		base = 50131,
 		armor_growth = 0,
 		durability_growth = 8850,
-		luck_growth = 10000,
-		antiaircraft_growth = 8850,
-		hit_growth = 8850,
-		air_growth = 0,
-		reload_growth = 8850,
-		id = 50138,
-		dodge_growth = 4400,
 		bubble_fx = "",
-		fog_fx = ""
+		hit_growth = 8850,
+		id = 50138,
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 8
+			}
+		}
 	},
 	[50139] = {
-		antisub_growth = 9400,
+		air_growth = 0,
 		name = "Yoshino",
-		torpedo_growth = 9400,
+		luck_growth = 10000,
 		cannon_growth = 9400,
+		torpedo_growth = 9400,
+		fog_fx = "",
+		antiaircraft_growth = 9400,
+		reload_growth = 9400,
+		dodge_growth = 4600,
+		antisub_growth = 9400,
 		base = 50131,
 		armor_growth = 0,
 		durability_growth = 9400,
-		luck_growth = 10000,
-		antiaircraft_growth = 9400,
-		hit_growth = 9400,
-		air_growth = 0,
-		reload_growth = 9400,
-		id = 50139,
-		dodge_growth = 4600,
 		bubble_fx = "",
-		fog_fx = ""
+		hit_growth = 9400,
+		id = 50139,
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 9
+			}
+		}
 	},
 	[50140] = {
-		antisub_growth = 10000,
+		air_growth = 0,
 		name = "Yoshino",
-		torpedo_growth = 10000,
+		luck_growth = 10000,
 		cannon_growth = 10000,
+		torpedo_growth = 10000,
+		fog_fx = "",
+		antiaircraft_growth = 10000,
+		reload_growth = 10000,
+		dodge_growth = 5000,
+		antisub_growth = 10000,
 		base = 50131,
 		armor_growth = 0,
 		durability_growth = 10000,
-		luck_growth = 10000,
-		antiaircraft_growth = 10000,
-		hit_growth = 10000,
-		air_growth = 0,
-		reload_growth = 10000,
-		id = 50140,
-		dodge_growth = 5000,
 		bubble_fx = "",
-		fog_fx = ""
+		hit_growth = 10000,
+		id = 50140,
+		buff_list = {
+			{
+				ID = 115203,
+				LV = 10
+			}
+		}
 	}
 }

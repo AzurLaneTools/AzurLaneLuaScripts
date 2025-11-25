@@ -18,6 +18,17 @@ slot0.OnUpdateFlush = function(slot0)
 	for slot4 = 1, #slot0.config_data do
 		SetActive(slot0.AD:Find("tabs/" .. slot4 .. "/got_red"), slot0.taskProxy:getTaskVO(slot0.config_data[slot4]):getTaskStatus() == 2)
 		SetActive(slot0.AD:Find("tabs/" .. slot4 .. "/red"), slot6 == 1)
+
+		if slot6 == 2 and not pg.NewStoryMgr.GetInstance():IsPlayed(slot0.config_client[slot4][1]) then
+			slot8, slot9 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot0.config_client[slot4][1])
+
+			pg.m02:sendNotification(GAME.STORY_UPDATE_LIST, {
+				storyIds = {
+					slot8
+				},
+				callback = callback
+			})
+		end
 	end
 
 	slot1 = -1

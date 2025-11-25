@@ -301,13 +301,7 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 		slot0.isToggleShowBg = true
 	end
 
-	slot4 = slot2:IsSpine() or slot2:IsLive2d()
-
-	if LOCK_SKIN_SHOP_ANIM_PREVIEW == "all" or LOCK_SKIN_SHOP_ANIM_PREVIEW and table.contains(LOCK_SKIN_SHOP_ANIM_PREVIEW, slot2.id) then
-		slot4 = false
-	end
-
-	if slot4 and PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1 then
+	if (slot2:IsSpine() or slot2:IsLive2d()) and PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1 then
 		slot0.isToggleDynamic = true
 	end
 
