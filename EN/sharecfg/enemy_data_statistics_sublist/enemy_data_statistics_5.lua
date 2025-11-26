@@ -16,7 +16,7 @@ pg.enemy_data_statistics_5 = {
 		icon = "sisinai_jianzhuang",
 		star = 0,
 		antisub_growth = 5000,
-		air_growth = 0,
+		air_growth = 5000,
 		battle_unit_type = 49,
 		antisub = 0,
 		durability = 0,
@@ -125,7 +125,7 @@ pg.enemy_data_statistics_5 = {
 		}
 	},
 	[50142] = {
-		air_growth = 0,
+		air_growth = 5500,
 		name = "四糸乃",
 		luck_growth = 10000,
 		cannon_growth = 5500,
@@ -149,7 +149,7 @@ pg.enemy_data_statistics_5 = {
 		}
 	},
 	[50143] = {
-		air_growth = 0,
+		air_growth = 6100,
 		name = "四糸乃",
 		luck_growth = 10000,
 		cannon_growth = 6100,
@@ -173,7 +173,7 @@ pg.enemy_data_statistics_5 = {
 		}
 	},
 	[50144] = {
-		air_growth = 0,
+		air_growth = 6650,
 		name = "四糸乃",
 		luck_growth = 10000,
 		cannon_growth = 6650,
@@ -197,7 +197,7 @@ pg.enemy_data_statistics_5 = {
 		}
 	},
 	[50145] = {
-		air_growth = 0,
+		air_growth = 7200,
 		name = "四糸乃",
 		luck_growth = 10000,
 		cannon_growth = 7200,
@@ -221,7 +221,7 @@ pg.enemy_data_statistics_5 = {
 		}
 	},
 	[50146] = {
-		air_growth = 0,
+		air_growth = 7750,
 		name = "四糸乃",
 		luck_growth = 10000,
 		cannon_growth = 7750,
@@ -245,7 +245,7 @@ pg.enemy_data_statistics_5 = {
 		}
 	},
 	[50147] = {
-		air_growth = 0,
+		air_growth = 8300,
 		name = "四糸乃",
 		luck_growth = 10000,
 		cannon_growth = 8300,
@@ -269,7 +269,7 @@ pg.enemy_data_statistics_5 = {
 		}
 	},
 	[50148] = {
-		air_growth = 0,
+		air_growth = 8850,
 		name = "四糸乃",
 		luck_growth = 10000,
 		cannon_growth = 8850,
@@ -293,7 +293,7 @@ pg.enemy_data_statistics_5 = {
 		}
 	},
 	[50149] = {
-		air_growth = 0,
+		air_growth = 9400,
 		name = "四糸乃",
 		luck_growth = 10000,
 		cannon_growth = 9400,
@@ -317,7 +317,7 @@ pg.enemy_data_statistics_5 = {
 		}
 	},
 	[50150] = {
-		air_growth = 0,
+		air_growth = 10000,
 		name = "四糸乃",
 		luck_growth = 10000,
 		cannon_growth = 10000,

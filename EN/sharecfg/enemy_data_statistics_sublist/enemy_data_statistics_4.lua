@@ -613,7 +613,7 @@ pg.enemy_data_statistics_4 = {
 		icon = "sisinai_jianzhuang",
 		star = 0,
 		antisub_growth = 5000,
-		air_growth = 0,
+		air_growth = 5000,
 		battle_unit_type = 49,
 		antisub = 0,
 		durability = 0,
@@ -722,7 +722,7 @@ pg.enemy_data_statistics_4 = {
 		}
 	},
 	[50132] = {
-		air_growth = 0,
+		air_growth = 5500,
 		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 5500,
@@ -746,7 +746,7 @@ pg.enemy_data_statistics_4 = {
 		}
 	},
 	[50133] = {
-		air_growth = 0,
+		air_growth = 6100,
 		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 6100,
@@ -770,7 +770,7 @@ pg.enemy_data_statistics_4 = {
 		}
 	},
 	[50134] = {
-		air_growth = 0,
+		air_growth = 6650,
 		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 6650,
@@ -794,7 +794,7 @@ pg.enemy_data_statistics_4 = {
 		}
 	},
 	[50135] = {
-		air_growth = 0,
+		air_growth = 7200,
 		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 7200,
@@ -818,7 +818,7 @@ pg.enemy_data_statistics_4 = {
 		}
 	},
 	[50136] = {
-		air_growth = 0,
+		air_growth = 7750,
 		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 7750,
@@ -842,7 +842,7 @@ pg.enemy_data_statistics_4 = {
 		}
 	},
 	[50137] = {
-		air_growth = 0,
+		air_growth = 8300,
 		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 8300,
@@ -866,7 +866,7 @@ pg.enemy_data_statistics_4 = {
 		}
 	},
 	[50138] = {
-		air_growth = 0,
+		air_growth = 8850,
 		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 8850,
@@ -890,7 +890,7 @@ pg.enemy_data_statistics_4 = {
 		}
 	},
 	[50139] = {
-		air_growth = 0,
+		air_growth = 9400,
 		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 9400,
@@ -914,7 +914,7 @@ pg.enemy_data_statistics_4 = {
 		}
 	},
 	[50140] = {
-		air_growth = 0,
+		air_growth = 10000,
 		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 10000,
