@@ -14,6 +14,7 @@ slot0.GetLive2DModelAsync = function(slot0, slot1, slot2)
 
 	PoolMgr.GetInstance():GetLive2D(slot1, true, function (slot0)
 		if uv0.loadingDic[uv1] ~= uv2 then
+			warning("l2d loaded dispose return  " .. uv1)
 			PoolMgr.GetInstance():ReturnLive2D(uv1, slot0)
 		end
 

@@ -196,7 +196,12 @@ return {
 		uv0:callSdkApi("bindCpu", nil)
 	end,
 	SwitchAccount = function ()
-		uv0:SwitchAccount()
+		slot0 = uv0
+
+		slot0:LocalLogout()
+		onDelayTick(function ()
+			uv0:Login()
+		end, 0.1)
 	end,
 	EventTrack = function (slot0)
 		uv0:SDK_EvtTrack(slot0)

@@ -104,15 +104,15 @@ slot0.RegisterEvent = function(slot0)
 		if uv0.spineChar then
 			if slot1 then
 				if pg.ship_skin_template[uv0.skinId].purchase_offset and #slot2 >= 3 then
-					uv0.spineChar.localPosition = Vector3(slot2[1], slot2[2], slot2[3])
+					uv0.spineChar:SetLocalPosition(Vector3(slot2[1], slot2[2], slot2[3]))
 				end
 
 				if slot2 and #slot2 >= 4 then
-					uv0.spineChar.localScale = Vector3(slot2[4], slot2[4], slot2[4])
+					uv0.spineChar:SetLocalScale(Vector3(slot2[4], slot2[4], slot2[4]))
 				end
 			else
-				uv0.spineChar.localScale = Vector3(0.9, 0.9, 1)
-				uv0.spineChar.localPosition = Vector3(0, 0, 0)
+				uv0.spineChar:SetLocalPosition(Vector3(0, 0, 0))
+				uv0.spineChar:SetLocalScale(Vector3(0.9, 0.9, 1))
 			end
 		end
 	end)
@@ -301,13 +301,7 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 		slot0.isToggleShowBg = true
 	end
 
-	slot4 = slot2:IsSpine() or slot2:IsLive2d()
-
-	if LOCK_SKIN_SHOP_ANIM_PREVIEW == "all" or LOCK_SKIN_SHOP_ANIM_PREVIEW and table.contains(LOCK_SKIN_SHOP_ANIM_PREVIEW, slot2.id) then
-		slot4 = false
-	end
-
-	if slot4 and PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1 then
+	if (slot2:IsSpine() or slot2:IsLive2d()) and PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1 then
 		slot0.isToggleDynamic = true
 	end
 
@@ -838,13 +832,13 @@ slot0.FlushObtainBtn = function(slot0, slot1)
 	onButton(slot0, slot0.obtainBtn, function ()
 		slot0 = {}
 
-		if SkinCouponActivity.StaticEncoreActTip(uv0.id) then
+		if tobool(SkinCouponActivity.StaticEncoreActTip(uv0.id)) then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("SkinDiscount_Hint"),
 					onYes = function ()
-						if SkinCouponActivity.GetSkinCouponEncoreAct(uv0.id) then
-							uv1:emit(NewSkinShopMediator.OPEN_ACTIVITY, slot0.id)
+						if uv0 and not uv0:isEnd() then
+							uv1:emit(NewSkinShopMediator.OPEN_ACTIVITY, uv0.id)
 						end
 					end,
 					onNo = function ()
@@ -1053,23 +1047,26 @@ slot0.FlushChar = function(slot0, slot1, slot2)
 
 	slot0:ReturnChar()
 
-	slot3 = PoolMgr.GetInstance()
+	slot0.spineChar = SpineAnimChar.New()
+	slot3 = slot0.spineChar
 
-	slot3:GetSpineChar(slot1, true, function (slot0)
-		uv0.spineChar = tf(slot0)
+	slot3:SetPaint(slot1)
+
+	slot3 = slot0.spineChar
+
+	slot3:Load(true, function (slot0)
 		uv0.prefabName = uv1
 
 		if pg.skinshop_spine_scale[uv2] then
-			uv0.spineChar.localScale = Vector3(slot1.skinshop_scale, slot1.skinshop_scale, 1)
+			uv0.spineChar:SetLocalScale(Vector3(slot1.skinshop_scale, slot1.skinshop_scale, 1))
 		else
-			uv0.spineChar.localScale = Vector3(0.9, 0.9, 1)
+			uv0.spineChar:SetLocalScale(Vector3(0.9, 0.9, 1))
 		end
 
-		uv0.spineChar.localPosition = Vector3(0, 0, 0)
-
-		pg.ViewUtils.SetLayer(uv0.spineChar, Layer.UI)
-		setParent(uv0.spineChar, uv0.charTf)
-		slot0:GetComponent("SpineAnimUI"):SetAction("normal", 0)
+		uv0.spineChar:SetLocalPosition(Vector3(0, 0, 0))
+		uv0.spineChar:SetLayer(Layer.UI)
+		uv0.spineChar:SetParent(uv0.charTf)
+		uv0.spineChar:SetAction("normal", 0)
 	end)
 end
 
@@ -1131,9 +1128,8 @@ slot0.ClearTimer = function(slot0)
 end
 
 slot0.ReturnChar = function(slot0)
-	if not IsNil(slot0.spineChar) then
-		slot0.spineChar.gameObject:GetComponent("SpineAnimUI"):SetActionCallBack(nil)
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0.spineChar.gameObject)
+	if slot0.spineChar then
+		slot0.spineChar:Dispose()
 
 		slot0.spineChar = nil
 		slot0.prefabName = nil

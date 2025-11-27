@@ -1914,7 +1914,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 576
+		key_value = 586
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -4008,6 +4008,24 @@ pg.gameset = {
 				9,
 				"Live 2d+"
 			}
+		}
+	},
+	payshop_pack_red_dot = {
+		key_value = 20251113,
+		description = {
+			{
+				60697
+			},
+			{}
+		}
+	},
+	gemshop_pack_red_dot = {
+		key_value = 20251113,
+		description = {
+			{
+				60697
+			},
+			{}
 		}
 	}
 }

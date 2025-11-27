@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50213
+			50222
 		}
 	},
 	{
@@ -37,17 +37,19 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
-		param = "0",
 		name = "event_map",
 		text_pic = "text_event_map",
-		type = 0,
+		type = 2,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
 		order = 1,
 		time = {
 			"default",
-			50213
+			50256
+		},
+		param = {
+			"bossrush dal collab"
 		}
 	},
 	[11] = {
@@ -305,7 +307,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "SailingShip3CoreActivityUI",
+		param = "DALCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -315,21 +317,21 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50205
+			50256
 		}
 	},
 	[110] = {
-		param = "ALYCoreActivityUI",
+		param = "PSSCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_yumia",
+		text_pic = "text_event_core2",
 		type = 16,
-		pic = "event_yumia",
+		pic = "event_core2",
 		id = 110,
 		group_id = 2,
 		order = 2,
 		time = {
 			"default",
-			50058
+			50234
 		}
 	},
 	[111] = {

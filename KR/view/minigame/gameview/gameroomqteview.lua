@@ -639,17 +639,16 @@ slot0.initXGM = function(slot0)
 end
 
 slot0.loadGuinu = function(slot0, slot1)
-	if slot0.guinu then
+	if slot0.guinuChar then
 		slot1()
 	else
 		slot2 = slot0.autoLoader
 
 		slot2:GetSpine("guinu_2", function (slot0)
-			uv0.guinu = tf(slot0)
-			uv0.guinuSpine = uv0.guinu:GetComponent("SpineAnimUI")
-			uv0.guinuSklGraphic = uv0.guinu:GetComponent("SkeletonGraphic")
+			uv0.guinuChar = slot0
+			uv0.guinuSklGraphic = slot0:GetSkeletonGraphic()
 
-			setParent(uv0.guinu, uv0.guinuPos, false)
+			uv0.guinuChar:SetParent(uv0.guinuPos)
 			uv0:initGuinu()
 			uv1()
 		end)
@@ -657,11 +656,12 @@ slot0.loadGuinu = function(slot0, slot1)
 end
 
 slot0.initGuinu = function(slot0)
-	slot0.guinu.localScale = Vector3.one
+	slot1 = slot0.guinuChar
 
+	slot1:SetLocalScale(Vector3.one)
 	slot0:setGuinuAction("normal")
 
-	slot1 = slot0.guinuSpine
+	slot1 = slot0.guinuChar
 
 	slot1:SetActionCallBack(function (slot0)
 		if slot0 == "finish" then
@@ -681,13 +681,13 @@ slot0.setXgmAction = function(slot0, slot1)
 end
 
 slot0.setGuinuAction = function(slot0, slot1)
-	if not slot0.guinu then
+	if not slot0.guinuChar then
 		return
 	end
 
 	slot0.guinuSklGraphic.timeScale = slot0.guinuAnimLength[slot1] / slot0.guinuAnimTargetLength[slot1]
 
-	slot0.guinuSpine:SetAction(slot1, 0)
+	slot0.guinuChar:SetAction(slot1, 0)
 end
 
 slot0.setBucketAAction = function(slot0, slot1)
@@ -971,8 +971,7 @@ slot0.willExit = function(slot0)
 	slot0.xgm = nil
 	slot0.xgmSpine = nil
 	slot0.xgmSklGraphic = nil
-	slot0.guinu = nil
-	slot0.guinuSpine = nil
+	slot0.guinuChar = nil
 	slot0.guinuSklGraphic = nil
 
 	slot0.autoLoader:Clear()

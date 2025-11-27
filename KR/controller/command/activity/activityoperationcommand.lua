@@ -39,8 +39,18 @@ slot0.execute = function(slot0, slot1)
 				return
 			end
 		end
-	elseif slot4 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 and slot2.cmd == 2 and not slot3:CanRequest() then
-		return
+	elseif slot4 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
+		if slot2.cmd == 2 and not slot3:CanRequest() then
+			return
+		end
+	elseif slot4 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+		slot5 = slot2.costDrop
+
+		if slot5:getOwnedCount() < slot5.count then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+
+			return
+		end
 	end
 
 	slot5 = pg.ConnectionMgr.GetInstance()
@@ -73,6 +83,10 @@ slot0.execute = function(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips("错误!:" .. slot0.result)
 			elseif uv3 == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("activity_op_error", slot0.result))
+			elseif uv3 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
+				if uv2:getConfig("config_client").resource_ID == BossRushDALUpgradeView.RES_ID then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("DAL_upgrade_not_enough"))
+				end
 			elseif slot0.result == 3 or slot0.result == 4 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 			else
@@ -625,6 +639,12 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 		elseif slot1.cmd == 2 then
 			slot3:updateKVPList(1, slot1.arg1, slot1.canGetIndex)
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+		assert(slot3.data1 == 0)
+
+		slot3.data1 = 1
+
+		reducePlayerOwn(slot1.costDrop)
 	end
 
 	return slot3
@@ -734,6 +754,9 @@ slot0.performance = function(slot0, slot1, slot2, slot3, slot4)
 			if uv1:getConfig("config_client").ActID and slot2:getActivityById(slot3) then
 				slot2:updateActivity(slot4)
 			end
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+			getProxy(ActivityProxy):updateActivity(uv1)
+			uv3:sendNotification(NewShopMainMediator.NOTI_UPDATE_CURRENT)
 		end
 
 		if #uv5 > 0 then

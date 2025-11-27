@@ -33923,3 +33923,979 @@ _G.pg.base.spweapon_data_statistics[14750] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[14760] = {
+	attribute_1 = "cannon",
+	name = "산달폰",
+	type = 4,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 115040,
+	value_2_random = 0,
+	effect_id = 115040,
+	attribute_2 = "dodge",
+	next = 14761,
+	upgrade_id = 10001,
+	value_2 = 1,
+	icon = "14760",
+	value_1 = 20,
+	level = 1,
+	descrip = "야토가미 토카 전용 특수 장비",
+	uncraftable = 1,
+	unique = 1150001,
+	important = 2,
+	prev = 0,
+	id = 14760,
+	usability = {
+		3
+	},
+	skill_upgrade = {
+		{
+			0,
+			115030
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14761] = {
+	upgrade_id = 10002,
+	prev = 14760,
+	next = 14762,
+	base = 14760,
+	id = 14761,
+	value_2 = 1,
+	value_1 = 21,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14762] = {
+	upgrade_id = 10003,
+	prev = 14761,
+	next = 14763,
+	base = 14760,
+	id = 14762,
+	value_2 = 2,
+	value_1 = 22,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14763] = {
+	upgrade_id = 10004,
+	prev = 14762,
+	next = 14764,
+	base = 14760,
+	id = 14763,
+	value_2 = 3,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14764] = {
+	upgrade_id = 10005,
+	prev = 14763,
+	next = 14765,
+	base = 14760,
+	id = 14764,
+	value_2 = 4,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14765] = {
+	upgrade_id = 10006,
+	prev = 14764,
+	next = 14766,
+	base = 14760,
+	id = 14765,
+	value_2 = 5,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14766] = {
+	upgrade_id = 10007,
+	prev = 14765,
+	next = 14767,
+	base = 14760,
+	id = 14766,
+	value_2 = 6,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14767] = {
+	upgrade_id = 10008,
+	prev = 14766,
+	next = 14768,
+	base = 14760,
+	id = 14767,
+	value_2 = 7,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14768] = {
+	upgrade_id = 10009,
+	prev = 14767,
+	next = 14769,
+	base = 14760,
+	id = 14768,
+	value_2 = 8,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14769] = {
+	upgrade_id = 10010,
+	prev = 14768,
+	next = 14770,
+	base = 14760,
+	id = 14769,
+	value_2 = 9,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14770] = {
+	id = 14770,
+	upgrade_id = 10011,
+	base = 14760,
+	next = 0,
+	prev = 14769,
+	value_2 = 10,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			115010,
+			115030
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14780] = {
+	attribute_1 = "cannon",
+	name = "카마엘",
+	type = 6,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 115080,
+	value_2_random = 0,
+	effect_id = 115080,
+	attribute_2 = "reload",
+	next = 14781,
+	upgrade_id = 10001,
+	value_2 = 6,
+	icon = "14780",
+	value_1 = 20,
+	level = 1,
+	descrip = "이츠카 코토리의 전용 특수 장비",
+	uncraftable = 1,
+	unique = 1150003,
+	important = 2,
+	prev = 0,
+	id = 14780,
+	usability = {
+		5
+	},
+	skill_upgrade = {
+		{
+			0,
+			115070
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14781] = {
+	upgrade_id = 10002,
+	prev = 14780,
+	next = 14782,
+	base = 14780,
+	id = 14781,
+	value_2 = 6,
+	value_1 = 21,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14782] = {
+	upgrade_id = 10003,
+	prev = 14781,
+	next = 14783,
+	base = 14780,
+	id = 14782,
+	value_2 = 7,
+	value_1 = 22,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14783] = {
+	upgrade_id = 10004,
+	prev = 14782,
+	next = 14784,
+	base = 14780,
+	id = 14783,
+	value_2 = 8,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14784] = {
+	upgrade_id = 10005,
+	prev = 14783,
+	next = 14785,
+	base = 14780,
+	id = 14784,
+	value_2 = 9,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14785] = {
+	upgrade_id = 10006,
+	prev = 14784,
+	next = 14786,
+	base = 14780,
+	id = 14785,
+	value_2 = 10,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14786] = {
+	upgrade_id = 10007,
+	prev = 14785,
+	next = 14787,
+	base = 14780,
+	id = 14786,
+	value_2 = 11,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14787] = {
+	upgrade_id = 10008,
+	prev = 14786,
+	next = 14788,
+	base = 14780,
+	id = 14787,
+	value_2 = 12,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14788] = {
+	upgrade_id = 10009,
+	prev = 14787,
+	next = 14789,
+	base = 14780,
+	id = 14788,
+	value_2 = 13,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14789] = {
+	upgrade_id = 10010,
+	prev = 14788,
+	next = 14790,
+	base = 14780,
+	id = 14789,
+	value_2 = 14,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14790] = {
+	id = 14790,
+	upgrade_id = 10011,
+	base = 14780,
+	next = 0,
+	prev = 14789,
+	value_2 = 15,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			115060,
+			115070
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14800] = {
+	attribute_1 = "air",
+	name = "메타트론",
+	type = 7,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 115260,
+	value_2_random = 0,
+	effect_id = 115260,
+	attribute_2 = "dodge",
+	next = 14801,
+	upgrade_id = 10001,
+	value_2 = 14,
+	icon = "14800",
+	value_1 = 27,
+	level = 1,
+	descrip = "토비이치 오리가미의 전용 특수 장비",
+	uncraftable = 1,
+	unique = 1150002,
+	important = 2,
+	prev = 0,
+	id = 14800,
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			115250
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14801] = {
+	upgrade_id = 10002,
+	prev = 14800,
+	next = 14802,
+	base = 14800,
+	id = 14801,
+	value_2 = 15,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14802] = {
+	upgrade_id = 10003,
+	prev = 14801,
+	next = 14803,
+	base = 14800,
+	id = 14802,
+	value_2 = 15,
+	value_1 = 28,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14803] = {
+	upgrade_id = 10004,
+	prev = 14802,
+	next = 14804,
+	base = 14800,
+	id = 14803,
+	value_2 = 16,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14804] = {
+	upgrade_id = 10005,
+	prev = 14803,
+	next = 14805,
+	base = 14800,
+	id = 14804,
+	value_2 = 16,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14805] = {
+	upgrade_id = 10006,
+	prev = 14804,
+	next = 14806,
+	base = 14800,
+	id = 14805,
+	value_2 = 17,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14806] = {
+	upgrade_id = 10007,
+	prev = 14805,
+	next = 14807,
+	base = 14800,
+	id = 14806,
+	value_2 = 17,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14807] = {
+	upgrade_id = 10008,
+	prev = 14806,
+	next = 14808,
+	base = 14800,
+	id = 14807,
+	value_2 = 18,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14808] = {
+	upgrade_id = 10009,
+	prev = 14807,
+	next = 14809,
+	base = 14800,
+	id = 14808,
+	value_2 = 18,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14809] = {
+	upgrade_id = 10010,
+	prev = 14808,
+	next = 14810,
+	base = 14800,
+	id = 14809,
+	value_2 = 19,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14810] = {
+	id = 14810,
+	upgrade_id = 10011,
+	base = 14800,
+	next = 0,
+	prev = 14809,
+	value_2 = 20,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			115180,
+			115250
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14820] = {
+	attribute_1 = "cannon",
+	name = "자프키엘",
+	type = 2,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 115130,
+	value_2_random = 0,
+	effect_id = 115130,
+	attribute_2 = "hit",
+	next = 14821,
+	upgrade_id = 10001,
+	value_2 = 5,
+	icon = "14820",
+	value_1 = 25,
+	level = 1,
+	descrip = "토키사키 쿠루미의 전용 특수 장비",
+	uncraftable = 1,
+	unique = 1150005,
+	important = 2,
+	prev = 0,
+	id = 14820,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			115160
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14821] = {
+	upgrade_id = 10002,
+	prev = 14820,
+	next = 14822,
+	base = 14820,
+	id = 14821,
+	value_2 = 6,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14822] = {
+	upgrade_id = 10003,
+	prev = 14821,
+	next = 14823,
+	base = 14820,
+	id = 14822,
+	value_2 = 7,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14823] = {
+	upgrade_id = 10004,
+	prev = 14822,
+	next = 14824,
+	base = 14820,
+	id = 14823,
+	value_2 = 8,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14824] = {
+	upgrade_id = 10005,
+	prev = 14823,
+	next = 14825,
+	base = 14820,
+	id = 14824,
+	value_2 = 9,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14825] = {
+	upgrade_id = 10006,
+	prev = 14824,
+	next = 14826,
+	base = 14820,
+	id = 14825,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14826] = {
+	upgrade_id = 10007,
+	prev = 14825,
+	next = 14827,
+	base = 14820,
+	id = 14826,
+	value_2 = 11,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14827] = {
+	upgrade_id = 10008,
+	prev = 14826,
+	next = 14828,
+	base = 14820,
+	id = 14827,
+	value_2 = 12,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14828] = {
+	upgrade_id = 10009,
+	prev = 14827,
+	next = 14829,
+	base = 14820,
+	id = 14828,
+	value_2 = 13,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14829] = {
+	upgrade_id = 10010,
+	prev = 14828,
+	next = 14830,
+	base = 14820,
+	id = 14829,
+	value_2 = 14,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14830] = {
+	id = 14830,
+	upgrade_id = 10011,
+	base = 14820,
+	next = 0,
+	prev = 14829,
+	value_2 = 15,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			115150,
+			115160
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14840] = {
+	attribute_1 = "air",
+	name = "자드키엘",
+	type = 7,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 115230,
+	value_2_random = 0,
+	effect_id = 115230,
+	attribute_2 = "reload",
+	next = 14841,
+	upgrade_id = 10001,
+	value_2 = 9,
+	icon = "14840",
+	value_1 = 32,
+	level = 1,
+	descrip = "요시노 전용 특수 장비",
+	uncraftable = 1,
+	unique = 1150004,
+	important = 2,
+	prev = 0,
+	id = 14840,
+	usability = {
+		6
+	},
+	skill_upgrade = {
+		{
+			0,
+			115210
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14841] = {
+	upgrade_id = 10002,
+	prev = 14840,
+	next = 14842,
+	base = 14840,
+	id = 14841,
+	value_2 = 10,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14842] = {
+	upgrade_id = 10003,
+	prev = 14841,
+	next = 14843,
+	base = 14840,
+	id = 14842,
+	value_2 = 10,
+	value_1 = 33,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14843] = {
+	upgrade_id = 10004,
+	prev = 14842,
+	next = 14844,
+	base = 14840,
+	id = 14843,
+	value_2 = 11,
+	value_1 = 33,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14844] = {
+	upgrade_id = 10005,
+	prev = 14843,
+	next = 14845,
+	base = 14840,
+	id = 14844,
+	value_2 = 11,
+	value_1 = 34,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14845] = {
+	upgrade_id = 10006,
+	prev = 14844,
+	next = 14846,
+	base = 14840,
+	id = 14845,
+	value_2 = 12,
+	value_1 = 35,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14846] = {
+	upgrade_id = 10007,
+	prev = 14845,
+	next = 14847,
+	base = 14840,
+	id = 14846,
+	value_2 = 12,
+	value_1 = 36,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14847] = {
+	upgrade_id = 10008,
+	prev = 14846,
+	next = 14848,
+	base = 14840,
+	id = 14847,
+	value_2 = 13,
+	value_1 = 37,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14848] = {
+	upgrade_id = 10009,
+	prev = 14847,
+	next = 14849,
+	base = 14840,
+	id = 14848,
+	value_2 = 13,
+	value_1 = 38,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14849] = {
+	upgrade_id = 10010,
+	prev = 14848,
+	next = 14850,
+	base = 14840,
+	id = 14849,
+	value_2 = 14,
+	value_1 = 39,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14850] = {
+	id = 14850,
+	upgrade_id = 10011,
+	base = 14840,
+	next = 0,
+	prev = 14849,
+	value_2 = 15,
+	value_1 = 40,
+	level = 11,
+	skill_upgrade = {
+		{
+			115200,
+			115210
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14860] = {
+	attribute_1 = "cannon",
+	name = "라파엘",
+	type = 2,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 115120,
+	value_2_random = 0,
+	effect_id = 115120,
+	attribute_2 = "hit",
+	next = 14861,
+	upgrade_id = 10001,
+	value_2 = 5,
+	icon = "14860",
+	value_1 = 25,
+	level = 1,
+	descrip = "야마이 카구야·야마이 유즈루의 전용 특수 장비",
+	uncraftable = 1,
+	unique = 1150006,
+	important = 2,
+	prev = 0,
+	id = 14860,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			115110
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14861] = {
+	upgrade_id = 10002,
+	prev = 14860,
+	next = 14862,
+	base = 14860,
+	id = 14861,
+	value_2 = 6,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14862] = {
+	upgrade_id = 10003,
+	prev = 14861,
+	next = 14863,
+	base = 14860,
+	id = 14862,
+	value_2 = 7,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14863] = {
+	upgrade_id = 10004,
+	prev = 14862,
+	next = 14864,
+	base = 14860,
+	id = 14863,
+	value_2 = 8,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14864] = {
+	upgrade_id = 10005,
+	prev = 14863,
+	next = 14865,
+	base = 14860,
+	id = 14864,
+	value_2 = 9,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14865] = {
+	upgrade_id = 10006,
+	prev = 14864,
+	next = 14866,
+	base = 14860,
+	id = 14865,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14866] = {
+	upgrade_id = 10007,
+	prev = 14865,
+	next = 14867,
+	base = 14860,
+	id = 14866,
+	value_2 = 11,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14867] = {
+	upgrade_id = 10008,
+	prev = 14866,
+	next = 14868,
+	base = 14860,
+	id = 14867,
+	value_2 = 12,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14868] = {
+	upgrade_id = 10009,
+	prev = 14867,
+	next = 14869,
+	base = 14860,
+	id = 14868,
+	value_2 = 13,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14869] = {
+	upgrade_id = 10010,
+	prev = 14868,
+	next = 14870,
+	base = 14860,
+	id = 14869,
+	value_2 = 14,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14870] = {
+	id = 14870,
+	upgrade_id = 10011,
+	base = 14860,
+	next = 0,
+	prev = 14869,
+	value_2 = 15,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			115090,
+			115110
+		}
+	}
+}

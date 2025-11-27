@@ -148,6 +148,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[111] = {
+		name = "그림자극",
+		key = "SkinNormal_20251120",
+		display_icon = "ui_111",
+		unlock = "월드 투어 26기 보상",
+		is_unlock = 1,
+		rare = 3,
+		desc = "단순해 보이는 장치로 끝없는 환상을 그려내며, 짧은 이야기로 멋들어진 희망을 선사한다.",
+		id = 111,
+		icon = "111",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "크리스마스",
 		key = "SkinNormal_20241209",
@@ -244,6 +259,7 @@ pg.item_data_battleui = {
 		107,
 		108,
 		109,
+		111,
 		201,
 		202,
 		203,

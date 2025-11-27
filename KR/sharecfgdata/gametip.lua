@@ -6796,6 +6796,11 @@ _G.pg.base.gametip.word_shipNation_danmachi = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_dal = {
+	tip = "Date A Live"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "초기화"
 }
@@ -12522,7 +12527,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「클레망소」, 「기샹」 등의 등장 확률 UP!"
+	tip = "「야토가미 토카」, 「이츠카 코토리」 등의 등장 확률 UP!"
 }
 
 
@@ -44980,4 +44985,276 @@ _G.pg.base.gametip.island_urgent_notice = {
  　한 번 획득하거나 완료하면 시즌 초기화와 상관없이 영원히 오픈·보유할 수 있는 콘텐츠: 개발 자금, 아일랜드 개발 레벨, 아일랜드 캐릭터 가입 및 육성 상황, 구매 및 획득 완료 가구/스킨/배치 오브젝트, 아일랜드 기술 연구(완료한 연구, 연구 진행도), 가게 레벨, 메인 개발 계획, 실적 등은 초기화되지 않습니다. ]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2512 = {
+	tip = "2025/12/8 ~ 2026/2/7 이벤트 기간 중에 월드 투어 <icon name=pt w=0.5 h=0.5/>획득 합계 보상으로 <color=#854747>「보이시·META」</color> 등 획득 가능"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2512 = {
+	tip = {
+		{
+			info = [[
+■ 이벤트 진행 기간
+ 2025.12.8(월) ~ 2026.2.7(토) 23:59
+
+■ 개요
+「월드 투어」란, 이벤트 진행 중에 임무를 클리어하고 「투어 PT」를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
+또한, 기본 투어 보상에는 추가적으로 「특허 투어 보상」이 존재하며, 상점 아이템 「특허 투어 패스」를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
+기본 투어 보상으로는 함선 「보이시·META」, 특허 투어 보상으로는 잠수함 「이13」의 한정 스킨인 「방과 후의 관찰 숙제」를 획득할 수 있습니다. 
+
+■플레이 방법
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+・상기 「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+ 또한 「특허 투어 패스」를 구매하면, 15단계 분량의 보상(투어 PT 1,500)을 획득할 수 있습니다. 
+・「투어 PT」의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
+ ①기본 투어 보상
+ 「투어 PT」의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
+ ②특허 투어 보상
+ 「특허 투어 패스」를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
+・이벤트가 종료되면 획득한 투어 PT는 초기화됩니다. 
+
+■Tips
+・플레이 스타일
+　월드 투어에는 총 100단계가 있으며, 단숨에 마지막 단계까지 클리어할 수 없도록 만들어져 있습니다. 평소대로 퀘스트를 클리어하면서 임무를 처리하거나, 원하는 보상을 정해 신속하게 클리어하는 등, 자신의 플레이 스타일에 따라 즐기는 것을 추천합니다. 
+
+・특허 투어 패스
+ 상점에서 「특허 투어 패스」를 구매하면, 특별한 아이템과 함께 「투어 PT」를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 「특허 투어 패스」 구매로 오픈되는 「특허 투어 보상」으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
+
+・임무 스킵(권장하지 않습니다)
+ 「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다. 
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2512 = {
+	tip = {
+		{
+			info = [[
+■ 월드 투어에 대해
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+
+・「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+
+・「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다……
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2512 = {
+	tip = "월드 투어·26기"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_data = {
+	tip = "해역 정보"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_support = {
+	tip = "공중 지원"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_commander = {
+	tip = "지휘 시스템"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_analysis_2 = {
+	tip = "분석 완료"
+}
+
+
+_G.pg.base.gametip.DAL_stage_label_analysis_1 = {
+	tip = "분석 중"
+}
+
+
+_G.pg.base.gametip.DAL_stage_finish_at = {
+	tip = "완료:"
+}
+
+
+_G.pg.base.gametip.activity_remain_time = {
+	tip = "이벤트 남은 시간"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet1 = {
+	tip = "목록"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet2 = {
+	tip = "합계 Pt"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet3 = {
+	tip = "나이트메어 광상곡"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet4 = {
+	tip = "일상편"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet5 = {
+	tip = "보상 목록"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_ship = {
+	tip = "비공함 강화"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_active = {
+	tip = "적용 중"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet1_en = {
+	tip = "Main Page"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet2_en = {
+	tip = "Milestone"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet3_en = {
+	tip = "Kurumi Event"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet4_en = {
+	tip = "Side Stories"
+}
+
+
+_G.pg.base.gametip.dal_main_sheet5_en = {
+	tip = "Reward List"
+}
+
+
+_G.pg.base.gametip.DAL_story_tip = {
+	tip = "스토리를 감상하면 한장 장비 스킨 획득 가능"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_program = {
+	tip = "비공함 강화"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_1 = {
+	tip = "AREA-1"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_2 = {
+	tip = "AREA-2"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_3 = {
+	tip = "AREA-3"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_4 = {
+	tip = "AREA-4"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_5 = {
+	tip = "AREA-5"
+}
+
+
+_G.pg.base.gametip.dal_story_tip_name_en_6 = {
+	tip = "AREA-6"
+}
+
+
+_G.pg.base.gametip.dal_story_tip1 = {
+	tip = "스토리를 감상하면\n보상 획득 가능"
+}
+
+
+_G.pg.base.gametip.dal_story_tip2 = {
+	tip = "스토리를 확인하여 획득"
+}
+
+
+_G.pg.base.gametip.dal_story_tip3 = {
+	tip = "완료됨"
+}
+
+
+_G.pg.base.gametip.dal_AwardPage_name_1 = {
+	tip = "Gear"
+}
+
+
+_G.pg.base.gametip.dal_AwardPage_name_2 = {
+	tip = "Module"
+}
+
+
+_G.pg.base.gametip.dal_chapter_goto = {
+	tip = "확인하러 가기"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_unlock = {
+	tip = "미오픈"
+}
+
+
+_G.pg.base.gametip.DAL_upgrade_not_enough = {
+	tip = "한정 임무를 클리어하여, 프락시너스 AL 강화 데이터를 입수합시다."
+}
+
+
+_G.pg.base.gametip.dal_chapter_tip = {
+	tip = [[
+콜라보 이벤트 『DATE A LANE』 이상 해역에 대해:
+1. 이벤트 기간 중 AREA1~AREA6의 총 6개 이상 해역이 출현합니다. 이상 해역을 클리어하면 이벤트 Pt 아이템 「전역 공헌」을 입수할 수 있습니다.
+이상 해역은 각각 노멀/하드 난이도가 존재하며, 난이도에 따라 입수하는 「전역 공헌」의 수가 다르고, 또한 일부 보상의 입수 확률이 다릅니다.
+2. 이상 해역에서는, 소속 서버의 모든 지휘관이 스테이지에서 누적 획득한 「전역 공헌」 수에 따라, 작전 진척도가 변동(스테이지 게이지가 감소)됩니다.
+3. 이상 해역은 처음에는 AREA1만 출현합니다. AREA1 스테이지의 게이지가 0%가 되면, AREA2~AREA5 스테이지가 개방됩니다. AREA2~AREA5 스테이지의 게이지가 전부 0%가 되면, AREA6 스테이지가 개방됩니다.
+콜라보 이벤트 참가 시 이미 이벤트 스테이지가 클리어 「완전 제압」이 되어있는 경우에도, 계속해서 해당 스테이지에 도전할 수 있습니다. 또한, 「완전 제압」된 스테이지를 1회 클리어하면 작전 진척 스토리(줄거리)가 해방되며, 다음 스테이지에 도전할 수 있게 됩니다.
+4. 이상 해역의 게이지가 0%가 되면, 이벤트에 참가한 지휘관에게 완전 제압 보상이 우편으로 배포됩니다.
+5. 스테이지의 게이지가 0%가 될 때까지 해당 스테이지를 한 번도 클리어하지 못했던 지휘관에게는, 보상을 입수할 수 있는 특수 임무가 출현합니다.
+
+<비공함 강화>
+1.이벤트 스테이지 선택 화면 오른쪽 아래의 「비공함 강화」를 탭하면, 비공함 강화 화면으로 이동할 수 있습니다.
+2.「비공함 강화」에서는, 콜라보 이벤트 임무로 입수한 「프락시너스 AL 강화 데이터」를 소비하여, 각 진영의 강화 모듈을 유효화할 수 있습니다. 모듈을 유효화하면 콜라보 스테이지에서 함대에 강화 효과가 부여됩니다.
+]]
+}
+
+
+_G.pg.base.gametip.dal_chapter_tip2 = {
+	tip = "한정 임무로 보상을 입수 가능"
 }

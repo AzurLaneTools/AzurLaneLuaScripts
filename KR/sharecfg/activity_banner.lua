@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					26
+					12,
+					10
 				},
 				{
 					23,
@@ -51,7 +51,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -62,8 +62,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					12,
@@ -74,16 +74,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50213",
-		type = 3,
+		type = 2,
 		id = 3,
 		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "DALCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -94,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					12,
@@ -112,7 +117,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 4
+				wrap = 2
 			}
 		},
 		time = {
@@ -120,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -131,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					26
+					12,
+					10
 				},
 				{
 					23,
@@ -143,16 +148,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "7503",
-		type = 3,
+		type = 2,
 		id = 5,
 		pic = "temp5",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -163,8 +173,76 @@ pg.activity_banner = {
 			{
 				{
 					2025,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2025,
 					11,
 					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"crusing"
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					18
 				},
 				{
 					12,
@@ -172,24 +250,6 @@ pg.activity_banner = {
 					0
 				}
 			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 6,
-		pic = "temp6",
-		param = {
-			"scene court yard"
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"dorm 3d select"
 		}
 	},
 	[9] = {
@@ -208,7 +268,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -219,8 +279,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					12,
@@ -253,10 +313,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -329,14 +414,12 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
+			5,
 			6,
 			7,
 			9
-		},
-		[3] = {
-			3,
-			5
 		},
 		[9] = {
 			90,

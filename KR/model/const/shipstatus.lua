@@ -401,7 +401,6 @@ slot1 = {
 		inEvent = 0
 	},
 	inActivity = {
-		isActivityNpc = 0,
 		inEvent = 0
 	},
 	inChallenge = {

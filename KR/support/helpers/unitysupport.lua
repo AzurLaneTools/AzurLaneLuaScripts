@@ -940,7 +940,7 @@ getSceneRootTFDic = function(slot0)
 end
 
 bindComponent = function(slot0, slot1)
-	if GetComponent(slot1, "ComponentBinding") == nil then
+	if tf(slot1):GetComponent(typeof(ComponentBinding)) == nil then
 		return
 	end
 

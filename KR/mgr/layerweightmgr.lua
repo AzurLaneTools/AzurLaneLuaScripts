@@ -173,6 +173,7 @@ end
 slot1.LayerSortHandler = function(slot0)
 	slot0:SortStoreUIs()
 
+	slot0.indexDic = {}
 	slot1, slot2 = nil
 	slot3 = {}
 	slot4 = false
@@ -243,6 +244,8 @@ slot1.LayerSortHandler = function(slot0)
 		end
 	end
 
+	slot0:SequentizationUIIndex()
+
 	if not slot5 then
 		uv0.UIMgr.GetInstance():SetCameraBlurLock(slot5)
 	end
@@ -270,11 +273,27 @@ slot1.LayerSortHandler = function(slot0)
 end
 
 slot1.SetSpecificParent = function(slot0, slot1, slot2, slot3)
-	SetParent(slot1, slot2, false)
-
 	if slot3 then
-		slot1:SetSiblingIndex(slot3)
+		slot0.indexDic[slot2] = slot0.indexDic[slot2] or {}
+
+		table.insert(slot0.indexDic[slot2], 1, slot1)
+	else
+		SetParent(slot1, slot2, false)
 	end
+end
+
+slot1.SequentizationUIIndex = function(slot0)
+	for slot4, slot5 in pairs(slot0.indexDic) do
+		for slot9, slot10 in ipairs(slot5) do
+			SetParent(slot10, slot4, false)
+
+			if slot10:GetSiblingIndex() ~= slot9 - 1 then
+				slot10:SetSiblingIndex(slot9 - 1)
+			end
+		end
+	end
+
+	slot0.indexDic = nil
 end
 
 slot1.GetAdaptObj = function(slot0, slot1)

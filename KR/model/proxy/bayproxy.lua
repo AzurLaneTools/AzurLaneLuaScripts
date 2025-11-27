@@ -8,7 +8,7 @@ slot0.SHIP_EQUIPMENT_REMOVED = "ship equipment removed"
 slot0.register = function(slot0)
 	slot0:on(12001, function (slot0)
 		uv0.data = {}
-		uv0.activityNpcShipIds = {}
+		uv0.activityNPCShipIds = {}
 		uv0.metaShipIDList = {}
 		uv0.equipCountDic = {}
 		uv0.equipSkinCountDic = {}
@@ -24,7 +24,7 @@ slot0.register = function(slot0)
 				uv0.data[slot6.id] = slot6
 
 				if slot6:isActivityNpc() then
-					table.insert(uv0.activityNpcShipIds, slot6.id)
+					table.insert(uv0.activityNPCShipIds, slot6.id)
 				elseif slot6:isMetaShip() and not table.contains(uv0.metaShipIDList, slot6.id) then
 					table.insert(uv0.metaShipIDList, slot6.id)
 				end
@@ -55,7 +55,7 @@ slot0.register = function(slot0)
 				uv0.data[slot6.id] = slot6
 
 				if slot6:isActivityNpc() then
-					table.insert(uv0.activityNpcShipIds, slot6.id)
+					table.insert(uv0.activityNPCShipIds, slot6.id)
 				elseif slot6:isMetaShip() and not table.contains(uv0.metaShipIDList, slot6.id) then
 					table.insert(uv0.metaShipIDList, slot6.id)
 				end
@@ -221,7 +221,7 @@ slot0.addShip = function(slot0, slot1, slot2)
 	slot0.shipHighestLevel = math.max(slot0.shipHighestLevel, slot1.level)
 
 	if slot1:isActivityNpc() then
-		table.insert(slot0.activityNpcShipIds, slot1.id)
+		table.insert(slot0.activityNPCShipIds, slot1.id)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	else
 		if slot1:isMetaShip() and not table.contains(slot0.metaShipIDList, slot1.id) then
@@ -442,6 +442,14 @@ slot0.RawGetShipById = function(slot0, slot1)
 	return slot0.data[slot1]
 end
 
+slot0.getActivityNPCShipByActId = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.activityNPCShipIds) do
+		if slot0.data[slot6].activityNpc == slot1 then
+			return slot6
+		end
+	end
+end
+
 slot0.getMetaShipByGroupId = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6:isMetaShip() and slot6.metaCharacter.id == slot1 then
@@ -478,7 +486,7 @@ slot0.updateShip = function(slot0, slot1)
 	slot0:UpdateShipEquipAndSkinCount(slot1, true)
 
 	if slot2:isActivityNpc() and not slot1:isActivityNpc() then
-		table.removebyvalue(slot0.activityNpcShipIds, slot1.id)
+		table.removebyvalue(slot0.activityNPCShipIds, slot1.id)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end
 
@@ -510,7 +518,7 @@ slot0.removeShipById = function(slot0, slot1)
 	assert(slot0.data[slot1] ~= nil, "ship should exist")
 
 	if slot2:isActivityNpc() then
-		table.removebyvalue(slot0.activityNpcShipIds, slot2.id)
+		table.removebyvalue(slot0.activityNPCShipIds, slot2.id)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end
 

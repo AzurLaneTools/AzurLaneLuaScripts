@@ -2968,6 +2968,13 @@ pg.name_code = {
 		code = "메클렌부르크",
 		nation = 0
 	},
+	[551] = {
+		name = "보이시·META",
+		type = 1,
+		id = 551,
+		code = "보이시·META",
+		nation = 0
+	},
 	[10000] = {
 		name = "제로센 52형",
 		type = 2,

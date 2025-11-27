@@ -474,14 +474,14 @@ slot0.updateStageView = function(slot0)
 
 			slot33:GetSpine(slot4.icon, function (slot0)
 				slot1 = uv0.battle_spine_size * 0.01
-				slot0.transform.localScale = Vector3(slot1, slot1, 1)
-				slot0.transform.anchoredPosition = Vector3.New(0, -150, 0)
 
-				slot0.transform:GetComponent("SpineAnimUI"):SetAction(ChapterConst.ShipIdleAction, 0)
+				slot0:SetLocalScale(Vector3(slot1, slot1, 1))
+				slot0:SetAnchoredPosition(Vector3.New(0, -150, 0))
+				slot0:SetAction(ChapterConst.ShipIdleAction, 0)
 
-				slot0.transform:GetComponent("SkeletonGraphic").raycastTarget = false
+				slot0:GetSkeletonGraphic().raycastTarget = false
 
-				setParent(slot0, uv1.bosssprite, false)
+				slot0:SetParent(uv1.bosssprite)
 			end, slot0.bosssprite)
 		end
 	end

@@ -382,6 +382,9 @@ slot3.GetResFromSkill = function(slot0, slot1, slot2, slot3)
 	if slot5.focus_duration then
 		if slot5.cutin_cover then
 			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetInstance().GetPaintingPath(slot5.cutin_cover)
+		elseif slot5.cutin_cover_DAL then
+			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetInstance().GetPaintingPath(slot5.cutin_cover_DAL)
+			slot4[#slot4 + 1] = "UI/SkillPaintingDAL"
 		elseif slot3 then
 			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetInstance().GetPaintingPath(uv0.GetPlayerShipSkinDataFromID(slot3).painting)
 		end

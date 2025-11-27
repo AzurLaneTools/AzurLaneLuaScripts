@@ -15,6 +15,7 @@ slot0.CHARGE = "LatestSkinShopMediator:CHARGE"
 slot0.OPEN_CHARGE_ITEM_PANEL = "LatestSkinShopMediator:OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_ITEM_BOX = "LatestSkinShopMediator:OPEN_CHARGE_ITEM_BOX"
 slot0.BUY_ITEM = "LatestSkinShopMediator:BUY_ITEM"
+slot0.OPEN_GIFT_ACT_LAYER = "LatestSkinShopMediator.OPEN_GIFT_ACT_LAYER"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_RECORD_ANIM_PREVIEW_BTN, function (slot0, slot1)
@@ -129,6 +130,15 @@ slot0.register = function(slot0)
 			count = slot2
 		})
 	end)
+	slot0:bind(uv0.OPEN_GIFT_ACT_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeActGiftMediator,
+			viewComponent = ChargeActGiftLayer,
+			data = {
+				actId = slot1
+			}
+		}))
+	end)
 end
 
 slot0.listNotificationInterests = function(slot0)
@@ -137,7 +147,8 @@ slot0.listNotificationInterests = function(slot0)
 		PlayerProxy.UPDATED,
 		GAME.SKIN_SHOPPIGN_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
-		GAME.BUY_FURNITURE_DONE
+		GAME.BUY_FURNITURE_DONE,
+		NewShopMainMediator.NOTI_UPDATE_CURRENT
 	}
 end
 
@@ -188,6 +199,7 @@ slot0.handleNotification = function(slot0, slot1)
 				end
 
 				slot0.viewComponent:OnShopping(slot3.id)
+				pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
 			end
 
 			return
@@ -195,6 +207,9 @@ slot0.handleNotification = function(slot0, slot1)
 
 		if slot2 == GAME.BUY_FURNITURE_DONE then
 			slot0.viewComponent:OnFurnitureUpdate(slot4[1])
+		elseif slot2 == NewShopMainMediator.NOTI_UPDATE_CURRENT then
+			slot0.viewComponent:GetAllCommodities()
+			slot0.viewComponent:Refresh(true)
 		end
 	end
 end

@@ -98,53 +98,57 @@ slot0.updateStatistics = function(slot0)
 		end
 	end)
 	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetSpineChar(slot1:getPrefab(), true, function (slot0)
+
+	slot16 = SpineAnimChar.New()
+
+	slot16:SetPaint(slot1:getPrefab())
+	slot16:Load(true, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.shipPrefab = uv1
 		uv0.shipModel = slot0
-		tf(slot0).localScale = Vector3(1, 1, 1)
 
-		slot0:GetComponent("SpineAnimUI"):SetAction("stand", 0)
-		setParent(slot0, uv0.qCharaContain)
+		slot0:SetLocalScale(Vector3(1, 1, 1))
+		slot0:SetParent(uv0.qCharaContain)
+		slot0:SetAction("stand", 0)
 	end)
 	GetSpriteFromAtlasAsync("newshipbg/bg_" .. slot1:rarity2bgPrintForGet(), "", function (slot0)
 		setImageSprite(uv0._tf, slot0, false)
 	end)
 
-	slot17, slot18, slot19 = ShipWordHelper.GetWordAndCV(slot1:getSkinId(), ShipWordHelper.WORD_TYPE_UPGRADE, nil, , slot1:getCVIntimacy())
+	slot18, slot19, slot20 = ShipWordHelper.GetWordAndCV(slot1:getSkinId(), ShipWordHelper.WORD_TYPE_UPGRADE, nil, , slot1:getCVIntimacy())
 
-	setWidgetText(slot0._chat, slot19)
+	setWidgetText(slot0._chat, slot20)
 
-	slot20.alignment = CHAT_POP_STR_LEN < #slot0._chat:Find("Text"):GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft or TextAnchor.MiddleCenter
+	slot21.alignment = CHAT_POP_STR_LEN < #slot0._chat:Find("Text"):GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft or TextAnchor.MiddleCenter
 	slot0._chat.transform.localScale = Vector3(0, 0, 1)
 	slot0.delayTId = LeanTween.delayedCall(0.6, System.Action(function ()
 		SetActive(uv0._chat, true)
 		LeanTween.scale(rtf(uv0._chat), Vector3.New(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack)
 		uv0:voice(uv1)
 	end)).id
-	slot22 = slot1
-	slot24 = slot22:isMetaShip()
+	slot23 = slot1
+	slot25 = slot23:isMetaShip()
 
-	GetSpriteFromAtlasAsync("newshipbg/bg_" .. slot22:rarity2bgPrintForGet(), "", function (slot0)
+	GetSpriteFromAtlasAsync("newshipbg/bg_" .. slot23:rarity2bgPrintForGet(), "", function (slot0)
 		setImageSprite(uv0._bg, slot0)
 	end)
 
-	if slot22:isBluePrintShip() then
+	if slot23:isBluePrintShip() then
 		if slot0.metaBg then
 			setActive(slot0.metaBg, false)
 		end
 
-		if slot0.designBg and slot0.designName ~= "raritydesign" .. slot22:getRarity() then
+		if slot0.designBg and slot0.designName ~= "raritydesign" .. slot23:getRarity() then
 			PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 
 			slot0.designBg = nil
 		end
 
 		if not slot0.designBg then
-			slot25 = PoolMgr.GetInstance()
+			slot26 = PoolMgr.GetInstance()
 
-			slot25:GetUI("raritydesign" .. slot22:getRarity(), true, function (slot0)
+			slot26:GetUI("raritydesign" .. slot23:getRarity(), true, function (slot0)
 				uv0.designBg = slot0
 				uv0.designName = "raritydesign" .. uv1:getRarity()
 
@@ -159,21 +163,21 @@ slot0.updateStatistics = function(slot0)
 		else
 			setActive(slot0.designBg, true)
 		end
-	elseif slot24 then
+	elseif slot25 then
 		if slot0.designBg then
 			setActive(slot0.designBg, false)
 		end
 
-		if slot0.metaBg and slot0.metaName ~= "raritymeta" .. slot22:getRarity() then
+		if slot0.metaBg and slot0.metaName ~= "raritymeta" .. slot23:getRarity() then
 			PoolMgr.GetInstance():ReturnUI(slot0.metaName, slot0.metaBg)
 
 			slot0.metaBg = nil
 		end
 
 		if not slot0.metaBg then
-			slot25 = PoolMgr.GetInstance()
+			slot26 = PoolMgr.GetInstance()
 
-			slot25:GetUI("raritymeta" .. slot22:getRarity(), true, function (slot0)
+			slot26:GetUI("raritymeta" .. slot23:getRarity(), true, function (slot0)
 				uv0.metaBg = slot0
 				uv0.metaName = "raritymeta" .. uv1:getRarity()
 
@@ -198,7 +202,7 @@ slot0.updateStatistics = function(slot0)
 		end
 	end
 
-	PoolMgr.GetInstance():GetUI("tupo_" .. slot22:getRarity(), true, function (slot0)
+	PoolMgr.GetInstance():GetUI("tupo_" .. slot23:getRarity(), true, function (slot0)
 		slot0.transform:SetParent(uv0._tf, false)
 
 		slot0.transform.localPosition = Vector3(1, 1, 1)
@@ -208,9 +212,9 @@ slot0.updateStatistics = function(slot0)
 		setActive(slot0, true)
 	end)
 
-	slot25 = PoolMgr.GetInstance()
+	slot26 = PoolMgr.GetInstance()
 
-	slot25:GetUI(slot22:isMetaShip() and "tupo_meta" or "tupo", true, function (slot0)
+	slot26:GetUI(slot23:isMetaShip() and "tupo_meta" or "tupo", true, function (slot0)
 		slot0.transform:SetParent(uv0._tf, false)
 
 		slot0.transform.localPosition = Vector3(1, 1, 1)
@@ -242,7 +246,7 @@ end
 
 slot0.recycleSpineChar = function(slot0)
 	if slot0.shipPrefab and slot0.shipModel then
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.shipPrefab, slot0.shipModel)
+		slot0.shipModel:Dispose()
 
 		slot0.shipPrefab = nil
 		slot0.shipModel = nil

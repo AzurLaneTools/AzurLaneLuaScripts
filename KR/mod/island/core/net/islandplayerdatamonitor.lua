@@ -28,7 +28,7 @@ slot0.register = function(slot0)
 		uv0:HandleTaskData(slot0.task_list)
 	end)
 	slot0:on(21043, function (slot0)
-		uv0:HandleRandomTaskData(slot0.task_list_random)
+		uv0:HandleRandomTaskData(slot0)
 	end)
 	slot0:on(21422, function (slot0)
 		uv0:HandleManageData(slot0)
@@ -216,7 +216,18 @@ slot0.HandleTaskData = function(slot0, slot1)
 end
 
 slot0.HandleRandomTaskData = function(slot0, slot1)
-	slot0:GetIsland():GetTaskAgency():InitFutureTasks(slot1 or {})
+	slot0:GetIsland():GetTaskAgency():InitFutureTasks(slot1.task_list_random or {})
+
+	slot2 = slot1.task_list or {}
+	slot3 = slot0:GetIsland():GetTaskAgency()
+
+	for slot7, slot8 in ipairs(slot2) do
+		slot3:AddTask(IslandTask.New(slot8))
+	end
+
+	if #slot2 > 0 then
+		slot3:TryAutoTrackTask()
+	end
 end
 
 slot0.HandleManageData = function(slot0, slot1)

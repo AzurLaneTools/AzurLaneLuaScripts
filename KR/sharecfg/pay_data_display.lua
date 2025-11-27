@@ -119,6 +119,7 @@ pg.pay_data_display = setmetatable({
 		1022,
 		1023,
 		1024,
+		1025,
 		2001,
 		2002,
 		2003,
@@ -177,6 +178,7 @@ pg.pay_data_display = setmetatable({
 		2058,
 		2059,
 		2063,
+		2064,
 		5011,
 		5012,
 		5013,
@@ -13438,6 +13440,91 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1025] = {
+		picture = "battlepass_1",
+		name = "특허 투어 패스(2025.12.8-2026.2.7)",
+		type = 0,
+		second_text = "특별 보상 해금",
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		subject = "특허 투어 패스",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 12000,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift164",
+		extra_gem = 0,
+		id = 1025,
+		airijp_id = "com.yostarjp.azurlane.seasonpass26",
+		name_display = "특허 투어 패스",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4026,
+				1500
+			},
+			{
+				8,
+				65108,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7026,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		picture = "tech1_display",
 		name = "PR함 개발 패키지(제1기)",
@@ -18428,6 +18515,124 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40070,
+				1
+			}
+		}
+	},
+	[2064] = {
+		picture = "boxSkill",
+		name = "스킬 교본 패키지",
+		type = 0,
+		second_text = "",
+		descrip = "구매하면 교과서를 대량으로 획득 가능",
+		subject = "스킬 교본 패키지",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 4400,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift163",
+		extra_gem = 0,
+		id = 2064,
+		airijp_id = "com.yostarjp.azurlane.package127",
+		name_display = "스킬 교본 패키지",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

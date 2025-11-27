@@ -343,7 +343,13 @@ slot7.ShowSkillPainting = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
 	if slot2 then
-		slot4 = slot2.cutin_cover
+		if slot2.cutin_cover then
+			slot4 = slot2.cutin_cover
+		elseif slot2.cutin_cover_DAL then
+			slot0._ui:CutInPaintingDAL(slot1:GetTemplate(), slot3, slot1:GetIFF(), slot2)
+
+			return
+		end
 	end
 
 	slot0._ui:CutInPainting(slot1:GetTemplate(), slot3, slot1:GetIFF(), slot4)

@@ -50,6 +50,8 @@ slot0.register = function(slot0)
 					uv0:InitActtivityFleet(slot6, slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE then
 					uv0:CheckDailyEventRequest(slot6)
+				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
+					uv0:InitActtivityFleet(slot6, slot5)
 				end
 
 				uv0.data[slot5.id] = slot6
@@ -122,7 +124,7 @@ slot0.register = function(slot0)
 	slot0:on(40009, function (slot0)
 		slot2 = nil
 
-		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
+		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) or uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB) then
 			slot2 = slot1:GetSeriesData()
 		end
 
@@ -639,6 +641,15 @@ slot0.updateActivity = function(slot0, slot1)
 				ptCount = slot1.data1 - slot0.data[slot1.id].data1
 			})
 		end
+	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_HEI5 then
+		slot2 = pg.black_friday_battlepass_event_pt[slot1.id].target
+
+		if slot0.data[slot1.id].data1 < slot2[#slot2] and slot1.data1 - slot0.data[slot1.id].data1 > 0 then
+			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, {
+				ptId = pg.black_friday_battlepass_event_pt[slot1.id].pt,
+				ptCount = slot1.data1 - slot0.data[slot1.id].data1
+			})
+		end
 	end
 
 	slot0.data[slot1.id] = slot1
@@ -889,6 +900,9 @@ slot0.getEnterReadyActivity = function(slot0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = function (slot0)
 			return true
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB] = function (slot0)
+			return true
 		end
 	}
 	slot2 = {}
@@ -967,7 +981,8 @@ end
 slot0.GetBossRushRuntime = function(slot0, slot1)
 	if not slot0.extraDatas[slot1] then
 		slot0.extraDatas[slot1] = {
-			record = 0
+			record = 0,
+			diff = 1
 		}
 	end
 

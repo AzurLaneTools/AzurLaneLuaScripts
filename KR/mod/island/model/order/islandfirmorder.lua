@@ -41,4 +41,12 @@ slot0.GenPtAwards = function(slot0)
 	return nil
 end
 
+slot0.GetActivityId = function(slot0)
+	return slot0:getConfig("activity_id")
+end
+
+slot0.GetGroupId = function(slot0)
+	return slot0:getConfig("group_id")
+end
+
 return slot0

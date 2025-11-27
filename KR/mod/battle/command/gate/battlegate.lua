@@ -14,6 +14,7 @@ slot0.Gates = {
 	[SYSTEM_SUB_ROUTINE] = ys.Battle.BattleGateSubRoutine,
 	[SYSTEM_BOSS_RUSH] = ys.Battle.BattleGateBossRush,
 	[SYSTEM_BOSS_RUSH_EX] = ys.Battle.BattleGateBossRushEX,
+	[SYSTEM_BOSS_RUSH_COLLABRATE] = ys.Battle.BattleGateBossRushCollabrate,
 	[SYSTEM_DUEL] = ys.Battle.BattleGateDuel,
 	[SYSTEM_ACT_BOSS] = ys.Battle.BattleGateActBoss,
 	[SYSTEM_HP_SHARE_ACT_BOSS] = ys.Battle.BattleGateHPShareActBoss,

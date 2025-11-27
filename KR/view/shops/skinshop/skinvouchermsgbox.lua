@@ -7,7 +7,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	uv0.super.OnLoaded(slot0)
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.cancelBtn = slot0._tf:Find("window/button_container/cancel")
+	slot0.confirmBtn = slot0._tf:Find("window/button_container/confirm")
+	slot0.label1 = slot0._tf:Find("window/frame/Text"):GetComponent(typeof(Text))
+	slot0.leftItemTr = slot0._tf:Find("window/frame/left")
+	slot0.nameTxt = slot0.leftItemTr:Find("name_bg/Text"):GetComponent(typeof(Text))
+
+	setText(slot0.cancelBtn:Find("pic"), i18n("msgbox_text_cancel"))
+	setText(slot0.confirmBtn:Find("pic"), i18n("msgbox_text_confirm"))
+	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("words_information"))
 	setActive(slot0.confirmBtn, false)
 
 	slot0.realPriceBtn = slot0._tf:Find("window/button_container/real_price")

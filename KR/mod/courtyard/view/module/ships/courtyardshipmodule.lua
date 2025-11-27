@@ -6,22 +6,21 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 
 	uv1.super.Ctor(slot0, slot1, slot2)
 
-	slot0.role = slot3
+	slot0._role = slot3
 end
 
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	pg.ViewUtils.SetLayer(slot0._tf, Layer.UI)
 	slot0._tf:SetParent(slot0.floor)
+	slot0._role:SetLocalPosition(Vector3(0, 25, 0))
 
-	slot0.model = slot0._tf:Find("model")
-	slot0.model.localPosition = Vector3(0, 25, 0)
 	slot0.shadow = slot0._tf:Find("shadow")
 	slot0.shadow.localPosition = Vector3(0, 25, 0)
 
 	slot0.shadow:SetAsFirstSibling()
 
-	slot0.spineAnimUI = slot0.role.model:GetComponent(typeof(SpineAnimUI))
+	slot0.spineAnimUI = slot0._role:GetSpineAnimUI()
 	slot0.clickTF = slot0._tf:Find("click")
 	slot0.chatTF = slot0._tf:Find("chat")
 	slot0.chatTF.localScale = Vector3.zero
@@ -47,15 +46,15 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.AdjustYForInteraction = function(slot0)
-	slot0.model.localPosition = Vector3(0, 0, 0)
+	slot0._role:SetLocalPosition(Vector3(0, 0, 0))
 end
 
 slot0.ResetYForInteraction = function(slot0)
-	slot0.model.localPosition = Vector3(0, 25, 0)
+	slot0._role:SetLocalPosition(Vector3(0, 25, 0))
 end
 
 slot0.GetSpine = function(slot0)
-	return slot0.spineAnimUI.gameObject.transform
+	return slot0._role:GetRoleModel()
 end
 
 slot0.AddListeners = function(slot0)
@@ -163,8 +162,8 @@ slot0.OnMove = function(slot0, slot1, slot2)
 	slot0:ClearMove()
 
 	slot4 = CourtYardCalcUtil.Map2Local(slot1)
-	slot0.model.transform.localScale = Vector3((slot1.x < slot0.data:GetPosition().x and slot1.y == slot3.y or slot1.x == slot3.x and slot3.y < slot1.y) and -1 or 1, 1, 1)
 
+	slot0._role:SetLocalScale(Vector3((slot1.x < slot0.data:GetPosition().x and slot1.y == slot3.y or slot1.x == slot3.x and slot3.y < slot1.y) == false and 1 or -1, 1, 1))
 	LeanTween.moveLocal(slot0._go, CourtYardCalcUtil.TrPosition2LocalPos(slot0:GetParentTF(), slot0._tf.parent, Vector3(slot4.x, slot4.y, 0) + slot2), slot0.data:GetMoveTime())
 
 	for slot12 = 1, slot0.interactionTF.childCount do
@@ -172,7 +171,7 @@ slot0.OnMove = function(slot0, slot1, slot2)
 		slot13.localScale = Vector3(math.abs(slot13.localScale.x), slot13.localScale.y, slot13.localScale.z)
 	end
 
-	slot0.interactionTF.localScale = slot0.model.transform.localScale
+	slot0.interactionTF.localScale = slot0._role:GetLocalScale()
 end
 
 slot0.OnAddAward = function(slot0, slot1, slot2)
@@ -255,8 +254,8 @@ slot0.StartInterAction = function(slot0, slot1)
 	setAnchoredPosition(slot0._tf, slot1:GetOffset())
 
 	slot5 = slot1:GetScale()
-	slot0.model.localScale = Vector3(slot1:GetOwner():GetNormalDirection() * slot5.x, slot5.y, slot5.z)
 
+	slot0._role:SetLocalScale(Vector3(slot1:GetOwner():GetNormalDirection() * slot5.x, slot5.y, slot5.z))
 	slot0:AdjustYForInteraction()
 end
 
@@ -272,8 +271,8 @@ slot0.ResetTransform = function(slot0)
 end
 
 slot0.HideAttachment = function(slot0, slot1)
-	if slot0.role then
-		slot0.role:SetVisible(not slot1)
+	if slot0._role then
+		slot0._role:SetVisible(not slot1)
 	end
 end
 
@@ -296,10 +295,10 @@ slot0.OnDispose = function(slot0)
 
 	slot0:ClearMove()
 
-	if slot0.role then
-		slot0.role:Dispose()
+	if slot0._role then
+		slot0._role:Dispose()
 
-		slot0.role = nil
+		slot0._role = nil
 	end
 end
 

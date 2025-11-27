@@ -19,13 +19,6 @@ slot0.OnInit = function(slot0, slot1)
 	end
 
 	slot0:InitFutureTasks(slot2.task_list_random or {})
-
-	for slot6, slot7 in pairs(slot0.tasks) do
-		if slot0.randomTaskTimes[slot7.id] then
-			slot7:SetEndTime(slot0.randomTaskTimes[slot7.id])
-		end
-	end
-
 	slot0:SetMainTraceId(slot0:GetPriorityMainTraceTaskId())
 
 	slot0.acceptCheckTimestampTags = {}
@@ -323,6 +316,17 @@ slot0.UpdateRandomRefreshTask = function(slot0, slot1)
 	end
 
 	slot0:InitFutureTasks(slot1.task_list_random or {})
+
+	slot2 = ipairs
+	slot3 = slot1.task_list or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot0:AddTask(IslandTask.New(slot6))
+	end
+
+	if slot1.task_list and #slot1.task_list > 0 then
+		slot0:TryAutoTrackTask()
+	end
 end
 
 slot0.UpdatePerSecond = function(slot0)

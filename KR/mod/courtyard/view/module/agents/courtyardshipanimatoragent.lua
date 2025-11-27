@@ -50,7 +50,7 @@ slot0.PlayAction = function(slot0, slot1, slot2)
 			uv1()
 		end
 	end)
-	slot0.role:SetAction(slot1)
+	slot0._role:SetAction(slot1)
 
 	slot0.name = slot1
 end

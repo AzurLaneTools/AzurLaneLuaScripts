@@ -73,6 +73,7 @@ slot3.initWaveModule = function(slot0)
 			return
 		end
 
+		uv0._dataProxy:TriggerFinishBattle()
 		uv0._dataProxy:CalcAirFightScore()
 		uv0._state:BattleEnd()
 	end, nil)

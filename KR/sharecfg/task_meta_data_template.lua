@@ -327,6 +327,11 @@ pg.task_meta_data_template = setmetatable({
 		100473,
 		100474,
 		100475,
+		100481,
+		100482,
+		100483,
+		100484,
+		100485,
 		200001,
 		200002,
 		200003,
@@ -478,7 +483,11 @@ pg.task_meta_data_template = setmetatable({
 		200381,
 		200382,
 		200383,
-		200384
+		200384,
+		200391,
+		200392,
+		200393,
+		200394
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3083,6 +3092,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "듀이·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100481] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970208",
+		id = 100481,
+		target_num = 1,
+		desc = "보이시·META를 편성한 함대로 1회 전투 승리"
+	},
+	[100482] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970208",
+		id = 100482,
+		target_num = 1,
+		desc = "보이시·META를 편성한 함대로 Lv30+의 적 함대 격파"
+	},
+	[100483] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970208",
+		id = 100483,
+		target_num = 1,
+		desc = "보이시·META를 편성한 함대로 Lv55+의 적 함대 격파"
+	},
+	[100484] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970208",
+		id = 100484,
+		target_num = 1,
+		desc = "보이시·META를 편성한 함대로 Lv80+의 적 함대 격파"
+	},
+	[100485] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970208",
+		id = 100485,
+		target_num = 1,
+		desc = "보이시·META를 편성한 함대로 Lv100+의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4298,5 +4347,37 @@ pg.base.task_meta_data_template = {
 		id = 200384,
 		target_num = 1,
 		desc = "대형작전에서 듀이·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200391] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970208",
+		id = 200391,
+		target_num = 1,
+		desc = "세이렌 작전에서 보이시·META를 포함한 함대로 1회 승리"
+	},
+	[200392] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970208",
+		id = 200392,
+		target_num = 1,
+		desc = "세이렌 작전에서 보이시·META를 포함한 함대로 Lv70+의 적 격파"
+	},
+	[200393] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970208",
+		id = 200393,
+		target_num = 1,
+		desc = "세이렌 작전에서 보이시·META를 포함한 함대로 Lv90+의 적 격파"
+	},
+	[200394] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970208",
+		id = 200394,
+		target_num = 1,
+		desc = "세이렌 작전에서 보이시·META를 포함한 함대로 Lv100+의 적 격파"
 	}
 }

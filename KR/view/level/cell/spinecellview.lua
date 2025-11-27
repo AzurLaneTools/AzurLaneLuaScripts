@@ -50,7 +50,7 @@ slot0.LoadSpine = function(slot0, slot1, slot2, slot3, slot4)
 	slot5:Load(function ()
 		uv0.spineRole:SetParent(uv0.tfShip)
 		uv0.spineRole:SetRaycastTarget(false)
-		uv0.spineRole:SetLocalPos(Vector3.zero)
+		uv0.spineRole:SetLocalPosition(Vector3.zero)
 
 		uv1 = uv1 and uv1 * 0.01 or 1
 

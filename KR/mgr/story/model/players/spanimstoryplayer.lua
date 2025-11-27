@@ -38,15 +38,16 @@ end
 
 slot0.GetSpine = function(slot0, slot1, slot2)
 	slot3 = slot1:GetSpineName()
-	slot4 = PoolMgr.GetInstance()
+	slot0.spineChar = SpineAnimChar.New()
+	slot4 = slot0.spineChar
 
-	slot4:GetSpineChar(slot3, true, function (slot0)
-		setParent(slot0, uv0.spAnimPanel)
+	slot4:SetPaint(slot3)
 
-		tf(slot0).localPosition = Vector3(0, 0, 0)
-		uv0.spineAnim = slot0:GetComponent("SpineAnimUI")
-		uv0.shipModel = slot0
+	slot4 = slot0.spineChar
 
+	slot4:Load(true, function (slot0)
+		slot0:SetParent(uv0.spAnimPanel)
+		slot0:SetLocalPosition(Vector3(0, 0, 0))
 		uv1()
 	end)
 
@@ -54,22 +55,22 @@ slot0.GetSpine = function(slot0, slot1, slot2)
 end
 
 slot0.PlaySpAnim = function(slot0, slot1, slot2)
-	slot0.spineAnim:SetActionCallBack(nil)
+	slot0.spineChar:SetActionCallBack(nil)
 
 	if slot1:HasStopTime() then
 		slot0:DelayCall(slot1:GetStopTime(), slot2)
 	else
-		slot3 = slot0.spineAnim
+		slot3 = slot0.spineChar
 
 		slot3:SetActionCallBack(function (slot0)
 			if slot0 == "finish" then
-				uv0.spineAnim:SetActionCallBack(nil)
+				uv0.spineChar:SetActionCallBack(nil)
 				uv1()
 			end
 		end)
 	end
 
-	slot0.spineAnim:SetAction(slot1:GetActionName(), 0)
+	slot0.spineChar:SetAction(slot1:GetActionName(), 0)
 
 	if slot1:ShouldAdjustSpeed() then
 		slot0:AdjustSpeed(slot1:GetSpeed())
@@ -82,21 +83,19 @@ slot0.AdjustSpeed = function(slot0, slot1)
 end
 
 slot0.GetAnimationState = function(slot0)
-	return slot0.shipModel:GetComponent("Spine.Unity.SkeletonGraphic").AnimationState
+	return slot0.spineChar:GetSkeletonGraphic().AnimationState
 end
 
 slot0.ReturnSpine = function(slot0)
-	if slot0.shipModel == nil or slot0.spineAnim == nil or slot0.prefab == nil then
+	if slot0.spineChar == nil or slot0.prefab == nil then
 		return
 	end
 
 	slot0:GetAnimationState().TimeScale = 1
 
-	slot0.spineAnim:SetActionCallBack(nil)
-	PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab, slot0.shipModel)
+	slot0.spineChar:Dispose()
 
-	slot0.shipModel = nil
-	slot0.spineAnim = nil
+	slot0.spineChar = nil
 	slot0.prefab = nil
 end
 

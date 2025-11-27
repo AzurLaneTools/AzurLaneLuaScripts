@@ -25,6 +25,7 @@ slot3.SetArgs = function(slot0, slot1, slot2)
 	slot0._countType = slot3.countType
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
 	slot0._repeatCount = slot3.repeat_count or 1
+	slot0._attrConsumeRepeat = slot3.fleetAttrConsume
 end
 
 slot3.onUpdate = function(slot0, slot1, slot2, slot3)
@@ -111,7 +112,9 @@ slot3.attachBuff = function(slot0, slot1, slot2, slot3, slot4)
 	if slot7 then
 		slot7:SetCommander(slot0._commander)
 
-		if slot0._repeatCount == -1 then
+		slot8 = nil
+
+		if ((not slot0._attrConsumeRepeat or slot0:fleetAttrRepeatConsume(slot0._attrConsumeRepeat)) and slot0:repeatCountParse(slot0._repeatCount)) == -1 then
 			slot8 = slot4:GetStack()
 		end
 

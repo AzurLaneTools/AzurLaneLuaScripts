@@ -70,6 +70,10 @@ pg.ship_meta_breakout = setmetatable({
 		9702072,
 		9702073,
 		9702074,
+		9702081,
+		9702082,
+		9702083,
+		9702084,
 		9703011,
 		9703012,
 		9703013,
@@ -1282,6 +1286,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9702074,
 		item1 = 21030,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9702081] = {
+		breakout_view = "[구조의 이치·보이시·META] 습득 / 주포 보정 +5%",
+		item2 = 21053,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9702082,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702081,
+		item1 = 21053,
+		level = 10,
+		weapon_ids = {
+			70121
+		}
+	},
+	[9702082] = {
+		breakout_view = "주포 포좌 +1 / 주포 보정 +10%",
+		item2 = 21053,
+		pre_id = 9702081,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9702083,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702082,
+		item1 = 21053,
+		level = 30,
+		weapon_ids = {
+			12100,
+			12100
+		}
+	},
+	[9702083] = {
+		breakout_view = "[구조의 이치·보이시·META] 강화 / 주포 보정 +15%",
+		item2 = 21053,
+		pre_id = 9702082,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9702084,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702083,
+		item1 = 21053,
+		level = 70,
+		weapon_ids = {
+			70122
+		}
+	},
+	[9702084] = {
+		breakout_view = "없음",
+		item2 = 21053,
+		pre_id = 9702083,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702084,
+		item1 = 21053,
 		level = 0,
 		weapon_ids = {}
 	},

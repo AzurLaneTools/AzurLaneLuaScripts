@@ -182,6 +182,14 @@ pg.ship_data_create_exchange = {
 			307161
 		}
 	},
+	[50226] = {
+		exchange_request = 200,
+		exchange_available_times = 4,
+		id = 50226,
+		exchange_ship_id = {
+			303191
+		}
+	},
 	[8034] = {
 		exchange_request = 40,
 		exchange_available_times = 1,
@@ -218,6 +226,14 @@ pg.ship_data_create_exchange = {
 		exchange_request = 40,
 		exchange_available_times = 1,
 		id = 8094,
+		exchange_ship_id = {
+			107061
+		}
+	},
+	[8105] = {
+		exchange_request = 40,
+		exchange_available_times = 1,
+		id = 8105,
 		exchange_ship_id = {
 			107061
 		}
@@ -269,11 +285,13 @@ pg.ship_data_create_exchange = {
 		5965,
 		5996,
 		50127,
+		50226,
 		8034,
 		8044,
 		8056,
 		8083,
 		8094,
+		8105,
 		30863,
 		41249,
 		41328

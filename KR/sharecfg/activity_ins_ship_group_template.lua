@@ -4912,6 +4912,54 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[1150001] = {
+		ship_group = 1150001,
+		name = "Tohka Yatogami",
+		background = "",
+		sculpture = "shixiang",
+		nationality = 0,
+		type = 1
+	},
+	[1150002] = {
+		ship_group = 1150002,
+		name = "Origami Tobiichi",
+		background = "",
+		sculpture = "zhezhi",
+		nationality = 0,
+		type = 1
+	},
+	[1150003] = {
+		ship_group = 1150003,
+		name = "Kotori Itsuka",
+		background = "",
+		sculpture = "qinli",
+		nationality = 0,
+		type = 1
+	},
+	[1150004] = {
+		ship_group = 1150004,
+		name = "Yoshino",
+		background = "",
+		sculpture = "sisinai",
+		nationality = 0,
+		type = 1
+	},
+	[1150005] = {
+		ship_group = 1150005,
+		name = "Kurumi Tokisaki",
+		background = "",
+		sculpture = "kuangsan",
+		nationality = 0,
+		type = 1
+	},
+	[1150006] = {
+		ship_group = 1150006,
+		name = "Kaguya Yamai・Yuzuru Yamai",
+		background = "",
+		sculpture = "bawu",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5526,6 +5574,12 @@ pg.activity_ins_ship_group_template = {
 		960014,
 		960015,
 		960016,
-		30121
+		30121,
+		1150001,
+		1150002,
+		1150003,
+		1150004,
+		1150005,
+		1150006
 	}
 }

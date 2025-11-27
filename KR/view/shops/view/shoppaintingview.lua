@@ -172,6 +172,9 @@ slot1 = function(slot0, slot1)
 	elseif string.find(slot1, "atelier_yumia_shop") then
 		slot2 = "cv-1130002"
 		slot3 = slot1
+	elseif string.find(slot1, "dal_shop") then
+		slot2 = "cv-1150006"
+		slot3 = slot1
 	else
 		slot2 = "cv-shop"
 		slot3 = slot1

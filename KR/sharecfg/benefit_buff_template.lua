@@ -198,7 +198,35 @@ pg.benefit_buff_template = setmetatable({
 		300218,
 		300219,
 		300220,
-		300221
+		300221,
+		300300,
+		300301,
+		300302,
+		300303,
+		300304,
+		300305,
+		300306,
+		300307,
+		300308,
+		300309,
+		300310,
+		300311,
+		300312,
+		300313,
+		300314,
+		300315,
+		300316,
+		300317,
+		300318,
+		300319,
+		300320,
+		300321,
+		300322,
+		300323,
+		300324,
+		300325,
+		300326,
+		300327
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3813,5 +3841,504 @@ pg.base.benefit_buff_template = {
 		id = 300221,
 		type_priority = 0,
 		benefit_type = "desc"
+	},
+	[300300] = {
+		icon = "Props/xinshou",
+		name = "无效效果",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "占位用buff",
+		benefit_effect = "0",
+		id = 300300,
+		type_priority = 0,
+		benefit_type = "desc"
+	},
+	[300301] = {
+		icon = "Props/xinshou",
+		name = "이글 유니온 기술 모듈LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 누적 피해량이 최대치의 40%에 도달하면, 1회 한정으로 내구가 최대치의 3%만큼 회복된다(캐릭터당 1회까지).",
+		benefit_effect = "201561",
+		id = 300301,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300302] = {
+		icon = "Props/xinshou",
+		name = "이글 유니온 기술 모듈LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 누적 피해량이 최대치의 30%에 도달하면, 1회 한정으로 내구가 최대치의 3%만큼 회복된다(캐릭터당 1회까지).",
+		benefit_effect = "201562",
+		id = 300302,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300303] = {
+		icon = "Props/xinshou",
+		name = "이글 유니온 기술 모듈LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 누적 피해량이 최대치의 20%에 도달하면, 1회 한정으로 내구가 최대치의 3%만큼 회복된다(캐릭터당 1회까지).",
+		benefit_effect = "201563",
+		id = 300303,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300304] = {
+		icon = "Props/xinshou",
+		name = "로열 네이비 기술 모듈LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 항공이 2% 상승한다.",
+		benefit_effect = "201565",
+		id = 300304,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300305] = {
+		icon = "Props/xinshou",
+		name = "로열 네이비 기술 모듈LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 항공이 4% 상승한다.",
+		benefit_effect = "201566",
+		id = 300305,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300306] = {
+		icon = "Props/xinshou",
+		name = "로열 네이비 기술 모듈LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 항공이 6% 상승한다.",
+		benefit_effect = "201567",
+		id = 300306,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300307] = {
+		icon = "Props/xinshou",
+		name = "아이리스 기술 모듈LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터가 받는 피해량이 1% 경감된다.",
+		benefit_effect = "201568",
+		id = 300307,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300308] = {
+		icon = "Props/xinshou",
+		name = "아이리스 기술 모듈LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터가 받는 피해량이 2% 경감된다.",
+		benefit_effect = "201569",
+		id = 300308,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300309] = {
+		icon = "Props/xinshou",
+		name = "아이리스 기술 모듈LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터가 받는 피해량이 3% 경감된다.",
+		benefit_effect = "201570",
+		id = 300309,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300310] = {
+		icon = "Props/xinshou",
+		name = "메탈 블러드 기술 모듈LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 포격이 2% 상승한다.",
+		benefit_effect = "201571",
+		id = 300310,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300311] = {
+		icon = "Props/xinshou",
+		name = "메탈 블러드 기술 모듈LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 포격이 4% 상승한다.",
+		benefit_effect = "201572",
+		id = 300311,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300312] = {
+		icon = "Props/xinshou",
+		name = "메탈 블러드 기술 모듈LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 포격이 6% 상승한다.",
+		benefit_effect = "201573",
+		id = 300312,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300313] = {
+		icon = "Props/xinshou",
+		name = "이스트 글림 기술 모듈LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 명중이 2% 상승한다.",
+		benefit_effect = "201586",
+		id = 300313,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300314] = {
+		icon = "Props/xinshou",
+		name = "이스트 글림 기술 모듈LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 명중이 4% 상승한다.",
+		benefit_effect = "201587",
+		id = 300314,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300315] = {
+		icon = "Props/xinshou",
+		name = "이스트 글림 기술 모듈LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 명중이 6% 상승한다.",
+		benefit_effect = "201588",
+		id = 300315,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300316] = {
+		icon = "Props/xinshou",
+		name = "사르데냐 엠파이어 기술 모듈LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 시작 후 10초 동안 아군 캐릭터의 장전이 15% 상승한다.",
+		benefit_effect = "201574",
+		id = 300316,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300317] = {
+		icon = "Props/xinshou",
+		name = "사르데냐 엠파이어 기술 모듈LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 시작 후 15초 동안 아군 캐릭터의 장전이 15% 상승한다.",
+		benefit_effect = "201575",
+		id = 300317,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300318] = {
+		icon = "Props/xinshou",
+		name = "사르데냐 엠파이어 기술 모듈LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 시작 후 20초 동안 아군 캐릭터의 장전이 15% 상승한다.",
+		benefit_effect = "201576",
+		id = 300318,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300319] = {
+		icon = "Props/xinshou",
+		name = "튤리퍼 기술 모듈LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 항속이 2 상승한다.",
+		benefit_effect = "201580",
+		id = 300319,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300320] = {
+		icon = "Props/xinshou",
+		name = "튤리퍼 기술 모듈LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 항속이 4 상승한다.",
+		benefit_effect = "201581",
+		id = 300320,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300321] = {
+		icon = "Props/xinshou",
+		name = "튤리퍼 기술 모듈LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 항속이 6 상승한다.",
+		benefit_effect = "201582",
+		id = 300321,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300322] = {
+		icon = "Props/xinshou",
+		name = "노스 유니온 기술 모듈LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터가 주는 피해량이 1% 증가한다.",
+		benefit_effect = "201577",
+		id = 300322,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300323] = {
+		icon = "Props/xinshou",
+		name = "노스 유니온 기술 모듈LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터가 주는 피해량이 2% 증가한다.",
+		benefit_effect = "201578",
+		id = 300323,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300324] = {
+		icon = "Props/xinshou",
+		name = "노스 유니온 기술 모듈LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터가 주는 피해량이 3% 증가한다.",
+		benefit_effect = "201579",
+		id = 300324,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300325] = {
+		icon = "Props/xinshou",
+		name = "사쿠라 엠파이어 기술 모듈LV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 뇌장이 2% 상승한다.",
+		benefit_effect = "201589",
+		id = 300325,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300326] = {
+		icon = "Props/xinshou",
+		name = "사쿠라 엠파이어 기술 모듈LV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 뇌장이 4% 상승한다.",
+		benefit_effect = "201590",
+		id = 300326,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300327] = {
+		icon = "Props/xinshou",
+		name = "사쿠라 엠파이어 기술 모듈LVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전투 중 아군 캐릭터의 뇌장이 6% 상승한다.",
+		benefit_effect = "201591",
+		id = 300327,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
 	}
 }

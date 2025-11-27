@@ -246,11 +246,7 @@ slot0.OnUpdateTrackTask = function(slot0, slot1, slot2)
 	end
 
 	if slot0.mainTraceTaskId and slot0.mainTraceTaskId ~= 0 or slot0.otherTraceTaskId and slot0.otherTraceTaskId ~= 0 then
-		if not slot0.taskTrackPanel:isShowing() then
-			slot0.taskTrackPanel:ExecuteAction("Show")
-		else
-			slot0.taskTrackPanel:ExecuteAction("UpdateTask", slot2)
-		end
+		slot0.taskTrackPanel:ExecuteAction("Show")
 	end
 
 	slot0.btnContainer:OnTrackTaskChange()
