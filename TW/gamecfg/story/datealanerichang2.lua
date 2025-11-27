@@ -40,7 +40,7 @@ return {
 			actor = 11500050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀哎呀，發生什麼事了嗎？被您用如此嚴肅的表情注視著，實在讓人有些緊張。我在這裡可是有好好遵守規矩，安分守己的哦。",
+			say = "哎呀，發生什麼事了嗎？被您用如此嚴肅的表情注視著，實在讓人有些緊張。我在這裡可是有好好遵守規矩，安分守己的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀哎呀，這可真是……",
+			say = "哎呀，這可真是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
