@@ -19,9 +19,11 @@ return {
 				data = {
 					op_list = {
 						{
+							sceneRoot = "Tianlangxing_DB/SiriusHostel",
 							name = "FFliwu_chahuaping",
 							time = 0,
-							type = "timeline"
+							type = "timeline",
+							scene = "map_siriushostel_01"
 						}
 					}
 				},

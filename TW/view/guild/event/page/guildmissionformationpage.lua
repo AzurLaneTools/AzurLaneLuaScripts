@@ -19,9 +19,11 @@ slot0.OnFormationDone = function(slot0)
 	for slot5, slot6 in pairs(slot0.shipGos) do
 		table.insert(slot1, function (slot0)
 			slot1 = uv0
-			slot1 = slot1:GetComponent(typeof(SpineAnimUI))
 
 			slot1:SetAction("victory", 0)
+
+			slot1 = uv0
+
 			slot1:SetActionCallBack(function (slot0)
 				if slot0 == "finish" then
 					uv0:SetActionCallBack(nil)
@@ -343,18 +345,18 @@ slot0.UpdateShipSlot = function(slot0, slot1, slot2, slot3, slot4)
 
 	if slot3[slot1] then
 		if getProxy(BayProxy):getShipById(slot6) then
-			PoolMgr.GetInstance():GetSpineChar(slot10:getPrefab(), true, function (slot0)
-				slot0.name = uv0
-				tf(slot0).pivot = Vector2(0.5, 0)
-				tf(slot0).sizeDelta = Vector2(200, 300)
+			slot0.spineChar = SpineAnimChar.New()
 
-				SetParent(slot0, uv1)
-
-				tf(slot0).localPosition = Vector3(0, 0, 0)
-				tf(slot0).localScale = Vector3(0.6, 0.6, 0.6)
-
-				SetAction(slot0, "stand")
-				GetOrAddComponent(slot0, "EventTriggerListener"):AddPointClickFunc(function (slot0, slot1)
+			slot0.spineChar:SetPaint(slot10:getPrefab())
+			slot0.spineChar:Load(true, function (slot0)
+				slot0:SetName(uv0)
+				slot0:SetPivot(Vector2(0.5, 0))
+				slot0:SetSizeDelta(Vector2(200, 300))
+				slot0:SetParent(uv1)
+				slot0:SetLocalPosition(Vector3(0, 0, 0))
+				slot0:SetLocalScale(Vector3(0.6, 0.6, 0.6))
+				slot0:SetAction("stand")
+				GetOrAddComponent(slot0:GetModel(), "EventTriggerListener"):AddPointClickFunc(function (slot0, slot1)
 					uv0:emit(GuildEventMediator.ON_SELECT_MISSION_SHIP, uv1.id, uv2, uv3)
 				end)
 
@@ -593,11 +595,10 @@ end
 
 slot0.ClearSlots = function(slot0)
 	for slot4, slot5 in pairs(slot0.shipGos) do
-		tf(slot5).pivot = Vector2(0.5, 0.5)
-
-		GetOrAddComponent(slot5, "EventTriggerListener"):RemovePointClickFunc()
-		slot5:GetComponent(typeof(SpineAnimUI)):SetActionCallBack(nil)
-		PoolMgr.GetInstance():ReturnSpineChar(slot5.name, slot5)
+		slot5:SetPivot(Vector2(0.5, 0.5))
+		GetOrAddComponent(slot5:GetModel(), "EventTriggerListener"):RemovePointClickFunc()
+		slot5:SetActionCallBack(nil)
+		slot5:Dispose()
 	end
 
 	slot0.shipGos = {}

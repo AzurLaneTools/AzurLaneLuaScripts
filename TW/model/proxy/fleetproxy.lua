@@ -331,36 +331,37 @@ slot0.addActivityFleet = function(slot0, slot1, slot2)
 	slot4 = slot0.activityFleetData[slot3]
 	slot5 = getProxy(BayProxy)
 	slot6, slot7 = nil
+	slot8 = pg.activity_template[slot3]
 
-	slot8 = function()
+	slot9 = function()
 		if uv0 then
 			return uv0
 		end
 
-		slot0 = uv1
-		uv0 = _.map(slot0:GetActiveSeriesIds(), function (slot0)
-			return table.lastof(BossRushSeriesData.New({
+		slot1 = uv2.type == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB and CollabrateBossRushSeriesData or BossRushSeriesData
+		uv0 = _.map(uv1:GetActiveSeriesIds(), function (slot0)
+			return table.lastof(uv0.New({
 				id = slot0,
-				actId = uv0.id
+				actId = uv1.id
 			}):GetFleetIds())
 		end)
 
 		return uv0
 	end
 
-	slot9 = pg.activity_template[slot3]
-
 	for slot13, slot14 in ipairs(slot2) do
 		slot15 = CreateShell(slot14)
 
-		if slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
-			slot15.fleetType = table.contains(slot8(), slot14.id) and FleetType.Submarine or FleetType.Normal
-		elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+		if slot8.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+			slot15.fleetType = table.contains(slot9(), slot14.id) and FleetType.Submarine or FleetType.Normal
+		elseif slot8.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 			slot15.fleetType = Fleet.SUBMARINE_FLEET_ID <= slot14.id and FleetType.Submarine or FleetType.Normal
-		elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
+		elseif slot8.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
 			slot15.fleetType = Fleet.SUBMARINE_FLEET_ID <= slot14.id and FleetType.Submarine or FleetType.Normal
-		elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
+		elseif slot8.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
 			slot15.fleetType = Fleet.MEGA_SUBMARINE_FLEET_OFFSET <= slot14.id and FleetType.Submarine or FleetType.Normal
+		elseif slot8.type == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
+			slot15.fleetType = table.contains(slot9(), slot14.id) and FleetType.Submarine or FleetType.Normal
 		else
 			slot15.fleetType = Fleet.isSubmarineFleet({
 				id = slot14.id
@@ -385,19 +386,22 @@ slot0.addActivityFleet = function(slot0, slot1, slot2)
 
 	slot10, slot11 = nil
 
-	if slot9.type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
+	if slot8.type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
 		slot10 = 2
 		slot11 = 2
-	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+	elseif slot8.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 		slot10 = 0
 		slot11 = 0
-	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+	elseif slot8.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
 		slot10 = 0
 		slot11 = 0
-	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
+	elseif slot8.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
 		slot10 = 0
 		slot11 = 0
-	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
+	elseif slot8.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
+		slot10 = 0
+		slot11 = 0
+	elseif slot8.type == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
 		slot10 = 0
 		slot11 = 0
 	end

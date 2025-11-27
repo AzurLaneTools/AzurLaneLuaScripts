@@ -214,7 +214,9 @@ slot0.Show = function(slot0, slot1, slot2)
 	end
 
 	(function ()
-		setActive(uv1._dormBtn:Find("tip"), uv0 and Dorm3dShopUI.ShouldShowAllTip())
+		slot0 = uv0 and Dorm3dShopUI.ShouldShowAllTip()
+
+		setActive(uv1._dormBtn:Find("tip"), false)
 		setActive(uv1._dormBtn:Find("tagFurniture"), uv0 and Dorm3dFurniture.IsTimelimitShopTip())
 	end)()
 

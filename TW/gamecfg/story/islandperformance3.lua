@@ -1,5 +1,11 @@
 return {
 	{
+		type = 6,
+		unitIdList = {
+			10040033
+		}
+	},
+	{
 		show = false,
 		type = 4,
 		unitIdList = {

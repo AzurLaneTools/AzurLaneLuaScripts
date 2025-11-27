@@ -94,10 +94,7 @@ slot0.bindEvent = function(slot0)
 				__index = ShipStatus.TAG_HIDE_ACTIVITY_BOSS
 			}),
 			blockTagFlags = nil,
-			otherSelectedIds = slot5,
-			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
-				isActivityNpc = true
-			})
+			otherSelectedIds = slot5
 		})
 	end)
 	slot0:bind(uv0.ON_UPDATE_CUSTOM_FLEET, function (slot0)
@@ -238,8 +235,9 @@ slot0.bindEvent = function(slot0)
 				maxCount = pg.gameset.series_enemy_multiple_limit.key_value,
 				oilCost = (function ()
 					slot0 = 0
+					slot1 = nil
 					slot3 = uv0:GetOilLimit()
-					slot4 = pg.battle_cost_template[uv0:GetType() == BossRushSeriesData.TYPE.EXTRA and SYSTEM_BOSS_RUSH_EX or SYSTEM_BOSS_RUSH].oil_cost > 0
+					slot4 = pg.battle_cost_template[(uv0.__cname ~= "CollabrateBossRushSeriesData" or SYSTEM_BOSS_RUSH_COLLABRATE) and (uv0:GetType() ~= BossRushSeriesData.TYPE.EXTRA or SYSTEM_BOSS_RUSH_EX) and SYSTEM_BOSS_RUSH].oil_cost > 0
 
 					slot5 = function(slot0, slot1)
 						slot2 = 0

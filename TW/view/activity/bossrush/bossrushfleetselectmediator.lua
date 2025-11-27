@@ -35,10 +35,7 @@ slot0.register = function(slot0)
 			}, {
 				__index = ShipStatus.TAG_HIDE_ACTIVITY_BOSS
 			}),
-			otherSelectedIds = slot4,
-			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
-				isActivityNpc = true
-			})
+			otherSelectedIds = slot4
 		})
 	end)
 	slot0:bind(uv0.ON_FLEET_SHIPINFO, function (slot0, slot1)
@@ -254,7 +251,12 @@ slot0.register = function(slot0)
 		slot0.contextData.fleetIndex = 1
 	end
 
-	slot0.contextData.system = not (slot1:GetType() == BossRushSeriesData.TYPE.EXTRA) and SYSTEM_BOSS_RUSH or SYSTEM_BOSS_RUSH_EX
+	if slot1.__cname == "CollabrateBossRushSeriesData" then
+		slot0.contextData.system = SYSTEM_BOSS_RUSH_COLLABRATE
+	else
+		slot0.contextData.system = not (slot1:GetType() == BossRushSeriesData.TYPE.EXTRA) and SYSTEM_BOSS_RUSH or SYSTEM_BOSS_RUSH_EX
+	end
+
 	slot0.contextData.actId = slot1.actId
 
 	slot0.viewComponent:setHardShipVOs(getProxy(BayProxy):getRawData())

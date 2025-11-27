@@ -18,7 +18,6 @@ slot0.execute = function(slot0, slot1)
 
 			if getProxy(ActivityProxy):GetBossRushRuntime(uv0.actId).settlementData.win then
 				slot1:AddPassSeries(slot5.seriesId)
-				slot1:AddUsedBonus(slot5.seriesId)
 			end
 
 			for slot9, slot10 in ipairs(slot5) do
@@ -60,11 +59,27 @@ slot0.execute = function(slot0, slot1)
 end
 
 slot0.ConcludeEXP = function(slot0, slot1, slot2)
-	slot3 = slot0.system
 	slot4 = slot0.arg1
-	slot5 = BossRushSeriesData.New({
-		id = slot4
-	})
+	slot5 = nil
+
+	if slot0.system == SYSTEM_BOSS_RUSH_COLLABRATE then
+		for slot9, slot10 in pairs(pg.extraenemy_series_template) do
+			if table.contains(slot10.activity_series_enemy_id, slot4) then
+				slot5 = CollabrateBossRushSeriesData.New({
+					id = slot9,
+					actId = slot1.id
+				})
+				slot4 = slot9
+
+				break
+			end
+		end
+	else
+		slot5 = BossRushSeriesData.New({
+			id = slot4
+		})
+	end
+
 	slot6 = {
 		seriesId = slot4
 	}
@@ -78,7 +93,7 @@ slot0.ConcludeEXP = function(slot0, slot1, slot2)
 
 	for slot12, slot13 in ipairs(slot0.re40004) do
 		slot6[slot12] = {}
-		slot6[slot12].oldShips, slot6[slot12].newShips = uv0.addShipsExp(slot13.ship_exp_list, slot3 == SYSTEM_BOSS_RUSH)
+		slot6[slot12].oldShips, slot6[slot12].newShips = uv0.addShipsExp(slot13.ship_exp_list, slot3 == SYSTEM_BOSS_RUSH or slot3 == SYSTEM_BOSS_RUSH_COLLABRATE)
 		slot6[slot12].oldCmds, slot6[slot12].newCmds = uv0.GenerateCommanderExp(slot13.commander_exp)
 		slot6[slot12].mvp = slot13.mvp
 		slot6[slot12].drops, slot6[slot12].extraDrops = uv0.GeneralLoot(slot13)

@@ -12,12 +12,23 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
-	slot11 = {
-		table.remove(Clone(BossRushSeriesData.New({
+	slot6 = slot2.mode
+	slot7 = nil
+
+	if slot5:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
+		slot7 = slot5:GetCollabSeriesData(slot3)
+		slot7.mode = slot6
+		slot3 = slot7:GetActivitySeriesID()
+	else
+		slot7 = BossRushSeriesData.New({
 			id = slot3,
 			actId = slot4,
-			mode = slot2.mode
-		}):GetFleetIds()))
+			mode = slot6
+		})
+	end
+
+	slot11 = {
+		table.remove(Clone(slot7:GetFleetIds()))
 	}
 
 	if slot2.mode == BossRushSeriesData.MODE.SINGLE then
@@ -38,8 +49,9 @@ slot0.execute = function(slot0, slot1)
 
 	if slot18:getRawData().oil < (function ()
 		slot0 = 0
+		slot1 = nil
 		slot3 = uv0:GetOilLimit()
-		slot4 = pg.battle_cost_template[uv0:GetType() == BossRushSeriesData.TYPE.EXTRA and SYSTEM_BOSS_RUSH_EX or SYSTEM_BOSS_RUSH].oil_cost > 0
+		slot4 = pg.battle_cost_template[(uv0.__cname ~= "CollabrateBossRushSeriesData" or SYSTEM_BOSS_RUSH_COLLABRATE) and (uv0:GetType() ~= BossRushSeriesData.TYPE.EXTRA or SYSTEM_BOSS_RUSH_EX) and SYSTEM_BOSS_RUSH].oil_cost > 0
 
 		slot5 = function(slot0, slot1)
 			slot2 = 0

@@ -225,13 +225,12 @@ slot0.updateStageShip = function(slot0)
 
 	if slot1 then
 		slot0._loadingRequest[slot1] = GetSpineRequestPackage.New(slot1, function (slot0)
-			slot0.transform.localScale = Vector3(0.5, 0.5, 1)
-			slot0.transform.localPosition = Vector3.zero
-
-			slot0.transform:SetParent(uv0._stageShip, false)
-			slot0.transform:SetSiblingIndex(1)
+			slot0:SetLocalScale(Vector3(0.5, 0.5, 1))
+			slot0:SetLocalPosition(Vector3.zero)
+			slot0:SetParent(uv0._stageShip)
+			slot0:SetSiblingIndex(1)
 			setActive(uv0._stageShip, true)
-			slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv1, 0)
+			slot0:SetAction(uv1, 0)
 
 			uv0._loadingRequest[uv2] = nil
 			uv0._ReturnRequest[uv2] = ReturnSpineRequestPackage.New(uv2, slot0)

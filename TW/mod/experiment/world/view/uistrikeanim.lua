@@ -1,14 +1,13 @@
 slot0 = class("UIStrikeAnim", import(".UIAnim"))
 slot0.Fields = {
-	spineAnim = "userdata",
-	prefab = "string",
-	painting = "userdata",
 	char = "userdata",
 	aniEvent = "userdata",
+	painting = "userdata",
+	playing = "boolean",
 	transform = "userdata",
+	prefab = "string",
 	onTrigger = "function",
 	onStart = "function",
-	playing = "boolean",
 	onEnd = "function",
 	skelegraph = "userdata",
 	shipVO = "table"
@@ -45,8 +44,7 @@ slot0.ReloadShip = function(slot0, slot1)
 	slot0.aniEvent = nil
 	slot0.painting = nil
 	slot0.char = nil
-	slot2 = PoolMgr.GetInstance()
-	slot3 = slot2.GetInstance()
+	slot3 = PoolMgr.GetInstance().GetInstance()
 
 	slot3:GetPainting(slot1:getPainting(), true, function (slot0)
 		uv0.painting = slot0
@@ -55,21 +53,24 @@ slot0.ReloadShip = function(slot0, slot1)
 		uv0:LoadBack()
 	end)
 
-	slot3 = slot2.GetInstance()
+	slot0.char = SpineAnimChar.New()
+	slot3 = slot0.char
 
-	slot3:GetSpineChar(slot1:getPrefab(), true, function (slot0)
+	slot3:SetPaint(slot1:getPrefab())
+
+	slot3 = slot0.char
+
+	slot3:Load(true, function (slot0)
 		uv0.char = slot0
-		uv0.char.transform.localScale = Vector3.one
 
+		uv0.char:SetLocalScale(Vector3.one)
 		uv0:LoadBack()
 	end)
 end
 
 slot0.UnloadShipVO = function(slot0)
-	slot1 = slot0.shipVO
-
-	retPaintingPrefab(slot0.transform:Find("mask/painting"), slot1:getPainting())
-	PoolMgr.GetInstance():ReturnSpineChar(slot1:getPrefab(), slot0.char)
+	retPaintingPrefab(slot0.transform:Find("mask/painting"), slot0.shipVO:getPainting())
+	slot0.char:Dispose()
 
 	slot0.shipVO = nil
 	slot0.painting = nil
@@ -80,7 +81,7 @@ slot0.Play = function(slot0, slot1)
 	slot0.playing = true
 
 	slot0.onStart = function(slot0)
-		uv0.spineAnim:SetAction("attack", 0)
+		uv0.char:SetAction("attack", 0)
 
 		uv0.skelegraph.freeze = true
 	end
@@ -88,7 +89,7 @@ slot0.Play = function(slot0, slot1)
 	slot0.onTrigger = function(slot0)
 		uv0.skelegraph.freeze = false
 
-		uv0.spineAnim:SetActionCallBack(function (slot0)
+		uv0.char:SetActionCallBack(function (slot0)
 			if slot0 == "action" then
 				-- Nothing
 			elseif slot0 == "finish" then
@@ -120,12 +121,11 @@ slot0.Init = function(slot0)
 	slot3 = slot0.transform:Find("ship")
 
 	setParent(slot0.painting, slot0.transform:Find("mask/painting"):Find("fitter"), false)
-	setParent(slot0.char, slot3, false)
+	slot0.char:SetParent(slot3)
 	setActive(slot3, false)
 	setActive(slot0.transform:Find("torpedo"), false)
 
-	slot0.spineAnim = slot0.char:GetComponent("SpineAnimUI")
-	slot0.skelegraph = slot0.spineAnim:GetComponent("SkeletonGraphic")
+	slot0.skelegraph = slot0.char:GetSkeletonGraphic()
 	slot0.aniEvent = slot0.transform:GetComponent("DftAniEvent")
 
 	slot0:Update()

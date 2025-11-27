@@ -60,7 +60,11 @@ slot0.update = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.tecShipBuyTag, slot4)
 	setActive(slot0.freeTag, slot1:isFree())
 	setActive(slot0.priceTf, not slot1:isFree() and not slot4)
-	setActive(slot0.focusTip, slot1:isFree())
+	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(slot0.focusTip, {
+		"Charge_Page_Exposure"
+	}, function (slot0)
+		setActive(slot0, uv0:isTip())
+	end)
 	setActive(slot0.icon, slot1:isChargeType())
 	setActive(slot0.contain, true)
 
@@ -214,7 +218,7 @@ slot0.updateGemItem = function(slot0, slot1, slot2)
 		end
 	end
 
-	slot0.price.text = slot1:getConfig("resource_num")
+	slot0.price.text = slot1:GetPrice()
 
 	setActive(slot0.icon, true)
 	setActive(slot0.tag, slot1:getConfig("tag") > 0)
@@ -443,6 +447,11 @@ slot0.destoryTimer = function(slot0)
 
 		slot0.countDownTimer = nil
 	end
+end
+
+slot0.Dispose = function(slot0)
+	slot0:destoryTimer()
+	pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot0.focusTip)
 end
 
 return slot0

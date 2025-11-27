@@ -395,14 +395,12 @@ slot0.loadAllCharacter = function(slot0, slot1)
 			return
 		end
 
-		slot4 = slot0.model
+		slot4 = slot0:GetRoleModel()
 		slot5 = WorldConst.FetchWorldShip(slot1.id)
 		uv0.characterList[slot2][slot3] = slot0
 
-		tf(slot4):SetParent(uv0.heroContainer, false)
-
-		tf(slot4).localScale = Vector3(0.65, 0.65, 1)
-
+		slot0:SetParent(uv0.heroContainer, false)
+		slot0:SetLocalScale(Vector3(0.65, 0.65, 1))
 		pg.ViewUtils.SetLayer(tf(slot4), Layer.UI)
 		uv0:enabledCharacter(slot4, true, slot2)
 		uv0:setCharacterPos(slot2, slot3, slot4)
@@ -521,11 +519,11 @@ end
 
 slot0.setAllCharacterPos = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.characterList[TeamType.Vanguard]) do
-		slot0:setCharacterPos(TeamType.Vanguard, slot5, tf(slot6.model), slot1)
+		slot0:setCharacterPos(TeamType.Vanguard, slot5, tf(slot6:GetRootModel()), slot1)
 	end
 
 	for slot5, slot6 in ipairs(slot0.characterList[TeamType.Main]) do
-		slot0:setCharacterPos(TeamType.Main, slot5, tf(slot6.model), slot1)
+		slot0:setCharacterPos(TeamType.Main, slot5, tf(slot6:GetRootModel()), slot1)
 	end
 
 	slot0:sortSiblingIndex()
@@ -559,7 +557,7 @@ end
 slot0.switchToEditMode = function(slot0)
 	slot1 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
-			if tf(slot5.model):Find("mouseChild") then
+			if tf(slot5:GetRootModel()):Find("mouseChild") then
 				slot8 = slot7:GetComponent("EventTriggerListener")
 				uv0.eventTriggers[slot8] = true
 
@@ -590,7 +588,7 @@ slot0.switchToShiftMode = function(slot0, slot1, slot2)
 	end
 
 	for slot7, slot8 in ipairs(slot0.characterList[slot2]) do
-		if slot8.model ~= slot1 then
+		if slot8:GetRootModel() ~= slot1 then
 			LeanTween.moveLocalY(slot9, slot0.gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
 
 			slot11 = tf(slot9)
@@ -600,7 +598,7 @@ slot0.switchToShiftMode = function(slot0, slot1, slot2)
 
 			slot11:AddPointEnterFunc(function ()
 				for slot3, slot4 in ipairs(uv0) do
-					if slot4.model == uv1 then
+					if slot4:GetRootModel() == uv1 then
 						uv2:shift(uv2._shiftIndex, slot3, uv3)
 
 						break
@@ -618,7 +616,7 @@ end
 
 slot0.shift = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.characterList[slot3]
-	slot6 = slot4[slot2].model
+	slot6 = slot4[slot2]:GetRootModel()
 	slot8 = slot0.gridTFs[slot3][slot1].localPosition
 	tf(slot6).localPosition = Vector3(slot8.x + 2, slot8.y - 80, slot8.z)
 
@@ -644,13 +642,13 @@ slot0.sortSiblingIndex = function(slot0)
 		slot4 = slot0.characterList[TeamType.Vanguard][slot1]
 
 		if slot0.characterList[TeamType.Main][slot1] then
-			tf(slot3.model):SetSiblingIndex(slot2)
+			tf(slot3:GetRootModel()):SetSiblingIndex(slot2)
 
 			slot2 = slot2 + 1
 		end
 
 		if slot4 then
-			tf(slot4.model):SetSiblingIndex(slot2)
+			tf(slot4:GetRootModel()):SetSiblingIndex(slot2)
 
 			slot2 = slot2 + 1
 		end
@@ -661,7 +659,7 @@ end
 
 slot0.enabledTeamCharacter = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot0.characterList[slot1]) do
-		slot0:enabledCharacter(slot8.model, slot2, slot1)
+		slot0:enabledCharacter(slot8:GetRootModel(), slot2, slot1)
 	end
 end
 

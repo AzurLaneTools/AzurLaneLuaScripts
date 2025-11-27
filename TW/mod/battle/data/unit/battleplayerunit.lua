@@ -528,6 +528,10 @@ slot7.GetTemplate = function(slot0)
 	return slot0._tmpData
 end
 
+slot7.GetGroupID = function(slot0)
+	return uv0.GetPlayerShipModelFromID(slot0:GetTemplateID()).group_type
+end
+
 slot7.GetRarity = function(slot0)
 	return slot0._rarity or slot0._tmpData.rarity
 end

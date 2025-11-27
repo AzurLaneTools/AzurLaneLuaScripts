@@ -22755,6 +22755,156 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[604] = {
+		ship_group = 1150002,
+		name = "Tobiichi Origami",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "zhezhi",
+		id = 604,
+		group_id = 604,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				27
+			},
+			{
+				11,
+				11,
+				11
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[605] = {
+		ship_group = 1150005,
+		name = "Kurumi Tokisaki ",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "kuangsan",
+		id = 605,
+		group_id = 605,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				28
+			},
+			{
+				13,
+				33,
+				33
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[606] = {
+		ship_group = 1150004,
+		name = "Yoshino",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "sisinai",
+		id = 606,
+		group_id = 606,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				29
+			},
+			{
+				16,
+				44,
+				44
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[607] = {
+		ship_group = 1150003,
+		name = "Itsuka Kotori",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "qinli",
+		id = 607,
+		group_id = 607,
+		order = 69,
+		time = {
+			{
+				2025,
+				11,
+				30
+			},
+			{
+				12,
+				55,
+				55
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[608] = {
+		ship_group = 1150006,
+		name = "Yamai Kguya Yamai Yuzuru",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "bawu",
+		id = 608,
+		group_id = 608,
+		order = 69,
+		time = {
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				17,
+				24,
+				8
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[609] = {
+		ship_group = 1150001,
+		name = "Yatogami Tōka",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "shixiang",
+		id = 609,
+		group_id = 609,
+		order = 69,
+		time = {
+			{
+				2025,
+				12,
+				2
+			},
+			{
+				10,
+				10,
+				10
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -23341,6 +23491,12 @@ pg.activity_ins_template = {
 		595,
 		596,
 		597,
-		598
+		598,
+		604,
+		605,
+		606,
+		607,
+		608,
+		609
 	}
 }

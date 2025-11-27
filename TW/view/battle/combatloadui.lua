@@ -23,10 +23,11 @@ slot0.init = function(slot0)
 
 	slot3 = slot0._tf:Find("bg")
 	slot4 = slot0._tf:Find("bg2")
+	slot0.bg = PlayerPrefs.GetInt("bgFitMode", 0) == 1 and slot4 or slot3
 
 	SetActive(slot3, slot5 ~= 1)
 	SetActive(slot4, slot5 == 1)
-	setImageSprite(PlayerPrefs.GetInt("bgFitMode", 0) == 1 and slot4 or slot3, LoadSprite((LOADING_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOADING_HX_LV.key_value and "loadingbg_hx/bg_" or "loadingbg/bg_") .. math.random(1, BG_RANDOM_RANGE)))
+	setImageSprite(slot0.bg, LoadSprite((LOADING_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOADING_HX_LV.key_value and "loadingbg_hx/bg_" or "loadingbg/bg_") .. math.random(1, BG_RANDOM_RANGE)))
 
 	slot0._tipsText = slot1:Find("tipsText"):GetComponent(typeof(Text))
 end
@@ -48,6 +49,10 @@ slot0.Preload = function(slot0)
 	ys.Battle.BattleResourceManager.GetInstance():Init()
 
 	slot2 = getProxy(BayProxy)
+
+	if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE then
+		setImageSprite(slot0.bg, LoadSprite("bg/star_level_bg_211"))
+	end
 
 	if slot0.contextData.system == SYSTEM_DEBUG then
 		slot3 = {}
@@ -238,7 +243,7 @@ slot0.Preload = function(slot0)
 
 				uv0.addChapterBuffRes(slot12)
 			end
-		elseif slot0.contextData.system == SYSTEM_BOSS_RUSH or slot0.contextData.system == SYSTEM_BOSS_RUSH_EX then
+		elseif slot0.contextData.system == SYSTEM_BOSS_RUSH or slot0.contextData.system == SYSTEM_BOSS_RUSH_EX or slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE then
 			slot6 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()
 
 			assert(slot6)
@@ -268,6 +273,12 @@ slot0.Preload = function(slot0)
 				end
 
 				uv0.addCommanderBuffRes(slot15:buildBattleBuffList())
+			end
+
+			if slot6:GetBossHpRate() <= slot6:getConfig("aid_buff")[1] then
+				uv0.addChapterBuffRes({
+					slot16[2]
+				})
 			end
 		elseif slot0.contextData.system == SYSTEM_LIMIT_CHALLENGE then
 			slot7 = getProxy(FleetProxy)

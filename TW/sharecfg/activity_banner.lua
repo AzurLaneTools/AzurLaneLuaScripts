@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					26
+					12,
+					10
 				},
 				{
 					23,
@@ -36,110 +36,14 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5374",
-		type = 3,
+		type = 2,
 		id = 2,
 		pic = "temp2",
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					27
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "7502",
-		type = 3,
-		id = 3,
-		pic = "temp3",
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					27
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5369",
-		type = 3,
-		id = 4,
-		pic = "temp4",
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					27
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp5",
 		param = {
-			"scene equip",
+			"scene get boat",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				projectName = "new",
+				page = 1
 			}
 		},
 		time = {
@@ -147,7 +51,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -158,21 +62,58 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
-					14,
-					59,
-					59
+					15,
+					0,
+					0
 				}
 			}
 		}
 	},
 	{
 		type = 2,
-		id = 6,
-		pic = "temp6",
+		id = 3,
+		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "DALCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					15,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp4",
 		param = {
 			"scene charge",
 			{
@@ -184,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -195,8 +136,79 @@ pg.activity_banner = {
 			{
 				{
 					2025,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp5",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
 					11,
-					26
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					10
 				},
 				{
 					23,
@@ -211,14 +223,14 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					1
 				},
 				{
 					0,
@@ -229,51 +241,26 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					26
+					12,
+					11
 				},
 				{
-					23,
-					59,
-					59
+					15,
+					0,
+					0
 				}
 			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
+				wrap = 2
 			}
 		}
 	},
@@ -282,10 +269,10 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene get boat",
+			"scene equip",
 			{
-				projectName = "new",
-				page = 1
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
@@ -293,7 +280,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -304,13 +291,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					26
+					12,
+					11
 				},
 				{
-					23,
-					59,
-					59
+					15,
+					0,
+					0
 				}
 			}
 		}
@@ -358,7 +345,7 @@ pg.activity_banner = {
 				{
 					2025,
 					11,
-					20
+					27
 				},
 				{
 					0,
@@ -369,8 +356,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					26
+					12,
+					10
 				},
 				{
 					23,
@@ -742,6 +729,9 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
+			2,
+			3,
+			4,
 			5,
 			6,
 			7,
@@ -772,12 +762,6 @@ pg.activity_banner = {
 			1023,
 			1024
 		},
-		[3] = {
-			2,
-			3,
-			4,
-			1003
-		},
 		[9] = {
 			90,
 			91
@@ -804,6 +788,9 @@ pg.activity_banner = {
 			202,
 			203,
 			204
+		},
+		[3] = {
+			1003
 		},
 		[8] = {
 			1015

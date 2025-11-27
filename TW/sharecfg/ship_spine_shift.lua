@@ -546,5 +546,19 @@ pg.ship_spine_shift = {
 			3,
 			-98
 		}
+	},
+	sisinai = {
+		spine = "sisinai",
+		mainui_shift = {
+			-41.1,
+			-144.4
+		}
+	},
+	sisinai_2 = {
+		spine = "sisinai_2",
+		mainui_shift = {
+			-41.1,
+			-144.4
+		}
 	}
 }

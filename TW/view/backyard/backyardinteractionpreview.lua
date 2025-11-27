@@ -47,20 +47,23 @@ slot0.StartLoad = function(slot0, slot1, slot2)
 end
 
 slot0.LoadShip = function(slot0, slot1, slot2)
-	slot4 = pg.PoolMgr.GetInstance()
+	slot0.loadedShip = SpineAnimChar.New()
+	slot4 = slot0.loadedShip
 
-	slot4:GetSpineChar(pg.ship_skin_template[slot1].prefab, true, function (slot0)
+	slot4:SetPaint(pg.ship_skin_template[slot1].prefab)
+
+	slot4 = slot0.loadedShip
+
+	slot4:Load(true, function (slot0)
 		if uv0.loadedAnimator then
-			setParent(slot0, uv0.loadedAnimator)
+			slot0:SetParent(uv0.loadedAnimator)
 		else
-			setParent(slot0, uv0.loadedFurniture)
+			slot0:SetParent(uv0.loadedFurniture)
 		end
 
-		slot0.name = uv1
-		slot0.transform.localScale = Vector3(uv2, uv2, 1)
-		uv0.loadedShip = slot0
-		slot0.transform.localPosition = Vector3()
-
+		slot0:SetName(uv1)
+		slot0:SetLocalScale(Vector3(uv2, uv2, 1))
+		slot0:SetLocalPosition(Vector3())
 		uv3()
 	end)
 end
@@ -234,26 +237,26 @@ slot0.StartFollowBone = function(slot0, slot1)
 		return
 	end
 
-	slot0.loadedShip.transform.localScale = Vector3(slot2[2] * uv0, uv0, 1)
+	slot0.loadedShip:SetLocalScale(Vector3(slot2[2] * uv0, uv0, 1))
+
 	SpineAnimUI.AddFollower(slot2[1], slot0.loadedFurniture.transform:Find("spine"), slot0.loadedShip.transform):GetComponent("Spine.Unity.BoneFollowerGraphic").followLocalScale = true
-	slot0.loadedShip.transform.localPosition = Vector3(0, 0, 0)
+
+	slot0.loadedShip:SetLocalPosition(Vector3(0, 0, 0))
 end
 
 slot0.PlayAction = function(slot0, slot1, slot2, slot3)
-	slot4 = GetOrAddComponent(slot1, typeof(SpineAnimUI))
-
-	slot4:SetActionCallBack(function (slot0)
+	slot1:SetActionCallBack(function (slot0)
 		if slot0 == "finish" then
 			uv0:SetActionCallBack(nil)
 			uv1()
 		end
 	end)
-	slot4:SetAction(slot2, 0)
+	slot1:SetAction(slot2, 0)
 end
 
 slot0.UnloadSpines = function(slot0)
 	if not IsNil(slot0.loadedShip) then
-		pg.PoolMgr.GetInstance():ReturnSpineChar(slot0.loadedShip.name, slot0.loadedShip)
+		slot0.loadedShip:Dispose()
 	end
 
 	if not IsNil(slot0.loadedAnimator) then

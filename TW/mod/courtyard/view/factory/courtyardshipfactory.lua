@@ -22,13 +22,11 @@ slot0.Make = function(slot0, slot1)
 			return
 		end
 
-		slot0 = uv1.modelRoot
-		slot0.name = "model"
-		slot0.transform.localScale = Vector3.one
-		rtf(slot0).sizeDelta = Vector2.New(200, 500)
-
-		SetParent(slot0, uv0)
-		slot0.transform:SetSiblingIndex(2)
+		uv1:SetName("model")
+		uv1:SetLocalScale(Vector3.one)
+		uv1:SetSizeDelta(Vector2.New(200, 500))
+		uv1:SetParent(uv0)
+		uv1:SetSiblingIndex(2)
 		setActive(uv0, true)
 		uv2:OnIconLoaed()
 		uv2:Init()

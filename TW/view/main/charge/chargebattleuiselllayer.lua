@@ -279,7 +279,7 @@ slot0.InitTitle = function(slot0, slot1)
 						setText(uv0.tipsText, i18n("battleui_display" .. uv1))
 						setLocalPosition(uv0.tipsGo, uv0._tf:Find("mainPanel/topBar/left"):InverseTransformPoint(uv2.transform.position) + Vector3(-20, 46, 0))
 						uv0:ShowTips(slot0)
-					end, SFX_CONFIGM)
+					end, SFX_CONFIRM)
 				end
 			end)
 			slot0.toggleList:align(#slot8.rare_display)

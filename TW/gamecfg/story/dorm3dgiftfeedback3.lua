@@ -11,6 +11,8 @@ return {
 	},
 	scripts = {
 		{
+			nameColor = "#FFFFFF",
+			actorName = 20220,
 			say = "沒想到{dorm3d}您會送天狼星這本書呢，一定是天狼星的覺悟還不夠……！",
 			typewriter = {
 				speed = 0.05,
@@ -34,6 +36,8 @@ return {
 			}
 		},
 		{
+			nameColor = "#FFFFFF",
+			actorName = 20220,
 			say = "天狼星一定會好好研讀這本書，成為讓{dorm3d}讚不絕口的完美女僕！",
 			typewriter = {
 				speed = 0.05,

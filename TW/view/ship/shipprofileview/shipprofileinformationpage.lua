@@ -156,8 +156,19 @@ end
 
 slot0.UpdateLanguage = function(slot0)
 	slot2 = ShipGroup.getDefaultSkin(slot0.skin.ship_group)
-	slot4 = ShipWordHelper.GetLanguageSetting(slot2.id)
-	slot5 = pg.ship_skin_words[slot2.id].voice_key_2 >= 0 or slot3.voice_key_2 == -2
+	slot3 = pg.ship_skin_words[slot0.skin.id]
+	slot4 = ShipWordHelper.GetLanguageSetting(slot0.skin.id)
+	slot5 = setmetatable({}, {
+		__index = function (slot0, slot1)
+			if slot1 == "voice_key_2" and pg.ship_skin_words[uv0.skin.id][slot1] == 0 then
+				rawset(slot0, slot1, pg.ship_skin_words[uv1.id][slot1])
+			else
+				rawset(slot0, slot1, pg.ship_skin_words[uv0.skin.id][slot1])
+			end
+
+			return slot0[slot1]
+		end
+	}).voice_key_2 >= 0 or slot3.voice_key_2 == -2
 
 	if slot3.voice_key_2 >= 0 and slot4 == 0 then
 		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot1, pg.gameset.language_default.key_value)
@@ -166,16 +177,13 @@ slot0.UpdateLanguage = function(slot0)
 	slot0:OnCvBtn(slot4 == 2)
 
 	if slot3.voice_key_2 >= 0 or slot3.voice_key_2 == -2 then
-		slot7 = ""
-
 		if slot3.voice_key_2 % 10 == 2 then
-			slot7 = i18n("word_chinese")
+			slot0.voiceBtnTxt.text = i18n("word_chinese")
+			slot0.voiceBtnTxt1.text = i18n("word_japanese")
 		elseif slot6 == 3 then
-			slot7 = i18n("word_japanese_2")
+			slot0.voiceBtnTxt.text = i18n("word_japanese_2")
+			slot0.voiceBtnTxt1.text = i18n("word_japanese_3")
 		end
-
-		slot0.voiceBtnTxt.text = slot7
-		slot0.voiceBtnTxt1.text = i18n("word_japanese")
 	end
 
 	setActive(slot0.voiceBtn, slot5)

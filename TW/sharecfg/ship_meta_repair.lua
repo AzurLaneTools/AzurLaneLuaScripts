@@ -24220,6 +24220,506 @@ pg.ship_meta_repair = {
 			3
 		}
 	},
+	[50101] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50101,
+		item_num = 4,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50102] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50102,
+		item_num = 4,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50103] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50103,
+		item_num = 4,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50104] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50104,
+		item_num = 4,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50105] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50105,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50106] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50106,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50107] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50107,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50108] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50108,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50109] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50109,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50110] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50110,
+		item_num = 12,
+		effect_attr = {
+			"cannon",
+			1
+		}
+	},
+	[50111] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50111,
+		item_num = 12,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	},
+	[50112] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50112,
+		item_num = 12,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	},
+	[50113] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50113,
+		item_num = 12,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	},
+	[50114] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50114,
+		item_num = 12,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	},
+	[50115] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50115,
+		item_num = 16,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	},
+	[50116] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50116,
+		item_num = 16,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	},
+	[50117] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50117,
+		item_num = 16,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	},
+	[50118] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50118,
+		item_num = 16,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	},
+	[50119] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50119,
+		item_num = 16,
+		effect_attr = {
+			"cannon",
+			3
+		}
+	},
+	[50120] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50120,
+		item_num = 20,
+		effect_attr = {
+			"cannon",
+			3
+		}
+	},
+	[50121] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50121,
+		item_num = 20,
+		effect_attr = {
+			"cannon",
+			3
+		}
+	},
+	[50122] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50122,
+		item_num = 20,
+		effect_attr = {
+			"cannon",
+			3
+		}
+	},
+	[50123] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50123,
+		item_num = 20,
+		effect_attr = {
+			"cannon",
+			3
+		}
+	},
+	[50124] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50124,
+		item_num = 20,
+		effect_attr = {
+			"cannon",
+			3
+		}
+	},
+	[50125] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50125,
+		item_num = 24,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	},
+	[50126] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50126,
+		item_num = 24,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	},
+	[50127] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50127,
+		item_num = 24,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	},
+	[50128] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50128,
+		item_num = 24,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	},
+	[50129] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50129,
+		item_num = 24,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	},
+	[50130] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 50130,
+		item_num = 28,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	},
+	[50401] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50401,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	},
+	[50402] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50402,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	},
+	[50403] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50403,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	},
+	[50404] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50404,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	},
+	[50405] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50405,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			1
+		}
+	},
+	[50406] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50406,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			1
+		}
+	},
+	[50407] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50407,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			1
+		}
+	},
+	[50408] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50408,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	},
+	[50409] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50409,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	},
+	[50410] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50410,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			2
+		}
+	},
+	[50411] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50411,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			2
+		}
+	},
+	[50412] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50412,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			2
+		}
+	},
+	[50413] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50413,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	},
+	[50414] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50414,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	},
+	[50415] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50415,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			3
+		}
+	},
+	[50416] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50416,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			3
+		}
+	},
+	[50417] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50417,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	},
+	[50418] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50418,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	},
+	[50419] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50419,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	},
+	[50420] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 50420,
+		item_num = 20,
+		effect_attr = {
+			"reload",
+			4
+		}
+	},
 	all = {
 		1301,
 		1302,
@@ -26642,6 +27142,56 @@ pg.ship_meta_repair = {
 		48417,
 		48418,
 		48419,
-		48420
+		48420,
+		50101,
+		50102,
+		50103,
+		50104,
+		50105,
+		50106,
+		50107,
+		50108,
+		50109,
+		50110,
+		50111,
+		50112,
+		50113,
+		50114,
+		50115,
+		50116,
+		50117,
+		50118,
+		50119,
+		50120,
+		50121,
+		50122,
+		50123,
+		50124,
+		50125,
+		50126,
+		50127,
+		50128,
+		50129,
+		50130,
+		50401,
+		50402,
+		50403,
+		50404,
+		50405,
+		50406,
+		50407,
+		50408,
+		50409,
+		50410,
+		50411,
+		50412,
+		50413,
+		50414,
+		50415,
+		50416,
+		50417,
+		50418,
+		50419,
+		50420
 	}
 }

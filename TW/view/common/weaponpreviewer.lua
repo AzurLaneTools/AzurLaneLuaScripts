@@ -91,9 +91,10 @@ slot0.load = function(slot0, slot1, slot2, slot3, slot4)
 			slot2.localPosition = uv2
 			slot2.localEulerAngles = uv3
 			uv0.seaAnimator = slot2:GetComponent("SpineAnim")
+			uv0.skeletonAnimation = slot2:GetComponent("SkeletonAnimation")
 			uv0.characterAction = ys.Battle.BattleConst.ActionName.MOVE
 
-			uv0.seaAnimator:SetAction(uv0.characterAction, 0, true)
+			uv0:setSeaAction(uv0.characterAction, 0, true)
 
 			uv0.seaFXList = {}
 			uv0._FXAttachPoint = GameObject()
@@ -184,6 +185,12 @@ slot0.attachOrbit = function(slot0)
 	end
 end
 
+slot0.setSeaAction = function(slot0, slot1, slot2, slot3)
+	if slot0.seaAnimator then
+		slot0.seaAnimator:SetAction(SpineAnimUtil.GetCharAnimDirect(slot0.skeletonAnimation, 1, slot1), 0, slot3)
+	end
+end
+
 slot0.playShipAnims = function(slot0)
 	if slot0.loaded and slot0.seaAnimator then
 		slot1 = {
@@ -197,16 +204,16 @@ slot0.playShipAnims = function(slot0)
 				uv0.seaAnimator:SetActionCallBack(nil)
 			end
 
-			slot1 = uv0.seaAnimator
+			slot1 = uv0
 
-			slot1:SetAction(uv1[slot0], 0, false)
+			slot1:setSeaAction(uv1[slot0], 0, false)
 
 			slot1 = uv0.seaAnimator
 
 			slot1:SetActionCallBack(function (slot0)
 				if slot0 == "finish" then
 					uv0.seaAnimator:SetActionCallBack(nil)
-					uv0.seaAnimator:SetAction("stand", 0, false)
+					uv0:setSeaAction("stand", 0, false)
 				end
 			end)
 		end
@@ -337,9 +344,9 @@ slot0.SeaFire = function(slot0)
 
 				if slot0.tmpData.action_index ~= "" then
 					uv0.characterAction = slot0.tmpData.action_index
-					slot2 = uv0.seaAnimator
+					slot2 = uv0
 
-					slot2:SetAction(uv0.characterAction, 0, false)
+					slot2:setSeaAction(uv0.characterAction, 0, false)
 
 					slot2 = uv0.seaAnimator
 
@@ -358,7 +365,7 @@ slot0.SeaFire = function(slot0)
 			if uv0.characterAction ~= ys.Battle.BattleConst.ActionName.MOVE then
 				uv0.characterAction = ys.Battle.BattleConst.ActionName.MOVE
 
-				uv0.seaAnimator:SetAction(uv0.characterAction, 0, true)
+				uv0:setSeaAction(uv0.characterAction, 0, true)
 
 				uv1 = 1
 

@@ -312,6 +312,11 @@ pg.task_meta_data_template = setmetatable({
 		100443,
 		100444,
 		100445,
+		100451,
+		100452,
+		100453,
+		100454,
+		100455,
 		200001,
 		200002,
 		200003,
@@ -447,7 +452,11 @@ pg.task_meta_data_template = setmetatable({
 		200341,
 		200342,
 		200343,
-		200344
+		200344,
+		200361,
+		200362,
+		200363,
+		200364
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2932,6 +2941,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用{namecode:300}·META击破等级＞100的敌方1次"
 	},
+	[100451] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100451,
+		target_num = 1,
+		desc = "使用敦克爾克·META獲得1次勝利"
+	},
+	[100452] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100452,
+		target_num = 1,
+		desc = "使用敦克爾克·META擊破等級＞30的敵方1次"
+	},
+	[100453] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100453,
+		target_num = 1,
+		desc = "使用敦克爾克·META擊破等級＞55的敵方1次"
+	},
+	[100454] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100454,
+		target_num = 1,
+		desc = "使用敦克爾克·META擊破等級＞80的敵方1次"
+	},
+	[100455] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100455,
+		target_num = 1,
+		desc = "使用敦克爾克·META擊破等級＞100的敵方1次"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4019,5 +4068,37 @@ pg.base.task_meta_data_template = {
 		id = 200344,
 		target_num = 1,
 		desc = "大型作戰內使用光榮·META擊破等級＞100的敵方1次"
+	},
+	[200361] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970406",
+		id = 200361,
+		target_num = 1,
+		desc = "大型作戰內使用敦克爾克·META獲得1次勝利"
+	},
+	[200362] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970406",
+		id = 200362,
+		target_num = 1,
+		desc = "大型作戰內使用敦克爾克·META擊破等級＞70的敵方1次"
+	},
+	[200363] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970406",
+		id = 200363,
+		target_num = 1,
+		desc = "大型作戰內使用敦克爾克·META擊破等級＞90的敵方1次"
+	},
+	[200364] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970406",
+		id = 200364,
+		target_num = 1,
+		desc = "大型作戰內使用敦克爾克·META擊破等級＞100的敵方1次"
 	}
 }

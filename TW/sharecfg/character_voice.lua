@@ -111,7 +111,7 @@ pg.character_voice = {
 		spine_action = "normal",
 		profile_index = 9,
 		sp_trans_l2d = 0,
-		l2d_action = "main_3",
+		l2d_action = "main_6",
 		unlock_condition = {
 			0,
 			0
@@ -864,6 +864,32 @@ pg.character_voice = {
 		resource_key = "atelier_yumia_item_12",
 		spine_action = "stand",
 		profile_index = 67,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	skill_dal_1 = {
+		voice_name = "技能EX-1",
+		key = "skill_dal_1",
+		resource_key = "skill_dal_1",
+		spine_action = "stand",
+		profile_index = 68,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	skill_dal_2 = {
+		voice_name = "技能EX-2",
+		key = "skill_dal_2",
+		resource_key = "skill_dal_2",
+		spine_action = "stand",
+		profile_index = 69,
 		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {

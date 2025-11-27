@@ -46,6 +46,8 @@ slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._streak = slot3.streakRange
 	slot0._dungeonTypeList = slot3.dungeonTypeList
 	slot0._effectAttachData = slot3.effectAttachData
+	slot0._repeatCount = slot3.repeat_count or 1
+	slot0._attrConsumeRepeat = slot3.fleetAttrConsume
 	slot0._group = slot3.group
 	slot0._srcBuff = slot2
 end
@@ -179,7 +181,15 @@ slot1.castSkill = function(slot0, slot1, slot2, slot3)
 		end
 
 		if slot11 then
-			slot0:spell(slot10, slot2)
+			slot12 = nil
+
+			if ((not slot0._attrConsumeRepeat or slot0:fleetAttrRepeatConsume(slot0._attrConsumeRepeat)) and slot0:repeatCountParse(slot0._repeatCount)) == -1 then
+				slot12 = srcBuff:GetStack()
+			end
+
+			for slot16 = 1, slot12 do
+				slot0:spell(slot10, slot2)
+			end
 		end
 	end
 

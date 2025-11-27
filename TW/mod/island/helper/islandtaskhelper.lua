@@ -69,6 +69,9 @@ slot0.GetRuntimeData = function(slot0, slot1)
 		end,
 		[IslandTaskTargetType.SHIP_DRESS_ID] = function ()
 			return uv0:GetDressIdRealCount(uv1)
+		end,
+		[IslandTaskTargetType.ACTIVITY_ORDER] = function ()
+			return uv0:GetOrderAgency():GetFinishedCntByActId(uv1)
 		end
 	}, function ()
 		assert(false, "not exist runtime type: " .. uv0)
@@ -228,6 +231,14 @@ slot0.FixTaskLinksStory = function(slot0)
 
 	for slot6, slot7 in ipairs(slot1:GetFinishedIds()) do
 		table.insertto(slot2, uv0._GetFinishTaskLinkStoryIds(slot7))
+	end
+
+	for slot6 = 3110000, 3119999 do
+		if pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot6) and pg.NewStoryMgr.GetInstance():GetPlayedFlag(slot6) then
+			for slot12, slot13 in ipairs(IslandPerformancePerformer.GetStoryNameList(slot7)) do
+				table.insert(slot2, slot13)
+			end
+		end
 	end
 
 	if #slot2 > 0 then

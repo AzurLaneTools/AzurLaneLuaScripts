@@ -24,6 +24,20 @@ slot0.InitData = function(slot0, slot1)
 		table.insert(slot0.awardIndexList, slot6)
 	end
 
+	slot0.actFinishedGroupsMap = {}
+	slot2 = ipairs
+	slot3 = slot1.act_group or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot7 = {}
+
+		for slot11, slot12 in ipairs(slot6.groups) do
+			table.insert(slot7, slot12)
+		end
+
+		slot0.actFinishedGroupsMap[slot6.act_id] = slot7
+	end
+
 	slot0.slotList = {}
 	slot2 = ipairs
 	slot3 = slot1.slot_list or {}
@@ -330,6 +344,48 @@ end
 slot0.SetCacheSelectedId = function(slot0, slot1)
 	PlayerPrefs.SetInt(uv0 .. getProxy(PlayerProxy):getRawData().id, slot1)
 	PlayerPrefs.Save()
+end
+
+slot0.AddFinishedActGroupId = function(slot0, slot1, slot2)
+	if not slot0.actFinishedGroupsMap[slot1] then
+		slot0.actFinishedGroupsMap[slot1] = {}
+	end
+
+	if not table.contains(slot0.actFinishedGroupsMap[slot1], slot2) then
+		table.insert(slot0.actFinishedGroupsMap[slot1], slot2)
+	end
+end
+
+slot0.GetFinishedCntByActId = function(slot0, slot1)
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(pg.island_order.get_id_list_by_activity_id[slot1]) do
+		if not slot4[slot2[slot9].group_id] then
+			slot4[slot10] = {}
+		end
+
+		table.insert(slot4[slot10], slot9)
+	end
+
+	slot5 = 0
+	slot6 = ipairs
+	slot7 = slot0.actFinishedGroupsMap[slot1] or {}
+
+	for slot9, slot10 in slot6(slot7) do
+		slot5 = slot5 + #slot4[slot10]
+	end
+
+	for slot9, slot10 in pairs(slot0.slotList) do
+		if isa(slot10:GetOrder(), IslandFirmActivityOrder) and slot11:GetActivityId() == slot1 then
+			slot12 = slot4[slot11:GetGroupId()]
+
+			table.sort(slot12)
+
+			slot5 = slot5 + table.indexof(slot12, slot11.id) - 1
+		end
+	end
+
+	return slot5
 end
 
 slot0.UpdatePerDay = function(slot0)

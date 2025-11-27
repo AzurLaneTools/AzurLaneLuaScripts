@@ -171,6 +171,10 @@ slot0.RemoveShip = function(slot0, slot1)
 	slot0.ships[slot1.id] = nil
 
 	slot0:DispatchEvent(CourtYardEvent.DETORY_ITEM, slot1)
+
+	if slot0.ships[slot1.id + CourtYardConst.DOUBLE_SKIN_ADD] then
+		slot0:RemoveShip(slot0.ships[slot1.id + CourtYardConst.DOUBLE_SKIN_ADD])
+	end
 end
 
 slot0.ExitShip = function(slot0, slot1)

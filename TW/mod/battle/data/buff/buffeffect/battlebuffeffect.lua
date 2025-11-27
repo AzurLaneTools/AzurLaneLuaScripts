@@ -227,6 +227,33 @@ slot3.fleetAttrDelatRequire = function(slot0, slot1)
 	return true
 end
 
+slot3.fleetAttrRepeatConsume = function(slot0, slot1)
+	slot4 = math.modf(slot0._caster:GetFleetVO():GetFleetAttr():GetCurrent(slot1.attrName) / slot1.value)
+
+	if slot1.repeatCeil then
+		slot4 = math.min(slot1.repeatCeil, slot4)
+	end
+
+	slot2:SetCurrent(slot1.attrName, slot3 - slot4 * slot1.value)
+
+	return slot4
+end
+
+slot3.repeatCountParse = function(slot0, slot1)
+	if type(slot1) == "number" then
+		return slot1
+	elseif slot2 == "string" then
+		slot3, slot4 = string.find(slot1, "%p+")
+		slot6 = string.sub(slot1, slot4 + 1, #slot1)
+
+		if string.sub(slot1, 1, slot3 - 1) == "fleetAttr" then
+			return slot0._caster:GetFleetVO():GetFleetAttr():GetCurrent(slot6)
+		elseif slot5 == "attr" then
+			return slot0._caster:GetAttrByName(slot6)
+		end
+	end
+end
+
 slot3.equipIndexRequire = function(slot0, slot1)
 	if not slot0._indexRequire then
 		return true
@@ -490,6 +517,10 @@ slot3.onStartGame = function(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
+slot3.onFinishGame = function(slot0, slot1, slot2)
+	slot0:onTrigger(slot1, slot2)
+end
+
 slot3.onManual = function(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
@@ -499,6 +530,10 @@ slot3.onAutoBot = function(slot0, slot1, slot2)
 end
 
 slot3.onFlagShip = function(slot0, slot1, slot2)
+	slot0:onTrigger(slot1, slot2)
+end
+
+slot3.onDALCollabFlagShip = function(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 

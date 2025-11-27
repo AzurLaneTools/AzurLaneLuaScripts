@@ -180,6 +180,10 @@ slot0.getTalkingList = function(slot0, slot1)
 end
 
 slot0.getForceEnterTalking = function(slot0, slot1)
+	if DORM_LOCK_GUIDE then
+		return {}
+	end
+
 	return slot0:getTalkingList({
 		unplay = true,
 		unlock = true,

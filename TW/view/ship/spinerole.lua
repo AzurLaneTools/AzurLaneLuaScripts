@@ -4,12 +4,12 @@ slot0.STATE_LOADING = 1
 slot0.STATE_INITED = 2
 slot0.STATE_DISPOSE = 3
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.state = uv0.STATE_EMPTY
 
 	if slot1 then
 		slot0.ship = slot1
-		slot0.prefabName = slot0.ship:getPrefab()
+		slot0.prefabName = slot0.ship:getPrefab(slot2)
 	end
 end
 
@@ -34,16 +34,17 @@ slot0.Load = function(slot0, slot1, slot2, slot3)
 		if uv0.state == uv1.STATE_DISPOSE then
 			PoolMgr.GetInstance():ReturnSpineChar(uv0.prefabName, slot0)
 		else
-			uv0.modelRoot = GameObject.New(uv0.prefabName .. "_root")
+			uv0._modelRoot = GameObject.New(uv0.prefabName .. "_root")
 
-			uv0.modelRoot:AddComponent(typeof(RectTransform))
+			uv0._modelRoot:AddComponent(typeof(RectTransform))
 
-			uv0.model = slot0
-			uv0.model.transform.localScale = Vector3.one
+			uv0._model = slot0
+			uv0._model.transform.localScale = Vector3.one
+			uv0._modelScale = Vector3.one
 
-			uv0.model.transform:SetParent(uv0.modelRoot.transform, false)
+			uv0._model.transform:SetParent(uv0._modelRoot.transform, false)
 
-			uv0.model.transform.localPosition = Vector3.zero
+			uv0._model.transform.localPosition = Vector3.zero
 
 			uv0:Init()
 
@@ -70,9 +71,11 @@ slot0.LoadLite = function(slot0, slot1, slot2)
 		if uv0.state == uv1.STATE_DISPOSE then
 			PoolMgr.GetInstance():ReturnSpineChar(uv0.prefabName, slot0)
 		else
-			uv0.model = slot0
-			uv0.model.transform.localScale = Vector3.one
-			uv0.model.transform.localPosition = Vector3.zero
+			uv0._modelRoot = slot0
+			uv0._model = slot0
+			uv0._model.transform.localScale = Vector3.one
+			uv0._modelScale = Vector3.one
+			uv0._model.transform.localPosition = Vector3.zero
 
 			uv0:Init()
 
@@ -85,8 +88,8 @@ end
 
 slot0.Init = function(slot0)
 	slot0.state = uv0.STATE_INITED
-	slot0._modleGraphic = slot0.model:GetComponent("SkeletonGraphic")
-	slot0._modleAnim = slot0.model:GetComponent("SpineAnimUI")
+	slot0._modleGraphic = slot0._model:GetComponent("SkeletonGraphic")
+	slot0._modleAnim = slot0._model:GetComponent("SpineAnimUI")
 	slot0._attachmentList = {}
 	slot0._visible = true
 end
@@ -104,51 +107,75 @@ slot0.AttachOrbit = function(slot0, slot1)
 		end
 
 		if slot11 ~= "" then
-			slot13 = ResourceMgr.Inst
+			slot12 = slot9.orbit_ui_bound[1]
+			slot14 = slot0._modleGraphic.Skeleton:FindBoneIndex("char1_" .. slot12)
+			slot15 = slot0._modleGraphic.Skeleton:FindBoneIndex("char2_" .. slot12)
+			slot16 = slot9.double_char_bone
+			slot17 = ys.Battle.BattleResourceManager.GetOrbitPath(slot11)
 
-			slot13:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot11), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				if uv0.state ~= uv1.STATE_DISPOSE then
-					slot1 = uv2 .. "_bound"
-					slot2 = uv3[slot1][1]
-					slot3 = uv3[slot1][2]
-
-					for slot9, slot10 in ipairs(Object.Instantiate(slot0):GetComponentsInChildren(typeof(Spine.Unity.SkeletonGraphic)):ToTable()) do
-						slot10.raycastTarget = false
-					end
-
-					slot4.transform.localPosition = Vector2(slot3[1], slot3[2])
-					slot6 = SpineAnimUI.AddFollower(slot2, uv0.model.transform, slot4.transform)
-					slot4.transform.localScale = Vector3.one
-					uv0._attachmentList[slot6] = {
-						p = uv4,
-						hiddenActionList = uv3.orbit_hidden_action,
-						index = uv5,
-						back = uv3.orbit_ui_back
-					}
-					slot7 = slot6:GetComponent("Spine.Unity.BoneFollowerGraphic")
-
-					if uv3.orbit_rotate then
-						slot7.followBoneRotation = true
-						slot8 = slot4.transform.localEulerAngles
-						slot4.transform.localEulerAngles = Vector3(slot8.x, slot8.y, slot8.z - 90)
-					else
-						slot7.followBoneRotation = false
-					end
-
-					if uv3.orbit_ui_back == 1 then
-						slot6:SetParent(uv0.modelRoot.transform, false)
-						slot6:SetAsFirstSibling()
-					else
-						slot6:SetParent(uv0.modelRoot.transform, false)
-						slot6:SetAsLastSibling()
-					end
-
-					SetActive(slot6, uv0._visible)
-					uv0:sortAttachmentGO()
+			if (slot0.ship and slot0.ship:IsDoubleSkin() and true or false) and (slot14 >= 0 or slot15 > 0) or slot14 >= 0 and slot15 > 0 then
+				if slot15 >= 0 and slot16 and #slot16 > 0 and slot16[1] == 1 then
+					slot0:loadOrbitUI(slot17, slot2, slot11, "char2" .. "_" .. slot12, slot10, slot9)
 				end
-			end), true, true)
+
+				if slot16 and #slot16 > 0 and slot16[2] == 1 then
+					slot0:loadOrbitUI(slot17, slot2, slot11, slot12, slot10, slot9)
+				end
+
+				if slot14 >= 0 and slot16 and #slot16 > 0 and slot16[3] == 1 then
+					slot0:loadOrbitUI(slot17, slot2, slot11, "char1" .. "_" .. slot12, slot10, slot9)
+				end
+			else
+				slot0:loadOrbitUI(slot17, slot2, slot11, slot12, slot10, slot9)
+			end
 		end
 	end
+end
+
+slot0.loadOrbitUI = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot7 = ResourceMgr.Inst
+
+	slot7:getAssetAsync(slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		if uv0.state ~= uv1.STATE_DISPOSE then
+			slot1 = uv2 .. "_bound"
+			slot2 = uv3[slot1][1]
+			slot3 = uv3[slot1][2]
+
+			for slot9, slot10 in ipairs(Object.Instantiate(slot0):GetComponentsInChildren(typeof(Spine.Unity.SkeletonGraphic)):ToTable()) do
+				slot10.raycastTarget = false
+			end
+
+			slot4.transform.localPosition = Vector2(slot3[1], slot3[2])
+			slot4.transform.localScale = Vector3.one
+			slot6 = SpineAnimUI.AddFollower(uv4, uv0._model.transform, slot4.transform)
+			uv0._attachmentList[slot6] = {
+				p = uv5,
+				hiddenActionList = uv3.orbit_hidden_action,
+				index = uv6,
+				back = uv3.orbit_ui_back
+			}
+			slot7 = slot6:GetComponent("Spine.Unity.BoneFollowerGraphic")
+
+			if uv3.orbit_rotate then
+				slot7.followBoneRotation = true
+				slot8 = slot4.transform.localEulerAngles
+				slot4.transform.localEulerAngles = Vector3(slot8.x, slot8.y, slot8.z - 90)
+			else
+				slot7.followBoneRotation = false
+			end
+
+			if uv3.orbit_ui_back == 1 then
+				slot6:SetParent(uv0._modelRoot.transform, false)
+				slot6:SetAsFirstSibling()
+			else
+				slot6:SetParent(uv0._modelRoot.transform, false)
+				slot6:SetAsLastSibling()
+			end
+
+			SetActive(slot6, uv0._visible)
+			uv0:sortAttachmentGO()
+		end
+	end), true, true)
 end
 
 slot0.sortAttachmentGO = function(slot0)
@@ -189,12 +216,50 @@ slot0.CheckInited = function(slot0)
 end
 
 slot0.GetName = function(slot0)
-	return slot0.modelRoot.name
+	if slot0:CheckInited() then
+		return slot0._modelRoot.name
+	end
 end
 
-slot0.SetParent = function(slot0, slot1)
+slot0.SetName = function(slot0, slot1)
 	if slot0:CheckInited() then
-		SetParent(slot0.modelRoot, slot1, false)
+		slot0._modelRoot.name = slot1
+	end
+end
+
+slot0.GetRoleModel = function(slot0)
+	if slot0:CheckInited() then
+		return slot0._model
+	end
+
+	return nil
+end
+
+slot0.GetRootModel = function(slot0)
+	if slot0:CheckInited() then
+		return slot0._modelRoot
+	end
+
+	return nil
+end
+
+slot0.GetSpineAnimUI = function(slot0)
+	if slot0:CheckInited() then
+		return slot0._modleAnim
+	end
+
+	return nil
+end
+
+slot0.SetSiblingIndex = function(slot0, slot1)
+	if slot0:CheckInited() then
+		slot0._modelRoot.transform:SetSiblingIndex(slot1)
+	end
+end
+
+slot0.SetParent = function(slot0, slot1, slot2)
+	if slot0:CheckInited() then
+		SetParent(tf(slot0._modelRoot), tf(slot1), slot2 and true or false)
 	end
 end
 
@@ -204,9 +269,15 @@ slot0.SetRaycastTarget = function(slot0, slot1)
 	end
 end
 
+slot0.GetSkeletonGraphic = function(slot0)
+	if slot0:CheckInited() then
+		return slot0._modleGraphic
+	end
+end
+
 slot0.ModifyName = function(slot0, slot1)
 	if slot0:CheckInited() then
-		slot0.modelRoot.name = slot1
+		slot0._modelRoot.name = slot1
 	end
 end
 
@@ -221,12 +292,30 @@ slot0.SetVisible = function(slot0, slot1)
 	end
 end
 
+slot0.SetAnchoredPosition3D = function(slot0, slot1)
+	if slot0:CheckInited() then
+		slot0._modelRoot.transform.anchoredPosition3D = slot1
+	end
+end
+
 slot0.SetAction = function(slot0, slot1)
 	if not slot0:CheckInited() then
 		return
 	end
 
-	slot0._modleAnim:SetAction(slot1, 0)
+	slot3, slot4 = SpineAnimUtil.GetCharAnimationDirect(slot0._modleGraphic, math.sign(slot0._modelRoot.transform.localScale.x), slot1)
+
+	if slot4 then
+		slot0._model.transform.localScale = Vector3(slot2, slot0._modelScale.y, slot0._modelScale.z)
+	else
+		slot0._model.transform.localScale = slot0._modelScale
+	end
+
+	print("root朝向 =" .. slot2 .. "，model朝向 =" .. slot2 .. "播放动作:" .. slot3)
+	slot0._modleAnim:SetAction(slot3, 0)
+
+	slot0._action = slot1
+
 	slot0:HiddenAttachmentByAction(slot1)
 end
 
@@ -255,25 +344,41 @@ end
 
 slot0.SetSizeDelta = function(slot0, slot1)
 	if slot0:CheckInited() then
-		rtf(slot0.modelRoot).sizeDelta = slot1
+		rtf(slot0._modelRoot).sizeDelta = slot1
 	end
 end
 
 slot0.SetLocalScale = function(slot0, slot1)
 	if slot0:CheckInited() then
-		slot0.modelRoot.transform.localScale = slot1
+		slot0._modelRoot.transform.localScale = slot1
+
+		if slot0._action then
+			slot0:SetAction(slot0._action)
+		end
 	end
 end
 
-slot0.SetLocalPos = function(slot0, slot1)
+slot0.GetLocalScale = function(slot0)
 	if slot0:CheckInited() then
-		slot0.modelRoot.transform.localPosition = slot1
+		return slot0._modelRoot.transform.localScale
+	end
+end
+
+slot0.SetLocalPosition = function(slot0, slot1)
+	if slot0:CheckInited() then
+		slot0._modelRoot.transform.localPosition = slot1
+	end
+end
+
+slot0.SetAsFirstSibling = function(slot0)
+	if slot0:CheckInited() then
+		slot0._modelRoot.transform:SetAsFirstSibling()
 	end
 end
 
 slot0.SetLayer = function(slot0, slot1)
 	if slot0:CheckInited() then
-		pg.ViewUtils.SetLayer(slot0.modelRoot.transform, slot1)
+		pg.ViewUtils.SetLayer(slot0._modelRoot.transform, slot1)
 	end
 end
 
@@ -282,7 +387,7 @@ slot0.TweenShining = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 		slot0:StopTweenShining()
 
 		slot11 = slot0._modleGraphic.material
-		slot12 = LeanTween.value(slot0.modelRoot, slot3, slot4, slot1)
+		slot12 = LeanTween.value(slot0._modelRoot, slot3, slot4, slot1)
 		slot12 = slot12:setEase(LeanTweenType.easeInOutSine)
 		slot12 = slot12:setOnUpdate(System.Action_float(function (slot0)
 			if uv0 then
@@ -350,7 +455,7 @@ end
 slot0.CreateInterface = function(slot0)
 	slot0._mouseChild = GameObject("mouseChild")
 
-	slot0._mouseChild.transform:SetParent(slot0.modelRoot.transform, false)
+	slot0._mouseChild.transform:SetParent(slot0._modelRoot.transform, false)
 
 	slot0._mouseChild.transform.localPosition = Vector3.zero
 	slot0._modelClick = GetOrAddComponent(slot0._mouseChild, "ModelDrag")
@@ -390,7 +495,7 @@ slot0.Dispose = function(slot0)
 	if slot0.state == uv0.STATE_INITED then
 		slot0:StopTweenShining()
 		slot0:RevertMaterial()
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0.model)
+		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0._model)
 		slot0:SetVisible(true)
 		slot0._modleGraphic.material:SetColor("_Color", Color.New(0, 0, 0, 0))
 
@@ -402,7 +507,7 @@ slot0.Dispose = function(slot0)
 			Object.Destroy(slot4.gameObject)
 		end
 
-		slot0.model = nil
+		slot0._model = nil
 		slot0.prefabName = nil
 		slot0.ship = nil
 		slot0.attachmentData = nil

@@ -23,6 +23,7 @@ slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._maxHPNumber = slot4 * slot0._maxHPRatio
 	slot0._castMaxHPRatio = slot0._tempData.arg_list.casterMaxHPRatio or 0
 	slot0._castMaxHPNumber = slot0._castMaxHPRatio * slot6
+	slot0._castHPRatio = slot0._tempData.arg_list.casterHPRatio or 0
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
 	slot0._damageConvert = 0
 
@@ -89,5 +90,5 @@ slot1.onTrigger = function(slot0, slot1, slot2)
 end
 
 slot1.CalcNumber = function(slot0, slot1)
-	return math.floor((slot1:GetHP() * slot0._currentHPRatio + slot0._maxHPNumber + slot0._number + slot0._castMaxHPNumber) * (slot0._caster:GetAttrByName("healingEnhancement") + 1))
+	return math.floor((slot1:GetHP() * slot0._currentHPRatio + slot0._maxHPNumber + slot0._number + slot0._castMaxHPNumber + slot0._caster:GetHP() * slot0._castHPRatio) * (slot0._caster:GetAttrByName("healingEnhancement") + 1))
 end

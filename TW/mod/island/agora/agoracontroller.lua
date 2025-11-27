@@ -107,6 +107,7 @@ end
 
 slot0.InitSyncMgr = function(slot0)
 	slot0.islandSyncMgr:Init(slot0.sceneData.unitList, slot0.agora:GetAllVirtualInteractUnitData())
+	slot0:NotifiyCore(ISLAND_EVT.INIT_INTERACTION_OP_VIEW)
 end
 
 slot0.PaveLayers = function(slot0, slot1, slot2)

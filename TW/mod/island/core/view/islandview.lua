@@ -210,6 +210,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.WORLD_OBJECT_START_INTERACTION, slot0.OnWorldObjectStartInteraction)
 	slot0:AddListener(ISLAND_EVT.WORLD_OBJECT_END_INTERACTION, slot0.OnWorldObjectEndInteraction)
 	slot0:AddListener(ISLAND_EVT.WORLD_OBJECT_INIT_STATUS, slot0.OnWorldObjectInitStatus)
+	slot0:AddListener(ISLAND_EVT.INIT_INTERACTION_OP_VIEW, slot0.InitInteractionOpView)
 	slot0:AddListener(ISLAND_EVT.REFRESH_INTERACTION, slot0.OnRefreshInteractionBtn)
 	slot0:AddListener(ISLAND_EVT.SHOW_UNIT_HUD_OP, slot0.OnShowUnitHudAndOpBtn)
 	slot0:AddListener(ISLAND_EVT.HIDE_UNIT_HUD_OP, slot0.OnHideUnitHudAndOpBtn)
@@ -308,6 +309,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.WORLD_OBJECT_START_INTERACTION, slot0.OnWorldObjectStartInteraction)
 	slot0:RemoveListener(ISLAND_EVT.WORLD_OBJECT_END_INTERACTION, slot0.OnWorldObjectEndInteraction)
 	slot0:RemoveListener(ISLAND_EVT.WORLD_OBJECT_INIT_STATUS, slot0.OnWorldObjectInitStatus)
+	slot0:RemoveListener(ISLAND_EVT.INIT_INTERACTION_OP_VIEW, slot0.InitInteractionOpView)
 	slot0:RemoveListener(ISLAND_EVT.REFRESH_INTERACTION, slot0.OnRefreshInteractionBtn)
 	slot0:RemoveListener(ISLAND_EVT.SHOW_UNIT_HUD_OP, slot0.OnShowUnitHudAndOpBtn)
 	slot0:RemoveListener(ISLAND_EVT.HIDE_UNIT_HUD_OP, slot0.OnHideUnitHudAndOpBtn)
@@ -1262,6 +1264,10 @@ end
 
 slot0.OnWorldObjectInitStatus = function(slot0, slot1, slot2)
 	slot0:GetUnitModule(slot1.id):InitStatus(slot2, slot1:GetTimeline()[slot2], slot1:GetBlackboardParam()[slot2])
+end
+
+slot0.InitInteractionOpView = function(slot0)
+	slot0:GetSubView(IslandOpView):EndInteraction()
 end
 
 slot0.OnPlayerAreaChange = function(slot0)

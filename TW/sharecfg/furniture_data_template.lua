@@ -176,6 +176,7 @@ pg.furniture_data_template = setmetatable({
 			317,
 			318,
 			320,
+			321,
 			100002,
 			100003,
 			100004,
@@ -225,6 +226,7 @@ pg.furniture_data_template = setmetatable({
 			100050,
 			100051,
 			100052,
+			100053,
 			100055,
 			200001,
 			200002,
@@ -3376,6 +3378,36 @@ pg.furniture_data_template = setmetatable({
 			329118,
 			329119,
 			329120
+		},
+		[131] = {
+			331001,
+			331002,
+			331101,
+			331102,
+			331103,
+			331104,
+			331105,
+			331106,
+			331107,
+			331108,
+			331109,
+			331110,
+			331111,
+			331112,
+			331113,
+			331114,
+			331115,
+			331116,
+			331117,
+			331301,
+			331302,
+			331303,
+			331304,
+			331305,
+			331306,
+			331307,
+			331308,
+			331309
 		}
 	},
 	get_id_list_by_tag = {
@@ -5417,7 +5449,24 @@ pg.furniture_data_template = setmetatable({
 			329116,
 			329117,
 			329118,
-			329119
+			329119,
+			331101,
+			331102,
+			331103,
+			331104,
+			331105,
+			331106,
+			331107,
+			331108,
+			331109,
+			331110,
+			331111,
+			331112,
+			331113,
+			331114,
+			331115,
+			331116,
+			331117
 		},
 		{
 			1108,
@@ -5706,6 +5755,7 @@ pg.furniture_data_template = setmetatable({
 			100050,
 			100051,
 			100052,
+			100053,
 			100055,
 			54104,
 			54105
@@ -5776,7 +5826,8 @@ pg.furniture_data_template = setmetatable({
 			311,
 			314,
 			316,
-			318
+			318,
+			321
 		},
 		[7] = {
 			223,
@@ -5970,7 +6021,8 @@ pg.furniture_data_template = setmetatable({
 			325126,
 			328118,
 			330102,
-			329120
+			329120,
+			331309
 		},
 		[4] = {
 			1001,
@@ -6083,7 +6135,8 @@ pg.furniture_data_template = setmetatable({
 			327001,
 			328001,
 			330001,
-			329001
+			329001,
+			331001
 		},
 		[3] = {
 			1002,
@@ -6197,7 +6250,8 @@ pg.furniture_data_template = setmetatable({
 			327002,
 			328002,
 			330002,
-			329002
+			329002,
+			331002
 		},
 		[5] = {
 			1301,
@@ -6546,7 +6600,15 @@ pg.furniture_data_template = setmetatable({
 			325302,
 			325303,
 			327301,
-			327302
+			327302,
+			331301,
+			331302,
+			331303,
+			331304,
+			331305,
+			331306,
+			331307,
+			331308
 		}
 	},
 	get_id_list_by_type = {
@@ -6662,7 +6724,8 @@ pg.furniture_data_template = setmetatable({
 			327002,
 			328002,
 			330002,
-			329002
+			329002,
+			331002
 		},
 		[7] = {
 			1,
@@ -6815,6 +6878,7 @@ pg.furniture_data_template = setmetatable({
 			317,
 			318,
 			320,
+			321,
 			100002,
 			100004,
 			100005,
@@ -6853,6 +6917,7 @@ pg.furniture_data_template = setmetatable({
 			100050,
 			100051,
 			100052,
+			100053,
 			100055
 		},
 		[2] = {
@@ -8886,7 +8951,22 @@ pg.furniture_data_template = setmetatable({
 			329117,
 			329118,
 			329119,
-			329120
+			329120,
+			331101,
+			331102,
+			331103,
+			331104,
+			331105,
+			331106,
+			331107,
+			331108,
+			331111,
+			331112,
+			331113,
+			331114,
+			331115,
+			331116,
+			331117
 		},
 		[11] = {
 			131,
@@ -9071,7 +9151,8 @@ pg.furniture_data_template = setmetatable({
 			327001,
 			328001,
 			330001,
-			329001
+			329001,
+			331001
 		},
 		[5] = {
 			1101,
@@ -9221,7 +9302,9 @@ pg.furniture_data_template = setmetatable({
 			328104,
 			330102,
 			329103,
-			329108
+			329108,
+			331109,
+			331110
 		},
 		[3] = {
 			1108,
@@ -9695,7 +9778,10 @@ pg.furniture_data_template = setmetatable({
 			325302,
 			325303,
 			327301,
-			327302
+			327302,
+			331302,
+			331303,
+			331307
 		},
 		[8] = {
 			17121
@@ -9728,7 +9814,13 @@ pg.furniture_data_template = setmetatable({
 			310304,
 			310305,
 			312301,
-			319301
+			319301,
+			331301,
+			331304,
+			331305,
+			331306,
+			331308,
+			331309
 		},
 		[12] = {
 			46131
@@ -9910,6 +10002,7 @@ pg.furniture_data_template = setmetatable({
 		317,
 		318,
 		320,
+		321,
 		100002,
 		100003,
 		100004,
@@ -9959,6 +10052,7 @@ pg.furniture_data_template = setmetatable({
 		100050,
 		100051,
 		100052,
+		100053,
 		100055,
 		200001,
 		200002,
@@ -12887,7 +12981,35 @@ pg.furniture_data_template = setmetatable({
 		329117,
 		329118,
 		329119,
-		329120
+		329120,
+		331001,
+		331002,
+		331101,
+		331102,
+		331103,
+		331104,
+		331105,
+		331106,
+		331107,
+		331108,
+		331109,
+		331110,
+		331111,
+		331112,
+		331113,
+		331114,
+		331115,
+		331116,
+		331117,
+		331301,
+		331302,
+		331303,
+		331304,
+		331305,
+		331306,
+		331307,
+		331308,
+		331309
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21672,6 +21794,50 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[321] = {
+		can_rotate = 0,
+		describe = "仿照異常海域中心迷宮製造的紀念章，紀念這場與精靈們一同取得的勝利——「DATE A LANE」活動紀念",
+		gain_by = "DATE A LANE",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "惡夢迷宮紀念章",
+		advice = 0,
+		id = 321,
+		tag = 8,
+		comfortable = 0,
+		icon = "dalxunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"dalxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		name = "友情的打氣筒",
@@ -25257,6 +25423,110 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100053] = {
+		advice = 0,
+		name = "真理天平",
+		count = 1,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "mofatianchengicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 100053,
+		comfortable = 0,
+		describe = "宇宙真理盡在其中！（大概）",
+		dorm_id = 0,
+		tag = 6,
+		spine_action_replace = "",
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mofatiancheng",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2",
+						"sit3",
+						"sit4",
+						"sit5"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char1",
+				1
+			},
+			{
+				"char2",
+				1
+			}
 		},
 		interAction_group = {}
 	},
@@ -157307,6 +157577,1282 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[331001] = {
+		can_rotate = 0,
+		describe = "穿梭於雲海，體驗空中艦的力量",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/dibandal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "空中艦地板",
+		advice = 0,
+		tag = 4,
+		id = 331001,
+		icon = "dibandalicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331002] = {
+		can_rotate = 0,
+		describe = "穿梭於雲海，體驗空中艦的力量",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/qiangbidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "空中艦牆壁",
+		advice = 0,
+		tag = 3,
+		id = 331002,
+		icon = "qiangbidalicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331101] = {
+		can_rotate = 0,
+		describe = "用於診療的病床，但也可以用來好好休息",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/bingchuangdal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "空中艦醫療床",
+		advice = 0,
+		id = 331101,
+		tag = 1,
+		comfortable = 3,
+		icon = "bingchuangdalicon",
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					4.3,
+					22.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331102] = {
+		can_rotate = 0,
+		describe = "醫療座椅，可用於工作後的短暫休息",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/bingchuangyizidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "醫療座椅",
+		advice = 0,
+		id = 331102,
+		tag = 1,
+		comfortable = 1,
+		icon = "bingchuangyizidalicon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11.9,
+					17.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331103] = {
+		can_rotate = 0,
+		describe = "配備迷你綠植的餐桌，享用美食時也能感受到自然的清新",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/cantingzhuozidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "空中艦小桌A",
+		advice = 0,
+		tag = 1,
+		id = 331103,
+		icon = "cantingzhuozidalicon",
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331104] = {
+		can_rotate = 0,
+		describe = "長型沙發，可以用於戰鬥或訓練後的徹底放鬆以及能量恢復",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/changshafadal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "空中艦沙發B",
+		advice = 0,
+		id = 331104,
+		tag = 1,
+		comfortable = 2,
+		icon = "changshafadalicon",
+		size = {
+			3,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					22.6,
+					-16.6
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-110,
+					55
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331105] = {
+		can_rotate = 0,
+		describe = "擺放著迷你綠植的收納櫃，為休息區增添一抹亮色",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/guizidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "空中艦小桌B",
+		advice = 0,
+		tag = 1,
+		id = 331105,
+		icon = "guizidalicon",
+		comfortable = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331106] = {
+		can_rotate = 0,
+		describe = "體徵監視器，主要用於檢查身體狀況",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/luodixianshiqidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "醫療顯示器A",
+		advice = 0,
+		tag = 1,
+		id = 331106,
+		icon = "luodixianshiqidalicon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331107] = {
+		can_rotate = 0,
+		describe = "一株葉片寬大的落地盆栽，能帶來輕鬆自然的氛圍",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/penzaidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "空中艦落地盆栽",
+		advice = 0,
+		tag = 1,
+		id = 331107,
+		icon = "penzaidalicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331108] = {
+		can_rotate = 0,
+		describe = "保證高品質的睡眠，為明天做好準備，充滿能量",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/shangxiachuangdal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "空中艦宿舍雙層床",
+		advice = 0,
+		id = 331108,
+		tag = 1,
+		comfortable = 3,
+		icon = "shangxiachuangdalicon",
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-18.7,
+					-15.6
+				},
+				{
+					1,
+					1
+				},
+				"dal/shangxiachuangdal_using",
+				0,
+				{
+					{
+						53.8,
+						-22.4
+					},
+					{
+						185,
+						204
+					},
+					"dal/shangxiachuangdal_mask1"
+				}
+			},
+			{
+				"sleep",
+				{
+					25.9,
+					-30.5
+				},
+				{
+					1,
+					1
+				},
+				"dal/shangxiachuangdal_using",
+				0,
+				{
+					{
+						5.6,
+						118.1
+					},
+					{
+						292,
+						228
+					},
+					"dal/shangxiachuangdal_mask2"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331109] = {
+		can_rotate = 0,
+		describe = "穿梭於雲海，體驗空中艦的力量",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/cantingditandal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "空中艦地毯A",
+		advice = 0,
+		tag = 1,
+		id = 331109,
+		icon = "cantingditandalicon",
+		comfortable = 2,
+		size = {
+			12,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331110] = {
+		can_rotate = 0,
+		describe = "穿梭於雲海，體驗空中艦的力量",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/susheditandal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "空中艦地毯B",
+		advice = 0,
+		tag = 1,
+		id = 331110,
+		icon = "susheditandalicon",
+		comfortable = 2,
+		size = {
+			11,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331111] = {
+		can_rotate = 0,
+		describe = "一張設計簡單但相當舒適的椅子",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/susheyizidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "空中艦宿舍椅",
+		advice = 0,
+		id = 331111,
+		tag = 1,
+		comfortable = 1,
+		icon = "susheyizidalicon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5.8,
+					19.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331112] = {
+		can_rotate = 0,
+		describe = "堅固而平坦，能為各種工作提供穩定的支援",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/sushezhuozidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "空中艦宿舍書桌",
+		advice = 0,
+		tag = 1,
+		id = 331112,
+		icon = "sushezhuozidalicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331113] = {
+		can_rotate = 0,
+		describe = "可依需求自由移動拼接，靈活佈置休息區的便利組合沙發",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/wukaobeishafadal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "空中艦沙發C",
+		advice = 0,
+		id = 331113,
+		tag = 1,
+		comfortable = 2,
+		icon = "wukaobeishafadalicon",
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-65,
+					63
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					67,
+					3
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331114] = {
+		can_rotate = 0,
+		describe = "有側桌的沙發，可在小憩時隨手放置飲品與雜物",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/xiaoshafadal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "空中艦沙發A",
+		advice = 0,
+		id = 331114,
+		tag = 1,
+		comfortable = 1,
+		icon = "xiaoshafadalicon",
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					10.3,
+					29.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331115] = {
+		can_rotate = 0,
+		describe = "桌面的盆栽巧妙地裝飾了角落，是休憩閱讀時的美好陪伴",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/yuanjiaozhuodal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "空中艦小桌C",
+		advice = 0,
+		tag = 1,
+		id = 331115,
+		icon = "yuanjiaozhuodalicon",
+		comfortable = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331116] = {
+		can_rotate = 0,
+		describe = "專為指揮人員準備的座椅，可快速連接空中艦系統",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/zhihuiqudal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 6,
+		name = "艦橋指揮座椅",
+		advice = 0,
+		id = 331116,
+		tag = 1,
+		comfortable = 2,
+		icon = "zhihuiqudalicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					36.6,
+					22.9
+				},
+				{
+					-1,
+					1
+				},
+				"dal/zhihuiqudal_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331117] = {
+		can_rotate = 0,
+		describe = "艦橋指揮台，擁有最高的位置和最好的視野。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/zhihuitaidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "艦橋指揮台",
+		advice = 0,
+		id = 331117,
+		tag = 1,
+		comfortable = 4,
+		icon = "zhihuitaidalicon",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-39.6,
+					54.8
+				},
+				{
+					-1,
+					1
+				},
+				"dal/zhihuitaidal_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331301] = {
+		can_rotate = 0,
+		describe = "像是聚光燈一樣的圓柱形壁燈，兼具實用性與裝飾的設計",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "空中艦壁燈B",
+		advice = 0,
+		id = 331301,
+		tag = 5,
+		comfortable = 1,
+		icon = "bidengdalicon",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bidengdal",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[331302] = {
+		can_rotate = 0,
+		describe = "某種分析終端，介面分佈著難懂的圖譜",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/guaqiangxianshiqidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "醫療顯示器B",
+		advice = 0,
+		tag = 5,
+		id = 331302,
+		icon = "guaqiangxianshiqidalicon",
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331303] = {
+		can_rotate = 0,
+		describe = "檔案管理站，可以用來查閱檔案與資料紀錄",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/yiliaoxianshiqidal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "醫療顯示器C",
+		advice = 0,
+		tag = 5,
+		id = 331303,
+		icon = "yiliaoxianshiqidalicon",
+		comfortable = 3,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331304] = {
+		can_rotate = 0,
+		describe = "輔助數據指揮螢幕，用於快速瀏覽並處理多項即時數據",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/xiaoxianshipingdal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "指揮用輔助螢幕",
+		advice = 0,
+		tag = 5,
+		id = 331304,
+		icon = "xiaoxianshipingdalicon",
+		comfortable = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331305] = {
+		can_rotate = 0,
+		describe = "氣密壓力艙門，用於分隔出充滿科技感的空間",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/mendal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "空中艦機械門",
+		advice = 0,
+		tag = 5,
+		id = 331305,
+		icon = "mendalicon",
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331306] = {
+		can_rotate = 0,
+		describe = "能投射出柔光的圓形壁燈，能營造出溫馨舒適的照明氛圍",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 3,
+		name = "空中艦壁燈A",
+		advice = 0,
+		id = 331306,
+		tag = 5,
+		comfortable = 1,
+		icon = "yuanbidengdalicon",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuanbidengdal",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[331307] = {
+		can_rotate = 0,
+		describe = "即時展現戰場變化的螢幕，艦橋不可或缺的一部分",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/zhihuipingdal",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "指揮用螢幕",
+		advice = 0,
+		tag = 5,
+		id = 331307,
+		icon = "zhihuipingdalicon",
+		comfortable = 3,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331308] = {
+		can_rotate = 0,
+		describe = "能在飛行途中即時觀察外部變化的可靠觀察窗",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "空中艦觀察窗",
+		advice = 0,
+		id = 331308,
+		tag = 5,
+		comfortable = 4,
+		icon = "guanchachuangdalicon",
+		size = {
+			24,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanchachuangdal",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[331309] = {
+		can_rotate = 0,
+		describe = "環境模擬窗框，能隨個人喜好切換從寂靜氛圍到壯麗景色等三種選擇。",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "空中艦環境模擬窗",
+		advice = 0,
+		id = 331309,
+		tag = 7,
+		comfortable = 4,
+		icon = "monichuangdalicon",
+		size = {
+			24,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"monichuangdal",
+				"normal",
+				{
+					"action1",
+					true,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
 		},
 		interAction_group = {}
 	}

@@ -1,10 +1,12 @@
 slot0 = class("GuildBossFormationShipCard")
 
 slot0.Ctor = function(slot0, slot1)
-	slot0._go = slot1
-	tf(slot1).pivot = Vector2(0.5, 0)
-	tf(slot1).sizeDelta = Vector2(200, 300)
-	tf(slot1).localScale = Vector3(0.6, 0.6, 0.6)
+	slot0._char = slot1
+	slot0._go = slot1:GetModel()
+	tf(slot0._go).pivot = Vector2(0.5, 0)
+	tf(slot0._go).sizeDelta = Vector2(200, 300)
+
+	slot1:SetLocalScale(Vector3(0.6, 0.6, 0.6))
 end
 
 slot0.RefreshPosition = function(slot0, slot1, slot2)
@@ -44,7 +46,10 @@ slot0.Dispose = function(slot0)
 	end
 
 	ClearEventTrigger(GetOrAddComponent(slot0._go, "EventTriggerListener"))
-	PoolMgr.GetInstance():ReturnSpineChar(slot0._go.name, slot0._go)
+
+	if slot0._char then
+		slot0._char:Dispose()
+	end
 end
 
 return slot0

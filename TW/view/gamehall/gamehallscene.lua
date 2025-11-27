@@ -161,6 +161,8 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	slot0.charController:Dispose()
+
 	if slot0.timer then
 		slot0.timer:Stop()
 

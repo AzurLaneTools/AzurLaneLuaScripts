@@ -56,6 +56,7 @@ slot0.GO_SINGLE_PRECOMBAT = "ActivityMediator.GO_SINGLE_PRECOMBAT"
 slot0.ON_BOSSRUSH_MAP = "ActivityMediator.ON_BOSSRUSH_MAP"
 slot0.SKIP_ACTIVITY_MAP = "ActivityMediator.SKIP_ACTIVITY_MAP"
 slot0.OPEN_MINI_PROGRAM = "ActivityMediator.OPEN_MINI_PROGRAM"
+slot0.ON_COLLAB_BOSSRUSH_MAP = "ActivityMediator.ON_COLLAB_BOSSRUSH_MAP"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_MONOPOLY2024, function (slot0, slot1, slot2)
@@ -98,6 +99,9 @@ slot0.register = function(slot0)
 				mapIdx = slot2
 			})
 		end
+	end)
+	slot0:bind(uv0.ON_COLLAB_BOSSRUSH_MAP, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_DAL_COLLAB)
 	end)
 	slot0:bind(uv0.ON_BOSSRUSH_MAP, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)

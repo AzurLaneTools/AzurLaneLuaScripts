@@ -15497,6 +15497,37 @@ _G.pg.base.item_data_statistics[21048] = {
 }
 
 
+_G.pg.base.item_data_statistics[21050] = {
+	open_directly = 0,
+	name = "結晶：敦克爾克·META",
+	type = 4,
+	display = "敦克爾克·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21050",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21050,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "結晶化熱強鋼",
@@ -26877,6 +26908,131 @@ _G.pg.base.item_data_statistics[30375] = {
 }
 
 
+_G.pg.base.item_data_statistics[30377] = {
+	open_directly = 1,
+	name = "外觀裝備箱(Date A Live)",
+	type = 11,
+	display = "可以得到一個隨機的Date A Live風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdal",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30374",
+	id = 30377,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1511,
+			1
+		},
+		{
+			9,
+			1512,
+			1
+		},
+		{
+			9,
+			1513,
+			1
+		},
+		{
+			9,
+			1514,
+			1
+		},
+		{
+			9,
+			1515,
+			1
+		},
+		{
+			9,
+			1516,
+			1
+		},
+		{
+			9,
+			1517,
+			1
+		},
+		{
+			9,
+			1518,
+			1
+		},
+		{
+			9,
+			1519,
+			1
+		},
+		{
+			9,
+			1520,
+			1
+		},
+		{
+			9,
+			1521,
+			1
+		},
+		{
+			9,
+			1522,
+			1
+		},
+		{
+			9,
+			1523,
+			1
+		},
+		{
+			9,
+			1524,
+			1
+		},
+		{
+			9,
+			1525,
+			1
+		},
+		{
+			9,
+			1526,
+			1
+		},
+		{
+			9,
+			1527,
+			1
+		},
+		{
+			9,
+			1528,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外觀裝備箱(世界巡遊)",
@@ -28394,6 +28550,58 @@ _G.pg.base.item_data_statistics[30429] = {
 		{
 			9,
 			1474,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30430] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	type = 11,
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111224",
+	id = 30430,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2101,
+			1
+		},
+		{
+			9,
+			2102,
+			1
+		},
+		{
+			9,
+			2103,
+			1
+		},
+		{
+			9,
+			2104,
 			1
 		}
 	},
@@ -40722,6 +40930,219 @@ _G.pg.base.item_data_statistics[30559] = {
 		{
 			9,
 			4239,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30561] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(Date A Live)",
+	type = 13,
+	display = "使用後可從Date A Live主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdalzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30561,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1511,
+			1
+		},
+		{
+			9,
+			1512,
+			1
+		},
+		{
+			9,
+			1513,
+			1
+		},
+		{
+			9,
+			1514,
+			1
+		},
+		{
+			9,
+			1515,
+			1
+		},
+		{
+			9,
+			1516,
+			1
+		},
+		{
+			9,
+			1517,
+			1
+		},
+		{
+			9,
+			1518,
+			1
+		},
+		{
+			9,
+			1519,
+			1
+		},
+		{
+			9,
+			1520,
+			1
+		},
+		{
+			9,
+			1521,
+			1
+		},
+		{
+			9,
+			1522,
+			1
+		},
+		{
+			9,
+			1523,
+			1
+		},
+		{
+			9,
+			1524,
+			1
+		},
+		{
+			9,
+			1525,
+			1
+		},
+		{
+			9,
+			1526,
+			1
+		},
+		{
+			9,
+			1527,
+			1
+		},
+		{
+			9,
+			1528,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			1511,
+			1
+		},
+		{
+			9,
+			1512,
+			1
+		},
+		{
+			9,
+			1513,
+			1
+		},
+		{
+			9,
+			1514,
+			1
+		},
+		{
+			9,
+			1515,
+			1
+		},
+		{
+			9,
+			1516,
+			1
+		},
+		{
+			9,
+			1517,
+			1
+		},
+		{
+			9,
+			1518,
+			1
+		},
+		{
+			9,
+			1519,
+			1
+		},
+		{
+			9,
+			1520,
+			1
+		},
+		{
+			9,
+			1521,
+			1
+		},
+		{
+			9,
+			1522,
+			1
+		},
+		{
+			9,
+			1523,
+			1
+		},
+		{
+			9,
+			1524,
+			1
+		},
+		{
+			9,
+			1525,
+			1
+		},
+		{
+			9,
+			1526,
+			1
+		},
+		{
+			9,
+			1527,
+			1
+		},
+		{
+			9,
+			1528,
 			1
 		}
 	},

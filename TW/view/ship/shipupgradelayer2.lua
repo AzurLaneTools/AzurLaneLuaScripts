@@ -71,24 +71,25 @@ slot0.loadChar = function(slot0)
 
 		slot2:LoadingOn()
 
-		slot2 = PoolMgr.GetInstance()
+		slot2 = SpineAnimChar.New()
 
-		slot2:GetSpineChar(slot1:getPrefab(), true, function (slot0)
+		slot2:SetPaint(slot1:getPrefab())
+		slot2:Load(true, function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			uv0.shipPrefab = uv1
 			uv0.shipModel = slot0
-			tf(slot0).localScale = Vector3(0.8, 0.8, 1)
 
-			slot0:GetComponent("SpineAnimUI"):SetAction("stand", 0)
-			setParent(slot0, uv0.qCharaContain)
+			slot0:SetLocalScale(Vector3(0.8, 0.8, 1))
+			slot0:SetParent(uv0.qCharaContain)
+			slot0:SetAction("stand", 0)
 		end)
 	end
 end
 
 slot0.recycleSpineChar = function(slot0)
 	if slot0.shipPrefab and slot0.shipModel then
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.shipPrefab, slot0.shipModel)
+		slot0.shipModel:Dispose()
 
 		slot0.shipPrefab = nil
 		slot0.shipModel = nil

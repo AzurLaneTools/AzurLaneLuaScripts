@@ -147,17 +147,11 @@ end
 slot0.addSkin = function(slot0, slot1)
 	assert(isa(slot1, ShipSkin), "skin should be an instance of ShipSkin")
 
-	if slot0.prevNewSkin then
-		slot0.prevNewSkin:SetIsNew(false)
-	end
-
 	slot0.skins[slot1.id] = slot1
 
 	if ShipSkin.IsChangeSkin(slot1.id) then
 		slot0.changeSkinGroupDic[ShipSkin.GetChangeSkinGroupId(slot1.id)] = true
 	end
-
-	slot0.prevNewSkin = slot1
 
 	slot0:addExpireTimer(slot1)
 
@@ -227,10 +221,6 @@ end
 
 slot0.hasNonLimitSkin = function(slot0, slot1)
 	return slot0.skins[slot1] ~= nil and not slot2:isExpireType()
-end
-
-slot0.hasOldNonLimitSkin = function(slot0, slot1)
-	return slot0.skins[slot1] and not slot2:HasNewFlag() and not slot2:isExpireType()
 end
 
 slot0.getSkinCountById = function(slot0, slot1)

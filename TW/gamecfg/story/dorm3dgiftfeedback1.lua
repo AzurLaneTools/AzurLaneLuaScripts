@@ -1,13 +1,18 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DGIFTFEEDBACK1",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DGIFTFEEDBACK1",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			nameColor = "#FFFFFF",
+			actorName = 20220,
 			say = "這是您送給我的茶具……？天狼星真是受寵若驚……我慷慨的主人！",
 			typewriter = {
 				speed = 0.05,
@@ -41,6 +46,8 @@ return {
 			}
 		},
 		{
+			nameColor = "#FFFFFF",
+			actorName = 20220,
 			say = "天狼星一定會好好愛惜它，然後用它沖泡美味的紅茶來招待主人！",
 			typewriter = {
 				speed = 0.05,

@@ -785,6 +785,14 @@ slot0.InitSwitch = function()
 				end
 			end
 
+			slot4 = ActivityConst.ACTIVITY_TYPE_PT_HEI5
+
+			for slot4, slot5 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot4)) do
+				if pg.black_friday_battlepass_event_pt[slot5.id].pt == slot0.id then
+					return nil, slot0
+				end
+			end
+
 			return slot0
 		end,
 		[DROP_TYPE_OPERATION] = function (slot0)
@@ -835,6 +843,21 @@ slot0.InitSwitch = function()
 						return uv0, nil
 					end
 				end,
+				[17] = function ()
+					if getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")).data1 < 1 then
+						return Drop.New({
+							count = 1,
+							type = DROP_TYPE_SHIP,
+							id = slot0:getConfig("config_id")
+						}), uv0
+					else
+						return Drop.New({
+							id = 3,
+							type = DROP_TYPE_OPERATION,
+							count = slot0.data2
+						}), uv0
+					end
+				end,
 				[21] = function ()
 					return nil, uv0
 				end,
@@ -869,7 +892,7 @@ slot0.InitSwitch = function()
 			return slot0
 		end,
 		[DROP_TYPE_SKIN] = function (slot0)
-			slot0.isNew = not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot0.id)
+			slot0.isNew = not getProxy(ShipSkinProxy):hasNonLimitSkin(slot0.id)
 
 			return slot0
 		end,
@@ -1057,6 +1080,15 @@ slot0.InitSwitch = function()
 						end
 					end
 				end,
+				[17] = function ()
+					if not getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) or slot1:isEnd() then
+						return
+					end
+
+					slot1.data1 = 2
+
+					slot0:updateActivity(slot1)
+				end,
 				[20] = function ()
 					slot1 = pg.gameset.urpt_chapter_max.description
 
@@ -1136,6 +1168,13 @@ slot0.InitSwitch = function()
 				[28] = function ()
 					if Clone(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN)) and not slot1:isEnd() then
 						slot1:AddGold(uv0.count)
+						slot0:updateActivity(slot1)
+					end
+				end,
+				[29] = function ()
+					if Clone(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_HEI5)) and not slot1:isEnd() then
+						slot1.data1 = slot1.data1 + uv0.count
+
 						slot0:updateActivity(slot1)
 					end
 				end,

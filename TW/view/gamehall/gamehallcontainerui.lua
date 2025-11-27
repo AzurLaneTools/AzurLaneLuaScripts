@@ -104,36 +104,35 @@ slot0.Ctor = function(slot0, slot1)
 
 	for slot11 = 1, uv5 do
 		slot12 = slot11
-		slot14 = PoolMgr.GetInstance()
+		slot14 = SpineAnimChar.New()
 
-		slot14:GetSpineChar(table.remove(slot7, math.random(1, #slot7)), true, function (slot0)
-			slot1 = tf(slot0):GetComponent(typeof(SpineAnimUI))
+		slot14:SetPaint(table.remove(slot7, math.random(1, #slot7)))
+		slot14:Load(true, function (slot0)
+			slot0:SetAction("stand2", 0)
+			slot0:SetParent(uv0.pos)
+			slot0:SetLocalScale(uv1)
 
-			slot1:SetAction("stand2", 0)
-			setParent(tf(slot0), uv0.pos)
-			setLocalScale(slot0, uv1)
+			slot2 = GetComponent(findTF(uv0.boundContainer, tostring(uv2)), typeof(BoxCollider2D))
+			slot3 = uv0.pos:InverseTransformPoint(slot2.bounds.min)
+			slot4 = uv0.pos:InverseTransformPoint(slot2.bounds.max)
+			slot7 = uv0
 
-			slot3 = GetComponent(findTF(uv0.boundContainer, tostring(uv2)), typeof(BoxCollider2D))
-			slot4 = uv0.pos:InverseTransformPoint(slot3.bounds.min)
-			slot5 = uv0.pos:InverseTransformPoint(slot3.bounds.max)
-			tf(slot0).anchoredPosition = uv0:getTargetPos(slot4, slot5)
-
+			slot0:SetAnchoredPosition(slot7:getTargetPos(slot3, slot4))
 			table.insert(uv0.chars, {
-				tf = tf(slot0),
-				anim = slot1,
+				model = slot0,
 				vel = Vector2(0, 0),
 				bound = {
+					slot3.x,
+					slot3.y,
 					slot4.x,
-					slot4.y,
-					slot5.x,
-					slot5.y
+					slot4.y
 				},
-				min = slot4,
-				max = slot5,
-				pos = tf(slot0).anchoredPosition,
-				curScale = tf(slot0).localScale
+				min = slot3,
+				max = slot4,
+				pos = slot0:GetAnchoredPosition(),
+				curScale = slot0:GetLocalScale()
 			})
-			table.insert(uv0.items, tf(slot0))
+			table.insert(uv0.items, tf(slot0:GetModel()))
 		end)
 	end
 
@@ -196,9 +195,8 @@ slot0.setCharSit = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = slot1.tf
-
-	slot0:setAnimAction(slot1.anim, "sit", 0, nil)
+	slot1.model:SetLocalScale(uv0)
+	slot0:setCharAction(slot1.model, "sit", 0, nil)
 	slot0:setAnimAction(slot2.anim, "sit", 0, nil)
 
 	slot1.curAction = "sit"
@@ -207,27 +205,24 @@ slot0.setCharSit = function(slot0, slot1, slot2)
 	slot1.sitItem = slot2
 	slot1.sitFlag = true
 	slot1.time = math.random(10, 20)
-	slot1.tf.localScale = uv0
 	slot1.vel = Vector2(0, 0)
 	slot2.sitFlag = true
 
-	setParent(slot1.tf, slot2.pos)
-
-	slot1.tf.anchoredPosition = Vector2(0, 0)
+	slot1.model:SetParent(slot2.pos)
+	slot1.model:SetAnchoredPosition(Vector2(0, 0))
 end
 
 slot0.stopCharSit = function(slot0, slot1)
 	slot1.sitItem.sitFlag = false
 
-	slot0:setAnimAction(slot1.anim, "walk", 0, nil)
+	slot0:setCharAction(slot1.model, "walk", 0, nil)
 	slot0:setAnimAction(slot1.sitItem.anim, "normal", 0, nil)
 
 	slot1.sitItem = nil
 	slot1.sitFlag = false
 
-	setParent(slot1.tf, slot0.pos)
-
-	slot1.tf.anchoredPosition = slot1.pos
+	slot1.model:SetParent(slot0.pos)
+	slot1.model:SetAnchoredPosition(slot1.pos)
 end
 
 slot0.checkClickTime = function(slot0, slot1)
@@ -294,7 +289,8 @@ slot0.step = function(slot0)
 				slot5.vel.y = 0
 			end
 
-			slot5.tf.anchoredPosition = slot5.pos
+			slot5.model:SetAnchoredPosition(slot5.pos)
+
 			slot10 = slot5.target
 
 			if math.abs(slot5.target.x - slot5.pos.x) < 10 then
@@ -322,27 +318,28 @@ slot0.step = function(slot0)
 			slot5.ableSit = true
 		end
 
+		if slot5.vel.x ~= 0 and math.sign(slot5.curScale.x) ~= (slot5.vel.x > 0 and 1 or -1) then
+			slot5.curScale.x = slot10 * uv3.x
+
+			slot5.model:SetLocalScale(slot5.curScale)
+		end
+
 		if slot8 then
 			if slot5.curAction ~= "walk" then
 				slot5.curAction = "walk"
 
-				slot5.anim:SetAction("walk", 0)
+				slot5.model:SetAction("walk", 0)
 			end
 		elseif slot9 then
 			if slot5.curAction ~= "sit" then
 				slot5.curAction = "sit"
 
-				slot5.anim:SetAction("sit", 0)
+				slot5.model:SetAction("sit", 0)
 			end
 		elseif slot5.curAction ~= "stand2" then
 			slot5.curAction = "stand2"
 
-			slot5.anim:SetAction("stand2", 0)
-		end
-
-		if slot5.vel.x ~= 0 and slot5.curScale.x ~= (slot5.vel.x > 0 and 1 or -1) then
-			slot5.curScale.x = slot10 * uv3.x
-			slot5.tf.localScale = slot5.curScale
+			slot5.model:SetAction("stand2", 0)
 		end
 
 		if slot8 then
@@ -391,6 +388,17 @@ slot0.getVel = function(slot0, slot1, slot2)
 	return Vector2(math.cos(slot3) * (slot1.x < slot2.x and 1 or -1), math.sin(slot3) * (slot1.y < slot2.y and 1 or -1))
 end
 
+slot0.setCharAction = function(slot0, slot1, slot2, slot3, slot4)
+	slot1:SetActionCallBack(nil)
+	slot1:SetAction(slot2, 0)
+	slot1:SetActionCallBack(function (slot0)
+		if slot0 == "finish" and uv0 == 1 then
+			uv1:SetActionCallBack(nil)
+			uv1:SetAction(uv2, 0)
+		end
+	end)
+end
+
 slot0.setAnimAction = function(slot0, slot1, slot2, slot3, slot4)
 	slot1:SetActionCallBack(nil)
 	slot1:SetAction(slot2, 0)
@@ -408,6 +416,22 @@ end
 
 slot0.isPointInMatrix = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot0:getCross(slot1, slot2, slot5) * slot0:getCross(slot3, slot4, slot5) >= 0 and slot0:getCross(slot2, slot3, slot5) * slot0:getCross(slot4, slot1, slot5) >= 0
+end
+
+slot0.Dispose = function(slot0)
+	if slot0.coinChar then
+		PoolMgr.GetInstance():ReturnSpineChar(uv0, go(slot0.coinChar))
+
+		slot0.coinChar = nil
+	end
+
+	if slot0.chars and #slot0.chars > 0 then
+		for slot4 = 1, #slot0.chars do
+			slot0.chars[slot4].model:Dispose()
+		end
+
+		slot0.chars = nil
+	end
 end
 
 return slot0
