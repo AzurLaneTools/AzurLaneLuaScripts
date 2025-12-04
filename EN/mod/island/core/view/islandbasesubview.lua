@@ -2,13 +2,16 @@ slot0 = class("IslandBaseSubView", import("Mod.Island.Core.View.IslandBaseUnit")
 
 slot0.Init = function(slot0, ...)
 	slot1 = packEx(...)
+
+	slot0:LoadUI(function (slot0)
+		uv0:DoInit(slot0, uv1)
+	end)
+end
+
+slot0.LoadUI = function(slot0, slot1)
 	slot2 = IslandAssetLoadDispatcher.Instance
 	slot0.loadingId = slot2:Enqueue("UI/" .. slot0:GetUIName(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		slot1 = uv0
-		slot3 = FrameAsyncInstantiateManager.Instance
-		uv0.uiInstID = slot3:EnqueueInstantiate(slot0, Vector3.zero, Quaternion.identity, slot1:SetUIParent(), function (slot0)
-			uv0:DoInit(slot0, uv1)
-		end)
+		uv1(cloneTplTo(slot0, uv0:SetUIParent()).gameObject)
 	end), true, true)
 end
 
@@ -28,17 +31,15 @@ slot0.DoInit = function(slot0, slot1, slot2)
 end
 
 slot0.OnDispose = function(slot0)
-	if not IsNil(slot0._go) then
-		Object.Destroy(slot0._go)
-	end
+	slot0:UnloadUI()
 
 	slot0._go = nil
 	slot0._tf = nil
+end
 
-	if slot0.uiInstID then
-		FrameAsyncInstantiateManager.Instance:Cancel(slot0.uiInstID)
-
-		slot0.uiInstID = nil
+slot0.UnloadUI = function(slot0)
+	if not IsNil(slot0._go) then
+		Object.Destroy(slot0._go)
 	end
 
 	if slot0.loadingId then
@@ -54,6 +55,10 @@ end
 
 slot0.GetPlayerUnit = function(slot0)
 	return slot0:GetView().player
+end
+
+slot0.CreateSubView = function(slot0, slot1)
+	return slot1.New(slot0:GetView())
 end
 
 slot0.GetUIName = function(slot0)

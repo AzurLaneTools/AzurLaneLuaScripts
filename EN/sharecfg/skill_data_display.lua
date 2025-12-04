@@ -3762,8 +3762,16 @@ pg.skill_data_display = setmetatable({
 		1012431,
 		1012432,
 		1012435,
+		1012640,
 		10151811,
 		1011911,
+		1011472,
+		1012570,
+		1012571,
+		1012572,
+		1012580,
+		1012581,
+		1012582,
 		1090020,
 		1090042,
 		1090043,
@@ -18884,6 +18892,10 @@ pg.base.skill_data_display = {
 		id = 1012435,
 		name = "Lucky A +"
 	},
+	[1012640] = {
+		id = 1012640,
+		name = "Sardegnian Coercion+"
+	},
 	[10151811] = {
 		id = 10151811,
 		name = "Final Sacrament+"
@@ -18891,6 +18903,34 @@ pg.base.skill_data_display = {
 	[1011911] = {
 		id = 1011911,
 		name = "Patriotic Spirit+"
+	},
+	[1011472] = {
+		id = 1011472,
+		name = "Nasty Asty +"
+	},
+	[1012570] = {
+		id = 1012570,
+		name = "Supporting Wings+"
+	},
+	[1012571] = {
+		id = 1012571,
+		name = "Supporting Wings+"
+	},
+	[1012572] = {
+		id = 1012572,
+		name = "Supporting Wings+"
+	},
+	[1012580] = {
+		id = 1012580,
+		name = "Don't Move An Inch!"
+	},
+	[1012581] = {
+		id = 1012581,
+		name = "Don't Move An Inch!"
+	},
+	[1012582] = {
+		id = 1012582,
+		name = "Don't Move An Inch!"
 	},
 	[1090020] = {
 		id = 1090020,

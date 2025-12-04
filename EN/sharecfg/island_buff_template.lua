@@ -3,7 +3,7 @@ pg.island_buff_template = {
 	{
 		name = "Management Stat Boost",
 		buff_group = 1,
-		buff_desc = "Boosts all stats by 3% for 8 hours.",
+		buff_desc = "For 8 hours, increases all stats by 3%.",
 		buff_color = 2,
 		buff_type = 1,
 		buff_time = 28800,
@@ -41,7 +41,7 @@ pg.island_buff_template = {
 	{
 		name = "Farming Stat Boost",
 		buff_group = 1,
-		buff_desc = "For 8 hours, when producing basic resources, decreases the time needed for production by 5%.",
+		buff_desc = "For 8 hours, when producing basic resources, increases working speed by 5%.",
 		buff_color = 2,
 		buff_type = 102,
 		buff_time = 28800,
@@ -64,7 +64,7 @@ pg.island_buff_template = {
 	{
 		name = "Manuf. Efficiency Boost",
 		buff_group = 1,
-		buff_desc = "For 8 hours, when manufacturing items at the Base Factory, decreases the time needed for manufacturing by 5%.",
+		buff_desc = "For 8 hours, when manufacturing items at the Base Factory, increases working speed by 5%.",
 		buff_color = 2,
 		buff_type = 102,
 		buff_time = 28800,
@@ -85,7 +85,7 @@ pg.island_buff_template = {
 	{
 		name = "Gathering Stat Boost",
 		buff_group = 1,
-		buff_desc = "For 8 hours, when cooking food, decreases the time needed for production by 5%.",
+		buff_desc = "For 8 hours, when cooking food, increases working speed by 5%.",
 		buff_color = 2,
 		buff_type = 102,
 		buff_time = 28800,

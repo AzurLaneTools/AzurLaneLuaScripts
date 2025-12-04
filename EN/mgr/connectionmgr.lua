@@ -236,7 +236,6 @@ slot1.onError = function(slot0)
 		}, slot0) then
 			uv1.ConnectionMgr.GetInstance():Reconnect(slot2)
 		else
-			uv1.MsgboxMgr.GetInstance():CloseAndHide()
 			uv1.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
 				content = i18n("reconnect_tip", slot0),
@@ -254,7 +253,7 @@ slot1.onError = function(slot0)
 end
 
 slot1.Send = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	uv1:Queue(slot1, slot2, slot3, function (slot0)
+	slot7 = function(slot0)
 		if slot0.result == 9998 then
 			uv0.m02:sendNotification(GAME.EXTRA_PROTO_RESULT, {
 				result = slot0.result
@@ -262,7 +261,15 @@ slot1.Send = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		else
 			uv1(slot0)
 		end
-	end, slot5, nil, slot6)
+	end
+
+	if not uv1 then
+		warning("sendWindow is nil. msgid " .. slot1)
+
+		return
+	end
+
+	uv1:Queue(slot1, slot2, slot3, slot7, slot5, nil, slot6)
 end
 
 slot1.setPacketIdx = function(slot0, slot1)

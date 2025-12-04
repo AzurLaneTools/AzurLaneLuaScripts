@@ -567,6 +567,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>A special portrait frame made to commemorate New Jersey.</color>\nObtained from the Azur Lane Popularity Poll 2023.",
 		scene = {}
 	},
+	[418] = {
+		name = "Hall of Fame: Shinano",
+		gain_by = "",
+		time_second = 0,
+		id = 418,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>A special portrait frame made to commemorate Shinano.</color>\n\nObtained from the Azur Lane Popularity Poll 2025.",
+		scene = {}
+	},
 	[420] = {
 		name = "Hall of Fame: Prinz Eugen",
 		gain_by = "",
@@ -583,6 +592,24 @@ pg.item_data_frame = {
 		id = 421,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>A special portrait frame made to commemorate Friedrich der Große.</color>\nObtained from the Azur Lane Popularity Poll 2023.",
+		scene = {}
+	},
+	[422] = {
+		name = "Hall of Fame: Ägir",
+		gain_by = "",
+		time_second = 0,
+		id = 422,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>A special portrait frame made to commemorate Ägir.</color>\n\nObtained from the Azur Lane Popularity Poll 2025.",
+		scene = {}
+	},
+	[425] = {
+		name = "Hall of Fame: Kearsarge",
+		gain_by = "",
+		time_second = 0,
+		id = 425,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>A special portrait frame made to commemorate Kearsarge.</color>\n\nObtained from the Azur Lane Popularity Poll 2025.",
 		scene = {}
 	},
 	[501] = {
@@ -955,8 +982,11 @@ pg.item_data_frame = {
 		411,
 		412,
 		417,
+		418,
 		420,
 		421,
+		422,
+		425,
 		501,
 		601,
 		602,

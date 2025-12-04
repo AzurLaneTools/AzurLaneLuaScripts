@@ -1541,7 +1541,7 @@ slot0.getShipSkillEffects = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0:getSkillList()) do
-		slot0:FilterActiveSkill(slot1, pg.buffCfg["buff_" .. slot0:RemapSkillId(slot7)], slot0.skills[slot7])
+		slot0:FilterActiveSkill(slot1, pg.buffCfg["buff_" .. slot0:RemapSkillId(slot7, true)], slot0.skills[slot7])
 	end
 
 	return slot1
@@ -2253,12 +2253,18 @@ slot0.fateSkillChange = function(slot0, slot1)
 	return slot1
 end
 
-slot0.RemapSkillId = function(slot0, slot1)
+slot0.RemapSkillId = function(slot0, slot1, slot2)
 	if slot0:GetSpWeapon() then
 		if table.contains(pg.ship_data_template[slot0.configId].hide_buff_list, slot1) then
-			return slot2:RemapHiddenSkillId(slot1)
+			return slot3:RemapHiddenSkillId(slot1)
+		elseif slot2 then
+			if slot3:RemapHiddenSkillId(slot1) == slot1 then
+				slot4 = slot3:RemapSkillId(slot1)
+			end
+
+			return slot4
 		else
-			return slot2:RemapSkillId(slot1)
+			return slot3:RemapSkillId(slot1)
 		end
 	end
 

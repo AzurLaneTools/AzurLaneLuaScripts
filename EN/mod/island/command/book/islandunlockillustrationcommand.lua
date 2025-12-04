@@ -16,6 +16,7 @@ slot0.execute = function(slot0, slot1)
 			end
 
 			uv1:sendNotification(GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE, {
+				dropData = IslandDropHelper.AddItems(slot0),
 				ids = uv0
 			})
 		else

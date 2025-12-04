@@ -647,7 +647,6 @@ temp()
 temp = function()
 	uv0["8"] = {
 		["9"] = {
-			this = true,
 			["六"] = {
 				["四"] = {
 					this = true

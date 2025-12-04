@@ -1,5 +1,37 @@
 pg = pg or {}
-pg.activity_vote_virtual_ship_data = {
+pg.activity_vote_virtual_ship_data = setmetatable({
+	__name = "activity_vote_virtual_ship_data",
+	all = {
+		9979995,
+		9979996,
+		9979997,
+		9979998,
+		9979999,
+		9980000,
+		9990001,
+		9990002,
+		9990003,
+		9990004,
+		9990005,
+		9990006,
+		9990007,
+		9990008,
+		9990009,
+		9990010,
+		9990011,
+		9990012,
+		9990013,
+		9990014,
+		9990015,
+		9990016,
+		9990017,
+		9990018,
+		9990019,
+		9990020
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.activity_vote_virtual_ship_data = {
 	[9979995] = {
 		name = "Enterprise META",
 		english_name = "Enterprise.META",
@@ -34,6 +66,13 @@ pg.activity_vote_virtual_ship_data = {
 		painting = "haorenlichade_alter",
 		id = 9979999,
 		desc = "–– Insufficient Data: Unable to simulate conversation.\n–– Warning: A fatal simulation error has occurred. The simulation has been terminated.\n■Okay, then I'll just speak for myself■I know you missed me■Commander■Don't forget to vote for me■"
+	},
+	[9980000] = {
+		name = "Akagi META",
+		english_name = "Akagi META",
+		painting = "midchicheng_alter",
+		id = 9980000,
+		desc = "Heehee... I will always be watching you... Forever and ever..."
 	},
 	[9990001] = {
 		name = "Observer",
@@ -133,25 +172,46 @@ pg.activity_vote_virtual_ship_data = {
 		id = 9990014,
 		desc = "–– 54 68 65 74 6F 77 65 72 65 78 69 73 74 73 66 6F 72 65 76 65 72 2E \n––72 6D 2D 72 66 2F 2A \n–– Warning: A fatal simulation error has occurred. The simulation has been terminated."
 	},
-	all = {
-		9979995,
-		9979996,
-		9979997,
-		9979998,
-		9979999,
-		9990001,
-		9990002,
-		9990003,
-		9990004,
-		9990005,
-		9990006,
-		9990007,
-		9990008,
-		9990009,
-		9990010,
-		9990011,
-		9990012,
-		9990013,
-		9990014
+	[9990015] = {
+		name = "Arbiter: The Magician I",
+		english_name = "Arbiter: The Magician I",
+		painting = "magician",
+		id = 9990015,
+		desc = "–– A wand, a sword, a cup, a coin, and infinite charm – this is the Magician's essence. Mystery is the veil that she wears for all eternity.\nHas this attire of mine caught your eye? Or is it Madam M that you want, hmm?"
+	},
+	[9990016] = {
+		name = "Arbiter: The Chariot VII",
+		english_name = "Arbiter: The Chariot VII ",
+		painting = "chariot",
+		id = 9990016,
+		desc = "–– Whether in the sky, the land, or the sea, she remains a castle with walls of impregnable steel. Nothing can halt the Chariot's advance.\nHm? You want help with something? Send me your coordinates. My fleet will be there in a moment."
+	},
+	[9990017] = {
+		name = "Miss D",
+		english_name = "Miss D",
+		painting = "missd",
+		id = 9990017,
+		desc = "Ding ding ding! Dong dong dong!\nAssistant, it's me! Gimme your vote!\n–– Note: This message is not based on a simulation."
+	},
+	[9990018] = {
+		name = "Star Beast?",
+		english_name = "Star Beast?",
+		painting = "unknownstar",
+		id = 9990018,
+		desc = "DHYUPUN: H MHAHS ZPTBSHAPVU LYYVY OHZ VJJBYYLK. AOL ZPTBSHAPVU OHZ ILLU ALYTPUHALK.\n–– Warning: A fatal simulation error has occurred. The simulation has been terminated."
+	},
+	[9990019] = {
+		name = "Arbiter: The Moon XVIII",
+		english_name = "Arbiter: The Moon XVIII",
+		painting = "moon",
+		id = 9990019,
+		desc = "–– The people of old see not the moon of the now, but the moon of today once shone upon the people of yesterday. This is the Moon. Epochs come and go, but she has always been there.\nI am a moon by two names – Arbiter: The Moon, and War Protocol Moon. It's a pleasure, Commander."
+	},
+	[9990020] = {
+		name = "Ordainer El",
+		english_name = "Ordainer El",
+		painting = "dosair",
+		id = 9990020,
+		desc = "Commander, have you ever thought about what \"Ordainer\" means?\n–– Warning: A fatal simulation error has occurred. The simulation has been terminated."
 	}
 }

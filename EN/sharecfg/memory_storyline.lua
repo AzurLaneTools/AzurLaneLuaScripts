@@ -2322,18 +2322,45 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "Coming Soon",
-		name = "Coming Soon",
+		description = [[
+"I'm soon going to go on a journey.
+"So, today, I'm going to be more frank and casual with you."
+"I'm going to simply tell you things as they come to mind."
+"Let's begin."]],
+		name = "Memories in Echo",
+		column = 56,
+		world_id = "",
+		bgm = "theme-helena ",
+		row = 0,
+		chapter = 4,
+		memory_lock = 0,
+		id = 91,
+		icon = "ChapterFour_10",
+		sort = 1,
+		memory_id = {
+			1,
+			349
+		},
+		shipnation = {
+			97
+		},
+		link_event = {
+			92
+		}
+	},
+	{
+		description = "Stay Tuned",
+		name = "Stay Tuned",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 56,
+		column = 57,
 		world_id = "",
 		bgm = "",
 		row = 0,
-		chapter = 4,
+		chapter = 0,
 		memory_lock = 1,
-		id = 91,
+		id = 92,
 		icon = "",
 		sort = 0
 	},
@@ -2428,6 +2455,7 @@ pg.memory_storyline = {
 		88,
 		89,
 		90,
-		91
+		91,
+		92
 	}
 }

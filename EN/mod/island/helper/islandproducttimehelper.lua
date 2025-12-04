@@ -16,6 +16,9 @@ slot0.GetSpeedAddtionTypeByPlaceId = function(slot0)
 		end,
 		[IslandProductConst.GardenPlaceId] = function ()
 			return IslandAblityAgency.TYPE_PRODUCT_GARDEN
+		end,
+		[IslandProductConst.FisheryPlaceId] = function ()
+			return IslandAblityAgency.TYPE_PRODUCT_FISH
 		end
 	}, function ()
 		return nil

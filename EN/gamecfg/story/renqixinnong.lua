@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"荣耀殿堂\n\n<size=45>予梦以星</size>",
+					"Hall of Fame\n\n<size=45>A Star For Your Dreams</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgm = "stopbgm",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "映入眼帘的是黑色的海与黑色的天。",
+			say = "The sea and sky alike are vast, black expanses before my eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "这里没有风浪，亦无声音，时间本身都仿佛在此处停滞不前。",
+			say = "There is neither wind nor sound here, as if the hands of time cannot reach this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "为了探寻一个出口，我行走在这片寂静的沙滩上，直到——",
+			say = "In search of a way out, I follow along this silent beach until—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "找到汝了。",
+			say = "This one has finally found you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
-			say = "熟悉的身影突然出现在眼前，原本停滞不前的时间似乎在这一刻开始重新转动。",
+			say = "As a familiar figure graces me with her presence, frozen time seems to thaw and flow once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来，汝是在机缘巧合之下，又误入了妾身的梦境……",
+			say = "It would appear... that you have entered this one's dreams yet again by mistake…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是眼下的风景，稍微有些令人遗憾。",
+			say = "And not the most scenic one either, at that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			},
 			options = {
 				{
-					content = "我们所在的，算是一个噩梦吗？",
+					content = "Are we in your nightmare?",
 					flag = 1
 				}
 			}
@@ -146,7 +146,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噩梦？非也。",
+			say = "Nightmare? This one would not call it such.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在妾身经历过的梦境当中，此间还远不足以称为“噩梦”。",
+			say = "Among all the fragments one has seen… this hardly qualifies as a nightmare.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "况且，因为汝的突然出现……眼下，此处应该算是存在些许甜蜜的永恒之所吧？",
+			say = "Moreover, now that you are here… perhaps, one could even call it a paradise now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,18 +197,18 @@ return {
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然不是噩梦，那我就可以放心了。",
+			say = "Well, I'm certainly relieved if it's not a nightmare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "（躺在沙地上）",
+					content = "(Lie down in the sand)",
 					flag = 1
 				},
 				{
-					content = "（走到信浓身旁坐下）",
+					content = "(Sit down beside Shinano)",
 					flag = 2
 				}
 			}
@@ -221,7 +221,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还真是随性呢，指挥官。",
+			say = "You are easygoing as ever, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "汝不问妾身，为何将这里称为永恒吗？",
+			say = "You are not going to ask why this one would call this dream a paradise?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}一边说着，一边轻轻靠了过来。",
+			say = "Shinano slowly leans towards me as she speaks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
-			say = "虽然在梦中理应没有真实的五感，却依然能闻到{namecode:182:信浓}身上传来的丝缕幽香。",
+			say = "Even though I'm not sure my senses should be working in a dream, I can clearly smell her faint fragrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此间梦境的时间不会流动。无论在此停留多久，都不会有任何改变。",
+			say = "This is a dreamland in which time does not flow. No matter how long you stay here, nothing will ever change.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "若是妾身未能寻到指挥官，恐怕汝就要被这里吞噬，困在一成不变的晦暗之中了……",
+			say = "Had this one failed to find you, you might have been swallowed up by this place, lost forever to the immutable darkness…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，汝会害怕吗？",
+			say = "Are you afraid of such a possibility, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,11 +324,11 @@ return {
 			},
 			options = {
 				{
-					content = "信浓会怕吗？",
+					content = "What about you? Does it scare you, Shinano?",
 					flag = 1
 				},
 				{
-					content = "不会，因为有信浓在",
+					content = "Nope, because I know you're here.",
 					flag = 2
 				}
 			}
@@ -342,7 +342,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……并不会哦，只是——",
+			say = "Heehee… Scare, perhaps not, but…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官真是太过信任妾身了呢，不过——",
+			say = "You place too much faith in this one's capabilities, but…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "若时间不会流动，就意味着万物亦不会改变，只会永远保持着第一次与妾身相遇时的样子。",
+			say = "Given that time and change do not exist here, the two of us would forever remain as when we first met.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……仿佛如同牢笼一般。",
+			say = "…I'm not sure I like the sound of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊……确如牢笼一般。",
+			say = "Indeed… we would be as two birds in a cage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是此刻，牢笼亦是乐园。",
+			say = "But at this moment, even this cage can be its own little paradise…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有汝陪在妾身身旁，就算在此间多困些时日，倒也无妨了。",
+			say = "With you at my side… perhaps even another eternity or two here is not such a bad thing…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……也就是说，如果我没有误打误撞出现在这里。你就要一个人在牢笼中独自等待了吗？",
+			say = "Wait, so if I'm understanding this right… Had I not shown up, you would've been stuck here forever by yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是。直到梦醒之前，一直等下去。",
+			say = "Indeed. This one would continue to wait here… until you came to awaken me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……………………",
+			say = "…...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~其实妾身方才所说的牢笼与永恒，只是用来吓唬指挥官的。",
+			say = "Heehee~ Actually, all this talk of cages and eternity… was simply meant to scare you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "汝不必担心，在漫长的时光中，妾身也是一点点进步的。",
+			say = "Worry not. Over such a long span of time, this one has made quite some progress.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然还不能完全掌握梦境，但待得时间长了，也就渐渐总结出些门道。",
+			say = "Though this one still lacks complete mastery over dreams, one has picked up a few small tricks over time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就比如……",
+			say = "For example…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			bgm = "battle-xinnong-image",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她伸出手，指向我们头顶漆黑沉闷的天穹。",
+			say = "Shinano extends her arm and gestures at the dreary, lifeless sky above us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}手指虚点，伴随着她的动作，一颗、两颗……无数颗星辰浮现在穹顶之上。",
+			say = "She points once, then again, and along with her movements, the firmament comes to life with one, two, no, countless stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "黑暗被星海驱散了……这就是，能够改变梦境的力量？",
+			say = "A lightless ocean, dispelled by a sea of stars… Is this the power that can change dreams?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然如此——",
+			say = "If so, then why don't you––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "汝是想问，既然拥有此种力量，为何不早些用出来？",
+			say = "Why did this one not use it earlier, is what you wanted to ask, yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，因为意义不同。",
+			say = "Heehee. Because, everything has changed…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倘若只有妾身一人，随遇而安也未尝不可。",
+			say = "By oneself, this one would not have minded continuing to go along with the flow…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是此刻，汝亦在此……次方天地，对于妾身的意义已经不同了。",
+			say = "But now that you are here, the very world itself has taken on an entirely different meaning…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "妾身想让汝看到星光。",
+			say = "After all, this one wishes for you to see the stars.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为汝之于妾身，就如同这片星光……",
+			say = "Because in this one's eyes… you are just like this starlight…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
-			say = "银色的发丝拂过鼻尖。",
+			say = "I feel strands of silvery hair brush against my nose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
-			say = "我们不再言语。",
+			say = "All words between us are eclipsed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
-			say = "此方天地虽大，却不过二人。虽小，但也有万千星辰。",
+			say = "Although this world is infinitely vast, there is only enough room for two people. Although this world is infinitely small, there is enough room for countless twinkling stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
-			say = "黑色的海洋，渐起，渐落。",
+			say = "Ever so gradually, the dark sea ebbs and flows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
-			say = "流水冲刷着时间，它什么都带不来，也什么都拿不走……意义，在梦境中显得毫无意义。",
+			say = "The flowing water washes away time, bringing nothing yet taking nothing… until in this dreamscape, even meaning becomes meaningless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
-			say = "直至星辰与海浪融为一体，身边之人成为梦境的全部，万物合为一——",
+			say = "All until the stars and waves merge into one, coalescing into a single entity along with dreams and reality – with her by my side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

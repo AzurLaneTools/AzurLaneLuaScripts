@@ -6900,7 +6900,7 @@ pg.base.island_item_data_template = {
 	},
 	[110003] = {
 		name = "Strawberry Drink",
-		desc = "Recovers 50 stamina. Character also gains a buff: when assigned to farming, gathering or husbandry, the time needed for production is reduced by 5% for 8 hours. Its sweet strawberry fragrance fills you with joy and energy.",
+		desc = "Recovers 50 stamina and grants a buff: for 8 hours, when producing basic resources, increases working speed by 5%. Its sweet strawberry fragrance fills you with joy and energy.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6942,7 +6942,7 @@ pg.base.island_item_data_template = {
 	},
 	[110004] = {
 		name = "Kumquat Drink",
-		desc = "Recovers 50 stamina. Character also gains a buff: when assigned to Base Factory, the time needed for manufacturing is reduced by 5% for 8 hours. While the kumquat is a bit sour, its aftertaste is sweet and uplifting.",
+		desc = "Recovers 50 stamina and grants a buff: for 8 hours, when manufacturing items at the Base Factory, increases working speed by 5%. While the kumquat is a bit sour, its aftertaste is sweet and uplifting.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6984,7 +6984,7 @@ pg.base.island_item_data_template = {
 	},
 	[110005] = {
 		name = "Berry Drink",
-		desc = "Recovers 50 stamina. Character also gains a buff: when assigned to cook in a food store, the time needed for cooking is reduced by 5% for 8 hours. Sweet and sour, it's brimming with the joyful and fruity flavor of berries.",
+		desc = "Recovers 50 stamina and grants a buff: for 8 hours, when cooking food, working speed increases by 5%. Sweet and sour, it's brimming with the joyful and fruity flavor of berries.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,

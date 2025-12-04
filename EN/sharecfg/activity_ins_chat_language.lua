@@ -6516,7 +6516,93 @@ pg.activity_ins_chat_language = setmetatable({
 		6513,
 		6514,
 		6515,
-		6516
+		6516,
+		6517,
+		6518,
+		6519,
+		6520,
+		6521,
+		6522,
+		6523,
+		6524,
+		6525,
+		6526,
+		6527,
+		6528,
+		6529,
+		6530,
+		6531,
+		6532,
+		6533,
+		6534,
+		6535,
+		6536,
+		6537,
+		6538,
+		6539,
+		6540,
+		6541,
+		6542,
+		6543,
+		6544,
+		6545,
+		6546,
+		6547,
+		6548,
+		6549,
+		6550,
+		6551,
+		6552,
+		6553,
+		6554,
+		6555,
+		6556,
+		6557,
+		6558,
+		6559,
+		6560,
+		6561,
+		6562,
+		6563,
+		6564,
+		6565,
+		6566,
+		6567,
+		6568,
+		6569,
+		6570,
+		6571,
+		6572,
+		6573,
+		6574,
+		6575,
+		6576,
+		6577,
+		6578,
+		6579,
+		6580,
+		6581,
+		6582,
+		6583,
+		6584,
+		6585,
+		6586,
+		6587,
+		6588,
+		6589,
+		6590,
+		6591,
+		6592,
+		6593,
+		6594,
+		6595,
+		6596,
+		6597,
+		6598,
+		6599,
+		6600,
+		6601,
+		6602
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -64533,6 +64619,744 @@ pg.base.activity_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 6516,
+		flag = 3
+	},
+	[6517] = {
+		param = "Commander, I just experienced the most drastic thing since I began offering my service.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6517,
+		flag = 0
+	},
+	[6518] = {
+		param = "I've lost contact with logistics drone team 3, which I dispatched just 43 seconds ago.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6518,
+		flag = 0
+	},
+	[6519] = {
+		param = "I attempted to reconnect. It failed.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6519,
+		flag = 0
+	},
+	[6520] = {
+		param = "I activated the backup protocol. No response.",
+		ship_group = 10233,
+		type = 1,
+		id = 6520,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Let's calm down first of all."
+			}
+		}
+	},
+	[6521] = {
+		param = "Let's calm down first of all. Why don't you check what might be affected?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6521,
+		flag = 1
+	},
+	[6522] = {
+		param = "Based on my model projections, this communication disruption will lead to a 28.72% decrease in delivery success rate.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6522,
+		flag = 1
+	},
+	[6523] = {
+		param = "Consequently, my customer satisfaction rating will hit the danger threshold.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6523,
+		flag = 1
+	},
+	[6524] = {
+		param = "This will directly affect the principal evaluation of my business expansion algorithm.",
+		ship_group = 10233,
+		type = 1,
+		id = 6524,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Could it be a technical error?"
+			}
+		}
+	},
+	[6525] = {
+		param = "Could it be due to electronic interference, or a temporary system malfunction?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6525,
+		flag = 2
+	},
+	[6526] = {
+		param = "I'm troubleshooting the issue, but time is of the essence.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6526,
+		flag = 2
+	},
+	[6527] = {
+		param = "A failure to deliver will result in a logged, significant service incident.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6527,
+		flag = 2
+	},
+	[6528] = {
+		param = "This would be a permanent blemish on my reputational database.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6528,
+		flag = 2
+	},
+	[6529] = {
+		param = "Initial analysis results: risk of bankruptcy increases to 12.45%.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6529,
+		flag = 2
+	},
+	[6530] = {
+		param = "Negative review rate is about to reach 0.52%.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6530,
+		flag = 2
+	},
+	[6531] = {
+		param = "I cannot let this happen. It's never gotten worse than 0.48% before!",
+		ship_group = 10233,
+		type = 1,
+		id = 6531,
+		flag = 2,
+		option = {
+			{
+				3,
+				"That's... a difference of 0.04%."
+			}
+		}
+	},
+	[6532] = {
+		param = "That's... a difference of 0.04%.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6532,
+		flag = 3
+	},
+	[6533] = {
+		param = "0.04% is a lot!",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6533,
+		flag = 3
+	},
+	[6534] = {
+		param = "Every negative review is proof that a client felt disappointed or dissatisfied.",
+		ship_group = 10233,
+		type = 1,
+		id = 6534,
+		flag = 3,
+		option = {
+			{
+				4,
+				"So what you're really concerned about is..."
+			}
+		}
+	},
+	[6535] = {
+		param = "So what you're really concerned about is letting people down?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6535,
+		flag = 4
+	},
+	[6536] = {
+		param = "...",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6536,
+		flag = 4
+	},
+	[6537] = {
+		param = "Analyzing emotions...",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6537,
+		flag = 4
+	},
+	[6538] = {
+		param = "Based on my analysis, my core principles compel me to avoid disappointing anyone, regardless of the cost incurred.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6538,
+		flag = 4
+	},
+	[6539] = {
+		param = "You might be correct, Commander.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6539,
+		flag = 4
+	},
+	[6540] = {
+		param = "Oh. I've reestablished contact with drone team 3.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6540,
+		flag = 4
+	},
+	[6541] = {
+		param = "From what the logs tell me, some of the girls at the port looked after the drones.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6541,
+		flag = 4
+	},
+	[6542] = {
+		param = "Commander, if you don't mind, would you come along with me to thank them?",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6542,
+		flag = 4
+	},
+	[6543] = {
+		param = "Commander, I have something important to discuss.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6543,
+		flag = 0
+	},
+	[6544] = {
+		param = "Give me a second. I need to recalibrate my emotional expression.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6544,
+		flag = 0
+	},
+	[6545] = {
+		param = "There. I increased my seriousness index by 35.89%.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6545,
+		flag = 0
+	},
+	[6546] = {
+		param = "Here's the deal...",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6546,
+		flag = 0
+	},
+	[6547] = {
+		param = "I want to talk to you about optimizing the port's internal logistics.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6547,
+		flag = 0
+	},
+	[6548] = {
+		param = "Right now, the regular material dispatches are still within my calculations.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6548,
+		flag = 0
+	},
+	[6549] = {
+		param = "However, we're going to need coordination between several departments.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6549,
+		flag = 0
+	},
+	[6550] = {
+		param = "That is something that's outside my jurisdiction.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6550,
+		flag = 0
+	},
+	[6551] = {
+		param = "I've analyzed the data, and it shows that the most efficient solution is for you to take the lead in integrating our resources.",
+		ship_group = 10233,
+		type = 1,
+		id = 6551,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Alright. I'll do that."
+			}
+		}
+	},
+	[6552] = {
+		param = "Alright. I'll do that.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6552,
+		flag = 1
+	},
+	[6553] = {
+		param = "Thanks for approving that. I've submitted a request.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6553,
+		flag = 1
+	},
+	[6554] = {
+		param = "Another thing: my auxiliary monitoring module has detected some unusual data.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6554,
+		flag = 1
+	},
+	[6555] = {
+		param = "I ran the numbers and found that your fatigue index has reached 58.71%.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6555,
+		flag = 1
+	},
+	[6556] = {
+		param = "Is it because you've been working nonstop for over 6 hours with no breaks?",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6556,
+		flag = 1
+	},
+	[6557] = {
+		param = "I estimate that the application I just sent will increase your fatigue by an additional 8.37%.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6557,
+		flag = 1
+	},
+	[6558] = {
+		param = "To reduce the stress on you, I want to take on some of your work.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6558,
+		flag = 1
+	},
+	[6559] = {
+		param = "This should reduce your workload by an estimated 47.39%.",
+		ship_group = 10233,
+		type = 1,
+		id = 6559,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I already feel a lot better..."
+			}
+		}
+	},
+	[6560] = {
+		param = "Just from talking with you, I already feel a lot better.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6560,
+		flag = 2
+	},
+	[6561] = {
+		param = "Yes, it does seem that your fatigue index has started decreasing.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6561,
+		flag = 2
+	},
+	[6562] = {
+		param = "Since it's about time for a break, have you replenished your energy?",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6562,
+		flag = 2
+	},
+	[6563] = {
+		param = "To borrow a common saying around the port: \"Have you eaten yet?\"",
+		ship_group = 10233,
+		type = 1,
+		id = 6563,
+		flag = 2,
+		option = {
+			{
+				3,
+				"I'll eat once I'm finished with these papers."
+			}
+		}
+	},
+	[6564] = {
+		param = "I'll eat once I'm finished with these papers.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6564,
+		flag = 3
+	},
+	[6565] = {
+		param = "It is true that postponing a meal is effective for increasing your working efficiency...",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6565,
+		flag = 3
+	},
+	[6566] = {
+		param = "However, it's also bad for your health.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6566,
+		flag = 3
+	},
+	[6567] = {
+		param = "As it so happens, I'm about to launch an express meal delivery service.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6567,
+		flag = 3
+	},
+	[6568] = {
+		param = "My goal is to ensure the food is at an optimum temperature of between 35 and 45 degrees C by the time it reaches the client.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6568,
+		flag = 3
+	},
+	[6569] = {
+		param = "This will let you enjoy a warm and delicious meal.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6569,
+		flag = 3
+	},
+	[6570] = {
+		param = "Furthermore, if I were there to help you out...",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6570,
+		flag = 3
+	},
+	[6571] = {
+		param = "I believe your happiness index would increase by 98.67%.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6571,
+		flag = 3
+	},
+	[6572] = {
+		param = "Strangely, this result has even made me feel a sense of... anticipation.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6572,
+		flag = 3
+	},
+	[6573] = {
+		param = "So let me do it for you. I'd like to handle everything from ordering to delivering for you.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6573,
+		flag = 3
+	},
+	[6574] = {
+		param = "I'll be there before you know it.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6574,
+		flag = 3
+	},
+	[6575] = {
+		param = "Commander, your delivery will be 3 minutes late due to the weather.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6575,
+		flag = 0
+	},
+	[6576] = {
+		param = "As compensation, a VIP discount will be applied to all your future orders.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6576,
+		flag = 0
+	},
+	[6577] = {
+		param = "Okay. 3 minutes have now passed.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6577,
+		flag = 0
+	},
+	[6578] = {
+		param = "Did you receive the deluxe drink you ordered?",
+		ship_group = 10233,
+		type = 1,
+		id = 6578,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Yeah, but..."
+			}
+		}
+	},
+	[6579] = {
+		param = "Yeah, but the flavor isn't what I ordered.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6579,
+		flag = 1
+	},
+	[6580] = {
+		param = "Give me a minute while I query your order details.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6580,
+		flag = 1
+	},
+	[6581] = {
+		param = "The dispatch data and your order details don't match. That was a mistake on my part.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6581,
+		flag = 1
+	},
+	[6582] = {
+		param = "How clumsy of me. So very clumsy.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6582,
+		flag = 1
+	},
+	[6583] = {
+		param = "246",
+		ship_group = 10233,
+		option = "",
+		type = 4,
+		id = 6583,
+		flag = 1
+	},
+	[6584] = {
+		param = "That didn't come out right. Let me raise my cuteness index by 31.79% and try again.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6584,
+		flag = 1
+	},
+	[6585] = {
+		param = "Sorry... I hope my stupid screwup didn't ruin it for you.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6585,
+		flag = 1
+	},
+	[6586] = {
+		param = "I've heard that apologizing sincerely like this raises the likelihood of receiving your forgiveness.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6586,
+		flag = 1
+	},
+	[6587] = {
+		param = "It's what Alsace called the \"efficient apology process.\"",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6587,
+		flag = 1
+	},
+	[6588] = {
+		param = "Please wait a bit. I'll send you the correct drink.",
+		ship_group = 10233,
+		type = 1,
+		id = 6588,
+		flag = 1,
+		option = {
+			{
+				2,
+				"No need to."
+			}
+		}
+	},
+	[6589] = {
+		param = "No need to. This one still tastes pretty good.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6589,
+		flag = 2
+	},
+	[6590] = {
+		param = "...",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6590,
+		flag = 2
+	},
+	[6591] = {
+		param = "Um... Commander, don't you have anything else to say?",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6591,
+		flag = 2
+	},
+	[6592] = {
+		param = "Your butterflies-in-stomach index with regard to me has risen by 57.34%.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6592,
+		flag = 2
+	},
+	[6593] = {
+		param = "But this scenario hasn't played out quite how I imagined it.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6593,
+		flag = 2
+	},
+	[6594] = {
+		param = "Are you not interested in silly Fargo's clumsy girl service?",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6594,
+		flag = 2
+	},
+	[6595] = {
+		param = "The goal is to express myself in a way that shows my clumsy cuteness...",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6595,
+		flag = 2
+	},
+	[6596] = {
+		param = "While soothing your mind.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6596,
+		flag = 2
+	},
+	[6597] = {
+		param = "I thought it would be a good strategy for diversifying my business.",
+		ship_group = 10233,
+		type = 1,
+		id = 6597,
+		flag = 2,
+		option = {
+			{
+				3,
+				"You don't need to do that. You're already cute."
+			}
+		}
+	},
+	[6598] = {
+		param = "You don't need to do that. You're already cute.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 6598,
+		flag = 3
+	},
+	[6599] = {
+		param = "Shock... Bashfulness... Those are the emotions I'm feeling now.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6599,
+		flag = 3
+	},
+	[6600] = {
+		param = "Although this didn't go as I expected, it did give me more useful experience and data to analyze.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6600,
+		flag = 3
+	},
+	[6601] = {
+		param = "Next time, I'll be able to provide a more polished and personalized service to you.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6601,
+		flag = 3
+	},
+	[6602] = {
+		param = "I hope I'll continue to captivate you.",
+		ship_group = 10233,
+		option = "",
+		type = 1,
+		id = 6602,
 		flag = 3
 	}
 }

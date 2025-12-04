@@ -436,8 +436,10 @@ slot0.UpdateRaceState = function(slot0, slot1, slot2, slot3)
 	end)
 	slot8:align(slot3 == uv5 and slot7 and #slot7:getList() >= 3 and 3 or 0)
 	onButton(slot0, slot1, function ()
-		if getProxy(VoteProxy):RawGetVoteGroupByConfigId(uv0.id) then
-			if getProxy(ContextProxy):getCurrentContext() and slot0.mediator == VoteMediator then
+		slot0 = getProxy(VoteProxy):GetOpeningNonFunVoteGroup() or getProxy(VoteProxy):GetOpeningFunVoteGroup()
+
+		if getProxy(VoteProxy):RawGetVoteGroupByConfigId(uv0.id) and slot0 and slot0.id == uv0.id then
+			if getProxy(ContextProxy):getCurrentContext() and slot1.mediator == VoteMediator then
 				uv1:emit(uv2.ON_CLOSE)
 			else
 				uv1:emit(VoteScheduleMediator.ON_VOTE)

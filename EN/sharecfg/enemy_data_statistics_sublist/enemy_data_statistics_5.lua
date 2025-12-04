@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_5 = {
 	[50141] = {
 		cannon = 0,
-		name = "四糸乃",
+		name = "Yoshino",
 		antiaircraft_growth = 5000,
 		speed_growth = 0,
 		luck = 0,
@@ -126,7 +126,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[50142] = {
 		air_growth = 5500,
-		name = "四糸乃",
+		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 5500,
 		torpedo_growth = 5500,
@@ -150,7 +150,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[50143] = {
 		air_growth = 6100,
-		name = "四糸乃",
+		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 6100,
 		torpedo_growth = 6100,
@@ -174,7 +174,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[50144] = {
 		air_growth = 6650,
-		name = "四糸乃",
+		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 6650,
 		torpedo_growth = 6650,
@@ -198,7 +198,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[50145] = {
 		air_growth = 7200,
-		name = "四糸乃",
+		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 7200,
 		torpedo_growth = 7200,
@@ -222,7 +222,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[50146] = {
 		air_growth = 7750,
-		name = "四糸乃",
+		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 7750,
 		torpedo_growth = 7750,
@@ -246,7 +246,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[50147] = {
 		air_growth = 8300,
-		name = "四糸乃",
+		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 8300,
 		torpedo_growth = 8300,
@@ -270,7 +270,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[50148] = {
 		air_growth = 8850,
-		name = "四糸乃",
+		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 8850,
 		torpedo_growth = 8850,
@@ -294,7 +294,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[50149] = {
 		air_growth = 9400,
-		name = "四糸乃",
+		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 9400,
 		torpedo_growth = 9400,
@@ -318,7 +318,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[50150] = {
 		air_growth = 10000,
-		name = "四糸乃",
+		name = "Yoshino",
 		luck_growth = 10000,
 		cannon_growth = 10000,
 		torpedo_growth = 10000,

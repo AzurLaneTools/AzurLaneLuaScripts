@@ -21,13 +21,6 @@ pg.island_animation_attachments = {
 		animator = "island/animator/ani_item_1_10007",
 		unlock = 0
 	},
-	[10008] = {
-		id = 10008,
-		model = "island/item/01/10008/prefab/pre_item_01_10008",
-		attack = 0,
-		animator = "island/animator/ani_item_1_10008",
-		unlock = 0
-	},
 	[10009] = {
 		id = 10009,
 		model = "island/item/01/10009/prefab/pre_item_01_10009",
@@ -172,7 +165,6 @@ pg.island_animation_attachments = {
 		10004,
 		10006,
 		10007,
-		10008,
 		10009,
 		10010,
 		10011,

@@ -2150,6 +2150,11 @@ pg.player_resource = {
 		name = "newserver_pt_251120",
 		itemid = 65110
 	},
+	[595] = {
+		id = 595,
+		name = "hailunna1204_pt",
+		itemid = 65111
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -4011,6 +4016,9 @@ pg.player_resource = {
 		newserver_pt_251120 = {
 			594
 		},
+		hailunna1204_pt = {
+			595
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4785,6 +4793,7 @@ pg.player_resource = {
 		592,
 		593,
 		594,
+		595,
 		950,
 		951,
 		952,

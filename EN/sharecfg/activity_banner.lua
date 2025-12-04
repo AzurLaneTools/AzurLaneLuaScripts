@@ -1,41 +1,17 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -44,32 +20,6 @@ pg.activity_banner = {
 			{
 				projectName = "new",
 				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -80,15 +30,15 @@ pg.activity_banner = {
 		param = {
 			"scene core activity",
 			{
-				coreName = "DALCoreActivityUI"
+				coreName = "HelenaCoreActivityUI"
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					4
 				},
 				{
 					0,
@@ -100,7 +50,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					3
+					10
 				},
 				{
 					23,
@@ -111,6 +61,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -119,35 +70,10 @@ pg.activity_banner = {
 			{
 				wrap = 2
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -156,32 +82,6 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -189,14 +89,14 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene court yard"
+			"scene vote entrance"
 		},
 		time = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					4
 				},
 				{
 					0,
@@ -208,7 +108,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					3
+					10
 				},
 				{
 					23,
@@ -252,39 +152,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		param = "50234",
-		type = 3,
-		id = 8,
-		pic = "temp8",
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
+	[9] = {
 		type = 2,
 		id = 9,
 		pic = "temp9",
@@ -299,8 +167,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					4
 				},
 				{
 					0,
@@ -312,7 +180,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					3
+					10
 				},
 				{
 					23,
@@ -345,35 +213,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -453,9 +296,6 @@ pg.activity_banner = {
 			7,
 			9
 		},
-		[3] = {
-			8
-		},
 		[9] = {
 			90,
 			91
@@ -485,7 +325,6 @@ pg.activity_banner = {
 		5,
 		6,
 		7,
-		8,
 		9,
 		90,
 		91,

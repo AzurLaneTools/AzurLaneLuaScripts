@@ -3100,16 +3100,6 @@ pg.island_ability_template = {
 		show_pop_text = "",
 		show_type = 1
 	},
-	[3601006] = {
-		unlock_text = "",
-		effect = 601006,
-		show_pop = 0,
-		type = 3,
-		id = 3601006,
-		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
-		show_type = 1
-	},
 	[3601101] = {
 		unlock_text = "",
 		effect = 601101,
@@ -3326,16 +3316,6 @@ pg.island_ability_template = {
 		show_pop = 0,
 		type = 3,
 		id = 3604002,
-		cmd_icon = "IslandProps/gold",
-		show_pop_text = "",
-		show_type = 1
-	},
-	[3604003] = {
-		unlock_text = "",
-		effect = 604003,
-		show_pop = 0,
-		type = 3,
-		id = 3604003,
 		cmd_icon = "IslandProps/gold",
 		show_pop_text = "",
 		show_type = 1
@@ -5680,7 +5660,6 @@ pg.island_ability_template = {
 			3601003,
 			3601004,
 			3601005,
-			3601006,
 			3601101,
 			3601102,
 			3602001,
@@ -5703,7 +5682,6 @@ pg.island_ability_template = {
 			3603103,
 			3604001,
 			3604002,
-			3604003,
 			3604004,
 			3604005,
 			3604006,
@@ -6534,7 +6512,6 @@ pg.island_ability_template = {
 		3601003,
 		3601004,
 		3601005,
-		3601006,
 		3601101,
 		3601102,
 		3602001,
@@ -6557,7 +6534,6 @@ pg.island_ability_template = {
 		3603103,
 		3604001,
 		3604002,
-		3604003,
 		3604004,
 		3604005,
 		3604006,

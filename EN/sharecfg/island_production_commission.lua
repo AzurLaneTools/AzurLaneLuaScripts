@@ -6,6 +6,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10010047,
 		id = 10101,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -15,6 +16,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10010048,
 		id = 10102,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -24,6 +26,7 @@ pg.island_production_commission = {
 		name = "Slot: C",
 		birthplace = 10010049,
 		id = 10103,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -33,6 +36,7 @@ pg.island_production_commission = {
 		name = "Slot: D",
 		birthplace = 10010050,
 		id = 10104,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -42,6 +46,7 @@ pg.island_production_commission = {
 		name = "Clucky Clucky Bird",
 		birthplace = 10010051,
 		id = 10201,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 3
 	},
@@ -51,6 +56,7 @@ pg.island_production_commission = {
 		name = "Oinky Oinky Pig",
 		birthplace = 10010052,
 		id = 10202,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 3
 	},
@@ -60,6 +66,7 @@ pg.island_production_commission = {
 		name = "Moo Moo Cow",
 		birthplace = 10010053,
 		id = 10203,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 3
 	},
@@ -69,6 +76,7 @@ pg.island_production_commission = {
 		name = "Baa Baa Sheep",
 		birthplace = 10010054,
 		id = 10204,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 3
 	},
@@ -78,6 +86,7 @@ pg.island_production_commission = {
 		name = "Areas: A",
 		birthplace = 10040009,
 		id = 40101,
+		unlockObjid = 0,
 		performanceObjid = 10040021,
 		attribute = 4
 	},
@@ -87,6 +96,7 @@ pg.island_production_commission = {
 		name = "Areas: B",
 		birthplace = 10040010,
 		id = 40102,
+		unlockObjid = 0,
 		performanceObjid = 10040021,
 		attribute = 4
 	},
@@ -96,6 +106,7 @@ pg.island_production_commission = {
 		name = "Areas: C",
 		birthplace = 10040011,
 		id = 40103,
+		unlockObjid = 0,
 		performanceObjid = 10040021,
 		attribute = 4
 	},
@@ -105,6 +116,7 @@ pg.island_production_commission = {
 		name = "Areas: D",
 		birthplace = 10040012,
 		id = 40104,
+		unlockObjid = 0,
 		performanceObjid = 10040021,
 		attribute = 4
 	},
@@ -114,6 +126,7 @@ pg.island_production_commission = {
 		name = "Areas: A",
 		birthplace = 10040013,
 		id = 40201,
+		unlockObjid = 0,
 		performanceObjid = 10040036,
 		attribute = 4
 	},
@@ -123,6 +136,7 @@ pg.island_production_commission = {
 		name = "Areas: B",
 		birthplace = 10040014,
 		id = 40202,
+		unlockObjid = 0,
 		performanceObjid = 10040037,
 		attribute = 4
 	},
@@ -132,6 +146,7 @@ pg.island_production_commission = {
 		name = "Areas: C",
 		birthplace = 10040015,
 		id = 40203,
+		unlockObjid = 0,
 		performanceObjid = 10040038,
 		attribute = 4
 	},
@@ -141,6 +156,7 @@ pg.island_production_commission = {
 		name = "Areas: D",
 		birthplace = 10040016,
 		id = 40204,
+		unlockObjid = 0,
 		performanceObjid = 10040039,
 		attribute = 4
 	},
@@ -150,6 +166,7 @@ pg.island_production_commission = {
 		name = "Areas: A",
 		birthplace = 10050004,
 		id = 50101,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -159,6 +176,7 @@ pg.island_production_commission = {
 		name = "Areas: B",
 		birthplace = 10050005,
 		id = 50102,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -168,6 +186,7 @@ pg.island_production_commission = {
 		name = "Areas: C",
 		birthplace = 10050006,
 		id = 50103,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -177,6 +196,7 @@ pg.island_production_commission = {
 		name = "Areas: D",
 		birthplace = 10050007,
 		id = 50104,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -186,6 +206,7 @@ pg.island_production_commission = {
 		name = "Areas: A",
 		birthplace = 10050008,
 		id = 50201,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -195,6 +216,7 @@ pg.island_production_commission = {
 		name = "Areas: B",
 		birthplace = 10050009,
 		id = 50202,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
 	},
@@ -204,6 +226,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10060005,
 		id = 60101,
+		unlockObjid = 0,
 		performanceObjid = 10060015,
 		attribute = 6
 	},
@@ -213,6 +236,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10060006,
 		id = 60102,
+		unlockObjid = 0,
 		performanceObjid = 10060016,
 		attribute = 6
 	},
@@ -222,6 +246,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10060003,
 		id = 60201,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
 	},
@@ -231,6 +256,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10060004,
 		id = 60202,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
 	},
@@ -240,6 +266,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10060032,
 		id = 60301,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
 	},
@@ -249,6 +276,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10060033,
 		id = 60302,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
 	},
@@ -258,6 +286,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10060034,
 		id = 60401,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
 	},
@@ -267,6 +296,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10060035,
 		id = 60402,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
 	},
@@ -276,6 +306,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10090006,
 		id = 90101,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
 	},
@@ -285,6 +316,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10090007,
 		id = 90102,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
 	},
@@ -294,6 +326,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10070007,
 		id = 70201,
+		unlockObjid = 0,
 		performanceObjid = 10070009,
 		attribute = 0
 	},
@@ -303,6 +336,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10070008,
 		id = 70202,
+		unlockObjid = 0,
 		performanceObjid = 10070010,
 		attribute = 0
 	},
@@ -312,6 +346,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10070017,
 		id = 70301,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
 	},
@@ -321,6 +356,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10070018,
 		id = 70302,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
 	},
@@ -330,6 +366,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10070019,
 		id = 70401,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
 	},
@@ -339,6 +376,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10070020,
 		id = 70402,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
 	},
@@ -348,6 +386,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10070021,
 		id = 70501,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
 	},
@@ -357,6 +396,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10070022,
 		id = 70502,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
 	},
@@ -366,6 +406,7 @@ pg.island_production_commission = {
 		name = "Slot: A",
 		birthplace = 10070023,
 		id = 70601,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
 	},
@@ -375,6 +416,7 @@ pg.island_production_commission = {
 		name = "Slot: B",
 		birthplace = 10070024,
 		id = 70602,
+		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
 	},

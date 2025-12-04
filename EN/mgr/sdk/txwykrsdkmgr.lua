@@ -92,7 +92,7 @@ end
 
 OnRequestPayment = function(slot0)
 	originalPrint("SdkPay OnRequestPayment")
-	uv1:Pay(slot0, "", uv0.GetPNInfo().info)
+	uv1:SDK_PayWithProductID(slot0, uv0.GetSDKServerID(), "", uv0.GetPNInfo().info:GetJson())
 end
 
 OnQuerySuccess = function(slot0, slot1)
@@ -132,6 +132,19 @@ return {
 	GetClientVer = function ()
 		return BundleWizard.Inst:GetGroupMgr(GroupMainHelper.DefaultGroupName).CurrentVersion:ToString()
 	end,
+	GetSDKServerID = function ()
+		slot0 = {
+			[0] = "1",
+			"2001",
+			"1001",
+			"not_define"
+		}
+		slot1 = slot0[NetConst.getwayType]
+
+		originalPrint("SDK ServerID:" .. tostring(slot1))
+
+		return slot0[slot1]
+	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()
 	end,
@@ -162,9 +175,11 @@ return {
 		uv1:BugReport(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
 	end,
 	StoreReview = function ()
-		slot0 = uv0.GetPNInfo()
+		if uv0.GetIsPlatform() then
+			slot0 = uv0.GetPNInfo()
 
-		uv1:StoreReview(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
+			uv1:StoreReview(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
+		end
 	end,
 	ShareImg = function (slot0)
 		uv0:ShareImg(slot0, "")
@@ -188,13 +203,18 @@ return {
 		slot11 = slot10.serverID .. "-" .. slot10.playerID .. "-" .. slot4
 
 		originalPrint("SdkPay nonce", tostring(slot11))
-		uv1:Pay(slot0, slot11, slot10.info)
+		uv1:SDK_PayWithProductID(slot0, uv0.GetSDKServerID(), slot11, slot10.info:GetJson())
 	end,
 	BindCPU = function ()
 		uv0:callSdkApi("bindCpu", nil)
 	end,
 	SwitchAccount = function ()
-		uv0:SwitchAccount()
+		slot0 = uv0
+
+		slot0:LocalLogout()
+		onDelayTick(function ()
+			uv0:Login()
+		end, 0.1)
 	end,
 	EventTrack = function (slot0)
 		uv0:SDK_EvtTrack(slot0)

@@ -168569,6 +168569,31 @@ _G.pg.base.item_virtual_data_statistics[65108] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65111] = {
+	drop_gold_max = 0,
+	name = "Blue Light",
+	display = "Memories in Echo event collectible. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65111",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65111,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "Stellar Resistance Medal",
@@ -173588,6 +173613,81 @@ _G.pg.base.item_virtual_data_statistics[65746] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65746,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65755] = {
+	drop_gold_max = 0,
+	name = "Ballots",
+	display = "Used during voting in each of the rounds of the Azur Lane Popularity Poll 2025. Will be removed after a poll round ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65755,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65756] = {
+	drop_gold_max = 0,
+	name = "Ballots",
+	display = "Used during voting in each of the rounds of the Azur Lane Popularity Poll 2025. Will be removed after a poll round ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65756,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65757] = {
+	drop_gold_max = 0,
+	name = "Ballots",
+	display = "Used during voting in each of the rounds of the Azur Lane Popularity Poll 2025. Will be removed after a poll round ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65757,
 	display_icon = {},
 	price = {},
 	index = {},

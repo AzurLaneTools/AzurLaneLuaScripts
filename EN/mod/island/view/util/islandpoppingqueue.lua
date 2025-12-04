@@ -54,6 +54,10 @@ slot0.ProcessNextOne = function(slot0)
 			uv0.callback()
 		end
 
+		if not uv1.schedule then
+			return
+		end
+
 		uv1.ignoringStoryList = {}
 
 		table.remove(uv1.schedule, 1)

@@ -15,6 +15,9 @@ slot0.Init = function(slot0)
 	slot0:RegisterUnitList(IslandConst.UNIT_LIST_FOLLOW)
 	slot0:RegisterUnitList(IslandConst.UNIT_LIST_DELAY)
 	slot0:RegisterUnitList(IslandConst.UNIT_LIST_PHOTO)
+	slot0:RegisterUnitList(IslandConst.UNIT_LIST_FISH_POINT)
+	slot0:RegisterUnitList(IslandConst.UNIT_LIST_DELEGATE_UNIT)
+	slot0:RegisterUnitList(IslandConst.UNIT_LIST_PRODUCT_SYSTEM)
 
 	slot0.unitBuilders = {
 		[IslandConst.UNIT_TYPE_ITEM] = IslandStaticUnitBuilder.New(slot0, IslandConst.UNIT_LIST_OBJ),
@@ -36,11 +39,13 @@ slot0.Init = function(slot0)
 		[IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION_ANIMATION] = IslandSystemDelegationUnitBuilder.New(slot0, IslandConst.UNIT_LIST_DELEGATION_ANIMATION),
 		[IslandConst.UNIT_TYPE_FOLLOWER] = IslandFollowNpcBuilder.New(slot0, IslandConst.UNIT_LIST_FOLLOW),
 		[IslandConst.UNIT_TYPE_ITEM_DELAY_RECYCLE] = IslandDelayRecycleUnitBuilder.New(slot0, IslandConst.UNIT_LIST_DELAY),
-		[IslandConst.UNIT_TYPE_FIRST_TAKE_PHOTO_ITEM] = IslandTakePhotoBuilder.New(slot0, IslandConst.UNIT_LIST_PHOTO)
+		[IslandConst.UNIT_TYPE_FIRST_TAKE_PHOTO_ITEM] = IslandTakePhotoBuilder.New(slot0, IslandConst.UNIT_LIST_PHOTO),
+		[IslandConst.UNIT_TYPE_FISH_POINT] = IslandStaticUnitBuilder.New(slot0, IslandConst.UNIT_LIST_FISH_POINT),
+		[IslandConst.UNIT_TYPE_DELEGATE_FISH] = IslandDelegationFishBuilder.New(slot0, IslandConst.UNIT_LIST_DELEGATE_UNIT)
 	}
 	slot0.systemBuilders = {
 		[IslandConst.SYSTEM_TYPE_CHARACTER] = IslandSystemBuilder.New(slot0, IslandCharacterSystem),
-		[IslandConst.SYSTEM_TYPE_PRODUCT] = IslandSystemBuilder.New(slot0, IslandCharacterSystem),
+		[IslandConst.SYSTEM_TYPE_PRODUCT] = IslandSystemBuilder.New(slot0, IslandProductSystem, IslandConst.UNIT_LIST_PRODUCT_SYSTEM),
 		[IslandConst.SYSTEM_TYPE_SEEKGAME] = IslandSystemBuilder.New(slot0, IslandSeekGameSystem),
 		[IslandConst.SYSTEM_TYPE_GROUND] = IslandGroundSystemBuilder.New(slot0, IslandGoundLayerSystem),
 		[IslandConst.SYSTEM_TYPE_GRASSLAND] = IslandSystemBuilder.New(slot0, IslandGrassLandSystem),
@@ -54,6 +59,7 @@ slot0.Init = function(slot0)
 	slot0.weatherSystem = IslandWeatherSystem.New(slot0)
 	slot0.coupleNpcWordPlayer = IslandCoupleNpcWordPlayer.New(slot0)
 	slot0.pathfinders = {}
+	slot0.fishingSynPlayers = {}
 	slot0.views = {
 		slot0:CreateInteractionView(),
 		slot0:CreateDistanceView(),
@@ -68,7 +74,10 @@ slot0.Init = function(slot0)
 end
 
 slot0.GetSubView = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.views) do
+	slot2 = ipairs
+	slot3 = slot0.views or {}
+
+	for slot5, slot6 in slot2(slot3) do
 		if isa(slot6, slot1) then
 			return slot6
 		end
@@ -216,6 +225,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.HIDE_UNIT_HUD_OP, slot0.OnHideUnitHudAndOpBtn)
 	slot0:AddListener(ISLAND_EVT.DETECTOR_CHANGED, slot0.OnDetectorChanged)
 	slot0:AddListener(ISLAND_EVT.SELECTED_DETECTOR, slot0.OnDetectorSelected)
+	slot0:AddListener(ISLAND_EVT.FISHPOINT_DETECTOR, slot0.OnFishPointSelected)
 	slot0:AddListener(ISLAND_EVT.NPC_DETECTED, slot0.OnNpcDetectorSelected)
 	slot0:AddListener(ISLAND_EVT.NO_NPC_DETECTED, slot0.OnNpcDetectorUnSelected)
 	slot0:AddListener(ISLAND_EVT.SET_PLAYER_WORK, slot0.OnPlayerWork)
@@ -268,6 +278,9 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.START_DO_COUPLE_ACTION, slot0.OnStartDoCoupleAction)
 	slot0:AddListener(ISLAND_EVT.END_DO_COUPLE_ACTION, slot0.OnEndDoCoupleAction)
 	slot0:AddListener(ISLAND_EVT.CANCEL_COUPLE_ACTION, slot0.OnCancelCoupleAction)
+	slot0:AddListener(ISLAND_EVT.BAIT_UPDATE, slot0.OnBaitUpdate)
+	slot0:AddListener(ISLAND_EVT.START_FISHING, slot0.OnStartFishing)
+	slot0:AddListener(ISLAND_EVT.FISHING_STATE_CHANGE, slot0.OnFishingStateChange)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -315,6 +328,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.HIDE_UNIT_HUD_OP, slot0.OnHideUnitHudAndOpBtn)
 	slot0:RemoveListener(ISLAND_EVT.DETECTOR_CHANGED, slot0.OnDetectorChanged)
 	slot0:RemoveListener(ISLAND_EVT.SELECTED_DETECTOR, slot0.OnDetectorSelected)
+	slot0:RemoveListener(ISLAND_EVT.FISHPOINT_DETECTOR, slot0.OnFishPointSelected)
 	slot0:RemoveListener(ISLAND_EVT.NPC_DETECTED, slot0.OnNpcDetectorSelected)
 	slot0:RemoveListener(ISLAND_EVT.NO_NPC_DETECTED, slot0.OnNpcDetectorUnSelected)
 	slot0:RemoveListener(ISLAND_EVT.SET_PLAYER_WORK, slot0.OnPlayerWork)
@@ -366,11 +380,95 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.START_DO_COUPLE_ACTION, slot0.OnStartDoCoupleAction)
 	slot0:RemoveListener(ISLAND_EVT.END_DO_COUPLE_ACTION, slot0.OnEndDoCoupleAction)
 	slot0:RemoveListener(ISLAND_EVT.CANCEL_COUPLE_ACTION, slot0.OnCancelCoupleAction)
+	slot0:RemoveListener(ISLAND_EVT.BAIT_UPDATE, slot0.OnBaitUpdate)
+	slot0:RemoveListener(ISLAND_EVT.START_FISHING, slot0.OnStartFishing)
+	slot0:RemoveListener(ISLAND_EVT.FISHING_STATE_CHANGE, slot0.OnFishingStateChange)
 end
 
-slot0.OnSystemUnlock = function(slot0, slot1)
-	if slot1 == IslandAblityAgency.ANIMATION_OP_ID then
-		slot0:GetSubView(IslandOpView):UpdateAnimationOpBtn()
+slot0.OnBaitUpdate = function(slot0, slot1)
+	slot0:GetSubView(IslandOpView):UpdateLureBtn()
+end
+
+slot0.OnFishPointSelected = function(slot0, slot1)
+	if not slot1.node then
+		return
+	end
+
+	if not slot2:GetBlackboardVariable("FishPoint") or slot3 == "" then
+		slot0:UnSelectedFishPoint()
+	else
+		slot4, slot5 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot3)
+
+		if slot0:GetUnitModuleWithType(slot4, slot5) then
+			slot0:SelectedFishPoint(slot6)
+		end
+	end
+end
+
+slot0.SelectedFishPoint = function(slot0, slot1)
+	if not slot0:GetSelfIsland():GetAblityAgency():IsUnlockFishing() or slot1:GetUnitType() ~= IslandConst.UNIT_LIST_FISH_POINT or slot0.player:StandOnWorldObject() or not slot0.player:OnGrouded() then
+		return
+	end
+
+	slot0:UnSelectedFishPoint()
+
+	slot0.selectedFishPointId = slot1.id
+
+	slot0:GetSubView(IslandOpView):UpdateOperationButton(IslandOpView.OperationType.Fishing, slot1.id)
+end
+
+slot0.UnSelectedFishPoint = function(slot0)
+	if slot0.selectedFishPointId then
+		slot0.selectedFishPointId = nil
+
+		slot0:GetSubView(IslandOpView):UpdateOperationButton(IslandOpView.OperationType.None, slot0.selectedFishPointId)
+	end
+end
+
+slot0.OnStartFishing = function(slot0, slot1)
+	if not slot0:GetPlayerUnitModule(slot1.unitId) then
+		return
+	end
+
+	if not isa(slot3, IslandVisitorUnit) then
+		return
+	end
+
+	slot3:Sleep()
+
+	slot8 = IslandVistorFishingPlayer.New(slot0, slot3, slot1.fishPointId, pg.island_fish_rod[slot1.rodId].attachment_id, slot1.fishId)
+
+	slot8:Play()
+
+	slot0.fishingSynPlayers[slot2] = slot8
+end
+
+slot0.OnFishingStateChange = function(slot0, slot1)
+	slot2 = slot1.op
+	slot3 = slot1.unitId
+	slot5 = slot0.fishingSynPlayers[slot3]
+
+	if not isa(slot0:GetPlayerUnitModule(slot3), IslandVisitorUnit) then
+		return
+	end
+
+	if not slot5 or not slot5:IsSameFishPoint(slot1.fishPointId) then
+		return
+	end
+
+	slot6 = function()
+		uv0:WakeUp()
+		uv1.fishingSynPlayers[uv2]:Dispose()
+
+		uv1.fishingSynPlayers[uv2] = nil
+	end
+
+	if slot2 == IslandConst.FISHING_OP_CANCEL then
+		slot5:OnCancel(slot6)
+	elseif slot2 == IslandConst.FISHING_OP_FAILD then
+		slot5:OnFailed(slot6)
+	elseif slot2 == IslandConst.FISHING_OP_SUCCESS then
+		slot5:OnSuccess(slot6)
 	end
 end
 
@@ -408,40 +506,6 @@ slot0.OnCoupleActionWithFollower = function(slot0, slot1)
 
 	slot0.coupleAction4FollowerPlayer:Play(slot5[math.random(1, #slot5)], slot0.player, pg.island_action[slot1])
 	slot0:GetSubView(IslandAniamtionOpView):RemoveWaitTimer(false)
-end
-
-slot0.OnFollowerAdd = function(slot0, slot1)
-	slot0:GetSubView(IslandOpView):FlushFollowerList()
-	slot0.coupleNpcWordPlayer:Play(slot1)
-end
-
-slot0.OnFollowerDel = function(slot0, slot1)
-	slot0:GetSubView(IslandOpView):FlushFollowerList()
-	slot0.coupleNpcWordPlayer:Stop(slot1)
-end
-
-slot0.OnResetFollowRandomizer = function(slot0, slot1)
-	if not slot0:GetFollowerModule(slot1) then
-		return
-	end
-
-	slot2:SetBtRandomizer()
-end
-
-slot0.OnShowChatMsg = function(slot0, slot1)
-	if not slot0:GetPlayerUnitModule(slot1.player.id) then
-		return
-	end
-
-	slot0:GetSubView(IslandTopHeadHudView):PlayChat(slot3, slot1.emojiId, slot1.content, nil)
-end
-
-slot0.OnChatRoomChange = function(slot0)
-	slot0:GetSubView(IslandAniamtionOpView):UpdateChatRoom()
-end
-
-slot0.OnChatMsgUpdate = function(slot0)
-	slot0:GetSubView(IslandAniamtionOpView):UpdateMsgList()
 end
 
 slot0.OnPlaySingleAnimationEnd = function(slot0, slot1)
@@ -510,29 +574,38 @@ slot0.OnResponAniamtionOp = function(slot0, slot1)
 	end
 end
 
-slot0.OnChangeVisterDress = function(slot0, slot1)
-	if slot0:IsPlayer(slot1.id) then
+slot0.OnShowChatMsg = function(slot0, slot1)
+	if not slot0:GetPlayerUnitModule(slot1.player.id) then
 		return
 	end
 
-	if slot0:GetPlayerUnitModule(slot2) then
-		slot3:OnChangeDress(slot1.changeDressData)
+	slot0:GetSubView(IslandTopHeadHudView):PlayChat(slot3, slot1.emojiId, slot1.content, nil)
+end
+
+slot0.OnChatRoomChange = function(slot0)
+	slot0:GetSubView(IslandAniamtionOpView):UpdateChatRoom()
+end
+
+slot0.OnChatMsgUpdate = function(slot0)
+	slot0:GetSubView(IslandAniamtionOpView):UpdateMsgList()
+end
+
+slot0.OnFollowerAdd = function(slot0, slot1)
+	slot0:GetSubView(IslandOpView):FlushFollowerList()
+	slot0.coupleNpcWordPlayer:Play(slot1)
+end
+
+slot0.OnFollowerDel = function(slot0, slot1)
+	slot0:GetSubView(IslandOpView):FlushFollowerList()
+	slot0.coupleNpcWordPlayer:Stop(slot1)
+end
+
+slot0.OnResetFollowRandomizer = function(slot0, slot1)
+	if not slot0:GetFollowerModule(slot1) then
+		return
 	end
-end
 
-slot0.IsPlayer = function(slot0, slot1)
-	return slot0.player.id == slot1
-end
-
-slot0.OnOpenAniamtionOpPage = function(slot0)
-	slot0:GetSubView(IslandAniamtionOpView):TryEnable()
-	slot0:GetSubView(IslandOpView):TryDisable()
-	slot0:NotifiyIsland(ISLAND_EX_EVT.OPEN_ANIMATION_OP)
-end
-
-slot0.OnCloseAniamtionOpPage = function(slot0)
-	slot0:GetSubView(IslandOpView):TryEnable()
-	slot0:NotifiyIsland(ISLAND_EX_EVT.CLOSE_ANIMATION_OP)
+	slot2:SetBtRandomizer()
 end
 
 slot0.OnGenPathFinder = function(slot0, slot1)
@@ -571,289 +644,6 @@ slot0.OnRemovePathFinder = function(slot0, slot1)
 	slot3:Stop()
 	slot3:Dispose()
 	table.removebyvalue(slot0.pathfinders, slot3)
-end
-
-slot0.OnSceneInited = function(slot0, slot1)
-	IslandCameraMgr.instance:LookAt(slot0.player._tf)
-
-	slot7 = slot1.max
-	slot8 = slot1.value
-
-	IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME).gameObject:GetComponent(typeof(CameraZoom)):SetMaxMinZoom(slot1.min, slot7, slot8)
-	slot0:InitFocusCamera()
-	slot0:InitTakePhotoCamera()
-
-	for slot7, slot8 in ipairs(slot0:GetAllUnits()) do
-		slot8:Start()
-	end
-
-	slot0:GetSubView(IslandOpView):LaterInit()
-
-	slot0.isInit = true
-end
-
-slot0.InitFocusCamera = function(slot0)
-	slot1 = IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOCUS_CAMERA_NAME)
-	slot1.Follow = slot0.player._tf
-	slot1.LookAt = slot0.player._tf
-end
-
-slot0.InitTakePhotoCamera = function(slot0)
-	IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FIRST_PERSON_TAKE_PHOTO_CAMERA_NAME).Follow = slot0.firstTakePhotoItem._tf
-	slot2 = IslandCameraMgr.instance:GetVirtualCamera(IslandConst.Third_PERSON_TAKE_PHOTO_CAMERA_NAME)
-	slot2.Follow = slot0.thirdTakePhotoItem._tf
-	slot2.LookAt = slot0.thirdTakePhotoItem._tf
-end
-
-slot0.OnNpcDetectorSelected = function(slot0, slot1)
-	if slot0.selectedNpcId then
-		return
-	end
-
-	if not slot1.node then
-		return
-	end
-
-	slot4 = slot2:GetComponent(typeof(WorldObjectItem)).uniqueId
-	slot0.selectedNpcId = slot4
-
-	slot0:GetSubView(IslandOpView):UpdateAnimationOpEffect(slot4, true)
-	slot0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(slot4, true)
-end
-
-slot0.GetSelectedNpcId = function(slot0)
-	return slot0.selectedNpcId
-end
-
-slot0.OnNpcDetectorUnSelected = function(slot0, slot1)
-	if not slot1.node then
-		return
-	end
-
-	slot4 = slot2:GetComponent(typeof(WorldObjectItem)).uniqueId
-
-	slot0:GetSubView(IslandOpView):UpdateAnimationOpEffect(slot4)
-	slot0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(slot4)
-
-	if slot0.selectedNpcId ~= slot4 then
-		return
-	end
-
-	slot0.selectedNpcId = nil
-end
-
-slot0.OnDetectorChanged = function(slot0, slot1)
-	if not slot1.node then
-		return
-	end
-
-	for slot7 = 1, slot2:GetBlackboardVariable("DetectorList").Count do
-		slot9, slot10 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot3[slot7 - 1])
-
-		if slot9 == IslandConst.UNIT_LIST_OBJ and slot0:GetUnitModuleWithType(slot9, slot10) then
-			slot0:Op("NotifiyIsland", ISLAND_EX_EVT.APPROACH_OBJECT, slot11.id)
-		end
-	end
-end
-
-slot0.OnDetectorSelected = function(slot0, slot1)
-	if not slot1.node then
-		return
-	end
-
-	if not slot2:GetBlackboardVariable("SelectedObj") or slot3 == "" then
-		slot0:OnClearSelectedUnit()
-	else
-		slot4, slot5 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot3)
-
-		if slot0:GetUnitModuleWithType(slot4, slot5) then
-			slot0:OnSelectedUnit(slot6)
-		end
-	end
-end
-
-slot0.OnClearSelectedUnit = function(slot0)
-end
-
-slot0.OnSelectedUnit = function(slot0, slot1)
-end
-
-slot0.OnRefreshInteractionBtn = function(slot0)
-	slot0:GetSubView(IslandInteractionView):RefreshInteractionBtns()
-end
-
-slot0.OnStartStory = function(slot0)
-	slot0.playingStory = true
-
-	slot0:DisablePlayerOp()
-end
-
-slot0.OnEndStory = function(slot0)
-	slot0.playingStory = false
-
-	slot0:EnablePlayerOp()
-end
-
-slot0.DisablePlayerOp = function(slot0)
-	slot0.player:StopMoveHandle()
-	slot0:GetSubView(IslandTopHeadHudView):TryDisable()
-	slot0:GetSubView(IslandBottomHeadHudView):TryDisable()
-	slot0:GetSubView(IslandOpView):TryDisablePlayerOp()
-	slot0:GetSubView(IslandOpView):TryDisable()
-end
-
-slot0.EnablePlayerOp = function(slot0)
-	slot0:GetSubView(IslandOpView):TryEnablePlayerOp()
-	slot0:GetSubView(IslandTopHeadHudView):TryEnable()
-	slot0:GetSubView(IslandBottomHeadHudView):TryEnable()
-	slot0:GetSubView(IslandOpView):TryEnable()
-end
-
-slot0.OnStartPerformance = function(slot0)
-end
-
-slot0.OnEndPerformance = function(slot0)
-	if not slot0.anyPageOpen then
-		slot0:GetSubView(IslandOpView):ResetShowBalance()
-	end
-end
-
-slot0.OnPlayChatBubble = function(slot0, slot1)
-	slot0:GetSubView(IslandTopHeadHudView):PlayBubble(slot1.name, slot0:GetAllUnits(), slot1.callback)
-end
-
-slot0.OnRawPlayChatBubble = function(slot0, slot1)
-	slot0:GetSubView(IslandTopHeadHudView):RawPlayBubble(slot1.info, slot0:GetAllUnits(), slot1.callback)
-end
-
-slot0.OnRawStopChatBubble = function(slot0, slot1)
-	slot0:GetSubView(IslandTopHeadHudView):RawStopBubble(slot1.info)
-end
-
-slot0.OnAnyPageOpen = function(slot0, slot1)
-	slot0.anyPageOpen = true
-
-	slot0.player:StopMoveHandle()
-	slot0:GetSubView(IslandTopHeadHudView):TryDisable()
-	slot0:GetSubView(IslandSlotHudView):TryDisable()
-	slot0:GetSubView(IslandBottomHeadHudView):TryDisable()
-	slot0:GetSubView(IslandOpView):TryDisablePlayerOp()
-	slot0:GetSubView(IslandAniamtionOpView):CloseAndReset()
-end
-
-slot0.OnAllPageClose = function(slot0)
-	slot0.anyPageOpen = false
-
-	slot0:GetSubView(IslandTopHeadHudView):TryEnable()
-	slot0:GetSubView(IslandSlotHudView):TryEnable()
-	slot0:GetSubView(IslandBottomHeadHudView):TryEnable()
-	slot0:GetSubView(IslandOpView):TryEnablePlayerOp()
-end
-
-slot0.OnChange_Photo_Height = function(slot0, slot1, slot2)
-	slot0.takePhotoModel = slot1
-
-	if slot0.takePhotoModel == IslandConst.TakePhotoModel.First then
-		-- Nothing
-	elseif slot0.takePhotoModel == IslandConst.TakePhotoModel.Third then
-		slot0.thirdTakePhotoItem:ChangeHeight(slot2)
-	end
-end
-
-slot0.OnChangeTakePhotoModel = function(slot0, slot1)
-	slot0.takePhotoModel = slot1
-
-	if slot0.takePhotoModel == IslandConst.TakePhotoModel.First then
-		slot0.firstTakePhotoItem:Enable()
-
-		slot0.firstTakePhotoItem._tf.position = slot0.player._tf.position
-		slot0.firstTakePhotoItem._tf.rotation = slot0.player._tf.rotation
-
-		slot0.firstTakePhotoItem:SetTargetRotation(slot0.player._tf.rotation)
-		slot0.player:SetActiveByLayer(false)
-		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FIRST_PERSON_TAKE_PHOTO_CAMERA_NAME)
-		IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FIRST_PERSON_TAKE_PHOTO_CAMERA_NAME).gameObject:GetComponent(typeof(CameraPovLook)):SetPosAndRotationByTargetDir(slot0.player._tf.forward)
-	elseif slot0.takePhotoModel == IslandConst.TakePhotoModel.Third then
-		slot0.thirdTakePhotoItem:Enable()
-
-		slot0.player._tf.position = slot0.firstTakePhotoItem._tf.position
-		slot0.player._tf.rotation = slot0.firstTakePhotoItem._tf.rotation
-
-		slot0.player:SetTargetRotation(slot0.firstTakePhotoItem._tf.rotation)
-		slot0.player:SetActiveByLayer(true)
-
-		slot0.thirdTakePhotoItem._tf.position = slot0.firstTakePhotoItem._tf:TransformPoint(Vector3(0, 0, -5))
-		slot0.thirdTakePhotoItem._tf.rotation = slot0.firstTakePhotoItem._tf.rotation
-
-		slot0.thirdTakePhotoItem:SetTargetRotation(slot0.firstTakePhotoItem._tf.rotation)
-		IslandCameraMgr.instance:GetVirtualCamera(IslandConst.Third_PERSON_TAKE_PHOTO_CAMERA_NAME).gameObject:GetComponent(typeof(CameraPovLook)):SetPosAndRotationByTargetDir((slot0.player._tf.position + Vector3(0, 0.5, 0) - (slot0.thirdTakePhotoItem._tf.position + Vector3(0, 1, 0))).normalized)
-		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.Third_PERSON_TAKE_PHOTO_CAMERA_NAME)
-	else
-		slot0.firstTakePhotoItem:Disable()
-		slot0.thirdTakePhotoItem:Disable()
-
-		slot0.player._tf.position = slot0.firstTakePhotoItem._tf.position
-		slot0.player._tf.rotation = slot0.firstTakePhotoItem._tf.rotation
-
-		slot0.player:SetTargetRotation(slot0.firstTakePhotoItem._tf.rotation)
-		slot0.player:SetActiveByLayer(true)
-		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME)
-		IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME).gameObject:GetComponent(typeof(CameraLook)):ResetCameraPos()
-	end
-
-	slot0:GetSubView(IslandOpView):ChangeTakePhotoModel(slot1)
-end
-
-slot0.OnSetOpMoveBtnActve = function(slot0, slot1, slot2)
-	slot0:GetSubView(IslandOpView):ShowOrHideMoveBtn(slot1, slot2)
-end
-
-slot0.OnInterActionBegin = function(slot0)
-	slot0.player:StopMoveHandle()
-	slot0:GetSubView(IslandOpView):TryDisablePlayerOp()
-end
-
-slot0.OnInterActionEnd = function(slot0)
-	slot0:GetSubView(IslandOpView):TryEnablePlayerOp()
-end
-
-slot0.OnShowInterActionPanel = function(slot0, slot1)
-	slot0.showInterObjId = slot1.id
-
-	slot0:GetSubView(IslandInteractionView):ShowInterActionPanel(slot1)
-	slot0:Op("NotifiyIsland", ISLAND_EX_EVT.SHOW_INTERACTION, slot0.showInterObjId)
-end
-
-slot0.OnHideInterActionPanel = function(slot0, slot1)
-	if slot0.showInterObjId ~= slot1.id then
-		return
-	end
-
-	slot0.showInterObjId = nil
-
-	slot0:GetSubView(IslandInteractionView):HideInterActionPanel()
-end
-
-slot0.OnStartGuide = function(slot0)
-	slot0.player:StopMoveHandle()
-	slot0:GetSubView(IslandOpView):DisableInput()
-end
-
-slot0.OnEndGuide = function(slot0)
-	if slot0.playingStory then
-		return
-	end
-
-	slot0:GetSubView(IslandOpView):EnableInput()
-end
-
-slot0.DisableInput = function(slot0)
-	slot0.player:StopMoveHandle()
-	slot0:GetSubView(IslandOpView):DisableInput()
-end
-
-slot0.EnableInput = function(slot0)
-	slot0:GetSubView(IslandOpView):EnableInput()
 end
 
 slot0.OnTracking = function(slot0, slot1)
@@ -978,8 +768,318 @@ slot0.GetOptTrackingTarget = function(slot0, slot1)
 	return uv0(slot4, slot3.mapId, IslandInteractionUntil.TYPE_TRANSFER) or uv0(slot4, slot3.mapId, IslandInteractionUntil.TYPE_SP_TRANSFER) or uv1(slot4)
 end
 
+slot0.OnOpenAniamtionOpPage = function(slot0)
+	slot0:GetSubView(IslandAniamtionOpView):TryEnable()
+	slot0:GetSubView(IslandOpView):TryDisable()
+	slot0:NotifiyIsland(ISLAND_EX_EVT.OPEN_ANIMATION_OP)
+end
+
+slot0.OnCloseAniamtionOpPage = function(slot0)
+	slot0:GetSubView(IslandOpView):TryEnable()
+	slot0:NotifiyIsland(ISLAND_EX_EVT.CLOSE_ANIMATION_OP)
+end
+
+slot0.OnAnyPageOpen = function(slot0, slot1)
+	slot0.anyPageOpen = true
+
+	slot0.player:StopMoveHandle()
+	slot0:GetSubView(IslandTopHeadHudView):TryDisable()
+	slot0:GetSubView(IslandSlotHudView):TryDisable()
+	slot0:GetSubView(IslandBottomHeadHudView):TryDisable()
+	slot0:GetSubView(IslandOpView):TryDisablePlayerOp()
+	slot0:GetSubView(IslandAniamtionOpView):CloseAndReset()
+end
+
+slot0.OnAllPageClose = function(slot0)
+	slot0.anyPageOpen = false
+
+	slot0:GetSubView(IslandTopHeadHudView):TryEnable()
+	slot0:GetSubView(IslandSlotHudView):TryEnable()
+	slot0:GetSubView(IslandBottomHeadHudView):TryEnable()
+	slot0:GetSubView(IslandOpView):TryEnablePlayerOp()
+end
+
+slot0.OnStartStory = function(slot0)
+	slot0.playingStory = true
+
+	slot0:DisablePlayerOp()
+end
+
+slot0.OnEndStory = function(slot0)
+	slot0.playingStory = false
+
+	slot0:EnablePlayerOp()
+end
+
+slot0.OnStartPerformance = function(slot0)
+end
+
+slot0.OnEndPerformance = function(slot0)
+	if not slot0.anyPageOpen then
+		slot0:GetSubView(IslandOpView):ResetShowBalance()
+	end
+end
+
+slot0.OnStartGuide = function(slot0)
+	slot0.player:StopMoveHandle()
+	slot0:GetSubView(IslandOpView):DisableInput()
+end
+
+slot0.OnEndGuide = function(slot0)
+	if slot0.playingStory then
+		return
+	end
+
+	slot0:GetSubView(IslandOpView):EnableInput()
+end
+
+slot0.InitFocusCamera = function(slot0)
+	slot1 = IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOCUS_CAMERA_NAME)
+	slot1.Follow = slot0.player._tf
+	slot1.LookAt = slot0.player._tf
+end
+
+slot0.InitTakePhotoCamera = function(slot0)
+	IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FIRST_PERSON_TAKE_PHOTO_CAMERA_NAME).Follow = slot0.firstTakePhotoItem._tf
+	slot2 = IslandCameraMgr.instance:GetVirtualCamera(IslandConst.Third_PERSON_TAKE_PHOTO_CAMERA_NAME)
+	slot2.Follow = slot0.thirdTakePhotoItem._tf
+	slot2.LookAt = slot0.thirdTakePhotoItem._tf
+end
+
+slot0.DisablePlayerOp = function(slot0)
+	slot0.player:StopMoveHandle()
+	slot0:GetSubView(IslandTopHeadHudView):TryDisable()
+	slot0:GetSubView(IslandBottomHeadHudView):TryDisable()
+	slot0:GetSubView(IslandOpView):TryDisablePlayerOp()
+	slot0:GetSubView(IslandOpView):TryDisable()
+end
+
+slot0.EnablePlayerOp = function(slot0)
+	slot0:GetSubView(IslandOpView):TryEnablePlayerOp()
+	slot0:GetSubView(IslandTopHeadHudView):TryEnable()
+	slot0:GetSubView(IslandBottomHeadHudView):TryEnable()
+	slot0:GetSubView(IslandOpView):TryEnable()
+end
+
+slot0.OnInterActionBegin = function(slot0)
+	slot0.player:StopMoveHandle()
+	slot0:GetSubView(IslandOpView):TryDisablePlayerOp()
+end
+
+slot0.OnInterActionEnd = function(slot0)
+	slot0:GetSubView(IslandOpView):TryEnablePlayerOp()
+end
+
+slot0.OnShowInterActionPanel = function(slot0, slot1)
+	slot0.showInterObjId = slot1.id
+
+	slot0:GetSubView(IslandInteractionView):ShowInterActionPanel(slot1)
+	slot0:Op("NotifiyIsland", ISLAND_EX_EVT.SHOW_INTERACTION, slot0.showInterObjId)
+end
+
+slot0.OnHideInterActionPanel = function(slot0, slot1)
+	if slot0.showInterObjId ~= slot1.id then
+		return
+	end
+
+	slot0.showInterObjId = nil
+
+	slot0:GetSubView(IslandInteractionView):HideInterActionPanel()
+end
+
+slot0.OnRefreshInteractionBtn = function(slot0)
+	slot0:GetSubView(IslandInteractionView):RefreshInteractionBtns()
+end
+
+slot0.OnSetOpMoveBtnActve = function(slot0, slot1, slot2)
+	slot0:GetSubView(IslandOpView):ShowOrHideMoveBtn(slot1, slot2)
+end
+
+slot0.DisableInput = function(slot0)
+	slot0.player:StopMoveHandle()
+	slot0:GetSubView(IslandOpView):DisableInput()
+end
+
+slot0.EnableInput = function(slot0)
+	slot0:GetSubView(IslandOpView):EnableInput()
+end
+
 slot0.OnUpdateCustomOpPositon = function(slot0)
 	slot0:GetSubView(IslandOpView):InitOpCustumPositon()
+end
+
+slot0.OnChange_Photo_Height = function(slot0, slot1, slot2)
+	slot0.takePhotoModel = slot1
+
+	if slot0.takePhotoModel == IslandConst.TakePhotoModel.First then
+		-- Nothing
+	elseif slot0.takePhotoModel == IslandConst.TakePhotoModel.Third then
+		slot0.thirdTakePhotoItem:ChangeHeight(slot2)
+	end
+end
+
+slot0.OnChangeTakePhotoModel = function(slot0, slot1)
+	slot0.takePhotoModel = slot1
+
+	if slot0.takePhotoModel == IslandConst.TakePhotoModel.First then
+		slot0.firstTakePhotoItem:Enable()
+
+		slot0.firstTakePhotoItem._tf.position = slot0.player._tf.position
+		slot0.firstTakePhotoItem._tf.rotation = slot0.player._tf.rotation
+
+		slot0.firstTakePhotoItem:SetTargetRotation(slot0.player._tf.rotation)
+		slot0.player:SetActiveByLayer(false)
+		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FIRST_PERSON_TAKE_PHOTO_CAMERA_NAME)
+		IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FIRST_PERSON_TAKE_PHOTO_CAMERA_NAME).gameObject:GetComponent(typeof(CameraPovLook)):SetPosAndRotationByTargetDir(slot0.player._tf.forward)
+	elseif slot0.takePhotoModel == IslandConst.TakePhotoModel.Third then
+		slot0.thirdTakePhotoItem:Enable()
+
+		slot0.player._tf.position = slot0.firstTakePhotoItem._tf.position
+		slot0.player._tf.rotation = slot0.firstTakePhotoItem._tf.rotation
+
+		slot0.player:SetTargetRotation(slot0.firstTakePhotoItem._tf.rotation)
+		slot0.player:SetActiveByLayer(true)
+
+		slot0.thirdTakePhotoItem._tf.position = slot0.firstTakePhotoItem._tf:TransformPoint(Vector3(0, 0, -5))
+		slot0.thirdTakePhotoItem._tf.rotation = slot0.firstTakePhotoItem._tf.rotation
+
+		slot0.thirdTakePhotoItem:SetTargetRotation(slot0.firstTakePhotoItem._tf.rotation)
+		IslandCameraMgr.instance:GetVirtualCamera(IslandConst.Third_PERSON_TAKE_PHOTO_CAMERA_NAME).gameObject:GetComponent(typeof(CameraPovLook)):SetPosAndRotationByTargetDir((slot0.player._tf.position + Vector3(0, 0.5, 0) - (slot0.thirdTakePhotoItem._tf.position + Vector3(0, 1, 0))).normalized)
+		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.Third_PERSON_TAKE_PHOTO_CAMERA_NAME)
+	else
+		slot0.firstTakePhotoItem:Disable()
+		slot0.thirdTakePhotoItem:Disable()
+
+		slot0.player._tf.position = slot0.firstTakePhotoItem._tf.position
+		slot0.player._tf.rotation = slot0.firstTakePhotoItem._tf.rotation
+
+		slot0.player:SetTargetRotation(slot0.firstTakePhotoItem._tf.rotation)
+		slot0.player:SetActiveByLayer(true)
+		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME)
+		IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME).gameObject:GetComponent(typeof(CameraLook)):ResetCameraPos()
+	end
+
+	slot0:GetSubView(IslandOpView):ChangeTakePhotoModel(slot1)
+end
+
+slot0.OnNpcDetectorSelected = function(slot0, slot1)
+	if slot0.selectedNpcId then
+		return
+	end
+
+	if not slot1.node then
+		return
+	end
+
+	slot4 = slot2:GetComponent(typeof(WorldObjectItem)).uniqueId
+	slot0.selectedNpcId = slot4
+
+	slot0:GetSubView(IslandOpView):UpdateAnimationOpEffect(slot4, true)
+	slot0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(slot4, true)
+end
+
+slot0.GetSelectedNpcId = function(slot0)
+	return slot0.selectedNpcId
+end
+
+slot0.OnNpcDetectorUnSelected = function(slot0, slot1)
+	if not slot1.node then
+		return
+	end
+
+	slot4 = slot2:GetComponent(typeof(WorldObjectItem)).uniqueId
+
+	slot0:GetSubView(IslandOpView):UpdateAnimationOpEffect(slot4)
+	slot0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(slot4)
+
+	if slot0.selectedNpcId ~= slot4 then
+		return
+	end
+
+	slot0.selectedNpcId = nil
+end
+
+slot0.OnDetectorChanged = function(slot0, slot1)
+	if not slot1.node then
+		return
+	end
+
+	for slot7 = 1, slot2:GetBlackboardVariable("DetectorList").Count do
+		slot9, slot10 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot3[slot7 - 1])
+
+		if slot9 == IslandConst.UNIT_LIST_OBJ and slot0:GetUnitModuleWithType(slot9, slot10) then
+			slot0:Op("NotifiyIsland", ISLAND_EX_EVT.APPROACH_OBJECT, slot11.id)
+		end
+	end
+end
+
+slot0.OnDetectorSelected = function(slot0, slot1)
+	if not slot1.node then
+		return
+	end
+
+	if not slot2:GetBlackboardVariable("AnyOne") or slot3 == "" then
+		slot0:OnClearSelectedUnit()
+	else
+		slot4, slot5 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot3)
+
+		if slot0:GetUnitModuleWithType(slot4, slot5) then
+			slot0:OnSelectedUnit(slot6)
+		end
+	end
+end
+
+slot0.OnClearSelectedUnit = function(slot0)
+end
+
+slot0.OnSelectedUnit = function(slot0, slot1)
+end
+
+slot0.OnPlayChatBubble = function(slot0, slot1)
+	slot0:GetSubView(IslandTopHeadHudView):PlayBubble(slot1.name, slot0:GetAllUnits(), slot1.callback)
+end
+
+slot0.OnRawPlayChatBubble = function(slot0, slot1)
+	slot0:GetSubView(IslandTopHeadHudView):RawPlayBubble(slot1.info, slot0:GetAllUnits(), slot1.callback)
+end
+
+slot0.OnRawStopChatBubble = function(slot0, slot1)
+	slot0:GetSubView(IslandTopHeadHudView):RawStopBubble(slot1.info)
+end
+
+slot0.OnChangeVisterDress = function(slot0, slot1)
+	if slot0:IsPlayer(slot1.id) then
+		return
+	end
+
+	if slot0:GetPlayerUnitModule(slot2) then
+		slot3:OnChangeDress(slot1.changeDressData)
+	end
+end
+
+slot0.OnSystemUnlock = function(slot0, slot1)
+	if slot1 == IslandAblityAgency.ANIMATION_OP_ID then
+		slot0:GetSubView(IslandOpView):UpdateAnimationOpBtn()
+	end
+end
+
+slot0.OnSceneInited = function(slot0, slot1)
+	IslandCameraMgr.instance:LookAt(slot0.player._tf)
+
+	slot7 = slot1.max
+	slot8 = slot1.value
+
+	IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME).gameObject:GetComponent(typeof(CameraZoom)):SetMaxMinZoom(slot1.min, slot7, slot8)
+	slot0:InitFocusCamera()
+	slot0:InitTakePhotoCamera()
+
+	for slot7, slot8 in ipairs(slot0:GetAllUnits()) do
+		slot8:Start()
+	end
+
+	slot0:GetSubView(IslandOpView):LaterInit()
+
+	slot0.isInit = true
 end
 
 slot0.OnGenUnit = function(slot0, slot1, slot2)
@@ -1000,6 +1100,10 @@ end
 
 slot0.OnGenSystem = function(slot0, slot1)
 	slot0:AddUnit(slot0.systemBuilders[slot1:GetType()]:Build(slot1))
+end
+
+slot0.IsPlayer = function(slot0, slot1)
+	return slot0.player.id == slot1
 end
 
 slot0.OnActiveOrDisactiveUnit = function(slot0, slot1, slot2, slot3)
@@ -1116,6 +1220,10 @@ end
 
 slot0.GetSystemModule = function(slot0, slot1)
 	return slot0:GetUnitModuleWithType(IslandConst.UNIT_LIST_SYSTEM, slot1)
+end
+
+slot0.GetProductSystemModule = function(slot0, slot1)
+	return slot0:GetUnitModuleWithType(IslandConst.UNIT_LIST_PRODUCT_SYSTEM, slot1)
 end
 
 slot0.GetSystemUnitModule = function(slot0, slot1)
@@ -1300,6 +1408,10 @@ slot0.OnStartDelegation = function(slot0, slot1, slot2)
 	if slot0:GetSystemModule(slot1.build_id) then
 		slot3:StartDelegation(slot1)
 	end
+
+	if slot0:GetProductSystemModule(slot1.build_id) then
+		slot4:StartDelegation(slot2)
+	end
 end
 
 slot0.OnEndDelegation = function(slot0, slot1, slot2)
@@ -1438,6 +1550,7 @@ slot0.OnDispose = function(slot0)
 	slot0.npcActionPlayer:Dispose()
 	slot0.weatherSystem:Dispose()
 	slot0.coupleNpcWordPlayer:Dispose()
+	slot0:GetPoolMgr():ClearFishingEffect()
 
 	for slot4, slot5 in ipairs(slot0.views) do
 		slot5:Dispose()
@@ -1459,6 +1572,11 @@ slot0.OnDispose = function(slot0)
 		slot5:Dispose()
 	end
 
+	for slot4, slot5 in pairs(slot0.fishingSynPlayers) do
+		slot5:Dispose()
+	end
+
+	slot0.fishingSynPlayers = nil
 	slot0.npcActionPlayer = nil
 	slot0.coupleActionPlayer = nil
 	slot0.coupleAction4FollowerPlayer = nil

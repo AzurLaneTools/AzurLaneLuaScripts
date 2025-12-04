@@ -4,19 +4,19 @@ slot0.STATE_INIT = 2
 slot0.STATE_INIT_FINISH = 3
 slot0.STATE_DISPOSE = 4
 
-slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0.super.Ctor(slot0)
 
 	slot0.poolMgr = slot1
-	slot0.view, slot0.controller = slot0:GetViewAndController(slot2, slot3, slot4)
+	slot0.view, slot0.controller = slot0:GetViewAndController(slot2, slot3)
 	slot0.sceneLoader = IslandSceneLoader.New()
 
 	slot0:UpdateState(uv0.STATE_LOAD)
 
-	slot7, slot8, slot9 = IslandDataConvertor.Island2SceneName(slot2)
+	slot6, slot7, slot8 = IslandDataConvertor.Island2SceneName(slot2)
 
-	slot0.view:SetBgm(slot9)
-	slot0.sceneLoader:Load(slot7, slot8, {
+	slot0.view:SetBgm(slot8)
+	slot0.sceneLoader:Load(slot6, slot7, {
 		function (slot0)
 			uv0:Init(slot0)
 		end
@@ -34,6 +34,7 @@ slot0.UpdateState = function(slot0, slot1)
 
 	slot0.view:OnCoreStateChanged(slot1)
 	slot0.controller:OnCoreStateChanged(slot1)
+	pg.m02:sendNotification(GAME.ISLAND_CORE_STATE_CHANGED, slot1)
 end
 
 slot0.Init = function(slot0, slot1)
@@ -136,22 +137,22 @@ slot0.Dispose = function(slot0, slot1)
 	end
 end
 
-slot0.GetViewAndController = function(slot0, slot1, slot2, slot3)
-	slot4, slot5 = nil
-	slot6 = slot1:GetMapId()
-	slot7 = pg.island_map[slot6]
+slot0.GetViewAndController = function(slot0, slot1, slot2)
+	slot3, slot4 = nil
+	slot5 = slot1:GetMapId()
+	slot6 = pg.island_map[slot5]
 
-	if slot6 == IslandConst.AGORA_MAP_ID then
-		slot4 = AgoraView.New(slot0, AgoraController.New(slot0, slot1):GetAgora(), slot2, slot3)
-	elseif slot7.minigame_id > 0 then
-		slot4 = IslandSeekGameView.New(slot0, slot2, slot3)
-		slot5 = IslandController.New(slot0, slot1)
+	if slot5 == IslandConst.AGORA_MAP_ID then
+		slot3 = AgoraView.New(slot0, AgoraController.New(slot0, slot1):GetAgora(), slot2)
+	elseif slot6.minigame_id > 0 then
+		slot3 = IslandSeekGameView.New(slot0, slot2)
+		slot4 = IslandController.New(slot0, slot1)
 	else
-		slot5 = IslandController.New(slot0, slot1)
-		slot4 = IslandView.New(slot0, slot2, slot3)
+		slot4 = IslandController.New(slot0, slot1)
+		slot3 = IslandView.New(slot0, slot2)
 	end
 
-	return slot4, slot5
+	return slot3, slot4
 end
 
 return slot0

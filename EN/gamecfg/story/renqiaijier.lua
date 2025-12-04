@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"荣耀殿堂\n\n<size=45>凝望雨幕的双眸</size>",
+					"Hall of Fame\n\n<size=45>Eyes That Long For Rain</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			bgm = "bar-soft",
-			say = "下班后心血来潮，去了露天餐厅享用晚餐。",
+			say = "After a long day of work, I decide on a whim to head to an al fresco restaurant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "不过原本观赏夜景的绝佳露台，此时此刻也只剩下“负面作用”。",
+			say = "However, the patio area, usually a terrific spot for enjoying the night view, displays nothing but ill omens–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "毕竟——被灯火照亮的夜空上乌云正在聚集，一场暴雨即将来临。",
+			say = "Because the dark rainclouds gathering in the illuminated night sky are clamoring for a rainstorm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "？？？",
-			say = "指挥官？你怎么会在这种天气出门。",
+			say = "Commander? What are you doing out here in this terrible weather?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "直到熟悉的声音响起，我才注意到刚刚一直位于视线死角的{namecode:480:埃吉尔}。",
+			say = "Only once I hear her voice do I realize that Ägir has approached me from my blind spot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "应该算是……心血来潮？",
+			say = "Uhh, guess I kinda came here on a whim?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是随便的答案。算了，要来一杯吗？这里的酒倒是一流哦。",
+			say = "What a whimsical answer. But since you're here, wanna go for a drink? Beer here's top-notch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,15 +105,15 @@ return {
 			},
 			options = {
 				{
-					content = "未成年人禁止饮酒！",
+					content = "I'm not sure that's legal…",
 					flag = 1
 				},
 				{
-					content = "喝酒会影响思考，还是不喝了",
+					content = "Sorry, I can't really think straight when I drink…",
 					flag = 2
 				},
 				{
-					content = "那就喝一杯吧",
+					content = "Don't mind if I do!",
 					flag = 3
 				}
 			}
@@ -126,7 +126,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……哈？指挥官你还真会开玩笑。",
+			say = "…Huh? You really know how to pull a girl's leg, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过其实刚刚我也开玩笑了。虽然我说它是“酒”，其实只是特调的麦芽风味饮料而已。",
+			say = "But... it works out that I was also joking. I did say beer, but it's actually just a specially-blended malt-flavored beverage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "私生活都要这么严格吗？你还真是自律。",
+			say = "Do you really need to do that much straight-thinking in your private life? You that straight-laced?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心。虽然我说它是“酒”，其实只是特调的麦芽风味饮料而已。",
+			say = "But, no need to worry about that. I did say beer, but it's actually just a specially-blended malt-flavored beverage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这才对嘛！",
+			say = "Now that's what I wanna hear!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——不过虽然我说它是“酒”，其实只是特调的麦芽风味饮料而已。",
+			say = "—Oh, just so you know, I did say beer, but it's actually just a specially-blended malt-flavored beverage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "她将盛着琥珀色液体的玻璃杯端到我面前，款款入座。",
+			say = "She comes back with a stein of amber-colored beverage and carefully sits down next to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "说起来……{namecode:480:埃吉尔}怎么会一个人在这里？",
+			say = "By the way, Ägir, why are you here by yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是想找个合适的位置去欣赏大海狂暴的一面，嗯……和指挥官一样，算是心血来潮吧。",
+			say = "Just wanted to find a nice spot where I could appreciate the more violent side of the sea, y'know? Uhh… I guess you could also say it was on a whim, just like you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			side = 2,
-			say = "说话间，雨点落下。",
+			say = "As we chat, the raindrops start to fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不进去躲雨吗？着凉了的话，可是会影响工作的。",
+			say = "Wanna head inside? Wouldn't want you getting sick. It'd be bad for operational effectiveness and all that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你看我做什么？",
+			say = "…What are you staring at me for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			},
 			options = {
 				{
-					content = "埃吉尔着凉的话，要怎么办？",
+					content = "What am I going to do if YOU end up catching a cold?",
 					flag = 1
 				}
 			}
@@ -335,7 +335,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，荒海之神可不会被这种弱小的水花击败。",
+			say = "Hmph. As if the god of the untamed seas could catch a cold from a little splash of water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再说，让雨水冲刷掉身体与心灵的惫怠，也是我现在所期待的事。",
+			say = "Besides, nothing fills me with anticipation more than the prospect of having the rain wash away my fatigue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			},
 			options = {
 				{
-					content = "如果你喜欢的话，我就和你一起淋雨。",
+					content = "If you want, we can go get soaked in the rain together.",
 					flag = 1
 				}
 			}
@@ -376,7 +376,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和我一起……你、你是笨蛋吗？！",
+			say = "T-together…?! Wh-what are you, stupid?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……就算是为了引起我的兴趣，也不可以这样！",
+			say = "…Even if you're just trying to pique my curiosity, that's out of the question!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………我知道啦，我给你一起进去避雨就是了！",
+			say = "…Okay, I know. Let's go take shelter from the rain together instead!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			bgName = "star_level_bg_145",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "仅隔着一片玻璃，店内与店外已然是两个世界。",
+			say = "Separated only by a thin panel of glass, the worlds within and without the restaurant already could not be further apart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……偶尔像这样赏雨，也不错。",
+			say = "…You know, it's nice to be able to enjoy the rain like this every now and then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "{namecode:480:埃吉尔}伸手指向窗外——狂风裹挟着雨水，世界一片迷蒙。",
+			say = "Ägir points outside the window. Heavy raindrops prance on strong winds, whipping up a thick haze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看……这时的海洋虽然危险，但也足够迷人。",
+			say = "See? This is when the ocean is most dangerous, but there's also a certain beauty and allure to that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "她金色的双眸此刻正一眨不眨地凝视着远方的海平面，双唇间吐露出的话语，像是暧昧的呢喃。",
+			say = "Her golden eyes stare unblinkingly at the distant sea horizon, the words on her lips sounding like vague murmurs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "先前被雨水淋湿的发梢有水滴滴落，顺着她的脸颊，沿着纤细的脖颈流入更深处。",
+			say = "Beads of water trickle from the ends of her rain-mottled hair, trickling down her cheeks and along her slender neck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官？",
+			say = "Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "金色的双眸里，现在映着我的影子。",
+			say = "And now, I see my reflection in those golden eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵呵呵，看你这副模样，难道是被我迷住了？",
+			say = "Hahaha! Caught you staring. What, you enraptured by my appearance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,15 +571,15 @@ return {
 			},
 			options = {
 				{
-					content = "没错。",
+					content = "Guilty as charged.",
 					flag = 1
 				},
 				{
-					content = "确实被你迷住了！",
+					content = "Indeed, I was indeed captivated.",
 					flag = 2
 				},
 				{
-					content = "月色真美啊。",
+					content = "The moon sure is beautiful tonight.",
 					flag = 3
 				}
 			}
@@ -593,7 +593,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呀？！你、你难道是认真这么说的？！",
+			say = "Hwuh?! Y-you actually just came out and admitted it?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………哼。",
+			say = "…Hmph.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呀？！你、你难道是认真这么说的？！",
+			say = "Hwuh?! Y-you actually just came out and admitted it?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………哼。",
+			say = "…Hmph.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "月色……？这么厚的乌云哪里来的月色……",
+			say = "…The moon? What moon? Behind all these thick clouds–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊、难、难道是那个重樱的典故？！",
+			say = "AH! W-wait, that's that Sakuran expression, isn't it?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你、你……哼！",
+			say = "Y-you…! Hmph!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "她在座位上变换了好几个姿势，看起来是因为嗔羞导致的坐立难安。",
+			say = "She adjusts her position in her seat a few times, as if fidgeting in embarrassment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:480:埃吉尔}在这种时候的反应，很有趣哦。",
+			say = "Your reaction just now is certainly worthy of study. Very interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂，再说下去的话我就咬烂你的嘴！",
+			say = "Hey! Watch your mouth, or I'll bite it off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我——",
+			say = "I–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "正打算说些什么，视野中{namecode:480:埃吉尔}的占比忽然急剧放大。",
+			say = "Just as I'm about to retort, my field of view suddenly shrinks… a lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "双唇上传来温热的触感，还有淡淡的麦芽味香气，但，随即便是一阵刺痛。",
+			say = "I feel a warmth against my lips, then taste something faintly malty, and then… there's a sharp, stinging sensation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "痛痛痛……",
+			say = "Ow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,7 +842,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，我已经警告过你了，是你自己不听！",
+			say = "Hmph! Don't say I didn't warn you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,7 +860,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是深海之神留给你的……惩罚的烙印。",
+			say = "Consider this your punishment… a brand left by the god of the deeps!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,7 +875,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "她举杯，金色的双眸被琥珀色的液体蒙上柔和的晕影。",
+			say = "She raises her glass, her golden eyes haloed softly by the amber liquid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,7 +886,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "帘幕外，雨仍未停。",
+			say = "Beyond our little sanctuary, the rain continues to fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

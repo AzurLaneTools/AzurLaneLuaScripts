@@ -14,6 +14,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.npcTip = slot0.npcBtn:Find("tip")
 	slot0.itemBtn = slot0._tf:Find("view/content/item")
 	slot0.itemTip = slot0.itemBtn:Find("tip")
+	slot0.fishBtn = slot0._tf:Find("view/content/fish")
+	slot0.fishTip = slot0.fishBtn:Find("tip")
 end
 
 slot0.OnInit = function(slot0)
@@ -30,6 +32,9 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.itemBtn, function ()
 		uv0:OpenPage(IslandBookItemPage)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.fishBtn, function ()
+		uv0:OpenPage(IslandBookFishPage)
 	end, SFX_PANEL)
 end
 
@@ -50,6 +55,8 @@ slot0.OnShow = function(slot0)
 end
 
 slot0.FlushTips = function(slot0)
+	setActive(slot0.fishBtn, IslandMainBtnTipHelper.IsUnlock("book_fish"))
+
 	slot0.bookAgency = getProxy(IslandProxy):GetIsland():GetBookAgency()
 
 	setActive(slot0.charTip, slot0.bookAgency:IsTipFromTypes({
@@ -60,6 +67,9 @@ slot0.FlushTips = function(slot0)
 	}))
 	setActive(slot0.itemTip, slot0.bookAgency:IsTipFromTypes({
 		IslandIllustration.TYPES.ITEM
+	}))
+	setActive(slot0.fishTip, slot0.bookAgency:IsTipFromTypes({
+		IslandIllustration.TYPES.FISH
 	}))
 end
 

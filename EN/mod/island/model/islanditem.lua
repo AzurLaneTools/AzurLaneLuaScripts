@@ -76,6 +76,10 @@ slot0.GetIcon = function(slot0)
 	return slot0:getConfig("icon")
 end
 
+slot0.GetUseArg = function(slot0)
+	return uv0.StaticGetUsageArg(slot0.configId)
+end
+
 slot0.GetOwnTime = function(slot0)
 	return slot0.time
 end
@@ -90,6 +94,10 @@ end
 
 slot0.IsSpecialProp = function(slot0)
 	return slot0:GetType() == uv0.TYPE_SPECIAL_PROP
+end
+
+slot0.IsFishingProp = function(slot0)
+	return uv0.StaticGetUsageType(slot0.configId) == IslandItemUsage.usage_fishing
 end
 
 slot0.GetMaterialFacility = function(slot0)
@@ -128,10 +136,6 @@ slot0.GetAcquiringWay = function(slot0)
 	end
 
 	return slot1
-end
-
-slot0.GetUseArg = function(slot0)
-	return uv0.StaticGetUsageArg(slot0.configId)
 end
 
 return slot0

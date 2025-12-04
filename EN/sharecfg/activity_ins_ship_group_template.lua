@@ -4037,7 +4037,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Fargo",
 		background = "",
 		sculpture = "fage",
-		nationality = 0,
+		nationality = 1,
 		type = 1
 	},
 	[10328] = {

@@ -117,6 +117,8 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EX_EVT.SWITCH_MAP, slot0.OnSwitchMap)
 	slot0:AddListener(ISLAND_EX_EVT.SEEK_GAME_START, slot0.OnSeekGameStart)
 	slot0:AddListener(ISLAND_EX_EVT.SEEK_GAME_END, slot0.OnSeekGameEnd)
+	slot0:AddListener(ISLAND_EX_EVT.ENTER_FISH_POINT, slot0.OnEnterFishPoint)
+	slot0:AddListener(ISLAND_EX_EVT.EXIT_FISH_POINT, slot0.OnExitFishPoint)
 	slot0:AddListener(ISLAND_EX_EVT.APPROACH_OBJECT, slot0.OnApproachObject)
 	slot0:AddListener(ISLAND_EX_EVT.PLAY_PERFORMANCE, slot0.OnPlayPerformance)
 	slot0:AddListener(ISLAND_EX_EVT.SHOW_INTERACTION, slot0.OnShowInteraction)
@@ -151,12 +153,22 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EX_EVT.SWITCH_MAP, slot0.OnSwitchMap)
 	slot0:RemoveListener(ISLAND_EX_EVT.SEEK_GAME_START, slot0.OnSeekGameStart)
 	slot0:RemoveListener(ISLAND_EX_EVT.SEEK_GAME_END, slot0.OnSeekGameEnd)
+	slot0:RemoveListener(ISLAND_EX_EVT.ENTER_FISH_POINT, slot0.OnEnterFishPoint)
+	slot0:RemoveListener(ISLAND_EX_EVT.EXIT_FISH_POINT, slot0.OnExitFishPoint)
 	slot0:RemoveListener(ISLAND_EX_EVT.APPROACH_OBJECT, slot0.OnApproachObject)
 	slot0:RemoveListener(ISLAND_EX_EVT.PLAY_PERFORMANCE, slot0.OnPlayPerformance)
 	slot0:RemoveListener(ISLAND_EX_EVT.SHOW_INTERACTION, slot0.OnShowInteraction)
 	slot0:RemoveListener(ISLAND_EX_EVT.SWITCH_MAP_BY_POINT, slot0.OnSwitchMapByPoint)
 	slot0:RemoveListener(ISLAND_EX_EVT.NAV_PATH, slot0.OnStartNavPath)
 	slot0:RemoveListener(ISLAND_EX_EVT.NAV_PATH_DONE, slot0.OnNavPathDone)
+end
+
+slot0.OnEnterFishPoint = function(slot0)
+	slot0:TryDisVisible()
+end
+
+slot0.OnExitFishPoint = function(slot0)
+	slot0:TryVisible()
 end
 
 slot0.OnOpenAnimatonOpPage = function(slot0)

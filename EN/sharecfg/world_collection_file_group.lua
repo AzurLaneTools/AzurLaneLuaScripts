@@ -373,6 +373,52 @@ pg.world_collection_file_group = {
 			14609
 		}
 	},
+	[1500] = {
+		id_2 = "150",
+		name = "KAN-SEN Decomissioning",
+		name_abbreviate = "25",
+		type = 4,
+		id = 1500,
+		child = {
+			15004
+		}
+	},
+	[1510] = {
+		id_2 = "151",
+		name = "Deepening Crisis",
+		name_abbreviate = "26",
+		type = 1,
+		id = 1510,
+		child = {
+			15105,
+			15106
+		}
+	},
+	[1800] = {
+		id_2 = "180",
+		name = "Second Standoff",
+		name_abbreviate = "27",
+		type = 3,
+		id = 1800,
+		child = {
+			18001
+		}
+	},
+	[1900] = {
+		id_2 = "190",
+		name = "Superimposed Future I",
+		name_abbreviate = "28",
+		type = 5,
+		id = 1900,
+		child = {
+			19001,
+			19002,
+			19003,
+			19004,
+			19005,
+			19006
+		}
+	},
 	all = {
 		110,
 		210,
@@ -397,6 +443,10 @@ pg.world_collection_file_group = {
 		1420,
 		1430,
 		1440,
-		1460
+		1460,
+		1500,
+		1510,
+		1800,
+		1900
 	}
 }

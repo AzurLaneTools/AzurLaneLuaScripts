@@ -11,6 +11,7 @@ slot0.TechnologyPlaceId = 702
 slot0.CoffeePlaceId = 901
 slot0.OrchardPlaceId = 501
 slot0.GardenPlaceId = 502
+slot0.FisheryPlaceId = 201
 slot0.WoodProcessingPlaceId = 703
 slot0.MachinePlaceId = 704
 slot0.ElectronicPlaceId = 705
@@ -30,6 +31,9 @@ slot0.haveModelPlaces = {
 	slot0.MealPlaceId,
 	slot0.SimpeleMealPlaceId,
 	slot0.kebabPlaceId
+}
+slot0.havePerformPlace = {
+	slot0.FisheryPlaceId
 }
 slot0.PlantPlaceIdLists = {
 	slot0.FarmlandPlaceId,

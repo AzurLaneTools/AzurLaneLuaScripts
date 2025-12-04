@@ -13,6 +13,7 @@ slot0.execute = function(slot0, slot1)
 			uv1:sendNotification(GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE, {
 				dropData = IslandDropHelper.AddItems(slot0)
 			})
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.ACTION_HELLO_DAILY)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

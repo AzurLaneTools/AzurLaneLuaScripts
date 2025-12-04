@@ -13,6 +13,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.globalBuffAgency = IslandGlobalBuffAgency.New(slot0, slot1.private_data)
 	slot0.actionAgency = IslandActionAgency.New(slot0, slot1.private_data)
 	slot0.npcFeedbackAgency = IslandNpcFeedbackAgency.New(slot0, slot1.private_data)
+	slot0.fishingAgency = IslandFishingAgency.New(slot0, slot1.private_data)
 	slot0.settingsAgency = IslandSettingsAgency.New(slot0, slot1.private_data)
 	slot0.bookAgency = IslandBookAgency.New(slot0, slot1.private_data)
 	slot0.cardDiyAgency = IslandCardDiyAgency.New(slot0, slot1.private_data)
@@ -50,6 +51,10 @@ end
 
 slot0.GetInventoryAgency = function(slot0)
 	return slot0.inventoryAgency
+end
+
+slot0.GetFishingAgency = function(slot0)
+	return slot0.fishingAgency
 end
 
 slot0.GetOrderAgency = function(slot0)

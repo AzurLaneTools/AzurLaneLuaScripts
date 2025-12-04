@@ -3032,6 +3032,249 @@ I know what Herbert Sr.'s thinking. He won't allow the investigation committee t
 Oh wait, there's not much left of the Saharas by now.
 I guess we'll just have to see what happens.]]
 	},
+	[15004] = {
+		group_ID = 4,
+		name = "Report: Iron Blood Decommissioning Policy",
+		subTitle = "",
+		pic = "15004",
+		id = 15004,
+		is_classified = 0,
+		content = [[
+A Basic Analysis of Iron Blood's KAN-SEN Decommissioning Policy
+
+6:24 PM From: Administrator
+–––––––––
+The Iron Blood's KAN-SEN decommissioning policy is a rather interesting point of discussion.
+
+On a macro level, the Iron Blood League has stricter management policies than the Oceanic Federation. This, of course, is for historical reasons, the details of which need no introduction; however, it would be a grave error to downplay the importance of these policies due to tepid public reception or the perception that the Iron Blood Navy is insignificant.
+
+Without a doubt, the Iron Blood has adopted a "one step back, two steps forward" strategy, satisfying public scrutiny while allowing for more relaxed policies in more sensitive areas. Broadly speaking, Iron Blood implements policies not dissimilar to other Oceanic Federation member states: strictly limiting activity ranges, dismantling ship armaments, and monitoring activity. However, the Iron Blood Navy also goes a step further, not only keeping armaments in publicly-visible coastal areas, but also ensuring that no KAN-SEN can be rearmed in a short time period.
+
+On the other hand, the Iron Blood Navy has also stated that for humanitarian reasons, their KAN-SEN will be treated as full-fledged Iron Blood citizens. This means that they not only may participate in certain military activities as special administrative personnel just like KAN-SEN from other member states, but can even move freely within controlled areas as "volunteers". They would still be unarmed, but this opens the door for them to participate in and even lead some classified military projects.
+
+Iron Blood has never released any information pertaining to this matter, but based on corroborations of multiple sources as well as "unofficial intel" from Tulipa, the above is highly credible. In any case, Iron Blood's KAN-SEN are almost certainly not being treated as poorly as official statements suggest.
+
+Note: In my opinion, this information holds important implications. The Iris Orthodoxy could reach a tripartite agreement with Tulipa and Iron Blood just as the Eagle Union has been seeking to relocate sensitive projects to the Royal Isles.
+–––––––––
+Cloud: Backup complete (Node: Iris Strategic Research Institute)]]
+	},
+	[15105] = {
+		group_ID = 5,
+		name = "Text Record: I'm Back",
+		subTitle = "",
+		pic = "15105",
+		id = 15105,
+		is_classified = 0,
+		content = [[
+Subject: I'm Back
+Sender: Anzeel <Anzeel_new@mail.safe>
+Recipient: Aoste<@Aoste_personal>
+–––––––––
+Long time no speak, Aoste.
+
+My "confinement" has ended, and I'm waiting for my train to leave. To be honest, I'm not sure what I should do right now, and I don't have anyone trustworthy to turn to, so I'm writing to you. How do I put this, though... Life here hasn't been too bad, surprisingly, and I know I have you to thank for that.
+
+So, once again, thank you. And pass that on to all the other friends who helped me out.
+
+During this time, some kind-hearted people brought me the relevant documents. Indeed, the properties of the Cube exceed my wildest expectations. Judging from our current situation, you were right after all: the Wisdom Cube is an unexpected byproduct of Cube technology. Had we simply continued to use it exclusively as an energy source, things never would have gotten out of hand like this.
+
+Reality, however, is what it is. I just don't think it's right, or acceptable. It's one thing to deny those girls the honor of being soldiers, but it is another to strip them of their dignity as human beings! I cannot accept those who would gladly wield them as weapons of war but balk at the idea of giving them fair treatment.
+
+...Aoste, you've known that I was always against using shipgirls as soldiers. But, reality has taught me a harsh lesson.
+
+The Bon Homme Richard situation reeks of conspiracy. Someone has to pay the price.
+
+Look forward to seeing you soon,
+
+Anzeel]]
+	},
+	[15106] = {
+		group_ID = 6,
+		name = "Text Record: Welcome Back",
+		subTitle = "",
+		pic = "15106",
+		id = 15106,
+		is_classified = 0,
+		content = [[
+Subject: Welcome Back
+Sender: Aoste<Aoste_safe@mail.safe>
+Recipient: Anzeel<Anzeel_safe@mail.safe>
+–––––––––
+It's great to hear from you, Anzeel.
+
+If you can see this reply, I assume you're already using the email address I provided you. Given the current situation, I recommend we use this channel for all of our communications.
+
+Back to the topic at hand: we're all glad to have you back. We've prepared a "safe space" for you to stay at the base, where nobody will disturb you. I know you're probably wondering what this base is. Simply put, it's our new headquarters. Me and a number of other friends, including Colette and Savoy, have decided to form a new organization: TORCH (Threat Object Research and Control Headquarters).
+
+I fully agree with your assessment. "Pandora" is indeed a conspiracy, one that never should've claimed KAN-SEN as victims. Furthermore, this is only the tip of the iceberg. Things won't end here, and we must prepare a force that can stop "it" before it arrives. This is a thorny path that will inevitably lead to unpleasant conflicts with certain groups, but sitting on the sidelines has never been my style.
+
+What I can assure you, though, is that we are not alone. We have many supporters – not just scientists and politicians, but also, well, our friends from the East. Furthermore, the Navy has held its ground and will be able to offer us considerable support. You might not believe this either, but even Admiral Sheppard, the traditional warship enthusiast who vehemently rejected everything Cube-related, has switched sides and thrown his support behind the KAN-SEN.
+
+To be honest, there's a lot more I'd like to say, but let's save that for when we meet in person. I hope you're prepared as well. The KAN-SEN have a long battle ahead of them, not just for our cause, but also for themselves.
+
+Looking forward to seeing you soon,
+
+Aoste
+
+(PS: Photos of our base are attached.)]]
+	},
+	[18001] = {
+		group_ID = 1,
+		name = "Log: Incident Anomaly Investigation 01",
+		subTitle = "",
+		pic = "",
+		id = 18001,
+		is_classified = 0,
+		content = [[
+Incident Anomaly Investigation Log 01
+01:59 Recorder: Lady Lex
+–––––––––
+It's currently 23:56. I'm unable to sleep, so I've decided to use this time to analyze what happened.
+
+The outside world calls it the "Second Samos Standoff". Its trigger was the attack on the freighter Poltava.
+
+...Well, this probably isn't a very fruitful approach. At this point, it's meaningless to try to relitigate whether the freighter attack was a false-flag operation by the RF or if the OF was also involved. The only thing that matters is the outcome: "Laplace's Demon" did not fall into anyone's hands... including our own, of course.
+
+We originally intended to break through the blockade and seize the time machine to ensure it would not be scooped up by either side, but thankfully, we didn't. The reappearance of the "black phenomenon" could not have been purely coincidental. Had we been caught up in the epicenter, it would've been another repeat of the Bon Homme Richard incident. We would have been seen as the culprits that ignited another world war.
+
+The worst may have been averted, but I am still left with chills running down my spine. Nobody can explain what happened. Everyone was rendered comatose by the black tornado, and even we, as shipgirls, could not recall the details. All we know is that we saw the same nightmare as those suffering from "Syncope"– a vision of an all-consuming war that would destroy everything.
+
+An incident that could've– no, should've destroyed the world, sputtered out just like that. What should've been seen as inexplicably good fortune has instead filled me with a sense of impending dread... as if something is terribly wrong, as if the flow of events has been tampered with somehow. Enterprise and Hornet told me that I'm overthinking things. I can only hope they're right...
+
+By the way, Dr. Aoste has regained consciousness after being comatose in the ICU. I really wish Anzeel could have seen the astonishment on his face when he realized he was still alive.
+–––––––––
+
+Cloud: Backup complete (Node: TORCH Server)]]
+	},
+	[19001] = {
+		group_ID = 1,
+		name = "Recording: From a Nurse Station",
+		subTitle = "",
+		pic = "",
+		id = 19001,
+		is_classified = 0,
+		content = [[
+Recording <■■/■■/■■■■ 21:39>
+Location: ■■ Hospital Nurse Station Camera
+–––––––––
+-Why don't you take a seat and rest for a while, young man? Don't you have another shift tonight?
+--Yeah. Comes with being a resident. But, my supervisor's really nice, and I've learned a lot.
+-That's good to hear. It's rare for newbies to be able to stick it out 'til the end.
+--Now that you mention it, it's awfully quiet tonight. This might be the first time I've ever had such an uneventful evening.
+-Don't jinx it...
+--Are you the superstitious type?
+-It's experience, not superstition.
+----(Sirens blaring)
+---(Panicked voice) A public health emergency has been declared! All personnel, please assemble on the first floor immediately!
+-See? Told you so.
+--Sorry... I don't... feel so good...
+-Hey? What's gotten into you all of a sudden? You look really pale... Shit, talk to me! Hang in there!
+-This is the nurse station! A staff member has collapsed!
+--No response? Hey you, patient over there! Have you seen any of the other doctors?
+--Everyone's unconscious! Doctors and nurses alike! You have to get out of here!
+--Hey! Wait, what are you doing?!
+--Damnit, what the hell is going on?!]]
+	},
+	[19002] = {
+		group_ID = 2,
+		name = "Societal Notes: Friendship in a Dream",
+		subTitle = "",
+		pic = "",
+		id = 19002,
+		is_classified = 0,
+		content = [[
+<Excerpt from an SNS Message Board>
+......
+No. 5 Anonymous User (ID:kSjfkaPnC) 18:04
+curious_cat.gif
+no ****** way lmao, still can't believe what i saw during the "syncope" episode. a real damn world war.
+No. 6 Anonymous User (ID:kSjfkaPnC) 18:04
+>>5: all I remember is, a lot of people died. and, then that weapon was dropped at the end. "that" weapon.
+No. 7 Anonymous User (ID:CkTsvaOmS) 18:05
+I get you. After getting a glimpse of that thing, I don't dare refer to it by name ever again. Didn't even have time to give it the middle finger.
+No. 8 Anonymous User (ID:CkTsvaOmS) 18:05
+In any case, thus ended my great escapade with my chef buddy. Having someone with you who can cook is a real lifesaver. Would've been eating dirt during the war had it not been for them.
+But, guess what happened after that? When I woke up in my hospital bed, my buddy was right there next to me. Man, I thought at the time, "this is what a lasting friendship looks like."
+After we both woke up, we set out to go downstairs for a drink.
+No. 9 Anonymous User (ID:sFklgulHkj) 18:05
+>>8: cool story bro. hope you didn't piss off the nurses too much.
+No. 10 Anonymous User (ID:CkTsvaOmS) 18:06
+>>9: Guess why we ended up not going. sad_cat.webp
+No. 11 Anonymous User (ID:sFklgulHkj) 18:07
+jokes aside, I kinda get how you feel. too bad I still haven't found anyone to pledge my life to.
+but then I started thinking, if this mass hallucination came from a parallel dimension, all those friends and family members who died... might actually be real? I don't even know what's real anymore...
+No. 12 Section Admin (ID: KshfhPshC) 18:07
+Yeah, it's a lot to think about...
+No. 13 Anonymous User (ID:sFklgulHkj) 18:07
+>>12: woah, the admin's back! I thought you unplugged from the internet cuz you were physically and mentally burnt out
+No. 14 Section Admin (ID: KshfhPshC) 18:08
+>>13: I was, until I woke up. Then, I realized how wonderful my life actually is.
+No. 15 Section Admin (ID: KshfhPshC) 18:08
+So, let's pour one out for the victims of war.
+No. 16 Anonymous User (ID:kSjfkaPnC) 18:08
+f
+No. 17 Anonymous User (ID:CkTsvaOmS) 18:08
+:pray:
+No. 18 Anonymous User (ID:sFklgulHkj) 18:08
+RIP.
+......]]
+	},
+	[19003] = {
+		group_ID = 3,
+		name = "Societal Notes: The \"Post-War\" Era",
+		subTitle = "",
+		pic = "19003",
+		id = 19003,
+		is_classified = 0,
+		content = [[
+......Doomsday prep kits once again return to the top of the bestsellers list! A representative from Smock Emergency Supplies Co. told reporters that the company is currently planning to begin work on a new commercial civil defense project. Though construction has not officially begun, many people are already scrambling to purchase shelter pod accommodation tickets.
+
+Of course, these doomsday frenzies are hardly alien to us. Before ■■■■, during the era of ■■■■■■■■, people would frequently try digging their own doomsday bunkers. At the time, there was a common name for them: doomsday preppers. After ■■■■, these people almost completely disappeared; but now, in the post-Syncope or "New War" generation, their numbers have ballooned again. Now, almost every household is digging basements for long-term shelter.
+
+Nevertheless, there are many others who hold a negative opinion of such behaviors – a common sentiment echoed by netizens is: "Seeing this play out in the prologue of 'Falldown 4' is good enough. No need to bring it into real life."
+......]]
+	},
+	[19004] = {
+		group_ID = 4,
+		name = "Societal Notes: Beware of Doomsday Cults",
+		subTitle = "",
+		pic = "",
+		id = 19004,
+		is_classified = 0,
+		content = [[
+......Military police have busted yet another clandestine cult headquarters, making this the 16th such raid so far this month alone. According to an MP spokesperson, ever since the Mass Syncope incident, malicious actors have been exploiting the hallucinations experienced during that time to commit fraud or establish cults, severely disrupting the social order.
+
+Police investigations have revealed a common throughline for many of these cults: that the Second Samos Standoff was supposed to be the catalyst for World War ■■■, but the intervention of the "higher power" they now worship changed the future and prevented the end of the world. However, the scientific community continues to insist that the Mass Syncope incident was not supernatural in origin, and that they have the evidence to prove this.
+
+The police once again have emphasized this to the public: "the propaganda of these cults has no scientific backing whatsoever. If you come across such propaganda, do not believe it, and do not engage with it. If possible, please report it to the hotline listed below..."]]
+	},
+	[19005] = {
+		group_ID = 5,
+		name = "Societal Notes: Film and TV Craze",
+		subTitle = "",
+		pic = "",
+		id = 19005,
+		is_classified = 0,
+		content = "...\"World War ■■■\" is about to hit theaters near you! As more and more people awaken from the Mass Syncope incident, the apocalyptic story of the next World War within has become clearer and clearer.\nRenowned director and screenwriter ■■■ has announced that production of the World War ■■■-themed film is well underway, declaring that he will bring the nearly-averted calamity to the big screen. Heeding his call, many top actors have lined up to be a part of the film, including several shipgirls who previously disappeared due to public criticism.\nA staff member who wishes to remain anonymous actually revealed to a number of influential bloggers that all the cast members have actually experienced the terrible war while suffering from Syncope. This information undoubtedly has raised expectations for the film, but there are also reports that suggest some of these \"big name\" participants may have forged their medical certificates pertaining to Syncope......"
+	},
+	[19006] = {
+		group_ID = 6,
+		name = "Article Excerpt: History or Prophecy?",
+		subTitle = "",
+		pic = "19006",
+		id = 19006,
+		is_classified = 0,
+		content = [[
+<Excerpt: "Mass Syncope – Hallucinations, or Prophetic Visions?">
+–––––––––
+......A phenomenon known as "Mass Syncope" has been having a profound impact around the world. As stated earlier, this article does not seek to prove or disprove anything in particular – after all, the issues surrounding Mass Syncope are not easily resolved. However, out of the interest of academic and scientific integrity, I felt compelled to lay out the groundwork for the facts and terms surrounding the incident.
+
+Let us start with what we know as fact. Following the Second Samos Standoff, a global outbreak of Mass Syncope took place. While most affected patients have recovered with medical intervention, everyone affected by it claims to have lived through a five-year war while comatose.
+
+Some who have never experienced it may simply write it off as some sort of mass hysteria, but I would like to reject that belief. In reality, the conflict between the Revolutionary Front and Oceanic Federation did not escalate, resulting in no World War ■■■ breaking out. However, despite this, the recollections of Syncope sufferers all corroborate each other, and by organizing the accounts of a large number of patients, we can reconstruct the full picture of what happened during this "Great War".
+
+I do not know whether World War ■■■ should be called history, prophecy, or a glimpse into a parallel dimension. What I can say with confidence, however, is that understanding its full story will be extremely beneficial. As we now know, it was triggered by the Second Samos Standoff, with leaders on both sides pressing the button to ignite the irreversible war between the Revolutionary Front and Oceanic Federation, walking humanity down the path of world war and total ruination......]]
+	},
 	all = {
 		1101,
 		1102,
@@ -3189,6 +3432,16 @@ I guess we'll just have to see what happens.]]
 		14606,
 		14607,
 		14608,
-		14609
+		14609,
+		15004,
+		15105,
+		15106,
+		18001,
+		19001,
+		19002,
+		19003,
+		19004,
+		19005,
+		19006
 	}
 }

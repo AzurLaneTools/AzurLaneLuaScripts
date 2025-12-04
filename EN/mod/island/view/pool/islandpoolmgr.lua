@@ -10,6 +10,11 @@ slot8 = 8
 slot9 = 9
 slot10 = 10
 slot11 = 11
+slot12 = 12
+slot13 = 13
+slot14 = 14
+slot15 = 15
+slot16 = 16
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.pools = {
@@ -21,9 +26,14 @@ slot0.Ctor = function(slot0, slot1)
 		[uv5] = IslandRootTplPool.New(slot1, "ui/agorafurnituretpl", 1, 20),
 		[uv6] = IslandObjectPoolSet.New(slot1, 2, 6),
 		[uv7] = IslandUITplPoolSet.New(slot1, "ui/IslandOpUI", 1, 1, false),
-		[uv8] = IslandAssetPoolSet.New(slot1, 5, 2),
-		[uv9] = IslandAssetPoolSet.New(slot1, 5, 2),
-		[uv10] = IslandAssetPoolSet.New(slot1, 5, 2)
+		[uv8] = IslandObjectPoolSet.New(slot1, 1, 1),
+		[uv9] = IslandObjectPoolSet.New(slot1, 3, 1),
+		[uv10] = IslandObjectPoolSet.New(slot1, 3, 1),
+		[uv11] = IslandObjectPoolSet.New(slot1, 4, 1),
+		[uv12] = IslandObjectPoolSet.New(slot1, 6, 2),
+		[uv13] = IslandAssetPoolSet.New(slot1, 5, 2),
+		[uv14] = IslandAssetPoolSet.New(slot1, 5, 2),
+		[uv15] = IslandAssetPoolSet.New(slot1, 5, 2)
 	}
 	slot0.loadingIdList = {}
 end
@@ -46,7 +56,7 @@ slot0.GetPool = function(slot0, slot1)
 	return slot0.pools[slot1]
 end
 
-slot12 = function(slot0, slot1, slot2, slot3, slot4)
+slot17 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 	slot6, slot7 = nil
 
@@ -75,7 +85,7 @@ slot12 = function(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-slot13 = function(slot0, slot1, slot2, slot3, slot4)
+slot18 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = GetOrAddComponent(slot4, typeof(Animator))
 
 	slot1:ReturnObject(slot3, slot5.runtimeAnimatorController)
@@ -85,7 +95,7 @@ slot13 = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ReturnObject(slot2, slot4)
 end
 
-slot14 = function(slot0, slot1, slot2, slot3, slot4)
+slot19 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
 	table.insert(slot5, function (slot0)
@@ -99,7 +109,7 @@ slot14 = function(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-slot15 = function(slot0, slot1, slot2, slot3, slot4)
+slot20 = function(slot0, slot1, slot2, slot3, slot4)
 	uv0(slot0, slot1, slot2, slot3, slot4.transform:GetChild(0).gameObject)
 	Object.Destroy(slot4)
 end
@@ -167,6 +177,68 @@ slot0.ReturnSceneCharacter = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0:ReturnCharacter(slot1, slot2, slot4)
+end
+
+slot0.GetSceneDelegateItem = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0:GetPool(uv0)
+	slot6 = slot0:GetPool(uv1)
+	slot7 = {}
+	slot8 = nil
+
+	table.insert(slot7, function (slot0)
+		slot1 = uv0
+
+		slot1:GetObject(uv1, typeof(GameObject), function (slot0)
+			uv0 = slot0
+
+			uv1()
+		end)
+	end)
+	table.insert(slot7, function (slot0)
+		slot1 = uv0
+
+		slot1:GetObject(uv1, typeof(RuntimeAnimatorController), function (slot0)
+			GetOrAddComponent(uv0, typeof(Animator)).runtimeAnimatorController = slot0
+
+			uv1()
+		end)
+	end)
+	table.insert(slot7, function (slot0)
+		uv0 = uv1:NestModel(uv0)
+
+		slot0()
+	end)
+
+	if slot3 and slot3 ~= "" then
+		table.insert(slot7, function (slot0)
+			slot1 = uv0
+			slot1 = slot1:GetPool(uv1)
+
+			slot1:GetObject(uv2, typeof(NodeCanvas.BehaviourTrees.BehaviourTree), function (slot0)
+				GetOrAddComponent(uv0, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = slot0
+
+				uv1()
+			end)
+		end)
+	end
+
+	seriesAsync(slot7, function ()
+		uv0(uv1)
+	end)
+end
+
+slot0.ReturnSceneDelegateItem = function(slot0, slot1, slot2, slot3, slot4)
+	slot8 = GetOrAddComponent(slot4, typeof(Animator))
+
+	slot0:GetPool(uv1):ReturnObject(slot2, slot8.runtimeAnimatorController)
+
+	slot8.runtimeAnimatorController = nil
+
+	slot0:GetPool(uv0):ReturnObject(path, slot4.transform:GetChild(0).gameObject)
+	Object.Destroy(slot4)
+end
+
+slot0.ClearSceneDelegateItem = function(slot0, slot1, slot2)
 end
 
 slot0.GetSceneProductItem = function(slot0, slot1, slot2)
@@ -415,6 +487,94 @@ slot0.ReturnDelegateEffect = function(slot0, slot1, slot2)
 end
 
 slot0.ClearDelegateEffect = function(slot0)
+	slot0:GetPool(uv0):Clear()
+end
+
+slot0.GetFishRod = function(slot0, slot1, slot2, slot3)
+	slot4 = slot0:GetPool(uv0)
+	slot5 = slot0:GetPool(uv1)
+	slot6 = nil
+
+	seriesAsync({
+		function (slot0)
+			slot1 = uv0
+
+			slot1:GetObject(uv1, typeof(GameObject), function (slot0)
+				uv0 = slot0
+
+				uv1()
+			end)
+		end,
+		function (slot0)
+			slot1 = uv0
+
+			slot1:GetObject(uv1, typeof(RuntimeAnimatorController), function (slot0)
+				GetOrAddComponent(uv0, typeof(Animator)).runtimeAnimatorController = slot0
+
+				uv1()
+			end)
+		end
+	}, function ()
+		uv0(uv1)
+	end)
+end
+
+slot0.ReturnFishRod = function(slot0, slot1, slot2, slot3)
+	slot0:GetPool(uv0):ReturnObject(slot2, GetOrAddComponent(slot3, typeof(Animator)).runtimeAnimatorController)
+	slot0:GetPool(uv1):ReturnObject(slot1, slot3)
+end
+
+slot0.GetFish = function(slot0, slot1, slot2, slot3)
+	slot4 = slot0:GetPool(uv0)
+	slot5 = slot0:GetPool(uv1)
+	slot6 = nil
+
+	seriesAsync({
+		function (slot0)
+			slot1 = uv0
+
+			slot1:GetObject(uv1, typeof(GameObject), function (slot0)
+				uv0 = slot0
+
+				uv1()
+			end)
+		end,
+		function (slot0)
+			slot1 = uv0
+
+			slot1:GetObject(uv1, typeof(RuntimeAnimatorController), function (slot0)
+				GetOrAddComponent(uv0, typeof(Animator)).runtimeAnimatorController = slot0
+
+				uv1()
+			end)
+		end
+	}, function ()
+		uv0(uv1)
+	end)
+end
+
+slot0.ReturnFish = function(slot0, slot1, slot2, slot3)
+	slot0:GetPool(uv0):ReturnObject(slot2, GetOrAddComponent(slot3, typeof(Animator)).runtimeAnimatorController)
+	slot0:GetPool(uv1):ReturnObject(slot1, slot3)
+end
+
+slot0.GetUI = function(slot0, slot1, slot2)
+	slot0:GetPool(uv0):GetObject("ui/" .. slot1, typeof(GameObject), slot2)
+end
+
+slot0.ReturnUI = function(slot0, slot1, slot2)
+	slot0:GetPool(uv0):ReturnObject("ui/" .. slot1, slot2)
+end
+
+slot0.GetFishingEffect = function(slot0, slot1, slot2)
+	slot0:GetPool(uv0):GetObject(slot1, typeof(GameObject), slot2)
+end
+
+slot0.ReturnFishingEffect = function(slot0, slot1, slot2)
+	slot0:GetPool(uv0):ReturnObject(slot1, slot2)
+end
+
+slot0.ClearFishingEffect = function(slot0)
 	slot0:GetPool(uv0):Clear()
 end
 

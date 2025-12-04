@@ -34153,7 +34153,7 @@ _G.pg.base.gametip.vote_lable_voting = {
 
 
 _G.pg.base.gametip.vote_lable_title = {
-	tip = "<size=30>Popularity Poll is open between</size> <size=28>12/7/2023 and 2/5/2024 12 AM</size>"
+	tip = "<size=30>Popularity Poll is open between</size> <size=28>12/4/2025 and 2/7/2026 12 AM</size>"
 }
 
 
@@ -46117,4 +46117,110 @@ If you begin playing the collab event while a given stage has already been compl
 
 _G.pg.base.gametip.dal_chapter_tip2 = {
 	tip = "Complete missions for rewards."
+}
+
+
+_G.pg.base.gametip.scenario_unlock_pt_require = {
+	tip = "Unlocks   At   $1   Event   Pts"
+}
+
+
+_G.pg.base.gametip.scenario_unlock = {
+	tip = "Unlock Next Story Segment"
+}
+
+
+_G.pg.base.gametip.vote_help_2025 = {
+	tip = {
+		{
+			info = [[
+<color=#FFDD00>Azur Lane Popularity Poll 2025 Information</color>
+
+- Overview -
+· Complete event missions to collect ballots and use them to vote for your favorite shipgirls and receive rewards based on how many votes you have cast.
+· Tap the Popularity Poll button in the top right corner on the main screen to view the event missions, current rankings, and cast votes in the active round.
+· The Popularity Poll is available from <color=#92fc63>December 4th, 2025 to 12 AM on February 2nd, 2026</color>.
+· The Daily Results board displays the current total votes in each round across all servers.
+· Excluding shipgirls already in the Hall of Fame, <color=#92fc63>all shipgirls that were available in the game before October 23rd, 2025</color> are eligible to participate. Collaboration characters (excluding blueprint ships), µ-rigging, Type II rigging, as well as alternate versions of shipgirls cannot participate in the poll, but META and Little shipgirls can be voted on in the special vote rounds.
+
+- Obtaining Ballots -
+All Commanders who have reached Commander Level 25 are able to obtain <color=#92fc63>ballots</color> through the following means:
+Qualifiers (Excluding Special Votes):
+· Completing the <color=#92fc63>daily missions</color> that appear during the poll <color=#92fc63>automatically awards you with ballots</color>. You can obtain up to a maximum of <color=#92fc63>20 ballots a day</color> this way.
+· Completing the <color=#92fc63>one-time missions</color> that appear during the poll <color=#92fc63>automatically awards you with ballots</color>. Each poll round has a limit on how many ballots may be obtained this way.
+For more on the mission objectives and the maximum caps on ballots obtained, please check the Event Tasks tab.
+
+Max Ballot Caps for Each Round of the Poll:
+Qualifiers: 480
+Group A: 200
+Group B: 200
+Group C: 200
+Group D: 200
+Repechage: 160
+Finals: 280
+Whenever a polling round finishes, your remaining ballots will be <color=#92fc63>automatically removed</color> and your progress on the event missions will <color=#92fc63>reset</color>.
+Special Votes:
+You receive <color=#92fc63>1 ballot</color> a day when you log in to the game.
+
+- Voting Schedule -
+The main and special votes follow the schedule below:
+<color=#92fc63>Qualifiers</color>: after the 12/4/2025 maintenance to 12/15/2025, 11:59 PM.
+<color=#92fc63>Group A</color>: from 12/18/2025, midnight to 12/22/2025, 11:59 PM.
+<color=#92fc63>Special Vote I</color>: from 12/23/2025, midnight to 12/25/2025, 11:59 PM.
+<color=#92fc63>Group B</color>: from 12/27/2025, midnight to 12/31/2025, 11:59 PM.
+<color=#92fc63>Special Vote II</color>: from 1/1/2026, midnight to 1/3/2026, 11:59 PM.
+<color=#92fc63>Group C</color>: from 1/5/2026, midnight to 1/9/2026, 11:59 PM.
+<color=#92fc63>Special Vote III</color>: from 1/10/2026, midnight to 1/12/2026, 11:59 PM.
+<color=#92fc63>Group D</color>: from 1/14/2026, midnight to 1/18/2026, 11:59 PM.
+<color=#92fc63>Repechage</color>: from 1/20/2026, midnight to 1/23/2026, 11:59 PM.
+<color=#92fc63>Finals</color>: from 1/27/2026, midnight to 2/2/2026, 11:59 PM.
+
+The voting time and final results of each round are available on the <color=#92fc63>Daily Results</color>.
+
+- Round-Specific Rules -
+<color=#92fc63>Qualifiers</color>
+During the Qualifiers round, the total number of votes for each character will not be shown, only their current rankings.
+All shipgirls are able to participate in this round, with the exception of: shipgirls in the Hall of Fame, collaboration characters (excluding blueprint ships), µ-rigging shipgirls, Type II-rigging shipgirls, alternate versions of shipgirls, META shipgirls, and Little shipgirls. The latter 5 types of shipgirls are treated the same as their originals.
+The top 240 shipgirls with the most votes this round advance to the group votes. Each group consists of 60 shipgirls.
+
+<color=#92fc63>Group Votes</color>
+The group votes will consist of all the winners from the qualifiers divided into 4 groups.
+The top 5 shipgirls with the most votes in each group will advance to the finals. The shipgirls from 6th to 15th place will instead advance to the <color=#92fc63>repechage</color>.
+
+<color=#92fc63>Special Votes</color>
+There will be a total of 3 special votes, one each dedicated to Sirens, META shipgirls, and Little shipgirls. The participants in this round cannot participate in the main poll.
+
+<color=#92fc63>Repechage</color>
+The repechage will consist of all shipgirls who placed between 6th and 15th from each group during the group votes.
+The top 15 shipgirls with the most votes in this round will advance to the finals.
+
+<color=#92fc63>Finals</color>
+A total of 20 participants from the group votes and 15 from the repechage will participate in the finals.
+
+- In Case of a Tie in Number of Votes -
+In the <color=#92fc63>qualifiers</color>, if there occurs a tie in the number of votes between shipgirls, the winner will be chosen based on the order of who reached the final number of votes first.
+In the <color=#92fc63>group votes</color>, the <color=#92fc63>repechage</color>, and the <color=#92fc63>finals</color>, the winner will be chosen based on the order of the final rankings in the qualifiers.
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_title = {
+	tip = "Memories in Echo"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_title2 = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.HelenaPTPage_title = {
+	tip = "Memories in Echo"
+}
+
+
+_G.pg.base.gametip.HelenaPTPage_title2 = {
+	tip = ""
 }
