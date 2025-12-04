@@ -31,8 +31,12 @@ slot0.GetTrackParma = function(slot0)
 end
 
 slot0.GetProgress = function(slot0)
-	if table.contains(IslandTaskTargetType.GetRuntimeTypes(), slot0:GetType()) then
-		slot0.progress = IslandTaskHelper.GetRuntimeData(slot1, slot0:GetTargetParam())
+	if slot0:GetType() == IslandTaskTargetType.TASK_DAILY_IN_WEEK then
+		return slot0.progress + IslandTaskHelper.GetRuntimeData(slot1, slot0:GetTargetParam())
+	end
+
+	if table.contains(IslandTaskTargetType.GetRuntimeTypes(), slot1) then
+		return IslandTaskHelper.GetRuntimeData(slot1, slot0:GetTargetParam())
 	end
 
 	return slot0.progress
