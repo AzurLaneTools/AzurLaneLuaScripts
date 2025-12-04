@@ -25,6 +25,8 @@ slot0.TYPE_POST_MANAGE = 37
 slot0.TYPE_PRODUCT_FARM = 38
 slot0.TYPE_PRODUCT_ORCHARD = 39
 slot0.TYPE_PRODUCT_GARDEN = 40
+slot0.TYPE_FISHING_ROD = 41
+slot0.TYPE_PRODUCT_FISH = 42
 slot0.ANIMATION_OP_ID = 40
 
 slot0.OnInit = function(slot0, slot1)
@@ -95,6 +97,12 @@ end
 slot0.IsUnlockAreaPlant = function(slot0)
 	return _.any(slot0.abilitys, function (slot0)
 		return uv0.GetAblityType(slot0) == uv0.TYPE_SYSTEM and uv0.GetEffect(slot0) == 17
+	end)
+end
+
+slot0.IsUnlockFishing = function(slot0)
+	return _.any(slot0.abilitys, function (slot0)
+		return uv0.GetAblityType(slot0) == uv0.TYPE_SYSTEM and uv0.GetEffect(slot0) == 25
 	end)
 end
 

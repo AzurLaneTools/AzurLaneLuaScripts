@@ -133,24 +133,25 @@ end
 
 slot0.AddShip = function(slot0, slot1, slot2)
 	slot3 = function(slot0, slot1, slot2, slot3)
-		tf(slot2):SetParent(uv0.pathContainer)
+		slot2:SetParent(uv0.pathContainer)
+		slot2:SetLocalScale(Vector3(0.5, 0.5, 1))
 
-		tf(slot2).localScale = Vector3(0.5, 0.5, 1)
-		slot4 = GuildDynamicBgShip.New({
+		slot5 = GuildDynamicBgShip.New({
 			stand = slot0.stand,
 			auto = slot0.auto,
-			go = slot2,
+			go = slot2:GetModel(),
 			grid = slot1,
 			path = uv0.path,
 			furnitures = uv0.furnitures,
 			name = slot0.name,
-			isCommander = slot0.isCommander
+			isCommander = slot0.isCommander,
+			char = slot2
 		})
 
-		slot4:SetOnMoveCallBack(function ()
+		slot5:SetOnMoveCallBack(function ()
 			uv0:SortScene()
 		end)
-		table.insert(uv0.ships, slot4)
+		table.insert(uv0.ships, slot5)
 		slot3()
 	end
 
@@ -162,19 +163,23 @@ slot0.AddShip = function(slot0, slot1, slot2)
 
 	slot5:Lock()
 
-	slot6 = PoolMgr.GetInstance()
+	slot6 = SpineAnimChar.New()
 
-	slot6:GetSpineChar(slot4, true, function (slot0)
+	slot6:SetPaint(slot4)
+	slot6:Load(true, function (slot0)
 		if IsNil(uv0.nameTF) then
+			slot0:Dispose()
+
 			return
 		end
 
-		slot0.name = uv1
+		slot1 = slot0:GetModel()
+		slot1.name = uv1
 
-		cloneTplTo(uv0.nameTF, slot0.transform, "name")
+		cloneTplTo(uv0.nameTF, slot1.transform, "name")
 
 		if uv2.isCommander then
-			cloneTplTo(uv0.commanderTag, slot0.transform, "tag")
+			cloneTplTo(uv0.commanderTag, slot1.transform, "tag")
 		end
 
 		uv3(uv2, uv4, slot0, uv5)
@@ -184,7 +189,6 @@ end
 slot0.ExitShip = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.ships) do
 		if slot6.name == slot1 then
-			PoolMgr.GetInstance():ReturnSpineChar(slot6._go.name, slot6._go)
 			slot6:Dispose()
 
 			slot0.ships[slot5] = nil
@@ -226,7 +230,6 @@ end
 
 slot0.Dispose = function(slot0)
 	for slot4, slot5 in pairs(slot0.ships) do
-		PoolMgr.GetInstance():ReturnSpineChar(slot5._go.name, slot5._go)
 		slot5:Dispose()
 	end
 

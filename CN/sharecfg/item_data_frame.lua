@@ -603,6 +603,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>为{namecode:199:新泽西}特别制作的角色专属头像框</color>\n「Azurlane人气投票2023」活动获取",
 		scene = {}
 	},
+	[418] = {
+		name = "殿堂纪念：{namecode:182:信浓}",
+		gain_by = "",
+		time_second = 0,
+		id = 418,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>为{namecode:182}特别制作的角色专属头像框</color>\n「Azurlane人气投票2025」活动获取",
+		scene = {}
+	},
+	[422] = {
+		name = "殿堂纪念：{namecode:480:埃吉尔}",
+		gain_by = "",
+		time_second = 0,
+		id = 422,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>为{namecode:480}特别制作的角色专属头像框</color>\n「Azurlane人气投票2025」活动获取",
+		scene = {}
+	},
+	[423] = {
+		name = "殿堂纪念：镇海",
+		gain_by = "",
+		time_second = 0,
+		id = 423,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>为镇海特别制作的角色专属头像框</color>\n「Azurlane人气投票2025」活动获取",
+		scene = {}
+	},
 	[501] = {
 		name = "美味的纪念 ",
 		gain_by = "",
@@ -968,6 +995,9 @@ pg.item_data_frame = {
 		415,
 		416,
 		417,
+		418,
+		422,
+		423,
 		501,
 		601,
 		602,

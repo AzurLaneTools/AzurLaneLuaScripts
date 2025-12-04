@@ -258,6 +258,9 @@ slot0.HandleIslandAbilityByType = function(slot0)
 			if pg.TimeMgr.GetInstance():GetZeroTimeStamp(pg.TimeMgr.GetInstance():GetServerTime()) + uv1 < uv0:GetBuildingAgency():GetBuilding(IslandProductConst.MinePlaceId):GetBuildingCollectData():GetNextRecoverTimes() then
 				slot1:UpdateCollectRefreshtTime(slot4)
 			end
+		end,
+		[IslandAblityAgency.TYPE_FISHING_ROD] = function ()
+			uv0:GetFishingAgency():UpdateFishRodId(uv1)
 		end
 	})
 end

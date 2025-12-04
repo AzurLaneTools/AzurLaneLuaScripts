@@ -322,7 +322,7 @@ return {
 			},
 			options = {
 				{
-					content = "埃吉尔着凉的话，要怎么办？",
+					content = "{namecode:480:埃吉尔}着凉的话，要怎么办？",
 					flag = 1
 				}
 			}
@@ -412,7 +412,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………我知道啦，我给你一起进去避雨就是了！",
+			say = "…………我知道啦，我跟你一起进去避雨就是了！",
 			painting = {
 				alpha = 0.3,
 				time = 1

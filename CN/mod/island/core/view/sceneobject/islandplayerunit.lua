@@ -210,6 +210,22 @@ slot3.CalcNotFalling = function(slot0)
 	return false
 end
 
+slot3.StandOnWorldObject = function(slot0)
+	slot1, slot2 = Physics.SphereCast(slot0._tf.position + slot0.characterController.center, slot0.characterController.radius * 1.2, Vector3.down, nil, 0.3 + 2 * slot0.characterController.skinWidth + 0.5 * slot0.characterController.height - slot0.characterController.radius, uv0)
+
+	if slot1 then
+		if slot2.collider.isTrigger then
+			return false
+		end
+
+		if slot2.collider.gameObject:GetComponent(typeof(WorldObjectItem)) then
+			return true
+		end
+	end
+
+	return false
+end
+
 slot3.Sit = function(slot0, slot1, slot2)
 	slot0.characterController.enabled = false
 	slot0.prevStandPosition = slot0._tf.position
@@ -639,6 +655,10 @@ end
 
 slot3.GetNearItemId = function(slot0)
 	return slot0.nearId
+end
+
+slot3.OnGrouded = function(slot0)
+	return slot0.onGroud
 end
 
 slot3.GetCurrentPosition = function(slot0)

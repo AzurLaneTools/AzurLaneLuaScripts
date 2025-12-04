@@ -30,6 +30,7 @@ slot0.GET_COLLECT_POINT = "IslandMediator.GET_COLLECT_POINT"
 slot0.GET_POINT_AWARD = "IslandMediator.GET_POINT_AWARD"
 slot0.REMOVE_EXPIRED_TICKETS = "IslandMediator.REMOVE_EXPIRED_TICKETS"
 slot0.USE_TICKETS = "IslandMediator.USE_TICKETS"
+slot0.EXCHANGE_ITME = "IslandMediator.EXCHANGE_ITME"
 slot0.OPEN_SHIP_INDEX = "IslandMediator:OPEN_SHIP_INDEX"
 slot0.UPGRADE_SKILL = "IslandMediator:UPGRADE_SKILL"
 slot0.ON_GIVE_GIFT = "IslandMediator:ON_GIVE_GIFT"
@@ -544,6 +545,13 @@ slot0._register = function(slot0)
 			tickets = slot3
 		})
 	end)
+	slot0:bind(uv0.EXCHANGE_ITME, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.ISLAND_EXCHANGE_ITEM, {
+			list = slot1,
+			tempId = slot2,
+			tempCnt = slot3
+		})
+	end)
 	slot0:bind(uv0.ON_UNLOCK_TECH, function (slot0, slot1)
 		uv0:sendNotification(GAME.ISLAND_UNLOCK_TECH, {
 			techId = slot1
@@ -643,6 +651,7 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_GET_POINT_AWARD_DONE,
 		GAME.ISLAND_REMOVE_EXPIRED_TICKET_DONE,
 		GAME.ISLAND_USE_TICKET_DONE,
+		GAME.ISLAND_EXCHANGE_ITEM_DONE,
 		GAME.ISLAND_RESET_SEASON_DONE,
 		GAME.ISLAND_GET_SEASON_PT_AWARD_DONE,
 		GAME.ISLAND_CONVERT_SEASON_PT_DONE,
@@ -681,9 +690,7 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_REFRESH_SHIP_ORDER_DONE,
 		GAME.ISLAND_EXCHANGE_SHIP_ORDER_DONE,
 		GAME.ISLAND_RESET_SHIP_ORDER_DONE,
-		NotificationProxy.FRIEND_REQUEST_REMOVED,
-		NotificationProxy.FRIEND_REQUEST_ADDED,
-		PlayerProxy.UPDATED,
+		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE,
 		GAME.ISLAND_SHOP_OP_DONE,
 		GAME.ISLAND_DROPMAIN_AWARD,
 		GAME.ISLAND_CHANGE_COMMANDER_DRESS_DONE,
@@ -692,10 +699,12 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_SEND_COMMANDER_DRESS_READ_DONE,
 		GAME.ISLAND_BUY_ROLE_SKIN_COLOR_DONE,
 		GAME.ISLAND_BUY_ROLE_DRESS_COLOR_DONE,
+		PlayerProxy.UPDATED,
 		IslandSettingsPage.SELECTCUSTOMGRAPHICSETTING,
 		IslandSettingsPage.SELECTGRAPHICSETTINGLEVEL,
+		NotificationProxy.FRIEND_REQUEST_REMOVED,
+		NotificationProxy.FRIEND_REQUEST_ADDED,
 		ActivityProxy.ACTIVITY_UPDATED,
-		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE,
 		IslandShipOrderCard.EVENT_CD_END
 	}
 end
@@ -703,7 +712,7 @@ end
 slot0._handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.ISLAND_PROSPERITY_AWARD_DONE or slot2 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or slot2 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or slot2 == GAME.ISLAND_GET_ACHV_AWARD_DONE or slot2 == GAME.ISLAND_FINISH_TECH_DONE or slot2 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or slot2 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or slot2 == GAME.ISLAND_GET_POINT_AWARD_DONE or slot2 == GAME.ISLAND_SHIP_ORDER_OP_DONE or slot2 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE or slot2 == GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE then
+	if slot1:getName() == GAME.ISLAND_PROSPERITY_AWARD_DONE or slot2 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or slot2 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or slot2 == GAME.ISLAND_GET_ACHV_AWARD_DONE or slot2 == GAME.ISLAND_FINISH_TECH_DONE or slot2 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or slot2 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or slot2 == GAME.ISLAND_GET_POINT_AWARD_DONE or slot2 == GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE or slot2 == GAME.ISLAND_EXCHANGE_ITEM_DONE or slot2 == GAME.ISLAND_SHIP_ORDER_OP_DONE or slot2 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE or slot2 == GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
 	elseif slot2 == GAME.ISLAND_INVITE_SHIP_DONE then
 		slot0:HandleShipDisplay(slot3.ship)
@@ -832,7 +841,7 @@ slot0._handleNotification = function(slot0, slot1)
 		slot0.viewComponent:ShowMsgbox({
 			content = i18n("grapihcs3d_setting_common_unstuck_msgbox"),
 			onYes = function ()
-				uv0.viewComponent:emitCoreEvt(IslandProxy.RESET_SP)
+				uv0.viewComponent:emitCoreController(IslandProxy.RESET_SP)
 			end
 		})
 	end

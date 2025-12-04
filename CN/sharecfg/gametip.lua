@@ -34975,5 +34975,40 @@ cs.gametip = {
 		1202794,
 		113,
 		true
+	},
+	scenario_unlock_pt_require = {
+		1202907,
+		112,
+		true
+	},
+	scenario_unlock = {
+		1203019,
+		103,
+		true
+	},
+	vote_help_2025 = {
+		1203122,
+		4757,
+		true
+	},
+	HelenaCoreActivity_title = {
+		1207879,
+		100,
+		true
+	},
+	HelenaCoreActivity_title2 = {
+		1207979,
+		105,
+		true
+	},
+	HelenaPTPage_title = {
+		1208084,
+		94,
+		true
+	},
+	HelenaPTPage_title2 = {
+		1208178,
+		99,
+		true
 	}
 }

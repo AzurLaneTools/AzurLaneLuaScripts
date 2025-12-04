@@ -6,11 +6,15 @@ slot0.Ctor = function(slot0, slot1)
 	slot0:onRegister()
 end
 
+slot0.emitCore = function(slot0, slot1, ...)
+	slot0:GetIsland():DispatchEvent(IslandProxy.LINK_CORE, slot1, ...)
+end
+
 slot0.GetIsland = function(slot0)
 	return slot0.island
 end
 
-slot0.IsSelf = function(slot0, slot1)
+slot0.IsCurrentIsland = function(slot0, slot1)
 	return slot0.island.id == slot1
 end
 

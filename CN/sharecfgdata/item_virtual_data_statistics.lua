@@ -171286,6 +171286,31 @@ _G.pg.base.item_virtual_data_statistics[65110] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65111] = {
+	drop_gold_max = 0,
+	name = "蓝色浮光",
+	display = "用于「忆海留声」活动，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65111",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65111,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "抵抗之星纪念勋章",
@@ -176230,6 +176255,106 @@ _G.pg.base.item_virtual_data_statistics[65746] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65746,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65755] = {
+	drop_gold_max = 0,
+	name = "投票券",
+	display = "用于参加人气投票的投票次数，每轮投票结束时次数清零",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65755,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65756] = {
+	drop_gold_max = 0,
+	name = "投票券",
+	display = "用于参加人气投票的投票次数，每轮投票结束时次数清零",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65756,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65757] = {
+	drop_gold_max = 0,
+	name = "投票券",
+	display = "用于参加人气投票的投票次数，每轮投票结束时次数清零",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65757,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65758] = {
+	drop_gold_max = 0,
+	name = "投票券",
+	display = "用于参加人气投票的投票次数，每轮投票结束时次数清零（仅限AZURLANE人气投票2025预选赛阶段使用）",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65758,
 	display_icon = {},
 	price = {},
 	index = {},

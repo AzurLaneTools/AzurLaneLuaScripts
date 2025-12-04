@@ -110,7 +110,7 @@ slot3.GetBuffBulletRes = function(slot0, slot1, slot2, slot3, slot4)
 			slot6 = (not uv0[slot5] or uv0[slot5].level) and 1
 
 			if uv1 then
-				slot5 = uv1:RemapSkillId(slot5) or slot5
+				slot5 = uv1:RemapSkillId(slot5, true) or slot5
 			end
 
 			slot12 = uv5

@@ -23,4 +23,8 @@ slot0.OnNpcInteract = function(slot0)
 	})
 end
 
+slot0.OnFishingEnd = function(slot0)
+	getProxy(IslandProxy):GetIsland():GetBookAgency():OnFishingEnd(slot0)
+end
+
 return slot0

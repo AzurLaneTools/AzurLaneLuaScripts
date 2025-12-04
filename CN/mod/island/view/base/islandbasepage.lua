@@ -109,6 +109,8 @@ slot0.PlayGetShipTimeline = function(slot0, slot1, slot2)
 end
 
 slot0.OpenPage = function(slot0, slot1, ...)
+	IslandGuideChecker.CheckOnOpenPage(slot1.__cname)
+
 	return slot0.islandScene.sceneMgr:OpenPage(slot0, slot1, ...)
 end
 

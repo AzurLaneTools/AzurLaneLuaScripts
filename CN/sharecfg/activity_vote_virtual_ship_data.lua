@@ -1,5 +1,37 @@
 pg = pg or {}
-pg.activity_vote_virtual_ship_data = {
+pg.activity_vote_virtual_ship_data = setmetatable({
+	__name = "activity_vote_virtual_ship_data",
+	all = {
+		9979995,
+		9979996,
+		9979997,
+		9979998,
+		9979999,
+		9980000,
+		9990001,
+		9990002,
+		9990003,
+		9990004,
+		9990005,
+		9990006,
+		9990007,
+		9990008,
+		9990009,
+		9990010,
+		9990011,
+		9990012,
+		9990013,
+		9990014,
+		9990015,
+		9990016,
+		9990017,
+		9990018,
+		9990019,
+		9990020
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.activity_vote_virtual_ship_data = {
 	[9979995] = {
 		name = "企业·META",
 		english_name = "Enterprise.META",
@@ -8,7 +40,7 @@ pg.activity_vote_virtual_ship_data = {
 		desc = "………………………………\n——「备注」「模拟系统并未产生故障」"
 	},
 	[9979996] = {
-		name = "高雄·META",
+		name = "{namecode:66}·META",
 		english_name = "Takao.META",
 		painting = "gaoxiong_dark",
 		id = 9979996,
@@ -34,6 +66,13 @@ pg.activity_vote_virtual_ship_data = {
 		painting = "haorenlichade_alter",
 		id = 9979999,
 		desc = "——「情报缺失」「无法模拟人格对话」\n——「警告」「模拟系统产生致命错误」「模拟程序即将终止」\n▇那我就自己来说好啦▇想我了么▇指挥官▇请务必投我一票哟▇"
+	},
+	[9980000] = {
+		name = "{namecode:91}·META",
+		english_name = "Akagi META",
+		painting = "midchicheng_alter",
+		id = 9980000,
+		desc = "呵呵呵呵呵……我会注视着你，一直注视着你……"
 	},
 	[9990001] = {
 		name = "观察者",
@@ -133,25 +172,50 @@ pg.activity_vote_virtual_ship_data = {
 		id = 9990014,
 		desc = "——「54 68 65 74 6F 77 65 72 65 78 69 73 74 73 66 6F 72 65 76 65 72 2E」\n——「72 6D 2D 72 66 2F 2A」\n——「警告」「模拟系统产生致命错误」「模拟程序即将终止」"
 	},
-	all = {
-		9979995,
-		9979996,
-		9979997,
-		9979998,
-		9979999,
-		9990001,
-		9990002,
-		9990003,
-		9990004,
-		9990005,
-		9990006,
-		9990007,
-		9990008,
-		9990009,
-		9990010,
-		9990011,
-		9990012,
-		9990013,
-		9990014
+	[9990015] = {
+		name = "仲裁者·麦纪莎·I",
+		english_name = "Arbiter: The Magician I",
+		painting = "magician",
+		id = 9990015,
+		desc = "——「圣杯、权杖、宝剑、星币，外加无限的魅力——这就是魔术师，神秘是她永恒的面纱。」\n这身正装，你还喜欢么？还是说……M女士的那身穿搭要更好呢，呵呵~"
+	},
+	[9990016] = {
+		name = "仲裁者·提尔瑞特·VII",
+		english_name = "Arbiter: The Chariot VII ",
+		painting = "chariot",
+		id = 9990016,
+		desc = "——「无论天空、大地还是海洋，她都能够铸造起坚不可摧的钢铁城墙——战车，永远一往无前。」\n哟~你是哪里需要帮忙？发个坐标来，舰队随后就到~"
+	},
+	[9990017] = {
+		name = "D小姐",
+		english_name = "Miss D",
+		painting = "missd",
+		id = 9990017,
+		desc = "叮叮咚咚邦邦锵锵~！\n助手，投我投我投我~！\n——「注」「本条信息并非基于模拟产生」"
+	},
+	[9990018] = {
+		name = "星之兽？",
+		english_name = "Star Beast?",
+		painting = "unknownstar",
+		id = 9990018,
+		desc = [[
+——ÔőĂ´ťŘĘÂŁż
+——ÔőĂ´ťšÓĐÎŇľÄŃĄĎîŁż
+——Őâ¸öÍśĆąÓĐľăŔëĆ×ÁË°ÉŁż
+——「警告」「模拟系统产生致命错误」「模拟程序即将终止」]]
+	},
+	[9990019] = {
+		name = "仲裁者·沐恩·XVIII",
+		english_name = "Arbiter: The Moon XVIII",
+		painting = "moon",
+		id = 9990019,
+		desc = "——「古人不见今时月，今月曾经照古人——这就是月亮，纵使沧海桑田，她从未离开」\n我是仲裁机关沐恩，亦是战争协议玉轮，很高兴见到你，指挥官。"
+	},
+	[9990020] = {
+		name = "维序者·埃尔·ACE",
+		english_name = "Ordainer El",
+		painting = "dosair",
+		id = 9990020,
+		desc = "——指挥官，你可思考过「维序」的含义？\n——「警告」「模拟系统产生致命错误」「模拟程序即将终止」"
 	}
 }

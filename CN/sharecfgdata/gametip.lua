@@ -33724,7 +33724,7 @@ _G.pg.base.gametip.vote_lable_voting = {
 
 
 _G.pg.base.gametip.vote_lable_title = {
-	tip = "<size=36>赛程总时间</size> <size=32>2023/12/7 - 2024/2/5 24时</size>"
+	tip = "<size=36>赛程总时间</size> <size=32>2025/12/4 - 2026/2/7 24时</size>"
 }
 
 
@@ -45686,4 +45686,110 @@ _G.pg.base.gametip.dal_chapter_tip = {
 
 _G.pg.base.gametip.dal_chapter_tip2 = {
 	tip = "完成活动任务可获得奖励"
+}
+
+
+_G.pg.base.gametip.scenario_unlock_pt_require = {
+	tip = "PT达到$1点后解锁"
+}
+
+
+_G.pg.base.gametip.scenario_unlock = {
+	tip = "点击解锁后续剧情"
+}
+
+
+_G.pg.base.gametip.vote_help_2025 = {
+	tip = {
+		{
+			info = [[
+<color=#FFDD00>AZURLANE人气投票2025活动规则说明</color>
+
+活动说明：
+· 活动时间：<color=#92fc63>2025年12月4日 – 2026年2月2日24时</color>
+· 本次人气投票活动，将显示服务器合计投票情况。
+· 2023年投票活动进入决胜阶段<color=#92fc63>前三名</color>的角色，本次将加入<color=#92fc63>荣耀殿堂</color>。包括2017、2019、2021年往届荣耀殿堂角色在内，共12名角色，不参与本次投票。
+· 除12名殿堂角色外，其余<color=#92fc63>2025年10月23日前</color>加入游戏的角色将参与常规投票（方案舰角色参与常规投票；联动、META、小船角色不参与常规投票；II型、Zwei型、μ型、IF型视为与本体同一角色，不参与本次人气投票）。
+
+投票券获取方式：
+指挥官等级达到25级的玩家，可以通过以下方式获得<color=#92fc63>投票券</color>。
+除趣味投票外的其他投票阶段：
+· 活动期间，通过完成<color=#92fc63>每日任务</color>，可获得<color=#92fc63>投票券</color>。每个每日任务可获得<color=#92fc63>投票券x2</color>，每日可获得上限为20张。
+· 活动期间，通过完成<color=#92fc63>期间任务</color>，可获得<color=#92fc63>投票券</color>。每个投票阶段可通过期间任务获得的投票券数量有上限。
+	期间任务可获取投票券上限：
+		预选赛：480
+		小组赛A：200
+		小组赛B：200
+		小组赛C：200
+		小组赛D：200
+		决胜复活赛：160
+		决赛：280
+· 每轮投票结束时，剩余的<color=#92fc63>投票券</color>、<color=#92fc63>期间任务进度</color>将<color=#92fc63>重置清空</color>。
+趣味投票阶段：
+活动期间，每日登陆可获得<color=#92fc63>投票券</color>。
+
+赛程安排：
+本次投票分为以下10个阶段：
+<color=#92fc63>预选赛</color>：	2025年12月4日 维护后 - 2025年12月15日 24时
+<color=#92fc63>小组赛A</color>：	2025年12月18日 0时 - 2025年12月22日 24时
+<color=#92fc63>趣味投票一</color>：2025年12月23日 0时 - 2025年12月25日 24时
+<color=#92fc63>小组赛B</color>：	2025年12月27日 0时 - 2025年12月31日 24时
+<color=#92fc63>趣味投票二</color>：2026年1月1日 0时 - 2026年1月3日 24时
+<color=#92fc63>小组赛C</color>：	2026年1月5日 0时 - 2026年1月9日 24时
+<color=#92fc63>趣味投票三</color>：2026年1月10日 0时 - 2026年1月12日 24时
+<color=#92fc63>小组赛D</color>：	2026年1月14日 0时 - 2026年1月18日 24时
+<color=#92fc63>决胜复活赛</color>：2026年1月20日 0时 - 2026年1月23日 24时
+<color=#92fc63>决赛</color>：	2026年1月27日 0时 - 2026年2月2日 24时
+
+每轮投票结束后，将在<color=#92fc63>赛程信息</color>中展示该轮投票的统计结果。
+
+各阶段规则：
+<color=#92fc63>预选赛</color>
+<color=#92fc63>预选赛</color>投票结果仅展示角色得票排名，不展示得票数量。
+<color=#92fc63>预选赛</color>由除12名殿堂角色、联动角色、META角色、小船角色外，其他角色参加。II型、Zwei型、μ型、IF型视为与本体同一角色，不参与本次人气投票。
+<color=#92fc63>预选赛</color>获得票数排名前240名的角色，将根据排名，自动
+分成4组，每组60名角色，进入<color=#92fc63>小组赛</color>。
+
+<color=#92fc63>小组赛</color>
+<color=#92fc63>小组赛</color>由<color=#92fc63>预选赛</color>前240名的角色自动分组组成，共4个小
+组，每组60名角色。
+每个小组内获得前5名的角色，将直接进入<color=#92fc63>决赛</color>，第6至第15名的角色，将进入<color=#92fc63>决胜复活赛</color>。其余角色将被淘汰。
+
+<color=#92fc63>趣味投票</color>
+<color=#92fc63>趣味投票</color>共分为3场：塞壬、META、小船。趣味投票角色不参与常规投票。
+
+<color=#92fc63>决胜复活赛</color>
+<color=#92fc63>决胜复活赛</color>由<color=#92fc63>小组赛</color>每个小组第6名至第15名的角色参加。
+<color=#92fc63>决胜复活赛</color>中的前15名角色，将进入<color=#92fc63>决赛</color>，其余角色将被淘汰。
+
+<color=#92fc63>决赛</color>
+<color=#92fc63>决赛</color>由<color=#92fc63>小组赛</color>各小组的前5名，<color=#92fc63>决胜复活赛</color>的前15名，共35名角色参加。
+
+同票规则：
+<color=#92fc63>预选赛</color>中若出现同票情况，按照达到票数的先后处理。
+<color=#92fc63>小组赛</color>、<color=#92fc63>决胜复活赛</color>、<color=#92fc63>决赛</color>中若出现同票情况，按照<color=#92fc63>预
+选赛</color>的排名先后处理。
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_title = {
+	tip = "忆海留声"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_title2 = {
+	tip = "Memories in Echo"
+}
+
+
+_G.pg.base.gametip.HelenaPTPage_title = {
+	tip = "忆海留声"
+}
+
+
+_G.pg.base.gametip.HelenaPTPage_title2 = {
+	tip = "Memories in Echo"
 }

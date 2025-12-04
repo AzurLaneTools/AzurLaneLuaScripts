@@ -54,7 +54,7 @@ slot0.GetBlackboardVariable = function(slot0, slot1)
 
 	slot3 = slot0:GetNodeInstance()
 
-	return slot2:GetVariable(slot1).value
+	return slot2:GetVariable(slot1) and slot4.value
 end
 
 slot0.SetBlackboardVariable = function(slot0, slot1, slot2)

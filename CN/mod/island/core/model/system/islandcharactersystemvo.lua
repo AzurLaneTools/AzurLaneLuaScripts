@@ -94,7 +94,8 @@ slot0.GetperformanceObjidList = function(slot0, slot1)
 	slot4 = {
 		IslandProductConst.MinePlaceId,
 		IslandProductConst.FellingPlaceId,
-		IslandProductConst.TechnologyPlaceId
+		IslandProductConst.TechnologyPlaceId,
+		IslandProductConst.FisheryPlaceId
 	}
 
 	if table.contains({

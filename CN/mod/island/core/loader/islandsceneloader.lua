@@ -23,6 +23,13 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 		end,
 		function (slot0)
 			onNextTick(slot0)
+		end,
+		function (slot0)
+			IslandHelper.RunGC(true)
+			onNextTick(slot0)
+		end,
+		function (slot0)
+			onNextTick(slot0)
 		end
 	}
 
@@ -31,7 +38,6 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	seriesAsync(slot5, function ()
-		gcAll(true)
 		uv0:UnloadProgressUI()
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)

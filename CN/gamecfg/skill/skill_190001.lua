@@ -22,8 +22,8 @@ return {
 			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerMainFleet",
-				"TargetRandom",
-				"TargetShipType"
+				"TargetShipType",
+				"TargetRandom"
 			},
 			arg_list = {
 				buff_id = 190002,

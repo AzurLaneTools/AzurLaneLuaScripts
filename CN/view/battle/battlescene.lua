@@ -400,7 +400,7 @@ slot0.didEnter = function(slot0)
 		uv0:emit(BattleMediator.ON_PAUSE)
 	end, SFX_CONFIRM)
 
-	slot0._chatBtn = slot0._tf:Find("chatBtn")
+	slot0._chatBtn = slot0._tf:Find("chatBtnContainer/chatBtn")
 	slot2 = slot0._chatBtn:GetComponent(typeof(Animation))
 
 	onButton(slot0, slot0._chatBtn, function ()

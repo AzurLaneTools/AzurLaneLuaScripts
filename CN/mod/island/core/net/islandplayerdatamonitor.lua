@@ -2,7 +2,7 @@ slot0 = class("IslandPlayerDataMonitor", import(".IslandBaseMonitor"))
 
 slot0.register = function(slot0)
 	slot0:on(21206, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
@@ -11,14 +11,14 @@ slot0.register = function(slot0)
 		end
 	end)
 	slot0:on(21309, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:HandleAgoraData(slot0.update_data)
 	end)
 	slot0:on(21407, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
@@ -53,63 +53,63 @@ slot0.register = function(slot0)
 		uv0:HandleSignInNotify(slot0)
 		getProxy(IslandProxy):UpdateGiftTagCache(slot0.island_id, slot0.gift_count, slot0.gift_timestamp)
 
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:HandleSignInData(slot0)
 	end)
 	slot0:on(21528, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:HandleWildGatherInData(slot0)
 	end)
 	slot0:on(21535, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:HandleWildCollectInData(slot0)
 	end)
 	slot0:on(21227, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:HandleAbilityData(slot0)
 	end)
 	slot0:on(21225, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:SyncStartManage(slot0)
 	end)
 	slot0:on(21220, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:SyncStartDelegation(slot0)
 	end)
 	slot0:on(21226, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:SyncEndDelegation(slot0)
 	end)
 	slot0:on(21222, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:SyncResetSlotData(slot0)
 	end)
 	slot0:on(21221, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
@@ -122,19 +122,50 @@ slot0.register = function(slot0)
 		uv0:AddChatMsg(slot0)
 	end)
 	slot0:on(21228, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:UpdateActivityNpc(slot0)
 	end)
 	slot0:on(21224, function (slot0)
-		if not uv0:IsSelf(slot0.island_id) then
+		if not uv0:IsCurrentIsland(slot0.island_id) then
 			return
 		end
 
 		uv0:UpdatePlayerDressupData(slot0)
 	end)
+	slot0:on(21232, function (slot0)
+		if not uv0:IsCurrentIsland(slot0.island_id) then
+			return
+		end
+
+		uv0:HandFishingStart(slot0)
+	end)
+	slot0:on(21233, function (slot0)
+		if not uv0:IsCurrentIsland(slot0.island_id) then
+			return
+		end
+
+		uv0:HandFishingStateChange(slot0)
+	end)
+end
+
+slot0.HandFishingStart = function(slot0, slot1)
+	slot0:emitCore(ISLAND_EVT.START_FISHING, {
+		unitId = slot1.user_id,
+		fishPointId = slot1.point_id,
+		rodId = slot1.rod_id,
+		fishId = slot1.fish_id
+	})
+end
+
+slot0.HandFishingStateChange = function(slot0, slot1)
+	slot0:emitCore(ISLAND_EVT.FISHING_STATE_CHANGE, {
+		unitId = slot1.user_id,
+		fishPointId = slot1.point_id,
+		op = slot1.type
+	})
 end
 
 slot0.HandleAgoraData = function(slot0, slot1)
@@ -240,6 +271,20 @@ slot0.HandleManageData = function(slot0, slot1)
 	end
 end
 
+slot0.SyncStartManage = function(slot0, slot1)
+	if not getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurant(slot1.trade.id) then
+		slot2:UnlockNewRestaurant(slot3.id)
+
+		slot4 = slot2:GetRestaurant(slot3.id)
+	end
+
+	slot4:UpdateData(slot3)
+	getProxy(IslandProxy):GetSharedIsland():DispatchEvent(IslandOpenRestaurantCommand.OPEN_RESTAURANT, {
+		restId = slot4.id,
+		postList = slot3.post_list
+	})
+end
+
 slot0.HandleAchievementData = function(slot0, slot1)
 	slot2 = getProxy(IslandProxy):GetIsland():GetAchievementAgency()
 
@@ -283,7 +328,7 @@ slot0.HandleSignInNotify = function(slot0, slot1)
 			time = pg.TimeMgr.GetInstance():GetServerTime()
 		})
 
-		if slot0:IsSelf(slot1.island_id) then
+		if slot0:IsCurrentIsland(slot1.island_id) then
 			slot0:GetIsland():GetSignInAgency():AddInviter(getProxy(PlayerProxy):getRawData().id)
 		end
 
@@ -307,20 +352,6 @@ slot0.HandleAbilityData = function(slot0, slot1)
 	slot2:GetAblityAgency():AddAblity(slot1.ability_id)
 end
 
-slot0.SyncStartManage = function(slot0, slot1)
-	if not getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurant(slot1.trade.id) then
-		slot2:UnlockNewRestaurant(slot3.id)
-
-		slot4 = slot2:GetRestaurant(slot3.id)
-	end
-
-	slot4:UpdateData(slot3)
-	getProxy(IslandProxy):GetSharedIsland():DispatchEvent(IslandOpenRestaurantCommand.OPEN_RESTAURANT, {
-		restId = slot4.id,
-		postList = slot3.post_list
-	})
-end
-
 slot0.SyncStartDelegation = function(slot0, slot1)
 	slot2 = slot0:GetIsland()
 	slot5 = pg.island_production_slot[slot1.appoint_data.id].place
@@ -329,7 +360,8 @@ slot0.SyncStartDelegation = function(slot0, slot1)
 	slot2:DispatchEvent(IslandStartDelegationCommand.START_DELEGATION, {
 		build_id = slot5,
 		ship_id = slot1.appoint_data.ship_id,
-		area_id = slot1.appoint_data.id
+		area_id = slot1.appoint_data.id,
+		formula_id = slot1.appoint_data.formula_id
 	})
 end
 

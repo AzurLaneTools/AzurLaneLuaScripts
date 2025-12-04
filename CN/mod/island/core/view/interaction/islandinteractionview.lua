@@ -91,7 +91,10 @@ slot0.AddTimer = function(slot0, slot1, slot2)
 end
 
 slot0.RemoveTimers = function(slot0)
-	for slot4, slot5 in pairs(slot0.timers) do
+	slot1 = pairs
+	slot2 = slot0.timers or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:Stop()
 	end
 

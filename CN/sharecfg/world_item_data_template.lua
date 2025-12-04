@@ -944,7 +944,7 @@ pg.world_item_data_template = {
 		item_transform_item_id = 0,
 		item_transform_item_number = 0,
 		log_text = "",
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "解析后可以获得一系列档案任务，前往对应海域完成任务可回收总计10份档案（150-4、151-5至151-6、180-1、190-1至190-6）。<color=#ff5c5c>该物品仅能购买1次，不会随大型作战周期性重置而重置，购买后将会自动使用。档案任务同一时间只能接取一组。</color>",
 		icon = "Props/Wdanganluopan9",
 		sort_priority = 1,
 		usage = "usage_undefined",

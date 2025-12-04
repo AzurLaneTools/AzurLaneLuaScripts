@@ -419,7 +419,7 @@ slot0.ExcessDymPainting = function(slot0, slot1)
 		end
 	elseif slot3 < #slot4 then
 		gcAll(false)
-	elseif uv2 >= 10 then
+	elseif uv2 >= 5 then
 		gcAll(false)
 	end
 end

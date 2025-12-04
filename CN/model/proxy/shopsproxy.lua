@@ -564,7 +564,10 @@ slot0.GetAllShowGiftPackages = function(slot0, slot1)
 		end
 	end
 
-	for slot9, slot10 in pairs(pg.shop_template.get_id_list_by_genre[ShopArgs.GiftPackage]) do
+	slot6 = pairs
+	slot7 = pg.shop_template.get_id_list_by_genre[ShopArgs.GiftPackage] or {}
+
+	for slot9, slot10 in slot6(slot7) do
 		slot12 = pg.shop_template[slot10].akashi_pick > 0
 
 		if (slot1 == nil or slot12 == slot1) and not table.contains(slot3, slot10) then
@@ -574,7 +577,10 @@ slot0.GetAllShowGiftPackages = function(slot0, slot1)
 		end
 	end
 
-	for slot9, slot10 in pairs(pg.shop_template.get_id_list_by_genre[ShopArgs.GiftActPackage]) do
+	slot6 = pairs
+	slot7 = pg.shop_template.get_id_list_by_genre[ShopArgs.GiftActPackage] or {}
+
+	for slot9, slot10 in slot6(slot7) do
 		slot12 = pg.shop_template[slot10].akashi_pick > 0
 
 		if (slot1 == nil or slot12 == slot1) and not table.contains(slot3, slot10) then

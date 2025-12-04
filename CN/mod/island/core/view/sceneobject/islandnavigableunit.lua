@@ -236,6 +236,8 @@ slot0.PlayAnimation = function(slot0, slot1, slot2, slot3)
 	end
 
 	if slot3 then
+		slot0:ClearSatetCallback()
+
 		slot0.stateCallback = {
 			state = slot1,
 			callback = slot3
@@ -251,8 +253,8 @@ slot0.CheckAnimationState = function(slot0)
 	end
 
 	if slot0.endTime and slot0.endTime <= slot0:GetElapsedTime() then
-		slot2()
 		slot0:ClearSatetCallback()
+		slot2()
 	end
 end
 

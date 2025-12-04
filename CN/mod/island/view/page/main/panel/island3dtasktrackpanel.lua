@@ -114,7 +114,7 @@ slot0.RemoveTask = function(slot0, slot1)
 	slot0.otherTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
 
 	if not slot0.mainTask and not slot0.otherTask then
-		slot0.uiAnim:Play("Island3dTaskTrackPanel_out")
+		slot0:Hide()
 	end
 end
 

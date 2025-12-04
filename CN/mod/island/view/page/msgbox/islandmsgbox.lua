@@ -158,6 +158,10 @@ slot0.HideWindow = function(slot0, slot1)
 	end
 
 	if slot1 then
+		if slot1.onHide then
+			slot1.onHide()
+		end
+
 		setActive(slot1._tf, false)
 	end
 

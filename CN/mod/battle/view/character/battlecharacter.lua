@@ -1001,9 +1001,29 @@ slot6.AddModel = function(slot0, slot1)
 			uv0:OnAnimatorEnd()
 		elseif slot0 == "action" then
 			uv0:OnAnimatorTrigger()
+		else
+			uv0:changeOrbitListVisible(slot0)
 		end
 	end)
 	slot0._unitData:RegisterEventListener(slot0, uv1.CHANGE_ACTION, slot0.OnActionChange)
+end
+
+slot6.changeOrbitListVisible = function(slot0, slot1)
+	slot2 = nil
+
+	if slot1 == "skin_on" then
+		slot2 = true
+	elseif slot1 == "skin_off" then
+		slot2 = false
+	else
+		return
+	end
+
+	if slot0._orbitList then
+		for slot6, slot7 in pairs(slot0._orbitList) do
+			SetActive(slot6, slot2)
+		end
+	end
 end
 
 slot6.SwitchModel = function(slot0, slot1, slot2)
@@ -1037,6 +1057,8 @@ slot6.SwitchModel = function(slot0, slot1, slot2)
 			uv0:OnAnimatorEnd()
 		elseif slot0 == "action" then
 			uv0:OnAnimatorTrigger()
+		else
+			uv0:changeAttachLListVisible(slot0)
 		end
 	end)
 	slot0:SwitchShader(slot0._shaderType, slot0._color)
@@ -1295,7 +1317,7 @@ slot6.IsDoubleChar = function(slot0)
 	if slot0._skeleton then
 		slot2 = slot0._skeleton.skeleton:FindBoneIndex("char2_face")
 
-		if slot0._skeleton.skeleton:FindBoneIndex("char1_face") >= 0 or slot2 >= 0 then
+		if slot0._skeleton.skeleton:FindBoneIndex("char1_face") >= 0 and slot2 >= 0 then
 			return true
 		end
 	end

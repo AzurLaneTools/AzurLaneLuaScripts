@@ -3,6 +3,7 @@ slot0.OperationType = {
 	Plant = 2,
 	MiningCollect = 3,
 	FellCollect = 6,
+	Fishing = 7,
 	Harvest = 4,
 	Interaction = 1,
 	WildGather = 5,
@@ -30,7 +31,8 @@ slot0.OnInit = function(slot0, slot1)
 		slot0.opBtn:Find("miningCollect"),
 		slot0.opBtn:Find("harvest"),
 		slot0.opBtn:Find("wildgather"),
-		slot0.opBtn:Find("fellCollect")
+		slot0.opBtn:Find("fellCollect"),
+		slot0.opBtn:Find("fishing")
 	}
 	slot0.seedBtn = slot0.opPanel:Find("seed")
 	slot0.seedEmpty = slot0.seedBtn:Find("seedEmpty")
@@ -40,11 +42,16 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.animationOpBtn = slot0.opPanel:Find("aniamtionop")
 	slot0.animationOpEffect = slot0.animationOpBtn:Find("effect")
 	slot0.followerBtn = slot0.opPanel:Find("follower")
+	slot0.lureBtn = slot0.opPanel:Find("lure")
+	slot0.lureEmptyTr = slot0.lureBtn:Find("empty")
+	slot0.lureIconTr = slot0.lureBtn:Find("icon")
+	slot0.lureIconTxt = slot0.lureBtn:Find("icon/count"):GetComponent(typeof(Text))
 	slot0.animationOpEffectCounter = {}
 	slot0.uiFollowerPanel = slot0.followerBtn:Find("list")
 	slot0.uiFollowerList = UIItemList.New(slot0.uiFollowerPanel, slot0.followerBtn:GetComponent(typeof(ItemList)).prefabItem[0])
 
 	setActive(slot0.opPanel, true)
+	setActive(slot0.lureBtn, false)
 	onButton(slot0, slot0.areaChangeBtn, function ()
 		uv0:NotifiyCore(ISLAND_EVT.AREACHANGE)
 	end, SFX_PANEL)
@@ -69,6 +76,28 @@ slot0.OnInit = function(slot0, slot1)
 	slot0:InitOpCustumPositon()
 	slot0:UpdateFollowBtn()
 	slot0:UpdateAnimationOpBtn()
+	slot0:UpdateLureBtn()
+end
+
+slot0.UpdateLureBtn = function(slot0)
+	slot1 = slot0:GetSelfIsland()
+
+	setActive(slot0.lureEmptyTr, slot1:GetInventoryAgency():GetOwnCount(slot1:GetFishingAgency():GetBaitId()) <= 0)
+	setActive(slot0.lureIconTr, slot5 > 0)
+
+	if slot5 > 0 then
+		GetImageSpriteFromAtlasAsync("island/" .. slot4:GetItemById(slot3):GetIcon(), "", slot0.lureIconTr)
+
+		slot0.lureIconTxt.text = ""
+	end
+
+	onButton(slot0, slot0.lureBtn, function ()
+		if #uv0:GetFishingItems() <= 0 then
+			return
+		end
+
+		uv1:CreateSubView(IslandSelectLureOpView):Execute("Show")
+	end, SFX_PANEL)
 end
 
 slot0.LaterInit = function(slot0)
@@ -171,6 +200,8 @@ slot0.InitOpCustumPositon = function(slot0)
 		slot13 = IslandSettingsConst.OPERATION_DEFAULT_PREFERENCE[slot11]
 		slot12.anchoredPosition = Vector2(PlayerPrefs.GetFloat(IslandSettingsConst.ISLAND_KEY_OPERATION_ANCHORX[slot11], slot13.x) * slot2, PlayerPrefs.GetFloat(IslandSettingsConst.ISLAND_KEY_OPERATION_ANCHORY[slot11], slot13.y) * slot3)
 	end
+
+	slot0.lureBtn.anchoredPosition = slot0.seedBtn.anchoredPosition
 end
 
 slot0.UpdateOperationButton = function(slot0, slot1, slot2)
@@ -188,15 +219,7 @@ slot0.UpdateOperationButton = function(slot0, slot1, slot2)
 end
 
 slot0.UpdateOperationButtonDisplay = function(slot0)
-	if slot0.operationType == uv0.OperationType.None then
-		setActive(slot0.opBtn, false)
-		setActive(slot0.areaChangeBtn, false)
-		setActive(slot0.seedBtn, false)
-		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedSelect(false)
-		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedDetals(false)
-
-		return
-	end
+	setActive(slot0.lureBtn, false)
 
 	OptionBtnDisplay = function(slot0)
 		for slot4, slot5 in ipairs(uv0.opBtnList) do
@@ -204,7 +227,20 @@ slot0.UpdateOperationButtonDisplay = function(slot0)
 		end
 	end
 
-	if not slot0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, slot0.unitId) then
+	if slot0.operationType == uv0.OperationType.None then
+		setActive(slot0.opBtn, false)
+		setActive(slot0.areaChangeBtn, false)
+		setActive(slot0.seedBtn, false)
+		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedSelect(false)
+		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedDetals(false)
+		OptionBtnDisplay(slot0.operationType)
+
+		return
+	end
+
+	slot1 = slot0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, slot0.unitId)
+
+	if slot0.operationType ~= uv0.OperationType.Fishing and not slot1 then
 		setActive(slot0.opBtn, false)
 		setActive(slot0.areaChangeBtn, false)
 		setActive(slot0.seedBtn, false)
@@ -336,6 +372,17 @@ slot0.UpdateOperationButtonDisplay = function(slot0)
 		end,
 		[uv0.OperationType.FellCollect] = function ()
 			uv0()
+		end,
+		[uv0.OperationType.Fishing] = function ()
+			OptionBtnDisplay(uv0.operationType)
+			setActive(uv0.lureBtn, true)
+			onButton(uv0, uv0.opBtn, function ()
+				if uv0:GetSelfIsland():GetInventoryAgency():GetOwnCount(uv0:GetSelfIsland():GetFishingAgency():GetBaitId()) <= 0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("island_fishing_lure_empty"))
+				elseif uv0:GetView().player:OnGrouded() then
+					uv0:CreateSubView(IslandFishingOPView):Execute("Show", uv0.unitId, uv0.opBtn.localPosition)
+				end
+			end, SFX_PANEL)
 		end
 	})
 end

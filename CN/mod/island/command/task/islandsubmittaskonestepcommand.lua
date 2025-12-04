@@ -25,8 +25,7 @@ slot0.execute = function(slot0, slot1)
 				slot1:AddFinishId(slot7)
 			end
 
-			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK)
-			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK_TYPE_PLUS)
+			IslandTaskHelper.OnSubmitTask(uv0)
 			slot1:TryAcceptAutoTasks()
 			uv1:sendNotification(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, {
 				dropData = IslandDropHelper.AddItems(slot0, slot2),
