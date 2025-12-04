@@ -7,6 +7,7 @@ slot0.TASK_FINISH = "IslandTaskAgency.TASK_FINISH"
 
 slot0.OnInit = function(slot0, slot1)
 	slot2 = slot1.task_info or {}
+	slot0.finishedDailyCntInWeek = slot2.week_daily_task_num or 0
 	slot0.traceId = slot2.focus_id or 0
 	slot0.finishedIds = slot2.task_id_list_finish or {}
 	slot0.tasks = {}
@@ -87,10 +88,16 @@ slot0.IsFinishTask = function(slot0, slot1)
 	return table.contains(slot0.finishedIds, slot1)
 end
 
-slot0.GetFinishCntByType = function(slot0, slot1)
+slot0.GetFinishCntByType = function(slot0, slot1, slot2)
 	return underscore.reduce(slot0.finishedIds, 0, function (slot0, slot1)
-		return slot0 + (pg.island_task[slot1].type == uv0 and 1 or 0)
+		slot2 = pg.island_task[slot1]
+
+		return slot0 + ((not uv0 or slot2.count_offset == 1) and slot2.type == uv1 and 1 or 0)
 	end)
+end
+
+slot0.GetFinishedDailyCntInWeek = function(slot0)
+	return slot0.finishedDailyCntInWeek
 end
 
 slot0.IsPassId = function(slot0, slot1)
@@ -281,6 +288,11 @@ end
 
 slot0.AddFinishId = function(slot0, slot1)
 	table.insert(slot0.finishedIds, slot1)
+
+	if pg.island_task[slot1].type == IslandTaskType.DAILY and slot2.count_offset == 1 then
+		slot0.finishedDailyCntInWeek = slot0.finishedDailyCntInWeek + 1
+	end
+
 	slot0:DispatchEvent(uv0.TASK_FINISH)
 end
 
@@ -297,6 +309,10 @@ slot0.RemoveFutureTask = function(slot0, slot1)
 end
 
 slot0.UpdatePerDay = function(slot0)
+	if pg.TimeMgr.GetInstance():GetServerWeek() == 1 then
+		slot0.finishedDailyCntInWeek = 0
+	end
+
 	pg.m02:sendNotification(GAME.ISLAND_GET_RANDOM_REFRESH_TASK)
 end
 

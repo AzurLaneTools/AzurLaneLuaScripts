@@ -5549,6 +5549,505 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[321] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 VOICE#1",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG1",
+		change_bgm = "bgm-waterwave",
+		id = 321,
+		lock = ""
+	},
+	[322] = {
+		story_type = 1,
+		name = "EP1-1 VOICE#2",
+		change_prefab = "",
+		unlock_conditions = "EPS-1をクリア ",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG2",
+		change_bgm = "bgm-waterwave",
+		id = 322,
+		pre_event = {
+			321
+		},
+		lock = {
+			{
+				4,
+				321
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					0
+				}
+			}
+		}
+	},
+	[323] = {
+		story_type = 1,
+		name = "EP1-2 VOICE#3",
+		change_prefab = "",
+		unlock_conditions = "EP1-1をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG3",
+		change_bgm = "bgm-waterwave",
+		id = 323,
+		pre_event = {
+			322
+		},
+		lock = {
+			{
+				4,
+				322
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					0
+				}
+			}
+		}
+	},
+	[324] = {
+		story_type = 1,
+		name = "EP1-3 VOICE#4",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "EP1-2をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG4",
+		change_bgm = "bgm-waterwave",
+		id = 324,
+		pre_event = {
+			323
+		},
+		lock = {
+			{
+				4,
+				323
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					200
+				}
+			}
+		}
+	},
+	[325] = {
+		story_type = 1,
+		name = "EP1-4 VOICE#5",
+		change_prefab = "",
+		unlock_conditions = "EP1-3をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG5",
+		change_bgm = "bgm-waterwave",
+		id = 325,
+		pre_event = {
+			324
+		},
+		lock = {
+			{
+				4,
+				324
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					200
+				}
+			}
+		}
+	},
+	[326] = {
+		story_type = 1,
+		name = "EPS-2 VOICE#6",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "EP1-4をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG6",
+		change_bgm = "bgm-waterwave",
+		id = 326,
+		pre_event = {
+			325
+		},
+		lock = {
+			{
+				4,
+				325
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					350
+				}
+			}
+		}
+	},
+	[327] = {
+		story_type = 1,
+		name = "EP2-1 VOICE#7",
+		change_prefab = "",
+		unlock_conditions = "EPS-2をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG7",
+		change_bgm = "bgm-waterwave",
+		id = 327,
+		pre_event = {
+			326
+		},
+		lock = {
+			{
+				4,
+				326
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					350
+				}
+			}
+		}
+	},
+	[328] = {
+		story_type = 1,
+		name = "EP3-1 VOICE#8",
+		change_prefab = "",
+		unlock_conditions = "EP2-1をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG8",
+		change_bgm = "bgm-waterwave",
+		id = 328,
+		pre_event = {
+			326
+		},
+		lock = {
+			{
+				4,
+				327
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					350
+				}
+			}
+		}
+	},
+	[329] = {
+		story_type = 1,
+		name = "EP2-2 VOICE#9",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "EP3-1をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG9",
+		change_bgm = "bgm-waterwave",
+		id = 329,
+		pre_event = {
+			327
+		},
+		lock = {
+			{
+				4,
+				328
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					500
+				}
+			}
+		}
+	},
+	[330] = {
+		story_type = 1,
+		name = "EP3-2 VOICE#10",
+		change_prefab = "",
+		unlock_conditions = "EP2-2をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG10",
+		change_bgm = "bgm-waterwave",
+		id = 330,
+		pre_event = {
+			328
+		},
+		lock = {
+			{
+				4,
+				329
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					500
+				}
+			}
+		}
+	},
+	[331] = {
+		story_type = 1,
+		name = "EP2-3 VOICE#11",
+		change_prefab = "",
+		unlock_conditions = "EP3-2をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG11",
+		change_bgm = "bgm-waterwave",
+		id = 331,
+		pre_event = {
+			329
+		},
+		lock = {
+			{
+				4,
+				330
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					500
+				}
+			}
+		}
+	},
+	[332] = {
+		story_type = 1,
+		name = "EP3-3 VOICE#12",
+		change_prefab = "",
+		unlock_conditions = "EP2-3をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG12",
+		change_bgm = "bgm-waterwave",
+		id = 332,
+		pre_event = {
+			330
+		},
+		lock = {
+			{
+				4,
+				331
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					500
+				}
+			}
+		}
+	},
+	[333] = {
+		story_type = 1,
+		name = "EP2-4 VOICE#13",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "EP3-3をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG13",
+		change_bgm = "bgm-waterwave",
+		id = 333,
+		pre_event = {
+			331
+		},
+		lock = {
+			{
+				4,
+				332
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					650
+				}
+			}
+		}
+	},
+	[334] = {
+		story_type = 1,
+		name = "EP3-4 VOICE#14",
+		change_prefab = "",
+		unlock_conditions = "EP2-4をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG14",
+		change_bgm = "bgm-waterwave",
+		id = 334,
+		pre_event = {
+			332
+		},
+		lock = {
+			{
+				4,
+				333
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					650
+				}
+			}
+		}
+	},
+	[335] = {
+		story_type = 1,
+		name = "EP2-5 VOICE#15",
+		change_prefab = "",
+		unlock_conditions = "EP3-4をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG15",
+		change_bgm = "bgm-waterwave",
+		id = 335,
+		pre_event = {
+			333
+		},
+		lock = {
+			{
+				4,
+				334
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					650
+				}
+			}
+		}
+	},
+	[336] = {
+		story_type = 1,
+		name = "EP3-5 VOICE#16",
+		change_prefab = "",
+		unlock_conditions = "EP2-5をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG16",
+		change_bgm = "bgm-waterwave",
+		id = 336,
+		pre_event = {
+			334
+		},
+		lock = {
+			{
+				4,
+				335
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					650
+				}
+			}
+		}
+	},
+	[337] = {
+		story_type = 1,
+		name = "EPS-3 VOICE#17",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "EP3-5をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG17",
+		change_bgm = "bgm-waterwave",
+		id = 337,
+		pre_event = {
+			335,
+			336
+		},
+		lock = {
+			{
+				4,
+				336
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					1000
+				}
+			}
+		}
+	},
+	[338] = {
+		story_type = 1,
+		name = "EPS-4 VOICE#18",
+		change_prefab = "",
+		unlock_conditions = "EPS-3をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG18",
+		change_bgm = "bgm-waterwave",
+		id = 338,
+		pre_event = {
+			337
+		},
+		lock = {
+			{
+				4,
+				337
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					1000
+				}
+			}
+		}
+	},
+	[339] = {
+		story_type = 1,
+		name = "EPS-5 VOICE#19",
+		change_prefab = "",
+		unlock_conditions = "EPS-4をクリア",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG19",
+		change_bgm = "bgm-waterwave",
+		id = 339,
+		pre_event = {
+			338
+		},
+		lock = {
+			{
+				4,
+				338
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					1000
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -5844,6 +6343,25 @@ pg.activity_sp_story = {
 		316,
 		317,
 		318,
-		319
+		319,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
+		338,
+		339
 	}
 }

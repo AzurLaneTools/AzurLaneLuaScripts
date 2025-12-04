@@ -206,6 +206,10 @@ slot0._TriggerEvent = function(slot0, slot1)
 	end
 end
 
+slot0.SetShift = function(slot0, slot1)
+	slot0._shift = slot1
+end
+
 slot0.TriggerEvent = function(slot0, slot1)
 	if slot0.isDragAndZoomState then
 		return

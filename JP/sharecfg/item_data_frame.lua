@@ -603,6 +603,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2023」殿堂入りページで入手可能",
 		scene = {}
 	},
+	[424] = {
+		name = "殿堂入り：武蔵",
+		gain_by = "",
+		time_second = 0,
+		id = 424,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2025」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[426] = {
+		name = "殿堂入り：大鳳",
+		gain_by = "",
+		time_second = 0,
+		id = 426,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2025」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[429] = {
+		name = "殿堂入り：雲仙",
+		gain_by = "",
+		time_second = 0,
+		id = 429,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2025」殿堂入りページで入手可能",
+		scene = {}
+	},
 	[501] = {
 		name = "饅頭ピザ屋記念枠",
 		gain_by = "",
@@ -968,6 +995,9 @@ pg.item_data_frame = {
 		416,
 		418,
 		419,
+		424,
+		426,
+		429,
 		501,
 		601,
 		602,

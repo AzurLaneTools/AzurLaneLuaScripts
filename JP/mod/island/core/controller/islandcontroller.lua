@@ -117,6 +117,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandProxy.ACTIVE_OR_DISABLE_UNIT, slot0.OnActiveOrDisableUnit)
 	slot0:AddIslandListener(IslandProxy.LINK_CORE, slot0.OnLinkCore)
 	slot0:AddIslandListener(IslandBuildingAgency.GEN_ANIMAL_INT, slot0.OnAnimalInit)
+	slot0:AddIslandListener(IslandBuildingAgency.SLOT_DELEGATE_INIT, slot0.OnSlotDelegateInit)
 	slot0:AddIslandListener(IslandNpcFeedbackAgency.NPC_ACTION_CHANGE, slot0.OnNpcActionFeedBackChange)
 	slot0:AddIslandListener(IslandNpcFeedbackAgency.RESET_NPC_ACTIONS, slot0.OnResetNpcActionFeedback)
 	slot0:AddIslandListener(IslandFollowerAgency.ADD_FOLLOWER, slot0.OnAddFollower)
@@ -130,6 +131,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandProxy.LOCK_NPC_REFRESH, slot0.OnLockNpcRefresh)
 	slot0:AddIslandListener(IslandProxy.RELEASE_NPC_REFRESH, slot0.OnReleaseNpcRefresh)
 	slot0:AddIslandListener(IslandProxy.RESET_SP, slot0.OnResetSp)
+	slot0:AddIslandListener(IslandFishingAgency.BAIT_UPDATE, slot0.OnBaitUpdate)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -166,6 +168,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandProxy.ACTIVE_OR_DISABLE_UNIT, slot0.OnActiveOrDisableUnit)
 	slot0:RemoveIslandListener(IslandProxy.LINK_CORE, slot0.OnLinkCore)
 	slot0:RemoveIslandListener(IslandBuildingAgency.GEN_ANIMAL_INT, slot0.OnAnimalInit)
+	slot0:RemoveIslandListener(IslandBuildingAgency.SLOT_DELEGATE_INIT, slot0.OnSlotDelegateInit)
 	slot0:RemoveIslandListener(IslandNpcFeedbackAgency.NPC_ACTION_CHANGE, slot0.OnNpcActionFeedBackChange)
 	slot0:RemoveIslandListener(IslandNpcFeedbackAgency.RESET_NPC_ACTIONS, slot0.OnResetNpcActionFeedback)
 	slot0:RemoveIslandListener(IslandFollowerAgency.ADD_FOLLOWER, slot0.OnAddFollower)
@@ -179,6 +182,11 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandProxy.LOCK_NPC_REFRESH, slot0.OnLockNpcRefresh)
 	slot0:RemoveIslandListener(IslandProxy.RELEASE_NPC_REFRESH, slot0.OnReleaseNpcRefresh)
 	slot0:RemoveIslandListener(IslandProxy.RESET_SP, slot0.OnResetSp)
+	slot0:RemoveIslandListener(IslandFishingAgency.BAIT_UPDATE, slot0.OnBaitUpdate)
+end
+
+slot0.OnBaitUpdate = function(slot0, slot1)
+	slot0:NotifiyCore(ISLAND_EVT.BAIT_UPDATE, slot1)
 end
 
 slot0.OnResetSp = function(slot0)
@@ -486,11 +494,31 @@ slot0.OnStartDelegation = function(slot0, slot1)
 		end
 	end
 
-	if slot2:GetUnit(slot1.ship_id, slot1.area_id, true) then
-		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot4)
+	slot4 = {}
+
+	if table.contains(IslandProductConst.havePerformPlace, slot1.build_id) then
+		slot9 = slot1.formula_id
+		slot4.commissionSlotId = slot3:GetCommissionSlotId(slot1.area_id)
+		slot4.unitIds = {}
+
+		for slot9, slot10 in ipairs(slot3:GetDelegateUnitsByBuildIdAndSlotId(slot1.build_id, slot1.area_id, slot9)) do
+			table.insert(slot4.unitIds, slot10.id)
+		end
+
+		for slot9, slot10 in ipairs(slot5) do
+			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot10)
+		end
 	end
 
-	slot0:NotifiyCore(ISLAND_EVT.START_DEGATION, slot1, slot3)
+	if slot3:GetDelegateEffectsByCommissonId(slot1.area_id) and slot3:GenUnitByDelegateEffectId(slot5) then
+		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot6)
+	end
+
+	if slot2:GetUnit(slot1.ship_id, slot1.area_id, true) then
+		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot6)
+	end
+
+	slot0:NotifiyCore(ISLAND_EVT.START_DEGATION, slot1, slot4)
 end
 
 slot0.OnEndDelegation = function(slot0, slot1)
@@ -514,10 +542,6 @@ slot0.OnEndDelegation = function(slot0, slot1)
 		slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_DELEGATION, slot3)
 	end
 
-	if slot1.remainReward then
-		return
-	end
-
 	slot4 = nil
 
 	for slot8, slot9 in ipairs(slot0.sceneData.productSystems) do
@@ -528,10 +552,24 @@ slot0.OnEndDelegation = function(slot0, slot1)
 		end
 	end
 
+	if table.contains(IslandProductConst.havePerformPlace, slot1.build_id) then
+		for slot9, slot10 in ipairs(slot4:GetDelegatUnitsBySlotId(slot1.area_id)) do
+			slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_DELEGATE_UNIT, slot10)
+		end
+	end
+
+	if slot4:GetDelegateEffectsByCommissonId(slot1.area_id) then
+		slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot5)
+	end
+
+	if slot1.remainReward then
+		return
+	end
+
 	if table.contains(IslandProductConst.PlantPlaceIdLists, slot1.build_id) then
-		for slot9, slot10 in ipairs(pg.island_production_slot[slot1.area_id].exclusion_slot) do
-			slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot4:GetUnitIdBySlotId(slot10))
-			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot4:GenHandPlantUnitBySlotData(slot10))
+		for slot10, slot11 in ipairs(pg.island_production_slot[slot1.area_id].exclusion_slot) do
+			slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot4:GetUnitIdBySlotId(slot11))
+			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot4:GenHandPlantUnitBySlotData(slot11))
 		end
 	end
 end
@@ -803,6 +841,27 @@ slot0.OnAnimalInit = function(slot0, slot1)
 
 	for slot7, slot8 in ipairs(slot1.aniList) do
 		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot2:GenAnimalByAnialConfig(slot8, slot3))
+	end
+end
+
+slot0.OnSlotDelegateInit = function(slot0, slot1)
+	slot3 = pg.island_production_slot[slot1.slotId].place
+	slot4 = nil
+
+	for slot8, slot9 in ipairs(slot0.sceneData.productSystems) do
+		if slot9.id == slot3 then
+			slot4 = slot9
+
+			break
+		end
+	end
+
+	if not slot4 then
+		return
+	end
+
+	if pg.island_production_commission[slot4:GetCommissionSlotId(slot2)].unlockObjid ~= 0 then
+		slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot7)
 	end
 end
 

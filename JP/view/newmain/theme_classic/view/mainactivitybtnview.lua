@@ -182,9 +182,16 @@ slot0.Flush = function(slot0)
 
 	slot4 = slot3 <= 3
 	slot5 = slot4 and 1 or 0.85
+	slot6 = slot4 and 390 or 420
 	slot0._tf.localScale = Vector3(slot5, slot5, 1)
 	slot0.initPos = slot0.initPos or slot0._tf.localPosition
-	slot0._tf.localPosition = Vector3(slot0.initPos.x, slot4 and 390 or 420, 0)
+
+	onNextTick(function ()
+		if not IsNil(uv0._tf) then
+			uv0._tf.localPosition = Vector3(uv0.initPos.x, uv1, 0)
+		end
+	end)
+
 	slot7, slot8 = slot0:FilterSpActivityBtns()
 
 	for slot12, slot13 in pairs(slot7) do

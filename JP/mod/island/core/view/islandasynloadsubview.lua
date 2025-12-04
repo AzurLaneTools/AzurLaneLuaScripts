@@ -51,6 +51,10 @@ end
 
 slot0.Hide = function(slot0)
 	slot0:ShowOrHideGameObject(slot0._go, false)
+	slot0:OnHide()
+end
+
+slot0.OnHide = function(slot0)
 end
 
 slot0.ShowOrHideGameObject = function(slot0, slot1, slot2)

@@ -29,8 +29,9 @@ slot0.execute = function(slot0, slot1)
 
 			slot2:RemoveTask(uv0)
 			slot2:AddFinishId(uv0)
-			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK)
-			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK_TYPE_PLUS)
+			IslandTaskHelper.OnSubmitTask({
+				uv0
+			})
 			slot2:TryAcceptAutoTasks(function ()
 				if uv0 then
 					getProxy(IslandProxy):GetIsland():GetTaskAgency():TryAutoTrackTask()

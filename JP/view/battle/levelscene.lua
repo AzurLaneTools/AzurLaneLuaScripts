@@ -1886,6 +1886,10 @@ slot0.DisplayLevelInfoSPPanel = function(slot0, slot1, slot2, slot3)
 		function (slot0)
 			if not uv0.levelInfoSPView then
 				uv0.levelInfoSPView = LevelInfoSPView.New(uv0.topPanel, uv0.event, uv0.contextData)
+				slot1 = uv0.levelInfoSPView
+
+				slot1:RegisterView(uv0)
+
 				slot1 = uv0
 
 				slot1:frozen()

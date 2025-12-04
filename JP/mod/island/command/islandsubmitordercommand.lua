@@ -70,6 +70,7 @@ slot0.HandleCommonOrder = function(slot0, slot1)
 				slotId = uv1.id
 			})
 			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandSubmitOrder(IslandOrder.TYPE_NORMAL, uv1.id))
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.ORDER_DAILY)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

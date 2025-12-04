@@ -395,15 +395,15 @@ slot0.loadAllCharacter = function(slot0, slot1)
 			return
 		end
 
-		slot4 = slot0:GetRoleModel()
+		slot4 = slot0:GetRootModel()
 		slot5 = WorldConst.FetchWorldShip(slot1.id)
 		uv0.characterList[slot2][slot3] = slot0
 
 		slot0:SetParent(uv0.heroContainer, false)
-		slot0:SetLocalScale(Vector3(0.65, 0.65, 1))
+		slot0:SetModelScale(Vector3(0.65, 0.65, 1))
 		pg.ViewUtils.SetLayer(tf(slot4), Layer.UI)
-		uv0:enabledCharacter(slot4, true, slot2)
-		uv0:setCharacterPos(slot2, slot3, slot4)
+		uv0:enabledCharacter(slot0, true, slot2)
+		uv0:setCharacterPos(slot2, slot3, slot0)
 		uv0:sortSiblingIndex()
 
 		slot6 = cloneTplTo(uv0.heroInfo, slot4)
@@ -519,33 +519,35 @@ end
 
 slot0.setAllCharacterPos = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.characterList[TeamType.Vanguard]) do
-		slot0:setCharacterPos(TeamType.Vanguard, slot5, tf(slot6:GetRootModel()), slot1)
+		slot0:setCharacterPos(TeamType.Vanguard, slot5, slot6, slot1)
 	end
 
 	for slot5, slot6 in ipairs(slot0.characterList[TeamType.Main]) do
-		slot0:setCharacterPos(TeamType.Main, slot5, tf(slot6:GetRootModel()), slot1)
+		slot0:setCharacterPos(TeamType.Main, slot5, slot6, slot1)
 	end
 
 	slot0:sortSiblingIndex()
 end
 
 slot0.setCharacterPos = function(slot0, slot1, slot2, slot3, slot4)
-	SetActive(slot3, true)
+	slot5 = slot3:GetRootModel()
 
-	slot6 = slot0.gridTFs[slot1][slot2].localPosition
+	SetActive(slot5, true)
 
-	LeanTween.cancel(go(slot3))
+	slot7 = slot0.gridTFs[slot1][slot2].localPosition
+
+	LeanTween.cancel(go(slot5))
 
 	if slot4 then
-		tf(slot3).localPosition = Vector3(slot6.x + 2, slot6.y - 80, slot6.z)
+		tf(slot5).localPosition = Vector3(slot7.x + 2, slot7.y - 80, slot7.z)
 
-		LeanTween.moveLocalY(go(slot3), slot6.y - 110, 0.5):setDelay(0.5)
+		LeanTween.moveLocalY(go(slot5), slot7.y - 110, 0.5):setDelay(0.5)
 	else
-		tf(slot3).localPosition = Vector3(slot6.x + 2, slot6.y - 110, slot6.z)
+		tf(slot5).localPosition = Vector3(slot7.x + 2, slot7.y - 110, slot7.z)
 	end
 
-	SetActive(slot5:Find("shadow"), true)
-	slot3:GetComponent("SpineAnimUI"):SetAction("stand", 0)
+	SetActive(slot6:Find("shadow"), true)
+	slot3:SetAction("stand", 0)
 end
 
 slot0.resetGrid = function(slot0, slot1)
@@ -610,7 +612,7 @@ slot0.switchToShiftMode = function(slot0, slot1, slot2)
 			tf(slot9):Find("mouseChild"):GetComponent(typeof(Image)).enabled = false
 		end
 
-		slot9:GetComponent("SpineAnimUI"):SetAction("normal", 0)
+		slot8:SetAction("normal", 0)
 	end
 end
 
@@ -659,36 +661,36 @@ end
 
 slot0.enabledTeamCharacter = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot0.characterList[slot1]) do
-		slot0:enabledCharacter(slot8:GetRootModel(), slot2, slot1)
+		slot0:enabledCharacter(slot8, slot2, slot1)
 	end
 end
 
 slot0.enabledCharacter = function(slot0, slot1, slot2, slot3)
 	if slot2 then
-		slot4, slot5, slot6 = tf(slot1):Find("mouseChild")
+		slot5, slot6, slot7 = tf(slot1:GetRootModel()):Find("mouseChild")
 
-		if slot4 then
-			SetActive(slot4, true)
+		if slot5 then
+			SetActive(slot5, true)
 		else
-			slot4 = GameObject("mouseChild")
-			slot7 = tf(slot4)
+			slot5 = GameObject("mouseChild")
+			slot8 = tf(slot5)
 
-			slot7:SetParent(tf(slot1))
+			slot8:SetParent(tf(slot4))
 
-			tf(slot4).localPosition = Vector3.zero
-			slot5 = GetOrAddComponent(slot4, "ModelDrag")
-			slot6 = GetOrAddComponent(slot4, "EventTriggerListener")
-			slot0.eventTriggers[slot6] = true
+			tf(slot5).localPosition = Vector3.zero
+			slot6 = GetOrAddComponent(slot5, "ModelDrag")
+			slot7 = GetOrAddComponent(slot5, "EventTriggerListener")
+			slot0.eventTriggers[slot7] = true
 
-			slot5:Init()
+			slot6:Init()
 
-			slot7 = slot4:GetComponent(typeof(RectTransform))
-			slot7.sizeDelta = Vector2(2.5, 2.5)
-			slot7.pivot = Vector2(0.5, 0)
-			slot7.anchoredPosition = Vector2(0, 0)
-			slot8, slot9, slot10, slot11 = nil
+			slot8 = slot5:GetComponent(typeof(RectTransform))
+			slot8.sizeDelta = Vector2(2.5, 2.5)
+			slot8.pivot = Vector2(0.5, 0)
+			slot8.anchoredPosition = Vector2(0, 0)
+			slot9, slot10, slot11, slot12 = nil
 
-			slot6:AddBeginDragFunc(function ()
+			slot7:AddBeginDragFunc(function ()
 				uv0 = UnityEngine.Screen.width
 				uv1 = UnityEngine.Screen.height
 				uv2 = rtf(uv3._tf).rect.width / uv0
@@ -696,24 +698,26 @@ slot0.enabledCharacter = function(slot0, slot1, slot2, slot3)
 
 				LeanTween.cancel(go(uv5))
 				uv3:switchToShiftMode(uv5, uv6)
-				uv5:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
-				tf(uv5):SetParent(uv3.moveLayer, false)
+				uv7:SetAction("tuozhuai", 0)
+				uv7:SetParent(uv3.moveLayer, false)
 				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
 			end)
-			slot6:AddDragFunc(function (slot0, slot1)
+			slot7:AddDragFunc(function (slot0, slot1)
 				rtf(uv0).anchoredPosition = Vector2((slot1.position.x - uv1 / 2) * uv2 + 20, (slot1.position.y - uv3 / 2) * uv4 - 20)
 			end)
-			slot6:AddDragEndFunc(function (slot0, slot1)
-				uv0:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
-				tf(uv0):SetParent(uv1.heroContainer, false)
-				uv1:switchToEditMode()
-				uv1:sortSiblingIndex()
+			slot7:AddDragEndFunc(function (slot0, slot1)
+				uv0:SetAction("tuozhuai", 0)
+				tf(uv1):SetParent(uv2.heroContainer, false)
+				uv2:switchToEditMode()
+				uv2:sortSiblingIndex()
 				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_PUT)
 			end)
 		end
-	else
-		SetActive(tf(slot1):Find("mouseChild"), false)
+
+		return
 	end
+
+	SetActive(tf(model):Find("mouseChild"), false)
 end
 
 slot0.displayFleetInfo = function(slot0)

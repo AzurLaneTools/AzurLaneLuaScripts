@@ -1,7 +1,7 @@
 slot0 = class("IslandSystemBuilder", import(".IslandGenericBuilder"))
 
-slot0.Ctor = function(slot0, slot1, slot2)
-	uv0.super.Ctor(slot0, slot1, IslandConst.UNIT_LIST_SYSTEM)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
+	uv0.super.Ctor(slot0, slot1, slot3 or IslandConst.UNIT_LIST_SYSTEM)
 
 	slot0.cls = slot2
 end

@@ -1,9 +1,4 @@
 slot0 = class("VoteScene", import("..base.BaseUI"))
-slot0.ShipIndex = {
-	typeIndex = ShipIndexConst.TypeAll,
-	campIndex = ShipIndexConst.CampAll,
-	rarityIndex = ShipIndexConst.RarityAll
-}
 slot0.ShipIndexData = {
 	customPanels = {
 		typeIndex = {
@@ -78,9 +73,16 @@ slot0.init = function(slot0)
 	slot0.awardBtn = slot0._tf:Find("main/right_panel/filter_bg/award_btn")
 	slot0.ticketBtn = slot0._tf:Find("main/right_panel/filter_bg/ticket")
 	slot0.numberTxt = slot0._tf:Find("main/right_panel/filter_bg/Text"):GetComponent(typeof(Text))
-	slot0.search = slot0._tf:Find("main/right_panel/filter_bg/search")
+	slot1 = slot0._tf
+	slot0.search = slot1:Find("main/right_panel/filter_bg/search")
 
 	setText(slot0._tf:Find("main/right_panel/filter_bg/search/hold"), i18n("dockyard_search_holder"))
+
+	slot0.ShipIndex = {
+		typeIndex = ShipIndexConst.TypeAll,
+		campIndex = ShipIndexConst.CampAll,
+		rarityIndex = ShipIndexConst.RarityAll
+	}
 end
 
 slot0.GetPageMap = function(slot0)
@@ -143,14 +145,14 @@ slot0.didEnter = function(slot0)
 	setActive(slot0.helpBtn, false)
 	onButton(slot0, slot0.filterBtn, function ()
 		slot0 = Clone(uv0.ShipIndexData)
-		slot0.indexDatas = Clone(uv0.ShipIndex)
+		slot0.indexDatas = Clone(uv1.ShipIndex)
 
 		slot0.callback = function(slot0)
 			uv0.ShipIndex.typeIndex = slot0.typeIndex
 			uv0.ShipIndex.rarityIndex = slot0.rarityIndex
 			uv0.ShipIndex.campIndex = slot0.campIndex
 
-			uv1:initShips()
+			uv0:initShips()
 		end
 
 		uv1:emit(VoteMediator.ON_FILTER, slot0)
@@ -222,15 +224,15 @@ slot0.initShips = function(slot0)
 	slot2 = getInputText(slot0.search)
 
 	for slot6, slot7 in ipairs(slot0.contextData.voteGroup:GetRankList()) do
-		if uv0.ShipIndex.typeIndex == ShipIndexConst.TypeAll and uv0.ShipIndex.rarityIndex == ShipIndexConst.RarityAll and uv0.ShipIndex.campIndex == ShipIndexConst.CampAll and slot7:IsMatchSearchKey(slot2) then
+		if slot0.ShipIndex.typeIndex == ShipIndexConst.TypeAll and slot0.ShipIndex.rarityIndex == ShipIndexConst.RarityAll and slot0.ShipIndex.campIndex == ShipIndexConst.CampAll and slot7:IsMatchSearchKey(slot2) then
 			table.insert(slot0.displays, slot7)
-		elseif ShipIndexConst.filterByType(slot7, uv0.ShipIndex.typeIndex) and ShipIndexConst.filterByRarity(slot8, uv0.ShipIndex.rarityIndex) and ShipIndexConst.filterByCamp(slot8, uv0.ShipIndex.campIndex) and slot7:IsMatchSearchKey(slot2) then
+		elseif ShipIndexConst.filterByType(slot7, slot0.ShipIndex.typeIndex) and ShipIndexConst.filterByRarity(slot8, slot0.ShipIndex.rarityIndex) and ShipIndexConst.filterByCamp(slot8, slot0.ShipIndex.campIndex) and slot7:IsMatchSearchKey(slot2) then
 			table.insert(slot0.displays, slot7)
 		end
 	end
 
 	slot0.shipsPage:ExecuteAction("Update", slot0.contextData.voteGroup, slot0.displays, slot0:GetVotes())
-	setActive(slot0.filterSel, uv0.ShipIndex.typeIndex ~= ShipIndexConst.TypeAll or uv0.ShipIndex.campIndex ~= ShipIndexConst.CampAll or uv0.ShipIndex.rarityIndex ~= ShipIndexConst.RarityAll)
+	setActive(slot0.filterSel, slot0.ShipIndex.typeIndex ~= ShipIndexConst.TypeAll or slot0.ShipIndex.campIndex ~= ShipIndexConst.CampAll or slot0.ShipIndex.rarityIndex ~= ShipIndexConst.RarityAll)
 end
 
 slot0.initTitles = function(slot0)

@@ -236,6 +236,13 @@ slot0.UpdateCostItem = function(slot0, slot1, slot2)
 
 	setActive(slot2:Find("icon_bg/count_bg"), true)
 	setText(slot2:Find("icon_bg/count_bg/count"), slot4)
+	onButton(slot0, slot2:Find("icon_bg/icon"), function ()
+		uv0:ShowMsgBox({
+			title = i18n("island_word_desc"),
+			type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+			dropData = uv1
+		})
+	end)
 end
 
 slot0.RefreshCurrentSelectFormula = function(slot0)

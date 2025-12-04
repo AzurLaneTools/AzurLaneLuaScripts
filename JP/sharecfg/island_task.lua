@@ -667,6 +667,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1004,
@@ -699,6 +700,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1004,
@@ -732,6 +734,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1004,
@@ -775,6 +778,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "石炭をジョンに渡そう",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1004,
@@ -818,6 +822,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "大自然の原木をオブラインに渡そう",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1004,
@@ -861,6 +866,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1004,
@@ -901,6 +907,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1004,
@@ -941,6 +948,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1002,
@@ -979,6 +987,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1002,
@@ -1012,6 +1021,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1002,
@@ -1055,6 +1065,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1002,
@@ -1095,6 +1106,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1002,
@@ -1138,6 +1150,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1002,
@@ -1178,6 +1191,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1007,
@@ -1227,6 +1241,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1007,
@@ -1260,6 +1275,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1007,
@@ -1303,6 +1319,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "明石のところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1007,
@@ -1346,6 +1363,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1007,
@@ -1390,6 +1408,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1007,
@@ -1423,6 +1442,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1002,
@@ -1463,6 +1483,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "明石と話そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1002,
@@ -1517,6 +1538,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "到着編",
 		navigation = 1002,
@@ -1550,6 +1572,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -1595,6 +1618,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -1639,6 +1663,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -1673,6 +1698,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -1706,6 +1732,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -1755,6 +1782,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -1789,6 +1817,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ステファンと話そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -1826,6 +1855,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 0,
@@ -1859,6 +1889,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -1902,6 +1933,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -1943,6 +1975,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -1976,6 +2009,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "ホメリックと話そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -2019,6 +2053,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -2059,6 +2094,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "戻ってアメリゴのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -2102,6 +2138,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -2142,6 +2179,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "戻ってアメリゴのところへ行こう(0/1)",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -2185,6 +2223,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -2225,6 +2264,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -2265,6 +2305,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -2311,6 +2352,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 0,
@@ -2344,6 +2386,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2384,6 +2427,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2424,6 +2468,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "ブレーメンと話そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2467,6 +2512,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "オムレツをステファンに持って行く",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2510,6 +2556,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2550,6 +2597,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "ブレーメンと一緒に辛抱強く待つ",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2593,6 +2641,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2644,6 +2693,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 0,
@@ -2677,6 +2727,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2717,6 +2768,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2762,6 +2814,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1004,
@@ -2808,6 +2861,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1001,
@@ -2855,6 +2909,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2895,6 +2950,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2936,6 +2992,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -2972,6 +3029,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -3012,6 +3070,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "メリーに聞いてみよう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1003,
@@ -3055,6 +3114,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "メリーと話しに行く(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1003,
@@ -3098,6 +3158,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1003,
@@ -3138,6 +3199,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "エリザベスと話す(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1003,
@@ -3181,6 +3243,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "エリザベスと話す(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1003,
@@ -3224,6 +3287,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "エリザベスと話す(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1003,
@@ -3267,6 +3331,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "エリザベスと話す(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1003,
@@ -3311,6 +3376,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1003,
@@ -3351,6 +3417,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1003,
@@ -3391,6 +3458,7 @@ pg.base.island_task = {
 		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 1002,
@@ -3440,6 +3508,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "債務編",
 		navigation = 0,
@@ -3474,6 +3543,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1002,
@@ -3507,6 +3577,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1006,
@@ -3550,6 +3621,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1006,
@@ -3590,6 +3662,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "アムマーマーのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1006,
@@ -3633,6 +3706,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "アムマーマーのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1006,
@@ -3677,6 +3751,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1005,
@@ -3713,6 +3788,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1005,
@@ -3753,6 +3829,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "戻ってラコニアに見せてみよう",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1005,
@@ -3796,6 +3873,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "ラコニアのところへ行こう(0/1)",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1005,
@@ -3844,6 +3922,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1005,
@@ -3888,6 +3967,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1005,
@@ -3924,6 +4004,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "ラコニアにも味見させてあげよう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1005,
@@ -3967,6 +4048,7 @@ pg.base.island_task = {
 		reward_exp = 400,
 		complete_tips = "ラコニアに伝えに行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 1005,
@@ -4021,6 +4103,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "芽吹編",
 		navigation = 0,
@@ -4054,6 +4137,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "発展編",
 		navigation = 1007,
@@ -4094,6 +4178,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "明石と話そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "発展編",
 		navigation = 1007,
@@ -4137,6 +4222,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "発展編",
 		navigation = 1007,
@@ -4185,6 +4271,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "明石と話そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -4233,6 +4320,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		map_complete_tips = 0,
@@ -4298,6 +4386,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -4368,6 +4457,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -4440,6 +4530,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -4512,6 +4603,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -4584,6 +4676,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -4661,6 +4754,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -4738,6 +4832,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -4819,6 +4914,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -4893,6 +4989,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -4969,6 +5066,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -5045,6 +5143,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -5121,6 +5220,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -5202,6 +5302,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -5283,6 +5384,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -5360,6 +5462,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -5430,6 +5533,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -5502,6 +5606,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -5574,6 +5679,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋の特産経営】",
 		navigation = 0,
 		map_complete_tips = 1002,
@@ -5646,6 +5752,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -5691,6 +5798,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -5736,6 +5844,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -5781,6 +5890,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -5826,6 +5936,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -5871,6 +5982,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -5916,6 +6028,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -5961,6 +6074,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6006,6 +6120,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6051,6 +6166,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6096,6 +6212,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6141,6 +6258,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6186,6 +6304,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6231,6 +6350,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6276,6 +6396,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6321,6 +6442,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6366,6 +6488,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6401,6 +6524,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6441,6 +6565,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6481,6 +6606,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6521,6 +6647,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6561,6 +6688,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6601,6 +6729,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6646,6 +6775,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6681,6 +6811,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6721,6 +6852,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6761,6 +6893,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6801,6 +6934,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6841,6 +6975,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6886,6 +7021,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "stop",
 		series = "",
 		navigation = 0,
@@ -6931,6 +7067,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -6976,6 +7113,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7021,6 +7159,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7066,6 +7205,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7111,6 +7251,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7156,6 +7297,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7201,6 +7343,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7246,6 +7389,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7291,6 +7435,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7336,6 +7481,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7381,6 +7527,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7426,6 +7573,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7471,6 +7619,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7516,6 +7665,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7561,6 +7711,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7606,6 +7757,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7651,6 +7803,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7686,6 +7839,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7726,6 +7880,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7766,6 +7921,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7806,6 +7962,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7846,6 +8003,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7886,6 +8044,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7931,6 +8090,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -7966,6 +8126,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8006,6 +8167,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8046,6 +8208,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8086,6 +8249,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8126,6 +8290,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8171,6 +8336,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8216,6 +8382,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってオブラインに伝えよう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -8253,6 +8420,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8301,6 +8469,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -8335,6 +8504,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -8369,6 +8539,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -8403,6 +8574,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "早くオブラインに届けよう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8451,6 +8623,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -8485,6 +8658,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ジョンに休憩していいと伝える(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8533,6 +8707,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -8591,6 +8766,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -8625,6 +8801,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -8659,6 +8836,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってパトリックに伝えよう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -8696,6 +8874,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "絵筆をパトリックに持って行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8733,6 +8912,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "オブラインのところへ行って額縁を作ってもらおう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8770,6 +8950,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -8825,6 +9006,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -8859,6 +9041,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ジョンのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -8896,6 +9079,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってジョンのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -8933,6 +9117,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -8988,6 +9173,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "前置",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -9028,6 +9214,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -9062,6 +9249,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ブレーメンのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -9099,6 +9287,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -9154,6 +9343,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9188,6 +9378,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9225,6 +9416,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9259,6 +9451,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9293,6 +9486,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってアメリゴのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9330,6 +9524,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9364,6 +9559,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9398,6 +9594,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9435,6 +9632,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9490,6 +9688,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9524,6 +9723,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9558,6 +9758,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9595,6 +9796,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってアメリゴのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9632,6 +9834,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9666,6 +9869,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9703,6 +9907,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9742,6 +9947,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9776,6 +9982,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "戻ってアメリゴのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -9829,6 +10036,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "壁の中の名無しに会いに行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -9877,6 +10085,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "カートの中の名無しに会いに行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -9925,6 +10134,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "井の中の名無しに会いに行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -9973,6 +10183,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10007,6 +10218,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってブレーメンのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -10044,6 +10256,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -10082,6 +10295,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -10116,6 +10330,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -10153,6 +10368,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10187,6 +10403,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -10237,6 +10454,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10271,6 +10489,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってステファンのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -10308,6 +10527,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってステファンのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -10345,6 +10565,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10395,6 +10616,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -10436,6 +10658,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -10470,6 +10693,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10504,6 +10728,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10554,6 +10779,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -10588,6 +10814,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "パトリックの考えを聞く(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10625,6 +10852,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "アメリゴに元気を保つ秘訣を聞く(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10662,6 +10890,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10696,6 +10925,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ニンジンをブレーメンに渡す",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -10733,6 +10963,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ブレーメンとレシピを改良する(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -10770,6 +11001,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "手に入れた卵をブレーメンに持って行く",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -10807,6 +11039,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "パトリックの提案をブレーメンに伝える(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10870,6 +11103,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10904,6 +11138,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -10941,6 +11176,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -10975,6 +11211,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってアムマーマーに渡そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -11024,6 +11261,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "戻ってアムマーマーに渡そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -11078,6 +11316,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1001,
@@ -11112,6 +11351,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "オブラインに新しい剪定ばさみを1本作ってもらう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
@@ -11149,6 +11389,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
@@ -11183,6 +11424,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってルシタニアに渡そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
@@ -11220,6 +11462,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってルシタニアに渡そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -11268,6 +11511,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -11302,6 +11546,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
@@ -11336,6 +11581,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -11370,6 +11616,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
@@ -11404,6 +11651,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "戻ってルシタニアに渡そう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
@@ -11457,6 +11705,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "開発レベルを上げよう",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -11493,6 +11742,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -11527,6 +11777,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
@@ -11561,6 +11812,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -11595,6 +11847,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってパトリックのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -11629,6 +11882,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1005,
@@ -11663,6 +11917,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってラコニアのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -11700,6 +11955,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "戻ってラコニアのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -11737,6 +11993,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -11787,6 +12044,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -11834,6 +12092,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "地図に印をつけた場所まで宝物を探しに行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -11871,6 +12130,7 @@ pg.base.island_task = {
 		reward_exp = 200,
 		complete_tips = "離島基地でカードの残高を見に行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1004,
@@ -11919,6 +12179,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -11964,6 +12225,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "ピアリのところへ行こう(0/1)",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12012,6 +12274,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12024,6 +12287,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12052,6 +12319,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12064,6 +12332,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12092,6 +12364,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12104,6 +12377,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12132,6 +12409,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12144,6 +12422,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12172,6 +12454,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12184,6 +12467,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12212,6 +12499,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -12224,6 +12512,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12246,6 +12538,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12258,6 +12551,10 @@ pg.base.island_task = {
 			{
 				2,
 				30000006
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12287,6 +12584,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12299,6 +12597,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12327,6 +12629,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12339,6 +12642,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12367,6 +12674,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12379,6 +12687,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12407,6 +12719,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12419,6 +12732,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12447,6 +12764,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -12459,6 +12777,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12487,6 +12809,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -12499,6 +12822,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12521,6 +12848,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -12533,6 +12861,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501001
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12563,6 +12895,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -12575,6 +12908,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12597,6 +12934,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -12609,6 +12947,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501011
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12639,6 +12981,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -12657,6 +13000,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12679,6 +13026,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -12691,6 +13039,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501021
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12721,6 +13073,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -12739,6 +13092,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12761,6 +13118,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1002,
@@ -12773,6 +13131,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501031
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12803,6 +13165,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -12821,6 +13184,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12843,6 +13210,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -12855,6 +13223,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502001
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12885,6 +13257,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -12903,6 +13276,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12925,6 +13302,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -12937,6 +13315,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502011
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12967,6 +13349,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -12985,6 +13368,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13007,6 +13394,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -13019,6 +13407,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502021
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13049,6 +13441,7 @@ pg.base.island_task = {
 		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -13067,6 +13460,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13089,6 +13486,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 1006,
@@ -13101,6 +13499,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502031
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13131,6 +13533,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13143,6 +13546,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13171,6 +13578,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13183,6 +13591,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13211,6 +13623,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13223,6 +13636,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13251,6 +13668,7 @@ pg.base.island_task = {
 		reward_exp = 50,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13263,6 +13681,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13291,6 +13713,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13303,6 +13726,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13331,6 +13758,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13343,6 +13771,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13371,6 +13803,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13387,6 +13820,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13415,6 +13852,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13431,6 +13869,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13459,6 +13901,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13475,6 +13918,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13503,6 +13950,7 @@ pg.base.island_task = {
 		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13519,6 +13967,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13547,6 +13999,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13559,6 +14012,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13587,6 +14044,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13599,6 +14057,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13627,6 +14089,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13643,6 +14106,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13671,6 +14138,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13687,6 +14155,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13715,6 +14187,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13731,6 +14204,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13759,6 +14236,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13775,6 +14253,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13803,6 +14285,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13819,6 +14302,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13847,6 +14334,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13863,6 +14351,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13891,6 +14383,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13907,6 +14400,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13935,6 +14432,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13951,6 +14449,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13979,6 +14481,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -13991,6 +14494,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -14019,6 +14526,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -14031,6 +14539,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -14059,6 +14571,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -14071,6 +14584,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -14099,6 +14616,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -14111,6 +14629,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -14144,6 +14666,7 @@ pg.base.island_task = {
 		reward_exp = 500,
 		complete_tips = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
@@ -14156,6 +14679,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},

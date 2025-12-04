@@ -363,7 +363,7 @@ slot0.ShowDrawAwardWindow = function(slot0, slot1)
 			eachChild(slot3:Find("front"), function (slot0, slot1)
 				setActive(slot0, slot0.name == uv0)
 			end)
-			slot3:Find("Book"):GetComponent("Book"):SetCurrentPage(2)
+			slot3:Find("Book"):GetComponent(typeof(Book)):SetCurrentPage(2)
 			setCanvasGroupAlpha(slot3, 0)
 			setCanvasGroupAlpha(slot3:Find("Book"), 1)
 
@@ -438,7 +438,7 @@ slot0.ShowDrawAwardWindow = function(slot0, slot1)
 				end
 
 				table.insert(slot1, function (slot0)
-					uv0:Find("Book"):GetComponent("AutoFlip"):StartControl()
+					uv0:Find("Book"):GetComponent(typeof(AutoFlip)):StartControl()
 					uv0:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 						uv0:StopControl()
 						uv1()

@@ -19,8 +19,12 @@ slot0.getDefaultUI = function(slot0)
 	return slot0._container
 end
 
-slot0.forceGC = function(slot0)
+slot0.DontGC = function(slot0)
 	return true
+end
+
+slot0.forceGC = function(slot0)
+	return false
 end
 
 slot0.GCWhenAwake = function(slot0)
@@ -93,7 +97,7 @@ slot0.emit = function(slot0, slot1, ...)
 	end
 end
 
-slot0.emitCoreEvt = function(slot0, slot1, ...)
+slot0.emitCoreController = function(slot0, slot1, ...)
 	slot0:emit(uv0.LINK_CORE_EVENT, slot1, ...)
 end
 

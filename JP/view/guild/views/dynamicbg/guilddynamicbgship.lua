@@ -5,7 +5,6 @@ slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1.go
 	slot0._tf = tf(slot0._go)
 	slot0.parent = slot0._tf.parent
-	slot0.spineAnimUI = slot0._go:GetComponent("SpineAnimUI")
 	slot0.path = slot1.path
 	slot0.speed = 1
 	slot0.stepCnt = 0
@@ -15,6 +14,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.interActionRatio = 10000 / GuildConst.MAX_DISPLAY_MEMBER_SHIP
 	slot0.name = slot1.name
 	slot0.isCommander = slot1.isCommander
+	slot0.spineChar = slot1.char
 
 	slot0:Init(slot1)
 end
@@ -209,7 +209,7 @@ slot0.SetAction = function(slot0, slot1)
 
 	slot0.actionName = slot1
 
-	slot0.spineAnimUI:SetAction(slot1, 0)
+	slot0.spineChar:SetAction(slot1, 0)
 end
 
 slot0.SetAsLastSibling = function(slot0)
@@ -429,6 +429,12 @@ slot0.Dispose = function(slot0)
 
 	if not IsNil(slot0._go) and LeanTween.isTweening(slot0._go) then
 		LeanTween.cancel(slot0._go)
+	end
+
+	if slot0.spineChar then
+		slot0.spineChar:Dispose()
+
+		slot0.spineChar = nil
 	end
 
 	Destroy(slot0.nameTF)

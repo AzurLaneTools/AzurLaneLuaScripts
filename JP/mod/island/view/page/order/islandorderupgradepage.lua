@@ -18,8 +18,8 @@ end
 slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
-	slot0.levelTxt.text = slot1 - 1
-	slot0.nextLevelTxt.text = slot1
+	slot0.levelTxt.text = slot1
+	slot0.nextLevelTxt.text = slot1 + 1
 	slot0.callback = slot2
 end
 

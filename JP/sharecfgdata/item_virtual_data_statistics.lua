@@ -170639,6 +170639,31 @@ _G.pg.base.item_virtual_data_statistics[65108] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65111] = {
+	drop_gold_max = 0,
+	name = "アオの光",
+	display = "「追憶の残響」の累計入手PTアイテム。イベント終了時に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65111",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65111,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "レジスタンス記念勲章",
@@ -175608,6 +175633,81 @@ _G.pg.base.item_virtual_data_statistics[65746] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65746,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65755] = {
+	drop_gold_max = 0,
+	name = "投票券",
+	display = "アズールレーン人気投票2025の投票券、各ステップ（予選、グループ戦各グループごと、決勝復活戦、決勝戦）終了時に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65755,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65756] = {
+	drop_gold_max = 0,
+	name = "投票券",
+	display = "アズールレーン人気投票2025の投票券、各ステップ（予選、グループ戦各グループごと、決勝復活戦、決勝戦）終了時に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65756,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65757] = {
+	drop_gold_max = 0,
+	name = "投票券",
+	display = "アズールレーン人気投票2025の投票券、各ステップ（予選、グループ戦各グループごと、決勝復活戦、決勝戦）終了時に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65757,
 	display_icon = {},
 	price = {},
 	index = {},

@@ -41,7 +41,7 @@ pg.island_buff_template = {
 	{
 		name = "生産効率アップ",
 		buff_group = 1,
-		buff_desc = "8時間の間、基本資源を生産する場合、生産に必要な時間が5%短縮する",
+		buff_desc = "8時間の間、基本資源を生産時、作業時間が5%短縮",
 		buff_color = 2,
 		buff_type = 102,
 		buff_time = 28800,
@@ -64,7 +64,7 @@ pg.island_buff_template = {
 	{
 		name = "制作効率アップ",
 		buff_group = 1,
-		buff_desc = "8時間の間、基地工場でアイテムを制作する場合、制作に必要な時間が5%短縮する",
+		buff_desc = "8時間の間、基地工場でアイテムを制作時、作業時間が5%短縮",
 		buff_color = 2,
 		buff_type = 102,
 		buff_time = 28800,
@@ -85,7 +85,7 @@ pg.island_buff_template = {
 	{
 		name = "料理効率アップ",
 		buff_group = 1,
-		buff_desc = "8時間の間、料理アイテムを制作時、制作に必要な時間が5%短縮する",
+		buff_desc = "8時間の間、料理アイテムを制作時、作業時間が5%短縮",
 		buff_color = 2,
 		buff_type = 102,
 		buff_time = 28800,

@@ -4,7 +4,7 @@ pg.island_chara_skill = {
 		name = "制作スキル",
 		id = 1000,
 		icon = "chara_all_skill_14",
-		desc = "基地工場の手工作業台に配置されている場合、対応の製品生産時間が$1%短縮",
+		desc = "基地工場の手工作業台に配置されていると、作業時間が$1%短縮",
 		desc_add = {
 			{
 				{
@@ -398,7 +398,7 @@ pg.island_chara_skill = {
 		name = "育果スキル",
 		id = 1003,
 		icon = "chara_all_skill_10",
-		desc = "薫る果樹園で作業する時、果実成熟時間が$1%短縮",
+		desc = "薫る果樹園で作業時、作業時間が$1%短縮",
 		desc_add = {
 			{
 				{
@@ -526,7 +526,7 @@ pg.island_chara_skill = {
 		name = "伐木スキル",
 		id = 1004,
 		icon = "chara_all_skill_2",
-		desc = "翠緑の森で作業時、木材産出時間が$1%短縮",
+		desc = "翠緑の森で作業時、作業時間が$1%短縮",
 		desc_add = {
 			{
 				{
@@ -654,7 +654,7 @@ pg.island_chara_skill = {
 		name = "畜牧スキル",
 		id = 1005,
 		icon = "chara_all_skill_6",
-		desc = "悠々牧場で作業時、畜産物産出時間が$1%短縮",
+		desc = "悠々牧場で作業時、作業時間が$1%短縮",
 		desc_add = {
 			{
 				{
@@ -782,7 +782,7 @@ pg.island_chara_skill = {
 		name = "料理スキル",
 		id = 1006,
 		icon = "chara_all_skill_7",
-		desc = "有魚飯店で作業時、料理制作時間が$1%短縮",
+		desc = "有魚飯店で作業時、作業時間が$1%短縮",
 		desc_add = {
 			{
 				{
@@ -910,7 +910,7 @@ pg.island_chara_skill = {
 		name = "研究スキル",
 		id = 1007,
 		icon = "chara_all_skill_3",
-		desc = "離島技術を研究時、研究時間が$1%短縮",
+		desc = "離島技術を研究時、作業時間が$1%短縮",
 		desc_add = {
 			{
 				{
@@ -1038,7 +1038,7 @@ pg.island_chara_skill = {
 		name = "採掘スキル",
 		id = 1008,
 		icon = "chara_all_skill_1",
-		desc = "積岩鉱山で作業時、鉱物採掘時間が$1%短縮",
+		desc = "積岩鉱山で作業時、作業時間が$1%短縮",
 		desc_add = {
 			{
 				{
@@ -1166,7 +1166,7 @@ pg.island_chara_skill = {
 		name = "耕作スキル",
 		id = 1009,
 		icon = "chara_all_skill_5",
-		desc = "豊穣の畑で作業時、作物成熟時間が$1%短縮",
+		desc = "豊穣の畑で作業時、作業時間が$1%短縮",
 		desc_add = {
 			{
 				{
@@ -1422,7 +1422,7 @@ pg.island_chara_skill = {
 		name = "栽培スキル",
 		id = 1011,
 		icon = "chara_all_skill_9",
-		desc = "青々苗場で作業時、作物成熟時間が$1%短縮",
+		desc = "青々苗場で作業時、作業時間が$1%短縮",
 		desc_add = {
 			{
 				{
@@ -1944,7 +1944,7 @@ pg.island_chara_skill = {
 		name = "無限体力",
 		id = 99999,
 		icon = "chara_all_skill_8",
-		desc = "作業時、体力上限なし",
+		desc = "作業饅頭は体力が存在せず、また複数の配置枠に同時配置可能",
 		desc_add = {},
 		material = {},
 		skill_effect = {

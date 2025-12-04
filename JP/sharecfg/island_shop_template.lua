@@ -228,7 +228,7 @@ pg.island_shop_template = {
 		tag_type = 1,
 		tag_icon = {
 			"シーズン",
-			"saiji",
+			"Season",
 			"IslandShopIcon/tuijian"
 		}
 	},
