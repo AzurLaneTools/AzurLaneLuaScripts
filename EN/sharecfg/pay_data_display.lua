@@ -78,6 +78,7 @@ pg.pay_data_display = setmetatable({
 		97,
 		98,
 		99,
+		9001,
 		100,
 		101,
 		102,
@@ -117,7 +118,33 @@ pg.pay_data_display = setmetatable({
 		136,
 		137,
 		138,
-		9001,
+		139,
+		140,
+		141,
+		142,
+		143,
+		144,
+		145,
+		146,
+		147,
+		148,
+		149,
+		150,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
 		1000,
 		1001,
 		1002,
@@ -209,34 +236,7 @@ pg.pay_data_display = setmetatable({
 		5014,
 		5015,
 		5016,
-		5017,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165
+		5017
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -9448,6 +9448,120 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9001] = {
+		picture = "fudai29",
+		name = "Sports & Race Return Lucky Box",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains 1 of the following skins you do not yet own, chosen at random (if you already own all the listed skins, you will receive Gems instead), as well as other items.",
+		subject = "Sports & Race Return Lucky Box",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 699,
+		descrip_extra = "* The Lucky Box will be sent to your ingame Mail.\n* If you already own all the listed skins, you will receive Gems x680 instead.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag68",
+		extra_gem = 0,
+		id = 9001,
+		airijp_id = "com.yostaren.azurlane.luckybag68",
+		name_display = "Sports & Race Return Lucky Box",
+		first_text = "Random Skin",
+		akashi_pick = 1,
+		skin_inquire_relation = 86219,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86219,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81219,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86219,
+				1
+			}
+		}
+	},
 	[100] = {
 		picture = "usfudai1",
 		name = "Nep's Lucky Bag ",
@@ -13914,18 +14028,1861 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
-	[9001] = {
-		picture = "fudai29",
-		name = "Sports & Race Return Lucky Box",
+	[139] = {
+		picture = "fudai77",
+		name = "Black Friday Lucky Bag (2022)",
 		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains 1 of the following skins you do not yet own, chosen at random (if you already own all the listed skins, you will receive Gems instead), as well as other items.",
-		subject = "Sports & Race Return Lucky Box",
+		second_text = "",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Black Friday Lucky Bag (2022)",
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
-		money = 699,
-		descrip_extra = "* The Lucky Box will be sent to your ingame Mail.\n* If you already own all the listed skins, you will receive Gems x680 instead.",
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond177",
+		extra_gem = 0,
+		id = 139,
+		airijp_id = "com.yostaren.azurlane.diamond177",
+		name_display = "Black Friday Lucky Bag (2022)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				69976,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					11,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69976,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40024,
+				1
+			}
+		}
+	},
+	[140] = {
+		picture = "fudai78",
+		name = "New Semester Lucky Pack",
+		type = 1,
+		second_text = "",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "New Semester Lucky Pack",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag8",
+		extra_gem = 0,
+		id = 140,
+		airijp_id = "com.yostaren.azurlane.luckybag8",
+		name_display = "New Semester Lucky Pack",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				69978,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69978,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40025,
+				1
+			}
+		}
+	},
+	[141] = {
+		picture = "fudai79",
+		name = "Onsen Souvenir Lucky Bag",
+		type = 1,
+		second_text = "",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Onsen Souvenir Lucky Bag",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag9",
+		extra_gem = 0,
+		id = 141,
+		airijp_id = "com.yostaren.azurlane.luckybag9",
+		name_display = "Onsen Souvenir Lucky Bag",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				69979,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69979,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				70052,
+				1
+			}
+		}
+	},
+	[142] = {
+		picture = "fudai80",
+		name = "Office Hour Lucky Box",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Office Hour Lucky Box",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag13",
+		extra_gem = 0,
+		id = 142,
+		airijp_id = "com.yostaren.azurlane.luckybag13",
+		name_display = "Office Hour Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 69980,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				69980,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40985,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				69980,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
+		}
+	},
+	[143] = {
+		picture = "fudai81",
+		name = "5th Anniversary Lucky Box",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "5th Anniversary Lucky Box",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag14",
+		extra_gem = 0,
+		id = 143,
+		airijp_id = "com.yostaren.azurlane.luckybag14",
+		name_display = "5th Anniversary Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 69981,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				69981,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40986,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				69981,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
+		}
+	},
+	[144] = {
+		picture = "fudai82",
+		name = "Halloween Lucky Box 2023",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Halloween Lucky Box 2023",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag18",
+		extra_gem = 0,
+		id = 144,
+		airijp_id = "com.yostaren.azurlane.luckybag18",
+		name_display = "Halloween Lucky Box 2023",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 69982,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				69982,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					10,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40987,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				69982,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
+		}
+	},
+	[145] = {
+		picture = "fudai82",
+		name = "Black Friday Lucky Bag (2023)",
+		type = 2,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Black Friday Lucky Bag (2023)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag19",
+		extra_gem = 0,
+		id = 145,
+		airijp_id = "com.yostaren.azurlane.luckybag19",
+		name_display = "Black Friday Lucky Bag (2023)",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 69983,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				69983,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40997,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				69983,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
+		}
+	},
+	[146] = {
+		picture = "fudai84",
+		name = "Cyber City Lucky Box",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		subject = "Cyber City Lucky Box",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag28",
+		extra_gem = 0,
+		id = 146,
+		airijp_id = "com.yostaren.azurlane.luckybag28",
+		name_display = "Cyber City Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86400,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86400,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81400,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86400,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
+		}
+	},
+	[147] = {
+		picture = "fudai85",
+		name = "Adventurer's Lucky Chest",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Adventurer's Lucky Chest",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag29",
+		extra_gem = 0,
+		id = 147,
+		airijp_id = "com.yostaren.azurlane.luckybag29",
+		name_display = "Adventurer's Lucky Chest",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86401,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86401,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81401,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86401,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[148] = {
+		picture = "fudai86",
+		name = "Lavish Lucky Boombox",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Lavish Lucky Boombox",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag30",
+		extra_gem = 0,
+		id = 148,
+		airijp_id = "com.yostaren.azurlane.luckybag30",
+		name_display = "Lavish Lucky Boombox",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86402,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86402,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81402,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86402,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[149] = {
+		picture = "fudai87",
+		name = "School Time Lucky Bag",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "School Time Lucky Bag",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag35",
+		extra_gem = 0,
+		id = 149,
+		airijp_id = "com.yostaren.azurlane.luckybag35",
+		name_display = "School Time Lucky Bag",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86403,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86403,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81403,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86403,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[150] = {
+		picture = "fudai88",
+		name = "High Speed Lucky Bag",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "High Speed Lucky Bag",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag36",
+		extra_gem = 0,
+		id = 150,
+		airijp_id = "com.yostaren.azurlane.luckybag36",
+		name_display = "High Speed Lucky Bag",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86404,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86404,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81404,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86404,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[151] = {
+		picture = "fudai89",
+		name = "6th Anniversary Lucky Barrel",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "6th Anniversary Lucky Barrel",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag37",
+		extra_gem = 0,
+		id = 151,
+		airijp_id = "com.yostaren.azurlane.luckybag37",
+		name_display = "6th Anniversary Lucky Barrel",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86405,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86405,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81405,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86405,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[152] = {
+		picture = "fudai90",
+		name = "Halloween Lucky Box 2024",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Halloween Lucky Box 2024",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag42",
+		extra_gem = 0,
+		id = 152,
+		airijp_id = "com.yostaren.azurlane.luckybag42",
+		name_display = "Halloween Lucky Box 2024",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86406,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86406,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81406,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86406,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[153] = {
+		picture = "fudai_L2d_new",
+		name = "Live2D Surprise Lucky Bag (2024)",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random unowned rerun L2D outfit and other supplies",
+		subject = "Black Friday Lucky Bag (2024)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
@@ -13934,21 +15891,21 @@ pg.base.pay_data_display = {
 		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag68",
+		id_str = "com.yostaren.azurlane.luckybag44",
 		extra_gem = 0,
-		id = 9001,
-		airijp_id = "com.yostaren.azurlane.luckybag68",
-		name_display = "Sports & Race Return Lucky Box",
+		id = 153,
+		airijp_id = "com.yostaren.azurlane.luckybag44",
+		name_display = "Live2D Surprise Lucky Bag (2024)",
 		first_text = "Random Skin",
 		akashi_pick = 1,
-		skin_inquire_relation = 86219,
+		skin_inquire_relation = 86407,
 		extra_service = 3,
 		show_group = "",
 		package_tag_open = 0,
 		extra_service_item = {
 			{
 				2,
-				86219,
+				86407,
 				1
 			},
 			{
@@ -13970,9 +15927,9 @@ pg.base.pay_data_display = {
 		time = {
 			{
 				{
-					2025,
-					9,
-					25
+					2024,
+					11,
+					14
 				},
 				{
 					0,
@@ -13982,9 +15939,9 @@ pg.base.pay_data_display = {
 			},
 			{
 				{
-					2025,
-					10,
-					22
+					2024,
+					12,
+					4
 				},
 				{
 					23,
@@ -14016,14 +15973,1549 @@ pg.base.pay_data_display = {
 		drop_item = {
 			{
 				2,
-				81219,
+				81417,
 				1
 			}
 		},
 		first_icon = {
 			{
 				2,
-				86219,
+				86407,
+				1
+			}
+		}
+	},
+	[154] = {
+		picture = "fudai92",
+		name = "Black Friday Lucky Bag (2024)",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Black Friday Lucky Bag (2024)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag43",
+		extra_gem = 0,
+		id = 154,
+		airijp_id = "com.yostaren.azurlane.luckybag43",
+		name_display = "Black Friday Lucky Bag (2024)",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86408,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86408,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81418,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86408,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[155] = {
+		picture = "fudai93",
+		name = "Nile Colors Lucky Box",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Nile Colors Lucky Box",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag53",
+		extra_gem = 0,
+		id = 155,
+		airijp_id = "com.yostaren.azurlane.luckybag53",
+		name_display = "Nile Colors Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86413,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86413,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81422,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86413,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[156] = {
+		picture = "fudai94",
+		name = "Hospital Adventure Lucky Bag",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Hospital Adventure Lucky Bag",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag54",
+		extra_gem = 0,
+		id = 156,
+		airijp_id = "com.yostaren.azurlane.luckybag54",
+		name_display = "Hospital Adventure Lucky Bag",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86414,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86414,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81423,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86414,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[157] = {
+		picture = "fudai95",
+		name = "Pajama Party Lucky Bag",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Pajama Party Lucky Bag",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag56",
+		extra_gem = 0,
+		id = 157,
+		airijp_id = "com.yostaren.azurlane.luckybag56",
+		name_display = "Pajama Party Lucky Bag",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86415,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86415,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81424,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86415,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[158] = {
+		picture = "fudai96",
+		name = "Office Cabinet Lucky Box",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Office Cabinet Lucky Box",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag61",
+		extra_gem = 0,
+		id = 158,
+		airijp_id = "com.yostaren.azurlane.luckybag61",
+		name_display = "Office Cabinet Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86416,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86416,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81426,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86416,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[159] = {
+		picture = "fudai97",
+		name = "7th Anniversary Lucky bag",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "7th Anniversary Lucky bag",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag63",
+		extra_gem = 0,
+		id = 159,
+		airijp_id = "com.yostaren.azurlane.luckybag63",
+		name_display = "7th Anniversary Lucky bag",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86417,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86417,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81427,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86417,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[160] = {
+		picture = "fudai98",
+		name = "Halloween Lucky Box 2025",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Halloween Lucky Box 2025",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag69",
+		extra_gem = 0,
+		id = 160,
+		airijp_id = "com.yostaren.azurlane.luckybag69",
+		name_display = "Halloween Lucky Box 2025",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86418,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86418,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81428,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86418,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[161] = {
+		picture = "pack_2024_98",
+		name = "Choose-Your-Own Gift Pack I 2025",
+		type = 0,
+		second_text = "",
+		descrip = "Contains 980x Gems, 1x Choose-Your-Own Gift Pack I, and loads of other valuable rewards.",
+		subject = "Choose-Your-Own Gift Pack I",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1499,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 3,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.bfchoosebag6",
+		extra_gem = 0,
+		id = 161,
+		airijp_id = "com.yostaren.azurlane.bfchoosebag6",
+		name_display = "Choose-Your-Own Gift Pack I 2025",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81429,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81429,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81433,
+				1
+			}
+		}
+	},
+	[162] = {
+		picture = "pack_2024_198",
+		name = "Choose-Your-Own Gift Pack II 2025",
+		type = 0,
+		second_text = "",
+		descrip = "Contains 1980x Gems, 1x Choose-Your-Own Gift Pack II, and loads of other valuable rewards.",
+		subject = "Choose-Your-Own Gift Pack II",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 3,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.bfchoosebag7",
+		extra_gem = 0,
+		id = 162,
+		airijp_id = "com.yostaren.azurlane.bfchoosebag7",
+		name_display = "Choose-Your-Own Gift Pack II 2025",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81430,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81430,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81434,
+				1
+			}
+		}
+	},
+	[163] = {
+		picture = "pack_2024_328",
+		name = "Choose-Your-Own Gift Pack III 2025",
+		type = 0,
+		second_text = "",
+		descrip = "Contains 3280x Gems, 1x Choose-Your-Own Gift Pack III, and loads of other valuable rewards.",
+		subject = "Choose-Your-Own Gift Pack III",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 4499,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 3,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.bfchoosebag8",
+		extra_gem = 0,
+		id = 163,
+		airijp_id = "com.yostaren.azurlane.bfchoosebag8",
+		name_display = "Choose-Your-Own Gift Pack III 2025",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81431,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81431,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81435,
+				1
+			}
+		}
+	},
+	[164] = {
+		picture = "fudai99",
+		name = "Black Friday Lucky Bag (2025)",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Black Friday Lucky Bag (2025)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag71",
+		extra_gem = 0,
+		id = 164,
+		airijp_id = "com.yostaren.azurlane.luckybag71",
+		name_display = "Black Friday Lucky Bag (2025)",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86419,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86419,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81436,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86419,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[165] = {
+		picture = "fudai_L2d_new",
+		name = "Live2D Surprise Lucky Bag (2025)",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random unowned rerun L2D outfit and other supplies",
+		subject = "Live2D Surprise Lucky Bag (2025)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag72",
+		extra_gem = 0,
+		id = 165,
+		airijp_id = "com.yostaren.azurlane.luckybag72",
+		name_display = "Live2D Surprise Lucky Bag (2025)",
+		first_text = "Random Skin",
+		akashi_pick = 1,
+		skin_inquire_relation = 86420,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86420,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81437,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86420,
 				1
 			}
 		}
@@ -21954,3498 +25446,6 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81416,
-				1
-			}
-		}
-	},
-	[139] = {
-		picture = "fudai77",
-		name = "Black Friday Lucky Bag (2022)",
-		type = 1,
-		second_text = "",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Black Friday Lucky Bag (2022)",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond177",
-		extra_gem = 0,
-		id = 139,
-		airijp_id = "com.yostaren.azurlane.diamond177",
-		name_display = "Black Friday Lucky Bag (2022)",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				69976,
-				1
-			},
-			{
-				1,
-				4,
-				2022
-			},
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			},
-			{
-				2,
-				15003,
-				12
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					11,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69976,
-				1
-			},
-			{
-				1,
-				14,
-				2022
-			},
-			{
-				2,
-				42046,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40024,
-				1
-			}
-		}
-	},
-	[140] = {
-		picture = "fudai78",
-		name = "New Semester Lucky Pack",
-		type = 1,
-		second_text = "",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "New Semester Lucky Pack",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag8",
-		extra_gem = 0,
-		id = 140,
-		airijp_id = "com.yostaren.azurlane.luckybag8",
-		name_display = "New Semester Lucky Pack",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				69978,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			},
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69978,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			},
-			{
-				2,
-				42046,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40025,
-				1
-			}
-		}
-	},
-	[141] = {
-		picture = "fudai79",
-		name = "Onsen Souvenir Lucky Bag",
-		type = 1,
-		second_text = "",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Onsen Souvenir Lucky Bag",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag9",
-		extra_gem = 0,
-		id = 141,
-		airijp_id = "com.yostaren.azurlane.luckybag9",
-		name_display = "Onsen Souvenir Lucky Bag",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				69979,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			},
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69979,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			},
-			{
-				2,
-				42046,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				70052,
-				1
-			}
-		}
-	},
-	[142] = {
-		picture = "fudai80",
-		name = "Office Hour Lucky Box",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Office Hour Lucky Box",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag13",
-		extra_gem = 0,
-		id = 142,
-		airijp_id = "com.yostaren.azurlane.luckybag13",
-		name_display = "Office Hour Lucky Box",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 69980,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				69980,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			},
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40985,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				69980,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			}
-		}
-	},
-	[143] = {
-		picture = "fudai81",
-		name = "5th Anniversary Lucky Box",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "5th Anniversary Lucky Box",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag14",
-		extra_gem = 0,
-		id = 143,
-		airijp_id = "com.yostaren.azurlane.luckybag14",
-		name_display = "5th Anniversary Lucky Box",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 69981,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				69981,
-				1
-			},
-			{
-				1,
-				14,
-				2023
-			},
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40986,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				69981,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			}
-		}
-	},
-	[144] = {
-		picture = "fudai82",
-		name = "Halloween Lucky Box 2023",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Halloween Lucky Box 2023",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag18",
-		extra_gem = 0,
-		id = 144,
-		airijp_id = "com.yostaren.azurlane.luckybag18",
-		name_display = "Halloween Lucky Box 2023",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 69982,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				69982,
-				1
-			},
-			{
-				1,
-				14,
-				2023
-			},
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					10,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40987,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				69982,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			}
-		}
-	},
-	[145] = {
-		picture = "fudai82",
-		name = "Black Friday Lucky Bag (2023)",
-		type = 2,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Black Friday Lucky Bag (2023)",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag19",
-		extra_gem = 0,
-		id = 145,
-		airijp_id = "com.yostaren.azurlane.luckybag19",
-		name_display = "Black Friday Lucky Bag (2023)",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 69983,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				69983,
-				1
-			},
-			{
-				1,
-				14,
-				2023
-			},
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			},
-			{
-				2,
-				15003,
-				12
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					11,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40997,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				69983,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			}
-		}
-	},
-	[146] = {
-		picture = "fudai84",
-		name = "Cyber City Lucky Box",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
-		subject = "Cyber City Lucky Box",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag28",
-		extra_gem = 0,
-		id = 146,
-		airijp_id = "com.yostaren.azurlane.luckybag28",
-		name_display = "Cyber City Lucky Box",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86400,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86400,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					2,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					3,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81400,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86400,
-				1
-			},
-			{
-				1,
-				4,
-				2024
-			}
-		}
-	},
-	[147] = {
-		picture = "fudai85",
-		name = "Adventurer's Lucky Chest",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Adventurer's Lucky Chest",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag29",
-		extra_gem = 0,
-		id = 147,
-		airijp_id = "com.yostaren.azurlane.luckybag29",
-		name_display = "Adventurer's Lucky Chest",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86401,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86401,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81401,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86401,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			}
-		}
-	},
-	[148] = {
-		picture = "fudai86",
-		name = "Lavish Lucky Boombox",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Lavish Lucky Boombox",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag30",
-		extra_gem = 0,
-		id = 148,
-		airijp_id = "com.yostaren.azurlane.luckybag30",
-		name_display = "Lavish Lucky Boombox",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86402,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86402,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81402,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86402,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			}
-		}
-	},
-	[149] = {
-		picture = "fudai87",
-		name = "School Time Lucky Bag",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "School Time Lucky Bag",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag35",
-		extra_gem = 0,
-		id = 149,
-		airijp_id = "com.yostaren.azurlane.luckybag35",
-		name_display = "School Time Lucky Bag",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86403,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86403,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81403,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86403,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			}
-		}
-	},
-	[150] = {
-		picture = "fudai88",
-		name = "High Speed Lucky Bag",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "High Speed Lucky Bag",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag36",
-		extra_gem = 0,
-		id = 150,
-		airijp_id = "com.yostaren.azurlane.luckybag36",
-		name_display = "High Speed Lucky Bag",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86404,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86404,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					7,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81404,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86404,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			}
-		}
-	},
-	[151] = {
-		picture = "fudai89",
-		name = "6th Anniversary Lucky Barrel",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "6th Anniversary Lucky Barrel",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag37",
-		extra_gem = 0,
-		id = 151,
-		airijp_id = "com.yostaren.azurlane.luckybag37",
-		name_display = "6th Anniversary Lucky Barrel",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86405,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86405,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					8,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81405,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86405,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			}
-		}
-	},
-	[152] = {
-		picture = "fudai90",
-		name = "Halloween Lucky Box 2024",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Halloween Lucky Box 2024",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag42",
-		extra_gem = 0,
-		id = 152,
-		airijp_id = "com.yostaren.azurlane.luckybag42",
-		name_display = "Halloween Lucky Box 2024",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86406,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86406,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					10,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					11,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81406,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86406,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			}
-		}
-	},
-	[153] = {
-		picture = "fudai_L2d_new",
-		name = "Live2D Surprise Lucky Bag (2024)",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random unowned rerun L2D outfit and other supplies",
-		subject = "Black Friday Lucky Bag (2024)",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 2,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag44",
-		extra_gem = 0,
-		id = 153,
-		airijp_id = "com.yostaren.azurlane.luckybag44",
-		name_display = "Live2D Surprise Lucky Bag (2024)",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86407,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86407,
-				1
-			},
-			{
-				1,
-				1,
-				2000
-			},
-			{
-				1,
-				2,
-				1000
-			},
-			{
-				2,
-				15008,
-				20
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				1,
-				2000
-			},
-			{
-				1,
-				2,
-				1000
-			},
-			{
-				2,
-				15008,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81417,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86407,
-				1
-			}
-		}
-	},
-	[154] = {
-		picture = "fudai92",
-		name = "Black Friday Lucky Bag (2024)",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Black Friday Lucky Bag (2024)",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag43",
-		extra_gem = 0,
-		id = 154,
-		airijp_id = "com.yostaren.azurlane.luckybag43",
-		name_display = "Black Friday Lucky Bag (2024)",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86408,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86408,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			},
-			{
-				2,
-				15003,
-				12
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81418,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86408,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			}
-		}
-	},
-	[155] = {
-		picture = "fudai93",
-		name = "Nile Colors Lucky Box",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Nile Colors Lucky Box",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag53",
-		extra_gem = 0,
-		id = 155,
-		airijp_id = "com.yostaren.azurlane.luckybag53",
-		name_display = "Nile Colors Lucky Box",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86413,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86413,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81422,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86413,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			}
-		}
-	},
-	[156] = {
-		picture = "fudai94",
-		name = "Hospital Adventure Lucky Bag",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Hospital Adventure Lucky Bag",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag54",
-		extra_gem = 0,
-		id = 156,
-		airijp_id = "com.yostaren.azurlane.luckybag54",
-		name_display = "Hospital Adventure Lucky Bag",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86414,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86414,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					3,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81423,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86414,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			}
-		}
-	},
-	[157] = {
-		picture = "fudai95",
-		name = "Pajama Party Lucky Bag",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Pajama Party Lucky Bag",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag56",
-		extra_gem = 0,
-		id = 157,
-		airijp_id = "com.yostaren.azurlane.luckybag56",
-		name_display = "Pajama Party Lucky Bag",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86415,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86415,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81424,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86415,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			}
-		}
-	},
-	[158] = {
-		picture = "fudai96",
-		name = "Office Cabinet Lucky Box",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Office Cabinet Lucky Box",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag61",
-		extra_gem = 0,
-		id = 158,
-		airijp_id = "com.yostaren.azurlane.luckybag61",
-		name_display = "Office Cabinet Lucky Box",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86416,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86416,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81426,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86416,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			}
-		}
-	},
-	[159] = {
-		picture = "fudai97",
-		name = "7th Anniversary Lucky bag",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "7th Anniversary Lucky bag",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag63",
-		extra_gem = 0,
-		id = 159,
-		airijp_id = "com.yostaren.azurlane.luckybag63",
-		name_display = "7th Anniversary Lucky bag",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86417,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86417,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			},
-			{
-				2,
-				42076,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81427,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86417,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			}
-		}
-	},
-	[160] = {
-		picture = "fudai98",
-		name = "Halloween Lucky Box 2025",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Halloween Lucky Box 2025",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag69",
-		extra_gem = 0,
-		id = 160,
-		airijp_id = "com.yostaren.azurlane.luckybag69",
-		name_display = "Halloween Lucky Box 2025",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86418,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86418,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			},
-			{
-				2,
-				42076,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42076,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81428,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86418,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			}
-		}
-	},
-	[161] = {
-		picture = "pack_2024_98",
-		name = "Choose-Your-Own Gift Pack I 2025",
-		type = 0,
-		second_text = "",
-		descrip = "Contains 980x Gems, 1x Choose-Your-Own Gift Pack I, and loads of other valuable rewards.",
-		subject = "Choose-Your-Own Gift Pack I",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 1499,
-		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 3,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.bfchoosebag6",
-		extra_gem = 0,
-		id = 161,
-		airijp_id = "com.yostaren.azurlane.bfchoosebag6",
-		name_display = "Choose-Your-Own Gift Pack I 2025",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				81429,
-				1
-			},
-			{
-				1,
-				14,
-				980
-			},
-			{
-				2,
-				16501,
-				100
-			},
-			{
-				2,
-				59010,
-				1000
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				81429,
-				1
-			},
-			{
-				1,
-				14,
-				980
-			},
-			{
-				2,
-				16501,
-				100
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81433,
-				1
-			}
-		}
-	},
-	[162] = {
-		picture = "pack_2024_198",
-		name = "Choose-Your-Own Gift Pack II 2025",
-		type = 0,
-		second_text = "",
-		descrip = "Contains 1980x Gems, 1x Choose-Your-Own Gift Pack II, and loads of other valuable rewards.",
-		subject = "Choose-Your-Own Gift Pack II",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 3,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.bfchoosebag7",
-		extra_gem = 0,
-		id = 162,
-		airijp_id = "com.yostaren.azurlane.bfchoosebag7",
-		name_display = "Choose-Your-Own Gift Pack II 2025",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				81430,
-				1
-			},
-			{
-				1,
-				14,
-				1980
-			},
-			{
-				2,
-				15008,
-				1000
-			},
-			{
-				2,
-				30114,
-				30
-			},
-			{
-				2,
-				59010,
-				2000
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				81430,
-				1
-			},
-			{
-				1,
-				14,
-				1980
-			},
-			{
-				2,
-				15008,
-				1000
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81434,
-				1
-			}
-		}
-	},
-	[163] = {
-		picture = "pack_2024_328",
-		name = "Choose-Your-Own Gift Pack III 2025",
-		type = 0,
-		second_text = "",
-		descrip = "Contains 3280x Gems, 1x Choose-Your-Own Gift Pack III, and loads of other valuable rewards.",
-		subject = "Choose-Your-Own Gift Pack III",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 4499,
-		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 3,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.bfchoosebag8",
-		extra_gem = 0,
-		id = 163,
-		airijp_id = "com.yostaren.azurlane.bfchoosebag8",
-		name_display = "Choose-Your-Own Gift Pack III 2025",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				81431,
-				1
-			},
-			{
-				1,
-				14,
-				3280
-			},
-			{
-				2,
-				15012,
-				150
-			},
-			{
-				2,
-				15008,
-				2000
-			},
-			{
-				2,
-				16004,
-				2
-			},
-			{
-				2,
-				16014,
-				2
-			},
-			{
-				2,
-				16024,
-				2
-			},
-			{
-				2,
-				16032,
-				30
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				81431,
-				1
-			},
-			{
-				1,
-				14,
-				3280
-			},
-			{
-				2,
-				15012,
-				150
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81435,
-				1
-			}
-		}
-	},
-	[164] = {
-		picture = "fudai99",
-		name = "Black Friday Lucky Bag (2025)",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		subject = "Black Friday Lucky Bag (2025)",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 2999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag71",
-		extra_gem = 0,
-		id = 164,
-		airijp_id = "com.yostaren.azurlane.luckybag71",
-		name_display = "Black Friday Lucky Bag (2025)",
-		first_text = "Random Skin & Abundant Gems",
-		akashi_pick = 1,
-		skin_inquire_relation = 86419,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86419,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			},
-			{
-				2,
-				42076,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			},
-			{
-				2,
-				15003,
-				12
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				42076,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81436,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86419,
-				1
-			},
-			{
-				1,
-				14,
-				2025
-			}
-		}
-	},
-	[165] = {
-		picture = "fudai_L2d_new",
-		name = "Live2D Surprise Lucky Bag (2025)",
-		type = 1,
-		second_text = "Many Rewards",
-		descrip = "Contains a random unowned rerun L2D outfit and other supplies",
-		subject = "Live2D Surprise Lucky Bag (2025)",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 2,
-		package_sort_id = 0,
-		limit_type = 2,
-		limit_arg = 2,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.luckybag72",
-		extra_gem = 0,
-		id = 165,
-		airijp_id = "com.yostaren.azurlane.luckybag72",
-		name_display = "Live2D Surprise Lucky Bag (2025)",
-		first_text = "Random Skin",
-		akashi_pick = 1,
-		skin_inquire_relation = 86420,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				86420,
-				1
-			},
-			{
-				1,
-				1,
-				2000
-			},
-			{
-				1,
-				2,
-				1000
-			},
-			{
-				2,
-				15008,
-				20
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				1,
-				2000
-			},
-			{
-				1,
-				2,
-				1000
-			},
-			{
-				2,
-				15008,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81437,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				86420,
 				1
 			}
 		}

@@ -373,6 +373,7 @@ pg.skill_data_template = setmetatable({
 		60960,
 		60970,
 		60980,
+		60990,
 		7000,
 		9010,
 		9020,
@@ -2696,6 +2697,13 @@ pg.skill_data_template = setmetatable({
 		801962,
 		801965,
 		801967,
+		801970,
+		801980,
+		801990,
+		802001,
+		802002,
+		802005,
+		802007,
 		901010,
 		901020,
 		902010,
@@ -13394,6 +13402,20 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		max_level = 0,
 		desc = "Changes the combat BGM when equipped. If additional gear that changes the BGM is equipped at the same time, only a randomly chosen one will take effect.",
 		id = 60980,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60990] = {
+		desc_get = "",
+		name = "Director's Screenplay",
+		type = 0,
+		max_level = 0,
+		desc = "When the battle starts, and every 30s: applies a random buff to the wearer.",
+		id = 60990,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -179238,6 +179260,433 @@ Additionally, once per battle each, the following effects activate based on the 
 		id = 801967,
 		system_transform = {
 			[51.0] = 801967
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801970] = {
+		desc_get = "",
+		name = "To Gaze Upon Fate",
+		type = 3,
+		max_level = 10,
+		desc = "5s after the battle starts, and every 10s after that: inflicts the Observed status on enemies without this status until the battle ends (prioritizes humanoid enemies), decreasing their FP and AVI by $1. When this ship's airstrike finishes loading: inflicts the Focused Gaze status against enemies with the Observed status for 10s, decreasing their AA, EVA, and SPD by $2. Enemies with Focused Gaze take $3 more DMG from \"Yorktown\", but also deal 5.0% more DMG to Yorktown META.",
+		id = 801970,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"5.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[801980] = {
+		desc_get = "",
+		name = "To Remember the Past",
+		type = 2,
+		max_level = 10,
+		desc = "When the battle starts: increases this ship's max Detection Gauge value by 15. When this ship launches an airstrike: launches a special $2 airstrike (DMG is based on the skill's level) and increases this ship's Detection Gauge recovery by 2 for 5s. Once per battle, when this ship's HP falls below 20.0% as a result of DMG taken: restores $1 of this ship's max HP and launches a $2 special airstrike; if there is an enemy with Focused Gaze when this effect activates, this ship's Detection Gauge value is set to 0.",
+		id = 801980,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[801990] = {
+		desc_get = "",
+		name = "To Witness Life and Death",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's AVI by $1. If your Airspace Control state is not Air Denial or Air Incapability, \"Yorktown\" takes $2 less aircraft DMG. Increases the RLD and ACC of all ships with a Framework of Logic skill by $1.",
+		id = 801990,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[802001] = {
+		desc_get = "",
+		name = "Framework of Logic - Yorktown I",
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases META ships' DMG dealt by 2.0%.",
+		id = 802001,
+		system_transform = {
+			[51.0] = 802005
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802002] = {
+		desc_get = "",
+		name = "Framework of Logic - Yorktown II",
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases META ships' DMG dealt by 6.0%.",
+		id = 802002,
+		system_transform = {
+			[51.0] = 802007
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802005] = {
+		desc_get = "",
+		name = "Framework of Logic - Yorktown I",
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases META ships' DMG dealt by 2.0%.",
+		id = 802005,
+		system_transform = {
+			[51.0] = 802005
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802007] = {
+		desc_get = "",
+		name = "Framework of Logic - Yorktown II",
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases META ships' DMG dealt by 6.0%.",
+		id = 802007,
+		system_transform = {
+			[51.0] = 802007
 		},
 		world_death_mark = {
 			1

@@ -3379,6 +3379,12 @@ pg.skill_data_display = setmetatable({
 		801891,
 		801921,
 		801952,
+		801970,
+		801971,
+		801972,
+		801973,
+		801980,
+		801990,
 		902201,
 		1010140,
 		1010143,
@@ -3616,6 +3622,7 @@ pg.skill_data_display = setmetatable({
 		201532,
 		201547,
 		201550,
+		201633,
 		1011540,
 		1011541,
 		1090010,
@@ -17360,6 +17367,30 @@ pg.base.skill_data_display = {
 		id = 801952,
 		name = "Tragedy's Ward"
 	},
+	[801970] = {
+		id = 801970,
+		name = "To Gaze Upon Fate"
+	},
+	[801971] = {
+		id = 801971,
+		name = "To Gaze Upon Fate"
+	},
+	[801972] = {
+		id = 801972,
+		name = "To Gaze Upon Fate"
+	},
+	[801973] = {
+		id = 801973,
+		name = "To Gaze Upon Fate"
+	},
+	[801980] = {
+		id = 801980,
+		name = "To Remember the Past"
+	},
+	[801990] = {
+		id = 801990,
+		name = "To Witness Life and Death"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -18307,6 +18338,10 @@ pg.base.skill_data_display = {
 	[201550] = {
 		id = 201550,
 		name = "Island Ruins Support"
+	},
+	[201633] = {
+		id = 201633,
+		name = "Zeroth Quadrant Expansion -5%"
 	},
 	[1011540] = {
 		id = 1011540,

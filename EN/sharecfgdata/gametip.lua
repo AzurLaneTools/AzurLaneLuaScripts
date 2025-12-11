@@ -5972,7 +5972,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>9/4/25 to 12/10/25</color>, challenge Yuudachi META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yuudachi META</color> as well as other great rewards.
+From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yorktown META</color> as well as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
 - Acquiring and Analyzing META Coordinates -
@@ -21832,10 +21832,10 @@ _G.pg.base.gametip.meta_help = {
 			info = "Sync Points obtained through META Showdown in Operation Siren can be used to recruit certain META ships."
 		},
 		{
-			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship.\n\n"
+			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship's tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you'll be able to recruit a META ship.\n\n"
 		},
 		{
-			info = "From <color=#92fc63>9/4/25 to 12/10/25</color>, challenge Yuudachi META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yuudachi META</color> as well as other great rewards.\n\n"
+			info = "From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yorktown META</color> as well as other great rewards.\n\n"
 		},
 		{
 			info = "2. About Rigging Fortification:"
@@ -21862,10 +21862,10 @@ _G.pg.base.gametip.meta_help = {
 			info = "4. About Tactical Research:"
 		},
 		{
-			info = "The skills of META ships can only be leveled in the META Lab. You can head to a META ship’s skill menu through the Somatic Activation screen."
+			info = "The skills of META ships can only be leveled in the META Lab. You can head to a META ship's skill menu through the Somatic Activation screen."
 		},
 		{
-			info = "Leveling a META ship’s skills requires specific materials and are fed EXP through the completion of special META ship skill missions."
+			info = "Leveling a META ship's skills requires specific materials and are fed EXP through the completion of special META ship skill missions."
 		},
 		{
 			info = "Note that there is a limit to how much EXP can be gained in a single day, and that only 1 skill per META ship can be leveled at a time."
@@ -46207,12 +46207,12 @@ In the <color=#92fc63>group votes</color>, the <color=#92fc63>repechage</color>,
 
 
 _G.pg.base.gametip.HelenaCoreActivity_title = {
-	tip = "Memories in Echo"
+	tip = "Event"
 }
 
 
 _G.pg.base.gametip.HelenaCoreActivity_title2 = {
-	tip = ""
+	tip = "Event"
 }
 
 
@@ -46223,4 +46223,19 @@ _G.pg.base.gametip.HelenaPTPage_title = {
 
 _G.pg.base.gametip.HelenaPTPage_title2 = {
 	tip = ""
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_1 = {
+	tip = "Memories in Echo"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_2 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_3 = {
+	tip = "To a Brighter World"
 }

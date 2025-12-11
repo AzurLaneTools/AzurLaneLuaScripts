@@ -202,6 +202,10 @@ pg.ship_meta_breakout = setmetatable({
 		9707072,
 		9707073,
 		9707074,
+		9707081,
+		9707082,
+		9707083,
+		9707084,
 		9708011,
 		9708012,
 		9708013,
@@ -3367,7 +3371,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707062] = {
-		breakout_view = "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+		breakout_view = "Hangar capacity +1/Dive Bombers +1/Aircraft efficiency +5%",
 		item2 = 21001,
 		pre_id = 9707061,
 		repair = 0,
@@ -3484,6 +3488,75 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9707074,
 		item1 = 21048,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9707081] = {
+		breakout_view = "Unlock Framework of Logic - Yorktown/All Fighters +1/Aircraft efficiency +3%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9707082,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707081,
+		item1 = 21054,
+		level = 10,
+		weapon_ids = {
+			60081,
+			54014
+		}
+	},
+	[9707082] = {
+		breakout_view = "Hangar capacity +1/Dive Bombers +1/Aircraft efficiency +5%",
+		item2 = 21001,
+		pre_id = 9707081,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9707083,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707082,
+		item1 = 21054,
+		level = 30,
+		weapon_ids = {
+			60082,
+			54014,
+			60082,
+			54014
+		}
+	},
+	[9707083] = {
+		breakout_view = "Improve Framework of Logic - Yorktown/All aircraft +1/Aircraft efficiency +7%",
+		item2 = 21001,
+		pre_id = 9707082,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9707084,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9707083,
+		item1 = 21054,
+		level = 70,
+		weapon_ids = {
+			60083,
+			54015,
+			60083,
+			54015
+		}
+	},
+	[9707084] = {
+		breakout_view = "None",
+		item2 = 21001,
+		pre_id = 9707083,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9707084,
+		item1 = 21054,
 		level = 0,
 		weapon_ids = {}
 	},

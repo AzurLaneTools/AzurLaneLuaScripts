@@ -30,6 +30,10 @@ slot0.SetUp = function(slot0)
 	slot0:AddListeners()
 end
 
+slot0.Enter = function(slot0)
+	slot0:DoEnter()
+end
+
 slot0.UnBlockLayer1Event = function(slot0, slot1)
 	slot0.layer1ContainerCg.blocksRaycasts = slot1
 end
@@ -172,6 +176,9 @@ slot0.Dispose = function(slot0)
 end
 
 slot0.Init = function(slot0)
+end
+
+slot0.DoEnter = function(slot0)
 end
 
 slot0.Update = function(slot0)

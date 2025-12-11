@@ -41,7 +41,7 @@ slot0.onInitMemoryItem = function(slot0, slot1)
 	end
 
 	onButton(slot0, slot1, function ()
-		if uv0.memoryItems[uv1] and (slot0.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot0.story, true)) then
+		if uv0.memoryItems[uv1] and (slot0.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot0.unlock_pre, true)) then
 			uv0:PlayMemory(slot0)
 		end
 	end, SOUND_BACK)
@@ -56,7 +56,7 @@ slot0.onUpdateMemoryItem = function(slot0, slot1, slot2)
 	slot0.memoryItems[slot2] = slot3
 	slot4 = tf(slot2)
 
-	if slot3.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot3.story, true) then
+	if slot3.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot3.unlock_pre, true) then
 		setActive(slot4:Find("normal"), true)
 		setActive(slot4:Find("lock"), false)
 
@@ -133,7 +133,7 @@ slot0.ShowSubMemories = function(slot0, slot1, slot2)
 
 	slot4 = #slot0.memories
 	slot5 = _.reduce(slot0.memories, 0, function (slot0, slot1)
-		if slot1.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot1.story, true) then
+		if slot1.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot1.unlock_pre, true) then
 			slot0 = slot0 + 1
 		end
 

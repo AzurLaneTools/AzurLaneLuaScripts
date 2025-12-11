@@ -43,24 +43,6 @@ slot0.Build = function(slot0, slot1, slot2)
 	return slot4
 end
 
-slot0.SetupBT = function(slot0, slot1, slot2, slot3)
-	if not slot2 or slot2 == "" then
-		slot3()
-
-		return
-	end
-
-	slot4 = IslandAssetLoadDispatcher.Instance
-
-	slot0:AddLoadingID(slot4:Enqueue(slot2, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		assert(slot0, uv0)
-
-		GetOrAddComponent(uv1, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = Object.Instantiate(slot0)
-
-		uv2()
-	end), true, true))
-end
-
 slot0.GetModule = function(slot0, slot1, slot2)
 	return AgoraFurnitrueMould.New(slot0.view, slot1, slot2)
 end

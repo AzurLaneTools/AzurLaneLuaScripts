@@ -2604,5 +2604,30 @@ pg.voice_bgm = {
 		default_bgm = "theme-starsea-core",
 		special_bgm = "",
 		bgm = "theme-starsea-core"
+	},
+	XingdengbaoTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	HelenaFramePage = {
+		default_bgm = "theme-objectX-spread",
+		special_bgm = "",
+		bgm = "theme-objectX-spread"
+	},
+	HelenaLoginPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
+	},
+	WinterFestival2025SkinReSellPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	WinterFestival2025PassPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
 	}
 }

@@ -73,6 +73,26 @@ slot0.Init = function(slot0)
 	}
 end
 
+slot0.DoEnter = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0:GetAllUnits()) do
+		table.insert(slot1, function (slot0)
+			uv0:Start()
+
+			if uv1 % 3 == 0 then
+				slot0()
+			else
+				onNextTick(slot0)
+			end
+		end)
+	end
+
+	seriesAsync(slot1, function ()
+		uv0.isInit = true
+	end)
+end
+
 slot0.GetSubView = function(slot0, slot1)
 	slot2 = ipairs
 	slot3 = slot0.views or {}
@@ -1065,21 +1085,10 @@ end
 
 slot0.OnSceneInited = function(slot0, slot1)
 	IslandCameraMgr.instance:LookAt(slot0.player._tf)
-
-	slot7 = slot1.max
-	slot8 = slot1.value
-
-	IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME).gameObject:GetComponent(typeof(CameraZoom)):SetMaxMinZoom(slot1.min, slot7, slot8)
+	IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME).gameObject:GetComponent(typeof(CameraZoom)):SetMaxMinZoom(slot1.min, slot1.max, slot1.value)
 	slot0:InitFocusCamera()
 	slot0:InitTakePhotoCamera()
-
-	for slot7, slot8 in ipairs(slot0:GetAllUnits()) do
-		slot8:Start()
-	end
-
 	slot0:GetSubView(IslandOpView):LaterInit()
-
-	slot0.isInit = true
 end
 
 slot0.OnGenUnit = function(slot0, slot1, slot2)

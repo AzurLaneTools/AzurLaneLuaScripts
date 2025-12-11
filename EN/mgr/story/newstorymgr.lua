@@ -126,15 +126,23 @@ slot0.GetPlayedList = function(slot0)
 end
 
 slot0.IsPlayed = function(slot0, slot1, slot2)
-	slot3, slot4 = slot0:StoryName2StoryId(slot1)
-	slot5 = slot0:GetPlayedFlag(slot3)
-	slot6 = true
-
-	if slot4 and not slot2 then
-		slot6 = slot0:GetPlayedFlag(slot4)
+	if type(slot1) ~= "table" then
+		slot1 = {
+			slot1
+		}
 	end
 
-	return slot5 and slot6
+	return underscore.any(slot1, function (slot0)
+		slot1, slot2 = uv0:StoryName2StoryId(slot0)
+		slot3 = uv0:GetPlayedFlag(slot1)
+		slot4 = true
+
+		if slot2 and not uv1 then
+			slot4 = uv0:GetPlayedFlag(slot2)
+		end
+
+		return slot3 and slot4
+	end)
 end
 
 slot14 = function(slot0)
@@ -873,7 +881,7 @@ slot0.OnEnd = function(slot0, slot1)
 		if slot0.storyScript:GetNextScriptName() and not slot0:IsReView() then
 			slot0.storyScript = nil
 
-			slot0:Play(slot2, slot1)
+			slot0:SoloPlay(slot2, slot1, true)
 		else
 			slot3 = slot0.storyScript:GetBranchCode()
 			slot0.storyScript = nil

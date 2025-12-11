@@ -1305,11 +1305,21 @@ slot0.OnExitChapter = function(slot0, slot1, slot2, slot3)
 				if _.any(slot5, function (slot0)
 					return slot0 == uv0.id
 				end) then
-					if _.any(pg.memory_group[slot4.memory_group].memories, function (slot0)
-						return not pg.NewStoryMgr.GetInstance():IsPlayed(pg.memory_template[slot0].story, true)
-					end) then
+					slot8 = underscore.filter(pg.memory_group[slot4.memory_group].memories, function (slot0)
+						return not pg.NewStoryMgr.GetInstance():IsPlayed(pg.memory_template[slot0].unlock_pre, true)
+					end)
+
+					underscore.each(slot8, function (slot0)
+						for slot4, slot5 in ipairs(pg.memory_template[slot0].unlock_pre) do
+							slot6, slot7 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot5)
+
+							pg.NewStoryMgr.GetInstance():SetPlayedFlag(slot6)
+						end
+					end)
+
+					if #slot8 > 0 then
 						_.each(slot7, function (slot0)
-							slot2, slot3 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(pg.memory_template[slot0].story)
+							slot2, slot3 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(pg.memory_template[slot0].unlock_pre)
 
 							pg.NewStoryMgr.GetInstance():SetPlayedFlag(slot2)
 						end)

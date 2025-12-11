@@ -466,7 +466,7 @@ return {
 			},
 			options = {
 				{
-					content = "是怎样的光芒让你不远错失？",
+					content = "是怎样的光芒让你不愿错失？",
 					flag = 1
 				},
 				{
@@ -483,7 +483,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是怎样的光芒让你不远错失？",
+			say = "是怎样的光芒让你不愿错失？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

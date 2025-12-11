@@ -1,5 +1,78 @@
 pg = pg or {}
 pg.enemy_data_statistics_255 = {
+	[16409302] = {
+		cannon = 26,
+		air = 0,
+		torpedo = 29,
+		cannon_growth = 720,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		armor = 0,
+		dodge = 20,
+		torpedo_growth = 1000,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 162,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 55,
+		base = 90286,
+		durability = 6200,
+		armor_growth = 0,
+		durability_growth = 30400,
+		antiaircraft = 120,
+		speed = 25,
+		luck = 0,
+		antiaircraft_growth = 2200,
+		id = 16409302,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			618310,
+			618311,
+			618312,
+			618313
+		}
+	},
+	[16409303] = {
+		cannon = 26,
+		air = 0,
+		torpedo = 29,
+		cannon_growth = 720,
+		id = 16409303,
+		reload = 150,
+		armor = 0,
+		dodge = 20,
+		torpedo_growth = 1000,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 162,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 55,
+		base = 90282,
+		durability = 6200,
+		armor_growth = 0,
+		durability_growth = 30400,
+		antiaircraft = 120,
+		speed = 25,
+		luck = 0,
+		antiaircraft_growth = 2200,
+		fog_fx = "",
+		antisub = 0,
+		equipment_list = {
+			618314,
+			618315,
+			618316,
+			618317
+		}
+	},
 	[16409304] = {
 		cannon = 198,
 		air = 0,
@@ -1304,106 +1377,6 @@ pg.enemy_data_statistics_255 = {
 			1100105,
 			1100190,
 			1100475
-		}
-	},
-	[16500113] = {
-		cannon = 24,
-		name = "Le Mars Mechanicus Pawn - Striker",
-		hit_growth = 210,
-		speed_growth = 0,
-		armor = 0,
-		air = 0,
-		icon_type = 3,
-		type = 3,
-		id = 16500113,
-		antiaircraft = 35,
-		antiaircraft_growth = 2880,
-		fog_fx = "",
-		dodge_growth = 102,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90279,
-		durability = 780,
-		armor_growth = 0,
-		torpedo_growth = 2763,
-		speed = 18,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 2016,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 7,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 33,
-		durability_growth = 41600,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1100030,
-			1100620,
-			1100650,
-			1100475
-		}
-	},
-	[16500114] = {
-		cannon = 31,
-		name = "Le Mars Mechanicus Pawn - Annihilator",
-		hit_growth = 210,
-		speed_growth = 0,
-		armor = 0,
-		air = 0,
-		icon_type = 5,
-		type = 5,
-		id = 16500114,
-		antiaircraft = 45,
-		antiaircraft_growth = 3744,
-		dodge_growth = 48,
-		fog_fx = "",
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90279,
-		durability = 1020,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 14,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 2592,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 3,
-		reload_growth = 0,
-		hit = 18,
-		torpedo = 0,
-		durability_growth = 49600,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1100030,
-			1100550,
-			1100915,
-			1100735
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 1
-			}
 		}
 	}
 }

@@ -695,7 +695,7 @@ slot0.readyToAchieve = function(slot0)
 			return slot0.data1 < #pg.activity_7_day_sign[slot0:getConfig("config_id")].front_drops and not slot3:IsSameDay(slot4, slot0.data2) and slot0.data2 < slot4
 		end,
 		[ActivityConst.ACTIVITY_TYPE_PT_HEI5] = function (slot0)
-			return #getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_HEI5):GetHei5UnreceiveAward() > 0
+			return #slot0:GetHei5UnreceiveAward() > 0
 		end
 	}
 
@@ -1173,16 +1173,6 @@ end
 
 slot0.IsActivityReady = function(slot0)
 	return slot0 and not slot0:isEnd() and slot0:readyToAchieve()
-end
-
-slot0.GetEndTimeStrByConfig = function(slot0)
-	if type(slot0:getConfig("time")) == "table" then
-		slot2 = slot1[3]
-
-		return slot2[1][2] .. "." .. slot2[1][3]
-	else
-		return ""
-	end
 end
 
 slot0.NeedLoginRedPoint = function(slot0)

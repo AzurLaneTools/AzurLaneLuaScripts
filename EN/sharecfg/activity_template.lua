@@ -41965,6 +41965,7 @@ pg.activity_template = {
 	},
 	[50245] = {
 		mark = 20251120,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 50245,
@@ -41973,33 +41974,6 @@ pg.activity_template = {
 		id = 50245,
 		page_core = "DALCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "DALptPage",
 			ui_name = "DALptPage"
@@ -42017,6 +41991,7 @@ pg.activity_template = {
 	[50246] = {
 		mark = 20251120,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -42052,33 +42027,6 @@ pg.activity_template = {
 			3525,
 			3526,
 			3527
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_aersasi",
@@ -42710,6 +42658,7 @@ pg.activity_template = {
 	[50258] = {
 		mark = 20251120,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 588,
@@ -42718,34 +42667,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 50258,
-		page_core = "",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		page_core = ""
 	},
 	[50259] = {
 		mark = 20251120,
@@ -42840,8 +42762,8 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 50261,
-		is_show = 2,
-		title_res_tag = "",
+		is_show = 4,
+		title_res_tag = "HelenaCoreActivity_subtitle_1",
 		id = 50261,
 		page_core = "HelenaCoreActivityUI",
 		config_data = {},
@@ -42941,6 +42863,231 @@ pg.activity_template = {
 					23,
 					59,
 					59
+				}
+			}
+		}
+	},
+	[50263] = {
+		mark = 20251211,
+		type = 69,
+		login_pop = 0,
+		config_id = 34,
+		is_show = 45,
+		title_res_tag = "Georgia_catchup",
+		id = 50263,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "XingdengbaoTecCatchupPage",
+			ui_name = "XingdengbaoTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42054
+		}
+	},
+	[50264] = {
+		mark = 20251211,
+		type = 87,
+		login_pop = 0,
+		config_id = 34,
+		is_show = 2,
+		config_client = "",
+		title_res_tag = "HelenaCoreActivity_subtitle_2",
+		id = 50264,
+		page_core = "HelenaCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HelenaFramePage",
+			ui_name = "HelenaFramePage"
+		}
+	},
+	[50265] = {
+		mark = 20251211,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 38,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50265,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50266] = {
+		mark = 20251211,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 3,
+		title_res_tag = "HelenaCoreActivity_subtitle_3",
+		id = 50266,
+		page_core = "HelenaCoreActivityUI",
+		config_data = {
+			{
+				24781,
+				24782
+			},
+			{
+				24783,
+				24784
+			},
+			{
+				24785,
+				24786
+			},
+			{
+				24787,
+				24788
+			},
+			{
+				24789,
+				24790
+			},
+			{
+				24791,
+				24792
+			},
+			{
+				24793,
+				24794
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HelenaLoginPage",
+			ui_name = "HelenaLoginPage"
+		},
+		config_client = {
+			firstStory = "ZHIMEIHAOSHIJIE1",
+			story = {
+				{
+					"ZHIMEIHAOSHIJIE2"
+				},
+				{
+					"ZHIMEIHAOSHIJIE3"
+				},
+				{
+					"ZHIMEIHAOSHIJIE4"
+				},
+				{
+					"ZHIMEIHAOSHIJIE5"
+				},
+				{
+					"ZHIMEIHAOSHIJIE6"
+				},
+				{
+					"ZHIMEIHAOSHIJIE7"
+				},
+				{
+					"ZHIMEIHAOSHIJIE8"
 				}
 			}
 		}
@@ -71262,6 +71409,7 @@ pg.activity_template = {
 			50231,
 			50234,
 			50240,
+			50266,
 			6000,
 			6001,
 			6002,
@@ -71735,7 +71883,8 @@ pg.activity_template = {
 			5998,
 			50102,
 			50161,
-			50230
+			50230,
+			50264
 		},
 		[58] = {
 			4908,
@@ -71765,6 +71914,7 @@ pg.activity_template = {
 			50103,
 			50162,
 			50232,
+			50265,
 			30201,
 			30289,
 			30336,
@@ -71995,6 +72145,7 @@ pg.activity_template = {
 			5921,
 			50069,
 			50101,
+			50263,
 			30457,
 			30705,
 			30810
@@ -73351,6 +73502,10 @@ pg.activity_template = {
 		50260,
 		50261,
 		50262,
+		50263,
+		50264,
+		50265,
+		50266,
 		7001,
 		7011,
 		7012,

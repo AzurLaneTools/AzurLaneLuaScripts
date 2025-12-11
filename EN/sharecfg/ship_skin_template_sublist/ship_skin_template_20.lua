@@ -1,6 +1,126 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[11300020] = {
+		name = "Isla von Duerer",
+		change_skin = "",
+		desc = "I'm Isla von Duerer! Call me Isla! I'm with the Order of Eustella and the Aladiss Research Team... So hey, why am I here?! Do you know why?",
+		illustrator2 = -1,
+		ship_group = 1130002,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "aila",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300020,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "aila",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 291,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.353,
+					0.833,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.338,
+					0.922,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.977,
+					2.229,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.609,
+							2.334,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[11300021] = {
 		name = "Open-Air Vacationeer",
 		change_skin = "",
@@ -17618,7 +17738,7 @@ pg.base.ship_skin_template_20 = {
 		get_showing = "",
 		prefab = "nabulesi_2",
 		l2d_se = "",
-		shop_dynamic_hx = 0,
+		shop_dynamic_hx = 1,
 		double_char = 0,
 		main_UI_FX = "",
 		shop_id = 71091,
@@ -17918,7 +18038,7 @@ pg.base.ship_skin_template_20 = {
 		get_showing = "",
 		prefab = "naximofu_2",
 		l2d_se = "",
-		shop_dynamic_hx = 0,
+		shop_dynamic_hx = 1,
 		double_char = 0,
 		main_UI_FX = "",
 		shop_id = 71092,
@@ -19074,7 +19194,7 @@ pg.base.ship_skin_template_20 = {
 		get_showing = "",
 		prefab = "dashan_2",
 		l2d_se = "",
-		shop_dynamic_hx = 0,
+		shop_dynamic_hx = 1,
 		double_char = 0,
 		main_UI_FX = "",
 		shop_id = 71095,

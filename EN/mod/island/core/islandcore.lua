@@ -18,7 +18,17 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.view:SetBgm(slot8)
 	slot0.sceneLoader:Load(slot6, slot7, {
 		function (slot0)
+			uv0:SetUp(slot0)
+		end,
+		function (slot0)
+			onNextTick(slot0)
+		end,
+		function (slot0)
 			uv0:Init(slot0)
+		end,
+		function (slot0)
+			uv0:UpdateState(uv1.STATE_INIT_FINISH)
+			slot0()
 		end
 	})
 
@@ -37,7 +47,7 @@ slot0.UpdateState = function(slot0, slot1)
 	pg.m02:sendNotification(GAME.ISLAND_CORE_STATE_CHANGED, slot1)
 end
 
-slot0.Init = function(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot0:UpdateState(uv0.STATE_INIT)
 	slot0.view:SetUp()
 	slot0.controller:SetUp()
@@ -54,10 +64,13 @@ slot0.Init = function(slot0, slot1)
 		LateUpdateBeat:AddListener(slot0.lateUpdateluHandle)
 	end
 
-	slot0.callback = function()
-		uv0()
-		uv1:UpdateState(uv2.STATE_INIT_FINISH)
-	end
+	slot0.callback = slot1
+end
+
+slot0.Init = function(slot0, slot1)
+	slot0.view:Enter()
+
+	slot0.initCallback = slot1
 end
 
 slot0.GetMapId = function(slot0)
@@ -80,6 +93,12 @@ slot0.Update = function(slot0)
 		slot0.callback()
 
 		slot0.callback = nil
+	end
+
+	if slot0.initCallback and slot0.view:IsInit() then
+		slot0.initCallback()
+
+		slot0.initCallback = nil
 	end
 end
 

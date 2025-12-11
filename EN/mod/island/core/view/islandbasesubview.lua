@@ -11,7 +11,7 @@ end
 slot0.LoadUI = function(slot0, slot1)
 	slot2 = IslandAssetLoadDispatcher.Instance
 	slot0.loadingId = slot2:Enqueue("UI/" .. slot0:GetUIName(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		uv1(cloneTplTo(slot0, uv0:SetUIParent()).gameObject)
+		uv0.insId = FrameAsyncInstantiateManager.Instance:EnqueueInstantiateUI(slot0, uv0:GetUIParent(), Vector3.zero, uv1)
 	end), true, true)
 end
 
@@ -47,6 +47,12 @@ slot0.UnloadUI = function(slot0)
 
 		slot0.loadingId = nil
 	end
+
+	if slot0.insId then
+		FrameAsyncInstantiateManager.Instance:Cancel(slot0.insId)
+
+		slot0.insId = nil
+	end
 end
 
 slot0.ShowMsgbox = function(slot0, slot1)
@@ -65,7 +71,7 @@ slot0.GetUIName = function(slot0)
 	assert(false, "overwrite me")
 end
 
-slot0.SetUIParent = function(slot0, slot1)
+slot0.GetUIParent = function(slot0, slot1)
 	assert(false, "overwrite me")
 end
 

@@ -1300,10 +1300,6 @@ slot1 = {
 			end
 		})
 	end,
-	ActivityMediator = function (slot0, slot1)
-		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS)
-		slot1()
-	end,
 	SixthAnniversaryIslandShopMediator = function (slot0, slot1)
 		slot3 = getProxy(ActivityProxy)
 

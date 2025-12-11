@@ -474,6 +474,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "Wichita META",
 		boss_level_id = 211,
+		state = "always",
 		item_id = 100000,
 		painting = "weiqita",
 		meta_id = 970304,
@@ -493,32 +494,6 @@ pg.world_joint_boss_template = {
 				"The Final Strike",
 				1,
 				"When the battle is nearly over, this ship deploys the Council-Style MK XIII Orbital Cannon, dealing massive damage to all targets on the battlefield."
-			}
-		},
-		state = {
-			{
-				{
-					2024,
-					6,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -774,6 +749,69 @@ pg.world_joint_boss_template = {
 			0.68
 		}
 	},
+	{
+		name = "Yorktown META",
+		boss_level_id = 301,
+		item_id = 100000,
+		painting = "yuekecheng",
+		meta_id = 970708,
+		id = 21,
+		description = {
+			{
+				"Philosophy of the Unobserved",
+				1,
+				"When the battle starts, Yorktown META gains a buff that <color=#92fc63>decreases her DMG taken by 60.0%</color>.\nDuring battle, for each <color=#92fc63>allied unit</color> on the field, Yorktown META's DMG taken increases by 15.0% <color=#92fc63>(can be stacked up to 12 times).</color>"
+			},
+			{
+				"Gaze Into Eternity",
+				1,
+				"While Yorktown META is on the field, all your ship's AA and EVA decreases by 3.0% every 5s. When this effect activates, <color=#92fc63>the ship that is nearest to Yorktown META is affected by this debuff at double the amount.</color>"
+			},
+			{
+				"Zeroth Quadrant Expansion -5%",
+				1,
+				"During battle, a territory will be deployed that affects the whole field. All units' DMG taken increases by 3.0%."
+			}
+		},
+		state = {
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			190,
+			467,
+			0.65,
+			0.65
+		}
+	},
 	all = {
 		1,
 		2,
@@ -794,6 +832,7 @@ pg.world_joint_boss_template = {
 		17,
 		18,
 		19,
-		20
+		20,
+		21
 	}
 }

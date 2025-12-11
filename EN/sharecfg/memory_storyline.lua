@@ -2295,8 +2295,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "COMING SOON",
-		name = "COMING SOON",
+		description = "\"Amaiki – it formeth a wall against the world beyond; it is the Sky Realm. Amahara – it is defined by Amaiki; it is the Sky Field. Even should the earth collapse and the mountains crumble, a great disaster is inevitable—forevermore must the Sky Realm Amahara last.\"",
+		name = "A Dance for Amahara Above ",
 		column = 55,
 		world_id = "",
 		bgm = "story-amahara-stage1",
@@ -2351,16 +2351,48 @@ pg.memory_storyline = {
 	{
 		description = "Stay Tuned",
 		name = "Stay Tuned",
+		column = 57,
+		world_id = "",
+		bgm = "login",
+		row = 0,
+		chapter = 4,
+		memory_lock = 0,
+		id = 92,
+		icon = "ChapterFour_11",
+		sort = 1,
+		memory_id = {
+			1,
+			350
+		},
+		shipnation = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			10,
+			11
+		},
+		link_event = {
+			91,
+			93
+		}
+	},
+	{
+		description = "Stay Tuned",
+		name = "Stay Tuned",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 57,
+		column = 58,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 92,
+		id = 93,
 		icon = "",
 		sort = 0
 	},
@@ -2456,6 +2488,7 @@ pg.memory_storyline = {
 		89,
 		90,
 		91,
-		92
+		92,
+		93
 	}
 }

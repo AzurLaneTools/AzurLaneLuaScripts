@@ -84,7 +84,7 @@ end
 
 slot0.getStoryTitle = function(slot0, slot1)
 	for slot5, slot6 in ipairs(pg.memory_template.all) do
-		if pg.memory_template[slot6].story == slot1 then
+		if table.contains(pg.memory_template[slot6].unlock_pre, slot1) then
 			return slot7.title
 		end
 	end
