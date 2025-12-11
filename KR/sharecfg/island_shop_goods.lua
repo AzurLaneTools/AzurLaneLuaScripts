@@ -6120,7 +6120,7 @@ pg.base.island_shop_goods = {
 				{
 					2026,
 					2,
-					19
+					26
 				},
 				{
 					12,
@@ -6186,7 +6186,7 @@ pg.base.island_shop_goods = {
 				{
 					2026,
 					2,
-					19
+					26
 				},
 				{
 					12,
@@ -6416,7 +6416,7 @@ pg.base.island_shop_goods = {
 				{
 					2026,
 					2,
-					19
+					26
 				},
 				{
 					12,
@@ -6482,7 +6482,7 @@ pg.base.island_shop_goods = {
 				{
 					2026,
 					2,
-					19
+					26
 				},
 				{
 					12,
@@ -6548,7 +6548,7 @@ pg.base.island_shop_goods = {
 				{
 					2026,
 					2,
-					19
+					26
 				},
 				{
 					12,

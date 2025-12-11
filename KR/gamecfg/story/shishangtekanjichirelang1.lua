@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			bgm = "story-richang-4",
-			say = "赛场上的氛围逐渐火热起来，引擎的激烈轰鸣和迅疾风声填满了开阔的场馆。",
+			say = "달아오른 서킷의 열기 속에 엔진 굉음과 바람을 가르는 소리가 울려 퍼지고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = "home",
-			say = "作为赛车手的我快步走向停车区，却被她欢快的笑声吸引，停下了脚步——",
+			say = "레이서인 나는 레이싱 카 쪽으로 향하다가, 뉴저지의 경쾌한 웃음소리에 발걸음을 멈췄다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "终于等到你了Honey！",
+			say = "드디어 왔네, 허니!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:199:新泽西}正悠然坐在敞开的汽车后备箱边缘，修长的双腿随意晃动着。",
+			say = "뉴저지는 열린 트렁크 가장자리에 느긋하게 걸터앉아 긴 다리를 가볍게 흔들고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:199:新泽西}？你怎么来停车区了？",
+			say = "――뉴저지? 피트 구역에는 무슨 일이야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "嘻嘻~当然是为了来给你加油啦♪~",
+			say = "후후, 당연히 허니를 응원하려고 왔지♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "现在离发车还有一段时间，Honey也过来坐坐嘛~",
+			say = "레이스까지 아직 시간은 충분하니까, 이쪽으로 와봐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "这个位置最棒了——既有东西遮阳，又有凉凉的空调可以吹，超舒服的啦~",
+			say = "정말 최고야. 여기서는 서킷의 뜨거운 분위기가 그대로 느껴져.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "你果然能找到最舒服的地方呢。",
+			say = "――어떻게 매번 이렇게 좋은 자리만 잘 찾아내?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那当然~不过，赛场上的氛围可比现在的阳光更火热哦！",
+			say = "이 정도는 기본이지~ 지금 서킷의 열기는 햇빛보다 훨씬 뜨거워!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,18 +167,18 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么样，Honey是不是有些紧张啊？",
+			say = "어때, 허니? 혹시 좀 긴장했어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "完全没有",
+					content = "하나도 긴장 안 했어",
 					flag = 1
 				},
 				{
-					content = "是有一点",
+					content = "조금 긴장했어",
 					flag = 2
 				}
 			}
@@ -193,7 +193,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没什么好紧张的，有你在，我一定能赢。",
+			say = "――전혀 안 긴장했어. 뉴저지가 응원해주는데 질 리도 없고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:199:新泽西}突然轻盈地跃下车厢，阳光在她发梢跳跃出金色的光晕。",
+			say = "뉴저지는 가볍게 트렁크에서 뛰어내렸다. 햇빛이 그녀의 머리카락을 비추며 반짝반짝 빛난다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那Honey不仅要赢，还要赢得漂亮哦~！",
+			say = "그럼 이기기만 하지 말고, 최고로 멋진 승리를 보여줘~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "毕竟是比赛，还是有些紧张感的。",
+			say = "――뭐, 조금은… 아무래도 긴장되긴 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:199:新泽西}突然轻盈地跃下车厢，阳光在她发梢跳跃出金色的光晕。",
+			say = "뉴저지는 가볍게 트렁크에서 뛰어내렸다. 햇빛이 그녀의 머리카락을 비추며 반짝반짝 빛난다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "听说赛前紧张会影响发挥哦~",
+			say = "그러다가 본선에서 제 실력을 못 발휘하면 어떻게 하려고 그래~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "现在……你的专属助威官要来帮你消除所有影响因素啦！",
+			say = "그러니까… 허니 전용 치어리더가 필승을 기원해줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "还未等我回应，她突然踮起脚尖，双手捧住我的脸颊。",
+			say = "대답하기도 전에 그녀는 뒷꿈치를 들고 서더니, 두 손으로 내 볼을 감싸 안았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "闭上眼睛哦Honey~Black Dragon要送上特别的极速祝福了哦！",
+			say = "눈 감아, 허니. 블랙 드래곤의 특별한 축복을 내려줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "——闭眼的刹那，带着冰淇淋味道的温软唇瓣印上了我的嘴角。",
+			say = "그녀의 말대로 눈을 감자, 달콤한 향기가 감도는 부드러운 입술이 내 입술에 살짝 닿았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嘿嘿~极速祝福也是甜蜜的哦~",
+			say = "후후~ 달콤하고 행복한 스피드의 축복이야♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她故意停留了三秒才退开，在一旁得意地晃着手指。",
+			say = "몇 초가 흐른 뒤, 뉴저지는 몸을 떼며 자신만만한 표정을 지었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么样？现在是不是充满力量了？这可是包含了我的——呀——！！",
+			say = "어때? 이제 힘이 샘솟지? 여기에는 내―― 앗―!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "后退时，{namecode:199:新泽西}的鞋跟不小心卡进了地面的缝隙里。",
+			say = "뒤로 물러서려던 뉴저지의 힐이 바닥의 홈에 걸리고 말았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "在令人目眩的阳光下，我揽住她的腰肢，一同跌进铺着软垫的后备箱里。",
+			say = "간신히 허리를 끌어안아 붙잡았지만, 그대로 트렁크에 함께 넘어져 버렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "Honey真是的……",
+			say = "허니도 참……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "虽然后备箱里是很宽敞没错啦……但这可是偷袭哦~",
+			say = "……갑자기 덮치는 법이 어딨어~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就像你刚才那样？",
+			say = "――아까는 뉴저지가 먼저 기습했잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "Honey~那可是出发前的祝福！是祝福哦~",
+			say = "그건 출발 전에 주는 축복! 기도 같은 거라니까~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "不过现在……这里的气氛好像和赛场上一样，让人激动不已了呢~",
+			say = "그래도… 지금 분위기, 좀 두근거리는걸♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "什么气氛？",
+			say = "――분위기?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "听见我的话，{namecode:199:新泽西}闭上了眼睛，仰头贴近我的唇畔，轻声地呢喃着……",
+			say = "내 말을 들은 뉴저지는 눈을 감고, 내 입술 가까이 얼굴을 가져와 속삭였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "当然是这样的氛围……",
+			say = "그래. 이런 분위기 말이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "现在……该Honey回赠我必胜的承诺之吻了~",
+			say = "자, 허니…… 승리를 약속하는 키스를 해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呼吸交缠间，提醒比赛即将开始的广播声响起。{namecode:199:新泽西}捏了捏我的肩膀，脸上带着未消的红晕。",
+			say = "서로의 숨결이 뒤섞인 순간, 방송 안내가 울려 퍼졌다. 내 어깨를 살짝 움켜쥔 뉴저지의 얼굴에는 아직 수줍음이 남아 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			actor = 105174,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "要加油哦~我的冠军！我的Honey~",
+			say = "힘내~! 나만의 챔피언! 나만의 허니!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

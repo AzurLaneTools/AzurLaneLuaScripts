@@ -92,7 +92,7 @@ end
 
 OnRequestPayment = function(slot0)
 	originalPrint("SdkPay OnRequestPayment")
-	uv1:Pay(slot0, "", uv0.GetPNInfo().info)
+	uv1:SDK_PayWithProductID(slot0, uv0.GetSDKServerID(), "", uv0.GetPNInfo().info:GetJson())
 end
 
 OnQuerySuccess = function(slot0, slot1)
@@ -131,6 +131,18 @@ return {
 	end,
 	GetClientVer = function ()
 		return BundleWizard.Inst:GetGroupMgr(GroupMainHelper.DefaultGroupName).CurrentVersion:ToString()
+	end,
+	GetSDKServerID = function ()
+		slot1 = ({
+			[0] = "1",
+			"2001",
+			"1001",
+			"not_define"
+		})[NetConst.getwayType]
+
+		originalPrint("SDK ServerID:" .. tostring(slot1))
+
+		return slot1
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()
@@ -190,7 +202,7 @@ return {
 		slot11 = slot10.serverID .. "-" .. slot10.playerID .. "-" .. slot4
 
 		originalPrint("SdkPay nonce", tostring(slot11))
-		uv1:Pay(slot0, slot11, slot10.info)
+		uv1:SDK_PayWithProductID(slot0, uv0.GetSDKServerID(), slot11, slot10.info:GetJson())
 	end,
 	BindCPU = function ()
 		uv0:callSdkApi("bindCpu", nil)

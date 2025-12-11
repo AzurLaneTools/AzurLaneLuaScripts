@@ -1,121 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102071] = {
-		name = "백조의 화원으로",
-		change_skin = "",
-		desc = "백조는 푹신푹신하고 따뜻해서 기분이 좋아요. 에헤헤, 쥬노의 드레스에 맞춰서 어울리는 리본까지 달고…. 네? 지휘관 씨, 사진 찍어 주신다구요? 폐, 폐가 되지 않는다면 부탁드릴게요…!",
-		illustrator2 = -1,
-		ship_group = 10207,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "zhunuo_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 7,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "161",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 102071,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "zhunuo_2",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 70752,
-		voice_actor = 62,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.905,
-					0.661,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.017,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.051,
-					1.264,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.778,
-							1.775,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102079] = {
 		name = "쥬노·改",
 		change_skin = "",
@@ -15769,6 +15654,264 @@ pg.base.ship_skin_template_2 = {
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = 393,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.059,
+					0.999,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.052,
+					0.061,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.058,
+					1.038,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.134,
+					1.089,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.261,
+							2.531,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103271] = {
+		name = "판타지 추천",
+		change_skin = "",
+		desc = "지휘관님, 여기 주문하신… 음… 분명 전표에 적혀 있을 텐데… 어라? 그러고 보니 전표를 어디에다 뒀죠? 으… 지휘관님 주문에서 실수하면 큰일인데…",
+		illustrator2 = -1,
+		ship_group = 10327,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "luyisiweier_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 16,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "145",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 103271,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "luyisiweier_2",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 70941,
+		voice_actor = 393,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.868,
+					1.042,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.884,
+					1.115,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.147,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.902,
+					1.237,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.198,
+							2.377,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			231,
+			-699,
+			0,
+			0.4
+		},
+		special_effects = {
+			"lihui_luyisiweier_2",
+			{
+				156,
+				-59,
+				0
+			},
+			{
+				0.4
+			}
+		}
+	},
+	[103280] = {
+		name = "피츠버그",
+		change_skin = "",
+		desc = "볼티모어급 중순양함 - 피츠버그",
+		illustrator2 = -1,
+		ship_group = 10328,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "pizibao",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 103280,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "pizibao",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 421,
 		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",

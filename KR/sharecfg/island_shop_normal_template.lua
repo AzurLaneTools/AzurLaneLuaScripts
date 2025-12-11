@@ -51,7 +51,7 @@ pg.island_shop_normal_template = {
 				{
 					2026,
 					2,
-					19
+					26
 				},
 				{
 					12,
@@ -72,8 +72,8 @@ pg.island_shop_normal_template = {
 			{
 				{
 					2025,
-					12,
-					18
+					11,
+					20
 				},
 				{
 					0,
@@ -85,7 +85,7 @@ pg.island_shop_normal_template = {
 				{
 					2026,
 					2,
-					19
+					26
 				},
 				{
 					12,
@@ -105,9 +105,9 @@ pg.island_shop_normal_template = {
 		exist_time = {
 			{
 				{
-					2026,
-					1,
-					22
+					2025,
+					11,
+					20
 				},
 				{
 					0,
@@ -119,7 +119,7 @@ pg.island_shop_normal_template = {
 				{
 					2026,
 					2,
-					19
+					26
 				},
 				{
 					12,

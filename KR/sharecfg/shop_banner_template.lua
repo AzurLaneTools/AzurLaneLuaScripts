@@ -13,7 +13,7 @@ pg.shop_banner_template = {
 				{
 					2025,
 					11,
-					27
+					20
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.shop_banner_template = {
 				{
 					2025,
 					12,
-					10
+					3
 				},
 				{
 					23,
@@ -51,8 +51,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					11,
-					6
+					12,
+					11
 				},
 				{
 					0,
@@ -63,8 +63,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					11,
-					19
+					12,
+					31
 				},
 				{
 					23,
@@ -80,38 +80,13 @@ pg.shop_banner_template = {
 	},
 	[12] = {
 		name = "banner_big",
+		time = "stop",
 		type = 2,
 		time_lable = 1,
 		pic = "shopbanner/shop_skin3",
 		id = 12,
 		relation_param = "",
 		order = 8,
-		time = {
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		param = {
 			"scene skinshop",
 			{}
@@ -455,8 +430,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					0,
@@ -468,12 +443,12 @@ pg.shop_banner_template = {
 				{
 					2025,
 					12,
-					11
+					24
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		},

@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "没想到{dorm3d}您会送天狼星这本书呢，一定是天狼星的觉悟还不够……！",
+			say = "이 책을 선물해 주시다니... 분명 시리우스의 각오가 아직 부족하다고 신경써 주신 것이 틀림없습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "天狼星一定会好好研读这本书，成为让{dorm3d}赞不绝口的完美女仆！",
+			say = "이 책을 속속들이 연구해서, 반드시 지휘관님께서 극찬하실 완벽한 메이드가 되어보이겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

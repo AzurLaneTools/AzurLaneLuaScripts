@@ -15,7 +15,7 @@ pg.island_speedup_ticket = {
 			{
 				2026,
 				2,
-				19
+				26
 			},
 			{
 				12,
@@ -78,7 +78,7 @@ pg.island_speedup_ticket = {
 			{
 				2026,
 				2,
-				19
+				26
 			},
 			{
 				12,
@@ -141,7 +141,7 @@ pg.island_speedup_ticket = {
 			{
 				2026,
 				2,
-				19
+				26
 			},
 			{
 				12,

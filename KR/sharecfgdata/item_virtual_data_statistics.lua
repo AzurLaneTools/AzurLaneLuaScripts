@@ -174774,10 +174774,85 @@ _G.pg.base.item_virtual_data_statistics[65731] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65732] = {
+	drop_gold_max = 0,
+	name = "벚꽃 부적",
+	display = "「만월이 밝아오기 전에」 보상 교환용 아이템. 이벤트 종료 후에는 제거된다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/yunxian_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65732,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65733] = {
+	drop_gold_max = 0,
+	name = "1회 건조권",
+	display = "이벤트 「만월이 밝아오기 전에」에서 획득할 수 있는 기간 한정 건조권. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50236,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65733,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65734] = {
+	drop_gold_max = 0,
+	name = "훈련 PT",
+	display = "「작전 준비·사쿠라 엠파이어」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_rv3",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65734,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65735] = {
 	drop_gold_max = 0,
 	name = "스킨 체험권",
-	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료 시 제거됩니다.",
 	type = 98,
 	is_world = 0,
 	shop_id = 1,
@@ -174792,6 +174867,122 @@ _G.pg.base.item_virtual_data_statistics[65735] = {
 	virtual_type = 0,
 	id = 65735,
 	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65736] = {
+	drop_gold_max = 0,
+	name = "장비스킨 상자(백귀야행)",
+	display = "일정 확률로 다음 장비스킨을 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/equipskin_drop_display",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65736,
+	display_icon = {
+		{
+			9,
+			830,
+			1
+		},
+		{
+			9,
+			831,
+			1
+		},
+		{
+			9,
+			832,
+			1
+		},
+		{
+			9,
+			833,
+			1
+		},
+		{
+			9,
+			834,
+			1
+		},
+		{
+			9,
+			835,
+			1
+		},
+		{
+			9,
+			836,
+			1
+		},
+		{
+			9,
+			837,
+			1
+		},
+		{
+			9,
+			838,
+			1
+		},
+		{
+			9,
+			839,
+			1
+		},
+		{
+			9,
+			840,
+			1
+		},
+		{
+			9,
+			841,
+			1
+		},
+		{
+			9,
+			842,
+			1
+		},
+		{
+			9,
+			843,
+			1
+		},
+		{
+			9,
+			844,
+			1
+		},
+		{
+			9,
+			845,
+			1
+		},
+		{
+			9,
+			846,
+			1
+		},
+		{
+			9,
+			847,
+			1
+		}
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {},

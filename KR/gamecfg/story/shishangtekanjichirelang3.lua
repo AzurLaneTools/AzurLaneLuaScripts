@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			bgm = "story-richang-6",
-			say = "推开整备区的栅栏，午后的阳光将地面烤得很热，空气里散发着机油和橡胶的气味。",
+			say = "정비 구역의 펜스를 밀치고 들어서자, 바닥은 오후 햇살에 달궈져 뜨거웠고, 공기 속에는 엔진오일과 고무 냄새가 풍기고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯正跨坐在赛车的引擎盖上，水枪在她手中灵巧地转动，仔细冲洗着车身的每一个角落。",
+			say = "에식스는 레이싱카 보닛에 걸터앉아, 손에 든 호스를 능숙하게 움직이며 차량 구석구석을 꼼꼼히 씻어내고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯，准备时间快结束了，进展如何？",
+			say = "――에식스, 슬슬 시간이 됐는데 진행 상황은 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "交给我吧指挥官，已经到最后的工序了。",
+			say = "걱정하지 마세요. 이제 마지막 마무리만 남았어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "你的车在太阳下晒了这么久，需要好好降下温才行。",
+			say = "이런 폭염에선 조금이라도 차체 온도를 낮춰야 해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官也不想等会坐在蒸笼里比赛吧？",
+			say = "너무 뜨거우면 성능에도 영향을 주거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她的脸颊被太阳晒得微微泛红，几缕头发贴在上面，汗珠顺着发梢滴落在车盖上。",
+			say = "에식스의 볼은 열기로 살짝 붉게 달아올라 있었고, 머리카락 끝에서 떨어진 땀방울이 보닛 위로 뚝뚝 떨어졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "嗯，有道理。",
+			say = "――맞는 말이긴 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "不过比起车……现在的你，才是需要降温的那个吧。",
+			say = "――하지만 지금은 머신보다…… 에식스가 먼저 시원해지는 게 우선 아니야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "我从旁边的冰桶里抽出一条毛巾递过去。",
+			say = "그렇게 말하며 쿨러 박스에서 타월을 꺼내 그녀에게 건넸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "快降降温吧。",
+			say = "――어서 몸부터 식혀.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯接过了毛巾，敷了敷脸颊，状态明显好了许多。",
+			say = "타월을 받아 볼에 댄 에식스는 조금 전보다 훨씬 생기 있는 표정을 지었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "这点辛苦不算什么，我想让你的赛车在最好的状态下参赛！",
+			say = "이 정도쯤은 아무렇지도 않아요. 지휘관님의 레이싱카를 최고 상태로 달리게 하고 싶으니까요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "而且说到降温——",
+			say = "그리고 몸을 식히는 거라면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她突然狡黠一笑，重新握住水枪，开始调节起水压。",
+			say = "에식스는 장난스러운 미소를 짓더니, 다시 호스를 움켜쥐고 노즐의 수압을 조절하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "我有更好的方法。",
+			say = "더 좋은 방법이 있어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "你不会是想……",
+			say = "――설마……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "这时她已经调整好水压，将枪口对准我，脸上带着灿烂的笑容。",
+			say = "에식스는 노즐을 이쪽으로 향하며 눈부신 미소를 지어 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "指挥官也来和我一起降温吧！",
+			say = "지휘관님도 같이 시원해져요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "然而，预想中的水流并没有出现，她疑惑地低头检查枪口，又拍了拍机身。",
+			say = "하지만 예상과 달리 물은 뿜어져 나오지 않았고, 당황한 그녀는 노즐을 확인하며 톡톡 두드렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "咦？明明刚才还……",
+			say = "어라? 방금까진 제대로 나왔는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯，你的腿……压在水管上了。",
+			say = "――에식스, 호스가…… 발에 눌려 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "正说着，没等她完全移开身体，我已经伸手拽动了那根被她压住的软管。",
+			say = "그렇게 말하며 에식스가 완전히 물러서기 전에, 눌려 있던 호스를 잡아당기자……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "啊！等等别——",
+			say = "앗! 잠깐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "噗嗤——！",
+			say = "――――!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "积蓄的水流猛然喷发，将埃塞克斯全身浇得湿透，头发黏在她的脖颈上，不断滴落着水珠。",
+			say = "막혀 있던 물이 강하게 분출되며, 에식스의 온몸을 순식간에 흠뻑 적셔버렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "指挥官！……我还没准备好！你怎么就……",
+			say = "지휘관님! 아직 준비도 안 됐는데…! 갑자기 이런……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "不、不过还好……我的温度也算是降下来了~",
+			say = "아니, 오히려 잘 됐을지도요…… 덕분에 저도 시원해졌으니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她看着自己彻底湿透的衣服，又看了看旁边的我，忽然像是想到了什么。",
+			say = "에식스는 축축해진 자신의 슈트를 내려다보다가, 나를 바라보고는 무언가 떠오른 듯한 표정을 지었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "那就……继续一起降温吧！",
+			say = "……지휘관님도 같이 시원해져요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯抓住我赛车服的前襟，阻止我后退，她身上的水汽沁入了我的胸口，带来一片清凉。",
+			say = "레이싱 슈트를 붙잡고 뒷걸음질치던 나를 에식스가 붙잡았다. 그녀의 몸에서 튄 물방울이 조금 차갑다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "……埃塞克斯？",
+			say = "――……에식스?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "这样的话，指挥官是不是也凉快了许多了呢？",
+			say = "에헤헤, 지휘관님도 시원해졌나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她抬起还滴着水的手，湿漉漉的食指贴在我的胸口，小心翼翼地画着什么。",
+			say = "에식스는 물방울이 흐르는 손을 들어, 젖은 집게손가락으로 내 가슴 위에 무언가를 그리기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "冰凉的触感透过赛车服的面料，清晰地传递到我的皮肤上，激起一阵细微的战栗。",
+			say = "서늘한 감촉이 전해지며, 미세한 전율이 온몸을 스쳐 갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "好了……",
+			say = "자, 됐다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "指挥官等下就带着这个，第一个冲线吧！",
+			say = "지휘관님, 이걸 달고 우승해 주세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她终于抬起头，松开了手，脸上带着羞涩和得意的神情。",
+			say = "손을 떼고 얼굴을 든 에식스의 표정엔 수줍음과 자부심이 동시에 묻어 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "我低头看去，只见胸口的赛车服上，被她画出了一个荡漾着水痕的爱心。",
+			say = "그녀가 방금 그린 자국은 하트 모양이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "快去吧！我在终点等你！",
+			say = "자, 지휘관님! 다녀오세요! 전 결승선에서 기다릴게요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "赢了比赛，我就告诉你这颗爱心的含义~",
+			say = "레이스에서 이기면, 이 하트에 담긴 의미가 뭔지…… 알려드릴게요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

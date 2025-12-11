@@ -3811,6 +3811,9 @@ pg.memory_template = setmetatable({
 		4755,
 		4756,
 		4757,
+		4761,
+		4762,
+		4763,
 		4781,
 		4782,
 		4783,
@@ -45969,6 +45972,39 @@ pg.base.memory_template = {
 		story = "QISHENG7",
 		id = 4757,
 		icon = "memory_qisheng",
+		is_open = 0
+	},
+	[4761] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "블랙 프렐류드",
+		condition = "「모항 패션 컬렉션」 페이지에서 뉴저지 선택",
+		story = "SHISHANGTEKANJICHIRELANG1",
+		id = 4761,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0
+	},
+	[4762] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "치어링 튜너?",
+		condition = "「모항 패션 컬렉션」 페이지에서 아드미랄 나히모프 선택",
+		story = "SHISHANGTEKANJICHIRELANG2",
+		id = 4762,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0
+	},
+	[4763] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "스타트 라인 스플래시",
+		condition = "「모항 패션 컬렉션」 페이지에서 에식스 선택",
+		story = "SHISHANGTEKANJICHIRELANG3",
+		id = 4763,
+		icon = "memory_gangqushishangtekan",
 		is_open = 0
 	},
 	[4781] = {

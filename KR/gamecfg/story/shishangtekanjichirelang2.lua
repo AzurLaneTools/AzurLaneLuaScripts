@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			bgm = "story-richang-5",
-			say = "赛车的轰鸣声逐渐平息，我推开车门，耳边回荡着欢呼声。",
+			say = "차를 세우고 문을 열자, 우레 같은 환호성이 귓가를 파고들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "朝颁奖台的方向走去，最先看到的，是那个坐在阳光下的身影——",
+			say = "시상대로 향하는 길에 가장 먼저 눈에 들어온 건 햇빛 아래 서 있는 그녀의 모습이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "第一名冲线！指挥官，恭喜夺冠！",
+			say = "우승 축하해. 역시 지휘관이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "我的应援声有传到赛场上吗？",
+			say = "나히모프가 응원한 거, 코스에서도 잘 들렸어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "当然。不止应援，你调校过的赛车也很关键，直道和过弯都很稳定。",
+			say = "――응원도 그렇고, 튜닝해준 머신도 훌륭했어. 직선이랑 코너링 모두 안정적이라 최고더라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "唔……能让指挥官这么说，是挺让人开心的呢.....",
+			say = "후후… 그렇게 말해줘서 정말 기뻐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "对了，按照流程，应该先给指挥官颁奖了才对……！",
+			say = "아, 지금은 시상식을 진행하는 게 먼저지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "她郑重地将奖杯递到我的手中，接着，转身从一旁取来早已准备好的香槟。",
+			say = "그녀는 트로피를 건넨 후, 이어서 샴페인을 꺼냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "激烈比赛后，果然还是得开一瓶呢……指挥官准备好了吗？",
+			say = "치열한 레이스 뒤엔 역시 이거지…… 지휘관, 준비됐어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "等你举起奖杯，我就把香槟打开！",
+			say = "샴페인을 터트릴 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "小心点，需要我帮忙么？",
+			say = "――응, 조금만 조심해서 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "不、不用！这次请全部交给我……好了，请举起奖杯吧——！",
+			say = "으, 응. 시상은 나히모프에게 맡겨줘…… 자, 트로피는――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "纳希莫夫自信地摇晃着瓶身，只听到“砰”的一声——",
+			say = "그녀가 자신만만하게 병을 흔들자, 펑 하는 소리와 함께――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "香槟瓶塞猛地弹起，抑制不住的泡沫如欢乐的温泉般喷射而出。",
+			say = "코르크가 힘차게 날아가며 샴페인이 분수처럼 솟구쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "——呀！喵……？",
+			say = "――꺅!? 냥……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "她轻呼一声，下意识舔了舔唇边沾上的甜香酒液，望向我的眼神逐渐变得迷离。",
+			say = "나히모프는 무의식적으로 입술에 닿은 달콤한 액체를 핥았다. 그러자 그녀의 시선이 점점 흐릿해지기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "好香……奇怪，指挥官也好香喵……",
+			say = "좋은 냄새…… 어? 지휘관한테도…… 좋은 냄새가… 냥……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "不、不对，现在请和我保持距离，你身上好像也沾到了……！",
+			say = "아, 안 돼…! 지휘관, 나히모프한테서 떨어져… 그러다 묻으면 어떻게 하려고……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "……呜，抵御失败……荆芥味的指挥官，好好闻……",
+			say = "……으, 저항할 수가 없어…… 지휘관한테서… 정말 좋은 향기가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "纳希莫夫？你还好么？",
+			say = "――나히모프? 괜찮아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "我仔细查看了她的情况，才意识到这句问话有些多余。",
+			say = "나히모프의 상태를 유심히 확인하자, 말을 건 게 오히려 실수였다는 걸 깨달았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "她贴着我，无意识地用脸颊蹭着我的颈窝，尾巴般的线缆也悄然攀上了我的腿。",
+			say = "그녀는 무의식적으로 내 목덜미에 뺨을 비비며, 꼬리처럼 생긴 케이블을 다리에 감기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "唔……我也不知道为什么会这样……只是觉得……指挥官特别……",
+			say = "으… 왜 자꾸 이러는 거지……? 나히모프, 자꾸 지휘관 곁에……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "……让人想要靠近喵……",
+			say = "가까이 있고 싶어…… 냥……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "她迷茫地抬头，声音越来越低，但我们身上的线缆却越缠越紧。",
+			say = "얼굴을 든 그녀의 목소리는 점점 작아졌고… 두 사람의 몸에 감긴 케이블은 더 단단히 조여졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "……这瓶酒是哪里来的？",
+			say = "――……이 술, 어디서 난 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "是……是我在领奖台旁边拿的……",
+			say = "음…… 시상대 옆에 있길래……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "好闻吗，指挥官……？",
+			say = "지휘관… 향기 정말…… 좋지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "嗯……嘿嘿……突然就感觉，一点也不累了喵……",
+			say = "응…… 후후…… 갑자기 피로가 싹 풀리는 것 같아… 냥……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "今天真的辛苦你了。",
+			say = "――오늘 고생 많았어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "唔……整备和应援工作同时进行，确实有点累了……",
+			say = "으… 정비도 하고 응원도 하고… 확실히 좀 피곤하긴 했고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "酒里的特殊成分还会影响我的工作效率，但是……",
+			say = "술에 들어있는 특수 성분이 작업 효율에 영향을 주겠지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "偶尔这样……好像也不坏吧？",
+			say = "그래도…… 가끔은…… 나쁘지… 않을지도?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "可以和指挥官多相处这么久的时间——我超级开心喵……",
+			say = "지휘관이랑 이렇게 오래 같이 있을 수 있다니…… 정말 행복해… 냥……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "在温暖的光晕中，纳希莫夫将线缆轻轻缠上了我的手指。",
+			say = "따스한 빛을 받으며 나히모프는 케이블을 살며시 내 손가락에 휘감았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "指挥官……下次比赛，我会准备更完善的方案的……",
+			say = "지휘관…… 다음 레이스엔 계획을 더 완벽하게 짜서 올게……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "包括……更专业的庆祝饮料……",
+			say = "그리고…… 축하 음료도 더 제대로 된 걸로……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "但是现在……继续和我一起……分享胜利的喜悦吧……///喵~",
+			say = "지금은…… 나히모프랑…… 우승의 기쁨을 함께 나누자…… 냥~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

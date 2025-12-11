@@ -1857,7 +1857,7 @@ pg.voice_actor_CN = {
 		code = 481
 	},
 	[482] = {
-		actor_name = "혼다 타카코",
+		actor_name = "Honda Takako",
 		code = 482
 	},
 	[483] = {

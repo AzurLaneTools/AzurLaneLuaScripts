@@ -15886,5 +15886,120 @@ pg.base.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[102071] = {
+		name = "백조의 화원으로",
+		change_skin = "",
+		desc = "백조는 푹신푹신하고 따뜻해서 기분이 좋아요. 에헤헤, 쥬노의 드레스에 맞춰서 어울리는 리본까지 달고…. 네? 지휘관 씨, 사진 찍어 주신다구요? 폐, 폐가 되지 않는다면 부탁드릴게요…!",
+		illustrator2 = -1,
+		ship_group = 10207,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "zhunuo_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 7,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "161",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 102071,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "zhunuo_2",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 70752,
+		voice_actor = 62,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.905,
+					0.661,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.017,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.051,
+					1.264,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.778,
+							1.775,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

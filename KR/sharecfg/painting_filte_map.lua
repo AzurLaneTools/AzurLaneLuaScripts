@@ -863,12 +863,6 @@ pg.painting_filte_map = {
 		key = "aisaikesi",
 		res_list = {
 			"painting/aisaikesi_tex",
-			"painting/aisaikesi_9_tex",
-			"painting/aisaikesi_9_rw_tex",
-			"painting/aisaikesi_9_n_rw_tex",
-			"painting/aisaikesi_9_n",
-			"painting/aisaikesi_9_bj_tex",
-			"painting/aisaikesi_9",
 			"painting/aisaikesi"
 		}
 	},
@@ -925,6 +919,17 @@ pg.painting_filte_map = {
 			"painting/aisaikesi_8_n_tex",
 			"painting/aisaikesi_8_n",
 			"painting/aisaikesi_8"
+		}
+	},
+	aisaikesi_9 = {
+		key = "aisaikesi_9",
+		res_list = {
+			"painting/aisaikesi_9_tex",
+			"painting/aisaikesi_9_rw_tex",
+			"painting/aisaikesi_9_n_rw_tex",
+			"painting/aisaikesi_9_n",
+			"painting/aisaikesi_9_bj_tex",
+			"painting/aisaikesi_9"
 		}
 	},
 	aisaikesi_alter = {
@@ -12334,12 +12339,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/naximofu_tex",
 			"painting/naximofu_rw_tex",
-			"painting/naximofu_4_tex",
-			"painting/naximofu_4_rw_tex",
-			"painting/naximofu_4_n_tex",
-			"painting/naximofu_4_n_rw_tex",
-			"painting/naximofu_4_n",
-			"painting/naximofu_4",
 			"painting/naximofu"
 		}
 	},
@@ -12364,6 +12363,17 @@ pg.painting_filte_map = {
 			"painting/naximofu_3_n_rw_tex",
 			"painting/naximofu_3_n",
 			"painting/naximofu_3"
+		}
+	},
+	naximofu_4 = {
+		key = "naximofu_4",
+		res_list = {
+			"painting/naximofu_4_tex",
+			"painting/naximofu_4_rw_tex",
+			"painting/naximofu_4_n_tex",
+			"painting/naximofu_4_n_rw_tex",
+			"painting/naximofu_4_n",
+			"painting/naximofu_4"
 		}
 	},
 	nazhi = {
@@ -16340,11 +16350,6 @@ pg.painting_filte_map = {
 		key = "tierbici",
 		res_list = {
 			"painting/tierbici_tex",
-			"painting/tierbici_6_tex",
-			"painting/tierbici_6_rw_tex",
-			"painting/tierbici_6_n_rw_tex",
-			"painting/tierbici_6_n",
-			"painting/tierbici_6",
 			"painting/tierbici"
 		}
 	},
@@ -16378,6 +16383,16 @@ pg.painting_filte_map = {
 			"painting/tierbici_5_n_tex",
 			"painting/tierbici_5_n",
 			"painting/tierbici_5"
+		}
+	},
+	tierbici_6 = {
+		key = "tierbici_6",
+		res_list = {
+			"painting/tierbici_6_tex",
+			"painting/tierbici_6_rw_tex",
+			"painting/tierbici_6_n_rw_tex",
+			"painting/tierbici_6_n",
+			"painting/tierbici_6"
 		}
 	},
 	tikangdeluojia = {
@@ -18484,12 +18499,6 @@ pg.painting_filte_map = {
 			"painting/xinzexi_jz2_tex",
 			"painting/xinzexi_jz1_tex",
 			"painting/xinzexi_front_tex",
-			"painting/xinzexi_5_tex",
-			"painting/xinzexi_5_rw_tex",
-			"painting/xinzexi_5_n_tex",
-			"painting/xinzexi_5_n_rw_tex",
-			"painting/xinzexi_5_n",
-			"painting/xinzexi_5",
 			"painting/xinzexi"
 		}
 	},
@@ -18521,6 +18530,17 @@ pg.painting_filte_map = {
 			"painting/xinzexi_4_n_tex",
 			"painting/xinzexi_4_n",
 			"painting/xinzexi_4"
+		}
+	},
+	xinzexi_5 = {
+		key = "xinzexi_5",
+		res_list = {
+			"painting/xinzexi_5_tex",
+			"painting/xinzexi_5_rw_tex",
+			"painting/xinzexi_5_n_tex",
+			"painting/xinzexi_5_n_rw_tex",
+			"painting/xinzexi_5_n",
+			"painting/xinzexi_5"
 		}
 	},
 	xinzexi_h = {

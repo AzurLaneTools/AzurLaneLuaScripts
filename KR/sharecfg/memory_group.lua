@@ -244,6 +244,7 @@ pg.memory_group = setmetatable({
 		342,
 		343,
 		344,
+		345,
 		347,
 		348,
 		501,
@@ -6085,6 +6086,20 @@ pg.base.memory_group = {
 			4747,
 			4748,
 			4749
+		}
+	},
+	[345] = {
+		title = "모항 패션 컬렉션: 피트 스탠바이",
+		subtype = 3,
+		link_event = 50235,
+		type = 2,
+		id = 345,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4761,
+			4762,
+			4763
 		}
 	},
 	[347] = {

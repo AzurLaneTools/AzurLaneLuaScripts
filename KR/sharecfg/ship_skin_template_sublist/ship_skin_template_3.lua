@@ -1,264 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103271] = {
-		name = "판타지 추천",
-		change_skin = "",
-		desc = "지휘관님, 여기 주문하신… 음… 분명 전표에 적혀 있을 텐데… 어라? 그러고 보니 전표를 어디에다 뒀죠? 으… 지휘관님 주문에서 실수하면 큰일인데…",
-		illustrator2 = -1,
-		ship_group = 10327,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "luyisiweier_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 16,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "145",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 103271,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "luyisiweier_2",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 70941,
-		voice_actor = 393,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			6
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.868,
-					1.042,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.884,
-					1.115,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.147,
-					0.026,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.902,
-					1.237,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.198,
-							2.377,
-							0.14
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			231,
-			-699,
-			0,
-			0.4
-		},
-		special_effects = {
-			"lihui_luyisiweier_2",
-			{
-				156,
-				-59,
-				0
-			},
-			{
-				0.4
-			}
-		}
-	},
-	[103280] = {
-		name = "피츠버그",
-		change_skin = "",
-		desc = "볼티모어급 중순양함 - 피츠버그",
-		illustrator2 = -1,
-		ship_group = 10328,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "pizibao",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 103280,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "pizibao",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 421,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.059,
-					0.999,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.052,
-					0.061,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.058,
-					1.038,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.134,
-					1.089,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.261,
-							2.531,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103281] = {
 		name = "걸즈 카운터",
 		change_skin = "",
@@ -5168,6 +4910,246 @@ pg.base.ship_skin_template_3 = {
 			-102.6,
 			0,
 			0.46
+		}
+	},
+	[105174] = {
+		name = "블랙 프렐류드",
+		change_skin = "",
+		desc = "드디어 왔네, 허니! 레이스 전에 내가 특별한 초스피드의 축복을 내려줄게~! 자, 허니~ 이쪽으로 와~ 쪽♪",
+		illustrator2 = -1,
+		ship_group = 10517,
+		group_index = 4,
+		painting = "xinzexi_5",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 14,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "132",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		id = 105174,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "xinzexi_5",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 71234,
+		voice_actor = 273,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			9,
+			2
+		},
+		live2d_offset = {
+			-6.8,
+			12.1,
+			0,
+			42.8
+		},
+		shop_offset = {
+			-36,
+			-9,
+			0,
+			49
+		},
+		purchase_offset = {
+			-36,
+			-9,
+			0,
+			49
+		},
+		live2d_offset_profile = {
+			-36,
+			-9,
+			0,
+			49
+		},
+		spine_offset_profile = {
+			-36,
+			-9,
+			0,
+			49
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.34,
+					1.256,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.292,
+					1.022,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.819,
+					2.203,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.591,
+							2.488,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			10517401,
+			10517402,
+			10517403,
+			10517404,
+			10517405,
+			10517406,
+			10517407,
+			10517408,
+			10517409,
+			10517410,
+			10517411,
+			10517412,
+			10517413,
+			10517414,
+			10517415,
+			10517416,
+			10517417,
+			10517418,
+			10517419,
+			10517420,
+			10517421,
+			10517422,
+			10517423,
+			10517424,
+			10517425,
+			10517426,
+			10517427,
+			10517428,
+			10517429,
+			10517430,
+			10517431,
+			10517432,
+			10517433,
+			10517434,
+			10517435,
+			10517436,
+			10517437,
+			10517438,
+			10517439,
+			10517440,
+			10517441,
+			10517442,
+			10517443,
+			10517444,
+			10517445,
+			10517446,
+			10517447,
+			10517448,
+			10517449,
+			10517450,
+			10517451,
+			10517452
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					1327,
+					-463,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					602,
+					932.77,
+					2,
+					-120,
+					0,
+					2
+				},
+				{
+					-110.06,
+					-500,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
 		}
 	},
 	[105178] = {
@@ -11516,6 +11498,158 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
+	[107097] = {
+		name = "스타트 라인 스플래시",
+		change_skin = "",
+		desc = "레이스 전 세차는 제게 맡겨주세요! …어떤가요? 이 윤기… 틀림없이 모든 관중의 눈길을 사로잡을 거예요!",
+		illustrator2 = -1,
+		ship_group = 10709,
+		group_index = 7,
+		purchase_offset = "",
+		painting = "aisaikesi_9",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 14,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "186",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		ship_l2d_id = "",
+		id = 107097,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "aisaikesi_9",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 71236,
+		voice_actor = 149,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-58.6,
+			-569.9,
+			0,
+			0.59
+		},
+		spine_offset_profile = {
+			7,
+			-545,
+			0,
+			0.57
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.723,
+					2.361,
+					0
+				}
+			},
+			plane = {
+				{
+					1.161,
+					0.701,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.705,
+							2.378,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			89.2,
+			-732.8,
+			0,
+			0.72
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					793,
+					-342,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					-36,
+					793,
+					2,
+					-120,
+					0,
+					2
+				},
+				{
+					-581,
+					-357,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
+		}
+	},
 	[107099] = {
 		name = "에식스·改",
 		change_skin = "",
@@ -15224,6 +15358,112 @@ pg.base.ship_skin_template_3 = {
 							-0.57,
 							2.164,
 							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[108010] = {
+		name = "데이스",
+		change_skin = "",
+		desc = "가토급 잠수함 데이스 (SS-247)",
+		illustrator2 = -1,
+		ship_group = 10801,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "tiaoyu",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 108010,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "tiaoyu",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 124,
+		spine_offset = "",
+		illustrator = 14,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.9,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.41,
+					0.2,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
 						}
 					}
 				}
