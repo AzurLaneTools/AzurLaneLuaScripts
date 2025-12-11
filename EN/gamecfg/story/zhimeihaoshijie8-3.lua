@@ -19,7 +19,7 @@ return {
 			},
 			sequence = {
 				{
-					"致美好世界\n\n<size=45>第七幕</size>",
+					"To a Brighter World\n\n<size=45>Act Seven</size>",
 					1
 				}
 			}
@@ -30,13 +30,13 @@ return {
 			bgm = "battle-newwind",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于，到了这万众瞩目的一天。",
+			say = "Finally, the day the world had been waiting for has come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"鸢尾教国·大会堂",
+				"Iris Orthodoxy - Assembly Hall",
 				3
 			},
 			flashin = {
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "大会堂中，今日座无虚席。",
+			say = "Each and every chair in the assembly hall is filled today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "无尽的会议迎来了终结。",
+			say = "This long journey of conference after conference is almost finally at its end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "一切的争执，一切的试探，一切的妥协都迎来了终结。",
+			say = "All the confrontations, all the mutual prodding, all the compromises – this moment spells the end for all of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "没有在碧蓝航线指挥部，而是在此地，在「联盟合并」会议开启的地方，迎来了其自身的终结——",
+			say = "It is not at the Azur Lane headquarters, but here, where the reformation talks first took place, that the curtains historically fall on an era.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,117 +120,117 @@ return {
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬——突然出现，以压制性力量占据了海洋的异形敌人。",
+			say = "The Sirens. Our enigmatic foes that appeared out of nowhere and seized our seas with overwhelming force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这场突如其来的浩劫之初，我们各怀心思、各自为战……",
+			say = "At the start of this unprecedented calamity, we each had our own agendas and fought our own battles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所带来的结果也是惨痛的。",
+			say = "The result of this was almost too painful to bear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们失去了90%以上的大海，科技与生活水平急剧倒退，文明几乎崩坏……",
+			say = "We lost 90% of our seas. Our technological progress and living standards rapidly regressed. Civilization itself stood at the very brink of collapse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "生死存亡之际，我们摒弃前嫌、团结一致，集中所有力量成立了联合军事组织「碧蓝航线」。",
+			say = "However, we survived, and we did it by burying old hatchets, uniting our hearts as one, and establishing the multinational military organization that is the Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们集结共享了所有技术与资源，以期能打造出一支与塞壬抗衡的精锐舰队。",
+			say = "We shared our resources and technology, and we built fleets that could fight back against the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结果而言，我们成功了。",
+			say = "As a result, we seized victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而在这数十年间鲜血的浸染下，「碧蓝航线」所代表的含义已经远远超出了单纯的军事联盟。",
+			say = "After a bloody war that has gone on for decades, \"Azur Lane\" no longer just refers to a military alliance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它更是一个象征，一个代表着我们从分散到联合，从绝望到希望，从旧日磨难走向未来新生的象征——",
+			say = "It has become a symbol. A symbol of fracture becoming unification, of despair becoming hope, of humanity overcoming old hardships and stepping into a new future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,234 +264,234 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "碧蓝航线成立于我们历史中最黑暗的时代。",
+			say = "The Azur Lane. It was born in the darkest period in human history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们虽心怀对美好未来的憧憬，却不得不面对每日挣扎在生死边缘的现实。",
+			say = "As we dreamed of a hopeful future, we struggled day after day, straddling the line between life and death.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在塞壬的重压下，我们所有人都迷茫过，彷徨过……",
+			say = "Faced with the Sirens' immense pressure, we all felt hesitant and lost...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最初，或许只是一个不同的看法，一个理念的分歧……",
+			say = "At first, maybe it was nothing more than a slight difference of opinion or a conflict of ideas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可随着时间推移，这些细小的裂纹在暗中连结、扩散……直到形成了一道不可忽视的、无法弥合的大裂痕。",
+			say = "But, as time went on, those small cracks quietly connected and spread until they'd grown into an enormous rift that could neither be ignored nor be filled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "碧蓝航线在那一刻分裂了。",
+			say = "It was this moment that the Azur Lane fell apart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是一段混乱的时期。",
+			say = "It was a time of chaos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有限的情报、过度的猜忌、膨胀的野心，再加上塞壬无孔不入的挑拨……",
+			say = "Our information was limited, our suspicions were intensified, and our ambitions were enlarged. Cleverly, the Sirens schemed to divide us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这场晦暗的风暴中，我们所有人都做出过错误的决定。",
+			say = "Trapped in this dark storm, we all made decisions that were incorrect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "万幸的是，那束在碧蓝航线成立之初点亮的火苗依然在我们所有人的心中燃烧着。",
+			say = "As fortune would have it, though, the little fire lit in our hearts when the Azur Lane was established had not gone out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们所有人都没有放弃，这份希望之火也没有放弃。",
+			say = "None of us gave up. No one turned their back on the flame of hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最终，火焰融化了隔阂的坚冰，光芒驱散了晦暗的雾霭。",
+			say = "This fire, eventually, thawed the ice of separation, and its light dispelled the long, dark fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们心中的目标一致，因此，我们理应殊途同归。",
+			say = "We all share the same goal. Therefore, we should arrive at the same destination through different paths.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬的出现让我们文明进入了一个全新的阶段，而碧蓝航线的成立为这个全新的阶段奏响了主旋律。",
+			say = "The appearance of the Sirens brought human civilization to a new stage, and the establishment of the Azur Lane set the tone for this new era.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然，赤色中轴则是这段主旋律中一段别样的插曲。",
+			say = "The Crimson Axis, meanwhile, played a resounding and different instrument within this main melody.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如今，到了这段插曲圆满结束的时候了。",
+			say = "Now, however, this instrument has played its last note.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赤色中轴将在今天之后成为历史。",
+			say = "As of today, the Crimson Axis belongs to history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:435:俾斯麦}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_tianqiong_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让我们以团结一致的姿态，昂首挺胸向着未来进发吧——",
+			say = "Let us raise the banner of unity, hold our heads high, and walk proudly into the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,117 +525,117 @@ return {
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "两条道路，合二为一。",
+			say = "Two paths have now become one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "破碎的联盟，再次统一。",
+			say = "A once-fractured alliance has again become whole.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们战胜了塞壬，不代表为了战胜其而建立的碧蓝航线从此失去了意义。",
+			say = "Just because we have achieved victory over the Sirens does not mean that the Azur Lane, built to combat them, has finished serving its purpose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恰恰相反，它将在未来发挥出更加重要的作用。",
+			say = "In fact, it means the opposite. The Azur Lane is going to become an even more important organization.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟，这一次入侵的是塞壬，这一次我们胜利了。",
+			say = "This time, it was the Sirens that invaded us. We defeated them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那，下一次呢？",
+			say = "So, then, what happens next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "世界之外并不安全。",
+			say = "There is no knowing if the universe beyond our world is safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们能做的只有团结与联合，以一个整体的姿态，同进同退。",
+			say = "There is only one thing we can do: Unite, stand together, and move forward as one group.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦",
+			actorName = "Lexington",
 			side = 2,
 			bgName = "bg_tianqiong_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在碧蓝航线的旗帜下，一同走向那不确定的未来——",
+			say = "Under the banner of the Azur Lane shall we step into the uncertain future ahead of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_guild_blue_n",
-			say = "列克星敦和{namecode:435:俾斯麦}的演讲结束了。",
+			say = "Lexington and Bismarck's speech comes to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "世界在此刻陷入沉默，世界正等待着我的发言。",
+			say = "The world is silent. It's waiting for me to speak next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "美好的世界就在前方，只需再向前踏出一步。",
+			say = "A bright world unfolds before me. All I need to do is take one step forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "踏上主席台，以推动联盟重新合并之人、以带领人类文明取得胜利之人、以碧蓝航线的指挥官……",
+			say = "One step forward onto the stage. As the one who made the alliance reformation happen. As the one who led humanity to victory. As the Commander of the Azur Lane...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "为这个美好的故事画上一个完美的句号——",
+			say = "To etch the perfect ending into this story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			},
 			sequence = {
 				{
-					"「这样，就好么？」",
+					"\"Is it meant to be this way?\"",
 					0
 				}
 			}
@@ -754,7 +754,7 @@ return {
 			},
 			options = {
 				{
-					content = "这样就好……",
+					content = "It is...",
 					flag = 1
 				}
 			}
@@ -767,7 +767,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，这样就好……",
+			say = "Yes... This is how it's meant to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "我放下了怀疑，沉浸在欢庆的气氛中，与这个美好的世界融为了一体。",
+			say = "I let go of my doubts, yield myself to the celebration and joy, and become one with this brighter world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -791,7 +791,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，分裂的碧蓝航线能够再次融为一体，最大的功劳非你莫属呢。",
+			say = "Commander, the greatest accolade of reuniting the fractured Azur Lane absolutely belongs to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,7 +820,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "了不起的大成就哦~我以前做梦都没想过会有这样一天！",
+			say = "It's the mother of all achievements! I could never even have dreamed this day would come!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬失败了，世界也走向了团结。接下来的一段时间内，大家可以筹备一下度假的事了呢~",
+			say = "The Sirens are defeated, and the world is united. Now, we can all start planning our vacation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "度假么……指挥官，你有什么想去的地方么？",
+			say = "A vacation, eh... Where do you wanna go, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无论你去哪里，我都跟着你。",
+			say = "Wherever you go, I'll come with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Honey~！我也一样~我也一样！",
+			say = "Yeah! What she said, honey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +897,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到这件事真让你给办成了……",
+			say = "To think you actually went and did it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "了不起，史书上会重重记你一笔的。",
+			say = "Hats off to you, servant. History will never forget your name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你缔造了无数难以想象的奇迹，你无愧于真正的海上传奇。",
+			say = "You are responsible for miracle after miracle. A true legend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,7 +952,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，战争虽然结束了，但皇家永远是你的盟友。",
+			say = "Commander, whilst the war may be over, know that the Royal Navy shall always be your close ally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,7 +965,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "愿光辉永远与你同在~",
+			say = "May the light forever shine upon you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -978,7 +978,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "漫长的一天，不是么？",
+			say = "What a long day it's been.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1009,7 +1009,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们为此准备了许久，在泥潭中挣扎了许久。",
+			say = "We've trudged through many a swamp and suffered many an injury for this day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1023,7 +1023,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但一切都是值得的，新的时代开始了。",
+			say = "Still, our efforts were all repaid. A new era begins here and now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1036,7 +1036,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~主席台上的你是如此迷人，我都有点心动了呢~",
+			say = "Heehee. You shine like the light itself up on the stage. I'm almost swooning over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1049,7 +1049,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是一场在鸢尾见证下的伟大成果，祝贺你，指挥官。",
+			say = "This was a spectacular feat, accomplished with the Iris' blessing. Congratulations, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,7 +1079,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从今往后，鸢尾教国新生中最后一丝不谐之音也可以烟消云散了呢~",
+			say = "Now, the last sounds of opposition to the Orthodoxy's reformation have finally dispersed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1093,7 +1093,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很荣幸能与你处于同一个时代，指挥官。",
+			say = "I'm honored to have lived in the same era as you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,7 +1106,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至此，重樱再次成为了碧蓝航线的一员，我们彻底站在了同一面旗帜下。",
+			say = "With this, the Sakura Empire will return as a member of the Azur Lane and stand under its flag.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,7 +1136,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "今后也请多指教了，指挥官~",
+			say = "I eagerly look forward to cooperating with you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1149,7 +1149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在吾接手前，吾真没想到一件看似简单的事……执行起来竟是如此……繁琐。",
+			say = "Such a simple task this seemed. To one's surprise, attempting it in practice proved far more vexatious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1162,7 +1162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还好，一切都已尘埃落定，吾可以全身心投入下一项工作了。",
+			say = "Even so, it was achieved in the end. I can hence fully dedicate myself to my coming duties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,7 +1175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈哈~没想到我还能再次见到如此壮观的外交盛事，如此之景，真是未来可期啊！",
+			say = "Hahaha! That I get to see this grand a feat of diplomacy a second time is nothing short of outstanding!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1188,7 +1188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{playername}，不论未来如何，我都永远支持你。",
+			say = "{playername}, whatever the future may have in store for us, I shall be your ally now and always.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1201,7 +1201,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我就知道这件事能成功，祝贺你，指挥官同志。",
+			say = "I knew you'd be able to do it. Congratulations to you, Comrade Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1231,7 +1231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "世界虽然恢复了和平，但我们要做的事还有很多。",
+			say = "Well, although the world is at peace again, there is still much work to be done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1244,7 +1244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我计划近日就向指挥部提出两极塞壬设施的研究计划，碧蓝航线内的所有阵营应该合作研究这些资料。",
+			say = "In the coming days, I intend to submit a research plan for the Siren facilities located in both of the Poles. They will be something that warrants the cooperation and research of all Azur Lane members.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1258,7 +1258,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "到时候又要拜托你了，指挥官同志~",
+			say = "When that time comes, I trust we will have your help, Comrade Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1271,7 +1271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，所谓能者多劳，就是这样子啦~",
+			say = "Heehee. \"Those with great capabilities are given greater responsibilities\" holds true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1284,7 +1284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别担心指挥官同志，我们永远和你站在一起。",
+			say = "Worry not, Comrade Commander! We will always be there to help you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1297,7 +1297,7 @@ return {
 			actor = 605010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是一场无可挑剔的演讲，令人心潮澎湃。",
+			say = "That was a perfect speech. My heart shook from how splendid it was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1328,7 +1328,7 @@ return {
 			actor = 605010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如此盛会，要是在撒丁帝国举办就更好了……鸢尾真是好福气。",
+			say = "I wish this grand announcement could've been given in the Sardegna Empire instead, but alas. Heehee. The Orthodoxy is truly blessed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1341,7 +1341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈~如今我们又是碧蓝航线的一员了，可喜可贺，同喜同贺~！",
+			say = "Ahahaha! We're now members of the Azur Lane once more. Nothing could be more joyous!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1354,7 +1354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我从没想过能够看到联盟再次合并的一天……谢谢你，指挥官。",
+			say = "I never thought I'd see the day that the alliance became united again. Thank you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1367,7 +1367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "显而易见，指挥官的伟大也是自然的、当然的、无可置疑的……！",
+			say = "But of course. The Commander's magnificence is natural, inevitable, and absolute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1380,7 +1380,7 @@ return {
 			actor = 1199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，我们今后再也不用头疼怎么向人解释王国的阵营归属问题了呢。",
+			say = "Heheh. We can say goodbye to the days of having to explain to whom the Kingdom of Tulipa answers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1411,7 +1411,7 @@ return {
 			actor = 1199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这一切多亏了你哦，郁金王国舰队的恩人，尊敬的指挥官阁下~",
+			say = "And it's all thanks to you, respected Commander and benefactor of our fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1424,7 +1424,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各大阵营放下分歧……在同一面旗帜下以一个整体的身份携手并进。",
+			say = "All of us have put aside our squabbles and become one under the same banner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1454,7 +1454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毫无疑问，这是一场属于文明的胜利。",
+			say = "This, to civilization, is what true victory means.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1467,7 +1467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对于在这样的未来下，人类文明能取得的最终成果，东煌很期待，我也很期待。",
+			say = "The Dragon Empery eagerly looks forward to the great heights human civilization will reach in the future – and so do I.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1480,7 +1480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，东煌永远是你的朋友。",
+			say = "The Empery will forever be your ally, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1493,7 +1493,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……联盟合并成功了……再也不用开会了……",
+			say = "Whew, yes! The Azur Lane is finally back together! We don't have to debate it anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1524,7 +1524,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！海伦娜！咱们终于解放了……！",
+			say = "Commander, Helena – we're all finally free!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1537,7 +1537,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "上次还没玩得尽兴……在下一项工作之前，要不要一起再去度个假呢？",
+			say = "I wasn't fully satisfied with our last trip, sooo... how about we take a little vacation before our next mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1551,7 +1551,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完全赞同！",
+			say = "Couldn't agree more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1565,7 +1565,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~你要是同意的话就是三比零，不同意的话就是二比一——",
+			say = "Commander, if you agree, then it's three to zero, and if you don't, it's still two to one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1579,7 +1579,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少数服从多数，我们去放个长假吧~！",
+			say = "The minority has to obey the majority, which means we're going on a looong vacation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1607,23 +1607,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>「与塞壬的战争结束了，联盟合并会议也结束了」</size>",
+					"\"The war with the Sirens had ended, as had the meetings to discuss the Azur Lane's reformation.\"",
 					0
 				},
 				{
-					"<size=45>「碧蓝航线自诞生之初就是一个整体，今后也将会永远是一个整体」</size>",
+					"\"The Azur Lane was whole since its moment of inception, and would stay whole forevermore.\"",
 					1
 				},
 				{
-					"<size=45>「由于你在这期间积攒了巨大的声望与人脉，你成为了当之无愧的当世第一人」</size>",
+					"\"The prestige and connections you've accumulated have made you the undisputed number one of this era.\"",
 					2
 				},
 				{
-					"<size=45>「你拥有着无数头衔，你在世界范围内拥有着超然的地位」</size>",
+					"\"You are the holder of countless titles and command an unquestionable status across the world.\"",
 					3
 				},
 				{
-					"<size=45>「但你始终只以碧蓝航线指挥官这一个身份自居」</size>",
+					"\"Yet, there is but one title that you use – the Commander of the Azur Lane.\"",
 					4
 				}
 			}
@@ -1641,15 +1641,15 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>「纵使和平与发展成为了主旋律，你依然没有放松警惕」</size>",
+					"\"Even as the world pivoted to peace and development, you never once let your guard down.\"",
 					0
 				},
 				{
-					"<size=45>「你依然活跃在第一线」</size>",
+					"\"Wherever the front line was, you would always be there.\"",
 					1
 				},
 				{
-					"<size=45>「当然，节假日除外」</size>",
+					"\"Excluding holidays, of course.\"",
 					2
 				}
 			}
@@ -1667,23 +1667,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>「你推动了天域天原项目的完善，为世界构建了一层精神上的屏障」</size>",
+					"\"You pushed the Sky Realm Amahara Project forward, constructing a mental barrier around the world.\"",
 					0
 				},
 				{
-					"<size=45>「你推动了极地堡垒项目的完善，为世界构建了一层物理上的屏障」</size>",
+					"\"You also advanced the Polar Bunker Projects, supplementing the mental barrier with a physical one.\"",
 					1
 				},
 				{
-					"<size=45>「从此，这个脆弱的世界拥有了全方位的保护」</size>",
+					"\"Thus, this fragile and transient world was bestowed a flawless defense.\"",
 					2
 				},
 				{
-					"<size=45>「远离了安蒂克丝、远离了META」</size>",
+					"\"A defense against Antiochus and the METAs alike.\"",
 					3
 				},
 				{
-					"<size=45>「亦远离了那些更加恐怖的存在」</size>",
+					"\"It was also protected against those even more frightful beings.\"",
 					4
 				}
 			}
@@ -1701,19 +1701,19 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>「偶尔，你心中会浮现出些许疑惑」</size>",
+					"\"Despite all this, something in the back of your mind nagged at you from time to time.\"",
 					0
 				},
 				{
-					"<size=45>「你总觉得忘了些什么，总感觉故事似乎不应该是这样的结局」</size>",
+					"\"You felt like you had forgotten something – like your story should have ended differently.\"",
 					1
 				},
 				{
-					"<size=45>「但是，每当你看向这个欣欣向荣的世界，看向那些欢声笑语的同伴」</size>",
+					"\"But when you looked around you, seeing your companions smiling widely, and the world regaining its life.\"",
 					2
 				},
 				{
-					"<size=45>「你总会强压下这最后一丝违和感」</size>",
+					"\"In light of such a sight, you pushed those misgivings back into the depths of your mind.\"",
 					3
 				}
 			}
@@ -1724,7 +1724,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"——「致这美好的世界」",
+					"――\"To a Brighter World\"",
 					0
 				}
 			}

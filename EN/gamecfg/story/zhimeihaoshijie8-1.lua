@@ -870,7 +870,7 @@ return {
 					1
 				},
 				{
-					"\"The trust and achievements you built up during all this time have made you into the undisputed number one person of this era.\"",
+					"\"The prestige and connections you've accumulated have made you the undisputed number one of this era.\"",
 					2
 				},
 				{
@@ -964,7 +964,7 @@ return {
 					1
 				},
 				{
-					"\"With this feeling in your mind, you looked around you. You saw your companions, smiling widely, and the world, which had regained its life.\"",
+					"\"But when you looked around you, seeing your companions smiling widely, and the world regaining its life.\"",
 					2
 				},
 				{
