@@ -253,6 +253,7 @@ pg.memory_group = setmetatable({
 		347,
 		348,
 		349,
+		350,
 		501,
 		502,
 		503,
@@ -6298,6 +6299,26 @@ pg.base.memory_group = {
 			4857,
 			4858,
 			4859
+		}
+	},
+	[350] = {
+		title = "美しい世界へ",
+		subtype = 1,
+		link_event = 50266,
+		type = 2,
+		id = 350,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4871,
+			4872,
+			4873,
+			4874,
+			4875,
+			4876,
+			4877,
+			4878,
+			4879
 		}
 	},
 	[501] = {

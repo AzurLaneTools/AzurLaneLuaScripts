@@ -5541,6 +5541,19 @@ temp = function()
 							this = true,
 							["Ⅱ"] = {
 								this = true
+							},
+							["("] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												[")"] = {
+													this = true
+												}
+											}
+										}
+									}
+								}
 							}
 						}
 					}

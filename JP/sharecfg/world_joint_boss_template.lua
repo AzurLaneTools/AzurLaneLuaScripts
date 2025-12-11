@@ -474,7 +474,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "ウィチタ(META)",
 		boss_level_id = 211,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "weiqita",
 		meta_id = 970304,
@@ -644,6 +644,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "夕立(META)",
 		boss_level_id = 286,
+		state = "stop",
 		item_id = 100000,
 		painting = "xili",
 		meta_id = 970109,
@@ -660,12 +661,49 @@ pg.world_joint_boss_template = {
 				"夕立(META)の魚雷攻撃は30％で6秒間持続する特殊炎上効果を付与可能。（この攻撃のダメージを回避しても特殊炎上効果は付与される。特殊炎上効果は1秒毎に炎上ダメージを与える。この魚雷攻撃による特殊炎上効果は爪による特殊炎上効果と同時に存在可能）。\n 夕立(META)は<color=#92fc63>炎上効果を持っている敵に与えるダメージが30％アップ</color>。場にいる「引っ掻いてやるぜ」「ぶん殴ってやるぜ」特殊炎上効果を持っている艦船の数だけ、<color=#92fc63>受けるダメージを10％軽減する</color>。"
 			}
 		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			240,
+			484,
+			0.68,
+			0.68
+		}
+	},
+	{
+		name = "ヨークタウン(META)",
+		boss_level_id = 301,
+		item_id = 100000,
+		painting = "yuekecheng",
+		meta_id = 970708,
+		id = 21,
+		description = {
+			{
+				"被観測者の哲学",
+				1,
+				"戦闘開始時、ヨークタウン(META)は<color=#92fc63>「受けるダメージを60％軽減する」</color>強化効果を持つ。\n戦闘中、<color=#92fc63>味方ユニット</color>1体につき、ヨークタウン(META)が受けるダメージが15％アップ（<color=#92fc63>最大12体分まで</color>）。"
+			},
+			{
+				"注視。永遠まで",
+				1,
+				"ヨークタウン(META)が場にいる限り、5秒毎に味方全員の対空・回避が3%ダウン。この効果の発動時、<color=#92fc63>ヨークタウン(META)の一番近くにいる味方は2倍の効果を受ける</color>。"
+			},
+			{
+				"「零」象限展開-5%",
+				1,
+				"戦闘中、海域全体に及ぶ領域が展開される。お互いが受けるダメージが3%アップ。"
+			}
+		},
 		state = {
 			{
 				{
 					2025,
-					9,
-					4
+					12,
+					11
 				},
 				{
 					0,
@@ -675,9 +713,9 @@ pg.world_joint_boss_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					11
+					2026,
+					3,
+					12
 				},
 				{
 					23,
@@ -693,10 +731,10 @@ pg.world_joint_boss_template = {
 			0.7
 		},
 		p_offset_other = {
-			240,
-			484,
-			0.68,
-			0.68
+			190,
+			467,
+			0.65,
+			0.65
 		}
 	},
 	all = {
@@ -719,6 +757,7 @@ pg.world_joint_boss_template = {
 		17,
 		18,
 		19,
-		20
+		20,
+		21
 	}
 }

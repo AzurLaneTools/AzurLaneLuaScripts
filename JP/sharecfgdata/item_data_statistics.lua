@@ -15784,6 +15784,37 @@ _G.pg.base.item_data_statistics[21053] = {
 }
 
 
+_G.pg.base.item_data_statistics[21054] = {
+	open_directly = 0,
+	name = "結晶：ヨークタウン(META)",
+	type = 4,
+	display = "ヨークタウン(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21054",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21054,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -16517,6 +16548,37 @@ _G.pg.base.item_data_statistics[21920] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21920,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21921] = {
+	open_directly = 0,
+	name = "ヨークタウン(META)解析Pt",
+	type = 0,
+	display = "ヨークタウン(META)の解析ポイント",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21921",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21921,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

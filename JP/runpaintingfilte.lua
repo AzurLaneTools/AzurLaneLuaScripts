@@ -366,7 +366,9 @@ SpecialFilteForActStory = function()
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot2) do
-		table.insert(slot3, pg.memory_template[slot8].story)
+		for slot13, slot14 in ipairs(pg.memory_template[slot8].unlock_pre) do
+			table.insert(slot3, slot14)
+		end
 	end
 
 	return pg.NewStoryMgr.GetInstance():GetStoryPaintingsByNameList(slot3)

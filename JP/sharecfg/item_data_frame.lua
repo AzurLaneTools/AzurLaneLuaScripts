@@ -522,6 +522,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「天域に初訪し鳳鳴く。その姿翩翩なりしアマハラに響く」</color>\n「アマハラに舞い奉れ」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[337] = {
+		name = "ダークシースペクター",
+		gain_by = "",
+		time_second = 0,
+		id = 337,
+		time_limit_type = 0,
+		desc = "今後開催するイベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		gain_by = "",
@@ -986,6 +995,7 @@ pg.item_data_frame = {
 		334,
 		335,
 		336,
+		337,
 		401,
 		402,
 		403,

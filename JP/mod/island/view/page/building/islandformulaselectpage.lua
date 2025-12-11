@@ -52,9 +52,11 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.AddListeners = function(slot0)
+	slot0:AddListener(GAME.ISLAND_SHOP_OP_DONE, slot0.RefreshCurrentSelectFormula)
 end
 
 slot0.RemoveListeners = function(slot0)
+	slot0:RemoveListener(GAME.ISLAND_SHOP_OP_DONE, slot0.RefreshCurrentSelectFormula)
 end
 
 slot0.OnInit = function(slot0)
@@ -236,6 +238,13 @@ slot0.UpdateCostItem = function(slot0, slot1, slot2)
 
 	setActive(slot2:Find("icon_bg/count_bg"), true)
 	setText(slot2:Find("icon_bg/count_bg/count"), slot4)
+	onButton(slot0, slot2:Find("icon_bg/icon"), function ()
+		uv0:ShowMsgBox({
+			title = i18n("island_word_desc"),
+			type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+			dropData = uv1
+		})
+	end)
 	onButton(slot0, slot2:Find("icon_bg/icon"), function ()
 		uv0:ShowMsgBox({
 			title = i18n("island_word_desc"),

@@ -19,7 +19,6 @@ slot0.OnInit = function(slot0)
 	slot0:InitDetail()
 	slot0:InitEvent()
 	setParent(slot0.randomFlagToggle, slot0._tf.parent)
-	setActive(slot0.randomFlagToggle, true)
 	triggerToggle(slot0.showQuickBtn, false)
 	triggerToggle(slot0.showRecordBtn, false)
 end
@@ -522,7 +521,11 @@ slot0.UpdateUI = function(slot0)
 	slot0:UpdateEquipments(slot1)
 	slot0:UpdateLock()
 	slot0:UpdatePreferenceTag()
-	triggerToggle(slot0.randomFlagToggle, slot0:GetShipVO():getRandomFlag())
+
+	slot0.activeRandomFlag = not slot1:isActivityNpc()
+
+	setActive(slot0.randomFlagToggle, slot0.activeRandomFlag)
+	triggerToggle(slot0.randomFlagToggle, slot1:getRandomFlag())
 end
 
 slot0.UpdateIntimacy = function(slot0, slot1)
@@ -806,7 +809,7 @@ end
 
 slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
-	setActive(slot0.randomFlagToggle, true)
+	setActive(slot0.randomFlagToggle, slot0.activeRandomFlag)
 end
 
 slot0.Hide = function(slot0)

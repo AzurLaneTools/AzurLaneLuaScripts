@@ -794,7 +794,7 @@ slot0.onInitMemory = function(slot0, slot1)
 		if uv0.info then
 			if uv0.isGroup then
 				uv1:showSubMemories(uv0.info)
-			elseif uv0.info.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(uv0.info.story, true) then
+			elseif uv0.info.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(uv0.info.unlock_pre, true) then
 				uv1:playMemory(uv0.info)
 			end
 		end

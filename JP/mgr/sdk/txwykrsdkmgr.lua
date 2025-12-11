@@ -133,17 +133,16 @@ return {
 		return BundleWizard.Inst:GetGroupMgr(GroupMainHelper.DefaultGroupName).CurrentVersion:ToString()
 	end,
 	GetSDKServerID = function ()
-		slot0 = {
+		slot1 = ({
 			[0] = "1",
 			"2001",
 			"1001",
 			"not_define"
-		}
-		slot1 = slot0[NetConst.getwayType]
+		})[NetConst.getwayType]
 
 		originalPrint("SDK ServerID:" .. tostring(slot1))
 
-		return slot0[slot1]
+		return slot1
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()

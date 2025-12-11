@@ -175716,6 +175716,31 @@ _G.pg.base.item_virtual_data_statistics[65757] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65761] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「作戦準備・越境実験」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65761",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65761,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "木材",

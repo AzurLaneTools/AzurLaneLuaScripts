@@ -14,7 +14,7 @@ slot0.Load = function(slot0, slot1, slot2)
 		end)
 	end)
 	table.insert(slot3, function (slot0)
-		uv0:SetupBT(uv1, uv2, slot0)
+		uv0:SetupBT(uv1, uv2:GetBehaviourTree(), slot0)
 	end)
 	seriesAsync(slot3, function ()
 		uv0(uv1)
@@ -34,18 +34,18 @@ slot0.LoadAsset = function(slot0, slot1, slot2)
 end
 
 slot0.SetupBT = function(slot0, slot1, slot2, slot3)
-	if not slot2:GetBehaviourTree() or slot4 == "" then
+	if not slot2 or slot2 == "" then
 		slot3()
 
 		return
 	end
 
-	slot5 = IslandAssetLoadDispatcher.Instance
+	slot4 = IslandAssetLoadDispatcher.Instance
 
-	slot0:AddLoadingID(slot5:Enqueue(slot4, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot0:AddLoadingID(slot4:Enqueue(slot2, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		assert(slot0, uv0)
 
-		GetOrAddComponent(uv1, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = Object.Instantiate(slot0)
+		GetOrAddComponent(uv1, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = slot0
 
 		uv2()
 	end), true, true))

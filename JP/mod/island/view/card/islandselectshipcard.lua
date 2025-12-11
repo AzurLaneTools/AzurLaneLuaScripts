@@ -46,29 +46,35 @@ slot0.Update = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:UpdateSelected(slot4)
 	GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. IslandShip.StaticGetPrefab(slot0.id), "", slot0.iconTF)
 
-	slot6 = slot0.ship:GetAttrGrade(IslandShipAttr.ATTRS[slot0.attrType])
+	slot6 = slot0.ship:GetAttr(IslandShipAttr.ATTRS[slot0.attrType])
 
-	for slot10, slot11 in ipairs(slot0.attrTfList) do
-		if slot11 ~= "" then
-			setActive(slot11, slot6 == slot10)
+	if IslandProductTimeHelper.GetAttributeAddPercentByAttribute(slot1, slot0.attrType) ~= 0 then
+		slot6 = math.floor(slot6 * (1 + 0.01 * slot7)) or slot6
+	end
+
+	slot8 = slot0.ship:GetAttrGradeByValue(slot6)
+
+	for slot12, slot13 in ipairs(slot0.attrTfList) do
+		if slot13 ~= "" then
+			setActive(slot13, slot8 == slot12)
 		end
 	end
 
-	slot7 = slot0.ship:GetName()
+	slot9 = slot0.ship:GetName()
 
 	setText(slot0.nameTF, slot0.ship:GetName())
 
-	slot8 = slot0.ship:GetCurrentEnergy()
-	slot9 = slot0.ship:GetMaxEnergy()
+	slot10 = slot0.ship:GetCurrentEnergy()
+	slot11 = slot0.ship:GetMaxEnergy()
 
-	setSlider(slot0.energySliderTF, 0, 1, slot8 / slot9)
-	setText(slot0.energyTF, slot8 .. "/" .. slot9)
+	setSlider(slot0.energySliderTF, 0, 1, slot10 / slot11)
+	setText(slot0.energyTF, slot10 .. "/" .. slot11)
 	setActive(slot0.workingMaskTF, slot0.ship:GetState() ~= IslandShip.STATE_NORMAL)
 
-	slot11 = slot0.ship:GetSkill():IsEffectiveInPlace(slot0.buildingId)
+	slot13 = slot0.ship:GetSkill():IsEffectiveInPlace(slot0.buildingId)
 
-	setActive(slot0.skillInuse, slot11)
-	setActive(slot0.skillUnuse, not slot11)
+	setActive(slot0.skillInuse, slot13)
+	setActive(slot0.skillUnuse, not slot13)
 end
 
 slot0.UpdateSelected = function(slot0, slot1)

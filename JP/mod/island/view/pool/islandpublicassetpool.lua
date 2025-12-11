@@ -1,0 +1,24 @@
+slot0 = class("IslandPublicAssetPool", import(".IslandObjectPool"))
+
+slot0.CanDelete = function(slot0)
+	return slot0:Isloaded()
+end
+
+slot0.Dequeue = function(slot0)
+	return slot0:NewItem()
+end
+
+slot0.DequeueAsyn = function(slot0, slot1)
+	slot1(slot0:NewItem())
+end
+
+slot0.NewItem = function(slot0)
+	assert(slot0:Isloaded(), "call load first")
+
+	return slot0.asset
+end
+
+slot0.Enqueue = function(slot0, slot1)
+end
+
+return slot0

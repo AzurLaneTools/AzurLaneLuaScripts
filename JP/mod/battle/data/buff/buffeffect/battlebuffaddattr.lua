@@ -32,7 +32,7 @@ slot1.onAttach = function(slot0, slot1, slot2)
 end
 
 slot1.onStack = function(slot0, slot1, slot2)
-	slot0._number = slot0._numberBase * slot2._stack
+	slot0._number = slot0._numberBase * math.min(slot2._stackCap, slot2._stack)
 
 	slot0:UpdateAttr(slot1)
 end

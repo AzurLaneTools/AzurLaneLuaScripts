@@ -11747,6 +11747,105 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70305] = {
+		id = 70305,
+		name = "2025信标BOSS 约克城meta 浮游炮",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 4,
+				param = {
+					radius = 15,
+					z = 50,
+					antiClockWise = false,
+					duration = 4.5,
+					x = -10
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 4,
+				param = {
+					radius = 15,
+					z = 50,
+					antiClockWise = false,
+					duration = 5,
+					x = -10
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 4,
+				param = {
+					radius = 15,
+					z = 50,
+					antiClockWise = false,
+					duration = 5,
+					x = -10
+				}
+			},
+			{
+				index = 6,
+				to = 7,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 7,
+				to = 8,
+				type = 4,
+				param = {
+					radius = 15,
+					z = 50,
+					antiClockWise = true,
+					duration = 5,
+					x = -10
+				}
+			},
+			{
+				index = 8,
+				to = 9,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 9,
+				to = 2,
+				type = 4,
+				param = {
+					radius = 15,
+					z = 50,
+					antiClockWise = true,
+					duration = 5,
+					x = -10
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",
