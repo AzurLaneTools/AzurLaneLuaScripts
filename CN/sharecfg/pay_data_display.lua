@@ -98,6 +98,11 @@ pg.pay_data_display = setmetatable({
 		98,
 		99,
 		9001,
+		9002,
+		9003,
+		9004,
+		9005,
+		9006,
 		1000,
 		1001,
 		1002,
@@ -124,6 +129,7 @@ pg.pay_data_display = setmetatable({
 		1023,
 		1024,
 		1025,
+		1302,
 		2001,
 		2002,
 		2003,
@@ -11732,6 +11738,603 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9002] = {
+		picture = "pack_2024_98",
+		name = "冬日自选礼包1(2025)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得980钻，冬日自选礼物盒1*1，和大量其他奖励",
+		subject = "冬日自选礼包1(2025)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 98,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi201",
+		extra_gem = 0,
+		id = 9002,
+		airijp_id = "com.bilibili.blhx.zuanshi201",
+		name_display = "冬日自选礼包1(2025)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81221,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81221,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81225,
+				1
+			}
+		}
+	},
+	[9003] = {
+		picture = "pack_2024_198",
+		name = "冬日自选礼包2(2025)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得1980钻，冬日自选礼物盒2*1，和大量其他奖励",
+		subject = "冬日自选礼包2(2025)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 198,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi202",
+		extra_gem = 0,
+		id = 9003,
+		airijp_id = "com.bilibili.blhx.zuanshi202",
+		name_display = "冬日自选礼包2(2025)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81222,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81222,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81226,
+				1
+			}
+		}
+	},
+	[9004] = {
+		picture = "pack_2024_328",
+		name = "冬日自选礼包3(2025)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得3280钻，冬日自选礼物盒3*1，和大量其他奖励",
+		subject = "冬日自选礼包3(2025)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 328,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi203",
+		extra_gem = 0,
+		id = 9004,
+		airijp_id = "com.bilibili.blhx.zuanshi203",
+		name_display = "冬日自选礼包3(2025)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81223,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81223,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81227,
+				1
+			}
+		}
+	},
+	[9005] = {
+		picture = "fudai99",
+		name = "豪华冬日促销礼盒(2025)",
+		type = 1,
+		second_text = "大量奖励",
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		subject = "豪华冬日促销礼盒(2025)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 198,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi204",
+		extra_gem = 0,
+		id = 9005,
+		airijp_id = "com.bilibili.blhx.zuanshi204",
+		name_display = "豪华冬日促销礼盒(2025)",
+		first_text = "随机换装和大量钻石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86220,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86220,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81228,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86220,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[9006] = {
+		picture = "fudai_L2d_new",
+		name = "冬日促销礼盒(2025)",
+		type = 1,
+		second_text = "大量奖励",
+		descrip = "可获得列表中未拥有的L2D换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
+		subject = "冬日促销礼盒(2025)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 68,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得1080钻石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi205",
+		extra_gem = 0,
+		id = 9006,
+		airijp_id = "com.bilibili.blhx.zuanshi205",
+		name_display = "冬日促销礼盒(2025)",
+		first_text = "随机换装",
+		akashi_pick = 1,
+		skin_inquire_relation = 86221,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86221,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81229,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86221,
+				1
+			}
+		}
+	},
 	[1000] = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证",
@@ -13937,6 +14540,91 @@ pg.base.pay_data_display = {
 		sub_display = {
 			7026,
 			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1302] = {
+		picture = "battlepass_winter_1",
+		name = "冬日特许巡游凭证(2025.12)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得200巡游点数，同时解锁特许巡游奖励",
+		subject = "冬日特许巡游凭证(2025.12)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 50,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.battlepass302",
+		extra_gem = 0,
+		id = 1302,
+		airijp_id = "com.yostarjp.azurlane.seasonpass301",
+		name_display = "冬日特许巡游凭证(2025.12)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4102,
+				200
+			},
+			{
+				8,
+				65112,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				65112,
+				200
+			}
+		},
+		sub_display = {
+			7302,
+			200
 		},
 		ignorePlatform = {},
 		limit_args = {},

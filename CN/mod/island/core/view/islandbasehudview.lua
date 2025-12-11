@@ -11,7 +11,7 @@ slot0.OnInit = function(slot0, slot1)
 	slot0:SubViewInit()
 end
 
-slot0.SetUIParent = function(slot0, slot1)
+slot0.GetUIParent = function(slot0, slot1)
 	return slot0:GetView().hudContainer
 end
 

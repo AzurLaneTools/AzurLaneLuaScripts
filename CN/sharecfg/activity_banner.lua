@@ -1,13 +1,38 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
 		}
 	},
 	{
@@ -38,7 +63,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					4
+					11
 				},
 				{
 					0,
@@ -50,7 +75,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					12,
@@ -61,14 +86,39 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
 		param = {
 			"scene charge",
 			{
-				wrap = 2
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
 			}
 		}
 	},
@@ -85,37 +135,12 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene vote entrance"
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
+			"scene court yard"
 		}
 	},
 	{
@@ -123,14 +148,19 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"crusing"
+			"scene core activity",
+			{
+				actID = 7302,
+				openPass = true,
+				coreName = "WinterFestival2025CoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					12,
-					1
+					11
 				},
 				{
 					0,
@@ -142,7 +172,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					12,
@@ -153,8 +183,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "https://game.bilibili.com/blhx/2025sd/?channel=yxbanner",
-		type = 1,
+		param = "50263",
+		type = 3,
 		id = 8,
 		pic = "temp8",
 		time = {
@@ -162,7 +192,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					4
+					11
 				},
 				{
 					0,
@@ -174,7 +204,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					12,
@@ -189,18 +219,14 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
+			"metacharacter"
 		},
 		time = {
 			{
 				{
 					2025,
 					12,
-					4
+					11
 				},
 				{
 					0,
@@ -212,7 +238,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					12,
@@ -318,9 +344,6 @@ pg.activity_banner = {
 		pic = "winter"
 	},
 	get_id_list_by_type = {
-		{
-			8
-		},
 		[2] = {
 			1,
 			2,
@@ -330,6 +353,9 @@ pg.activity_banner = {
 			6,
 			7,
 			9
+		},
+		[3] = {
+			8
 		},
 		[9] = {
 			90,

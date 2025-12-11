@@ -171311,6 +171311,31 @@ _G.pg.base.item_virtual_data_statistics[65111] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65112] = {
+	drop_gold_max = 0,
+	name = "冬日巡游点数",
+	display = "参与「世界巡游 冬日赠礼」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失 ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7302,
+	icon = "props/battlepass_winter_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 29,
+	id = 65112,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "抵抗之星纪念勋章",
@@ -172691,6 +172716,56 @@ _G.pg.base.item_virtual_data_statistics[65552] = {
 	drop_oil_max = 0,
 	virtual_type = 13,
 	id = 65552,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65555] = {
+	drop_gold_max = 0,
+	name = "换装折扣券（冬日）",
+	display = "用于「换装商店」内购买所有冬日返场换装时享有300钻石优惠\n有效期至：2025年12月18日维护",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50269,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65555,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65556] = {
+	drop_gold_max = 0,
+	name = "换装折扣券（世界巡游 冬日赠礼）",
+	display = "用于「换装商店」内购买所有冬日返场与常驻换装时享有180钻石优惠\n有效期至：2025年12月31日 23:59:59",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50270,
+	icon = "Props/skin_180_blackfriday",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65556,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176355,6 +176430,31 @@ _G.pg.base.item_virtual_data_statistics[65758] = {
 	drop_oil_max = 0,
 	virtual_type = 2,
 	id = 65758,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65761] = {
+	drop_gold_max = 0,
+	name = "训练点数",
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65761",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65761,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -184860,6 +184960,184 @@ _G.pg.base.item_virtual_data_statistics[86219] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 86219,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86220] = {
+	drop_gold_max = 0,
+	name = "随机换装",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86220,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307084,
+			830
+		},
+		{
+			499022,
+			830
+		},
+		{
+			699021,
+			830
+		},
+		{
+			205161,
+			830
+		},
+		{
+			499053,
+			830
+		},
+		{
+			307076,
+			830
+		},
+		{
+			202204,
+			870
+		},
+		{
+			904021,
+			830
+		},
+		{
+			407041,
+			830
+		},
+		{
+			799021,
+			830
+		},
+		{
+			901072,
+			830
+		},
+		{
+			405013,
+			830
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86221] = {
+	drop_gold_max = 0,
+	name = "随机换装",
+	display = [[
+从如下换装中随机获得1件未拥有的换装(如果所有换装都已拥有，则会转化为获得1080钻石) 
+各换装概率均等，包含换装如下：
+光荣换装 凉夜香雪；
+柴郡换装 音乐绚烂CaitSith；
+波拉换装 水边的事故？；
+北卡罗来纳换装 秘密的换装练习？；
+里诺换装 bunny·reno！；
+{namecode:18}换装 最速兔兔的邀请函(?)；
+柴郡换装 冰雪公主；
+拉·加利索尼埃换装 黑猫与南瓜之夜；
+{namecode:455}换装 闭店后的特别时光；
+卡律布狄斯换装 治愈的红闺；
+{namecode:91}换装 朝凰来仪；
+{namecode:448}换装 黑白的夜之主；
+{namecode:461}换装 永夜的赤之贵族；
+{namecode:480}换装 港区的龙女仆；
+前卫换装 摇摆不定的伪装；
+{namecode:439}换装 苍翠的安眠曲；
+{namecode:18}换装 不思议国度的白兔；
+{namecode:182}换装 轰鸣的银轮；
+巴尔的摩换装 迅疾的蓝星；
+雅努斯换装 万圣喵喵惊悚夜；
+布莱默顿换装 悠然放松时光；
+安克雷奇换装 海豚、海洋、游泳课；
+{namecode:97}换装 海滨的白日美梦；
+{namecode:199}换装 盛夏的闲暇；
+{namecode:516}换装 暗之龙，光之岸；
+{namecode:161}换装 红鸢的闲暇片刻；
+戈里齐亚换装 办公室的“隔阂”；
+海伦娜换装 耀眼的波纹；
+克莱蒙梭换装 金日煦风；
+{namecode:182}换装 白沙幽梦；
+{namecode:463}换装 一骑绝尘；
+金鹿号换装 古堡中的恐怖淑女；
+奇尔沙治换装 Allnight Charge；
+{namecode:521}换装 微醺胜负；
+安克雷奇换装 舟畔共明月；
+英仙座换装 慵懒的春光；
+{namecode:529}换装 天幕危机；
+德文郡换装 红月下的恶魔；
+可畏换装 值日时的春心萌动；
+阿尔萨斯换装 盛夏的圣迹；
+圣路易斯换装 邮轮上的诱人午后；
+莫加多尔换装 静谧一隅的燥热；
+柴郡换装 绚烂夜梦；
+{namecode:455}换装 浴室中的小小意外；
+光辉换装 二人的学习时间；
+斯特拉斯堡换装 赛场上的电子妖精；
+霞飞换装 祝福的起步冲刺；
+{namecode:440}换装 相会于盛夏之夜；
+匹兹堡换装 斟酒女郎的赌局；
+伴尔维换装 清凉的甜蜜滋味；
+{namecode:161}换装 落于王座之花；
+天狼星换装 至高乐园的白兔；
+{namecode:84}换装 堇色兔的狙击游戏；
+{namecode:295}换装 愿望为“爱”；
+{namecode:542}换装 Schwarzes Kaninchen；
+{namecode:435}换装 未完成的圣诞惊喜；
+{namecode:480}换装 私密闲暇时；
+纳希莫夫海军上将换装 聚光灯下的初体验；
+{namecode:182}换装 幻梦奇术；
+那不勒斯换装 Dreamy Night；
+布雷斯特换装 良夜春景；
+美因兹换装 静雅之所的安逸；
+{namecode:523}换装 灯映星展；
+拉斐尔换装 爱与美的秘密珍藏；
+济安换装 异域绮梦；
+莫加多尔换装 嗅诊的护理天使；
+七省换装 相依偎的温度；
+狮换装 沙滩的慵懒主宰；
+特拉法尔加换装 海风与夜语；
+{namecode:97}换装 绮愿良宵；
+君主换装 海滩享受计划；
+{namecode:531}换装 夏日防晒计划；
+可畏换装 纪念印记；
+{namecode:546}换装 心动审讯练习中 ；
+{namecode:165}换装 心向何方的指导课；
+企业换装 雨霁于心晴之时；
+安克雷奇换装 香甜牛奶味之夜；]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86221,
 	display_icon = {},
 	price = {},
 	index = {},

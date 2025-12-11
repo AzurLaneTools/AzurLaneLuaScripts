@@ -252,9 +252,11 @@ pg.memory_group = setmetatable({
 		343,
 		344,
 		345,
+		346,
 		347,
 		348,
 		349,
+		350,
 		501,
 		502,
 		503,
@@ -6236,6 +6238,18 @@ pg.base.memory_group = {
 			4763
 		}
 	},
+	[346] = {
+		title = "今年的促销形式是！",
+		subtype = 3,
+		link_event = 50267,
+		type = 2,
+		id = 346,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4771
+		}
+	},
 	[347] = {
 		title = "DATE A LANE-「关卡篇」",
 		subtype = 2,
@@ -6324,6 +6338,26 @@ pg.base.memory_group = {
 			4857,
 			4858,
 			4859
+		}
+	},
+	[350] = {
+		title = "致美好世界",
+		subtype = 1,
+		link_event = 50266,
+		type = 2,
+		id = 350,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4871,
+			4872,
+			4873,
+			4874,
+			4875,
+			4876,
+			4877,
+			4878,
+			4879
 		}
 	},
 	[501] = {

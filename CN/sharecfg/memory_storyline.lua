@@ -2349,18 +2349,54 @@ pg.memory_storyline = {
 		}
 	},
 	{
+		description = [[
+「与塞壬的战争结束了」
+「联盟合并会议也结束了」
+「一个美好世界」
+「一个新世界」]],
+		name = "致美好世界",
+		column = 57,
+		world_id = "",
+		bgm = "login",
+		row = 0,
+		chapter = 4,
+		memory_lock = 0,
+		id = 92,
+		icon = "ChapterFour_11",
+		sort = 1,
+		memory_id = {
+			1,
+			350
+		},
+		shipnation = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			10,
+			11
+		},
+		link_event = {
+			91,
+			93
+		}
+	},
+	{
 		description = "敬请期待",
 		name = "敬请期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 57,
+		column = 58,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 92,
+		id = 93,
 		icon = "",
 		sort = 0
 	},
@@ -2456,6 +2492,7 @@ pg.memory_storyline = {
 		89,
 		90,
 		91,
-		92
+		92,
+		93
 	}
 }

@@ -287,7 +287,7 @@ end
 slot0.ClearPlaced = function(slot0, slot1)
 	if slot1 then
 		for slot5, slot6 in pairs(slot0.agora:GetPlacedlist()) do
-			slot0:UnPlaceItem(slot6.id)
+			slot0:UnPlaceItem(slot6.id, true)
 		end
 	else
 		for slot5, slot6 in pairs(slot0.agora:GetPlacedlist()) do

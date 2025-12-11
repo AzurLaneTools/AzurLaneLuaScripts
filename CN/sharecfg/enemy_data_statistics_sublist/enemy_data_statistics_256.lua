@@ -1,5 +1,98 @@
 pg = pg or {}
 pg.enemy_data_statistics_256 = {
+	[16500115] = {
+		cannon = 0,
+		name = "勒马尔统御武装-「宿主」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 31,
+		icon_type = 7,
+		type = 7,
+		id = 16500115,
+		antiaircraft = 38,
+		antiaircraft_growth = 3168,
+		fog_fx = "",
+		dodge_growth = 132,
+		antisub_growth = 0,
+		air_growth = 2574,
+		base = 90279,
+		durability = 890,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 9,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 39200,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100020,
+			1100170,
+			1100925,
+			1100935
+		}
+	},
+	[16500121] = {
+		cannon = 6,
+		name = "埃米尔统御武装-「漫游」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		icon_type = 1,
+		type = 1,
+		id = 16500121,
+		antiaircraft = 20,
+		antiaircraft_growth = 1638,
+		fog_fx = "",
+		dodge_growth = 222,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90742,
+		durability = 510,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		speed = 36,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 468,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 54,
+		durability_growth = 18800,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1100020,
+			1100395,
+			1100505
+		}
+	},
 	[16500122] = {
 		cannon = 20,
 		name = "埃米尔统御武装-「铁卫」",
@@ -1395,92 +1488,5 @@ pg.enemy_data_statistics_256 = {
 			1000771
 		},
 		buff_list = {}
-	},
-	[16501206] = {
-		cannon = 120,
-		battle_unit_type = 90,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		armor = 0,
-		hit_growth = 210,
-		antisub = 0,
-		fog_fx = "",
-		dodge_growth = 156,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90251,
-		durability = 3850,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 4,
-		id = 16501206,
-		cannon_growth = 3600,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 0,
-		durability_growth = 249600,
-		antiaircraft = 135,
-		antiaircraft_growth = 3200,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000776,
-			1000781,
-			1000786,
-			1000791,
-			1000796
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 2
-			}
-		}
-	},
-	[16501301] = {
-		cannon = 130,
-		air = 0,
-		torpedo = 100,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		torpedo_growth = 0,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 108,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 16,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 90741,
-		durability = 16500,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 180,
-		speed = 35,
-		luck = 8,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		id = 16501301,
-		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
 	}
 }

@@ -5278,7 +5278,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2025.9.4-2025.12.11</color>期间限时开放「{namecode:301}」的挑战，在此期间指挥官可挑战「{namecode:301}」累计其同步值获取<color=#92fc63>「{namecode:301}」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2025.12.11-2026.3.12</color>期间限时开放「约克城·META」的挑战，在此期间指挥官可挑战「约克城·META」累计其同步值获取<color=#92fc63>「约克城·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -5299,7 +5299,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标{namecode:301}暂不可使用指挥喵与潜艇
+·挑战信标约克城·META暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -5307,8 +5307,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标{namecode:301}挑战的进行，从第31天开始，即2025.10.5~2025.12.11期间，舰队挑战「{namecode:301}」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标{namecode:301}开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标{namecode:301}战斗中出现，每次挑战均会触发。]]
+随着信标约克城·META挑战的进行，从第31天开始，即2026.1.11~2026.3.12期间，舰队挑战「约克城·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标约克城·META开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标约克城·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -21559,9 +21559,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2025.9.4-2025.12.11</color>期间限时开放「{namecode:301}」的「资讯同步」，通过「信标{namecode:301}」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「{namecode:301}」角色</color>
+·<color=#92fc63>2025.12.11-2026.3.12</color>期间限时开放「约克城·META」的「资讯同步」，通过「信标约克城·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「约克城·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「{namecode:301}」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「约克城·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -38086,6 +38086,15 @@ _G.pg.base.gametip.SkinDiscountHelp_School = {
 }
 
 
+_G.pg.base.gametip.SkinDiscountHelp_Winter = {
+	tip = {
+		{
+			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件冬日返场换装、一个豪华冬日促销礼盒或一个冬日促销礼盒时，可领取一张<color=#92fc63>换装折扣券（冬日）</color>\n2.<color=#92fc63>换装折扣券（冬日）</color>可用于购买冬日返场任意换装时抵扣300钻石（购买礼盒时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（冬日）</color>将会在活动结束后（2025年12月18日维护）消失"
+		}
+	}
+}
+
+
 _G.pg.base.gametip.SkinDiscount_Hint = {
 	tip = "当前有未领取的换装折扣券，是否前往领取？"
 }
@@ -45328,12 +45337,12 @@ _G.pg.base.gametip.island_urgent_notice = {
 
 
 _G.pg.base.gametip.general_activity_side_bar1 = {
-	tip = "赛道上的等候"
+	tip = "冬日换装返场"
 }
 
 
 _G.pg.base.gametip.general_activity_side_bar2 = {
-	tip = "港区时尚特刊"
+	tip = "冬日特别巡游"
 }
 
 
@@ -45776,12 +45785,12 @@ _G.pg.base.gametip.vote_help_2025 = {
 
 
 _G.pg.base.gametip.HelenaCoreActivity_title = {
-	tip = "忆海留声"
+	tip = "活动汇总"
 }
 
 
 _G.pg.base.gametip.HelenaCoreActivity_title2 = {
-	tip = "Memories in Echo"
+	tip = "ACTIVITY"
 }
 
 
@@ -45792,4 +45801,138 @@ _G.pg.base.gametip.HelenaPTPage_title = {
 
 _G.pg.base.gametip.HelenaPTPage_title2 = {
 	tip = "Memories in Echo"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_1 = {
+	tip = "忆海留声"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_2 = {
+	tip = "作战准备"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_3 = {
+	tip = "致美好世界"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_1211 = {
+	tip = {
+		{
+			info = [[
+世界巡游 冬日赠礼(2025.12.11-2025.12.31)
+
+·<color=#92fc63>开放时间</color>
+ 2025.12.11 0点 ~ 2025.12.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「冬日巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「冬日巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达15。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>换装折扣券（世界巡游 冬日赠礼）</color>、<color=#ff5c5c>高级定向蓝图·八期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>战斗UI：冬日促销 </color>、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「冬日特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「冬日特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「冬日特许巡游凭证」说明</color>
+（1）「冬日特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>200点</color>「冬日巡游点数」同时解锁特许巡游奖励。
+（2）「冬日特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即12.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每日任务 
+ 巡游任务中共有12组每日任务。自活动开始后解锁第一日任务，之后每日的0点解锁下一天任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_1211 = {
+	tip = "世界巡游·冬日赠礼"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_proceed = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_main_time_title = {
+	tip = "剩余时间："
+}
+
+
+_G.pg.base.gametip.winter_cruise_title_1211 = {
+	tip = "世界巡游 冬日赠礼"
+}
+
+
+_G.pg.base.gametip.winter_cruise_task_tips = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.winter_cruise_task_unlock = {
+	tip = "该日任务将于$1天$2时后解锁"
+}
+
+
+_G.pg.base.gametip.winter_cruise_task_day = {
+	tip = "第$1日"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_pay_acquire = {
+	tip = "购买后立即获得："
+}
+
+
+_G.pg.base.gametip.winter_battlepass_pay_tip = {
+	tip = "购买后解锁特许巡游奖励："
+}
+
+
+_G.pg.base.gametip.winter_battlepass_mission = {
+	tip = "任务"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_rewards = {
+	tip = "奖励"
+}
+
+
+_G.pg.base.gametip.winter_cruise_btn_pay = {
+	tip = "解锁特许巡游"
+}
+
+
+_G.pg.base.gametip.winter_cruise_pay_reward = {
+	tip = "升级奖励"
+}
+
+
+_G.pg.base.gametip.winter_luckybag_9005 = {
+	tip = "当前已拥有换装（$1/$2）。若已经拥有换装，则对应的换装抵扣券不生效。如果已拥有礼盒内全部换装，则自动置换成等价钻石，此时不会掉落换装抵扣券。\n确认购买该礼包吗？"
+}
+
+
+_G.pg.base.gametip.winter_luckybag_9006 = {
+	tip = "当前已拥有换装（$1/$2）。若已经拥有换装，则对应的换装抵扣券不生效。如果已拥有礼盒内全部换装，则返还1080钻石，此时不会掉落换装抵扣券。\n确认购买该礼包吗？"
+}
+
+
+_G.pg.base.gametip.winter_cruise_btn_all = {
+	tip = "全部领取"
 }

@@ -57768,6 +57768,187 @@ pg.equip_skin_template = {
 			24000
 		}
 	},
+	[3059] = {
+		hit_sfx = "",
+		bullet_name = "zidan_dongzhiqiqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "99180",
+		name = "折扣气球子弹",
+		desc = "折扣到手，现在下单可享半价优惠！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3059,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_dongzhiqiqiu_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[3060] = {
+		hit_sfx = "",
+		bullet_name = "yulei_dongzhidengpai",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "99181",
+		name = "购物指示牌鱼雷",
+		desc = "看准指示牌，兑奖处就在前方~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3060,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[3061] = {
+		hit_sfx = "",
+		bullet_name = "paodan_dongzhigouwuhe",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99182",
+		name = "购物礼盒炮弹",
+		desc = "礼盒不缺，优惠不停~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3061,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[3062] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99183",
+		name = "好运转盘",
+		desc = "叮咚——谢谢惠顾！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3062,
+		themeid = 199,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_dongzhizhantai",
+		orbit_slg = "",
+		orbit_ui = "shebei_dongzhizhantaiui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.05,
+				-2.988,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				4.6,
+				-13.9
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -59193,6 +59374,10 @@ pg.equip_skin_template = {
 		3051,
 		3052,
 		3053,
-		3054
+		3054,
+		3059,
+		3060,
+		3061,
+		3062
 	}
 }

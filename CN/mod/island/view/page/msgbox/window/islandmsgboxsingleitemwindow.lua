@@ -54,8 +54,11 @@ slot0.FlushAcquiringWay = function(slot0, slot1)
 			setText(slot2:Find("Text"), slot3[1])
 			setText(slot2:Find("go/Text"), i18n("island_word_go"))
 			onButton(uv1, slot2:Find("go"), function ()
-				uv0:GetMsgBoxMgr():emit(IslandMediator.OPEN_PAGE, uv1[2][1], uv1[2][2])
-				uv0:Hide()
+				slot0 = Clone(uv0[2])
+
+				table.remove(slot0, 1)
+				uv1:GetMsgBoxMgr():emit(IslandMediator.OPEN_PAGE, slot0[1], slot0)
+				uv1:Hide()
 			end, SFX_PANEL)
 			setActive(slot2:Find("go"), slot3[2] and #slot3[2] > 0)
 		end

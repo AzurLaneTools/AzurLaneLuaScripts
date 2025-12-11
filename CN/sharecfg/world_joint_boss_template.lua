@@ -474,7 +474,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "威奇塔·META",
 		boss_level_id = 211,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "weiqita",
 		meta_id = 970304,
@@ -644,6 +644,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "椿·META",
 		boss_level_id = 286,
+		state = "stop",
 		item_id = 100000,
 		painting = "xili",
 		meta_id = 970109,
@@ -660,12 +661,49 @@ pg.world_joint_boss_template = {
 				"椿·META的鱼雷同样有30%概率造成持续时间6秒的特殊点燃（无视闪避，每1秒造成一次点燃伤害，点燃伤害可与爪击特殊点燃叠加）。\n椿·META对<color=#92fc63>点燃状态下的单位造成的伤害提升30%</color>，每个处于特殊点燃状态中的我方单位都会使椿·META<color=#92fc63>受到的伤害降低10%</color>。"
 			}
 		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			240,
+			484,
+			0.68,
+			0.68
+		}
+	},
+	{
+		name = "约克城·META",
+		boss_level_id = 301,
+		item_id = 100000,
+		painting = "yuekecheng",
+		meta_id = 970708,
+		id = 21,
+		description = {
+			{
+				"被观测者的哲学",
+				1,
+				"约克城·META初始便拥有<color=#92fc63>60%的高额基础减伤</color>。\n海域中每有一个有<color=#92fc63>归属于我方的单位</color>在场，便会使约克城·META受到的伤害额外提升15%，我方单位数量<color=#92fc63>大于等于12时效果达到最大</color>。"
+			},
+			{
+				"注视，直到永远",
+				1,
+				"约克城·META在场时，每5秒降低我方全体单位3%防空与3%机动，并对此时距离她<color=#92fc63>最近的我方角色产生双倍效果</color>。"
+			},
+			{
+				"「零」象限展开-5%",
+				1,
+				"战斗中释放某种影响整个海域状态的的特殊领域，同时提升3%敌我双方受到的伤害。"
+			}
+		},
 		state = {
 			{
 				{
 					2025,
-					9,
-					4
+					12,
+					11
 				},
 				{
 					0,
@@ -675,9 +713,9 @@ pg.world_joint_boss_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					11
+					2026,
+					3,
+					12
 				},
 				{
 					23,
@@ -693,10 +731,10 @@ pg.world_joint_boss_template = {
 			0.7
 		},
 		p_offset_other = {
-			240,
-			484,
-			0.68,
-			0.68
+			190,
+			467,
+			0.65,
+			0.65
 		}
 	},
 	all = {
@@ -719,6 +757,7 @@ pg.world_joint_boss_template = {
 		17,
 		18,
 		19,
-		20
+		20,
+		21
 	}
 }

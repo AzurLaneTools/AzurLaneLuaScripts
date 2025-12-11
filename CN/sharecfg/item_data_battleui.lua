@@ -163,6 +163,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[112] = {
+		name = "冬日促销",
+		key = "SkinNormal_20251211",
+		display_icon = "ui_112",
+		unlock = "特别巡游茗的赠礼获取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "该界面专为喜欢购物的指挥官准备，在畅享购物欢乐的同时，用铺天盖地的礼物淹没对手吧。",
+		id = 112,
+		icon = "112",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "圣诞雪境",
 		key = "SkinNormal_20241209",
@@ -260,6 +275,7 @@ pg.item_data_battleui = {
 		108,
 		109,
 		111,
+		112,
 		201,
 		202,
 		203,

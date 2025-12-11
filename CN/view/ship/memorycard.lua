@@ -35,13 +35,13 @@ slot0.flush = function(slot0)
 		slot2 = #slot0.info.memories
 
 		for slot6, slot7 in ipairs(slot0.info.memories) do
-			if pg.memory_template[slot7].is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot8.story, true) then
+			if pg.memory_template[slot7].is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot8.unlock_pre, true) then
 				slot1 = slot1 + 1
 			end
 		end
 
 		setText(slot0.groupCount, slot1 .. "/" .. slot2)
-	elseif slot0.info.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot0.info.story, true) then
+	elseif slot0.info.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot0.info.unlock_pre, true) then
 		setActive(slot0.normal, true)
 		setText(slot0.txTitle, slot0.info.title)
 		setText(slot0.txSubtitle, slot0.info.subtitle)

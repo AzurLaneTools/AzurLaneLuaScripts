@@ -1,5 +1,113 @@
 pg = pg or {}
 pg.enemy_data_statistics_40 = {
+	[825] = {
+		cannon = 0,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90140,
+		durability = 120,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 25,
+		armor = 0,
+		id = 825,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 120,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300146
+		}
+	},
+	[830] = {
+		cannon = 55,
+		name = "精锐护卫舰",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		reload = 150,
+		antisub = 120,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 40,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90123,
+		durability = 850,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 830,
+		scale = 150,
+		cannon_growth = 0,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 180,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				2.6,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong3 = 0.75
+		},
+		equipment_list = {
+			300160,
+			300161,
+			300162
+		}
+	},
 	[831] = {
 		cannon = 80,
 		name = "精锐巡逻舰",
@@ -1272,57 +1380,6 @@ pg.enemy_data_statistics_40 = {
 		},
 		equipment_list = {
 			520043
-		}
-	},
-	[917] = {
-		cannon = 0,
-		speed = 20,
-		air = 60,
-		torpedo = 0,
-		id = 917,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		fog_fx = "",
-		hit = 0,
-		base = 90252,
-		durability = 40000,
-		antiaircraft = 450,
-		battle_unit_type = 54,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			531018,
-			531019,
-			531020,
-			531021,
-			531022,
-			340015
-		}
-	},
-	[918] = {
-		cannon = 20,
-		speed = 20,
-		air = 0,
-		torpedo = 30,
-		id = 918,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		fog_fx = "",
-		hit = 0,
-		base = 90125,
-		durability = 10000,
-		antiaircraft = 230,
-		battle_unit_type = 53,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			531009,
-			531010,
-			531011,
-			531012,
-			340015
 		}
 	}
 }

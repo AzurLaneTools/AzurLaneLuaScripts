@@ -316,7 +316,6 @@ slot0.SetAction = function(slot0, slot1)
 	slot0._action = slot1
 
 	slot0:HiddenAttachmentByAction(slot1)
-	slot0:SetActionCallBack(nil)
 end
 
 slot0.SetActionOnce = function(slot0, slot1)

@@ -12,7 +12,12 @@ slot0.UpdateActivity = function(slot0, slot1)
 	end
 end
 
+slot0.initTplVar = function(slot0)
+	slot0.btnAllTip = "blackfriday_cruise_btn_all"
+end
+
 slot0.OnLoaded = function(slot0)
+	slot0:initTplVar()
 	slot0:UpdateActivity()
 
 	slot1 = slot0._tf
@@ -21,7 +26,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.btnAll = slot1:Find("btns/btn_all")
 	slot3 = slot0.btnAll
 
-	setText(slot3:Find("Text"), i18n("blackfriday_cruise_btn_all"))
+	setText(slot3:Find("Text"), i18n(slot0.btnAllTip))
 
 	slot0.scrollCom = GetComponent(slot1:Find("view/content"), "LScrollRect")
 
@@ -55,8 +60,11 @@ slot0.Flush = function(slot0, slot1)
 	slot0:BuildPhaseAwardScrollPos()
 
 	slot0.nextAwardIndex = nil
+	slot2 = #slot0.activity:GetHei5UnreceiveAward() > 0
 
-	setActive(slot0.btnAll, #slot0.activity:GetHei5UnreceiveAward() > 0)
+	setGray(slot0.btnAll, not slot2)
+	setTextColor(slot0.btnAll:Find("Text"), slot2 and Color.NewHex("#ffffff") or Color.NewHex("#7df39f"))
+	setButtonEnabled(slot0.btnAll, slot2)
 	slot0:UpdateNextAward(slot0.scrollCom.value)
 end
 
@@ -88,6 +96,8 @@ slot0.UpdateAwardInfo = function(slot0, slot1, slot2, slot3)
 	end
 
 	slot4 = slot3.pt <= slot0.pt
+	slot5 = Drop.Create(slot3.award)
+	slot5.desc = cancelColorRich(slot5.desc)
 
 	onButton(slot0, slot2:Find("base"), function ()
 		uv0:emit(BaseUI.ON_NEW_STYLE_DROP, {
@@ -95,7 +105,7 @@ slot0.UpdateAwardInfo = function(slot0, slot1, slot2, slot3)
 		})
 	end, SFX_CONFIRM)
 	setActive(slot2:Find("base/lock"), not slot4)
-	updateDrop(slot2:Find("base/mask/IconTpl"), Drop.Create(slot3.award))
+	updateDrop(slot2:Find("base/mask/IconTpl"), slot5)
 	setActive(slot2:Find("base/get"), slot4 and not slot0.awardDic[slot3.pt])
 	setActive(slot2:Find("base/got"), slot0.awardDic[slot3.pt])
 	onButton(slot0, slot2:Find("pay"), function ()

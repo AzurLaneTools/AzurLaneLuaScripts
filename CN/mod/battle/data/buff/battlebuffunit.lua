@@ -28,6 +28,7 @@ slot4.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._level = slot2
 	slot0._caster = slot3
 	slot0._forceStack = slot0._tempData.force_stack
+	slot0._stackCap = slot0._tempData.stack_cap or slot0._tempData.stack
 
 	for slot7, slot8 in ipairs(slot0._tempData.effect_list) do
 		slot0._effectList[slot7] = uv0.Battle[slot8.type].New(slot8)

@@ -307,7 +307,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "DALCoreActivityUI",
+		param = "WinterFestival2025CoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -317,7 +317,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50245
+			50270
 		}
 	},
 	[110] = {
