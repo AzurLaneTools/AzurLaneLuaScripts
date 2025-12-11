@@ -12,7 +12,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"港区假日鬼怪故事集II\n\n<size=45>多疑的古堡主</size>",
+					"港區假日鬼怪故事集II\n\n<size=45>多疑的古堡主</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			bgm = "story-ghostnight-fascinsting",
-			say = "夜色已深，出现在我眼前的，是一座位于偏僻荒原的古堡。",
+			say = "夜色已深，出現在我眼前的，是一座位於偏僻荒原的古堡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
-			say = "我推开门，听着门轴发出悠长的呻吟，随后屏住呼吸，在陌生建筑中小心摸索着前进路线。",
+			say = "我推開門，聽著門軸發出悠長的呻吟，隨後屏住呼吸，在陌生建築中小心摸索前進路線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "轰隆——！！",
+			say = "轟隆——！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "惊雷照亮了昏暗的主厅，白光乍现的同时，端坐在红酒喷泉下方的少女赫然出现在我面前。",
+			say = "驚雷照亮了昏暗的主廳，白光乍現的同時，端坐在紅酒噴泉下首的少女赫然出現在我面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 9600161,
 			actorName = "？？？",
-			say = "隐蔽安全的古堡，无人知晓的晚宴……这处安全屋算是勉强合格吧~",
+			say = "隱蔽安全的古堡，無人知曉的晚宴……這間安全屋算是勉強合格吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 9600161,
 			actorName = "？？？",
-			say = "欸……欸？！哇——你你你你、你是怎么进来的？！",
+			say = "欸……欸？！哇——你你你你、你是怎麼進來的？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "抱歉，深夜来访，我是……",
+			say = "抱歉，深夜來訪，我是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "我试图让少女相信我只是迷路的冒险者，为了找个安全的地方过夜才冒昧前来打扰。",
+			say = "我試著讓少女相信我只是迷路的冒險者，為了找個安全的地方過夜才冒昧前來打擾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 9600161,
 			actorName = "？？？",
-			say = "……你、你骗人！我在古堡外面布置了那么多陷阱和机关……你却能完美避开？",
+			say = "……你、你騙人！我在古堡外面佈置了那麼多陷阱和機關……你卻能完美避開？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 9600161,
 			actorName = "？？？",
-			say = "普通的冒险者可不会有这么好的身手！",
+			say = "普通的冒險者可不會有這麼好的身手！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "少女的脸庞笼罩在不安和怀疑的阴霾下，显然有着愈演愈烈的趋势。",
+			say = "少女的臉龐籠罩在不安和懷疑的陰霾下，顯然有著愈演愈烈的趨勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			actorName = "？？？",
-			say = "你难道要说，你只是碰巧进入了我的安全古堡，又碰巧避开了所有陷阱和机关……",
+			say = "你難道要說，你只是碰巧進入了我的安全古堡，又碰巧避開了所有陷阱和機關…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 9600161,
 			actorName = "？？？",
-			say = "最后碰巧走进了我所在的秘密主厅……",
+			say = "最後剛好走進了我所在的秘密主廳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			actorName = "？？？",
-			say = "鬼鬼祟祟的入侵者，你以为我会相信你的说辞吗？",
+			say = "鬼鬼祟祟的入侵者，你以為我會相信你的說辭嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			actorName = "？？？",
-			say = "我知道了……有这样的专业素养，你一定是个杀手！",
+			say = "我知道了……有這樣的專業素養，你一定是個殺手！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "冒险号的古堡，已经不安全了……",
+			say = "冒險號的古堡，已經不安全了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "冒险号，好不安好不安……",
+			say = "冒險號，好不安好不安……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "于是，我只好更加努力的解释事情确实是这样的。",
+			say = "於是，我只好更加努力的解釋事情確實是這樣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "当着少女的面，我打开了随身携带的行囊。",
+			say = "當著少女的面，我打開了隨身攜帶的行囊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "她的视线紧紧追随者着我的每一个动作，警惕中带着一丝好奇，就连身体都不自觉微微前倾。",
+			say = "她的視線緊緊追隨著我的每一個動作，警戒中帶著一絲好奇，連身體都不自覺微微前傾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "居然没有携带武器……",
+			say = "居然沒有攜帶武器……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "如果是有预谋的袭击，必然会携带作案工具……",
+			say = "如果是有預謀的攻擊，必然會攜帶犯案工具……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "不过……这还不足以证明你的清白！",
+			say = "不過……這還不足以證明你的清白！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "除非让我来贴身搜查一遍！",
+			say = "除非讓我來貼身搜查一遍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "毕竟你身上也可能藏着凶器呢……",
+			say = "畢竟你身上也可能藏著凶器呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "少女突然贴过身来，这突如其来的“搜查”让我有些猝不及防。",
+			say = "少女突然貼貼過身來，這突如其來的「搜查」讓我有些猝不及防。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "这里没有……这里也没有……",
+			say = "這裡沒有……這裡也沒有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "看起来，你的确没有携带武器……难道真的是巧合？",
+			say = "看起來，你的確沒有攜帶武器……難道真的是巧合？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "那么……",
+			say = "那麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "等等。虽然我说过，已经决定相信你了……",
+			say = "等等。雖然我說過，已經決定要相信你了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "但我可没有说，要放你离开哦？",
+			say = "但我可沒有說，要放你離開哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "沉重的碰撞声宣告着，来时经过的那扇沉重的橡木大门在此刻完全封死了。",
+			say = "沉重的碰撞聲宣告著，來時經過的那扇沉重的橡木大門在此刻完全封死了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "哦？没有慌乱，而是在耐心观察么？",
+			say = "哦？沒有慌亂，而是在耐心觀察嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "即使处在这样不利的环境中，还能如此冷静……",
+			say = "即使處在這樣不利的環境中，還能如此冷靜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "这一定是经历了无数次的冒险，才能锤炼出的强大实力呢~",
+			say = "這一定是經歷了無數次的冒險，才能錘鍊出的強大實力呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "所以说，我现在对你的过往经历相当感兴趣哦！",
+			say = "所以說，我現在對你的過往經驗相當感興趣哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "你就永远留在我的身边，给我讲故事，讨我欢心吧~",
+			say = "你就永遠留在我的身邊，給我講故事，討我歡心吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			actor = 9600161,
 			nameColor = "#A9F548FF",
-			say = "不用着急，我们还有很长~很长的时间，可以一直呆在一起哦？",
+			say = "不用急，我們還有很長~很長的時間，可以一直待在一起哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 			bgName = "bg_jufengv3_cg2",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 				}
 			},
 			location = {
-				"自由群岛·外围海域",
+				"自由群島·外圍海域",
 				3
 			},
 			dialogShake = {
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_cg2",
-			say = "骸骨兽群构成的汪洋中，莱姆号与圣马丁号宛若散发着金光的天使一般肆意驰骋着。",
+			say = "骸骨獸群構成的汪洋中，萊姆號與聖馬丁號宛若散發著金光的天使一般肆意馳騁著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,15 +74,15 @@ return {
 			bgName = "bg_jufengv3_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "圣马丁号",
-			say = "感觉此情此景……有些似曾相识啊。",
+			actorName = "聖馬丁號",
+			say = "感覺此情此景……有些似曾相識啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
 			nameColor = "#A9F548FF",
@@ -94,36 +94,36 @@ return {
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "之前我们没有来自群岛的支援火力，因而陷入了苦战。",
+			say = "之前我們沒有來自群島的支援火力，因而陷入了苦戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "现在不一样了……",
+			say = "現在不一樣了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "地利在我们这边，魔物的数量虽然庞大，我们只需稳扎稳打，逐队击溃就好。",
+			say = "地利在我們這邊，魔物的數量雖然龐大，我們只要穩紮穩打，逐隊擊潰就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_504",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
-			say = "喂——莱姆，圣马丁！",
+			say = "喂——萊姆，聖馬丁！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "现在敌人正因为某种刺激展开疯狂进攻，我们来接应你们撤离了！",
+			say = "現在敵人正因為某種刺激展開瘋狂進攻，我們來接妳們撤離了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600130,
-			say = "这不是飓风船团么，来得正好。",
+			say = "這不是颶風船團嗎，來得剛好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600130,
-			say = "看到前方那个领主级骸骨兽了么？我们一同击溃它。",
+			say = "看到前方那個領主級骸骨獸了嗎？我們一同擊潰它。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600010,
-			say = "啊……等等！敌方势大，我们是来接应你们撤离的！",
+			say = "啊……等等！敵方勢大，我們是來接妳們撤離的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600130,
-			say = "来不及掉头了，跟我一起从正面杀出去。",
+			say = "來不及掉頭了，跟我一起從正面殺出去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

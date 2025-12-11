@@ -6,14 +6,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			bgName = "star_level_bg_163",
 			bgm = "theme-seaandsun-image",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊呜……啊呜……（咀嚼）",
+			say = "啊嗚……啊嗚……（咀嚼）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,12 +39,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你说，自由群岛？",
+			say = "……妳說，自由群島？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
 			hidePaintObj = true,
-			say = "傍晚时分，在这座属于飓风船团的大别墅中，众人一边享用着丰盛的晚餐，一边彼此分享着新闻与八卦。",
+			say = "傍晚時分，在這棟屬於颶風船團的大別墅中，眾人一邊享用著豐盛的晚餐，一邊彼此分享新聞與八卦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,12 +64,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，复仇女王船团前段时间在群妖海域中发现了一片无主之地哦。",
+			say = "沒錯，復仇女王船團前陣子在群妖海域中發現了一片無主之地喔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,12 +78,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们将其命名为自由群岛并占领了下来，你们猜猜接下来发生了什么？",
+			say = "她們將其為了自由群島並佔領了下來，你們猜猜接下來發生了什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,12 +92,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们开始在岛屿上开荒？",
+			say = "她們開始在島嶼上開荒？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,12 +106,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或者在里面发现了不得了的宝贝？",
+			say = "或是裡面發現了不得了的寶貝？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,12 +121,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都不全对，她们向世界各地放出了消息，邀请所有向往自由之人前去和她们一起寻找旧世遗迹中的宝物！",
+			say = "都不全對，她們向世界各地放出了消息，邀請所有嚮往自由之人前去和她們一起尋找舊世遺跡中的寶物！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,12 +136,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦，复仇女王船团这整得有点意思啊！",
+			say = "哇哦，復仇女王船團這整得有點意思啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,12 +151,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……是啊，好大的手笔，一处保存完好的旧世遗迹，想必会有无数人趋之若鹜的。",
+			say = "……是啊，好大的手筆，一處保存完好的舊世遺跡，想必會有無數人趨之若鶓的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,12 +166,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "复仇女王船团的声望也要水涨船高了……",
+			say = "復仇女王船團的聲望也要水漲船高了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,12 +181,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，真没想到现在居然还存在未被探明的无主之地。",
+			say = "是啊，真沒想到現在居然還存在著未被探明的無主之地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,12 +195,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "搞不好要在世界范围内掀起一场新的航海冒险潮了呢！",
+			say = "搞不好要在世界各地掀起一場新的航海冒險潮了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_163",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/knockdoor1",
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,12 +222,12 @@ return {
 			portrait = 9600110,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
-			actorName = "海豚号",
+			actorName = "海豚號",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦，好香的味道~我来得正是时候呢！",
+			say = "哇哦，好香的味道~我來得正是時候呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,12 +236,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这不是我们可爱的飓风信使小姐嘛~来得正好，一起吃一起吃！",
+			say = "這不是我們可愛的颶風信差小姐嘛~來得剛好，一起吃一起吃！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,12 +251,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天的鲸肉可是用来自王座城邦的咖喱烤制的哦！",
+			say = "今天的鯨肉可是用來自王座城邦的咖哩烤製的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,12 +266,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……咖喱烤鲸鱼？不不不！！！",
+			say = "……咖哩烤鯨魚？不不不！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,12 +280,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "团长坚持要这么做……",
+			say = "團長堅持要這麼做……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,12 +294,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "重点不是这个，重点是王座城邦的香料做的咖喱啊！我可是好不容易才搞到的呢！",
+			say = "重點不是這個，重點是王座城邦的香料做的咖哩啊！我可是好不容易才搞到的呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,12 +309,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天烤鲸鱼，明天烤鲨鱼！后天……烤章鱼吧！怎么样！",
+			say = "今天烤鯨魚，明天烤鯊魚！後天……烤章魚吧！怎麼樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,12 +324,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊、哦……嗯！听上去都好厉害！但是！这样不不不……",
+			say = "啊、哦……嗯！聽起來都好厲害！但是！這樣不不不……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,12 +338,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，你这次来是怎么了，维达有事要找我们么？",
+			say = "對了，妳這次來是怎麼了，維達有事要找我們嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,12 +352,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，不是的，我这次是来送一份复仇女王船团的邀请函哦~",
+			say = "啊，不是的，我這次是來送一份復仇女王船團的邀請函哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,12 +367,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "复仇女王船团的邀请函……？该不会是……",
+			say = "復仇女王船團的邀請函……？該不會是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,12 +381,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拿来我看看~！",
+			say = "拿來我看看~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			bgName = "star_level_bg_163",
 			actor = 9600010,
@@ -428,12 +428,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "邀请函上怎么说，别卖关子！",
+			say = "邀請函上怎麼說，別賣關子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,12 +442,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就和你之前听说的一样咯~复仇女王船团专程发函邀请我们前去自由群岛寻宝，共襄盛举！",
+			say = "就跟妳之前聽說的一樣囉~復仇女王船團專程發函邀請我們前去自由群島尋寶，共襄盛舉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,12 +457,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能够收到指名邀请函，我们飓风船团的名头也是越来越响了啊~",
+			say = "能夠收到指名邀請函，我們颶風船團的名頭也越來越響了啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,12 +471,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了，咱们什么时候出发？",
+			say = "太好了，我們什麼時候出發？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,12 +485,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "得先把维达她们叫回来——",
+			say = "得先把維達她們叫回來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,12 +499,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，不用了！维达小姐再来之前专门跟我说过，太远了，太累了，太麻烦了，她不去！",
+			say = "啊，不用了！維達小姐再來之前專門跟我說過，太遠了，太累了，太麻煩了，她不去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,12 +514,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以她不是有事找我们，而是让我们有事别去找她……",
+			say = "所以她不是有事找我們，而是讓我們有事別去找她……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,12 +529,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白了！那就去给圣马丁和加里冒险发个消息……",
+			say = "明白了！那就發個訊息去給聖馬丁和冒險加利……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,12 +543,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，前往群妖海域的最后一站补给在灰岩岛，让她们直接去那里跟我们会合吧，你送完信之后也在那里等我们。",
+			say = "嗯，前往群妖海域的最後一站補給在灰岩島，讓她們直接去那裡跟我們匯合吧，妳送完信之後也在那裡等我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,12 +558,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白啦~那事不宜迟，我就出发了？",
+			say = "明白~那事不宜遲，我就出發了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,12 +573,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不着急，吃完饭再走~来，咖喱烤鲸，多吃几块多吃几块~！",
+			say = "不急，吃完飯再走~來，咖哩烤鯨，多吃幾塊多吃幾塊~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",

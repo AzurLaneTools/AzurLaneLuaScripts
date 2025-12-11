@@ -208,7 +208,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "（走到信濃身旁坐下）",
+					content = "（走到{namecode:182:信濃}身旁坐下）",
 					flag = 2
 				}
 			}
@@ -324,11 +324,11 @@ return {
 			},
 			options = {
 				{
-					content = "信濃會怕嗎？",
+					content = "{namecode:182:信濃}会怕吗？",
 					flag = 1
 				},
 				{
-					content = "不會，因為有信濃在",
+					content = "不会，因为有{namecode:182:信濃}在",
 					flag = 2
 				}
 			}

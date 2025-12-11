@@ -2,6 +2,7 @@ slot0 = class("IslandIllustration", import("model.vo.BaseVO"))
 slot0.TYPES = {
 	NPC = 2,
 	ITEM = 3,
+	FISH = 4,
 	CHAR = 1
 }
 slot0.STATUS = {
@@ -20,10 +21,15 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.levelPointGotData = {}
 	slot0.starPoints = 0
 	slot0.starPointGotData = {}
+
+	slot0:InitConfigData()
 end
 
 slot0.bindConfigTable = function(slot0)
 	return pg.island_illustrated_guide
+end
+
+slot0.InitConfigData = function(slot0)
 end
 
 slot0.bindLinkConfigTable = function(slot0)
@@ -36,6 +42,9 @@ slot0.bindLinkConfigTable = function(slot0)
 		end,
 		[uv0.TYPES.ITEM] = function ()
 			return pg.island_item_data_template
+		end,
+		[uv0.TYPES.FISH] = function ()
+			return pg.island_fish
 		end
 	})
 end
@@ -68,6 +77,9 @@ slot0.GetName = function(slot0)
 		end,
 		[uv0.TYPES.ITEM] = function ()
 			return uv0:getLinkConfig("name")
+		end,
+		[uv0.TYPES.FISH] = function ()
+			return uv0:getLinkConfig("name")
 		end
 	})
 end
@@ -81,6 +93,9 @@ slot0.GetEnName = function(slot0)
 			return uv0:getLinkConfig("english_name")
 		end,
 		[uv0.TYPES.ITEM] = function ()
+			return ""
+		end,
+		[uv0.TYPES.FISH] = function ()
 			return ""
 		end
 	})
@@ -96,6 +111,9 @@ slot0.GetDesc = function(slot0)
 		end,
 		[uv0.TYPES.ITEM] = function ()
 			return uv0:getLinkConfig("desc")
+		end,
+		[uv0.TYPES.FISH] = function ()
+			return pg.island_item_data_template[uv0:getLinkConfig("item_id")].desc
 		end
 	})
 end
@@ -110,6 +128,9 @@ slot0.GetIcon = function(slot0)
 		end,
 		[uv0.TYPES.ITEM] = function ()
 			return "island/" .. uv0:getLinkConfig("icon")
+		end,
+		[uv0.TYPES.FISH] = function ()
+			return "island/" .. pg.island_item_data_template[uv0:getLinkConfig("item_id")].icon
 		end
 	})
 end

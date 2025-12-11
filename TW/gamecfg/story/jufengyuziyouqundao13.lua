@@ -9,7 +9,7 @@ return {
 			bgm = "story-temepest-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当飓风船团等人拖着冒险号赶到时，复仇女王船团正在海上与另一支光鲜亮丽的舰队进行着对峙。",
+			say = "當颶風船團等人拖著冒險號趕到時，復仇女王船團正在海上與另一隻光鮮亮麗的艦隊進行對峙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 				}
 			},
 			location = {
-				"自由群岛·外围海域",
+				"自由群島·外圍海域",
 				3
 			}
 		},
@@ -40,12 +40,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是……云墙守卫？",
+			say = "那是……雲牆守衛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,25 +55,25 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们果然还是来了……",
+			say = "她們果然還是來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_598",
 			actor = 9600130,
 			nameColor = "#A9F548FF",
-			say = "前面的船团听好，我是云墙守卫第三舰队旗舰莱姆号。",
+			say = "前面的船團聽好，我是雲牆守護第三艦隊旗艦萊姆號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,11 +100,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600130,
 			nameColor = "#A9F548FF",
-			say = "根据城邦联盟法律，所有在七海之中出现的岛屿都属于城邦联盟的财产，应等待城邦联盟的分配，任何人或组织无权私自占领。",
+			say = "根據城邦聯盟法律，所有在七海之中出現的島嶼都屬於城邦聯盟的財產，應等待城邦聯盟的分配，任何人或組織無權私自佔領。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,11 +114,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600130,
 			nameColor = "#A9F548FF",
-			say = "安妮女王复仇号，你对于该群岛的私自占领行为无效且非法。",
+			say = "安妮女王復仇號，妳對於群島的私自佔領行為無效且非法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,11 +128,11 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600130,
 			nameColor = "#A9F548FF",
-			say = "现在立刻带着你的人从岛上离开，将岛屿交由云墙守卫接管，城邦联盟可以考虑不追究你们此次的罪责。",
+			say = "現在立刻帶著妳的人從島上離開，將島嶼交由雲牆守衛接管，城邦聯盟可以考慮不追究妳們此次的罪責。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,11 +142,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
-			say = "呵呵……城邦联盟的法律，与我自由群岛有什么关系？",
+			say = "呵呵……城邦聯盟的法律，跟我自由群島有什麼關係？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,11 +156,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
-			say = "复仇女王船团也好，其他船团也罢，如果我们愿意屈从于腐朽霸道的城邦联盟，那我们的船团最初就不会成立了。",
+			say = "復仇女王船團也好，其他船團也罷，如果我們願意屈服於腐朽霸道的城邦聯盟，那我們的船團最初就不會成立了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,11 +170,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
-			say = "再说了，仅凭你，能代表云墙守卫，能代表城邦联盟议会吗？",
+			say = "再說了，僅憑妳，能代表雲牆守衛，能代表城邦聯盟議會嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,11 +184,11 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
-			say = "不过带了小船两三艘，也敢来威胁我……真是找死。",
+			say = "不過帶了小船兩三艘，也敢來威脅我……真是找死。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,11 +198,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600130,
 			nameColor = "#A9F548FF",
-			say = "嚣张！",
+			say = "囂張！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "star_level_bg_598",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "愤怒的莱姆号进行了一轮威吓射击。",
+			say = "憤怒的萊姆號進行了一輪威嚇射擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "射击落在了广阔的水面上，却让局势愈发剑拔弩张。",
+			say = "射擊落在了廣闊的水面上，卻讓局勢愈發劍拔弩張。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "更多船团从自由群岛中驶出，加入了复仇女王船团的一侧。",
+			say = "更多船團從自由群島駛出，加入了復仇女王船團的一側。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,13 +295,13 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			bgName = "star_level_bg_598",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟了，复仇女王船团可不是软柿子啊……",
+			say = "糟了，復仇女王船團不是軟柿子……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,12 +328,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "云墙守卫的莱姆号，我此前做生意的时候和她有过一面之缘。",
+			say = "雲牆守衛的萊姆號，我先前做生意的時候和她有過一面之緣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,12 +343,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她常年在死亡海域前线对抗魔物群，正直且疾恶如仇，但是性格有些急躁，行事也不够圆滑。",
+			say = "她常年在死亡海域前線對抗魔物群，正直且疾惡如仇，但是性格有些急躁，行事也不夠圓滑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,25 +358,25 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "云墙守卫舰队怕是要吃不了兜着走了……",
+			say = "雲牆守衛艦隊怕是要吃不了兜著走了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_598",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
-			say = "糟了……我早跟你说过，不要如此冲动。",
+			say = "糟了……我早跟妳說過，不要如此衝動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,11 +403,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600130,
 			nameColor = "#A9F548FF",
-			say = "既然有规则，就要按照规则办事……我不与邪恶的无法者妥协。",
+			say = "既然有規則，就要按照規則辦事……我不與邪惡的無法者妥協。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,11 +417,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
-			say = "你一直在前线对抗魔物……对待这些船团是不能用对抗魔物的心态来交流的。",
+			say = "妳一直在前線對抗魔物……對待這些船團是不能用對抗魔物的心態來溝通的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,11 +431,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
-			say = "这里还是我来吧。",
+			say = "這裡還是我來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,12 +444,12 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			bgName = "star_level_bg_598",
 			actor = 9600120,
 			nameColor = "#A9F548FF",
-			say = "有趣……是想比比谁的炮口更大么?",
+			say = "有趣……是想比誰的炮口更大嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,11 +476,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
-			say = "那你们看看这样如何呢？",
+			say = "那妳們看看這樣如何呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "star_level_bg_598",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "自由群岛主岛上的遗迹大炮发出一轮齐射，在海面上掀起了滔天波浪。",
+			say = "自由群島主島上的遺跡大炮發出一輪齊射，在海面上掀起了滔天波浪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,10 +552,10 @@ return {
 			actor = 9600020,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……安妮女士，你之前说得不错，关于这些岛屿的最终处置方案确实不是我们能够决定的。",
+			say = "……安妮女士，妳之前說得不錯，關於這些島嶼的最終處置方案確實不是我們能夠決定的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,11 +565,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
-			say = "我们本次前来的任务，是作为云墙守卫代表前来查看这处新出现的岛屿遗迹，并评估遗迹群的潜在威胁与隐患。",
+			say = "我們這次前來的任務，是作為雲牆守衛代表前來查看這處新出現的島嶼遺跡，並評估遺跡群的潛在威脅與隱患。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,11 +579,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
-			say = "既然你们也对外发出了不少邀请函，不知道调查团里可否带上我们呢？",
+			say = "既然妳們也對外發出了不少邀請函，不知道調查團裡可否帶上我們呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,10 +593,10 @@ return {
 			actor = 9600120,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你倒是客气多了，但……还是不行。",
+			say = "妳倒是客氣多了，但……還是不行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,11 +606,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
-			say = "虽然你们是拿着邀请函来的，但是我并没有邀请过你们。",
+			say = "雖然你們是拿著邀請函來的，但是我並沒有邀請過妳們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,11 +620,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
-			say = "不请自来的客人，还是请回吧。",
+			say = "不請自來的客人，還是請回吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,11 +634,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600130,
 			nameColor = "#A9F548FF",
-			say = "……看来没有必要继续谈下去了，圣马丁，准备作战吧。",
+			say = "……看來沒有必要繼續談下去了，聖馬丁，準備作戰吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			actor = 9600020,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "……",
@@ -660,13 +660,13 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			bgName = "star_level_bg_598",
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？圣马丁是不是在给我们使眼色？",
+			say = "咦？聖馬丁是不是在跟我們使眼色？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,12 +693,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来她是没拉住呢……",
+			say = "看來她是沒拉住呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,12 +707,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……哼哼~还得是我们飓风船团！",
+			say = "欸……哼哼~還得是我們颶風船團！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,12 +721,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我就去卖卖面子吧，否则她们真的打起来就不好了~！",
+			say = "我就去賣賣面子吧，否則她們真的打起來就不好了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

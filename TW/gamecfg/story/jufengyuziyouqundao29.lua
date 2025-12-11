@@ -9,7 +9,7 @@ return {
 			bgm = "battle-eagleunion",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的卧室熟悉的天花板。",
+			say = "光芒消散後，映入眼簾的臥室熟悉的天花板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "皇家财富号的计划……失败了啊。",
+			say = "皇家幸運號的計畫……失敗了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "感受着尚存的余温，我环顾四周。",
+			say = "感受著尚存的餘溫，我環顧四周。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,20 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "罗盘不再发光，但是特米娜露已经消失了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "至少特米娜露成功送了过去，皇家财富号她们这次又多了一层渡过危机的保障……",
+			say = "羅盤不再發光，但是特米娜露已經消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +74,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "现在也只能希望她们一切顺利了。",
+			say = "至少特米娜露成功送了過去，皇家幸運號她們這次又多了一層渡過危機的保障……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +87,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "愈发活跃的虚像塔，来来往往的异界访客，还有飓风船团……",
+			say = "現在也只能希望她們一切順利了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +100,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "如果说一个世界存在边界的话，那这个边界无疑正变得愈发脆弱……",
+			say = "愈發活躍的虛像塔，來來往往的異界訪客，還有颶風船團……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +113,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "维序机关……维序者……",
+			say = "如果說一個世界存在邊界的話，那這個邊界無疑正變得愈發脆弱……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +126,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也罢……兵来将挡水来土掩。",
+			say = "維序機關……維序者……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +139,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "对于未发生的事过分担忧没有意义，过好当下的每一日才是最重要的。",
+			say = "也罷……兵來將擋水來土掩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +152,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "洗漱一下……吃个早餐，然后——该开始今天的工作了。",
+			say = "對於未發生的事過度擔憂沒有意義，過好當下的每一日才是最重要的。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "洗漱一下……吃個早餐，然後——該開始今天的工作了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=100>——「飓风与自由群岛」·完</size>",
+					"——「颶風與自由群島」·完",
 					2
 				}
 			}

@@ -782,6 +782,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 					uv3(uv0)
 				end
 			else
+				uv0:clearMaskTexture(slot0)
 				pg.Live2DMgr.GetInstance():ReturnLive2DModel(uv0.modelName, slot0)
 			end
 		end
@@ -1366,6 +1367,7 @@ slot0.Dispose = function(slot0)
 	end
 
 	if slot0._go and slot0.state == uv0.STATE_INITED then
+		slot0:clearMaskTexture(slot0._go)
 		pg.Live2DMgr.GetInstance():ReturnLive2DModel(slot0.modelName, slot0._go)
 
 		slot0.modelName = nil
@@ -1373,6 +1375,29 @@ slot0.Dispose = function(slot0)
 	end
 
 	slot0.state = uv0.STATE_DISPOSE
+end
+
+slot0.clearMaskTexture = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	if GetComponent(slot1, "CubismMaskController") and ReflectionHelp.RefGetProperty(typeof("Live2D.Cubism.Rendering.Masking.CubismMaskController"), "MaskTexture", slot2) then
+		for slot8 = 0, ReflectionHelp.RefGetProperty(typeof("Live2D.Cubism.Rendering.Masking.CubismMaskTexture"), "RenderTextures", slot3).Length - 1 do
+			slot9 = slot4[slot8]
+
+			slot9:Release()
+			Object.DestroyImmediate(slot9)
+		end
+
+		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.Masking.CubismMaskTexture"), "RenderTextures", slot3, nil)
+
+		slot5 = ReflectionHelp.RefGetProperty(typeof("Live2D.Cubism.Rendering.Masking.CubismMaskTexture"), "RenderTexture", slot3)
+
+		slot5:Release()
+		Object.DestroyImmediate(slot5)
+		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.Masking.CubismMaskTexture"), "RenderTexture", slot3, nil)
+	end
 end
 
 slot0.settempOffsetPosTime = function(slot0, slot1)

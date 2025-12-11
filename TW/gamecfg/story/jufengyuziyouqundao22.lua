@@ -9,7 +9,7 @@ return {
 			bgm = "theme-tempest-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光芒消失后，皇家财富号从大床上睁开了双眼。",
+			say = "光芒消失後，皇家幸運號從大床上睜開了雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,12 +36,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……醒了么……",
+			say = "不……醒了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,12 +51,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官？！",
+			say = "指揮官？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "皇家财富号猛然起身，险些掀飞了被压在手下的特米娜露。",
+			say = "皇家幸運號猛然起身，差點掀飛了被壓在手下的特米娜露。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "除此之外，她的身边空无一人。",
+			say = "除此之外，她的身邊空無一人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +88,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没跟来啊……",
+			say = "沒跟來啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真可惜……下次见面又不知道是什么时候了……",
+			say = "真可惜……下次見面又不知道是什麼時候了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "皇家财富号用手用力拍了拍脸。",
+			say = "皇家幸運號用手用力拍了拍臉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,12 +129,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打起精神来！至少指挥官把特米娜露送来了！",
+			say = "打起精神來！至少指揮官把特米娜露送來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,12 +144,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天去探索金属岩洞和大灯塔，一定要找到超级宝物！",
+			say = "今天去探索金屬岩洞和大燈塔，一定要找到超級寶物！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_177",
-			say = "就在皇家财富号召集人手准备展开本日冒险时，主岛的大厅中发生了些许骚乱。",
+			say = "就在皇家幸運號召集人手準備展開本日冒險時，主島的大廳中發生了些許騷亂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "虽然由于昨日危机来得突然，群岛中的各船团爆发出了惊人的团结。",
+			say = "雖然由於昨日危機來得突然，群島中的各船團爆發出了驚人的團結。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "不过在本日情况稍定后，各船团又纷纷躁动起来。",
+			say = "不過在本日情況稍定後，各船團又紛紛躁動起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "对于巡逻班次的安排，对于云墙守卫和女神教会的不信任，对于资源分配等。",
+			say = "對於巡邏班次的安排，對於雲牆守衛和女神教會的不信任，對於資源分配等。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "还好，安妮女王复仇号似乎早有准备，她迅速平息了各项争议，并且在各船团中高票通过了一套自由群岛临时岛规。",
+			say = "還好，安妮女王復仇號似乎早有準備，她迅速平息了各項爭議，並且在各船團中高票通過了一套自由群島臨時島規。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "一切处理妥当后，她离开主岛大厅，前往二号中屿与飓风船团和女神教会展开了本日的寻宝工作。",
+			say = "一切處理妥當後，她離開主島大廳，前往二號中嶼與颶風船團和女神教會展開了本日的尋寶工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "二号中型岛屿上最明显的特色是有着一堵百米高的陡峭石壁，使其如同一道天然屏障般拱卫着主岛。",
+			say = "二號中型島嶼上最明顯的特色是有著數百公尺高的陡峭石壁，使其如同一道天然屏障般拱衛著主島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 				}
 			},
 			location = {
-				"自由群岛·二号中岛",
+				"自由群島·二號中島",
 				3
 			}
 		},
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "而利用藏宝图打开这堵石壁下的入口进入其中，才能发现其内部奥妙。",
+			say = "而利用藏寶圖打開這堵石壁下的入口進入其中，才能發現其內部奧妙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "看似天然山岩的峭壁内部其实已被掏空，一座旧世遗迹完整隐藏于其中。",
+			say = "看似天然山岩的峭壁內部其實已被掏空，一座舊世遺跡完整隱藏於其中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "遗迹中狭长的通道四通八达，向上直到峭壁顶端，向下不知深入何方，因此这里才被安妮女王复仇号称作金属岩洞。",
+			say = "遺跡中狹長的通道四通八達，向上直到峭壁頂端，向下不知深入何方，因此這裡才被安妮女王復仇號稱作金屬岩洞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,12 +306,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "向上的区域我们之前简单探索过，我们在这里获取了一部分有价值的物资。",
+			say = "向上的區域我們之前簡單探索過，我們在這裡獲取了一部分有價值的物資。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,12 +320,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "共鸣星图也是在这里找到的……就是邀请函上的星图。",
+			say = "共鳴星圖也是在這裡找到的……就是邀請函上的星圖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,12 +334,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是在发现了这些疑似进入门票的物品后，才有了制作邀请函的想法的。",
+			say = "我是在發現了這些疑似進入門票的物品後，才有了製作邀請函的想法的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,12 +349,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦，那些东西居然不是在主岛的遗迹殿堂中找到的吗！",
+			say = "咦，那些東西居然不是在主島的遺跡殿堂中找到的嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,12 +364,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不错，所以我推测，这个金属岩洞或许是曾经存放物资的地方。",
+			say = "不錯，所以我推測，這個金屬岩洞或許是曾經存放物資的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,12 +378,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "复仇女王船团",
+			factiontag = "復仇女王船團",
 			dir = 1,
 			actor = 9600120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过这里有没有和遗迹殿堂里类似的隐藏房间我就不清楚了。",
+			say = "不過這裡有沒有和遺跡殿堂裡類似的隱藏房間我就不清楚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,12 +393,12 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "女神教会",
+			factiontag = "女神教會",
 			dir = 1,
 			actor = 9600140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这一点的话，用女神教会的秘术一探便知了~",
+			say = "這一點的話，用女神教會的秘術一探便知了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,12 +407,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，不用麻烦，珍珠小姐，这次的搜索就交给我吧，我现在有了一个更快捷的好办法~",
+			say = "哼哼，不用麻煩，珍珠小姐，這次的搜尋就交給我吧，我現在有了一個更快的好辦法~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,12 +421,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "特米娜露，扫描一下这座金属岩洞的结构，看看有没有隐藏起来的岔路和房间~",
+			say = "特米娜露，掃描一下這座金屬岩洞的結構，看看有沒有隱藏起來的岔路和房間~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,64 +436,64 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果能画张地图来就更好了！",
+			say = "如果能畫張地圖來就更好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "魔导书·特米娜露",
+			actorName = "魔導書·特米娜露",
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "旧世遗产",
+			factiontag = "舊世遺產",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "特米娜露收到，正在扫描区域结构——",
+			say = "特米娜露收到，正在掃描區域結構——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "魔导书·特米娜露",
+			actorName = "魔導書·特米娜露",
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "旧世遗产",
+			factiontag = "舊世遺產",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "检测到本地数据库，正在接入系统——",
+			say = "偵測到本機資料庫，正在接入系統——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "魔导书·特米娜露",
+			actorName = "魔導書·特米娜露",
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "旧世遗产",
+			factiontag = "舊世遺產",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "正在读取数据——",
+			say = "正在讀取資料——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "魔导书·特米娜露",
+			actorName = "魔導書·特米娜露",
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "旧世遗产",
+			factiontag = "舊世遺產",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "数据读取完毕，正在展示栞佩拉III号堡垒中部回廊T-02段设施布局图——",
+			say = "資料讀完畢，正在展示栞佩拉III號堡壘中部迴廊T-02段設施佈局圖——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "在除了皇家财富号之外众人的目瞪口呆中，一幅散发着光芒的结构图出现在半空中。",
+			say = "在除了皇家幸運號之外眾人的目瞪口呆中，一幅散發著光芒的結構圖出現在半空中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,12 +513,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv3_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安妮团长，你之前绘制地图了么？我们将二者一对比，找找看有哪些不同吧！",
+			say = "安妮團長，妳之前繪製地圖了嗎？我們將二者一對比，找找看有哪些不同吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_jufengv3_1",
-			say = "经过对比后，众人果然发现了不少与复仇女王船团手中地图不一致的地方。",
+			say = "經過對比後，眾人果然發現了不少與復仇女王船團手中地圖不一致的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "在特米娜露的帮助下，一行人轻易打开了一处处密室。",
+			say = "在特米娜露的幫助下，一行人輕易打開了一處密室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "除了找到了大量堆放整齐但用途不明，或许只能作为旧世收藏品出售的物资外。",
+			say = "除了找到了大量堆放整齊但用途不明，或許只能作為舊世收藏品出售的物資外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "众人最大的收获是找到了海量质量极佳的遗迹合金，以及能够为各城邦城墙、女神神殿甚至为几乎所有旧世遗产供能的遗迹水晶。",
+			say = "眾人最大的收穫是找到了大量大量優質的遺跡合金，以及能夠為各城邦城牆、女神神殿甚至為幾乎所有舊世遺產供能的遺跡水晶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "海豚号还意外启动了一批隐藏在山岩中的巨炮，让自由群岛的防线又稳固了几分。",
+			say = "海豚號也意外啟動了一批隱藏在山岩中的巨炮，讓自由群島的防線又穩固了幾分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "但是冈依沙瓦号提到的，或许能解除此次危机的女神级遗产依旧不见踪迹。",
+			say = "但是岡依沙瓦號提到的，或許能解除這次危機的女神級遺產依舊不見蹤跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			hidePaintObj = true,
-			say = "如此一来，就只剩下最后一处可疑的区域了……",
+			say = "如此一來，就只剩下最後一處可疑的區域了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

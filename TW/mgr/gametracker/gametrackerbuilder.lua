@@ -302,10 +302,11 @@ slot0.BuildIslandShipBreakout = function(slot0, slot1)
 	}, {})
 end
 
-slot0.BuildIslandShipSkillUpgrade = function(slot0, slot1)
+slot0.BuildIslandShipSkillUpgrade = function(slot0, slot1, slot2)
 	return uv0(30016, {
 		slot0,
-		slot1
+		slot1,
+		slot2
 	}, {})
 end
 
@@ -534,6 +535,52 @@ end
 slot0.BuildIslandTakeThoto = function(slot0)
 	return uv0(30060, {
 		slot0
+	}, {})
+end
+
+slot0.BuildIslandFishingEnter = function(slot0)
+	return uv0(30065, {
+		slot0,
+		0,
+		0
+	}, {})
+end
+
+slot0.BuildIslandFishingExit = function(slot0, slot1)
+	return uv0(30065, {
+		slot0,
+		1,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandFishingChangeLure = function(slot0, slot1, slot2)
+	return uv0(30066, {
+		slot0,
+		slot1,
+		slot2
+	}, {})
+end
+
+slot0.BuildIslandFishingResult = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
+	return uv0(30067, {
+		slot0,
+		slot1,
+		slot2,
+		slot3,
+		slot4,
+		slot5,
+		slot6,
+		slot7,
+		slot8,
+		slot9
+	}, {})
+end
+
+slot0.BuildIslandFishingCancel = function(slot0, slot1)
+	return uv0(30068, {
+		slot0,
+		slot1
 	}, {})
 end
 

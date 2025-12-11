@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 30221,
-			say = "呵呵，会想到送我这个，{dorm3d}一定认真挑选了很久吧？",
+			say = "呵呵，會想到送我這個，{dorm3d}一定認真挑選很久了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 30221,
-			say = "不过光是关心我可不行，{dorm3d}自己也要注意劳逸结合哦？",
+			say = "不過光是關心我可不行，{dorm3d}自己也要注意勞逸結合哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

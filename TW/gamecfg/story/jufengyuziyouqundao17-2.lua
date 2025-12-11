@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			bgm = "battle-nightmare-theme",
-			say = "在击穿几批骸骨兽群的堵截后，皇家财富号一行人终于来到了这场战斗的正中心。",
+			say = "在擊穿幾批骸骨獸群的堵截後，皇家幸運號一行人終於來到了這場戰鬥的正中心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,49 +59,49 @@ return {
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……魔物，我早已熟悉了你们的习性，你们也没有令我意外。",
+			say = "……魔物，我早已熟悉了你們的習性，你們也沒有令我意外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前赴后继……不知疲倦……不知恐惧。",
+			say = "前赴後繼……不知疲倦……不知恐懼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此……我也只能继续奉陪到底了。",
+			say = "如此……我也只能繼續奉陪到底了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "受死吧——！",
@@ -114,11 +114,11 @@ return {
 			portrait = 9600020,
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
-			actorName = "圣马丁号",
+			actorName = "聖馬丁號",
 			nameColor = "#A9F548FF",
-			say = "莱姆，舰队那边撑不住了，我去帮忙。",
+			say = "萊姆，艦隊那邊撐不住了，我去幫忙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,9 +128,9 @@ return {
 			portrait = 9600020,
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
-			actorName = "圣马丁号",
+			actorName = "聖馬丁號",
 			nameColor = "#A9F548FF",
 			say = "小心。",
 			typewriter = {
@@ -139,39 +139,39 @@ return {
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无须担心，这种程度的魔物伤不了我。",
+			say = "無須擔心，這種程度的魔物傷不了我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "莱姆号",
+			actorName = "萊姆號",
 			side = 2,
 			bgName = "bg_jufengv3_cg2",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你去保护舰队，我来肃清它们。",
+			say = "妳去保護艦隊，我來肅清它們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_504",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
-			say = "果然，残骸不是云墙守卫做的！",
+			say = "果然，殘骸不是雲牆守衛做的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,11 +198,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
-			say = "她们和女神教会，还有一些新来的自由船团都被困在骸骨兽群里了！",
+			say = "她們和女神教會，還有一些新來的自由船團都被困在骸骨獸群裡了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,10 +212,10 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们也去帮忙！",
+			say = "我們也去幫忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

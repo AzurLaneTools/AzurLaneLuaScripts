@@ -9,7 +9,7 @@ return {
 			bgm = "theme-ganjisawai",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大厅之中，一名少女正在翩然起舞。",
+			say = "大廳之中，一名少女正在翩然起舞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "「女神啊，随我一同，前往安稳祥和之地吧——」",
+			say = "「女神啊，隨我一同，前往安穩祥和之地吧——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			side = 2,
-			say = "光芒消散后，少女停止了舞蹈。",
+			say = "光芒消散後，少女停止了舞蹈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "这场神秘的仪式，终于迎来了尾声。",
+			say = "這場神秘的儀式，終於迎來了尾聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "洞悉之眼已然回归……接下来便是塑造之翼。",
+			say = "洞悉之眼已然回歸……接下來便是塑造之翼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "女神主机标出的那片区域，很危险。",
+			say = "女神主機標示的那區域，很危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "下一次的行动，需要更周密的计划才行。",
+			say = "下一次的行動，需要更周密的計劃才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "不过在洞悉之眼的帮助下，我们一定能得到一个周密的计划的……",
+			say = "不過在洞悉之眼的幫助下，我們一定能得到一個周密的計劃的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "比这次更周密的计划……",
+			say = "比這次更周密的計劃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "不论如何……女神必须归位。",
+			say = "不論如何……女神必須歸位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "否则我们的未来……只有死亡与毁灭。",
+			say = "否則我們的未來……只有死亡與毀滅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

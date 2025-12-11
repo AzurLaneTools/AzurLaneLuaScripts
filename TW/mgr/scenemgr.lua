@@ -230,11 +230,17 @@ slot1.clearCacheUI = function(slot0)
 end
 
 slot1.gc = function(slot0, slot1)
+	slot2 = slot1:forceGC()
+
 	table.clear(slot1)
 
 	slot1.exited = true
 
-	if slot1:forceGC() or slot0._gcLimit <= slot0._gcCounter then
+	if slot1:DontGC() then
+		return
+	end
+
+	if slot2 or slot0._gcLimit <= slot0._gcCounter then
 		slot0._gcCounter = 0
 
 		gcAll(false)

@@ -9,7 +9,7 @@ return {
 			bgm = "story-tempest-marching",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "烧烤会结束后的深夜，骸骨兽群的进攻依然片刻不停。",
+			say = "燒烤會結束後的深夜，骸骨獸群的進攻依然片刻不停。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "遗迹大炮接连不断的巨响中，皇家财富号把玩着罗盘木雕进入了梦乡。",
+			say = "遺跡大炮接連不斷的巨響中，皇家幸運號把玩著羅盤木雕進入了夢鄉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgm = "theme-seaandsun-soft",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "皇家财富号行走在平静的沙滩上，海风和煦，暖阳正好。",
+			say = "皇家幸運號行走在平靜的沙灘上，海風和煦，暖陽正好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这外面炮火连天，都打成一团糟了。",
+			say = "……這外面炮火連天，都打成一團糟了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "梦里居然如此平静……真是有趣。",
+			say = "夢裡居然如此平靜……真是有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "皇家财富号踩在沙滩上，感受着清凉的海浪，顺便从树上打下个椰子来。",
+			say = "皇家幸運號踩在沙灘上，感受清涼的海浪，順便從樹上打下個椰子來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我就喜欢这种能尝到味道的梦！要是再来顿大餐就更好了……",
+			say = "我就喜歡這種能嚐到味道的夢！要是再來頓大餐就更好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？这个是？",
+			say = "……嗯？這個是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "皇家财富号惊讶地发现，被一同带入梦中的木质罗盘，此刻正在微微发光。",
+			say = "皇家幸運號驚訝地發現，被一同帶入夢中的木質羅盤，此刻正在微微發光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "光芒在指针上凝聚，指向了一个方向。",
+			say = "光芒在指針上凝聚，指向了一個方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "罗盘发光了！",
+			say = "羅盤發光了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？！怎么在梦里之后反而发光了……？！",
+			say = "咦？！怎麼在夢裡之後反而發光了……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我顺着这个方向找过去，难道说……！",
+			say = "那我順著這個方向找過去，難道說……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "想到此处，皇家财富号向着指针指出的方向奔跑起来。",
+			say = "想到此處，皇家幸運號朝著指針指出的方向奔跑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_106",
-			say = "不知过了多久，一个沙滩躺椅出现在皇家财富号的面前。",
+			say = "不知過了多久，一個沙灘躺椅出現在皇家幸運號的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是……",
+			say = "這是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官——？！",
+			say = "指揮官——？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

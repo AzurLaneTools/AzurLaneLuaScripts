@@ -540,6 +540,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>為柴郡特別製作的角色專屬頭像框</color>\n「Azurlane人氣投票2022」活動獲取",
 		scene = {}
 	},
+	[417] = {
+		name = "殿堂紀念：{namecode:199:紐澤西}",
+		gain_by = "",
+		time_second = 0,
+		id = 417,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>為{namecode:199:紐澤西}特別製作的角色專屬頭像框</color>\n「Azurlane人氣投票2023」活動獲取",
+		scene = {}
+	},
 	[418] = {
 		name = "殿堂紀念：信濃",
 		gain_by = "",
@@ -556,6 +565,24 @@ pg.item_data_frame = {
 		id = 419,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>為能代特別製作的角色專屬頭像框</color>\n「Azurlane人氣投票2022」活動獲取",
+		scene = {}
+	},
+	[422] = {
+		name = "殿堂紀念：{namecode:480:埃吉爾}",
+		gain_by = "",
+		time_second = 0,
+		id = 422,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>為{namecode:480}特別製作的角色專屬頭像框</color>\n「Azurlane人氣投票2023」活動獲取",
+		scene = {}
+	},
+	[424] = {
+		name = "殿堂紀念：武藏",
+		gain_by = "",
+		time_second = 0,
+		id = 424,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>為武藏特別製作的角色專屬頭像框</color>\n「Azurlane人氣投票2023」活動獲取",
 		scene = {}
 	},
 	[501] = {
@@ -907,8 +934,11 @@ pg.item_data_frame = {
 		402,
 		414,
 		416,
+		417,
 		418,
 		419,
+		422,
+		424,
 		501,
 		601,
 		602,

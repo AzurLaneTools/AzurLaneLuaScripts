@@ -22708,9 +22708,9 @@ pg.activity_ins_template = {
 	[597] = {
 		ship_group = 1140001,
 		name = "Hestia",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_597",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_597.png",
+		is_active = 0,
 		sculpture = "hesitiya",
 		id = 597,
 		group_id = 597,
@@ -22727,15 +22727,29 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				10,
+				16
+			},
+			{
+				12,
+				22,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6467,
+			6471
+		}
 	},
 	[598] = {
 		ship_group = 1140002,
 		name = "Ryu Lion",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_598",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_598.png",
+		is_active = 0,
 		sculpture = "liuliang",
 		id = 598,
 		group_id = 598,
@@ -22752,15 +22766,154 @@ pg.activity_ins_template = {
 				17
 			}
 		},
+		time_persist = {
+			{
+				2025,
+				10,
+				17
+			},
+			{
+				11,
+				48,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6480,
+			6482
+		}
+	},
+	[599] = {
+		ship_group = 960012,
+		name = "Queen Anne's Revenge",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "anninvwang",
+		id = 599,
+		group_id = 599,
+		order = 70,
+		time = {
+			{
+				2025,
+				12,
+				11
+			},
+			{
+				14,
+				27,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[600] = {
+		ship_group = 960014,
+		name = "Pearl",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "zhenzhuhao",
+		id = 600,
+		group_id = 600,
+		order = 70,
+		time = {
+			{
+				2025,
+				12,
+				12
+			},
+			{
+				12,
+				34,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[601] = {
+		ship_group = 960013,
+		name = "Lyme",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "laimuhao",
+		id = 601,
+		group_id = 601,
+		order = 70,
+		time = {
+			{
+				2025,
+				12,
+				13
+			},
+			{
+				21,
+				56,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[602] = {
+		ship_group = 960015,
+		name = "Royal James",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "huangjiazhanmusi",
+		id = 602,
+		group_id = 602,
+		order = 70,
+		time = {
+			{
+				2025,
+				12,
+				14
+			},
+			{
+				10,
+				17,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[603] = {
+		ship_group = 960016,
+		name = "Adventure",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "maoxianhao",
+		id = 603,
+		group_id = 603,
+		order = 70,
+		time = {
+			{
+				2025,
+				12,
+				15
+			},
+			{
+				13,
+				2,
+				17
+			}
+		},
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
 	[604] = {
 		ship_group = 1150002,
 		name = "Tobiichi Origami",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_604",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_604.png",
+		is_active = 0,
 		sculpture = "zhezhi",
 		id = 604,
 		group_id = 604,
@@ -22777,15 +22930,29 @@ pg.activity_ins_template = {
 				11
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				11,
+				27
+			},
+			{
+				11,
+				11,
+				11
+			}
+		},
+		npc_discuss_persist = {
+			6560,
+			6566
+		}
 	},
 	[605] = {
 		ship_group = 1150005,
 		name = "Kurumi Tokisaki ",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_605",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_605.png",
+		is_active = 0,
 		sculpture = "kuangsan",
 		id = 605,
 		group_id = 605,
@@ -22802,15 +22969,29 @@ pg.activity_ins_template = {
 				33
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				11,
+				28
+			},
+			{
+				13,
+				33,
+				33
+			}
+		},
+		npc_discuss_persist = {
+			6576,
+			6580
+		}
 	},
 	[606] = {
 		ship_group = 1150004,
 		name = "Yoshino",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_606",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_606.png",
+		is_active = 0,
 		sculpture = "sisinai",
 		id = 606,
 		group_id = 606,
@@ -22827,15 +23008,29 @@ pg.activity_ins_template = {
 				44
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				11,
+				29
+			},
+			{
+				16,
+				44,
+				44
+			}
+		},
+		npc_discuss_persist = {
+			6592,
+			6597
+		}
 	},
 	[607] = {
 		ship_group = 1150003,
 		name = "Itsuka Kotori",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_607",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_607.png",
+		is_active = 0,
 		sculpture = "qinli",
 		id = 607,
 		group_id = 607,
@@ -22852,15 +23047,29 @@ pg.activity_ins_template = {
 				55
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				11,
+				30
+			},
+			{
+				12,
+				55,
+				55
+			}
+		},
+		npc_discuss_persist = {
+			6606,
+			6611
+		}
 	},
 	[608] = {
 		ship_group = 1150006,
 		name = "Yamai Kguya Yamai Yuzuru",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_608",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_608.png",
+		is_active = 0,
 		sculpture = "bawu",
 		id = 608,
 		group_id = 608,
@@ -22877,15 +23086,29 @@ pg.activity_ins_template = {
 				8
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				17,
+				24,
+				8
+			}
+		},
+		npc_discuss_persist = {
+			6619,
+			6623
+		}
 	},
 	[609] = {
 		ship_group = 1150001,
 		name = "Yatogami Tōka",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_609",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_609.png",
+		is_active = 0,
 		sculpture = "shixiang",
 		id = 609,
 		group_id = 609,
@@ -22902,8 +23125,22 @@ pg.activity_ins_template = {
 				10
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				12,
+				2
+			},
+			{
+				10,
+				10,
+				10
+			}
+		},
+		npc_discuss_persist = {
+			6632,
+			6636
+		}
 	},
 	all = {
 		1,
@@ -23492,6 +23729,11 @@ pg.activity_ins_template = {
 		596,
 		597,
 		598,
+		599,
+		600,
+		601,
+		602,
+		603,
 		604,
 		605,
 		606,

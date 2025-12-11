@@ -429,9 +429,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					11,
-					21
+					2025,
+					12,
+					11
 				},
 				{
 					0,
@@ -441,9 +441,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					11,
-					27
+					2025,
+					12,
+					17
 				},
 				{
 					23,
@@ -984,6 +984,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	[24] = {
+		story_pic = "",
+		name = "保養「藏品」的方式",
+		story_resource_JP = "soundStory24_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "HINATA YUKA",
+		audition_resource_JP = "ss-960003-1",
+		overview = "指揮官向金鹿尋求保養藏品方法，\n金鹿號決定將保養的方法親自演示給指揮官看，就用她最寶貴的「那個」藏品……",
+		order = 2,
+		audition_text = "呵呵……怎麼又在發抖了，我可愛的「藏品」，還冷的話，就緊緊的抱住我吧？",
+		ship_id = 960003,
+		id = 24,
+		captions_color = "#57515e",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[26] = {
+		story_pic = "",
+		name = "「深海魔物」進食觀察",
+		story_resource_JP = "soundStory26_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "柚木燕",
+		audition_resource_JP = "ss-960008-1",
+		overview = "聽聞幻想號在港區吃了一些奇怪的東西，於是來關心她的狀況。\n然而卻被幻想號留下來，觀察她的今日進食，並且詳細解析了自己的進食方式。",
+		order = 2,
+		audition_text = "就不怕我會吃掉您嗎……美味的指揮官……？",
+		ship_id = 960008,
+		id = 26,
+		captions_color = "#274576",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1006,6 +1112,8 @@ pg.soundstory_template = {
 		20,
 		21,
 		22,
-		23
+		23,
+		24,
+		26
 	}
 }

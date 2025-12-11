@@ -9,7 +9,7 @@ return {
 			bgm = "theme-tempest-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "一段時間後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,19 +32,19 @@ return {
 				}
 			},
 			location = {
-				"伟大的皇家财富号·会议室",
+				"偉大的皇家幸運號·會議室",
 				3
 			}
 		},
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯——虽然我是相信复仇女王船团的啦，不过我们刚刚抵达还没探明周围环境，小岛也要明天才能选……",
+			say = "嗯——雖然我是相信復仇女王船團的啦，不過我們剛抵達還沒探明周圍環境，小島也要明天才能選……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,12 +53,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贸然在岸上过夜还是有点危险，今夜大家就在船上再过一夜吧！",
+			say = "貿然在岸上過夜還是有點危險，今夜大家就在船上再過一夜吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,12 +68,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很稳重的决定，而且大家都在一艘船上比较好，万一发生意外了也好照应。",
+			say = "很穩重的決定，而且大家都在一艘船上比較好，萬一發生意外了也好照應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,12 +83,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "玛丽，让你的宠物今晚也不要离船太远，在周围帮我们警戒吧？",
+			say = "瑪麗，讓妳的寵物今晚也不要離船太遠，在周圍幫我們警戒吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,12 +97,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题，没问题~",
+			say = "沒問題，沒問題~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,12 +111,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好~那就散会，大家各自找船舱休息吧。",
+			say = "很好~那就散會，大家各自找船艙休息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,12 +125,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "走吧，海豚，你不是一直想喂喂我的阿尔戈么，一起去吧~",
+			say = "走吧，海豚，妳不是一直想餵餵我的阿爾戈嗎，一起去吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,12 +139,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍等片刻，等我画完最后两笔哦！",
+			say = "稍等片刻，等我畫完最後兩筆！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,12 +153,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你这画的是……地图？",
+			say = "妳這畫的是……地圖？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,12 +168,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错哦！自由群岛的地图！",
+			say = "沒錯哦！自由群島的地圖！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,12 +183,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然来的时间很短……大部分都是空白了，不过后面几天我会陆续填满的！",
+			say = "雖然來的時間很短……大部分都是空白的，不過後面幾天我會陸續填滿的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在来了之后就有种预感……这里隐藏着价值连城的超级宝物哦！",
+			say = "我來了之後就有種預感……這裡藏著價值連城的超級寶物哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,12 +213,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我一定要把它找出来~！",
+			say = "我一定要把它找出來~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

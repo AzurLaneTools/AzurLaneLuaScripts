@@ -12,7 +12,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"港区假日鬼怪故事集II\n\n<size=45>炼金术师的小小心意</size>",
+					"港區假日鬼怪故事集II\n\n<size=45>煉金術師的小小心意</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_192",
 			bgm = "story-ghostnight-fascinsting",
-			say = "我是一名低调炼金术师，只是多少有些与众不同。",
+			say = "我是一名低調煉金術師，只是多少有些與眾不同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_192",
-			say = "万万没想到，因为一场失败的炼金术实验，我竟然以未知的方式来到了眼前这完全陌生的国家。",
+			say = "萬萬沒想到，因為一場失敗的煉金術實驗，我竟然以未知的方式來到了眼前這完全陌生的國家。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_192",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "老、老师！快看……{namecode:157:春月}的首次炼、炼金术作业，顺利完成啦！",
+			say = "老、老師！快看……春月的首次煉製、煉金術作業，順利完成囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "好可爱~原来小幽灵们喜欢吃这种东西呢~",
+			say = "好可愛~原來小幽靈們喜歡吃這種東西呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hideRecordIco = true,
 			actor = 301572,
 			nameColor = "#A9F548FF",
-			say = "这是我新收的小徒弟，之前似乎是个巫女什么的……",
+			say = "這是我新收的小徒弟，之前似乎是個巫女什麼的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hideRecordIco = true,
 			actor = 301572,
 			nameColor = "#A9F548FF",
-			say = "虽然不太明白，但在我的指导下，她正一步步成长为一名称职的炼金术师。",
+			say = "雖然不太明白，但在我的指導下，她正一步步成長為一名稱職的煉金術師。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_192",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "老师说的那些可爱小幽灵，真的会被这些凝胶吸引过来吗？",
+			say = "老師說的可愛小幽靈，真的會被這些凝膠吸引過來嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "我、我很相信老师！但毕竟从没见过，总感觉心里扑通扑通跳个不停……",
+			say = "我、我很相信老師！但畢竟從沒見過，總覺得心裡撲通撲通跳個不停……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hideRecordIco = true,
 			actor = 301572,
 			nameColor = "#A9F548FF",
-			say = "你当巫女的时候，没有见过幽灵么？",
+			say = "當巫女的時候，沒有看過幽靈嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_192",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "见过哦……",
+			say = "見過哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "不过那时候见到幽灵，和老师说的好像不太一样……？",
+			say = "不過那時候見到幽靈，跟老師說的好像不太一樣……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "老师口中的小幽灵，听起来就很可爱呢~",
+			say = "老師口中的小幽靈，聽起來很可愛呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hideRecordIco = true,
 			actor = 301572,
 			nameColor = "#A9F548FF",
-			say = "{namecode:157:春月}羞涩地微笑着，我正想摸摸她的脑袋，桌台上的烛火忽然猛烈地摇晃了两下。",
+			say = "春月羞澀地微笑著，我正想摸摸她的腦袋，桌台上的燭火忽然猛烈地搖晃了兩下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hideRecordIco = true,
 			actor = 301572,
 			nameColor = "#A9F548FF",
-			say = "黑暗突然降临，又在我们反应过来之前恢复常态。",
+			say = "黑暗突然降臨，又在我們反應過來之前又恢復常態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hideRecordIco = true,
 			actor = 301572,
 			nameColor = "#A9F548FF",
-			say = "{namecode:157:春月}红着脸从我的怀里钻了出去，过分害羞的她只能转过身去，似乎没有勇气与我对视。",
+			say = "春月紅著臉從我的懷裡鑽了出去，過分害羞的她只能轉過身去，似乎沒有勇氣與我對視。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "……啊！等、等等，老师……！",
+			say = "……啊！等、等等，老師……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_192",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那、那那那那个！好像……好像出现了——！",
+			say = "那、那那那那個！好像……好像出現了——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "真的是小幽灵~！！",
+			say = "真的是小幽靈~！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			hideRecordIco = true,
 			actor = 301572,
 			nameColor = "#A9F548FF",
-			say = "几个半透明的可爱小家伙轻盈地飘到了门边，正怯生生地向内张望。",
+			say = "幾個半透明的可愛小傢伙輕盈地飄到了門邊，正怯生生地向內張望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hideRecordIco = true,
 			actor = 301572,
 			nameColor = "#A9F548FF",
-			say = "{namecode:157:春月}轻轻握住我的手指，眼中闪烁着期冀的光芒。",
+			say = "春月輕輕握住我的手指，眼中閃爍著期冀的光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hideRecordIco = true,
 			actor = 301572,
 			nameColor = "#A9F548FF",
-			say = "很快，像是确认了我们并无恶意，它们一点点靠近、再靠近——",
+			say = "很快，像是確認了我們並無惡意，它們一點點靠近、再靠近——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "一个、两个、三个……",
+			say = "一個、兩個、三個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "来了好多呢！老、老师，它们会喜欢{namecode:157:春月}做的凝胶吗？",
+			say = "來了好多呢！老、老師，它們會喜歡春月做的凝膠嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "万一{namecode:157:春月}有哪里做得不够好，它们会不会转身走掉……",
+			say = "萬一春月有哪裡做得不夠好，它們會不會轉身走掉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "不、不会吗……？",
+			say = "不、不會嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "因为是和老师一起完成的，所以绝对没问题……嗯！您说得对！",
+			say = "因為是跟老師一起完成的，所以絕對沒問題……嗯！您說得對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "{namecode:157:春月}好像……稍微有自信一点了～嘿嘿……",
+			say = "春月好像……稍微自信一點了～嘿嘿……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_192",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呀……！它、它刚才是不是咬了一口我手里的凝胶……！",
+			say = "呀……！它、它剛剛是不是咬了一口我手上的凝膠……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "和老师聊天实在太开心了，一不小心就忘了重要的事情……",
+			say = "和老師聊天實在太開心了，一不小心就忘了重要的事情……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "嘿嘿，小幽灵们好像吃得好开心啊~",
+			say = "嘿嘿，小幽靈們好像吃得好開心~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "star_level_bg_192",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "跟随老师之后，学到了好多厉害的事情呢……{namecode:157:春月}都不知道该怎么感谢您才好。",
+			say = "跟著老師之後，學到了很多厲害的事情呢……春月都不知道該怎麼感謝您才好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,20 +485,7 @@ return {
 			bgName = "star_level_bg_192",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "您总是为我的学业操心，那么辛苦……所以{namecode:157:春月}也想为您做点什么！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_192",
-			side = 2,
-			dir = 1,
-			actor = 301572,
-			say = "对、对了，这边正好有一池干净的温泉水……",
+			say = "您總是為我的學業操心，那麼辛苦…所以春月也想為您做點什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +498,20 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "老师要不要……试着泡一下温泉呢？",
+			say = "對、對了，這邊正好有一池乾淨的溫泉水……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_192",
+			side = 2,
+			dir = 1,
+			actor = 301572,
+			say = "老師要不要……試著泡一下溫泉呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			bgName = "star_level_bg_192",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可、可以吗？那清洁身体的事情就交给我吧！我也有好好练习过……不不不，不是早就计划好的啦！",
+			say = "可、可以嗎？那清潔身體的事情就交我吧！我也有好好練習過……不不不，不是早就計畫好的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301572,
-			say = "那、那个……请您先转过身去吧，我会努力帮您清理干净的～",
+			say = "那、那個……請您先轉過身去吧，我會努力幫您清理乾淨的～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			bgName = "star_level_bg_192",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "就是这样——嘿咻~！",
+			say = "就是這樣——嘿咻~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

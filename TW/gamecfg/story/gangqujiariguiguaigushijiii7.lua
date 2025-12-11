@@ -12,7 +12,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"港区假日鬼怪故事集II\n\n<size=45>心防失守</size>",
+					"港區假日鬼怪故事集II\n\n<size=45>心防失守</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-ghostnight-fascinsting",
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "呵……又来试图动摇我的信念了吗？我绝对不会屈服于你们的！",
+			say = "呵……又來試圖動搖我的信念了嗎？我絕對不會屈服於你們的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "昏暗的金属笼内，躺倒在地的莱姆号用力仰起头。",
+			say = "昏暗的金屬籠內，躺在地的萊姆號用力仰起頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "她的双手被粗壮的绳索捆缚于身后，眼中理性的光芒亦被怒火所遮蔽。",
+			say = "她的雙手粗壯的繩索將捆縛於身後，眼中理性的光芒亦被怒火所遮蔽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "这次……你们又想用什么手段让我屈服？",
+			say = "這次……你們又想用什麼手段讓我屈服？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "是像上次那样，在整齐的彩色铅笔里故意反插一支？",
+			say = "是像上次那樣，在整齊的色鉛筆裡故意反插一支？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,21 +110,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "还是像上上次那样，故意拿一堆左右相似但不对称的衣服来折磨我？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_130",
-			spine = true,
-			dir = 1,
-			actor = 9600131,
-			nameColor = "#A9F548FF",
-			say = "你们以为用这种低级的手段，就能让我屈从？",
+			say = "還是像上次那樣，故意拿一堆左右相似但不對稱的衣服來折磨我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +124,21 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "我才不会……如你们所愿！！",
+			say = "你們以為用這種低級的手段，就能讓我屈從？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_130",
+			spine = true,
+			dir = 1,
+			actor = 9600131,
+			nameColor = "#A9F548FF",
+			say = "我才不會……如你們所願！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "她瞳孔中的金色愈发炽烈，捆缚于她身上的皮带也随之嘎吱作响。",
+			say = "她瞳孔中的金色愈發熾烈，捆縛於她身上的皮帶也隨之嘎吱作響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "然而，越是愤怒，就越让她发现，自己已经深陷在这无力反抗的牢笼之中。",
+			say = "然而，越是憤怒，就越讓她發現，自己已經深陷在這無力反抗的牢籠之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "这就是我在得到情报，前往魔王军密室解救被魔化陷阱捕获的莱姆号时所见到的景象。",
+			say = "這就是我在得到情報，前往魔王軍密室拯救被魔化陷阱捕獲的萊姆號時所見到的景象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "等等……你是……指挥官？",
+			say = "等等……你是……指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "呵呵，硬的不行就来软的，真是群狡猾的敌人啊？",
+			say = "呵呵，硬的不行就來軟的，真是群狡猾的敵人啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,21 +224,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "已经安全了……？不，你甚至不明白我经历了什么！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_130",
-			spine = true,
-			dir = 1,
-			actor = 9600131,
-			nameColor = "#A9F548FF",
-			say = "…………可恶的魔王军。",
+			say = "已經安全了…？不，你甚至不明白我經歷了什麼！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +238,21 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "等我从这里出去了，一定要将你们尽数歼灭——",
+			say = "…………可惡的魔王軍。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_130",
+			spine = true,
+			dir = 1,
+			actor = 9600131,
+			nameColor = "#A9F548FF",
+			say = "等我從這裡出去了，一定要將你們盡數殲滅——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "莱姆号的愤怒无可抑制，或许先解开她的束缚能让她清醒一些。",
+			say = "萊姆號的憤怒無可抑制，或許先解開她的束縛能讓她清醒一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "于是，我撬开牢笼的锁，冒险进入牢笼……",
+			say = "於是，我撬開牢籠的鎖，冒險進入牢籠…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "等等……这熟悉的气息……真的是指挥官？！",
+			say = "等等……這熟悉的氣息……真的是指揮官？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "还没等我点头，莱姆号惊喜的表情突然多了一丝焦虑。",
+			say = "還沒等我點頭，萊姆號驚喜的表情突然多了一絲焦慮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "她努力扭动着身子试图靠近我，不顾自身安危地急切催促着。",
+			say = "她努力扭動著身體試圖靠近我，不顧自身安危地急切催促著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "指挥官，快离开这里！现在的我……很危险！",
+			say = "指揮官，快離開這裡！現在的我……很危險！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "那个捕获我的陷阱，似乎被施加了某种不寻常的力量！",
+			say = "那個捕獲我的陷阱，似乎被施加了某種不尋常的力量！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "我已经稍微有点……控制不住我自己了！",
+			say = "我已經稍微有點……控制不住我自己了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "唔……啊……这么快就要克制不住了吗……？！",
+			say = "嗯……啊……這麼快就要克制不住了嗎……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官……我好难受……好难受……！",
+			say = "指揮官……我好難受……好難受……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "这股力量……必须发泄出来，我才能——！！",
+			say = "這股力量……必須發洩出來，我才能——！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "莱姆号突然迸发出股恐怖的力量，强行挣脱了束缚带。",
+			say = "萊姆號突然迸發出股恐怖的力量，強行掙脫了束縛帶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "尘埃纷飞中，她缓缓看向我，向我走来。",
+			say = "塵埃紛飛中，她緩緩看向我，向我走來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "我已经提醒过你了，队长……",
+			say = "我已經提醒過你了，隊長……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			actor = 9600131,
 			nameColor = "#A9F548FF",
-			say = "现在，这间密室，只有你我二人……",
+			say = "現在，這間密室，只有你我兩個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

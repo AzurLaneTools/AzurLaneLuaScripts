@@ -8,7 +8,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50131,
+						monsterTemplateID = 50141,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -33,7 +33,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50132,
+						monsterTemplateID = 50142,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -58,7 +58,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50133,
+						monsterTemplateID = 50143,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -83,7 +83,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50134,
+						monsterTemplateID = 50144,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -108,7 +108,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50135,
+						monsterTemplateID = 50145,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -133,7 +133,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50136,
+						monsterTemplateID = 50146,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -158,7 +158,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50137,
+						monsterTemplateID = 50147,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -183,7 +183,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50138,
+						monsterTemplateID = 50148,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -208,7 +208,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50139,
+						monsterTemplateID = 50149,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -233,7 +233,7 @@ return {
 				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
-						monsterTemplateID = 50140,
+						monsterTemplateID = 50150,
 						sickness = 0.1,
 						buffList = {
 							115212
@@ -273,7 +273,7 @@ return {
 			target_choise = "TargetNil",
 			arg_list = {
 				spawnData = {
-					monsterTemplateID = 50131,
+					monsterTemplateID = 50141,
 					sickness = 0.1,
 					buffList = {
 						115212

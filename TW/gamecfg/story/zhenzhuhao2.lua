@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大海之音\n\n<size=45>二 露营之家</size>",
+					"大海之音\n\n<size=45>2.露營之家</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "theme-SeaAndSun-soft",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "时间无声流逝，落日将天空染成了漂亮的橙色。",
+			say = "時間無聲流逝，落日將天空染成了漂亮的橘色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "珍珠号检视着最后一处摊位上的商品，有些遗憾地摇了摇头。",
+			say = "珍珠號檢視著最後一處攤位上的商品，有些遺憾地搖了搖頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "唔，果然没有呢……",
+			say = "唔，果然沒有呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "也是，那么神秘又罕见的宝物……",
+			say = "也是，那麼神秘又罕見的寶物……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "如果就在某个摊位上的话，那里一定是整个集市的焦点吧……",
+			say = "如果就在某個攤位上的話，那裡一定是整個市集的焦點吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "岛的另一边似乎还有些零散的摊位，要不要再去碰碰运气？",
+			say = "島的另一邊似乎還有些零散的攤位，要不要再去碰碰運氣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "那边比集市冷清多了，大概也是没有的……",
+			say = "那邊比市集冷清多了，大概也是沒有的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "没关系哦，指挥官~比起寻找宝物，指挥官愿意陪我逛集市才是最让我开心的事呢。",
+			say = "沒關係哦，指揮官~比起尋找寶物，指揮官願意陪我逛市集才是最讓我開心的事呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "更何况，现在还看到了这么美丽的夕阳……",
+			say = "更何況，現在還看到了這麼美麗的夕陽……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "说到这里，她突然愣住了，总是带着微笑的脸上闪过了一丝惊愕。",
+			say = "說到這裡，她突然愣住了，總是帶著微笑的臉上閃過了一絲驚愕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "怎么了？",
+			say = "怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "指挥官，客船要开走了……！",
+			say = "指揮官，客船要開走了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 9600140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……真的开走了……",
+			say = "啊……真的開走了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "我和珍珠号伫立在海岸边。远方，本日的最后一班客船正在远去，渐渐化作海平线上一个模糊的小点。",
+			say = "我和珍珠號佇立在海岸邊。遠方，本日的最後一班客船正在遠去，漸漸化作海平線上一個模糊的小點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "早知道就不该把座舰停在大港口里……这下麻烦了。",
+			say = "早知道就不該把座艦停在大港口裡……這下麻煩了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "珍珠号定定地看了许久，忽然转过身来，张开双臂做出了拥抱的动作，似乎在比划着什么。",
+			say = "珍珠號定定地看了許久，忽然轉過身來，張開雙臂做出了擁抱的動作，似乎在比劃著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "随后，她露出了有些不好意思的表情。",
+			say = "隨後，她露出了有些不好意思的表情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "唔……不行不行，总不能抱着指挥官在海面上追着客船跑……",
+			say = "嗯……不行不行，總不能抱著指揮官在海面上追著客船跑……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来我们不仅可以欣赏夕阳，还可以欣赏月光了。",
+			say = "看來我們不只可以欣賞夕陽，還可以欣賞月光了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "事已至此，留宿岛上吧。",
+			say = "事已至此，留宿島上吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "可是这座岛上似乎没有宾馆哦……",
+			say = "可是這座島上似乎沒有賓館哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是空着的地方倒是挺宽敞的。",
+			say = "但是空著的地方倒是挺寬敞的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "咦？！别忘了我是没有货仓的哦……",
+			say = "咦？！別忘了我是沒有貨倉的哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "如果只是单纯找片空地的话，就要变成在沙滩上喂螃蟹了……",
+			say = "如果只是單純找片空地的話，就要變成在沙灘上餵螃蟹了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你看，那边是什么。",
+			say = "妳看，那邊是什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "那边是……",
+			say = "那邊是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "暮色渐沉，集市上陆续亮起点点灯火，如同一片落在地上的星河。",
+			say = "暮色漸沉，市集上陸續亮起點點燈火，如同一片落在地上的星河。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "是美丽的风景？",
+			say = "是美麗的風景？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "指挥官的意思是……虽然错过了回程的船，却欣赏到了意料之外的美景？",
+			say = "指揮官的意思是……雖然錯過了回程的船，卻欣賞到了意料之外的美景？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "生活并非总是循规蹈矩……或许，这也是一番特别的经历？",
+			say = "人生並非總是循規蹈矩……或許，這也是一番特別的經驗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "呃……虽然我不是这个意思。",
+			say = "呃……雖然我不是這個意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过，你这个总结很好，我就是这个意思。",
+			say = "不過，妳這個總結很好，我就是這個意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看招牌——“露营之家”。",
+			say = "看招牌——「露營之家」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "原来如此……今晚我们一起露营吧！",
+			say = "原來如此……今晚我們一起露營吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

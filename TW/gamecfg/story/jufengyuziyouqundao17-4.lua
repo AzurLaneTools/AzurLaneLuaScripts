@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
 			bgm = "battle-nightmare-theme",
-			say = "于是，飓风船团、寻宝猎人、云墙守卫、女神教会与多支自由船团在皇家财富号的带领下浩浩荡荡撤回了自由群岛。",
+			say = "於是，颶風船團、尋寶獵人、雲牆守衛、女神教會與多支自由船團在皇家幸運號的帶領下浩浩蕩蕩撤回了自由群島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
-			say = "鉴于自由群岛已被舢板骸骨兽群层层包围的现状和皇家财富号的担保，安妮女王复仇号最终将所有人都放入了群岛内部。",
+			say = "鑑於自由群島已被舢板骸骨獸群包圍的現狀和皇家幸運號的擔保，安妮女王復仇號最終將所有人都放入了群島內部。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
-			say = "不过云墙守卫和女神教会的舰队只能停留到局势变得安全为止，之后就必须离开。",
+			say = "不過雲牆守衛和女神教會的艦隊只能停留到局勢變得安全為止，之後就必須離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
-			say = "对此，众人均无异议。",
+			say = "對此，眾人均無異議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
-			say = "而后，在所有船只人员都撤入群岛内部后，安妮女王复仇号不知用何种方法升起了一道笼罩群岛外部的防御屏障，将骸骨兽群隔绝在外。",
+			say = "而後，在所有船隻人員都撤入群島內部後，安妮女王復仇號不知用何種方法升起了一道籠罩群島外部的防禦屏障，將骸骨獸群隔絕在外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv3_1",
-			say = "再加上遗迹大炮持续不断的火力打击，众人暂时安全了。",
+			say = "再加上遺跡大炮持續不斷的火力打擊，眾人暫時安全了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

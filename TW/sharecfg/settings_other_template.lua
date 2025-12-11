@@ -229,8 +229,8 @@ pg.settings_other_template = {
 		alignment = 0,
 		type = 0,
 		id = 25,
-		title = "自动编队时不编入低心情角色",
-		desc = "功能开启后，使用推荐功能自动编队时，不再编入低心情角色"
+		title = "編隊時不編入低心情角色 ",
+		desc = "功能開啟後，使用推薦功能自動編隊時，不編入低心情角色 "
 	},
 	all = {
 		1,

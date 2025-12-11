@@ -12,7 +12,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"港区假日鬼怪故事集II\n\n<size=45>诅咒调查员</size>",
+					"港區假日鬼怪故事集II\n\n<size=45>詛咒調查員</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			bgm = "story-ghostnight-fascinsting",
-			say = "几日前，我和喀琅施塔得结伴来到这座被废弃的村庄，准备调查盘桓于此的诅咒之谜。",
+			say = "幾日前，我和喀琅施塔得結伴來到這座被廢棄的村莊，準備調查盤桓於此的詛咒之謎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
-			say = "然而今天她没能按时出现与我会面，有些担心的我决定去她的房间查看情况。",
+			say = "然而今天她沒能準時出現與我會面，有些擔心的我決定去她的房間查看狀況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "谁、谁在外面？！等等，这个节奏和力度……是搭档同志？",
+			say = "誰、誰在外面？！等等，這個節奏和力道……是搭檔同志？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "对不起，我现在这幅样子实在是……但是，不开门的话，搭档同志肯定会担心吧……",
+			say = "對不起，我現在這副樣子實在是……但是，不開門的話，搭檔同志一定會擔心吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "嗯……我做好准备了，请进吧！",
+			say = "嗯……我做好準備了，請進去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hideRecordIco = true,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "走进房间后，出现在我面前的是绝对有哪里不对劲的喀琅施塔得。",
+			say = "走進房間後，出現在我面前的是絕對有哪裡不對勁的喀琅施塔得。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hideRecordIco = true,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "……最显眼的，就是她头上那对漆黑的牛角，还有藏在她身后正不安摇摆的黑亮长尾。",
+			say = "……最顯眼的，就是她頭上那對漆黑的牛角，還有藏在她身後正不安搖擺的黑亮長尾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "如你所见，搭档同志……事发突然。",
+			say = "如你所見，搭檔同志……事發突然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "一觉睡醒之后，我就变成这幅样子了……",
+			say = "一覺醒之後，我就變成這副樣子了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "因为完全搞不清楚是什么情况，也就没敢冒然出门……让你久等了！",
+			say = "因為完全搞不清楚是什麼狀況，也就沒敢冒然出門……讓你久等了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hideRecordIco = true,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "……我们调查多日都没有进展，唯一的异常竟然是这种事情。",
+			say = "……我們調查多日都沒有進展，唯一的異常竟然是這種事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hideRecordIco = true,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "难道说……",
+			say = "難道說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "难道说，这就是此地被诅咒攻陷的原因？",
+			say = "難道說，這就是此地被詛咒攻陷的原因？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "把人变成动物的诅咒……情报里完全没有提及啊，简直像是童话书里才有的情节？",
+			say = "把人變成動物的詛咒……情報裡完全沒有提及啊，簡直像是童話書裡才有的情節？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,22 +259,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "而且，此刻呼之欲出的原始冲动也……很难解释——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 7,
-			side = 2,
-			bgName = "star_level_bg_542",
-			spine = true,
-			withoutActorName = true,
-			hideRecordIco = true,
-			actor = 718012,
-			nameColor = "#A9F548FF",
-			say = "喀琅施塔得咬着嘴唇皱起了眉，似乎在努力忍耐些什么。",
+			say = "而且，此刻呼之欲出的原始衝動也……很難解釋——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +274,22 @@ return {
 			hideRecordIco = true,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "但她的眼神却忠于本心，不时飘向房间角落里，那个不知何时出现的巨大牛奶罐……",
+			say = "喀琅施塔得咬著嘴唇皺起了眉，似乎在努力忍耐些什麼。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 7,
+			side = 2,
+			bgName = "star_level_bg_542",
+			spine = true,
+			withoutActorName = true,
+			hideRecordIco = true,
+			actor = 718012,
+			nameColor = "#A9F548FF",
+			say = "但她的眼神卻忠於本心，不時飄向房間角落裡，那個不知何時出現的巨大牛奶罐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "嗯……搭、搭档同志……能不能把那个吸管递给我……",
+			say = "嗯……搭、搭檔同志……能不能把那根吸管遞給我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "不、不不不不！当我刚才什么都没说！不用了！",
+			say = "不、不不不不！當我剛才什麼都沒說！不用了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "只是突然有了一种奇怪的感觉……胸口也有点涨涨的……",
+			say = "只是突然有了一種奇怪的感覺……胸口也有點漲漲的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "……搭档同志，这个诅咒应该只会改变我的外表，对吧？",
+			say = "……搭檔同志，這個詛咒應該只會改變我的外表，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "仅仅是这样的话，对我们这种身经百战的情报调查员来说，根本不算什么——对吧！",
+			say = "僅僅是這樣的話，對我們這種身經百戰的情報調查員來說，根本不算什麼——對吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hideRecordIco = true,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "没关系，我会在这里陪你的。",
+			say = "沒關係，我會在這裡陪妳的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "嗯，有搭档同志陪着，我一定能很快适应这副模样……",
+			say = "嗯，有搭檔同志陪著，我一定能很快適應這模樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "但就算是这样……就算是这样……我还是想——不、不行！我决不能辜负搭档同志的期望！",
+			say = "但就算是這樣……就算是這樣……我還是想——不、不行！我絕對不能辜負搭檔同志的期待！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hideRecordIco = true,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "或许是为了缓解内心的紧张，喀琅施塔得用力握紧栏杆，眼神中也带有了少许求助的意味。",
+			say = "或許是為了緩和內心的緊張，喀琅施塔得用力握緊欄桿，眼神中也帶有了少許求助的意味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "说、说起来……听说转移注意力，能有效缓解紧张情绪。",
+			say = "說、說起來……聽說轉移注意力，能有效緩解緊張情緒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "既然调查行动短时间内推进不下去了……搭档同志可以陪我聊聊天吗？",
+			say = "既然調查行動短時間內推進不下去了……搭檔同志可以陪我聊聊天嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "……嗯！同志还是一如既往的可靠啊！虽然我一时半会也不知道该说些什么……",
+			say = "……嗯！同志還是一如既往的可靠啊！雖然我一時半會也不知道該說些什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "那个……你口渴吗？需不需要喝点牛奶什么的……",
+			say = "那個……你口渴嗎？需不需要喝點牛奶什麼的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "不、不对！我又在说胡话了！这个诅咒还可以干扰我的判断力吗？！",
+			say = "不、不對！我又在亂說話了！這個詛咒還可以干擾我的判斷力嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "但要是换个角度想想的话……都说只有魔法才能打败魔法……",
+			say = "但要是換個角度想想的話……都說只有魔法才能打敗魔法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "会不会有一种可能，我只是说有一种可能……这些异变，这些想法，不是干扰，而是……解法？",
+			say = "會不會有一種可能，我只是說有一種可能……這些異變，這些想法，不是干擾，而是……解法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "不要拘泥于形式，学会释放本能，才能做回自己——",
+			say = "不要拘泥於形式，學會釋放本能，才能做回自己——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "……没错，一定是这样的！",
+			say = "……沒錯，一定是這樣的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hideRecordIco = true,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "如此自言自语的喀琅施塔得点了点头，随后深吸了一口气。",
+			say = "如此自言自語的喀琅施塔得點了點頭，隨後深吸了一口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			actor = 718012,
 			nameColor = "#A9F548FF",
-			say = "失败的话就算我输了——",
+			say = "失敗的話就算我輸了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "搭档同志，要来点新鲜牛奶吗？！",
+			say = "搭檔同志，要來點新鮮牛奶嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

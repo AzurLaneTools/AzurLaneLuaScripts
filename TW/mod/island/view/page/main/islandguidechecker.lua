@@ -140,6 +140,14 @@ slot0.pageConfig = {
 			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(uv0.COMBP_ABILITY_ID)
 		end,
 		type = slot0.FINISH_TYPE.ON_BEGIN
+	},
+	{
+		id = "ISLAND_GUIDE_32",
+		page = "IslandBookFishPage",
+		condition = function ()
+			return true
+		end,
+		type = slot0.FINISH_TYPE.ON_END
 	}
 }
 
@@ -173,7 +181,11 @@ end
 
 slot0.CheckOnOpenPage = function(slot0, slot1)
 	if not _.detect(uv0.pageConfig, function (slot0)
-		return not pg.NewStoryMgr.GetInstance():IsPlayed(slot0.id) and slot0.page == uv0 and slot0.condition()
+		slot1 = slot0.id
+
+		print("GUIDECHECK:..................." .. slot1 .. "::" .. slot0.page)
+
+		return not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) and slot2 == uv0 and slot0.condition()
 	end) then
 		existCall(slot1)
 
@@ -207,6 +219,8 @@ slot0._PlayGuide = function(slot0, slot1, slot2, slot3)
 
 		return
 	end
+
+	print("GUIDE:..................." .. slot0)
 
 	if pg.SeriesGuideMgr.GetInstance():isRunning() then
 		existCall(slot2)

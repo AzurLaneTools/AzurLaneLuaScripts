@@ -68,6 +68,10 @@ slot0.forceGC = function(slot0)
 	return false
 end
 
+slot0.DontGC = function(slot0)
+	return false
+end
+
 slot0.forceRatio = function(slot0)
 	return nil
 end

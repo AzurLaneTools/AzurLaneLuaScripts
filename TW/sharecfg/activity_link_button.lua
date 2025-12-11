@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5374",
+		param = "7502",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5374
+			7502
 		}
 	},
 	{
@@ -37,20 +37,15 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
+		param = "0",
 		name = "event_map",
+		time = "stop",
 		text_pic = "text_event_map",
-		type = 2,
+		type = 0,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
-		order = 1,
-		time = {
-			"default",
-			50256
-		},
-		param = {
-			"bossrush dal collab"
-		}
+		order = 1
 	},
 	[11] = {
 		param = "0",
@@ -252,10 +247,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5765
+			50204
 		},
 		param = {
-			73
+			68
 		}
 	},
 	[106] = {
@@ -321,7 +316,7 @@ pg.activity_link_button = {
 		}
 	},
 	[110] = {
-		param = "ALYCoreActivityUI",
+		param = "SailingShip3CoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_yumia",
 		type = 16,
@@ -331,7 +326,7 @@ pg.activity_link_button = {
 		order = 2,
 		time = {
 			"default",
-			50058
+			50205
 		}
 	},
 	[111] = {

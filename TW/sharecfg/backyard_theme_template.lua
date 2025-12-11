@@ -4175,8 +4175,8 @@ pg.backyard_theme_template = {
 		name = "幽暗之港",
 		desc = "歡迎來到幽暗之港，在恐懼中顫抖吧！",
 		deblocking = 1,
-		new = 1,
-		hot = 0,
+		new = 0,
+		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
@@ -4757,6 +4757,39 @@ pg.backyard_theme_template = {
 			331308
 		}
 	},
+	[132] = {
+		Cfg_1 = 5,
+		name = "幽光神殿",
+		desc = "推開失落的門扉，在微光閃爍間，探尋古老的密語吧~",
+		deblocking = 1,
+		new = 1,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 132,
+		id = 132,
+		icon = "mfthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			332001,
+			332002,
+			332101,
+			332102,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112,
+			332301
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4869,6 +4902,7 @@ pg.backyard_theme_template = {
 		127,
 		129,
 		130,
-		131
+		131,
+		132
 	}
 }

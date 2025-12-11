@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgm = "battle-nightmare-theme",
 			nameColor = "#A9F548FF",
-			say = "飓风船团与寻宝猎人离开码头，在风暴中逆着残骸飘来的方向找去。",
+			say = "颶風船團與尋寶獵人離開碼頭，在風暴中逆著殘骸飄來的方向找去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 				}
 			},
 			location = {
-				"自由群岛·外围海域",
+				"自由群島·外圍海域",
 				3
 			}
 		},
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "才离开自由群岛的外围岛礁不久，众人就遇到了骸骨兽群的袭击。",
+			say = "才離開自由群島的外圍島礁不久，眾人就遇到了骸骨獸群的攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,11 +49,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "寻宝猎人",
+			factiontag = "尋寶獵人",
 			dir = 1,
 			actor = 9600090,
 			nameColor = "#A9F548FF",
-			say = "骸骨兽群……都跑到这么近的地方了？",
+			say = "骸骨獸群……都跑到這麼近的地方了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,11 +63,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
-			say = "糟糕……这次是真的骸骨兽群来了！",
+			say = "糟糕……這次是真的骸骨獸群來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,11 +77,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
-			say = "那些被冲上岸的残骸不会都是骸骨兽群干的吧！",
+			say = "那些被沖上岸的殘骸不會都是骸骨獸群幹的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,11 +91,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
-			say = "不要恋战，大家跟我突围出去！",
+			say = "不要戀戰，大家跟我突圍出去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

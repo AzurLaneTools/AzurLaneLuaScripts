@@ -150,6 +150,17 @@ slot0.GetRoleShipData = function(slot0)
 	return nil
 end
 
+slot0.GetRoleSlotAndFormulaData = function(slot0)
+	if slot0.islandRoleDelegationData then
+		return {
+			formula_id = slot0.islandRoleDelegationData.formula_id,
+			area_id = slot0.id
+		}
+	end
+
+	return nil
+end
+
 slot0.GetPartList = function(slot0)
 	return slot0.part_list or {}
 end

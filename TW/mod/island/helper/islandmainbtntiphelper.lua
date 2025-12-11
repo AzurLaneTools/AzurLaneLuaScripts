@@ -102,7 +102,8 @@ slot0.IsBookTip = function()
 	return getProxy(IslandProxy):GetIsland():GetBookAgency():IsTipFromTypes({
 		IslandIllustration.TYPES.CHAR,
 		IslandIllustration.TYPES.NPC,
-		IslandIllustration.TYPES.ITEM
+		IslandIllustration.TYPES.ITEM,
+		IslandIllustration.TYPES.FISH
 	})
 end
 

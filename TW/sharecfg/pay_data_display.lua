@@ -892,9 +892,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				180
+				4,
+				100001,
+				1
 			},
 			{
 				2,
@@ -902,9 +902,9 @@ pg.base.pay_data_display = {
 				2
 			},
 			{
-				4,
-				100001,
-				1
+				2,
+				15001,
+				30
 			}
 		},
 		sub_display = {},
@@ -1026,9 +1026,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				780
+				4,
+				100001,
+				1
 			},
 			{
 				2,
@@ -1165,9 +1165,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				1680
+				4,
+				100011,
+				1
 			},
 			{
 				2,

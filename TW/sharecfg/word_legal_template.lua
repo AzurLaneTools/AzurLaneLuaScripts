@@ -3968,6 +3968,15 @@ temp = function()
 						this = true
 					}
 				}
+			},
+			["詹"] = {
+				["姆"] = {
+					["斯"] = {
+						["號"] = {
+							this = true
+						}
+					}
+				}
 			}
 		}
 	}
@@ -5547,6 +5556,11 @@ temp = function()
 					}
 				}
 			}
+		},
+		["姆"] = {
+			["號"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6261,6 +6275,19 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["妮"] = {
+			["女"] = {
+				["王"] = {
+					["復"] = {
+						["仇"] = {
+							["號"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -6764,6 +6791,9 @@ temp = function()
 						this = true
 					}
 				}
+			},
+			["號"] = {
+				this = true
 			}
 		}
 	}
@@ -7541,6 +7571,18 @@ temp = function()
 				["夫"] = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["珍"] = {
+		["珠"] = {
+			["號"] = {
+				this = true
 			}
 		}
 	}

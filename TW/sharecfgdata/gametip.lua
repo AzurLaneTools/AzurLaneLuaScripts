@@ -32718,7 +32718,7 @@ _G.pg.base.gametip.vote_lable_voting = {
 
 
 _G.pg.base.gametip.vote_lable_title = {
-	tip = "<size=36>賽程總時數</size> <size=32>2023/12/14 – 2024/2/13 24時</size>"
+	tip = "<size=36>賽程總時間</size> <size=32>2025/12/11 - 2026/2/9 24時</size>"
 }
 
 
@@ -39771,6 +39771,26 @@ _G.pg.base.gametip.dorm3d_furnitrue_type_special = {
 }
 
 
+_G.pg.base.gametip.fengfanV3_20251023_Sidebar1 = {
+	tip = "颶風與自由群島"
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_Sidebar2 = {
+	tip = "自由群島補給站"
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_Sidebar3 = {
+	tip = "鬼怪故事集Ⅱ"
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
+	tip = "紀念手冊"
+}
+
+
 _G.pg.base.gametip.search_equipment = {
 	tip = "搜尋裝備名"
 }
@@ -40031,4 +40051,80 @@ _G.pg.base.gametip.dal_chapter_tip = {
 
 _G.pg.base.gametip.dal_chapter_tip2 = {
 	tip = "完成活動任務可獲得獎勵"
+}
+
+
+_G.pg.base.gametip.vote_help_2025 = {
+	tip = {
+		{
+			info = [[
+<color=#FFDD00>AZURLANE人氣投票2025活動規則說明</color>
+
+活動說明：
+· 活動時間：<color=#92fc63>2025年12月11日 - 2026年2月9日24時</color>
+· 本次人氣投票活動，將顯示伺服器合計投票情況。
+· 2023年投票活動進入決勝階段<color=#92fc63>前三名</color>的角色，本次將加入<color=#92fc63>荣耀殿堂</color>。包括2020、2022年往屆榮耀殿堂角色在內，共9名角色，不參與本次投票。
+· 除9名殿堂角色外，其餘<color=#92fc63>2025年10月16日前</color>加入遊戲的角色將參與常規投票（方案艦角色參與常規 投票；聯動、META、小船角色不參與常規投票；μ兵裝、II型、Zwei型、IF型視為與本體同一角色，不參與本次人氣投票）。
+
+投票劵獲取方式：
+指揮官等級達到25級的玩家，可以通過以下方式獲得<color=#92fc63>投票劵</color>。
+除趣味投票外的其他投票階段：
+· 活動期間，通過完成<color=#92fc63>每日任務</color>，可獲得<color=#92fc63>投票劵</color>。每個每日任務可獲得<color=#92fc63>投票劵x2</color>，每日可獲得上限為20張。
+· 活動期間，通過完成<color=#92fc63>期間任務</color>，可獲得<color=#92fc63>投票劵</color>。每個投票階段可通過期間任務獲得的投票劵數量有上限。
+	期間任務可獲取投票劵上限：
+		預選賽：480
+		小組賽A：200
+		小組賽B：200
+		小組賽C：200
+		小組賽D：200
+		決勝復活賽：160
+		決賽：280
+· 每輪投票結束時，剩餘的<color=#92fc63>投票劵</color>、<color=#92fc63>期間任務進度</color>將<color=#92fc63>重置清空</color>。
+趣味投票階段：
+活動期間，每日登入可獲得<color=#92fc63>投票劵</color>。
+
+賽程安排：
+本次投票分為以下10個階段：
+<color=#92fc63>預選賽</color>：	2025年12月11日 維護後 - 2025年12月22日 24時
+<color=#92fc63>小組賽A</color>：	2025年12月25日 0時 - 2025年12月29日 24時
+<color=#92fc63>趣味投票一</color>：2025年12月30日 0時 - 2026年1月1日 24時
+<color=#92fc63>小組賽B</color>：	2026年1月3日 0時 - 2026年1月7日 24時
+<color=#92fc63>趣味投票二</color>：2026年1月8日 0時 - 2026年1月10日 24時
+<color=#92fc63>小組賽C</color>：	2026年1月12日 0時 - 2026年1月16日 24時
+<color=#92fc63>趣味投票三</color>：2026年1月17日 0時 - 2026年1月19日 24時
+<color=#92fc63>小組賽D</color>：	2026年1月21日 0時 - 2026年1月25日 24時
+<color=#92fc63>決勝復活賽</color>：2026年1月27日 0時 - 2026年1月30日 24時
+<color=#92fc63>決賽</color>：	2026年2月3日 0時 - 2026年2月9日 24時
+
+每輪投票結束後，將在<color=#92fc63>賽程訊息</color>中展示該輪投票的統計結果。
+
+各階段規則：
+<color=#92fc63>預選賽</color>
+<color=#92fc63>預選賽</color>投票結果僅展示角色得票排名，不展示得票數量。
+<color=#92fc63>預選賽</color>由除9名殿堂角色、聯動角色、META角色、小船角色外，其他角色參加。II型、Zwei型、μ型、IF型、視為與本體同一角色，不參與本次人氣投票。
+<color=#92fc63>預選賽</color>獲得票數排名前240名的角色，將根據排名，自動
+分成4組，每組60名角色，進入<color=#92fc63>小組賽</color>。
+
+<color=#92fc63>小組賽</color>
+<color=#92fc63>小組賽</color>由<color=#92fc63>預選賽</color>前240名的角色自動分組組成，共4個小
+組，每組60名角色。
+每個小組內獲得前5名的角色，將直接進入<color=#92fc63>決賽</color>，第6至第15名的角色，將進入<color=#92fc63>決勝復活賽</color>。其餘角色將被淘汰。
+
+<color=#92fc63>趣味投票</color>
+<color=#92fc63>趣味投票</color>共分為3場：塞壬、META、小船。趣味投票角色不參與常規投票。
+
+<color=#92fc63>決勝復活賽</color>
+<color=#92fc63>決勝復活賽</color>由<color=#92fc63>小組賽</color>每個小組第6名至第15名的角色參加。
+<color=#92fc63>決勝復活賽</color>中的前15名角色，將進入，<color=#92fc63>決賽</color>，其餘角色將被淘汰。
+
+<color=#92fc63>決賽</color>
+<color=#92fc63>決賽</color>由<color=#92fc63>小組賽</color>各小組的前5名，<color=#92fc63>決勝復活賽</color>的前15名，共35名角色參加。
+
+同票規則：
+<color=#92fc63>預選賽</color>中若出現同票情況，按照達到票數的先後處理。
+<color=#92fc63>小組賽</color>、<color=#92fc63>決勝復活賽</color>、<color=#92fc63>決賽</color>中若出現同票情況，按照<color=#92fc63>預
+選賽</color>的排名先後處理。
+]]
+		}
+	}
 }

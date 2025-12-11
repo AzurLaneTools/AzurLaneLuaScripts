@@ -9,7 +9,7 @@ return {
 			bgm = "theme-seaandsun-soft",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鉴于多次与旧世遗迹打交道的切身经验，皇家财富号完全不认为此行会一帆风顺。",
+			say = "鑑於多次與舊世遺跡打交道的切身經驗，皇家幸運號完全不認為此行會一帆風順。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 				}
 			},
 			location = {
-				"船团集会所·深夜",
+				"船團集會所·深夜",
 				3
 			}
 		},
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
 			hidePaintObj = true,
-			say = "因此，她一边召集在外地行动的船团成员集合，一边计划花几天好好充分准备物资与军火。",
+			say = "因此，她一邊召集在外地行動的船團成員集合，一邊計劃花幾天好好充分準備物資與軍火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
 			hidePaintObj = true,
-			say = "不过除此之外……",
+			say = "不過除此之外……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,12 +62,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你这是在做什么？",
+			say = "妳這是在做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
 			hidePaintObj = true,
-			say = "看着眼前全身心投入木雕工作的皇家财富号，金鹿号感到很困惑。",
+			say = "看著眼前全心投入木雕工作的皇家幸運號，金鹿號感到很困惑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +88,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这不是之前的罗盘没了嘛……在那之后来回两边的世界就变得特别麻烦。",
+			say = "這不是之前的羅盤沒了嘛……在那之後來回兩邊的世界就變得特別麻煩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主动穿越风暴的法子也时灵时不灵的……",
+			say = "主動穿越風暴的法子也時靈時不靈的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,12 +117,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以我突发奇想——既然罗盘没了，那我再做一个不就行了！",
+			say = "所以我突發奇想——既然羅盤沒了，那我再做一個不就好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,12 +131,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看你看~像不像之前那个？",
+			say = "妳看妳看~像不像之前那個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
 			hidePaintObj = true,
-			say = "皇家财富号拿起雕刻好的木质小罗盘，在金鹿号面前用力挥了挥。",
+			say = "皇家幸運號拿起雕刻好的木質小羅盤，在金鹿號面前用力揮了揮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,12 +165,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我又没见过之前的罗盘长什么样子……不过你这个木雕，似乎有点粗糙吧？",
+			say = "我又沒看過之前的羅盤長什麼樣子……不過妳這個木雕，似乎有點粗糙吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,12 +180,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经尽力了！",
+			say = "我已經盡力了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,12 +194,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "反正能看出来是个罗盘了！",
+			say = "反正看得出來是個羅盤了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,12 +209,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦好啦，事不宜迟，快来检验一下成果吧~！",
+			say = "好啦好啦，事不宜遲，快來檢驗一下成果吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
 			hidePaintObj = true,
-			say = "说着，皇家财富号用力把木罗盘的木屑吹干净，将其放在桌子上摆正双手合十拜了拜。",
+			say = "說著，皇家幸運號用力把木羅盤的木屑吹乾淨，將其放在桌上擺正雙手合十拜了拜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -249,12 +249,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……好像什么都没发生？",
+			say = "……好像什麼事都沒發生？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,12 +264,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……也是，果然不会那么顺利呢。",
+			say = "……也是，果然不會那麼順利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,12 +278,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算了，再说吧，以后说不定突然就灵了……",
+			say = "算了，再說吧，以後說不定突然就靈了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,12 +293,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我要睡了，你也早点休息，明天还得养足精神去大采购呢！",
+			say = "我要睡了，妳也早點休息，明天還要養足精神去大採購呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

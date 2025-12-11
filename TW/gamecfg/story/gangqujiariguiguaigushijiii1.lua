@@ -12,7 +12,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"港区假日鬼怪故事集II\n\n<size=45>隐秘之拥的呼唤</size>",
+					"港區假日鬼怪故事集II\n\n<size=45>隱密之擁的呼喚</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			bgm = "story-ghostnight-fascinsting",
-			say = "面对突如其来的暴雨，我不得不终止登山行动，前往了最近的洋馆避雨。",
+			say = "面對突如其來的暴雨，我不得不終止登山行動，前往了最近的洋館避雨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "只是这里似乎——",
+			say = "只是這裡似乎——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 9600121,
 			actorName = "？？？",
 			live2d = true,
-			say = "渺小的存在啊……你惊扰了沉睡的古神。",
+			say = "渺小的存在啊……你驚擾了沉睡的古神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "幽暗的水池中，巨大的触手四处蠕动。在那畸形的王座之上，少女缓缓睁开了眼。",
+			say = "幽暗的水池中，巨大的觸手四處蠕動。在那畸形的王座之上，少女緩緩睜開了眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我是不可名状的至高存在，安妮女王复仇号……",
+			say = "我是不可名狀的至高存在，安妮女王復仇號……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "凡人，你安敢擅闯我的圣殿？",
+			say = "凡人，你安敢擅闖我的聖殿？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "触手轻轻震动，似乎下一刻就将携排山倒海之势而来。",
+			say = "觸手輕輕震動，似乎下一刻就將攜排山倒海之勢而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过……就这么吃掉也太可惜了。",
+			say = "不過……就這麼吃掉也太可惜了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "千钧一发之际，少女似乎改变了主意。",
+			say = "千鈞一髮之際，少女似乎改變了主意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "考虑到我居住的神殿太大，打理起来非常麻烦……",
+			say = "考慮到我住的神殿太大，打理起來非常麻煩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "所以我大发慈悲……恩准你成为侍奉我的古神眷族。",
+			say = "所以我大發慈悲……恩準你成為侍奉我的古神眷族。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,18 +208,18 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "成为食物还是眷族，选一个吧？",
+			say = "成為食物還是眷族，選一個吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "看来别无选择了……",
+					content = "看來別無選擇了……",
 					flag = 1
 				},
 				{
-					content = "有薪水么？",
+					content = "有薪水嗎？",
 					flag = 2
 				}
 			}
@@ -233,7 +233,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵……明智的决定。",
+			say = "呵呵……明智的決定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没有。不想干的话……我现在就把你吃了。",
+			say = "沒有。不想幹的話……我現在就把你吃了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "触手将我放在了少女面前，随后递来了一些东西。",
+			say = "觸手將我放在了少女面前，隨後遞來了一些東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这就是你的第一项任务……清理我这尊贵的身躯。",
+			say = "這就是你的第一個任務……清理我這尊貴的身軀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "记住了，每根触手都必须清洗干净。",
+			say = "記住了，每根觸手都必須清洗乾淨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "每一根触手，每一根吸盘都要清理干净。",
+			say = "每一根觸手，每一個吸盤都要清理乾淨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "安妮女王复仇号高傲地扬起脸，示意我尽快接过。",
+			say = "安妮女王復仇號驕傲地揚起臉，示意我盡快接過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "你还在等什么？快动手。",
+			say = "還在等什麼？快動手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我依言行事，细致地擦拭着，少女的神情也由最开始的不满，逐渐转向放松，甚至不时轻点着头表示满意。",
+			say = "我依言行事，細緻地擦拭著，少女的神情也由最開始的不滿，逐漸轉向放鬆，甚至不時輕點著頭表示滿意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呼……如此完美的清洁，竟能令身为至高存在的我都感到愉悦……",
+			say = "呼……如此完美的清潔，竟能令身為至高存在的我都感到愉悅……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "勤勉的眷族啊，你表现得极为出色。",
+			say = "勤勉的眷族啊，你表現得極為出色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "作为赏赐……我特此降下旨意，允许你参与神明的至高仪式。",
+			say = "作為賞賜……我特此降下旨意，允許你參與神明的至高儀式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没有等我回答，几根触手就将我拖入了安妮女王复仇号的怀中。",
+			say = "沒有等我回答，幾根觸手就將我拖入了安妮女王復仇號的懷中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "体温隔着薄薄的衣物传来，与湿冷的触手相比，她的身体温暖得不可思议。",
+			say = "體溫隔著薄薄的衣物傳來，與濕冷的觸手相比，她的身體溫暖得不可思議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "凡人，能够见证并成为这伟大时刻的一部分，乃是你的无上荣光……",
+			say = "凡人，能夠見證並成為這偉大時刻的一部分，乃是你的無上榮光……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接下来，摒弃尘世的一切杂念，全心臣服于古神的支配吧……",
+			say = "接下來，摒棄塵世的一切雜念，全心臣服於古神的支配吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "紧紧包裹着我们的触手越来越多，就这么填满了彼此间的每一处缝隙。",
+			say = "緊緊包裹著我們的觸手越來越多，就這樣填滿了彼此間的每一個縫隙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "至高无上的时刻，即将来临……",
+			say = "至高無上的時刻，即將來臨……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			actor = 9600121,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "眷族，你准备好进入我……虚无的深渊了吗？",
+			say = "眷族，你準備好進入我……虛無的深淵了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

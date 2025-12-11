@@ -1,285 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103244] = {
-		name = "悠然放鬆時光",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "歡迎來到布雷默頓的煩惱諮詢室！其實今天為了辛苦一天的指揮官……鏘鏘~！準備了跟我一套的居家服哦♪",
-		group_index = 4,
-		purchase_offset = "",
-		painting = "bulaimodun_5",
-		ship_group = 10324,
-		bg_sp = "",
-		shop_type_id = 20,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		bgm = "",
-		special_effects = "",
-		bg = "109",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		ship_l2d_id = "",
-		id = 103244,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "bulaimodun_5",
-		l2d_se = "",
-		no_showing = "0",
-		shop_dynamic_hx = 0,
-		main_UI_FX = "",
-		shop_id = 70774,
-		voice_actor = 134,
-		double_char = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			57,
-			65,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.202,
-					1.03,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.22,
-					1.132,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.009,
-					-0.004,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.213,
-							0.14
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-20,
-				20
-			},
-			ParamAngleY = {
-				-15,
-				15
-			},
-			ParamBodyAngleX = {
-				-8,
-				8
-			},
-			ParamBodyAngleY = {
-				-8,
-				4
-			},
-			ParamEyeBallX = {
-				-0.1,
-				0.1
-			},
-			ParamEyeBallY = {
-				-0.1,
-				0.1
-			}
-		}
-	},
-	[103245] = {
-		name = "特別的治癒時間",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "指揮官，不要再亂動啦～這個姿勢如果你不放鬆的話我也無法好好操作哦，所以就乖乖地把疲憊的身體交給我吧――嗯，從手到胳膊，再到脖子和肩膀，用力地按下去！",
-		group_index = 5,
-		purchase_offset = "",
-		painting = "bulaimodun_6",
-		ship_group = 10324,
-		bg_sp = "",
-		shop_type_id = 26,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "180",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		ship_l2d_id = "",
-		id = 103245,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "bulaimodun_6",
-		l2d_se = "",
-		no_showing = "0",
-		shop_dynamic_hx = 0,
-		main_UI_FX = "",
-		shop_id = 71055,
-		voice_actor = 134,
-		double_char = 0,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.9,
-					0.662,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.874,
-					0.639,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.367,
-							2.469,
-							0.14
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			2,
-			-369,
-			0,
-			0.37
-		}
-	},
 	[103248] = {
 		name = "幸福的軌跡",
 		shop_offset = "",
@@ -15057,6 +14778,331 @@ pg.base.ship_skin_template_3 = {
 				0,
 				0,
 				0
+			}
+		}
+	},
+	[107233] = {
+		name = "馴鹿小姐的獻禮",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "換好了……這就是「馴鹿小姐」的裝扮嗎？感覺有點大膽……啊，指揮官，正好你在這裡，請收下我為你準備的聖誕禮物吧。",
+		group_index = 3,
+		purchase_offset = "",
+		painting = "pulinsidun_4",
+		ship_group = 10723,
+		bg_sp = "",
+		shop_type_id = 1,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "125",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		ship_l2d_id = "",
+		id = 107233,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "pulinsidun_4",
+		l2d_se = "",
+		no_showing = "0",
+		shop_dynamic_hx = 0,
+		main_UI_FX = "",
+		shop_id = 70792,
+		voice_actor = 249,
+		double_char = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.33,
+					1.27,
+					0
+				}
+			},
+			plane = {
+				{
+					1.439,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107270] = {
+		name = "蘭利II",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "獨立級輕型航空母艦—蘭利II，舷號CVL-27",
+		group_index = 0,
+		purchase_offset = "",
+		painting = "lanliII",
+		ship_group = 10727,
+		bg_sp = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		ship_l2d_id = "",
+		id = 107270,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "lanliII",
+		l2d_se = "",
+		no_showing = "0",
+		shop_dynamic_hx = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 50,
+		double_char = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.16,
+					1.25,
+					0
+				}
+			},
+			plane = {
+				{
+					1.1,
+					0.9,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.225,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107271] = {
+		name = "明媚休假進行時",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "呼啊~這樣陽光明媚的日子，在沙灘邊放鬆最棒了……喂，那邊的指揮官！要避暑的話，這裡有西瓜和冷飲哦！",
+		group_index = 1,
+		purchase_offset = "",
+		painting = "lanliII_2",
+		ship_group = 10727,
+		bg_sp = "1101",
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "164",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		ship_l2d_id = "",
+		id = 107271,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "lanliII_2",
+		l2d_se = "",
+		no_showing = "0",
+		shop_dynamic_hx = 0,
+		main_UI_FX = "",
+		shop_id = 70779,
+		voice_actor = 50,
+		double_char = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.16,
+					1.25,
+					0
+				}
+			},
+			plane = {
+				{
+					1.1,
+					0.9,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.225,
+							-0.25
+						}
+					}
+				}
 			}
 		}
 	}

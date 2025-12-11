@@ -12,7 +12,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"港区假日鬼怪故事集II\n\n<size=45>初生禁忌的啜吸</size>",
+					"港區假日鬼怪故事集II\n\n<size=45>初生禁忌的啜吸</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_311",
 			bgm = "story-ghostnight-fascinsting",
 			nameColor = "#A9F548FF",
-			say = "随着一声巨响，酒窖的大门被重重踹开，扬起漫天尘埃。",
+			say = "隨著一聲巨響，酒窖的大門被重重踹開，揚起漫天塵埃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			},
 			options = {
 				{
-					content = "不许动！全部放下武器！",
+					content = "不許動！全部放下武器！",
 					flag = 1
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_311",
-			say = "作为传奇调查员的我，一直在追查邪恶的秘密结社组织，这场战斗已经横跨了数个大陆。",
+			say = "身為傳奇調查員的我，一直在追查邪惡的秘密結社組織，這場戰鬥已經橫跨了數個大陸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_311",
-			say = "循着线人提供的情报，我找到了这间隐蔽的地下酒窖。据说，结社就是在这里开展研究禁忌造物的秘密实验。",
+			say = "循著線人提供的情報，我找到了這間隱密的地下酒窖。據說，結社就是在這裡進行研究禁忌造物的秘密實驗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_311",
-			say = "但此刻，我屏住呼吸，握紧了手中的武器，却没发现预想中全副武装的敌人。",
+			say = "但此刻，我屏住呼吸，握緊了手中的武器，卻沒發現預想中全副武裝的敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "取而代之的，是满地的粘稠液体，和一个娇小的人影……",
+			say = "取而代之的，是滿地的黏稠液體，和一個嬌小的人影……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "呜、哇……？你、好……",
+			say = "嗚、哇……？你、好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "满脸天真的少女咬着自己的手指，说话含糊不清地看着我。",
+			say = "滿臉天真的少女咬著自己的手指，說話含糊不清地看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "你是……？",
+			say = "妳是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "star_level_bg_311",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……皇家……詹姆斯号……皇家詹姆斯号——",
+			say = "……皇家……詹姆斯號……皇家詹姆斯號——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "除此之外，什么都不知道啦……！",
+			say = "除此之外，什麼都不知道啊……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "喂……？喂！你有在、听我说话吗！",
+			say = "喂……？喂！你有在、聽我說話嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "star_level_bg_311",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这里是哪里？你是什么？我又是什么？",
+			say = "這裡是哪裡？你是什麼？我又是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "star_level_bg_311",
 			side = 2,
 			withoutActorName = true,
-			say = "急切的问询打断了我的思考，少女不知何时已经爬到了我身前。",
+			say = "急切的問詢打斷了我的思考，少女不知何時已經爬到我身前了。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -206,7 +206,7 @@ return {
 			bgName = "star_level_bg_311",
 			side = 2,
 			withoutActorName = true,
-			say = "在她身后，那根像尾巴一样晃动着的巨大触手引起了我的注意。",
+			say = "在她身後，那根像尾巴一樣晃動著的巨大觸手吸引了我的注意。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -221,7 +221,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "……我知道了，你就是情报里提到的禁忌造物吧？",
+			say = "……我知道了，妳就是情報裡提到的禁忌造物吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "皇家詹姆斯号是……禁忌造物！！",
+			say = "皇家詹姆斯號是……禁忌造物！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "看她欢欣雀跃的样子，似乎很喜欢这个“称号”。",
+			say = "看她歡欣雀躍的樣子，似乎很喜歡這個「稱號」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "唔——我有点喜欢你啦！",
+			say = "嗯——我有點喜歡你啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "你很有趣！为什么？为什么可以比我更有趣？",
+			say = "你很有趣！為什麼？為什麼可以比我更有趣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_311",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我们有什么不同？到底有什么不同？",
+			say = "我們有什麼不同？到底有什麼不同？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,22 +312,22 @@ return {
 			dir = 1,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "快把你知道的都告诉我吧！",
+			say = "快把你知道的都告訴我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我是调查员",
+					content = "我是調查員",
 					flag = 1
 				},
 				{
-					content = "我是你的创造者",
+					content = "我是你的創造者",
 					flag = 2
 				},
 				{
-					content = "可惜我什么都不知道",
+					content = "可惜我什麼都不知道",
 					flag = 3
 				}
 			}
@@ -342,7 +342,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "我是调查员，正在追查邪恶的秘密结社，而你就是秘密结社制造的禁忌造物。",
+			say = "我是調查員，正在追查邪惡的秘密結社，而妳就是秘密結社製造的禁忌造物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			optionFlag = 1,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "唔……不理解！但很有趣！",
+			say = "唔……不懂！但很有趣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "我是调查员，为了对抗邪恶的秘密结社，以禁忌的方式制造出了超级助手，也就是你。",
+			say = "我是調查員，為了對抗邪惡的秘密結社，以禁忌的方式製造出了超級助手，也就是妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			optionFlag = 2,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "皇家詹姆斯号……是你的超级助手？喜欢！好有趣！",
+			say = "皇家詹姆斯號……是你的超級助手？喜歡！好有趣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "可惜我什么都不知道。这里是哪里？你是什么？我又是什么？",
+			say = "可惜我什麼都不知道。這裡是哪裡？你是什麼？我又是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 3,
-			say = "咦——咦？这里是哪里？你是什么？我又是什么？！",
+			say = "咦——咦？這裡是哪裡？你是什麼？我又是什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hideRecordIco = true,
 			actor = 9600151,
 			nameColor = "#A9F548FF",
-			say = "皇家詹姆斯号身后的触手兴奋地原地舞动起来。",
+			say = "皇家詹姆斯號身後的觸手興奮地原地舞動起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "啊……？原来我可以操纵这个触手的吗？！",
+			say = "啊……？原來我可以操縱這個觸手的嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "好好玩！我想试试！",
+			say = "好好玩！我想試試！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "呼哈——快看我快看我！我飞起来啦！",
+			say = "呼哈——快看我快看我！我飛起來啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "再试试转向——哈哈哈哈，好快！好惊险！好刺激！",
+			say = "再試試轉向——哈哈哈哈，好快！好驚險！好刺激！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "好！这东西玩够了，该干点更有趣的事情了——",
+			say = "好！這東西玩夠了，該做點更有趣的事了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			bgName = "star_level_bg_311",
 			side = 2,
 			withoutActorName = true,
-			say = "还没等我反应过来，皇家詹姆斯号就已经借着被甩飞的惯性扑入我的怀中，将全身的重量都托付了过来。",
+			say = "還沒等我反應過來，皇家詹姆斯號就已經靠著被甩飛的慣性撲入我的懷中，將全身的重量都依靠了過來。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -544,7 +544,7 @@ return {
 			bgName = "star_level_bg_311",
 			side = 2,
 			withoutActorName = true,
-			say = "她用双臂环绕着我，柔软的发尾蹭过我的脖颈，带来一阵痒意。",
+			say = "她用雙臂環繞著我，柔軟的髮尾蹭過我的脖頸，帶來一陣癢意。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -558,7 +558,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "醒来之后，身边到处都是新鲜有趣的东西~不过……",
+			say = "醒來之後，身邊到處都是新鮮有趣的東西~不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "最有意思的，还是你呢！",
+			say = "最有趣的，還是你呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "你的身上，究竟还藏着什么好东西呢……好好奇~",
+			say = "你的身上，究竟還藏著什麼好東西呢……好好奇~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600151,
-			say = "把你的一切，都告诉我吧~",
+			say = "把你的一切，都告訴我吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

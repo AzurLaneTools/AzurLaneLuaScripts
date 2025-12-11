@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			bgm = "story-temepest-2",
 			nameColor = "#A9F548FF",
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "爆炸声中，巨大的领主级骸骨兽沉入了水中。",
+			say = "爆炸聲中，巨大的領主級骸骨獸沉入了水中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "之后，原本陷入疯狂的骸骨兽群似乎冷静了下来，在看到领主被击败后纷纷潜入水中退去。",
+			say = "之後，原本陷入瘋狂的骸骨獸群似乎冷靜了下來，在看到領主被擊敗後紛紛潛入水中退去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "这时候众人才注意到，二号中岛上原本耀眼的大灯塔，也在不知不觉间重新熄灭了。",
+			say = "這時候眾人才注意到，二號中島上原本耀眼的大燈塔，也在不知不覺間重新熄滅了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼……看来冈依沙瓦号的封印仪式成功了！",
+			say = "呼……看來岡依沙瓦號的封印儀式成功了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600130,
-			say = "“封印仪式”？",
+			say = "「封印儀式」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "封印仪式就是……",
+			say = "封印儀式就是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "皇家财富号简略说明了一下之前在大灯塔上发生的事。",
+			say = "皇家幸運號簡略說明了一下之前在大燈塔上發生的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9600130,
-			say = "原来如此……封印么。",
+			say = "原來如此……封印嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

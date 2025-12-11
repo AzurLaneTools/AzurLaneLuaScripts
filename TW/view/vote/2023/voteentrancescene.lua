@@ -46,6 +46,8 @@ slot0.init = function(slot0)
 	slot0.awardWindowPage = VoteAwardWindowPage.New(slot0._tf, slot0.event)
 
 	VoteStoryUtil.Notify(VoteStoryUtil.ENTER_SCENE)
+	setActive(slot0.dropGetTr, false)
+	setActive(slot0.dropGotTr, false)
 end
 
 slot0.didEnter = function(slot0)
@@ -58,7 +60,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.vote_help_2023.tip
+			helps = pg.gametip.vote_help_2025.tip
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.awardBtn, function ()

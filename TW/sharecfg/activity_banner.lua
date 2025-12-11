@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					10
+					24
 				},
 				{
 					23,
@@ -50,8 +50,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					0,
@@ -63,12 +63,12 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					25
 				},
 				{
-					15,
-					0,
-					0
+					14,
+					59,
+					59
 				}
 			}
 		}
@@ -80,15 +80,15 @@ pg.activity_banner = {
 		param = {
 			"scene core activity",
 			{
-				coreName = "DALCoreActivityUI"
+				coreName = "SailingShip3CoreActivityUI"
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					0,
@@ -100,12 +100,12 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					25
 				},
 				{
-					15,
-					0,
-					0
+					14,
+					59,
+					59
 				}
 			}
 		}
@@ -124,8 +124,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					0,
@@ -137,7 +137,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					10
+					24
 				},
 				{
 					23,
@@ -161,8 +161,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					0,
@@ -174,7 +174,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					10
+					24
 				},
 				{
 					23,
@@ -195,8 +195,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					0,
@@ -208,7 +208,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					10
+					24
 				},
 				{
 					23,
@@ -223,14 +223,15 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"crusing"
+			"scene Cryptolalia",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
 					12,
-					1
+					11
 				},
 				{
 					0,
@@ -242,12 +243,12 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					17
 				},
 				{
-					15,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -344,8 +345,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					0,
@@ -357,7 +358,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					10
+					24
 				},
 				{
 					23,

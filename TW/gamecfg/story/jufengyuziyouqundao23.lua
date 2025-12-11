@@ -9,7 +9,7 @@ return {
 			bgm = "story-tempest-marching",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当天夜里，在金属岩洞中忙碌了一天后，皇家财富号手握木质罗盘，在期望中进入了梦乡——",
+			say = "當天夜裡，在金屬岩洞中忙碌了一天后，皇家幸運號手握木質羅盤，在期望中進入了夢鄉——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgm = "theme-unknown-undefined",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一望无际的海面上，铺满了密密麻麻的残响舰队。",
+			say = "一望無際的海面上，鋪滿了密密麻麻的遺響艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "只是，这支本该世间无敌的舰队，如今似乎被逼至了绝境。",
+			say = "只是，這隻本該世間無敵的艦隊，如今似乎被逼至了絕境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 900234,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你能够侵入▇ ▇ ▇的系统，篡改▇ ▇ ▇的记录……",
+			say = "妳能夠侵入▇ ▇ ▇的系統，竄改▇ ▇ ▇的紀錄……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 900234,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你到底是什么东西……！",
+			say = "你到底是什麼東西……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 900530,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "天穹之上，漂浮着一个比太阳更耀眼的光团。",
+			say = "天穹之上，漂浮著一個比太陽更耀眼的光團。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 900530,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光团之中似乎有无数只巨眼，不含感情地扫视着下方的每一个威胁。",
+			say = "光團之中似乎有無數隻巨眼，不含感情地掃視著下方的每一個威脅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 900234,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你这是在把▇ ▇的▇ ▇ ▇改造为▇ ▇ ▇ ▇ ▇ ▇ ，▇ ▇ ▇ ▇ ▇ ▇ ▇ ？！",
+			say = "妳這是在把▇ ▇的▇ ▇ ▇改造為▇ ▇ ▇ ▇ ▇ ▇ ，▇ ▇ ▇ ▇ ▇ ▇ ▇ ？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 900530,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "愈发难以辨认的词句中，天穹上的光团陡然膨胀。",
+			say = "愈發難以辨認的詞句中，天穹上的光團陡然膨脹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 900530,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "世界沐浴在白色的光芒中——",
+			say = "世界沐浴在白色的光芒中—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,14 +202,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			bgName = "star_level_bg_525",
 			bgm = "story-tempest-marching",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊……哈啊……这是什么怪梦，骇死我了！",
+			say = "哈啊……哈啊……這是什麼怪夢，嚇死我了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "皇家财富号有些惊恐地想要丢掉手中的木质罗盘，但还是犹豫了一下，没舍得。",
+			say = "皇家幸運號有些驚恐地想要丟掉手中的木質羅盤，但還是猶豫了一下，沒捨得。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,12 +246,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个小不点称自己是栞佩拉……？",
+			say = "那個小不點稱自己是栞佩拉……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,12 +261,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可女神不只是一台机器么……",
+			say = "但女神不是只是一台機器嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,12 +275,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有那个大光团又是什么东西……",
+			say = "還有那個大光團又是什麼東西……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,12 +289,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么和城邦联盟的守卫者赐福用到的符文有几分相似……",
+			say = "為什麼和城邦聯盟的守衛者賜福用到的符文有幾分相似……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,12 +304,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "更重要的是……这些东西为什么会出现在我的梦里啊！",
+			say = "更重要的是……這些東西為什麼會出現在我的夢裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,12 +319,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕糟糕……我明明只想带领船团做大做强，自由驰骋在七海之中尽情冒险……",
+			say = "糟糕糟糕……我明明只想帶領船團做大做強，自由馳騁在七海之中盡情冒險……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,12 +334,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官保佑，指挥官保佑……千万别让这些旧时代的怪东西缠上我啊！",
+			say = "指揮官保佑，指揮官保佑……千萬別讓這些舊時代的怪東西纏上我啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

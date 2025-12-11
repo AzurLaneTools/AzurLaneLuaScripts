@@ -4,6 +4,9 @@ slot1 = {
 	200
 }
 slot2 = 25
+slot3 = 2
+slot4 = 6
+slot5 = 2
 
 slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
@@ -18,7 +21,6 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.screenSize = Vector2(Screen.width, Screen.height)
 	slot0.screenCenter = Vector2(slot0.screenSize.x * 0.5, slot0.screenSize.y * 0.5)
 	slot0.radiusOfEllipse = Vector2(uv0[1], uv0[2])
-	slot0.lines = {}
 	slot0.targetPosition = Vector3.zero
 	slot0.lerpSpeed = 25
 	slot0.showHudDic = {}
@@ -37,7 +39,7 @@ slot0.Update = function(slot0, slot1)
 		return
 	end
 
-	if slot1 then
+	if slot1 and not slot0.isAttach then
 		slot0:AdjustTargetPosition(slot1)
 	end
 
@@ -96,10 +98,20 @@ slot0.SetUp = function(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		uv1.distanceTxt.text = math.ceil(Vector3.Distance(slot0, uv2.transform.position)) .. "M"
-		slot4, slot5 = uv1:CalcPosition(uv0.transform)
-		uv1.targetPosition = Vector3(slot4.x, slot4.y, 0)
-		uv1.arrTr.localEulerAngles = Vector3(0, 0, slot5)
+		uv1.distanceTxt.text = math.ceil(uv3 < Vector3.Distance(slot0, uv2.transform.position) and slot3 or 0) .. "M"
+		slot5 = Vector3(0, 0, 0)
+		slot6 = 0
+		slot7 = false
+
+		if slot3 < uv4 then
+			slot5, slot6, slot7 = uv1:CalcNearPosition(uv0.transform)
+		else
+			slot5, slot6, slot7 = uv1:CalcPosition(uv0.transform)
+		end
+
+		uv1.targetPosition = Vector3(slot5.x, slot5.y, 0)
+		uv1.arrTr.localEulerAngles = Vector3(0, 0, slot6)
+		uv1.isAttach = slot7
 	end, 1, -1)
 
 	slot0.timer:Start()
@@ -121,17 +133,17 @@ slot0.CalcPosition = function(slot0, slot1)
 		end
 
 		return Vector2(slot11, slot11 * slot8), IslandCalcUtil.SignedAngle(Vector2.up, Vector2(slot6.x, slot6.y))
+	elseif slot7 < 1 then
+		return slot0:CalcNearPosition(slot1)
 	else
 		return slot6, IslandCalcUtil.SignedAngle(Vector2.up, Vector2(slot6.x, slot6.y))
 	end
 end
 
-slot0.ClearLine = function(slot0)
-	for slot4, slot5 in pairs(slot0.lines) do
-		Object.Destroy(slot5.gameObject)
-	end
+slot0.CalcNearPosition = function(slot0, slot1)
+	slot4 = IslandCameraMgr.instance._mainCamera:WorldToScreenPoint(Vector3(slot1.transform.position.x, slot1.transform.position.y + uv0, slot1.transform.position.z))
 
-	slot0.lines = {}
+	return Vector2(slot4.x, slot4.y) - slot0.screenCenter, 180, true
 end
 
 slot0.ShutDown = function(slot0)
@@ -143,8 +155,6 @@ slot0.ShutDown = function(slot0)
 
 	slot0.cg.alpha = 0
 	slot0.trackId = nil
-
-	slot0:ClearLine()
 end
 
 slot0.Clear = function(slot0)

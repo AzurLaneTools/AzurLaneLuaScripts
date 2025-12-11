@@ -77,7 +77,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "Honey~我帶著白鷹主力艦隊前來增援了喔~！",
+			say = "Honey~我帶白鷹主力艦隊前來增援了喔~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

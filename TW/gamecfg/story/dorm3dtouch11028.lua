@@ -36,7 +36,7 @@ return {
 						},
 						{
 							param = "Play",
-							name = "Face_kaixing",
+							name = "face_happy_start",
 							time = 0,
 							type = "action",
 							skip = true

@@ -26908,6 +26908,131 @@ _G.pg.base.item_data_statistics[30375] = {
 }
 
 
+_G.pg.base.item_data_statistics[30376] = {
+	open_directly = 1,
+	name = "外觀裝備箱(深海尋寶)",
+	type = 11,
+	display = "可以獲得一件隨機的深海尋寶風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshenhaixunbao",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30373",
+	id = 30376,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4240,
+			1
+		},
+		{
+			9,
+			4241,
+			1
+		},
+		{
+			9,
+			4242,
+			1
+		},
+		{
+			9,
+			4243,
+			1
+		},
+		{
+			9,
+			4244,
+			1
+		},
+		{
+			9,
+			4245,
+			1
+		},
+		{
+			9,
+			4246,
+			1
+		},
+		{
+			9,
+			4247,
+			1
+		},
+		{
+			9,
+			4248,
+			1
+		},
+		{
+			9,
+			4249,
+			1
+		},
+		{
+			9,
+			4250,
+			1
+		},
+		{
+			9,
+			4251,
+			1
+		},
+		{
+			9,
+			4252,
+			1
+		},
+		{
+			9,
+			4253,
+			1
+		},
+		{
+			9,
+			4254,
+			1
+		},
+		{
+			9,
+			4255,
+			1
+		},
+		{
+			9,
+			4256,
+			1
+		},
+		{
+			9,
+			4257,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30377] = {
 	open_directly = 1,
 	name = "外觀裝備箱(Date A Live)",
@@ -40930,6 +41055,219 @@ _G.pg.base.item_data_statistics[30559] = {
 		{
 			9,
 			4239,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30560] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(深海尋寶)",
+	type = 13,
+	display = "使用後可從「深海尋寶」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshenhaixunbaozixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30560,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4240,
+			1
+		},
+		{
+			9,
+			4241,
+			1
+		},
+		{
+			9,
+			4242,
+			1
+		},
+		{
+			9,
+			4243,
+			1
+		},
+		{
+			9,
+			4244,
+			1
+		},
+		{
+			9,
+			4245,
+			1
+		},
+		{
+			9,
+			4246,
+			1
+		},
+		{
+			9,
+			4247,
+			1
+		},
+		{
+			9,
+			4248,
+			1
+		},
+		{
+			9,
+			4249,
+			1
+		},
+		{
+			9,
+			4250,
+			1
+		},
+		{
+			9,
+			4251,
+			1
+		},
+		{
+			9,
+			4252,
+			1
+		},
+		{
+			9,
+			4253,
+			1
+		},
+		{
+			9,
+			4254,
+			1
+		},
+		{
+			9,
+			4255,
+			1
+		},
+		{
+			9,
+			4256,
+			1
+		},
+		{
+			9,
+			4257,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4240,
+			1
+		},
+		{
+			9,
+			4241,
+			1
+		},
+		{
+			9,
+			4242,
+			1
+		},
+		{
+			9,
+			4243,
+			1
+		},
+		{
+			9,
+			4244,
+			1
+		},
+		{
+			9,
+			4245,
+			1
+		},
+		{
+			9,
+			4246,
+			1
+		},
+		{
+			9,
+			4247,
+			1
+		},
+		{
+			9,
+			4248,
+			1
+		},
+		{
+			9,
+			4249,
+			1
+		},
+		{
+			9,
+			4250,
+			1
+		},
+		{
+			9,
+			4251,
+			1
+		},
+		{
+			9,
+			4252,
+			1
+		},
+		{
+			9,
+			4253,
+			1
+		},
+		{
+			9,
+			4254,
+			1
+		},
+		{
+			9,
+			4255,
+			1
+		},
+		{
+			9,
+			4256,
+			1
+		},
+		{
+			9,
+			4257,
 			1
 		}
 	},

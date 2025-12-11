@@ -12,6 +12,7 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot2:Find("btns/opening/Text"), i18n("island_manage_view"))
 	setText(slot2:Find("btns/close/Text"), i18n("island_manage_result"))
+	setText(slot2:Find("btns/lock/Text"), i18n("word_lock"))
 
 	slot0.uiList = UIItemList.New(slot1, slot2)
 end

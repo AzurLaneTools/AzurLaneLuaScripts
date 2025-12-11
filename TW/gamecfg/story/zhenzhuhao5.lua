@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大海之音\n\n<size=45>五 大海的声音</size>",
+					"大海之音\n\n<size=45>5.大海的聲音</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "theme-SeaAndSun-soft",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "月色如霜，将清辉洒满整片沙滩。",
+			say = "月色如霜，將清輝灑滿整片沙灘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "夜晚的海滩褪去了白日里的喧嚣，只余下海浪拍击沙滩时温柔、安宁的韵律。",
+			say = "夜晚的海灘褪去了白日的喧囂，只餘下海浪拍擊沙灘時溫柔、安寧的節奏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "我和珍珠号在白沙间漫步，留下两串长长的、交错的脚印。",
+			say = "我和珍珠號在白沙間漫步，留下兩串長長的、交錯的腳印。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "海浪的声音，还有海洋的味道……真让人开心~",
+			say = "海浪的聲音，還有海洋的味道……真讓人開心~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "能像这样久违地在沙滩上漫步，感觉全身心都放松下来了。",
+			say = "能像這樣久違地在沙灘上漫步，感覺全身心都放鬆下來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "无论什么时候都能让人感到安宁，海洋就是这样神奇的存在……",
+			say = "無論什麼時候都能讓人感到安寧，海洋就是這樣神奇的存在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这样的想法也不错。不过，我也见识过不少大海的另一面。",
+			say = "這樣的想法也不錯。不過，我也見識過不少大海的另一面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "为什么这么说？",
+			say = "為什麼這麼說？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "对于大部分人来说，比起安宁，海洋给人更多的印象更多是“变幻”。",
+			say = "對大部分人來說，比起安寧，海洋給人更多的印象更多是「變幻」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "黑暗而幽深，藏着许多不为人知的生命与风景。",
+			say = "黑暗而幽深，藏著許多不為人知的生命與風景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "唔……大家的认知其实也没错呢。",
+			say = "嗯……大家的認知其實也沒錯呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "有时，大海确实会露出狂暴而无情的一面……",
+			say = "有時，大海確實會露出狂暴而無情的一面……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "但如果大家愿意走进大海的内心，或许就会有不一样的发现呢。",
+			say = "但如果大家願意走進大海的內心，或許就會有不一樣的發現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "在这位温柔的母亲的怀抱中，即便只是浅海的馈赠，也能让一座小岛繁荣昌盛。",
+			say = "在這位溫柔的母親的懷抱中，即便只是淺海的饋贈，也能讓一座小島繁榮昌盛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "世间的许多文明，也是在大海的摇篮中成长和壮大的吧？",
+			say = "世間的許多文明，也是在大海的搖籃中成長和壯大的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "指挥官，你听到了吗——",
+			say = "指揮官，你聽到了嗎——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "珍珠号突然顿住脚步，屏息凝神地望向大海。",
+			say = "珍珠號突然頓住腳步，屏息凝神地望向大海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "海浪永恒的低吟……风吹过沙滩边灌木的沙沙声……远处不知名夜虫的唧鸣……",
+			say = "海浪永恆的低吟……風吹過沙灘邊灌木的沙沙聲……遠處不知名夜蟲的唧鳴……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "不，还有一道与它们不同的声音……",
+			say = "不，還有一道與它們不同的聲音……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "……很特别的声音。",
+			say = "……很特別的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "珍珠号将目光投向月光下幽暗深邃、泛着碎银般鳞光的大海深处。",
+			say = "珍珠號將目光投向月光下幽暗深邃、泛著碎銀般鱗光的大海深處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "是一种很特别的呼唤哦。很微弱，但很清晰……",
+			say = "是一種很特別的呼喚哦。很微弱，但很清晰……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "蓦地，她眼睛一亮，神情带上了几分惊喜。",
+			say = "驀地，她眼睛一亮，神情帶了幾分驚喜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "指挥官，在这里等我一下~",
+			say = "指揮官，在這裡等我一下~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "我很快回来！一定……要在这里等着我哦！",
+			say = "我很快回來！一定……要在這裡等我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "话音未落，她已经轻盈而迅捷地跃入大海深处。",
+			say = "話音未落，她已經輕盈而迅捷地躍入大海深處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "她的身影瞬间没入波光粼粼的海面之下，只留下几圈迅速扩散的涟漪，消失在幽暗的海水中。",
+			say = "她的身影瞬間沒入波光粼粼的海面之下，只留下幾圈快速擴散的漣漪，消失在幽暗的海水中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

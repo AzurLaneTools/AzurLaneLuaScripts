@@ -80,18 +80,25 @@ slot0.InitSlotRoleDataByAbility = function(slot0, slot1)
 	end
 
 	slot3 = {}
+	slot4 = getProxy(IslandProxy):GetIsland()
 
 	if slot2.type == 3 then
-		slot4 = slot2.animal == "" and {} or slot2.animal
+		slot5 = slot2.animal == "" and {} or slot2.animal
 
-		for slot8, slot9 in ipairs(slot4) do
-			if pg.island_ranch_animal[slot9].unlock_type == 0 then
-				table.insert(slot3, slot9)
+		for slot9, slot10 in ipairs(slot5) do
+			if pg.island_ranch_animal[slot10].unlock_type == 0 then
+				table.insert(slot3, slot10)
 			end
 		end
 
-		getProxy(IslandProxy):GetIsland():DispatchEvent(IslandBuildingAgency.GEN_ANIMAL_INT, {
+		slot4:DispatchEvent(IslandBuildingAgency.GEN_ANIMAL_INT, {
 			aniList = slot3,
+			slotId = slot1
+		})
+	end
+
+	if slot2.type == 9 then
+		slot4:DispatchEvent(IslandBuildingAgency.SLOT_DELEGATE_INIT, {
 			slotId = slot1
 		})
 	end
@@ -237,6 +244,18 @@ slot0.GetShipIdAndAreaIdList = function(slot0)
 
 	for slot5, slot6 in pairs(slot0.delegationSlotData) do
 		if slot6:GetRoleShipData() then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
+end
+
+slot0.GetDelegateingSlotAndFormulaList = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.delegationSlotData) do
+		if slot6:GetRoleSlotAndFormulaData() then
 			table.insert(slot1, slot7)
 		end
 	end

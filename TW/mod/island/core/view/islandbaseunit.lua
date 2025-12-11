@@ -56,6 +56,14 @@ slot0.GetPoolMgr = function(slot0)
 	return slot0.view:GetPoolMgr()
 end
 
+slot0.GetIsland = function(slot0)
+	return slot0.view:GetIsland()
+end
+
+slot0.GetSelfIsland = function(slot0)
+	return slot0.view:GetSelfIsland()
+end
+
 slot0.Reset = function(slot0)
 	if slot0:IsLoaded() then
 		slot0:OnDispose()

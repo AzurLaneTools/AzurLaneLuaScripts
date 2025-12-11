@@ -33,6 +33,7 @@ end
 
 slot0.OnInit = function(slot0, slot1, slot2)
 	slot0._go = slot1
+	slot0._tf = slot1.transform
 	slot0.builder = slot2
 
 	assert(slot0.builder and slot0._go)

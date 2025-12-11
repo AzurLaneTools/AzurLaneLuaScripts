@@ -5007,7 +5007,7 @@ pg.activity_sp_story = {
 	[291] = {
 		story_type = 1,
 		pre_event = "",
-		name = "EPS-1 宝藏",
+		name = "EPS-1 寶藏",
 		change_prefab = "",
 		unlock_conditions = "",
 		change_background = "star_level_bg_163",
@@ -5018,7 +5018,7 @@ pg.activity_sp_story = {
 	},
 	[292] = {
 		story_type = 1,
-		name = "EP1-1 邀请函",
+		name = "EP1-1 邀請函",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-1",
 		change_background = "star_level_bg_163",
@@ -5037,7 +5037,7 @@ pg.activity_sp_story = {
 	},
 	[293] = {
 		story_type = 1,
-		name = "EP1-2 木罗盘",
+		name = "EP1-2 木羅盤",
 		change_prefab = "",
 		unlock_conditions = "完成EP1-1",
 		change_background = "star_level_bg_194",
@@ -5056,7 +5056,7 @@ pg.activity_sp_story = {
 	},
 	[294] = {
 		story_type = 1,
-		name = "EP1-3 灰岩岛",
+		name = "EP1-3 灰岩島",
 		change_prefab = "",
 		unlock_conditions = "完成EP1-2",
 		change_background = "star_level_bg_598",
@@ -5075,7 +5075,7 @@ pg.activity_sp_story = {
 	},
 	[295] = {
 		story_type = 1,
-		name = "EP2-1 飓风之梦I",
+		name = "EP2-1 颶風之夢I",
 		change_prefab = "",
 		unlock_conditions = "完成EP1-3",
 		change_background = "star_level_bg_598",
@@ -5113,7 +5113,7 @@ pg.activity_sp_story = {
 	},
 	[297] = {
 		story_type = 1,
-		name = "EP2-3 初至群岛",
+		name = "EP2-3 初至群島",
 		change_prefab = "",
 		unlock_conditions = "完成EP2-2",
 		change_background = "star_level_bg_525",
@@ -5132,7 +5132,7 @@ pg.activity_sp_story = {
 	},
 	[298] = {
 		story_type = 1,
-		name = "EP2-4 寻宝准备",
+		name = "EP2-4 尋寶準備",
 		change_prefab = "",
 		unlock_conditions = "完成EP2-3",
 		change_background = "star_level_bg_504",
@@ -5151,7 +5151,7 @@ pg.activity_sp_story = {
 	},
 	[299] = {
 		story_type = 1,
-		name = "EP3-1 群妖海域的猎人",
+		name = "EP3-1 群妖海域的獵人",
 		change_prefab = "",
 		unlock_conditions = "完成EP2-4",
 		change_background = "star_level_bg_194",
@@ -5170,7 +5170,7 @@ pg.activity_sp_story = {
 	},
 	[300] = {
 		story_type = 1,
-		name = "EP3-2 一个不放过",
+		name = "EP3-2一個不放過",
 		change_prefab = "",
 		unlock_conditions = "完成EP3-1",
 		change_background = "star_level_bg_162",
@@ -5189,7 +5189,7 @@ pg.activity_sp_story = {
 	},
 	[301] = {
 		story_type = 1,
-		name = "EP3-3 熟人来访",
+		name = "EP3-3 熟人來訪",
 		change_prefab = "",
 		unlock_conditions = "完成EP3-2",
 		change_background = "bg_jufengv3_1",
@@ -5209,7 +5209,7 @@ pg.activity_sp_story = {
 	},
 	[302] = {
 		story_type = 1,
-		name = "EP4-1 大灯塔调查",
+		name = "EP4-1 大燈塔調查",
 		change_prefab = "",
 		unlock_conditions = "完成EP3-3",
 		change_background = "star_level_bg_598",
@@ -5228,7 +5228,7 @@ pg.activity_sp_story = {
 	},
 	[303] = {
 		story_type = 1,
-		name = "EP4-2 不请自来的客人",
+		name = "EP4-2 不請自來的客人",
 		change_prefab = "",
 		unlock_conditions = "完成EP4-1",
 		change_background = "star_level_bg_598",
@@ -5247,7 +5247,7 @@ pg.activity_sp_story = {
 	},
 	[304] = {
 		story_type = 1,
-		name = "EP4-3 圣马丁的担忧",
+		name = "EP4-3 聖馬丁的擔憂",
 		change_prefab = "",
 		unlock_conditions = "完成EP4-2",
 		change_background = "star_level_bg_598",
@@ -5266,7 +5266,7 @@ pg.activity_sp_story = {
 	},
 	[305] = {
 		story_type = 1,
-		name = "EP5-1 不请自来的客人II",
+		name = "EP5-1 不請自來的客人II",
 		change_prefab = "",
 		unlock_conditions = "完成EP4-3",
 		change_background = "star_level_bg_504",
@@ -5285,7 +5285,7 @@ pg.activity_sp_story = {
 	},
 	[306] = {
 		story_type = 1,
-		name = "EP5-2 清晨的残骸",
+		name = "EP5-2 清晨的殘骸",
 		change_prefab = "",
 		unlock_conditions = "完成EP5-1",
 		change_background = "bg_jufengv3_cg2",
@@ -5304,7 +5304,7 @@ pg.activity_sp_story = {
 	},
 	[307] = {
 		story_type = 2,
-		name = "EP5-3 事急从权",
+		name = "EP5-3 事急從權",
 		change_prefab = "",
 		unlock_conditions = "完成EP5-2",
 		change_background = "star_level_bg_524",
@@ -5323,7 +5323,7 @@ pg.activity_sp_story = {
 	},
 	[308] = {
 		story_type = 1,
-		name = "EP6-1 质疑",
+		name = "EP6-1 質疑",
 		change_prefab = "",
 		unlock_conditions = "完成EP5-3",
 		change_background = "bg_jufengv3_1",
@@ -5342,7 +5342,7 @@ pg.activity_sp_story = {
 	},
 	[309] = {
 		story_type = 1,
-		name = "EP6-2 遗迹殿堂调查",
+		name = "EP6-2 遺跡殿堂調查",
 		change_prefab = "",
 		unlock_conditions = "完成EP6-1",
 		change_background = "star_level_bg_598",
@@ -5361,7 +5361,7 @@ pg.activity_sp_story = {
 	},
 	[310] = {
 		story_type = 1,
-		name = "EPS-2 飓风之梦II",
+		name = "EPS-2 颶風之夢II",
 		change_prefab = "",
 		unlock_conditions = "完成EP6-2",
 		change_background = "star_level_bg_106",
@@ -5380,7 +5380,7 @@ pg.activity_sp_story = {
 	},
 	[311] = {
 		story_type = 1,
-		name = "EPS-3 再次交汇",
+		name = "EPS-3 再次交會",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-2",
 		change_background = "bg_jufengv3_1",
@@ -5399,7 +5399,7 @@ pg.activity_sp_story = {
 	},
 	[312] = {
 		story_type = 1,
-		name = "EP7-1 金属岩洞调查",
+		name = "EP7-1 金屬岩洞調查",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-3",
 		change_background = "star_level_bg_598",
@@ -5418,7 +5418,7 @@ pg.activity_sp_story = {
 	},
 	[313] = {
 		story_type = 1,
-		name = "EP7-2 飓风之梦III",
+		name = "EP7-2 颶風之夢III",
 		change_prefab = "",
 		unlock_conditions = "完成EP7-1",
 		change_background = "bg_jufengv3_cg3",
@@ -5437,7 +5437,7 @@ pg.activity_sp_story = {
 	},
 	[314] = {
 		story_type = 1,
-		name = "EP7-3 大灯塔调查II",
+		name = "EP7-3 大燈塔調查II",
 		change_prefab = "",
 		unlock_conditions = "完成EP7-2",
 		change_background = "bg_jufengv3_2",
@@ -5456,7 +5456,7 @@ pg.activity_sp_story = {
 	},
 	[315] = {
 		story_type = 2,
-		name = "EP7-4 决胜一击",
+		name = "EP7-4 決勝一擊",
 		change_prefab = "",
 		unlock_conditions = "完成EP7-3",
 		change_background = "star_level_bg_539",
@@ -5494,7 +5494,7 @@ pg.activity_sp_story = {
 	},
 	[317] = {
 		story_type = 1,
-		name = "EX-1 祭司与神使II",
+		name = "EX-1 祭司與神使II",
 		change_prefab = "",
 		unlock_conditions = "完成EP7-5",
 		change_background = "star_level_bg_163",
@@ -5513,7 +5513,7 @@ pg.activity_sp_story = {
 	},
 	[318] = {
 		story_type = 1,
-		name = "EX-2 未定决策",
+		name = "EX-2 未定決策",
 		change_prefab = "",
 		unlock_conditions = "完成EX-1",
 		change_background = "bg_story_task_3",
@@ -5532,7 +5532,7 @@ pg.activity_sp_story = {
 	},
 	[319] = {
 		story_type = 1,
-		name = "EX-3 世界的边界",
+		name = "EX-3 世界的邊界",
 		change_prefab = "Map_1970001",
 		unlock_conditions = "完成EX-2",
 		change_background = "bg_jufengv3_1",
@@ -5546,6 +5546,505 @@ pg.activity_sp_story = {
 			{
 				4,
 				318
+			}
+		}
+	},
+	[321] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 VOICE#1",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG1",
+		change_bgm = "bgm-waterwave",
+		id = 321,
+		lock = ""
+	},
+	[322] = {
+		story_type = 1,
+		name = "EP1-1 VOICE#2",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-1",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG2",
+		change_bgm = "bgm-waterwave",
+		id = 322,
+		pre_event = {
+			321
+		},
+		lock = {
+			{
+				4,
+				321
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					0
+				}
+			}
+		}
+	},
+	[323] = {
+		story_type = 1,
+		name = "EP1-2 VOICE#3",
+		change_prefab = "",
+		unlock_conditions = "完成EP1-1",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG3",
+		change_bgm = "bgm-waterwave",
+		id = 323,
+		pre_event = {
+			322
+		},
+		lock = {
+			{
+				4,
+				322
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					0
+				}
+			}
+		}
+	},
+	[324] = {
+		story_type = 1,
+		name = "EP1-3 VOICE#4",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "完成EP1-2",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG4",
+		change_bgm = "bgm-waterwave",
+		id = 324,
+		pre_event = {
+			323
+		},
+		lock = {
+			{
+				4,
+				323
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					200
+				}
+			}
+		}
+	},
+	[325] = {
+		story_type = 1,
+		name = "EP1-4 VOICE#5",
+		change_prefab = "",
+		unlock_conditions = "完成EP1-3",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG5",
+		change_bgm = "bgm-waterwave",
+		id = 325,
+		pre_event = {
+			324
+		},
+		lock = {
+			{
+				4,
+				324
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					200
+				}
+			}
+		}
+	},
+	[326] = {
+		story_type = 1,
+		name = "EPS-2 VOICE#6",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "完成EP1-4",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG6",
+		change_bgm = "bgm-waterwave",
+		id = 326,
+		pre_event = {
+			325
+		},
+		lock = {
+			{
+				4,
+				325
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					350
+				}
+			}
+		}
+	},
+	[327] = {
+		story_type = 1,
+		name = "EP2-1 VOICE#7",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-2",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG7",
+		change_bgm = "bgm-waterwave",
+		id = 327,
+		pre_event = {
+			326
+		},
+		lock = {
+			{
+				4,
+				326
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					350
+				}
+			}
+		}
+	},
+	[328] = {
+		story_type = 1,
+		name = "EP3-1 VOICE#8",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-1",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG8",
+		change_bgm = "bgm-waterwave",
+		id = 328,
+		pre_event = {
+			326
+		},
+		lock = {
+			{
+				4,
+				327
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					350
+				}
+			}
+		}
+	},
+	[329] = {
+		story_type = 1,
+		name = "EP2-2 VOICE#9",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "完成EP3-1",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG9",
+		change_bgm = "bgm-waterwave",
+		id = 329,
+		pre_event = {
+			327
+		},
+		lock = {
+			{
+				4,
+				328
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					500
+				}
+			}
+		}
+	},
+	[330] = {
+		story_type = 1,
+		name = "EP3-2 VOICE#10",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-2",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG10",
+		change_bgm = "bgm-waterwave",
+		id = 330,
+		pre_event = {
+			328
+		},
+		lock = {
+			{
+				4,
+				329
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					500
+				}
+			}
+		}
+	},
+	[331] = {
+		story_type = 1,
+		name = "EP2-3 VOICE#11",
+		change_prefab = "",
+		unlock_conditions = "完成EP3-2",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG11",
+		change_bgm = "bgm-waterwave",
+		id = 331,
+		pre_event = {
+			329
+		},
+		lock = {
+			{
+				4,
+				330
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					500
+				}
+			}
+		}
+	},
+	[332] = {
+		story_type = 1,
+		name = "EP3-3 VOICE#12",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-3",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG12",
+		change_bgm = "bgm-waterwave",
+		id = 332,
+		pre_event = {
+			330
+		},
+		lock = {
+			{
+				4,
+				331
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					500
+				}
+			}
+		}
+	},
+	[333] = {
+		story_type = 1,
+		name = "EP2-4 VOICE#13",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "完成EP3-3",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG13",
+		change_bgm = "bgm-waterwave",
+		id = 333,
+		pre_event = {
+			331
+		},
+		lock = {
+			{
+				4,
+				332
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					650
+				}
+			}
+		}
+	},
+	[334] = {
+		story_type = 1,
+		name = "EP3-4 VOICE#14",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-4",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG14",
+		change_bgm = "bgm-waterwave",
+		id = 334,
+		pre_event = {
+			332
+		},
+		lock = {
+			{
+				4,
+				333
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					650
+				}
+			}
+		}
+	},
+	[335] = {
+		story_type = 1,
+		name = "EP2-5 VOICE#15",
+		change_prefab = "",
+		unlock_conditions = "完成EP3-4",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG15",
+		change_bgm = "bgm-waterwave",
+		id = 335,
+		pre_event = {
+			333
+		},
+		lock = {
+			{
+				4,
+				334
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					650
+				}
+			}
+		}
+	},
+	[336] = {
+		story_type = 1,
+		name = "EP3-5 VOICE#16",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-5",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG16",
+		change_bgm = "bgm-waterwave",
+		id = 336,
+		pre_event = {
+			334
+		},
+		lock = {
+			{
+				4,
+				335
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					650
+				}
+			}
+		}
+	},
+	[337] = {
+		story_type = 1,
+		name = "EPS-3 VOICE#17",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "完成EP3-5",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG17",
+		change_bgm = "bgm-waterwave",
+		id = 337,
+		pre_event = {
+			335,
+			336
+		},
+		lock = {
+			{
+				4,
+				336
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					1000
+				}
+			}
+		}
+	},
+	[338] = {
+		story_type = 1,
+		name = "EPS-4 VOICE#18",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-3",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG18",
+		change_bgm = "bgm-waterwave",
+		id = 338,
+		pre_event = {
+			337
+		},
+		lock = {
+			{
+				4,
+				337
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					1000
+				}
+			}
+		}
+	},
+	[339] = {
+		story_type = 1,
+		name = "EPS-5 VOICE#19",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-4",
+		change_background = "star_level_bg_493",
+		story = "YIHAILIUSHENG19",
+		change_bgm = "bgm-waterwave",
+		id = 339,
+		pre_event = {
+			338
+		},
+		lock = {
+			{
+				4,
+				338
+			},
+			{
+				3,
+				{
+					1,
+					595,
+					1000
+				}
 			}
 		}
 	},
@@ -5844,6 +6343,25 @@ pg.activity_sp_story = {
 		316,
 		317,
 		318,
-		319
+		319,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
+		338,
+		339
 	}
 }

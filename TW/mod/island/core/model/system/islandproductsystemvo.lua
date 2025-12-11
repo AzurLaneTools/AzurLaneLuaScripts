@@ -7,8 +7,19 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.productPlaceId = slot1
 	slot0.building = slot2
 	slot0.unitDic = {}
+	slot0.delegateSlotUnits = {}
+	slot0.delegateUnitsId = 1
+	slot0.commissionEffectDic = {}
 
 	slot0:InitCfgData()
+end
+
+slot0.GetType = function(slot0)
+	return IslandConst.SYSTEM_TYPE_PRODUCT
+end
+
+slot0.GetBehaviourTree = function(slot0)
+	return nil
 end
 
 slot0.IsSelf = function(slot0, slot1)
@@ -21,6 +32,15 @@ slot0.InitCfgData = function(slot0)
 	slot0:InitCommissionCfgData()
 	slot0:InitHandPlantCfg()
 	slot0:InitHandCollectCfg()
+	slot0:InitCommissionEffectCfg()
+end
+
+slot0.InitCommissionEffectCfg = function(slot0)
+	slot2 = pg.island_set.island_fishery_bubble_vfx and slot1.key_value_varchar or {}
+
+	for slot6, slot7 in ipairs(slot2) do
+		slot0.commissionEffectDic[slot7[1]] = slot7[2]
+	end
 end
 
 slot0.InitHandPlantCfg = function(slot0)
@@ -64,9 +84,25 @@ slot0.GetUnitDatas = function(slot0)
 	slot0:GenHandCollectSlot(slot1)
 	slot0:GenHandPlantSlot(slot1)
 	slot0:GenAnimalBySlot(slot1)
-	slot0:GenPlaceModelUnit(slot1)
+	slot0:GenPlaceSlotModelUnit(slot1)
 
 	return slot1
+end
+
+slot0.GenPlaceSlotModelUnit = function(slot0, slot1)
+	if not table.contains({
+		IslandProductConst.FisheryPlaceId
+	}, slot0.productPlaceId) then
+		return
+	end
+
+	slot3 = pg.island_production_slot.get_id_list_by_place[slot0.productPlaceId] or {}
+
+	for slot7, slot8 in ipairs(slot3) do
+		if pg.island_production_slot[slot8].type == 9 and pg.island_production_commission[slot0:GetCommissionSlotId(slot8)].unlockObjid ~= 0 and (slot0.building == nil or slot0.building:GetDelegationSlotData(slot8) == nil) then
+			table.insert(slot1, IslandDataConvertor.WorldObj2IslandUnit(pg.island_world_objects[slot12]))
+		end
+	end
 end
 
 slot0.GenPlaceModelUnit = function(slot0, slot1)
@@ -306,6 +342,71 @@ slot0.ProductAniObj2IslandUnit = function(slot0, slot1, slot2)
 		position = slot2,
 		rotation = Vector3.zero,
 		scale = Vector3.one
+	})
+end
+
+slot0.GetDelegateUnitsByBuildIdAndSlotId = function(slot0, slot1, slot2, slot3)
+	switch(slot1, {
+		[IslandProductConst.FisheryPlaceId] = function ()
+			uv0 = uv1:GetDelegateFishUnits(uv2, uv3)
+		end
+	})
+
+	return {}
+end
+
+slot0.GetDelegateEffectsByCommissonId = function(slot0, slot1)
+	return slot0.commissionEffectDic[slot0:GetCommissionSlotId(slot1)]
+end
+
+slot0.GenUnitByDelegateEffectId = function(slot0, slot1)
+	if pg.island_world_objects[slot1] then
+		return IslandDataConvertor.WorldObj2IslandUnit(slot2, {
+			typ = IslandConst.UNIT_TYPE_ITEM
+		})
+	end
+end
+
+slot0.GetDelegateFishUnits = function(slot0, slot1, slot2)
+	slot3 = {}
+	slot6 = pg.island_formula[slot2]
+	slot7 = slot6.unitid[1][1]
+	slot8 = pg.island_world_objects[pg.island_production_commission[slot0:GetCommissionSlotId(slot1)].performanceObjid]
+	slot10 = slot6.unitid[2][3]
+
+	for slot14 = 1, math.random(slot6.unitid[2][1], slot6.unitid[2][2]) do
+		slot15 = slot0.delegateUnitsId
+		slot0.delegateSlotUnits[slot4] = slot0.delegateSlotUnits[slot4] or {}
+
+		table.insert(slot0.delegateSlotUnits[slot4], slot15)
+
+		slot0.delegateUnitsId = slot0.delegateUnitsId + 1
+
+		table.insert(slot3, slot0:GenDelegateFishUnit(slot15, slot7, slot8, slot10))
+	end
+
+	return slot3
+end
+
+slot0.GetDelegatUnitsBySlotId = function(slot0, slot1)
+	return slot0.delegateSlotUnits[slot0:GetCommissionSlotId(slot1)] or {}
+end
+
+slot0.GetDelegateSlotUnits = function(slot0)
+	return slot0.delegateSlotUnits
+end
+
+slot0.GenDelegateFishUnit = function(slot0, slot1, slot2, slot3, slot4)
+	return IslandDelegateFishVO.New({
+		behaviourTree = "",
+		id = slot1,
+		modelId = slot2,
+		type = IslandConst.UNIT_TYPE_DELEGATE_FISH,
+		name = pg.island_unit_character[slot2].id,
+		position = slot3.param.position,
+		rotation = Vector3.zero,
+		scale = Vector3.one,
+		speed = slot4
 	})
 end
 

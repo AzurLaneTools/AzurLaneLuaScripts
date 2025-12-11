@@ -28,35 +28,35 @@ slot0.Update = function(slot0, slot1, slot2)
 		GetImageSpriteFromAtlasAsync("ui/islandbookui_atlas", "item_bg_" .. slot0.illustration:getLinkConfig("rarity"), slot0.bgTF, true)
 	end
 
-	slot5 = slot0.illustration:GetStatus() == IslandIllustration.STATUS.LOCK
+	slot6 = slot0.illustration:GetStatus() == IslandIllustration.STATUS.LOCK
 
-	setActive(slot0.lockTF, slot5)
-	setGray(slot0.iconTF, slot5, true)
-	setImageAlpha(slot0.iconTF, slot5 and 0.5 or 1)
-	setActive(slot0.bottomTF, not slot5 and not slot3)
-	setActive(slot0.canUnLockTF, slot4 == IslandIllustration.STATUS.CAN_UNLOCK)
+	setActive(slot0.lockTF, slot6)
+	setGray(slot0.iconTF, slot6, true)
+	setImageAlpha(slot0.iconTF, slot6 and 0.5 or 1)
+	setActive(slot0.bottomTF, not slot6 and not slot4 and slot3 ~= IslandIllustration.TYPES.FISH)
+	setActive(slot0.canUnLockTF, slot5 == IslandIllustration.STATUS.CAN_UNLOCK)
 	setActive(slot0.tipTF, slot0.illustration:IsTip())
 
-	slot6 = slot3 and not slot5
+	slot7 = slot4 and not slot6
 
-	setActive(slot0.phaseTF, slot6)
+	setActive(slot0.phaseTF, slot7)
 
-	if slot6 then
+	if slot7 then
 		setActive(slot0.phaseTF, slot0.illustration:GetCurPhase() > 0)
 
-		if slot7 > 0 then
-			GetImageSpriteFromAtlasAsync("ui/islandbookui_atlas", "item_phase_" .. slot7, slot0.phaseTF, true)
+		if slot8 > 0 then
+			GetImageSpriteFromAtlasAsync("ui/islandbookui_atlas", "item_phase_" .. slot8, slot0.phaseTF, true)
 		end
 	end
 
-	if not slot5 and slot4 ~= IslandIllustration.STATUS.CAN_UNLOCK then
+	if not slot6 and slot5 ~= IslandIllustration.STATUS.CAN_UNLOCK then
 		if GetPerceptualSize(slot0.illustration:GetName()) < 7 then
 			setActive(slot0.nameTF, true)
-			setText(slot0.nameTF, slot8)
+			setText(slot0.nameTF, slot9)
 			setActive(slot0.scrollNameTF, false)
 		else
 			setActive(slot0.scrollNameTF, true)
-			setScrollText(slot0.scrollNameTF, slot8)
+			setScrollText(slot0.scrollNameTF, slot9)
 			setActive(slot0.nameTF, false)
 		end
 	else

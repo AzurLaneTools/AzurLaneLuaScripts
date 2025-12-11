@@ -28,6 +28,12 @@ slot0.GetHalfBodyOffsetY = function(slot0)
 end
 
 slot0.OnLoad = function(slot0, slot1)
+	if slot0.live2dChar then
+		slot0.live2dChar:Dispose()
+
+		slot0.live2dChar = nil
+	end
+
 	slot0.actionWaiting = false
 
 	slot0:SetContainerVisible(true)
@@ -125,12 +131,30 @@ slot0.RemoveScreenChangeTimer = function(slot0)
 end
 
 slot0.UpdateContainerPosition = function(slot0)
-	slot2 = slot0.live2dContainer.localPosition
-	slot0.live2dContainer.localPosition = Vector3(slot2.x, slot0:IslimitYPos() and slot0:GetHalfBodyOffsetY() or 0, slot2.z)
+	slot1 = nil
+	slot1 = (not slot0._shift or slot0._shift:GetL2dShift()) and slot0.live2dContainer.localPosition
+
+	if slot0:IslimitYPos() then
+		slot1.y = slot0:GetHalfBodyOffsetY()
+	end
+
+	slot0.live2dContainer.localPosition = slot1
 end
 
 slot0.ResetContainerPosition = function(slot0)
-	slot0.live2dContainer.localPosition = Vector3(slot0.live2dContainer.localPosition.x, slot0:GetHalfBodyOffsetY(), 0)
+	slot1 = nil
+
+	if slot0._shift then
+		slot1 = slot0._shift:GetL2dShift()
+	else
+		slot0.live2dContainer.localPosition.z = 0
+	end
+
+	if slot0:IslimitYPos() then
+		slot1.y = slot0:GetHalfBodyOffsetY()
+	end
+
+	slot0.live2dContainer.localPosition = slot1
 end
 
 slot0.OnUnload = function(slot0)
@@ -313,6 +337,7 @@ slot0.OnDisplayWorld = function(slot0)
 end
 
 slot0.OnPause = function(slot0)
+	print("pause")
 	slot0:RemoveScreenChangeTimer()
 	slot0:ResetContainerPosition()
 

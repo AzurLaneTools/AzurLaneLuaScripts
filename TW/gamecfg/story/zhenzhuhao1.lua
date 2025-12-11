@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大海之音\n\n<size=45>一 海岛集市</size>",
+					"大海之音\n\n<size=45>1.海島集市</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			actor = 9600140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我在这里哦~",
+			say = "指揮官，我在這裡哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "沙滩上，到处都是帆布篷搭起的临时摊位，在阳光下闪闪发光。",
+			say = "沙灘上，到處都是帆布篷搭起的臨時攤位，在陽光下閃閃發光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "站在摊位中间的珍珠号轻轻招手，露出了温柔的笑颜。",
+			say = "站在攤位中間的珍珠號輕輕招手，露出了溫柔的笑顏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "指挥官，谢谢你陪我逛这座海边集市。",
+			say = "指揮官，謝謝你陪我逛這座海邊市集。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "如果不是你的介绍，我都不知道这座貌不惊人的小岛上还有这么有趣的地方~",
+			say = "如果不是你的介紹，我都不知道這座貌不驚人的小島上還有這麼有趣的地方~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我也是偶然间才发现的，没想到度假路线上会有这么有趣的活动。",
+			say = "我也是偶然間才發現的，沒想到渡假路線上會有這麼有趣的活動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而且商品的种类，比我预期中还要丰富……",
+			say = "而且商品的種類，比我預期還要豐富……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（贝壳、珊瑚、渔获……怎么还有自称是从海底打捞上来的宝箱盲盒……）",
+			say = "（貝殼、珊瑚、漁獲……怎麼還有自稱是從海底打撈上來的寶箱盲盒……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "感觉能找到很多有趣的东西，不知道会不会有真的宝物呢~",
+			say = "感覺能找到很多有趣的東西，不知道會不會有真的寶物呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_188",
-			say = "我跟随珍珠号一同在集市中走马观花般闲逛着。",
+			say = "我跟著珍珠號一同在市集中走馬觀花般閒晃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "期间，她似乎看到了不少感兴趣的东西，不过每当我想买下来的时候，她都干脆离开走向了下一家。",
+			say = "期間，她似乎看到了不少感興趣的東西，不過每當我想買下來的時候，她都乾脆地離開走向了下一家。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "就这样，直到在集市的旅程过半，我们依然没有购买任何东西。",
+			say = "就這樣，直到在市集的旅程過半，我們依然沒有購買任何東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "嗯……指挥官是不是在好奇，我为什么什么都没买？",
+			say = "嗯……指揮官是不是在好奇，我為什麼什麼都沒買？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是有点好奇，有几个摊位我看你仔细看了很久的。",
+			say = "是有點好奇，有幾個攤位我看妳仔細看了很久的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "那是我在辨认里面的珊瑚的真假哦，可惜最后发现是仿制品！",
+			say = "那是我在辨認裡面的珊瑚的真假哦，可惜最後發現是仿製品！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "还有那个卖海洋植物标本罐的，里面确实有几种比较稀有的植物……",
+			say = "還有那個賣海洋植物標本罐的，裡面確實有幾種比較稀有的植物……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "可惜由于处理手法粗糙，我对其能否长期保存只能打个大大的问号了……",
+			say = "可惜由於處理手法粗糙，我對其能否長期保存只能打個大大的問號了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "诸如此类……虽然确实有不少有趣的东西，不过还没有找到令我完全满意的宝物呢~",
+			say = "諸如此類……雖然確實有不少有趣的東西，不過還沒有找到令我完全滿意的寶物呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "要在这样的集市上找到真正的宝物恐怕不容易……不然我们去试试“开宝箱”？",
+			say = "要在這樣的市集上找到真正的寶物恐怕不容易……不然我們去試試「開寶箱」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "……指挥官，你居然信那个么？",
+			say = "……指揮官，你居然信那個嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "万一呢……？要不就开十个？",
+			say = "萬一呢……？要不就開十個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "当这种打捞宝箱以十个百个为单位出现的时候……里面就绝对不会有真东西啦！",
+			say = "當這種打撈寶箱以十個百個為單位出現的時候……裡面就絕對不會有真東西啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "一个都别买！",
+			say = "一個都別買！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "真是的……我们还是继续来逛集市吧~",
+			say = "真是的……我們還是繼續來逛市集吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "刚才我也不是全无所获，在各个摊位调查的时候，我听到了一个令人感兴趣的传闻哦~",
+			say = "剛才我也不是全無所獲，在各個攤位調查的時候，我聽到了一個令人感興趣的傳聞哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "传闻么……我倒是完全没注意，是个怎样的传闻？",
+			say = "傳聞嗎……我倒是完全沒注意，是怎樣的傳聞？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "这个嘛……暂时保密啦~",
+			say = "這個嘛……暫時保密~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600140,
-			say = "如果能找到的话……指挥官可以稍微期待一下哟~",
+			say = "如果能找到的話…指揮官可以稍微期待一下喲~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
