@@ -32503,8 +32503,13 @@ pg.activity_template = {
 			item_id = 65555,
 			sub_act_id = 50268,
 			gift_tip = {
-				[9005.0] = "winter_luckybag_9005",
-				[9006.0] = "winter_luckybag_9006"
+				[9005] = {
+					""
+				},
+				[9006] = {
+					"winter_luckybag_9006",
+					81229
+				}
 			}
 		}
 	},
@@ -32515,7 +32520,6 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 3,
 		is_show = 0,
-		config_client = "",
 		title_res_tag = "",
 		id = 50268,
 		page_core = "",
@@ -32556,6 +32560,9 @@ pg.activity_template = {
 					0
 				}
 			}
+		},
+		config_client = {
+			"JINNIANDECUXIAOXINGSHISHI1"
 		}
 	},
 	[50269] = {
