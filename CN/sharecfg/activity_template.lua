@@ -32520,6 +32520,7 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 3,
 		is_show = 0,
+		config_client = "",
 		title_res_tag = "",
 		id = 50268,
 		page_core = "",
@@ -32560,9 +32561,6 @@ pg.activity_template = {
 					0
 				}
 			}
-		},
-		config_client = {
-			"JINNIANDECUXIAOXINGSHISHI1"
 		}
 	},
 	[50269] = {
