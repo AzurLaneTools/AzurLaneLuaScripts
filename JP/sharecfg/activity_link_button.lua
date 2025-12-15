@@ -258,22 +258,6 @@ pg.activity_link_button = {
 			68
 		}
 	},
-	[106] = {
-		name = "event_blackFriday",
-		text_pic = "text_event_blackfriday",
-		type = 2,
-		pic = "event_blackfriday",
-		id = 106,
-		group_id = 11,
-		order = 1,
-		time = {
-			"default",
-			5702
-		},
-		param = {
-			"BlackFridaySales"
-		}
-	},
 	[107] = {
 		name = "event_tolove",
 		text_pic = "text_event_minigame",
@@ -307,7 +291,6 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "WinterFestival2025CoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -317,7 +300,11 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50270
+			7302
+		},
+		param = {
+			"WinterFestival2025CoreActivityUI",
+			"JINNIANDECUXIAOXINGSHISHI1"
 		}
 	},
 	[110] = {
@@ -431,9 +418,6 @@ pg.activity_link_button = {
 		event_boat_ad_game = {
 			105
 		},
-		event_blackFriday = {
-			106
-		},
 		event_tolove = {
 			107
 		},
@@ -471,7 +455,6 @@ pg.activity_link_button = {
 		103,
 		104,
 		105,
-		106,
 		107,
 		108,
 		109,

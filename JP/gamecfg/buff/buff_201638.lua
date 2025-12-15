@@ -13,34 +13,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				buff_id = 201639,
-				minTargetNumber = 1,
-				target = "TargetShipTag",
-				check_target = {
-					"TargetAllHarm",
-					"TargetShipTag"
-				},
-				ship_tag_list = {
-					"BOSS"
-				}
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 201640,
-				minTargetNumber = 1,
-				target = "TargetShipTag",
-				check_target = {
-					"TargetAllHarm",
-					"TargetShipTag"
-				},
-				ship_tag_list = {
-					"BOSS"
-				}
+				buff_id = 201644
 			}
 		}
 	}

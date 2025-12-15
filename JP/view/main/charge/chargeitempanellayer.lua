@@ -109,21 +109,22 @@ slot0.addListener = function(slot0)
 			}):getConfig("link_id")) and not slot8:isEnd() then
 				assert(slot8:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SKIN_COUPON)
 
-				slot9, slot10 = slot8:GetOwnCount()
+				if slot6:GetConfigClientSetting("gift_tip")[uv0.panelConfig.commodity.id][1] ~= "" then
+					slot9 = slot6:GetConfigClientSetting("gift_tip")[uv0.panelConfig.commodity.id][2]
+					slot10 = #pg.item_data_statistics[slot9].usage_arg[3]
+					slot12 = #underscore.filter(pg.item_data_statistics[slot9].usage_arg[3], function (slot0)
+						return getProxy(ShipSkinProxy):hasNonLimitSkin(slot0)
+					end)
 
-				table.insert(slot0, function (slot0)
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n(uv0:GetConfigClientSetting("gift_tip")[uv1.panelConfig.commodity.id], uv2, uv3),
-						onYes = slot0
-					})
-				end)
-
-				if slot8:GetCanUsageCnt() + slot6:getData1() + 1 > slot10 - slot9 - 1 then
 					table.insert(slot0, function (slot0)
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("SkinDiscount_Last_Coupon"),
+							content = i18n(uv0:GetConfigClientSetting("gift_tip")[uv1.panelConfig.commodity.id][1], uv2, uv3),
 							onYes = slot0
 						})
+					end)
+				else
+					table.insert(slot0, function (slot0)
+						slot0()
 					end)
 				end
 			end
