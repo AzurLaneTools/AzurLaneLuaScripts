@@ -770,11 +770,11 @@ return {
 			say = "<color=#ff5c5c>警告：この選択はエンディング分岐に関わる重要な選択です。</color>",
 			options = {
 				{
-					content = "没错，这样就好。",
+					content = "ああ、これでいい",
 					flag = 3
 				},
 				{
-					content = "不对，一定有哪里不对……",
+					content = "……違う、何かおかしい",
 					flag = 2
 				}
 			}
