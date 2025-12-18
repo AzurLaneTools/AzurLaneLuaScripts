@@ -32,7 +32,15 @@ slot0.OnUpdateFlush = function(slot0)
 				}, {
 					1
 				}) then
-					playStory(slot0[slot4][1])
+					slot7 = slot0[slot4][1]
+
+					playStory(slot7)
+
+					slot8, slot9 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot7)
+
+					pg.m02:sendNotification(GAME.STORY_UPDATE, {
+						storyId = slot7
+					})
 				end
 			end
 		end

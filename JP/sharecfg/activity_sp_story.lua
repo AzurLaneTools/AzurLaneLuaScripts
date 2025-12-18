@@ -6480,7 +6480,7 @@ pg.activity_sp_story = {
 		}
 	},
 	[364] = {
-		story_type = 1,
+		story_type = 3,
 		name = "EPS-2-A 選択-完璧な未来",
 		change_prefab = "",
 		unlock_conditions = "？",
@@ -6500,7 +6500,7 @@ pg.activity_sp_story = {
 		}
 	},
 	[365] = {
-		story_type = 1,
+		story_type = 3,
 		name = "EPS-2-B 選択-目覚め",
 		change_prefab = "",
 		unlock_conditions = "？",
