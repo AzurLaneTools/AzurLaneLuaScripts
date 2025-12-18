@@ -74,6 +74,10 @@ pg.ship_meta_breakout = setmetatable({
 		9702082,
 		9702083,
 		9702084,
+		9702091,
+		9702092,
+		9702093,
+		9702094,
 		9703011,
 		9703012,
 		9703013,
@@ -1353,6 +1357,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9702084,
 		item1 = 21053,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9702091] = {
+		breakout_view = "【炬火の力·クリーブランド】習得/主砲補正+5%",
+		item2 = 21055,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9702092,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702091,
+		item1 = 21055,
+		level = 10,
+		weapon_ids = {
+			80551
+		}
+	},
+	[9702092] = {
+		breakout_view = "主砲砲座+1/主砲補正+10%",
+		item2 = 21055,
+		pre_id = 9702091,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9702093,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702092,
+		item1 = 21055,
+		level = 30,
+		weapon_ids = {
+			12100,
+			12100
+		}
+	},
+	[9702093] = {
+		breakout_view = "【炬火の力·クリーブランド】強化/主砲補正+15%",
+		item2 = 21055,
+		pre_id = 9702092,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9702094,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702093,
+		item1 = 21055,
+		level = 70,
+		weapon_ids = {
+			80552
+		}
+	},
+	[9702094] = {
+		breakout_view = "なし",
+		item2 = 21055,
+		pre_id = 9702093,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702094,
+		item1 = 21055,
 		level = 0,
 		weapon_ids = {}
 	},

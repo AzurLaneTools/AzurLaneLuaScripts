@@ -211,6 +211,9 @@ slot0.Dispose = function(slot0)
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab, slot0._model)
 	end
 
+	slot0._animUI = nil
+	slot0.prefab = nil
+	slot0._model = nil
 	slot0.state = uv0.state_dispose
 	slot0.parent = nil
 end

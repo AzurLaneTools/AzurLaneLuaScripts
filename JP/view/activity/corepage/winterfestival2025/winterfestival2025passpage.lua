@@ -6,6 +6,7 @@ slot0.OnInit = function(slot0)
 	slot0.item = slot0.items:Find("item")
 	slot0.btn = slot0.bg:Find("btn")
 	slot0.itemList = UIItemList.New(slot0.items, slot0.item)
+	slot0.red = slot0.btn:Find("red")
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -24,6 +25,8 @@ slot0.OnFirstFlush = function(slot0)
 	if slot0.coreActivityUI.contextData.openPass then
 		triggerButton(slot0.btn)
 	end
+
+	SetActive(slot0.red, #slot0.activity:GetHei5UnreceiveAward() > 0)
 end
 
 slot0.OnUpdateFlush = function(slot0)

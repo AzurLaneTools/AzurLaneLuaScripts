@@ -896,5 +896,70 @@ pg.character_voice = {
 			0,
 			0
 		}
+	},
+	dal_shop1 = {
+		voice_name = "ショップ1",
+		key = "dal_shop1",
+		resource_key = "dal_shop1",
+		spine_action = "stand",
+		profile_index = 70,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	dal_shop2 = {
+		voice_name = "ショップ2",
+		key = "dal_shop2",
+		resource_key = "dal_shop2",
+		spine_action = "stand",
+		profile_index = 71,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	dal_shop3 = {
+		voice_name = "ショップ3",
+		key = "dal_shop3",
+		resource_key = "dal_shop3",
+		spine_action = "stand",
+		profile_index = 72,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	dal_shop4 = {
+		voice_name = "ショップ4",
+		key = "dal_shop4",
+		resource_key = "dal_shop4",
+		spine_action = "stand",
+		profile_index = 73,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	dal_shop5 = {
+		voice_name = "ショップ5",
+		key = "dal_shop5",
+		resource_key = "dal_shop5",
+		spine_action = "stand",
+		profile_index = 74,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
 	}
 }

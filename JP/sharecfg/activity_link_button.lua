@@ -37,19 +37,17 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
+		param = "0",
 		name = "event_map",
 		text_pic = "text_event_map",
-		type = 2,
+		type = 0,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
 		order = 1,
 		time = {
 			"default",
-			50256
-		},
-		param = {
-			"bossrush dal collab"
+			50281
 		}
 	},
 	[11] = {
@@ -258,6 +256,22 @@ pg.activity_link_button = {
 			68
 		}
 	},
+	[106] = {
+		name = "event_blackFriday",
+		text_pic = "text_event_blackfriday",
+		type = 2,
+		pic = "event_blackfriday",
+		id = 106,
+		group_id = 11,
+		order = 1,
+		time = {
+			"default",
+			5702
+		},
+		param = {
+			"BlackFridaySales"
+		}
+	},
 	[107] = {
 		name = "event_tolove",
 		text_pic = "text_event_minigame",
@@ -291,6 +305,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
+		param = "WinterFestival2025CoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -300,11 +315,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			7302
-		},
-		param = {
-			"WinterFestival2025CoreActivityUI",
-			"JINNIANDECUXIAOXINGSHISHI1"
+			50297
 		}
 	},
 	[110] = {
@@ -363,6 +374,20 @@ pg.activity_link_button = {
 			50118
 		}
 	},
+	[114] = {
+		param = "WinterFestival2025CoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_core3",
+		type = 16,
+		pic = "event_core3",
+		id = 114,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50290
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -418,11 +443,15 @@ pg.activity_link_button = {
 		event_boat_ad_game = {
 			105
 		},
+		event_blackFriday = {
+			106
+		},
 		event_tolove = {
 			107
 		},
 		event_core = {
-			109
+			109,
+			114
 		},
 		event_core_2 = {
 			110,
@@ -455,12 +484,14 @@ pg.activity_link_button = {
 		103,
 		104,
 		105,
+		106,
 		107,
 		108,
 		109,
 		110,
 		111,
 		112,
-		113
+		113,
+		114
 	}
 }

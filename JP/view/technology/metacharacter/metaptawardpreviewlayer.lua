@@ -118,7 +118,7 @@ slot0.updateAwardTpl = function(slot0, slot1, slot2)
 	end, SFX_PANEL)
 	setText(slot7:Find("NumText"), slot18)
 	setText(slot9:Find("NumText"), slot18)
-	setText(slot1:Find("LockText"), "PHASE " .. math.floor(slot18 / slot0.curMetaProgressVO.unlockPTNum * 100) .. "%")
+	setText(slot1:Find("LockText"), "PHASE " .. calcFloor(slot18 / slot0.curMetaProgressVO.unlockPTNum * 100) .. "%")
 
 	if slot2 < slot0.ptData.level + 1 then
 		setActive(slot4, true)

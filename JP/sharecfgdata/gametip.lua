@@ -12867,22 +12867,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「夜刀神十香」「五河琴里」など出現率がUP!"
+	tip = "期間限定建造を累計200回行うと「レキシントンⅡ」を確定で入手可能！（最大4隻まで）"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「武蔵」「羽黒」常設実装！"
+	tip = "「ヨークタウンⅡ」「ノーザンプトンⅡ」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「若月」「酒匂」常設実装！"
+	tip = "「ハムマンⅡ」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「武蔵」常設実装！"
+	tip = "「ヨークタウンⅡ」「ホーネットⅡ」常設実装！"
 }
 
 
@@ -24335,12 +24335,12 @@ _G.pg.base.gametip.ssssmedal_desc6 = {
 
 
 _G.pg.base.gametip.show_fate_demand_count = {
-	tip = "<color=#92fc63>竜骨編纂</color>に必要な数量を表示"
+	tip = "<color=#92fc63>竜骨編纂</color>に必要な数量に変更"
 }
 
 
 _G.pg.base.gametip.show_design_demand_count = {
-	tip = "<color=#92fc63>強化Lv30</color>に必要な数量を表示"
+	tip = "<color=#92fc63>強化LV30</color>に必要な数量に変更"
 }
 
 
@@ -46339,4 +46339,54 @@ _G.pg.base.gametip.HelenaCoreActivity_subtitle_2 = {
 
 _G.pg.base.gametip.HelenaCoreActivity_subtitle_3 = {
 	tip = "美しい世界へ"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_4 = {
+	tip = "天穹に響く音謡"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_5 = {
+	tip = "ヴェール補給地"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_6 = {
+	tip = "UR交換"
+}
+
+
+_G.pg.base.gametip.fate_unlock_icon_desc = {
+	tip = "※竜骨編纂解放済み"
+}
+
+
+_G.pg.base.gametip.blueprint_exchange_fate_unlock = {
+	tip = "竜骨編纂がまだ開放されていません。交換しますか？"
+}
+
+
+_G.pg.base.gametip.blueprint_exchange_fate_unlock_over = {
+	tip = "交換する<color=#22ff22>$1</color>が必要数より<color=#ff5c5c>$2個</color>多いです"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_fate_lock = {
+	tip = "竜骨編纂<color=#ff5c5c>未解放</color>"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_fate_unlock = {
+	tip = "竜骨編纂<color=#ff5c5c>解放済</color>"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_exchange_fate_unlock = {
+	tip = "竜骨編纂がまだ開放されていません。交換しますか？"
+}
+
+
+_G.pg.base.gametip.skinstory_20251218 = {
+	tip = "着せ替えストーリー・上"
 }

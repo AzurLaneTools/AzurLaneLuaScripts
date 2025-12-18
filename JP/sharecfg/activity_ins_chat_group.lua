@@ -3,9 +3,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "ブチ旅計画",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 1,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1,
@@ -44,9 +45,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "一緒に夕ご飯",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 2,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			32,
@@ -73,9 +75,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "一緒に日の出",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 3,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			51,
@@ -118,9 +121,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "ボディソープ？",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 4,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			86,
@@ -149,9 +153,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "味わい",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 5,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			107,
@@ -187,9 +192,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "退屈",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 6,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			135,
@@ -218,9 +224,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "趣味",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 7,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			156,
@@ -275,9 +282,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "夜食",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 8,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			203,
@@ -310,9 +318,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "恋しさ",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 9,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			228,
@@ -347,9 +356,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "背中踏み踏み",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 10,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			255,
@@ -380,9 +390,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "酔っ払い",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 11,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			278,
@@ -414,9 +425,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "トレーニング",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 12,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			302,
@@ -451,9 +463,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "スタンプ",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 13,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			329,
@@ -497,9 +510,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "迷子",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 14,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			365,
@@ -529,9 +543,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "眠れぬ夜",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 15,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			387,
@@ -575,9 +590,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "休みを取りたいな",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 16,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			423,
@@ -638,9 +654,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "雨の日",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 17,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			476,
@@ -695,9 +712,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "目覚め",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 18,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			523,
@@ -724,8 +742,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 109,
 		name = "執務室のお宝？",
-		id = 19,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 19,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -801,8 +820,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 200,
 		name = "指揮官サプライズ",
-		id = 20,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 20,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -885,8 +905,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 101,
 		name = "上映会に向けて",
-		id = 21,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 21,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -967,8 +988,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 102,
 		name = "規律は大事",
-		id = 22,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 22,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1039,8 +1061,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 103,
 		name = "食事会",
-		id = 23,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 23,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1118,8 +1141,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 104,
 		name = "特別フォロー",
-		id = 24,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 24,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1209,8 +1233,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 105,
 		name = "演習結果",
-		id = 25,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 25,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1282,8 +1307,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 106,
 		name = "幸運の日",
-		id = 26,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 26,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1365,8 +1391,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 107,
 		name = "重桜の実力",
-		id = 27,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 27,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1451,8 +1478,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 108,
 		name = "特別なお茶会",
-		id = 28,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 28,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1534,9 +1562,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20509,
 		name = "スイーツ作り教室",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 29,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1122,
@@ -1582,9 +1611,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20509,
 		name = "デートコース",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 30,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1160,
@@ -1625,9 +1655,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20509,
 		name = "洗濯の話",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 31,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1193,
@@ -1667,9 +1698,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40503,
 		name = "コンサート",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 32,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1225,
@@ -1708,9 +1740,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40503,
 		name = "不思議事件",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 33,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1257,
@@ -1752,9 +1785,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40503,
 		name = "体調管理のコツ",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 34,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1291,
@@ -1791,9 +1825,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 49906,
 		name = "スタンプ☆マジック",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 35,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1320,
@@ -1825,9 +1860,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 49906,
 		name = "魔法の雫",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 36,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1344,
@@ -1868,9 +1904,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 49906,
 		name = "魔女の夢",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 37,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1377,
@@ -1904,9 +1941,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40404,
 		name = "寝坊",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 38,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1403,
@@ -1938,9 +1976,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40404,
 		name = "待ち合わせ場所",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 39,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1427,
@@ -1981,9 +2020,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40404,
 		name = "デートの仕方",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 40,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1460,
@@ -2024,9 +2064,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40704,
 		name = "効率的なコミュニケーション",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 41,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1493,
@@ -2072,9 +2113,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40704,
 		name = "深夜の監督者",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 42,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1531,
@@ -2108,9 +2150,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40704,
 		name = "ルメイとの夕食",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 43,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1557,
@@ -2144,9 +2187,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40152,
 		name = "パルクールルート",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 44,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1583,
@@ -2178,9 +2222,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40152,
 		name = "雨の日",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 45,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1607,
@@ -2219,9 +2264,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40152,
 		name = "書類整理",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 46,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1638,
@@ -2264,9 +2310,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40211,
 		name = "スイーツ屋",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 47,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1673,
@@ -2301,9 +2348,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40211,
 		name = "リップの色",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 48,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1700,
@@ -2335,9 +2383,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40211,
 		name = "いつかのこと",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 49,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1724,
@@ -2376,9 +2425,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40109,
 		name = "書類の整理",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 50,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1755,
@@ -2420,9 +2470,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40109,
 		name = "絵本のお話",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 51,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1789,
@@ -2465,9 +2516,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40109,
 		name = "悪い夢",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 52,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1824,
@@ -2517,9 +2569,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40111,
 		name = "新作",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 53,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1866,
@@ -2565,9 +2618,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40111,
 		name = "料理練習",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 54,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1904,
@@ -2609,9 +2663,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40111,
 		name = "引きこもらないで",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 55,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1938,
@@ -2654,9 +2709,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50105,
 		name = "好みの調査",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 56,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1973,
@@ -2694,9 +2750,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50105,
 		name = "厨房の中の戦場",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 57,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2003,
@@ -2732,9 +2789,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50105,
 		name = "甘くてふわふわ？",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 58,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2031,
@@ -2781,9 +2839,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50301,
 		name = "細部について",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 59,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2070,
@@ -2821,9 +2880,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50301,
 		name = "夜のお誘い",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 60,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2100,
@@ -2859,9 +2919,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50301,
 		name = "フォーマルデート",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 61,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2128,
@@ -2899,9 +2960,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50210,
 		name = "過度な注目",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 62,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2158,
@@ -2936,9 +2998,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50210,
 		name = "イベントのお誘い",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 63,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2185,
@@ -2976,9 +3039,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50210,
 		name = "伝えたい気持ち",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 64,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2215,
@@ -3024,9 +3088,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50109,
 		name = "撤回マスター",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 65,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2253,
@@ -3062,9 +3127,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50109,
 		name = "イタズラ計画",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 66,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2281,
@@ -3110,9 +3176,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50109,
 		name = "閃きは一緒に",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 67,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2319,
@@ -3154,9 +3221,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50108,
 		name = "清潔維持",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 68,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2353,
@@ -3191,9 +3259,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50108,
 		name = "エプロン選び",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 69,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2380,
@@ -3232,9 +3301,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50108,
 		name = "事前準備",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 70,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2411,
@@ -3273,8 +3343,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 103,
 		name = "新年の紅包",
-		id = 71,
+		group_ii = 0,
 		unlock_desc = "特定時間に開放",
+		id = 71,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -3363,9 +3434,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50209,
 		name = "お悩み相談",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 72,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2509,
@@ -3403,9 +3475,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50209,
 		name = "台所へ",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 73,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2539,
@@ -3446,9 +3519,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50209,
 		name = "幸せは細部に宿る",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 74,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2572,
@@ -3480,9 +3554,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60508,
 		name = "閃き、再び",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 75,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2596,
@@ -3540,9 +3615,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60508,
 		name = "写真、ちらっと",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 76,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2646,
@@ -3579,9 +3655,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60508,
 		name = "アーティストめし",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 77,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2675,
@@ -3614,9 +3691,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60803,
 		name = "リスキールート",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 78,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2700,
@@ -3673,9 +3751,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60803,
 		name = "書類整理",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 79,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2749,
@@ -3719,9 +3798,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60803,
 		name = "心境",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 80,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2785,
@@ -3766,9 +3846,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60111,
 		name = "アンチ・フォーマライズ",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 81,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2822,
@@ -3809,9 +3890,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60111,
 		name = "読書に向いている場所",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 82,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2855,
@@ -3852,9 +3934,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60111,
 		name = "詩の閃き",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 83,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2888,
@@ -3912,9 +3995,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60203,
 		name = "スペシャルレポート",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 84,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2938,
@@ -3960,9 +4044,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60203,
 		name = "戦術ドリンク",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 85,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2976,
@@ -4002,9 +4087,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60203,
 		name = "配達ミス",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 86,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3008,
@@ -4052,9 +4138,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90107,
 		name = "最初のチャット",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 87,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3048,
@@ -4098,9 +4185,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90107,
 		name = "残業",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 88,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3084,
@@ -4139,9 +4227,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90107,
 		name = "熱き夜",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 89,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3115,
@@ -4182,9 +4271,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10713,
 		name = "探検装備",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 90,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3148,
@@ -4213,9 +4303,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10713,
 		name = "サバイバルレシピ",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 91,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3169,
@@ -4257,9 +4348,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10713,
 		name = "夜中の温泉探検",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 92,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3203,
@@ -4296,9 +4388,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10153,
 		name = "ミラーさまの紙飛行機",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 93,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3232,
@@ -4325,9 +4418,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10153,
 		name = "ミラーさまのノート",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 94,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3251,
@@ -4378,9 +4472,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10153,
 		name = "ミラーさまのコーヒー",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 95,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3294,
@@ -4415,9 +4510,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10234,
 		name = "指揮官――！！！",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 96,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3321,
@@ -4456,9 +4552,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10234,
 		name = "日程調整",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 97,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3352,
@@ -4492,9 +4589,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10234,
 		name = "母港ウワサ誌のトップニュース",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 98,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3378,
@@ -4542,9 +4640,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70203,
 		name = "ペット",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 99,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3418,
@@ -4587,9 +4686,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70203,
 		name = "互いは見張り役",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 100,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3453,
@@ -4637,9 +4737,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70203,
 		name = "新しいドレス",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 101,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3493,
@@ -4691,9 +4792,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110201,
 		name = "植物交流",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 102,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3537,
@@ -4728,9 +4830,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110201,
 		name = "キッチン大ピンチ",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 103,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3564,
@@ -4780,9 +4883,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110201,
 		name = "子供たちの名前",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 104,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3606,
@@ -4826,9 +4930,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110101,
 		name = "緑のある環境",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 105,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3642,
@@ -4859,9 +4964,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110101,
 		name = "癒しの魔法",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 106,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3665,
@@ -4893,9 +4999,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110101,
 		name = "ロマンチック",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 107,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3689,
@@ -4936,9 +5043,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70509,
 		name = "食事配達",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 108,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3722,
@@ -4965,9 +5073,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70509,
 		name = "寒くない？",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 109,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3741,
@@ -4995,9 +5104,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70509,
 		name = "暖かい夜",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 110,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3761,
@@ -5034,9 +5144,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70208,
 		name = "居眠り防止ロボット",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 111,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3790,
@@ -5074,9 +5185,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70208,
 		name = "爆発する発明品",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 112,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3820,
@@ -5110,9 +5222,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70208,
 		name = "専用発明品",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 113,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3846,
@@ -5160,9 +5273,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20712,
 		name = "休憩の芸術",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 114,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3886,
@@ -5208,9 +5322,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20712,
 		name = "昼休み",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 115,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3924,
@@ -5254,9 +5369,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20712,
 		name = "パジャマ勤務革命",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 116,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3960,
@@ -5300,9 +5416,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20516,
 		name = "千慮の一失",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 117,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3996,
@@ -5334,9 +5451,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20516,
 		name = "お前が望んだ罰",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 118,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4020,
@@ -5376,9 +5494,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20516,
 		name = "二人だけの証",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 119,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4052,
@@ -5420,9 +5539,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20138,
 		name = "罪深き人",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 120,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4086,
@@ -5458,9 +5578,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20138,
 		name = "距離感",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 121,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4114,
@@ -5499,9 +5620,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20138,
 		name = "指揮官研究進行中",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 122,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4145,
@@ -5543,9 +5665,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20235,
 		name = "ナイルちまき",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 123,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4179,
@@ -5580,9 +5703,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20235,
 		name = "招きスフィンクス",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 124,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4206,
@@ -5613,9 +5737,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20235,
 		name = "灯台下暗し",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 125,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4229,
@@ -5656,9 +5781,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20139,
 		name = "サプライズ",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 126,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4262,
@@ -5696,9 +5822,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20139,
 		name = "七色マッサージ機",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 127,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4292,
@@ -5735,9 +5862,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20139,
 		name = "それぞれの仕事",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 128,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4321,
@@ -5786,9 +5914,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20236,
 		name = "私の手を握って",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 129,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4362,
@@ -5826,9 +5955,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20236,
 		name = "ずっと見守っているから",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 130,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4392,
@@ -5866,9 +5996,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20236,
 		name = "狩人と獲物",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 131,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4422,
@@ -5903,9 +6034,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40407,
 		name = "省エネの心得",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 132,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4449,
@@ -5938,9 +6070,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40407,
 		name = "横になる場所",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 133,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4474,
@@ -5970,9 +6103,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40407,
 		name = "星の降る夜",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 134,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4496,
@@ -6013,9 +6147,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40814,
 		name = "スケジューリングはしっかり",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 135,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4529,
@@ -6046,9 +6181,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40814,
 		name = "ちゃんと休んで",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 136,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4552,
@@ -6088,9 +6224,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40814,
 		name = "ハプニングをチャンスに",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 137,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4584,
@@ -6127,9 +6264,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40113,
 		name = "開発アドバイザー",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 138,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4613,
@@ -6168,9 +6306,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40113,
 		name = "採点アイテム",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 139,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4644,
@@ -6213,9 +6352,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40113,
 		name = "恋愛マスター",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 140,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4679,
@@ -6260,9 +6400,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90401,
 		name = "お菓子デリバリー",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 141,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4716,
@@ -6306,9 +6447,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90401,
 		name = "残り香",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 142,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4752,
@@ -6356,9 +6498,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90401,
 		name = "添い寝",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 143,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4792,
@@ -6413,9 +6556,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90105,
 		name = "謎のノート",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 144,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4839,
@@ -6452,9 +6596,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90105,
 		name = "マジックキャビネット",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 145,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4868,
@@ -6493,9 +6638,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90105,
 		name = "フラワーテスト",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 146,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4899,
@@ -6533,9 +6679,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80401,
 		name = "「公平な取引」",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 147,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4929,
@@ -6562,9 +6709,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80401,
 		name = "コーヒー以外",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 148,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4948,
@@ -6602,9 +6750,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80401,
 		name = "指揮官の味",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 149,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4978,
@@ -6637,9 +6786,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80601,
 		name = "オンライン聖務",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 150,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5003,
@@ -6680,9 +6830,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80601,
 		name = "健康と音楽",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 151,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5036,
@@ -6722,9 +6873,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80601,
 		name = "夢のコントロール",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 152,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5068,
@@ -6760,9 +6912,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80105,
 		name = "イメチェン",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 153,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5096,
@@ -6792,9 +6945,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80105,
 		name = "動くキャビネット",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 154,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5118,
@@ -6838,9 +6992,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80105,
 		name = "真実か挑戦か",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 155,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5154,
@@ -6881,9 +7036,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80303,
 		name = "スペシャルフェス",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 156,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5187,
@@ -6917,9 +7073,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80303,
 		name = "好物の料理",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 157,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5213,
@@ -6952,9 +7109,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80303,
 		name = "チャレンジの旅",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 158,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5238,
@@ -6990,9 +7148,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80204,
 		name = "邪悪を浄化せん",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 159,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5266,
@@ -7027,9 +7186,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80204,
 		name = "DJプレイヤーとアルバム",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 160,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5293,
@@ -7059,9 +7219,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80204,
 		name = "一日の支配権",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 161,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5315,
@@ -7095,9 +7256,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10709,
 		name = "一緒に飲もう",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 162,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5341,
@@ -7127,9 +7289,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10709,
 		name = "オリジナルハンバーガー",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 163,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5363,
@@ -7162,9 +7325,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10709,
 		name = "シンクロするデート",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 164,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5388,
@@ -7195,9 +7359,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30716,
 		name = "雨の日の香道",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 165,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5411,
@@ -7230,9 +7395,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30716,
 		name = "鏡の中の景色",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 166,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5436,
@@ -7268,9 +7434,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30716,
 		name = "共に、そして永遠に",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 167,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5464,
@@ -7300,9 +7467,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 31702,
 		name = "アクアリウム",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 168,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5486,
@@ -7335,9 +7503,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 31702,
 		name = "クイックサモン",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 169,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5511,
@@ -7374,9 +7543,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 31702,
 		name = "深海の舞",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 170,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5540,
@@ -7404,9 +7574,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30516,
 		name = "酒に歌うべし",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 171,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5560,
@@ -7444,9 +7615,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30516,
 		name = "俳諧に込めた真心",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 172,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5590,
@@ -7482,9 +7654,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30516,
 		name = "一杯だけ",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 173,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5618,
@@ -7519,9 +7692,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30320,
 		name = "迷迭香",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 174,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5645,
@@ -7553,9 +7727,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30320,
 		name = "湯治のお誘い",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 175,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5669,
@@ -7587,9 +7762,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30320,
 		name = "果たさなかった別れ",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 176,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5693,
@@ -7624,9 +7800,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30227,
 		name = "ちょっと変わった食材",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 177,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5720,
@@ -7657,9 +7834,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30227,
 		name = "お鍋アップグレード",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 178,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5743,
@@ -7695,9 +7873,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30227,
 		name = "愛という名のお鍋",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 179,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5771,
@@ -7729,9 +7908,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30192,
 		name = "喋る盆栽",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 180,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5795,
@@ -7764,9 +7944,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30192,
 		name = "ただの忍具だと思った？",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 181,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5820,
@@ -7796,9 +7977,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30192,
 		name = "頭上に注意",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 182,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5842,
@@ -7825,9 +8007,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30225,
 		name = "補修のお手伝い",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 183,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5861,
@@ -7854,9 +8037,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30225,
 		name = "武者の勘",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 184,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5880,
@@ -7884,9 +8068,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30225,
 		name = "お互いの仕事",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 185,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5900,
@@ -7918,9 +8103,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960012,
 		name = "処刑するわよ",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 186,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5924,
@@ -7954,9 +8140,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960012,
 		name = "向かってるわ",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 187,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5950,
@@ -7991,9 +8178,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960012,
 		name = "まとめてプレゼントするわ",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 188,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5977,
@@ -8029,9 +8217,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960013,
 		name = "優しいこころ",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 189,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			6005,
@@ -8068,9 +8257,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960013,
 		name = "祝福の歌",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 190,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			6034,
@@ -8104,9 +8294,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960013,
 		name = "永遠の愛",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 191,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			6060,
@@ -8137,9 +8328,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960014,
 		name = "指揮官、指示を！",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 192,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			6083,
@@ -8175,9 +8367,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960014,
 		name = "ほめほめ対決",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 193,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			6111,
@@ -8215,9 +8408,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960014,
 		name = "パン生地をこねるように？",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 194,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			6141,
@@ -8251,9 +8445,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960015,
 		name = "釣りに行こう！",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 195,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			6167,
@@ -8287,9 +8482,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960015,
 		name = "宝探しに行こう！",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 196,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			6193,
@@ -8321,9 +8517,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960015,
 		name = "とにかく残業してないで行こう！",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 197,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			6217,
@@ -8357,9 +8554,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960016,
 		name = "倉庫の怪談",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 198,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			6243,
@@ -8398,9 +8596,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960016,
 		name = "サバイバルゲーム",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 199,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			6274,
@@ -8438,9 +8637,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960016,
 		name = "謎の隣人",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 200,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			6304,
@@ -8477,9 +8677,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10324,
 		name = "悩み相談",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 201,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			6333,
@@ -8521,9 +8722,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10324,
 		name = "アンケート",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 202,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			6367,
@@ -8564,9 +8766,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10324,
 		name = "特別な運動プラン",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 203,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			6400,
@@ -8601,9 +8804,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80503,
 		name = "ここは満員で…",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 204,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			6427,
@@ -8639,9 +8843,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80503,
 		name = "ヒートアップ",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 205,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			6455,
@@ -8683,9 +8888,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80503,
 		name = "指揮官マイクロウェーブ",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 206,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			6489,
@@ -8721,9 +8927,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10233,
 		name = "驚きの低評価率",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
 		id = 207,
 		trigger_param = "",
-		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			6517,
@@ -8757,9 +8964,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10233,
 		name = "スペシャルサービス",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
 		id = 208,
 		trigger_param = "100",
-		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			6543,
@@ -8799,9 +9007,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10233,
 		name = "ドジっ子サービス",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
 		id = 209,
 		trigger_param = "150",
-		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			6575,
@@ -8832,6 +9041,752 @@ pg.activity_ins_chat_group = {
 			6600,
 			6601,
 			6602
+		}
+	},
+	{
+		ship_group = 110,
+		name = "植物園への招待",
+		group_ii = 0,
+		unlock_desc = "特定時間に開放",
+		id = 210,
+		trigger_type = 3,
+		trigger_param = {
+			{
+				{
+					2025,
+					12,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		content = {
+			6603,
+			6604,
+			6605,
+			6606,
+			6607,
+			6608,
+			6609,
+			6610,
+			6611,
+			6612,
+			6613,
+			6614,
+			6615,
+			6616,
+			6617,
+			6618,
+			6619,
+			6620,
+			6621,
+			6622,
+			6623,
+			6624,
+			6625,
+			6626,
+			6627,
+			6628,
+			6629,
+			6630,
+			6631,
+			6632,
+			6633,
+			6634,
+			6635,
+			6636,
+			6637,
+			6638,
+			6639,
+			6640,
+			6641,
+			6642,
+			6643,
+			6644,
+			6645,
+			6646,
+			6647
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "食事はちゃんとすること",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
+		id = 211,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6648,
+			6649,
+			6650,
+			6651,
+			6652,
+			6653,
+			6654,
+			6655,
+			6656,
+			6657,
+			6658,
+			6659,
+			6660,
+			6661,
+			6662,
+			6663,
+			6664,
+			6665,
+			6666,
+			6667,
+			6668,
+			6669,
+			6670,
+			6671,
+			6672
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "新しいジャンル",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
+		id = 212,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6673,
+			6674,
+			6675,
+			6676,
+			6677,
+			6678,
+			6679,
+			6680,
+			6681,
+			6682,
+			6683,
+			6684,
+			6685,
+			6686,
+			6687,
+			6688,
+			6689,
+			6690,
+			6691,
+			6692,
+			6693,
+			6694,
+			6695,
+			6696,
+			6697
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "背中を押すために",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
+		id = 213,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6698,
+			6699,
+			6700,
+			6701,
+			6702,
+			6703,
+			6704,
+			6705,
+			6706,
+			6707,
+			6708,
+			6709,
+			6710,
+			6711,
+			6712,
+			6713,
+			6714,
+			6715,
+			6716,
+			6717,
+			6718,
+			6719,
+			6720,
+			6721,
+			6722,
+			6723,
+			6724,
+			6725,
+			6726,
+			6727
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "風船を追いかけよう",
+		group_ii = 10716,
+		unlock_desc = "キャラ入手",
+		id = 214,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6728,
+			6729,
+			6730,
+			6731,
+			6732,
+			6733,
+			6734,
+			6735,
+			6736,
+			6737,
+			6738,
+			6739,
+			6740,
+			6741,
+			6742,
+			6743,
+			6744,
+			6745,
+			6746,
+			6747,
+			6748,
+			6749,
+			6750,
+			6751,
+			6752,
+			6753
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "ブルーゴースト",
+		group_ii = 10716,
+		unlock_desc = "好感度愛達成",
+		id = 215,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6754,
+			6755,
+			6756,
+			6757,
+			6758,
+			6759,
+			6760,
+			6761,
+			6762,
+			6763,
+			6764,
+			6765,
+			6766,
+			6767,
+			6768,
+			6769,
+			6770,
+			6771,
+			6772,
+			6773,
+			6774,
+			6775,
+			6776,
+			6777,
+			6778
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "新しい曲",
+		group_ii = 10716,
+		unlock_desc = "ケッコン済",
+		id = 216,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6779,
+			6780,
+			6781,
+			6782,
+			6783,
+			6784,
+			6785,
+			6786,
+			6787,
+			6788,
+			6789,
+			6790,
+			6791,
+			6792,
+			6793,
+			6794,
+			6795,
+			6796,
+			6797,
+			6798,
+			6799,
+			6800,
+			6801,
+			6802,
+			6803,
+			6804,
+			6805
+		}
+	},
+	{
+		ship_group = 10110,
+		name = "爆発しそう！",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
+		id = 217,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6806,
+			6807,
+			6808,
+			6809,
+			6810,
+			6811,
+			6812,
+			6813,
+			6814,
+			6815,
+			6816,
+			6817,
+			6818,
+			6819,
+			6820,
+			6821,
+			6822,
+			6823,
+			6824,
+			6825,
+			6826,
+			6827,
+			6828,
+			6829,
+			6830,
+			6831,
+			6832
+		}
+	},
+	{
+		ship_group = 10110,
+		name = "ぶつかりそう！",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
+		id = 218,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6833,
+			6834,
+			6835,
+			6836,
+			6837,
+			6838,
+			6839,
+			6840,
+			6841,
+			6842,
+			6843,
+			6844,
+			6845,
+			6846,
+			6847,
+			6848,
+			6849,
+			6850,
+			6851,
+			6852,
+			6853,
+			6854,
+			6855,
+			6856,
+			6857,
+			6858,
+			6859,
+			6860,
+			6861
+		}
+	},
+	{
+		ship_group = 10110,
+		name = "墜落しそう……！",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
+		id = 219,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6862,
+			6863,
+			6864,
+			6865,
+			6866,
+			6867,
+			6868,
+			6869,
+			6870,
+			6871,
+			6872,
+			6873,
+			6874,
+			6875,
+			6876,
+			6877,
+			6878,
+			6879,
+			6880,
+			6881,
+			6882,
+			6883,
+			6884
+		}
+	},
+	{
+		ship_group = 10155,
+		name = "フルテスト",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
+		id = 220,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6885,
+			6886,
+			6887,
+			6888,
+			6889,
+			6890,
+			6891,
+			6892,
+			6893,
+			6894,
+			6895,
+			6896,
+			6897,
+			6898,
+			6899,
+			6900,
+			6901,
+			6902,
+			6903,
+			6904,
+			6905,
+			6906,
+			6907,
+			6908,
+			6909,
+			6910,
+			6911,
+			6912,
+			6913,
+			6914
+		}
+	},
+	{
+		ship_group = 10155,
+		name = "バグテスト",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
+		id = 221,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6915,
+			6916,
+			6917,
+			6918,
+			6919,
+			6920,
+			6921,
+			6922,
+			6923,
+			6924,
+			6925,
+			6926,
+			6927,
+			6928,
+			6929,
+			6930,
+			6931,
+			6932,
+			6933,
+			6934,
+			6935,
+			6936,
+			6937,
+			6938,
+			6939,
+			6940
+		}
+	},
+	{
+		ship_group = 10155,
+		name = "禁断症状",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
+		id = 222,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6941,
+			6942,
+			6943,
+			6944,
+			6945,
+			6946,
+			6947,
+			6948,
+			6949,
+			6950,
+			6951,
+			6952,
+			6953,
+			6954,
+			6955,
+			6956,
+			6957,
+			6958,
+			6959,
+			6960,
+			6961,
+			6962,
+			6963,
+			6964
+		}
+	},
+	{
+		ship_group = 10235,
+		name = "ハッピーガイド",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
+		id = 223,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6965,
+			6966,
+			6967,
+			6968,
+			6969,
+			6970,
+			6971,
+			6972,
+			6973,
+			6974,
+			6975,
+			6976,
+			6977,
+			6978,
+			6979,
+			6980,
+			6981,
+			6982,
+			6983,
+			6984,
+			6985,
+			6986,
+			6987,
+			6988,
+			6989,
+			6990,
+			6991,
+			6992
+		}
+	},
+	{
+		ship_group = 10235,
+		name = "フェスの秘密",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
+		id = 224,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6993,
+			6994,
+			6995,
+			6996,
+			6997,
+			6998,
+			6999,
+			7000,
+			7001,
+			7002,
+			7003,
+			7004,
+			7005,
+			7006,
+			7007,
+			7008,
+			7009,
+			7010,
+			7011,
+			7012,
+			7013,
+			7014,
+			7015,
+			7016,
+			7017,
+			7018,
+			7019,
+			7020,
+			7021,
+			7022,
+			7023
+		}
+	},
+	{
+		ship_group = 10235,
+		name = "毎日が記念日",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
+		id = 225,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			7024,
+			7025,
+			7026,
+			7027,
+			7028,
+			7029,
+			7030,
+			7031,
+			7032,
+			7033,
+			7034,
+			7035,
+			7036,
+			7037,
+			7038,
+			7039,
+			7040,
+			7041,
+			7042,
+			7043,
+			7044,
+			7045,
+			7046,
+			7047,
+			7048,
+			7049,
+			7050
+		}
+	},
+	{
+		ship_group = 10725,
+		name = "栄養をお届け",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
+		id = 226,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			7051,
+			7052,
+			7053,
+			7054,
+			7055,
+			7056,
+			7057,
+			7058,
+			7059,
+			7060,
+			7061,
+			7062,
+			7063,
+			7064,
+			7065,
+			7066,
+			7067,
+			7068,
+			7069,
+			7070,
+			7071,
+			7072
+		}
+	},
+	{
+		ship_group = 10725,
+		name = "完全栄養プラン",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
+		id = 227,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			7073,
+			7074,
+			7075,
+			7076,
+			7077,
+			7078,
+			7079,
+			7080,
+			7081,
+			7082,
+			7083,
+			7084,
+			7085,
+			7086,
+			7087,
+			7088,
+			7089,
+			7090,
+			7091,
+			7092,
+			7093,
+			7094,
+			7095,
+			7096,
+			7097,
+			7098,
+			7099,
+			7100
+		}
+	},
+	{
+		ship_group = 10725,
+		name = "安眠ドリンク",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
+		id = 228,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			7101,
+			7102,
+			7103,
+			7104,
+			7105,
+			7106,
+			7107,
+			7108,
+			7109,
+			7110,
+			7111,
+			7112,
+			7113,
+			7114,
+			7115,
+			7116,
+			7117,
+			7118,
+			7119,
+			7120,
+			7121,
+			7122,
+			7123,
+			7124,
+			7125,
+			7126
 		}
 	},
 	get_id_list_by_ship_group = {
@@ -9195,6 +10150,37 @@ pg.activity_ins_chat_group = {
 			207,
 			208,
 			209
+		},
+		[110] = {
+			210
+		},
+		[10702] = {
+			211,
+			212,
+			213,
+			214,
+			215,
+			216
+		},
+		[10110] = {
+			217,
+			218,
+			219
+		},
+		[10155] = {
+			220,
+			221,
+			222
+		},
+		[10235] = {
+			223,
+			224,
+			225
+		},
+		[10725] = {
+			226,
+			227,
+			228
 		}
 	},
 	all = {
@@ -9406,6 +10392,25 @@ pg.activity_ins_chat_group = {
 		206,
 		207,
 		208,
-		209
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228
 	}
 }

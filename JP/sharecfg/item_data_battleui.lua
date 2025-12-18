@@ -248,6 +248,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[206] = {
+		name = "メイドカフェ",
+		key = "SkinElite_20251218",
+		display_icon = "ui_206",
+		unlock = "ショップ購入（戦闘UI・メイドカフェ）",
+		is_unlock = 1,
+		rare = 4,
+		desc = "甘やかしメイドの甘いお菓子を食べながら、甘々なチャレンジに挑んでみよう！",
+		id = 206,
+		icon = "206",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -264,6 +281,7 @@ pg.item_data_battleui = {
 		202,
 		203,
 		204,
-		205
+		205,
+		206
 	}
 }

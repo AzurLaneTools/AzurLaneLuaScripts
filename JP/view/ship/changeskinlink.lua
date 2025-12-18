@@ -1,15 +1,93 @@
 slot0 = class("ChangeSkinLink")
 slot0.L2D_SAVE_TEMPLATE_DISPOSE = {
 	705022,
-	705023
+	705023,
+	107102,
+	107103
 }
 slot0.L2D_PARAMETER_DIC = {}
-slot0.L2D_LINK_PARAMETER = {}
 slot0.L2D_TYPE = 1
 slot0.SPINE_TYPE = 2
-slot0.change_parameter_link_idle = 1
+slot0.change_parameter_link_skin = 1
 slot0.change_parameter_link_slot = 2
+
+slot0.GetSaveL2dData = function(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+
+	if pg.ship_skin_template[slot1].ship_l2d_id and #pg.ship_skin_template[slot1].ship_l2d_id > 0 then
+		slot3 = pg.ship_skin_template[slot1].ship_l2d_id
+	end
+
+	for slot7, slot8 in ipairs(slot3) do
+		if pg.ship_l2d[slot8] then
+			if pg.ship_l2d[slot8].parameter and #slot9 > 0 then
+				slot2[slot9] = Live2dConst.GetDragData(slot8, slot1, slot0)
+			end
+		else
+			print(slot8 == "not exit dragId")
+		end
+	end
+
+	return slot2
+end
+
 slot0.CHANGE_SKIN_LINK_DATA = {
+	[107103] = {
+		link_id = 107102,
+		type = slot0.SPINE_TYPE,
+		link_type = slot0.L2D_TYPE,
+		relations = {
+			{
+				skeleton_skin = "1",
+				type = slot0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						num = 1,
+						name = "touch_drag1",
+						match = true
+					},
+					{
+						num = 1,
+						name = "touch_drag2",
+						match = true
+					}
+				}
+			},
+			{
+				skeleton_skin = "2",
+				type = slot0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						num = 0,
+						name = "touch_drag1",
+						match = true
+					},
+					{
+						num = 0,
+						name = "touch_drag1",
+						match = true
+					}
+				}
+			},
+			{
+				skeleton_skin = "3",
+				type = slot0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						num = 1,
+						name = "touch_drag1",
+						match = true
+					},
+					{
+						num = 0,
+						name = "touch_drag2",
+						match = true
+					}
+				}
+			}
+		}
+	},
 	[705023] = {
 		link_id = 705022,
 		type = slot0.SPINE_TYPE,
@@ -1186,21 +1264,5 @@ slot0.CHANGE_SKIN_LINK_DATA = {
 		}
 	}
 }
-
-slot0.GetSaveL2dData = function(slot0, slot1)
-	slot2 = {}
-
-	for slot7, slot8 in ipairs(pg.ship_skin_template[slot1].ship_l2d_id) do
-		if pg.ship_l2d[slot8] then
-			if pg.ship_l2d[slot8].parameter and #slot9 > 0 then
-				slot2[slot9] = Live2dConst.GetDragData(slot8, slot1, slot0)
-			end
-		else
-			print(slot8 == "not exit dragId")
-		end
-	end
-
-	return slot2
-end
 
 return slot0

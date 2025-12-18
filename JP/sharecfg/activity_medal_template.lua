@@ -1044,6 +1044,102 @@ pg.activity_medal_template = {
 		id = 5020908,
 		medal_asset = "ActivityMedal/5020908"
 	},
+	[5029501] = {
+		activity_medal_desc = "ヴェールの下で、天穹の星々が今もなお輝いている",
+		next_medal = 0,
+		item = 65786,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "1",
+		task_id = 21874,
+		activity_medal_name = "ステッカー：天穹の星",
+		id = 5029501,
+		medal_asset = "ActivityMedal/5029501"
+	},
+	[5029502] = {
+		activity_medal_desc = "長い夢を、見ていたような……",
+		next_medal = 0,
+		item = 65787,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "2",
+		task_id = 21875,
+		activity_medal_name = "ステッカー：ブルーゴースト",
+		id = 5029502,
+		medal_asset = "ActivityMedal/5029502"
+	},
+	[5029503] = {
+		activity_medal_desc = "ここにて星々の声に耳を傾けよう",
+		next_medal = 0,
+		item = 65788,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "3",
+		task_id = 21876,
+		activity_medal_name = "ステッカー：銀河の星",
+		id = 5029503,
+		medal_asset = "ActivityMedal/5029503"
+	},
+	[5029504] = {
+		activity_medal_desc = "死神にして、死神にあらず",
+		next_medal = 0,
+		item = 65789,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "4",
+		task_id = 21877,
+		activity_medal_name = "ステッカー：死神",
+		id = 5029504,
+		medal_asset = "ActivityMedal/5029504"
+	},
+	[5029505] = {
+		activity_medal_desc = "「今人は見ず　古時の月　今月は曾経て　古人を照らせり」",
+		next_medal = 0,
+		item = 65790,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "5",
+		task_id = 21878,
+		activity_medal_name = "ステッカー：月と玉輪",
+		id = 5029505,
+		medal_asset = "ActivityMedal/5029505"
+	},
+	[5029506] = {
+		activity_medal_desc = "はじめまして、アズールレーンの指揮官。私のことは「ギンギツネ」と呼んでください",
+		next_medal = 0,
+		item = 65791,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "6",
+		task_id = 21879,
+		activity_medal_name = "ステッカー：ギンギツネ",
+		id = 5029506,
+		medal_asset = "ActivityMedal/5029506"
+	},
+	[5029507] = {
+		activity_medal_desc = "いつかまた出会えるから",
+		next_medal = 0,
+		item = 65792,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "7",
+		task_id = 21880,
+		activity_medal_name = "ステッカー：ヘレナ",
+		id = 5029507,
+		medal_asset = "ActivityMedal/5029507"
+	},
+	[5029508] = {
+		activity_medal_desc = "ここにミサイルが落ちてきたら……",
+		next_medal = 0,
+		item = 65793,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "8",
+		task_id = 21881,
+		activity_medal_name = "ステッカー：理事評議会",
+		id = 5029508,
+		medal_asset = "ActivityMedal/5029508"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1153,6 +1249,16 @@ pg.activity_medal_template = {
 			5020906,
 			5020907,
 			5020908
+		},
+		[50295] = {
+			5029501,
+			5029502,
+			5029503,
+			5029504,
+			5029505,
+			5029506,
+			5029507,
+			5029508
 		}
 	},
 	all = {
@@ -1242,6 +1348,14 @@ pg.activity_medal_template = {
 		5020905,
 		5020906,
 		5020907,
-		5020908
+		5020908,
+		5029501,
+		5029502,
+		5029503,
+		5029504,
+		5029505,
+		5029506,
+		5029507,
+		5029508
 	}
 }

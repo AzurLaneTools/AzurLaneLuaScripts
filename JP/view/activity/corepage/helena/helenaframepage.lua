@@ -11,6 +11,10 @@ slot0.OnInit = function(slot0)
 	slot0.bar = slot0._tf:Find("AD/switcher/phase2/task_bg_2/Image/barContent/bar")
 	slot0.cur = slot0._tf:Find("AD/switcher/phase2/task_bg_2/Image/step")
 	slot0.target = slot0._tf:Find("AD/switcher/phase2/task_bg_2/Image/progress")
+
+	setText(slot0._tf:Find("AD/switcher/phase2/task_bg_2/battle_btn/Text"), i18n("other_world_task_go"))
+	setText(slot0._tf:Find("AD/switcher/phase2/task_bg_2/get_btn/Text"), i18n("other_world_task_get"))
+	setText(slot0._tf:Find("AD/switcher/phase2/task_bg_2/got_btn/Text"), i18n("other_world_task_got"))
 end
 
 slot0.OnFirstFlush = function(slot0)

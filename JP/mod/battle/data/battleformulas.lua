@@ -266,14 +266,14 @@ slot0.CalculateDamageFromAircraftToMainShip = function(slot0, slot1)
 	slot6 = uv0.GetCurrent(slot0, "formulaLevel")
 	slot10 = uv1.PLANE_LEAK_RATE
 
-	return math.floor(math.max(slot10[1], math.floor((uv0.GetCurrent(slot0, "crashDMG") * (slot10[2] + uv0.GetCurrent(slot0, "airPower") * slot10[3]) + slot6 * slot10[4]) * (slot0:GetHPRate() * slot10[5] + slot10[6]) * (slot10[7] + (slot6 - uv0.GetCurrent(slot1, "formulaLevel")) * slot10[8]) * slot10[9] / (uv0.GetCurrent(slot1, "antiAirPower") + slot10[10]) * (slot10[11] + uv0.GetCurrent(slot1, "injureRatio")) * (slot10[12] + uv0.GetCurrent(slot1, "injureRatioByAir")))) * uv0.GetCurrent(slot1, "repressReduce"))
+	return math.floor(math.max(slot10[1], math.floor((uv0.GetCurrent(slot0, "crashDMG") * (slot10[2] + uv0.GetCurrent(slot0, "airPower") * slot10[3]) + slot6 * slot10[4]) * (slot0:GetHPRate() * slot10[5] + slot10[6]) * (slot10[7] + (slot6 - uv0.GetCurrent(slot1, "formulaLevel")) * slot10[8]) * slot10[9] / (uv0.GetCurrent(slot1, "antiAirPower") + slot10[10]) * (slot10[11] + uv0.GetCurrent(slot1, "injureRatio")) * (slot10[12] + uv0.GetCurrent(slot1, "injureRatioByAir")))) * uv0.GetCurrent(slot1, "repressReduce") * uv0.GetCurrent(slot1, "injureRatioKamikazeAir"))
 end
 
 slot0.CalculateDamageFromShipToMainShip = function(slot0, slot1)
 	slot5 = uv0.GetCurrent(slot0, "formulaLevel")
 	slot8 = uv1.LEAK_RATE
 
-	return math.floor(math.max(slot8[1], math.floor(((uv0.GetCurrent(slot0, "cannonPower") + uv0.GetCurrent(slot0, "torpedoPower")) * slot8[2] + slot5 * slot8[7]) * (slot8[5] + uv0.GetCurrent(slot1, "injureRatio")) * (slot0:GetHPRate() * slot8[3] + slot8[4]) * (slot8[5] + (slot5 - uv0.GetCurrent(slot1, "formulaLevel")) * slot8[6]))) * uv0.GetCurrent(slot1, "repressReduce"))
+	return math.floor(math.max(slot8[1], math.floor(((uv0.GetCurrent(slot0, "cannonPower") + uv0.GetCurrent(slot0, "torpedoPower")) * slot8[2] + slot5 * slot8[7]) * (slot8[5] + uv0.GetCurrent(slot1, "injureRatio")) * (slot0:GetHPRate() * slot8[3] + slot8[4]) * (slot8[5] + (slot5 - uv0.GetCurrent(slot1, "formulaLevel")) * slot8[6]))) * uv0.GetCurrent(slot1, "repressReduce") * uv0.GetCurrent(slot1, "injureRatioKamikazeShip"))
 end
 
 slot0.CalculateDamageFromSubmarinToMainShip = function(slot0, slot1)

@@ -200,13 +200,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：28.8%",
 			" ",
-			"<color=#ff5e39>雲仙</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>レキシントンⅡ</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>尾張</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>カウペンス</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>初月</color>：0.5%",
+			"<color=#ffde38>クリーブランド(META)</color>：0.5%",
 			" ",
-			"<color=#d797ff>名取</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>パサデナ</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

@@ -5,6 +5,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.acceptBtn = slot0.tf:Find("frame/accpet_btn")
 	slot0.refuseBtn = slot0.tf:Find("frame/refuse_btn")
+	slot0.reportBtn = slot0.tf:Find("frame/report_btn")
 	slot0.date = slot0.tf:Find("frame/request_info/date/Text"):GetComponent(typeof(Text))
 	slot0.levelTF = slot0.tf:Find("frame/request_info/lv_bg/Text"):GetComponent(typeof(Text))
 end

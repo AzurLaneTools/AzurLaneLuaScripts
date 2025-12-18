@@ -188,6 +188,7 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
+			323,
 			100002,
 			100003,
 			100004,
@@ -3633,6 +3634,30 @@ pg.furniture_data_template = setmetatable({
 			331307,
 			331308,
 			331309
+		},
+		[133] = {
+			333001,
+			333002,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333106,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			333119,
+			333301
 		}
 	},
 	get_id_list_by_tag = {
@@ -5786,7 +5811,25 @@ pg.furniture_data_template = setmetatable({
 			331114,
 			331115,
 			331116,
-			331117
+			331117,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333106,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118
 		},
 		{
 			1108,
@@ -6212,7 +6255,8 @@ pg.furniture_data_template = setmetatable({
 			316,
 			318,
 			319,
-			321
+			321,
+			323
 		},
 		[7] = {
 			223,
@@ -6423,7 +6467,8 @@ pg.furniture_data_template = setmetatable({
 			330102,
 			329120,
 			332113,
-			331309
+			331309,
+			333119
 		},
 		[4] = {
 			1001,
@@ -6542,7 +6587,8 @@ pg.furniture_data_template = setmetatable({
 			330001,
 			329001,
 			332001,
-			331001
+			331001,
+			333001
 		},
 		[3] = {
 			1002,
@@ -6662,7 +6708,8 @@ pg.furniture_data_template = setmetatable({
 			330002,
 			329002,
 			332002,
-			331002
+			331002,
+			333002
 		},
 		[5] = {
 			1301,
@@ -7046,7 +7093,8 @@ pg.furniture_data_template = setmetatable({
 			331305,
 			331306,
 			331307,
-			331308
+			331308,
+			333301
 		}
 	},
 	get_id_list_by_type = {
@@ -7168,7 +7216,8 @@ pg.furniture_data_template = setmetatable({
 			330002,
 			329002,
 			332002,
-			331002
+			331002,
+			333002
 		},
 		[7] = {
 			1,
@@ -7332,6 +7381,7 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
+			323,
 			100002,
 			100004,
 			100005,
@@ -9533,7 +9583,25 @@ pg.furniture_data_template = setmetatable({
 			331114,
 			331115,
 			331116,
-			331117
+			331117,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			333119
 		},
 		[11] = {
 			143,
@@ -9976,7 +10044,8 @@ pg.furniture_data_template = setmetatable({
 			332301,
 			331302,
 			331303,
-			331307
+			331307,
+			333301
 		},
 		[13] = {
 			100015,
@@ -10107,7 +10176,8 @@ pg.furniture_data_template = setmetatable({
 			330001,
 			329001,
 			332001,
-			331001
+			331001,
+			333001
 		},
 		[5] = {
 			1101,
@@ -10271,7 +10341,8 @@ pg.furniture_data_template = setmetatable({
 			329108,
 			332102,
 			331109,
-			331110
+			331110,
+			333106
 		},
 		[3] = {
 			1108,
@@ -10665,6 +10736,7 @@ pg.furniture_data_template = setmetatable({
 		318,
 		319,
 		321,
+		323,
 		100002,
 		100003,
 		100004,
@@ -13873,7 +13945,29 @@ pg.furniture_data_template = setmetatable({
 		331306,
 		331307,
 		331308,
-		331309
+		331309,
+		333001,
+		333002,
+		333101,
+		333102,
+		333103,
+		333104,
+		333105,
+		333106,
+		333107,
+		333108,
+		333109,
+		333110,
+		333111,
+		333112,
+		333113,
+		333114,
+		333115,
+		333116,
+		333117,
+		333118,
+		333119,
+		333301
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23352,6 +23446,50 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"dalxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[323] = {
+		can_rotate = 0,
+		describe = "理事会天文台をモチーフにしたミニチュア。輝く星々はホログラムではなく、搭載された花火発射装置によって演出されている。――「天穹に響く音謡」に参加した指揮官に贈る",
+		gain_by = "天穹に響く音謡",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "理事会天文台ミニチュア",
+		advice = 0,
+		id = 323,
+		tag = 8,
+		comfortable = 0,
+		icon = "tianwentaixunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tianwentaixunzhang",
 				"normal"
 			}
 		},
@@ -170258,6 +170396,1059 @@ pg.base.furniture_data_template = {
 					}
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[333001] = {
+		can_rotate = 0,
+		describe = "ケーキとネコをテーマとしたメイドハウス。ぽかぽかであまーい香り♪",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dibannvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "メイドハウスの床",
+		advice = 0,
+		tag = 4,
+		id = 333001,
+		icon = "dibannvpicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333002] = {
+		can_rotate = 0,
+		describe = "ケーキとネコをテーマとしたメイドハウス。ぽかぽかであまーい香り♪",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "メイドハウスの壁",
+		advice = 0,
+		id = 333002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbinvpicon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbinvp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[333101] = {
+		can_rotate = 0,
+		describe = "猫の顔の形に切り整えられた観葉植物。デザイン性の高い仕上がり。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/baijiannvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "ニャン盆栽",
+		advice = 0,
+		tag = 1,
+		id = 333101,
+		icon = "baijiannvpicon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333102] = {
+		can_rotate = 0,
+		describe = "花とお茶を楽しむひとときのはじまりはじまり～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/chajinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンテーブル",
+		advice = 0,
+		tag = 1,
+		id = 333102,
+		icon = "chajinvpicon",
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333103] = {
+		can_rotate = 0,
+		describe = "ゆったりした大きな丸ベッド。まるで大きなケーキの上で寝ている気分。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/chuangnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンベッド",
+		advice = 0,
+		id = 333103,
+		tag = 1,
+		comfortable = 4,
+		icon = "chuangnvpicon",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					31.2,
+					45.5
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					-45.4,
+					4.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333104] = {
+		can_rotate = 0,
+		describe = "椅子なのに、触らずにはいられない…！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dengzinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "肉球チェア",
+		advice = 0,
+		id = 333104,
+		tag = 1,
+		comfortable = 2,
+		icon = "dengzinvpicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.9,
+					77.79
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333105] = {
+		can_rotate = 0,
+		describe = "新しいテレビとゲーム機。コントローラーを手に取って一緒に遊ぼう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dianshinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンテレビ",
+		advice = 0,
+		tag = 1,
+		id = 333105,
+		icon = "dianshinvpicon",
+		comfortable = 3,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333106] = {
+		can_rotate = 0,
+		describe = "カーペットに落ちているのは、どのドジっ子メイドの服と靴下かしら？",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/ditannvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンカーペット",
+		advice = 0,
+		tag = 1,
+		id = 333106,
+		icon = "ditannvpicon",
+		comfortable = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333107] = {
+		can_rotate = 0,
+		describe = "食べ物をここに置くと、なぜか普段より美味しそうに見える？！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/fanzhuonvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ディナーテーブル",
+		advice = 0,
+		tag = 1,
+		id = 333107,
+		icon = "fanzhuonvpicon",
+		comfortable = 3,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333108] = {
+		can_rotate = 0,
+		describe = "一度座ると立ち上がりたくなくなる魔法のようなソファ。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/lanrenshafanvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンソファ",
+		advice = 0,
+		id = 333108,
+		tag = 1,
+		comfortable = 3,
+		icon = "lanrenshafanvpicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5.8,
+					19.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333109] = {
+		can_rotate = 0,
+		describe = "カーテンの奥にいるのはメイドさん？それとも猫？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/lianzinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンカーテン",
+		advice = 0,
+		id = 333109,
+		tag = 1,
+		comfortable = 3,
+		icon = "lianzinvpicon",
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lianzinvp",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[333110] = {
+		can_rotate = 0,
+		describe = "翼のついたフロアランプ。今にも飛び立ちそう。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンフロアランプ",
+		advice = 0,
+		id = 333110,
+		tag = 1,
+		comfortable = 2,
+		icon = "luodidengnvpicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"luodidengnvp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[333111] = {
+		can_rotate = 0,
+		describe = "多彩なモチーフを組み合わせ、四つの願いを一度に叶えてくれる！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "キャットタワー",
+		advice = 0,
+		id = 333111,
+		tag = 1,
+		comfortable = 3,
+		icon = "maopajianvpicon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maopajianvp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[333112] = {
+		can_rotate = 0,
+		describe = "ピンクの猫モチーフの全身鏡。映る人まで可愛く見えるデザイン。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/quanshenjingnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンミラー",
+		advice = 0,
+		tag = 1,
+		id = 333112,
+		icon = "quanshenjingnvpicon",
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333113] = {
+		can_rotate = 0,
+		describe = "ふわふわの一人掛けソファ。大きな猫の肉球クッションが癒し。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shafa1nvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンソファ・小",
+		advice = 0,
+		id = 333113,
+		tag = 1,
+		comfortable = 2,
+		icon = "shafa1nvpicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					30.8,
+					-0.3
+				},
+				{
+					1,
+					1
+				},
+				"nvp/shafa1nvp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333114] = {
+		can_rotate = 0,
+		describe = "柔らかな二人掛けソファ。読書にもおしゃべりタイムにも最適。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shafa2nvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンソファ・大",
+		advice = 0,
+		id = 333114,
+		tag = 1,
+		comfortable = 3,
+		icon = "shafa2nvpicon",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-31.6,
+					10.6
+				},
+				{
+					-1,
+					1
+				},
+				"nvp/shafa2nvp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333115] = {
+		can_rotate = 0,
+		describe = "大事な物はきちんとしまわないと、子猫たちにいたずらされてしまうよー",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shuguinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャン収納",
+		advice = 0,
+		tag = 1,
+		id = 333115,
+		icon = "shuguinvpicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333116] = {
+		can_rotate = 0,
+		describe = "猫モチーフの物置台。両側のパネルはチョコレートのような質感。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/xiyuyongpingnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャン物置台",
+		advice = 0,
+		tag = 1,
+		id = 333116,
+		icon = "xiyuyongpingnvpicon",
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333117] = {
+		can_rotate = 0,
+		describe = "メイドの衣装を整然と収めた収納。清潔で見映えも良い。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/yijianvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ニャンガーラック",
+		advice = 0,
+		tag = 1,
+		id = 333117,
+		icon = "yijianvpicon",
+		comfortable = 3,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333118] = {
+		advice = 0,
+		name = "ニャンバス",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "yugangnvpicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 133,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 333118,
+		comfortable = 4,
+		describe = "中で寝そべると、猫にマッサージされているような心地よさ。",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangnvpB",
+				"normal"
+			},
+			{
+				"yugangnvpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-5.32,
+					140
+				},
+				{
+					256.76,
+					250
+				},
+				"nvp/yugangnvp_mask"
+			},
+			{
+				-5.72,
+				-157.16
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[333119] = {
+		advice = 0,
+		name = "いちごケーキスライダー",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "huatinvpicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 133,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 333119,
+		comfortable = 4,
+		describe = "ケーキ型のすべり台とボールプール。童心に返り楽しい時間を過ごそう！",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatinvpB",
+				"normal"
+			},
+			{
+				"huatinvpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk",
+						1,
+						"walk"
+					},
+					{
+						"action1",
+						1,
+						"tuozhuai2"
+					},
+					{
+						"action2",
+						nil,
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					102,
+					128.5
+				},
+				{
+					300,
+					300
+				},
+				"nvp/huatinvp_mask"
+			},
+			{
+				-100,
+				-123.7
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[333301] = {
+		can_rotate = 0,
+		describe = "まだ新しいフォトウォール。温かな思い出を飾る場所。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/zhaopianqiangnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "ニャンフォト",
+		advice = 0,
+		tag = 5,
+		id = 333301,
+		icon = "zhaopianqiangnvpicon",
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

@@ -14,9 +14,8 @@ end
 
 slot0.OnInit = function(slot0, slot1)
 	slot0.time = 0
-	slot2 = slot0._tf:GetComponent(typeof(ItemList))
-	slot0.chatTpl = slot2.prefabItem[3]
-	slot0.animationOpTpl = slot2.prefabItem[1]
+	slot0.chatTpl = slot0._tf:Find("tpls/IslandChatWithEmojiTpl")
+	slot0.animationOpTpl = slot0._tf:Find("tpls/IslandAnimationOpTpl")
 	slot0.animationOpTpls = {}
 	slot0.animationOpShowFlags = {}
 	slot0.isResponeAnimationOp = {}

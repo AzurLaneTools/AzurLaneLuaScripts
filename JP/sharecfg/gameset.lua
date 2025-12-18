@@ -1927,7 +1927,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 586
+		key_value = 601
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -4062,5 +4062,9 @@ pg.gameset = {
 	profile_cvchange_button_block = {
 		key_value = 0,
 		description = {}
+	},
+	report_level_limit_all = {
+		description = "",
+		key_value = 80
 	}
 }

@@ -7,6 +7,7 @@ slot2.__name = "BattleAOEData"
 slot2.ALIGNMENT_LEFT = "left"
 slot2.ALIGNMENT_RIGHT = "right"
 slot2.ALIGNMENT_MIDDLE = "middle"
+slot2.SOURCE_BULLET_9 = "bulletType9"
 
 slot2.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._areaUniqueID = slot1
@@ -162,6 +163,10 @@ slot2.GetCldFunc = function(slot0)
 	return slot0._areaCldFunc
 end
 
+slot2.GetSource = function(slot0)
+	return slot0._source
+end
+
 slot2.GetHeight = function(slot0)
 	return slot0._height
 end
@@ -206,6 +211,10 @@ end
 
 slot2.SetLifeTime = function(slot0, slot1)
 	slot0._lifeTime = slot1
+end
+
+slot2.SetSource = function(slot0, slot1)
+	slot0._source = slot1
 end
 
 slot2.SetHeight = function(slot0, slot1)

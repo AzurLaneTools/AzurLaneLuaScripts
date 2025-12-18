@@ -7,8 +7,7 @@ end
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot1 = slot0._tf
-	slot0.countOver = slot1:Find("operate/calc/value_bg/over_count")
+	slot0.countOver = slot0._tf:Find("operate/calc/value_bg/over_count")
 
 	setText(slot0.countOver, i18n("blueprint_select_overflow"))
 	onButton(slot0, slot0.maxBtn, function ()
@@ -37,7 +36,23 @@ slot0.OnInit = function(slot0)
 		slot2 = uv0:GetBlueprintNeed(slot0.id)
 		slot3 = {}
 
-		if not uv0.isAllNeedZero and slot2 < slot1 then
+		if uv0.isSwitch and not uv0:checkBlueprintIsFate(slot0.id) then
+			if slot1 <= slot2 then
+				table.insert(slot3, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("blueprint_exchange_fate_unlock"),
+						onYes = slot0
+					})
+				end)
+			else
+				table.insert(slot3, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("blueprint_exchange_fate_unlock_over", uv0:getConfig("name"), uv1 - uv2),
+						onYes = slot0
+					})
+				end)
+			end
+		elseif not uv0.isAllNeedZero and slot2 < slot1 then
 			table.insert(slot3, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("blueprint_select_overflow_tip", uv0:getConfig("name"), uv1 - uv2),
@@ -52,26 +67,24 @@ slot0.OnInit = function(slot0)
 		end)
 	end, SFX_PANEL)
 
-	slot1 = slot0._tf
-	slot0.toggleSwitch = slot1:Find("operate/got/top/switch_btn")
-	slot2 = slot0.toggleSwitch
+	slot0.toggleSwitch = slot0._tf:Find("operate/got/top/switch_btn")
 
-	setText(slot2:Find("Text_off"), i18n("show_design_demand_count"))
-
-	slot2 = slot0.toggleSwitch
-
-	setText(slot2:Find("Text_on"), i18n("show_fate_demand_count"))
+	setText(slot0.toggleSwitch:Find("Text_off"), i18n("show_fate_demand_count"))
+	setText(slot0.toggleSwitch:Find("Text_on"), i18n("show_design_demand_count"))
 	onToggle(slot0, slot0.toggleSwitch, function (slot0)
 		uv0.isSwitch = slot0
 
 		uv0:updateValue()
 	end, SFX_PANEL)
+	setText(slot0._tf:Find("operate/got/top/info/Text"), i18n("fate_unlock_icon_desc"))
 end
 
 slot0.GetBlueprintNeed = function(slot0, slot1)
 	slot0.technologyProxy = slot0.technologyProxy or getProxy(TechnologyProxy)
 	slot2 = slot0.technologyProxy:getBluePrintById(slot0.technologyProxy:GetBlueprint4Item(slot1))
 	slot0.bagProxy = slot0.bagProxy or getProxy(BagProxy)
+
+	warning(slot0.isSwitch)
 
 	return math.max(slot2:getUseageMaxItem() + (slot0.isSwitch and slot2:getFateMaxLeftOver() or 0) - slot0.bagProxy:getItemCountById(slot2:getItemId()), 0)
 end
@@ -80,6 +93,12 @@ slot0.checkBlueprintIsUnlock = function(slot0, slot1)
 	slot0.technologyProxy = slot0.technologyProxy or getProxy(TechnologyProxy)
 
 	return slot0.technologyProxy:getBluePrintById(slot0.technologyProxy:GetBlueprint4Item(slot1)):isUnlock()
+end
+
+slot0.checkBlueprintIsFate = function(slot0, slot1)
+	slot0.technologyProxy = slot0.technologyProxy or getProxy(TechnologyProxy)
+
+	return slot0.technologyProxy:getBluePrintById(slot0.technologyProxy:GetBlueprint4Item(slot1)):IsFate()
 end
 
 slot0.updateValue = function(slot0)
@@ -146,11 +165,12 @@ slot0.update = function(slot0, slot1)
 
 			setText(slot2:Find("item/tip/Text"), i18n("tech_character_get"))
 			setActive(slot2:Find("item/tip"), uv0:checkBlueprintIsUnlock(uv0.displayDrops[slot1].id))
+			setActive(slot2:Find("fateFlag"), uv0:checkBlueprintIsFate(uv0.displayDrops[slot1].id))
 		end
 	end)
 	slot0.ulist:align(#slot0.displayDrops)
 	triggerToggle(slot0.selectedItem, true)
-	triggerToggle(slot0.toggleSwitch, true)
+	triggerToggle(slot0.toggleSwitch, false)
 
 	slot2 = Drop.New({
 		type = DROP_TYPE_ITEM,

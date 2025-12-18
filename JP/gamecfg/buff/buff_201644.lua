@@ -42,6 +42,24 @@ return {
 					"BOSS"
 				}
 			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onSubmarineRetreat"
+			},
+			arg_list = {
+				buff_id = 201640,
+				minTargetNumber = 1,
+				target = "TargetShipTag",
+				check_target = {
+					"TargetAllHarm",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"BOSS"
+				}
+			}
 		}
 	}
 }

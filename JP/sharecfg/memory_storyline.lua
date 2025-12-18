@@ -2393,18 +2393,51 @@ pg.memory_storyline = {
 		}
 	},
 	{
+		description = [[
+「過去は完璧ではなく、未来には困難が待ち受けている」
+「だが今は」
+「我々は団結し、共に前へと進もうとしている」
+「過去、現在、未来のすべての仲間たちよ」
+「共にこの雄大な楽章を奏でよう——」]],
+		name = "天穹に響く音謡",
+		column = 58,
+		world_id = "",
+		bgm = "story-weimu-link",
+		row = 0,
+		chapter = 4,
+		memory_lock = 0,
+		id = 93,
+		icon = "ChapterFour_12",
+		sort = 1,
+		memory_id = {
+			1,
+			351
+		},
+		shipnation = {
+			97,
+			2,
+			1,
+			4,
+			6,
+			7
+		},
+		link_event = {
+			94
+		}
+	},
+	{
 		description = "敬请期待",
 		name = "敬请期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 58,
+		column = 59,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 93,
+		id = 94,
 		icon = "",
 		sort = 0
 	},
@@ -2501,6 +2534,7 @@ pg.memory_storyline = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

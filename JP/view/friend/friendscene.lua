@@ -152,6 +152,14 @@ slot0.updateRequestTip = function(slot0)
 	setActive(slot0.toggles[3]:Find("tip"), #slot0.requestVOs > 0)
 end
 
+slot0.closeInfromPanel = function(slot0)
+	if not slot0.pages[3] then
+		return
+	end
+
+	slot0.pages[3]:closeInfromPanel()
+end
+
 slot0.willExit = function(slot0)
 	for slot4, slot5 in ipairs(slot0.pages) do
 		slot5:Destroy()
