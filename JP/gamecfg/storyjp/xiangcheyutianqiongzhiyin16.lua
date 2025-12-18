@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "ProjectH",
-			say = "お久しぶり、$1、現実世界で会うのは初めてね〜",
+			say = "お久しぶり、{playername}、現実世界で会うのは初めてね〜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

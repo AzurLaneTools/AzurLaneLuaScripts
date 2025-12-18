@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.shop_banner_template = {
+	[10] = {
+		name = "banner_big",
+		type = 2,
+		time_lable = 1,
+		pic = "shopbanner/shop_skin",
+		id = 10,
+		relation_param = "",
+		order = 10,
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		param = {
+			"scene skinshop",
+			{}
+		}
+	},
 	[11] = {
 		name = "banner_big",
 		type = 2,
@@ -388,6 +427,7 @@ pg.shop_banner_template = {
 	},
 	get_id_list_by_name = {
 		banner_big = {
+			10,
 			11,
 			12,
 			13,
@@ -415,6 +455,7 @@ pg.shop_banner_template = {
 		}
 	},
 	all = {
+		10,
 		11,
 		12,
 		13,

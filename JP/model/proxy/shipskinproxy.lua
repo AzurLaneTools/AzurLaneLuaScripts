@@ -463,7 +463,7 @@ slot0.GetShareSkinsForShip = function(slot0, slot1)
 	for slot7 = #slot0:GetShareSkinsForShipGroup(slot1.groupId), 1, -1 do
 		if ShipSkin.GetChangeSkinGroupId(slot3[slot7].id) then
 			if not ShipSkin.GetStoreChangeSkinId(slot9, slot1:GetShipPhantomMark()) then
-				if slot8.change_skin.index ~= 1 then
+				if slot8:getConfig("change_skin") and slot11 ~= "" and slot11.index ~= 1 then
 					table.remove(slot3, slot7)
 				end
 			elseif slot10 ~= slot8.id then

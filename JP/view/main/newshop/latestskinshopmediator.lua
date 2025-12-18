@@ -84,15 +84,11 @@ slot0.register = function(slot0)
 		}))
 	end)
 	slot0:bind(uv0.OPEN_GIFT_PACK_LAYER, function (slot0, slot1, slot2, slot3)
-		uv0:addSubLayers(Context.New({
-			viewComponent = LatestSkinGiftPackLayer,
-			mediator = LatestSkinGiftPackMediator,
-			data = {
-				giftPackCommodity = slot1,
-				skinCommodities = slot2,
-				skinProbabilitys = slot3
-			}
-		}))
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.PROBABILITY_SKINSHOP, {
+			giftPackCommodity = slot1,
+			skinCommodities = slot2,
+			skinProbabilitys = slot3
+		})
 	end)
 	slot0:bind(uv0.OPEN_CHARGE_BIRTHDAY, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
