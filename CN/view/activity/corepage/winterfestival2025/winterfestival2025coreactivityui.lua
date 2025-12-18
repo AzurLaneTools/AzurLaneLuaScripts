@@ -20,4 +20,9 @@ slot0.didEnter = function(slot0)
 	end
 end
 
+slot0.CustomInit = function(slot0)
+	setText(slot0._tf:Find("adapt/TopPage/top/deco/Text"), i18n("HelenaCoreActivity_title"))
+	setText(slot0._tf:Find("adapt/TopPage/top/deco/Text/Text_1"), i18n("HelenaCoreActivity_title2"))
+end
+
 return slot0

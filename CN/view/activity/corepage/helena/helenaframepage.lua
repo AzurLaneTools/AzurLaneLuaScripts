@@ -18,7 +18,26 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnFirstFlush = function(slot0)
-	uv0.super.OnFirstFlush(slot0)
+	onButton(slot0, slot0.battleBtn, function ()
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.getBtn, function ()
+		uv0:emit(ActivityMediator.EVENT_OPERATION, {
+			cmd = 1,
+			activity_id = uv0.activity.id
+		})
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.switchBtn, function (slot0)
+		if uv0.isSwitching then
+			return
+		end
+
+		uv0:Switch(slot0)
+	end, SFX_PANEL)
+
+	slot0.inPhase2 = slot0.timeStamp and pg.TimeMgr.GetInstance():GetServerTime() - slot0.timeStamp > 0
+
+	triggerToggle(slot0.switchBtn, slot0.inPhase2)
 end
 
 slot0.OnUpdateFlush = function(slot0)
