@@ -12959,22 +12959,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Tohka Yatogami, Kotori Itsuka, and more!"
+	tip = "Get Lexington II guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Musashi and Haguro added to standard build pool!"
+	tip = "Yorktown II and Northampton II added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Wakatsuki and Sakawa added to standard build pool!"
+	tip = "Hammann II added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Musashi added to standard build pool!"
+	tip = "Yorktown II and Hornet II added to standard build pool!"
 }
 
 
@@ -24287,12 +24287,12 @@ _G.pg.base.gametip.ssssmedal_desc6 = {
 
 
 _G.pg.base.gametip.show_fate_demand_count = {
-	tip = "Display number required for <color=#92fc63>Fate Simulation</color>."
+	tip = "Switch to display amount required for <color=#92fc63>Fate Simulation</color>"
 }
 
 
 _G.pg.base.gametip.show_design_demand_count = {
-	tip = "Display number required for <color=#92fc63>Dev Lv. 30</color>."
+	tip = "Switch to display amount required for <color=#92fc63>Level 30</color>"
 }
 
 
@@ -37901,7 +37901,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  Note:   While the event is available, tapping the <color=#92fc63>Commemoration button on the event banner or the Commemorative Album tab under Memories</color> will bring you to the commemorative stickers menu.
  Note:   Following the end of the event, <color=#92fc63>you can only access the stickers menu from the Commemorative Album tab under Memories</color>.
  Note:   Commemorative stickers are earned by completing event missions.
- Note:   Rewards may be claimed for a period even after the event ends.]]
+ Note:   Rewards may be claimed until 1/14/2026 midnight.]]
 		}
 	}
 }
@@ -46238,4 +46238,54 @@ _G.pg.base.gametip.HelenaCoreActivity_subtitle_2 = {
 
 _G.pg.base.gametip.HelenaCoreActivity_subtitle_3 = {
 	tip = "To a Brighter World"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_4 = {
+	tip = "A Note Through the Firmament"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_5 = {
+	tip = "Veil Resupply Point"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_6 = {
+	tip = "UR Exchange"
+}
+
+
+_G.pg.base.gametip.fate_unlock_icon_desc = {
+	tip = "* Fate Simulation has been unlocked"
+}
+
+
+_G.pg.base.gametip.blueprint_exchange_fate_unlock = {
+	tip = "Fate Simulation has not yet been unlocked. Do you want to exchange?"
+}
+
+
+_G.pg.base.gametip.blueprint_exchange_fate_unlock_over = {
+	tip = "Your exchange amount of <color=#22ff22>$1</color> is higher than the required amount of <color=#ff5c5c>$2</color>"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_fate_lock = {
+	tip = "Fate Simulation <color=#ff5c5c>Locked</color>"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_fate_unlock = {
+	tip = "Fate Simulation <color=#92fc63>Unlocked</color>"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_exchange_fate_unlock = {
+	tip = "Fate Simulation has not yet been unlocked. Do you want to exchange?"
+}
+
+
+_G.pg.base.gametip.skinstory_20251218 = {
+	tip = "Heart-Throbbing Moment I"
 }

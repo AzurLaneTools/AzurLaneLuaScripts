@@ -49,6 +49,8 @@ slot0.Unload = function(slot0)
 	if slot0.spineChar then
 		slot0.spineChar:Resume()
 		slot0.spineChar:Dispose()
+
+		slot0.spineChar = nil
 	end
 
 	slot0.name = nil

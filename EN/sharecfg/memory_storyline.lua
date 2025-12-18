@@ -2349,8 +2349,12 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "Stay Tuned",
-		name = "Stay Tuned",
+		description = [[
+"The war with the Sirens has ended."
+"As have the meetings to discuss the Azur Lane's reformation."
+"It's a brighter world."
+"A new world."]],
+		name = "To a Brighter World",
 		column = 57,
 		world_id = "",
 		bgm = "login",
@@ -2381,18 +2385,51 @@ pg.memory_storyline = {
 		}
 	},
 	{
+		description = [[
+"Our past is not perfect, and our future harbors hardships."
+"In this moment, however..."
+"We are united and trying to move forward together."
+"To all our past, present, and future allies..."
+"Let us perform a majestic ensemble together."]],
+		name = "A Note Through the Firmament",
+		column = 58,
+		world_id = "",
+		bgm = "story-weimu-link",
+		row = 0,
+		chapter = 4,
+		memory_lock = 0,
+		id = 93,
+		icon = "ChapterFour_12",
+		sort = 1,
+		memory_id = {
+			1,
+			351
+		},
+		shipnation = {
+			97,
+			2,
+			1,
+			4,
+			6,
+			7
+		},
+		link_event = {
+			94
+		}
+	},
+	{
 		description = "Stay Tuned",
 		name = "Stay Tuned",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 58,
+		column = 59,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 93,
+		id = 94,
 		icon = "",
 		sort = 0
 	},
@@ -2489,6 +2526,7 @@ pg.memory_storyline = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

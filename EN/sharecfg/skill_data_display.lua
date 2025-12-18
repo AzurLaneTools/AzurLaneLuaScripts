@@ -1932,6 +1932,24 @@ pg.skill_data_display = setmetatable({
 		151792,
 		151801,
 		151802,
+		151823,
+		151827,
+		151831,
+		151832,
+		151833,
+		151834,
+		151841,
+		151842,
+		151843,
+		151851,
+		151852,
+		151892,
+		151911,
+		151921,
+		151922,
+		151923,
+		151926,
+		151941,
 		18010,
 		18040,
 		18041,
@@ -3385,6 +3403,17 @@ pg.skill_data_display = setmetatable({
 		801973,
 		801980,
 		801990,
+		802011,
+		802012,
+		802021,
+		802022,
+		802031,
+		802032,
+		802033,
+		802041,
+		802042,
+		802045,
+		802047,
 		902201,
 		1010140,
 		1010143,
@@ -3623,6 +3652,8 @@ pg.skill_data_display = setmetatable({
 		201547,
 		201550,
 		201633,
+		201668,
+		201669,
 		1011540,
 		1011541,
 		1090010,
@@ -11579,6 +11610,78 @@ pg.base.skill_data_display = {
 		id = 151802,
 		name = "Judgment of Spear and Sword"
 	},
+	[151823] = {
+		id = 151823,
+		name = "Fiesta del mar y cielo"
+	},
+	[151827] = {
+		id = 151827,
+		name = "Fiesta del mar y cielo"
+	},
+	[151831] = {
+		id = 151831,
+		name = "Stamp - Repair"
+	},
+	[151832] = {
+		id = 151832,
+		name = "Stamp - Defense"
+	},
+	[151833] = {
+		id = 151833,
+		name = "Stamp - Firepower"
+	},
+	[151834] = {
+		id = 151834,
+		name = "Stamp - Full House"
+	},
+	[151841] = {
+		id = 151841,
+		name = "Risk Elimination"
+	},
+	[151842] = {
+		id = 151842,
+		name = "Risk Elimination"
+	},
+	[151843] = {
+		id = 151843,
+		name = "Risk Elimination"
+	},
+	[151851] = {
+		id = 151851,
+		name = "Air Raid Assistance - Clarence"
+	},
+	[151852] = {
+		id = 151852,
+		name = "Air Raid Assistance - Clarence"
+	},
+	[151892] = {
+		id = 151892,
+		name = "The Blue Ghost"
+	},
+	[151911] = {
+		id = 151911,
+		name = "A Recitatif to the Songbirds"
+	},
+	[151921] = {
+		id = 151921,
+		name = "Σヽ(ﾟД ﾟ; )ﾉ"
+	},
+	[151922] = {
+		id = 151922,
+		name = "Σ(°ロ°)!!"
+	},
+	[151923] = {
+		id = 151923,
+		name = "(#`Д´)ﾉ"
+	},
+	[151926] = {
+		id = 151926,
+		name = "Happy D"
+	},
+	[151941] = {
+		id = 151941,
+		name = "Inexperienced Patroller"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -17391,6 +17494,50 @@ pg.base.skill_data_display = {
 		id = 801990,
 		name = "To Witness Life and Death"
 	},
+	[802011] = {
+		id = 802011,
+		name = "Battle-Hardened Knight"
+	},
+	[802012] = {
+		id = 802012,
+		name = "Battle-Hardened Knight"
+	},
+	[802021] = {
+		id = 802021,
+		name = "Destroy Command"
+	},
+	[802022] = {
+		id = 802022,
+		name = "Destroy Command"
+	},
+	[802031] = {
+		id = 802031,
+		name = "Aero Barricade"
+	},
+	[802032] = {
+		id = 802032,
+		name = "Aero Barricade"
+	},
+	[802033] = {
+		id = 802033,
+		name = "Aero Barricade"
+	},
+	[802041] = {
+		id = 802041,
+		name = "Ashen Might - Cleveland I"
+	},
+	[802042] = {
+		id = 802042,
+		name = "Ashen Might - Cleveland II"
+	},
+	[802045] = {
+		id = 802045,
+		name = "Ashen Might - Cleveland I"
+	},
+	[802047] = {
+		id = 802047,
+		name = "Ashen Might - Cleveland II"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -18342,6 +18489,14 @@ pg.base.skill_data_display = {
 	[201633] = {
 		id = 201633,
 		name = "Zeroth Quadrant Expansion -5%"
+	},
+	[201668] = {
+		id = 201668,
+		name = "Opening Offensive"
+	},
+	[201669] = {
+		id = 201669,
+		name = "Attack Restrictions Lifted"
 	},
 	[1011540] = {
 		id = 1011540,

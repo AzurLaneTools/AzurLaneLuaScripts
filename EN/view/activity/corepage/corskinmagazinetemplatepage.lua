@@ -35,6 +35,8 @@ slot0.OnFirstFlush = function(slot0)
 	slot0.index = #slot0.taskList
 
 	for slot4 = 1, #slot0.taskList do
+		warning(slot0.taskList[slot4])
+
 		if not slot0.taskProxy:getTaskVO(slot0.taskList[slot4]):isReceive() then
 			slot0.index = slot4
 
@@ -126,17 +128,29 @@ slot0.SelectItem = function(slot0, slot1)
 end
 
 slot0.UpdateDrop = function(slot0)
-	slot1 = slot0.taskProxy:getTaskVO(slot0.taskList[slot0.index])
+	slot1 = slot0.taskProxy
+	slot1 = slot1:getTaskVO(slot0.taskList[slot0.index])
 
 	updateDrop(slot0.awardTf, Drop.Create(slot1:getConfig("award_display")[1]))
-	onButton(slot0, slot0.awardTf:Find("get"), function ()
+
+	slot5 = slot0.awardTf
+	slot7 = SFX_CONFIRM
+
+	onButton(slot0, slot5:Find("get"), function ()
 		uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
-	end, SFX_CONFIRM)
+	end, slot7)
 	onButton(slot0, slot0.awardTf, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end)
-	setActive(slot0.awardTf:Find("got"), slot1:isReceive())
-	setActive(slot0.awardTf:Find("get"), slot0.remainCnt > 0 and not slot3)
+
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0.taskList) do
+		slot3[slot8] = tobool(slot0.taskProxy:getFinishTaskById(slot8))
+	end
+
+	setActive(slot0.awardTf:Find("got"), slot3[slot0.taskList[slot0.index]])
+	setActive(slot0.awardTf:Find("get"), slot0.remainCnt > 0 and not slot4)
 end
 
 slot0.OnDestroy = function(slot0)

@@ -533,11 +533,11 @@ pg.item_data_frame = {
 	},
 	[337] = {
 		name = "Ghost of the Dark Blue",
-		gain_by = "",
+		gain_by = "A Note Through the Firmament",
 		time_second = 0,
 		id = 337,
 		time_limit_type = 0,
-		desc = "Obtained from a future event.",
+		desc = "<color=#ffffff>\"We meet again, Commander. I'm back.\"</color>\nObtained from the A Note Through the Firmament event.",
 		scene = {}
 	},
 	[406] = {

@@ -375,7 +375,12 @@ pg.ship_skin_words_extra = setmetatable({
 		11500040,
 		11500050,
 		11500060,
-		317010
+		317010,
+		107160,
+		101100,
+		101550,
+		102350,
+		107250
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -26494,6 +26499,341 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"No matter how little strength one person has, you find surprising ways to leverage it, Commander! Being with you and doing my best at everything makes me so happy."
+			}
+		}
+	},
+	[107160] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 107160,
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Wait, Commander – no working until breakfast. Quit your complaining and just do what I say, okay?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good work. I arranged for the other secretary ships to take care of the rest, so why don't you and I go take off early? Come on♪"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hehe, Commander, I can tell that you want me to rely on you sometimes..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"When I see the port today, I truly realize that I've woken up from a long dream. Being able to watch the younger girls grow up, to feel the sunshine and the sea breeze, and to share in joys and sorrows with you... That's the greatest blessing of all."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"The weather's been nice, and the flowers on the hill are all in bloom. I love it when nice things keep happening.|Still staring at those documents? Rest a little. I might be able to help you organize your thoughts... or I could sing to help you relax?|Wanna try my powered-up home cooking? You can taste the fruits of all my lessons with Vestal!|Heehee, after you finish your work, why don't you tutor me? Professor♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ah... Mm, you're gonna mess up my clothes... Hehe, it's okay. I'll fix them up later."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Every little moment, from fixing your tie, to pouring tea for you, to watching you work, is a miracle brought about by our reunion. I'll never ask for anything more, as long as I can be with you forever..."
+			}
+		},
+		skill = {
+			{
+				1100,
+				"♪♪♪~♪♪♪♪~"
+			}
+		}
+	},
+	[101100] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 101100,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome, Commander! I've been waiting my butt off! Loads of fun stuff happened while you were gone, but doing fun stuff by yourself is no good! Heehee – come on, praise my good behavior!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"I'm topped up on Commander energy! I've got the drive to do anything!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"We should totally ride the roller coaster! It'll be loads of fun! ...Wait, huh? Where are my tickets? Fine, dangit! Riding Happy D to race the roller coaster should be fun too!|Oh no! Happy D's out of energy and we're gonna fall! Commander, hold on to me! W-we'll make it out of this fine... won't we?!|Wonder where we should go next... You know what? You decide, Commander! You're bound to have a fun idea!|Whenever I'm by your side, I'm filled with endless courage! Next time WILL go better than the last!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I'm gonna sneak up behind you then leap into a hug! ...Shoot! Owwie..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You can't wait a minute longer?! M-me neither!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I've been taking really good care of the stuff you gave me! What stuff? The memories I made with you, my sweetie, on our adventure, obviously!"
+			}
+		}
+	},
+	[101550] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 101550,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, we'll be testing everything in your office today... Huh? Nothing is throwing up errors? Umm... A-an ounce of prevention is worth a pound of cure!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Commander... Sh-should I take this to mean that I'm doing a good job?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, this next experiment is a complicated one. I don't know if I can do it alone... U-umm, could I ask for extra resource allocation?|I tested your bedding and found no hidden risks... How did I test them? Through direct use, of course.|Come with me, please. I have some equipment that requires testing outdoors, and I'll need your help... Also, I don't happen to have any plans after, sooo..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Do you need help? I'm available for you any time."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I-I get it! You need me to test your limits!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"\"Being with you is... s-so much fun!\" Hmm, that one still sounded awkward... Let's go again. \"Being with you is–\" Huh? C-Commander?! H-how long have you been there?"
+			}
+		}
+	},
+	[102350] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 102350,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Oh! I'm getting to see you again! This sure is a day full of surprises! ...Hm? To me, meeting you is enough to make me happy for the whole day!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Ta-dah! Congratulations on getting the sortie bonus pack, Commander! Your surprise rewards are ready, so come with me and collect 'em!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"You think I should put a hairpin here, too? Sure! I was thinking the same thing!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander! From now on, every weekend is gonna be celebration weekend! Why? 'Cause weekends are for relaxing, but you still do work in secret, don'tcha? That's why I'm taking you along to enjoy the celebrations with me!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, I bought some shiny new accessories. Where should I stick 'em? On my collar? Chest? Also, which do you like better: Silver or gold? They're both so good and I can't decide! ...I've got it! How about we both wear one for a matching look?|Oh! That's my program for the celebration! I see it's got your attention. Maybe... that means you'll get up on stage for me?! I've gotta work in a spot for you, then!|The heart sticker on your pen? Yeah, I put that there! Marking each other's personal items is a way to show your feelings, y'know! Also, it's your turn next! Pick your favorite spot to leave a mark♥"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Yeah, my tail accessory IS pretty cute! Heheh – wanna touch it? It feels nice!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hold still, Commander! Now it's my turn to give YOU a surprise♡"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Come here, Commander! Now close your eyes! That's it, just keep your eyes closed and wait for my instructions. Three, two, one... *smooch*! Ahaha! How'd you like that surprise?"
+			}
+		}
+	},
+	[107250] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 107250,
+		skill = "",
+		unlock = "",
+		mail = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Welcome back to my arms, Commander. Huuug~ Ah, how reassuring!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I'm glad everyone's safe! Don't forget to replenish those nutrients when you get home!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"We'd better retreat... Don't worry. Everything will be okay."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good work, Commander. You look tired... I have hot milk, so let's get some of that in your tummy while I give you a full-body massage."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"For the sake of peace and everyone's health, I'll fight my hardest!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"That feels nice... Commander, I need more of your nourishment."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"When I see you happily drinking milk, I can't help but want to nourish you more!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander~ This milk is chock full of my love. Drink up every last drop, please!|Commander, why not lean on me for a little while? My body heat will help relieve all of your fatigue~|You can pick any ingredients you want, Commander. For a nutritionist, there are no absolute must-haves or must-not-haves."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Mmm... Your warmth is the greatest nourishment of all for me~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hehe... Commander, you look so needy right now. Go on, then... Take all you want~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, I've realized... that I want to nourish your heart just as much as I want to support your health. I want to warm you up with my hugs, milk, and love... That alone would make me feel so happy and fulfilled."
 			}
 		}
 	}

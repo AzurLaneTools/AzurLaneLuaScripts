@@ -323,6 +323,12 @@ slot0.CanShare = function(slot0)
 	end)())
 end
 
+slot0.CanShareInJuus = function(slot0)
+	slot1 = getProxy(ShipSkinProxy):hasSkin(slot0.configId)
+
+	return not (slot0:getConfig("skin_type") == uv0.SKIN_TYPE_REMAKE or slot2 == uv0.SKIN_TYPE_OLD or slot2 == uv0.SKIN_TYPE_NOT_HAVE_HIDE and not slot1 or slot2 == uv0.SKIN_TYPE_SHOW_IN_TIME and not slot1)
+end
+
 slot0.IsShareSkin = function(slot0, slot1)
 	slot3 = pg.ship_data_group
 

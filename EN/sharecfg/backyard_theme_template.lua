@@ -5148,6 +5148,45 @@ pg.backyard_theme_template = {
 			332301
 		}
 	},
+	[133] = {
+		Cfg_1 = 5,
+		name = "Meowing Maid's House",
+		desc = "A maid's house with a cake and cat motif. Sweet and comfy!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 133,
+		id = 133,
+		icon = "nvpthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			333001,
+			333002,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333106,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			333301
+		}
+	},
 	all = {
 		1,
 		2,
@@ -5267,6 +5306,7 @@ pg.backyard_theme_template = {
 		129,
 		130,
 		131,
-		132
+		132,
+		133
 	}
 }

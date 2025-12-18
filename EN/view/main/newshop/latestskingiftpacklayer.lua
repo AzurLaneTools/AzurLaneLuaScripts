@@ -1,7 +1,7 @@
 slot0 = class("LatestSkinGiftPackLayer", import(".LatestSkinShopLayer"))
 
 slot0.Overlay = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.adapt, {
 		pbList = {
 			slot0.charContainer:Find("bg"),
 			slot0.filterUI:Find("panel")
@@ -10,7 +10,7 @@ slot0.Overlay = function(slot0)
 end
 
 slot0.UnOverlay = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.adapt, slot0._tf)
 end
 
 slot0.GetAllCommodities = function(slot0)

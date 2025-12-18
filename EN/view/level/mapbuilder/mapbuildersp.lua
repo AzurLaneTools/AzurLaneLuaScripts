@@ -173,7 +173,11 @@ slot0.BuildStoryTree = function(slot0)
 			configId = slot0
 		}):GetType() ~= ActivitySpStoryNode.NODE_TYPE.UNRELEASED then
 			uv0.spStoryNodeDict[slot0] = slot1
-			uv1[uv0.spStoryNodeDict[slot0]:GetPreEvent()] = slot0
+			slot3 = uv1[uv0.spStoryNodeDict[slot0]:GetPreEvent()] or {}
+
+			table.insert(slot3, slot0)
+
+			uv1[slot2:GetPreEvent()] = slot3
 		else
 			uv0.spStoryUnreleasedNode = slot1
 		end
@@ -186,11 +190,18 @@ slot0.BuildStoryTree = function(slot0)
 			return
 		end
 
-		uv1 = uv0[uv1]
+		tailList = uv0[uv1]
 
-		table.insert(uv2.spStoryNodes, uv2.spStoryNodeDict[uv1])
+		_.each(tailList, function (slot0)
+			table.insert(uv0.spStoryNodes, uv0.spStoryNodeDict[slot0])
 
-		return true
+			if uv1[slot0] then
+				uv2 = true
+				uv3 = slot0
+			end
+		end)
+
+		return nil
 	end
 
 	while slot3() do
@@ -634,7 +645,11 @@ slot0.UpdateStory = function(slot0)
 				slot4 = function()
 					uv0 = uv0 + 1
 
-					assert(#uv1.storyTree.childDict[uv2:GetConfigID()] <= 1)
+					if not uv1.storyTree.childDict[uv2:GetConfigID()] then
+						return false
+					end
+
+					assert(#slot0 <= 1)
 
 					if slot0[1] and #slot1:GetPreNodes() == 1 then
 						uv2 = slot1
@@ -698,7 +713,7 @@ slot0.UpdateStory = function(slot0)
 
 							uv2 = uv2 + Vector2.New(uv7, 0)
 						end
-					elseif uv0 == 3 or uv0 == 2 and #uv8 == 2 then
+					elseif (uv0 == 3 or uv0 == 2 and #uv8 == 2) and uv1.storyTree.childDict[uv8[1]:GetConfigID()] then
 						setAnchoredPosition(uv1:DequeItem(uv1.branchDownTpl), uv2)
 
 						uv2 = uv2 + Vector2.New(uv3, -uv4)
@@ -740,8 +755,7 @@ slot0.UpdateStory = function(slot0)
 				end)()
 
 				slot4 = uv7 + Vector2.New(uv5, 0)
-				slot6 = uv8
-				slot6 = slot6:DequeItem(uv8.storyNodeTpl)
+				slot6 = uv8:DequeItem(uv8.storyNodeTpl)
 				slot6.name = slot3
 
 				setAnchoredPosition(slot6, slot4)
@@ -750,67 +764,75 @@ slot0.UpdateStory = function(slot0)
 					nodeTF = tf(slot6)
 				}
 				slot4 = slot4 + Vector2.New(uv4 + uv6, 0)
-				slot7 = uv8.storyTree.childDict[slot3][1]
-				slot8 = slot1
+				slot7 = slot1
 
-				slot9 = function()
-					if not uv0 or uv0 == uv1 then
-						return
+				if uv8.storyTree.childDict[slot3] then
+					slot8 = uv8.storyTree.childDict[slot3][1]
+
+					slot9 = function()
+						if not uv0 or uv0 == uv1 then
+							return
+						end
+
+						slot0 = uv2:DequeItem(uv2.oneLineTpl)
+						slot3 = uv3
+						slot0.name = string.format("Line%s_%s", slot3:GetConfigID(), uv0:GetConfigID())
+
+						setAnchoredPosition(slot0, uv4)
+
+						uv4 = uv4 + Vector2.New(uv5 + uv6, 0)
+
+						setSizeDelta(slot0, {
+							x = uv5,
+							y = uv2.oneLineHeight
+						})
+
+						slot1 = uv2.storyNodeStatus[uv0:GetConfigID()].status
+
+						eachChild(slot0, function (slot0)
+							setImageColor(slot0, Color.NewHex(uv0[uv1]))
+						end)
+
+						slot2 = uv2:DequeItem(uv2.storyNodeTpl)
+						slot2.name = uv0:GetConfigID()
+
+						setAnchoredPosition(slot2, uv4)
+
+						uv2.storyNodeTFsById[uv0:GetConfigID()] = {
+							nodeTF = tf(slot2)
+						}
+						uv4 = uv4 + Vector2.New(uv8 + uv9, 0)
+
+						if not uv2.storyTree.childDict[uv0:GetConfigID()] then
+							return false
+						end
+
+						uv3 = uv0
+						uv0 = slot3[1]
+
+						return true
 					end
 
-					slot0 = uv2:DequeItem(uv2.oneLineTpl)
-					slot3 = uv3
-					slot0.name = string.format("Line%s_%s", slot3:GetConfigID(), uv0:GetConfigID())
-
-					setAnchoredPosition(slot0, uv4)
-
-					uv4 = uv4 + Vector2.New(uv5 + uv6, 0)
-
-					setSizeDelta(slot0, {
-						x = uv5,
-						y = uv2.oneLineHeight
-					})
-
-					slot1 = uv2.storyNodeStatus[uv0:GetConfigID()].status
-
-					eachChild(slot0, function (slot0)
-						setImageColor(slot0, Color.NewHex(uv0[uv1]))
-					end)
-
-					slot2 = uv2:DequeItem(uv2.storyNodeTpl)
-					slot2.name = uv0:GetConfigID()
-
-					setAnchoredPosition(slot2, uv4)
-
-					uv2.storyNodeTFsById[uv0:GetConfigID()] = {
-						nodeTF = tf(slot2)
-					}
-					uv4 = uv4 + Vector2.New(uv8 + uv9, 0)
-					uv3 = uv0
-					uv0 = uv2.storyTree.childDict[uv0:GetConfigID()][1]
-
-					return true
-				end
-
-				while slot9() do
+					while slot9() do
+					end
 				end
 
 				if uv14 then
-					slot10 = nil
+					slot8 = nil
 
 					if slot0 == 1 then
 						setAnchoredPosition(uv8:DequeItem(uv8.unionUpTpl), slot4)
 
 						if uv1[slot0] < uv2 then
-							setSizeDelta(slot10, {
+							setSizeDelta(slot8, {
 								x = uv9 + slot2,
 								y = uv10
 							})
 
-							slot11 = tf(slot10):Find("Line_1").sizeDelta
-							slot11.x = slot11.x + slot2
+							slot9 = tf(slot8):Find("Line_1").sizeDelta
+							slot9.x = slot9.x + slot2
 
-							setSizeDelta(tf(slot10):Find("Line_1"), slot11)
+							setSizeDelta(tf(slot8):Find("Line_1"), slot9)
 
 							slot4 = slot4 + Vector2.New(slot2, 0)
 						end
@@ -818,15 +840,15 @@ slot0.UpdateStory = function(slot0)
 						setAnchoredPosition(uv8:DequeItem(uv8.unionDownTpl), slot4)
 
 						if uv1[slot0] < uv2 then
-							setSizeDelta(slot10, {
+							setSizeDelta(slot8, {
 								x = uv9 + slot2,
 								y = uv10
 							})
 
-							slot11 = tf(slot10):Find("Line_1").sizeDelta
-							slot11.x = slot11.x + slot2
+							slot9 = tf(slot8):Find("Line_1").sizeDelta
+							slot9.x = slot9.x + slot2
 
-							setSizeDelta(tf(slot10):Find("Line_1"), slot11)
+							setSizeDelta(tf(slot8):Find("Line_1"), slot9)
 
 							slot4 = slot4 + Vector2.New(slot2, 0)
 						end
@@ -834,21 +856,21 @@ slot0.UpdateStory = function(slot0)
 						setAnchoredPosition(uv8:DequeItem(uv8.unionCenterTpl), slot4)
 
 						if uv1[slot0] < uv2 then
-							slot11 = tf(slot10).sizeDelta
-							slot11.x = slot11.x + slot2
+							slot9 = tf(slot8).sizeDelta
+							slot9.x = slot9.x + slot2
 
-							setSizeDelta(slot10, slot11)
+							setSizeDelta(slot8, slot9)
 
 							slot4 = slot4 + Vector2.New(slot2, 0)
 						end
 					end
 
-					slot14 = uv14
-					slot10.name = string.format("Union%s_%s", slot8:GetConfigID(), slot14:GetConfigID())
 					slot12 = uv14
-					slot11 = uv8.storyNodeStatus[slot12:GetConfigID()].status
+					slot8.name = string.format("Union%s_%s", slot7:GetConfigID(), slot12:GetConfigID())
+					slot10 = uv14
+					slot9 = uv8.storyNodeStatus[slot10:GetConfigID()].status
 
-					eachChild(slot10, function (slot0)
+					eachChild(slot8, function (slot0)
 						setImageColor(slot0, Color.NewHex(uv0[uv1]))
 					end)
 				end
@@ -877,7 +899,7 @@ slot0.UpdateStory = function(slot0)
 					nodePos = slot9
 				})
 			else
-				uv2 = slot9 + uv4
+				uv2 = slot9.x + uv4
 			end
 		end
 
@@ -933,13 +955,21 @@ slot0.UpdateStory = function(slot0)
 		if slot24 == uv0 then
 			setActive(slot25:Find("circle/Story"), false)
 			setActive(slot25:Find("circle/Battle"), false)
+			setActive(slot25:Find("circle/Option"), false)
 			setText(slot25:Find(""))
 		elseif slot27 == ActivitySpStoryNode.NODE_TYPE.STORY then
-			setActive(slot25:Find("circle/Story"), slot27 == ActivitySpStoryNode.NODE_TYPE.STORY)
-			setActive(slot25:Find("circle/Battle"), slot27 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
+			setActive(slot25:Find("circle/Option"), false)
+			setActive(slot25:Find("circle/Story"), true)
+			setActive(slot25:Find("circle/Battle"), false)
 			setActive(slot25:Find("circle/Story/Done"), slot24 == uv1)
+		elseif slot27 == ActivitySpStoryNode.NODE_TYPE.OPTION_BRANCH then
+			setActive(slot25:Find("circle/Option"), true)
+			setActive(slot25:Find("circle/Story"), false)
+			setActive(slot25:Find("circle/Battle"), false)
+			setActive(slot25:Find("circle/Option/Done"), slot24 == uv1)
 		elseif slot27 == ActivitySpStoryNode.NODE_TYPE.BATTLE then
-			setActive(slot25:Find("circle/Story"), slot27 == ActivitySpStoryNode.NODE_TYPE.STORY)
+			setActive(slot25:Find("circle/Story"), false)
+			setActive(slot25:Find("circle/Option"), false)
 			setActive(slot25:Find("circle/Battle"), slot27 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
 			setActive(slot25:Find("circle/Battle/Done"), slot24 == uv1)
 		end
@@ -1075,7 +1105,7 @@ slot0.PlayStory = function(slot0, slot1, slot2, slot3)
 			if tonumber(uv2) and slot1 > 0 then
 				uv3:emit(LevelMediator2.ON_PERFORM_COMBAT, slot1, nil, uv0)
 			else
-				uv4:Play(uv2, slot0, uv1)
+				uv4:PlayForAcivitySpStory(uv2, slot0, uv1)
 			end
 		end,
 		function (slot0, ...)

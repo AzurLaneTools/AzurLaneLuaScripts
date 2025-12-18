@@ -2653,6 +2653,31 @@ pg.medal_template = {
 		explain1 = "Tempesta and Islas de Libertád",
 		explain2 = "Event"
 	},
+	[200111] = {
+		target_id = "50295",
+		name = "Star of the Firmament Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = [[
+A medal based on the Anchorage National Observatory.
+——You peeled back the Veil and traversed the firmament.
+——The past and the present are connected in this moment.
+——A new era has begun.]],
+		next = 0,
+		icon = "9111",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9111",
+		condition = "Collect 8 stickers in A Note Through the Firmament.",
+		rank = 1,
+		id = 200111,
+		explain1 = "A Note Through the Firmament",
+		explain2 = "Event"
+	},
 	all = {
 		10011,
 		10012,
@@ -2774,6 +2799,7 @@ pg.medal_template = {
 		200071,
 		200081,
 		200091,
-		200101
+		200101,
+		200111
 	}
 }

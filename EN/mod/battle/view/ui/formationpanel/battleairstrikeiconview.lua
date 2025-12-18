@@ -25,6 +25,10 @@ slot2.AppendIcon = function(slot0, slot1, slot2)
 	setImageSprite(slot4, uv2.Battle.BattleResourceManager.GetInstance():GetAircraftIcon(uv0.GetAircraftTmpDataFromID(slot2.templateID).icon or uv1.DEFAULT_ICON_NAME))
 
 	slot0._iconList[slot1] = slot3
+
+	if slot3:GetComponent(typeof(Animation)) then
+		quickPlayAnimation(slot3, "anim_skinui_AFC_in")
+	end
 end
 
 slot2.RemoveIcon = function(slot0, slot1, slot2)
@@ -33,12 +37,25 @@ slot2.RemoveIcon = function(slot0, slot1, slot2)
 	end
 
 	if slot2.totalNumber <= 0 then
-		Object.Destroy(slot3)
+		slot4 = function()
+			Object.Destroy(uv0)
 
-		slot0._iconList[slot1] = nil
-	else
-		slot0:setIconNumber(slot3.transform:Find("FighterIcon"), slot2.totalNumber)
+			uv1._iconList[uv2] = nil
+		end
+
+		if slot3:GetComponent(typeof(Animation)) then
+			slot3:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+				uv0()
+			end)
+			quickPlayAnimation(slot3, "anim_skinui_AFC_out")
+		else
+			slot4()
+		end
+
+		return
 	end
+
+	slot0:setIconNumber(slot3.transform:Find("FighterIcon"), slot2.totalNumber)
 end
 
 slot2.Dispose = function(slot0)

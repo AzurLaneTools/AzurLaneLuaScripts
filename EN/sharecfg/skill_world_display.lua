@@ -3723,6 +3723,20 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[802041] = {
+		desc_get = "",
+		id = 802041,
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802042] = {
+		desc_get = "",
+		id = 802042,
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		3631,
 		4161,
@@ -3804,6 +3818,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		801931,
 		801932,
 		801961,
-		801962
+		801962,
+		802041,
+		802042
 	}
 }

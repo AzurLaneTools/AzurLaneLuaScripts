@@ -341,6 +341,10 @@ pg.strategy_data_template = setmetatable({
 		201550,
 		201551,
 		201552,
+		201650,
+		201651,
+		201654,
+		201655,
 		205001,
 		205002,
 		205003,
@@ -4261,6 +4265,60 @@ Your ships become briefly invulnerable after taking DMG.
 		iconSize = "",
 		buff_type = 0,
 		id = 201552,
+		icon = "200908",
+		arg = {}
+	},
+	[201650] = {
+		buff_id = 0,
+		name = "Star Veil",
+		desc = "Under the Star Veil, some AFWL VUL TPTPJ LUAPAPLZ become AFWL ADV TPTPJ LUAPAPLZ, preventing the AFWL VUL TPTPJ LUAPAPLZ from receiving reinforcements and decreasing the probability of large enemy fleets appearing on the map.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201650,
+		icon = "201650",
+		arg = {}
+	},
+	[201651] = {
+		buff_id = 201651,
+		name = "Experimental Safety Management",
+		desc = "During the battle, Enforcers from the Arbiters will provide support.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201651,
+		icon = "201651",
+		arg = {}
+	},
+	[201654] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = "The boss mimics 3 different types of enemies depending on what the boss' current HP is (<color=#92fc63>above 71%, below 70%, and below 40%</color>). The boss takes <color=#92fc63>50% less DMG</color> while in a mimic state.\nWhile in a mimic state, the boss' max HP is fixed. <color=#92fc63>When their HP is reduced to 0, the mimic state is dispelled, and then they regain it after 8s.</color>\nAdditionally, while in a mimic state, the boss' Armor Type becomes Heavy Armor; while not in this state, it becomes Light Armor.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201654,
+		icon = "200908",
+		arg = {}
+	},
+	[201655] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+The boss mimics 3 different types of enemies depending on what the boss' current HP is (<color=#92fc63>above 71%, below 70%, and below 40%</color>). The boss takes <color=#92fc63>50% less DMG</color> while in a mimic state.
+While in a mimic state, the boss' max HP is fixed. <color=#92fc63>When their HP is reduced to 0, the mimic state is dispelled, and then they regain it after 8s.</color>
+Additionally, while in a mimic state, the boss' Armor Type becomes Heavy Armor; while not in this state, it becomes Light Armor.
+
+- Hard Mode Details -
+Enemies <color=#ffc038>deal significantly more DMG.</color> Their large shells cannot be negated by shields or by launching an airstrike.
+<color=#92fc63>Your Vanguard's hitbox is substantially smaller than usual, and only the frontmost ship in your Vanguard possesses a hitbox.</color>
+Your ships become briefly invulnerable after taking DMG.
+
+· The skills "Operation Rainbow," "Fiercer When Cornered," and "Eleventh Hour" are rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201655,
 		icon = "200908",
 		arg = {}
 	},

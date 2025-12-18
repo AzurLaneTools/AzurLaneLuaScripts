@@ -649,7 +649,7 @@ return {
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			say = "Don't. They might just be bluffing.",
 			typewriter = {
 				speed = 0.05,
@@ -662,7 +662,7 @@ return {
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			say = "If Zero really wasn't here, why put all these Arbiters here?",
 			typewriter = {
 				speed = 0.05,

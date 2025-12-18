@@ -3,9 +3,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "Mini-Trip Plans",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 1,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1,
@@ -44,9 +45,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "Dinner Together",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 2,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			32,
@@ -73,9 +75,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "Watching the Sunrise",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 3,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			51,
@@ -118,9 +121,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "Showel Gel",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 4,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			86,
@@ -149,9 +153,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "Unique Taste",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 5,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			107,
@@ -187,9 +192,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "Boredom",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 6,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			135,
@@ -218,9 +224,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "Hobbies",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 7,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			156,
@@ -275,9 +282,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "Evening Meal",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 8,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			203,
@@ -310,9 +318,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "Longing",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 9,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			228,
@@ -347,9 +356,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "Back Massage",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 10,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			255,
@@ -380,9 +390,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "Drunk Texting",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 11,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			278,
@@ -414,9 +425,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "Working Out",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 12,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			302,
@@ -451,9 +463,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "Stamps",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 13,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			329,
@@ -497,9 +510,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "Lost",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 14,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			365,
@@ -529,9 +543,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "Sleepless Night",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 15,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			387,
@@ -575,9 +590,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "I Wanna Nap",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 16,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			423,
@@ -638,9 +654,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "A Rainy Day",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 17,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			476,
@@ -695,9 +712,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "Awakening",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 18,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			523,
@@ -724,8 +742,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 109,
 		name = "Treasure-Hunting in the Office",
-		id = 19,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 19,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -801,8 +820,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 200,
 		name = "A Present for the Commander",
-		id = 20,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 20,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -885,8 +905,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 101,
 		name = "Movie Screening",
-		id = 21,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 21,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -967,8 +988,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 102,
 		name = "Professional and Disciplined",
-		id = 22,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 22,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1039,8 +1061,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 103,
 		name = "Dinner Party",
-		id = 23,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 23,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1118,8 +1141,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 104,
 		name = "Priority Follow",
-		id = 24,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 24,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1209,8 +1233,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 105,
 		name = "Exercise Review",
-		id = 25,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 25,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1282,8 +1307,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 106,
 		name = "Lucky Day",
-		id = 26,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 26,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1365,8 +1391,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 107,
 		name = "The Sakura Empire's Strength",
-		id = 27,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 27,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1451,8 +1478,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 108,
 		name = "A Special Tea Party",
-		id = 28,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 28,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1534,9 +1562,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20509,
 		name = "Dessert-Making Course",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 29,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1122,
@@ -1582,9 +1611,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20509,
 		name = "Dating Tips",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 30,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			1160,
@@ -1625,9 +1655,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20509,
 		name = "Dirty Clothes",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 31,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			1193,
@@ -1667,9 +1698,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40503,
 		name = "Concert",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 32,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1225,
@@ -1708,9 +1740,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40503,
 		name = "The Sports Grounds Mystery",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 33,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			1257,
@@ -1752,9 +1785,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40503,
 		name = "All in the Name of Health",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 34,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			1291,
@@ -1791,9 +1825,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 49906,
 		name = "Stamps Are Magic",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 35,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1320,
@@ -1825,9 +1860,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 49906,
 		name = "The Unhulde's Drops",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 36,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			1344,
@@ -1868,9 +1904,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 49906,
 		name = "The Unhulde's Dream",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 37,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			1377,
@@ -1904,9 +1941,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40404,
 		name = "Oversleeping",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 38,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1403,
@@ -1938,9 +1976,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40404,
 		name = "Meeting Spot",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 39,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			1427,
@@ -1981,9 +2020,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40404,
 		name = "How to Arrange a Date",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 40,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			1460,
@@ -2024,9 +2064,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40704,
 		name = "Efficient Communication",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 41,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1493,
@@ -2072,9 +2113,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40704,
 		name = "The Late-Night Overseer",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 42,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			1531,
@@ -2108,9 +2150,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40704,
 		name = "Dinner with Rumey",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 43,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			1557,
@@ -2144,9 +2187,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40152,
 		name = "Parkour Route",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 44,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1583,
@@ -2178,9 +2222,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40152,
 		name = "Rainy Day",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 45,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			1607,
@@ -2219,9 +2264,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40152,
 		name = "Organizing Paperwork",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 46,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			1638,
@@ -2264,9 +2310,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40211,
 		name = "Dessert Shop",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 47,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1673,
@@ -2301,9 +2348,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40211,
 		name = "Lipstick Color",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 48,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			1700,
@@ -2335,9 +2383,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40211,
 		name = "Shop Planning",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 49,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			1724,
@@ -2376,9 +2425,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40109,
 		name = "Organizing Paperwork",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 50,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1755,
@@ -2420,9 +2470,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40109,
 		name = "Picture Book Story",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 51,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			1789,
@@ -2465,9 +2516,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40109,
 		name = "Nightmare",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 52,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			1824,
@@ -2517,9 +2569,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40111,
 		name = "New Game",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 53,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1866,
@@ -2565,9 +2618,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40111,
 		name = "Learning to Cook",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 54,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			1904,
@@ -2609,9 +2663,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40111,
 		name = "Shut-In No More",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 55,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			1938,
@@ -2654,9 +2709,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50105,
 		name = "Taste Survey",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 56,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			1973,
@@ -2694,9 +2750,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50105,
 		name = "A Battle in the Kitchen",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 57,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2003,
@@ -2732,9 +2789,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50105,
 		name = "Sweet and Soft?",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 58,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			2031,
@@ -2781,9 +2839,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50301,
 		name = "It's in the Details",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 59,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			2070,
@@ -2821,9 +2880,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50301,
 		name = "Nighttime Invitation",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 60,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2100,
@@ -2859,9 +2919,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50301,
 		name = "A Formal Date",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 61,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			2128,
@@ -2899,9 +2960,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50210,
 		name = "Excessive Attention",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 62,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			2158,
@@ -2936,9 +2998,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50210,
 		name = "Know Each Other",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 63,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2185,
@@ -2976,9 +3039,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50210,
 		name = "Colors of Emotions",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 64,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			2215,
@@ -3024,9 +3088,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50109,
 		name = "Master Manipulator",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 65,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			2253,
@@ -3062,9 +3127,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50109,
 		name = "Plotting a Prank",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 66,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2281,
@@ -3110,9 +3176,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50109,
 		name = "Sharing Idea",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 67,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			2319,
@@ -3154,9 +3221,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50108,
 		name = "Keeping Things Clean",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 68,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			2353,
@@ -3191,9 +3259,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50108,
 		name = "Choosing Aprons",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 69,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2380,
@@ -3232,9 +3301,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50108,
 		name = "Feeling at Home",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 70,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			2411,
@@ -3273,8 +3343,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 103,
 		name = "New Year's Red Envelopes",
-		id = 71,
+		group_ii = 0,
 		unlock_desc = "Unlocked at a specific time.",
+		id = 71,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -3363,9 +3434,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50209,
 		name = "Trouble on My Mind",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 72,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			2509,
@@ -3403,9 +3475,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50209,
 		name = "To the Kitchen",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 73,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2539,
@@ -3446,9 +3519,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50209,
 		name = "It's the Little Things",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 74,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			2572,
@@ -3480,9 +3554,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60508,
 		name = "Reinspiration",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 75,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			2596,
@@ -3540,9 +3615,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60508,
 		name = "Pics of You",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 76,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2646,
@@ -3579,9 +3655,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60508,
 		name = "Starving Artist",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 77,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			2675,
@@ -3614,9 +3691,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60803,
 		name = "No Trespassing",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 78,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			2700,
@@ -3673,9 +3751,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60803,
 		name = "Organizing Paperwork",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 79,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2749,
@@ -3719,9 +3798,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60803,
 		name = "State of Mind",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 80,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			2785,
@@ -3766,9 +3846,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60111,
 		name = "Make It Casual",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 81,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			2822,
@@ -3809,9 +3890,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60111,
 		name = "A Place to Read",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 82,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2855,
@@ -3852,9 +3934,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60111,
 		name = "Poetic Inspiration",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 83,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			2888,
@@ -3912,9 +3995,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60203,
 		name = "Special Report",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 84,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			2938,
@@ -3960,9 +4044,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60203,
 		name = "Tactical Drink",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 85,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			2976,
@@ -4002,9 +4087,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60203,
 		name = "Wrong Address",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 86,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3008,
@@ -4052,9 +4138,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90107,
 		name = "First Chat",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 87,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3048,
@@ -4098,9 +4185,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90107,
 		name = "Overtime",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 88,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3084,
@@ -4139,9 +4227,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90107,
 		name = "Steamy Night",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 89,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3115,
@@ -4182,9 +4271,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10713,
 		name = "Outdoor Gear",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 90,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3148,
@@ -4213,9 +4303,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10713,
 		name = "Survival Food",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 91,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3169,
@@ -4257,9 +4348,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10713,
 		name = "Late Night Hot Spring Adventure",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 92,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3203,
@@ -4296,9 +4388,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10153,
 		name = "The GOAT's Paper Planes",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 93,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3232,
@@ -4325,9 +4418,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10153,
 		name = "The GOAT's Notes",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 94,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3251,
@@ -4378,9 +4472,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10153,
 		name = "Coffee with a Twist",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 95,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3294,
@@ -4415,9 +4510,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10234,
 		name = "Commandeeeeer!",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 96,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3321,
@@ -4456,9 +4552,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10234,
 		name = "Scheduling Matters",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 97,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3352,
@@ -4492,9 +4589,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10234,
 		name = "The Port's Top Headline",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 98,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3378,
@@ -4542,9 +4640,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70203,
 		name = "Pets",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 99,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3418,
@@ -4587,9 +4686,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70203,
 		name = "So-Called Supervision",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 100,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3453,
@@ -4637,9 +4737,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70203,
 		name = "New Dress",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 101,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3493,
@@ -4691,9 +4792,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110201,
 		name = "Botanical Communication",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 102,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3537,
@@ -4728,9 +4830,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110201,
 		name = "Kitchen Nightmare",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 103,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3564,
@@ -4780,9 +4883,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110201,
 		name = "Naming the Children",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 104,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3606,
@@ -4826,9 +4930,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110101,
 		name = "Green Environment",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 105,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3642,
@@ -4859,9 +4964,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110101,
 		name = "Healing Magic",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 106,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3665,
@@ -4893,9 +4999,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110101,
 		name = "How Romantic",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 107,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3689,
@@ -4936,9 +5043,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70509,
 		name = "Home Delivery",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 108,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3722,
@@ -4965,9 +5073,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70509,
 		name = "Aren't You Cold?",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 109,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3741,
@@ -4995,9 +5104,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70509,
 		name = "Warm Night",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 110,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3761,
@@ -5034,9 +5144,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70208,
 		name = "The Nap Prevention Robot",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 111,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3790,
@@ -5074,9 +5185,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70208,
 		name = "Exploding Inventions",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 112,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3820,
@@ -5110,9 +5222,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70208,
 		name = "Personalized Inventions",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 113,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3846,
@@ -5160,9 +5273,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20712,
 		name = "The Art of Taking Breaks",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 114,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3886,
@@ -5208,9 +5322,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20712,
 		name = "Naptime",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 115,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			3924,
@@ -5254,9 +5369,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20712,
 		name = "The Work in PJs Revolution",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 116,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			3960,
@@ -5300,9 +5416,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20516,
 		name = "Everyone Makes Mistakes",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 117,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			3996,
@@ -5334,9 +5451,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20516,
 		name = "The Punishment You Desire",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 118,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4020,
@@ -5376,9 +5494,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20516,
 		name = "Our Symbol",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 119,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4052,
@@ -5420,9 +5539,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20138,
 		name = "Deeply Sinful",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 120,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4086,
@@ -5458,9 +5578,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20138,
 		name = "Sense of Distance",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 121,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4114,
@@ -5499,9 +5620,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20138,
 		name = "Notes on the Commander",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 122,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4145,
@@ -5543,9 +5665,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20235,
 		name = "Nile Wrap",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 123,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4179,
@@ -5580,9 +5703,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20235,
 		name = "Beckoning Sphinx",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 124,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4206,
@@ -5613,9 +5737,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20235,
 		name = "Where You Least Expect It",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 125,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4229,
@@ -5656,9 +5781,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20139,
 		name = "Surprise",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 126,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4262,
@@ -5696,9 +5822,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20139,
 		name = "Rainbow Massager",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 127,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4292,
@@ -5735,9 +5862,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20139,
 		name = "Your Duties, My Duties",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 128,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4321,
@@ -5786,9 +5914,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20236,
 		name = "Hold My Hand",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 129,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4362,
@@ -5826,9 +5955,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20236,
 		name = "I'm Always Watching",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 130,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4392,
@@ -5866,9 +5996,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20236,
 		name = "The Hunter and the Hunted",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 131,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4422,
@@ -5903,9 +6034,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40407,
 		name = "Proper Scheduling",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 132,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4449,
@@ -5938,9 +6070,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40407,
 		name = "Mandated Rest",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 133,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4474,
@@ -5970,9 +6103,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40407,
 		name = "A Blessing in Disguise",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 134,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4496,
@@ -6013,9 +6147,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40814,
 		name = "Energy Saving Trick",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 135,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4529,
@@ -6046,9 +6181,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40814,
 		name = "A Place to Lie Down",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 136,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4552,
@@ -6088,9 +6224,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40814,
 		name = "A Sky of Stars",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 137,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4584,
@@ -6127,9 +6264,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40113,
 		name = "Development Advisor",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 138,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4613,
@@ -6168,9 +6306,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40113,
 		name = "The Advice Grader",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 139,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4644,
@@ -6213,9 +6352,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40113,
 		name = "Master of Romance",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 140,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4679,
@@ -6260,9 +6400,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90401,
 		name = "Sweet Delivery",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 141,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4716,
@@ -6306,9 +6447,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90401,
 		name = "Lingering Scent",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 142,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4752,
@@ -6356,9 +6498,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90401,
 		name = "Bedtime Story",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 143,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4792,
@@ -6413,9 +6556,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90105,
 		name = "Mysterious Notebook",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 144,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4839,
@@ -6452,9 +6596,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90105,
 		name = "Magic Cabinet",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 145,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4868,
@@ -6493,9 +6638,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90105,
 		name = "Flower Test",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 146,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4899,
@@ -6533,9 +6679,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80401,
 		name = "\"Fair Exchange\"",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 147,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			4929,
@@ -6562,9 +6709,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80401,
 		name = "Not Just Coffee",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 148,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			4948,
@@ -6602,9 +6750,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80401,
 		name = "The Commander's Taste",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 149,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			4978,
@@ -6637,9 +6786,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80601,
 		name = "Online Duties",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 150,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5003,
@@ -6680,9 +6830,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80601,
 		name = "Health and Music",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 151,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5036,
@@ -6722,9 +6873,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80601,
 		name = "Lucid Dreaming",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 152,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5068,
@@ -6760,9 +6912,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80105,
 		name = "Vibe Change",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 153,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5096,
@@ -6792,9 +6945,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80105,
 		name = "The Moving Closet",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 154,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5118,
@@ -6838,9 +6992,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80105,
 		name = "Truth or Dare",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 155,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5154,
@@ -6881,9 +7036,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80303,
 		name = "Special Festivities",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 156,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5187,
@@ -6917,9 +7073,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80303,
 		name = "Favorite Food",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 157,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5213,
@@ -6952,9 +7109,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80303,
 		name = "A Journey Challenging",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 158,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5238,
@@ -6990,9 +7148,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80204,
 		name = "Exorcising Evil",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 159,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5266,
@@ -7027,9 +7186,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80204,
 		name = "Record Player",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 160,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5293,
@@ -7059,9 +7219,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80204,
 		name = "Under Her Control",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 161,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5315,
@@ -7095,9 +7256,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10709,
 		name = "Drinking Together",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 162,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5341,
@@ -7127,9 +7289,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10709,
 		name = "Creative Hamburger",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 163,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5363,
@@ -7162,9 +7325,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10709,
 		name = "On the Same Wavelength",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 164,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5388,
@@ -7195,9 +7359,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30716,
 		name = "Rainy Day Aromas",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 165,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5411,
@@ -7230,9 +7395,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30716,
 		name = "What's in the Mirror",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 166,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5436,
@@ -7268,9 +7434,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30716,
 		name = "Together, Forever",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 167,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5464,
@@ -7300,9 +7467,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 31702,
 		name = "Aquarium",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 168,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5486,
@@ -7335,9 +7503,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 31702,
 		name = "Quick Summons",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 169,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5511,
@@ -7374,9 +7543,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 31702,
 		name = "Deep-Sea Dance",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 170,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5540,
@@ -7404,9 +7574,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30516,
 		name = "A Drink and a Verse",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 171,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5560,
@@ -7444,9 +7615,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30516,
 		name = "Heart in a Haiku",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 172,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5590,
@@ -7482,9 +7654,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30516,
 		name = "Just One Cup",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 173,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5618,
@@ -7519,9 +7692,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30320,
 		name = "Rosemary",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 174,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5645,
@@ -7553,9 +7727,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30320,
 		name = "A Shared Bath",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 175,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5669,
@@ -7587,9 +7762,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30320,
 		name = "A Farewell Unsaid",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 176,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5693,
@@ -7624,9 +7800,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30227,
 		name = "Unusual Ingredients",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 177,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5720,
@@ -7657,9 +7834,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30227,
 		name = "Hot Pot Upgrade",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 178,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5743,
@@ -7695,9 +7873,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30227,
 		name = "The Hot Pot Known as Love",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 179,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5771,
@@ -7729,9 +7908,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30192,
 		name = "Talking Bonsai",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 180,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5795,
@@ -7764,9 +7944,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30192,
 		name = "A Mere Ninja Tool?",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 181,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5820,
@@ -7796,9 +7977,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30192,
 		name = "Watch Out Above",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 182,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5842,
@@ -7825,9 +8007,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30225,
 		name = "Mending",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 183,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5861,
@@ -7854,9 +8037,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30225,
 		name = "Warrior's Intuition",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 184,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5880,
@@ -7884,9 +8068,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30225,
 		name = "Two Hard Workers",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 185,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5900,
@@ -7918,9 +8103,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960012,
 		name = "Kill Them All",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 186,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			5924,
@@ -7954,9 +8140,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960012,
 		name = "On My Way",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 187,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			5950,
@@ -7991,9 +8178,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960012,
 		name = "It's All for You",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 188,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			5977,
@@ -8029,9 +8217,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960013,
 		name = "Give Me Instructions",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 189,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			6005,
@@ -8068,9 +8257,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960013,
 		name = "Coping with Praise",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 190,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			6034,
@@ -8104,9 +8294,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960013,
 		name = "Like Kneading Dough",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 191,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			6060,
@@ -8137,9 +8328,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960014,
 		name = "Tender-Hearted",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 192,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			6083,
@@ -8175,9 +8367,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960014,
 		name = "Song of Blessings",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 193,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			6111,
@@ -8215,9 +8408,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960014,
 		name = "Love Eternal",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 194,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			6141,
@@ -8251,9 +8445,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960015,
 		name = "Let's Go Fishing!",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 195,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			6167,
@@ -8287,9 +8482,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960015,
 		name = "Let's Go Treasure-Hunting!",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 196,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			6193,
@@ -8321,9 +8517,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960015,
 		name = "Let's Go Anywhere But Here!",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 197,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			6217,
@@ -8357,9 +8554,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960016,
 		name = "Supply Adventures",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 198,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			6243,
@@ -8398,9 +8596,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960016,
 		name = "Survival Game",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 199,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			6274,
@@ -8438,9 +8637,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960016,
 		name = "Mystery Neighbor",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 200,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			6304,
@@ -8477,9 +8677,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10324,
 		name = "Consultation",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 201,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			6333,
@@ -8521,9 +8722,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10324,
 		name = "Health Questionnaire",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 202,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			6367,
@@ -8564,9 +8766,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10324,
 		name = "Special Exercise Plan",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 203,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			6400,
@@ -8601,9 +8804,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80503,
 		name = "Getting Crowded Here...",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 204,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			6427,
@@ -8639,9 +8843,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80503,
 		name = "Heating Up",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 205,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			6455,
@@ -8683,9 +8888,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80503,
 		name = "Commander's Brainwaves",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 206,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			6489,
@@ -8721,9 +8927,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10233,
 		name = "Shockingly Low Negative Reviews",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
 		id = 207,
 		trigger_param = "",
-		unlock_desc = "Obtain the character.",
 		trigger_type = 1,
 		content = {
 			6517,
@@ -8757,9 +8964,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10233,
 		name = "Special Service",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 208,
 		trigger_param = "100",
-		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			6543,
@@ -8799,9 +9007,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10233,
 		name = "Clumsy Girl Service",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 209,
 		trigger_param = "150",
-		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			6575,
@@ -8832,6 +9041,752 @@ pg.activity_ins_chat_group = {
 			6600,
 			6601,
 			6602
+		}
+	},
+	{
+		ship_group = 110,
+		name = "Garden Invitation",
+		group_ii = 0,
+		unlock_desc = "Unlocked at a specific time.",
+		id = 210,
+		trigger_type = 3,
+		trigger_param = {
+			{
+				{
+					2025,
+					12,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		content = {
+			6603,
+			6604,
+			6605,
+			6606,
+			6607,
+			6608,
+			6609,
+			6610,
+			6611,
+			6612,
+			6613,
+			6614,
+			6615,
+			6616,
+			6617,
+			6618,
+			6619,
+			6620,
+			6621,
+			6622,
+			6623,
+			6624,
+			6625,
+			6626,
+			6627,
+			6628,
+			6629,
+			6630,
+			6631,
+			6632,
+			6633,
+			6634,
+			6635,
+			6636,
+			6637,
+			6638,
+			6639,
+			6640,
+			6641,
+			6642,
+			6643,
+			6644,
+			6645,
+			6646,
+			6647
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "Remember to Eat Well!",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
+		id = 211,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6648,
+			6649,
+			6650,
+			6651,
+			6652,
+			6653,
+			6654,
+			6655,
+			6656,
+			6657,
+			6658,
+			6659,
+			6660,
+			6661,
+			6662,
+			6663,
+			6664,
+			6665,
+			6666,
+			6667,
+			6668,
+			6669,
+			6670,
+			6671,
+			6672
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "New Genres",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
+		id = 212,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6673,
+			6674,
+			6675,
+			6676,
+			6677,
+			6678,
+			6679,
+			6680,
+			6681,
+			6682,
+			6683,
+			6684,
+			6685,
+			6686,
+			6687,
+			6688,
+			6689,
+			6690,
+			6691,
+			6692,
+			6693,
+			6694,
+			6695,
+			6696,
+			6697
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "A Gentle Push",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
+		id = 213,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6698,
+			6699,
+			6700,
+			6701,
+			6702,
+			6703,
+			6704,
+			6705,
+			6706,
+			6707,
+			6708,
+			6709,
+			6710,
+			6711,
+			6712,
+			6713,
+			6714,
+			6715,
+			6716,
+			6717,
+			6718,
+			6719,
+			6720,
+			6721,
+			6722,
+			6723,
+			6724,
+			6725,
+			6726,
+			6727
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "After That Balloon!",
+		group_ii = 10716,
+		unlock_desc = "Obtain the character.",
+		id = 214,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6728,
+			6729,
+			6730,
+			6731,
+			6732,
+			6733,
+			6734,
+			6735,
+			6736,
+			6737,
+			6738,
+			6739,
+			6740,
+			6741,
+			6742,
+			6743,
+			6744,
+			6745,
+			6746,
+			6747,
+			6748,
+			6749,
+			6750,
+			6751,
+			6752,
+			6753
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "Blue Ghost",
+		group_ii = 10716,
+		unlock_desc = "Raise the character's Affinity to 100.",
+		id = 215,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6754,
+			6755,
+			6756,
+			6757,
+			6758,
+			6759,
+			6760,
+			6761,
+			6762,
+			6763,
+			6764,
+			6765,
+			6766,
+			6767,
+			6768,
+			6769,
+			6770,
+			6771,
+			6772,
+			6773,
+			6774,
+			6775,
+			6776,
+			6777,
+			6778
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "New Song",
+		group_ii = 10716,
+		unlock_desc = "Raise the character's Affinity to 150.",
+		id = 216,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6779,
+			6780,
+			6781,
+			6782,
+			6783,
+			6784,
+			6785,
+			6786,
+			6787,
+			6788,
+			6789,
+			6790,
+			6791,
+			6792,
+			6793,
+			6794,
+			6795,
+			6796,
+			6797,
+			6798,
+			6799,
+			6800,
+			6801,
+			6802,
+			6803,
+			6804,
+			6805
+		}
+	},
+	{
+		ship_group = 10110,
+		name = "It's Gonna Blow!",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
+		id = 217,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6806,
+			6807,
+			6808,
+			6809,
+			6810,
+			6811,
+			6812,
+			6813,
+			6814,
+			6815,
+			6816,
+			6817,
+			6818,
+			6819,
+			6820,
+			6821,
+			6822,
+			6823,
+			6824,
+			6825,
+			6826,
+			6827,
+			6828,
+			6829,
+			6830,
+			6831,
+			6832
+		}
+	},
+	{
+		ship_group = 10110,
+		name = "I'm Gonna Crash!",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
+		id = 218,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6833,
+			6834,
+			6835,
+			6836,
+			6837,
+			6838,
+			6839,
+			6840,
+			6841,
+			6842,
+			6843,
+			6844,
+			6845,
+			6846,
+			6847,
+			6848,
+			6849,
+			6850,
+			6851,
+			6852,
+			6853,
+			6854,
+			6855,
+			6856,
+			6857,
+			6858,
+			6859,
+			6860,
+			6861
+		}
+	},
+	{
+		ship_group = 10110,
+		name = "I'm Going Down!",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
+		id = 219,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6862,
+			6863,
+			6864,
+			6865,
+			6866,
+			6867,
+			6868,
+			6869,
+			6870,
+			6871,
+			6872,
+			6873,
+			6874,
+			6875,
+			6876,
+			6877,
+			6878,
+			6879,
+			6880,
+			6881,
+			6882,
+			6883,
+			6884
+		}
+	},
+	{
+		ship_group = 10155,
+		name = "Comprehensive Testing",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
+		id = 220,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6885,
+			6886,
+			6887,
+			6888,
+			6889,
+			6890,
+			6891,
+			6892,
+			6893,
+			6894,
+			6895,
+			6896,
+			6897,
+			6898,
+			6899,
+			6900,
+			6901,
+			6902,
+			6903,
+			6904,
+			6905,
+			6906,
+			6907,
+			6908,
+			6909,
+			6910,
+			6911,
+			6912,
+			6913,
+			6914
+		}
+	},
+	{
+		ship_group = 10155,
+		name = "Bug Testing",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
+		id = 221,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6915,
+			6916,
+			6917,
+			6918,
+			6919,
+			6920,
+			6921,
+			6922,
+			6923,
+			6924,
+			6925,
+			6926,
+			6927,
+			6928,
+			6929,
+			6930,
+			6931,
+			6932,
+			6933,
+			6934,
+			6935,
+			6936,
+			6937,
+			6938,
+			6939,
+			6940
+		}
+	},
+	{
+		ship_group = 10155,
+		name = "Withdrawal",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
+		id = 222,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6941,
+			6942,
+			6943,
+			6944,
+			6945,
+			6946,
+			6947,
+			6948,
+			6949,
+			6950,
+			6951,
+			6952,
+			6953,
+			6954,
+			6955,
+			6956,
+			6957,
+			6958,
+			6959,
+			6960,
+			6961,
+			6962,
+			6963,
+			6964
+		}
+	},
+	{
+		ship_group = 10235,
+		name = "Happiness Guide",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
+		id = 223,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6965,
+			6966,
+			6967,
+			6968,
+			6969,
+			6970,
+			6971,
+			6972,
+			6973,
+			6974,
+			6975,
+			6976,
+			6977,
+			6978,
+			6979,
+			6980,
+			6981,
+			6982,
+			6983,
+			6984,
+			6985,
+			6986,
+			6987,
+			6988,
+			6989,
+			6990,
+			6991,
+			6992
+		}
+	},
+	{
+		ship_group = 10235,
+		name = "The Celebration's Secret",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
+		id = 224,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6993,
+			6994,
+			6995,
+			6996,
+			6997,
+			6998,
+			6999,
+			7000,
+			7001,
+			7002,
+			7003,
+			7004,
+			7005,
+			7006,
+			7007,
+			7008,
+			7009,
+			7010,
+			7011,
+			7012,
+			7013,
+			7014,
+			7015,
+			7016,
+			7017,
+			7018,
+			7019,
+			7020,
+			7021,
+			7022,
+			7023
+		}
+	},
+	{
+		ship_group = 10235,
+		name = "Every Day Is a Celebration",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
+		id = 225,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			7024,
+			7025,
+			7026,
+			7027,
+			7028,
+			7029,
+			7030,
+			7031,
+			7032,
+			7033,
+			7034,
+			7035,
+			7036,
+			7037,
+			7038,
+			7039,
+			7040,
+			7041,
+			7042,
+			7043,
+			7044,
+			7045,
+			7046,
+			7047,
+			7048,
+			7049,
+			7050
+		}
+	},
+	{
+		ship_group = 10725,
+		name = "Nutrient Delivery!",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
+		id = 226,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			7051,
+			7052,
+			7053,
+			7054,
+			7055,
+			7056,
+			7057,
+			7058,
+			7059,
+			7060,
+			7061,
+			7062,
+			7063,
+			7064,
+			7065,
+			7066,
+			7067,
+			7068,
+			7069,
+			7070,
+			7071,
+			7072
+		}
+	},
+	{
+		ship_group = 10725,
+		name = "Total Nutrition Strategy",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
+		id = 227,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			7073,
+			7074,
+			7075,
+			7076,
+			7077,
+			7078,
+			7079,
+			7080,
+			7081,
+			7082,
+			7083,
+			7084,
+			7085,
+			7086,
+			7087,
+			7088,
+			7089,
+			7090,
+			7091,
+			7092,
+			7093,
+			7094,
+			7095,
+			7096,
+			7097,
+			7098,
+			7099,
+			7100
+		}
+	},
+	{
+		ship_group = 10725,
+		name = "Sleep-Inducing Milk",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
+		id = 228,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			7101,
+			7102,
+			7103,
+			7104,
+			7105,
+			7106,
+			7107,
+			7108,
+			7109,
+			7110,
+			7111,
+			7112,
+			7113,
+			7114,
+			7115,
+			7116,
+			7117,
+			7118,
+			7119,
+			7120,
+			7121,
+			7122,
+			7123,
+			7124,
+			7125,
+			7126
 		}
 	},
 	get_id_list_by_ship_group = {
@@ -9195,6 +10150,37 @@ pg.activity_ins_chat_group = {
 			207,
 			208,
 			209
+		},
+		[110] = {
+			210
+		},
+		[10702] = {
+			211,
+			212,
+			213,
+			214,
+			215,
+			216
+		},
+		[10110] = {
+			217,
+			218,
+			219
+		},
+		[10155] = {
+			220,
+			221,
+			222
+		},
+		[10235] = {
+			223,
+			224,
+			225
+		},
+		[10725] = {
+			226,
+			227,
+			228
 		}
 	},
 	all = {
@@ -9406,6 +10392,25 @@ pg.activity_ins_chat_group = {
 		206,
 		207,
 		208,
-		209
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228
 	}
 }

@@ -84,15 +84,11 @@ slot0.register = function(slot0)
 		}))
 	end)
 	slot0:bind(uv0.OPEN_GIFT_PACK_LAYER, function (slot0, slot1, slot2, slot3)
-		uv0:addSubLayers(Context.New({
-			viewComponent = LatestSkinGiftPackLayer,
-			mediator = LatestSkinGiftPackMediator,
-			data = {
-				giftPackCommodity = slot1,
-				skinCommodities = slot2,
-				skinProbabilitys = slot3
-			}
-		}))
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.PROBABILITY_SKINSHOP, {
+			giftPackCommodity = slot1,
+			skinCommodities = slot2,
+			skinProbabilitys = slot3
+		})
 	end)
 	slot0:bind(uv0.OPEN_CHARGE_BIRTHDAY, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
@@ -148,7 +144,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.SKIN_SHOPPIGN_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
 		GAME.BUY_FURNITURE_DONE,
-		NewShopMainMediator.NOTI_UPDATE_CURRENT
+		NewShopMainMediator.NOTI_UPDATE_CURRENT,
+		GAME.CHARGE_OPERATION_DONE
 	}
 end
 
@@ -210,6 +207,8 @@ slot0.handleNotification = function(slot0, slot1)
 		elseif slot2 == NewShopMainMediator.NOTI_UPDATE_CURRENT then
 			slot0.viewComponent:GetAllCommodities()
 			slot0.viewComponent:Refresh(true)
+		elseif slot2 == GAME.CHARGE_OPERATION_DONE then
+			slot0.viewComponent:closeView()
 		end
 	end
 end

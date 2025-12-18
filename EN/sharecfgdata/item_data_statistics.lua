@@ -15890,6 +15890,37 @@ _G.pg.base.item_data_statistics[21054] = {
 }
 
 
+_G.pg.base.item_data_statistics[21055] = {
+	open_directly = 0,
+	name = "META Crystal – Cleveland META",
+	type = 4,
+	display = "An item that increases the potential of Cleveland META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21055",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21055,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -27990,6 +28021,131 @@ _G.pg.base.item_data_statistics[30377] = {
 		{
 			9,
 			1528,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30378] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Maid's Bar)",
+	type = 11,
+	display = "Contains a random Maid's Bar-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmeifennvpuwu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30375",
+	id = 30378,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
 			1
 		}
 	},
@@ -42667,6 +42823,219 @@ _G.pg.base.item_data_statistics[30561] = {
 }
 
 
+_G.pg.base.item_data_statistics[30562] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Maid's Bar)",
+	type = 13,
+	display = "Can be opened to receive 1 Maid's Bar-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmeifennvpuwuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30562,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -46470,6 +46839,152 @@ _G.pg.base.item_data_statistics[40070] = {
 			2,
 			16502,
 			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40074] = {
+	open_directly = 1,
+	name = "Battle UI Pack – Maid Café (Basic)",
+	type = 17,
+	display = "Contains the Battle UI - Maid Café theme and 1,000 Coins.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4075",
+	id = 40074,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			206,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40075] = {
+	open_directly = 1,
+	name = "Battle UI Pack – Maid Café (Premium)",
+	type = 17,
+	display = "Contains the Battle UI - Maid Café theme and 3,060 Gems.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4076",
+	id = 40075,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			206,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40076] = {
+	open_directly = 1,
+	name = "Premium Winter Gift Pack",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/dongzhi3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4031",
+	id = 40076,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			3880
+		},
+		{
+			4,
+			100021,
+			1
+		},
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			16502,
+			60
+		},
+		{
+			2,
+			30113,
+			150
 		}
 	},
 	price = {},
@@ -107995,6 +108510,73 @@ _G.pg.base.item_data_statistics[81220] = {
 			2,
 			16502,
 			12
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81230] = {
+	open_directly = 1,
+	name = "Maidly Service Lucky Box A",
+	type = 17,
+	display = "Contains a random Maidly Service Lucky Box A skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai30",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998326",
+	id = 81230,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86222,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
 		}
 	},
 	price = {},

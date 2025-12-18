@@ -12,8 +12,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					18
 				},
 				{
 					0,
@@ -23,9 +23,9 @@ pg.shop_banner_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					1,
+					7
 				},
 				{
 					23,
@@ -51,8 +51,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					11,
-					13
+					12,
+					18
 				},
 				{
 					0,
@@ -62,9 +62,9 @@ pg.shop_banner_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					1,
+					7
 				},
 				{
 					23,
@@ -131,8 +131,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					11,
-					13
+					12,
+					18
 				},
 				{
 					0,
@@ -142,9 +142,9 @@ pg.shop_banner_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					1,
+					7
 				},
 				{
 					23,
@@ -175,8 +175,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					11,
-					13
+					12,
+					18
 				},
 				{
 					0,
@@ -186,9 +186,9 @@ pg.shop_banner_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					1,
+					7
 				},
 				{
 					23,
@@ -274,7 +274,7 @@ pg.shop_banner_template = {
 		time_lable = 1,
 		pic = "shopbanner/shop_pack_bg",
 		id = 24,
-		order = 8,
+		order = 47,
 		time = {
 			{
 				{
@@ -309,42 +309,17 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			99
+			9005
 		}
 	},
 	[25] = {
 		name = "banner_middle",
+		time = "stop",
 		type = 2,
 		time_lable = 1,
 		pic = "shopbanner/shop_pack_bg",
 		id = 25,
-		order = 10,
-		time = {
-			{
-				{
-					2025,
-					9,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
+		order = 46,
 		param = {
 			"scene charge",
 			{
@@ -353,7 +328,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9001
+			9006
 		}
 	},
 	[30] = {
@@ -430,8 +405,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					18
 				},
 				{
 					0,
@@ -441,9 +416,9 @@ pg.shop_banner_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					1,
+					14
 				},
 				{
 					23,
