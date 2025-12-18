@@ -51,7 +51,7 @@ slot0.OnUpdateFlush = function(slot0)
 		slot13 = slot0.activity:getConfig("config_client").story
 
 		for slot17, slot18 in ipairs(slot0.taskList) do
-			if not slot0.taskProxy:getFinishTaskById(slot18) and checkExist(slot13, {
+			if slot0.taskProxy:getFinishTaskById(slot18) and slot19:getTaskStatus() == 2 and checkExist(slot13, {
 				slot17
 			}, {
 				1
@@ -59,7 +59,6 @@ slot0.OnUpdateFlush = function(slot0)
 				slot20 = slot13[slot17][1]
 				slot21, slot22 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot20)
 
-				print("try unlock story:", slot21, slot20)
 				pg.m02:sendNotification(GAME.STORY_UPDATE, {
 					storyId = slot20
 				})
