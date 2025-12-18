@@ -16196,6 +16196,37 @@ _G.pg.base.item_data_statistics[21054] = {
 }
 
 
+_G.pg.base.item_data_statistics[21055] = {
+	open_directly = 0,
+	name = "结晶：克利夫兰·META",
+	type = 4,
+	display = "克利夫兰·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21055",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21055,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -28454,6 +28485,131 @@ _G.pg.base.item_data_statistics[30377] = {
 		{
 			9,
 			1528,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30378] = {
+	open_directly = 1,
+	name = "外观装备箱(玫粉女仆屋)",
+	type = 11,
+	display = "可以获得一件随机的玫粉女仆屋风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmeifennvpuwu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30375",
+	id = 30378,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
 			1
 		}
 	},
@@ -43131,6 +43287,219 @@ _G.pg.base.item_data_statistics[30561] = {
 }
 
 
+_G.pg.base.item_data_statistics[30562] = {
+	open_directly = 0,
+	name = "定向外观装备箱(玫粉女仆屋)",
+	type = 13,
+	display = "使用后可从「玫粉女仆屋」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmeifennvpuwuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30562,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "定向部件T4",
@@ -47768,6 +48137,152 @@ _G.pg.base.item_data_statistics[40073] = {
 			1,
 			14,
 			600
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40074] = {
+	open_directly = 1,
+	name = "甜点女仆屋主题礼包(基础版)",
+	type = 17,
+	display = "购买礼包可获得战斗界面主题 甜点女仆屋*1,1000物资",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4075",
+	id = 40074,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			206,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40075] = {
+	open_directly = 1,
+	name = "甜点女仆屋主题礼包(豪华版)",
+	type = 17,
+	display = "购买礼包可获得战斗界面主题 甜点女仆屋*1,3060钻石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4076",
+	id = 40075,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			206,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40076] = {
+	open_directly = 1,
+	name = "冬至礼包(2025冬)",
+	type = 17,
+	display = "购买礼包可获得大量材料奖励",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/dongzhi3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4031",
+	id = 40076,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			3880
+		},
+		{
+			4,
+			100021,
+			1
+		},
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			16502,
+			60
+		},
+		{
+			2,
+			30113,
+			150
 		}
 	},
 	price = {},
@@ -122668,6 +123183,357 @@ _G.pg.base.item_data_statistics[68153] = {
 }
 
 
+_G.pg.base.item_data_statistics[68154] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(轻飘飘的拂拭时光)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>列克星敦II</color>换装<color=#92fc63FF>轻飘飘的拂拭时光</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906572",
+	id = 68154,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68157,
+			1
+		},
+		{
+			2,
+			68160,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68155] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(心动营养灌输中)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>科本斯</color>换装<color=#92fc63FF>心动营养灌输中</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906573",
+	id = 68155,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68158,
+			1
+		},
+		{
+			2,
+			68161,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68156] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(交错的温柔时光)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>约克城II</color>换装<color=#92fc63FF>交错的温柔时光</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906574",
+	id = 68156,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68159,
+			1
+		},
+		{
+			2,
+			68162,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68157] = {
+	open_directly = 0,
+	name = "换装抵扣券(轻飘飘的拂拭时光)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>列克星敦II</color>换装<color=#92fc63FF>轻飘飘的拂拭时光</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年12月24日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68157,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71244
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68158] = {
+	open_directly = 0,
+	name = "换装抵扣券(心动营养灌输中)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>科本斯</color>换装<color=#92fc63FF>心动营养灌输中</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年12月24日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68158,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71246
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68159] = {
+	open_directly = 0,
+	name = "换装抵扣券(交错的温柔时光)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>约克城II</color>换装<color=#92fc63FF>交错的温柔时光</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年12月24日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68159,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71243
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68160] = {
+	open_directly = 0,
+	name = "换装体验券(轻飘飘的拂拭时光)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>列克星敦II</color>换装<color=#92fc63FF>轻飘飘的拂拭时光</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月24日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68160,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90405
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68161] = {
+	open_directly = 0,
+	name = "换装体验券(心动营养灌输中)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>科本斯</color>换装<color=#92fc63FF>心动营养灌输中</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月24日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68161,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90406
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68162] = {
+	open_directly = 0,
+	name = "换装体验券(交错的温柔时光)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>约克城II</color>换装<color=#92fc63FF>交错的温柔时光</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月24日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68162,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90407
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "绚烂缤纷夜福袋·I",
@@ -125131,6 +125997,73 @@ _G.pg.base.item_data_statistics[81229] = {
 			199033
 		}
 	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81230] = {
+	open_directly = 1,
+	name = "庆典狂欢夜礼盒·I",
+	type = 17,
+	display = "购买礼包可获得随机换装*1，钻石*2026，心智单元*50，心智魔方*20，高级定向蓝图·八期*2，快速完成工具*10，家具币*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai30",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998326",
+	id = 81230,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86222,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
 	limit = {}
 }
 

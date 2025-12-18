@@ -524,11 +524,11 @@ pg.item_data_frame = {
 	},
 	[337] = {
 		name = "幽海幽影",
-		gain_by = "",
+		gain_by = "响彻于天穹之音",
 		time_second = 0,
 		id = 337,
 		time_limit_type = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「久疏问候，指挥官——我回来了」</color>\n「响彻于天穹之音」活动获取",
 		scene = {}
 	},
 	[401] = {

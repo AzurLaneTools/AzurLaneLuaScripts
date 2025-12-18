@@ -63,7 +63,7 @@ slot0.onUpdateMemoryItem = function(slot0, slot1, slot2)
 		slot4:Find("normal/title"):GetComponent(typeof(Text)).text = slot3.title
 
 		slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", slot4:Find("normal"))
-		setText(slot4:Find("normal/id"), string.format("#%u", slot1 + 1))
+		setText(slot4:Find("normal/id"), "#" .. slot0.memoryIds[slot1 + 1])
 	else
 		setActive(slot4:Find("normal"), false)
 		setActive(slot4:Find("lock"), true)
@@ -110,29 +110,37 @@ slot0.ShowSubMemories = function(slot0, slot1, slot2)
 		return pg.memory_template[slot0]
 	end)
 	slot3 = 0
+	slot0.memoryIds = _.map(slot1.memories, function (slot0)
+		if not (pg.memory_template[slot0].number and slot1 > 0) then
+			uv0 = uv0 + 1
+		end
+
+		return slot2 and slot1 or uv0
+	end)
+	slot4 = 0
 
 	if slot2 then
-		slot4 = 0
+		slot5 = 0
 
-		for slot8 = 1, #slot0.memories do
-			if slot0.memories[slot8].id == slot2 then
-				slot4 = slot8
+		for slot9 = 1, #slot0.memories do
+			if slot0.memories[slot9].id == slot2 then
+				slot5 = slot9
 
 				break
 			end
 		end
 
-		if slot4 > 0 then
-			slot6 = slot0.memoryItemsGrid.cellSize.y + slot0.memoryItemsGrid.spacing.y
-			slot7 = slot0.memoryItemsGrid.constraintCount
-			slot3 = Mathf.Clamp01((slot6 * math.floor((slot4 - 1) / slot7) + slot0.memoryItemList.paddingFront) / (slot6 * math.ceil(#slot0.memories / slot7) - slot0.memoryItemViewport.rect.height))
+		if slot5 > 0 then
+			slot7 = slot0.memoryItemsGrid.cellSize.y + slot0.memoryItemsGrid.spacing.y
+			slot8 = slot0.memoryItemsGrid.constraintCount
+			slot4 = Mathf.Clamp01((slot7 * math.floor((slot5 - 1) / slot8) + slot0.memoryItemList.paddingFront) / (slot7 * math.ceil(#slot0.memories / slot8) - slot0.memoryItemViewport.rect.height))
 		end
 	end
 
-	slot0.memoryItemList:SetTotalCount(#slot0.memories, slot3)
+	slot0.memoryItemList:SetTotalCount(#slot0.memories, slot4)
 
-	slot4 = #slot0.memories
-	slot5 = _.reduce(slot0.memories, 0, function (slot0, slot1)
+	slot5 = #slot0.memories
+	slot6 = _.reduce(slot0.memories, 0, function (slot0, slot1)
 		if slot1.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot1.unlock_pre, true) then
 			slot0 = slot0 + 1
 		end
@@ -140,18 +148,18 @@ slot0.ShowSubMemories = function(slot0, slot1, slot2)
 		return slot0
 	end)
 
-	setText(slot0._tf:Find("ItemRect/ProgressText"), slot5 .. "/" .. slot4)
+	setText(slot0._tf:Find("ItemRect/ProgressText"), slot6 .. "/" .. slot5)
 
-	slot7 = slot5 < slot4 and #_.filter(pg.re_map_template.all, function (slot0)
+	slot8 = slot6 < slot5 and #_.filter(pg.re_map_template.all, function (slot0)
 		return pg.re_map_template[slot0].memory_group == uv0.id
 	end) > 0
 
-	setActive(slot0._tf:Find("ItemRect/UnlockTip"), slot7)
+	setActive(slot0._tf:Find("ItemRect/UnlockTip"), slot8)
 
-	if slot7 then
-		slot10 = slot0._tf
+	if slot8 then
+		slot11 = slot0._tf
 
-		setText(slot10:Find("ItemRect/UnlockTip"), i18n("levelScene_remaster_unlock_tip", slot1.title, table.concat(_.map(_.sort(Map.GetRearChaptersOfRemaster(slot6[1])), function (slot0)
+		setText(slot11:Find("ItemRect/UnlockTip"), i18n("levelScene_remaster_unlock_tip", slot1.title, table.concat(_.map(_.sort(Map.GetRearChaptersOfRemaster(slot7[1])), function (slot0)
 			return getProxy(ChapterProxy):getChapterById(slot0, true):getConfig("chapter_name")
 		end), "/")))
 	end

@@ -7,7 +7,9 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.vetList = UIItemList.New(slot0.asidePanel:Find("aside_2"), slot0.asidePanel:Find("aside_2/aside_txt_tpl_2"))
 	slot0.leftBotomVetList = UIItemList.New(slot0.asidePanel:Find("aside_3"), slot0.asidePanel:Find("aside_3/aside_txt_tpl"))
 	slot0.centerWithFrameVetList = UIItemList.New(slot0.asidePanel:Find("aside_4"), slot0.asidePanel:Find("aside_4/aside_txt_tpl"))
+	slot0.centerWithFrameVetListMargin = UIItemList.New(slot0.asidePanel:Find("aside_4_1"), slot0.asidePanel:Find("aside_4_1/aside_txt_tpl"))
 	slot0.dataTxt = slot0.asidePanel:Find("aside_sign_date")
+	slot0.meshImagePaintingContainer = slot0.asidePanel:Find("actor_middle")
 end
 
 slot0.OnReset = function(slot0, slot1, slot2, slot3)
@@ -17,6 +19,7 @@ slot0.OnReset = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.vetList.container, false)
 	setActive(slot0.leftBotomVetList.container, false)
 	setActive(slot0.centerWithFrameVetList.container, false)
+	setActive(slot0.centerWithFrameVetListMargin.container, false)
 	setActive(slot0.actorPanel, false)
 
 	slot0.curtainCg.alpha = 1
@@ -31,7 +34,10 @@ slot0.OnInit = function(slot0, slot1, slot2, slot3)
 		slot0.mainImg.color = Color.New(1, 1, 1, 0)
 	end
 
-	parallelAsync({
+	seriesAsync({
+		function (slot0)
+			uv0:LoadPainting(uv1, slot0)
+		end,
 		function (slot0)
 			if uv0:GetShowMode() == AsideStep.SHOW_MODE_DEFAUT then
 				uv1:PlayAside(uv0, slot0)
@@ -45,24 +51,46 @@ slot0.OnInit = function(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-slot0.GetAsideList = function(slot0, slot1)
-	slot2 = nil
+slot0.LoadPainting = function(slot0, slot1, slot2)
+	if not slot1:GetPainting() or slot3 == "" then
+		slot2()
 
-	if slot1 == AsideStep.ASIDE_TYPE_HRZ then
-		slot2 = slot0.hrzList
-	elseif slot1 == AsideStep.ASIDE_TYPE_VEC then
-		slot2 = slot0.vetList
-	elseif slot1 == AsideStep.ASIDE_TYPE_LEFTBOTTOMVEC then
-		slot2 = slot0.leftBotomVetList
-	elseif slot1 == AsideStep.ASIDE_TYPE_CENTERWITHFRAME then
-		slot2 = slot0.centerWithFrameVetList
+		return
 	end
 
-	return slot2
+	slot0.paitingName = slot3
+
+	setPaintingPrefabAsync(slot0.meshImagePaintingContainer, slot3, "duihua", function (slot0)
+		uv0.rtPaint = slot0
+
+		if uv0.paitingName == nil then
+			retPaintingPrefab(uv0.rtPaint, uv1)
+
+			return
+		end
+
+		uv2()
+	end)
+end
+
+slot0.GetAsideList = function(slot0, slot1, slot2)
+	slot3 = nil
+
+	if slot1 == AsideStep.ASIDE_TYPE_HRZ then
+		slot3 = slot0.hrzList
+	elseif slot1 == AsideStep.ASIDE_TYPE_VEC then
+		slot3 = slot0.vetList
+	elseif slot1 == AsideStep.ASIDE_TYPE_LEFTBOTTOMVEC then
+		slot3 = slot0.leftBotomVetList
+	elseif slot1 == AsideStep.ASIDE_TYPE_CENTERWITHFRAME then
+		slot3 = (not slot2:ShouldUpdateMargin() or slot0.centerWithFrameVetListMargin) and slot0.centerWithFrameVetList
+	end
+
+	return slot3
 end
 
 slot0.PlayAside = function(slot0, slot1, slot2)
-	slot4 = slot0:GetAsideList(slot1:GetAsideType())
+	slot4 = slot0:GetAsideList(slot1:GetAsideType(), slot1)
 
 	slot0:UpdateLayoutPaddingAndSpacing(slot1, slot4.container)
 
@@ -92,7 +120,7 @@ slot0.PlayAside = function(slot0, slot1, slot2)
 end
 
 slot0.PlayBubbleAside = function(slot0, slot1, slot2)
-	slot3 = slot0:GetAsideList(slot1:GetAsideType())
+	slot3 = slot0:GetAsideList(slot1:GetAsideType(), slot1)
 
 	slot0:UpdateLayoutPaddingAndSpacing(slot1, slot3.container)
 
@@ -132,22 +160,50 @@ end
 
 slot0.UpdateLayoutPaddingAndSpacing = function(slot0, slot1, slot2)
 	slot4 = slot1:ShouldUpdatePadding()
+	slot5 = slot1:ShouldUpdateMargin()
 
-	if slot1:ShouldUpdateSpacing() or slot4 then
-		slot5 = slot2:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
+	if (slot1:ShouldUpdateSpacing() or slot4) and not slot5 then
+		slot6 = slot2:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
 
 		if slot3 then
-			slot0.spacing = slot5.spacing
-			slot5.spacing = slot1:GetSpacing()
+			slot0.spacing = slot6.spacing
+			slot6.spacing = slot1:GetSpacing()
 		end
 
 		if slot4 then
-			slot10.top, slot10.bottom, slot10.left, slot10.right = slot1:GetPadding()
-			slot10 = UnityEngine.RectOffset.New()
-			slot0.padding = slot5.padding
-			slot5.padding = slot10
+			slot11.top, slot11.bottom, slot11.left, slot11.right = slot1:GetPadding()
+			slot11 = UnityEngine.RectOffset.New()
+			slot0.padding = slot6.padding
+			slot6.padding = slot11
 		end
+	elseif slot5 then
+		slot6 = 0
+		slot7 = slot2:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
+
+		if slot3 then
+			slot6 = slot1:GetSpacing()
+		end
+
+		slot7.spacing = slot6
+		slot8, slot9, slot10, slot11 = slot1:GetMargin()
+		slot12 = rtf(slot2)
+		slot12.offsetMin = Vector2(slot10, slot9)
+		slot12.offsetMax = Vector2(-slot11, -slot8)
+
+		eachChild(slot2, function (slot0)
+			GetOrAddComponent(slot0, typeof(LayoutElement)).preferredWidth = uv0.rect.width - 50
+		end)
 	end
+
+	slot0:UpdateRectAlhpa(slot1, slot2)
+end
+
+slot0.UpdateRectAlhpa = function(slot0, slot1, slot2)
+	if not slot2:GetComponent(typeof(Image)) then
+		return
+	end
+
+	slot3.color = Color.New(1, 1, 1, slot1:GetRectAlpha())
 end
 
 slot0.PlayDateSign = function(slot0, slot1, slot2)
@@ -176,11 +232,18 @@ slot0.OnWillClear = function(slot0, slot1, slot2, slot3)
 	slot0.color = nil
 
 	if slot0.padding or slot0.spacing then
-		slot0:ResetPaddingAndSpacing(slot0:GetAsideList(slot1:GetAsideType()).container, slot0.padding, slot0.spacing)
+		slot0:ResetPaddingAndSpacing(slot0:GetAsideList(slot1:GetAsideType(), slot1).container, slot0.padding, slot0.spacing)
 	end
 
 	slot0.padding = nil
 	slot0.spacing = nil
+
+	if slot0.paitingName and slot0.rtPaint then
+		retPaintingPrefab(slot0.meshImagePaintingContainer, slot0.paitingName)
+	end
+
+	slot0.paitingName = nil
+	slot0.rtPaint = nil
 end
 
 slot0.ResetPaddingAndSpacing = function(slot0, slot1, slot2, slot3)

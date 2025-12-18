@@ -288,6 +288,8 @@ slot0.SetPlayerAttrFromOutBattle = function(slot0, slot1, slot2)
 	slot3.barrageCounterMod = 1
 	slot3.TargetChoise = {}
 	slot3.guardian = {}
+	slot3.injureRatioKamikazeAir = 1
+	slot3.injureRatioKamikazeShip = 1
 
 	uv0.SetBaseAttr(slot0)
 end

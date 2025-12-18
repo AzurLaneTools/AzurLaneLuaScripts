@@ -460,7 +460,19 @@ slot0.GetShareSkinsForShipGroup = function(slot0, slot1)
 end
 
 slot0.GetShareSkinsForShip = function(slot0, slot1)
-	return slot0:GetShareSkinsForShipGroup(slot1.groupId)
+	for slot7 = #slot0:GetShareSkinsForShipGroup(slot1.groupId), 1, -1 do
+		if ShipSkin.GetChangeSkinGroupId(slot3[slot7].id) then
+			if not ShipSkin.GetStoreChangeSkinId(slot9, slot1:GetShipPhantomMark()) then
+				if slot8.change_skin.index ~= 1 then
+					table.remove(slot3, slot7)
+				end
+			elseif slot10 ~= slot8.id then
+				table.remove(slot3, slot7)
+			end
+		end
+	end
+
+	return slot3
 end
 
 slot0.GetAllSkinForARCamera = function(slot0, slot1)
@@ -700,6 +712,26 @@ slot0.GetPermanentSkins = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.GetShareSkinsForShipGroupInJuus = function(slot0, slot1)
+	if not pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot1][1]].share_group_id or #slot3.share_group_id <= 0 then
+		return {}
+	end
+
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot3.share_group_id) do
+		for slot14, slot15 in ipairs(pg.ship_skin_template.get_id_list_by_ship_group[slot9]) do
+			if ShipSkin.New({
+				id = slot15
+			}):CanShareInJuus() then
+				table.insert(slot4, slot16)
+			end
+		end
+	end
+
+	return slot4
 end
 
 return slot0

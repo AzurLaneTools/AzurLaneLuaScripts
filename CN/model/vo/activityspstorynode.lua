@@ -5,6 +5,7 @@ slot0.bindConfigTable = function(slot0)
 end
 
 slot0.NODE_TYPE = {
+	OPTION_BRANCH = 3,
 	UNRELEASED = 99,
 	STORY = 1,
 	BATTLE = 2
@@ -30,9 +31,19 @@ slot0.GetPreNodes = function(slot0)
 	return slot1
 end
 
+slot0.IsOptionNode = function(slot0)
+	_.each(slot0:GetUnlockConditions(), function (slot0)
+		if slot0[1] == uv0.CONDITION.PRE_OPTION then
+			uv1 = true
+		end
+	end)
+
+	return nil
+end
+
 slot0.GetPreEvent = function(slot0)
 	if _.detect(slot0:GetUnlockConditions(), function (slot0)
-		return slot0[1] == uv0.CONDITION.PRE_PASSED
+		return slot0[1] == uv0.CONDITION.PRE_PASSED or slot0[1] == uv0.CONDITION.PRE_OPTION
 	end) and slot2[2] and slot2[2] > 0 then
 		return slot2[2]
 	end
@@ -41,9 +52,10 @@ slot0.GetPreEvent = function(slot0)
 end
 
 slot0.CONDITION = {
+	PRE_OPTION = 5,
+	PRE_PASSED = 4,
 	PASSCHAPTER = 2,
 	PT = 3,
-	PRE_PASSED = 4,
 	TIME = 1
 }
 
@@ -73,6 +85,30 @@ slot0.GetCleanAnimator = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.GetOptionBranchByStoryName = function(slot0, slot1)
+	slot3 = nil
+
+	for slot7, slot8 in pairs(pg.activity_sp_story) do
+		if slot8.story == slot0 then
+			slot3 = slot7
+		end
+	end
+
+	slot4 = nil
+
+	for slot8, slot9 in pairs(slot2) do
+		if slot9.lock then
+			_.each(slot9.lock, function (slot0)
+				if slot0[1] == uv0.CONDITION.PRE_OPTION and slot0[2] == uv1 and slot0[3] == uv2 then
+					uv3 = uv4
+				end
+			end)
+		end
+	end
+
+	return slot4
 end
 
 return slot0

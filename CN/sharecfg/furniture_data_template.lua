@@ -215,6 +215,7 @@ pg.furniture_data_template = setmetatable({
 			319,
 			321,
 			322,
+			323,
 			100001,
 			100002,
 			100003,
@@ -3823,6 +3824,30 @@ pg.furniture_data_template = setmetatable({
 			331307,
 			331308,
 			331309
+		},
+		[133] = {
+			333001,
+			333002,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333106,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			333119,
+			333301
 		}
 	},
 	get_id_list_by_tag = {
@@ -6071,7 +6096,25 @@ pg.furniture_data_template = setmetatable({
 			331114,
 			331115,
 			331116,
-			331117
+			331117,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333106,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118
 		},
 		{
 			1108,
@@ -6564,7 +6607,8 @@ pg.furniture_data_template = setmetatable({
 			316,
 			318,
 			319,
-			321
+			321,
+			323
 		},
 		[7] = {
 			213,
@@ -6775,7 +6819,8 @@ pg.furniture_data_template = setmetatable({
 			330102,
 			329120,
 			332113,
-			331309
+			331309,
+			333119
 		},
 		[4] = {
 			1001,
@@ -6898,7 +6943,8 @@ pg.furniture_data_template = setmetatable({
 			330001,
 			329001,
 			332001,
-			331001
+			331001,
+			333001
 		},
 		[3] = {
 			1002,
@@ -7021,7 +7067,8 @@ pg.furniture_data_template = setmetatable({
 			330002,
 			329002,
 			332002,
-			331002
+			331002,
+			333002
 		},
 		[5] = {
 			1301,
@@ -7420,7 +7467,8 @@ pg.furniture_data_template = setmetatable({
 			331305,
 			331306,
 			331307,
-			331308
+			331308,
+			333301
 		}
 	},
 	get_id_list_by_type = {
@@ -7545,7 +7593,8 @@ pg.furniture_data_template = setmetatable({
 			330002,
 			329002,
 			332002,
-			331002
+			331002,
+			333002
 		},
 		[7] = {
 			1,
@@ -7730,6 +7779,7 @@ pg.furniture_data_template = setmetatable({
 			319,
 			321,
 			322,
+			323,
 			100001,
 			100002,
 			100004,
@@ -10032,7 +10082,25 @@ pg.furniture_data_template = setmetatable({
 			331114,
 			331115,
 			331116,
-			331117
+			331117,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			333119
 		},
 		[11] = {
 			131,
@@ -10490,7 +10558,8 @@ pg.furniture_data_template = setmetatable({
 			332301,
 			331302,
 			331303,
-			331307
+			331307,
+			333301
 		},
 		[15] = {
 			251,
@@ -10629,7 +10698,8 @@ pg.furniture_data_template = setmetatable({
 			330001,
 			329001,
 			332001,
-			331001
+			331001,
+			333001
 		},
 		[5] = {
 			1101,
@@ -10793,7 +10863,8 @@ pg.furniture_data_template = setmetatable({
 			329108,
 			332102,
 			331109,
-			331110
+			331110,
+			333106
 		},
 		[3] = {
 			1108,
@@ -11250,6 +11321,7 @@ pg.furniture_data_template = setmetatable({
 		319,
 		321,
 		322,
+		323,
 		100001,
 		100002,
 		100003,
@@ -14615,7 +14687,29 @@ pg.furniture_data_template = setmetatable({
 		331306,
 		331307,
 		331308,
-		331309
+		331309,
+		333001,
+		333002,
+		333101,
+		333102,
+		333103,
+		333104,
+		333105,
+		333106,
+		333107,
+		333108,
+		333109,
+		333110,
+		333111,
+		333112,
+		333113,
+		333114,
+		333115,
+		333116,
+		333117,
+		333118,
+		333119,
+		333301
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -25490,6 +25584,50 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[323] = {
+		can_rotate = 0,
+		describe = "仿照理事会天文台所制作的模型，点点星光并非特效，而是搭载了礼花喷射装置。——「响彻于天穹之音」活动纪念",
+		gain_by = "响彻于天穹之音",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "理事会天文台模型",
+		advice = 0,
+		id = 323,
+		tag = 8,
+		comfortable = 0,
+		icon = "tianwentaixunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tianwentaixunzhang",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	},
@@ -179430,6 +179568,1059 @@ pg.base.furniture_data_template = {
 					}
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[333001] = {
+		can_rotate = 0,
+		describe = "以蛋糕和猫猫为主题的女仆屋，甜蜜而又温暖~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dibannvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "粉喵女仆屋地板",
+		advice = 0,
+		tag = 4,
+		id = 333001,
+		icon = "dibannvpicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333002] = {
+		can_rotate = 0,
+		describe = "以蛋糕和猫猫为主题的女仆屋，甜蜜而又温暖~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "粉喵女仆屋墙壁",
+		advice = 0,
+		id = 333002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbinvpicon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbinvp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[333101] = {
+		can_rotate = 0,
+		describe = "精心修剪成猫猫头形状的盆栽，很有设计感",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/baijiannvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "粉喵盆栽",
+		advice = 0,
+		tag = 1,
+		id = 333101,
+		icon = "baijiannvpicon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333102] = {
+		can_rotate = 0,
+		describe = "现在是享受鲜花与茶点的时间，一起来吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/chajinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵茶几",
+		advice = 0,
+		tag = 1,
+		id = 333102,
+		icon = "chajinvpicon",
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333103] = {
+		can_rotate = 0,
+		describe = "宽敞舒服的大圆床，像是睡在大蛋糕上一样~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/chuangnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵圆床",
+		advice = 0,
+		id = 333103,
+		tag = 1,
+		comfortable = 4,
+		icon = "chuangnvpicon",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					31.2,
+					45.5
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					-45.4,
+					4.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333104] = {
+		can_rotate = 0,
+		describe = "虽然是椅子，但总是让人忍不住去摸上面的肉垫",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dengzinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "粉喵爪椅子",
+		advice = 0,
+		id = 333104,
+		tag = 1,
+		comfortable = 2,
+		icon = "dengzinvpicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.9,
+					77.79
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333105] = {
+		can_rotate = 0,
+		describe = "崭新的电视与游戏机，来拿起手柄一起玩吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dianshinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵电视",
+		advice = 0,
+		tag = 1,
+		id = 333105,
+		icon = "dianshinvpicon",
+		comfortable = 3,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333106] = {
+		can_rotate = 0,
+		describe = "地毯上是哪位粗心女仆的衣服和袜子呢？",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/ditannvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵地毯",
+		advice = 0,
+		tag = 1,
+		id = 333106,
+		icon = "ditannvpicon",
+		comfortable = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333107] = {
+		can_rotate = 0,
+		describe = "食物放在上面会变得更美味哟~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/fanzhuonvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵饭桌",
+		advice = 0,
+		tag = 1,
+		id = 333107,
+		icon = "fanzhuonvpicon",
+		comfortable = 3,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333108] = {
+		can_rotate = 0,
+		describe = "让人窝进去就不想起来的沙发，似乎有某种魔力~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/lanrenshafanvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵窝沙发",
+		advice = 0,
+		id = 333108,
+		tag = 1,
+		comfortable = 3,
+		icon = "lanrenshafanvpicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5.8,
+					19.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333109] = {
+		can_rotate = 0,
+		describe = "帘子后面是女仆还是喵喵？来猜猜看吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/lianzinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵帘子",
+		advice = 0,
+		id = 333109,
+		tag = 1,
+		comfortable = 3,
+		icon = "lianzinvpicon",
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lianzinvp",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[333110] = {
+		can_rotate = 0,
+		describe = "带着翅膀的落地灯，要飞起来咯~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵落地灯",
+		advice = 0,
+		id = 333110,
+		tag = 1,
+		comfortable = 2,
+		icon = "luodidengnvpicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"luodidengnvp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[333111] = {
+		can_rotate = 0,
+		describe = "结合多种元素，四个愿望一次满足！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵爬架",
+		advice = 0,
+		id = 333111,
+		tag = 1,
+		comfortable = 3,
+		icon = "maopajianvpicon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maopajianvp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[333112] = {
+		can_rotate = 0,
+		describe = "粉喵喵主题的全身镜，连照镜子的人都会变得可爱呢~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/quanshenjingnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵全身镜",
+		advice = 0,
+		tag = 1,
+		id = 333112,
+		icon = "quanshenjingnvpicon",
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333113] = {
+		can_rotate = 0,
+		describe = "柔软的单人沙发，大喵爪抱枕非常治愈",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shafa1nvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵小沙发",
+		advice = 0,
+		id = 333113,
+		tag = 1,
+		comfortable = 2,
+		icon = "shafa1nvpicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					30.8,
+					-0.3
+				},
+				{
+					1,
+					1
+				},
+				"nvp/shafa1nvp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333114] = {
+		can_rotate = 0,
+		describe = "柔软的双人沙发，看书或闲聊都很适合~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shafa2nvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵大沙发",
+		advice = 0,
+		id = 333114,
+		tag = 1,
+		comfortable = 3,
+		icon = "shafa2nvpicon",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-31.6,
+					10.6
+				},
+				{
+					-1,
+					1
+				},
+				"nvp/shafa2nvp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333115] = {
+		can_rotate = 0,
+		describe = "重要东西不收好的话，可是会有小猫猫来捣乱的哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shuguinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵收纳柜",
+		advice = 0,
+		tag = 1,
+		id = 333115,
+		icon = "shuguinvpicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333116] = {
+		can_rotate = 0,
+		describe = "猫猫主题的置物台，两侧挡板有巧克力一般的质感",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/xiyuyongpingnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵置物台",
+		advice = 0,
+		tag = 1,
+		id = 333116,
+		icon = "xiyuyongpingnvpicon",
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333117] = {
+		can_rotate = 0,
+		describe = "整齐地收纳着女仆们的衣服，干净又美观",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/yijianvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "粉喵衣架",
+		advice = 0,
+		tag = 1,
+		id = 333117,
+		icon = "yijianvpicon",
+		comfortable = 3,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333118] = {
+		advice = 0,
+		name = "粉喵浴缸",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "yugangnvpicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 133,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 333118,
+		comfortable = 4,
+		describe = "躺进去会有被猫猫按摩的感觉~",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangnvpB",
+				"normal"
+			},
+			{
+				"yugangnvpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-5.32,
+					140
+				},
+				{
+					256.76,
+					250
+				},
+				"nvp/yugangnvp_mask"
+			},
+			{
+				-5.72,
+				-157.16
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[333119] = {
+		advice = 0,
+		name = "草莓蛋糕滑梯",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "huatinvpicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 133,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 333119,
+		comfortable = 4,
+		describe = "蛋糕滑梯配上泡泡球池子，沉溺在甜蜜与童真中吧~",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatinvpB",
+				"normal"
+			},
+			{
+				"huatinvpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk",
+						1,
+						"walk"
+					},
+					{
+						"action1",
+						1,
+						"tuozhuai2"
+					},
+					{
+						"action2",
+						nil,
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					102,
+					128.5
+				},
+				{
+					300,
+					300
+				},
+				"nvp/huatinvp_mask"
+			},
+			{
+				-100,
+				-123.7
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[333301] = {
+		can_rotate = 0,
+		describe = "崭新的照片墙，等待着温馨的回忆",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/zhaopianqiangnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "粉喵照片墙",
+		advice = 0,
+		tag = 5,
+		id = 333301,
+		icon = "zhaopianqiangnvpicon",
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

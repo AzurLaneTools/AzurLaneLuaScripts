@@ -48,7 +48,7 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.lureIconTxt = slot0.lureBtn:Find("icon/count"):GetComponent(typeof(Text))
 	slot0.animationOpEffectCounter = {}
 	slot0.uiFollowerPanel = slot0.followerBtn:Find("list")
-	slot0.uiFollowerList = UIItemList.New(slot0.uiFollowerPanel, slot0.followerBtn:GetComponent(typeof(ItemList)).prefabItem[0])
+	slot0.uiFollowerList = UIItemList.New(slot0.uiFollowerPanel, slot0.uiFollowerPanel:Find("tpl"))
 
 	setActive(slot0.opPanel, true)
 	setActive(slot0.lureBtn, false)

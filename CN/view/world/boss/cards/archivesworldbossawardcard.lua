@@ -40,7 +40,7 @@ slot0.Update = function(slot0, slot1, slot2)
 		slot0.gotTr.text = i18n("meta_award_got")
 	elseif slot6 < slot4 then
 		slot8 = 2
-		slot0.lockTr.text = "T-" .. slot2 .. " " .. (math.floor(slot4 / slot7 * 100) .. "%")
+		slot0.lockTr.text = "T-" .. slot2 .. " " .. (calcFloor(slot4 / slot7 * 100) .. "%")
 	else
 		slot0.getTr.text = i18n("meta_award_get")
 	end

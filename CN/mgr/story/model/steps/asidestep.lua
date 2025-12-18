@@ -14,8 +14,11 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.signDate = slot1.signDate
 	slot0.hideBgAlpha = slot1.hideBgAlpha
 	slot0.rectOffset = slot1.rectOffset
+	slot0.rectMargin = slot1.rectMargin
+	slot0.rectAlpha = slot1.rectAlpha or 1
 	slot0.spacing = slot1.spacing
 	slot0.typewriterSpeed = slot1.typewriterTime
+	slot0.actor = slot1.actor or -1
 
 	if slot0.asideType == uv0.ASIDE_TYPE_LEFTBOTTOMVEC and not slot1.showMode then
 		slot0.showMode = uv0.SHOW_MODE_BUBBLE
@@ -26,6 +29,17 @@ slot0.Ctor = function(slot0, slot1)
 	if slot0.asideType == uv0.ASIDE_TYPE_CENTERWITHFRAME then
 		slot0.hideBgAlpha = true
 	end
+end
+
+slot0.GetPainting = function(slot0)
+	if slot0.actor < 0 then
+		return nil
+	end
+
+	slot1 = pg.ship_skin_template[slot0.actor]
+	slot3 = ShipGroup.getDefaultShipConfig(slot1.ship_group)
+
+	return slot1.painting
 end
 
 slot0.GetMode = function(slot0)
@@ -77,11 +91,27 @@ slot0.GetSpacing = function(slot0)
 end
 
 slot0.ShouldUpdatePadding = function(slot0)
+	if slot0:ShouldUpdateMargin() then
+		return false
+	end
+
 	return slot0.rectOffset ~= nil
+end
+
+slot0.ShouldUpdateMargin = function(slot0)
+	return slot0.rectMargin ~= nil
+end
+
+slot0.GetMargin = function(slot0)
+	return slot0.rectMargin[1] or 0, slot1[2] or 0, slot1[3] or 0, slot1[4] or 0
 end
 
 slot0.GetPadding = function(slot0)
 	return slot0.rectOffset[1] or 0, slot1[2] or 0, slot1[3] or 0, slot1[4] or 0
+end
+
+slot0.GetRectAlpha = function(slot0)
+	return slot0.rectAlpha
 end
 
 return slot0

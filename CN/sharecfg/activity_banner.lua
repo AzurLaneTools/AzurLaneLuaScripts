@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					0,
@@ -25,18 +25,17 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					18
+					24
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -45,6 +44,32 @@ pg.activity_banner = {
 			{
 				projectName = "new",
 				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					8
+				},
+				{
+					12,
+					0,
+					0
+				}
 			}
 		}
 	},
@@ -63,7 +88,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					0,
@@ -73,9 +98,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					1,
+					8
 				},
 				{
 					12,
@@ -100,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					0,
@@ -110,20 +135,19 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					1,
+					7
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -132,15 +156,66 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -148,19 +223,14 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene core activity",
-			{
-				actID = 7302,
-				openPass = true,
-				coreName = "WinterFestival2025CoreActivityUI"
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					0,
@@ -172,18 +242,18 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					18
+					24
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	{
-		param = "50263",
+		param = "50296",
 		type = 3,
 		id = 8,
 		pic = "temp8",
@@ -192,7 +262,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					0,
@@ -202,9 +272,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					1,
+					8
 				},
 				{
 					12,
@@ -215,37 +285,12 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
 			"metacharacter"
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[90] = {
@@ -291,16 +336,16 @@ pg.activity_banner = {
 		pic = "jingbing"
 	},
 	[102] = {
-		param = "桂花糕|用相传从月宫里摘下来的桂花制成的糕点，香甜可口！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "拐杖糖|据说最原始的拐杖糖是白色的呢。<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		type = 10,
 		id = 102,
-		pic = "guihuagao",
+		pic = "christmas",
 		time = {
 			{
 				{
 					2025,
-					9,
-					25
+					12,
+					18
 				},
 				{
 					0,
@@ -311,30 +356,55 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					10,
-					9
+					12,
+					31
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	[200] = {
 		param = "",
-		time = "always",
+		time = "stop",
 		type = 13,
 		id = 200,
 		pic = "autumn"
 	},
 	[201] = {
 		param = "",
-		time = "stop",
 		type = 13,
 		id = 201,
-		pic = "christmas"
+		pic = "christmas",
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[202] = {
 		param = "",

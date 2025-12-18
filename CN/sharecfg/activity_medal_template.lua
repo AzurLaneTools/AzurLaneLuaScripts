@@ -1044,6 +1044,102 @@ pg.activity_medal_template = {
 		id = 5020908,
 		medal_asset = "ActivityMedal/5020908"
 	},
+	[5029501] = {
+		activity_medal_desc = "帷幕之下，天穹之星依然闪耀",
+		next_medal = 0,
+		item = 65786,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "1",
+		task_id = 21874,
+		activity_medal_name = "纪念贴：天穹之星",
+		id = 5029501,
+		medal_asset = "ActivityMedal/5029501"
+	},
+	[5029502] = {
+		activity_medal_desc = "我好像做了一个很长很长的梦……",
+		next_medal = 0,
+		item = 65787,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "2",
+		task_id = 21875,
+		activity_medal_name = "纪念贴：蓝色幽灵",
+		id = 5029502,
+		medal_asset = "ActivityMedal/5029502"
+	},
+	[5029503] = {
+		activity_medal_desc = "于此处，倾听星海之音",
+		next_medal = 0,
+		item = 65788,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "3",
+		task_id = 21876,
+		activity_medal_name = "纪念贴：银河之心",
+		id = 5029503,
+		medal_asset = "ActivityMedal/5029503"
+	},
+	[5029504] = {
+		activity_medal_desc = "这是死神，但又不只是死神",
+		next_medal = 0,
+		item = 65789,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "4",
+		task_id = 21877,
+		activity_medal_name = "纪念贴：死神",
+		id = 5029504,
+		medal_asset = "ActivityMedal/5029504"
+	},
+	[5029505] = {
+		activity_medal_desc = "“古人不见今时月，今月曾经照古人”",
+		next_medal = 0,
+		item = 65790,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "5",
+		task_id = 21878,
+		activity_medal_name = "纪念贴：月与玉轮",
+		id = 5029505,
+		medal_asset = "ActivityMedal/5029505"
+	},
+	[5029506] = {
+		activity_medal_desc = "初次见面，碧蓝航线的指挥官，就称呼我为「银狐」吧",
+		next_medal = 0,
+		item = 65791,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "6",
+		task_id = 21879,
+		activity_medal_name = "纪念贴：「银狐」",
+		id = 5029506,
+		medal_asset = "ActivityMedal/5029506"
+	},
+	[5029507] = {
+		activity_medal_desc = "终有一天，我们终将重逢",
+		next_medal = 0,
+		item = 65792,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "7",
+		task_id = 21880,
+		activity_medal_name = "纪念贴：海伦娜",
+		id = 5029507,
+		medal_asset = "ActivityMedal/5029507"
+	},
+	[5029508] = {
+		activity_medal_desc = "如果这时候有一枚导弹落下来……",
+		next_medal = 0,
+		item = 65793,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "8",
+		task_id = 21881,
+		activity_medal_name = "纪念贴：联合理事会",
+		id = 5029508,
+		medal_asset = "ActivityMedal/5029508"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1153,6 +1249,16 @@ pg.activity_medal_template = {
 			5020906,
 			5020907,
 			5020908
+		},
+		[50295] = {
+			5029501,
+			5029502,
+			5029503,
+			5029504,
+			5029505,
+			5029506,
+			5029507,
+			5029508
 		}
 	},
 	all = {
@@ -1242,6 +1348,14 @@ pg.activity_medal_template = {
 		5020905,
 		5020906,
 		5020907,
-		5020908
+		5020908,
+		5029501,
+		5029502,
+		5029503,
+		5029504,
+		5029505,
+		5029506,
+		5029507,
+		5029508
 	}
 }
