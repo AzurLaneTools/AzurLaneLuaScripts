@@ -178,14 +178,16 @@ slot0.UpdateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 	slot9 = {}
 	slot10 = {}
 
-	if slot0:GetShipVO():GetSpWeapon() and slot11:GetUpgradableSkillInfo().unlock then
-		slot12 = slot11:GetUpgradableSkillInfo()
+	if slot0:GetShipVO():GetSpWeapon() then
+		for slot16, slot17 in ipairs(slot11:GetUpgradableSkillInfo()) do
+			if slot17.unlock then
+				table.insert(slot10, slot11:GetUpgradableSkillIds()[1][1])
 
-		table.insert(slot10, slot11:GetUpgradableSkillIds()[1][1])
-
-		if ys.Battle.BattleDataFunction.GetBuffTemplate(slot12.skillId, slot12.lv).shipInfoScene and slot14.shipInfoScene.equip then
-			for slot18, slot19 in ipairs(slot14.shipInfoScene.equip) do
-				table.insert(slot9, slot19)
+				if ys.Battle.BattleDataFunction.GetBuffTemplate(slot17.skillId, slot17.lv).shipInfoScene and slot19.shipInfoScene.equip then
+					for slot23, slot24 in ipairs(slot19.shipInfoScene.equip) do
+						table.insert(slot9, slot24)
+					end
+				end
 			end
 		end
 	end
@@ -222,6 +224,8 @@ slot0.UpdateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 
 			if not (slot8:getFlag("inWorld") and slot0.contextData.fromMediatorName == WorldMediator.__cname and WorldConst.FetchWorldShip(slot8.id):IsBroken()) then
 				for slot24, slot25 in ipairs(slot9) do
+					print(slot0:equipmentCheck(slot25), slot0.equipmentEnhance(slot25, slot2))
+
 					if slot0:equipmentCheck(slot25) and slot0.equipmentEnhance(slot25, slot2) then
 						slot18 = slot18 + slot25.number
 						slot19 = true

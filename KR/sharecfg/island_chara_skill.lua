@@ -4,7 +4,7 @@ pg.island_chara_skill = {
 		name = "제조 기술",
 		id = 1000,
 		icon = "chara_all_skill_14",
-		desc = "기지 공장의 수공 작업대에 배치하면, 해당하는 제품 생산 시간이 $1 단축된다.",
+		desc = "기지 공장의 수공 작업대에 배치하면, 작업 시간 $1% 단축",
 		desc_add = {
 			{
 				{
@@ -398,7 +398,7 @@ pg.island_chara_skill = {
 		name = "과일 재배 기술",
 		id = 1003,
 		icon = "chara_all_skill_10",
-		desc = "향기로운 과수원에서 작업 시, 열매의 성숙 시간이 $1 단축된다.",
+		desc = "향기로운 과수원에서 작업 시, 작업 시간 $1% 단축",
 		desc_add = {
 			{
 				{
@@ -526,7 +526,7 @@ pg.island_chara_skill = {
 		name = "벌목 기술",
 		id = 1004,
 		icon = "chara_all_skill_2",
-		desc = "우거진 벌목장에서 작업 시, 목재 산출 시간이 $1 단축된다.",
+		desc = "우거진 벌목장에서 작업 시, 작업 시간 $1% 단축",
 		desc_add = {
 			{
 				{
@@ -654,7 +654,7 @@ pg.island_chara_skill = {
 		name = "목축 기술",
 		id = 1005,
 		icon = "chara_all_skill_6",
-		desc = "한가로운 목장에서 작업 시, 축산물 산출 시간이 $1 단축된다.",
+		desc = "한가로운 목장에서 작업 시, 작업 시간 $1% 단축",
 		desc_add = {
 			{
 				{
@@ -782,7 +782,7 @@ pg.island_chara_skill = {
 		name = "요리 기술",
 		id = 1006,
 		icon = "chara_all_skill_7",
-		desc = "유어 레스토랑에서 작업 시, 요리 제작 시간이 $1 단축된다.",
+		desc = "유어 레스토랑에서 작업 시, 작업 시간 $1% 단축",
 		desc_add = {
 			{
 				{
@@ -910,7 +910,7 @@ pg.island_chara_skill = {
 		name = "연구 기술",
 		id = 1007,
 		icon = "chara_all_skill_3",
-		desc = "아일랜드 기술 연구 시, 연구 시간이 $1 단축된다.",
+		desc = "아일랜드 기술 연구 시, 작업 시간 $1% 단축",
 		desc_add = {
 			{
 				{
@@ -1038,7 +1038,7 @@ pg.island_chara_skill = {
 		name = "채굴 기술",
 		id = 1008,
 		icon = "chara_all_skill_1",
-		desc = "석암 광산에서 작업 시, 광물 채굴 시간이 $1 단축된다.",
+		desc = "석암 광산에서 작업 시, 작업 시간 $1% 단축",
 		desc_add = {
 			{
 				{
@@ -1166,7 +1166,7 @@ pg.island_chara_skill = {
 		name = "경작 기술",
 		id = 1009,
 		icon = "chara_all_skill_5",
-		desc = "비옥한 농지에서 작업 시, 작물 성숙 시간이 $1 단축된다.",
+		desc = "비옥한 농지에서 작업 시, 작업 시간 $1% 단축",
 		desc_add = {
 			{
 				{
@@ -1422,7 +1422,7 @@ pg.island_chara_skill = {
 		name = "재배 기술",
 		id = 1011,
 		icon = "chara_all_skill_9",
-		desc = "초록색 모밭에서 작업 시, 작물 성숙 시간이 $1 단축된다.",
+		desc = "초록색 모밭에서 작업 시, 작업 시간 $1% 단축",
 		desc_add = {
 			{
 				{
@@ -1944,7 +1944,7 @@ pg.island_chara_skill = {
 		name = "무한 체력",
 		id = 99999,
 		icon = "chara_all_skill_8",
-		desc = "작업 시 체력 한도 없음",
+		desc = "작업 만쥬는 체력이 존재하지 않으며, 또한 여러 배치 슬롯에 동시 배치 가능",
 		desc_add = {},
 		material = {},
 		skill_effect = {

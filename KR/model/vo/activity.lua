@@ -781,7 +781,10 @@ slot0.IsShowTipById = function(slot0)
 
 			return false
 		end,
-		[ActivityConst.SAILING_SHIP_3_SKIN_ACT_ID] = SailingShip3SkinLayer.ShouldShowTip
+		[ActivityConst.SAILING_SHIP_3_SKIN_ACT_ID] = SailingShip3SkinLayer.ShouldShowTip,
+		[ActivityConst.HelenaPT_ACT_ID] = function ()
+			return HelenaScenarioPage:IsShowRed(getProxy(ActivityProxy):getActivityById(ActivityConst.HelenaPT_ACT_ID))
+		end
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
 

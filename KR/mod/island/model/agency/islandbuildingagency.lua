@@ -6,6 +6,7 @@ slot0.SLOT_HANDPLABT_SLOT_UNIT_CHANGE = "IslandBuildingAgency:SLOT_HANDPLABT_SLO
 slot0.SLOT_RESET_DELEGATION_STATE_DONE = "IslandBuildingAgency:SLOT_RESET_DELEGATION_STATE_DONE"
 slot0.GEN_ANIMAL_INT = "IslandBuildingAgency:GEN_ANIMAL_INT"
 slot0.CHANGE_PRODUCT_MODEL = "IslandBuildingAgency:CHANGE_PRODUCT_MODEL"
+slot0.SLOT_DELEGATE_INIT = "IslandBuildingAgency:SLOT_DELEGATE_INIT"
 
 slot0.OnInit = function(slot0, slot1)
 	slot0.buildings = {}
@@ -128,6 +129,10 @@ slot0.InitBuildData = function(slot0, slot1)
 				slotId = slot8.id
 			})
 		end
+
+		slot3:DispatchEvent(IslandBuildingAgency.SLOT_DELEGATE_INIT, {
+			slotId = slot8.id
+		})
 	end
 end
 

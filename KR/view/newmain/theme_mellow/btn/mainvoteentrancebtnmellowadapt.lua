@@ -11,4 +11,8 @@ slot0.OnInit = function(slot0)
 	})
 end
 
+slot0.InShowTime = function(slot0)
+	return false
+end
+
 return slot0

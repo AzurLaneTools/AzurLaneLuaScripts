@@ -37,17 +37,19 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
-		param = "0",
 		name = "event_map",
 		text_pic = "text_event_map",
-		type = 0,
+		type = 2,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
 		order = 1,
 		time = {
 			"default",
-			50222
+			50256
+		},
+		param = {
+			"bossrush dal collab"
 		}
 	},
 	[11] = {
@@ -319,7 +321,7 @@ pg.activity_link_button = {
 		}
 	},
 	[110] = {
-		param = "PSSCoreActivityUI",
+		param = "HelenaCoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core2",
 		type = 16,
@@ -329,7 +331,7 @@ pg.activity_link_button = {
 		order = 2,
 		time = {
 			"default",
-			50234
+			50261
 		}
 	},
 	[111] = {

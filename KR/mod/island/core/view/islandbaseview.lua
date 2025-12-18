@@ -1,12 +1,11 @@
 slot0 = class("IslandBaseView")
 
-slot0.Ctor = function(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.core = slot1
 	slot0.callbacks = {}
 	slot0.unitRegister = {}
 	slot0.registerIndex = 0
-	slot0.opCount = slot3 or 1
-	slot0.baseContainer = slot2
+	slot0.opCount = slot2 or 1
 end
 
 slot0.GetCacheOpCount = function(slot0)
@@ -14,16 +13,17 @@ slot0.GetCacheOpCount = function(slot0)
 end
 
 slot0.SetUp = function(slot0)
+	slot1 = pg.UIMgr.GetInstance().UIMain:Find("UIIsland")
 	slot0.poolMgr = slot0.core:GetPoolMgr()
-	slot0.layer1Container = slot0.baseContainer:Find("layer1")
+	slot0.layer1Container = slot1:Find("layer1")
 	slot0.layer1ContainerCg = GetOrAddComponent(slot0.layer1Container, typeof(CanvasGroup))
-	slot0.topContainer = slot0.baseContainer:Find("layer1/top")
-	slot0.opContainer = slot0.baseContainer:Find("layer1/op")
-	slot0.interactionContainer = slot0.baseContainer:Find("layer1/interaction")
-	slot0.hudContainer = slot0.baseContainer:Find("layer1/hud")
-	slot0.pageContianer = slot0.baseContainer:Find("layer1/page")
-	slot0.layer2UIContianer = slot0.baseContainer:Find("layer2/ui")
-	slot0.layer2OpContianer = slot0.baseContainer:Find("layer2/op")
+	slot0.topContainer = slot1:Find("layer1/top")
+	slot0.opContainer = slot1:Find("layer1/op")
+	slot0.interactionContainer = slot1:Find("layer1/interaction")
+	slot0.hudContainer = slot1:Find("layer1/hud")
+	slot0.pageContianer = slot1:Find("layer1/page")
+	slot0.layer2UIContianer = slot1:Find("layer2/ui")
+	slot0.layer2OpContianer = slot1:Find("layer2/op")
 	slot0.root = slot0:CreateRoot()
 
 	slot0:Init()
@@ -115,6 +115,10 @@ end
 
 slot0.GetIsland = function(slot0)
 	return slot0:GetCore():GetController():GetIsland()
+end
+
+slot0.GetSelfIsland = function(slot0)
+	return getProxy(IslandProxy):GetIsland()
 end
 
 slot0.GetController = function(slot0)

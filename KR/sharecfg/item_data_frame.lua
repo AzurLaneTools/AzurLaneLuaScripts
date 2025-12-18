@@ -519,7 +519,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 401,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>엔터프라이즈를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2019」 이벤트 획득",
+		desc = "<color=#ffffff>엔터프라이즈를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2021」 이벤트 획득",
 		scene = {}
 	},
 	[402] = {
@@ -528,7 +528,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 402,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>벨파스트를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2019」 이벤트 획득",
+		desc = "<color=#ffffff>벨파스트를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2021」 이벤트 획득",
 		scene = {}
 	},
 	[413] = {
@@ -537,7 +537,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 413,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>모나크를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2019」 이벤트 획득",
+		desc = "<color=#ffffff>모나크를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2021」 이벤트 획득",
 		scene = {}
 	},
 	[416] = {
@@ -559,12 +559,39 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[422] = {
-		name = "전당 기념:에기르",
+		name = "전당 기념: 에기르",
 		gain_by = "",
 		time_second = 0,
 		id = 422,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>에기르를 위해 특별 제작한 캐릭터 전용 프로필 테두리</color>\n[벽람항로 인기투표 2023] 이벤트에서 획득",
+		desc = "<color=#ffffff>에기르를 위해 특별히 제작한 캐릭터 전용 프로필 테두리</color>\n「AZURLANE 인기 투표 2023」 이벤트에서 획득 가능",
+		scene = {}
+	},
+	[425] = {
+		name = "전당 기념: 키어사지",
+		gain_by = "",
+		time_second = 0,
+		id = 425,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>키어사지를 위해 특별히 제작한 캐릭터 전용 프로필 테두리</color>\n「AZURLANE 인기 투표 2025」 이벤트에서 획득 가능",
+		scene = {}
+	},
+	[427] = {
+		name = "전당 기념: 재너스",
+		gain_by = "",
+		time_second = 0,
+		id = 427,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>재너스를 위해 특별히 제작한 캐릭터 전용 프로필 테두리</color>\n「AZURLANE 인기 투표 2025」 이벤트에서 획득 가능",
+		scene = {}
+	},
+	[428] = {
+		name = "전당 기념: 앵커리지",
+		gain_by = "",
+		time_second = 0,
+		id = 428,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>앵커리지를 위해 특별히 제작한 캐릭터 전용 프로필 테두리</color>\n「AZURLANE 인기 투표 2025」 이벤트에서 획득 가능",
 		scene = {}
 	},
 	[501] = {
@@ -928,6 +955,9 @@ pg.item_data_frame = {
 		416,
 		417,
 		422,
+		425,
+		427,
+		428,
 		501,
 		601,
 		602,

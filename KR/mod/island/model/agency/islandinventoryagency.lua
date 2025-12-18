@@ -340,6 +340,18 @@ slot0.GetShipExpBooks = function(slot0)
 	return slot1
 end
 
+slot0.GetFishingItems = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0:GetItemList()) do
+		if slot6:IsFishingProp() then
+			table.insert(slot1, slot6)
+		end
+	end
+
+	return slot1
+end
+
 slot0.OnSeasonReset = function(slot0)
 	slot1 = 0
 	slot0.overflowItemList = {}

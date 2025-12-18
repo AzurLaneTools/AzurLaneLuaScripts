@@ -200,6 +200,12 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 25,
+		param = {
+			"scene vote entrance"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -224,6 +230,7 @@ pg.activity_banner_notice = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

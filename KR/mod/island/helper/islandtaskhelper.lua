@@ -48,10 +48,10 @@ slot0.GetRuntimeData = function(slot0, slot1)
 			return uv0:GetAchievementAgency():IsGot(uv1) and 1 or 0
 		end,
 		[IslandTaskTargetType.TASK] = function ()
-			return uv0:GetTaskAgency():IsFinishTask(uv1) and 1 or 0
+			return pg.island_task[uv0].count_offset == 1 and uv1:GetTaskAgency():IsFinishTask(uv0) and 1 or 0
 		end,
 		[IslandTaskTargetType.TASK_TYPE_PLUS] = function ()
-			return uv0:GetTaskAgency():GetFinishCntByType(uv1)
+			return uv0:GetTaskAgency():GetFinishCntByType(uv1, true)
 		end,
 		[IslandTaskTargetType.RESTAURANT_RANK] = function ()
 			return uv0:GetManageAgency():GetCntByRestLevel(uv1)
@@ -72,6 +72,15 @@ slot0.GetRuntimeData = function(slot0, slot1)
 		end,
 		[IslandTaskTargetType.ACTIVITY_ORDER] = function ()
 			return uv0:GetOrderAgency():GetFinishedCntByActId(uv1)
+		end,
+		[IslandTaskTargetType.ORDER_DAILY] = function ()
+			return uv0:GetOrderAgency():GetFinishCnt()
+		end,
+		[IslandTaskTargetType.ACTION_HELLO_DAILY] = function ()
+			return #uv0:GetNpcFeedbackAgency():GetNpcList()
+		end,
+		[IslandTaskTargetType.TASK_DAILY_IN_WEEK] = function ()
+			return uv0:GetTaskAgency():GetFinishedDailyCntInWeek()
 		end
 	}, function ()
 		assert(false, "not exist runtime type: " .. uv0)
@@ -146,6 +155,17 @@ end
 slot0.OnActionEnd = function(slot0)
 	uv0.UpdateClientTaskProgress(IslandTaskTargetType.ACTION_END, slot0)
 	uv0.UpdateClientTaskProgress(IslandTaskTargetType.ACTION_END, 0)
+end
+
+slot0.OnSubmitTask = function(slot0)
+	IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK)
+	IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK_TYPE_PLUS)
+
+	if underscore.any(slot0, function (slot0)
+		return pg.island_task[slot0].type == IslandTaskType.DAILY and slot1.count_offset == 1
+	end) then
+		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK_DAILY_IN_WEEK)
+	end
 end
 
 slot0._GetTaskAcceptStoryId = function(slot0)

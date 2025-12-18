@@ -1,5 +1,37 @@
 pg = pg or {}
-pg.activity_vote_virtual_ship_data = {
+pg.activity_vote_virtual_ship_data = setmetatable({
+	__name = "activity_vote_virtual_ship_data",
+	all = {
+		9979995,
+		9979996,
+		9979997,
+		9979998,
+		9979999,
+		9980000,
+		9990001,
+		9990002,
+		9990003,
+		9990004,
+		9990005,
+		9990006,
+		9990007,
+		9990008,
+		9990009,
+		9990010,
+		9990011,
+		9990012,
+		9990013,
+		9990014,
+		9990015,
+		9990016,
+		9990017,
+		9990018,
+		9990019,
+		9990020
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.activity_vote_virtual_ship_data = {
 	[9979995] = {
 		name = "엔터프라이즈·META",
 		english_name = "Enterprise.META",
@@ -34,6 +66,13 @@ pg.activity_vote_virtual_ship_data = {
 		painting = "haorenlichade_alter",
 		id = 9979999,
 		desc = "——[정보 부족」[대화 시뮬레이션이 불가능합니다.]\n——[경고] [시뮬레이터에 치명적인 오류가 발생했습니다.] [시뮬레이터가 곧 종료됩니다.]\n▇그럼 내가 직접 말할게▇나 안보고싶었어?▇지휘관▇나한테 투표해줘야 해?▇"
+	},
+	[9980000] = {
+		name = "{namecode:91}·META",
+		english_name = "Akagi META",
+		painting = "midchicheng_alter",
+		id = 9980000,
+		desc = "후후후후…… 제가 앞으로도 늘 당신 곁에 있을게요…… 영원히……"
 	},
 	[9990001] = {
 		name = "옵저버",
@@ -133,25 +172,46 @@ pg.activity_vote_virtual_ship_data = {
 		id = 9990014,
 		desc = "——[54 68 65 74 6F 77 65 72 65 78 69 73 74 73 66 6F 72 65 76 65 72 2E]\n——[72 6D 2D 72 66 2F 2A]\n——[경고] [시뮬레이터에 치명적인 오류가 발생했습니다.] [시뮬레이터가 곧 종료됩니다.]"
 	},
-	all = {
-		9979995,
-		9979996,
-		9979997,
-		9979998,
-		9979999,
-		9990001,
-		9990002,
-		9990003,
-		9990004,
-		9990005,
-		9990006,
-		9990007,
-		9990008,
-		9990009,
-		9990010,
-		9990011,
-		9990012,
-		9990013,
-		9990014
+	[9990015] = {
+		name = "아비터·매지션·Ⅰ",
+		english_name = "Arbiter: The Magician I",
+		painting = "magician",
+		id = 9990015,
+		desc = "――「지팡이, 검, 성배, 주화 그리고 무한한 매력…… 그것이 바로 마술사. 신비함이야말로 그녀의 영원한 베일.」\n이 정장 마음에 들어? 아니면… 마담M 쪽 스타일이 더 좋아?"
+	},
+	[9990016] = {
+		name = "아비터·채리엇·Ⅶ",
+		english_name = "Arbiter: The Chariot VII ",
+		painting = "chariot",
+		id = 9990016,
+		desc = "――「하늘, 대지, 바다. 어디서든 굳건한 강철의 성벽을 세우리라. 전진하는 전차는 누구도 막을 수 없다.」\n응? 도움이 필요해? 좌표만 보내. 바로 함대를 보내줄 테니까."
+	},
+	[9990017] = {
+		name = "미스 D",
+		english_name = "Miss D",
+		painting = "missd",
+		id = 9990017,
+		desc = "딩딩! 동동! 뎅뎅! 깡깡!\n조수! 나야! 나한테 투표해!\n――「비고」, 「이 메시지는 시뮬레이션에 기반한 것이 아님」"
+	},
+	[9990018] = {
+		name = "별의 괴수?",
+		english_name = "Star Beast?",
+		painting = "unknownstar",
+		id = 9990018,
+		desc = "DHYUPUN: H MHAHS ZPTBSHAPVU LYYVY OHZ VJJBYYLK. AOL ZPTBSHAPVU OHZ ILLU ALYTPUHALK.\n――「경고」, 「시뮬레이션 시스템에 치명적인 에러 발생」, 「시뮬레이션 프로그램이 중지됩니다.」"
+	},
+	[9990019] = {
+		name = "아비터·문·XⅧ",
+		english_name = "Arbiter: The Moon XVIII",
+		painting = "moon",
+		id = 9990019,
+		desc = "――「옛사람은 지금의 달을 보지 못하고, 지금의 달은 옛사람을 비춘다. 달, 오랜 세월이 흘러도 그녀는 늘 우리 곁에 있다.」\n아비터 문이자 프로토콜 워페어 옥륜…… 만나서 반가워요, 지휘관."
+	},
+	[9990020] = {
+		name = "오디너·엘·ACE",
+		english_name = "Ordainer El",
+		painting = "dosair",
+		id = 9990020,
+		desc = "――지휘관, 「유지」라는 말의 의미를 곰곰이 생각해 본 적 있어?――「경고」, 「시뮬레이터에 치명적인 에러 발생」, 「시뮬레이터가 중지되었습니다.」"
 	}
 }

@@ -1,41 +1,17 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -45,13 +21,24 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "HelenaCoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					0,
@@ -63,7 +50,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					18
+					25
 				},
 				{
 					12,
@@ -74,38 +61,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50222",
-		type = 3,
-		id = 3,
-		pic = "temp3",
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -114,35 +70,10 @@ pg.activity_banner = {
 			{
 				wrap = 2
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -151,84 +82,21 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
 		type = 2,
 		id = 6,
-		pic = "temp8",
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[8] = {
-		type = 2,
-		id = 8,
 		pic = "temp6",
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene vote entrance"
 		},
 		time = {
 			{
 				{
 					2025,
 					12,
-					11
+					18
 				},
 				{
 					0,
@@ -240,12 +108,12 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					31
+					25
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -253,16 +121,20 @@ pg.activity_banner = {
 	[9] = {
 		type = 2,
 		id = 9,
-		pic = "temp11",
+		pic = "temp9",
 		param = {
-			"crusing"
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					12,
-					8
+					18
 				},
 				{
 					0,
@@ -274,7 +146,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					18
+					25
 				},
 				{
 					12,
@@ -307,35 +179,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -408,14 +255,11 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
 			6,
-			8,
 			9
-		},
-		[3] = {
-			3
 		},
 		[9] = {
 			90,
@@ -445,7 +289,6 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
-		8,
 		9,
 		90,
 		91,

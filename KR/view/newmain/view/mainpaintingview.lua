@@ -129,6 +129,8 @@ slot0.Init = function(slot0, slot1, slot2, slot3)
 	else
 		slot0:AdjustPosition(slot1)
 	end
+
+	slot0.painting:SetShift(slot0.shift)
 end
 
 slot0.Reload = function(slot0, slot1)

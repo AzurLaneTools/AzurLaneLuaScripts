@@ -32,12 +32,13 @@ slot0.execute = function(slot0, slot1)
 			uv2:DispatchEvent(uv7.START_DELEGATION, {
 				build_id = uv1,
 				ship_id = uv3,
-				area_id = uv8
+				area_id = uv8,
+				formula_id = uv9
 			})
-			uv9:sendNotification(GAME.ISLAND_START_DELEGATION_DONE, {
+			uv10:sendNotification(GAME.ISLAND_START_DELEGATION_DONE, {
 				slotId = uv8
 			})
-			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandStartDelegation(uv3, uv1, uv8, uv10, uv6))
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandStartDelegation(uv3, uv1, uv8, uv9, uv6))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

@@ -369,7 +369,7 @@ slot1 = function(slot0, slot1, slot2, slot3)
 	slot6 = function(slot0)
 		return {
 			level = slot0.level,
-			id = ys.Battle.BattleDataFunction.SkillTranform(uv1, uv0:RemapSkillId(slot0.id))
+			id = ys.Battle.BattleDataFunction.SkillTranform(uv1, uv0:RemapSkillId(slot0.id, true))
 		}
 	end
 

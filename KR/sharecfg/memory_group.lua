@@ -247,6 +247,7 @@ pg.memory_group = setmetatable({
 		345,
 		347,
 		348,
+		349,
 		501,
 		502,
 		503,
@@ -361,6 +362,7 @@ pg.memory_group = setmetatable({
 		614,
 		615,
 		616,
+		617,
 		1000,
 		1001,
 		1002,
@@ -1694,7 +1696,7 @@ pg.base.memory_group = {
 		}
 	},
 	[166] = {
-		title = "명예의 전당",
+		title = "명예의 전당 ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6162,6 +6164,36 @@ pg.base.memory_group = {
 			4826
 		}
 	},
+	[349] = {
+		title = "추억의 잔향",
+		subtype = 1,
+		link_event = 50262,
+		type = 2,
+		id = 349,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4841,
+			4842,
+			4843,
+			4844,
+			4845,
+			4846,
+			4847,
+			4848,
+			4849,
+			4850,
+			4851,
+			4852,
+			4853,
+			4854,
+			4855,
+			4856,
+			4857,
+			4858,
+			4859
+		}
+	},
 	[501] = {
 		title = "아카시의 의뢰",
 		subtype = 0,
@@ -8448,6 +8480,26 @@ pg.base.memory_group = {
 			4755,
 			4756,
 			4757
+		},
+		group_id = {
+			10000
+		}
+	},
+	[617] = {
+		title = "행복은 계산 불가능",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 617,
+		icon = "title_chara_fage",
+		memories = {
+			4861,
+			4862,
+			4863,
+			4864,
+			4865,
+			4866,
+			4867
 		},
 		group_id = {
 			10000

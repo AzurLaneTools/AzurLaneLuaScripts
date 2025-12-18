@@ -76,14 +76,14 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "dal-az-theme",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "dal-az-theme"
+		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "dal-az-theme",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "dal-az-theme"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -791,21 +791,21 @@ pg.voice_bgm = {
 					{
 						{
 							{
-								2024,
+								2026,
 								1,
-								30
+								27
 							},
 							{
-								12,
+								0,
 								0,
 								0
 							}
 						},
 						{
 							{
-								2024,
+								2026,
 								2,
-								5
+								2
 							},
 							{
 								23,
@@ -835,21 +835,21 @@ pg.voice_bgm = {
 					{
 						{
 							{
-								2024,
+								2026,
 								1,
-								30
+								27
 							},
 							{
-								12,
+								0,
 								0,
 								0
 							}
 						},
 						{
 							{
-								2024,
+								2026,
 								2,
-								5
+								2
 							},
 							{
 								23,
@@ -879,21 +879,21 @@ pg.voice_bgm = {
 					{
 						{
 							{
-								2024,
+								2026,
 								1,
-								30
+								27
 							},
 							{
-								12,
+								0,
 								0,
 								0
 							}
 						},
 						{
 							{
-								2024,
+								2026,
 								2,
-								5
+								2
 							},
 							{
 								23,
@@ -923,21 +923,21 @@ pg.voice_bgm = {
 					{
 						{
 							{
-								2024,
+								2026,
 								1,
-								30
+								27
 							},
 							{
-								12,
+								0,
 								0,
 								0
 							}
 						},
 						{
 							{
-								2024,
+								2026,
 								2,
-								5
+								2
 							},
 							{
 								23,
@@ -967,21 +967,21 @@ pg.voice_bgm = {
 					{
 						{
 							{
-								2024,
+								2026,
 								1,
-								30
+								27
 							},
 							{
-								12,
+								0,
 								0,
 								0
 							}
 						},
 						{
 							{
-								2024,
+								2026,
 								2,
-								5
+								2
 							},
 							{
 								23,
@@ -2599,5 +2599,10 @@ pg.voice_bgm = {
 		default_bgm = "dal-az-theme",
 		special_bgm = "",
 		bgm = "dal-az-theme"
+	},
+	HelenaCoreActivityUI = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
 	}
 }

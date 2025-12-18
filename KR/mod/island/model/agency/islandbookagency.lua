@@ -73,6 +73,9 @@ slot0.CreateClass = function(slot0, slot1, slot2)
 		end,
 		[IslandIllustration.TYPES.ITEM] = function ()
 			return IslandItemIllustration.New(uv0)
+		end,
+		[IslandIllustration.TYPES.FISH] = function ()
+			return IslandFishIllustration.New(uv0)
 		end
 	}, function ()
 		return IslandIllustration.New(uv0)
@@ -105,6 +108,11 @@ slot0.SetPointDatas = function(slot0, slot1)
 	end
 end
 
+slot0.InitRuntimeTypesData = function(slot0)
+	slot0:InitShipTypeData()
+	slot0:InitFishTypeData()
+end
+
 slot0.InitShipTypeData = function(slot0)
 	slot1 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
 	slot2 = pairs
@@ -112,6 +120,22 @@ slot0.InitShipTypeData = function(slot0)
 
 	for slot5, slot6 in slot2(slot3) do
 		if slot1:GetShipById(slot6:GetLinkConfigID()) then
+			if slot6:GetStatus() == IslandIllustration.STATUS.UNLOCK then
+				slot6:CheckTip()
+			elseif slot7 == IslandIllustration.STATUS.LOCK then
+				slot6:SetStatus(IslandIllustration.STATUS.CAN_UNLOCK)
+			end
+		end
+	end
+end
+
+slot0.InitFishTypeData = function(slot0)
+	slot1 = getProxy(IslandProxy):GetIsland():GetFishingAgency()
+	slot2 = pairs
+	slot3 = slot0.dataMap[IslandIllustration.TYPES.FISH] or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		if slot1:GetFish(slot6:GetLinkConfigID()) then
 			if slot6:GetStatus() == IslandIllustration.STATUS.UNLOCK then
 				slot6:CheckTip()
 			elseif slot7 == IslandIllustration.STATUS.LOCK then
@@ -238,20 +262,36 @@ slot0.OnShipUpgradeOrBreakOut = function(slot0, slot1)
 	end
 end
 
-slot0.IsTipFromTypes = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot1) do
-		slot7, slot8 = slot0:GetCurPointInfos(slot6)
+slot0.OnFishingEnd = function(slot0, slot1)
+	if not slot0.dataMap[IslandIllustration.TYPES.FISH] then
+		slot0.dataMap[IslandIllustration.TYPES.FISH] = {}
+	end
 
-		if not slot0:IsGotAllPointAward(slot6) and slot8 <= slot7 then
-			return true
+	if slot0.dataMap[IslandIllustration.TYPES.FISH][slot1] then
+		if slot2:GetStatus() == IslandIllustration.STATUS.LOCK then
+			slot0:AddCanUnlock(IslandIllustration.TYPES.FISH, slot1)
 		end
 
-		slot11 = pairs
-		slot12 = slot0.dataMap[slot6] or {}
+		slot2:CheckTip()
+	end
+end
 
-		for slot14, slot15 in slot11(slot12) do
-			if slot15:IsTip() then
+slot0.IsTipFromTypes = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		if slot6 ~= IslandIllustration.TYPES.FISH or IslandMainBtnTipHelper.IsUnlock("book_fish") then
+			slot7, slot8 = slot0:GetCurPointInfos(slot6)
+
+			if not slot0:IsGotAllPointAward(slot6) and slot8 <= slot7 then
 				return true
+			end
+
+			slot11 = pairs
+			slot12 = slot0.dataMap[slot6] or {}
+
+			for slot14, slot15 in slot11(slot12) do
+				if slot15:IsTip() then
+					return true
+				end
 			end
 		end
 	end

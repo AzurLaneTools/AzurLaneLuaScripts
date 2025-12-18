@@ -27,7 +27,7 @@ end
 slot0.InitData = function(slot0)
 	slot0.displays = {}
 	slot0.btns = {}
-	slot1 = false
+	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.voteData) do
 		slot7 = slot0._tf
@@ -42,13 +42,12 @@ slot0.InitData = function(slot0)
 
 		slot0.btns[slot5] = slot7
 
-		if not slot1 then
-			triggerToggle(slot7, true)
-
-			slot1 = true
+		if slot1 < slot5 then
+			slot1 = slot5
 		end
 	end
 
+	triggerToggle(slot0.btns[slot1], true)
 	slot0:UpdateBtnsTip()
 end
 

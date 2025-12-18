@@ -55,9 +55,22 @@ slot0.SystemData2IslandUnits = function(slot0, slot1, slot2, slot3, slot4, slot5
 	uv0.CollectSignInSystemUnits(slot0, slot2, slot3, slot4)
 	uv0.CollectWildCollectInSystemUnits(slot0, slot2, slot3, slot4)
 	uv0.CollectBuildingSystemUnits(slot0, slot1, slot3, slot4, slot5)
+	uv0.CollectFishPointUnits(slot0, slot3, slot4)
 
 	if slot3:IsPrivate() then
 		uv0.CollectOrderSystemUnits(slot0, slot3, slot4)
+	end
+end
+
+slot0.CollectFishPointUnits = function(slot0, slot1, slot2)
+	if not pg.island_fish_point then
+		return
+	end
+
+	for slot6, slot7 in ipairs(pg.island_fish_point.all) do
+		if pg.island_world_objects[pg.island_fish_point[slot7].objId].mapId == slot2 then
+			table.insert(slot0, IslandFishPointVO.New(slot7, slot8.objId))
+		end
 	end
 end
 
@@ -280,6 +293,24 @@ slot0.CollectPordunctSystem = function(slot0, slot1, slot2, slot3, slot4)
 
 		slot15:SetWorkerCnt(slot17)
 		table.insert(slot0, slot15)
+
+		if slot14 and table.contains(IslandProductConst.havePerformPlace, slot13) then
+			if slot16 then
+				for slot22, slot23 in ipairs(slot16:GetDelegateingSlotAndFormulaList()) do
+					slot28 = slot23.formula_id
+
+					for slot28, slot29 in ipairs(slot14:GetDelegateUnitsByBuildIdAndSlotId(slot13, slot23.area_id, slot28)) do
+						table.insert(slot1, slot29)
+					end
+
+					if slot14:GetDelegateEffectsByCommissonId(slot23.area_id) and slot14:GenUnitByDelegateEffectId(slot25) then
+						table.insert(slot1, slot26)
+					end
+				end
+			end
+
+			table.insert(slot0, slot14)
+		end
 	end
 end
 

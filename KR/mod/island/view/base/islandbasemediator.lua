@@ -6,8 +6,37 @@ slot0.ANIMATION_OP = "IslandBaseMediator:ANIMATION_OP"
 slot0.SEND_CHAT = "IslandBaseMediator:SEND_CHAT"
 slot0.CHANGE_CHAT_ROOM = "IslandBaseMediator:CHANGE_CHAT_ROOM"
 slot0.OPEN_FRIEND_INFO = "IslandBaseMediator:OPEN_FRIEND_INFO"
+slot0.GO_FISHING = "IslandBaseMediator:GO_FISHING"
+slot0.FISHING_RESULT = "IslandBaseMediator:FISHING_RESULT"
+slot0.EXCHANGE_LURE = "IslandBaseMediator:EXCHANGE_LURE"
 
 slot0.register = function(slot0)
+	slot0:bind(uv0.EXCHANGE_LURE, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.ISLAND_EXCHANGE_LURE, {
+			lureId = slot1,
+			fishPointId = slot2,
+			callback = slot3
+		})
+	end)
+	slot0:bind(uv0.FISHING_RESULT, function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+		uv0:sendNotification(GAME.ISLAND_FISHING_REUSLT, {
+			fishId = slot3,
+			fishPointId = slot2,
+			weight = slot4,
+			cupType = slot5,
+			islandId = uv0.viewComponent:GetIsland().id,
+			op = slot1,
+			callback = slot6
+		})
+	end)
+	slot0:bind(uv0.GO_FISHING, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.ISLAND_GO_FISHING, {
+			poolId = slot1,
+			baitId = slot2,
+			islandId = uv0.viewComponent:GetIsland().id,
+			callback = slot3
+		})
+	end)
 	slot0:bind(uv0.OPEN_FRIEND_INFO, function (slot0, slot1, slot2, slot3)
 		uv0.friendInfoPosition = slot2
 		uv0.friendInfoMsg = slot3
@@ -71,7 +100,7 @@ slot0.register = function(slot0)
 
 		slot1 = _IslandCore:GetController().mapId
 
-		if not _IslandCore:GetView().player then
+		if not _IslandCore:GetView().player or not slot2._tf then
 			return
 		end
 
@@ -110,7 +139,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.ON_APPLICATION_PAUSE,
 		GAME.ISLAND_ON_HOME,
 		GAME.ISLAND_ON_RECONNECT,
-		GAME.ISLAND_SELECT_GIFT_DONE
+		GAME.ISLAND_SELECT_GIFT_DONE,
+		GAME.ISLAND_CORE_STATE_CHANGED
 	}
 
 	for slot6, slot7 in ipairs(slot0:_listNotificationInterests()) do
@@ -159,16 +189,28 @@ slot0.handleNotification = function(slot0, slot1)
 			return
 		end
 
-		slot0.exitProcessing = true
-		slot4 = slot0.viewComponent
+		slot4 = function()
+			uv0.exitProcessing = true
+			slot0 = uv0.viewComponent
 
-		slot4:ExitProcess(BaseUI.ON_HOME, function ()
-			uv0.exitProcessing = false
+			slot0:ExitProcess(BaseUI.ON_HOME, function ()
+				uv0.exitProcessing = false
 
-			pg.m02:sendNotification(GAME.ISLAND_ENTER, uv1)
-		end)
+				pg.m02:sendNotification(GAME.ISLAND_ENTER, uv1)
+			end)
+		end
+
+		if _IslandCore and _IslandCore.state == IslandCore.STATE_INIT_FINISH then
+			slot4()
+		else
+			slot0.coreInitCallback = slot4
+		end
 	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)
+	elseif slot2 == GAME.ISLAND_CORE_STATE_CHANGED and slot3 == IslandCore.STATE_INIT_FINISH and slot0.coreInitCallback then
+		slot0.coreInitCallback()
+
+		slot0.coreInitCallback = nil
 	end
 
 	slot0:_handleNotification(slot1)
@@ -177,7 +219,7 @@ end
 
 slot0.SetUp = function(slot0, slot1)
 	slot2 = slot0.viewComponent:GetIsland()
-	_IslandCore = IslandCore.New(slot0.viewComponent:GetPoolMgr(), slot2, slot0.viewComponent._container, slot1)
+	_IslandCore = IslandCore.New(slot0.viewComponent:GetPoolMgr(), slot2, slot1)
 
 	slot0.viewComponent:OnSetUpCore(slot2.mapID, slot2.spawnPointId)
 end
@@ -209,6 +251,7 @@ end
 slot0.remove = function(slot0)
 	slot0:UnloadScene(true)
 	slot0:_remove()
+	IslandHelper.RunGC(true)
 end
 
 slot0._register = function(slot0)

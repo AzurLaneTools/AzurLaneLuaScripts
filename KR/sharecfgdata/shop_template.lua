@@ -98916,6 +98916,47 @@ _G.pg.base.shop_template[100107] = {
 }
 
 
+_G.pg.base.shop_template[100108] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 20,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "档案坐标记录仪9",
+	group_limit = 0,
+	resource_num = 800,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 3002,
+	id = 100108,
+	genre = "world_collection_task",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		2058,
+		10080
+	}
+}
+
+
 _G.pg.base.shop_template[105001] = {
 	group_type = 0,
 	package_sort_id = 0,

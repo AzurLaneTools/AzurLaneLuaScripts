@@ -170254,6 +170254,31 @@ _G.pg.base.item_virtual_data_statistics[65108] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65111] = {
+	drop_gold_max = 0,
+	name = "푸른 빛",
+	display = "「추억의 잔향」의 누적 획득 PT 아이템. 이벤트 종료 시에 삭제된다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65111",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65111,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "저항의 별 기념 훈장",
@@ -175223,6 +175248,81 @@ _G.pg.base.item_virtual_data_statistics[65746] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65746,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65755] = {
+	drop_gold_max = 0,
+	name = "투표권",
+	display = "AZURLANE 인기 투표 2025의 투표권. 각 단계(예선, 그룹전의 각 그룹별, 결승 부활전, 결승전) 종료 시에 삭제됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65755,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65756] = {
+	drop_gold_max = 0,
+	name = "투표권",
+	display = "AZURLANE 인기 투표 2025의 투표권. 각 단계(예선, 그룹전의 각 그룹별, 결승 부활전, 결승전) 종료 시에 삭제됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65756,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65757] = {
+	drop_gold_max = 0,
+	name = "투표권",
+	display = "AZURLANE 인기 투표 2025의 투표권. 각 단계(예선, 그룹전의 각 그룹별, 결승 부활전, 결승전) 종료 시에 삭제됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/voteT3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 2,
+	id = 65757,
 	display_icon = {},
 	price = {},
 	index = {},

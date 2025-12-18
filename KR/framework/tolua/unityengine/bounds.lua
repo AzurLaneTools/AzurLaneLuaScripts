@@ -94,6 +94,10 @@ slot5.Contains = function(slot0, slot1)
 	return true
 end
 
+slot5.GetCenter = function(slot0)
+	return slot0.center
+end
+
 slot5.IntersectRay = function(slot0, slot1)
 	slot2 = -Mathf.Infinity
 	slot3 = Mathf.Infinity
@@ -189,7 +193,7 @@ slot5.ClosestPoint = function(slot0, slot1)
 	if slot6 == 0 then
 		return rkPoint, 0
 	else
-		outPoint = slot3 + slot0:GetCenter()
+		outPoint = uv0(slot3[1], slot3[2], slot3[3]) + slot0:GetCenter()
 
 		return outPoint, slot6
 	end

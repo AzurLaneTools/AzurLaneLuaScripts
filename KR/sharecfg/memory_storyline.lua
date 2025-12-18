@@ -2303,8 +2303,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "기대해주세요",
-		name = "기대해주세요",
+		description = "「천역, 곧 외역의 병풍. 아마하라, 천역으로 인해 안정할지니. 설령 땅이 갈라지고 산이 무너져 재앙이 닥칠지라도——천역 아마하라는 영속하리라.」",
+		name = "아마하라에 바치는 춤",
 		column = 55,
 		world_id = "",
 		bgm = "story-amahara-stage1",
@@ -2330,18 +2330,45 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "敬请期待",
-		name = "敬请期待",
+		description = [[
+「나는 곧 먼 길을 떠나.」
+「그러니까 오늘은 더 솔직하고, 더 편하게……」
+「떠오르는 말을 그대로 이야기해볼 거야.」
+「……시작할게.」]],
+		name = "추억의 잔향",
+		column = 56,
+		world_id = "",
+		bgm = "theme-helena ",
+		row = 0,
+		chapter = 4,
+		memory_lock = 0,
+		id = 91,
+		icon = "ChapterFour_10",
+		sort = 1,
+		memory_id = {
+			1,
+			349
+		},
+		shipnation = {
+			97
+		},
+		link_event = {
+			92
+		}
+	},
+	{
+		description = "기대해 주세요",
+		name = "기대해 주세요",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 56,
+		column = 57,
 		world_id = "",
 		bgm = "",
 		row = 0,
-		chapter = 4,
+		chapter = 0,
 		memory_lock = 1,
-		id = 91,
+		id = 92,
 		icon = "",
 		sort = 0
 	},
@@ -2436,6 +2463,7 @@ pg.memory_storyline = {
 		88,
 		89,
 		90,
-		91
+		91,
+		92
 	}
 }

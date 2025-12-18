@@ -41,7 +41,7 @@ pg.island_buff_template = {
 	{
 		name = "생산 효율 상승",
 		buff_group = 1,
-		buff_desc = "8시간 동안 기본 자원을 생산할 때 필요한 시간이 5% 단축된다.",
+		buff_desc = "8시간 동안 기본 자원 생산 시, 작업 시간 5% 단축",
 		buff_color = 2,
 		buff_type = 102,
 		buff_time = 28800,
@@ -64,7 +64,7 @@ pg.island_buff_template = {
 	{
 		name = "제작 효율 상승",
 		buff_group = 1,
-		buff_desc = "8시간 동안 기지 공장에서 아이템을 생산할 때 필요한 시간이 5% 단축된다.",
+		buff_desc = "8시간 동안 기지 공장에서 아이템 제작 시, 작업 시간 5% 단축",
 		buff_color = 2,
 		buff_type = 102,
 		buff_time = 28800,
@@ -85,7 +85,7 @@ pg.island_buff_template = {
 	{
 		name = "요리 효율 상승",
 		buff_group = 1,
-		buff_desc = "8시간 동안 요리 아이템을 생산할 때 필요한 시간이 5% 단축된다.",
+		buff_desc = "8시간 동안 요리 아이템 제작 시, 작업 시간 5% 단축",
 		buff_color = 2,
 		buff_type = 102,
 		buff_time = 28800,

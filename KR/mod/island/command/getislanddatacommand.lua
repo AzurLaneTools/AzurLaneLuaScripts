@@ -85,7 +85,7 @@ slot0.AfterIslandInit = function(slot0)
 	slot1:GetAchievementAgency():InitRuntimeRecords()
 	slot1:GetTechnologyAgency():InitLockData()
 	slot1:GetGlobalBuffAgency():InitShipSkillGlobalBuff()
-	slot1:GetBookAgency():InitShipTypeData()
+	slot1:GetBookAgency():InitRuntimeTypesData()
 end
 
 return slot0

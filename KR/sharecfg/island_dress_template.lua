@@ -1134,12 +1134,13 @@ pg.island_dress_template = {
 		sub_type = 0,
 		remove = 1,
 		name = "학교 배낭",
-		desc = "깔끔한 사각형 디자인의 표준형 스쿨 백팩. 수납이 실용적이고 뛰어다녀도 쉽게 흔들리지 않는다.",
+		desc = "",
 		model = "island/item/03/39002/prefab/pre_item_03_39002",
 		icon = "dress_2010002",
 		attachmentPoint = "Bip001 Spine1",
 		belongto = 2,
 		tech_id = 0,
+		jump_page = "",
 		id = 2010002,
 		face_clip = "",
 		offset = {
@@ -1157,12 +1158,6 @@ pg.island_dress_template = {
 		},
 		exclusive_skin = {
 			3040701
-		},
-		jump_page = {
-			{
-				"도감",
-				{}
-			}
 		}
 	},
 	[2020001] = {
@@ -1199,7 +1194,7 @@ pg.island_dress_template = {
 		sub_type = 0,
 		remove = 1,
 		name = "산들바람 풍선",
-		desc = "작은 열기구가 바람에 맞춰 살짝 오르내리며, 맑은 하늘에 산뜻한 비행 흔적을 남긴다.",
+		desc = "",
 		exclusive_default_skin = "",
 		model = "island/item/03/37002/prefab/pre_item_03_37002",
 		icon = "dress_2020002",
@@ -1207,6 +1202,7 @@ pg.island_dress_template = {
 		belongto = 2,
 		tech_id = 0,
 		exclusive_skin = "",
+		jump_page = "",
 		id = 2020002,
 		rotation = "",
 		face_clip = "",
@@ -1214,12 +1210,6 @@ pg.island_dress_template = {
 			-0.73,
 			1.65,
 			-0.307
-		},
-		jump_page = {
-			{
-				"도감",
-				{}
-			}
 		}
 	},
 	[2020003] = {

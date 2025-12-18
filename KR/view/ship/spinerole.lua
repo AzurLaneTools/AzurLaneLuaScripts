@@ -39,14 +39,13 @@ slot0.Load = function(slot0, slot1, slot2, slot3)
 			uv0._modelRoot:AddComponent(typeof(RectTransform))
 
 			uv0._model = slot0
-			uv0._model.transform.localScale = Vector3.one
-			uv0._modelScale = Vector3.one
 
+			uv0:Init()
+			uv0:SetLocalScale(Vector3.one)
+			uv0:SetModelScale(Vector3.one)
 			uv0._model.transform:SetParent(uv0._modelRoot.transform, false)
 
 			uv0._model.transform.localPosition = Vector3.zero
-
-			uv0:Init()
 
 			if uv2 then
 				uv2()
@@ -73,11 +72,12 @@ slot0.LoadLite = function(slot0, slot1, slot2)
 		else
 			uv0._modelRoot = slot0
 			uv0._model = slot0
-			uv0._model.transform.localScale = Vector3.one
-			uv0._modelScale = Vector3.one
-			uv0._model.transform.localPosition = Vector3.zero
 
 			uv0:Init()
+			uv0:SetLocalScale(Vector3.one)
+			uv0:SetModelScale(Vector3.one)
+
+			uv0._model.transform.localPosition = Vector3.zero
 
 			if uv2 then
 				uv2()
@@ -303,20 +303,20 @@ slot0.SetAction = function(slot0, slot1)
 		return
 	end
 
-	slot3, slot4 = SpineAnimUtil.GetCharAnimationDirect(slot0._modleGraphic, math.sign(slot0._modelRoot.transform.localScale.x), slot1)
+	slot3, slot4 = SpineAnimUtil.GetCharAnimationDirect(slot0._modleGraphic, math.sign(slot0._rootScale.x), slot1)
 
 	if slot4 then
-		slot0._model.transform.localScale = Vector3(slot2, slot0._modelScale.y, slot0._modelScale.z)
+		slot0._model.transform.localScale = Vector3(slot2 * math.abs(slot0._modelScale.x), slot0._modelScale.y, slot0._modelScale.z)
 	else
 		slot0._model.transform.localScale = slot0._modelScale
 	end
 
-	print("root朝向 =" .. slot2 .. "，model朝向 =" .. slot2 .. "播放动作:" .. slot3)
 	slot0._modleAnim:SetAction(slot3, 0)
 
 	slot0._action = slot1
 
 	slot0:HiddenAttachmentByAction(slot1)
+	slot0:SetActionCallBack(nil)
 end
 
 slot0.SetActionOnce = function(slot0, slot1)
@@ -333,7 +333,31 @@ slot0.SetActionCallBack = function(slot0, slot1)
 		return
 	end
 
-	slot0._modleAnim:SetActionCallBack(slot1)
+	slot2 = slot0._modleAnim
+
+	slot2:SetActionCallBack(function (slot0)
+		uv0:changeAttachLListVisible(slot0)
+
+		if uv1 then
+			uv1(slot0)
+		end
+	end)
+end
+
+slot0.changeAttachLListVisible = function(slot0, slot1)
+	slot2 = nil
+
+	if slot1 == "skin_on" then
+		slot2 = true
+	elseif slot1 == "skin_off" then
+		slot2 = false
+	else
+		return
+	end
+
+	for slot6, slot7 in pairs(slot0._attachmentList) do
+		SetActive(slot6, slot2)
+	end
 end
 
 slot0.HiddenAttachmentByAction = function(slot0, slot1)
@@ -348,8 +372,16 @@ slot0.SetSizeDelta = function(slot0, slot1)
 	end
 end
 
+slot0.SetModelScale = function(slot0, slot1)
+	if slot0:CheckInited() then
+		slot0._model.transform.localScale = slot1
+		slot0._modelScale = slot1
+	end
+end
+
 slot0.SetLocalScale = function(slot0, slot1)
 	if slot0:CheckInited() then
+		slot0._rootScale = slot1
 		slot0._modelRoot.transform.localScale = slot1
 
 		if slot0._action then
@@ -493,6 +525,7 @@ end
 
 slot0.Dispose = function(slot0)
 	if slot0.state == uv0.STATE_INITED then
+		slot0._modleAnim:SetActionCallBack(nil)
 		slot0:StopTweenShining()
 		slot0:RevertMaterial()
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0._model)
