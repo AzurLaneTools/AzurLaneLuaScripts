@@ -13280,7 +13280,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990001] = {
 		map = 1990001,
-		name = "响彻于天穹之歌·上篇|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·上篇|| ||CHAPTER EX||E.X.",
 		bgm = "theme-weimu",
 		type = 4,
 		anchor = "",
@@ -13370,7 +13370,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990002] = {
 		map = 1990002,
-		name = "响彻于天穹之歌·下篇|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "story-weimu-link",
 		type = 4,
 		anchor = "",
@@ -13460,7 +13460,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990011] = {
 		map = 1990011,
-		name = "响彻于天穹之歌·上篇|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·上篇|| ||CHAPTER EX||E.X.",
 		bgm = "theme-weimu",
 		type = 5,
 		anchor = "",
@@ -13550,7 +13550,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990012] = {
 		map = 1990012,
-		name = "响彻于天穹之歌·下篇|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "story-weimu-link",
 		type = 5,
 		anchor = "",
@@ -13640,7 +13640,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990025] = {
 		map = 1990025,
-		name = "响彻于天穹之歌·SP|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-uc",
 		type = 8,
 		anchor = "",
@@ -13721,7 +13721,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990026] = {
 		map = 1990026,
-		name = "响彻于天穹之歌·EX|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-objectX-spread",
 		type = 8,
 		anchor = "",

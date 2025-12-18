@@ -85,15 +85,22 @@ slot0.execute = function(slot0, slot1)
 
 				pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE, uv3)
 				getProxy(ShopsProxy):addWaitTimer()
+				uv4:sendNotification(GAME.CHARGE_OPERATION_DONE)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("charge_trade_no_error"))
 			end
-		elseif slot0.result == 6 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("charge_error_count_limit"))
-		elseif slot0.result == 5002 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("charge_error_disable"))
 		else
-			pg.TipsMgr.GetInstance():ShowTips(errorTip("charge", slot0.result))
+			if slot0.result == 9999 then
+				uv4:sendNotification(GAME.CHARGE_OPERATION_DONE)
+			end
+
+			if slot0.result == 6 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("charge_error_count_limit"))
+			elseif slot0.result == 5002 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("charge_error_disable"))
+			else
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("charge", slot0.result))
+			end
 		end
 	end)
 end
