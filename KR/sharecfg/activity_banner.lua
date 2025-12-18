@@ -85,37 +85,12 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene vote entrance"
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[9] = {

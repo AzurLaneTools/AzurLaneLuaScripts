@@ -8,9 +8,6 @@ return {
 				},
 				arg_list = {
 					number = 0.05,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3
@@ -37,9 +34,6 @@ return {
 				},
 				arg_list = {
 					number = 0.061,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3
@@ -66,9 +60,6 @@ return {
 				},
 				arg_list = {
 					number = 0.072,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3
@@ -95,9 +86,6 @@ return {
 				},
 				arg_list = {
 					number = 0.083,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3
@@ -124,9 +112,6 @@ return {
 				},
 				arg_list = {
 					number = 0.094,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3
@@ -153,9 +138,6 @@ return {
 				},
 				arg_list = {
 					number = 0.105,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3
@@ -182,9 +164,6 @@ return {
 				},
 				arg_list = {
 					number = 0.116,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3
@@ -211,9 +190,6 @@ return {
 				},
 				arg_list = {
 					number = 0.127,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3
@@ -240,9 +216,6 @@ return {
 				},
 				arg_list = {
 					number = 0.138,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3
@@ -269,9 +242,6 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					label = {
-						"HMS"
-					},
 					index = {
 						2,
 						3

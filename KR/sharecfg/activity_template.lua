@@ -36842,6 +36842,7 @@ pg.activity_template = {
 	[1092] = {
 		mark = 20251204,
 		page_info = "",
+		time = "stop",
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
@@ -36850,33 +36851,6 @@ pg.activity_template = {
 		id = 1092,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			1110,
 			90308,
@@ -36892,6 +36866,7 @@ pg.activity_template = {
 	[1093] = {
 		mark = 20251204,
 		page_info = "",
+		time = "stop",
 		type = 19,
 		login_pop = 0,
 		config_id = 40,
@@ -36900,33 +36875,6 @@ pg.activity_template = {
 		id = 1093,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			"RENQITOUPIAOXINPIANZHANG7"
 		}
@@ -37312,6 +37260,7 @@ pg.activity_template = {
 	[1103] = {
 		mark = 20251204,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -37396,33 +37345,6 @@ pg.activity_template = {
 			90273,
 			90274,
 			90275
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[1104] = {
@@ -38124,6 +38046,7 @@ pg.activity_template = {
 	[1110] = {
 		mark = 20251204,
 		page_info = "",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 1110,
@@ -38132,34 +38055,7 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 1110,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[1111] = {
 		mark = 20251204,
@@ -38290,6 +38186,7 @@ pg.activity_template = {
 	[1114] = {
 		mark = 20251204,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -38300,38 +38197,12 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			90308
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[1115] = {
 		mark = 20251204,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -38353,33 +38224,6 @@ pg.activity_template = {
 			31048,
 			31049,
 			31050
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[6000] = {
