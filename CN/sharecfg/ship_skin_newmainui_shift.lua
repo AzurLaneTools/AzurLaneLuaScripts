@@ -5519,7 +5519,7 @@ pg.ship_skin_newmainui_shift = {
 			1
 		},
 		spine_shift = {
-			368,
+			11,
 			39,
 			0,
 			1.23

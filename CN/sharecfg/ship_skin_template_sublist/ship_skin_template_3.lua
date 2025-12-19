@@ -13766,7 +13766,7 @@ pg.base.ship_skin_template_3 = {
 			}
 		},
 		spine_offset = {
-			-357,
+			0,
 			-678,
 			0,
 			0.68
@@ -13786,7 +13786,7 @@ pg.base.ship_skin_template_3 = {
 			show = 1,
 			data = {
 				{
-					-544,
+					-1240.8,
 					-483,
 					2,
 					0,
@@ -13794,7 +13794,7 @@ pg.base.ship_skin_template_3 = {
 					1.6
 				},
 				{
-					-91,
+					-757.4,
 					437,
 					2,
 					189,
@@ -13802,7 +13802,7 @@ pg.base.ship_skin_template_3 = {
 					2
 				},
 				{
-					974,
+					54.1,
 					-201.52,
 					2,
 					0,

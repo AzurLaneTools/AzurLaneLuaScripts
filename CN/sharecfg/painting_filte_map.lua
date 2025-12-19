@@ -2737,10 +2737,18 @@ pg.painting_filte_map = {
 		key = "bote_2",
 		res_list = {
 			"painting/bote_2_tex",
+			"painting/bote_2_shophx_tex",
 			"painting/bote_2_rw_tex",
+			"painting/bote_2_rw_hx_tex",
 			"painting/bote_2_n_rw_tex",
+			"painting/bote_2_n_rw_hx_tex",
+			"painting/bote_2_n_hx",
 			"painting/bote_2_n",
+			"painting/bote_2_hx_tex",
+			"painting/bote_2_hx",
 			"painting/bote_2_bj_tex",
+			"painting/bote_2_bj_hx_tex",
+			"painting/bote_2_bj2_hx_tex",
 			"painting/bote_2"
 		}
 	},
@@ -9195,8 +9203,13 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/kebensi_2_tex",
 			"painting/kebensi_2_rw_tex",
+			"painting/kebensi_2_rw_hx_tex",
 			"painting/kebensi_2_n_rw_tex",
+			"painting/kebensi_2_n_rw_hx_tex",
+			"painting/kebensi_2_n_hx",
 			"painting/kebensi_2_n",
+			"painting/kebensi_2_hx_tex",
+			"painting/kebensi_2_hx",
 			"painting/kebensi_2"
 		}
 	},
