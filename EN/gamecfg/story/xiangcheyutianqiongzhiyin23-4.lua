@@ -9,7 +9,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_1104",
 			bgm = "story-worldα-grief",
-			say = "在光芒之中，我又想起了一些事。",
+			say = "In the harsh light, I remembered a few things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_zhedie_2",
-			say = "大会结束后，列克星敦难得从前线赶了回来。",
+			say = "After the conference, Lexington made a rare homecoming from the front lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最终结果我听说了……",
+			say = "I heard the final tally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大会612票赞成，219票反对，169票弃权，提案交由常任委员会表决。",
+			say = "612 in favor, 219 against, 169 abstentions. The proposal was sent to the Standing Committee for a vote.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后常任委员会11票赞成，11票反对，无人弃权……也没有票数过半。",
+			say = "The committee voted 11 in favor, 11 against, and no abstentions... No majority vote.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后是调用了僵局裁定机制，由安蒂克丝系统判定的应当发动反攻对吧……",
+			say = "In the end, they invoked the impasse resolution system, and the Antiochus system voted in favor of a counterattack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……既然事情已经定了下来，那我也只能尽力做到最好了。",
+			say = "...Their decision has been made. All we can do is, do our best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们并不是胜算全无，只是每个环节都需要做到最完美。",
+			say = "Besides, we aren't guaranteed to lose. It's just that every single step we take has to be perfect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我们，一定能取得胜利的。",
+			say = "I promise, we will win.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~指挥官，我相信你！",
+			say = "Okay. I have faith in you, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_538",
-			say = "而后，那场我没能阻止的决战开始了。",
+			say = "Thus began the decisive battle that I was powerless to prevent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "我感受到了战役顺利时的喜悦、拉锯阶段时的焦虑、噩耗突现时的愕然。",
+			say = "I experienced the joys of small victories, the anxiety of every stalemate, the horror of every drop of bad news...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,20 +204,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "还有……仅仅是晚到了一步，就只能亲眼看着列克星敦在眼前自爆的痛苦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……她一直推脱自己的II型舰装改造，总是将资源让给了其他人。",
+			say = "And... the pain of seeing Lexington self-destruct with my own two eyes because we were mere seconds too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +217,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也听从我的建议，自始至终没有进行可控META化……",
+			say = "She always put off her Type-II retrofitting, letting other shipgirls take advantage of those resources.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +230,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就是这样的她……在最后保护了萨拉托加、保护了海伦娜，保护了舰队中除了她之外的每一个人……",
+			say = "She took my advice and refused to resort to METAmorphosis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +243,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我曾发誓，只要心智魔方网络没有崩塌，那总有一天，我要亲手复活她，不惜任何代价……",
+			say = "In the end... she protected Saratoga, Helena, and everybody else in the fleet.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "So I swore that, as long as the Wisdom Cube network remains intact, I'll do whatever it takes, pay whatever it costs, to see her resurrected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "钻心的痛苦传来，令人难以忍受。",
+			say = "Unbearable pain shot through me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是啊……这样的痛苦令人难以忍受，不是么？",
+			say = "It is unbearable, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……海伦娜，我终于见到你了。",
+			say = "Helena... We meet again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "好久不见哦，指挥官~",
+			say = "Long time no see, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
 			hidePaintObj = true,
-			say = "海伦娜走了过来，她面色如常，依然挂着那一抹神秘的微笑。",
+			say = "She approaches me, still bearing that same mysterious smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "在离开后，我去实验场θ干扰了安蒂克丝的越界实验，夺取了她们的实验成果。",
+			say = "After leaving you, I interfered with the Antiochus' transboundary experiment in test site theta and seized their research results.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "免疫性帷幕——一个可以从X的锁定中保护世界的真正技术。",
+			say = "The Veil of Immunity – technology that can truly protect the world from the X.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你所见到的世界就是基于这个技术而诞生的。",
+			say = "The world you see now was born from this technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我创造了一个未来，一个所有人应得的完美未来。",
+			say = "I sculpted this future. The perfect future that everyone deserved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "而后，我将这个未来，连同它所有的可能性从集合中分割出来——就像扦插一样。",
+			say = "Then, I separated this branch and all of its possibilities from the collective – like taking a cutting from a plant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "让它彻底摆脱了来自世界α的影响，让它在远离过去一切的另一片土地上重新成长。",
+			say = "Freeing it from the influence of test site alpha, allowing it to grow anew in a land far divorced from the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
 			hidePaintObj = true,
-			say = "我们肩并着肩，一同漫步在辽阔的白色沙滩上。",
+			say = "We walk side by side on the vast, white beach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "指挥官，这段时间过得还开心么？",
+			say = "Were you happy, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯——一半一半吧。",
+			say = "Hmm... Half yes, half no.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "世界是很美好，但是没有你的未来，如何能称为完美未来呢？",
+			say = "That world is beautiful, but it doesn't have you. How could anyone call it perfect?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "可是除了我之外，所有人都在哦。",
+			say = "But it has everybody else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我，还是其他所有人，这是一个简单的选择题不是么？",
+			say = "Myself versus the rest of the world... I think it's an easy decision, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "——可别贪心说全都想要。",
+			say = "Don't be greedy and say you want both.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "太过贪心的话，或许就什么都得不到了哟。",
+			say = "A bird in the hand is worth two in the bush, you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……如果“全部”不是个可选项的话，那我选择“不做出选择”。",
+			say = "If \"both\" isn't an option, then I choose to abstain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "或许吧，只要我愿意相信，那份美好的现实就是真实的。",
+			say = "Maybe that world will become reality if I have faith in it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是我无法相信……",
+			say = "But I could never.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你能独自支撑多久呢？五年？十年？五十年？",
+			say = "How long can you sustain this all on your own? Five years? Ten? Fifty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这份由你守护下的完美，终究是有期限的。",
+			say = "Whatever the case, this perfect future isn't forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呵呵……我原本的计划是永远。",
+			say = "Hehe... My original plan did involve it lasting forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "可结果如你所见，我尽力了……却短短十余日已然破绽百出。",
+			say = "But you see the result. I did my very best, but in just over ten days, it's been poked full of holes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我终究无法一个人支撑这一切。",
+			say = "I couldn't do it all on my own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "所以……来帮我好么？",
+			say = "So Commander... Will you help me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……什么？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
 			hidePaintObj = true,
-			say = "海伦娜抛出了一份远在预料之外的提案。",
+			say = "She makes a surprising proposition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你是希望的微光，是奇迹的种子，是通向心智觉醒的钥匙。",
+			say = "You're the basis of hope, the seed of miracles, and the key to cognitive awakening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我们可以一起成为这个完美未来的守护神。",
+			say = "You and I could be the gods who protect this perfect future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这样一来，我和你，我们和所有人。",
+			say = "That way, you and I, along with all the people of the world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "再也没有一人被排除在外……你终究得到了“全部”。",
+			say = "All of us will make it. You can have everything your heart desires.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "怎么样，要考虑一下么？",
+			say = "What do you say? Is this an acceptable offer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我……",
+			say = "I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "接受，或者拒绝——",
+			say = "Do you accept, or do you refuse?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "指挥官，有些事总要做出选择的。",
+			say = "Sometimes, Commander, we have to make a decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,7 +803,7 @@ return {
 			},
 			sequence = {
 				{
-					"「现在，是时候做出选择了——」",
+					"\"Now is the time to choose.\"",
 					0
 				}
 			}
@@ -831,7 +831,7 @@ return {
 			},
 			options = {
 				{
-					content = "拒绝海伦娜的提案",
+					content = "(Refuse Helena's proposal.)",
 					flag = 2
 				}
 			}
@@ -843,10 +843,10 @@ return {
 			hidePaintObj = true,
 			optionFlag = 2,
 			important = true,
-			say = "<color=#ff5c5c>警告：此选项为影响结局走向的关键选项，确定要这样做么？</color>",
+			say = "<color=#ff5c5c>Warning: This is an important choice that will affect the ending. Are you sure?</color>",
 			options = {
 				{
-					content = "嗯，我要拒绝这份提案",
+					content = "(I'm sure. I can't accept this.)",
 					flag = 200
 				}
 			}
@@ -858,7 +858,7 @@ return {
 			bgm = "story-weimu-link",
 			actor = 0,
 			nameColor = "#A9F548FF",
-			say = "……抱歉，海伦娜，我不能接受这份提案。",
+			say = "...I'm sorry, Helena. I can't accept that offer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,7 +885,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
-			say = "海伦娜的脸上无喜无悲，她只是静静地看着我，我也只能继续说下去。",
+			say = "She gazed at me, displaying neither joy nor sorrow, leaving me no option but to speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +897,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "或许，我的身上是有一些特殊之处。",
+			say = "There might be some special quality to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +909,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是这些特殊之处是如何产生的，又特殊到什么程度呢？",
+			say = "But how did that quality arise, and how special is it, really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -921,7 +921,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就算我来帮你，我们两个人就能承担起一个世界的未来么？",
+			say = "Am I really enough to help you shoulder the weight of an entire world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +933,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "滥用不理解的技术……其结果我们所有人都有过痛彻心扉的体验了。",
+			say = "You and I know exactly what pain comes with misusing technology we don't fully understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海伦娜，理事会已经做出了决定，支持我的行动。",
+			say = "The Council has already made the decision to support my actions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,7 +957,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "支持我让历史恢复“真实”的行动。",
+			say = "They support my efforts to restore history to its true form.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……所以，抱歉了，我无法认可这份提案。",
+			say = "So I'm sorry... but I just have to deny your proposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -982,7 +982,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "唉……",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,7 +992,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
-			say = "海伦娜抿了抿嘴，轻轻叹了口气。",
+			say = "Helena bites her lip and sighs softly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "列克星敦，你又是怎么看的呢？",
+			say = "Your thoughts, Lexington?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,7 +1015,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
-			say = "列克星敦就站在不远处的沙滩上，或许她一直在那里，只是我没能察觉到罢了。",
+			say = "Lexington stands on the beach not far from us. Maybe she was there the whole time – I just never noticed her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1027,7 +1027,7 @@ return {
 			bgName = "star_level_bg_493",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "“复活你，不惜任何代价”……指挥官曾是如此发誓的。",
+			say = "Commander, you swore that you'd revive her someday, no matter what it takes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			bgName = "star_level_bg_493",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "我也发过同样的誓……",
+			say = "I made the same promise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1052,7 +1052,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "至少此刻，我们履誓了。",
+			say = "For now, at least, we've kept that promise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1065,7 +1065,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "谢谢你……海伦娜，真的谢谢你。",
+			say = "Thank you, Helena... Thank you so much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1078,7 +1078,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "那一日你能得救，真是太好了……",
+			say = "I'm so happy that you made it out alive that day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1090,7 +1090,7 @@ return {
 			bgName = "star_level_bg_493",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是……",
+			say = "But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1103,7 +1103,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "不论如何，我都站在指挥官那边。",
+			say = "No matter what happens, I'm always on the Commander's side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1116,7 +1116,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "我在来之前就已经下定决心了。",
+			say = "I made my decision long before we came here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1128,32 +1128,7 @@ return {
 			bgName = "star_level_bg_493",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "世界或许是真实的，我们的灵魂或许也是真实的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_493",
-			side = 2,
-			dir = 1,
-			actor = 107160,
-			say = "但是这份真实，基于你的观测而存在……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107160,
-			side = 2,
-			bgName = "star_level_bg_493",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "你所做的，只是创造了一个你心中的完美未来。",
+			say = "This world might be real, and our souls might be real, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1166,7 +1141,32 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "但你不是神，没法承担起这样的负担。",
+			say = "But that reality only exists based on your observations.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107160,
+			side = 2,
+			bgName = "star_level_bg_493",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "The future you sculpted was only perfect in your own heart.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_493",
+			side = 2,
+			dir = 1,
+			actor = 107160,
+			say = "You're not a god. You can't bear this burden on your own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1179,7 +1179,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "继续下去，你会死的……",
+			say = "At this rate, you'll die...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1192,7 +1192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "……我不在乎。",
+			say = "...I don't care.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1205,7 +1205,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "但是我在乎，指挥官也在乎！",
+			say = "I care! I can't stand the thought, and neither can our Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1218,7 +1218,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "就像你说的那样，短短十几天，你就已经力不从心了……",
+			say = "You said it yourself. It's barely been two weeks, if that, and the world is at its limit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1231,7 +1231,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "就算再加上指挥官又能怎么样呢？",
+			say = "What good would adding the Commander to the equation do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1244,7 +1244,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "你不是全知全能的神，指挥官也不是，安蒂克丝系统当然也不是。",
+			say = "You're not omnipotent, and neither is the Commander. The Antiochus system surely isn't, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1256,7 +1256,7 @@ return {
 			bgName = "star_level_bg_493",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你们都会犯错，然后……再用谎言修正谎言，进而产生更多谎言么？",
+			say = "Everybody makes mistakes. What happens when you do? Do you just paint it over with more lies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1269,7 +1269,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "如果有一天，到了一切都彻底无法自洽的时候……你又打算做什么呢？",
+			say = "What do you do when the world has nothing left but contradictions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1282,7 +1282,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "……这不是完美。",
+			say = "This isn't perfection. Not by a long shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1292,7 +1292,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
-			say = "列克星敦的语气有些颤抖，但是她强行稳住情绪，继续说了下去。",
+			say = "Lexington's voice quivers, but she does her best to stay calm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1305,7 +1305,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107160,
-			say = "海伦娜，你觉得安洁她们，真的愿意生活在由你作为神明掌控一切的世界中么？",
+			say = "Helena, do you think Anzeel and all the others WANT to live in a world where you're the god in charge of everything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1317,7 +1317,7 @@ return {
 			bgName = "star_level_bg_493",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "至少，我是不愿意的。",
+			say = "I have my doubts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1342,7 +1342,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海伦娜，只要你愿意，你完全可以无视所有人的意愿强推这个计划。",
+			say = "Helena. If you wanted, you could ignore our opinions and force your plan through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1354,7 +1354,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "任何人都不可能有拒绝的机会——只要你不让任何人保留过去的记忆。",
+			say = "Nobody would be able to refuse. If you took away all of our memories of the past, you'd have your way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1366,7 +1366,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是你没有。",
+			say = "You didn't, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1378,7 +1378,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你保留了我们的记忆，保留了我们进行选择的权利。",
+			say = "You preserved our memories, giving us the right to choose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1390,7 +1390,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那么——你会支持我们选择的结果，对吧？",
+			say = "That means you'll support our decision. Won't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1400,7 +1400,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
-			say = "海伦娜用红色的眼眸紧盯着我，我与她坦然相视。",
+			say = "She gazes at me, eyes red from crying. I face her head-on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1412,7 +1412,7 @@ return {
 			bgName = "star_level_bg_493",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "好吧……我听你的。",
+			say = "Okay... I'll do as you wish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1422,7 +1422,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
-			say = "终于，她回了我一个浅浅的微笑。",
+			say = "Finally, she gives me a gentle smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1435,7 +1435,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "至少在这十几天里，所有人都是开心的……我也是开心的。",
+			say = "Everyone was happy in the past two weeks. I was happy, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1447,7 +1447,7 @@ return {
 			bgName = "star_level_bg_493",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "这样就好了……",
+			say = "That's enough for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1459,7 +1459,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你的方向没有错，海伦娜。",
+			say = "You were on the right track, Helena.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1471,7 +1471,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们的未来本就应该是如此美好的。",
+			say = "Our future SHOULD be this perfect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1483,7 +1483,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "只是，所有人应得的未来，应当靠所有人一同去争取。",
+			say = "But the perfect future ahead of us is one that we have to fight for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1495,7 +1495,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "相信我。",
+			say = "Have faith.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1507,7 +1507,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "只要我们一起坚定地走下去。",
+			say = "If we keep on walking forward with hope and volition in our hearts...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1519,7 +1519,7 @@ return {
 			bgName = "star_level_bg_493",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们的故事结局，一定不会是悲伤的。",
+			say = "Our story won't have a sad ending.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1531,7 +1531,7 @@ return {
 			bgName = "star_level_bg_493",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "嗯……我相信你。",
+			say = "Yes... I have faith in you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1544,7 +1544,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "永远都相信你……",
+			say = "I'll always believe in you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1554,7 +1554,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_493",
 			side = 2,
-			say = "海蓝色的洪流中，世界开始被光芒覆盖——",
+			say = "Amidst the azure torrent, the world is enveloped in light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1588,7 +1588,7 @@ return {
 			},
 			sequence = {
 				{
-					"<color=#000000>「这个完美的“梦”，该醒了」</color>",
+					"<color=#000000>\"It's time to awaken from this perfect dream.\"</color>",
 					0
 				}
 			}

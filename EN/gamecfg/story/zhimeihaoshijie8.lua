@@ -770,11 +770,11 @@ return {
 			say = "Warning: This is an important choice that will affect the ending. Are you sure?",
 			options = {
 				{
-					content = "没错，这样就好。",
+					content = "Yes. This is how it's meant to be.",
 					flag = 3
 				},
 				{
-					content = "不对，一定有哪里不对……",
+					content = "No. Something's not right.",
 					flag = 2
 				}
 			}
