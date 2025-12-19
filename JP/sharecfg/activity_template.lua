@@ -32102,6 +32102,7 @@ pg.activity_template = {
 	[50265] = {
 		mark = 20251211,
 		page_info = "",
+		time = "stop",
 		type = 58,
 		login_pop = 0,
 		config_id = 38,
@@ -32110,34 +32111,7 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50265,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50266] = {
 		mark = 20251211,

@@ -10,6 +10,23 @@ slot0.OnFirstFlush = function(slot0)
 		setActive(slot0.items:GetChild(slot4 - 1):Find("got"), false)
 		setActive(slot0.items:GetChild(slot4 - 1):Find("got_short"), false)
 	end
+
+	slot1 = slot0.activity:getConfig("config_client").story
+
+	for slot5, slot6 in ipairs(slot0.taskList) do
+		if slot0.taskProxy:getFinishTaskById(slot6) and slot7:getTaskStatus() == 2 and checkExist(slot1, {
+			slot5
+		}, {
+			1
+		}) then
+			slot8 = slot1[slot5][1]
+			slot9, slot10 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot8)
+
+			pg.m02:sendNotification(GAME.STORY_UPDATE, {
+				storyId = slot8
+			})
+		end
+	end
 end
 
 slot0.OnUpdateFlush = function(slot0)
@@ -32,15 +49,7 @@ slot0.OnUpdateFlush = function(slot0)
 				}, {
 					1
 				}) then
-					slot7 = slot0[slot4][1]
-
-					playStory(slot7)
-
-					slot8, slot9 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot7)
-
-					pg.m02:sendNotification(GAME.STORY_UPDATE, {
-						storyId = slot7
-					})
+					playStory(slot0[slot4][1])
 				end
 			end
 		end
