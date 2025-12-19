@@ -307,17 +307,17 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "DALCoreActivityUI",
+		param = "PSSCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
 		pic = "event_core",
 		id = 109,
-		group_id = 1,
-		order = 1,
+		group_id = 2,
+		order = 2,
 		time = {
 			"default",
-			50245
+			50234
 		}
 	},
 	[110] = {
