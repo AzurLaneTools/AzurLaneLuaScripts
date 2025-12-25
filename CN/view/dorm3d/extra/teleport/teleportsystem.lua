@@ -22,6 +22,10 @@ slot0.BindClickFunc = function(slot0)
 
 		assert(pg.dorm3d_zone_template[slot1.teleport_zone] and pg.dorm3d_zone_template[slot1.teleport_zone].watch_camera, "invalid zone:" .. tostring(slot1.teleport_zone))
 		GetOrAddComponent(slot2, typeof(EventTriggerListener)):AddPointClickFunc(function (slot0, slot1)
+			if uv0:Get("isInFurnitureSelect") then
+				return
+			end
+
 			uv0:Emit(Dorm3dRoomTemplateScene.SHIFT_ZONE_SAFE, uv1)
 		end)
 	end)

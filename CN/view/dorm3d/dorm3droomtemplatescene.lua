@@ -1635,8 +1635,7 @@ slot0.ActiveCamera = function(slot0, slot1)
 end
 
 slot0.ActiveCameraByName = function(slot0, slot1)
-	slot2 = slot0.cameraRoot
-	slot2 = slot2:Find(slot1)
+	slot2 = slot0.cameraRoot:Find(slot1)
 
 	assert(slot2, "ActiveCameraByName: " .. slot1 .. " not found")
 	table.Foreach(slot0.cameras, function (slot0, slot1)
@@ -1644,7 +1643,7 @@ slot0.ActiveCameraByName = function(slot0, slot1)
 	end)
 	setActive(slot2, true)
 
-	slot0.cameras[uv0.CAMERA.CUSTOM] = slot2
+	slot0.cameras[uv0.CAMERA.CUSTOM] = slot2:GetComponent(typeof(Cinemachine.CinemachineVirtualCamera))
 end
 
 slot0.ShowBlackScreen = function(slot0, slot1, slot2)

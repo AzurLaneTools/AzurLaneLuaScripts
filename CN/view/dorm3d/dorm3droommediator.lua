@@ -57,6 +57,8 @@ slot0.register = function(slot0)
 					SlideExtraSystem
 				})
 				uv0.viewComponent:TempHideUI(false, uv1)
+
+				uv0.viewComponent.isInFurnitureSelect = false
 			end
 		}), nil, function ()
 			uv0.viewComponent:TempHideUI(true)

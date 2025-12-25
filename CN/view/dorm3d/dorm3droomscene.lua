@@ -126,6 +126,8 @@ slot0.init = function(slot0)
 		uv0:emit(Dorm3dRoomMediator.OPEN_FURNITURE_SELECT, {
 			apartment = uv0.apartment
 		})
+
+		uv0.isInFurnitureSelect = true
 	end, SFX_PANEL)
 
 	if not slot0.room:isPersonalRoom() then

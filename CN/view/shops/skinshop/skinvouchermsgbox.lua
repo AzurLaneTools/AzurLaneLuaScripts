@@ -7,6 +7,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+
 	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
 	slot0.cancelBtn = slot0._tf:Find("window/button_container/cancel")
 	slot0.confirmBtn = slot0._tf:Find("window/button_container/confirm")
@@ -229,6 +231,11 @@ slot0.SetTipText = function(slot0, slot1)
 
 		setText(slot0.tipText, i18n("no_share_skin_gametip", i18n(slot4[slot5][2]), slot6))
 	end
+end
+
+slot0.OnDestroy = function(slot0)
+	slot0.super:OnDestroy()
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0
