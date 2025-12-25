@@ -43148,7 +43148,7 @@ _G.pg.base.gametip.island_rename_input_tip = {
 
 
 _G.pg.base.gametip.island_rename_consutme_tip = {
-	tip = "離島名は9文字までとなります。離島名を変更するには$1を消費します"
+	tip = "離島名は9文字までとなります。"
 }
 
 

@@ -259,6 +259,7 @@ slot0.FoldPanels = function(slot0, slot1)
 	slot0.theme:OnFoldPanels(slot1)
 	slot0.paintingView:Fold(slot1, 0.5)
 	pg.playerResUI:Fold(slot1, 0.5)
+	slot0:SetEffectPanelVisible(not slot1)
 end
 
 slot0.HidePanel = function(slot0, slot1)
@@ -275,14 +276,17 @@ slot0.HidePanel = function(slot0, slot1)
 	slot0.theme:OnFoldPanels(slot1)
 
 	if slot0._asmrTurnning then
-		slot0:SetEffectPanelVisible(false)
-
 		if slot0.foldFlag == true then
 			pg.playerResUI:Fold(slot1, 0.5)
 		end
 	else
-		slot0:SetEffectPanelVisible(not slot1)
 		pg.playerResUI:Fold(slot1, 0.5)
+	end
+
+	if not slot1 and slot0._asmrTurnning then
+		slot0:SetEffectPanelVisible(false)
+	else
+		slot0:SetEffectPanelVisible(not slot1)
 	end
 end
 
@@ -291,7 +295,6 @@ slot0.AsmrTurning = function(slot0, slot1)
 
 	slot0.paintingView:OnAsmrTurnning(slot1)
 	slot0.theme:OnAsmrTurnning(slot1)
-	slot0:SetEffectPanelVisible(not slot1)
 	slot0.silentChecker:SetSilentRun(not slot1)
 
 	if not slot0._asmrTurnning then
