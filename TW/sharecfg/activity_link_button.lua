@@ -302,31 +302,31 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "DALCoreActivityUI",
+		param = "HelenaCoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_core",
+		text_pic = "text_event_core2",
 		type = 16,
-		pic = "event_core",
+		pic = "event_core2",
 		id = 109,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			50245
+			50261
 		}
 	},
 	[110] = {
-		param = "HelenaCoreActivityUI",
+		param = "SailingShip3CoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_core2",
+		text_pic = "text_event_yumia",
 		type = 16,
-		pic = "event_core2",
+		pic = "event_yumia",
 		id = 110,
 		group_id = 2,
 		order = 2,
 		time = {
 			"default",
-			50261
+			50205
 		}
 	},
 	[111] = {
