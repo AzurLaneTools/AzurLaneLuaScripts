@@ -1,5 +1,314 @@
 pg = pg or {}
 pg.enemy_data_statistics_385 = {
+	[294205] = {
+		cannon = 0,
+		name = "익스큐터XIV「Harmony」",
+		antiaircraft_growth = 3744,
+		speed_growth = 0,
+		luck = 10,
+		air = 55,
+		nationality = 99,
+		icon_type = 7,
+		type = 7,
+		rarity = 0,
+		antiaircraft = 47,
+		dodge_growth = 80,
+		icon = "shenyuanboss2",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 4438,
+		battle_unit_type = 90,
+		antisub = 0,
+		durability = 195,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		friendly_cld = 0,
+		speed = 18,
+		armor = 0,
+		id = 294205,
+		wave_fx = "longjuanfengditu",
+		scale = 125,
+		prefab = "shenyuanboss2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 6,
+		reload_growth = 0,
+		bubble_fx = "",
+		fog_fx = "",
+		hit = 8,
+		torpedo = 0,
+		durability_growth = 82000,
+		luck_growth = 0,
+		hit_growth = 126,
+		armor_type = 2,
+		world_enhancement = {
+			115,
+			1.5,
+			1.4,
+			0.5,
+			0.1,
+			1.8,
+			3.6
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.81,
+					0.757,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.81,
+					0.757,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-1.32,
+					0.757,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.333,
+					1.037,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.81,
+					0.757,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							3.05,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearbig"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[294210] = {
+		cannon = 3,
+		name = "익스큐터XIV「Equilibrium」",
+		antiaircraft_growth = 2416,
+		speed_growth = 0,
+		luck = 10,
+		air = 0,
+		nationality = 99,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 30,
+		dodge_growth = 240,
+		icon = "shenyuanboss1",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		antisub = 0,
+		durability = 96,
+		armor_growth = 0,
+		torpedo_growth = 1584,
+		friendly_cld = 0,
+		speed = 24,
+		armor = 0,
+		id = 294210,
+		wave_fx = "longjuanfengditu",
+		scale = 130,
+		prefab = "shenyuanboss1",
+		cannon_growth = 317,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		bubble_fx = "",
+		fog_fx = "",
+		hit = 15,
+		torpedo = 25,
+		durability_growth = 61200,
+		luck_growth = 0,
+		hit_growth = 228,
+		armor_type = 1,
+		world_enhancement = {
+			50,
+			3.8,
+			0.9,
+			0,
+			0.7,
+			1,
+			1
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.35,
+					1.02,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.35,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.06,
+					0.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.35,
+					1.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							3.05,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearbig"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[294211] = {
 		cannon = 3,
 		name = "대행자IX「Concealment」",
@@ -2787,78 +3096,6 @@ pg.enemy_data_statistics_385 = {
 		antiaircraft = 386,
 		speed = 30,
 		luck = 20,
-		fog_fx = "",
-		antisub = 0,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295016] = {
-		cannon = 95,
-		name = "아크 로열·META(Tier.1)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 288,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		id = 295016,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 30,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90521,
-		durability = 50000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 186,
-		speed = 30,
-		luck = 10,
-		fog_fx = "",
-		antisub = 0,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295017] = {
-		cannon = 105,
-		name = "아크 로열·META(Tier.2)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 302,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		id = 295017,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 35,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90521,
-		durability = 54000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 201,
-		speed = 30,
-		luck = 10,
 		fog_fx = "",
 		antisub = 0,
 		buff_list = {

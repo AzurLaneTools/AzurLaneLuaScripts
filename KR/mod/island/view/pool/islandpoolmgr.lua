@@ -33,7 +33,7 @@ slot0.Ctor = function(slot0, slot1)
 		[uv12] = IslandObjectPoolSet.New(slot1, 6, 2),
 		[uv13] = IslandAssetPoolSet.New(slot1, 5, 2),
 		[uv14] = IslandAssetPoolSet.New(slot1, 5, 2),
-		[uv15] = IslandAssetPoolSet.New(slot1, 5, 2)
+		[uv15] = IslandBtAssetPoolSet.New(slot1, 5, 2)
 	}
 	slot0.loadingIdList = {}
 end

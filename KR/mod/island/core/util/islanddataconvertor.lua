@@ -326,7 +326,9 @@ slot0.SceneData2IslandUnits = function(slot0, slot1, slot2, slot3, slot4, slot5,
 	end
 
 	for slot11, slot12 in pairs(slot2) do
-		table.insert(slot0, uv0.PlayerData2IslandUnit(slot12, slot3, slot6, slot4, slot5))
+		if slot12:IsSelf() then
+			table.insert(slot0, uv0.PlayerData2IslandUnit(slot12, slot3, slot6, slot4, slot5))
+		end
 	end
 
 	table.insert(slot0, uv0.TakePhotoData2IslandUnit(2))

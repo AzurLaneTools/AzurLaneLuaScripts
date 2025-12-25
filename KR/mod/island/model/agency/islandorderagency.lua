@@ -251,7 +251,7 @@ slot0.GetNextTargetExp = function(slot0)
 		return 0
 	end
 
-	return slot0:StaticGetTargetExp(slot0:GetLevel())
+	return slot0:StaticGetTargetExp(slot0:GetLevel() + 1)
 end
 
 slot0.StaticGetTargetExp = function(slot0, slot1)

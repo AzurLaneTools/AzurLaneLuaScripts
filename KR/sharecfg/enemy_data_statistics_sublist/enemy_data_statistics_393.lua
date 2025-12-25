@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_393 = {
+	[295240] = {
+		cannon = 406,
+		name = "나가토·META-Tier.15",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 75,
+		id = 295240,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 110,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90983,
+		durability = 1420000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 317,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		fog_fx = "",
+		antisub = 0
+	},
+	[295241] = {
+		cannon = 80,
+		name = "다이호·META-Tier.1",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 164,
+		reload = 150,
+		armor = 0,
+		dodge = 25,
+		id = 295241,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91025,
+		durability = 54000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 115,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 201171,
+				LV = 1
+			},
+			{
+				ID = 201175,
+				LV = 1
+			}
+		}
+	},
 	[295242] = {
 		cannon = 92,
 		name = "다이호·META-Tier.2",
@@ -1085,106 +1157,6 @@ pg.enemy_data_statistics_393 = {
 			},
 			{
 				ID = 201428,
-				LV = 1
-			}
-		}
-	},
-	[295272] = {
-		cannon = 89,
-		name = "카와카제·META-Tier.2",
-		torpedo = 139,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 28,
-		id = 295272,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 40,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 58000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 116,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981005
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201429,
-				LV = 1
-			}
-		}
-	},
-	[295273] = {
-		cannon = 100,
-		name = "카와카제·META-Tier.3",
-		torpedo = 156,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 32,
-		id = 295273,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 45,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 62000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 130,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981005
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201430,
 				LV = 1
 			}
 		}

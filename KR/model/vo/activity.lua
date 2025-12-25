@@ -695,7 +695,7 @@ slot0.readyToAchieve = function(slot0)
 			return slot0.data1 < #pg.activity_7_day_sign[slot0:getConfig("config_id")].front_drops and not slot3:IsSameDay(slot4, slot0.data2) and slot0.data2 < slot4
 		end,
 		[ActivityConst.ACTIVITY_TYPE_PT_HEI5] = function (slot0)
-			return #getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_HEI5):GetHei5UnreceiveAward() > 0
+			return #slot0:GetHei5UnreceiveAward() > 0
 		end
 	}
 

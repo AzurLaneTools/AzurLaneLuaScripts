@@ -12145,6 +12145,125 @@ pg.base.ship_skin_template_18 = {
 			}
 		}
 	},
+	[9707080] = {
+		name = "요크타운·META",
+		change_skin = "",
+		desc = "……처음 뵙겠습니다. 아니, 어쩌면 오랜만이겠네요. 지휘관님, 그대로 저를 바라봐 주세요. 이 고요한 시간을 조금 더 느끼고 싶어요……",
+		illustrator2 = -1,
+		ship_group = 970708,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "yuekecheng_alter",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 9707080,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "yuekecheng_alter",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 42,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.96,
+					2.12,
+					0
+				}
+			},
+			plane = {
+				{
+					0.887,
+					0.737,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.813,
+							2.493,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.789,
+							2.499,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[9708010] = {
 		name = "U-556·META",
 		change_skin = "",
@@ -15685,126 +15804,6 @@ pg.base.ship_skin_template_18 = {
 						{
 							-0.42,
 							2.33,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10400030] = {
-		name = "키즈나 아이·Anniversary",
-		change_skin = "",
-		desc = "키즈나 아이, 드레스를 차려입고 등장! 라이브도 배틀도 힘낼게! ",
-		illustrator2 = -1,
-		ship_group = 1040003,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "aijiangCV",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 10400030,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "aijiangCV",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 176,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.79,
-					0.88,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.05,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.83,
-					0.9,
-					0
-				}
-			},
-			plane = {
-				{
-					0.63,
-					0.73,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.39,
 							0
 						}
 					}

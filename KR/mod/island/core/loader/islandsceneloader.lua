@@ -33,7 +33,7 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 		end
 	}
 
-	for slot9 = #slot3, 1, -1 do
+	for slot9 = 1, #slot3 do
 		table.insert(slot5, #slot5, slot3[slot9])
 	end
 

@@ -7,7 +7,15 @@ end
 slot0.OnLoaded = function(slot0)
 end
 
+slot0.initTplVar = function(slot0)
+	slot0.descTip = "blackfriday_battlepass_pay_acquire"
+	slot0.payTip = "blackfriday_battlepass_pay_tip"
+	slot0.tplMaskName = nil
+end
+
 slot0.OnInit = function(slot0)
+	slot0:initTplVar()
+
 	slot1 = slot0._tf
 	slot0.buyWindow = slot1:Find("buy_window")
 	slot1 = slot0.buyWindow
@@ -22,13 +30,13 @@ slot0.OnInit = function(slot0)
 	slot0.priceTF = slot1:Find("Image")
 	slot2 = slot0.buyWindow
 
-	setText(slot2:Find("left/got/desc"), i18n("blackfriday_battlepass_pay_acquire"))
+	setText(slot2:Find("left/got/desc"), i18n(slot0.descTip))
 
 	slot1 = slot0.buyWindow
 	slot1 = slot1:Find("right/items/scrollview/list")
 	slot3 = slot0.buyWindow
 
-	setText(slot3:Find("right/items/Text"), i18n("blackfriday_battlepass_pay_tip"))
+	setText(slot3:Find("right/items/Text"), i18n(slot0.payTip))
 
 	slot0.uiItemList = UIItemList.New(slot1, slot1:Find("tpl"))
 	slot2 = slot0.uiItemList
@@ -39,7 +47,12 @@ slot0.OnInit = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.itemList[slot1]
 
-			updateDrop(slot2, slot3)
+			if not uv0.tplMaskName then
+				updateDrop(slot2, slot3)
+			else
+				updateDrop(slot2:Find(uv0.tplMaskName), slot3)
+			end
+
 			setText(slot2:Find("name"), shortenString(slot3:getConfig("name"), 4))
 			onButton(uv0, slot2, function ()
 				uv0:emit(BaseUI.ON_NEW_STYLE_DROP, {

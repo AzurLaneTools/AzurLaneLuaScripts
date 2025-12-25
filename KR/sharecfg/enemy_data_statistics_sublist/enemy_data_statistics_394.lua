@@ -1,5 +1,105 @@
 pg = pg or {}
 pg.enemy_data_statistics_394 = {
+	[295272] = {
+		cannon = 89,
+		name = "카와카제·META-Tier.2",
+		torpedo = 139,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 28,
+		id = 295272,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91099,
+		durability = 58000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 116,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2981000,
+			2981001,
+			2981005
+		},
+		buff_list = {
+			{
+				ID = 201420,
+				LV = 1
+			},
+			{
+				ID = 201425,
+				LV = 1
+			},
+			{
+				ID = 201429,
+				LV = 1
+			}
+		}
+	},
+	[295273] = {
+		cannon = 100,
+		name = "카와카제·META-Tier.3",
+		torpedo = 156,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 32,
+		id = 295273,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91099,
+		durability = 62000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 130,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2981000,
+			2981001,
+			2981005
+		},
+		buff_list = {
+			{
+				ID = 201420,
+				LV = 1
+			},
+			{
+				ID = 201425,
+				LV = 1
+			},
+			{
+				ID = 201430,
+				LV = 1
+			}
+		}
+	},
 	[295274] = {
 		cannon = 111,
 		name = "카와카제·META-Tier.4",
@@ -1170,164 +1270,151 @@ pg.enemy_data_statistics_394 = {
 			}
 		}
 	},
-	[295901] = {
-		cannon = 115,
-		antisub = 0,
-		air = 188,
-		cannon_growth = 0,
-		armor = 0,
-		reload = 150,
-		base = 90535,
-		dodge = 0,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		icon = "sairenboss11",
-		star = 2,
-		hit = 30,
-		antisub_growth = 0,
-		rarity = 2,
-		luck_growth = 0,
+	[295301] = {
+		cannon = 78,
+		name = "요크타운·META-Tier.1",
 		torpedo = 0,
-		durability = 99999,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 120,
-		luck = 0,
-		hit_growth = 0,
-		speed_growth = 0,
-		id = 295901,
-		fog_fx = ""
-	},
-	[295902] = {
-		cannon = 125,
-		antisub = 0,
-		air = 201,
 		cannon_growth = 0,
-		armor = 0,
+		air = 164,
 		reload = 150,
-		base = 90535,
-		dodge = 0,
-		torpedo_growth = 0,
+		armor = 0,
+		dodge = 25,
+		id = 295301,
 		antiaircraft_growth = 0,
-		air_growth = 0,
 		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "sairenboss11",
-		star = 2,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 35,
 		antisub_growth = 0,
-		rarity = 2,
-		luck_growth = 0,
-		torpedo = 0,
-		durability = 99999,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91177,
+		durability = 50000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 120,
-		luck = 0,
-		hit_growth = 0,
-		speed_growth = 0,
-		id = 295902,
-		fog_fx = ""
-	},
-	[295903] = {
-		cannon = 135,
-		antisub = 0,
-		air = 214,
-		cannon_growth = 0,
-		armor = 0,
-		reload = 150,
-		base = 90535,
-		dodge = 0,
+		antiaircraft = 116,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
 		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2983000,
+			2983005
+		},
+		buff_list = {
+			{
+				ID = 201634,
+				LV = 1
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201637,
+				LV = 1
+			}
+		}
+	},
+	[295302] = {
+		cannon = 89,
+		name = "요크타운·META-Tier.2",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 187,
+		reload = 150,
+		armor = 0,
+		dodge = 28,
+		id = 295302,
 		antiaircraft_growth = 0,
-		air_growth = 0,
 		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "sairenboss11",
-		star = 2,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 40,
 		antisub_growth = 0,
-		rarity = 2,
-		luck_growth = 0,
-		torpedo = 0,
-		durability = 99999,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91177,
+		durability = 54000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 120,
-		luck = 0,
-		hit_growth = 0,
-		speed_growth = 0,
-		id = 295903,
-		fog_fx = ""
-	},
-	[295904] = {
-		cannon = 146,
-		antisub = 0,
-		air = 227,
-		cannon_growth = 0,
-		armor = 0,
-		reload = 150,
-		base = 90535,
-		dodge = 0,
+		antiaircraft = 133,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
 		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2983000,
+			2983005
+		},
+		buff_list = {
+			{
+				ID = 201634,
+				LV = 2
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201637,
+				LV = 1
+			}
+		}
+	},
+	[295303] = {
+		cannon = 100,
+		name = "요크타운·META-Tier.3",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 210,
+		reload = 150,
+		armor = 0,
+		dodge = 32,
+		id = 295303,
 		antiaircraft_growth = 0,
-		air_growth = 0,
 		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "sairenboss11",
-		star = 2,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 45,
 		antisub_growth = 0,
-		rarity = 2,
-		luck_growth = 0,
-		torpedo = 0,
-		durability = 99999,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 120,
-		luck = 0,
-		hit_growth = 0,
-		speed_growth = 0,
-		id = 295904,
-		fog_fx = ""
-	},
-	[295905] = {
-		cannon = 157,
-		antisub = 0,
-		air = 240,
-		cannon_growth = 0,
-		armor = 0,
-		reload = 150,
-		base = 90535,
-		dodge = 0,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
 		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		icon = "sairenboss11",
-		star = 2,
-		hit = 50,
-		antisub_growth = 0,
-		rarity = 2,
-		luck_growth = 0,
-		torpedo = 0,
-		durability = 99999,
+		hit_growth = 0,
+		base = 91177,
+		durability = 58000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 120,
-		luck = 0,
-		hit_growth = 0,
-		speed_growth = 0,
-		id = 295905,
-		fog_fx = ""
+		antiaircraft = 150,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2983000,
+			2983005
+		},
+		buff_list = {
+			{
+				ID = 201634,
+				LV = 3
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201637,
+				LV = 1
+			}
+		}
 	}
 }

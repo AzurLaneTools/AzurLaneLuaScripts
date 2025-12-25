@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.enemy_data_statistics_233 = {
+	[15903014] = {
+		cannon = 43,
+		air = 0,
+		torpedo = 0,
+		cannon_growth = 2200,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 0,
+		hit_growth = 144,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 60,
+		base = 90627,
+		durability = 4930,
+		armor_growth = 0,
+		durability_growth = 70400,
+		antiaircraft = 105,
+		speed = 15,
+		luck = 0,
+		antiaircraft_growth = 1400,
+		antisub = 0,
+		id = 15903014,
+		fog_fx = "",
+		specific_fx_scale = {},
+		equipment_list = {
+			1005633,
+			1005638,
+			1005643
+		}
+	},
+	[15903015] = {
+		cannon = 0,
+		air = 48,
+		torpedo = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 0,
+		hit_growth = 144,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 2000,
+		battle_unit_type = 65,
+		base = 90635,
+		durability = 4420,
+		armor_growth = 0,
+		durability_growth = 65600,
+		antiaircraft = 115,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		antiaircraft_growth = 1800,
+		id = 15903015,
+		fog_fx = "",
+		bound_bone = {
+			cannon = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.07,
+					0.24,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1005648,
+			1005653,
+			1005658,
+			1005663
+		}
+	},
 	[15903016] = {
 		cannon = 60,
 		air = 0,
@@ -1357,104 +1462,6 @@ pg.enemy_data_statistics_233 = {
 			1100133,
 			1003109,
 			1003199
-		}
-	},
-	[15903210] = {
-		cannon = 135,
-		name = "악몽 투사-「항공모함」",
-		antiaircraft_growth = 3200,
-		speed_growth = 0,
-		luck = 18,
-		air = 210,
-		icon_type = 7,
-		id = 15903210,
-		type = 7,
-		hit_growth = 210,
-		antiaircraft = 260,
-		fog_fx = "",
-		dodge_growth = 156,
-		antisub_growth = 0,
-		air_growth = 3500,
-		base = 90640,
-		durability = 17240,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		armor = 0,
-		antisub = 0,
-		scale = 160,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 0,
-		durability_growth = 312000,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor_type = 2,
-		specific_fx_scale = {},
-		appear_fx = {
-			"heisewuqi_stg",
-			"appearQ"
-		},
-		equipment_list = {
-			873903,
-			873904,
-			1101093,
-			1003189,
-			1100788,
-			1003199
-		}
-	},
-	[15903301] = {
-		cannon = 280,
-		name = "악몽의 형상--「KGV」",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		id = 15903301,
-		air = 0,
-		armor = 0,
-		luck_growth = 0,
-		hit_growth = 330,
-		fog_fx = "",
-		dodge_growth = 196,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90516,
-		durability = 86200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 25,
-		antisub = 0,
-		scale = 180,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 14,
-		reload_growth = 0,
-		hit = 38,
-		torpedo = 0,
-		durability_growth = 0,
-		antiaircraft = 260,
-		battle_unit_type = 95,
-		specific_fx_scale = {
-			heisewuqi_stg = 1.5
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ",
-			"heisewuqi_stg"
-		},
-		equipment_list = {
-			894301,
-			894302,
-			894303,
-			894304,
-			894305,
-			894306
 		}
 	}
 }

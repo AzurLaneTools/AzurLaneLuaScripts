@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"荣耀殿堂\n\n<size=45>亲手拆封</size>",
+					"명예의 전당\n\n<size=45>직접 개봉</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			bgm = "story-richang-8",
-			say = "傍晚，我刚处理完日常事务，就接到了{namecode:97:大凤}的电话。",
+			say = "저녁 무렵, 업무를 끝내고 다이호의 전화를 받았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官大人！你怎么还没有回到指挥室呢，{namecode:97:大凤}的礼物已经到了哦~",
+			say = "지휘관님! 아직 지휘실에 돌아오지 않으셨네요. 다이호는 이미 선물을 받았어요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你要快点回去哦，不然礼物就要——",
+			say = "빨리 돌아오셔야 해요. 그렇지 않으면 선물이——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:97:大凤}的话还没说完，电话就挂断了，我带着一丝疑惑赶到指挥室，推开门——",
+			say = "다이호의 말이 끝나기 전에 전화가 끊어졌다. 나는 약간의 의문을 품고 지휘실로 향했다. 문을 열자마자——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
-			say = "映入眼帘的是个足以装下一个人的巨大礼物盒。红丝带缠绕其上，顶端打着夸张的蝴蝶结。",
+			say = "눈앞에 펼쳐진 것은 사람이 들어갈 수 있는 큰 선물 상자였다. 빨간 띠 위에 다소 과한 나비 리본이 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这就是{namecode:97:大凤}说的礼物？",
+			say = "…이게 다이호가 말한 선물인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "像是回应我一样，礼物盒竟然抖了抖。我解开蝴蝶结，一声熟悉的轻笑响起。",
+			say = "선물 상자는 내게 답하듯 미세하게 움직였다. 리본을 풀었더니, 익숙한 웃음소리가 들렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官大人最期待的礼物送到了哦！",
+			say = "제가 바로 지휘관님이 가장 기대하는 선물이에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你把自己当礼物送给我？",
+			say = "너를 선물로 주는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,34 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，“全心全意的{namecode:97:大凤}”，这份礼物指挥官大人满意吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task_2",
-			dir = 1,
-			actor = 307070,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这可是专属于您的礼物哦，独一无二！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307070,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "从发丝到指尖，全都是为指挥官大人而精心准备的~",
+			say = "네 맞아요, '정성 가득한 다이호!' 지휘관님 마음에 드시죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +162,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃，不过……",
+			say = "이건 오직 지휘관님을 위한 선물이에요. 단 하나뿐이죠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +175,34 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在可能需要指挥官大人靠{namecode:97:大凤}近一点呢~好像有点——",
+			say = "머리부터 발끝까지 지휘관님을 위해 정성껏 준비했어요~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task_2",
+			dir = 1,
+			actor = 307070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "음, 근데…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307070,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "지휘관님, 다이호에게 좀 가까이 다가와야죠~ 좀 그러네요——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！！",
+			say = "아 ! !",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "小心，需要我帮忙么？",
+			say = "조심해. 내가 도와줄까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不是帮忙哦指挥官大人~",
+			say = "도와주는 게 아니라, 지휘관님~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是需要您亲自拆开{namecode:97:大凤}的礼物呢~呵呵~",
+			say = "지금은 다이호의 선물을 직접 열어야죠~ 히히~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我小心地想要撕开包装纸，却发现上面的胶带不知怎么粘在了{namecode:97:大凤}身上。",
+			say = "나는 조심스럽게 포장지를 뜯었다. 이윽고 테이프가 다이호에게 붙어 있는 걸 발견했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请小心一点，弄坏了{namecode:97:大凤}可是要赔的哦~",
+			say = "조심하세요. 다이호가 다치면 책임지셔야 해요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "怎么缠得这么紧？",
+			say = "너무 꽉 묶었는데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这可是{namecode:97:大凤}可为指挥官是精心设计过的呢。",
+			say = "그건 제가 지휘관님을 위해 정성껏 준비했으니깐요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为{namecode:97:大凤}想一点一点，慢慢地……被指挥官大人亲手打开。",
+			say = "지휘관님이 하나씩, 천천히... 직접 열어주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样，是不是很诱人？",
+			say = "어때요? 유혹적이죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，等等！那个位置的胶带……",
+			say = "어, 잠시만! 그 위치에 테이프를…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有点紧……会……咿——！",
+			say = "너무 꽉 끼네요… 이건… 어——!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官大人，竟然这样心急吗？呵呵，要对礼物温柔一点哦~",
+			say = "지휘관님, 너무 성급하신 거 아니에요? 히히, 선물을 부드럽게 다뤄야죠~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对{namecode:97:大凤}温柔这样的事情……对指挥官大人来说，应该不成问题吧？",
+			say = "다이호를 부드럽게 다루는 것... 지휘관님 잘할 수 있죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有缠住我双腿的缎带，也拜托了哦~",
+			say = "그리고 제 다리에 있는 리본도 부탁해요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,20 +409,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她说着把腿轻轻往我面前挪了挪，缎带确实系得很紧，我只得半跪下来小心解开。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307070,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指挥官大人现在的表情，好令人心动……",
+			say = "그녀는 말 끝나기 바쁘게 다리를 내 쪽으로 내밀었다. 리본이 꽉 묶여 있어서 무릎을 꿇고 풀 수밖에 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "像是在拆什么禁忌之物一样~",
+			say = "지휘관님의 얼굴을 보니, 정말 설레네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +435,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是不是很期待，下一层会是什么样的{namecode:97:大凤}呢？",
+			say = "마치 금기시된 물건을 뜯는 것 같아요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +448,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，最难拆开的那一层，是{namecode:97:大凤}的心哦~",
+			say = "이 속에는 어떤 다이호가 있을까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +461,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到时候可能需要指挥官大人更亲密的接触……或者，更用心的怜爱才能解开♡",
+			say = "하지만 가장 열기 힘든 건 다이호의 마음이에요~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307070,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "때가 되면 지휘관님과 밀접한 스킨쉽... 혹은 더 진한 애정으로 풀어야 해요♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还是先把你从礼物盒里解救出来再说吧。",
+			say = "일단 선물 상자에서 다이호를 꺼내고 나서 얘기해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "马上就好了。",
+			say = "곧 끝나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？指挥官的手指这么灵活啊。",
+			say = "에? 지휘관님의 손놀림 정말 대단하시네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比我想象中快了不少呢，虽然有点小失落，但也很期待您快点触碰到{namecode:97:大凤}呢~",
+			say = "생각보다 훨씬 빠르신걸요? 아쉬워요. 지휘관님이 다이호에게 닿기를 기대하고 있었거든요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "专注地解开最后一圈缎带，{namecode:97:大凤}终于可以自由活动了，她撑着我的手臂，缓缓站起身来。",
+			say = "정신을 가다듬고 마지막 리본을 풀자, 다이호는 드디어 자유롭게 움직일 수 있게 되었다. 그녀는 내 팔을 짚고 천천히 일어섰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官大人，{namecode:97:大凤}的腿好麻……都快站不起来了……",
+			say = "지휘관님, 다이호의 다리에 쥐가 났나 봐요… 서지 못하겠어요..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能把{namecode:97:大凤}从礼物盒里抱出来嘛？",
+			say = "다이호를 선물 상자에서 안아 올려 주실 수 있나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,20 +576,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我将她打横抱出盒子，她立刻将双臂绕上我的颈间，动作自然得仿佛早有预谋。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307070,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "呼，终于出来了~",
+			say = "공주님 안기로 그녀를 안아 올리자, 그녀는 마치 기다렸다는 듯 자연스럽게 두 팔로 내 목을 감았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +589,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~指挥官大人……现在的{namecode:97:大凤}，已经不是“礼物”了哦。",
+			say = "후우, 드디어 나왔어요~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307070,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "후훗~ 지휘관님... 이제 다이호는 더 이상 '선물'이 아니랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那是什么？",
+			say = "그럼, 뭔데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,18 +628,18 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是——已经拆封，无法退货，只能被指挥官大人专属收藏的，{namecode:97:大凤}~",
+			say = "개봉했기에——반품 불가인 지휘관님만을 위한 다이호에요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我会一直好好珍藏的。",
+					content = "평생 소중히 간직할게.",
 					flag = 1
 				},
 				{
-					content = "没有赠品么？",
+					content = "사은품은 없어?",
 					flag = 2
 				}
 			}
@@ -652,7 +652,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那请每天都好好保养爱护您的收藏品哦~",
+			say = "지휘관님의 소장품을 매일 정성껏 관리하셔야 해요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么贪心？还真是难满足呢~",
+			say = "욕심쟁이시네요? 정말 만족시키기 어려운 분이라니까요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官大人~您还没有告诉我，是不是非常非常喜欢作为专属礼物的{namecode:97:大凤}呢~",
+			say = "지휘관님~ 선물인 다이호가 마음에 드시는지 아직 말씀 안 해주셨잖아요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~但是现在说已经来不及了哦——{namecode:97:大凤}已经知道了~",
+			say = "후훗~ 지금 말씀하셔도 이미 늦었답니다——다이호는 다 알고 있거든요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,20 +703,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我正要将她安置在椅子上，忽然她双臂收紧，我失去平衡，整个人扑倒在她怀中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307070,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这么亲密的距离，就算指挥官大人还在犹豫，{namecode:97:大凤}也要按捺不住了……",
+			say = "그녀를 의자에 앉히려던 순간, 그녀가 팔에 힘을 주며 나를 끌어당겼다. 나는 중심을 잃고 그녀의 품에 속절없이 안겼다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +716,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官大人现在的心情，是开心？感动？还是……忍不住想立刻疼爱{namecode:97:大凤}呢？",
+			say = "이 정도 거리라면, 지휘관님이 참을 수 있어도 다이호는 못 참겠어요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +729,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘻嘻，{namecode:97:大凤}什么都愿意哦。",
+			say = "지금 지휘관님의 기분은 기쁨인가요? 아니면 감동? 또는... 당장이라도 다이호를 예뻐해 주고 싶은가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +742,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要是您的选择，{namecode:97:大凤}永远都——不会拒绝~",
+			say = "히힛, 다이호는 뭐든 괜찮답니다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307070,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "당신의 선택이라면 다이호는 영원히——거절하지 않을 테니까~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

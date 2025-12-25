@@ -92140,6 +92140,404 @@ _G.pg.base.aircraft_template[169560] = {
 }
 
 
+_G.pg.base.aircraft_template[169671] = {
+	name = "约克城metaSBDLv1",
+	max_hp = 48,
+	accuracy = 23,
+	model_ID = "alter_plane2_blue",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "alter_plane2_blue",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1183,
+	speed = 46,
+	id = 169671,
+	scale = 0.75,
+	weapon_ID = {
+		169681,
+		169691
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[169672] = {
+	max_hp = 54,
+	name = "约克城metaSBDLv2",
+	spawn_brownian = 1,
+	base = 169671,
+	id = 169672,
+	hp_growth = 1345,
+	weapon_ID = {
+		169682,
+		169692
+	}
+}
+
+
+_G.pg.base.aircraft_template[169673] = {
+	max_hp = 61,
+	name = "约克城metaSBDLv3",
+	spawn_brownian = 1,
+	base = 169671,
+	id = 169673,
+	hp_growth = 1507,
+	weapon_ID = {
+		169683,
+		169693
+	}
+}
+
+
+_G.pg.base.aircraft_template[169674] = {
+	max_hp = 67,
+	name = "约克城metaSBDLv4",
+	spawn_brownian = 1,
+	base = 169671,
+	id = 169674,
+	hp_growth = 1669,
+	weapon_ID = {
+		169684,
+		169694
+	}
+}
+
+
+_G.pg.base.aircraft_template[169675] = {
+	max_hp = 73,
+	name = "约克城metaSBDLv5",
+	spawn_brownian = 1,
+	base = 169671,
+	id = 169675,
+	hp_growth = 1831,
+	weapon_ID = {
+		169685,
+		169695
+	}
+}
+
+
+_G.pg.base.aircraft_template[169676] = {
+	max_hp = 79,
+	name = "约克城metaSBDLv6",
+	spawn_brownian = 1,
+	base = 169671,
+	id = 169676,
+	hp_growth = 1994,
+	weapon_ID = {
+		169686,
+		169696
+	}
+}
+
+
+_G.pg.base.aircraft_template[169677] = {
+	max_hp = 86,
+	name = "约克城metaSBDLv7",
+	spawn_brownian = 1,
+	base = 169671,
+	id = 169677,
+	hp_growth = 2157,
+	weapon_ID = {
+		169687,
+		169697
+	}
+}
+
+
+_G.pg.base.aircraft_template[169678] = {
+	max_hp = 92,
+	name = "约克城metaSBDLv8",
+	spawn_brownian = 1,
+	base = 169671,
+	id = 169678,
+	hp_growth = 2320,
+	weapon_ID = {
+		169688,
+		169698
+	}
+}
+
+
+_G.pg.base.aircraft_template[169679] = {
+	max_hp = 98,
+	name = "约克城metaSBDLv9",
+	spawn_brownian = 1,
+	base = 169671,
+	id = 169679,
+	hp_growth = 2483,
+	weapon_ID = {
+		169689,
+		169699
+	}
+}
+
+
+_G.pg.base.aircraft_template[169680] = {
+	max_hp = 104,
+	name = "约克城metaSBDLv10",
+	spawn_brownian = 1,
+	base = 169671,
+	id = 169680,
+	hp_growth = 2646,
+	weapon_ID = {
+		169690,
+		169700
+	}
+}
+
+
+_G.pg.base.aircraft_template[169701] = {
+	name = "约克城metaHVARLv1",
+	max_hp = 54,
+	accuracy = 23,
+	model_ID = "alter_plane2_blue",
+	ACC_growth = 0,
+	crash_DMG = 206,
+	dodge = 3.03,
+	attack_power = 2,
+	dodge_limit = 2.2,
+	type = 3,
+	AP_growth = 2000,
+	icon = "alter_plane2_blue",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2076,
+	speed = 45,
+	id = 169701,
+	scale = 0.75,
+	weapon_ID = {
+		169711
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[169702] = {
+	max_hp = 62,
+	name = "约克城metaHVARLv2",
+	spawn_brownian = 1,
+	base = 160351,
+	id = 169702,
+	hp_growth = 2387,
+	weapon_ID = {
+		169712
+	}
+}
+
+
+_G.pg.base.aircraft_template[169703] = {
+	max_hp = 70,
+	name = "约克城metaHVARLv3",
+	spawn_brownian = 1,
+	base = 160351,
+	id = 169703,
+	hp_growth = 2698,
+	weapon_ID = {
+		169713
+	}
+}
+
+
+_G.pg.base.aircraft_template[169704] = {
+	max_hp = 78,
+	name = "约克城metaHVARLv4",
+	spawn_brownian = 1,
+	base = 160351,
+	id = 169704,
+	hp_growth = 3010,
+	weapon_ID = {
+		169714
+	}
+}
+
+
+_G.pg.base.aircraft_template[169705] = {
+	max_hp = 86,
+	name = "约克城metaHVARLv5",
+	spawn_brownian = 1,
+	base = 160351,
+	id = 169705,
+	hp_growth = 3321,
+	weapon_ID = {
+		169715
+	}
+}
+
+
+_G.pg.base.aircraft_template[169706] = {
+	max_hp = 94,
+	name = "约克城metaHVARLv6",
+	spawn_brownian = 1,
+	base = 160351,
+	id = 169706,
+	hp_growth = 3632,
+	weapon_ID = {
+		169716
+	}
+}
+
+
+_G.pg.base.aircraft_template[169707] = {
+	max_hp = 103,
+	name = "约克城metaHVARLv7",
+	spawn_brownian = 1,
+	base = 160351,
+	id = 169707,
+	hp_growth = 3944,
+	weapon_ID = {
+		169717
+	}
+}
+
+
+_G.pg.base.aircraft_template[169708] = {
+	max_hp = 111,
+	name = "约克城metaHVARLv8",
+	spawn_brownian = 1,
+	base = 160351,
+	id = 169708,
+	hp_growth = 4255,
+	weapon_ID = {
+		169718
+	}
+}
+
+
+_G.pg.base.aircraft_template[169709] = {
+	max_hp = 119,
+	name = "约克城metaHVARLv9",
+	spawn_brownian = 1,
+	base = 160351,
+	id = 169709,
+	hp_growth = 4566,
+	weapon_ID = {
+		169719
+	}
+}
+
+
+_G.pg.base.aircraft_template[169710] = {
+	max_hp = 127,
+	name = "约克城metaHVARLv10",
+	spawn_brownian = 1,
+	base = 160351,
+	id = 169710,
+	hp_growth = 4878,
+	weapon_ID = {
+		169720
+	}
+}
+
+
 _G.pg.base.aircraft_template[170844] = {
 	name = "伊404雷击晴岚-专属弹幕用",
 	max_hp = 86,
@@ -247141,6 +247539,786 @@ _G.pg.base.aircraft_template[2980074] = {
 			{
 				-1.12,
 				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983000] = {
+	name = "【大世界】约克城meta 战斗机（领域展开后间隔大幅度缩短) Lv1",
+	max_hp = 46,
+	accuracy = 25,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2983000,
+	scale = 0.75,
+	weapon_ID = {
+		2983010,
+		2983015
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983001] = {
+	name = "【大世界】约克城meta 战斗机 Lv2",
+	max_hp = 56,
+	accuracy = 30,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2983001,
+	scale = 0.75,
+	weapon_ID = {
+		2983011,
+		2983016
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983002] = {
+	name = "【大世界】约克城meta 战斗机 Lv3",
+	max_hp = 66,
+	accuracy = 35,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2983002,
+	scale = 0.75,
+	weapon_ID = {
+		2983012,
+		2983017
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983003] = {
+	name = "【大世界】约克城meta 战斗机 Lv4",
+	max_hp = 76,
+	accuracy = 40,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2983003,
+	scale = 0.75,
+	weapon_ID = {
+		2983013,
+		2983018
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983004] = {
+	name = "【大世界】约克城meta 战斗机 Lv5",
+	max_hp = 86,
+	accuracy = 45,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2983004,
+	scale = 0.75,
+	weapon_ID = {
+		2983014,
+		2983019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983005] = {
+	name = "【大世界】约克城meta 轰炸机（领域展开后间隔大幅度缩短) Lv1",
+	max_hp = 54,
+	accuracy = 25,
+	model_ID = "ad1",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "ad1",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2983005,
+	scale = 0.75,
+	weapon_ID = {
+		2983010,
+		2983020
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983006] = {
+	name = "【大世界】约克城meta 轰炸机 Lv2",
+	max_hp = 64,
+	accuracy = 30,
+	model_ID = "ad1",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "ad1",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2983006,
+	scale = 0.75,
+	weapon_ID = {
+		2983011,
+		2983021
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983007] = {
+	name = "【大世界】约克城meta 轰炸机 Lv3",
+	max_hp = 74,
+	accuracy = 35,
+	model_ID = "ad1",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "ad1",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2983007,
+	scale = 0.75,
+	weapon_ID = {
+		2983012,
+		2983022
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983008] = {
+	name = "【大世界】约克城meta 轰炸机 Lv4",
+	max_hp = 84,
+	accuracy = 40,
+	model_ID = "ad1",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "ad1",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2983008,
+	scale = 0.75,
+	weapon_ID = {
+		2983013,
+		2983023
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2983009] = {
+	name = "【大世界】约克城meta 轰炸机 Lv5",
+	max_hp = 94,
+	accuracy = 45,
+	model_ID = "ad1",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "ad1",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2983009,
+	scale = 0.75,
+	weapon_ID = {
+		2983014,
+		2983024
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
 				0
 			}
 		}

@@ -1,16 +1,6 @@
 pg = pg or {}
 pg.activity_banner = {
-	{
-		time = "stop",
-		type = 2,
-		id = 1,
-		pic = "temp1",
-		param = {
-			"scene skinshop",
-			{}
-		}
-	},
-	{
+	[2] = {
 		time = "stop",
 		type = 2,
 		id = 2,
@@ -23,7 +13,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
+	[3] = {
 		type = 2,
 		id = 3,
 		pic = "temp3",
@@ -38,7 +28,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					18
+					25
 				},
 				{
 					0,
@@ -48,9 +38,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					1,
+					1
 				},
 				{
 					12,
@@ -60,19 +50,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		time = "stop",
-		type = 2,
-		id = 4,
-		pic = "temp4",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		}
-	},
-	{
+	[5] = {
 		time = "stop",
 		type = 2,
 		id = 5,
@@ -84,32 +62,26 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
+	[6] = {
 		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene vote entrance"
+			"scene court yard"
 		}
 	},
-	[9] = {
-		type = 2,
-		id = 9,
-		pic = "temp9",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		},
+	[8] = {
+		param = "50263",
+		type = 3,
+		id = 8,
+		pic = "temp8",
 		time = {
 			{
 				{
 					2025,
 					12,
-					18
+					25
 				},
 				{
 					0,
@@ -119,9 +91,43 @@ pg.activity_banner = {
 			},
 			{
 				{
+					2026,
+					1,
+					1
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[9] = {
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"metacharacter"
+		},
+		time = {
+			{
+				{
 					2025,
 					12,
 					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					1
 				},
 				{
 					12,
@@ -205,19 +211,76 @@ pg.activity_banner = {
 			}
 		}
 	},
+	[103] = {
+		param = "지팡이 사탕|최초의 지팡이 사탕은 하얀색이래요.<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+		type = 10,
+		id = 103,
+		pic = "christmas",
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
 	[200] = {
 		param = "",
-		time = "always",
+		time = "stop",
 		type = 13,
 		id = 200,
 		pic = "autumn"
 	},
 	[201] = {
 		param = "",
-		time = "stop",
 		type = 13,
 		id = 201,
-		pic = "christmas"
+		pic = "christmas",
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
 	},
 	[202] = {
 		param = "",
@@ -228,13 +291,14 @@ pg.activity_banner = {
 	},
 	get_id_list_by_type = {
 		[2] = {
-			1,
 			2,
 			3,
-			4,
 			5,
 			6,
 			9
+		},
+		[3] = {
+			8
 		},
 		[9] = {
 			90,
@@ -249,7 +313,8 @@ pg.activity_banner = {
 		[10] = {
 			100,
 			101,
-			102
+			102,
+			103
 		},
 		[13] = {
 			200,
@@ -258,12 +323,11 @@ pg.activity_banner = {
 		}
 	},
 	all = {
-		1,
 		2,
 		3,
-		4,
 		5,
 		6,
+		8,
 		9,
 		90,
 		91,
@@ -272,6 +336,7 @@ pg.activity_banner = {
 		100,
 		101,
 		102,
+		103,
 		200,
 		201,
 		202

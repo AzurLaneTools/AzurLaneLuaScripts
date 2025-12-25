@@ -1,5 +1,101 @@
 pg = pg or {}
 pg.enemy_data_statistics_384 = {
+	[293021] = {
+		cannon = 7,
+		hit_growth = 228,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		armor = 0,
+		antisub = 0,
+		battle_unit_type = 90,
+		fog_fx = "",
+		dodge_growth = 320,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 90423,
+		durability = 158,
+		armor_growth = 0,
+		torpedo_growth = 5064,
+		speed = 36,
+		luck = 10,
+		id = 293021,
+		scale = 160,
+		cannon_growth = 576,
+		reload = 150,
+		dodge = 26,
+		reload_growth = 0,
+		hit = 15,
+		torpedo = 63,
+		durability_growth = 63000,
+		antiaircraft = 25,
+		antiaircraft_growth = 2016,
+		world_enhancement = {
+			9.3,
+			5.4,
+			1.2,
+			0.6,
+			0.9,
+			0.9,
+			0
+		},
+		equipment_list = {
+			2029500,
+			2029501,
+			2029502,
+			2029503
+		}
+	},
+	[293022] = {
+		cannon = 15,
+		hit_growth = 228,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		armor = 0,
+		antisub = 0,
+		battle_unit_type = 90,
+		fog_fx = "",
+		dodge_growth = 240,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90424,
+		durability = 191,
+		armor_growth = 0,
+		torpedo_growth = 3564,
+		speed = 24,
+		luck = 10,
+		id = 293022,
+		scale = 160,
+		cannon_growth = 1188,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		hit = 15,
+		torpedo = 45,
+		durability_growth = 76500,
+		antiaircraft = 59,
+		antiaircraft_growth = 4752,
+		world_enhancement = {
+			9.3,
+			4.6,
+			1.1,
+			0,
+			0.9,
+			0.9,
+			0
+		},
+		equipment_list = {
+			2029600,
+			2029601,
+			2029602,
+			2029603
+		}
+	},
 	[293023] = {
 		cannon = 28,
 		hit_growth = 228,
@@ -1746,315 +1842,6 @@ pg.enemy_data_statistics_384 = {
 			0.7,
 			1,
 			0.3
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.15,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							3.05,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearbig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[294205] = {
-		cannon = 0,
-		name = "익스큐터XIV「Harmony」",
-		antiaircraft_growth = 3744,
-		speed_growth = 0,
-		luck = 10,
-		air = 55,
-		nationality = 99,
-		icon_type = 7,
-		type = 7,
-		rarity = 0,
-		antiaircraft = 47,
-		dodge_growth = 80,
-		icon = "shenyuanboss2",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 4438,
-		battle_unit_type = 90,
-		antisub = 0,
-		durability = 195,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		friendly_cld = 0,
-		speed = 18,
-		armor = 0,
-		id = 294205,
-		wave_fx = "longjuanfengditu",
-		scale = 125,
-		prefab = "shenyuanboss2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 6,
-		reload_growth = 0,
-		bubble_fx = "",
-		fog_fx = "",
-		hit = 8,
-		torpedo = 0,
-		durability_growth = 82000,
-		luck_growth = 0,
-		hit_growth = 126,
-		armor_type = 2,
-		world_enhancement = {
-			115,
-			1.5,
-			1.4,
-			0.5,
-			0.1,
-			1.8,
-			3.6
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.81,
-					0.757,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.81,
-					0.757,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-1.32,
-					0.757,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.333,
-					1.037,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.81,
-					0.757,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							3.05,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearbig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[294210] = {
-		cannon = 3,
-		name = "익스큐터XIV「Equilibrium」",
-		antiaircraft_growth = 2416,
-		speed_growth = 0,
-		luck = 10,
-		air = 0,
-		nationality = 99,
-		icon_type = 1,
-		type = 1,
-		rarity = 0,
-		antiaircraft = 30,
-		dodge_growth = 240,
-		icon = "shenyuanboss1",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		antisub = 0,
-		durability = 96,
-		armor_growth = 0,
-		torpedo_growth = 1584,
-		friendly_cld = 0,
-		speed = 24,
-		armor = 0,
-		id = 294210,
-		wave_fx = "longjuanfengditu",
-		scale = 130,
-		prefab = "shenyuanboss1",
-		cannon_growth = 317,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 19,
-		reload_growth = 0,
-		bubble_fx = "",
-		fog_fx = "",
-		hit = 15,
-		torpedo = 25,
-		durability_growth = 61200,
-		luck_growth = 0,
-		hit_growth = 228,
-		armor_type = 1,
-		world_enhancement = {
-			50,
-			3.8,
-			0.9,
-			0,
-			0.7,
-			1,
-			1
 		},
 		prefab_offset = {
 			0,

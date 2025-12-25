@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.enemy_data_statistics_40 = {
+	[824] = {
+		cannon = 0,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90139,
+		durability = 120,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		id = 824,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 120,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300145
+		}
+	},
+	[825] = {
+		cannon = 0,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90140,
+		durability = 120,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 25,
+		armor = 0,
+		id = 825,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 120,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300146
+		}
+	},
 	[830] = {
 		cannon = 55,
 		name = "정예 호위함",
@@ -1301,72 +1379,6 @@ pg.enemy_data_statistics_40 = {
 			531020,
 			531021,
 			531022
-		}
-	},
-	[916] = {
-		cannon = 50,
-		rarity = 1,
-		hit_growth = 1200,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		antiaircraft = 0,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90080,
-		durability = 60,
-		armor_growth = 0,
-		torpedo_growth = 900,
-		speed = 30,
-		luck = 0,
-		id = 916,
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 81,
-		torpedo = 100,
-		durability_growth = 2550,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		armor_type = 4,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			520043
-		}
-	},
-	[917] = {
-		cannon = 0,
-		speed = 20,
-		air = 60,
-		torpedo = 0,
-		id = 917,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		fog_fx = "",
-		hit = 0,
-		base = 90252,
-		durability = 40000,
-		antiaircraft = 450,
-		battle_unit_type = 54,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			531018,
-			531019,
-			531020,
-			531021,
-			531022,
-			340015
 		}
 	}
 }

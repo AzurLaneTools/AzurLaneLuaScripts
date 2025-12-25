@@ -513,6 +513,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「천역에 찾아온 봉황 우짖으니, 그 나부끼는 자태가 아마하라에 울리니라.」</color>\n「아마하라에 바치는 춤」 참가 보상.",
 		scene = {}
 	},
+	[337] = {
+		name = "다크 시 스펙터",
+		gain_by = "",
+		time_second = 0,
+		id = 337,
+		time_limit_type = 0,
+		desc = "추후 진행되는 이벤트에서 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		name = "전당 기념: 엔터프라이즈",
 		gain_by = "",
@@ -576,6 +585,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>키어사지를 위해 특별히 제작한 캐릭터 전용 프로필 테두리</color>\n「AZURLANE 인기 투표 2025」 이벤트에서 획득 가능",
 		scene = {}
 	},
+	[426] = {
+		name = "전당 기념: 다이호",
+		gain_by = "",
+		time_second = 0,
+		id = 426,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>다이호를 위해 특별 제작한 캐릭터 전용 프로필 테두리</color>\n[벽람항로 인기투표 2025] 이벤트에서 획득",
+		scene = {}
+	},
 	[427] = {
 		name = "전당 기념: 재너스",
 		gain_by = "",
@@ -592,6 +610,24 @@ pg.item_data_frame = {
 		id = 428,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>앵커리지를 위해 특별히 제작한 캐릭터 전용 프로필 테두리</color>\n「AZURLANE 인기 투표 2025」 이벤트에서 획득 가능",
+		scene = {}
+	},
+	[430] = {
+		name = "전당 기념: 힌덴부르크",
+		gain_by = "",
+		time_second = 0,
+		id = 430,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>힌덴부르크를 위해 특별 제작한 캐릭터 전용 프로필 테두리</color>\n[벽람항로 인기투표 2025] 이벤트에서 획득",
+		scene = {}
+	},
+	[431] = {
+		name = "전당 기념: 임플래커블",
+		gain_by = "",
+		time_second = 0,
+		id = 431,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>임플래커블을 위해 특별 제작한 캐릭터 전용 프로필 테두리</color>\n[벽람항로 인기투표 2025] 이벤트에서 획득",
 		scene = {}
 	},
 	[501] = {
@@ -949,6 +985,7 @@ pg.item_data_frame = {
 		334,
 		335,
 		336,
+		337,
 		401,
 		402,
 		413,
@@ -956,8 +993,11 @@ pg.item_data_frame = {
 		417,
 		422,
 		425,
+		426,
 		427,
 		428,
+		430,
+		431,
 		501,
 		601,
 		602,

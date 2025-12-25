@@ -20,7 +20,20 @@ slot0.setActivity = function(slot0, slot1)
 	slot0.contextData.phase = slot0.phase
 end
 
+slot0.initTplVar = function(slot0)
+	slot0.helpBtnTip = "blackfriday_battlepass_main_help_" .. pg.black_friday_battlepass_event_pt[slot0.activity.id].map_name
+	slot0.awardPageCls = PSSHei5AwardPage
+	slot0.taskPageCls = PSSHei5TaskPage
+	slot0.chargePageCls = PSSCruiseChargePage
+	slot0.dayTextTip = "blackfriday_battlepass_main_time_title"
+	slot0.titleTextTip = "activity_ninjia_main_title"
+	slot0.rewardTip = "blackfriday_battlepass_rewards"
+	slot0.missionTip = "blackfriday_battlepass_mission"
+end
+
 slot0.init = function(slot0)
+	slot0:initTplVar()
+
 	slot1 = slot0._tf
 	slot0.topUI = slot1:Find("top")
 	slot1 = slot0.topUI
@@ -46,25 +59,25 @@ slot0.init = function(slot0)
 
 	slot2 = slot0.frame
 
-	setText(slot2:Find("toggles/award/selected/Text"), i18n("blackfriday_battlepass_rewards"))
+	setText(slot2:Find("toggles/award/selected/Text"), i18n(slot0.rewardTip))
 
 	slot2 = slot0.frame
 
-	setText(slot2:Find("toggles/award/unselected/Text"), i18n("blackfriday_battlepass_rewards"))
+	setText(slot2:Find("toggles/award/unselected/Text"), i18n(slot0.rewardTip))
 
 	slot2 = slot0.frame
 
-	setText(slot2:Find("toggles/task/selected/Text"), i18n("blackfriday_battlepass_mission"))
+	setText(slot2:Find("toggles/task/selected/Text"), i18n(slot0.missionTip))
 
 	slot2 = slot0.frame
 
-	setText(slot2:Find("toggles/task/unselected/Text"), i18n("blackfriday_battlepass_mission"))
+	setText(slot2:Find("toggles/task/unselected/Text"), i18n(slot0.missionTip))
 
 	slot4 = slot0._tf
 	slot4 = slot0._tf
 	slot0.pages = {
-		[uv0.PAGE_AWARD] = PSSHei5AwardPage.New(slot4:Find("frame/award_container"), slot0.event, slot0.contextData),
-		[uv0.PAGE_TASK] = PSSHei5TaskPage.New(slot4:Find("frame/task_container"), slot0.event, slot0.contextData)
+		[uv0.PAGE_AWARD] = slot0.awardPageCls.New(slot4:Find("frame/award_container"), slot0.event, slot0.contextData),
+		[uv0.PAGE_TASK] = slot0.taskPageCls.New(slot4:Find("frame/task_container"), slot0.event, slot0.contextData)
 	}
 	slot1 = slot0._tf
 	slot0.togglesTF = slot1:Find("frame/toggles")
@@ -77,7 +90,7 @@ slot0.init = function(slot0)
 		end, SFX_PANEL)
 	end)
 
-	slot0.contextData.windowForCharge = PSSCruiseChargePage.New(slot0._tf, slot0.event)
+	slot0.contextData.windowForCharge = slot0.chargePageCls.New(slot0._tf, slot0.event)
 end
 
 slot0.didEnter = function(slot0)
@@ -86,7 +99,7 @@ slot0.didEnter = function(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_HELP, {
-			helps = i18n("blackfriday_battlepass_main_help_" .. pg.black_friday_battlepass_event_pt[uv0.activity.id].map_name)
+			helps = i18n(uv0.helpBtnTip)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnPay, function ()
@@ -94,7 +107,7 @@ slot0.didEnter = function(slot0)
 	end, SFX_CONFIRM)
 
 	slot1 = slot0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
-	slot0.dayTxt.text = i18n("blackfriday_battlepass_main_time_title") .. i18n("battlepass_main_time", math.floor(slot1 / 86400), math.floor(slot1 % 86400 / 3600))
+	slot0.dayTxt.text = i18n(slot0.dayTextTip) .. i18n("battlepass_main_time", math.floor(slot1 / 86400), math.floor(slot1 % 86400 / 3600))
 
 	slot0:UpdatePhase()
 	slot0:UpdateAwardTip()
@@ -143,11 +156,11 @@ slot0.UpdatePhase = function(slot0)
 
 	setActive(slot0.btnPay, not slot0.isPay)
 
-	if not slot0.isPay and not pg.TimeMgr.GetInstance():inTime(pg.pay_data_display[PSSCruiseChargePage.GetPassID()].time) then
+	if not slot0.isPay and not pg.TimeMgr.GetInstance():inTime(pg.pay_data_display[slot0.chargePageCls.GetPassID()].time) then
 		setActive(slot0.btnPay, false)
 	end
 
-	setText(slot0.titleTF, i18n("activity_ninjia_main_title"))
+	setText(slot0.titleTF, i18n(slot0.titleTextTip))
 end
 
 slot0.OnChargeSuccess = function(slot0, slot1)

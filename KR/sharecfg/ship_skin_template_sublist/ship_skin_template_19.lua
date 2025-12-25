@@ -1,6 +1,126 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
+	[10400030] = {
+		name = "키즈나 아이·Anniversary",
+		change_skin = "",
+		desc = "키즈나 아이, 드레스를 차려입고 등장! 라이브도 배틀도 힘낼게! ",
+		illustrator2 = -1,
+		ship_group = 1040003,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "aijiangCV",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 10400030,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "aijiangCV",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 176,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.79,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.05,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.83,
+					0.9,
+					0
+				}
+			},
+			plane = {
+				{
+					0.63,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.39,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10400040] = {
 		name = "키즈나 아이·SuperGamer",
 		change_skin = "",
@@ -15778,126 +15898,6 @@ pg.base.ship_skin_template_19 = {
 					0,
 					-120,
 					2
-				}
-			}
-		}
-	},
-	[11500020] = {
-		name = "토비이치 오리가미",
-		change_skin = "",
-		desc = "여기는… 내가 있던 곳과는 다른 세상…? ……이해했어. 당황하고 있을 때가 아냐. 사태 해결에 힘써야지. 나는 토비이치 오리가미… 전 AST 중사야. 네 소속과 계급은 어떻게 되지?",
-		illustrator2 = -1,
-		ship_group = 1150002,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "zhezhi",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11500020,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "zhezhi",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 483,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.405,
-					0.776,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.346,
-					1.013,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.725,
-					2.498,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.83,
-							2.402,
-							0
-						}
-					}
 				}
 			}
 		}

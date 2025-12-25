@@ -4419,6 +4419,17 @@ pg.fleet_tech_ship_class = {
 			970707
 		}
 	},
+	[970708] = {
+		shiptype = 7,
+		name = "요크타운·META",
+		t_level = 2,
+		id = 970708,
+		t_level_1 = 1,
+		nation = 97,
+		ships = {
+			970708
+		}
+	},
 	[970801] = {
 		shiptype = 8,
 		name = "U-556·META",
@@ -4825,6 +4836,7 @@ pg.fleet_tech_ship_class = {
 		970705,
 		970706,
 		970707,
+		970708,
 		970801,
 		971201,
 		971301

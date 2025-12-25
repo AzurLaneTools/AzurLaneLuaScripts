@@ -28,7 +28,6 @@ end
 
 slot0.Init = function(slot0, slot1, slot2)
 	slot0:InitPlayer()
-	slot0:InitVisitor()
 	slot0:InitAgora(slot2 or {})
 	slot0:InitWorldObject(slot1)
 	slot0:InitSyncObj()
@@ -52,14 +51,8 @@ slot0.InitPlayer = function(slot0)
 	slot0.player = SyncLocalPlayer.New(slot0.playerId, slot0.view.player)
 end
 
-slot0.InitVisitor = function(slot0)
-	for slot5, slot6 in pairs(slot0.island:GetVisitorAgency():GetMapVisitorList()) do
-		slot0.visitorDic[slot6.id] = SyncUnitVisitor.New(slot0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_PLAYER, slot6.id))
-	end
-end
-
 slot0.OnVisitorEnter = function(slot0, slot1, slot2)
-	slot0.visitorDic[slot1] = SyncUnitVisitor.New(slot2)
+	slot0.visitorDic[slot1] = SyncUnitVisitor.New()
 end
 
 slot0.OnVisitorExit = function(slot0, slot1)

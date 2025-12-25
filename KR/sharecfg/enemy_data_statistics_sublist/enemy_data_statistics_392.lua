@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.enemy_data_statistics_392 = {
+	[295208] = {
+		cannon = 373,
+		name = "로드니·META-Tier.13",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 67,
+		id = 295208,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90888,
+		durability = 1038000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 328,
+		speed = 50,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 5
+			}
+		}
+	},
+	[295209] = {
+		cannon = 393,
+		name = "로드니·META-Tier.14",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 71,
+		id = 295209,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 100,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90888,
+		durability = 1094000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 346,
+		speed = 50,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 5
+			}
+		}
+	},
 	[295210] = {
 		cannon = 413,
 		name = "로드니·META-Tier.15",
@@ -1029,77 +1111,5 @@ pg.enemy_data_statistics_392 = {
 		battle_unit_type = 90,
 		fog_fx = "",
 		antisub = 0
-	},
-	[295240] = {
-		cannon = 406,
-		name = "나가토·META-Tier.15",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 75,
-		id = 295240,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 110,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90983,
-		durability = 1420000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 317,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		fog_fx = "",
-		antisub = 0
-	},
-	[295241] = {
-		cannon = 80,
-		name = "다이호·META-Tier.1",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 164,
-		reload = 150,
-		armor = 0,
-		dodge = 25,
-		id = 295241,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 35,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91025,
-		durability = 54000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 115,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 201171,
-				LV = 1
-			},
-			{
-				ID = 201175,
-				LV = 1
-			}
-		}
 	}
 }

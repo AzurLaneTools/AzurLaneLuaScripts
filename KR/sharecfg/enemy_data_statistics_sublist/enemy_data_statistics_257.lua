@@ -1,5 +1,88 @@
 pg = pg or {}
 pg.enemy_data_statistics_257 = {
+	[16502003] = {
+		cannon = 18,
+		air = 0,
+		torpedo = 17,
+		cannon_growth = 1800,
+		id = 16502003,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 1250,
+		hit_growth = 144,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 35,
+		base = 90745,
+		durability = 1190,
+		armor_growth = 0,
+		durability_growth = 35200,
+		antiaircraft = 95,
+		speed = 12,
+		luck = 0,
+		antisub = 0,
+		antiaircraft_growth = 1400,
+		fog_fx = "",
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100552,
+			1100587
+		}
+	},
+	[16502004] = {
+		cannon = 43,
+		air = 0,
+		torpedo = 0,
+		cannon_growth = 2200,
+		id = 16502004,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 0,
+		hit_growth = 144,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 60,
+		base = 90746,
+		durability = 4930,
+		armor_growth = 0,
+		durability_growth = 70400,
+		antiaircraft = 105,
+		speed = 10,
+		luck = 0,
+		antisub = 0,
+		antiaircraft_growth = 1400,
+		fog_fx = "",
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100052,
+			1100917,
+			1100922
+		}
+	},
 	[16502005] = {
 		cannon = 0,
 		air = 48,
@@ -1308,106 +1391,6 @@ pg.enemy_data_statistics_257 = {
 			1101097,
 			1101102,
 			1101107
-		}
-	},
-	[16502124] = {
-		cannon = 78,
-		name = "에밀 베르탱 통제 무장-「Annihilate」",
-		hit_growth = 280,
-		speed_growth = 0,
-		armor = 0,
-		air = 0,
-		icon_type = 5,
-		type = 5,
-		id = 16502124,
-		antiaircraft = 106,
-		antiaircraft_growth = 4680,
-		dodge_growth = 136,
-		fog_fx = "",
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90742,
-		durability = 6630,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 14,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 3400,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 25,
-		torpedo = 0,
-		durability_growth = 65600,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		specific_fx_scale = {
-			yuanchou_tianping = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_tianping"
-		},
-		equipment_list = {
-			1100032,
-			1100552,
-			1100917,
-			1100737
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[16502125] = {
-		cannon = 36,
-		name = "에밀 베르탱 통제 무장-「Moderate」",
-		hit_growth = 280,
-		speed_growth = 0,
-		armor = 0,
-		air = 86,
-		icon_type = 7,
-		type = 7,
-		id = 16502125,
-		antiaircraft = 134,
-		antiaircraft_growth = 5280,
-		fog_fx = "",
-		dodge_growth = 96,
-		antisub_growth = 0,
-		air_growth = 4127,
-		base = 90742,
-		durability = 5780,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 16,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 9,
-		reload_growth = 0,
-		hit = 25,
-		torpedo = 0,
-		durability_growth = 58880,
-		luck_growth = 0,
-		battle_unit_type = 70,
-		specific_fx_scale = {
-			yuanchou_tianping = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_tianping"
-		},
-		equipment_list = {
-			1100022,
-			1100172,
-			1100927,
-			1100937
 		}
 	}
 }

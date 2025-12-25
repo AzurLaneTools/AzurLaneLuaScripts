@@ -312,7 +312,7 @@ slot0.onUpdateMemoryGroup = function(slot0, slot1, slot2)
 	slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", tf(slot2):Find("BG"))
 	setActive(tf(slot2):Find("Tip"), PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. getProxy(PlayerProxy):getRawData().id .. " " .. slot3.id, 0) == 1)
 	setText(tf(slot2):Find("count"), _.reduce(slot3.memories, 0, function (slot0, slot1)
-		if pg.memory_template[slot1].is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot2.story, true) then
+		if pg.memory_template[slot1].is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot2.unlock_pre, true) then
 			slot0 = slot0 + 1
 		end
 

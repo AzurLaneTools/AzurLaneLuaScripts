@@ -28,7 +28,16 @@ slot0.UpdateActivity = function(slot0, slot1)
 	slot0.finishAll = slot0.phase == #slot0.awardList
 end
 
+slot0.initTplVar = function(slot0)
+	slot0.btnGoText = "task_go"
+	slot0.btnGetText = "task_get"
+	slot0.taskDayText = "blackfriday_cruise_task_day"
+	slot0.pticonAtlas = "ui/PSSHei5UI_atlas"
+	slot0.pticonName = "battlepass_blackfriday"
+end
+
 slot0.OnLoaded = function(slot0)
+	slot0:initTplVar()
 	slot0:UpdateActivity()
 
 	slot1 = slot0._tf:Find("frame")
@@ -37,9 +46,9 @@ slot0.OnLoaded = function(slot0)
 	slot2 = slot1:Find("view/content")
 	slot3 = slot2:Find("tpl")
 
-	setText(slot3:Find("info/go/Text"), i18n("task_go"))
-	setText(slot3:Find("info/get/Text"), i18n("task_get"))
-	setText(slot3:Find("info/got/Image/Text"), i18n("task_got"))
+	setText(slot3:Find("info/go/Text"), i18n(slot0.btnGoText))
+	setText(slot3:Find("info/get/Text"), i18n(slot0.btnGetText))
+	setText(slot3:Find("info/got/Text"), i18n("task_got"))
 
 	slot0.taskGroupItemList = UIItemList.New(slot2, slot3)
 end
@@ -68,8 +77,8 @@ slot0.Flush = function(slot0, slot1)
 		slot8 = (slot6 ~= 0 or slot0._tf:Find("frame/" .. slot6)) and slot0.toggleCount:Find(slot6)
 
 		if slot6 > 0 then
-			setText(slot8:Find("off/Text"), i18n("blackfriday_cruise_task_day", slot6))
-			setText(slot8:Find("on/Text"), i18n("blackfriday_cruise_task_day", slot6))
+			setText(slot8:Find("off/Text"), i18n(slot0.taskDayText, slot6))
+			setText(slot8:Find("on/Text"), i18n(slot0.taskDayText, slot6))
 		end
 
 		setActive(slot8:Find("tip"), not slot7.isLock and PlayerPrefs.GetInt(string.format("cursing_%d_task_week_%d", slot0.activity.id, slot6), 0) == 0)
@@ -173,12 +182,16 @@ slot0.UpdateTaskDisplay = function(slot0, slot1, slot2)
 	setActive(slot1:Find("got"), slot6 == 2)
 	setText(slot1:Find("go/Text"), i18n("island_word_go"))
 	setText(slot1:Find("get/Text"), i18n("handbook_research_final_task_btn_claim"))
-	setText(slot1:Find("got/Image/Text"), i18n("handbook_research_final_task_btn_finished"))
+	setText(slot1:Find("got/Text"), i18n("handbook_research_final_task_btn_finished"))
 
 	slot7 = Drop.Create(slot2:getConfig("award_display")[1])
 
 	setText(slot1:Find("icon/num"), "X" .. slot2:getConfig("award_display")[1][3])
-	setImageSprite(slot1:Find("icon"), LoadSprite("ui/PSSHei5UI_atlas", "battlepass_blackfriday"), false)
+
+	if slot0.pticonAtlas and slot0.pticonName then
+		setImageSprite(slot1:Find("icon"), LoadSprite("ui/PSSHei5UI_atlas", "battlepass_blackfriday"), false)
+	end
+
 	onButton(slot0, slot1:Find("icon"), function ()
 		uv0:emit(BaseUI.ON_NEW_STYLE_DROP, {
 			drop = uv1
