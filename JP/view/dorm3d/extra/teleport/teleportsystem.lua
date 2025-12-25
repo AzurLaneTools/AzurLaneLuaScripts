@@ -1,4 +1,5 @@
 slot0 = class("TeleportSystem", import("view.dorm3d.Extra.BaseExtraSystem"))
+slot0.MAX_DISTANCE = 1.5
 
 slot0.OnInit = function(slot0)
 	slot1 = slot0:GetRoom().id
@@ -26,7 +27,17 @@ slot0.BindClickFunc = function(slot0)
 				return
 			end
 
-			uv0:Emit(Dorm3dRoomTemplateScene.SHIFT_ZONE_SAFE, uv1)
+			if #CameraMgr.instance:Raycast(uv0:Get("sceneRaycaster"), slot1.position):ToTable() > 0 then
+				if slot3[1].gameObject.transform ~= uv1.transform then
+					return
+				end
+
+				if uv2.MAX_DISTANCE < Vector3.Distance(uv0:Get("player").transform.position, uv1.transform.position) then
+					return
+				end
+
+				uv0:Emit(Dorm3dRoomTemplateScene.SHIFT_ZONE_SAFE, uv3)
+			end
 		end)
 	end)
 end

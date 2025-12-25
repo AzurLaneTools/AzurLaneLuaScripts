@@ -281,6 +281,7 @@ slot0.HidePanel = function(slot0, slot1)
 			pg.playerResUI:Fold(slot1, 0.5)
 		end
 	else
+		slot0:SetEffectPanelVisible(not slot1)
 		pg.playerResUI:Fold(slot1, 0.5)
 	end
 end
