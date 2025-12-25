@@ -273,7 +273,7 @@ slot0.UpdateExchangeStatus = function(slot0)
 end
 
 slot0.UpdatePtCount = function(slot0)
-	setText(slot0._ptText, (slot0.exchangeState < slot0.length and slot0.ptCount < slot0.curGoods.resource_num and "<color=red>" or "<color=#3689DE>") .. slot0.ptCount .. "</color>/" .. (slot0.exchangeState == 3 and "--" or slot0.curGoods.resource_num) .. i18n("UrExchange_Pt_charges", slot0.restExchange))
+	setText(slot0._ptText, (slot0.exchangeState < slot0.length and slot0.ptCount < slot0.curGoods.resource_num and "<color=red>" or "<color=#FFE000>") .. slot0.ptCount .. "</color>/" .. (slot0.exchangeState == 3 and "--" or slot0.curGoods.resource_num) .. i18n("UrExchange_Pt_charges", slot0.restExchange))
 end
 
 slot0.OnDestroy = function(slot0)
