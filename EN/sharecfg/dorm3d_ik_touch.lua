@@ -249,6 +249,31 @@ pg.dorm3d_ik_touch = {
 			}
 		}
 	},
+	[6004001] = {
+		ik_move = "",
+		char_id = 49905,
+		body = "",
+		action_emote = "",
+		id = 6004001,
+		scene_item = "FurnitureSlots/1140101/pre_db_aijier_bed01(Clone)/all/mesh/fbx_db_aje_bed01_1",
+		vibrate = "",
+		tip_offset = ""
+	},
+	[6004002] = {
+		ik_move = "",
+		char_id = 49905,
+		body = "RightHand",
+		action_emote = "",
+		id = 6004002,
+		scene_item = "",
+		tip_offset = "",
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
+	},
 	all = {
 		1002101,
 		1003101,
@@ -267,6 +292,8 @@ pg.dorm3d_ik_touch = {
 		5004002,
 		5005001,
 		5005002,
-		5005003
+		5005003,
+		6004001,
+		6004002
 	}
 }

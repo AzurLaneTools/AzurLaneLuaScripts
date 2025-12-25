@@ -784,6 +784,18 @@ slot0.getSkinId = function(slot0, slot1)
 	return slot2
 end
 
+slot0.RevertAsmrSkin = function(slot0)
+	slot1 = slot0:getSkinId()
+
+	if not slot0.noChangeSkin and tobool(slot0.id) and ShipSkin.IsChangeSkin(slot1) then
+		slot3 = ShipSkin.GetChangeSkinCustomDataId(slot1, "index") == 1 and true or false
+
+		if (ShipSkin.GetChangeSkinCustomDataId(slot1, "asmr") == 1 and true or false) and not slot3 then
+			ShipSkin.SetStoreChangeSkinId(ShipSkin.GetChangeSkinMainId(slot1), slot0:GetShipPhantomMark())
+		end
+	end
+end
+
 slot0.getPhantomSkin = function(slot0, slot1)
 	if not slot1 or slot1 == 0 then
 		return slot0.skinId

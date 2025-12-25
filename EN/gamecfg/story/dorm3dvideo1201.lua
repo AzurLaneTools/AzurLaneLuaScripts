@@ -397,7 +397,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone36/dorm3d_Taiho_telephone36",
 			wait = 1,
-			say = "……",
+			say = "......",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {

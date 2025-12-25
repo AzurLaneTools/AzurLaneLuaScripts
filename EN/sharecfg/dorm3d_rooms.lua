@@ -575,7 +575,7 @@ pg.dorm3d_rooms = {
 					12008,
 					12009,
 					12010,
-					12012,
+					12011,
 					12012,
 					12013,
 					12014,
@@ -584,6 +584,76 @@ pg.dorm3d_rooms = {
 					12017,
 					12018,
 					12019
+				}
+			}
+		}
+	},
+	[14] = {
+		assets_prefix = "Aijier",
+		resource_name = "Aijier_DB",
+		type = 2,
+		id = 14,
+		invite_cost = "",
+		in_map = "floor_2",
+		room = "Ägir",
+		invite_mark = "",
+		tag = "",
+		room_bgm = "story-room-agir",
+		invite_icon = "",
+		invite_banner = "",
+		room_des = "",
+		scene_info = "map_aijier_01|Aijier_DB/Aijierhostel",
+		is_common = 0,
+		character = {
+			49905
+		},
+		character_pay = {},
+		character_welcome = {
+			{
+				49905,
+				0
+			}
+		},
+		character_range = {
+			1
+		},
+		unlock_item = {},
+		default_zone = {
+			{
+				49905,
+				"Chair"
+			}
+		},
+		furniture_zones = {
+			14001,
+			14002,
+			14003
+		},
+		recall_list = {
+			141,
+			142,
+			143,
+			144
+		},
+		ar_anim = {
+			{
+				49905,
+				{
+					14001,
+					14002,
+					14003,
+					14004,
+					14005,
+					14006,
+					14007,
+					14008,
+					14009,
+					14010,
+					14011,
+					14012,
+					14013,
+					14014,
+					14015
 				}
 			}
 		}
@@ -603,7 +673,8 @@ pg.dorm3d_rooms = {
 		character = {},
 		character_pay = {
 			10517,
-			30707
+			30707,
+			49905
 		},
 		character_welcome = {
 			{
@@ -612,6 +683,10 @@ pg.dorm3d_rooms = {
 			},
 			{
 				30707,
+				0
+			},
+			{
+				49905,
 				0
 			}
 		},
@@ -634,6 +709,10 @@ pg.dorm3d_rooms = {
 			{
 				30707,
 				"dafeng"
+			},
+			{
+				49905,
+				"aijier"
 			}
 		},
 		furniture_zones = {},
@@ -646,6 +725,10 @@ pg.dorm3d_rooms = {
 			{
 				30707,
 				270114
+			},
+			{
+				49905,
+				270115
 			}
 		},
 		invite_banner = {
@@ -660,6 +743,12 @@ pg.dorm3d_rooms = {
 				{
 					"banner_cafe2"
 				}
+			},
+			{
+				49905,
+				{
+					"banner_cafe3"
+				}
 			}
 		},
 		invite_icon = {
@@ -669,6 +758,10 @@ pg.dorm3d_rooms = {
 			},
 			{
 				30707,
+				"dorm3dicon/3Ddrom_invitation"
+			},
+			{
+				49905,
 				"dorm3dicon/3Ddrom_invitation"
 			}
 		},
@@ -683,6 +776,14 @@ pg.dorm3d_rooms = {
 			},
 			{
 				30707,
+				{
+					1,
+					5,
+					6
+				}
+			},
+			{
+				49905,
 				{
 					1,
 					5,
@@ -710,6 +811,16 @@ pg.dorm3d_rooms = {
 					16009,
 					16010
 				}
+			},
+			{
+				49905,
+				{
+					16011,
+					16012,
+					16013,
+					16014,
+					16015
+				}
 			}
 		}
 	},
@@ -724,6 +835,7 @@ pg.dorm3d_rooms = {
 		floor_2 = {
 			11,
 			12,
+			14,
 			16
 		}
 	},
@@ -735,6 +847,7 @@ pg.dorm3d_rooms = {
 		5,
 		11,
 		12,
+		14,
 		16
 	}
 }

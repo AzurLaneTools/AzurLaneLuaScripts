@@ -258,7 +258,7 @@ return {
 			hideRecordIco = true,
 			actor = 107103,
 			nameColor = "#A9F548FF",
-			say = "Her long, stocking-clad legs casually press against mine – a silent invitation.",
+			say = "Her long legs casually press against mine – a silent invitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

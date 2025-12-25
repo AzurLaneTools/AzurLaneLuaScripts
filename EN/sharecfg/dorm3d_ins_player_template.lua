@@ -162,6 +162,42 @@ pg.dorm3d_ins_player_template = {
 			18
 		}
 	},
+	{
+		id = 19,
+		message = {
+			"aijier_1_1"
+		},
+		npc_reply = {
+			19
+		}
+	},
+	{
+		id = 20,
+		message = {
+			"aijier_1_2"
+		},
+		npc_reply = {
+			20
+		}
+	},
+	{
+		id = 21,
+		message = {
+			"aijier_2_1"
+		},
+		npc_reply = {
+			21
+		}
+	},
+	{
+		id = 22,
+		message = {
+			"aijier_2_2"
+		},
+		npc_reply = {
+			22
+		}
+	},
 	all = {
 		1,
 		2,
@@ -180,6 +216,10 @@ pg.dorm3d_ins_player_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21,
+		22
 	}
 }

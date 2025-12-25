@@ -1,4 +1,11 @@
 slot0 = class("Dorm3dStockingMgr", import("view.dorm3d.Extra.BaseExtraSystem"))
+slot0.SET_STOCKING_STATUS = "Dorm3dStockingMgr.SET_STOCKING_STATUS"
+slot0.EXIT_STOCKING_STATUS = "Dorm3dStockingMgr.EXIT_STOCKING_STATUS"
+slot0.GET_TIP_SHOW_INFO = "Dorm3dStockingMgr.GET_TIP_SHOW_INFO"
+slot0.ON_BEGIN_DRAG = "Dorm3dStockingMgr.ON_BEGIN_DRAG"
+slot0.ON_DRAG = "Dorm3dStockingMgr.ON_DRAG"
+slot0.ON_END_DRAG = "Dorm3dStockingMgr.ON_END_DRAG"
+slot0.ON_EXIT_TOUCH_MODE = "Dorm3dStockingMgr.ON_EXIT_TOUCH_MODE"
 slot0.L_COLLIDERS = {
 	"LeftThighCollider",
 	"LeftCalfCollider",
@@ -13,6 +20,56 @@ slot0.UNLOCK_CONFIG = {
 	[307071.0] = 1222
 }
 slot1 = nil
+
+slot0.OnInit = function(slot0)
+	if slot0:GetCurrentLadyEnv() then
+		for slot5, slot6 in pairs(slot1.skinIdList) do
+			slot0:InitDormStocking(slot0:Get("skinDict")[slot6].ladyGameObject.transform, slot6)
+		end
+	end
+end
+
+slot0.RegisterEvents = function(slot0)
+	slot0:Bind(uv0.SET_STOCKING_STATUS, function (slot0, slot1)
+		uv0:SetStockingStatus(slot1)
+	end)
+	slot0:Bind(uv0.EXIT_STOCKING_STATUS, function (slot0)
+		uv0:ExitStockingStatus()
+	end)
+	slot0:Bind(uv0.GET_TIP_SHOW_INFO, function (slot0, slot1)
+		return uv0:GetTipShowInfo(slot1)
+	end)
+	slot0:Bind(uv0.ON_BEGIN_DRAG, function (slot0, slot1, slot2)
+		uv0:OnBeginDrag(slot1, slot2)
+	end)
+	slot0:Bind(uv0.ON_DRAG, function (slot0, slot1, slot2)
+		uv0:OnDrag(slot1, slot2)
+	end)
+	slot0:Bind(uv0.ON_END_DRAG, function (slot0, slot1, slot2)
+		uv0:OnEndDrag(slot1, slot2)
+	end)
+	slot0:Bind(uv0.ON_EXIT_TOUCH_MODE, function (slot0)
+		uv0:OnExitTouchMode()
+	end)
+end
+
+slot0.OnHandleNotification = function(slot0, slot1, slot2)
+	if slot1 == GAME.APARTMENT_REPLACE_FURNITURE_DONE then
+		if not slot0:GetCurrentLadyEnv() then
+			return
+		end
+
+		for slot7, slot8 in pairs(slot3.skinIdList) do
+			slot0:InitDormStocking(slot0:Get("skinDict")[slot8].ladyGameObject.transform, slot8)
+		end
+	end
+end
+
+slot0.GetInterests = function()
+	return {
+		GAME.APARTMENT_REPLACE_FURNITURE_DONE
+	}
+end
 
 slot0.OnBeginDrag = function(slot0, slot1, slot2)
 	if slot0.blockingDrag then
@@ -134,7 +191,7 @@ slot0.CheckStockingShow = function(slot0)
 end
 
 slot0.InitStatus = function(slot0, slot1)
-	slot0.ladyEnv = slot0:Func("GetCurrentLadyEnv")
+	slot0.ladyEnv = slot0:GetCurrentLadyEnv()
 	uv0 = pg.dorm3d_stocking[slot1]
 	slot0.cacheIkStatus = slot0.ladyEnv.currentIkStatus
 	slot0.inDragStocking = false
@@ -210,10 +267,9 @@ slot0.InitHideMode = function(slot0)
 	}
 
 	if slot0.useHideMode then
-		slot5 = uv0.scene_stocking_path[2]
 		slot0.sceneStockingTFs = {
-			slot0:Func("GetSceneItem", uv0.scene_stocking_path[1]),
-			slot0:Func("GetSceneItem", slot5)
+			slot0:GetSceneItem(uv0.scene_stocking_path[1]),
+			slot0:GetSceneItem(uv0.scene_stocking_path[2])
 		}
 
 		slot1 = function(slot0, slot1)
@@ -322,31 +378,36 @@ slot0.OnExitTouchMode = function(slot0)
 	end
 end
 
-slot0.GetTipShowInfo = function(slot0)
-	slot1 = {}
+slot0.GetTipShowInfo = function(slot0, slot1)
+	slot2 = {}
 
-	for slot5, slot6 in ipairs(uv0.enable_drag) do
-		if slot6 == 1 then
-			table.insert(slot1, {
-				pos = slot0:Func("GetScreenPosition", slot0.tiptransforms[slot5].position, slot0.mainCamera),
-				dir = slot0:Func("GetScreenPosition", slot0.tipDirections[slot5][2].position, slot0.mainCamera) - slot0:Func("GetScreenPosition", slot0.tipDirections[slot5][1].position, slot0.mainCamera)
+	for slot6, slot7 in ipairs(uv0.enable_drag) do
+		if slot7 == 1 then
+			table.insert(slot2, {
+				pos = slot0:Func("GetScreenPosition", slot0.tiptransforms[slot6].position, slot0.mainCamera),
+				dir = slot0:Func("GetScreenPosition", slot0.tipDirections[slot6][2].position, slot0.mainCamera) - slot0:Func("GetScreenPosition", slot0.tipDirections[slot6][1].position, slot0.mainCamera)
 			})
 		end
 	end
 
-	slot2 = {}
+	slot3 = {}
 
 	if slot0.useHideMode then
-		for slot6, slot7 in ipairs(slot0.sceneStockingTFs) do
-			if not slot0.isShow[slot6] then
-				table.insert(slot2, {
-					pos = slot0:Func("GetScreenPosition", slot7.position, slot0.mainCamera)
+		for slot7, slot8 in ipairs(slot0.sceneStockingTFs) do
+			if not slot0.isShow[slot7] then
+				table.insert(slot3, {
+					pos = slot0:Func("GetScreenPosition", slot8.position, slot0.mainCamera)
 				})
 			end
 		end
 	end
 
-	return slot1, slot2
+	if slot1 then
+		table.insert(slot1, slot2)
+		table.insert(slot1, slot3)
+	end
+
+	return slot2, slot3
 end
 
 slot0.GetStockingGeo = function(slot0, slot1)
@@ -355,14 +416,6 @@ slot0.GetStockingGeo = function(slot0, slot1)
 	end
 
 	return slot0:Find(slot2[1]), slot0:Find(slot2[2])
-end
-
-slot0.Init = function(slot0)
-	if slot0:Func("GetCurrentLadyEnv") then
-		for slot5, slot6 in pairs(slot1.skinIdList) do
-			slot0:InitDormStocking(slot0:Get("skinDict")[slot6].ladyGameObject.transform, slot6)
-		end
-	end
 end
 
 slot0.InitDormStocking = function(slot0, slot1, slot2)
@@ -396,21 +449,7 @@ slot0.IsUnlockStocking = function(slot0, slot1)
 		return false, false
 	end
 
-	return true, slot0:Get("room"):IsFurnitureSetIn(uv0.UNLOCK_CONFIG[slot1])
-end
-
-slot0.GetInterests = function()
-	return {
-		GAME.APARTMENT_REPLACE_FURNITURE_DONE
-	}
-end
-
-slot0.HandleNotification = function(slot0, slot1, slot2)
-	if slot1 == GAME.APARTMENT_REPLACE_FURNITURE_DONE then
-		for slot7, slot8 in pairs(slot0:Func("GetCurrentLadyEnv").skinIdList) do
-			slot0:InitDormStocking(slot0:Get("skinDict")[slot8].ladyGameObject.transform, slot8)
-		end
-	end
+	return true, slot0:GetRoom():IsFurnitureSetIn(uv0.UNLOCK_CONFIG[slot1])
 end
 
 return slot0

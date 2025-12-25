@@ -7050,7 +7050,9 @@ pg.base.island_item_data_template = {
 		usage_arg = {
 			{
 				50,
-				{}
+				{
+					5
+				}
 			},
 			{
 				50,

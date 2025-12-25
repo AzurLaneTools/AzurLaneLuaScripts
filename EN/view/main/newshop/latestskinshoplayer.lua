@@ -768,6 +768,7 @@ slot0.FlushChangeSkin = function(slot0, slot1)
 	end
 
 	slot0.changeSkinToggle:setSkinData(slot0.skinId)
+	setActive(slot0.changeSkin, not slot0.changeSkinToggle:IsAsmrSkin())
 end
 
 slot0.GCHandle = function(slot0)

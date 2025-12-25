@@ -148,6 +148,7 @@ slot0.Show = function(slot0, slot1, slot2)
 	setActive(slot0.changeBtnEn, not slot4)
 	setActive(slot0.changeSkinUI, ShipSkin.GetChangeSkinData(slot0.skin.id) and true or false)
 	slot0.changeSkinToggle:setSkinData(slot0.skin.id)
+	setActive(slot0.changeSkinUI, not slot0.changeSkinToggle:IsAsmrSkin())
 	setActive(slot0.obtainBtn, not slot0.skin:OwnShip())
 end
 

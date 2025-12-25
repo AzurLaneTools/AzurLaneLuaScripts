@@ -40,11 +40,20 @@ pg.dorm3d_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[49905] = {
+		ship_group = 49905,
+		name = "Ägir",
+		background = "",
+		sculpture = "aijier",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		20220,
 		30221,
 		19903,
 		10517,
-		30707
+		30707,
+		49905
 	}
 }

@@ -355,6 +355,61 @@ pg.dorm3d_recall = {
 			3070701
 		}
 	},
+	[141] = {
+		story_id = 140510,
+		name = "Nap Time",
+		type = 1,
+		id = 141,
+		image = "recall_141",
+		unlock_text = "Reach Ägir Intimacy Lv. 4",
+		desc = "A lazy afternoon is perfect for taking a nap together.",
+		unlock = {
+			1,
+			49905,
+			4
+		}
+	},
+	[142] = {
+		story_id = 140520,
+		name = "Intimate Punishment",
+		type = 1,
+		id = 142,
+		image = "recall_142",
+		unlock_text = "Reach Ägir Intimacy Lv. 8",
+		desc = "A desire that is within reach; sweet punishment right in front of your eyes.",
+		unlock = {
+			1,
+			49905,
+			8
+		}
+	},
+	[143] = {
+		story_id = 140530,
+		name = "Fingertips and Locks of Hair",
+		type = 1,
+		id = 143,
+		image = "recall_143",
+		unlock_text = "Reach Ägir Intimacy Lv. 12",
+		desc = "Through the strokes of delicate fingertips, love is applied to locks of hair.",
+		unlock = {
+			1,
+			49905,
+			12
+		}
+	},
+	[144] = {
+		story_id = 140541,
+		name = "Affection Melted in Glass",
+		type = 1,
+		id = 144,
+		image = "recall_144",
+		unlock_text = "Purchase \"Tulip Glass\"",
+		desc = "The finest flavors are best experienced with two.",
+		unlock = {
+			3,
+			4990501
+		}
+	},
 	get_id_list_by_story_id = {
 		[10010] = {
 			1
@@ -433,6 +488,18 @@ pg.dorm3d_recall = {
 		},
 		[120541] = {
 			124
+		},
+		[140510] = {
+			141
+		},
+		[140520] = {
+			142
+		},
+		[140530] = {
+			143
+		},
+		[140541] = {
+			144
 		}
 	},
 	all = {
@@ -461,6 +528,10 @@ pg.dorm3d_recall = {
 		121,
 		122,
 		123,
-		124
+		124,
+		141,
+		142,
+		143,
+		144
 	}
 }

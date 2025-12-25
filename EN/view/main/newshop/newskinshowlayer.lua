@@ -141,6 +141,7 @@ slot0.FlushChangeSkin = function(slot0)
 	slot0._toggleIndex = ShipSkin.GetChangeSkinIndex(slot0.skinId)
 
 	slot0.changeSkinToggle:setSkinData(slot0.skinId)
+	setActive(slot0.changeSkin, not slot0.changeSkinToggle:IsAsmrSkin())
 end
 
 slot0.FlushName = function(slot0)

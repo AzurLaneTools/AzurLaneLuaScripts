@@ -24664,7 +24664,7 @@ _G.pg.base.gametip.backhill_cantupbuilding = {
 
 
 _G.pg.base.gametip.pray_cant_tips = {
-	tip = "Hang up Ema to receive Offerings to use at the Shrine."
+	tip = "Send cards to receive wishes."
 }
 
 
@@ -24709,22 +24709,26 @@ _G.pg.base.gametip.Pray_activity_tips1 = {
 		{
 			info = [[
 - Overview -
-During the New Year's Wishes campaign, offer your prayers and hang up Ema to grant your fleet temporary buffs.
-In addition to providing buffs, hanging up Ema will also give you 1 Origami Crane per Ema hung up.
-Collecting 7 Origami Cranes will grant you the New Year's Invitation (2024), which can be used to select an SR shipgirl to add to your dock.
+During the Winter Wishing Well Cards campaign, make wishes and grant temporary buffs to your fleet.
 
-- Decorating with Ema -
-· You receive 1 Ema every day of the campaign. You can hold up to 7 of them at a time.
-· Ema can be hung up at the shrine as decorations. Each time you do so, you will gain the following:
-1. A buff that applies to all your ships for a limited time. Which buff you receive depends on the Ema you used.
-2. An Origami Crane. Collecting 7 of these will reward you with the New Year's Invitation.
-3. 2 Offerings which can be used at the shrine to pray for additional buffs.
-· Note that only 1 Ema buff can be active at a time. If you use another Ema before the effect of the previous buff has worn off, the new buff will replace it.
+After sending a card, you'll receive a Winter Wish. Collect 7 Winter Wishes to receive a Wish-Fulfilling Card (2026) that can be exchanged for a shipgirl on the event page.
 
-- Making Offerings -
-· You receive Offerings by hanging up Ema. Each Ema hung up grants 2 Offerings.
-· Making an offering presents you with 3 different buffs to choose from. All your shipgirls can benefit from these buffs, and they apply in most game modes.
-· Note that only 1 Offering buff can be active at a time. If you make another Offering before the effect of the previous buff has worn off, the new buff will replace it.]]
+After making a wish, your fleet will also receive a temporary buff.
+
+ - Cards -
+· Every day during the campaign, you get 1 card, up to a total of 7.
+· As long as you have cards remaining, you can send them to a shipgirl.
+· The following happens after you send a card:
+ 1. You gain 1 Winter Wish
+ 2. You can make an additional 2 wishes
+ 3. You gain a fleet-wide buff from the shipgirl you sent the card to
+ Note: Different shipgirls give different buffs, and only 1 buff of a given type can be active at the same time. If you send another card, your previously chosen buff will be overwritten.
+· After you have collected 7 Winter Wishes, you can turn them in on the event page to receive a Wish-Fulfilling Card (2026), which can be used from your Depot to receive an SR shipgirl and a commemorative item.
+
+ - Making Wishes -
+· As long as you have wishes remaining, you can make a wish by tapping on the button on the right side.
+· After making a wish, you can select 1 of 3 types of buffs that will be applied to your whole fleet.
+ Note: Only 1 buff of a given type can be active at the same time. If you send another card, your previously chosen buff will be overwritten.]]
 		}
 	}
 }
@@ -43209,6 +43213,11 @@ Customer appeal is influenced by the stats (main and sub) of your assigned chara
 }
 
 
+_G.pg.base.gametip.island_manage_buff_tip = {
+	tip = "* Once you open for business, your characters' stat changes and buff changes will not affect your sales"
+}
+
+
 _G.pg.base.gametip.island_word_go = {
 	tip = "Confirm "
 }
@@ -46287,5 +46296,50 @@ _G.pg.base.gametip.blueprint_lab_exchange_fate_unlock = {
 
 
 _G.pg.base.gametip.skinstory_20251218 = {
-	tip = "Heart-Throbbing Moment I"
+	tip = "Fashion II"
+}
+
+
+_G.pg.base.gametip.skinstory_20251225 = {
+	tip = "Fashion II"
+}
+
+
+_G.pg.base.gametip.change_skin_asmr_desc_1 = {
+	tip = "Returning to the previous screen. Please mind the volume."
+}
+
+
+_G.pg.base.gametip.change_skin_asmr_desc_2 = {
+	tip = "This content is best experienced with earbuds."
+}
+
+
+_G.pg.base.gametip.dorm3d_aijier_table = {
+	tip = "Study"
+}
+
+
+_G.pg.base.gametip.dorm3d_aijier_chair = {
+	tip = "Parlor"
+}
+
+
+_G.pg.base.gametip.dorm3d_aijier_bed = {
+	tip = "Bedroom"
+}
+
+
+_G.pg.base.gametip.winterwish_20251225 = {
+	tip = "Winter Cards"
+}
+
+
+_G.pg.base.gametip.winterwish_20251225_tip1 = {
+	tip = "Cards Left"
+}
+
+
+_G.pg.base.gametip.winterwish_20251225_tip2 = {
+	tip = "Wishes Left"
 }

@@ -521,7 +521,198 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		517,
 		518,
 		519,
-		520
+		520,
+		521,
+		522,
+		523,
+		524,
+		525,
+		526,
+		527,
+		528,
+		529,
+		530,
+		531,
+		532,
+		533,
+		534,
+		535,
+		536,
+		537,
+		538,
+		539,
+		540,
+		541,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
+		551,
+		552,
+		553,
+		554,
+		555,
+		556,
+		557,
+		558,
+		559,
+		560,
+		561,
+		562,
+		563,
+		564,
+		565,
+		566,
+		567,
+		568,
+		569,
+		570,
+		571,
+		572,
+		573,
+		574,
+		575,
+		576,
+		577,
+		578,
+		579,
+		580,
+		581,
+		582,
+		583,
+		584,
+		585,
+		586,
+		587,
+		588,
+		589,
+		590,
+		591,
+		592,
+		593,
+		594,
+		595,
+		596,
+		597,
+		598,
+		599,
+		600,
+		601,
+		602,
+		603,
+		604,
+		605,
+		606,
+		607,
+		608,
+		609,
+		610,
+		611,
+		612,
+		613,
+		614,
+		615,
+		616,
+		617,
+		618,
+		619,
+		620,
+		621,
+		622,
+		623,
+		624,
+		625,
+		626,
+		627,
+		628,
+		629,
+		630,
+		631,
+		632,
+		633,
+		634,
+		635,
+		636,
+		637,
+		638,
+		639,
+		640,
+		641,
+		642,
+		643,
+		644,
+		645,
+		646,
+		647,
+		648,
+		649,
+		650,
+		651,
+		652,
+		653,
+		654,
+		655,
+		656,
+		657,
+		658,
+		659,
+		660,
+		661,
+		662,
+		663,
+		664,
+		665,
+		666,
+		667,
+		668,
+		669,
+		670,
+		671,
+		672,
+		673,
+		674,
+		675,
+		676,
+		677,
+		678,
+		679,
+		680,
+		681,
+		682,
+		683,
+		684,
+		685,
+		686,
+		687,
+		688,
+		689,
+		690,
+		691,
+		692,
+		693,
+		694,
+		695,
+		696,
+		697,
+		698,
+		699,
+		700,
+		701,
+		702,
+		703,
+		704,
+		705,
+		706,
+		707,
+		708,
+		709,
+		710,
+		711
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5045,5 +5236,1678 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 520,
 		flag = 1
+	},
+	{
+		param = "Are you asleep yet, Commander?",
+		ship_group = 49905,
+		type = 1,
+		id = 521,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Totally."
+			}
+		}
+	},
+	{
+		param = "Totally asleep. I'm definitely not working all night.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 522,
+		flag = 1
+	},
+	{
+		param = "Oh, really? What a relief. Your obedience deserves a reward, doesn't it?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 523,
+		flag = 1
+	},
+	{
+		param = "...Did you think I'd believe that?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 524,
+		flag = 1
+	},
+	{
+		param = "How can someone respond if they're sleeping? You're obviously awake!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 525,
+		flag = 1
+	},
+	{
+		param = "Are you planning to go out looking like it's the end of the world tomorrow?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 526,
+		flag = 1
+	},
+	{
+		param = "You have FIVE minutes. Sleep right now!",
+		ship_group = 49905,
+		type = 1,
+		id = 527,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Five minutes..."
+			}
+		}
+	},
+	{
+		param = "Five minutes... You know that's not fair.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 528,
+		flag = 2
+	},
+	{
+		param = "Really, now? Mayhaps it's time to break out my treasured wine of the abyss.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 529,
+		flag = 2
+	},
+	{
+		param = "Not that I mind, of course. I'm not the one who'll be dying of a hangover tomorrow.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 530,
+		flag = 2
+	},
+	{
+		param = "Let me just tell you now. If you don't wake up tomorrow morning...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 531,
+		flag = 2
+	},
+	{
+		param = "Whether you want to pray to the god of the sea or accept her gifts, the price will be steep.",
+		ship_group = 49905,
+		type = 1,
+		id = 532,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Okay, I'll go to bed!"
+			}
+		}
+	},
+	{
+		param = "Okay, I'll go to bed! Good night!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 533,
+		flag = 3
+	},
+	{
+		param = "Heehee. Very good.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 534,
+		flag = 3
+	},
+	{
+		param = "You should be excited, Commander. Be good, and naturally, you will be rewarded.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 535,
+		flag = 3
+	},
+	{
+		param = "Good night, my sweet.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 536,
+		flag = 3
+	},
+	{
+		param = "Are you coming over today?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 537,
+		flag = 0
+	},
+	{
+		param = "I'm just asking out of curiosity. There's no special meaning behind it.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 538,
+		flag = 0
+	},
+	{
+		param = "So? Will you, or won't you?",
+		ship_group = 49905,
+		type = 1,
+		id = 539,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I'm on my way right now."
+			}
+		}
+	},
+	{
+		param = "I'm on my way right now.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 540,
+		flag = 1
+	},
+	{
+		param = "You don't have to go out of your way! I really was just asking on a whim!",
+		ship_group = 49905,
+		type = 1,
+		id = 541,
+		flag = 1,
+		option = {
+			{
+				2,
+				"But you want something, don't you?"
+			}
+		}
+	},
+	{
+		param = "But you want something, don't you? I doubt you took the time to message me just for the sake of a question.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 542,
+		flag = 2
+	},
+	{
+		param = "I'll be there soon, so wait for me. I need to look for my keys first.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 543,
+		flag = 2
+	},
+	{
+		param = "Again, you don't have to! I just... wanted to see you...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 544,
+		flag = 2
+	},
+	{
+		param = "Ignore that...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 545,
+		flag = 2
+	},
+	{
+		param = "How do I delete that?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 546,
+		flag = 2
+	},
+	{
+		param = "Say something! You didn't read that message, did you?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 547,
+		flag = 2
+	},
+	{
+		param = "I guess I'll just have to flood you with messages until it rolls off screen.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 548,
+		flag = 2
+	},
+	{
+		param = "By the way",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 549,
+		flag = 2
+	},
+	{
+		param = "I suddenly have the urge to make an aquarium",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 550,
+		flag = 2
+	},
+	{
+		param = "Could you buy me stuff for it?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 551,
+		flag = 2
+	},
+	{
+		param = "Rocks",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 552,
+		flag = 2
+	},
+	{
+		param = "Sand",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 553,
+		flag = 2
+	},
+	{
+		param = "Also, pretty fish",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 554,
+		flag = 2
+	},
+	{
+		param = "And seaweed",
+		ship_group = 49905,
+		type = 1,
+		id = 555,
+		flag = 2,
+		option = {
+			{
+				3,
+				"I saw everything."
+			}
+		}
+	},
+	{
+		param = "I saw everything.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 556,
+		flag = 3
+	},
+	{
+		param = "Everything.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 557,
+		flag = 3
+	},
+	{
+		param = "I just kind of miss you...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 558,
+		flag = 3
+	},
+	{
+		param = "Say, Commander.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 559,
+		flag = 0
+	},
+	{
+		param = "On the way home, I saw a manjuu cleaning a chimney.",
+		ship_group = 49905,
+		type = 1,
+		id = 560,
+		flag = 0,
+		option = {
+			{
+				1,
+				"The annual boiler room deep-cleaning?"
+			}
+		}
+	},
+	{
+		param = "Oh, right. Wasn't today the annual boiler room deep-cleaning?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 561,
+		flag = 1
+	},
+	{
+		param = "...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 562,
+		flag = 1
+	},
+	{
+		param = "Oh, I found a horseshoe, too.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 563,
+		flag = 1
+	},
+	{
+		param = "It had three nails in it.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 564,
+		flag = 1
+	},
+	{
+		param = "Isn't that something?",
+		ship_group = 49905,
+		type = 1,
+		id = 565,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Does someone at port keep horses?"
+			}
+		}
+	},
+	{
+		param = "Does someone at port keep horses?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 566,
+		flag = 2
+	},
+	{
+		param = "That's unusual.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 567,
+		flag = 2
+	},
+	{
+		param = ".........",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 568,
+		flag = 2
+	},
+	{
+		param = "Um...",
+		ship_group = 49905,
+		type = 1,
+		id = 569,
+		flag = 2,
+		option = {
+			{
+				3,
+				"?"
+			}
+		}
+	},
+	{
+		param = "?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 570,
+		flag = 3
+	},
+	{
+		param = "I also found a four-leaf clover in the flower bed downstairs.",
+		ship_group = 49905,
+		type = 1,
+		id = 571,
+		flag = 3,
+		option = {
+			{
+				4,
+				"That's lucky, isn't it?"
+			}
+		}
+	},
+	{
+		param = "I've heard of that. That's lucky, isn't it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 572,
+		flag = 4
+	},
+	{
+		param = ".........",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 573,
+		flag = 4
+	},
+	{
+		param = "What I want to say is...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 574,
+		flag = 4
+	},
+	{
+		param = "I've found a lot of nice things today.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 575,
+		flag = 4
+	},
+	{
+		param = "So...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 576,
+		flag = 4
+	},
+	{
+		param = "Can you come over for a bit?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 577,
+		flag = 4
+	},
+	{
+		param = "I guess I could share some of my luck with you.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 578,
+		flag = 4
+	},
+	{
+		param = "But that doesn't mean you're guaranteed to get anything! I'm just saying I could... share with you a little, as a reward.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 579,
+		flag = 4
+	},
+	{
+		param = "You've found every last thing in my room now.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 580,
+		flag = 0
+	},
+	{
+		param = "I'm impressed.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 581,
+		flag = 0
+	},
+	{
+		param = "You have a good eye.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 582,
+		flag = 0
+	},
+	{
+		param = "Tell me what reward you'd like.",
+		ship_group = 49905,
+		type = 1,
+		id = 583,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I'll take a rain check on that."
+			}
+		}
+	},
+	{
+		param = "I'll take a rain check on that.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 584,
+		flag = 1
+	},
+	{
+		param = "It looks like something of yours got stuck on my clothes, and I ended up stealing it by accident.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 585,
+		flag = 1
+	},
+	{
+		param = "By accident? Hehe... You like my things that much, do you?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 586,
+		flag = 1
+	},
+	{
+		param = "Let me see...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 587,
+		flag = 1
+	},
+	{
+		param = "What did you take?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 588,
+		flag = 1
+	},
+	{
+		param = "!!!!!!!!!!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 589,
+		flag = 1
+	},
+	{
+		param = "Give that back right now! It's mine...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 590,
+		flag = 1
+	},
+	{
+		param = "Ah! I mean!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 591,
+		flag = 1
+	},
+	{
+		param = "It isn't mine! I don't know who that belongs to...",
+		ship_group = 49905,
+		type = 1,
+		id = 592,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Who else could it belong to?"
+			}
+		}
+	},
+	{
+		param = "It's your room... Who else could it belong to?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 593,
+		flag = 2
+	},
+	{
+		param = "Just give it back!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 594,
+		flag = 2
+	},
+	{
+		param = "Conceal it when you bring it back, too!",
+		ship_group = 49905,
+		type = 1,
+		id = 595,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Okay."
+			}
+		}
+	},
+	{
+		param = "Okay. I'll bring it now.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 596,
+		flag = 3
+	},
+	{
+		param = "It must've gotten in your clothes while I was folding laundry...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 597,
+		flag = 3
+	},
+	{
+		param = "It's a good thing you noticed.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 598,
+		flag = 3
+	},
+	{
+		param = "I'll prepare a reward for you. See you soon.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 599,
+		flag = 3
+	},
+	{
+		param = "You couldn't take your hands off of my hair today.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 600,
+		flag = 0
+	},
+	{
+		param = "Haven't you had enough of it?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 601,
+		flag = 0
+	},
+	{
+		param = "Or do you love it that much?",
+		ship_group = 49905,
+		type = 1,
+		id = 602,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Do I?"
+			}
+		}
+	},
+	{
+		param = "Do I? It wasn't because I particularly like it, or anything.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 603,
+		flag = 1
+	},
+	{
+		param = "What?!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 604,
+		flag = 1
+	},
+	{
+		param = "If you don't like it, then why did you do it?!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 605,
+		flag = 1
+	},
+	{
+		param = "...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 606,
+		flag = 1
+	},
+	{
+		param = "But, well... You did help me clean my room.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 607,
+		flag = 1
+	},
+	{
+		param = "Thanks to you, it was easy to organize my shelves and everything.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 608,
+		flag = 1
+	},
+	{
+		param = "Doing it alone is always such a bother...",
+		ship_group = 49905,
+		type = 1,
+		id = 609,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I was just doing it incidentally."
+			}
+		}
+	},
+	{
+		param = "I was just doing it incidentally.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 610,
+		flag = 2
+	},
+	{
+		param = "...Incidentally?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 611,
+		flag = 2
+	},
+	{
+		param = "Was touching my hair all day also \"incidental \"?",
+		ship_group = 49905,
+		type = 1,
+		id = 612,
+		flag = 2,
+		option = {
+			{
+				3,
+				"It felt good to do that."
+			}
+		}
+	},
+	{
+		param = "Well, no. It felt good to do that, so I did it. Besides... I wanted to do something for you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 613,
+		flag = 3
+	},
+	{
+		param = "You little...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 614,
+		flag = 3
+	},
+	{
+		param = "You're a smooth-talker, I'll give you that.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 615,
+		flag = 3
+	},
+	{
+		param = "Then I expect you'll come tomorrow! I still have a box left...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 616,
+		flag = 3
+	},
+	{
+		param = "And I'm not asking because I want to see you!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 617,
+		flag = 3
+	},
+	{
+		param = "But if you refuse to come... I won't let you touch my hair for a whole week!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 618,
+		flag = 3
+	},
+	{
+		param = "Sigh...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 619,
+		flag = 0
+	},
+	{
+		param = "Before I knew it, I'd filled my room with your gifts.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 620,
+		flag = 0
+	},
+	{
+		param = "You put a lot of thought into each and every one of them, didn't you?",
+		ship_group = 49905,
+		type = 1,
+		id = 621,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I just bought them when I happened to see them."
+			}
+		}
+	},
+	{
+		param = "Not especially. I just bought them when I happened to see things I thought you'd like.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 622,
+		flag = 1
+	},
+	{
+		param = "Looking back, though, I made some pretty good choices.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 623,
+		flag = 1
+	},
+	{
+		param = "Who gave you permission to be so smug?!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 624,
+		flag = 1
+	},
+	{
+		param = "Goodness... I feel like such a fool, getting so excited by every little gift.",
+		ship_group = 49905,
+		type = 1,
+		id = 625,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I'm always thinking about you."
+			}
+		}
+	},
+	{
+		param = "Whenever I see something, I'm always thinking about how happy you'd be if you had it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 626,
+		flag = 2
+	},
+	{
+		param = "Because I love your smile, Ägir.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 627,
+		flag = 2
+	},
+	{
+		param = ".........",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 628,
+		flag = 2
+	},
+	{
+		param = "No fair... You've already stolen my heart, but you just keep on...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 629,
+		flag = 2
+	},
+	{
+		param = "At this rate, I really will...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 630,
+		flag = 2
+	},
+	{
+		param = "No... Forget I said anything! That's enough!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 631,
+		flag = 2
+	},
+	{
+		param = "The more I think about it, the more ridiculous it feels...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 632,
+		flag = 0
+	},
+	{
+		param = "What's going on here?!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 633,
+		flag = 0
+	},
+	{
+		param = "Why?!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 634,
+		flag = 0
+	},
+	{
+		param = "Why do you keep on winning over and over?!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 635,
+		flag = 0
+	},
+	{
+		param = "Even worse...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 636,
+		flag = 0
+	},
+	{
+		param = "I know that your victories are all fair and square!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 637,
+		flag = 0
+	},
+	{
+		param = "But I'm not done yet...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 638,
+		flag = 0
+	},
+	{
+		param = "Next time, I'll get my revenge!",
+		ship_group = 49905,
+		type = 1,
+		id = 639,
+		flag = 0,
+		option = {
+			{
+				1,
+				"This is the third time you've said that."
+			}
+		}
+	},
+	{
+		param = "This is the third time you've said that.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 640,
+		flag = 1
+	},
+	{
+		param = "Here I thought you would say something nice... How silly of me!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 641,
+		flag = 1
+	},
+	{
+		param = "So that was the third time, eh?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 642,
+		flag = 1
+	},
+	{
+		param = "Just you wait! I'll show you my true power!",
+		ship_group = 49905,
+		type = 1,
+		id = 643,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I look forward to your lessons."
+			}
+		}
+	},
+	{
+		param = "Oh? I look forward to your lessons, my dear Professor Ägir.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 644,
+		flag = 2
+	},
+	{
+		param = "o;pbrupi",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 645,
+		flag = 2
+	},
+	{
+		param = "Is that how you mean to disrupt my focus? Well, it won't work!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 646,
+		flag = 2
+	},
+	{
+		param = "Heheh... What you DON'T know is, 3 is my lucky number today!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 647,
+		flag = 2
+	},
+	{
+		param = "If you've won three times, then it's my time to win!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 648,
+		flag = 2
+	},
+	{
+		param = "Prepare to be swallowed by the sea!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 649,
+		flag = 2
+	},
+	{
+		param = "Hey...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 650,
+		flag = 0
+	},
+	{
+		param = "Commander",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 651,
+		flag = 0
+	},
+	{
+		param = "Is there anything you're... lacking? Anything you want?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 652,
+		flag = 0
+	},
+	{
+		param = "Does nothing come to mind at all?",
+		ship_group = 49905,
+		type = 1,
+		id = 653,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Don't think so."
+			}
+		}
+	},
+	{
+		param = "Hmm... Don't think so. I can't think of anything.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 654,
+		flag = 1
+	},
+	{
+		param = "What about you, Ägir? Do you want anything?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 655,
+		flag = 1
+	},
+	{
+		param = "......",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 656,
+		flag = 1
+	},
+	{
+		param = "I'm the one asking you that! Can you not throw my question back at me, please?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 657,
+		flag = 1
+	},
+	{
+		param = "One more try. Think carefully.",
+		ship_group = 49905,
+		type = 1,
+		id = 658,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I've got nothing."
+			}
+		}
+	},
+	{
+		param = "Hmm... Nope, I've got nothing. I think I have everything I need.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 659,
+		flag = 2
+	},
+	{
+		param = "Ugh...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 660,
+		flag = 2
+	},
+	{
+		param = "Then I offer you a special service: the god of the sea will grant you one wish.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 661,
+		flag = 2
+	},
+	{
+		param = "I can't guarantee it will come true, but it's better than nothing...",
+		ship_group = 49905,
+		type = 1,
+		id = 662,
+		flag = 2,
+		option = {
+			{
+				3,
+				"There'll be a meteor shower tonight."
+			}
+		}
+	},
+	{
+		param = "They say there'll be a meteor shower tonight.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 663,
+		flag = 3
+	},
+	{
+		param = "If we both make wishes on every single one, maybe it'll be more likely to work?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 664,
+		flag = 3
+	},
+	{
+		param = "A meteor shower?! When does it start? Has it already?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 665,
+		flag = 3
+	},
+	{
+		param = "If only I'd taken you to watch it with me...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 666,
+		flag = 3
+	},
+	{
+		param = "What a blunder...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 667,
+		flag = 3
+	},
+	{
+		param = "Huh?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 668,
+		flag = 3
+	},
+	{
+		param = "That's odd.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 669,
+		flag = 3
+	},
+	{
+		param = "What constellation am I seeing overhead right now?",
+		ship_group = 49905,
+		type = 1,
+		id = 670,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Oh..."
+			}
+		}
+	},
+	{
+		param = "Oh...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 671,
+		flag = 4
+	},
+	{
+		param = "I'm just realizing that I was actually looking at last year's forecast...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 672,
+		flag = 4
+	},
+	{
+		param = ".........",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 673,
+		flag = 4
+	},
+	{
+		param = "You will pay for this!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 674,
+		flag = 4
+	},
+	{
+		param = "I didn't see you in the cafeteria today.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 675,
+		flag = 0
+	},
+	{
+		param = "You're not replacing breakfast with coffee and energy bars again, are you?",
+		ship_group = 49905,
+		type = 1,
+		id = 676,
+		flag = 0,
+		option = {
+			{
+				1,
+				"How did you know that?"
+			}
+		}
+	},
+	{
+		param = "How did you know that?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 677,
+		flag = 1
+	},
+	{
+		param = "Were you waiting in the cafeteria all morning?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 678,
+		flag = 1
+	},
+	{
+		param = "...I'd never!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 679,
+		flag = 1
+	},
+	{
+		param = "I was just watching seagulls by the window, and I happened to see you going into your office.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 680,
+		flag = 1
+	},
+	{
+		param = "Nothing in this port escapes my all-seeing eyes!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 681,
+		flag = 1
+	},
+	{
+		param = "You have ten minutes. Come to my room right now!",
+		ship_group = 49905,
+		type = 1,
+		id = 682,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Now?"
+			}
+		}
+	},
+	{
+		param = "Now? I still have work...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 683,
+		flag = 2
+	},
+	{
+		param = "And you will still have work after you eat.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 684,
+		flag = 2
+	},
+	{
+		param = "I made it by hand this time... Not for you, of course. Don't misunderstand me.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 685,
+		flag = 2
+	},
+	{
+		param = "Silly me, I just happened to make a few sandwiches too many. Wouldn't want to let food go to waste, now, would we?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 686,
+		flag = 2
+	},
+	{
+		param = "Don't come if you don't want to. Those seagulls do look awfully hungry.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 687,
+		flag = 2
+	},
+	{
+		param = "I bet they wouldn't mind some good food.",
+		ship_group = 49905,
+		type = 1,
+		id = 688,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Okay, I'm coming right now."
+			}
+		}
+	},
+	{
+		param = "Okay, I'm coming right now.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 689,
+		flag = 3
+	},
+	{
+		param = "Feeding your home cooking to seagulls would be such a sad waste.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 690,
+		flag = 3
+	},
+	{
+		param = "I'm glad you understand. Best come soon, then.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 691,
+		flag = 3
+	},
+	{
+		param = "But if you don't finish my food... Well, you can expect an even more special treat tomorrow.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 692,
+		flag = 3
+	},
+	{
+		param = "Commander, I saw the photos you sent me.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 693,
+		flag = 0
+	},
+	{
+		param = "The framing and lighting are good...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 694,
+		flag = 0
+	},
+	{
+		param = "...Wait.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 695,
+		flag = 0
+	},
+	{
+		param = "Why is there a picture of my side profile among them?",
+		ship_group = 49905,
+		type = 1,
+		id = 696,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I took it by accident."
+			}
+		}
+	},
+	{
+		param = "I took it by accident.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 697,
+		flag = 1
+	},
+	{
+		param = "At the time, I was trying to get a picture of the gramophone next to you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 698,
+		flag = 1
+	},
+	{
+		param = "By accident...?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 699,
+		flag = 1
+	},
+	{
+		param = "Are you saying I got in the way of your photo shoot?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 700,
+		flag = 1
+	},
+	{
+		param = "Hmm, well, consider it my mistake. My apologies for getting in the way of the thing you REALLY wanted a picture of.",
+		ship_group = 49905,
+		type = 1,
+		id = 701,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Actually, when I was lining up the shot..."
+			}
+		}
+	},
+	{
+		param = "Actually, when I was lining up the shot, my camera just kept wandering over to you on its own. And I just happened to click the shutter...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 702,
+		flag = 2
+	},
+	{
+		param = "Oh? Are you that attracted to me?",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 703,
+		flag = 2
+	},
+	{
+		param = "Since you were honest, I'll forgive this mistake.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 704,
+		flag = 2
+	},
+	{
+		param = "Don't expect the same grace next time.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 705,
+		flag = 2
+	},
+	{
+		param = "...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 706,
+		flag = 2
+	},
+	{
+		param = "If you want pictures of me, you can just tell me.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 707,
+		flag = 2
+	},
+	{
+		param = "I mean... I'd never refuse...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 708,
+		flag = 2
+	},
+	{
+		param = "That is, depending on my mood!",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 709,
+		flag = 2
+	},
+	{
+		param = "But if you brought some nice wine to soften my mood, well...",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 710,
+		flag = 2
+	},
+	{
+		param = "I could give you some of my time.",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 711,
+		flag = 2
 	}
 }

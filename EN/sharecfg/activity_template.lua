@@ -43695,7 +43695,7 @@ pg.activity_template = {
 		type = 86,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 1,
+		is_show = 3,
 		title_res_tag = "skinstory_20251218",
 		id = 50290,
 		page_core = "WinterFestival2025CoreActivityUI",
@@ -43849,7 +43849,7 @@ pg.activity_template = {
 		}
 	},
 	[50293] = {
-		mark = 251218,
+		mark = 20251218,
 		page_info = "",
 		type = 13,
 		login_pop = 0,
@@ -44092,6 +44092,202 @@ pg.activity_template = {
 					23,
 					59,
 					59
+				}
+			}
+		}
+	},
+	[50298] = {
+		mark = 20251225,
+		type = 63,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 2,
+		config_client = "",
+		title_res_tag = "winterwish_20251225",
+		id = 50298,
+		page_core = "WinterFestival2025CoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WinterFestival2025ShrinePage",
+			ui_name = "WinterFestival2025ShrinePage"
+		}
+	},
+	[50299] = {
+		mark = 20251225,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50299,
+		page_core = "",
+		config_data = {
+			24876
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50300] = {
+		mark = 20251225,
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 67,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50300,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50301] = {
+		mark = 20251225,
+		type = 86,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 1,
+		title_res_tag = "skinstory_20251225",
+		id = 50301,
+		page_core = "WinterFestival2025CoreActivityUI",
+		config_data = {
+			24871,
+			24872,
+			24873,
+			24874,
+			24875,
+			24877
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WinterFestival2025SkinMagazinePage2",
+			ui_name = "WinterFestival2025SkinMagazinePage2"
+		},
+		config_client = {
+			story = {
+				{
+					"SHISHANGTEKANZHUANSHUXINDONGSHIKEII6"
+				},
+				{
+					"SHISHANGTEKANZHUANSHUXINDONGSHIKEII1"
+				},
+				{
+					"SHISHANGTEKANZHUANSHUXINDONGSHIKEII4"
+				},
+				{
+					"SHISHANGTEKANZHUANSHUXINDONGSHIKEII3"
+				},
+				{
+					"SHISHANGTEKANZHUANSHUXINDONGSHIKEII2"
+				},
+				{
+					"SHISHANGTEKANZHUANSHUXINDONGSHIKEII5"
 				}
 			}
 		}
@@ -45484,6 +45680,52 @@ pg.activity_template = {
 					2025,
 					9,
 					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SurveyPage",
+			ui_name = "SurveyPage"
+		}
+	},
+	[7110] = {
+		mark = 20251225,
+		type = 101,
+		login_pop = 0,
+		config_id = 1009,
+		is_show = 35,
+		config_client = "",
+		title_res_tag = "survey",
+		id = 7110,
+		page_core = "",
+		config_data = {
+			1,
+			30
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					31
 				},
 				{
 					23,
@@ -72166,6 +72408,7 @@ pg.activity_template = {
 			50293,
 			50295,
 			50297,
+			50299,
 			1103,
 			1104,
 			1105,
@@ -72993,7 +73236,8 @@ pg.activity_template = {
 			5911,
 			50084,
 			50235,
-			50290
+			50290,
+			50301
 		},
 		[60] = {
 			4921,
@@ -73068,6 +73312,7 @@ pg.activity_template = {
 			50046,
 			50083,
 			50204,
+			50300,
 			30194,
 			30276,
 			30301,
@@ -73255,6 +73500,7 @@ pg.activity_template = {
 		[63] = {
 			5142,
 			5720,
+			50298,
 			30300
 		},
 		[110] = {
@@ -73428,7 +73674,8 @@ pg.activity_template = {
 			7106,
 			7107,
 			7108,
-			7109
+			7109,
+			7110
 		},
 		[119] = {
 			7104
@@ -74547,6 +74794,10 @@ pg.activity_template = {
 		50295,
 		50296,
 		50297,
+		50298,
+		50299,
+		50300,
+		50301,
 		7001,
 		7011,
 		7012,
@@ -74571,6 +74822,7 @@ pg.activity_template = {
 		7107,
 		7108,
 		7109,
+		7110,
 		7301,
 		7501,
 		7502,

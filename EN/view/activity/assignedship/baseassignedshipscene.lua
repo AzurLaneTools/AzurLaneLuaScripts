@@ -1,8 +1,9 @@
 slot0 = class("BaseAssignedShipScene", import("view.base.BaseUI"))
 slot0.TipWords = {
-	login_santa = "five_choose_one",
-	login_year = "nine_choose_one",
 	shrine_year = "seven_choose_one",
+	login_year = "nine_choose_one",
+	login_santa = "five_choose_one",
+	shrine_year_winterfestival_2025 = "seven_choose_one",
 	greeting_year = "spring_invited_2021"
 }
 

@@ -104,6 +104,28 @@ pg.island_buff_template = {
 		type_duel = {},
 		buff_duel = {}
 	},
+	{
+		name = "Sales Boost",
+		buff_group = 1,
+		buff_desc = "When assigned to manage a food store, that shop's revenue increases by 5% for 8 hours.",
+		buff_color = 2,
+		buff_type = 601,
+		buff_time = 28800,
+		buff_level = 1,
+		id = 5,
+		type_use = {
+			{
+				601,
+				602,
+				603,
+				604,
+				901
+			},
+			5
+		},
+		type_duel = {},
+		buff_duel = {}
+	},
 	[10000] = {
 		name = "Manufacturing Expertise",
 		buff_group = 1000,
@@ -3159,6 +3181,7 @@ pg.island_buff_template = {
 		2,
 		3,
 		4,
+		5,
 		10000,
 		10001,
 		10002,

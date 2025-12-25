@@ -225,6 +225,56 @@ pg.dorm3d_ins_language = {
 		key = "dafeng_2_2_1",
 		is_active = "0"
 	},
+	aijier_1 = {
+		value = "The richness of wine, or the aroma of coffee? It's so hard to choose.",
+		key = "aijier_1",
+		is_active = "0"
+	},
+	aijier_1_1 = {
+		value = "How about you get one, and I get the other?",
+		key = "aijier_1_1",
+		is_active = "0"
+	},
+	aijier_1_1_1 = {
+		value = "If I may choose first... then I'd like the first sip of your coffee, too.",
+		key = "aijier_1_1_1",
+		is_active = "0"
+	},
+	aijier_1_2 = {
+		value = "If it's really that difficult, we could go drink something else together?",
+		key = "aijier_1_2",
+		is_active = "0"
+	},
+	aijier_1_2_1 = {
+		value = "Why, I'd be happy to.",
+		key = "aijier_1_2_1",
+		is_active = "0"
+	},
+	aijier_2 = {
+		value = "On quiet afternoons like this one, I find myself... restless.",
+		key = "aijier_2",
+		is_active = "0"
+	},
+	aijier_2_1 = {
+		value = "Want a drink? I'll bring something for you.",
+		key = "aijier_2_1",
+		is_active = "0"
+	},
+	aijier_2_1_1 = {
+		value = "Hmm... Bring me coffee, then, would you? Let's enjoy some quiet relaxation together.",
+		key = "aijier_2_1_1",
+		is_active = "0"
+	},
+	aijier_2_2 = {
+		value = "So even you like relaxation once in a while, huh?",
+		key = "aijier_2_2",
+		is_active = "0"
+	},
+	aijier_2_2_1 = {
+		value = "Come over, Commander... Let's make this afternoon one to remember.",
+		key = "aijier_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -270,6 +320,16 @@ pg.dorm3d_ins_language = {
 		"dafeng_2_1",
 		"dafeng_2_1_1",
 		"dafeng_2_2",
-		"dafeng_2_2_1"
+		"dafeng_2_2_1",
+		"aijier_1",
+		"aijier_1_1",
+		"aijier_1_1_1",
+		"aijier_1_2",
+		"aijier_1_2_1",
+		"aijier_2",
+		"aijier_2_1",
+		"aijier_2_1_1",
+		"aijier_2_2",
+		"aijier_2_2_1"
 	}
 }

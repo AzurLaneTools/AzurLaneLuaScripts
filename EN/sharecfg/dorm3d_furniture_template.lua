@@ -1435,6 +1435,223 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/entertainment"
 		}
 	},
+	[1401] = {
+		rarity = 3,
+		name = "Velvet Bed",
+		unlock_tips = "",
+		type = 4,
+		room_id = 14,
+		desc = "A double bed with a time-tested design, featuring a black headboard and red velvet bedding. Its soft mattress and pillows provide warmth and peace for a weary body and mind.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1401,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990510
+			}
+		},
+		shop_id = {}
+	},
+	[1402] = {
+		rarity = 3,
+		name = "Ebony Desk",
+		unlock_tips = "",
+		type = 6,
+		room_id = 14,
+		desc = "A black wooden desk accompanied by a simple red chair. This piece offers both practicality and traditional charm.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1402,
+		target_slots = {
+			1140201
+		},
+		touch_id = {
+			{
+				49905,
+				4990520
+			}
+		},
+		shop_id = {}
+	},
+	[1403] = {
+		rarity = 3,
+		name = "Leather Chair",
+		unlock_tips = "",
+		type = 5,
+		room_id = 14,
+		desc = "A soft, comfortable leather chair. Paired with the round tea table, it's the ideal spot for solo relaxation.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1403,
+		target_slots = {
+			1140301
+		},
+		touch_id = {
+			{
+				49905,
+				4990530
+			}
+		},
+		shop_id = {}
+	},
+	[1411] = {
+		rarity = 2,
+		name = "Long Candles",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "These ivory-white candles give warmth to a quiet, romantic night.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1411,
+		target_slots = {
+			1140303
+		},
+		shop_id = {}
+	},
+	[1412] = {
+		rarity = 2,
+		name = "Large Plant",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "This large potted plant does more than just add life to a room with its broad leaves – it helps purify the air, too!",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_bonsai01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1412,
+		target_slots = {
+			1140202
+		},
+		shop_id = {}
+	},
+	[1413] = {
+		rarity = 2,
+		name = "Elegant Desk Lamp",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "A small desk lamp that casts a comfortable glow for reading or working at night.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_desklamp01_on",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1413,
+		target_slots = {
+			1140103
+		},
+		shop_id = {}
+	},
+	[1414] = {
+		rarity = 2,
+		name = "Vintage Camera",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "This device retains the unique design of antique cameras. It's widely loved by enthusiasts and collectors.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_camera01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1414,
+		target_slots = {
+			1140102
+		},
+		shop_id = {}
+	},
+	[1415] = {
+		rarity = 2,
+		name = "Portrait",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "An abstract portrait painted with a classical touch; with its contrasting yet complementing chiaroscuro of bright and dark colors, it somehow perfectly matches the ambience of the room.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1415,
+		target_slots = {
+			1140302
+		},
+		shop_id = {}
+	},
+	[1461] = {
+		rarity = 4,
+		name = "Crimson Tranquility",
+		type = 4,
+		room_id = 14,
+		desc = "A secret space for privacy and romance. The red velvet bedding and pull-out curtains make it easy to enjoy tranquility and warmth at night.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
+		acesses = "",
+		id = 1461,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990540
+			}
+		},
+		shop_id = {
+			270601
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1461"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1502,6 +1719,17 @@ pg.dorm3d_furniture_template = {
 			1215,
 			1221,
 			1222
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1461
 		}
 	},
 	all = {
@@ -1559,6 +1787,15 @@ pg.dorm3d_furniture_template = {
 		1214,
 		1215,
 		1221,
-		1222
+		1222,
+		1401,
+		1402,
+		1403,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1461
 	}
 }

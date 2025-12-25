@@ -2,6 +2,8 @@ slot0 = class("MainSilentChecker", import("view.base.BaseEventLogic"))
 
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
+
+	slot0._silentRunFlag = true
 end
 
 slot0.SetUp = function(slot0)
@@ -46,8 +48,10 @@ slot0.EnterState = function(slot0)
 		return
 	end
 
-	slot0:Clear()
-	slot0:emit(NewMainScene.ENTER_SILENT_VIEW)
+	if slot0._silentRunFlag then
+		slot0:Clear()
+		slot0:emit(NewMainScene.ENTER_SILENT_VIEW)
+	end
 end
 
 slot0.AnyOverlayShowing = function(slot0)
@@ -68,6 +72,10 @@ end
 
 slot0.Disable = function(slot0)
 	slot0:Clear()
+end
+
+slot0.SetSilentRun = function(slot0, slot1)
+	slot0._silentRunFlag = slot1
 end
 
 slot0.Dispose = function(slot0)

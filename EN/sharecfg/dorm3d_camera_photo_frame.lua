@@ -12,7 +12,9 @@ pg.dorm3d_camera_photo_frame = setmetatable({
 		1008,
 		1009,
 		1010,
-		1011
+		1011,
+		1012,
+		1013
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -230,6 +232,46 @@ pg.base.dorm3d_camera_photo_frame = {
 		unlock = {
 			1,
 			30707,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1012] = {
+		name = "Gorgeous Gold",
+		rarity = 3,
+		farme_path = "photo_frame_picture",
+		frameTfName = "PictureFrame",
+		desc = "Unlocks the Gorgeous Gold frame for the camera feature.",
+		unlock_text = "Reach Ägir Intimacy Lv. 5",
+		id = 1012,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_picture_small",
+		unlock = {
+			1,
+			49905,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1013] = {
+		name = "Garden Memories",
+		rarity = 3,
+		farme_path = "photo_frame_train",
+		frameTfName = "TrainFrame",
+		desc = "Unlocks the Garden Memories frame for the camera feature.",
+		unlock_text = "Reach Ägir Intimacy Lv. 13",
+		id = 1013,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_train_small",
+		unlock = {
+			1,
+			49905,
 			13
 		},
 		watermark_location = {

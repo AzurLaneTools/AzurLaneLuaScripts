@@ -70,8 +70,44 @@ pg.dorm3d_dance = {
 			"Camera 3"
 		}
 	},
+	[49905] = {
+		default_camera = "dance_camera1",
+		song_name = "The Deep Beckons",
+		director_name = "[sequence]",
+		timeline_scene = "Dance_49905",
+		id = 49905,
+		finish_anim = "weixiao",
+		cucoloris_group = {
+			{
+				301,
+				304,
+				307
+			},
+			{
+				302,
+				305,
+				308
+			},
+			{
+				303,
+				306,
+				309
+			}
+		},
+		camera_tracks = {
+			"dance_camera1",
+			"dance_camera2",
+			"dance_camera3"
+		},
+		camera_names = {
+			"Camera 1",
+			"Camera 2",
+			"Camera 3"
+		}
+	},
 	all = {
 		10517,
-		30707
+		30707,
+		49905
 	}
 }

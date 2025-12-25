@@ -37,14 +37,15 @@ slot0.BONE_TO_TOUCH = {
 	LeftCalf = "leg",
 	Belly = "belly"
 }
-slot0.EXTRA_SYSTEMS = {
-	StockingMgr = "StockingMgr",
-	FurnitureSlide = "FurnitureSlide"
-}
-slot0.SYSTEM_LIST = {
-	slot0.EXTRA_SYSTEMS.FurnitureSlide,
-	slot0.EXTRA_SYSTEMS.StockingMgr
-}
+
+slot0.GetDefaultSystemClasses = function()
+	return {
+		SlideExtraSystem,
+		Dorm3dStockingMgr,
+		TeleportSystem
+	}
+end
+
 slot0.DEFAULT_ANIM_FADE_IN_TIME = 0.25
 slot0.LADY_MOVE_SPEED = 0.85
 slot0.LADY_ROTATE_SPEED = 10

@@ -291,7 +291,7 @@ pg.activity_link_button = {
 	[109] = {
 		param = "WinterFestival2025CoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_core",
+		text_pic = "text_event_core3",
 		type = 16,
 		pic = "event_core",
 		id = 109,
@@ -299,7 +299,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50297
+			50301
 		}
 	},
 	[110] = {
@@ -369,7 +369,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50290
+			50298
 		}
 	},
 	get_id_list_by_name = {

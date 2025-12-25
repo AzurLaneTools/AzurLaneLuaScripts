@@ -819,6 +819,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Petals dance in the wind, singing of the vitality and beauty of spring.</color>\nObtained by raising Intimacy Level with Taihou in Private Quarters.",
 		scene = {}
 	},
+	[1011] = {
+		name = "Chains of the Depths",
+		gain_by = "",
+		time_second = 0,
+		id = 1011,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>From the abyss the ruthless dragon emerges, its black chains rippling with raging lightning.</color>\nCan be obtained by raising Ägir's Intimacy in the Private Quarters.",
+		scene = {}
+	},
+	[1012] = {
+		name = "Crown of the Blue Seas",
+		gain_by = "",
+		time_second = 0,
+		id = 1012,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>A steel-blue flag flutters amidst the surging waves, a golden crown placed atop it to symbolize its dominion over the sea.</color>\nCan be obtained by raising Ägir's Intimacy in the Private Quarters.",
+		scene = {}
+	},
 	[10001] = {
 		name = "Extreme Challenge - Gemini",
 		gain_by = "",
@@ -1019,6 +1037,8 @@ pg.item_data_frame = {
 		1008,
 		1009,
 		1010,
+		1011,
+		1012,
 		10001,
 		10002,
 		10003,

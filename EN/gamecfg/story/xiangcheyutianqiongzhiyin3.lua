@@ -144,7 +144,7 @@ return {
 		},
 		{
 			expression = 10,
-			side = 0,
+			side = 2,
 			bgName = "bg_port_ny_future",
 			dir = 1,
 			actor = 107160,
@@ -220,6 +220,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_port_ny_future",
+			actorScale = 0.6,
 			actor = 107160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

@@ -13,7 +13,7 @@ pg.shop_banner_template = {
 				{
 					2025,
 					12,
-					18
+					25
 				},
 				{
 					0,
@@ -274,7 +274,7 @@ pg.shop_banner_template = {
 		time_lable = 1,
 		pic = "shopbanner/shop_pack_bg",
 		id = 24,
-		order = 47,
+		order = 51,
 		time = {
 			{
 				{
@@ -309,7 +309,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9005
+			9010
 		}
 	},
 	[25] = {

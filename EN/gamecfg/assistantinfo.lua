@@ -89,6 +89,46 @@ slot1.assistantEvents = {
 	event_change_get = {
 		action = "get",
 		dialog = ""
+	},
+	asmr_001 = {
+		action = "asmr_001",
+		dialog = "asmr_001"
+	},
+	asmr_002 = {
+		action = "asmr_002",
+		dialog = "asmr_002"
+	},
+	asmr_003 = {
+		action = "asmr_003",
+		dialog = "asmr_003"
+	},
+	asmr_004 = {
+		action = "asmr_004",
+		dialog = "asmr_004"
+	},
+	asmr_005 = {
+		action = "asmr_005",
+		dialog = "asmr_005"
+	},
+	asmr_006 = {
+		action = "asmr_006",
+		dialog = "asmr_006"
+	},
+	asmr_007 = {
+		action = "asmr_007",
+		dialog = "asmr_007"
+	},
+	asmr_008 = {
+		action = "asmr_008",
+		dialog = "asmr_008"
+	},
+	asmr_009 = {
+		action = "asmr_009",
+		dialog = "asmr_009"
+	},
+	asmr_010 = {
+		action = "asmr_010",
+		dialog = "asmr_010"
 	}
 }
 slot1.assistantTouchParts = {

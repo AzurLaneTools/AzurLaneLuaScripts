@@ -58,6 +58,7 @@ slot0.Update = function(slot0, slot1, slot2, slot3)
 		end
 
 		slot0.changeSkinToggle:setSkinData(slot0.skin.id)
+		setActive(slot0.changeSkinUI, not slot0.changeSkinToggle:IsAsmrSkin())
 	end
 
 	slot0:FlushTags(slot1:getConfig("tag"))

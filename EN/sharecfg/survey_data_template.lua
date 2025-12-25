@@ -136,6 +136,23 @@ pg.survey_data_template = {
 			}
 		}
 	},
+	[1009] = {
+		ios_url = "",
+		uo_url = "",
+		main_url = "https://survey.yostar.net/vm/tMGdrNt.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
+		id = 1009,
+		name = "A Note Through the Firmament Survey",
+		main_activity = "343087256",
+		ios_activity = "",
+		uo_activity = "",
+		bonus = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -144,6 +161,7 @@ pg.survey_data_template = {
 		1005,
 		1006,
 		1007,
-		1008
+		1008,
+		1009
 	}
 }

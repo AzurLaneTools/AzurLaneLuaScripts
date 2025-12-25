@@ -238,7 +238,14 @@ slot0.SetDisplayMode = function(slot0, slot1)
 end
 
 slot0.UpdateView = function(slot0)
-	setText(slot0.sceneParent.chapterName, string.split(slot0.contextData.map:getConfig("name"), "||")[1])
+	slot1 = string.split(slot0.contextData.map:getConfig("name"), "||")
+
+	if slot0.contextData.displayMode == uv0.DISPLAY.STORY then
+		setText(slot0.sceneParent.chapterName, string.split(slot1[1], "·")[1] .. i18n("levelscene_title_story"))
+	else
+		setText(slot0.sceneParent.chapterName, slot1[1])
+	end
+
 	slot0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. slot0.contextData.map:getMapTitleNumber(), slot0.sceneParent.chapterNoTitle, true)
 
 	slot0.contextData.displayMode = slot0.contextData.displayMode or uv0.DISPLAY.BATTLE

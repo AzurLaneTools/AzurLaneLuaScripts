@@ -44,6 +44,13 @@ end
 slot0.init = function(slot0)
 	slot0:InitScene()
 	slot0:InitUI()
+
+	slot1 = Dorm3dHxHelper.GetTimelineMainCharacter()
+
+	Dorm3dHxHelper.ReplaceCharacterParts(slot1)
+	Dorm3dHxHelper.ShowHolyLight({
+		slot1
+	}, slot0.holyLightRoot)
 end
 
 slot0.InitUI = function(slot0)
@@ -68,6 +75,7 @@ slot0.InitUI = function(slot0)
 
 	slot0.ltList = {}
 	slot0.timerList = {}
+	slot0.holyLightRoot = slot0._tf:Find("HolyLightRoot")
 end
 
 slot0.InitScene = function(slot0)
