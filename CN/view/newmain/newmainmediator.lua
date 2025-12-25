@@ -258,8 +258,8 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == NewMainMediator.ON_AWRADS then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == GAME.PLAY_CHANGE_SKIN_OUT then
-		slot0.viewComponent:HidePanel(true)
 		slot0.viewComponent:SetEffectPanelVisible(false)
+		slot0.viewComponent:HidePanel(true)
 		slot0.viewComponent:PlayChangeSkinActionOut(slot3)
 	elseif slot2 == GAME.PLAY_CHANGE_SKIN_IN then
 		slot0.viewComponent:PlayChangeSkinActionIn(slot3)
