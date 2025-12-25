@@ -32,10 +32,14 @@ slot0.startChangeAction = function(slot0, slot1, slot2, slot3)
 
 			if slot0.flag then
 				ShipSkin.SetStoreChangeSkinId(uv0, uv1:GetShipPhantomMark())
+
+				slot3 = ShipSkin.GetChangeSkinCustomDataId(uv0, "asmr") == 1 and true or false
+
 				pg.ChangeSkinMgr.GetInstance():play(uv0, function ()
 					uv0:sendNotification(GAME.CHANGE_SKIN_EXCHANGE, {
 						callback = function ()
-						end
+						end,
+						asmr = uv1
 					})
 				end, function ()
 					uv0:sendNotification(GAME.PLAY_CHANGE_SKIN_IN)

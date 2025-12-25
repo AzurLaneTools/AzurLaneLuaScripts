@@ -205,6 +205,14 @@ slot0.HXCharacter = function(slot0, slot1)
 		return
 	end
 
+	Dorm3dHxHelper.ShowHolyLight({
+		slot1
+	}, slot0.holyLightRoot)
+
+	if Dorm3dHxHelper.ReplaceCharacterParts(slot1) then
+		return
+	end
+
 	table.IpairsCArray(slot1:GetComponentsInChildren(typeof(SkinnedMeshRenderer)), function (slot0, slot1)
 		table.IpairsCArray(slot1.sharedMaterials, function (slot0, slot1)
 			if not uv0.hxMatDict[slot1.name] then
@@ -430,6 +438,7 @@ slot0.findUI = function(slot0)
 	slot0.aiHelperSC = GetComponent(GameObject.Find("ARScriptHandle"), "ARHelper")
 	slot0.aiHelperSC.tplPrefab = GameObject.Find("Tpl")
 	slot0.tpl = GameObject.Find("Tpl").transform
+	slot0.holyLightRoot = slot0._tf:Find("HolyLightRoot")
 end
 
 slot0.addListener = function(slot0)

@@ -1,15 +1,179 @@
 pg = pg or {}
 pg.enemy_data_statistics_393 = {
-	[295099] = {
-		cannon = 258,
-		name = "反击·META(Tier.9)",
-		torpedo = 0,
+	[295066] = {
+		cannon = 268,
+		name = "奥古斯塔·META(Tier.6)",
+		torpedo = 133,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 16,
+		id = 295066,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90600,
+		durability = 150000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 246,
+		speed = 30,
+		luck = 11,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
+	[295067] = {
+		cannon = 283,
+		name = "奥古斯塔·META(Tier.7)",
+		torpedo = 142,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 17,
+		id = 295067,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90600,
+		durability = 230000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 260,
+		speed = 30,
+		luck = 12,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
+	[295068] = {
+		cannon = 298,
+		name = "奥古斯塔·META(Tier.8)",
+		torpedo = 151,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 18,
+		id = 295068,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90600,
+		durability = 310000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 274,
+		speed = 30,
+		luck = 13,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
+	[295069] = {
+		cannon = 314,
+		name = "奥古斯塔·META(Tier.9)",
+		torpedo = 160,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 19,
-		id = 295099,
+		id = 295069,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90600,
+		durability = 390000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 288,
+		speed = 30,
+		luck = 14,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
+	[295070] = {
+		cannon = 330,
+		name = "奥古斯塔·META(Tier.10)",
+		torpedo = 169,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 20,
+		id = 295070,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -20,11 +184,175 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90645,
-		durability = 390000,
+		base = 90600,
+		durability = 480000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 283,
+		antiaircraft = 302,
+		speed = 30,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 4
+			}
+		}
+	},
+	[295071] = {
+		cannon = 347,
+		name = "奥古斯塔·META(Tier.11)",
+		torpedo = 178,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 21,
+		id = 295071,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 80,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90600,
+		durability = 600000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 316,
+		speed = 30,
+		luck = 16,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 4
+			}
+		}
+	},
+	[295072] = {
+		cannon = 364,
+		name = "奥古斯塔·META(Tier.12)",
+		torpedo = 187,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 22,
+		id = 295072,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 85,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90600,
+		durability = 780000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 330,
+		speed = 30,
+		luck = 17,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 4
+			}
+		}
+	},
+	[295073] = {
+		cannon = 382,
+		name = "奥古斯塔·META(Tier.13)",
+		torpedo = 196,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 23,
+		id = 295073,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90600,
+		durability = 1000000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 344,
+		speed = 30,
+		luck = 18,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 5
+			}
+		}
+	},
+	[295074] = {
+		cannon = 401,
+		name = "奥古斯塔·META(Tier.14)",
+		torpedo = 205,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 24,
+		id = 295074,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90600,
+		durability = 1240000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 358,
 		speed = 30,
 		luck = 19,
 		battle_unit_type = 90,
@@ -36,36 +364,36 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
-				LV = 3
+				ID = 50510,
+				LV = 5
 			}
 		}
 	},
-	[295100] = {
-		cannon = 274,
-		name = "反击·META(Tier.10)",
-		torpedo = 0,
+	[295075] = {
+		cannon = 421,
+		name = "奥古斯塔·META(Tier.15)",
+		torpedo = 214,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
-		dodge = 20,
-		id = 295100,
+		dodge = 25,
+		id = 295075,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
 		dodge_growth = 0,
 		speed_growth = 0,
 		luck_growth = 0,
-		hit = 80,
+		hit = 105,
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90645,
-		durability = 480000,
+		base = 90600,
+		durability = 1480000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 296,
+		antiaircraft = 372,
 		speed = 30,
 		luck = 20,
 		battle_unit_type = 90,
@@ -77,226 +405,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
-				LV = 4
-			}
-		}
-	},
-	[295101] = {
-		cannon = 291,
-		name = "反击·META(Tier.11)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 21,
-		id = 295101,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 85,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90645,
-		durability = 600000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 309,
-		speed = 30,
-		luck = 21,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 4
-			}
-		}
-	},
-	[295102] = {
-		cannon = 308,
-		name = "反击·META(Tier.12)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 22,
-		id = 295102,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 90,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90645,
-		durability = 780000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 322,
-		speed = 30,
-		luck = 22,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 4
-			}
-		}
-	},
-	[295103] = {
-		cannon = 326,
-		name = "反击·META(Tier.13)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 23,
-		id = 295103,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 95,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90645,
-		durability = 1000000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 335,
-		speed = 30,
-		luck = 23,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
+				ID = 50510,
 				LV = 5
 			}
 		}
 	},
-	[295104] = {
-		cannon = 345,
-		name = "反击·META(Tier.14)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 24,
-		id = 295104,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90645,
-		durability = 1240000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 348,
-		speed = 30,
-		luck = 24,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 5
-			}
-		}
-	},
-	[295105] = {
-		cannon = 365,
-		name = "反击·META(Tier.15)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 25,
-		id = 295105,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 110,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90645,
-		durability = 1480000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 361,
-		speed = 30,
-		luck = 25,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 5
-			}
-		}
-	},
-	[295106] = {
-		cannon = 146,
-		name = "声望·META(Tier.1)",
-		torpedo = 0,
+	[295076] = {
+		cannon = 183,
+		name = "格尔林德·META(Tier.1)",
+		torpedo = 98,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 11,
-		id = 295106,
+		id = 295076,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -307,12 +430,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 50000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 179,
-		speed = 60,
+		antiaircraft = 176,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -323,21 +446,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 1
 			}
 		}
 	},
-	[295107] = {
-		cannon = 158,
-		name = "声望·META(Tier.2)",
-		torpedo = 0,
+	[295077] = {
+		cannon = 195,
+		name = "格尔林德·META(Tier.2)",
+		torpedo = 108,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 12,
-		id = 295107,
+		id = 295077,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -348,12 +471,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 54000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 192,
-		speed = 60,
+		antiaircraft = 190,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -364,21 +487,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 1
 			}
 		}
 	},
-	[295108] = {
-		cannon = 171,
-		name = "声望·META(Tier.3)",
-		torpedo = 0,
+	[295078] = {
+		cannon = 207,
+		name = "格尔林德·META(Tier.3)",
+		torpedo = 118,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 13,
-		id = 295108,
+		id = 295078,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -389,12 +512,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 58000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 205,
-		speed = 60,
+		antiaircraft = 204,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -405,21 +528,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 1
 			}
 		}
 	},
-	[295109] = {
-		cannon = 184,
-		name = "声望·META(Tier.4)",
-		torpedo = 0,
+	[295079] = {
+		cannon = 220,
+		name = "格尔林德·META(Tier.4)",
+		torpedo = 128,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 14,
-		id = 295109,
+		id = 295079,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -430,12 +553,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 70000,
 		armor_growth = 0,
 		durability_growth = 0,
 		antiaircraft = 218,
-		speed = 60,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -446,21 +569,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 2
 			}
 		}
 	},
-	[295110] = {
-		cannon = 198,
-		name = "声望·META(Tier.5)",
-		torpedo = 0,
+	[295080] = {
+		cannon = 233,
+		name = "格尔林德·META(Tier.5)",
+		torpedo = 138,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 15,
-		id = 295110,
+		id = 295080,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -471,12 +594,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 110000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 231,
-		speed = 60,
+		antiaircraft = 232,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -487,21 +610,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 2
 			}
 		}
 	},
-	[295111] = {
-		cannon = 212,
-		name = "声望·META(Tier.6)",
-		torpedo = 0,
+	[295081] = {
+		cannon = 247,
+		name = "格尔林德·META(Tier.6)",
+		torpedo = 148,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 16,
-		id = 295111,
+		id = 295081,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -512,12 +635,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 150000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 244,
-		speed = 60,
+		antiaircraft = 246,
+		speed = 30,
 		luck = 16,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -528,21 +651,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 2
 			}
 		}
 	},
-	[295112] = {
-		cannon = 227,
-		name = "声望·META(Tier.7)",
-		torpedo = 0,
+	[295082] = {
+		cannon = 261,
+		name = "格尔林德·META(Tier.7)",
+		torpedo = 158,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 17,
-		id = 295112,
+		id = 295082,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -553,12 +676,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 230000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 257,
-		speed = 60,
+		antiaircraft = 260,
+		speed = 30,
 		luck = 17,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -569,21 +692,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 3
 			}
 		}
 	},
-	[295113] = {
-		cannon = 242,
-		name = "声望·META(Tier.8)",
-		torpedo = 0,
+	[295083] = {
+		cannon = 276,
+		name = "格尔林德·META(Tier.8)",
+		torpedo = 168,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 18,
-		id = 295113,
+		id = 295083,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -594,12 +717,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 310000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 270,
-		speed = 60,
+		antiaircraft = 274,
+		speed = 30,
 		luck = 18,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -610,21 +733,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 3
 			}
 		}
 	},
-	[295114] = {
-		cannon = 258,
-		name = "声望·META(Tier.9)",
-		torpedo = 0,
+	[295084] = {
+		cannon = 291,
+		name = "格尔林德·META(Tier.9)",
+		torpedo = 178,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 19,
-		id = 295114,
+		id = 295084,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -635,12 +758,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 390000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 283,
-		speed = 60,
+		antiaircraft = 288,
+		speed = 30,
 		luck = 19,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -651,21 +774,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 3
 			}
 		}
 	},
-	[295115] = {
-		cannon = 274,
-		name = "声望·META(Tier.10)",
-		torpedo = 0,
+	[295085] = {
+		cannon = 307,
+		name = "格尔林德·META(Tier.10)",
+		torpedo = 188,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 20,
-		id = 295115,
+		id = 295085,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -676,12 +799,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 480000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 296,
-		speed = 60,
+		antiaircraft = 302,
+		speed = 30,
 		luck = 20,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -692,21 +815,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 4
 			}
 		}
 	},
-	[295116] = {
-		cannon = 291,
-		name = "声望·META(Tier.11)",
-		torpedo = 0,
+	[295086] = {
+		cannon = 323,
+		name = "格尔林德·META(Tier.11)",
+		torpedo = 198,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 21,
-		id = 295116,
+		id = 295086,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -717,12 +840,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 600000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 309,
-		speed = 60,
+		antiaircraft = 316,
+		speed = 30,
 		luck = 21,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -733,21 +856,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 4
 			}
 		}
 	},
-	[295117] = {
-		cannon = 308,
-		name = "声望·META(Tier.12)",
-		torpedo = 0,
+	[295087] = {
+		cannon = 340,
+		name = "格尔林德·META(Tier.12)",
+		torpedo = 208,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 22,
-		id = 295117,
+		id = 295087,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -758,12 +881,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 780000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 322,
-		speed = 60,
+		antiaircraft = 330,
+		speed = 30,
 		luck = 22,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -774,21 +897,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 4
 			}
 		}
 	},
-	[295118] = {
-		cannon = 326,
-		name = "声望·META(Tier.13)",
-		torpedo = 0,
+	[295088] = {
+		cannon = 357,
+		name = "格尔林德·META(Tier.13)",
+		torpedo = 218,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 23,
-		id = 295118,
+		id = 295088,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -799,12 +922,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 1000000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 335,
-		speed = 60,
+		antiaircraft = 344,
+		speed = 30,
 		luck = 23,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -815,21 +938,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 5
 			}
 		}
 	},
-	[295119] = {
-		cannon = 345,
-		name = "声望·META(Tier.14)",
-		torpedo = 0,
+	[295089] = {
+		cannon = 376,
+		name = "格尔林德·META(Tier.14)",
+		torpedo = 228,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 24,
-		id = 295119,
+		id = 295089,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -840,12 +963,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 1240000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 348,
-		speed = 60,
+		antiaircraft = 358,
+		speed = 30,
 		luck = 24,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -856,21 +979,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 5
 			}
 		}
 	},
-	[295120] = {
-		cannon = 381,
-		name = "声望·META(Tier.15)",
-		torpedo = 0,
+	[295090] = {
+		cannon = 396,
+		name = "格尔林德·META(Tier.15)",
+		torpedo = 238,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 25,
-		id = 295120,
+		id = 295090,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -881,12 +1004,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90675,
+		base = 90623,
 		durability = 1480000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 368,
-		speed = 60,
+		antiaircraft = 372,
+		speed = 30,
 		luck = 25,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -897,21 +1020,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50500,
+				ID = 50510,
 				LV = 5
 			}
 		}
 	},
-	[295121] = {
-		cannon = 149,
-		name = "亚利桑那·META(Tier.1)",
+	[295091] = {
+		cannon = 146,
+		name = "反击·META(Tier.1)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 11,
-		id = 295121,
+		id = 295091,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -922,12 +1045,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90718,
-		durability = 54000,
+		base = 90645,
+		durability = 50000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 166,
-		speed = 20,
+		antiaircraft = 179,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -938,21 +1061,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50510,
+				ID = 50500,
 				LV = 1
 			}
 		}
 	},
-	[295122] = {
-		cannon = 162,
-		name = "亚利桑那·META(Tier.2)",
+	[295092] = {
+		cannon = 158,
+		name = "反击·META(Tier.2)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 12,
-		id = 295122,
+		id = 295092,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -963,12 +1086,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90718,
-		durability = 58000,
+		base = 90645,
+		durability = 54000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 175,
-		speed = 20,
+		antiaircraft = 192,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -979,21 +1102,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50510,
+				ID = 50500,
 				LV = 1
 			}
 		}
 	},
-	[295123] = {
-		cannon = 175,
-		name = "亚利桑那·META(Tier.3)",
+	[295093] = {
+		cannon = 171,
+		name = "反击·META(Tier.3)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 13,
-		id = 295123,
+		id = 295093,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -1004,12 +1127,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90718,
-		durability = 63000,
+		base = 90645,
+		durability = 58000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 186,
-		speed = 20,
+		antiaircraft = 205,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -1020,21 +1143,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50510,
+				ID = 50500,
 				LV = 1
 			}
 		}
 	},
-	[295124] = {
-		cannon = 188,
-		name = "亚利桑那·META(Tier.4)",
+	[295094] = {
+		cannon = 184,
+		name = "反击·META(Tier.4)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 14,
-		id = 295124,
+		id = 295094,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -1045,12 +1168,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90718,
-		durability = 76000,
+		base = 90645,
+		durability = 70000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 196,
-		speed = 20,
+		antiaircraft = 218,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -1061,21 +1184,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50510,
+				ID = 50500,
 				LV = 2
 			}
 		}
 	},
-	[295125] = {
-		cannon = 203,
-		name = "亚利桑那·META(Tier.5)",
+	[295095] = {
+		cannon = 198,
+		name = "反击·META(Tier.5)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 15,
-		id = 295125,
+		id = 295095,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -1086,12 +1209,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90718,
-		durability = 120000,
+		base = 90645,
+		durability = 110000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 207,
-		speed = 20,
+		antiaircraft = 231,
+		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -1102,21 +1225,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50510,
+				ID = 50500,
 				LV = 2
 			}
 		}
 	},
-	[295126] = {
-		cannon = 217,
-		name = "亚利桑那·META(Tier.6)",
+	[295096] = {
+		cannon = 212,
+		name = "反击·META(Tier.6)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 16,
-		id = 295126,
+		id = 295096,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -1127,12 +1250,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90718,
-		durability = 160000,
+		base = 90645,
+		durability = 150000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 218,
-		speed = 20,
+		antiaircraft = 244,
+		speed = 30,
 		luck = 16,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -1143,21 +1266,21 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50510,
+				ID = 50500,
 				LV = 2
 			}
 		}
 	},
-	[295127] = {
-		cannon = 232,
-		name = "亚利桑那·META(Tier.7)",
+	[295097] = {
+		cannon = 227,
+		name = "反击·META(Tier.7)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
 		reload = 150,
 		armor = 0,
 		dodge = 17,
-		id = 295127,
+		id = 295097,
 		torpedo_growth = 0,
 		antiaircraft_growth = 0,
 		reload_growth = 0,
@@ -1168,12 +1291,12 @@ pg.enemy_data_statistics_393 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		hit_growth = 0,
-		base = 90718,
-		durability = 250000,
+		base = 90645,
+		durability = 230000,
 		armor_growth = 0,
 		durability_growth = 0,
-		antiaircraft = 230,
-		speed = 20,
+		antiaircraft = 257,
+		speed = 30,
 		luck = 17,
 		battle_unit_type = 90,
 		antisub = 0,
@@ -1184,131 +1307,8 @@ pg.enemy_data_statistics_393 = {
 				LV = 2
 			},
 			{
-				ID = 50510,
+				ID = 50500,
 				LV = 3
-			}
-		}
-	},
-	[295128] = {
-		cannon = 248,
-		name = "亚利桑那·META(Tier.8)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 18,
-		id = 295128,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90718,
-		durability = 340000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 242,
-		speed = 20,
-		luck = 18,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[295129] = {
-		cannon = 264,
-		name = "亚利桑那·META(Tier.9)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 19,
-		id = 295129,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 75,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90718,
-		durability = 420000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 255,
-		speed = 20,
-		luck = 19,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[295130] = {
-		cannon = 280,
-		name = "亚利桑那·META(Tier.10)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 20,
-		id = 295130,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 80,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90718,
-		durability = 520000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 267,
-		speed = 20,
-		luck = 20,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 4
 			}
 		}
 	}

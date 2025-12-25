@@ -49,7 +49,7 @@ slot0.DISTANCE_TRIGGER = "Dorm3dRoomTemplateScene.DISTANCE_TRIGGER"
 slot0.WALK_DISTANCE_TRIGGER = "Dorm3dRoomTemplateScene.WALK_DISTANCE_TRIGGER"
 slot0.CHANGE_WATCH = "Dorm3dRoomTemplateScene.CHANGE_WATCH"
 slot0.PHOTO_CALL = "Dorm3dRoomTemplateScene.PHOTO_CALL"
-slot0.STOCKING_EVENT = "Dorm3dRoomTemplateScene.STOCKING_EVENT"
+slot0.SHIFT_ZONE_SAFE = "Dorm3dRoomTemplateScene.SHIFT_ZONE_SAFE"
 slot0.POV_CLOSE_DISTANCE = 1.5
 slot0.POV_PENDING_CLOSE_DISTANCE = 2
 slot0.IK_STATUS_DELTA = 0.5
@@ -173,6 +173,10 @@ slot0.init = function(slot0)
 	slot0.blackLayer = slot0._tf:Find("BlackScreen")
 
 	setActive(slot0.blackLayer, false)
+
+	slot0.holyLightRoot = slot0._tf:Find("HolyLightRoot")
+
+	slot0:InitHolyLight()
 	slot0:ChangePlayerPosition()
 
 	slot0.cacheSceneDic = {}
@@ -314,8 +318,8 @@ slot0.BindEvent = function(slot0)
 			uv1:__slot1_None__(...)
 		end
 	end)
-	slot0:bind(uv0.STOCKING_EVENT, function (slot0, slot1, ...)
-		uv0.stockingMgr[slot1](uv0.stockingMgr, ...)
+	slot0:bind(uv0.SHIFT_ZONE_SAFE, function (slot0, slot1)
+		uv0:ShiftZoneSafe(slot1)
 	end)
 end
 
@@ -808,6 +812,10 @@ slot0.HXCharacter = function(slot0, slot1)
 		return
 	end
 
+	if Dorm3dHxHelper.ReplaceCharacterParts(slot1) then
+		return
+	end
+
 	table.IpairsCArray(slot1:GetComponentsInChildren(typeof(SkinnedMeshRenderer), true), function (slot0, slot1)
 		table.IpairsCArray(slot1.sharedMaterials, function (slot0, slot1)
 			if slot1 == nil then
@@ -831,6 +839,16 @@ slot0.HXCharacter = function(slot0, slot1)
 			GraphicsInterface.Instance:UpdateCharacterMaterialLst(go(uv1))
 		end
 	end)
+end
+
+slot0.InitHolyLight = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.ladyDict) do
+		table.insert(slot1, slot6.lady)
+	end
+
+	Dorm3dHxHelper.ShowHolyLight(slot1, slot0.holyLightRoot, true)
 end
 
 slot0.InitCharacter = function(slot0, slot1, slot2)
@@ -1075,51 +1093,35 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.InitExtraSystem = function(slot0, slot1)
-	slot0.systemList = slot0.systemList or {}
-	slot1 = slot1 or DormConst.SYSTEM_LIST
+	if not slot0.systemManager then
+		slot0.systemManager = ExtraSystemManager.New(slot0.event, slot0)
+	end
+
+	slot1 = slot1 or DormConst.GetDefaultSystemClasses()
 
 	for slot5, slot6 in ipairs(slot1) do
-		switch(slot6, {
-			[DormConst.EXTRA_SYSTEMS.FurnitureSlide] = function ()
-				if not SlideExtraSystem.IsOpen(uv0.room) then
-					return
-				end
-
-				if uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide] then
-					return
-				end
-
-				uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide] = SlideExtraSystem.New(uv0.event, uv0)
-
-				uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide]:Init()
-			end,
-			[DormConst.EXTRA_SYSTEMS.StockingMgr] = function ()
-				uv0.systemList[DormConst.EXTRA_SYSTEMS.StockingMgr] = Dorm3dStockingMgr.New(uv0.event, uv0)
-
-				uv0.systemList[DormConst.EXTRA_SYSTEMS.StockingMgr]:Init()
-
-				uv0.stockingMgr = uv0.systemList[DormConst.EXTRA_SYSTEMS.StockingMgr]
-			end
-		})
+		slot0.systemManager:Register(slot6)
 	end
 end
 
 slot0.RemoveExtraSystem = function(slot0, slot1)
-	slot1 = slot1 or DormConst.SYSTEM_LIST
+	if not slot0.systemManager then
+		return
+	end
+
+	slot1 = slot1 or DormConst.GetDefaultSystemClasses()
 
 	for slot5, slot6 in ipairs(slot1) do
-		switch(slot6, {
-			[DormConst.EXTRA_SYSTEMS.FurnitureSlide] = function ()
-				if not uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide] then
-					return
-				end
-
-				uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide]:Dispose()
-
-				uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide] = nil
-			end
-		})
+		slot0.systemManager:Remove(slot6)
 	end
+end
+
+slot0.GetExtraSystem = function(slot0, slot1)
+	if not slot0.systemManager then
+		return nil
+	end
+
+	return slot0.systemManager:Get(slot1)
 end
 
 slot0.InitData = function(slot0)
@@ -1307,6 +1309,10 @@ slot0.Update = function(slot0)
 				setActive(uv0.ikTextTipsRoot, slot2)
 			end
 		end)(slot0:GetCurrentLadyEnv())
+	end
+
+	if slot0.systemManager then
+		slot0.systemManager:Update(Time.deltaTime)
 	end
 end
 
@@ -1524,6 +1530,23 @@ end
 
 slot0.GetModelRoot = function(slot0)
 	return slot0.modelRoot
+end
+
+slot0.ShiftZoneSafe = function(slot0, slot1)
+	slot2 = {}
+
+	if slot0.room:isPersonalRoom() and not slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inPending") then
+		table.insert(slot2, function (slot0)
+			uv0:OutOfLazy(uv0.apartment:GetConfigID(), slot0)
+		end)
+	end
+
+	table.insert(slot2, function (slot0)
+		uv0:ShiftZone(uv1, slot0)
+	end)
+	seriesAsync(slot2, function ()
+		uv0:CheckQueue()
+	end)
 end
 
 slot0.ShiftZone = function(slot0, slot1, slot2)
@@ -2811,13 +2834,19 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 	end
 
 	table.insert(slot3, function (slot0)
-		slot1 = GameObject.Find("[actor]").transform
+		slot1 = Dorm3dHxHelper.GetTimelineMainCharacter()
 
-		table.IpairsCArray(slot1:GetComponentsInChildren(typeof(Animator), true), function (slot0, slot1)
+		Dorm3dHxHelper.ShowHolyLight({
+			slot1
+		}, uv0.holyLightRoot)
+
+		slot2 = GameObject.Find("[actor]").transform
+
+		table.IpairsCArray(slot2:GetComponentsInChildren(typeof(Animator), true), function (slot0, slot1)
 			GetOrAddComponent(slot1.transform, typeof(DftAniEvent))
 		end)
 
-		slot3 = slot1:GetComponentInChildren(typeof("BLHXCharacterPropertiesController")).transform
+		slot1 = slot1 or slot2:GetComponentInChildren(typeof("BLHXCharacterPropertiesController")).transform
 		slot4 = nil
 
 		eachChild(GameObject.Find("[camera]").transform, function (slot0)
@@ -2952,6 +2981,10 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 
 		slot0:RevertCharacter()
 		setActive(uv0.mainCameraTF, true)
+
+		slot0 = uv0
+
+		slot0:InitHolyLight()
 
 		uv0.timelineMark = nil
 
@@ -3341,7 +3374,7 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3, slot4)
 		isCache = slot2,
 		waitForTimeline = slot3,
 		loadSceneFunc = function (slot0, slot1)
-			uv0:HXCharacter(tf(GameObject.Find("[actor]").transform))
+			uv0:HXCharacter(Dorm3dHxHelper.GetTimelineMainCharacter())
 		end
 	}, slot4)
 end
@@ -3477,6 +3510,13 @@ end
 
 slot0.willExit = function(slot0)
 	slot0:RemoveExtraSystem()
+
+	if slot0.systemManager then
+		slot0.systemManager:Dispose()
+
+		slot0.systemManager = nil
+	end
+
 	slot0.joystickTimer:Stop()
 	slot0.moveStickTimer:Stop()
 	UpdateBeat:RemoveListener(slot0.updateHandler)

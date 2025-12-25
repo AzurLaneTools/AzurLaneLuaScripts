@@ -95,6 +95,13 @@ slot0.init = function(slot0)
 	slot0:initUI()
 	slot0:initScene()
 	slot0:BindEvent()
+
+	slot1 = Dorm3dHxHelper.GetTimelineMainCharacter()
+
+	Dorm3dHxHelper.ReplaceCharacterParts(slot1)
+	Dorm3dHxHelper.ShowHolyLight({
+		slot1
+	}, slot0.holyLightRoot)
 end
 
 slot0.initUI = function(slot0)
@@ -164,6 +171,7 @@ slot0.initUI = function(slot0)
 
 	slot0.debugTimelineName = slot1:Find("Timeline"):GetComponent(typeof(Text))
 	slot0.debugTrackName = slot1:Find("Track"):GetComponent(typeof(Text))
+	slot0.holyLightRoot = slot0._tf:Find("HolyLightRoot")
 end
 
 slot0.BindEvent = function(slot0)

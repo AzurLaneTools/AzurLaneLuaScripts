@@ -20,11 +20,7 @@ slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.videoPlayer = VoiceChatLoader.New(slot0._tf)
-	slot0.stockingView = Dorm3dStockingView.New(slot0._tf, slot0.event, setmetatable({
-		GetTipShowInfo = function ()
-			return uv0.stockingMgr:GetTipShowInfo()
-		end
-	}, {
+	slot0.stockingView = Dorm3dStockingView.New(slot0._tf, slot0.event, setmetatable({}, {
 		__index = slot0.contextData
 	}))
 
@@ -125,7 +121,7 @@ slot0.init = function(slot0)
 		end
 
 		uv0:RemoveExtraSystem({
-			DormConst.EXTRA_SYSTEMS.FurnitureSlide
+			SlideExtraSystem
 		})
 		uv0:emit(Dorm3dRoomMediator.OPEN_FURNITURE_SELECT, {
 			apartment = uv0.apartment
@@ -217,21 +213,7 @@ slot0.init = function(slot0)
 			end
 
 			setActive(uv0.rtZoneList, false)
-
-			slot0 = {}
-
-			if uv0.room:isPersonalRoom() and not uv0:GetBlackboardValue(uv0:GetCurrentLadyEnv(), "inPending") then
-				table.insert(slot0, function (slot0)
-					uv0:OutOfLazy(uv0.apartment:GetConfigID(), slot0)
-				end)
-			end
-
-			table.insert(slot0, function (slot0)
-				uv0:ShiftZone(uv1, slot0)
-			end)
-			seriesAsync(slot0, function ()
-				uv0:CheckQueue()
-			end)
+			uv0:ShiftZoneSafe(uv1)
 		end, SFX_PANEL)
 	end)
 
@@ -1181,7 +1163,7 @@ slot0.ExitTouchMode = function(slot0)
 			character_action = uv1.touchConfig.finish_action
 		}
 
-		uv1:emit(uv2.STOCKING_EVENT, "OnExitTouchMode")
+		uv1:emit(Dorm3dStockingMgr.ON_EXIT_TOUCH_MODE)
 		uv1:SetIKState(false, slot0)
 	end)
 	table.insert(slot2, function (slot0)
@@ -1495,7 +1477,7 @@ slot0.TouchModeAction = function(slot0, slot1, slot2, slot3, ...)
 		end,
 		function (slot0)
 			return function (slot0)
-				uv0.stockingMgr:SetStockingStatus(uv1)
+				uv0:emit(Dorm3dStockingMgr.SET_STOCKING_STATUS, uv1)
 			end
 		end
 	}, function ()
@@ -2335,9 +2317,9 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 					slot1 = uv0:GetCurrentLadyEnv()
 
 					if uv1.name == "set" then
-						uv0.stockingMgr:SetStockingStatus(uv1.params)
+						uv0:emit(Dorm3dStockingMgr.SET_STOCKING_STATUS, uv1.params)
 					elseif uv1.name == "exit" then
-						uv0.stockingMgr:ExitStocking()
+						uv0:emit(Dorm3dStockingMgr.EXIT_STOCKING_STATUS)
 					end
 				end
 			end

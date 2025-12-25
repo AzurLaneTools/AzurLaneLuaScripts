@@ -340,7 +340,7 @@ pg.dorm3d_ins_unlock = {
 		type = 1,
 		id = 30707107,
 		content = 30707107,
-		trigger_type = 152
+		trigger_type = 151
 	},
 	[30707108] = {
 		text = "累计对话15次 ",
@@ -405,6 +405,132 @@ pg.dorm3d_ins_unlock = {
 		content = 30707302,
 		trigger_type = 101
 	},
+	[49905101] = {
+		text = "埃吉尔进入宿舍1天",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 1,
+		id = 49905101,
+		content = 49905101,
+		trigger_type = 152
+	},
+	[49905102] = {
+		text = "埃吉尔解锁宿舍2天",
+		trigger_num = 2,
+		trigger_id = 0,
+		type = 1,
+		id = 49905102,
+		content = 49905102,
+		trigger_type = 151
+	},
+	[49905103] = {
+		text = "埃吉尔解锁宿舍4天",
+		trigger_num = 4,
+		trigger_id = 0,
+		type = 1,
+		id = 49905103,
+		content = 49905103,
+		trigger_type = 151
+	},
+	[49905104] = {
+		text = "收集物品解锁20个",
+		trigger_num = 20,
+		trigger_id = 0,
+		type = 1,
+		id = 49905104,
+		content = 49905104,
+		trigger_type = 153
+	},
+	[49905105] = {
+		text = "累计互动3次",
+		trigger_num = 3,
+		trigger_id = 0,
+		type = 1,
+		id = 49905105,
+		content = 49905105,
+		trigger_type = 156
+	},
+	[49905106] = {
+		text = "埃吉尔累计赠礼5次",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 1,
+		id = 49905106,
+		content = 49905106,
+		trigger_type = 157
+	},
+	[49905107] = {
+		text = "埃吉尔解锁宿舍7天",
+		trigger_num = 7,
+		trigger_id = 0,
+		type = 1,
+		id = 49905107,
+		content = 49905107,
+		trigger_type = 151
+	},
+	[49905108] = {
+		text = "累计对话15次 ",
+		trigger_num = 15,
+		trigger_id = 0,
+		type = 1,
+		id = 49905108,
+		content = 49905108,
+		trigger_type = 155
+	},
+	[49905109] = {
+		text = "累计互动5次 ",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 1,
+		id = 49905109,
+		content = 49905109,
+		trigger_type = 156
+	},
+	[49905110] = {
+		text = "累计赠礼10次 ",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 1,
+		id = 49905110,
+		content = 49905110,
+		trigger_type = 157
+	},
+	[49905201] = {
+		text = "埃吉尔契合度5级",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 3,
+		id = 49905201,
+		content = 49905201,
+		trigger_type = 101
+	},
+	[49905202] = {
+		text = "埃吉尔契合度10级",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 3,
+		id = 49905202,
+		content = 49905202,
+		trigger_type = 101
+	},
+	[49905301] = {
+		text = "埃吉尔进入宿舍1天",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 2,
+		id = 49905301,
+		content = 49905301,
+		trigger_type = 152
+	},
+	[49905302] = {
+		text = "埃吉尔契合度12级",
+		trigger_num = 12,
+		trigger_id = 0,
+		type = 2,
+		id = 49905302,
+		content = 49905302,
+		trigger_type = 101
+	},
 	get_id_list_by_type = {
 		{
 			1,
@@ -438,13 +564,25 @@ pg.dorm3d_ins_unlock = {
 			30707107,
 			30707108,
 			30707109,
-			30707110
+			30707110,
+			49905101,
+			49905102,
+			49905103,
+			49905104,
+			49905105,
+			49905106,
+			49905107,
+			49905108,
+			49905109,
+			49905110
 		},
 		{
 			10517301,
 			10517302,
 			30707301,
-			30707302
+			30707302,
+			49905301,
+			49905302
 		},
 		[3] = {
 			19,
@@ -455,7 +593,9 @@ pg.dorm3d_ins_unlock = {
 			10517202,
 			10517203,
 			30707201,
-			30707202
+			30707202,
+			49905201,
+			49905202
 		}
 	},
 	all = {
@@ -503,6 +643,20 @@ pg.dorm3d_ins_unlock = {
 		30707201,
 		30707202,
 		30707301,
-		30707302
+		30707302,
+		49905101,
+		49905102,
+		49905103,
+		49905104,
+		49905105,
+		49905106,
+		49905107,
+		49905108,
+		49905109,
+		49905110,
+		49905201,
+		49905202,
+		49905301,
+		49905302
 	}
 }

@@ -771,7 +771,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1003,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>金色的落樱，诉说着高洁与凛然。</color>\n通过提升「宿舍计划」中能代的契合度等级获取",
+		desc = "<color=#ffffff>金色的落樱，诉说着高洁与凛然。</color>\n通过提升「宿舍计划」中{namecode:50}的契合度等级获取",
 		scene = {}
 	},
 	[1004] = {
@@ -780,7 +780,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1004,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>浪漫的纸伞下，是谁的思绪悄悄飞远？</color>\n通过提升「宿舍计划」中能代的契合度等级获取",
+		desc = "<color=#ffffff>浪漫的纸伞下，是谁的思绪悄悄飞远？</color>\n通过提升「宿舍计划」中{namecode:50}的契合度等级获取",
 		scene = {}
 	},
 	[1005] = {
@@ -807,7 +807,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1007,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>纯洁的星雪之下，两只兔兔相互依偎，守护着彼此的温暖。</color>\n通过提升「宿舍计划」中新泽西的契合度等级获取",
+		desc = "<color=#ffffff>纯洁的星雪之下，两只兔兔相互依偎，守护着彼此的温暖。</color>\n通过提升「宿舍计划」中{namecode:199}的契合度等级获取",
 		scene = {}
 	},
 	[1008] = {
@@ -816,7 +816,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1008,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>电子炫光闪烁耀眼，是哪只兔兔在跟随光芒跃动呢？</color>\n通过提升「宿舍计划」中新泽西的契合度等级获取",
+		desc = "<color=#ffffff>电子炫光闪烁耀眼，是哪只兔兔在跟随光芒跃动呢？</color>\n通过提升「宿舍计划」中{namecode:199}的契合度等级获取",
 		scene = {}
 	},
 	[1009] = {
@@ -825,7 +825,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1009,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>樱花树上，花瓣随风舞动，诉说着春日的生机与美好。</color>\n通过提升「宿舍计划」中大凤的契合度等级获取",
+		desc = "<color=#ffffff>樱花树上，花瓣随风舞动，诉说着春日的生机与美好。</color>\n通过提升「宿舍计划」中{namecode:97}的契合度等级获取",
 		scene = {}
 	},
 	[1010] = {
@@ -834,7 +834,25 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1010,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>金色凤翼展翅，翎羽如光辉般闪烁，神秘而优雅。</color>\n通过提升「宿舍计划」中大凤的契合度等级获取",
+		desc = "<color=#ffffff>金色凤翼展翅，翎羽如光辉般闪烁，神秘而优雅。</color>\n通过提升「宿舍计划」中{namecode:97}的契合度等级获取",
+		scene = {}
+	},
+	[1011] = {
+		name = "深渊之锁 ",
+		gain_by = "",
+		time_second = 0,
+		id = 1011,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>炽龙自深渊而来，漆黑的锁链上缠绕着不灭的怒雷。</color>\n通过提升「宿舍计划」中{namecode:480}的契合度等级获取",
+		scene = {}
+	},
+	[1012] = {
+		name = "碧海金冠 ",
+		gain_by = "",
+		time_second = 0,
+		id = 1012,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>铁色的旗帜在浪潮间翻涌，一顶金冠于此加冕，象征着海洋的无上权柄。</color>\n通过提升「宿舍计划」中{namecode:480}的契合度等级获取",
 		scene = {}
 	},
 	[10001] = {
@@ -1039,6 +1057,8 @@ pg.item_data_frame = {
 		1008,
 		1009,
 		1010,
+		1011,
+		1012,
 		10001,
 		10002,
 		10003,

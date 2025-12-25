@@ -17,6 +17,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.buffView = slot0:GetBuffView()
 	slot0.wordView = slot0:GetWordView()
 	slot0.changeView = slot0:GetChangeSkinView()
+	slot0.asmrChatView = slot0:GetAsmrChatView()
 
 	pg.redDotHelper:Init(slot0:GetRedDots())
 end
@@ -47,6 +48,7 @@ slot0.init = function(slot0, slot1)
 	slot0.buffView:Init()
 	slot0.tagView:Init()
 	slot0.changeView:Init(slot1)
+	slot0.asmrChatView:Init(slot1)
 	slot0:OverlayPanel(slot0._tf, {
 		stopTop = true,
 		pbList = slot0:GetPbList()
@@ -66,6 +68,7 @@ slot0._FoldPanels = function(slot0, slot1, slot2)
 	slot0.wordView:Fold(slot1, slot2)
 	slot0.tagView:Fold(slot1, slot2)
 	slot0.changeView:Fold(slot1, slot2)
+	slot0.asmrChatView:Fold(slot1, slot2)
 end
 
 slot0.OnFoldPanels = function(slot0, slot1)
@@ -80,6 +83,24 @@ slot0.OnFoldPanels = function(slot0, slot1)
 	end
 
 	slot0:_FoldPanels(slot1, 0.5)
+end
+
+slot0.OnAsmrTurnning = function(slot0, slot1)
+	slot0._asmrTurnning = slot1
+
+	for slot5, slot6 in ipairs(slot0.panels) do
+		slot6:SetAlpha(slot1 and 0 or 1)
+		slot6:SetInteractable(not slot1 and true or false)
+		slot6:SetBlocksRaycasts(not slot1 and true or false)
+	end
+
+	slot0.changeView:IgnoreParentGroups(slot1)
+	slot0.asmrChatView:SetVisible(slot1)
+	slot0.wordView:StopAnimation()
+end
+
+slot0.SetAsmrChatText = function(slot0, slot1, slot2)
+	slot0.asmrChatView:ShowChat(slot1, slot2)
 end
 
 slot0.OnSwitchToNextShip = function(slot0, slot1)
@@ -119,9 +140,6 @@ slot0.Disable = function(slot0)
 	slot0.wordView:Disable()
 	slot0.changeView:Disable()
 	setActiveViaLayer(slot0._tf, false)
-end
-
-slot0.SetEffectPanelVisible = function(slot0, slot1)
 end
 
 slot0.OnDestroy = function(slot0)
@@ -258,6 +276,10 @@ slot0.GetBuffView = function(slot0)
 end
 
 slot0.GetChangeSkinView = function(slot0)
+	assert(false)
+end
+
+slot0.GetAsmrChatView = function(slot0)
 	assert(false)
 end
 

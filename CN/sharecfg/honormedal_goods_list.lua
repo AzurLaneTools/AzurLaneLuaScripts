@@ -941,6 +941,23 @@ pg.honormedal_goods_list = {
 			59010
 		}
 	},
+	[53] = {
+		goods_rarity = 2,
+		goods_purchase_limit = 20,
+		price = 15,
+		type = 2,
+		group = 10038,
+		num = 1,
+		goods_name = "北联装备研发支援箱",
+		goods_type = 1,
+		id = 53,
+		is_ship = 0,
+		goods_icon = "Props/30208",
+		order = 34,
+		goods = {
+			30208
+		}
+	},
 	all = {
 		1,
 		2,
@@ -991,6 +1008,7 @@ pg.honormedal_goods_list = {
 		49,
 		50,
 		51,
-		52
+		52,
+		53
 	}
 }

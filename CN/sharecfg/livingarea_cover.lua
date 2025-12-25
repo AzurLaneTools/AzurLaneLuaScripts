@@ -1,5 +1,30 @@
 pg = pg or {}
-pg.livingarea_cover = {
+pg.livingarea_cover = setmetatable({
+	__name = "livingarea_cover",
+	all = {
+		0,
+		100101,
+		100102,
+		100103,
+		100201,
+		100202,
+		100203,
+		100301,
+		100302,
+		100303,
+		101101,
+		101102,
+		101103,
+		101201,
+		101202,
+		101203,
+		101401,
+		101402,
+		101403
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.livingarea_cover = {
 	[0] = {
 		get_tips = "",
 		name = "默认",
@@ -55,7 +80,7 @@ pg.livingarea_cover = {
 		daytime_res = "100201_bg_day",
 		rarity = 3,
 		desc = "获得后可以在生活区封面功能中解锁窗边等待封面",
-		unlock_text = "能代宿舍契合度2级解锁",
+		unlock_text = "{namecode:50}宿舍契合度2级解锁",
 		id = 100201,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100201_icon"
@@ -67,7 +92,7 @@ pg.livingarea_cover = {
 		daytime_res = "100202_bg_day",
 		rarity = 3,
 		desc = "获得后可以在生活区封面功能中解锁下午茶邀请封面",
-		unlock_text = "能代宿舍契合度7级解锁",
+		unlock_text = "{namecode:50}宿舍契合度7级解锁",
 		id = 100202,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100202_icon"
@@ -79,7 +104,7 @@ pg.livingarea_cover = {
 		daytime_res = "100203_bg_day",
 		rarity = 3,
 		desc = "获得后可以在生活区封面功能中解锁休憩时间封面",
-		unlock_text = "能代宿舍契合度10级解锁",
+		unlock_text = "{namecode:50}宿舍契合度10级解锁",
 		id = 100203,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100203_icon"
@@ -127,7 +152,7 @@ pg.livingarea_cover = {
 		daytime_res = "101101_bg_day",
 		rarity = 3,
 		desc = "获得后可以在生活区封面功能中解锁闲憩怡然封面",
-		unlock_text = "新泽西宿舍契合度2级解锁",
+		unlock_text = "{namecode:199}宿舍契合度2级解锁",
 		id = 101101,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101101_icon"
@@ -139,7 +164,7 @@ pg.livingarea_cover = {
 		daytime_res = "101102_bg_day",
 		rarity = 3,
 		desc = "获得后可以在生活区封面功能中解锁暖阳欢颜封面",
-		unlock_text = "新泽西宿舍契合度7级解锁",
+		unlock_text = "{namecode:199}宿舍契合度7级解锁",
 		id = 101102,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101102_icon"
@@ -151,7 +176,7 @@ pg.livingarea_cover = {
 		daytime_res = "101103_bg_day",
 		rarity = 3,
 		desc = "获得后可以在生活区封面功能中解锁甜蜜絮语封面",
-		unlock_text = "新泽西宿舍契合度10级解锁",
+		unlock_text = "{namecode:199}宿舍契合度10级解锁",
 		id = 101103,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101103_icon"
@@ -163,7 +188,7 @@ pg.livingarea_cover = {
 		daytime_res = "101201_bg_day",
 		rarity = 3,
 		desc = "获得后可以在生活区封面功能中解锁独享邀请封面",
-		unlock_text = "大凤宿舍契合度2级解锁",
+		unlock_text = "{namecode:97}宿舍契合度2级解锁",
 		id = 101201,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101201_icon"
@@ -175,7 +200,7 @@ pg.livingarea_cover = {
 		daytime_res = "101202_bg_day",
 		rarity = 3,
 		desc = "获得后可以在生活区封面功能中解锁相依的思绪封面",
-		unlock_text = "大凤宿舍契合度7级解锁",
+		unlock_text = "{namecode:97}宿舍契合度7级解锁",
 		id = 101202,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101202_icon"
@@ -187,27 +212,45 @@ pg.livingarea_cover = {
 		daytime_res = "101203_bg_day",
 		rarity = 3,
 		desc = "获得后可以在生活区封面功能中解锁情动指尖封面",
-		unlock_text = "大凤宿舍契合度10级解锁",
+		unlock_text = "{namecode:97}宿舍契合度10级解锁",
 		id = 101203,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101203_icon"
 	},
-	all = {
-		0,
-		100101,
-		100102,
-		100103,
-		100201,
-		100202,
-		100203,
-		100301,
-		100302,
-		100303,
-		101101,
-		101102,
-		101103,
-		101201,
-		101202,
-		101203
+	[101401] = {
+		get_tips = "获得了新的契合度封面",
+		name = "案前密语",
+		nighttime_res = "101401_bg_night",
+		daytime_res = "101401_bg_day",
+		rarity = 3,
+		desc = "获得后可以在生活区封面功能中解锁案前密语封面",
+		unlock_text = "{namecode:480}宿舍契合度2级解锁",
+		id = 101401,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101401_icon"
+	},
+	[101402] = {
+		get_tips = "获得了新的契合度封面",
+		name = "慵懒共憩",
+		nighttime_res = "101402_bg_night",
+		daytime_res = "101402_bg_day",
+		rarity = 3,
+		desc = "获得后可以在生活区封面功能中解锁慵懒共憩封面",
+		unlock_text = "{namecode:480}宿舍契合度7级解锁",
+		id = 101402,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101402_icon"
+	},
+	[101403] = {
+		get_tips = "获得了新的契合度封面",
+		name = "枕畔邀约",
+		nighttime_res = "101403_bg_night",
+		daytime_res = "101403_bg_day",
+		rarity = 3,
+		desc = "获得后可以在生活区封面功能中解锁枕畔邀约封面",
+		unlock_text = "{namecode:480}宿舍契合度10级解锁",
+		id = 101403,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101403_icon"
 	}
 }

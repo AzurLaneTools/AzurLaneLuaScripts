@@ -220,6 +220,50 @@ pg.dorm3d_accompany = {
 			30707
 		}
 	},
+	[141] = {
+		sceneInfo = "map_aijier_01|Aijier_DB/Aijierhostel",
+		name = "日常相伴",
+		performance_time = 20,
+		image = "aijier_accompany_room",
+		ship_id = 49905,
+		resource_room = 14,
+		timeline = "Xiangban_personal_49905",
+		id = 141,
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {}
+	},
+	[142] = {
+		sceneInfo = "map_publiccafe_01|Publiccafe",
+		name = "休闲相伴",
+		performance_time = 20,
+		image = "cafe_accompany",
+		ship_id = 49905,
+		resource_room = 16,
+		timeline = "Xiangban_cafe_49905",
+		id = 142,
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {
+			5,
+			16,
+			49905
+		}
+	},
 	get_id_list_by_ship_id = {
 		[20220] = {
 			1,
@@ -240,6 +284,10 @@ pg.dorm3d_accompany = {
 		[30707] = {
 			121,
 			122
+		},
+		[49905] = {
+			141,
+			142
 		}
 	},
 	all = {
@@ -252,6 +300,8 @@ pg.dorm3d_accompany = {
 		111,
 		112,
 		121,
-		122
+		122,
+		141,
+		142
 	}
 }

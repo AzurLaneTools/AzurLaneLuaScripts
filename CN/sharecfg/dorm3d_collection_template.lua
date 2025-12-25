@@ -176,6 +176,33 @@ pg.dorm3d_collection_template = setmetatable({
 			1607,
 			1608,
 			1609
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1404,
+			1405,
+			1406,
+			1407,
+			1408,
+			1409,
+			1410,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1416,
+			1417,
+			1418,
+			1419,
+			1420,
+			1421,
+			1422,
+			1423,
+			1424,
+			1425
 		}
 	},
 	all = {
@@ -339,7 +366,32 @@ pg.dorm3d_collection_template = setmetatable({
 		1606,
 		1607,
 		1608,
-		1609
+		1609,
+		1401,
+		1402,
+		1403,
+		1404,
+		1405,
+		1406,
+		1407,
+		1408,
+		1409,
+		1410,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1416,
+		1417,
+		1418,
+		1419,
+		1420,
+		1421,
+		1422,
+		1423,
+		1424,
+		1425
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3691,6 +3743,531 @@ pg.base.dorm3d_collection_template = {
 		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
+		}
+	},
+	[1401] = {
+		name = "复古留声机",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一台精巧的复古留声机，音质清晰，适合播放经典唱片。",
+		text = "dorm3d_aijier_chair",
+		id = 1401,
+		icon = "3Ddrom_aijier_item1",
+		model = {
+			"fbx/litmap_01/pre_db_decoration25"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration25/vfx_wupintishi01"
+		}
+	},
+	[1402] = {
+		name = "古典烛台",
+		award = 0,
+		time = 2,
+		room_id = 14,
+		desc = "一盏精心设计的三头式烛台，黄铜色底座上插着三根长杆蜡烛，散发出温暖柔和的光线。",
+		text = "dorm3d_aijier_chair",
+		id = 1402,
+		icon = "3Ddrom_aijier_item2",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration26_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration26_on/vfx_wupintishi01"
+		}
+	},
+	[1403] = {
+		name = "唱片集",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "精选唱片集，封面设计精美，音乐内容丰富多样，适合在留声机上播放。",
+		text = "dorm3d_aijier_table",
+		id = 1403,
+		icon = "3Ddrom_aijier_item3",
+		model = {
+			"fbx/litmap_05/pre_db_decoration28"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_decoration28/vfx_wupintishi01"
+		}
+	},
+	[1404] = {
+		name = "双铃闹钟",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "别致的双铃闹钟，声音清脆穿透性强，方便惊醒沉睡之人。",
+		text = "dorm3d_aijier_table",
+		id = 1404,
+		icon = "3Ddrom_aijier_item4",
+		model = {
+			"fbx/litmap_05/pre_db_clock04"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_clock04/vfx_wupintishi01"
+		}
+	},
+	[1405] = {
+		name = "铜质酒杯",
+		award = 0,
+		time = 2,
+		room_id = 14,
+		desc = "一只典雅的铜质酒杯，杯身线条优美，她常用来品饮红酒或烈酒。",
+		text = "dorm3d_aijier_chair",
+		id = 1405,
+		icon = "3Ddrom_aijier_item5",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration23"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration23/vfx_wupintishi01"
+		}
+	},
+	[1406] = {
+		name = "陶瓷茶杯",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一只简约的陶瓷茶杯，杯身印有精致的花纹，搭配茶托使用，让品茶成为一种享受。",
+		text = "dorm3d_aijier_chair",
+		id = 1406,
+		icon = "3Ddrom_aijier_item6",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a/vfx_wupintishi01"
+		}
+	},
+	[1407] = {
+		name = "画作集 ",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "装裱精美的画作集，收录了多幅经典艺术作品，给屋内增添了一份艺术气息。",
+		text = "dorm3d_aijier_chair",
+		id = 1407,
+		icon = "3Ddrom_aijier_item7",
+		model = {
+			"fbx/litmap_01/pre_db_billboard_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard_group/vfx_wupintishi01"
+		}
+	},
+	[1408] = {
+		name = "木质衣柜 ",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一个宽敞的木质衣柜，表面雕刻着花纹，内部空间充足，收纳着她的各类衣物。",
+		text = "dorm3d_aijier_bed",
+		id = 1408,
+		icon = "3Ddrom_aijier_item8",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard38"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard38/vfx_wupintishi01"
+		}
+	},
+	[1409] = {
+		name = "梳妆镜 ",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "装饰雕花纹样的梳妆镜，镜面光滑明亮，让她每天的梳妆打扮更加方便优雅。",
+		text = "dorm3d_aijier_bed",
+		id = 1409,
+		icon = "3Ddrom_aijier_item9",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05/vfx_wupintishi01"
+		}
+	},
+	[1410] = {
+		name = "装饰挂画A",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一幅精美的装饰画，通过油画技法呈现的风景真实自然，能感受到作画者的技艺高超。",
+		text = "dorm3d_aijier_chair",
+		id = 1410,
+		icon = "3Ddrom_aijier_item10",
+		model = {
+			"fbx/litmap_01/pre_db_billboard32"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard32/vfx_wupintishi01"
+		}
+	},
+	[1411] = {
+		name = "装饰挂画B",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一幅精美的装饰画，通过油画技法呈现的风景真实自然，能感受到作画者的技艺高超。",
+		text = "dorm3d_aijier_chair",
+		id = 1411,
+		icon = "3Ddrom_aijier_item11",
+		model = {
+			"fbx/litmap_01/pre_db_billboard31"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard31/vfx_wupintishi01"
+		}
+	},
+	[1412] = {
+		name = "首饰盒",
+		award = 0,
+		time = 1,
+		room_id = 14,
+		desc = "一个精致的首饰盒，内部分层设计，收纳着她的各类珠宝首饰。 ",
+		text = "dorm3d_aijier_bed",
+		id = 1412,
+		icon = "3Ddrom_aijier_item12",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02/vfx_wupintishi01"
+		}
+	},
+	[1413] = {
+		name = "手提箱",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "实用手提箱，材质柔软耐用，内部空间宽敞，她常用于日常出行或短途旅行。",
+		text = "dorm3d_aijier_table",
+		id = 1413,
+		icon = "3Ddrom_aijier_item13",
+		model = {
+			"fbx/litmap_03/pre_db_bag08"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bag08/vfx_wupintishi01"
+		}
+	},
+	[1414] = {
+		name = "小立柜",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一个小型的立式柜，内部设有抽屉和隔层，里面存放着书籍、文件等物品。",
+		text = "dorm3d_aijier_table",
+		id = 1414,
+		icon = "3Ddrom_aijier_item14",
+		model = {
+			"fbx/litmap_05/pre_db_cupboard39"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_cupboard39/vfx_wupintishi01"
+		}
+	},
+	[1415] = {
+		name = "壁炉",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "大理石材质的黑色壁炉，摸起来光滑凉爽，她已备好柴火可以随时点燃。",
+		text = "dorm3d_aijier_chair",
+		id = 1415,
+		icon = "3Ddrom_aijier_item15",
+		model = {
+			"fbx/litmap_01/pre_db_fireplace02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fireplace02/vfx_wupintishi01"
+		}
+	},
+	[1416] = {
+		name = "落地灯",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "高挑的落地灯，灯罩采用透光材质，从内向外散发出柔和的光晕。",
+		text = "dorm3d_aijier_chair",
+		id = 1416,
+		icon = "3Ddrom_aijier_item16",
+		model = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2/vfx_wupintishi01"
+		}
+	},
+	[1417] = {
+		name = "新鲜花卉",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一束精心装饰的新鲜花卉，里面插满了红白玫瑰，散发着清新的花香。",
+		text = "dorm3d_aijier_bed",
+		id = 1417,
+		icon = "3Ddrom_aijier_item17",
+		model = {
+			"fbx/litmap_01/pre_db_flowers17"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers17/vfx_wupintishi01"
+		}
+	},
+	[1418] = {
+		name = "装饰花卉",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "色彩暗沉的装饰花卉，很奇特的品类，似乎是用于特殊物件的装饰。",
+		text = "dorm3d_aijier_chair",
+		id = 1418,
+		icon = "3Ddrom_aijier_item18",
+		model = {
+			"fbx/litmap_01/pre_db_flowers18"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers18/vfx_wupintishi01"
+		}
+	},
+	[1419] = {
+		name = "香薰蜡烛",
+		award = 0,
+		time = 2,
+		room_id = 14,
+		desc = "同时具有照明和装饰功能的蜡烛，烛光温暖柔和，香薰香气清新。",
+		text = "dorm3d_aijier_bed",
+		id = 1419,
+		icon = "3Ddrom_aijier_item19",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration24_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration24_on/vfx_wupintishi01"
+		}
+	},
+	[1420] = {
+		name = "方柜",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一个双层的木质方柜，表面雕刻花纹，内部空间充足，里面放着她的各类杂物。",
+		text = "dorm3d_aijier_bed",
+		id = 1420,
+		icon = "3Ddrom_aijier_item20",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard37"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard37/vfx_wupintishi01"
+		}
+	},
+	[1421] = {
+		name = "壁灯",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一盏造型简约的壁灯，常用于房间的照明，给空间增添了一份暖色。",
+		text = "dorm3d_aijier_table",
+		id = 1421,
+		icon = "3Ddrom_aijier_item21",
+		model = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7/vfx_wupintishi01"
+		}
+	},
+	[1422] = {
+		name = "化妆品套装",
+		award = 0,
+		time = 1,
+		room_id = 14,
+		desc = "一套精致的化妆品，包装优雅，品质上乘，是她的日常首选。",
+		text = "dorm3d_aijier_bed",
+		id = 1422,
+		icon = "3Ddrom_aijier_item22",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19/vfx_wupintishi01"
+		}
+	},
+	[1423] = {
+		name = "休闲读物？",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一本装帧精美的书籍，她会在闲暇时阅读，听说是某种休闲读物？",
+		text = "dorm3d_aijier_bed",
+		id = 1423,
+		icon = "3Ddrom_aijier_item23",
+		model = {
+			"fbx/litmap_01/book_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/book_group/vfx_wupintishi01"
+		}
+	},
+	[1424] = {
+		name = "油画",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "精美的油画，出自一位大师之手，是她比较喜欢的画作。",
+		text = "dorm3d_aijier_table",
+		id = 1424,
+		icon = "3Ddrom_aijier_item24",
+		model = {
+			"fbx/litmap_05/pre_db_billboard29a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_billboard29a/vfx_wupintishi01"
+		}
+	},
+	[1425] = {
+		name = "金色奖杯",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "达成了某种成就所获的金色奖杯，随意摆放着，她貌似不是很重视。",
+		text = "dorm3d_aijier_chair",
+		id = 1425,
+		icon = "3Ddrom_aijier_item25",
+		model = {
+			"fbx/litmap_01/pre_db_decoration21"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration21/vfx_wupintishi01"
 		}
 	}
 }

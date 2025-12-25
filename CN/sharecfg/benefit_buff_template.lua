@@ -89,6 +89,13 @@ pg.benefit_buff_template = setmetatable({
 		86,
 		87,
 		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
 		101,
 		102,
 		103,
@@ -126,6 +133,9 @@ pg.benefit_buff_template = setmetatable({
 		140,
 		141,
 		142,
+		143,
+		144,
+		145,
 		300001,
 		300002,
 		300003,
@@ -1688,6 +1698,125 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
+	[89] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "{namecode:435}的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:435}的心愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		benefit_effect = "520",
+		id = 89,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[90] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "南达科他的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "南达科他的心愿——主线、困难、活动、作战档案关卡中，角色经验获取提高3%\n剩余时间:$1",
+		benefit_effect = "3",
+		id = 90,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[91] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "古比雪夫的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "古比雪夫的心愿——后宅经验加成提高3%\n剩余时间:$1",
+		benefit_effect = "3",
+		id = 91,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[92] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "帝国的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "帝国的心愿——后宅经验加成提高3%\n剩余时间:$1",
+		benefit_effect = "3",
+		id = 92,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[93] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "贝尔法斯特的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "贝尔法斯特的心愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		benefit_effect = "520",
+		id = 93,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[94] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "黎塞留的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "黎塞留的心愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		benefit_effect = "520",
+		id = 94,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[95] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "{namecode:437}的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:437}的心愿——主线、困难、活动、作战档案关卡中，角色经验获取提高3%\n剩余时间:$1",
+		benefit_effect = "3",
+		id = 95,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
 	[101] = {
 		icon = "Props/newserver_xinshou",
 		name = "经验加成",
@@ -2396,6 +2525,45 @@ pg.base.benefit_buff_template = {
 		id = 142,
 		type_priority = 0,
 		benefit_type = "ship_battle_intimacy"
+	},
+	[143] = {
+		icon = "Props/buff_xinyuan_1",
+		name = "学业",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "战术学院技能学习时间略微减少\n剩余时间:$1",
+		benefit_effect = "300",
+		id = 143,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up"
+	},
+	[144] = {
+		icon = "Props/buff_xinyuan_2",
+		name = "事业",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "主线、困难、作战档案关卡中，我方战斗内造成的伤害略微提高\n剩余时间:$1",
+		benefit_effect = "522",
+		id = 144,
+		type_priority = 0,
+		benefit_type = "battle_buff"
+	},
+	[145] = {
+		icon = "Props/buff_xinyuan_3",
+		name = "缘分",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "秘书舰好感度提高速度加快\n剩余时间:$1",
+		benefit_effect = "1",
+		id = 145,
+		type_priority = 0,
+		benefit_type = "intimacy_up_extra"
 	},
 	[300001] = {
 		icon = "Props/300001",

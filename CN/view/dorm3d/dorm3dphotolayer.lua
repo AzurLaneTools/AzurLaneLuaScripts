@@ -328,7 +328,9 @@ slot0.didEnter = function(slot0)
 			}):GetStateName(), uv0.cameraSettings.depthOfField.focusDistance.value, uv0.cameraSettings.depthOfField.blurRadius.value, uv0.cameraSettings.postExposure.value, uv0.cameraSettings.contrast.value, uv0.cameraSettings.saturate.value)))
 		end
 
-		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(uv0.mainCamera, function (slot0)
+		slot4, slot5 = Dorm3dHxHelper.GetHolyLightScreenShotInfo(uv0.scene.holyLightRoot)
+
+		GraphicsInterface.Instance:TakePhotoWithPost(uv0.mainCamera, slot4, slot5, function (slot0)
 			uv0(true)
 			uv1(Tex2DExtension.EncodeToJPG(slot0), slot0)
 		end)

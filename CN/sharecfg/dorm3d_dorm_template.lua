@@ -40,11 +40,20 @@ pg.dorm3d_dorm_template = {
 		id = 30707,
 		default_appellation = "指挥官大人 "
 	},
+	[49905] = {
+		skin_model = 499051,
+		name = "埃吉尔",
+		bind_room = 14,
+		asset_name = "Aijier_DB",
+		id = 49905,
+		default_appellation = "指挥官"
+	},
 	all = {
 		20220,
 		30221,
 		19903,
 		10517,
-		30707
+		30707,
+		49905
 	}
 }

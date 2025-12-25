@@ -2876,6 +2876,63 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		is_ranking = 0,
+		view_name = "WinterFestival2025ShrineView",
+		game_room = 0,
+		type = 5,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "2025神社舰娘许愿",
+		config_csv = "",
+		id = 79,
+		hub_id = 67,
+		request_data = 1,
+		simple_config_data = {
+			8,
+			65794,
+			1
+		},
+		config_data = {
+			0,
+			{
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95
+			},
+			1
+		}
+	},
+	{
+		is_ranking = 0,
+		view_name = "WinterFestival2025ShrineView",
+		game_room = 0,
+		type = 3,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "2025神社指挥官许愿",
+		config_csv = "",
+		id = 80,
+		hub_id = 67,
+		request_data = 1,
+		simple_config_data = {
+			target = 100000,
+			shipGameID = 79
+		},
+		config_data = {
+			5,
+			{
+				143,
+				144,
+				145
+			},
+			2
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3528,6 +3585,8 @@ pg.mini_game = {
 		76,
 		77,
 		78,
+		79,
+		80,
 		1001,
 		1002,
 		1003,

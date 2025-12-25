@@ -105,6 +105,11 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.live2dIdleIndex = slot1.live2dIdleIndex
 	slot0.live2dParams = slot1.live2dParams
 	slot0.spine = slot1.spine
+	slot0.spinePos = slot1.spinePos or {
+		0,
+		0,
+		0
+	}
 	slot0.spineOrderIndex = slot1.spineOrderIndex
 	slot0.live2dOffset = slot1.live2dOffset
 	slot0.contentBGAlpha = slot1.dialogueBgAlpha or 1
@@ -134,6 +139,10 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.paintRwIndex = slot1.paintRwIndex or 0
 	slot0.action = slot1.action or {}
+end
+
+slot0.GetSpinePosition = function(slot0)
+	return BuildVector3(slot0.spinePos)
 end
 
 slot0.GetL2dParams = function(slot0)

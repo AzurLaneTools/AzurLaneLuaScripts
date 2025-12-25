@@ -296,6 +296,7 @@ pg.furniture_data_template = setmetatable({
 			100078,
 			100079,
 			100080,
+			100081,
 			200001,
 			200002,
 			200003,
@@ -6530,6 +6531,7 @@ pg.furniture_data_template = setmetatable({
 			100078,
 			100079,
 			100080,
+			100081,
 			31101,
 			54101,
 			54102,
@@ -7839,7 +7841,8 @@ pg.furniture_data_template = setmetatable({
 			100076,
 			100078,
 			100079,
-			100080
+			100080,
+			100081
 		},
 		[2] = {
 			120,
@@ -11402,6 +11405,7 @@ pg.furniture_data_template = setmetatable({
 		100078,
 		100079,
 		100080,
+		100081,
 		200001,
 		200002,
 		200003,
@@ -31322,6 +31326,77 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100081] = {
+		advice = 0,
+		name = "文明摄影棚",
+		count = 1,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "xiaosheyingpengicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 100081,
+		comfortable = 0,
+		describe = "摄影师就位，请模特们按顺序排队入场，切勿抢戏或争夺场地。",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			8,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaosheyingpengB",
+				"normal"
+			},
+			{
+				"xiaosheyingpengT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

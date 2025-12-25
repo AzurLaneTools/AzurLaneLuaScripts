@@ -7,6 +7,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
 	slot0.foldableHelper = MainFoldableHelper.New(slot1, slot0:GetDirection())
+	slot0._canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 end
 
 slot0.Init = function(slot0)
@@ -28,6 +29,25 @@ end
 
 slot0.SetVisible = function(slot0, slot1)
 	setActive(slot0._tf, slot1)
+end
+
+slot0.SetEffectVisible = function(slot0, slot1)
+end
+
+slot0.SetAlpha = function(slot0, slot1)
+	slot0._canvasGroup.alpha = slot1
+end
+
+slot0.SetInteractable = function(slot0, slot1)
+	slot0._canvasGroup.interactable = slot1 and slot1 or false
+end
+
+slot0.SetBlocksRaycasts = function(slot0, slot1)
+	slot0._canvasGroup.blocksRaycasts = slot1 and slot1 or false
+end
+
+slot0.IgnoreParentGroups = function(slot0, slot1)
+	slot0._canvasGroup.ignoreParentGroups = slot1
 end
 
 slot0.Dispose = function(slot0)

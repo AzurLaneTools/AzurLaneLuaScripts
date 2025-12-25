@@ -259,6 +259,7 @@ pg.memory_group = setmetatable({
 		350,
 		351,
 		352,
+		353,
 		501,
 		502,
 		503,
@@ -6412,6 +6413,23 @@ pg.base.memory_group = {
 			4933,
 			4934,
 			4935
+		}
+	},
+	[353] = {
+		title = "港区时尚特刊：专属心动时刻[2]",
+		subtype = 3,
+		link_event = 50297,
+		type = 2,
+		id = 353,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4941,
+			4942,
+			4943,
+			4944,
+			4945,
+			4946
 		}
 	},
 	[501] = {

@@ -32,6 +32,8 @@ slot1.SetBlackboradValue = function(slot0, slot1, slot2, slot3)
 
 	if slot2 == nil then
 		slot3:RemoveVariable(slot1)
+	elseif slot3:GetVariable(slot1) == nil then
+		slot3:AddVariable(slot1, slot2)
 	else
 		slot3:SetVariableValue(slot1, slot2)
 	end

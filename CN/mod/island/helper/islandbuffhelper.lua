@@ -27,7 +27,7 @@ slot0.GetGlobalBuffsByType = function(slot0)
 	return getProxy(IslandProxy):GetIsland():GetGlobalBuffAgency():GetBuffsByType(slot0)
 end
 
-slot0.GetAllShipManangeBuffs = function(slot0, slot1)
+slot0.GetAllShipManageBuffs = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs({
@@ -44,7 +44,7 @@ slot0.GetAllShipManangeBuffs = function(slot0, slot1)
 	return slot3
 end
 
-slot0.GetManangeSellPriceBuffs = function(slot0, slot1)
+slot0.GetManageSellPriceBuffs = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs({
@@ -59,7 +59,7 @@ slot0.GetManangeSellPriceBuffs = function(slot0, slot1)
 	return slot3
 end
 
-slot0.GetManangeSellNumBuffs = function(slot0, slot1)
+slot0.GetManageSellNumBuffs = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs({
@@ -69,6 +69,23 @@ slot0.GetManangeSellNumBuffs = function(slot0, slot1)
 		slot3 = table.mergeArray(slot3, underscore.select(uv0.GetAllBuffsByType(slot0, slot8), function (slot0)
 			return table.contains(slot0:GetBuffEffect()[1], uv0)
 		end))
+	end
+
+	return slot3
+end
+
+slot0.GetManageStatus = function(slot0, slot1)
+	slot3 = {}
+
+	for slot7, slot8 in ipairs({
+		IslandBuffType.SHIP_MANAGE_SELL_PRICE,
+		IslandBuffType.SHIP_MANAGE_SELL_NUM
+	}) do
+		for slot12, slot13 in ipairs(slot0) do
+			slot3 = table.mergeArray(slot3, underscore.select(slot13:GetVaildStatusByType(slot8), function (slot0)
+				return table.contains(slot0:GetBuffEffect()[1], uv0)
+			end))
+		end
 	end
 
 	return slot3

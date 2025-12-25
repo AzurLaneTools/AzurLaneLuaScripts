@@ -173,7 +173,7 @@ slot0.InitSpecialTouch = function(slot0)
 					end
 
 					uv0.spinePainting:readyDragAction(uv1.name, false)
-				elseif slot0 then
+				elseif slot0 and not uv0._asmrFlag then
 					uv0:TriggerEvent(slot0)
 					uv0:TriggerPersonalTask(uv0.ship.groupId)
 				end
@@ -183,7 +183,7 @@ slot0.InitSpecialTouch = function(slot0)
 end
 
 slot0.OnClick = function(slot0)
-	if slot0.spinePainting:isInAction() then
+	if slot0.spinePainting:isInAction() or slot0._asmrFlag then
 		return
 	end
 
@@ -193,11 +193,16 @@ slot0.OnClick = function(slot0)
 end
 
 slot0.OnEnableTimerEvent = function(slot0)
-	return not slot0.spinePainting:isInAction()
+	return not slot0.spinePainting:isInAction() and not slot0._asmrFlag
 end
 
 slot0.PrepareTriggerAction = function(slot0, slot1)
-	slot2, slot3 = nil
+	if slot0._asmrFlag then
+		return
+	end
+
+	slot2 = nil
+	slot3 = false
 
 	if pg.AssistantInfo.assistantEvents[slot1] then
 		slot3 = slot0.spinePainting:getAnimationExist(pg.AssistantInfo.assistantEvents[slot1].action)

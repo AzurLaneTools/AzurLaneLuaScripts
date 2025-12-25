@@ -1264,7 +1264,7 @@ pg.dorm3d_furniture_template = {
 	},
 	[1211] = {
 		rarity = 2,
-		name = "古典挂画 ",
+		name = "古典挂画",
 		unlock_tips = "",
 		type = 3,
 		touch_id = "",
@@ -1285,7 +1285,7 @@ pg.dorm3d_furniture_template = {
 	},
 	[1212] = {
 		rarity = 2,
-		name = "黑色比基尼 ",
+		name = "黑色比基尼",
 		unlock_tips = "",
 		type = 3,
 		touch_id = "",
@@ -1306,7 +1306,7 @@ pg.dorm3d_furniture_template = {
 	},
 	[1213] = {
 		rarity = 2,
-		name = "落地灯 ",
+		name = "落地灯",
 		unlock_tips = "",
 		type = 3,
 		touch_id = "",
@@ -1327,7 +1327,7 @@ pg.dorm3d_furniture_template = {
 	},
 	[1214] = {
 		rarity = 2,
-		name = "半透明屏风 ",
+		name = "半透明屏风",
 		unlock_tips = "",
 		type = 3,
 		touch_id = "",
@@ -1350,7 +1350,7 @@ pg.dorm3d_furniture_template = {
 	},
 	[1215] = {
 		rarity = 2,
-		name = "小夜灯 ",
+		name = "小夜灯",
 		unlock_tips = "",
 		type = 3,
 		touch_id = "",
@@ -1371,7 +1371,7 @@ pg.dorm3d_furniture_template = {
 	},
 	[1221] = {
 		rarity = 4,
-		name = "爱之巢 ",
+		name = "爱之巢",
 		unlock_tips = "",
 		type = 4,
 		room_id = 12,
@@ -1403,7 +1403,7 @@ pg.dorm3d_furniture_template = {
 	},
 	[1222] = {
 		rarity = 5,
-		name = "花乐留韵 ",
+		name = "花乐留韵",
 		type = 99,
 		room_id = 12,
 		desc = "淡雅的光晕透出，抚过绽开的花瓣，留下她动人的身影。花影与乐声交织，仿佛自然的低语流淌其中。",
@@ -1433,6 +1433,223 @@ pg.dorm3d_furniture_template = {
 		},
 		scene_hides = {
 			"no_bake_pay_prop/entertainment"
+		}
+	},
+	[1401] = {
+		rarity = 3,
+		name = "丝绒软床",
+		unlock_tips = "",
+		type = 4,
+		room_id = 14,
+		desc = "采用经典双人床设计，黑色床头搭配红色丝绒被褥，柔软的床垫与枕头为疲惫的身心提供了温暖的庇护。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1401,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990510
+			}
+		},
+		shop_id = {}
+	},
+	[1402] = {
+		rarity = 3,
+		name = "简约书桌",
+		unlock_tips = "",
+		type = 6,
+		room_id = 14,
+		desc = "该书桌采用黑色木料制成，搭配简约的红色座椅，整体设计既实用又充满古典气息。 ",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1402,
+		target_slots = {
+			1140201
+		},
+		touch_id = {
+			{
+				49905,
+				4990520
+			}
+		},
+		shop_id = {}
+	},
+	[1403] = {
+		rarity = 3,
+		name = "真皮沙发",
+		unlock_tips = "",
+		type = 5,
+		room_id = 14,
+		desc = "真皮沙发，柔软舒适，搭配圆形小茶几，是享受个人时光的理想角落。 ",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1403,
+		target_slots = {
+			1140301
+		},
+		touch_id = {
+			{
+				49905,
+				4990530
+			}
+		},
+		shop_id = {}
+	},
+	[1411] = {
+		rarity = 2,
+		name = "长杆蜡烛",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "经典象牙白长杆蜡烛，烛光温暖柔和，为夜晚增添一份宁静与浪漫的氛围。 ",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1411,
+		target_slots = {
+			1140303
+		},
+		shop_id = {}
+	},
+	[1412] = {
+		rarity = 2,
+		name = "绿意盆栽",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "高大的盆栽植物，叶片宽大碧绿，不仅为房间增添生机，还能有效净化空气。 ",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_bonsai01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1412,
+		target_slots = {
+			1140202
+		},
+		shop_id = {}
+	},
+	[1413] = {
+		rarity = 2,
+		name = "护眼台灯",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "书桌上的小台灯，从内向外散发着温暖的光晕，为夜晚阅读或工作提供舒适的照明。 ",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_desklamp01_on",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1413,
+		target_slots = {
+			1140103
+		},
+		shop_id = {}
+	},
+	[1414] = {
+		rarity = 2,
+		name = "老式相机",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "一台经典的复古相机，保留了老式相机的独特设计，适合喜欢摄影的人收藏使用。 ",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_camera01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1414,
+		target_slots = {
+			1140102
+		},
+		shop_id = {}
+	},
+	[1415] = {
+		rarity = 2,
+		name = "肖像画",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "一幅风格古典的抽象派肖像画，鲜艳与深邃的色彩相互矛盾却又并存，意外地和房间的氛围很搭。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1415,
+		target_slots = {
+			1140302
+		},
+		shop_id = {}
+	},
+	[1461] = {
+		rarity = 4,
+		name = "真红谧影",
+		type = 4,
+		room_id = 14,
+		desc = "私密与浪漫的避风港，红色丝绒被褥与可拉床帘组合，在夜色中轻松享受静谧与温馨。 ",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
+		acesses = "",
+		id = 1461,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990540
+			}
+		},
+		shop_id = {
+			270601
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1461"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
 		}
 	},
 	get_id_list_by_room_id = {
@@ -1502,6 +1719,17 @@ pg.dorm3d_furniture_template = {
 			1215,
 			1221,
 			1222
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1461
 		}
 	},
 	all = {
@@ -1559,6 +1787,15 @@ pg.dorm3d_furniture_template = {
 		1214,
 		1215,
 		1221,
-		1222
+		1222,
+		1401,
+		1402,
+		1403,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1461
 	}
 }
