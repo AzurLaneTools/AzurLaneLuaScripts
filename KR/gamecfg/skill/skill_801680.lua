@@ -214,7 +214,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 67780
+					weapon_id = 167660
 				}
 			},
 			{
@@ -223,7 +223,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 67780,
+					weapon_id = 167660,
 					delay = 0.25
 				}
 			}
