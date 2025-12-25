@@ -36028,51 +36028,51 @@ cs.gametip = {
 	},
 	skinstory_20251218 = {
 		1300266,
-		92,
+		91,
 		true
 	},
 	skinstory_20251225 = {
-		1300358,
+		1300357,
 		92,
 		true
 	},
 	change_skin_asmr_desc_1 = {
-		1300450,
+		1300449,
 		145,
 		true
 	},
 	change_skin_asmr_desc_2 = {
-		1300595,
+		1300594,
 		134,
 		true
 	},
 	dorm3d_aijier_table = {
-		1300729,
+		1300728,
 		88,
 		true
 	},
 	dorm3d_aijier_chair = {
-		1300817,
+		1300816,
 		89,
 		true
 	},
 	dorm3d_aijier_bed = {
-		1300906,
+		1300905,
 		88,
 		true
 	},
 	winterwish_20251225 = {
-		1300994,
+		1300993,
 		95,
 		true
 	},
 	winterwish_20251225_tip1 = {
-		1301089,
+		1301088,
 		98,
 		true
 	},
 	winterwish_20251225_tip2 = {
-		1301187,
+		1301186,
 		99,
 		true
 	}

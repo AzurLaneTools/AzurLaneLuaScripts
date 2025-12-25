@@ -46296,7 +46296,7 @@ _G.pg.base.gametip.blueprint_lab_exchange_fate_unlock = {
 
 
 _G.pg.base.gametip.skinstory_20251218 = {
-	tip = "Fashion II"
+	tip = "Fashion I"
 }
 
 

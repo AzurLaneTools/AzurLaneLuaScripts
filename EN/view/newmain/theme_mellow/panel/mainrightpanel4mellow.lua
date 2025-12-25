@@ -16,7 +16,7 @@ slot0.GetDirection = function(slot0)
 end
 
 slot0.SetEffectVisible = function(slot0, slot1)
-	setActive(findTF(slot0._tf, "1/battle"), slot1)
+	setActive(findTF(slot0._tf, "1/battle/FX"), slot1)
 end
 
 return slot0

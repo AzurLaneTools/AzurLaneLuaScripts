@@ -66,7 +66,7 @@ end
 slot0.SetEffectPanelVisible = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.panels) do
 		if isa(slot6, MainRightPanel4Mellow) then
-			slot6:SetEffectVisible(false)
+			slot6:SetEffectVisible(slot1)
 		end
 	end
 end
