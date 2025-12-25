@@ -11979,6 +11979,51 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5106] = {
+		mark = 20251225,
+		type = 69,
+		login_pop = 0,
+		config_id = 24,
+		is_show = 37,
+		title_res_tag = "Georgia_catchup",
+		id = 5106,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AnchorageTecCatchupPage",
+			ui_name = "AnchorageTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42031
+		}
+	},
 	[5107] = {
 		mark = 20231212,
 		page_info = "",
@@ -38396,6 +38441,296 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50261] = {
+		mark = 20251225,
+		type = 74,
+		login_pop = 0,
+		config_id = 50261,
+		is_show = 4,
+		title_res_tag = "HelenaCoreActivity_subtitle_1",
+		id = 50261,
+		page_core = "HelenaCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HelenaPTPage",
+			ui_name = "HelenaPTPage"
+		},
+		config_client = {
+			default_bgm = "bgm-waterwave",
+			task_id = 24742,
+			default_background = "star_level_bg_493",
+			storys = {
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339
+			}
+		}
+	},
+	[50262] = {
+		mark = 20251225,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50262,
+		page_core = "",
+		config_data = {
+			24742
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50264] = {
+		mark = 20251225,
+		type = 87,
+		login_pop = 0,
+		config_id = 34,
+		is_show = 2,
+		config_client = "",
+		title_res_tag = "HelenaCoreActivity_subtitle_2",
+		id = 50264,
+		page_core = "HelenaCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HelenaFramePage",
+			ui_name = "HelenaFramePage"
+		}
+	},
+	[50265] = {
+		mark = 20251225,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 38,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50265,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50266] = {
+		mark = 20251225,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 3,
+		title_res_tag = "HelenaCoreActivity_subtitle_3",
+		id = 50266,
+		page_core = "HelenaCoreActivityUI",
+		config_data = {
+			{
+				24781,
+				24782
+			},
+			{
+				24783,
+				24784
+			},
+			{
+				24785,
+				24786
+			},
+			{
+				24787,
+				24788
+			},
+			{
+				24789,
+				24790
+			},
+			{
+				24791,
+				24792
+			},
+			{
+				24793,
+				24794
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					22
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HelenaLoginPage",
+			ui_name = "HelenaLoginPage"
+		},
+		config_client = {
+			firstStory = "ZHIMEIHAOSHIJIE1",
+			story = {
+				{
+					"ZHIMEIHAOSHIJIE2"
+				},
+				{
+					"ZHIMEIHAOSHIJIE3"
+				},
+				{
+					"ZHIMEIHAOSHIJIE4"
+				},
+				{
+					"ZHIMEIHAOSHIJIE5"
+				},
+				{
+					"ZHIMEIHAOSHIJIE6"
+				},
+				{
+					"ZHIMEIHAOSHIJIE7"
+				},
+				{
+					"ZHIMEIHAOSHIJIE8"
+				}
+			}
+		}
+	},
 	[7104] = {
 		mark = 20240926,
 		page_info = "",
@@ -49923,6 +50258,30 @@ pg.activity_template = {
 						51199
 					},
 					51200
+				},
+				{
+					{
+						51201,
+						51202,
+						51203,
+						51204,
+						51205,
+						51206,
+						51207,
+						51208,
+						51209,
+						51210,
+						51211,
+						51212,
+						51213,
+						51214,
+						51215,
+						51216,
+						51217,
+						51218,
+						51219
+					},
+					51220
 				}
 			}
 		}
@@ -79632,6 +79991,7 @@ pg.activity_template = {
 			50252,
 			50257,
 			50259,
+			50262,
 			1103,
 			1104,
 			1105,
@@ -79925,6 +80285,7 @@ pg.activity_template = {
 			50068,
 			50104,
 			50133,
+			50266,
 			6000,
 			6001,
 			6002,
@@ -80234,6 +80595,7 @@ pg.activity_template = {
 			50205,
 			50245,
 			50253,
+			50261,
 			1110,
 			6006,
 			6010,
@@ -80830,6 +81192,7 @@ pg.activity_template = {
 			4793,
 			4950,
 			4975,
+			5106,
 			5210,
 			5318,
 			5511,
@@ -80876,6 +81239,7 @@ pg.activity_template = {
 			5810,
 			5923,
 			50102,
+			50264,
 			40724,
 			40783,
 			40831,
@@ -80917,6 +81281,7 @@ pg.activity_template = {
 			5811,
 			5925,
 			50103,
+			50265,
 			40178,
 			40201,
 			40250,
@@ -81894,6 +82259,7 @@ pg.activity_template = {
 		5103,
 		5104,
 		5105,
+		5106,
 		5107,
 		5131,
 		5132,
@@ -82468,6 +82834,11 @@ pg.activity_template = {
 		50257,
 		50258,
 		50259,
+		50261,
+		50262,
+		50264,
+		50265,
+		50266,
 		7104,
 		7501,
 		7502,

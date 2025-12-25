@@ -9,7 +9,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_504",
 			bgm = "story-6",
-			say = "光芒消散后，映入眼帘的是一片硝烟未散的海域。",
+			say = "光芒消散後，映入眼簾的是一片硝煙未散的海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这里是……？",
+			say = "這裡是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我被卷入了裂隙，然后落入了某个塞壬实验场么……",
+			say = "我被捲入了裂隙，然後落入了某個塞壬實驗場嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "咦……周围的残骸居然都是IV型量产型的。",
+			say = "咦……周圍的殘骸居然都是IV型量產型的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "摧毁原因……500LB航空炸弹、406MK6主炮、152MM主炮，还有……撞击。",
+			say = "摧毀原因……500lb航空炸彈、406MK6主炮、152mm主炮，還有……撞擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "有舰船舰队刚刚驶过……",
+			say = "有艦船艦隊剛駛過……這",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这里还处于其航空侦察范围内，她们应该马上就能发现我了……",
+			say = "這裡還處於其航空偵察範圍內，她們應該馬上就能發現我了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过在此之前，SG搜索周边海域。",
+			say = "不過在此之前，SG搜尋週邊海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没想到会是白鹰舰队……",
+			say = "沒想到會是白鷹艦隊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,21 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "企业、列克星敦、萨拉托加、南达科他，还有……路易斯。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_504",
-			dir = 1,
-			actor = 9702010,
-			nameColor = "#FFC960",
-			hidePaintObj = true,
-			say = "航速异常，有人受伤了……",
+			say = "企業、列星頓、薩拉托加、南達科他，還有……路易斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +167,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "安蒂克丝会投入IV型量产型的实验场，实验方针通常都很极端……",
+			say = "航速異常，有人受傷了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +181,21 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这是要下死手……",
+			say = "安蒂克絲會投入IV型量產型的實驗場，實驗方針通常都很極端……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_504",
+			dir = 1,
+			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
+			say = "這是要下死手……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,5 +1,79 @@
 pg = pg or {}
 pg.enemy_data_statistics_392 = {
+	[295221] = {
+		cannon = 284,
+		name = "威奇塔·META(Tier.11)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 60,
+		id = 295221,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 85,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90941,
+		durability = 547000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 243,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 200956,
+				LV = 1
+			}
+		}
+	},
+	[295222] = {
+		cannon = 301,
+		name = "威奇塔·META(Tier.12)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 64,
+		id = 295222,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90941,
+		durability = 711000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 258,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 200956,
+				LV = 1
+			}
+		}
+	},
 	[295223] = {
 		cannon = 318,
 		name = "威奇塔·META(Tier.13)",
@@ -1061,88 +1135,6 @@ pg.enemy_data_statistics_392 = {
 			{
 				ID = 201171,
 				LV = 12
-			},
-			{
-				ID = 201175,
-				LV = 1
-			}
-		}
-	},
-	[295253] = {
-		cannon = 218,
-		name = "大鳳·META(Tier.13)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 445,
-		reload = 150,
-		armor = 0,
-		dodge = 67,
-		id = 295253,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 95,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91025,
-		durability = 1081000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 313,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 201171,
-				LV = 13
-			},
-			{
-				ID = 201175,
-				LV = 1
-			}
-		}
-	},
-	[295254] = {
-		cannon = 230,
-		name = "大鳳·META(Tier.14)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 468,
-		reload = 150,
-		armor = 0,
-		dodge = 71,
-		id = 295254,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91025,
-		durability = 1340000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 329,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 201171,
-				LV = 14
 			},
 			{
 				ID = 201175,

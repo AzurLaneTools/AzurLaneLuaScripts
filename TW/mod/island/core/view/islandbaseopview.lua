@@ -16,7 +16,7 @@ slot0.DoInit = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.SetUIParent = function(slot0, slot1)
+slot0.GetUIParent = function(slot0, slot1)
 	return slot0:GetView().opContainer
 end
 

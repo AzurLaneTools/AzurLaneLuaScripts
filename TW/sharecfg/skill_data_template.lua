@@ -372,6 +372,8 @@ pg.skill_data_template = setmetatable({
 		60950,
 		60960,
 		60970,
+		60980,
+		60990,
 		7000,
 		9010,
 		9020,
@@ -13338,6 +13340,34 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "戰鬥中每30秒緩慢回復自身及隊友中Date A Live陣營角色耐久1%（每場戰鬥最多觸發3次）",
 		id = 60970,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60980] = {
+		desc_get = "",
+		name = "海藍色之謎",
+		type = 0,
+		max_level = 0,
+		desc = "裝備後，可以改變戰鬥的BGM（同時裝備多個改變BGM的裝備時，將隨機播放其中一首BGM）",
+		id = 60980,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60990] = {
+		desc_get = "",
+		name = "導演的劇本書",
+		type = 0,
+		max_level = 0,
+		desc = "戰鬥開始後及隨後每30秒，自身會隨機獲得一個增益效果",
+		id = 60990,
 		system_transform = {},
 		world_death_mark = {
 			1

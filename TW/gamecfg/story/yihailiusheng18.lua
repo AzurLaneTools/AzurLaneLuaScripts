@@ -19,7 +19,7 @@ return {
 			},
 			sequence = {
 				{
-					"「于是，我抓住了这束微光——」",
+					"「於是，我抓住了這束微光——」",
 					0
 				}
 			}
@@ -31,7 +31,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "通过SG，我取得了塔的控制权。",
+			say = "透過SG，我獲得了塔的控制權。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "而后，我与约克城开始了某些行动。",
+			say = "而後，我與約克鎮開始了某些行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们掌握了控制「重塑」的方法。",
+			say = "我們掌握了控制「重塑」的方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我们召集了失散的同伴，治疗了濒死的同伴，甚至……唤回了逝去的同伴。",
+			say = "我們召集了失散的同伴，治療了瀕死的同伴，甚至……喚回了逝去的同伴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "同时，我一直在塔中挖掘有用的情报，模拟可能的未来。",
+			say = "同時，我一直在塔中挖掘有用的情報，模擬可能的未來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "直到那一天……我找到了你。",
+			say = "直到那一天……我找到你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "见到你的那一瞬间我就确信了，你就是你……",
+			say = "見到你的那一瞬間我就確信了，你就是你……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "就像你说过的那样……终有一天，我们终将重逢。",
+			say = "就像你說過的……終有一天，我們終將重逢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "再之后的事你就都知道了。",
+			say = "再之後的事你就都知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我调整了模拟方向，推进了某些计划。",
+			say = "我調整了模擬方向，推進了某些計畫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,21 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我筛选情报，操控局势，让你安全地积蓄力量，让你总能选到最优解。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_bsmre_14",
-			dir = 1,
-			actor = 9702010,
-			nameColor = "#FFC960",
-			hidePaintObj = true,
-			say = "直到不久前的那场意外……",
+			say = "我篩選情報，操控局勢，讓你安全地積蓄力量，讓你總能選到最優解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +200,21 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你过早见到了牢笼，又成功突破了牢笼。",
+			say = "直到不久前的意外……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_bsmre_14",
+			dir = 1,
+			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
+			say = "你過早見到了牢籠，又成功突破了牢籠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "虽然结束的时间有些早……",
+			say = "雖然結束的時間有些早……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "但这一路，我们终究一起走过来了——",
+			say = "但這一路，我們終究一起走過來了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

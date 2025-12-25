@@ -19,7 +19,7 @@ return {
 			},
 			sequence = {
 				{
-					"「从哪里说起好呢——」",
+					"「從哪裡說起好呢——」",
 					0
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "总之，先跳过那些不能说的部分吧。",
+			say = "總之，先跳過那些不能說的部分吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "就从……嗯，就从那场你听说过的，由余烬对零发起的突袭开始说起。",
+			say = "就從……嗯，就從那場你聽過的，由餘燼對零發起的突襲開始說起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			bgm = "battle-ashes-theme",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "余烬行动基地·许多年前——",
+			say = "餘燼行動基地·許多年前——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "企业……你确定要执行这个计划么。",
+			say = "企業……妳確定要執行這個計畫嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "零从来就没有信任过我们……或者说，她不信任包括安蒂克丝在内的任何人。",
+			say = "零從來就沒有信任過我們……或者說，她不信任包括安蒂克絲在內的任何人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "主机空间的所在位置……这种关乎她生死的情报怎么可能被我们拿到？",
+			say = "主機空間的位置……這種關乎她生死的情報怎麼可能被我們拿到？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们现在拿到的情报……怎么可能是真的？",
+			say = "我們現在拿到的情報……怎麼可能是真的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果我们基于这条不可靠的情报规划行动……不会有好结果的。",
+			say = "如果我們基於這條不可靠的情報規劃行動……不會有好結果的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯……我和海伦娜的看法一样。",
+			say = "嗯……我跟海倫娜的看法一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 9702020,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "退一万步来说，就算情报是真的，那零也是知道我们拥有这条情报的。",
+			say = "退一萬步來說，就算情報是真的，那零也是知道我們擁有這條情報的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 9702020,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们之间都打了这么久了……她难道不会做任何防范么？",
+			say = "我們之間都打了這麼久了……她難道不會做任何防範嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,8 +206,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "她一定会做防范。",
+			actorName = "企業·META",
+			say = "她一定會做防範。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,8 +219,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "但是零作为整个观察者系统的中枢，安蒂克丝系统的坐标原点，她想改变位置需要付出的成本是难以估量的。",
+			actorName = "企業·META",
+			say = "但是零作為整個觀察者系統的中樞，安蒂克絲系統的座標原點，她想改變位置需要付出的成本是難以估量的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,8 +232,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "我了解零。她的心里只有审判者计划，什么时候在意过我们？又怎么会为我们专门去做这种事呢？",
+			actorName = "企業·META",
+			say = "我了解零。她的心裡只有審判者計劃，什麼時候在乎過我們？又怎麼會為我們專門去做這種事呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,8 +245,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "所以此行只会有两种结果，要么情报是真的，我们和零正面对决，然后重置她。",
+			actorName = "企業·META",
+			say = "所以此行只會有兩種結果，要嘛情報是真的，我們和零正面對決，然後重置她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,8 +258,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "要么情报是假的，我们扑了个空，然后撤退。",
+			actorName = "企業·META",
+			say = "要嘛情報是假的，我們撲了個空，然後撤退。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,8 +271,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "不然呢，怎么办？",
+			actorName = "企業·META",
+			say = "不然呢，怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,8 +284,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "安蒂克丝的力量膨胀得越来越快，手段也变得越来越极端。",
+			actorName = "企業·META",
+			say = "安蒂克絲的力量膨脹得越來越快，手段也越來越極端。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,8 +297,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "现在我们的力量还能和它们碰一碰，再拖延下去……我就不好说了。",
+			actorName = "企業·META",
+			say = "現在我們的力量還能跟它們碰一碰，再拖延下去……我就不好說了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,8 +310,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "到时候，又有谁能够阻止安蒂克丝系统的疯狂呢？",
+			actorName = "企業·META",
+			say = "到時候，又有誰能夠阻止安蒂克絲系統的瘋狂呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,8 +323,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "……一路走来的惨状，大家都看得很明白了。",
+			actorName = "企業·META",
+			say = "……一路走來的慘狀，大家都看得很清楚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,8 +336,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "因为目的是对的，所以过程就可以不择手段？",
+			actorName = "企業·META",
+			say = "因為目的是對的，所以過程可以不擇手段？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,8 +349,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "因为它们不畏惧牺牲，就可以随便牺牲任何人？",
+			actorName = "企業·META",
+			say = "因為它們不畏犧牲，就可以隨便犧牲任何人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,8 +362,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "我们的过去是悲惨的，所以呢？就需要让无数无辜者一同经历这份悲惨么？",
+			actorName = "企業·META",
+			say = "我們的過去是悲慘的，所以呢？就需要讓無數無辜者一同經歷這份悲慘？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,8 +375,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "审判者计划给予我们的是无数次重来的机会，而不是肆意践踏生命的许可！",
+			actorName = "企業·META",
+			say = "審判者計畫給我們的是無數次重來的機會，而不是肆意踐踏生命的許可！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……嗯，我去调整特攻设备，为我们尽可能增加些胜算。",
+			say = "……嗯，我去調整特攻設備，為我們盡可能增加些勝算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我也去叫其他人做好准备了。既然要做，就要做得干净利落！",
+			say = "我也去叫其他人做好準備了。既然要做，就要做得乾淨俐落！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,8 +415,8 @@ return {
 			bgName = "star_level_bg_494",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "拜托诸位了。",
+			actorName = "企業·META",
+			say = "拜託諸位了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgm = "story-memory-grief",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一段时间后的海岸边——",
+			say = "一段時間後的海岸邊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "最后……还是要进行突袭行动了呢……",
+			say = "最後……還是要進行突襲行動了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "SG……你说，我们会成功么……",
+			say = "SG……你說，我們會成功嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "空旷的海边，只有一浪又一浪的涛声回荡着。",
+			say = "空曠的海邊，只有一浪又一浪的濤聲迴盪著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不好……又不自觉向你抱怨了呢……",
+			say = "不好……又不自覺向你抱怨了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我就是忍受不了安蒂克丝的疯狂，才会加入企业，和它们战斗到现在的。",
+			say = "我只是忍受不了安蒂克絲的瘋狂，才會加入企業，和它們戰鬥到現在的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "接下来，无非是一次更加危险的战斗罢了……",
+			say = "接下來，無非是更危險的戰鬥罷了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "作为最后希望的安蒂克丝正在失控……我们是唯一了解它们，唯一有能力阻止它们的人。",
+			say = "作為最後希望的安蒂克絲正在失控……我們是唯一了解它們，唯一有能力阻止它們的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "既然如此，义不容辞……",
+			say = "既然如此，義不容辭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……你说对吧，SG？",
+			say = "……你說對吧，SG？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -50,6 +50,24 @@ slot0.GetAttributeAddPercent = function(slot0, slot1)
 	return pg.island_chara_att[slot4:GetAttrGradeByValue(math.floor(slot5 * (1 + slot9 * 0.01)))].effect
 end
 
+slot0.GetAttributeAddPercentByAttribute = function(slot0, slot1)
+	if #getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0):GetVaildStatusByType(IslandBuffType.SHIP_ATTR) == 0 then
+		return 0
+	end
+
+	slot6 = 0
+
+	for slot10, slot11 in ipairs(slot5) do
+		for slot16, slot17 in ipairs(slot11:GetBuffEffect()) do
+			if slot17[1] == slot1 then
+				slot6 = slot6 + slot17[2]
+			end
+		end
+	end
+
+	return slot6
+end
+
 slot0.GetPlaceAddPercent = function(slot0, slot1)
 	slot2 = 0
 	slot3 = getProxy(IslandProxy):GetIsland()

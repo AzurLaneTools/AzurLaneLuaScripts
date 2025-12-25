@@ -3640,6 +3640,34 @@ pg.memory_template = setmetatable({
 		4825,
 		4826,
 		4831,
+		4841,
+		4842,
+		4843,
+		4844,
+		4845,
+		4846,
+		4847,
+		4848,
+		4849,
+		4850,
+		4851,
+		4852,
+		4853,
+		4854,
+		4855,
+		4856,
+		4857,
+		4858,
+		4859,
+		4871,
+		4872,
+		4873,
+		4874,
+		4875,
+		4876,
+		4877,
+		4878,
+		4879,
 		10011,
 		10012,
 		10013,
@@ -3840,7 +3868,10 @@ pg.base.memory_template = {
 		story = "S001",
 		id = 1,
 		icon = "default",
-		is_open = 1
+		is_open = 1,
+		unlock_pre = {
+			"S001"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3851,7 +3882,10 @@ pg.base.memory_template = {
 		story = "S002",
 		id = 2,
 		icon = "default",
-		is_open = 1
+		is_open = 1,
+		unlock_pre = {
+			"S002"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3862,7 +3896,10 @@ pg.base.memory_template = {
 		story = "S007",
 		id = 3,
 		icon = "default",
-		is_open = 1
+		is_open = 1,
+		unlock_pre = {
+			"S007"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3873,7 +3910,10 @@ pg.base.memory_template = {
 		story = "S006",
 		id = 4,
 		icon = "default",
-		is_open = 1
+		is_open = 1,
+		unlock_pre = {
+			"S006"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3884,7 +3924,10 @@ pg.base.memory_template = {
 		story = "S003",
 		id = 5,
 		icon = "default",
-		is_open = 1
+		is_open = 1,
+		unlock_pre = {
+			"S003"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3895,7 +3938,10 @@ pg.base.memory_template = {
 		story = "S004",
 		id = 6,
 		icon = "default",
-		is_open = 1
+		is_open = 1,
+		unlock_pre = {
+			"S004"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3906,7 +3952,10 @@ pg.base.memory_template = {
 		story = "T10101",
 		id = 7,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T10101"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3917,7 +3966,10 @@ pg.base.memory_template = {
 		story = "T10102",
 		id = 8,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T10102"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3928,7 +3980,10 @@ pg.base.memory_template = {
 		story = "UI10201",
 		id = 9,
 		icon = "memorybg_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"UI10201"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3939,7 +3994,10 @@ pg.base.memory_template = {
 		story = "UI10202",
 		id = 10,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"UI10202"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3950,7 +4008,10 @@ pg.base.memory_template = {
 		story = "T10201",
 		id = 11,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T10201"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3961,7 +4022,10 @@ pg.base.memory_template = {
 		story = "T10202",
 		id = 12,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T10202"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3972,7 +4036,10 @@ pg.base.memory_template = {
 		story = "T10301",
 		id = 13,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T10301"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3983,7 +4050,10 @@ pg.base.memory_template = {
 		story = "T10302",
 		id = 14,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T10302"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -3994,7 +4064,10 @@ pg.base.memory_template = {
 		story = "T10401",
 		id = 15,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T10401"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4005,7 +4078,10 @@ pg.base.memory_template = {
 		story = "T10402",
 		id = 16,
 		icon = "memorybg_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T10402"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4016,7 +4092,10 @@ pg.base.memory_template = {
 		story = "UI20101",
 		id = 17,
 		icon = "memorybg_3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"UI20101"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4027,7 +4106,10 @@ pg.base.memory_template = {
 		story = "T20201",
 		id = 18,
 		icon = "memorybg_4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T20201"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4038,7 +4120,10 @@ pg.base.memory_template = {
 		story = "T20301",
 		id = 19,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T20301"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4049,7 +4134,10 @@ pg.base.memory_template = {
 		story = "UI30101",
 		id = 20,
 		icon = "memorybg_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"UI30101"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4060,7 +4148,10 @@ pg.base.memory_template = {
 		story = "T30101",
 		id = 21,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T30101"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4071,7 +4162,10 @@ pg.base.memory_template = {
 		story = "T30102",
 		id = 22,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T30102"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4082,7 +4176,10 @@ pg.base.memory_template = {
 		story = "T30103",
 		id = 23,
 		icon = "memorybg_5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T30103"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4093,7 +4190,10 @@ pg.base.memory_template = {
 		story = "T30201",
 		id = 24,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T30201"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4104,7 +4204,10 @@ pg.base.memory_template = {
 		story = "T30202",
 		id = 25,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T30202"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4115,7 +4218,10 @@ pg.base.memory_template = {
 		story = "T30301",
 		id = 26,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T30301"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4126,7 +4232,10 @@ pg.base.memory_template = {
 		story = "T30401",
 		id = 27,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T30401"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4137,7 +4246,10 @@ pg.base.memory_template = {
 		story = "T30402",
 		id = 28,
 		icon = "memorybg_6",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"T30402"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4148,7 +4260,10 @@ pg.base.memory_template = {
 		story = "UIACT10000",
 		id = 29,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"UIACT10000"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4159,7 +4274,10 @@ pg.base.memory_template = {
 		story = "TACT10001",
 		id = 30,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT10001"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4170,7 +4288,10 @@ pg.base.memory_template = {
 		story = "TACT10002",
 		id = 31,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT10002"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4181,7 +4302,10 @@ pg.base.memory_template = {
 		story = "TACT10003",
 		id = 32,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT10003"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4192,7 +4316,10 @@ pg.base.memory_template = {
 		story = "TACT10004",
 		id = 33,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT10004"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4203,7 +4330,10 @@ pg.base.memory_template = {
 		story = "TACT10005",
 		id = 34,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT10005"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4214,7 +4344,10 @@ pg.base.memory_template = {
 		story = "UIACT20000",
 		id = 35,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"UIACT20000"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4225,7 +4358,10 @@ pg.base.memory_template = {
 		story = "TACT20001",
 		id = 36,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20001"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4236,7 +4372,10 @@ pg.base.memory_template = {
 		story = "TACT20002",
 		id = 37,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20002"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4247,7 +4386,10 @@ pg.base.memory_template = {
 		story = "TACT20003",
 		id = 38,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20003"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4258,7 +4400,10 @@ pg.base.memory_template = {
 		story = "TACT20004",
 		id = 39,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20004"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4269,7 +4414,10 @@ pg.base.memory_template = {
 		story = "TACT20011",
 		id = 40,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20011"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4280,7 +4428,10 @@ pg.base.memory_template = {
 		story = "TACT20005",
 		id = 41,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20005"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4291,7 +4442,10 @@ pg.base.memory_template = {
 		story = "UIACT20001",
 		id = 42,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"UIACT20001"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4302,7 +4456,10 @@ pg.base.memory_template = {
 		story = "TACT20006",
 		id = 43,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20006"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4313,7 +4470,10 @@ pg.base.memory_template = {
 		story = "TACT20007",
 		id = 44,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20007"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4324,7 +4484,10 @@ pg.base.memory_template = {
 		story = "TACT20008",
 		id = 45,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20008"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4335,7 +4498,10 @@ pg.base.memory_template = {
 		story = "TACT20009",
 		id = 46,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20009"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4346,7 +4512,10 @@ pg.base.memory_template = {
 		story = "TACT20010",
 		id = 47,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20010"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4357,7 +4526,10 @@ pg.base.memory_template = {
 		story = "TACT20012",
 		id = 48,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20012"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4368,7 +4540,10 @@ pg.base.memory_template = {
 		story = "TACT20013",
 		id = 49,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20013"
+		}
 	},
 	{
 		mask = "bg/bg_memory",
@@ -4379,7 +4554,10 @@ pg.base.memory_template = {
 		story = "TACT20014",
 		id = 50,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20014"
+		}
 	},
 	[4001] = {
 		mask = "bg/bg_memory",
@@ -4390,7 +4568,10 @@ pg.base.memory_template = {
 		story = "TACT20016",
 		id = 4001,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20016"
+		}
 	},
 	[4000] = {
 		mask = "bg/bg_memory",
@@ -4401,7 +4582,10 @@ pg.base.memory_template = {
 		story = "TACT20015",
 		id = 4000,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20015"
+		}
 	},
 	[4002] = {
 		mask = "bg/bg_memory",
@@ -4412,7 +4596,10 @@ pg.base.memory_template = {
 		story = "TACT20017",
 		id = 4002,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT20017"
+		}
 	},
 	[62] = {
 		mask = "bg/bg_memory",
@@ -4423,7 +4610,10 @@ pg.base.memory_template = {
 		story = "AKASHI1",
 		id = 62,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI1"
+		}
 	},
 	[63] = {
 		mask = "bg/bg_memory",
@@ -4434,7 +4624,10 @@ pg.base.memory_template = {
 		story = "AKASHI2",
 		id = 63,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI2"
+		}
 	},
 	[64] = {
 		mask = "bg/bg_memory",
@@ -4445,7 +4638,10 @@ pg.base.memory_template = {
 		story = "AKASHI3",
 		id = 64,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI3"
+		}
 	},
 	[65] = {
 		mask = "bg/bg_memory",
@@ -4456,7 +4652,10 @@ pg.base.memory_template = {
 		story = "AKASHI4",
 		id = 65,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI4"
+		}
 	},
 	[66] = {
 		mask = "bg/bg_memory",
@@ -4467,7 +4666,10 @@ pg.base.memory_template = {
 		story = "AKASHI5",
 		id = 66,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI5"
+		}
 	},
 	[67] = {
 		mask = "bg/bg_memory",
@@ -4478,7 +4680,10 @@ pg.base.memory_template = {
 		story = "AKASHI51",
 		id = 67,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI51"
+		}
 	},
 	[68] = {
 		mask = "bg/bg_memory",
@@ -4489,7 +4694,10 @@ pg.base.memory_template = {
 		story = "AKASHI6",
 		id = 68,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI6"
+		}
 	},
 	[69] = {
 		mask = "bg/bg_memory",
@@ -4500,7 +4708,10 @@ pg.base.memory_template = {
 		story = "AKASHI62",
 		id = 69,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI62"
+		}
 	},
 	[70] = {
 		mask = "bg/bg_memory",
@@ -4511,7 +4722,10 @@ pg.base.memory_template = {
 		story = "AKASHI63",
 		id = 70,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI63"
+		}
 	},
 	[71] = {
 		mask = "bg/bg_memory",
@@ -4522,7 +4736,10 @@ pg.base.memory_template = {
 		story = "AKASHI64",
 		id = 71,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI64"
+		}
 	},
 	[72] = {
 		mask = "bg/bg_memory",
@@ -4533,7 +4750,10 @@ pg.base.memory_template = {
 		story = "AKASHI7",
 		id = 72,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI7"
+		}
 	},
 	[73] = {
 		mask = "bg/bg_memory",
@@ -4544,7 +4764,10 @@ pg.base.memory_template = {
 		story = "AKASHI72",
 		id = 73,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI72"
+		}
 	},
 	[74] = {
 		mask = "bg/bg_memory",
@@ -4555,7 +4778,10 @@ pg.base.memory_template = {
 		story = "AKASHI8",
 		id = 74,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI8"
+		}
 	},
 	[75] = {
 		mask = "bg/bg_memory",
@@ -4566,7 +4792,10 @@ pg.base.memory_template = {
 		story = "AKASHI82",
 		id = 75,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI82"
+		}
 	},
 	[76] = {
 		mask = "bg/bg_memory",
@@ -4577,7 +4806,10 @@ pg.base.memory_template = {
 		story = "AKASHI83",
 		id = 76,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI83"
+		}
 	},
 	[77] = {
 		mask = "bg/bg_memory",
@@ -4588,7 +4820,10 @@ pg.base.memory_template = {
 		story = "AKASHI84",
 		id = 77,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI84"
+		}
 	},
 	[78] = {
 		mask = "bg/bg_memory",
@@ -4599,7 +4834,10 @@ pg.base.memory_template = {
 		story = "AKASHI85",
 		id = 78,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI85"
+		}
 	},
 	[79] = {
 		mask = "bg/bg_memory",
@@ -4610,7 +4848,10 @@ pg.base.memory_template = {
 		story = "AKASHI86",
 		id = 79,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI86"
+		}
 	},
 	[80] = {
 		mask = "bg/bg_memory",
@@ -4621,7 +4862,10 @@ pg.base.memory_template = {
 		story = "AKASHI9",
 		id = 80,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI9"
+		}
 	},
 	[81] = {
 		mask = "bg/bg_memory",
@@ -4632,7 +4876,10 @@ pg.base.memory_template = {
 		story = "AKASHI10",
 		id = 81,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AKASHI10"
+		}
 	},
 	[107] = {
 		mask = "bg/bg_memory",
@@ -4643,7 +4890,10 @@ pg.base.memory_template = {
 		story = "ZHONGQIU1",
 		id = 107,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHONGQIU1"
+		}
 	},
 	[108] = {
 		mask = "bg/bg_memory",
@@ -4654,7 +4904,10 @@ pg.base.memory_template = {
 		story = "ZHONGQIU2",
 		id = 108,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHONGQIU2"
+		}
 	},
 	[109] = {
 		mask = "bg/bg_memory",
@@ -4665,7 +4918,10 @@ pg.base.memory_template = {
 		story = "ZHONGQIU3",
 		id = 109,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHONGQIU3"
+		}
 	},
 	[110] = {
 		mask = "bg/bg_memory",
@@ -4676,7 +4932,10 @@ pg.base.memory_template = {
 		story = "ZHONGQIU4",
 		id = 110,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHONGQIU4"
+		}
 	},
 	[111] = {
 		mask = "bg/bg_memory",
@@ -4687,7 +4946,10 @@ pg.base.memory_template = {
 		story = "ZHONGQIU5",
 		id = 111,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHONGQIU5"
+		}
 	},
 	[112] = {
 		mask = "bg/bg_memory",
@@ -4698,7 +4960,10 @@ pg.base.memory_template = {
 		story = "ZHONGQIU6",
 		id = 112,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHONGQIU6"
+		}
 	},
 	[113] = {
 		mask = "bg/bg_memory",
@@ -4709,7 +4974,10 @@ pg.base.memory_template = {
 		story = "ZHONGQIU7",
 		id = 113,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHONGQIU7"
+		}
 	},
 	[114] = {
 		mask = "bg/bg_memory",
@@ -4720,7 +4988,10 @@ pg.base.memory_template = {
 		story = "GUOQING1",
 		id = 114,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING1"
+		}
 	},
 	[115] = {
 		mask = "bg/bg_memory",
@@ -4731,7 +5002,10 @@ pg.base.memory_template = {
 		story = "GUOQING3",
 		id = 115,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING3"
+		}
 	},
 	[116] = {
 		mask = "bg/bg_memory",
@@ -4742,7 +5016,10 @@ pg.base.memory_template = {
 		story = "GUOQING4",
 		id = 116,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING4"
+		}
 	},
 	[117] = {
 		mask = "bg/bg_memory",
@@ -4753,7 +5030,10 @@ pg.base.memory_template = {
 		story = "GUOQING5",
 		id = 117,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING5"
+		}
 	},
 	[118] = {
 		mask = "bg/bg_memory",
@@ -4764,7 +5044,10 @@ pg.base.memory_template = {
 		story = "GUOQING6",
 		id = 118,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING6"
+		}
 	},
 	[119] = {
 		mask = "bg/bg_memory",
@@ -4775,7 +5058,10 @@ pg.base.memory_template = {
 		story = "GUOQING7",
 		id = 119,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING7"
+		}
 	},
 	[120] = {
 		mask = "bg/bg_memory",
@@ -4786,7 +5072,10 @@ pg.base.memory_template = {
 		story = "GUOQING8",
 		id = 120,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING8"
+		}
 	},
 	[121] = {
 		mask = "bg/bg_memory",
@@ -4797,7 +5086,10 @@ pg.base.memory_template = {
 		story = "GUOQING9",
 		id = 121,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING9"
+		}
 	},
 	[122] = {
 		mask = "bg/bg_memory",
@@ -4808,7 +5100,10 @@ pg.base.memory_template = {
 		story = "GUOQING10",
 		id = 122,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING10"
+		}
 	},
 	[123] = {
 		mask = "bg/bg_memory",
@@ -4819,7 +5114,10 @@ pg.base.memory_template = {
 		story = "GUOQING11",
 		id = 123,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING11"
+		}
 	},
 	[124] = {
 		mask = "bg/bg_memory",
@@ -4830,7 +5128,10 @@ pg.base.memory_template = {
 		story = "GUOQING12",
 		id = 124,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING12"
+		}
 	},
 	[125] = {
 		mask = "bg/bg_memory",
@@ -4841,7 +5142,10 @@ pg.base.memory_template = {
 		story = "GUOQING13",
 		id = 125,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING13"
+		}
 	},
 	[126] = {
 		mask = "bg/bg_memory",
@@ -4852,7 +5156,10 @@ pg.base.memory_template = {
 		story = "GUOQING14",
 		id = 126,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING14"
+		}
 	},
 	[127] = {
 		mask = "bg/bg_memory",
@@ -4863,7 +5170,10 @@ pg.base.memory_template = {
 		story = "GUOQING15",
 		id = 127,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING15"
+		}
 	},
 	[128] = {
 		mask = "bg/bg_memory",
@@ -4874,7 +5184,10 @@ pg.base.memory_template = {
 		story = "GUOQING16",
 		id = 128,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING16"
+		}
 	},
 	[129] = {
 		mask = "bg/bg_memory",
@@ -4885,7 +5198,10 @@ pg.base.memory_template = {
 		story = "GUOQING17",
 		id = 129,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING17"
+		}
 	},
 	[130] = {
 		mask = "bg/bg_memory",
@@ -4896,7 +5212,10 @@ pg.base.memory_template = {
 		story = "GUOQING18",
 		id = 130,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING18"
+		}
 	},
 	[131] = {
 		mask = "bg/bg_memory",
@@ -4907,7 +5226,10 @@ pg.base.memory_template = {
 		story = "GUOQING19",
 		id = 131,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUOQING19"
+		}
 	},
 	[132] = {
 		mask = "bg/bg_memory",
@@ -4918,7 +5240,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO1",
 		id = 132,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO1"
+		}
 	},
 	[133] = {
 		mask = "bg/bg_memory",
@@ -4929,7 +5254,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO2",
 		id = 133,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO2"
+		}
 	},
 	[134] = {
 		mask = "bg/bg_memory",
@@ -4940,7 +5268,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO3",
 		id = 134,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO3"
+		}
 	},
 	[135] = {
 		mask = "bg/bg_memory",
@@ -4951,7 +5282,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO4",
 		id = 135,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO4"
+		}
 	},
 	[136] = {
 		mask = "bg/bg_memory",
@@ -4962,7 +5296,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO5",
 		id = 136,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO5"
+		}
 	},
 	[137] = {
 		mask = "bg/bg_memory",
@@ -4973,7 +5310,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO6",
 		id = 137,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO6"
+		}
 	},
 	[138] = {
 		mask = "bg/bg_memory",
@@ -4984,7 +5324,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO7",
 		id = 138,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO7"
+		}
 	},
 	[139] = {
 		mask = "bg/bg_memory",
@@ -4995,7 +5338,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO8",
 		id = 139,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO8"
+		}
 	},
 	[140] = {
 		mask = "bg/bg_memory",
@@ -5006,7 +5352,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO9",
 		id = 140,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO9"
+		}
 	},
 	[141] = {
 		mask = "bg/bg_memory",
@@ -5017,7 +5366,10 @@ pg.base.memory_template = {
 		story = "ZHUNUO10",
 		id = 141,
 		icon = "activity",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUNUO10"
+		}
 	},
 	[142] = {
 		mask = "bg/bg_memory",
@@ -5028,7 +5380,10 @@ pg.base.memory_template = {
 		story = "WANSHENGJIE1",
 		id = 142,
 		icon = "wanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGJIE1"
+		}
 	},
 	[143] = {
 		mask = "bg/bg_memory",
@@ -5039,7 +5394,10 @@ pg.base.memory_template = {
 		story = "WANSHENGJIE2",
 		id = 143,
 		icon = "wanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGJIE2"
+		}
 	},
 	[144] = {
 		mask = "bg/bg_memory",
@@ -5050,7 +5408,10 @@ pg.base.memory_template = {
 		story = "WANSHENGJIE3",
 		id = 144,
 		icon = "wanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGJIE3"
+		}
 	},
 	[145] = {
 		mask = "bg/bg_memory",
@@ -5061,7 +5422,10 @@ pg.base.memory_template = {
 		story = "WANSHENGJIE4",
 		id = 145,
 		icon = "wanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGJIE4"
+		}
 	},
 	[146] = {
 		mask = "bg/bg_memory",
@@ -5072,7 +5436,10 @@ pg.base.memory_template = {
 		story = "WANSHENGJIE5",
 		id = 146,
 		icon = "wanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGJIE5"
+		}
 	},
 	[147] = {
 		mask = "bg/bg_memory",
@@ -5083,7 +5450,10 @@ pg.base.memory_template = {
 		story = "WANSHENGJIE6",
 		id = 147,
 		icon = "wanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGJIE6"
+		}
 	},
 	[148] = {
 		mask = "bg/bg_memory",
@@ -5094,7 +5464,10 @@ pg.base.memory_template = {
 		story = "WANSHENGJIE7",
 		id = 148,
 		icon = "wanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGJIE7"
+		}
 	},
 	[149] = {
 		mask = "bg/bg_memory",
@@ -5105,7 +5478,10 @@ pg.base.memory_template = {
 		story = "XINGCHEN1",
 		id = 149,
 		icon = "xingchen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGCHEN1"
+		}
 	},
 	[150] = {
 		mask = "bg/bg_memory",
@@ -5116,7 +5492,10 @@ pg.base.memory_template = {
 		story = "XINGCHEN2",
 		id = 150,
 		icon = "xingchen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGCHEN2"
+		}
 	},
 	[151] = {
 		mask = "bg/bg_memory",
@@ -5127,7 +5506,10 @@ pg.base.memory_template = {
 		story = "XINGCHEN3",
 		id = 151,
 		icon = "xingchen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGCHEN3"
+		}
 	},
 	[152] = {
 		mask = "bg/bg_memory",
@@ -5138,7 +5520,10 @@ pg.base.memory_template = {
 		story = "XINGCHEN4",
 		id = 152,
 		icon = "xingchen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGCHEN4"
+		}
 	},
 	[153] = {
 		mask = "bg/bg_memory",
@@ -5149,7 +5534,10 @@ pg.base.memory_template = {
 		story = "XINGCHEN5",
 		id = 153,
 		icon = "xingchen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGCHEN5"
+		}
 	},
 	[154] = {
 		mask = "bg/bg_memory",
@@ -5160,7 +5548,10 @@ pg.base.memory_template = {
 		story = "XINGCHEN6",
 		id = 154,
 		icon = "xingchen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGCHEN6"
+		}
 	},
 	[155] = {
 		mask = "bg/bg_memory",
@@ -5171,7 +5562,10 @@ pg.base.memory_template = {
 		story = "XINGCHEN7",
 		id = 155,
 		icon = "xingchen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGCHEN7"
+		}
 	},
 	[156] = {
 		mask = "bg/bg_memory",
@@ -5182,7 +5576,10 @@ pg.base.memory_template = {
 		story = "TEATIME1",
 		id = 156,
 		icon = "teatime",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEATIME1"
+		}
 	},
 	[157] = {
 		mask = "bg/bg_memory",
@@ -5193,7 +5590,10 @@ pg.base.memory_template = {
 		story = "TEATIME2",
 		id = 157,
 		icon = "teatime",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEATIME2"
+		}
 	},
 	[158] = {
 		mask = "bg/bg_memory",
@@ -5204,7 +5604,10 @@ pg.base.memory_template = {
 		story = "TEATIME3",
 		id = 158,
 		icon = "teatime",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEATIME3"
+		}
 	},
 	[159] = {
 		mask = "bg/bg_memory",
@@ -5215,7 +5618,10 @@ pg.base.memory_template = {
 		story = "TEATIME4",
 		id = 159,
 		icon = "teatime",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEATIME4"
+		}
 	},
 	[160] = {
 		mask = "bg/bg_memory",
@@ -5226,7 +5632,10 @@ pg.base.memory_template = {
 		story = "TEATIME5",
 		id = 160,
 		icon = "teatime",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEATIME5"
+		}
 	},
 	[161] = {
 		mask = "bg/bg_memory",
@@ -5237,7 +5646,10 @@ pg.base.memory_template = {
 		story = "TEATIME6",
 		id = 161,
 		icon = "teatime",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEATIME6"
+		}
 	},
 	[162] = {
 		mask = "bg/bg_memory",
@@ -5248,7 +5660,10 @@ pg.base.memory_template = {
 		story = "TEATIME7",
 		id = 162,
 		icon = "teatime",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEATIME7"
+		}
 	},
 	[163] = {
 		mask = "bg/bg_memory",
@@ -5259,7 +5674,10 @@ pg.base.memory_template = {
 		story = "SHENGDAN01",
 		id = 163,
 		icon = "christmas",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDAN01"
+		}
 	},
 	[164] = {
 		mask = "bg/bg_memory",
@@ -5270,7 +5688,10 @@ pg.base.memory_template = {
 		story = "SHENGDAN02",
 		id = 164,
 		icon = "christmas",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDAN02"
+		}
 	},
 	[165] = {
 		mask = "bg/bg_memory",
@@ -5281,7 +5702,10 @@ pg.base.memory_template = {
 		story = "SHENGDAN03",
 		id = 165,
 		icon = "christmas",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDAN03"
+		}
 	},
 	[166] = {
 		mask = "bg/bg_memory",
@@ -5292,7 +5716,10 @@ pg.base.memory_template = {
 		story = "SHENGDAN04",
 		id = 166,
 		icon = "christmas",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDAN04"
+		}
 	},
 	[167] = {
 		mask = "bg/bg_memory",
@@ -5303,7 +5730,10 @@ pg.base.memory_template = {
 		story = "SHENGDAN05",
 		id = 167,
 		icon = "christmas",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDAN05"
+		}
 	},
 	[168] = {
 		mask = "bg/bg_memory",
@@ -5314,7 +5744,10 @@ pg.base.memory_template = {
 		story = "SHENGDAN06",
 		id = 168,
 		icon = "christmas",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDAN06"
+		}
 	},
 	[169] = {
 		mask = "bg/bg_memory",
@@ -5325,7 +5758,10 @@ pg.base.memory_template = {
 		story = "SHENGDAN07",
 		id = 169,
 		icon = "christmas",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDAN07"
+		}
 	},
 	[170] = {
 		mask = "bg/bg_memory",
@@ -5336,7 +5772,10 @@ pg.base.memory_template = {
 		story = "SHENGDAN08",
 		id = 170,
 		icon = "christmas",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDAN08"
+		}
 	},
 	[171] = {
 		mask = "bg/bg_memory",
@@ -5347,7 +5786,10 @@ pg.base.memory_template = {
 		story = "XINNIAN1",
 		id = 171,
 		icon = "xinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINNIAN1"
+		}
 	},
 	[172] = {
 		mask = "bg/bg_memory",
@@ -5358,7 +5800,10 @@ pg.base.memory_template = {
 		story = "XINNIAN2",
 		id = 172,
 		icon = "xinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINNIAN2"
+		}
 	},
 	[173] = {
 		mask = "bg/bg_memory",
@@ -5369,7 +5814,10 @@ pg.base.memory_template = {
 		story = "XINNIAN3",
 		id = 173,
 		icon = "xinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINNIAN3"
+		}
 	},
 	[174] = {
 		mask = "bg/bg_memory",
@@ -5380,7 +5828,10 @@ pg.base.memory_template = {
 		story = "XINNIAN4",
 		id = 174,
 		icon = "xinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINNIAN4"
+		}
 	},
 	[175] = {
 		mask = "bg/bg_memory",
@@ -5391,7 +5842,10 @@ pg.base.memory_template = {
 		story = "XINNIAN5",
 		id = 175,
 		icon = "xinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINNIAN5"
+		}
 	},
 	[176] = {
 		mask = "bg/bg_memory",
@@ -5402,7 +5856,10 @@ pg.base.memory_template = {
 		story = "XINNIAN6",
 		id = 176,
 		icon = "xinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINNIAN6"
+		}
 	},
 	[177] = {
 		mask = "bg/bg_memory",
@@ -5413,7 +5870,10 @@ pg.base.memory_template = {
 		story = "XINNIAN7",
 		id = 177,
 		icon = "xinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINNIAN7"
+		}
 	},
 	[178] = {
 		mask = "bg/bg_memory",
@@ -5424,7 +5884,10 @@ pg.base.memory_template = {
 		story = "DONGHUO01",
 		id = 178,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO01"
+		}
 	},
 	[179] = {
 		mask = "bg/bg_memory",
@@ -5435,7 +5898,10 @@ pg.base.memory_template = {
 		story = "DONGHUO03",
 		id = 179,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO03"
+		}
 	},
 	[180] = {
 		mask = "bg/bg_memory",
@@ -5446,7 +5912,10 @@ pg.base.memory_template = {
 		story = "DONGHUO04",
 		id = 180,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO04"
+		}
 	},
 	[181] = {
 		mask = "bg/bg_memory",
@@ -5457,7 +5926,10 @@ pg.base.memory_template = {
 		story = "DONGHUO05",
 		id = 181,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO05"
+		}
 	},
 	[182] = {
 		mask = "bg/bg_memory",
@@ -5468,7 +5940,10 @@ pg.base.memory_template = {
 		story = "DONGHUO06",
 		id = 182,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO06"
+		}
 	},
 	[183] = {
 		mask = "bg/bg_memory",
@@ -5479,7 +5954,10 @@ pg.base.memory_template = {
 		story = "DONGHUO07",
 		id = 183,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO07"
+		}
 	},
 	[184] = {
 		mask = "bg/bg_memory",
@@ -5490,7 +5968,10 @@ pg.base.memory_template = {
 		story = "DONGHUO08",
 		id = 184,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO08"
+		}
 	},
 	[185] = {
 		mask = "bg/bg_memory",
@@ -5501,7 +5982,10 @@ pg.base.memory_template = {
 		story = "DONGHUO09",
 		id = 185,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO09"
+		}
 	},
 	[186] = {
 		mask = "bg/bg_memory",
@@ -5512,7 +5996,10 @@ pg.base.memory_template = {
 		story = "DONGHUO10",
 		id = 186,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO10"
+		}
 	},
 	[187] = {
 		mask = "bg/bg_memory",
@@ -5523,7 +6010,10 @@ pg.base.memory_template = {
 		story = "1060600",
 		id = 187,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1060600"
+		}
 	},
 	[188] = {
 		mask = "bg/bg_memory",
@@ -5534,7 +6024,10 @@ pg.base.memory_template = {
 		story = "DONGHUO12",
 		id = 188,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO12"
+		}
 	},
 	[189] = {
 		mask = "bg/bg_memory",
@@ -5545,7 +6038,10 @@ pg.base.memory_template = {
 		story = "SHANCHENG01",
 		id = 189,
 		icon = "memory_shancheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENG01"
+		}
 	},
 	[190] = {
 		mask = "bg/bg_memory",
@@ -5556,7 +6052,10 @@ pg.base.memory_template = {
 		story = "SHANCHENG02",
 		id = 190,
 		icon = "memory_shancheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENG02"
+		}
 	},
 	[191] = {
 		mask = "bg/bg_memory",
@@ -5567,7 +6066,10 @@ pg.base.memory_template = {
 		story = "SHANCHENG03",
 		id = 191,
 		icon = "memory_shancheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENG03"
+		}
 	},
 	[192] = {
 		mask = "bg/bg_memory",
@@ -5578,7 +6080,10 @@ pg.base.memory_template = {
 		story = "SHANCHENG04",
 		id = 192,
 		icon = "memory_shancheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENG04"
+		}
 	},
 	[193] = {
 		mask = "bg/bg_memory",
@@ -5589,7 +6094,10 @@ pg.base.memory_template = {
 		story = "SHANCHENG05",
 		id = 193,
 		icon = "memory_shancheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENG05"
+		}
 	},
 	[194] = {
 		mask = "bg/bg_memory",
@@ -5600,7 +6108,10 @@ pg.base.memory_template = {
 		story = "SHANCHENG06",
 		id = 194,
 		icon = "memory_shancheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENG06"
+		}
 	},
 	[195] = {
 		mask = "bg/bg_memory",
@@ -5611,7 +6122,10 @@ pg.base.memory_template = {
 		story = "SHANCHENG07",
 		id = 195,
 		icon = "memory_shancheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENG07"
+		}
 	},
 	[196] = {
 		mask = "bg/bg_memory",
@@ -5622,7 +6136,10 @@ pg.base.memory_template = {
 		story = "WEIJIAO01",
 		id = 196,
 		icon = "sipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAO01"
+		}
 	},
 	[197] = {
 		mask = "bg/bg_memory",
@@ -5633,7 +6150,10 @@ pg.base.memory_template = {
 		story = "WEIJIAO02",
 		id = 197,
 		icon = "sipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAO02"
+		}
 	},
 	[198] = {
 		mask = "bg/bg_memory",
@@ -5644,7 +6164,10 @@ pg.base.memory_template = {
 		story = "WEIJIAO03",
 		id = 198,
 		icon = "sipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAO03"
+		}
 	},
 	[199] = {
 		mask = "bg/bg_memory",
@@ -5655,7 +6178,10 @@ pg.base.memory_template = {
 		story = "WEIJIAO04",
 		id = 199,
 		icon = "sipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAO04"
+		}
 	},
 	[200] = {
 		mask = "bg/bg_memory",
@@ -5666,7 +6192,10 @@ pg.base.memory_template = {
 		story = "WEIJIAO05",
 		id = 200,
 		icon = "sipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAO05"
+		}
 	},
 	[201] = {
 		mask = "bg/bg_memory",
@@ -5677,7 +6206,10 @@ pg.base.memory_template = {
 		story = "WEIJIAO06",
 		id = 201,
 		icon = "sipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAO06"
+		}
 	},
 	[202] = {
 		mask = "bg/bg_memory",
@@ -5688,7 +6220,10 @@ pg.base.memory_template = {
 		story = "WEIJIAO07",
 		id = 202,
 		icon = "sipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAO07"
+		}
 	},
 	[203] = {
 		mask = "bg/bg_memory",
@@ -5699,7 +6234,10 @@ pg.base.memory_template = {
 		story = "WEIJIAO08",
 		id = 203,
 		icon = "sipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAO08"
+		}
 	},
 	[204] = {
 		mask = "bg/bg_memory",
@@ -5710,7 +6248,10 @@ pg.base.memory_template = {
 		story = "WEIJIAO09",
 		id = 204,
 		icon = "sipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAO09"
+		}
 	},
 	[205] = {
 		mask = "bg/bg_memory",
@@ -5721,7 +6262,10 @@ pg.base.memory_template = {
 		story = "ANSHAN01",
 		id = 205,
 		icon = "memory_anshan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANSHAN01"
+		}
 	},
 	[206] = {
 		mask = "bg/bg_memory",
@@ -5732,7 +6276,10 @@ pg.base.memory_template = {
 		story = "ANSHAN02",
 		id = 206,
 		icon = "memory_anshan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANSHAN02"
+		}
 	},
 	[207] = {
 		mask = "bg/bg_memory",
@@ -5743,7 +6290,10 @@ pg.base.memory_template = {
 		story = "ANSHAN03",
 		id = 207,
 		icon = "memory_anshan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANSHAN03"
+		}
 	},
 	[208] = {
 		mask = "bg/bg_memory",
@@ -5754,7 +6304,10 @@ pg.base.memory_template = {
 		story = "ANSHAN04",
 		id = 208,
 		icon = "memory_anshan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANSHAN04"
+		}
 	},
 	[209] = {
 		mask = "bg/bg_memory",
@@ -5765,7 +6318,10 @@ pg.base.memory_template = {
 		story = "ANSHAN05",
 		id = 209,
 		icon = "memory_anshan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANSHAN05"
+		}
 	},
 	[210] = {
 		mask = "bg/bg_memory",
@@ -5776,7 +6332,10 @@ pg.base.memory_template = {
 		story = "FUSHUN01",
 		id = 210,
 		icon = "memory_fushun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN01"
+		}
 	},
 	[211] = {
 		mask = "bg/bg_memory",
@@ -5787,7 +6346,10 @@ pg.base.memory_template = {
 		story = "FUSHUN02",
 		id = 211,
 		icon = "memory_fushun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN02"
+		}
 	},
 	[212] = {
 		mask = "bg/bg_memory",
@@ -5798,7 +6360,10 @@ pg.base.memory_template = {
 		story = "FUSHUN03",
 		id = 212,
 		icon = "memory_fushun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN03"
+		}
 	},
 	[213] = {
 		mask = "bg/bg_memory",
@@ -5809,7 +6374,10 @@ pg.base.memory_template = {
 		story = "FUSHUN04",
 		id = 213,
 		icon = "memory_fushun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN04"
+		}
 	},
 	[214] = {
 		mask = "bg/bg_memory",
@@ -5820,7 +6388,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANE1",
 		id = 214,
 		icon = "memory_xiaotiane",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANE1"
+		}
 	},
 	[215] = {
 		mask = "bg/bg_memory",
@@ -5831,7 +6402,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANE2",
 		id = 215,
 		icon = "memory_xiaotiane",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANE2"
+		}
 	},
 	[216] = {
 		mask = "bg/bg_memory",
@@ -5842,7 +6416,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANE3",
 		id = 216,
 		icon = "memory_xiaotiane",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANE3"
+		}
 	},
 	[217] = {
 		mask = "bg/bg_memory",
@@ -5853,7 +6430,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANE4",
 		id = 217,
 		icon = "memory_xiaotiane",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANE4"
+		}
 	},
 	[218] = {
 		mask = "bg/bg_memory",
@@ -5864,7 +6444,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANE5",
 		id = 218,
 		icon = "memory_xiaotiane",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANE5"
+		}
 	},
 	[219] = {
 		mask = "bg/bg_memory",
@@ -5875,7 +6458,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANE6",
 		id = 219,
 		icon = "memory_xiaotiane",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANE6"
+		}
 	},
 	[220] = {
 		mask = "bg/bg_memory",
@@ -5886,7 +6472,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANE7",
 		id = 220,
 		icon = "memory_xiaotiane",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANE7"
+		}
 	},
 	[221] = {
 		mask = "bg/bg_memory",
@@ -5897,7 +6486,10 @@ pg.base.memory_template = {
 		story = "LINGDONG01",
 		id = 221,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG01"
+		}
 	},
 	[222] = {
 		mask = "bg/bg_memory",
@@ -5908,7 +6500,10 @@ pg.base.memory_template = {
 		story = "LINGDONG02",
 		id = 222,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG02"
+		}
 	},
 	[223] = {
 		mask = "bg/bg_memory",
@@ -5919,7 +6514,10 @@ pg.base.memory_template = {
 		story = "LINGDONG03",
 		id = 223,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG03"
+		}
 	},
 	[224] = {
 		mask = "bg/bg_memory",
@@ -5930,7 +6528,10 @@ pg.base.memory_template = {
 		story = "LINGDONG04",
 		id = 224,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG04"
+		}
 	},
 	[225] = {
 		mask = "bg/bg_memory",
@@ -5941,7 +6542,10 @@ pg.base.memory_template = {
 		story = "LINGDONG05",
 		id = 225,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG05"
+		}
 	},
 	[226] = {
 		mask = "bg/bg_memory",
@@ -5952,7 +6556,10 @@ pg.base.memory_template = {
 		story = "LINGDONG06",
 		id = 226,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG06"
+		}
 	},
 	[227] = {
 		mask = "bg/bg_memory",
@@ -5963,7 +6570,10 @@ pg.base.memory_template = {
 		story = "LINGDONG07",
 		id = 227,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG07"
+		}
 	},
 	[228] = {
 		mask = "bg/bg_memory",
@@ -5974,7 +6584,10 @@ pg.base.memory_template = {
 		story = "LINGDONG08",
 		id = 228,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG08"
+		}
 	},
 	[229] = {
 		mask = "bg/bg_memory",
@@ -5985,7 +6598,10 @@ pg.base.memory_template = {
 		story = "LINGDONG09",
 		id = 229,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG09"
+		}
 	},
 	[230] = {
 		mask = "bg/bg_memory",
@@ -5996,7 +6612,10 @@ pg.base.memory_template = {
 		story = "LINGDONG10",
 		id = 230,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG10"
+		}
 	},
 	[231] = {
 		mask = "bg/bg_memory",
@@ -6007,7 +6626,10 @@ pg.base.memory_template = {
 		story = "LINGDONG11",
 		id = 231,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG11"
+		}
 	},
 	[232] = {
 		mask = "bg/bg_memory",
@@ -6018,7 +6640,10 @@ pg.base.memory_template = {
 		story = "LINGDONG12",
 		id = 232,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG12"
+		}
 	},
 	[233] = {
 		mask = "bg/bg_memory",
@@ -6029,7 +6654,10 @@ pg.base.memory_template = {
 		story = "LINGDONG13",
 		id = 233,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG13"
+		}
 	},
 	[234] = {
 		mask = "bg/bg_memory",
@@ -6040,7 +6668,10 @@ pg.base.memory_template = {
 		story = "LINGDONG14",
 		id = 234,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG14"
+		}
 	},
 	[235] = {
 		mask = "bg/bg_memory",
@@ -6051,7 +6682,10 @@ pg.base.memory_template = {
 		story = "LINGDONG15",
 		id = 235,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG15"
+		}
 	},
 	[236] = {
 		mask = "bg/bg_memory",
@@ -6062,7 +6696,10 @@ pg.base.memory_template = {
 		story = "LINGDONG16",
 		id = 236,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG16"
+		}
 	},
 	[237] = {
 		mask = "bg/bg_memory",
@@ -6073,7 +6710,10 @@ pg.base.memory_template = {
 		story = "LINGDONG17",
 		id = 237,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG17"
+		}
 	},
 	[238] = {
 		mask = "bg/bg_memory",
@@ -6084,7 +6724,10 @@ pg.base.memory_template = {
 		story = "LINGDONG18",
 		id = 238,
 		icon = "memory_lindong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGDONG18"
+		}
 	},
 	[239] = {
 		mask = "bg/bg_memory",
@@ -6095,7 +6738,10 @@ pg.base.memory_template = {
 		story = "SHANGYING1",
 		id = 239,
 		icon = "memory_shangying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANGYING1"
+		}
 	},
 	[240] = {
 		mask = "bg/bg_memory",
@@ -6106,7 +6752,10 @@ pg.base.memory_template = {
 		story = "SHANGYING2",
 		id = 240,
 		icon = "memory_shangying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANGYING2"
+		}
 	},
 	[241] = {
 		mask = "bg/bg_memory",
@@ -6117,7 +6766,10 @@ pg.base.memory_template = {
 		story = "SHANGYING3",
 		id = 241,
 		icon = "memory_shangying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANGYING3"
+		}
 	},
 	[242] = {
 		mask = "bg/bg_memory",
@@ -6128,7 +6780,10 @@ pg.base.memory_template = {
 		story = "SHANGYING4",
 		id = 242,
 		icon = "memory_shangying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANGYING4"
+		}
 	},
 	[243] = {
 		mask = "bg/bg_memory",
@@ -6139,7 +6794,10 @@ pg.base.memory_template = {
 		story = "SHANGYING5",
 		id = 243,
 		icon = "memory_shangying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANGYING5"
+		}
 	},
 	[244] = {
 		mask = "bg/bg_memory",
@@ -6150,7 +6808,10 @@ pg.base.memory_template = {
 		story = "SHANGYING6",
 		id = 244,
 		icon = "memory_shangying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANGYING6"
+		}
 	},
 	[245] = {
 		mask = "bg/bg_memory",
@@ -6161,7 +6822,10 @@ pg.base.memory_template = {
 		story = "SHANGYING7",
 		id = 245,
 		icon = "memory_shangying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANGYING7"
+		}
 	},
 	[246] = {
 		mask = "bg/bg_memory",
@@ -6172,7 +6836,10 @@ pg.base.memory_template = {
 		story = "RUIHE1",
 		id = 246,
 		icon = "chara_ruihe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUIHE1"
+		}
 	},
 	[247] = {
 		mask = "bg/bg_memory",
@@ -6183,7 +6850,10 @@ pg.base.memory_template = {
 		story = "RUIHE2",
 		id = 247,
 		icon = "chara_ruihe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUIHE2"
+		}
 	},
 	[248] = {
 		mask = "bg/bg_memory",
@@ -6194,7 +6864,10 @@ pg.base.memory_template = {
 		story = "RUIHE3",
 		id = 248,
 		icon = "chara_ruihe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUIHE3"
+		}
 	},
 	[249] = {
 		mask = "bg/bg_memory",
@@ -6205,7 +6878,10 @@ pg.base.memory_template = {
 		story = "RUIHE4",
 		id = 249,
 		icon = "chara_ruihe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUIHE4"
+		}
 	},
 	[250] = {
 		mask = "bg/bg_memory",
@@ -6216,7 +6892,10 @@ pg.base.memory_template = {
 		story = "RUIHE5",
 		id = 250,
 		icon = "chara_ruihe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUIHE5"
+		}
 	},
 	[251] = {
 		mask = "bg/bg_memory",
@@ -6227,7 +6906,10 @@ pg.base.memory_template = {
 		story = "RUIHE6",
 		id = 251,
 		icon = "chara_ruihe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUIHE6"
+		}
 	},
 	[252] = {
 		mask = "bg/bg_memory",
@@ -6238,7 +6920,10 @@ pg.base.memory_template = {
 		story = "RUIHE7",
 		id = 252,
 		icon = "chara_ruihe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUIHE7"
+		}
 	},
 	[253] = {
 		mask = "bg/bg_memory",
@@ -6249,7 +6934,10 @@ pg.base.memory_template = {
 		story = "KAIXUE01",
 		id = 253,
 		icon = "memory_keleiwen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUE01"
+		}
 	},
 	[254] = {
 		mask = "bg/bg_memory",
@@ -6260,7 +6948,10 @@ pg.base.memory_template = {
 		story = "KAIXUE02",
 		id = 254,
 		icon = "memory_keleiwen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUE02"
+		}
 	},
 	[255] = {
 		mask = "bg/bg_memory",
@@ -6271,7 +6962,10 @@ pg.base.memory_template = {
 		story = "KAIXUE03",
 		id = 255,
 		icon = "memory_keleiwen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUE03"
+		}
 	},
 	[256] = {
 		mask = "bg/bg_memory",
@@ -6282,7 +6976,10 @@ pg.base.memory_template = {
 		story = "KAIXUE04",
 		id = 256,
 		icon = "memory_keleiwen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUE04"
+		}
 	},
 	[257] = {
 		mask = "bg/bg_memory",
@@ -6293,7 +6990,10 @@ pg.base.memory_template = {
 		story = "KAIXUE05",
 		id = 257,
 		icon = "memory_keleiwen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUE05"
+		}
 	},
 	[258] = {
 		mask = "bg/bg_memory",
@@ -6304,7 +7004,10 @@ pg.base.memory_template = {
 		story = "KAIXUE06",
 		id = 258,
 		icon = "memory_keleiwen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUE06"
+		}
 	},
 	[259] = {
 		mask = "bg/bg_memory",
@@ -6315,7 +7018,10 @@ pg.base.memory_template = {
 		story = "KAIXUE07",
 		id = 259,
 		icon = "memory_keleiwen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUE07"
+		}
 	},
 	[260] = {
 		mask = "bg/bg_memory",
@@ -6326,7 +7032,10 @@ pg.base.memory_template = {
 		story = "XUEFENG1",
 		id = 260,
 		icon = "memory_xuefeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEFENG1"
+		}
 	},
 	[261] = {
 		mask = "bg/bg_memory",
@@ -6337,7 +7046,10 @@ pg.base.memory_template = {
 		story = "XUEFENG2",
 		id = 261,
 		icon = "memory_xuefeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEFENG2"
+		}
 	},
 	[262] = {
 		mask = "bg/bg_memory",
@@ -6348,7 +7060,10 @@ pg.base.memory_template = {
 		story = "XUEFENG3",
 		id = 262,
 		icon = "memory_xuefeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEFENG3"
+		}
 	},
 	[263] = {
 		mask = "bg/bg_memory",
@@ -6359,7 +7074,10 @@ pg.base.memory_template = {
 		story = "XUEFENG4",
 		id = 263,
 		icon = "memory_xuefeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEFENG4"
+		}
 	},
 	[264] = {
 		mask = "bg/bg_memory",
@@ -6370,7 +7088,10 @@ pg.base.memory_template = {
 		story = "XUEFENG5",
 		id = 264,
 		icon = "memory_xuefeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEFENG5"
+		}
 	},
 	[265] = {
 		mask = "bg/bg_memory",
@@ -6381,7 +7102,10 @@ pg.base.memory_template = {
 		story = "XUEFENG6",
 		id = 265,
 		icon = "memory_xuefeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEFENG6"
+		}
 	},
 	[266] = {
 		mask = "bg/bg_memory",
@@ -6392,7 +7116,10 @@ pg.base.memory_template = {
 		story = "XUEFENG7",
 		id = 266,
 		icon = "memory_xuefeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEFENG7"
+		}
 	},
 	[267] = {
 		mask = "bg/bg_memory",
@@ -6403,7 +7130,10 @@ pg.base.memory_template = {
 		story = "AJIAKESI1",
 		id = 267,
 		icon = "memory_ajiakesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AJIAKESI1"
+		}
 	},
 	[268] = {
 		mask = "bg/bg_memory",
@@ -6414,7 +7144,10 @@ pg.base.memory_template = {
 		story = "AJIAKESI2",
 		id = 268,
 		icon = "memory_ajiakesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AJIAKESI2"
+		}
 	},
 	[269] = {
 		mask = "bg/bg_memory",
@@ -6425,7 +7158,10 @@ pg.base.memory_template = {
 		story = "AJIAKESI3",
 		id = 269,
 		icon = "memory_ajiakesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AJIAKESI3"
+		}
 	},
 	[270] = {
 		mask = "bg/bg_memory",
@@ -6436,7 +7172,10 @@ pg.base.memory_template = {
 		story = "AJIAKESI4",
 		id = 270,
 		icon = "memory_ajiakesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AJIAKESI4"
+		}
 	},
 	[271] = {
 		mask = "bg/bg_memory",
@@ -6447,7 +7186,10 @@ pg.base.memory_template = {
 		story = "AJIAKESI5",
 		id = 271,
 		icon = "memory_ajiakesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AJIAKESI5"
+		}
 	},
 	[272] = {
 		mask = "bg/bg_memory",
@@ -6458,7 +7200,10 @@ pg.base.memory_template = {
 		story = "AJIAKESI6",
 		id = 272,
 		icon = "memory_ajiakesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AJIAKESI6"
+		}
 	},
 	[273] = {
 		mask = "bg/bg_memory",
@@ -6469,7 +7214,10 @@ pg.base.memory_template = {
 		story = "AJIAKESI7",
 		id = 273,
 		icon = "memory_ajiakesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AJIAKESI7"
+		}
 	},
 	[274] = {
 		mask = "bg/bg_memory",
@@ -6480,7 +7228,10 @@ pg.base.memory_template = {
 		story = "HAMAN1",
 		id = 274,
 		icon = "memory_haman",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAMAN1"
+		}
 	},
 	[275] = {
 		mask = "bg/bg_memory",
@@ -6491,7 +7242,10 @@ pg.base.memory_template = {
 		story = "HAMAN2",
 		id = 275,
 		icon = "memory_haman",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAMAN2"
+		}
 	},
 	[276] = {
 		mask = "bg/bg_memory",
@@ -6502,7 +7256,10 @@ pg.base.memory_template = {
 		story = "HAMAN3",
 		id = 276,
 		icon = "memory_haman",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAMAN3"
+		}
 	},
 	[277] = {
 		mask = "bg/bg_memory",
@@ -6513,7 +7270,10 @@ pg.base.memory_template = {
 		story = "HAMAN4",
 		id = 277,
 		icon = "memory_haman",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAMAN4"
+		}
 	},
 	[278] = {
 		mask = "bg/bg_memory",
@@ -6524,7 +7284,10 @@ pg.base.memory_template = {
 		story = "HAMAN5",
 		id = 278,
 		icon = "memory_haman",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAMAN5"
+		}
 	},
 	[279] = {
 		mask = "bg/bg_memory",
@@ -6535,7 +7298,10 @@ pg.base.memory_template = {
 		story = "HAMAN6",
 		id = 279,
 		icon = "memory_haman",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAMAN6"
+		}
 	},
 	[280] = {
 		mask = "bg/bg_memory",
@@ -6546,7 +7312,10 @@ pg.base.memory_template = {
 		story = "HAMAN7",
 		id = 280,
 		icon = "memory_haman",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAMAN7"
+		}
 	},
 	[281] = {
 		mask = "bg/bg_memory",
@@ -6557,7 +7326,10 @@ pg.base.memory_template = {
 		story = "CHICHENG1",
 		id = 281,
 		icon = "memory_chicheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHICHENG1"
+		}
 	},
 	[282] = {
 		mask = "bg/bg_memory",
@@ -6568,7 +7340,10 @@ pg.base.memory_template = {
 		story = "CHICHENG2",
 		id = 282,
 		icon = "memory_chicheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHICHENG2"
+		}
 	},
 	[283] = {
 		mask = "bg/bg_memory",
@@ -6579,7 +7354,10 @@ pg.base.memory_template = {
 		story = "CHICHENG3",
 		id = 283,
 		icon = "memory_chicheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHICHENG3"
+		}
 	},
 	[284] = {
 		mask = "bg/bg_memory",
@@ -6590,7 +7368,10 @@ pg.base.memory_template = {
 		story = "CHICHENG4",
 		id = 284,
 		icon = "memory_chicheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHICHENG4"
+		}
 	},
 	[285] = {
 		mask = "bg/bg_memory",
@@ -6601,7 +7382,10 @@ pg.base.memory_template = {
 		story = "CHICHENG5",
 		id = 285,
 		icon = "memory_chicheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHICHENG5"
+		}
 	},
 	[286] = {
 		mask = "bg/bg_memory",
@@ -6612,7 +7396,10 @@ pg.base.memory_template = {
 		story = "CHICHENG6",
 		id = 286,
 		icon = "memory_chicheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHICHENG6"
+		}
 	},
 	[287] = {
 		mask = "bg/bg_memory",
@@ -6623,7 +7410,10 @@ pg.base.memory_template = {
 		story = "CHICHENG7",
 		id = 287,
 		icon = "memory_chicheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHICHENG7"
+		}
 	},
 	[288] = {
 		mask = "bg/bg_memory",
@@ -6634,7 +7424,10 @@ pg.base.memory_template = {
 		story = "KELIFULAN1",
 		id = 288,
 		icon = "memory_kelifulan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELIFULAN1"
+		}
 	},
 	[289] = {
 		mask = "bg/bg_memory",
@@ -6645,7 +7438,10 @@ pg.base.memory_template = {
 		story = "KELIFULAN2",
 		id = 289,
 		icon = "memory_kelifulan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELIFULAN2"
+		}
 	},
 	[290] = {
 		mask = "bg/bg_memory",
@@ -6656,7 +7452,10 @@ pg.base.memory_template = {
 		story = "KELIFULAN3",
 		id = 290,
 		icon = "memory_kelifulan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELIFULAN3"
+		}
 	},
 	[291] = {
 		mask = "bg/bg_memory",
@@ -6667,7 +7466,10 @@ pg.base.memory_template = {
 		story = "KELIFULAN4",
 		id = 291,
 		icon = "memory_kelifulan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELIFULAN4"
+		}
 	},
 	[292] = {
 		mask = "bg/bg_memory",
@@ -6678,7 +7480,10 @@ pg.base.memory_template = {
 		story = "KELIFULAN5",
 		id = 292,
 		icon = "memory_kelifulan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELIFULAN5"
+		}
 	},
 	[293] = {
 		mask = "bg/bg_memory",
@@ -6689,7 +7494,10 @@ pg.base.memory_template = {
 		story = "KELIFULAN6",
 		id = 293,
 		icon = "memory_kelifulan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELIFULAN6"
+		}
 	},
 	[294] = {
 		mask = "bg/bg_memory",
@@ -6700,7 +7508,10 @@ pg.base.memory_template = {
 		story = "KELIFULAN7",
 		id = 294,
 		icon = "memory_kelifulan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELIFULAN7"
+		}
 	},
 	[295] = {
 		mask = "bg/bg_memory",
@@ -6711,7 +7522,10 @@ pg.base.memory_template = {
 		story = "BEIFA1",
 		id = 295,
 		icon = "beifa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEIFA1"
+		}
 	},
 	[296] = {
 		mask = "bg/bg_memory",
@@ -6722,7 +7536,10 @@ pg.base.memory_template = {
 		story = "BEIFA2",
 		id = 296,
 		icon = "beifa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEIFA2"
+		}
 	},
 	[297] = {
 		mask = "bg/bg_memory",
@@ -6733,7 +7550,10 @@ pg.base.memory_template = {
 		story = "BEIFA3",
 		id = 297,
 		icon = "beifa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEIFA3"
+		}
 	},
 	[298] = {
 		mask = "bg/bg_memory",
@@ -6744,7 +7564,10 @@ pg.base.memory_template = {
 		story = "BEIFA4",
 		id = 298,
 		icon = "beifa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEIFA4"
+		}
 	},
 	[299] = {
 		mask = "bg/bg_memory",
@@ -6755,7 +7578,10 @@ pg.base.memory_template = {
 		story = "FANGAN1",
 		id = 299,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANGAN1"
+		}
 	},
 	[300] = {
 		mask = "bg/bg_memory",
@@ -6766,7 +7592,10 @@ pg.base.memory_template = {
 		story = "FANGAN2",
 		id = 300,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANGAN2"
+		}
 	},
 	[301] = {
 		mask = "bg/bg_memory",
@@ -6777,7 +7606,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGP1",
 		id = 301,
 		icon = "memory_shancheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGP1"
+		}
 	},
 	[302] = {
 		mask = "bg/bg_memory",
@@ -6788,7 +7620,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGP2",
 		id = 302,
 		icon = "memory_shancheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGP2"
+		}
 	},
 	[303] = {
 		mask = "bg/bg_memory",
@@ -6799,7 +7634,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGP3",
 		id = 303,
 		icon = "memory_shancheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGP3"
+		}
 	},
 	[304] = {
 		mask = "bg/bg_memory",
@@ -6810,7 +7648,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGP4",
 		id = 304,
 		icon = "memory_shancheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGP4"
+		}
 	},
 	[305] = {
 		mask = "bg/bg_memory",
@@ -6821,7 +7662,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGP5",
 		id = 305,
 		icon = "memory_shancheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGP5"
+		}
 	},
 	[306] = {
 		mask = "bg/bg_memory",
@@ -6832,7 +7676,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGP6",
 		id = 306,
 		icon = "memory_shancheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGP6"
+		}
 	},
 	[307] = {
 		mask = "bg/bg_memory",
@@ -6843,7 +7690,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGP7",
 		id = 307,
 		icon = "memory_shancheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGP7"
+		}
 	},
 	[308] = {
 		mask = "bg/bg_memory",
@@ -6854,7 +7704,10 @@ pg.base.memory_template = {
 		story = "GUANGRONG1",
 		id = 308,
 		icon = "memory_guangrong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGRONG1"
+		}
 	},
 	[309] = {
 		mask = "bg/bg_memory",
@@ -6865,7 +7718,10 @@ pg.base.memory_template = {
 		story = "GUANGRONG2",
 		id = 309,
 		icon = "memory_guangrong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGRONG2"
+		}
 	},
 	[310] = {
 		mask = "bg/bg_memory",
@@ -6876,7 +7732,10 @@ pg.base.memory_template = {
 		story = "GUANGRONG3",
 		id = 310,
 		icon = "memory_guangrong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGRONG3"
+		}
 	},
 	[311] = {
 		mask = "bg/bg_memory",
@@ -6887,7 +7746,10 @@ pg.base.memory_template = {
 		story = "GUANGRONG4",
 		id = 311,
 		icon = "memory_guangrong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGRONG4"
+		}
 	},
 	[312] = {
 		mask = "bg/bg_memory",
@@ -6898,7 +7760,10 @@ pg.base.memory_template = {
 		story = "GUANGRONG5",
 		id = 312,
 		icon = "memory_guangrong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGRONG5"
+		}
 	},
 	[313] = {
 		mask = "bg/bg_memory",
@@ -6909,7 +7774,10 @@ pg.base.memory_template = {
 		story = "GUANGRONG6",
 		id = 313,
 		icon = "memory_guangrong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGRONG6"
+		}
 	},
 	[314] = {
 		mask = "bg/bg_memory",
@@ -6920,7 +7788,10 @@ pg.base.memory_template = {
 		story = "GUANGRONG7",
 		id = 314,
 		icon = "memory_guangrong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGRONG7"
+		}
 	},
 	[322] = {
 		mask = "bg/bg_memory",
@@ -6931,7 +7802,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIA1",
 		id = 322,
 		icon = "memory_salatuojia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIA1"
+		}
 	},
 	[323] = {
 		mask = "bg/bg_memory",
@@ -6942,7 +7816,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIA2",
 		id = 323,
 		icon = "memory_salatuojia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIA2"
+		}
 	},
 	[324] = {
 		mask = "bg/bg_memory",
@@ -6953,7 +7830,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIA3",
 		id = 324,
 		icon = "memory_salatuojia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIA3"
+		}
 	},
 	[325] = {
 		mask = "bg/bg_memory",
@@ -6964,7 +7844,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIA4",
 		id = 325,
 		icon = "memory_salatuojia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIA4"
+		}
 	},
 	[326] = {
 		mask = "bg/bg_memory",
@@ -6975,7 +7858,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIA5",
 		id = 326,
 		icon = "memory_salatuojia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIA5"
+		}
 	},
 	[327] = {
 		mask = "bg/bg_memory",
@@ -6986,7 +7872,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIA6",
 		id = 327,
 		icon = "memory_salatuojia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIA6"
+		}
 	},
 	[328] = {
 		mask = "bg/bg_memory",
@@ -6997,7 +7886,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIA7",
 		id = 328,
 		icon = "memory_salatuojia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIA7"
+		}
 	},
 	[329] = {
 		mask = "bg/bg_memory",
@@ -7008,7 +7900,10 @@ pg.base.memory_template = {
 		story = "AIDANG1",
 		id = 329,
 		icon = "memory_aidang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDANG1"
+		}
 	},
 	[330] = {
 		mask = "bg/bg_memory",
@@ -7019,7 +7914,10 @@ pg.base.memory_template = {
 		story = "AIDANG2",
 		id = 330,
 		icon = "memory_aidang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDANG2"
+		}
 	},
 	[331] = {
 		mask = "bg/bg_memory",
@@ -7030,7 +7928,10 @@ pg.base.memory_template = {
 		story = "AIDANG3",
 		id = 331,
 		icon = "memory_aidang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDANG3"
+		}
 	},
 	[332] = {
 		mask = "bg/bg_memory",
@@ -7041,7 +7942,10 @@ pg.base.memory_template = {
 		story = "AIDANG4",
 		id = 332,
 		icon = "memory_aidang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDANG4"
+		}
 	},
 	[333] = {
 		mask = "bg/bg_memory",
@@ -7052,7 +7956,10 @@ pg.base.memory_template = {
 		story = "AIDANG5",
 		id = 333,
 		icon = "memory_aidang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDANG5"
+		}
 	},
 	[334] = {
 		mask = "bg/bg_memory",
@@ -7063,7 +7970,10 @@ pg.base.memory_template = {
 		story = "AIDANG6",
 		id = 334,
 		icon = "memory_aidang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDANG6"
+		}
 	},
 	[335] = {
 		mask = "bg/bg_memory",
@@ -7074,7 +7984,10 @@ pg.base.memory_template = {
 		story = "AIDANG7",
 		id = 335,
 		icon = "memory_aidang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDANG7"
+		}
 	},
 	[336] = {
 		mask = "bg/bg_memory",
@@ -7085,7 +7998,10 @@ pg.base.memory_template = {
 		story = "Z461",
 		id = 336,
 		icon = "memory_z46",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"Z461"
+		}
 	},
 	[337] = {
 		mask = "bg/bg_memory",
@@ -7096,7 +8012,10 @@ pg.base.memory_template = {
 		story = "Z462",
 		id = 337,
 		icon = "memory_z46",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"Z462"
+		}
 	},
 	[338] = {
 		mask = "bg/bg_memory",
@@ -7107,7 +8026,10 @@ pg.base.memory_template = {
 		story = "Z463",
 		id = 338,
 		icon = "memory_z46",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"Z463"
+		}
 	},
 	[339] = {
 		mask = "bg/bg_memory",
@@ -7118,7 +8040,10 @@ pg.base.memory_template = {
 		story = "Z464",
 		id = 339,
 		icon = "memory_z46",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"Z464"
+		}
 	},
 	[340] = {
 		mask = "bg/bg_memory",
@@ -7129,7 +8054,10 @@ pg.base.memory_template = {
 		story = "Z465",
 		id = 340,
 		icon = "memory_z46",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"Z465"
+		}
 	},
 	[341] = {
 		mask = "bg/bg_memory",
@@ -7140,7 +8068,10 @@ pg.base.memory_template = {
 		story = "Z466",
 		id = 341,
 		icon = "memory_z46",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"Z466"
+		}
 	},
 	[342] = {
 		mask = "bg/bg_memory",
@@ -7151,7 +8082,10 @@ pg.base.memory_template = {
 		story = "Z467",
 		id = 342,
 		icon = "memory_z46",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"Z467"
+		}
 	},
 	[350] = {
 		mask = "bg/bg_memory",
@@ -7162,7 +8096,10 @@ pg.base.memory_template = {
 		story = "KAIXUAN1",
 		id = 350,
 		icon = "memory_kaixuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUAN1"
+		}
 	},
 	[351] = {
 		mask = "bg/bg_memory",
@@ -7173,7 +8110,10 @@ pg.base.memory_template = {
 		story = "KAIXUAN2",
 		id = 351,
 		icon = "memory_kaixuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUAN2"
+		}
 	},
 	[352] = {
 		mask = "bg/bg_memory",
@@ -7184,7 +8124,10 @@ pg.base.memory_template = {
 		story = "KAIXUAN3",
 		id = 352,
 		icon = "memory_kaixuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUAN3"
+		}
 	},
 	[353] = {
 		mask = "bg/bg_memory",
@@ -7195,7 +8138,10 @@ pg.base.memory_template = {
 		story = "KAIXUAN4",
 		id = 353,
 		icon = "memory_kaixuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUAN4"
+		}
 	},
 	[354] = {
 		mask = "bg/bg_memory",
@@ -7206,7 +8152,10 @@ pg.base.memory_template = {
 		story = "KAIXUAN5",
 		id = 354,
 		icon = "memory_kaixuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUAN5"
+		}
 	},
 	[355] = {
 		mask = "bg/bg_memory",
@@ -7217,7 +8166,10 @@ pg.base.memory_template = {
 		story = "KAIXUAN6",
 		id = 355,
 		icon = "memory_kaixuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUAN6"
+		}
 	},
 	[356] = {
 		mask = "bg/bg_memory",
@@ -7228,7 +8180,10 @@ pg.base.memory_template = {
 		story = "KAIXUAN7",
 		id = 356,
 		icon = "memory_kaixuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KAIXUAN7"
+		}
 	},
 	[357] = {
 		mask = "bg/bg_memory",
@@ -7239,7 +8194,10 @@ pg.base.memory_template = {
 		story = "AIMIER1",
 		id = 357,
 		icon = "memory_aimier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIMIER1"
+		}
 	},
 	[358] = {
 		mask = "bg/bg_memory",
@@ -7250,7 +8208,10 @@ pg.base.memory_template = {
 		story = "AIMIER2",
 		id = 358,
 		icon = "memory_aimier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIMIER2"
+		}
 	},
 	[359] = {
 		mask = "bg/bg_memory",
@@ -7261,7 +8222,10 @@ pg.base.memory_template = {
 		story = "AIMIER3",
 		id = 359,
 		icon = "memory_aimier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIMIER3"
+		}
 	},
 	[360] = {
 		mask = "bg/bg_memory",
@@ -7272,7 +8236,10 @@ pg.base.memory_template = {
 		story = "AIMIER4",
 		id = 360,
 		icon = "memory_aimier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIMIER4"
+		}
 	},
 	[361] = {
 		mask = "bg/bg_memory",
@@ -7283,7 +8250,10 @@ pg.base.memory_template = {
 		story = "AIMIER5",
 		id = 361,
 		icon = "memory_aimier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIMIER5"
+		}
 	},
 	[362] = {
 		mask = "bg/bg_memory",
@@ -7294,7 +8264,10 @@ pg.base.memory_template = {
 		story = "AIMIER6",
 		id = 362,
 		icon = "memory_aimier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIMIER6"
+		}
 	},
 	[363] = {
 		mask = "bg/bg_memory",
@@ -7305,7 +8278,10 @@ pg.base.memory_template = {
 		story = "AIMIER7",
 		id = 363,
 		icon = "memory_aimier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIMIER7"
+		}
 	},
 	[364] = {
 		mask = "bg/bg_memory",
@@ -7316,7 +8292,10 @@ pg.base.memory_template = {
 		story = "XUKUFU1",
 		id = 364,
 		icon = "memory_xukufu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUKUFU1"
+		}
 	},
 	[365] = {
 		mask = "bg/bg_memory",
@@ -7327,7 +8306,10 @@ pg.base.memory_template = {
 		story = "XUKUFU2",
 		id = 365,
 		icon = "memory_xukufu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUKUFU2"
+		}
 	},
 	[366] = {
 		mask = "bg/bg_memory",
@@ -7338,7 +8320,10 @@ pg.base.memory_template = {
 		story = "XUKUFU3",
 		id = 366,
 		icon = "memory_xukufu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUKUFU3"
+		}
 	},
 	[367] = {
 		mask = "bg/bg_memory",
@@ -7349,7 +8334,10 @@ pg.base.memory_template = {
 		story = "XUKUFU4",
 		id = 367,
 		icon = "memory_xukufu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUKUFU4"
+		}
 	},
 	[368] = {
 		mask = "bg/bg_memory",
@@ -7360,7 +8348,10 @@ pg.base.memory_template = {
 		story = "XUKUFU5",
 		id = 368,
 		icon = "memory_xukufu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUKUFU5"
+		}
 	},
 	[369] = {
 		mask = "bg/bg_memory",
@@ -7371,7 +8362,10 @@ pg.base.memory_template = {
 		story = "XUKUFU6",
 		id = 369,
 		icon = "memory_xukufu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUKUFU6"
+		}
 	},
 	[370] = {
 		mask = "bg/bg_memory",
@@ -7382,7 +8376,10 @@ pg.base.memory_template = {
 		story = "XUKUFU7",
 		id = 370,
 		icon = "memory_xukufu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUKUFU7"
+		}
 	},
 	[371] = {
 		mask = "bg/bg_memory",
@@ -7393,7 +8390,10 @@ pg.base.memory_template = {
 		story = "FAXI01",
 		id = 371,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI01"
+		}
 	},
 	[372] = {
 		mask = "bg/bg_memory",
@@ -7404,7 +8404,10 @@ pg.base.memory_template = {
 		story = "FAXI02",
 		id = 372,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI02"
+		}
 	},
 	[373] = {
 		mask = "bg/bg_memory",
@@ -7415,7 +8418,10 @@ pg.base.memory_template = {
 		story = "FAXI03",
 		id = 373,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI03"
+		}
 	},
 	[374] = {
 		mask = "bg/bg_memory",
@@ -7426,7 +8432,10 @@ pg.base.memory_template = {
 		story = "FAXI04",
 		id = 374,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI04"
+		}
 	},
 	[375] = {
 		mask = "bg/bg_memory",
@@ -7437,7 +8446,10 @@ pg.base.memory_template = {
 		story = "FAXI05",
 		id = 375,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI05"
+		}
 	},
 	[376] = {
 		mask = "bg/bg_memory",
@@ -7448,7 +8460,10 @@ pg.base.memory_template = {
 		story = "FAXI06",
 		id = 376,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI06"
+		}
 	},
 	[377] = {
 		mask = "bg/bg_memory",
@@ -7459,7 +8474,10 @@ pg.base.memory_template = {
 		story = "FAXI07",
 		id = 377,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI07"
+		}
 	},
 	[378] = {
 		mask = "bg/bg_memory",
@@ -7470,7 +8488,10 @@ pg.base.memory_template = {
 		story = "FAXI08",
 		id = 378,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI08"
+		}
 	},
 	[379] = {
 		mask = "bg/bg_memory",
@@ -7481,7 +8502,10 @@ pg.base.memory_template = {
 		story = "FAXI09",
 		id = 379,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI09"
+		}
 	},
 	[380] = {
 		mask = "bg/bg_memory",
@@ -7492,7 +8516,10 @@ pg.base.memory_template = {
 		story = "FAXI10",
 		id = 380,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI10"
+		}
 	},
 	[381] = {
 		mask = "bg/bg_memory",
@@ -7503,7 +8530,10 @@ pg.base.memory_template = {
 		story = "FAXI11",
 		id = 381,
 		icon = "memory_faxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FAXI11"
+		}
 	},
 	[382] = {
 		mask = "bg/bg_memory",
@@ -7514,7 +8544,10 @@ pg.base.memory_template = {
 		story = "XIXUEGUI1",
 		id = 382,
 		icon = "memory_xixuegui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIXUEGUI1"
+		}
 	},
 	[383] = {
 		mask = "bg/bg_memory",
@@ -7525,7 +8558,10 @@ pg.base.memory_template = {
 		story = "XIXUEGUI2",
 		id = 383,
 		icon = "memory_xixuegui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIXUEGUI2"
+		}
 	},
 	[384] = {
 		mask = "bg/bg_memory",
@@ -7536,7 +8572,10 @@ pg.base.memory_template = {
 		story = "XIXUEGUI3",
 		id = 384,
 		icon = "memory_xixuegui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIXUEGUI3"
+		}
 	},
 	[385] = {
 		mask = "bg/bg_memory",
@@ -7547,7 +8586,10 @@ pg.base.memory_template = {
 		story = "XIXUEGUI4",
 		id = 385,
 		icon = "memory_xixuegui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIXUEGUI4"
+		}
 	},
 	[386] = {
 		mask = "bg/bg_memory",
@@ -7558,7 +8600,10 @@ pg.base.memory_template = {
 		story = "XIXUEGUI5",
 		id = 386,
 		icon = "memory_xixuegui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIXUEGUI5"
+		}
 	},
 	[387] = {
 		mask = "bg/bg_memory",
@@ -7569,7 +8614,10 @@ pg.base.memory_template = {
 		story = "TIERBICI1",
 		id = 387,
 		icon = "memory_tierbici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIERBICI1"
+		}
 	},
 	[388] = {
 		mask = "bg/bg_memory",
@@ -7580,7 +8628,10 @@ pg.base.memory_template = {
 		story = "TIERBICI2",
 		id = 388,
 		icon = "memory_tierbici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIERBICI2"
+		}
 	},
 	[389] = {
 		mask = "bg/bg_memory",
@@ -7591,7 +8642,10 @@ pg.base.memory_template = {
 		story = "TIERBICI3",
 		id = 389,
 		icon = "memory_tierbici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIERBICI3"
+		}
 	},
 	[390] = {
 		mask = "bg/bg_memory",
@@ -7602,7 +8656,10 @@ pg.base.memory_template = {
 		story = "TIERBICI4",
 		id = 390,
 		icon = "memory_tierbici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIERBICI4"
+		}
 	},
 	[391] = {
 		mask = "bg/bg_memory",
@@ -7613,7 +8670,10 @@ pg.base.memory_template = {
 		story = "TIERBICI5",
 		id = 391,
 		icon = "memory_tierbici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIERBICI5"
+		}
 	},
 	[392] = {
 		mask = "bg/bg_memory",
@@ -7624,7 +8684,10 @@ pg.base.memory_template = {
 		story = "TIERBICI6",
 		id = 392,
 		icon = "memory_tierbici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIERBICI6"
+		}
 	},
 	[393] = {
 		mask = "bg/bg_memory",
@@ -7635,7 +8698,10 @@ pg.base.memory_template = {
 		story = "TIERBICI7",
 		id = 393,
 		icon = "memory_tierbici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIERBICI7"
+		}
 	},
 	[394] = {
 		mask = "bg/bg_memory",
@@ -7646,7 +8712,10 @@ pg.base.memory_template = {
 		story = "BANRENMA1",
 		id = 394,
 		icon = "memory_banrenma",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMA1"
+		}
 	},
 	[395] = {
 		mask = "bg/bg_memory",
@@ -7657,7 +8726,10 @@ pg.base.memory_template = {
 		story = "BANRENMA2",
 		id = 395,
 		icon = "memory_banrenma",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMA2"
+		}
 	},
 	[396] = {
 		mask = "bg/bg_memory",
@@ -7668,7 +8740,10 @@ pg.base.memory_template = {
 		story = "BANRENMA3",
 		id = 396,
 		icon = "memory_banrenma",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMA3"
+		}
 	},
 	[397] = {
 		mask = "bg/bg_memory",
@@ -7679,7 +8754,10 @@ pg.base.memory_template = {
 		story = "BANRENMA4",
 		id = 397,
 		icon = "memory_banrenma",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMA4"
+		}
 	},
 	[398] = {
 		mask = "bg/bg_memory",
@@ -7690,7 +8768,10 @@ pg.base.memory_template = {
 		story = "BANRENMA5",
 		id = 398,
 		icon = "memory_banrenma",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMA5"
+		}
 	},
 	[399] = {
 		mask = "bg/bg_memory",
@@ -7701,7 +8782,10 @@ pg.base.memory_template = {
 		story = "BANRENMA6",
 		id = 399,
 		icon = "memory_banrenma",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMA6"
+		}
 	},
 	[400] = {
 		mask = "bg/bg_memory",
@@ -7712,7 +8796,10 @@ pg.base.memory_template = {
 		story = "BANRENMA7",
 		id = 400,
 		icon = "memory_banrenma",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMA7"
+		}
 	},
 	[401] = {
 		mask = "bg/bg_memory",
@@ -7723,7 +8810,10 @@ pg.base.memory_template = {
 		story = "BANRENMAFEIJI1",
 		id = 401,
 		icon = "memory_banrenmafeiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMAFEIJI1"
+		}
 	},
 	[402] = {
 		mask = "bg/bg_memory",
@@ -7734,7 +8824,10 @@ pg.base.memory_template = {
 		story = "BANRENMAFEIJI2",
 		id = 402,
 		icon = "memory_banrenmafeiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMAFEIJI2"
+		}
 	},
 	[403] = {
 		mask = "bg/bg_memory",
@@ -7745,7 +8838,10 @@ pg.base.memory_template = {
 		story = "BANRENMAFEIJI3",
 		id = 403,
 		icon = "memory_banrenmafeiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMAFEIJI3"
+		}
 	},
 	[404] = {
 		mask = "bg/bg_memory",
@@ -7756,7 +8852,10 @@ pg.base.memory_template = {
 		story = "BANRENMAFEIJI4",
 		id = 404,
 		icon = "memory_banrenmafeiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMAFEIJI4"
+		}
 	},
 	[405] = {
 		mask = "bg/bg_memory",
@@ -7767,7 +8866,10 @@ pg.base.memory_template = {
 		story = "BANRENMAFEIJI5",
 		id = 405,
 		icon = "memory_banrenmafeiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMAFEIJI5"
+		}
 	},
 	[406] = {
 		mask = "bg/bg_memory",
@@ -7778,7 +8880,10 @@ pg.base.memory_template = {
 		story = "BANRENMAFEIJI6",
 		id = 406,
 		icon = "memory_banrenmafeiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BANRENMAFEIJI6"
+		}
 	},
 	[407] = {
 		mask = "bg/bg_memory",
@@ -7789,7 +8894,10 @@ pg.base.memory_template = {
 		story = "SANLICHUANMO1",
 		id = 407,
 		icon = "memory_sanlichuanmo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SANLICHUANMO1"
+		}
 	},
 	[408] = {
 		mask = "bg/bg_memory",
@@ -7800,7 +8908,10 @@ pg.base.memory_template = {
 		story = "SANLICHUANMO2",
 		id = 408,
 		icon = "memory_sanlichuanmo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SANLICHUANMO2"
+		}
 	},
 	[409] = {
 		mask = "bg/bg_memory",
@@ -7811,7 +8922,10 @@ pg.base.memory_template = {
 		story = "SANLICHUANMO3",
 		id = 409,
 		icon = "memory_sanlichuanmo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SANLICHUANMO3"
+		}
 	},
 	[410] = {
 		mask = "bg/bg_memory",
@@ -7822,7 +8936,10 @@ pg.base.memory_template = {
 		story = "SANLICHUANMO4",
 		id = 410,
 		icon = "memory_sanlichuanmo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SANLICHUANMO4"
+		}
 	},
 	[411] = {
 		mask = "bg/bg_memory",
@@ -7833,7 +8950,10 @@ pg.base.memory_template = {
 		story = "BIRUI1",
 		id = 411,
 		icon = "memory_birui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIRUI1"
+		}
 	},
 	[412] = {
 		mask = "bg/bg_memory",
@@ -7844,7 +8964,10 @@ pg.base.memory_template = {
 		story = "BIRUI2",
 		id = 412,
 		icon = "memory_birui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIRUI2"
+		}
 	},
 	[413] = {
 		mask = "bg/bg_memory",
@@ -7855,7 +8978,10 @@ pg.base.memory_template = {
 		story = "BIRUI3",
 		id = 413,
 		icon = "memory_birui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIRUI3"
+		}
 	},
 	[414] = {
 		mask = "bg/bg_memory",
@@ -7866,7 +8992,10 @@ pg.base.memory_template = {
 		story = "BIRUI4",
 		id = 414,
 		icon = "memory_birui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIRUI4"
+		}
 	},
 	[415] = {
 		mask = "bg/bg_memory",
@@ -7877,7 +9006,10 @@ pg.base.memory_template = {
 		story = "BIRUI5",
 		id = 415,
 		icon = "memory_birui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIRUI5"
+		}
 	},
 	[416] = {
 		mask = "bg/bg_memory",
@@ -7888,7 +9020,10 @@ pg.base.memory_template = {
 		story = "BIRUI6",
 		id = 416,
 		icon = "memory_birui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIRUI6"
+		}
 	},
 	[417] = {
 		mask = "bg/bg_memory",
@@ -7899,7 +9034,10 @@ pg.base.memory_template = {
 		story = "BIRUI7",
 		id = 417,
 		icon = "memory_birui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIRUI7"
+		}
 	},
 	[418] = {
 		mask = "bg/bg_memory",
@@ -7910,7 +9048,10 @@ pg.base.memory_template = {
 		story = "DEYIZHI1",
 		id = 418,
 		icon = "memory_deyizhi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DEYIZHI1"
+		}
 	},
 	[419] = {
 		mask = "bg/bg_memory",
@@ -7921,7 +9062,10 @@ pg.base.memory_template = {
 		story = "DEYIZHI2",
 		id = 419,
 		icon = "memory_deyizhi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DEYIZHI2"
+		}
 	},
 	[420] = {
 		mask = "bg/bg_memory",
@@ -7932,7 +9076,10 @@ pg.base.memory_template = {
 		story = "DEYIZHI3",
 		id = 420,
 		icon = "memory_deyizhi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DEYIZHI3"
+		}
 	},
 	[421] = {
 		mask = "bg/bg_memory",
@@ -7943,7 +9090,10 @@ pg.base.memory_template = {
 		story = "DEYIZHI4",
 		id = 421,
 		icon = "memory_deyizhi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DEYIZHI4"
+		}
 	},
 	[422] = {
 		mask = "bg/bg_memory",
@@ -7954,7 +9104,10 @@ pg.base.memory_template = {
 		story = "DEYIZHI5",
 		id = 422,
 		icon = "memory_deyizhi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DEYIZHI5"
+		}
 	},
 	[423] = {
 		mask = "bg/bg_memory",
@@ -7965,7 +9118,10 @@ pg.base.memory_template = {
 		story = "DEYIZHI6",
 		id = 423,
 		icon = "memory_deyizhi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DEYIZHI6"
+		}
 	},
 	[424] = {
 		mask = "bg/bg_memory",
@@ -7976,7 +9132,10 @@ pg.base.memory_template = {
 		story = "DEYIZHI7",
 		id = 424,
 		icon = "memory_deyizhi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DEYIZHI7"
+		}
 	},
 	[425] = {
 		mask = "bg/bg_memory",
@@ -7987,7 +9146,10 @@ pg.base.memory_template = {
 		story = "DAQINGHUAYU1",
 		id = 425,
 		icon = "memory_daqinghuayu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAQINGHUAYU1"
+		}
 	},
 	[426] = {
 		mask = "bg/bg_memory",
@@ -7998,7 +9160,10 @@ pg.base.memory_template = {
 		story = "DAQINGHUAYU2",
 		id = 426,
 		icon = "memory_daqinghuayu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAQINGHUAYU2"
+		}
 	},
 	[427] = {
 		mask = "bg/bg_memory",
@@ -8009,7 +9174,10 @@ pg.base.memory_template = {
 		story = "DAQINGHUAYU3",
 		id = 427,
 		icon = "memory_daqinghuayu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAQINGHUAYU3"
+		}
 	},
 	[428] = {
 		mask = "bg/bg_memory",
@@ -8020,7 +9188,10 @@ pg.base.memory_template = {
 		story = "DAQINGHUAYU4",
 		id = 428,
 		icon = "memory_daqinghuayu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAQINGHUAYU4"
+		}
 	},
 	[429] = {
 		mask = "bg/bg_memory",
@@ -8031,7 +9202,10 @@ pg.base.memory_template = {
 		story = "DAQINGHUAYU5",
 		id = 429,
 		icon = "memory_daqinghuayu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAQINGHUAYU5"
+		}
 	},
 	[430] = {
 		mask = "bg/bg_memory",
@@ -8042,7 +9216,10 @@ pg.base.memory_template = {
 		story = "DAQINGHUAYU6",
 		id = 430,
 		icon = "memory_daqinghuayu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAQINGHUAYU6"
+		}
 	},
 	[431] = {
 		mask = "bg/bg_memory",
@@ -8053,7 +9230,10 @@ pg.base.memory_template = {
 		story = "DAQINGHUAYU7",
 		id = 431,
 		icon = "memory_daqinghuayu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAQINGHUAYU7"
+		}
 	},
 	[432] = {
 		mask = "bg/bg_memory",
@@ -8064,7 +9244,10 @@ pg.base.memory_template = {
 		story = "HUIHUA1",
 		id = 432,
 		icon = "memory_huihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIHUA1"
+		}
 	},
 	[433] = {
 		mask = "bg/bg_memory",
@@ -8075,7 +9258,10 @@ pg.base.memory_template = {
 		story = "HUIHUA2",
 		id = 433,
 		icon = "memory_huihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIHUA2"
+		}
 	},
 	[434] = {
 		mask = "bg/bg_memory",
@@ -8086,7 +9272,10 @@ pg.base.memory_template = {
 		story = "HUIHUA3",
 		id = 434,
 		icon = "memory_huihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIHUA3"
+		}
 	},
 	[435] = {
 		mask = "bg/bg_memory",
@@ -8097,7 +9286,10 @@ pg.base.memory_template = {
 		story = "HUIHUA4",
 		id = 435,
 		icon = "memory_huihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIHUA4"
+		}
 	},
 	[436] = {
 		mask = "bg/bg_memory",
@@ -8108,7 +9300,10 @@ pg.base.memory_template = {
 		story = "HUIHUA5",
 		id = 436,
 		icon = "memory_huihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIHUA5"
+		}
 	},
 	[437] = {
 		mask = "bg/bg_memory",
@@ -8119,7 +9314,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGLIFU1",
 		id = 437,
 		icon = "memory_shanchenglifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGLIFU1"
+		}
 	},
 	[438] = {
 		mask = "bg/bg_memory",
@@ -8130,7 +9328,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGLIFU2",
 		id = 438,
 		icon = "memory_shanchenglifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGLIFU2"
+		}
 	},
 	[439] = {
 		mask = "bg/bg_memory",
@@ -8141,7 +9342,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGLIFU3",
 		id = 439,
 		icon = "memory_shanchenglifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGLIFU3"
+		}
 	},
 	[440] = {
 		mask = "bg/bg_memory",
@@ -8152,7 +9356,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGLIFU4",
 		id = 440,
 		icon = "memory_shanchenglifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGLIFU4"
+		}
 	},
 	[441] = {
 		mask = "bg/bg_memory",
@@ -8163,7 +9370,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGLIFU5",
 		id = 441,
 		icon = "memory_shanchenglifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGLIFU5"
+		}
 	},
 	[442] = {
 		mask = "bg/bg_memory",
@@ -8174,7 +9384,10 @@ pg.base.memory_template = {
 		story = "SHANCHENGLIFU6",
 		id = 442,
 		icon = "memory_shanchenglifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHANCHENGLIFU6"
+		}
 	},
 	[443] = {
 		mask = "bg/bg_memory",
@@ -8185,7 +9398,10 @@ pg.base.memory_template = {
 		story = "DAFENG1",
 		id = 443,
 		icon = "memory_dafeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENG1"
+		}
 	},
 	[444] = {
 		mask = "bg/bg_memory",
@@ -8196,7 +9412,10 @@ pg.base.memory_template = {
 		story = "DAFENG2",
 		id = 444,
 		icon = "memory_dafeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENG2"
+		}
 	},
 	[445] = {
 		mask = "bg/bg_memory",
@@ -8207,7 +9426,10 @@ pg.base.memory_template = {
 		story = "DAFENG3",
 		id = 445,
 		icon = "memory_dafeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENG3"
+		}
 	},
 	[446] = {
 		mask = "bg/bg_memory",
@@ -8218,7 +9440,10 @@ pg.base.memory_template = {
 		story = "DAFENG4",
 		id = 446,
 		icon = "memory_dafeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENG4"
+		}
 	},
 	[447] = {
 		mask = "bg/bg_memory",
@@ -8229,7 +9454,10 @@ pg.base.memory_template = {
 		story = "DAFENG5",
 		id = 447,
 		icon = "memory_dafeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENG5"
+		}
 	},
 	[448] = {
 		mask = "bg/bg_memory",
@@ -8240,7 +9468,10 @@ pg.base.memory_template = {
 		story = "DAFENG6",
 		id = 448,
 		icon = "memory_dafeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENG6"
+		}
 	},
 	[449] = {
 		mask = "bg/bg_memory",
@@ -8251,7 +9482,10 @@ pg.base.memory_template = {
 		story = "DAFENG7",
 		id = 449,
 		icon = "memory_dafeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENG7"
+		}
 	},
 	[450] = {
 		mask = "bg/bg_memory",
@@ -8262,7 +9496,10 @@ pg.base.memory_template = {
 		story = "AISAIKESI1",
 		id = 450,
 		icon = "memory_aisaikesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESI1"
+		}
 	},
 	[451] = {
 		mask = "bg/bg_memory",
@@ -8273,7 +9510,10 @@ pg.base.memory_template = {
 		story = "AISAIKESI2",
 		id = 451,
 		icon = "memory_aisaikesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESI2"
+		}
 	},
 	[452] = {
 		mask = "bg/bg_memory",
@@ -8284,7 +9524,10 @@ pg.base.memory_template = {
 		story = "AISAIKESI3",
 		id = 452,
 		icon = "memory_aisaikesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESI3"
+		}
 	},
 	[453] = {
 		mask = "bg/bg_memory",
@@ -8295,7 +9538,10 @@ pg.base.memory_template = {
 		story = "AISAIKESI4",
 		id = 453,
 		icon = "memory_aisaikesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESI4"
+		}
 	},
 	[454] = {
 		mask = "bg/bg_memory",
@@ -8306,7 +9552,10 @@ pg.base.memory_template = {
 		story = "AISAIKESI5",
 		id = 454,
 		icon = "memory_aisaikesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESI5"
+		}
 	},
 	[455] = {
 		mask = "bg/bg_memory",
@@ -8317,7 +9566,10 @@ pg.base.memory_template = {
 		story = "AISAIKESI6",
 		id = 455,
 		icon = "memory_aisaikesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESI6"
+		}
 	},
 	[456] = {
 		mask = "bg/bg_memory",
@@ -8328,7 +9580,10 @@ pg.base.memory_template = {
 		story = "AISAIKESI7",
 		id = 456,
 		icon = "memory_aisaikesi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESI7"
+		}
 	},
 	[457] = {
 		mask = "bg/bg_memory",
@@ -8339,7 +9594,10 @@ pg.base.memory_template = {
 		story = "ZHIHUIMIAO1",
 		id = 457,
 		icon = "memory_zhihuimiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIHUIMIAO1"
+		}
 	},
 	[458] = {
 		mask = "bg/bg_memory",
@@ -8350,7 +9608,10 @@ pg.base.memory_template = {
 		story = "ZHIHUIMIAO2",
 		id = 458,
 		icon = "memory_zhihuimiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIHUIMIAO2"
+		}
 	},
 	[459] = {
 		mask = "bg/bg_memory",
@@ -8361,7 +9622,10 @@ pg.base.memory_template = {
 		story = "ZHIHUIMIAO3",
 		id = 459,
 		icon = "memory_zhihuimiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIHUIMIAO3"
+		}
 	},
 	[460] = {
 		mask = "bg/bg_memory",
@@ -8372,7 +9636,10 @@ pg.base.memory_template = {
 		story = "ZHIHUIMIAO4",
 		id = 460,
 		icon = "memory_zhihuimiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIHUIMIAO4"
+		}
 	},
 	[461] = {
 		mask = "bg/bg_memory",
@@ -8383,7 +9650,10 @@ pg.base.memory_template = {
 		story = "SHENGDIYAGEGAI1",
 		id = 461,
 		icon = "memory_shengdiyagegai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDIYAGEGAI1"
+		}
 	},
 	[462] = {
 		mask = "bg/bg_memory",
@@ -8394,7 +9664,10 @@ pg.base.memory_template = {
 		story = "SHENGDIYAGEGAI2",
 		id = 462,
 		icon = "memory_shengdiyagegai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDIYAGEGAI2"
+		}
 	},
 	[463] = {
 		mask = "bg/bg_memory",
@@ -8405,7 +9678,10 @@ pg.base.memory_template = {
 		story = "SHENGDIYAGEGAI3",
 		id = 463,
 		icon = "memory_shengdiyagegai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDIYAGEGAI3"
+		}
 	},
 	[464] = {
 		mask = "bg/bg_memory",
@@ -8416,7 +9692,10 @@ pg.base.memory_template = {
 		story = "SHENGDIYAGEGAI4",
 		id = 464,
 		icon = "memory_shengdiyagegai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGDIYAGEGAI4"
+		}
 	},
 	[471] = {
 		mask = "bg/bg_memory",
@@ -8427,7 +9706,10 @@ pg.base.memory_template = {
 		story = "XIAO1",
 		id = 471,
 		icon = "memory_xiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAO1"
+		}
 	},
 	[472] = {
 		mask = "bg/bg_memory",
@@ -8438,7 +9720,10 @@ pg.base.memory_template = {
 		story = "XIAO2",
 		id = 472,
 		icon = "memory_xiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAO2"
+		}
 	},
 	[473] = {
 		mask = "bg/bg_memory",
@@ -8449,7 +9734,10 @@ pg.base.memory_template = {
 		story = "XIAO3",
 		id = 473,
 		icon = "memory_xiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAO3"
+		}
 	},
 	[474] = {
 		mask = "bg/bg_memory",
@@ -8460,7 +9748,10 @@ pg.base.memory_template = {
 		story = "XIAO4",
 		id = 474,
 		icon = "memory_xiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAO4"
+		}
 	},
 	[475] = {
 		mask = "bg/bg_memory",
@@ -8471,7 +9762,10 @@ pg.base.memory_template = {
 		story = "XIAO5",
 		id = 475,
 		icon = "memory_xiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAO5"
+		}
 	},
 	[476] = {
 		mask = "bg/bg_memory",
@@ -8482,7 +9776,10 @@ pg.base.memory_template = {
 		story = "XIAO6",
 		id = 476,
 		icon = "memory_xiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAO6"
+		}
 	},
 	[477] = {
 		mask = "bg/bg_memory",
@@ -8493,7 +9790,10 @@ pg.base.memory_template = {
 		story = "XIAO7",
 		id = 477,
 		icon = "memory_xiao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAO7"
+		}
 	},
 	[478] = {
 		mask = "bg/bg_memory",
@@ -8504,7 +9804,10 @@ pg.base.memory_template = {
 		story = "NIUKASIER1",
 		id = 478,
 		icon = "memory_niukasier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIUKASIER1"
+		}
 	},
 	[479] = {
 		mask = "bg/bg_memory",
@@ -8515,7 +9818,10 @@ pg.base.memory_template = {
 		story = "NIUKASIER2",
 		id = 479,
 		icon = "memory_niukasier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIUKASIER2"
+		}
 	},
 	[480] = {
 		mask = "bg/bg_memory",
@@ -8526,7 +9832,10 @@ pg.base.memory_template = {
 		story = "NIUKASIER3",
 		id = 480,
 		icon = "memory_niukasier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIUKASIER3"
+		}
 	},
 	[481] = {
 		mask = "bg/bg_memory",
@@ -8537,7 +9846,10 @@ pg.base.memory_template = {
 		story = "NIUKASIER4",
 		id = 481,
 		icon = "memory_niukasier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIUKASIER4"
+		}
 	},
 	[482] = {
 		mask = "bg/bg_memory",
@@ -8548,7 +9860,10 @@ pg.base.memory_template = {
 		story = "NIUKASIER5",
 		id = 482,
 		icon = "memory_niukasier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIUKASIER5"
+		}
 	},
 	[483] = {
 		mask = "bg/bg_memory",
@@ -8559,7 +9874,10 @@ pg.base.memory_template = {
 		story = "NIUKASIER6",
 		id = 483,
 		icon = "memory_niukasier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIUKASIER6"
+		}
 	},
 	[484] = {
 		mask = "bg/bg_memory",
@@ -8570,7 +9888,10 @@ pg.base.memory_template = {
 		story = "NIUKASIER7",
 		id = 484,
 		icon = "memory_niukasier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIUKASIER7"
+		}
 	},
 	[485] = {
 		mask = "bg/bg_memory",
@@ -8581,7 +9902,10 @@ pg.base.memory_template = {
 		story = "HUONULULU1",
 		id = 485,
 		icon = "memory_huonululu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUONULULU1"
+		}
 	},
 	[486] = {
 		mask = "bg/bg_memory",
@@ -8592,7 +9916,10 @@ pg.base.memory_template = {
 		story = "HUONULULU2",
 		id = 486,
 		icon = "memory_huonululu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUONULULU2"
+		}
 	},
 	[487] = {
 		mask = "bg/bg_memory",
@@ -8603,7 +9930,10 @@ pg.base.memory_template = {
 		story = "HUONULULU3",
 		id = 487,
 		icon = "memory_huonululu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUONULULU3"
+		}
 	},
 	[488] = {
 		mask = "bg/bg_memory",
@@ -8614,7 +9944,10 @@ pg.base.memory_template = {
 		story = "HUONULULU4",
 		id = 488,
 		icon = "memory_huonululu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUONULULU4"
+		}
 	},
 	[489] = {
 		mask = "bg/bg_memory",
@@ -8625,7 +9958,10 @@ pg.base.memory_template = {
 		story = "HUONULULU5",
 		id = 489,
 		icon = "memory_huonululu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUONULULU5"
+		}
 	},
 	[490] = {
 		mask = "bg/bg_memory",
@@ -8636,7 +9972,10 @@ pg.base.memory_template = {
 		story = "HUONULULU6",
 		id = 490,
 		icon = "memory_huonululu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUONULULU6"
+		}
 	},
 	[491] = {
 		mask = "bg/bg_memory",
@@ -8647,7 +9986,10 @@ pg.base.memory_template = {
 		story = "HUONULULU7",
 		id = 491,
 		icon = "memory_huonululu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUONULULU7"
+		}
 	},
 	[492] = {
 		mask = "bg/bg_memory",
@@ -8658,7 +10000,10 @@ pg.base.memory_template = {
 		story = "DONGHUO13",
 		id = 492,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO13"
+		}
 	},
 	[493] = {
 		mask = "bg/bg_memory",
@@ -8669,7 +10014,10 @@ pg.base.memory_template = {
 		story = "DONGHUO17",
 		id = 493,
 		icon = "memory_winter",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUO17"
+		}
 	},
 	[494] = {
 		mask = "bg/bg_memory",
@@ -8680,7 +10028,10 @@ pg.base.memory_template = {
 		story = "BEILIWANSHENGJIE1",
 		id = 494,
 		icon = "memory_beiliwanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILIWANSHENGJIE1"
+		}
 	},
 	[495] = {
 		mask = "bg/bg_memory",
@@ -8691,7 +10042,10 @@ pg.base.memory_template = {
 		story = "BEILIWANSHENGJIE2",
 		id = 495,
 		icon = "memory_beiliwanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILIWANSHENGJIE2"
+		}
 	},
 	[496] = {
 		mask = "bg/bg_memory",
@@ -8702,7 +10056,10 @@ pg.base.memory_template = {
 		story = "BEILIWANSHENGJIE3",
 		id = 496,
 		icon = "memory_beiliwanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILIWANSHENGJIE3"
+		}
 	},
 	[497] = {
 		mask = "bg/bg_memory",
@@ -8713,7 +10070,10 @@ pg.base.memory_template = {
 		story = "BEILIWANSHENGJIE4",
 		id = 497,
 		icon = "memory_beiliwanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILIWANSHENGJIE4"
+		}
 	},
 	[498] = {
 		mask = "bg/bg_memory",
@@ -8724,7 +10084,10 @@ pg.base.memory_template = {
 		story = "BEILIWANSHENGJIE5",
 		id = 498,
 		icon = "memory_beiliwanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILIWANSHENGJIE5"
+		}
 	},
 	[499] = {
 		mask = "bg/bg_memory",
@@ -8735,7 +10098,10 @@ pg.base.memory_template = {
 		story = "BEILIWANSHENGJIE6",
 		id = 499,
 		icon = "memory_beiliwanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILIWANSHENGJIE6"
+		}
 	},
 	[500] = {
 		mask = "bg/bg_memory",
@@ -8746,7 +10112,10 @@ pg.base.memory_template = {
 		story = "BEILIWANSHENGJIE7",
 		id = 500,
 		icon = "memory_beiliwanshengjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILIWANSHENGJIE7"
+		}
 	},
 	[501] = {
 		mask = "bg/bg_memory",
@@ -8757,7 +10126,10 @@ pg.base.memory_template = {
 		story = "BEILI1",
 		id = 501,
 		icon = "memory_beili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILI1"
+		}
 	},
 	[502] = {
 		mask = "bg/bg_memory",
@@ -8768,7 +10140,10 @@ pg.base.memory_template = {
 		story = "BEILI2",
 		id = 502,
 		icon = "memory_beili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILI2"
+		}
 	},
 	[503] = {
 		mask = "bg/bg_memory",
@@ -8779,7 +10154,10 @@ pg.base.memory_template = {
 		story = "BEILI3",
 		id = 503,
 		icon = "memory_beili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILI3"
+		}
 	},
 	[504] = {
 		mask = "bg/bg_memory",
@@ -8790,7 +10168,10 @@ pg.base.memory_template = {
 		story = "BEILI4",
 		id = 504,
 		icon = "memory_beili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILI4"
+		}
 	},
 	[505] = {
 		mask = "bg/bg_memory",
@@ -8801,7 +10182,10 @@ pg.base.memory_template = {
 		story = "BEILI5",
 		id = 505,
 		icon = "memory_beili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILI5"
+		}
 	},
 	[506] = {
 		mask = "bg/bg_memory",
@@ -8812,7 +10196,10 @@ pg.base.memory_template = {
 		story = "BEILI6",
 		id = 506,
 		icon = "memory_beili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILI6"
+		}
 	},
 	[507] = {
 		mask = "bg/bg_memory",
@@ -8823,7 +10210,10 @@ pg.base.memory_template = {
 		story = "BEILI7",
 		id = 507,
 		icon = "memory_beili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILI7"
+		}
 	},
 	[508] = {
 		mask = "bg/bg_memory",
@@ -8834,7 +10224,10 @@ pg.base.memory_template = {
 		story = "BUZHIHUO1",
 		id = 508,
 		icon = "memory_buzhihuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BUZHIHUO1"
+		}
 	},
 	[509] = {
 		mask = "bg/bg_memory",
@@ -8845,7 +10238,10 @@ pg.base.memory_template = {
 		story = "BUZHIHUO2",
 		id = 509,
 		icon = "memory_buzhihuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BUZHIHUO2"
+		}
 	},
 	[510] = {
 		mask = "bg/bg_memory",
@@ -8856,7 +10252,10 @@ pg.base.memory_template = {
 		story = "BUZHIHUO3",
 		id = 510,
 		icon = "memory_buzhihuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BUZHIHUO3"
+		}
 	},
 	[511] = {
 		mask = "bg/bg_memory",
@@ -8867,7 +10266,10 @@ pg.base.memory_template = {
 		story = "BUZHIHUO4",
 		id = 511,
 		icon = "memory_buzhihuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BUZHIHUO4"
+		}
 	},
 	[512] = {
 		mask = "bg/bg_memory",
@@ -8878,7 +10280,10 @@ pg.base.memory_template = {
 		story = "BUZHIHUO5",
 		id = 512,
 		icon = "memory_buzhihuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BUZHIHUO5"
+		}
 	},
 	[513] = {
 		mask = "bg/bg_memory",
@@ -8889,7 +10294,10 @@ pg.base.memory_template = {
 		story = "BUZHIHUO6",
 		id = 513,
 		icon = "memory_buzhihuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BUZHIHUO6"
+		}
 	},
 	[514] = {
 		mask = "bg/bg_memory",
@@ -8900,7 +10308,10 @@ pg.base.memory_template = {
 		story = "BUZHIHUO7",
 		id = 514,
 		icon = "memory_buzhihuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BUZHIHUO7"
+		}
 	},
 	[515] = {
 		mask = "bg/bg_memory",
@@ -8911,7 +10322,10 @@ pg.base.memory_template = {
 		story = "KANGKEDE1",
 		id = 515,
 		icon = "memory_kangkede",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KANGKEDE1"
+		}
 	},
 	[516] = {
 		mask = "bg/bg_memory",
@@ -8922,7 +10336,10 @@ pg.base.memory_template = {
 		story = "KANGKEDE2",
 		id = 516,
 		icon = "memory_kangkede",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KANGKEDE2"
+		}
 	},
 	[517] = {
 		mask = "bg/bg_memory",
@@ -8933,7 +10350,10 @@ pg.base.memory_template = {
 		story = "KANGKEDE3",
 		id = 517,
 		icon = "memory_kangkede",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KANGKEDE3"
+		}
 	},
 	[518] = {
 		mask = "bg/bg_memory",
@@ -8944,7 +10364,10 @@ pg.base.memory_template = {
 		story = "KANGKEDE4",
 		id = 518,
 		icon = "memory_kangkede",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KANGKEDE4"
+		}
 	},
 	[519] = {
 		mask = "bg/bg_memory",
@@ -8955,7 +10378,10 @@ pg.base.memory_template = {
 		story = "KANGKEDE5",
 		id = 519,
 		icon = "memory_kangkede",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KANGKEDE5"
+		}
 	},
 	[520] = {
 		mask = "bg/bg_memory",
@@ -8966,7 +10392,10 @@ pg.base.memory_template = {
 		story = "KANGKEDE6",
 		id = 520,
 		icon = "memory_kangkede",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KANGKEDE6"
+		}
 	},
 	[521] = {
 		mask = "bg/bg_memory",
@@ -8977,7 +10406,10 @@ pg.base.memory_template = {
 		story = "KANGKEDE7",
 		id = 521,
 		icon = "memory_kangkede",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KANGKEDE7"
+		}
 	},
 	[567] = {
 		mask = "bg/bg_memory",
@@ -8988,7 +10420,10 @@ pg.base.memory_template = {
 		story = "LONGXIANG1",
 		id = 567,
 		icon = "memory_longxiang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANG1"
+		}
 	},
 	[568] = {
 		mask = "bg/bg_memory",
@@ -8999,7 +10434,10 @@ pg.base.memory_template = {
 		story = "LONGXIANG2",
 		id = 568,
 		icon = "memory_longxiang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANG2"
+		}
 	},
 	[569] = {
 		mask = "bg/bg_memory",
@@ -9010,7 +10448,10 @@ pg.base.memory_template = {
 		story = "LONGXIANG3",
 		id = 569,
 		icon = "memory_longxiang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANG3"
+		}
 	},
 	[570] = {
 		mask = "bg/bg_memory",
@@ -9021,7 +10462,10 @@ pg.base.memory_template = {
 		story = "LONGXIANG4",
 		id = 570,
 		icon = "memory_longxiang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANG4"
+		}
 	},
 	[571] = {
 		mask = "bg/bg_memory",
@@ -9032,7 +10476,10 @@ pg.base.memory_template = {
 		story = "LONGXIANG5",
 		id = 571,
 		icon = "memory_longxiang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANG5"
+		}
 	},
 	[572] = {
 		mask = "bg/bg_memory",
@@ -9043,7 +10490,10 @@ pg.base.memory_template = {
 		story = "LONGXIANG6",
 		id = 572,
 		icon = "memory_longxiang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANG6"
+		}
 	},
 	[573] = {
 		mask = "bg/bg_memory",
@@ -9054,7 +10504,10 @@ pg.base.memory_template = {
 		story = "LONGXIANG7",
 		id = 573,
 		icon = "memory_longxiang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANG7"
+		}
 	},
 	[574] = {
 		mask = "bg/bg_memory",
@@ -9065,7 +10518,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG1",
 		id = 574,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG1"
+		}
 	},
 	[575] = {
 		mask = "bg/bg_memory",
@@ -9076,7 +10532,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG2",
 		id = 575,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG2"
+		}
 	},
 	[576] = {
 		mask = "bg/bg_memory",
@@ -9087,7 +10546,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG3",
 		id = 576,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG3"
+		}
 	},
 	[577] = {
 		mask = "bg/bg_memory",
@@ -9098,7 +10560,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG4",
 		id = 577,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG4"
+		}
 	},
 	[578] = {
 		mask = "bg/bg_memory",
@@ -9109,7 +10574,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG5",
 		id = 578,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG5"
+		}
 	},
 	[579] = {
 		mask = "bg/bg_memory",
@@ -9120,7 +10588,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG6",
 		id = 579,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG6"
+		}
 	},
 	[580] = {
 		mask = "bg/bg_memory",
@@ -9131,7 +10602,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG7",
 		id = 580,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG7"
+		}
 	},
 	[581] = {
 		mask = "bg/bg_memory",
@@ -9142,7 +10616,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG8",
 		id = 581,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG8"
+		}
 	},
 	[582] = {
 		mask = "bg/bg_memory",
@@ -9153,7 +10630,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG9",
 		id = 582,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG9"
+		}
 	},
 	[583] = {
 		mask = "bg/bg_memory",
@@ -9164,7 +10644,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG10",
 		id = 583,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG10"
+		}
 	},
 	[584] = {
 		mask = "bg/bg_memory",
@@ -9175,7 +10658,10 @@ pg.base.memory_template = {
 		story = "LONGXIANGHUODONG11",
 		id = 584,
 		icon = "memory_longxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LONGXIANGHUODONG11"
+		}
 	},
 	[585] = {
 		mask = "bg/bg_memory",
@@ -9186,7 +10672,10 @@ pg.base.memory_template = {
 		story = "DACHAO1",
 		id = 585,
 		icon = "memory_dachao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAO1"
+		}
 	},
 	[586] = {
 		mask = "bg/bg_memory",
@@ -9197,7 +10686,10 @@ pg.base.memory_template = {
 		story = "DACHAO2",
 		id = 586,
 		icon = "memory_dachao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAO2"
+		}
 	},
 	[587] = {
 		mask = "bg/bg_memory",
@@ -9208,7 +10700,10 @@ pg.base.memory_template = {
 		story = "DACHAO3",
 		id = 587,
 		icon = "memory_dachao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAO3"
+		}
 	},
 	[588] = {
 		mask = "bg/bg_memory",
@@ -9219,7 +10714,10 @@ pg.base.memory_template = {
 		story = "DACHAO4",
 		id = 588,
 		icon = "memory_dachao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAO4"
+		}
 	},
 	[589] = {
 		mask = "bg/bg_memory",
@@ -9230,7 +10728,10 @@ pg.base.memory_template = {
 		story = "DACHAO5",
 		id = 589,
 		icon = "memory_dachao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAO5"
+		}
 	},
 	[590] = {
 		mask = "bg/bg_memory",
@@ -9241,7 +10742,10 @@ pg.base.memory_template = {
 		story = "DACHAO6",
 		id = 590,
 		icon = "memory_dachao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAO6"
+		}
 	},
 	[591] = {
 		mask = "bg/bg_memory",
@@ -9252,7 +10756,10 @@ pg.base.memory_template = {
 		story = "DACHAO7",
 		id = 591,
 		icon = "memory_dachao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAO7"
+		}
 	},
 	[592] = {
 		mask = "bg/bg_memory",
@@ -9263,7 +10770,10 @@ pg.base.memory_template = {
 		story = "DACHAOSHENGDAN1",
 		id = 592,
 		icon = "memory_dachaoshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOSHENGDAN1"
+		}
 	},
 	[593] = {
 		mask = "bg/bg_memory",
@@ -9274,7 +10784,10 @@ pg.base.memory_template = {
 		story = "DACHAOSHENGDAN2",
 		id = 593,
 		icon = "memory_dachaoshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOSHENGDAN2"
+		}
 	},
 	[594] = {
 		mask = "bg/bg_memory",
@@ -9285,7 +10798,10 @@ pg.base.memory_template = {
 		story = "DACHAOSHENGDAN3",
 		id = 594,
 		icon = "memory_dachaoshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOSHENGDAN3"
+		}
 	},
 	[595] = {
 		mask = "bg/bg_memory",
@@ -9296,7 +10812,10 @@ pg.base.memory_template = {
 		story = "DACHAOSHENGDAN4",
 		id = 595,
 		icon = "memory_dachaoshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOSHENGDAN4"
+		}
 	},
 	[596] = {
 		mask = "bg/bg_memory",
@@ -9307,7 +10826,10 @@ pg.base.memory_template = {
 		story = "DACHAOSHENGDAN5",
 		id = 596,
 		icon = "memory_dachaoshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOSHENGDAN5"
+		}
 	},
 	[597] = {
 		mask = "bg/bg_memory",
@@ -9318,7 +10840,10 @@ pg.base.memory_template = {
 		story = "DACHAOSHENGDAN6",
 		id = 597,
 		icon = "memory_dachaoshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOSHENGDAN6"
+		}
 	},
 	[598] = {
 		mask = "bg/bg_memory",
@@ -9329,7 +10854,10 @@ pg.base.memory_template = {
 		story = "DACHAOSHENGDAN7",
 		id = 598,
 		icon = "memory_dachaoshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOSHENGDAN7"
+		}
 	},
 	[599] = {
 		mask = "bg/bg_memory",
@@ -9340,7 +10868,10 @@ pg.base.memory_template = {
 		story = "ZUBING1",
 		id = 599,
 		icon = "memory_zubing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUBING1"
+		}
 	},
 	[600] = {
 		mask = "bg/bg_memory",
@@ -9351,7 +10882,10 @@ pg.base.memory_template = {
 		story = "ZUBING2",
 		id = 600,
 		icon = "memory_zubing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUBING2"
+		}
 	},
 	[601] = {
 		mask = "bg/bg_memory",
@@ -9362,7 +10896,10 @@ pg.base.memory_template = {
 		story = "ZUBING3",
 		id = 601,
 		icon = "memory_zubing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUBING3"
+		}
 	},
 	[602] = {
 		mask = "bg/bg_memory",
@@ -9373,7 +10910,10 @@ pg.base.memory_template = {
 		story = "ZUBING4",
 		id = 602,
 		icon = "memory_zubing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUBING4"
+		}
 	},
 	[603] = {
 		mask = "bg/bg_memory",
@@ -9384,7 +10924,10 @@ pg.base.memory_template = {
 		story = "ZUBING5",
 		id = 603,
 		icon = "memory_zubing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUBING5"
+		}
 	},
 	[604] = {
 		mask = "bg/bg_memory",
@@ -9395,7 +10938,10 @@ pg.base.memory_template = {
 		story = "ZUBING6",
 		id = 604,
 		icon = "memory_zubing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUBING6"
+		}
 	},
 	[605] = {
 		mask = "bg/bg_memory",
@@ -9406,7 +10952,10 @@ pg.base.memory_template = {
 		story = "ZUBING7",
 		id = 605,
 		icon = "memory_zubing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUBING7"
+		}
 	},
 	[606] = {
 		mask = "bg/bg_memory",
@@ -9417,7 +10966,10 @@ pg.base.memory_template = {
 		story = "CANGLONG1",
 		id = 606,
 		icon = "memory_canglong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGLONG1"
+		}
 	},
 	[607] = {
 		mask = "bg/bg_memory",
@@ -9428,7 +10980,10 @@ pg.base.memory_template = {
 		story = "CANGLONG2",
 		id = 607,
 		icon = "memory_canglong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGLONG2"
+		}
 	},
 	[608] = {
 		mask = "bg/bg_memory",
@@ -9439,7 +10994,10 @@ pg.base.memory_template = {
 		story = "CANGLONG3",
 		id = 608,
 		icon = "memory_canglong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGLONG3"
+		}
 	},
 	[609] = {
 		mask = "bg/bg_memory",
@@ -9450,7 +11008,10 @@ pg.base.memory_template = {
 		story = "CANGLONG4",
 		id = 609,
 		icon = "memory_canglong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGLONG4"
+		}
 	},
 	[610] = {
 		mask = "bg/bg_memory",
@@ -9461,7 +11022,10 @@ pg.base.memory_template = {
 		story = "CANGLONG5",
 		id = 610,
 		icon = "memory_canglong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGLONG5"
+		}
 	},
 	[611] = {
 		mask = "bg/bg_memory",
@@ -9472,7 +11036,10 @@ pg.base.memory_template = {
 		story = "CANGLONG6",
 		id = 611,
 		icon = "memory_canglong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGLONG6"
+		}
 	},
 	[612] = {
 		mask = "bg/bg_memory",
@@ -9483,7 +11050,10 @@ pg.base.memory_template = {
 		story = "CANGLONG7",
 		id = 612,
 		icon = "memory_canglong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGLONG7"
+		}
 	},
 	[613] = {
 		mask = "bg/bg_memory",
@@ -9494,7 +11064,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANEXINNIAN1",
 		id = 613,
 		icon = "memory_xiaotianexinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANEXINNIAN1"
+		}
 	},
 	[614] = {
 		mask = "bg/bg_memory",
@@ -9505,7 +11078,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANEXINNIAN2",
 		id = 614,
 		icon = "memory_xiaotianexinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANEXINNIAN2"
+		}
 	},
 	[615] = {
 		mask = "bg/bg_memory",
@@ -9516,7 +11092,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANEXINNIAN3",
 		id = 615,
 		icon = "memory_xiaotianexinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANEXINNIAN3"
+		}
 	},
 	[616] = {
 		mask = "bg/bg_memory",
@@ -9527,7 +11106,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANEXINNIAN4",
 		id = 616,
 		icon = "memory_xiaotianexinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANEXINNIAN4"
+		}
 	},
 	[617] = {
 		mask = "bg/bg_memory",
@@ -9538,7 +11120,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANEXINNIAN5",
 		id = 617,
 		icon = "memory_xiaotianexinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANEXINNIAN5"
+		}
 	},
 	[618] = {
 		mask = "bg/bg_memory",
@@ -9549,7 +11134,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANEXINNIAN6",
 		id = 618,
 		icon = "memory_xiaotianexinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANEXINNIAN6"
+		}
 	},
 	[619] = {
 		mask = "bg/bg_memory",
@@ -9560,7 +11148,10 @@ pg.base.memory_template = {
 		story = "XIAOTIANEXINNIAN7",
 		id = 619,
 		icon = "memory_xiaotianexinnian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAOTIANEXINNIAN7"
+		}
 	},
 	[620] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9571,7 +11162,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG1",
 		id = 620,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG1"
+		}
 	},
 	[621] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9582,7 +11176,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG2",
 		id = 621,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG2"
+		}
 	},
 	[622] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9593,7 +11190,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG3",
 		id = 622,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG3"
+		}
 	},
 	[623] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9604,7 +11204,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG4",
 		id = 623,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG4"
+		}
 	},
 	[624] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9615,7 +11218,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG5",
 		id = 624,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG5"
+		}
 	},
 	[625] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9626,7 +11232,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG6",
 		id = 625,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG6"
+		}
 	},
 	[626] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9637,7 +11246,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG7",
 		id = 626,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG7"
+		}
 	},
 	[627] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9648,7 +11260,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG8",
 		id = 627,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG8"
+		}
 	},
 	[628] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9659,7 +11274,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG9",
 		id = 628,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG9"
+		}
 	},
 	[629] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9670,7 +11288,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG9-2",
 		id = 629,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG9-2"
+		}
 	},
 	[630] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9681,7 +11302,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG10",
 		id = 630,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG10"
+		}
 	},
 	[631] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9692,7 +11316,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG11",
 		id = 631,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG11"
+		}
 	},
 	[632] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9703,7 +11330,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG12",
 		id = 632,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG12"
+		}
 	},
 	[633] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9714,7 +11344,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG13",
 		id = 633,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG13"
+		}
 	},
 	[634] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9725,7 +11358,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG14",
 		id = 634,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG14"
+		}
 	},
 	[635] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9736,7 +11372,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG15",
 		id = 635,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG15"
+		}
 	},
 	[636] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9747,7 +11386,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG16",
 		id = 636,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG16"
+		}
 	},
 	[637] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9758,7 +11400,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG17",
 		id = 637,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG17"
+		}
 	},
 	[638] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9769,7 +11414,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG18",
 		id = 638,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG18"
+		}
 	},
 	[639] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9780,7 +11428,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG19",
 		id = 639,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG19"
+		}
 	},
 	[640] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9791,7 +11442,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG20",
 		id = 640,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG20"
+		}
 	},
 	[641] = {
 		mask = "bg/bg_map_tiancheng",
@@ -9802,7 +11456,10 @@ pg.base.memory_template = {
 		story = "TIANCHENGHUODONG21",
 		id = 641,
 		icon = "memory_tianchenghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANCHENGHUODONG21"
+		}
 	},
 	[642] = {
 		mask = "bg/bg_memory",
@@ -9813,7 +11470,10 @@ pg.base.memory_template = {
 		story = "CHUCHUN1",
 		id = 642,
 		icon = "memory_chuchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUCHUN1"
+		}
 	},
 	[643] = {
 		mask = "bg/bg_memory",
@@ -9824,7 +11484,10 @@ pg.base.memory_template = {
 		story = "CHUCHUN2",
 		id = 643,
 		icon = "memory_chuchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUCHUN2"
+		}
 	},
 	[644] = {
 		mask = "bg/bg_memory",
@@ -9835,7 +11498,10 @@ pg.base.memory_template = {
 		story = "CHUCHUN3",
 		id = 644,
 		icon = "memory_chuchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUCHUN3"
+		}
 	},
 	[645] = {
 		mask = "bg/bg_memory",
@@ -9846,7 +11512,10 @@ pg.base.memory_template = {
 		story = "CHUCHUN4",
 		id = 645,
 		icon = "memory_chuchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUCHUN4"
+		}
 	},
 	[646] = {
 		mask = "bg/bg_memory",
@@ -9857,7 +11526,10 @@ pg.base.memory_template = {
 		story = "CHUCHUN5",
 		id = 646,
 		icon = "memory_chuchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUCHUN5"
+		}
 	},
 	[647] = {
 		mask = "bg/bg_memory",
@@ -9868,7 +11540,10 @@ pg.base.memory_template = {
 		story = "CHUCHUN6",
 		id = 647,
 		icon = "memory_chuchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUCHUN6"
+		}
 	},
 	[648] = {
 		mask = "bg/bg_memory",
@@ -9879,7 +11554,10 @@ pg.base.memory_template = {
 		story = "CHUCHUN7",
 		id = 648,
 		icon = "memory_chuchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUCHUN7"
+		}
 	},
 	[649] = {
 		mask = "bg/bg_memory",
@@ -9890,7 +11568,10 @@ pg.base.memory_template = {
 		story = "WENSENSI1",
 		id = 649,
 		icon = "memory_wensensi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WENSENSI1"
+		}
 	},
 	[650] = {
 		mask = "bg/bg_memory",
@@ -9901,7 +11582,10 @@ pg.base.memory_template = {
 		story = "WENSENSI2",
 		id = 650,
 		icon = "memory_wensensi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WENSENSI2"
+		}
 	},
 	[651] = {
 		mask = "bg/bg_memory",
@@ -9912,7 +11596,10 @@ pg.base.memory_template = {
 		story = "WENSENSI3",
 		id = 651,
 		icon = "memory_wensensi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WENSENSI3"
+		}
 	},
 	[652] = {
 		mask = "bg/bg_memory",
@@ -9923,7 +11610,10 @@ pg.base.memory_template = {
 		story = "WENSENSI4",
 		id = 652,
 		icon = "memory_wensensi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WENSENSI4"
+		}
 	},
 	[653] = {
 		mask = "bg/bg_memory",
@@ -9934,7 +11624,10 @@ pg.base.memory_template = {
 		story = "WENSENSI5",
 		id = 653,
 		icon = "memory_wensensi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WENSENSI5"
+		}
 	},
 	[654] = {
 		mask = "bg/bg_memory",
@@ -9945,7 +11638,10 @@ pg.base.memory_template = {
 		story = "WENSENSI6",
 		id = 654,
 		icon = "memory_wensensi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WENSENSI6"
+		}
 	},
 	[655] = {
 		mask = "bg/bg_memory",
@@ -9956,7 +11652,10 @@ pg.base.memory_template = {
 		story = "WENSENSI7",
 		id = 655,
 		icon = "memory_wensensi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WENSENSI7"
+		}
 	},
 	[656] = {
 		mask = "bg/bg_memory",
@@ -9967,7 +11666,10 @@ pg.base.memory_template = {
 		story = "XIEFEIERDE1",
 		id = 656,
 		icon = "memory_xiefeierde",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIEFEIERDE1"
+		}
 	},
 	[657] = {
 		mask = "bg/bg_memory",
@@ -9978,7 +11680,10 @@ pg.base.memory_template = {
 		story = "XIEFEIERDE2",
 		id = 657,
 		icon = "memory_xiefeierde",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIEFEIERDE2"
+		}
 	},
 	[658] = {
 		mask = "bg/bg_memory",
@@ -9989,7 +11694,10 @@ pg.base.memory_template = {
 		story = "XIEFEIERDE3",
 		id = 658,
 		icon = "memory_xiefeierde",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIEFEIERDE3"
+		}
 	},
 	[659] = {
 		mask = "bg/bg_memory",
@@ -10000,7 +11708,10 @@ pg.base.memory_template = {
 		story = "XIEFEIERDE4",
 		id = 659,
 		icon = "memory_xiefeierde",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIEFEIERDE4"
+		}
 	},
 	[660] = {
 		mask = "bg/bg_memory",
@@ -10011,7 +11722,10 @@ pg.base.memory_template = {
 		story = "XIEFEIERDE5",
 		id = 660,
 		icon = "memory_xiefeierde",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIEFEIERDE5"
+		}
 	},
 	[661] = {
 		mask = "bg/bg_memory",
@@ -10022,7 +11736,10 @@ pg.base.memory_template = {
 		story = "XIEFEIERDE6",
 		id = 661,
 		icon = "memory_xiefeierde",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIEFEIERDE6"
+		}
 	},
 	[662] = {
 		mask = "bg/bg_memory",
@@ -10033,7 +11750,10 @@ pg.base.memory_template = {
 		story = "XIEFEIERDE7",
 		id = 662,
 		icon = "memory_xiefeierde",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIEFEIERDE7"
+		}
 	},
 	[663] = {
 		mask = "bg/bg_memory",
@@ -10044,7 +11764,10 @@ pg.base.memory_template = {
 		story = "TIANLANGXING1",
 		id = 663,
 		icon = "memory_tianlangxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANLANGXING1"
+		}
 	},
 	[664] = {
 		mask = "bg/bg_memory",
@@ -10055,7 +11778,10 @@ pg.base.memory_template = {
 		story = "TIANLANGXING2",
 		id = 664,
 		icon = "memory_tianlangxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANLANGXING2"
+		}
 	},
 	[665] = {
 		mask = "bg/bg_memory",
@@ -10066,7 +11792,10 @@ pg.base.memory_template = {
 		story = "TIANLANGXING3",
 		id = 665,
 		icon = "memory_tianlangxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANLANGXING3"
+		}
 	},
 	[666] = {
 		mask = "bg/bg_memory",
@@ -10077,7 +11806,10 @@ pg.base.memory_template = {
 		story = "TIANLANGXING4",
 		id = 666,
 		icon = "memory_tianlangxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANLANGXING4"
+		}
 	},
 	[667] = {
 		mask = "bg/bg_memory",
@@ -10088,7 +11820,10 @@ pg.base.memory_template = {
 		story = "TIANLANGXING5",
 		id = 667,
 		icon = "memory_tianlangxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANLANGXING5"
+		}
 	},
 	[668] = {
 		mask = "bg/bg_memory",
@@ -10099,7 +11834,10 @@ pg.base.memory_template = {
 		story = "TIANLANGXING6",
 		id = 668,
 		icon = "memory_tianlangxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANLANGXING6"
+		}
 	},
 	[669] = {
 		mask = "bg/bg_memory",
@@ -10110,7 +11848,10 @@ pg.base.memory_template = {
 		story = "TIANLANGXING7",
 		id = 669,
 		icon = "memory_tianlangxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANLANGXING7"
+		}
 	},
 	[670] = {
 		mask = "bg/bg_memory",
@@ -10121,7 +11862,10 @@ pg.base.memory_template = {
 		story = "YANZHAN1",
 		id = 670,
 		icon = "memory_yanzhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANZHAN1"
+		}
 	},
 	[671] = {
 		mask = "bg/bg_memory",
@@ -10132,7 +11876,10 @@ pg.base.memory_template = {
 		story = "YANZHAN2",
 		id = 671,
 		icon = "memory_yanzhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANZHAN2"
+		}
 	},
 	[672] = {
 		mask = "bg/bg_memory",
@@ -10143,7 +11890,10 @@ pg.base.memory_template = {
 		story = "YANZHAN3",
 		id = 672,
 		icon = "memory_yanzhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANZHAN3"
+		}
 	},
 	[673] = {
 		mask = "bg/bg_memory",
@@ -10154,7 +11904,10 @@ pg.base.memory_template = {
 		story = "YANZHAN4",
 		id = 673,
 		icon = "memory_yanzhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANZHAN4"
+		}
 	},
 	[674] = {
 		mask = "bg/bg_memory",
@@ -10165,7 +11918,10 @@ pg.base.memory_template = {
 		story = "YANZHAN5",
 		id = 674,
 		icon = "memory_yanzhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANZHAN5"
+		}
 	},
 	[675] = {
 		mask = "bg/bg_memory",
@@ -10176,7 +11932,10 @@ pg.base.memory_template = {
 		story = "YANZHAN6",
 		id = 675,
 		icon = "memory_yanzhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANZHAN6"
+		}
 	},
 	[676] = {
 		mask = "bg/bg_memory",
@@ -10187,7 +11946,10 @@ pg.base.memory_template = {
 		story = "YANZHAN7",
 		id = 676,
 		icon = "memory_yanzhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANZHAN7"
+		}
 	},
 	[677] = {
 		mask = "bg/bg_memory",
@@ -10198,7 +11960,10 @@ pg.base.memory_template = {
 		story = "DONGHUANGCHUNJIE1",
 		id = 677,
 		icon = "memory_donghuangchunjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUANGCHUNJIE1"
+		}
 	},
 	[678] = {
 		mask = "bg/bg_memory",
@@ -10209,7 +11974,10 @@ pg.base.memory_template = {
 		story = "DONGHUANGCHUNJIE2",
 		id = 678,
 		icon = "memory_donghuangchunjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUANGCHUNJIE2"
+		}
 	},
 	[679] = {
 		mask = "bg/bg_memory",
@@ -10220,7 +11988,10 @@ pg.base.memory_template = {
 		story = "DONGHUANGCHUNJIE3",
 		id = 679,
 		icon = "memory_donghuangchunjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUANGCHUNJIE3"
+		}
 	},
 	[680] = {
 		mask = "bg/bg_memory",
@@ -10231,7 +12002,10 @@ pg.base.memory_template = {
 		story = "DONGHUANGCHUNJIE4",
 		id = 680,
 		icon = "memory_donghuangchunjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUANGCHUNJIE4"
+		}
 	},
 	[681] = {
 		mask = "bg/bg_memory",
@@ -10242,7 +12016,10 @@ pg.base.memory_template = {
 		story = "DONGHUANGCHUNJIE5",
 		id = 681,
 		icon = "memory_donghuangchunjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUANGCHUNJIE5"
+		}
 	},
 	[682] = {
 		mask = "bg/bg_memory",
@@ -10253,7 +12030,10 @@ pg.base.memory_template = {
 		story = "DONGHUANGCHUNJIE6",
 		id = 682,
 		icon = "memory_donghuangchunjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUANGCHUNJIE6"
+		}
 	},
 	[683] = {
 		mask = "bg/bg_memory",
@@ -10264,7 +12044,10 @@ pg.base.memory_template = {
 		story = "DONGHUANGCHUNJIE7",
 		id = 683,
 		icon = "memory_donghuangchunjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGHUANGCHUNJIE7"
+		}
 	},
 	[684] = {
 		mask = "bg/bg_memory",
@@ -10275,7 +12058,10 @@ pg.base.memory_template = {
 		story = "AISAIKESIBOSS1",
 		id = 684,
 		icon = "memory_aisaikesiboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESIBOSS1"
+		}
 	},
 	[685] = {
 		mask = "bg/bg_memory",
@@ -10286,7 +12072,10 @@ pg.base.memory_template = {
 		story = "AISAIKESIBOSS2",
 		id = 685,
 		icon = "memory_aisaikesiboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESIBOSS2"
+		}
 	},
 	[686] = {
 		mask = "bg/bg_memory",
@@ -10297,7 +12086,10 @@ pg.base.memory_template = {
 		story = "AISAIKESIBOSS3",
 		id = 686,
 		icon = "memory_aisaikesiboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESIBOSS3"
+		}
 	},
 	[687] = {
 		mask = "bg/bg_memory",
@@ -10308,7 +12100,10 @@ pg.base.memory_template = {
 		story = "AISAIKESIBOSS4",
 		id = 687,
 		icon = "memory_aisaikesiboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESIBOSS4"
+		}
 	},
 	[688] = {
 		mask = "bg/bg_memory",
@@ -10319,7 +12114,10 @@ pg.base.memory_template = {
 		story = "AISAIKESIBOSS5",
 		id = 688,
 		icon = "memory_aisaikesiboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISAIKESIBOSS5"
+		}
 	},
 	[689] = {
 		mask = "bg/bg_memory",
@@ -10330,7 +12128,10 @@ pg.base.memory_template = {
 		story = "XIANGGELILA1",
 		id = 689,
 		icon = "memory_xianggelila",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGGELILA1"
+		}
 	},
 	[690] = {
 		mask = "bg/bg_memory",
@@ -10341,7 +12142,10 @@ pg.base.memory_template = {
 		story = "XIANGGELILA2",
 		id = 690,
 		icon = "memory_xianggelila",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGGELILA2"
+		}
 	},
 	[691] = {
 		mask = "bg/bg_memory",
@@ -10352,7 +12156,10 @@ pg.base.memory_template = {
 		story = "XIANGGELILA3",
 		id = 691,
 		icon = "memory_xianggelila",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGGELILA3"
+		}
 	},
 	[692] = {
 		mask = "bg/bg_memory",
@@ -10363,7 +12170,10 @@ pg.base.memory_template = {
 		story = "XIANGGELILA4",
 		id = 692,
 		icon = "memory_xianggelila",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGGELILA4"
+		}
 	},
 	[693] = {
 		mask = "bg/bg_memory",
@@ -10374,7 +12184,10 @@ pg.base.memory_template = {
 		story = "XIANGGELILA5",
 		id = 693,
 		icon = "memory_xianggelila",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGGELILA5"
+		}
 	},
 	[694] = {
 		mask = "bg/bg_memory",
@@ -10385,7 +12198,10 @@ pg.base.memory_template = {
 		story = "XIANGGELILA6",
 		id = 694,
 		icon = "memory_xianggelila",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGGELILA6"
+		}
 	},
 	[695] = {
 		mask = "bg/bg_memory",
@@ -10396,7 +12212,10 @@ pg.base.memory_template = {
 		story = "XIANGGELILA7",
 		id = 695,
 		icon = "memory_xianggelila",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGGELILA7"
+		}
 	},
 	[696] = {
 		mask = "bg/bg_memory",
@@ -10407,7 +12226,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE1",
 		id = 696,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE1"
+		}
 	},
 	[697] = {
 		mask = "bg/bg_memory",
@@ -10418,7 +12240,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE2",
 		id = 697,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE2"
+		}
 	},
 	[698] = {
 		mask = "bg/bg_memory",
@@ -10429,7 +12254,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE3",
 		id = 698,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE3"
+		}
 	},
 	[699] = {
 		mask = "bg/bg_memory",
@@ -10440,7 +12268,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE4",
 		id = 699,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE4"
+		}
 	},
 	[700] = {
 		mask = "bg/bg_memory",
@@ -10451,7 +12282,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE5",
 		id = 700,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE5"
+		}
 	},
 	[701] = {
 		mask = "bg/bg_memory",
@@ -10462,7 +12296,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE6",
 		id = 701,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE6"
+		}
 	},
 	[702] = {
 		mask = "bg/bg_memory",
@@ -10473,7 +12310,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE7",
 		id = 702,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE7"
+		}
 	},
 	[703] = {
 		mask = "bg/bg_memory",
@@ -10484,7 +12324,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE8",
 		id = 703,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE8"
+		}
 	},
 	[704] = {
 		mask = "bg/bg_memory",
@@ -10495,7 +12338,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE9",
 		id = 704,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE9"
+		}
 	},
 	[705] = {
 		mask = "bg/bg_memory",
@@ -10506,7 +12352,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE10",
 		id = 705,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE10"
+		}
 	},
 	[706] = {
 		mask = "bg/bg_memory",
@@ -10517,7 +12366,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE11",
 		id = 706,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE11"
+		}
 	},
 	[707] = {
 		mask = "bg/bg_memory",
@@ -10528,7 +12380,10 @@ pg.base.memory_template = {
 		story = "NAERWEIKE12",
 		id = 707,
 		icon = "memory_naerweike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERWEIKE12"
+		}
 	},
 	[715] = {
 		mask = "bg/bg_memory",
@@ -10539,7 +12394,10 @@ pg.base.memory_template = {
 		story = "FANGAN3",
 		id = 715,
 		icon = "default",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANGAN3"
+		}
 	},
 	[716] = {
 		mask = "bg/bg_memory",
@@ -10550,7 +12408,10 @@ pg.base.memory_template = {
 		story = "LUCK29901",
 		id = 716,
 		icon = "memory_jhhaiwangxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK29901"
+		}
 	},
 	[717] = {
 		mask = "bg/bg_memory",
@@ -10561,7 +12422,10 @@ pg.base.memory_template = {
 		story = "LUCK29902",
 		id = 717,
 		icon = "memory_jhjunzhu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK29902"
+		}
 	},
 	[718] = {
 		mask = "bg/bg_memory",
@@ -10572,7 +12436,10 @@ pg.base.memory_template = {
 		story = "LUCK39901",
 		id = 718,
 		icon = "memory_jhyichui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK39901"
+		}
 	},
 	[719] = {
 		mask = "bg/bg_memory",
@@ -10583,7 +12450,10 @@ pg.base.memory_template = {
 		story = "LUCK39902",
 		id = 719,
 		icon = "memory_jhchuyun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK39902"
+		}
 	},
 	[720] = {
 		mask = "bg/bg_memory",
@@ -10594,7 +12464,10 @@ pg.base.memory_template = {
 		story = "LUCK49901",
 		id = 720,
 		icon = "memory_jhluoen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49901"
+		}
 	},
 	[721] = {
 		mask = "bg/bg_memory",
@@ -10605,7 +12478,10 @@ pg.base.memory_template = {
 		story = "LUCK89901",
 		id = 721,
 		icon = "memory_jhluyijiushi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK89901"
+		}
 	},
 	[722] = {
 		mask = "bg/bg_memory",
@@ -10616,7 +12492,10 @@ pg.base.memory_template = {
 		story = "LUCK39903",
 		id = 722,
 		icon = "memory_jhbeifeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK39903"
+		}
 	},
 	[723] = {
 		mask = "bg/bg_memory",
@@ -10627,7 +12506,10 @@ pg.base.memory_template = {
 		story = "LUCK49902",
 		id = 723,
 		icon = "memory_jhfeiteliedadi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49902"
+		}
 	},
 	[725] = {
 		mask = "bg/bg_memory",
@@ -10638,7 +12520,10 @@ pg.base.memory_template = {
 		story = "LUCK99901",
 		id = 725,
 		icon = "memory_jhjiasikenie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK99901"
+		}
 	},
 	[726] = {
 		mask = "bg/bg_memory",
@@ -10649,7 +12534,10 @@ pg.base.memory_template = {
 		story = "LUCK19902",
 		id = 726,
 		icon = "memory_jhzuozhiya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK19902"
+		}
 	},
 	[727] = {
 		mask = "bg/bg_memory",
@@ -10660,7 +12548,10 @@ pg.base.memory_template = {
 		story = "LUCK19901",
 		id = 727,
 		icon = "memory_jhxiyatu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK19901"
+		}
 	},
 	[763] = {
 		mask = "bg/bg_memory",
@@ -10671,7 +12562,10 @@ pg.base.memory_template = {
 		story = "GANGQUTAOLI1",
 		id = 763,
 		icon = "memory_gangqutaoli",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUTAOLI1"
+		}
 	},
 	[764] = {
 		mask = "bg/bg_memory",
@@ -10682,7 +12576,10 @@ pg.base.memory_template = {
 		story = "GANGQUTAOLI2",
 		id = 764,
 		icon = "memory_gangqutaoli",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUTAOLI2"
+		}
 	},
 	[765] = {
 		mask = "bg/bg_memory",
@@ -10693,7 +12590,10 @@ pg.base.memory_template = {
 		story = "GANGQUTAOLI3",
 		id = 765,
 		icon = "memory_gangqutaoli",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUTAOLI3"
+		}
 	},
 	[766] = {
 		mask = "bg/bg_memory",
@@ -10704,7 +12604,10 @@ pg.base.memory_template = {
 		story = "GANGQUTAOLI4",
 		id = 766,
 		icon = "memory_gangqutaoli",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUTAOLI4"
+		}
 	},
 	[767] = {
 		mask = "bg/bg_memory",
@@ -10715,7 +12618,10 @@ pg.base.memory_template = {
 		story = "GANGQUTAOLI5",
 		id = 767,
 		icon = "memory_gangqutaoli",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUTAOLI5"
+		}
 	},
 	[768] = {
 		mask = "bg/bg_memory",
@@ -10726,7 +12632,10 @@ pg.base.memory_template = {
 		story = "SIPEIBOJUE1",
 		id = 768,
 		icon = "memory_sipei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SIPEIBOJUE1"
+		}
 	},
 	[769] = {
 		mask = "bg/bg_memory",
@@ -10737,7 +12646,10 @@ pg.base.memory_template = {
 		story = "SIPEIBOJUE2",
 		id = 769,
 		icon = "memory_sipei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SIPEIBOJUE2"
+		}
 	},
 	[770] = {
 		mask = "bg/bg_memory",
@@ -10748,7 +12660,10 @@ pg.base.memory_template = {
 		story = "SIPEIBOJUE3",
 		id = 770,
 		icon = "memory_sipei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SIPEIBOJUE3"
+		}
 	},
 	[771] = {
 		mask = "bg/bg_memory",
@@ -10759,7 +12674,10 @@ pg.base.memory_template = {
 		story = "SIPEIBOJUE4",
 		id = 771,
 		icon = "memory_sipei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SIPEIBOJUE4"
+		}
 	},
 	[772] = {
 		mask = "bg/bg_memory",
@@ -10770,7 +12688,10 @@ pg.base.memory_template = {
 		story = "SIPEIBOJUE5",
 		id = 772,
 		icon = "memory_sipei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SIPEIBOJUE5"
+		}
 	},
 	[773] = {
 		mask = "bg/bg_memory",
@@ -10781,7 +12702,10 @@ pg.base.memory_template = {
 		story = "SIPEIBOJUE6",
 		id = 773,
 		icon = "memory_sipei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SIPEIBOJUE6"
+		}
 	},
 	[774] = {
 		mask = "bg/bg_memory",
@@ -10792,7 +12716,10 @@ pg.base.memory_template = {
 		story = "SIPEIBOJUE7",
 		id = 774,
 		icon = "memory_sipei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SIPEIBOJUE7"
+		}
 	},
 	[775] = {
 		mask = "bg/bg_memory",
@@ -10803,7 +12730,10 @@ pg.base.memory_template = {
 		story = "BSMXU1",
 		id = 775,
 		icon = "memory_u556",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BSMXU1"
+		}
 	},
 	[776] = {
 		mask = "bg/bg_memory",
@@ -10814,7 +12744,10 @@ pg.base.memory_template = {
 		story = "BSMXU2",
 		id = 776,
 		icon = "memory_u556",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BSMXU2"
+		}
 	},
 	[777] = {
 		mask = "bg/bg_memory",
@@ -10825,7 +12758,10 @@ pg.base.memory_template = {
 		story = "BSMXU3",
 		id = 777,
 		icon = "memory_u556",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BSMXU3"
+		}
 	},
 	[778] = {
 		mask = "bg/bg_memory",
@@ -10836,7 +12772,10 @@ pg.base.memory_template = {
 		story = "QIAOZHIWUSHI1",
 		id = 778,
 		icon = "memory_qiaozhiwushi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIAOZHIWUSHI1"
+		}
 	},
 	[779] = {
 		mask = "bg/bg_memory",
@@ -10847,7 +12786,10 @@ pg.base.memory_template = {
 		story = "QIAOZHIWUSHI2",
 		id = 779,
 		icon = "memory_qiaozhiwushi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIAOZHIWUSHI2"
+		}
 	},
 	[780] = {
 		mask = "bg/bg_memory",
@@ -10858,7 +12800,10 @@ pg.base.memory_template = {
 		story = "QIAOZHIWUSHI3",
 		id = 780,
 		icon = "memory_qiaozhiwushi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIAOZHIWUSHI3"
+		}
 	},
 	[781] = {
 		mask = "bg/bg_memory",
@@ -10869,7 +12814,10 @@ pg.base.memory_template = {
 		story = "QIAOZHIWUSHI4",
 		id = 781,
 		icon = "memory_qiaozhiwushi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIAOZHIWUSHI4"
+		}
 	},
 	[782] = {
 		mask = "bg/bg_memory",
@@ -10880,7 +12828,10 @@ pg.base.memory_template = {
 		story = "QIAOZHIWUSHI5",
 		id = 782,
 		icon = "memory_qiaozhiwushi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIAOZHIWUSHI5"
+		}
 	},
 	[783] = {
 		mask = "bg/bg_memory",
@@ -10891,7 +12842,10 @@ pg.base.memory_template = {
 		story = "QIAOZHIWUSHI6",
 		id = 783,
 		icon = "memory_qiaozhiwushi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIAOZHIWUSHI6"
+		}
 	},
 	[784] = {
 		mask = "bg/bg_memory",
@@ -10902,7 +12856,10 @@ pg.base.memory_template = {
 		story = "QIAOZHIWUSHI7",
 		id = 784,
 		icon = "memory_qiaozhiwushi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIAOZHIWUSHI7"
+		}
 	},
 	[785] = {
 		mask = "bg/bg_memory",
@@ -10913,7 +12870,10 @@ pg.base.memory_template = {
 		story = "U556STORY1",
 		id = 785,
 		icon = "memory_u556story",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U556STORY1"
+		}
 	},
 	[786] = {
 		mask = "bg/bg_memory",
@@ -10924,7 +12884,10 @@ pg.base.memory_template = {
 		story = "U556STORY2",
 		id = 786,
 		icon = "memory_u556story",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U556STORY2"
+		}
 	},
 	[787] = {
 		mask = "bg/bg_memory",
@@ -10935,7 +12898,10 @@ pg.base.memory_template = {
 		story = "U556STORY3",
 		id = 787,
 		icon = "memory_u556story",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U556STORY3"
+		}
 	},
 	[788] = {
 		mask = "bg/bg_memory",
@@ -10946,7 +12912,10 @@ pg.base.memory_template = {
 		story = "U556STORY4",
 		id = 788,
 		icon = "memory_u556story",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U556STORY4"
+		}
 	},
 	[789] = {
 		mask = "bg/bg_memory",
@@ -10957,7 +12926,10 @@ pg.base.memory_template = {
 		story = "U556STORY5",
 		id = 789,
 		icon = "memory_u556story",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U556STORY5"
+		}
 	},
 	[790] = {
 		mask = "bg/bg_memory",
@@ -10968,7 +12940,10 @@ pg.base.memory_template = {
 		story = "U556STORY6",
 		id = 790,
 		icon = "memory_u556story",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U556STORY6"
+		}
 	},
 	[791] = {
 		mask = "bg/bg_memory",
@@ -10979,7 +12954,10 @@ pg.base.memory_template = {
 		story = "U556STORY7",
 		id = 791,
 		icon = "memory_u556story",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U556STORY7"
+		}
 	},
 	[792] = {
 		mask = "bg/bg_memory",
@@ -10990,7 +12968,10 @@ pg.base.memory_template = {
 		story = "U73HUOYUE1",
 		id = 792,
 		icon = "memory_u73huoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U73HUOYUE1"
+		}
 	},
 	[793] = {
 		mask = "bg/bg_memory",
@@ -11001,7 +12982,10 @@ pg.base.memory_template = {
 		story = "U73HUOYUE2",
 		id = 793,
 		icon = "memory_u73huoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U73HUOYUE2"
+		}
 	},
 	[794] = {
 		mask = "bg/bg_memory",
@@ -11012,7 +12996,10 @@ pg.base.memory_template = {
 		story = "U73HUOYUE3",
 		id = 794,
 		icon = "memory_u73huoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U73HUOYUE3"
+		}
 	},
 	[795] = {
 		mask = "bg/bg_memory",
@@ -11023,7 +13010,10 @@ pg.base.memory_template = {
 		story = "U73HUOYUE4",
 		id = 795,
 		icon = "memory_u73huoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U73HUOYUE4"
+		}
 	},
 	[796] = {
 		mask = "bg/bg_memory",
@@ -11034,7 +13024,10 @@ pg.base.memory_template = {
 		story = "U73HUOYUE5",
 		id = 796,
 		icon = "memory_u73huoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U73HUOYUE5"
+		}
 	},
 	[797] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11045,7 +13038,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU1",
 		id = 797,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU1"
+		}
 	},
 	[798] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11056,7 +13052,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU2",
 		id = 798,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU2"
+		}
 	},
 	[799] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11067,7 +13066,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU3",
 		id = 799,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU3"
+		}
 	},
 	[800] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11078,7 +13080,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU4",
 		id = 800,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU4"
+		}
 	},
 	[801] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11089,7 +13094,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU5",
 		id = 801,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU5"
+		}
 	},
 	[802] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11100,7 +13108,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU6",
 		id = 802,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU6"
+		}
 	},
 	[803] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11111,7 +13122,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU7",
 		id = 803,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU7"
+		}
 	},
 	[804] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11122,7 +13136,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU8",
 		id = 804,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU8"
+		}
 	},
 	[805] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11133,7 +13150,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU9",
 		id = 805,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU9"
+		}
 	},
 	[806] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11144,7 +13164,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU10",
 		id = 806,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU10"
+		}
 	},
 	[807] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11155,7 +13178,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU11",
 		id = 807,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU11"
+		}
 	},
 	[808] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11166,7 +13192,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU12",
 		id = 808,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU12"
+		}
 	},
 	[809] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11177,7 +13206,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU13",
 		id = 809,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU13"
+		}
 	},
 	[810] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11188,7 +13220,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU14",
 		id = 810,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU14"
+		}
 	},
 	[811] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11199,7 +13234,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU15",
 		id = 811,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU15"
+		}
 	},
 	[812] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11210,7 +13248,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU16",
 		id = 812,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU16"
+		}
 	},
 	[813] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11221,7 +13262,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU17",
 		id = 813,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU17"
+		}
 	},
 	[814] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11232,7 +13276,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU18",
 		id = 814,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU18"
+		}
 	},
 	[815] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11243,7 +13290,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU19",
 		id = 815,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU19"
+		}
 	},
 	[816] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11254,7 +13304,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU20",
 		id = 816,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU20"
+		}
 	},
 	[817] = {
 		mask = "bg/bg_story_bsmlevel",
@@ -11265,7 +13318,10 @@ pg.base.memory_template = {
 		story = "TIEXUEYUYINFU21",
 		id = 817,
 		icon = "memory_tiexueyuyinfu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEXUEYUYINFU21"
+		}
 	},
 	[818] = {
 		mask = "bg/bg_memory",
@@ -11276,7 +13332,10 @@ pg.base.memory_template = {
 		story = "XIMULIFU1",
 		id = 818,
 		icon = "memory_ximulifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIMULIFU1"
+		}
 	},
 	[819] = {
 		mask = "bg/bg_memory",
@@ -11287,7 +13346,10 @@ pg.base.memory_template = {
 		story = "XIMULIFU2",
 		id = 819,
 		icon = "memory_ximulifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIMULIFU2"
+		}
 	},
 	[820] = {
 		mask = "bg/bg_memory",
@@ -11298,7 +13360,10 @@ pg.base.memory_template = {
 		story = "XIMULIFU3",
 		id = 820,
 		icon = "memory_ximulifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIMULIFU3"
+		}
 	},
 	[821] = {
 		mask = "bg/bg_memory",
@@ -11309,7 +13374,10 @@ pg.base.memory_template = {
 		story = "XIMULIFU4",
 		id = 821,
 		icon = "memory_ximulifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIMULIFU4"
+		}
 	},
 	[822] = {
 		mask = "bg/bg_memory",
@@ -11320,7 +13388,10 @@ pg.base.memory_template = {
 		story = "XIMULIFU5",
 		id = 822,
 		icon = "memory_ximulifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIMULIFU5"
+		}
 	},
 	[823] = {
 		mask = "bg/bg_memory",
@@ -11331,7 +13402,10 @@ pg.base.memory_template = {
 		story = "XIMULIFU6",
 		id = 823,
 		icon = "memory_ximulifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIMULIFU6"
+		}
 	},
 	[824] = {
 		mask = "bg/bg_memory",
@@ -11342,7 +13416,10 @@ pg.base.memory_template = {
 		story = "XIMULIFU7",
 		id = 824,
 		icon = "memory_ximulifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIMULIFU7"
+		}
 	},
 	[825] = {
 		mask = "bg/bg_memory",
@@ -11353,7 +13430,10 @@ pg.base.memory_template = {
 		story = "BIAOQIANGMANHUA1",
 		id = 825,
 		icon = "memory_biaoqiangmanhua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIAOQIANGMANHUA1"
+		}
 	},
 	[826] = {
 		mask = "bg/bg_memory",
@@ -11364,7 +13444,10 @@ pg.base.memory_template = {
 		story = "BIAOQIANGMANHUA2",
 		id = 826,
 		icon = "memory_biaoqiangmanhua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIAOQIANGMANHUA2"
+		}
 	},
 	[827] = {
 		mask = "bg/bg_memory",
@@ -11375,7 +13458,10 @@ pg.base.memory_template = {
 		story = "BIAOQIANGMANHUA3",
 		id = 827,
 		icon = "memory_biaoqiangmanhua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIAOQIANGMANHUA3"
+		}
 	},
 	[828] = {
 		mask = "bg/bg_memory",
@@ -11386,7 +13472,10 @@ pg.base.memory_template = {
 		story = "BIAOQIANGMANHUA4",
 		id = 828,
 		icon = "memory_biaoqiangmanhua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIAOQIANGMANHUA4"
+		}
 	},
 	[829] = {
 		mask = "bg/bg_memory",
@@ -11397,7 +13486,10 @@ pg.base.memory_template = {
 		story = "BIAOQIANGMANHUA5",
 		id = 829,
 		icon = "memory_biaoqiangmanhua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIAOQIANGMANHUA5"
+		}
 	},
 	[830] = {
 		mask = "bg/bg_memory",
@@ -11408,7 +13500,10 @@ pg.base.memory_template = {
 		story = "FENGBAOQIANXI0",
 		id = 830,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FENGBAOQIANXI0"
+		}
 	},
 	[831] = {
 		mask = "bg/bg_memory",
@@ -11419,7 +13514,10 @@ pg.base.memory_template = {
 		story = "1242017",
 		id = 831,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1242017"
+		}
 	},
 	[832] = {
 		mask = "bg/bg_memory",
@@ -11430,7 +13528,10 @@ pg.base.memory_template = {
 		story = "FENGBAOQIANXI2",
 		id = 832,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FENGBAOQIANXI2"
+		}
 	},
 	[833] = {
 		mask = "bg/bg_memory",
@@ -11441,7 +13542,10 @@ pg.base.memory_template = {
 		story = "FENGBAOQIANXI3",
 		id = 833,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FENGBAOQIANXI3"
+		}
 	},
 	[834] = {
 		mask = "bg/bg_memory",
@@ -11452,7 +13556,10 @@ pg.base.memory_template = {
 		story = "FENGBAOQIANXI4",
 		id = 834,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FENGBAOQIANXI4"
+		}
 	},
 	[835] = {
 		mask = "bg/bg_memory",
@@ -11463,7 +13570,10 @@ pg.base.memory_template = {
 		story = "FENGBAOQIANXI5",
 		id = 835,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FENGBAOQIANXI5"
+		}
 	},
 	[836] = {
 		mask = "bg/bg_memory",
@@ -11474,7 +13584,10 @@ pg.base.memory_template = {
 		story = "FENGBAOQIANXI6",
 		id = 836,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FENGBAOQIANXI6"
+		}
 	},
 	[837] = {
 		mask = "bg/bg_memory",
@@ -11485,7 +13598,10 @@ pg.base.memory_template = {
 		story = "FENGBAOQIANXI7",
 		id = 837,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FENGBAOQIANXI7"
+		}
 	},
 	[838] = {
 		mask = "bg/bg_memory",
@@ -11496,7 +13612,10 @@ pg.base.memory_template = {
 		story = "FENGBAOQIANXI8",
 		id = 838,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FENGBAOQIANXI8"
+		}
 	},
 	[839] = {
 		mask = "bg/bg_memory",
@@ -11507,7 +13626,10 @@ pg.base.memory_template = {
 		story = "FENGBAOQIANXI9",
 		id = 839,
 		icon = "memory_fengbaoqianxi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FENGBAOQIANXI9"
+		}
 	},
 	[840] = {
 		mask = "bg/bg_memory",
@@ -11518,7 +13640,10 @@ pg.base.memory_template = {
 		story = "I56XIAOFU1",
 		id = 840,
 		icon = "memory_i56xiaofu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"I56XIAOFU1"
+		}
 	},
 	[841] = {
 		mask = "bg/bg_memory",
@@ -11529,7 +13654,10 @@ pg.base.memory_template = {
 		story = "I56XIAOFU2",
 		id = 841,
 		icon = "memory_i56xiaofu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"I56XIAOFU2"
+		}
 	},
 	[842] = {
 		mask = "bg/bg_memory",
@@ -11540,7 +13668,10 @@ pg.base.memory_template = {
 		story = "I56XIAOFU3",
 		id = 842,
 		icon = "memory_i56xiaofu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"I56XIAOFU3"
+		}
 	},
 	[843] = {
 		mask = "bg/bg_memory",
@@ -11551,7 +13682,10 @@ pg.base.memory_template = {
 		story = "I56XIAOFU4",
 		id = 843,
 		icon = "memory_i56xiaofu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"I56XIAOFU4"
+		}
 	},
 	[844] = {
 		mask = "bg/bg_memory",
@@ -11562,7 +13696,10 @@ pg.base.memory_template = {
 		story = "JIQI1",
 		id = 844,
 		icon = "memory_jiqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIQI1"
+		}
 	},
 	[845] = {
 		mask = "bg/bg_memory",
@@ -11573,7 +13710,10 @@ pg.base.memory_template = {
 		story = "JIQI2",
 		id = 845,
 		icon = "memory_jiqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIQI2"
+		}
 	},
 	[846] = {
 		mask = "bg/bg_memory",
@@ -11584,7 +13724,10 @@ pg.base.memory_template = {
 		story = "JIQI3",
 		id = 846,
 		icon = "memory_jiqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIQI3"
+		}
 	},
 	[847] = {
 		mask = "bg/bg_memory",
@@ -11595,7 +13738,10 @@ pg.base.memory_template = {
 		story = "JIQI4",
 		id = 847,
 		icon = "memory_jiqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIQI4"
+		}
 	},
 	[848] = {
 		mask = "bg/bg_memory",
@@ -11606,7 +13752,10 @@ pg.base.memory_template = {
 		story = "JIQI5",
 		id = 848,
 		icon = "memory_jiqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIQI5"
+		}
 	},
 	[849] = {
 		mask = "bg/bg_memory",
@@ -11617,7 +13766,10 @@ pg.base.memory_template = {
 		story = "JIQI6",
 		id = 849,
 		icon = "memory_jiqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIQI6"
+		}
 	},
 	[850] = {
 		mask = "bg/bg_memory",
@@ -11628,7 +13780,10 @@ pg.base.memory_template = {
 		story = "JIQI7",
 		id = 850,
 		icon = "memory_jiqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIQI7"
+		}
 	},
 	[851] = {
 		mask = "bg/bg_xiangting_1",
@@ -11639,7 +13794,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA1",
 		id = 851,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA1"
+		}
 	},
 	[852] = {
 		mask = "bg/bg_xiangting_1",
@@ -11650,7 +13808,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA2",
 		id = 852,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA2"
+		}
 	},
 	[853] = {
 		mask = "bg/bg_xiangting_1",
@@ -11661,7 +13822,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA3",
 		id = 853,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA3"
+		}
 	},
 	[854] = {
 		mask = "bg/bg_xiangting_1",
@@ -11672,7 +13836,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA4",
 		id = 854,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA4"
+		}
 	},
 	[855] = {
 		mask = "bg/bg_xiangting_1",
@@ -11683,7 +13850,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA5",
 		id = 855,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA5"
+		}
 	},
 	[856] = {
 		mask = "bg/bg_xiangting_1",
@@ -11694,7 +13864,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA6",
 		id = 856,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA6"
+		}
 	},
 	[857] = {
 		mask = "bg/bg_xiangting_1",
@@ -11705,7 +13878,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA7",
 		id = 857,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA7"
+		}
 	},
 	[858] = {
 		mask = "bg/bg_xiangting_1",
@@ -11716,7 +13892,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA8",
 		id = 858,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA8"
+		}
 	},
 	[859] = {
 		mask = "bg/bg_xiangting_1",
@@ -11727,7 +13906,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA9",
 		id = 859,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA9"
+		}
 	},
 	[860] = {
 		mask = "bg/bg_xiangting_1",
@@ -11738,7 +13920,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA10",
 		id = 860,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA10"
+		}
 	},
 	[861] = {
 		mask = "bg/bg_xiangting_1",
@@ -11749,7 +13934,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA11",
 		id = 861,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA11"
+		}
 	},
 	[862] = {
 		mask = "bg/bg_xiangting_1",
@@ -11760,7 +13948,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA12",
 		id = 862,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA12"
+		}
 	},
 	[863] = {
 		mask = "bg/bg_xiangting_1",
@@ -11771,7 +13962,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA13",
 		id = 863,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA13"
+		}
 	},
 	[864] = {
 		mask = "bg/bg_xiangting_1",
@@ -11782,7 +13976,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA14",
 		id = 864,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA14"
+		}
 	},
 	[865] = {
 		mask = "bg/bg_xiangting_1",
@@ -11793,7 +13990,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA15",
 		id = 865,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA15"
+		}
 	},
 	[866] = {
 		mask = "bg/bg_xiangting_3",
@@ -11804,7 +14004,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA16",
 		id = 866,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA16"
+		}
 	},
 	[867] = {
 		mask = "bg/bg_xiangting_3",
@@ -11815,7 +14018,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA17",
 		id = 867,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA17"
+		}
 	},
 	[868] = {
 		mask = "bg/bg_xiangting_3",
@@ -11826,7 +14032,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA18",
 		id = 868,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA18"
+		}
 	},
 	[869] = {
 		mask = "bg/bg_xiangting_3",
@@ -11837,7 +14046,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA19",
 		id = 869,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA19"
+		}
 	},
 	[870] = {
 		mask = "bg/bg_xiangting_3",
@@ -11848,7 +14060,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA20",
 		id = 870,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA20"
+		}
 	},
 	[871] = {
 		mask = "bg/bg_xiangting_3",
@@ -11859,7 +14074,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA21",
 		id = 871,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA21"
+		}
 	},
 	[872] = {
 		mask = "bg/bg_xiangting_3",
@@ -11870,7 +14088,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA22",
 		id = 872,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA22"
+		}
 	},
 	[873] = {
 		mask = "bg/bg_xiangting_3",
@@ -11881,7 +14102,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA23",
 		id = 873,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA23"
+		}
 	},
 	[874] = {
 		mask = "bg/bg_xiangting_3",
@@ -11892,7 +14116,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA24",
 		id = 874,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA24"
+		}
 	},
 	[875] = {
 		mask = "bg/bg_xiangting_3",
@@ -11903,7 +14130,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA25",
 		id = 875,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA25"
+		}
 	},
 	[876] = {
 		mask = "bg/bg_xiangting_3",
@@ -11914,7 +14144,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA26",
 		id = 876,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA26"
+		}
 	},
 	[877] = {
 		mask = "bg/bg_xiangting_3",
@@ -11925,7 +14158,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA27",
 		id = 877,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA27"
+		}
 	},
 	[878] = {
 		mask = "bg/bg_xiangting_3",
@@ -11936,7 +14172,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA28",
 		id = 878,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA28"
+		}
 	},
 	[879] = {
 		mask = "bg/bg_xiangting_3",
@@ -11947,7 +14186,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA29",
 		id = 879,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA29"
+		}
 	},
 	[880] = {
 		mask = "bg/bg_xiangting_3",
@@ -11958,7 +14200,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA30",
 		id = 880,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA30"
+		}
 	},
 	[881] = {
 		mask = "bg/bg_xiangting_3",
@@ -11969,7 +14214,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA31",
 		id = 881,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA31"
+		}
 	},
 	[882] = {
 		mask = "bg/bg_xiangting_3",
@@ -11980,7 +14228,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA32",
 		id = 882,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA32"
+		}
 	},
 	[883] = {
 		mask = "bg/bg_xiangting_3",
@@ -11991,7 +14242,10 @@ pg.base.memory_template = {
 		story = "XIANGTINGLIAOFA33",
 		id = 883,
 		icon = "memory_xiangtingliaofa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGTINGLIAOFA33"
+		}
 	},
 	[884] = {
 		mask = "bg/bg_memory",
@@ -12002,7 +14256,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIAHAIBAO1",
 		id = 884,
 		icon = "memory_salatuojiahaibao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIAHAIBAO1"
+		}
 	},
 	[885] = {
 		mask = "bg/bg_memory",
@@ -12013,7 +14270,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIAHAIBAO2",
 		id = 885,
 		icon = "memory_salatuojiahaibao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIAHAIBAO2"
+		}
 	},
 	[886] = {
 		mask = "bg/bg_memory",
@@ -12024,7 +14284,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIAHAIBAO3",
 		id = 886,
 		icon = "memory_salatuojiahaibao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIAHAIBAO3"
+		}
 	},
 	[887] = {
 		mask = "bg/bg_memory",
@@ -12035,7 +14298,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIAHAIBAO4",
 		id = 887,
 		icon = "memory_salatuojiahaibao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIAHAIBAO4"
+		}
 	},
 	[888] = {
 		mask = "bg/bg_memory",
@@ -12046,7 +14312,10 @@ pg.base.memory_template = {
 		story = "SALATUOJIAHAIBAO5",
 		id = 888,
 		icon = "memory_salatuojiahaibao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SALATUOJIAHAIBAO5"
+		}
 	},
 	[889] = {
 		mask = "bg/bg_memory",
@@ -12057,7 +14326,10 @@ pg.base.memory_template = {
 		story = "TIANHOUYUYI1",
 		id = 889,
 		icon = "memory_tianhouyuyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANHOUYUYI1"
+		}
 	},
 	[890] = {
 		mask = "bg/bg_memory",
@@ -12068,7 +14340,10 @@ pg.base.memory_template = {
 		story = "TIANHOUYUYI2",
 		id = 890,
 		icon = "memory_tianhouyuyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANHOUYUYI2"
+		}
 	},
 	[891] = {
 		mask = "bg/bg_memory",
@@ -12079,7 +14354,10 @@ pg.base.memory_template = {
 		story = "RENQIQIYE",
 		id = 891,
 		icon = "memory_renqiqiye",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIQIYE"
+		}
 	},
 	[892] = {
 		mask = "bg/bg_memory",
@@ -12090,7 +14368,10 @@ pg.base.memory_template = {
 		story = "RENQIBEIERFASITE",
 		id = 892,
 		icon = "memory_renqibeierfasite",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIBEIERFASITE"
+		}
 	},
 	[900] = {
 		mask = "bg/bg_memory",
@@ -12101,7 +14382,10 @@ pg.base.memory_template = {
 		story = "ZHALA1",
 		id = 900,
 		icon = "memory_zhala",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHALA1"
+		}
 	},
 	[901] = {
 		mask = "bg/bg_memory",
@@ -12112,7 +14396,10 @@ pg.base.memory_template = {
 		story = "ZHALA2",
 		id = 901,
 		icon = "memory_zhala",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHALA2"
+		}
 	},
 	[902] = {
 		mask = "bg/bg_memory",
@@ -12123,7 +14410,10 @@ pg.base.memory_template = {
 		story = "ZHALA3",
 		id = 902,
 		icon = "memory_zhala",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHALA3"
+		}
 	},
 	[903] = {
 		mask = "bg/bg_memory",
@@ -12134,7 +14424,10 @@ pg.base.memory_template = {
 		story = "ZHALA4",
 		id = 903,
 		icon = "memory_zhala",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHALA4"
+		}
 	},
 	[904] = {
 		mask = "bg/bg_memory",
@@ -12145,7 +14438,10 @@ pg.base.memory_template = {
 		story = "ZHALA5",
 		id = 904,
 		icon = "memory_zhala",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHALA5"
+		}
 	},
 	[905] = {
 		mask = "bg/bg_memory",
@@ -12156,7 +14452,10 @@ pg.base.memory_template = {
 		story = "ZHALA6",
 		id = 905,
 		icon = "memory_zhala",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHALA6"
+		}
 	},
 	[906] = {
 		mask = "bg/bg_memory",
@@ -12167,7 +14466,10 @@ pg.base.memory_template = {
 		story = "ZHALA7",
 		id = 906,
 		icon = "memory_zhala",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHALA7"
+		}
 	},
 	[907] = {
 		mask = "bg/bg_italy_cg1",
@@ -12178,7 +14480,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU1",
 		id = 907,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU1"
+		}
 	},
 	[908] = {
 		mask = "bg/bg_italy_cg1",
@@ -12189,7 +14494,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU2",
 		id = 908,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU2"
+		}
 	},
 	[909] = {
 		mask = "bg/bg_italy_cg1",
@@ -12200,7 +14508,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU3",
 		id = 909,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU3"
+		}
 	},
 	[910] = {
 		mask = "bg/bg_italy_cg1",
@@ -12211,7 +14522,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU4",
 		id = 910,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU4"
+		}
 	},
 	[911] = {
 		mask = "bg/bg_italy_cg1",
@@ -12222,7 +14536,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU5",
 		id = 911,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU5"
+		}
 	},
 	[912] = {
 		mask = "bg/bg_italy_cg1",
@@ -12233,7 +14550,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU6",
 		id = 912,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU6"
+		}
 	},
 	[913] = {
 		mask = "bg/bg_italy_cg1",
@@ -12244,7 +14564,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU7",
 		id = 913,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU7"
+		}
 	},
 	[914] = {
 		mask = "bg/bg_italy_cg1",
@@ -12255,7 +14578,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU8",
 		id = 914,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU8"
+		}
 	},
 	[915] = {
 		mask = "bg/bg_italy_cg1",
@@ -12266,7 +14592,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU9",
 		id = 915,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU9"
+		}
 	},
 	[916] = {
 		mask = "bg/bg_italy_cg1",
@@ -12277,7 +14606,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU10",
 		id = 916,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU10"
+		}
 	},
 	[917] = {
 		mask = "bg/bg_italy_cg1",
@@ -12288,7 +14620,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU11",
 		id = 917,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU11"
+		}
 	},
 	[918] = {
 		mask = "bg/bg_italy_cg1",
@@ -12299,7 +14634,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU12",
 		id = 918,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU12"
+		}
 	},
 	[919] = {
 		mask = "bg/bg_italy_cg6",
@@ -12310,7 +14648,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU13",
 		id = 919,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU13"
+		}
 	},
 	[920] = {
 		mask = "bg/bg_italy_cg6",
@@ -12321,7 +14662,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU14",
 		id = 920,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU14"
+		}
 	},
 	[921] = {
 		mask = "bg/bg_italy_cg6",
@@ -12332,7 +14676,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU15",
 		id = 921,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU15"
+		}
 	},
 	[922] = {
 		mask = "bg/bg_italy_cg6",
@@ -12343,7 +14690,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU16",
 		id = 922,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU16"
+		}
 	},
 	[923] = {
 		mask = "bg/bg_italy_cg6",
@@ -12354,7 +14704,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU17",
 		id = 923,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU17"
+		}
 	},
 	[924] = {
 		mask = "bg/bg_italy_cg6",
@@ -12365,7 +14718,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU18",
 		id = 924,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU18"
+		}
 	},
 	[925] = {
 		mask = "bg/bg_italy_cg6",
@@ -12376,7 +14732,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU19",
 		id = 925,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU19"
+		}
 	},
 	[926] = {
 		mask = "bg/bg_italy_cg6",
@@ -12387,7 +14746,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU20",
 		id = 926,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU20"
+		}
 	},
 	[927] = {
 		mask = "bg/bg_italy_cg6",
@@ -12398,7 +14760,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU21",
 		id = 927,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU21"
+		}
 	},
 	[928] = {
 		mask = "bg/bg_italy_cg6",
@@ -12409,7 +14774,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU22",
 		id = 928,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU22"
+		}
 	},
 	[929] = {
 		mask = "bg/bg_italy_cg6",
@@ -12420,7 +14788,10 @@ pg.base.memory_template = {
 		story = "SHENSHENGDEBEIXIJU23",
 		id = 929,
 		icon = "memory_italy",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENSHENGDEBEIXIJU23"
+		}
 	},
 	[930] = {
 		mask = "bg/bg_memory",
@@ -12431,7 +14802,10 @@ pg.base.memory_template = {
 		story = "DACHAOLIFU1",
 		id = 930,
 		icon = "memory_dachaolifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOLIFU1"
+		}
 	},
 	[931] = {
 		mask = "bg/bg_memory",
@@ -12442,7 +14816,10 @@ pg.base.memory_template = {
 		story = "DACHAOLIFU2",
 		id = 931,
 		icon = "memory_dachaolifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOLIFU2"
+		}
 	},
 	[932] = {
 		mask = "bg/bg_memory",
@@ -12453,7 +14830,10 @@ pg.base.memory_template = {
 		story = "DACHAOLIFU3",
 		id = 932,
 		icon = "memory_dachaolifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOLIFU3"
+		}
 	},
 	[933] = {
 		mask = "bg/bg_memory",
@@ -12464,7 +14844,10 @@ pg.base.memory_template = {
 		story = "DACHAOLIFU4",
 		id = 933,
 		icon = "memory_dachaolifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DACHAOLIFU4"
+		}
 	},
 	[934] = {
 		mask = "bg/bg_memory",
@@ -12475,7 +14858,10 @@ pg.base.memory_template = {
 		story = "JUNHEBOSS1",
 		id = 934,
 		icon = "memory_junheboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHEBOSS1"
+		}
 	},
 	[935] = {
 		mask = "bg/bg_memory",
@@ -12486,7 +14872,10 @@ pg.base.memory_template = {
 		story = "JUNHEBOSS2",
 		id = 935,
 		icon = "memory_junheboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHEBOSS2"
+		}
 	},
 	[936] = {
 		mask = "bg/bg_memory",
@@ -12497,7 +14886,10 @@ pg.base.memory_template = {
 		story = "JUNHEBOSS3",
 		id = 936,
 		icon = "memory_junheboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHEBOSS3"
+		}
 	},
 	[937] = {
 		mask = "bg/bg_memory",
@@ -12508,7 +14900,10 @@ pg.base.memory_template = {
 		story = "JUNHEBOSS4",
 		id = 937,
 		icon = "memory_junheboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHEBOSS4"
+		}
 	},
 	[938] = {
 		mask = "bg/bg_memory",
@@ -12519,7 +14914,10 @@ pg.base.memory_template = {
 		story = "JUNHEBOSS5",
 		id = 938,
 		icon = "memory_junheboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHEBOSS5"
+		}
 	},
 	[940] = {
 		mask = "bg/bg_memory",
@@ -12530,7 +14928,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU1",
 		id = 940,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU1"
+		}
 	},
 	[941] = {
 		mask = "bg/bg_memory",
@@ -12541,7 +14942,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU2",
 		id = 941,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU2"
+		}
 	},
 	[942] = {
 		mask = "bg/bg_memory",
@@ -12552,7 +14956,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU3",
 		id = 942,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU3"
+		}
 	},
 	[943] = {
 		mask = "bg/bg_memory",
@@ -12563,7 +14970,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU4",
 		id = 943,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU4"
+		}
 	},
 	[944] = {
 		mask = "bg/bg_memory",
@@ -12574,7 +14984,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU5",
 		id = 944,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU5"
+		}
 	},
 	[945] = {
 		mask = "bg/bg_memory",
@@ -12585,7 +14998,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU6",
 		id = 945,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU6"
+		}
 	},
 	[946] = {
 		mask = "bg/bg_memory",
@@ -12596,7 +15012,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU7",
 		id = 946,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU7"
+		}
 	},
 	[947] = {
 		mask = "bg/bg_memory",
@@ -12607,7 +15026,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU8",
 		id = 947,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU8"
+		}
 	},
 	[948] = {
 		mask = "bg/bg_memory",
@@ -12618,7 +15040,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU9",
 		id = 948,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU9"
+		}
 	},
 	[949] = {
 		mask = "bg/bg_memory",
@@ -12629,7 +15054,10 @@ pg.base.memory_template = {
 		story = "ZUIZHENGUIDEBAOWU10",
 		id = 949,
 		icon = "memory_zuizhenguidebaowu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZUIZHENGUIDEBAOWU10"
+		}
 	},
 	[950] = {
 		mask = "bg/bg_memory",
@@ -12640,7 +15068,10 @@ pg.base.memory_template = {
 		story = "MENGFEISIWANSHENG1",
 		id = 950,
 		icon = "memory_mengfeisiwansheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGFEISIWANSHENG1"
+		}
 	},
 	[951] = {
 		mask = "bg/bg_memory",
@@ -12651,7 +15082,10 @@ pg.base.memory_template = {
 		story = "MENGFEISIWANSHENG2",
 		id = 951,
 		icon = "memory_mengfeisiwansheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGFEISIWANSHENG2"
+		}
 	},
 	[952] = {
 		mask = "bg/bg_memory",
@@ -12662,7 +15096,10 @@ pg.base.memory_template = {
 		story = "MENGFEISIWANSHENG3",
 		id = 952,
 		icon = "memory_mengfeisiwansheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGFEISIWANSHENG3"
+		}
 	},
 	[953] = {
 		mask = "bg/bg_memory",
@@ -12673,7 +15110,10 @@ pg.base.memory_template = {
 		story = "MENGFEISIWANSHENG4",
 		id = 953,
 		icon = "memory_mengfeisiwansheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGFEISIWANSHENG4"
+		}
 	},
 	[954] = {
 		mask = "bg/bg_memory",
@@ -12684,7 +15124,10 @@ pg.base.memory_template = {
 		story = "MENGFEISIWANSHENG5",
 		id = 954,
 		icon = "memory_mengfeisiwansheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGFEISIWANSHENG5"
+		}
 	},
 	[960] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12695,7 +15138,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG1",
 		id = 960,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG1"
+		}
 	},
 	[961] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12706,7 +15152,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG2",
 		id = 961,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG2"
+		}
 	},
 	[962] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12717,7 +15166,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG3",
 		id = 962,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG3"
+		}
 	},
 	[963] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12728,7 +15180,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG4",
 		id = 963,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG4"
+		}
 	},
 	[964] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12739,7 +15194,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG5",
 		id = 964,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG5"
+		}
 	},
 	[965] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12750,7 +15208,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG6",
 		id = 965,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG6"
+		}
 	},
 	[966] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12761,7 +15222,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG7",
 		id = 966,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG7"
+		}
 	},
 	[967] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12772,7 +15236,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG8",
 		id = 967,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG8"
+		}
 	},
 	[968] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12783,7 +15250,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG9",
 		id = 968,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG9"
+		}
 	},
 	[969] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12794,7 +15264,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG10",
 		id = 969,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG10"
+		}
 	},
 	[970] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12805,7 +15278,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG11",
 		id = 970,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG11"
+		}
 	},
 	[971] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12816,7 +15292,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG12",
 		id = 971,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG12"
+		}
 	},
 	[972] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12827,7 +15306,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG13",
 		id = 972,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG13"
+		}
 	},
 	[973] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12838,7 +15320,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG14",
 		id = 973,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG14"
+		}
 	},
 	[974] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12849,7 +15334,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG15",
 		id = 974,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG15"
+		}
 	},
 	[975] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12860,7 +15348,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG16",
 		id = 975,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG16"
+		}
 	},
 	[976] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12871,7 +15362,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG17",
 		id = 976,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG17"
+		}
 	},
 	[977] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12882,7 +15376,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG18",
 		id = 977,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG18"
+		}
 	},
 	[978] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12893,7 +15390,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG19",
 		id = 978,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG19"
+		}
 	},
 	[979] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12904,7 +15404,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG20",
 		id = 979,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG20"
+		}
 	},
 	[980] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12915,7 +15418,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG21",
 		id = 980,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG21"
+		}
 	},
 	[981] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12926,7 +15432,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG22",
 		id = 981,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG22"
+		}
 	},
 	[982] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12937,7 +15446,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG23",
 		id = 982,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG23"
+		}
 	},
 	[983] = {
 		mask = "bg/bg_ouxianglevel",
@@ -12948,7 +15460,10 @@ pg.base.memory_template = {
 		story = "OUXIANGHUODONG24",
 		id = 983,
 		icon = "memory_ouxianghuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGHUODONG24"
+		}
 	},
 	[990] = {
 		mask = "bg/bg_memory",
@@ -12959,7 +15474,10 @@ pg.base.memory_template = {
 		story = "OUXIANGRICHANG1",
 		id = 990,
 		icon = "memory_ouxiangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGRICHANG1"
+		}
 	},
 	[991] = {
 		mask = "bg/bg_memory",
@@ -12970,7 +15488,10 @@ pg.base.memory_template = {
 		story = "OUXIANGRICHANG2",
 		id = 991,
 		icon = "memory_ouxiangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGRICHANG2"
+		}
 	},
 	[992] = {
 		mask = "bg/bg_memory",
@@ -12981,7 +15502,10 @@ pg.base.memory_template = {
 		story = "OUXIANGRICHANG3",
 		id = 992,
 		icon = "memory_ouxiangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGRICHANG3"
+		}
 	},
 	[1056] = {
 		mask = "bg/bg_memory",
@@ -12992,7 +15516,10 @@ pg.base.memory_template = {
 		story = "RUOYESHENGDAN1",
 		id = 1056,
 		icon = "memory_ruoyeshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUOYESHENGDAN1"
+		}
 	},
 	[1057] = {
 		mask = "bg/bg_memory",
@@ -13003,7 +15530,10 @@ pg.base.memory_template = {
 		story = "RUOYESHENGDAN2",
 		id = 1057,
 		icon = "memory_ruoyeshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUOYESHENGDAN2"
+		}
 	},
 	[1058] = {
 		mask = "bg/bg_memory",
@@ -13014,7 +15544,10 @@ pg.base.memory_template = {
 		story = "RUOYESHENGDAN3",
 		id = 1058,
 		icon = "memory_ruoyeshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUOYESHENGDAN3"
+		}
 	},
 	[1059] = {
 		mask = "bg/bg_memory",
@@ -13025,7 +15558,10 @@ pg.base.memory_template = {
 		story = "RUOYESHENGDAN4",
 		id = 1059,
 		icon = "memory_ruoyeshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUOYESHENGDAN4"
+		}
 	},
 	[1060] = {
 		mask = "bg/bg_memory",
@@ -13036,7 +15572,10 @@ pg.base.memory_template = {
 		story = "RUOYESHENGDAN5",
 		id = 1060,
 		icon = "memory_ruoyeshengdan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RUOYESHENGDAN5"
+		}
 	},
 	[1061] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13047,7 +15586,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA1",
 		id = 1061,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA1"
+		}
 	},
 	[1062] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13058,7 +15600,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA2",
 		id = 1062,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA2"
+		}
 	},
 	[1063] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13069,7 +15614,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA3",
 		id = 1063,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA3"
+		}
 	},
 	[1064] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13080,7 +15628,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA4",
 		id = 1064,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA4"
+		}
 	},
 	[1065] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13091,7 +15642,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA5",
 		id = 1065,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA5"
+		}
 	},
 	[1066] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13102,7 +15656,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA6",
 		id = 1066,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA6"
+		}
 	},
 	[1067] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13113,7 +15670,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA7",
 		id = 1067,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA7"
+		}
 	},
 	[1068] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13124,7 +15684,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA8",
 		id = 1068,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA8"
+		}
 	},
 	[1069] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13135,7 +15698,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA9",
 		id = 1069,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA9"
+		}
 	},
 	[1070] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13146,7 +15712,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA10",
 		id = 1070,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA10"
+		}
 	},
 	[1071] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13157,7 +15726,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA11",
 		id = 1071,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA11"
+		}
 	},
 	[1072] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13168,7 +15740,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA12",
 		id = 1072,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA12"
+		}
 	},
 	[1073] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13179,7 +15754,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA13",
 		id = 1073,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA13"
+		}
 	},
 	[1074] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13190,7 +15768,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA14",
 		id = 1074,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA14"
+		}
 	},
 	[1075] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13201,7 +15782,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA15",
 		id = 1075,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA15"
+		}
 	},
 	[1076] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13212,7 +15796,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA16",
 		id = 1076,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA16"
+		}
 	},
 	[1077] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13223,7 +15810,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA17",
 		id = 1077,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA17"
+		}
 	},
 	[1078] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13234,7 +15824,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA18",
 		id = 1078,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA18"
+		}
 	},
 	[1079] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13245,7 +15838,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA19",
 		id = 1079,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA19"
+		}
 	},
 	[1080] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13256,7 +15852,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA20",
 		id = 1080,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA20"
+		}
 	},
 	[1081] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13267,7 +15866,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA21",
 		id = 1081,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA21"
+		}
 	},
 	[1082] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13278,7 +15880,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA22",
 		id = 1082,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA22"
+		}
 	},
 	[1083] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13289,7 +15894,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA23",
 		id = 1083,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA23"
+		}
 	},
 	[1084] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13300,7 +15908,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA24",
 		id = 1084,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA24"
+		}
 	},
 	[1085] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13311,7 +15922,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA25",
 		id = 1085,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA25"
+		}
 	},
 	[1086] = {
 		mask = "bg/bg_xinnong_cg2",
@@ -13322,7 +15936,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA26",
 		id = 1086,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA26"
+		}
 	},
 	[1087] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13333,7 +15950,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA27",
 		id = 1087,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA27"
+		}
 	},
 	[1088] = {
 		mask = "bg/bg_xinnong_cg1",
@@ -13344,7 +15964,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUA28",
 		id = 1088,
 		icon = "memory_fuyingyinghuaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUA28"
+		}
 	},
 	[1091] = {
 		mask = "bg/bg_memory",
@@ -13355,7 +15978,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUARICHANG1",
 		id = 1091,
 		icon = "memory_fuyingyinghuarichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUARICHANG1"
+		}
 	},
 	[1092] = {
 		mask = "bg/bg_memory",
@@ -13366,7 +15992,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUARICHANG2",
 		id = 1092,
 		icon = "memory_fuyingyinghuarichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUARICHANG2"
+		}
 	},
 	[1093] = {
 		mask = "bg/bg_memory",
@@ -13377,7 +16006,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUARICHANG3",
 		id = 1093,
 		icon = "memory_fuyingyinghuarichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUARICHANG3"
+		}
 	},
 	[1094] = {
 		mask = "bg/bg_memory",
@@ -13388,7 +16020,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUARICHANG4",
 		id = 1094,
 		icon = "memory_fuyingyinghuarichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUARICHANG4"
+		}
 	},
 	[1095] = {
 		mask = "bg/bg_memory",
@@ -13399,7 +16034,10 @@ pg.base.memory_template = {
 		story = "FUYINGYINGHUARICHANG5",
 		id = 1095,
 		icon = "memory_fuyingyinghuarichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUYINGYINGHUARICHANG5"
+		}
 	},
 	[1096] = {
 		mask = "bg/bg_memory",
@@ -13410,7 +16048,10 @@ pg.base.memory_template = {
 		story = "DAIDUOBOSS1",
 		id = 1096,
 		icon = "memory_daiduoshijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAIDUOBOSS1"
+		}
 	},
 	[1097] = {
 		mask = "bg/bg_memory",
@@ -13421,7 +16062,10 @@ pg.base.memory_template = {
 		story = "DAIDUOBOSS2",
 		id = 1097,
 		icon = "memory_daiduoshijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAIDUOBOSS2"
+		}
 	},
 	[1098] = {
 		mask = "bg/bg_memory",
@@ -13432,7 +16076,10 @@ pg.base.memory_template = {
 		story = "DAIDUOBOSS3",
 		id = 1098,
 		icon = "memory_daiduoshijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAIDUOBOSS3"
+		}
 	},
 	[1099] = {
 		mask = "bg/bg_memory",
@@ -13443,7 +16090,10 @@ pg.base.memory_template = {
 		story = "DAIDUOBOSS4",
 		id = 1099,
 		icon = "memory_daiduoshijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAIDUOBOSS4"
+		}
 	},
 	[1100] = {
 		mask = "bg/bg_memory",
@@ -13454,7 +16104,10 @@ pg.base.memory_template = {
 		story = "DAIDUOBOSS5",
 		id = 1100,
 		icon = "memory_daiduoshijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAIDUOBOSS5"
+		}
 	},
 	[1101] = {
 		mask = "bg/bg_memory",
@@ -13465,7 +16118,10 @@ pg.base.memory_template = {
 		story = "HONGBAORICHANG1",
 		id = 1101,
 		icon = "memory_hongbaorichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGBAORICHANG1"
+		}
 	},
 	[1102] = {
 		mask = "bg/bg_memory",
@@ -13476,7 +16132,10 @@ pg.base.memory_template = {
 		story = "HONGBAORICHANG2",
 		id = 1102,
 		icon = "memory_hongbaorichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGBAORICHANG2"
+		}
 	},
 	[1103] = {
 		mask = "bg/bg_memory",
@@ -13487,7 +16146,10 @@ pg.base.memory_template = {
 		story = "HONGBAORICHANG3",
 		id = 1103,
 		icon = "memory_hongbaorichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGBAORICHANG3"
+		}
 	},
 	[1104] = {
 		mask = "bg/bg_memory",
@@ -13498,7 +16160,10 @@ pg.base.memory_template = {
 		story = "HONGBAORICHANG4",
 		id = 1104,
 		icon = "memory_hongbaorichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGBAORICHANG4"
+		}
 	},
 	[1110] = {
 		mask = "bg/bg_cccp_6",
@@ -13509,7 +16174,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG1",
 		id = 1110,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG1"
+		}
 	},
 	[1111] = {
 		mask = "bg/bg_cccp_6",
@@ -13520,7 +16188,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG2",
 		id = 1111,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG2"
+		}
 	},
 	[1112] = {
 		mask = "bg/bg_cccp_6",
@@ -13531,7 +16202,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG3",
 		id = 1112,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG3"
+		}
 	},
 	[1113] = {
 		mask = "bg/bg_cccp_6",
@@ -13542,7 +16216,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG4",
 		id = 1113,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG4"
+		}
 	},
 	[1114] = {
 		mask = "bg/bg_cccp_6",
@@ -13553,7 +16230,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG5",
 		id = 1114,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG5"
+		}
 	},
 	[1115] = {
 		mask = "bg/bg_cccp_6",
@@ -13564,7 +16244,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG6",
 		id = 1115,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG6"
+		}
 	},
 	[1116] = {
 		mask = "bg/bg_cccp_6",
@@ -13575,7 +16258,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG7",
 		id = 1116,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG7"
+		}
 	},
 	[1117] = {
 		mask = "bg/bg_cccp_6",
@@ -13586,7 +16272,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG8",
 		id = 1117,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG8"
+		}
 	},
 	[1118] = {
 		mask = "bg/bg_cccp_6",
@@ -13597,7 +16286,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG9",
 		id = 1118,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG9"
+		}
 	},
 	[1119] = {
 		mask = "bg/bg_cccp_6",
@@ -13608,7 +16300,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG10",
 		id = 1119,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG10"
+		}
 	},
 	[1120] = {
 		mask = "bg/bg_cccp_6",
@@ -13619,7 +16314,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG11",
 		id = 1120,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG11"
+		}
 	},
 	[1121] = {
 		mask = "bg/bg_cccp_6",
@@ -13630,7 +16328,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG12",
 		id = 1121,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG12"
+		}
 	},
 	[1122] = {
 		mask = "bg/bg_cccp_6",
@@ -13641,7 +16342,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG13",
 		id = 1122,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG13"
+		}
 	},
 	[1123] = {
 		mask = "bg/bg_cccp_6",
@@ -13652,7 +16356,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG14",
 		id = 1123,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG14"
+		}
 	},
 	[1124] = {
 		mask = "bg/bg_cccp_6",
@@ -13663,7 +16370,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG15",
 		id = 1124,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG15"
+		}
 	},
 	[1125] = {
 		mask = "bg/bg_cccp_6",
@@ -13674,7 +16384,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG16",
 		id = 1125,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG16"
+		}
 	},
 	[1126] = {
 		mask = "bg/bg_cccp_6",
@@ -13685,7 +16398,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG17",
 		id = 1126,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG17"
+		}
 	},
 	[1127] = {
 		mask = "bg/bg_cccp_6",
@@ -13696,7 +16412,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG18",
 		id = 1127,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG18"
+		}
 	},
 	[1128] = {
 		mask = "bg/bg_cccp_6",
@@ -13707,7 +16426,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG19",
 		id = 1128,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG19"
+		}
 	},
 	[1129] = {
 		mask = "bg/bg_cccp_6",
@@ -13718,7 +16440,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG20",
 		id = 1129,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG20"
+		}
 	},
 	[1130] = {
 		mask = "bg/bg_cccp_6",
@@ -13729,7 +16454,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG21",
 		id = 1130,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG21"
+		}
 	},
 	[1131] = {
 		mask = "bg/bg_cccp_6",
@@ -13740,7 +16468,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG22",
 		id = 1131,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG22"
+		}
 	},
 	[1132] = {
 		mask = "bg/bg_cccp_6",
@@ -13751,7 +16482,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG23",
 		id = 1132,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG23"
+		}
 	},
 	[1133] = {
 		mask = "bg/bg_cccp_6",
@@ -13762,7 +16496,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG24",
 		id = 1133,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG24"
+		}
 	},
 	[1134] = {
 		mask = "bg/bg_cccp_6",
@@ -13773,7 +16510,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG25",
 		id = 1134,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG25"
+		}
 	},
 	[1135] = {
 		mask = "bg/bg_cccp_6",
@@ -13784,7 +16524,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG26",
 		id = 1135,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG26"
+		}
 	},
 	[1136] = {
 		mask = "bg/bg_cccp_6",
@@ -13795,7 +16538,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG27",
 		id = 1136,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG27"
+		}
 	},
 	[1137] = {
 		mask = "bg/bg_cccp_6",
@@ -13806,7 +16552,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG28",
 		id = 1137,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG28"
+		}
 	},
 	[1138] = {
 		mask = "bg/bg_cccp_6",
@@ -13817,7 +16566,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG29",
 		id = 1138,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG29"
+		}
 	},
 	[1139] = {
 		mask = "bg/bg_cccp_6",
@@ -13828,7 +16580,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG30",
 		id = 1139,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG30"
+		}
 	},
 	[1140] = {
 		mask = "bg/bg_cccp_6",
@@ -13839,7 +16594,10 @@ pg.base.memory_template = {
 		story = "MAOZIHUODONG31",
 		id = 1140,
 		icon = "memory_maozihuodong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIHUODONG31"
+		}
 	},
 	[1141] = {
 		mask = "bg/bg_cccp_6",
@@ -13850,7 +16608,10 @@ pg.base.memory_template = {
 		story = "MAOZIPT",
 		id = 1141,
 		icon = "memory_maozipt",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAOZIPT"
+		}
 	},
 	[1142] = {
 		mask = "bg/bg_memory",
@@ -13861,7 +16622,10 @@ pg.base.memory_template = {
 		story = "AFULEER1",
 		id = 1142,
 		icon = "memory_afuleer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AFULEER1"
+		}
 	},
 	[1143] = {
 		mask = "bg/bg_memory",
@@ -13872,7 +16636,10 @@ pg.base.memory_template = {
 		story = "AFULEER2",
 		id = 1143,
 		icon = "memory_afuleer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AFULEER2"
+		}
 	},
 	[1144] = {
 		mask = "bg/bg_memory",
@@ -13883,7 +16650,10 @@ pg.base.memory_template = {
 		story = "AFULEER3",
 		id = 1144,
 		icon = "memory_afuleer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AFULEER3"
+		}
 	},
 	[1145] = {
 		mask = "bg/bg_memory",
@@ -13894,7 +16664,10 @@ pg.base.memory_template = {
 		story = "AFULEER4",
 		id = 1145,
 		icon = "memory_afuleer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AFULEER4"
+		}
 	},
 	[1146] = {
 		mask = "bg/bg_memory",
@@ -13905,7 +16678,10 @@ pg.base.memory_template = {
 		story = "AFULEER5",
 		id = 1146,
 		icon = "memory_afuleer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AFULEER5"
+		}
 	},
 	[1147] = {
 		mask = "bg/bg_memory",
@@ -13916,7 +16692,10 @@ pg.base.memory_template = {
 		story = "AFULEER6",
 		id = 1147,
 		icon = "memory_afuleer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AFULEER6"
+		}
 	},
 	[1148] = {
 		mask = "bg/bg_memory",
@@ -13927,7 +16706,10 @@ pg.base.memory_template = {
 		story = "AFULEER7",
 		id = 1148,
 		icon = "memory_afuleer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AFULEER7"
+		}
 	},
 	[1149] = {
 		mask = "bg/bg_memory",
@@ -13938,7 +16720,10 @@ pg.base.memory_template = {
 		story = "MIWUZHIXIA1",
 		id = 1149,
 		icon = "memory_miwuzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MIWUZHIXIA1"
+		}
 	},
 	[1150] = {
 		mask = "bg/bg_memory",
@@ -13949,7 +16734,10 @@ pg.base.memory_template = {
 		story = "MIWUZHIXIA2",
 		id = 1150,
 		icon = "memory_miwuzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MIWUZHIXIA2"
+		}
 	},
 	[1151] = {
 		mask = "bg/bg_memory",
@@ -13960,7 +16748,10 @@ pg.base.memory_template = {
 		story = "MIWUZHIXIA3",
 		id = 1151,
 		icon = "memory_miwuzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MIWUZHIXIA3"
+		}
 	},
 	[1152] = {
 		mask = "bg/bg_memory",
@@ -13971,7 +16762,10 @@ pg.base.memory_template = {
 		story = "MIWUZHIXIA4",
 		id = 1152,
 		icon = "memory_miwuzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MIWUZHIXIA4"
+		}
 	},
 	[1153] = {
 		mask = "bg/bg_banama_1",
@@ -13982,7 +16776,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE1",
 		id = 1153,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE1"
+		}
 	},
 	[1154] = {
 		mask = "bg/bg_banama_1",
@@ -13993,7 +16790,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE2",
 		id = 1154,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE2"
+		}
 	},
 	[1155] = {
 		mask = "bg/bg_banama_1",
@@ -14004,7 +16804,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE3",
 		id = 1155,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE3"
+		}
 	},
 	[1156] = {
 		mask = "bg/bg_banama_1",
@@ -14015,7 +16818,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE4",
 		id = 1156,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE4"
+		}
 	},
 	[1157] = {
 		mask = "bg/bg_banama_1",
@@ -14026,7 +16832,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE5",
 		id = 1157,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE5"
+		}
 	},
 	[1158] = {
 		mask = "bg/bg_banama_1",
@@ -14037,7 +16846,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE6",
 		id = 1158,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE6"
+		}
 	},
 	[1159] = {
 		mask = "bg/bg_banama_1",
@@ -14048,7 +16860,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE7",
 		id = 1159,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE7"
+		}
 	},
 	[1160] = {
 		mask = "bg/bg_banama_1",
@@ -14059,7 +16874,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE8",
 		id = 1160,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE8"
+		}
 	},
 	[1161] = {
 		mask = "bg/bg_banama_1",
@@ -14070,7 +16888,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE9",
 		id = 1161,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE9"
+		}
 	},
 	[1162] = {
 		mask = "bg/bg_banama_1",
@@ -14081,7 +16902,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE10",
 		id = 1162,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE10"
+		}
 	},
 	[1163] = {
 		mask = "bg/bg_banama_1",
@@ -14092,7 +16916,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE11",
 		id = 1163,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE11"
+		}
 	},
 	[1164] = {
 		mask = "bg/bg_banama_1",
@@ -14103,7 +16930,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE12",
 		id = 1164,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE12"
+		}
 	},
 	[1165] = {
 		mask = "bg/bg_banama_1",
@@ -14114,7 +16944,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE13",
 		id = 1165,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE13"
+		}
 	},
 	[1166] = {
 		mask = "bg/bg_banama_1",
@@ -14125,7 +16958,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE14",
 		id = 1166,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE14"
+		}
 	},
 	[1167] = {
 		mask = "bg/bg_banama_1",
@@ -14136,7 +16972,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE15",
 		id = 1167,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE15"
+		}
 	},
 	[1168] = {
 		mask = "bg/bg_banama_1",
@@ -14147,7 +16986,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE16",
 		id = 1168,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE16"
+		}
 	},
 	[1169] = {
 		mask = "bg/bg_banama_2",
@@ -14158,7 +17000,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE17",
 		id = 1169,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE17"
+		}
 	},
 	[1170] = {
 		mask = "bg/bg_banama_2",
@@ -14169,7 +17014,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE18",
 		id = 1170,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE18"
+		}
 	},
 	[1171] = {
 		mask = "bg/bg_banama_2",
@@ -14180,7 +17028,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE19",
 		id = 1171,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE19"
+		}
 	},
 	[1172] = {
 		mask = "bg/bg_banama_2",
@@ -14191,7 +17042,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE20",
 		id = 1172,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE20"
+		}
 	},
 	[1173] = {
 		mask = "bg/bg_banama_2",
@@ -14202,7 +17056,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE21",
 		id = 1173,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE21"
+		}
 	},
 	[1174] = {
 		mask = "bg/bg_banama_2",
@@ -14213,7 +17070,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE22",
 		id = 1174,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE22"
+		}
 	},
 	[1175] = {
 		mask = "bg/bg_banama_2",
@@ -14224,7 +17084,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE23",
 		id = 1175,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE23"
+		}
 	},
 	[1176] = {
 		mask = "bg/bg_banama_2",
@@ -14235,7 +17098,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE24",
 		id = 1176,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE24"
+		}
 	},
 	[1177] = {
 		mask = "bg/bg_banama_2",
@@ -14246,7 +17112,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE25",
 		id = 1177,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE25"
+		}
 	},
 	[1178] = {
 		mask = "bg/bg_banama_2",
@@ -14257,7 +17126,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE26",
 		id = 1178,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE26"
+		}
 	},
 	[1179] = {
 		mask = "bg/bg_banama_2",
@@ -14268,7 +17140,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE27",
 		id = 1179,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE27"
+		}
 	},
 	[1180] = {
 		mask = "bg/bg_banama_2",
@@ -14279,7 +17154,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE28",
 		id = 1180,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE28"
+		}
 	},
 	[1181] = {
 		mask = "bg/bg_banama_2",
@@ -14290,7 +17168,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE29",
 		id = 1181,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE29"
+		}
 	},
 	[1182] = {
 		mask = "bg/bg_banama_2",
@@ -14301,7 +17182,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE30",
 		id = 1182,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE30"
+		}
 	},
 	[1183] = {
 		mask = "bg/bg_banama_2",
@@ -14312,7 +17196,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE31",
 		id = 1183,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE31"
+		}
 	},
 	[1184] = {
 		mask = "bg/bg_banama_2",
@@ -14323,7 +17210,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE32",
 		id = 1184,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE32"
+		}
 	},
 	[1185] = {
 		mask = "bg/bg_banama_2",
@@ -14334,7 +17224,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE33",
 		id = 1185,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE33"
+		}
 	},
 	[1186] = {
 		mask = "bg/bg_banama_2",
@@ -14345,7 +17238,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE34",
 		id = 1186,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE34"
+		}
 	},
 	[1187] = {
 		mask = "bg/bg_banama_2",
@@ -14356,7 +17252,10 @@ pg.base.memory_template = {
 		story = "WEICENGHUNHE35",
 		id = 1187,
 		icon = "memory_weicenghunhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEICENGHUNHE35"
+		}
 	},
 	[1188] = {
 		mask = "bg/bg_memory",
@@ -14367,7 +17266,10 @@ pg.base.memory_template = {
 		story = "HUANGJINDEMIBAO1",
 		id = 1188,
 		icon = "memory_huangjindemibao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJINDEMIBAO1"
+		}
 	},
 	[1189] = {
 		mask = "bg/bg_memory",
@@ -14378,7 +17280,10 @@ pg.base.memory_template = {
 		story = "HUANGJINDEMIBAO2",
 		id = 1189,
 		icon = "memory_huangjindemibao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJINDEMIBAO2"
+		}
 	},
 	[1190] = {
 		mask = "bg/bg_memory",
@@ -14389,7 +17294,10 @@ pg.base.memory_template = {
 		story = "HUANGJINDEMIBAO3",
 		id = 1190,
 		icon = "memory_huangjindemibao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJINDEMIBAO3"
+		}
 	},
 	[1204] = {
 		mask = "bg/bg_memory",
@@ -14400,7 +17308,10 @@ pg.base.memory_template = {
 		story = "JUANBO1",
 		id = 1204,
 		icon = "memory_juanbo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUANBO1"
+		}
 	},
 	[1205] = {
 		mask = "bg/bg_memory",
@@ -14411,7 +17322,10 @@ pg.base.memory_template = {
 		story = "JUANBO2",
 		id = 1205,
 		icon = "memory_juanbo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUANBO2"
+		}
 	},
 	[1206] = {
 		mask = "bg/bg_memory",
@@ -14422,7 +17336,10 @@ pg.base.memory_template = {
 		story = "JUANBO3",
 		id = 1206,
 		icon = "memory_juanbo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUANBO3"
+		}
 	},
 	[1207] = {
 		mask = "bg/bg_memory",
@@ -14433,7 +17350,10 @@ pg.base.memory_template = {
 		story = "JUANBO4",
 		id = 1207,
 		icon = "memory_juanbo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUANBO4"
+		}
 	},
 	[1208] = {
 		mask = "bg/bg_memory",
@@ -14444,7 +17364,10 @@ pg.base.memory_template = {
 		story = "JUANBO5",
 		id = 1208,
 		icon = "memory_juanbo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUANBO5"
+		}
 	},
 	[1209] = {
 		mask = "bg/bg_memory",
@@ -14455,7 +17378,10 @@ pg.base.memory_template = {
 		story = "JUANBO6",
 		id = 1209,
 		icon = "memory_juanbo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUANBO6"
+		}
 	},
 	[1210] = {
 		mask = "bg/bg_memory",
@@ -14466,7 +17392,10 @@ pg.base.memory_template = {
 		story = "JUANBO7",
 		id = 1210,
 		icon = "memory_juanbo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUANBO7"
+		}
 	},
 	[1211] = {
 		mask = "bg/bg_memory",
@@ -14477,7 +17406,10 @@ pg.base.memory_template = {
 		story = "YESEXIADEGUITU1",
 		id = 1211,
 		icon = "memory_yesexiadeguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YESEXIADEGUITU1"
+		}
 	},
 	[1212] = {
 		mask = "bg/bg_memory",
@@ -14488,7 +17420,10 @@ pg.base.memory_template = {
 		story = "YESEXIADEGUITU2",
 		id = 1212,
 		icon = "memory_yesexiadeguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YESEXIADEGUITU2"
+		}
 	},
 	[1213] = {
 		mask = "bg/bg_memory",
@@ -14499,7 +17434,10 @@ pg.base.memory_template = {
 		story = "YESEXIADEGUITU3",
 		id = 1213,
 		icon = "memory_yesexiadeguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YESEXIADEGUITU3"
+		}
 	},
 	[1214] = {
 		mask = "bg/bg_memory",
@@ -14510,7 +17448,10 @@ pg.base.memory_template = {
 		story = "YESEXIADEGUITU4",
 		id = 1214,
 		icon = "memory_yesexiadeguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YESEXIADEGUITU4"
+		}
 	},
 	[1215] = {
 		mask = "bg/bg_memory",
@@ -14521,7 +17462,10 @@ pg.base.memory_template = {
 		story = "YESEXIADEGUITU5",
 		id = 1215,
 		icon = "memory_yesexiadeguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YESEXIADEGUITU5"
+		}
 	},
 	[1216] = {
 		mask = "bg/bg_memory",
@@ -14532,7 +17476,10 @@ pg.base.memory_template = {
 		story = "YESEXIADEGUITU6",
 		id = 1216,
 		icon = "memory_yesexiadeguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YESEXIADEGUITU6"
+		}
 	},
 	[1217] = {
 		mask = "bg/bg_memory",
@@ -14543,7 +17490,10 @@ pg.base.memory_template = {
 		story = "YESEXIADEGUITU7",
 		id = 1217,
 		icon = "memory_yesexiadeguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YESEXIADEGUITU7"
+		}
 	},
 	[1218] = {
 		mask = "bg/bg_memory",
@@ -14554,7 +17504,10 @@ pg.base.memory_template = {
 		story = "YESEXIADEGUITU8",
 		id = 1218,
 		icon = "memory_yesexiadeguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YESEXIADEGUITU8"
+		}
 	},
 	[1219] = {
 		mask = "bg/bg_memory",
@@ -14565,7 +17518,10 @@ pg.base.memory_template = {
 		story = "YESEXIADEGUITU9",
 		id = 1219,
 		icon = "memory_yesexiadeguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YESEXIADEGUITU9"
+		}
 	},
 	[1231] = {
 		mask = "bg/bg_qiongding_6",
@@ -14576,7 +17532,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU1",
 		id = 1231,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU1"
+		}
 	},
 	[1232] = {
 		mask = "bg/bg_qiongding_6",
@@ -14587,7 +17546,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU2",
 		id = 1232,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU2"
+		}
 	},
 	[1233] = {
 		mask = "bg/bg_qiongding_6",
@@ -14598,7 +17560,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU3",
 		id = 1233,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU3"
+		}
 	},
 	[1234] = {
 		mask = "bg/bg_qiongding_6",
@@ -14609,7 +17574,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU4",
 		id = 1234,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU4"
+		}
 	},
 	[1235] = {
 		mask = "bg/bg_qiongding_6",
@@ -14620,7 +17588,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU5",
 		id = 1235,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU5"
+		}
 	},
 	[1236] = {
 		mask = "bg/bg_qiongding_6",
@@ -14631,7 +17602,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU6",
 		id = 1236,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU6"
+		}
 	},
 	[1237] = {
 		mask = "bg/bg_qiongding_6",
@@ -14642,7 +17616,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU7",
 		id = 1237,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU7"
+		}
 	},
 	[1238] = {
 		mask = "bg/bg_qiongding_6",
@@ -14653,7 +17630,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU8",
 		id = 1238,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU8"
+		}
 	},
 	[1239] = {
 		mask = "bg/bg_qiongding_6",
@@ -14664,7 +17644,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU9",
 		id = 1239,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU9"
+		}
 	},
 	[1240] = {
 		mask = "bg/bg_qiongding_6",
@@ -14675,7 +17658,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU10",
 		id = 1240,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU10"
+		}
 	},
 	[1241] = {
 		mask = "bg/bg_qiongding_6",
@@ -14686,7 +17672,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU11",
 		id = 1241,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU11"
+		}
 	},
 	[1242] = {
 		mask = "bg/bg_qiongding_6",
@@ -14697,7 +17686,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU12",
 		id = 1242,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU12"
+		}
 	},
 	[1243] = {
 		mask = "bg/bg_qiongding_6",
@@ -14708,7 +17700,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU13",
 		id = 1243,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU13"
+		}
 	},
 	[1244] = {
 		mask = "bg/bg_qiongding_6",
@@ -14719,7 +17714,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU14",
 		id = 1244,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU14"
+		}
 	},
 	[1245] = {
 		mask = "bg/bg_qiongding_6",
@@ -14730,7 +17728,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU15",
 		id = 1245,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU15"
+		}
 	},
 	[1246] = {
 		mask = "bg/bg_qiongding_5",
@@ -14741,7 +17742,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU16",
 		id = 1246,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU16"
+		}
 	},
 	[1247] = {
 		mask = "bg/bg_qiongding_5",
@@ -14752,7 +17756,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU17",
 		id = 1247,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU17"
+		}
 	},
 	[1248] = {
 		mask = "bg/bg_qiongding_5",
@@ -14763,7 +17770,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU18",
 		id = 1248,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU18"
+		}
 	},
 	[1249] = {
 		mask = "bg/bg_qiongding_5",
@@ -14774,7 +17784,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU19",
 		id = 1249,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU19"
+		}
 	},
 	[1250] = {
 		mask = "bg/bg_qiongding_5",
@@ -14785,7 +17798,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU20",
 		id = 1250,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU20"
+		}
 	},
 	[1251] = {
 		mask = "bg/bg_qiongding_5",
@@ -14796,7 +17812,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU21",
 		id = 1251,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU21"
+		}
 	},
 	[1252] = {
 		mask = "bg/bg_qiongding_5",
@@ -14807,7 +17826,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU22",
 		id = 1252,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU22"
+		}
 	},
 	[1253] = {
 		mask = "bg/bg_qiongding_5",
@@ -14818,7 +17840,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU23",
 		id = 1253,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU23"
+		}
 	},
 	[1254] = {
 		mask = "bg/bg_qiongding_5",
@@ -14829,7 +17854,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU24",
 		id = 1254,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU24"
+		}
 	},
 	[1255] = {
 		mask = "bg/bg_qiongding_5",
@@ -14840,7 +17868,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU25",
 		id = 1255,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU25"
+		}
 	},
 	[1256] = {
 		mask = "bg/bg_qiongding_5",
@@ -14851,7 +17882,10 @@ pg.base.memory_template = {
 		story = "1393214",
 		id = 1256,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1393214"
+		}
 	},
 	[1257] = {
 		mask = "bg/bg_qiongding_5",
@@ -14862,7 +17896,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU27",
 		id = 1257,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU27"
+		}
 	},
 	[1258] = {
 		mask = "bg/bg_qiongding_5",
@@ -14873,7 +17910,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU28",
 		id = 1258,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU28"
+		}
 	},
 	[1259] = {
 		mask = "bg/bg_qiongding_5",
@@ -14884,7 +17924,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU29",
 		id = 1259,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU29"
+		}
 	},
 	[1260] = {
 		mask = "bg/bg_qiongding_5",
@@ -14895,7 +17938,10 @@ pg.base.memory_template = {
 		story = "1393215",
 		id = 1260,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1393215"
+		}
 	},
 	[1261] = {
 		mask = "bg/bg_qiongding_5",
@@ -14906,7 +17952,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU31",
 		id = 1261,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU31"
+		}
 	},
 	[1262] = {
 		mask = "bg/bg_qiongding_5",
@@ -14917,7 +17966,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU32",
 		id = 1262,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU32"
+		}
 	},
 	[1263] = {
 		mask = "bg/bg_qiongding_5",
@@ -14928,7 +17980,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU33",
 		id = 1263,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU33"
+		}
 	},
 	[1264] = {
 		mask = "bg/bg_qiongding_5",
@@ -14939,7 +17994,10 @@ pg.base.memory_template = {
 		story = "SHENGYONGQU34",
 		id = 1264,
 		icon = "memory_shengyongqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGYONGQU34"
+		}
 	},
 	[1265] = {
 		mask = "bg/bg_memory",
@@ -14950,7 +18008,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI1",
 		id = 1265,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI1"
+		}
 	},
 	[1266] = {
 		mask = "bg/bg_memory",
@@ -14961,7 +18022,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI2",
 		id = 1266,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI2"
+		}
 	},
 	[1267] = {
 		mask = "bg/bg_memory",
@@ -14972,7 +18036,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI3",
 		id = 1267,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI3"
+		}
 	},
 	[1268] = {
 		mask = "bg/bg_memory",
@@ -14983,7 +18050,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI4",
 		id = 1268,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI4"
+		}
 	},
 	[1269] = {
 		mask = "bg/bg_memory",
@@ -14994,7 +18064,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI5",
 		id = 1269,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI5"
+		}
 	},
 	[1270] = {
 		mask = "bg/bg_memory",
@@ -15005,7 +18078,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI6",
 		id = 1270,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI6"
+		}
 	},
 	[1271] = {
 		mask = "bg/bg_memory",
@@ -15016,7 +18092,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI7",
 		id = 1271,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI7"
+		}
 	},
 	[1272] = {
 		mask = "bg/bg_memory",
@@ -15027,7 +18106,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI8",
 		id = 1272,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI8"
+		}
 	},
 	[1273] = {
 		mask = "bg/bg_memory",
@@ -15038,7 +18120,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI9",
 		id = 1273,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI9"
+		}
 	},
 	[1274] = {
 		mask = "bg/bg_memory",
@@ -15049,7 +18134,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI10",
 		id = 1274,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI10"
+		}
 	},
 	[1275] = {
 		mask = "bg/bg_memory",
@@ -15060,7 +18148,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI11",
 		id = 1275,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI11"
+		}
 	},
 	[1276] = {
 		mask = "bg/bg_memory",
@@ -15071,7 +18162,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI12",
 		id = 1276,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI12"
+		}
 	},
 	[1277] = {
 		mask = "bg/bg_memory",
@@ -15082,7 +18176,10 @@ pg.base.memory_template = {
 		story = "XIAWANJIANDEFANJI13",
 		id = 1277,
 		icon = "memory_xiawanjiandefanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAWANJIANDEFANJI13"
+		}
 	},
 	[1281] = {
 		mask = "bg/bg_hms_7",
@@ -15093,7 +18190,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG1",
 		id = 1281,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG1"
+		}
 	},
 	[1282] = {
 		mask = "bg/bg_hms_7",
@@ -15104,7 +18204,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG2",
 		id = 1282,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG2"
+		}
 	},
 	[1283] = {
 		mask = "bg/bg_hms_7",
@@ -15115,7 +18218,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG3",
 		id = 1283,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG3"
+		}
 	},
 	[1284] = {
 		mask = "bg/bg_hms_7",
@@ -15126,7 +18232,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG4",
 		id = 1284,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG4"
+		}
 	},
 	[1285] = {
 		mask = "bg/bg_hms_7",
@@ -15137,7 +18246,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG5",
 		id = 1285,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG5"
+		}
 	},
 	[1286] = {
 		mask = "bg/bg_hms_7",
@@ -15148,7 +18260,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG6",
 		id = 1286,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG6"
+		}
 	},
 	[1287] = {
 		mask = "bg/bg_hms_7",
@@ -15159,7 +18274,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG7",
 		id = 1287,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG7"
+		}
 	},
 	[1288] = {
 		mask = "bg/bg_hms_7",
@@ -15170,7 +18288,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG8",
 		id = 1288,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG8"
+		}
 	},
 	[1289] = {
 		mask = "bg/bg_hms_7",
@@ -15181,7 +18302,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG9",
 		id = 1289,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG9"
+		}
 	},
 	[1290] = {
 		mask = "bg/bg_hms_7",
@@ -15192,7 +18316,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG10",
 		id = 1290,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG10"
+		}
 	},
 	[1291] = {
 		mask = "bg/bg_hms_7",
@@ -15203,7 +18330,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG11",
 		id = 1291,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG11"
+		}
 	},
 	[1292] = {
 		mask = "bg/bg_hms_7",
@@ -15214,7 +18344,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG12",
 		id = 1292,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG12"
+		}
 	},
 	[1293] = {
 		mask = "bg/bg_hms_7",
@@ -15225,7 +18358,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG13",
 		id = 1293,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG13"
+		}
 	},
 	[1294] = {
 		mask = "bg/bg_hms_7",
@@ -15236,7 +18372,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG14",
 		id = 1294,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG14"
+		}
 	},
 	[1295] = {
 		mask = "bg/bg_hms_7",
@@ -15247,7 +18386,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG15",
 		id = 1295,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG15"
+		}
 	},
 	[1296] = {
 		mask = "bg/bg_hms_7",
@@ -15258,7 +18400,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG16",
 		id = 1296,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG16"
+		}
 	},
 	[1297] = {
 		mask = "bg/bg_hms_7",
@@ -15269,7 +18414,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG17",
 		id = 1297,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG17"
+		}
 	},
 	[1298] = {
 		mask = "bg/bg_hms_7",
@@ -15280,7 +18428,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG18",
 		id = 1298,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG18"
+		}
 	},
 	[1299] = {
 		mask = "bg/bg_hms_7",
@@ -15291,7 +18442,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG19",
 		id = 1299,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG19"
+		}
 	},
 	[1300] = {
 		mask = "bg/bg_hms_8",
@@ -15302,7 +18456,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG20",
 		id = 1300,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG20"
+		}
 	},
 	[1301] = {
 		mask = "bg/bg_hms_8",
@@ -15313,7 +18470,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG21",
 		id = 1301,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG21"
+		}
 	},
 	[1302] = {
 		mask = "bg/bg_hms_8",
@@ -15324,7 +18484,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG22",
 		id = 1302,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG22"
+		}
 	},
 	[1303] = {
 		mask = "bg/bg_hms_8",
@@ -15335,7 +18498,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG23",
 		id = 1303,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG23"
+		}
 	},
 	[1304] = {
 		mask = "bg/bg_hms_8",
@@ -15346,7 +18512,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG24",
 		id = 1304,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG24"
+		}
 	},
 	[1305] = {
 		mask = "bg/bg_hms_8",
@@ -15357,7 +18526,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG25",
 		id = 1305,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG25"
+		}
 	},
 	[1306] = {
 		mask = "bg/bg_hms_8",
@@ -15368,7 +18540,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG26",
 		id = 1306,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG26"
+		}
 	},
 	[1307] = {
 		mask = "bg/bg_hms_8",
@@ -15379,7 +18554,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG27",
 		id = 1307,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG27"
+		}
 	},
 	[1308] = {
 		mask = "bg/bg_hms_8",
@@ -15390,7 +18568,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG28",
 		id = 1308,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG28"
+		}
 	},
 	[1309] = {
 		mask = "bg/bg_hms_8",
@@ -15401,7 +18582,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG29",
 		id = 1309,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG29"
+		}
 	},
 	[1310] = {
 		mask = "bg/bg_hms_8",
@@ -15412,7 +18596,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG30",
 		id = 1310,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG30"
+		}
 	},
 	[1311] = {
 		mask = "bg/bg_hms_8",
@@ -15423,7 +18610,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG31",
 		id = 1311,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG31"
+		}
 	},
 	[1312] = {
 		mask = "bg/bg_hms_8",
@@ -15434,7 +18624,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG32",
 		id = 1312,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG32"
+		}
 	},
 	[1313] = {
 		mask = "bg/bg_hms_8",
@@ -15445,7 +18638,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG33",
 		id = 1313,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG33"
+		}
 	},
 	[1314] = {
 		mask = "bg/bg_hms_8",
@@ -15456,7 +18652,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG34",
 		id = 1314,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG34"
+		}
 	},
 	[1315] = {
 		mask = "bg/bg_hms_8",
@@ -15467,7 +18666,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG35",
 		id = 1315,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG35"
+		}
 	},
 	[1316] = {
 		mask = "bg/bg_hms_8",
@@ -15478,7 +18680,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG36",
 		id = 1316,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG36"
+		}
 	},
 	[1317] = {
 		mask = "bg/bg_hms_8",
@@ -15489,7 +18694,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG37",
 		id = 1317,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG37"
+		}
 	},
 	[1318] = {
 		mask = "bg/bg_hms_8",
@@ -15500,7 +18708,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG38",
 		id = 1318,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG38"
+		}
 	},
 	[1319] = {
 		mask = "bg/bg_hms_8",
@@ -15511,7 +18722,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG39",
 		id = 1319,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG39"
+		}
 	},
 	[1320] = {
 		mask = "bg/bg_hms_8",
@@ -15522,7 +18736,10 @@ pg.base.memory_template = {
 		story = "YONGYEHUANGUANG40",
 		id = 1320,
 		icon = "memory_yongyehuanguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEHUANGUANG40"
+		}
 	},
 	[1321] = {
 		mask = "bg/bg_memory",
@@ -15533,7 +18750,10 @@ pg.base.memory_template = {
 		story = "BOTELAN1",
 		id = 1321,
 		icon = "memory_botelan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOTELAN1"
+		}
 	},
 	[1322] = {
 		mask = "bg/bg_memory",
@@ -15544,7 +18764,10 @@ pg.base.memory_template = {
 		story = "BOTELAN2",
 		id = 1322,
 		icon = "memory_botelan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOTELAN2"
+		}
 	},
 	[1323] = {
 		mask = "bg/bg_memory",
@@ -15555,7 +18778,10 @@ pg.base.memory_template = {
 		story = "BOTELAN3",
 		id = 1323,
 		icon = "memory_botelan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOTELAN3"
+		}
 	},
 	[1324] = {
 		mask = "bg/bg_memory",
@@ -15566,7 +18792,10 @@ pg.base.memory_template = {
 		story = "BOTELAN4",
 		id = 1324,
 		icon = "memory_botelan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOTELAN4"
+		}
 	},
 	[1325] = {
 		mask = "bg/bg_memory",
@@ -15577,7 +18806,10 @@ pg.base.memory_template = {
 		story = "BOTELAN5",
 		id = 1325,
 		icon = "memory_botelan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOTELAN5"
+		}
 	},
 	[1326] = {
 		mask = "bg/bg_memory",
@@ -15588,7 +18820,10 @@ pg.base.memory_template = {
 		story = "BOTELAN6",
 		id = 1326,
 		icon = "memory_botelan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOTELAN6"
+		}
 	},
 	[1327] = {
 		mask = "bg/bg_memory",
@@ -15599,7 +18834,10 @@ pg.base.memory_template = {
 		story = "BOTELAN7",
 		id = 1327,
 		icon = "memory_botelan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOTELAN7"
+		}
 	},
 	[1331] = {
 		mask = "bg/bg_memory",
@@ -15610,7 +18848,10 @@ pg.base.memory_template = {
 		story = "GUANGHUI1",
 		id = 1331,
 		icon = "memory_guanghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGHUI1"
+		}
 	},
 	[1332] = {
 		mask = "bg/bg_memory",
@@ -15621,7 +18862,10 @@ pg.base.memory_template = {
 		story = "GUANGHUI2",
 		id = 1332,
 		icon = "memory_guanghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGHUI2"
+		}
 	},
 	[1333] = {
 		mask = "bg/bg_memory",
@@ -15632,7 +18876,10 @@ pg.base.memory_template = {
 		story = "GUANGHUI3",
 		id = 1333,
 		icon = "memory_guanghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGHUI3"
+		}
 	},
 	[1334] = {
 		mask = "bg/bg_memory",
@@ -15643,7 +18890,10 @@ pg.base.memory_template = {
 		story = "GUANGHUI4",
 		id = 1334,
 		icon = "memory_guanghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGHUI4"
+		}
 	},
 	[1335] = {
 		mask = "bg/bg_memory",
@@ -15654,7 +18904,10 @@ pg.base.memory_template = {
 		story = "GUANGHUI5",
 		id = 1335,
 		icon = "memory_guanghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGHUI5"
+		}
 	},
 	[1336] = {
 		mask = "bg/bg_memory",
@@ -15665,7 +18918,10 @@ pg.base.memory_template = {
 		story = "GUANGHUI6",
 		id = 1336,
 		icon = "memory_guanghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGHUI6"
+		}
 	},
 	[1337] = {
 		mask = "bg/bg_memory",
@@ -15676,7 +18932,10 @@ pg.base.memory_template = {
 		story = "GUANGHUI7",
 		id = 1337,
 		icon = "memory_guanghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANGHUI7"
+		}
 	},
 	[1341] = {
 		mask = "bg/bg_xinnong2_1",
@@ -15687,7 +18946,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA1",
 		id = 1341,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA1"
+		}
 	},
 	[1342] = {
 		mask = "bg/bg_xinnong2_1",
@@ -15698,7 +18960,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA2",
 		id = 1342,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA2"
+		}
 	},
 	[1343] = {
 		mask = "bg/bg_xinnong2_1",
@@ -15709,7 +18974,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA3",
 		id = 1343,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA3"
+		}
 	},
 	[1344] = {
 		mask = "bg/bg_xinnong2_1",
@@ -15720,7 +18988,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA4",
 		id = 1344,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA4"
+		}
 	},
 	[1345] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15731,7 +19002,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA5",
 		id = 1345,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA5"
+		}
 	},
 	[1346] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15742,7 +19016,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA6",
 		id = 1346,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA6"
+		}
 	},
 	[1347] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15753,7 +19030,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA7",
 		id = 1347,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA7"
+		}
 	},
 	[1348] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15764,7 +19044,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA8",
 		id = 1348,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA8"
+		}
 	},
 	[1349] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15775,7 +19058,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA9",
 		id = 1349,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA9"
+		}
 	},
 	[1350] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15786,7 +19072,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA10",
 		id = 1350,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA10"
+		}
 	},
 	[1351] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15797,7 +19086,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA11",
 		id = 1351,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA11"
+		}
 	},
 	[1352] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15808,7 +19100,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA12",
 		id = 1352,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA12"
+		}
 	},
 	[1353] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15819,7 +19114,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA13",
 		id = 1353,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA13"
+		}
 	},
 	[1354] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15830,7 +19128,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA14",
 		id = 1354,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA14"
+		}
 	},
 	[1355] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15841,7 +19142,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA15",
 		id = 1355,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA15"
+		}
 	},
 	[1356] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15852,7 +19156,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA16",
 		id = 1356,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA16"
+		}
 	},
 	[1357] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15863,7 +19170,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA17",
 		id = 1357,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA17"
+		}
 	},
 	[1358] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15874,7 +19184,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA18",
 		id = 1358,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA18"
+		}
 	},
 	[1359] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15885,7 +19198,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA19",
 		id = 1359,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA19"
+		}
 	},
 	[1360] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15896,7 +19212,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA20",
 		id = 1360,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA20"
+		}
 	},
 	[1361] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15907,7 +19226,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA21",
 		id = 1361,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA21"
+		}
 	},
 	[1362] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15918,7 +19240,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA22",
 		id = 1362,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA22"
+		}
 	},
 	[1363] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15929,7 +19254,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA23",
 		id = 1363,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA23"
+		}
 	},
 	[1364] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15940,7 +19268,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA24",
 		id = 1364,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA24"
+		}
 	},
 	[1365] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15951,7 +19282,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA25",
 		id = 1365,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA25"
+		}
 	},
 	[1366] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15962,7 +19296,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA26",
 		id = 1366,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA26"
+		}
 	},
 	[1367] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15973,7 +19310,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA27",
 		id = 1367,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA27"
+		}
 	},
 	[1368] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15984,7 +19324,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA28",
 		id = 1368,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA28"
+		}
 	},
 	[1369] = {
 		mask = "bg/bg_xinnong2_2",
@@ -15995,7 +19338,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA29",
 		id = 1369,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA29"
+		}
 	},
 	[1370] = {
 		mask = "bg/bg_xinnong2_2",
@@ -16006,7 +19352,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA30",
 		id = 1370,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA30"
+		}
 	},
 	[1371] = {
 		mask = "bg/bg_xinnong2_2",
@@ -16017,7 +19366,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA31",
 		id = 1371,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA31"
+		}
 	},
 	[1372] = {
 		mask = "bg/bg_xinnong2_2",
@@ -16028,7 +19380,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA32",
 		id = 1372,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA32"
+		}
 	},
 	[1373] = {
 		mask = "bg/bg_xinnong2_2",
@@ -16039,7 +19394,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA33",
 		id = 1373,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA33"
+		}
 	},
 	[1374] = {
 		mask = "bg/bg_xinnong2_2",
@@ -16050,7 +19408,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA34",
 		id = 1374,
 		icon = "memory_diehaimenghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA34"
+		}
 	},
 	[1375] = {
 		mask = "bg/bg_xinnong2_1",
@@ -16061,7 +19422,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA35",
 		id = 1375,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA35"
+		}
 	},
 	[1376] = {
 		mask = "bg/bg_xinnong2_1",
@@ -16072,7 +19436,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA36",
 		id = 1376,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA36"
+		}
 	},
 	[1377] = {
 		mask = "bg/bg_xinnong2_1",
@@ -16083,7 +19450,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA37",
 		id = 1377,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA37"
+		}
 	},
 	[1378] = {
 		mask = "bg/bg_xinnong2_1",
@@ -16094,7 +19464,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA38",
 		id = 1378,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA38"
+		}
 	},
 	[1379] = {
 		mask = "bg/bg_xinnong2_1",
@@ -16105,7 +19478,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA39",
 		id = 1379,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA39"
+		}
 	},
 	[1380] = {
 		mask = "bg/bg_xinnong2_1",
@@ -16116,7 +19492,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA40",
 		id = 1380,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA40"
+		}
 	},
 	[1381] = {
 		mask = "bg/bg_xinnong2_1",
@@ -16127,7 +19506,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA41",
 		id = 1381,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA41"
+		}
 	},
 	[1382] = {
 		mask = "bg/bg_xinnong2_1",
@@ -16138,7 +19520,10 @@ pg.base.memory_template = {
 		story = "DIEHAIMENGHUA42",
 		id = 1382,
 		icon = "memory_diehaimenghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DIEHAIMENGHUA42"
+		}
 	},
 	[1386] = {
 		mask = "bg/bg_memory",
@@ -16149,7 +19534,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI1",
 		id = 1386,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI1"
+		}
 	},
 	[1387] = {
 		mask = "bg/bg_memory",
@@ -16160,7 +19548,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI2",
 		id = 1387,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI2"
+		}
 	},
 	[1388] = {
 		mask = "bg/bg_memory",
@@ -16171,7 +19562,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI3",
 		id = 1388,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI3"
+		}
 	},
 	[1389] = {
 		mask = "bg/bg_memory",
@@ -16182,7 +19576,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI4",
 		id = 1389,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI4"
+		}
 	},
 	[1390] = {
 		mask = "bg/bg_memory",
@@ -16193,7 +19590,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI5",
 		id = 1390,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI5"
+		}
 	},
 	[1391] = {
 		mask = "bg/bg_memory",
@@ -16204,7 +19604,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI6",
 		id = 1391,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI6"
+		}
 	},
 	[1392] = {
 		mask = "bg/bg_memory",
@@ -16215,7 +19618,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI7",
 		id = 1392,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI7"
+		}
 	},
 	[1393] = {
 		mask = "bg/bg_memory",
@@ -16226,7 +19632,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI8",
 		id = 1393,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI8"
+		}
 	},
 	[1394] = {
 		mask = "bg/bg_memory",
@@ -16237,7 +19646,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI9",
 		id = 1394,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI9"
+		}
 	},
 	[1395] = {
 		mask = "bg/bg_memory",
@@ -16248,7 +19660,10 @@ pg.base.memory_template = {
 		story = "HUAPOHAIKONGZHIYI10",
 		id = 1395,
 		icon = "memory_huapohaikongzhiyi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAPOHAIKONGZHIYI10"
+		}
 	},
 	[1401] = {
 		mask = "bg/bg_memory",
@@ -16259,7 +19674,10 @@ pg.base.memory_template = {
 		story = "FANJI1",
 		id = 1401,
 		icon = "memory_fanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANJI1"
+		}
 	},
 	[1402] = {
 		mask = "bg/bg_memory",
@@ -16270,7 +19688,10 @@ pg.base.memory_template = {
 		story = "FANJI2",
 		id = 1402,
 		icon = "memory_fanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANJI2"
+		}
 	},
 	[1403] = {
 		mask = "bg/bg_memory",
@@ -16281,7 +19702,10 @@ pg.base.memory_template = {
 		story = "FANJI3",
 		id = 1403,
 		icon = "memory_fanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANJI3"
+		}
 	},
 	[1404] = {
 		mask = "bg/bg_memory",
@@ -16292,7 +19716,10 @@ pg.base.memory_template = {
 		story = "FANJI4",
 		id = 1404,
 		icon = "memory_fanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANJI4"
+		}
 	},
 	[1405] = {
 		mask = "bg/bg_memory",
@@ -16303,7 +19730,10 @@ pg.base.memory_template = {
 		story = "FANJI5",
 		id = 1405,
 		icon = "memory_fanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANJI5"
+		}
 	},
 	[1406] = {
 		mask = "bg/bg_memory",
@@ -16314,7 +19744,10 @@ pg.base.memory_template = {
 		story = "FANJI6",
 		id = 1406,
 		icon = "memory_fanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANJI6"
+		}
 	},
 	[1407] = {
 		mask = "bg/bg_memory",
@@ -16325,7 +19758,10 @@ pg.base.memory_template = {
 		story = "FANJI7",
 		id = 1407,
 		icon = "memory_fanji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANJI7"
+		}
 	},
 	[1411] = {
 		mask = "bg/bg_jichang_1",
@@ -16336,7 +19772,10 @@ pg.base.memory_template = {
 		story = "JICHANG1",
 		id = 1411,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG1"
+		}
 	},
 	[1412] = {
 		mask = "bg/bg_jichang_1",
@@ -16347,7 +19786,10 @@ pg.base.memory_template = {
 		story = "JICHANG2",
 		id = 1412,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG2"
+		}
 	},
 	[1413] = {
 		mask = "bg/bg_jichang_1",
@@ -16358,7 +19800,10 @@ pg.base.memory_template = {
 		story = "JICHANG3",
 		id = 1413,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG3"
+		}
 	},
 	[1414] = {
 		mask = "bg/bg_jichang_1",
@@ -16369,7 +19814,10 @@ pg.base.memory_template = {
 		story = "JICHANG4",
 		id = 1414,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG4"
+		}
 	},
 	[1415] = {
 		mask = "bg/bg_jichang_1",
@@ -16380,7 +19828,10 @@ pg.base.memory_template = {
 		story = "JICHANG5",
 		id = 1415,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG5"
+		}
 	},
 	[1416] = {
 		mask = "bg/bg_jichang_1",
@@ -16391,7 +19842,10 @@ pg.base.memory_template = {
 		story = "JICHANG6",
 		id = 1416,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG6"
+		}
 	},
 	[1417] = {
 		mask = "bg/bg_jichang_1",
@@ -16402,7 +19856,10 @@ pg.base.memory_template = {
 		story = "JICHANG7",
 		id = 1417,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG7"
+		}
 	},
 	[1418] = {
 		mask = "bg/bg_jichang_1",
@@ -16413,7 +19870,10 @@ pg.base.memory_template = {
 		story = "JICHANG8",
 		id = 1418,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG8"
+		}
 	},
 	[1419] = {
 		mask = "bg/bg_jichang_1",
@@ -16424,7 +19884,10 @@ pg.base.memory_template = {
 		story = "JICHANG9",
 		id = 1419,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG9"
+		}
 	},
 	[1420] = {
 		mask = "bg/bg_jichang_1",
@@ -16435,7 +19898,10 @@ pg.base.memory_template = {
 		story = "JICHANG10",
 		id = 1420,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG10"
+		}
 	},
 	[1421] = {
 		mask = "bg/bg_jichang_1",
@@ -16446,7 +19912,10 @@ pg.base.memory_template = {
 		story = "JICHANG11",
 		id = 1421,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG11"
+		}
 	},
 	[1422] = {
 		mask = "bg/bg_jichang_1",
@@ -16457,7 +19926,10 @@ pg.base.memory_template = {
 		story = "JICHANG12",
 		id = 1422,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG12"
+		}
 	},
 	[1423] = {
 		mask = "bg/bg_jichang_1",
@@ -16468,7 +19940,10 @@ pg.base.memory_template = {
 		story = "JICHANG13",
 		id = 1423,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG13"
+		}
 	},
 	[1424] = {
 		mask = "bg/bg_jichang_1",
@@ -16479,7 +19954,10 @@ pg.base.memory_template = {
 		story = "JICHANG14",
 		id = 1424,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG14"
+		}
 	},
 	[1425] = {
 		mask = "bg/bg_jichang_1",
@@ -16490,7 +19968,10 @@ pg.base.memory_template = {
 		story = "JICHANG15",
 		id = 1425,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG15"
+		}
 	},
 	[1426] = {
 		mask = "bg/bg_jichang_1",
@@ -16501,7 +19982,10 @@ pg.base.memory_template = {
 		story = "JICHANG16",
 		id = 1426,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG16"
+		}
 	},
 	[1427] = {
 		mask = "bg/bg_jichang_1",
@@ -16512,7 +19996,10 @@ pg.base.memory_template = {
 		story = "JICHANG17",
 		id = 1427,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG17"
+		}
 	},
 	[1428] = {
 		mask = "bg/bg_jichang_1",
@@ -16523,7 +20010,10 @@ pg.base.memory_template = {
 		story = "JICHANG18",
 		id = 1428,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG18"
+		}
 	},
 	[1429] = {
 		mask = "bg/bg_jichang_1",
@@ -16534,7 +20024,10 @@ pg.base.memory_template = {
 		story = "JICHANG19",
 		id = 1429,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG19"
+		}
 	},
 	[1430] = {
 		mask = "bg/bg_jichang_1",
@@ -16545,7 +20038,10 @@ pg.base.memory_template = {
 		story = "JICHANG20",
 		id = 1430,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG20"
+		}
 	},
 	[1431] = {
 		mask = "bg/bg_jichang_1",
@@ -16556,7 +20052,10 @@ pg.base.memory_template = {
 		story = "JICHANG21",
 		id = 1431,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG21"
+		}
 	},
 	[1432] = {
 		mask = "bg/bg_jichang_1",
@@ -16567,7 +20066,10 @@ pg.base.memory_template = {
 		story = "JICHANG22",
 		id = 1432,
 		icon = "memory_jichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JICHANG22"
+		}
 	},
 	[1436] = {
 		mask = "bg/bg_map_doa",
@@ -16578,7 +20080,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN1",
 		id = 1436,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN1"
+		}
 	},
 	[1437] = {
 		mask = "bg/bg_map_doa",
@@ -16589,7 +20094,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN2",
 		id = 1437,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN2"
+		}
 	},
 	[1438] = {
 		mask = "bg/bg_map_doa",
@@ -16600,7 +20108,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN3",
 		id = 1438,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN3"
+		}
 	},
 	[1439] = {
 		mask = "bg/bg_map_doa",
@@ -16611,7 +20122,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN4",
 		id = 1439,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN4"
+		}
 	},
 	[1440] = {
 		mask = "bg/bg_map_doa",
@@ -16622,7 +20136,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN5",
 		id = 1440,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN5"
+		}
 	},
 	[1441] = {
 		mask = "bg/bg_map_doa",
@@ -16633,7 +20150,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN6",
 		id = 1441,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN6"
+		}
 	},
 	[1442] = {
 		mask = "bg/bg_map_doa",
@@ -16644,7 +20164,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN7",
 		id = 1442,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN7"
+		}
 	},
 	[1443] = {
 		mask = "bg/bg_map_doa",
@@ -16655,7 +20178,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN8",
 		id = 1443,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN8"
+		}
 	},
 	[1444] = {
 		mask = "bg/bg_map_doa",
@@ -16666,7 +20192,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN9",
 		id = 1444,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN9"
+		}
 	},
 	[1445] = {
 		mask = "bg/bg_map_doa",
@@ -16677,7 +20206,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN10",
 		id = 1445,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN10"
+		}
 	},
 	[1446] = {
 		mask = "bg/bg_map_doa",
@@ -16688,7 +20220,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN11",
 		id = 1446,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN11"
+		}
 	},
 	[1447] = {
 		mask = "bg/bg_map_doa",
@@ -16699,7 +20234,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN12",
 		id = 1447,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN12"
+		}
 	},
 	[1448] = {
 		mask = "bg/bg_map_doa",
@@ -16710,7 +20248,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN13",
 		id = 1448,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN13"
+		}
 	},
 	[1449] = {
 		mask = "bg/bg_map_doa",
@@ -16721,7 +20262,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN14",
 		id = 1449,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN14"
+		}
 	},
 	[1450] = {
 		mask = "bg/bg_map_doa",
@@ -16732,7 +20276,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN15",
 		id = 1450,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN15"
+		}
 	},
 	[1451] = {
 		mask = "bg/bg_map_doa",
@@ -16743,7 +20290,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIAN16",
 		id = 1451,
 		icon = "memory_jiarihangxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIAN16"
+		}
 	},
 	[1452] = {
 		mask = "bg/bg_memory",
@@ -16754,7 +20304,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIANRICHANG1",
 		id = 1452,
 		icon = "memory_jiarihangxianrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIANRICHANG1"
+		}
 	},
 	[1453] = {
 		mask = "bg/bg_memory",
@@ -16765,7 +20318,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIANRICHANG2",
 		id = 1453,
 		icon = "memory_jiarihangxianrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIANRICHANG2"
+		}
 	},
 	[1454] = {
 		mask = "bg/bg_memory",
@@ -16776,7 +20332,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIANRICHANG3",
 		id = 1454,
 		icon = "memory_jiarihangxianrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIANRICHANG3"
+		}
 	},
 	[1455] = {
 		mask = "bg/bg_memory",
@@ -16787,7 +20346,10 @@ pg.base.memory_template = {
 		story = "JIARIHANGXIANRICHANG4",
 		id = 1455,
 		icon = "memory_jiarihangxianrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIHANGXIANRICHANG4"
+		}
 	},
 	[1461] = {
 		mask = "bg/bg_memory",
@@ -16798,7 +20360,10 @@ pg.base.memory_template = {
 		story = "XIPEIER1",
 		id = 1461,
 		icon = "memory_xipeier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIPEIER1"
+		}
 	},
 	[1462] = {
 		mask = "bg/bg_memory",
@@ -16809,7 +20374,10 @@ pg.base.memory_template = {
 		story = "XIPEIER2",
 		id = 1462,
 		icon = "memory_xipeier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIPEIER2"
+		}
 	},
 	[1463] = {
 		mask = "bg/bg_memory",
@@ -16820,7 +20388,10 @@ pg.base.memory_template = {
 		story = "XIPEIER3",
 		id = 1463,
 		icon = "memory_xipeier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIPEIER3"
+		}
 	},
 	[1464] = {
 		mask = "bg/bg_memory",
@@ -16831,7 +20402,10 @@ pg.base.memory_template = {
 		story = "XIPEIER4",
 		id = 1464,
 		icon = "memory_xipeier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIPEIER4"
+		}
 	},
 	[1465] = {
 		mask = "bg/bg_memory",
@@ -16842,7 +20416,10 @@ pg.base.memory_template = {
 		story = "XIPEIER5",
 		id = 1465,
 		icon = "memory_xipeier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIPEIER5"
+		}
 	},
 	[1466] = {
 		mask = "bg/bg_memory",
@@ -16853,7 +20430,10 @@ pg.base.memory_template = {
 		story = "XIPEIER6",
 		id = 1466,
 		icon = "memory_xipeier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIPEIER6"
+		}
 	},
 	[1467] = {
 		mask = "bg/bg_memory",
@@ -16864,7 +20444,10 @@ pg.base.memory_template = {
 		story = "XIPEIER7",
 		id = 1467,
 		icon = "memory_xipeier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIPEIER7"
+		}
 	},
 	[1471] = {
 		mask = "bg/bg_memory",
@@ -16875,7 +20458,10 @@ pg.base.memory_template = {
 		story = "KENTE1",
 		id = 1471,
 		icon = "memory_kente",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KENTE1"
+		}
 	},
 	[1472] = {
 		mask = "bg/bg_memory",
@@ -16886,7 +20472,10 @@ pg.base.memory_template = {
 		story = "KENTE2",
 		id = 1472,
 		icon = "memory_kente",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KENTE2"
+		}
 	},
 	[1473] = {
 		mask = "bg/bg_memory",
@@ -16897,7 +20486,10 @@ pg.base.memory_template = {
 		story = "KENTE3",
 		id = 1473,
 		icon = "memory_kente",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KENTE3"
+		}
 	},
 	[1474] = {
 		mask = "bg/bg_memory",
@@ -16908,7 +20500,10 @@ pg.base.memory_template = {
 		story = "KENTE4",
 		id = 1474,
 		icon = "memory_kente",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KENTE4"
+		}
 	},
 	[1475] = {
 		mask = "bg/bg_memory",
@@ -16919,7 +20514,10 @@ pg.base.memory_template = {
 		story = "KENTE5",
 		id = 1475,
 		icon = "memory_kente",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KENTE5"
+		}
 	},
 	[1476] = {
 		mask = "bg/bg_memory",
@@ -16930,7 +20528,10 @@ pg.base.memory_template = {
 		story = "KENTE6",
 		id = 1476,
 		icon = "memory_kente",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KENTE6"
+		}
 	},
 	[1477] = {
 		mask = "bg/bg_memory",
@@ -16941,7 +20542,10 @@ pg.base.memory_template = {
 		story = "KENTE7",
 		id = 1477,
 		icon = "memory_kente",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KENTE7"
+		}
 	},
 	[1481] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -16952,7 +20556,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN1",
 		id = 1481,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN1"
+		}
 	},
 	[1482] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -16963,7 +20570,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN2",
 		id = 1482,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN2"
+		}
 	},
 	[1483] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -16974,7 +20584,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN3",
 		id = 1483,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN3"
+		}
 	},
 	[1484] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -16985,7 +20598,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN4",
 		id = 1484,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN4"
+		}
 	},
 	[1485] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -16996,7 +20612,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN5",
 		id = 1485,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN5"
+		}
 	},
 	[1486] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -17007,7 +20626,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN6",
 		id = 1486,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN6"
+		}
 	},
 	[1487] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -17018,7 +20640,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN7",
 		id = 1487,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN7"
+		}
 	},
 	[1488] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -17029,7 +20654,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN8",
 		id = 1488,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN8"
+		}
 	},
 	[1489] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -17040,7 +20668,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN9",
 		id = 1489,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN9"
+		}
 	},
 	[1490] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -17051,7 +20682,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN10",
 		id = 1490,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN10"
+		}
 	},
 	[1491] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -17062,7 +20696,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN11",
 		id = 1491,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN11"
+		}
 	},
 	[1492] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -17073,7 +20710,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN12",
 		id = 1492,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN12"
+		}
 	},
 	[1493] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -17084,7 +20724,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN13",
 		id = 1493,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN13"
+		}
 	},
 	[1494] = {
 		mask = "bg/bg_fuxiangxian_1",
@@ -17095,7 +20738,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN14",
 		id = 1494,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN14"
+		}
 	},
 	[1495] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17106,7 +20752,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN15",
 		id = 1495,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN15"
+		}
 	},
 	[1496] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17117,7 +20766,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN16",
 		id = 1496,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN16"
+		}
 	},
 	[1497] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17128,7 +20780,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN17",
 		id = 1497,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN17"
+		}
 	},
 	[1498] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17139,7 +20794,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN18",
 		id = 1498,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN18"
+		}
 	},
 	[1499] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17150,7 +20808,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN19",
 		id = 1499,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN19"
+		}
 	},
 	[1500] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17161,7 +20822,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN20",
 		id = 1500,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN20"
+		}
 	},
 	[1501] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17172,7 +20836,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN21",
 		id = 1501,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN21"
+		}
 	},
 	[1502] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17183,7 +20850,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN22",
 		id = 1502,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN22"
+		}
 	},
 	[1503] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17194,7 +20864,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN23",
 		id = 1503,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN23"
+		}
 	},
 	[1504] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17205,7 +20878,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN24",
 		id = 1504,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN24"
+		}
 	},
 	[1505] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17216,7 +20892,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN25",
 		id = 1505,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN25"
+		}
 	},
 	[1506] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17227,7 +20906,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN26",
 		id = 1506,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN26"
+		}
 	},
 	[1507] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17238,7 +20920,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN27",
 		id = 1507,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN27"
+		}
 	},
 	[1508] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17249,7 +20934,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN28",
 		id = 1508,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN28"
+		}
 	},
 	[1509] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17260,7 +20948,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN29",
 		id = 1509,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN29"
+		}
 	},
 	[1510] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17271,7 +20962,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN30",
 		id = 1510,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN30"
+		}
 	},
 	[1511] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17282,7 +20976,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN31",
 		id = 1511,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN31"
+		}
 	},
 	[1512] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17293,7 +20990,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN32",
 		id = 1512,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN32"
+		}
 	},
 	[1513] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17304,7 +21004,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN33",
 		id = 1513,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN33"
+		}
 	},
 	[1514] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17315,7 +21018,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN34",
 		id = 1514,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN34"
+		}
 	},
 	[1515] = {
 		mask = "bg/bg_fuxiangxian_3",
@@ -17326,7 +21032,10 @@ pg.base.memory_template = {
 		story = "FUXIANGXIANZUOZHAN35",
 		id = 1515,
 		icon = "memory_fuxiangxianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXIANGXIANZUOZHAN35"
+		}
 	},
 	[1521] = {
 		mask = "bg/bg_memory",
@@ -17337,7 +21046,10 @@ pg.base.memory_template = {
 		story = "ZHUIGANZHE1",
 		id = 1521,
 		icon = "memory_zhuiganzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUIGANZHE1"
+		}
 	},
 	[1522] = {
 		mask = "bg/bg_memory",
@@ -17348,7 +21060,10 @@ pg.base.memory_template = {
 		story = "ZHUIGANZHE2",
 		id = 1522,
 		icon = "memory_zhuiganzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUIGANZHE2"
+		}
 	},
 	[1523] = {
 		mask = "bg/bg_memory",
@@ -17359,7 +21074,10 @@ pg.base.memory_template = {
 		story = "ZHUIGANZHE3",
 		id = 1523,
 		icon = "memory_zhuiganzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUIGANZHE3"
+		}
 	},
 	[1524] = {
 		mask = "bg/bg_memory",
@@ -17370,7 +21088,10 @@ pg.base.memory_template = {
 		story = "ZHUIGANZHE4",
 		id = 1524,
 		icon = "memory_zhuiganzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUIGANZHE4"
+		}
 	},
 	[1525] = {
 		mask = "bg/bg_memory",
@@ -17381,7 +21102,10 @@ pg.base.memory_template = {
 		story = "ZHUIGANZHE5",
 		id = 1525,
 		icon = "memory_zhuiganzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUIGANZHE5"
+		}
 	},
 	[1526] = {
 		mask = "bg/bg_memory",
@@ -17392,7 +21116,10 @@ pg.base.memory_template = {
 		story = "ZHUIGANZHE6",
 		id = 1526,
 		icon = "memory_zhuiganzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUIGANZHE6"
+		}
 	},
 	[1527] = {
 		mask = "bg/bg_memory",
@@ -17403,7 +21130,10 @@ pg.base.memory_template = {
 		story = "ZHUIGANZHE7",
 		id = 1527,
 		icon = "memory_zhuiganzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUIGANZHE7"
+		}
 	},
 	[1530] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17414,7 +21144,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA1",
 		id = 1530,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA1"
+		}
 	},
 	[1531] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17425,7 +21158,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA2",
 		id = 1531,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA2"
+		}
 	},
 	[1532] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17436,7 +21172,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA3",
 		id = 1532,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA3"
+		}
 	},
 	[1533] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17447,7 +21186,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA4",
 		id = 1533,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA4"
+		}
 	},
 	[1534] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17458,7 +21200,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA5",
 		id = 1534,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA5"
+		}
 	},
 	[1535] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17469,7 +21214,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA6",
 		id = 1535,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA6"
+		}
 	},
 	[1536] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17480,7 +21228,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA7",
 		id = 1536,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA7"
+		}
 	},
 	[1537] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17491,7 +21242,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA8",
 		id = 1537,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA8"
+		}
 	},
 	[1538] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17502,7 +21256,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA9",
 		id = 1538,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA9"
+		}
 	},
 	[1539] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17513,7 +21270,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA10",
 		id = 1539,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA10"
+		}
 	},
 	[1540] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17524,7 +21284,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA11",
 		id = 1540,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA11"
+		}
 	},
 	[1541] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17535,7 +21298,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA12",
 		id = 1541,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA12"
+		}
 	},
 	[1542] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17546,7 +21312,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA13",
 		id = 1542,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA13"
+		}
 	},
 	[1543] = {
 		mask = "bg/bg_cccpv2_2",
@@ -17557,7 +21326,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA14",
 		id = 1543,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA14"
+		}
 	},
 	[1544] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17568,7 +21340,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA15",
 		id = 1544,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA15"
+		}
 	},
 	[1545] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17579,7 +21354,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA16",
 		id = 1545,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA16"
+		}
 	},
 	[1546] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17590,7 +21368,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA17",
 		id = 1546,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA17"
+		}
 	},
 	[1547] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17601,7 +21382,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA18",
 		id = 1547,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA18"
+		}
 	},
 	[1548] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17612,7 +21396,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA19",
 		id = 1548,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA19"
+		}
 	},
 	[1549] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17623,7 +21410,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA20",
 		id = 1549,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA20"
+		}
 	},
 	[1550] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17634,7 +21424,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA21",
 		id = 1550,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA21"
+		}
 	},
 	[1551] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17645,7 +21438,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA22",
 		id = 1551,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA22"
+		}
 	},
 	[1552] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17656,7 +21452,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA23",
 		id = 1552,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA23"
+		}
 	},
 	[1553] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17667,7 +21466,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA24",
 		id = 1553,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA24"
+		}
 	},
 	[1554] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17678,7 +21480,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA25",
 		id = 1554,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA25"
+		}
 	},
 	[1555] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17689,7 +21494,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA26",
 		id = 1555,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA26"
+		}
 	},
 	[1556] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17700,7 +21508,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA27",
 		id = 1556,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA27"
+		}
 	},
 	[1557] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17711,7 +21522,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA28",
 		id = 1557,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA28"
+		}
 	},
 	[1558] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17722,7 +21536,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA29",
 		id = 1558,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA29"
+		}
 	},
 	[1559] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17733,7 +21550,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA30",
 		id = 1559,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA30"
+		}
 	},
 	[1560] = {
 		mask = "bg/bg_cccpv2_10",
@@ -17744,7 +21564,10 @@ pg.base.memory_template = {
 		story = "POXIAOBINGHUA31",
 		id = 1560,
 		icon = "memory_poxiaobinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"POXIAOBINGHUA31"
+		}
 	},
 	[1561] = {
 		mask = "bg/bg_memory",
@@ -17755,7 +21578,10 @@ pg.base.memory_template = {
 		story = "GELASIGE1",
 		id = 1561,
 		icon = "memory_gelasige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELASIGE1"
+		}
 	},
 	[1562] = {
 		mask = "bg/bg_memory",
@@ -17766,7 +21592,10 @@ pg.base.memory_template = {
 		story = "GELASIGE2",
 		id = 1562,
 		icon = "memory_gelasige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELASIGE2"
+		}
 	},
 	[1563] = {
 		mask = "bg/bg_memory",
@@ -17777,7 +21606,10 @@ pg.base.memory_template = {
 		story = "GELASIGE3",
 		id = 1563,
 		icon = "memory_gelasige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELASIGE3"
+		}
 	},
 	[1564] = {
 		mask = "bg/bg_memory",
@@ -17788,7 +21620,10 @@ pg.base.memory_template = {
 		story = "GELASIGE4",
 		id = 1564,
 		icon = "memory_gelasige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELASIGE4"
+		}
 	},
 	[1565] = {
 		mask = "bg/bg_memory",
@@ -17799,7 +21634,10 @@ pg.base.memory_template = {
 		story = "GELASIGE5",
 		id = 1565,
 		icon = "memory_gelasige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELASIGE5"
+		}
 	},
 	[1566] = {
 		mask = "bg/bg_memory",
@@ -17810,7 +21648,10 @@ pg.base.memory_template = {
 		story = "GELASIGE6",
 		id = 1566,
 		icon = "memory_gelasige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELASIGE6"
+		}
 	},
 	[1567] = {
 		mask = "bg/bg_memory",
@@ -17821,7 +21662,10 @@ pg.base.memory_template = {
 		story = "GELASIGE7",
 		id = 1567,
 		icon = "memory_gelasige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELASIGE7"
+		}
 	},
 	[1571] = {
 		mask = "bg/bg_memory",
@@ -17832,7 +21676,10 @@ pg.base.memory_template = {
 		story = "BEILALUOSI1",
 		id = 1571,
 		icon = "memory_beilaluosi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILALUOSI1"
+		}
 	},
 	[1572] = {
 		mask = "bg/bg_memory",
@@ -17843,7 +21690,10 @@ pg.base.memory_template = {
 		story = "BEILALUOSI2",
 		id = 1572,
 		icon = "memory_beilaluosi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILALUOSI2"
+		}
 	},
 	[1573] = {
 		mask = "bg/bg_memory",
@@ -17854,7 +21704,10 @@ pg.base.memory_template = {
 		story = "BEILALUOSI3",
 		id = 1573,
 		icon = "memory_beilaluosi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILALUOSI3"
+		}
 	},
 	[1574] = {
 		mask = "bg/bg_memory",
@@ -17865,7 +21718,10 @@ pg.base.memory_template = {
 		story = "BEILALUOSI4",
 		id = 1574,
 		icon = "memory_beilaluosi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILALUOSI4"
+		}
 	},
 	[1575] = {
 		mask = "bg/bg_memory",
@@ -17876,7 +21732,10 @@ pg.base.memory_template = {
 		story = "BEILALUOSI5",
 		id = 1575,
 		icon = "memory_beilaluosi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILALUOSI5"
+		}
 	},
 	[1576] = {
 		mask = "bg/bg_memory",
@@ -17887,7 +21746,10 @@ pg.base.memory_template = {
 		story = "BEILALUOSI6",
 		id = 1576,
 		icon = "memory_beilaluosi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILALUOSI6"
+		}
 	},
 	[1577] = {
 		mask = "bg/bg_memory",
@@ -17898,7 +21760,10 @@ pg.base.memory_template = {
 		story = "BEILALUOSI7",
 		id = 1577,
 		icon = "memory_beilaluosi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BEILALUOSI7"
+		}
 	},
 	[1581] = {
 		mask = "bg/bg_memory",
@@ -17909,7 +21774,10 @@ pg.base.memory_template = {
 		story = "DANFO1",
 		id = 1581,
 		icon = "memory_danfo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DANFO1"
+		}
 	},
 	[1582] = {
 		mask = "bg/bg_memory",
@@ -17920,7 +21788,10 @@ pg.base.memory_template = {
 		story = "DANFO2",
 		id = 1582,
 		icon = "memory_danfo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DANFO2"
+		}
 	},
 	[1583] = {
 		mask = "bg/bg_memory",
@@ -17931,7 +21802,10 @@ pg.base.memory_template = {
 		story = "DANFO3",
 		id = 1583,
 		icon = "memory_danfo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DANFO3"
+		}
 	},
 	[1584] = {
 		mask = "bg/bg_memory",
@@ -17942,7 +21816,10 @@ pg.base.memory_template = {
 		story = "DANFO4",
 		id = 1584,
 		icon = "memory_danfo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DANFO4"
+		}
 	},
 	[1585] = {
 		mask = "bg/bg_memory",
@@ -17953,7 +21830,10 @@ pg.base.memory_template = {
 		story = "DANFO5",
 		id = 1585,
 		icon = "memory_danfo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DANFO5"
+		}
 	},
 	[1586] = {
 		mask = "bg/bg_memory",
@@ -17964,7 +21844,10 @@ pg.base.memory_template = {
 		story = "DANFO6",
 		id = 1586,
 		icon = "memory_danfo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DANFO6"
+		}
 	},
 	[1587] = {
 		mask = "bg/bg_memory",
@@ -17975,7 +21858,10 @@ pg.base.memory_template = {
 		story = "DANFO7",
 		id = 1587,
 		icon = "memory_danfo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DANFO7"
+		}
 	},
 	[1588] = {
 		mask = "bg/bg_story_outdoor",
@@ -17986,7 +21872,10 @@ pg.base.memory_template = {
 		story = "HUANGJINDEMIBAO4",
 		id = 1588,
 		icon = "memory_huangjindemibao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJINDEMIBAO4"
+		}
 	},
 	[1591] = {
 		mask = "bg/bg_memory",
@@ -17997,7 +21886,10 @@ pg.base.memory_template = {
 		story = "AILUNSAMUNA1",
 		id = 1591,
 		icon = "memory_ailunsamuna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AILUNSAMUNA1"
+		}
 	},
 	[1592] = {
 		mask = "bg/bg_memory",
@@ -18008,7 +21900,10 @@ pg.base.memory_template = {
 		story = "AILUNSAMUNA2",
 		id = 1592,
 		icon = "memory_ailunsamuna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AILUNSAMUNA2"
+		}
 	},
 	[1593] = {
 		mask = "bg/bg_memory",
@@ -18019,7 +21914,10 @@ pg.base.memory_template = {
 		story = "AILUNSAMUNA3",
 		id = 1593,
 		icon = "memory_ailunsamuna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AILUNSAMUNA3"
+		}
 	},
 	[1594] = {
 		mask = "bg/bg_memory",
@@ -18030,7 +21928,10 @@ pg.base.memory_template = {
 		story = "AILUNSAMUNA4",
 		id = 1594,
 		icon = "memory_ailunsamuna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AILUNSAMUNA4"
+		}
 	},
 	[1595] = {
 		mask = "bg/bg_memory",
@@ -18041,7 +21942,10 @@ pg.base.memory_template = {
 		story = "AILUNSAMUNA5",
 		id = 1595,
 		icon = "memory_ailunsamuna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AILUNSAMUNA5"
+		}
 	},
 	[1596] = {
 		mask = "bg/bg_memory",
@@ -18052,7 +21956,10 @@ pg.base.memory_template = {
 		story = "AILUNSAMUNA6",
 		id = 1596,
 		icon = "memory_ailunsamuna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AILUNSAMUNA6"
+		}
 	},
 	[1597] = {
 		mask = "bg/bg_memory",
@@ -18063,7 +21970,10 @@ pg.base.memory_template = {
 		story = "AILUNSAMUNA7",
 		id = 1597,
 		icon = "memory_ailunsamuna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AILUNSAMUNA7"
+		}
 	},
 	[1601] = {
 		mask = "bg/bg_italyv2_1",
@@ -18074,7 +21984,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI1",
 		id = 1601,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI1"
+		}
 	},
 	[1602] = {
 		mask = "bg/bg_italyv2_1",
@@ -18085,7 +21998,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI2",
 		id = 1602,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI2"
+		}
 	},
 	[1603] = {
 		mask = "bg/bg_italyv2_1",
@@ -18096,7 +22012,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI3",
 		id = 1603,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI3"
+		}
 	},
 	[1604] = {
 		mask = "bg/bg_italyv2_1",
@@ -18107,7 +22026,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI4",
 		id = 1604,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI4"
+		}
 	},
 	[1605] = {
 		mask = "bg/bg_italyv2_1",
@@ -18118,7 +22040,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI5",
 		id = 1605,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI5"
+		}
 	},
 	[1606] = {
 		mask = "bg/bg_italyv2_1",
@@ -18129,7 +22054,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI6",
 		id = 1606,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI6"
+		}
 	},
 	[1607] = {
 		mask = "bg/bg_italyv2_1",
@@ -18140,7 +22068,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI7",
 		id = 1607,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI7"
+		}
 	},
 	[1608] = {
 		mask = "bg/bg_italyv2_1",
@@ -18151,7 +22082,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI8",
 		id = 1608,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI8"
+		}
 	},
 	[1609] = {
 		mask = "bg/bg_italyv2_1",
@@ -18162,7 +22096,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI9",
 		id = 1609,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI9"
+		}
 	},
 	[1610] = {
 		mask = "bg/bg_italyv2_1",
@@ -18173,7 +22110,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI10",
 		id = 1610,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI10"
+		}
 	},
 	[1611] = {
 		mask = "bg/bg_italyv2_1",
@@ -18184,7 +22124,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI11",
 		id = 1611,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI11"
+		}
 	},
 	[1612] = {
 		mask = "bg/bg_italyv2_1",
@@ -18195,7 +22138,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI12",
 		id = 1612,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI12"
+		}
 	},
 	[1613] = {
 		mask = "bg/bg_italyv2_1",
@@ -18206,7 +22152,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI13",
 		id = 1613,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI13"
+		}
 	},
 	[1614] = {
 		mask = "bg/bg_italyv2_1",
@@ -18217,7 +22166,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI14",
 		id = 1614,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI14"
+		}
 	},
 	[1615] = {
 		mask = "bg/bg_italyv2_3",
@@ -18228,7 +22180,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI15",
 		id = 1615,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI15"
+		}
 	},
 	[1616] = {
 		mask = "bg/bg_italyv2_3",
@@ -18239,7 +22194,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI16",
 		id = 1616,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI16"
+		}
 	},
 	[1617] = {
 		mask = "bg/bg_italyv2_3",
@@ -18250,7 +22208,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI17",
 		id = 1617,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI17"
+		}
 	},
 	[1618] = {
 		mask = "bg/bg_italyv2_3",
@@ -18261,7 +22222,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI18",
 		id = 1618,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI18"
+		}
 	},
 	[1619] = {
 		mask = "bg/bg_italyv2_3",
@@ -18272,7 +22236,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI19",
 		id = 1619,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI19"
+		}
 	},
 	[1620] = {
 		mask = "bg/bg_italyv2_3",
@@ -18283,7 +22250,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI20",
 		id = 1620,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI20"
+		}
 	},
 	[1621] = {
 		mask = "bg/bg_italyv2_3",
@@ -18294,7 +22264,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI21",
 		id = 1621,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI21"
+		}
 	},
 	[1622] = {
 		mask = "bg/bg_italyv2_3",
@@ -18305,7 +22278,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI22",
 		id = 1622,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI22"
+		}
 	},
 	[1623] = {
 		mask = "bg/bg_italyv2_3",
@@ -18316,7 +22292,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI23",
 		id = 1623,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI23"
+		}
 	},
 	[1624] = {
 		mask = "bg/bg_italyv2_3",
@@ -18327,7 +22306,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI24",
 		id = 1624,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI24"
+		}
 	},
 	[1625] = {
 		mask = "bg/bg_italyv2_3",
@@ -18338,7 +22320,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI25",
 		id = 1625,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI25"
+		}
 	},
 	[1626] = {
 		mask = "bg/bg_italyv2_3",
@@ -18349,7 +22334,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI26",
 		id = 1626,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI26"
+		}
 	},
 	[1627] = {
 		mask = "bg/bg_italyv2_3",
@@ -18360,7 +22348,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI27",
 		id = 1627,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI27"
+		}
 	},
 	[1628] = {
 		mask = "bg/bg_italyv2_3",
@@ -18371,7 +22362,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI28",
 		id = 1628,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI28"
+		}
 	},
 	[1629] = {
 		mask = "bg/bg_italyv2_3",
@@ -18382,7 +22376,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI29",
 		id = 1629,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI29"
+		}
 	},
 	[1630] = {
 		mask = "bg/bg_italyv2_3",
@@ -18393,7 +22390,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI30",
 		id = 1630,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI30"
+		}
 	},
 	[1631] = {
 		mask = "bg/bg_italyv2_3",
@@ -18404,7 +22404,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI31",
 		id = 1631,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI31"
+		}
 	},
 	[1632] = {
 		mask = "bg/bg_italyv2_3",
@@ -18415,7 +22418,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI32",
 		id = 1632,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI32"
+		}
 	},
 	[1633] = {
 		mask = "bg/bg_italyv2_3",
@@ -18426,7 +22432,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI33",
 		id = 1633,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI33"
+		}
 	},
 	[1634] = {
 		mask = "bg/bg_italyv2_3",
@@ -18437,7 +22446,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI34",
 		id = 1634,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI34"
+		}
 	},
 	[1635] = {
 		mask = "bg/bg_italyv2_3",
@@ -18448,7 +22460,10 @@ pg.base.memory_template = {
 		story = "FUXINGDEZANMEISHI35",
 		id = 1635,
 		icon = "memory_fuxingdezanmeishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUXINGDEZANMEISHI35"
+		}
 	},
 	[1641] = {
 		mask = "bg/bg_memory",
@@ -18459,7 +22474,10 @@ pg.base.memory_template = {
 		story = "SHIYU1",
 		id = 1641,
 		icon = "memory_shiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHIYU1"
+		}
 	},
 	[1642] = {
 		mask = "bg/bg_memory",
@@ -18470,7 +22488,10 @@ pg.base.memory_template = {
 		story = "SHIYU2",
 		id = 1642,
 		icon = "memory_shiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHIYU2"
+		}
 	},
 	[1643] = {
 		mask = "bg/bg_memory",
@@ -18481,7 +22502,10 @@ pg.base.memory_template = {
 		story = "SHIYU3",
 		id = 1643,
 		icon = "memory_shiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHIYU3"
+		}
 	},
 	[1644] = {
 		mask = "bg/bg_memory",
@@ -18492,7 +22516,10 @@ pg.base.memory_template = {
 		story = "SHIYU4",
 		id = 1644,
 		icon = "memory_shiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHIYU4"
+		}
 	},
 	[1645] = {
 		mask = "bg/bg_memory",
@@ -18503,7 +22530,10 @@ pg.base.memory_template = {
 		story = "SHIYU5",
 		id = 1645,
 		icon = "memory_shiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHIYU5"
+		}
 	},
 	[1646] = {
 		mask = "bg/bg_memory",
@@ -18514,7 +22544,10 @@ pg.base.memory_template = {
 		story = "SHIYU6",
 		id = 1646,
 		icon = "memory_shiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHIYU6"
+		}
 	},
 	[1647] = {
 		mask = "bg/bg_memory",
@@ -18525,7 +22558,10 @@ pg.base.memory_template = {
 		story = "SHIYU7",
 		id = 1647,
 		icon = "memory_shiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHIYU7"
+		}
 	},
 	[1651] = {
 		mask = "bg/bg_memory",
@@ -18536,7 +22572,10 @@ pg.base.memory_template = {
 		story = "TIANYING1",
 		id = 1651,
 		icon = "memory_tianying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANYING1"
+		}
 	},
 	[1652] = {
 		mask = "bg/bg_memory",
@@ -18547,7 +22586,10 @@ pg.base.memory_template = {
 		story = "TIANYING2",
 		id = 1652,
 		icon = "memory_tianying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANYING2"
+		}
 	},
 	[1653] = {
 		mask = "bg/bg_memory",
@@ -18558,7 +22600,10 @@ pg.base.memory_template = {
 		story = "TIANYING3",
 		id = 1653,
 		icon = "memory_tianying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANYING3"
+		}
 	},
 	[1654] = {
 		mask = "bg/bg_memory",
@@ -18569,7 +22614,10 @@ pg.base.memory_template = {
 		story = "TIANYING4",
 		id = 1654,
 		icon = "memory_tianying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANYING4"
+		}
 	},
 	[1655] = {
 		mask = "bg/bg_memory",
@@ -18580,7 +22628,10 @@ pg.base.memory_template = {
 		story = "TIANYING5",
 		id = 1655,
 		icon = "memory_tianying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANYING5"
+		}
 	},
 	[1656] = {
 		mask = "bg/bg_memory",
@@ -18591,7 +22642,10 @@ pg.base.memory_template = {
 		story = "TIANYING6",
 		id = 1656,
 		icon = "memory_tianying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANYING6"
+		}
 	},
 	[1657] = {
 		mask = "bg/bg_memory",
@@ -18602,7 +22656,10 @@ pg.base.memory_template = {
 		story = "TIANYING7",
 		id = 1657,
 		icon = "memory_tianying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANYING7"
+		}
 	},
 	[1661] = {
 		mask = "bg/bg_memory",
@@ -18613,7 +22670,10 @@ pg.base.memory_template = {
 		story = "YINSEDANGAN1",
 		id = 1661,
 		icon = "memory_yinsedangan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINSEDANGAN1"
+		}
 	},
 	[1662] = {
 		mask = "bg/bg_memory",
@@ -18624,7 +22684,10 @@ pg.base.memory_template = {
 		story = "YINSEDANGAN2",
 		id = 1662,
 		icon = "memory_yinsedangan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINSEDANGAN2"
+		}
 	},
 	[1663] = {
 		mask = "bg/bg_memory",
@@ -18635,7 +22698,10 @@ pg.base.memory_template = {
 		story = "YINSEDANGAN3",
 		id = 1663,
 		icon = "memory_yinsedangan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINSEDANGAN3"
+		}
 	},
 	[1664] = {
 		mask = "bg/bg_memory",
@@ -18646,7 +22712,10 @@ pg.base.memory_template = {
 		story = "YINSEDANGAN4",
 		id = 1664,
 		icon = "memory_yinsedangan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINSEDANGAN4"
+		}
 	},
 	[1671] = {
 		mask = "bg/bg_memory",
@@ -18657,7 +22726,10 @@ pg.base.memory_template = {
 		story = "U471",
 		id = 1671,
 		icon = "memory_u47",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U471"
+		}
 	},
 	[1672] = {
 		mask = "bg/bg_memory",
@@ -18668,7 +22740,10 @@ pg.base.memory_template = {
 		story = "U472",
 		id = 1672,
 		icon = "memory_u47",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U472"
+		}
 	},
 	[1673] = {
 		mask = "bg/bg_memory",
@@ -18679,7 +22754,10 @@ pg.base.memory_template = {
 		story = "U473",
 		id = 1673,
 		icon = "memory_u47",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U473"
+		}
 	},
 	[1674] = {
 		mask = "bg/bg_memory",
@@ -18690,7 +22768,10 @@ pg.base.memory_template = {
 		story = "U474",
 		id = 1674,
 		icon = "memory_u47",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U474"
+		}
 	},
 	[1675] = {
 		mask = "bg/bg_memory",
@@ -18701,7 +22782,10 @@ pg.base.memory_template = {
 		story = "U475",
 		id = 1675,
 		icon = "memory_u47",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U475"
+		}
 	},
 	[1676] = {
 		mask = "bg/bg_memory",
@@ -18712,7 +22796,10 @@ pg.base.memory_template = {
 		story = "U476",
 		id = 1676,
 		icon = "memory_u47",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U476"
+		}
 	},
 	[1677] = {
 		mask = "bg/bg_memory",
@@ -18723,7 +22810,10 @@ pg.base.memory_template = {
 		story = "U477",
 		id = 1677,
 		icon = "memory_u47",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"U477"
+		}
 	},
 	[1681] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18734,7 +22824,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN1",
 		id = 1681,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN1"
+		}
 	},
 	[1682] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18745,7 +22838,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN2",
 		id = 1682,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN2"
+		}
 	},
 	[1683] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18756,7 +22852,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN3",
 		id = 1683,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN3"
+		}
 	},
 	[1684] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18767,7 +22866,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN4",
 		id = 1684,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN4"
+		}
 	},
 	[1685] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18778,7 +22880,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN5",
 		id = 1685,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN5"
+		}
 	},
 	[1686] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18789,7 +22894,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN6",
 		id = 1686,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN6"
+		}
 	},
 	[1687] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18800,7 +22908,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN7",
 		id = 1687,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN7"
+		}
 	},
 	[1688] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18811,7 +22922,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN8",
 		id = 1688,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN8"
+		}
 	},
 	[1689] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18822,7 +22936,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN9",
 		id = 1689,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN9"
+		}
 	},
 	[1690] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18833,7 +22950,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN10",
 		id = 1690,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN10"
+		}
 	},
 	[1691] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18844,7 +22964,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN11",
 		id = 1691,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN11"
+		}
 	},
 	[1692] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18855,7 +22978,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN12",
 		id = 1692,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN12"
+		}
 	},
 	[1693] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18866,7 +22992,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN13",
 		id = 1693,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN13"
+		}
 	},
 	[1694] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18877,7 +23006,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN14",
 		id = 1694,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN14"
+		}
 	},
 	[1695] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18888,7 +23020,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN15",
 		id = 1695,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN15"
+		}
 	},
 	[1696] = {
 		mask = "bg/bg_luoxuan_1",
@@ -18899,7 +23034,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN16",
 		id = 1696,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN16"
+		}
 	},
 	[1697] = {
 		mask = "bg/bg_luoxuan_5",
@@ -18910,7 +23048,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN17",
 		id = 1697,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN17"
+		}
 	},
 	[1698] = {
 		mask = "bg/bg_luoxuan_5",
@@ -18921,7 +23062,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN18",
 		id = 1698,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN18"
+		}
 	},
 	[1699] = {
 		mask = "bg/bg_luoxuan_5",
@@ -18932,7 +23076,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN19",
 		id = 1699,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN19"
+		}
 	},
 	[1700] = {
 		mask = "bg/bg_luoxuan_5",
@@ -18943,7 +23090,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN20",
 		id = 1700,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN20"
+		}
 	},
 	[1701] = {
 		mask = "bg/bg_luoxuan_5",
@@ -18954,7 +23104,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN21",
 		id = 1701,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN21"
+		}
 	},
 	[1702] = {
 		mask = "bg/bg_luoxuan_5",
@@ -18965,7 +23118,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN22",
 		id = 1702,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN22"
+		}
 	},
 	[1703] = {
 		mask = "bg/bg_luoxuan_5",
@@ -18976,7 +23132,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN23",
 		id = 1703,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN23"
+		}
 	},
 	[1704] = {
 		mask = "bg/bg_luoxuan_5",
@@ -18987,7 +23146,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN24",
 		id = 1704,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN24"
+		}
 	},
 	[1705] = {
 		mask = "bg/bg_luoxuan_5",
@@ -18998,7 +23160,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN25",
 		id = 1705,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN25"
+		}
 	},
 	[1706] = {
 		mask = "bg/bg_luoxuan_5",
@@ -19009,7 +23174,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN26",
 		id = 1706,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN26"
+		}
 	},
 	[1707] = {
 		mask = "bg/bg_luoxuan_5",
@@ -19020,7 +23188,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN27",
 		id = 1707,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN27"
+		}
 	},
 	[1708] = {
 		mask = "bg/bg_luoxuan_5",
@@ -19031,7 +23202,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN28",
 		id = 1708,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN28"
+		}
 	},
 	[1709] = {
 		mask = "bg/bg_luoxuan_5",
@@ -19042,7 +23216,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN29",
 		id = 1709,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN29"
+		}
 	},
 	[1710] = {
 		mask = "bg/bg_luoxuan_5",
@@ -19053,7 +23230,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN30",
 		id = 1710,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN30"
+		}
 	},
 	[1711] = {
 		mask = "bg/bg_luoxuan_5",
@@ -19064,7 +23244,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN31",
 		id = 1711,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN31"
+		}
 	},
 	[1712] = {
 		mask = "bg/bg_luoxuan_5",
@@ -19075,7 +23258,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN32",
 		id = 1712,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN32"
+		}
 	},
 	[1713] = {
 		mask = "bg/bg_italyv2_3",
@@ -19086,7 +23272,10 @@ pg.base.memory_template = {
 		story = "JINGWEILUOXUAN33",
 		id = 1713,
 		icon = "memory_jingweiluoxuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGWEILUOXUAN33"
+		}
 	},
 	[1716] = {
 		mask = "bg/bg_memory",
@@ -19097,7 +23286,10 @@ pg.base.memory_template = {
 		story = "NAERXUN1",
 		id = 1716,
 		icon = "memory_naerxun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERXUN1"
+		}
 	},
 	[1717] = {
 		mask = "bg/bg_memory",
@@ -19108,7 +23300,10 @@ pg.base.memory_template = {
 		story = "NAERXUN2",
 		id = 1717,
 		icon = "memory_naerxun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERXUN2"
+		}
 	},
 	[1718] = {
 		mask = "bg/bg_memory",
@@ -19119,7 +23314,10 @@ pg.base.memory_template = {
 		story = "NAERXUN3",
 		id = 1718,
 		icon = "memory_naerxun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERXUN3"
+		}
 	},
 	[1719] = {
 		mask = "bg/bg_memory",
@@ -19130,7 +23328,10 @@ pg.base.memory_template = {
 		story = "NAERXUN4",
 		id = 1719,
 		icon = "memory_naerxun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERXUN4"
+		}
 	},
 	[1720] = {
 		mask = "bg/bg_memory",
@@ -19141,7 +23342,10 @@ pg.base.memory_template = {
 		story = "NAERXUN5",
 		id = 1720,
 		icon = "memory_naerxun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERXUN5"
+		}
 	},
 	[1721] = {
 		mask = "bg/bg_memory",
@@ -19152,7 +23356,10 @@ pg.base.memory_template = {
 		story = "NAERXUN6",
 		id = 1721,
 		icon = "memory_naerxun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERXUN6"
+		}
 	},
 	[1722] = {
 		mask = "bg/bg_memory",
@@ -19163,7 +23370,10 @@ pg.base.memory_template = {
 		story = "NAERXUN7",
 		id = 1722,
 		icon = "memory_naerxun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NAERXUN7"
+		}
 	},
 	[1725] = {
 		mask = "bg/bg_memory",
@@ -19174,7 +23384,10 @@ pg.base.memory_template = {
 		story = "BOYIXI1",
 		id = 1725,
 		icon = "memory_boyixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOYIXI1"
+		}
 	},
 	[1726] = {
 		mask = "bg/bg_memory",
@@ -19185,7 +23398,10 @@ pg.base.memory_template = {
 		story = "BOYIXI2",
 		id = 1726,
 		icon = "memory_boyixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOYIXI2"
+		}
 	},
 	[1727] = {
 		mask = "bg/bg_memory",
@@ -19196,7 +23412,10 @@ pg.base.memory_template = {
 		story = "BOYIXI3",
 		id = 1727,
 		icon = "memory_boyixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOYIXI3"
+		}
 	},
 	[1728] = {
 		mask = "bg/bg_memory",
@@ -19207,7 +23426,10 @@ pg.base.memory_template = {
 		story = "BOYIXI4",
 		id = 1728,
 		icon = "memory_boyixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOYIXI4"
+		}
 	},
 	[1729] = {
 		mask = "bg/bg_memory",
@@ -19218,7 +23440,10 @@ pg.base.memory_template = {
 		story = "BOYIXI5",
 		id = 1729,
 		icon = "memory_boyixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOYIXI5"
+		}
 	},
 	[1730] = {
 		mask = "bg/bg_memory",
@@ -19229,7 +23454,10 @@ pg.base.memory_template = {
 		story = "BOYIXI6",
 		id = 1730,
 		icon = "memory_boyixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOYIXI6"
+		}
 	},
 	[1731] = {
 		mask = "bg/bg_memory",
@@ -19240,7 +23468,10 @@ pg.base.memory_template = {
 		story = "BOYIXI7",
 		id = 1731,
 		icon = "memory_boyixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BOYIXI7"
+		}
 	},
 	[1732] = {
 		mask = "bg/bg_memory",
@@ -19251,7 +23482,10 @@ pg.base.memory_template = {
 		story = "LUCK29903",
 		id = 1732,
 		icon = "memory_chaijun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK29903"
+		}
 	},
 	[1733] = {
 		mask = "bg/bg_memory",
@@ -19262,7 +23496,10 @@ pg.base.memory_template = {
 		story = "LUCK89902",
 		id = 1733,
 		icon = "memory_xiangbin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK89902"
+		}
 	},
 	[1734] = {
 		mask = "bg/bg_memory",
@@ -19273,7 +23510,10 @@ pg.base.memory_template = {
 		story = "LUCK49904",
 		id = 1734,
 		icon = "memory_aoding",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49904"
+		}
 	},
 	[1735] = {
 		mask = "bg/bg_memory",
@@ -19284,7 +23524,10 @@ pg.base.memory_template = {
 		story = "LUCK49903",
 		id = 1735,
 		icon = "memory_meiyinci",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49903"
+		}
 	},
 	[1736] = {
 		mask = "bg/bg_memory",
@@ -19295,7 +23538,10 @@ pg.base.memory_template = {
 		story = "FUSANG1",
 		id = 1736,
 		icon = "memory_fusang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSANG1"
+		}
 	},
 	[1737] = {
 		mask = "bg/bg_memory",
@@ -19306,7 +23552,10 @@ pg.base.memory_template = {
 		story = "FUSANG2",
 		id = 1737,
 		icon = "memory_fusang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSANG2"
+		}
 	},
 	[1738] = {
 		mask = "bg/bg_memory",
@@ -19317,7 +23566,10 @@ pg.base.memory_template = {
 		story = "FUSANG3",
 		id = 1738,
 		icon = "memory_fusang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSANG3"
+		}
 	},
 	[1739] = {
 		mask = "bg/bg_memory",
@@ -19328,7 +23580,10 @@ pg.base.memory_template = {
 		story = "FUSANG4",
 		id = 1739,
 		icon = "memory_fusang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSANG4"
+		}
 	},
 	[1740] = {
 		mask = "bg/bg_memory",
@@ -19339,7 +23594,10 @@ pg.base.memory_template = {
 		story = "FUSANG5",
 		id = 1740,
 		icon = "memory_fusang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSANG5"
+		}
 	},
 	[1741] = {
 		mask = "bg/bg_memory",
@@ -19350,7 +23608,10 @@ pg.base.memory_template = {
 		story = "FUSANG6",
 		id = 1741,
 		icon = "memory_fusang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSANG6"
+		}
 	},
 	[1742] = {
 		mask = "bg/bg_memory",
@@ -19361,7 +23622,10 @@ pg.base.memory_template = {
 		story = "FUSANG7",
 		id = 1742,
 		icon = "memory_fusang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSANG7"
+		}
 	},
 	[1746] = {
 		mask = "bg/bg_memory",
@@ -19372,7 +23636,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIRICHANG1",
 		id = 1746,
 		icon = "memory_ouxiangdashirichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIRICHANG1"
+		}
 	},
 	[1747] = {
 		mask = "bg/bg_memory",
@@ -19383,7 +23650,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIRICHANG2",
 		id = 1747,
 		icon = "memory_ouxiangdashirichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIRICHANG2"
+		}
 	},
 	[1748] = {
 		mask = "bg/bg_memory",
@@ -19394,7 +23664,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIRICHANG3",
 		id = 1748,
 		icon = "memory_ouxiangdashirichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIRICHANG3"
+		}
 	},
 	[1749] = {
 		mask = "bg/bg_memory",
@@ -19405,7 +23678,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIRICHANG4",
 		id = 1749,
 		icon = "memory_ouxiangdashirichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIRICHANG4"
+		}
 	},
 	[1751] = {
 		mask = "bg/bg_map_idom",
@@ -19416,7 +23692,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA1",
 		id = 1751,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA1"
+		}
 	},
 	[1752] = {
 		mask = "bg/bg_map_idom",
@@ -19427,7 +23706,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA2",
 		id = 1752,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA2"
+		}
 	},
 	[1753] = {
 		mask = "bg/bg_map_idom",
@@ -19438,7 +23720,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA3",
 		id = 1753,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA3"
+		}
 	},
 	[1754] = {
 		mask = "bg/bg_map_idom",
@@ -19449,7 +23734,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA4",
 		id = 1754,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA4"
+		}
 	},
 	[1755] = {
 		mask = "bg/bg_map_idom",
@@ -19460,7 +23748,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA5",
 		id = 1755,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA5"
+		}
 	},
 	[1756] = {
 		mask = "bg/bg_map_idom",
@@ -19471,7 +23762,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA6",
 		id = 1756,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA6"
+		}
 	},
 	[1757] = {
 		mask = "bg/bg_map_idom",
@@ -19482,7 +23776,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA7",
 		id = 1757,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA7"
+		}
 	},
 	[1758] = {
 		mask = "bg/bg_map_idom",
@@ -19493,7 +23790,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA8",
 		id = 1758,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA8"
+		}
 	},
 	[1759] = {
 		mask = "bg/bg_map_idom",
@@ -19504,7 +23804,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA9",
 		id = 1759,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA9"
+		}
 	},
 	[1760] = {
 		mask = "bg/bg_map_idom",
@@ -19515,7 +23818,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA10",
 		id = 1760,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA10"
+		}
 	},
 	[1761] = {
 		mask = "bg/bg_map_idom",
@@ -19526,7 +23832,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA11",
 		id = 1761,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA11"
+		}
 	},
 	[1762] = {
 		mask = "bg/bg_map_idom",
@@ -19537,7 +23846,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA12",
 		id = 1762,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA12"
+		}
 	},
 	[1763] = {
 		mask = "bg/bg_map_idom",
@@ -19548,7 +23860,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA13",
 		id = 1763,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA13"
+		}
 	},
 	[1764] = {
 		mask = "bg/bg_map_idom",
@@ -19559,7 +23874,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA14",
 		id = 1764,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA14"
+		}
 	},
 	[1765] = {
 		mask = "bg/bg_map_idom",
@@ -19570,7 +23888,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA15",
 		id = 1765,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA15"
+		}
 	},
 	[1766] = {
 		mask = "bg/bg_map_idom",
@@ -19581,7 +23902,10 @@ pg.base.memory_template = {
 		story = "OUXIANGDASHIGUANQIA16",
 		id = 1766,
 		icon = "memory_ouxiangdashiguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"OUXIANGDASHIGUANQIA16"
+		}
 	},
 	[1771] = {
 		mask = "bg/bg_memory",
@@ -19592,7 +23916,10 @@ pg.base.memory_template = {
 		story = "GUINU1",
 		id = 1771,
 		icon = "memory_guinu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUINU1"
+		}
 	},
 	[1772] = {
 		mask = "bg/bg_memory",
@@ -19603,7 +23930,10 @@ pg.base.memory_template = {
 		story = "GUINU2",
 		id = 1772,
 		icon = "memory_guinu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUINU2"
+		}
 	},
 	[1773] = {
 		mask = "bg/bg_memory",
@@ -19614,7 +23944,10 @@ pg.base.memory_template = {
 		story = "GUINU3",
 		id = 1773,
 		icon = "memory_guinu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUINU3"
+		}
 	},
 	[1774] = {
 		mask = "bg/bg_memory",
@@ -19625,7 +23958,10 @@ pg.base.memory_template = {
 		story = "GUINU4",
 		id = 1774,
 		icon = "memory_guinu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUINU4"
+		}
 	},
 	[1775] = {
 		mask = "bg/bg_memory",
@@ -19636,7 +23972,10 @@ pg.base.memory_template = {
 		story = "GUINU5",
 		id = 1775,
 		icon = "memory_guinu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUINU5"
+		}
 	},
 	[1776] = {
 		mask = "bg/bg_memory",
@@ -19647,7 +23986,10 @@ pg.base.memory_template = {
 		story = "GUINU6",
 		id = 1776,
 		icon = "memory_guinu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUINU6"
+		}
 	},
 	[1777] = {
 		mask = "bg/bg_memory",
@@ -19658,7 +24000,10 @@ pg.base.memory_template = {
 		story = "GUINU7",
 		id = 1777,
 		icon = "memory_guinu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUINU7"
+		}
 	},
 	[1781] = {
 		mask = "bg/bg_memory",
@@ -19669,7 +24014,10 @@ pg.base.memory_template = {
 		story = "DAHUANGFENG1",
 		id = 1781,
 		icon = "memory_dahuangfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAHUANGFENG1"
+		}
 	},
 	[1782] = {
 		mask = "bg/bg_memory",
@@ -19680,7 +24028,10 @@ pg.base.memory_template = {
 		story = "DAHUANGFENG2",
 		id = 1782,
 		icon = "memory_dahuangfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAHUANGFENG2"
+		}
 	},
 	[1783] = {
 		mask = "bg/bg_memory",
@@ -19691,7 +24042,10 @@ pg.base.memory_template = {
 		story = "DAHUANGFENG3",
 		id = 1783,
 		icon = "memory_dahuangfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAHUANGFENG3"
+		}
 	},
 	[1784] = {
 		mask = "bg/bg_memory",
@@ -19702,7 +24056,10 @@ pg.base.memory_template = {
 		story = "DAHUANGFENG4",
 		id = 1784,
 		icon = "memory_dahuangfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAHUANGFENG4"
+		}
 	},
 	[1785] = {
 		mask = "bg/bg_memory",
@@ -19713,7 +24070,10 @@ pg.base.memory_template = {
 		story = "DAHUANGFENG5",
 		id = 1785,
 		icon = "memory_dahuangfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAHUANGFENG5"
+		}
 	},
 	[1786] = {
 		mask = "bg/bg_memory",
@@ -19724,7 +24084,10 @@ pg.base.memory_template = {
 		story = "DAHUANGFENG6",
 		id = 1786,
 		icon = "memory_dahuangfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAHUANGFENG6"
+		}
 	},
 	[1787] = {
 		mask = "bg/bg_memory",
@@ -19735,7 +24098,10 @@ pg.base.memory_template = {
 		story = "DAHUANGFENG7",
 		id = 1787,
 		icon = "memory_dahuangfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAHUANGFENG7"
+		}
 	},
 	[1791] = {
 		mask = "bg/bg_memory",
@@ -19746,7 +24112,10 @@ pg.base.memory_template = {
 		story = "KASABULANKA1",
 		id = 1791,
 		icon = "memory_kasabulanka",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KASABULANKA1"
+		}
 	},
 	[1792] = {
 		mask = "bg/bg_memory",
@@ -19757,7 +24126,10 @@ pg.base.memory_template = {
 		story = "KASABULANKA2",
 		id = 1792,
 		icon = "memory_kasabulanka",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KASABULANKA2"
+		}
 	},
 	[1793] = {
 		mask = "bg/bg_memory",
@@ -19768,7 +24140,10 @@ pg.base.memory_template = {
 		story = "KASABULANKA3",
 		id = 1793,
 		icon = "memory_kasabulanka",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KASABULANKA3"
+		}
 	},
 	[1794] = {
 		mask = "bg/bg_memory",
@@ -19779,7 +24154,10 @@ pg.base.memory_template = {
 		story = "KASABULANKA4",
 		id = 1794,
 		icon = "memory_kasabulanka",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KASABULANKA4"
+		}
 	},
 	[1795] = {
 		mask = "bg/bg_memory",
@@ -19790,7 +24168,10 @@ pg.base.memory_template = {
 		story = "KASABULANKA5",
 		id = 1795,
 		icon = "memory_kasabulanka",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KASABULANKA5"
+		}
 	},
 	[1796] = {
 		mask = "bg/bg_memory",
@@ -19801,7 +24182,10 @@ pg.base.memory_template = {
 		story = "KASABULANKA6",
 		id = 1796,
 		icon = "memory_kasabulanka",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KASABULANKA6"
+		}
 	},
 	[1797] = {
 		mask = "bg/bg_memory",
@@ -19812,7 +24196,10 @@ pg.base.memory_template = {
 		story = "KASABULANKA7",
 		id = 1797,
 		icon = "memory_kasabulanka",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KASABULANKA7"
+		}
 	},
 	[1798] = {
 		mask = "bg/bg_memory",
@@ -19823,7 +24210,10 @@ pg.base.memory_template = {
 		story = "LUCK39904",
 		id = 1798,
 		icon = "memory_wuqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK39904"
+		}
 	},
 	[1801] = {
 		mask = "bg/bg_daofeng_3",
@@ -19834,7 +24224,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN1",
 		id = 1801,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN1"
+		}
 	},
 	[1802] = {
 		mask = "bg/bg_daofeng_3",
@@ -19845,7 +24238,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN2",
 		id = 1802,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN2"
+		}
 	},
 	[1803] = {
 		mask = "bg/bg_daofeng_3",
@@ -19856,7 +24252,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN3",
 		id = 1803,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN3"
+		}
 	},
 	[1804] = {
 		mask = "bg/bg_daofeng_3",
@@ -19867,7 +24266,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN4",
 		id = 1804,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN4"
+		}
 	},
 	[1805] = {
 		mask = "bg/bg_daofeng_3",
@@ -19878,7 +24280,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN5",
 		id = 1805,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN5"
+		}
 	},
 	[1806] = {
 		mask = "bg/bg_daofeng_3",
@@ -19889,7 +24294,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN6",
 		id = 1806,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN6"
+		}
 	},
 	[1807] = {
 		mask = "bg/bg_daofeng_3",
@@ -19900,7 +24308,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN7",
 		id = 1807,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN7"
+		}
 	},
 	[1808] = {
 		mask = "bg/bg_daofeng_3",
@@ -19911,7 +24322,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN8",
 		id = 1808,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN8"
+		}
 	},
 	[1809] = {
 		mask = "bg/bg_daofeng_3",
@@ -19922,7 +24336,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN9",
 		id = 1809,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN9"
+		}
 	},
 	[1810] = {
 		mask = "bg/bg_daofeng_3",
@@ -19933,7 +24350,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN10",
 		id = 1810,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN10"
+		}
 	},
 	[1811] = {
 		mask = "bg/bg_daofeng_3",
@@ -19944,7 +24364,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN11",
 		id = 1811,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN11"
+		}
 	},
 	[1812] = {
 		mask = "bg/bg_daofeng_3",
@@ -19955,7 +24378,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN12",
 		id = 1812,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN12"
+		}
 	},
 	[1813] = {
 		mask = "bg/bg_daofeng_3",
@@ -19966,7 +24392,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN13",
 		id = 1813,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN13"
+		}
 	},
 	[1814] = {
 		mask = "bg/bg_daofeng_3",
@@ -19977,7 +24406,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN14",
 		id = 1814,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN14"
+		}
 	},
 	[1815] = {
 		mask = "bg/bg_daofeng_3",
@@ -19988,7 +24420,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN15",
 		id = 1815,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN15"
+		}
 	},
 	[1816] = {
 		mask = "bg/bg_daofeng_3",
@@ -19999,7 +24434,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN16",
 		id = 1816,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN16"
+		}
 	},
 	[1817] = {
 		mask = "bg/bg_daofeng_4",
@@ -20010,7 +24448,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN17",
 		id = 1817,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN17"
+		}
 	},
 	[1818] = {
 		mask = "bg/bg_daofeng_4",
@@ -20021,7 +24462,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN18",
 		id = 1818,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN18"
+		}
 	},
 	[1819] = {
 		mask = "bg/bg_daofeng_4",
@@ -20032,7 +24476,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN19",
 		id = 1819,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN19"
+		}
 	},
 	[1820] = {
 		mask = "bg/bg_daofeng_4",
@@ -20043,7 +24490,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN20",
 		id = 1820,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN20"
+		}
 	},
 	[1821] = {
 		mask = "bg/bg_daofeng_4",
@@ -20054,7 +24504,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN21",
 		id = 1821,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN21"
+		}
 	},
 	[1822] = {
 		mask = "bg/bg_daofeng_4",
@@ -20065,7 +24518,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN22",
 		id = 1822,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN22"
+		}
 	},
 	[1823] = {
 		mask = "bg/bg_daofeng_4",
@@ -20076,7 +24532,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN23",
 		id = 1823,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN23"
+		}
 	},
 	[1824] = {
 		mask = "bg/bg_daofeng_4",
@@ -20087,7 +24546,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN24",
 		id = 1824,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN24"
+		}
 	},
 	[1825] = {
 		mask = "bg/bg_daofeng_4",
@@ -20098,7 +24560,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN25",
 		id = 1825,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN25"
+		}
 	},
 	[1826] = {
 		mask = "bg/bg_daofeng_4",
@@ -20109,7 +24574,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN26",
 		id = 1826,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN26"
+		}
 	},
 	[1827] = {
 		mask = "bg/bg_daofeng_4",
@@ -20120,7 +24588,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN27",
 		id = 1827,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN27"
+		}
 	},
 	[1828] = {
 		mask = "bg/bg_daofeng_4",
@@ -20131,7 +24602,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN28",
 		id = 1828,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN28"
+		}
 	},
 	[1829] = {
 		mask = "bg/bg_daofeng_4",
@@ -20142,7 +24616,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN29",
 		id = 1829,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN29"
+		}
 	},
 	[1830] = {
 		mask = "bg/bg_daofeng_4",
@@ -20153,7 +24630,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN30",
 		id = 1830,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN30"
+		}
 	},
 	[1831] = {
 		mask = "bg/bg_daofeng_4",
@@ -20164,7 +24644,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN31",
 		id = 1831,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN31"
+		}
 	},
 	[1832] = {
 		mask = "bg/bg_daofeng_4",
@@ -20175,7 +24658,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN32",
 		id = 1832,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN32"
+		}
 	},
 	[1833] = {
 		mask = "bg/bg_daofeng_4",
@@ -20186,7 +24672,10 @@ pg.base.memory_template = {
 		story = "1566001",
 		id = 1833,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1566001"
+		}
 	},
 	[1834] = {
 		mask = "bg/bg_daofeng_4",
@@ -20197,7 +24686,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN34",
 		id = 1834,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN34"
+		}
 	},
 	[1835] = {
 		mask = "bg/bg_daofeng_4",
@@ -20208,7 +24700,10 @@ pg.base.memory_template = {
 		story = "BIHAIGUANGLIN35",
 		id = 1835,
 		icon = "memory_bihaiguanglin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIHAIGUANGLIN35"
+		}
 	},
 	[1841] = {
 		mask = "bg/bg_memory",
@@ -20219,7 +24714,10 @@ pg.base.memory_template = {
 		story = "MABUERHEIDE1",
 		id = 1841,
 		icon = "memory_mabuerheide",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MABUERHEIDE1"
+		}
 	},
 	[1842] = {
 		mask = "bg/bg_memory",
@@ -20230,7 +24728,10 @@ pg.base.memory_template = {
 		story = "MABUERHEIDE2",
 		id = 1842,
 		icon = "memory_mabuerheide",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MABUERHEIDE2"
+		}
 	},
 	[1843] = {
 		mask = "bg/bg_memory",
@@ -20241,7 +24742,10 @@ pg.base.memory_template = {
 		story = "MABUERHEIDE3",
 		id = 1843,
 		icon = "memory_mabuerheide",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MABUERHEIDE3"
+		}
 	},
 	[1844] = {
 		mask = "bg/bg_memory",
@@ -20252,7 +24756,10 @@ pg.base.memory_template = {
 		story = "MABUERHEIDE4",
 		id = 1844,
 		icon = "memory_mabuerheide",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MABUERHEIDE4"
+		}
 	},
 	[1845] = {
 		mask = "bg/bg_memory",
@@ -20263,7 +24770,10 @@ pg.base.memory_template = {
 		story = "MABUERHEIDE5",
 		id = 1845,
 		icon = "memory_mabuerheide",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MABUERHEIDE5"
+		}
 	},
 	[1846] = {
 		mask = "bg/bg_memory",
@@ -20274,7 +24784,10 @@ pg.base.memory_template = {
 		story = "MABUERHEIDE6",
 		id = 1846,
 		icon = "memory_mabuerheide",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MABUERHEIDE6"
+		}
 	},
 	[1847] = {
 		mask = "bg/bg_memory",
@@ -20285,7 +24798,10 @@ pg.base.memory_template = {
 		story = "MABUERHEIDE7",
 		id = 1847,
 		icon = "memory_mabuerheide",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MABUERHEIDE7"
+		}
 	},
 	[1851] = {
 		mask = "bg/bg_memory",
@@ -20296,7 +24812,10 @@ pg.base.memory_template = {
 		story = "DAOFENG1",
 		id = 1851,
 		icon = "memory_daofeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAOFENG1"
+		}
 	},
 	[1852] = {
 		mask = "bg/bg_memory",
@@ -20307,7 +24826,10 @@ pg.base.memory_template = {
 		story = "DAOFENG2",
 		id = 1852,
 		icon = "memory_daofeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAOFENG2"
+		}
 	},
 	[1853] = {
 		mask = "bg/bg_memory",
@@ -20318,7 +24840,10 @@ pg.base.memory_template = {
 		story = "DAOFENG3",
 		id = 1853,
 		icon = "memory_daofeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAOFENG3"
+		}
 	},
 	[1854] = {
 		mask = "bg/bg_memory",
@@ -20329,7 +24854,10 @@ pg.base.memory_template = {
 		story = "DAOFENG4",
 		id = 1854,
 		icon = "memory_daofeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAOFENG4"
+		}
 	},
 	[1855] = {
 		mask = "bg/bg_memory",
@@ -20340,7 +24868,10 @@ pg.base.memory_template = {
 		story = "DAOFENG5",
 		id = 1855,
 		icon = "memory_daofeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAOFENG5"
+		}
 	},
 	[1856] = {
 		mask = "bg/bg_memory",
@@ -20351,7 +24882,10 @@ pg.base.memory_template = {
 		story = "DAOFENG6",
 		id = 1856,
 		icon = "memory_daofeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAOFENG6"
+		}
 	},
 	[1857] = {
 		mask = "bg/bg_memory",
@@ -20362,7 +24896,10 @@ pg.base.memory_template = {
 		story = "DAOFENG7",
 		id = 1857,
 		icon = "memory_daofeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAOFENG7"
+		}
 	},
 	[1861] = {
 		mask = "bg/bg_memory",
@@ -20373,7 +24910,10 @@ pg.base.memory_template = {
 		story = "JUNHE1",
 		id = 1861,
 		icon = "memory_junhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHE1"
+		}
 	},
 	[1862] = {
 		mask = "bg/bg_memory",
@@ -20384,7 +24924,10 @@ pg.base.memory_template = {
 		story = "JUNHE2",
 		id = 1862,
 		icon = "memory_junhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHE2"
+		}
 	},
 	[1863] = {
 		mask = "bg/bg_memory",
@@ -20395,7 +24938,10 @@ pg.base.memory_template = {
 		story = "JUNHE3",
 		id = 1863,
 		icon = "memory_junhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHE3"
+		}
 	},
 	[1864] = {
 		mask = "bg/bg_memory",
@@ -20406,7 +24952,10 @@ pg.base.memory_template = {
 		story = "JUNHE4",
 		id = 1864,
 		icon = "memory_junhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHE4"
+		}
 	},
 	[1865] = {
 		mask = "bg/bg_memory",
@@ -20417,7 +24966,10 @@ pg.base.memory_template = {
 		story = "JUNHE5",
 		id = 1865,
 		icon = "memory_junhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHE5"
+		}
 	},
 	[1866] = {
 		mask = "bg/bg_memory",
@@ -20428,7 +24980,10 @@ pg.base.memory_template = {
 		story = "JUNHE6",
 		id = 1866,
 		icon = "memory_junhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHE6"
+		}
 	},
 	[1867] = {
 		mask = "bg/bg_memory",
@@ -20439,7 +24994,10 @@ pg.base.memory_template = {
 		story = "JUNHE7",
 		id = 1867,
 		icon = "memory_junhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUNHE7"
+		}
 	},
 	[1877] = {
 		mask = "bg/bg_memory",
@@ -20450,7 +25008,10 @@ pg.base.memory_template = {
 		story = "RENQIAIDANG",
 		id = 1877,
 		icon = "memory_renqiaidang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIAIDANG"
+		}
 	},
 	[1881] = {
 		mask = "bg/bg_renaya",
@@ -20461,7 +25022,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO1",
 		id = 1881,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO1"
+		}
 	},
 	[1882] = {
 		mask = "bg/bg_renaya",
@@ -20472,7 +25036,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO2",
 		id = 1882,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO2"
+		}
 	},
 	[1883] = {
 		mask = "bg/bg_renaya",
@@ -20483,7 +25050,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO3",
 		id = 1883,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO3"
+		}
 	},
 	[1884] = {
 		mask = "bg/bg_renaya",
@@ -20494,7 +25064,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO4",
 		id = 1884,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO4"
+		}
 	},
 	[1885] = {
 		mask = "bg/bg_renaya",
@@ -20505,7 +25078,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO5",
 		id = 1885,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO5"
+		}
 	},
 	[1886] = {
 		mask = "bg/bg_renaya",
@@ -20516,7 +25092,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO6",
 		id = 1886,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO6"
+		}
 	},
 	[1887] = {
 		mask = "bg/bg_renaya",
@@ -20527,7 +25106,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO7",
 		id = 1887,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO7"
+		}
 	},
 	[1888] = {
 		mask = "bg/bg_renaya",
@@ -20538,7 +25120,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO8",
 		id = 1888,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO8"
+		}
 	},
 	[1889] = {
 		mask = "bg/bg_renaya",
@@ -20549,7 +25134,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO9",
 		id = 1889,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO9"
+		}
 	},
 	[1890] = {
 		mask = "bg/bg_renaya",
@@ -20560,7 +25148,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO10",
 		id = 1890,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO10"
+		}
 	},
 	[1891] = {
 		mask = "bg/bg_renaya",
@@ -20571,7 +25162,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO11",
 		id = 1891,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO11"
+		}
 	},
 	[1892] = {
 		mask = "bg/bg_renaya",
@@ -20582,7 +25176,10 @@ pg.base.memory_template = {
 		story = "JIENUOWADEYANHUO12",
 		id = 1892,
 		icon = "memory_jienuowadeyanhuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIENUOWADEYANHUO12"
+		}
 	},
 	[1896] = {
 		mask = "bg/bg_ssss_1",
@@ -20593,7 +25190,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA1",
 		id = 1896,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA1"
+		}
 	},
 	[1897] = {
 		mask = "bg/bg_ssss_1",
@@ -20604,7 +25204,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA2",
 		id = 1897,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA2"
+		}
 	},
 	[1898] = {
 		mask = "bg/bg_ssss_1",
@@ -20615,7 +25218,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA3",
 		id = 1898,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA3"
+		}
 	},
 	[1899] = {
 		mask = "bg/bg_ssss_1",
@@ -20626,7 +25232,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA4",
 		id = 1899,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA4"
+		}
 	},
 	[1900] = {
 		mask = "bg/bg_ssss_1",
@@ -20637,7 +25246,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA5",
 		id = 1900,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA5"
+		}
 	},
 	[1901] = {
 		mask = "bg/bg_ssss_1",
@@ -20648,7 +25260,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA6",
 		id = 1901,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA6"
+		}
 	},
 	[1902] = {
 		mask = "bg/bg_ssss_1",
@@ -20659,7 +25274,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA7",
 		id = 1902,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA7"
+		}
 	},
 	[1903] = {
 		mask = "bg/bg_ssss_1",
@@ -20670,7 +25288,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA8",
 		id = 1903,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA8"
+		}
 	},
 	[1904] = {
 		mask = "bg/bg_ssss_1",
@@ -20681,7 +25302,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA9",
 		id = 1904,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA9"
+		}
 	},
 	[1905] = {
 		mask = "bg/bg_ssss_1",
@@ -20692,7 +25316,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA10",
 		id = 1905,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA10"
+		}
 	},
 	[1906] = {
 		mask = "bg/bg_ssss_1",
@@ -20703,7 +25330,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA11",
 		id = 1906,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA11"
+		}
 	},
 	[1907] = {
 		mask = "bg/bg_ssss_1",
@@ -20714,7 +25344,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA12",
 		id = 1907,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA12"
+		}
 	},
 	[1908] = {
 		mask = "bg/bg_ssss_1",
@@ -20725,7 +25358,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA13",
 		id = 1908,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA13"
+		}
 	},
 	[1909] = {
 		mask = "bg/bg_ssss_1",
@@ -20736,7 +25372,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA14",
 		id = 1909,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA14"
+		}
 	},
 	[1910] = {
 		mask = "bg/bg_ssss_1",
@@ -20747,7 +25386,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA15",
 		id = 1910,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA15"
+		}
 	},
 	[1911] = {
 		mask = "bg/bg_ssss_1",
@@ -20758,7 +25400,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA16",
 		id = 1911,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA16"
+		}
 	},
 	[1912] = {
 		mask = "bg/bg_ssss_1",
@@ -20769,7 +25414,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA17",
 		id = 1912,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA17"
+		}
 	},
 	[1913] = {
 		mask = "bg/bg_ssss_1",
@@ -20780,7 +25428,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA18",
 		id = 1913,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA18"
+		}
 	},
 	[1914] = {
 		mask = "bg/bg_ssss_1",
@@ -20791,7 +25442,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA19",
 		id = 1914,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA19"
+		}
 	},
 	[1915] = {
 		mask = "bg/bg_ssss_1",
@@ -20802,7 +25456,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA20",
 		id = 1915,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA20"
+		}
 	},
 	[1916] = {
 		mask = "bg/bg_ssss_1",
@@ -20813,7 +25470,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA21",
 		id = 1916,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA21"
+		}
 	},
 	[1917] = {
 		mask = "bg/bg_ssss_1",
@@ -20824,7 +25484,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA22",
 		id = 1917,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA22"
+		}
 	},
 	[1918] = {
 		mask = "bg/bg_ssss_1",
@@ -20835,7 +25498,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA23",
 		id = 1918,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA23"
+		}
 	},
 	[1919] = {
 		mask = "bg/bg_ssss_1",
@@ -20846,7 +25512,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA24",
 		id = 1919,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA24"
+		}
 	},
 	[1920] = {
 		mask = "bg/bg_ssss_1",
@@ -20857,7 +25526,10 @@ pg.base.memory_template = {
 		story = "GULITEGUANQIA25",
 		id = 1920,
 		icon = "memory_jiaohuishijiedehuguang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITEGUANQIA25"
+		}
 	},
 	[1921] = {
 		mask = "bg/bg_memory",
@@ -20868,7 +25540,10 @@ pg.base.memory_template = {
 		story = "GULITERICHANG1",
 		id = 1921,
 		icon = "memory_jiaohuishijiedehuguangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITERICHANG1"
+		}
 	},
 	[1922] = {
 		mask = "bg/bg_memory",
@@ -20879,7 +25554,10 @@ pg.base.memory_template = {
 		story = "GULITERICHANG2",
 		id = 1922,
 		icon = "memory_jiaohuishijiedehuguangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITERICHANG2"
+		}
 	},
 	[1923] = {
 		mask = "bg/bg_memory",
@@ -20890,7 +25568,10 @@ pg.base.memory_template = {
 		story = "GULITERICHANG3",
 		id = 1923,
 		icon = "memory_jiaohuishijiedehuguangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITERICHANG3"
+		}
 	},
 	[1924] = {
 		mask = "bg/bg_memory",
@@ -20901,7 +25582,10 @@ pg.base.memory_template = {
 		story = "GULITERICHANG4",
 		id = 1924,
 		icon = "memory_jiaohuishijiedehuguangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GULITERICHANG4"
+		}
 	},
 	[1926] = {
 		mask = "bg/bg_memory",
@@ -20912,7 +25596,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA1",
 		id = 1926,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA1"
+		}
 	},
 	[1927] = {
 		mask = "bg/bg_memory",
@@ -20923,7 +25610,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA2",
 		id = 1927,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA2"
+		}
 	},
 	[1928] = {
 		mask = "bg/bg_memory",
@@ -20934,7 +25624,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA3",
 		id = 1928,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA3"
+		}
 	},
 	[1929] = {
 		mask = "bg/bg_memory",
@@ -20945,7 +25638,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA4",
 		id = 1929,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA4"
+		}
 	},
 	[1930] = {
 		mask = "bg/bg_memory",
@@ -20956,7 +25652,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA5",
 		id = 1930,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA5"
+		}
 	},
 	[1931] = {
 		mask = "bg/bg_memory",
@@ -20967,7 +25666,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA6",
 		id = 1931,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA6"
+		}
 	},
 	[1932] = {
 		mask = "bg/bg_memory",
@@ -20978,7 +25680,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA7",
 		id = 1932,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA7"
+		}
 	},
 	[1933] = {
 		mask = "bg/bg_memory",
@@ -20989,7 +25694,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA8",
 		id = 1933,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA8"
+		}
 	},
 	[1934] = {
 		mask = "bg/bg_memory",
@@ -21000,7 +25708,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA9",
 		id = 1934,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA9"
+		}
 	},
 	[1935] = {
 		mask = "bg/bg_memory",
@@ -21011,7 +25722,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA10",
 		id = 1935,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA10"
+		}
 	},
 	[1936] = {
 		mask = "bg/bg_memory",
@@ -21022,7 +25736,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA11",
 		id = 1936,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA11"
+		}
 	},
 	[1937] = {
 		mask = "bg/bg_memory",
@@ -21033,7 +25750,10 @@ pg.base.memory_template = {
 		story = "TANSUANYUHONGCHA12",
 		id = 1937,
 		icon = "memory_tansuanyuhongcha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TANSUANYUHONGCHA12"
+		}
 	},
 	[1941] = {
 		mask = "bg/bg_midgard_2",
@@ -21044,7 +25764,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA1",
 		id = 1941,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA1"
+		}
 	},
 	[1942] = {
 		mask = "bg/bg_midgard_2",
@@ -21055,7 +25778,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA2",
 		id = 1942,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA2"
+		}
 	},
 	[1943] = {
 		mask = "bg/bg_midgard_2",
@@ -21066,7 +25792,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA3",
 		id = 1943,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA3"
+		}
 	},
 	[1944] = {
 		mask = "bg/bg_midgard_2",
@@ -21077,7 +25806,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA4",
 		id = 1944,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA4"
+		}
 	},
 	[1945] = {
 		mask = "bg/bg_midgard_2",
@@ -21088,7 +25820,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA5",
 		id = 1945,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA5"
+		}
 	},
 	[1946] = {
 		mask = "bg/bg_midgard_2",
@@ -21099,7 +25834,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA6",
 		id = 1946,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA6"
+		}
 	},
 	[1947] = {
 		mask = "bg/bg_midgard_3",
@@ -21110,7 +25848,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA7",
 		id = 1947,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA7"
+		}
 	},
 	[1948] = {
 		mask = "bg/bg_midgard_3",
@@ -21121,7 +25862,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA8",
 		id = 1948,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA8"
+		}
 	},
 	[1949] = {
 		mask = "bg/bg_midgard_3",
@@ -21132,7 +25876,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA9",
 		id = 1949,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA9"
+		}
 	},
 	[1950] = {
 		mask = "bg/bg_midgard_3",
@@ -21143,7 +25890,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA10",
 		id = 1950,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA10"
+		}
 	},
 	[1951] = {
 		mask = "bg/bg_midgard_3",
@@ -21154,7 +25904,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA11",
 		id = 1951,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA11"
+		}
 	},
 	[1952] = {
 		mask = "bg/bg_midgard_3",
@@ -21165,7 +25918,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA12",
 		id = 1952,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA12"
+		}
 	},
 	[1953] = {
 		mask = "bg/bg_midgard_3",
@@ -21176,7 +25932,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA13",
 		id = 1953,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA13"
+		}
 	},
 	[1954] = {
 		mask = "bg/bg_midgard_3",
@@ -21187,7 +25946,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA14",
 		id = 1954,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA14"
+		}
 	},
 	[1955] = {
 		mask = "bg/bg_midgard_3",
@@ -21198,7 +25960,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA15",
 		id = 1955,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA15"
+		}
 	},
 	[1956] = {
 		mask = "bg/bg_midgard_3",
@@ -21209,7 +25974,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA16",
 		id = 1956,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA16"
+		}
 	},
 	[1957] = {
 		mask = "bg/bg_midgard_3",
@@ -21220,7 +25988,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA17",
 		id = 1957,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA17"
+		}
 	},
 	[1958] = {
 		mask = "bg/bg_midgard_3",
@@ -21231,7 +26002,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA18",
 		id = 1958,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA18"
+		}
 	},
 	[1959] = {
 		mask = "bg/bg_midgard_3",
@@ -21242,7 +26016,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA19",
 		id = 1959,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA19"
+		}
 	},
 	[1960] = {
 		mask = "bg/bg_midgard_3",
@@ -21253,7 +26030,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA20",
 		id = 1960,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA20"
+		}
 	},
 	[1961] = {
 		mask = "bg/bg_midgard_3",
@@ -21264,7 +26044,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA21",
 		id = 1961,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA21"
+		}
 	},
 	[1962] = {
 		mask = "bg/bg_midgard_3",
@@ -21275,7 +26058,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA22",
 		id = 1962,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA22"
+		}
 	},
 	[1963] = {
 		mask = "bg/bg_midgard_3",
@@ -21286,7 +26072,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA23",
 		id = 1963,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA23"
+		}
 	},
 	[1964] = {
 		mask = "bg/bg_midgard_3",
@@ -21297,7 +26086,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA24",
 		id = 1964,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA24"
+		}
 	},
 	[1965] = {
 		mask = "bg/bg_midgard_3",
@@ -21308,7 +26100,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA25",
 		id = 1965,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA25"
+		}
 	},
 	[1966] = {
 		mask = "bg/bg_midgard_6",
@@ -21319,7 +26114,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA26",
 		id = 1966,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA26"
+		}
 	},
 	[1967] = {
 		mask = "bg/bg_midgard_6",
@@ -21330,7 +26128,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA27",
 		id = 1967,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA27"
+		}
 	},
 	[1968] = {
 		mask = "bg/bg_midgard_6",
@@ -21341,7 +26142,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA28",
 		id = 1968,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA28"
+		}
 	},
 	[1969] = {
 		mask = "bg/bg_midgard_6",
@@ -21352,7 +26156,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA29",
 		id = 1969,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA29"
+		}
 	},
 	[1970] = {
 		mask = "bg/bg_midgard_6",
@@ -21363,7 +26170,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA30",
 		id = 1970,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA30"
+		}
 	},
 	[1971] = {
 		mask = "bg/bg_midgard_6",
@@ -21374,7 +26184,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA31",
 		id = 1971,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA31"
+		}
 	},
 	[1972] = {
 		mask = "bg/bg_midgard_6",
@@ -21385,7 +26198,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA32",
 		id = 1972,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA32"
+		}
 	},
 	[1973] = {
 		mask = "bg/bg_midgard_6",
@@ -21396,7 +26212,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA33",
 		id = 1973,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA33"
+		}
 	},
 	[1974] = {
 		mask = "bg/bg_midgard_6",
@@ -21407,7 +26226,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA34",
 		id = 1974,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA34"
+		}
 	},
 	[1975] = {
 		mask = "bg/bg_midgard_6",
@@ -21418,7 +26240,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA35",
 		id = 1975,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA35"
+		}
 	},
 	[1976] = {
 		mask = "bg/bg_midgard_6",
@@ -21429,7 +26254,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA36",
 		id = 1976,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA36"
+		}
 	},
 	[1977] = {
 		mask = "bg/bg_midgard_6",
@@ -21440,7 +26268,10 @@ pg.base.memory_template = {
 		story = "NIZHUANCAIHONGZHITA37",
 		id = 1977,
 		icon = "memory_nizhuancaihongzhita",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NIZHUANCAIHONGZHITA37"
+		}
 	},
 	[1980] = {
 		mask = "bg/bg_memory",
@@ -21451,7 +26282,10 @@ pg.base.memory_template = {
 		story = "BULISITUOERBOSS1",
 		id = 1980,
 		icon = "memory_bulisituoershijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULISITUOERBOSS1"
+		}
 	},
 	[1981] = {
 		mask = "bg/bg_memory",
@@ -21462,7 +26296,10 @@ pg.base.memory_template = {
 		story = "BULISITUOERBOSS2",
 		id = 1981,
 		icon = "memory_bulisituoershijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULISITUOERBOSS2"
+		}
 	},
 	[1982] = {
 		mask = "bg/bg_memory",
@@ -21473,7 +26310,10 @@ pg.base.memory_template = {
 		story = "BULISITUOERBOSS3",
 		id = 1982,
 		icon = "memory_bulisituoershijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULISITUOERBOSS3"
+		}
 	},
 	[1983] = {
 		mask = "bg/bg_memory",
@@ -21484,7 +26324,10 @@ pg.base.memory_template = {
 		story = "BULISITUOERBOSS4",
 		id = 1983,
 		icon = "memory_bulisituoershijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULISITUOERBOSS4"
+		}
 	},
 	[1984] = {
 		mask = "bg/bg_memory",
@@ -21495,7 +26338,10 @@ pg.base.memory_template = {
 		story = "BULISITUOERBOSS5",
 		id = 1984,
 		icon = "memory_bulisituoershijieboss",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULISITUOERBOSS5"
+		}
 	},
 	[1985] = {
 		mask = "bg/bg_memory",
@@ -21506,7 +26352,10 @@ pg.base.memory_template = {
 		story = "CHUNJIEYOUYUANSHEYINGHUI1",
 		id = 1985,
 		icon = "memory_chunjieyouyuansheyinghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUNJIEYOUYUANSHEYINGHUI1"
+		}
 	},
 	[1986] = {
 		mask = "bg/bg_memory",
@@ -21517,7 +26366,10 @@ pg.base.memory_template = {
 		story = "CHUNJIEYOUYUANSHEYINGHUI2",
 		id = 1986,
 		icon = "memory_chunjieyouyuansheyinghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUNJIEYOUYUANSHEYINGHUI2"
+		}
 	},
 	[1987] = {
 		mask = "bg/bg_memory",
@@ -21528,7 +26380,10 @@ pg.base.memory_template = {
 		story = "CHUNJIEYOUYUANSHEYINGHUI3",
 		id = 1987,
 		icon = "memory_chunjieyouyuansheyinghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUNJIEYOUYUANSHEYINGHUI3"
+		}
 	},
 	[1988] = {
 		mask = "bg/bg_memory",
@@ -21539,7 +26394,10 @@ pg.base.memory_template = {
 		story = "CHUNJIEYOUYUANSHEYINGHUI4",
 		id = 1988,
 		icon = "memory_chunjieyouyuansheyinghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUNJIEYOUYUANSHEYINGHUI4"
+		}
 	},
 	[1989] = {
 		mask = "bg/bg_memory",
@@ -21550,7 +26408,10 @@ pg.base.memory_template = {
 		story = "CHUNJIEYOUYUANSHEYINGHUI5",
 		id = 1989,
 		icon = "memory_chunjieyouyuansheyinghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUNJIEYOUYUANSHEYINGHUI5"
+		}
 	},
 	[1990] = {
 		mask = "bg/bg_memory",
@@ -21561,7 +26422,10 @@ pg.base.memory_template = {
 		story = "CHUNJIEYOUYUANSHEYINGHUI6",
 		id = 1990,
 		icon = "memory_chunjieyouyuansheyinghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUNJIEYOUYUANSHEYINGHUI6"
+		}
 	},
 	[1991] = {
 		mask = "bg/bg_memory",
@@ -21572,7 +26436,10 @@ pg.base.memory_template = {
 		story = "CHUNJIEYOUYUANSHEYINGHUI7",
 		id = 1991,
 		icon = "memory_chunjieyouyuansheyinghui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHUNJIEYOUYUANSHEYINGHUI7"
+		}
 	},
 	[1995] = {
 		mask = "bg/bg_memory",
@@ -21583,7 +26450,10 @@ pg.base.memory_template = {
 		story = "WUERLIXI1",
 		id = 1995,
 		icon = "memory_wuerlixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WUERLIXI1"
+		}
 	},
 	[1996] = {
 		mask = "bg/bg_memory",
@@ -21594,7 +26464,10 @@ pg.base.memory_template = {
 		story = "WUERLIXI2",
 		id = 1996,
 		icon = "memory_wuerlixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WUERLIXI2"
+		}
 	},
 	[1997] = {
 		mask = "bg/bg_memory",
@@ -21605,7 +26478,10 @@ pg.base.memory_template = {
 		story = "WUERLIXI3",
 		id = 1997,
 		icon = "memory_wuerlixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WUERLIXI3"
+		}
 	},
 	[1998] = {
 		mask = "bg/bg_memory",
@@ -21616,7 +26492,10 @@ pg.base.memory_template = {
 		story = "WUERLIXI4",
 		id = 1998,
 		icon = "memory_wuerlixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WUERLIXI4"
+		}
 	},
 	[1999] = {
 		mask = "bg/bg_memory",
@@ -21627,7 +26506,10 @@ pg.base.memory_template = {
 		story = "WUERLIXI5",
 		id = 1999,
 		icon = "memory_wuerlixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WUERLIXI5"
+		}
 	},
 	[2000] = {
 		mask = "bg/bg_memory",
@@ -21638,7 +26520,10 @@ pg.base.memory_template = {
 		story = "WUERLIXI6",
 		id = 2000,
 		icon = "memory_wuerlixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WUERLIXI6"
+		}
 	},
 	[2001] = {
 		mask = "bg/bg_memory",
@@ -21649,7 +26534,10 @@ pg.base.memory_template = {
 		story = "WUERLIXI7",
 		id = 2001,
 		icon = "memory_wuerlixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WUERLIXI7"
+		}
 	},
 	[2002] = {
 		mask = "bg/bg_memory",
@@ -21660,7 +26548,10 @@ pg.base.memory_template = {
 		story = "LIMINGZHIAN1",
 		id = 2002,
 		icon = "memory_limingzhian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIMINGZHIAN1"
+		}
 	},
 	[2003] = {
 		mask = "bg/bg_memory",
@@ -21671,7 +26562,10 @@ pg.base.memory_template = {
 		story = "LIMINGZHIAN2",
 		id = 2003,
 		icon = "memory_limingzhian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIMINGZHIAN2"
+		}
 	},
 	[2004] = {
 		mask = "bg/bg_memory",
@@ -21682,7 +26576,10 @@ pg.base.memory_template = {
 		story = "LIMINGZHIAN3",
 		id = 2004,
 		icon = "memory_limingzhian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIMINGZHIAN3"
+		}
 	},
 	[2005] = {
 		mask = "bg/bg_memory",
@@ -21693,7 +26590,10 @@ pg.base.memory_template = {
 		story = "LIMINGZHIAN4",
 		id = 2005,
 		icon = "memory_limingzhian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIMINGZHIAN4"
+		}
 	},
 	[2006] = {
 		mask = "bg/bg_deepecho_1",
@@ -21704,7 +26604,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN1",
 		id = 2006,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN1"
+		}
 	},
 	[2007] = {
 		mask = "bg/bg_deepecho_1",
@@ -21715,7 +26618,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN2",
 		id = 2007,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN2"
+		}
 	},
 	[2008] = {
 		mask = "bg/bg_deepecho_1",
@@ -21726,7 +26632,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN3",
 		id = 2008,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN3"
+		}
 	},
 	[2009] = {
 		mask = "bg/bg_deepecho_1",
@@ -21737,7 +26646,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN4",
 		id = 2009,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN4"
+		}
 	},
 	[2010] = {
 		mask = "bg/bg_deepecho_1",
@@ -21748,7 +26660,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN5",
 		id = 2010,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN5"
+		}
 	},
 	[2011] = {
 		mask = "bg/bg_deepecho_1",
@@ -21759,7 +26674,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN6",
 		id = 2011,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN6"
+		}
 	},
 	[2012] = {
 		mask = "bg/bg_deepecho_1",
@@ -21770,7 +26688,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN7",
 		id = 2012,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN7"
+		}
 	},
 	[2013] = {
 		mask = "bg/bg_deepecho_1",
@@ -21781,7 +26702,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN8",
 		id = 2013,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN8"
+		}
 	},
 	[2014] = {
 		mask = "bg/bg_deepecho_1",
@@ -21792,7 +26716,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN9",
 		id = 2014,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN9"
+		}
 	},
 	[2015] = {
 		mask = "bg/bg_deepecho_1",
@@ -21803,7 +26730,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN10",
 		id = 2015,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN10"
+		}
 	},
 	[2016] = {
 		mask = "bg/bg_deepecho_1",
@@ -21814,7 +26744,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN11",
 		id = 2016,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN11"
+		}
 	},
 	[2017] = {
 		mask = "bg/bg_deepecho_1",
@@ -21825,7 +26758,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN12",
 		id = 2017,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN12"
+		}
 	},
 	[2018] = {
 		mask = "bg/bg_deepecho_1",
@@ -21836,7 +26772,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN13",
 		id = 2018,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN13"
+		}
 	},
 	[2019] = {
 		mask = "bg/bg_deepecho_1",
@@ -21847,7 +26786,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN14",
 		id = 2019,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN14"
+		}
 	},
 	[2020] = {
 		mask = "bg/bg_deepecho_1",
@@ -21858,7 +26800,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN15",
 		id = 2020,
 		icon = "memory_shenduhuiyin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN15"
+		}
 	},
 	[2021] = {
 		mask = "bg/bg_deepecho_12",
@@ -21869,7 +26814,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN16",
 		id = 2021,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN16"
+		}
 	},
 	[2022] = {
 		mask = "bg/bg_deepecho_12",
@@ -21880,7 +26828,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN17",
 		id = 2022,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN17"
+		}
 	},
 	[2023] = {
 		mask = "bg/bg_deepecho_12",
@@ -21891,7 +26842,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN18",
 		id = 2023,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN18"
+		}
 	},
 	[2024] = {
 		mask = "bg/bg_deepecho_12",
@@ -21902,7 +26856,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN19",
 		id = 2024,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN19"
+		}
 	},
 	[2025] = {
 		mask = "bg/bg_deepecho_12",
@@ -21913,7 +26870,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN20",
 		id = 2025,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN20"
+		}
 	},
 	[2026] = {
 		mask = "bg/bg_deepecho_12",
@@ -21924,7 +26884,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN21",
 		id = 2026,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN21"
+		}
 	},
 	[2027] = {
 		mask = "bg/bg_deepecho_12",
@@ -21935,7 +26898,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN22",
 		id = 2027,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN22"
+		}
 	},
 	[2028] = {
 		mask = "bg/bg_deepecho_12",
@@ -21946,7 +26912,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN23",
 		id = 2028,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN23"
+		}
 	},
 	[2029] = {
 		mask = "bg/bg_deepecho_12",
@@ -21957,7 +26926,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN24",
 		id = 2029,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN24"
+		}
 	},
 	[2030] = {
 		mask = "bg/bg_deepecho_12",
@@ -21968,7 +26940,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN25",
 		id = 2030,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN25"
+		}
 	},
 	[2031] = {
 		mask = "bg/bg_deepecho_12",
@@ -21979,7 +26954,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN26",
 		id = 2031,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN26"
+		}
 	},
 	[2032] = {
 		mask = "bg/bg_deepecho_12",
@@ -21990,7 +26968,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN27",
 		id = 2032,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN27"
+		}
 	},
 	[2033] = {
 		mask = "bg/bg_deepecho_12",
@@ -22001,7 +26982,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN28",
 		id = 2033,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN28"
+		}
 	},
 	[2034] = {
 		mask = "bg/bg_deepecho_12",
@@ -22012,7 +26996,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN29",
 		id = 2034,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN29"
+		}
 	},
 	[2035] = {
 		mask = "bg/bg_deepecho_12",
@@ -22023,7 +27010,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN30",
 		id = 2035,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN30"
+		}
 	},
 	[2036] = {
 		mask = "bg/bg_deepecho_12",
@@ -22034,7 +27024,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN31",
 		id = 2036,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN31"
+		}
 	},
 	[2037] = {
 		mask = "bg/bg_deepecho_12",
@@ -22045,7 +27038,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN32",
 		id = 2037,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN32"
+		}
 	},
 	[2038] = {
 		mask = "bg/bg_deepecho_12",
@@ -22056,7 +27052,10 @@ pg.base.memory_template = {
 		story = "SHENDUHUIYIN33",
 		id = 2038,
 		icon = "memory_shenduhuiyin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENDUHUIYIN33"
+		}
 	},
 	[2041] = {
 		mask = "bg/bg_memory",
@@ -22067,7 +27066,10 @@ pg.base.memory_template = {
 		story = "AISIJIMOREN1",
 		id = 2041,
 		icon = "memory_aisijimoren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISIJIMOREN1"
+		}
 	},
 	[2042] = {
 		mask = "bg/bg_memory",
@@ -22078,7 +27080,10 @@ pg.base.memory_template = {
 		story = "AISIJIMOREN2",
 		id = 2042,
 		icon = "memory_aisijimoren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISIJIMOREN2"
+		}
 	},
 	[2043] = {
 		mask = "bg/bg_memory",
@@ -22089,7 +27094,10 @@ pg.base.memory_template = {
 		story = "AISIJIMOREN3",
 		id = 2043,
 		icon = "memory_aisijimoren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISIJIMOREN3"
+		}
 	},
 	[2044] = {
 		mask = "bg/bg_memory",
@@ -22100,7 +27108,10 @@ pg.base.memory_template = {
 		story = "AISIJIMOREN4",
 		id = 2044,
 		icon = "memory_aisijimoren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISIJIMOREN4"
+		}
 	},
 	[2045] = {
 		mask = "bg/bg_memory",
@@ -22111,7 +27122,10 @@ pg.base.memory_template = {
 		story = "AISIJIMOREN5",
 		id = 2045,
 		icon = "memory_aisijimoren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISIJIMOREN5"
+		}
 	},
 	[2046] = {
 		mask = "bg/bg_memory",
@@ -22122,7 +27136,10 @@ pg.base.memory_template = {
 		story = "AISIJIMOREN6",
 		id = 2046,
 		icon = "memory_aisijimoren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISIJIMOREN6"
+		}
 	},
 	[2047] = {
 		mask = "bg/bg_memory",
@@ -22133,7 +27150,10 @@ pg.base.memory_template = {
 		story = "AISIJIMOREN7",
 		id = 2047,
 		icon = "memory_aisijimoren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AISIJIMOREN7"
+		}
 	},
 	[2050] = {
 		mask = "bg/bg_story_tower",
@@ -22144,7 +27164,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG1",
 		id = 2050,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG1"
+		}
 	},
 	[2051] = {
 		mask = "bg/bg_story_tower",
@@ -22155,7 +27178,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG2",
 		id = 2051,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG2"
+		}
 	},
 	[2052] = {
 		mask = "bg/bg_story_tower",
@@ -22166,7 +27192,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG3",
 		id = 2052,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG3"
+		}
 	},
 	[2053] = {
 		mask = "bg/bg_story_tower",
@@ -22177,7 +27206,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG4",
 		id = 2053,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG4"
+		}
 	},
 	[2054] = {
 		mask = "bg/bg_story_tower",
@@ -22188,7 +27220,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG5",
 		id = 2054,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG5"
+		}
 	},
 	[2055] = {
 		mask = "bg/bg_story_tower",
@@ -22199,7 +27234,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG6",
 		id = 2055,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG6"
+		}
 	},
 	[2056] = {
 		mask = "bg/bg_story_tower",
@@ -22210,7 +27248,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG7",
 		id = 2056,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG7"
+		}
 	},
 	[2057] = {
 		mask = "bg/bg_story_tower",
@@ -22221,7 +27262,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG8",
 		id = 2057,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG8"
+		}
 	},
 	[2058] = {
 		mask = "bg/bg_story_tower",
@@ -22232,7 +27276,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG9",
 		id = 2058,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG9"
+		}
 	},
 	[2059] = {
 		mask = "bg/bg_story_tower",
@@ -22243,7 +27290,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG10",
 		id = 2059,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG10"
+		}
 	},
 	[2060] = {
 		mask = "bg/bg_story_tower",
@@ -22254,7 +27304,10 @@ pg.base.memory_template = {
 		story = "XUXIANGGOUZHUZHITAXUZHANG11",
 		id = 2060,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUXIANGGOUZHUZHITAXUZHANG11"
+		}
 	},
 	[2061] = {
 		mask = "bg/bg_memory",
@@ -22265,7 +27318,10 @@ pg.base.memory_template = {
 		story = "BULIZHISHI1",
 		id = 2061,
 		icon = "memory_bulizhishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULIZHISHI1"
+		}
 	},
 	[2062] = {
 		mask = "bg/bg_memory",
@@ -22276,7 +27332,10 @@ pg.base.memory_template = {
 		story = "1360003",
 		id = 2062,
 		icon = "memory_bulizhishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1360003"
+		}
 	},
 	[2063] = {
 		mask = "bg/bg_memory",
@@ -22287,7 +27346,10 @@ pg.base.memory_template = {
 		story = "AIDINGBAO1",
 		id = 2063,
 		icon = "memory_aidingbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDINGBAO1"
+		}
 	},
 	[2064] = {
 		mask = "bg/bg_memory",
@@ -22298,7 +27360,10 @@ pg.base.memory_template = {
 		story = "AIDINGBAO2",
 		id = 2064,
 		icon = "memory_aidingbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDINGBAO2"
+		}
 	},
 	[2065] = {
 		mask = "bg/bg_memory",
@@ -22309,7 +27374,10 @@ pg.base.memory_template = {
 		story = "AIDINGBAO3",
 		id = 2065,
 		icon = "memory_aidingbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDINGBAO3"
+		}
 	},
 	[2066] = {
 		mask = "bg/bg_memory",
@@ -22320,7 +27388,10 @@ pg.base.memory_template = {
 		story = "AIDINGBAO4",
 		id = 2066,
 		icon = "memory_aidingbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDINGBAO4"
+		}
 	},
 	[2067] = {
 		mask = "bg/bg_memory",
@@ -22331,7 +27402,10 @@ pg.base.memory_template = {
 		story = "AIDINGBAO5",
 		id = 2067,
 		icon = "memory_aidingbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDINGBAO5"
+		}
 	},
 	[2068] = {
 		mask = "bg/bg_memory",
@@ -22342,7 +27416,10 @@ pg.base.memory_template = {
 		story = "AIDINGBAO6",
 		id = 2068,
 		icon = "memory_aidingbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDINGBAO6"
+		}
 	},
 	[2069] = {
 		mask = "bg/bg_memory",
@@ -22353,7 +27430,10 @@ pg.base.memory_template = {
 		story = "AIDINGBAO7",
 		id = 2069,
 		icon = "memory_aidingbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIDINGBAO7"
+		}
 	},
 	[2071] = {
 		mask = "bg/bg_memory",
@@ -22364,7 +27444,10 @@ pg.base.memory_template = {
 		story = "YONGYEZHICHENGDEMEIYING1",
 		id = 2071,
 		icon = "memory_yongyezhichengdemeiying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEZHICHENGDEMEIYING1"
+		}
 	},
 	[2072] = {
 		mask = "bg/bg_memory",
@@ -22375,7 +27458,10 @@ pg.base.memory_template = {
 		story = "YONGYEZHICHENGDEMEIYING2",
 		id = 2072,
 		icon = "memory_yongyezhichengdemeiying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEZHICHENGDEMEIYING2"
+		}
 	},
 	[2073] = {
 		mask = "bg/bg_memory",
@@ -22386,7 +27472,10 @@ pg.base.memory_template = {
 		story = "YONGYEZHICHENGDEMEIYING3",
 		id = 2073,
 		icon = "memory_yongyezhichengdemeiying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEZHICHENGDEMEIYING3"
+		}
 	},
 	[2074] = {
 		mask = "bg/bg_memory",
@@ -22397,7 +27486,10 @@ pg.base.memory_template = {
 		story = "YONGYEZHICHENGDEMEIYING4",
 		id = 2074,
 		icon = "memory_yongyezhichengdemeiying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEZHICHENGDEMEIYING4"
+		}
 	},
 	[2075] = {
 		mask = "bg/bg_memory",
@@ -22408,7 +27500,10 @@ pg.base.memory_template = {
 		story = "YONGYEZHICHENGDEMEIYING5",
 		id = 2075,
 		icon = "memory_yongyezhichengdemeiying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEZHICHENGDEMEIYING5"
+		}
 	},
 	[2076] = {
 		mask = "bg/bg_memory",
@@ -22419,7 +27514,10 @@ pg.base.memory_template = {
 		story = "YONGYEZHICHENGDEMEIYING6",
 		id = 2076,
 		icon = "memory_yongyezhichengdemeiying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEZHICHENGDEMEIYING6"
+		}
 	},
 	[2077] = {
 		mask = "bg/bg_memory",
@@ -22430,7 +27528,10 @@ pg.base.memory_template = {
 		story = "YONGYEZHICHENGDEMEIYING7",
 		id = 2077,
 		icon = "memory_yongyezhichengdemeiying",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGYEZHICHENGDEMEIYING7"
+		}
 	},
 	[2081] = {
 		mask = "bg/bg_endingsong_4",
@@ -22441,7 +27542,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU1",
 		id = 2081,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU1"
+		}
 	},
 	[2082] = {
 		mask = "bg/bg_endingsong_4",
@@ -22452,7 +27556,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU2",
 		id = 2082,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU2"
+		}
 	},
 	[2083] = {
 		mask = "bg/bg_endingsong_4",
@@ -22463,7 +27570,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU3",
 		id = 2083,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU3"
+		}
 	},
 	[2084] = {
 		mask = "bg/bg_endingsong_4",
@@ -22474,7 +27584,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU4",
 		id = 2084,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU4"
+		}
 	},
 	[2085] = {
 		mask = "bg/bg_endingsong_4",
@@ -22485,7 +27598,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU5",
 		id = 2085,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU5"
+		}
 	},
 	[2086] = {
 		mask = "bg/bg_endingsong_4",
@@ -22496,7 +27612,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU6",
 		id = 2086,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU6"
+		}
 	},
 	[2087] = {
 		mask = "bg/bg_endingsong_4",
@@ -22507,7 +27626,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU7",
 		id = 2087,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU7"
+		}
 	},
 	[2088] = {
 		mask = "bg/bg_endingsong_4",
@@ -22518,7 +27640,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU8",
 		id = 2088,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU8"
+		}
 	},
 	[2089] = {
 		mask = "bg/bg_endingsong_4",
@@ -22529,7 +27654,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU9",
 		id = 2089,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU9"
+		}
 	},
 	[2090] = {
 		mask = "bg/bg_endingsong_4",
@@ -22540,7 +27668,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU10",
 		id = 2090,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU10"
+		}
 	},
 	[2091] = {
 		mask = "bg/bg_endingsong_4",
@@ -22551,7 +27682,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU11",
 		id = 2091,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU11"
+		}
 	},
 	[2092] = {
 		mask = "bg/bg_endingsong_4",
@@ -22562,7 +27696,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU12",
 		id = 2092,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU12"
+		}
 	},
 	[2093] = {
 		mask = "bg/bg_endingsong_4",
@@ -22573,7 +27710,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU13",
 		id = 2093,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU13"
+		}
 	},
 	[2094] = {
 		mask = "bg/bg_endingsong_4",
@@ -22584,7 +27724,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU14",
 		id = 2094,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU14"
+		}
 	},
 	[2095] = {
 		mask = "bg/bg_endingsong_4",
@@ -22595,7 +27738,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU15",
 		id = 2095,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU15"
+		}
 	},
 	[2096] = {
 		mask = "bg/bg_endingsong_4",
@@ -22606,7 +27752,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU16",
 		id = 2096,
 		icon = "memory_HONGCAIDEZHONGMUQU1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU16"
+		}
 	},
 	[2097] = {
 		mask = "bg/bg_endingsong_15",
@@ -22617,7 +27766,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU17",
 		id = 2097,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU17"
+		}
 	},
 	[2098] = {
 		mask = "bg/bg_endingsong_15",
@@ -22628,7 +27780,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU18",
 		id = 2098,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU18"
+		}
 	},
 	[2099] = {
 		mask = "bg/bg_endingsong_15",
@@ -22639,7 +27794,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU19",
 		id = 2099,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU19"
+		}
 	},
 	[2100] = {
 		mask = "bg/bg_endingsong_15",
@@ -22650,7 +27808,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU20",
 		id = 2100,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU20"
+		}
 	},
 	[2101] = {
 		mask = "bg/bg_endingsong_15",
@@ -22661,7 +27822,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU21",
 		id = 2101,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU21"
+		}
 	},
 	[2102] = {
 		mask = "bg/bg_endingsong_15",
@@ -22672,7 +27836,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU22",
 		id = 2102,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU22"
+		}
 	},
 	[2103] = {
 		mask = "bg/bg_endingsong_15",
@@ -22683,7 +27850,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU23",
 		id = 2103,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU23"
+		}
 	},
 	[2104] = {
 		mask = "bg/bg_endingsong_15",
@@ -22694,7 +27864,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU24",
 		id = 2104,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU24"
+		}
 	},
 	[2105] = {
 		mask = "bg/bg_endingsong_15",
@@ -22705,7 +27878,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU25",
 		id = 2105,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU25"
+		}
 	},
 	[2106] = {
 		mask = "bg/bg_endingsong_15",
@@ -22716,7 +27892,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU26",
 		id = 2106,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU26"
+		}
 	},
 	[2107] = {
 		mask = "bg/bg_endingsong_15",
@@ -22727,7 +27906,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU27",
 		id = 2107,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU27"
+		}
 	},
 	[2108] = {
 		mask = "bg/bg_endingsong_15",
@@ -22738,7 +27920,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU28",
 		id = 2108,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU28"
+		}
 	},
 	[2109] = {
 		mask = "bg/bg_endingsong_15",
@@ -22749,7 +27934,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU29",
 		id = 2109,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU29"
+		}
 	},
 	[2110] = {
 		mask = "bg/bg_endingsong_15",
@@ -22760,7 +27948,10 @@ pg.base.memory_template = {
 		story = "1645002",
 		id = 2110,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1645002"
+		}
 	},
 	[2111] = {
 		mask = "bg/bg_endingsong_15",
@@ -22771,7 +27962,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU31",
 		id = 2111,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU31"
+		}
 	},
 	[2112] = {
 		mask = "bg/bg_endingsong_15",
@@ -22782,7 +27976,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU32",
 		id = 2112,
 		icon = "memory_xuxianggouzhuzhitaxuzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU32"
+		}
 	},
 	[2113] = {
 		mask = "bg/bg_endingsong_15",
@@ -22793,7 +27990,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU33",
 		id = 2113,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU33"
+		}
 	},
 	[2114] = {
 		mask = "bg/bg_endingsong_15",
@@ -22804,7 +28004,10 @@ pg.base.memory_template = {
 		story = "HONGCAIDEZHONGMUQU34",
 		id = 2114,
 		icon = "memory_HONGCAIDEZHONGMUQU2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HONGCAIDEZHONGMUQU34"
+		}
 	},
 	[2115] = {
 		mask = "bg/bg_memory",
@@ -22815,7 +28018,10 @@ pg.base.memory_template = {
 		story = "LUCK29904",
 		id = 2115,
 		icon = "memory_jhdeleike",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK29904"
+		}
 	},
 	[2116] = {
 		mask = "bg/bg_memory",
@@ -22826,7 +28032,10 @@ pg.base.memory_template = {
 		story = "YIWAIDEGUITU1",
 		id = 2116,
 		icon = "memory_YIWAIDEGUITU",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIWAIDEGUITU1"
+		}
 	},
 	[2117] = {
 		mask = "bg/bg_memory",
@@ -22837,7 +28046,10 @@ pg.base.memory_template = {
 		story = "YIWAIDEGUITU2",
 		id = 2117,
 		icon = "memory_YIWAIDEGUITU",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIWAIDEGUITU2"
+		}
 	},
 	[2118] = {
 		mask = "bg/bg_memory",
@@ -22848,7 +28060,10 @@ pg.base.memory_template = {
 		story = "YIWAIDEGUITU3",
 		id = 2118,
 		icon = "memory_YIWAIDEGUITU",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIWAIDEGUITU3"
+		}
 	},
 	[2119] = {
 		mask = "bg/bg_memory",
@@ -22859,7 +28074,10 @@ pg.base.memory_template = {
 		story = "YIWAIDEGUITU4",
 		id = 2119,
 		icon = "memory_YIWAIDEGUITU",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIWAIDEGUITU4"
+		}
 	},
 	[2121] = {
 		mask = "bg/bg_memory",
@@ -22870,7 +28088,10 @@ pg.base.memory_template = {
 		story = "HAILUNNA1",
 		id = 2121,
 		icon = "memory_hailunna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAILUNNA1"
+		}
 	},
 	[2122] = {
 		mask = "bg/bg_memory",
@@ -22881,7 +28102,10 @@ pg.base.memory_template = {
 		story = "HAILUNNA2",
 		id = 2122,
 		icon = "memory_hailunna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAILUNNA2"
+		}
 	},
 	[2123] = {
 		mask = "bg/bg_memory",
@@ -22892,7 +28116,10 @@ pg.base.memory_template = {
 		story = "HAILUNNA3",
 		id = 2123,
 		icon = "memory_hailunna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAILUNNA3"
+		}
 	},
 	[2124] = {
 		mask = "bg/bg_memory",
@@ -22903,7 +28130,10 @@ pg.base.memory_template = {
 		story = "HAILUNNA4",
 		id = 2124,
 		icon = "memory_hailunna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAILUNNA4"
+		}
 	},
 	[2125] = {
 		mask = "bg/bg_memory",
@@ -22914,7 +28144,10 @@ pg.base.memory_template = {
 		story = "HAILUNNA5",
 		id = 2125,
 		icon = "memory_hailunna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAILUNNA5"
+		}
 	},
 	[2126] = {
 		mask = "bg/bg_memory",
@@ -22925,7 +28158,10 @@ pg.base.memory_template = {
 		story = "HAILUNNA6",
 		id = 2126,
 		icon = "memory_hailunna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAILUNNA6"
+		}
 	},
 	[2127] = {
 		mask = "bg/bg_memory",
@@ -22936,7 +28172,10 @@ pg.base.memory_template = {
 		story = "HAILUNNA7",
 		id = 2127,
 		icon = "memory_hailunna",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAILUNNA7"
+		}
 	},
 	[2128] = {
 		mask = "bg/bg_memory",
@@ -22947,7 +28186,10 @@ pg.base.memory_template = {
 		story = "NVPUDELINGYIMIAN1",
 		id = 2128,
 		icon = "memory_nvpudelingyimian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVPUDELINGYIMIAN1"
+		}
 	},
 	[2129] = {
 		mask = "bg/bg_memory",
@@ -22958,7 +28200,10 @@ pg.base.memory_template = {
 		story = "NVPUDELINGYIMIAN2",
 		id = 2129,
 		icon = "memory_nvpudelingyimian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVPUDELINGYIMIAN2"
+		}
 	},
 	[2130] = {
 		mask = "bg/bg_memory",
@@ -22969,7 +28214,10 @@ pg.base.memory_template = {
 		story = "NVPUDELINGYIMIAN3",
 		id = 2130,
 		icon = "memory_nvpudelingyimian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVPUDELINGYIMIAN3"
+		}
 	},
 	[2131] = {
 		mask = "bg/bg_camelot_15",
@@ -22980,7 +28228,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING1",
 		id = 2131,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING1"
+		}
 	},
 	[2132] = {
 		mask = "bg/bg_camelot_15",
@@ -22991,7 +28242,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING2",
 		id = 2132,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING2"
+		}
 	},
 	[2133] = {
 		mask = "bg/bg_camelot_15",
@@ -23002,7 +28256,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING3",
 		id = 2133,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING3"
+		}
 	},
 	[2134] = {
 		mask = "bg/bg_camelot_15",
@@ -23013,7 +28270,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING4",
 		id = 2134,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING4"
+		}
 	},
 	[2135] = {
 		mask = "bg/bg_camelot_15",
@@ -23024,7 +28284,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING5",
 		id = 2135,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING5"
+		}
 	},
 	[2136] = {
 		mask = "bg/bg_camelot_15",
@@ -23035,7 +28298,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING6",
 		id = 2136,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING6"
+		}
 	},
 	[2137] = {
 		mask = "bg/bg_camelot_15",
@@ -23046,7 +28312,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING7",
 		id = 2137,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING7"
+		}
 	},
 	[2138] = {
 		mask = "bg/bg_camelot_15",
@@ -23057,7 +28326,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING8",
 		id = 2138,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING8"
+		}
 	},
 	[2139] = {
 		mask = "bg/bg_camelot_15",
@@ -23068,7 +28340,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING9",
 		id = 2139,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING9"
+		}
 	},
 	[2140] = {
 		mask = "bg/bg_camelot_15",
@@ -23079,7 +28354,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING10",
 		id = 2140,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING10"
+		}
 	},
 	[2141] = {
 		mask = "bg/bg_camelot_15",
@@ -23090,7 +28368,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING11",
 		id = 2141,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING11"
+		}
 	},
 	[2142] = {
 		mask = "bg/bg_camelot_15",
@@ -23101,7 +28382,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING12",
 		id = 2142,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING12"
+		}
 	},
 	[2143] = {
 		mask = "bg/bg_camelot_15",
@@ -23112,7 +28396,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING13",
 		id = 2143,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING13"
+		}
 	},
 	[2144] = {
 		mask = "bg/bg_camelot_15",
@@ -23123,7 +28410,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING14",
 		id = 2144,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING14"
+		}
 	},
 	[2145] = {
 		mask = "bg/bg_camelot_15",
@@ -23134,7 +28424,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING15",
 		id = 2145,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING15"
+		}
 	},
 	[2146] = {
 		mask = "bg/bg_camelot_15",
@@ -23145,7 +28438,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING16",
 		id = 2146,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING16"
+		}
 	},
 	[2147] = {
 		mask = "bg/bg_camelot_15",
@@ -23156,7 +28452,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING17",
 		id = 2147,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING17"
+		}
 	},
 	[2148] = {
 		mask = "bg/bg_camelot_15",
@@ -23167,7 +28466,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING18",
 		id = 2148,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING18"
+		}
 	},
 	[2149] = {
 		mask = "bg/bg_camelot_15",
@@ -23178,7 +28480,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING19",
 		id = 2149,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING19"
+		}
 	},
 	[2150] = {
 		mask = "bg/bg_camelot_15",
@@ -23189,7 +28494,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING20",
 		id = 2150,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING20"
+		}
 	},
 	[2151] = {
 		mask = "bg/bg_camelot_15",
@@ -23200,7 +28508,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING21",
 		id = 2151,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING21"
+		}
 	},
 	[2152] = {
 		mask = "bg/bg_camelot_15",
@@ -23211,7 +28522,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING22",
 		id = 2152,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING22"
+		}
 	},
 	[2153] = {
 		mask = "bg/bg_camelot_15",
@@ -23222,7 +28536,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING23",
 		id = 2153,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING23"
+		}
 	},
 	[2154] = {
 		mask = "bg/bg_camelot_15",
@@ -23233,7 +28550,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING24",
 		id = 2154,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING24"
+		}
 	},
 	[2155] = {
 		mask = "bg/bg_camelot_15",
@@ -23244,7 +28564,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING25",
 		id = 2155,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING25"
+		}
 	},
 	[2156] = {
 		mask = "bg/bg_camelot_15",
@@ -23255,7 +28578,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING26",
 		id = 2156,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING26"
+		}
 	},
 	[2157] = {
 		mask = "bg/bg_camelot_15",
@@ -23266,7 +28592,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING27",
 		id = 2157,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING27"
+		}
 	},
 	[2158] = {
 		mask = "bg/bg_camelot_15",
@@ -23277,7 +28606,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING28",
 		id = 2158,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING28"
+		}
 	},
 	[2159] = {
 		mask = "bg/bg_camelot_15",
@@ -23288,7 +28620,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING29",
 		id = 2159,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING29"
+		}
 	},
 	[2160] = {
 		mask = "bg/bg_camelot_15",
@@ -23299,7 +28634,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING30",
 		id = 2160,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING30"
+		}
 	},
 	[2161] = {
 		mask = "bg/bg_camelot_15",
@@ -23310,7 +28648,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING31",
 		id = 2161,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING31"
+		}
 	},
 	[2162] = {
 		mask = "bg/bg_camelot_15",
@@ -23321,7 +28662,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING32",
 		id = 2162,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING32"
+		}
 	},
 	[2163] = {
 		mask = "bg/bg_camelot_15",
@@ -23332,7 +28676,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING33",
 		id = 2163,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING33"
+		}
 	},
 	[2164] = {
 		mask = "bg/bg_camelot_15",
@@ -23343,7 +28690,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING34",
 		id = 2164,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING34"
+		}
 	},
 	[2165] = {
 		mask = "bg/bg_camelot_15",
@@ -23354,7 +28704,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING35",
 		id = 2165,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING35"
+		}
 	},
 	[2166] = {
 		mask = "bg/bg_camelot_15",
@@ -23365,7 +28718,10 @@ pg.base.memory_template = {
 		story = "LINGSHIGUANGTING36",
 		id = 2166,
 		icon = "memory_lingshiguangting",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGSHIGUANGTING36"
+		}
 	},
 	[2167] = {
 		mask = "bg/bg_memory",
@@ -23376,7 +28732,10 @@ pg.base.memory_template = {
 		story = "HEYAZHIYAN1",
 		id = 2167,
 		icon = "memory_heyazhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HEYAZHIYAN1"
+		}
 	},
 	[2168] = {
 		mask = "bg/bg_memory",
@@ -23387,7 +28746,10 @@ pg.base.memory_template = {
 		story = "HEYAZHIYAN2",
 		id = 2168,
 		icon = "memory_heyazhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HEYAZHIYAN2"
+		}
 	},
 	[2169] = {
 		mask = "bg/bg_memory",
@@ -23398,7 +28760,10 @@ pg.base.memory_template = {
 		story = "HEYAZHIYAN3",
 		id = 2169,
 		icon = "memory_heyazhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HEYAZHIYAN3"
+		}
 	},
 	[2170] = {
 		mask = "bg/bg_memory",
@@ -23409,7 +28774,10 @@ pg.base.memory_template = {
 		story = "HEYAZHIYAN4",
 		id = 2170,
 		icon = "memory_heyazhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HEYAZHIYAN4"
+		}
 	},
 	[2171] = {
 		mask = "bg/bg_memory",
@@ -23420,7 +28788,10 @@ pg.base.memory_template = {
 		story = "XINANFENG1",
 		id = 2171,
 		icon = "memory_xinanfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINANFENG1"
+		}
 	},
 	[2172] = {
 		mask = "bg/bg_memory",
@@ -23431,7 +28802,10 @@ pg.base.memory_template = {
 		story = "XINANFENG2",
 		id = 2172,
 		icon = "memory_xinanfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINANFENG2"
+		}
 	},
 	[2173] = {
 		mask = "bg/bg_memory",
@@ -23442,7 +28816,10 @@ pg.base.memory_template = {
 		story = "XINANFENG3",
 		id = 2173,
 		icon = "memory_xinanfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINANFENG3"
+		}
 	},
 	[2174] = {
 		mask = "bg/bg_memory",
@@ -23453,7 +28830,10 @@ pg.base.memory_template = {
 		story = "XINANFENG4",
 		id = 2174,
 		icon = "memory_xinanfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINANFENG4"
+		}
 	},
 	[2175] = {
 		mask = "bg/bg_memory",
@@ -23464,7 +28844,10 @@ pg.base.memory_template = {
 		story = "XINANFENG5",
 		id = 2175,
 		icon = "memory_xinanfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINANFENG5"
+		}
 	},
 	[2176] = {
 		mask = "bg/bg_memory",
@@ -23475,7 +28858,10 @@ pg.base.memory_template = {
 		story = "XINANFENG6",
 		id = 2176,
 		icon = "memory_xinanfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINANFENG6"
+		}
 	},
 	[2177] = {
 		mask = "bg/bg_memory",
@@ -23486,7 +28872,10 @@ pg.base.memory_template = {
 		story = "XINANFENG7",
 		id = 2177,
 		icon = "memory_xinanfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINANFENG7"
+		}
 	},
 	[2181] = {
 		mask = "bg/bg_memory",
@@ -23497,7 +28886,10 @@ pg.base.memory_template = {
 		story = "TONGHUASENLIN1",
 		id = 2181,
 		icon = "memory_tonghuasenlin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TONGHUASENLIN1"
+		}
 	},
 	[2182] = {
 		mask = "bg/bg_memory",
@@ -23508,7 +28900,10 @@ pg.base.memory_template = {
 		story = "TONGHUASENLIN2",
 		id = 2182,
 		icon = "memory_tonghuasenlin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TONGHUASENLIN2"
+		}
 	},
 	[2183] = {
 		mask = "bg/bg_memory",
@@ -23519,7 +28914,10 @@ pg.base.memory_template = {
 		story = "TONGHUASENLIN3",
 		id = 2183,
 		icon = "memory_tonghuasenlin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TONGHUASENLIN3"
+		}
 	},
 	[2184] = {
 		mask = "bg/bg_memory",
@@ -23530,7 +28928,10 @@ pg.base.memory_template = {
 		story = "TONGHUASENLIN4",
 		id = 2184,
 		icon = "memory_tonghuasenlin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TONGHUASENLIN4"
+		}
 	},
 	[2185] = {
 		mask = "bg/bg_memory",
@@ -23541,7 +28942,10 @@ pg.base.memory_template = {
 		story = "TONGHUASENLIN5",
 		id = 2185,
 		icon = "memory_tonghuasenlin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TONGHUASENLIN5"
+		}
 	},
 	[2186] = {
 		mask = "bg/bg_memory",
@@ -23552,7 +28956,10 @@ pg.base.memory_template = {
 		story = "TONGHUASENLIN6",
 		id = 2186,
 		icon = "memory_tonghuasenlin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TONGHUASENLIN6"
+		}
 	},
 	[2191] = {
 		mask = "bg/bg_memory",
@@ -23563,7 +28970,10 @@ pg.base.memory_template = {
 		story = "LAIZIYUANWEIDETIANSHI1",
 		id = 2191,
 		icon = "memory_laiziyuanweidetianshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAIZIYUANWEIDETIANSHI1"
+		}
 	},
 	[2192] = {
 		mask = "bg/bg_memory",
@@ -23574,7 +28984,10 @@ pg.base.memory_template = {
 		story = "LAIZIYUANWEIDETIANSHI2",
 		id = 2192,
 		icon = "memory_laiziyuanweidetianshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAIZIYUANWEIDETIANSHI2"
+		}
 	},
 	[2193] = {
 		mask = "bg/bg_memory",
@@ -23585,7 +28998,10 @@ pg.base.memory_template = {
 		story = "LAIZIYUANWEIDETIANSHI3",
 		id = 2193,
 		icon = "memory_laiziyuanweidetianshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAIZIYUANWEIDETIANSHI3"
+		}
 	},
 	[2194] = {
 		mask = "bg/bg_memory",
@@ -23596,7 +29012,10 @@ pg.base.memory_template = {
 		story = "LAIZIYUANWEIDETIANSHI4",
 		id = 2194,
 		icon = "memory_laiziyuanweidetianshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAIZIYUANWEIDETIANSHI4"
+		}
 	},
 	[2195] = {
 		mask = "bg/bg_memory",
@@ -23607,7 +29026,10 @@ pg.base.memory_template = {
 		story = "LAIZIYUANWEIDETIANSHI5",
 		id = 2195,
 		icon = "memory_laiziyuanweidetianshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAIZIYUANWEIDETIANSHI5"
+		}
 	},
 	[2196] = {
 		mask = "bg/bg_memory",
@@ -23618,7 +29040,10 @@ pg.base.memory_template = {
 		story = "LAIZIYUANWEIDETIANSHI6",
 		id = 2196,
 		icon = "memory_laiziyuanweidetianshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAIZIYUANWEIDETIANSHI6"
+		}
 	},
 	[2197] = {
 		mask = "bg/bg_memory",
@@ -23629,7 +29054,10 @@ pg.base.memory_template = {
 		story = "LAIZIYUANWEIDETIANSHI7",
 		id = 2197,
 		icon = "memory_laiziyuanweidetianshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAIZIYUANWEIDETIANSHI7"
+		}
 	},
 	[2201] = {
 		mask = "bg/bg_memory",
@@ -23640,7 +29068,10 @@ pg.base.memory_template = {
 		story = "JIAWEISI1",
 		id = 2201,
 		icon = "memory_jiaweisi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIAWEISI1"
+		}
 	},
 	[2202] = {
 		mask = "bg/bg_memory",
@@ -23651,7 +29082,10 @@ pg.base.memory_template = {
 		story = "JIAWEISI2",
 		id = 2202,
 		icon = "memory_jiaweisi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIAWEISI2"
+		}
 	},
 	[2203] = {
 		mask = "bg/bg_memory",
@@ -23662,7 +29096,10 @@ pg.base.memory_template = {
 		story = "JIAWEISI3",
 		id = 2203,
 		icon = "memory_jiaweisi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIAWEISI3"
+		}
 	},
 	[2204] = {
 		mask = "bg/bg_memory",
@@ -23673,7 +29110,10 @@ pg.base.memory_template = {
 		story = "JIAWEISI4",
 		id = 2204,
 		icon = "memory_jiaweisi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIAWEISI4"
+		}
 	},
 	[2205] = {
 		mask = "bg/bg_memory",
@@ -23684,7 +29124,10 @@ pg.base.memory_template = {
 		story = "JIAWEISI5",
 		id = 2205,
 		icon = "memory_jiaweisi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIAWEISI5"
+		}
 	},
 	[2206] = {
 		mask = "bg/bg_memory",
@@ -23695,7 +29138,10 @@ pg.base.memory_template = {
 		story = "JIAWEISI6",
 		id = 2206,
 		icon = "memory_jiaweisi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIAWEISI6"
+		}
 	},
 	[2207] = {
 		mask = "bg/bg_memory",
@@ -23706,7 +29152,10 @@ pg.base.memory_template = {
 		story = "JIAWEISI7",
 		id = 2207,
 		icon = "memory_jiaweisi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIAWEISI7"
+		}
 	},
 	[2211] = {
 		mask = "bg/bg_memory",
@@ -23717,7 +29166,10 @@ pg.base.memory_template = {
 		story = "SADINGDEYAOYUE1",
 		id = 2211,
 		icon = "memory_sadingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SADINGDEYAOYUE1"
+		}
 	},
 	[2212] = {
 		mask = "bg/bg_memory",
@@ -23728,7 +29180,10 @@ pg.base.memory_template = {
 		story = "SADINGDEYAOYUE2",
 		id = 2212,
 		icon = "memory_sadingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SADINGDEYAOYUE2"
+		}
 	},
 	[2213] = {
 		mask = "bg/bg_memory",
@@ -23739,7 +29194,10 @@ pg.base.memory_template = {
 		story = "SADINGDEYAOYUE3",
 		id = 2213,
 		icon = "memory_sadingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SADINGDEYAOYUE3"
+		}
 	},
 	[2214] = {
 		mask = "bg/bg_memory",
@@ -23750,7 +29208,10 @@ pg.base.memory_template = {
 		story = "SADINGDEYAOYUE4",
 		id = 2214,
 		icon = "memory_sadingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SADINGDEYAOYUE4"
+		}
 	},
 	[2215] = {
 		mask = "bg/bg_memory",
@@ -23761,7 +29222,10 @@ pg.base.memory_template = {
 		story = "SADINGDEYAOYUE5",
 		id = 2215,
 		icon = "memory_sadingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SADINGDEYAOYUE5"
+		}
 	},
 	[2216] = {
 		mask = "bg/bg_memory",
@@ -23772,7 +29236,10 @@ pg.base.memory_template = {
 		story = "SADINGDEYAOYUE6",
 		id = 2216,
 		icon = "memory_sadingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SADINGDEYAOYUE6"
+		}
 	},
 	[2217] = {
 		mask = "bg/bg_memory",
@@ -23783,7 +29250,10 @@ pg.base.memory_template = {
 		story = "SADINGDEYAOYUE7",
 		id = 2217,
 		icon = "memory_sadingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SADINGDEYAOYUE7"
+		}
 	},
 	[2221] = {
 		mask = "bg/bg_roma_2",
@@ -23794,7 +29264,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE1",
 		id = 2221,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE1"
+		}
 	},
 	[2222] = {
 		mask = "bg/bg_roma_2",
@@ -23805,7 +29278,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE2",
 		id = 2222,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE2"
+		}
 	},
 	[2223] = {
 		mask = "bg/bg_roma_2",
@@ -23816,7 +29292,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE3",
 		id = 2223,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE3"
+		}
 	},
 	[2224] = {
 		mask = "bg/bg_roma_2",
@@ -23827,7 +29306,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE4",
 		id = 2224,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE4"
+		}
 	},
 	[2225] = {
 		mask = "bg/bg_roma_2",
@@ -23838,7 +29320,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE5",
 		id = 2225,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE5"
+		}
 	},
 	[2226] = {
 		mask = "bg/bg_roma_2",
@@ -23849,7 +29334,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE6",
 		id = 2226,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE6"
+		}
 	},
 	[2227] = {
 		mask = "bg/bg_roma_2",
@@ -23860,7 +29348,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE7",
 		id = 2227,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE7"
+		}
 	},
 	[2228] = {
 		mask = "bg/bg_roma_2",
@@ -23871,7 +29362,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE8",
 		id = 2228,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE8"
+		}
 	},
 	[2229] = {
 		mask = "bg/bg_roma_2",
@@ -23882,7 +29376,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE9",
 		id = 2229,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE9"
+		}
 	},
 	[2230] = {
 		mask = "bg/bg_roma_2",
@@ -23893,7 +29390,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE10",
 		id = 2230,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE10"
+		}
 	},
 	[2231] = {
 		mask = "bg/bg_roma_2",
@@ -23904,7 +29404,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE11",
 		id = 2231,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE11"
+		}
 	},
 	[2232] = {
 		mask = "bg/bg_roma_2",
@@ -23915,7 +29418,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE12",
 		id = 2232,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE12"
+		}
 	},
 	[2233] = {
 		mask = "bg/bg_roma_2",
@@ -23926,7 +29432,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE13",
 		id = 2233,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE13"
+		}
 	},
 	[2234] = {
 		mask = "bg/bg_roma_2",
@@ -23937,7 +29446,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE14",
 		id = 2234,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE14"
+		}
 	},
 	[2235] = {
 		mask = "bg/bg_roma_2",
@@ -23948,7 +29460,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE15",
 		id = 2235,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE15"
+		}
 	},
 	[2236] = {
 		mask = "bg/bg_roma_2",
@@ -23959,7 +29474,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE16",
 		id = 2236,
 		icon = "memory_xiongyingdexushige1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE16"
+		}
 	},
 	[2237] = {
 		mask = "bg/bg_roma_13",
@@ -23970,7 +29488,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE17",
 		id = 2237,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE17"
+		}
 	},
 	[2238] = {
 		mask = "bg/bg_roma_13",
@@ -23981,7 +29502,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE18",
 		id = 2238,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE18"
+		}
 	},
 	[2239] = {
 		mask = "bg/bg_roma_13",
@@ -23992,7 +29516,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE19",
 		id = 2239,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE19"
+		}
 	},
 	[2240] = {
 		mask = "bg/bg_roma_13",
@@ -24003,7 +29530,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE20",
 		id = 2240,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE20"
+		}
 	},
 	[2241] = {
 		mask = "bg/bg_roma_13",
@@ -24014,7 +29544,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE21",
 		id = 2241,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE21"
+		}
 	},
 	[2242] = {
 		mask = "bg/bg_roma_13",
@@ -24025,7 +29558,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE22",
 		id = 2242,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE22"
+		}
 	},
 	[2243] = {
 		mask = "bg/bg_roma_13",
@@ -24036,7 +29572,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE23",
 		id = 2243,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE23"
+		}
 	},
 	[2244] = {
 		mask = "bg/bg_roma_13",
@@ -24047,7 +29586,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE24",
 		id = 2244,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE24"
+		}
 	},
 	[2245] = {
 		mask = "bg/bg_roma_13",
@@ -24058,7 +29600,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE25",
 		id = 2245,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE25"
+		}
 	},
 	[2246] = {
 		mask = "bg/bg_roma_13",
@@ -24069,7 +29614,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE26",
 		id = 2246,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE26"
+		}
 	},
 	[2247] = {
 		mask = "bg/bg_roma_13",
@@ -24080,7 +29628,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE27",
 		id = 2247,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE27"
+		}
 	},
 	[2248] = {
 		mask = "bg/bg_roma_13",
@@ -24091,7 +29642,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE28",
 		id = 2248,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE28"
+		}
 	},
 	[2249] = {
 		mask = "bg/bg_roma_13",
@@ -24102,7 +29656,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE29",
 		id = 2249,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE29"
+		}
 	},
 	[2250] = {
 		mask = "bg/bg_roma_13",
@@ -24113,7 +29670,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE30",
 		id = 2250,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE30"
+		}
 	},
 	[2251] = {
 		mask = "bg/bg_roma_13",
@@ -24124,7 +29684,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE31",
 		id = 2251,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE31"
+		}
 	},
 	[2252] = {
 		mask = "bg/bg_roma_13",
@@ -24135,7 +29698,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE32",
 		id = 2252,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE32"
+		}
 	},
 	[2253] = {
 		mask = "bg/bg_roma_13",
@@ -24146,7 +29712,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE33",
 		id = 2253,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE33"
+		}
 	},
 	[2254] = {
 		mask = "bg/bg_roma_13",
@@ -24157,7 +29726,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE34",
 		id = 2254,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE34"
+		}
 	},
 	[2255] = {
 		mask = "bg/bg_roma_13",
@@ -24168,7 +29740,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE35",
 		id = 2255,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE35"
+		}
 	},
 	[2256] = {
 		mask = "bg/bg_roma_13",
@@ -24179,7 +29754,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE36",
 		id = 2256,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE36"
+		}
 	},
 	[2257] = {
 		mask = "bg/bg_roma_13",
@@ -24190,7 +29768,10 @@ pg.base.memory_template = {
 		story = "XIONGYINGDEXUSHIGE37",
 		id = 2257,
 		icon = "memory_xiongyingdexushige2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIONGYINGDEXUSHIGE37"
+		}
 	},
 	[2261] = {
 		mask = "bg/bg_memory",
@@ -24201,7 +29782,10 @@ pg.base.memory_template = {
 		story = "SHUIXINGJINIAN1",
 		id = 2261,
 		icon = "memory_shuixingjinian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIXINGJINIAN1"
+		}
 	},
 	[2262] = {
 		mask = "bg/bg_memory",
@@ -24212,7 +29796,10 @@ pg.base.memory_template = {
 		story = "SHUIXINGJINIAN2",
 		id = 2262,
 		icon = "memory_shuixingjinian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIXINGJINIAN2"
+		}
 	},
 	[2263] = {
 		mask = "bg/bg_memory",
@@ -24223,7 +29810,10 @@ pg.base.memory_template = {
 		story = "SHUIXINGJINIAN3",
 		id = 2263,
 		icon = "memory_shuixingjinian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIXINGJINIAN3"
+		}
 	},
 	[2264] = {
 		mask = "bg/bg_memory",
@@ -24234,7 +29824,10 @@ pg.base.memory_template = {
 		story = "SHUIXINGJINIAN4",
 		id = 2264,
 		icon = "memory_shuixingjinian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIXINGJINIAN4"
+		}
 	},
 	[2265] = {
 		mask = "bg/bg_memory",
@@ -24245,7 +29838,10 @@ pg.base.memory_template = {
 		story = "SHUIXINGJINIAN5",
 		id = 2265,
 		icon = "memory_shuixingjinian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIXINGJINIAN5"
+		}
 	},
 	[2266] = {
 		mask = "bg/bg_memory",
@@ -24256,7 +29852,10 @@ pg.base.memory_template = {
 		story = "SHUIXINGJINIAN6",
 		id = 2266,
 		icon = "memory_shuixingjinian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIXINGJINIAN6"
+		}
 	},
 	[2267] = {
 		mask = "bg/bg_memory",
@@ -24267,7 +29866,10 @@ pg.base.memory_template = {
 		story = "SHUIXINGJINIAN7",
 		id = 2267,
 		icon = "memory_shuixingjinian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIXINGJINIAN7"
+		}
 	},
 	[2271] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24278,7 +29880,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN1",
 		id = 2271,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN1"
+		}
 	},
 	[2272] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24289,7 +29894,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN2",
 		id = 2272,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN2"
+		}
 	},
 	[2273] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24300,7 +29908,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN3",
 		id = 2273,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN3"
+		}
 	},
 	[2274] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24311,7 +29922,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN4",
 		id = 2274,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN4"
+		}
 	},
 	[2275] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24322,7 +29936,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN5",
 		id = 2275,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN5"
+		}
 	},
 	[2276] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24333,7 +29950,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN6",
 		id = 2276,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN6"
+		}
 	},
 	[2277] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24344,7 +29964,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN7",
 		id = 2277,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN7"
+		}
 	},
 	[2278] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24355,7 +29978,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN8",
 		id = 2278,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN8"
+		}
 	},
 	[2279] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24366,7 +29992,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN9",
 		id = 2279,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN9"
+		}
 	},
 	[2280] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24377,7 +30006,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN10",
 		id = 2280,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN10"
+		}
 	},
 	[2281] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24388,7 +30020,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN11",
 		id = 2281,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN11"
+		}
 	},
 	[2282] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24399,7 +30034,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN12",
 		id = 2282,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN12"
+		}
 	},
 	[2283] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24410,7 +30048,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN13",
 		id = 2283,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN13"
+		}
 	},
 	[2284] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24421,7 +30062,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN14",
 		id = 2284,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN14"
+		}
 	},
 	[2285] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24432,7 +30076,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN15",
 		id = 2285,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN15"
+		}
 	},
 	[2286] = {
 		mask = "bg/bg_yuanhuidian",
@@ -24443,7 +30090,10 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN16",
 		id = 2286,
 		icon = "memory_yuanhuidianzuozhan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANHUIDIANZUOZHAN16"
+		}
 	},
 	[2287] = {
 		mask = "bg/bg_memory",
@@ -24454,7 +30104,10 @@ pg.base.memory_template = {
 		story = "LUCK69901",
 		id = 2287,
 		icon = "memory_jhmakeboluo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK69901"
+		}
 	},
 	[2288] = {
 		mask = "bg/bg_memory",
@@ -24465,7 +30118,10 @@ pg.base.memory_template = {
 		story = "LUCK19903",
 		id = 2288,
 		icon = "memory_jhankeleiqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK19903"
+		}
 	},
 	[2289] = {
 		mask = "bg/bg_memory",
@@ -24476,7 +30132,10 @@ pg.base.memory_template = {
 		story = "LUCK49906",
 		id = 2289,
 		icon = "memory_jhaogusite",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49906"
+		}
 	},
 	[2291] = {
 		mask = "bg/bg_memory",
@@ -24487,7 +30146,10 @@ pg.base.memory_template = {
 		story = "JINGHAIJINGLEI1",
 		id = 2291,
 		icon = "memory_jinghaijinglei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGHAIJINGLEI1"
+		}
 	},
 	[2292] = {
 		mask = "bg/bg_memory",
@@ -24498,7 +30160,10 @@ pg.base.memory_template = {
 		story = "JINGHAIJINGLEI2",
 		id = 2292,
 		icon = "memory_jinghaijinglei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGHAIJINGLEI2"
+		}
 	},
 	[2293] = {
 		mask = "bg/bg_memory",
@@ -24509,7 +30174,10 @@ pg.base.memory_template = {
 		story = "JINGHAIJINGLEI3",
 		id = 2293,
 		icon = "memory_jinghaijinglei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGHAIJINGLEI3"
+		}
 	},
 	[2294] = {
 		mask = "bg/bg_memory",
@@ -24520,7 +30188,10 @@ pg.base.memory_template = {
 		story = "JINGHAIJINGLEI4",
 		id = 2294,
 		icon = "memory_jinghaijinglei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGHAIJINGLEI4"
+		}
 	},
 	[2295] = {
 		mask = "bg/bg_memory",
@@ -24531,7 +30202,10 @@ pg.base.memory_template = {
 		story = "JINGHAIJINGLEI5",
 		id = 2295,
 		icon = "memory_jinghaijinglei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGHAIJINGLEI5"
+		}
 	},
 	[2296] = {
 		mask = "bg/bg_memory",
@@ -24542,7 +30216,10 @@ pg.base.memory_template = {
 		story = "JINGHAIJINGLEI6",
 		id = 2296,
 		icon = "memory_jinghaijinglei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGHAIJINGLEI6"
+		}
 	},
 	[2297] = {
 		mask = "bg/bg_memory",
@@ -24553,7 +30230,10 @@ pg.base.memory_template = {
 		story = "JINGHAIJINGLEI7",
 		id = 2297,
 		icon = "memory_jinghaijinglei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINGHAIJINGLEI7"
+		}
 	},
 	[2301] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24564,7 +30244,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN1",
 		id = 2301,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN1"
+		}
 	},
 	[2302] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24575,7 +30258,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN2",
 		id = 2302,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN2"
+		}
 	},
 	[2303] = {
 		mask = "bg/bg_wuzang_bg1",
@@ -24586,7 +30272,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN3",
 		id = 2303,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN3"
+		}
 	},
 	[2304] = {
 		mask = "bg/bg_wuzang_bg2",
@@ -24597,7 +30286,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN4",
 		id = 2304,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN4"
+		}
 	},
 	[2305] = {
 		mask = "bg/bg_wuzang_bg3",
@@ -24608,7 +30300,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN5",
 		id = 2305,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN5"
+		}
 	},
 	[2306] = {
 		mask = "bg/bg_wuzang_bg4",
@@ -24619,7 +30314,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN6",
 		id = 2306,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN6"
+		}
 	},
 	[2307] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24630,7 +30328,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN7",
 		id = 2307,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN7"
+		}
 	},
 	[2308] = {
 		mask = "bg/bg_wuzang_bg5",
@@ -24641,7 +30342,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN8",
 		id = 2308,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN8"
+		}
 	},
 	[2309] = {
 		mask = "bg/bg_wuzang_bg5",
@@ -24652,7 +30356,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN9",
 		id = 2309,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN9"
+		}
 	},
 	[2310] = {
 		mask = "bg/bg_wuzang_bg6",
@@ -24663,7 +30370,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN10",
 		id = 2310,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN10"
+		}
 	},
 	[2311] = {
 		mask = "bg/bg_wuzang_bg7",
@@ -24674,7 +30384,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN11",
 		id = 2311,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN11"
+		}
 	},
 	[2312] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24685,7 +30398,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN12",
 		id = 2312,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN12"
+		}
 	},
 	[2313] = {
 		mask = "bg/bg_wuzang_bg8",
@@ -24696,7 +30412,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN13",
 		id = 2313,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN13"
+		}
 	},
 	[2314] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24707,7 +30426,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN14",
 		id = 2314,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN14"
+		}
 	},
 	[2315] = {
 		mask = "bg/bg_wuzang_bg9",
@@ -24718,7 +30440,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN15",
 		id = 2315,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN15"
+		}
 	},
 	[2316] = {
 		mask = "bg/bg_wuzang_bg9",
@@ -24729,7 +30454,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN16",
 		id = 2316,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN16"
+		}
 	},
 	[2317] = {
 		mask = "bg/bg_wuzang_bg10",
@@ -24740,7 +30468,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN17",
 		id = 2317,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN17"
+		}
 	},
 	[2318] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24751,7 +30482,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN18",
 		id = 2318,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN18"
+		}
 	},
 	[2319] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24762,7 +30496,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN19",
 		id = 2319,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN19"
+		}
 	},
 	[2320] = {
 		mask = "bg/bg_wuzang_bg11",
@@ -24773,7 +30510,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN20",
 		id = 2320,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN20"
+		}
 	},
 	[2321] = {
 		mask = "bg/bg_wuzang_bg11",
@@ -24784,7 +30524,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN21",
 		id = 2321,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN21"
+		}
 	},
 	[2322] = {
 		mask = "bg/bg_wuzang_bg11",
@@ -24795,7 +30538,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN22",
 		id = 2322,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN22"
+		}
 	},
 	[2323] = {
 		mask = "bg/bg_wuzang_bg12",
@@ -24806,7 +30552,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN23",
 		id = 2323,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN23"
+		}
 	},
 	[2324] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24817,7 +30566,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN24",
 		id = 2324,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN24"
+		}
 	},
 	[2325] = {
 		mask = "bg/bg_wuzang_bg12",
@@ -24828,7 +30580,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN25",
 		id = 2325,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN25"
+		}
 	},
 	[2326] = {
 		mask = "bg/bg_wuzang_bg12",
@@ -24839,7 +30594,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN26",
 		id = 2326,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN26"
+		}
 	},
 	[2327] = {
 		mask = "bg/bg_wuzang_bg13",
@@ -24850,7 +30608,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN27",
 		id = 2327,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN27"
+		}
 	},
 	[2328] = {
 		mask = "bg/bg_wuzang_bg13",
@@ -24861,7 +30622,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN28",
 		id = 2328,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN28"
+		}
 	},
 	[2329] = {
 		mask = "bg/bg_wuzang_bg14",
@@ -24872,7 +30636,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN29",
 		id = 2329,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN29"
+		}
 	},
 	[2330] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24883,7 +30650,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN30",
 		id = 2330,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN30"
+		}
 	},
 	[2331] = {
 		mask = "bg/bg_wuzang_bg14",
@@ -24894,7 +30664,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN31",
 		id = 2331,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN31"
+		}
 	},
 	[2332] = {
 		mask = "bg/bg_wuzang_bg14",
@@ -24905,7 +30678,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN32",
 		id = 2332,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN32"
+		}
 	},
 	[2333] = {
 		mask = "bg/bg_wuzang_bg15",
@@ -24916,7 +30692,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN33",
 		id = 2333,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN33"
+		}
 	},
 	[2334] = {
 		mask = "bg/bg_wuzang_bg16",
@@ -24927,7 +30706,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN34",
 		id = 2334,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN34"
+		}
 	},
 	[2335] = {
 		mask = "bg/bg_wuzang_bg0",
@@ -24938,7 +30720,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN35",
 		id = 2335,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN35"
+		}
 	},
 	[2336] = {
 		mask = "bg/bg_fuxiangxian_0",
@@ -24949,7 +30734,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN36",
 		id = 2336,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN36"
+		}
 	},
 	[2337] = {
 		mask = "bg/bg_wuzang_bg16",
@@ -24960,7 +30748,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN37",
 		id = 2337,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN37"
+		}
 	},
 	[2338] = {
 		mask = "bg/bg_wuzang_bg17",
@@ -24971,7 +30762,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN38",
 		id = 2338,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN38"
+		}
 	},
 	[2339] = {
 		mask = "bg/bg_memory",
@@ -24982,7 +30776,10 @@ pg.base.memory_template = {
 		story = "ZIJIANGJINLAN39",
 		id = 2339,
 		icon = "memory_zijiangjinlan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZIJIANGJINLAN39"
+		}
 	},
 	[2341] = {
 		mask = "bg/bg_memory",
@@ -24993,7 +30790,10 @@ pg.base.memory_template = {
 		story = "NEIHUADA1",
 		id = 2341,
 		icon = "memory_neihuada",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NEIHUADA1"
+		}
 	},
 	[2342] = {
 		mask = "bg/bg_memory",
@@ -25004,7 +30804,10 @@ pg.base.memory_template = {
 		story = "NEIHUADA2",
 		id = 2342,
 		icon = "memory_neihuada",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NEIHUADA2"
+		}
 	},
 	[2343] = {
 		mask = "bg/bg_memory",
@@ -25015,7 +30818,10 @@ pg.base.memory_template = {
 		story = "NEIHUADA3",
 		id = 2343,
 		icon = "memory_neihuada",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NEIHUADA3"
+		}
 	},
 	[2344] = {
 		mask = "bg/bg_memory",
@@ -25026,7 +30832,10 @@ pg.base.memory_template = {
 		story = "NEIHUADA4",
 		id = 2344,
 		icon = "memory_neihuada",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NEIHUADA4"
+		}
 	},
 	[2345] = {
 		mask = "bg/bg_memory",
@@ -25037,7 +30846,10 @@ pg.base.memory_template = {
 		story = "NEIHUADA5",
 		id = 2345,
 		icon = "memory_neihuada",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NEIHUADA5"
+		}
 	},
 	[2346] = {
 		mask = "bg/bg_memory",
@@ -25048,7 +30860,10 @@ pg.base.memory_template = {
 		story = "NEIHUADA6",
 		id = 2346,
 		icon = "memory_neihuada",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NEIHUADA6"
+		}
 	},
 	[2347] = {
 		mask = "bg/bg_memory",
@@ -25059,7 +30874,10 @@ pg.base.memory_template = {
 		story = "NEIHUADA7",
 		id = 2347,
 		icon = "memory_neihuada",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NEIHUADA7"
+		}
 	},
 	[2351] = {
 		mask = "bg/bg_memory",
@@ -25070,7 +30888,10 @@ pg.base.memory_template = {
 		story = "YONGZHEDELVTU1",
 		id = 2351,
 		icon = "memory_yongzhedelvtu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGZHEDELVTU1"
+		}
 	},
 	[2352] = {
 		mask = "bg/bg_memory",
@@ -25081,7 +30902,10 @@ pg.base.memory_template = {
 		story = "YONGZHEDELVTU2",
 		id = 2352,
 		icon = "memory_yongzhedelvtu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGZHEDELVTU2"
+		}
 	},
 	[2353] = {
 		mask = "bg/bg_memory",
@@ -25092,7 +30916,10 @@ pg.base.memory_template = {
 		story = "YONGZHEDELVTU3",
 		id = 2353,
 		icon = "memory_yongzhedelvtu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGZHEDELVTU3"
+		}
 	},
 	[2354] = {
 		mask = "bg/bg_memory",
@@ -25103,7 +30930,10 @@ pg.base.memory_template = {
 		story = "YONGZHEDELVTU4",
 		id = 2354,
 		icon = "memory_yongzhedelvtu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YONGZHEDELVTU4"
+		}
 	},
 	[2355] = {
 		mask = "bg/bg_memory",
@@ -25114,7 +30944,10 @@ pg.base.memory_template = {
 		story = "50003",
 		id = 2355,
 		icon = "memory_yongzhedelvtu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"50003"
+		}
 	},
 	[2361] = {
 		mask = "bg/bg_unnamearea_1",
@@ -25125,7 +30958,10 @@ pg.base.memory_template = {
 		story = "WEIJIAOXIAOSIPEIBOJUE1",
 		id = 2361,
 		icon = "memory_weijiaoxiaosipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAOXIAOSIPEIBOJUE1"
+		}
 	},
 	[2362] = {
 		mask = "bg/bg_unnamearea_1",
@@ -25136,7 +30972,10 @@ pg.base.memory_template = {
 		story = "WEIJIAOXIAOSIPEIBOJUE2",
 		id = 2362,
 		icon = "memory_weijiaoxiaosipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIJIAOXIAOSIPEIBOJUE2"
+		}
 	},
 	[2363] = {
 		mask = "bg/bg_memory",
@@ -25147,7 +30986,10 @@ pg.base.memory_template = {
 		story = "50002",
 		id = 2363,
 		icon = "memory_weijiaoxiaosipeibojue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"50002"
+		}
 	},
 	[2371] = {
 		mask = "bg/bg_memory",
@@ -25158,7 +31000,10 @@ pg.base.memory_template = {
 		story = "HUAYUE1",
 		id = 2371,
 		icon = "memory_huayue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAYUE1"
+		}
 	},
 	[2372] = {
 		mask = "bg/bg_memory",
@@ -25169,7 +31014,10 @@ pg.base.memory_template = {
 		story = "HUAYUE2",
 		id = 2372,
 		icon = "memory_huayue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAYUE2"
+		}
 	},
 	[2373] = {
 		mask = "bg/bg_memory",
@@ -25180,7 +31028,10 @@ pg.base.memory_template = {
 		story = "HUAYUE3",
 		id = 2373,
 		icon = "memory_huayue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAYUE3"
+		}
 	},
 	[2374] = {
 		mask = "bg/bg_memory",
@@ -25191,7 +31042,10 @@ pg.base.memory_template = {
 		story = "HUAYUE4",
 		id = 2374,
 		icon = "memory_huayue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAYUE4"
+		}
 	},
 	[2375] = {
 		mask = "bg/bg_memory",
@@ -25202,7 +31056,10 @@ pg.base.memory_template = {
 		story = "HUAYUE5",
 		id = 2375,
 		icon = "memory_huayue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAYUE5"
+		}
 	},
 	[2376] = {
 		mask = "bg/bg_memory",
@@ -25213,7 +31070,10 @@ pg.base.memory_template = {
 		story = "HUAYUE6",
 		id = 2376,
 		icon = "memory_huayue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAYUE6"
+		}
 	},
 	[2377] = {
 		mask = "bg/bg_memory",
@@ -25224,7 +31084,10 @@ pg.base.memory_template = {
 		story = "HUAYUE7",
 		id = 2377,
 		icon = "memory_huayue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUAYUE7"
+		}
 	},
 	[2378] = {
 		mask = "bg/bg_memory",
@@ -25235,7 +31098,10 @@ pg.base.memory_template = {
 		story = "NVPUGONGDOUSANQI1",
 		id = 2378,
 		icon = "memory_nvpugongdousanqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVPUGONGDOUSANQI1"
+		}
 	},
 	[2379] = {
 		mask = "bg/bg_memory",
@@ -25246,7 +31112,10 @@ pg.base.memory_template = {
 		story = "NVPUGONGDOUSANQI2",
 		id = 2379,
 		icon = "memory_nvpugongdousanqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVPUGONGDOUSANQI2"
+		}
 	},
 	[2380] = {
 		mask = "bg/bg_memory",
@@ -25257,7 +31126,10 @@ pg.base.memory_template = {
 		story = "NVPUGONGDOUSANQI3",
 		id = 2380,
 		icon = "memory_nvpugongdousanqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVPUGONGDOUSANQI3"
+		}
 	},
 	[2381] = {
 		mask = "bg/bg_memory",
@@ -25268,7 +31140,10 @@ pg.base.memory_template = {
 		story = "NVPUGONGDOUSANQI4",
 		id = 2381,
 		icon = "memory_nvpugongdousanqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVPUGONGDOUSANQI4"
+		}
 	},
 	[2382] = {
 		mask = "bg/bg_memory",
@@ -25279,7 +31154,10 @@ pg.base.memory_template = {
 		story = "NVPUGONGDOUSANQI5",
 		id = 2382,
 		icon = "memory_nvpugongdousanqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVPUGONGDOUSANQI5"
+		}
 	},
 	[2383] = {
 		mask = "bg/bg_memory",
@@ -25290,7 +31168,10 @@ pg.base.memory_template = {
 		story = "WANSHENGYEDEQIYU1",
 		id = 2383,
 		icon = "memory_wanshengyedeqiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGYEDEQIYU1"
+		}
 	},
 	[2384] = {
 		mask = "bg/bg_memory",
@@ -25301,7 +31182,10 @@ pg.base.memory_template = {
 		story = "WANSHENGYEDEQIYU2",
 		id = 2384,
 		icon = "memory_wanshengyedeqiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGYEDEQIYU2"
+		}
 	},
 	[2385] = {
 		mask = "bg/bg_memory",
@@ -25312,7 +31196,10 @@ pg.base.memory_template = {
 		story = "WANSHENGYEDEQIYU3",
 		id = 2385,
 		icon = "memory_wanshengyedeqiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGYEDEQIYU3"
+		}
 	},
 	[2386] = {
 		mask = "bg/bg_memory",
@@ -25323,7 +31210,10 @@ pg.base.memory_template = {
 		story = "WANSHENGYEDEQIYU4",
 		id = 2386,
 		icon = "memory_wanshengyedeqiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGYEDEQIYU4"
+		}
 	},
 	[2387] = {
 		mask = "bg/bg_memory",
@@ -25334,7 +31224,10 @@ pg.base.memory_template = {
 		story = "WANSHENGYEDEQIYU5",
 		id = 2387,
 		icon = "memory_wanshengyedeqiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGYEDEQIYU5"
+		}
 	},
 	[2388] = {
 		mask = "bg/bg_memory",
@@ -25345,7 +31238,10 @@ pg.base.memory_template = {
 		story = "WANSHENGYEDEQIYU6",
 		id = 2388,
 		icon = "memory_wanshengyedeqiyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WANSHENGYEDEQIYU6"
+		}
 	},
 	[2391] = {
 		mask = "bg/bg_memory",
@@ -25356,7 +31252,10 @@ pg.base.memory_template = {
 		story = "BULVXIEER1",
 		id = 2391,
 		icon = "memory_bulvxieer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULVXIEER1"
+		}
 	},
 	[2392] = {
 		mask = "bg/bg_memory",
@@ -25367,7 +31266,10 @@ pg.base.memory_template = {
 		story = "BULVXIEER2",
 		id = 2392,
 		icon = "memory_bulvxieer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULVXIEER2"
+		}
 	},
 	[2393] = {
 		mask = "bg/bg_memory",
@@ -25378,7 +31280,10 @@ pg.base.memory_template = {
 		story = "BULVXIEER3",
 		id = 2393,
 		icon = "memory_bulvxieer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULVXIEER3"
+		}
 	},
 	[2394] = {
 		mask = "bg/bg_memory",
@@ -25389,7 +31294,10 @@ pg.base.memory_template = {
 		story = "BULVXIEER4",
 		id = 2394,
 		icon = "memory_bulvxieer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULVXIEER4"
+		}
 	},
 	[2395] = {
 		mask = "bg/bg_memory",
@@ -25400,7 +31308,10 @@ pg.base.memory_template = {
 		story = "BULVXIEER5",
 		id = 2395,
 		icon = "memory_bulvxieer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULVXIEER5"
+		}
 	},
 	[2396] = {
 		mask = "bg/bg_memory",
@@ -25411,7 +31322,10 @@ pg.base.memory_template = {
 		story = "BULVXIEER6",
 		id = 2396,
 		icon = "memory_bulvxieer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULVXIEER6"
+		}
 	},
 	[2397] = {
 		mask = "bg/bg_memory",
@@ -25422,7 +31336,10 @@ pg.base.memory_template = {
 		story = "BULVXIEER7",
 		id = 2397,
 		icon = "memory_bulvxieer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULVXIEER7"
+		}
 	},
 	[2401] = {
 		mask = "bg/bg_memory",
@@ -25433,7 +31350,10 @@ pg.base.memory_template = {
 		story = "LAISHARICHANG1",
 		id = 2401,
 		icon = "memory_laisharichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHARICHANG1"
+		}
 	},
 	[2402] = {
 		mask = "bg/bg_memory",
@@ -25444,7 +31364,10 @@ pg.base.memory_template = {
 		story = "LAISHARICHANG2",
 		id = 2402,
 		icon = "memory_laisharichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHARICHANG2"
+		}
 	},
 	[2403] = {
 		mask = "bg/bg_memory",
@@ -25455,7 +31378,10 @@ pg.base.memory_template = {
 		story = "LAISHARICHANG3",
 		id = 2403,
 		icon = "memory_laisharichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHARICHANG3"
+		}
 	},
 	[2404] = {
 		mask = "bg/bg_memory",
@@ -25466,7 +31392,10 @@ pg.base.memory_template = {
 		story = "LAISHARICHANG4",
 		id = 2404,
 		icon = "memory_laisharichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHARICHANG4"
+		}
 	},
 	[2405] = {
 		mask = "bg/bg_memory",
@@ -25477,7 +31406,10 @@ pg.base.memory_template = {
 		story = "LAISHARICHANG5",
 		id = 2405,
 		icon = "memory_laisharichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHARICHANG5"
+		}
 	},
 	[2406] = {
 		mask = "bg/bg_memory",
@@ -25488,7 +31420,10 @@ pg.base.memory_template = {
 		story = "LAISHARICHANG6",
 		id = 2406,
 		icon = "memory_laisharichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHARICHANG6"
+		}
 	},
 	[2407] = {
 		mask = "bg/bg_memory",
@@ -25499,7 +31434,10 @@ pg.base.memory_template = {
 		story = "LAISHARICHANG7",
 		id = 2407,
 		icon = "memory_laisharichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHARICHANG7"
+		}
 	},
 	[2411] = {
 		mask = "bg/bg_ryza_1",
@@ -25510,7 +31448,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA1",
 		id = 2411,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA1"
+		}
 	},
 	[2412] = {
 		mask = "bg/bg_ryza_1",
@@ -25521,7 +31462,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA2",
 		id = 2412,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA2"
+		}
 	},
 	[2413] = {
 		mask = "bg/bg_ryza_1",
@@ -25532,7 +31476,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA3",
 		id = 2413,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA3"
+		}
 	},
 	[2414] = {
 		mask = "bg/bg_ryza_1",
@@ -25543,7 +31490,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA4",
 		id = 2414,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA4"
+		}
 	},
 	[2415] = {
 		mask = "bg/bg_ryza_1",
@@ -25554,7 +31504,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA5",
 		id = 2415,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA5"
+		}
 	},
 	[2416] = {
 		mask = "bg/bg_ryza_1",
@@ -25565,7 +31518,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA6",
 		id = 2416,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA6"
+		}
 	},
 	[2417] = {
 		mask = "bg/bg_ryza_1",
@@ -25576,7 +31532,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA7",
 		id = 2417,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA7"
+		}
 	},
 	[2418] = {
 		mask = "bg/bg_ryza_1",
@@ -25587,7 +31546,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA8",
 		id = 2418,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA8"
+		}
 	},
 	[2419] = {
 		mask = "bg/bg_ryza_1",
@@ -25598,7 +31560,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA9",
 		id = 2419,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA9"
+		}
 	},
 	[2420] = {
 		mask = "bg/bg_ryza_1",
@@ -25609,7 +31574,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA10",
 		id = 2420,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA10"
+		}
 	},
 	[2421] = {
 		mask = "bg/bg_ryza_1",
@@ -25620,7 +31588,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA11",
 		id = 2421,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA11"
+		}
 	},
 	[2422] = {
 		mask = "bg/bg_ryza_1",
@@ -25631,7 +31602,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA12",
 		id = 2422,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA12"
+		}
 	},
 	[2423] = {
 		mask = "bg/bg_ryza_1",
@@ -25642,7 +31616,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA13",
 		id = 2423,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA13"
+		}
 	},
 	[2424] = {
 		mask = "bg/bg_ryza_1",
@@ -25653,7 +31630,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA14",
 		id = 2424,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA14"
+		}
 	},
 	[2425] = {
 		mask = "bg/bg_ryza_1",
@@ -25664,7 +31644,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA15",
 		id = 2425,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA15"
+		}
 	},
 	[2426] = {
 		mask = "bg/bg_ryza_1",
@@ -25675,7 +31658,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA16",
 		id = 2426,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA16"
+		}
 	},
 	[2427] = {
 		mask = "bg/bg_ryza_1",
@@ -25686,7 +31672,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA17",
 		id = 2427,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA17"
+		}
 	},
 	[2428] = {
 		mask = "bg/bg_ryza_1",
@@ -25697,7 +31686,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA18",
 		id = 2428,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA18"
+		}
 	},
 	[2429] = {
 		mask = "bg/bg_ryza_1",
@@ -25708,7 +31700,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA19",
 		id = 2429,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA19"
+		}
 	},
 	[2430] = {
 		mask = "bg/bg_ryza_1",
@@ -25719,7 +31714,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA20",
 		id = 2430,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA20"
+		}
 	},
 	[2431] = {
 		mask = "bg/bg_ryza_1",
@@ -25730,7 +31728,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA21",
 		id = 2431,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA21"
+		}
 	},
 	[2432] = {
 		mask = "bg/bg_ryza_1",
@@ -25741,7 +31742,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA22",
 		id = 2432,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA22"
+		}
 	},
 	[2433] = {
 		mask = "bg/bg_ryza_1",
@@ -25752,7 +31756,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA23",
 		id = 2433,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA23"
+		}
 	},
 	[2434] = {
 		mask = "bg/bg_ryza_1",
@@ -25763,7 +31770,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA24",
 		id = 2434,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA24"
+		}
 	},
 	[2435] = {
 		mask = "bg/bg_ryza_1",
@@ -25774,7 +31784,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA25",
 		id = 2435,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA25"
+		}
 	},
 	[2436] = {
 		mask = "bg/bg_ryza_1",
@@ -25785,7 +31798,10 @@ pg.base.memory_template = {
 		story = "LAISHAGUANQIA26",
 		id = 2436,
 		icon = "memory_laishaguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LAISHAGUANQIA26"
+		}
 	},
 	[2441] = {
 		mask = "bg/bg_memory",
@@ -25796,7 +31812,10 @@ pg.base.memory_template = {
 		story = "YIXIANGPIANZHEN1",
 		id = 2441,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIXIANGPIANZHEN1"
+		}
 	},
 	[2442] = {
 		mask = "bg/bg_memory",
@@ -25807,7 +31826,10 @@ pg.base.memory_template = {
 		story = "YIXIANGPIANZHEN2",
 		id = 2442,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIXIANGPIANZHEN2"
+		}
 	},
 	[2443] = {
 		mask = "bg/bg_memory",
@@ -25818,7 +31840,10 @@ pg.base.memory_template = {
 		story = "YIXIANGPIANZHEN3",
 		id = 2443,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIXIANGPIANZHEN3"
+		}
 	},
 	[2444] = {
 		mask = "bg/bg_memory",
@@ -25829,7 +31854,10 @@ pg.base.memory_template = {
 		story = "YIXIANGPIANZHEN4",
 		id = 2444,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIXIANGPIANZHEN4"
+		}
 	},
 	[2445] = {
 		mask = "bg/bg_memory",
@@ -25840,7 +31868,10 @@ pg.base.memory_template = {
 		story = "YIXIANGPIANZHEN5",
 		id = 2445,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIXIANGPIANZHEN5"
+		}
 	},
 	[2446] = {
 		mask = "bg/bg_memory",
@@ -25851,7 +31882,10 @@ pg.base.memory_template = {
 		story = "YIXIANGPIANZHEN6",
 		id = 2446,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIXIANGPIANZHEN6"
+		}
 	},
 	[2447] = {
 		mask = "bg/bg_memory",
@@ -25862,7 +31896,10 @@ pg.base.memory_template = {
 		story = "YIXIANGPIANZHEN7",
 		id = 2447,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YIXIANGPIANZHEN7"
+		}
 	},
 	[2451] = {
 		mask = "bg/bg_memory",
@@ -25873,7 +31910,10 @@ pg.base.memory_template = {
 		story = "AERFULEIDUO1",
 		id = 2451,
 		icon = "memory_aerfuleiduo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERFULEIDUO1"
+		}
 	},
 	[2452] = {
 		mask = "bg/bg_memory",
@@ -25884,7 +31924,10 @@ pg.base.memory_template = {
 		story = "AERFULEIDUO2",
 		id = 2452,
 		icon = "memory_aerfuleiduo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERFULEIDUO2"
+		}
 	},
 	[2453] = {
 		mask = "bg/bg_memory",
@@ -25895,7 +31938,10 @@ pg.base.memory_template = {
 		story = "AERFULEIDUO3",
 		id = 2453,
 		icon = "memory_aerfuleiduo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERFULEIDUO3"
+		}
 	},
 	[2454] = {
 		mask = "bg/bg_memory",
@@ -25906,7 +31952,10 @@ pg.base.memory_template = {
 		story = "AERFULEIDUO4",
 		id = 2454,
 		icon = "memory_aerfuleiduo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERFULEIDUO4"
+		}
 	},
 	[2455] = {
 		mask = "bg/bg_memory",
@@ -25917,7 +31966,10 @@ pg.base.memory_template = {
 		story = "AERFULEIDUO5",
 		id = 2455,
 		icon = "memory_aerfuleiduo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERFULEIDUO5"
+		}
 	},
 	[2456] = {
 		mask = "bg/bg_memory",
@@ -25928,7 +31980,10 @@ pg.base.memory_template = {
 		story = "AERFULEIDUO6",
 		id = 2456,
 		icon = "memory_aerfuleiduo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERFULEIDUO6"
+		}
 	},
 	[2457] = {
 		mask = "bg/bg_memory",
@@ -25939,7 +31994,10 @@ pg.base.memory_template = {
 		story = "AERFULEIDUO7",
 		id = 2457,
 		icon = "memory_aerfuleiduo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERFULEIDUO7"
+		}
 	},
 	[2461] = {
 		mask = "bg/star_level_bg_106",
@@ -25950,7 +32008,10 @@ pg.base.memory_template = {
 		story = "SHUIBIANDEJIARI1",
 		id = 2461,
 		icon = "memory_shuibiandejiari",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIBIANDEJIARI1"
+		}
 	},
 	[2462] = {
 		mask = "bg/star_level_bg_106",
@@ -25961,7 +32022,10 @@ pg.base.memory_template = {
 		story = "SHUIBIANDEJIARI2",
 		id = 2462,
 		icon = "memory_shuibiandejiari",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIBIANDEJIARI2"
+		}
 	},
 	[2463] = {
 		mask = "bg/star_level_bg_106",
@@ -25972,7 +32036,10 @@ pg.base.memory_template = {
 		story = "SHUIBIANDEJIARI3",
 		id = 2463,
 		icon = "memory_shuibiandejiari",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIBIANDEJIARI3"
+		}
 	},
 	[2464] = {
 		mask = "bg/star_level_bg_106",
@@ -25983,7 +32050,10 @@ pg.base.memory_template = {
 		story = "SHUIBIANDEJIARI4",
 		id = 2464,
 		icon = "memory_shuibiandejiari",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIBIANDEJIARI4"
+		}
 	},
 	[2465] = {
 		mask = "bg/star_level_bg_106",
@@ -25994,7 +32064,10 @@ pg.base.memory_template = {
 		story = "SHUIBIANDEJIARI5",
 		id = 2465,
 		icon = "memory_shuibiandejiari",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIBIANDEJIARI5"
+		}
 	},
 	[2466] = {
 		mask = "bg/star_level_bg_106",
@@ -26005,7 +32078,10 @@ pg.base.memory_template = {
 		story = "SHUIBIANDEJIARI6",
 		id = 2466,
 		icon = "memory_shuibiandejiari",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIBIANDEJIARI6"
+		}
 	},
 	[2467] = {
 		mask = "bg/star_level_bg_106",
@@ -26016,7 +32092,10 @@ pg.base.memory_template = {
 		story = "SHUIBIANDEJIARI7",
 		id = 2467,
 		icon = "memory_shuibiandejiari",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHUIBIANDEJIARI7"
+		}
 	},
 	[2471] = {
 		mask = "bg/bg_port_NY_future",
@@ -26027,7 +32106,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE1",
 		id = 2471,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE1"
+		}
 	},
 	[2472] = {
 		mask = "bg/bg_port_NY_future",
@@ -26038,7 +32120,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE2",
 		id = 2472,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE2"
+		}
 	},
 	[2473] = {
 		mask = "bg/bg_port_NY_future",
@@ -26049,7 +32134,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE3",
 		id = 2473,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE3"
+		}
 	},
 	[2474] = {
 		mask = "bg/bg_port_NY_future",
@@ -26060,7 +32148,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE4",
 		id = 2474,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE4"
+		}
 	},
 	[2475] = {
 		mask = "bg/bg_port_NY_future",
@@ -26071,7 +32162,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE5",
 		id = 2475,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE5"
+		}
 	},
 	[2476] = {
 		mask = "bg/bg_port_NY_future",
@@ -26082,7 +32176,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE6",
 		id = 2476,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE6"
+		}
 	},
 	[2477] = {
 		mask = "bg/bg_port_NY_future",
@@ -26093,7 +32190,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE7",
 		id = 2477,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE7"
+		}
 	},
 	[2478] = {
 		mask = "bg/bg_port_NY_future",
@@ -26104,7 +32204,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE8",
 		id = 2478,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE8"
+		}
 	},
 	[2479] = {
 		mask = "bg/bg_port_NY_future",
@@ -26115,7 +32218,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE9",
 		id = 2479,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE9"
+		}
 	},
 	[2480] = {
 		mask = "bg/bg_port_NY_future",
@@ -26126,7 +32232,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE10",
 		id = 2480,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE10"
+		}
 	},
 	[2481] = {
 		mask = "bg/bg_port_NY_future",
@@ -26137,7 +32246,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE11",
 		id = 2481,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE11"
+		}
 	},
 	[2482] = {
 		mask = "bg/bg_port_NY_future",
@@ -26148,7 +32260,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE12",
 		id = 2482,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE12"
+		}
 	},
 	[2483] = {
 		mask = "bg/bg_port_NY_future",
@@ -26159,7 +32274,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE13",
 		id = 2483,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE13"
+		}
 	},
 	[2484] = {
 		mask = "bg/bg_port_NY_future",
@@ -26170,7 +32288,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE14",
 		id = 2484,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE14"
+		}
 	},
 	[2485] = {
 		mask = "bg/bg_port_NY_future",
@@ -26181,7 +32302,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE15",
 		id = 2485,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE15"
+		}
 	},
 	[2486] = {
 		mask = "bg/bg_port_NY_future",
@@ -26192,7 +32316,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE16",
 		id = 2486,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE16"
+		}
 	},
 	[2487] = {
 		mask = "bg/bg_port_NY_future",
@@ -26203,7 +32330,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE17",
 		id = 2487,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE17"
+		}
 	},
 	[2488] = {
 		mask = "bg/bg_port_NY_future",
@@ -26214,7 +32344,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE18",
 		id = 2488,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE18"
+		}
 	},
 	[2489] = {
 		mask = "bg/bg_port_NY_future",
@@ -26225,7 +32358,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE19",
 		id = 2489,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE19"
+		}
 	},
 	[2490] = {
 		mask = "bg/bg_port_NY_future",
@@ -26236,7 +32372,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE20",
 		id = 2490,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE20"
+		}
 	},
 	[2491] = {
 		mask = "bg/bg_port_NY_future",
@@ -26247,7 +32386,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE21",
 		id = 2491,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE21"
+		}
 	},
 	[2492] = {
 		mask = "bg/bg_port_NY_future",
@@ -26258,7 +32400,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE22",
 		id = 2492,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE22"
+		}
 	},
 	[2493] = {
 		mask = "bg/bg_port_NY_future",
@@ -26269,7 +32414,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE23",
 		id = 2493,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE23"
+		}
 	},
 	[2494] = {
 		mask = "bg/bg_port_NY_future",
@@ -26280,7 +32428,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE24",
 		id = 2494,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE24"
+		}
 	},
 	[2495] = {
 		mask = "bg/bg_port_NY_future",
@@ -26291,7 +32442,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE25",
 		id = 2495,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE25"
+		}
 	},
 	[2496] = {
 		mask = "bg/bg_port_NY_future",
@@ -26302,7 +32456,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE26",
 		id = 2496,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE26"
+		}
 	},
 	[2497] = {
 		mask = "bg/bg_port_NY_future",
@@ -26313,7 +32470,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE27",
 		id = 2497,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE27"
+		}
 	},
 	[2498] = {
 		mask = "bg/bg_port_NY_future",
@@ -26324,7 +32484,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE28",
 		id = 2498,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE28"
+		}
 	},
 	[2499] = {
 		mask = "bg/bg_port_NY_future",
@@ -26335,7 +32498,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE29",
 		id = 2499,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE29"
+		}
 	},
 	[2500] = {
 		mask = "bg/bg_port_NY_future",
@@ -26346,7 +32512,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE30",
 		id = 2500,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE30"
+		}
 	},
 	[2501] = {
 		mask = "bg/bg_port_NY_future",
@@ -26357,7 +32526,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE31",
 		id = 2501,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE31"
+		}
 	},
 	[2502] = {
 		mask = "bg/bg_port_NY_future",
@@ -26368,7 +32540,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE32",
 		id = 2502,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE32"
+		}
 	},
 	[2503] = {
 		mask = "bg/bg_port_NY_future",
@@ -26379,7 +32554,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE33",
 		id = 2503,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE33"
+		}
 	},
 	[2504] = {
 		mask = "bg/bg_port_NY_future",
@@ -26390,7 +32568,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE34",
 		id = 2504,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE34"
+		}
 	},
 	[2505] = {
 		mask = "bg/bg_port_NY_future",
@@ -26401,7 +32582,10 @@ pg.base.memory_template = {
 		story = "DINGXIANGZHEDIE35",
 		id = 2505,
 		icon = "memory_dingxiangzhedie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DINGXIANGZHEDIE35"
+		}
 	},
 	[2511] = {
 		mask = "bg/bg_memory",
@@ -26412,7 +32596,10 @@ pg.base.memory_template = {
 		story = "YINGGELAHAN1",
 		id = 2511,
 		icon = "memory_yinggelahan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGGELAHAN1"
+		}
 	},
 	[2512] = {
 		mask = "bg/bg_memory",
@@ -26423,7 +32610,10 @@ pg.base.memory_template = {
 		story = "YINGGELAHAN2",
 		id = 2512,
 		icon = "memory_yinggelahan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGGELAHAN2"
+		}
 	},
 	[2513] = {
 		mask = "bg/bg_memory",
@@ -26434,7 +32624,10 @@ pg.base.memory_template = {
 		story = "YINGGELAHAN3",
 		id = 2513,
 		icon = "memory_yinggelahan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGGELAHAN3"
+		}
 	},
 	[2514] = {
 		mask = "bg/bg_memory",
@@ -26445,7 +32638,10 @@ pg.base.memory_template = {
 		story = "YINGGELAHAN4",
 		id = 2514,
 		icon = "memory_yinggelahan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGGELAHAN4"
+		}
 	},
 	[2515] = {
 		mask = "bg/bg_memory",
@@ -26456,7 +32652,10 @@ pg.base.memory_template = {
 		story = "YINGGELAHAN5",
 		id = 2515,
 		icon = "memory_yinggelahan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGGELAHAN5"
+		}
 	},
 	[2516] = {
 		mask = "bg/bg_memory",
@@ -26467,7 +32666,10 @@ pg.base.memory_template = {
 		story = "YINGGELAHAN6",
 		id = 2516,
 		icon = "memory_yinggelahan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGGELAHAN6"
+		}
 	},
 	[2517] = {
 		mask = "bg/bg_memory",
@@ -26478,7 +32680,10 @@ pg.base.memory_template = {
 		story = "YINGGELAHAN7",
 		id = 2517,
 		icon = "memory_yinggelahan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGGELAHAN7"
+		}
 	},
 	[2521] = {
 		mask = "bg/bg_memory",
@@ -26489,7 +32694,10 @@ pg.base.memory_template = {
 		story = "DONGRIDEXUNLUREN1",
 		id = 2521,
 		icon = "memory_dongridexunluren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGRIDEXUNLUREN1"
+		}
 	},
 	[2522] = {
 		mask = "bg/bg_memory",
@@ -26500,7 +32708,10 @@ pg.base.memory_template = {
 		story = "DONGRIDEXUNLUREN2",
 		id = 2522,
 		icon = "memory_dongridexunluren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGRIDEXUNLUREN2"
+		}
 	},
 	[2523] = {
 		mask = "bg/bg_memory",
@@ -26511,7 +32722,10 @@ pg.base.memory_template = {
 		story = "DONGRIDEXUNLUREN3",
 		id = 2523,
 		icon = "memory_dongridexunluren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGRIDEXUNLUREN3"
+		}
 	},
 	[2524] = {
 		mask = "bg/bg_memory",
@@ -26522,7 +32736,10 @@ pg.base.memory_template = {
 		story = "DONGRIDEXUNLUREN4",
 		id = 2524,
 		icon = "memory_dongridexunluren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGRIDEXUNLUREN4"
+		}
 	},
 	[2525] = {
 		mask = "bg/bg_memory",
@@ -26533,7 +32750,10 @@ pg.base.memory_template = {
 		story = "DONGRIDEXUNLUREN5",
 		id = 2525,
 		icon = "memory_dongridexunluren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DONGRIDEXUNLUREN5"
+		}
 	},
 	[2531] = {
 		mask = "bg/bg_memory",
@@ -26544,7 +32764,10 @@ pg.base.memory_template = {
 		story = "HUADENGLIUCAIZHENGJIAYIN1",
 		id = 2531,
 		icon = "memory_huadengliucaizhengjiayin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUADENGLIUCAIZHENGJIAYIN1"
+		}
 	},
 	[2532] = {
 		mask = "bg/bg_memory",
@@ -26555,7 +32778,10 @@ pg.base.memory_template = {
 		story = "HUADENGLIUCAIZHENGJIAYIN2",
 		id = 2532,
 		icon = "memory_huadengliucaizhengjiayin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUADENGLIUCAIZHENGJIAYIN2"
+		}
 	},
 	[2533] = {
 		mask = "bg/bg_memory",
@@ -26566,7 +32792,10 @@ pg.base.memory_template = {
 		story = "HUADENGLIUCAIZHENGJIAYIN3",
 		id = 2533,
 		icon = "memory_huadengliucaizhengjiayin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUADENGLIUCAIZHENGJIAYIN3"
+		}
 	},
 	[2534] = {
 		mask = "bg/bg_memory",
@@ -26577,7 +32806,10 @@ pg.base.memory_template = {
 		story = "HUADENGLIUCAIZHENGJIAYIN4",
 		id = 2534,
 		icon = "memory_huadengliucaizhengjiayin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUADENGLIUCAIZHENGJIAYIN4"
+		}
 	},
 	[2541] = {
 		mask = "bg/bg_memory",
@@ -26588,7 +32820,10 @@ pg.base.memory_template = {
 		story = "FEICAIYINGXINCHUN1",
 		id = 2541,
 		icon = "memory_feicaiyingxinchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FEICAIYINGXINCHUN1"
+		}
 	},
 	[2542] = {
 		mask = "bg/bg_memory",
@@ -26599,7 +32834,10 @@ pg.base.memory_template = {
 		story = "FEICAIYINGXINCHUN2",
 		id = 2542,
 		icon = "memory_feicaiyingxinchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FEICAIYINGXINCHUN2"
+		}
 	},
 	[2543] = {
 		mask = "bg/bg_memory",
@@ -26610,7 +32848,10 @@ pg.base.memory_template = {
 		story = "FEICAIYINGXINCHUN3",
 		id = 2543,
 		icon = "memory_feicaiyingxinchun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FEICAIYINGXINCHUN3"
+		}
 	},
 	[2551] = {
 		mask = "bg/bg_memory",
@@ -26621,7 +32862,10 @@ pg.base.memory_template = {
 		story = "NVWANGDEYITIAN1",
 		id = 2551,
 		icon = "memory_nvwangdeyitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVWANGDEYITIAN1"
+		}
 	},
 	[2552] = {
 		mask = "bg/bg_memory",
@@ -26632,7 +32876,10 @@ pg.base.memory_template = {
 		story = "NVWANGDEYITIAN2",
 		id = 2552,
 		icon = "memory_nvwangdeyitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVWANGDEYITIAN2"
+		}
 	},
 	[2553] = {
 		mask = "bg/bg_memory",
@@ -26643,7 +32890,10 @@ pg.base.memory_template = {
 		story = "NVWANGDEYITIAN3",
 		id = 2553,
 		icon = "memory_nvwangdeyitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVWANGDEYITIAN3"
+		}
 	},
 	[2554] = {
 		mask = "bg/bg_memory",
@@ -26654,7 +32904,10 @@ pg.base.memory_template = {
 		story = "NVWANGDEYITIAN4",
 		id = 2554,
 		icon = "memory_nvwangdeyitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVWANGDEYITIAN4"
+		}
 	},
 	[2555] = {
 		mask = "bg/bg_memory",
@@ -26665,7 +32918,10 @@ pg.base.memory_template = {
 		story = "NVWANGDEYITIAN5",
 		id = 2555,
 		icon = "memory_nvwangdeyitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVWANGDEYITIAN5"
+		}
 	},
 	[2556] = {
 		mask = "bg/bg_memory",
@@ -26676,7 +32932,10 @@ pg.base.memory_template = {
 		story = "NVWANGDEYITIAN6",
 		id = 2556,
 		icon = "memory_nvwangdeyitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVWANGDEYITIAN6"
+		}
 	},
 	[2557] = {
 		mask = "bg/bg_memory",
@@ -26687,7 +32946,10 @@ pg.base.memory_template = {
 		story = "NVWANGDEYITIAN7",
 		id = 2557,
 		icon = "memory_nvwangdeyitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"NVWANGDEYITIAN7"
+		}
 	},
 	[2561] = {
 		mask = "bg/bg_memory",
@@ -26698,7 +32960,10 @@ pg.base.memory_template = {
 		story = "XIYATU1",
 		id = 2561,
 		icon = "memory_xiyatu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIYATU1"
+		}
 	},
 	[2562] = {
 		mask = "bg/bg_memory",
@@ -26709,7 +32974,10 @@ pg.base.memory_template = {
 		story = "XIYATU2",
 		id = 2562,
 		icon = "memory_xiyatu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIYATU2"
+		}
 	},
 	[2563] = {
 		mask = "bg/bg_memory",
@@ -26720,7 +32988,10 @@ pg.base.memory_template = {
 		story = "XIYATU3",
 		id = 2563,
 		icon = "memory_xiyatu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIYATU3"
+		}
 	},
 	[2564] = {
 		mask = "bg/bg_memory",
@@ -26731,7 +33002,10 @@ pg.base.memory_template = {
 		story = "XIYATU4",
 		id = 2564,
 		icon = "memory_xiyatu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIYATU4"
+		}
 	},
 	[2565] = {
 		mask = "bg/bg_memory",
@@ -26742,7 +33016,10 @@ pg.base.memory_template = {
 		story = "XIYATU5",
 		id = 2565,
 		icon = "memory_xiyatu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIYATU5"
+		}
 	},
 	[2566] = {
 		mask = "bg/bg_memory",
@@ -26753,7 +33030,10 @@ pg.base.memory_template = {
 		story = "XIYATU6",
 		id = 2566,
 		icon = "memory_xiyatu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIYATU6"
+		}
 	},
 	[2567] = {
 		mask = "bg/bg_memory",
@@ -26764,7 +33044,10 @@ pg.base.memory_template = {
 		story = "XIYATU7",
 		id = 2567,
 		icon = "memory_xiyatu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIYATU7"
+		}
 	},
 	[2571] = {
 		mask = "bg/bg_memory",
@@ -26775,7 +33058,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU1",
 		id = 2571,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU1"
+		}
 	},
 	[2572] = {
 		mask = "bg/bg_memory",
@@ -26786,7 +33072,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU2",
 		id = 2572,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU2"
+		}
 	},
 	[2573] = {
 		mask = "bg/bg_memory",
@@ -26797,7 +33086,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU3",
 		id = 2573,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU3"
+		}
 	},
 	[2574] = {
 		mask = "bg/bg_memory",
@@ -26808,7 +33100,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU4",
 		id = 2574,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU4"
+		}
 	},
 	[2575] = {
 		mask = "bg/bg_memory",
@@ -26819,7 +33114,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU5",
 		id = 2575,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU5"
+		}
 	},
 	[2576] = {
 		mask = "bg/bg_memory",
@@ -26830,7 +33128,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU6",
 		id = 2576,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU6"
+		}
 	},
 	[2577] = {
 		mask = "bg/bg_memory",
@@ -26841,7 +33142,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU7",
 		id = 2577,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU7"
+		}
 	},
 	[2578] = {
 		mask = "bg/bg_memory",
@@ -26852,7 +33156,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU8",
 		id = 2578,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU8"
+		}
 	},
 	[2579] = {
 		mask = "bg/bg_memory",
@@ -26863,7 +33170,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU9",
 		id = 2579,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU9"
+		}
 	},
 	[2580] = {
 		mask = "bg/bg_memory",
@@ -26874,7 +33184,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU10",
 		id = 2580,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU10"
+		}
 	},
 	[2581] = {
 		mask = "bg/bg_memory",
@@ -26885,7 +33198,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU11",
 		id = 2581,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU11"
+		}
 	},
 	[2582] = {
 		mask = "bg/bg_memory",
@@ -26896,7 +33212,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU12",
 		id = 2582,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU12"
+		}
 	},
 	[2583] = {
 		mask = "bg/bg_memory",
@@ -26907,7 +33226,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU13",
 		id = 2583,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU13"
+		}
 	},
 	[2584] = {
 		mask = "bg/bg_memory",
@@ -26918,7 +33240,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU14",
 		id = 2584,
 		icon = "memory_yanjinchenxu1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU14"
+		}
 	},
 	[2585] = {
 		mask = "bg/bg_memory",
@@ -26929,7 +33254,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU15",
 		id = 2585,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU15"
+		}
 	},
 	[2586] = {
 		mask = "bg/bg_memory",
@@ -26940,7 +33268,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU16",
 		id = 2586,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU16"
+		}
 	},
 	[2587] = {
 		mask = "bg/bg_memory",
@@ -26951,7 +33282,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU17",
 		id = 2587,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU17"
+		}
 	},
 	[2588] = {
 		mask = "bg/bg_memory",
@@ -26962,7 +33296,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU18",
 		id = 2588,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU18"
+		}
 	},
 	[2589] = {
 		mask = "bg/bg_memory",
@@ -26973,7 +33310,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU19",
 		id = 2589,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU19"
+		}
 	},
 	[2590] = {
 		mask = "bg/bg_memory",
@@ -26984,7 +33324,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU20",
 		id = 2590,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU20"
+		}
 	},
 	[2591] = {
 		mask = "bg/bg_memory",
@@ -26995,7 +33338,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU21",
 		id = 2591,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU21"
+		}
 	},
 	[2592] = {
 		mask = "bg/bg_memory",
@@ -27006,7 +33352,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU22",
 		id = 2592,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU22"
+		}
 	},
 	[2593] = {
 		mask = "bg/bg_memory",
@@ -27017,7 +33366,10 @@ pg.base.memory_template = {
 		story = "1715002",
 		id = 2593,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1715002"
+		}
 	},
 	[2594] = {
 		mask = "bg/bg_memory",
@@ -27028,7 +33380,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU24",
 		id = 2594,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU24"
+		}
 	},
 	[2595] = {
 		mask = "bg/bg_memory",
@@ -27039,7 +33394,10 @@ pg.base.memory_template = {
 		story = "1715003",
 		id = 2595,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1715003"
+		}
 	},
 	[2596] = {
 		mask = "bg/bg_memory",
@@ -27050,7 +33408,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU26",
 		id = 2596,
 		icon = "memory_yanjinchenxu2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU26"
+		}
 	},
 	[2597] = {
 		mask = "bg/bg_memory",
@@ -27061,7 +33422,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU27",
 		id = 2597,
 		icon = "memory_yanjinchenxu3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU27"
+		}
 	},
 	[2598] = {
 		mask = "bg/bg_memory",
@@ -27072,7 +33436,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU28",
 		id = 2598,
 		icon = "memory_yanjinchenxu3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU28"
+		}
 	},
 	[2599] = {
 		mask = "bg/bg_memory",
@@ -27083,7 +33450,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU29",
 		id = 2599,
 		icon = "memory_yanjinchenxu3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU29"
+		}
 	},
 	[2600] = {
 		mask = "bg/bg_memory",
@@ -27094,7 +33464,10 @@ pg.base.memory_template = {
 		story = "YANJINCHENXU30",
 		id = 2600,
 		icon = "memory_yanjinchenxu3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANJINCHENXU30"
+		}
 	},
 	[2601] = {
 		mask = "bg/bg_memory",
@@ -27105,7 +33478,10 @@ pg.base.memory_template = {
 		story = "TUOLICHAILI1",
 		id = 2601,
 		icon = "memory_tuolichaili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TUOLICHAILI1"
+		}
 	},
 	[2602] = {
 		mask = "bg/bg_memory",
@@ -27116,7 +33492,10 @@ pg.base.memory_template = {
 		story = "TUOLICHAILI2",
 		id = 2602,
 		icon = "memory_tuolichaili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TUOLICHAILI2"
+		}
 	},
 	[2603] = {
 		mask = "bg/bg_memory",
@@ -27127,7 +33506,10 @@ pg.base.memory_template = {
 		story = "TUOLICHAILI3",
 		id = 2603,
 		icon = "memory_tuolichaili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TUOLICHAILI3"
+		}
 	},
 	[2604] = {
 		mask = "bg/bg_memory",
@@ -27138,7 +33520,10 @@ pg.base.memory_template = {
 		story = "TUOLICHAILI4",
 		id = 2604,
 		icon = "memory_tuolichaili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TUOLICHAILI4"
+		}
 	},
 	[2605] = {
 		mask = "bg/bg_memory",
@@ -27149,7 +33534,10 @@ pg.base.memory_template = {
 		story = "TUOLICHAILI5",
 		id = 2605,
 		icon = "memory_tuolichaili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TUOLICHAILI5"
+		}
 	},
 	[2606] = {
 		mask = "bg/bg_memory",
@@ -27160,7 +33548,10 @@ pg.base.memory_template = {
 		story = "TUOLICHAILI6",
 		id = 2606,
 		icon = "memory_tuolichaili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TUOLICHAILI6"
+		}
 	},
 	[2607] = {
 		mask = "bg/bg_memory",
@@ -27171,7 +33562,10 @@ pg.base.memory_template = {
 		story = "TUOLICHAILI7",
 		id = 2607,
 		icon = "memory_tuolichaili",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TUOLICHAILI7"
+		}
 	},
 	[2611] = {
 		mask = "bg/bg_memory",
@@ -27182,7 +33576,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO1",
 		id = 2611,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO1"
+		}
 	},
 	[2612] = {
 		mask = "bg/bg_memory",
@@ -27193,7 +33590,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO2",
 		id = 2612,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO2"
+		}
 	},
 	[2613] = {
 		mask = "bg/bg_memory",
@@ -27204,7 +33604,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO3",
 		id = 2613,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO3"
+		}
 	},
 	[2614] = {
 		mask = "bg/bg_memory",
@@ -27215,7 +33618,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO4",
 		id = 2614,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO4"
+		}
 	},
 	[2615] = {
 		mask = "bg/bg_memory",
@@ -27226,7 +33632,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO5",
 		id = 2615,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO5"
+		}
 	},
 	[2616] = {
 		mask = "bg/bg_memory",
@@ -27237,7 +33646,10 @@ pg.base.memory_template = {
 		story = "1719601",
 		id = 2616,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1719601"
+		}
 	},
 	[2617] = {
 		mask = "bg/bg_memory",
@@ -27248,7 +33660,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO7",
 		id = 2617,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO7"
+		}
 	},
 	[2618] = {
 		mask = "bg/bg_memory",
@@ -27259,7 +33674,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO8",
 		id = 2618,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO8"
+		}
 	},
 	[2619] = {
 		mask = "bg/bg_memory",
@@ -27270,7 +33688,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO9",
 		id = 2619,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO9"
+		}
 	},
 	[2620] = {
 		mask = "bg/bg_memory",
@@ -27281,7 +33702,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO10",
 		id = 2620,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO10"
+		}
 	},
 	[2621] = {
 		mask = "bg/bg_memory",
@@ -27292,7 +33716,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO11",
 		id = 2621,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO11"
+		}
 	},
 	[2622] = {
 		mask = "bg/bg_memory",
@@ -27303,7 +33730,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO12",
 		id = 2622,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO12"
+		}
 	},
 	[2623] = {
 		mask = "bg/bg_memory",
@@ -27314,7 +33744,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO13",
 		id = 2623,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO13"
+		}
 	},
 	[2624] = {
 		mask = "bg/bg_memory",
@@ -27325,7 +33758,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO14",
 		id = 2624,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO14"
+		}
 	},
 	[2625] = {
 		mask = "bg/bg_memory",
@@ -27336,7 +33772,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO15",
 		id = 2625,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO15"
+		}
 	},
 	[2626] = {
 		mask = "bg/bg_memory",
@@ -27347,7 +33786,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO16",
 		id = 2626,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO16"
+		}
 	},
 	[2627] = {
 		mask = "bg/bg_memory",
@@ -27358,7 +33800,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO17",
 		id = 2627,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO17"
+		}
 	},
 	[2628] = {
 		mask = "bg/bg_memory",
@@ -27369,7 +33814,10 @@ pg.base.memory_template = {
 		story = "1719602",
 		id = 2628,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1719602"
+		}
 	},
 	[2629] = {
 		mask = "bg/bg_memory",
@@ -27380,7 +33828,10 @@ pg.base.memory_template = {
 		story = "JIDIFENGBAO19",
 		id = 2629,
 		icon = "memory_jidifengbao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIDIFENGBAO19"
+		}
 	},
 	[2631] = {
 		mask = "bg/bg_memory",
@@ -27391,7 +33842,10 @@ pg.base.memory_template = {
 		story = "RONGXUEDEYAOYUE1",
 		id = 2631,
 		icon = "memory_rongxuedeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RONGXUEDEYAOYUE1"
+		}
 	},
 	[2632] = {
 		mask = "bg/bg_memory",
@@ -27402,7 +33856,10 @@ pg.base.memory_template = {
 		story = "RONGXUEDEYAOYUE2",
 		id = 2632,
 		icon = "memory_rongxuedeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RONGXUEDEYAOYUE2"
+		}
 	},
 	[2633] = {
 		mask = "bg/bg_memory",
@@ -27413,7 +33870,10 @@ pg.base.memory_template = {
 		story = "RONGXUEDEYAOYUE3",
 		id = 2633,
 		icon = "memory_rongxuedeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RONGXUEDEYAOYUE3"
+		}
 	},
 	[2634] = {
 		mask = "bg/bg_memory",
@@ -27424,7 +33884,10 @@ pg.base.memory_template = {
 		story = "RONGXUEDEYAOYUE4",
 		id = 2634,
 		icon = "memory_rongxuedeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RONGXUEDEYAOYUE4"
+		}
 	},
 	[2635] = {
 		mask = "bg/bg_memory",
@@ -27435,7 +33898,10 @@ pg.base.memory_template = {
 		story = "RONGXUEDEYAOYUE5",
 		id = 2635,
 		icon = "memory_rongxuedeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RONGXUEDEYAOYUE5"
+		}
 	},
 	[2641] = {
 		mask = "bg/bg_memory",
@@ -27446,7 +33912,10 @@ pg.base.memory_template = {
 		story = "YURENJIE1",
 		id = 2641,
 		icon = "memory_yurenjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YURENJIE1"
+		}
 	},
 	[2642] = {
 		mask = "bg/bg_memory",
@@ -27457,7 +33926,10 @@ pg.base.memory_template = {
 		story = "YURENJIE2",
 		id = 2642,
 		icon = "memory_yurenjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YURENJIE2"
+		}
 	},
 	[2643] = {
 		mask = "bg/bg_memory",
@@ -27468,7 +33940,10 @@ pg.base.memory_template = {
 		story = "1360004",
 		id = 2643,
 		icon = "memory_yurenjie",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1360004"
+		}
 	},
 	[2651] = {
 		mask = "bg/bg_memory",
@@ -27479,7 +33954,10 @@ pg.base.memory_template = {
 		story = "LIEKEXINGDUN1",
 		id = 2651,
 		icon = "memory_liekexingdun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIEKEXINGDUN1"
+		}
 	},
 	[2652] = {
 		mask = "bg/bg_memory",
@@ -27490,7 +33968,10 @@ pg.base.memory_template = {
 		story = "LIEKEXINGDUN2",
 		id = 2652,
 		icon = "memory_liekexingdun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIEKEXINGDUN2"
+		}
 	},
 	[2653] = {
 		mask = "bg/bg_memory",
@@ -27501,7 +33982,10 @@ pg.base.memory_template = {
 		story = "LIEKEXINGDUN3",
 		id = 2653,
 		icon = "memory_liekexingdun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIEKEXINGDUN3"
+		}
 	},
 	[2654] = {
 		mask = "bg/bg_memory",
@@ -27512,7 +33996,10 @@ pg.base.memory_template = {
 		story = "LIEKEXINGDUN4",
 		id = 2654,
 		icon = "memory_liekexingdun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIEKEXINGDUN4"
+		}
 	},
 	[2655] = {
 		mask = "bg/bg_memory",
@@ -27523,7 +34010,10 @@ pg.base.memory_template = {
 		story = "LIEKEXINGDUN5",
 		id = 2655,
 		icon = "memory_liekexingdun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIEKEXINGDUN5"
+		}
 	},
 	[2656] = {
 		mask = "bg/bg_memory",
@@ -27534,7 +34024,10 @@ pg.base.memory_template = {
 		story = "LIEKEXINGDUN6",
 		id = 2656,
 		icon = "memory_liekexingdun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIEKEXINGDUN6"
+		}
 	},
 	[2657] = {
 		mask = "bg/bg_memory",
@@ -27545,7 +34038,10 @@ pg.base.memory_template = {
 		story = "LIEKEXINGDUN7",
 		id = 2657,
 		icon = "memory_liekexingdun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LIEKEXINGDUN7"
+		}
 	},
 	[2661] = {
 		mask = "bg/bg_memory",
@@ -27556,7 +34052,10 @@ pg.base.memory_template = {
 		story = "ZHIZHEYUZHIZHU1",
 		id = 2661,
 		icon = "memory_zhizheyuzhizhu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIZHEYUZHIZHU1"
+		}
 	},
 	[2662] = {
 		mask = "bg/bg_memory",
@@ -27567,7 +34066,10 @@ pg.base.memory_template = {
 		story = "ZHIZHEYUZHIZHU2",
 		id = 2662,
 		icon = "memory_zhizheyuzhizhu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIZHEYUZHIZHU2"
+		}
 	},
 	[2663] = {
 		mask = "bg/bg_memory",
@@ -27578,7 +34080,10 @@ pg.base.memory_template = {
 		story = "ZHIZHEYUZHIZHU3",
 		id = 2663,
 		icon = "memory_zhizheyuzhizhu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIZHEYUZHIZHU3"
+		}
 	},
 	[2664] = {
 		mask = "bg/bg_memory",
@@ -27589,7 +34094,10 @@ pg.base.memory_template = {
 		story = "ZHIZHEYUZHIZHU4",
 		id = 2664,
 		icon = "memory_zhizheyuzhizhu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIZHEYUZHIZHU4"
+		}
 	},
 	[2665] = {
 		mask = "bg/bg_memory",
@@ -27600,7 +34108,10 @@ pg.base.memory_template = {
 		story = "ZHIZHEYUZHIZHU5",
 		id = 2665,
 		icon = "memory_zhizheyuzhizhu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIZHEYUZHIZHU5"
+		}
 	},
 	[2666] = {
 		mask = "bg/bg_memory",
@@ -27611,7 +34122,10 @@ pg.base.memory_template = {
 		story = "ZHIZHEYUZHIZHU6",
 		id = 2666,
 		icon = "memory_zhizheyuzhizhu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIZHEYUZHIZHU6"
+		}
 	},
 	[2667] = {
 		mask = "bg/bg_memory",
@@ -27622,7 +34136,10 @@ pg.base.memory_template = {
 		story = "ZHIZHEYUZHIZHU7",
 		id = 2667,
 		icon = "memory_zhizheyuzhizhu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHIZHEYUZHIZHU7"
+		}
 	},
 	[2671] = {
 		mask = "bg/bg_memory",
@@ -27633,7 +34150,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN1",
 		id = 2671,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN1"
+		}
 	},
 	[2672] = {
 		mask = "bg/bg_memory",
@@ -27644,7 +34164,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN2",
 		id = 2672,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN2"
+		}
 	},
 	[2673] = {
 		mask = "bg/bg_memory",
@@ -27655,7 +34178,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN3",
 		id = 2673,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN3"
+		}
 	},
 	[2674] = {
 		mask = "bg/bg_memory",
@@ -27666,7 +34192,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN4",
 		id = 2674,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN4"
+		}
 	},
 	[2675] = {
 		mask = "bg/bg_memory",
@@ -27677,7 +34206,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN5",
 		id = 2675,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN5"
+		}
 	},
 	[2676] = {
 		mask = "bg/bg_memory",
@@ -27688,7 +34220,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN6",
 		id = 2676,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN6"
+		}
 	},
 	[2677] = {
 		mask = "bg/bg_memory",
@@ -27699,7 +34234,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN7",
 		id = 2677,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN7"
+		}
 	},
 	[2678] = {
 		mask = "bg/bg_memory",
@@ -27710,7 +34248,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN8",
 		id = 2678,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN8"
+		}
 	},
 	[2679] = {
 		mask = "bg/bg_memory",
@@ -27721,7 +34262,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN9",
 		id = 2679,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN9"
+		}
 	},
 	[2680] = {
 		mask = "bg/bg_memory",
@@ -27732,7 +34276,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN10",
 		id = 2680,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN10"
+		}
 	},
 	[2681] = {
 		mask = "bg/bg_memory",
@@ -27743,7 +34290,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN11",
 		id = 2681,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN11"
+		}
 	},
 	[2682] = {
 		mask = "bg/bg_memory",
@@ -27754,7 +34304,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN12",
 		id = 2682,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN12"
+		}
 	},
 	[2683] = {
 		mask = "bg/bg_memory",
@@ -27765,7 +34318,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN13",
 		id = 2683,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN13"
+		}
 	},
 	[2684] = {
 		mask = "bg/bg_memory",
@@ -27776,7 +34332,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN14",
 		id = 2684,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN14"
+		}
 	},
 	[2685] = {
 		mask = "bg/bg_memory",
@@ -27787,7 +34346,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN15",
 		id = 2685,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN15"
+		}
 	},
 	[2686] = {
 		mask = "bg/bg_memory",
@@ -27798,7 +34360,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN16",
 		id = 2686,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN16"
+		}
 	},
 	[2687] = {
 		mask = "bg/bg_memory",
@@ -27809,7 +34374,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN17",
 		id = 2687,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN17"
+		}
 	},
 	[2688] = {
 		mask = "bg/bg_memory",
@@ -27820,7 +34388,10 @@ pg.base.memory_template = {
 		story = "1725002",
 		id = 2688,
 		icon = "memory_kongxiangjiaohuidian_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1725002"
+		}
 	},
 	[2689] = {
 		mask = "bg/bg_memory",
@@ -27831,7 +34402,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN19",
 		id = 2689,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN19"
+		}
 	},
 	[2690] = {
 		mask = "bg/bg_memory",
@@ -27842,7 +34416,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN20",
 		id = 2690,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN20"
+		}
 	},
 	[2691] = {
 		mask = "bg/bg_memory",
@@ -27853,7 +34430,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN21",
 		id = 2691,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN21"
+		}
 	},
 	[2692] = {
 		mask = "bg/bg_memory",
@@ -27864,7 +34444,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN22",
 		id = 2692,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN22"
+		}
 	},
 	[2693] = {
 		mask = "bg/bg_memory",
@@ -27875,7 +34458,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN23",
 		id = 2693,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN23"
+		}
 	},
 	[2694] = {
 		mask = "bg/bg_memory",
@@ -27886,7 +34472,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN24",
 		id = 2694,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN24"
+		}
 	},
 	[2695] = {
 		mask = "bg/bg_memory",
@@ -27897,7 +34486,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN25",
 		id = 2695,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN25"
+		}
 	},
 	[2696] = {
 		mask = "bg/bg_memory",
@@ -27908,7 +34500,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN26",
 		id = 2696,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN26"
+		}
 	},
 	[2697] = {
 		mask = "bg/bg_memory",
@@ -27919,7 +34514,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN27",
 		id = 2697,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN27"
+		}
 	},
 	[2698] = {
 		mask = "bg/bg_memory",
@@ -27930,7 +34528,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN28",
 		id = 2698,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN28"
+		}
 	},
 	[2699] = {
 		mask = "bg/bg_memory",
@@ -27941,7 +34542,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN29",
 		id = 2699,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN29"
+		}
 	},
 	[2700] = {
 		mask = "bg/bg_memory",
@@ -27952,7 +34556,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN30",
 		id = 2700,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN30"
+		}
 	},
 	[2701] = {
 		mask = "bg/bg_memory",
@@ -27963,7 +34570,10 @@ pg.base.memory_template = {
 		story = "1725003",
 		id = 2701,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1725003"
+		}
 	},
 	[2702] = {
 		mask = "bg/bg_memory",
@@ -27974,7 +34584,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN32",
 		id = 2702,
 		icon = "memory_kongxiangjiaohuidian_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN32"
+		}
 	},
 	[2703] = {
 		mask = "bg/bg_memory",
@@ -27985,7 +34598,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN33",
 		id = 2703,
 		icon = "memory_kongxiangjiaohuidian_3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN33"
+		}
 	},
 	[2704] = {
 		mask = "bg/bg_memory",
@@ -27996,7 +34612,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN34",
 		id = 2704,
 		icon = "memory_kongxiangjiaohuidian_3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN34"
+		}
 	},
 	[2705] = {
 		mask = "bg/bg_memory",
@@ -28007,7 +34626,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN35",
 		id = 2705,
 		icon = "memory_kongxiangjiaohuidian_3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN35"
+		}
 	},
 	[2706] = {
 		mask = "bg/bg_memory",
@@ -28018,7 +34640,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN36",
 		id = 2706,
 		icon = "memory_kongxiangjiaohuidian_3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN36"
+		}
 	},
 	[2707] = {
 		mask = "bg/bg_memory",
@@ -28029,7 +34654,10 @@ pg.base.memory_template = {
 		story = "KONGXIANGJIAOHUIDIAN37",
 		id = 2707,
 		icon = "memory_kongxiangjiaohuidian_3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KONGXIANGJIAOHUIDIAN37"
+		}
 	},
 	[2711] = {
 		mask = "bg/bg_memory",
@@ -28040,7 +34668,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG1",
 		id = 2711,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG1"
+		}
 	},
 	[2712] = {
 		mask = "bg/bg_memory",
@@ -28051,7 +34682,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG2",
 		id = 2712,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG2"
+		}
 	},
 	[2713] = {
 		mask = "bg/bg_memory",
@@ -28062,7 +34696,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG3",
 		id = 2713,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG3"
+		}
 	},
 	[2714] = {
 		mask = "bg/bg_memory",
@@ -28073,7 +34710,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG4",
 		id = 2714,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG4"
+		}
 	},
 	[2715] = {
 		mask = "bg/bg_memory",
@@ -28084,7 +34724,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG5",
 		id = 2715,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG5"
+		}
 	},
 	[2716] = {
 		mask = "bg/bg_memory",
@@ -28095,7 +34738,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG6",
 		id = 2716,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG6"
+		}
 	},
 	[2717] = {
 		mask = "bg/bg_memory",
@@ -28106,7 +34752,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG7",
 		id = 2717,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG7"
+		}
 	},
 	[2718] = {
 		mask = "bg/bg_memory",
@@ -28117,7 +34766,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG8",
 		id = 2718,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG8"
+		}
 	},
 	[2719] = {
 		mask = "bg/bg_memory",
@@ -28128,7 +34780,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG9",
 		id = 2719,
 		icon = "memory_haidaorichang_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG9"
+		}
 	},
 	[2720] = {
 		mask = "bg/bg_memory",
@@ -28139,7 +34794,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG10",
 		id = 2720,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG10"
+		}
 	},
 	[2721] = {
 		mask = "bg/bg_memory",
@@ -28150,7 +34808,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG11",
 		id = 2721,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG11"
+		}
 	},
 	[2722] = {
 		mask = "bg/bg_memory",
@@ -28161,7 +34822,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG12",
 		id = 2722,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG12"
+		}
 	},
 	[2723] = {
 		mask = "bg/bg_memory",
@@ -28172,7 +34836,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG13",
 		id = 2723,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG13"
+		}
 	},
 	[2724] = {
 		mask = "bg/bg_memory",
@@ -28183,7 +34850,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG14",
 		id = 2724,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG14"
+		}
 	},
 	[2725] = {
 		mask = "bg/bg_memory",
@@ -28194,7 +34864,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG15",
 		id = 2725,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG15"
+		}
 	},
 	[2726] = {
 		mask = "bg/bg_memory",
@@ -28205,7 +34878,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG16",
 		id = 2726,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG16"
+		}
 	},
 	[2727] = {
 		mask = "bg/bg_memory",
@@ -28216,7 +34892,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG17",
 		id = 2727,
 		icon = "memory_haidaorichang_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG17"
+		}
 	},
 	[2728] = {
 		mask = "bg/bg_memory",
@@ -28227,7 +34906,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG18",
 		id = 2728,
 		icon = "memory_haidaorichang_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG18"
+		}
 	},
 	[2729] = {
 		mask = "bg/bg_memory",
@@ -28238,7 +34920,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG19",
 		id = 2729,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG19"
+		}
 	},
 	[2730] = {
 		mask = "bg/bg_memory",
@@ -28249,7 +34934,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG20",
 		id = 2730,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG20"
+		}
 	},
 	[2731] = {
 		mask = "bg/bg_memory",
@@ -28260,7 +34948,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG21",
 		id = 2731,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG21"
+		}
 	},
 	[2732] = {
 		mask = "bg/bg_memory",
@@ -28271,7 +34962,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG22",
 		id = 2732,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG22"
+		}
 	},
 	[2733] = {
 		mask = "bg/bg_memory",
@@ -28282,7 +34976,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG23",
 		id = 2733,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG23"
+		}
 	},
 	[2734] = {
 		mask = "bg/bg_memory",
@@ -28293,7 +34990,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG24",
 		id = 2734,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG24"
+		}
 	},
 	[2735] = {
 		mask = "bg/bg_memory",
@@ -28304,7 +35004,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG25",
 		id = 2735,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG25"
+		}
 	},
 	[2736] = {
 		mask = "bg/bg_memory",
@@ -28315,7 +35018,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG26",
 		id = 2736,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG26"
+		}
 	},
 	[2737] = {
 		mask = "bg/bg_memory",
@@ -28326,7 +35032,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG27",
 		id = 2737,
 		icon = "memory_haidaorichang_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG27"
+		}
 	},
 	[2738] = {
 		mask = "bg/bg_memory",
@@ -28337,7 +35046,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG28",
 		id = 2738,
 		icon = "memory_haidaorichang_2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG28"
+		}
 	},
 	[2739] = {
 		mask = "bg/bg_memory",
@@ -28348,7 +35060,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG29",
 		id = 2739,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG29"
+		}
 	},
 	[2740] = {
 		mask = "bg/bg_memory",
@@ -28359,7 +35074,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG30",
 		id = 2740,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG30"
+		}
 	},
 	[2741] = {
 		mask = "bg/bg_memory",
@@ -28370,7 +35088,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG31",
 		id = 2741,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG31"
+		}
 	},
 	[2742] = {
 		mask = "bg/bg_memory",
@@ -28381,7 +35102,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG32",
 		id = 2742,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG32"
+		}
 	},
 	[2743] = {
 		mask = "bg/bg_memory",
@@ -28392,7 +35116,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG33",
 		id = 2743,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG33"
+		}
 	},
 	[2744] = {
 		mask = "bg/bg_memory",
@@ -28403,7 +35130,10 @@ pg.base.memory_template = {
 		story = "HAIDAORICHANG34",
 		id = 2744,
 		icon = "memory_haidaorichang_1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAORICHANG34"
+		}
 	},
 	[2751] = {
 		mask = "bg/bg_memory",
@@ -28414,7 +35144,10 @@ pg.base.memory_template = {
 		story = "QINGCHAYINYUN1",
 		id = 2751,
 		icon = "memory_qingchayinyun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGCHAYINYUN1"
+		}
 	},
 	[2761] = {
 		mask = "bg/bg_memory",
@@ -28425,7 +35158,10 @@ pg.base.memory_template = {
 		story = "YADE1",
 		id = 2761,
 		icon = "memory_yade",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YADE1"
+		}
 	},
 	[2762] = {
 		mask = "bg/bg_memory",
@@ -28436,7 +35172,10 @@ pg.base.memory_template = {
 		story = "YADE2",
 		id = 2762,
 		icon = "memory_yade",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YADE2"
+		}
 	},
 	[2763] = {
 		mask = "bg/bg_memory",
@@ -28447,7 +35186,10 @@ pg.base.memory_template = {
 		story = "YADE3",
 		id = 2763,
 		icon = "memory_yade",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YADE3"
+		}
 	},
 	[2764] = {
 		mask = "bg/bg_memory",
@@ -28458,7 +35200,10 @@ pg.base.memory_template = {
 		story = "YADE4",
 		id = 2764,
 		icon = "memory_yade",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YADE4"
+		}
 	},
 	[2765] = {
 		mask = "bg/bg_memory",
@@ -28469,7 +35214,10 @@ pg.base.memory_template = {
 		story = "YADE5",
 		id = 2765,
 		icon = "memory_yade",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YADE5"
+		}
 	},
 	[2766] = {
 		mask = "bg/bg_memory",
@@ -28480,7 +35228,10 @@ pg.base.memory_template = {
 		story = "YADE6",
 		id = 2766,
 		icon = "memory_yade",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YADE6"
+		}
 	},
 	[2767] = {
 		mask = "bg/bg_memory",
@@ -28491,7 +35242,10 @@ pg.base.memory_template = {
 		story = "YADE7",
 		id = 2767,
 		icon = "memory_yade",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YADE7"
+		}
 	},
 	[2771] = {
 		mask = "bg/bg_memory",
@@ -28502,7 +35256,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGDETIELANQIANGWEI1",
 		id = 2771,
 		icon = "memory_saidelici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGDETIELANQIANGWEI1"
+		}
 	},
 	[2772] = {
 		mask = "bg/bg_memory",
@@ -28513,7 +35270,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGDETIELANQIANGWEI2",
 		id = 2772,
 		icon = "memory_saidelici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGDETIELANQIANGWEI2"
+		}
 	},
 	[2773] = {
 		mask = "bg/bg_memory",
@@ -28524,7 +35284,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGDETIELANQIANGWEI3",
 		id = 2773,
 		icon = "memory_saidelici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGDETIELANQIANGWEI3"
+		}
 	},
 	[2774] = {
 		mask = "bg/bg_memory",
@@ -28535,7 +35298,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGDETIELANQIANGWEI4",
 		id = 2774,
 		icon = "memory_saidelici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGDETIELANQIANGWEI4"
+		}
 	},
 	[2775] = {
 		mask = "bg/bg_memory",
@@ -28546,7 +35312,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGDETIELANQIANGWEI5",
 		id = 2775,
 		icon = "memory_saidelici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGDETIELANQIANGWEI5"
+		}
 	},
 	[2776] = {
 		mask = "bg/bg_memory",
@@ -28557,7 +35326,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGDETIELANQIANGWEI6",
 		id = 2776,
 		icon = "memory_saidelici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGDETIELANQIANGWEI6"
+		}
 	},
 	[2777] = {
 		mask = "bg/bg_memory",
@@ -28568,7 +35340,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGDETIELANQIANGWEI7",
 		id = 2777,
 		icon = "memory_saidelici",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGDETIELANQIANGWEI7"
+		}
 	},
 	[2781] = {
 		mask = "bg/bg_memory",
@@ -28579,7 +35354,10 @@ pg.base.memory_template = {
 		story = "PIANRUOFEIXIAN1",
 		id = 2781,
 		icon = "memory_pianruofeixian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PIANRUOFEIXIAN1"
+		}
 	},
 	[2791] = {
 		mask = "bg/bg_memory",
@@ -28590,7 +35368,10 @@ pg.base.memory_template = {
 		story = "GELIQIYAGONGDOU1",
 		id = 2791,
 		icon = "memory_lvzhouwangshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELIQIYAGONGDOU1"
+		}
 	},
 	[2792] = {
 		mask = "bg/bg_memory",
@@ -28601,7 +35382,10 @@ pg.base.memory_template = {
 		story = "GELIQIYAGONGDOU2",
 		id = 2792,
 		icon = "memory_lvzhouwangshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELIQIYAGONGDOU2"
+		}
 	},
 	[2793] = {
 		mask = "bg/bg_memory",
@@ -28612,7 +35396,10 @@ pg.base.memory_template = {
 		story = "GELIQIYAGONGDOU3",
 		id = 2793,
 		icon = "memory_lvzhouwangshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELIQIYAGONGDOU3"
+		}
 	},
 	[2794] = {
 		mask = "bg/bg_memory",
@@ -28623,7 +35410,10 @@ pg.base.memory_template = {
 		story = "GELIQIYAGONGDOU4",
 		id = 2794,
 		icon = "memory_lvzhouwangshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELIQIYAGONGDOU4"
+		}
 	},
 	[2795] = {
 		mask = "bg/bg_memory",
@@ -28634,7 +35424,10 @@ pg.base.memory_template = {
 		story = "GELIQIYAGONGDOU5",
 		id = 2795,
 		icon = "memory_lvzhouwangshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GELIQIYAGONGDOU5"
+		}
 	},
 	[2801] = {
 		mask = "bg/bg_memory",
@@ -28645,7 +35438,10 @@ pg.base.memory_template = {
 		story = "BAILINGYUMEIMENG1",
 		id = 2801,
 		icon = "memory_bailingyumeimeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BAILINGYUMEIMENG1"
+		}
 	},
 	[2802] = {
 		mask = "bg/bg_memory",
@@ -28656,7 +35452,10 @@ pg.base.memory_template = {
 		story = "BAILINGYUMEIMENG2",
 		id = 2802,
 		icon = "memory_bailingyumeimeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BAILINGYUMEIMENG2"
+		}
 	},
 	[2803] = {
 		mask = "bg/bg_memory",
@@ -28667,7 +35466,10 @@ pg.base.memory_template = {
 		story = "BAILINGYUMEIMENG3",
 		id = 2803,
 		icon = "memory_bailingyumeimeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BAILINGYUMEIMENG3"
+		}
 	},
 	[2811] = {
 		mask = "bg/bg_memory",
@@ -28678,7 +35480,10 @@ pg.base.memory_template = {
 		story = "DAFENQI1",
 		id = 2811,
 		icon = "memory_dafenqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENQI1"
+		}
 	},
 	[2812] = {
 		mask = "bg/bg_memory",
@@ -28689,7 +35494,10 @@ pg.base.memory_template = {
 		story = "DAFENQI2",
 		id = 2812,
 		icon = "memory_dafenqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENQI2"
+		}
 	},
 	[2813] = {
 		mask = "bg/bg_memory",
@@ -28700,7 +35508,10 @@ pg.base.memory_template = {
 		story = "DAFENQI3",
 		id = 2813,
 		icon = "memory_dafenqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENQI3"
+		}
 	},
 	[2814] = {
 		mask = "bg/bg_memory",
@@ -28711,7 +35522,10 @@ pg.base.memory_template = {
 		story = "DAFENQI4",
 		id = 2814,
 		icon = "memory_dafenqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENQI4"
+		}
 	},
 	[2815] = {
 		mask = "bg/bg_memory",
@@ -28722,7 +35536,10 @@ pg.base.memory_template = {
 		story = "DAFENQI5",
 		id = 2815,
 		icon = "memory_dafenqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENQI5"
+		}
 	},
 	[2816] = {
 		mask = "bg/bg_memory",
@@ -28733,7 +35550,10 @@ pg.base.memory_template = {
 		story = "DAFENQI6",
 		id = 2816,
 		icon = "memory_dafenqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENQI6"
+		}
 	},
 	[2817] = {
 		mask = "bg/bg_memory",
@@ -28744,7 +35564,10 @@ pg.base.memory_template = {
 		story = "DAFENQI7",
 		id = 2817,
 		icon = "memory_dafenqi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DAFENQI7"
+		}
 	},
 	[2820] = {
 		mask = "bg/bg_memory",
@@ -28755,7 +35578,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE1",
 		id = 2820,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE1"
+		}
 	},
 	[2821] = {
 		mask = "bg/bg_memory",
@@ -28766,7 +35592,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE2",
 		id = 2821,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE2"
+		}
 	},
 	[2822] = {
 		mask = "bg/bg_memory",
@@ -28777,7 +35606,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE3",
 		id = 2822,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE3"
+		}
 	},
 	[2823] = {
 		mask = "bg/bg_memory",
@@ -28788,7 +35620,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE4",
 		id = 2823,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE4"
+		}
 	},
 	[2824] = {
 		mask = "bg/bg_memory",
@@ -28799,7 +35634,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE5",
 		id = 2824,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE5"
+		}
 	},
 	[2825] = {
 		mask = "bg/bg_memory",
@@ -28810,7 +35648,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE6",
 		id = 2825,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE6"
+		}
 	},
 	[2826] = {
 		mask = "bg/bg_memory",
@@ -28821,7 +35662,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE7",
 		id = 2826,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE7"
+		}
 	},
 	[2827] = {
 		mask = "bg/bg_memory",
@@ -28832,7 +35676,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE8",
 		id = 2827,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE8"
+		}
 	},
 	[2828] = {
 		mask = "bg/bg_memory",
@@ -28843,7 +35690,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE9",
 		id = 2828,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE9"
+		}
 	},
 	[2829] = {
 		mask = "bg/bg_memory",
@@ -28854,7 +35704,10 @@ pg.base.memory_template = {
 		story = "ZOUXIANGYUANWEIZHIGE10",
 		id = 2829,
 		icon = "memory_zouxiangyuanweizhige",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZOUXIANGYUANWEIZHIGE10"
+		}
 	},
 	[2831] = {
 		mask = "bg/bg_memory",
@@ -28865,7 +35718,10 @@ pg.base.memory_template = {
 		story = "PEISAGENUO1",
 		id = 2831,
 		icon = "memory_peisagenuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PEISAGENUO1"
+		}
 	},
 	[2832] = {
 		mask = "bg/bg_memory",
@@ -28876,7 +35732,10 @@ pg.base.memory_template = {
 		story = "PEISAGENUO2",
 		id = 2832,
 		icon = "memory_peisagenuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PEISAGENUO2"
+		}
 	},
 	[2833] = {
 		mask = "bg/bg_memory",
@@ -28887,7 +35746,10 @@ pg.base.memory_template = {
 		story = "PEISAGENUO3",
 		id = 2833,
 		icon = "memory_peisagenuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PEISAGENUO3"
+		}
 	},
 	[2834] = {
 		mask = "bg/bg_memory",
@@ -28898,7 +35760,10 @@ pg.base.memory_template = {
 		story = "PEISAGENUO4",
 		id = 2834,
 		icon = "memory_peisagenuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PEISAGENUO4"
+		}
 	},
 	[2835] = {
 		mask = "bg/bg_memory",
@@ -28909,7 +35774,10 @@ pg.base.memory_template = {
 		story = "PEISAGENUO5",
 		id = 2835,
 		icon = "memory_peisagenuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PEISAGENUO5"
+		}
 	},
 	[2836] = {
 		mask = "bg/bg_memory",
@@ -28920,7 +35788,10 @@ pg.base.memory_template = {
 		story = "PEISAGENUO6",
 		id = 2836,
 		icon = "memory_peisagenuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PEISAGENUO6"
+		}
 	},
 	[2837] = {
 		mask = "bg/bg_memory",
@@ -28931,7 +35802,10 @@ pg.base.memory_template = {
 		story = "PEISAGENUO7",
 		id = 2837,
 		icon = "memory_peisagenuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PEISAGENUO7"
+		}
 	},
 	[2841] = {
 		mask = "bg/bg_memory",
@@ -28942,7 +35816,10 @@ pg.base.memory_template = {
 		story = "CHANGYEJIANGLINZHIQIAN1",
 		id = 2841,
 		icon = "memory_changyejianglinzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGYEJIANGLINZHIQIAN1"
+		}
 	},
 	[2842] = {
 		mask = "bg/bg_memory",
@@ -28953,7 +35830,10 @@ pg.base.memory_template = {
 		story = "CHANGYEJIANGLINZHIQIAN2",
 		id = 2842,
 		icon = "memory_changyejianglinzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGYEJIANGLINZHIQIAN2"
+		}
 	},
 	[2843] = {
 		mask = "bg/bg_memory",
@@ -28964,7 +35844,10 @@ pg.base.memory_template = {
 		story = "CHANGYEJIANGLINZHIQIAN3",
 		id = 2843,
 		icon = "memory_changyejianglinzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGYEJIANGLINZHIQIAN3"
+		}
 	},
 	[2844] = {
 		mask = "bg/bg_memory",
@@ -28975,7 +35858,10 @@ pg.base.memory_template = {
 		story = "CHANGYEJIANGLINZHIQIAN4",
 		id = 2844,
 		icon = "memory_changyejianglinzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGYEJIANGLINZHIQIAN4"
+		}
 	},
 	[2845] = {
 		mask = "bg/bg_memory",
@@ -28986,7 +35872,10 @@ pg.base.memory_template = {
 		story = "CHANGYEJIANGLINZHIQIAN5",
 		id = 2845,
 		icon = "memory_changyejianglinzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGYEJIANGLINZHIQIAN5"
+		}
 	},
 	[2846] = {
 		mask = "bg/bg_memory",
@@ -28997,7 +35886,10 @@ pg.base.memory_template = {
 		story = "CHANGYEJIANGLINZHIQIAN6",
 		id = 2846,
 		icon = "memory_changyejianglinzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGYEJIANGLINZHIQIAN6"
+		}
 	},
 	[2847] = {
 		mask = "bg/bg_memory",
@@ -29008,7 +35900,10 @@ pg.base.memory_template = {
 		story = "CHANGYEJIANGLINZHIQIAN7",
 		id = 2847,
 		icon = "memory_changyejianglinzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGYEJIANGLINZHIQIAN7"
+		}
 	},
 	[2851] = {
 		mask = "bg/bg_memory",
@@ -29019,7 +35914,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI1",
 		id = 2851,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI1"
+		}
 	},
 	[2852] = {
 		mask = "bg/bg_memory",
@@ -29030,7 +35928,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI2",
 		id = 2852,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI2"
+		}
 	},
 	[2853] = {
 		mask = "bg/bg_memory",
@@ -29041,7 +35942,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI3",
 		id = 2853,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI3"
+		}
 	},
 	[2854] = {
 		mask = "bg/bg_memory",
@@ -29052,7 +35956,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI4",
 		id = 2854,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI4"
+		}
 	},
 	[2855] = {
 		mask = "bg/bg_memory",
@@ -29063,7 +35970,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI5",
 		id = 2855,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI5"
+		}
 	},
 	[2856] = {
 		mask = "bg/bg_memory",
@@ -29074,7 +35984,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI6",
 		id = 2856,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI6"
+		}
 	},
 	[2857] = {
 		mask = "bg/bg_memory",
@@ -29085,7 +35998,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI7",
 		id = 2857,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI7"
+		}
 	},
 	[2858] = {
 		mask = "bg/bg_memory",
@@ -29096,7 +36012,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI8",
 		id = 2858,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI8"
+		}
 	},
 	[2859] = {
 		mask = "bg/bg_memory",
@@ -29107,7 +36026,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI9",
 		id = 2859,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI9"
+		}
 	},
 	[2860] = {
 		mask = "bg/bg_memory",
@@ -29118,7 +36040,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI10",
 		id = 2860,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI10"
+		}
 	},
 	[2861] = {
 		mask = "bg/bg_memory",
@@ -29129,7 +36054,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI11",
 		id = 2861,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI11"
+		}
 	},
 	[2862] = {
 		mask = "bg/bg_memory",
@@ -29140,7 +36068,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI12",
 		id = 2862,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI12"
+		}
 	},
 	[2863] = {
 		mask = "bg/bg_memory",
@@ -29151,7 +36082,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI13",
 		id = 2863,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI13"
+		}
 	},
 	[2864] = {
 		mask = "bg/bg_memory",
@@ -29162,7 +36096,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI14",
 		id = 2864,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI14"
+		}
 	},
 	[2865] = {
 		mask = "bg/bg_memory",
@@ -29173,7 +36110,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI15",
 		id = 2865,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI15"
+		}
 	},
 	[2866] = {
 		mask = "bg/bg_memory",
@@ -29184,7 +36124,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI16",
 		id = 2866,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI16"
+		}
 	},
 	[2867] = {
 		mask = "bg/bg_memory",
@@ -29195,7 +36138,10 @@ pg.base.memory_template = {
 		story = "YUANWEIFANGXINMIMANSHI17",
 		id = 2867,
 		icon = "memory_yuanweifangxinmimanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUANWEIFANGXINMIMANSHI17"
+		}
 	},
 	[2871] = {
 		mask = "bg/bg_memory",
@@ -29206,7 +36152,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING1",
 		id = 2871,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING1"
+		}
 	},
 	[2872] = {
 		mask = "bg/bg_memory",
@@ -29217,7 +36166,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING2",
 		id = 2872,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING2"
+		}
 	},
 	[2873] = {
 		mask = "bg/bg_memory",
@@ -29228,7 +36180,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING3",
 		id = 2873,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING3"
+		}
 	},
 	[2874] = {
 		mask = "bg/bg_memory",
@@ -29239,7 +36194,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING4",
 		id = 2874,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING4"
+		}
 	},
 	[2875] = {
 		mask = "bg/bg_memory",
@@ -29250,7 +36208,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING5",
 		id = 2875,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING5"
+		}
 	},
 	[2876] = {
 		mask = "bg/bg_memory",
@@ -29261,7 +36222,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING6",
 		id = 2876,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING6"
+		}
 	},
 	[2877] = {
 		mask = "bg/bg_memory",
@@ -29272,7 +36236,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING7",
 		id = 2877,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING7"
+		}
 	},
 	[2878] = {
 		mask = "bg/bg_memory",
@@ -29283,7 +36250,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING8",
 		id = 2878,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING8"
+		}
 	},
 	[2879] = {
 		mask = "bg/bg_memory",
@@ -29294,7 +36264,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING9",
 		id = 2879,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING9"
+		}
 	},
 	[2880] = {
 		mask = "bg/bg_memory",
@@ -29305,7 +36278,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING10",
 		id = 2880,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING10"
+		}
 	},
 	[2881] = {
 		mask = "bg/bg_memory",
@@ -29316,7 +36292,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING11",
 		id = 2881,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING11"
+		}
 	},
 	[2882] = {
 		mask = "bg/bg_memory",
@@ -29327,7 +36306,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING12",
 		id = 2882,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING12"
+		}
 	},
 	[2883] = {
 		mask = "bg/bg_memory",
@@ -29338,7 +36320,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING13",
 		id = 2883,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING13"
+		}
 	},
 	[2884] = {
 		mask = "bg/bg_memory",
@@ -29349,7 +36334,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING14",
 		id = 2884,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING14"
+		}
 	},
 	[2885] = {
 		mask = "bg/bg_memory",
@@ -29360,7 +36348,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING15",
 		id = 2885,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING15"
+		}
 	},
 	[2886] = {
 		mask = "bg/bg_memory",
@@ -29371,7 +36362,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING16",
 		id = 2886,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING16"
+		}
 	},
 	[2887] = {
 		mask = "bg/bg_memory",
@@ -29382,7 +36376,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING17",
 		id = 2887,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING17"
+		}
 	},
 	[2888] = {
 		mask = "bg/bg_memory",
@@ -29393,7 +36390,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING18",
 		id = 2888,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING18"
+		}
 	},
 	[2889] = {
 		mask = "bg/bg_memory",
@@ -29404,7 +36404,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING19",
 		id = 2889,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING19"
+		}
 	},
 	[2890] = {
 		mask = "bg/bg_memory",
@@ -29415,7 +36418,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING20",
 		id = 2890,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING20"
+		}
 	},
 	[2891] = {
 		mask = "bg/bg_memory",
@@ -29426,7 +36432,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING21",
 		id = 2891,
 		icon = "memory_yuzhedetianping2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING21"
+		}
 	},
 	[2892] = {
 		mask = "bg/bg_memory",
@@ -29437,7 +36446,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING22",
 		id = 2892,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING22"
+		}
 	},
 	[2893] = {
 		mask = "bg/bg_memory",
@@ -29448,7 +36460,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING23",
 		id = 2893,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING23"
+		}
 	},
 	[2894] = {
 		mask = "bg/bg_memory",
@@ -29459,7 +36474,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING24",
 		id = 2894,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING24"
+		}
 	},
 	[2895] = {
 		mask = "bg/bg_memory",
@@ -29470,7 +36488,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING25",
 		id = 2895,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING25"
+		}
 	},
 	[2896] = {
 		mask = "bg/bg_memory",
@@ -29481,7 +36502,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING26",
 		id = 2896,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING26"
+		}
 	},
 	[2897] = {
 		mask = "bg/bg_memory",
@@ -29492,7 +36516,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING27",
 		id = 2897,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING27"
+		}
 	},
 	[2898] = {
 		mask = "bg/bg_memory",
@@ -29503,7 +36530,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING28",
 		id = 2898,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING28"
+		}
 	},
 	[2899] = {
 		mask = "bg/bg_memory",
@@ -29514,7 +36544,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING29",
 		id = 2899,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING29"
+		}
 	},
 	[2900] = {
 		mask = "bg/bg_memory",
@@ -29525,7 +36558,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING30",
 		id = 2900,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING30"
+		}
 	},
 	[2901] = {
 		mask = "bg/bg_memory",
@@ -29536,7 +36572,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING31",
 		id = 2901,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING31"
+		}
 	},
 	[2902] = {
 		mask = "bg/bg_memory",
@@ -29547,7 +36586,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING32",
 		id = 2902,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING32"
+		}
 	},
 	[2903] = {
 		mask = "bg/bg_memory",
@@ -29558,7 +36600,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING33",
 		id = 2903,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING33"
+		}
 	},
 	[2904] = {
 		mask = "bg/bg_memory",
@@ -29569,7 +36614,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING34",
 		id = 2904,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING34"
+		}
 	},
 	[2905] = {
 		mask = "bg/bg_memory",
@@ -29580,7 +36628,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING35",
 		id = 2905,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING35"
+		}
 	},
 	[2906] = {
 		mask = "bg/bg_memory",
@@ -29591,7 +36642,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING36",
 		id = 2906,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING36"
+		}
 	},
 	[2907] = {
 		mask = "bg/bg_memory",
@@ -29602,7 +36656,10 @@ pg.base.memory_template = {
 		story = "1745002",
 		id = 2907,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1745002"
+		}
 	},
 	[2908] = {
 		mask = "bg/bg_memory",
@@ -29613,7 +36670,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING38",
 		id = 2908,
 		icon = "memory_yuzhedetianping3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING38"
+		}
 	},
 	[2909] = {
 		mask = "bg/bg_memory",
@@ -29624,7 +36684,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING39",
 		id = 2909,
 		icon = "memory_yuzhedetianping1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING39"
+		}
 	},
 	[2910] = {
 		mask = "bg/bg_memory",
@@ -29635,7 +36698,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING40",
 		id = 2910,
 		icon = "memory_yuzhedetianping1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING40"
+		}
 	},
 	[2911] = {
 		mask = "bg/bg_memory",
@@ -29646,7 +36712,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING41",
 		id = 2911,
 		icon = "memory_yuzhedetianping1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING41"
+		}
 	},
 	[2912] = {
 		mask = "bg/bg_memory",
@@ -29657,7 +36726,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING42",
 		id = 2912,
 		icon = "memory_yuzhedetianping1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING42"
+		}
 	},
 	[2913] = {
 		mask = "bg/bg_memory",
@@ -29668,7 +36740,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING43",
 		id = 2913,
 		icon = "memory_yuzhedetianping1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING43"
+		}
 	},
 	[2914] = {
 		mask = "bg/bg_memory",
@@ -29679,7 +36754,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING44",
 		id = 2914,
 		icon = "memory_yuzhedetianping1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING44"
+		}
 	},
 	[2915] = {
 		mask = "bg/bg_memory",
@@ -29690,7 +36768,10 @@ pg.base.memory_template = {
 		story = "YUZHEDETIANPING45",
 		id = 2915,
 		icon = "memory_yuzhedetianping1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUZHEDETIANPING45"
+		}
 	},
 	[2921] = {
 		mask = "bg/bg_memory",
@@ -29701,7 +36782,10 @@ pg.base.memory_template = {
 		story = "XUNFENGXIADEYAOYUE1",
 		id = 2921,
 		icon = "memory_xunfengxiadeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUNFENGXIADEYAOYUE1"
+		}
 	},
 	[2922] = {
 		mask = "bg/bg_memory",
@@ -29712,7 +36796,10 @@ pg.base.memory_template = {
 		story = "XUNFENGXIADEYAOYUE2",
 		id = 2922,
 		icon = "memory_xunfengxiadeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUNFENGXIADEYAOYUE2"
+		}
 	},
 	[2923] = {
 		mask = "bg/bg_memory",
@@ -29723,7 +36810,10 @@ pg.base.memory_template = {
 		story = "XUNFENGXIADEYAOYUE3",
 		id = 2923,
 		icon = "memory_xunfengxiadeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUNFENGXIADEYAOYUE3"
+		}
 	},
 	[2931] = {
 		mask = "bg/bg_memory",
@@ -29734,7 +36824,10 @@ pg.base.memory_template = {
 		story = "LUCK59901",
 		id = 2931,
 		icon = "memory_haerbin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK59901"
+		}
 	},
 	[2932] = {
 		mask = "bg/bg_memory",
@@ -29745,7 +36838,10 @@ pg.base.memory_template = {
 		story = "LUCK49907",
 		id = 2932,
 		icon = "memory_lupuleixiteqinwang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49907"
+		}
 	},
 	[2933] = {
 		mask = "bg/bg_memory",
@@ -29756,7 +36852,10 @@ pg.base.memory_template = {
 		story = "LUCK79901",
 		id = 2933,
 		icon = "memory_qikaluofu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK79901"
+		}
 	},
 	[2941] = {
 		mask = "bg/bg_memory",
@@ -29767,7 +36866,10 @@ pg.base.memory_template = {
 		story = "EDU1",
 		id = 2941,
 		icon = "memory_edu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"EDU1"
+		}
 	},
 	[2942] = {
 		mask = "bg/bg_memory",
@@ -29778,7 +36880,10 @@ pg.base.memory_template = {
 		story = "EDU2",
 		id = 2942,
 		icon = "memory_edu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"EDU2"
+		}
 	},
 	[2943] = {
 		mask = "bg/bg_memory",
@@ -29789,7 +36894,10 @@ pg.base.memory_template = {
 		story = "EDU3",
 		id = 2943,
 		icon = "memory_edu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"EDU3"
+		}
 	},
 	[2944] = {
 		mask = "bg/bg_memory",
@@ -29800,7 +36908,10 @@ pg.base.memory_template = {
 		story = "EDU4",
 		id = 2944,
 		icon = "memory_edu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"EDU4"
+		}
 	},
 	[2945] = {
 		mask = "bg/bg_memory",
@@ -29811,7 +36922,10 @@ pg.base.memory_template = {
 		story = "EDU5",
 		id = 2945,
 		icon = "memory_edu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"EDU5"
+		}
 	},
 	[2946] = {
 		mask = "bg/bg_memory",
@@ -29822,7 +36936,10 @@ pg.base.memory_template = {
 		story = "EDU6",
 		id = 2946,
 		icon = "memory_edu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"EDU6"
+		}
 	},
 	[2947] = {
 		mask = "bg/bg_memory",
@@ -29833,7 +36950,10 @@ pg.base.memory_template = {
 		story = "EDU7",
 		id = 2947,
 		icon = "memory_edu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"EDU7"
+		}
 	},
 	[2951] = {
 		mask = "bg/bg_memory",
@@ -29844,7 +36964,10 @@ pg.base.memory_template = {
 		story = "YUEYEWEIYANG1",
 		id = 2951,
 		icon = "memory_yueyeweiyang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUEYEWEIYANG1"
+		}
 	},
 	[2952] = {
 		mask = "bg/bg_memory",
@@ -29855,7 +36978,10 @@ pg.base.memory_template = {
 		story = "YUEYEWEIYANG2",
 		id = 2952,
 		icon = "memory_yueyeweiyang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUEYEWEIYANG2"
+		}
 	},
 	[2953] = {
 		mask = "bg/bg_memory",
@@ -29866,7 +36992,10 @@ pg.base.memory_template = {
 		story = "YUEYEWEIYANG3",
 		id = 2953,
 		icon = "memory_yueyeweiyang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUEYEWEIYANG3"
+		}
 	},
 	[2954] = {
 		mask = "bg/bg_memory",
@@ -29877,7 +37006,10 @@ pg.base.memory_template = {
 		story = "YUEYEWEIYANG4",
 		id = 2954,
 		icon = "memory_yueyeweiyang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUEYEWEIYANG4"
+		}
 	},
 	[2955] = {
 		mask = "bg/bg_memory",
@@ -29888,7 +37020,10 @@ pg.base.memory_template = {
 		story = "YUEYEWEIYANG5",
 		id = 2955,
 		icon = "memory_yueyeweiyang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUEYEWEIYANG5"
+		}
 	},
 	[2956] = {
 		mask = "bg/bg_memory",
@@ -29899,7 +37034,10 @@ pg.base.memory_template = {
 		story = "YUEYEWEIYANG6",
 		id = 2956,
 		icon = "memory_yueyeweiyang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUEYEWEIYANG6"
+		}
 	},
 	[2957] = {
 		mask = "bg/bg_memory",
@@ -29910,7 +37048,10 @@ pg.base.memory_template = {
 		story = "YUEYEWEIYANG7",
 		id = 2957,
 		icon = "memory_yueyeweiyang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUEYEWEIYANG7"
+		}
 	},
 	[2961] = {
 		mask = "bg/bg_memory",
@@ -29921,7 +37062,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO1",
 		id = 2961,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO1"
+		}
 	},
 	[2962] = {
 		mask = "bg/bg_memory",
@@ -29932,7 +37076,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO2",
 		id = 2962,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO2"
+		}
 	},
 	[2963] = {
 		mask = "bg/bg_memory",
@@ -29943,7 +37090,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO3",
 		id = 2963,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO3"
+		}
 	},
 	[2964] = {
 		mask = "bg/bg_memory",
@@ -29954,7 +37104,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO4",
 		id = 2964,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO4"
+		}
 	},
 	[2965] = {
 		mask = "bg/bg_memory",
@@ -29965,7 +37118,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO5",
 		id = 2965,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO5"
+		}
 	},
 	[2966] = {
 		mask = "bg/bg_memory",
@@ -29976,7 +37132,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO6",
 		id = 2966,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO6"
+		}
 	},
 	[2967] = {
 		mask = "bg/bg_memory",
@@ -29987,7 +37146,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO7",
 		id = 2967,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO7"
+		}
 	},
 	[2968] = {
 		mask = "bg/bg_memory",
@@ -29998,7 +37160,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO8",
 		id = 2968,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO8"
+		}
 	},
 	[2969] = {
 		mask = "bg/bg_memory",
@@ -30009,7 +37174,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO9",
 		id = 2969,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO9"
+		}
 	},
 	[2970] = {
 		mask = "bg/bg_memory",
@@ -30020,7 +37188,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO10",
 		id = 2970,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO10"
+		}
 	},
 	[2971] = {
 		mask = "bg/bg_memory",
@@ -30031,7 +37202,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO11",
 		id = 2971,
 		icon = "memory_xuyuwangyuechao1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO11"
+		}
 	},
 	[2972] = {
 		mask = "bg/bg_memory",
@@ -30042,7 +37216,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO12",
 		id = 2972,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO12"
+		}
 	},
 	[2973] = {
 		mask = "bg/bg_memory",
@@ -30053,7 +37230,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO13",
 		id = 2973,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO13"
+		}
 	},
 	[2974] = {
 		mask = "bg/bg_memory",
@@ -30064,7 +37244,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO14",
 		id = 2974,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO14"
+		}
 	},
 	[2975] = {
 		mask = "bg/bg_memory",
@@ -30075,7 +37258,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO15",
 		id = 2975,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO15"
+		}
 	},
 	[2976] = {
 		mask = "bg/bg_memory",
@@ -30086,7 +37272,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO16",
 		id = 2976,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO16"
+		}
 	},
 	[2977] = {
 		mask = "bg/bg_memory",
@@ -30097,7 +37286,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO17",
 		id = 2977,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO17"
+		}
 	},
 	[2978] = {
 		mask = "bg/bg_memory",
@@ -30108,7 +37300,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO18",
 		id = 2978,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO18"
+		}
 	},
 	[2979] = {
 		mask = "bg/bg_memory",
@@ -30119,7 +37314,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO19",
 		id = 2979,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO19"
+		}
 	},
 	[2980] = {
 		mask = "bg/bg_memory",
@@ -30130,7 +37328,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO20",
 		id = 2980,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO20"
+		}
 	},
 	[2981] = {
 		mask = "bg/bg_memory",
@@ -30141,7 +37342,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO21",
 		id = 2981,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO21"
+		}
 	},
 	[2982] = {
 		mask = "bg/bg_memory",
@@ -30152,7 +37356,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO22",
 		id = 2982,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO22"
+		}
 	},
 	[2983] = {
 		mask = "bg/bg_memory",
@@ -30163,7 +37370,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO23",
 		id = 2983,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO23"
+		}
 	},
 	[2984] = {
 		mask = "bg/bg_memory",
@@ -30174,7 +37384,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO24",
 		id = 2984,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO24"
+		}
 	},
 	[2985] = {
 		mask = "bg/bg_memory",
@@ -30185,7 +37398,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO25",
 		id = 2985,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO25"
+		}
 	},
 	[2986] = {
 		mask = "bg/bg_memory",
@@ -30196,7 +37412,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO26",
 		id = 2986,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO26"
+		}
 	},
 	[2987] = {
 		mask = "bg/bg_memory",
@@ -30207,7 +37426,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO27",
 		id = 2987,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO27"
+		}
 	},
 	[2988] = {
 		mask = "bg/bg_memory",
@@ -30218,7 +37440,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO28",
 		id = 2988,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO28"
+		}
 	},
 	[2989] = {
 		mask = "bg/bg_memory",
@@ -30229,7 +37454,10 @@ pg.base.memory_template = {
 		story = "1755002",
 		id = 2989,
 		icon = "memory_xuyuwangyuechao2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1755002"
+		}
 	},
 	[2990] = {
 		mask = "bg/bg_memory",
@@ -30240,7 +37468,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO30",
 		id = 2990,
 		icon = "memory_xuyuwangyuechao3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO30"
+		}
 	},
 	[2991] = {
 		mask = "bg/bg_memory",
@@ -30251,7 +37482,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO31",
 		id = 2991,
 		icon = "memory_xuyuwangyuechao3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO31"
+		}
 	},
 	[2992] = {
 		mask = "bg/bg_memory",
@@ -30262,7 +37496,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO32",
 		id = 2992,
 		icon = "memory_xuyuwangyuechao3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO32"
+		}
 	},
 	[2993] = {
 		mask = "bg/bg_memory",
@@ -30273,7 +37510,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO33",
 		id = 2993,
 		icon = "memory_xuyuwangyuechao3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO33"
+		}
 	},
 	[2994] = {
 		mask = "bg/bg_memory",
@@ -30284,7 +37524,10 @@ pg.base.memory_template = {
 		story = "XUYUWANGYUECHAO34",
 		id = 2994,
 		icon = "memory_xuyuwangyuechao3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUYUWANGYUECHAO34"
+		}
 	},
 	[3001] = {
 		mask = "bg/bg_memory",
@@ -30295,7 +37538,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIYI1",
 		id = 3001,
 		icon = "memory_shishangtekanhedingji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIYI1"
+		}
 	},
 	[3002] = {
 		mask = "bg/bg_memory",
@@ -30306,7 +37552,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIYI2",
 		id = 3002,
 		icon = "memory_shishangtekanhedingji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIYI2"
+		}
 	},
 	[3003] = {
 		mask = "bg/bg_memory",
@@ -30317,7 +37566,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIYI3",
 		id = 3003,
 		icon = "memory_shishangtekanhedingji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIYI3"
+		}
 	},
 	[3004] = {
 		mask = "bg/bg_memory",
@@ -30328,7 +37580,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIYI4",
 		id = 3004,
 		icon = "memory_shishangtekanhedingji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIYI4"
+		}
 	},
 	[3005] = {
 		mask = "bg/bg_memory",
@@ -30339,7 +37594,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIYI5",
 		id = 3005,
 		icon = "memory_shishangtekanhedingji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIYI5"
+		}
 	},
 	[3011] = {
 		mask = "bg/bg_memory",
@@ -30350,7 +37608,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA1",
 		id = 3011,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA1"
+		}
 	},
 	[3012] = {
 		mask = "bg/bg_memory",
@@ -30361,7 +37622,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA2",
 		id = 3012,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA2"
+		}
 	},
 	[3013] = {
 		mask = "bg/bg_memory",
@@ -30372,7 +37636,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA3",
 		id = 3013,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA3"
+		}
 	},
 	[3014] = {
 		mask = "bg/bg_memory",
@@ -30383,7 +37650,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA4",
 		id = 3014,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA4"
+		}
 	},
 	[3015] = {
 		mask = "bg/bg_memory",
@@ -30394,7 +37664,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA5",
 		id = 3015,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA5"
+		}
 	},
 	[3016] = {
 		mask = "bg/bg_memory",
@@ -30405,7 +37678,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA6",
 		id = 3016,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA6"
+		}
 	},
 	[3017] = {
 		mask = "bg/bg_memory",
@@ -30416,7 +37692,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA7",
 		id = 3017,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA7"
+		}
 	},
 	[3018] = {
 		mask = "bg/bg_memory",
@@ -30427,7 +37706,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA8",
 		id = 3018,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA8"
+		}
 	},
 	[3019] = {
 		mask = "bg/bg_memory",
@@ -30438,7 +37720,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA9",
 		id = 3019,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA9"
+		}
 	},
 	[3020] = {
 		mask = "bg/bg_memory",
@@ -30449,7 +37734,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA10",
 		id = 3020,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA10"
+		}
 	},
 	[3021] = {
 		mask = "bg/bg_memory",
@@ -30460,7 +37748,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA11",
 		id = 3021,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA11"
+		}
 	},
 	[3022] = {
 		mask = "bg/bg_memory",
@@ -30471,7 +37762,10 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA12",
 		id = 3022,
 		icon = "memory_dujiacunshenmishijiandiaocha",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DUJIACUNSHENMISHIJIANDIAOCHA12"
+		}
 	},
 	[3031] = {
 		mask = "bg/bg_memory",
@@ -30482,7 +37776,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIER1",
 		id = 3031,
 		icon = "memory_shishangtekanhedingji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIER1"
+		}
 	},
 	[3032] = {
 		mask = "bg/bg_memory",
@@ -30493,7 +37790,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIER2",
 		id = 3032,
 		icon = "memory_shishangtekanhedingji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIER2"
+		}
 	},
 	[3033] = {
 		mask = "bg/bg_memory",
@@ -30504,7 +37804,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIER3",
 		id = 3033,
 		icon = "memory_shishangtekanhedingji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIER3"
+		}
 	},
 	[3041] = {
 		mask = "bg/bg_memory",
@@ -30515,7 +37818,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANSAICHE1",
 		id = 3041,
 		icon = "memory_shishangtekansaiche",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANSAICHE1"
+		}
 	},
 	[3042] = {
 		mask = "bg/bg_memory",
@@ -30526,7 +37832,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANSAICHE2",
 		id = 3042,
 		icon = "memory_shishangtekansaiche",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANSAICHE2"
+		}
 	},
 	[3043] = {
 		mask = "bg/bg_memory",
@@ -30537,7 +37846,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANSAICHE3",
 		id = 3043,
 		icon = "memory_shishangtekansaiche",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANSAICHE3"
+		}
 	},
 	[3044] = {
 		mask = "bg/bg_memory",
@@ -30548,7 +37860,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANSAICHE4",
 		id = 3044,
 		icon = "memory_shishangtekansaiche",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANSAICHE4"
+		}
 	},
 	[3045] = {
 		mask = "bg/bg_memory",
@@ -30559,7 +37874,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANSAICHE5",
 		id = 3045,
 		icon = "memory_shishangtekansaiche",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANSAICHE5"
+		}
 	},
 	[3051] = {
 		mask = "bg/bg_memory",
@@ -30570,7 +37888,10 @@ pg.base.memory_template = {
 		story = "KELAIMENGSUO1",
 		id = 3051,
 		icon = "memory_kelaimengsuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELAIMENGSUO1"
+		}
 	},
 	[3052] = {
 		mask = "bg/bg_memory",
@@ -30581,7 +37902,10 @@ pg.base.memory_template = {
 		story = "KELAIMENGSUO2",
 		id = 3052,
 		icon = "memory_kelaimengsuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELAIMENGSUO2"
+		}
 	},
 	[3053] = {
 		mask = "bg/bg_memory",
@@ -30592,7 +37916,10 @@ pg.base.memory_template = {
 		story = "KELAIMENGSUO3",
 		id = 3053,
 		icon = "memory_kelaimengsuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELAIMENGSUO3"
+		}
 	},
 	[3054] = {
 		mask = "bg/bg_memory",
@@ -30603,7 +37930,10 @@ pg.base.memory_template = {
 		story = "KELAIMENGSUO4",
 		id = 3054,
 		icon = "memory_kelaimengsuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELAIMENGSUO4"
+		}
 	},
 	[3055] = {
 		mask = "bg/bg_memory",
@@ -30614,7 +37944,10 @@ pg.base.memory_template = {
 		story = "KELAIMENGSUO5",
 		id = 3055,
 		icon = "memory_kelaimengsuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELAIMENGSUO5"
+		}
 	},
 	[3056] = {
 		mask = "bg/bg_memory",
@@ -30625,7 +37958,10 @@ pg.base.memory_template = {
 		story = "KELAIMENGSUO6",
 		id = 3056,
 		icon = "memory_kelaimengsuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELAIMENGSUO6"
+		}
 	},
 	[3057] = {
 		mask = "bg/bg_memory",
@@ -30636,7 +37972,10 @@ pg.base.memory_template = {
 		story = "KELAIMENGSUO7",
 		id = 3057,
 		icon = "memory_kelaimengsuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"KELAIMENGSUO7"
+		}
 	},
 	[3061] = {
 		mask = "bg/bg_memory",
@@ -30647,7 +37986,10 @@ pg.base.memory_template = {
 		story = "HUANGJIACAIFUDEMIMICHUANCHANG1",
 		id = 3061,
 		icon = "memory_huangjiacaifudemimichuanchang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJIACAIFUDEMIMICHUANCHANG1"
+		}
 	},
 	[3062] = {
 		mask = "bg/bg_memory",
@@ -30658,7 +38000,10 @@ pg.base.memory_template = {
 		story = "HUANGJIACAIFUDEMIMICHUANCHANG2",
 		id = 3062,
 		icon = "memory_huangjiacaifudemimichuanchang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJIACAIFUDEMIMICHUANCHANG2"
+		}
 	},
 	[3063] = {
 		mask = "bg/bg_memory",
@@ -30669,7 +38014,10 @@ pg.base.memory_template = {
 		story = "HUANGJIACAIFUDEMIMICHUANCHANG3",
 		id = 3063,
 		icon = "memory_huangjiacaifudemimichuanchang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJIACAIFUDEMIMICHUANCHANG3"
+		}
 	},
 	[3064] = {
 		mask = "bg/bg_memory",
@@ -30680,7 +38028,10 @@ pg.base.memory_template = {
 		story = "HUANGJIACAIFUDEMIMICHUANCHANG4",
 		id = 3064,
 		icon = "memory_huangjiacaifudemimichuanchang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJIACAIFUDEMIMICHUANCHANG4"
+		}
 	},
 	[3065] = {
 		mask = "bg/bg_memory",
@@ -30691,7 +38042,10 @@ pg.base.memory_template = {
 		story = "HUANGJIACAIFUDEMIMICHUANCHANG5",
 		id = 3065,
 		icon = "memory_huangjiacaifudemimichuanchang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJIACAIFUDEMIMICHUANCHANG5"
+		}
 	},
 	[3066] = {
 		mask = "bg/bg_memory",
@@ -30702,7 +38056,10 @@ pg.base.memory_template = {
 		story = "HUANGJIACAIFUDEMIMICHUANCHANG6",
 		id = 3066,
 		icon = "memory_huangjiacaifudemimichuanchang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJIACAIFUDEMIMICHUANCHANG6"
+		}
 	},
 	[3067] = {
 		mask = "bg/bg_memory",
@@ -30713,7 +38070,10 @@ pg.base.memory_template = {
 		story = "HUANGJIACAIFUDEMIMICHUANCHANG7",
 		id = 3067,
 		icon = "memory_huangjiacaifudemimichuanchang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJIACAIFUDEMIMICHUANCHANG7"
+		}
 	},
 	[3068] = {
 		mask = "bg/bg_memory",
@@ -30724,7 +38084,10 @@ pg.base.memory_template = {
 		story = "HUANGJIACAIFUDEMIMICHUANCHANG8",
 		id = 3068,
 		icon = "memory_huangjiacaifudemimichuanchang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGJIACAIFUDEMIMICHUANCHANG8"
+		}
 	},
 	[3071] = {
 		mask = "bg/bg_memory",
@@ -30735,7 +38098,10 @@ pg.base.memory_template = {
 		story = "1767002",
 		id = 3071,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1767002"
+		}
 	},
 	[3072] = {
 		mask = "bg/bg_memory",
@@ -30746,7 +38112,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN2",
 		id = 3072,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN2"
+		}
 	},
 	[3073] = {
 		mask = "bg/bg_memory",
@@ -30757,7 +38126,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN3",
 		id = 3073,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN3"
+		}
 	},
 	[3074] = {
 		mask = "bg/bg_memory",
@@ -30768,7 +38140,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN4",
 		id = 3074,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN4"
+		}
 	},
 	[3075] = {
 		mask = "bg/bg_memory",
@@ -30779,7 +38154,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN5",
 		id = 3075,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN5"
+		}
 	},
 	[3076] = {
 		mask = "bg/bg_memory",
@@ -30790,7 +38168,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN6",
 		id = 3076,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN6"
+		}
 	},
 	[3077] = {
 		mask = "bg/bg_memory",
@@ -30801,7 +38182,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN7",
 		id = 3077,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN7"
+		}
 	},
 	[3078] = {
 		mask = "bg/bg_memory",
@@ -30812,7 +38196,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN8",
 		id = 3078,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN8"
+		}
 	},
 	[3079] = {
 		mask = "bg/bg_memory",
@@ -30823,7 +38210,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN9",
 		id = 3079,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN9"
+		}
 	},
 	[3080] = {
 		mask = "bg/bg_memory",
@@ -30834,7 +38224,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN10",
 		id = 3080,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN10"
+		}
 	},
 	[3081] = {
 		mask = "bg/bg_memory",
@@ -30845,7 +38238,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN11",
 		id = 3081,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN11"
+		}
 	},
 	[3082] = {
 		mask = "bg/bg_memory",
@@ -30856,7 +38252,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN12",
 		id = 3082,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN12"
+		}
 	},
 	[3083] = {
 		mask = "bg/bg_memory",
@@ -30867,7 +38266,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN13",
 		id = 3083,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN13"
+		}
 	},
 	[3084] = {
 		mask = "bg/bg_memory",
@@ -30878,7 +38280,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN14",
 		id = 3084,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN14"
+		}
 	},
 	[3085] = {
 		mask = "bg/bg_memory",
@@ -30889,7 +38294,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN15",
 		id = 3085,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN15"
+		}
 	},
 	[3086] = {
 		mask = "bg/bg_memory",
@@ -30900,7 +38308,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN16",
 		id = 3086,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN16"
+		}
 	},
 	[3087] = {
 		mask = "bg/bg_memory",
@@ -30911,7 +38322,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN17",
 		id = 3087,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN17"
+		}
 	},
 	[3088] = {
 		mask = "bg/bg_memory",
@@ -30922,7 +38336,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN18",
 		id = 3088,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN18"
+		}
 	},
 	[3089] = {
 		mask = "bg/bg_memory",
@@ -30933,7 +38350,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN19",
 		id = 3089,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN19"
+		}
 	},
 	[3090] = {
 		mask = "bg/bg_memory",
@@ -30944,7 +38364,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN20",
 		id = 3090,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN20"
+		}
 	},
 	[3091] = {
 		mask = "bg/bg_memory",
@@ -30955,7 +38378,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN21",
 		id = 3091,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN21"
+		}
 	},
 	[3092] = {
 		mask = "bg/bg_memory",
@@ -30966,7 +38392,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN22",
 		id = 3092,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN22"
+		}
 	},
 	[3093] = {
 		mask = "bg/bg_memory",
@@ -30977,7 +38406,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN23",
 		id = 3093,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN23"
+		}
 	},
 	[3094] = {
 		mask = "bg/bg_memory",
@@ -30988,7 +38420,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN24",
 		id = 3094,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN24"
+		}
 	},
 	[3095] = {
 		mask = "bg/bg_memory",
@@ -30999,7 +38434,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN25",
 		id = 3095,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN25"
+		}
 	},
 	[3096] = {
 		mask = "bg/bg_memory",
@@ -31010,7 +38448,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN26",
 		id = 3096,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN26"
+		}
 	},
 	[3097] = {
 		mask = "bg/bg_memory",
@@ -31021,7 +38462,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN27",
 		id = 3097,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN27"
+		}
 	},
 	[3098] = {
 		mask = "bg/bg_memory",
@@ -31032,7 +38476,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUQINGCHUNZHIQUAN28",
 		id = 3098,
 		icon = "memory_jufengyuqingchunzhiquan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUQINGCHUNZHIQUAN28"
+		}
 	},
 	[3101] = {
 		mask = "bg/bg_memory",
@@ -31043,7 +38490,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN1",
 		id = 3101,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN1"
+		}
 	},
 	[3102] = {
 		mask = "bg/bg_memory",
@@ -31054,7 +38504,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN2",
 		id = 3102,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN2"
+		}
 	},
 	[3103] = {
 		mask = "bg/bg_memory",
@@ -31065,7 +38518,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN3",
 		id = 3103,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN3"
+		}
 	},
 	[3104] = {
 		mask = "bg/bg_memory",
@@ -31076,7 +38532,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN4",
 		id = 3104,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN4"
+		}
 	},
 	[3105] = {
 		mask = "bg/bg_memory",
@@ -31087,7 +38546,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN5",
 		id = 3105,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN5"
+		}
 	},
 	[3106] = {
 		mask = "bg/bg_memory",
@@ -31098,7 +38560,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN6",
 		id = 3106,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN6"
+		}
 	},
 	[3107] = {
 		mask = "bg/bg_memory",
@@ -31109,7 +38574,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN7",
 		id = 3107,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN7"
+		}
 	},
 	[3108] = {
 		mask = "bg/bg_memory",
@@ -31120,7 +38588,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN8",
 		id = 3108,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN8"
+		}
 	},
 	[3109] = {
 		mask = "bg/bg_memory",
@@ -31131,7 +38602,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN9",
 		id = 3109,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN9"
+		}
 	},
 	[3110] = {
 		mask = "bg/bg_memory",
@@ -31142,7 +38616,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN10",
 		id = 3110,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN10"
+		}
 	},
 	[3111] = {
 		mask = "bg/bg_memory",
@@ -31153,7 +38630,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN11",
 		id = 3111,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN11"
+		}
 	},
 	[3112] = {
 		mask = "bg/bg_memory",
@@ -31164,7 +38644,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN12",
 		id = 3112,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN12"
+		}
 	},
 	[3113] = {
 		mask = "bg/bg_memory",
@@ -31175,7 +38658,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN13",
 		id = 3113,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN13"
+		}
 	},
 	[3114] = {
 		mask = "bg/bg_memory",
@@ -31186,7 +38672,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN14",
 		id = 3114,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN14"
+		}
 	},
 	[3115] = {
 		mask = "bg/bg_memory",
@@ -31197,7 +38686,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN15",
 		id = 3115,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN15"
+		}
 	},
 	[3116] = {
 		mask = "bg/bg_memory",
@@ -31208,7 +38700,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN16",
 		id = 3116,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN16"
+		}
 	},
 	[3117] = {
 		mask = "bg/bg_memory",
@@ -31219,7 +38714,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN17",
 		id = 3117,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN17"
+		}
 	},
 	[3118] = {
 		mask = "bg/bg_memory",
@@ -31230,7 +38728,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN18",
 		id = 3118,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN18"
+		}
 	},
 	[3119] = {
 		mask = "bg/bg_memory",
@@ -31241,7 +38742,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN19",
 		id = 3119,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN19"
+		}
 	},
 	[3120] = {
 		mask = "bg/bg_memory",
@@ -31252,7 +38756,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN20",
 		id = 3120,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN20"
+		}
 	},
 	[3121] = {
 		mask = "bg/bg_memory",
@@ -31263,7 +38770,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN21",
 		id = 3121,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN21"
+		}
 	},
 	[3122] = {
 		mask = "bg/bg_memory",
@@ -31274,7 +38784,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN22",
 		id = 3122,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN22"
+		}
 	},
 	[3123] = {
 		mask = "bg/bg_memory",
@@ -31285,7 +38798,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN23",
 		id = 3123,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN23"
+		}
 	},
 	[3124] = {
 		mask = "bg/bg_memory",
@@ -31296,7 +38812,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN24",
 		id = 3124,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN24"
+		}
 	},
 	[3125] = {
 		mask = "bg/bg_memory",
@@ -31307,7 +38826,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN25",
 		id = 3125,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN25"
+		}
 	},
 	[3126] = {
 		mask = "bg/bg_memory",
@@ -31318,7 +38840,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN26",
 		id = 3126,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN26"
+		}
 	},
 	[3127] = {
 		mask = "bg/bg_memory",
@@ -31329,7 +38854,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN27",
 		id = 3127,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN27"
+		}
 	},
 	[3128] = {
 		mask = "bg/bg_memory",
@@ -31340,7 +38868,10 @@ pg.base.memory_template = {
 		story = "YUYEJINGHUN28",
 		id = 3128,
 		icon = "memory_yuyejinghun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUYEJINGHUN28"
+		}
 	},
 	[3131] = {
 		mask = "bg/bg_memory",
@@ -31351,7 +38882,10 @@ pg.base.memory_template = {
 		story = "PANGPEI1",
 		id = 3131,
 		icon = "memory_pangpei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PANGPEI1"
+		}
 	},
 	[3132] = {
 		mask = "bg/bg_memory",
@@ -31362,7 +38896,10 @@ pg.base.memory_template = {
 		story = "PANGPEI2",
 		id = 3132,
 		icon = "memory_pangpei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PANGPEI2"
+		}
 	},
 	[3133] = {
 		mask = "bg/bg_memory",
@@ -31373,7 +38910,10 @@ pg.base.memory_template = {
 		story = "PANGPEI3",
 		id = 3133,
 		icon = "memory_pangpei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PANGPEI3"
+		}
 	},
 	[3134] = {
 		mask = "bg/bg_memory",
@@ -31384,7 +38924,10 @@ pg.base.memory_template = {
 		story = "PANGPEI4",
 		id = 3134,
 		icon = "memory_pangpei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PANGPEI4"
+		}
 	},
 	[3135] = {
 		mask = "bg/bg_memory",
@@ -31395,7 +38938,10 @@ pg.base.memory_template = {
 		story = "PANGPEI5",
 		id = 3135,
 		icon = "memory_pangpei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PANGPEI5"
+		}
 	},
 	[3136] = {
 		mask = "bg/bg_memory",
@@ -31406,7 +38952,10 @@ pg.base.memory_template = {
 		story = "PANGPEI6",
 		id = 3136,
 		icon = "memory_pangpei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PANGPEI6"
+		}
 	},
 	[3137] = {
 		mask = "bg/bg_memory",
@@ -31417,7 +38966,10 @@ pg.base.memory_template = {
 		story = "PANGPEI7",
 		id = 3137,
 		icon = "memory_pangpei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"PANGPEI7"
+		}
 	},
 	[3141] = {
 		mask = "bg/bg_memory",
@@ -31428,7 +38980,10 @@ pg.base.memory_template = {
 		story = "JINRIZHUTUISHANGPINSHI1",
 		id = 3141,
 		icon = "memory_jinrizhutuishangpinshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINRIZHUTUISHANGPINSHI1"
+		}
 	},
 	[3142] = {
 		mask = "bg/bg_memory",
@@ -31439,7 +38994,10 @@ pg.base.memory_template = {
 		story = "JINRIZHUTUISHANGPINSHI2",
 		id = 3142,
 		icon = "memory_jinrizhutuishangpinshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINRIZHUTUISHANGPINSHI2"
+		}
 	},
 	[3143] = {
 		mask = "bg/bg_memory",
@@ -31450,7 +39008,10 @@ pg.base.memory_template = {
 		story = "JINRIZHUTUISHANGPINSHI3",
 		id = 3143,
 		icon = "memory_jinrizhutuishangpinshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JINRIZHUTUISHANGPINSHI3"
+		}
 	},
 	[3151] = {
 		mask = "bg/bg_memory",
@@ -31461,7 +39022,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA1",
 		id = 3151,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA1"
+		}
 	},
 	[3152] = {
 		mask = "bg/bg_memory",
@@ -31472,7 +39036,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA2",
 		id = 3152,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA2"
+		}
 	},
 	[3153] = {
 		mask = "bg/bg_memory",
@@ -31483,7 +39050,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA3",
 		id = 3153,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA3"
+		}
 	},
 	[3154] = {
 		mask = "bg/bg_memory",
@@ -31494,7 +39064,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA4",
 		id = 3154,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA4"
+		}
 	},
 	[3155] = {
 		mask = "bg/bg_memory",
@@ -31505,7 +39078,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA5",
 		id = 3155,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA5"
+		}
 	},
 	[3156] = {
 		mask = "bg/bg_memory",
@@ -31516,7 +39092,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA6",
 		id = 3156,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA6"
+		}
 	},
 	[3157] = {
 		mask = "bg/bg_memory",
@@ -31527,7 +39106,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA7",
 		id = 3157,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA7"
+		}
 	},
 	[3158] = {
 		mask = "bg/bg_memory",
@@ -31538,7 +39120,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA8",
 		id = 3158,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA8"
+		}
 	},
 	[3159] = {
 		mask = "bg/bg_memory",
@@ -31549,7 +39134,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA9",
 		id = 3159,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA9"
+		}
 	},
 	[3160] = {
 		mask = "bg/bg_memory",
@@ -31560,7 +39148,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA10",
 		id = 3160,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA10"
+		}
 	},
 	[3161] = {
 		mask = "bg/bg_memory",
@@ -31571,7 +39162,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA11",
 		id = 3161,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA11"
+		}
 	},
 	[3162] = {
 		mask = "bg/bg_memory",
@@ -31582,7 +39176,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA12",
 		id = 3162,
 		icon = "memory_cangshanrenfatieguanqia1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA12"
+		}
 	},
 	[3163] = {
 		mask = "bg/bg_memory",
@@ -31593,7 +39190,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA13",
 		id = 3163,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA13"
+		}
 	},
 	[3164] = {
 		mask = "bg/bg_memory",
@@ -31604,7 +39204,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA14",
 		id = 3164,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA14"
+		}
 	},
 	[3165] = {
 		mask = "bg/bg_memory",
@@ -31615,7 +39218,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA15",
 		id = 3165,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA15"
+		}
 	},
 	[3166] = {
 		mask = "bg/bg_memory",
@@ -31626,7 +39232,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA16",
 		id = 3166,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA16"
+		}
 	},
 	[3167] = {
 		mask = "bg/bg_memory",
@@ -31637,7 +39246,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA17",
 		id = 3167,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA17"
+		}
 	},
 	[3168] = {
 		mask = "bg/bg_memory",
@@ -31648,7 +39260,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA18",
 		id = 3168,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA18"
+		}
 	},
 	[3169] = {
 		mask = "bg/bg_memory",
@@ -31659,7 +39274,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA19",
 		id = 3169,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA19"
+		}
 	},
 	[3170] = {
 		mask = "bg/bg_memory",
@@ -31670,7 +39288,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA20",
 		id = 3170,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA20"
+		}
 	},
 	[3171] = {
 		mask = "bg/bg_memory",
@@ -31681,7 +39302,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA21",
 		id = 3171,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA21"
+		}
 	},
 	[3172] = {
 		mask = "bg/bg_memory",
@@ -31692,7 +39316,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA22",
 		id = 3172,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA22"
+		}
 	},
 	[3173] = {
 		mask = "bg/bg_memory",
@@ -31703,7 +39330,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA23",
 		id = 3173,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA23"
+		}
 	},
 	[3174] = {
 		mask = "bg/bg_memory",
@@ -31714,7 +39344,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIEGUANQIA24",
 		id = 3174,
 		icon = "memory_cangshanrenfatieguanqia2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIEGUANQIA24"
+		}
 	},
 	[3181] = {
 		mask = "bg/bg_memory",
@@ -31725,7 +39358,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIERICHANG1",
 		id = 3181,
 		icon = "memory_cangshanrenfatierichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIERICHANG1"
+		}
 	},
 	[3182] = {
 		mask = "bg/bg_memory",
@@ -31736,7 +39372,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIERICHANG2",
 		id = 3182,
 		icon = "memory_cangshanrenfatierichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIERICHANG2"
+		}
 	},
 	[3183] = {
 		mask = "bg/bg_memory",
@@ -31747,7 +39386,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIERICHANG3",
 		id = 3183,
 		icon = "memory_cangshanrenfatierichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIERICHANG3"
+		}
 	},
 	[3184] = {
 		mask = "bg/bg_memory",
@@ -31758,7 +39400,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIERICHANG4",
 		id = 3184,
 		icon = "memory_cangshanrenfatierichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIERICHANG4"
+		}
 	},
 	[3185] = {
 		mask = "bg/bg_memory",
@@ -31769,7 +39414,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIERICHANG5",
 		id = 3185,
 		icon = "memory_cangshanrenfatierichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIERICHANG5"
+		}
 	},
 	[3186] = {
 		mask = "bg/bg_memory",
@@ -31780,7 +39428,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIERICHANG6",
 		id = 3186,
 		icon = "memory_cangshanrenfatierichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIERICHANG6"
+		}
 	},
 	[3187] = {
 		mask = "bg/bg_memory",
@@ -31791,7 +39442,10 @@ pg.base.memory_template = {
 		story = "CANGSHANRENFATIERICHANG7",
 		id = 3187,
 		icon = "memory_cangshanrenfatierichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CANGSHANRENFATIERICHANG7"
+		}
 	},
 	[3191] = {
 		mask = "bg/bg_memory",
@@ -31802,7 +39456,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG1",
 		id = 3191,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG1"
+		}
 	},
 	[3192] = {
 		mask = "bg/bg_memory",
@@ -31813,7 +39470,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG2",
 		id = 3192,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG2"
+		}
 	},
 	[3193] = {
 		mask = "bg/bg_memory",
@@ -31824,7 +39484,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG3",
 		id = 3193,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG3"
+		}
 	},
 	[3194] = {
 		mask = "bg/bg_memory",
@@ -31835,7 +39498,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG4",
 		id = 3194,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG4"
+		}
 	},
 	[3195] = {
 		mask = "bg/bg_memory",
@@ -31846,7 +39512,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG5",
 		id = 3195,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG5"
+		}
 	},
 	[3196] = {
 		mask = "bg/bg_memory",
@@ -31857,7 +39526,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG6",
 		id = 3196,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG6"
+		}
 	},
 	[3197] = {
 		mask = "bg/bg_memory",
@@ -31868,7 +39540,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG7",
 		id = 3197,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG7"
+		}
 	},
 	[3198] = {
 		mask = "bg/bg_memory",
@@ -31879,7 +39554,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG8",
 		id = 3198,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG8"
+		}
 	},
 	[3199] = {
 		mask = "bg/bg_memory",
@@ -31890,7 +39568,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG9",
 		id = 3199,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG9"
+		}
 	},
 	[3200] = {
 		mask = "bg/bg_memory",
@@ -31901,7 +39582,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG10",
 		id = 3200,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG10"
+		}
 	},
 	[3201] = {
 		mask = "bg/bg_memory",
@@ -31912,7 +39596,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG11",
 		id = 3201,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG11"
+		}
 	},
 	[3202] = {
 		mask = "bg/bg_memory",
@@ -31923,7 +39610,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG12",
 		id = 3202,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG12"
+		}
 	},
 	[3203] = {
 		mask = "bg/bg_memory",
@@ -31934,7 +39624,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG13",
 		id = 3203,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG13"
+		}
 	},
 	[3204] = {
 		mask = "bg/bg_memory",
@@ -31945,7 +39638,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG14",
 		id = 3204,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG14"
+		}
 	},
 	[3205] = {
 		mask = "bg/bg_memory",
@@ -31956,7 +39652,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG15",
 		id = 3205,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG15"
+		}
 	},
 	[3206] = {
 		mask = "bg/bg_memory",
@@ -31967,7 +39666,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG16",
 		id = 3206,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG16"
+		}
 	},
 	[3207] = {
 		mask = "bg/bg_memory",
@@ -31978,7 +39680,10 @@ pg.base.memory_template = {
 		story = "RENQITOUPIAOXINPIANZHANG17",
 		id = 3207,
 		icon = "memory_renqitoupiaoxinpianzhang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQITOUPIAOXINPIANZHANG17"
+		}
 	},
 	[3211] = {
 		mask = "bg/bg_memory",
@@ -31989,7 +39694,10 @@ pg.base.memory_template = {
 		story = "RENQIFEITELIEDADI",
 		id = 3211,
 		icon = "memory_renqifeiteliedadi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIFEITELIEDADI"
+		}
 	},
 	[3212] = {
 		mask = "bg/bg_memory",
@@ -32000,7 +39708,10 @@ pg.base.memory_template = {
 		story = "RENQIXINNONG",
 		id = 3212,
 		icon = "memory_renqixinnong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIXINNONG"
+		}
 	},
 	[3213] = {
 		mask = "bg/bg_memory",
@@ -32011,7 +39722,10 @@ pg.base.memory_template = {
 		story = "RENQIAIJIER",
 		id = 3213,
 		icon = "memory_renqiaijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIAIJIER"
+		}
 	},
 	[3214] = {
 		mask = "bg/bg_memory",
@@ -32022,7 +39736,10 @@ pg.base.memory_template = {
 		story = "RENQIYINGRUI",
 		id = 3214,
 		icon = "memory_renqiyingrui",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIYINGRUI"
+		}
 	},
 	[3215] = {
 		mask = "bg/bg_memory",
@@ -32033,7 +39750,10 @@ pg.base.memory_template = {
 		story = "RENQICHAIJUN",
 		id = 3215,
 		icon = "memory_renqichaijun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQICHAIJUN"
+		}
 	},
 	[3216] = {
 		mask = "bg/bg_memory",
@@ -32044,7 +39764,10 @@ pg.base.memory_template = {
 		story = "RENQINENGDAI",
 		id = 3216,
 		icon = "memory_renqinengdai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQINENGDAI"
+		}
 	},
 	[3217] = {
 		mask = "bg/bg_memory",
@@ -32055,7 +39778,10 @@ pg.base.memory_template = {
 		story = "RENQIOUGEN",
 		id = 3217,
 		icon = "memory_renqiougen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIOUGEN"
+		}
 	},
 	[3218] = {
 		mask = "bg/bg_memory",
@@ -32066,7 +39792,10 @@ pg.base.memory_template = {
 		story = "RENQIXINZEXI",
 		id = 3218,
 		icon = "memory_renqixinzexi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIXINZEXI"
+		}
 	},
 	[3221] = {
 		mask = "bg/bg_memory",
@@ -32077,7 +39806,10 @@ pg.base.memory_template = {
 		story = "QINGKONGZHIXIA1",
 		id = 3221,
 		icon = "memory_qingkongzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGZHIXIA1"
+		}
 	},
 	[3222] = {
 		mask = "bg/bg_memory",
@@ -32088,7 +39820,10 @@ pg.base.memory_template = {
 		story = "QINGKONGZHIXIA2",
 		id = 3222,
 		icon = "memory_qingkongzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGZHIXIA2"
+		}
 	},
 	[3223] = {
 		mask = "bg/bg_memory",
@@ -32099,7 +39834,10 @@ pg.base.memory_template = {
 		story = "QINGKONGZHIXIA3",
 		id = 3223,
 		icon = "memory_qingkongzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGZHIXIA3"
+		}
 	},
 	[3224] = {
 		mask = "bg/bg_memory",
@@ -32110,7 +39848,10 @@ pg.base.memory_template = {
 		story = "QINGKONGZHIXIA4",
 		id = 3224,
 		icon = "memory_qingkongzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGZHIXIA4"
+		}
 	},
 	[3225] = {
 		mask = "bg/bg_memory",
@@ -32121,7 +39862,10 @@ pg.base.memory_template = {
 		story = "QINGKONGZHIXIA5",
 		id = 3225,
 		icon = "memory_qingkongzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGZHIXIA5"
+		}
 	},
 	[3226] = {
 		mask = "bg/bg_memory",
@@ -32132,7 +39876,10 @@ pg.base.memory_template = {
 		story = "QINGKONGZHIXIA6",
 		id = 3226,
 		icon = "memory_qingkongzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGZHIXIA6"
+		}
 	},
 	[3227] = {
 		mask = "bg/bg_memory",
@@ -32143,7 +39890,10 @@ pg.base.memory_template = {
 		story = "QINGKONGZHIXIA7",
 		id = 3227,
 		icon = "memory_qingkongzhixia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGZHIXIA7"
+		}
 	},
 	[3228] = {
 		mask = "bg/bg_memory",
@@ -32154,7 +39904,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG1",
 		id = 3228,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG1"
+		}
 	},
 	[3229] = {
 		mask = "bg/bg_memory",
@@ -32165,7 +39918,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG2",
 		id = 3229,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG2"
+		}
 	},
 	[3230] = {
 		mask = "bg/bg_memory",
@@ -32176,7 +39932,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG3",
 		id = 3230,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG3"
+		}
 	},
 	[3231] = {
 		mask = "bg/bg_memory",
@@ -32187,7 +39946,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG4",
 		id = 3231,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG4"
+		}
 	},
 	[3232] = {
 		mask = "bg/bg_memory",
@@ -32198,7 +39960,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG5",
 		id = 3232,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG5"
+		}
 	},
 	[3233] = {
 		mask = "bg/bg_memory",
@@ -32209,7 +39974,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG6",
 		id = 3233,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG6"
+		}
 	},
 	[3234] = {
 		mask = "bg/bg_memory",
@@ -32220,7 +39988,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG7",
 		id = 3234,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG7"
+		}
 	},
 	[3235] = {
 		mask = "bg/bg_memory",
@@ -32231,7 +40002,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG8",
 		id = 3235,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG8"
+		}
 	},
 	[3236] = {
 		mask = "bg/bg_memory",
@@ -32242,7 +40016,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG9",
 		id = 3236,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG9"
+		}
 	},
 	[3237] = {
 		mask = "bg/bg_memory",
@@ -32253,7 +40030,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG10",
 		id = 3237,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG10"
+		}
 	},
 	[3238] = {
 		mask = "bg/bg_memory",
@@ -32264,7 +40044,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG11",
 		id = 3238,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG11"
+		}
 	},
 	[3239] = {
 		mask = "bg/bg_memory",
@@ -32275,7 +40058,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG12",
 		id = 3239,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG12"
+		}
 	},
 	[3240] = {
 		mask = "bg/bg_memory",
@@ -32286,7 +40072,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG13",
 		id = 3240,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG13"
+		}
 	},
 	[3241] = {
 		mask = "bg/bg_memory",
@@ -32297,7 +40086,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG14",
 		id = 3241,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG14"
+		}
 	},
 	[3242] = {
 		mask = "bg/bg_memory",
@@ -32308,7 +40100,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG15",
 		id = 3242,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG15"
+		}
 	},
 	[3243] = {
 		mask = "bg/bg_memory",
@@ -32319,7 +40114,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG16",
 		id = 3243,
 		icon = "memory_xinghaizhuguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG16"
+		}
 	},
 	[3244] = {
 		mask = "bg/bg_memory",
@@ -32330,7 +40128,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG17",
 		id = 3244,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG17"
+		}
 	},
 	[3245] = {
 		mask = "bg/bg_memory",
@@ -32341,7 +40142,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG18",
 		id = 3245,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG18"
+		}
 	},
 	[3246] = {
 		mask = "bg/bg_memory",
@@ -32352,7 +40156,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG19",
 		id = 3246,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG19"
+		}
 	},
 	[3247] = {
 		mask = "bg/bg_memory",
@@ -32363,7 +40170,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG20",
 		id = 3247,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG20"
+		}
 	},
 	[3248] = {
 		mask = "bg/bg_memory",
@@ -32374,7 +40184,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG21",
 		id = 3248,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG21"
+		}
 	},
 	[3249] = {
 		mask = "bg/bg_memory",
@@ -32385,7 +40198,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG22",
 		id = 3249,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG22"
+		}
 	},
 	[3250] = {
 		mask = "bg/bg_memory",
@@ -32396,7 +40212,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG23",
 		id = 3250,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG23"
+		}
 	},
 	[3251] = {
 		mask = "bg/bg_memory",
@@ -32407,7 +40226,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG24",
 		id = 3251,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG24"
+		}
 	},
 	[3252] = {
 		mask = "bg/bg_memory",
@@ -32418,7 +40240,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG25",
 		id = 3252,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG25"
+		}
 	},
 	[3253] = {
 		mask = "bg/bg_memory",
@@ -32429,7 +40254,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG26",
 		id = 3253,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG26"
+		}
 	},
 	[3254] = {
 		mask = "bg/bg_memory",
@@ -32440,7 +40268,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG27",
 		id = 3254,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG27"
+		}
 	},
 	[3255] = {
 		mask = "bg/bg_memory",
@@ -32451,7 +40282,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG28",
 		id = 3255,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG28"
+		}
 	},
 	[3256] = {
 		mask = "bg/bg_memory",
@@ -32462,7 +40296,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG29",
 		id = 3256,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG29"
+		}
 	},
 	[3257] = {
 		mask = "bg/bg_memory",
@@ -32473,7 +40310,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG30",
 		id = 3257,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG30"
+		}
 	},
 	[3258] = {
 		mask = "bg/bg_memory",
@@ -32484,7 +40324,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG31",
 		id = 3258,
 		icon = "memory_xinghaizhuguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG31"
+		}
 	},
 	[3259] = {
 		mask = "bg/bg_memory",
@@ -32495,7 +40338,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG32",
 		id = 3259,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG32"
+		}
 	},
 	[3260] = {
 		mask = "bg/bg_memory",
@@ -32506,7 +40352,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG33",
 		id = 3260,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG33"
+		}
 	},
 	[3261] = {
 		mask = "bg/bg_memory",
@@ -32517,7 +40366,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG34",
 		id = 3261,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG34"
+		}
 	},
 	[3262] = {
 		mask = "bg/bg_memory",
@@ -32528,7 +40380,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG35",
 		id = 3262,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG35"
+		}
 	},
 	[3263] = {
 		mask = "bg/bg_memory",
@@ -32539,7 +40394,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG36",
 		id = 3263,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG36"
+		}
 	},
 	[3264] = {
 		mask = "bg/bg_memory",
@@ -32550,7 +40408,10 @@ pg.base.memory_template = {
 		story = "XINGHAIZHUGUANG37",
 		id = 3264,
 		icon = "memory_yixiangpianzhen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGHAIZHUGUANG37"
+		}
 	},
 	[3265] = {
 		mask = "bg/bg_memory",
@@ -32561,7 +40422,10 @@ pg.base.memory_template = {
 		story = "GUANDAO1",
 		id = 3265,
 		icon = "memory_guandao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANDAO1"
+		}
 	},
 	[3266] = {
 		mask = "bg/bg_memory",
@@ -32572,7 +40436,10 @@ pg.base.memory_template = {
 		story = "GUANDAO2",
 		id = 3266,
 		icon = "memory_guandao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANDAO2"
+		}
 	},
 	[3267] = {
 		mask = "bg/bg_memory",
@@ -32583,7 +40450,10 @@ pg.base.memory_template = {
 		story = "GUANDAO3",
 		id = 3267,
 		icon = "memory_guandao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANDAO3"
+		}
 	},
 	[3268] = {
 		mask = "bg/bg_memory",
@@ -32594,7 +40464,10 @@ pg.base.memory_template = {
 		story = "GUANDAO4",
 		id = 3268,
 		icon = "memory_guandao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANDAO4"
+		}
 	},
 	[3269] = {
 		mask = "bg/bg_memory",
@@ -32605,7 +40478,10 @@ pg.base.memory_template = {
 		story = "GUANDAO5",
 		id = 3269,
 		icon = "memory_guandao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANDAO5"
+		}
 	},
 	[3270] = {
 		mask = "bg/bg_memory",
@@ -32616,7 +40492,10 @@ pg.base.memory_template = {
 		story = "GUANDAO6",
 		id = 3270,
 		icon = "memory_guandao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANDAO6"
+		}
 	},
 	[3271] = {
 		mask = "bg/bg_memory",
@@ -32627,7 +40506,10 @@ pg.base.memory_template = {
 		story = "GUANDAO7",
 		id = 3271,
 		icon = "memory_guandao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GUANDAO7"
+		}
 	},
 	[3272] = {
 		mask = "bg/bg_memory",
@@ -32638,7 +40520,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBINFENYE1",
 		id = 3272,
 		icon = "memory_xuancaibinfenye",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANBINFENYE1"
+		}
 	},
 	[3273] = {
 		mask = "bg/bg_memory",
@@ -32649,7 +40534,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBINFENYE2",
 		id = 3273,
 		icon = "memory_xuancaibinfenye",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANBINFENYE2"
+		}
 	},
 	[3274] = {
 		mask = "bg/bg_memory",
@@ -32660,7 +40548,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBINFENYE3",
 		id = 3274,
 		icon = "memory_xuancaibinfenye",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANBINFENYE3"
+		}
 	},
 	[3275] = {
 		mask = "bg/bg_memory",
@@ -32671,7 +40562,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBINFENYE4",
 		id = 3275,
 		icon = "memory_xuancaibinfenye",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANBINFENYE4"
+		}
 	},
 	[3281] = {
 		mask = "bg/bg_memory",
@@ -32682,7 +40576,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJISAN1",
 		id = 3281,
 		icon = "memory_shishangtekanhedingji3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJISAN1"
+		}
 	},
 	[3282] = {
 		mask = "bg/bg_memory",
@@ -32693,7 +40590,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJISAN2",
 		id = 3282,
 		icon = "memory_shishangtekanhedingji3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJISAN2"
+		}
 	},
 	[3283] = {
 		mask = "bg/bg_memory",
@@ -32704,7 +40604,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJISAN3",
 		id = 3283,
 		icon = "memory_shishangtekanhedingji3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJISAN3"
+		}
 	},
 	[3291] = {
 		mask = "bg/bg_memory",
@@ -32715,7 +40618,10 @@ pg.base.memory_template = {
 		story = "FUSHUN1",
 		id = 3291,
 		icon = "memory_fushungeren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN1"
+		}
 	},
 	[3292] = {
 		mask = "bg/bg_memory",
@@ -32726,7 +40632,10 @@ pg.base.memory_template = {
 		story = "FUSHUN2",
 		id = 3292,
 		icon = "memory_fushungeren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN2"
+		}
 	},
 	[3293] = {
 		mask = "bg/bg_memory",
@@ -32737,7 +40646,10 @@ pg.base.memory_template = {
 		story = "FUSHUN3",
 		id = 3293,
 		icon = "memory_fushungeren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN3"
+		}
 	},
 	[3294] = {
 		mask = "bg/bg_memory",
@@ -32748,7 +40660,10 @@ pg.base.memory_template = {
 		story = "FUSHUN4",
 		id = 3294,
 		icon = "memory_fushungeren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN4"
+		}
 	},
 	[3295] = {
 		mask = "bg/bg_memory",
@@ -32759,7 +40674,10 @@ pg.base.memory_template = {
 		story = "FUSHUN5",
 		id = 3295,
 		icon = "memory_fushungeren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN5"
+		}
 	},
 	[3296] = {
 		mask = "bg/bg_memory",
@@ -32770,7 +40688,10 @@ pg.base.memory_template = {
 		story = "FUSHUN6",
 		id = 3296,
 		icon = "memory_fushungeren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN6"
+		}
 	},
 	[3297] = {
 		mask = "bg/bg_memory",
@@ -32781,7 +40702,10 @@ pg.base.memory_template = {
 		story = "FUSHUN7",
 		id = 3297,
 		icon = "memory_fushungeren",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FUSHUN7"
+		}
 	},
 	[3301] = {
 		mask = "bg/bg_memory",
@@ -32792,7 +40716,10 @@ pg.base.memory_template = {
 		story = "HUANCHANGYUDINGJIASHIMANG1",
 		id = 3301,
 		icon = "memory_huanchangyudingjiashimang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANCHANGYUDINGJIASHIMANG1"
+		}
 	},
 	[3302] = {
 		mask = "bg/bg_memory",
@@ -32803,7 +40730,10 @@ pg.base.memory_template = {
 		story = "HUANCHANGYUDINGJIASHIMANG2",
 		id = 3302,
 		icon = "memory_huanchangyudingjiashimang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANCHANGYUDINGJIASHIMANG2"
+		}
 	},
 	[3303] = {
 		mask = "bg/bg_memory",
@@ -32814,7 +40744,10 @@ pg.base.memory_template = {
 		story = "HUANCHANGYUDINGJIASHIMANG3",
 		id = 3303,
 		icon = "memory_huanchangyudingjiashimang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANCHANGYUDINGJIASHIMANG3"
+		}
 	},
 	[3304] = {
 		mask = "bg/bg_memory",
@@ -32825,7 +40758,10 @@ pg.base.memory_template = {
 		story = "HUANCHANGYUDINGJIASHIMANG4",
 		id = 3304,
 		icon = "memory_huanchangyudingjiashimang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANCHANGYUDINGJIASHIMANG4"
+		}
 	},
 	[3305] = {
 		mask = "bg/bg_memory",
@@ -32836,7 +40772,10 @@ pg.base.memory_template = {
 		story = "HUANCHANGYUDINGJIASHIMANG5",
 		id = 3305,
 		icon = "memory_huanchangyudingjiashimang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANCHANGYUDINGJIASHIMANG5"
+		}
 	},
 	[3311] = {
 		mask = "bg/bg_memory",
@@ -32847,7 +40786,10 @@ pg.base.memory_template = {
 		story = "XINCHUNDEMAOXIANZHIWANG1",
 		id = 3311,
 		icon = "memory_xinchundemaoxainzhiwang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINCHUNDEMAOXIANZHIWANG1"
+		}
 	},
 	[3312] = {
 		mask = "bg/bg_memory",
@@ -32858,7 +40800,10 @@ pg.base.memory_template = {
 		story = "XINCHUNDEMAOXIANZHIWANG2",
 		id = 3312,
 		icon = "memory_xinchundemaoxainzhiwang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINCHUNDEMAOXIANZHIWANG2"
+		}
 	},
 	[3313] = {
 		mask = "bg/bg_memory",
@@ -32869,7 +40814,10 @@ pg.base.memory_template = {
 		story = "XINCHUNDEMAOXIANZHIWANG3",
 		id = 3313,
 		icon = "memory_xinchundemaoxainzhiwang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINCHUNDEMAOXIANZHIWANG3"
+		}
 	},
 	[3321] = {
 		mask = "bg/bg_memory",
@@ -32880,7 +40828,10 @@ pg.base.memory_template = {
 		story = "LUCK39905",
 		id = 3321,
 		icon = "memory_bailong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK39905"
+		}
 	},
 	[3331] = {
 		mask = "bg/bg_memory",
@@ -32891,7 +40842,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIXINCHUNYI1",
 		id = 3331,
 		icon = "memory_shishangtekanxinchun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIXINCHUNYI1"
+		}
 	},
 	[3332] = {
 		mask = "bg/bg_memory",
@@ -32902,7 +40856,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIXINCHUNYI2",
 		id = 3332,
 		icon = "memory_shishangtekanxinchun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIXINCHUNYI2"
+		}
 	},
 	[3333] = {
 		mask = "bg/bg_memory",
@@ -32913,7 +40870,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIXINCHUNYI3",
 		id = 3333,
 		icon = "memory_shishangtekanxinchun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIXINCHUNYI3"
+		}
 	},
 	[3341] = {
 		mask = "bg/bg_memory",
@@ -32924,7 +40884,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIXINCHUNER1",
 		id = 3341,
 		icon = "memory_shishangtekanxinchun2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIXINCHUNER1"
+		}
 	},
 	[3342] = {
 		mask = "bg/bg_memory",
@@ -32935,7 +40898,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIXINCHUNER2",
 		id = 3342,
 		icon = "memory_shishangtekanxinchun2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIXINCHUNER2"
+		}
 	},
 	[3343] = {
 		mask = "bg/bg_memory",
@@ -32946,7 +40912,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIXINCHUNER3",
 		id = 3343,
 		icon = "memory_shishangtekanxinchun2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIXINCHUNER3"
+		}
 	},
 	[3351] = {
 		mask = "bg/bg_memory",
@@ -32957,7 +40926,10 @@ pg.base.memory_template = {
 		story = "ZHENHAI1",
 		id = 3351,
 		icon = "memory_zhenhai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENHAI1"
+		}
 	},
 	[3352] = {
 		mask = "bg/bg_memory",
@@ -32968,7 +40940,10 @@ pg.base.memory_template = {
 		story = "ZHENHAI2",
 		id = 3352,
 		icon = "memory_zhenhai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENHAI2"
+		}
 	},
 	[3353] = {
 		mask = "bg/bg_memory",
@@ -32979,7 +40954,10 @@ pg.base.memory_template = {
 		story = "ZHENHAI3",
 		id = 3353,
 		icon = "memory_zhenhai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENHAI3"
+		}
 	},
 	[3354] = {
 		mask = "bg/bg_memory",
@@ -32990,7 +40968,10 @@ pg.base.memory_template = {
 		story = "ZHENHAI4",
 		id = 3354,
 		icon = "memory_zhenhai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENHAI4"
+		}
 	},
 	[3355] = {
 		mask = "bg/bg_memory",
@@ -33001,7 +40982,10 @@ pg.base.memory_template = {
 		story = "ZHENHAI5",
 		id = 3355,
 		icon = "memory_zhenhai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENHAI5"
+		}
 	},
 	[3356] = {
 		mask = "bg/bg_memory",
@@ -33012,7 +40996,10 @@ pg.base.memory_template = {
 		story = "ZHENHAI6",
 		id = 3356,
 		icon = "memory_zhenhai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENHAI6"
+		}
 	},
 	[3357] = {
 		mask = "bg/bg_memory",
@@ -33023,7 +41010,10 @@ pg.base.memory_template = {
 		story = "ZHENHAI7",
 		id = 3357,
 		icon = "memory_zhenhai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENHAI7"
+		}
 	},
 	[3361] = {
 		mask = "bg/bg_memory",
@@ -33034,7 +41024,10 @@ pg.base.memory_template = {
 		story = "XIANGSHANERXING1",
 		id = 3361,
 		icon = "memory_xiangshanerxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGSHANERXING1"
+		}
 	},
 	[3362] = {
 		mask = "bg/bg_memory",
@@ -33045,7 +41038,10 @@ pg.base.memory_template = {
 		story = "XIANGSHANERXING2",
 		id = 3362,
 		icon = "memory_xiangshanerxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGSHANERXING2"
+		}
 	},
 	[3363] = {
 		mask = "bg/bg_memory",
@@ -33056,7 +41052,10 @@ pg.base.memory_template = {
 		story = "XIANGSHANERXING3",
 		id = 3363,
 		icon = "memory_xiangshanerxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGSHANERXING3"
+		}
 	},
 	[3364] = {
 		mask = "bg/bg_memory",
@@ -33067,7 +41066,10 @@ pg.base.memory_template = {
 		story = "XIANGSHANERXING4",
 		id = 3364,
 		icon = "memory_xiangshanerxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGSHANERXING4"
+		}
 	},
 	[3365] = {
 		mask = "bg/bg_memory",
@@ -33078,7 +41080,10 @@ pg.base.memory_template = {
 		story = "XIANGSHANERXING5",
 		id = 3365,
 		icon = "memory_xiangshanerxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGSHANERXING5"
+		}
 	},
 	[3366] = {
 		mask = "bg/bg_memory",
@@ -33089,7 +41094,10 @@ pg.base.memory_template = {
 		story = "XIANGSHANERXING6",
 		id = 3366,
 		icon = "memory_xiangshanerxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGSHANERXING6"
+		}
 	},
 	[3367] = {
 		mask = "bg/bg_memory",
@@ -33100,7 +41108,10 @@ pg.base.memory_template = {
 		story = "XIANGSHANERXING7",
 		id = 3367,
 		icon = "memory_xiangshanerxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGSHANERXING7"
+		}
 	},
 	[3368] = {
 		mask = "bg/bg_memory",
@@ -33111,7 +41122,10 @@ pg.base.memory_template = {
 		story = "XIANGSHANERXING8",
 		id = 3368,
 		icon = "memory_xiangshanerxing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIANGSHANERXING8"
+		}
 	},
 	[3370] = {
 		mask = "bg/bg_memory",
@@ -33122,7 +41136,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG1",
 		id = 3370,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG1"
+		}
 	},
 	[3371] = {
 		mask = "bg/bg_memory",
@@ -33133,7 +41150,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG2",
 		id = 3371,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG2"
+		}
 	},
 	[3372] = {
 		mask = "bg/bg_memory",
@@ -33144,7 +41164,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG3",
 		id = 3372,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG3"
+		}
 	},
 	[3373] = {
 		mask = "bg/bg_memory",
@@ -33155,7 +41178,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG4",
 		id = 3373,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG4"
+		}
 	},
 	[3374] = {
 		mask = "bg/bg_memory",
@@ -33166,7 +41192,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG5",
 		id = 3374,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG5"
+		}
 	},
 	[3375] = {
 		mask = "bg/bg_memory",
@@ -33177,7 +41206,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG6",
 		id = 3375,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG6"
+		}
 	},
 	[3376] = {
 		mask = "bg/bg_memory",
@@ -33188,7 +41220,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG7",
 		id = 3376,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG7"
+		}
 	},
 	[3377] = {
 		mask = "bg/bg_memory",
@@ -33199,7 +41234,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG8",
 		id = 3377,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG8"
+		}
 	},
 	[3378] = {
 		mask = "bg/bg_memory",
@@ -33210,7 +41248,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG9",
 		id = 3378,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG9"
+		}
 	},
 	[3379] = {
 		mask = "bg/bg_memory",
@@ -33221,7 +41262,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG10",
 		id = 3379,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG10"
+		}
 	},
 	[3380] = {
 		mask = "bg/bg_memory",
@@ -33232,7 +41276,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG11",
 		id = 3380,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG11"
+		}
 	},
 	[3381] = {
 		mask = "bg/bg_memory",
@@ -33243,7 +41290,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG12",
 		id = 3381,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG12"
+		}
 	},
 	[3382] = {
 		mask = "bg/bg_memory",
@@ -33254,7 +41304,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG13",
 		id = 3382,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG13"
+		}
 	},
 	[3383] = {
 		mask = "bg/bg_memory",
@@ -33265,7 +41318,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG14",
 		id = 3383,
 		icon = "memory_xuejingmizong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG14"
+		}
 	},
 	[3384] = {
 		mask = "bg/bg_memory",
@@ -33276,7 +41332,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG15",
 		id = 3384,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG15"
+		}
 	},
 	[3385] = {
 		mask = "bg/bg_memory",
@@ -33287,7 +41346,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG16",
 		id = 3385,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG16"
+		}
 	},
 	[3386] = {
 		mask = "bg/bg_memory",
@@ -33298,7 +41360,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG17",
 		id = 3386,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG17"
+		}
 	},
 	[3387] = {
 		mask = "bg/bg_memory",
@@ -33309,7 +41374,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG18",
 		id = 3387,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG18"
+		}
 	},
 	[3388] = {
 		mask = "bg/bg_memory",
@@ -33320,7 +41388,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG19",
 		id = 3388,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG19"
+		}
 	},
 	[3389] = {
 		mask = "bg/bg_memory",
@@ -33331,7 +41402,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG20",
 		id = 3389,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG20"
+		}
 	},
 	[3390] = {
 		mask = "bg/bg_memory",
@@ -33342,7 +41416,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG21",
 		id = 3390,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG21"
+		}
 	},
 	[3391] = {
 		mask = "bg/bg_memory",
@@ -33353,7 +41430,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG22",
 		id = 3391,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG22"
+		}
 	},
 	[3392] = {
 		mask = "bg/bg_memory",
@@ -33364,7 +41444,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG23",
 		id = 3392,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG23"
+		}
 	},
 	[3393] = {
 		mask = "bg/bg_memory",
@@ -33375,7 +41458,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG24",
 		id = 3393,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG24"
+		}
 	},
 	[3394] = {
 		mask = "bg/bg_memory",
@@ -33386,7 +41472,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG25",
 		id = 3394,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG25"
+		}
 	},
 	[3395] = {
 		mask = "bg/bg_memory",
@@ -33397,7 +41486,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG26",
 		id = 3395,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG26"
+		}
 	},
 	[3396] = {
 		mask = "bg/bg_memory",
@@ -33408,7 +41500,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG27",
 		id = 3396,
 		icon = "memory_xuejingmizong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG27"
+		}
 	},
 	[3397] = {
 		mask = "bg/bg_memory",
@@ -33419,7 +41514,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG28",
 		id = 3397,
 		icon = "memory_xuejingmizong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG28"
+		}
 	},
 	[3398] = {
 		mask = "bg/bg_memory",
@@ -33430,7 +41528,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG29",
 		id = 3398,
 		icon = "memory_xuejingmizong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG29"
+		}
 	},
 	[3399] = {
 		mask = "bg/bg_memory",
@@ -33441,7 +41542,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG30",
 		id = 3399,
 		icon = "memory_xuejingmizong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG30"
+		}
 	},
 	[3400] = {
 		mask = "bg/bg_memory",
@@ -33452,7 +41556,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG31",
 		id = 3400,
 		icon = "memory_xuejingmizong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG31"
+		}
 	},
 	[3401] = {
 		mask = "bg/bg_memory",
@@ -33463,7 +41570,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG32",
 		id = 3401,
 		icon = "memory_xuejingmizong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG32"
+		}
 	},
 	[3402] = {
 		mask = "bg/bg_memory",
@@ -33474,7 +41584,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG33",
 		id = 3402,
 		icon = "memory_xuejingmizong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG33"
+		}
 	},
 	[3403] = {
 		mask = "bg/bg_memory",
@@ -33485,7 +41598,10 @@ pg.base.memory_template = {
 		story = "XUEJINGMIZONG34",
 		id = 3403,
 		icon = "memory_xuejingmizong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XUEJINGMIZONG34"
+		}
 	},
 	[3411] = {
 		mask = "bg/bg_memory",
@@ -33496,7 +41612,10 @@ pg.base.memory_template = {
 		story = "ANJINBUYECHENG1",
 		id = 3411,
 		icon = "memory_anjinbuyecheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANJINBUYECHENG1"
+		}
 	},
 	[3412] = {
 		mask = "bg/bg_memory",
@@ -33507,7 +41626,10 @@ pg.base.memory_template = {
 		story = "ANJINBUYECHENG2",
 		id = 3412,
 		icon = "memory_anjinbuyecheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANJINBUYECHENG2"
+		}
 	},
 	[3413] = {
 		mask = "bg/bg_memory",
@@ -33518,7 +41640,10 @@ pg.base.memory_template = {
 		story = "ANJINBUYECHENG3",
 		id = 3413,
 		icon = "memory_anjinbuyecheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANJINBUYECHENG3"
+		}
 	},
 	[3414] = {
 		mask = "bg/bg_memory",
@@ -33529,7 +41654,10 @@ pg.base.memory_template = {
 		story = "ANJINBUYECHENG4",
 		id = 3414,
 		icon = "memory_anjinbuyecheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANJINBUYECHENG4"
+		}
 	},
 	[3415] = {
 		mask = "bg/bg_memory",
@@ -33540,7 +41668,10 @@ pg.base.memory_template = {
 		story = "ANJINBUYECHENG5",
 		id = 3415,
 		icon = "memory_anjinbuyecheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANJINBUYECHENG5"
+		}
 	},
 	[3416] = {
 		mask = "bg/bg_memory",
@@ -33551,7 +41682,10 @@ pg.base.memory_template = {
 		story = "ANJINBUYECHENG6",
 		id = 3416,
 		icon = "memory_anjinbuyecheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANJINBUYECHENG6"
+		}
 	},
 	[3417] = {
 		mask = "bg/bg_memory",
@@ -33562,7 +41696,10 @@ pg.base.memory_template = {
 		story = "ANJINBUYECHENG7",
 		id = 3417,
 		icon = "memory_anjinbuyecheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANJINBUYECHENG7"
+		}
 	},
 	[3418] = {
 		mask = "bg/bg_memory",
@@ -33573,7 +41710,10 @@ pg.base.memory_template = {
 		story = "ANJINBUYECHENG8",
 		id = 3418,
 		icon = "memory_anjinbuyecheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ANJINBUYECHENG8"
+		}
 	},
 	[3421] = {
 		mask = "bg/bg_memory",
@@ -33584,7 +41724,10 @@ pg.base.memory_template = {
 		story = "SHENGHAXINTUO1",
 		id = 3421,
 		icon = "memory_shenghaxintuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGHAXINTUO1"
+		}
 	},
 	[3422] = {
 		mask = "bg/bg_memory",
@@ -33595,7 +41738,10 @@ pg.base.memory_template = {
 		story = "SHENGHAXINTUO2",
 		id = 3422,
 		icon = "memory_shenghaxintuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGHAXINTUO2"
+		}
 	},
 	[3423] = {
 		mask = "bg/bg_memory",
@@ -33606,7 +41752,10 @@ pg.base.memory_template = {
 		story = "SHENGHAXINTUO3",
 		id = 3423,
 		icon = "memory_shenghaxintuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGHAXINTUO3"
+		}
 	},
 	[3424] = {
 		mask = "bg/bg_memory",
@@ -33617,7 +41766,10 @@ pg.base.memory_template = {
 		story = "SHENGHAXINTUO4",
 		id = 3424,
 		icon = "memory_shenghaxintuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGHAXINTUO4"
+		}
 	},
 	[3425] = {
 		mask = "bg/bg_memory",
@@ -33628,7 +41780,10 @@ pg.base.memory_template = {
 		story = "SHENGHAXINTUO5",
 		id = 3425,
 		icon = "memory_shenghaxintuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGHAXINTUO5"
+		}
 	},
 	[3426] = {
 		mask = "bg/bg_memory",
@@ -33639,7 +41794,10 @@ pg.base.memory_template = {
 		story = "SHENGHAXINTUO6",
 		id = 3426,
 		icon = "memory_shenghaxintuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGHAXINTUO6"
+		}
 	},
 	[3427] = {
 		mask = "bg/bg_memory",
@@ -33650,7 +41808,10 @@ pg.base.memory_template = {
 		story = "SHENGHAXINTUO7",
 		id = 3427,
 		icon = "memory_shenghaxintuo",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGHAXINTUO7"
+		}
 	},
 	[3431] = {
 		mask = "bg/bg_memory",
@@ -33661,7 +41822,10 @@ pg.base.memory_template = {
 		story = "YINYOUZHEZHISHI1",
 		id = 3431,
 		icon = "memory_yinyouzhezhishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINYOUZHEZHISHI1"
+		}
 	},
 	[3432] = {
 		mask = "bg/bg_memory",
@@ -33672,7 +41836,10 @@ pg.base.memory_template = {
 		story = "YINYOUZHEZHISHI2",
 		id = 3432,
 		icon = "memory_yinyouzhezhishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINYOUZHEZHISHI2"
+		}
 	},
 	[3433] = {
 		mask = "bg/bg_memory",
@@ -33683,7 +41850,10 @@ pg.base.memory_template = {
 		story = "YINYOUZHEZHISHI3",
 		id = 3433,
 		icon = "memory_yinyouzhezhishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINYOUZHEZHISHI3"
+		}
 	},
 	[3434] = {
 		mask = "bg/bg_memory",
@@ -33694,7 +41864,10 @@ pg.base.memory_template = {
 		story = "YINYOUZHEZHISHI4",
 		id = 3434,
 		icon = "memory_yinyouzhezhishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINYOUZHEZHISHI4"
+		}
 	},
 	[3435] = {
 		mask = "bg/bg_memory",
@@ -33705,7 +41878,10 @@ pg.base.memory_template = {
 		story = "YINYOUZHEZHISHI5",
 		id = 3435,
 		icon = "memory_yinyouzhezhishi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINYOUZHEZHISHI5"
+		}
 	},
 	[3441] = {
 		mask = "bg/bg_memory",
@@ -33716,7 +41892,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG1",
 		id = 3441,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG1"
+		}
 	},
 	[3442] = {
 		mask = "bg/bg_memory",
@@ -33727,7 +41906,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG2",
 		id = 3442,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG2"
+		}
 	},
 	[3443] = {
 		mask = "bg/bg_memory",
@@ -33738,7 +41920,10 @@ pg.base.memory_template = {
 		story = "1799101",
 		id = 3443,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799101"
+		}
 	},
 	[3444] = {
 		mask = "bg/bg_memory",
@@ -33749,7 +41934,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG4",
 		id = 3444,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG4"
+		}
 	},
 	[3445] = {
 		mask = "bg/bg_memory",
@@ -33760,7 +41948,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG5",
 		id = 3445,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG5"
+		}
 	},
 	[3446] = {
 		mask = "bg/bg_memory",
@@ -33771,7 +41962,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG6",
 		id = 3446,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG6"
+		}
 	},
 	[3447] = {
 		mask = "bg/bg_memory",
@@ -33782,7 +41976,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG7",
 		id = 3447,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG7"
+		}
 	},
 	[3448] = {
 		mask = "bg/bg_memory",
@@ -33793,7 +41990,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG8",
 		id = 3448,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG8"
+		}
 	},
 	[3449] = {
 		mask = "bg/bg_memory",
@@ -33804,7 +42004,10 @@ pg.base.memory_template = {
 		story = "1799102",
 		id = 3449,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799102"
+		}
 	},
 	[3450] = {
 		mask = "bg/bg_memory",
@@ -33815,7 +42018,10 @@ pg.base.memory_template = {
 		story = "1799103",
 		id = 3450,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799103"
+		}
 	},
 	[3451] = {
 		mask = "bg/bg_memory",
@@ -33826,7 +42032,10 @@ pg.base.memory_template = {
 		story = "1799104",
 		id = 3451,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799104"
+		}
 	},
 	[3452] = {
 		mask = "bg/bg_memory",
@@ -33837,7 +42046,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG12",
 		id = 3452,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG12"
+		}
 	},
 	[3453] = {
 		mask = "bg/bg_memory",
@@ -33848,7 +42060,10 @@ pg.base.memory_template = {
 		story = "1799105",
 		id = 3453,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799105"
+		}
 	},
 	[3454] = {
 		mask = "bg/bg_memory",
@@ -33859,7 +42074,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG14",
 		id = 3454,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG14"
+		}
 	},
 	[3455] = {
 		mask = "bg/bg_memory",
@@ -33870,7 +42088,10 @@ pg.base.memory_template = {
 		story = "1799106",
 		id = 3455,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799106"
+		}
 	},
 	[3456] = {
 		mask = "bg/bg_memory",
@@ -33881,7 +42102,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG16",
 		id = 3456,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG16"
+		}
 	},
 	[3457] = {
 		mask = "bg/bg_memory",
@@ -33892,7 +42116,10 @@ pg.base.memory_template = {
 		story = "1799107",
 		id = 3457,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799107"
+		}
 	},
 	[3458] = {
 		mask = "bg/bg_memory",
@@ -33903,7 +42130,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG18",
 		id = 3458,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG18"
+		}
 	},
 	[3459] = {
 		mask = "bg/bg_memory",
@@ -33914,7 +42144,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG19",
 		id = 3459,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG19"
+		}
 	},
 	[3460] = {
 		mask = "bg/bg_memory",
@@ -33925,7 +42158,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG20",
 		id = 3460,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG20"
+		}
 	},
 	[3461] = {
 		mask = "bg/bg_memory",
@@ -33936,7 +42172,10 @@ pg.base.memory_template = {
 		story = "1799108",
 		id = 3461,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799108"
+		}
 	},
 	[3462] = {
 		mask = "bg/bg_memory",
@@ -33947,7 +42186,10 @@ pg.base.memory_template = {
 		story = "1799109",
 		id = 3462,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799109"
+		}
 	},
 	[3463] = {
 		mask = "bg/bg_memory",
@@ -33958,7 +42200,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG23",
 		id = 3463,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG23"
+		}
 	},
 	[3464] = {
 		mask = "bg/bg_memory",
@@ -33969,7 +42214,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG24",
 		id = 3464,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG24"
+		}
 	},
 	[3465] = {
 		mask = "bg/bg_memory",
@@ -33980,7 +42228,10 @@ pg.base.memory_template = {
 		story = "1799110",
 		id = 3465,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799110"
+		}
 	},
 	[3466] = {
 		mask = "bg/bg_memory",
@@ -33991,7 +42242,10 @@ pg.base.memory_template = {
 		story = "1799111",
 		id = 3466,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1799111"
+		}
 	},
 	[3467] = {
 		mask = "bg/bg_memory",
@@ -34002,7 +42256,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG27",
 		id = 3467,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG27"
+		}
 	},
 	[3468] = {
 		mask = "bg/bg_memory",
@@ -34013,7 +42270,10 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG28",
 		id = 3468,
 		icon = "memory_conglingkaishimowang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CONGLINGKAISHIMOWANG28"
+		}
 	},
 	[3471] = {
 		mask = "bg/bg_memory",
@@ -34024,7 +42284,10 @@ pg.base.memory_template = {
 		story = "JUEXINGDEHUANGJIN1",
 		id = 3471,
 		icon = "memory_juexingdehuangjin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUEXINGDEHUANGJIN1"
+		}
 	},
 	[3472] = {
 		mask = "bg/bg_memory",
@@ -34035,7 +42298,10 @@ pg.base.memory_template = {
 		story = "JUEXINGDEHUANGJIN2",
 		id = 3472,
 		icon = "memory_juexingdehuangjin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUEXINGDEHUANGJIN2"
+		}
 	},
 	[3473] = {
 		mask = "bg/bg_memory",
@@ -34046,7 +42312,10 @@ pg.base.memory_template = {
 		story = "1360005",
 		id = 3473,
 		icon = "memory_juexingdehuangjin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1360005"
+		}
 	},
 	[3481] = {
 		mask = "bg/bg_memory",
@@ -34057,7 +42326,10 @@ pg.base.memory_template = {
 		story = "XIAFEI1",
 		id = 3481,
 		icon = "memory_xiafei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAFEI1"
+		}
 	},
 	[3482] = {
 		mask = "bg/bg_memory",
@@ -34068,7 +42340,10 @@ pg.base.memory_template = {
 		story = "XIAFEI2",
 		id = 3482,
 		icon = "memory_xiafei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAFEI2"
+		}
 	},
 	[3483] = {
 		mask = "bg/bg_memory",
@@ -34079,7 +42354,10 @@ pg.base.memory_template = {
 		story = "XIAFEI3",
 		id = 3483,
 		icon = "memory_xiafei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAFEI3"
+		}
 	},
 	[3484] = {
 		mask = "bg/bg_memory",
@@ -34090,7 +42368,10 @@ pg.base.memory_template = {
 		story = "XIAFEI4",
 		id = 3484,
 		icon = "memory_xiafei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAFEI4"
+		}
 	},
 	[3485] = {
 		mask = "bg/bg_memory",
@@ -34101,7 +42382,10 @@ pg.base.memory_template = {
 		story = "XIAFEI5",
 		id = 3485,
 		icon = "memory_xiafei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAFEI5"
+		}
 	},
 	[3486] = {
 		mask = "bg/bg_memory",
@@ -34112,7 +42396,10 @@ pg.base.memory_template = {
 		story = "XIAFEI6",
 		id = 3486,
 		icon = "memory_xiafei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAFEI6"
+		}
 	},
 	[3487] = {
 		mask = "bg/bg_memory",
@@ -34123,7 +42410,10 @@ pg.base.memory_template = {
 		story = "XIAFEI7",
 		id = 3487,
 		icon = "memory_xiafei",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XIAFEI7"
+		}
 	},
 	[3491] = {
 		mask = "bg/bg_memory",
@@ -34134,7 +42424,10 @@ pg.base.memory_template = {
 		story = "BIANHUAKAIANXIANGLAI1",
 		id = 3491,
 		icon = "memory_bianhuakaianxianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIANHUAKAIANXIANGLAI1"
+		}
 	},
 	[3492] = {
 		mask = "bg/bg_memory",
@@ -34145,7 +42438,10 @@ pg.base.memory_template = {
 		story = "BIANHUAKAIANXIANGLAI2",
 		id = 3492,
 		icon = "memory_bianhuakaianxianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIANHUAKAIANXIANGLAI2"
+		}
 	},
 	[3493] = {
 		mask = "bg/bg_memory",
@@ -34156,7 +42452,10 @@ pg.base.memory_template = {
 		story = "BIANHUAKAIANXIANGLAI3",
 		id = 3493,
 		icon = "memory_bianhuakaianxianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIANHUAKAIANXIANGLAI3"
+		}
 	},
 	[3494] = {
 		mask = "bg/bg_memory",
@@ -34167,7 +42466,10 @@ pg.base.memory_template = {
 		story = "BIANHUAKAIANXIANGLAI4",
 		id = 3494,
 		icon = "memory_bianhuakaianxianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIANHUAKAIANXIANGLAI4"
+		}
 	},
 	[3495] = {
 		mask = "bg/bg_memory",
@@ -34178,7 +42480,10 @@ pg.base.memory_template = {
 		story = "BIANHUAKAIANXIANGLAI5",
 		id = 3495,
 		icon = "memory_bianhuakaianxianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIANHUAKAIANXIANGLAI5"
+		}
 	},
 	[3496] = {
 		mask = "bg/bg_memory",
@@ -34189,7 +42494,10 @@ pg.base.memory_template = {
 		story = "BIANHUAKAIANXIANGLAI6",
 		id = 3496,
 		icon = "memory_bianhuakaianxianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIANHUAKAIANXIANGLAI6"
+		}
 	},
 	[3497] = {
 		mask = "bg/bg_memory",
@@ -34200,7 +42508,10 @@ pg.base.memory_template = {
 		story = "BIANHUAKAIANXIANGLAI7",
 		id = 3497,
 		icon = "memory_bianhuakaianxianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIANHUAKAIANXIANGLAI7"
+		}
 	},
 	[3500] = {
 		mask = "bg/bg_memory",
@@ -34211,7 +42522,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION1",
 		id = 3500,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION1"
+		}
 	},
 	[3501] = {
 		mask = "bg/bg_memory",
@@ -34222,7 +42536,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION2",
 		id = 3501,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION2"
+		}
 	},
 	[3502] = {
 		mask = "bg/bg_memory",
@@ -34233,7 +42550,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION3",
 		id = 3502,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION3"
+		}
 	},
 	[3503] = {
 		mask = "bg/bg_memory",
@@ -34244,7 +42564,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION4",
 		id = 3503,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION4"
+		}
 	},
 	[3504] = {
 		mask = "bg/bg_memory",
@@ -34255,7 +42578,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION5",
 		id = 3504,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION5"
+		}
 	},
 	[3505] = {
 		mask = "bg/bg_memory",
@@ -34266,7 +42592,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION6",
 		id = 3505,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION6"
+		}
 	},
 	[3506] = {
 		mask = "bg/bg_memory",
@@ -34277,7 +42606,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION7",
 		id = 3506,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION7"
+		}
 	},
 	[3507] = {
 		mask = "bg/bg_memory",
@@ -34288,7 +42620,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION8",
 		id = 3507,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION8"
+		}
 	},
 	[3508] = {
 		mask = "bg/bg_memory",
@@ -34299,7 +42634,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION9",
 		id = 3508,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION9"
+		}
 	},
 	[3509] = {
 		mask = "bg/bg_memory",
@@ -34310,7 +42648,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION10",
 		id = 3509,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION10"
+		}
 	},
 	[3510] = {
 		mask = "bg/bg_memory",
@@ -34321,7 +42662,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION11",
 		id = 3510,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION11"
+		}
 	},
 	[3511] = {
 		mask = "bg/bg_memory",
@@ -34332,7 +42676,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION12",
 		id = 3511,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION12"
+		}
 	},
 	[3512] = {
 		mask = "bg/bg_memory",
@@ -34343,7 +42690,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION13",
 		id = 3512,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION13"
+		}
 	},
 	[3513] = {
 		mask = "bg/bg_memory",
@@ -34354,7 +42704,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION14",
 		id = 3513,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION14"
+		}
 	},
 	[3514] = {
 		mask = "bg/bg_memory",
@@ -34365,7 +42718,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION15",
 		id = 3514,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION15"
+		}
 	},
 	[3515] = {
 		mask = "bg/bg_memory",
@@ -34376,7 +42732,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION16",
 		id = 3515,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION16"
+		}
 	},
 	[3516] = {
 		mask = "bg/bg_memory",
@@ -34387,7 +42746,10 @@ pg.base.memory_template = {
 		story = "GONGMINGDEPASSION17",
 		id = 3516,
 		icon = "memory_gongming",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GONGMINGDEPASSION17"
+		}
 	},
 	[3520] = {
 		mask = "bg/bg_memory",
@@ -34398,7 +42760,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBIEYANGRICHANG1",
 		id = 3520,
 		icon = "memory_shishangtekanbieyangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANBIEYANGRICHANG1"
+		}
 	},
 	[3521] = {
 		mask = "bg/bg_memory",
@@ -34409,7 +42774,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBIEYANGRICHANG2",
 		id = 3521,
 		icon = "memory_shishangtekanbieyangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANBIEYANGRICHANG2"
+		}
 	},
 	[3522] = {
 		mask = "bg/bg_memory",
@@ -34420,7 +42788,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBIEYANGRICHANG3",
 		id = 3522,
 		icon = "memory_shishangtekanbieyangrichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANBIEYANGRICHANG3"
+		}
 	},
 	[3531] = {
 		mask = "bg/bg_memory",
@@ -34431,7 +42802,10 @@ pg.base.memory_template = {
 		story = "HAITIAN1",
 		id = 3531,
 		icon = "memory_haitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAITIAN1"
+		}
 	},
 	[3532] = {
 		mask = "bg/bg_memory",
@@ -34442,7 +42816,10 @@ pg.base.memory_template = {
 		story = "HAITIAN2",
 		id = 3532,
 		icon = "memory_haitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAITIAN2"
+		}
 	},
 	[3533] = {
 		mask = "bg/bg_memory",
@@ -34453,7 +42830,10 @@ pg.base.memory_template = {
 		story = "HAITIAN3",
 		id = 3533,
 		icon = "memory_haitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAITIAN3"
+		}
 	},
 	[3534] = {
 		mask = "bg/bg_memory",
@@ -34464,7 +42844,10 @@ pg.base.memory_template = {
 		story = "HAITIAN4",
 		id = 3534,
 		icon = "memory_haitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAITIAN4"
+		}
 	},
 	[3535] = {
 		mask = "bg/bg_memory",
@@ -34475,7 +42858,10 @@ pg.base.memory_template = {
 		story = "HAITIAN5",
 		id = 3535,
 		icon = "memory_haitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAITIAN5"
+		}
 	},
 	[3536] = {
 		mask = "bg/bg_memory",
@@ -34486,7 +42872,10 @@ pg.base.memory_template = {
 		story = "HAITIAN6",
 		id = 3536,
 		icon = "memory_haitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAITIAN6"
+		}
 	},
 	[3537] = {
 		mask = "bg/bg_memory",
@@ -34497,7 +42886,10 @@ pg.base.memory_template = {
 		story = "HAITIAN7",
 		id = 3537,
 		icon = "memory_haitian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAITIAN7"
+		}
 	},
 	[3541] = {
 		mask = "bg/bg_memory",
@@ -34508,7 +42900,10 @@ pg.base.memory_template = {
 		story = "YUQIHANGZHIQIAN1",
 		id = 3541,
 		icon = "memory_yuqihangzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUQIHANGZHIQIAN1"
+		}
 	},
 	[3542] = {
 		mask = "bg/bg_memory",
@@ -34519,7 +42914,10 @@ pg.base.memory_template = {
 		story = "YUQIHANGZHIQIAN2",
 		id = 3542,
 		icon = "memory_yuqihangzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUQIHANGZHIQIAN2"
+		}
 	},
 	[3543] = {
 		mask = "bg/bg_memory",
@@ -34530,7 +42928,10 @@ pg.base.memory_template = {
 		story = "YUQIHANGZHIQIAN3",
 		id = 3543,
 		icon = "memory_yuqihangzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUQIHANGZHIQIAN3"
+		}
 	},
 	[3544] = {
 		mask = "bg/bg_memory",
@@ -34541,7 +42942,10 @@ pg.base.memory_template = {
 		story = "YUQIHANGZHIQIAN4",
 		id = 3544,
 		icon = "memory_yuqihangzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUQIHANGZHIQIAN4"
+		}
 	},
 	[3545] = {
 		mask = "bg/bg_memory",
@@ -34552,7 +42956,10 @@ pg.base.memory_template = {
 		story = "YUQIHANGZHIQIAN5",
 		id = 3545,
 		icon = "memory_yuqihangzhiqian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YUQIHANGZHIQIAN5"
+		}
 	},
 	[3551] = {
 		mask = "bg/bg_memory",
@@ -34563,7 +42970,10 @@ pg.base.memory_template = {
 		story = "BIFANGZHIYIN1",
 		id = 3551,
 		icon = "memory_bifangzhiyin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIFANGZHIYIN1"
+		}
 	},
 	[3552] = {
 		mask = "bg/bg_memory",
@@ -34574,7 +42984,10 @@ pg.base.memory_template = {
 		story = "BIFANGZHIYIN2",
 		id = 3552,
 		icon = "memory_bifangzhiyin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIFANGZHIYIN2"
+		}
 	},
 	[3553] = {
 		mask = "bg/bg_memory",
@@ -34585,7 +42998,10 @@ pg.base.memory_template = {
 		story = "BIFANGZHIYIN3",
 		id = 3553,
 		icon = "memory_bifangzhiyin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIFANGZHIYIN3"
+		}
 	},
 	[3554] = {
 		mask = "bg/bg_memory",
@@ -34596,7 +43012,10 @@ pg.base.memory_template = {
 		story = "BIFANGZHIYIN4",
 		id = 3554,
 		icon = "memory_bifangzhiyin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIFANGZHIYIN4"
+		}
 	},
 	[3555] = {
 		mask = "bg/bg_memory",
@@ -34607,7 +43026,10 @@ pg.base.memory_template = {
 		story = "BIFANGZHIYIN5",
 		id = 3555,
 		icon = "memory_bifangzhiyin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIFANGZHIYIN5"
+		}
 	},
 	[3556] = {
 		mask = "bg/bg_memory",
@@ -34618,7 +43040,10 @@ pg.base.memory_template = {
 		story = "BIFANGZHIYIN6",
 		id = 3556,
 		icon = "memory_bifangzhiyin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIFANGZHIYIN6"
+		}
 	},
 	[3557] = {
 		mask = "bg/bg_memory",
@@ -34629,7 +43054,10 @@ pg.base.memory_template = {
 		story = "BIFANGZHIYIN7",
 		id = 3557,
 		icon = "memory_bifangzhiyin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BIFANGZHIYIN7"
+		}
 	},
 	[3561] = {
 		mask = "bg/bg_memory",
@@ -34640,7 +43068,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN1",
 		id = 3561,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN1"
+		}
 	},
 	[3562] = {
 		mask = "bg/bg_memory",
@@ -34651,7 +43082,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN2",
 		id = 3562,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN2"
+		}
 	},
 	[3563] = {
 		mask = "bg/bg_memory",
@@ -34662,7 +43096,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN3",
 		id = 3563,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN3"
+		}
 	},
 	[3564] = {
 		mask = "bg/bg_memory",
@@ -34673,7 +43110,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN4",
 		id = 3564,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN4"
+		}
 	},
 	[3565] = {
 		mask = "bg/bg_memory",
@@ -34684,7 +43124,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN5",
 		id = 3565,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN5"
+		}
 	},
 	[3566] = {
 		mask = "bg/bg_memory",
@@ -34695,7 +43138,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN6",
 		id = 3566,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN6"
+		}
 	},
 	[3567] = {
 		mask = "bg/bg_memory",
@@ -34706,7 +43152,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN7",
 		id = 3567,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN7"
+		}
 	},
 	[3568] = {
 		mask = "bg/bg_memory",
@@ -34717,7 +43166,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN8",
 		id = 3568,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN8"
+		}
 	},
 	[3569] = {
 		mask = "bg/bg_memory",
@@ -34728,7 +43180,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN9",
 		id = 3569,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN9"
+		}
 	},
 	[3570] = {
 		mask = "bg/bg_memory",
@@ -34739,7 +43194,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN10",
 		id = 3570,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN10"
+		}
 	},
 	[3571] = {
 		mask = "bg/bg_memory",
@@ -34750,7 +43208,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN11",
 		id = 3571,
 		icon = "memory_jiarixintiaodayoulun1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN11"
+		}
 	},
 	[3572] = {
 		mask = "bg/bg_memory",
@@ -34761,7 +43222,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN12",
 		id = 3572,
 		icon = "memory_jiarixintiaodayoulun2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN12"
+		}
 	},
 	[3573] = {
 		mask = "bg/bg_memory",
@@ -34772,7 +43236,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN13",
 		id = 3573,
 		icon = "memory_jiarixintiaodayoulun2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN13"
+		}
 	},
 	[3574] = {
 		mask = "bg/bg_memory",
@@ -34783,7 +43250,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN14",
 		id = 3574,
 		icon = "memory_jiarixintiaodayoulun2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN14"
+		}
 	},
 	[3575] = {
 		mask = "bg/bg_memory",
@@ -34794,7 +43264,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN15",
 		id = 3575,
 		icon = "memory_jiarixintiaodayoulun2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN15"
+		}
 	},
 	[3576] = {
 		mask = "bg/bg_memory",
@@ -34805,7 +43278,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN16",
 		id = 3576,
 		icon = "memory_jiarixintiaodayoulun2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN16"
+		}
 	},
 	[3577] = {
 		mask = "bg/bg_memory",
@@ -34816,7 +43292,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN17",
 		id = 3577,
 		icon = "memory_jiarixintiaodayoulun4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN17"
+		}
 	},
 	[3578] = {
 		mask = "bg/bg_memory",
@@ -34827,7 +43306,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN18",
 		id = 3578,
 		icon = "memory_jiarixintiaodayoulun4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN18"
+		}
 	},
 	[3579] = {
 		mask = "bg/bg_memory",
@@ -34838,7 +43320,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN19",
 		id = 3579,
 		icon = "memory_jiarixintiaodayoulun4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN19"
+		}
 	},
 	[3580] = {
 		mask = "bg/bg_memory",
@@ -34849,7 +43334,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN20",
 		id = 3580,
 		icon = "memory_jiarixintiaodayoulun4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN20"
+		}
 	},
 	[3581] = {
 		mask = "bg/bg_memory",
@@ -34860,7 +43348,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN21",
 		id = 3581,
 		icon = "memory_jiarixintiaodayoulun4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN21"
+		}
 	},
 	[3582] = {
 		mask = "bg/bg_memory",
@@ -34871,7 +43362,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN22",
 		id = 3582,
 		icon = "memory_jiarixintiaodayoulun4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN22"
+		}
 	},
 	[3583] = {
 		mask = "bg/bg_memory",
@@ -34882,7 +43376,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN23",
 		id = 3583,
 		icon = "memory_jiarixintiaodayoulun4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN23"
+		}
 	},
 	[3584] = {
 		mask = "bg/bg_memory",
@@ -34893,7 +43390,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN24",
 		id = 3584,
 		icon = "memory_jiarixintiaodayoulun4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN24"
+		}
 	},
 	[3585] = {
 		mask = "bg/bg_memory",
@@ -34904,7 +43404,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN25",
 		id = 3585,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN25"
+		}
 	},
 	[3586] = {
 		mask = "bg/bg_memory",
@@ -34915,7 +43418,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN26",
 		id = 3586,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN26"
+		}
 	},
 	[3587] = {
 		mask = "bg/bg_memory",
@@ -34926,7 +43432,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN27",
 		id = 3587,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN27"
+		}
 	},
 	[3588] = {
 		mask = "bg/bg_memory",
@@ -34937,7 +43446,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN28",
 		id = 3588,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN28"
+		}
 	},
 	[3589] = {
 		mask = "bg/bg_memory",
@@ -34948,7 +43460,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN29",
 		id = 3589,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN29"
+		}
 	},
 	[3590] = {
 		mask = "bg/bg_memory",
@@ -34959,7 +43474,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN30",
 		id = 3590,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN30"
+		}
 	},
 	[3591] = {
 		mask = "bg/bg_memory",
@@ -34970,7 +43488,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN31",
 		id = 3591,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN31"
+		}
 	},
 	[3592] = {
 		mask = "bg/bg_memory",
@@ -34981,7 +43502,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN32",
 		id = 3592,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN32"
+		}
 	},
 	[3593] = {
 		mask = "bg/bg_memory",
@@ -34992,7 +43516,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN33",
 		id = 3593,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN33"
+		}
 	},
 	[3594] = {
 		mask = "bg/bg_memory",
@@ -35003,7 +43530,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN34",
 		id = 3594,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN34"
+		}
 	},
 	[3595] = {
 		mask = "bg/bg_memory",
@@ -35014,7 +43544,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN35",
 		id = 3595,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN35"
+		}
 	},
 	[3596] = {
 		mask = "bg/bg_memory",
@@ -35025,7 +43558,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN36",
 		id = 3596,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN36"
+		}
 	},
 	[3597] = {
 		mask = "bg/bg_memory",
@@ -35036,7 +43572,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN37",
 		id = 3597,
 		icon = "memory_jiarixintiaodayoulun3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN37"
+		}
 	},
 	[3598] = {
 		mask = "bg/bg_memory",
@@ -35047,7 +43586,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN38",
 		id = 3598,
 		icon = "memory_jiarixintiaodayoulun5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN38"
+		}
 	},
 	[3599] = {
 		mask = "bg/bg_memory",
@@ -35058,7 +43600,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN39",
 		id = 3599,
 		icon = "memory_jiarixintiaodayoulun5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN39"
+		}
 	},
 	[3600] = {
 		mask = "bg/bg_memory",
@@ -35069,7 +43614,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN40",
 		id = 3600,
 		icon = "memory_jiarixintiaodayoulun5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN40"
+		}
 	},
 	[3601] = {
 		mask = "bg/bg_memory",
@@ -35080,7 +43628,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN41",
 		id = 3601,
 		icon = "memory_jiarixintiaodayoulun5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN41"
+		}
 	},
 	[3602] = {
 		mask = "bg/bg_memory",
@@ -35091,7 +43642,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN42",
 		id = 3602,
 		icon = "memory_jiarixintiaodayoulun5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN42"
+		}
 	},
 	[3603] = {
 		mask = "bg/bg_memory",
@@ -35102,7 +43656,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN43",
 		id = 3603,
 		icon = "memory_jiarixintiaodayoulun5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN43"
+		}
 	},
 	[3604] = {
 		mask = "bg/bg_memory",
@@ -35113,7 +43670,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN44",
 		id = 3604,
 		icon = "memory_jiarixintiaodayoulun5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN44"
+		}
 	},
 	[3605] = {
 		mask = "bg/bg_memory",
@@ -35124,7 +43684,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN45",
 		id = 3605,
 		icon = "memory_jiarixintiaodayoulun5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN45"
+		}
 	},
 	[3606] = {
 		mask = "bg/bg_memory",
@@ -35135,7 +43698,10 @@ pg.base.memory_template = {
 		story = "JIARIXINTIAODAYOULUN46",
 		id = 3606,
 		icon = "memory_jiarixintiaodayoulun5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIXINTIAODAYOULUN46"
+		}
 	},
 	[3610] = {
 		mask = "bg/bg_memory",
@@ -35146,7 +43712,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG1",
 		id = 3610,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG1"
+		}
 	},
 	[3611] = {
 		mask = "bg/bg_memory",
@@ -35157,7 +43726,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG2",
 		id = 3611,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG2"
+		}
 	},
 	[3612] = {
 		mask = "bg/bg_memory",
@@ -35168,7 +43740,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG3",
 		id = 3612,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG3"
+		}
 	},
 	[3613] = {
 		mask = "bg/bg_memory",
@@ -35179,7 +43754,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG4",
 		id = 3613,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG4"
+		}
 	},
 	[3614] = {
 		mask = "bg/bg_memory",
@@ -35190,7 +43768,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG5",
 		id = 3614,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG5"
+		}
 	},
 	[3615] = {
 		mask = "bg/bg_memory",
@@ -35201,7 +43782,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG6",
 		id = 3615,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG6"
+		}
 	},
 	[3616] = {
 		mask = "bg/bg_memory",
@@ -35212,7 +43796,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG7",
 		id = 3616,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG7"
+		}
 	},
 	[3617] = {
 		mask = "bg/bg_memory",
@@ -35223,7 +43810,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG8",
 		id = 3617,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG8"
+		}
 	},
 	[3618] = {
 		mask = "bg/bg_memory",
@@ -35234,7 +43824,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG9",
 		id = 3618,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG9"
+		}
 	},
 	[3619] = {
 		mask = "bg/bg_memory",
@@ -35245,7 +43838,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG10",
 		id = 3619,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG10"
+		}
 	},
 	[3620] = {
 		mask = "bg/bg_memory",
@@ -35256,7 +43852,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG11",
 		id = 3620,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG11"
+		}
 	},
 	[3621] = {
 		mask = "bg/bg_memory",
@@ -35267,7 +43866,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG12",
 		id = 3621,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG12"
+		}
 	},
 	[3622] = {
 		mask = "bg/bg_memory",
@@ -35278,7 +43880,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG13",
 		id = 3622,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG13"
+		}
 	},
 	[3623] = {
 		mask = "bg/bg_memory",
@@ -35289,7 +43894,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG14",
 		id = 3623,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG14"
+		}
 	},
 	[3624] = {
 		mask = "bg/bg_memory",
@@ -35300,7 +43908,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG15",
 		id = 3624,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG15"
+		}
 	},
 	[3625] = {
 		mask = "bg/bg_memory",
@@ -35311,7 +43922,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG16",
 		id = 3625,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG16"
+		}
 	},
 	[3626] = {
 		mask = "bg/bg_memory",
@@ -35322,7 +43936,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG17",
 		id = 3626,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG17"
+		}
 	},
 	[3627] = {
 		mask = "bg/bg_memory",
@@ -35333,7 +43950,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG18",
 		id = 3627,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG18"
+		}
 	},
 	[3628] = {
 		mask = "bg/bg_memory",
@@ -35344,7 +43964,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG19",
 		id = 3628,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG19"
+		}
 	},
 	[3629] = {
 		mask = "bg/bg_memory",
@@ -35355,7 +43978,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG20",
 		id = 3629,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG20"
+		}
 	},
 	[3630] = {
 		mask = "bg/bg_memory",
@@ -35366,7 +43992,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG21",
 		id = 3630,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG21"
+		}
 	},
 	[3631] = {
 		mask = "bg/bg_memory",
@@ -35377,7 +44006,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG22",
 		id = 3631,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG22"
+		}
 	},
 	[3632] = {
 		mask = "bg/bg_memory",
@@ -35388,7 +44020,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG23",
 		id = 3632,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG23"
+		}
 	},
 	[3633] = {
 		mask = "bg/bg_memory",
@@ -35399,7 +44034,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG24",
 		id = 3633,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG24"
+		}
 	},
 	[3634] = {
 		mask = "bg/bg_memory",
@@ -35410,7 +44048,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG25",
 		id = 3634,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG25"
+		}
 	},
 	[3635] = {
 		mask = "bg/bg_memory",
@@ -35421,7 +44062,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG26",
 		id = 3635,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG26"
+		}
 	},
 	[3636] = {
 		mask = "bg/bg_memory",
@@ -35432,7 +44076,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG27",
 		id = 3636,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG27"
+		}
 	},
 	[3637] = {
 		mask = "bg/bg_memory",
@@ -35443,7 +44090,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG28",
 		id = 3637,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG28"
+		}
 	},
 	[3638] = {
 		mask = "bg/bg_memory",
@@ -35454,7 +44104,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG29",
 		id = 3638,
 		icon = "memory_huiguangzhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG29"
+		}
 	},
 	[3639] = {
 		mask = "bg/bg_memory",
@@ -35465,7 +44118,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG30",
 		id = 3639,
 		icon = "memory_huiguangzhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG30"
+		}
 	},
 	[3640] = {
 		mask = "bg/bg_memory",
@@ -35476,7 +44132,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG31",
 		id = 3640,
 		icon = "memory_huiguangzhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG31"
+		}
 	},
 	[3641] = {
 		mask = "bg/bg_memory",
@@ -35487,7 +44146,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG32",
 		id = 3641,
 		icon = "memory_huiguangzhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG32"
+		}
 	},
 	[3642] = {
 		mask = "bg/bg_memory",
@@ -35498,7 +44160,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG33",
 		id = 3642,
 		icon = "memory_huiguangzhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG33"
+		}
 	},
 	[3643] = {
 		mask = "bg/bg_memory",
@@ -35509,7 +44174,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG34",
 		id = 3643,
 		icon = "memory_huiguangzhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG34"
+		}
 	},
 	[3644] = {
 		mask = "bg/bg_memory",
@@ -35520,7 +44188,10 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG35",
 		id = 3644,
 		icon = "memory_huiguangzhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHANFANGYUHUIGUANGZHICHENG35"
+		}
 	},
 	[3651] = {
 		mask = "bg/bg_memory",
@@ -35531,7 +44202,10 @@ pg.base.memory_template = {
 		story = "CUIYUANJIAXIU",
 		id = 3651,
 		icon = "memory_cuiyuanjiaxiu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CUIYUANJIAXIU"
+		}
 	},
 	[3661] = {
 		mask = "bg/bg_memory",
@@ -35542,7 +44216,10 @@ pg.base.memory_template = {
 		story = "YOURANBIHAIXING",
 		id = 3661,
 		icon = "memory_youranbihaixing",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOURANBIHAIXING"
+		}
 	},
 	[3671] = {
 		mask = "bg/bg_memory",
@@ -35553,7 +44230,10 @@ pg.base.memory_template = {
 		story = "AIJIER1",
 		id = 3671,
 		icon = "memory_aijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIJIER1"
+		}
 	},
 	[3672] = {
 		mask = "bg/bg_memory",
@@ -35564,7 +44244,10 @@ pg.base.memory_template = {
 		story = "AIJIER2",
 		id = 3672,
 		icon = "memory_aijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIJIER2"
+		}
 	},
 	[3673] = {
 		mask = "bg/bg_memory",
@@ -35575,7 +44258,10 @@ pg.base.memory_template = {
 		story = "AIJIER3",
 		id = 3673,
 		icon = "memory_aijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIJIER3"
+		}
 	},
 	[3674] = {
 		mask = "bg/bg_memory",
@@ -35586,7 +44272,10 @@ pg.base.memory_template = {
 		story = "AIJIER4",
 		id = 3674,
 		icon = "memory_aijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIJIER4"
+		}
 	},
 	[3675] = {
 		mask = "bg/bg_memory",
@@ -35597,7 +44286,10 @@ pg.base.memory_template = {
 		story = "AIJIER5",
 		id = 3675,
 		icon = "memory_aijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIJIER5"
+		}
 	},
 	[3676] = {
 		mask = "bg/bg_memory",
@@ -35608,7 +44300,10 @@ pg.base.memory_template = {
 		story = "AIJIER6",
 		id = 3676,
 		icon = "memory_aijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIJIER6"
+		}
 	},
 	[3677] = {
 		mask = "bg/bg_memory",
@@ -35619,7 +44314,10 @@ pg.base.memory_template = {
 		story = "AIJIER7",
 		id = 3677,
 		icon = "memory_aijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AIJIER7"
+		}
 	},
 	[3681] = {
 		mask = "bg/bg_memory",
@@ -35630,7 +44328,10 @@ pg.base.memory_template = {
 		story = "HUANYINLAIDAOTONGXINXUEYUAN1",
 		id = 3681,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINLAIDAOTONGXINXUEYUAN1"
+		}
 	},
 	[3682] = {
 		mask = "bg/bg_memory",
@@ -35641,7 +44342,10 @@ pg.base.memory_template = {
 		story = "HUANYINLAIDAOTONGXINXUEYUAN2",
 		id = 3682,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINLAIDAOTONGXINXUEYUAN2"
+		}
 	},
 	[3683] = {
 		mask = "bg/bg_memory",
@@ -35652,7 +44356,10 @@ pg.base.memory_template = {
 		story = "1819601",
 		id = 3683,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1819601"
+		}
 	},
 	[3684] = {
 		mask = "bg/bg_memory",
@@ -35663,7 +44370,10 @@ pg.base.memory_template = {
 		story = "1819602",
 		id = 3684,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1819602"
+		}
 	},
 	[3685] = {
 		mask = "bg/bg_memory",
@@ -35674,7 +44384,10 @@ pg.base.memory_template = {
 		story = "1819603",
 		id = 3685,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1819603"
+		}
 	},
 	[3686] = {
 		mask = "bg/bg_memory",
@@ -35685,7 +44398,10 @@ pg.base.memory_template = {
 		story = "HUANYINLAIDAOTONGXINXUEYUAN6",
 		id = 3686,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINLAIDAOTONGXINXUEYUAN6"
+		}
 	},
 	[3687] = {
 		mask = "bg/bg_memory",
@@ -35696,7 +44412,10 @@ pg.base.memory_template = {
 		story = "1819604",
 		id = 3687,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1819604"
+		}
 	},
 	[3688] = {
 		mask = "bg/bg_memory",
@@ -35707,7 +44426,10 @@ pg.base.memory_template = {
 		story = "1819605",
 		id = 3688,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1819605"
+		}
 	},
 	[3689] = {
 		mask = "bg/bg_memory",
@@ -35718,7 +44440,10 @@ pg.base.memory_template = {
 		story = "HUANYINLAIDAOTONGXINXUEYUAN9",
 		id = 3689,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINLAIDAOTONGXINXUEYUAN9"
+		}
 	},
 	[3690] = {
 		mask = "bg/bg_memory",
@@ -35729,7 +44454,10 @@ pg.base.memory_template = {
 		story = "HUANYINLAIDAOTONGXINXUEYUAN10",
 		id = 3690,
 		icon = "memory_tongxinxueyuan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINLAIDAOTONGXINXUEYUAN10"
+		}
 	},
 	[3691] = {
 		mask = "bg/bg_memory",
@@ -35740,7 +44468,10 @@ pg.base.memory_template = {
 		story = "AERSASI1",
 		id = 3691,
 		icon = "memory_aersasi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERSASI1"
+		}
 	},
 	[3692] = {
 		mask = "bg/bg_memory",
@@ -35751,7 +44482,10 @@ pg.base.memory_template = {
 		story = "AERSASI2",
 		id = 3692,
 		icon = "memory_aersasi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERSASI2"
+		}
 	},
 	[3693] = {
 		mask = "bg/bg_memory",
@@ -35762,7 +44496,10 @@ pg.base.memory_template = {
 		story = "AERSASI3",
 		id = 3693,
 		icon = "memory_aersasi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERSASI3"
+		}
 	},
 	[3694] = {
 		mask = "bg/bg_memory",
@@ -35773,7 +44510,10 @@ pg.base.memory_template = {
 		story = "AERSASI4",
 		id = 3694,
 		icon = "memory_aersasi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERSASI4"
+		}
 	},
 	[3695] = {
 		mask = "bg/bg_memory",
@@ -35784,7 +44524,10 @@ pg.base.memory_template = {
 		story = "AERSASI5",
 		id = 3695,
 		icon = "memory_aersasi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERSASI5"
+		}
 	},
 	[3696] = {
 		mask = "bg/bg_memory",
@@ -35795,7 +44538,10 @@ pg.base.memory_template = {
 		story = "AERSASI6",
 		id = 3696,
 		icon = "memory_aersasi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERSASI6"
+		}
 	},
 	[3697] = {
 		mask = "bg/bg_memory",
@@ -35806,7 +44552,10 @@ pg.base.memory_template = {
 		story = "AERSASI7",
 		id = 3697,
 		icon = "memory_aersasi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"AERSASI7"
+		}
 	},
 	[3701] = {
 		mask = "bg/bg_memory",
@@ -35817,7 +44566,10 @@ pg.base.memory_template = {
 		story = "HUANMENGJIANZOUQU1",
 		id = 3701,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANMENGJIANZOUQU1"
+		}
 	},
 	[3702] = {
 		mask = "bg/bg_memory",
@@ -35828,7 +44580,10 @@ pg.base.memory_template = {
 		story = "HUANMENGJIANZOUQU2",
 		id = 3702,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANMENGJIANZOUQU2"
+		}
 	},
 	[3703] = {
 		mask = "bg/bg_memory",
@@ -35839,7 +44594,10 @@ pg.base.memory_template = {
 		story = "HUANMENGJIANZOUQU3",
 		id = 3703,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANMENGJIANZOUQU3"
+		}
 	},
 	[3704] = {
 		mask = "bg/bg_memory",
@@ -35850,7 +44608,10 @@ pg.base.memory_template = {
 		story = "1826001",
 		id = 3704,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1826001"
+		}
 	},
 	[3705] = {
 		mask = "bg/bg_memory",
@@ -35861,7 +44622,10 @@ pg.base.memory_template = {
 		story = "HUANMENGJIANZOUQU5",
 		id = 3705,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANMENGJIANZOUQU5"
+		}
 	},
 	[3706] = {
 		mask = "bg/bg_memory",
@@ -35872,7 +44636,10 @@ pg.base.memory_template = {
 		story = "HUANMENGJIANZOUQU6",
 		id = 3706,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANMENGJIANZOUQU6"
+		}
 	},
 	[3707] = {
 		mask = "bg/bg_memory",
@@ -35883,7 +44650,10 @@ pg.base.memory_template = {
 		story = "HUANMENGJIANZOUQU7",
 		id = 3707,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANMENGJIANZOUQU7"
+		}
 	},
 	[3708] = {
 		mask = "bg/bg_memory",
@@ -35894,7 +44664,10 @@ pg.base.memory_template = {
 		story = "HUANMENGJIANZOUQU8",
 		id = 3708,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANMENGJIANZOUQU8"
+		}
 	},
 	[3709] = {
 		mask = "bg/bg_memory",
@@ -35905,7 +44678,10 @@ pg.base.memory_template = {
 		story = "HUANMENGJIANZOUQU9",
 		id = 3709,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANMENGJIANZOUQU9"
+		}
 	},
 	[3710] = {
 		mask = "bg/bg_memory",
@@ -35916,7 +44692,10 @@ pg.base.memory_template = {
 		story = "HUANMENGJIANZOUQU10",
 		id = 3710,
 		icon = "memory_huanmengjianzouqu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANMENGJIANZOUQU10"
+		}
 	},
 	[3711] = {
 		mask = "bg/bg_memory",
@@ -35927,7 +44706,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXIARIJISU1",
 		id = 3711,
 		icon = "memory_shishangtekanxiarijisu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXIARIJISU1"
+		}
 	},
 	[3712] = {
 		mask = "bg/bg_memory",
@@ -35938,7 +44720,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXIARIJISU2",
 		id = 3712,
 		icon = "memory_shishangtekanxiarijisu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXIARIJISU2"
+		}
 	},
 	[3713] = {
 		mask = "bg/bg_memory",
@@ -35949,7 +44734,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXIARIJISU3",
 		id = 3713,
 		icon = "memory_shishangtekanxiarijisu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXIARIJISU3"
+		}
 	},
 	[3721] = {
 		mask = "bg/bg_memory",
@@ -35960,7 +44748,10 @@ pg.base.memory_template = {
 		story = "BULAIMODUN1",
 		id = 3721,
 		icon = "memory_bulaimodun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULAIMODUN1"
+		}
 	},
 	[3722] = {
 		mask = "bg/bg_memory",
@@ -35971,7 +44762,10 @@ pg.base.memory_template = {
 		story = "BULAIMODUN2",
 		id = 3722,
 		icon = "memory_bulaimodun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULAIMODUN2"
+		}
 	},
 	[3723] = {
 		mask = "bg/bg_memory",
@@ -35982,7 +44776,10 @@ pg.base.memory_template = {
 		story = "BULAIMODUN3",
 		id = 3723,
 		icon = "memory_bulaimodun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULAIMODUN3"
+		}
 	},
 	[3724] = {
 		mask = "bg/bg_memory",
@@ -35993,7 +44790,10 @@ pg.base.memory_template = {
 		story = "BULAIMODUN4",
 		id = 3724,
 		icon = "memory_bulaimodun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULAIMODUN4"
+		}
 	},
 	[3725] = {
 		mask = "bg/bg_memory",
@@ -36004,7 +44804,10 @@ pg.base.memory_template = {
 		story = "BULAIMODUN5",
 		id = 3725,
 		icon = "memory_bulaimodun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULAIMODUN5"
+		}
 	},
 	[3726] = {
 		mask = "bg/bg_memory",
@@ -36015,7 +44818,10 @@ pg.base.memory_template = {
 		story = "BULAIMODUN6",
 		id = 3726,
 		icon = "memory_bulaimodun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULAIMODUN6"
+		}
 	},
 	[3727] = {
 		mask = "bg/bg_memory",
@@ -36026,7 +44832,10 @@ pg.base.memory_template = {
 		story = "BULAIMODUN7",
 		id = 3727,
 		icon = "memory_bulaimodun",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULAIMODUN7"
+		}
 	},
 	[3731] = {
 		mask = "bg/bg_memory",
@@ -36037,7 +44846,10 @@ pg.base.memory_template = {
 		story = "ZHUHONGMIJU1",
 		id = 3731,
 		icon = "memory_zhuhongmiju",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUHONGMIJU1"
+		}
 	},
 	[3732] = {
 		mask = "bg/bg_memory",
@@ -36048,7 +44860,10 @@ pg.base.memory_template = {
 		story = "ZHUHONGMIJU2",
 		id = 3732,
 		icon = "memory_zhuhongmiju",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUHONGMIJU2"
+		}
 	},
 	[3733] = {
 		mask = "bg/bg_memory",
@@ -36059,7 +44874,10 @@ pg.base.memory_template = {
 		story = "ZHUHONGMIJU3",
 		id = 3733,
 		icon = "memory_zhuhongmiju",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUHONGMIJU3"
+		}
 	},
 	[3734] = {
 		mask = "bg/bg_memory",
@@ -36070,7 +44888,10 @@ pg.base.memory_template = {
 		story = "ZHUHONGMIJU4",
 		id = 3734,
 		icon = "memory_zhuhongmiju",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUHONGMIJU4"
+		}
 	},
 	[3735] = {
 		mask = "bg/bg_memory",
@@ -36081,7 +44902,10 @@ pg.base.memory_template = {
 		story = "ZHUHONGMIJU5",
 		id = 3735,
 		icon = "memory_zhuhongmiju",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUHONGMIJU5"
+		}
 	},
 	[3736] = {
 		mask = "bg/bg_memory",
@@ -36092,7 +44916,10 @@ pg.base.memory_template = {
 		story = "ZHUHONGMIJU6",
 		id = 3736,
 		icon = "memory_zhuhongmiju",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUHONGMIJU6"
+		}
 	},
 	[3737] = {
 		mask = "bg/bg_memory",
@@ -36103,7 +44930,10 @@ pg.base.memory_template = {
 		story = "ZHUHONGMIJU7",
 		id = 3737,
 		icon = "memory_zhuhongmiju",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHUHONGMIJU7"
+		}
 	},
 	[3741] = {
 		mask = "bg/bg_memory",
@@ -36114,7 +44944,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG1",
 		id = 3741,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG1"
+		}
 	},
 	[3742] = {
 		mask = "bg/bg_memory",
@@ -36125,7 +44958,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG2",
 		id = 3742,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG2"
+		}
 	},
 	[3743] = {
 		mask = "bg/bg_memory",
@@ -36136,7 +44972,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG3",
 		id = 3743,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG3"
+		}
 	},
 	[3744] = {
 		mask = "bg/bg_memory",
@@ -36147,7 +44986,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG4",
 		id = 3744,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG4"
+		}
 	},
 	[3745] = {
 		mask = "bg/bg_memory",
@@ -36158,7 +45000,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG5",
 		id = 3745,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG5"
+		}
 	},
 	[3746] = {
 		mask = "bg/bg_memory",
@@ -36169,7 +45014,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG6",
 		id = 3746,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG6"
+		}
 	},
 	[3747] = {
 		mask = "bg/bg_memory",
@@ -36180,7 +45028,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG7",
 		id = 3747,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG7"
+		}
 	},
 	[3748] = {
 		mask = "bg/bg_memory",
@@ -36191,7 +45042,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG8",
 		id = 3748,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG8"
+		}
 	},
 	[3749] = {
 		mask = "bg/bg_memory",
@@ -36202,7 +45056,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG9",
 		id = 3749,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG9"
+		}
 	},
 	[3750] = {
 		mask = "bg/bg_memory",
@@ -36213,7 +45070,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG10",
 		id = 3750,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG10"
+		}
 	},
 	[3751] = {
 		mask = "bg/bg_memory",
@@ -36224,7 +45084,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG11",
 		id = 3751,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG11"
+		}
 	},
 	[3752] = {
 		mask = "bg/bg_memory",
@@ -36235,7 +45098,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG12",
 		id = 3752,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG12"
+		}
 	},
 	[3753] = {
 		mask = "bg/bg_memory",
@@ -36246,7 +45112,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG13",
 		id = 3753,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG13"
+		}
 	},
 	[3754] = {
 		mask = "bg/bg_memory",
@@ -36257,7 +45126,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG14",
 		id = 3754,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG14"
+		}
 	},
 	[3755] = {
 		mask = "bg/bg_memory",
@@ -36268,7 +45140,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG15",
 		id = 3755,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG15"
+		}
 	},
 	[3756] = {
 		mask = "bg/bg_memory",
@@ -36279,7 +45154,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG16",
 		id = 3756,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG16"
+		}
 	},
 	[3757] = {
 		mask = "bg/bg_memory",
@@ -36290,7 +45168,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG17",
 		id = 3757,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG17"
+		}
 	},
 	[3758] = {
 		mask = "bg/bg_memory",
@@ -36301,7 +45182,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG18",
 		id = 3758,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG18"
+		}
 	},
 	[3759] = {
 		mask = "bg/bg_memory",
@@ -36312,7 +45196,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG19",
 		id = 3759,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG19"
+		}
 	},
 	[3760] = {
 		mask = "bg/bg_memory",
@@ -36323,7 +45210,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG20",
 		id = 3760,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG20"
+		}
 	},
 	[3761] = {
 		mask = "bg/bg_memory",
@@ -36334,7 +45224,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG21",
 		id = 3761,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG21"
+		}
 	},
 	[3762] = {
 		mask = "bg/bg_memory",
@@ -36345,7 +45238,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG22",
 		id = 3762,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG22"
+		}
 	},
 	[3763] = {
 		mask = "bg/bg_memory",
@@ -36356,7 +45252,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG23",
 		id = 3763,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG23"
+		}
 	},
 	[3764] = {
 		mask = "bg/bg_memory",
@@ -36367,7 +45266,10 @@ pg.base.memory_template = {
 		story = "1836001",
 		id = 3764,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1836001"
+		}
 	},
 	[3765] = {
 		mask = "bg/bg_memory",
@@ -36378,7 +45280,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG25",
 		id = 3765,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG25"
+		}
 	},
 	[3766] = {
 		mask = "bg/bg_memory",
@@ -36389,7 +45294,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG26",
 		id = 3766,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG26"
+		}
 	},
 	[3767] = {
 		mask = "bg/bg_memory",
@@ -36400,7 +45308,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG27",
 		id = 3767,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG27"
+		}
 	},
 	[3768] = {
 		mask = "bg/bg_memory",
@@ -36411,7 +45322,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG28",
 		id = 3768,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG28"
+		}
 	},
 	[3769] = {
 		mask = "bg/bg_memory",
@@ -36422,7 +45336,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG29",
 		id = 3769,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG29"
+		}
 	},
 	[3770] = {
 		mask = "bg/bg_memory",
@@ -36433,7 +45350,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG30",
 		id = 3770,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG30"
+		}
 	},
 	[3771] = {
 		mask = "bg/bg_memory",
@@ -36444,7 +45364,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG31",
 		id = 3771,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG31"
+		}
 	},
 	[3772] = {
 		mask = "bg/bg_memory",
@@ -36455,7 +45378,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG32",
 		id = 3772,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG32"
+		}
 	},
 	[3773] = {
 		mask = "bg/bg_memory",
@@ -36466,7 +45392,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG33",
 		id = 3773,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG33"
+		}
 	},
 	[3774] = {
 		mask = "bg/bg_memory",
@@ -36477,7 +45406,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG34",
 		id = 3774,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG34"
+		}
 	},
 	[3775] = {
 		mask = "bg/bg_memory",
@@ -36488,7 +45420,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG35",
 		id = 3775,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG35"
+		}
 	},
 	[3776] = {
 		mask = "bg/bg_memory",
@@ -36499,7 +45434,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG36",
 		id = 3776,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG36"
+		}
 	},
 	[3777] = {
 		mask = "bg/bg_memory",
@@ -36510,7 +45448,10 @@ pg.base.memory_template = {
 		story = "TIEYIQINGFENG37",
 		id = 3777,
 		icon = "memory_tieyiqingfeng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIEYIQINGFENG37"
+		}
 	},
 	[3781] = {
 		mask = "bg/bg_memory",
@@ -36521,7 +45462,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI1",
 		id = 3781,
 		icon = "memory_huangyejiarikaituoji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI1"
+		}
 	},
 	[3782] = {
 		mask = "bg/bg_memory",
@@ -36532,7 +45476,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI2",
 		id = 3782,
 		icon = "memory_huangyejiarikaituoji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI2"
+		}
 	},
 	[3783] = {
 		mask = "bg/bg_memory",
@@ -36543,7 +45490,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI3",
 		id = 3783,
 		icon = "memory_huangyejiarikaituoji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI3"
+		}
 	},
 	[3784] = {
 		mask = "bg/bg_memory",
@@ -36554,7 +45504,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI4",
 		id = 3784,
 		icon = "memory_huangyejiarikaituoji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI4"
+		}
 	},
 	[3785] = {
 		mask = "bg/bg_memory",
@@ -36565,7 +45518,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI5",
 		id = 3785,
 		icon = "memory_huangyejiarikaituoji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI5"
+		}
 	},
 	[3786] = {
 		mask = "bg/bg_memory",
@@ -36576,7 +45532,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI6",
 		id = 3786,
 		icon = "memory_huangyejiarikaituoji1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI6"
+		}
 	},
 	[3787] = {
 		mask = "bg/bg_memory",
@@ -36587,7 +45546,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI7",
 		id = 3787,
 		icon = "memory_huangyejiarikaituoji3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI7"
+		}
 	},
 	[3788] = {
 		mask = "bg/bg_memory",
@@ -36598,7 +45560,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI8",
 		id = 3788,
 		icon = "memory_huangyejiarikaituoji3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI8"
+		}
 	},
 	[3789] = {
 		mask = "bg/bg_memory",
@@ -36609,7 +45574,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI9",
 		id = 3789,
 		icon = "memory_huangyejiarikaituoji3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI9"
+		}
 	},
 	[3790] = {
 		mask = "bg/bg_memory",
@@ -36620,7 +45588,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI10",
 		id = 3790,
 		icon = "memory_huangyejiarikaituoji3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI10"
+		}
 	},
 	[3791] = {
 		mask = "bg/bg_memory",
@@ -36631,7 +45602,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI11",
 		id = 3791,
 		icon = "memory_huangyejiarikaituoji3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI11"
+		}
 	},
 	[3792] = {
 		mask = "bg/bg_memory",
@@ -36642,7 +45616,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI12",
 		id = 3792,
 		icon = "memory_huangyejiarikaituoji3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI12"
+		}
 	},
 	[3793] = {
 		mask = "bg/bg_memory",
@@ -36653,7 +45630,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI13",
 		id = 3793,
 		icon = "memory_huangyejiarikaituoji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI13"
+		}
 	},
 	[3794] = {
 		mask = "bg/bg_memory",
@@ -36664,7 +45644,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI14",
 		id = 3794,
 		icon = "memory_huangyejiarikaituoji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI14"
+		}
 	},
 	[3795] = {
 		mask = "bg/bg_memory",
@@ -36675,7 +45658,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI15",
 		id = 3795,
 		icon = "memory_huangyejiarikaituoji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI15"
+		}
 	},
 	[3796] = {
 		mask = "bg/bg_memory",
@@ -36686,7 +45672,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI16",
 		id = 3796,
 		icon = "memory_huangyejiarikaituoji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI16"
+		}
 	},
 	[3797] = {
 		mask = "bg/bg_memory",
@@ -36697,7 +45686,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI17",
 		id = 3797,
 		icon = "memory_huangyejiarikaituoji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI17"
+		}
 	},
 	[3798] = {
 		mask = "bg/bg_memory",
@@ -36708,7 +45700,10 @@ pg.base.memory_template = {
 		story = "HUANGYEJIARIKAITUOJI18",
 		id = 3798,
 		icon = "memory_huangyejiarikaituoji2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANGYEJIARIKAITUOJI18"
+		}
 	},
 	[3801] = {
 		mask = "bg/bg_memory",
@@ -36719,7 +45714,10 @@ pg.base.memory_template = {
 		story = "LUCK39906",
 		id = 3801,
 		icon = "memory_siwanshi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK39906"
+		}
 	},
 	[3802] = {
 		mask = "bg/bg_memory",
@@ -36730,7 +45728,10 @@ pg.base.memory_template = {
 		story = "LUCK49908",
 		id = 3802,
 		icon = "memory_feilikesishuerci",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49908"
+		}
 	},
 	[3803] = {
 		mask = "bg/bg_memory",
@@ -36741,7 +45742,10 @@ pg.base.memory_template = {
 		story = "LUCK99902",
 		id = 3803,
 		icon = "memory_fulandeer",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LUCK99902"
+		}
 	},
 	[3811] = {
 		mask = "bg/bg_memory",
@@ -36752,7 +45756,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA1",
 		id = 3811,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA1"
+		}
 	},
 	[3812] = {
 		mask = "bg/bg_memory",
@@ -36763,7 +45770,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA2",
 		id = 3812,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA2"
+		}
 	},
 	[3813] = {
 		mask = "bg/bg_memory",
@@ -36774,7 +45784,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA3",
 		id = 3813,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA3"
+		}
 	},
 	[3814] = {
 		mask = "bg/bg_memory",
@@ -36785,7 +45798,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA4",
 		id = 3814,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA4"
+		}
 	},
 	[3815] = {
 		mask = "bg/bg_memory",
@@ -36796,7 +45812,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA5",
 		id = 3815,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA5"
+		}
 	},
 	[3816] = {
 		mask = "bg/bg_memory",
@@ -36807,7 +45826,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA6",
 		id = 3816,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA6"
+		}
 	},
 	[3817] = {
 		mask = "bg/bg_memory",
@@ -36818,7 +45840,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA7",
 		id = 3817,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA7"
+		}
 	},
 	[3818] = {
 		mask = "bg/bg_memory",
@@ -36829,7 +45854,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA8",
 		id = 3818,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA8"
+		}
 	},
 	[3819] = {
 		mask = "bg/bg_memory",
@@ -36840,7 +45868,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA9",
 		id = 3819,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA9"
+		}
 	},
 	[3820] = {
 		mask = "bg/bg_memory",
@@ -36851,7 +45882,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA10",
 		id = 3820,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA10"
+		}
 	},
 	[3821] = {
 		mask = "bg/bg_memory",
@@ -36862,7 +45896,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA11",
 		id = 3821,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA11"
+		}
 	},
 	[3822] = {
 		mask = "bg/bg_memory",
@@ -36873,7 +45910,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA12",
 		id = 3822,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA12"
+		}
 	},
 	[3823] = {
 		mask = "bg/bg_memory",
@@ -36884,7 +45924,10 @@ pg.base.memory_template = {
 		story = "MAIZANGYUBIANZHIHUA13",
 		id = 3823,
 		icon = "memory_maizangyubianzhihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MAIZANGYUBIANZHIHUA13"
+		}
 	},
 	[3831] = {
 		mask = "bg/bg_memory",
@@ -36895,7 +45938,10 @@ pg.base.memory_template = {
 		story = "HUIJUYUCIANZHICHEN1",
 		id = 3831,
 		icon = "memory_huijuyucianzhichen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIJUYUCIANZHICHEN1"
+		}
 	},
 	[3832] = {
 		mask = "bg/bg_memory",
@@ -36906,7 +45952,10 @@ pg.base.memory_template = {
 		story = "HUIJUYUCIANZHICHEN2",
 		id = 3832,
 		icon = "memory_huijuyucianzhichen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIJUYUCIANZHICHEN2"
+		}
 	},
 	[3833] = {
 		mask = "bg/bg_memory",
@@ -36917,7 +45966,10 @@ pg.base.memory_template = {
 		story = "HUIJUYUCIANZHICHEN3",
 		id = 3833,
 		icon = "memory_huijuyucianzhichen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIJUYUCIANZHICHEN3"
+		}
 	},
 	[3834] = {
 		mask = "bg/bg_memory",
@@ -36928,7 +45980,10 @@ pg.base.memory_template = {
 		story = "HUIJUYUCIANZHICHEN4",
 		id = 3834,
 		icon = "memory_huijuyucianzhichen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIJUYUCIANZHICHEN4"
+		}
 	},
 	[3835] = {
 		mask = "bg/bg_memory",
@@ -36939,7 +45994,10 @@ pg.base.memory_template = {
 		story = "HUIJUYUCIANZHICHEN5",
 		id = 3835,
 		icon = "memory_huijuyucianzhichen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIJUYUCIANZHICHEN5"
+		}
 	},
 	[3836] = {
 		mask = "bg/bg_memory",
@@ -36950,7 +46008,10 @@ pg.base.memory_template = {
 		story = "HUIJUYUCIANZHICHEN6",
 		id = 3836,
 		icon = "memory_huijuyucianzhichen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIJUYUCIANZHICHEN6"
+		}
 	},
 	[3837] = {
 		mask = "bg/bg_memory",
@@ -36961,7 +46022,10 @@ pg.base.memory_template = {
 		story = "HUIJUYUCIANZHICHEN7",
 		id = 3837,
 		icon = "memory_huijuyucianzhichen",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUIJUYUCIANZHICHEN7"
+		}
 	},
 	[3841] = {
 		mask = "bg/bg_memory",
@@ -36972,7 +46036,10 @@ pg.base.memory_template = {
 		story = "LEYUANDEQISHIFU1",
 		id = 3841,
 		icon = "memory_leyuandeqishifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LEYUANDEQISHIFU1"
+		}
 	},
 	[3842] = {
 		mask = "bg/bg_memory",
@@ -36983,7 +46050,10 @@ pg.base.memory_template = {
 		story = "LEYUANDEQISHIFU2",
 		id = 3842,
 		icon = "memory_leyuandeqishifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LEYUANDEQISHIFU2"
+		}
 	},
 	[3843] = {
 		mask = "bg/bg_memory",
@@ -36994,7 +46064,10 @@ pg.base.memory_template = {
 		story = "LEYUANDEQISHIFU3",
 		id = 3843,
 		icon = "memory_leyuandeqishifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LEYUANDEQISHIFU3"
+		}
 	},
 	[3844] = {
 		mask = "bg/bg_memory",
@@ -37005,7 +46078,10 @@ pg.base.memory_template = {
 		story = "LEYUANDEQISHIFU4",
 		id = 3844,
 		icon = "memory_leyuandeqishifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LEYUANDEQISHIFU4"
+		}
 	},
 	[3845] = {
 		mask = "bg/bg_memory",
@@ -37016,7 +46092,10 @@ pg.base.memory_template = {
 		story = "LEYUANDEQISHIFU5",
 		id = 3845,
 		icon = "memory_leyuandeqishifu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LEYUANDEQISHIFU5"
+		}
 	},
 	[3851] = {
 		mask = "bg/bg_memory",
@@ -37027,7 +46106,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI1",
 		id = 3851,
 		icon = "memory_menghuanleyuan1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI1"
+		}
 	},
 	[3852] = {
 		mask = "bg/bg_memory",
@@ -37038,7 +46120,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI2",
 		id = 3852,
 		icon = "memory_menghuanleyuan1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI2"
+		}
 	},
 	[3853] = {
 		mask = "bg/bg_memory",
@@ -37049,7 +46134,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI3",
 		id = 3853,
 		icon = "memory_menghuanleyuan1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI3"
+		}
 	},
 	[3854] = {
 		mask = "bg/bg_memory",
@@ -37060,7 +46148,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI4",
 		id = 3854,
 		icon = "memory_menghuanleyuan1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI4"
+		}
 	},
 	[3855] = {
 		mask = "bg/bg_memory",
@@ -37071,7 +46162,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI5",
 		id = 3855,
 		icon = "memory_menghuanleyuan1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI5"
+		}
 	},
 	[3856] = {
 		mask = "bg/bg_memory",
@@ -37082,7 +46176,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI6",
 		id = 3856,
 		icon = "memory_menghuanleyuan1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI6"
+		}
 	},
 	[3857] = {
 		mask = "bg/bg_memory",
@@ -37093,7 +46190,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI7",
 		id = 3857,
 		icon = "memory_menghuanleyuan2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI7"
+		}
 	},
 	[3858] = {
 		mask = "bg/bg_memory",
@@ -37104,7 +46204,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI8",
 		id = 3858,
 		icon = "memory_menghuanleyuan2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI8"
+		}
 	},
 	[3859] = {
 		mask = "bg/bg_memory",
@@ -37115,7 +46218,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI9",
 		id = 3859,
 		icon = "memory_menghuanleyuan2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI9"
+		}
 	},
 	[3860] = {
 		mask = "bg/bg_memory",
@@ -37126,7 +46232,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI10",
 		id = 3860,
 		icon = "memory_menghuanleyuan3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI10"
+		}
 	},
 	[3861] = {
 		mask = "bg/bg_memory",
@@ -37137,7 +46246,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI11",
 		id = 3861,
 		icon = "memory_menghuanleyuan3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI11"
+		}
 	},
 	[3862] = {
 		mask = "bg/bg_memory",
@@ -37148,7 +46260,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI12",
 		id = 3862,
 		icon = "memory_menghuanleyuan3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI12"
+		}
 	},
 	[3863] = {
 		mask = "bg/bg_memory",
@@ -37159,7 +46274,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI13",
 		id = 3863,
 		icon = "memory_menghuanleyuan4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI13"
+		}
 	},
 	[3864] = {
 		mask = "bg/bg_memory",
@@ -37170,7 +46288,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI14",
 		id = 3864,
 		icon = "memory_menghuanleyuan4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI14"
+		}
 	},
 	[3865] = {
 		mask = "bg/bg_memory",
@@ -37181,7 +46302,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI15",
 		id = 3865,
 		icon = "memory_menghuanleyuan4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI15"
+		}
 	},
 	[3866] = {
 		mask = "bg/bg_memory",
@@ -37192,7 +46316,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI16",
 		id = 3866,
 		icon = "memory_menghuanleyuan4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI16"
+		}
 	},
 	[3867] = {
 		mask = "bg/bg_memory",
@@ -37203,7 +46330,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI17",
 		id = 3867,
 		icon = "memory_menghuanleyuan4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI17"
+		}
 	},
 	[3868] = {
 		mask = "bg/bg_memory",
@@ -37214,7 +46344,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI18",
 		id = 3868,
 		icon = "memory_menghuanleyuan4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI18"
+		}
 	},
 	[3869] = {
 		mask = "bg/bg_memory",
@@ -37225,7 +46358,10 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI19",
 		id = 3869,
 		icon = "memory_menghuanleyuan4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MENGHUANLEYUANDEMENGHUANJIARI19"
+		}
 	},
 	[3871] = {
 		mask = "bg/bg_memory",
@@ -37236,7 +46372,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN1",
 		id = 3871,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN1"
+		}
 	},
 	[3872] = {
 		mask = "bg/bg_memory",
@@ -37247,7 +46386,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN2",
 		id = 3872,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN2"
+		}
 	},
 	[3873] = {
 		mask = "bg/bg_memory",
@@ -37258,7 +46400,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN3",
 		id = 3873,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN3"
+		}
 	},
 	[3874] = {
 		mask = "bg/bg_memory",
@@ -37269,7 +46414,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN4",
 		id = 3874,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN4"
+		}
 	},
 	[3875] = {
 		mask = "bg/bg_memory",
@@ -37280,7 +46428,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN5",
 		id = 3875,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN5"
+		}
 	},
 	[3876] = {
 		mask = "bg/bg_memory",
@@ -37291,7 +46442,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN6",
 		id = 3876,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN6"
+		}
 	},
 	[3877] = {
 		mask = "bg/bg_memory",
@@ -37302,7 +46456,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN7",
 		id = 3877,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN7"
+		}
 	},
 	[3878] = {
 		mask = "bg/bg_memory",
@@ -37313,7 +46470,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN8",
 		id = 3878,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN8"
+		}
 	},
 	[3879] = {
 		mask = "bg/bg_memory",
@@ -37324,7 +46484,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN9",
 		id = 3879,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN9"
+		}
 	},
 	[3880] = {
 		mask = "bg/bg_memory",
@@ -37335,7 +46498,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN10",
 		id = 3880,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN10"
+		}
 	},
 	[3881] = {
 		mask = "bg/bg_memory",
@@ -37346,7 +46512,10 @@ pg.base.memory_template = {
 		story = "1856001",
 		id = 3881,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1856001"
+		}
 	},
 	[3882] = {
 		mask = "bg/bg_memory",
@@ -37357,7 +46526,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN12",
 		id = 3882,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN12"
+		}
 	},
 	[3883] = {
 		mask = "bg/bg_memory",
@@ -37368,7 +46540,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN13",
 		id = 3883,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN13"
+		}
 	},
 	[3884] = {
 		mask = "bg/bg_memory",
@@ -37379,7 +46554,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN14",
 		id = 3884,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN14"
+		}
 	},
 	[3885] = {
 		mask = "bg/bg_memory",
@@ -37390,7 +46568,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN15",
 		id = 3885,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN15"
+		}
 	},
 	[3886] = {
 		mask = "bg/bg_memory",
@@ -37401,7 +46582,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN16",
 		id = 3886,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN16"
+		}
 	},
 	[3887] = {
 		mask = "bg/bg_memory",
@@ -37412,7 +46596,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN17",
 		id = 3887,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN17"
+		}
 	},
 	[3888] = {
 		mask = "bg/bg_memory",
@@ -37423,7 +46610,10 @@ pg.base.memory_template = {
 		story = "1856002",
 		id = 3888,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1856002"
+		}
 	},
 	[3889] = {
 		mask = "bg/bg_memory",
@@ -37434,7 +46624,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN19",
 		id = 3889,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN19"
+		}
 	},
 	[3890] = {
 		mask = "bg/bg_memory",
@@ -37445,7 +46638,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN20",
 		id = 3890,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN20"
+		}
 	},
 	[3891] = {
 		mask = "bg/bg_memory",
@@ -37456,7 +46652,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN21",
 		id = 3891,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN21"
+		}
 	},
 	[3892] = {
 		mask = "bg/bg_memory",
@@ -37467,7 +46666,10 @@ pg.base.memory_template = {
 		story = "1856003",
 		id = 3892,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1856003"
+		}
 	},
 	[3893] = {
 		mask = "bg/bg_memory",
@@ -37478,7 +46680,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN23",
 		id = 3893,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN23"
+		}
 	},
 	[3894] = {
 		mask = "bg/bg_memory",
@@ -37489,7 +46694,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN24",
 		id = 3894,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN24"
+		}
 	},
 	[3895] = {
 		mask = "bg/bg_memory",
@@ -37500,7 +46708,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN25",
 		id = 3895,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN25"
+		}
 	},
 	[3896] = {
 		mask = "bg/bg_memory",
@@ -37511,7 +46722,10 @@ pg.base.memory_template = {
 		story = "1856004",
 		id = 3896,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1856004"
+		}
 	},
 	[3897] = {
 		mask = "bg/bg_memory",
@@ -37522,7 +46736,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN27",
 		id = 3897,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN27"
+		}
 	},
 	[3898] = {
 		mask = "bg/bg_memory",
@@ -37533,7 +46750,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN28",
 		id = 3898,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN28"
+		}
 	},
 	[3899] = {
 		mask = "bg/bg_memory",
@@ -37544,7 +46764,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN29",
 		id = 3899,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN29"
+		}
 	},
 	[3900] = {
 		mask = "bg/bg_memory",
@@ -37555,7 +46778,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN30",
 		id = 3900,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN30"
+		}
 	},
 	[3901] = {
 		mask = "bg/bg_memory",
@@ -37566,7 +46792,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN31",
 		id = 3901,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN31"
+		}
 	},
 	[3902] = {
 		mask = "bg/bg_memory",
@@ -37577,7 +46806,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN32",
 		id = 3902,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN32"
+		}
 	},
 	[3903] = {
 		mask = "bg/bg_memory",
@@ -37588,7 +46820,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN33",
 		id = 3903,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN33"
+		}
 	},
 	[3904] = {
 		mask = "bg/bg_memory",
@@ -37599,7 +46834,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN34",
 		id = 3904,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN34"
+		}
 	},
 	[3905] = {
 		mask = "bg/bg_memory",
@@ -37610,7 +46848,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN35",
 		id = 3905,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN35"
+		}
 	},
 	[3906] = {
 		mask = "bg/bg_memory",
@@ -37621,7 +46862,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN36",
 		id = 3906,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN36"
+		}
 	},
 	[3907] = {
 		mask = "bg/bg_memory",
@@ -37632,7 +46876,10 @@ pg.base.memory_template = {
 		story = "HUANXINGCANGHONGZHIYAN37",
 		id = 3907,
 		icon = "memory_huanxingcanghongzhiyan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANXINGCANGHONGZHIYAN37"
+		}
 	},
 	[3908] = {
 		mask = "bg/bg_memory",
@@ -37643,7 +46890,10 @@ pg.base.memory_template = {
 		story = "HUANRAOXINJIANZHIWU",
 		id = 3908,
 		icon = "memory_huanrao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANRAOXINJIANZHIWU"
+		}
 	},
 	[3911] = {
 		mask = "bg/bg_memory",
@@ -37654,7 +46904,10 @@ pg.base.memory_template = {
 		story = "GAOXIONG1",
 		id = 3911,
 		icon = "memory_gaoxiong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOXIONG1"
+		}
 	},
 	[3912] = {
 		mask = "bg/bg_memory",
@@ -37665,7 +46918,10 @@ pg.base.memory_template = {
 		story = "GAOXIONG2",
 		id = 3912,
 		icon = "memory_gaoxiong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOXIONG2"
+		}
 	},
 	[3913] = {
 		mask = "bg/bg_memory",
@@ -37676,7 +46932,10 @@ pg.base.memory_template = {
 		story = "GAOXIONG3",
 		id = 3913,
 		icon = "memory_gaoxiong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOXIONG3"
+		}
 	},
 	[3914] = {
 		mask = "bg/bg_memory",
@@ -37687,7 +46946,10 @@ pg.base.memory_template = {
 		story = "GAOXIONG4",
 		id = 3914,
 		icon = "memory_gaoxiong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOXIONG4"
+		}
 	},
 	[3915] = {
 		mask = "bg/bg_memory",
@@ -37698,7 +46960,10 @@ pg.base.memory_template = {
 		story = "GAOXIONG5",
 		id = 3915,
 		icon = "memory_gaoxiong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOXIONG5"
+		}
 	},
 	[3916] = {
 		mask = "bg/bg_memory",
@@ -37709,7 +46974,10 @@ pg.base.memory_template = {
 		story = "GAOXIONG6",
 		id = 3916,
 		icon = "memory_gaoxiong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOXIONG6"
+		}
 	},
 	[3917] = {
 		mask = "bg/bg_memory",
@@ -37720,7 +46988,10 @@ pg.base.memory_template = {
 		story = "GAOXIONG7",
 		id = 3917,
 		icon = "memory_gaoxiong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOXIONG7"
+		}
 	},
 	[3921] = {
 		mask = "bg/bg_memory",
@@ -37731,7 +47002,10 @@ pg.base.memory_template = {
 		story = "SUSHEHUANXINJIHUA1",
 		id = 3921,
 		icon = "memory_sushehuanxinjihua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SUSHEHUANXINJIHUA1"
+		}
 	},
 	[3931] = {
 		mask = "bg/bg_memory",
@@ -37742,7 +47016,10 @@ pg.base.memory_template = {
 		story = "WEIDAHAO1",
 		id = 3931,
 		icon = "memory_weidahao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIDAHAO1"
+		}
 	},
 	[3932] = {
 		mask = "bg/bg_memory",
@@ -37753,7 +47030,10 @@ pg.base.memory_template = {
 		story = "WEIDAHAO2",
 		id = 3932,
 		icon = "memory_weidahao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIDAHAO2"
+		}
 	},
 	[3933] = {
 		mask = "bg/bg_memory",
@@ -37764,7 +47044,10 @@ pg.base.memory_template = {
 		story = "WEIDAHAO3",
 		id = 3933,
 		icon = "memory_weidahao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIDAHAO3"
+		}
 	},
 	[3934] = {
 		mask = "bg/bg_memory",
@@ -37775,7 +47058,10 @@ pg.base.memory_template = {
 		story = "WEIDAHAO4",
 		id = 3934,
 		icon = "memory_weidahao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIDAHAO4"
+		}
 	},
 	[3935] = {
 		mask = "bg/bg_memory",
@@ -37786,7 +47072,10 @@ pg.base.memory_template = {
 		story = "WEIDAHAO5",
 		id = 3935,
 		icon = "memory_weidahao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIDAHAO5"
+		}
 	},
 	[3936] = {
 		mask = "bg/bg_memory",
@@ -37797,7 +47086,10 @@ pg.base.memory_template = {
 		story = "WEIDAHAO6",
 		id = 3936,
 		icon = "memory_weidahao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIDAHAO6"
+		}
 	},
 	[3937] = {
 		mask = "bg/bg_memory",
@@ -37808,7 +47100,10 @@ pg.base.memory_template = {
 		story = "WEIDAHAO7",
 		id = 3937,
 		icon = "memory_weidahao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIDAHAO7"
+		}
 	},
 	[3941] = {
 		mask = "bg/bg_memory",
@@ -37819,7 +47114,10 @@ pg.base.memory_template = {
 		story = "JIUXINHUORECESHIZHONG1",
 		id = 3941,
 		icon = "memory_jiuxinhuoreceshizhong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIUXINHUORECESHIZHONG1"
+		}
 	},
 	[3951] = {
 		mask = "bg/bg_memory",
@@ -37830,7 +47128,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI1",
 		id = 3951,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI1"
+		}
 	},
 	[3952] = {
 		mask = "bg/bg_memory",
@@ -37841,7 +47142,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI2",
 		id = 3952,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI2"
+		}
 	},
 	[3953] = {
 		mask = "bg/bg_memory",
@@ -37852,7 +47156,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI3",
 		id = 3953,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI3"
+		}
 	},
 	[3954] = {
 		mask = "bg/bg_memory",
@@ -37863,7 +47170,10 @@ pg.base.memory_template = {
 		story = "1868001",
 		id = 3954,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1868001"
+		}
 	},
 	[3955] = {
 		mask = "bg/bg_memory",
@@ -37874,7 +47184,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI5",
 		id = 3955,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI5"
+		}
 	},
 	[3956] = {
 		mask = "bg/bg_memory",
@@ -37885,7 +47198,10 @@ pg.base.memory_template = {
 		story = "1868002",
 		id = 3956,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1868002"
+		}
 	},
 	[3957] = {
 		mask = "bg/bg_memory",
@@ -37896,7 +47212,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI7",
 		id = 3957,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI7"
+		}
 	},
 	[3958] = {
 		mask = "bg/bg_memory",
@@ -37907,7 +47226,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI8",
 		id = 3958,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI8"
+		}
 	},
 	[3959] = {
 		mask = "bg/bg_memory",
@@ -37918,7 +47240,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI9",
 		id = 3959,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI9"
+		}
 	},
 	[3960] = {
 		mask = "bg/bg_memory",
@@ -37929,7 +47254,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI10",
 		id = 3960,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI10"
+		}
 	},
 	[3961] = {
 		mask = "bg/bg_memory",
@@ -37940,7 +47268,10 @@ pg.base.memory_template = {
 		story = "1868003",
 		id = 3961,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1868003"
+		}
 	},
 	[3962] = {
 		mask = "bg/bg_memory",
@@ -37951,7 +47282,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI12",
 		id = 3962,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI12"
+		}
 	},
 	[3963] = {
 		mask = "bg/bg_memory",
@@ -37962,7 +47296,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI13",
 		id = 3963,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI13"
+		}
 	},
 	[3964] = {
 		mask = "bg/bg_memory",
@@ -37973,7 +47310,10 @@ pg.base.memory_template = {
 		story = "1868004",
 		id = 3964,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1868004"
+		}
 	},
 	[3965] = {
 		mask = "bg/bg_memory",
@@ -37984,7 +47324,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI15",
 		id = 3965,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI15"
+		}
 	},
 	[3966] = {
 		mask = "bg/bg_memory",
@@ -37995,7 +47338,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI16",
 		id = 3966,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI16"
+		}
 	},
 	[3967] = {
 		mask = "bg/bg_memory",
@@ -38006,7 +47352,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI17",
 		id = 3967,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI17"
+		}
 	},
 	[3968] = {
 		mask = "bg/bg_memory",
@@ -38017,7 +47366,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI18",
 		id = 3968,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI18"
+		}
 	},
 	[3969] = {
 		mask = "bg/bg_memory",
@@ -38028,7 +47380,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI19",
 		id = 3969,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI19"
+		}
 	},
 	[3970] = {
 		mask = "bg/bg_memory",
@@ -38039,7 +47394,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI20",
 		id = 3970,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI20"
+		}
 	},
 	[3971] = {
 		mask = "bg/bg_memory",
@@ -38050,7 +47408,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI21",
 		id = 3971,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI21"
+		}
 	},
 	[3972] = {
 		mask = "bg/bg_memory",
@@ -38061,7 +47422,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUCHENMIANZHIHAI22",
 		id = 3972,
 		icon = "memory_jufengyuchenmianzhihai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUCHENMIANZHIHAI22"
+		}
 	},
 	[3981] = {
 		mask = "bg/bg_memory",
@@ -38072,7 +47436,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJI1",
 		id = 3981,
 		icon = "memory_gangqujiariguiguaigushiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJI1"
+		}
 	},
 	[3982] = {
 		mask = "bg/bg_memory",
@@ -38083,7 +47450,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJI2",
 		id = 3982,
 		icon = "memory_gangqujiariguiguaigushiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJI2"
+		}
 	},
 	[3983] = {
 		mask = "bg/bg_memory",
@@ -38094,7 +47464,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJI3",
 		id = 3983,
 		icon = "memory_gangqujiariguiguaigushiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJI3"
+		}
 	},
 	[3984] = {
 		mask = "bg/bg_memory",
@@ -38105,7 +47478,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJI4",
 		id = 3984,
 		icon = "memory_gangqujiariguiguaigushiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJI4"
+		}
 	},
 	[3985] = {
 		mask = "bg/bg_memory",
@@ -38116,7 +47492,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJI5",
 		id = 3985,
 		icon = "memory_gangqujiariguiguaigushiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJI5"
+		}
 	},
 	[3986] = {
 		mask = "bg/bg_memory",
@@ -38127,7 +47506,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJI6",
 		id = 3986,
 		icon = "memory_gangqujiariguiguaigushiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJI6"
+		}
 	},
 	[3987] = {
 		mask = "bg/bg_memory",
@@ -38138,7 +47520,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJI7",
 		id = 3987,
 		icon = "memory_gangqujiariguiguaigushiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJI7"
+		}
 	},
 	[3988] = {
 		mask = "bg/bg_memory",
@@ -38149,7 +47534,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJI8",
 		id = 3988,
 		icon = "memory_gangqujiariguiguaigushiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJI8"
+		}
 	},
 	[3991] = {
 		mask = "bg/bg_memory",
@@ -38160,7 +47548,10 @@ pg.base.memory_template = {
 		story = "HAO1",
 		id = 3991,
 		icon = "memory_hao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAO1"
+		}
 	},
 	[3992] = {
 		mask = "bg/bg_memory",
@@ -38171,7 +47562,10 @@ pg.base.memory_template = {
 		story = "HAO2",
 		id = 3992,
 		icon = "memory_hao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAO2"
+		}
 	},
 	[3993] = {
 		mask = "bg/bg_memory",
@@ -38182,7 +47576,10 @@ pg.base.memory_template = {
 		story = "HAO3",
 		id = 3993,
 		icon = "memory_hao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAO3"
+		}
 	},
 	[3994] = {
 		mask = "bg/bg_memory",
@@ -38193,7 +47590,10 @@ pg.base.memory_template = {
 		story = "HAO4",
 		id = 3994,
 		icon = "memory_hao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAO4"
+		}
 	},
 	[3995] = {
 		mask = "bg/bg_memory",
@@ -38204,7 +47604,10 @@ pg.base.memory_template = {
 		story = "HAO5",
 		id = 3995,
 		icon = "memory_hao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAO5"
+		}
 	},
 	[3996] = {
 		mask = "bg/bg_memory",
@@ -38215,7 +47618,10 @@ pg.base.memory_template = {
 		story = "HAO6",
 		id = 3996,
 		icon = "memory_hao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAO6"
+		}
 	},
 	[3997] = {
 		mask = "bg/bg_memory",
@@ -38226,7 +47632,10 @@ pg.base.memory_template = {
 		story = "HAO7",
 		id = 3997,
 		icon = "memory_hao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAO7"
+		}
 	},
 	[4011] = {
 		mask = "bg/bg_memory",
@@ -38237,7 +47646,10 @@ pg.base.memory_template = {
 		story = "XINXINGCUXIAOLAIXI1",
 		id = 4011,
 		icon = "memory_xinxingcuxiaolaixi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINXINGCUXIAOLAIXI1"
+		}
 	},
 	[4021] = {
 		mask = "bg/bg_memory",
@@ -38248,7 +47660,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA1",
 		id = 4021,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA1"
+		}
 	},
 	[4022] = {
 		mask = "bg/bg_memory",
@@ -38259,7 +47674,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA2",
 		id = 4022,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA2"
+		}
 	},
 	[4023] = {
 		mask = "bg/bg_memory",
@@ -38270,7 +47688,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA3",
 		id = 4023,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA3"
+		}
 	},
 	[4024] = {
 		mask = "bg/bg_memory",
@@ -38281,7 +47702,10 @@ pg.base.memory_template = {
 		story = "1878001",
 		id = 4024,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1878001"
+		}
 	},
 	[4025] = {
 		mask = "bg/bg_memory",
@@ -38292,7 +47716,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA5",
 		id = 4025,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA5"
+		}
 	},
 	[4026] = {
 		mask = "bg/bg_memory",
@@ -38303,7 +47730,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA6",
 		id = 4026,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA6"
+		}
 	},
 	[4027] = {
 		mask = "bg/bg_memory",
@@ -38314,7 +47744,10 @@ pg.base.memory_template = {
 		story = "1878002",
 		id = 4027,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1878002"
+		}
 	},
 	[4028] = {
 		mask = "bg/bg_memory",
@@ -38325,7 +47758,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA8",
 		id = 4028,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA8"
+		}
 	},
 	[4029] = {
 		mask = "bg/bg_memory",
@@ -38336,7 +47772,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA9",
 		id = 4029,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA9"
+		}
 	},
 	[4030] = {
 		mask = "bg/bg_memory",
@@ -38347,7 +47786,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA10",
 		id = 4030,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA10"
+		}
 	},
 	[4031] = {
 		mask = "bg/bg_memory",
@@ -38358,7 +47800,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA11",
 		id = 4031,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA11"
+		}
 	},
 	[4032] = {
 		mask = "bg/bg_memory",
@@ -38369,7 +47814,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA12",
 		id = 4032,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA12"
+		}
 	},
 	[4033] = {
 		mask = "bg/bg_memory",
@@ -38380,7 +47828,10 @@ pg.base.memory_template = {
 		story = "1878003",
 		id = 4033,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1878003"
+		}
 	},
 	[4034] = {
 		mask = "bg/bg_memory",
@@ -38391,7 +47842,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA14",
 		id = 4034,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA14"
+		}
 	},
 	[4035] = {
 		mask = "bg/bg_memory",
@@ -38402,7 +47856,10 @@ pg.base.memory_template = {
 		story = "1878004",
 		id = 4035,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1878004"
+		}
 	},
 	[4036] = {
 		mask = "bg/bg_memory",
@@ -38413,7 +47870,10 @@ pg.base.memory_template = {
 		story = "1878005",
 		id = 4036,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1878005"
+		}
 	},
 	[4037] = {
 		mask = "bg/bg_memory",
@@ -38424,7 +47884,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA17",
 		id = 4037,
 		icon = "memory_weixianfamingpojinzhong1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGGUANQIA17"
+		}
 	},
 	[4041] = {
 		mask = "bg/bg_memory",
@@ -38435,7 +47898,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGRICHANG1",
 		id = 4041,
 		icon = "memory_weixianfamingpojinzhong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGRICHANG1"
+		}
 	},
 	[4042] = {
 		mask = "bg/bg_memory",
@@ -38446,7 +47912,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGRICHANG2",
 		id = 4042,
 		icon = "memory_weixianfamingpojinzhong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGRICHANG2"
+		}
 	},
 	[4043] = {
 		mask = "bg/bg_memory",
@@ -38457,7 +47926,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGRICHANG3",
 		id = 4043,
 		icon = "memory_weixianfamingpojinzhong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGRICHANG3"
+		}
 	},
 	[4044] = {
 		mask = "bg/bg_memory",
@@ -38468,7 +47940,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGRICHANG4",
 		id = 4044,
 		icon = "memory_weixianfamingpojinzhong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGRICHANG4"
+		}
 	},
 	[4045] = {
 		mask = "bg/bg_memory",
@@ -38479,7 +47954,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGRICHANG5",
 		id = 4045,
 		icon = "memory_weixianfamingpojinzhong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGRICHANG5"
+		}
 	},
 	[4046] = {
 		mask = "bg/bg_memory",
@@ -38490,7 +47968,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGRICHANG6",
 		id = 4046,
 		icon = "memory_weixianfamingpojinzhong2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGRICHANG6"
+		}
 	},
 	[4051] = {
 		mask = "bg/bg_memory",
@@ -38501,7 +47982,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGWEITUO1",
 		id = 4051,
 		icon = "memory_weixianfamingpojinzhong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGWEITUO1"
+		}
 	},
 	[4052] = {
 		mask = "bg/bg_memory",
@@ -38512,7 +47996,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGWEITUO2",
 		id = 4052,
 		icon = "memory_weixianfamingpojinzhong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGWEITUO2"
+		}
 	},
 	[4053] = {
 		mask = "bg/bg_memory",
@@ -38523,7 +48010,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGWEITUO3",
 		id = 4053,
 		icon = "memory_weixianfamingpojinzhong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGWEITUO3"
+		}
 	},
 	[4054] = {
 		mask = "bg/bg_memory",
@@ -38534,7 +48024,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGWEITUO4",
 		id = 4054,
 		icon = "memory_weixianfamingpojinzhong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGWEITUO4"
+		}
 	},
 	[4055] = {
 		mask = "bg/bg_memory",
@@ -38545,7 +48038,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGWEITUO5",
 		id = 4055,
 		icon = "memory_weixianfamingpojinzhong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGWEITUO5"
+		}
 	},
 	[4056] = {
 		mask = "bg/bg_memory",
@@ -38556,7 +48052,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGWEITUO6",
 		id = 4056,
 		icon = "memory_weixianfamingpojinzhong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGWEITUO6"
+		}
 	},
 	[4057] = {
 		mask = "bg/bg_memory",
@@ -38567,7 +48066,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGWEITUO7",
 		id = 4057,
 		icon = "memory_weixianfamingpojinzhong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGWEITUO7"
+		}
 	},
 	[4058] = {
 		mask = "bg/bg_memory",
@@ -38578,7 +48080,10 @@ pg.base.memory_template = {
 		story = "WEIXIANFAMINGPOJINZHONGWEITUO8",
 		id = 4058,
 		icon = "memory_weixianfamingpojinzhong3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"WEIXIANFAMINGPOJINZHONGWEITUO8"
+		}
 	},
 	[4071] = {
 		mask = "bg/bg_memory",
@@ -38589,7 +48094,10 @@ pg.base.memory_template = {
 		story = "LINGYUWAIDEGUITU1",
 		id = 4071,
 		icon = "memory_lingyuwaideguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYUWAIDEGUITU1"
+		}
 	},
 	[4072] = {
 		mask = "bg/bg_memory",
@@ -38600,7 +48108,10 @@ pg.base.memory_template = {
 		story = "LINGYUWAIDEGUITU2",
 		id = 4072,
 		icon = "memory_lingyuwaideguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYUWAIDEGUITU2"
+		}
 	},
 	[4073] = {
 		mask = "bg/bg_memory",
@@ -38611,7 +48122,10 @@ pg.base.memory_template = {
 		story = "LINGYUWAIDEGUITU3",
 		id = 4073,
 		icon = "memory_lingyuwaideguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYUWAIDEGUITU3"
+		}
 	},
 	[4074] = {
 		mask = "bg/bg_memory",
@@ -38622,7 +48136,10 @@ pg.base.memory_template = {
 		story = "LINGYUWAIDEGUITU4",
 		id = 4074,
 		icon = "memory_lingyuwaideguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYUWAIDEGUITU4"
+		}
 	},
 	[4075] = {
 		mask = "bg/bg_memory",
@@ -38633,7 +48150,10 @@ pg.base.memory_template = {
 		story = "LINGYUWAIDEGUITU5",
 		id = 4075,
 		icon = "memory_lingyuwaideguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYUWAIDEGUITU5"
+		}
 	},
 	[4076] = {
 		mask = "bg/bg_memory",
@@ -38644,7 +48164,10 @@ pg.base.memory_template = {
 		story = "LINGYUWAIDEGUITU6",
 		id = 4076,
 		icon = "memory_lingyuwaideguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYUWAIDEGUITU6"
+		}
 	},
 	[4077] = {
 		mask = "bg/bg_memory",
@@ -38655,7 +48178,10 @@ pg.base.memory_template = {
 		story = "LINGYUWAIDEGUITU7",
 		id = 4077,
 		icon = "memory_lingyuwaideguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYUWAIDEGUITU7"
+		}
 	},
 	[4078] = {
 		mask = "bg/bg_memory",
@@ -38666,7 +48192,10 @@ pg.base.memory_template = {
 		story = "LINGYUWAIDEGUITU8",
 		id = 4078,
 		icon = "memory_lingyuwaideguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYUWAIDEGUITU8"
+		}
 	},
 	[4079] = {
 		mask = "bg/bg_memory",
@@ -38677,7 +48206,10 @@ pg.base.memory_template = {
 		story = "LINGYUWAIDEGUITU9",
 		id = 4079,
 		icon = "memory_lingyuwaideguitu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYUWAIDEGUITU9"
+		}
 	},
 	[4081] = {
 		mask = "bg/bg_memory",
@@ -38688,7 +48220,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI1",
 		id = 4081,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI1"
+		}
 	},
 	[4082] = {
 		mask = "bg/bg_memory",
@@ -38699,7 +48234,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI2",
 		id = 4082,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI2"
+		}
 	},
 	[4083] = {
 		mask = "bg/bg_memory",
@@ -38710,7 +48248,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI3",
 		id = 4083,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI3"
+		}
 	},
 	[4084] = {
 		mask = "bg/bg_memory",
@@ -38721,7 +48262,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI4",
 		id = 4084,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI4"
+		}
 	},
 	[4085] = {
 		mask = "bg/bg_memory",
@@ -38732,7 +48276,10 @@ pg.base.memory_template = {
 		story = "1886001",
 		id = 4085,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1886001"
+		}
 	},
 	[4086] = {
 		mask = "bg/bg_memory",
@@ -38743,7 +48290,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI6",
 		id = 4086,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI6"
+		}
 	},
 	[4087] = {
 		mask = "bg/bg_memory",
@@ -38754,7 +48304,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI7",
 		id = 4087,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI7"
+		}
 	},
 	[4088] = {
 		mask = "bg/bg_memory",
@@ -38765,7 +48318,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI8",
 		id = 4088,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI8"
+		}
 	},
 	[4089] = {
 		mask = "bg/bg_memory",
@@ -38776,7 +48332,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI9",
 		id = 4089,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI9"
+		}
 	},
 	[4090] = {
 		mask = "bg/bg_memory",
@@ -38787,7 +48346,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI10",
 		id = 4090,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI10"
+		}
 	},
 	[4091] = {
 		mask = "bg/bg_memory",
@@ -38798,7 +48360,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI11",
 		id = 4091,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI11"
+		}
 	},
 	[4092] = {
 		mask = "bg/bg_memory",
@@ -38809,7 +48374,10 @@ pg.base.memory_template = {
 		story = "1886002",
 		id = 4092,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1886002"
+		}
 	},
 	[4093] = {
 		mask = "bg/bg_memory",
@@ -38820,7 +48388,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI13",
 		id = 4093,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI13"
+		}
 	},
 	[4094] = {
 		mask = "bg/bg_memory",
@@ -38831,7 +48402,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI14",
 		id = 4094,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI14"
+		}
 	},
 	[4095] = {
 		mask = "bg/bg_memory",
@@ -38842,7 +48416,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI15",
 		id = 4095,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI15"
+		}
 	},
 	[4096] = {
 		mask = "bg/bg_memory",
@@ -38853,7 +48430,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI16",
 		id = 4096,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI16"
+		}
 	},
 	[4097] = {
 		mask = "bg/bg_memory",
@@ -38864,7 +48444,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI17",
 		id = 4097,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI17"
+		}
 	},
 	[4098] = {
 		mask = "bg/bg_memory",
@@ -38875,7 +48458,10 @@ pg.base.memory_template = {
 		story = "1886003",
 		id = 4098,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1886003"
+		}
 	},
 	[4099] = {
 		mask = "bg/bg_memory",
@@ -38886,7 +48472,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI19",
 		id = 4099,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI19"
+		}
 	},
 	[4100] = {
 		mask = "bg/bg_memory",
@@ -38897,7 +48486,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI20",
 		id = 4100,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI20"
+		}
 	},
 	[4101] = {
 		mask = "bg/bg_memory",
@@ -38908,7 +48500,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI21",
 		id = 4101,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI21"
+		}
 	},
 	[4102] = {
 		mask = "bg/bg_memory",
@@ -38919,7 +48514,10 @@ pg.base.memory_template = {
 		story = "1886004",
 		id = 4102,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1886004"
+		}
 	},
 	[4103] = {
 		mask = "bg/bg_memory",
@@ -38930,7 +48528,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI23",
 		id = 4103,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI23"
+		}
 	},
 	[4104] = {
 		mask = "bg/bg_memory",
@@ -38941,7 +48542,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI24",
 		id = 4104,
 		icon = "memory_xingguangxiadeyuhui2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI24"
+		}
 	},
 	[4105] = {
 		mask = "bg/bg_memory",
@@ -38952,7 +48556,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI25",
 		id = 4105,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI25"
+		}
 	},
 	[4106] = {
 		mask = "bg/bg_memory",
@@ -38963,7 +48570,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI26",
 		id = 4106,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI26"
+		}
 	},
 	[4107] = {
 		mask = "bg/bg_memory",
@@ -38974,7 +48584,10 @@ pg.base.memory_template = {
 		story = "1886005",
 		id = 4107,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1886005"
+		}
 	},
 	[4108] = {
 		mask = "bg/bg_memory",
@@ -38985,7 +48598,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI28",
 		id = 4108,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI28"
+		}
 	},
 	[4109] = {
 		mask = "bg/bg_memory",
@@ -38996,7 +48612,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI29",
 		id = 4109,
 		icon = "memory_xingguangxiadeyuhui1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI29"
+		}
 	},
 	[4110] = {
 		mask = "bg/bg_memory",
@@ -39007,7 +48626,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI30",
 		id = 4110,
 		icon = "memory_xingguangxiadeyuhui3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI30"
+		}
 	},
 	[4111] = {
 		mask = "bg/bg_memory",
@@ -39018,7 +48640,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI31",
 		id = 4111,
 		icon = "memory_xingguangxiadeyuhui3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI31"
+		}
 	},
 	[4112] = {
 		mask = "bg/bg_memory",
@@ -39029,7 +48654,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI32",
 		id = 4112,
 		icon = "memory_xingguangxiadeyuhui3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI32"
+		}
 	},
 	[4113] = {
 		mask = "bg/bg_memory",
@@ -39040,7 +48668,10 @@ pg.base.memory_template = {
 		story = "XINGGUANGXIADEYUHUI33",
 		id = 4113,
 		icon = "memory_xingguangxiadeyuhui3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"XINGGUANGXIADEYUHUI33"
+		}
 	},
 	[4121] = {
 		mask = "bg/bg_memory",
@@ -39051,7 +48682,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIERITEJI1",
 		id = 4121,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIERITEJI1"
+		}
 	},
 	[4122] = {
 		mask = "bg/bg_memory",
@@ -39062,7 +48696,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIERITEJI2",
 		id = 4122,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIERITEJI2"
+		}
 	},
 	[4123] = {
 		mask = "bg/bg_memory",
@@ -39073,7 +48710,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIERITEJI3",
 		id = 4123,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIERITEJI3"
+		}
 	},
 	[4124] = {
 		mask = "bg/bg_memory",
@@ -39084,7 +48724,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIERITEJI4",
 		id = 4124,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIERITEJI4"
+		}
 	},
 	[4125] = {
 		mask = "bg/bg_memory",
@@ -39095,7 +48738,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIERITEJI5",
 		id = 4125,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIERITEJI5"
+		}
 	},
 	[4126] = {
 		mask = "bg/bg_memory",
@@ -39106,7 +48752,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIERITEJI6",
 		id = 4126,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIERITEJI6"
+		}
 	},
 	[4131] = {
 		mask = "bg/bg_memory",
@@ -39117,7 +48766,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIWU1",
 		id = 4131,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIWU1"
+		}
 	},
 	[4132] = {
 		mask = "bg/bg_memory",
@@ -39128,7 +48780,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIWU2",
 		id = 4132,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIWU2"
+		}
 	},
 	[4133] = {
 		mask = "bg/bg_memory",
@@ -39139,7 +48794,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIWU3",
 		id = 4133,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIWU3"
+		}
 	},
 	[4134] = {
 		mask = "bg/bg_memory",
@@ -39150,7 +48808,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIWU4",
 		id = 4134,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIWU4"
+		}
 	},
 	[4135] = {
 		mask = "bg/bg_memory",
@@ -39161,7 +48822,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIWU5",
 		id = 4135,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHEDINGJIWU5"
+		}
 	},
 	[4151] = {
 		mask = "bg/bg_memory",
@@ -39172,7 +48836,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXINCHUNSAN1",
 		id = 4151,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINCHUNSAN1"
+		}
 	},
 	[4152] = {
 		mask = "bg/bg_memory",
@@ -39183,7 +48850,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXINCHUNSAN2",
 		id = 4152,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINCHUNSAN2"
+		}
 	},
 	[4153] = {
 		mask = "bg/bg_memory",
@@ -39194,7 +48864,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXINCHUNSAN3",
 		id = 4153,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINCHUNSAN3"
+		}
 	},
 	[4154] = {
 		mask = "bg/bg_memory",
@@ -39205,7 +48878,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXINCHUNSAN4",
 		id = 4154,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINCHUNSAN4"
+		}
 	},
 	[4161] = {
 		mask = "bg/bg_memory",
@@ -39216,7 +48892,10 @@ pg.base.memory_template = {
 		story = "HUASHANGQIAOZHANXISHICHANG1",
 		id = 4161,
 		icon = "memory_huashangqiaozhanxishichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUASHANGQIAOZHANXISHICHANG1"
+		}
 	},
 	[4162] = {
 		mask = "bg/bg_memory",
@@ -39227,7 +48906,10 @@ pg.base.memory_template = {
 		story = "HUASHANGQIAOZHANXISHICHANG2",
 		id = 4162,
 		icon = "memory_huashangqiaozhanxishichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUASHANGQIAOZHANXISHICHANG2"
+		}
 	},
 	[4163] = {
 		mask = "bg/bg_memory",
@@ -39238,7 +48920,10 @@ pg.base.memory_template = {
 		story = "HUASHANGQIAOZHANXISHICHANG3",
 		id = 4163,
 		icon = "memory_huashangqiaozhanxishichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUASHANGQIAOZHANXISHICHANG3"
+		}
 	},
 	[4164] = {
 		mask = "bg/bg_memory",
@@ -39249,7 +48934,10 @@ pg.base.memory_template = {
 		story = "HUASHANGQIAOZHANXISHICHANG4",
 		id = 4164,
 		icon = "memory_huashangqiaozhanxishichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUASHANGQIAOZHANXISHICHANG4"
+		}
 	},
 	[4165] = {
 		mask = "bg/bg_memory",
@@ -39260,7 +48948,10 @@ pg.base.memory_template = {
 		story = "HUASHANGQIAOZHANXISHICHANG5",
 		id = 4165,
 		icon = "memory_huashangqiaozhanxishichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUASHANGQIAOZHANXISHICHANG5"
+		}
 	},
 	[4171] = {
 		mask = "bg/bg_memory",
@@ -39271,7 +48962,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXINCHUNSI1",
 		id = 4171,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINCHUNSI1"
+		}
 	},
 	[4172] = {
 		mask = "bg/bg_memory",
@@ -39282,7 +48976,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXINCHUNSI2",
 		id = 4172,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINCHUNSI2"
+		}
 	},
 	[4173] = {
 		mask = "bg/bg_memory",
@@ -39293,7 +48990,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXINCHUNSI3",
 		id = 4173,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINCHUNSI3"
+		}
 	},
 	[4174] = {
 		mask = "bg/bg_memory",
@@ -39304,7 +49004,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANXINCHUNSI4",
 		id = 4174,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINCHUNSI4"
+		}
 	},
 	[4191] = {
 		mask = "bg/bg_memory",
@@ -39315,7 +49018,10 @@ pg.base.memory_template = {
 		story = "SHOUXUANZHEZHILU1",
 		id = 4191,
 		icon = "memory_shouxuanzhezhilu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHOUXUANZHEZHILU1"
+		}
 	},
 	[4192] = {
 		mask = "bg/bg_memory",
@@ -39326,7 +49032,10 @@ pg.base.memory_template = {
 		story = "SHOUXUANZHEZHILU2",
 		id = 4192,
 		icon = "memory_shouxuanzhezhilu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHOUXUANZHEZHILU2"
+		}
 	},
 	[4193] = {
 		mask = "bg/bg_memory",
@@ -39337,7 +49046,10 @@ pg.base.memory_template = {
 		story = "SHOUXUANZHEZHILU3",
 		id = 4193,
 		icon = "memory_shouxuanzhezhilu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHOUXUANZHEZHILU3"
+		}
 	},
 	[4194] = {
 		mask = "bg/bg_memory",
@@ -39348,7 +49060,10 @@ pg.base.memory_template = {
 		story = "SHOUXUANZHEZHILU4",
 		id = 4194,
 		icon = "memory_shouxuanzhezhilu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHOUXUANZHEZHILU4"
+		}
 	},
 	[4195] = {
 		mask = "bg/bg_memory",
@@ -39359,7 +49074,10 @@ pg.base.memory_template = {
 		story = "SHOUXUANZHEZHILU5",
 		id = 4195,
 		icon = "memory_shouxuanzhezhilu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHOUXUANZHEZHILU5"
+		}
 	},
 	[4196] = {
 		mask = "bg/bg_memory",
@@ -39370,7 +49088,10 @@ pg.base.memory_template = {
 		story = "SHOUXUANZHEZHILU6",
 		id = 4196,
 		icon = "memory_shouxuanzhezhilu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHOUXUANZHEZHILU6"
+		}
 	},
 	[4197] = {
 		mask = "bg/bg_memory",
@@ -39381,7 +49102,10 @@ pg.base.memory_template = {
 		story = "SHOUXUANZHEZHILU7",
 		id = 4197,
 		icon = "memory_shouxuanzhezhilu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHOUXUANZHEZHILU7"
+		}
 	},
 	[4201] = {
 		mask = "bg/bg_memory",
@@ -39392,7 +49116,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG1",
 		id = 4201,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG1"
+		}
 	},
 	[4202] = {
 		mask = "bg/bg_memory",
@@ -39403,7 +49130,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG2",
 		id = 4202,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG2"
+		}
 	},
 	[4203] = {
 		mask = "bg/bg_memory",
@@ -39414,7 +49144,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG3",
 		id = 4203,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG3"
+		}
 	},
 	[4204] = {
 		mask = "bg/bg_memory",
@@ -39425,7 +49158,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG4",
 		id = 4204,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG4"
+		}
 	},
 	[4205] = {
 		mask = "bg/bg_memory",
@@ -39436,7 +49172,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG5",
 		id = 4205,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG5"
+		}
 	},
 	[4206] = {
 		mask = "bg/bg_memory",
@@ -39447,7 +49186,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG6",
 		id = 4206,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG6"
+		}
 	},
 	[4207] = {
 		mask = "bg/bg_memory",
@@ -39458,7 +49200,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG7",
 		id = 4207,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG7"
+		}
 	},
 	[4208] = {
 		mask = "bg/bg_memory",
@@ -39469,7 +49214,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG8",
 		id = 4208,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG8"
+		}
 	},
 	[4209] = {
 		mask = "bg/bg_memory",
@@ -39480,7 +49228,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG9",
 		id = 4209,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG9"
+		}
 	},
 	[4210] = {
 		mask = "bg/bg_memory",
@@ -39491,7 +49242,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG10",
 		id = 4210,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG10"
+		}
 	},
 	[4211] = {
 		mask = "bg/bg_memory",
@@ -39502,7 +49256,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG11",
 		id = 4211,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG11"
+		}
 	},
 	[4212] = {
 		mask = "bg/bg_memory",
@@ -39513,7 +49270,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG12",
 		id = 4212,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG12"
+		}
 	},
 	[4213] = {
 		mask = "bg/bg_memory",
@@ -39524,7 +49284,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG13",
 		id = 4213,
 		icon = "memory_fanlongneideshenguang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG13"
+		}
 	},
 	[4214] = {
 		mask = "bg/bg_memory",
@@ -39535,7 +49298,10 @@ pg.base.memory_template = {
 		story = "1896001",
 		id = 4214,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1896001"
+		}
 	},
 	[4215] = {
 		mask = "bg/bg_memory",
@@ -39546,7 +49312,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG15",
 		id = 4215,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG15"
+		}
 	},
 	[4216] = {
 		mask = "bg/bg_memory",
@@ -39557,7 +49326,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG16",
 		id = 4216,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG16"
+		}
 	},
 	[4217] = {
 		mask = "bg/bg_memory",
@@ -39568,7 +49340,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG17",
 		id = 4217,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG17"
+		}
 	},
 	[4218] = {
 		mask = "bg/bg_memory",
@@ -39579,7 +49354,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG18",
 		id = 4218,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG18"
+		}
 	},
 	[4219] = {
 		mask = "bg/bg_memory",
@@ -39590,7 +49368,10 @@ pg.base.memory_template = {
 		story = "1896002",
 		id = 4219,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1896002"
+		}
 	},
 	[4220] = {
 		mask = "bg/bg_memory",
@@ -39601,7 +49382,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG20",
 		id = 4220,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG20"
+		}
 	},
 	[4221] = {
 		mask = "bg/bg_memory",
@@ -39612,7 +49396,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG21",
 		id = 4221,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG21"
+		}
 	},
 	[4222] = {
 		mask = "bg/bg_memory",
@@ -39623,7 +49410,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG22",
 		id = 4222,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG22"
+		}
 	},
 	[4223] = {
 		mask = "bg/bg_memory",
@@ -39634,7 +49424,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG23",
 		id = 4223,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG23"
+		}
 	},
 	[4224] = {
 		mask = "bg/bg_memory",
@@ -39645,7 +49438,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG24",
 		id = 4224,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG24"
+		}
 	},
 	[4225] = {
 		mask = "bg/bg_memory",
@@ -39656,7 +49452,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG25",
 		id = 4225,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG25"
+		}
 	},
 	[4226] = {
 		mask = "bg/bg_memory",
@@ -39667,7 +49466,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG26",
 		id = 4226,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG26"
+		}
 	},
 	[4227] = {
 		mask = "bg/bg_memory",
@@ -39678,7 +49480,10 @@ pg.base.memory_template = {
 		story = "1896003",
 		id = 4227,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1896003"
+		}
 	},
 	[4228] = {
 		mask = "bg/bg_memory",
@@ -39689,7 +49494,10 @@ pg.base.memory_template = {
 		story = "1896004",
 		id = 4228,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1896004"
+		}
 	},
 	[4229] = {
 		mask = "bg/bg_memory",
@@ -39700,7 +49508,10 @@ pg.base.memory_template = {
 		story = "1896005",
 		id = 4229,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1896005"
+		}
 	},
 	[4230] = {
 		mask = "bg/bg_memory",
@@ -39711,7 +49522,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG30",
 		id = 4230,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG30"
+		}
 	},
 	[4231] = {
 		mask = "bg/bg_memory",
@@ -39722,7 +49536,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG31",
 		id = 4231,
 		icon = "memory_fanlongneideshenguang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG31"
+		}
 	},
 	[4232] = {
 		mask = "bg/bg_memory",
@@ -39733,7 +49550,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG32",
 		id = 4232,
 		icon = "memory_fanlongneideshenguang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG32"
+		}
 	},
 	[4233] = {
 		mask = "bg/bg_memory",
@@ -39744,7 +49564,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG33",
 		id = 4233,
 		icon = "memory_fanlongneideshenguang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG33"
+		}
 	},
 	[4234] = {
 		mask = "bg/bg_memory",
@@ -39755,7 +49578,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG34",
 		id = 4234,
 		icon = "memory_fanlongneideshenguang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG34"
+		}
 	},
 	[4235] = {
 		mask = "bg/bg_memory",
@@ -39766,7 +49592,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG35",
 		id = 4235,
 		icon = "memory_fanlongneideshenguang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG35"
+		}
 	},
 	[4236] = {
 		mask = "bg/bg_memory",
@@ -39777,7 +49606,10 @@ pg.base.memory_template = {
 		story = "FANLONGNEIDESHENGUANG36",
 		id = 4236,
 		icon = "memory_fanlongneideshenguang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"FANLONGNEIDESHENGUANG36"
+		}
 	},
 	[4241] = {
 		mask = "bg/bg_memory",
@@ -39788,7 +49620,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANNILUOHEWENHUAZHAN1",
 		id = 4241,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANNILUOHEWENHUAZHAN1"
+		}
 	},
 	[4242] = {
 		mask = "bg/bg_memory",
@@ -39799,7 +49634,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANNILUOHEWENHUAZHAN2",
 		id = 4242,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANNILUOHEWENHUAZHAN2"
+		}
 	},
 	[4243] = {
 		mask = "bg/bg_memory",
@@ -39810,7 +49648,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANNILUOHEWENHUAZHAN3",
 		id = 4243,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANNILUOHEWENHUAZHAN3"
+		}
 	},
 	[4244] = {
 		mask = "bg/bg_memory",
@@ -39821,7 +49662,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANNILUOHEWENHUAZHAN4",
 		id = 4244,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANNILUOHEWENHUAZHAN4"
+		}
 	},
 	[4261] = {
 		mask = "bg/bg_memory",
@@ -39832,7 +49676,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN1",
 		id = 4261,
 		icon = "memory_shengulaixin1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN1"
+		}
 	},
 	[4262] = {
 		mask = "bg/bg_memory",
@@ -39843,7 +49690,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN2",
 		id = 4262,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN2"
+		}
 	},
 	[4263] = {
 		mask = "bg/bg_memory",
@@ -39854,7 +49704,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN3",
 		id = 4263,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN3"
+		}
 	},
 	[4264] = {
 		mask = "bg/bg_memory",
@@ -39865,7 +49718,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN4",
 		id = 4264,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN4"
+		}
 	},
 	[4265] = {
 		mask = "bg/bg_memory",
@@ -39876,7 +49732,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN5",
 		id = 4265,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN5"
+		}
 	},
 	[4266] = {
 		mask = "bg/bg_memory",
@@ -39887,7 +49746,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN6",
 		id = 4266,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN6"
+		}
 	},
 	[4267] = {
 		mask = "bg/bg_memory",
@@ -39898,7 +49760,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN7",
 		id = 4267,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN7"
+		}
 	},
 	[4268] = {
 		mask = "bg/bg_memory",
@@ -39909,7 +49774,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN8",
 		id = 4268,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN8"
+		}
 	},
 	[4269] = {
 		mask = "bg/bg_memory",
@@ -39920,7 +49788,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN9",
 		id = 4269,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN9"
+		}
 	},
 	[4270] = {
 		mask = "bg/bg_memory",
@@ -39931,7 +49802,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN10",
 		id = 4270,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN10"
+		}
 	},
 	[4271] = {
 		mask = "bg/bg_memory",
@@ -39942,7 +49816,10 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN11",
 		id = 4271,
 		icon = "memory_shengulaixin2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHENGULAIXIN11"
+		}
 	},
 	[4281] = {
 		mask = "bg/bg_memory",
@@ -39953,7 +49830,10 @@ pg.base.memory_template = {
 		story = "BULIZHANDUIDAPOGANGQUWEIJI1",
 		id = 4281,
 		icon = "memory_bulizhanduidapogangquweiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULIZHANDUIDAPOGANGQUWEIJI1"
+		}
 	},
 	[4282] = {
 		mask = "bg/bg_memory",
@@ -39964,7 +49844,10 @@ pg.base.memory_template = {
 		story = "BULIZHANDUIDAPOGANGQUWEIJI2",
 		id = 4282,
 		icon = "memory_bulizhanduidapogangquweiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"BULIZHANDUIDAPOGANGQUWEIJI2"
+		}
 	},
 	[4283] = {
 		mask = "bg/bg_memory",
@@ -39975,7 +49858,10 @@ pg.base.memory_template = {
 		story = "1360006",
 		id = 4283,
 		icon = "memory_bulizhanduidapogangquweiji",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1360006"
+		}
 	},
 	[4301] = {
 		mask = "bg/bg_memory",
@@ -39986,7 +49872,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANCHUNRIYONGLAN1",
 		id = 4301,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANCHUNRIYONGLAN1"
+		}
 	},
 	[4302] = {
 		mask = "bg/bg_memory",
@@ -39997,7 +49886,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANCHUNRIYONGLAN2",
 		id = 4302,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANCHUNRIYONGLAN2"
+		}
 	},
 	[4303] = {
 		mask = "bg/bg_memory",
@@ -40008,7 +49900,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANCHUNRIYONGLAN3",
 		id = 4303,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANCHUNRIYONGLAN3"
+		}
 	},
 	[4304] = {
 		mask = "bg/bg_memory",
@@ -40019,7 +49914,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANCHUNRIYONGLAN4",
 		id = 4304,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANCHUNRIYONGLAN4"
+		}
 	},
 	[4311] = {
 		mask = "bg/bg_memory",
@@ -40030,7 +49928,10 @@ pg.base.memory_template = {
 		story = "YANGQIYUJINZHIQI1",
 		id = 4311,
 		icon = "memory_yangqiyujinzhiqi1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANGQIYUJINZHIQI1"
+		}
 	},
 	[4312] = {
 		mask = "bg/bg_memory",
@@ -40041,7 +49942,10 @@ pg.base.memory_template = {
 		story = "YANGQIYUJINZHIQI2",
 		id = 4312,
 		icon = "memory_yangqiyujinzhiqi1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANGQIYUJINZHIQI2"
+		}
 	},
 	[4313] = {
 		mask = "bg/bg_memory",
@@ -40052,7 +49956,10 @@ pg.base.memory_template = {
 		story = "YANGQIYUJINZHIQI3",
 		id = 4313,
 		icon = "memory_yangqiyujinzhiqi1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANGQIYUJINZHIQI3"
+		}
 	},
 	[4314] = {
 		mask = "bg/bg_memory",
@@ -40063,7 +49970,10 @@ pg.base.memory_template = {
 		story = "YANGQIYUJINZHIQI4",
 		id = 4314,
 		icon = "memory_yangqiyujinzhiqi1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANGQIYUJINZHIQI4"
+		}
 	},
 	[4315] = {
 		mask = "bg/bg_memory",
@@ -40074,7 +49984,10 @@ pg.base.memory_template = {
 		story = "YANGQIYUJINZHIQI5",
 		id = 4315,
 		icon = "memory_yangqiyujinzhiqi1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANGQIYUJINZHIQI5"
+		}
 	},
 	[4316] = {
 		mask = "bg/bg_memory",
@@ -40085,7 +49998,10 @@ pg.base.memory_template = {
 		story = "1916001",
 		id = 4316,
 		icon = "memory_yangqiyujinzhiqi2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1916001"
+		}
 	},
 	[4317] = {
 		mask = "bg/bg_memory",
@@ -40096,7 +50012,10 @@ pg.base.memory_template = {
 		story = "1916002",
 		id = 4317,
 		icon = "memory_yangqiyujinzhiqi2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1916002"
+		}
 	},
 	[4318] = {
 		mask = "bg/bg_memory",
@@ -40107,7 +50026,10 @@ pg.base.memory_template = {
 		story = "YANGQIYUJINZHIQI8",
 		id = 4318,
 		icon = "memory_yangqiyujinzhiqi1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YANGQIYUJINZHIQI8"
+		}
 	},
 	[4331] = {
 		mask = "bg/bg_memory",
@@ -40118,7 +50040,10 @@ pg.base.memory_template = {
 		story = "JIARIBIESHUCHOUBEIZHONG1",
 		id = 4331,
 		icon = "memory_jiaribieshuchoubeizhong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIBIESHUCHOUBEIZHONG1"
+		}
 	},
 	[4332] = {
 		mask = "bg/bg_memory",
@@ -40129,7 +50054,10 @@ pg.base.memory_template = {
 		story = "JIARIBIESHUCHOUBEIZHONG2",
 		id = 4332,
 		icon = "memory_jiaribieshuchoubeizhong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIBIESHUCHOUBEIZHONG2"
+		}
 	},
 	[4333] = {
 		mask = "bg/bg_memory",
@@ -40140,7 +50068,10 @@ pg.base.memory_template = {
 		story = "JIARIBIESHUCHOUBEIZHONG3",
 		id = 4333,
 		icon = "memory_jiaribieshuchoubeizhong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIBIESHUCHOUBEIZHONG3"
+		}
 	},
 	[4334] = {
 		mask = "bg/bg_memory",
@@ -40151,7 +50082,10 @@ pg.base.memory_template = {
 		story = "JIARIBIESHUCHOUBEIZHONG4",
 		id = 4334,
 		icon = "memory_jiaribieshuchoubeizhong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIBIESHUCHOUBEIZHONG4"
+		}
 	},
 	[4335] = {
 		mask = "bg/bg_memory",
@@ -40162,7 +50096,10 @@ pg.base.memory_template = {
 		story = "JIARIBIESHUCHOUBEIZHONG5",
 		id = 4335,
 		icon = "memory_jiaribieshuchoubeizhong",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIARIBIESHUCHOUBEIZHONG5"
+		}
 	},
 	[4341] = {
 		mask = "bg/bg_memory",
@@ -40173,7 +50110,10 @@ pg.base.memory_template = {
 		story = "RIBULUODEYUANZHENG1",
 		id = 4341,
 		icon = "memory_ribuluodeyuanzheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RIBULUODEYUANZHENG1"
+		}
 	},
 	[4342] = {
 		mask = "bg/bg_memory",
@@ -40184,7 +50124,10 @@ pg.base.memory_template = {
 		story = "RIBULUODEYUANZHENG2",
 		id = 4342,
 		icon = "memory_ribuluodeyuanzheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RIBULUODEYUANZHENG2"
+		}
 	},
 	[4343] = {
 		mask = "bg/bg_memory",
@@ -40195,7 +50138,10 @@ pg.base.memory_template = {
 		story = "RIBULUODEYUANZHENG3",
 		id = 4343,
 		icon = "memory_ribuluodeyuanzheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RIBULUODEYUANZHENG3"
+		}
 	},
 	[4344] = {
 		mask = "bg/bg_memory",
@@ -40206,7 +50152,10 @@ pg.base.memory_template = {
 		story = "RIBULUODEYUANZHENG4",
 		id = 4344,
 		icon = "memory_ribuluodeyuanzheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RIBULUODEYUANZHENG4"
+		}
 	},
 	[4345] = {
 		mask = "bg/bg_memory",
@@ -40217,7 +50166,10 @@ pg.base.memory_template = {
 		story = "RIBULUODEYUANZHENG5",
 		id = 4345,
 		icon = "memory_ribuluodeyuanzheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RIBULUODEYUANZHENG5"
+		}
 	},
 	[4346] = {
 		mask = "bg/bg_memory",
@@ -40228,7 +50180,10 @@ pg.base.memory_template = {
 		story = "RIBULUODEYUANZHENG6",
 		id = 4346,
 		icon = "memory_ribuluodeyuanzheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RIBULUODEYUANZHENG6"
+		}
 	},
 	[4347] = {
 		mask = "bg/bg_memory",
@@ -40239,7 +50194,10 @@ pg.base.memory_template = {
 		story = "RIBULUODEYUANZHENG7",
 		id = 4347,
 		icon = "memory_ribuluodeyuanzheng",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RIBULUODEYUANZHENG7"
+		}
 	},
 	[4351] = {
 		mask = "bg/bg_memory",
@@ -40250,7 +50208,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA1",
 		id = 4351,
 		icon = "memory_haidaobieshudujiajihua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA1"
+		}
 	},
 	[4352] = {
 		mask = "bg/bg_memory",
@@ -40261,7 +50222,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA2",
 		id = 4352,
 		icon = "memory_haidaobieshudujiajihua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA2"
+		}
 	},
 	[4353] = {
 		mask = "bg/bg_memory",
@@ -40272,7 +50236,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA3",
 		id = 4353,
 		icon = "memory_haidaobieshudujiajihua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA3"
+		}
 	},
 	[4354] = {
 		mask = "bg/bg_memory",
@@ -40283,7 +50250,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA4",
 		id = 4354,
 		icon = "memory_haidaobieshudujiajihua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA4"
+		}
 	},
 	[4355] = {
 		mask = "bg/bg_memory",
@@ -40294,7 +50264,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA5",
 		id = 4355,
 		icon = "memory_haidaobieshudujiajihua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA5"
+		}
 	},
 	[4356] = {
 		mask = "bg/bg_memory",
@@ -40305,7 +50278,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA6",
 		id = 4356,
 		icon = "memory_haidaobieshudujiajihua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA6"
+		}
 	},
 	[4357] = {
 		mask = "bg/bg_memory",
@@ -40316,7 +50292,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA7",
 		id = 4357,
 		icon = "memory_haidaobieshudujiajihua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA7"
+		}
 	},
 	[4358] = {
 		mask = "bg/bg_memory",
@@ -40327,7 +50306,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA8",
 		id = 4358,
 		icon = "memory_haidaobieshudujiajihua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA8"
+		}
 	},
 	[4359] = {
 		mask = "bg/bg_memory",
@@ -40338,7 +50320,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA9",
 		id = 4359,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA9"
+		}
 	},
 	[4360] = {
 		mask = "bg/bg_memory",
@@ -40349,7 +50334,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA10",
 		id = 4360,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA10"
+		}
 	},
 	[4361] = {
 		mask = "bg/bg_memory",
@@ -40360,7 +50348,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA11",
 		id = 4361,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA11"
+		}
 	},
 	[4362] = {
 		mask = "bg/bg_memory",
@@ -40371,7 +50362,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA12",
 		id = 4362,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA12"
+		}
 	},
 	[4363] = {
 		mask = "bg/bg_memory",
@@ -40382,7 +50376,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA13",
 		id = 4363,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA13"
+		}
 	},
 	[4364] = {
 		mask = "bg/bg_memory",
@@ -40393,7 +50390,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA14",
 		id = 4364,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA14"
+		}
 	},
 	[4365] = {
 		mask = "bg/bg_memory",
@@ -40404,7 +50404,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA15",
 		id = 4365,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA15"
+		}
 	},
 	[4366] = {
 		mask = "bg/bg_memory",
@@ -40415,7 +50418,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA16",
 		id = 4366,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA16"
+		}
 	},
 	[4367] = {
 		mask = "bg/bg_memory",
@@ -40426,7 +50432,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA17",
 		id = 4367,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA17"
+		}
 	},
 	[4368] = {
 		mask = "bg/bg_memory",
@@ -40437,7 +50446,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA18",
 		id = 4368,
 		icon = "memory_haidaobieshudujiajihua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA18"
+		}
 	},
 	[4369] = {
 		mask = "bg/bg_memory",
@@ -40448,7 +50460,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA19",
 		id = 4369,
 		icon = "memory_haidaobieshudujiajihua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA19"
+		}
 	},
 	[4370] = {
 		mask = "bg/bg_memory",
@@ -40459,7 +50474,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA20",
 		id = 4370,
 		icon = "memory_haidaobieshudujiajihua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA20"
+		}
 	},
 	[4371] = {
 		mask = "bg/bg_memory",
@@ -40470,7 +50488,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA21",
 		id = 4371,
 		icon = "memory_haidaobieshudujiajihua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA21"
+		}
 	},
 	[4372] = {
 		mask = "bg/bg_memory",
@@ -40481,7 +50502,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA22",
 		id = 4372,
 		icon = "memory_haidaobieshudujiajihua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA22"
+		}
 	},
 	[4373] = {
 		mask = "bg/bg_memory",
@@ -40492,7 +50516,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA23",
 		id = 4373,
 		icon = "memory_haidaobieshudujiajihua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA23"
+		}
 	},
 	[4374] = {
 		mask = "bg/bg_memory",
@@ -40503,7 +50530,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA24",
 		id = 4374,
 		icon = "memory_haidaobieshudujiajihua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA24"
+		}
 	},
 	[4375] = {
 		mask = "bg/bg_memory",
@@ -40514,7 +50544,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA25",
 		id = 4375,
 		icon = "memory_haidaobieshudujiajihua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA25"
+		}
 	},
 	[4376] = {
 		mask = "bg/bg_memory",
@@ -40525,7 +50558,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA26",
 		id = 4376,
 		icon = "memory_haidaobieshudujiajihua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA26"
+		}
 	},
 	[4377] = {
 		mask = "bg/bg_memory",
@@ -40536,7 +50572,10 @@ pg.base.memory_template = {
 		story = "HAIDAOBIESHUDUJIAJIHUA27",
 		id = 4377,
 		icon = "memory_haidaobieshudujiajihua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HAIDAOBIESHUDUJIAJIHUA27"
+		}
 	},
 	[4381] = {
 		mask = "bg/bg_memory",
@@ -40547,7 +50586,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI1",
 		id = 4381,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI1"
+		}
 	},
 	[4382] = {
 		mask = "bg/bg_memory",
@@ -40558,7 +50600,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI2",
 		id = 4382,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI2"
+		}
 	},
 	[4383] = {
 		mask = "bg/bg_memory",
@@ -40569,7 +50614,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI3",
 		id = 4383,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI3"
+		}
 	},
 	[4384] = {
 		mask = "bg/bg_memory",
@@ -40580,7 +50628,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI4",
 		id = 4384,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI4"
+		}
 	},
 	[4385] = {
 		mask = "bg/bg_memory",
@@ -40591,7 +50642,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI5",
 		id = 4385,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI5"
+		}
 	},
 	[4386] = {
 		mask = "bg/bg_memory",
@@ -40602,7 +50656,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI6",
 		id = 4386,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI6"
+		}
 	},
 	[4387] = {
 		mask = "bg/bg_memory",
@@ -40613,7 +50670,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI7",
 		id = 4387,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI7"
+		}
 	},
 	[4388] = {
 		mask = "bg/bg_memory",
@@ -40624,7 +50684,10 @@ pg.base.memory_template = {
 		story = "1926001",
 		id = 4388,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1926001"
+		}
 	},
 	[4389] = {
 		mask = "bg/bg_memory",
@@ -40635,7 +50698,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI9",
 		id = 4389,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI9"
+		}
 	},
 	[4390] = {
 		mask = "bg/bg_memory",
@@ -40646,7 +50712,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI10",
 		id = 4390,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI10"
+		}
 	},
 	[4391] = {
 		mask = "bg/bg_memory",
@@ -40657,7 +50726,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI11",
 		id = 4391,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI11"
+		}
 	},
 	[4392] = {
 		mask = "bg/bg_memory",
@@ -40668,7 +50740,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI12",
 		id = 4392,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI12"
+		}
 	},
 	[4393] = {
 		mask = "bg/bg_memory",
@@ -40679,7 +50754,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI13",
 		id = 4393,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI13"
+		}
 	},
 	[4394] = {
 		mask = "bg/bg_memory",
@@ -40690,7 +50768,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI14",
 		id = 4394,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI14"
+		}
 	},
 	[4395] = {
 		mask = "bg/bg_memory",
@@ -40701,7 +50782,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI15",
 		id = 4395,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI15"
+		}
 	},
 	[4396] = {
 		mask = "bg/bg_memory",
@@ -40712,7 +50796,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI16",
 		id = 4396,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI16"
+		}
 	},
 	[4397] = {
 		mask = "bg/bg_memory",
@@ -40723,7 +50810,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI17",
 		id = 4397,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI17"
+		}
 	},
 	[4398] = {
 		mask = "bg/bg_memory",
@@ -40734,7 +50824,10 @@ pg.base.memory_template = {
 		story = "1926002",
 		id = 4398,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1926002"
+		}
 	},
 	[4399] = {
 		mask = "bg/bg_memory",
@@ -40745,7 +50838,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI19",
 		id = 4399,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI19"
+		}
 	},
 	[4400] = {
 		mask = "bg/bg_memory",
@@ -40756,7 +50852,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI20",
 		id = 4400,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI20"
+		}
 	},
 	[4401] = {
 		mask = "bg/bg_memory",
@@ -40767,7 +50866,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI21",
 		id = 4401,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI21"
+		}
 	},
 	[4402] = {
 		mask = "bg/bg_memory",
@@ -40778,7 +50880,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI22",
 		id = 4402,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI22"
+		}
 	},
 	[4403] = {
 		mask = "bg/bg_memory",
@@ -40789,7 +50894,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI23",
 		id = 4403,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI23"
+		}
 	},
 	[4404] = {
 		mask = "bg/bg_memory",
@@ -40800,7 +50908,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI24",
 		id = 4404,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI24"
+		}
 	},
 	[4405] = {
 		mask = "bg/bg_memory",
@@ -40811,7 +50922,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI25",
 		id = 4405,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI25"
+		}
 	},
 	[4406] = {
 		mask = "bg/bg_memory",
@@ -40822,7 +50936,10 @@ pg.base.memory_template = {
 		story = "1926003",
 		id = 4406,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1926003"
+		}
 	},
 	[4407] = {
 		mask = "bg/bg_memory",
@@ -40833,7 +50950,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI27",
 		id = 4407,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI27"
+		}
 	},
 	[4408] = {
 		mask = "bg/bg_memory",
@@ -40844,7 +50964,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI28",
 		id = 4408,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI28"
+		}
 	},
 	[4409] = {
 		mask = "bg/bg_memory",
@@ -40855,7 +50978,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI29",
 		id = 4409,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI29"
+		}
 	},
 	[4410] = {
 		mask = "bg/bg_memory",
@@ -40866,7 +50992,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI30",
 		id = 4410,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI30"
+		}
 	},
 	[4411] = {
 		mask = "bg/bg_memory",
@@ -40877,7 +51006,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI31",
 		id = 4411,
 		icon = "memory_gaotashangdeqiangwei1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI31"
+		}
 	},
 	[4412] = {
 		mask = "bg/bg_memory",
@@ -40888,7 +51020,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI32",
 		id = 4412,
 		icon = "memory_gaotashangdeqiangwei2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI32"
+		}
 	},
 	[4413] = {
 		mask = "bg/bg_memory",
@@ -40899,7 +51034,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI33",
 		id = 4413,
 		icon = "memory_gaotashangdeqiangwei2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI33"
+		}
 	},
 	[4414] = {
 		mask = "bg/bg_memory",
@@ -40910,7 +51048,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI34",
 		id = 4414,
 		icon = "memory_gaotashangdeqiangwei2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI34"
+		}
 	},
 	[4415] = {
 		mask = "bg/bg_memory",
@@ -40921,7 +51062,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI35",
 		id = 4415,
 		icon = "memory_gaotashangdeqiangwei2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI35"
+		}
 	},
 	[4416] = {
 		mask = "bg/bg_memory",
@@ -40932,7 +51076,10 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI36",
 		id = 4416,
 		icon = "memory_gaotashangdeqiangwei2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GAOTASHANGDEQIANGWEI36"
+		}
 	},
 	[4417] = {
 		mask = "bg/bg_memory",
@@ -40943,7 +51090,10 @@ pg.base.memory_template = {
 		story = "TIANQINGSHENGYU1",
 		id = 4417,
 		icon = "memory_tianqingshengyu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TIANQINGSHENGYU1"
+		}
 	},
 	[4421] = {
 		mask = "bg/bg_memory",
@@ -40954,7 +51104,10 @@ pg.base.memory_template = {
 		story = "HUANYINGMITUZHERICHANGPIAN1",
 		id = 4421,
 		icon = "memory_huanyingmituzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINGMITUZHERICHANGPIAN1"
+		}
 	},
 	[4422] = {
 		mask = "bg/bg_memory",
@@ -40965,7 +51118,10 @@ pg.base.memory_template = {
 		story = "HUANYINGMITUZHERICHANGPIAN2",
 		id = 4422,
 		icon = "memory_huanyingmituzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINGMITUZHERICHANGPIAN2"
+		}
 	},
 	[4431] = {
 		mask = "bg/bg_memory",
@@ -40976,7 +51132,10 @@ pg.base.memory_template = {
 		story = "HUANYINGMITUZHEGUANQIAPIAN1",
 		id = 4431,
 		icon = "memory_huanyingmituzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINGMITUZHEGUANQIAPIAN1"
+		}
 	},
 	[4432] = {
 		mask = "bg/bg_memory",
@@ -40987,7 +51146,10 @@ pg.base.memory_template = {
 		story = "HUANYINGMITUZHEGUANQIAPIAN2",
 		id = 4432,
 		icon = "memory_huanyingmituzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINGMITUZHEGUANQIAPIAN2"
+		}
 	},
 	[4433] = {
 		mask = "bg/bg_memory",
@@ -40998,7 +51160,10 @@ pg.base.memory_template = {
 		story = "HUANYINGMITUZHEGUANQIAPIAN3",
 		id = 4433,
 		icon = "memory_huanyingmituzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"HUANYINGMITUZHEGUANQIAPIAN3"
+		}
 	},
 	[4434] = {
 		mask = "bg/bg_memory",
@@ -41009,7 +51174,10 @@ pg.base.memory_template = {
 		story = "1929004",
 		id = 4434,
 		icon = "memory_huanyingmituzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1929004"
+		}
 	},
 	[4435] = {
 		mask = "bg/bg_memory",
@@ -41020,7 +51188,10 @@ pg.base.memory_template = {
 		story = "1929005",
 		id = 4435,
 		icon = "memory_huanyingmituzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1929005"
+		}
 	},
 	[4451] = {
 		mask = "bg/bg_memory",
@@ -41031,7 +51202,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE1",
 		id = 4451,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE1"
+		}
 	},
 	[4452] = {
 		mask = "bg/bg_memory",
@@ -41042,7 +51216,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE2",
 		id = 4452,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE2"
+		}
 	},
 	[4453] = {
 		mask = "bg/bg_memory",
@@ -41053,7 +51230,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE3",
 		id = 4453,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE3"
+		}
 	},
 	[4454] = {
 		mask = "bg/bg_memory",
@@ -41064,7 +51244,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE4",
 		id = 4454,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE4"
+		}
 	},
 	[4455] = {
 		mask = "bg/bg_memory",
@@ -41075,7 +51258,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE5",
 		id = 4455,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE5"
+		}
 	},
 	[4456] = {
 		mask = "bg/bg_memory",
@@ -41086,7 +51272,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE6",
 		id = 4456,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE6"
+		}
 	},
 	[4457] = {
 		mask = "bg/bg_memory",
@@ -41097,7 +51286,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE7",
 		id = 4457,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE7"
+		}
 	},
 	[4458] = {
 		mask = "bg/bg_memory",
@@ -41108,7 +51300,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE8",
 		id = 4458,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE8"
+		}
 	},
 	[4459] = {
 		mask = "bg/bg_memory",
@@ -41119,7 +51314,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE9",
 		id = 4459,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE9"
+		}
 	},
 	[4460] = {
 		mask = "bg/bg_memory",
@@ -41130,7 +51328,10 @@ pg.base.memory_template = {
 		story = "MICAIDUSHIDEXUNZONGZHE10",
 		id = 4460,
 		icon = "memory_micaidushidexunzongzhe",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"MICAIDUSHIDEXUNZONGZHE10"
+		}
 	},
 	[4481] = {
 		mask = "bg/bg_memory",
@@ -41141,7 +51342,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN1",
 		id = 4481,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN1"
+		}
 	},
 	[4482] = {
 		mask = "bg/bg_memory",
@@ -41152,7 +51356,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN2",
 		id = 4482,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN2"
+		}
 	},
 	[4483] = {
 		mask = "bg/bg_memory",
@@ -41163,7 +51370,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN3",
 		id = 4483,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN3"
+		}
 	},
 	[4484] = {
 		mask = "bg/bg_memory",
@@ -41174,7 +51384,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN4",
 		id = 4484,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN4"
+		}
 	},
 	[4485] = {
 		mask = "bg/bg_memory",
@@ -41185,7 +51398,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN5",
 		id = 4485,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN5"
+		}
 	},
 	[4486] = {
 		mask = "bg/bg_memory",
@@ -41196,7 +51412,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN6",
 		id = 4486,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN6"
+		}
 	},
 	[4487] = {
 		mask = "bg/bg_memory",
@@ -41207,7 +51426,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN7",
 		id = 4487,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN7"
+		}
 	},
 	[4488] = {
 		mask = "bg/bg_memory",
@@ -41218,7 +51440,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN8",
 		id = 4488,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN8"
+		}
 	},
 	[4489] = {
 		mask = "bg/bg_memory",
@@ -41229,7 +51454,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN9",
 		id = 4489,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN9"
+		}
 	},
 	[4490] = {
 		mask = "bg/bg_memory",
@@ -41240,7 +51468,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN10",
 		id = 4490,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN10"
+		}
 	},
 	[4491] = {
 		mask = "bg/bg_memory",
@@ -41251,7 +51482,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN11",
 		id = 4491,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN11"
+		}
 	},
 	[4492] = {
 		mask = "bg/bg_memory",
@@ -41262,7 +51496,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN12",
 		id = 4492,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN12"
+		}
 	},
 	[4493] = {
 		mask = "bg/bg_memory",
@@ -41273,7 +51510,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN13",
 		id = 4493,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN13"
+		}
 	},
 	[4494] = {
 		mask = "bg/bg_memory",
@@ -41284,7 +51524,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN14",
 		id = 4494,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN14"
+		}
 	},
 	[4495] = {
 		mask = "bg/bg_memory",
@@ -41295,7 +51538,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN15",
 		id = 4495,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN15"
+		}
 	},
 	[4496] = {
 		mask = "bg/bg_memory",
@@ -41306,7 +51552,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN16",
 		id = 4496,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN16"
+		}
 	},
 	[4497] = {
 		mask = "bg/bg_memory",
@@ -41317,7 +51566,10 @@ pg.base.memory_template = {
 		story = "1947001",
 		id = 4497,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1947001"
+		}
 	},
 	[4498] = {
 		mask = "bg/bg_memory",
@@ -41328,7 +51580,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN18",
 		id = 4498,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN18"
+		}
 	},
 	[4499] = {
 		mask = "bg/bg_memory",
@@ -41339,7 +51594,10 @@ pg.base.memory_template = {
 		story = "1947002",
 		id = 4499,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1947002"
+		}
 	},
 	[4500] = {
 		mask = "bg/bg_memory",
@@ -41350,7 +51608,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN20",
 		id = 4500,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN20"
+		}
 	},
 	[4501] = {
 		mask = "bg/bg_memory",
@@ -41361,7 +51622,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN21",
 		id = 4501,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN21"
+		}
 	},
 	[4502] = {
 		mask = "bg/bg_memory",
@@ -41372,7 +51636,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN22",
 		id = 4502,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN22"
+		}
 	},
 	[4503] = {
 		mask = "bg/bg_memory",
@@ -41383,7 +51650,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN23",
 		id = 4503,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN23"
+		}
 	},
 	[4504] = {
 		mask = "bg/bg_memory",
@@ -41394,7 +51664,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN24",
 		id = 4504,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN24"
+		}
 	},
 	[4505] = {
 		mask = "bg/bg_memory",
@@ -41405,7 +51678,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN25",
 		id = 4505,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN25"
+		}
 	},
 	[4506] = {
 		mask = "bg/bg_memory",
@@ -41416,7 +51692,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN26",
 		id = 4506,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN26"
+		}
 	},
 	[4507] = {
 		mask = "bg/bg_memory",
@@ -41427,7 +51706,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN27",
 		id = 4507,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN27"
+		}
 	},
 	[4508] = {
 		mask = "bg/bg_memory",
@@ -41438,7 +51720,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN28",
 		id = 4508,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN28"
+		}
 	},
 	[4509] = {
 		mask = "bg/bg_memory",
@@ -41449,7 +51734,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN29",
 		id = 4509,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN29"
+		}
 	},
 	[4510] = {
 		mask = "bg/bg_memory",
@@ -41460,7 +51748,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN30",
 		id = 4510,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN30"
+		}
 	},
 	[4511] = {
 		mask = "bg/bg_memory",
@@ -41471,7 +51762,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN31",
 		id = 4511,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN31"
+		}
 	},
 	[4512] = {
 		mask = "bg/bg_memory",
@@ -41482,7 +51776,10 @@ pg.base.memory_template = {
 		story = "1947003",
 		id = 4512,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1947003"
+		}
 	},
 	[4513] = {
 		mask = "bg/bg_memory",
@@ -41493,7 +51790,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN33",
 		id = 4513,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN33"
+		}
 	},
 	[4514] = {
 		mask = "bg/bg_memory",
@@ -41504,7 +51804,10 @@ pg.base.memory_template = {
 		story = "YOUMIYAGUANQIAPIAN34",
 		id = 4514,
 		icon = "memory_youmiyaguanqiapian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYAGUANQIAPIAN34"
+		}
 	},
 	[4521] = {
 		mask = "bg/bg_memory",
@@ -41515,7 +51818,10 @@ pg.base.memory_template = {
 		story = "YOUMIYARICHANGPIAN1",
 		id = 4521,
 		icon = "memory_youmiyarichangpian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYARICHANGPIAN1"
+		}
 	},
 	[4522] = {
 		mask = "bg/bg_memory",
@@ -41526,7 +51832,10 @@ pg.base.memory_template = {
 		story = "YOUMIYARICHANGPIAN2",
 		id = 4522,
 		icon = "memory_youmiyarichangpian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYARICHANGPIAN2"
+		}
 	},
 	[4523] = {
 		mask = "bg/bg_memory",
@@ -41537,7 +51846,10 @@ pg.base.memory_template = {
 		story = "YOUMIYARICHANGPIAN3",
 		id = 4523,
 		icon = "memory_youmiyarichangpian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYARICHANGPIAN3"
+		}
 	},
 	[4524] = {
 		mask = "bg/bg_memory",
@@ -41548,7 +51860,10 @@ pg.base.memory_template = {
 		story = "YOUMIYARICHANGPIAN4",
 		id = 4524,
 		icon = "memory_youmiyarichangpian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YOUMIYARICHANGPIAN4"
+		}
 	},
 	[4541] = {
 		mask = "bg/bg_memory",
@@ -41559,7 +51874,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI1",
 		id = 4541,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI1"
+		}
 	},
 	[4542] = {
 		mask = "bg/bg_memory",
@@ -41570,7 +51888,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI2",
 		id = 4542,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI2"
+		}
 	},
 	[4543] = {
 		mask = "bg/bg_memory",
@@ -41581,7 +51902,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI3",
 		id = 4543,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI3"
+		}
 	},
 	[4544] = {
 		mask = "bg/bg_memory",
@@ -41592,7 +51916,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI4",
 		id = 4544,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI4"
+		}
 	},
 	[4545] = {
 		mask = "bg/bg_memory",
@@ -41603,7 +51930,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI5",
 		id = 4545,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI5"
+		}
 	},
 	[4546] = {
 		mask = "bg/bg_memory",
@@ -41614,7 +51944,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI6",
 		id = 4546,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI6"
+		}
 	},
 	[4547] = {
 		mask = "bg/bg_memory",
@@ -41625,7 +51958,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI7",
 		id = 4547,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI7"
+		}
 	},
 	[4548] = {
 		mask = "bg/bg_memory",
@@ -41636,7 +51972,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI8",
 		id = 4548,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI8"
+		}
 	},
 	[4549] = {
 		mask = "bg/bg_memory",
@@ -41647,7 +51986,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI9",
 		id = 4549,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI9"
+		}
 	},
 	[4550] = {
 		mask = "bg/bg_memory",
@@ -41658,7 +52000,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI10",
 		id = 4550,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI10"
+		}
 	},
 	[4551] = {
 		mask = "bg/bg_memory",
@@ -41669,7 +52014,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI11",
 		id = 4551,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI11"
+		}
 	},
 	[4552] = {
 		mask = "bg/bg_memory",
@@ -41680,7 +52028,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI12",
 		id = 4552,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI12"
+		}
 	},
 	[4553] = {
 		mask = "bg/bg_memory",
@@ -41691,7 +52042,10 @@ pg.base.memory_template = {
 		story = "1956001",
 		id = 4553,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1956001"
+		}
 	},
 	[4554] = {
 		mask = "bg/bg_memory",
@@ -41702,7 +52056,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI14",
 		id = 4554,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI14"
+		}
 	},
 	[4555] = {
 		mask = "bg/bg_memory",
@@ -41713,7 +52070,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI15",
 		id = 4555,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI15"
+		}
 	},
 	[4556] = {
 		mask = "bg/bg_memory",
@@ -41724,7 +52084,10 @@ pg.base.memory_template = {
 		story = "1956002",
 		id = 4556,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1956002"
+		}
 	},
 	[4557] = {
 		mask = "bg/bg_memory",
@@ -41735,7 +52098,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI17",
 		id = 4557,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI17"
+		}
 	},
 	[4558] = {
 		mask = "bg/bg_memory",
@@ -41746,7 +52112,10 @@ pg.base.memory_template = {
 		story = "1956003",
 		id = 4558,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1956003"
+		}
 	},
 	[4559] = {
 		mask = "bg/bg_memory",
@@ -41757,7 +52126,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI19",
 		id = 4559,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI19"
+		}
 	},
 	[4560] = {
 		mask = "bg/bg_memory",
@@ -41768,7 +52140,10 @@ pg.base.memory_template = {
 		story = "1956004",
 		id = 4560,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1956004"
+		}
 	},
 	[4561] = {
 		mask = "bg/bg_memory",
@@ -41779,7 +52154,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI21",
 		id = 4561,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI21"
+		}
 	},
 	[4562] = {
 		mask = "bg/bg_memory",
@@ -41790,7 +52168,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI22",
 		id = 4562,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI22"
+		}
 	},
 	[4563] = {
 		mask = "bg/bg_memory",
@@ -41801,7 +52182,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI23",
 		id = 4563,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI23"
+		}
 	},
 	[4564] = {
 		mask = "bg/bg_memory",
@@ -41812,7 +52196,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI24",
 		id = 4564,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI24"
+		}
 	},
 	[4565] = {
 		mask = "bg/bg_memory",
@@ -41823,7 +52210,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI25",
 		id = 4565,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI25"
+		}
 	},
 	[4566] = {
 		mask = "bg/bg_memory",
@@ -41834,7 +52224,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI26",
 		id = 4566,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI26"
+		}
 	},
 	[4567] = {
 		mask = "bg/bg_memory",
@@ -41845,7 +52238,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI27",
 		id = 4567,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI27"
+		}
 	},
 	[4568] = {
 		mask = "bg/bg_memory",
@@ -41856,7 +52252,10 @@ pg.base.memory_template = {
 		story = "1956005",
 		id = 4568,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1956005"
+		}
 	},
 	[4569] = {
 		mask = "bg/bg_memory",
@@ -41867,7 +52266,10 @@ pg.base.memory_template = {
 		story = "QIYUANXIADEMIMI29",
 		id = 4569,
 		icon = "memory_qiyuanxiademimi",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIYUANXIADEMIMI29"
+		}
 	},
 	[4571] = {
 		mask = "bg/bg_memory",
@@ -41878,7 +52280,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIARIYOUXIAN1",
 		id = 4571,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIARIYOUXIAN1"
+		}
 	},
 	[4572] = {
 		mask = "bg/bg_memory",
@@ -41889,7 +52294,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIARIYOUXIAN2",
 		id = 4572,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIARIYOUXIAN2"
+		}
 	},
 	[4573] = {
 		mask = "bg/bg_memory",
@@ -41900,7 +52308,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIARIYOUXIAN3",
 		id = 4573,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIARIYOUXIAN3"
+		}
 	},
 	[4574] = {
 		mask = "bg/bg_memory",
@@ -41911,7 +52322,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIARIYOUXIAN4",
 		id = 4574,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIARIYOUXIAN4"
+		}
 	},
 	[4575] = {
 		mask = "bg/bg_memory",
@@ -41922,7 +52336,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIARIYOUXIAN5",
 		id = 4575,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIARIYOUXIAN5"
+		}
 	},
 	[4576] = {
 		mask = "bg/bg_memory",
@@ -41933,7 +52350,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIARIYOUXIAN6",
 		id = 4576,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIARIYOUXIAN6"
+		}
 	},
 	[4577] = {
 		mask = "bg/bg_memory",
@@ -41944,7 +52364,10 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANJIARIYOUXIAN7",
 		id = 4577,
 		icon = "memory_gangqushishangtekan",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJIARIYOUXIAN7"
+		}
 	},
 	[4591] = {
 		mask = "bg/bg_memory",
@@ -41955,7 +52378,10 @@ pg.base.memory_template = {
 		story = "CHONGYINGDEYAOYUE1",
 		id = 4591,
 		icon = "memory_chongyingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHONGYINGDEYAOYUE1"
+		}
 	},
 	[4592] = {
 		mask = "bg/bg_memory",
@@ -41966,7 +52392,10 @@ pg.base.memory_template = {
 		story = "CHONGYINGDEYAOYUE2",
 		id = 4592,
 		icon = "memory_chongyingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHONGYINGDEYAOYUE2"
+		}
 	},
 	[4593] = {
 		mask = "bg/bg_memory",
@@ -41977,7 +52406,10 @@ pg.base.memory_template = {
 		story = "CHONGYINGDEYAOYUE3",
 		id = 4593,
 		icon = "memory_chongyingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHONGYINGDEYAOYUE3"
+		}
 	},
 	[4594] = {
 		mask = "bg/bg_memory",
@@ -41988,7 +52420,10 @@ pg.base.memory_template = {
 		story = "CHONGYINGDEYAOYUE4",
 		id = 4594,
 		icon = "memory_chongyingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHONGYINGDEYAOYUE4"
+		}
 	},
 	[4595] = {
 		mask = "bg/bg_memory",
@@ -41999,7 +52434,10 @@ pg.base.memory_template = {
 		story = "CHONGYINGDEYAOYUE5",
 		id = 4595,
 		icon = "memory_chongyingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHONGYINGDEYAOYUE5"
+		}
 	},
 	[4596] = {
 		mask = "bg/bg_memory",
@@ -42010,7 +52448,10 @@ pg.base.memory_template = {
 		story = "CHONGYINGDEYAOYUE6",
 		id = 4596,
 		icon = "memory_chongyingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHONGYINGDEYAOYUE6"
+		}
 	},
 	[4597] = {
 		mask = "bg/bg_memory",
@@ -42021,7 +52462,10 @@ pg.base.memory_template = {
 		story = "CHONGYINGDEYAOYUE7",
 		id = 4597,
 		icon = "memory_chongyingdeyaoyue",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHONGYINGDEYAOYUE7"
+		}
 	},
 	[4601] = {
 		mask = "bg/bg_memory",
@@ -42032,7 +52476,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG1",
 		id = 4601,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG1"
+		}
 	},
 	[4602] = {
 		mask = "bg/bg_memory",
@@ -42043,7 +52490,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG2",
 		id = 4602,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG2"
+		}
 	},
 	[4603] = {
 		mask = "bg/bg_memory",
@@ -42054,7 +52504,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG3",
 		id = 4603,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG3"
+		}
 	},
 	[4604] = {
 		mask = "bg/bg_memory",
@@ -42065,7 +52518,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG4",
 		id = 4604,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG4"
+		}
 	},
 	[4605] = {
 		mask = "bg/bg_memory",
@@ -42076,7 +52532,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG5",
 		id = 4605,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG5"
+		}
 	},
 	[4606] = {
 		mask = "bg/bg_memory",
@@ -42087,7 +52546,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG6",
 		id = 4606,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG6"
+		}
 	},
 	[4607] = {
 		mask = "bg/bg_memory",
@@ -42098,7 +52560,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG7",
 		id = 4607,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG7"
+		}
 	},
 	[4608] = {
 		mask = "bg/bg_memory",
@@ -42109,7 +52574,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG8",
 		id = 4608,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG8"
+		}
 	},
 	[4609] = {
 		mask = "bg/bg_memory",
@@ -42120,7 +52588,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG9",
 		id = 4609,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG9"
+		}
 	},
 	[4610] = {
 		mask = "bg/bg_memory",
@@ -42131,7 +52602,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG10",
 		id = 4610,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG10"
+		}
 	},
 	[4611] = {
 		mask = "bg/bg_memory",
@@ -42142,7 +52616,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG11",
 		id = 4611,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG11"
+		}
 	},
 	[4612] = {
 		mask = "bg/bg_memory",
@@ -42153,7 +52630,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG12",
 		id = 4612,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG12"
+		}
 	},
 	[4613] = {
 		mask = "bg/bg_memory",
@@ -42164,7 +52644,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG13",
 		id = 4613,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG13"
+		}
 	},
 	[4614] = {
 		mask = "bg/bg_memory",
@@ -42175,7 +52658,10 @@ pg.base.memory_template = {
 		story = "1966001",
 		id = 4614,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1966001"
+		}
 	},
 	[4615] = {
 		mask = "bg/bg_memory",
@@ -42186,7 +52672,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG15",
 		id = 4615,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG15"
+		}
 	},
 	[4616] = {
 		mask = "bg/bg_memory",
@@ -42197,7 +52686,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG16",
 		id = 4616,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG16"
+		}
 	},
 	[4617] = {
 		mask = "bg/bg_memory",
@@ -42208,7 +52700,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG17",
 		id = 4617,
 		icon = "memory_qiwuyutianyuanzhishang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG17"
+		}
 	},
 	[4618] = {
 		mask = "bg/bg_memory",
@@ -42219,7 +52714,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG18",
 		id = 4618,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG18"
+		}
 	},
 	[4619] = {
 		mask = "bg/bg_memory",
@@ -42230,7 +52728,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG19",
 		id = 4619,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG19"
+		}
 	},
 	[4620] = {
 		mask = "bg/bg_memory",
@@ -42241,7 +52742,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG20",
 		id = 4620,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG20"
+		}
 	},
 	[4621] = {
 		mask = "bg/bg_memory",
@@ -42252,7 +52756,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG21",
 		id = 4621,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG21"
+		}
 	},
 	[4622] = {
 		mask = "bg/bg_memory",
@@ -42263,7 +52770,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG22",
 		id = 4622,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG22"
+		}
 	},
 	[4623] = {
 		mask = "bg/bg_memory",
@@ -42274,7 +52784,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG23",
 		id = 4623,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG23"
+		}
 	},
 	[4624] = {
 		mask = "bg/bg_memory",
@@ -42285,7 +52798,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG24",
 		id = 4624,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG24"
+		}
 	},
 	[4625] = {
 		mask = "bg/bg_memory",
@@ -42296,7 +52812,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG25",
 		id = 4625,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG25"
+		}
 	},
 	[4626] = {
 		mask = "bg/bg_memory",
@@ -42307,7 +52826,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG26",
 		id = 4626,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG26"
+		}
 	},
 	[4627] = {
 		mask = "bg/bg_memory",
@@ -42318,7 +52840,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG27",
 		id = 4627,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG27"
+		}
 	},
 	[4628] = {
 		mask = "bg/bg_memory",
@@ -42329,7 +52854,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG28",
 		id = 4628,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG28"
+		}
 	},
 	[4629] = {
 		mask = "bg/bg_memory",
@@ -42340,7 +52868,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG29",
 		id = 4629,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG29"
+		}
 	},
 	[4630] = {
 		mask = "bg/bg_memory",
@@ -42351,7 +52882,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG30",
 		id = 4630,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG30"
+		}
 	},
 	[4631] = {
 		mask = "bg/bg_memory",
@@ -42362,7 +52896,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG31",
 		id = 4631,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG31"
+		}
 	},
 	[4632] = {
 		mask = "bg/bg_memory",
@@ -42373,7 +52910,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG32",
 		id = 4632,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG32"
+		}
 	},
 	[4633] = {
 		mask = "bg/bg_memory",
@@ -42384,7 +52924,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG33",
 		id = 4633,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG33"
+		}
 	},
 	[4634] = {
 		mask = "bg/bg_memory",
@@ -42395,7 +52938,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG34",
 		id = 4634,
 		icon = "memory_qiwuyutianyuanzhishang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG34"
+		}
 	},
 	[4635] = {
 		mask = "bg/bg_memory",
@@ -42406,7 +52952,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG35",
 		id = 4635,
 		icon = "memory_qiwuyutianyuanzhishang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG35"
+		}
 	},
 	[4636] = {
 		mask = "bg/bg_memory",
@@ -42417,7 +52966,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG36",
 		id = 4636,
 		icon = "memory_qiwuyutianyuanzhishang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG36"
+		}
 	},
 	[4637] = {
 		mask = "bg/bg_memory",
@@ -42428,7 +52980,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG37",
 		id = 4637,
 		icon = "memory_qiwuyutianyuanzhishang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG37"
+		}
 	},
 	[4638] = {
 		mask = "bg/bg_memory",
@@ -42439,7 +52994,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG38",
 		id = 4638,
 		icon = "memory_qiwuyutianyuanzhishang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG38"
+		}
 	},
 	[4639] = {
 		mask = "bg/bg_memory",
@@ -42450,7 +53008,10 @@ pg.base.memory_template = {
 		story = "QIWUYUTIANYUANZHISHANG39",
 		id = 4639,
 		icon = "memory_qiwuyutianyuanzhishang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QIWUYUTIANYUANZHISHANG39"
+		}
 	},
 	[4641] = {
 		mask = "bg/bg_memory",
@@ -42461,7 +53022,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG1",
 		id = 4641,
 		icon = "memory_jizhanrenzhezhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG1"
+		}
 	},
 	[4642] = {
 		mask = "bg/bg_memory",
@@ -42472,7 +53036,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG2",
 		id = 4642,
 		icon = "memory_jizhanrenzhezhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG2"
+		}
 	},
 	[4643] = {
 		mask = "bg/bg_memory",
@@ -42483,7 +53050,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG3",
 		id = 4643,
 		icon = "memory_jizhanrenzhezhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG3"
+		}
 	},
 	[4644] = {
 		mask = "bg/bg_memory",
@@ -42494,7 +53064,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG4",
 		id = 4644,
 		icon = "memory_jizhanrenzhezhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG4"
+		}
 	},
 	[4645] = {
 		mask = "bg/bg_memory",
@@ -42505,7 +53078,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG5",
 		id = 4645,
 		icon = "memory_jizhanrenzhezhicheng1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG5"
+		}
 	},
 	[4646] = {
 		mask = "bg/bg_memory",
@@ -42516,7 +53092,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG6",
 		id = 4646,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG6"
+		}
 	},
 	[4647] = {
 		mask = "bg/bg_memory",
@@ -42527,7 +53106,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG7",
 		id = 4647,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG7"
+		}
 	},
 	[4648] = {
 		mask = "bg/bg_memory",
@@ -42538,7 +53120,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG8",
 		id = 4648,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG8"
+		}
 	},
 	[4649] = {
 		mask = "bg/bg_memory",
@@ -42549,7 +53134,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG9",
 		id = 4649,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG9"
+		}
 	},
 	[4650] = {
 		mask = "bg/bg_memory",
@@ -42560,7 +53148,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG10",
 		id = 4650,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG10"
+		}
 	},
 	[4651] = {
 		mask = "bg/bg_memory",
@@ -42571,7 +53162,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG11",
 		id = 4651,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG11"
+		}
 	},
 	[4652] = {
 		mask = "bg/bg_memory",
@@ -42582,7 +53176,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG12",
 		id = 4652,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG12"
+		}
 	},
 	[4653] = {
 		mask = "bg/bg_memory",
@@ -42593,7 +53190,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG13",
 		id = 4653,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG13"
+		}
 	},
 	[4654] = {
 		mask = "bg/bg_memory",
@@ -42604,7 +53204,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG14",
 		id = 4654,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG14"
+		}
 	},
 	[4655] = {
 		mask = "bg/bg_memory",
@@ -42615,7 +53218,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG15",
 		id = 4655,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG15"
+		}
 	},
 	[4656] = {
 		mask = "bg/bg_memory",
@@ -42626,7 +53232,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG16",
 		id = 4656,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG16"
+		}
 	},
 	[4657] = {
 		mask = "bg/bg_memory",
@@ -42637,7 +53246,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG17",
 		id = 4657,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG17"
+		}
 	},
 	[4658] = {
 		mask = "bg/bg_memory",
@@ -42648,7 +53260,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG18",
 		id = 4658,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG18"
+		}
 	},
 	[4659] = {
 		mask = "bg/bg_memory",
@@ -42659,7 +53274,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG19",
 		id = 4659,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG19"
+		}
 	},
 	[4660] = {
 		mask = "bg/bg_memory",
@@ -42670,7 +53288,10 @@ pg.base.memory_template = {
 		story = "JIZHANRENZHEZHICHENG20",
 		id = 4660,
 		icon = "memory_jizhanrenzhezhicheng2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JIZHANRENZHEZHICHENG20"
+		}
 	},
 	[4661] = {
 		mask = "bg/bg_memory",
@@ -42681,7 +53302,10 @@ pg.base.memory_template = {
 		story = "DULIANGLAI1",
 		id = 4661,
 		icon = "memory_dulianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DULIANGLAI1"
+		}
 	},
 	[4662] = {
 		mask = "bg/bg_memory",
@@ -42692,7 +53316,10 @@ pg.base.memory_template = {
 		story = "DULIANGLAI2",
 		id = 4662,
 		icon = "memory_dulianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DULIANGLAI2"
+		}
 	},
 	[4663] = {
 		mask = "bg/bg_memory",
@@ -42703,7 +53330,10 @@ pg.base.memory_template = {
 		story = "DULIANGLAI3",
 		id = 4663,
 		icon = "memory_dulianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DULIANGLAI3"
+		}
 	},
 	[4664] = {
 		mask = "bg/bg_memory",
@@ -42714,7 +53344,10 @@ pg.base.memory_template = {
 		story = "DULIANGLAI4",
 		id = 4664,
 		icon = "memory_dulianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DULIANGLAI4"
+		}
 	},
 	[4665] = {
 		mask = "bg/bg_memory",
@@ -42725,7 +53358,10 @@ pg.base.memory_template = {
 		story = "DULIANGLAI5",
 		id = 4665,
 		icon = "memory_dulianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DULIANGLAI5"
+		}
 	},
 	[4666] = {
 		mask = "bg/bg_memory",
@@ -42736,7 +53372,10 @@ pg.base.memory_template = {
 		story = "DULIANGLAI6",
 		id = 4666,
 		icon = "memory_dulianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DULIANGLAI6"
+		}
 	},
 	[4667] = {
 		mask = "bg/bg_memory",
@@ -42747,7 +53386,10 @@ pg.base.memory_template = {
 		story = "DULIANGLAI7",
 		id = 4667,
 		icon = "memory_dulianglai",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DULIANGLAI7"
+		}
 	},
 	[4671] = {
 		mask = "bg/bg_memory",
@@ -42758,7 +53400,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA1",
 		id = 4671,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA1"
+		}
 	},
 	[4672] = {
 		mask = "bg/bg_memory",
@@ -42769,7 +53414,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA2",
 		id = 4672,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA2"
+		}
 	},
 	[4673] = {
 		mask = "bg/bg_memory",
@@ -42780,7 +53428,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA3",
 		id = 4673,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA3"
+		}
 	},
 	[4674] = {
 		mask = "bg/bg_memory",
@@ -42791,7 +53442,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA4",
 		id = 4674,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA4"
+		}
 	},
 	[4675] = {
 		mask = "bg/bg_memory",
@@ -42802,7 +53456,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA5",
 		id = 4675,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA5"
+		}
 	},
 	[4676] = {
 		mask = "bg/bg_memory",
@@ -42813,7 +53470,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA6",
 		id = 4676,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA6"
+		}
 	},
 	[4677] = {
 		mask = "bg/bg_memory",
@@ -42824,7 +53484,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA7",
 		id = 4677,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA7"
+		}
 	},
 	[4678] = {
 		mask = "bg/bg_memory",
@@ -42835,7 +53498,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA8",
 		id = 4678,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA8"
+		}
 	},
 	[4679] = {
 		mask = "bg/bg_memory",
@@ -42846,7 +53512,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA9",
 		id = 4679,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA9"
+		}
 	},
 	[4680] = {
 		mask = "bg/bg_memory",
@@ -42857,7 +53526,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA10",
 		id = 4680,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA10"
+		}
 	},
 	[4681] = {
 		mask = "bg/bg_memory",
@@ -42868,7 +53540,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA11",
 		id = 4681,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA11"
+		}
 	},
 	[4682] = {
 		mask = "bg/bg_memory",
@@ -42879,7 +53554,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA12",
 		id = 4682,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA12"
+		}
 	},
 	[4683] = {
 		mask = "bg/bg_memory",
@@ -42890,7 +53568,10 @@ pg.base.memory_template = {
 		story = "1967001",
 		id = 4683,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1967001"
+		}
 	},
 	[4684] = {
 		mask = "bg/bg_memory",
@@ -42901,7 +53582,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA14",
 		id = 4684,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA14"
+		}
 	},
 	[4685] = {
 		mask = "bg/bg_memory",
@@ -42912,7 +53596,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOUGUANQIA15",
 		id = 4685,
 		icon = "memory_qingkongxiadexiehouguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOUGUANQIA15"
+		}
 	},
 	[4691] = {
 		mask = "bg/bg_memory",
@@ -42923,7 +53610,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOURICHANG1",
 		id = 4691,
 		icon = "memory_qingkongxiadexiehourichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOURICHANG1"
+		}
 	},
 	[4692] = {
 		mask = "bg/bg_memory",
@@ -42934,7 +53624,10 @@ pg.base.memory_template = {
 		story = "QINGKONGXIADEXIEHOURICHANG2",
 		id = 4692,
 		icon = "memory_qingkongxiadexiehourichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"QINGKONGXIADEXIEHOURICHANG2"
+		}
 	},
 	[4701] = {
 		mask = "bg/bg_memory",
@@ -42945,7 +53638,10 @@ pg.base.memory_template = {
 		story = "ZHENZHUHAO1",
 		id = 4701,
 		icon = "memory_zhenzhuhao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENZHUHAO1"
+		}
 	},
 	[4702] = {
 		mask = "bg/bg_memory",
@@ -42956,7 +53652,10 @@ pg.base.memory_template = {
 		story = "ZHENZHUHAO2",
 		id = 4702,
 		icon = "memory_zhenzhuhao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENZHUHAO2"
+		}
 	},
 	[4703] = {
 		mask = "bg/bg_memory",
@@ -42967,7 +53666,10 @@ pg.base.memory_template = {
 		story = "ZHENZHUHAO3",
 		id = 4703,
 		icon = "memory_zhenzhuhao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENZHUHAO3"
+		}
 	},
 	[4704] = {
 		mask = "bg/bg_memory",
@@ -42978,7 +53680,10 @@ pg.base.memory_template = {
 		story = "ZHENZHUHAO4",
 		id = 4704,
 		icon = "memory_zhenzhuhao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENZHUHAO4"
+		}
 	},
 	[4705] = {
 		mask = "bg/bg_memory",
@@ -42989,7 +53694,10 @@ pg.base.memory_template = {
 		story = "ZHENZHUHAO5",
 		id = 4705,
 		icon = "memory_zhenzhuhao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENZHUHAO5"
+		}
 	},
 	[4706] = {
 		mask = "bg/bg_memory",
@@ -43000,7 +53708,10 @@ pg.base.memory_template = {
 		story = "ZHENZHUHAO6",
 		id = 4706,
 		icon = "memory_zhenzhuhao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENZHUHAO6"
+		}
 	},
 	[4707] = {
 		mask = "bg/bg_memory",
@@ -43011,7 +53722,10 @@ pg.base.memory_template = {
 		story = "ZHENZHUHAO7",
 		id = 4707,
 		icon = "memory_zhenzhuhao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"ZHENZHUHAO7"
+		}
 	},
 	[4711] = {
 		mask = "bg/bg_memory",
@@ -43022,7 +53736,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJIII1",
 		id = 4711,
 		icon = "memory_gangqujiariguiguaigushijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJIII1"
+		}
 	},
 	[4712] = {
 		mask = "bg/bg_memory",
@@ -43033,7 +53750,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJIII2",
 		id = 4712,
 		icon = "memory_gangqujiariguiguaigushijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJIII2"
+		}
 	},
 	[4713] = {
 		mask = "bg/bg_memory",
@@ -43044,7 +53764,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJIII3",
 		id = 4713,
 		icon = "memory_gangqujiariguiguaigushijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJIII3"
+		}
 	},
 	[4714] = {
 		mask = "bg/bg_memory",
@@ -43055,7 +53778,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJIII4",
 		id = 4714,
 		icon = "memory_gangqujiariguiguaigushijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJIII4"
+		}
 	},
 	[4715] = {
 		mask = "bg/bg_memory",
@@ -43066,7 +53792,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJIII5",
 		id = 4715,
 		icon = "memory_gangqujiariguiguaigushijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJIII5"
+		}
 	},
 	[4716] = {
 		mask = "bg/bg_memory",
@@ -43077,7 +53806,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJIII6",
 		id = 4716,
 		icon = "memory_gangqujiariguiguaigushijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJIII6"
+		}
 	},
 	[4717] = {
 		mask = "bg/bg_memory",
@@ -43088,7 +53820,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJIII7",
 		id = 4717,
 		icon = "memory_gangqujiariguiguaigushijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJIII7"
+		}
 	},
 	[4718] = {
 		mask = "bg/bg_memory",
@@ -43099,7 +53834,10 @@ pg.base.memory_template = {
 		story = "GANGQUJIARIGUIGUAIGUSHIJIII8",
 		id = 4718,
 		icon = "memory_gangqujiariguiguaigushijier",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"GANGQUJIARIGUIGUAIGUSHIJIII8"
+		}
 	},
 	[4721] = {
 		mask = "bg/bg_memory",
@@ -43110,7 +53848,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO1",
 		id = 4721,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO1"
+		}
 	},
 	[4722] = {
 		mask = "bg/bg_memory",
@@ -43121,7 +53862,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO2",
 		id = 4722,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO2"
+		}
 	},
 	[4723] = {
 		mask = "bg/bg_memory",
@@ -43132,7 +53876,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO3",
 		id = 4723,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO3"
+		}
 	},
 	[4724] = {
 		mask = "bg/bg_memory",
@@ -43143,7 +53890,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO4",
 		id = 4724,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO4"
+		}
 	},
 	[4725] = {
 		mask = "bg/bg_memory",
@@ -43154,7 +53904,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO5",
 		id = 4725,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO5"
+		}
 	},
 	[4726] = {
 		mask = "bg/bg_memory",
@@ -43165,7 +53918,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO6",
 		id = 4726,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO6"
+		}
 	},
 	[4727] = {
 		mask = "bg/bg_memory",
@@ -43176,7 +53932,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO7",
 		id = 4727,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO7"
+		}
 	},
 	[4728] = {
 		mask = "bg/bg_memory",
@@ -43187,7 +53946,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO8",
 		id = 4728,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO8"
+		}
 	},
 	[4729] = {
 		mask = "bg/bg_memory",
@@ -43198,7 +53960,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO9",
 		id = 4729,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO9"
+		}
 	},
 	[4730] = {
 		mask = "bg/bg_memory",
@@ -43209,7 +53974,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO10",
 		id = 4730,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO10"
+		}
 	},
 	[4731] = {
 		mask = "bg/bg_memory",
@@ -43220,7 +53988,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO11",
 		id = 4731,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO11"
+		}
 	},
 	[4732] = {
 		mask = "bg/bg_memory",
@@ -43231,7 +54002,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO12",
 		id = 4732,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO12"
+		}
 	},
 	[4733] = {
 		mask = "bg/bg_memory",
@@ -43242,7 +54016,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO13",
 		id = 4733,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO13"
+		}
 	},
 	[4734] = {
 		mask = "bg/bg_memory",
@@ -43253,7 +54030,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO14",
 		id = 4734,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO14"
+		}
 	},
 	[4735] = {
 		mask = "bg/bg_memory",
@@ -43264,7 +54044,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO15",
 		id = 4735,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO15"
+		}
 	},
 	[4736] = {
 		mask = "bg/bg_memory",
@@ -43275,7 +54058,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO16",
 		id = 4736,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO16"
+		}
 	},
 	[4737] = {
 		mask = "bg/bg_memory",
@@ -43286,7 +54072,10 @@ pg.base.memory_template = {
 		story = "1978001",
 		id = 4737,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1978001"
+		}
 	},
 	[4738] = {
 		mask = "bg/bg_memory",
@@ -43297,7 +54086,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO18",
 		id = 4738,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO18"
+		}
 	},
 	[4739] = {
 		mask = "bg/bg_memory",
@@ -43308,7 +54100,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO19",
 		id = 4739,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO19"
+		}
 	},
 	[4740] = {
 		mask = "bg/bg_memory",
@@ -43319,7 +54114,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO20",
 		id = 4740,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO20"
+		}
 	},
 	[4741] = {
 		mask = "bg/bg_memory",
@@ -43330,7 +54128,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO21",
 		id = 4741,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO21"
+		}
 	},
 	[4742] = {
 		mask = "bg/bg_memory",
@@ -43341,7 +54142,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO22",
 		id = 4742,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO22"
+		}
 	},
 	[4743] = {
 		mask = "bg/bg_memory",
@@ -43352,7 +54156,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO23",
 		id = 4743,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO23"
+		}
 	},
 	[4744] = {
 		mask = "bg/bg_memory",
@@ -43363,7 +54170,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO24",
 		id = 4744,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO24"
+		}
 	},
 	[4745] = {
 		mask = "bg/bg_memory",
@@ -43374,7 +54184,10 @@ pg.base.memory_template = {
 		story = "1978002",
 		id = 4745,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1978002"
+		}
 	},
 	[4746] = {
 		mask = "bg/bg_memory",
@@ -43385,7 +54198,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO26",
 		id = 4746,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO26"
+		}
 	},
 	[4747] = {
 		mask = "bg/bg_memory",
@@ -43396,7 +54212,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO27",
 		id = 4747,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO27"
+		}
 	},
 	[4748] = {
 		mask = "bg/bg_memory",
@@ -43407,7 +54226,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO28",
 		id = 4748,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO28"
+		}
 	},
 	[4749] = {
 		mask = "bg/bg_memory",
@@ -43418,7 +54240,10 @@ pg.base.memory_template = {
 		story = "JUFENGYUZIYOUQUNDAO29",
 		id = 4749,
 		icon = "memory_jufengyuziyouqundao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUZIYOUQUNDAO29"
+		}
 	},
 	[4781] = {
 		mask = "bg/bg_memory",
@@ -43429,7 +54254,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA1",
 		id = 4781,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA1"
+		}
 	},
 	[4782] = {
 		mask = "bg/bg_memory",
@@ -43440,7 +54268,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA2",
 		id = 4782,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA2"
+		}
 	},
 	[4783] = {
 		mask = "bg/bg_memory",
@@ -43451,7 +54282,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA3",
 		id = 4783,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA3"
+		}
 	},
 	[4784] = {
 		mask = "bg/bg_memory",
@@ -43462,7 +54296,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA4",
 		id = 4784,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA4"
+		}
 	},
 	[4785] = {
 		mask = "bg/bg_memory",
@@ -43473,7 +54310,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA5",
 		id = 4785,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA5"
+		}
 	},
 	[4786] = {
 		mask = "bg/bg_memory",
@@ -43484,7 +54324,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA6",
 		id = 4786,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA6"
+		}
 	},
 	[4787] = {
 		mask = "bg/bg_memory",
@@ -43495,7 +54338,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA7",
 		id = 4787,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA7"
+		}
 	},
 	[4788] = {
 		mask = "bg/bg_memory",
@@ -43506,7 +54352,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA8",
 		id = 4788,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA8"
+		}
 	},
 	[4789] = {
 		mask = "bg/bg_memory",
@@ -43517,7 +54366,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA9",
 		id = 4789,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA9"
+		}
 	},
 	[4790] = {
 		mask = "bg/bg_memory",
@@ -43528,7 +54380,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA10",
 		id = 4790,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA10"
+		}
 	},
 	[4791] = {
 		mask = "bg/bg_memory",
@@ -43539,7 +54394,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA11",
 		id = 4791,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA11"
+		}
 	},
 	[4792] = {
 		mask = "bg/bg_memory",
@@ -43550,7 +54408,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA12",
 		id = 4792,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA12"
+		}
 	},
 	[4793] = {
 		mask = "bg/bg_memory",
@@ -43561,7 +54422,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA13",
 		id = 4793,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA13"
+		}
 	},
 	[4794] = {
 		mask = "bg/bg_memory",
@@ -43572,7 +54436,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA14",
 		id = 4794,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA14"
+		}
 	},
 	[4795] = {
 		mask = "bg/bg_memory",
@@ -43583,7 +54450,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA15",
 		id = 4795,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA15"
+		}
 	},
 	[4796] = {
 		mask = "bg/bg_memory",
@@ -43594,7 +54464,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA16",
 		id = 4796,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA16"
+		}
 	},
 	[4797] = {
 		mask = "bg/bg_memory",
@@ -43605,7 +54478,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA17",
 		id = 4797,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA17"
+		}
 	},
 	[4798] = {
 		mask = "bg/bg_memory",
@@ -43616,7 +54492,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA18",
 		id = 4798,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA18"
+		}
 	},
 	[4799] = {
 		mask = "bg/bg_memory",
@@ -43627,7 +54506,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA19",
 		id = 4799,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA19"
+		}
 	},
 	[4800] = {
 		mask = "bg/bg_memory",
@@ -43638,7 +54520,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA20",
 		id = 4800,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA20"
+		}
 	},
 	[4801] = {
 		mask = "bg/bg_memory",
@@ -43649,7 +54534,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA21",
 		id = 4801,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA21"
+		}
 	},
 	[4802] = {
 		mask = "bg/bg_memory",
@@ -43660,7 +54548,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA22",
 		id = 4802,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA22"
+		}
 	},
 	[4803] = {
 		mask = "bg/bg_memory",
@@ -43671,7 +54562,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA23",
 		id = 4803,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA23"
+		}
 	},
 	[4804] = {
 		mask = "bg/bg_memory",
@@ -43682,7 +54576,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA24",
 		id = 4804,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA24"
+		}
 	},
 	[4805] = {
 		mask = "bg/bg_memory",
@@ -43693,7 +54590,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA25",
 		id = 4805,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA25"
+		}
 	},
 	[4806] = {
 		mask = "bg/bg_memory",
@@ -43704,7 +54604,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA26",
 		id = 4806,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA26"
+		}
 	},
 	[4807] = {
 		mask = "bg/bg_memory",
@@ -43715,7 +54618,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA27",
 		id = 4807,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA27"
+		}
 	},
 	[4808] = {
 		mask = "bg/bg_memory",
@@ -43726,7 +54632,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA28",
 		id = 4808,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA28"
+		}
 	},
 	[4809] = {
 		mask = "bg/bg_memory",
@@ -43737,7 +54646,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA29",
 		id = 4809,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA29"
+		}
 	},
 	[4810] = {
 		mask = "bg/bg_memory",
@@ -43748,7 +54660,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA30",
 		id = 4810,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA30"
+		}
 	},
 	[4811] = {
 		mask = "bg/bg_memory",
@@ -43759,7 +54674,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA31",
 		id = 4811,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA31"
+		}
 	},
 	[4812] = {
 		mask = "bg/bg_memory",
@@ -43770,7 +54688,10 @@ pg.base.memory_template = {
 		story = "DATEALANEGUANQIA32",
 		id = 4812,
 		icon = "memory_datealaneguanqia",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANEGUANQIA32"
+		}
 	},
 	[4821] = {
 		mask = "bg/bg_memory",
@@ -43781,7 +54702,10 @@ pg.base.memory_template = {
 		story = "DATEALANERICHANG1",
 		id = 4821,
 		icon = "memory_datealanerichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANERICHANG1"
+		}
 	},
 	[4822] = {
 		mask = "bg/bg_memory",
@@ -43792,7 +54716,10 @@ pg.base.memory_template = {
 		story = "DATEALANERICHANG2",
 		id = 4822,
 		icon = "memory_datealanerichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANERICHANG2"
+		}
 	},
 	[4823] = {
 		mask = "bg/bg_memory",
@@ -43803,7 +54730,10 @@ pg.base.memory_template = {
 		story = "DATEALANERICHANG3",
 		id = 4823,
 		icon = "memory_datealanerichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANERICHANG3"
+		}
 	},
 	[4824] = {
 		mask = "bg/bg_memory",
@@ -43814,7 +54744,10 @@ pg.base.memory_template = {
 		story = "DATEALANERICHANG4",
 		id = 4824,
 		icon = "memory_datealanerichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANERICHANG4"
+		}
 	},
 	[4825] = {
 		mask = "bg/bg_memory",
@@ -43825,7 +54758,10 @@ pg.base.memory_template = {
 		story = "DATEALANERICHANG5",
 		id = 4825,
 		icon = "memory_datealanerichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANERICHANG5"
+		}
 	},
 	[4826] = {
 		mask = "bg/bg_memory",
@@ -43836,7 +54772,10 @@ pg.base.memory_template = {
 		story = "DATEALANERICHANG6",
 		id = 4826,
 		icon = "memory_datealanerichang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"DATEALANERICHANG6"
+		}
 	},
 	[4831] = {
 		mask = "bg/bg_memory",
@@ -43847,7 +54786,404 @@ pg.base.memory_template = {
 		story = "RENQIWUZANG",
 		id = 4831,
 		icon = "memory_renqiwuzang",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"RENQIWUZANG"
+		}
+	},
+	[4841] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#1",
+		condition = "進入 EPS-1",
+		story = "YIHAILIUSHENG1",
+		id = 4841,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG1"
+		}
+	},
+	[4842] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#2",
+		condition = "進入 EP1-1",
+		story = "YIHAILIUSHENG2",
+		id = 4842,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG2"
+		}
+	},
+	[4843] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#3",
+		condition = "進入 EP1-2",
+		story = "YIHAILIUSHENG3",
+		id = 4843,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG3"
+		}
+	},
+	[4844] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#4",
+		condition = "進入 EP1-3",
+		story = "YIHAILIUSHENG4",
+		id = 4844,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG4"
+		}
+	},
+	[4845] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#5",
+		condition = "進入 EP1-4",
+		story = "YIHAILIUSHENG5",
+		id = 4845,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG5"
+		}
+	},
+	[4846] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#6",
+		condition = "進入 EPS-2",
+		story = "YIHAILIUSHENG6",
+		id = 4846,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG6"
+		}
+	},
+	[4847] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#7",
+		condition = "進入 EP2-1",
+		story = "YIHAILIUSHENG7",
+		id = 4847,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG7"
+		}
+	},
+	[4848] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#8",
+		condition = "進入 EP3-1",
+		story = "YIHAILIUSHENG8",
+		id = 4848,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG8"
+		}
+	},
+	[4849] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#9",
+		condition = "進入 EP2-2",
+		story = "YIHAILIUSHENG9",
+		id = 4849,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG9"
+		}
+	},
+	[4850] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#10",
+		condition = "進入 EP3-2",
+		story = "YIHAILIUSHENG10",
+		id = 4850,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG10"
+		}
+	},
+	[4851] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#11",
+		condition = "進入 EP2-3",
+		story = "YIHAILIUSHENG11",
+		id = 4851,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG11"
+		}
+	},
+	[4852] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#12",
+		condition = "進入 EP3-3",
+		story = "YIHAILIUSHENG12",
+		id = 4852,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG12"
+		}
+	},
+	[4853] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#13",
+		condition = "進入 EP2-4",
+		story = "YIHAILIUSHENG13",
+		id = 4853,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG13"
+		}
+	},
+	[4854] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#14",
+		condition = "進入 EP3-4",
+		story = "YIHAILIUSHENG14",
+		id = 4854,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG14"
+		}
+	},
+	[4855] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#15",
+		condition = "進入 EP2-5",
+		story = "YIHAILIUSHENG15",
+		id = 4855,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG15"
+		}
+	},
+	[4856] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#16",
+		condition = "進入 EP3-5",
+		story = "YIHAILIUSHENG16",
+		id = 4856,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG16"
+		}
+	},
+	[4857] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#17",
+		condition = "進入 EPS-3",
+		story = "YIHAILIUSHENG17",
+		id = 4857,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG17"
+		}
+	},
+	[4858] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#18",
+		condition = "進入 EPS-4",
+		story = "YIHAILIUSHENG18",
+		id = 4858,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG18"
+		}
+	},
+	[4859] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "VOICE#19",
+		condition = "進入 EPS-5",
+		story = "YIHAILIUSHENG19",
+		id = 4859,
+		icon = "memory_yihailiusheng",
+		is_open = 0,
+		unlock_pre = {
+			"YIHAILIUSHENG19"
+		}
+	},
+	[4871] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "在她離開後",
+		condition = "解鎖「致美好世界」DAY1",
+		story = "ZHIMEIHAOSHIJIE1",
+		id = 4871,
+		icon = "memory_zhimeihaoshijie",
+		is_open = 0,
+		unlock_pre = {
+			"ZHIMEIHAOSHIJIE1"
+		}
+	},
+	[4872] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "第一幕",
+		condition = "解鎖「致美好世界」DAY1",
+		story = "ZHIMEIHAOSHIJIE2",
+		id = 4872,
+		icon = "memory_zhimeihaoshijie",
+		is_open = 0,
+		unlock_pre = {
+			"ZHIMEIHAOSHIJIE2"
+		}
+	},
+	[4873] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "第二幕",
+		condition = "解鎖「致美好世界」DAY2",
+		story = "ZHIMEIHAOSHIJIE3",
+		id = 4873,
+		icon = "memory_zhimeihaoshijie",
+		is_open = 0,
+		unlock_pre = {
+			"ZHIMEIHAOSHIJIE3"
+		}
+	},
+	[4874] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "第三幕",
+		condition = "解鎖「致美好世界」DAY3",
+		story = "ZHIMEIHAOSHIJIE4",
+		id = 4874,
+		icon = "memory_zhimeihaoshijie",
+		is_open = 0,
+		unlock_pre = {
+			"ZHIMEIHAOSHIJIE4"
+		}
+	},
+	[4875] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "第四幕",
+		condition = "解鎖「致美好世界」DAY4",
+		story = "ZHIMEIHAOSHIJIE5",
+		id = 4875,
+		icon = "memory_zhimeihaoshijie",
+		is_open = 0,
+		unlock_pre = {
+			"ZHIMEIHAOSHIJIE5"
+		}
+	},
+	[4876] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "第五幕",
+		condition = "解鎖「致美好世界」DAY5",
+		story = "ZHIMEIHAOSHIJIE6",
+		id = 4876,
+		icon = "memory_zhimeihaoshijie",
+		is_open = 0,
+		unlock_pre = {
+			"ZHIMEIHAOSHIJIE6"
+		}
+	},
+	[4877] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "第六幕",
+		condition = "解鎖「致美好世界」DAY6",
+		story = "ZHIMEIHAOSHIJIE7",
+		id = 4877,
+		icon = "memory_zhimeihaoshijie",
+		is_open = 0,
+		unlock_pre = {
+			"ZHIMEIHAOSHIJIE7"
+		}
+	},
+	[4878] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "抉擇-美好世界",
+		condition = "解鎖「致美好世界」DAY7",
+		story = "ZHIMEIHAOSHIJIE8-3",
+		id = 4878,
+		icon = "memory_zhimeihaoshijie",
+		is_open = 0,
+		unlock_pre = {
+			"ZHIMEIHAOSHIJIE8",
+			"ZHIMEIHAOSHIJIE8-3"
+		}
+	},
+	[4879] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "抉擇-下一集",
+		condition = "解鎖「致美好世界」DAY7",
+		story = "ZHIMEIHAOSHIJIE8-4",
+		id = 4879,
+		icon = "memory_zhimeihaoshijie",
+		is_open = 0,
+		unlock_pre = {
+			"ZHIMEIHAOSHIJIE8",
+			"ZHIMEIHAOSHIJIE8-4"
+		}
 	},
 	[10011] = {
 		mask = "bg/bg_memory",
@@ -43858,7 +55194,10 @@ pg.base.memory_template = {
 		story = "CHANGDAO1",
 		id = 10011,
 		icon = "changdao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGDAO1"
+		}
 	},
 	[10012] = {
 		mask = "bg/bg_memory",
@@ -43869,7 +55208,10 @@ pg.base.memory_template = {
 		story = "CHANGDAO2",
 		id = 10012,
 		icon = "changdao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGDAO2"
+		}
 	},
 	[10013] = {
 		mask = "bg/bg_memory",
@@ -43880,7 +55222,10 @@ pg.base.memory_template = {
 		story = "CHANGDAO3",
 		id = 10013,
 		icon = "changdao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGDAO3"
+		}
 	},
 	[10014] = {
 		mask = "bg/bg_memory",
@@ -43891,7 +55236,10 @@ pg.base.memory_template = {
 		story = "CHANGDAO4",
 		id = 10014,
 		icon = "changdao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGDAO4"
+		}
 	},
 	[10015] = {
 		mask = "bg/bg_memory",
@@ -43902,7 +55250,10 @@ pg.base.memory_template = {
 		story = "CHANGDAO5",
 		id = 10015,
 		icon = "changdao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGDAO5"
+		}
 	},
 	[10016] = {
 		mask = "bg/bg_memory",
@@ -43913,7 +55264,10 @@ pg.base.memory_template = {
 		story = "CHANGDAO6",
 		id = 10016,
 		icon = "changdao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGDAO6"
+		}
 	},
 	[10017] = {
 		mask = "bg/bg_memory",
@@ -43924,7 +55278,10 @@ pg.base.memory_template = {
 		story = "CHANGDAO7",
 		id = 10017,
 		icon = "changdao",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"CHANGDAO7"
+		}
 	},
 	[10018] = {
 		mask = "bg/bg_memory",
@@ -43935,7 +55292,10 @@ pg.base.memory_template = {
 		story = "1060000",
 		id = 10018,
 		icon = "mikasa",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"1060000"
+		}
 	},
 	[10029] = {
 		mask = "bg/bg_memory",
@@ -43946,7 +55306,10 @@ pg.base.memory_template = {
 		story = "TEACHER1",
 		id = 10029,
 		icon = "z23",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEACHER1"
+		}
 	},
 	[10030] = {
 		mask = "bg/bg_memory",
@@ -43957,7 +55320,10 @@ pg.base.memory_template = {
 		story = "TEACHER2",
 		id = 10030,
 		icon = "z23",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEACHER2"
+		}
 	},
 	[10031] = {
 		mask = "bg/bg_memory",
@@ -43968,7 +55334,10 @@ pg.base.memory_template = {
 		story = "TEACHER3",
 		id = 10031,
 		icon = "z23",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEACHER3"
+		}
 	},
 	[10032] = {
 		mask = "bg/bg_memory",
@@ -43979,7 +55348,10 @@ pg.base.memory_template = {
 		story = "TEACHER4",
 		id = 10032,
 		icon = "z23",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEACHER4"
+		}
 	},
 	[10033] = {
 		mask = "bg/bg_memory",
@@ -43990,7 +55362,10 @@ pg.base.memory_template = {
 		story = "TEACHER5",
 		id = 10033,
 		icon = "z23",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEACHER5"
+		}
 	},
 	[10034] = {
 		mask = "bg/bg_memory",
@@ -44001,7 +55376,10 @@ pg.base.memory_template = {
 		story = "TEACHER6",
 		id = 10034,
 		icon = "z23",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEACHER6"
+		}
 	},
 	[10035] = {
 		mask = "bg/bg_memory",
@@ -44012,7 +55390,10 @@ pg.base.memory_template = {
 		story = "TEACHER7",
 		id = 10035,
 		icon = "z23",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TEACHER7"
+		}
 	},
 	[10051] = {
 		mask = "bg/bg_memory",
@@ -44023,7 +55404,10 @@ pg.base.memory_template = {
 		story = "YINGHUA1",
 		id = 10051,
 		icon = "memory_yinghua1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA1"
+		}
 	},
 	[10052] = {
 		mask = "bg/bg_memory",
@@ -44034,7 +55418,10 @@ pg.base.memory_template = {
 		story = "YINGHUA2",
 		id = 10052,
 		icon = "memory_yinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA2"
+		}
 	},
 	[10053] = {
 		mask = "bg/bg_memory",
@@ -44045,7 +55432,10 @@ pg.base.memory_template = {
 		story = "YINGHUA3",
 		id = 10053,
 		icon = "memory_yinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA3"
+		}
 	},
 	[10054] = {
 		mask = "bg/bg_memory",
@@ -44056,7 +55446,10 @@ pg.base.memory_template = {
 		story = "YINGHUA4",
 		id = 10054,
 		icon = "memory_yinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA4"
+		}
 	},
 	[10055] = {
 		mask = "bg/bg_memory",
@@ -44067,7 +55460,10 @@ pg.base.memory_template = {
 		story = "YINGHUA5",
 		id = 10055,
 		icon = "memory_yinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA5"
+		}
 	},
 	[10056] = {
 		mask = "bg/bg_memory",
@@ -44078,7 +55474,10 @@ pg.base.memory_template = {
 		story = "YINGHUA6",
 		id = 10056,
 		icon = "memory_yinghua2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA6"
+		}
 	},
 	[10057] = {
 		mask = "bg/bg_memory",
@@ -44089,7 +55488,10 @@ pg.base.memory_template = {
 		story = "YINGHUA7",
 		id = 10057,
 		icon = "memory_yinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA7"
+		}
 	},
 	[10058] = {
 		mask = "bg/bg_memory",
@@ -44100,7 +55502,10 @@ pg.base.memory_template = {
 		story = "YINGHUA8",
 		id = 10058,
 		icon = "memory_yinghua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA8"
+		}
 	},
 	[10059] = {
 		mask = "bg/bg_memory",
@@ -44111,7 +55516,10 @@ pg.base.memory_template = {
 		story = "YINGHUA9",
 		id = 10059,
 		icon = "memory_yinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA9"
+		}
 	},
 	[10060] = {
 		mask = "bg/bg_memory",
@@ -44122,7 +55530,10 @@ pg.base.memory_template = {
 		story = "YINGHUA10",
 		id = 10060,
 		icon = "memory_yinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA10"
+		}
 	},
 	[10061] = {
 		mask = "bg/bg_memory",
@@ -44133,7 +55544,10 @@ pg.base.memory_template = {
 		story = "YINGHUA11",
 		id = 10061,
 		icon = "memory_yinghua3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA11"
+		}
 	},
 	[10062] = {
 		mask = "bg/bg_memory",
@@ -44144,7 +55558,10 @@ pg.base.memory_template = {
 		story = "YINGHUA12",
 		id = 10062,
 		icon = "memory_yinghua4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA12"
+		}
 	},
 	[10063] = {
 		mask = "bg/bg_memory",
@@ -44155,7 +55572,10 @@ pg.base.memory_template = {
 		story = "YINGHUA13",
 		id = 10063,
 		icon = "memory_yinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA13"
+		}
 	},
 	[10064] = {
 		mask = "bg/bg_memory",
@@ -44166,7 +55586,10 @@ pg.base.memory_template = {
 		story = "YINGHUA14",
 		id = 10064,
 		icon = "memory_yinghua",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"YINGHUA14"
+		}
 	},
 	[10072] = {
 		mask = "bg/bg_memory",
@@ -44177,7 +55600,10 @@ pg.base.memory_template = {
 		story = "TACT50000",
 		id = 10072,
 		icon = "memory_asituoliya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT50000"
+		}
 	},
 	[10073] = {
 		mask = "bg/bg_memory",
@@ -44188,7 +55614,10 @@ pg.base.memory_template = {
 		story = "TACT50001",
 		id = 10073,
 		icon = "memory_asituoliya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT50001"
+		}
 	},
 	[10074] = {
 		mask = "bg/bg_memory",
@@ -44199,7 +55628,10 @@ pg.base.memory_template = {
 		story = "TACT50002",
 		id = 10074,
 		icon = "memory_asituoliya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT50002"
+		}
 	},
 	[10075] = {
 		mask = "bg/bg_memory",
@@ -44210,7 +55642,10 @@ pg.base.memory_template = {
 		story = "TACT50003",
 		id = 10075,
 		icon = "memory_asituoliya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT50003"
+		}
 	},
 	[10076] = {
 		mask = "bg/bg_memory",
@@ -44221,7 +55656,10 @@ pg.base.memory_template = {
 		story = "TACT50004",
 		id = 10076,
 		icon = "memory_asituoliya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT50004"
+		}
 	},
 	[10077] = {
 		mask = "bg/bg_memory",
@@ -44232,7 +55670,10 @@ pg.base.memory_template = {
 		story = "TACT50005",
 		id = 10077,
 		icon = "memory_asituoliya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT50005"
+		}
 	},
 	[10078] = {
 		mask = "bg/bg_memory",
@@ -44243,7 +55684,10 @@ pg.base.memory_template = {
 		story = "TACT50006",
 		id = 10078,
 		icon = "memory_asituoliya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT50006"
+		}
 	},
 	[10079] = {
 		mask = "bg/bg_memory",
@@ -44254,7 +55698,10 @@ pg.base.memory_template = {
 		story = "TACT50007",
 		id = 10079,
 		icon = "memory_asituoliya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT50007"
+		}
 	},
 	[10080] = {
 		mask = "bg/bg_memory",
@@ -44265,7 +55712,10 @@ pg.base.memory_template = {
 		story = "TACT50008",
 		id = 10080,
 		icon = "memory_asituoliya",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"TACT50008"
+		}
 	},
 	[20000] = {
 		mask = "bg/bg_memory",
@@ -44276,7 +55726,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA1",
 		id = 20000,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA1"
+		}
 	},
 	[20001] = {
 		mask = "bg/bg_memory",
@@ -44287,7 +55740,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA2",
 		id = 20001,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA2"
+		}
 	},
 	[20002] = {
 		mask = "bg/bg_memory",
@@ -44298,7 +55754,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA3",
 		id = 20002,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA3"
+		}
 	},
 	[20003] = {
 		mask = "bg/bg_memory",
@@ -44309,7 +55768,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA4",
 		id = 20003,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA4"
+		}
 	},
 	[20004] = {
 		mask = "bg/bg_memory",
@@ -44320,7 +55782,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA5",
 		id = 20004,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA5"
+		}
 	},
 	[20005] = {
 		mask = "bg/bg_memory",
@@ -44331,7 +55796,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA6",
 		id = 20005,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA6"
+		}
 	},
 	[20006] = {
 		mask = "bg/bg_memory",
@@ -44342,7 +55810,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA7",
 		id = 20006,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA7"
+		}
 	},
 	[20007] = {
 		mask = "bg/bg_memory",
@@ -44353,7 +55824,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA8",
 		id = 20007,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA8"
+		}
 	},
 	[20008] = {
 		mask = "bg/bg_memory",
@@ -44364,7 +55838,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA9",
 		id = 20008,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA9"
+		}
 	},
 	[20009] = {
 		mask = "bg/bg_memory",
@@ -44375,7 +55852,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA10",
 		id = 20009,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA10"
+		}
 	},
 	[20010] = {
 		mask = "bg/bg_memory",
@@ -44386,7 +55866,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA11",
 		id = 20010,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA11"
+		}
 	},
 	[20011] = {
 		mask = "bg/bg_memory",
@@ -44397,7 +55880,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA12",
 		id = 20011,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA12"
+		}
 	},
 	[20012] = {
 		mask = "bg/bg_memory",
@@ -44408,7 +55894,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA13",
 		id = 20012,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA13"
+		}
 	},
 	[20013] = {
 		mask = "bg/bg_memory",
@@ -44419,7 +55908,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA14",
 		id = 20013,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA14"
+		}
 	},
 	[20014] = {
 		mask = "bg/bg_memory",
@@ -44430,7 +55922,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA15",
 		id = 20014,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA15"
+		}
 	},
 	[20015] = {
 		mask = "bg/bg_memory",
@@ -44441,7 +55936,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA16",
 		id = 20015,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA16"
+		}
 	},
 	[20016] = {
 		mask = "bg/bg_memory",
@@ -44452,7 +55950,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA17",
 		id = 20016,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA17"
+		}
 	},
 	[20017] = {
 		mask = "bg/bg_memory",
@@ -44463,7 +55964,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA18",
 		id = 20017,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA18"
+		}
 	},
 	[20018] = {
 		mask = "bg/bg_memory",
@@ -44474,7 +55978,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA19",
 		id = 20018,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA19"
+		}
 	},
 	[20019] = {
 		mask = "bg/bg_memory",
@@ -44485,7 +55992,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA20",
 		id = 20019,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA20"
+		}
 	},
 	[20020] = {
 		mask = "bg/bg_memory",
@@ -44496,7 +56006,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA21",
 		id = 20020,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA21"
+		}
 	},
 	[20021] = {
 		mask = "bg/bg_memory",
@@ -44507,7 +56020,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA22",
 		id = 20021,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA22"
+		}
 	},
 	[20022] = {
 		mask = "bg/bg_memory",
@@ -44518,7 +56034,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA23",
 		id = 20022,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA23"
+		}
 	},
 	[20023] = {
 		mask = "bg/bg_memory",
@@ -44529,7 +56048,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA24",
 		id = 20023,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA24"
+		}
 	},
 	[20024] = {
 		mask = "bg/bg_memory",
@@ -44540,7 +56062,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA25",
 		id = 20024,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA25"
+		}
 	},
 	[20025] = {
 		mask = "bg/bg_memory",
@@ -44551,7 +56076,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA26",
 		id = 20025,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA26"
+		}
 	},
 	[20026] = {
 		mask = "bg/bg_memory",
@@ -44562,7 +56090,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA27",
 		id = 20026,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA27"
+		}
 	},
 	[20027] = {
 		mask = "bg/bg_memory",
@@ -44573,7 +56104,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA28",
 		id = 20027,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA28"
+		}
 	},
 	[20028] = {
 		mask = "bg/bg_memory",
@@ -44584,7 +56118,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA29",
 		id = 20028,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA29"
+		}
 	},
 	[20029] = {
 		mask = "bg/bg_memory",
@@ -44595,7 +56132,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA30",
 		id = 20029,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA30"
+		}
 	},
 	[20030] = {
 		mask = "bg/bg_memory",
@@ -44606,7 +56146,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA31",
 		id = 20030,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA31"
+		}
 	},
 	[20031] = {
 		mask = "bg/bg_memory",
@@ -44617,7 +56160,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA32",
 		id = 20031,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA32"
+		}
 	},
 	[20032] = {
 		mask = "bg/bg_memory",
@@ -44628,7 +56174,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA33",
 		id = 20032,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA33"
+		}
 	},
 	[20033] = {
 		mask = "bg/bg_memory",
@@ -44639,7 +56188,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA34",
 		id = 20033,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA34"
+		}
 	},
 	[20034] = {
 		mask = "bg/bg_memory",
@@ -44650,7 +56202,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA35",
 		id = 20034,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA35"
+		}
 	},
 	[20035] = {
 		mask = "bg/bg_memory",
@@ -44661,7 +56216,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA36",
 		id = 20035,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA36"
+		}
 	},
 	[20036] = {
 		mask = "bg/bg_memory",
@@ -44672,7 +56230,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA37",
 		id = 20036,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA37"
+		}
 	},
 	[20037] = {
 		mask = "bg/bg_memory",
@@ -44683,7 +56244,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA38",
 		id = 20037,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA38"
+		}
 	},
 	[20038] = {
 		mask = "bg/bg_memory",
@@ -44694,7 +56258,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA39",
 		id = 20038,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA39"
+		}
 	},
 	[20039] = {
 		mask = "bg/bg_memory",
@@ -44705,7 +56272,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA40",
 		id = 20039,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA40"
+		}
 	},
 	[20040] = {
 		mask = "bg/bg_memory",
@@ -44716,7 +56286,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA41",
 		id = 20040,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA41"
+		}
 	},
 	[20041] = {
 		mask = "bg/bg_memory",
@@ -44727,7 +56300,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA42",
 		id = 20041,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA42"
+		}
 	},
 	[20042] = {
 		mask = "bg/bg_memory",
@@ -44738,7 +56314,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA43",
 		id = 20042,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA43"
+		}
 	},
 	[20043] = {
 		mask = "bg/bg_memory",
@@ -44749,7 +56328,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANYANGCHENGJIHUA44",
 		id = 20043,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANYANGCHENGJIHUA44"
+		}
 	},
 	[20044] = {
 		mask = "bg/bg_memory",
@@ -44760,7 +56342,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANHAOGANDU1",
 		id = 20044,
 		icon = "tb_haogandu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANHAOGANDU1"
+		}
 	},
 	[20045] = {
 		mask = "bg/bg_memory",
@@ -44771,7 +56356,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANHAOGANDU2",
 		id = 20045,
 		icon = "tb_haogandu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANHAOGANDU2"
+		}
 	},
 	[20046] = {
 		mask = "bg/bg_memory",
@@ -44782,7 +56370,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANHAOGANDU3",
 		id = 20046,
 		icon = "tb_haogandu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANHAOGANDU3"
+		}
 	},
 	[20047] = {
 		mask = "bg/bg_memory",
@@ -44793,7 +56384,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANHAOGANDU4",
 		id = 20047,
 		icon = "tb_haogandu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANHAOGANDU4"
+		}
 	},
 	[20048] = {
 		mask = "bg/bg_memory",
@@ -44804,7 +56398,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANHAOGANDU5",
 		id = 20048,
 		icon = "tb_haogandu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANHAOGANDU5"
+		}
 	},
 	[20049] = {
 		mask = "bg/bg_memory",
@@ -44815,7 +56412,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANHAOGANDU6",
 		id = 20049,
 		icon = "tb_haogandu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANHAOGANDU6"
+		}
 	},
 	[20050] = {
 		mask = "bg/bg_memory",
@@ -44826,7 +56426,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANHAOGANDU7",
 		id = 20050,
 		icon = "tb_haogandu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANHAOGANDU7"
+		}
 	},
 	[20051] = {
 		mask = "bg/bg_memory",
@@ -44837,7 +56440,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANHAOGANDU8",
 		id = 20051,
 		icon = "tb_haogandu",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANHAOGANDU8"
+		}
 	},
 	[20052] = {
 		mask = "bg/bg_memory",
@@ -44848,7 +56454,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN1",
 		id = 20052,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN1"
+		}
 	},
 	[20053] = {
 		mask = "bg/bg_memory",
@@ -44859,7 +56468,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN2",
 		id = 20053,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN2"
+		}
 	},
 	[20054] = {
 		mask = "bg/bg_memory",
@@ -44870,7 +56482,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN3",
 		id = 20054,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN3"
+		}
 	},
 	[20055] = {
 		mask = "bg/bg_memory",
@@ -44881,7 +56496,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN4",
 		id = 20055,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN4"
+		}
 	},
 	[20056] = {
 		mask = "bg/bg_memory",
@@ -44892,7 +56510,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN5",
 		id = 20056,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN5"
+		}
 	},
 	[20057] = {
 		mask = "bg/bg_memory",
@@ -44903,7 +56524,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN6",
 		id = 20057,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN6"
+		}
 	},
 	[20058] = {
 		mask = "bg/bg_memory",
@@ -44914,7 +56538,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN7",
 		id = 20058,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN7"
+		}
 	},
 	[20059] = {
 		mask = "bg/bg_memory",
@@ -44925,7 +56552,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN8",
 		id = 20059,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN8"
+		}
 	},
 	[20060] = {
 		mask = "bg/bg_memory",
@@ -44936,7 +56566,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN9",
 		id = 20060,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN9"
+		}
 	},
 	[20061] = {
 		mask = "bg/bg_memory",
@@ -44947,7 +56580,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN10",
 		id = 20061,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN10"
+		}
 	},
 	[20062] = {
 		mask = "bg/bg_memory",
@@ -44958,7 +56594,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN11",
 		id = 20062,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN11"
+		}
 	},
 	[20063] = {
 		mask = "bg/bg_memory",
@@ -44969,7 +56608,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN12",
 		id = 20063,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN12"
+		}
 	},
 	[20064] = {
 		mask = "bg/bg_memory",
@@ -44980,7 +56622,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN13",
 		id = 20064,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN13"
+		}
 	},
 	[20065] = {
 		mask = "bg/bg_memory",
@@ -44991,7 +56636,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN14",
 		id = 20065,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN14"
+		}
 	},
 	[20066] = {
 		mask = "bg/bg_memory",
@@ -45002,7 +56650,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN15",
 		id = 20066,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN15"
+		}
 	},
 	[20067] = {
 		mask = "bg/bg_memory",
@@ -45013,7 +56664,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN16",
 		id = 20067,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN16"
+		}
 	},
 	[20068] = {
 		mask = "bg/bg_memory",
@@ -45024,7 +56678,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN17",
 		id = 20068,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN17"
+		}
 	},
 	[20069] = {
 		mask = "bg/bg_memory",
@@ -45035,7 +56692,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN18",
 		id = 20069,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN18"
+		}
 	},
 	[20070] = {
 		mask = "bg/bg_memory",
@@ -45046,7 +56706,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN19",
 		id = 20070,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN19"
+		}
 	},
 	[20071] = {
 		mask = "bg/bg_memory",
@@ -45057,7 +56720,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN20",
 		id = 20071,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN20"
+		}
 	},
 	[20072] = {
 		mask = "bg/bg_memory",
@@ -45068,7 +56734,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN21",
 		id = 20072,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN21"
+		}
 	},
 	[20073] = {
 		mask = "bg/bg_memory",
@@ -45079,7 +56748,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN22",
 		id = 20073,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN22"
+		}
 	},
 	[20074] = {
 		mask = "bg/bg_memory",
@@ -45090,7 +56762,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN23",
 		id = 20074,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN23"
+		}
 	},
 	[20075] = {
 		mask = "bg/bg_memory",
@@ -45101,7 +56776,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN24",
 		id = 20075,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN24"
+		}
 	},
 	[20076] = {
 		mask = "bg/bg_memory",
@@ -45112,7 +56790,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN25",
 		id = 20076,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN25"
+		}
 	},
 	[20077] = {
 		mask = "bg/bg_memory",
@@ -45123,7 +56804,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN26",
 		id = 20077,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN26"
+		}
 	},
 	[20078] = {
 		mask = "bg/bg_memory",
@@ -45134,7 +56818,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN27",
 		id = 20078,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN27"
+		}
 	},
 	[20079] = {
 		mask = "bg/bg_memory",
@@ -45145,7 +56832,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN28",
 		id = 20079,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN28"
+		}
 	},
 	[20080] = {
 		mask = "bg/bg_memory",
@@ -45156,7 +56846,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN29",
 		id = 20080,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN29"
+		}
 	},
 	[20081] = {
 		mask = "bg/bg_memory",
@@ -45167,7 +56860,10 @@ pg.base.memory_template = {
 		story = "LINGHANGYUANTANXIN30",
 		id = 20081,
 		icon = "tb_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGHANGYUANTANXIN30"
+		}
 	},
 	[20082] = {
 		mask = "bg/bg_memory",
@@ -45178,7 +56874,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA1",
 		id = 20082,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA1"
+		}
 	},
 	[20083] = {
 		mask = "bg/bg_memory",
@@ -45189,7 +56888,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA2",
 		id = 20083,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA2"
+		}
 	},
 	[20084] = {
 		mask = "bg/bg_memory",
@@ -45200,7 +56902,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA3",
 		id = 20084,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA3"
+		}
 	},
 	[20085] = {
 		mask = "bg/bg_memory",
@@ -45211,7 +56916,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA4",
 		id = 20085,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA4"
+		}
 	},
 	[20086] = {
 		mask = "bg/bg_memory",
@@ -45222,7 +56930,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA5",
 		id = 20086,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA5"
+		}
 	},
 	[20087] = {
 		mask = "bg/bg_memory",
@@ -45233,7 +56944,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA6",
 		id = 20087,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA6"
+		}
 	},
 	[20088] = {
 		mask = "bg/bg_memory",
@@ -45244,7 +56958,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA8",
 		id = 20088,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA8"
+		}
 	},
 	[20089] = {
 		mask = "bg/bg_memory",
@@ -45255,7 +56972,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA9",
 		id = 20089,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA9"
+		}
 	},
 	[20090] = {
 		mask = "bg/bg_memory",
@@ -45266,7 +56986,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA10",
 		id = 20090,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA10"
+		}
 	},
 	[20091] = {
 		mask = "bg/bg_memory",
@@ -45277,7 +57000,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA11",
 		id = 20091,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA11"
+		}
 	},
 	[20092] = {
 		mask = "bg/bg_memory",
@@ -45288,7 +57014,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA12",
 		id = 20092,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA12"
+		}
 	},
 	[20093] = {
 		mask = "bg/bg_memory",
@@ -45299,7 +57028,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA13",
 		id = 20093,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA13"
+		}
 	},
 	[20094] = {
 		mask = "bg/bg_memory",
@@ -45310,7 +57042,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA14",
 		id = 20094,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA14"
+		}
 	},
 	[20095] = {
 		mask = "bg/bg_memory",
@@ -45321,7 +57056,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA15",
 		id = 20095,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA15"
+		}
 	},
 	[20096] = {
 		mask = "bg/bg_memory",
@@ -45332,7 +57070,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA16",
 		id = 20096,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA16"
+		}
 	},
 	[20097] = {
 		mask = "bg/bg_memory",
@@ -45343,7 +57084,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA17",
 		id = 20097,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA17"
+		}
 	},
 	[20098] = {
 		mask = "bg/bg_memory",
@@ -45354,7 +57098,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA18",
 		id = 20098,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA18"
+		}
 	},
 	[20099] = {
 		mask = "bg/bg_memory",
@@ -45365,7 +57112,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA19",
 		id = 20099,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA19"
+		}
 	},
 	[20100] = {
 		mask = "bg/bg_memory",
@@ -45376,7 +57126,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA20",
 		id = 20100,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA20"
+		}
 	},
 	[20101] = {
 		mask = "bg/bg_memory",
@@ -45387,7 +57140,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA21",
 		id = 20101,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA21"
+		}
 	},
 	[20102] = {
 		mask = "bg/bg_memory",
@@ -45398,7 +57154,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA22",
 		id = 20102,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA22"
+		}
 	},
 	[20103] = {
 		mask = "bg/bg_memory",
@@ -45409,7 +57168,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA23",
 		id = 20103,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA23"
+		}
 	},
 	[20104] = {
 		mask = "bg/bg_memory",
@@ -45420,7 +57182,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA24",
 		id = 20104,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA24"
+		}
 	},
 	[20105] = {
 		mask = "bg/bg_memory",
@@ -45431,7 +57196,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA25",
 		id = 20105,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA25"
+		}
 	},
 	[20106] = {
 		mask = "bg/bg_memory",
@@ -45442,7 +57210,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA26",
 		id = 20106,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA26"
+		}
 	},
 	[20107] = {
 		mask = "bg/bg_memory",
@@ -45453,7 +57224,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA27",
 		id = 20107,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA27"
+		}
 	},
 	[20108] = {
 		mask = "bg/bg_memory",
@@ -45464,7 +57238,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA28",
 		id = 20108,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA28"
+		}
 	},
 	[20109] = {
 		mask = "bg/bg_memory",
@@ -45475,7 +57252,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA29",
 		id = 20109,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA29"
+		}
 	},
 	[20110] = {
 		mask = "bg/bg_memory",
@@ -45486,7 +57266,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA30",
 		id = 20110,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA30"
+		}
 	},
 	[20111] = {
 		mask = "bg/bg_memory",
@@ -45497,7 +57280,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA31",
 		id = 20111,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA31"
+		}
 	},
 	[20112] = {
 		mask = "bg/bg_memory",
@@ -45508,7 +57294,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA32",
 		id = 20112,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA32"
+		}
 	},
 	[20113] = {
 		mask = "bg/bg_memory",
@@ -45519,7 +57308,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA33",
 		id = 20113,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA33"
+		}
 	},
 	[20114] = {
 		mask = "bg/bg_memory",
@@ -45530,7 +57322,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA34",
 		id = 20114,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA34"
+		}
 	},
 	[20115] = {
 		mask = "bg/bg_memory",
@@ -45541,7 +57336,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA35",
 		id = 20115,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA35"
+		}
 	},
 	[20116] = {
 		mask = "bg/bg_memory",
@@ -45552,7 +57350,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA36",
 		id = 20116,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA36"
+		}
 	},
 	[20117] = {
 		mask = "bg/bg_memory",
@@ -45563,7 +57364,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA37",
 		id = 20117,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA37"
+		}
 	},
 	[20118] = {
 		mask = "bg/bg_memory",
@@ -45574,7 +57378,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA38",
 		id = 20118,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA38"
+		}
 	},
 	[20119] = {
 		mask = "bg/bg_memory",
@@ -45585,7 +57392,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA39",
 		id = 20119,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA39"
+		}
 	},
 	[20120] = {
 		mask = "bg/bg_memory",
@@ -45596,7 +57406,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA40",
 		id = 20120,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA40"
+		}
 	},
 	[20121] = {
 		mask = "bg/bg_memory",
@@ -45607,7 +57420,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA41",
 		id = 20121,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA41"
+		}
 	},
 	[20122] = {
 		mask = "bg/bg_memory",
@@ -45618,7 +57434,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA42",
 		id = 20122,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA42"
+		}
 	},
 	[20123] = {
 		mask = "bg/bg_memory",
@@ -45629,7 +57448,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA43",
 		id = 20123,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA43"
+		}
 	},
 	[20124] = {
 		mask = "bg/bg_memory",
@@ -45640,7 +57462,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA44",
 		id = 20124,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA44"
+		}
 	},
 	[20125] = {
 		mask = "bg/bg_memory",
@@ -45651,7 +57476,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA45",
 		id = 20125,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA45"
+		}
 	},
 	[20126] = {
 		mask = "bg/bg_memory",
@@ -45662,7 +57490,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA46",
 		id = 20126,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA46"
+		}
 	},
 	[20127] = {
 		mask = "bg/bg_memory",
@@ -45673,7 +57504,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEYANGCHENGJIHUA47",
 		id = 20127,
 		icon = "tb_zhuxian",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEYANGCHENGJIHUA47"
+		}
 	},
 	[20128] = {
 		mask = "bg/bg_memory",
@@ -45684,7 +57518,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEXINZHIXUYU1",
 		id = 20128,
 		icon = "oceana_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEXINZHIXUYU1"
+		}
 	},
 	[20129] = {
 		mask = "bg/bg_memory",
@@ -45695,7 +57532,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEXINZHIXUYU2",
 		id = 20129,
 		icon = "oceana_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEXINZHIXUYU2"
+		}
 	},
 	[20130] = {
 		mask = "bg/bg_memory",
@@ -45706,7 +57546,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEXINZHIXUYU3",
 		id = 20130,
 		icon = "oceana_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEXINZHIXUYU3"
+		}
 	},
 	[20131] = {
 		mask = "bg/bg_memory",
@@ -45717,7 +57560,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEXINZHIXUYU4",
 		id = 20131,
 		icon = "oceana_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEXINZHIXUYU4"
+		}
 	},
 	[20132] = {
 		mask = "bg/bg_memory",
@@ -45728,7 +57574,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEXINZHIXUYU5",
 		id = 20132,
 		icon = "oceana_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEXINZHIXUYU5"
+		}
 	},
 	[20133] = {
 		mask = "bg/bg_memory",
@@ -45739,7 +57588,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEXINZHIXUYU6",
 		id = 20133,
 		icon = "oceana_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEXINZHIXUYU6"
+		}
 	},
 	[20134] = {
 		mask = "bg/bg_memory",
@@ -45750,7 +57602,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEXINZHIXUYU7",
 		id = 20134,
 		icon = "oceana_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEXINZHIXUYU7"
+		}
 	},
 	[20135] = {
 		mask = "bg/bg_memory",
@@ -45761,7 +57616,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEXINZHIXUYU8",
 		id = 20135,
 		icon = "oceana_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEXINZHIXUYU8"
+		}
 	},
 	[20136] = {
 		mask = "bg/bg_memory",
@@ -45772,7 +57630,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHEXINZHIXUYU9",
 		id = 20136,
 		icon = "oceana_tanxin",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHEXINZHIXUYU9"
+		}
 	},
 	[20138] = {
 		mask = "bg/bg_memory",
@@ -45783,7 +57644,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI1",
 		id = 20138,
 		icon = "oceana_baifang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI1"
+		}
 	},
 	[20139] = {
 		mask = "bg/bg_memory",
@@ -45794,7 +57658,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI2",
 		id = 20139,
 		icon = "oceana_baifang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI2"
+		}
 	},
 	[20140] = {
 		mask = "bg/bg_memory",
@@ -45805,7 +57672,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI3",
 		id = 20140,
 		icon = "oceana_baifang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI3"
+		}
 	},
 	[20141] = {
 		mask = "bg/bg_memory",
@@ -45816,7 +57686,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI4",
 		id = 20141,
 		icon = "oceana_baifang4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI4"
+		}
 	},
 	[20142] = {
 		mask = "bg/bg_memory",
@@ -45827,7 +57700,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI5",
 		id = 20142,
 		icon = "oceana_baifang5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI5"
+		}
 	},
 	[20143] = {
 		mask = "bg/bg_memory",
@@ -45838,7 +57714,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI6",
 		id = 20143,
 		icon = "oceana_baifang6",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI6"
+		}
 	},
 	[20144] = {
 		mask = "bg/bg_memory",
@@ -45849,7 +57728,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI7",
 		id = 20144,
 		icon = "oceana_baifang1",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI7"
+		}
 	},
 	[20145] = {
 		mask = "bg/bg_memory",
@@ -45860,7 +57742,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI8",
 		id = 20145,
 		icon = "oceana_baifang2",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI8"
+		}
 	},
 	[20146] = {
 		mask = "bg/bg_memory",
@@ -45871,7 +57756,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI9",
 		id = 20146,
 		icon = "oceana_baifang3",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI9"
+		}
 	},
 	[20147] = {
 		mask = "bg/bg_memory",
@@ -45882,7 +57770,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI10",
 		id = 20147,
 		icon = "oceana_baifang4",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI10"
+		}
 	},
 	[20148] = {
 		mask = "bg/bg_memory",
@@ -45893,7 +57784,10 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI11",
 		id = 20148,
 		icon = "oceana_baifang5",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI11"
+		}
 	},
 	[20149] = {
 		mask = "bg/bg_memory",
@@ -45904,6 +57798,9 @@ pg.base.memory_template = {
 		story = "LINGYANGZHELAIFANGJISHI12",
 		id = 20149,
 		icon = "oceana_baifang6",
-		is_open = 0
+		is_open = 0,
+		unlock_pre = {
+			"LINGYANGZHELAIFANGJISHI12"
+		}
 	}
 }

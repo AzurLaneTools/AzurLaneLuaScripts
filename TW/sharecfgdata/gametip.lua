@@ -12270,6 +12270,11 @@ _G.pg.base.gametip.tec_catchup_5 = {
 }
 
 
+_G.pg.base.gametip.tec_catchup_6 = {
+	tip = "六期"
+}
+
+
 _G.pg.base.gametip.tec_notice = {
 	tip = "完成科研$1研發加速所有任務後解鎖"
 }
@@ -37292,7 +37297,7 @@ _G.pg.base.gametip.dorm3d_shop_gift1 = {
 
 
 _G.pg.base.gametip.dorm3d_shop_furniture = {
-	tip = "家具"
+	tip = "傢俱"
 }
 
 
@@ -40054,6 +40059,16 @@ _G.pg.base.gametip.dal_chapter_tip2 = {
 }
 
 
+_G.pg.base.gametip.scenario_unlock_pt_require = {
+	tip = "PT達到$1點後解鎖"
+}
+
+
+_G.pg.base.gametip.scenario_unlock = {
+	tip = "點擊解鎖後續劇情"
+}
+
+
 _G.pg.base.gametip.vote_help_2025 = {
 	tip = {
 		{
@@ -40127,4 +40142,158 @@ _G.pg.base.gametip.vote_help_2025 = {
 ]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_title = {
+	tip = "活動匯總"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_title2 = {
+	tip = "ACTIVITY"
+}
+
+
+_G.pg.base.gametip.HelenaPTPage_title = {
+	tip = "憶海留聲"
+}
+
+
+_G.pg.base.gametip.HelenaPTPage_title2 = {
+	tip = "Memories in Echo"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_1 = {
+	tip = "憶海留聲"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_2 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_3 = {
+	tip = "致美好世界"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_1211 = {
+	tip = {
+		{
+			info = [[
+世界巡游 冬日赠礼(2025.12.11-2025.12.31)
+
+·<color=#92fc63>开放时间</color>
+ 2025.12.11 0点 ~ 2025.12.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「冬日巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「冬日巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达15。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>换装折扣券（世界巡游 冬日赠礼）</color>、<color=#ff5c5c>高级定向蓝图·八期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>战斗UI：冬日促销 </color>、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「冬日特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「冬日特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「冬日特许巡游凭证」说明</color>
+（1）「冬日特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>200点</color>「冬日巡游点数」同时解锁特许巡游奖励。
+（2）「冬日特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即12.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每日任务 
+ 巡游任务中共有12组每日任务。自活动开始后解锁第一日任务，之后每日的0点解锁下一天任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_1211 = {
+	tip = "世界巡游·冬日赠礼"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_proceed = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_main_time_title = {
+	tip = "剩余时间："
+}
+
+
+_G.pg.base.gametip.winter_cruise_title_1211 = {
+	tip = "世界巡游 冬日赠礼"
+}
+
+
+_G.pg.base.gametip.winter_cruise_task_tips = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.winter_cruise_task_unlock = {
+	tip = "该日任务将于$1天$2时后解锁"
+}
+
+
+_G.pg.base.gametip.winter_cruise_task_day = {
+	tip = "第$1日"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_pay_acquire = {
+	tip = "购买后立即获得："
+}
+
+
+_G.pg.base.gametip.winter_battlepass_pay_tip = {
+	tip = "购买后解锁特许巡游奖励："
+}
+
+
+_G.pg.base.gametip.winter_battlepass_mission = {
+	tip = "任务"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_rewards = {
+	tip = "奖励"
+}
+
+
+_G.pg.base.gametip.winter_cruise_btn_pay = {
+	tip = "解锁特许巡游"
+}
+
+
+_G.pg.base.gametip.winter_cruise_pay_reward = {
+	tip = "升级奖励"
+}
+
+
+_G.pg.base.gametip.winter_luckybag_9005 = {
+	tip = "当前已拥有换装（$1/$2）。若已经拥有换装，则对应的换装抵扣券不生效。如果已拥有礼盒内全部换装，则自动置换成等价钻石，此时不会掉落换装抵扣券。\n确认购买该礼包吗？"
+}
+
+
+_G.pg.base.gametip.winter_luckybag_9006 = {
+	tip = "当前已拥有换装（$1/$2）。若已经拥有换装，则对应的换装抵扣券不生效。如果已拥有礼盒内全部换装，则返还1080钻石，此时不会掉落换装抵扣券。\n确认购买该礼包吗？"
+}
+
+
+_G.pg.base.gametip.winter_cruise_btn_all = {
+	tip = "全部领取"
 }

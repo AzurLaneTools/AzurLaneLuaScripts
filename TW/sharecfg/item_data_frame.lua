@@ -504,6 +504,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「初至天域，忽聞鳳鳴。翩然而過，響徹天原」</color>\n「起舞於天原之上」活動獲取 ",
 		scene = {}
 	},
+	[337] = {
+		name = "幽海幽影",
+		gain_by = "",
+		time_second = 0,
+		id = 337,
+		time_limit_type = 0,
+		desc = "透過後續活動獲得",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂紀念：企業",
 		gain_by = "",
@@ -930,6 +939,7 @@ pg.item_data_frame = {
 		334,
 		335,
 		336,
+		337,
 		401,
 		402,
 		414,

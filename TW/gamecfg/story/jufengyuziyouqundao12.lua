@@ -415,7 +415,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嚯~这就是大灯塔，从下往上看果真是气势逼人啊。",
+			say = "嚯~這就是大燈塔，從下往上看果真是氣勢逼人啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

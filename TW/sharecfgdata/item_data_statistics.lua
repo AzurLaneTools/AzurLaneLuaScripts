@@ -10504,6 +10504,97 @@ _G.pg.base.item_data_statistics[14006] = {
 }
 
 
+_G.pg.base.item_data_statistics[14007] = {
+	open_directly = 0,
+	name = "原型科研圖紙·S-VII",
+	type = 13,
+	display = [[
+使用後可從超稀有科研裝備(VII期)的設計圖中任意選擇一張
+兌換清單如下：
+「試作型VIT-2（模式調整）T0設計圖」
+「試作型三聯裝254mm主炮model1939T0設計圖」
+「試作型三聯裝152mm主炮Model1936T0設計圖」
+「試作型F8F熊貓（浮筒型）T0設計圖」
+「試作型雙聯裝410mm主炮mod.AT0設計圖」
+]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/14007",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 14007,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			13044,
+			1
+		},
+		{
+			2,
+			13045,
+			1
+		},
+		{
+			2,
+			13046,
+			1
+		},
+		{
+			2,
+			13047,
+			1
+		},
+		{
+			2,
+			13048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			13044,
+			1
+		},
+		{
+			2,
+			13045,
+			1
+		},
+		{
+			2,
+			13046,
+			1
+		},
+		{
+			2,
+			13047,
+			1
+		},
+		{
+			2,
+			13048,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[15001] = {
 	open_directly = 0,
 	name = "榮譽勳章",
@@ -13964,6 +14055,40 @@ _G.pg.base.item_data_statistics[20105] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 20105,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20106] = {
+	open_directly = 0,
+	name = "科研測試數據・六期",
+	type = 18,
+	display = "研發部門總結的測試數據，<color=#92fc63>在開發船塢內使用</color>可增加10000點科研六期角色技術測試經驗進度<color=#ff5c5c>（在倉庫中解析會獲得設計原型，無法獲得經驗）</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20106",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20106,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

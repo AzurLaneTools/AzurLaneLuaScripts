@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.enemy_data_statistics_389 = {
+	[295125] = {
+		cannon = 203,
+		name = "亞利桑那·META(Tier.5)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 15,
+		id = 295125,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 120000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 207,
+		speed = 20,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
+	[295126] = {
+		cannon = 217,
+		name = "亞利桑那·META(Tier.6)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 16,
+		id = 295126,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 160000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 218,
+		speed = 20,
+		luck = 16,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
 	[295127] = {
 		cannon = 232,
 		name = "亞利桑那·META(Tier.7)",
@@ -1311,96 +1393,6 @@ pg.enemy_data_statistics_389 = {
 			{
 				ID = 200466,
 				LV = 2
-			}
-		}
-	},
-	[295157] = {
-		cannon = 208,
-		name = "阿爾及利亞·META(Tier.7)",
-		torpedo = 156,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 46,
-		id = 295157,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 65,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90765,
-		durability = 233000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 195,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 200462,
-				LV = 4
-			},
-			{
-				ID = 200463,
-				LV = 7
-			},
-			{
-				ID = 200466,
-				LV = 3
-			}
-		}
-	},
-	[295158] = {
-		cannon = 224,
-		name = "阿爾及利亞·META(Tier.8)",
-		torpedo = 168,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 50,
-		id = 295158,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90765,
-		durability = 314000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 210,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 200462,
-				LV = 4
-			},
-			{
-				ID = 200463,
-				LV = 8
-			},
-			{
-				ID = 200466,
-				LV = 3
 			}
 		}
 	}

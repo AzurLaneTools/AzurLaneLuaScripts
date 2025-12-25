@@ -514,7 +514,10 @@ pg.honormedal_goods_list = {
 			301161,
 			401461,
 			801011,
-			901111
+			901111,
+			101451,
+			301861,
+			701051
 		}
 	},
 	{
@@ -534,7 +537,8 @@ pg.honormedal_goods_list = {
 			102081,
 			202121,
 			202201,
-			202041
+			202041,
+			202281
 		}
 	},
 	{
@@ -554,7 +558,10 @@ pg.honormedal_goods_list = {
 			303111,
 			303121,
 			403031,
-			103131
+			103131,
+			103161,
+			603021,
+			603031
 		}
 	},
 	{
@@ -583,7 +590,10 @@ pg.honormedal_goods_list = {
 			405011,
 			305051,
 			105191,
-			905011
+			905011,
+			105201,
+			305141,
+			905031
 		}
 	},
 	{
@@ -603,7 +613,11 @@ pg.honormedal_goods_list = {
 			107061,
 			207031,
 			307051,
-			307061
+			307061,
+			207051,
+			306071,
+			307101,
+			307111
 		}
 	},
 	{
@@ -623,7 +637,10 @@ pg.honormedal_goods_list = {
 			301161,
 			401461,
 			801011,
-			901111
+			901111,
+			101451,
+			301861,
+			701051
 		}
 	},
 	{
@@ -643,7 +660,8 @@ pg.honormedal_goods_list = {
 			102081,
 			202121,
 			202201,
-			202041
+			202041,
+			202281
 		}
 	},
 	{
@@ -663,7 +681,10 @@ pg.honormedal_goods_list = {
 			303111,
 			303121,
 			403031,
-			103131
+			103131,
+			103161,
+			603021,
+			603031
 		}
 	},
 	{
@@ -692,7 +713,10 @@ pg.honormedal_goods_list = {
 			405011,
 			305051,
 			105191,
-			905011
+			905011,
+			105201,
+			305141,
+			905031
 		}
 	},
 	{
@@ -712,7 +736,11 @@ pg.honormedal_goods_list = {
 			107061,
 			207031,
 			307051,
-			307061
+			307061,
+			207051,
+			306071,
+			307101,
+			307111
 		}
 	},
 	{
@@ -885,7 +913,41 @@ pg.honormedal_goods_list = {
 			59010
 		}
 	},
-	[51] = {
+	{
+		goods_rarity = 4,
+		goods_purchase_limit = 15,
+		price = 20,
+		type = 2,
+		group = 10034,
+		num = 1,
+		goods_name = "定向藍圖・七期",
+		goods_type = 1,
+		id = 49,
+		is_ship = 0,
+		goods_icon = "Props/42060",
+		order = 7,
+		goods = {
+			42060
+		}
+	},
+	{
+		goods_rarity = 5,
+		goods_purchase_limit = 5,
+		price = 20,
+		type = 2,
+		group = 10035,
+		num = 1,
+		goods_name = "高級定向藍圖・七期",
+		goods_type = 1,
+		id = 50,
+		is_ship = 0,
+		goods_icon = "Props/42066",
+		order = 6,
+		goods = {
+			42066
+		}
+	},
+	{
 		goods_rarity = 2,
 		goods_purchase_limit = 20,
 		price = 15,
@@ -902,7 +964,7 @@ pg.honormedal_goods_list = {
 			30207
 		}
 	},
-	[52] = {
+	{
 		goods_rarity = 5,
 		goods_purchase_limit = 20,
 		price = 10,
@@ -968,6 +1030,8 @@ pg.honormedal_goods_list = {
 		46,
 		47,
 		48,
+		49,
+		50,
 		51,
 		52
 	}

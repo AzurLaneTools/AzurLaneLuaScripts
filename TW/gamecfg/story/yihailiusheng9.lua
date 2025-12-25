@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			bgm = "story-6",
-			say = "雨幕中，勉强突围的白鹰舰队向着锚地的方向疾驰着。",
+			say = "雨幕中，勉強突圍的白鷹艦隊朝著錨地的方向疾駛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "萨拉托加、圣路易斯，坚持住，我们就快到家了。",
+			say = "薩拉托加、聖路易斯，撐住，我們就快到家了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "咳……抱歉……拖累你们了。",
+			say = "咳……抱歉……拖累妳們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "圣路易斯，别想太多啦~受伤受伤、伤多了就习惯了，留得青山在，不怕没柴烧嘛~",
+			say = "路易斯，別想太多了~受傷受傷、傷多了就習慣了，留得青山在，不怕沒柴燒嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "萨拉……你伤得也不轻，先专注于损伤控制，圣路易斯有我们呢。",
+			say = "薩拉……妳傷得也不輕，先專注於傷害控制，聖路易斯有我們在呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个动静……塞壬舰队正在进攻其他目标？",
+			say = "這個動靜……塞壬艦隊正在進攻其他目標？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯？在这片海域执行任务的不是只有我们吗？",
+			say = "嗯？在這片海域執行任務的不是只有我們嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "难道是援军到了？",
+			say = "難道是援軍到了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不，援军不可能来得这么快……",
+			say = "不，援軍不可能來得這麼快……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你们听，又有爆炸声了！",
+			say = "妳們聽，又有爆炸聲了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "而且……完全变了个方向！不管是谁在和塞壬战斗，她的速度都好快！",
+			say = "而且……完全變了個方向！不管是誰在跟塞壬戰鬥，她的速度都好快！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔……我在雷达上居然什么都没看到。",
+			say = "嗯……我在雷達上居然什麼都沒看到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "企业，你继续向前开路，我派侦察机去看看！",
+			say = "企業，妳繼續向前開路，我派偵察機去看看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "又是一处……塞壬IV型舰队，是这么快就能被消灭的么？",
+			say = "又是一處……塞壬IV型艦隊，是這麼快就能被消滅的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……距离也近了好多！她在清理了周边敌人后转向了我们的方向？！",
+			say = "……距離也近了好多！她在清理了周邊敵人後轉向了我們的方向？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我的侦察机已经锁定了目标！",
+			say = "我的偵察機已經鎖定目標了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "怎么了，列克星敦，她是谁？",
+			say = "怎麼了，列星頓，她是誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……她马上就要到了，大家……自己看吧。",
+			say = "……她馬上就要到了，大家……自己看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			actor = 9702010,
 			nameColor = "#FFC960",
-			say = "诸位……嗯，白鹰舰队的诸位。",
+			say = "諸位……嗯，白鷹艦隊的各位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "我已经清理了周边所有的塞壬舰队，你们暂时安全了。",
+			say = "我已經清理了周邊所有的塞壬艦隊，妳們暫時安全了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "暴雨在不知不觉间停息了，一束阳光用力穿透阴云，点亮了阴郁的海面。",
+			say = "暴雨在不知不覺間停息了，一束陽光用力穿透陰雲，點亮了陰鬱的海面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "非常感谢你的援助。你是……海伦娜么？",
+			say = "非常感謝妳的援助。妳是……海倫娜嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "海伦娜·META，你们是第一次见到META化的舰船么？",
+			say = "海倫娜·META，妳們是第一次見到META化的艦船嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "META化……嗯，我们还是第一次听说这个词。",
+			say = "META化……嗯，我們還是第一次聽到這個字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "这样啊，果然现在所有实验场都加了安全锁……",
+			say = "這樣啊，果然現在所有實驗場都加了安全鎖……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "嗯，我明白了。我刚刚听到你们打算撤退，是打算返回PH港么？",
+			say = "嗯，我明白了。我剛剛聽到妳們打算撤退，是打算返回PH港嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你居然早就侵入我们的通讯频道了吗？！",
+			say = "妳居然早就侵入我們的通訊頻道了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "只是单纯听到了，你们的加密在我这里就像不设防一样。",
+			say = "只是單純聽到了，妳們的加密在我這裡就像不設防一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你的技术果然比我们先进很多……没错，我们是打算返回PH港。",
+			say = "妳的技術果然比我們先進很多……沒錯，我們是打算返回PH港。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "也带我一个吧。",
+			say = "也帶上我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "阁下是……",
+			say = "閣下是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "叫我海伦娜，如果觉得不好区分的话，叫我海伦娜·META也行。",
+			say = "叫我海倫娜，如果覺得不好區分的話，叫我海倫娜·META也行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "是的，我不是这个世界的人，而且我看你们战况不利，打算帮忙帮到底。",
+			say = "是的，我不是這個世界的人，而且我看妳們戰況不利，打算幫忙幫到底。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702010,
-			say = "鉴于我刚刚出手相助的现实，诸位是否可以稍微相信我一些呢？",
+			say = "鑑於我剛剛出手相助的現實，諸位是否可以稍微相信我一些呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107020,
-			say = "嗯！再次感谢你的出手相助，海伦娜·META小姐。我们一同返航吧~",
+			say = "嗯！再次感謝妳的出手相助，海倫娜·META小姐。我們一同返航吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -66,7 +66,7 @@ slot6.SetHost = function(slot0, slot1)
 		end
 	end
 
-	if slot2 then
+	if slot2 and slot2 ~= "" then
 		for slot7, slot8 in ipairs(slot0._skill:GetSkillEffectList()) do
 			if slot8.__name == uv1.Battle.BattleSkillFire.__name then
 				slot8:SetWeaponSkin(slot2)

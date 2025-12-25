@@ -1,41 +1,17 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -44,32 +20,6 @@ pg.activity_banner = {
 			{
 				projectName = "new",
 				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					14,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -80,22 +30,10 @@ pg.activity_banner = {
 		param = {
 			"scene core activity",
 			{
-				coreName = "SailingShip3CoreActivityUI"
+				coreName = "HelenaCoreActivityUI"
 			}
 		},
 		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2025,
@@ -103,31 +41,6 @@ pg.activity_banner = {
 					25
 				},
 				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 4,
-		pic = "temp4",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
 					0,
 					0,
 					0
@@ -135,115 +48,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					12,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp5",
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 6,
-		pic = "temp6",
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"scene Cryptolalia",
-			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					17
+					2026,
+					1,
+					28
 				},
 				{
 					23,
@@ -256,8 +63,8 @@ pg.activity_banner = {
 	{
 		time = "stop",
 		type = 2,
-		id = 8,
-		pic = "temp8",
+		id = 4,
+		pic = "temp4",
 		param = {
 			"scene charge",
 			{
@@ -266,22 +73,47 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
-		id = 9,
-		pic = "temp9",
+		id = 5,
+		pic = "temp5",
 		param = {
-			"scene equip",
+			"scene shop",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				warp = "shopstreet"
 			}
-		},
+		}
+	},
+	{
+		time = "stop",
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene court yard"
+		}
+	},
+	{
+		time = "stop",
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"scene Cryptolalia",
+			{}
+		}
+	},
+	{
+		param = "5106",
+		type = 3,
+		id = 8,
+		pic = "temp8",
 		time = {
 			{
 				{
 					2025,
-					11,
-					27
+					12,
+					25
 				},
 				{
 					0,
@@ -291,15 +123,28 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					12,
-					11
+					2026,
+					1,
+					21
 				},
 				{
-					15,
-					0,
-					0
+					23,
+					59,
+					59
 				}
+			}
+		}
+	},
+	{
+		time = "stop",
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		}
 	},
@@ -398,10 +243,35 @@ pg.activity_banner = {
 	},
 	[104] = {
 		param = "拐杖糖|據說最原始的拐杖糖是白色的呢。<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-		time = "stop",
 		type = 10,
 		id = 104,
-		pic = "christmas"
+		pic = "christmas",
+		time = {
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[105] = {
 		param = "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
@@ -412,10 +282,35 @@ pg.activity_banner = {
 	},
 	[198] = {
 		param = "",
-		time = "stop",
 		type = 13,
 		id = 198,
-		pic = "christmas"
+		pic = "christmas",
+		time = {
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[199] = {
 		param = "",
@@ -736,7 +631,6 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8,
 			9,
 			10,
 			1000,
@@ -762,6 +656,10 @@ pg.activity_banner = {
 			1022,
 			1023,
 			1024
+		},
+		[3] = {
+			8,
+			1003
 		},
 		[9] = {
 			90,
@@ -789,9 +687,6 @@ pg.activity_banner = {
 			202,
 			203,
 			204
-		},
-		[3] = {
-			1003
 		},
 		[8] = {
 			1015

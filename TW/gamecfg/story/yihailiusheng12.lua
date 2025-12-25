@@ -11,7 +11,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "X……还是出现了。",
+			say = "X……還是出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "随之而来的是一项项影响整个世界的剧烈变革。",
+			say = "隨之而來的是一項影響整個世界的劇烈變革。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们就像行驶在风暴中的巨轮，巨大而渺小，在坚韧中摇摇欲坠……",
+			say = "我們就像行駛在風暴中的巨輪，巨大而渺小，在堅韌中搖搖欲墜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是，除了笔直迎向浪头外……我们别无选择。",
+			say = "但是，除了筆直迎向浪頭外……我們別無選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 102090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们听说了么，可控META化技术好像要招募志愿者了哦！",
+			say = "妳們聽說了嗎，可控META化技術好像要招募志願者了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也听到这个消息了。",
+			say = "我也聽到這個消息了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果技术真的成熟的话，我对这种安全提升战斗力的方式还挺有兴趣的。",
+			say = "如果技術真的成熟的話，我對這種安全提升戰鬥力的方式還挺有興趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……如果审核能通过的话，我也想去试试。",
+			say = "嗯……如果審核能通過的話，我也想去試試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 102290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我想帮上更多的忙……",
+			say = "我想幫上更多的忙……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……可控META化技术，真的会安全么？",
+			say = "……可控META化技術，真的會安全嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 102130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不瞒诸位，我也有些担心哦。",
+			say = "不瞞諸位，我也有些擔心哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 102130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以我想着与其大家胡思乱想下去，不如请“专家”来当面聊聊~",
+			say = "所以我想著與其大家胡思亂想下去，不如請「專家」來當面聊聊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家快看，我把谁请来了~？",
+			say = "大家快看，我把誰請來了~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "会议室的隔间开启，露出了一个令人熟悉的身影。",
+			say = "會議室的隔間開啟，露出了一個令人熟悉的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家好久不见哦，最近过得还好吗~",
+			say = "大家好久不見哦，最近過得還好嗎~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 900332,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……不瞒你们说，包括我在内，有不少人都认为META化技术的路线是存在不可控风险的。",
+			say = "嗯……不瞞妳們說，包括我在內，有不少人都認為META化技術的路線是存在不可控風險的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所谓的“可控”META化本身就是一个伪命题。",
+			say = "所謂的「可控」META化本身就是一個偽命題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "问题是，我们缺乏证据支持这种观点，我们所担忧的风险在现有评价体系内也无法体现。",
+			say = "問題是，我們缺乏證據支持這種觀點，我們所擔憂的風險在現有評估體系內也無法體現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以最后在表决阶段还是输了……",
+			say = "所以最後在表決階段還是表輸了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然了，这不是说这项技术就一定是危险和不可控的。",
+			say = "當然了，這不是說這項技術一定是危險且不可控的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "归根结底，只能算一个谨慎程度多与少的问题吧……",
+			say = "歸根究底，只能算一個謹慎程度多與少的問題吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（之前那种奇怪的感觉又来了……）",
+			say = "（之前那種奇怪的感覺又來了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这间会议室内，似乎隐藏着什么秘密……）",
+			say = "（這間會議室內，似乎隱藏著什麼秘密……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,20 +361,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "恍惚间，安洁的身旁多了一个人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_503",
-			hidePaintObj = true,
-			side = 2,
-			actorName = "          ",
-			say = "安洁说得没错，这件事最大的分歧其实就在于谨慎的程度。",
+			say = "恍惚間，安潔的身旁多了一個人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +374,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "          ",
-			say = "一些人认为这项有限利用META现象的可控的META化技术已经十分谨慎了。",
+			say = "安潔說得沒錯，這件事最大的分歧其實在於謹慎的程度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +387,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "          ",
-			say = "而包括我们在内的另一些人认为，涉及到META的技术再怎么谨慎也不为过。",
+			say = "有些人認為這項有限利用META現象的可控的META化技術已經十分謹慎了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +400,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "          ",
-			say = "但是随着X的威胁与日俱增，就算大家在理念上有分歧，最后也要得出一个结论来才是。",
+			say = "而包括我們在內的其他人則認為，涉及META的技術再怎麼謹慎也不為過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +413,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "          ",
-			say = "决定认真研究可控META化的技术路线，这个就是经过表决的最终结论。",
+			say = "但隨著X的威脅與日俱增，就算大家在理念上有分歧，最後也要得出一個結論來才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +426,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "          ",
-			say = "至于我们其他人有担忧，倒也没问题。",
+			say = "決定認真研究可控META化的技術路線，這個就是經過表決的最終結論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +439,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "          ",
-			say = "我们会自己建立一系列研究课题，证明这项技术中的不可控风险是切实存在的，然后尽可能让它变得更安全。",
+			say = "至於我們其他人有擔憂，倒也沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +452,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "          ",
-			say = "放心吧，我和安洁，还有其他许多人都会保持密切关注的。",
+			say = "我們會自己建立一系列研究主題，證明這項技術中的不可控風險是切實存在的，然後盡可能讓它變得更安全。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_503",
+			hidePaintObj = true,
+			side = 2,
+			actorName = "          ",
+			say = "放心吧，我和安潔，還有其他許多人都會保持密切注意的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（你究竟是谁……）",
+			say = "（你究竟是誰……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（为什么无数次出现在我的身边，又被抹除得一干二净……）",
+			say = "（為什麼無數次出現在我的身邊，又被抹得一乾二淨……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "随着精神的疲劳到达极限，少女眼中的会议室重新恢复了原状。",
+			say = "隨著精神的疲勞到達極限，少女眼中的會議室重新恢復了原狀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，你们放心好啦，我会全程关注这件事的，保证安全第一！",
+			say = "總之，妳們放心好啦，我會全程關注這件事的，保證安全第一！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "在此做出保证的只有安洁一个人，那个熟悉的身影再次消失了。",
+			say = "在此做出保證的只有安潔一個人，那個熟悉的身影又消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "不留痕迹，无影无踪，亦如从未存在过一般。",
+			say = "不留痕跡，無影無蹤，如從未存在過一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

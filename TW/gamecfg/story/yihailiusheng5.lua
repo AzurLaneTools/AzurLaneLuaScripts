@@ -19,7 +19,7 @@ return {
 			},
 			sequence = {
 				{
-					"「只要能够修好的话——」",
+					"「只要能夠修好的話——」",
 					0
 				}
 			}
@@ -31,7 +31,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "其实，我也说不清楚当初为什么会那么想了。",
+			say = "其實，我也說不清楚當初為什麼會那麼想了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "可能是出于对行动失败的懊丧，也可能是出于对SG的信任。",
+			say = "可能是出於對行動失敗的懊喪，也可能是出於對SG的信任。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "或者……那些已经忘掉的事在冥冥之中提醒着我些什么？",
+			say = "或者……那些已經忘記的事在冥冥之中提醒著我些什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "总之，我用了大概三年的时间彻底修好了圆环。",
+			say = "總之，我花了大概三年的時間徹底修好了圓環。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "然后，我亲手将其启动。",
+			say = "然後，我親手將其啟動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "等待着其充能完毕，也等待着……一个答案。",
+			say = "等待著其充能完畢，也等待著……一個答案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgm = "beverly_short_inst",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "随着充能结束，沉寂许久的圆环迸发出夺目的光芒。",
+			say = "隨著充能結束，沉寂許久的圓環迸發出奪目的光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_16",
 			hidePaintObj = true,
-			say = "而后，光芒中竟传来了一声熟悉的问候。",
+			say = "而後，光芒中竟傳來了一聲熟悉的問候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "好久不见，海伦娜。",
+			say = "好久不見，海倫娜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "约克城？",
+			say = "約克鎮？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……怎么可能是你？你不是已经……",
+			say = "……怎麼可能是妳？妳不是已經……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "是啊，我倒在了寂灭审判之前，我本该战死了才对。",
+			say = "是啊，我倒在了寂滅審判之前，我本該戰死了才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你、你没死……而且也成功脱身了？！",
+			say = "妳、妳沒死……而且也成功脫身了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "为什么你会在这里呢？",
+			say = "為什麼妳會在這裡呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,21 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "为什么我会……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_bsmre_16",
-			dir = 1,
-			actor = 9702010,
-			nameColor = "#FFC960",
-			hidePaintObj = true,
-			say = "我们本来在突袭零的主机空间，然后这个圆环突然启动将我们打散了……",
+			say = "為什麼我會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +276,21 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "再之后，我就一直在这里修复这道圆环……",
+			say = "我們本來在突襲零的主機空間，然後這個圓環突然啟動將我們打散了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_bsmre_16",
+			dir = 1,
+			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
+			say = "再之後，我就一直在這裡修復這道圓環……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "今天是修复完成后的第一次启动，然后你就出现了！",
+			say = "今天是修復完成後的第一次啟動，然後妳就出現了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "啊，你可能不知道，在穿越拉普拉斯妖之后，我们和安蒂克丝之间发生了许多事……",
+			say = "啊，妳可能不知道，在穿越拉普拉斯妖之後，我們和安蒂克絲之間發生了許多事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "我只是在想，你果然不记得这道圆环是什么了。",
+			say = "我只是在想，妳果然不記得這道圓環是什麼了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "所有人都不记得了……忘掉了那些最为重要的事。",
+			say = "所有人都不記得了……忘掉了哪些最為重要的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "对……我察觉到了，所以我才花了三年的时间维修这道圆环。",
+			say = "對……我察覺到了，所以我才花了三年的時間維修這道圓環。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "是SG指引我这么做的……我也期望在圆环启动后能够得到答案。",
+			say = "是SG指引我這麼做的……我也期望在圓環啟動後能夠得到答案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "在这之前，先听听我的故事吧。",
+			say = "在這之前，先聽聽我的故事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "嗯……这个故事在最初就如同你熟悉的那样，在那场溃败中，我的舰队覆灭在了X的袭击中。",
+			say = "嗯……這個故事在最初就如同妳熟悉的那樣，在那場潰敗中，我的艦隊覆滅在了X的襲擊中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "我的意识消散在冰冷的海水中，一切本该就此结束了。",
+			say = "我的意識消散在冰冷的海水中，一切本來就該結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "但是……我再次醒了过来。",
+			say = "但是……我又醒了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "我的意识回到了我的身体，我的身体则前往了某个更高的层次。",
+			say = "我的意識回到了我的身體，我的身體則前往了某個更高的層次。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "我进入了名为「重塑」的状态。",
+			say = "我進入了名為「重塑」的狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "这种状态下，我看到了无数的“我”，无数的「约克城」。",
+			say = "在這種狀態下，我看到了無數的「我」，無數的「約克鎮」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "透过无数双“我”的眼睛，我知道了安蒂克丝在做的事，也知道你们……现在的余烬所做的事。",
+			say = "透過無數雙「我」的眼睛，我知道了安蒂克絲在做的事，也知道妳們……現在的餘燼在所做的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "说实话，最初你们对于审判者计划截然不同的看法令我诧异。",
+			say = "說實話，最初妳們對於審判者計畫截然不同的看法令我詬異。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "就像你们各自相对于对方，都有着许多独属于自己的情报一样。",
+			say = "就像妳們各自相對於對方，都有許多獨屬於自己的情報一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "紧接着，我也在重塑状态中察觉到了自身记忆的缺失。",
+			say = "緊接著，我也在重塑狀態中察覺到了自身記憶的缺失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "连你的记忆也有缺失……？",
+			say = "連妳的記憶也有缺失……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "没错，记忆缺失现象在寂灭审判执行前就已经发生了。",
+			say = "沒錯，記憶缺失現像在寂滅審判執行前就已經發生了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,22 +607,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "我还没能找到确切的时间点，或许在决战前夕，或许更早之前……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_bsmre_16",
-			paintingNoise = true,
-			dir = 1,
-			actor = 900316,
-			nameColor = "#C3ABFF",
-			hidePaintObj = true,
-			say = "察觉到这一点后，我就一直利用这里的设备停留在重塑状态。",
+			say = "我還沒能找到確切的時間點，或許在決戰前夕，或許更早之前……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +622,22 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "我想找回那些缺失的记忆碎片。",
+			say = "察覺到這一點後，我就一直利用這裡的設備停留在重塑狀態。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_bsmre_16",
+			paintingNoise = true,
+			dir = 1,
+			actor = 900316,
+			nameColor = "#C3ABFF",
+			hidePaintObj = true,
+			say = "我想找回那些缺少的記憶碎片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "结果呢？！",
+			say = "結果呢？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,22 +665,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "结果，我发现我们缺失的记忆远比我们想象中要多得多。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_bsmre_16",
-			paintingNoise = true,
-			dir = 1,
-			actor = 900316,
-			nameColor = "#C3ABFF",
-			hidePaintObj = true,
-			say = "许多我们自认为确信无疑的回忆，其实更像是在将原本的回忆拆开打碎后，拿走了一部分碎片，又用剩下的重组出的仿制品。",
+			say = "結果，我發現我們缺失的記憶遠比我們想像中多得多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +680,22 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "比如，这里是仲裁者·托瓦·XVI的主机空间，那道圆环就是「塔」所拥有的专属兵装。",
+			say = "許多我們自認為確信無疑的回憶，其實更像是在將原本的回憶拆開打碎後，拿走了一部分碎片，又用剩下的重組出的仿製品。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_bsmre_16",
+			paintingNoise = true,
+			dir = 1,
+			actor = 900316,
+			nameColor = "#C3ABFF",
+			hidePaintObj = true,
+			say = "例如，這裡是仲裁者·托瓦·XVI的主機空間，那道圓環就是「塔」所擁有的專屬兵裝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "这件事本应人尽皆知……早在研发中，我们就一同多次进入过其内部。",
+			say = "這件事本應人盡皆知……早在研發中，我們就一同多次進入其內部。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "而如今呢，你在这里修复了三年居然都没认出来。",
+			say = "而如今呢，妳在這裡修復了三年居然都沒認出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "总之呢，我能够以这种状态幸存，应该就是托瓦在暗中做了什么。",
+			say = "總之呢，我能夠以這種狀態倖存，應該就是托瓦在暗中做了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,66 +767,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "可惜我一直没机会亲自问问她，因为托瓦似乎陷入了漫长的休眠中，这是我这么多年来发现的一个重要情报。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_bsmre_16",
-			paintingNoise = true,
-			dir = 1,
-			actor = 900316,
-			nameColor = "#C3ABFF",
-			hidePaintObj = true,
-			say = "还有一个重要情报则是——托瓦和「塔」似乎是可以彼此之间独立运行的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_bsmre_16",
-			paintingNoise = true,
-			dir = 1,
-			actor = 900316,
-			nameColor = "#C3ABFF",
-			hidePaintObj = true,
-			say = "正如现在你可以用自己的意志将圆环启动一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_bsmre_16",
-			dir = 1,
-			actor = 900316,
-			nameColor = "#C3ABFF",
-			hidePaintObj = true,
-			say = "你想找回那些被遗忘的回忆，这件事本身不难，因为「塔」中记录了一切。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_bsmre_16",
-			paintingNoise = true,
-			dir = 1,
-			actor = 900316,
-			nameColor = "#C3ABFF",
-			hidePaintObj = true,
-			say = "但是想起得越多，就越难从那里脱身……甚至可能被困于永恒的牢笼中。",
+			say = "可惜我一直沒機會親自問她，因為托瓦似乎陷入了漫長的休眠中，這是我這麼多年來發現的一個重要情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +782,66 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "即便如此，你还是想知道么？",
+			say = "還有一個重要情報則是——托瓦和「塔」似乎是可以彼此之間獨立運作的。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_bsmre_16",
+			paintingNoise = true,
+			dir = 1,
+			actor = 900316,
+			nameColor = "#C3ABFF",
+			hidePaintObj = true,
+			say = "正如現在妳可以自己的意志將圓環啟動一樣。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_bsmre_16",
+			dir = 1,
+			actor = 900316,
+			nameColor = "#C3ABFF",
+			hidePaintObj = true,
+			say = "妳想找回那些被遺忘的回憶，這件事本身不難，因為「塔」中紀錄了一切。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_bsmre_16",
+			paintingNoise = true,
+			dir = 1,
+			actor = 900316,
+			nameColor = "#C3ABFF",
+			hidePaintObj = true,
+			say = "但想起得越多，就越難從那裡脫身……甚至可能被困於永恆的牢籠中。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_bsmre_16",
+			paintingNoise = true,
+			dir = 1,
+			actor = 900316,
+			nameColor = "#C3ABFF",
+			hidePaintObj = true,
+			say = "即便如此，妳還是想知道嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我必须要知道我究竟遗忘了些什么。",
+			say = "我必須知道我究竟遺忘了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -883,7 +883,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我必须……记起来。",
+			say = "我必須……記起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			bgm = "bgm-waterwave",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光芒自圆环各处迸发，世界沐浴在纯白之中——",
+			say = "光芒自圓環各處迸發，世界沐浴在純白之中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

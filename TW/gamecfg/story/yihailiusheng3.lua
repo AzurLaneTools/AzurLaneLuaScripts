@@ -19,7 +19,7 @@ return {
 			},
 			sequence = {
 				{
-					"「既然如此，义不容辞——」",
+					"「既然如此，義不容辭——」",
 					0
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我知道，在见到了安蒂克丝的计划，以及它们为之付出的诸多牺牲后，你的心中会有疑问。",
+			say = "我知道，在見到了安蒂克絲的計劃，以及它們為之付出的諸多犧牲後，你的心中會有疑問。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这就是余烬的回答了，自始至终，从未改变。",
+			say = "這就是餘燼的回答了，自始至終，從未改變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "然后，就这样到了突袭的当日。",
+			say = "然後，就這樣到了突襲的當天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "之前你从声望和反击那里听说过当时的情况吧？",
+			say = "之前你從聲望和反擊那裡聽過當時的情況吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是的——我们果然还是扑了个空。",
+			say = "是的——我們果然還是撲了個空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "主力舰队入侵成功。企业，我们已经成功进入零的主机空间了哦。",
+			say = "主力艦隊入侵成功。企業，我們已經成功進入零的主機空間了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,9 +158,9 @@ return {
 			bgName = "bg_camelot_4",
 			dir = 1,
 			actor = 900072,
-			actorName = "企业·META",
+			actorName = "企業·META",
 			hidePaintObj = true,
-			say = "很好。接下来就是找到主机的位置……",
+			say = "很好。接下來就是找到主機的位置……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 9702020,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "警告，数个仲裁机关正在向我们的方向高速接近。",
+			say = "警告，數個仲裁機關正向我們的方向高速接近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 9702020,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "预计接触时间——3秒后！",
+			say = "預計接觸時間——3秒後！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:66}·META",
+			actorName = "高雄·META",
 			side = 2,
 			bgName = "bg_camelot_4",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			actor = 900192,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "恶 即 斩——————",
+			say = "惡即斬——————",
 			flashN = {
 				color = {
 					1,
@@ -276,7 +276,7 @@ return {
 			actor = 900287,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "啧，偷袭被发现了么。",
+			say = "嘖，偷襲被發現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 900286,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "原本此次偷袭被发现就是大概率事件，不过，不会影响战斗的结果。",
+			say = "原本這次偷襲被發現就是大機率事件，不過，不會影響戰鬥的結果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 900285,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "既然斩首企图被发现了，接下来就光明正大，用力量说话吧。",
+			say = "既然斬首企圖被發現了，接下來就光明正大，用力量說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 900327,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "说的还真自信，如果不是了解你们的底细我差点就相信了呢。企业{namecode:66}，她们仨就交给我跟老姐带人应付吧！",
+			say = "說得還真有自信，如果不是了解妳們的底細我差點就相信了。企業高雄，她們三個就交給我跟老姐帶人應付吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 900326,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯，突袭行动时间宝贵，你们立刻去破坏零的主机。",
+			say = "嗯，突襲行動時間寶貴，妳們立刻去破壞零的主機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "等等……周围还有潜伏的敌人————是在那里么，{namecode:78}！",
+			say = "等等……周圍還有潛伏的敵人————是在那裡嗎，扶桑！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -387,7 +387,7 @@ return {
 			actor = 9705010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "坐标已确认……在蝶海之中化为亡魂吧！虽然知道你们没有灵魂这种东西——",
+			say = "座標已確認……在蝶海之中化為亡魂吧！雖然知道妳們沒有靈魂這種東西——",
 			flashN = {
 				color = {
 					1,
@@ -444,7 +444,7 @@ return {
 			actor = 900191,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "放肆，雕虫小技也敢在余的面前现丑？",
+			say = "放肆，雕蟲小技也敢在余的面前獻醜？",
 			flashN = {
 				color = {
 					1,
@@ -501,7 +501,7 @@ return {
 			actor = 9707010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "恩普雷斯也在这里？！看来我们突袭的位置完全正确~",
+			say = "恩普雷斯也在這裡？！看來我們突襲的位置完全正確~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			actor = 900191,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "过度自信的尽头只有毁灭，你们还是没有吸取教训。",
+			say = "過度自信的盡頭只有毀滅，妳們還是沒有學到教訓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			actor = 900191,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "在你们行动期间，海洛芬特和迪贝路已经攻陷了你们的支援点。",
+			say = "在妳們行動期間，海洛芬特和迪貝路已經攻陷了妳們的支援點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			actor = 900191,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "翰格德门、戴斯切断了你们的退路，拉沃斯、提尔瑞特和穆恩也将在五分钟内抵达。你们已经被包围了。",
+			say = "翰格德門、戴斯切斷了妳們的退路，拉沃斯、提爾瑞特和沐恩也將在五分鐘內抵達。妳們被包圍了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,9 +568,9 @@ return {
 			bgName = "bg_camelot_4",
 			dir = 1,
 			actor = 900072,
-			actorName = "企业·META",
+			actorName = "企業·META",
 			hidePaintObj = true,
-			say = "阵势倒是很大，不过……你们已经没有五分钟了。这就是零用来保护自己的全部兵力么？",
+			say = "陣勢倒是很大，不過……妳們已經沒有五分鐘了。這就是零用來保護自己的全部兵力嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			actor = 900191,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "不，你从一开始搞错了一件重要的事，零自始至终，从来就没来过这里。",
+			say = "不，妳從一開始搞錯了一件重要的事，零自始至終，從來就沒來過這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,9 +603,9 @@ return {
 			bgName = "bg_camelot_4",
 			dir = 1,
 			actor = 900072,
-			actorName = "企业·META",
+			actorName = "企業·META",
 			hidePaintObj = true,
-			say = "……什么？",
+			say = "……什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……糟糕，孟菲斯，准备执行撤离计划！",
+			say = "……糟糕，曼非斯，準備執行撤離計畫！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "企业，我们突围撤离吧！",
+			say = "企業，我們突圍撤離吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "企业·META",
-			say = "不……未必不是在虚张声势。",
+			say = "不……未必不是在虛張聲勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "企业·META",
-			say = "呵，如果零真的不在这里，它们这种应激式的部署是在做什么？",
+			say = "呵，如果零真的不在這裡，它們這種壓力式的部署是在做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "咦？SG有了特殊反应……？！",
+			say = "咦？SG有了特殊反應……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这是……？",
+			say = "這是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			actor = 900191,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "这场战斗，你们毫无胜算——就跟计算中一样————",
+			say = "這場戰鬥，妳們毫無勝算——就跟計算中一樣————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这种感觉是……",
+			say = "這種感覺是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

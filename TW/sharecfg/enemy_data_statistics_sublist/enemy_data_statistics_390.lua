@@ -1,5 +1,95 @@
 pg = pg or {}
 pg.enemy_data_statistics_390 = {
+	[295157] = {
+		cannon = 208,
+		name = "阿爾及利亞·META(Tier.7)",
+		torpedo = 156,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 46,
+		id = 295157,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90765,
+		durability = 233000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 195,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 200462,
+				LV = 4
+			},
+			{
+				ID = 200463,
+				LV = 7
+			},
+			{
+				ID = 200466,
+				LV = 3
+			}
+		}
+	},
+	[295158] = {
+		cannon = 224,
+		name = "阿爾及利亞·META(Tier.8)",
+		torpedo = 168,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 50,
+		id = 295158,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90765,
+		durability = 314000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 210,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 200462,
+				LV = 4
+			},
+			{
+				ID = 200463,
+				LV = 8
+			},
+			{
+				ID = 200466,
+				LV = 3
+			}
+		}
+	},
 	[295159] = {
 		cannon = 240,
 		name = "阿爾及利亞·META(Tier.9)",
@@ -1283,80 +1373,6 @@ pg.enemy_data_statistics_390 = {
 			{
 				ID = 200701,
 				LV = 8
-			}
-		}
-	},
-	[295189] = {
-		cannon = 237,
-		name = "基洛夫·META(Tier.9)",
-		torpedo = 229,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 53,
-		id = 295189,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 75,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90871,
-		durability = 390000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 247,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 200701,
-				LV = 9
-			}
-		}
-	},
-	[295190] = {
-		cannon = 252,
-		name = "基洛夫·META(Tier.10)",
-		torpedo = 244,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 57,
-		id = 295190,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 80,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90871,
-		durability = 480000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 263,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 200701,
-				LV = 10
 			}
 		}
 	}

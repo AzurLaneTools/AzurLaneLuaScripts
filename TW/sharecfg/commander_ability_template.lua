@@ -1065,10 +1065,10 @@ pg.commander_ability_template = {
 	},
 	[321] = {
 		cost = 0,
-		name = "蓝天亲和性·新手",
+		name = "藍天親和性·新手",
 		group_id = 32,
 		worth = 2,
-		desc = "<color=#3dc6ff>轻航、正航</color>航空提高7点，<color=#3dc6ff>风帆M</color>炮击提高7点",
+		desc = "<color=#3dc6ff>輕航、正航</color>航空提高7點，<color=#3dc6ff>風帆M</color>炮擊提高7點",
 		next = 322,
 		id = 321,
 		icon = "teshu_hangkong_1",
@@ -1095,21 +1095,21 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<正航、轻航>航空",
+				"<正航、輕航>航空",
 				7
 			},
 			{
-				"<风帆M>炮击",
+				"<風帆M>炮擊",
 				7
 			}
 		}
 	},
 	[322] = {
 		cost = 0,
-		name = "蓝天亲和性·精锐",
+		name = "藍天親和性·精銳",
 		group_id = 32,
 		worth = 3,
-		desc = "<color=#3dc6ff>轻航、正航</color>航空提高10点，<color=#3dc6ff>风帆M</color>炮击提高10点",
+		desc = "<color=#3dc6ff>輕航、正航</color>航空提高10點，<color=#3dc6ff>風帆M</color>炮擊提高10點",
 		next = 0,
 		id = 322,
 		icon = "teshu_hangkong_2",
@@ -1136,11 +1136,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<正航、轻航>航空",
+				"<正航、輕航>航空",
 				10
 			},
 			{
-				"<风帆M>炮击",
+				"<風帆M>炮擊",
 				10
 			}
 		}
@@ -2893,10 +2893,10 @@ pg.commander_ability_template = {
 	},
 	[771] = {
 		cost = 0,
-		name = "轮机手·先锋",
+		name = "輪機手·先鋒",
 		group_id = 77,
 		worth = 1,
-		desc = "<color=#3dc6ff>先锋</color>耐久提高30点",
+		desc = "<color=#3dc6ff>先鋒</color>耐久提高30點",
 		next = 772,
 		id = 771,
 		icon = "quzhu_naijiu_1",
@@ -2918,17 +2918,17 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<先锋>耐久",
+				"<先鋒>耐久",
 				30
 			}
 		}
 	},
 	[772] = {
 		cost = 0,
-		name = "熟练轮机手·先锋",
+		name = "熟練輪機手·先鋒",
 		group_id = 77,
 		worth = 2,
-		desc = "<color=#3dc6ff>先锋</color>耐久提高42点",
+		desc = "<color=#3dc6ff>先鋒</color>耐久提高42點",
 		next = 773,
 		id = 772,
 		icon = "quzhu_naijiu_2",
@@ -2950,17 +2950,17 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<先锋>耐久",
+				"<先鋒>耐久",
 				42
 			}
 		}
 	},
 	[773] = {
 		cost = 0,
-		name = "轮机长·先锋",
+		name = "輪機長·先鋒",
 		group_id = 77,
 		worth = 3,
-		desc = "<color=#3dc6ff>先锋</color>耐久提高60点",
+		desc = "<color=#3dc6ff>先鋒</color>耐久提高60點",
 		next = 0,
 		id = 773,
 		icon = "quzhu_naijiu_3",
@@ -2982,7 +2982,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<先锋>耐久",
+				"<先鋒>耐久",
 				60
 			}
 		}
@@ -6272,10 +6272,10 @@ pg.commander_ability_template = {
 	},
 	[5171] = {
 		cost = 0,
-		name = "大胆的尝试",
+		name = "大膽的嘗試",
 		group_id = 517,
 		worth = 1,
-		desc = "<color=#3dc6ff>正航</color>航空、装填提高10点，<color=#3dc6ff>风帆</color>炮击提高15点",
+		desc = "<color=#3dc6ff>正航</color>航空、裝填提高10點，<color=#3dc6ff>風帆</color>炮擊提高15點",
 		next = 0,
 		id = 5171,
 		icon = "special_one",
@@ -6316,21 +6316,21 @@ pg.commander_ability_template = {
 				10
 			},
 			{
-				"<正航>装填",
+				"<正航>裝填",
 				10
 			},
 			{
-				"<风帆>炮击",
+				"<風帆>炮擊",
 				15
 			}
 		}
 	},
 	[5181] = {
 		cost = 0,
-		name = "战旗重扬",
+		name = "戰旗重揚",
 		group_id = 518,
 		worth = 1,
-		desc = "<color=#3dc6ff>轻巡、重巡、风帆V</color>炮击提高10点，装填提高10点",
+		desc = "<color=#3dc6ff>輕巡、重巡、風帆V</color>炮擊提高10點，裝填提高10點",
 		next = 0,
 		id = 5181,
 		icon = "special_one",
@@ -6360,27 +6360,27 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<轻巡>炮击",
+				"<輕巡>炮擊",
 				10
 			},
 			{
-				"<重巡>炮击",
+				"<重巡>炮擊",
 				10
 			},
 			{
-				"<风帆V>炮击",
+				"<風帆V>炮擊",
 				10
 			},
 			{
-				"<轻巡>装填",
+				"<輕巡>裝填",
 				10
 			},
 			{
-				"<重巡>装填",
+				"<重巡>裝填",
 				10
 			},
 			{
-				"<风帆V>装填",
+				"<風帆V>裝填",
 				10
 			}
 		}

@@ -15,6 +15,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	setText(slot0.visitBtn:Find("Text"), i18n("island_btn_label_visit"))
 	setText(slot0.moreBtn:Find("Text"), i18n("island_btn_label_more"))
+	setText(slot0.onlineTr:Find("Text"), i18n("island_btn_label_online"))
 end
 
 slot0.Update = function(slot0, slot1)

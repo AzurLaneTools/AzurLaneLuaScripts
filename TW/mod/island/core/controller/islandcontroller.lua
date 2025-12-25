@@ -66,8 +66,21 @@ slot0.OnCoreInitFinish = function(slot0)
 	slot0:NotifiyCore(ISLAND_EVT.INIT_FINISH, slot0.sceneData.camreaZoomData)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.INIT_FINISH)
 	slot0.playerInputManager:Init()
-	slot0:InitSyncMgr()
 	slot0:InitStrollUnitsAwards()
+	slot0:InitSyncMgr()
+	slot0:InitVisitor()
+end
+
+slot0.InitVisitor = function(slot0)
+	for slot5, slot6 in pairs(slot0.island:GetVisitorAgency():GetMapVisitorList()) do
+		if not slot6:IsSelf() then
+			slot0:OnPlayerAdd({
+				player = slot6
+			})
+		else
+			slot0.islandSyncMgr:OnVisitorEnter(slot6.id, nil)
+		end
+	end
 end
 
 slot0.InitStrollUnitsAwards = function(slot0)

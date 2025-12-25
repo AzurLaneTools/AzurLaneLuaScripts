@@ -8,11 +8,11 @@ return {
 			side = 2,
 			bgName = "bg_port_niuyue",
 			dir = 1,
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			bgm = "battle-eagleunion",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "1月4日，久违又宝贵的新年假期结束了。",
+			say = "1月4日，久違寶貴的新年假期結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,11 +30,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "在摧毁了测试者的主机后，我将下一个目标定为了构建者。",
+			say = "在摧毀了測試者的主機後，我將下一個目標定為了構建者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,11 +44,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "因此我计划先带领白鹰舰队前往斯卡帕湾锚地与欧罗巴联合舰队会合。",
+			say = "因此我計劃先帶領白鷹艦隊前往斯卡帕灣錨地與歐羅巴聯合艦隊會合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,11 +58,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过从这几日的情报看，塞壬已经加大了各个海域的兵力投入，NA海域中的恶劣海况也愈演愈烈。",
+			say = "不過從這幾日的情報看，塞壬已經加大了各個海域的兵力投入，NA海域中的惡劣海況也愈演愈烈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,11 +72,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "构建者恐怕已经在盘算着什么了。",
+			say = "構建者恐怕已經在盤算著什麼了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,11 +86,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "当然了，它想怎么挣扎都没用。",
+			say = "當然了，它想怎麼掙扎都沒用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,11 +100,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我已经用信标成功联系上了孟菲斯。",
+			say = "我已經用信標成功聯繫上曼非斯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,11 +114,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "到时候给它一个惊喜。",
+			say = "到時候給它一個驚喜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,10 +129,10 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_504",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "2月20日，消灭构建者主机塔。",
+			say = "2月20日，消滅構建者主機塔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,11 +159,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "第二场胜利，再接再厉。",
+			say = "第二場勝利，再接再厲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,55 +174,10 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_504",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "4月13日，消灭清除者主机塔。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			flashout = {
-				dur = 0.5,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				dur = 0.5,
-				black = true,
-				delay = 0.5,
-				alpha = {
-					1,
-					0
-				}
-			}
-		},
-		{
-			portrait = 9702010,
-			side = 2,
-			bgName = "star_level_bg_504",
-			actorName = "海伦娜·META",
-			dir = 1,
-			nameColor = "#FFC960",
-			hidePaintObj = true,
-			say = "这次行动中，爆炸的主机塔意外打通了极地航线，算是胜利之后的额外收获吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 9702010,
-			side = 2,
-			dir = 1,
-			bgName = "star_level_bg_504",
-			actorName = "海伦娜·META",
-			nameColor = "#FFC960",
-			hidePaintObj = true,
-			say = "8月11日，消灭净化者主机塔。",
+			say = "4月13日，消滅清除者主機塔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,11 +204,56 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "第四场里程碑式的胜利。",
+			say = "這次行動中，爆炸的主機塔意外打通了極地航線，算是勝利之後的額外收穫吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 9702010,
+			side = 2,
+			dir = 1,
+			bgName = "star_level_bg_504",
+			actorName = "海倫娜·META",
+			nameColor = "#FFC960",
+			hidePaintObj = true,
+			say = "8月11日，消滅淨化者主機塔。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				dur = 0.5,
+				black = true,
+				delay = 0.5,
+				alpha = {
+					1,
+					0
+				}
+			}
+		},
+		{
+			portrait = 9702010,
+			side = 2,
+			bgName = "star_level_bg_504",
+			actorName = "海倫娜·META",
+			dir = 1,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
+			say = "第四場里程碑式的勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,11 +263,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "此战之后，塞壬实验机关就只剩躲藏在安塔迪卡冰盖下的观察者了。",
+			say = "此戰之後，塞壬實驗機關就只剩躲藏在南極冰蓋下的觀察者了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,10 +278,10 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_544",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "12月24日，消灭观察者主机塔。",
+			say = "12月24日，消滅測試者主機塔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,11 +308,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "star_level_bg_544",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "至此，所有塞壬实验机关均被清理，这个世界自由了。",
+			say = "至此，所有塞壬實驗機關都被清理，這個世界自由了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,11 +322,11 @@ return {
 			portrait = 9702010,
 			side = 2,
 			bgName = "star_level_bg_544",
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本日……所有人都可以沐浴在久违的和平中，享受一个安宁的平安夜了。",
+			say = "這一天……所有人都可以沐浴在久違的和平中，享受一個安寧的平安夜了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/knockdoor1",
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,11 +348,11 @@ return {
 			portrait = 9702020,
 			side = 2,
 			bgName = "star_level_bg_544",
-			actorName = "孟菲斯·META",
+			actorName = "曼非斯·META",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "海伦娜，你在么？",
+			say = "海倫娜，妳在嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "孟菲斯，有事么？",
+			say = "曼非斯，有事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "有一份前线发来的奇怪情报……我也拿不准，所以来给你看看。",
+			say = "有一份前線發來的奇怪情報……我也拿不準，所以來給妳看看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……奇怪情报？",
+			say = "……奇怪情報？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "咦……这组照片是在安塔迪卡大陆另一侧拍摄的？",
+			say = "咦……這組照片是在南極大陸另一側拍攝的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……这些像花蕾一样的东西……是什么？",
+			say = "……這些像花蕾一樣的東西……是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

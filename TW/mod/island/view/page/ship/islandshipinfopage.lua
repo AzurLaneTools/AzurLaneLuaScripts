@@ -231,6 +231,14 @@ slot0.UpdateLevelAndExp = function(slot0, slot1)
 	setActive(slot0.breakoutBtn, slot1:IsMaxLevel() and not slot1:IsMaxBreakLevel())
 end
 
+slot0.RemoveAttrTimer = function(slot0)
+	if slot0.attrTimer then
+		slot0.attrTimer:Stop()
+
+		slot0.attrTimer = nil
+	end
+end
+
 slot0.UpdateAttrs = function(slot0, slot1)
 	slot0.uiAttrList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -242,14 +250,36 @@ end
 
 slot0.UpdateAttr = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot2[slot3]
+	slot6 = slot4:GetAttr(slot5)
 
 	setText(slot1:Find("name"), IslandShipAttr.ToChinese(slot5))
-	setText(slot1:Find("value"), slot4:GetAttr(slot5))
 
-	slot8 = IslandShipAttr.Grade2Img(slot4:GetAttrGrade(slot5))
+	slot8 = nil
 
-	GetImageSpriteFromAtlasAsync("ui/IslandShipUI_atlas", slot8[1], slot1:Find("grade"))
-	GetImageSpriteFromAtlasAsync("ui/IslandShipUI_atlas", slot8[2], slot1:Find("grade_bg"))
+	setTextColor(slot1:Find("value"), Color.NewHex(IslandProductTimeHelper.GetAttributeAddPercentByAttribute(slot4.id, slot3) > 0 and "#00B91E" or slot7 < 0 and "#FF6767" or "#393A3C"))
+	setText(slot1:Find("value"), slot7 ~= 0 and math.floor(slot6 * (1 + 0.01 * slot7)) or slot6)
+
+	if slot7 ~= 0 then
+		slot10 = _.select(slot4:GetDisplayStatus(), function (slot0)
+			return slot0:GetBuffType() == IslandBuffType.SHIP_ATTR
+		end)
+
+		onButton(slot0, slot1, function ()
+			uv0:ShowMsgBox({
+				hideNo = true,
+				type = IslandMsgBox.TYPE_SHIP_OWN_STATUS,
+				title = i18n("island_word_ship_buff_desc"),
+				statusList = uv1
+			})
+		end, SFX_PANEL)
+	else
+		removeOnButton(slot1)
+	end
+
+	slot11 = IslandShipAttr.Grade2Img(slot4:GetAttrGradeByValue(slot9))
+
+	GetImageSpriteFromAtlasAsync("ui/IslandShipUI_atlas", slot11[1], slot1:Find("grade"))
+	GetImageSpriteFromAtlasAsync("ui/IslandShipUI_atlas", slot11[2], slot1:Find("grade_bg"))
 end
 
 slot0.UpdateSkill = function(slot0, slot1)

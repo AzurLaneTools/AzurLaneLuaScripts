@@ -15,7 +15,7 @@ slot0.GetExitAnimationName = function(slot0)
 	return "Anim_IslandActionOpUI_Out"
 end
 
-slot0.SetUIParent = function(slot0, slot1)
+slot0.GetUIParent = function(slot0, slot1)
 	return slot0:GetView().topContainer
 end
 

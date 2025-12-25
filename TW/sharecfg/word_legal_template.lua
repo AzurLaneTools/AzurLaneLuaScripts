@@ -7200,6 +7200,28 @@ end
 temp()
 
 temp = function()
+	uv0["约"] = {
+		["克"] = {
+			["城"] = {
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["穗"] = {
 		["香"] = {
 			this = true

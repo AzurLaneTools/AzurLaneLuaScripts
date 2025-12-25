@@ -1410,7 +1410,7 @@ slot0.InitSwitch = function()
 			setText(slot3, i18n("world_" .. slot5 .. "_name", slot0:getConfig("name")))
 		end,
 		[DROP_TYPE_ICON_FRAME] = function (slot0, slot1, slot2)
-			setText(slot2, slot0:getConfig("desc"))
+			setText(slot2, slot0.desc and slot0.desc or slot0:getConfig("desc"))
 		end,
 		[DROP_TYPE_CHAT_FRAME] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("desc"))

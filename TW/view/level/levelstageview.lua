@@ -312,7 +312,7 @@ slot0.AddListener = function(slot0)
 					slot4 = nil
 
 					for slot8, slot9 in ipairs(pg.memory_template.all) do
-						if pg.memory_template[slot9].story == uv4 then
+						if table.contains(pg.memory_template[slot9].unlock_pre, uv4) then
 							slot4 = slot10.title
 						end
 					end

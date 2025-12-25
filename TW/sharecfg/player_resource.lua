@@ -2420,6 +2420,11 @@ pg.player_resource = {
 		name = "synchronize_xili",
 		itemid = 21920
 	},
+	[3022] = {
+		id = 3022,
+		name = "synchronize_yuekecheng",
+		itemid = 21921
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -2554,6 +2559,11 @@ pg.player_resource = {
 		id = 4101,
 		name = "Battlepass_black_friday",
 		itemid = 65107
+	},
+	[4102] = {
+		id = 4102,
+		name = "Battlepass_winter",
+		itemid = 65112
 	},
 	[4025] = {
 		id = 4025,
@@ -4178,6 +4188,9 @@ pg.player_resource = {
 		synchronize_xili = {
 			3021
 		},
+		synchronize_yuekecheng = {
+			3022
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -4258,6 +4271,9 @@ pg.player_resource = {
 		},
 		Battlepass_black_friday = {
 			4101
+		},
+		Battlepass_winter = {
+			4102
 		},
 		Battlepass_25 = {
 			4025
@@ -4847,6 +4863,7 @@ pg.player_resource = {
 		3019,
 		3020,
 		3021,
+		3022,
 		3106,
 		3137,
 		4001,
@@ -4874,6 +4891,7 @@ pg.player_resource = {
 		4023,
 		4024,
 		4101,
+		4102,
 		4025,
 		4026,
 		4186,
