@@ -13236,7 +13236,6 @@ pg.base.ship_skin_template_3 = {
 		hand_id = 1,
 		lip_smoothing = 0,
 		bgm = "",
-		special_effects = "",
 		bg = "145",
 		gyro = 0,
 		spine_use_live2d = 0,
@@ -13254,7 +13253,6 @@ pg.base.ship_skin_template_3 = {
 		shop_id = 0,
 		voice_actor = 42,
 		skeleton_default_skin = "",
-		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",
 		time = "",
@@ -13384,6 +13382,23 @@ pg.base.ship_skin_template_3 = {
 			ParamEyeBallY = {
 				-0.5,
 				0.5
+			}
+		},
+		spine_offset = {
+			-50,
+			-489,
+			0,
+			0.62
+		},
+		special_effects = {
+			"lihui_yuekechengII_2",
+			{
+				1585,
+				-99,
+				0
+			},
+			{
+				1.3
 			}
 		},
 		ship_l2d_id = {
@@ -13553,7 +13568,7 @@ pg.base.ship_skin_template_3 = {
 			}
 		},
 		spine_offset = {
-			-357,
+			0,
 			-678,
 			0,
 			0.68
@@ -13573,7 +13588,7 @@ pg.base.ship_skin_template_3 = {
 			show = 1,
 			data = {
 				{
-					-544,
+					-1240.8,
 					-483,
 					2,
 					0,
@@ -13581,7 +13596,7 @@ pg.base.ship_skin_template_3 = {
 					1.6
 				},
 				{
-					-91,
+					-757.4,
 					437,
 					2,
 					189,
@@ -13589,7 +13604,7 @@ pg.base.ship_skin_template_3 = {
 					2
 				},
 				{
-					974,
+					54.1,
 					-201.52,
 					2,
 					0,

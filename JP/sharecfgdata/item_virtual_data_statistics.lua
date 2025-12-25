@@ -176161,6 +176161,56 @@ _G.pg.base.item_virtual_data_statistics[65793] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65794] = {
+	drop_gold_max = 0,
+	name = "冬の願い",
+	display = "7個集めると、SSR艦船と交換できる「願いのカード」を入手可能！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65794",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65794,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65795] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2026.1.7まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2026.1.7まで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65795,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "木材",
@@ -184657,6 +184707,68 @@ _G.pg.base.item_virtual_data_statistics[86222] = {
 		{
 			102234,
 			2000
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86223] = {
+	drop_gold_max = 0,
+	name = "ランダム衣装",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86223,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			1199011,
+			1000
+		},
+		{
+			499101,
+			1000
+		},
+		{
+			403037,
+			1000
+		},
+		{
+			802032,
+			1000
+		},
+		{
+			401992,
+			1000
+		},
+		{
+			199061,
+			1000
+		},
+		{
+			702052,
+			1340
+		},
+		{
+			799031,
+			1330
+		},
+		{
+			699031,
+			1330
 		}
 	}
 }

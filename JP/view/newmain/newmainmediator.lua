@@ -267,11 +267,14 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:SetEffectPanelVisible(true)
 		slot0.viewComponent:HidePanel(false)
 	elseif slot2 == GAME.CHANGE_SKIN_EXCHANGE then
-		slot4 = slot0.viewComponent:GetFlagShip()
+		slot4 = slot3.asmr and true or false
+		slot5 = slot0.viewComponent:GetFlagShip()
 
 		if slot0.viewComponent then
-			slot0.viewComponent:UpdateFlagShip(slot4, slot3)
+			slot0.viewComponent:UpdateFlagShip(slot5, slot3)
 		end
+
+		slot0.viewComponent:AsmrTurning(slot4)
 	elseif slot2 == MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION then
 		slot0.viewComponent:CheckAndReplayBgm()
 	elseif slot2 == NewMainMediator.FOLD_PANEL then

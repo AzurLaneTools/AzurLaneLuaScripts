@@ -18520,6 +18520,37 @@ _G.pg.base.item_data_statistics[30207] = {
 }
 
 
+_G.pg.base.item_data_statistics[30208] = {
+	open_directly = 0,
+	name = "北方連合兵装開発支援箱",
+	type = 5,
+	display = "ランダムな北方連合装備が出現する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/30208",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30208",
+	id = 30208,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30301] = {
 	open_directly = 0,
 	name = "明石からのプレゼント",
@@ -114869,6 +114900,266 @@ _G.pg.base.item_data_statistics[60564] = {
 }
 
 
+_G.pg.base.item_data_statistics[60565] = {
+	open_directly = 0,
+	name = "願いのカード(2026)",
+	type = 21,
+	display = "祝福が込められた願いのカード。使用すると艦船を1名選んで入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60565,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3031,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037
+	},
+	limit = {},
+	open_ui = {
+		"shrine_year_winterfestival_2025",
+		"t_shrine"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60566] = {
+	open_directly = 0,
+	name = "グラーフ・ツェッペリンからの返礼",
+	type = 1,
+	display = "グラーフ・ツェッペリンから受け取った願いのカード",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60566,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60567] = {
+	open_directly = 0,
+	name = "ベルファストからの返礼",
+	type = 1,
+	display = "ベルファストから受け取った願いのカード",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60567,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60568] = {
+	open_directly = 0,
+	name = "サウスダコタからの返礼",
+	type = 1,
+	display = "サウスダコタから受け取った願いのカード",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60568,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60569] = {
+	open_directly = 0,
+	name = "クイビシェフからの返礼",
+	type = 1,
+	display = "クイビシェフから受け取った願いのカード",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60569,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60570] = {
+	open_directly = 0,
+	name = "インペロからの返礼",
+	type = 1,
+	display = "インペロから受け取った願いのカード",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60570,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60571] = {
+	open_directly = 0,
+	name = "ビスマルクからの返礼",
+	type = 1,
+	display = "ビスマルクから受け取った願いのカード",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60571,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60572] = {
+	open_directly = 0,
+	name = "リシュリューからの返礼",
+	type = 1,
+	display = "リシュリューから受け取った願いのカード",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60572,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "新年福袋2024①",
@@ -116415,14 +116706,14 @@ _G.pg.base.item_data_statistics[81231] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "998326",
+	usage_arg = "998327",
 	id = 81231,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {
 		{
 			2,
-			86222,
+			86223,
 			1
 		},
 		{

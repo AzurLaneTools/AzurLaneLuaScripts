@@ -1010,6 +1010,126 @@ pg.dorm3d_touch_data = {
 			510910
 		}
 	},
+	[4990510] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 4990510,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			600110
+		}
+	},
+	[4990520] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 4990520,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			600210
+		}
+	},
+	[4990530] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 4990530,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			600310
+		}
+	},
+	[4990540] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 4990540,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			600410
+		}
+	},
+	[4990590] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 4990590,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			610910
+		}
+	},
 	all = {
 		101,
 		102,
@@ -1052,6 +1172,11 @@ pg.dorm3d_touch_data = {
 		3070730,
 		3070740,
 		3070750,
-		3070790
+		3070790,
+		4990510,
+		4990520,
+		4990530,
+		4990540,
+		4990590
 	}
 }

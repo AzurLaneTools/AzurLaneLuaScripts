@@ -108,6 +108,60 @@ pg.dorm3d_dance_cucoloris = {
 		time = 33.57,
 		target_camera = "dance_camera3"
 	},
+	[301] = {
+		id = 301,
+		icon = "aijier_cucoloros1",
+		time = 12.2,
+		target_camera = "dance_camera1"
+	},
+	[302] = {
+		id = 302,
+		icon = "aijier_cucoloros2",
+		time = 22.39,
+		target_camera = "dance_camera1"
+	},
+	[303] = {
+		id = 303,
+		icon = "aijier_cucoloros3",
+		time = 34.35,
+		target_camera = "dance_camera1"
+	},
+	[304] = {
+		id = 304,
+		icon = "aijier_cucoloros4",
+		time = 7.07,
+		target_camera = "dance_camera2"
+	},
+	[305] = {
+		id = 305,
+		icon = "aijier_cucoloros5",
+		time = 22.73,
+		target_camera = "dance_camera2"
+	},
+	[306] = {
+		id = 306,
+		icon = "aijier_cucoloros6",
+		time = 32.76,
+		target_camera = "dance_camera2"
+	},
+	[307] = {
+		id = 307,
+		icon = "aijier_cucoloros7",
+		time = 36.1,
+		target_camera = "dance_camera3"
+	},
+	[308] = {
+		id = 308,
+		icon = "aijier_cucoloros8",
+		time = 45.62,
+		target_camera = "dance_camera3"
+	},
+	[309] = {
+		id = 309,
+		icon = "aijier_cucoloros9",
+		time = 49.78,
+		target_camera = "dance_camera3"
+	},
 	all = {
 		101,
 		102,
@@ -126,6 +180,15 @@ pg.dorm3d_dance_cucoloris = {
 		206,
 		207,
 		208,
-		209
+		209,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309
 	}
 }

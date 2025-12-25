@@ -11,7 +11,8 @@ slot0.register = function(slot0)
 			data = {
 				roomId = uv0.contextData.roomId,
 				groupId = uv0.contextData.groupId,
-				arCheckState = uv0.contextData.ARCheckState
+				arCheckState = uv0.contextData.ARCheckState,
+				holyLightRoot = uv0.viewComponent.holyLightRoot
 			}
 		}))
 	end)

@@ -1871,5 +1871,13 @@ pg.voice_actor_CN = {
 	[490] = {
 		actor_name = "深川芹亜",
 		code = 490
+	},
+	[491] = {
+		actor_name = "萧清源 ",
+		code = 491
+	},
+	[492] = {
+		actor_name = "曾彤 ",
+		code = 492
 	}
 }

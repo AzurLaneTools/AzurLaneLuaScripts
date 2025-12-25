@@ -18721,7 +18721,8 @@ _G.pg.base.equip_data_statistics[3680] = {
 	label = {
 		"MOT",
 		"SF",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -18852,7 +18853,8 @@ _G.pg.base.equip_data_statistics[3700] = {
 	label = {
 		"MOT",
 		"SF",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -19027,7 +19029,8 @@ _G.pg.base.equip_data_statistics[3720] = {
 	label = {
 		"MOT",
 		"SF",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -27441,7 +27444,8 @@ _G.pg.base.equip_data_statistics[7000] = {
 	label = {
 		"SN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -27536,7 +27540,8 @@ _G.pg.base.equip_data_statistics[7020] = {
 	label = {
 		"SN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -27631,7 +27636,8 @@ _G.pg.base.equip_data_statistics[7040] = {
 	label = {
 		"SN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -27769,7 +27775,8 @@ _G.pg.base.equip_data_statistics[7100] = {
 	label = {
 		"PRAN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -27864,7 +27871,8 @@ _G.pg.base.equip_data_statistics[7120] = {
 	label = {
 		"PRAN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -27959,7 +27967,8 @@ _G.pg.base.equip_data_statistics[7140] = {
 	label = {
 		"PRAN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -28107,7 +28116,8 @@ _G.pg.base.equip_data_statistics[7200] = {
 	label = {
 		"SN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -28211,7 +28221,8 @@ _G.pg.base.equip_data_statistics[7220] = {
 	label = {
 		"SN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -28750,7 +28761,8 @@ _G.pg.base.equip_data_statistics[7320] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -29036,7 +29048,8 @@ _G.pg.base.equip_data_statistics[11000] = {
 	label = {
 		"USS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -29139,7 +29152,8 @@ _G.pg.base.equip_data_statistics[11020] = {
 	label = {
 		"USS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -29242,7 +29256,8 @@ _G.pg.base.equip_data_statistics[11040] = {
 	label = {
 		"USS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -29389,7 +29404,8 @@ _G.pg.base.equip_data_statistics[11060] = {
 	label = {
 		"USS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -29536,7 +29552,8 @@ _G.pg.base.equip_data_statistics[11100] = {
 	label = {
 		"USS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -29639,7 +29656,8 @@ _G.pg.base.equip_data_statistics[11120] = {
 	label = {
 		"USS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -30162,7 +30180,8 @@ _G.pg.base.equip_data_statistics[11200] = {
 	label = {
 		"USS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -30898,7 +30917,8 @@ _G.pg.base.equip_data_statistics[12000] = {
 	label = {
 		"USS",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -30993,7 +31013,8 @@ _G.pg.base.equip_data_statistics[12020] = {
 	label = {
 		"USS",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -31088,7 +31109,8 @@ _G.pg.base.equip_data_statistics[12040] = {
 	label = {
 		"USS",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -31227,7 +31249,8 @@ _G.pg.base.equip_data_statistics[12060] = {
 	label = {
 		"USS",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -31366,7 +31389,8 @@ _G.pg.base.equip_data_statistics[12100] = {
 	label = {
 		"USS",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -31461,7 +31485,8 @@ _G.pg.base.equip_data_statistics[12120] = {
 	label = {
 		"USS",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -33650,7 +33675,8 @@ _G.pg.base.equip_data_statistics[14100] = {
 	label = {
 		"USS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -34271,7 +34297,8 @@ _G.pg.base.equip_data_statistics[14200] = {
 	label = {
 		"USS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -34837,7 +34864,8 @@ _G.pg.base.equip_data_statistics[14300] = {
 	label = {
 		"USS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -35427,7 +35455,8 @@ _G.pg.base.equip_data_statistics[14380] = {
 	label = {
 		"USS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -35604,7 +35633,8 @@ _G.pg.base.equip_data_statistics[14400] = {
 	label = {
 		"USS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -53001,7 +53031,8 @@ _G.pg.base.equip_data_statistics[21000] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -53104,7 +53135,8 @@ _G.pg.base.equip_data_statistics[21020] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -53207,7 +53239,8 @@ _G.pg.base.equip_data_statistics[21040] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -53353,7 +53386,8 @@ _G.pg.base.equip_data_statistics[21100] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -53456,7 +53490,8 @@ _G.pg.base.equip_data_statistics[21120] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -53559,7 +53594,8 @@ _G.pg.base.equip_data_statistics[21140] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -53704,7 +53740,8 @@ _G.pg.base.equip_data_statistics[21160] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -53896,7 +53933,8 @@ _G.pg.base.equip_data_statistics[21200] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -53999,7 +54037,8 @@ _G.pg.base.equip_data_statistics[21220] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -54135,7 +54174,8 @@ _G.pg.base.equip_data_statistics[21240] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -54326,7 +54366,8 @@ _G.pg.base.equip_data_statistics[21300] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -54429,7 +54470,8 @@ _G.pg.base.equip_data_statistics[21320] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -54532,7 +54574,8 @@ _G.pg.base.equip_data_statistics[21340] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -54679,7 +54722,8 @@ _G.pg.base.equip_data_statistics[21400] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -54782,7 +54826,8 @@ _G.pg.base.equip_data_statistics[21420] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -54918,7 +54963,8 @@ _G.pg.base.equip_data_statistics[21440] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -55109,7 +55155,8 @@ _G.pg.base.equip_data_statistics[21460] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -55327,7 +55374,8 @@ _G.pg.base.equip_data_statistics[21500] = {
 	label = {
 		"HMS",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -59130,7 +59178,8 @@ _G.pg.base.equip_data_statistics[24000] = {
 	label = {
 		"HMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -59797,7 +59846,8 @@ _G.pg.base.equip_data_statistics[24100] = {
 	label = {
 		"HMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -60387,7 +60437,8 @@ _G.pg.base.equip_data_statistics[24200] = {
 	label = {
 		"HMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -60508,7 +60559,8 @@ _G.pg.base.equip_data_statistics[24220] = {
 	label = {
 		"HMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -60673,7 +60725,8 @@ _G.pg.base.equip_data_statistics[24240] = {
 	label = {
 		"HMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -60874,7 +60927,8 @@ _G.pg.base.equip_data_statistics[24300] = {
 	label = {
 		"HMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -76375,7 +76429,8 @@ _G.pg.base.equip_data_statistics[30000] = {
 	label = {
 		"IJN",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -76524,7 +76579,8 @@ _G.pg.base.equip_data_statistics[31000] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -76661,7 +76717,8 @@ _G.pg.base.equip_data_statistics[31020] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -76842,7 +76899,8 @@ _G.pg.base.equip_data_statistics[31040] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -77058,7 +77116,8 @@ _G.pg.base.equip_data_statistics[31060] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -77467,7 +77526,8 @@ _G.pg.base.equip_data_statistics[31100] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -77570,7 +77630,8 @@ _G.pg.base.equip_data_statistics[31120] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -77673,7 +77734,8 @@ _G.pg.base.equip_data_statistics[31140] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -77820,7 +77882,8 @@ _G.pg.base.equip_data_statistics[31160] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -77968,7 +78031,8 @@ _G.pg.base.equip_data_statistics[31180] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -78160,7 +78224,8 @@ _G.pg.base.equip_data_statistics[31200] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -78263,7 +78328,8 @@ _G.pg.base.equip_data_statistics[31220] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -78593,7 +78659,8 @@ _G.pg.base.equip_data_statistics[31260] = {
 	label = {
 		"IJN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -79142,7 +79209,8 @@ _G.pg.base.equip_data_statistics[32000] = {
 	label = {
 		"IJN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -79237,7 +79305,8 @@ _G.pg.base.equip_data_statistics[32020] = {
 	label = {
 		"IJN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -79611,7 +79680,8 @@ _G.pg.base.equip_data_statistics[32100] = {
 	label = {
 		"IJN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -80019,7 +80089,8 @@ _G.pg.base.equip_data_statistics[32200] = {
 	label = {
 		"IJN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -80738,7 +80809,8 @@ _G.pg.base.equip_data_statistics[32300] = {
 	label = {
 		"IJN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -82561,7 +82633,8 @@ _G.pg.base.equip_data_statistics[34000] = {
 	label = {
 		"IJN",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -83004,7 +83077,8 @@ _G.pg.base.equip_data_statistics[34100] = {
 	label = {
 		"IJN",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -108427,7 +108501,8 @@ _G.pg.base.equip_data_statistics[44000] = {
 	label = {
 		"KMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -108515,7 +108590,8 @@ _G.pg.base.equip_data_statistics[44020] = {
 	label = {
 		"KMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -108636,7 +108712,8 @@ _G.pg.base.equip_data_statistics[44040] = {
 	label = {
 		"KMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -108813,7 +108890,8 @@ _G.pg.base.equip_data_statistics[44100] = {
 	label = {
 		"KMS",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -113133,6 +113211,214 @@ _G.pg.base.equip_data_statistics[45453] = {
 	id = 45453,
 	weapon_id = {
 		45453
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45460] = {
+	name = "潜水艦用G7e魚雷改",
+	speciality = "<[TRP]>",
+	type = 13,
+	tech = 0,
+	value_2 = 65,
+	icon = "45460",
+	attribute_2 = "torpedo",
+	descrip = "说明未填写",
+	rarity = 6,
+	damage = "72 x 2",
+	nationality = 4,
+	ammo = 4,
+	value_3 = 0,
+	id = 45460,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1826
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1826
+		},
+		{
+			4,
+			1601
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		45460
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		8,
+		17
+	},
+	part_sub = {
+		8,
+		17
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"SS",
+		"TP"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[45461] = {
+	damage = "83 x 2",
+	base = 45460,
+	id = 45461,
+	weapon_id = {
+		45461
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45462] = {
+	damage = "93 x 2",
+	base = 45460,
+	id = 45462,
+	weapon_id = {
+		45462
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45463] = {
+	damage = "103 x 2",
+	base = 45460,
+	id = 45463,
+	weapon_id = {
+		45463
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45464] = {
+	damage = "113 x 2",
+	base = 45460,
+	id = 45464,
+	weapon_id = {
+		45464
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45465] = {
+	damage = "125 x 2",
+	base = 45460,
+	id = 45465,
+	weapon_id = {
+		45465
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45466] = {
+	damage = "136 x 2",
+	base = 45460,
+	id = 45466,
+	weapon_id = {
+		45466
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45467] = {
+	damage = "147 x 2",
+	base = 45460,
+	id = 45467,
+	weapon_id = {
+		45467
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45468] = {
+	damage = "159 x 2",
+	base = 45460,
+	id = 45468,
+	weapon_id = {
+		45468
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45469] = {
+	damage = "170 x 2",
+	base = 45460,
+	id = 45469,
+	weapon_id = {
+		45469
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45470] = {
+	damage = "182 x 2",
+	base = 45460,
+	id = 45470,
+	weapon_id = {
+		45470
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45471] = {
+	anti_siren = 100,
+	damage = "182 x 2",
+	base = 45460,
+	id = 45471,
+	weapon_id = {
+		45471
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45472] = {
+	anti_siren = 200,
+	damage = "182 x 2",
+	base = 45460,
+	id = 45472,
+	weapon_id = {
+		45472
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45473] = {
+	anti_siren = 300,
+	damage = "182 x 2",
+	base = 45460,
+	id = 45473,
+	weapon_id = {
+		45473
 	},
 	hidden_skill_id = {}
 }
@@ -140984,7 +141270,8 @@ _G.pg.base.equip_data_statistics[85000] = {
 	label = {
 		"SN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -141120,7 +141407,8 @@ _G.pg.base.equip_data_statistics[85040] = {
 	label = {
 		"SN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -141462,7 +141750,8 @@ _G.pg.base.equip_data_statistics[85120] = {
 	label = {
 		"SN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -142716,7 +143005,8 @@ _G.pg.base.equip_data_statistics[85300] = {
 	label = {
 		"SN",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -142837,7 +143127,8 @@ _G.pg.base.equip_data_statistics[85320] = {
 	label = {
 		"SN",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -143772,7 +144063,8 @@ _G.pg.base.equip_data_statistics[85440] = {
 	label = {
 		"SN",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -144149,6 +144441,214 @@ _G.pg.base.equip_data_statistics[85490] = {
 	id = 85490,
 	weapon_id = {
 		85490
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85500] = {
+	name = "180mm三連装砲B-1-P Model1932",
+	speciality = "<[LOCK]>",
+	type = 2,
+	tech = 3,
+	value_2 = 45,
+	icon = "85460",
+	attribute_2 = "cannon",
+	descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
+	rarity = 5,
+	damage = "24 x 3",
+	nationality = 7,
+	ammo = 1,
+	value_3 = 0,
+	id = 85500,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1712
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1712
+		},
+		{
+			4,
+			1108
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		85500
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[85501] = {
+	id = 85501,
+	base = 85500,
+	weapon_id = {
+		85501
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85502] = {
+	damage = "26 x 3",
+	base = 85500,
+	id = 85502,
+	weapon_id = {
+		85502
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85503] = {
+	damage = "27 x 3",
+	base = 85500,
+	id = 85503,
+	weapon_id = {
+		85503
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85504] = {
+	damage = "28 x 3",
+	base = 85500,
+	id = 85504,
+	weapon_id = {
+		85504
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85505] = {
+	damage = "29 x 3",
+	base = 85500,
+	id = 85505,
+	weapon_id = {
+		85505
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85506] = {
+	damage = "30 x 3",
+	base = 85500,
+	id = 85506,
+	weapon_id = {
+		85506
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85507] = {
+	damage = "31 x 3",
+	base = 85500,
+	id = 85507,
+	weapon_id = {
+		85507
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85508] = {
+	damage = "32 x 3",
+	base = 85500,
+	id = 85508,
+	weapon_id = {
+		85508
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85509] = {
+	damage = "33 x 3",
+	base = 85500,
+	id = 85509,
+	weapon_id = {
+		85509
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85510] = {
+	damage = "34 x 3",
+	base = 85500,
+	id = 85510,
+	weapon_id = {
+		85510
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85511] = {
+	anti_siren = 100,
+	damage = "34 x 3",
+	base = 85500,
+	id = 85511,
+	weapon_id = {
+		85511
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85512] = {
+	anti_siren = 200,
+	damage = "34 x 3",
+	base = 85500,
+	id = 85512,
+	weapon_id = {
+		85512
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85513] = {
+	anti_siren = 300,
+	damage = "34 x 3",
+	base = 85500,
+	id = 85513,
+	weapon_id = {
+		85513
 	},
 	hidden_skill_id = {}
 }
@@ -145870,6 +146370,1482 @@ _G.pg.base.equip_data_statistics[85653] = {
 	id = 85653,
 	weapon_id = {
 		85653
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85660] = {
+	name = "試作型Su-6(艦載型)",
+	type = 9,
+	speciality = "<[BOMB]>",
+	rarity = 5,
+	tech = 0,
+	value_2 = 45,
+	icon = "85660",
+	attribute_2 = "air",
+	descrip = "说明未填写",
+	nationality = 7,
+	ammo = 5,
+	value_3 = 0,
+	id = 85660,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			5,
+			52080
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		85660
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CV",
+		"DB"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[85661] = {
+	base = 85660,
+	id = 85661,
+	ammo_info = {
+		{
+			5,
+			52081
+		}
+	},
+	weapon_id = {
+		85661
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85662] = {
+	base = 85660,
+	id = 85662,
+	ammo_info = {
+		{
+			5,
+			52082
+		}
+	},
+	weapon_id = {
+		85662
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85663] = {
+	base = 85660,
+	id = 85663,
+	ammo_info = {
+		{
+			5,
+			52083
+		}
+	},
+	weapon_id = {
+		85663
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85664] = {
+	base = 85660,
+	id = 85664,
+	ammo_info = {
+		{
+			5,
+			52084
+		}
+	},
+	weapon_id = {
+		85664
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85665] = {
+	base = 85660,
+	id = 85665,
+	ammo_info = {
+		{
+			5,
+			52085
+		}
+	},
+	weapon_id = {
+		85665
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85666] = {
+	base = 85660,
+	id = 85666,
+	ammo_info = {
+		{
+			5,
+			52086
+		}
+	},
+	weapon_id = {
+		85666
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85667] = {
+	base = 85660,
+	id = 85667,
+	ammo_info = {
+		{
+			5,
+			52087
+		}
+	},
+	weapon_id = {
+		85667
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85668] = {
+	base = 85660,
+	id = 85668,
+	ammo_info = {
+		{
+			5,
+			52088
+		}
+	},
+	weapon_id = {
+		85668
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85669] = {
+	base = 85660,
+	id = 85669,
+	ammo_info = {
+		{
+			5,
+			52089
+		}
+	},
+	weapon_id = {
+		85669
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85670] = {
+	base = 85660,
+	id = 85670,
+	ammo_info = {
+		{
+			5,
+			52090
+		}
+	},
+	weapon_id = {
+		85670
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85671] = {
+	anti_siren = 100,
+	base = 85660,
+	id = 85671,
+	ammo_info = {
+		{
+			5,
+			52091
+		}
+	},
+	weapon_id = {
+		85671
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85672] = {
+	anti_siren = 200,
+	base = 85660,
+	id = 85672,
+	ammo_info = {
+		{
+			5,
+			52092
+		}
+	},
+	weapon_id = {
+		85672
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85673] = {
+	anti_siren = 300,
+	base = 85660,
+	id = 85673,
+	ammo_info = {
+		{
+			5,
+			52093
+		}
+	},
+	weapon_id = {
+		85673
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85680] = {
+	name = "B-1-K 180mm単装砲",
+	speciality = "<[LOCK]>",
+	type = 2,
+	tech = 0,
+	value_2 = 25,
+	icon = "85680",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 4,
+	damage = "20 x 1",
+	nationality = 7,
+	ammo = 1,
+	value_3 = 0,
+	id = 85680,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1716
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1716
+		},
+		{
+			4,
+			1000
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		85680
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[85681] = {
+	id = 85681,
+	base = 85680,
+	weapon_id = {
+		85681
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85682] = {
+	damage = "22 x 1",
+	base = 85680,
+	id = 85682,
+	weapon_id = {
+		85682
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85683] = {
+	damage = "23 x 1",
+	base = 85680,
+	id = 85683,
+	weapon_id = {
+		85683
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85684] = {
+	damage = "24 x 1",
+	base = 85680,
+	id = 85684,
+	weapon_id = {
+		85684
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85685] = {
+	damage = "25 x 1",
+	base = 85680,
+	id = 85685,
+	weapon_id = {
+		85685
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85686] = {
+	damage = "26 x 1",
+	base = 85680,
+	id = 85686,
+	weapon_id = {
+		85686
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85687] = {
+	damage = "27 x 1",
+	base = 85680,
+	id = 85687,
+	weapon_id = {
+		85687
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85688] = {
+	damage = "28 x 1",
+	base = 85680,
+	id = 85688,
+	weapon_id = {
+		85688
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85689] = {
+	damage = "29 x 1",
+	base = 85680,
+	id = 85689,
+	weapon_id = {
+		85689
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85690] = {
+	damage = "30 x 1",
+	base = 85680,
+	id = 85690,
+	weapon_id = {
+		85690
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85691] = {
+	anti_siren = 100,
+	damage = "30 x 1",
+	base = 85680,
+	id = 85691,
+	weapon_id = {
+		85691
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85700] = {
+	name = "B-38 152mm連装砲MK17",
+	speciality = "<[LOCK]>",
+	type = 2,
+	tech = 0,
+	value_2 = 25,
+	icon = "85700",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 4,
+	damage = "9 x 4",
+	nationality = 7,
+	ammo = 2,
+	value_3 = 0,
+	id = 85700,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1207
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1207
+		},
+		{
+			4,
+			1001
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		85700
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CL",
+		"MG",
+		"HE"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[85701] = {
+	id = 85701,
+	base = 85700,
+	weapon_id = {
+		85701
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85702] = {
+	damage = "10 x 4",
+	base = 85700,
+	id = 85702,
+	weapon_id = {
+		85702
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85703] = {
+	damage = "11 x 4",
+	base = 85700,
+	id = 85703,
+	weapon_id = {
+		85703
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85704] = {
+	damage = "12 x 4",
+	base = 85700,
+	id = 85704,
+	weapon_id = {
+		85704
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85705] = {
+	damage = "13 x 4",
+	base = 85700,
+	id = 85705,
+	weapon_id = {
+		85705
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85706] = {
+	damage = "14 x 4",
+	base = 85700,
+	id = 85706,
+	weapon_id = {
+		85706
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85707] = {
+	damage = "15 x 4",
+	base = 85700,
+	id = 85707,
+	weapon_id = {
+		85707
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85708] = {
+	damage = "16 x 4",
+	base = 85700,
+	id = 85708,
+	weapon_id = {
+		85708
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85709] = {
+	damage = "17 x 4",
+	base = 85700,
+	id = 85709,
+	weapon_id = {
+		85709
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85710] = {
+	damage = "18 x 4",
+	base = 85700,
+	id = 85710,
+	weapon_id = {
+		85710
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85711] = {
+	anti_siren = 100,
+	damage = "18 x 4",
+	base = 85700,
+	id = 85711,
+	weapon_id = {
+		85711
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85720] = {
+	name = "130mm単装砲Model1913",
+	speciality = "<[LOCK]>",
+	type = 1,
+	tech = 0,
+	value_2 = 12,
+	icon = "85720",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 3,
+	damage = "5 x 3",
+	nationality = 7,
+	ammo = 3,
+	value_3 = 0,
+	id = 85720,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			1,
+			1700
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1700
+		},
+		{
+			4,
+			1003
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		85720
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"DD",
+		"MG",
+		"CM"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[85721] = {
+	damage = "6 x 3",
+	base = 85720,
+	id = 85721,
+	weapon_id = {
+		85721
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85722] = {
+	damage = "7 x 3",
+	base = 85720,
+	id = 85722,
+	weapon_id = {
+		85722
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85723] = {
+	damage = "8 x 3",
+	base = 85720,
+	id = 85723,
+	weapon_id = {
+		85723
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85724] = {
+	damage = "9 x 3",
+	base = 85720,
+	id = 85724,
+	weapon_id = {
+		85724
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85725] = {
+	damage = "10 x 3",
+	base = 85720,
+	id = 85725,
+	weapon_id = {
+		85725
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85726] = {
+	damage = "11 x 3",
+	base = 85720,
+	id = 85726,
+	weapon_id = {
+		85726
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85727] = {
+	damage = "11 x 3",
+	base = 85720,
+	id = 85727,
+	weapon_id = {
+		85727
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85740] = {
+	name = "356mm三連装砲Model1913",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 0,
+	value_2 = 25,
+	icon = "85740",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 4,
+	damage = "56 x 3",
+	nationality = 7,
+	ammo = 2,
+	value_3 = 0,
+	id = 85740,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			2,
+			1512
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		85740
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"BB",
+		"MG",
+		"HE"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[85741] = {
+	damage = "63 x 3",
+	base = 85740,
+	id = 85741,
+	weapon_id = {
+		85741
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85742] = {
+	damage = "68 x 3",
+	base = 85740,
+	id = 85742,
+	weapon_id = {
+		85742
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85743] = {
+	damage = "75 x 3",
+	base = 85740,
+	id = 85743,
+	weapon_id = {
+		85743
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85744] = {
+	damage = "80 x 3",
+	base = 85740,
+	id = 85744,
+	weapon_id = {
+		85744
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85745] = {
+	damage = "87 x 3",
+	base = 85740,
+	id = 85745,
+	weapon_id = {
+		85745
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85746] = {
+	damage = "92 x 3",
+	base = 85740,
+	id = 85746,
+	weapon_id = {
+		85746
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85747] = {
+	damage = "99 x 3",
+	base = 85740,
+	id = 85747,
+	weapon_id = {
+		85747
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85748] = {
+	damage = "104 x 3",
+	base = 85740,
+	id = 85748,
+	weapon_id = {
+		85748
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85749] = {
+	damage = "111 x 3",
+	base = 85740,
+	id = 85749,
+	weapon_id = {
+		85749
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85750] = {
+	damage = "116 x 3",
+	base = 85740,
+	id = 85750,
+	weapon_id = {
+		85750
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85751] = {
+	anti_siren = 100,
+	damage = "116 x 3",
+	base = 85740,
+	id = 85751,
+	weapon_id = {
+		85751
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85760] = {
+	name = "R-5",
+	type = 9,
+	speciality = "<[BOMB]>",
+	rarity = 3,
+	tech = 0,
+	value_2 = 12,
+	icon = "85760",
+	attribute_2 = "air",
+	descrip = "说明未填写",
+	nationality = 7,
+	ammo = 5,
+	value_3 = 0,
+	id = 85760,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50020
+		},
+		{
+			5,
+			52220
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		85760
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CV",
+		"DB"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[85761] = {
+	base = 85760,
+	id = 85761,
+	ammo_info = {
+		{
+			6,
+			50021
+		},
+		{
+			5,
+			52221
+		}
+	},
+	weapon_id = {
+		85761
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85762] = {
+	base = 85760,
+	id = 85762,
+	ammo_info = {
+		{
+			6,
+			50022
+		},
+		{
+			5,
+			52222
+		}
+	},
+	weapon_id = {
+		85762
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85763] = {
+	base = 85760,
+	id = 85763,
+	ammo_info = {
+		{
+			6,
+			50023
+		},
+		{
+			5,
+			52223
+		}
+	},
+	weapon_id = {
+		85763
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85764] = {
+	base = 85760,
+	id = 85764,
+	ammo_info = {
+		{
+			6,
+			50024
+		},
+		{
+			5,
+			52224
+		}
+	},
+	weapon_id = {
+		85764
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85765] = {
+	base = 85760,
+	id = 85765,
+	ammo_info = {
+		{
+			6,
+			50025
+		},
+		{
+			5,
+			52225
+		}
+	},
+	weapon_id = {
+		85765
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85766] = {
+	base = 85760,
+	id = 85766,
+	ammo_info = {
+		{
+			6,
+			50026
+		},
+		{
+			5,
+			52226
+		}
+	},
+	weapon_id = {
+		85766
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85767] = {
+	base = 85760,
+	id = 85767,
+	ammo_info = {
+		{
+			6,
+			50027
+		},
+		{
+			5,
+			52227
+		}
+	},
+	weapon_id = {
+		85767
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85780] = {
+	name = "LBSh",
+	type = 9,
+	speciality = "<[BOMB]>",
+	rarity = 4,
+	tech = 0,
+	value_2 = 25,
+	icon = "85780",
+	attribute_2 = "air",
+	descrip = "说明未填写",
+	nationality = 7,
+	ammo = 5,
+	value_3 = 0,
+	id = 85780,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50040
+		},
+		{
+			6,
+			50540
+		},
+		{
+			5,
+			53460
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		85780
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CV",
+		"DB"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[85781] = {
+	base = 85780,
+	id = 85781,
+	ammo_info = {
+		{
+			6,
+			50041
+		},
+		{
+			6,
+			50541
+		},
+		{
+			5,
+			53461
+		}
+	},
+	weapon_id = {
+		85781
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85782] = {
+	base = 85780,
+	id = 85782,
+	ammo_info = {
+		{
+			6,
+			50042
+		},
+		{
+			6,
+			50542
+		},
+		{
+			5,
+			53462
+		}
+	},
+	weapon_id = {
+		85782
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85783] = {
+	base = 85780,
+	id = 85783,
+	ammo_info = {
+		{
+			6,
+			50043
+		},
+		{
+			6,
+			50543
+		},
+		{
+			5,
+			53463
+		}
+	},
+	weapon_id = {
+		85783
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85784] = {
+	base = 85780,
+	id = 85784,
+	ammo_info = {
+		{
+			6,
+			50044
+		},
+		{
+			6,
+			50544
+		},
+		{
+			5,
+			53464
+		}
+	},
+	weapon_id = {
+		85784
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85785] = {
+	base = 85780,
+	id = 85785,
+	ammo_info = {
+		{
+			6,
+			50045
+		},
+		{
+			6,
+			50545
+		},
+		{
+			5,
+			53465
+		}
+	},
+	weapon_id = {
+		85785
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85786] = {
+	base = 85780,
+	id = 85786,
+	ammo_info = {
+		{
+			6,
+			50046
+		},
+		{
+			6,
+			50546
+		},
+		{
+			5,
+			53466
+		}
+	},
+	weapon_id = {
+		85786
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85787] = {
+	base = 85780,
+	id = 85787,
+	ammo_info = {
+		{
+			6,
+			50047
+		},
+		{
+			6,
+			50547
+		},
+		{
+			5,
+			53467
+		}
+	},
+	weapon_id = {
+		85787
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85788] = {
+	base = 85780,
+	id = 85788,
+	ammo_info = {
+		{
+			6,
+			50048
+		},
+		{
+			6,
+			50548
+		},
+		{
+			5,
+			53468
+		}
+	},
+	weapon_id = {
+		85788
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85789] = {
+	base = 85780,
+	id = 85789,
+	ammo_info = {
+		{
+			6,
+			50049
+		},
+		{
+			6,
+			50549
+		},
+		{
+			5,
+			53469
+		}
+	},
+	weapon_id = {
+		85789
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85790] = {
+	base = 85780,
+	id = 85790,
+	ammo_info = {
+		{
+			6,
+			50050
+		},
+		{
+			6,
+			50550
+		},
+		{
+			5,
+			53470
+		}
+	},
+	weapon_id = {
+		85790
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85791] = {
+	anti_siren = 100,
+	base = 85780,
+	id = 85791,
+	ammo_info = {
+		{
+			6,
+			50051
+		},
+		{
+			6,
+			50551
+		},
+		{
+			5,
+			53471
+		}
+	},
+	weapon_id = {
+		85791
 	},
 	hidden_skill_id = {}
 }
@@ -152279,7 +154255,8 @@ _G.pg.base.equip_data_statistics[90000] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -152382,7 +154359,8 @@ _G.pg.base.equip_data_statistics[90020] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -152486,7 +154464,8 @@ _G.pg.base.equip_data_statistics[90040] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -152634,7 +154613,8 @@ _G.pg.base.equip_data_statistics[90100] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -153378,7 +155358,8 @@ _G.pg.base.equip_data_statistics[90200] = {
 	label = {
 		"FFNF",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -153473,7 +155454,8 @@ _G.pg.base.equip_data_statistics[90220] = {
 	label = {
 		"FFNF",
 		"CL",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -153909,7 +155891,8 @@ _G.pg.base.equip_data_statistics[90300] = {
 	label = {
 		"FFNF",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -153997,7 +155980,8 @@ _G.pg.base.equip_data_statistics[90320] = {
 	label = {
 		"FFNF",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -154496,7 +156480,8 @@ _G.pg.base.equip_data_statistics[90400] = {
 		"FFNF",
 		"BB",
 		"MG",
-		"Richelieu"
+		"Richelieu",
+		"CM"
 	}
 }
 
@@ -154985,7 +156970,8 @@ _G.pg.base.equip_data_statistics[90460] = {
 	label = {
 		"FFNF",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -155336,7 +157322,8 @@ _G.pg.base.equip_data_statistics[90500] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -156387,7 +158374,8 @@ _G.pg.base.equip_data_statistics[90700] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -156490,7 +158478,8 @@ _G.pg.base.equip_data_statistics[90720] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -156627,7 +158616,8 @@ _G.pg.base.equip_data_statistics[90740] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -156820,7 +158810,8 @@ _G.pg.base.equip_data_statistics[90760] = {
 	label = {
 		"FFNF",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -156961,7 +158952,8 @@ _G.pg.base.equip_data_statistics[90780] = {
 		"FFNF",
 		"CL",
 		"MG",
-		"AP"
+		"AP",
+		"CM"
 	}
 }
 
@@ -157101,7 +159093,8 @@ _G.pg.base.equip_data_statistics[90800] = {
 		"FFNF",
 		"CL",
 		"MG",
-		"AP"
+		"AP",
+		"CM"
 	}
 }
 
@@ -161235,7 +163228,8 @@ _G.pg.base.equip_data_statistics[95000] = {
 	label = {
 		"RN",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -163404,7 +165398,7 @@ _G.pg.base.equip_data_statistics[95400] = {
 		"RN",
 		"DD",
 		"MG",
-		"AP"
+		"CM"
 	}
 }
 
@@ -163508,7 +165502,7 @@ _G.pg.base.equip_data_statistics[95420] = {
 		"RN",
 		"DD",
 		"MG",
-		"AP"
+		"CM"
 	}
 }
 
@@ -163645,7 +165639,7 @@ _G.pg.base.equip_data_statistics[95440] = {
 		"RN",
 		"DD",
 		"MG",
-		"AP"
+		"CM"
 	}
 }
 
@@ -164547,7 +166541,7 @@ _G.pg.base.equip_data_statistics[95560] = {
 		"RN",
 		"DD",
 		"MG",
-		"AP"
+		"CM"
 	}
 }
 
@@ -164651,7 +166645,7 @@ _G.pg.base.equip_data_statistics[95580] = {
 		"RN",
 		"DD",
 		"MG",
-		"AP"
+		"CM"
 	}
 }
 
@@ -166991,7 +168985,8 @@ _G.pg.base.equip_data_statistics[95920] = {
 	label = {
 		"RN",
 		"DD",
-		"MG"
+		"MG",
+		"SAP"
 	}
 }
 
@@ -167969,7 +169964,8 @@ _G.pg.base.equip_data_statistics[96100] = {
 	label = {
 		"PRAN",
 		"DD",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -168377,7 +170373,8 @@ _G.pg.base.equip_data_statistics[96140] = {
 	label = {
 		"RN",
 		"BB",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -170105,7 +172102,8 @@ _G.pg.base.equip_data_statistics[150040] = {
 	label = {
 		"MOT",
 		"SF",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 
@@ -170236,7 +172234,8 @@ _G.pg.base.equip_data_statistics[150080] = {
 	label = {
 		"MOT",
 		"SF",
-		"MG"
+		"MG",
+		"CM"
 	}
 }
 

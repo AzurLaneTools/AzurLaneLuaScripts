@@ -1435,6 +1435,223 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/entertainment"
 		}
 	},
+	[1401] = {
+		rarity = 3,
+		name = "ふんわりシルク",
+		unlock_tips = "",
+		type = 4,
+		room_id = 14,
+		desc = "クラシックなデザインのダブルベッド。黒のヘッドボードに赤のベルベットの毛布や、柔らかなマットレスと枕が疲れた心身に温かな安らぎを提供してくれる。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1401,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990510
+			}
+		},
+		shop_id = {}
+	},
+	[1402] = {
+		rarity = 3,
+		name = "シンプルデスク",
+		unlock_tips = "",
+		type = 6,
+		room_id = 14,
+		desc = "黒の木材とシンプルな赤色の椅子。実用性と古典的な雰囲気を兼ね備えている。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1402,
+		target_slots = {
+			1140201
+		},
+		touch_id = {
+			{
+				49905,
+				4990520
+			}
+		},
+		shop_id = {}
+	},
+	[1403] = {
+		rarity = 3,
+		name = "本革ソファ",
+		unlock_tips = "",
+		type = 5,
+		room_id = 14,
+		desc = "柔らかくて快適な座り心地の本革ソファ。丸形のティーテーブルと組み合せれば、一人の時間を快適に過ごせる理想の場所へと早変わり。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1403,
+		target_slots = {
+			1140301
+		},
+		touch_id = {
+			{
+				49905,
+				4990530
+			}
+		},
+		shop_id = {}
+	},
+	[1411] = {
+		rarity = 2,
+		name = "ロングキャンドル",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "アイボリーホワイトのロングキャンドル。柔らかく温かな明かりで夜に静寂とロマンチックな雰囲気を添える。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1411,
+		target_slots = {
+			1140303
+		},
+		shop_id = {}
+	},
+	[1412] = {
+		rarity = 2,
+		name = "緑の盆栽",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "大型の観葉植物は、その大きて青々とした葉で部屋に活力を与えるだけでなく、空気をも浄化してくれる。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_bonsai01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1412,
+		target_slots = {
+			1140202
+		},
+		shop_id = {}
+	},
+	[1413] = {
+		rarity = 2,
+		name = "デスクライト",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "デスクに置かれているミニライト。温かな明かりを放ち、夜間の読書や仕事に快適な照明を提供してくれる。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_desklamp01_on",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1413,
+		target_slots = {
+			1140103
+		},
+		shop_id = {}
+	},
+	[1414] = {
+		rarity = 2,
+		name = "レトロカメラ",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "古き良きレトロカメラ。年季を感じさせる独特なデザインを持ち、写真愛好家のコレクションに最適な一品。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_camera01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1414,
+		target_slots = {
+			1140102
+		},
+		shop_id = {}
+	},
+	[1415] = {
+		rarity = 2,
+		name = "肖像画",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "古典的なタッチで描かれた抽象派の肖像画。鮮やかさと深みという相反する色彩が共存し、意外と部屋の雰囲気とよく合っている。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1415,
+		target_slots = {
+			1140302
+		},
+		shop_id = {}
+	},
+	[1461] = {
+		rarity = 4,
+		name = "真紅の寧謐",
+		type = 4,
+		room_id = 14,
+		desc = "プライベートでロマンチックなシークレットスペース。赤いベルベットの寝具と引き出し式の天蓋カーテンが、夜に静けさと温もりをもたらしてくれる。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
+		acesses = "",
+		id = 1461,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990540
+			}
+		},
+		shop_id = {
+			270601
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1461"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1502,6 +1719,17 @@ pg.dorm3d_furniture_template = {
 			1215,
 			1221,
 			1222
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1461
 		}
 	},
 	all = {
@@ -1559,6 +1787,15 @@ pg.dorm3d_furniture_template = {
 		1214,
 		1215,
 		1221,
-		1222
+		1222,
+		1401,
+		1402,
+		1403,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1461
 	}
 }

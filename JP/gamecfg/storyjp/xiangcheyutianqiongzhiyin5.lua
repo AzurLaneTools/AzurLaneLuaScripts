@@ -780,7 +780,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			portrait = "zhihuiguan",
-			bgName = "star_level_bg_134",
+			bgName = "bg_port_NY_future",
 			actor = 107160,
 			actorName = "{playername}&レキシントンⅡ",
 			hidePaintObj = true,
@@ -810,7 +810,7 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			bgName = "star_level_bg_134",
+			bgName = "bg_port_NY_future",
 			dir = 1,
 			actor = 107160,
 			nameColor = "#A9F548FF",
@@ -824,7 +824,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_134",
+			bgName = "bg_port_NY_future",
 			dir = 1,
 			actor = 107160,
 			nameColor = "#A9F548FF",

@@ -33,7 +33,10 @@ pg.dorm3d_shop_template = setmetatable({
 		29,
 		30,
 		31,
-		32
+		32,
+		33,
+		34,
+		35
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -737,6 +740,71 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_gift2022003"
+		}
+	},
+	{
+		rarity = 4,
+		name = "真紅の寧謐",
+		type = 1,
+		room_id = 49905,
+		unlock = "",
+		item_id = 1461,
+		id = 33,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270601
+		},
+		banners = {
+			"banner_furniture1461"
+		}
+	},
+	{
+		rarity = 4,
+		name = "チューリップグラス",
+		type = 2,
+		room_id = 49905,
+		unlock = "",
+		item_id = 4990501,
+		id = 34,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260601
+		},
+		banners = {
+			"banner_gift4990501"
+		}
+	},
+	{
+		rarity = 4,
+		name = "カフェ招待状・エーギル",
+		type = 3,
+		room_id = 49905,
+		unlock = "",
+		item_id = 16,
+		id = 35,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			2
+		},
+		shop_id = {
+			270115
+		},
+		banners = {
+			"banner_cafe3"
 		}
 	}
 }

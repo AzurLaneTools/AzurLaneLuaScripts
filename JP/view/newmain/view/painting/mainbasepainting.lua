@@ -16,6 +16,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.cvLoader = MainCVLoader.New()
 	slot0.longPressEvent = slot1:GetComponent("UILongPressTrigger").onLongPressed
 	slot0.replaceWord = false
+	slot0._asmrFlag = false
 end
 
 slot0.IsUnload = function(slot0)
@@ -97,6 +98,10 @@ slot0.InitClickEvent = function(slot0)
 	slot1 = slot0.longPressEvent
 
 	slot1:AddListener(function ()
+		if uv0._asmrFlag then
+			return
+		end
+
 		if getProxy(ContextProxy):getCurrentContext().viewComponent.__cname == "NewMainScene" then
 			uv0:OnLongPress()
 		end
@@ -225,7 +230,7 @@ slot0.TriggerEvent = function(slot0, slot1)
 end
 
 slot0.TriggerNextEventAuto = function(slot0)
-	if slot0.isPuase or slot0.isExited then
+	if slot0.isPuase or slot0.isExited and slot0._asmrFlag then
 		return
 	end
 
@@ -280,7 +285,13 @@ slot0.DisplayWord = function(slot0, slot1)
 	end
 
 	slot0:OnDisplayWorld(slot1)
-	slot0:emit(MainWordView.SET_CONTENT, slot1, slot4)
+
+	if slot0._asmrFlag then
+		slot0:emit(MainAsmrChatView.SET_CONTENT, slot1, slot4)
+	else
+		slot0:emit(MainWordView.SET_CONTENT, slot1, slot4)
+	end
+
 	slot0:PlayCvAndAnimation(slot6, slot5, slot3)
 end
 
@@ -329,6 +340,10 @@ slot0.preloadCv = function(slot0, slot1)
 	slot0.cvLoader:preloadCv(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship:getSkinId())), slot1)
 end
 
+slot0.OnAsmrTurnning = function(slot0, slot1)
+	slot0._asmrFlag = slot1
+end
+
 slot0.setReplaceWord = function(slot0, slot1)
 	slot0.replaceWord = slot1
 end
@@ -341,7 +356,12 @@ slot0.StartChatAnimtion = function(slot0, slot1, slot2)
 	slot3 = 0.3
 	slot4 = slot1 > 0 and slot1 or 3
 
-	slot0:emit(MainWordView.START_ANIMATION, slot3, slot4)
+	if slot0._asmrFlag then
+		slot0:emit(MainAsmrChatView.START_CHAT, slot3, slot4)
+	else
+		slot0:emit(MainWordView.START_ANIMATION, slot3, slot4)
+	end
+
 	slot0:AddCharTimer(function ()
 		if uv0:IsUnload() then
 			return
@@ -368,7 +388,10 @@ slot0.RemoveChatTimer = function(slot0)
 end
 
 slot0.StopChatAnimtion = function(slot0)
-	slot0:emit(MainWordView.STOP_ANIMATION)
+	if not slot0._asmrFlag then
+		slot0:emit(MainWordView.STOP_ANIMATION)
+	end
+
 	slot0:OnEndChatting()
 end
 

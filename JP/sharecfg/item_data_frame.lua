@@ -828,6 +828,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>金色の翼を広げ、羽根が輝ききらめく。優雅にしてどこか神秘的</color>\n「交流宿舎」大鳳の親愛度Lv報酬",
 		scene = {}
 	},
+	[1011] = {
+		name = "深淵の鎖",
+		gain_by = "",
+		time_second = 0,
+		id = 1011,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>漆黒の鎖に不滅の怒雷を纏い、熾烈なる龍が深淵より来たれり</color>\n「交流宿舎」でエーギルの親密度を上げると入手可能",
+		scene = {}
+	},
+	[1012] = {
+		name = "碧海の王冠",
+		gain_by = "",
+		time_second = 0,
+		id = 1012,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>荒波の中で鋼色の旗が翻り、戴かれる黄金の冠は至高なる海の権能を示せり</color>\n「交流宿舎」でエーギルの親密度を上げると入手可能",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界挑戦・ふたご座",
 		gain_by = "",
@@ -1029,6 +1047,8 @@ pg.item_data_frame = {
 		1008,
 		1009,
 		1010,
+		1011,
+		1012,
 		10001,
 		10002,
 		10003,

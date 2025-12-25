@@ -17,6 +17,7 @@ slot0.WITH_SPINE_PLUS = 7
 slot0.WITH_CHANGE = 8
 slot0.WITH_LIVE2D_PLUS = 9
 slot0.WITH_DOUBLE_VIOCE = 10
+slot0.WITH_ASMR = 11
 
 slot0.Tag2Name = function(slot0)
 	if not uv0.Tag2NameTab then
@@ -30,7 +31,8 @@ slot0.Tag2Name = function(slot0)
 			[uv0.WITH_SPINE_PLUS] = "spine_plus",
 			[uv0.WITH_CHANGE] = "change",
 			[uv0.WITH_LIVE2D_PLUS] = "live2d_plus",
-			[uv0.WITH_DOUBLE_VIOCE] = "double_voice"
+			[uv0.WITH_DOUBLE_VIOCE] = "double_voice",
+			[uv0.WITH_ASMR] = "asmr_skin"
 		}
 	end
 
@@ -424,7 +426,7 @@ slot0.IsChangeSkin = function(slot0)
 		warning("skin not exist " .. slot0)
 	end
 
-	return table.contains(slot1.tag, uv0.WITH_CHANGE) or table.contains(slot1.tag, uv0.WITH_DOUBLE_VIOCE)
+	return table.contains(slot1.tag, uv0.WITH_CHANGE) or table.contains(slot1.tag, uv0.WITH_DOUBLE_VIOCE) or table.contains(slot1.tag, uv0.WITH_ASMR)
 end
 
 slot0.GetChangeSkinMainId = function(slot0)
@@ -494,7 +496,8 @@ slot0.GetStoreChangeSkinId = function(slot0, slot1)
 end
 
 slot0.SetStoreChangeSkinId = function(slot0, slot1)
-	slot2, slot3 = ShipPhantom.UnpackMark(slot1)
+	slot2 = ShipSkin.GetChangeSkinCustomDataId(slot0, "asmr") == 1 and true or false
+	slot3, slot4 = ShipPhantom.UnpackMark(slot1)
 
 	PlayerPrefs.SetInt(uv0.GetStoreChangeSkinPrefsName(uv0.GetChangeSkinGroupId(slot0), slot1), slot0)
 end

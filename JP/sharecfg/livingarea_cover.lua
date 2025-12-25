@@ -1,5 +1,30 @@
 pg = pg or {}
-pg.livingarea_cover = {
+pg.livingarea_cover = setmetatable({
+	__name = "livingarea_cover",
+	all = {
+		0,
+		100101,
+		100102,
+		100103,
+		100201,
+		100202,
+		100203,
+		100301,
+		100302,
+		100303,
+		101101,
+		101102,
+		101103,
+		101201,
+		101202,
+		101203,
+		101401,
+		101402,
+		101403
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.livingarea_cover = {
 	[0] = {
 		get_tips = "",
 		name = "默认",
@@ -192,22 +217,40 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101203_icon"
 	},
-	all = {
-		0,
-		100101,
-		100102,
-		100103,
-		100201,
-		100202,
-		100203,
-		100301,
-		100302,
-		100303,
-		101101,
-		101102,
-		101103,
-		101201,
-		101202,
-		101203
+	[101401] = {
+		get_tips = "親愛度壁紙を入手しました",
+		name = "机間の囁き",
+		nighttime_res = "101401_bg_night",
+		daytime_res = "101401_bg_day",
+		rarity = 3,
+		desc = "入手すると「母港」の壁紙を「机間の囁き」にすることが可能",
+		unlock_text = "エーギル宿舎親愛度Lv2で開放",
+		id = 101401,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101401_icon"
+	},
+	[101402] = {
+		get_tips = "親愛度壁紙を入手しました",
+		name = "のんびり休憩",
+		nighttime_res = "101402_bg_night",
+		daytime_res = "101402_bg_day",
+		rarity = 3,
+		desc = "入手すると「母港」の壁紙を「のんびり休憩」にすることが可能",
+		unlock_text = "エーギル宿舎親愛度Lv7で開放",
+		id = 101402,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101402_icon"
+	},
+	[101403] = {
+		get_tips = "親愛度壁紙を入手しました",
+		name = "枕辺の誘い",
+		nighttime_res = "101403_bg_night",
+		daytime_res = "101403_bg_day",
+		rarity = 3,
+		desc = "入手すると「母港」の壁紙を「枕辺の誘い」にすることが可能",
+		unlock_text = "エーギル宿舎親愛度Lv10で開放",
+		id = 101403,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101403_icon"
 	}
 }

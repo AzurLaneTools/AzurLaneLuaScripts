@@ -521,7 +521,198 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		517,
 		518,
 		519,
-		520
+		520,
+		521,
+		522,
+		523,
+		524,
+		525,
+		526,
+		527,
+		528,
+		529,
+		530,
+		531,
+		532,
+		533,
+		534,
+		535,
+		536,
+		537,
+		538,
+		539,
+		540,
+		541,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
+		551,
+		552,
+		553,
+		554,
+		555,
+		556,
+		557,
+		558,
+		559,
+		560,
+		561,
+		562,
+		563,
+		564,
+		565,
+		566,
+		567,
+		568,
+		569,
+		570,
+		571,
+		572,
+		573,
+		574,
+		575,
+		576,
+		577,
+		578,
+		579,
+		580,
+		581,
+		582,
+		583,
+		584,
+		585,
+		586,
+		587,
+		588,
+		589,
+		590,
+		591,
+		592,
+		593,
+		594,
+		595,
+		596,
+		597,
+		598,
+		599,
+		600,
+		601,
+		602,
+		603,
+		604,
+		605,
+		606,
+		607,
+		608,
+		609,
+		610,
+		611,
+		612,
+		613,
+		614,
+		615,
+		616,
+		617,
+		618,
+		619,
+		620,
+		621,
+		622,
+		623,
+		624,
+		625,
+		626,
+		627,
+		628,
+		629,
+		630,
+		631,
+		632,
+		633,
+		634,
+		635,
+		636,
+		637,
+		638,
+		639,
+		640,
+		641,
+		642,
+		643,
+		644,
+		645,
+		646,
+		647,
+		648,
+		649,
+		650,
+		651,
+		652,
+		653,
+		654,
+		655,
+		656,
+		657,
+		658,
+		659,
+		660,
+		661,
+		662,
+		663,
+		664,
+		665,
+		666,
+		667,
+		668,
+		669,
+		670,
+		671,
+		672,
+		673,
+		674,
+		675,
+		676,
+		677,
+		678,
+		679,
+		680,
+		681,
+		682,
+		683,
+		684,
+		685,
+		686,
+		687,
+		688,
+		689,
+		690,
+		691,
+		692,
+		693,
+		694,
+		695,
+		696,
+		697,
+		698,
+		699,
+		700,
+		701,
+		702,
+		703,
+		704,
+		705,
+		706,
+		707,
+		708,
+		709,
+		710,
+		711
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5045,5 +5236,1678 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 520,
 		flag = 1
+	},
+	{
+		param = "指揮官、もう寝たかしら？",
+		ship_group = 49905,
+		type = 1,
+		id = 521,
+		flag = 0,
+		option = {
+			{
+				1,
+				"もう寝たよ"
+			}
+		}
+	},
+	{
+		param = "うん、今ぐっすり寝てるよ。徹夜はしてないからね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 522,
+		flag = 1
+	},
+	{
+		param = "ほう？そうなのね……安心したわ。そんなお利口さんを褒めてあげないとね？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 523,
+		flag = 1
+	},
+	{
+		param = "……なんて言うと思った？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 524,
+		flag = 1
+	},
+	{
+		param = "寝てる人がどうやって返信するのよ……明らかに徹夜してるじゃない！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 525,
+		flag = 1
+	},
+	{
+		param = "明日の朝もまた「世界最期の日」みたいな顔で出かけるつもり？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 526,
+		flag = 1
+	},
+	{
+		param = "5分やるわ、今すぐ寝なさい！",
+		ship_group = 49905,
+		type = 1,
+		id = 527,
+		flag = 1,
+		option = {
+			{
+				2,
+				"5分……"
+			}
+		}
+	},
+	{
+		param = "5分って……いくらなんでも無理だよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 528,
+		flag = 2
+	},
+	{
+		param = "ほう？なら、私の秘蔵の「深淵の佳醸」を試す時が来たようね？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 529,
+		flag = 2
+	},
+	{
+		param = "私は別に構わないわ……翌日、二日酔いに悩まされるのは私じゃないもの",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 530,
+		flag = 2
+	},
+	{
+		param = "前もって言っておくけど、もし明日起きられなかったら……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 531,
+		flag = 2
+	},
+	{
+		param = "深淵の神性に許しを請うにせよ、贈り物を受け取るにせよ、凄まじい代償を払うことになるわよ？",
+		ship_group = 49905,
+		type = 1,
+		id = 532,
+		flag = 2,
+		option = {
+			{
+				3,
+				"今すぐ寝る！"
+			}
+		}
+	},
+	{
+		param = "わかった、今すぐ寝るから！おやすみ！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 533,
+		flag = 3
+	},
+	{
+		param = "ふふ、いい子ね",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 534,
+		flag = 3
+	},
+	{
+		param = "楽しみにしてなさい。いい子にしていれば……当然ご褒美もあるわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 535,
+		flag = 3
+	},
+	{
+		param = "おやすみなさい、愛しい指揮官",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 536,
+		flag = 3
+	},
+	{
+		param = "今日、会いに来れるかしら？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 537,
+		flag = 0
+	},
+	{
+		param = "ただ気まぐれに聞いてみただけ、特別な意味なんかないから",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 538,
+		flag = 0
+	},
+	{
+		param = "それで……こっちに来れるの？",
+		ship_group = 49905,
+		type = 1,
+		id = 539,
+		flag = 0,
+		option = {
+			{
+				1,
+				"今行くよ"
+			}
+		}
+	},
+	{
+		param = "今行くよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 540,
+		flag = 1
+	},
+	{
+		param = "わざわざ来なくてもいいのよ！ただ、なんとなく聞いてみただけだから！",
+		ship_group = 49905,
+		type = 1,
+		id = 541,
+		flag = 1,
+		option = {
+			{
+				2,
+				"本当は何か用事があるんじゃ？"
+			}
+		}
+	},
+	{
+		param = "でも、本当は何か用事があるんじゃない？わざわざメッセージをくれるくらいだから、ただの確認だけじゃないよね？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 542,
+		flag = 2
+	},
+	{
+		param = "すぐ行くけど、ちょっと待ってて。鍵を落としたかもしれないから探してくる",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 543,
+		flag = 2
+	},
+	{
+		param = "だから、わざわざ来なくていいから！ただ……ちょっと会いたくて……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 544,
+		flag = 2
+	},
+	{
+		param = "今のはなし……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 545,
+		flag = 2
+	},
+	{
+		param = "これ…どうやって取り消すの……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 546,
+		flag = 2
+	},
+	{
+		param = "何か言いなさいよ！今のは見てないわよね？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 547,
+		flag = 2
+	},
+	{
+		param = "いっぱい文字を送信して、画面から押し流すしかなさそうね",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 548,
+		flag = 2
+	},
+	{
+		param = "そういえば",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 549,
+		flag = 2
+	},
+	{
+		param = "急にアクアリウムを作りたくなっちゃって",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 550,
+		flag = 2
+	},
+	{
+		param = "だから、買ってきてくれるかしら？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 551,
+		flag = 2
+	},
+	{
+		param = "石",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 552,
+		flag = 2
+	},
+	{
+		param = "砂",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 553,
+		flag = 2
+	},
+	{
+		param = "あと、きれいな魚も",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 554,
+		flag = 2
+	},
+	{
+		param = "それと、海藻も必要ね",
+		ship_group = 49905,
+		type = 1,
+		id = 555,
+		flag = 2,
+		option = {
+			{
+				3,
+				"全部見たよ"
+			}
+		}
+	},
+	{
+		param = "全部見たよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 556,
+		flag = 3
+	},
+	{
+		param = "全部ね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 557,
+		flag = 3
+	},
+	{
+		param = "ちょっとだけ……会いたいわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 558,
+		flag = 3
+	},
+	{
+		param = "そういえば、指揮官",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 559,
+		flag = 0
+	},
+	{
+		param = "帰り道で煙突を掃除してる饅頭を見かけたわ",
+		ship_group = 49905,
+		type = 1,
+		id = 560,
+		flag = 0,
+		option = {
+			{
+				1,
+				"毎年恒例のボイラー室の大点検？"
+			}
+		}
+	},
+	{
+		param = "今日って、毎年恒例のボイラー室の点検日だよね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 561,
+		flag = 1
+	},
+	{
+		param = "……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 562,
+		flag = 1
+	},
+	{
+		param = "そうそう、馬の蹄鉄も拾ったわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 563,
+		flag = 1
+	},
+	{
+		param = "釘が三本も打ってあったわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 564,
+		flag = 1
+	},
+	{
+		param = "すごいでしょ？",
+		ship_group = 49905,
+		type = 1,
+		id = 565,
+		flag = 1,
+		option = {
+			{
+				2,
+				"母港で馬を飼ってる子がいるのか？"
+			}
+		}
+	},
+	{
+		param = "母港で馬を飼ってる子がいるのか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 566,
+		flag = 2
+	},
+	{
+		param = "随分と珍しいな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 567,
+		flag = 2
+	},
+	{
+		param = "…………",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 568,
+		flag = 2
+	},
+	{
+		param = "うっ……",
+		ship_group = 49905,
+		type = 1,
+		id = 569,
+		flag = 2,
+		option = {
+			{
+				3,
+				"？"
+			}
+		}
+	},
+	{
+		param = "？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 570,
+		flag = 3
+	},
+	{
+		param = "……実は、下の花壇で四つ葉のクローバーを見つけたの",
+		ship_group = 49905,
+		type = 1,
+		id = 571,
+		flag = 3,
+		option = {
+			{
+				4,
+				"ラッキーアイテムだよね？"
+			}
+		}
+	},
+	{
+		param = "それ知ってるよ、ラッキーアイテムだよね？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 572,
+		flag = 4
+	},
+	{
+		param = "………………",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 573,
+		flag = 4
+	},
+	{
+		param = "言いたいのは……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 574,
+		flag = 4
+	},
+	{
+		param = "今日は、なんだか次々と面白いことが起きてるわ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 575,
+		flag = 4
+	},
+	{
+		param = "うっ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 576,
+		flag = 4
+	},
+	{
+		param = "ちょっと、こっちに来ない？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 577,
+		flag = 4
+	},
+	{
+		param = "この幸運を……少し分けてやってもいいわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 578,
+		flag = 4
+	},
+	{
+		param = "でも、必ずしももらえるわけじゃないとは言っておくわ！ただ、少し分けて……褒美として与えてあげてもいいわってこと",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 579,
+		flag = 4
+	},
+	{
+		param = "お前……私の部屋のものを全部見つけてくれたのね",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 580,
+		flag = 0
+	},
+	{
+		param = "なかなかやるじゃない",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 581,
+		flag = 0
+	},
+	{
+		param = "褒めて遣わすわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 582,
+		flag = 0
+	},
+	{
+		param = "どんな褒美が欲しいか言いなさい",
+		ship_group = 49905,
+		type = 1,
+		id = 583,
+		flag = 0,
+		option = {
+			{
+				1,
+				"ご褒美は一旦置いといて"
+			}
+		}
+	},
+	{
+		param = "ご褒美は一旦置いといて",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 584,
+		flag = 1
+	},
+	{
+		param = "そういえば、いつの間にか何かを服に引っかけたみたいで、意図せず一緒に持ってきてしまった",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 585,
+		flag = 1
+	},
+	{
+		param = "意図せず？ふふ……私の使ったものがそんなに好きなの？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 586,
+		flag = 1
+	},
+	{
+		param = "見せてちょうだい……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 587,
+		flag = 1
+	},
+	{
+		param = "一体何を持っていったのかしら",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 588,
+		flag = 1
+	},
+	{
+		param = "！！！！！！！！！！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 589,
+		flag = 1
+	},
+	{
+		param = "そ、それは……早く返して！それは私のものよ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 590,
+		flag = 1
+	},
+	{
+		param = "あっ、違うわ！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 591,
+		flag = 1
+	},
+	{
+		param = "私のじゃない！だ、誰か……知らない人の……",
+		ship_group = 49905,
+		type = 1,
+		id = 592,
+		flag = 1,
+		option = {
+			{
+				2,
+				"他の人なんていないけど"
+			}
+		}
+	},
+	{
+		param = "ここには他の人なんていないけど……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 593,
+		flag = 2
+	},
+	{
+		param = "とにかく返して！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 594,
+		flag = 2
+	},
+	{
+		param = "持ってくる来る時は、手で持たないで！",
+		ship_group = 49905,
+		type = 1,
+		id = 595,
+		flag = 2,
+		option = {
+			{
+				3,
+				"わかった"
+			}
+		}
+	},
+	{
+		param = "わかった、今持っていくよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 596,
+		flag = 3
+	},
+	{
+		param = "服を片付けてる時、うっかり挟んじゃったみたいね……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 597,
+		flag = 3
+	},
+	{
+		param = "気づいて本当に良かったわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 598,
+		flag = 3
+	},
+	{
+		param = "礼はちゃんと用意しておくから、それじゃあまた後で",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 599,
+		flag = 3
+	},
+	{
+		param = "今日もずっと私の髪を触ってるわね……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 600,
+		flag = 0
+	},
+	{
+		param = "もうだいぶ触ってるでしょ？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 601,
+		flag = 0
+	},
+	{
+		param = "そんなに気に入ったのかしら？",
+		ship_group = 49905,
+		type = 1,
+		id = 602,
+		flag = 0,
+		option = {
+			{
+				1,
+				"気に入ってるのかな？"
+			}
+		}
+	},
+	{
+		param = "気に入ってるのかな？特別に好きとか、そういうことではないんだけどね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 603,
+		flag = 1
+	},
+	{
+		param = "なっ！？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 604,
+		flag = 1
+	},
+	{
+		param = "違うなら、さっさとやめればいいでしょう！？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 605,
+		flag = 1
+	},
+	{
+		param = "……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 606,
+		flag = 1
+	},
+	{
+		param = "でもまあ……部屋を一緒に片付けてくれたし？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 607,
+		flag = 1
+	},
+	{
+		param = "お前がいたから、棚の上やタンスの上にあった物も楽に整理できたから",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 608,
+		flag = 1
+	},
+	{
+		param = "一人では、いつも面倒くさくて……",
+		ship_group = 49905,
+		type = 1,
+		id = 609,
+		flag = 1,
+		option = {
+			{
+				2,
+				"ついでにやっただけだよ"
+			}
+		}
+	},
+	{
+		param = "ついでにやっただけだよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 610,
+		flag = 2
+	},
+	{
+		param = "……ついで？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 611,
+		flag = 2
+	},
+	{
+		param = "ずっと髪を触ってたのも……ついでにってこと？",
+		ship_group = 49905,
+		type = 1,
+		id = 612,
+		flag = 2,
+		option = {
+			{
+				3,
+				"触ってて気持ちいいから"
+			}
+		}
+	},
+	{
+		param = "それは違う。触ってて気持ちいいから、つい、ね？……エーギルのためにもっと何かしてあげたいし",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 613,
+		flag = 3
+	},
+	{
+		param = "お前……！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 614,
+		flag = 3
+	},
+	{
+		param = "そんなこと、よくもスラスラと言えたものね……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 615,
+		flag = 3
+	},
+	{
+		param = "それなら明日も……また来なさい！まだ箱が一つ残ってるから……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 616,
+		flag = 3
+	},
+	{
+		param = "これは、会いたいって意味じゃないわよ！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 617,
+		flag = 3
+	},
+	{
+		param = "とにかく、もし来なかったら……この一週間は、髪を触らせないから！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 618,
+		flag = 3
+	},
+	{
+		param = "はあ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 619,
+		flag = 0
+	},
+	{
+		param = "いつの間にか、部屋はお前がくれたものでいっぱいね",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 620,
+		flag = 0
+	},
+	{
+		param = "これらのプレゼントだって……全部、きっとすごく気を使ったんでしょう？",
+		ship_group = 49905,
+		type = 1,
+		id = 621,
+		flag = 0,
+		option = {
+			{
+				1,
+				"見かけた時に買っただけだから"
+			}
+		}
+	},
+	{
+		param = "特別に気を使ったわけじゃないよ。ただ見かけた時、エーギルが好きそうだなと思って買っただけだから",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 622,
+		flag = 1
+	},
+	{
+		param = "でも今思えば、チョイスは悪くなかったかも？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 623,
+		flag = 1
+	},
+	{
+		param = "な……何を誇らしげに言ってるのよ！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 624,
+		flag = 1
+	},
+	{
+		param = "まったく……私だけがバカみたいに、毎回ちょっと嬉しくなって……",
+		ship_group = 49905,
+		type = 1,
+		id = 625,
+		flag = 1,
+		option = {
+			{
+				2,
+				"いつもエーギルのことを考えてるよ"
+			}
+		}
+	},
+	{
+		param = "何か見かけるたびに「これを渡したらきっと喜んでくれるだろうな」って、いつもエーギルのことを考えてるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 626,
+		flag = 2
+	},
+	{
+		param = "エーギルの笑顔を大切にしたいからね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 627,
+		flag = 2
+	},
+	{
+		param = "……………………",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 628,
+		flag = 2
+	},
+	{
+		param = "ずるいわ……私の心まで奪いながら、それでも何度も何度も……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 629,
+		flag = 2
+	},
+	{
+		param = "このままでは、本当に……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 630,
+		flag = 2
+	},
+	{
+		param = "いや……何でもない！さっきのは忘れて！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 631,
+		flag = 2
+	},
+	{
+		param = "考えれば考えるほどおかしいわ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 632,
+		flag = 0
+	},
+	{
+		param = "いったいどうして！？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 633,
+		flag = 0
+	},
+	{
+		param = "お前だけが！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 634,
+		flag = 0
+	},
+	{
+		param = "どうしてお前だけが、ずっと勝ち続けられるの！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 635,
+		flag = 0
+	},
+	{
+		param = "特に…",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 636,
+		flag = 0
+	},
+	{
+		param = "これらの勝負は真っ当で、一切不正がないことも分かってる！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 637,
+		flag = 0
+	},
+	{
+		param = "でも、これで終わりじゃないわ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 638,
+		flag = 0
+	},
+	{
+		param = "次は必ず取り返すから！",
+		ship_group = 49905,
+		type = 1,
+		id = 639,
+		flag = 0,
+		option = {
+			{
+				1,
+				"「次に取り返す」って言って、これで三度目だよ"
+			}
+		}
+	},
+	{
+		param = "これで三度目だよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 640,
+		flag = 1
+	},
+	{
+		param = "何か良いことを言ってくれると期待してたけど……どうやら私が甘かったわ！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 641,
+		flag = 1
+	},
+	{
+		param = "これで三度目だって？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 642,
+		flag = 1
+	},
+	{
+		param = "待ってなさい、私の力を見せてあげるわ！",
+		ship_group = 49905,
+		type = 1,
+		id = 643,
+		flag = 1,
+		option = {
+			{
+				2,
+				"ぜひ教えを請おうじゃないか"
+			}
+		}
+	},
+	{
+		param = "お、なら親愛なるエーギル様に教えを請おうじゃないか",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 644,
+		flag = 2
+	},
+	{
+		param = "o;pbrupi",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 645,
+		flag = 2
+	},
+	{
+		param = "そんなベタなやり方で私の心を乱そうって？もう通用しないわ！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 646,
+		flag = 2
+	},
+	{
+		param = "ふふ……何を隠そう、私の今日のラッキーナンバーは、ちょうど「3」なのよ！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 647,
+		flag = 2
+	},
+	{
+		param = "お前が3回も勝ったなら、次からは私の番よ！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 648,
+		flag = 2
+	},
+	{
+		param = "荒波に飲まれる覚悟をしなさい！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 649,
+		flag = 2
+	},
+	{
+		param = "ねぇ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 650,
+		flag = 0
+	},
+	{
+		param = "指揮官",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 651,
+		flag = 0
+	},
+	{
+		param = "今……足りないものとか、欲しいものとか",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 652,
+		flag = 0
+	},
+	{
+		param = "そういうものってあったりする？",
+		ship_group = 49905,
+		type = 1,
+		id = 653,
+		flag = 0,
+		option = {
+			{
+				1,
+				"ないかな"
+			}
+		}
+	},
+	{
+		param = "うーん、ないかな……今は何も思いつかないかも",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 654,
+		flag = 1
+	},
+	{
+		param = "エーギルは？何か欲しいものはある？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 655,
+		flag = 1
+	},
+	{
+		param = "……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 656,
+		flag = 1
+	},
+	{
+		param = "今は私が聞いてるの！聞き返さないでくれる？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 657,
+		flag = 1
+	},
+	{
+		param = "もう一度、よーく考えてみて？",
+		ship_group = 49905,
+		type = 1,
+		id = 658,
+		flag = 1,
+		option = {
+			{
+				2,
+				"やっぱり思いつかない"
+			}
+		}
+	},
+	{
+		param = "うーん、やっぱり思いつかないな。必要なものは全部揃ってる気がするし",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 659,
+		flag = 2
+	},
+	{
+		param = "はあ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 660,
+		flag = 2
+	},
+	{
+		param = "それなら、「深淵の神性が願いを叶えてくれる」サービスをプレゼントしてあげるわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 661,
+		flag = 2
+	},
+	{
+		param = "必ず実現できる保証はないけど、何もないよりはマシ……",
+		ship_group = 49905,
+		type = 1,
+		id = 662,
+		flag = 2,
+		option = {
+			{
+				3,
+				"今夜は流星群が見られるらしい"
+			}
+		}
+	},
+	{
+		param = "そういえば、今夜は流星群が見られるらしいよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 663,
+		flag = 3
+	},
+	{
+		param = "二人でそれぞれ流れ星に願いをすれば、成功率も上がるかも",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 664,
+		flag = 3
+	},
+	{
+		param = "流星群！？それっていつから？もう始まった？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 665,
+		flag = 3
+	},
+	{
+		param = "お前を引き止めて一緒に見るべきだった……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 666,
+		flag = 3
+	},
+	{
+		param = "やってしまったわ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 667,
+		flag = 3
+	},
+	{
+		param = "あれ？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 668,
+		flag = 3
+	},
+	{
+		param = "おかしいわね",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 669,
+		flag = 3
+	},
+	{
+		param = "今、空に浮かんでいるのはどの星座かしら？",
+		ship_group = 49905,
+		type = 1,
+		id = 670,
+		flag = 3,
+		option = {
+			{
+				4,
+				"あっ"
+			}
+		}
+	},
+	{
+		param = "あっ……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 671,
+		flag = 4
+	},
+	{
+		param = "さっき気づいたんだけど、見てたのは去年の情報だったみたい……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 672,
+		flag = 4
+	},
+	{
+		param = "……………………",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 673,
+		flag = 4
+	},
+	{
+		param = "覚えておきなさい！！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 674,
+		flag = 4
+	},
+	{
+		param = "今朝も食堂に姿を見せなかったわね……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 675,
+		flag = 0
+	},
+	{
+		param = "もしかして……またコーヒーとエナジーバーで朝食を済ませてたの？",
+		ship_group = 49905,
+		type = 1,
+		id = 676,
+		flag = 0,
+		option = {
+			{
+				1,
+				"どうしてそれを？"
+			}
+		}
+	},
+	{
+		param = "どうしてそれを？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 677,
+		flag = 1
+	},
+	{
+		param = "ずっと食堂で待ってたのか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 678,
+		flag = 1
+	},
+	{
+		param = "……まさか！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 679,
+		flag = 1
+	},
+	{
+		param = "窓辺でカモメを眺めていたら、ちょうどお前がそのまま執務室に入るところを見ただけよ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 680,
+		flag = 1
+	},
+	{
+		param = "母港でこのエーギルの目から逃れられるものなどいないわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 681,
+		flag = 1
+	},
+	{
+		param = "10分やるから、今すぐ宿舎まで来なさい",
+		ship_group = 49905,
+		type = 1,
+		id = 682,
+		flag = 1,
+		option = {
+			{
+				2,
+				"今？"
+			}
+		}
+	},
+	{
+		param = "今？まだ仕事が残ってるんだけど……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 683,
+		flag = 2
+	},
+	{
+		param = "食事を済ませてからでも間に合うでしょ？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 684,
+		flag = 2
+	},
+	{
+		param = "わざわざ手料理を……誤解しないで、別にお前のために作ったわけじゃないわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 685,
+		flag = 2
+	},
+	{
+		param = "たまたまサンドイッチを余らせてしまっただけよ。食べ物を粗末にするわけにはいかないから",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 686,
+		flag = 2
+	},
+	{
+		param = "別に来たくないならそれで構わないわ。カモメたちがずいぶん前から物欲しそうにじっとこっちを見つめてるから",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 687,
+		flag = 2
+	},
+	{
+		param = "きっと食べ物を欲しがってるはずよ",
+		ship_group = 49905,
+		type = 1,
+		id = 688,
+		flag = 2,
+		option = {
+			{
+				3,
+				"わかった、すぐ行く"
+			}
+		}
+	},
+	{
+		param = "わかった、すぐ行くよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 689,
+		flag = 3
+	},
+	{
+		param = "エーギルの手料理をカモメにやるなんて、いくらなんでももったいなさすぎる",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 690,
+		flag = 3
+	},
+	{
+		param = "分かってるなら、さっさと来なさい",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 691,
+		flag = 3
+	},
+	{
+		param = "でも、もし食べ残したら……明日本当の「おもてなし」を味わわせてやるわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 692,
+		flag = 3
+	},
+	{
+		param = "指揮官、送ってきた写真を見たわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 693,
+		flag = 0
+	},
+	{
+		param = "構図と光加減は及第点ね……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 694,
+		flag = 0
+	},
+	{
+		param = "……待って",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 695,
+		flag = 0
+	},
+	{
+		param = "なぜ私の横顔が写ってる？",
+		ship_group = 49905,
+		type = 1,
+		id = 696,
+		flag = 0,
+		option = {
+			{
+				1,
+				"うっかり撮れちゃって"
+			}
+		}
+	},
+	{
+		param = "うっかり撮れちゃって",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 697,
+		flag = 1
+	},
+	{
+		param = "本当は、エーギルのそばにあった蓄音機を撮ろうとしてたんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 698,
+		flag = 1
+	},
+	{
+		param = "うっかり……？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 699,
+		flag = 1
+	},
+	{
+		param = "つまり……このエーギルがお前の撮影の邪魔をしたとでも？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 700,
+		flag = 1
+	},
+	{
+		param = "ふーん、それなら確かに私の不注意ね。お前の撮りたかった被写体の邪魔をしてしまったわ",
+		ship_group = 49905,
+		type = 1,
+		id = 701,
+		flag = 1,
+		option = {
+			{
+				2,
+				"いや、むしろ構図を決める時……"
+			}
+		}
+	},
+	{
+		param = "いや、むしろ構図を決める時……なぜかカメラが勝手にエーギルを捉えようとしてたから、それでついついシャッターを……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 702,
+		flag = 2
+	},
+	{
+		param = "ほう？そんなに私のことが気になる？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 703,
+		flag = 2
+	},
+	{
+		param = "しかし……こうして正直に話してくれたから、今回はその「うっかり」を許してやるわ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 704,
+		flag = 2
+	},
+	{
+		param = "ただし、次はないわよ",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 705,
+		flag = 2
+	},
+	{
+		param = "……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 706,
+		flag = 2
+	},
+	{
+		param = "私を撮りたいなら、素直に言ったら？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 707,
+		flag = 2
+	},
+	{
+		param = "だって……絶対に断るわけじゃ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 708,
+		flag = 2
+	},
+	{
+		param = "も、もちろん、気分次第よ！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 709,
+		flag = 2
+	},
+	{
+		param = "もし、美味しいワインを用意してくれたら……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 710,
+		flag = 2
+	},
+	{
+		param = "もう少し時間をやってもいいわ……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 711,
+		flag = 2
 	}
 }

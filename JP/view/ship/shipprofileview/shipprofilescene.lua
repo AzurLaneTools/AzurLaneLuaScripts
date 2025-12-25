@@ -249,6 +249,7 @@ slot0.showSkinProfile = function(slot0, slot1, slot2, slot3)
 
 	if slot4 then
 		slot0.changeSkinToggle:setSkinData(slot2.id)
+		setActive(slot0.btnChangeSkin, not slot0.changeSkinToggle:IsAsmrSkin())
 	end
 
 	slot0.contextData.skinIndex = slot1 + 1

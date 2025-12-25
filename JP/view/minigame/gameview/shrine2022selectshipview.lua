@@ -16,6 +16,40 @@ slot0.OnDestroy = function(slot0)
 	slot0:cleanManagedTween()
 end
 
+slot0.setUIData = function(slot0)
+	slot0.shipCardSpriteList = {}
+
+	for slot4 = 1, 7 do
+		slot5 = "cardselect_" .. slot4
+
+		table.insert(slot0.shipCardSpriteList, LoadSprite("Shrine2022/" .. slot5, slot5))
+	end
+
+	slot0.shipNameSpriteList = {}
+
+	for slot4 = 1, 7 do
+		slot5 = "cardselectname_" .. slot4
+
+		table.insert(slot0.shipNameSpriteList, LoadSprite("Shrine2022/" .. slot5, slot5))
+	end
+end
+
+slot0.updateShipCardUI = function(slot0, slot1, slot2)
+	setImageSprite(slot1, slot0.shipCardSpriteList[slot2], true)
+
+	slot3 = slot1:Find("Name")
+
+	setImageSprite(slot3, slot0.shipNameSpriteList[slot2], true)
+	setLocalPosition(slot1, slot0.cardPosList[slot2])
+
+	slot5 = slot0:isSelected(slot2)
+
+	setActive(slot1:Find("Selected"), slot5)
+	setActive(slot3, not slot5)
+
+	GetComponent(slot1, "Toggle").enabled = not slot5
+end
+
 slot0.initData = function(slot0)
 	slot0.cardPosList = {
 		{
@@ -87,6 +121,8 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
+	slot0:setUIData()
+
 	slot1 = slot0._tf
 	slot0.bg = slot1:Find("BG")
 	slot1 = slot0._tf
@@ -118,37 +154,17 @@ slot0.initUI = function(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if uv0.onConfirmFunc then
-			uv0.onConfirmFunc(uv0.curSelectIndex)
-		end
-
 		setActive(uv0.confirmBtn, false)
-		uv0:closeSelf()
+		uv0:confirmSelf()
 	end, SFX_PANEL)
 
 	slot1 = slot0.cardUIItemList
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = slot1 + 1
-			slot4 = "cardselect_" .. slot3
+			uv0:updateShipCardUI(slot2, slot1 + 1)
 
-			setImageSprite(slot2, LoadSprite("Shrine2022/" .. slot4, slot4), true)
-
-			slot6 = slot2:Find("Name")
-			slot7 = "cardselectname_" .. slot3
-
-			setImageSprite(slot6, LoadSprite("Shrine2022/" .. slot7, slot7), true)
-			setLocalPosition(slot2, uv0.cardPosList[slot3])
-
-			slot10 = uv0:isSelected(slot3)
-
-			setActive(slot2:Find("Selected"), slot10)
-			setActive(slot6, not slot10)
-
-			GetComponent(slot2, "Toggle").enabled = not slot10
-
-			if not slot10 then
+			if not isSelected then
 				onToggle(uv0, slot2, function (slot0)
 					if slot0 then
 						uv0.curSelectIndex = uv1
@@ -170,11 +186,29 @@ slot0.closeSelf = function(slot0)
 		return
 	end
 
+	slot0:playEnterAni(false, function ()
+		if uv0.onCloseFunc then
+			uv0.onCloseFunc()
+		end
+
+		uv0:Destroy()
+	end)
+end
+
+slot0.confirmSelf = function(slot0)
+	if slot0.isPlaying then
+		return
+	end
+
 	if slot0.onCloseFunc then
 		slot0.onCloseFunc()
 	end
 
 	slot0:playEnterAni(false, function ()
+		if uv0.onConfirmFunc then
+			uv0.onConfirmFunc(uv0.curSelectIndex)
+		end
+
 		uv0:Destroy()
 	end)
 end

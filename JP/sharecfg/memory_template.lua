@@ -3939,6 +3939,12 @@ pg.memory_template = setmetatable({
 		4933,
 		4934,
 		4935,
+		4941,
+		4942,
+		4943,
+		4944,
+		4945,
+		4946,
 		10000,
 		10001,
 		10002,
@@ -63230,6 +63236,96 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANZHUANSHUXINDONGSHIKE5"
+		}
+	},
+	[4941] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "慈愛の清め合いっこ",
+		condition = "「着せ替え特集」ページでハウデン・リーウを選択",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII1",
+		id = 4941,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII1"
+		}
+	},
+	[4942] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ミッドナイト・インバイト",
+		condition = "「着せ替え特集」ページでカンザスを選択",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII2",
+		id = 4942,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII2"
+		}
+	},
+	[4943] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ドジっ子メイド大ピンチ？！",
+		condition = "「着せ替え特集」ページでオットー・フォン・アルフェンスレーベンを選択",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII3",
+		id = 4943,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII3"
+		}
+	},
+	[4944] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "烙印の痕",
+		condition = "「着せ替え特集」ページでメークレンブルクを選択",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII4",
+		id = 4944,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII4"
+		}
+	},
+	[4945] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夢待ち人",
+		condition = "「着せ替え特集」ページでギシャンを選択",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII5",
+		id = 4945,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII5"
+		}
+	},
+	[4946] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ほろ酔いと駆け引き",
+		condition = "「着せ替え特集」ページでプリンツ·オイゲンを選択",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII6",
+		id = 4946,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII6"
 		}
 	},
 	[10000] = {

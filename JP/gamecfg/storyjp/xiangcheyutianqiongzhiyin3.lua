@@ -144,7 +144,7 @@ return {
 		},
 		{
 			expression = 10,
-			side = 0,
+			side = 2,
 			bgName = "bg_port_ny_future",
 			dir = 1,
 			actor = 107160,

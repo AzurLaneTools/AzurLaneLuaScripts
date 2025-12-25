@@ -225,6 +225,56 @@ pg.dorm3d_ins_language = {
 		key = "dafeng_2_2_1",
 		is_active = "0"
 	},
+	aijier_1 = {
+		value = "ワインの芳醇さか、それともコーヒーの香りか……迷ってしまうわね",
+		key = "aijier_1",
+		is_active = "0"
+	},
+	aijier_1_1 = {
+		value = "それぞれ一つずつ選ぶのはどう？",
+		key = "aijier_1_1",
+		is_active = "0"
+	},
+	aijier_1_1_1 = {
+		value = "先に選んでいいなら……お前のコーヒーも、一口もらおうかしら",
+		key = "aijier_1_1_1",
+		is_active = "0"
+	},
+	aijier_1_2 = {
+		value = "そんなに悩むなら、一緒に別の何かを飲みに行かない？",
+		key = "aijier_1_2",
+		is_active = "0"
+	},
+	aijier_1_2_1 = {
+		value = "そこまで言うなら、付き合ってあげてもいいわ",
+		key = "aijier_1_2_1",
+		is_active = "0"
+	},
+	aijier_2 = {
+		value = "こんなに静かな午後だと……少し落ち着かないわね……",
+		key = "aijier_2",
+		is_active = "0"
+	},
+	aijier_2_1 = {
+		value = "何か飲みたいものはある？持って行ってあげるよ",
+		key = "aijier_2_1",
+		is_active = "0"
+	},
+	aijier_2_1_1 = {
+		value = "そうね……じゃあコーヒーを持ってきてちょうだい。そして、一緒にこの静かなひと時を過ごしましょ",
+		key = "aijier_2_1_1",
+		is_active = "0"
+	},
+	aijier_2_2 = {
+		value = "エーギルもこんなリラックスした雰囲気が好きだったんだね",
+		key = "aijier_2_2",
+		is_active = "0"
+	},
+	aijier_2_2_1 = {
+		value = "それじゃあ一緒に……せっかくの午後を楽しもうじゃない",
+		key = "aijier_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -270,6 +320,16 @@ pg.dorm3d_ins_language = {
 		"dafeng_2_1",
 		"dafeng_2_1_1",
 		"dafeng_2_2",
-		"dafeng_2_2_1"
+		"dafeng_2_2_1",
+		"aijier_1",
+		"aijier_1_1",
+		"aijier_1_1_1",
+		"aijier_1_2",
+		"aijier_1_2_1",
+		"aijier_2",
+		"aijier_2_1",
+		"aijier_2_1_1",
+		"aijier_2_2",
+		"aijier_2_2_1"
 	}
 }

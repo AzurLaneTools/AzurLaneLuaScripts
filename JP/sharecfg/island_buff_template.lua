@@ -104,6 +104,28 @@ pg.island_buff_template = {
 		type_duel = {},
 		buff_duel = {}
 	},
+	{
+		name = "売上上昇",
+		buff_group = 1,
+		buff_desc = "店舗スタッフとして配置された場合、その店舗の売上が8時間の間5%アップ",
+		buff_color = 2,
+		buff_type = 601,
+		buff_time = 28800,
+		buff_level = 1,
+		id = 5,
+		type_use = {
+			{
+				601,
+				602,
+				603,
+				604,
+				901
+			},
+			5
+		},
+		type_duel = {},
+		buff_duel = {}
+	},
 	[10000] = {
 		name = "制作スキル",
 		buff_group = 1000,
@@ -3159,6 +3181,7 @@ pg.island_buff_template = {
 		2,
 		3,
 		4,
+		5,
 		10000,
 		10001,
 		10002,

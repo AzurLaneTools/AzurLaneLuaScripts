@@ -1109,6 +1109,8 @@ SCENE.GetInvitationPage = function(slot0)
 		slot2 = AssignedShipForChristmasScene
 	elseif slot1 == "shrine_year" then
 		slot2 = AssignedShipForShrineScene
+	elseif slot1 == "shrine_year_winterfestival_2025" then
+		slot2 = AssignedShipForWinterFestival2025Scene
 	elseif slot1 == "greeting_year" then
 		slot2 = AssignedShipForGreetingScene
 	elseif slot1 == "build_ur" then
