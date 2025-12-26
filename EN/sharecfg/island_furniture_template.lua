@@ -642,7 +642,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"Island Milestone Points",
 				{}
 			}
 		}
@@ -668,7 +668,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"Island Milestone Points",
 				{}
 			}
 		}
@@ -694,7 +694,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"Island Milestone Points",
 				{}
 			}
 		}
@@ -720,7 +720,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"Island Milestone Points",
 				{}
 			}
 		}
@@ -880,7 +880,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"Island Milestone Points",
 				{}
 			}
 		}
@@ -906,7 +906,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"Island Milestone Points",
 				{}
 			}
 		}
