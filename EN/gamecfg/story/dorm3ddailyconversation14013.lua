@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "\"6 PM: walk on the coast with {dorm3d}, and if the vibes are right, do something romantic...\"",
+			say = "\"6 PM: walk on the coast with the Commander, and if the vibes are right, do something romantic...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
