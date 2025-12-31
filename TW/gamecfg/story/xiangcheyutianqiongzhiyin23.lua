@@ -847,7 +847,7 @@ return {
 			hidePaintObj = true,
 			optionFlag = 1,
 			important = true,
-			say = "<color=#ff5c5c>警告：此選項為影響結局走向的關鍵選項，確定要這樣做嗎？确定要这样做么？</color>",
+			say = "<color=#ff5c5c>警告：此選項為影響結局走向的關鍵選項，確定要這樣做嗎？</color>",
 			options = {
 				{
 					content = "確認，我接受海倫娜的提案",
@@ -866,7 +866,7 @@ return {
 			hidePaintObj = true,
 			optionFlag = 2,
 			important = true,
-			say = "<color=#ff5c5c>警告：此選項為影響結局走向的關鍵選項，確定要這樣做嗎？确定要这样做么？</color>",
+			say = "<color=#ff5c5c>警告：此選項為影響結局走向的關鍵選項，確定要這樣做嗎？</color>",
 			options = {
 				{
 					content = "嗯，我要拒絕這份提案",

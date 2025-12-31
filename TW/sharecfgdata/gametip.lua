@@ -36403,7 +36403,7 @@ _G.pg.base.gametip.notify_clock_button = {
 
 
 _G.pg.base.gametip.TW_build_chase_tip = {
-	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>樊籠內的神光</color>關卡，可獲得單建券獎勵"
+	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>響徹於天穹之音</color>關卡，可獲得單建券獎勵"
 }
 
 
@@ -36413,12 +36413,12 @@ _G.pg.base.gametip.TW_build_chase_phase = {
 
 
 _G.pg.base.gametip.TW_build_chase_time = {
-	tip = "獎勵領取時間截止至2025.11.20維護"
+	tip = "獎勵領取時間截止至2026.1.22維護"
 }
 
 
 _G.pg.base.gametip.ship_task_lottery_title = {
-	tip = "樊籠內的神光活動期間累積通關「樊籠內的神光」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+	tip = "響徹於天穹之音活動期間累積通關「響徹於天穹之音」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
 }
 
 
