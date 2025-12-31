@@ -1473,7 +1473,13 @@ slot6.updateSomkeFX = function(slot0)
 end
 
 slot6.doChangeSize = function(slot0, slot1)
-	slot0:setLocalScale(slot0._tf.localScale * slot1.Data.size_ratio)
+	slot3 = slot1.Data.size
+
+	if slot1.Data.size_ratio then
+		slot0:setLocalScale(slot0._tf.localScale * slot2)
+	elseif slot3 then
+		slot0:setLocalScale(Vector3(slot3 * slot0._unitData:GetDirection(), slot3, slot3))
+	end
 end
 
 slot6.InitEffectView = function(slot0)

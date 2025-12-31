@@ -62,6 +62,10 @@ pg.ship_meta_breakout = setmetatable({
 		9702072,
 		9702073,
 		9702074,
+		9702091,
+		9702092,
+		9702093,
+		9702094,
 		9703011,
 		9703012,
 		9703013,
@@ -1148,6 +1152,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9702074,
 		item1 = 21030,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9702091] = {
+		breakout_view = "習得技能【破敵之炬·克里夫蘭】/主炮效率提高5%",
+		item2 = 21055,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9702092,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702091,
+		item1 = 21055,
+		level = 10,
+		weapon_ids = {
+			80551
+		}
+	},
+	[9702092] = {
+		breakout_view = "主炮底座+1/主炮效率提高10%",
+		item2 = 21055,
+		pre_id = 9702091,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9702093,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702092,
+		item1 = 21055,
+		level = 30,
+		weapon_ids = {
+			12100,
+			12100
+		}
+	},
+	[9702093] = {
+		breakout_view = "【破敵之炬·克里夫蘭】升級/主炮效率提高15%",
+		item2 = 21055,
+		pre_id = 9702092,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9702094,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702093,
+		item1 = 21055,
+		level = 70,
+		weapon_ids = {
+			80552
+		}
+	},
+	[9702094] = {
+		breakout_view = "無",
+		item2 = 21055,
+		pre_id = 9702093,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702094,
+		item1 = 21055,
 		level = 0,
 		weapon_ids = {}
 	},

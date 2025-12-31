@@ -2322,8 +2322,12 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "敬請期待",
-		name = "敬請期待",
+		description = [[
+「我馬上就要出遠門了」
+「今天的基調呢，就是坦誠一點，隨意一點」
+「想到哪裡，就說到哪裡」
+「那麼……開始了」]],
+		name = "憶海留聲",
 		column = 56,
 		world_id = "",
 		bgm = "theme-helena ",
@@ -2345,8 +2349,12 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "敬請期待",
-		name = "敬請期待",
+		description = [[
+「與塞壬的戰爭結束了」
+「聯盟合併會議也結束了」
+「一個美好世界」
+「一個新世界」]],
+		name = "致美好世界",
 		column = 57,
 		world_id = "",
 		bgm = "login",
@@ -2377,18 +2385,51 @@ pg.memory_storyline = {
 		}
 	},
 	{
+		description = [[
+「過去雖不完美，未來仍有挑戰」
+「但是此刻」
+「我們團結一致，我們共同向前」
+「過去、現在與未來的所有朋友們」
+「讓我們一同譜寫這曲壯麗的樂章吧——」]],
+		name = "響徹於天穹之音",
+		column = 58,
+		world_id = "",
+		bgm = "story-weimu-link",
+		row = 0,
+		chapter = 4,
+		memory_lock = 0,
+		id = 93,
+		icon = "ChapterFour_12",
+		sort = 1,
+		memory_id = {
+			1,
+			351
+		},
+		shipnation = {
+			97,
+			2,
+			1,
+			4,
+			6,
+			7
+		},
+		link_event = {
+			94
+		}
+	},
+	{
 		description = "敬請期待",
 		name = "敬請期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 58,
+		column = 59,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 93,
+		id = 94,
 		icon = "",
 		sort = 0
 	},
@@ -2485,6 +2526,7 @@ pg.memory_storyline = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

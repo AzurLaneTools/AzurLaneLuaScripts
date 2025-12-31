@@ -34,6 +34,8 @@ pg.pay_data_display = setmetatable({
 		93,
 		96,
 		98,
+		9007,
+		9008,
 		2021,
 		2022,
 		2023,
@@ -68,6 +70,9 @@ pg.pay_data_display = setmetatable({
 		2057,
 		2058,
 		2059,
+		2068,
+		2069,
+		2070,
 		4001,
 		4002,
 		4003,
@@ -3737,6 +3742,274 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9007] = {
+		picture = "fudai30",
+		name = "慶典狂歡夜禮盒·I",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2026鑽，和大量其他獎勵",
+		subject = "慶典狂歡夜禮盒·I",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao145",
+		extra_gem = 0,
+		id = 9007,
+		airijp_id = "com.yostarjp.azurlane.diamond189",
+		name_display = "慶典狂歡夜禮盒·I",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86222,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86222,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81230,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86222,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9008] = {
+		picture = "fudai19",
+		name = "港區遊戲之夜禮盒·I復刻",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "港區遊戲之夜禮盒·I復刻",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao146",
+		extra_gem = 0,
+		id = 9008,
+		airijp_id = "com.yostarjp.azurlane.diamond190",
+		name_display = "港區遊戲之夜禮盒·I復刻",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86208,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81208,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
 	[2021] = {
 		picture = "haishangchuanqi",
 		name = "海上傳奇支援組合包",
@@ -6564,6 +6837,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40066,
+				1
+			}
+		}
+	},
+	[2068] = {
+		picture = "ui7",
+		name = "甜點女僕屋主題禮包",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題 甜點女僕屋*1",
+		subject = "甜點女僕屋主題禮包",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 107,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui18",
+		extra_gem = 0,
+		id = 2068,
+		airijp_id = "com.yostarjp.azurlane.ui18",
+		name_display = "甜點女僕屋主題禮包",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				206,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				206,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2069] = {
+		picture = "ui7",
+		name = "甜點女僕屋主題禮包（基礎版）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題 甜點女僕屋*1,1000物資",
+		subject = "甜點女僕屋主題禮包（基礎版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 107,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui22",
+		extra_gem = 0,
+		id = 2069,
+		airijp_id = "com.yostarjp.azurlane.ui19",
+		name_display = "甜點女僕屋主題禮包（基礎版）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40074,
+				1
+			}
+		}
+	},
+	[2070] = {
+		picture = "ui7",
+		name = "甜點女僕屋主題禮包（豪華版）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題 甜點女僕屋*1,3060鑽石",
+		subject = "甜點女僕屋主題禮包（豪華版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1320,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 107,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui23",
+		extra_gem = 0,
+		id = 2070,
+		airijp_id = "com.yostarjp.azurlane.ui20",
+		name_display = "甜點女僕屋主題禮包（豪華版）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40075,
 				1
 			}
 		}

@@ -215,6 +215,15 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 27,
+		param = {
+			"scene core activity",
+			{
+				coreName = "HelenaCoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -241,6 +250,7 @@ pg.activity_banner_notice = {
 		23,
 		24,
 		25,
-		26
+		26,
+		27
 	}
 }

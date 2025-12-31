@@ -359,5 +359,18 @@ return {
 		isTip = function ()
 			return false
 		end
+	},
+	{
+		banner = "activity_boss",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.ACTIVITY,
+			{
+				id = 50205
+			}
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(50205) and not slot0:isEnd()
+		end
 	}
 }

@@ -675,7 +675,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "其實，我在消散星空事件中受了很嚴重的傷……只是我沒讓伊莉莎白告訴任何人。",
+			say = "其實，我在「薔薇塔」戰役中受了很嚴重的傷……只是我沒讓伊莉莎白告訴任何人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

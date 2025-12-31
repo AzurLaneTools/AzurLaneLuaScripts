@@ -3,9 +3,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "休閒計畫",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 1,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			1,
@@ -44,9 +45,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "共進晚餐",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 2,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			32,
@@ -73,9 +75,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "日出",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 3,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			51,
@@ -118,9 +121,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "沐浴露",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 4,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			86,
@@ -149,9 +153,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "味道",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 5,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			107,
@@ -187,9 +192,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "無聊",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 6,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			135,
@@ -218,9 +224,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "愛好",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 7,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			156,
@@ -275,9 +282,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "夜宵",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 8,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			203,
@@ -310,9 +318,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "思念",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 9,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			228,
@@ -347,9 +356,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "踩背",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 10,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			255,
@@ -380,9 +390,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "醉話",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 11,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			278,
@@ -414,9 +425,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "健身",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 12,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			302,
@@ -451,9 +463,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "手機短信",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 13,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			329,
@@ -497,9 +510,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "走失",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 14,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			365,
@@ -529,9 +543,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "失眠",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 15,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			387,
@@ -575,9 +590,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "請假",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 16,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			423,
@@ -638,9 +654,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "下雨天",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 17,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			476,
@@ -695,9 +712,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "睡醒",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 18,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			523,
@@ -724,8 +742,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 109,
 		name = "指揮室的寶藏",
-		id = 19,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 19,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -801,8 +820,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 200,
 		name = "給指揮官的驚喜",
-		id = 20,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 20,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -885,8 +905,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 101,
 		name = "觀影會籌備中",
-		id = 21,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 21,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -967,8 +988,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 102,
 		name = "“遵守紀律”的北方聯合",
-		id = 22,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 22,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1039,8 +1061,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 103,
 		name = "聚餐",
-		id = 23,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 23,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1118,8 +1141,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 104,
 		name = "特別關注",
-		id = 24,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 24,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1209,8 +1233,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 105,
 		name = "演習成績",
-		id = 25,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 25,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1282,8 +1307,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 106,
 		name = "頻道幸運日",
-		id = 26,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 26,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1365,8 +1391,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 107,
 		name = "重櫻的實力！",
-		id = 27,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 27,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1451,8 +1478,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 108,
 		name = "特別的茶會",
-		id = 28,
+		group_ii = 0,
 		unlock_desc = "時間解鎖",
+		id = 28,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1534,9 +1562,10 @@ pg.activity_ins_chat_group = {
 	[41] = {
 		ship_group = 40704,
 		name = "高效溝通",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 41,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			1493,
@@ -1582,9 +1611,10 @@ pg.activity_ins_chat_group = {
 	[42] = {
 		ship_group = 40704,
 		name = "深夜的監督者",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 42,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			1531,
@@ -1618,9 +1648,10 @@ pg.activity_ins_chat_group = {
 	[43] = {
 		ship_group = 40704,
 		name = "魯梅的晚餐",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 43,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			1557,
@@ -1654,9 +1685,10 @@ pg.activity_ins_chat_group = {
 	[44] = {
 		ship_group = 40152,
 		name = "跑酷線路",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 44,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			1583,
@@ -1688,9 +1720,10 @@ pg.activity_ins_chat_group = {
 	[45] = {
 		ship_group = 40152,
 		name = "雨天",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 45,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			1607,
@@ -1729,9 +1762,10 @@ pg.activity_ins_chat_group = {
 	[46] = {
 		ship_group = 40152,
 		name = "整理檔案",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 46,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			1638,
@@ -1774,9 +1808,10 @@ pg.activity_ins_chat_group = {
 	[47] = {
 		ship_group = 40211,
 		name = "甜品店",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 47,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			1673,
@@ -1811,9 +1846,10 @@ pg.activity_ins_chat_group = {
 	[48] = {
 		ship_group = 40211,
 		name = "口紅",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 48,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			1700,
@@ -1845,9 +1881,10 @@ pg.activity_ins_chat_group = {
 	[49] = {
 		ship_group = 40211,
 		name = "開店構想",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 49,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			1724,
@@ -1886,9 +1923,10 @@ pg.activity_ins_chat_group = {
 	[50] = {
 		ship_group = 40109,
 		name = "整理檔案",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 50,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			1755,
@@ -1930,9 +1968,10 @@ pg.activity_ins_chat_group = {
 	[51] = {
 		ship_group = 40109,
 		name = "繪本",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 51,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			1789,
@@ -1975,9 +2014,10 @@ pg.activity_ins_chat_group = {
 	[52] = {
 		ship_group = 40109,
 		name = "噩夢",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 52,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			1824,
@@ -2027,9 +2067,10 @@ pg.activity_ins_chat_group = {
 	[53] = {
 		ship_group = 40111,
 		name = "新遊戲",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 53,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			1866,
@@ -2075,9 +2116,10 @@ pg.activity_ins_chat_group = {
 	[54] = {
 		ship_group = 40111,
 		name = "料理練習",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 54,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			1904,
@@ -2119,9 +2161,10 @@ pg.activity_ins_chat_group = {
 	[55] = {
 		ship_group = 40111,
 		name = "克服家裡蹲",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 55,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			1938,
@@ -2164,9 +2207,10 @@ pg.activity_ins_chat_group = {
 	[75] = {
 		ship_group = 60508,
 		name = "靈感再現",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 75,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			2596,
@@ -2224,9 +2268,10 @@ pg.activity_ins_chat_group = {
 	[76] = {
 		ship_group = 60508,
 		name = "照片，看看",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 76,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			2646,
@@ -2263,9 +2308,10 @@ pg.activity_ins_chat_group = {
 	[77] = {
 		ship_group = 60508,
 		name = "藝術家的飯",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 77,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			2675,
@@ -2298,9 +2344,10 @@ pg.activity_ins_chat_group = {
 	[78] = {
 		ship_group = 60803,
 		name = "探險！",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 78,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			2700,
@@ -2357,9 +2404,10 @@ pg.activity_ins_chat_group = {
 	[79] = {
 		ship_group = 60803,
 		name = "整理文件",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 79,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			2749,
@@ -2403,9 +2451,10 @@ pg.activity_ins_chat_group = {
 	[80] = {
 		ship_group = 60803,
 		name = "心路",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 80,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			2785,
@@ -2450,9 +2499,10 @@ pg.activity_ins_chat_group = {
 	[81] = {
 		ship_group = 60111,
 		name = "去標準化",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 81,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			2822,
@@ -2493,9 +2543,10 @@ pg.activity_ins_chat_group = {
 	[82] = {
 		ship_group = 60111,
 		name = "看書的地點",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 82,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			2855,
@@ -2536,9 +2587,10 @@ pg.activity_ins_chat_group = {
 	[83] = {
 		ship_group = 60111,
 		name = "詩歌的靈感",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 83,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			2888,
@@ -2596,9 +2648,10 @@ pg.activity_ins_chat_group = {
 	[84] = {
 		ship_group = 60203,
 		name = "特別的作戰報告",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 84,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			2938,
@@ -2644,9 +2697,10 @@ pg.activity_ins_chat_group = {
 	[85] = {
 		ship_group = 60203,
 		name = "戰術飲品",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 85,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			2976,
@@ -2686,9 +2740,10 @@ pg.activity_ins_chat_group = {
 	[86] = {
 		ship_group = 60203,
 		name = "錯發的快件",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 86,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			3008,
@@ -2736,9 +2791,10 @@ pg.activity_ins_chat_group = {
 	[90] = {
 		ship_group = 10713,
 		name = "探險裝備",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 90,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			3148,
@@ -2767,9 +2823,10 @@ pg.activity_ins_chat_group = {
 	[91] = {
 		ship_group = 10713,
 		name = "野外求生食譜",
+		group_ii = 0,
+		unlock_desc = "角色好感度達100",
 		id = 91,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達100",
 		trigger_type = 2,
 		content = {
 			3169,
@@ -2811,9 +2868,10 @@ pg.activity_ins_chat_group = {
 	[92] = {
 		ship_group = 10713,
 		name = "深夜溫泉探險",
+		group_ii = 0,
+		unlock_desc = "角色好感度達150",
 		id = 92,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達150",
 		trigger_type = 2,
 		content = {
 			3203,
@@ -2850,9 +2908,10 @@ pg.activity_ins_chat_group = {
 	[93] = {
 		ship_group = 10153,
 		name = "米勒大人的紙飛機",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 93,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			3232,
@@ -2879,9 +2938,10 @@ pg.activity_ins_chat_group = {
 	[94] = {
 		ship_group = 10153,
 		name = "米勒大人的筆記本",
+		group_ii = 0,
+		unlock_desc = "角色好感度達100",
 		id = 94,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達100",
 		trigger_type = 2,
 		content = {
 			3251,
@@ -2932,9 +2992,10 @@ pg.activity_ins_chat_group = {
 	[95] = {
 		ship_group = 10153,
 		name = "米勒大人的咖啡",
+		group_ii = 0,
+		unlock_desc = "角色好感度達150",
 		id = 95,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達150",
 		trigger_type = 2,
 		content = {
 			3294,
@@ -2969,9 +3030,10 @@ pg.activity_ins_chat_group = {
 	[96] = {
 		ship_group = 10234,
 		name = "指揮官——！！！",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 96,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			3321,
@@ -3010,9 +3072,10 @@ pg.activity_ins_chat_group = {
 	[97] = {
 		ship_group = 10234,
 		name = "行程安排",
+		group_ii = 0,
+		unlock_desc = "角色好感度達100",
 		id = 97,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達100",
 		trigger_type = 2,
 		content = {
 			3352,
@@ -3046,9 +3109,10 @@ pg.activity_ins_chat_group = {
 	[98] = {
 		ship_group = 10234,
 		name = "八卦特刊重磅頭版！",
+		group_ii = 0,
+		unlock_desc = "角色好感度達150",
 		id = 98,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達150",
 		trigger_type = 2,
 		content = {
 			3378,
@@ -3096,9 +3160,10 @@ pg.activity_ins_chat_group = {
 	[102] = {
 		ship_group = 110201,
 		name = "植物交流",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 102,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			3537,
@@ -3133,9 +3198,10 @@ pg.activity_ins_chat_group = {
 	[103] = {
 		ship_group = 110201,
 		name = "廚房大危機",
+		group_ii = 0,
+		unlock_desc = "角色好感度達100",
 		id = 103,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達100",
 		trigger_type = 2,
 		content = {
 			3564,
@@ -3185,9 +3251,10 @@ pg.activity_ins_chat_group = {
 	[104] = {
 		ship_group = 110201,
 		name = "孩子們的名字",
+		group_ii = 0,
+		unlock_desc = "角色好感度達150",
 		id = 104,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達150",
 		trigger_type = 2,
 		content = {
 			3606,
@@ -3231,9 +3298,10 @@ pg.activity_ins_chat_group = {
 	[105] = {
 		ship_group = 110101,
 		name = "綠色環境",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 105,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			3642,
@@ -3264,9 +3332,10 @@ pg.activity_ins_chat_group = {
 	[106] = {
 		ship_group = 110101,
 		name = "療癒魔法",
+		group_ii = 0,
+		unlock_desc = "角色好感度達100",
 		id = 106,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達100",
 		trigger_type = 2,
 		content = {
 			3665,
@@ -3298,9 +3367,10 @@ pg.activity_ins_chat_group = {
 	[107] = {
 		ship_group = 110101,
 		name = "真是浪漫",
+		group_ii = 0,
+		unlock_desc = "角色好感度達150",
 		id = 107,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達150",
 		trigger_type = 2,
 		content = {
 			3689,
@@ -3341,9 +3411,10 @@ pg.activity_ins_chat_group = {
 	[108] = {
 		ship_group = 70509,
 		name = "送飯",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 108,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			3722,
@@ -3370,9 +3441,10 @@ pg.activity_ins_chat_group = {
 	[109] = {
 		ship_group = 70509,
 		name = "你覺得冷嗎？",
+		group_ii = 0,
+		unlock_desc = "角色好感度達100",
 		id = 109,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達100",
 		trigger_type = 2,
 		content = {
 			3741,
@@ -3400,9 +3472,10 @@ pg.activity_ins_chat_group = {
 	[110] = {
 		ship_group = 70509,
 		name = "暖夜",
+		group_ii = 0,
+		unlock_desc = "角色好感度達150",
 		id = 110,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達150",
 		trigger_type = 2,
 		content = {
 			3761,
@@ -3439,9 +3512,10 @@ pg.activity_ins_chat_group = {
 	[111] = {
 		ship_group = 70208,
 		name = "提神機器人",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 111,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			3790,
@@ -3479,9 +3553,10 @@ pg.activity_ins_chat_group = {
 	[112] = {
 		ship_group = 70208,
 		name = "爆炸發明",
+		group_ii = 0,
+		unlock_desc = "角色好感度達100",
 		id = 112,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達100",
 		trigger_type = 2,
 		content = {
 			3820,
@@ -3515,9 +3590,10 @@ pg.activity_ins_chat_group = {
 	[113] = {
 		ship_group = 70208,
 		name = "專屬發明",
+		group_ii = 0,
+		unlock_desc = "角色好感度達150",
 		id = 113,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達150",
 		trigger_type = 2,
 		content = {
 			3846,
@@ -3565,9 +3641,10 @@ pg.activity_ins_chat_group = {
 	[117] = {
 		ship_group = 20516,
 		name = "百密一疏",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 117,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			3996,
@@ -3599,9 +3676,10 @@ pg.activity_ins_chat_group = {
 	[118] = {
 		ship_group = 20516,
 		name = "你所期望的懲罰",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 118,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			4020,
@@ -3641,9 +3719,10 @@ pg.activity_ins_chat_group = {
 	[119] = {
 		ship_group = 20516,
 		name = "彼此的信物",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 119,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			4052,
@@ -3685,9 +3764,10 @@ pg.activity_ins_chat_group = {
 	[120] = {
 		ship_group = 20138,
 		name = "罪孽深重之人",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 120,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			4086,
@@ -3723,9 +3803,10 @@ pg.activity_ins_chat_group = {
 	[121] = {
 		ship_group = 20138,
 		name = "距離感",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 121,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			4114,
@@ -3764,9 +3845,10 @@ pg.activity_ins_chat_group = {
 	[122] = {
 		ship_group = 20138,
 		name = "指揮官研究進行中",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 122,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			4145,
@@ -3808,9 +3890,10 @@ pg.activity_ins_chat_group = {
 	[123] = {
 		ship_group = 20235,
 		name = "尼羅河粽子",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 123,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			4179,
@@ -3845,9 +3928,10 @@ pg.activity_ins_chat_group = {
 	[124] = {
 		ship_group = 20235,
 		name = "招財獅身人面像",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 124,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			4206,
@@ -3878,9 +3962,10 @@ pg.activity_ins_chat_group = {
 	[125] = {
 		ship_group = 20235,
 		name = "從未失去",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 125,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			4229,
@@ -3921,9 +4006,10 @@ pg.activity_ins_chat_group = {
 	[126] = {
 		ship_group = 20139,
 		name = "驚喜",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 126,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			4262,
@@ -3961,9 +4047,10 @@ pg.activity_ins_chat_group = {
 	[127] = {
 		ship_group = 20139,
 		name = "七彩按摩儀",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 127,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			4292,
@@ -4000,9 +4087,10 @@ pg.activity_ins_chat_group = {
 	[128] = {
 		ship_group = 20139,
 		name = "各自的工作",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 128,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			4321,
@@ -4051,9 +4139,10 @@ pg.activity_ins_chat_group = {
 	[129] = {
 		ship_group = 20236,
 		name = "握住我的手",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 129,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			4362,
@@ -4091,9 +4180,10 @@ pg.activity_ins_chat_group = {
 	[130] = {
 		ship_group = 20236,
 		name = "我會一直注視著你",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 130,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			4392,
@@ -4131,9 +4221,10 @@ pg.activity_ins_chat_group = {
 	[131] = {
 		ship_group = 20236,
 		name = "獵人與獵手",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 131,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			4422,
@@ -4168,9 +4259,10 @@ pg.activity_ins_chat_group = {
 	[132] = {
 		ship_group = 40407,
 		name = "系統的行程規劃",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 132,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			4449,
@@ -4203,9 +4295,10 @@ pg.activity_ins_chat_group = {
 	[133] = {
 		ship_group = 40407,
 		name = "給我好好休息",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 133,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			4474,
@@ -4235,9 +4328,10 @@ pg.activity_ins_chat_group = {
 	[134] = {
 		ship_group = 40407,
 		name = "反客為主",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 134,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			4496,
@@ -4278,9 +4372,10 @@ pg.activity_ins_chat_group = {
 	[135] = {
 		ship_group = 40814,
 		name = "節能教學",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 135,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			4529,
@@ -4311,9 +4406,10 @@ pg.activity_ins_chat_group = {
 	[136] = {
 		ship_group = 40814,
 		name = "睡覺的地方",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 136,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			4552,
@@ -4353,9 +4449,10 @@ pg.activity_ins_chat_group = {
 	[137] = {
 		ship_group = 40814,
 		name = "星夜休憩",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 137,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			4584,
@@ -4392,9 +4489,10 @@ pg.activity_ins_chat_group = {
 	[138] = {
 		ship_group = 40113,
 		name = "開發顧問",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 138,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			4613,
@@ -4433,9 +4531,10 @@ pg.activity_ins_chat_group = {
 	[139] = {
 		ship_group = 40113,
 		name = "評分系統",
+		group_ii = 0,
+		unlock_desc = "角色好感度達100",
 		id = 139,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達100",
 		trigger_type = 2,
 		content = {
 			4644,
@@ -4478,9 +4577,10 @@ pg.activity_ins_chat_group = {
 	[140] = {
 		ship_group = 40113,
 		name = "戀愛大師",
+		group_ii = 0,
+		unlock_desc = "角色好感度達150",
 		id = 140,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達150",
 		trigger_type = 2,
 		content = {
 			4679,
@@ -4525,9 +4625,10 @@ pg.activity_ins_chat_group = {
 	[147] = {
 		ship_group = 80401,
 		name = "「公平交易」",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 147,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			4929,
@@ -4554,9 +4655,10 @@ pg.activity_ins_chat_group = {
 	[148] = {
 		ship_group = 80401,
 		name = "咖啡除外",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 148,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			4948,
@@ -4594,9 +4696,10 @@ pg.activity_ins_chat_group = {
 	[149] = {
 		ship_group = 80401,
 		name = "指揮官的味道",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 149,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			4978,
@@ -4629,9 +4732,10 @@ pg.activity_ins_chat_group = {
 	[150] = {
 		ship_group = 80601,
 		name = "線上工作",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 150,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5003,
@@ -4672,9 +4776,10 @@ pg.activity_ins_chat_group = {
 	[151] = {
 		ship_group = 80601,
 		name = "健康與音樂",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 151,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5036,
@@ -4714,9 +4819,10 @@ pg.activity_ins_chat_group = {
 	[152] = {
 		ship_group = 80601,
 		name = "夢境控制",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 152,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5068,
@@ -4752,9 +4858,10 @@ pg.activity_ins_chat_group = {
 	[153] = {
 		ship_group = 80105,
 		name = "形象改造",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 153,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5096,
@@ -4784,9 +4891,10 @@ pg.activity_ins_chat_group = {
 	[154] = {
 		ship_group = 80105,
 		name = "櫃子動了",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 154,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5118,
@@ -4830,9 +4938,10 @@ pg.activity_ins_chat_group = {
 	[155] = {
 		ship_group = 80105,
 		name = "真心話大冒險",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 155,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5154,
@@ -4873,9 +4982,10 @@ pg.activity_ins_chat_group = {
 	[156] = {
 		ship_group = 80303,
 		name = "特色慶典",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 156,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5187,
@@ -4909,9 +5019,10 @@ pg.activity_ins_chat_group = {
 	[157] = {
 		ship_group = 80303,
 		name = "喜歡的餐點",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 157,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5213,
@@ -4944,9 +5055,10 @@ pg.activity_ins_chat_group = {
 	[158] = {
 		ship_group = 80303,
 		name = "挑戰旅行",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 158,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5238,
@@ -4982,9 +5094,10 @@ pg.activity_ins_chat_group = {
 	[159] = {
 		ship_group = 80204,
 		name = "淨化邪祟",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 159,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5266,
@@ -5019,9 +5132,10 @@ pg.activity_ins_chat_group = {
 	[160] = {
 		ship_group = 80204,
 		name = "刷碟機與專輯",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 160,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5293,
@@ -5051,9 +5165,10 @@ pg.activity_ins_chat_group = {
 	[161] = {
 		ship_group = 80204,
 		name = "一日支配權",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 161,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5315,
@@ -5087,9 +5202,10 @@ pg.activity_ins_chat_group = {
 	[162] = {
 		ship_group = 10709,
 		name = "一起喝",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 162,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5341,
@@ -5119,9 +5235,10 @@ pg.activity_ins_chat_group = {
 	[163] = {
 		ship_group = 10709,
 		name = "創意漢堡",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 163,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5363,
@@ -5154,9 +5271,10 @@ pg.activity_ins_chat_group = {
 	[164] = {
 		ship_group = 10709,
 		name = "約會的默契",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 164,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5388,
@@ -5187,9 +5305,10 @@ pg.activity_ins_chat_group = {
 	[165] = {
 		ship_group = 30716,
 		name = "雨天的香道",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 165,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5411,
@@ -5222,9 +5341,10 @@ pg.activity_ins_chat_group = {
 	[166] = {
 		ship_group = 30716,
 		name = "鏡中畫面",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 166,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5436,
@@ -5260,9 +5380,10 @@ pg.activity_ins_chat_group = {
 	[167] = {
 		ship_group = 30716,
 		name = "相伴永恆",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 167,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5464,
@@ -5292,9 +5413,10 @@ pg.activity_ins_chat_group = {
 	[168] = {
 		ship_group = 31702,
 		name = "水族館",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 168,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5486,
@@ -5327,9 +5449,10 @@ pg.activity_ins_chat_group = {
 	[169] = {
 		ship_group = 31702,
 		name = "快速召喚",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 169,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5511,
@@ -5366,9 +5489,10 @@ pg.activity_ins_chat_group = {
 	[170] = {
 		ship_group = 31702,
 		name = "深海之舞",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 170,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5540,
@@ -5396,9 +5520,10 @@ pg.activity_ins_chat_group = {
 	[171] = {
 		ship_group = 30516,
 		name = "對酒當歌",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 171,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5560,
@@ -5436,9 +5561,10 @@ pg.activity_ins_chat_group = {
 	[172] = {
 		ship_group = 30516,
 		name = "俳諧情真切",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 172,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5590,
@@ -5474,9 +5600,10 @@ pg.activity_ins_chat_group = {
 	[173] = {
 		ship_group = 30516,
 		name = "酒一杯",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 173,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5618,
@@ -5511,9 +5638,10 @@ pg.activity_ins_chat_group = {
 	[174] = {
 		ship_group = 30320,
 		name = "迷迭香",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 174,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5645,
@@ -5545,9 +5673,10 @@ pg.activity_ins_chat_group = {
 	[175] = {
 		ship_group = 30320,
 		name = "溫泉邀約",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 175,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5669,
@@ -5579,9 +5708,10 @@ pg.activity_ins_chat_group = {
 	[176] = {
 		ship_group = 30320,
 		name = "未完成的告別",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 176,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5693,
@@ -5616,9 +5746,10 @@ pg.activity_ins_chat_group = {
 	[177] = {
 		ship_group = 30227,
 		name = "奇特食材",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 177,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5720,
@@ -5649,9 +5780,10 @@ pg.activity_ins_chat_group = {
 	[178] = {
 		ship_group = 30227,
 		name = "湯鍋升級",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 178,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5743,
@@ -5687,9 +5819,10 @@ pg.activity_ins_chat_group = {
 	[179] = {
 		ship_group = 30227,
 		name = "湯名為愛",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 179,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5771,
@@ -5721,9 +5854,10 @@ pg.activity_ins_chat_group = {
 	[180] = {
 		ship_group = 30192,
 		name = "盆栽在說話",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 180,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5795,
@@ -5756,9 +5890,10 @@ pg.activity_ins_chat_group = {
 	[181] = {
 		ship_group = 30192,
 		name = "你以為是忍具？",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 181,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5820,
@@ -5788,9 +5923,10 @@ pg.activity_ins_chat_group = {
 	[182] = {
 		ship_group = 30192,
 		name = "小心頭頂",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 182,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5842,
@@ -5817,9 +5953,10 @@ pg.activity_ins_chat_group = {
 	[183] = {
 		ship_group = 30225,
 		name = "縫縫補補",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 183,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5861,
@@ -5846,9 +5983,10 @@ pg.activity_ins_chat_group = {
 	[184] = {
 		ship_group = 30225,
 		name = "武者的直覺",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 184,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5880,
@@ -5876,9 +6014,10 @@ pg.activity_ins_chat_group = {
 	[185] = {
 		ship_group = 30225,
 		name = "彼此的工作",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 185,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5900,
@@ -5910,9 +6049,10 @@ pg.activity_ins_chat_group = {
 	[186] = {
 		ship_group = 960012,
 		name = "宰了你！",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 186,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			5924,
@@ -5946,9 +6086,10 @@ pg.activity_ins_chat_group = {
 	[187] = {
 		ship_group = 960012,
 		name = "在路上了",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 187,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			5950,
@@ -5983,9 +6124,10 @@ pg.activity_ins_chat_group = {
 	[188] = {
 		ship_group = 960012,
 		name = "送一增一",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 188,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			5977,
@@ -6021,9 +6163,10 @@ pg.activity_ins_chat_group = {
 	[189] = {
 		ship_group = 960013,
 		name = "指揮官，請下令吧！",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 189,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			6005,
@@ -6060,9 +6203,10 @@ pg.activity_ins_chat_group = {
 	[190] = {
 		ship_group = 960013,
 		name = "誇誇比試",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 190,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			6034,
@@ -6096,9 +6240,10 @@ pg.activity_ins_chat_group = {
 	[191] = {
 		ship_group = 960013,
 		name = "像揉麵團一樣？",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 191,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			6060,
@@ -6129,9 +6274,10 @@ pg.activity_ins_chat_group = {
 	[192] = {
 		ship_group = 960014,
 		name = "溫柔之心",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 192,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			6083,
@@ -6167,9 +6313,10 @@ pg.activity_ins_chat_group = {
 	[193] = {
 		ship_group = 960014,
 		name = "祝福之歌",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 193,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			6111,
@@ -6207,9 +6354,10 @@ pg.activity_ins_chat_group = {
 	[194] = {
 		ship_group = 960014,
 		name = "永恆之愛",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 194,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			6141,
@@ -6243,9 +6391,10 @@ pg.activity_ins_chat_group = {
 	[195] = {
 		ship_group = 960015,
 		name = "出發！去釣魚",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 195,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			6167,
@@ -6279,9 +6428,10 @@ pg.activity_ins_chat_group = {
 	[196] = {
 		ship_group = 960015,
 		name = "出發！去尋寶",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 196,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			6193,
@@ -6313,9 +6463,10 @@ pg.activity_ins_chat_group = {
 	[197] = {
 		ship_group = 960015,
 		name = "出發！總之先別加班啦！",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 197,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			6217,
@@ -6349,9 +6500,10 @@ pg.activity_ins_chat_group = {
 	[198] = {
 		ship_group = 960016,
 		name = "倉庫怪談",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
 		id = 198,
 		trigger_param = "",
-		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			6243,
@@ -6390,9 +6542,10 @@ pg.activity_ins_chat_group = {
 	[199] = {
 		ship_group = 960016,
 		name = "生存遊戲",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
 		id = 199,
 		trigger_param = "100",
-		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			6274,
@@ -6430,9 +6583,10 @@ pg.activity_ins_chat_group = {
 	[200] = {
 		ship_group = 960016,
 		name = "神秘鄰居",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
 		id = 200,
 		trigger_param = "150",
-		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			6304,
@@ -6464,6 +6618,752 @@ pg.activity_ins_chat_group = {
 			6330,
 			6331,
 			6332
+		}
+	},
+	[210] = {
+		ship_group = 110,
+		name = "遊園邀請",
+		group_ii = 0,
+		unlock_desc = "時間解鎖",
+		id = 210,
+		trigger_type = 3,
+		trigger_param = {
+			{
+				{
+					2025,
+					12,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		content = {
+			6603,
+			6604,
+			6605,
+			6606,
+			6607,
+			6608,
+			6609,
+			6610,
+			6611,
+			6612,
+			6613,
+			6614,
+			6615,
+			6616,
+			6617,
+			6618,
+			6619,
+			6620,
+			6621,
+			6622,
+			6623,
+			6624,
+			6625,
+			6626,
+			6627,
+			6628,
+			6629,
+			6630,
+			6631,
+			6632,
+			6633,
+			6634,
+			6635,
+			6636,
+			6637,
+			6638,
+			6639,
+			6640,
+			6641,
+			6642,
+			6643,
+			6644,
+			6645,
+			6646,
+			6647
+		}
+	},
+	[211] = {
+		ship_group = 10702,
+		name = "要記得好好吃飯",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 211,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6648,
+			6649,
+			6650,
+			6651,
+			6652,
+			6653,
+			6654,
+			6655,
+			6656,
+			6657,
+			6658,
+			6659,
+			6660,
+			6661,
+			6662,
+			6663,
+			6664,
+			6665,
+			6666,
+			6667,
+			6668,
+			6669,
+			6670,
+			6671,
+			6672
+		}
+	},
+	[212] = {
+		ship_group = 10702,
+		name = "新的曲風",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 212,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6673,
+			6674,
+			6675,
+			6676,
+			6677,
+			6678,
+			6679,
+			6680,
+			6681,
+			6682,
+			6683,
+			6684,
+			6685,
+			6686,
+			6687,
+			6688,
+			6689,
+			6690,
+			6691,
+			6692,
+			6693,
+			6694,
+			6695,
+			6696,
+			6697
+		}
+	},
+	[213] = {
+		ship_group = 10702,
+		name = "為了成為你的助力",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 213,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6698,
+			6699,
+			6700,
+			6701,
+			6702,
+			6703,
+			6704,
+			6705,
+			6706,
+			6707,
+			6708,
+			6709,
+			6710,
+			6711,
+			6712,
+			6713,
+			6714,
+			6715,
+			6716,
+			6717,
+			6718,
+			6719,
+			6720,
+			6721,
+			6722,
+			6723,
+			6724,
+			6725,
+			6726,
+			6727
+		}
+	},
+	[214] = {
+		ship_group = 10702,
+		name = "追氣球的人",
+		group_ii = 10716,
+		unlock_desc = "獲得角色",
+		id = 214,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6728,
+			6729,
+			6730,
+			6731,
+			6732,
+			6733,
+			6734,
+			6735,
+			6736,
+			6737,
+			6738,
+			6739,
+			6740,
+			6741,
+			6742,
+			6743,
+			6744,
+			6745,
+			6746,
+			6747,
+			6748,
+			6749,
+			6750,
+			6751,
+			6752,
+			6753
+		}
+	},
+	[215] = {
+		ship_group = 10702,
+		name = "藍色幽靈",
+		group_ii = 10716,
+		unlock_desc = "角色好感度達到100",
+		id = 215,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6754,
+			6755,
+			6756,
+			6757,
+			6758,
+			6759,
+			6760,
+			6761,
+			6762,
+			6763,
+			6764,
+			6765,
+			6766,
+			6767,
+			6768,
+			6769,
+			6770,
+			6771,
+			6772,
+			6773,
+			6774,
+			6775,
+			6776,
+			6777,
+			6778
+		}
+	},
+	[216] = {
+		ship_group = 10702,
+		name = "新的歌謠",
+		group_ii = 10716,
+		unlock_desc = "角色好感度達到150",
+		id = 216,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6779,
+			6780,
+			6781,
+			6782,
+			6783,
+			6784,
+			6785,
+			6786,
+			6787,
+			6788,
+			6789,
+			6790,
+			6791,
+			6792,
+			6793,
+			6794,
+			6795,
+			6796,
+			6797,
+			6798,
+			6799,
+			6800,
+			6801,
+			6802,
+			6803,
+			6804,
+			6805
+		}
+	},
+	[217] = {
+		ship_group = 10110,
+		name = "要爆炸啦！",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 217,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6806,
+			6807,
+			6808,
+			6809,
+			6810,
+			6811,
+			6812,
+			6813,
+			6814,
+			6815,
+			6816,
+			6817,
+			6818,
+			6819,
+			6820,
+			6821,
+			6822,
+			6823,
+			6824,
+			6825,
+			6826,
+			6827,
+			6828,
+			6829,
+			6830,
+			6831,
+			6832
+		}
+	},
+	[218] = {
+		ship_group = 10110,
+		name = "要撞上啦！",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 218,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6833,
+			6834,
+			6835,
+			6836,
+			6837,
+			6838,
+			6839,
+			6840,
+			6841,
+			6842,
+			6843,
+			6844,
+			6845,
+			6846,
+			6847,
+			6848,
+			6849,
+			6850,
+			6851,
+			6852,
+			6853,
+			6854,
+			6855,
+			6856,
+			6857,
+			6858,
+			6859,
+			6860,
+			6861
+		}
+	},
+	[219] = {
+		ship_group = 10110,
+		name = "要……已經墜機啦！",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 219,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6862,
+			6863,
+			6864,
+			6865,
+			6866,
+			6867,
+			6868,
+			6869,
+			6870,
+			6871,
+			6872,
+			6873,
+			6874,
+			6875,
+			6876,
+			6877,
+			6878,
+			6879,
+			6880,
+			6881,
+			6882,
+			6883,
+			6884
+		}
+	},
+	[220] = {
+		ship_group = 10155,
+		name = "全面測試",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 220,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6885,
+			6886,
+			6887,
+			6888,
+			6889,
+			6890,
+			6891,
+			6892,
+			6893,
+			6894,
+			6895,
+			6896,
+			6897,
+			6898,
+			6899,
+			6900,
+			6901,
+			6902,
+			6903,
+			6904,
+			6905,
+			6906,
+			6907,
+			6908,
+			6909,
+			6910,
+			6911,
+			6912,
+			6913,
+			6914
+		}
+	},
+	[221] = {
+		ship_group = 10155,
+		name = "bug測試",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 221,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6915,
+			6916,
+			6917,
+			6918,
+			6919,
+			6920,
+			6921,
+			6922,
+			6923,
+			6924,
+			6925,
+			6926,
+			6927,
+			6928,
+			6929,
+			6930,
+			6931,
+			6932,
+			6933,
+			6934,
+			6935,
+			6936,
+			6937,
+			6938,
+			6939,
+			6940
+		}
+	},
+	[222] = {
+		ship_group = 10155,
+		name = "戒斷測試",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 222,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6941,
+			6942,
+			6943,
+			6944,
+			6945,
+			6946,
+			6947,
+			6948,
+			6949,
+			6950,
+			6951,
+			6952,
+			6953,
+			6954,
+			6955,
+			6956,
+			6957,
+			6958,
+			6959,
+			6960,
+			6961,
+			6962,
+			6963,
+			6964
+		}
+	},
+	[223] = {
+		ship_group = 10235,
+		name = "快樂嚮導",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 223,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6965,
+			6966,
+			6967,
+			6968,
+			6969,
+			6970,
+			6971,
+			6972,
+			6973,
+			6974,
+			6975,
+			6976,
+			6977,
+			6978,
+			6979,
+			6980,
+			6981,
+			6982,
+			6983,
+			6984,
+			6985,
+			6986,
+			6987,
+			6988,
+			6989,
+			6990,
+			6991,
+			6992
+		}
+	},
+	[224] = {
+		ship_group = 10235,
+		name = "活動的秘密",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 224,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6993,
+			6994,
+			6995,
+			6996,
+			6997,
+			6998,
+			6999,
+			7000,
+			7001,
+			7002,
+			7003,
+			7004,
+			7005,
+			7006,
+			7007,
+			7008,
+			7009,
+			7010,
+			7011,
+			7012,
+			7013,
+			7014,
+			7015,
+			7016,
+			7017,
+			7018,
+			7019,
+			7020,
+			7021,
+			7022,
+			7023
+		}
+	},
+	[225] = {
+		ship_group = 10235,
+		name = "每天都是紀念日",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 225,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			7024,
+			7025,
+			7026,
+			7027,
+			7028,
+			7029,
+			7030,
+			7031,
+			7032,
+			7033,
+			7034,
+			7035,
+			7036,
+			7037,
+			7038,
+			7039,
+			7040,
+			7041,
+			7042,
+			7043,
+			7044,
+			7045,
+			7046,
+			7047,
+			7048,
+			7049,
+			7050
+		}
+	},
+	[226] = {
+		ship_group = 10725,
+		name = "營養快遞",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 226,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			7051,
+			7052,
+			7053,
+			7054,
+			7055,
+			7056,
+			7057,
+			7058,
+			7059,
+			7060,
+			7061,
+			7062,
+			7063,
+			7064,
+			7065,
+			7066,
+			7067,
+			7068,
+			7069,
+			7070,
+			7071,
+			7072
+		}
+	},
+	[227] = {
+		ship_group = 10725,
+		name = "全營養作戰",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 227,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			7073,
+			7074,
+			7075,
+			7076,
+			7077,
+			7078,
+			7079,
+			7080,
+			7081,
+			7082,
+			7083,
+			7084,
+			7085,
+			7086,
+			7087,
+			7088,
+			7089,
+			7090,
+			7091,
+			7092,
+			7093,
+			7094,
+			7095,
+			7096,
+			7097,
+			7098,
+			7099,
+			7100
+		}
+	},
+	[228] = {
+		ship_group = 10725,
+		name = "安眠特飲",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 228,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			7101,
+			7102,
+			7103,
+			7104,
+			7105,
+			7106,
+			7107,
+			7108,
+			7109,
+			7110,
+			7111,
+			7112,
+			7113,
+			7114,
+			7115,
+			7116,
+			7117,
+			7118,
+			7119,
+			7120,
+			7121,
+			7122,
+			7123,
+			7124,
+			7125,
+			7126
 		}
 	},
 	get_id_list_by_ship_group = {
@@ -6736,6 +7636,37 @@ pg.activity_ins_chat_group = {
 			198,
 			199,
 			200
+		},
+		[110] = {
+			210
+		},
+		[10702] = {
+			211,
+			212,
+			213,
+			214,
+			215,
+			216
+		},
+		[10110] = {
+			217,
+			218,
+			219
+		},
+		[10155] = {
+			220,
+			221,
+			222
+		},
+		[10235] = {
+			223,
+			224,
+			225
+		},
+		[10725] = {
+			226,
+			227,
+			228
 		}
 	},
 	all = {
@@ -6892,6 +7823,25 @@ pg.activity_ins_chat_group = {
 		197,
 		198,
 		199,
-		200
+		200,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228
 	}
 }

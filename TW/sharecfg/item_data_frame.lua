@@ -505,12 +505,12 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[337] = {
-		name = "幽海幽影",
-		gain_by = "",
+		name = "幽海幽影 ",
+		gain_by = "響徹於天穹之音 ",
 		time_second = 0,
 		id = 337,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "<color=#ffffff>「久疏問候，指揮官——我回來了」</color>\n「響徹於天穹之音」活動獲取",
 		scene = {}
 	},
 	[401] = {

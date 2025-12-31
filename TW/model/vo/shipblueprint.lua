@@ -809,4 +809,8 @@ slot0.isUnlockShipPhantom = function(slot0)
 	return slot0:isFetched() and getGameset("technology_shadow_unlock_lv")[1] <= getProxy(BayProxy):getShipById(slot0.shipId).level
 end
 
+slot0.IsFate = function(slot0)
+	return #slot0:getConfig("fate_strengthen") > 0
+end
+
 return slot0

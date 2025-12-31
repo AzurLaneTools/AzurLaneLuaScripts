@@ -13,7 +13,7 @@ slot0.GetHeadOffset = function(slot0)
 end
 
 slot0.OnInit = function(slot0, slot1)
-	slot0.cancelAnimationOpTpl = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[4]
+	slot0.cancelAnimationOpTpl = slot0._tf:Find("tpls/IslandCancelAnimationOpTpl")
 	slot0.cancelAnimationOpTpls = {}
 
 	uv0.super.OnInit(slot0, slot1)

@@ -81,7 +81,7 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "main-christmas",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -134,6 +134,11 @@ pg.voice_bgm = {
 		default_bgm = "idol-BlueSpirit-inst",
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
+	},
+	ActivityShop50287 = {
+		default_bgm = "theme-weimu",
+		special_bgm = "",
+		bgm = "theme-weimu"
 	},
 	ActivityShop50246 = {
 		default_bgm = "dal-az-story-up",
@@ -2329,5 +2334,35 @@ pg.voice_bgm = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
+	},
+	HelenaMainPage = {
+		default_bgm = "story-weimu-link",
+		special_bgm = "",
+		bgm = "story-weimu-link"
+	},
+	HelenaPtNewPage = {
+		default_bgm = "story-date-light",
+		special_bgm = "",
+		bgm = "story-date-light"
+	},
+	HelenaUrExchangePage = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
+	},
+	WinterFestival2025SkinMagazinePage = {
+		default_bgm = "story-fantasyland-summer",
+		special_bgm = "",
+		bgm = "story-fantasyland-summer"
+	},
+	HamanIITaskSkinPage = {
+		default_bgm = "story-richang-9",
+		special_bgm = "",
+		bgm = "story-richang-9"
+	},
+	TianqiongMedalAlbumView = {
+		default_bgm = "story-weimu-link",
+		special_bgm = "",
+		bgm = "story-weimu-link"
 	}
 }

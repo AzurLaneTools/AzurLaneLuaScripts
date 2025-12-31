@@ -12100,7 +12100,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "夜刀神十香、鳶一折紙、五河琴里 建造概率UP！"
+	tip = "每累計建造200次可獲得海上傳奇艦船 列星頓II(最多4次)"
 }
 
 
@@ -23113,12 +23113,12 @@ _G.pg.base.gametip.ssssmedal_desc6 = {
 
 
 _G.pg.base.gametip.show_fate_demand_count = {
-	tip = "顯示<color=#92fc63>天運擬合</color>所需數量"
+	tip = "切換至<color=#92fc63>天運擬合</color>所需數量"
 }
 
 
 _G.pg.base.gametip.show_design_demand_count = {
-	tip = "顯示<color=#92fc63>科研等級30</color>所需數量"
+	tip = "切換至<color=#92fc63>科研等級30</color>所需數量"
 }
 
 
@@ -39288,6 +39288,11 @@ _G.pg.base.gametip.shop_filter_retro = {
 }
 
 
+_G.pg.base.gametip.island_word_go = {
+	tip = "前往"
+}
+
+
 _G.pg.base.gametip.graphi_api_switch_opengl = {
 	tip = "部分機型使用預設模式會出現黑畫面的問題，切換模式後需要重新進入遊戲，是否立即切換？"
 }
@@ -39861,6 +39866,16 @@ _G.pg.base.gametip.shop_sell_ended = {
 }
 
 
+_G.pg.base.gametip.skinshop_on_sale_tip = {
+	tip = "禮包在售"
+}
+
+
+_G.pg.base.gametip.skinshop_on_sale_tip_2 = {
+	tip = "福袋在售"
+}
+
+
 _G.pg.base.gametip.DAL_stage_label_data = {
 	tip = "海域情報"
 }
@@ -40224,6 +40239,21 @@ _G.pg.base.gametip.cruise_title_1211 = {
 }
 
 
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_4 = {
+	tip = "響徹於天穹之音"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_5 = {
+	tip = "帷幕補給站"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_6 = {
+	tip = "UR兌換"
+}
+
+
 _G.pg.base.gametip.winter_battlepass_proceed = {
 	tip = "前往"
 }
@@ -40296,4 +40326,44 @@ _G.pg.base.gametip.winter_luckybag_9006 = {
 
 _G.pg.base.gametip.winter_cruise_btn_all = {
 	tip = "全部领取"
+}
+
+
+_G.pg.base.gametip.winter__battlepass_rewards = {
+	tip = "獎勵"
+}
+
+
+_G.pg.base.gametip.fate_unlock_icon_desc = {
+	tip = "※方案艦已擁有天運擬合"
+}
+
+
+_G.pg.base.gametip.blueprint_exchange_fate_unlock = {
+	tip = "目前方案艦暫未擁有天運擬合，是否繼續兌換"
+}
+
+
+_G.pg.base.gametip.blueprint_exchange_fate_unlock_over = {
+	tip = "兌換的<color=#22ff22>$1</color>超出所需數量<color=#ff5c5c>$2張</color>"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_fate_lock = {
+	tip = "<color=#ff5c5c>未擁有</color>天運擬合"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_fate_unlock = {
+	tip = "<color=#92fc63>已擁有</color>天運擬合"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_exchange_fate_unlock = {
+	tip = "目前方案艦暫未擁有天運擬合，是否繼續兌換"
+}
+
+
+_G.pg.base.gametip.skinstory_20251218 = {
+	tip = "專屬心動時刻(上)"
 }

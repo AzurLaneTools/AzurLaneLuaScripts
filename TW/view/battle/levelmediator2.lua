@@ -1188,6 +1188,8 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
 		elseif slot2 == GAME.STORY_UPDATE_DONE then
 			slot0.cachedStoryAwards = slot3
+
+			slot0.viewComponent.mapBuilder:UpdateView()
 		elseif slot2 == GAME.STORY_END then
 			if slot0.cachedStoryAwards then
 				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.cachedStoryAwards.awards)

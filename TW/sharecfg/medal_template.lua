@@ -2653,6 +2653,31 @@ pg.medal_template = {
 		explain1 = "「颶風與自由群島」",
 		explain2 = "活動紀念"
 	},
+	[200111] = {
+		target_id = "50295",
+		name = "天穹之星紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = [[
+仿照安克拉治國立天文台樣式所製作的紀念勳章。
+——你揭開了帷幕，你跨越了天穹
+——過去未來於此刻相連
+——新的時代到來了]],
+		next = 0,
+		icon = "9111",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9111",
+		condition = "收集8張「響徹於天穹之音」紀念貼紙。",
+		rank = 1,
+		id = 200111,
+		explain1 = "「響徹於天穹之音」",
+		explain2 = "活動紀念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2774,6 +2799,7 @@ pg.medal_template = {
 		200071,
 		200081,
 		200091,
-		200101
+		200101,
+		200111
 	}
 }

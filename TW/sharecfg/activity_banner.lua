@@ -1,17 +1,41 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -20,6 +44,32 @@ pg.activity_banner = {
 			{
 				projectName = "new",
 				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					22
+				},
+				{
+					14,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -38,7 +88,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					25
+					31
 				},
 				{
 					0,
@@ -50,10 +100,10 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					28
+					22
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -61,59 +111,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
 		param = {
 			"scene charge",
 			{
-				wrap = 2
+				wrap = 4
 			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 5,
-		pic = "temp5",
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 6,
-		pic = "temp6",
-		param = {
-			"scene court yard"
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"scene Cryptolalia",
-			{}
-		}
-	},
-	{
-		param = "5106",
-		type = 3,
-		id = 8,
-		pic = "temp8",
+		},
 		time = {
 			{
 				{
 					2025,
 					12,
-					25
+					31
 				},
 				{
 					0,
@@ -129,6 +141,119 @@ pg.activity_banner = {
 				},
 				{
 					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp5",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		time = "stop",
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"scene Cryptolalia",
+			{}
+		}
+	},
+	{
+		param = "50296",
+		type = 3,
+		id = 8,
+		pic = "temp8",
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					22
+				},
+				{
+					14,
 					59,
 					59
 				}
@@ -191,7 +316,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					11
+					31
 				},
 				{
 					0,
@@ -201,9 +326,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					12,
-					24
+					2026,
+					1,
+					21
 				},
 				{
 					23,
@@ -335,7 +460,7 @@ pg.activity_banner = {
 	},
 	[202] = {
 		param = "",
-		time = "stop",
+		time = "always",
 		type = 13,
 		id = 202,
 		pic = "winter"
@@ -349,7 +474,7 @@ pg.activity_banner = {
 	},
 	[204] = {
 		param = "",
-		time = "always",
+		time = "stop",
 		type = 13,
 		id = 204,
 		pic = "summer"

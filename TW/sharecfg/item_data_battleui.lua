@@ -218,6 +218,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[206] = {
+		name = "甜點女僕屋",
+		key = "SkinElite_20251218",
+		display_icon = "ui_206",
+		unlock = "甜點女僕屋戰鬥主題禮包獲取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "享用著甜甜女僕準備的甜甜點心，輕鬆愜意地面對挑戰吧！",
+		id = 206,
+		icon = "206",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -232,6 +249,7 @@ pg.item_data_battleui = {
 		202,
 		203,
 		204,
-		205
+		205,
+		206
 	}
 }

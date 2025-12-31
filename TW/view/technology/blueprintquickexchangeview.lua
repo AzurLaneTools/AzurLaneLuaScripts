@@ -95,18 +95,31 @@ slot0.OnInit = function(slot0)
 
 		slot0 = {}
 
-		for slot4, slot5 in ipairs(uv0.displayList) do
-			if uv0.countList[slot4] > 0 then
-				table.insert(slot0, {
-					id = slot5.id,
-					count = uv0.countList[slot4],
-					arg = Item.getConfigData(slot5.id).usage_arg[uv0.awardList[slot4].index]
+		if uv0.isSwitch and not uv0.blueprintVO:IsFate() then
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("blueprint_lab_exchange_fate_unlock"),
+					onYes = slot0
 				})
-			end
+			end)
 		end
 
-		uv0:emit(ShipBluePrintMediator.QUICK_EXCHAGE_BLUEPRINT, slot0)
-		uv0:Hide()
+		seriesAsync(slot0, function ()
+			slot0 = {}
+
+			for slot4, slot5 in ipairs(uv0.displayList) do
+				if uv0.countList[slot4] > 0 then
+					table.insert(slot0, {
+						id = slot5.id,
+						count = uv0.countList[slot4],
+						arg = Item.getConfigData(slot5.id).usage_arg[uv0.awardList[slot4].index]
+					})
+				end
+			end
+
+			uv0:emit(ShipBluePrintMediator.QUICK_EXCHAGE_BLUEPRINT, slot0)
+			uv0:Hide()
+		end)
 	end, SFX_CANCEL)
 
 	slot2 = slot0._tf
@@ -115,6 +128,10 @@ slot0.OnInit = function(slot0)
 	slot0.rtTarget = slot2:Find("target")
 	slot2 = slot0.rtResult
 	slot0.rtExchange = slot2:Find("exchange")
+	slot2 = slot0.rtResult
+	slot0.fate = slot2:Find("fate")
+	slot2 = slot0.fate
+	slot0.fateText = slot2:Find("Text")
 	slot3 = slot0.rtExchange
 
 	setText(slot3:Find("bg/title"), i18n("blueprint_exchange_select_display"))
@@ -123,15 +140,16 @@ slot0.OnInit = function(slot0)
 	slot0.toggleSwitch = slot2:Find("switch")
 	slot3 = slot0.toggleSwitch
 
-	setText(slot3:Find("front/Text_off"), i18n("show_design_demand_count"))
+	setText(slot3:Find("front/Text_off"), i18n("show_fate_demand_count"))
 
 	slot3 = slot0.toggleSwitch
 
-	setText(slot3:Find("front/Text_on"), i18n("show_fate_demand_count"))
+	setText(slot3:Find("front/Text_on"), i18n("show_design_demand_count"))
 	onToggle(slot0, slot0.toggleSwitch, function (slot0)
 		uv0.isSwitch = slot0
 
 		uv0:UpdateResult()
+		setActive(uv0.fate, uv0.isSwitch)
 	end)
 end
 
@@ -197,6 +215,7 @@ slot0.UpdateBlueprint = function(slot0, slot1)
 
 	slot0.itemList:align(#slot0.displayList)
 	triggerToggle(slot0.toggleSwitch, slot1:canFateSimulation())
+	setText(slot0.fateText, slot1:IsFate() and i18n("blueprint_lab_fate_unlock") or i18n("blueprint_lab_fate_lock"))
 end
 
 slot0.UpdateResult = function(slot0)

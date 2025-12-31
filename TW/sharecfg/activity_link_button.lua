@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "7502",
+		param = "0",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			7502
+			50222
 		}
 	},
 	{
@@ -39,13 +39,16 @@ pg.activity_link_button = {
 	[10] = {
 		param = "0",
 		name = "event_map",
-		time = "stop",
 		text_pic = "text_event_map",
 		type = 0,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
-		order = 1
+		order = 1,
+		time = {
+			"default",
+			50281
+		}
 	},
 	[11] = {
 		param = "0",
@@ -302,31 +305,31 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "HelenaCoreActivityUI",
+		param = "WinterFestival2025CoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_core2",
+		text_pic = "text_event_core3",
 		type = 16,
-		pic = "event_core2",
+		pic = "event_core3",
 		id = 109,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			50261
+			50290
 		}
 	},
 	[110] = {
-		param = "SailingShip3CoreActivityUI",
+		param = "HelenaCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_yumia",
+		text_pic = "text_event_core2",
 		type = 16,
-		pic = "event_yumia",
+		pic = "event_core2",
 		id = 110,
 		group_id = 2,
 		order = 2,
 		time = {
 			"default",
-			50205
+			50261
 		}
 	},
 	[111] = {

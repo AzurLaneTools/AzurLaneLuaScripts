@@ -1910,6 +1910,14 @@ slot9.CLSMinion = function(slot0)
 	end
 end
 
+slot9.CLSAOE = function(slot0)
+	for slot4, slot5 in pairs(slot0._AOEList) do
+		if slot5:GetSource() == slot5.SOURCE_BULLET_9 then
+			slot0:RemoveAreaOfEffect(slot4)
+		end
+	end
+end
+
 slot9.SpawnColumnArea = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
 	slot10 = uv0.Battle.BattleAOEData.New(slot0:GenerateAreaID(), slot2, slot6, slot8)
 

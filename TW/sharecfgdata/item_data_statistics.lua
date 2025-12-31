@@ -15653,6 +15653,37 @@ _G.pg.base.item_data_statistics[21050] = {
 }
 
 
+_G.pg.base.item_data_statistics[21055] = {
+	open_directly = 0,
+	name = "結晶：克里夫蘭·META",
+	type = 4,
+	display = "克里夫蘭·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21055",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21055,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "結晶化熱強鋼",
@@ -27269,6 +27300,131 @@ _G.pg.base.item_data_statistics[30377] = {
 		{
 			9,
 			1528,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30378] = {
+	open_directly = 1,
+	name = "外觀裝備箱(玫粉女僕屋)",
+	type = 11,
+	display = "可以獲得一件隨機的玫粉女僕屋風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmeifennvpuwu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30375",
+	id = 30378,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
 			1
 		}
 	},
@@ -41613,6 +41769,219 @@ _G.pg.base.item_data_statistics[30561] = {
 }
 
 
+_G.pg.base.item_data_statistics[30562] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(玫粉女僕屋)",
+	type = 13,
+	display = "使用後可從「玫粉女僕屋」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmeifennvpuwuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30562,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "定向部件T4",
@@ -45322,6 +45691,90 @@ _G.pg.base.item_data_statistics[40066] = {
 		{
 			31,
 			205,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40074] = {
+	open_directly = 1,
+	name = "甜點女僕屋主題禮包(基礎版)",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題 甜點女僕屋*1,1000物資",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4075",
+	id = 40074,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			206,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40075] = {
+	open_directly = 1,
+	name = "甜點女僕屋主題禮包(豪華版)",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題 甜點女僕屋*1,3060鑽石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4076",
+	id = 40075,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			206,
 			1
 		},
 		{
@@ -91147,6 +91600,73 @@ _G.pg.base.item_data_statistics[81218] = {
 		{
 			2,
 			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81230] = {
+	open_directly = 1,
+	name = "慶典狂歡夜禮盒·I",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2026，心智單元*50，心智魔方*20，高級定向藍圖·八期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai30",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998326",
+	id = 81230,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86222,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
 			2
 		},
 		{

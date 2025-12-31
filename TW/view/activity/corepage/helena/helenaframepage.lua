@@ -11,10 +11,33 @@ slot0.OnInit = function(slot0)
 	slot0.bar = slot0._tf:Find("AD/switcher/phase2/task_bg_2/Image/barContent/bar")
 	slot0.cur = slot0._tf:Find("AD/switcher/phase2/task_bg_2/Image/step")
 	slot0.target = slot0._tf:Find("AD/switcher/phase2/task_bg_2/Image/progress")
+
+	setText(slot0._tf:Find("AD/switcher/phase2/task_bg_2/battle_btn/Text"), i18n("other_world_task_go"))
+	setText(slot0._tf:Find("AD/switcher/phase2/task_bg_2/get_btn/Text"), i18n("other_world_task_get"))
+	setText(slot0._tf:Find("AD/switcher/phase2/task_bg_2/got_btn/Text"), i18n("other_world_task_got"))
 end
 
 slot0.OnFirstFlush = function(slot0)
-	uv0.super.OnFirstFlush(slot0)
+	onButton(slot0, slot0.battleBtn, function ()
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.getBtn, function ()
+		uv0:emit(ActivityMediator.EVENT_OPERATION, {
+			cmd = 1,
+			activity_id = uv0.activity.id
+		})
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.switchBtn, function (slot0)
+		if uv0.isSwitching then
+			return
+		end
+
+		uv0:Switch(slot0)
+	end, SFX_PANEL)
+
+	slot0.inPhase2 = slot0.timeStamp and pg.TimeMgr.GetInstance():GetServerTime() - slot0.timeStamp > 0
+
+	triggerToggle(slot0.switchBtn, slot0.inPhase2)
 end
 
 slot0.OnUpdateFlush = function(slot0)
