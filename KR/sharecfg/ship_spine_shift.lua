@@ -560,5 +560,19 @@ pg.ship_spine_shift = {
 			-41.1,
 			-144.4
 		}
+	},
+	bote = {
+		spine = "bote",
+		mainui_shift = {
+			-12.31,
+			0
+		}
+	},
+	bote_2 = {
+		spine = "bote_2",
+		mainui_shift = {
+			-12.31,
+			0
+		}
 	}
 }

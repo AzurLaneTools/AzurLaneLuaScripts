@@ -16094,6 +16094,37 @@ _G.pg.base.item_data_statistics[21054] = {
 }
 
 
+_G.pg.base.item_data_statistics[21055] = {
+	open_directly = 0,
+	name = "결정: 클리블랜드·META",
+	type = 4,
+	display = "클리블랜드·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21055",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21055,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -28296,6 +28327,131 @@ _G.pg.base.item_data_statistics[30377] = {
 		{
 			9,
 			1528,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30378] = {
+	open_directly = 1,
+	name = "장비스킨 상자(메이드 하우스)",
+	type = 11,
+	display = "랜덤으로 장비스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmeifennvpuwu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30375",
+	id = 30378,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
 			1
 		}
 	},
@@ -42744,6 +42900,219 @@ _G.pg.base.item_data_statistics[30561] = {
 }
 
 
+_G.pg.base.item_data_statistics[30562] = {
+	open_directly = 0,
+	name = "선택 장비스킨 상자(메이드 하우스)",
+	type = 13,
+	display = "사용하면 장비스킨(메이드 하우스) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmeifennvpuwuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30562,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4258,
+			1
+		},
+		{
+			9,
+			4259,
+			1
+		},
+		{
+			9,
+			4260,
+			1
+		},
+		{
+			9,
+			4261,
+			1
+		},
+		{
+			9,
+			4262,
+			1
+		},
+		{
+			9,
+			4263,
+			1
+		},
+		{
+			9,
+			4264,
+			1
+		},
+		{
+			9,
+			4265,
+			1
+		},
+		{
+			9,
+			4266,
+			1
+		},
+		{
+			9,
+			4267,
+			1
+		},
+		{
+			9,
+			4268,
+			1
+		},
+		{
+			9,
+			4269,
+			1
+		},
+		{
+			9,
+			4270,
+			1
+		},
+		{
+			9,
+			4271,
+			1
+		},
+		{
+			9,
+			4272,
+			1
+		},
+		{
+			9,
+			4273,
+			1
+		},
+		{
+			9,
+			4274,
+			1
+		},
+		{
+			9,
+			4275,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "지향형 부속T4",
@@ -46599,6 +46968,90 @@ _G.pg.base.item_data_statistics[40070] = {
 			2,
 			16502,
 			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40074] = {
+	open_directly = 1,
+	name = "전투 UI·메이드 카페(기초)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·메이드 카페, 물자×1000 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4075",
+	id = 40074,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			206,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40075] = {
+	open_directly = 1,
+	name = "전투 UI·메이드 카페(럭셔리)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·메이드 카페, 다이아×3060 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4076",
+	id = 40075,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			206,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},
@@ -103393,6 +103846,114 @@ _G.pg.base.item_data_statistics[68153] = {
 }
 
 
+_G.pg.base.item_data_statistics[68160] = {
+	open_directly = 0,
+	name = "换装体验券(轻飘飘的拂拭时光)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>列克星敦II</color>换装<color=#92fc63FF>轻飘飘的拂拭时光</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月24日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68160,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90405
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68161] = {
+	open_directly = 0,
+	name = "换装体验券(心动营养灌输中)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>科本斯</color>换装<color=#92fc63FF>心动营养灌输中</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月24日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68161,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90406
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68162] = {
+	open_directly = 0,
+	name = "换装体验券(交错的温柔时光)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>约克城II</color>换装<color=#92fc63FF>交错的温柔时光</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月24日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68162,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90407
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[70144] = {
 	open_directly = 0,
 	name = "「휴일 항로」 캐릭터 임의 선택",
@@ -105041,6 +105602,73 @@ _G.pg.base.item_data_statistics[81220] = {
 			2,
 			16502,
 			12
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81230] = {
+	open_directly = 1,
+	name = "축제의 밤 패키지·I",
+	type = 17,
+	display = "랜덤 스킨, 상급 지향형 강화 유닛·8기×2, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai30",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998326",
+	id = 81230,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86222,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
 		}
 	},
 	price = {},

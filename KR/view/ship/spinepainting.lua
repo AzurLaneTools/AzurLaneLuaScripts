@@ -111,6 +111,7 @@ slot2 = function(slot0, slot1)
 	slot0._effectsTf = findTF(slot0._tf, "effects")
 
 	slot0:playPaintingInitIdle()
+	slot0:SetDefaultSkeletonSkin()
 end
 
 slot0.getNormalIdleName = function(slot0)
@@ -202,6 +203,19 @@ slot0.updateLink = function(slot0)
 						for slot19, slot20 in ipairs(slot15) do
 							table.insert(slot0.slotOverride, slot20)
 						end
+					end
+				elseif slot12 == ChangeSkinLink.change_parameter_link_skin then
+					slot13 = true
+					slot15 = slot11.skeleton_skin
+
+					for slot19, slot20 in ipairs(slot11.link_parameter) do
+						if (slot6[slot20.name] and slot6[slot21] or 0) ~= slot20.num then
+							slot13 = false
+						end
+					end
+
+					if slot13 then
+						slot0:SetSkeletonSkin(slot15)
 					end
 				end
 			end
@@ -348,6 +362,23 @@ slot0.readyDragAction = function(slot0, slot1, slot2)
 	end
 
 	return false
+end
+
+slot0.SetSkeletonSkin = function(slot0, slot1)
+	slot0._skeletonSkin = slot1
+
+	slot0._skeletonGraphic.Skeleton:SetSkin(slot1)
+	slot0:updateSkeletonGraphicTime()
+end
+
+slot0.SetDefaultSkeletonSkin = function(slot0)
+	if not slot0._spinePaintingData:GetShipSkinConfig().skeleton_default_skin or slot1 == "" then
+		slot1 = "1"
+	end
+
+	if slot0._skeletonGraphic.SkeletonData:FindSkin(slot1) and slot2 ~= nil then
+		slot0:SetSkeletonSkin(slot1)
+	end
 end
 
 slot0.startDragAction = function(slot0, slot1)
@@ -645,6 +676,12 @@ slot0.SetSkin = function(slot0, slot1)
 	if slot0._skeletonGraphic and slot0._skeletonGraphic.SkeletonData and slot0._skeletonGraphic.SkeletonData:FindSkin(slot1) ~= nil then
 		slot0._skeletonGraphic.Skeleton:SetSkin(slot1)
 		slot0._skeletonGraphic.Skeleton:SetSlotsToSetupPose()
+	end
+end
+
+slot0.updateSkeletonGraphicTime = function(slot0)
+	if slot0._skeletonGraphic then
+		slot0._skeletonGraphic:Update(Time.deltaTime)
 	end
 end
 

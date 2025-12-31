@@ -27,6 +27,8 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	else
 		slot0.active = false
 	end
+
+	slot0.isII = slot1.group_ii ~= 0
 end
 
 slot0.SetWordList = function(slot0)

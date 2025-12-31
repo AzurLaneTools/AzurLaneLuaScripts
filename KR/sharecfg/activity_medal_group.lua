@@ -422,6 +422,46 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50295] = {
+		id = 50295,
+		entrance_picture = "medalAlbum/50295",
+		group_name = "창공에 울리는 소리",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50295,
+				{
+					21873,
+					21874,
+					21875,
+					21876,
+					21877,
+					21878,
+					21879,
+					21880,
+					21881,
+					21882
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "TianqiongMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				323,
+				1
+			},
+			{
+				8,
+				65785,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -433,6 +473,7 @@ pg.activity_medal_group = {
 		50021,
 		50087,
 		50136,
-		50209
+		50209,
+		50295
 	}
 }

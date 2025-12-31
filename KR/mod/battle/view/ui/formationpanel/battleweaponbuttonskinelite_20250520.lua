@@ -30,15 +30,9 @@ slot1.OnTotalChange = function(slot0, slot1)
 	end
 end
 
-slot1.ConfigSkin = function(slot0, slot1)
-	uv0.super.ConfigSkin(slot0, slot1)
-
-	slot0._glowEff = slot0._btn:Find("gizmos_1")
-end
-
 slot1.OnCountChange = function(slot0)
 	uv0.super.OnCountChange(slot0)
-	SetActive(slot0._glowEff, slot0._progressInfo:GetCount() > 0)
+	SetActive(slot0._chargeEff, slot0._progressInfo:GetCount() > 0)
 end
 
 slot1.OnOverLoadChange = function(slot0, slot1)

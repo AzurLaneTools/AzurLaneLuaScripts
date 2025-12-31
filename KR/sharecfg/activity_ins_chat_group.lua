@@ -3,9 +3,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "작은 여행 계획",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 1,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1,
@@ -44,9 +45,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "함께 저녁 식사",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 2,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			32,
@@ -73,9 +75,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
 		name = "같이 일출보기",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 3,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			51,
@@ -118,9 +121,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "바디워시?",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 4,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			86,
@@ -149,9 +153,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "맛",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 5,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			107,
@@ -187,9 +192,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960008,
 		name = "지루",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 6,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			135,
@@ -218,9 +224,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "취미",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 7,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			156,
@@ -275,9 +282,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "야식",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 8,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			203,
@@ -310,9 +318,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960009,
 		name = "그리움",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 9,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			228,
@@ -347,9 +356,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "등 밟기",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 10,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			255,
@@ -380,9 +390,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "술주정꾼",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 11,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			278,
@@ -414,9 +425,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960010,
 		name = "트레이닝",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 12,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			302,
@@ -451,9 +463,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "이모티콘",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 13,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			329,
@@ -497,9 +510,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "미아",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 14,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			365,
@@ -529,9 +543,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960011,
 		name = "잠들 수 없는 밤",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 15,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			387,
@@ -575,9 +590,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "쉬고 싶어.",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 16,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			423,
@@ -638,9 +654,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "비오는 날",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 17,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			476,
@@ -695,9 +712,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960005,
 		name = "기상",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 18,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			523,
@@ -724,8 +742,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 109,
 		name = "집무실의 보물?",
-		id = 19,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 19,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -801,8 +820,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 200,
 		name = "지휘관 서프라이즈",
-		id = 20,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 20,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -885,8 +905,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 101,
 		name = "상영회를 위해",
-		id = 21,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 21,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -967,8 +988,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 102,
 		name = "규율은 중요해",
-		id = 22,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 22,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1039,8 +1061,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 103,
 		name = "식사 모임",
-		id = 23,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 23,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1118,8 +1141,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 104,
 		name = "특별한 배려",
-		id = 24,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 24,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1209,8 +1233,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 105,
 		name = "훈련 결과",
-		id = 25,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 25,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1282,8 +1307,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 106,
 		name = "행운의 날",
-		id = 26,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 26,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1365,8 +1391,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 107,
 		name = "사쿠라 엠파이어의 실력",
-		id = 27,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 27,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1451,8 +1478,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 108,
 		name = "특별한 다과회",
-		id = 28,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 28,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1534,9 +1562,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20509,
 		name = "디저트 만들기 교실",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 29,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1122,
@@ -1582,9 +1611,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20509,
 		name = "데이트 코스",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 30,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			1160,
@@ -1625,9 +1655,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20509,
 		name = "세탁 이야기",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 31,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			1193,
@@ -1667,9 +1698,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40503,
 		name = "콘서트",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 32,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1225,
@@ -1708,9 +1740,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40503,
 		name = "이상한 사건",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 33,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			1257,
@@ -1752,9 +1785,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40503,
 		name = "체력 관리 팁",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 34,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			1291,
@@ -1791,9 +1825,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 49906,
 		name = "이모티콘☆매직",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 35,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1320,
@@ -1825,9 +1860,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 49906,
 		name = "마법의 물방울",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 36,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			1344,
@@ -1868,9 +1904,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 49906,
 		name = "마녀의 꿈",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 37,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			1377,
@@ -1904,9 +1941,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40404,
 		name = "늦잠",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 38,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1403,
@@ -1938,9 +1976,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40404,
 		name = "약속 장소",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 39,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			1427,
@@ -1981,9 +2020,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40404,
 		name = "데이트 비법",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 40,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			1460,
@@ -2024,9 +2064,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40704,
 		name = "효율적인 커뮤니케이션",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 41,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1493,
@@ -2072,9 +2113,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40704,
 		name = "심야의 감독자",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 42,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			1531,
@@ -2108,9 +2150,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40704,
 		name = "루메이와의 저녁 식사",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 43,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			1557,
@@ -2144,9 +2187,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40152,
 		name = "파쿠르 루트",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 44,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1583,
@@ -2178,9 +2222,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40152,
 		name = "비 오는 날",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 45,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			1607,
@@ -2219,9 +2264,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40152,
 		name = "서류 정리",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 46,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			1638,
@@ -2264,9 +2310,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40211,
 		name = "디저트 가게",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 47,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1673,
@@ -2301,9 +2348,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40211,
 		name = "립 컬러",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 48,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			1700,
@@ -2335,9 +2383,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40211,
 		name = "언젠가 꼭",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 49,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			1724,
@@ -2376,9 +2425,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40109,
 		name = "서류 정리",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 50,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1755,
@@ -2420,9 +2470,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40109,
 		name = "그림책 이야기",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 51,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			1789,
@@ -2465,9 +2516,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40109,
 		name = "악몽",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 52,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			1824,
@@ -2517,9 +2569,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40111,
 		name = "신작",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 53,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1866,
@@ -2565,9 +2618,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40111,
 		name = "요리 연습",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 54,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			1904,
@@ -2609,9 +2663,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40111,
 		name = "밖으로",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 55,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			1938,
@@ -2654,9 +2709,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50105,
 		name = "취향 조사",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 56,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			1973,
@@ -2694,9 +2750,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50105,
 		name = "주방은 전쟁터",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 57,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2003,
@@ -2732,9 +2789,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50105,
 		name = "달콤한 부드러움?",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 58,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2031,
@@ -2781,9 +2839,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50301,
 		name = "디테일이란",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 59,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2070,
@@ -2821,9 +2880,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50301,
 		name = "밤 약속",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 60,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2100,
@@ -2859,9 +2919,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50301,
 		name = "포멀 데이트",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 61,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2128,
@@ -2899,9 +2960,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50210,
 		name = "과도한 주목",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 62,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2158,
@@ -2936,9 +2998,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50210,
 		name = "이벤트 초대",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 63,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2185,
@@ -2976,9 +3039,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50210,
 		name = "전하고 싶은 마음",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 64,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2215,
@@ -3024,9 +3088,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50109,
 		name = "메시지 취소 마스터",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 65,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2253,
@@ -3062,9 +3127,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50109,
 		name = "장난 계획",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 66,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2281,
@@ -3110,9 +3176,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50109,
 		name = "같이 떠올리는 영감",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 67,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2319,
@@ -3154,9 +3221,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50108,
 		name = "청결 유지",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 68,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2353,
@@ -3191,9 +3259,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50108,
 		name = "앞치마 고르기",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 69,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2380,
@@ -3232,9 +3301,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50108,
 		name = "사전 준비",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 70,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2411,
@@ -3273,8 +3343,9 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 103,
 		name = "세뱃돈",
-		id = 71,
+		group_ii = 0,
 		unlock_desc = "특정 시간에 오픈",
+		id = 71,
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -3363,9 +3434,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50209,
 		name = "고민 상담",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 72,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2509,
@@ -3403,9 +3475,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50209,
 		name = "주방으로",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 73,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2539,
@@ -3446,9 +3519,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 50209,
 		name = "작은 것에서 오는 행복",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 74,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2572,
@@ -3480,9 +3554,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60508,
 		name = "또 다른 영감",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 75,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2596,
@@ -3540,9 +3615,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60508,
 		name = "사진 촬영",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 76,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2646,
@@ -3579,9 +3655,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60508,
 		name = "굶주린 예술가",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 77,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2675,
@@ -3614,9 +3691,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60803,
 		name = "위험한 루트",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 78,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2700,
@@ -3673,9 +3751,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60803,
 		name = "서류 정리",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 79,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2749,
@@ -3719,9 +3798,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60803,
 		name = "심경",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 80,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2785,
@@ -3766,9 +3846,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60111,
 		name = "편하게 대화하기",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 81,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2822,
@@ -3809,9 +3890,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60111,
 		name = "독서하기 좋은 곳",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 82,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2855,
@@ -3852,9 +3934,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60111,
 		name = "시의 영감",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 83,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2888,
@@ -3912,9 +3995,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60203,
 		name = "특별한 보고서",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 84,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2938,
@@ -3960,9 +4044,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60203,
 		name = "전략적 음료",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 85,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2976,
@@ -4002,9 +4087,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 60203,
 		name = "잘못된 주소",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 86,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3008,
@@ -4052,9 +4138,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90107,
 		name = "첫 채팅",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 87,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3048,
@@ -4098,9 +4185,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90107,
 		name = "야근",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 88,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3084,
@@ -4139,9 +4227,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90107,
 		name = "뜨거운 밤",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 89,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3115,
@@ -4182,9 +4271,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10713,
 		name = "탐험 장비",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 90,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3148,
@@ -4213,9 +4303,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10713,
 		name = "서바이벌 레시피",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 91,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3169,
@@ -4257,9 +4348,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10713,
 		name = "한밤중의 온천 탐험",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 92,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3203,
@@ -4296,9 +4388,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10153,
 		name = "밀러 님의 종이비행기",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 93,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3232,
@@ -4325,9 +4418,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10153,
 		name = "밀러 님의 노트",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 94,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3251,
@@ -4378,9 +4472,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10153,
 		name = "밀러 님의 커피",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 95,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3294,
@@ -4415,9 +4510,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10234,
 		name = "지휘관――!!!",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 96,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3321,
@@ -4456,9 +4552,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10234,
 		name = "일정 조정",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 97,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3352,
@@ -4492,9 +4589,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10234,
 		name = "모항 타블로이드의 1면 기사",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 98,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3378,
@@ -4542,9 +4640,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70203,
 		name = "애완동물",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 99,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3418,
@@ -4587,9 +4686,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70203,
 		name = "서로 관리하기",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 100,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3453,
@@ -4637,9 +4737,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70203,
 		name = "새로운 드레스",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 101,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3493,
@@ -4691,9 +4792,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110201,
 		name = "식물을 통한 교류",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 102,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3537,
@@ -4728,9 +4830,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110201,
 		name = "주방 대소동",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 103,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3564,
@@ -4780,9 +4883,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110201,
 		name = "이름 붙이기",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 104,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3606,
@@ -4826,9 +4930,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110101,
 		name = "푸르름이 어우러진 환경",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 105,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3642,
@@ -4859,9 +4964,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110101,
 		name = "치유의 마법",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 106,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3665,
@@ -4893,9 +4999,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 110101,
 		name = "로맨틱",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 107,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3689,
@@ -4936,9 +5043,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70509,
 		name = "식사 배달",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 108,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3722,
@@ -4965,9 +5073,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70509,
 		name = "안 추워?",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 109,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3741,
@@ -4995,9 +5104,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70509,
 		name = "따뜻한 밤",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 110,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3761,
@@ -5034,9 +5144,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70208,
 		name = "졸음 방지 로봇",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 111,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3790,
@@ -5074,9 +5185,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70208,
 		name = "폭발하는 발명품",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 112,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3820,
@@ -5110,9 +5222,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 70208,
 		name = "전용 발명품",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 113,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3846,
@@ -5160,9 +5273,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20712,
 		name = "휴식의 예술",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 114,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3886,
@@ -5208,9 +5322,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20712,
 		name = "점심시간",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 115,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			3924,
@@ -5254,9 +5369,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20712,
 		name = "파자마 근무 혁명",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 116,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			3960,
@@ -5300,9 +5416,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20516,
 		name = "천려일실",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 117,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			3996,
@@ -5334,9 +5451,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20516,
 		name = "네가 원한 벌",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 118,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4020,
@@ -5376,9 +5494,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20516,
 		name = "둘만의 증표",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 119,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4052,
@@ -5420,9 +5539,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20138,
 		name = "죄 많은 사람",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 120,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			4086,
@@ -5458,9 +5578,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20138,
 		name = "거리감",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 121,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4114,
@@ -5499,9 +5620,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20138,
 		name = "지휘관 연구 진행 중",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 122,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4145,
@@ -5543,9 +5665,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20235,
 		name = "나일강식 쌈 요리",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 123,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			4179,
@@ -5580,9 +5703,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20235,
 		name = "복을 부르는 스핑크스",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 124,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4206,
@@ -5613,9 +5737,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20235,
 		name = "등잔 밑이 어둡다",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 125,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4229,
@@ -5656,9 +5781,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20139,
 		name = "서프라이즈",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 126,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			4262,
@@ -5696,9 +5822,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20139,
 		name = "무지갯빛 마사지기",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 127,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4292,
@@ -5735,9 +5862,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20139,
 		name = "각자의 역할",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 128,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4321,
@@ -5786,9 +5914,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20236,
 		name = "내 손을 잡아줘",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 129,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			4362,
@@ -5826,9 +5955,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20236,
 		name = "계속 지켜볼게",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 130,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4392,
@@ -5866,9 +5996,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 20236,
 		name = "사냥꾼과 사냥감",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 131,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4422,
@@ -5903,9 +6034,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40407,
 		name = "에너지 절약 팁",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 132,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			4449,
@@ -5938,9 +6070,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40407,
 		name = "누울 곳",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 133,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4474,
@@ -5970,9 +6103,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40407,
 		name = "별이 내리는 밤",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 134,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4496,
@@ -6013,9 +6147,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40814,
 		name = "스케줄 관리는 철저히",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 135,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			4529,
@@ -6046,9 +6181,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40814,
 		name = "쉴 때는 확실히",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 136,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4552,
@@ -6088,9 +6224,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40814,
 		name = "위기를 기회로",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 137,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4584,
@@ -6127,9 +6264,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40113,
 		name = "개발 고문",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 138,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			4613,
@@ -6168,9 +6306,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40113,
 		name = "조언 채점기",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 139,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4644,
@@ -6213,9 +6352,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 40113,
 		name = "연애 마스터",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 140,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4679,
@@ -6260,9 +6400,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90401,
 		name = "과자 배달",
+		group_ii = 0,
+		unlock_desc = "캐릭터 입수",
 		id = 141,
 		trigger_param = "",
-		unlock_desc = "캐릭터 입수",
 		trigger_type = 1,
 		content = {
 			4716,
@@ -6306,9 +6447,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90401,
 		name = "잔향",
+		group_ii = 0,
+		unlock_desc = "호감도 '사랑' 달성",
 		id = 142,
 		trigger_param = "100",
-		unlock_desc = "호감도 '사랑' 달성",
 		trigger_type = 2,
 		content = {
 			4752,
@@ -6356,9 +6498,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90401,
 		name = "곁잠",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 143,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4792,
@@ -6413,9 +6556,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90105,
 		name = "수수께끼의 노트",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 144,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			4839,
@@ -6452,9 +6596,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90105,
 		name = "매직 캐비닛",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 145,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4868,
@@ -6493,9 +6638,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 90105,
 		name = "꽃 보내기",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 146,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4899,
@@ -6533,9 +6679,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80401,
 		name = "공평한 거래",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 147,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			4929,
@@ -6562,9 +6709,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80401,
 		name = "커피 제외",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 148,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			4948,
@@ -6602,9 +6750,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80401,
 		name = "지휘관의 맛",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 149,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4978,
@@ -6637,9 +6786,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80601,
 		name = "온라인 성무",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 150,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5003,
@@ -6680,9 +6830,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80601,
 		name = "건강과 음악",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 151,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5036,
@@ -6722,9 +6873,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80601,
 		name = "꿈 컨트롤",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 152,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5068,
@@ -6760,9 +6912,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80105,
 		name = "이미지 체인지",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 153,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5096,
@@ -6792,9 +6945,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80105,
 		name = "움직이는 캐비닛",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 154,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5118,
@@ -6838,9 +6992,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80105,
 		name = "진실 or 도전",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 155,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5154,
@@ -6881,9 +7036,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80303,
 		name = "특별한 페스티벌",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 156,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5187,
@@ -6917,9 +7073,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80303,
 		name = "좋아하는 음식",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 157,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5213,
@@ -6952,9 +7109,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80303,
 		name = "도전적인 여행",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 158,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5238,
@@ -6990,9 +7148,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80204,
 		name = "악을 정화하리라",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 159,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5266,
@@ -7027,9 +7186,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80204,
 		name = "DJ 플레이어와 앨범",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 160,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5293,
@@ -7059,9 +7219,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80204,
 		name = "일일 지배권",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 161,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5315,
@@ -7095,9 +7256,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10709,
 		name = "같이 마시자",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 162,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5341,
@@ -7127,9 +7289,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10709,
 		name = "오리지널 햄버거",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 163,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5363,
@@ -7162,9 +7325,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10709,
 		name = "호흡이 맞는 데이트",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 164,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5388,
@@ -7195,9 +7359,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30716,
 		name = "비 오는 날의 향도",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 165,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5411,
@@ -7230,9 +7395,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30716,
 		name = "거울 속 풍경",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 166,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5436,
@@ -7268,9 +7434,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30716,
 		name = "함께, 그리고 영원히",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 167,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5464,
@@ -7300,9 +7467,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 31702,
 		name = "아쿠아리움",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 168,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5486,
@@ -7335,9 +7503,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 31702,
 		name = "긴급 소환",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 169,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5511,
@@ -7374,9 +7543,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 31702,
 		name = "심해의 춤",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 170,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5540,
@@ -7404,9 +7574,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30516,
 		name = "술에 취해 노래하리라",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 171,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5560,
@@ -7444,9 +7615,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30516,
 		name = "하이쿠에 담은 진심",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 172,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5590,
@@ -7482,9 +7654,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30516,
 		name = "딱 한 잔만",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 173,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5618,
@@ -7519,9 +7692,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30320,
 		name = "로즈마리의 향기",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 174,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5645,
@@ -7553,9 +7727,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30320,
 		name = "온천 테라피 초청",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 175,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5669,
@@ -7587,9 +7762,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30320,
 		name = "못 다한 이별",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 176,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5693,
@@ -7624,9 +7800,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30227,
 		name = "조금 특이한 재료",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 177,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5720,
@@ -7657,9 +7834,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30227,
 		name = "전골 업그레이드",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 178,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5743,
@@ -7695,9 +7873,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30227,
 		name = "사랑이라는 이름의 전골",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 179,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5771,
@@ -7729,9 +7908,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30192,
 		name = "말하는 분재",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 180,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5795,
@@ -7764,9 +7944,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30192,
 		name = "그냥 도구인줄 알았지?",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 181,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5820,
@@ -7796,9 +7977,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30192,
 		name = "머리 조심",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 182,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5842,
@@ -7825,9 +8007,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30225,
 		name = "수선 도와주기",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 183,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5861,
@@ -7854,9 +8037,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30225,
 		name = "무사의 감",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 184,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5880,
@@ -7884,9 +8068,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 30225,
 		name = "서로 하는 일",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 185,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5900,
@@ -7918,9 +8103,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960012,
 		name = "처형할 거야",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 186,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			5924,
@@ -7954,9 +8140,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960012,
 		name = "지금 가는 중이야",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 187,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			5950,
@@ -7991,9 +8178,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960012,
 		name = "선물은 한꺼번에",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 188,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			5977,
@@ -8029,9 +8217,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960013,
 		name = "다정한 마음",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 189,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			6005,
@@ -8068,9 +8257,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960013,
 		name = "축복의 노래",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 190,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			6034,
@@ -8104,9 +8294,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960013,
 		name = "영원한 사랑",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 191,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			6060,
@@ -8137,9 +8328,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960014,
 		name = "지휘관, 어서 지시를!",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 192,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			6083,
@@ -8175,9 +8367,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960014,
 		name = "칭찬 대결",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 193,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			6111,
@@ -8215,9 +8408,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960014,
 		name = "반죽처럼?",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 194,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			6141,
@@ -8251,9 +8445,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960015,
 		name = "낚시하러 출발!",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 195,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			6167,
@@ -8287,9 +8482,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960015,
 		name = "보물 찾으러 출발!",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 196,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			6193,
@@ -8321,9 +8517,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960015,
 		name = "야근은 이제 그만!",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 197,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			6217,
@@ -8357,9 +8554,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960016,
 		name = "창고의 괴담",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 198,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			6243,
@@ -8398,9 +8596,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960016,
 		name = "서바이벌 게임",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 199,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			6274,
@@ -8438,9 +8637,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 960016,
 		name = "수상한 이웃",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 200,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			6304,
@@ -8477,9 +8677,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10324,
 		name = "고민 상담",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 201,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			6333,
@@ -8521,9 +8722,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10324,
 		name = "설문조사",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 202,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			6367,
@@ -8564,9 +8766,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10324,
 		name = "특별한 운동 계획",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 203,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			6400,
@@ -8601,9 +8804,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80503,
 		name = "채팅방이 만원",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 204,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			6427,
@@ -8639,9 +8843,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80503,
 		name = "히트 업",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 205,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			6455,
@@ -8683,9 +8888,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 80503,
 		name = "지휘관의 극초단파",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 206,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			6489,
@@ -8721,9 +8927,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10233,
 		name = "놀랄 만큼 낮은 평가율",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
 		id = 207,
 		trigger_param = "",
-		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			6517,
@@ -8757,9 +8964,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10233,
 		name = "스페셜 서비스",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
 		id = 208,
 		trigger_param = "100",
-		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			6543,
@@ -8799,9 +9007,10 @@ pg.activity_ins_chat_group = {
 	{
 		ship_group = 10233,
 		name = "덜렁이 서비스",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
 		id = 209,
 		trigger_param = "150",
-		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			6575,
@@ -8832,6 +9041,752 @@ pg.activity_ins_chat_group = {
 			6600,
 			6601,
 			6602
+		}
+	},
+	{
+		ship_group = 110,
+		name = "식물원 초대",
+		group_ii = 0,
+		unlock_desc = "특정 시간에 오픈",
+		id = 210,
+		trigger_type = 3,
+		trigger_param = {
+			{
+				{
+					2025,
+					12,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		content = {
+			6603,
+			6604,
+			6605,
+			6606,
+			6607,
+			6608,
+			6609,
+			6610,
+			6611,
+			6612,
+			6613,
+			6614,
+			6615,
+			6616,
+			6617,
+			6618,
+			6619,
+			6620,
+			6621,
+			6622,
+			6623,
+			6624,
+			6625,
+			6626,
+			6627,
+			6628,
+			6629,
+			6630,
+			6631,
+			6632,
+			6633,
+			6634,
+			6635,
+			6636,
+			6637,
+			6638,
+			6639,
+			6640,
+			6641,
+			6642,
+			6643,
+			6644,
+			6645,
+			6646,
+			6647
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "밥은 잘 챙겨먹기",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
+		id = 211,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6648,
+			6649,
+			6650,
+			6651,
+			6652,
+			6653,
+			6654,
+			6655,
+			6656,
+			6657,
+			6658,
+			6659,
+			6660,
+			6661,
+			6662,
+			6663,
+			6664,
+			6665,
+			6666,
+			6667,
+			6668,
+			6669,
+			6670,
+			6671,
+			6672
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "새로운 장르",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
+		id = 212,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6673,
+			6674,
+			6675,
+			6676,
+			6677,
+			6678,
+			6679,
+			6680,
+			6681,
+			6682,
+			6683,
+			6684,
+			6685,
+			6686,
+			6687,
+			6688,
+			6689,
+			6690,
+			6691,
+			6692,
+			6693,
+			6694,
+			6695,
+			6696,
+			6697
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "힘이 되어주는 존재",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
+		id = 213,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6698,
+			6699,
+			6700,
+			6701,
+			6702,
+			6703,
+			6704,
+			6705,
+			6706,
+			6707,
+			6708,
+			6709,
+			6710,
+			6711,
+			6712,
+			6713,
+			6714,
+			6715,
+			6716,
+			6717,
+			6718,
+			6719,
+			6720,
+			6721,
+			6722,
+			6723,
+			6724,
+			6725,
+			6726,
+			6727
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "풍선을 쫓아서",
+		group_ii = 10716,
+		unlock_desc = "캐릭터 획득",
+		id = 214,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6728,
+			6729,
+			6730,
+			6731,
+			6732,
+			6733,
+			6734,
+			6735,
+			6736,
+			6737,
+			6738,
+			6739,
+			6740,
+			6741,
+			6742,
+			6743,
+			6744,
+			6745,
+			6746,
+			6747,
+			6748,
+			6749,
+			6750,
+			6751,
+			6752,
+			6753
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "블루 고스트",
+		group_ii = 10716,
+		unlock_desc = "호감도 사랑 달성",
+		id = 215,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6754,
+			6755,
+			6756,
+			6757,
+			6758,
+			6759,
+			6760,
+			6761,
+			6762,
+			6763,
+			6764,
+			6765,
+			6766,
+			6767,
+			6768,
+			6769,
+			6770,
+			6771,
+			6772,
+			6773,
+			6774,
+			6775,
+			6776,
+			6777,
+			6778
+		}
+	},
+	{
+		ship_group = 10702,
+		name = "새로운 곡",
+		group_ii = 10716,
+		unlock_desc = "서약 완료",
+		id = 216,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6779,
+			6780,
+			6781,
+			6782,
+			6783,
+			6784,
+			6785,
+			6786,
+			6787,
+			6788,
+			6789,
+			6790,
+			6791,
+			6792,
+			6793,
+			6794,
+			6795,
+			6796,
+			6797,
+			6798,
+			6799,
+			6800,
+			6801,
+			6802,
+			6803,
+			6804,
+			6805
+		}
+	},
+	{
+		ship_group = 10110,
+		name = "폭발하겠어!",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
+		id = 217,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6806,
+			6807,
+			6808,
+			6809,
+			6810,
+			6811,
+			6812,
+			6813,
+			6814,
+			6815,
+			6816,
+			6817,
+			6818,
+			6819,
+			6820,
+			6821,
+			6822,
+			6823,
+			6824,
+			6825,
+			6826,
+			6827,
+			6828,
+			6829,
+			6830,
+			6831,
+			6832
+		}
+	},
+	{
+		ship_group = 10110,
+		name = "부딪히겠어!",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
+		id = 218,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6833,
+			6834,
+			6835,
+			6836,
+			6837,
+			6838,
+			6839,
+			6840,
+			6841,
+			6842,
+			6843,
+			6844,
+			6845,
+			6846,
+			6847,
+			6848,
+			6849,
+			6850,
+			6851,
+			6852,
+			6853,
+			6854,
+			6855,
+			6856,
+			6857,
+			6858,
+			6859,
+			6860,
+			6861
+		}
+	},
+	{
+		ship_group = 10110,
+		name = "추락하겠어……!",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
+		id = 219,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6862,
+			6863,
+			6864,
+			6865,
+			6866,
+			6867,
+			6868,
+			6869,
+			6870,
+			6871,
+			6872,
+			6873,
+			6874,
+			6875,
+			6876,
+			6877,
+			6878,
+			6879,
+			6880,
+			6881,
+			6882,
+			6883,
+			6884
+		}
+	},
+	{
+		ship_group = 10155,
+		name = "풀 테스트",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
+		id = 220,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6885,
+			6886,
+			6887,
+			6888,
+			6889,
+			6890,
+			6891,
+			6892,
+			6893,
+			6894,
+			6895,
+			6896,
+			6897,
+			6898,
+			6899,
+			6900,
+			6901,
+			6902,
+			6903,
+			6904,
+			6905,
+			6906,
+			6907,
+			6908,
+			6909,
+			6910,
+			6911,
+			6912,
+			6913,
+			6914
+		}
+	},
+	{
+		ship_group = 10155,
+		name = "버그 테스트",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
+		id = 221,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6915,
+			6916,
+			6917,
+			6918,
+			6919,
+			6920,
+			6921,
+			6922,
+			6923,
+			6924,
+			6925,
+			6926,
+			6927,
+			6928,
+			6929,
+			6930,
+			6931,
+			6932,
+			6933,
+			6934,
+			6935,
+			6936,
+			6937,
+			6938,
+			6939,
+			6940
+		}
+	},
+	{
+		ship_group = 10155,
+		name = "금단 증상",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
+		id = 222,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6941,
+			6942,
+			6943,
+			6944,
+			6945,
+			6946,
+			6947,
+			6948,
+			6949,
+			6950,
+			6951,
+			6952,
+			6953,
+			6954,
+			6955,
+			6956,
+			6957,
+			6958,
+			6959,
+			6960,
+			6961,
+			6962,
+			6963,
+			6964
+		}
+	},
+	{
+		ship_group = 10235,
+		name = "행복 가이드",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
+		id = 223,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6965,
+			6966,
+			6967,
+			6968,
+			6969,
+			6970,
+			6971,
+			6972,
+			6973,
+			6974,
+			6975,
+			6976,
+			6977,
+			6978,
+			6979,
+			6980,
+			6981,
+			6982,
+			6983,
+			6984,
+			6985,
+			6986,
+			6987,
+			6988,
+			6989,
+			6990,
+			6991,
+			6992
+		}
+	},
+	{
+		ship_group = 10235,
+		name = "페스티벌의 비밀",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
+		id = 224,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6993,
+			6994,
+			6995,
+			6996,
+			6997,
+			6998,
+			6999,
+			7000,
+			7001,
+			7002,
+			7003,
+			7004,
+			7005,
+			7006,
+			7007,
+			7008,
+			7009,
+			7010,
+			7011,
+			7012,
+			7013,
+			7014,
+			7015,
+			7016,
+			7017,
+			7018,
+			7019,
+			7020,
+			7021,
+			7022,
+			7023
+		}
+	},
+	{
+		ship_group = 10235,
+		name = "모든 날이 기념일",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
+		id = 225,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			7024,
+			7025,
+			7026,
+			7027,
+			7028,
+			7029,
+			7030,
+			7031,
+			7032,
+			7033,
+			7034,
+			7035,
+			7036,
+			7037,
+			7038,
+			7039,
+			7040,
+			7041,
+			7042,
+			7043,
+			7044,
+			7045,
+			7046,
+			7047,
+			7048,
+			7049,
+			7050
+		}
+	},
+	{
+		ship_group = 10725,
+		name = "영양 배달",
+		group_ii = 0,
+		unlock_desc = "캐릭터 획득",
+		id = 226,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			7051,
+			7052,
+			7053,
+			7054,
+			7055,
+			7056,
+			7057,
+			7058,
+			7059,
+			7060,
+			7061,
+			7062,
+			7063,
+			7064,
+			7065,
+			7066,
+			7067,
+			7068,
+			7069,
+			7070,
+			7071,
+			7072
+		}
+	},
+	{
+		ship_group = 10725,
+		name = "완전 영양 계획",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
+		id = 227,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			7073,
+			7074,
+			7075,
+			7076,
+			7077,
+			7078,
+			7079,
+			7080,
+			7081,
+			7082,
+			7083,
+			7084,
+			7085,
+			7086,
+			7087,
+			7088,
+			7089,
+			7090,
+			7091,
+			7092,
+			7093,
+			7094,
+			7095,
+			7096,
+			7097,
+			7098,
+			7099,
+			7100
+		}
+	},
+	{
+		ship_group = 10725,
+		name = "숙면용 드링크",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
+		id = 228,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			7101,
+			7102,
+			7103,
+			7104,
+			7105,
+			7106,
+			7107,
+			7108,
+			7109,
+			7110,
+			7111,
+			7112,
+			7113,
+			7114,
+			7115,
+			7116,
+			7117,
+			7118,
+			7119,
+			7120,
+			7121,
+			7122,
+			7123,
+			7124,
+			7125,
+			7126
 		}
 	},
 	get_id_list_by_ship_group = {
@@ -9195,6 +10150,37 @@ pg.activity_ins_chat_group = {
 			207,
 			208,
 			209
+		},
+		[110] = {
+			210
+		},
+		[10702] = {
+			211,
+			212,
+			213,
+			214,
+			215,
+			216
+		},
+		[10110] = {
+			217,
+			218,
+			219
+		},
+		[10155] = {
+			220,
+			221,
+			222
+		},
+		[10235] = {
+			223,
+			224,
+			225
+		},
+		[10725] = {
+			226,
+			227,
+			228
 		}
 	},
 	all = {
@@ -9406,6 +10392,25 @@ pg.activity_ins_chat_group = {
 		206,
 		207,
 		208,
-		209
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228
 	}
 }

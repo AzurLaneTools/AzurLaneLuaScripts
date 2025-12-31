@@ -248,6 +248,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[206] = {
+		name = "메이드 카페",
+		key = "SkinElite_20251218",
+		display_icon = "ui_206",
+		unlock = "상점 구매 (전투 UI·메이드 카페)",
+		is_unlock = 1,
+		rare = 4,
+		desc = "상냥한 메이드의 달콤한 디저트를 맛보며, 달콤한 챌린지에 도전해 보자!",
+		id = 206,
+		icon = "206",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -264,6 +281,7 @@ pg.item_data_battleui = {
 		202,
 		203,
 		204,
-		205
+		205,
+		206
 	}
 }

@@ -11,6 +11,7 @@ slot0.OPEN_CHATROOM = "FriendMediator:OPEN_CHATROOM"
 slot0.VISIT_BACKYARD = "FriendMediator:VISIT_BACKYRAD"
 slot0.RELIEVE_BLACKLIST = "FriendMediator:RELIEVE_BLACKLIST"
 slot0.GET_BLACK_LIST = "FriendMediator:GET_BLACK_LIST"
+slot0.INFORM = "FriendMediator:INFORM"
 
 slot0.register = function(slot0)
 	slot1 = getProxy(FriendProxy)
@@ -74,6 +75,13 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.RELIEVE_BLACKLIST, function (slot0, slot1)
 		uv0:sendNotification(GAME.FRIEND_RELIEVE_BLACKLIST, slot1)
 	end)
+	slot0:bind(uv0.INFORM, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.INFORM, {
+			playerId = slot1,
+			info = slot2,
+			content = slot3
+		})
+	end)
 	slot0:updateChatNotification()
 end
 
@@ -104,7 +112,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.FRIEND_RELIEVE_BLACKLIST_DONE,
 		FriendProxy.RELIEVE_BLACKLIST,
 		FriendProxy.BLACK_LIST_UPDATED,
-		FriendProxy.ADD_INTO_BLACKLIST
+		FriendProxy.ADD_INTO_BLACKLIST,
+		GAME.INFORM_DONE
 	}
 end
 
@@ -144,6 +153,13 @@ slot0.handleNotification = function(slot0, slot1)
 			player = slot3.player,
 			dorm = slot3.dorm,
 			mode = CourtYardConst.SYSTEM_VISIT
+		})
+	elseif slot2 == GAME.INFORM_DONE then
+		slot0.viewComponent:closeInfromPanel()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideNo = true,
+			parent = slot0.contextData.parent,
+			content = i18n("inform_sueecss_tip")
 		})
 	end
 end

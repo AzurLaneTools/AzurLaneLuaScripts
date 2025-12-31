@@ -374,6 +374,22 @@ slot0.Stop = function(slot0)
 	end
 end
 
+slot0.PlayForAcivitySpStory = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot0:Play(slot1, function ()
+		_.each(uv0.branchSelectCache, function (slot0)
+			if ActivitySpStoryNode.GetOptionBranchByStoryName(uv0, slot0) then
+				uv2:SendNotification(GAME.STORY_UPDATE, {
+					storyId = uv1(slot1.story).id
+				})
+			end
+		end)
+
+		uv0.branchSelectCache = nil
+
+		uv3()
+	end, slot3, slot4, slot5, slot6, slot7)
+end
+
 slot0.PlayForTb = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:Play(slot1, slot3, slot4, false, false, true, slot2)
 end
@@ -844,6 +860,16 @@ slot0.Clear = function(slot0)
 
 	setActive(slot0.skipBtn, false)
 	setActive(slot0._go, false)
+
+	slot0.branchSelectCache = {}
+
+	_.each(slot0.players, function (slot0)
+		for slot4, slot5 in pairs(slot0.branchCodeList) do
+			_.each(slot5, function (slot0)
+				table.insert(uv0.branchSelectCache, slot0)
+			end)
+		end
+	end)
 
 	for slot4, slot5 in ipairs(slot0.players) do
 		slot5:StoryEnd(slot0.storyScript)

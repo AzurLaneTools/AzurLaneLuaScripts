@@ -12527,22 +12527,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면 「운젠」 100% 획득 가능! (최대 4척까지)"
+	tip = "기간 한정 건조를 총 200회 실시하면, 「렉싱턴Ⅱ」 100% 획득 가능! (최대 4척까지)"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「무사시」, 「하구로」 상시 건조 추가!"
+	tip = "「요크타운Ⅱ」, 「노샘프턴Ⅱ」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「와카츠키」, 「사카와」 상시 건조 추가!"
+	tip = "「허먼Ⅱ」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「무사시」 상시 건조 추가!"
+	tip = "「요크타운Ⅱ」, 「호넷Ⅱ」 상시 건조 추가!"
 }
 
 
@@ -23786,12 +23786,12 @@ _G.pg.base.gametip.ssssmedal_desc6 = {
 
 
 _G.pg.base.gametip.show_fate_demand_count = {
-	tip = "<color=#92fc63>용골편찬</color>에 필요한 수량 표시"
+	tip = "<color=#92fc63>용골편찬</color>에 필요한 수량으로 변경"
 }
 
 
 _G.pg.base.gametip.show_design_demand_count = {
-	tip = "<color=#92fc63>과학 연구 레벨 30</color>에 필요한 수량 표시"
+	tip = "<color=#92fc63>강화 레벨 30</color>에 필요한 수량으로 변경"
 }
 
 
@@ -37259,14 +37259,14 @@ _G.pg.base.gametip.skin_shop_discount_item_link = {
 _G.pg.base.gametip.help_starLightAlbum = {
 	tip = {
 		{
-			info = "작전 실적:"
+			info = "기념 수첩:"
 		},
 		{
 			info = [[
-1. 「추억」 화면에 「작전 실적」이 새로 추가됩니다. 
+1. 「추억」 화면에 「기념 수첩」이 새로 추가됩니다. 
 2. 이벤트 진행 시에 해당 이벤트의 임무를 클리어하면 <color=#92fc63>「기념 스티커」</color>를 획득할 수 있으며, 스티커를 모으면 기념장 가구와 훈장을 획득할 수 있습니다. 
- ※ 이벤트 진행 중에 <color=#92fc63>이벤트 배너의 「실적」이나 「추억」의 「작전 실적」</color>에서 「기념 스티커」 페이지로 이동할 수 있습니다.
- ※ 이벤트 종료 후에는 <color=#92fc63>「추억」의 「작전 실적」</color>에서만 「기념 스티커」를 확인할 수 있습니다.
+ ※ 이벤트 진행 중에 <color=#92fc63>이벤트 배너의 「실적」이나 「추억」의 「기념 수첩」</color>에서 「기념 스티커」 페이지로 이동할 수 있습니다.
+ ※ 이벤트 종료 후에는 <color=#92fc63>「추억」의 「기념 수첩」</color>에서만 「기념 스티커」를 확인할 수 있습니다.
  ※ 「기념 스티커」는 이벤트 임무를 클리어하여 획득할 수 있습니다.
  ※ 보상 수령 화면은 이벤트 종료 후에도 일정 기간동안 개방됩니다.]]
 		}
@@ -45504,4 +45504,64 @@ _G.pg.base.gametip.HelenaCoreActivity_subtitle_2 = {
 
 _G.pg.base.gametip.HelenaCoreActivity_subtitle_3 = {
 	tip = "아름다운 세계에게"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_4 = {
+	tip = "창공에 울리는 소리"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_5 = {
+	tip = "베일 보급지"
+}
+
+
+_G.pg.base.gametip.HelenaCoreActivity_subtitle_6 = {
+	tip = "UR 교환"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_proceed = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.winter__battlepass_rewards = {
+	tip = "奖励"
+}
+
+
+_G.pg.base.gametip.fate_unlock_icon_desc = {
+	tip = "※용골편찬 오픈 완료"
+}
+
+
+_G.pg.base.gametip.blueprint_exchange_fate_unlock = {
+	tip = "용골편찬이 아직 오픈되지 않았습니다. 교환하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.blueprint_exchange_fate_unlock_over = {
+	tip = "교환할 <color=#22ff22>$1</color>(이)가 필요 수량보다 <color=#ff5c5c>$2개</color> 많습니다."
+}
+
+
+_G.pg.base.gametip.blueprint_lab_fate_lock = {
+	tip = "용골편찬 <color=#ff5c5c>미오픈</color>"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_fate_unlock = {
+	tip = "용골편찬 <color=#ff5c5c>오픈 완료</color>"
+}
+
+
+_G.pg.base.gametip.blueprint_lab_exchange_fate_unlock = {
+	tip = "용골편찬이 아직 오픈되지 않았습니다. 교환하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.skinstory_20251218 = {
+	tip = "스킨 스토리·상"
 }

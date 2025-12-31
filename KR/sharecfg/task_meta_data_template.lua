@@ -337,6 +337,11 @@ pg.task_meta_data_template = setmetatable({
 		100493,
 		100494,
 		100495,
+		100501,
+		100502,
+		100503,
+		100504,
+		100505,
 		200001,
 		200002,
 		200003,
@@ -496,7 +501,11 @@ pg.task_meta_data_template = setmetatable({
 		200401,
 		200402,
 		200403,
-		200404
+		200404,
+		200411,
+		200412,
+		200413,
+		200414
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3181,6 +3190,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "요크타운·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100501] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970209",
+		id = 100501,
+		target_num = 1,
+		desc = "클리블랜드·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100502] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970209",
+		id = 100502,
+		target_num = 1,
+		desc = "클리블랜드·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100503] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970209",
+		id = 100503,
+		target_num = 1,
+		desc = "클리블랜드·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100504] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970209",
+		id = 100504,
+		target_num = 1,
+		desc = "클리블랜드·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100505] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970209",
+		id = 100505,
+		target_num = 1,
+		desc = "클리블랜드·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4460,5 +4509,37 @@ pg.base.task_meta_data_template = {
 		id = 200404,
 		target_num = 1,
 		desc = "대형작전에서 요크타운·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200411] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970209",
+		id = 200411,
+		target_num = 1,
+		desc = "대형작전에서 클리블랜드·META를 포함한 함대로 1회 승리"
+	},
+	[200412] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970209",
+		id = 200412,
+		target_num = 1,
+		desc = "대형작전에서 클리블랜드·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200413] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970209",
+		id = 200413,
+		target_num = 1,
+		desc = "대형작전에서 클리블랜드·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200414] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970209",
+		id = 200414,
+		target_num = 1,
+		desc = "대형작전에서 클리블랜드·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

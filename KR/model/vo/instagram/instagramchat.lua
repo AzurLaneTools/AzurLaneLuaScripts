@@ -14,6 +14,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.characterConfig = uv0[slot0.characterId]
 	slot0.name = slot0.characterConfig.name
 	slot0.sculpture = slot0.characterConfig.sculpture
+	slot0.sculptureII = slot0.characterConfig.sculpture_ii
 	slot0.type = slot0.characterConfig.type
 	slot0.nationality = slot0.characterConfig.nationality
 	slot0.groupBackground = slot0.characterConfig.background
@@ -106,8 +107,12 @@ end
 
 slot0.SortTopicList = function(slot0)
 	table.sort(slot0.topics, function (slot0, slot1)
+		if (slot0.isII and 1 or 0) ~= (slot1.isII and 1 or 0) then
+			return slot2 < slot3
+		end
+
 		if (slot0.active and 1 or 0) ~= (slot1.active and 1 or 0) then
-			return slot3 < slot2
+			return slot5 < slot4
 		end
 
 		return slot1.topicId < slot0.topicId
@@ -116,14 +121,26 @@ end
 
 slot0.SetBackgrounds = function(slot0)
 	slot0.skins = ShipGroup.GetDisplayableSkinList(slot0.characterId)
-	slot2 = getProxy(CollectionProxy):getGroups()[slot0.characterId]
+
+	for slot5, slot6 in ipairs(getProxy(ShipSkinProxy):GetShareSkinsForShipGroupInJuus(slot0.characterId)) do
+		table.insert(slot0.skins, pg.ship_skin_template[slot6.id])
+	end
+
+	slot2 = getProxy(CollectionProxy):getGroups()
 
 	for slot6 = #slot0.skins, 1, -1 do
-		if slot0.skins[slot6].skin_type == ShipSkin.SKIN_TYPE_PROPOSE and (not slot2 or slot2 and slot2.married == 0) then
+		slot7 = slot0.skins[slot6]
+		slot8 = slot2[slot7.ship_group]
+
+		if slot7.skin_type == ShipSkin.SKIN_TYPE_PROPOSE and (not slot8 or slot8.married == 0) then
 			table.remove(slot0.skins, slot6)
 		end
 
-		if slot7.skin_type == ShipSkin.SKIN_TYPE_REMAKE and (not slot2 or slot2 and not slot2.trans) then
+		if slot7.skin_type == ShipSkin.SKIN_TYPE_REMAKE and (not slot8 or not slot8.trans) then
+			table.remove(slot0.skins, slot6)
+		end
+
+		if slot7.skin_type == ShipSkin.SKIN_TYPE_DEFAULT and not slot8 then
 			table.remove(slot0.skins, slot6)
 		end
 	end
@@ -136,7 +153,8 @@ slot0.GetSkins = function(slot0)
 end
 
 slot0.GetPainting = function(slot0)
-	slot1 = ShipGroup.getDefaultShipConfig(slot0.characterId).skin_id
+	slot1 = 0
+	slot1 = (not slot0.currentTopic.isII or ShipGroup.getDefaultShipConfig(slot0.currentTopic.topicConfig.group_ii).skin_id) and ShipGroup.getDefaultShipConfig(slot0.characterId).skin_id
 	slot2 = pg.ship_skin_template[slot1]
 
 	assert(slot2, "ship_skin_template not exist: " .. slot1)
@@ -145,7 +163,9 @@ slot0.GetPainting = function(slot0)
 end
 
 slot0.GetPaintingId = function(slot0)
-	return ShipGroup.getDefaultShipConfig(slot0.characterId).skin_id
+	slot1 = 0
+
+	return (not slot0.currentTopic.isII or ShipGroup.getDefaultShipConfig(slot0.currentTopic.topicConfig.group_ii).skin_id) and ShipGroup.getDefaultShipConfig(slot0.characterId).skin_id
 end
 
 return slot0

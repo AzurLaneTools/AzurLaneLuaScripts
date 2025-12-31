@@ -6048,6 +6048,496 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[341] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EP1-1 빛 바랜 아름다움",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "bg_tianqiong_cg0",
+		story = "XIANGCHEYUTIANQIONGZHIYIN1",
+		change_bgm = "story-memory-grief",
+		id = 341,
+		lock = ""
+	},
+	[342] = {
+		story_type = 1,
+		name = "EP1-2 급변",
+		change_prefab = "",
+		unlock_conditions = "EP1-1 클리어",
+		change_background = "bg_port_NY_future",
+		story = "XIANGCHEYUTIANQIONGZHIYIN2",
+		change_bgm = "story-dailyfuture-soft",
+		id = 342,
+		pre_event = {
+			341
+		},
+		lock = {
+			{
+				4,
+				341
+			}
+		}
+	},
+	[343] = {
+		story_type = 1,
+		name = "EP2-1 오래된 도시, 오래된 꿈",
+		change_prefab = "",
+		unlock_conditions = "EP1-2 클리어",
+		change_background = "star_level_bg_538",
+		story = "XIANGCHEYUTIANQIONGZHIYIN3",
+		change_bgm = "theme-weimu",
+		id = 343,
+		pre_event = {
+			342
+		},
+		lock = {
+			{
+				4,
+				342
+			}
+		}
+	},
+	[344] = {
+		story_type = 1,
+		name = "EP3-1 타산",
+		change_prefab = "",
+		unlock_conditions = "EP2-1 클리어",
+		change_background = "bg_port_NY_future",
+		story = "XIANGCHEYUTIANQIONGZHIYIN4",
+		change_bgm = "story-dailyfuture-soft",
+		id = 344,
+		pre_event = {
+			342
+		},
+		lock = {
+			{
+				4,
+				343
+			}
+		}
+	},
+	[345] = {
+		story_type = 1,
+		name = "EP2-2 대규모 실신 사건",
+		change_prefab = "",
+		unlock_conditions = "EP3-1 클리어",
+		change_background = "star_level_bg_598",
+		story = "XIANGCHEYUTIANQIONGZHIYIN5",
+		change_bgm = "theme-weimu",
+		id = 345,
+		pre_event = {
+			343
+		},
+		lock = {
+			{
+				4,
+				344
+			}
+		}
+	},
+	[346] = {
+		story_type = 1,
+		name = "EP3-2 제7 임무 함대",
+		change_prefab = "",
+		unlock_conditions = "EP2-2 클리어",
+		change_background = "star_level_bg_157",
+		story = "XIANGCHEYUTIANQIONGZHIYIN6",
+		change_bgm = "story-dailyfuture-soft",
+		id = 346,
+		pre_event = {
+			344
+		},
+		lock = {
+			{
+				4,
+				345
+			}
+		}
+	},
+	[347] = {
+		story_type = 1,
+		name = "EP2-3 그리운 맛",
+		change_prefab = "",
+		unlock_conditions = "EP3-2 클리어",
+		change_background = "bg_tianqiong_1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN7",
+		change_bgm = "theme-weimu",
+		id = 347,
+		pre_event = {
+			345
+		},
+		lock = {
+			{
+				4,
+				346
+			}
+		}
+	},
+	[348] = {
+		story_type = 1,
+		name = "EP3-3 잔불을 이끄는 자",
+		change_prefab = "",
+		unlock_conditions = "EP2-3 클리어",
+		change_background = "star_level_bg_146",
+		story = "XIANGCHEYUTIANQIONGZHIYIN8",
+		change_bgm = "story-date-light",
+		id = 348,
+		pre_event = {
+			346
+		},
+		lock = {
+			{
+				4,
+				347
+			}
+		}
+	},
+	[349] = {
+		story_type = 1,
+		name = "EP2-4 조금씩",
+		change_prefab = "",
+		unlock_conditions = "EP3-3 클리어",
+		change_background = "bg_tianqiong_2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN9",
+		change_bgm = "story-weimu-link",
+		id = 349,
+		pre_event = {
+			347
+		},
+		lock = {
+			{
+				4,
+				348
+			}
+		}
+	},
+	[350] = {
+		story_type = 1,
+		name = "EP3-4 중재 기구의 실험장",
+		change_prefab = "",
+		unlock_conditions = "EP2-4 클리어",
+		change_background = "bg_zhedie_2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN10",
+		change_bgm = "story-dailyfuture-soft",
+		id = 350,
+		pre_event = {
+			348
+		},
+		lock = {
+			{
+				4,
+				349
+			}
+		}
+	},
+	[351] = {
+		story_type = 1,
+		name = "EP2-5 TORCH",
+		change_prefab = "",
+		unlock_conditions = "EP3-4 클리어",
+		change_background = "star_level_bg_596",
+		story = "XIANGCHEYUTIANQIONGZHIYIN11",
+		change_bgm = "battle-boss-ucnf",
+		id = 351,
+		pre_event = {
+			349
+		},
+		lock = {
+			{
+				4,
+				350
+			}
+		}
+	},
+	[352] = {
+		story_type = 2,
+		name = "EP3-5 이상 구역 조사",
+		change_prefab = "",
+		unlock_conditions = "EP2-5 클리어",
+		change_background = "bg_tianqiong_3",
+		story = "1996001",
+		change_bgm = "main-arbitrationsystem-theme",
+		id = 352,
+		pre_event = {
+			350
+		},
+		lock = {
+			{
+				4,
+				351
+			}
+		}
+	},
+	[353] = {
+		story_type = 1,
+		name = "EPS-1 선을 넘는 실험 NO.3",
+		change_prefab = "",
+		unlock_conditions = "EP3-5 클리어",
+		change_background = "bg_tianqiong_4",
+		story = "XIANGCHEYUTIANQIONGZHIYIN13",
+		change_bgm = "story-date-light",
+		id = 353,
+		pre_event = {
+			351,
+			352
+		},
+		lock = {
+			{
+				4,
+				352
+			}
+		}
+	},
+	[354] = {
+		story_type = 1,
+		name = "EP4-1 여정",
+		change_prefab = "",
+		unlock_conditions = "EPS-1 클리어",
+		change_background = "bg_logo_oxs",
+		story = "XIANGCHEYUTIANQIONGZHIYIN14",
+		change_bgm = "story-dailyfuture-upspeed",
+		id = 354,
+		pre_event = {
+			353
+		},
+		lock = {
+			{
+				4,
+				353
+			}
+		}
+	},
+	[355] = {
+		story_type = 1,
+		name = "EP4-2 콜레트",
+		change_prefab = "",
+		unlock_conditions = "EP4-1 클리어",
+		change_background = "bg_aostelab_2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN15",
+		change_bgm = "story-dailyfuture-upspeed",
+		id = 355,
+		pre_event = {
+			354
+		},
+		lock = {
+			{
+				4,
+				354
+			}
+		}
+	},
+	[356] = {
+		story_type = 1,
+		name = "EP4-3 아오스타와 유토피아",
+		change_prefab = "",
+		unlock_conditions = "EP4-2 클리어",
+		change_background = "star_level_bg_490",
+		story = "XIANGCHEYUTIANQIONGZHIYIN16",
+		change_bgm = "story-dailyfuture-upspeed",
+		id = 356,
+		pre_event = {
+			355
+		},
+		lock = {
+			{
+				4,
+				355
+			}
+		}
+	},
+	[357] = {
+		story_type = 1,
+		name = "EP4-4 아마하라 료코",
+		change_prefab = "",
+		unlock_conditions = "EP4-3 클리어",
+		change_background = "star_level_bg_570",
+		story = "XIANGCHEYUTIANQIONGZHIYIN17",
+		change_bgm = "story-date-light",
+		id = 357,
+		pre_event = {
+			356
+		},
+		lock = {
+			{
+				4,
+				356
+			}
+		}
+	},
+	[358] = {
+		story_type = 1,
+		name = "EP4-5 안제",
+		change_prefab = "",
+		unlock_conditions = "EP4-4 클리어",
+		change_background = "star_level_bg_544",
+		story = "XIANGCHEYUTIANQIONGZHIYIN18",
+		change_bgm = "story-weimu-link",
+		id = 358,
+		pre_event = {
+			357
+		},
+		lock = {
+			{
+				4,
+				357
+			}
+		}
+	},
+	[359] = {
+		story_type = 1,
+		name = "EP4-6 소피아",
+		change_prefab = "",
+		unlock_conditions = "EP4-5 클리어",
+		change_background = "star_level_bg_580",
+		story = "XIANGCHEYUTIANQIONGZHIYIN19",
+		change_bgm = "story-weimu-link",
+		id = 359,
+		pre_event = {
+			358
+		},
+		lock = {
+			{
+				4,
+				358
+			}
+		}
+	},
+	[360] = {
+		story_type = 1,
+		name = "EP4-7 결의",
+		change_prefab = "",
+		unlock_conditions = "EP4-6 클리어",
+		change_background = "bg_cccpv2_7",
+		story = "XIANGCHEYUTIANQIONGZHIYIN20",
+		change_bgm = "theme-uc",
+		id = 360,
+		pre_event = {
+			359
+		},
+		lock = {
+			{
+				4,
+				359
+			}
+		}
+	},
+	[361] = {
+		story_type = 1,
+		name = "EP4-8 이사회 회의",
+		change_prefab = "",
+		unlock_conditions = "EP4-7 클리어",
+		change_background = "bg_tianqiong_4",
+		story = "XIANGCHEYUTIANQIONGZHIYIN21",
+		change_bgm = "story-memory-grief",
+		id = 361,
+		pre_event = {
+			360
+		},
+		lock = {
+			{
+				4,
+				360
+			}
+		}
+	},
+	[362] = {
+		story_type = 1,
+		name = "EP4-9 극광 너머로",
+		change_prefab = "",
+		unlock_conditions = "EP4-8 클리어",
+		change_background = "star_level_bg_493",
+		story = "XIANGCHEYUTIANQIONGZHIYIN22",
+		change_bgm = "theme-helena",
+		id = 362,
+		pre_event = {
+			361
+		},
+		lock = {
+			{
+				4,
+				361
+			}
+		}
+	},
+	[363] = {
+		story_type = 1,
+		name = "EPS-2 선택",
+		change_prefab = "",
+		unlock_conditions = "EP4-9 클리어",
+		change_background = "bg_port_NY_future",
+		story = "XIANGCHEYUTIANQIONGZHIYIN23",
+		change_bgm = "theme-helena",
+		id = 363,
+		pre_event = {
+			362
+		},
+		lock = {
+			{
+				4,
+				362
+			}
+		}
+	},
+	[364] = {
+		story_type = 3,
+		name = "EPS-2-A 선택 - 완벽한 미래",
+		change_prefab = "",
+		unlock_conditions = "？",
+		change_background = "star_level_bg_493",
+		story = "XIANGCHEYUTIANQIONGZHIYIN23-1",
+		change_bgm = "story-weimu-link",
+		id = 364,
+		pre_event = {
+			363
+		},
+		lock = {
+			{
+				5,
+				363,
+				100
+			}
+		}
+	},
+	[365] = {
+		story_type = 3,
+		name = "EPS-2-B 선택 - 기상",
+		change_prefab = "",
+		unlock_conditions = "？",
+		change_background = "bg_starsea_core_3",
+		story = "XIANGCHEYUTIANQIONGZHIYIN23-2",
+		change_bgm = "theme-weimu",
+		id = 365,
+		pre_event = {
+			363
+		},
+		lock = {
+			{
+				5,
+				363,
+				200
+			}
+		}
+	},
+	[366] = {
+		story_type = 1,
+		name = "EP5-1 모든 것은 제자리로?",
+		change_prefab = "map_1990001",
+		unlock_conditions = "EPS-2 클리어",
+		change_background = "bg_tianqiong_1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN24",
+		change_bgm = "theme-weimu",
+		id = 366,
+		pre_event = {
+			365
+		},
+		lock = {
+			{
+				4,
+				365
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -6362,6 +6852,32 @@ pg.activity_sp_story = {
 		336,
 		337,
 		338,
-		339
+		339,
+		341,
+		342,
+		343,
+		344,
+		345,
+		346,
+		347,
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358,
+		359,
+		360,
+		361,
+		362,
+		363,
+		364,
+		365,
+		366
 	}
 }

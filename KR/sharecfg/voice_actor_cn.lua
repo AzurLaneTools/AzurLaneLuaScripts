@@ -1879,5 +1879,17 @@ pg.voice_actor_CN = {
 	[487] = {
 		actor_name = "우치다 마아야 & 브리드컷 세라 에미",
 		code = 487
+	},
+	[488] = {
+		actor_name = "미야자키 히요리",
+		code = 488
+	},
+	[489] = {
+		actor_name = "하스미 나나",
+		code = 489
+	},
+	[490] = {
+		actor_name = "후카가와 세리아",
+		code = 490
 	}
 }

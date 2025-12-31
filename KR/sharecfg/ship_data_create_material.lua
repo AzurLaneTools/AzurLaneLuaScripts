@@ -188,7 +188,7 @@ pg.ship_data_create_material = {
 	},
 	{
 		use_gold = 1500,
-		name = "한정 건조",
+		name = "기간 한정",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
@@ -205,13 +205,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>R</color>: 51%",
 			"N: 28.8%",
 			" ",
-			"<color=#ff5e39>운젠</color>: 1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>렉싱턴Ⅱ</color>: 1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>오와리</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>카우펜스</color>: 2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>하츠즈키</color>: 0.5%",
+			"<color=#ffde38>클리블랜드·META</color>: 0.5%",
 			" ",
-			"<color=#d797ff>나토리</color>: 2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>패서디나</color>: 2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

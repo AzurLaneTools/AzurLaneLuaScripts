@@ -2357,8 +2357,12 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "기대해 주세요",
-		name = "기대해 주세요",
+		description = [[
+「세이렌과의 전투가 끝났다」
+「재결성 회의도 드디어 끝났다」
+「아름다운 세계」
+「아름다운 세계」]],
+		name = "아름다운 세계에게",
 		column = 57,
 		world_id = "",
 		bgm = "login",
@@ -2389,18 +2393,51 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "敬请期待",
-		name = "敬请期待",
+		description = [[
+「과거는 완벽하지 않고, 미래에는 난관이 기다리고 있다.」
+「하지만 지금」
+「우리는 단결하여 함께 앞으로 나아가려 한다.」
+「과거, 현재, 미래의 모든 동료들이여.」
+「함께 이 장대한 악장을 연주하자——」]],
+		name = "창공에 울리는 소리",
+		column = 58,
+		world_id = "",
+		bgm = "story-weimu-link",
+		row = 0,
+		chapter = 4,
+		memory_lock = 0,
+		id = 93,
+		icon = "ChapterFour_12",
+		sort = 1,
+		memory_id = {
+			1,
+			351
+		},
+		shipnation = {
+			97,
+			2,
+			1,
+			4,
+			6,
+			7
+		},
+		link_event = {
+			94
+		}
+	},
+	{
+		description = "기대해주세요",
+		name = "기대해주세요",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 58,
+		column = 59,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 93,
+		id = 94,
 		icon = "",
 		sort = 0
 	},
@@ -2497,6 +2534,7 @@ pg.memory_storyline = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

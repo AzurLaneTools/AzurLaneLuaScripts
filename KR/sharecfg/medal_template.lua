@@ -2653,6 +2653,31 @@ pg.medal_template = {
 		explain1 = "「템페스타와 자유 군도」",
 		explain2 = "이벤트"
 	},
+	[200111] = {
+		target_id = "50295",
+		name = "창공의 별 기념장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = [[
+앵커리지 천문대를 모티브로 한 기념 훈장. 
+——당신은 베일을 걷고 하늘을 넘어섰다.
+——과거와 미래는 이 순간, 하나로 이어졌다.
+——새로운 시대가 찾아왔다.]],
+		next = 0,
+		icon = "9111",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9111",
+		condition = "「창공에 울리는 소리」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200111,
+		explain1 = "「창공에 울리는 소리」",
+		explain2 = "이벤트 기념"
+	},
 	all = {
 		10011,
 		10012,
@@ -2774,6 +2799,7 @@ pg.medal_template = {
 		200071,
 		200081,
 		200091,
-		200101
+		200101,
+		200111
 	}
 }

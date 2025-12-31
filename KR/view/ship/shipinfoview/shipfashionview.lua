@@ -131,9 +131,10 @@ slot0.UpdateAllFashion = function(slot0, slot1)
 			slot12:updateData(slot0:GetShipVO(), slot10, slot0:GetShipVO():proposeSkinOwned(slot10) or table.contains(slot0.skinList, slot10.id) or slot0:GetShipVO():getRemouldSkinId() == slot10.id and slot0:GetShipVO():isRemoulded() or slot10.skin_type == ShipSkin.SKIN_TYPE_OLD or getProxy(ShipSkinProxy):hasSkin(slot10.id))
 			slot12:updateUsing(slot0:GetShipVO():useSkin(slot10.id))
 			onButton(slot0, slot12.changeSkinTF, function (slot0)
-				ShipSkin.SetStoreChangeSkinId(ShipSkin.GetChangeSkinNextId(uv0.id), uv1:GetShipPhantomMark())
+				slot1 = ShipSkin.GetChangeSkinNextId(uv0.id)
 
-				if uv2 then
+				if uv1 then
+					ShipSkin.SetStoreChangeSkinId(slot1, uv2:GetShipPhantomMark())
 					pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, uv3:GetShipVO():GetShipPhantomMark())
 				end
 			end, SFX_PANEL)
@@ -189,7 +190,7 @@ slot0.clickCell = function(slot0, slot1, slot2)
 		slot9 = slot0.fashionCellMap[slot0.styleContainer:GetChild(slot6 - 1)]
 
 		slot9:updateSelected(slot7.id == slot0.fashionSkinId)
-		slot9:updateUsing(slot0:GetShipVO():getSkinId() == slot7.id)
+		slot9:updateUsing(slot0:GetShipVO():useSkin(slot7.id))
 	end
 
 	slot4 = checkABExist("painting/" .. slot2.painting .. "_n")

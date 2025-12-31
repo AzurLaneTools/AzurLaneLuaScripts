@@ -178,6 +178,7 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
+			323,
 			100002,
 			100003,
 			100004,
@@ -256,6 +257,7 @@ pg.furniture_data_template = setmetatable({
 			100077,
 			100078,
 			100079,
+			100080,
 			200001,
 			200002,
 			200003,
@@ -3614,6 +3616,30 @@ pg.furniture_data_template = setmetatable({
 			331307,
 			331308,
 			331309
+		},
+		[133] = {
+			333001,
+			333002,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333106,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			333119,
+			333301
 		}
 	},
 	get_id_list_by_tag = {
@@ -5767,7 +5793,25 @@ pg.furniture_data_template = setmetatable({
 			331114,
 			331115,
 			331116,
-			331117
+			331117,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333106,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118
 		},
 		{
 			1108,
@@ -6107,6 +6151,7 @@ pg.furniture_data_template = setmetatable({
 			100077,
 			100078,
 			100079,
+			100080,
 			54104,
 			54105
 		},
@@ -6181,7 +6226,8 @@ pg.furniture_data_template = setmetatable({
 			316,
 			318,
 			319,
-			321
+			321,
+			323
 		},
 		[7] = {
 			213,
@@ -6391,7 +6437,8 @@ pg.furniture_data_template = setmetatable({
 			330102,
 			329120,
 			332113,
-			331309
+			331309,
+			333119
 		},
 		[4] = {
 			1001,
@@ -6510,7 +6557,8 @@ pg.furniture_data_template = setmetatable({
 			330001,
 			329001,
 			332001,
-			331001
+			331001,
+			333001
 		},
 		[3] = {
 			1002,
@@ -6630,7 +6678,8 @@ pg.furniture_data_template = setmetatable({
 			330002,
 			329002,
 			332002,
-			331002
+			331002,
+			333002
 		},
 		[5] = {
 			1301,
@@ -7010,7 +7059,8 @@ pg.furniture_data_template = setmetatable({
 			331305,
 			331306,
 			331307,
-			331308
+			331308,
+			333301
 		}
 	},
 	get_id_list_by_type = {
@@ -7132,7 +7182,8 @@ pg.furniture_data_template = setmetatable({
 			330002,
 			329002,
 			332002,
-			331002
+			331002,
+			333002
 		},
 		[7] = {
 			1,
@@ -7287,6 +7338,7 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
+			323,
 			100002,
 			100004,
 			100005,
@@ -7344,7 +7396,8 @@ pg.furniture_data_template = setmetatable({
 			100075,
 			100076,
 			100078,
-			100079
+			100079,
+			100080
 		},
 		[2] = {
 			120,
@@ -9495,7 +9548,25 @@ pg.furniture_data_template = setmetatable({
 			331114,
 			331115,
 			331116,
-			331117
+			331117,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			333119
 		},
 		[11] = {
 			131,
@@ -9695,7 +9766,8 @@ pg.furniture_data_template = setmetatable({
 			330001,
 			329001,
 			332001,
-			331001
+			331001,
+			333001
 		},
 		[5] = {
 			1101,
@@ -9853,7 +9925,8 @@ pg.furniture_data_template = setmetatable({
 			329108,
 			332102,
 			331109,
-			331110
+			331110,
+			333106
 		},
 		[3] = {
 			1108,
@@ -10378,7 +10451,8 @@ pg.furniture_data_template = setmetatable({
 			332301,
 			331302,
 			331303,
-			331307
+			331307,
+			333301
 		},
 		[8] = {
 			17121
@@ -10602,6 +10676,7 @@ pg.furniture_data_template = setmetatable({
 		318,
 		319,
 		321,
+		323,
 		100002,
 		100003,
 		100004,
@@ -10680,6 +10755,7 @@ pg.furniture_data_template = setmetatable({
 		100077,
 		100078,
 		100079,
+		100080,
 		200001,
 		200002,
 		200003,
@@ -13803,7 +13879,29 @@ pg.furniture_data_template = setmetatable({
 		331306,
 		331307,
 		331308,
-		331309
+		331309,
+		333001,
+		333002,
+		333101,
+		333102,
+		333103,
+		333104,
+		333105,
+		333106,
+		333107,
+		333108,
+		333109,
+		333110,
+		333111,
+		333112,
+		333113,
+		333114,
+		333115,
+		333116,
+		333117,
+		333118,
+		333119,
+		333301
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22728,6 +22826,50 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[323] = {
+		can_rotate = 0,
+		describe = "이사회 천문대를 모티브로 한 미니어처. 밝게 빛나는 별들은 홀로그램이 아닌, 탑재된 불꽃 발사 장치로 연출되고 있다. ――「하늘이 울리는 소리」 이벤트 참가 보상.",
+		gain_by = "창공에 울리는 소리",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "이사회 천문대 미니어처",
+		advice = 0,
+		id = 323,
+		tag = 8,
+		comfortable = 0,
+		icon = "tianwentaixunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tianwentaixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		name = "우정의 공기 펌프",
@@ -28248,6 +28390,91 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100080] = {
+		advice = 0,
+		name = "동심의 요람",
+		count = 1,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "yaolingchuangicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 100080,
+		comfortable = 0,
+		describe = "포근하고 아기자기한 꿈의 세계, 한정 기간 오픈~",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yaolingchuangB",
+				"normal"
+			},
+			{
+				"yaolingchuangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-8.4,
+					133.1
+				},
+				{
+					307.8,
+					441.15
+				},
+				"chuanmo/yaolingchuang_mask"
+			},
+			{
+				-22.7,
+				-145.3
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -169239,6 +169466,1059 @@ pg.base.furniture_data_template = {
 					}
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[333001] = {
+		can_rotate = 0,
+		describe = "케이크와 고양이를 테마로 한 메이드 하우스. 포근하고 달콤한 향기♪",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dibannvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "메이드 하우스 바닥",
+		advice = 0,
+		tag = 4,
+		id = 333001,
+		icon = "dibannvpicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333002] = {
+		can_rotate = 0,
+		describe = "케이크와 고양이를 테마로 한 메이드 하우스. 포근하고 달콤한 향기♪",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "메이드 하우스 벽",
+		advice = 0,
+		id = 333002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbinvpicon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbinvp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[333101] = {
+		can_rotate = 0,
+		describe = "고양이 얼굴 모양으로 다듬어진 관엽식물. 디자인성이 뛰어난 마감.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/baijiannvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "야옹 분재",
+		advice = 0,
+		tag = 1,
+		id = 333101,
+		icon = "baijiannvpicon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333102] = {
+		can_rotate = 0,
+		describe = "꽃과 차를 즐기는 티타임 시작~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/chajinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 테이블",
+		advice = 0,
+		tag = 1,
+		id = 333102,
+		icon = "chajinvpicon",
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333103] = {
+		can_rotate = 0,
+		describe = "널찍하고 커다란 원형 침대. 마치 커다란 케이크 위에서 자는 느낌.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/chuangnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 침대",
+		advice = 0,
+		id = 333103,
+		tag = 1,
+		comfortable = 4,
+		icon = "chuangnvpicon",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					31.2,
+					45.5
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					-45.4,
+					4.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333104] = {
+		can_rotate = 0,
+		describe = "의자여도 만져보지 않고는 못 배길 정도!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dengzinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "발바닥 의자",
+		advice = 0,
+		id = 333104,
+		tag = 1,
+		comfortable = 2,
+		icon = "dengzinvpicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.9,
+					77.79
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333105] = {
+		can_rotate = 0,
+		describe = "새로운 TV와 게임기. 컨트롤러를 들고 같이 게임하자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dianshinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 TV",
+		advice = 0,
+		tag = 1,
+		id = 333105,
+		icon = "dianshinvpicon",
+		comfortable = 3,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333106] = {
+		can_rotate = 0,
+		describe = "카펫에 떨어져 있는 건 어느 덜렁이 메이드의 옷과 양말일까?",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/ditannvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 카펫",
+		advice = 0,
+		tag = 1,
+		id = 333106,
+		icon = "ditannvpicon",
+		comfortable = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333107] = {
+		can_rotate = 0,
+		describe = "음식을 여기에 올려두면, 왠지 모르게 평소보다 맛있어 보일지도? !",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/fanzhuonvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "디너 테이블",
+		advice = 0,
+		tag = 1,
+		id = 333107,
+		icon = "fanzhuonvpicon",
+		comfortable = 3,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333108] = {
+		can_rotate = 0,
+		describe = "일단 앉으면 일어나고 싶지 않게 만드는 마법 같은 소파.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/lanrenshafanvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 소파",
+		advice = 0,
+		id = 333108,
+		tag = 1,
+		comfortable = 3,
+		icon = "lanrenshafanvpicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5.8,
+					19.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333109] = {
+		can_rotate = 0,
+		describe = "커튼 뒤에 있는 것은 메이드일까? 아니면 고양이일까?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/lianzinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 커튼",
+		advice = 0,
+		id = 333109,
+		tag = 1,
+		comfortable = 3,
+		icon = "lianzinvpicon",
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lianzinvp",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[333110] = {
+		can_rotate = 0,
+		describe = "날개가 달린 플로어 램프. 당장이라도 날아오를 것만 같다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 플로어 램프",
+		advice = 0,
+		id = 333110,
+		tag = 1,
+		comfortable = 2,
+		icon = "luodidengnvpicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"luodidengnvp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[333111] = {
+		can_rotate = 0,
+		describe = "다채로운 모티브를 조합하여 네 가지 소원을 단번에 이뤄준다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "캣타워",
+		advice = 0,
+		id = 333111,
+		tag = 1,
+		comfortable = 3,
+		icon = "maopajianvpicon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maopajianvp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[333112] = {
+		can_rotate = 0,
+		describe = "핑크빛 고양이를 모티브로 한 전신 거울. 비치는 사람까지 귀엽게 보이는 디자인.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/quanshenjingnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 거울",
+		advice = 0,
+		tag = 1,
+		id = 333112,
+		icon = "quanshenjingnvpicon",
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333113] = {
+		can_rotate = 0,
+		describe = "푹신푹신한 1인용 소파. 커다란 고양이 발바닥 쿠션이 편안하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shafa1nvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 소파 (소)",
+		advice = 0,
+		id = 333113,
+		tag = 1,
+		comfortable = 2,
+		icon = "shafa1nvpicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					30.8,
+					-0.3
+				},
+				{
+					1,
+					1
+				},
+				"nvp/shafa1nvp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333114] = {
+		can_rotate = 0,
+		describe = "부드러운 2인용 소파. 독서나 담소를 즐기기에 적합하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shafa2nvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 소파 (대)",
+		advice = 0,
+		id = 333114,
+		tag = 1,
+		comfortable = 3,
+		icon = "shafa2nvpicon",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-31.6,
+					10.6
+				},
+				{
+					-1,
+					1
+				},
+				"nvp/shafa2nvp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333115] = {
+		can_rotate = 0,
+		describe = "중요한 물건을 제대로 넣어두지 않으면, 아기 고양이들이 장난칠 거예요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shuguinvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 수납장",
+		advice = 0,
+		tag = 1,
+		id = 333115,
+		icon = "shuguinvpicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333116] = {
+		can_rotate = 0,
+		describe = "고양이를 모티브로 한 수납대. 양쪽 패널은 초콜릿과 비슷한 질감이다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/xiyuyongpingnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 수납대",
+		advice = 0,
+		tag = 1,
+		id = 333116,
+		icon = "xiyuyongpingnvpicon",
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333117] = {
+		can_rotate = 0,
+		describe = "메이드 의상을 깔끔하게 정리해둔 수납 공간. 깨끗하고 보기도 좋다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/yijianvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "야옹 옷걸이",
+		advice = 0,
+		tag = 1,
+		id = 333117,
+		icon = "yijianvpicon",
+		comfortable = 3,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333118] = {
+		advice = 0,
+		name = "야옹 욕조",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "yugangnvpicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 133,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 333118,
+		comfortable = 4,
+		describe = "안에 누워 있으면, 고양이에게 마사지를 받는 듯 편안하다.",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangnvpB",
+				"normal"
+			},
+			{
+				"yugangnvpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-5.32,
+					140
+				},
+				{
+					256.76,
+					250
+				},
+				"nvp/yugangnvp_mask"
+			},
+			{
+				-5.72,
+				-157.16
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[333119] = {
+		advice = 0,
+		name = "딸기 케이크 슬라이더",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "huatinvpicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 133,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 333119,
+		comfortable = 4,
+		describe = "케이크 모양 미끄럼틀과 볼풀. 동심으로 돌아가 즐거운 시간을 보내자!",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatinvpB",
+				"normal"
+			},
+			{
+				"huatinvpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk",
+						1,
+						"walk"
+					},
+					{
+						"action1",
+						1,
+						"tuozhuai2"
+					},
+					{
+						"action2",
+						nil,
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					102,
+					128.5
+				},
+				{
+					300,
+					300
+				},
+				"nvp/huatinvp_mask"
+			},
+			{
+				-100,
+				-123.7
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[333301] = {
+		can_rotate = 0,
+		describe = "아직 새것인 포토월. 따뜻한 추억을 장식하는 곳.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/zhaopianqiangnvp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "야옹 포토월",
+		advice = 0,
+		tag = 5,
+		id = 333301,
+		icon = "zhaopianqiangnvpicon",
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

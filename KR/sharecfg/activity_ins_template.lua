@@ -22805,9 +22805,9 @@ pg.activity_ins_template = {
 		ship_group = 1150002,
 		name = "Tobiichi Origami",
 		sculpture = "zhezhi",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/251120_zhezhijmbNgBii4OqiKZvM.png",
+		is_active = 0,
+		message_persist = "ins_604",
 		id = 604,
 		group_id = 604,
 		time = {
@@ -22822,16 +22822,30 @@ pg.activity_ins_template = {
 				11
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				11,
+				27
+			},
+			{
+				11,
+				11,
+				11
+			}
+		},
+		npc_discuss_persist = {
+			6560,
+			6566
+		}
 	},
 	[605] = {
 		ship_group = 1150005,
 		name = "Kurumi Tokisaki ",
 		sculpture = "kuangsan",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/251120_kuangsan4JdXmsogDGS7QQ4F.png",
+		is_active = 0,
+		message_persist = "ins_605",
 		id = 605,
 		group_id = 605,
 		time = {
@@ -22846,16 +22860,30 @@ pg.activity_ins_template = {
 				33
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				11,
+				28
+			},
+			{
+				13,
+				33,
+				33
+			}
+		},
+		npc_discuss_persist = {
+			6576,
+			6580
+		}
 	},
 	[606] = {
 		ship_group = 1150004,
 		name = "Yoshino",
 		sculpture = "sisinai",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/251120_sisinaiFVXwNUI6FDTZPDY6.png",
+		is_active = 0,
+		message_persist = "ins_606",
 		id = 606,
 		group_id = 606,
 		time = {
@@ -22870,16 +22898,30 @@ pg.activity_ins_template = {
 				44
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				11,
+				29
+			},
+			{
+				16,
+				44,
+				44
+			}
+		},
+		npc_discuss_persist = {
+			6592,
+			6597
+		}
 	},
 	[607] = {
 		ship_group = 1150003,
 		name = "Itsuka Kotori",
 		sculpture = "qinli",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/251120_qinliGW1YDtkvM5jXW64E.png",
+		is_active = 0,
+		message_persist = "ins_607",
 		id = 607,
 		group_id = 607,
 		time = {
@@ -22894,16 +22936,30 @@ pg.activity_ins_template = {
 				55
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				11,
+				30
+			},
+			{
+				12,
+				55,
+				55
+			}
+		},
+		npc_discuss_persist = {
+			6606,
+			6611
+		}
 	},
 	[608] = {
 		ship_group = 1150006,
 		name = "Yamai Kguya Yamai Yuzuru",
 		sculpture = "bawu",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/251120_bawufXDbvLSfTS69gNWN.png",
+		is_active = 0,
+		message_persist = "ins_608",
 		id = 608,
 		group_id = 608,
 		time = {
@@ -22918,16 +22974,30 @@ pg.activity_ins_template = {
 				8
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				17,
+				24,
+				8
+			}
+		},
+		npc_discuss_persist = {
+			6619,
+			6623
+		}
 	},
 	[609] = {
 		ship_group = 1150001,
 		name = "Yatogami Tōka",
 		sculpture = "shixiang",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/251120_shixiangjMFzYCWWn5CzxEk9.png",
+		is_active = 0,
+		message_persist = "ins_609",
 		id = 609,
 		group_id = 609,
 		time = {
@@ -22940,6 +23010,140 @@ pg.activity_ins_template = {
 				10,
 				10,
 				10
+			}
+		},
+		time_persist = {
+			{
+				2025,
+				12,
+				2
+			},
+			{
+				10,
+				10,
+				10
+			}
+		},
+		npc_discuss_persist = {
+			6632,
+			6636
+		}
+	},
+	[610] = {
+		ship_group = 10235,
+		name = "Pasadena",
+		sculpture = "pasadina",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 610,
+		group_id = 610,
+		time = {
+			{
+				2025,
+				12,
+				31
+			},
+			{
+				14,
+				36,
+				11
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[611] = {
+		ship_group = 10110,
+		name = "William D. Porter",
+		sculpture = "bote",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 611,
+		group_id = 611,
+		time = {
+			{
+				2026,
+				1,
+				1
+			},
+			{
+				15,
+				24,
+				11
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[612] = {
+		ship_group = 10716,
+		name = "Lexington II",
+		sculpture = "liekexingdunII",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 612,
+		group_id = 612,
+		time = {
+			{
+				2026,
+				1,
+				2
+			},
+			{
+				19,
+				43,
+				11
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[613] = {
+		ship_group = 10725,
+		name = "Cowpens",
+		sculpture = "kebensi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 613,
+		group_id = 613,
+		time = {
+			{
+				2026,
+				1,
+				3
+			},
+			{
+				11,
+				26,
+				11
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[614] = {
+		ship_group = 10155,
+		name = "Clarence K. Bronson",
+		sculpture = "kelalunsi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 614,
+		group_id = 614,
+		time = {
+			{
+				2026,
+				1,
+				4
+			},
+			{
+				11,
+				5,
+				11
 			}
 		},
 		time_persist = {},
@@ -23544,6 +23748,11 @@ pg.activity_ins_template = {
 		606,
 		607,
 		608,
-		609
+		609,
+		610,
+		611,
+		612,
+		613,
+		614
 	}
 }

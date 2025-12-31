@@ -94,6 +94,8 @@ pg.pay_data_display = setmetatable({
 		98,
 		99,
 		9001,
+		9007,
+		9008,
 		1000,
 		1001,
 		1002,
@@ -179,6 +181,9 @@ pg.pay_data_display = setmetatable({
 		2059,
 		2063,
 		2064,
+		2068,
+		2069,
+		2070,
 		5011,
 		5012,
 		5013,
@@ -11315,6 +11320,274 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9007] = {
+		picture = "fudai30",
+		name = "축제의 밤 패키지·I",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "축제의 밤 패키지·I",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift165",
+		extra_gem = 0,
+		id = 9007,
+		airijp_id = "com.yostarjp.azurlane.diamond189",
+		name_display = "축제의 밤 패키지·I",
+		first_text = "랜덤 스킨과 다이아",
+		akashi_pick = 1,
+		skin_inquire_relation = 86222,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86222,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81230,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86222,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9008] = {
+		picture = "fudai19",
+		name = "게임의 밤 패키지·I 복각",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "게임의 밤 패키지·I 복각",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift166",
+		extra_gem = 0,
+		id = 9008,
+		airijp_id = "com.yostarjp.azurlane.diamond190",
+		name_display = "게임의 밤 패키지·I 복각",
+		first_text = "랜덤 스킨과 다이아",
+		akashi_pick = 1,
+		skin_inquire_relation = 86208,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81208,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
 	[1000] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스",
@@ -18633,6 +18906,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2068] = {
+		picture = "ui7",
+		name = "전투 UI·메이드 카페",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·메이드 카페를 획득할 수 있습니다.",
+		subject = "전투 UI·메이드 카페",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 15000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 107,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift167",
+		extra_gem = 0,
+		id = 2068,
+		airijp_id = "com.yostarjp.azurlane.ui18",
+		name_display = "전투 UI·메이드 카페",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				206,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				206,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2069] = {
+		picture = "ui7",
+		name = "전투 UI·메이드 카페(기초)",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·메이드 카페를 획득할 수 있습니다.",
+		subject = "전투 UI·메이드 카페(기초)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 15000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 107,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift167",
+		extra_gem = 0,
+		id = 2069,
+		airijp_id = "com.yostarjp.azurlane.ui19",
+		name_display = "전투 UI·메이드 카페(기초)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40074,
+				1
+			}
+		}
+	},
+	[2070] = {
+		picture = "ui7",
+		name = "전투 UI·메이드 카페(럭셔리)",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·메이드 카페, 다이아 3,060개를 획득할 수 있습니다.",
+		subject = "전투 UI·메이드 카페(럭셔리)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 52000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 107,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift168",
+		extra_gem = 0,
+		id = 2070,
+		airijp_id = "com.yostarjp.azurlane.ui20",
+		name_display = "전투 UI·메이드 카페(럭셔리)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40075,
 				1
 			}
 		}

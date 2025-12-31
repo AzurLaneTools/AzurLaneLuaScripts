@@ -127,7 +127,12 @@ slot0.getName = function(slot0, slot1)
 	slot2 = slot0.shipConfig.name
 
 	if slot1 and slot0.trans then
-		slot2 = pg.ship_skin_template[slot0.groupConfig.trans_skin].name
+		slot3 = slot0.groupConfig.trans_skin
+
+		warning(slot2)
+		warning(slot3)
+
+		slot2 = pg.ship_skin_template[slot3].name
 	end
 
 	return slot2

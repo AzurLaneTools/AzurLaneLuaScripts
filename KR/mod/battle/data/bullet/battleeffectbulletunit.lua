@@ -59,6 +59,8 @@ slot1.spawnArea = function(slot0, slot1)
 		slot0._flare = slot9
 	end
 
+	slot9:SetSource(slot9.SOURCE_BULLET_9)
+
 	return slot9
 end
 
