@@ -42,6 +42,12 @@ slot0.AntiAirConfig = {
 	RangeAntiAirBone = "rangeantiaircraft"
 }
 slot0.AirSupportUnitPos = Vector3(-105, 0, 58)
+slot0.SubSupportUnitPosList = {
+	Vector3(-36, 0, 58),
+	Vector3(-30, 0, 78),
+	Vector3(-30, 0, 38)
+}
+slot0.SubSupportDelay = 5
 slot0.AnitAirRepeaterConfig = {
 	const_A = 32,
 	const_B = 12,

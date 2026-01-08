@@ -276,7 +276,10 @@ slot5.addEffect = function(slot0, slot1)
 
 		slot3.effect_tf.localScale = slot3.effect_tf.localScale
 	else
-		slot4 = slot0._owner:AddFX(slot1.effect)
+		if not slot0._owner:AddFX(slot1.effect) then
+			return
+		end
+
 		slot3 = {
 			currentTime = 0,
 			effect_go = slot4,

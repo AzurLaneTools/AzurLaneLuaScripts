@@ -134,10 +134,16 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_GET_SEASON_RANK_DONE, slot0.OnGetRankData)
 end
 
-slot0.OnShow = function(slot0)
+slot0.OnShow = function(slot0, slot1)
 	slot0.contextData.season = getProxy(IslandProxy):GetIsland():GetSeasonAgency():GetSeason()
+	slot2 = slot0.contextData
 
-	triggerToggle(slot0.togglesTF:Find(uv0.PAGE_ACTIVITY), true)
+	if slot1 and slot1.target_act_id then
+		triggerToggle(slot0.togglesTF:Find(uv0.PAGE_ACTIVITY), true)
+		slot0.pages[uv0.PAGE_ACTIVITY]:ExecuteAction("verifyTabs", slot1.target_act_id)
+	else
+		triggerToggle(slot0.togglesTF:Find(uv0.PAGE_ACTIVITY), true)
+	end
 end
 
 slot1 = {

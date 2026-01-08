@@ -54,6 +54,12 @@ slot0.OnLoadedPrefab = function(slot0, slot1, slot2)
 		for slot8 = 1, slot3 do
 			setActive(tf(slot1):GetChild(slot8 - 1), slot8 == slot4)
 		end
+	elseif slot2 == ChapterConst.FlagWeatherFogVisible then
+		slot3 = WorldConst.Pos2FogRes(slot0.line.row, slot0.line.column)
+
+		eachChild(tf(slot1), function (slot0, slot1)
+			setActive(slot0, slot0.name == uv0)
+		end)
 	end
 end
 

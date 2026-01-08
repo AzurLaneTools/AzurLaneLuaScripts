@@ -98,6 +98,12 @@ slot4.Update = function(slot0, slot1)
 end
 
 slot4.Fire = function(slot0, slot1)
+	if slot0._host:IsCease() then
+		slot0:CancelQuickTag()
+
+		return false
+	end
+
 	if slot0._currentState ~= slot0.STATE_PRECAST then
 		return
 	end

@@ -1,6 +1,129 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[401236] = {
+		name = "正经偶像·经纪人担当？",
+		change_skin = "",
+		desc = "真是的，标枪还好，拉菲和{namecode:6}这两个人做偶像根本让人放心不下。没有办法，只好由我来帮她们规划了…啊，指挥官，也请不要忘记支持我哦？",
+		illustrator2 = -1,
+		ship_group = 40123,
+		group_index = 6,
+		purchase_offset = "",
+		painting = "z23_5",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 11,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "120",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 401236,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "z23_5",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 70265,
+		voice_actor = 3,
+		skeleton_default_skin = "",
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.982,
+					0.878,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.955,
+					0.804,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.012,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.955,
+					0.921,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							2.485,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
 	[401237] = {
 		name = "书架边的“风景”？",
 		change_skin = "",
@@ -16960,129 +17083,6 @@ pg.base.ship_skin_template_11 = {
 		l2d_voice_calibrate = {
 			propose = 2.5,
 			touch2 = 5.9
-		}
-	},
-	[405022] = {
-		name = "铁血的冰风",
-		change_skin = "",
-		desc = "我正在想，我的那位姐姐会怎么来邀请我，果然是拜托指挥官你了吗……呵呵，那就走吧，别让她等太久了——",
-		illustrator2 = -1,
-		ship_group = 40502,
-		group_index = 2,
-		purchase_offset = "",
-		painting = "tierbici_3",
-		bg_sp = "",
-		skin_type = 4,
-		shop_type_id = 7,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "115",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 405022,
-		voice_actor_2 = 482,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "tierbici_3",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 70237,
-		voice_actor = 36,
-		skeleton_default_skin = "",
-		spine_offset = "",
-		illustrator = 8,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			-27.7,
-			-97.3,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.856,
-					1.24,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.855,
-					1.324,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.845,
-					1.205,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.32,
-							2.49,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

@@ -18,6 +18,7 @@ slot10.Ctor = function(slot0, slot1)
 	slot0:init()
 
 	slot0._fleetVO = slot1
+	slot0._currentState = uv0.STATE_DISABLE
 end
 
 slot10.GetCurrentState = function(slot0)
@@ -133,7 +134,7 @@ slot10.getSonarProperty = function(slot0)
 	slot4 = slot0:GetAttrByName("sonarRange")
 	slot5 = 0
 
-	if table.contains(TeamType.MainShipType, slot1) then
+	if table.contains(ShipType.MainShipType, slot1) then
 		slot5 = slot0:GetAttrByName("baseAntiSubPower")
 	end
 

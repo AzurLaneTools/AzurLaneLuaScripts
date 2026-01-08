@@ -1911,6 +1911,20 @@ pg.name_code = {
 		code = "ST型",
 		nation = 0
 	},
+	[309] = {
+		name = "金刚级量产型",
+		type = 1,
+		id = 309,
+		code = "鲤级量产型",
+		nation = 0
+	},
+	[310] = {
+		name = "藤波",
+		type = 1,
+		id = 310,
+		code = "藤",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

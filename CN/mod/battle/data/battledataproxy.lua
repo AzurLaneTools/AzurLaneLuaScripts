@@ -116,7 +116,7 @@ slot9.TirggerBattleStartBuffs = function(slot0)
 
 		for slot19, slot20 in ipairs(slot5:GetSupportUnitList()) do
 			underscore.each(slot0._battleInitData.ChapterBuffIDs or {}, function (slot0)
-				if uv0.GetSLGStrategyBuffByCombatBuffID(slot0).type == ChapterConst.AirDominanceStrategyBuffType then
+				if uv0.GetSLGStrategyBuffByCombatBuffID(slot0) and slot1.type == ChapterConst.AirDominanceStrategyBuffType then
 					uv2:AddBuff(uv1.Battle.BattleBuffUnit.New(slot0))
 				end
 			end)
@@ -466,10 +466,8 @@ slot9.InitUserShipsData = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot9.InitUserSupportShipsData = function(slot0, slot1, slot2)
-	slot3 = slot0:GetFleetByIFF(slot1)
-
-	for slot7, slot8 in ipairs(slot2) do
-		slot9 = slot0:SpawnSupportUnit(slot8, slot1)
+	for slot6, slot7 in ipairs(slot2) do
+		slot9 = table.contains(ShipType.BundleList.hang, uv0.GetPlayerShipTmpDataFromID(slot7.tmpID).type) and slot0:SpawnSupportUnit(slot7, slot1)
 	end
 end
 
@@ -1021,7 +1019,7 @@ slot9.SpawnMonster = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot11:SetAI(slot1.pilotAITemplateID or slot7.pilot_ai_template_id)
 	slot0:setShipUnitBound(slot11)
 
-	if table.contains(TeamType.SubShipType, slot7.type) then
+	if table.contains(ShipType.SubShipType, slot7.type) then
 		slot11:InitOxygen()
 		slot0:UpdateHostileSubmarine(true)
 	end
@@ -1158,7 +1156,7 @@ slot9.SpawnNPC = function(slot0, slot1, slot2)
 	slot7:SetAI(slot1.pilotAITemplateID or slot5.pilot_ai_template_id)
 	slot0:setShipUnitBound(slot7)
 
-	if table.contains(TeamType.SubShipType, slot5.type) then
+	if table.contains(ShipType.SubShipType, slot5.type) then
 		slot7:InitOxygen()
 
 		if slot7:GetIFF() ~= uv3.FRIENDLY_CODE then
@@ -1316,6 +1314,17 @@ slot9.SpawnSupportUnit = function(slot0, slot1, slot2)
 
 	slot0:GetFleetByIFF(slot2):AppendSupportUnit(slot3)
 
+	if table.contains(ShipType.BundleList.qian, slot3:GetTemplate().type) then
+		slot3:SetPosition(Clone(uv0.SubSupportUnitPosList[#slot4:GetSupportUnitList()]))
+	else
+		slot3:SetPosition(Clone(uv0.AirSupportUnitPos))
+	end
+
+	slot0:DispatchEvent(uv2.Event.New(uv3.ADD_UNIT, {
+		type = uv1.UnitType.SUPPORT_UNIT,
+		unit = slot3
+	}))
+
 	return slot3
 end
 
@@ -1389,7 +1398,7 @@ slot9.KillUnit = function(slot0, slot1)
 				slot2:GetTeam():RemoveUnit(slot2)
 			end
 
-			if table.contains(TeamType.SubShipType, slot2:GetTemplate().type) then
+			if table.contains(ShipType.SubShipType, slot2:GetTemplate().type) then
 				slot0:UpdateHostileSubmarine(false)
 			end
 
@@ -1420,7 +1429,7 @@ end
 
 slot9.KillSubmarineByIFF = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._unitList) do
-		if slot6:GetIFF() == slot1 and slot6:IsAlive() and table.contains(TeamType.SubShipType, slot6:GetTemplate().type) and not slot6:IsBoss() then
+		if slot6:GetIFF() == slot1 and slot6:IsAlive() and table.contains(ShipType.SubShipType, slot6:GetTemplate().type) and not slot6:IsBoss() then
 			slot6:DeadAction()
 		end
 	end
@@ -1556,8 +1565,6 @@ slot9.generateSupportPlayerUnit = function(slot0, slot1, slot2)
 	slot6:SetShipName(slot1.name)
 
 	slot0._spectreShipList[slot3] = slot6
-
-	slot6:SetPosition(Clone(uv0.AirSupportUnitPos))
 
 	return slot6
 end
@@ -2238,10 +2245,9 @@ slot9.JamManualCast = function(slot0, slot1)
 end
 
 slot9.SubmarineStrike = function(slot0, slot1)
-	slot2 = slot0:GetFleetByIFF(slot1)
-	slot3 = slot2:GetSubAidVO()
+	slot3 = slot0:GetFleetByIFF(slot1):GetSubAidVO()
 
-	if slot2:GetWeaponBlock() or slot3:GetCurrent() < 1 then
+	if slot0._battleInitData.battleType ~= SYSTEM_SCENARIO_SUB_STRIKE and (slot2:GetWeaponBlock() or slot3:GetCurrent() < 1) then
 		return
 	end
 
@@ -2383,7 +2389,7 @@ slot9.ActiveFreezeUnit = function(slot0, slot1)
 end
 
 slot9.GetFleetLegal = function(slot0, slot1, slot2)
-	if slot2 == SYSTEM_DUEL or slot2 == SYSTEM_PERFORM or slot2 == SYSTEM_SUB_ROUTINE or slot2 == SYSTEM_CARDPUZZLE or slot2 == SYSTEM_PROLOGUE or slot2 == SYSTEM_DODGEM or slot2 == SYSTEM_SIMULATION or slot2 == SYSTEM_SUBMARINE_RUN or slot2 == SYSTEM_DEBUG or slot2 == SYSTEM_AIRFIGHT then
+	if slot2 == SYSTEM_DUEL or slot2 == SYSTEM_PERFORM or slot2 == SYSTEM_SUB_ROUTINE or slot2 == SYSTEM_CARDPUZZLE or slot2 == SYSTEM_PROLOGUE or slot2 == SYSTEM_DODGEM or slot2 == SYSTEM_SIMULATION or slot2 == SYSTEM_SUBMARINE_RUN or slot2 == SYSTEM_SCENARIO_SUB_STRIKE or slot2 == SYSTEM_DEBUG or slot2 == SYSTEM_AIRFIGHT then
 		return true
 	elseif #slot0:GetFleetByIFF(slot1):GetScoutList() == 0 or not slot3:GetFlagShip():IsAlive() then
 		return false
@@ -2401,5 +2407,25 @@ slot9.TriggerFinishBattle = function(slot0)
 
 	for slot4, slot5 in pairs(slot0._minionShipList) do
 		slot5:TriggerBuff(uv0.BuffEffectType.ON_FINISH_GAME)
+	end
+end
+
+slot9.ChapterSupportBarrage = function(slot0, slot1, slot2)
+	slot3 = nil
+
+	slot4 = function(...)
+		for slot3, slot4 in ipairs(uv0._battleInitData.SupportUnitList) do
+			if table.contains(ShipType.BundleList.qian, uv1.GetPlayerShipTmpDataFromID(slot4.tmpID).type) then
+				uv3.SetCurrent(uv0:SpawnSupportUnit(slot4, uv2), "loadSpeed", 0)
+			end
+		end
+
+		pg.TimeMgr.GetInstance():RemoveBattleTimer(uv4)
+	end
+
+	if slot2 then
+		slot3 = pg.TimeMgr.GetInstance():AddBattleTimer("supportBarrageTimer", -1, slot2, slot4)
+	else
+		slot4()
 	end
 end

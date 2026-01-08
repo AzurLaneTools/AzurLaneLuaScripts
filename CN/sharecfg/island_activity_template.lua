@@ -1,5 +1,15 @@
 pg = pg or {}
 pg.island_activity_template = {
+	[7110] = {
+		is_show = 1,
+		title_res_tag = "问卷调查",
+		id = 7110,
+		ability_id = 0,
+		page_info = {
+			class_name = "IslandActivitySurveyPage",
+			ui_name = "IslandActivitySurveyPage"
+		}
+	},
 	[990001] = {
 		is_show = 99,
 		title_res_tag = "秋季特产经营",
@@ -32,6 +42,7 @@ pg.island_activity_template = {
 		ability_id = 36001
 	},
 	all = {
+		7110,
 		990001,
 		990002,
 		990003,

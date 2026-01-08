@@ -148,7 +148,7 @@ slot0.getRarity = function(slot0, slot1)
 end
 
 slot0.getTeamType = function(slot0)
-	return TeamType.GetTeamFromShipType(slot0:getShipType())
+	return ShipType.GetTeamFromShipType(slot0:getShipType())
 end
 
 slot0.getPainting = function(slot0, slot1)

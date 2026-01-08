@@ -31844,9 +31844,9 @@ pg.activity_template = {
 					8
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		},
@@ -31916,9 +31916,9 @@ pg.activity_template = {
 					8
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -33454,7 +33454,7 @@ pg.activity_template = {
 		type = 63,
 		login_pop = 0,
 		config_id = 7,
-		is_show = 2,
+		is_show = 3,
 		config_client = "",
 		title_res_tag = "winterwish_20251225",
 		id = 50298,
@@ -34779,12 +34779,55 @@ pg.activity_template = {
 			ui_name = "SurveyPage"
 		}
 	},
+	[7110] = {
+		mark = 20260108,
+		page_info = "",
+		type = 101,
+		login_pop = 0,
+		config_id = 1009,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "survey",
+		id = 7110,
+		page_core = "",
+		config_data = {
+			1,
+			30
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7302] = {
 		mark = 20251211,
 		type = 130,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 4,
+		is_show = 2,
 		title_res_tag = "",
 		id = 7302,
 		page_core = "WinterFestival2025CoreActivityUI",
@@ -44530,7 +44573,8 @@ pg.activity_template = {
 		[101] = {
 			7101,
 			7102,
-			7105
+			7105,
+			7110
 		},
 		[119] = {
 			7104
@@ -45568,6 +45612,7 @@ pg.activity_template = {
 		7102,
 		7104,
 		7105,
+		7110,
 		7302,
 		7501,
 		7502,

@@ -24,7 +24,7 @@ return {
 					"TargetShipType",
 					"TargetCloakState"
 				},
-				ship_type_list = TeamType.MainShipType
+				ship_type_list = ShipType.MainShipType
 			}
 		}
 	}

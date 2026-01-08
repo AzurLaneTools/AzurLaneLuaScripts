@@ -375,6 +375,7 @@ pg.memory_group = setmetatable({
 		615,
 		616,
 		617,
+		618,
 		1000,
 		1001,
 		1002,
@@ -8738,6 +8739,26 @@ pg.base.memory_group = {
 			4865,
 			4866,
 			4867
+		},
+		group_id = {
+			10000
+		}
+	},
+	[618] = {
+		title = "撒丁威光入门指南",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 618,
+		icon = "title_chara_weineituo",
+		memories = {
+			4951,
+			4952,
+			4953,
+			4954,
+			4955,
+			4956,
+			4957
 		},
 		group_id = {
 			10000

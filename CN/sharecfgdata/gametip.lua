@@ -1408,6 +1408,11 @@ _G.pg.base.gametip.battle_result_max_combo = {
 }
 
 
+_G.pg.base.gametip.battle_result_boss_hp_lower = {
+	tip = "BOSS剩余血量小于$1%"
+}
+
+
 _G.pg.base.gametip.battle_levelScene_0Oil = {
 	tip = "石油产量为0"
 }
@@ -3700,6 +3705,11 @@ _G.pg.base.gametip.ship_formationUI_fleetName11 = {
 
 _G.pg.base.gametip.ship_formationUI_fleetName12 = {
 	tip = "潜艇编队二"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName13 = {
+	tip = "支援舰队"
 }
 
 
@@ -8836,7 +8846,7 @@ _G.pg.base.gametip.elite_warp_to_latest_map = {
 
 
 _G.pg.base.gametip.elite_fleet_confirm = {
-	tip = "$1<color=#ff5c5c>不满足</color>出击条件，将无法进入战斗，确认继续出击？"
+	tip = "$1<color=#ff5c5c>不满足</color>出击条件，无法进入战斗"
 }
 
 
@@ -32502,13 +32512,79 @@ _G.pg.base.gametip.help_supportfleet = {
 }
 
 
+_G.pg.base.gametip.help_supportfleet_16 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help_16"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.help_supportfleet_16_submarine = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_submarine_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_submarine_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.word_status_inSupportFleet = {
 	tip = "支援舰队中"
 }
 
 
 _G.pg.base.gametip.ship_formationMediator_request_replace_support = {
-	tip = "您当前选择的舰船已经在<color=#92fc63>支援舰队</color>中, 是否进行切换？"
+	tip = "舰船在支援舰队编成中，是否移出编队？"
 }
 
 
@@ -46040,4 +46116,34 @@ _G.pg.base.gametip.winterwish_20251225_tip1 = {
 
 _G.pg.base.gametip.winterwish_20251225_tip2 = {
 	tip = "收获心愿有效次数"
+}
+
+
+_G.pg.base.gametip.battle_battleMediator_quest_exist_submarine_support = {
+	tip = "现在退出将按照BOSS当前剩余耐久进行战斗结算，您确定要退出吗？"
+}
+
+
+_G.pg.base.gametip.island_survey_ui_1 = {
+	tip = "为了更好地收集指挥官的意见与建议,司令部在此为您准备了一份问卷。"
+}
+
+
+_G.pg.base.gametip.island_survey_ui_2 = {
+	tip = "问卷提交后将无法修改,请指挥官认真填写。"
+}
+
+
+_G.pg.base.gametip.island_survey_ui_award = {
+	tip = "作为感谢，完成问卷后可获得："
+}
+
+
+_G.pg.base.gametip.island_survey_ui_button = {
+	tip = "打开问卷"
+}
+
+
+_G.pg.base.gametip.submarine_support_oil_consume_tip = {
+	tip = "潜艇支援舰队出击消耗$1点石油，是否继续？"
 }

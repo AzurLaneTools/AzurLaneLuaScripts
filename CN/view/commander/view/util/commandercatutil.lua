@@ -32,9 +32,11 @@ slot3 = function(slot0, slot1)
 
 	for slot7, slot8 in pairs(getProxy(ChapterProxy):getChapterById(slot0.chapterId):getEliteFleetCommanders()) do
 		for slot12, slot13 in pairs(slot8) do
-			slot1[slot13].sub = false
-			slot1[slot13].fleetId = slot7
-			slot1[slot13].inFleet = true
+			if slot13 ~= 0 then
+				slot1[slot13].sub = false
+				slot1[slot13].fleetId = slot7
+				slot1[slot13].inFleet = true
+			end
 		end
 	end
 end

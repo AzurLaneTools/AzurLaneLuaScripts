@@ -5374,6 +5374,16 @@ end
 temp()
 
 temp = function()
+	uv0["藤"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["貊"] = {
 		this = {
 			this = true

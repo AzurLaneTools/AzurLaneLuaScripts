@@ -335,12 +335,6 @@ slot0.getDockCallbackFuncs = function(slot0, slot1, slot2, slot3)
 				content = i18n("ship_formationMediator_quest_replace", slot4.defaultName),
 				onYes = slot1
 			})
-		elseif uv3:CheckUnitInSupportFleet(slot3) then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = false,
-				content = i18n("ship_formationMediator_request_replace_support"),
-				onYes = slot1
-			})
 		else
 			slot1()
 
@@ -357,7 +351,7 @@ slot0.getDockCallbackFuncs = function(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		slot2 = function()
+		(function ()
 			slot1 = uv2:getShipPos(uv3)
 
 			if uv0:GetRegularFleetByShip(uv1) == nil then
@@ -440,16 +434,7 @@ slot0.getDockCallbackFuncs = function(slot0, slot1, slot2, slot3)
 					})
 				end
 			end
-		end
-
-		if uv7:CheckUnitInSupportFleet(slot1) then
-			uv6:sendNotification(GAME.REMOVE_ELITE_TARGET_SHIP, {
-				shipId = slot1.id,
-				callback = slot2
-			})
-		else
-			slot2()
-		end
+		end)()
 	end
 end
 

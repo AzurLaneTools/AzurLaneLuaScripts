@@ -1,6 +1,127 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
+	[302270] = {
+		name = "{namecode:306}",
+		change_skin = "",
+		desc = "{namecode:38}级轻巡洋舰——{namecode:306}",
+		illustrator2 = -1,
+		ship_group = 30227,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "shuiwulai",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 302270,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "shuiwulai",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 475,
+		skeleton_default_skin = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.167,
+					0.874,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.911,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.105,
+					0.018,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.898,
+					2.346,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.748,
+							2.431,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[302271] = {
 		name = "巫女的冥想修行",
 		change_skin = "",
@@ -16657,127 +16778,6 @@ pg.base.ship_skin_template_9 = {
 						{
 							-0.713,
 							0.514,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[306051] = {
-		name = "夜巡的魔女",
-		change_skin = "",
-		desc = "哇啊啊啊！糖、糖果洒出来了——！！为、为什么都在追吾啊！指挥官，帮吾拦下南瓜啊啊啊——",
-		illustrator2 = -1,
-		ship_group = 30605,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "xiangfeng_2",
-		bg_sp = "",
-		skin_type = 4,
-		shop_type_id = 8,
-		l2d_ignore_drag = 0,
-		hand_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 306051,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "xiangfeng_2",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 70017,
-		voice_actor = 2,
-		skeleton_default_skin = "",
-		spine_offset = "",
-		illustrator = 24,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.21,
-							2.7,
 							0
 						}
 					}

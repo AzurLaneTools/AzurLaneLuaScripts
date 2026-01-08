@@ -6,6 +6,7 @@ slot1.__name = "BattleJoyStickAutoBot"
 slot1.COUNTER_MAIN = "CounterMainRandomStrategy"
 slot1.RANDOM = "RandomStrategy"
 slot1.AUTO_PILOT = "AutoPilotStrategy"
+slot1.IDLE = "IdleStrategy"
 
 slot1.Ctor = function(slot0, slot1, slot2)
 	slot0._dataProxy = slot1
@@ -43,7 +44,7 @@ slot1.SwitchStrategy = function(slot0, slot1)
 		slot0._strategy:Dispose()
 	end
 
-	slot0._strategy = uv1.Battle[slot1 or uv0.RANDOM].New(slot0._fleetVO)
+	slot0._strategy = uv0.Battle[slot1].New(slot0._fleetVO)
 
 	slot0:UpdateFleetArea()
 	slot0._strategy:Input(slot0._dataProxy:GetFoeShipList(), slot0._dataProxy:GetFoeAircraftList())
@@ -52,8 +53,6 @@ end
 slot1.init = function(slot0)
 	slot0._active = false
 	slot0._uiMgr = pg.UIMgr.GetInstance()
-
-	slot0:SwitchStrategy()
 end
 
 slot1.Dispose = function(slot0)

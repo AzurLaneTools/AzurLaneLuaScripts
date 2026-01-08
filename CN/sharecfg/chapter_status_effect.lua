@@ -40,47 +40,62 @@ pg.chapter_status_effect = {
 		id = 8,
 		camera_focus = ""
 	},
-	[12] = {
+	{
+		strategy = 0,
+		id = 9,
+		camera_focus = ""
+	},
+	{
+		strategy = 0,
+		id = 10,
+		camera_focus = ""
+	},
+	{
+		strategy = 0,
+		id = 11,
+		camera_focus = ""
+	},
+	{
 		strategy = 9211,
 		id = 12,
 		camera_focus = ""
 	},
-	[13] = {
+	{
 		strategy = 9212,
 		id = 13,
 		camera_focus = ""
 	},
-	[14] = {
+	{
 		strategy = 9231,
 		id = 14,
 		camera_focus = ""
 	},
-	[15] = {
+	{
 		strategy = 9232,
 		id = 15,
 		camera_focus = ""
 	},
-	[16] = {
+	{
 		strategy = 9251,
 		id = 16,
 		camera_focus = ""
 	},
-	[17] = {
+	{
 		strategy = 9252,
 		id = 17,
 		camera_focus = ""
 	},
-	[18] = {
+	{
 		strategy = 9271,
 		id = 18,
 		camera_focus = ""
 	},
-	[19] = {
+	{
 		strategy = 9272,
 		id = 19,
 		camera_focus = ""
 	},
-	[20] = {
+	{
 		strategy = 14,
 		id = 20,
 		camera_focus = ""
@@ -372,6 +387,46 @@ pg.chapter_status_effect = {
 		id = 103,
 		camera_focus = ""
 	},
+	[104] = {
+		strategy = 0,
+		id = 104,
+		camera_focus = ""
+	},
+	[121] = {
+		strategy = 1009,
+		id = 121,
+		camera_focus = ""
+	},
+	[122] = {
+		strategy = 1010,
+		id = 122,
+		camera_focus = ""
+	},
+	[123] = {
+		strategy = 1011,
+		id = 123,
+		camera_focus = ""
+	},
+	[124] = {
+		strategy = 1012,
+		id = 124,
+		camera_focus = ""
+	},
+	[125] = {
+		strategy = 1013,
+		id = 125,
+		camera_focus = ""
+	},
+	[126] = {
+		strategy = 1014,
+		id = 126,
+		camera_focus = ""
+	},
+	[127] = {
+		strategy = 1015,
+		id = 127,
+		camera_focus = ""
+	},
 	all = {
 		1,
 		2,
@@ -381,6 +436,9 @@ pg.chapter_status_effect = {
 		6,
 		7,
 		8,
+		9,
+		10,
+		11,
 		12,
 		13,
 		14,
@@ -444,6 +502,14 @@ pg.chapter_status_effect = {
 		75,
 		101,
 		102,
-		103
+		103,
+		104,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127
 	}
 }

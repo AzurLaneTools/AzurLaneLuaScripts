@@ -46,8 +46,8 @@ slot0.update = function(slot0, slot1)
 	end
 
 	slot0.theme = ChapterTheme.New(slot0:getConfig("theme"))
+	slot5 = slot1.cell_flag_list
 	slot6 = slot0:getConfig("float_items")
-	slot7 = slot0:getConfig("grids")
 	slot0.cells = {}
 	slot0.cellAttachments = {}
 
@@ -93,7 +93,7 @@ slot0.update = function(slot0, slot1)
 	_.each(slot1.cell_list, function (slot0)
 		uv0(slot0)
 	end)
-	_.each(slot7, function (slot0)
+	_.each(slot0:getConfig("grids"), function (slot0)
 		(uv0.cells[ChapterCell.Line2Name(slot0[1], slot0[2])] or uv1({
 			pos = {
 				row = slot0[1],
@@ -102,6 +102,17 @@ slot0.update = function(slot0, slot1)
 			item_type = ChapterConst.AttachNone
 		})):SetWalkable(slot0[3])
 	end)
+
+	slot0.cellsCount = #underscore.values(slot0.cells)
+
+	if slot0:IsFogStage() then
+		slot0.fleetVisibleStore = {}
+		slot0.cellsVisibleCount = 0
+
+		for slot12, slot13 in pairs(slot0.cells) do
+			slot13:InitVisible()
+		end
+	end
 
 	slot0.indexMax = Vector2(-ChapterConst.MaxRow, -ChapterConst.MaxColumn)
 	slot0.indexMin = Vector2(ChapterConst.MaxRow, ChapterConst.MaxColumn)
@@ -112,7 +123,7 @@ slot0.update = function(slot0, slot1)
 		uv0.indexMax.x = math.max(uv0.indexMax.x, slot0[1])
 		uv0.indexMax.y = math.max(uv0.indexMax.y, slot0[2])
 	end)
-	_.each(slot1.cell_flag_list or {}, function (slot0)
+	_.each(slot5 or {}, function (slot0)
 		slot1 = ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)
 		slot2 = uv0.cells[slot1]
 
@@ -139,18 +150,30 @@ slot0.update = function(slot0, slot1)
 
 	slot9 = slot0:getNpcShipByType()
 	slot0.fleets = {}
+	slot13 = slot1.support_group_list
 
-	for slot13, slot14 in ipairs(slot1.group_list) do
-		slot15 = ChapterFleet.New(slot14, slot9)
+	for slot13, slot14 in pairs({
+		[FleetType.Normal] = slot1.main_group_list,
+		[FleetType.Submarine] = slot1.submarine_group_list,
+		[FleetType.Support] = slot13
+	}) do
+		for slot18, slot19 in ipairs(slot14) do
+			slot20 = ChapterFleet.New(setmetatable({
+				fleetType = slot13
+			}, {
+				__index = slot19
+			}), slot9)
 
-		slot15:setup(slot0)
-
-		slot0.fleets[slot13] = slot15
+			slot20:setup(slot0)
+			table.insert(slot0.fleets, slot20)
+		end
 	end
 
-	slot0.fleets = _.sort(slot0.fleets, function (slot0, slot1)
-		return slot0.id < slot1.id
-	end)
+	table.sort(slot0.fleets, CompareFuncs({
+		function (slot0)
+			return slot0.id
+		end
+	}))
 
 	if slot1.escort_list then
 		for slot13, slot14 in ipairs(slot1.escort_list) do
@@ -719,6 +742,10 @@ slot0.getFleetStates = function(slot0, slot1)
 		table.insert(slot2, slot11)
 	end
 
+	if slot0:IsFogStage() then
+		table.insert(slot2, slot0:GetFogStageStrategy())
+	end
+
 	if OPEN_AIR_DOMINANCE and slot0:getConfig("air_dominance") > 0 then
 		table.insert(slot2, slot0:getAirDominanceStg())
 	end
@@ -821,11 +848,7 @@ slot0.updateExtraFlags = function(slot0, slot1, slot2)
 end
 
 slot0.getExtraFlags = function(slot0)
-	if #slot0.extraFlagList == 0 then
-		slot1 = ChapterConst.StatusDefaultList
-	end
-
-	return slot1
+	return slot0.extraFlagList
 end
 
 slot0.UpdateBuffList = function(slot0, slot1)
@@ -1753,8 +1776,17 @@ slot0.writeBack = function(slot0, slot1, slot2)
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_KILL_BOSS)
 		end
 
-		if slot8 and slot8.flag == ChapterConst.CellFlagDisabled or not slot8 and slot6 ~= ChapterConst.AttachBox then
+		slot9 = false
+
+		if slot8 and slot8.flag == ChapterConst.CellFlagDisabled or (slot2.system ~= SYSTEM_SCENARIO_SUB_STRIKE or false) and slot6 ~= ChapterConst.AttachBox then
 			slot3.defeatEnemies = slot3.defeatEnemies + 1
+
+			if slot6 ~= ChapterConst.AttachAmbush and slot0:IsFogStage() then
+				slot3.visibleLevel = slot3.visibleLevel + 1
+
+				slot3:UpdateVisible()
+			end
+
 			slot0.defeatEnemies = slot0.defeatEnemies + 1
 			slot10 = pg.expedition_data_template[slot7]
 
@@ -2497,6 +2529,94 @@ slot0.GetRegularFleetIds = function(slot0)
 	end), function (slot0)
 		return slot0.fleetId
 	end)
+end
+
+slot0.NeedSupportSubmarineStage = function(slot0)
+	return slot0:IsSupportSubmarineStage() and not table.contains(slot0:getExtraFlags(), ChapterConst.StatusSupportSubmarineFinish)
+end
+
+slot0.UpdateCellsVisible = function(slot0, slot1, slot2)
+	if not slot0:IsFogStage() then
+		return
+	end
+
+	slot3 = {}
+
+	if slot0.fleetVisibleStore[slot1.id] then
+		for slot7, slot8 in ipairs(slot0.fleetVisibleStore[slot1.id]) do
+			slot3[slot8] = defaultValue(slot3[slot8], 0) - 1
+		end
+	end
+
+	if slot1.isRetreat then
+		slot0.fleetVisibleStore[slot1.id] = {}
+	else
+		slot0.fleetVisibleStore[slot1.id] = underscore(slot1:GetVisibleRange(slot2)):chain():map(function (slot0)
+			return ChapterCell.Line2Name(slot0.row, slot0.column)
+		end):filter(function (slot0)
+			return tobool(uv0.cells[slot0])
+		end):value()
+	end
+
+	for slot7, slot8 in ipairs(slot0.fleetVisibleStore[slot1.id]) do
+		slot3[slot8] = defaultValue(slot3[slot8], 0) + 1
+	end
+
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot3) do
+		slot10 = slot0.cells[slot8]:IsVisible()
+
+		if slot9 < 0 then
+			slot0.cells[slot8]:UpdateVisible(slot1.id, false)
+		elseif slot9 > 0 then
+			slot0.cells[slot8]:UpdateVisible(slot1.id, true)
+		end
+
+		if slot10 ~= slot0.cells[slot8]:IsVisible() then
+			slot0.cellsVisibleCount = slot0.cellsVisibleCount + (slot10 and -1 or 1)
+
+			table.insert(slot4, slot8)
+		end
+	end
+
+	return slot4
+end
+
+slot0.GetFogStageStrategy = function(slot0)
+	slot1 = slot0.cellsVisibleCount * 100 / slot0.cellsCount
+	slot2 = nil
+	slot6 = "fog_visible_buff"
+
+	for slot6, slot7 in ipairs(slot0:getConfigMiscArg(slot6)) do
+		slot8, slot2 = unpack(slot7)
+
+		if slot1 <= slot8 then
+			break
+		end
+	end
+
+	return slot2
+end
+
+slot0.retreatFleet = function(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in ipairs(slot0.fleets) do
+		if slot7.id == slot1 then
+			slot2 = table.remove(slot0.fleets, slot6)
+
+			break
+		end
+	end
+
+	if slot2 and slot2:getFleetType() == FleetType.Normal then
+		slot0.findex = 1
+	end
+
+	slot2.isRetreat = true
+
+	slot2:UpdateVisible()
 end
 
 return slot0

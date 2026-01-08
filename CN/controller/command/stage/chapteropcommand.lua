@@ -138,6 +138,8 @@ slot0.execute = function(slot0, slot1)
 					elseif uv1.type == ChapterConst.OpSubTeleport then
 						uv0:doTeleportSub()
 						uv0:doTeleportByPortal()
+					elseif uv1.type == ChapterConst.OPSubStrike then
+						existCall(uv1.callback)
 					end
 				end
 

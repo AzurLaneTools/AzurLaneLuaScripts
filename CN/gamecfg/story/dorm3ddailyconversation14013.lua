@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "“下午六点，与{dorm3d}沿海岸线同行，若气氛合适，尝试进行浪漫的……”",
+			say = "“下午六点，与指挥官沿海岸线同行，若气氛合适，尝试进行浪漫的……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
