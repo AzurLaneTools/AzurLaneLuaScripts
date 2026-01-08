@@ -1473,6 +1473,12 @@ slot0.initAddButton = function(slot0, slot1, slot2, slot3, slot4)
 				uv6.enabled = true
 				uv1.dragIndex = nil
 
+				uv1.chapter:setEliteFleetByIndex(uv7, {
+					{
+						TeamType.FormShips,
+						underscore.to_array(uv4)
+					}
+				})
 				uv1:emit(LevelMediator2.ON_ELITE_ADJUSTMENT, uv1.chapter)
 			end)
 		end
