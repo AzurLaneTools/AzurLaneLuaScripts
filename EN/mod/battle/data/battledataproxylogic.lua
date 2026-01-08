@@ -257,7 +257,7 @@ slot0.HandleShipMissDamage = function(slot0, slot1, slot2)
 	if slot2:RandomMainVictim({
 		"immuneDirectHit"
 	}) then
-		if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
+		if table.contains(ShipType.SubShipType, slot1:GetTemplate().type) then
 			slot6:TriggerBuff(uv1.BuffEffectType.ON_BE_HIT, {})
 			slot0:HandleDirectDamage(slot6, uv0.CalculateDamageFromSubmarinToMainShip(slot1, slot6), slot1)
 

@@ -133,7 +133,7 @@ end
 
 slot0.CalcBattleScoreWhenDead = function(slot0, slot1)
 	if slot1:GetIFF() == uv0.FRIENDLY_CODE then
-		if not table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
+		if not table.contains(ShipType.SubShipType, slot1:GetTemplate().type) then
 			slot0:DelScoreWhenPlayerDead(slot1)
 		end
 	elseif slot2 == uv0.FOE_CODE then
@@ -536,6 +536,41 @@ end
 
 slot0.CalcAirFightScore = function(slot0)
 	slot0._statistics._battleScore = uv0.BattleScore.S
+end
+
+slot0.AddScenarioSubStrikeBoss = function(slot0, slot1)
+	slot0._statistics._scenarioSubStrikebossUnit = slot1
+end
+
+slot0.CalcScenarioSubStrikeScoreAtEnd = function(slot0)
+	if not slot0._statistics._scenarioSubStrikebossUnit then
+		slot0._statistics._bossHP = 1
+		slot0._statistics._battleScore = uv0.BattleScore.C
+	elseif not slot1:IsAlive() then
+		slot0._statistics._battleScore = uv0.BattleScore.S
+		slot0._statistics._bossHP = 0
+	else
+		slot4 = slot0._expeditionTmp.objective_3[2] * 0.01
+
+		if slot1:GetHPRate() < slot0._expeditionTmp.objective_2[2] * 0.01 then
+			slot0._statistics._battleScore = uv0.BattleScore.A
+		elseif slot3 <= slot2 and slot2 < slot4 then
+			slot0._statistics._battleScore = uv0.BattleScore.B
+		elseif slot4 <= slot2 then
+			slot0._statistics._battleScore = uv0.BattleScore.C
+		end
+
+		slot0._statistics._bossHP = slot2
+	end
+
+	slot2 = 0
+
+	for slot6, slot7 in pairs(slot0._statistics) do
+		if type(slot7) == "table" and slot7.id and slot7.damage and slot2 < slot7.damage then
+			slot2 = slot7.damage
+			slot0._statistics.mvpShipID = slot7.id
+		end
+	end
 end
 
 slot0.AutoStatistics = function(slot0, slot1)

@@ -76,6 +76,27 @@ pg.land_based_template = {
 		id = 13,
 		function_args = ""
 	},
+	[101] = {
+		name = "路基机场",
+		prefab = "16zhangjichang1",
+		type = 5,
+		id = 101,
+		function_args = {}
+	},
+	[102] = {
+		name = "路基机场",
+		prefab = "16zhangjichang2",
+		type = 5,
+		id = 102,
+		function_args = {}
+	},
+	[103] = {
+		name = "路基机场",
+		prefab = "16zhangjichang3",
+		type = 5,
+		id = 103,
+		function_args = {}
+	},
 	all = {
 		1,
 		2,
@@ -84,6 +105,9 @@ pg.land_based_template = {
 		10,
 		11,
 		12,
-		13
+		13,
+		101,
+		102,
+		103
 	}
 }

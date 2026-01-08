@@ -401,15 +401,6 @@ slot9 = function(slot0, slot1)
 	UpdateOwnDisplay(slot0._sigleItemPanel:Find("left/own"), slot2)
 	RegisterDetailButton(slot0, slot0._sigleItemPanel:Find("left/detail"), slot2)
 
-	if slot1.iconPreservedAspect then
-		slot11 = slot3:Find("icon_bg/icon")
-		slot12 = slot11:GetComponent(typeof(Image))
-		slot11.pivot = Vector2(0.5, 1)
-		slot13 = slot11.rect.width
-		slot11.sizeDelta = Vector2(-4, slot12.preferredHeight / slot12.preferredWidth * slot13 - slot13 - 4)
-		slot11.anchoredPosition = Vector2(0, -2)
-	end
-
 	if slot1.content and slot1.content ~= "" then
 		setText(slot7, slot1.content)
 	elseif slot2.type == DROP_TYPE_WORLD_COLLECTION then
@@ -1157,30 +1148,27 @@ slot1.Clear = function(slot0)
 
 	SetCompomentEnabled(slot1:Find("icon_bg"), typeof(Image), true)
 	SetCompomentEnabled(slot1:Find("icon_bg/frame"), typeof(Image), true)
-	setActive(slot1:Find("icon_bg/slv"), false)
 
-	slot2 = findTF(slot1, "icon_bg/icon")
-	slot2.pivot = Vector2(0.5, 0.5)
-	slot2.sizeDelta = Vector2(-4, -4)
-	slot2.anchoredPosition = Vector2(0, 0)
+	slot5 = "icon_bg/slv"
 
+	setActive(slot1:Find(slot5), false)
 	setActive(slot0.singleItemIntro, false)
 	setText(slot0._singleItemSubIntroTF, "")
 
-	for slot6 = 0, slot0._helpList.childCount - 1 do
-		slot0._helpList:GetChild(slot6):Find("icon"):GetComponent(typeof(Image)).sprite = nil
+	for slot5 = 0, slot0._helpList.childCount - 1 do
+		slot0._helpList:GetChild(slot5):Find("icon"):GetComponent(typeof(Image)).sprite = nil
 	end
 
-	for slot6, slot7 in pairs(slot0.pools) do
-		if slot7 then
-			PoolMgr.GetInstance():ReturnUI(slot7.name, slot7)
+	for slot5, slot6 in pairs(slot0.pools) do
+		if slot6 then
+			PoolMgr.GetInstance():ReturnUI(slot6.name, slot6)
 		end
 	end
 
 	slot0.pools = {}
 
-	for slot6, slot7 in pairs(slot0.timers) do
-		slot7:Stop()
+	for slot5, slot6 in pairs(slot0.timers) do
+		slot6:Stop()
 	end
 
 	slot0.timers = {}

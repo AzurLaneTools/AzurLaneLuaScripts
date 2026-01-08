@@ -1363,6 +1363,8 @@ pg.skill_data_template = setmetatable({
 		151790,
 		151800,
 		151810,
+		151960,
+		151970,
 		151820,
 		151830,
 		151840,
@@ -2083,6 +2085,8 @@ pg.skill_data_template = setmetatable({
 		30552,
 		30561,
 		30562,
+		30571,
+		30572,
 		101010,
 		101020,
 		101030,
@@ -2766,7 +2770,9 @@ pg.skill_data_template = setmetatable({
 		902340,
 		902350,
 		902360,
+		902370,
 		1010140,
+		1010270,
 		1010390,
 		1010410,
 		1010510,
@@ -2870,6 +2876,7 @@ pg.skill_data_template = setmetatable({
 		1011470,
 		1013910,
 		1012570,
+		1014990,
 		1090010,
 		1090020,
 		1090030,
@@ -114628,6 +114635,299 @@ Increases this ship's EVA by $1 and SPD by $2. Every 15s after the battle starts
 			}
 		}
 	},
+	[151960] = {
+		desc_get = "",
+		name = "Trend Setter",
+		type = 2,
+		max_level = 10,
+		desc = "When the battle starts: deploys a barrier (lasting 20s) around all your Sakura Empire DDs that can negate DMG equal to $2 of their max HP; while this barrier exists, the recipients' TRP increases by $1; when this barrier expires, or if it is destroyed due to DMG during its active duration, the recipient recovers 4.0% of her max HP.\nOnce per battle, when this ship takes DMG that would sink her, this ship evades that DMG and the following effect applies: this ship has a 73.0% chance to evade all DMG for 5s; if this effect does not activate, this ship recovers 8.0% of her max HP.",
+		id = 151960,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[151970] = {
+		desc_get = "",
+		name = "Attention Getter",
+		type = 1,
+		max_level = 10,
+		desc = "When the battle starts, for every Sakura Empire ship in your fleet: increases this ship's DMG dealt by $1 and RLD and TRP by $2 (can be stacked up to 3 times). Every 15s: fires a $3 special barrage (DMG is based on the skill's level). When this ship fires her torpedoes: $4 chance to fire another wave of torpedoes; if this effect does not activate, then the next time the special barrage listed in this skill activates, that barrage will be improved (each barrage can be improved up to 3 times).",
+		id = 151970,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.2%",
+				"3.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.2%"
+				},
+				{
+					"2.6%",
+					"+0.2%"
+				},
+				{
+					"2.8%",
+					"+0.2%"
+				},
+				{
+					"3.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%",
+					"+1.6%"
+				},
+				{
+					"21.6%",
+					"+1.6%"
+				},
+				{
+					"23.2%",
+					"+1.8%"
+				},
+				{
+					"25.0%",
+					"+1.6%"
+				},
+				{
+					"26.6%",
+					"+1.6%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	},
 	[151820] = {
 		desc_get = "",
 		name = "Fiesta del mar y cielo",
@@ -138868,6 +139168,34 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		max_level = 1,
 		desc = "Activates All Out Assault II: William D. Porter once every 10 times the Main Guns are fired.",
 		id = 30562,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30571] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Fujinami once every 15 times the Main Guns are fired.",
+		id = 30571,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30572] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Fujinami once every 10 times the Main Guns are fired.",
+		id = 30572,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -182498,6 +182826,20 @@ Additionally, once per battle each, the following effects activate based on the 
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902370] = {
+		desc_get = "",
+		name = "Slashing Rampage",
+		type = 2,
+		max_level = 1,
+		desc = "During battle, every time this ship sinks an enemy: decreases the reload time of this ship's currently reloading torpedoes by 2s.",
+		id = 902370,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -182602,6 +182944,193 @@ Additionally, once per battle each, the following effects activate based on the 
 				},
 				{
 					"10.0%"
+				}
+			}
+		}
+	},
+	[1010270] = {
+		desc_get = "",
+		name = "Final Glory+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's RLD by $1. After this ship fires her Main Guns: increases the DMG of this ship's next Main Gun volley by $2 and, with a $3 chance, fires a $4 frontal barrage (DMG is based on the skill's level). If there is another Royal Navy ship in your fleet, the barrage's activation chance increases by 30.0%.",
+		id = 1010270,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}
@@ -196497,6 +197026,148 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 				},
 				{
 					"Lv.10"
+				}
+			}
+		}
+	},
+	[1014990] = {
+		desc_get = "",
+		name = "Scorching Combo+",
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's AA by $1.\n3s after the battle starts, and with a 70.0% chance every 20s: fires a $2 special barrage (DMG is based on the skill's level) and gives this ship 1 stack of Combo Fire; if this barrage does not activate, this ship gains 2 stacks of Combo Fire; when the fleet this ship is in fights its 2nd and 4th battles in a sortie, this barrage is improved 1 time each.\nCombo Fire has a max stack of 3, and for each stack this ship has of it, her FP and TRP increases by $3. When this ship's Combo Fire stack reaches its maximum, the activation chance for this skill's barrage becomes 100.0%.",
+		id = 1014990,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"LV1",
+				"LV10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
 				}
 			}
 		}

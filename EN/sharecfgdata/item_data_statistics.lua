@@ -10042,6 +10042,37 @@ _G.pg.base.item_data_statistics[13054] = {
 }
 
 
+_G.pg.base.item_data_statistics[13055] = {
+	open_directly = 0,
+	name = "Triple 25mm Type 96 AT/AA Gun Mount T0 Design",
+	type = 9,
+	display = "Triple 25mm Type 96 AT/AA Gun Mount T0 Design",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/36360",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13055,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[14001] = {
 	open_directly = 0,
 	name = "Prototype Weapon Blueprint - Series 1",

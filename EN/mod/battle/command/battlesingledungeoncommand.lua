@@ -42,6 +42,7 @@ slot3.DoPrologue = function(slot0)
 		uv0._dataProxy:GetFleetByIFF(uv1.Battle.BattleConfig.FRIENDLY_CODE):FleetWarcry()
 		uv0._dataProxy:InitAllFleetUnitsWeaponCD()
 		uv0._dataProxy:TirggerBattleStartBuffs()
+		uv0._dataProxy:ChapterSupportBarrage(uv1.Battle.BattleConfig.FRIENDLY_CODE, uv1.Battle.BattleConfig.SubSupportDelay)
 	end)
 end
 

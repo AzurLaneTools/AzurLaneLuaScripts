@@ -380,7 +380,8 @@ pg.ship_skin_words_extra = setmetatable({
 		101100,
 		101550,
 		102350,
-		107250
+		107250,
+		301940
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -26834,6 +26835,69 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Commander, I've realized... that I want to nourish your heart just as much as I want to support your health. I want to warm you up with my hugs, milk, and love... That alone would make me feel so happy and fulfilled."
+			}
+		}
+	},
+	[301940] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 301940,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Heheh, so you came to work wearing my hand-picked outfit... Then, you've earned yourself a most generous reward... Mmwah~♪"
+			}
+		},
+		home = {
+			{
+				1100,
+				"...Hmm, what outfit should I wear to welcome the Commander back? ...Huh?! Y-you're back already?! D-d-don't peek! At least not until I'm done changing!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Are you, like, trying to share your good luck with me? Then, I'd be glad to take it~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, check out this fashion magazine! The colors that are gonna be trendy around the port tomorrow are... Wait, TOMORROW? Does that mean someone's already ahead of me?|Are you heading out later? I got you an umbrella. It's the same color as mine~♪|It feels like my bad luck's been melting away ever since I started being with you... B-but, Commander! To make sure nothing goes wrong for our date, I need to double– no, triple-check everything!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You like the coordination of my outfit, huh? Weeelll, I wouldn't mind taking it off to show you the details~♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"No, no! You have to undo the ribbon first, and then you can remove the lace~ ...Ngh! C'mon, you've got to follow the steps!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, I just realized something. No matter what I wear, you're always full of compliments... Does this mean you've completely fallen for me, from head to toe?"
 			}
 		}
 	}

@@ -2279,10 +2279,10 @@ pg.activity_ins_ship_group_template = {
 	},
 	[60501] = {
 		ship_group = 60501,
-		name = "VV_Veneto",
+		name = "Vittorio Veneto ",
 		background = "",
 		sculpture = "weineituo",
-		nationality = 0,
+		nationality = 6,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -5382,12 +5382,12 @@ pg.activity_ins_ship_group_template = {
 		type = 1,
 		sculpture_ii = ""
 	},
-	[19906] = {
-		ship_group = 19906,
+	[900939] = {
+		ship_group = 900939,
 		name = "Kansas",
 		background = "",
 		sculpture = "kansasi",
-		nationality = 1,
+		nationality = 0,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -5676,6 +5676,15 @@ pg.activity_ins_ship_group_template = {
 		background = "",
 		sculpture = "bangfeng",
 		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[19906] = {
+		ship_group = 19906,
+		name = "Kansas",
+		background = "",
+		sculpture = "kansasi",
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -6278,7 +6287,7 @@ pg.activity_ins_ship_group_template = {
 		80105,
 		80303,
 		80204,
-		19906,
+		900939,
 		30716,
 		31702,
 		30516,
@@ -6310,6 +6319,7 @@ pg.activity_ins_ship_group_template = {
 		10140,
 		49910,
 		79903,
-		30161
+		30161,
+		19906
 	}
 }

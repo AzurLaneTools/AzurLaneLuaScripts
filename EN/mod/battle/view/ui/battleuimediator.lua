@@ -796,7 +796,7 @@ end
 slot7.registerNPCUnitEvent = function(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv0.UPDATE_HP, slot0.onEnemyHpUpdate)
 
-	if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
+	if table.contains(ShipType.SubShipType, slot1:GetTemplate().type) then
 		slot1:RegisterEventListener(slot0, uv0.SUBMARINE_DETECTED, slot0.onSubmarineDetected)
 	end
 end
@@ -815,7 +815,7 @@ slot7.unregisterNPCUnitEvent = function(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, uv0.CUT_INT)
 	slot1:UnregisterEventListener(slot0, uv0.UPDATE_HP)
 
-	if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
+	if table.contains(ShipType.SubShipType, slot1:GetTemplate().type) then
 		slot1:UnregisterEventListener(slot0, uv0.SUBMARINE_DETECTED)
 	end
 end

@@ -173,8 +173,9 @@ slot0.initAll = function(slot0, slot1)
 				0,
 				0
 			}, uv0.material_Add)
-			uv0:UpdateFloor()
 			uv0:updateAttachments()
+			uv0:UpdateFloor()
+			uv0:UpdateWeatherCells()
 			uv0:InitWalls()
 			uv0:InitIdolsAnim()
 			onNextTick(slot0)
@@ -1233,9 +1234,9 @@ slot0.UpdateFloor = function(slot0)
 		slot0:hideQuadMark(ChapterConst.MarkNightMare)
 		slot0:hideQuadMark(ChapterConst.MarkHideNight)
 
-		if slot1:getExtraFlags()[1] == ChapterConst.StatusDay then
+		if table.contains(slot1:getExtraFlags(), ChapterConst.StatusDay) then
 			slot0:showQuadMark(slot3[ChapterConst.FlagNightmare], ChapterConst.MarkHideNight, "cell_hidden_nightmare", Vector2(110, 110), nil, true)
-		elseif slot4 == ChapterConst.StatusNight then
+		elseif table.contains(slot4, ChapterConst.StatusNight) then
 			slot0:showQuadMark(slot3[ChapterConst.FlagNightmare], ChapterConst.MarkNightMare, "cell_nightmare", Vector2(110, 110), nil, true)
 		end
 	end
@@ -1289,8 +1290,6 @@ slot0.UpdateFloor = function(slot0)
 	if slot3[ChapterConst.FlagMissleAiming] and next(slot3[ChapterConst.FlagMissleAiming]) then
 		slot0:ShowMissileAimingMarks(slot3[ChapterConst.FlagMissleAiming])
 	end
-
-	slot0:UpdateWeatherCells()
 
 	slot6 = slot1.fleet
 
@@ -1413,6 +1412,8 @@ slot0.updateAttachment = function(slot0, slot1, slot2)
 			slot9.info = slot4
 			slot9.chapter = slot3
 			slot9.grid = slot0
+		elseif slot10.type == ChapterConst.LBFogLightBase then
+			slot8 = AttachmentLBFogLightBase
 		elseif slot10.type == ChapterConst.LBIdle and slot4.attachmentId == ChapterConst.LBIDAirport then
 			slot8 = AttachmentLBAirport
 			slot9.extraFlagList = slot3:getExtraFlags()
@@ -1544,37 +1545,51 @@ slot0.InitWallDirection = function(slot0, slot1, slot2)
 	slot10.BanCount = slot10.BanCount + (slot8 and 2 or 1)
 end
 
-slot0.UpdateWeatherCells = function(slot0)
-	for slot5, slot6 in pairs(slot0.contextData.chapterVO.cells) do
-		slot7 = nil
+slot0.UpdateWeatherCells = function(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
+	slot1 = slot1 or underscore.keys(slot2.cells)
+	slot3 = slot2:IsFogStage()
 
-		if #slot6:GetWeatherFlagList() > 0 then
-			slot7 = MapWeatherCellView
+	for slot7, slot8 in ipairs(slot1) do
+		slot10 = nil
+
+		if #slot2.cells[slot8]:GetWeatherFlagList() > 0 then
+			slot10 = MapWeatherCellView
 		end
 
-		if slot0.weatherCells[slot5] and slot9.class ~= slot7 then
-			slot9:Clear()
+		if slot0.weatherCells[slot8] and slot12.class ~= slot10 then
+			slot12:Clear()
 
-			slot9 = nil
-			slot0.weatherCells[slot5] = nil
+			slot12 = nil
+			slot0.weatherCells[slot8] = nil
 		end
 
-		if slot7 then
-			if not slot9 then
-				slot9 = slot7.New(slot0.cellRoot:Find(slot5):Find(ChapterConst.ChildAttachment))
+		if slot10 then
+			if not slot12 then
+				slot12 = slot10.New(slot0.cellRoot:Find(slot8):Find(ChapterConst.ChildAttachment))
 
-				slot9:SetLine({
-					row = slot6.row,
-					column = slot6.column
+				slot12:SetLine({
+					row = slot9.row,
+					column = slot9.column
 				})
 
-				slot0.weatherCells[slot5] = slot9
+				slot0.weatherCells[slot8] = slot12
 			end
 
-			slot9.info = slot6
+			slot12.info = slot9
 
-			slot9:Update(slot8)
+			slot12:Update(slot11)
 		end
+
+		if slot3 and tobool(slot2:GetEnemy(slot9.row, slot9.column)) then
+			slot0:updateAttachment(slot9.row, slot9.column)
+		end
+	end
+end
+
+slot0.updateFogCells = function(slot0)
+	for slot5, slot6 in pairs(slot0.contextData.chapterVO.cells) do
+		setImageAlpha(slot0.cellRoot:Find(ChapterCell.Line2Name(slot6.row, slot6.column)):Find(ChapterConst.ChildVisible .. "/mask"), slot6:IsVisible() and 0 or 0.4)
 	end
 end
 
@@ -2208,10 +2223,12 @@ slot0.cancelMarkTween = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.moveFleet = function(slot0, slot1, slot2, slot3, slot4)
-	slot8 = slot0.cellFleets[slot0.contextData.chapterVO.fleet.id]
+	slot5 = slot0.contextData.chapterVO
+	slot6 = slot5:IsFogStage()
+	slot9 = slot0.cellFleets[slot5.fleet.id]
 
-	slot8:SetSpineVisible(true)
-	setActive(slot8.tfShadow, true)
+	slot9:SetSpineVisible(true)
+	setActive(slot9.tfShadow, true)
 	setActive(slot0.arrowTarget, true)
 	slot0:updateTargetArrow(slot2[#slot2])
 
@@ -2220,12 +2237,16 @@ slot0.moveFleet = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0:updateQuadCells(ChapterConst.QuadStateFrozen)
-	slot0:moveCellView(slot8, slot1, slot2, function (slot0)
+	(function (slot0)
+		if uv0 then
+			uv3:UpdateWeatherCells(uv1:UpdateCellsVisible(uv2, slot0))
+		end
+	end)(slot9:GetLine())
+	slot0:moveCellView(slot9, slot1, slot2, function (slot0)
 		uv0.step = uv0.step + 1
 
-		if uv1.onShipStepChange then
-			uv1.onShipStepChange(slot0)
-		end
+		uv1(slot0)
+		existCall(uv2.onShipStepChange, slot0)
 	end, function (slot0)
 	end, function ()
 		setActive(uv0.arrowTarget, false)

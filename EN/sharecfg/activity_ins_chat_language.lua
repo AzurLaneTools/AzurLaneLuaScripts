@@ -7524,7 +7524,80 @@ pg.activity_ins_chat_language = setmetatable({
 		7521,
 		7522,
 		7523,
-		7524
+		7524,
+		7525,
+		7526,
+		7527,
+		7528,
+		7529,
+		7530,
+		7531,
+		7532,
+		7533,
+		7534,
+		7535,
+		7536,
+		7537,
+		7538,
+		7539,
+		7540,
+		7541,
+		7542,
+		7543,
+		7544,
+		7545,
+		7546,
+		7547,
+		7548,
+		7549,
+		7550,
+		7551,
+		7552,
+		7553,
+		7554,
+		7555,
+		7556,
+		7557,
+		7558,
+		7559,
+		7560,
+		7561,
+		7562,
+		7563,
+		7564,
+		7565,
+		7566,
+		7567,
+		7568,
+		7569,
+		7570,
+		7571,
+		7572,
+		7573,
+		7574,
+		7575,
+		7576,
+		7577,
+		7578,
+		7579,
+		7580,
+		7581,
+		7582,
+		7583,
+		7584,
+		7585,
+		7586,
+		7587,
+		7588,
+		7589,
+		7590,
+		7591,
+		7592,
+		7593,
+		7594,
+		7595,
+		7596,
+		7597
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -74312,5 +74385,632 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 7524,
 		flag = 5
+	},
+	[7525] = {
+		param = "Commander, may I interest you in taking a relaxing break together?",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7525,
+		flag = 0
+	},
+	[7526] = {
+		param = "In Sardegna, we believe that balancing work and relaxation can promote creativity.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7526,
+		flag = 0
+	},
+	[7527] = {
+		param = "It so happens that I've found a sunny terrace not far from your office.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7527,
+		flag = 0
+	},
+	[7528] = {
+		param = "Of course, it would be a shame to keep such a wonderful place all to myself.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7528,
+		flag = 0
+	},
+	[7529] = {
+		param = "Rest assured, this is not a formal social invitation.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7529,
+		flag = 0
+	},
+	[7530] = {
+		param = "I just thought it'd be nice to share a calm afternoon moment.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7530,
+		flag = 0
+	},
+	[7531] = {
+		param = "354",
+		ship_group = 60501,
+		option = "",
+		type = 4,
+		id = 7531,
+		flag = 0
+	},
+	[7532] = {
+		param = "Also, I have Sardegnian biscuits, if you're interested. They're crunchy and buttery!",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7532,
+		flag = 0
+	},
+	[7533] = {
+		param = "They smell of almonds and lemon. Just the thing to pair with some coffee.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7533,
+		flag = 0
+	},
+	[7534] = {
+		param = "Ah, to enjoy a cup of coffee in the sea breeze, letting time pass...",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7534,
+		flag = 0
+	},
+	[7535] = {
+		param = "It makes for hours of leisure.",
+		ship_group = 60501,
+		type = 1,
+		id = 7535,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I'll be right there."
+			},
+			{
+				2,
+				"Gotta finish my work first..."
+			}
+		}
+	},
+	[7536] = {
+		param = "I'll be right there.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7536,
+		flag = 1
+	},
+	[7537] = {
+		param = "Wonderful. I'm waiting for you by the terrace.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7537,
+		flag = 1
+	},
+	[7538] = {
+		param = "You know, as soon as you said those words, it felt like the sun grew gentler.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7538,
+		flag = 1
+	},
+	[7539] = {
+		param = "I like to think that wasn't just my imagination.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7539,
+		flag = 1
+	},
+	[7540] = {
+		param = "I'll go there once I've finished my work.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7540,
+		flag = 2
+	},
+	[7541] = {
+		param = "By the time you get here, the coffee will likely be cold...",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7541,
+		flag = 2
+	},
+	[7542] = {
+		param = "But I suppose that's no matter.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7542,
+		flag = 2
+	},
+	[7543] = {
+		param = "I'm content to make fresh coffee for you whenever you like.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7543,
+		flag = 2
+	},
+	[7544] = {
+		param = "As they say...",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7544,
+		flag = 0
+	},
+	[7545] = {
+		param = "Good things are worth waiting for.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7545,
+		flag = 0
+	},
+	[7546] = {
+		param = "The sun, the blue skies, the white clouds, the sea breeze...",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7546,
+		flag = 0
+	},
+	[7547] = {
+		param = "And of course, delicious biscuits.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7547,
+		flag = 0
+	},
+	[7548] = {
+		param = "A balanced, relaxed pace is instrumental for truly enjoying life.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7548,
+		flag = 0
+	},
+	[7549] = {
+		param = "Commander, have you eaten lunch yet?",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7549,
+		flag = 0
+	},
+	[7550] = {
+		param = "I just visited the canteen and had their daily special: pasta with tomato sauce.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7550,
+		flag = 0
+	},
+	[7551] = {
+		param = "However, I'm not sure what to say about it...",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7551,
+		flag = 0
+	},
+	[7552] = {
+		param = "While it wasn't bad, I felt as though it was lacking something to make it stand out.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7552,
+		flag = 0
+	},
+	[7553] = {
+		param = "The tomato flavor was a bit muted, and the acidity could've been more pronounced.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7553,
+		flag = 0
+	},
+	[7554] = {
+		param = "It failed to capture the essence of Sardegnian cuisine.",
+		ship_group = 60501,
+		type = 1,
+		id = 7554,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Is the difference really that obvious?"
+			}
+		}
+	},
+	[7555] = {
+		param = "Is the difference really that obvious?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7555,
+		flag = 1
+	},
+	[7556] = {
+		param = "Yes, and it's quite hard to explain in words.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7556,
+		flag = 1
+	},
+	[7557] = {
+		param = "That's why I came up with an idea.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7557,
+		flag = 1
+	},
+	[7558] = {
+		param = "Coinciding with this idea, I previously ordered some tomatoes from a region famous for them...",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7558,
+		flag = 1
+	},
+	[7559] = {
+		param = "As well as some fine pecorino cheese.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7559,
+		flag = 1
+	},
+	[7560] = {
+		param = "Now, I'm wondering if you're free anytime soon.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7560,
+		flag = 1
+	},
+	[7561] = {
+		param = "Could you spare an evening for me, by any chance?",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7561,
+		flag = 1
+	},
+	[7562] = {
+		param = "I'd love to treat you to some authentic pasta.",
+		ship_group = 60501,
+		type = 1,
+		id = 7562,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Sure. I can't wait to try your cooking."
+			},
+			{
+				3,
+				"You sure it's not too much work?"
+			}
+		}
+	},
+	[7563] = {
+		param = "Sure. I can't wait to try your cooking.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7563,
+		flag = 2
+	},
+	[7564] = {
+		param = "You won't be disappointed, I assure you.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7564,
+		flag = 2
+	},
+	[7565] = {
+		param = "Genuine Sardegnian cuisine is absolutely worth savoring.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7565,
+		flag = 2
+	},
+	[7566] = {
+		param = "You sure it's not too much work?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7566,
+		flag = 3
+	},
+	[7567] = {
+		param = "Too much work? Not in the slightest.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7567,
+		flag = 3
+	},
+	[7568] = {
+		param = "In fact, I'd be happy to go through the effort to make delicious food for someone so dear to me.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7568,
+		flag = 3
+	},
+	[7569] = {
+		param = "Anyway, we can discuss a suitable time for you to come by later on.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7569,
+		flag = 0
+	},
+	[7570] = {
+		param = "I'll be sure to have everything ready for you.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7570,
+		flag = 0
+	},
+	[7571] = {
+		param = "Not just the cheese and the tomatoes...",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7571,
+		flag = 0
+	},
+	[7572] = {
+		param = "But also this token of my heart, presented solely to you.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7572,
+		flag = 0
+	},
+	[7573] = {
+		param = "Commander, I've found another great place to relax.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7573,
+		flag = 0
+	},
+	[7574] = {
+		param = "Oh dear, I just realized how late it is...",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7574,
+		flag = 0
+	},
+	[7575] = {
+		param = "Please reply when you see this message tomorrow morning.",
+		ship_group = 60501,
+		type = 1,
+		id = 7575,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Want me to hold my reply until then?"
+			}
+		}
+	},
+	[7576] = {
+		param = "Want me to hold my reply until then?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7576,
+		flag = 1
+	},
+	[7577] = {
+		param = "I didn't think you'd still be awake at this hour.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7577,
+		flag = 1
+	},
+	[7578] = {
+		param = "You're not working overtime, are you?",
+		ship_group = 60501,
+		type = 1,
+		id = 7578,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Overtime is my modus operandi."
+			}
+		}
+	},
+	[7579] = {
+		param = "Overtime is my modus operandi.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7579,
+		flag = 2
+	},
+	[7580] = {
+		param = "Goodness... Being a great leader is nothing if not exhausting.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7580,
+		flag = 2
+	},
+	[7581] = {
+		param = "I know what it's like, as I've been in the same position.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7581,
+		flag = 2
+	},
+	[7582] = {
+		param = "I've had my days of being neck-deep in administrative duties.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7582,
+		flag = 2
+	},
+	[7583] = {
+		param = "Fortunately, I still had the leeway to soak in the thermae and clear my mind.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7583,
+		flag = 2
+	},
+	[7584] = {
+		param = "That reminds me... It's concerningly rare to see you truly at rest, Commander.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7584,
+		flag = 2
+	},
+	[7585] = {
+		param = "Given how frequently you work so hard, what do you do to relax?",
+		ship_group = 60501,
+		type = 1,
+		id = 7585,
+		flag = 2,
+		option = {
+			{
+				3,
+				"I can handle it."
+			}
+		}
+	},
+	[7586] = {
+		param = "I can handle it. You just gotta buckle up and do it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7586,
+		flag = 3
+	},
+	[7587] = {
+		param = "I usually work so much overtime that when I'm not doing it, I just naturally relax.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7587,
+		flag = 3
+	},
+	[7588] = {
+		param = "Um... I'm afraid my brain is struggling to process what you just said.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7588,
+		flag = 3
+	},
+	[7589] = {
+		param = "All I can say is I pray neither of us has to experience such an intense workload ever again...",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7589,
+		flag = 3
+	},
+	[7590] = {
+		param = "Regardless, allow me to recommend some effective ways to relax.",
+		ship_group = 60501,
+		type = 1,
+		id = 7590,
+		flag = 3,
+		option = {
+			{
+				4,
+				"If you want to relax..."
+			}
+		}
+	},
+	[7591] = {
+		param = "If you want to relax, you first need to have the time to relax...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7591,
+		flag = 4
+	},
+	[7592] = {
+		param = "Let's try looking at it differently. All is fine as long as we can combine work and relaxation.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7592,
+		flag = 4
+	},
+	[7593] = {
+		param = "For instance, you could do work in the reinvigorating warmth of a bath.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7593,
+		flag = 4
+	},
+	[7594] = {
+		param = "Additionally, it would do your mind well to be assisted by someone you love.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7594,
+		flag = 4
+	},
+	[7595] = {
+		param = "You should be able to relax like never before if we can meet these two conditions at once.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7595,
+		flag = 4
+	},
+	[7596] = {
+		param = "Did you know they opened a new Sardegnian thermae in the port just a while ago?",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7596,
+		flag = 4
+	},
+	[7597] = {
+		param = "If you can come over now... I will be waiting for you in the water.",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7597,
+		flag = 4
 	}
 }

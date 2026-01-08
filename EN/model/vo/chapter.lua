@@ -39,63 +39,66 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.dropShipIdList = {}
 	slot0.eliteFleetList = {
-		{},
-		{},
-		{}
+		[FleetType.Normal] = {},
+		[FleetType.Submarine] = {},
+		[FleetType.Support] = {}
 	}
-	slot0.eliteCommanderList = {
-		{},
-		{},
-		{}
-	}
-	slot0.supportFleet = {}
 	slot0.loopFlag = 0
+	slot0.miscArgDic = {}
+	slot3 = ipairs
+	slot4 = noEmptyStr(slot0:getConfig("misc_arg")) or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot8, slot0.miscArgDic[slot8] = unpack(slot7)
+	end
 end
 
-slot0.BuildEliteFleetList = function(slot0)
-	slot1 = {
-		{},
-		{},
-		{}
+slot0.getConfigMiscArg = function(slot0, slot1)
+	return slot0.miscArgDic[slot1]
+end
+
+slot0.BuildEliteFleetInfo = function(slot0)
+	return {
+		[FleetType.Normal] = uv0.BuildEliteTeamInfo(slot0.main_team),
+		[FleetType.Submarine] = uv0.BuildEliteTeamInfo(slot0.submarine_team),
+		[FleetType.Support] = uv0.BuildEliteTeamInfo(slot0.support_team)
 	}
-	slot2 = {
-		{},
-		{},
-		{}
+end
+
+slot0.BuildEliteTeamInfo = function(slot0)
+	return underscore.map(slot0, function (slot0)
+		return {
+			[TeamType.FormShips] = underscore.to_array(slot0.ship_list),
+			[TeamType.FormCommander] = {
+				slot0.commander_main or 0,
+				slot0.commander_sub or 0
+			}
+		}
+	end)
+end
+
+slot0.PackEliteFleetInfo = function(slot0)
+	return {
+		id = 0,
+		main_team = underscore.map(slot0[FleetType.Normal], function (slot0)
+			return uv0.PackEliteTeamInfo(slot0)
+		end),
+		submarine_team = underscore.map(slot0[FleetType.Submarine], function (slot0)
+			return uv0.PackEliteTeamInfo(slot0)
+		end),
+		support_team = underscore.map(slot0[FleetType.Support], function (slot0)
+			return uv0.PackEliteTeamInfo(slot0)
+		end)
 	}
-	slot3 = {
-		{}
+end
+
+slot0.PackEliteTeamInfo = function(slot0)
+	return {
+		id = slot0.id or 0,
+		ship_list = underscore.to_array(slot0[TeamType.FormShips]),
+		commander_main = slot0[TeamType.FormCommander][1],
+		commander_sub = slot0[TeamType.FormCommander][2]
 	}
-	slot4 = ipairs
-	slot5 = slot0 or {}
-
-	for slot7, slot8 in slot4(slot5) do
-		slot9 = {}
-
-		for slot13, slot14 in ipairs(slot8.main_id) do
-			slot9[#slot9 + 1] = slot14
-		end
-
-		if slot7 == 4 then
-			slot3[1] = slot9
-		else
-			slot1[slot7] = slot9
-		end
-
-		slot10 = {}
-
-		for slot14, slot15 in ipairs(slot8.commanders) do
-			slot17 = slot15.pos
-
-			if getProxy(CommanderProxy):getCommanderById(slot15.id) and Commander.canEquipToFleetList(slot2, slot7, slot17, slot16) then
-				slot10[slot17] = slot16
-			end
-		end
-
-		slot2[slot7] = slot10
-	end
-
-	return slot1, slot2, slot3
 end
 
 slot0.getMaxCount = function(slot0)
@@ -256,103 +259,226 @@ slot0.isAllAchieve = function(slot0)
 	end)
 end
 
-slot0.clearEliterFleetByIndex = function(slot0, slot1)
-	if slot1 > #slot0.eliteFleetList then
-		return
+slot0.GetFleetTypeByIndex = function(slot0)
+	assert(slot0 > 0)
+
+	return switch(slot0, {
+		[4] = function ()
+			return FleetType.Support, 1
+		end,
+		[3] = function ()
+			return FleetType.Submarine, 1
+		end
+	}, function ()
+		return FleetType.Normal, uv0
+	end)
+end
+
+slot0.getEliteTeamByIndex = function(slot0, slot1)
+	slot2, slot3 = uv0.GetFleetTypeByIndex(slot1)
+
+	if not slot0.eliteFleetList[slot2][slot3] then
+		for slot7 = #slot0.eliteFleetList[slot2] + 1, slot3 do
+			slot0.eliteFleetList[slot2][slot7] = {
+				id = 0,
+				[TeamType.FormShips] = {},
+				[TeamType.FormCommander] = {
+					0,
+					0
+				}
+			}
+		end
 	end
 
-	slot0.eliteFleetList[slot1] = {}
+	return slot0.eliteFleetList[slot2][slot3], slot2
+end
+
+slot0.setEliteFleetByIndex = function(slot0, slot1, slot2)
+	slot3 = slot0:getEliteTeamByIndex(slot1)
+
+	for slot7, slot8 in ipairs(slot2) do
+		slot9, slot10 = unpack(slot8)
+
+		if slot9 == TeamType.FormCommander then
+			slot3[slot9][slot10.pos] = slot10.id
+		else
+			slot3[slot9] = slot10
+		end
+	end
+end
+
+slot0.clearEliterFleetByIndex = function(slot0, slot1)
+	slot0:setEliteFleetByIndex(slot1, {
+		{
+			TeamType.FormShips,
+			{}
+		}
+	})
 end
 
 slot0.wrapEliteFleet = function(slot0, slot1)
-	slot2 = {}
-	slot3 = slot1 > 2 and FleetType.Submarine or FleetType.Normal
-	slot4 = _.flatten(slot0:getEliteFleetList()[slot1])
+	slot2, slot3 = slot0:getEliteTeamByIndex(slot1)
+	slot4 = {}
 
-	for slot8, slot9 in pairs(slot0:getEliteFleetCommanders()[slot1]) do
-		table.insert(slot2, {
-			pos = slot8,
-			id = slot9
-		})
+	for slot8, slot9 in pairs(slot2[TeamType.FormCommander]) do
+		if slot9 ~= 0 then
+			table.insert(slot4, {
+				pos = slot8,
+				id = slot9
+			})
+		end
 	end
 
 	return TypedFleet.New({
 		id = slot1,
 		fleetType = slot3,
-		ship_list = slot4,
-		commanders = slot2
+		ship_list = underscore.to_array(slot2[TeamType.FormShips]),
+		commanders = slot4
 	})
 end
 
-slot0.setEliteCommanders = function(slot0, slot1)
-	slot0.eliteCommanderList = slot1
-end
-
 slot0.getEliteFleetCommanders = function(slot0)
-	return slot0.eliteCommanderList
+	slot1 = {}
+	slot6 = slot0
+	slot5 = slot0.GetSupportFleetMaxCount(slot6)
+
+	for slot5, slot6 in ipairs({
+		{
+			slot0:GetNomralFleetMaxCount(),
+			0
+		},
+		{
+			slot0:GetSubmarineFleetMaxCount(),
+			2
+		},
+		{
+			slot5,
+			3
+		}
+	}) do
+		slot7, slot8 = unpack(slot6)
+
+		for slot12 = 1, slot7 do
+			slot13 = slot8 + slot12
+			slot1[slot13] = underscore.to_array(slot0:getEliteTeamByIndex(slot13)[TeamType.FormCommander])
+		end
+	end
+
+	return slot1
 end
 
 slot0.updateCommander = function(slot0, slot1, slot2, slot3)
-	slot0.eliteCommanderList[slot1][slot2] = slot3
+	slot0:setEliteFleetByIndex(slot1, {
+		{
+			TeamType.FormCommander,
+			{
+				pos = slot2,
+				id = slot3
+			}
+		}
+	})
 end
 
 slot0.getEliteFleetList = function(slot0)
 	slot0:EliteShipTypeFilter()
 
-	return slot0.eliteFleetList
+	slot1 = {}
+	slot6 = slot0
+	slot5 = slot0.GetSupportFleetMaxCount(slot6)
+
+	for slot5, slot6 in ipairs({
+		{
+			slot0:GetNomralFleetMaxCount(),
+			0
+		},
+		{
+			slot0:GetSubmarineFleetMaxCount(),
+			2
+		},
+		{
+			slot5,
+			3
+		}
+	}) do
+		slot7, slot8 = unpack(slot6)
+
+		for slot12 = 1, slot7 do
+			slot13 = slot8 + slot12
+			slot1[slot13] = underscore.to_array(slot0:getEliteTeamByIndex(slot13)[TeamType.FormShips])
+		end
+	end
+
+	return slot1
 end
 
 slot0.setEliteFleetList = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
 	slot0.eliteFleetList = slot1
 end
 
 slot0.IsEliteFleetLegal = function(slot0)
-	slot1 = 0
-	slot2 = 0
-	slot3 = 0
-	slot4 = 0
-	slot5, slot6 = nil
+	slot1 = {}
+	slot6 = slot0
+	slot5 = FleetType.Support
 
-	for slot10 = 1, #slot0.eliteFleetList do
-		slot11, slot12 = slot0:singleEliteFleetVertify(slot10)
+	for slot5, slot6 in ipairs({
+		{
+			slot0:GetNomralFleetMaxCount(),
+			0,
+			FleetType.Normal
+		},
+		{
+			slot0:GetSubmarineFleetMaxCount(),
+			2,
+			FleetType.Submarine
+		},
+		{
+			slot0.GetSupportFleetMaxCount(slot6),
+			3,
+			slot5
+		}
+	}) do
+		slot7, slot8, slot9 = unpack(slot6)
 
-		if not slot11 then
-			if not slot12 then
-				if slot10 >= 3 then
-					slot3 = slot3 + 1
-				else
-					slot1 = slot1 + 1
-				end
-			else
-				slot5 = slot12
-				slot6 = slot10
+		for slot13 = 1, slot7 do
+			slot15, slot16 = slot0:singleEliteFleetVertify(slot8 + slot13)
+
+			if slot15 then
+				slot1[slot9] = defaultValue(slot1[slot9], 0) + 1
+			elseif slot16 ~= "empty" then
+				return false, switch(slot16, {
+					inEvent = function ()
+						return i18n("elite_disable_ship_escort")
+					end,
+					teamCount = function ()
+						return i18n("elite_fleet_confirm", Fleet.DEFAULT_ELITE_NAME[uv0])
+					end,
+					typeLimitation = function ()
+						return i18n("elite_disable_formation_unsatisfied")
+					end
+				})
 			end
-		elseif slot10 >= 3 then
-			slot4 = slot4 + 1
-		else
-			slot2 = slot2 + 1
 		end
 	end
 
-	if slot1 == 2 then
+	if slot1 == 0 then
 		return false, i18n("elite_disable_no_fleet")
-	elseif slot2 == 0 then
-		return false, slot5
-	elseif slot3 + slot4 < slot0:getConfig("submarine_num") then
-		return false, slot5
 	end
 
-	slot8 = 1
+	slot3 = 1
 
-	for slot12, slot13 in ipairs(slot0:IsPropertyLimitationSatisfy()) do
-		slot8 = slot8 * slot13
+	for slot7, slot8 in ipairs(slot0:IsPropertyLimitationSatisfy()) do
+		slot3 = slot3 * slot8
 	end
 
-	if slot8 ~= 1 then
+	if slot3 ~= 1 then
 		return false, i18n("elite_disable_property_unsatisfied")
 	end
 
-	return true, slot6
+	return true
 end
 
 slot0.IsPropertyLimitationSatisfy = function(slot0)
@@ -434,189 +560,181 @@ end
 
 slot0.EliteShipTypeFilter = function(slot0)
 	if slot0:getConfig("type") == Chapter.SelectFleet then
-		for slot5, slot6 in ipairs({
-			1,
-			2,
-			3
-		}) do
-			table.clear(slot0.eliteFleetList[slot6])
-			table.clear(slot0.eliteCommanderList[slot6])
-		end
+		slot0.eliteFleetList[FleetType.Normal] = {}
+		slot0.eliteFleetList[FleetType.Submarine] = {}
 	else
-		for slot4 = slot0:GetNomralFleetMaxCount() + 1, 2 do
-			table.clear(slot0.eliteFleetList[slot4])
-			table.clear(slot0.eliteCommanderList[slot4])
+		for slot4 = slot0:GetNomralFleetMaxCount() + 1, #slot0.eliteFleetList[FleetType.Normal] do
+			slot0.eliteFleetList[FleetType.Normal][slot4] = nil
 		end
 
-		for slot4 = slot0:GetSubmarineFleetMaxCount() + 2 + 1, 3 do
-			table.clear(slot0.eliteFleetList[slot4])
-			table.clear(slot0.eliteCommanderList[slot4])
+		for slot4 = slot0:GetSubmarineFleetMaxCount() + 1, #slot0.eliteFleetList[FleetType.Submarine] do
+			slot0.eliteFleetList[FleetType.Submarine][slot4] = nil
 		end
 	end
 
-	slot1 = getProxy(BayProxy):getRawData()
+	for slot4 = slot0:GetSupportFleetMaxCount() + 1, #slot0.eliteFleetList[FleetType.Support] do
+		slot0.eliteFleetList[FleetType.Support][slot4] = nil
+	end
 
-	for slot5, slot6 in ipairs(slot0.eliteFleetList) do
-		for slot10 = #slot6, 1, -1 do
-			if slot1[slot6[slot10]] == nil then
-				table.remove(slot6, slot10)
+	slot1 = getProxy(BayProxy)
+	slot1 = slot1:getRawData()
+
+	slot2 = function(slot0)
+		if not slot0 then
+			return
+		end
+
+		for slot4 = #slot0, 1, -1 do
+			if uv0[slot0[slot4]] == nil then
+				table.remove(slot0, slot4)
 			end
 		end
 	end
 
-	slot2 = function(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot0.eliteFleetList) do
+		for slot11, slot12 in ipairs(slot7) do
+			slot2(slot12[TeamType.FormShips])
+		end
+	end
+
+	slot3 = function(slot0, slot1)
 		ChapterProxy.SortRecommendLimitation(Clone(slot1))
 
-		for slot6, slot7 in ipairs(slot2) do
-			slot8 = nil
-			slot9 = uv0[slot7]:getShipType()
+		slot2 = 1
 
-			for slot13, slot14 in ipairs(slot1) do
-				if ShipType.ContainInLimitBundle(slot14, slot9) then
-					slot8 = slot13
+		while slot2 <= #slot0 do
+			slot4 = nil
+			slot5 = uv0[slot0[slot2]]:getShipType()
+
+			for slot9, slot10 in ipairs(slot1) do
+				if ShipType.ContainInLimitBundle(slot10, slot5) then
+					slot4 = slot9
 
 					break
 				end
 			end
 
-			if slot8 then
-				table.remove(slot1, slot8)
+			if slot4 then
+				table.remove(slot1, slot4)
+
+				slot2 = slot2 + 1
 			else
-				table.removebyvalue(slot0, slot7)
+				table.remove(slot0, slot2)
 			end
 		end
 	end
 
-	slot6 = "limitation"
+	slot4 = slot0:getConfig("limitation")
 
-	for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
-		slot9 = {}
-		slot10 = {}
-		slot11 = {}
+	for slot8, slot9 in pairs(slot0.eliteFleetList) do
+		for slot13, slot14 in ipairs(slot9) do
+			switch(slot8, {
+				[FleetType.Normal] = function ()
+					slot0 = uv0[uv1]
+					slot1 = underscore.map({
+						TeamType.Main,
+						TeamType.Vanguard
+					}, function (slot0)
+						return underscore.filter(uv0[TeamType.FormShips], function (slot0)
+							return uv0[slot0]:getTeamType() == uv1
+						end)
+					end)
 
-		for slot15, slot16 in ipairs(slot0.eliteFleetList[slot6]) do
-			if slot1[slot16]:getTeamType() == TeamType.Main then
-				table.insert(slot9, slot16)
-			elseif slot18 == TeamType.Vanguard then
-				table.insert(slot10, slot16)
-			elseif slot18 == TeamType.Submarine then
-				table.insert(slot11, slot16)
-			end
+					uv4(slot1[1], slot0[1])
+					uv4(slot1[2], slot0[2])
+
+					uv2[TeamType.FormShips] = table.mergeArray(slot1[1], slot1[2])
+				end,
+				[FleetType.Submarine] = function ()
+					uv0(uv1[TeamType.FormShips], {
+						0,
+						0,
+						0
+					})
+				end,
+				[FleetType.Support] = function ()
+					uv1(uv2[TeamType.FormShips], uv0:getConfigMiscArg("submarine_support") and {
+						"qian",
+						"qian",
+						"qian"
+					} or {
+						"hang",
+						"hang",
+						"hang"
+					})
+				end
+			})
 		end
-
-		slot2(slot8, slot7[1], slot9)
-		slot2(slot8, slot7[2], slot10)
-		slot2(slot8, {
-			0,
-			0,
-			0
-		}, slot11)
 	end
 end
 
 slot0.singleEliteFleetVertify = function(slot0, slot1)
 	slot2 = getProxy(BayProxy):getRawData()
+	slot4 = nil
 
-	if not slot0:getEliteFleetList()[slot1] or #slot3 == 0 then
-		return false
+	if not slot0:getEliteTeamByIndex(slot1)[TeamType.FormShips] or #slot3 == 0 then
+		return false, "empty"
 	end
 
-	if slot1 >= 3 then
-		return true
-	end
-
-	if slot0:getConfig("type") ~= Chapter.CustomFleet then
-		return true
-	end
-
-	slot4 = 0
-	slot5 = 0
+	slot5 = {}
 	slot6 = {}
 
 	for slot10, slot11 in ipairs(slot3) do
 		if slot2[slot11] then
 			if slot12:getFlag("inEvent") then
-				return false, i18n("elite_disable_ship_escort")
+				return false, "inEvent"
 			end
 
-			if slot12:getTeamType() == TeamType.Main then
-				slot4 = slot4 + 1
-			elseif slot13 == TeamType.Vanguard then
-				slot5 = slot5 + 1
-			end
-
+			slot13 = slot12:getTeamType()
+			slot5[slot13] = defaultValue(slot5[slot13], 0) + 1
 			slot6[#slot6 + 1] = slot12:getShipType()
 		end
 	end
 
-	if slot4 * slot5 == 0 and slot4 + slot5 ~= 0 then
-		return false
+	if slot4 == FleetType.Normal and (TeamType.MainMax < slot5[TeamType.Main] or TeamType.VanguardMax < slot5[TeamType.Vanguard] or slot5[TeamType.Main] * slot5[TeamType.Vanguard] == 0) then
+		return false, "teamCount"
 	end
 
-	slot8 = 1
-	slot9 = ipairs
-	slot10 = checkExist(slot0:getConfig("limitation"), {
+	ChapterProxy.SortRecommendLimitation(underscore(checkExist(slot0:getConfig("limitation"), {
 		slot1
-	}) or {}
+	}) or {}):chain():flatten():filter(function (slot0)
+		return slot0 ~= 0
+	end):value())
 
-	for slot12, slot13 in slot9(slot10) do
-		slot14 = 0
-		slot15 = 0
+	slot8 = 1
 
-		for slot19, slot20 in ipairs(slot13) do
-			if slot20 ~= 0 then
-				slot14 = slot14 + 1
+	while slot8 <= #slot6 do
+		slot9 = slot6[slot8]
+		slot10 = nil
 
-				if underscore.any(slot6, function (slot0)
-					return ShipType.ContainInLimitBundle(uv0, slot0)
-				end) then
-					slot15 = 1
+		for slot14, slot15 in ipairs(slot7) do
+			if ShipType.ContainInLimitBundle(slot15, slot9) then
+				slot10 = slot14
 
-					break
-				end
+				break
 			end
 		end
 
-		if slot14 == 0 then
-			slot15 = 1
-		end
+		if slot10 then
+			table.remove(slot7, slot10)
 
-		slot8 = slot8 * slot15
+			slot8 = slot8 + 1
+		else
+			table.remove(slot6, slot8)
+		end
 	end
 
-	if slot8 == 0 then
-		return false, i18n("elite_disable_formation_unsatisfied")
+	if #slot7 > 0 then
+		return false, "typeLimitation"
 	end
 
 	return true
 end
 
-slot0.ClearSupportFleetList = function(slot0, slot1)
-	slot0.supportFleet = {}
-end
-
-slot0.setSupportFleetList = function(slot0, slot1)
-	slot0.supportFleet = slot1[1]
-end
-
 slot0.getSupportFleet = function(slot0)
-	slot0:SupportShipTypeFilter()
+	slot0:EliteShipTypeFilter()
 
-	return slot0.supportFleet
-end
-
-slot0.SupportShipTypeFilter = function(slot0)
-	if slot0:GetSupportFleetMaxCount() < 1 then
-		table.clear(slot0.supportFleet)
-	end
-
-	slot1 = getProxy(BayProxy):getRawData()
-
-	for slot6 = #slot0.supportFleet, 1, -1 do
-		if slot1[slot2[slot6]] == nil then
-			table.remove(slot2, slot6)
-		end
-	end
+	return underscore.to_array(slot0:getEliteTeamByIndex(4)[TeamType.FormShips])
 end
 
 slot0.activeAlways = function(slot0)
@@ -847,6 +965,14 @@ slot0.GetMaxBattleCount = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.IsSupportSubmarineStage = function(slot0)
+	return slot0:GetSupportFleetMaxCount() > 0 and tobool(slot0:getConfigMiscArg("submarine_support"))
+end
+
+slot0.IsFogStage = function(slot0)
+	return tobool(slot0:getConfigMiscArg("fog"))
 end
 
 return slot0

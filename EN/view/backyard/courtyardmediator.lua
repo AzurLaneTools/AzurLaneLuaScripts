@@ -19,23 +19,9 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.ONE_KEY, function (slot0)
 		uv0:sendNotification(GAME.BACKYARD_ONE_KEY)
 	end)
-	slot0:bind(uv0.ON_ADD_VISITOR_SHIP, function (slot0)
-		slot1 = function(slot0)
-			if slot0 then
-				_courtyard:GetController():AddVisitorShip(slot0)
-			end
-		end
-
-		if getProxy(DormProxy):GetVisitorShip() then
-			slot1(slot3)
-
-			return
-		end
-
+	slot0:bind(uv0.ON_ADD_VISITOR_SHIP, function (slot0, slot1)
 		uv0:sendNotification(GAME.BACKYARD_GET_VISITOR_SHIP, {
-			callback = function ()
-				uv0(uv1:GetVisitorShip())
-			end
+			callback = slot1
 		})
 	end)
 	slot0:bind(uv0.GO_THEME_TEMPLATE, function (slot0)

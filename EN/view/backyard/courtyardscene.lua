@@ -70,7 +70,19 @@ slot0.UpdateDorm = function(slot0, slot1, slot2)
 end
 
 slot0.SetUpCourtYard = function(slot0)
-	slot0:emit(CourtYardMediator.SET_UP, slot0.contextData.floor)
+	seriesAsync({
+		function (slot0)
+			if (uv0.contextData.mode or CourtYardConst.SYSTEM_VISIT) ~= CourtYardConst.SYSTEM_VISIT then
+				slot0()
+
+				return
+			end
+
+			uv0:emit(CourtYardMediator.ON_ADD_VISITOR_SHIP, slot0)
+		end
+	}, function ()
+		uv0:emit(CourtYardMediator.SET_UP, uv0.contextData.floor)
+	end)
 end
 
 slot0.FlushMainView = function(slot0, slot1)
@@ -115,7 +127,9 @@ slot0.AddVisitorShip = function(slot0)
 		return
 	end
 
-	slot0:emit(CourtYardMediator.ON_ADD_VISITOR_SHIP)
+	if getProxy(DormProxy):GetVisitorShip() then
+		_courtyard:GetController():AddVisitorShip(slot4)
+	end
 end
 
 slot0.FoldPanel = function(slot0, slot1)

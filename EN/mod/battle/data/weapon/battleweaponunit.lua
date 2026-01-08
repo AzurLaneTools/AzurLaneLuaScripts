@@ -1190,6 +1190,10 @@ slot9.FlushRequireByInverse = function(slot0, slot1)
 	return slot2 + uv0.CalculateReloadTime(slot0._reloadMax - uv0.CaclulateReloaded(slot2, slot1), uv1.GetCurrent(slot0._host, "loadSpeed"))
 end
 
+slot9.SetSupportWeapon = function(slot0)
+	slot0._isSupportWeapon = true
+end
+
 slot9.SetCardPuzzleDamageEnhance = function(slot0, slot1)
 	slot0._cardPuzzleEnhance = slot1
 end

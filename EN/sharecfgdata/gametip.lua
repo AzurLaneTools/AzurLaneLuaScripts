@@ -2079,6 +2079,11 @@ _G.pg.base.gametip.battle_result_max_combo = {
 }
 
 
+_G.pg.base.gametip.battle_result_boss_hp_lower = {
+	tip = "The boss has less than $1% HP left"
+}
+
+
 _G.pg.base.gametip.battle_levelScene_0Oil = {
 	tip = "Oil Production is 0"
 }
@@ -4371,6 +4376,11 @@ _G.pg.base.gametip.ship_formationUI_fleetName11 = {
 
 _G.pg.base.gametip.ship_formationUI_fleetName12 = {
 	tip = "Submarine 2"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName13 = {
+	tip = "Support Fleet"
 }
 
 
@@ -9571,7 +9581,7 @@ _G.pg.base.gametip.elite_warp_to_latest_map = {
 
 
 _G.pg.base.gametip.elite_fleet_confirm = {
-	tip = "$1 <color=#ff0000>does not meet</color> requirements to attack and may not enter battle. Would you like to continue your attack?"
+	tip = "$1 cannot participate in battle because she <color=#ff5c5c>does not meet the sortie requirements.</color>"
 }
 
 
@@ -32902,13 +32912,79 @@ _G.pg.base.gametip.help_supportfleet = {
 }
 
 
+_G.pg.base.gametip.help_supportfleet_16 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help_16"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.help_supportfleet_16_submarine = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_submarine_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_submarine_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.word_status_inSupportFleet = {
 	tip = "In Support Fleet"
 }
 
 
 _G.pg.base.gametip.ship_formationMediator_request_replace_support = {
-	tip = "This ship is currently in the <color=#92fc63>Support Fleet</color>. Continue making changes?"
+	tip = "This shipgirl is assigned to your Support Fleet. Remove her from the formation?"
 }
 
 
@@ -46342,4 +46418,34 @@ _G.pg.base.gametip.winterwish_20251225_tip1 = {
 
 _G.pg.base.gametip.winterwish_20251225_tip2 = {
 	tip = "Wishes Left"
+}
+
+
+_G.pg.base.gametip.battle_battleMediator_quest_exist_submarine_support = {
+	tip = "If you stop the battle, your result will be calculated based on the boss' remaining HP. Stop the battle?"
+}
+
+
+_G.pg.base.gametip.island_survey_ui_1 = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.island_survey_ui_2 = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.island_survey_ui_award = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.island_survey_ui_button = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.submarine_support_oil_consume_tip = {
+	tip = "Sending your supporting Submarine Fleet into battle will cost $1 Oil. Continue?"
 }

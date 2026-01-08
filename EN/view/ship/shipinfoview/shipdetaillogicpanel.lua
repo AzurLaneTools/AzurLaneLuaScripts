@@ -292,7 +292,7 @@ slot0.updateEvalues = function(slot0)
 		return
 	end
 
-	slot1 = table.contains(TeamType.SubShipType, slot0.shipVO:getShipType())
+	slot1 = table.contains(ShipType.SubShipType, slot0.shipVO:getShipType())
 
 	for slot5, slot6 in pairs(slot0.additionValues.transforms) do
 		if slot5 == AttributeType.Armor or slot5 == AttributeType.Expend or slot5 == AttributeType.HuntingRange and slot1 then
@@ -320,7 +320,7 @@ slot0.updateShipAttrs = function(slot0)
 		transforms = {}
 	}
 	slot1 = slot0.shipVO
-	slot2 = table.contains(TeamType.SubShipType, slot1:getShipType())
+	slot2 = table.contains(ShipType.SubShipType, slot1:getShipType())
 	slot3 = intProperties(slot1:isBluePrintShip() and slot1:getBluePrint():getShipProperties(slot1) or slot1:getShipProperties())
 	slot4, slot5 = slot1:getEquipmentProperties()
 	slot4 = intProperties(slot4)
@@ -673,7 +673,7 @@ slot0.doAttrAnim = function(slot0, slot1, slot2, slot3)
 
 			setActive(slot21, false)
 		elseif slot17 == AttributeType.OxyMax or slot17 == AttributeType.Tactics then
-			slot28 = table.contains(TeamType.SubShipType, slot2:getShipType())
+			slot28 = table.contains(ShipType.SubShipType, slot2:getShipType())
 
 			setActive(slot19, slot28)
 			setActive(slot18, slot28)

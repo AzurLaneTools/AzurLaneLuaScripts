@@ -1911,6 +1911,20 @@ pg.name_code = {
 		code = "Sentoku Type",
 		nation = 0
 	},
+	[309] = {
+		name = "Mass-Produced Kongou Class",
+		type = 1,
+		id = 309,
+		code = "Mass-Produced Kongou Class",
+		nation = 0
+	},
+	[310] = {
+		name = "Fujinami",
+		type = 1,
+		id = 310,
+		code = "Fujinami",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

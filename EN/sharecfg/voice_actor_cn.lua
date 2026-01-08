@@ -1896,12 +1896,8 @@ pg.voice_actor_CN = {
 		actor_name = "Seria Fukagawa",
 		code = 490
 	},
-	[491] = {
-		actor_name = "萧清源 ",
-		code = 491
-	},
-	[492] = {
-		actor_name = "曾彤 ",
-		code = 492
+	[493] = {
+		actor_name = "Megu Umezawa",
+		code = 493
 	}
 }

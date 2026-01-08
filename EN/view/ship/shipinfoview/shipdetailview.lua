@@ -537,7 +537,7 @@ slot0.UpdateDetail = function(slot0, slot1)
 	slot0.shipDetailLogicPanel:flush(slot1)
 	removeOnButton(slot0.shipDetailLogicPanel.attrs:Find("icons/hunting_range/bg"))
 
-	if table.contains(TeamType.SubShipType, slot1:getShipType()) then
+	if table.contains(ShipType.SubShipType, slot1:getShipType()) then
 		onButton(slot0, slot2, function ()
 			uv0:emit(ShipViewConst.DISPLAY_HUNTING_RANGE, true)
 		end, SFX_PANEL)
