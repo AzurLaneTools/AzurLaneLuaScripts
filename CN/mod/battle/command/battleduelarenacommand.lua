@@ -30,6 +30,9 @@ slot3.DoPrologue = function(slot0)
 
 	slot0._rivalWeaponBot = uv0.Battle.BattleManualWeaponAutoBot.New(slot0._rivalFleet)
 	slot0._rivalJoyStickBot = uv0.Battle.BattleJoyStickAutoBot.New(slot0._dataProxy, slot0._rivalFleet)
+
+	slot0._rivalJoyStickBot:SwitchStrategy(slot0._rivalJoyStickBot.RANDOM)
+
 	slot2 = slot0._uiMediator:InitDuelRateBar()
 	slot3 = getProxy(PlayerProxy):getData()
 

@@ -55,10 +55,14 @@ slot0.InitBanner = function(slot0)
 	slot0.banners = slot1
 
 	for slot5 = 0, #slot1 - 1 do
-		slot7 = slot0.scrollSnap
-		slot7 = slot7:AddChild()
+		slot7 = slot0.scrollSnap:AddChild()
 
-		LoadImageSpriteAsync("island/islandbanner/" .. slot1[slot5 + 1].pic, slot7)
+		if slot1[slot5 + 1].id == 3 then
+			LoadImageSpriteAsync("activitybanner/island_temp4", slot7)
+		else
+			LoadImageSpriteAsync("island/islandbanner/" .. slot6.pic, slot7)
+		end
+
 		onButton(slot0, slot7, function ()
 			uv0:BannerSkip(uv1)
 		end, SFX_MAIN)
