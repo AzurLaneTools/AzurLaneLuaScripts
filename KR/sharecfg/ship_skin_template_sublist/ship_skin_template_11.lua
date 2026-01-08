@@ -3153,6 +3153,173 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[401992] = {
+		name = "덜렁이 메이드의 대위기!?",
+		change_skin = "",
+		desc = "으으… 안 풀려… 어라!? 지, 지휘관!? 언제부터 거기 있었어!? 이, 이건… 어쩌다 보니 이렇게 됐어! 빨리 어떻게 좀 해봐!",
+		illustrator2 = -1,
+		ship_group = 40199,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "aotuo_3",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 17,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "136",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		ship_l2d_id = "",
+		id = 401992,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "aotuo_3",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 71268,
+		voice_actor = 364,
+		skeleton_default_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			100.2,
+			-481.5,
+			0,
+			0.32
+		},
+		spine_offset_profile = {
+			6,
+			-471.19,
+			0,
+			0.313
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					0.741,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.641,
+					0.707,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.069,
+					0.158,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.799,
+					2.55,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.707,
+							2.457,
+							-0.14
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-261,
+			-895,
+			0,
+			0.425
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					1498,
+					-511,
+					2,
+					-171,
+					0,
+					2
+				},
+				{
+					-294,
+					-201,
+					2,
+					0,
+					246,
+					2.3
+				},
+				{
+					759,
+					365,
+					2,
+					178,
+					0,
+					1.7
+				}
+			}
+		}
+	},
 	[402010] = {
 		name = "쾨니히스베르크",
 		change_skin = "",
@@ -8132,6 +8299,237 @@ pg.base.ship_skin_template_11 = {
 			12,
 			0,
 			0.34
+		}
+	},
+	[403037] = {
+		name = "취기와 밀당 사이",
+		change_skin = "",
+		desc = "지휘관, 꽤 즐거워 보이네? 후후, 다음엔 어떤 재미있는 모습을 보여주려나…… 나? 신경 쓰지 마. 취한 네 민낯을 실컷 구경할 테니까♪",
+		illustrator2 = -1,
+		ship_group = 40303,
+		group_index = 7,
+		painting = "ougen_8",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 16,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "145",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		id = 403037,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "ougen_8",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 71275,
+		voice_actor = 21,
+		skeleton_default_skin = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			9,
+			2
+		},
+		live2d_offset = {
+			85,
+			0,
+			0,
+			59.6
+		},
+		shop_offset = {
+			25,
+			0,
+			0,
+			59.6
+		},
+		purchase_offset = {
+			25,
+			0,
+			0,
+			59.6
+		},
+		live2d_offset_profile = {
+			59.65,
+			15,
+			0,
+			51
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.872,
+					0.805,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.857,
+					0.981,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.169,
+					0.066,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.746,
+					2.249,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			40303701,
+			40303702,
+			40303703,
+			40303704,
+			40303705,
+			40303706,
+			40303707,
+			40303708,
+			40303709,
+			40303710,
+			40303711,
+			40303712,
+			40303713,
+			40303714,
+			40303715,
+			40303716,
+			40303717,
+			40303718,
+			40303719,
+			40303720,
+			40303721,
+			40303722,
+			40303723,
+			40303724,
+			40303725,
+			40303726,
+			40303727,
+			40303728,
+			40303729,
+			40303730,
+			40303731,
+			40303732,
+			40303733,
+			40303734,
+			40303735,
+			40303736,
+			40303737,
+			40303738,
+			40303739,
+			40303740,
+			40303741,
+			40303742,
+			40303743,
+			40303744,
+			40303745,
+			40303746,
+			40303747
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					1291,
+					91,
+					2,
+					0,
+					102,
+					2
+				},
+				{
+					467,
+					705,
+					2,
+					-203,
+					0,
+					2
+				},
+				{
+					-336,
+					-201,
+					2,
+					0,
+					-129,
+					2
+				}
+			}
 		}
 	},
 	[403038] = {
@@ -16778,265 +17176,6 @@ pg.base.ship_skin_template_11 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[405041] = {
-		name = "월하의 대청소",
-		change_skin = "",
-		desc = "네겐 바닥을 부탁하마, 네겐 창문을, 그리고…. 아, 지휘관. 면목 없지만, 청소를 부탁 받아서 말이다. 볼일이 있다면 나중으로 미뤄주면 고맙겠군.",
-		illustrator2 = -1,
-		ship_group = 40504,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "tulingen_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 18,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "156",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 405041,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "tulingen_2",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 70688,
-		voice_actor = 314,
-		skeleton_default_skin = "",
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.616,
-					0.954,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.202,
-					1.234,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.2,
-					0.06,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.247,
-					1.474,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.458,
-							2.287,
-							-1.54
-						}
-					}
-				}
-			}
-		}
-	},
-	[405050] = {
-		name = "비스마르크 Zwei",
-		change_skin = "",
-		desc = "비스마르크급 전함-비스마르크",
-		illustrator2 = -1,
-		ship_group = 40505,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "bisimaiz",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = true,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 405050,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "bisimaiz",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 38,
-		skeleton_default_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.94,
-					2,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.02,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.86,
-					2.01,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							3.05,
-							-0.18
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			-410,
-			-1390,
-			0,
-			2.3
-		},
-		special_effects = {
-			"lihui_bisimaiZ",
-			{
-				-457,
-				-320,
-				0
-			},
-			{
-				3.7
 			}
 		}
 	}

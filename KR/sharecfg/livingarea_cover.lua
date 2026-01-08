@@ -1,5 +1,30 @@
 pg = pg or {}
-pg.livingarea_cover = {
+pg.livingarea_cover = setmetatable({
+	__name = "livingarea_cover",
+	all = {
+		0,
+		100101,
+		100102,
+		100103,
+		100201,
+		100202,
+		100203,
+		100301,
+		100302,
+		100303,
+		101101,
+		101102,
+		101103,
+		101201,
+		101202,
+		101203,
+		101401,
+		101402,
+		101403
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.livingarea_cover = {
 	[0] = {
 		get_tips = "",
 		name = "기본",
@@ -192,22 +217,40 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101203_icon"
 	},
-	all = {
-		0,
-		100101,
-		100102,
-		100103,
-		100201,
-		100202,
-		100203,
-		100301,
-		100302,
-		100303,
-		101101,
-		101102,
-		101103,
-		101201,
-		101202,
-		101203
+	[101401] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "책상 사이의 속삭임",
+		nighttime_res = "101401_bg_night",
+		daytime_res = "101401_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「책상 사이의 속삭임」으로 적용 가능",
+		unlock_text = "에기르의 숙소 친밀도 Lv2 달성 시 오픈",
+		id = 101401,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101401_icon"
+	},
+	[101402] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "느긋한 휴식",
+		nighttime_res = "101402_bg_night",
+		daytime_res = "101402_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「느긋한 휴식」으로 적용 가능",
+		unlock_text = "에기르의 숙소 친밀도 Lv7 달성 시 오픈",
+		id = 101402,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101402_icon"
+	},
+	[101403] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "베갯머리의 유혹",
+		nighttime_res = "101403_bg_night",
+		daytime_res = "101403_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「베갯머리의 유혹」로 적용 가능",
+		unlock_text = "에기르의 숙소 친밀도 Lv10 달성 시 오픈",
+		id = 101403,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101403_icon"
 	}
 }

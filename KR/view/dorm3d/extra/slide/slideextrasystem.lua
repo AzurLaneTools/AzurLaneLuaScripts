@@ -4,6 +4,74 @@ slot0.HIDE_INTERACTION = "SlideExtraSystem.HIDE_INTERACTION"
 slot0.SHOW_PERFORMANCE = "SlideExtraSystem.SHOW_PERFORMANCE"
 slot0.HIDE_PERFORMANCE = "SlideExtraSystem.HIDE_PERFORMANCE"
 
+slot0.OnInit = function(slot0)
+	slot0:RegisterNodeCanvas()
+	slot0:InitScene()
+	slot0:InitData()
+	slot0:InitSlide()
+	slot0:Emit(Dorm3dRoomMediator.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE)
+
+	slot0.pickTimer = Timer.New(function ()
+		uv0:OnPick()
+	end, SlideConst.TIMER_INTERVAL, -1)
+
+	slot0.pickTimer:Start()
+	slot0:OnPick()
+end
+
+slot0.OnUpdate = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.ladyDic) do
+		slot6:OnUpdate()
+	end
+end
+
+slot0.OnDispose = function(slot0)
+	if slot0.pickTimer then
+		slot0.pickTimer:Stop()
+
+		slot0.pickTimer = nil
+	end
+
+	for slot4, slot5 in pairs(slot0.ladyDic) do
+		slot0:RemoveLadySlide(slot4)
+	end
+
+	slot0:Func("ChangePlayerPosition")
+
+	if slot0.slideTreeOwner then
+		slot0.slideTreeOwner.enabled = false
+	end
+
+	if slot0.performanceTreeOwner then
+		slot0.performanceTreeOwner.enabled = false
+	end
+
+	pg.NodeCanvasMgr.GetInstance():UnregisterFunc("Slide.ShowInteraction")
+	pg.NodeCanvasMgr.GetInstance():UnregisterFunc("Slide.HideInteraction")
+	pg.NodeCanvasMgr.GetInstance():UnregisterFunc("Slide.ShowPerformance")
+	pg.NodeCanvasMgr.GetInstance():UnregisterFunc("Slide.HidePerformance")
+	slot0:Emit(Dorm3dRoomMediator.REMOVE_EXTRA_SYSTEM, FurnitureSlideExtraMediator)
+end
+
+slot0.OnHandleNotification = function(slot0, slot1, slot2)
+	if slot1 == ApartmentProxy.UPDATE_SLIDE_INVITE_LIST then
+		slot0:UpdateSlideInviteList(slot2.addIds, slot2.removeIds)
+	elseif slot1 == Dorm3dRoomMediator.REFRESH_FURNITURE_AND_SLOTS_DONE then
+		slot0:InitSlide()
+	end
+end
+
+slot0.GetInterests = function()
+	return {
+		ApartmentProxy.UPDATE_SLIDE_INVITE_LIST,
+		Dorm3dRoomMediator.REFRESH_FURNITURE_AND_SLOTS_DONE
+	}
+end
+
+slot0.IsOpen = function(slot0)
+	return slot0:GetConfigID() == SlideConst.ROOM_ID and slot0:IsFurnitureSetIn(SlideConst.FURNITURE_ID)
+end
+
 slot0.RegisterNodeCanvas = function(slot0)
 	slot1 = pg.NodeCanvasMgr.GetInstance()
 
@@ -30,31 +98,6 @@ slot0.RegisterNodeCanvas = function(slot0)
 	end)
 end
 
-slot0.Init = function(slot0)
-	slot0:RegisterNodeCanvas()
-	slot0:InitScene()
-	slot0:InitData()
-	slot0:InitSlide()
-	slot0:Emit(Dorm3dRoomMediator.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE)
-
-	slot0.updateHandler = UpdateBeat:CreateListener(function ()
-		xpcall(function ()
-			uv0:OnUpdate()
-		end, function (...)
-			errorMsg(debug.traceback(...))
-		end)
-	end)
-
-	UpdateBeat:AddListener(slot0.updateHandler)
-
-	slot0.pickTimer = Timer.New(function ()
-		uv0:OnPick()
-	end, SlideConst.TIMER_INTERVAL, -1)
-
-	slot0.pickTimer:Start()
-	slot0:OnPick()
-end
-
 slot0.InitScene = function(slot0)
 	slot0.sceneSlideConfigs = GameObject.Find("SlideConfigs").transform
 	slot0.movePointsRoot = slot0.sceneSlideConfigs:Find("MovePoints")
@@ -69,7 +112,7 @@ slot0.InitSlide = function(slot0)
 	end
 
 	slot0.slideInited = true
-	slot0.slideGo = slot0:Func("GetSceneItem", "FurnitureSlots/140101/Slide(Clone)")
+	slot0.slideGo = slot0:GetSceneItem("FurnitureSlots/140101/Slide(Clone)")
 
 	assert(slot0.slideGo, "Furniture Slide not found in scene")
 	warning("InitSlide Done")
@@ -191,12 +234,6 @@ slot0.UpdateSlideInviteList = function(slot0, slot1, slot2)
 	end)
 end
 
-slot0.OnUpdate = function(slot0)
-	for slot4, slot5 in pairs(slot0.ladyDic) do
-		slot5:OnUpdate()
-	end
-end
-
 slot0.PlayVFX = function(slot0, slot1)
 	slot2 = slot0.sceneSlideConfigs
 
@@ -204,45 +241,6 @@ slot0.PlayVFX = function(slot0, slot1)
 	onNextTick(function ()
 		setActive(uv0, true)
 	end)
-end
-
-slot0.Dispose = function(slot0)
-	UpdateBeat:RemoveListener(slot0.updateHandler)
-	slot0.pickTimer:Stop()
-
-	for slot4, slot5 in pairs(slot0.ladyDic) do
-		slot0:RemoveLadySlide(slot4)
-	end
-
-	slot0:Func("ChangePlayerPosition")
-
-	slot0.slideTreeOwner.enabled = false
-	slot0.performanceTreeOwner.enabled = false
-
-	pg.NodeCanvasMgr.GetInstance():UnregisterFunc("Slide.ShowInteraction")
-	pg.NodeCanvasMgr.GetInstance():UnregisterFunc("Slide.HideInteraction")
-	pg.NodeCanvasMgr.GetInstance():UnregisterFunc("Slide.ShowPerformance")
-	pg.NodeCanvasMgr.GetInstance():UnregisterFunc("Slide.HidePerformance")
-	slot0:Emit(Dorm3dRoomMediator.REMOVE_EXTRA_SYSTEM, FurnitureSlideExtraMediator)
-end
-
-slot0.HandleNotification = function(slot0, slot1, slot2)
-	if slot1 == ApartmentProxy.UPDATE_SLIDE_INVITE_LIST then
-		slot0:UpdateSlideInviteList(slot2.addIds, slot2.removeIds)
-	elseif slot1 == Dorm3dRoomMediator.REFRESH_FURNITURE_AND_SLOTS_DONE then
-		slot0:InitSlide()
-	end
-end
-
-slot0.GetInterests = function()
-	return {
-		ApartmentProxy.UPDATE_SLIDE_INVITE_LIST,
-		Dorm3dRoomMediator.REFRESH_FURNITURE_AND_SLOTS_DONE
-	}
-end
-
-slot0.IsOpen = function(slot0)
-	return slot0:GetConfigID() == SlideConst.ROOM_ID and slot0:IsFurnitureSetIn(SlideConst.FURNITURE_ID)
 end
 
 return slot0

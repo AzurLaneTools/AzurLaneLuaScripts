@@ -441,8 +441,8 @@ slot0.handleNotification = function(slot0, slot1)
 			})
 		end
 	elseif slot2 == GAME.FRAG_SELL_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		slot0.viewComponent:OnFragmentSellUpdate()
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == GAME.ON_GUILD_SHOP_PURCHASE_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == GAME.ON_MEDAL_SHOP_PURCHASE_DONE then

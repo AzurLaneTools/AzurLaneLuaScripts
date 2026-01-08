@@ -8,7 +8,7 @@ slot0.Init = function(slot0)
 	slot0.clickTF = slot0.controlTF:Find("ClickTips")
 
 	onButton(slot0, slot0.uiTF:Find("btn_back"), function ()
-		uv0:emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "ExitStockingStatus")
+		uv0:emit(Dorm3dStockingMgr.EXIT_STOCKING_STATUS)
 	end, SFX_CANCEL)
 	slot0:InitDragEvent()
 	slot0:InitHint()
@@ -23,14 +23,14 @@ slot0.InitDragEvent = function(slot0)
 	slot1:AddBeginDragFunc(function (slot0, slot1)
 		setActive(uv0.tipTF, false)
 		uv0.timer:Stop()
-		uv0:emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "OnBeginDrag", slot0, slot1)
+		uv0:emit(Dorm3dStockingMgr.ON_BEGIN_DRAG, slot0, slot1)
 	end)
 	slot1:AddDragFunc(function (slot0, slot1)
-		uv0:emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "OnDrag", slot0, slot1)
+		uv0:emit(Dorm3dStockingMgr.ON_DRAG, slot0, slot1)
 	end)
 	slot1:AddDragEndFunc(function (slot0, slot1)
 		uv0.timer:Start()
-		uv0:emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "OnEndDrag", slot0, slot1)
+		uv0:emit(Dorm3dStockingMgr.ON_END_DRAG, slot0, slot1)
 	end)
 end
 
@@ -55,10 +55,13 @@ slot0.InitHint = function(slot0)
 end
 
 slot0.FlushHint = function(slot0)
-	slot1, slot2 = slot0.contextData.GetTipShowInfo()
-	slot5 = slot0.tipTF
+	slot1 = {}
 
-	UIItemList.StaticAlign(slot0.tipTF, slot5:GetChild(0), #slot1, function (slot0, slot1, slot2)
+	slot0:emit(Dorm3dStockingMgr.GET_TIP_SHOW_INFO, slot1)
+
+	slot6 = slot0.tipTF
+
+	UIItemList.StaticAlign(slot0.tipTF, slot6:GetChild(0), #slot1[1], function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end
@@ -69,9 +72,9 @@ slot0.FlushHint = function(slot0)
 		setLocalRotation(slot2, Quaternion.Euler(0, 0, Mathf.Atan2(uv1[slot1].dir.y, uv1[slot1].dir.x) * Mathf.Rad2Deg - 90))
 	end)
 
-	slot5 = slot0.clickTF
+	slot6 = slot0.clickTF
 
-	UIItemList.StaticAlign(slot0.clickTF, slot5:GetChild(0), #slot2, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot0.clickTF, slot6:GetChild(0), #slot1[2], function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end

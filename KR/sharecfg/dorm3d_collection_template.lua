@@ -176,6 +176,33 @@ pg.dorm3d_collection_template = setmetatable({
 			1607,
 			1608,
 			1609
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1404,
+			1405,
+			1406,
+			1407,
+			1408,
+			1409,
+			1410,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1416,
+			1417,
+			1418,
+			1419,
+			1420,
+			1421,
+			1422,
+			1423,
+			1424,
+			1425
 		}
 	},
 	all = {
@@ -339,7 +366,32 @@ pg.dorm3d_collection_template = setmetatable({
 		1606,
 		1607,
 		1608,
-		1609
+		1609,
+		1401,
+		1402,
+		1403,
+		1404,
+		1405,
+		1406,
+		1407,
+		1408,
+		1409,
+		1410,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1416,
+		1417,
+		1418,
+		1419,
+		1420,
+		1421,
+		1422,
+		1423,
+		1424,
+		1425
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3745,6 +3797,531 @@ pg.base.dorm3d_collection_template = {
 		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
+		}
+	},
+	[1401] = {
+		name = "레트로 축음기",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "정교하게 제작된 레트로 스타일 축음기. 선명한 음질로 클래식 레코드 재생에 최적이다.",
+		text = "dorm3d_aijier_chair",
+		id = 1401,
+		icon = "3Ddrom_aijier_item1",
+		model = {
+			"fbx/litmap_01/pre_db_decoration25"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration25/vfx_wupintishi01"
+		}
+	},
+	[1402] = {
+		name = "클래식한 촛대",
+		award = 0,
+		time = 2,
+		room_id = 14,
+		desc = "정교한 디자인의 3구 캔들 스탠드. 황동색 받침대 위에 세 개의 긴 촛불이 꽂혀 따뜻하고 부드러운 빛을 낸다.",
+		text = "dorm3d_aijier_chair",
+		id = 1402,
+		icon = "3Ddrom_aijier_item2",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration26_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration26_on/vfx_wupintishi01"
+		}
+	},
+	[1403] = {
+		name = "레코드 컬렉션",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "엄선된 레코드 컬렉션. 재킷 디자인이 뛰어나고 장르도 다양해 축음기로 감상하기에 안성맞춤이다.",
+		text = "dorm3d_aijier_table",
+		id = 1403,
+		icon = "3Ddrom_aijier_item3",
+		model = {
+			"fbx/litmap_05/pre_db_decoration28"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_decoration28/vfx_wupintishi01"
+		}
+	},
+	[1404] = {
+		name = "트윈벨 알람시계",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "침대 옆에 놓인 알람시계. 맑은 종소리가 꿈결을 뚫고 깊은 잠에서 깨워 준다.",
+		text = "dorm3d_aijier_table",
+		id = 1404,
+		icon = "3Ddrom_aijier_item4",
+		model = {
+			"fbx/litmap_05/pre_db_clock04"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_clock04/vfx_wupintishi01"
+		}
+	},
+	[1405] = {
+		name = "코퍼 잔",
+		award = 0,
+		time = 2,
+		room_id = 14,
+		desc = "우아한 구리 재질의 잔. 아름다운 곡선 실루엣을 지녔으며, 레드 와인이나 리큐르를 즐길 때 자주 사용된다.",
+		text = "dorm3d_aijier_chair",
+		id = 1405,
+		icon = "3Ddrom_aijier_item5",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration23"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration23/vfx_wupintishi01"
+		}
+	},
+	[1406] = {
+		name = "티컵",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "도자기 티컵. 심플하면서도 정교한 디자인으로, 소서와 함께 티타임을 더없이 행복한 시간으로 만들어 준다.",
+		text = "dorm3d_aijier_chair",
+		id = 1406,
+		icon = "3Ddrom_aijier_item6",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a/vfx_wupintishi01"
+		}
+	},
+	[1407] = {
+		name = "벽걸이 액자",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "액자에 장식된 그림. 여러 고전 예술 작품들이 실내에 예술적인 분위기를 더한다.",
+		text = "dorm3d_aijier_chair",
+		id = 1407,
+		icon = "3Ddrom_aijier_item7",
+		model = {
+			"fbx/litmap_01/pre_db_billboard_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard_group/vfx_wupintishi01"
+		}
+	},
+	[1408] = {
+		name = "목제 옷장",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "넉넉한 크기의 목제 옷장. 표면에는 장식 무늬가 새겨져 있고 내부 공간도 넉넉해 다양한 의류를 수납할 수 있다.",
+		text = "dorm3d_aijier_bed",
+		id = 1408,
+		icon = "3Ddrom_aijier_item8",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard38"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard38/vfx_wupintishi01"
+		}
+	},
+	[1409] = {
+		name = "손거울",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "아름다운 무늬가 새겨진 손거울. 표면은 매끄럽고 윤기가 있고, 매일 단장하는 시간을 더욱 우아하고 편리하게 해 준다.",
+		text = "dorm3d_aijier_bed",
+		id = 1409,
+		icon = "3Ddrom_aijier_item9",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05/vfx_wupintishi01"
+		}
+	},
+	[1410] = {
+		name = "장식용 그림 A",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "정교한 장식용 그림. 유화 기법으로 그린 풍경이 사실적으로 표현되어 화가의 뛰어난 기량이 느껴진다.",
+		text = "dorm3d_aijier_chair",
+		id = 1410,
+		icon = "3Ddrom_aijier_item10",
+		model = {
+			"fbx/litmap_01/pre_db_billboard32"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard32/vfx_wupintishi01"
+		}
+	},
+	[1411] = {
+		name = "장식용 그림 B",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "정교한 장식용 그림. 유화 기법으로 그린 풍경이 사실적으로 표현되어 화가의 뛰어난 기량이 느껴진다.",
+		text = "dorm3d_aijier_chair",
+		id = 1411,
+		icon = "3Ddrom_aijier_item11",
+		model = {
+			"fbx/litmap_01/pre_db_billboard31"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard31/vfx_wupintishi01"
+		}
+	},
+	[1412] = {
+		name = "주얼리 케이스",
+		award = 0,
+		time = 1,
+		room_id = 14,
+		desc = "정밀한 디자인의 주얼리 케이스. 내부는 칸막이로 나뉘어 있고, 에기르의 다양한 보석이 보관되어 있다.",
+		text = "dorm3d_aijier_bed",
+		id = 1412,
+		icon = "3Ddrom_aijier_item12",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02/vfx_wupintishi01"
+		}
+	},
+	[1413] = {
+		name = "트렁크 케이스",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "실용적인 트렁크 케이스. 부드러우면서도 내구성이 뛰어난 소재로 제작되었으며 수납력도 뛰어나 일상 외출이나 당일 여행에 자주 사용된다.",
+		text = "dorm3d_aijier_table",
+		id = 1413,
+		icon = "3Ddrom_aijier_item13",
+		model = {
+			"fbx/litmap_03/pre_db_bag08"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bag08/vfx_wupintishi01"
+		}
+	},
+	[1414] = {
+		name = "소형 캐비닛",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "작은 크기의 캐비닛. 내부에는 서랍과 칸막이가 있어 책이나 서류 등을 정리해 둘 수 있다.",
+		text = "dorm3d_aijier_table",
+		id = 1414,
+		icon = "3Ddrom_aijier_item14",
+		model = {
+			"fbx/litmap_05/pre_db_cupboard39"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_cupboard39/vfx_wupintishi01"
+		}
+	},
+	[1415] = {
+		name = "벽난로",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "대리석으로 제작된 검은색 벽난로. 매끄럽고 차가운 촉감이 특징이며, 언제든 불을 지필 수 있도록 장작도 준비되어 있다.",
+		text = "dorm3d_aijier_chair",
+		id = 1415,
+		icon = "3Ddrom_aijier_item15",
+		model = {
+			"fbx/litmap_01/pre_db_fireplace02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fireplace02/vfx_wupintishi01"
+		}
+	},
+	[1416] = {
+		name = "플로어 램프",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "키가 큰 플로어 램프. 반투명 갓을 통해 부드러운 빛이 공간 전체로 퍼진다.",
+		text = "dorm3d_aijier_chair",
+		id = 1416,
+		icon = "3Ddrom_aijier_item16",
+		model = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2/vfx_wupintishi01"
+		}
+	},
+	[1417] = {
+		name = "생화",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "정성스럽게 만든 생화 꽃다발. 붉은 장미와 흰 장미가 가득 장식되어 있으며 상쾌한 꽃 향기가 은은하게 퍼진다.",
+		text = "dorm3d_aijier_bed",
+		id = 1417,
+		icon = "3Ddrom_aijier_item17",
+		model = {
+			"fbx/litmap_01/pre_db_flowers17"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers17/vfx_wupintishi01"
+		}
+	},
+	[1418] = {
+		name = "장식용 꽃",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "차분한 색감을 지닌 장식용 꽃. 희귀한 종류로, 특수한 물품 장식에 사용되는 듯하다.",
+		text = "dorm3d_aijier_chair",
+		id = 1418,
+		icon = "3Ddrom_aijier_item18",
+		model = {
+			"fbx/litmap_01/pre_db_flowers18"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers18/vfx_wupintishi01"
+		}
+	},
+	[1419] = {
+		name = "아로마 캔들",
+		award = 0,
+		time = 2,
+		room_id = 14,
+		desc = "조명과 장식을 겸하는 캔들. 따뜻하고 부드러운 빛과 싱그러운 향기를 함께 발산한다.",
+		text = "dorm3d_aijier_bed",
+		id = 1419,
+		icon = "3Ddrom_aijier_item19",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration24_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration24_on/vfx_wupintishi01"
+		}
+	},
+	[1420] = {
+		name = "스퀘어 캐비닛",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "2단 구조의 목제 캐비닛. 표면에는 장식 무늬가 새겨져 있으며, 내부에는 그녀의 다양한 소품이 수납되어 있다.",
+		text = "dorm3d_aijier_bed",
+		id = 1420,
+		icon = "3Ddrom_aijier_item20",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard37"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard37/vfx_wupintishi01"
+		}
+	},
+	[1421] = {
+		name = "벽등",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "심플한 벽걸이 조명. 방 조명으로 사용되며 공간에 따뜻함을 더해 준다.",
+		text = "dorm3d_aijier_table",
+		id = 1421,
+		icon = "3Ddrom_aijier_item21",
+		model = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7/vfx_wupintishi01"
+		}
+	},
+	[1422] = {
+		name = "화장품 세트",
+		award = 0,
+		time = 1,
+		room_id = 14,
+		desc = "화장품 세트. 외관은 우아하고 품질도 준수해 그녀의 일상용 단골 아이템이다.",
+		text = "dorm3d_aijier_bed",
+		id = 1422,
+		icon = "3Ddrom_aijier_item22",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19/vfx_wupintishi01"
+		}
+	},
+	[1423] = {
+		name = "잡지?",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "아름답게 제본된 한 권의 책. 한가할 때 읽는다고 하며, 들은 바로는 잡지인 것 같기도…?",
+		text = "dorm3d_aijier_bed",
+		id = 1423,
+		icon = "3Ddrom_aijier_item23",
+		model = {
+			"fbx/litmap_01/book_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/book_group/vfx_wupintishi01"
+		}
+	},
+	[1424] = {
+		name = "유화",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "명장이 그린 정교한 유화 작품. 그녀가 특히 아끼는 작품 중 하나다.",
+		text = "dorm3d_aijier_table",
+		id = 1424,
+		icon = "3Ddrom_aijier_item24",
+		model = {
+			"fbx/litmap_05/pre_db_billboard29a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_billboard29a/vfx_wupintishi01"
+		}
+	},
+	[1425] = {
+		name = "황금 트로피",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "어떤 공적으로 수여된 황금 트로피. 아무렇게나 놓여 있어 그다지 소중히 다뤄지지는 않는 듯하다.",
+		text = "dorm3d_aijier_chair",
+		id = 1425,
+		icon = "3Ddrom_aijier_item25",
+		model = {
+			"fbx/litmap_01/pre_db_decoration21"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration21/vfx_wupintishi01"
 		}
 	}
 }

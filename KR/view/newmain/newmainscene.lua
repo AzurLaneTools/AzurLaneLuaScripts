@@ -42,6 +42,10 @@ slot0.GetFlagShip = function(slot0)
 	return getProxy(PlayerProxy):getRawData():GetFlagShip()
 end
 
+slot0.RevertAsmrShip = function(slot0)
+	getProxy(BayProxy):ClearChangeSkinAsmr()
+end
+
 slot0.PlayBgm = function(slot0, slot1)
 	slot2, slot3 = nil
 
@@ -119,17 +123,19 @@ slot0.init = function(slot0)
 	slot4 = slot0._tf
 	slot5 = slot0.event
 	slot0.themes = {
-		[uv0.THEME_CLASSIC] = NewMainClassicTheme.New(slot0._tf, slot0.event, slot0.contextData),
-		[uv0.THEME_MELLOW] = NewMainMellowTheme.New(slot4, slot5, slot0.contextData)
+		[NewMainScene.THEME_CLASSIC] = NewMainClassicTheme.New(slot0._tf, slot0.event, slot0.contextData),
+		[NewMainScene.THEME_MELLOW] = NewMainMellowTheme.New(slot4, slot5, slot0.contextData)
 	}
 
 	for slot4, slot5 in pairs(slot0.themes) do
 		slot5:RegisterView(slot0)
 	end
+
+	slot0:RevertAsmrShip()
 end
 
 slot0.didEnter = function(slot0)
-	slot0:bind(uv0.FOLD, function (slot0, slot1)
+	slot0:bind(NewMainScene.FOLD, function (slot0, slot1)
 		uv0:FoldPanels(slot1)
 
 		if not uv0.paintingView.ship then
@@ -138,7 +144,7 @@ slot0.didEnter = function(slot0)
 
 		uv0.calibrationPage:ExecuteAction("ShowOrHide", slot1, uv0.bgView.ship, uv0.theme:GetPaintingOffset(slot2), uv0.theme:GetCalibrationBG())
 	end)
-	slot0:bind(uv0.HIDE, function (slot0, slot1)
+	slot0:bind(NewMainScene.HIDE, function (slot0, slot1)
 		uv0:HidePanel(slot1)
 
 		if not uv0.paintingView.ship then
@@ -147,10 +153,10 @@ slot0.didEnter = function(slot0)
 
 		uv0.calibrationPage:ExecuteAction("ShowOrHide", slot1, uv0.bgView.ship, uv0.theme:GetPaintingOffset(slot2), uv0.theme:GetCalibrationBG())
 	end)
-	slot0:bind(uv0.ON_CHANGE_SKIN, function (slot0)
+	slot0:bind(NewMainScene.ON_CHANGE_SKIN, function (slot0)
 		uv0:SwitchToNextShip()
 	end)
-	slot0:bind(uv0.ENTER_SILENT_VIEW, function ()
+	slot0:bind(NewMainScene.ENTER_SILENT_VIEW, function ()
 		uv0:ExitCalibrationView()
 		uv0:FoldPanels(true)
 		uv0.silentView:ExecuteAction("Show")
@@ -158,12 +164,12 @@ slot0.didEnter = function(slot0)
 	slot0:bind(GAME.WILL_LOGOUT, function ()
 		uv0:GameLogout()
 	end)
-	slot0:bind(uv0.EXIT_SILENT_VIEW, function ()
+	slot0:bind(NewMainScene.EXIT_SILENT_VIEW, function ()
 		uv0:ExitSilentView()
 		uv0:SetUpSilentChecker()
 		pg.redDotHelper:_Refresh()
 	end)
-	slot0:bind(uv0.ON_SKIN_FREEUSAGE_DESC, function (slot0, slot1)
+	slot0:bind(NewMainScene.ON_SKIN_FREEUSAGE_DESC, function (slot0, slot1)
 		uv0.skinExperienceDisplayPage:ExecuteAction("Show", slot1)
 	end)
 	slot0:bind(NewMainScene.OPEN_LIVEAREA, function (slot0)
@@ -216,11 +222,11 @@ slot0.SetUp = function(slot0, slot1, slot2)
 		end
 	}, function ()
 		uv0:SetUpSilentChecker()
-		uv0:emit(uv1.ON_ENTER_DONE)
+		uv0:emit(NewMainScene.ON_ENTER_DONE)
 
 		uv0.mainCG.blocksRaycasts = true
 
-		if uv2 then
+		if uv1 then
 			gcAll()
 		end
 	end)
@@ -253,6 +259,7 @@ slot0.FoldPanels = function(slot0, slot1)
 	slot0.theme:OnFoldPanels(slot1)
 	slot0.paintingView:Fold(slot1, 0.5)
 	pg.playerResUI:Fold(slot1, 0.5)
+	slot0:SetEffectPanelVisible(not slot1)
 end
 
 slot0.HidePanel = function(slot0, slot1)
@@ -267,7 +274,35 @@ slot0.HidePanel = function(slot0, slot1)
 	slot0.foldFlag = slot1
 
 	slot0.theme:OnFoldPanels(slot1)
-	pg.playerResUI:Fold(slot1, 0.5)
+
+	if slot0._asmrTurnning then
+		if slot0.foldFlag == true then
+			pg.playerResUI:Fold(slot1, 0.5)
+		end
+	else
+		pg.playerResUI:Fold(slot1, 0.5)
+	end
+
+	if not slot1 and slot0._asmrTurnning then
+		slot0:SetEffectPanelVisible(false)
+	else
+		slot0:SetEffectPanelVisible(not slot1)
+	end
+end
+
+slot0.AsmrTurning = function(slot0, slot1)
+	slot0._asmrTurnning = slot1
+
+	slot0.paintingView:OnAsmrTurnning(slot1)
+	slot0.theme:OnAsmrTurnning(slot1)
+	slot0.silentChecker:SetSilentRun(not slot1)
+
+	if not slot0._asmrTurnning then
+		slot0:SetUpSilentChecker()
+		pg.BgmMgr.GetInstance():ContinuePlay()
+	else
+		pg.BgmMgr.GetInstance():StopPlay()
+	end
 end
 
 slot0.SwitchToNextShip = function(slot0)
@@ -319,6 +354,8 @@ slot0.SetEffectPanelVisible = function(slot0, slot1)
 end
 
 slot0.OnVisible = function(slot0)
+	slot0:RevertAsmrShip()
+
 	if not (not slot0.theme or slot0.themes[slot0:GetThemeStyle()] ~= slot0.theme) then
 		slot0:Refresh()
 	else
@@ -354,7 +391,7 @@ slot0.Refresh = function(slot0)
 		end
 	}, function ()
 		uv0:SetUpSilentChecker()
-		uv0:emit(uv1.ON_ENTER_DONE)
+		uv0:emit(NewMainScene.ON_ENTER_DONE)
 
 		uv0.mainCG.blocksRaycasts = true
 	end)
@@ -389,7 +426,7 @@ slot0.OnDisVisible = function(slot0)
 	slot0.isInit = false
 
 	slot0:RevertSleepTimeout()
-	gcAll()
+	slot0:RevertAsmrShip()
 end
 
 slot0.UnloadTheme = function(slot0)

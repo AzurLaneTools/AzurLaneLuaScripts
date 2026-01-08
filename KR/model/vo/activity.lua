@@ -428,16 +428,24 @@ slot0.readyToAchieve = function(slot0)
 			return slot0.data2 <= 0
 		end,
 		[ActivityConst.ACTIVITY_TYPE_SHRINE] = function (slot0)
-			slot5 = pg.NewStoryMgr.GetInstance()
-			slot6 = math.clamp(slot0.data2, 0, slot0:getConfig("config_client").story and #slot1 or 7)
+			slot4 = math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data3, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, slot0:getConfig("config_client").story and #slot1 or 7)
 
-			for slot10 = 1, math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data3, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, slot2) do
-				if slot1[slot10][1] and slot10 <= slot6 and not slot5:IsPlayed(slot11) then
-					return true
+			if slot1 then
+				slot5 = pg.NewStoryMgr.GetInstance()
+				slot6 = math.clamp(slot0.data2, 0, slot2)
+
+				for slot10 = 1, slot4 do
+					if slot1[slot10][1] and slot10 <= slot6 and not slot5:IsPlayed(slot11) then
+						return true
+					end
 				end
 			end
 
 			if slot2 <= slot4 and slot2 <= slot0.data2 and slot0.data1 <= 0 then
+				return true
+			end
+
+			if Shrine2022View.IsNeedShowTipForShipCount() then
 				return true
 			end
 

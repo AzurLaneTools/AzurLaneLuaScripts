@@ -1891,5 +1891,13 @@ pg.voice_actor_CN = {
 	[490] = {
 		actor_name = "후카가와 세리아",
 		code = 490
+	},
+	[491] = {
+		actor_name = "萧清源 ",
+		code = 491
+	},
+	[492] = {
+		actor_name = "曾彤 ",
+		code = 492
 	}
 }

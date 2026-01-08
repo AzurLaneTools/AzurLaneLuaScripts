@@ -70,8 +70,44 @@ pg.dorm3d_dance = {
 			"컷3"
 		}
 	},
+	[49905] = {
+		default_camera = "dance_camera1",
+		song_name = "심연의 기대",
+		director_name = "[sequence]",
+		timeline_scene = "Dance_49905",
+		id = 49905,
+		finish_anim = "weixiao",
+		cucoloris_group = {
+			{
+				301,
+				304,
+				307
+			},
+			{
+				302,
+				305,
+				308
+			},
+			{
+				303,
+				306,
+				309
+			}
+		},
+		camera_tracks = {
+			"dance_camera1",
+			"dance_camera2",
+			"dance_camera3"
+		},
+		camera_names = {
+			"컷1",
+			"컷2",
+			"컷3"
+		}
+	},
 	all = {
 		10517,
-		30707
+		30707,
+		49905
 	}
 }

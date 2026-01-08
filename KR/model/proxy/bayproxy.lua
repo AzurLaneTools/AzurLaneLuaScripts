@@ -36,6 +36,7 @@ slot0.register = function(slot0)
 			end
 		end
 
+		uv0:ClearChangeSkinAsmr()
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end)
 	slot0:on(12031, function (slot0)
@@ -1179,6 +1180,12 @@ slot0.getShipPhantomList = function(slot0, slot1)
 	return underscore.map(slot1, function (slot0)
 		return uv0:GetShipPhantom(slot0)
 	end)
+end
+
+slot0.ClearChangeSkinAsmr = function(slot0)
+	for slot4, slot5 in pairs(slot0.data) do
+		slot5:RevertAsmrSkin()
+	end
 end
 
 slot0.updateShipSkin = function(slot0, slot1, slot2, slot3)

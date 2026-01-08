@@ -90,6 +90,13 @@ pg.benefit_buff_template = setmetatable({
 		86,
 		87,
 		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
 		103,
 		110,
 		111,
@@ -124,6 +131,9 @@ pg.benefit_buff_template = setmetatable({
 		140,
 		141,
 		142,
+		143,
+		144,
+		145,
 		300001,
 		300002,
 		300003,
@@ -1699,6 +1709,125 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
+	{
+		icon = "Props/jianchuanxinyuan",
+		name = "비스마르크의 소원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "비스마르크의 소원――메인 해역·이벤트·작전 문서 스테이지에서 받는 피해량 3% 경감\n잔여 시간: $1",
+		benefit_effect = "520",
+		id = 89,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanxinyuan",
+		name = "사우스다코타의 소원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "사우스다코타의 소원――메인 해역·이벤트·작전 문서 스테이지에서 획득할 수 있는 경험치 3% 증가\n잔여 시간: $1",
+		benefit_effect = "3",
+		id = 90,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanxinyuan",
+		name = "쿠이비셰프의 소원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "쿠이비셰프의 소원――숙소에서 획득할 수 있는 경험치 3% 증가\n잔여 시간: $1",
+		benefit_effect = "3",
+		id = 91,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanxinyuan",
+		name = "임페로의 소원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "임페로의 소원――숙소에서 획득할 수 있는 경험치 3% 증가\n잔여 시간: $1",
+		benefit_effect = "3",
+		id = 92,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanxinyuan",
+		name = "벨파스트의 소원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "벨파스트의 소원――메인 해역·이벤트·작전 문서 스테이지에서 받는 피해량 3% 경감\n잔여 시간: $1",
+		benefit_effect = "520",
+		id = 93,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanxinyuan",
+		name = "리슐리외의 소원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "리슐리외의 소원――메인 해역·이벤트·작전 문서 스테이지에서 받는 피해량 3% 경감\n잔여 시간: $1",
+		benefit_effect = "520",
+		id = 94,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanxinyuan",
+		name = "그라프 체펠린의 소원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "그라프 체펠린의 소원――메인 해역·이벤트·작전 문서 스테이지에서 획득할 수 있는 경험치 3% 증가\n잔여 시간: $1",
+		benefit_effect = "3",
+		id = 95,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
 	[103] = {
 		icon = "Props/newserver_skill",
 		name = "신입 지휘관 스킬 강화속도 UP",
@@ -2364,6 +2493,45 @@ pg.base.benefit_buff_template = {
 		id = 142,
 		type_priority = 0,
 		benefit_type = "ship_battle_intimacy"
+	},
+	[143] = {
+		icon = "Props/buff_xinyuan_1",
+		name = "학업 기원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "전술학원에서 스킬을 새로 강화할 때 소요 시간이 조금 단축됨\n잔여 시간: $1",
+		benefit_effect = "300",
+		id = 143,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up"
+	},
+	[144] = {
+		icon = "Props/buff_xinyuan_2",
+		name = "행운 기원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "메인 해역 및 작전 문서 해역에서 전투 시 아군이 주는 피해량이 조금 증가\n잔여 시간: $1",
+		benefit_effect = "522",
+		id = 144,
+		type_priority = 0,
+		benefit_type = "battle_buff"
+	},
+	[145] = {
+		icon = "Props/buff_xinyuan_3",
+		name = "인연 기원",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "비서함의 호감도 상승 속도 증가\n잔여 시간: $1",
+		benefit_effect = "1",
+		id = 145,
+		type_priority = 0,
+		benefit_type = "intimacy_up_extra"
 	},
 	[300001] = {
 		icon = "Props/300001",

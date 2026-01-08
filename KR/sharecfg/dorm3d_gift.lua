@@ -30,6 +30,10 @@ pg.dorm3d_gift = {
 			{
 				30707,
 				120301
+			},
+			{
+				49905,
+				140301
 			}
 		},
 		unlock_tips = {},
@@ -63,6 +67,12 @@ pg.dorm3d_gift = {
 				{
 					"banner_dafeng"
 				}
+			},
+			{
+				49905,
+				{
+					"banner_aijier"
+				}
 			}
 		}
 	},
@@ -94,7 +104,11 @@ pg.dorm3d_gift = {
 			},
 			{
 				30707,
-				120301
+				120302
+			},
+			{
+				49905,
+				140302
 			}
 		},
 		shop_id = {
@@ -135,6 +149,12 @@ pg.dorm3d_gift = {
 				{
 					"banner_dafeng"
 				}
+			},
+			{
+				49905,
+				{
+					"banner_aijier"
+				}
 			}
 		}
 	},
@@ -166,7 +186,11 @@ pg.dorm3d_gift = {
 			},
 			{
 				30707,
-				120301
+				120303
+			},
+			{
+				49905,
+				140303
 			}
 		},
 		shop_id = {
@@ -203,6 +227,12 @@ pg.dorm3d_gift = {
 				30707,
 				{
 					"banner_dafeng"
+				}
+			},
+			{
+				49905,
+				{
+					"banner_aijier"
 				}
 			}
 		}
@@ -477,6 +507,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[4990501] = {
+		display = "마치 아침 햇살에 감싸인 꽃봉오리처럼 우아하고 가련한 잔. \n둘이 쌓은 달콤한 추억이 곡선 속에 살며시 스며든다.",
+		name = "튤립 잔",
+		unlock_dialogue_id = 140541,
+		rarity = 4,
+		ship_group_id = 49905,
+		favor_trigger_id = 1004,
+		id = 4990501,
+		icon = "dorm3dicon/3Ddrom_aijier_FancyGift1",
+		reply_dialogue_id = {
+			{
+				49905,
+				140304
+			}
+		},
+		shop_id = {
+			260601
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				49905,
+				{
+					"banner_gift4990501"
+				}
+			}
+		}
+	},
 	get_id_list_by_ship_group_id = {
 		[0] = {
 			1021001,
@@ -501,6 +561,9 @@ pg.dorm3d_gift = {
 		},
 		[30707] = {
 			3070701
+		},
+		[49905] = {
+			4990501
 		}
 	},
 	all = {
@@ -515,6 +578,7 @@ pg.dorm3d_gift = {
 		1990301,
 		1990302,
 		1051701,
-		3070701
+		3070701,
+		4990501
 	}
 }

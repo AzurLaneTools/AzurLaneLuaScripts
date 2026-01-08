@@ -3924,6 +3924,12 @@ pg.memory_template = setmetatable({
 		4933,
 		4934,
 		4935,
+		4941,
+		4942,
+		4943,
+		4944,
+		4945,
+		4946,
 		10000,
 		10001,
 		10002,
@@ -62912,7 +62918,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "사근사근한 메이드",
-		condition = "「모항 패션 컬렉션: 나만의 설렘 시간(상)」 페이지에서 렉싱턴II 선택",
+		condition = "「스킨 특집」 페이지에서 렉싱턴II 선택",
 		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKE1",
 		id = 4931,
 		icon = "memory_gangqushishangtekan",
@@ -62927,7 +62933,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "전대미문의 메이드 서비스",
-		condition = "「모항 패션 컬렉션: 나만의 설렘 시간(상)」 페이지에서 윌리엄 D 포터 선택",
+		condition = "「스킨 특집」 페이지에서 윌리엄 D 포터 선택",
 		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKE2",
 		id = 4932,
 		icon = "memory_gangqushishangtekan",
@@ -62942,7 +62948,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "밀키 케어",
-		condition = "「모항 패션 컬렉션: 나만의 설렘 시간(상)」 페이지에서 카우펜스 선택",
+		condition = "「스킨 특집」 페이지에서 카우펜스 선택",
 		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKE3",
 		id = 4933,
 		icon = "memory_gangqushishangtekan",
@@ -62957,7 +62963,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "간다, 벌칙 게임!",
-		condition = "「모항 패션 컬렉션: 나만의 설렘 시간(상)」 페이지에서 패서디나 선택",
+		condition = "「스킨 특집」 페이지에서 패서디나 선택",
 		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKE4",
 		id = 4934,
 		icon = "memory_gangqushishangtekan",
@@ -62972,13 +62978,103 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "온기를 나누는 저녁",
-		condition = "「모항 패션 컬렉션: 나만의 설렘 시간(상)」 페이지에서 요크타운II 선택",
+		condition = "「스킨 특집」 페이지에서 요크타운II 선택",
 		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKE5",
 		id = 4935,
 		icon = "memory_gangqushishangtekan",
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANZHUANSHUXINDONGSHIKE5"
+		}
+	},
+	[4941] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "자애로운 정화 의식",
+		condition = "「스킨 특집」 페이지에서 하우덴 리우 선택",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII1",
+		id = 4941,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII1"
+		}
+	},
+	[4942] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "미드나이트 인바이트",
+		condition = "「스킨 특집」 페이지에서 캔자스 선택",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII2",
+		id = 4942,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII2"
+		}
+	},
+	[4943] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "덜렁이 메이드의 대위기? !",
+		condition = "「스킨 특집」 페이지에서 오토 폰 알벤슬레벤 선택",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII3",
+		id = 4943,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII3"
+		}
+	},
+	[4944] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "낙인 자국",
+		condition = "「스킨 특집」 페이지에서 메클렌부르크 선택",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII4",
+		id = 4944,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII4"
+		}
+	},
+	[4945] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "꿈을 기다리는 이",
+		condition = "「스킨 특집」 페이지에서 기샹 선택",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII5",
+		id = 4945,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII5"
+		}
+	},
+	[4946] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "취기와 밀당 사이",
+		condition = "\"스킨 특집\" 페이지에서 프린츠 오이겐 선택",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII6",
+		id = 4946,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII6"
 		}
 	},
 	[10000] = {

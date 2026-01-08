@@ -577,9 +577,6 @@ end
 slot0.UpdateLive2dPainting = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = function(slot0)
 		slot1 = uv0:GetVirtualShip()
-
-		print(slot1:GetSkinConfig().id)
-
 		GetOrAddComponent(uv2._go, typeof(CanvasGroup)).blocksRaycasts = false
 		uv2.live2dChars[uv1] = Live2D.New(Live2D.GenerateData({
 			ship = slot1,
@@ -749,13 +746,14 @@ slot0.UpdateSpinePainting = function(slot0, slot1, slot2, slot3, slot4)
 		slot2 = uv0
 		slot2 = slot2:Find("spinebg")
 		slot3 = uv1
+		slot6 = uv1
 		slot7 = uv1
 
 		setActive(slot2, not slot7:IsHideSpineBg())
 
 		uv2.spinePainings[uv0] = SpinePainting.New(SpinePainting.GenerateData({
 			ship = slot3:GetVirtualShip(),
-			position = Vector3(0, 0, 0),
+			position = slot6:GetSpinePosition(),
 			parent = slot1:Find("spine"),
 			effectParent = slot2
 		}), function (slot0)

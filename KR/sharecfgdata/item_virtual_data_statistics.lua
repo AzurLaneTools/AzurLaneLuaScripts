@@ -175776,6 +175776,56 @@ _G.pg.base.item_virtual_data_statistics[65793] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65794] = {
+	drop_gold_max = 0,
+	name = "겨울의 소원",
+	display = "7개 모으면 SSR 함선으로 교환할 수 있는 「소원 카드」 획득 가능!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65794",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65794,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65795] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권 (2026.1.21까지)",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료(2026.1.21까지) 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65795,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "목재",
@@ -184326,6 +184376,68 @@ _G.pg.base.item_virtual_data_statistics[86222] = {
 		{
 			102234,
 			2000
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86223] = {
+	drop_gold_max = 0,
+	name = "랜덤 스킨",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86223,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			1199011,
+			1000
+		},
+		{
+			499101,
+			1000
+		},
+		{
+			403037,
+			1000
+		},
+		{
+			802032,
+			1000
+		},
+		{
+			401992,
+			1000
+		},
+		{
+			199061,
+			1000
+		},
+		{
+			702052,
+			1340
+		},
+		{
+			799031,
+			1330
+		},
+		{
+			699031,
+			1330
 		}
 	}
 }

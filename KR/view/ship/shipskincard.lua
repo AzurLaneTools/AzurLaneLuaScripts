@@ -100,6 +100,7 @@ slot0.updateData = function(slot0, slot1, slot2, slot3)
 
 		if slot4 then
 			slot0.changeSkinToggle:setShipData(slot0.skin.id, slot0.ship:GetShipPhantomMark())
+			setActive(slot0.changeSkinTF, not slot0.changeSkinToggle:IsAsmrSkin())
 		end
 
 		setActive(slot0.nameBar, true)

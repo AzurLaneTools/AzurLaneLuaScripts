@@ -1146,7 +1146,7 @@ pg.dorm3d_furniture_template = {
 	},
 	[1153] = {
 		rarity = 4,
-		name = "천외피소",
+		name = "별 밖의 은신처",
 		type = 4,
 		room_id = 11,
 		desc = "기술과 미적 감각이 융합된 은밀한 휴식 공간. 마치 은하의 끝에 있는 따뜻한 쉘터와도 같은 느낌이다. \n 몸을 맡기면 일상을 잊고 우주의 꿈에 빠져들 수 있다.",
@@ -1435,6 +1435,223 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/entertainment"
 		}
 	},
+	[1401] = {
+		rarity = 3,
+		name = "푹신한 실크 침대",
+		unlock_tips = "",
+		type = 4,
+		room_id = 14,
+		desc = "클래식한 디자인의 더블 침대. 검은색 헤드보드와 붉은 벨벳 담요, 부드러운 매트리스와 베개가 지친 몸과 마음에 따뜻한 안식을 선사한다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1401,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990510
+			}
+		},
+		shop_id = {}
+	},
+	[1402] = {
+		rarity = 3,
+		name = "심플 데스크",
+		unlock_tips = "",
+		type = 6,
+		room_id = 14,
+		desc = "검은색 목재와 심플한 붉은 의자가 조화를 이루는 책상. 실용성과 고전적인 분위기를 모두 갖추고 있다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1402,
+		target_slots = {
+			1140201
+		},
+		touch_id = {
+			{
+				49905,
+				4990520
+			}
+		},
+		shop_id = {}
+	},
+	[1403] = {
+		rarity = 3,
+		name = "천연가죽 소파",
+		unlock_tips = "",
+		type = 5,
+		room_id = 14,
+		desc = "부드럽고 편안한 착석감을 자랑하는 천연가죽 소파. 둥근 티 테이블과 함께 배치하면 혼자만의 시간을 여유롭게 보낼 수 있는 이상적인 공간으로 변신한다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1403,
+		target_slots = {
+			1140301
+		},
+		touch_id = {
+			{
+				49905,
+				4990530
+			}
+		},
+		shop_id = {}
+	},
+	[1411] = {
+		rarity = 2,
+		name = "롱 캔들",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "아이보리 화이트 색상의 기다란 촛불. 부드럽고 따뜻한 빛으로 밤에 고요함과 로맨틱한 분위기를 더해 준다.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1411,
+		target_slots = {
+			1140303
+		},
+		shop_id = {}
+	},
+	[1412] = {
+		rarity = 2,
+		name = "초록 분재",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "대형 관엽식물. 크고 푸른 잎이 공간에 생기를 불어넣을 뿐 아니라 공기 정화 효과도 있다.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_bonsai01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1412,
+		target_slots = {
+			1140202
+		},
+		shop_id = {}
+	},
+	[1413] = {
+		rarity = 2,
+		name = "데스크 라이트",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "책상 위에 놓인 미니 조명. 따뜻한 빛으로 밤 시간의 독서나 작업을 쾌적하게 해 준다.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_desklamp01_on",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1413,
+		target_slots = {
+			1140103
+		},
+		shop_id = {}
+	},
+	[1414] = {
+		rarity = 2,
+		name = "레트로 카메라",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "옛 정취가 살아 있는 레트로 카메라. 세월의 흔적이 느껴지는 독특한 디자인으로 사진 애호가의 컬렉션에 제격이다.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_camera01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1414,
+		target_slots = {
+			1140102
+		},
+		shop_id = {}
+	},
+	[1415] = {
+		rarity = 2,
+		name = "초상화",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "클래식한 터치로 그려진 추상파 스타일의 초상화. 선명하고 깊이감 있는 상반되는 색채의 공존으로, 의외로 방의 분위기와 잘 어울린다.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1415,
+		target_slots = {
+			1140302
+		},
+		shop_id = {}
+	},
+	[1461] = {
+		rarity = 4,
+		name = "진홍의 고요",
+		type = 4,
+		room_id = 14,
+		desc = "프라이빗하고 로맨틱한 비밀 공간. 붉은 벨벳 침구와 슬라이드식 캐노피 커튼이 밤에 고요함과 따뜻함을 더해 준다.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
+		acesses = "",
+		id = 1461,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990540
+			}
+		},
+		shop_id = {
+			270601
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1461"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1502,6 +1719,17 @@ pg.dorm3d_furniture_template = {
 			1215,
 			1221,
 			1222
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1461
 		}
 	},
 	all = {
@@ -1559,6 +1787,15 @@ pg.dorm3d_furniture_template = {
 		1214,
 		1215,
 		1221,
-		1222
+		1222,
+		1401,
+		1402,
+		1403,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1461
 	}
 }

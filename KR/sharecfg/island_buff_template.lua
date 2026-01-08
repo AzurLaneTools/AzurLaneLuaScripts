@@ -104,6 +104,28 @@ pg.island_buff_template = {
 		type_duel = {},
 		buff_duel = {}
 	},
+	{
+		name = "매출 상승",
+		buff_group = 1,
+		buff_desc = "가게 직원으로 배치하면, 해당 가게의 매출이 8시간 동안 5% 상승",
+		buff_color = 2,
+		buff_type = 601,
+		buff_time = 28800,
+		buff_level = 1,
+		id = 5,
+		type_use = {
+			{
+				601,
+				602,
+				603,
+				604,
+				901
+			},
+			5
+		},
+		type_duel = {},
+		buff_duel = {}
+	},
 	[10000] = {
 		name = "제조 기술",
 		buff_group = 1000,
@@ -3159,6 +3181,7 @@ pg.island_buff_template = {
 		2,
 		3,
 		4,
+		5,
 		10000,
 		10001,
 		10002,

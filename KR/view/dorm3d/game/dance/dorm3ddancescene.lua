@@ -56,23 +56,27 @@ slot0.init = function(slot0)
 	slot0.canvas = slot1:GetChild(0)
 
 	pg.BgmMgr.GetInstance():StopPlay()
+
+	slot2 = Dorm3dHxHelper.GetTimelineMainCharacter()
+
+	Dorm3dHxHelper.ReplaceCharacterParts(slot2)
+	Dorm3dHxHelper.ShowHolyLight({
+		slot2
+	}, slot0.holyLightRoot)
 end
 
 slot0.InitUI = function(slot0)
 	slot1 = slot0._tf
 	slot0.basePanel = slot1:Find("Base")
-	slot3 = slot0._tf
 
-	onButton(slot0, slot3:Find("Base/BackBtn"), function ()
+	onButton(slot0, slot0._tf:Find("Base/BackBtn"), function ()
 		uv0:emit(BaseUI.ON_BACK)
 	end, SFX_DORM_BACK)
 
-	slot2 = slot0._tf
-	slot0.prepareView = Dorm3dDancePrepareSubView.New(slot2:Find("Prepare"), slot0.event, setmetatable({}, {
+	slot0.prepareView = Dorm3dDancePrepareSubView.New(slot0._tf:Find("Prepare"), slot0.event, setmetatable({}, {
 		__index = slot0.contextData
 	}))
-	slot2 = slot0._tf
-	slot0.gameView = Dorm3dDanceGameSubView.New(slot2:Find("Game"), slot0.event, setmetatable({
+	slot0.gameView = Dorm3dDanceGameSubView.New(slot0._tf:Find("Game"), slot0.event, setmetatable({
 		onSwitchCamera = function (slot0)
 			uv0:SwtichCamera(slot0)
 		end,
@@ -96,8 +100,7 @@ slot0.InitUI = function(slot0)
 	}, {
 		__index = slot0.contextData
 	}))
-	slot2 = slot0._tf
-	slot0.resultView = Dorm3dDanceResultSubView.New(slot2:Find("Result"), slot0.event, setmetatable({
+	slot0.resultView = Dorm3dDanceResultSubView.New(slot0._tf:Find("Result"), slot0.event, setmetatable({
 		onAgain = function ()
 			uv0:InitData()
 			uv0:PrepareGame()
@@ -116,8 +119,7 @@ slot0.InitUI = function(slot0)
 		[Dorm3dDanceConst.VIEW_ENUM.GAME] = slot0.gameView,
 		[Dorm3dDanceConst.VIEW_ENUM.RESULT] = slot0.resultView
 	}
-	slot2 = slot0._tf
-	slot0.photoWindow = Dorm3dDancePhotoWindow.New(slot2:Find("Photo"), slot0.event, setmetatable({
+	slot0.photoWindow = Dorm3dDancePhotoWindow.New(slot0._tf:Find("Photo"), slot0.event, setmetatable({
 		onHide = function ()
 			uv0:ShowOrHideUI(true)
 			uv0:GameResume()
@@ -131,6 +133,7 @@ slot0.InitUI = function(slot0)
 	}, {
 		__index = slot0.contextData
 	}))
+	slot0.holyLightRoot = slot0._tf:Find("HolyLightRoot")
 end
 
 slot0.InitScene = function(slot0)
@@ -306,7 +309,11 @@ end
 slot0.TakePhoto = function(slot0)
 	slot0:GamePause()
 	slot0:ShowOrHideUI(false)
-	BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(slot0.timelineCamera, function (slot0)
+
+	slot2, slot3 = Dorm3dHxHelper.GetHolyLightScreenShotInfo(slot0.holyLightRoot)
+	slot4 = GraphicsInterface.Instance
+
+	slot4:TakePhotoWithPost(slot0.timelineCamera, slot2, slot3, function (slot0)
 		table.insert(uv0.contextData.photoData, {
 			camera = uv0.contextData.curCamera,
 			time = uv0.timelinePlayer:GetTime(),

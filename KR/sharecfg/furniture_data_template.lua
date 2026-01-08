@@ -178,6 +178,7 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
+			322,
 			323,
 			100002,
 			100003,
@@ -6073,6 +6074,7 @@ pg.furniture_data_template = setmetatable({
 			308,
 			313,
 			317,
+			322,
 			100002,
 			100003,
 			100004,
@@ -7338,6 +7340,7 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
+			322,
 			323,
 			100002,
 			100004,
@@ -10676,6 +10679,7 @@ pg.furniture_data_template = setmetatable({
 		318,
 		319,
 		321,
+		322,
 		323,
 		100002,
 		100003,
@@ -22826,6 +22830,75 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[322] = {
+		advice = 0,
+		name = "MuMu 오락기",
+		count = 1,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "mumujiejiicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 322,
+		comfortable = 2,
+		describe = "MuMu와 함께 시원하고 짜릿한 아케이드 대전을 즐겨보세요!",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mumujieji",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	[323] = {
 		can_rotate = 0,
 		describe = "이사회 천문대를 모티브로 한 미니어처. 밝게 빛나는 별들은 홀로그램이 아닌, 탑재된 불꽃 발사 장치로 연출되고 있다. ――「하늘이 울리는 소리」 이벤트 참가 보상.",
@@ -27740,7 +27813,7 @@ pg.base.furniture_data_template = {
 	},
 	[100070] = {
 		can_rotate = 0,
-		describe = "나일 문명의 매력을 느껴보세요!",
+		describe = "나일강 문명의 매력을 느껴라!",
 		gain_by = "",
 		type = 2,
 		dir = 0,

@@ -96,6 +96,8 @@ pg.pay_data_display = setmetatable({
 		9001,
 		9007,
 		9008,
+		9009,
+		9010,
 		1000,
 		1001,
 		1002,
@@ -11579,6 +11581,274 @@ pg.base.pay_data_display = {
 			{
 				2,
 				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[9009] = {
+		picture = "fudai31",
+		name = "축제의 밤 패키지·II",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "축제의 밤 패키지·II",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift169",
+		extra_gem = 0,
+		id = 9009,
+		airijp_id = "com.yostarjp.azurlane.diamond191",
+		name_display = "축제의 밤 패키지·II",
+		first_text = "랜덤 스킨과 다이아",
+		akashi_pick = 1,
+		skin_inquire_relation = 86223,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86223,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					1,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81231,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86223,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9010] = {
+		picture = "fudai20",
+		name = "게임의 밤 패키지·II 복각",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "게임의 밤 패키지·II 복각",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift170",
+		extra_gem = 0,
+		id = 9010,
+		airijp_id = "com.yostarjp.azurlane.diamond192",
+		name_display = "게임의 밤 패키지·II 복각",
+		first_text = "랜덤 스킨과 다이아",
+		akashi_pick = 1,
+		skin_inquire_relation = 86209,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86209,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					1,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81209,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86209,
 				1
 			},
 			{

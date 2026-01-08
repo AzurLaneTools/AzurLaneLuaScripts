@@ -225,6 +225,56 @@ pg.dorm3d_ins_language = {
 		key = "dafeng_2_2_1",
 		is_active = "0"
 	},
+	aijier_1 = {
+		value = "와인의 향기인가, 아니면 커피의 향기인가…… 딱 하나만 고르기가 어렵네.",
+		key = "aijier_1",
+		is_active = "0"
+	},
+	aijier_1_1 = {
+		value = "각자 하나씩 고르는 게 어때?",
+		key = "aijier_1_1",
+		is_active = "0"
+	},
+	aijier_1_1_1 = {
+		value = "먼저 선택해도 되는 거면…… 와인을 고르고, 커피는 네 걸 한 모금 얻어 마시지 뭐.",
+		key = "aijier_1_1_1",
+		is_active = "0"
+	},
+	aijier_1_2 = {
+		value = "그렇게 고민되면 아예 다른 걸 마시러 가는 건 어때?",
+		key = "aijier_1_2",
+		is_active = "0"
+	},
+	aijier_1_2_1 = {
+		value = "그렇게까지 말하니, 같이 가주지 뭐.",
+		key = "aijier_1_2_1",
+		is_active = "0"
+	},
+	aijier_2 = {
+		value = "너무 조용한 오후라…… 오히려 마음이 안 놓이네……",
+		key = "aijier_2",
+		is_active = "0"
+	},
+	aijier_2_1 = {
+		value = "뭐 마시고 싶은 거 있어? 가져다 줄게.",
+		key = "aijier_2_1",
+		is_active = "0"
+	},
+	aijier_2_1_1 = {
+		value = "음… 그럼 커피를 가져다 줘. 그리고 함께 이 조용한 시간을 보내자고.",
+		key = "aijier_2_1_1",
+		is_active = "0"
+	},
+	aijier_2_2 = {
+		value = "에기르도 이런 편안한 분위기를 좋아하는구나.",
+		key = "aijier_2_2",
+		is_active = "0"
+	},
+	aijier_2_2_1 = {
+		value = "그래, 같이…… 이 소중한 오후 시간을 같이 즐기자고.",
+		key = "aijier_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -270,6 +320,16 @@ pg.dorm3d_ins_language = {
 		"dafeng_2_1",
 		"dafeng_2_1_1",
 		"dafeng_2_2",
-		"dafeng_2_2_1"
+		"dafeng_2_2_1",
+		"aijier_1",
+		"aijier_1_1",
+		"aijier_1_1_1",
+		"aijier_1_2",
+		"aijier_1_2_1",
+		"aijier_2",
+		"aijier_2_1",
+		"aijier_2_1_1",
+		"aijier_2_2",
+		"aijier_2_2_1"
 	}
 }

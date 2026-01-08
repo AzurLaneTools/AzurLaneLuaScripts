@@ -8,7 +8,6 @@ slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot0.switcherAnimationPlayer = slot0._tf:Find("frame/right"):GetComponent(typeof(Animation))
-	slot0.fxEffect = slot0._tf:Find("frame/right/1/battle/root/FX")
 	slot0.animationPlayer = slot0._tf:GetComponent(typeof(Animation))
 	slot0.dftAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
 	slot0.switcher = slot0._tf:Find("frame/right/switch")
@@ -67,7 +66,7 @@ end
 slot0.SetEffectPanelVisible = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.panels) do
 		if isa(slot6, MainRightPanel4Mellow) then
-			slot6:SetVisible(slot1)
+			slot6:SetEffectVisible(slot1)
 		end
 	end
 end
@@ -168,6 +167,15 @@ end
 
 slot0.GetChangeSkinView = function(slot0)
 	return MainChangeSkinView.New(slot0._tf:Find("frame/right/change_skin"), slot0.event)
+end
+
+slot0.GetAsmrChatView = function(slot0)
+	return MainAsmrChatView.New(slot0._tf:Find("frame/bottom/asmr_chat"), slot0.event)
+end
+
+slot0.OnAsmrTurnning = function(slot0, slot1)
+	uv0.super.OnAsmrTurnning(slot0, slot1)
+	setActive(findTF(slot0._tf, "s"), not slot1)
 end
 
 slot0.GetRedDots = function(slot0)

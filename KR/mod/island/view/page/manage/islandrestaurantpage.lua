@@ -72,6 +72,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.buffInfoEmptyTF = slot0.buffInfoPanel:Find("empty")
 
 	setText(slot0.buffInfoEmptyTF:Find("Text"), i18n("island_manage_no_addition"))
+	setText(slot0.buffInfoPanel:Find("tips"), i18n("island_manage_buff_tip"))
 
 	slot0.btnsTF = slot1:Find("btns")
 
@@ -88,6 +89,15 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_manage.tip
+		})
+	end, SFX_PANEL)
+
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("top/back"), function ()
@@ -363,7 +373,7 @@ slot0.FlushAssistants = function(slot0)
 	slot0.extraCapacity = 0
 	slot0.buffInfos = {}
 
-	for slot6, slot7 in ipairs(IslandBuffHelper.GetManangeSellPriceBuffs(slot0.selectedShips, slot0.restId)) do
+	for slot6, slot7 in ipairs(IslandBuffHelper.GetManageSellPriceBuffs(slot0.selectedShips, slot0.restId)) do
 		slot8 = slot7:GetBuffEffect()[2]
 
 		table.insert(slot0.buffInfos, {
@@ -374,7 +384,7 @@ slot0.FlushAssistants = function(slot0)
 		slot0.extraPricePer = slot0.extraPricePer + slot8 / 100
 	end
 
-	for slot7, slot8 in ipairs(IslandBuffHelper.GetManangeSellNumBuffs(slot0.selectedShips, slot0.restId)) do
+	for slot7, slot8 in ipairs(IslandBuffHelper.GetManageSellNumBuffs(slot0.selectedShips, slot0.restId)) do
 		slot9 = slot8:GetBuffEffect()[2]
 
 		table.insert(slot0.buffInfos, {
@@ -385,8 +395,30 @@ slot0.FlushAssistants = function(slot0)
 		slot0.extraCapacity = slot0.extraCapacity + slot9
 	end
 
-	setActive(slot0.extraCapacityTF, slot0.extraCapacity > 0)
+	if slot0.statusCheckTimer then
+		slot0.statusCheckTimer:Stop()
+	end
+
+	if slot0.isOperable then
+		slot0.shipStatus = IslandBuffHelper.GetManageStatus(slot0.selectedShips, slot0.restId)
+
+		if #slot0.shipStatus > 0 then
+			slot0.statusCheckTimer = Timer.New(function ()
+				if underscore.reduce(uv0.shipStatus, 0, function (slot0, slot1)
+					return slot0 + (slot1:IsExpiration() and 1 or 0)
+				end) > 0 then
+					uv0:OnStatusExpired()
+				end
+			end, 1, -1)
+
+			slot0.statusCheckTimer:Start()
+		end
+	end
+
+	setActive(slot0.extraCapacityTF, slot0.isOperable and slot0.extraCapacity > 0)
 	setText(slot0.extraCapacityEffectTF, "+" .. slot0.extraCapacity)
+	slot0.buffInfoUIList:align(#slot0.buffInfos)
+	setActive(slot0.buffInfoEmptyTF, #slot0.buffInfos == 0)
 
 	slot4 = slot0.shelfInfos and #slot0.shelfInfos > 0 and slot0.selectedShipIds and #slot0.selectedShipIds > 0
 
@@ -446,7 +478,7 @@ slot0.UpdateShipItem = function(slot0, slot1, slot2)
 				setActive(slot9:Find("invalid"), false)
 				LoadImageSpriteAsync("island/islandskillicon/" .. slot7:GetIcon(), slot9:Find("skill_icon"))
 				setText(slot9:Find("skill_name"), slot7:GetName())
-				UIItemList.StaticAlign(slot9:Find("effects"), slot9:Find("effects/tpl"), #IslandBuffHelper.GetAllShipManangeBuffs(slot5, slot0.restId), function (slot0, slot1, slot2)
+				UIItemList.StaticAlign(slot9:Find("effects"), slot9:Find("effects/tpl"), #IslandBuffHelper.GetAllShipManageBuffs(slot5, slot0.restId), function (slot0, slot1, slot2)
 					if slot0 == UIItemList.EventUpdate then
 						slot5 = ""
 						slot6 = ""
@@ -593,13 +625,16 @@ slot0.UpdateShelfItem = function(slot0, slot1, slot2)
 	setActive(slot2:Find("commodity"), slot4 and slot5)
 
 	if slot5 then
-		slot6 = slot2:Find("commodity")
-
-		LoadImageSpriteAsync("island/" .. uv0[slot5.id].icon, slot6:Find("bg/icon"))
+		LoadImageSpriteAsync("island/" .. uv0[slot5.id].icon, slot2:Find("commodity"):Find("bg/icon"))
 
 		slot7 = slot0.baseCapacity + slot0.extraCapacity
 
-		setText(slot6:Find("count/Text"), slot5.num .. "/" .. (slot0.extraCapacity > 0 and setColorStr(slot7, "#7BF59DFF") or slot7))
+		if slot0.isOperable then
+			setText(slot6:Find("count/Text"), slot5.num .. "/" .. (slot0.extraCapacity > 0 and setColorStr(slot7, "#7BF59DFF") or slot7))
+		else
+			setText(slot6:Find("count/Text"), slot5.num)
+		end
+
 		setActive(slot6:Find("event"), slot0.eventEffects[slot5.id])
 		setFillAmount(slot6:Find("bg/silder/bar"), slot0:GetAttrsFactorsRatio(slot5.id))
 		setActive(slot6:Find("reduce"), slot0.isOperable)
@@ -665,6 +700,13 @@ end
 
 slot0.CaclGroupPrice = function(slot0, slot1, slot2)
 	return math.floor(uv0[slot1].order_price * slot0.priceFactor * slot2 * (1 + (slot0.eventEffects[slot1] or 0) + slot0.extraPricePer))
+end
+
+slot0.OnStatusExpired = function(slot0)
+	slot0:FlushAssistants()
+	slot0:FlushCards()
+	slot0:FlushShelfs()
+	slot0:FlushEstimate()
 end
 
 slot0.OnSelectedShipsDone = function(slot0, slot1)
@@ -757,6 +799,8 @@ slot0.FlushBtns = function(slot0)
 	else
 		slot0:StopTimer()
 	end
+
+	setActive(slot0.buffInfoBtn, slot0.isOperable)
 end
 
 slot0.UpdateTime = function(slot0)
@@ -788,6 +832,13 @@ end
 
 slot0.OnHide = function(slot0)
 	slot0:StopTimer()
+
+	if slot0.statusCheckTimer then
+		slot0.statusCheckTimer:Stop()
+
+		slot0.statusCheckTimer = nil
+	end
+
 	slot0:UnBlurPanel()
 end
 

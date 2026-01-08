@@ -7370,7 +7370,70 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_614_1_1",
 		"op_reply_614_1_1",
 		"ins_op_614_1_2",
-		"op_reply_614_1_2"
+		"op_reply_614_1_2",
+		"ins_615",
+		"ins_discuss_615_1",
+		"ins_reply_615_1_1",
+		"ins_reply_615_1_2",
+		"ins_discuss_615_2",
+		"ins_reply_615_2_1",
+		"ins_reply_615_2_2",
+		"ins_reply_615_2_3",
+		"ins_op_615_1_1",
+		"op_reply_615_1_1",
+		"ins_op_615_1_2",
+		"op_reply_615_1_2",
+		"ins_616",
+		"ins_discuss_616_1",
+		"ins_reply_616_1_1",
+		"ins_reply_616_1_2",
+		"ins_reply_616_1_3",
+		"ins_reply_616_1_4",
+		"ins_discuss_616_2",
+		"ins_reply_616_2_1",
+		"ins_op_616_1_1",
+		"op_reply_616_1_1",
+		"ins_op_616_1_2",
+		"op_reply_616_1_2",
+		"ins_617",
+		"ins_discuss_617_1",
+		"ins_reply_617_1_1",
+		"ins_reply_617_1_2",
+		"ins_discuss_617_2",
+		"ins_reply_617_2_1",
+		"ins_reply_617_2_2",
+		"ins_reply_617_2_3",
+		"ins_reply_617_2_4",
+		"ins_reply_617_2_5",
+		"ins_op_617_1_1",
+		"op_reply_617_1_1",
+		"ins_op_617_1_2",
+		"op_reply_617_1_2",
+		"ins_618",
+		"ins_discuss_618_1",
+		"ins_reply_618_1_1",
+		"ins_reply_618_1_2",
+		"ins_reply_618_1_3",
+		"ins_discuss_618_2",
+		"ins_reply_618_2_1",
+		"ins_op_618_1_1",
+		"op_reply_618_1_1",
+		"ins_op_618_1_2",
+		"op_reply_618_1_2",
+		"ins_619",
+		"ins_discuss_619_1",
+		"ins_reply_619_1_1",
+		"ins_reply_619_1_2",
+		"ins_reply_619_1_3",
+		"ins_reply_619_1_4",
+		"ins_discuss_619_2",
+		"ins_reply_619_2_1",
+		"ins_reply_619_2_2",
+		"ins_reply_619_2_3",
+		"ins_op_619_1_1",
+		"op_reply_619_1_1",
+		"ins_op_619_1_2",
+		"op_reply_619_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -29480,6 +29543,195 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_614_1_2 = {
+		value = ""
+	},
+	ins_615 = {
+		value = ""
+	},
+	ins_discuss_615_1 = {
+		value = ""
+	},
+	ins_reply_615_1_1 = {
+		value = ""
+	},
+	ins_reply_615_1_2 = {
+		value = ""
+	},
+	ins_discuss_615_2 = {
+		value = ""
+	},
+	ins_reply_615_2_1 = {
+		value = ""
+	},
+	ins_reply_615_2_2 = {
+		value = ""
+	},
+	ins_reply_615_2_3 = {
+		value = ""
+	},
+	ins_op_615_1_1 = {
+		value = ""
+	},
+	op_reply_615_1_1 = {
+		value = ""
+	},
+	ins_op_615_1_2 = {
+		value = ""
+	},
+	op_reply_615_1_2 = {
+		value = ""
+	},
+	ins_616 = {
+		value = ""
+	},
+	ins_discuss_616_1 = {
+		value = ""
+	},
+	ins_reply_616_1_1 = {
+		value = ""
+	},
+	ins_reply_616_1_2 = {
+		value = ""
+	},
+	ins_reply_616_1_3 = {
+		value = ""
+	},
+	ins_reply_616_1_4 = {
+		value = ""
+	},
+	ins_discuss_616_2 = {
+		value = ""
+	},
+	ins_reply_616_2_1 = {
+		value = ""
+	},
+	ins_op_616_1_1 = {
+		value = ""
+	},
+	op_reply_616_1_1 = {
+		value = ""
+	},
+	ins_op_616_1_2 = {
+		value = ""
+	},
+	op_reply_616_1_2 = {
+		value = ""
+	},
+	ins_617 = {
+		value = ""
+	},
+	ins_discuss_617_1 = {
+		value = ""
+	},
+	ins_reply_617_1_1 = {
+		value = ""
+	},
+	ins_reply_617_1_2 = {
+		value = ""
+	},
+	ins_discuss_617_2 = {
+		value = ""
+	},
+	ins_reply_617_2_1 = {
+		value = ""
+	},
+	ins_reply_617_2_2 = {
+		value = ""
+	},
+	ins_reply_617_2_3 = {
+		value = ""
+	},
+	ins_reply_617_2_4 = {
+		value = ""
+	},
+	ins_reply_617_2_5 = {
+		value = ""
+	},
+	ins_op_617_1_1 = {
+		value = ""
+	},
+	op_reply_617_1_1 = {
+		value = ""
+	},
+	ins_op_617_1_2 = {
+		value = ""
+	},
+	op_reply_617_1_2 = {
+		value = ""
+	},
+	ins_618 = {
+		value = ""
+	},
+	ins_discuss_618_1 = {
+		value = ""
+	},
+	ins_reply_618_1_1 = {
+		value = ""
+	},
+	ins_reply_618_1_2 = {
+		value = ""
+	},
+	ins_reply_618_1_3 = {
+		value = ""
+	},
+	ins_discuss_618_2 = {
+		value = ""
+	},
+	ins_reply_618_2_1 = {
+		value = ""
+	},
+	ins_op_618_1_1 = {
+		value = ""
+	},
+	op_reply_618_1_1 = {
+		value = ""
+	},
+	ins_op_618_1_2 = {
+		value = ""
+	},
+	op_reply_618_1_2 = {
+		value = ""
+	},
+	ins_619 = {
+		value = ""
+	},
+	ins_discuss_619_1 = {
+		value = ""
+	},
+	ins_reply_619_1_1 = {
+		value = ""
+	},
+	ins_reply_619_1_2 = {
+		value = ""
+	},
+	ins_reply_619_1_3 = {
+		value = ""
+	},
+	ins_reply_619_1_4 = {
+		value = ""
+	},
+	ins_discuss_619_2 = {
+		value = ""
+	},
+	ins_reply_619_2_1 = {
+		value = ""
+	},
+	ins_reply_619_2_2 = {
+		value = ""
+	},
+	ins_reply_619_2_3 = {
+		value = ""
+	},
+	ins_op_619_1_1 = {
+		value = ""
+	},
+	op_reply_619_1_1 = {
+		value = ""
+	},
+	ins_op_619_1_2 = {
+		value = ""
+	},
+	op_reply_619_1_2 = {
 		value = ""
 	}
 }

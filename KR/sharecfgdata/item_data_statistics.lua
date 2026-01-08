@@ -18837,6 +18837,37 @@ _G.pg.base.item_data_statistics[30207] = {
 }
 
 
+_G.pg.base.item_data_statistics[30208] = {
+	open_directly = 0,
+	name = "노스 유니온 장비 개발 지원 상자",
+	type = 5,
+	display = "노스 유니온의 장비가 랜덤으 출현한다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/30208",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30208",
+	id = 30208,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30301] = {
 	open_directly = 0,
 	name = "{namecode:98}의 크리스마스 선물",
@@ -48812,9 +48843,9 @@ _G.pg.base.item_data_statistics[40140] = {
 
 _G.pg.base.item_data_statistics[40141] = {
 	open_directly = 1,
-	name = "극속광열 스페셜 패키지",
+	name = "레이스퀸 패키지",
 	type = 17,
-	display = "지정된 스킨 3개 구매 시 서약 반지*1 획득 가능",
+	display = "한정 스킨과 서약 반지 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -103171,6 +103202,266 @@ _G.pg.base.item_data_statistics[60564] = {
 }
 
 
+_G.pg.base.item_data_statistics[60565] = {
+	open_directly = 0,
+	name = "소원 카드(2026)",
+	type = 21,
+	display = "축복이 담겨있는 소원 카드. 사용하면 함선을 1명 골라 획득 가능.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60565,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3031,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037
+	},
+	limit = {},
+	open_ui = {
+		"shrine_year_winterfestival_2025",
+		"t_shrine"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60566] = {
+	open_directly = 0,
+	name = "그라프 체펠린의 답례",
+	type = 1,
+	display = "그라프 체펠린에게 받은 소원 카드.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60566,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60567] = {
+	open_directly = 0,
+	name = "벨파스트의 답례",
+	type = 1,
+	display = "벨파스트에게 받은 소원 카드.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60567,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60568] = {
+	open_directly = 0,
+	name = "사우스다코타의 답례",
+	type = 1,
+	display = "사우스다코타에게 받은 소원 카드",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60568,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60569] = {
+	open_directly = 0,
+	name = "쿠이비셰프의 답례",
+	type = 1,
+	display = "쿠이비셰프에게 받은 소원 카드",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60569,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60570] = {
+	open_directly = 0,
+	name = "임페로의 답례",
+	type = 1,
+	display = "임페로에게 받은 소원 카드",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60570,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60571] = {
+	open_directly = 0,
+	name = "비스마르크의 답례",
+	type = 1,
+	display = "비스마르크에게 받은 소원 카드",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60571,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60572] = {
+	open_directly = 0,
+	name = "리슐리외의 답례",
+	type = 1,
+	display = "리슐리외에게 받은 소원 카드",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60565",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60572,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68063] = {
 	open_directly = 1,
 	name = "换装抵扣礼包(沙滩的慵懒主宰)",
@@ -105638,6 +105929,73 @@ _G.pg.base.item_data_statistics[81230] = {
 		{
 			2,
 			86222,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81231] = {
+	open_directly = 1,
+	name = "축제의 밤 패키지·II",
+	type = 17,
+	display = "랜덤 스킨, 상급 지향형 강화 유닛·8기×2, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai31",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998327",
+	id = 81231,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86223,
 			1
 		},
 		{

@@ -30,6 +30,7 @@ pg.expedition_data_by_map = setmetatable({
 		211,
 		212,
 		213,
+		214,
 		10000,
 		70000,
 		1040000,
@@ -1501,7 +1502,7 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
-		bind_map = 0,
+		bind_map = 214,
 		clouds_pos = {},
 		drop_by_map_display = {}
 	},
@@ -2202,6 +2203,35 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		},
+		drop_by_map_display = {}
+	},
+	[214] = {
+		map = 214,
+		name = "수리가오 야전",
+		bgm = "level",
+		type = 2,
+		anchor = "",
+		title = "14",
+		level_limit = 80,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_14",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_214",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "UIhuohua2",
+		bind_map = 14,
+		clouds_pos = {},
 		drop_by_map_display = {}
 	},
 	[10000] = {

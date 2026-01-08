@@ -334,6 +334,10 @@ slot0.EnableOrDisableMove = function(slot0, slot1)
 	end
 end
 
+slot0.OnAsmrTurnning = function(slot0, slot1)
+	slot0.painting:OnAsmrTurnning(slot1)
+end
+
 slot0.EnableDragAndZoom = function(slot0)
 	slot0.isEnableDrag = true
 	slot1 = slot0._tf.parent.gameObject

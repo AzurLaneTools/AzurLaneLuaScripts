@@ -74,6 +74,11 @@ slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.changeState = ShipSkin.GetChangeSkinState(slot1)
 	slot0.changAction = ShipSkin.GetChangeSkinAction(slot1)
 	slot0.delayIn = ShipSkin.GetChangeSkinCustomDataId(slot1, "delay_in")
+	slot0.finishDelay = ShipSkin.GetChangeSkinCustomDataId(slot1, "finish_delay")
+
+	if not slot0.finishDelay or slot0.finishDelay == "" or slot0.finishDelay <= 0 then
+		slot0.finishDelay = 0.5
+	end
 
 	if slot0.changeState == uv0 then
 		slot0._loadObjectName = "changeskin/" .. slot0.changAction
@@ -152,7 +157,14 @@ slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 					uv1:finish(uv2)
 				end
 			end)
+			uv0:localizationUI(uv0._aniamtorTf, uv0.changAction, uv0.changeIndex)
 		end)
+	end
+end
+
+slot0.localizationUI = function(slot0, slot1, slot2, slot3)
+	if slot2 == "changeAsmr" then
+		setText(findTF(slot1, "ad/animator/desc"), i18n("change_skin_asmr_desc_" .. slot3))
 	end
 end
 
@@ -161,7 +173,7 @@ slot0.finish = function(slot0, slot1)
 		LeanTween.cancel(slot0._go)
 	end
 
-	LeanTween.delayedCall(0.5, System.Action(function ()
+	LeanTween.delayedCall(slot0.finishDelay, System.Action(function ()
 		if uv0._spineAnimUI then
 			uv0._spineAnimUI:SetActionCallBack(nil)
 
