@@ -120,11 +120,11 @@ return {
 			},
 			options = {
 				{
-					content = "You didn't have to go THAT far, Commander.",
+					content = "Help me?",
 					flag = 1
 				},
 				{
-					content = "Help me?",
+					content = "Umm... Wait a second.",
 					flag = 2
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			actor = 107251,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "You didn't have to go THAT far, Commander.",
+			say = "Help me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 107251,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "Help me?",
+			say = "Umm... Wait a second.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
