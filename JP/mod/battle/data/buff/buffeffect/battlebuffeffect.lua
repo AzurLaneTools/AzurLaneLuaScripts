@@ -913,7 +913,7 @@ slot3.commanderRequire = function(slot0, slot1)
 	if slot0._tempData.arg_list.CMDBuff_id then
 		slot2, slot3 = uv0.Battle.BattleDataProxy.GetInstance():GetCommanderBuff()
 		slot4 = nil
-		slot4 = table.contains(TeamType.SubShipType, slot1:GetTemplate().type) and slot3 or slot2
+		slot4 = table.contains(ShipType.SubShipType, slot1:GetTemplate().type) and slot3 or slot2
 		slot6 = {}
 		slot7 = slot0._tempData.arg_list.CMDBuff_id
 

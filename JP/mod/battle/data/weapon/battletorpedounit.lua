@@ -14,6 +14,14 @@ slot1.TriggerBuffOnFire = function(slot0)
 	})
 end
 
+slot1.EnterCoolDown = function(slot0)
+	if slot0._isSupportWeapon then
+		slot0._currentState = slot0.STATE_DISABLE
+	else
+		uv0.super.EnterCoolDown(slot0)
+	end
+end
+
 slot1.TriggerBuffWhenSpawn = function(slot0, slot1)
 	slot2 = {
 		_bullet = slot1,

@@ -6308,6 +6308,9 @@ temp = function()
 		["露"] = {
 			this = true
 		},
+		["鳳"] = {
+			this = true
+		},
 		["上"] = {
 			["フ"] = {
 				["ブ"] = {
@@ -6634,6 +6637,9 @@ temp = function()
 	uv0["水"] = {
 		["無"] = {
 			["月"] = {
+				this = true
+			},
+			["瀬"] = {
 				this = true
 			}
 		},
@@ -7077,6 +7083,19 @@ end
 temp()
 
 temp = function()
+	uv0["妙"] = {
+		["風"] = {
+			this = true
+		},
+		["高"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["五"] = {
 		["十"] = {
 			["鈴"] = {
@@ -7301,16 +7320,6 @@ end
 temp()
 
 temp = function()
-	uv0["妙"] = {
-		["高"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["足"] = {
 		["柄"] = {
 			this = true
@@ -7393,6 +7402,16 @@ temp()
 temp = function()
 	uv0["雲"] = {
 		["仙"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["浅"] = {
+		["間"] = {
 			this = true
 		}
 	}
@@ -7565,15 +7584,15 @@ temp = function()
 				this = true
 			}
 		},
-		["吹"] = {
-			this = true
-		},
 		["4"] = {
 			["0"] = {
 				["4"] = {
 					this = true
 				}
 			}
+		},
+		["吹"] = {
+			this = true
 		},
 		["丽"] = {
 			["莎"] = {
@@ -7657,6 +7676,16 @@ temp()
 temp = function()
 	uv0["駿"] = {
 		["河"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["近"] = {
+		["江"] = {
 			this = true
 		}
 	}

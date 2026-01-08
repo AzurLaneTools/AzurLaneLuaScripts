@@ -25,6 +25,7 @@ slot0.execute = function(slot0, slot1)
 	slot10.loopFlag = slot6
 	slot11 = slot9:getMapById(slot10:getConfig("map"))
 	slot12 = slot9:GetContinuousData(SYSTEM_SCENARIO)
+	slot13 = nil
 
 	seriesAsync({
 		function (slot0)
@@ -100,7 +101,9 @@ slot0.execute = function(slot0, slot1)
 
 			slot1, slot2 = uv0:IsEliteFleetLegal()
 
-			if not slot1 then
+			if slot1 then
+				slot0()
+			else
 				pg.TipsMgr.GetInstance():ShowTips(slot2)
 				uv1:sendNotification(GAME.TRACKING_ERROR, {
 					chapter = uv0
@@ -108,22 +111,16 @@ slot0.execute = function(slot0, slot1)
 
 				return
 			end
-
-			if slot2 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					modal = true,
-					content = i18n("elite_fleet_confirm", Fleet.DEFAULT_NAME[slot2]),
-					onYes = slot0
-				})
-
-				return
-			end
-
-			slot0()
 		end,
 		function (slot0)
+			slot1 = uv0:getConfig("oil")
+
+			if uv0:IsSupportSubmarineStage() and #uv0:getSupportFleet() > 0 then
+				slot1 = slot1 + getGameset("submarine_support_oil_consume")[1]
+			end
+
 			if not getProxy(PlayerProxy):getRawData():isEnough({
-				oil = uv0:getConfig("oil") * uv1.CalculateSpItemMoreCostRate(uv2)
+				oil = slot1 * uv1.CalculateSpItemMoreCostRate(uv2)
 			}) then
 				if not ItemTipPanel.ShowOilBuyTip(slot1) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
@@ -140,33 +137,41 @@ slot0.execute = function(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			if uv0:getConfig("type") ~= Chapter.SelectFleet then
-				slot0()
+			if uv0:getConfig("type") == Chapter.SelectFleet then
+				uv1 = {
+					[FleetType.Normal] = {},
+					[FleetType.Submarine] = {},
+					[FleetType.Support] = Clone(uv0.eliteFleetList[FleetType.Support])
+				}
+				slot1 = false
+				slot2 = ""
 
-				return
-			end
+				for slot6, slot7 in ipairs(uv2) do
+					slot9, slot10 = getProxy(FleetProxy):getFleetById(slot7):ChangeToElite()
 
-			slot1 = false
-			slot2 = ""
+					table.insert(uv1[slot10], slot9)
 
-			for slot6, slot7 in ipairs(uv1) do
-				slot8, slot2 = getProxy(FleetProxy):getFleetById(slot7):GetEnergyStatus()
-
-				if slot8 then
-					break
+					if not slot1 then
+						slot1, slot2 = slot8:GetEnergyStatus()
+					end
 				end
+			else
+				uv1 = uv0.eliteFleetList
 			end
 
-			if slot1 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = slot2,
-					onYes = slot0
-				})
+			uv1 = Chapter.PackEliteFleetInfo(uv1)
+			slot1 = {}
 
-				return
+			if hasTiredState then
+				table.insert(slot1, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = tooltip,
+						onYes = slot0
+					})
+				end)
 			end
 
-			slot0()
+			seriesAsync(slot1, slot0)
 		end,
 		function (slot0)
 			if uv0:isRemaster() and PlayerPrefs.GetString("remaster_tip") ~= pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d") and (not uv1 or uv1:IsFirstBattle()) then
@@ -186,6 +191,16 @@ slot0.execute = function(slot0, slot1)
 			end
 
 			slot0()
+		end,
+		function (slot0)
+			if uv0:IsSupportSubmarineStage() and #uv0:getSupportFleet() > 0 then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("submarine_support_oil_consume_tip", getGameset("submarine_support_oil_consume")[1]),
+					onYes = slot0
+				})
+			else
+				slot0()
+			end
 		end,
 		function (slot0)
 			slot2 = uv0:getConfig("enter_story_limit")
@@ -239,71 +254,26 @@ slot0.execute = function(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			slot1 = uv0:getConfig("map")
-			slot3 = uv0:getEliteFleetCommanders()
-			slot4 = {}
+			uv0.chapterId = uv1
+			uv0.fleetDatas = uv2
+			uv0.loopFlag = uv3
+			uv0.operationItem = uv4
+			uv0.dutiesKeyValue = uv5
+			uv0.autoFightFlag = uv6.autoFightFlag
 
-			for slot8, slot9 in ipairs(uv0:getEliteFleetList()) do
-				if uv0:singleEliteFleetVertify(slot8) then
-					slot10 = {}
-					slot11 = {}
-					slot12 = {}
-
-					for slot16, slot17 in ipairs(slot9) do
-						slot11[#slot11 + 1] = slot17
-					end
-
-					for slot17, slot18 in pairs(slot3[slot8]) do
-						table.insert(slot12, {
-							pos = slot17,
-							id = slot18
-						})
-					end
-
-					slot10.map_id = slot1
-					slot10.main_id = slot11
-					slot10.commanders = slot12
-					slot4[#slot4 + 1] = slot10
-				else
-					slot4[#slot4 + 1] = {
-						main_id = {},
-						commanders = {}
-					}
-				end
-			end
-
-			slot6 = {}
-			slot7 = {}
-
-			for slot11, slot12 in ipairs(uv0:getSupportFleet()) do
-				slot7[#slot7 + 1] = slot12
-			end
-
-			slot6.map_id = slot1
-			slot6.main_id = slot7
-			slot6.commanders = {}
-			slot4[#slot4 + 1] = slot6
-			uv1.chapterId = uv2
-			uv1.fleetIds = uv3
-			uv1.fleetDatas = slot4
-			uv1.loopFlag = uv4
-			uv1.operationItem = uv5
-			uv1.dutiesKeyValue = uv6
-			uv1.autoFightFlag = uv7.autoFightFlag
-
-			uv1:sendProto()
+			uv0:sendProto()
 		end
 	})
 end
 
 slot0.sendProto = function(slot0)
+	slot2 = slot0.fleetIds
 	slot7 = slot0.autoFightFlag
 	slot8 = pg.ConnectionMgr.GetInstance()
 
 	slot8:Send(13101, {
 		id = slot0.chapterId,
-		group_id_list = slot0.fleetIds,
-		elite_fleet_list = slot0.fleetDatas,
+		fleet = slot0.fleetDatas,
 		operation_item = slot0.operationItem,
 		loop_flag = slot0.loopFlag,
 		fleet_duties = slot0.dutiesKeyValue
@@ -312,12 +282,18 @@ slot0.sendProto = function(slot0)
 			slot1 = getProxy(ChapterProxy)
 			slot2 = slot1:getChapterById(uv0)
 			slot3 = slot1:getMapById(slot2:getConfig("map"))
-			slot4 = getProxy(PlayerProxy)
-			slot5 = slot4:getData()
+			slot5 = getProxy(PlayerProxy):getData()
 
 			slot2:update(slot0.current_chapter)
+
+			slot6 = slot2:getConfig("oil")
+
+			if slot2:IsSupportSubmarineStage() and slot2:getChapterSupportFleet() then
+				slot6 = slot6 + getGameset("submarine_support_oil_consume")[1]
+			end
+
 			slot5:consume({
-				oil = slot2:getConfig("oil") * slot2:GetExtraCostRate()
+				oil = slot6 * slot2:GetExtraCostRate()
 			})
 			slot4:updatePlayer(slot5)
 
@@ -350,7 +326,7 @@ slot0.sendProto = function(slot0)
 			end
 
 			uv2:sendNotification(GAME.TRACKING_DONE, slot2)
-			getProxy(ChapterProxy):updateExtraFlag(slot2, slot2.extraFlagList, {}, true)
+			getProxy(ChapterProxy):updateExtraFlag(slot2, slot2:getExtraFlags(), {}, true)
 
 			if uv3 ~= 0 and uv4 then
 				getProxy(ChapterProxy):SetChapterAutoFlag(uv0, true)

@@ -69,6 +69,12 @@ slot0.DEFAULT_NAME_BOSS_SINGLE_VARIABLE_ACT = {
 	i18n("ship_formationUI_fleetName_12"),
 	i18n("ship_formationUI_fleetName_13")
 }
+slot0.DEFAULT_ELITE_NAME = {
+	i18n("ship_formationUI_fleetName1"),
+	i18n("ship_formationUI_fleetName2"),
+	i18n("ship_formationUI_fleetName11"),
+	i18n("ship_formationUI_fleetName13")
+}
 slot0.REGULAR_FLEET_ID = 1
 slot0.REGULAR_FLEET_NUMS = 6
 slot0.SUBMARINE_FLEET_ID = 11
@@ -93,6 +99,8 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.skills = {}
 
 	slot0:updateCommanderSkills()
+
+	slot0.fleetType = slot1.fleetType
 end
 
 slot0.isUnlock = function(slot0)
@@ -398,6 +406,10 @@ slot0.isPVPFleet = function(slot0)
 end
 
 slot0.getFleetType = function(slot0)
+	if slot0.fleetType then
+		return slot0.fleetType
+	end
+
 	if slot0.id and uv0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < uv0.SUBMARINE_FLEET_ID + uv0.SUBMARINE_FLEET_NUMS then
 		return FleetType.Submarine
 	end
@@ -832,7 +844,7 @@ slot0.GetFleetSonarRange = function(slot0)
 				slot2 = math.max(slot2, Mathf.Clamp((slot12:getShipProperties()[AttributeType.AntiSub] or 0) / slot14.a - slot14.b, slot14.minRange, slot14.maxRange))
 			end
 
-			if table.contains(TeamType.MainShipType, slot13) then
+			if table.contains(ShipType.MainShipType, slot13) then
 				slot5 = slot5 + (slot12:getShipProperties()[AttributeType.AntiSub] or 0)
 			end
 
@@ -875,7 +887,37 @@ slot0.ExistActNpcShip = function(slot0)
 end
 
 slot0.GetName = function(slot0)
-	return slot0.name == "" and uv0.DEFAULT_NAME[slot0.id] or slot0.name
+	return noEmptyStr(slot0.name) or uv0.DEFAULT_NAME[slot0.id]
+end
+
+slot0.ChangeToElite = function(slot0)
+	slot1 = slot0:getFleetType()
+	slot2 = {
+		id = slot0.id,
+		[TeamType.FormShips] = {},
+		[TeamType.FormCommander] = {
+			0,
+			0
+		}
+	}
+
+	for slot6, slot7 in ipairs(slot0.commanderIds) do
+		slot2[TeamType.FormCommander][slot6] = slot7
+	end
+
+	switch(slot1, {
+		[FleetType.Normal] = function ()
+			uv0[TeamType.FormShips] = table.mergeArray(uv1.mainShips, uv1.vanguardShips)
+		end,
+		[FleetType.Submarine] = function ()
+			uv0[TeamType.FormShips] = underscore.to_array(uv1.subShips)
+		end,
+		[FleetType.Support] = function ()
+			uv0[TeamType.FormShips] = underscore.to_array(uv1.mainShips)
+		end
+	})
+
+	return slot2, slot1
 end
 
 return slot0

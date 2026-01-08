@@ -39,7 +39,7 @@ slot0.GetChapterName = function(slot0)
 	return pg.expedition_data_template[slot0.stageId] and slot1.name or ""
 end
 
-slot1 = function(slot0, slot1)
+slot1 = function(slot0, slot1, slot2)
 	if slot0 == 1 or slot0 == 4 or slot0 == 8 then
 		return slot1.score > 1
 	elseif slot0 == 2 or slot0 == 3 then
@@ -50,6 +50,8 @@ slot1 = function(slot0, slot1)
 		return not slot1.statistics._badTime
 	elseif slot0 == 7 then
 		return true
+	elseif slot0 == 10 then
+		return slot2 > slot1.statistics._bossHP * 100
 	end
 
 	return nil
@@ -64,7 +66,9 @@ slot2 = function(slot0)
 		"battle_result_time_limit",
 		"battle_result_boss_destruct",
 		"battle_preCombatLayer_damage_before_end",
-		"battle_result_defeat_all_enemys"
+		"battle_result_defeat_all_enemys",
+		"",
+		"battle_result_boss_hp_lower"
 	})[slot0]
 end
 
@@ -94,7 +98,7 @@ slot0.GetObjectives = function(slot0)
 			return
 		end
 
-		slot3, slot4 = uv3.ColorObjective(uv1(slot0[1], uv2))
+		slot3, slot4 = uv3.ColorObjective(uv1(slot0[1], uv2, slot0[2]))
 
 		table.insert(uv4, {
 			text = setColorStr(i18n(uv0(slot0[1]), slot0[2]), slot4),
@@ -139,7 +143,7 @@ end
 
 slot0.HasSubShip = function(slot0)
 	for slot4, slot5 in ipairs(slot0) do
-		if table.contains(TeamType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot5.configId).type) then
+		if table.contains(ShipType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot5.configId).type) then
 			return true
 		end
 	end
@@ -149,7 +153,7 @@ end
 
 slot0.HasSurfaceShip = function(slot0)
 	for slot4, slot5 in ipairs(slot0) do
-		if not table.contains(TeamType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot5.configId).type) then
+		if not table.contains(ShipType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot5.configId).type) then
 			return true
 		end
 	end
@@ -162,7 +166,7 @@ slot0.SeparateSurfaceAndSubShips = function(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0) do
-		if table.contains(TeamType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot7.configId).type) then
+		if table.contains(ShipType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot7.configId).type) then
 			table.insert(slot2, slot7)
 		else
 			table.insert(slot1, slot7)
@@ -184,7 +188,7 @@ slot0.SeparateMvpShip = function(slot0, slot1, slot2)
 
 	for slot10, slot11 in ipairs(slot0) do
 		if slot11.id ~= slot1 then
-			if TeamType.GetTeamFromShipType(ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot11.configId).type) == TeamType.Vanguard then
+			if ShipType.GetTeamFromShipType(ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot11.configId).type) == TeamType.Vanguard then
 				table.insert(slot4, slot11)
 			elseif slot13 == TeamType.Main then
 				table.insert(slot5, slot11)

@@ -25,6 +25,9 @@ slot0.IsTip = function(slot0)
 		end,
 		book = function ()
 			return uv0.IsBookTip()
+		end,
+		season = function ()
+			return uv0.IsSeasonTip()
 		end
 	}, function ()
 		return false
@@ -115,6 +118,14 @@ slot0.IsUnlock = function(slot0)
 	end
 
 	return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(pg.island_main_btns[slot1].ability_id)
+end
+
+slot0.IsSeasonTip = function()
+	slot0 = getProxy(ActivityProxy)
+
+	return _.any(slot0:getIslandPanelActivities(), function (slot0)
+		return slot0:readyToAchieve()
+	end)
 end
 
 return slot0

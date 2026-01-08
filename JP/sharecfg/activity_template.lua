@@ -31858,6 +31858,7 @@ pg.activity_template = {
 	[50260] = {
 		mark = 20251204,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -31872,33 +31873,6 @@ pg.activity_template = {
 			12007,
 			12008,
 			12009
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50261] = {
@@ -31932,9 +31906,9 @@ pg.activity_template = {
 					8
 				},
 				{
-					23,
-					59,
-					59
+					16,
+					0,
+					0
 				}
 			}
 		},
@@ -32004,9 +31978,9 @@ pg.activity_template = {
 					8
 				},
 				{
-					23,
-					59,
-					59
+					16,
+					0,
+					0
 				}
 			}
 		}
@@ -33219,7 +33193,7 @@ pg.activity_template = {
 		type = 63,
 		login_pop = 0,
 		config_id = 7,
-		is_show = 2,
+		is_show = 3,
 		config_client = "",
 		title_res_tag = "winterwish_20251225",
 		id = 50298,

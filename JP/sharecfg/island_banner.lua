@@ -64,8 +64,23 @@ pg.island_banner = {
 			}
 		}
 	},
+	{
+		time = "stop",
+		type = 4,
+		id = 3,
+		pic = "temp4",
+		param = {
+			"IslandSeasonPage",
+			{
+				{
+					target_act_id = 7110
+				}
+			}
+		}
+	},
 	all = {
 		1,
-		2
+		2,
+		3
 	}
 }

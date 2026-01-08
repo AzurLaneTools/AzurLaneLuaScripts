@@ -460,15 +460,25 @@ slot0.getCorePanelActivities = function(slot0, slot1)
 end
 
 slot0.getIslandPanelActivities = function(slot0)
-	slot1 = {}
+	slot1 = function(slot0)
+		slot1 = slot0:getConfig("type")
 
-	for slot5, slot6 in pairs(slot0.data) do
-		if slot6:isIslandShow() then
-			table.insert(slot1, slot6)
+		if slot0:isIslandShow() and slot1 == ActivityConst.ACTIVITY_TYPE_SURVEY then
+			slot2 = uv0:isSurveyOpen() and not uv0:isSurveyDone()
+		end
+
+		return slot2 and not slot0:isEnd()
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot1(slot7) then
+			table.insert(slot2, slot7)
 		end
 	end
 
-	return slot1
+	return slot2
 end
 
 slot0.checkHxActivity = function(slot0, slot1)

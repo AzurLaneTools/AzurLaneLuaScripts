@@ -491,11 +491,11 @@ slot0.recommendActivityFleet = function(slot0, slot1, slot2)
 	slot5 = getProxy(BayProxy)
 
 	slot6 = function(slot0, slot1)
-		slot7 = slot1
-		slot8 = uv2
+		slot6 = slot1
+		slot7 = uv2
 
-		for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.GetShipTypeListFromTeam(slot0), uv1.ships, slot7, slot8)) do
-			uv1:insertShip(slot8, nil, slot0)
+		for slot6, slot7 in ipairs(uv0:getActivityRecommendShips(slot0, uv1.ships, slot6, slot7)) do
+			uv1:insertShip(slot7, nil, teamType)
 		end
 	end
 
@@ -503,17 +503,17 @@ slot0.recommendActivityFleet = function(slot0, slot1, slot2)
 		slot2 = TeamType.MainMax - #slot0.mainShips
 
 		if TeamType.VanguardMax - #slot0.vanguardShips > 0 then
-			uv0(TeamType.Vanguard, slot1)
+			uv0(ShipType.VanguardShipType, slot1)
 		end
 
 		if slot2 > 0 then
-			uv0(TeamType.Main, slot2)
+			uv0(ShipType.MainShipType, slot2)
 		end
 	end
 
 	slot8 = function(slot0)
 		if not slot0:isFull() then
-			uv0(TeamType.Submarine, TeamType.SubmarineMax - #slot0.subShips)
+			uv0(ShipType.SubShipType, TeamType.SubmarineMax - #slot0.subShips)
 		end
 	end
 

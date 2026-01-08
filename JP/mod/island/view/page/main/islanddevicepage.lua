@@ -190,12 +190,11 @@ slot0.BannerSkip = function(slot0, slot1)
 		slot0:emit(IslandMediator.OPEN_PAGE, slot1.param[1], slot1.param[2])
 	elseif slot1.type == IslandConst.BANNER_TYPE_SURVEY then
 		slot2, slot3 = getProxy(ActivityProxy):isSurveyOpen()
+		slot4 = getProxy(ActivityProxy):isSurveyDone()
 
-		if slot2 then
-			pg.m02:sendNotification(GAME.SURVEY_REQUEST, {
-				surveyID = slot3,
-				surveyUrlStr = getSurveyUrl(slot3)
-			})
+		if slot2 and not isFinish then
+			slot0:Hide()
+			slot0:emit(IslandMediator.OPEN_PAGE, slot1.param[1], slot1.param[2])
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
 		end

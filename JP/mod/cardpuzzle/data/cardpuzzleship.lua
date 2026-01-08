@@ -315,7 +315,7 @@ slot0.upgrade = function(slot0)
 end
 
 slot0.getTeamType = function(slot0)
-	return TeamType.GetTeamFromShipType(slot0:getShipType())
+	return ShipType.GetTeamFromShipType(slot0:getShipType())
 end
 
 slot0.getMaxConfigId = function(slot0)

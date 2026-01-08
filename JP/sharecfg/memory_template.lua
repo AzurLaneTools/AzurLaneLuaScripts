@@ -3945,6 +3945,13 @@ pg.memory_template = setmetatable({
 		4944,
 		4945,
 		4946,
+		4951,
+		4952,
+		4953,
+		4954,
+		4955,
+		4956,
+		4957,
 		10000,
 		10001,
 		10002,
@@ -63326,6 +63333,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII6"
+		}
+	},
+	[4951] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "執務室の「威光」プラン",
+		condition = "「威光ガイドツアー1」開始",
+		story = "WEINEITUO1",
+		id = 4951,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO1"
+		}
+	},
+	[4952] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "庭園でのゴージャスタイム",
+		condition = "「威光ガイドツアー2」開始",
+		story = "WEINEITUO2",
+		id = 4952,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO2"
+		}
+	},
+	[4953] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "芸術の共鳴",
+		condition = "「威光ガイドツアー3」開始",
+		story = "WEINEITUO3",
+		id = 4953,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO3"
+		}
+	},
+	[4954] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "入浴の前準備",
+		condition = "「威光ガイドツアー4」開始",
+		story = "WEINEITUO4",
+		id = 4954,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO4"
+		}
+	},
+	[4955] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "身に染みる温かさ",
+		condition = "「威光ガイドツアー5」開始",
+		story = "WEINEITUO5",
+		id = 4955,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO5"
+		}
+	},
+	[4956] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "指先リズム",
+		condition = "「威光ガイドツアー6」開始",
+		story = "WEINEITUO6",
+		id = 4956,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO6"
+		}
+	},
+	[4957] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "もう一歩進んで",
+		condition = "「威光ガイドツアー7」開始",
+		story = "WEINEITUO7",
+		id = 4957,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO7"
 		}
 	},
 	[10000] = {

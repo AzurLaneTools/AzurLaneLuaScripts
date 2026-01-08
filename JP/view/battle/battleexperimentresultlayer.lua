@@ -105,7 +105,7 @@ slot0.displayShips = function(slot0)
 		slot15 = slot1[slot14.id]
 
 		if slot3[slot14.id] then
-			slot17 = table.contains(TeamType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot14.configId).type)
+			slot17 = table.contains(ShipType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot14.configId).type)
 			slot18, slot19 = nil
 			slot20 = 0
 

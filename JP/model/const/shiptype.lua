@@ -308,4 +308,52 @@ slot0.MergeFengFanType = function(slot0, slot1, slot2)
 	return slot0
 end
 
+slot0.VanguardShipType = {
+	slot0.QuZhu,
+	slot0.QingXun,
+	slot0.ZhongXun,
+	slot0.HangXun,
+	slot0.LeiXun,
+	slot0.ChaoXun,
+	slot0.Yunshu,
+	slot0.DaoQuV,
+	slot0.FengFanV
+}
+slot0.MainShipType = {
+	slot0.ZhanXun,
+	slot0.ZhanLie,
+	slot0.QingHang,
+	slot0.ZhengHang,
+	slot0.HangZhan,
+	slot0.WeiXiu,
+	slot0.ZhongPao,
+	slot0.DaoQuM,
+	slot0.FengFanM
+}
+slot0.SubShipType = {
+	slot0.QianTing,
+	slot0.QianMu,
+	slot0.FengFanS
+}
+slot1 = nil
+
+slot0.GetTeamFromShipType = function(slot0)
+	if not uv0 then
+		uv0 = {}
+		slot4 = uv1.SubShipType
+
+		for slot4, slot5 in pairs({
+			[TeamType.Vanguard] = uv1.VanguardShipType,
+			[TeamType.Main] = uv1.MainShipType,
+			[TeamType.Submarine] = slot4
+		}) do
+			for slot9, slot10 in ipairs(slot5) do
+				uv0[slot10] = slot4
+			end
+		end
+	end
+
+	return uv0[slot0]
+end
+
 return slot0
