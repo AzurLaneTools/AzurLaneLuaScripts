@@ -53739,7 +53739,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[7231] = {
-		param = "49910'戳了戳<color=#93e9ff>我</color>",
+		param = " '49910'戳了戳<color=#93e9ff>我</color>",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -53747,7 +53747,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[7232] = {
-		param = "49910'戳了戳<color=#93e9ff>我</color>",
+		param = " '49910'戳了戳<color=#93e9ff>我</color>",
 		ship_group = 1,
 		type = 5,
 		id = 7232,
@@ -55718,7 +55718,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[7454] = {
-		param = "19906'已上傳文件[假期申請]",
+		param = " '19906'已上傳文件[假期申請]",
 		ship_group = 1,
 		option = "",
 		type = 5,
@@ -55726,7 +55726,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[7455] = {
-		param = "19906'已上傳文件[假期申請（1）]",
+		param = " '19906'已上傳文件[假期申請（1）]",
 		ship_group = 1,
 		type = 5,
 		id = 7455,

@@ -5965,7 +5965,7 @@ _G.pg.base.weapon_name[52073] = {
 
 _G.pg.base.weapon_name[52080] = {
 	id = 52080,
-	name = "2 x 炸弹（弹跳攻击）"
+	name = "2 x 炸彈（彈跳攻擊）"
 }
 
 
@@ -10753,7 +10753,7 @@ _G.pg.base.weapon_name[53453] = {
 
 _G.pg.base.weapon_name[53460] = {
 	id = 53460,
-	name = "4 x 100lb 炸弹"
+	name = "4 x 100lb 炸彈"
 }
 
 
