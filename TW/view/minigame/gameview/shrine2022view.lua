@@ -1,4 +1,7 @@
 slot0 = class("Shrine2022View", import("..BaseMiniGameView"))
+slot0.SHRINE_SELECT_SHIP_VIEW_CLS = Shrine2022SelectShipView
+slot0.SHRINE_SHIP_WORD_VIEW_CLS = Shrine2022ShipWordView
+slot0.SHRINE_SELECT_BUFF_VIEW_CLS = Shrine2022SelectBuffView
 
 slot0.getUIName = function(slot0)
 	return "Shrine2022UI"
@@ -102,6 +105,29 @@ slot0.willExit = function(slot0)
 	slot0:cleanManagedTween()
 end
 
+slot0.setUIData = function(slot0)
+	slot1 = slot0._tf:Find("Res")
+	slot0.curBuffSpriteList = {
+		getImageSprite(slot1:Find("CurBuff1")),
+		getImageSprite(slot1:Find("CurBuff2")),
+		getImageSprite(slot1:Find("CurBuff3"))
+	}
+	slot0.shipCardSpriteList = {}
+
+	for slot8 = 1, 7 do
+		slot9 = "shipcard_" .. slot8
+
+		table.insert(slot0.shipCardSpriteList, LoadSprite("Shrine2022/" .. slot9, slot9))
+	end
+
+	slot0.curBuffPosStart = 160
+	slot0.curBuffPosEnd = -70
+end
+
+slot0.updateShipCardUI = function(slot0, slot1, slot2)
+	setImageSprite(slot1, slot0.shipCardSpriteList[slot2], true)
+end
+
 slot0.initData = function(slot0)
 	slot0.playerProxy = getProxy(PlayerProxy)
 	slot0.miniGameProxy = getProxy(MiniGameProxy)
@@ -156,27 +182,23 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot1 = slot0._tf:Find("Res")
-	slot0.curBuffSpriteList = {
-		getImageSprite(slot1:Find("CurBuff1")),
-		getImageSprite(slot1:Find("CurBuff2")),
-		getImageSprite(slot1:Find("CurBuff3"))
-	}
-	slot5 = slot0._tf:Find("Adapt")
-	slot0.tipGoldTF = slot5:Find("TipGold")
-	slot0.backBtn = slot5:Find("BackBtn")
-	slot0.helpBtn = slot5:Find("HelpBtn")
-	slot6 = slot0._tf:Find("Data")
-	slot0.countText = slot6:Find("Count")
-	slot0.goldText = slot6:Find("Gold")
-	slot0.countText2 = slot6:Find("Count2")
+	slot1 = slot0._tf:Find("Adapt")
+	slot0.tipGoldTF = slot1:Find("TipGold")
+	slot0.backBtn = slot1:Find("BackBtn")
+	slot0.helpBtn = slot1:Find("HelpBtn")
+	slot2 = slot0._tf:Find("Data")
+	slot0.countText = slot2:Find("Count")
+	slot0.goldText = slot2:Find("Gold")
+	slot0.countText2 = slot2:Find("Count2")
 	slot0.cardTpl = slot0._tf:Find("CardTpl")
 	slot0.cardContainer = slot0._tf:Find("CardContainer")
 	slot0.cardUIItemList = UIItemList.New(slot0.cardContainer, slot0.cardTpl)
-	slot0.selectBuffBtn = slot0._tf:Find("SelectBuffBtn")
-	slot0.selectBuffLight = slot0._tf:Find("SelectBuffLight")
-	slot0.curBuffTF = slot0._tf:Find("CurBuff")
+	slot0.selectBuffBtn = slot0._tf:Find("Decorate/String/SelectBuffBtn")
+	slot0.selectBuffLight = slot0._tf:Find("Decorate/String/SelectBuffLight")
+	slot0.curBuffTF = slot0._tf:Find("Decorate/String/SelectBuffBtn/CurBuff")
 	slot0.curBuffImg = slot0.curBuffTF:Find("BuffImg")
+
+	slot0:setUIData()
 end
 
 slot0.addListener = function(slot0)
@@ -250,9 +272,7 @@ slot0.updateCardImg = function(slot0, slot1)
 	slot4 = slot2:Find("Ship")
 
 	if slot0:getSelectedShipByCardIndex(slot1) > 0 then
-		slot6 = "shipcard_" .. slot5
-
-		setImageSprite(slot4, LoadSprite("Shrine2022/" .. slot6, slot6), true)
+		slot0:updateShipCardUI(slot4, slot5)
 	end
 
 	setActive(slot3, slot5 == 0)
@@ -324,11 +344,11 @@ slot0.updateCommanderBuff = function(slot0, slot1)
 	if not slot5 then
 		setActive(slot0.curBuffTF, false)
 	elseif slot1 then
-		slot7 = -70
+		slot7 = slot0.curBuffPosEnd
 
 		setLocalPosition(slot0.curBuffTF, {
 			x = rtf(slot0.curBuffTF).localPosition.x,
-			y = 160
+			y = slot0.curBuffPosStart
 		})
 
 		slot10 = slot0:managedTween(LeanTween.value, nil, go(slot0.curBuffTF), 0, 1, 0.5)
@@ -352,7 +372,7 @@ slot0.openSelectShipView = function(slot0, slot1)
 	slot0:updateCardSelecting(slot1, true)
 	setActive(slot0.tipGoldTF, false)
 
-	slot0.shrineSelectShipView = Shrine2022SelectShipView.New(slot0._tf.parent, slot0.event, {
+	slot0.shrineSelectShipView = slot0.SHRINE_SELECT_SHIP_VIEW_CLS.New(slot0._tf.parent, slot0.event, {
 		shipGameID = slot0.shipGameID,
 		selectingCardIndex = slot1,
 		onClose = function ()
@@ -367,9 +387,8 @@ slot0.openSelectShipView = function(slot0, slot1)
 		onSelect = function (slot0)
 			slot1 = uv0.cardTFList[uv1]
 			slot3 = slot1:Find("Ship")
-			slot4 = "shipcard_" .. slot0
 
-			setImageSprite(slot3, LoadSprite("Shrine2022/" .. slot4, slot4), true)
+			uv0:updateShipCardUI(slot3, slot0)
 			setActive(slot1:Find("Empty"), false)
 			setActive(slot3, true)
 		end,
@@ -408,7 +427,7 @@ slot0.openSelectBuffView = function(slot0)
 		return
 	end
 
-	slot0.shrineSelectBuffView = Shrine2022SelectBuffView.New(slot0._tf.parent, slot0.event, {
+	slot0.shrineSelectBuffView = slot0.SHRINE_SELECT_BUFF_VIEW_CLS.New(slot0._tf.parent, slot0.event, {
 		onClose = function ()
 		end,
 		onSelect = function (slot0)
@@ -432,7 +451,7 @@ slot0.openSelectBuffView = function(slot0)
 end
 
 slot0.openShipWordView = function(slot0, slot1)
-	slot0.shrineShipWordView = Shrine2022ShipWordView.New(slot0._tf, slot0.event, {
+	slot0.shrineShipWordView = slot0.SHRINE_SHIP_WORD_VIEW_CLS.New(slot0._tf, slot0.event, {
 		curSelectShip = slot1
 	})
 
@@ -587,6 +606,36 @@ slot0.IsNeedShowTipWithoutActivityFinalReward = function()
 	end
 
 	return slot0 or slot4
+end
+
+slot0.IsNeedShowTipForShipCount = function()
+	slot0 = false
+
+	if getProxy(MiniGameProxy):GetMiniGameDataByType(MiniGameConst.MG_TYPE_5) then
+		slot0 = (slot1:GetRuntimeData("count") or 0) > 0
+	end
+
+	slot2 = nil
+
+	if getProxy(MiniGameProxy):GetMiniGameDataByType(MiniGameConst.MG_TYPE_5) then
+		slot5 = slot3:getConfig("config_data")[2]
+
+		for slot9, slot10 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
+			if table.indexof(slot5, slot10.id, 1) then
+				if slot10.timestamp < pg.TimeMgr.GetInstance():GetServerTime() then
+					slot2 = nil
+				end
+
+				break
+			end
+		end
+	end
+
+	if slot2 then
+		slot0 = false
+	end
+
+	return slot0
 end
 
 return slot0

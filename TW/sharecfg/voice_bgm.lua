@@ -2364,5 +2364,15 @@ pg.voice_bgm = {
 		default_bgm = "story-weimu-link",
 		special_bgm = "",
 		bgm = "story-weimu-link"
+	},
+	WinterFestival2025SkinMagazinePage2 = {
+		default_bgm = "story-fantasyland-light",
+		special_bgm = "",
+		bgm = "story-fantasyland-light"
+	},
+	WinterFestival2025ShrinePage = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		bgm = "theme-warmwinter-daily"
 	}
 }

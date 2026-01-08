@@ -79,15 +79,7 @@ slot0.GetRarity = function(slot0)
 end
 
 slot0.GetModelName = function(slot0)
-	if HXSet.isHx() then
-		return slot0:getConfig("hx_model") ~= "" and slot0:getConfig("hx_model") or slot0:getConfig("model_id")
-	else
-		return slot0:getConfig("model_id")
-	end
-end
-
-slot0.GetHXModel = function(slot0)
-	return slot0:getConfig("hx_model")
+	return slot0:getConfig("model_id")
 end
 
 return slot0

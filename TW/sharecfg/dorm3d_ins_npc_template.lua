@@ -126,6 +126,34 @@ pg.dorm3d_ins_npc_template = {
 		npc_reply = "",
 		id = 18
 	},
+	{
+		ship_group = 49905,
+		message = "aijier_1_1_1",
+		time = 30,
+		npc_reply = "",
+		id = 19
+	},
+	{
+		ship_group = 49905,
+		message = "aijier_1_2_1",
+		time = 10,
+		npc_reply = "",
+		id = 20
+	},
+	{
+		ship_group = 49905,
+		message = "aijier_2_1_1",
+		time = 30,
+		npc_reply = "",
+		id = 21
+	},
+	{
+		ship_group = 49905,
+		message = "aijier_2_2_1",
+		time = 10,
+		npc_reply = "",
+		id = 22
+	},
 	all = {
 		1,
 		2,
@@ -144,6 +172,10 @@ pg.dorm3d_ins_npc_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21,
+		22
 	}
 }

@@ -1,5 +1,24 @@
 pg = pg or {}
-pg.livingarea_cover = {
+pg.livingarea_cover = setmetatable({
+	__name = "livingarea_cover",
+	all = {
+		0,
+		100101,
+		100102,
+		100103,
+		100201,
+		100202,
+		100203,
+		100301,
+		100302,
+		100303,
+		101101,
+		101102,
+		101103
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.livingarea_cover = {
 	[0] = {
 		get_tips = "",
 		name = "預設",
@@ -155,20 +174,5 @@ pg.livingarea_cover = {
 		id = 101103,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101103_icon"
-	},
-	all = {
-		0,
-		100101,
-		100102,
-		100103,
-		100201,
-		100202,
-		100203,
-		100301,
-		100302,
-		100303,
-		101101,
-		101102,
-		101103
 	}
 }

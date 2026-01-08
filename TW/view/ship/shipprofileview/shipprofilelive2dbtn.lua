@@ -9,7 +9,6 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.live2dState = slot0.live2dBtn:Find("state")
 	slot0.live2dOn = slot0.live2dToggle:Find("on")
 	slot0.live2dOff = slot0.live2dToggle:Find("off")
-	slot0.manager = BundleWizard.Inst:GetGroupMgr("L2D")
 end
 
 slot0.Update = function(slot0, slot1, slot2)
@@ -19,8 +18,11 @@ slot0.Update = function(slot0, slot1, slot2)
 
 	slot0.paintingName = slot1
 	slot0.isOn = slot2
+	slot5 = BundleWizard.Inst:GetGroupMgr("L2D"):CheckF(HXSet.autoHxShiftPath("live2d/" .. string.lower(slot1), nil, true))
 
-	if slot0.manager:CheckF(HXSet.autoHxShiftPath("live2d/" .. slot1, nil, true)) == DownloadState.CheckToUpdate or slot5 == DownloadState.UpdateFailure then
+	warning("OnCheckToUpdate state = " .. tostring(slot5))
+
+	if slot5 == DownloadState.CheckToUpdate or slot5 == DownloadState.UpdateFailure then
 		slot0:OnCheckToUpdate(slot4)
 	else
 		slot0:OnUpdated(slot4, slot2)
@@ -56,7 +58,10 @@ slot0.OnCheckToUpdate = function(slot0, slot1)
 end
 
 slot0.OnUpdated = function(slot0, slot1, slot2)
-	setActive(slot0.live2dBtn, checkABExist(slot1))
+	slot3 = checkABExist(slot1)
+
+	warning("fileExist = " .. tostring(slot3))
+	setActive(slot0.live2dBtn, slot3)
 	setActive(slot0.live2dState, false)
 	setActive(slot0.live2dToggle, true)
 	setActive(slot0.live2dOn, slot2)

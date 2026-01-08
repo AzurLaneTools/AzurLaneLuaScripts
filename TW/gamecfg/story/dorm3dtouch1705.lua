@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_ik_gift1_tone4",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "这样就行了呢，不愧是{dorm3d}。",
+			say = "這樣就行了呢，不愧是{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

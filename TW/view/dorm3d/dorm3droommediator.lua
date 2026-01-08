@@ -54,9 +54,11 @@ slot0.register = function(slot0)
 			data = slot1,
 			onRemoved = function ()
 				uv0.viewComponent:InitExtraSystem({
-					DormConst.EXTRA_SYSTEMS.FurnitureSlide
+					SlideExtraSystem
 				})
 				uv0.viewComponent:TempHideUI(false, uv1)
+
+				uv0.viewComponent.isInFurnitureSelect = false
 			end
 		}), nil, function ()
 			uv0.viewComponent:TempHideUI(true)
@@ -378,21 +380,23 @@ slot0.handleNotification = function(slot0, slot1)
 
 	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
-	slot4 = slot0.viewComponent.systemList or {}
 
-	for slot8, slot9 in pairs(slot4) do
-		slot9:HandleNotification(slot2, slot3)
+	if slot0.viewComponent.systemManager then
+		slot0.viewComponent.systemManager:BroadcastNotification(slot2, slot3)
 	end
 end
 
 slot0.listNotificationInterests = function(slot0)
 	slot1 = underscore.keys(slot0.handleDic or {})
 
-	for slot6, slot7 in pairs({
-		SlideExtraSystem,
-		Dorm3dStockingMgr
-	}) do
-		slot1 = table.mergeArray(slot1, slot7.GetInterests())
+	if slot0.viewComponent and slot0.viewComponent.systemManager then
+		slot1 = table.mergeArray(slot1, slot0.viewComponent.systemManager:GetAllInterests(), true)
+	else
+		for slot6, slot7 in ipairs(DormConst.GetDefaultSystemClasses()) do
+			if slot7.GetInterests then
+				slot1 = table.mergeArray(slot1, slot7.GetInterests())
+			end
+		end
 	end
 
 	return slot1

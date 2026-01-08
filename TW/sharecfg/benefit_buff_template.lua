@@ -89,6 +89,13 @@ pg.benefit_buff_template = setmetatable({
 		86,
 		87,
 		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
 		103,
 		110,
 		111,
@@ -123,6 +130,9 @@ pg.benefit_buff_template = setmetatable({
 		140,
 		141,
 		142,
+		143,
+		144,
+		145,
 		300001,
 		300002,
 		300003,
@@ -1685,6 +1695,125 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
+	[89] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "{namecode:435}的心願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:435}的心願——主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%\n剩餘時間:$1",
+		benefit_effect = "520",
+		id = 89,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[90] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "南達科他的祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "南達科他的心願——主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 90,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[91] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "古比雪夫的心願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "古比雪夫的心願——後宅經驗加成提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 91,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[92] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "帝國的心願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "帝國的心願——後宅經驗加成提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 92,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[93] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "貝爾法斯特的心願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "貝爾法斯特的心願——主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%\n剩餘時間:$1",
+		benefit_effect = "520",
+		id = 93,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[94] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "黎胥留的心願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "黎胥留的心願——主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%\n剩餘時間:$1",
+		benefit_effect = "520",
+		id = 94,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	[95] = {
+		icon = "Props/jianchuanxinyuan",
+		name = "{namecode:437}的心願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:437}的心願——主線、困難、活動、作戰檔案關卡中，角色經驗獲得提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 95,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
 	[103] = {
 		icon = "Props/newserver_skill",
 		name = "『新服活動』戰術學院buff",
@@ -2350,6 +2479,45 @@ pg.base.benefit_buff_template = {
 		id = 142,
 		type_priority = 0,
 		benefit_type = "ship_battle_intimacy"
+	},
+	[143] = {
+		icon = "Props/buff_xinyuan_1",
+		name = "學業",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "戰術學院技能學習時間略微減少\n剩餘時間:$1",
+		benefit_effect = "300",
+		id = 143,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up"
+	},
+	[144] = {
+		icon = "Props/buff_xinyuan_2",
+		name = "事業",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "主線、困難、作戰檔案關卡中，我方戰鬥內造成的傷害略微提高\n剩餘時間:$1",
+		benefit_effect = "522",
+		id = 144,
+		type_priority = 0,
+		benefit_type = "battle_buff"
+	},
+	[145] = {
+		icon = "Props/buff_xinyuan_3",
+		name = "緣分",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "秘書艦好感度提高速度加快\n剩餘時間:$1",
+		benefit_effect = "1",
+		id = 145,
+		type_priority = 0,
+		benefit_type = "intimacy_up_extra"
 	},
 	[300001] = {
 		icon = "Props/300001",

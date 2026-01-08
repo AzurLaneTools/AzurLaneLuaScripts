@@ -75,8 +75,6 @@ slot1.InitCri = function(slot0, slot1)
 		uv0.bgmWaveAnalyzer = GetOrAddComponent(GameObject.Find("CRIWARE/C_BGM"), typeof(CriAtomWaveAnalyzer))
 
 		uv0.bgmWaveAnalyzer:Init()
-		uv0.criInst:RemoveChannel(uv1.C_TIMELINE)
-		uv0.criInst:CreateChannel(uv1.C_TIMELINE, CriWareMgr.CRI_CHANNEL_TYPE.MULTI)
 		uv2()
 	end)
 end

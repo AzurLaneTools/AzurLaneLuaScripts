@@ -3698,6 +3698,12 @@ pg.memory_template = setmetatable({
 		4933,
 		4934,
 		4935,
+		4941,
+		4942,
+		4943,
+		4944,
+		4945,
+		4946,
 		10011,
 		10012,
 		10013,
@@ -59331,6 +59337,96 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANZHUANSHUXINDONGSHIKE5"
+		}
+	},
+	[4941] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "寵溺的清洗遊戲",
+		condition = "完成「港區時尚特刊：專屬心動時刻[2]」金獅的簽到",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII1",
+		id = 4941,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII1"
+		}
+	},
+	[4942] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "午夜的招待",
+		condition = "完成《港區時尚特刊：專屬心動時刻[2]》堪薩斯的簽到",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII2",
+		id = 4942,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII2"
+		}
+	},
+	[4943] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "迷糊女僕大危機？！",
+		condition = "完成「港區時尚特刊：專屬心動時刻[2]」{namecode:510}的簽到",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII3",
+		id = 4943,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII3"
+		}
+	},
+	[4944] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "烙印之刻",
+		condition = "完成「港區時尚特刊：專屬心動時刻[2]」{namecode:550}的簽到",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII4",
+		id = 4944,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII4"
+		}
+	},
+	[4945] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "侍你入夢",
+		condition = "完成《港區時尚特刊：專屬心動時刻[2]》吉尚的簽到",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII5",
+		id = 4945,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII5"
+		}
+	},
+	[4946] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夜闌誘語",
+		condition = "完成「港區時尚特刊：專屬心動時刻[2]」{namecode:427}的簽到",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII6",
+		id = 4946,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII6"
 		}
 	},
 	[10011] = {

@@ -1,4 +1,4 @@
-slot0 = class("LadyEnv", import("view.dorm3d.Extra.BaseExtraSystem"))
+slot0 = class("LadyEnv", import("view.dorm3d.Core.BaseLadyEnv"))
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1.event, slot1)
@@ -124,15 +124,12 @@ slot0.InitCharacter = function(slot0, slot1)
 		end
 
 		if slot0.stringParameter ~= "" then
-			switch(slot0.stringParameter, uv0.animExtraEvent, function ()
-				uv0:Func("OnAnimationEvent", uv1)
-			end)
+			uv0:Func("OnAnimationEvent", slot0)
 		end
 	end)
 
 	slot0.animEventCallbacks = {}
 	slot0.animCallbacks = {}
-	slot0.animExtraEvent = {}
 
 	slot7 = function(slot0, slot1, slot2)
 		uv0:Get("loader"):GetPrefab(slot0, slot1, function (slot0)
@@ -155,7 +152,7 @@ slot0.InitCharacter = function(slot0, slot1)
 	slot0.ladyWatchFloat = slot0.ladyHeadCenter:Find("ladyWatchFloat")
 
 	if not slot0.ladyWatchFloat then
-		slot7("dorm3d/effect/prefab/scene/vfx_talk_mark", "vfx_talk_mark", "ladyWatchFloat")
+		slot7("dorm3d/effect/prefab/function/vfx_talk_mark", "vfx_talk_mark", "ladyWatchFloat")
 	end
 
 	if slot0.tfPendintItem then
@@ -183,6 +180,8 @@ slot0.InitCharacter = function(slot0, slot1)
 	slot0.transparencyComp.player = slot0:Get("player")
 	slot0.transparencyComp.minDistance = DormConst.TRANSPARENCY_MIN_DISTANCE
 	slot0.transparencyComp.maxDistance = DormConst.TRANSPARENCY_MAX_DISTANCE
+	slot0.animationEventDispatcher = GetOrAddComponent(slot0.lady, typeof(DormAnimationEventDispatcher))
+	slot0.animationEventDispatcher.listenLayer = slot0.ladyAnimBaseLayerIndex
 end
 
 slot0.SetZone = function(slot0, slot1, slot2)
@@ -209,6 +208,7 @@ slot0.SwitchCharacterSkin = function(slot0, slot1, slot2, slot3)
 	slot0.ladyAnimator:Play(slot0:GetCurrentAnim(), slot0.ladyAnimBaseLayerIndex)
 	slot0.ladyAnimator:Update(0)
 	slot0.lady:SetPositionAndRotation(slot7.transform.position, slot7.transform.rotation)
+	slot0:Func("InitHolyLight")
 	existCall(slot3)
 end
 
@@ -399,10 +399,6 @@ slot0.SwitchAnim = function(slot0, slot1, slot2)
 		slot0()
 	end)
 	seriesAsync(slot5, slot2)
-end
-
-slot0.RegisterAnimExtraEvent = function(slot0, slot1, slot2)
-	slot0.animExtraEvent[slot1] = slot2
 end
 
 slot0.RevertClothComps = function(slot0)

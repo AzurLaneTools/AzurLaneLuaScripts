@@ -40,6 +40,11 @@ pg.dorm3d_timeline_dynamic_binding = {
 		object_name = "pre_db_kitchenware24",
 		track_name = "pre_db_kitchenware24Track"
 	},
+	{
+		id = 9,
+		object_name = "/[MainBlock]/[Model]/scene_root/no_bake_pay_prop/livingroom",
+		track_name = "livingroomTrack "
+	},
 	all = {
 		1,
 		2,
@@ -48,6 +53,7 @@ pg.dorm3d_timeline_dynamic_binding = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }

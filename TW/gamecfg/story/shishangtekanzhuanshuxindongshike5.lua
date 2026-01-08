@@ -258,7 +258,7 @@ return {
 			hideRecordIco = true,
 			actor = 107103,
 			nameColor = "#A9F548FF",
-			say = "隨後，她那包裹著黑色絲襪的修長雙腿便無比自然地貼了上來，如同無聲的邀請。",
+			say = "隨後，她那修長雙腿便無比自然地貼了上來，如同無聲的邀請。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

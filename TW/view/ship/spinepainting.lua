@@ -614,8 +614,12 @@ slot0.SetActionWithFinishCallback = function(slot0, slot1, slot2, slot3, slot4, 
 
 				uv1.mainSpineAnim:SetActionCallBack(nil)
 				uv0()
+
+				uv0 = nil
 			elseif slot0 == "action" and uv2 then
 				uv2()
+
+				uv2 = nil
 			end
 		end)
 	end
@@ -633,10 +637,14 @@ slot0.SetOnceAction = function(slot0, slot1, slot2, slot3, slot4)
 
 		if uv1 then
 			uv1()
+
+			uv1 = nil
 		end
 	end, slot4, function ()
 		if uv0 then
 			uv0()
+
+			uv0 = nil
 		end
 	end)
 end

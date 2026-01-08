@@ -17,11 +17,19 @@ slot0.OnDestroy = function(slot0)
 	slot0:cleanManagedTween()
 end
 
+slot0.setUIData = function(slot0)
+	slot0.shipWordSpriteList = {}
+	slot1 = "shipword_" .. slot0.curSelectShip
+	slot0.shipWordSpriteList[slot0.curSelectShip] = LoadSprite("Shrine2022/" .. slot1, slot1)
+end
+
 slot0.initData = function(slot0)
 	slot0.curSelectShip = slot0.contextData.curSelectShip
 end
 
 slot0.initUI = function(slot0)
+	slot0:setUIData()
+
 	slot1 = slot0._tf
 	slot0.bg = slot1:Find("BG")
 	slot1 = slot0._tf
@@ -30,9 +38,8 @@ slot0.initUI = function(slot0)
 	slot0.cloud1 = slot1:Find("Cloud1")
 	slot1 = slot0._tf
 	slot0.cloud2 = slot1:Find("Cloud2")
-	slot1 = "shipword_" .. slot0.curSelectShip
 
-	setImageSprite(slot0.wordImg, LoadSprite("Shrine2022/" .. slot1, slot1), true)
+	setImageSprite(slot0.wordImg, slot0.shipWordSpriteList[slot0.curSelectShip], true)
 	onButton(slot0, slot0.bg, function ()
 		uv0:closeMySelf()
 	end, SFX_PANEL)
@@ -57,6 +64,11 @@ slot0.playEnterAni = function(slot0, slot1, slot2)
 	}
 	slot0.isPlaying = true
 
+	setLocalScale(slot0.wordImg, {
+		x = 0,
+		y = 0
+	})
+	setActive(slot0.wordImg, true)
 	slot0:managedTween(LeanTween.value, nil, go(slot0.cloud1), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
 		slot3 = uv4 + (uv5 - uv4) * slot0
 		uv6.x = uv0 + (uv1 - uv0) * slot0

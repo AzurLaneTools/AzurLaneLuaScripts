@@ -104,6 +104,28 @@ pg.island_buff_template = {
 		type_duel = {},
 		buff_duel = {}
 	},
+	{
+		name = "销售额提升",
+		buff_group = 1,
+		buff_desc = "角色经营店铺时，销售额提高5%，持续8小时",
+		buff_color = 2,
+		buff_type = 601,
+		buff_time = 28800,
+		buff_level = 1,
+		id = 5,
+		type_use = {
+			{
+				601,
+				602,
+				603,
+				604,
+				901
+			},
+			5
+		},
+		type_duel = {},
+		buff_duel = {}
+	},
 	[10000] = {
 		name = "制造技艺",
 		buff_group = 1000,
@@ -3159,6 +3181,7 @@ pg.island_buff_template = {
 		2,
 		3,
 		4,
+		5,
 		10000,
 		10001,
 		10002,

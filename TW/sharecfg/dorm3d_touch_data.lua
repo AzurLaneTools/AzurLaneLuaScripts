@@ -264,6 +264,31 @@ pg.dorm3d_touch_data = {
 			100210
 		}
 	},
+	[10100203] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 10100203,
+		heartbeat_enter_anim = "TLX_TD_shafa_idle_03",
+		heartbeat_enable = 1,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			100250,
+			100280
+		}
+	},
 	[10100303] = {
 		default_favor = 1001,
 		finish_action = "Idle",
@@ -781,6 +806,7 @@ pg.dorm3d_touch_data = {
 		10100107,
 		10100201,
 		10100202,
+		10100203,
 		10100303,
 		2200110,
 		2200210,

@@ -496,6 +496,44 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/diningroom"
 		}
 	},
+	[151] = {
+		rarity = 5,
+		name = "聖誕雪橇沙發套組",
+		type = 5,
+		room_id = 1,
+		desc = "雪花飄落、燭光溫馨，聖誕之約。 \n造型別致的馴鹿雪橇上是柔軟的坐墊和舒服的毛毯，交織著祝福與期待的星光下還隱藏著一份令人期待的小驚喜。 \n聖誕晚餐後，在這份溫暖與美好間，說不定還會發生一些美好的小故事。",
+		is_exclusive = 1,
+		model = "Pay_Siriushostel/Sh_Sp_Xmas/pre_db_sp_sh_xmas01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture5",
+		acesses = "",
+		id = 151,
+		target_slots = {
+			100301
+		},
+		touch_id = {
+			{
+				20220,
+				10100203
+			}
+		},
+		shop_id = {
+			270104
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture151"
+		},
+		scene_hides = {
+			"fbx/litmap_03/pre_db_chandelier06",
+			"fbx/litmap_03/pre_db_table02",
+			"fbx/litmap_03/pre_db_ceram01",
+			"fbx/litmap_03/pre_db_ceram01b (1)",
+			"fbx/litmap_03/pre_db_book01"
+		}
+	},
 	[251] = {
 		rarity = 5,
 		name = "暖意入夢",
@@ -1020,7 +1058,8 @@ pg.dorm3d_furniture_template = {
 			5,
 			6,
 			121,
-			122
+			122,
+			151
 		},
 		{
 			201,
@@ -1082,6 +1121,7 @@ pg.dorm3d_furniture_template = {
 		210,
 		221,
 		222,
+		151,
 		251,
 		301,
 		302,

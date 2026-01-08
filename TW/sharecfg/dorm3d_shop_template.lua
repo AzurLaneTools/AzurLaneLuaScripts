@@ -6,6 +6,7 @@ pg.dorm3d_shop_template = setmetatable({
 		2,
 		3,
 		4,
+		5,
 		6,
 		7,
 		9,
@@ -117,7 +118,27 @@ pg.base.dorm3d_shop_template = {
 			"banner_furniture222"
 		}
 	},
-	[6] = {
+	{
+		rarity = 5,
+		name = "聖誕雪橇沙發套組",
+		type = 1,
+		room_id = 20220,
+		unlock = "",
+		item_id = 151,
+		id = 5,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			1
+		},
+		shop_id = {
+			270104
+		},
+		banners = {
+			"banner_furniture151"
+		}
+	},
+	{
 		rarity = 5,
 		name = "暖意入夢",
 		type = 1,
@@ -137,7 +158,7 @@ pg.base.dorm3d_shop_template = {
 			"banner_furniture251"
 		}
 	},
-	[7] = {
+	{
 		rarity = 4,
 		name = "童心下午茶",
 		type = 1,

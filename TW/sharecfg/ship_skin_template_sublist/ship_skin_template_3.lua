@@ -13622,7 +13622,6 @@ pg.base.ship_skin_template_3 = {
 		hand_id = 1,
 		lip_smoothing = 0,
 		bgm = "",
-		special_effects = "",
 		bg = "145",
 		gyro = 0,
 		spine_use_live2d = 0,
@@ -13641,7 +13640,6 @@ pg.base.ship_skin_template_3 = {
 		shop_id = 0,
 		voice_actor = 42,
 		double_char = 0,
-		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",
 		skeleton_default_skin = "",
@@ -13771,6 +13769,23 @@ pg.base.ship_skin_template_3 = {
 			ParamEyeBallY = {
 				-0.5,
 				0.5
+			}
+		},
+		spine_offset = {
+			-50,
+			-489,
+			0,
+			0.62
+		},
+		special_effects = {
+			"lihui_yuekechengII_2",
+			{
+				1585,
+				-99,
+				0
+			},
+			{
+				1.3
 			}
 		},
 		ship_l2d_id = {
