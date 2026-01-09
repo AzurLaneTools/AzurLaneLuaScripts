@@ -18,8 +18,8 @@ pg.medal_template = {
 		condition = "Obtain 2,000 victories.",
 		rank = 1,
 		id = 10011,
-		explain1 = "for numerous victories in battle.",
-		explain2 = "Awarded to courageous naval personnel"
+		explain1 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle."
 	},
 	[10012] = {
 		target_id = "0",
@@ -39,8 +39,8 @@ pg.medal_template = {
 		condition = "Obtain 4,000 victories.",
 		rank = 2,
 		id = 10012,
-		explain1 = "for numerous victories in battle.",
-		explain2 = "Awarded to courageous naval personnel"
+		explain1 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle."
 	},
 	[10013] = {
 		target_id = "0",
@@ -60,8 +60,8 @@ pg.medal_template = {
 		condition = "Obtain 10,000 victories.",
 		rank = 3,
 		id = 10013,
-		explain1 = "for numerous victories in battle.",
-		explain2 = "Awarded to courageous naval personnel"
+		explain1 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle."
 	},
 	[10014] = {
 		target_id = "0",
@@ -81,8 +81,8 @@ pg.medal_template = {
 		condition = "Obtain 20,000 victories.",
 		rank = 4,
 		id = 10014,
-		explain1 = "for numerous victories in battle.",
-		explain2 = "Awarded to courageous naval personnel"
+		explain1 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle."
 	},
 	[10015] = {
 		target_id = "0",
@@ -102,8 +102,8 @@ pg.medal_template = {
 		condition = "Coming Soon",
 		rank = 5,
 		id = 10015,
-		explain1 = "for numerous victories in battle.",
-		explain2 = "Awarded to courageous naval personnel"
+		explain1 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle."
 	},
 	[10021] = {
 		target_id = "0",
@@ -228,8 +228,8 @@ pg.medal_template = {
 		condition = "Acquire 1 SR ship from a Story or Event Map.",
 		rank = 1,
 		id = 10031,
-		explain1 = "for always facing the sea's challenges.",
-		explain2 = "Awarded to adventurous naval personnel"
+		explain1 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges."
 	},
 	[10032] = {
 		target_id = "5",
@@ -249,8 +249,8 @@ pg.medal_template = {
 		condition = "Acquire 3 SR ships from Story or Event Maps.",
 		rank = 2,
 		id = 10032,
-		explain1 = "for always facing the sea's challenges.",
-		explain2 = "Awarded to adventurous naval personnel"
+		explain1 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges."
 	},
 	[10033] = {
 		target_id = "5",
@@ -270,8 +270,8 @@ pg.medal_template = {
 		condition = "Acquire 10 SR ships from Story or Event Maps.",
 		rank = 3,
 		id = 10033,
-		explain1 = "for always facing the sea's challenges.",
-		explain2 = "Awarded to adventurous naval personnel"
+		explain1 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges."
 	},
 	[10034] = {
 		target_id = "5",
@@ -291,8 +291,8 @@ pg.medal_template = {
 		condition = "Acquire 20 SR ships from Story or Event Maps.",
 		rank = 4,
 		id = 10034,
-		explain1 = "for always facing the sea's challenges.",
-		explain2 = "Awarded to adventurous naval personnel"
+		explain1 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges."
 	},
 	[10035] = {
 		target_id = "0",
@@ -312,8 +312,8 @@ pg.medal_template = {
 		condition = "Coming Soon",
 		rank = 5,
 		id = 10035,
-		explain1 = "for always facing the sea's challenges.",
-		explain2 = "Awarded to adventurous naval personnel"
+		explain1 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges."
 	},
 	[10041] = {
 		target_id = "0",
@@ -333,8 +333,8 @@ pg.medal_template = {
 		condition = "Spend a total of 3,000 Decor Tokens.",
 		rank = 1,
 		id = 10041,
-		explain1 = "for improving living conditions.",
-		explain2 = "Awarded to considerate naval personnel"
+		explain1 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions."
 	},
 	[10042] = {
 		target_id = "0",
@@ -354,8 +354,8 @@ pg.medal_template = {
 		condition = "Spend a total of 7,000 Decor Tokens.",
 		rank = 2,
 		id = 10042,
-		explain1 = "for improving living conditions.",
-		explain2 = "Awarded to considerate naval personnel"
+		explain1 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions."
 	},
 	[10043] = {
 		target_id = "0",
@@ -375,8 +375,8 @@ pg.medal_template = {
 		condition = "Spend a total of 15,000 Decor Tokens.",
 		rank = 3,
 		id = 10043,
-		explain1 = "for improving living conditions.",
-		explain2 = "Awarded to considerate naval personnel"
+		explain1 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions."
 	},
 	[10044] = {
 		target_id = "0",
@@ -396,8 +396,8 @@ pg.medal_template = {
 		condition = "Spend a total of 30,000 Decor Tokens.",
 		rank = 4,
 		id = 10044,
-		explain1 = "for improving living conditions.",
-		explain2 = "Awarded to considerate naval personnel"
+		explain1 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions."
 	},
 	[10045] = {
 		target_id = "0",
@@ -417,8 +417,8 @@ pg.medal_template = {
 		condition = "Spend a total of 60,000 Decor Tokens.",
 		rank = 5,
 		id = 10045,
-		explain1 = "for improving living conditions.",
-		explain2 = "Awarded to considerate naval personnel"
+		explain1 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions."
 	},
 	[10051] = {
 		target_id = "10000",
@@ -438,8 +438,8 @@ pg.medal_template = {
 		condition = "Achieve 100+ Affinity with 10 ships.",
 		rank = 1,
 		id = 10051,
-		explain1 = "with ships as well as people.",
-		explain2 = "Awarded to those who form bonds"
+		explain1 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people."
 	},
 	[10052] = {
 		target_id = "10000",
@@ -459,8 +459,8 @@ pg.medal_template = {
 		condition = "Achieve 100+ Affinity with 20 ships.",
 		rank = 2,
 		id = 10052,
-		explain1 = "with ships as well as people.",
-		explain2 = "Awarded to those who form bonds"
+		explain1 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people."
 	},
 	[10053] = {
 		target_id = "10000",
@@ -480,8 +480,8 @@ pg.medal_template = {
 		condition = "Achieve 100+ Affinity with 50 ships.",
 		rank = 3,
 		id = 10053,
-		explain1 = "with ships as well as people.",
-		explain2 = "Awarded to those who form bonds"
+		explain1 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people."
 	},
 	[10054] = {
 		target_id = "10000",
@@ -501,8 +501,8 @@ pg.medal_template = {
 		condition = "Achieve 100+ Affinity with 100 ships.",
 		rank = 4,
 		id = 10054,
-		explain1 = "with ships as well as people.",
-		explain2 = "Awarded to those who form bonds"
+		explain1 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people."
 	},
 	[10055] = {
 		target_id = "10000",
@@ -522,8 +522,8 @@ pg.medal_template = {
 		condition = "Achieve 100+ Affinity with 200 ships.",
 		rank = 5,
 		id = 10055,
-		explain1 = "with ships as well as people.",
-		explain2 = "Awarded to those who form bonds"
+		explain1 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people."
 	},
 	[10061] = {
 		name = "Eagle Union Emblem of Liberty",
@@ -881,8 +881,8 @@ pg.medal_template = {
 		condition = "Using Iron Blood ships: Reach Level 120 on at least 12 different ships, reach a total of at least 2,000 Affinity, and earn at least 2M EXP.",
 		rank = 1,
 		id = 10091,
-		explain1 = "for the sake of their comrades in the Iron Blood.",
-		explain2 = "Awarded to those who have become a pillar of strength",
+		explain1 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood.",
 		target_id = {
 			100911,
 			100921,
@@ -906,8 +906,8 @@ pg.medal_template = {
 		condition = "Using Iron Blood ships: Reach Level 120 on at least 24 different ships, reach a total of at least 4,000 Affinity, and earn at least 2M EXP.",
 		rank = 2,
 		id = 10092,
-		explain1 = "for the sake of their comrades in the Iron Blood.",
-		explain2 = "Awarded to those who have become a pillar of strength",
+		explain1 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood.",
 		target_id = {
 			100912,
 			100922,
@@ -932,8 +932,8 @@ pg.medal_template = {
 		condition = "Coming Soon",
 		rank = 3,
 		id = 10093,
-		explain1 = "for the sake of their comrades in the Iron Blood.",
-		explain2 = "Awarded to those who have become a pillar of strength"
+		explain1 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood."
 	},
 	[10094] = {
 		target_id = "0",
@@ -953,8 +953,8 @@ pg.medal_template = {
 		condition = "Coming Soon",
 		rank = 4,
 		id = 10094,
-		explain1 = "for the sake of their comrades in the Iron Blood.",
-		explain2 = "Awarded to those who have become a pillar of strength"
+		explain1 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood."
 	},
 	[10095] = {
 		target_id = "0",
@@ -974,8 +974,8 @@ pg.medal_template = {
 		condition = "Coming Soon",
 		rank = 5,
 		id = 10095,
-		explain1 = "for the sake of their comrades in the Iron Blood.",
-		explain2 = "Awarded to those who have become a pillar of strength"
+		explain1 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood."
 	},
 	[10101] = {
 		target_id = "0",

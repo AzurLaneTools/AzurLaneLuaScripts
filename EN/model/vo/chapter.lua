@@ -670,28 +670,32 @@ end
 
 slot0.singleEliteFleetVertify = function(slot0, slot1)
 	slot2 = getProxy(BayProxy):getRawData()
-	slot4 = nil
+	slot3, slot4 = slot0:getEliteTeamByIndex(slot1)
 
-	if not slot0:getEliteTeamByIndex(slot1)[TeamType.FormShips] or #slot3 == 0 then
+	if not slot3[TeamType.FormShips] or #slot5 == 0 then
 		return false, "empty"
 	end
 
-	slot5 = {}
-	slot6 = {}
+	slot6 = {
+		[TeamType.Main] = 0,
+		[TeamType.Vanguard] = 0,
+		[TeamType.Submarine] = 0
+	}
+	slot7 = {}
 
-	for slot10, slot11 in ipairs(slot3) do
-		if slot2[slot11] then
-			if slot12:getFlag("inEvent") then
+	for slot11, slot12 in ipairs(slot5) do
+		if slot2[slot12] then
+			if slot13:getFlag("inEvent") then
 				return false, "inEvent"
 			end
 
-			slot13 = slot12:getTeamType()
-			slot5[slot13] = defaultValue(slot5[slot13], 0) + 1
-			slot6[#slot6 + 1] = slot12:getShipType()
+			slot14 = slot13:getTeamType()
+			slot6[slot14] = slot6[slot14] + 1
+			slot7[#slot7 + 1] = slot13:getShipType()
 		end
 	end
 
-	if slot4 == FleetType.Normal and (TeamType.MainMax < slot5[TeamType.Main] or TeamType.VanguardMax < slot5[TeamType.Vanguard] or slot5[TeamType.Main] * slot5[TeamType.Vanguard] == 0) then
+	if slot4 == FleetType.Normal and (TeamType.MainMax < slot6[TeamType.Main] or TeamType.VanguardMax < slot6[TeamType.Vanguard] or slot6[TeamType.Main] * slot6[TeamType.Vanguard] == 0) then
 		return false, "teamCount"
 	end
 
@@ -701,34 +705,57 @@ slot0.singleEliteFleetVertify = function(slot0, slot1)
 		return slot0 ~= 0
 	end):value())
 
-	slot8 = 1
+	slot9 = 1
 
-	while slot8 <= #slot6 do
-		slot9 = slot6[slot8]
-		slot10 = nil
+	while slot9 <= #slot7 do
+		slot10 = slot7[slot9]
+		slot11 = nil
 
-		for slot14, slot15 in ipairs(slot7) do
-			if ShipType.ContainInLimitBundle(slot15, slot9) then
-				slot10 = slot14
+		for slot15, slot16 in ipairs(slot8) do
+			if ShipType.ContainInLimitBundle(slot16, slot10) then
+				slot11 = slot15
 
 				break
 			end
 		end
 
-		if slot10 then
-			table.remove(slot7, slot10)
+		if slot11 then
+			table.remove(slot8, slot11)
 
-			slot8 = slot8 + 1
+			slot9 = slot9 + 1
 		else
-			table.remove(slot6, slot8)
+			table.remove(slot7, slot9)
 		end
 	end
 
-	if #slot7 > 0 then
+	if slot4 == FleetType.Normal then
+		slot10 = {}
+
+		for slot14, slot15 in ipairs(slot7) do
+			slot10[ShipType.GetTeamFromShipType(slot15)] = true
+		end
+
+		for slot14, slot15 in ipairs({
+			TeamType.Vanguard,
+			TeamType.Main
+		}) do
+			slot10[slot15] = slot10[slot15] or underscore.all(slot8, function (slot0)
+				return underscore.all(ShipType.GetShipTypesFromLimit(slot0), function (slot0)
+					return ShipType.GetTeamFromShipType(slot0) ~= uv0
+				end)
+			end)
+		end
+
+		if slot10[TeamType.Vanguard] and slot10[TeamType.Main] then
+			return true
+		else
+			return false, "typeLimitation"
+		end
+	elseif #slot8 == 0 or #slot7 > 0 then
+		return true
+	else
 		return false, "typeLimitation"
 	end
-
-	return true
 end
 
 slot0.getSupportFleet = function(slot0)

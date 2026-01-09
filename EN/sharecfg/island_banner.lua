@@ -65,6 +65,7 @@ pg.island_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 4,
 		id = 3,
 		pic = "temp4",
@@ -73,32 +74,6 @@ pg.island_banner = {
 			{
 				{
 					target_act_id = 7110
-				}
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					22
-				},
-				{
-					23,
-					59,
-					59
 				}
 			}
 		}

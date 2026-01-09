@@ -43472,7 +43472,7 @@ pg.activity_template = {
 		}
 	},
 	[50286] = {
-		mark = 20251218,
+		mark = 20250912,
 		page_info = "",
 		type = 10,
 		login_pop = 0,

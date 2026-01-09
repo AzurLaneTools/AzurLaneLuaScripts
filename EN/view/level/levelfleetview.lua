@@ -882,21 +882,27 @@ slot0.UpdateEliteInvestigation = function(slot0)
 	slot1 = 0
 
 	for slot5 = 1, 2 do
-		slot6 = slot0.eliteFleetList[slot5]
-		slot7 = {}
+		slot6 = 0
 
-		for slot11, slot12 in pairs(slot0.eliteCommanderList[slot5]) do
-			table.insert(slot7, {
-				pos = slot11,
-				id = slot12
-			})
+		if slot5 <= slot0.chapter:GetNomralFleetMaxCount() then
+			slot7 = slot0.eliteFleetList[slot5]
+			slot8 = {}
+
+			for slot12, slot13 in pairs(slot0.eliteCommanderList[slot5]) do
+				table.insert(slot8, {
+					pos = slot12,
+					id = slot13
+				})
+			end
+
+			slot6 = math.floor(TypedFleet.New({
+				ship_list = slot7,
+				commanders = slot8,
+				fleetType = FleetType.Normal
+			}):getInvestSums())
 		end
 
-		slot1 = math.max(slot1, TypedFleet.New({
-			ship_list = slot6,
-			commanders = slot7,
-			fleetType = FleetType.Normal
-		}) and math.floor(slot8:getInvestSums()) or 0)
+		slot1 = math.max(slot1, slot6)
 	end
 
 	slot0:UpdateInvestigationComparision(slot1, slot0.chapter:getConfig("avoid_require"))
