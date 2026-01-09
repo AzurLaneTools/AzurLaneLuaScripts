@@ -217,18 +217,32 @@ slot0.BundleType2CNLabel = function(slot0)
 	return uv0.bundleLabel[slot0]
 end
 
-slot0.ContainInLimitBundle = function(slot0, slot1)
+slot0.GetShipTypesFromLimit = function(slot0)
 	if type(slot0) == "string" then
-		for slot5, slot6 in ipairs(uv0.BundleList[slot0]) do
-			if slot6 == slot1 then
-				return true
-			end
-		end
+		return uv0.BundleList[slot0]
 	elseif type(slot0) == "number" then
-		return slot0 == 0 or slot1 == slot0
-	end
+		if slot0 == 0 then
+			return "all"
+		else
+			return {
+				slot0
+			}
+		end
 
-	return false
+		return slot0 == 0 or shipType == slot0
+	else
+		assert(false)
+	end
+end
+
+slot0.ContainInLimitBundle = function(slot0, slot1)
+	if uv0.GetShipTypesFromLimit(slot0) == "all" then
+		return true
+	else
+		return underscore.any(slot2, function (slot0)
+			return slot0 == uv0
+		end)
+	end
 end
 
 slot0.CloakShipTypeList = {
