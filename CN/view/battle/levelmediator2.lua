@@ -107,6 +107,7 @@ slot0.register = function(slot0)
 			end,
 			onQuit = function (slot0)
 				uv0:sendNotification(GAME.SELECT_ELIT_CHAPTER_COMMANDER, {
+					commanderId = 0,
 					chapterId = uv1,
 					index = uv2,
 					pos = uv3,
