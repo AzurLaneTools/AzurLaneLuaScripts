@@ -338,6 +338,8 @@ slot0.wrapEliteFleet = function(slot0, slot1)
 end
 
 slot0.getEliteFleetCommanders = function(slot0)
+	slot0:EliteCommanderFilter()
+
 	slot1 = {}
 	slot6 = slot0
 	slot5 = slot0.GetSupportFleetMaxCount(slot6)
@@ -664,6 +666,20 @@ slot0.EliteShipTypeFilter = function(slot0)
 					})
 				end
 			})
+		end
+	end
+end
+
+slot0.EliteCommanderFilter = function(slot0)
+	slot1 = getProxy(CommanderProxy)
+
+	for slot5, slot6 in pairs(slot0.eliteFleetList) do
+		for slot10, slot11 in ipairs(slot6) do
+			for slot15, slot16 in ipairs(slot11[TeamType.FormCommander]) do
+				if slot16 ~= 0 and not slot1:RawGetCommanderById(slot16) then
+					slot11[TeamType.FormCommander][slot15] = 0
+				end
+			end
 		end
 	end
 end

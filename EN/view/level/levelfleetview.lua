@@ -421,11 +421,13 @@ slot0.set = function(slot0, slot1, slot2, slot3)
 
 	slot0:SwitchDisplayMode()
 
-	slot0.fleets = _(_.values(slot2)):chain():filter(function (slot0)
+	slot0.fleets = underscore(slot2):chain():values():filter(function (slot0)
 		return slot0:isRegularFleet()
-	end):sort(function (slot0, slot1)
-		return slot0.id < slot1.id
-	end):value()
+	end):sort(CompareFuncs({
+		function (slot0)
+			return slot0.id
+		end
+	})):value()
 	slot0.selectIds = {
 		[FleetType.Normal] = {},
 		[FleetType.Submarine] = {}
@@ -1650,12 +1652,7 @@ slot0.initCommander = function(slot0, slot1, slot2, slot3)
 	slot5 = slot3:getEliteFleetCommanders()[slot1]
 
 	for slot9 = 1, 2 do
-		slot11 = nil
-
-		if slot5[slot9] then
-			slot11 = getProxy(CommanderProxy):getCommanderById(slot10)
-		end
-
+		slot11 = slot5[slot9] and getProxy(CommanderProxy):getCommanderById(slot10)
 		slot12 = slot2:Find("pos" .. slot9)
 
 		setActive(slot12:Find("add"), not slot11)
