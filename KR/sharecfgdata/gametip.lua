@@ -27175,7 +27175,7 @@ _G.pg.base.gametip.honor_medal_support_tips_display = {
 			"<color=#d797ff>SR</color>：10%",
 			"<color=#3dc6ff>R</color>：32%",
 			"N：54%",
-			"매월 지원 횟수 상한: 999회"
+			"매월 지원 횟수 상한: 999회\n※같은 레어도의 건조 획득 확률은 동일합니다."
 		}
 	}
 }
