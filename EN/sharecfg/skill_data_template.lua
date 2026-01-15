@@ -182310,7 +182310,7 @@ Additionally, once per battle each, the following effects activate based on the 
 	},
 	[901020] = {
 		desc_get = "",
-		name = "Slash Attack - Spread",
+		name = "Slash Attack - Area",
 		type = 2,
 		max_level = 1,
 		desc = "The ship in the frontmost position of your Vanguard performs a slash attack. Slash attack pattern, range, and DMG are based on the number of ships equipped with slash attack gear, the ships' hull type, and the equipped module's effects.",
