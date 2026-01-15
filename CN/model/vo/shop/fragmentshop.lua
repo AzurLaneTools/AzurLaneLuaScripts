@@ -55,4 +55,8 @@ slot0.Reset = function(slot0, slot1)
 	slot0:update(slot1, {}, slot2)
 end
 
+slot0.IsSameKind = function(slot0, slot1)
+	return isa(slot1, FragmentShop)
+end
+
 return slot0

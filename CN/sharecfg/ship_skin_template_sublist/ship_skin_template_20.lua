@@ -1,6 +1,278 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[11300031] = {
+		name = "Cafe & Diner mode",
+		change_skin = "",
+		desc = "呵呵，指挥官？您怎么发起呆来了呀？怎么啦？是在意热乎乎的汉堡吗？还是说……呵呵……更进一步的话……就·留·到·之·后·吧♪",
+		illustrator2 = -1,
+		ship_group = 1130003,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "nina_2",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 20,
+		l2d_ignore_drag = 0,
+		hand_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "yumia-az-story",
+		special_effects = "",
+		bg = "160",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300031,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "nina_2",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 71160,
+		voice_actor = 98,
+		skeleton_default_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.983,
+					1.409,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.009,
+					1.469,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.758,
+					2.433,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.808,
+							2.348,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			42.8,
+			-739.7,
+			0,
+			0.65
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1120,
+					628,
+					2,
+					180,
+					-60,
+					2
+				},
+				{
+					-411,
+					0,
+					2,
+					100,
+					-100,
+					2
+				},
+				{
+					-360,
+					-555,
+					2,
+					-120,
+					-60,
+					2
+				}
+			}
+		}
+	},
+	[11300040] = {
+		name = "蕾妮雅",
+		change_skin = "",
+		desc = "啊，那个……我、我是蕾妮雅……不、不知道您是哪位……呃、那个……对、对对对不起——！！我也不是很明白现在的情况，不过，可、可以麻烦您……收留我吗？",
+		illustrator2 = -1,
+		ship_group = 1130004,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "leiniya",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300040,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "leiniya",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 371,
+		skeleton_default_skin = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.416,
+					1.077,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.793,
+					2.291,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[11300041] = {
 		name = "夏日假期",
 		change_skin = "",

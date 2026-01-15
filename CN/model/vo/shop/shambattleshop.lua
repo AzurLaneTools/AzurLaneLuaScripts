@@ -31,4 +31,8 @@ slot0.GetResList = function(slot0)
 	}
 end
 
+slot0.IsSameKind = function(slot0, slot1)
+	return isa(slot1, ShamBattleShop)
+end
+
 return slot0

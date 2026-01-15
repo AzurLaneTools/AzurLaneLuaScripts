@@ -11,6 +11,7 @@ slot0.OnInit = function(slot0)
 	slot0.battleBtn = slot0.task_bg:Find("battle_btn")
 	slot0.getBtn = slot0.task_bg:Find("get_btn")
 	slot0.gotBtn = slot0.task_bg:Find("got_btn")
+	slot0.skinBtn = slot0.bg:Find("skinbtn")
 	slot0.scenario = HelenaScenarioPage.New(slot0._tf, slot0.event)
 
 	slot0.scenario:SetCoreStoryPage(slot0)
@@ -29,6 +30,14 @@ slot0.OnDataSetting = function(slot0)
 		slot0.ptData:Update(slot0.activity)
 	else
 		slot0.ptData = ActivityPtData.New(slot0.activity)
+	end
+end
+
+slot0.OnShowFlush = function(slot0)
+	uv0.super.OnShowFlush(slot0)
+
+	if slot0.contextData.activeScenario then
+		triggerButton(slot0.skinBtn)
 	end
 end
 
@@ -56,8 +65,6 @@ slot0.OnFirstFlush = function(slot0)
 end
 
 slot0.OnAddUI = function(slot0)
-	slot0.skinBtn = slot0.bg:Find("skinbtn")
-
 	onButton(slot0, slot0.skinBtn, function ()
 		uv0.scenario:Load()
 		uv0.scenario:SetActivity(uv0.activity)

@@ -94,7 +94,9 @@ slot0.init = function(slot0)
 	slot0._canvasOrder = slot0._tf:GetComponentInParent(typeof(UnityEngine.Canvas)) and slot3.sortingOrder or 0
 	slot0._ratioFitter = GetComponent(slot0._tf, typeof(AspectRatioFitter))
 
-	slot0._go:AddComponent(typeof(RectMask2D))
+	if not BATTLE_DEFAULT_UNIT_DETAIL then
+		slot0._go:AddComponent(typeof(RectMask2D))
+	end
 end
 
 slot0.initPainting = function(slot0)

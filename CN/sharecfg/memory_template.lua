@@ -3965,6 +3965,25 @@ pg.memory_template = setmetatable({
 		4903,
 		4904,
 		4905,
+		4906,
+		4907,
+		4908,
+		4909,
+		4910,
+		4911,
+		4912,
+		4913,
+		4914,
+		4915,
+		4916,
+		4917,
+		4918,
+		4919,
+		4920,
+		4921,
+		4922,
+		4923,
+		4924,
 		4931,
 		4932,
 		4933,
@@ -63640,6 +63659,291 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"XIANGCHEYUTIANQIONGZHIYIN24"
+		}
+	},
+	[4906] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 25,
+		title = "实验场θ",
+		condition = "进入 EP5-2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN25",
+		id = 4906,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN25"
+		}
+	},
+	[4907] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 26,
+		title = "群英荟萃",
+		condition = "进入 EP6-1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN26",
+		id = 4907,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN26"
+		}
+	},
+	[4908] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 27,
+		title = "火线救援",
+		condition = "进入 EP6-2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN27",
+		id = 4908,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN27"
+		}
+	},
+	[4909] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 28,
+		title = "各显神通",
+		condition = "进入 EP6-3",
+		story = "XIANGCHEYUTIANQIONGZHIYIN28",
+		id = 4909,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN28"
+		}
+	},
+	[4910] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 29,
+		title = "神秘来援",
+		condition = "进入 EP6-4",
+		story = "XIANGCHEYUTIANQIONGZHIYIN29",
+		id = 4910,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN29"
+		}
+	},
+	[4911] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 30,
+		title = "清理协议",
+		condition = "进入 EP6-5",
+		story = "XIANGCHEYUTIANQIONGZHIYIN30",
+		id = 4911,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN30"
+		}
+	},
+	[4912] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 31,
+		title = "部署开战",
+		condition = "进入 EP7-1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN31",
+		id = 4912,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN31"
+		}
+	},
+	[4913] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 32,
+		title = "约克城级的战斗",
+		condition = "进入 EP7-2",
+		story = "1996002",
+		id = 4913,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996002"
+		}
+	},
+	[4914] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 33,
+		title = "如今的余烬",
+		condition = "进入 EP7-3",
+		story = "1996003",
+		id = 4914,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996003"
+		}
+	},
+	[4915] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 34,
+		title = "计划舰的乐章",
+		condition = "进入 EP7-4",
+		story = "1996004",
+		id = 4915,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996004"
+		}
+	},
+	[4916] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 35,
+		title = "交错的思绪",
+		condition = "进入 EP7-5",
+		story = "1996005",
+		id = 4916,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996005"
+		}
+	},
+	[4917] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 36,
+		title = "有些事不重要",
+		condition = "进入 EP7-6",
+		story = "1996006",
+		id = 4917,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996006"
+		}
+	},
+	[4918] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 37,
+		title = "帷幕内的战斗",
+		condition = "进入 EP7-7",
+		story = "1996007",
+		id = 4918,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996007"
+		}
+	},
+	[4919] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 38,
+		title = "赠予苍穹之歌",
+		condition = "进入 EP8-1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN38",
+		id = 4919,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN38"
+		}
+	},
+	[4920] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 39,
+		title = "第二次离别",
+		condition = "进入 EP8-2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN39",
+		id = 4920,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN39"
+		}
+	},
+	[4921] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 40,
+		title = "现在，过去，未来",
+		condition = "进入 EP8-3",
+		story = "XIANGCHEYUTIANQIONGZHIYIN40",
+		id = 4921,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN40"
+		}
+	},
+	[4922] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 41,
+		title = "逆位的塔",
+		condition = "进入 EX-1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN41",
+		id = 4922,
+		icon = "memory_xiangcheyutianqiongzhiyin4",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN41"
+		}
+	},
+	[4923] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 42,
+		title = "新的时代",
+		condition = "进入 EX-2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN42",
+		id = 4923,
+		icon = "memory_xiangcheyutianqiongzhiyin4",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN42"
+		}
+	},
+	[4924] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 43,
+		title = "涟漪",
+		condition = "进入 EX-3",
+		story = "XIANGCHEYUTIANQIONGZHIYIN43",
+		id = 4924,
+		icon = "memory_xiangcheyutianqiongzhiyin4",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN43"
 		}
 	},
 	[4931] = {

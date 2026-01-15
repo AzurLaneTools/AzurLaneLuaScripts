@@ -12505,7 +12505,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 列克星敦II(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 关岛(最多4次)"
 }
 
 
@@ -46141,6 +46141,31 @@ _G.pg.base.gametip.island_survey_ui_award = {
 
 _G.pg.base.gametip.island_survey_ui_button = {
 	tip = "打开问卷"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_subtitle_1 = {
+	tip = "响彻于天穹之音·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_title = {
+	tip = "响彻于天穹之音·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_title2 = {
+	tip = "movement"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title = {
+	tip = "响彻于天穹之音·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
+	tip = "movement"
 }
 
 

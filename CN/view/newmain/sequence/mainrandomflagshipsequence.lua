@@ -58,9 +58,9 @@ slot2 = function(slot0, slot1)
 	end
 
 	if slot0 == SettingsRandomFlagShipAndSkinPanel.SHIP_FREQUENTLYUSED then
-		return slot1:GetPreferenceTag() ~= 0
+		return slot1.phantomId == 0 and slot1:GetPreferenceTag() ~= 0
 	elseif slot0 == SettingsRandomFlagShipAndSkinPanel.SHIP_LOCKED then
-		return slot1:GetLockState() ~= 0
+		return slot1.phantomId == 0 and slot1:GetLockState() ~= 0
 	elseif slot0 == SettingsRandomFlagShipAndSkinPanel.COUSTOM then
 		-- Nothing
 	end

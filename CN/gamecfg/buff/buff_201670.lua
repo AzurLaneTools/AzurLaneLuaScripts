@@ -14,7 +14,7 @@ return {
 			},
 			arg_list = {
 				target = "TargetSelf",
-				value = 99999
+				value = 199998
 			}
 		}
 	}

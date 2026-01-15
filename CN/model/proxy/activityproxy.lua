@@ -465,6 +465,10 @@ slot0.getIslandPanelActivities = function(slot0)
 
 		if slot0:isIslandShow() and slot1 == ActivityConst.ACTIVITY_TYPE_SURVEY then
 			slot2 = uv0:isSurveyOpen() and not uv0:isSurveyDone()
+
+			if PLATFORM == PLATFORM_OPENHARMONY then
+				slot2 = false
+			end
 		end
 
 		return slot2 and not slot0:isEnd()
