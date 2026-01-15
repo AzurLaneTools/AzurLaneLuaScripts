@@ -3875,6 +3875,25 @@ pg.memory_template = setmetatable({
 		4903,
 		4904,
 		4905,
+		4906,
+		4907,
+		4908,
+		4909,
+		4910,
+		4911,
+		4912,
+		4913,
+		4914,
+		4915,
+		4916,
+		4917,
+		4918,
+		4919,
+		4920,
+		4921,
+		4922,
+		4923,
+		4924,
 		4931,
 		4932,
 		4933,
@@ -62200,6 +62219,291 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"XIANGCHEYUTIANQIONGZHIYIN24"
+		}
+	},
+	[4906] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 25,
+		title = "Test Site Theta",
+		condition = "Unlock EP5-2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN25",
+		id = 4906,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN25"
+		}
+	},
+	[4907] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 26,
+		title = "Gathering of Allies",
+		condition = "Unlock EP6-1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN26",
+		id = 4907,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN26"
+		}
+	},
+	[4908] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 27,
+		title = "Rescue from the Flames",
+		condition = "Unlock EP6-2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN27",
+		id = 4908,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN27"
+		}
+	},
+	[4909] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 28,
+		title = "Together We Stand",
+		condition = "Unlock EP6-3",
+		story = "XIANGCHEYUTIANQIONGZHIYIN28",
+		id = 4909,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN28"
+		}
+	},
+	[4910] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 29,
+		title = "Mysterious Support",
+		condition = "Unlock EP6-4",
+		story = "XIANGCHEYUTIANQIONGZHIYIN29",
+		id = 4910,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN29"
+		}
+	},
+	[4911] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 30,
+		title = "The Reset Protocol",
+		condition = "Unlock EP6-5",
+		story = "XIANGCHEYUTIANQIONGZHIYIN30",
+		id = 4911,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN30"
+		}
+	},
+	[4912] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 31,
+		title = "Commence Operation",
+		condition = "Unlock EP7-1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN31",
+		id = 4912,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN31"
+		}
+	},
+	[4913] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 32,
+		title = "The Framework's Battle",
+		condition = "Unlock EP7-2",
+		story = "1996002",
+		id = 4913,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996002"
+		}
+	},
+	[4914] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 33,
+		title = "The Ashes of the Present",
+		condition = "Unlock EP7-3",
+		story = "1996003",
+		id = 4914,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996003"
+		}
+	},
+	[4915] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 34,
+		title = "Blueprint Shipgirls",
+		condition = "Unlock EP7-4",
+		story = "1996004",
+		id = 4915,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996004"
+		}
+	},
+	[4916] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 35,
+		title = "Crossing Thoughts",
+		condition = "Unlock EP7-5",
+		story = "1996005",
+		id = 4916,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996005"
+		}
+	},
+	[4917] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 36,
+		title = "Something Not So Important",
+		condition = "Unlock EP7-6",
+		story = "1996006",
+		id = 4917,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996006"
+		}
+	},
+	[4918] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 37,
+		title = "The Battle Within the Veil",
+		condition = "Unlock EP7-7",
+		story = "1996007",
+		id = 4918,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996007"
+		}
+	},
+	[4919] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 38,
+		title = "A Note Through the Firmament",
+		condition = "Unlock EP8-1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN38",
+		id = 4919,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN38"
+		}
+	},
+	[4920] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 39,
+		title = "The Second Parting",
+		condition = "Unlock EP8-2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN39",
+		id = 4920,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN39"
+		}
+	},
+	[4921] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 40,
+		title = "Past, Present, and Future",
+		condition = "Unlock EP8-3",
+		story = "XIANGCHEYUTIANQIONGZHIYIN40",
+		id = 4921,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN40"
+		}
+	},
+	[4922] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 41,
+		title = "The Tower, Reversed",
+		condition = "Unlock EX-1",
+		story = "XIANGCHEYUTIANQIONGZHIYIN41",
+		id = 4922,
+		icon = "memory_xiangcheyutianqiongzhiyin4",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN41"
+		}
+	},
+	[4923] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 42,
+		title = "A New Era",
+		condition = "Unlock EX-2",
+		story = "XIANGCHEYUTIANQIONGZHIYIN42",
+		id = 4923,
+		icon = "memory_xiangcheyutianqiongzhiyin4",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN42"
+		}
+	},
+	[4924] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 43,
+		title = "Ripples",
+		condition = "Unlock EX-3",
+		story = "XIANGCHEYUTIANQIONGZHIYIN43",
+		id = 4924,
+		icon = "memory_xiangcheyutianqiongzhiyin4",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN43"
 		}
 	},
 	[4931] = {

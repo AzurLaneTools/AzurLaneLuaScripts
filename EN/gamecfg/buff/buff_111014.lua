@@ -41,6 +41,16 @@ return {
 				number = -500,
 				attr = "antiAirPower"
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "enemyantiAirPowerDownTag"
+			}
 		}
 	}
 }

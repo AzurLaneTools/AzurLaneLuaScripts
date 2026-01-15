@@ -153,6 +153,23 @@ pg.survey_data_template = {
 			}
 		}
 	},
+	[1010] = {
+		ios_url = "https://usersurvey.wjx.cn/vm/Pz4fXxz.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		uo_url = "https://usersurvey.wjx.cn/vm/PpslfXd.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&## ",
+		main_url = "https://usersurvey.wjx.cn/vm/rjAKHK5.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		id = 1010,
+		name = "版本问卷2",
+		main_activity = "344746594",
+		ios_activity = "344745283",
+		uo_activity = "344745703",
+		bonus = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -162,6 +179,7 @@ pg.survey_data_template = {
 		1006,
 		1007,
 		1008,
-		1009
+		1009,
+		1010
 	}
 }

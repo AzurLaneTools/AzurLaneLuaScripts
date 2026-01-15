@@ -3661,6 +3661,12 @@ pg.skill_data_display = setmetatable({
 		201633,
 		201668,
 		201669,
+		201672,
+		201673,
+		201680,
+		201687,
+		201688,
+		201689,
 		1011540,
 		1011541,
 		1090010,
@@ -18538,6 +18544,30 @@ pg.base.skill_data_display = {
 	[201669] = {
 		id = 201669,
 		name = "Attack Restrictions Lifted"
+	},
+	[201672] = {
+		id = 201672,
+		name = "Deconstructing Observation"
+	},
+	[201673] = {
+		id = 201673,
+		name = "Unextinguished Will"
+	},
+	[201680] = {
+		id = 201680,
+		name = "The Final Concerto"
+	},
+	[201687] = {
+		id = 201687,
+		name = "VII=VI Linkage"
+	},
+	[201688] = {
+		id = 201688,
+		name = "VII=XIV Linkage"
+	},
+	[201689] = {
+		id = 201689,
+		name = "Target Down"
 	},
 	[1011540] = {
 		id = 1011540,

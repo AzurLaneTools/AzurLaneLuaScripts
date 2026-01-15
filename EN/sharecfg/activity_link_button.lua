@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50222
+			50326
 		}
 	},
 	{
@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50281
+			50326
 		}
 	},
 	[11] = {
@@ -289,17 +289,17 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "WinterFestival2025CoreActivityUI",
+		param = "ANTTFFCoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_core3",
+		text_pic = "text_event_core2",
 		type = 16,
-		pic = "event_core",
+		pic = "event_core2",
 		id = 109,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			50301
+			50341
 		}
 	},
 	[110] = {

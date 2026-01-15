@@ -177,6 +177,12 @@ slot0.GetBannerDisplays = function(slot0)
 	return underscore(pg.island_banner.all):chain():map(function (slot0)
 		return pg.island_banner[slot0]
 	end):select(function (slot0)
+		slot2 = slot0.type == IslandConst.BANNER_TYPE_SURVEY
+
+		if PLATFORM == PLATFORM_OPENHARMONY and slot2 then
+			return false
+		end
+
 		return pg.TimeMgr.GetInstance():inTime(slot0.time)
 	end):value()
 end
