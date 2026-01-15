@@ -28871,7 +28871,7 @@ _G.pg.base.spweapon_data_statistics[14130] = {
 
 _G.pg.base.spweapon_data_statistics[14140] = {
 	attribute_1 = "hit",
-	name = "“Lucky Lou”",
+	name = "「Lucky Lou」",
 	type = 2,
 	tech = 0,
 	value_1_random = 10,
