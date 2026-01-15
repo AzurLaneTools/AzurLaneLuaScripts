@@ -4,7 +4,7 @@ slot0.GetTimelineMainCharacter = function()
 	slot0 = GameObject.Find("[actor]").transform
 
 	table.IpairsCArray(slot0:GetComponentsInChildren(typeof("BLHXCharacterPropertiesController")), function (slot0, slot1)
-		if uv0.GetSkinIdByModelName(slot1.gameObject.name) then
+		if slot0 == 0 or uv0.GetSkinIdByModelName(slot1.gameObject.name) then
 			uv1 = slot1.transform
 		end
 	end)

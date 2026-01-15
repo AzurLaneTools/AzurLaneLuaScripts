@@ -3934,6 +3934,25 @@ pg.memory_template = setmetatable({
 		4903,
 		4904,
 		4905,
+		4906,
+		4907,
+		4908,
+		4909,
+		4910,
+		4911,
+		4912,
+		4913,
+		4914,
+		4915,
+		4916,
+		4917,
+		4918,
+		4919,
+		4920,
+		4921,
+		4922,
+		4923,
+		4924,
 		4931,
 		4932,
 		4933,
@@ -63168,6 +63187,291 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"XIANGCHEYUTIANQIONGZHIYIN24"
+		}
+	},
+	[4906] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 25,
+		title = "実験場θ",
+		condition = "EP5-2をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN25",
+		id = 4906,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN25"
+		}
+	},
+	[4907] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 26,
+		title = "仲間集う",
+		condition = "EP6-1をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN26",
+		id = 4907,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN26"
+		}
+	},
+	[4908] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 27,
+		title = "火急の救援",
+		condition = "EP6-2をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN27",
+		id = 4908,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN27"
+		}
+	},
+	[4909] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 28,
+		title = "各々の力",
+		condition = "EP6-3をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN28",
+		id = 4909,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN28"
+		}
+	},
+	[4910] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 29,
+		title = "謎の来援",
+		condition = "EP6-4をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN29",
+		id = 4910,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN29"
+		}
+	},
+	[4911] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 30,
+		title = "リセットプロトコル",
+		condition = "EP6-5をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN30",
+		id = 4911,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN30"
+		}
+	},
+	[4912] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 31,
+		title = "作戦開始",
+		condition = "EP7-1をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN31",
+		id = 4912,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN31"
+		}
+	},
+	[4913] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 32,
+		title = "ヨークタウンたちの戦い",
+		condition = "EP7-2をクリア",
+		story = "1996002",
+		id = 4913,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996002"
+		}
+	},
+	[4914] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 33,
+		title = "余燼の今",
+		condition = "EP7-3をクリア",
+		story = "1996003",
+		id = 4914,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996003"
+		}
+	},
+	[4915] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 34,
+		title = "特別計画艦",
+		condition = "EP7-4をクリア",
+		story = "1996004",
+		id = 4915,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996004"
+		}
+	},
+	[4916] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 35,
+		title = "交錯する想い",
+		condition = "EP7-5をクリア",
+		story = "1996005",
+		id = 4916,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996005"
+		}
+	},
+	[4917] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 36,
+		title = "あまり重要じゃないこと",
+		condition = "EP7-6をクリア",
+		story = "1996006",
+		id = 4917,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996006"
+		}
+	},
+	[4918] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 37,
+		title = "ヴェールの中の戦い",
+		condition = "EP7-7をクリア",
+		story = "1996007",
+		id = 4918,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"1996007"
+		}
+	},
+	[4919] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 38,
+		title = "天穹に響く音謡",
+		condition = "EP8-1をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN38",
+		id = 4919,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN38"
+		}
+	},
+	[4920] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 39,
+		title = "二回目の別れ",
+		condition = "EP8-2をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN39",
+		id = 4920,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN39"
+		}
+	},
+	[4921] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 40,
+		title = "今、過去、未来",
+		condition = "EP8-3をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN40",
+		id = 4921,
+		icon = "memory_xiangcheyutianqiongzhiyin3",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN40"
+		}
+	},
+	[4922] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 41,
+		title = "逆位置のタワー",
+		condition = "EX-1をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN41",
+		id = 4922,
+		icon = "memory_xiangcheyutianqiongzhiyin4",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN41"
+		}
+	},
+	[4923] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 42,
+		title = "新しい時代",
+		condition = "EX-2をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN42",
+		id = 4923,
+		icon = "memory_xiangcheyutianqiongzhiyin4",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN42"
+		}
+	},
+	[4924] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 43,
+		title = "さざなみ",
+		condition = "EX-3をクリア",
+		story = "XIANGCHEYUTIANQIONGZHIYIN43",
+		id = 4924,
+		icon = "memory_xiangcheyutianqiongzhiyin4",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGCHEYUTIANQIONGZHIYIN43"
 		}
 	},
 	[4931] = {

@@ -324,7 +324,7 @@ end
 
 slot0.setUserData = function(slot0, slot1)
 	setActive(slot0.airiUidTxt, true)
-	setText(slot0.airiUidTxt, "uid: " .. slot1.arg2)
+	setText(slot0.airiUidTxt, "SDKUID: " .. slot1.arg2)
 end
 
 slot0.showUserAgreement = function(slot0, slot1)

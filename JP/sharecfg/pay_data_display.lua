@@ -185,6 +185,7 @@ pg.pay_data_display = setmetatable({
 		2068,
 		2069,
 		2070,
+		2071,
 		5001,
 		5002,
 		5003,
@@ -19361,6 +19362,124 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40075,
+				1
+			}
+		}
+	},
+	[2071] = {
+		picture = "dongzhi3",
+		name = "冬のお得福袋・2026",
+		type = 0,
+		second_text = "",
+		descrip = "ダイヤ3880個、特装型ブリMkⅢなどを入手可能",
+		subject = "冬のお得福袋・2026",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 5280,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.libao128",
+		extra_gem = 0,
+		id = 2071,
+		airijp_id = "com.yostarjp.azurlane.package128",
+		name_display = "冬のお得福袋・2026",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					1,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40076,
 				1
 			}
 		}

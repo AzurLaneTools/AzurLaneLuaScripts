@@ -7,7 +7,7 @@ slot0.execute = function(slot0, slot1)
 	slot7 = slot2.callback
 	slot9 = getProxy(ChapterProxy):getChapterById(slot2.chapterId)
 
-	if slot2.commanderId then
+	if slot2.commanderId and slot6 ~= 0 then
 		slot10, slot11 = Commander.canEquipToEliteChapter(slot3, slot4, slot5, slot6)
 
 		if not slot10 then

@@ -12877,7 +12877,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「レキシントンⅡ」を確定で入手可能！（最大4隻まで）"
+	tip = "期間限定建造を累計200回行うと「グアム」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -46540,6 +46540,31 @@ _G.pg.base.gametip.island_survey_ui_award = {
 
 _G.pg.base.gametip.island_survey_ui_button = {
 	tip = "打开问卷"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_subtitle_1 = {
+	tip = "天穹に響く音謡·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_title = {
+	tip = "天穹に響く音謡·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_title2 = {
+	tip = "event"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title = {
+	tip = "天穹に響く音謡·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
+	tip = "event"
 }
 
 
