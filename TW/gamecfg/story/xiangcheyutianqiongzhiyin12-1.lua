@@ -171,7 +171,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101550,
-			say = "複議！（目不轉睛的盯著女王之光號列車）",
+			say = "附議！（目不轉睛的盯著女王之光號列車）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

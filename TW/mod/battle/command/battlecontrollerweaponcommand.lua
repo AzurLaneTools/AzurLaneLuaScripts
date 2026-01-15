@@ -76,6 +76,12 @@ slot2.onUnitInitFinish = function(slot0, slot1)
 	slot0._manualWeaponAutoBot = uv0.Battle.BattleManualWeaponAutoBot.New(slot2)
 	slot0._joyStickAutoBot = uv0.Battle.BattleJoyStickAutoBot.New(slot0._dataProxy, slot2)
 
+	if slot0._dataProxy:GetInitData().battleType == SYSTEM_SCENARIO_SUB_STRIKE then
+		slot0._joyStickAutoBot:SwitchStrategy(slot0._joyStickAutoBot.IDLE)
+	else
+		slot0._joyStickAutoBot:SwitchStrategy(slot0._joyStickAutoBot.RANDOM)
+	end
+
 	uv0.Battle.BattleCameraUtil.GetInstance():RegisterEventListener(slot0, uv1.CAMERA_FOCUS, slot0.onCameraFocus)
 end
 

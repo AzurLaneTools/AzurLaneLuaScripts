@@ -13,10 +13,6 @@ slot4.Ctor = function(slot0)
 	slot0._challengeConst = uv1.Battle.BattleConfig.CHALLENGE_ENHANCE
 end
 
-slot4.ConfigBattleData = function(slot0, slot1)
-	slot0._challengeInfo = slot1.ChallengeInfo
-end
-
 slot4.onInitBattle = function(slot0)
 	uv0.super.onInitBattle(slot0)
 

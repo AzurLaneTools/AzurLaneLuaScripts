@@ -3,6 +3,81 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
+		pic = "temp7",
+		param = {
+			"scene level",
+			{
+				mapIdx = 16
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					1,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
+		pic = "temp8",
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					1,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
 		pic = "temp2",
 		param = {
 			"scene skinshop",
@@ -37,7 +112,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
+		id = 4,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
@@ -72,7 +147,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 5,
 		pic = "temp3",
 		param = {
 			"scene charge",
@@ -109,7 +184,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 6,
 		pic = "temp4",
 		param = {
 			"scene charge",
@@ -146,7 +221,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 5,
+		id = 7,
 		pic = "temp5",
 		param = {
 			"scene shop",
@@ -183,7 +258,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 6,
+		id = 8,
 		pic = "temp6",
 		param = {
 			"scene court yard"
@@ -209,72 +284,6 @@ pg.activity_banner = {
 				},
 				{
 					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"dorm 3d select"
-		},
-		time = {
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "50296",
-		type = 3,
-		id = 8,
-		pic = "temp8",
-		time = {
-			{
-				{
-					2025,
-					12,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					22
-				},
-				{
-					14,
 					59,
 					59
 				}
@@ -796,6 +805,7 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
+			8,
 			10,
 			1000,
 			1001,
@@ -822,7 +832,6 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
-			8,
 			9,
 			1003
 		},

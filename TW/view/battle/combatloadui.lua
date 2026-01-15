@@ -172,33 +172,39 @@ slot0.Preload = function(slot0)
 				table.insert(slot3, slot13)
 			end
 
-			slot9, slot10 = slot6:getFleetBattleBuffs(slot7)
-
-			uv0.addCommanderBuffRes(slot10)
-			uv0.addChapterBuffRes(slot9)
-			uv0.addChapterAuraRes(slot5.GetChapterAuraBuffs(slot6))
-
-			slot13 = {}
-
-			for slot17, slot18 in pairs(slot5.GetChapterAidBuffs(slot6)) do
-				for slot22, slot23 in ipairs(slot18) do
-					table.insert(slot13, slot23)
+			if slot6:getChapterSupportFleet() then
+				for slot14, slot15 in ipairs(slot9:getTeamByName(TeamType.Submarine)) do
+					table.insert(slot3, slot2:getShipById(slot15))
 				end
 			end
 
-			uv0.addChapterAuraRes(slot13)
+			slot10, slot11 = slot6:getFleetBattleBuffs(slot7)
 
-			slot14, slot15 = slot5.getSubAidFlag(slot6, slot0.contextData.stageId)
+			uv0.addCommanderBuffRes(slot11)
+			uv0.addChapterBuffRes(slot10)
+			uv0.addChapterAuraRes(slot5.GetChapterAuraBuffs(slot6))
 
-			if slot14 == true or slot14 > 0 then
-				for slot20, slot21 in ipairs(slot15:getShipsByTeam(TeamType.Submarine, false)) do
-					table.insert(slot3, slot21)
+			slot14 = {}
+
+			for slot18, slot19 in pairs(slot5.GetChapterAidBuffs(slot6)) do
+				for slot23, slot24 in ipairs(slot19) do
+					table.insert(slot14, slot24)
+				end
+			end
+
+			uv0.addChapterAuraRes(slot14)
+
+			slot15, slot16 = slot5.getSubAidFlag(slot6, slot0.contextData.stageId)
+
+			if slot15 == true or slot15 > 0 then
+				for slot21, slot22 in ipairs(slot16:getShipsByTeam(TeamType.Submarine, false)) do
+					table.insert(slot3, slot22)
 				end
 
-				slot17, slot18 = slot6:getFleetBattleBuffs(slot15)
+				slot18, slot19 = slot6:getFleetBattleBuffs(slot16)
 
-				uv0.addCommanderBuffRes(slot18)
-				uv0.addChapterBuffRes(slot17)
+				uv0.addCommanderBuffRes(slot19)
+				uv0.addChapterBuffRes(slot18)
 			end
 		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS_SP or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT or slot0.contextData.system == SYSTEM_BOSS_SINGLE or slot0.contextData.system == SYSTEM_BOSS_SINGLE_VARIABLE then
 			if getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot0.contextData.mainFleetId] then
@@ -389,6 +395,10 @@ slot0.Preload = function(slot0)
 			slot15 = slot6:GetCell(slot7.row, slot7.column):GetStageEnemy()
 
 			uv0.addChapterBuffRes(table.mergeArray(slot15:GetBattleLuaBuffs(), slot6:GetBattleLuaBuffs(WorldMap.FactionEnemy, slot15)))
+		elseif slot0.contextData.system == SYSTEM_SCENARIO_SUB_STRIKE then
+			for slot12, slot13 in ipairs(getProxy(ChapterProxy):getActiveChapter():getChapterSupportFleet():getTeamByName(TeamType.Submarine)) do
+				table.insert(slot3, slot2:getShipById(slot13))
+			end
 		elseif slot0.contextData.mainFleetId then
 			slot6 = getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId)
 

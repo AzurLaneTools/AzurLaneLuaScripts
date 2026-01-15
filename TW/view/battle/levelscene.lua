@@ -918,6 +918,7 @@ slot0.updateChapterVO = function(slot0, slot1, slot2)
 			if slot0.grid then
 				slot0.grid:RefreshFleetCells()
 				slot0.grid:UpdateFloor()
+				slot0.grid:UpdateWeatherCells()
 
 				slot3 = true
 			end
@@ -995,6 +996,10 @@ slot0.updateChapterVO = function(slot0, slot1, slot2)
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyFloatItems) > 0 then
 			slot0.grid:UpdateItemCells()
+		end
+
+		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyWeather) > 0 then
+			slot0.grid:UpdateWeatherCells()
 		end
 
 		if slot5 then
@@ -2201,9 +2206,18 @@ slot0.switchToChapter = function(slot0, slot1)
 
 				uv0.FirstEnterChapter = nil
 
-				uv0.levelStageView:tryAutoTrigger(true)
+				slot0()
+			end,
+			function (slot0)
+				if uv0:NeedSupportSubmarineStage() then
+					uv1.levelStageView:TryEnterChapterSupportSubmarineStage(slot0)
+				else
+					slot0()
+				end
 			end
-		})
+		}, function ()
+			uv0.levelStageView:tryAutoTrigger(true)
+		end)
 	end)
 	slot0.levelStageView:ActionInvoke("SetPlayer", slot0.player)
 	slot0.levelStageView:ActionInvoke("SwitchToChapter", slot1)

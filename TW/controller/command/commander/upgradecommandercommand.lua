@@ -89,26 +89,14 @@ slot0.execute = function(slot0, slot1)
 
 			for slot5, slot6 in ipairs(uv9) do
 				uv7:removeCommanderById(slot6)
-				uv8:clearHardChapterCommanders(slot6)
 				uv8:clearActivityCommanders(slot6)
 			end
+
+			getProxy(ChapterProxy):RemoveEliteFleetCommander(uv9)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_play_erro", slot0.result))
 		end
 	end)
-end
-
-slot0.clearHardChapterCommanders = function(slot0, slot1)
-	for slot7, slot8 in pairs(getProxy(ChapterProxy):getRawData()) do
-		for slot13, slot14 in pairs(slot8:getEliteFleetCommanders()) do
-			for slot18, slot19 in pairs(slot14) do
-				if slot19 == slot1 then
-					slot8:updateCommander(slot13, slot18, nil)
-					slot2:updateChapter(slot8)
-				end
-			end
-		end
-	end
 end
 
 slot0.clearActivityCommanders = function(slot0, slot1)

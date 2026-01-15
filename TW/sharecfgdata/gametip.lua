@@ -1423,6 +1423,11 @@ _G.pg.base.gametip.battle_result_max_combo = {
 }
 
 
+_G.pg.base.gametip.battle_result_boss_hp_lower = {
+	tip = "BOSS剩餘血量小於$1%"
+}
+
+
 _G.pg.base.gametip.battle_levelScene_0Oil = {
 	tip = "石油產量為0"
 }
@@ -3712,6 +3717,11 @@ _G.pg.base.gametip.ship_formationUI_fleetName11 = {
 
 _G.pg.base.gametip.ship_formationUI_fleetName12 = {
 	tip = "潛艇編隊二"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName13 = {
+	tip = "支援艦隊"
 }
 
 
@@ -8707,7 +8717,7 @@ _G.pg.base.gametip.elite_warp_to_latest_map = {
 
 
 _G.pg.base.gametip.elite_fleet_confirm = {
-	tip = "$1<color=#ff0000>不滿足</color>出擊條件，將無法進入戰鬥，確認繼續出擊？"
+	tip = "$1<color=#ff5c5c>不滿足</color>出擊條件，無法進入戰鬥"
 }
 
 
@@ -31502,13 +31512,79 @@ _G.pg.base.gametip.help_supportfleet = {
 }
 
 
+_G.pg.base.gametip.help_supportfleet_16 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help_16"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.help_supportfleet_16_submarine = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_submarine_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_submarine_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.word_status_inSupportFleet = {
 	tip = "支援艦隊中"
 }
 
 
 _G.pg.base.gametip.ship_formationMediator_request_replace_support = {
-	tip = "您目前選擇的船艦已經在<color=#92fc63>支援艦隊</color>中, 是否進行切換？"
+	tip = "艦船在支援艦隊編成中，是否移出編隊？"
 }
 
 
@@ -40412,4 +40488,14 @@ _G.pg.base.gametip.winterwish_20251225_tip1 = {
 
 _G.pg.base.gametip.winterwish_20251225_tip2 = {
 	tip = "收穫心願有效次數"
+}
+
+
+_G.pg.base.gametip.battle_battleMediator_quest_exist_submarine_support = {
+	tip = "現在退出將按照BOSS目前剩餘耐久進行戰鬥結算，您確定要退出嗎？"
+}
+
+
+_G.pg.base.gametip.submarine_support_oil_consume_tip = {
+	tip = "潛艇支援艦隊出擊消耗$1點石油，是否繼續？"
 }

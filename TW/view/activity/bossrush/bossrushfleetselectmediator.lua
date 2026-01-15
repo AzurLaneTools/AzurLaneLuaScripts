@@ -95,7 +95,7 @@ slot0.register = function(slot0)
 		for slot15, slot16 in ipairs(slot3:GetRawShipIds()) do
 			slot20 = 0
 
-			for slot25, slot26 in ipairs(slot10[TeamType.GetTeamFromShipType(slot11[slot16]:getShipType())]) do
+			for slot25, slot26 in ipairs(slot10[ShipType.GetTeamFromShipType(slot11[slot16]:getShipType())]) do
 				if ShipType.ContainInLimitBundle(slot26, slot18) then
 					slot20 = slot26
 
@@ -115,7 +115,7 @@ slot0.register = function(slot0)
 		slot12 = function(slot0, slot1)
 			slot3 = uv0
 
-			if slot3:getRecommendShip(underscore.filter(TeamType.GetShipTypeListFromTeam(slot1), function (slot0)
+			if slot3:getRecommendShip(underscore.filter(slot1, function (slot0)
 				return ShipType.ContainInLimitBundle(uv0, slot0)
 			end), uv1) then
 				uv2:insertShip(slot3, nil, slot3:getTeamType())
@@ -125,17 +125,12 @@ slot0.register = function(slot0)
 		end
 
 		slot13 = nil
-		slot13 = (slot2 ~= #uv0.contextData.fleets or {
-			[TeamType.Submarine] = slot7
-		}) and {
-			[TeamType.Main] = slot5,
-			[TeamType.Vanguard] = slot6
-		}
 
-		for slot17, slot18 in pairs(slot13) do
-			for slot22, slot23 in ipairs(slot18) do
-				slot12(slot23, slot17)
-			end
+		if slot2 == #uv0.contextData.fleets then
+			slot12(slot7, ShipType.SubShipType)
+		else
+			slot12(slot5, ShipType.MainShipType)
+			slot12(slot6, ShipType.VanguardShipType)
 		end
 
 		uv0.viewComponent:updateEliteFleets()

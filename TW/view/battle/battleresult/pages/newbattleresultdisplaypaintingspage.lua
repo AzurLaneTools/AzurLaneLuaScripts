@@ -78,7 +78,7 @@ slot0.ReSortFleetShips = function(slot0)
 	slot8 = {}
 
 	if slot7 ~= nil then
-		if TeamType.GetTeamFromShipType(ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot7.configId).type) == TeamType.Vanguard then
+		if ShipType.GetTeamFromShipType(ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot7.configId).type) == TeamType.Vanguard then
 			NewBattleResultUtil.SpecialInsertItem(slot8, slot6, slot5, slot4, slot7)
 		elseif slot10 == TeamType.Main then
 			NewBattleResultUtil.SpecialInsertItem(slot8, slot6, slot4, slot5, slot7)

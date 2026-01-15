@@ -165,11 +165,11 @@ slot0.initAddButton = function(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	removeAllChildren(findTF(slot1, slot2))
+	removeAllChildren(slot1)
 
-	slot9 = 0
-	slot10 = false
-	slot11 = 0
+	slot8 = 0
+	slot9 = false
+	slot10 = 0
 
 	table.sort(Clone(slot3), function (slot0, slot1)
 		if type(slot0) == type(slot1) then
@@ -181,77 +181,77 @@ slot0.initAddButton = function(slot0, slot1, slot2, slot3, slot4)
 		end
 	end)
 
+	slot11 = {}
 	slot12 = {}
-	slot13 = {}
 
-	for slot17 = 1, 3 do
-		slot18, slot19, slot20 = nil
+	for slot16 = 1, 3 do
+		slot17, slot18, slot19 = nil
 
-		if slot7[slot17] and slot0.parent.shipVOs[slot7[slot17]] or nil then
-			for slot25, slot26 in ipairs(slot3) do
-				if ShipType.ContainInLimitBundle(slot26, slot21:getShipType()) then
-					slot19 = slot21
-					slot20 = slot26
+		if slot7[slot16] and slot0.parent.shipVOs[slot7[slot16]] or nil then
+			for slot24, slot25 in ipairs(slot3) do
+				if ShipType.ContainInLimitBundle(slot25, slot20:getShipType()) then
+					slot18 = slot20
+					slot19 = slot25
 
-					table.remove(slot3, slot25)
-					table.insert(slot12, slot25)
+					table.remove(slot3, slot24)
+					table.insert(slot11, slot24)
 
-					slot10 = slot10 or slot26 ~= 0
+					slot9 = slot9 or slot25 ~= 0
 
 					break
 				end
 			end
 		else
-			slot20 = slot3[1]
+			slot19 = slot3[1]
 
 			table.remove(slot3, 1)
-			table.insert(slot12, 1)
+			table.insert(slot11, 1)
 		end
 
-		if slot20 == 0 then
-			slot11 = slot11 + 1
+		if slot19 == 0 then
+			slot10 = slot10 + 1
 		end
 
-		slot22 = slot19 and cloneTplTo(slot0.tfShipTpl, slot8) or cloneTplTo(slot0.tfEmptyTpl, slot8)
+		slot21 = slot18 and cloneTplTo(slot0.tfShipTpl, slot1) or cloneTplTo(slot0.tfEmptyTpl, slot1)
 
-		table.insert(slot13, slot22)
-		setActive(slot22, true)
+		table.insert(slot12, slot21)
+		setActive(slot21, true)
 
-		if slot19 then
-			updateShip(slot22, slot19)
-			setActive(slot22:Find("event_block"), slot19:getFlag("inEvent"))
+		if slot18 then
+			updateShip(slot21, slot18)
+			setActive(slot21:Find("event_block"), slot18:getFlag("inEvent"))
 
-			slot6[slot19] = true
+			slot6[slot18] = true
 		else
-			slot9 = slot9 + 1
+			slot8 = slot8 + 1
 		end
 
-		slot18 = findTF(slot22, "icon_bg")
+		slot17 = findTF(slot21, "icon_bg")
 
-		setActive(slot22:Find("ship_type"), true)
+		setActive(slot21:Find("ship_type"), true)
 
-		if type(slot20) == "number" then
-			if slot20 ~= 0 then
-				setImageSprite(slot22:Find("ship_type"), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot20)), true)
+		if type(slot19) == "number" then
+			if slot19 ~= 0 then
+				setImageSprite(slot21:Find("ship_type"), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot19)), true)
 			else
-				setActive(slot22:Find("ship_type"), false)
+				setActive(slot21:Find("ship_type"), false)
 			end
-		elseif type(slot20) == "string" then
-			setImageSprite(slot22:Find("ship_type"), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot20)), true)
+		elseif type(slot19) == "string" then
+			setImageSprite(slot21:Find("ship_type"), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot19)), true)
 		end
 
-		setActive(slot22:Find("ship_type"), not slot19 and slot20 ~= 0)
+		setActive(slot21:Find("ship_type"), not slot18 and slot19 ~= 0)
 		table.sort(_.map(slot5, function (slot0)
 			return uv0.parent.shipVOs[slot0]
 		end), function (slot0, slot1)
 			return uv0[slot0:getTeamType()] < uv0[slot1:getTeamType()] or uv0[slot0:getTeamType()] == uv0[slot1:getTeamType()] and table.indexof(uv1, slot0.id) < table.indexof(uv1, slot1.id)
 		end)
 
-		slot24 = GetOrAddComponent(slot18, typeof(UILongPressTrigger))
+		slot23 = GetOrAddComponent(slot17, typeof(UILongPressTrigger))
 
-		slot24.onReleased:RemoveAllListeners()
-		slot24.onLongPressed:RemoveAllListeners()
-		slot24.onReleased:AddListener(function ()
+		slot23.onReleased:RemoveAllListeners()
+		slot23.onLongPressed:RemoveAllListeners()
+		slot23.onReleased:AddListener(function ()
 			uv0.onClick({
 				shipType = uv1,
 				fleet = uv2,
@@ -261,7 +261,7 @@ slot0.initAddButton = function(slot0, slot1, slot2, slot3, slot4)
 				teamType = uv5
 			})
 		end)
-		slot24.onLongPressed:AddListener(function ()
+		slot23.onLongPressed:AddListener(function ()
 			if not uv0 then
 				uv1.onClick({
 					shipType = uv2,
@@ -281,11 +281,11 @@ slot0.initAddButton = function(slot0, slot1, slot2, slot3, slot4)
 		end)
 	end
 
-	for slot17 = 3, 1, -1 do
-		slot13[slot17]:SetSiblingIndex(slot12[slot17] - 1)
+	for slot16 = 3, 1, -1 do
+		slot12[slot16]:SetSiblingIndex(slot11[slot16] - 1)
 	end
 
-	if (slot10 == true or slot11 == 3) and slot9 ~= 3 then
+	if (slot9 == true or slot10 == 3) and slot8 ~= 3 then
 		return true
 	else
 		return false
@@ -340,11 +340,11 @@ slot0.updateFleets = function(slot0)
 
 		if slot11 then
 			slot12 = slot0.typeLimitations[slot4]
-			slot16 = slot0:initAddButton(slot5, TeamType.Vanguard, slot12[2], slot4)
+			slot16 = slot0:initAddButton(slot5:Find(TeamType.Vanguard), TeamType.Vanguard, slot12[2], slot4)
 
 			slot0:initCommander(slot4, slot10, slot0.chapter)
 
-			if slot0:initAddButton(slot5, TeamType.Main, slot12[1], slot4) and slot16 then
+			if slot0:initAddButton(slot5:Find(TeamType.Main), TeamType.Main, slot12[1], slot4) and slot16 then
 				setActive(slot5:Find("selected"), true)
 			end
 
@@ -398,7 +398,7 @@ slot0.updateFleets = function(slot0)
 		slot0:initCommander(slot4 + 2, slot11, slot0.chapter)
 
 		if slot4 <= slot0.chapter:getConfig("submarine_num") then
-			if slot0:initAddButton(slot5, TeamType.Submarine, {
+			if slot0:initAddButton(slot5:Find(TeamType.Main), TeamType.Submarine, {
 				0,
 				0,
 				0

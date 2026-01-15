@@ -10,6 +10,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot1.id
 	slot0.name = nil
 	slot0.fleetId = slot1.fleet_id
+	slot0.fleetType = slot1.fleetType
 
 	if slot1.fleet_id then
 		slot0.name = getProxy(FleetProxy):getFleetById(slot1.fleet_id) and slot3:GetName() or Fleet.DEFAULT_NAME[slot1.fleet_id]
@@ -58,6 +59,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.rotation = Quaternion.identity
 	slot0.slowSpeedFactor = slot1.move_step_down
 	slot0.defeatEnemies = slot1.kill_count or 0
+	slot0.visibleLevel = slot1.vision_lv or 0
 
 	slot0:updateCommanders(slot1.commander_list)
 
@@ -68,6 +70,32 @@ end
 
 slot0.setup = function(slot0, slot1)
 	slot0.chapter = slot1
+
+	slot0:UpdateVisible()
+end
+
+slot0.UpdateVisible = function(slot0)
+	if slot0:getFleetType() == FleetType.Normal then
+		slot0.chapter:UpdateCellsVisible(slot0)
+	end
+end
+
+slot0.GetFogVisibleLV = function(slot0)
+	return slot0.visibleLevel, pg.chapter_model_fog[math.min(slot0.visibleLevel, #pg.chapter_model_fog.all)]
+end
+
+slot0.GetVisibleRange = function(slot0, slot1)
+	slot1 = slot1 or slot0.line
+	slot2, slot3 = slot0:GetFogVisibleLV()
+
+	return underscore.map(slot3.vision_range, function (slot0)
+		slot1, slot2 = unpack(slot0)
+
+		return {
+			row = uv0.row + slot1,
+			column = uv0.column + slot2
+		}
+	end)
 end
 
 slot0.fetchShipVO = function(slot0, slot1)
@@ -98,6 +126,8 @@ slot0.SetLine = function(slot0, slot1)
 		row = slot1.row,
 		column = slot1.column
 	}
+
+	slot0:UpdateVisible()
 end
 
 slot0.updateCommanders = function(slot0, slot1)
@@ -238,20 +268,18 @@ slot0.getShips = function(slot0, slot1)
 	slot2 = {}
 
 	if slot0:getFleetType() == FleetType.Normal then
-		_.each(slot0:getShipsByTeam(TeamType.Main, slot1), function (slot0)
-			table.insert(uv0, slot0)
-		end)
-		_.each(slot0:getShipsByTeam(TeamType.Vanguard, slot1), function (slot0)
-			table.insert(uv0, slot0)
-		end)
+		table.insertto(slot2, slot0:getShipsByTeam(TeamType.Main, slot1))
+		table.insertto(slot2, slot0:getShipsByTeam(TeamType.Vanguard, slot1))
 	elseif slot3 == FleetType.Submarine then
-		_.each(slot0:getShipsByTeam(TeamType.Submarine, slot1), function (slot0)
-			table.insert(uv0, slot0)
-		end)
+		table.insertto(slot2, slot0:getShipsByTeam(TeamType.Submarine, slot1))
 	elseif slot3 == FleetType.Support then
-		_.each(slot0:getShipsByTeam(TeamType.Main, slot1), function (slot0)
-			table.insert(uv0, slot0)
-		end)
+		for slot7, slot8 in ipairs({
+			TeamType.Main,
+			TeamType.Vanguard,
+			TeamType.Submarine
+		}) do
+			table.insertto(slot2, slot0:getShipsByTeam(slot8, slot1))
+		end
 	end
 
 	return slot2
@@ -259,19 +287,18 @@ end
 
 slot0.getShipsByTeam = function(slot0, slot1, slot2)
 	slot3 = {}
+	slot4 = {}
 
-	for slot7, slot8 in ipairs(slot0[slot1]) do
-		if slot8.hpRant > 0 then
-			slot3[#slot3 + 1] = slot8
+	for slot8, slot9 in ipairs(slot0[slot1]) do
+		if slot9.hpRant > 0 then
+			table.insert(slot3, slot9)
+		else
+			table.insert(slot4, slot9)
 		end
 	end
 
 	if slot2 then
-		for slot7, slot8 in ipairs(slot0[slot1]) do
-			if slot8.hpRant <= 0 then
-				slot3[#slot3 + 1] = slot8
-			end
-		end
+		table.insertto(slot3, slot4)
 	end
 
 	return slot3
@@ -427,6 +454,12 @@ end
 slot0.getAntiAircraftSums = function(slot0)
 	return _.reduce(slot0:getShips(false), 0, function (slot0, slot1)
 		return slot0 + slot1:getProperties(uv0:getCommanders())[AttributeType.AntiAircraft]
+	end)
+end
+
+slot0.getAirSums = function(slot0, slot1)
+	return _.reduce(slot0:getShips(slot1), 0, function (slot0, slot1)
+		return slot0 + slot1:getProperties(uv0:getCommanders())[AttributeType.Air]
 	end)
 end
 
@@ -674,21 +707,9 @@ slot0.GetStatusStrategy = function(slot0)
 end
 
 slot0.getFleetType = function(slot0)
-	slot1 = 0
+	assert(slot0.fleetType)
 
-	for slot5, slot6 in pairs(slot0.ships) do
-		if slot6:getTeamType() == TeamType.Submarine then
-			return FleetType.Submarine
-		elseif slot7 == TeamType.Vanguard then
-			slot1 = slot1 + 1
-		end
-	end
-
-	if slot1 == 0 then
-		return FleetType.Support
-	else
-		return FleetType.Normal
-	end
+	return slot0.fleetType
 end
 
 slot0.canClearTorpedo = function(slot0)

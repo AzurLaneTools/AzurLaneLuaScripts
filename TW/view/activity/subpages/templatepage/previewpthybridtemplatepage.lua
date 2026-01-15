@@ -187,7 +187,6 @@ slot0.initBtn = function(slot0)
 				if slot0:getConfig("config_client").icon and slot3 and slot4 then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						yesText = "text_confirm",
-						iconPreservedAspect = true,
 						hideNo = true,
 						type = MSGBOX_TYPE_DROP_ITEM,
 						content = i18n(slot4),

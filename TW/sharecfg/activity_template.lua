@@ -39390,7 +39390,7 @@ pg.activity_template = {
 		type = 86,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 3,
+		is_show = 2,
 		title_res_tag = "skinstory_20251218",
 		id = 50290,
 		page_core = "WinterFestival2025CoreActivityUI",
@@ -39796,7 +39796,7 @@ pg.activity_template = {
 		type = 63,
 		login_pop = 0,
 		config_id = 7,
-		is_show = 2,
+		is_show = 3,
 		config_client = "",
 		title_res_tag = "winterwish_20251225",
 		id = 50298,
@@ -43561,6 +43561,128 @@ pg.activity_template = {
 					"BIAOQIANGMANHUA5"
 				}
 			}
+		}
+	},
+	[6012] = {
+		mark = 20220513,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		title_res_tag = "u73_permanent",
+		id = 6012,
+		page_core = "",
+		config_data = {
+			{
+				35136,
+				35137
+			},
+			{
+				35138,
+				35139
+			},
+			{
+				35140,
+				35141
+			},
+			{
+				35142,
+				35143
+			},
+			{
+				35144,
+				35145
+			},
+			{
+				35146,
+				35147
+			},
+			{
+				35148,
+				35149
+			},
+			{
+				35150,
+				35151
+			},
+			{
+				35152,
+				35153
+			}
+		},
+		page_info = {
+			class_name = "U73SkinRePage",
+			ui_name = "U73SkinPermanentPage"
+		},
+		config_client = {
+			story = {
+				{
+					"U73HUOYUE1"
+				},
+				{},
+				{
+					"U73HUOYUE2"
+				},
+				{},
+				{
+					"U73HUOYUE3"
+				},
+				{},
+				{
+					"U73HUOYUE4"
+				},
+				{},
+				{
+					"U73HUOYUE5"
+				}
+			}
+		}
+	},
+	[6013] = {
+		mark = 20220609,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		title_res_tag = "jiqilifu_permanent",
+		id = 6013,
+		page_core = "",
+		config_data = {
+			{
+				35154,
+				35155
+			},
+			{
+				35156,
+				35157
+			},
+			{
+				35158,
+				35159
+			},
+			{
+				35160,
+				35161
+			},
+			{
+				35162,
+				35163
+			},
+			{
+				35164,
+				35165
+			},
+			{
+				35166,
+				35167
+			}
+		},
+		page_info = {
+			class_name = "JiqilifuSkinPermanentPage",
+			ui_name = "JiqilifuSkinPermanentPage"
 		}
 	},
 	[6015] = {
@@ -79306,6 +79428,78 @@ pg.activity_template = {
 			80146
 		}
 	},
+	[45093] = {
+		mark = 20260112,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 46,
+		config_client = "",
+		title_res_tag = "VampireSkin",
+		id = 45093,
+		page_core = "",
+		config_data = {
+			{
+				21045,
+				21046
+			},
+			{
+				21047,
+				21048
+			},
+			{
+				21049,
+				21050
+			},
+			{
+				21051,
+				21052
+			},
+			{
+				21053,
+				21054
+			},
+			{
+				21055,
+				21056
+			},
+			{
+				21057,
+				21058
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VampireSkinPage2",
+			ui_name = "VampireSkinPage2"
+		}
+	},
 	[45900] = {
 		mark = 20220127,
 		type = 54,
@@ -81703,6 +81897,8 @@ pg.activity_template = {
 			6008,
 			6009,
 			6011,
+			6012,
+			6013,
 			6015,
 			6016,
 			6018,
@@ -81763,7 +81959,8 @@ pg.activity_template = {
 			45043,
 			45058,
 			45068,
-			45070
+			45070,
+			45093
 		},
 		[14] = {
 			4015,
@@ -84378,6 +84575,8 @@ pg.activity_template = {
 		6009,
 		6010,
 		6011,
+		6012,
+		6013,
 		6015,
 		6016,
 		6018,
@@ -85433,6 +85632,7 @@ pg.activity_template = {
 		45090,
 		45091,
 		45092,
+		45093,
 		45900,
 		45901,
 		45902,

@@ -81,7 +81,7 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main-christmas",
+		default_bgm = "main",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -139,16 +139,6 @@ pg.voice_bgm = {
 		default_bgm = "theme-weimu",
 		special_bgm = "",
 		bgm = "theme-weimu"
-	},
-	ActivityShop50246 = {
-		default_bgm = "dal-az-story-up",
-		special_bgm = "",
-		bgm = "dal-az-story-up"
-	},
-	ActivityShop50206 = {
-		default_bgm = "theme-tempest-light",
-		special_bgm = "",
-		bgm = "theme-tempest-light"
 	},
 	BuildShipScene = {
 		default_bgm = "main",

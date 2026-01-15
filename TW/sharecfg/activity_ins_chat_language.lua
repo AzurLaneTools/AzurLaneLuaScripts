@@ -5719,7 +5719,80 @@ pg.activity_ins_chat_language = setmetatable({
 		7521,
 		7522,
 		7523,
-		7524
+		7524,
+		7525,
+		7526,
+		7527,
+		7528,
+		7529,
+		7530,
+		7531,
+		7532,
+		7533,
+		7534,
+		7535,
+		7536,
+		7537,
+		7538,
+		7539,
+		7540,
+		7541,
+		7542,
+		7543,
+		7544,
+		7545,
+		7546,
+		7547,
+		7548,
+		7549,
+		7550,
+		7551,
+		7552,
+		7553,
+		7554,
+		7555,
+		7556,
+		7557,
+		7558,
+		7559,
+		7560,
+		7561,
+		7562,
+		7563,
+		7564,
+		7565,
+		7566,
+		7567,
+		7568,
+		7569,
+		7570,
+		7571,
+		7572,
+		7573,
+		7574,
+		7575,
+		7576,
+		7577,
+		7578,
+		7579,
+		7580,
+		7581,
+		7582,
+		7583,
+		7584,
+		7585,
+		7586,
+		7587,
+		7588,
+		7589,
+		7590,
+		7591,
+		7592,
+		7593,
+		7594,
+		7595,
+		7596,
+		7597
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -56342,5 +56415,632 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 7524,
 		flag = 5
+	},
+	[7525] = {
+		param = "指揮官，要一起享受一段愜意的休憩時光嗎？",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7525,
+		flag = 0
+	},
+	[7526] = {
+		param = "在薩丁，我們相信張弛有度的工作節奏，能激發更多靈感",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7526,
+		flag = 0
+	},
+	[7527] = {
+		param = "恰巧我在指揮室附近，發現了一處陽光充沛的露台",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7527,
+		flag = 0
+	},
+	[7528] = {
+		param = "如此舒適的環境，若只是讓我獨佔，未免有些可惜",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7528,
+		flag = 0
+	},
+	[7529] = {
+		param = "放心，這並不是什麼正式的社交邀請",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7529,
+		flag = 0
+	},
+	[7530] = {
+		param = "只是覺得，能和你分享這午後的寧靜時光，再適合不過了",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7530,
+		flag = 0
+	},
+	[7531] = {
+		param = "354",
+		ship_group = 60501,
+		option = "",
+		type = 4,
+		id = 7531,
+		flag = 0
+	},
+	[7532] = {
+		param = "我準備了一些薩丁風味的脆餅，烤得酥香焦脆",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7532,
+		flag = 0
+	},
+	[7533] = {
+		param = "還帶著杏仁和檸檬的香氣，剛好適合佐以咖啡",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7533,
+		flag = 0
+	},
+	[7534] = {
+		param = "就讓時光在咖啡與海風之間，輕輕流淌",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7534,
+		flag = 0
+	},
+	[7535] = {
+		param = "這麼悠閒地度過幾個小時……",
+		ship_group = 60501,
+		type = 1,
+		id = 7535,
+		flag = 0,
+		option = {
+			{
+				1,
+				"好，我馬上來"
+			},
+			{
+				2,
+				"等我處理完工作"
+			}
+		}
+	},
+	[7536] = {
+		param = "好，我馬上來",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7536,
+		flag = 1
+	},
+	[7537] = {
+		param = "呵呵，我已經在露臺上等候指揮官了呢",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7537,
+		flag = 1
+	},
+	[7538] = {
+		param = "不知道是不是我的錯覺……",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7538,
+		flag = 1
+	},
+	[7539] = {
+		param = "從你答應那一刻起，連陽光都變得更溫柔了",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7539,
+		flag = 1
+	},
+	[7540] = {
+		param = "還是等我處理完手邊的工作吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7540,
+		flag = 2
+	},
+	[7541] = {
+		param = "那樣的話，咖啡恐怕要涼掉了呢",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7541,
+		flag = 2
+	},
+	[7542] = {
+		param = "不過沒關係",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7542,
+		flag = 2
+	},
+	[7543] = {
+		param = "我隨時願意為你煮上一杯新鮮的咖啡",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7543,
+		flag = 2
+	},
+	[7544] = {
+		param = "正如大家常說的那樣",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7544,
+		flag = 0
+	},
+	[7545] = {
+		param = "美好的事物，值得被耐心等待",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7545,
+		flag = 0
+	},
+	[7546] = {
+		param = "陽光藍天白雲海風",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7546,
+		flag = 0
+	},
+	[7547] = {
+		param = "配上美味的點心",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7547,
+		flag = 0
+	},
+	[7548] = {
+		param = "恰到好處的鬆弛節奏，才能讓人更能享受生活呢~",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7548,
+		flag = 0
+	},
+	[7549] = {
+		param = "指揮官，今天用過餐了嗎？",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7549,
+		flag = 0
+	},
+	[7550] = {
+		param = "我剛在食堂，嚐了今日推薦的茄汁義大利麵",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7550,
+		flag = 0
+	},
+	[7551] = {
+		param = "嗯……該怎麼說呢",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7551,
+		flag = 0
+	},
+	[7552] = {
+		param = "味道雖然不差，但總覺得……還缺了些靈魂",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7552,
+		flag = 0
+	},
+	[7553] = {
+		param = "番茄的風味不夠鮮明，酸度也略顯單薄",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7553,
+		flag = 0
+	},
+	[7554] = {
+		param = "實在難以展現薩丁料理的精髓",
+		ship_group = 60501,
+		type = 1,
+		id = 7554,
+		flag = 0,
+		option = {
+			{
+				1,
+				"差別有這麼明顯嗎？"
+			}
+		}
+	},
+	[7555] = {
+		param = "差別有這麼明顯嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7555,
+		flag = 1
+	},
+	[7556] = {
+		param = "單憑言語，確實很難描述其中的差異",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7556,
+		flag = 1
+	},
+	[7557] = {
+		param = "這反倒讓我萌生了一個想法……",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7557,
+		flag = 1
+	},
+	[7558] = {
+		param = "剛好，我前些日子訂了一些好產地的番茄",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7558,
+		flag = 1
+	},
+	[7559] = {
+		param = "還有優質的綿羊奶起司",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7559,
+		flag = 1
+	},
+	[7560] = {
+		param = "指揮官，你最近有空嗎？",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7560,
+		flag = 1
+	},
+	[7561] = {
+		param = "能否抽出一個晚上，交給我來安排？",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7561,
+		flag = 1
+	},
+	[7562] = {
+		param = "我會為你展現義大利麵應有的風味",
+		ship_group = 60501,
+		type = 1,
+		id = 7562,
+		flag = 1,
+		option = {
+			{
+				2,
+				"期待妳的手藝！"
+			},
+			{
+				3,
+				"會不會太辛苦妳了？"
+			}
+		}
+	},
+	[7563] = {
+		param = "期待妳的手藝！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7563,
+		flag = 2
+	},
+	[7564] = {
+		param = "呵呵，不會讓你失望的~",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7564,
+		flag = 2
+	},
+	[7565] = {
+		param = "真正的薩丁風味美食，值得你好好品味哦",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7565,
+		flag = 2
+	},
+	[7566] = {
+		param = "會不會太辛苦妳了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7566,
+		flag = 3
+	},
+	[7567] = {
+		param = "一點也不辛苦哦",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7567,
+		flag = 3
+	},
+	[7568] = {
+		param = "與重要的人分享美食，本身就是一種享受",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7568,
+		flag = 3
+	},
+	[7569] = {
+		param = "那麼，明晚準時來我的房間，好嗎？",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7569,
+		flag = 0
+	},
+	[7570] = {
+		param = "我會把一切準備妥當——",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7570,
+		flag = 0
+	},
+	[7571] = {
+		param = "不只番茄與起司……",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7571,
+		flag = 0
+	},
+	[7572] = {
+		param = "還有這份，只為你呈上的心意",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7572,
+		flag = 0
+	},
+	[7573] = {
+		param = "指揮官，我又找到了一個放鬆的好去處呢",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7573,
+		flag = 0
+	},
+	[7574] = {
+		param = "唔……才注意到，時間已經有些遲了啊……",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7574,
+		flag = 0
+	},
+	[7575] = {
+		param = "那你明天醒來看到這個消息的時候，記得回復我哦",
+		ship_group = 60501,
+		type = 1,
+		id = 7575,
+		flag = 0,
+		option = {
+			{
+				1,
+				"那我是不是該明早再回復妳？"
+			}
+		}
+	},
+	[7576] = {
+		param = "那我是不是該明早再回復妳？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7576,
+		flag = 1
+	},
+	[7577] = {
+		param = "指揮官還沒睡呢？",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7577,
+		flag = 1
+	},
+	[7578] = {
+		param = "難道說……還在加班？",
+		ship_group = 60501,
+		type = 1,
+		id = 7578,
+		flag = 1,
+		option = {
+			{
+				2,
+				"加班已是常態"
+			}
+		}
+	},
+	[7579] = {
+		param = "加班已是常態",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7579,
+		flag = 2
+	},
+	[7580] = {
+		param = "想成為優秀的領袖，確實不是什麼輕鬆的事呢……",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7580,
+		flag = 2
+	},
+	[7581] = {
+		param = "為了能將薩丁的威光弘揚光大",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7581,
+		flag = 2
+	},
+	[7582] = {
+		param = "我也有過被繁重政務壓得喘不過氣的經歷",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7582,
+		flag = 2
+	},
+	[7583] = {
+		param = "那時幸好還能抽出時間泡澡，短暫放空思緒",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7583,
+		flag = 2
+	},
+	[7584] = {
+		param = "說起來，我好像很少見到指揮官真正放鬆下來的樣子",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7584,
+		flag = 2
+	},
+	[7585] = {
+		param = "每天要處理這麼多工作，你又是怎麼放鬆的呢？",
+		ship_group = 60501,
+		type = 1,
+		id = 7585,
+		flag = 2,
+		option = {
+			{
+				3,
+				"很簡單"
+			}
+		}
+	},
+	[7586] = {
+		param = "很簡單，加班就行了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7586,
+		flag = 3
+	},
+	[7587] = {
+		param = "平常加班夠多，不加班的時候自然就是放鬆了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7587,
+		flag = 3
+	},
+	[7588] = {
+		param = "謝謝，但我的大腦拒絕理解這句話的意思呢",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7588,
+		flag = 3
+	},
+	[7589] = {
+		param = "這種沒日沒夜工作的感覺，我可不想再體驗第二次了~",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7589,
+		flag = 3
+	},
+	[7590] = {
+		param = "總之，我還是給指揮官推薦幾種真正有效的放鬆方式吧~",
+		ship_group = 60501,
+		type = 1,
+		id = 7590,
+		flag = 3,
+		option = {
+			{
+				4,
+				"前提是……"
+			}
+		}
+	},
+	[7591] = {
+		param = "前提是要有時間放鬆？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7591,
+		flag = 4
+	},
+	[7592] = {
+		param = "不如換個思路，只要能將工作和放鬆結合就好了",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7592,
+		flag = 4
+	},
+	[7593] = {
+		param = "例如在浴池邊泡澡邊辦公，身體上很放鬆",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7593,
+		flag = 4
+	},
+	[7594] = {
+		param = "還有與喜歡的人一起工作，心理上很放鬆",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7594,
+		flag = 4
+	},
+	[7595] = {
+		param = "而最放鬆的……莫過於兩者的結合了~",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7595,
+		flag = 4
+	},
+	[7596] = {
+		param = "指揮官知道最近新開了一家薩丁大浴場嗎？",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7596,
+		flag = 4
+	},
+	[7597] = {
+		param = "你要是現在能過來的話……我會在浴池裡等你哦",
+		ship_group = 60501,
+		option = "",
+		type = 1,
+		id = 7597,
+		flag = 4
 	}
 }

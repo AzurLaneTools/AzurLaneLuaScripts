@@ -36,9 +36,15 @@ slot0.GetFlagList = function(slot0)
 end
 
 slot0.GetWeatherFlagList = function(slot0)
-	return _.filter(slot0:GetFlagList(), function (slot0)
+	slot1 = underscore.filter(slot0:GetFlagList(), function (slot0)
 		return tobool(pg.weather_data_template[slot0])
 	end)
+
+	if not slot0:IsVisible() then
+		table.insert(slot1, ChapterConst.FlagWeatherFogVisible)
+	end
+
+	return slot1
 end
 
 slot0.checkHadFlag = function(slot0, slot1)
@@ -94,6 +100,28 @@ end
 
 slot0.IsWalkable = function(slot0)
 	return slot0.walkable
+end
+
+slot0.InitVisible = function(slot0)
+	slot0.visible = {}
+end
+
+slot0.UpdateVisible = function(slot0, slot1, slot2)
+	assert(slot0.visible and not slot2 == table.contains(slot0.visible, slot1))
+
+	if slot2 then
+		table.insert(slot0.visible, slot1)
+	else
+		table.removebyvalue(slot0.visible, slot1)
+	end
+end
+
+slot0.IsVisible = function(slot0)
+	if slot0.visible then
+		return #slot0.visible > 0
+	else
+		return true
+	end
 end
 
 return slot0

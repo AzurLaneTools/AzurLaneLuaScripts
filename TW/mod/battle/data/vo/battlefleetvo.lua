@@ -22,12 +22,16 @@ slot8.Ctor = function(slot0, slot1)
 end
 
 slot8.UpdateMotion = function(slot0)
+	slot1 = 0
+
 	if slot0._motionReferenceUnit then
 		slot0._motionVO:UpdatePos(slot0._motionReferenceUnit)
 		slot0._motionVO:UpdateVelocityAndDirection(slot0:GetFleetVelocity(), slot0._motionSourceFunc())
+
+		slot1 = math.max(slot0._motionVO:GetPos().x - slot0._rightBound, 0)
 	end
 
-	if math.max(slot0._motionVO:GetPos().x - slot0._rightBound, 0) >= 0 and slot1 ~= slot0._lastDist then
+	if slot1 >= 0 and slot1 ~= slot0._lastDist then
 		slot0._lastDist = slot1
 
 		slot0:DispatchEvent(uv0.Event.New(uv1.SHOW_BUFFER, {
@@ -1202,6 +1206,10 @@ slot8.FixSubRefLine = function(slot0, slot1)
 end
 
 slot8.AppendIndieSonar = function(slot0, slot1, slot2)
+	if not slot0._motionReferenceUnit then
+		return
+	end
+
 	slot3 = uv0.Battle.BattleIndieSonar.New(slot0, slot1, slot2)
 
 	slot3:SwitchHost(slot0._motionReferenceUnit)

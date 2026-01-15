@@ -75,5 +75,9 @@ return {
 	},
 	[SYSTEM_CARDPUZZLE] = {
 		NewCardPuzzleResultGradePage
+	},
+	[SYSTEM_SCENARIO_SUB_STRIKE] = {
+		NewBattleResultGradePage,
+		NewBattleResultDisplayPaintingsPage
 	}
 }

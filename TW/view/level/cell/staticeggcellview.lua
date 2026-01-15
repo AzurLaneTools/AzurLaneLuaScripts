@@ -52,6 +52,12 @@ slot2.Update = function(slot0)
 		return
 	end
 
+	if slot0.chapter:IsFogStage() and defaultValue(slot0.visible, true) ~= slot0.chapter.cells[ChapterCell.Line2Name(slot1.row, slot1.column)]:IsVisible() then
+		slot0.visible = slot5
+
+		uv0.StartEggCellView(slot0, slot2)
+	end
+
 	uv0.UpdateEggCell(slot0, slot0.chapter, slot0.info, slot0.config)
 
 	if slot0.viewParent:isHuntingRangeVisible() and _.any(slot0.chapter.fleets, function (slot0)

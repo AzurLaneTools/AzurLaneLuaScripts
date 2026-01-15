@@ -771,7 +771,60 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[19] = {
+	{
+		story_pic = "",
+		name = "聖夜的驚喜",
+		story_resource_JP = "soundStory18_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "巽悠衣子",
+		audition_resource_JP = "ss-10324-1",
+		overview = "聖誕夜，打扮成聖誕老人的布雷默頓準備翻窗送上禮物，\n卻被安全窗卡住了身體。無奈之下，只能展開一場特別的「救援」行動……",
+		order = 2,
+		audition_text = "嗯……還可以再用力一點哦，我不怕痛的……！",
+		ship_id = 10324,
+		id = 18,
+		captions_color = "#42342f",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		story_pic = "",
 		name = "烏龍麵的製作方法？ ！",
 		story_resource_JP = "soundStory19_JP",
@@ -824,7 +877,7 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[20] = {
+	{
 		story_pic = "",
 		name = "和你的海灘約會",
 		story_resource_JP = "soundStory20_JP",
@@ -851,7 +904,7 @@ pg.soundstory_template = {
 			3
 		}
 	},
-	[21] = {
+	{
 		story_pic = "",
 		name = "禁忌的午夜告解室",
 		story_resource_JP = "soundStory21_JP",
@@ -878,7 +931,7 @@ pg.soundstory_template = {
 			3
 		}
 	},
-	[22] = {
+	{
 		story_pic = "",
 		name = "甜湯中的心意",
 		story_resource_JP = "soundStory22_JP",
@@ -931,7 +984,7 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[23] = {
+	{
 		story_pic = "",
 		name = "桑拿房中的耐力訓練！……？",
 		story_resource_JP = "soundStory23_JP",
@@ -984,7 +1037,7 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[24] = {
+	{
 		story_pic = "",
 		name = "保養「藏品」的方式",
 		story_resource_JP = "soundStory24_JP",
@@ -1108,6 +1161,7 @@ pg.soundstory_template = {
 		15,
 		16,
 		17,
+		18,
 		19,
 		20,
 		21,

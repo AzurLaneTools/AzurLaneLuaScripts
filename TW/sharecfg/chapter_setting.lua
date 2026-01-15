@@ -360,6 +360,26 @@ pg.chapter_setting = {
 		expedite = 1,
 		hide = 0
 	},
+	[1601] = {
+		id = 1601,
+		expedite = 1,
+		hide = 0
+	},
+	[1602] = {
+		id = 1602,
+		expedite = 1,
+		hide = 0
+	},
+	[1603] = {
+		id = 1603,
+		expedite = 1,
+		hide = 0
+	},
+	[1604] = {
+		id = 1604,
+		expedite = 1,
+		hide = 0
+	},
 	[10000] = {
 		id = 10000,
 		expedite = 1,
@@ -8473,6 +8493,10 @@ pg.chapter_setting = {
 		1502,
 		1503,
 		1504,
+		1601,
+		1602,
+		1603,
+		1604,
 		10000,
 		10001,
 		10002,

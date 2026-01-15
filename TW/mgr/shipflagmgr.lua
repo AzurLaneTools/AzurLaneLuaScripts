@@ -28,15 +28,30 @@ slot2 = {
 		slot0 = {}
 		slot2 = getProxy(ActivityProxy)
 
-		if getProxy(ChapterProxy).mapEliteFleetCache then
-			for slot6, slot7 in pairs(slot1.mapEliteFleetCache) do
-				assert(uv0.expedition_data_by_map[slot6], "Missing Map Config " .. (slot6 or "NIL"))
+		if not getProxy(ChapterProxy).mapEliteFleetCache then
+			return {}, {}
+		end
 
-				if uv0.expedition_data_by_map[slot6].on_activity == 0 or checkExist(slot2:getActivityById(slot8), {
-					"isEnd"
-				}) == false then
-					slot0[slot6] = _.flatten(slot7)
+		for slot6, slot7 in pairs(slot1.mapEliteFleetCache) do
+			if not (checkExist(ChapterProxy.FormationToChapters[slot6], {
+				1
+			}) and uv0.chapter_template[slot8].map) then
+				-- Nothing
+			elseif (uv0.expedition_data_by_map[slot9].on_activity or 0) == 0 or checkExist(slot2:getActivityById(slot10), {
+				"isEnd"
+			}) == false then
+				slot11 = {}
+
+				for slot15, slot16 in ipairs({
+					slot7[FleetType.Normal],
+					slot7[FleetType.Submarine]
+				}) do
+					for slot20, slot21 in ipairs(slot16) do
+						table.insertto(slot11, slot21[TeamType.FormShips])
+					end
 				end
+
+				slot0[slot6] = slot11
 			end
 		end
 
@@ -44,12 +59,27 @@ slot2 = {
 	end,
 	inSupport = function ()
 		slot0 = {}
+		slot2 = getProxy(ActivityProxy)
 
-		if getProxy(ChapterProxy).mapSupportFleetCache then
-			for slot5, slot6 in pairs(slot1.mapSupportFleetCache) do
-				assert(uv0.expedition_data_by_map[slot5], "Missing Map Config " .. (slot5 or "NIL"))
+		if not getProxy(ChapterProxy).mapEliteFleetCache then
+			return {}, {}
+		end
 
-				slot0[slot5] = _.flatten(slot6)
+		for slot6, slot7 in pairs(slot1.mapEliteFleetCache) do
+			if not (checkExist(ChapterProxy.FormationToChapters[slot6], {
+				1
+			}) and uv0.chapter_template[slot8].map) then
+				-- Nothing
+			elseif (uv0.expedition_data_by_map[slot9].on_activity or 0) == 0 or checkExist(slot2:getActivityById(slot10), {
+				"isEnd"
+			}) == false then
+				slot11 = {}
+
+				for slot15, slot16 in ipairs(slot7[FleetType.Support]) do
+					table.insertto(slot11, slot16[TeamType.FormShips])
+				end
+
+				slot0[slot6] = slot11
 			end
 		end
 

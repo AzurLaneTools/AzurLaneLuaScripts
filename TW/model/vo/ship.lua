@@ -346,45 +346,46 @@ slot0.Ctor = function(slot0, slot1)
 		slot0.name = pg.ship_data_statistics[slot0.configId].name
 	end
 
-	slot0.bluePrintFlag = slot1.blue_print_flag or 0
+	slot0.groupId = pg.ship_data_template[slot0.configId].group_type
+	slot0.bluePrintFlag = pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot0.groupId][1]].handbook_type == 2
 	slot0.strengthList = {}
-	slot2 = ipairs
-	slot3 = slot1.strength_list or {}
+	slot3 = ipairs
+	slot4 = slot1.strength_list or {}
 
-	for slot5, slot6 in slot2(slot3) do
+	for slot6, slot7 in slot3(slot4) do
 		if not slot0:isBluePrintShip() then
-			slot0.strengthList[ShipModAttr.ID_TO_ATTR[slot6.id]] = slot6.exp
+			slot0.strengthList[ShipModAttr.ID_TO_ATTR[slot7.id]] = slot7.exp
 		else
 			table.insert(slot0.strengthList, {
-				level = slot6.id,
-				exp = slot6.exp
+				level = slot7.id,
+				exp = slot7.exp
 			})
 		end
 	end
 
-	slot2 = slot1.state or {}
-	slot0.state = slot2.state or 0
-	slot0.state_info_1 = slot2.state_info_1 or 0
-	slot0.state_info_2 = slot2.state_info_2 or 0
-	slot0.state_info_3 = slot2.state_info_3 or 0
-	slot0.state_info_4 = slot2.state_info_4 or 0
+	slot3 = slot1.state or {}
+	slot0.state = slot3.state or 0
+	slot0.state_info_1 = slot3.state_info_1 or 0
+	slot0.state_info_2 = slot3.state_info_2 or 0
+	slot0.state_info_3 = slot3.state_info_3 or 0
+	slot0.state_info_4 = slot3.state_info_4 or 0
 	slot0.equipmentSkins = {}
 	slot0.equipments = {}
 
 	if slot1.equip_info_list then
-		slot3 = ipairs
-		slot4 = slot1.equip_info_list or {}
+		slot4 = ipairs
+		slot5 = slot1.equip_info_list or {}
 
-		for slot6, slot7 in slot3(slot4) do
-			slot0.equipments[slot6] = slot7.id > 0 and Equipment.New({
+		for slot7, slot8 in slot4(slot5) do
+			slot0.equipments[slot7] = slot8.id > 0 and Equipment.New({
 				count = 1,
-				id = slot7.id,
-				config_id = slot7.id,
-				skinId = slot7.skinId
+				id = slot8.id,
+				config_id = slot8.id,
+				skinId = slot8.skinId
 			}) or false
-			slot0.equipmentSkins[slot6] = slot7.skinId > 0 and slot7.skinId or 0
+			slot0.equipmentSkins[slot7] = slot8.skinId > 0 and slot8.skinId or 0
 
-			slot0:reletiveEquipSkin(slot6)
+			slot0:reletiveEquipSkin(slot7)
 		end
 	end
 
@@ -395,28 +396,27 @@ slot0.Ctor = function(slot0, slot1)
 	end
 
 	slot0.skills = {}
-	slot3 = ipairs
-	slot4 = slot1.skill_id_list or {}
+	slot4 = ipairs
+	slot5 = slot1.skill_id_list or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		slot0:updateSkill(slot7)
+	for slot7, slot8 in slot4(slot5) do
+		slot0:updateSkill(slot8)
 	end
 
 	slot0.star = slot0:getConfig("rarity")
 	slot0.transforms = {}
-	slot3 = ipairs
-	slot4 = slot1.transform_list or {}
+	slot4 = ipairs
+	slot5 = slot1.transform_list or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		slot0.transforms[slot7.id] = {
-			id = slot7.id,
-			level = slot7.level
+	for slot7, slot8 in slot4(slot5) do
+		slot0.transforms[slot8.id] = {
+			id = slot8.id,
+			level = slot8.level
 		}
 	end
 
-	slot0.groupId = pg.ship_data_template[slot0.configId].group_type
 	slot0.createTime = slot1.create_time or 0
-	slot0.virgin = getProxy(CollectionProxy) and slot3.shipGroups[slot0.groupId] == nil
+	slot0.virgin = getProxy(CollectionProxy) and slot4.shipGroups[slot0.groupId] == nil
 
 	if table.indexof({
 		pg.gameset.test_ship_config_1.key_value,
@@ -428,11 +428,11 @@ slot0.Ctor = function(slot0, slot1)
 			3,
 			4
 		}
-	elseif slot5 == 2 then
+	elseif slot6 == 2 then
 		slot0.testShip = {
 			5
 		}
-	elseif slot5 == 3 then
+	elseif slot6 == 3 then
 		slot0.testShip = {
 			6
 		}
@@ -441,30 +441,30 @@ slot0.Ctor = function(slot0, slot1)
 	end
 
 	slot0.maxIntimacy = pg.intimacy_template[#pg.intimacy_template.all].upper_bound
-	slot6 = 0
+	slot7 = 0
 
 	if not HXSet.isHxSkin() then
-		slot6 = slot1.skin_id or 0
+		slot7 = slot1.skin_id or 0
 	end
 
 	slot0.phantomDic = {}
 
-	slot0:updateSkinId(slot6, 0)
+	slot0:updateSkinId(slot7, 0)
 
-	slot7 = ipairs
-	slot8 = slot1.skin_shadow_list or {}
+	slot8 = ipairs
+	slot9 = slot1.skin_shadow_list or {}
 
-	for slot10, slot11 in slot7(slot8) do
-		slot0:updateSkinId(slot11.value, slot11.key)
+	for slot11, slot12 in slot8(slot9) do
+		slot0:updateSkinId(slot12.value, slot12.key)
 	end
 
 	slot0.noChangeSkin = slot1.noChangeSkin or false
 	slot0.phantomRandomFlag = {}
-	slot7 = ipairs
-	slot8 = slot1.char_random_flag or {}
+	slot8 = ipairs
+	slot9 = slot1.char_random_flag or {}
 
-	for slot10, slot11 in slot7(slot8) do
-		slot0:updateRandomFlag(1, slot11)
+	for slot11, slot12 in slot8(slot9) do
+		slot0:updateRandomFlag(1, slot12)
 	end
 
 	if slot1.name and slot1.name ~= "" then
@@ -543,7 +543,7 @@ slot0.getAllEquipments = function(slot0)
 end
 
 slot0.isBluePrintShip = function(slot0)
-	return slot0.bluePrintFlag == 1
+	return slot0.bluePrintFlag
 end
 
 slot0.getSkinId = function(slot0, slot1)
@@ -1697,7 +1697,7 @@ slot0.getTotalExp = function(slot0)
 end
 
 slot0.getStartBattleExpend = function(slot0)
-	if table.contains(TeamType.SubShipType, slot0:getShipType()) then
+	if table.contains(ShipType.SubShipType, slot0:getShipType()) then
 		return 0
 	else
 		return pg.ship_data_template[slot0.configId].oil_at_start
@@ -1987,7 +1987,7 @@ slot0.upgrade = function(slot0)
 end
 
 slot0.getTeamType = function(slot0)
-	return TeamType.GetTeamFromShipType(slot0:getShipType())
+	return ShipType.GetTeamFromShipType(slot0:getShipType())
 end
 
 slot0.getFleetName = function(slot0)
@@ -2424,7 +2424,7 @@ slot0.IsSpWeaponForbidden = function(slot0, slot1)
 end
 
 slot0.GetMapStrikeAnim = function(slot0)
-	switch(TeamType.GetTeamFromShipType(slot0:getShipType()), {
+	switch(ShipType.GetTeamFromShipType(slot0:getShipType()), {
 		[TeamType.Main] = function ()
 			if ShipType.IsTypeQuZhu(uv0) then
 				uv1 = "SubTorpedoUI"

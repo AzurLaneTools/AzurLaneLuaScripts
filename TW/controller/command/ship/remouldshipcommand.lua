@@ -80,7 +80,7 @@ slot0.execute = function(slot0, slot1)
 	end
 
 	if slot16 and slot17 then
-		slot18 = TeamType.GetTeamFromShipType(pg.ship_data_statistics[slot16].type) ~= TeamType.GetTeamFromShipType(pg.ship_data_statistics[slot17].type)
+		slot18 = ShipType.GetTeamFromShipType(pg.ship_data_statistics[slot16].type) ~= ShipType.GetTeamFromShipType(pg.ship_data_statistics[slot17].type)
 	end
 
 	slot19 = {}

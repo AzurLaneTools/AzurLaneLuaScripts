@@ -7685,3 +7685,13 @@ temp = function()
 end
 
 temp()
+
+temp = function()
+	uv0["藤"] = {
+		["波"] = {
+			this = true
+		}
+	}
+end
+
+temp()

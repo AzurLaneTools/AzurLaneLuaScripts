@@ -17,7 +17,7 @@ slot0.NeedHelpMessage = function(slot0, slot1)
 end
 
 slot0.GetAutoSkipFlag = function(slot0, slot1)
-	if slot1 == SYSTEM_SCENARIO then
+	if slot1 == SYSTEM_SCENARIO or slot1 == SYSTEM_SCENARIO_SUB_STRIKE then
 		return getProxy(ChapterProxy):GetChapterAutoFlag(getProxy(ChapterProxy):getActiveChapter().id) == 1
 	elseif slot1 == SYSTEM_WORLD then
 		return nowWorld().isAutoFight
@@ -178,7 +178,7 @@ slot0.GetNewMainShips = function(slot0)
 		slot2 = uv5()
 	elseif slot1 == SYSTEM_BOSS_RUSH or slot1 == SYSTEM_BOSS_RUSH_COLLABRATE or slot1 == SYSTEM_BOSS_RUSH_EX then
 		slot2 = uv6(slot0)
-	elseif slot1 ~= SYSTEM_DODGEM and slot1 ~= SYSTEM_SUBMARINE_RUN and slot1 ~= SYSTEM_REWARD_PERFORM and slot1 ~= SYSTEM_AIRFIGHT and slot1 ~= SYSTEM_CARDPUZZLE then
+	elseif slot1 ~= SYSTEM_DODGEM and slot1 ~= SYSTEM_SUBMARINE_RUN and slot1 ~= SYSTEM_REWARD_PERFORM and slot1 ~= SYSTEM_AIRFIGHT and slot1 ~= SYSTEM_SCENARIO_SUB_STRIKE and slot1 ~= SYSTEM_CARDPUZZLE then
 		if slot1 == SYSTEM_CHALLENGE then
 			-- Nothing
 		elseif slot1 == SYSTEM_LIMIT_CHALLENGE then

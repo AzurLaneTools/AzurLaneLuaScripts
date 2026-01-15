@@ -349,7 +349,7 @@ slot0.AddListener = function(slot0)
 					type = MSGBOX_TYPE_HELP,
 					helps = i18n("levelScene_bomb_help_tip")
 				})
-			elseif pg.map_event_list[slot0.id] and pg.map_event_list[slot0.id].help_pictures and next(pg.map_event_list[slot0.id].help_pictures) ~= nil then
+			elseif pg.map_event_list[slot0.id] and next(noEmptyStr(pg.map_event_list[slot0.id].help_pictures) or {}) then
 				slot1 = {
 					disableScroll = true,
 					pageMode = true,
@@ -636,7 +636,7 @@ slot0.updateFleetBuff = function(slot0)
 	slot2 = slot1.fleet
 	slot3 = slot1:GetShowingStrategies()
 
-	if slot1:getChapterSupportFleet() then
+	if slot1:getChapterSupportFleet() and not slot1:IsSupportSubmarineStage() then
 		table.insert(slot3, ChapterConst.StrategyAirSupportFriendly)
 	end
 
@@ -653,7 +653,9 @@ slot0.updateFleetBuff = function(slot0)
 		end)
 	end
 
-	slot7 = slot1:GetWeather()
+	slot7 = underscore.filter(slot1:GetWeather(), function (slot0)
+		return noEmptyStr(pg.weather_data_template[slot0].buff_icon)
+	end)
 	slot8 = 0
 
 	if slot1:ExistDivingChampion() then
@@ -693,7 +695,6 @@ slot0.updateFleetBuff = function(slot0)
 				onButton(uv2, slot2, function ()
 					uv0:HandleShowMsgBox({
 						yesText = "text_confirm",
-						iconPreservedAspect = true,
 						hideNo = true,
 						content = "",
 						type = MSGBOX_TYPE_SINGLE_ITEM,
@@ -736,7 +737,6 @@ slot0.updateFleetBuff = function(slot0)
 				onButton(uv2, slot2, function ()
 					uv0:HandleShowMsgBox({
 						yesText = "text_confirm",
-						iconPreservedAspect = true,
 						hideNo = true,
 						content = "",
 						type = MSGBOX_TYPE_SINGLE_ITEM,
@@ -1251,10 +1251,11 @@ slot0.updateStageFleet = function(slot0)
 end
 
 slot0.updateSupportFleet = function(slot0)
-	slot2 = findTF(slot0.leftStage, "support_fleet")
+	slot1 = slot0.contextData.chapterVO:getChapterSupportFleet()
 
-	if slot0.contextData.chapterVO:getChapterSupportFleet() then
-		setActive(slot2, true)
+	setActive(findTF(slot0.leftStage, "support_fleet"), tobool(slot1))
+
+	if slot1 then
 		removeAllChildren(findTF(slot2, "show/ship_container"))
 
 		slot4 = findTF(slot2, "show/shiptpl")
@@ -1282,11 +1283,7 @@ slot0.updateSupportFleet = function(slot0)
 		onButton(slot0, slot2:Find("show"), function ()
 			uv0(false)
 		end)
-
-		return
 	end
-
-	setActive(slot2, false)
 end
 
 slot0.ShiftStagePanelIn = function(slot0, slot1)
@@ -1716,21 +1713,18 @@ slot0.tryAutoAction = function(slot0, slot1)
 				slot0:RemoveExtendChapterData(slot2, "FleetMoveDistance")
 			end)()
 			slot0()
-		end,
-		function (slot0)
-			if uv0.exited then
-				return
-			end
-
-			existCall(uv1)
-
-			uv0.doingAutoAction = nil
-
-			if uv2 then
-				uv0:TryEnterChapterStoryStage()
-			end
 		end
-	})
+	}, function ()
+		if uv0.exited then
+			return
+		end
+
+		uv0.doingAutoAction = nil
+
+		if not uv1 or not uv0:TryEnterChapterStoryStage() then
+			existCall(uv2)
+		end
+	end)
 end
 
 slot0.tryPlayChapterStory = function(slot0, slot1)
@@ -1773,32 +1767,36 @@ slot0.tryPlayChapterStory = function(slot0, slot1)
 	})
 end
 
-slot0.TryEnterChapterStoryStage = function(slot0)
-	slot1 = slot0.contextData.chapterVO
-	slot2 = slot1:getWaveCount()
+slot0.TryEnterChapterStoryStage = function(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
 
-	seriesAsync({
-		function (slot0)
-			slot2 = uv0:getConfig("story_refresh") and slot1[uv1]
-			slot3 = pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot2)
+	if slot2:getConfig("story_refresh") and slot4[slot2:getWaveCount()] and type(slot5) == "number" and not slot2:IsRemaster() and not pg.NewStoryMgr.GetInstance():IsPlayed(pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot5)) then
+		slot0:emit(LevelMediator2.ON_PERFORM_COMBAT, slot5)
 
-			if slot2 and type(slot2) == "number" and not uv0:IsRemaster() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot3) then
-				uv2:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
-			else
-				slot0()
-			end
-		end,
-		function (slot0)
-			slot1 = uv0:getConfig("story_refresh_boss")
-			slot2 = pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot1)
+		return true
+	end
 
-			if slot1 and type(slot1) == "number" and not uv0:IsRemaster() and uv0:IsFinalBossRefreshed() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot2) then
-				uv1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot1, slot0)
-			else
-				slot0()
-			end
-		end
-	})
+	if slot2:getConfig("story_refresh_boss") and type(slot6) == "number" and not slot2:IsRemaster() and slot2:IsFinalBossRefreshed() and not pg.NewStoryMgr.GetInstance():IsPlayed(pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot6)) then
+		slot0:emit(LevelMediator2.ON_PERFORM_COMBAT, slot6)
+
+		return true
+	end
+end
+
+slot0.TryEnterChapterSupportSubmarineStage = function(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
+	slot3 = slot2:getChapterSupportFleet()
+	slot4 = {}
+
+	if slot2:getChapterSupportFleet() then
+		slot0:emit(LevelMediator2.ON_SUPPORT_SUBMARINE)
+	else
+		slot0:emit(LevelMediator2.ON_OP, {
+			type = ChapterConst.OPSubStrike,
+			arg1 = ys.Battle.BattleConst.BattleScore.C,
+			callback = slot1
+		})
+	end
 end
 
 slot4 = {
