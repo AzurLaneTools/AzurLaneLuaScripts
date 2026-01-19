@@ -34569,7 +34569,7 @@ pg.base.memory_template = {
 		icon = "memory_yongzhedelvtu",
 		is_open = 0,
 		unlock_pre = {
-			"50003"
+			"51003"
 		}
 	},
 	[2361] = {
@@ -34614,7 +34614,7 @@ pg.base.memory_template = {
 		icon = "memory_weijiaoxiaosipeibojue",
 		is_open = 0,
 		unlock_pre = {
-			"50002"
+			"51002"
 		}
 	},
 	[2371] = {

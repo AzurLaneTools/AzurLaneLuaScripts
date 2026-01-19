@@ -51665,8 +51665,8 @@ pg.furniture_shop_template = {
 		time = {
 			{
 				{
-					2024,
-					8,
+					2026,
+					1,
 					15
 				},
 				{
@@ -51677,9 +51677,9 @@ pg.furniture_shop_template = {
 			},
 			{
 				{
-					2024,
-					8,
-					28
+					2026,
+					1,
+					21
 				},
 				{
 					23,
