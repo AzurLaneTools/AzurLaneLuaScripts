@@ -2678,6 +2678,27 @@ pg.medal_template = {
 		explain1 = "「天穹に響く音謡」",
 		explain2 = "イベント"
 	},
+	[200121] = {
+		target_id = "50359",
+		name = "特集写真記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "ファッションレーダー出力全開、撮影モードに移行！シャッターを切って流行りの瞬間を記録しよう！\n——あなたこそ、今日のファッションレコーダーだ！",
+		next = 0,
+		icon = "9121",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9121",
+		condition = "「特集写真――撮影進行中！」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200121,
+		explain1 = "「特集写真――撮影進行中！」",
+		explain2 = "イベント"
+	},
 	all = {
 		10011,
 		10012,
@@ -2800,6 +2821,7 @@ pg.medal_template = {
 		200081,
 		200091,
 		200101,
-		200111
+		200111,
+		200121
 	}
 }

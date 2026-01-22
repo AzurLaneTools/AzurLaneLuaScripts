@@ -25308,12 +25308,22 @@ _G.pg.base.item_virtual_data_statistics[56061] = {
 		},
 		{
 			4,
-			301181,
+			101151,
 			1
 		},
 		{
 			4,
-			101031,
+			102021,
+			1
+		},
+		{
+			4,
+			301411,
+			1
+		},
+		{
+			4,
+			301371,
 			1
 		},
 		{
@@ -25323,27 +25333,17 @@ _G.pg.base.item_virtual_data_statistics[56061] = {
 		},
 		{
 			4,
-			101131,
-			1
-		},
-		{
-			4,
-			101141,
-			1
-		},
-		{
-			4,
 			101071,
 			1
 		},
 		{
 			4,
-			302091,
+			303011,
 			1
 		},
 		{
 			4,
-			103011,
+			303021,
 			1
 		},
 		{
@@ -25459,12 +25459,22 @@ _G.pg.base.item_virtual_data_statistics[56062] = {
 		},
 		{
 			4,
-			301181,
+			101151,
 			1
 		},
 		{
 			4,
-			101031,
+			102021,
+			1
+		},
+		{
+			4,
+			301411,
+			1
+		},
+		{
+			4,
+			301371,
 			1
 		},
 		{
@@ -25474,27 +25484,17 @@ _G.pg.base.item_virtual_data_statistics[56062] = {
 		},
 		{
 			4,
-			101131,
-			1
-		},
-		{
-			4,
-			101141,
-			1
-		},
-		{
-			4,
 			101071,
 			1
 		},
 		{
 			4,
-			302091,
+			303011,
 			1
 		},
 		{
 			4,
-			103011,
+			303021,
 			1
 		},
 		{
@@ -25610,12 +25610,22 @@ _G.pg.base.item_virtual_data_statistics[56063] = {
 		},
 		{
 			4,
-			301181,
+			101151,
 			1
 		},
 		{
 			4,
-			101031,
+			102021,
+			1
+		},
+		{
+			4,
+			301411,
+			1
+		},
+		{
+			4,
+			301371,
 			1
 		},
 		{
@@ -25625,27 +25635,17 @@ _G.pg.base.item_virtual_data_statistics[56063] = {
 		},
 		{
 			4,
-			101131,
-			1
-		},
-		{
-			4,
-			101141,
-			1
-		},
-		{
-			4,
 			101071,
 			1
 		},
 		{
 			4,
-			302091,
+			303011,
 			1
 		},
 		{
 			4,
-			103011,
+			303021,
 			1
 		},
 		{
@@ -25766,12 +25766,22 @@ _G.pg.base.item_virtual_data_statistics[56064] = {
 		},
 		{
 			4,
-			301181,
+			101151,
 			1
 		},
 		{
 			4,
-			101031,
+			102021,
+			1
+		},
+		{
+			4,
+			301411,
+			1
+		},
+		{
+			4,
+			301371,
 			1
 		},
 		{
@@ -25781,27 +25791,17 @@ _G.pg.base.item_virtual_data_statistics[56064] = {
 		},
 		{
 			4,
-			101131,
-			1
-		},
-		{
-			4,
-			101141,
-			1
-		},
-		{
-			4,
 			101071,
 			1
 		},
 		{
 			4,
-			302091,
+			303011,
 			1
 		},
 		{
 			4,
-			103011,
+			303021,
 			1
 		},
 		{
@@ -177383,6 +177383,306 @@ _G.pg.base.item_virtual_data_statistics[65801] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65802] = {
+	drop_gold_max = 0,
+	name = "特集写真記念勲章",
+	display = "ファッションレーダー出力全開、撮影モードに移行！シャッターを切って流行りの瞬間を記録しよう！\n——あなたこそ、今日のファッションレコーダーだ！",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Medal/9121",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65802,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65803] = {
+	drop_gold_max = 0,
+	name = "ステッカー：撮影進行中！",
+	display = "一番ナウい子は誰だ？そう、私だ！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5035901",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65803,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65804] = {
+	drop_gold_max = 0,
+	name = "ステッカー：カメラ",
+	display = "3、2、1！チーズ——",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5035902",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65804,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65805] = {
+	drop_gold_max = 0,
+	name = "ステッカー：ハンガー",
+	display = "ハンガーは、衣装をかけるのに使われるものだ…",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5035903",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65805,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65806] = {
+	drop_gold_max = 0,
+	name = "ステッカー：クレーンマシン",
+	display = "あとちょっと……あとちょっとだけ捕まえる……！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5035904",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65806,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65807] = {
+	drop_gold_max = 0,
+	name = "ステッカー：スポットライト",
+	display = "注目の的になる準備はできていて？",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5035905",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65807,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65808] = {
+	drop_gold_max = 0,
+	name = "ステッカー：ファッション",
+	display = "ここからは――ファッションランジェリー特集撮影の時間！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5035906",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65808,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65809] = {
+	drop_gold_max = 0,
+	name = "ステッカー：フルーツアルバム",
+	display = "同じ果物でも、撮り方は100通りもある？",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5035907",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65809,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65810] = {
+	drop_gold_max = 0,
+	name = "ステッカー：フィルム",
+	display = "カメラを見ていない瞬間も含めて、全てを記録するよ！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5035908",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65810,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65811] = {
+	drop_gold_max = 0,
+	name = "写真フィルム",
+	display = "「特集写真――撮影進行中！」のPTアイテム。イベント終了時に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/sadingSPlianzhan_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65811,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65812] = {
+	drop_gold_max = 0,
+	name = "スタジオ予約票",
+	display = "「特集写真――撮影進行中！」の特集ページ（イベントストーリー）を解放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50360,
+	icon = "Props/65812",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 65812,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65813] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2026.2.4まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2026.2.4まで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65813,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "木材",
@@ -237379,4 +237679,208 @@ _G.pg.base.item_virtual_data_statistics[200672] = {
 			1
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200673] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200673,
+	display_icon = {
+		{
+			2,
+			11049,
+			1
+		},
+		{
+			2,
+			10125,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200674] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200674,
+	display_icon = {
+		{
+			2,
+			11049,
+			1
+		},
+		{
+			2,
+			10125,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200675] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200675,
+	display_icon = {
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			10125,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200676] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200676,
+	display_icon = {
+		{
+			2,
+			10125,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			66,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }

@@ -254,36 +254,29 @@ slot0.Preload = function(slot0)
 
 			assert(slot6)
 
-			slot8 = slot6:GetFleetIds()
-			slot9 = slot8[slot6:GetStaegLevel() + 1]
-			slot10 = slot8[#slot8]
+			slot9, slot10 = slot6:GetStageFleets(slot6:GetMode(), slot6:GetStaegLevel() + 1)
+			slot12 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId]
+			slot14 = slot12[slot10]
 
-			if slot6:GetMode() == BossRushSeriesData.MODE.SINGLE then
-				slot9 = slot8[1]
+			if slot12[slot9] then
+				for slot19, slot20 in ipairs(slot13:GetRawShipIds()) do
+					table.insert(slot3, slot2:getShipById(slot20))
+				end
+
+				uv0.addCommanderBuffRes(slot13:buildBattleBuffList())
 			end
 
-			slot13 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId]
-			slot15 = slot13[slot10]
-
-			if slot13[slot9] then
-				for slot20, slot21 in ipairs(slot14:GetRawShipIds()) do
-					table.insert(slot3, slot2:getShipById(slot21))
+			if slot14 then
+				for slot19, slot20 in ipairs(slot14:GetRawShipIds()) do
+					table.insert(slot3, slot2:getShipById(slot20))
 				end
 
 				uv0.addCommanderBuffRes(slot14:buildBattleBuffList())
 			end
 
-			if slot15 then
-				for slot20, slot21 in ipairs(slot15:GetRawShipIds()) do
-					table.insert(slot3, slot2:getShipById(slot21))
-				end
-
-				uv0.addCommanderBuffRes(slot15:buildBattleBuffList())
-			end
-
-			if slot6:GetBossHpRate() <= slot6:getConfig("aid_buff")[1] then
+			if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE and slot6:GetBossHpRate() <= slot6:getConfig("aid_buff")[1] then
 				uv0.addChapterBuffRes({
-					slot16[2]
+					slot15[2]
 				})
 			end
 		elseif slot0.contextData.system == SYSTEM_LIMIT_CHALLENGE then

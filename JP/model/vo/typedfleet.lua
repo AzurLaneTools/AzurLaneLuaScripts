@@ -10,6 +10,14 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.saveLastShipFlag = slot1.saveLastShipFlag
 end
 
+slot0.SeparateOut = function(slot0)
+	slot1 = uv0.super.SeparateOut(slot0)
+	slot1.fleetType = slot0.fleetType
+	slot1.saveLastShipFlag = slot0.saveLastShipFlag
+
+	return slot1
+end
+
 slot0.SetFleetType = function(slot0, slot1)
 	slot0.fleetType = slot1 or FleetType.Normal
 end

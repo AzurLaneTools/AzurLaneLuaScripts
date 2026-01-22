@@ -254,17 +254,17 @@ slot0.BossId2FleetKey = function(slot0, slot1)
 end
 
 slot0.GenFleet = function(slot0)
-	slot0.fleet = Fleet.New({
-		0,
+	slot0.fleet = TypedFleet.New({
 		id = 1,
 		name = i18n("world_boss_fleet"),
-		ship_list = slot0:GetCacheShips(uv0)
+		ship_list = slot0:GetCacheShips(uv0),
+		fleetType = FleetType.Normal
 	})
 	slot0.fleetForArchives = Fleet.New({
-		0,
 		id = 1,
 		name = i18n("world_boss_fleet"),
-		ship_list = slot0:GetCacheShips(uv1)
+		ship_list = slot0:GetCacheShips(uv1),
+		fleetType = FleetType.Normal
 	})
 end
 

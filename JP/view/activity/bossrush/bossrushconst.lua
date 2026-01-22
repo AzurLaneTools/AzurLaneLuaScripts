@@ -9,7 +9,11 @@ slot0.GetPassedLayer = function(slot0)
 			return BossRushVerZenkerPassedLayer
 		end
 	}, function ()
-		return BossRushPassedLayer
+		return checkExist(pg.activity_template[uv0], {
+			"config_client"
+		}, {
+			"passed"
+		}) and _G[slot0] or BossRushPassedLayer
 	end)
 end
 
@@ -22,7 +26,11 @@ slot0.GetEXBattleResultLayer = function(slot0)
 			return BossRushVerZenkerEXBattleResultLayer
 		end
 	}, function ()
-		return BossRushEXBattleResultLayer
+		return checkExist(pg.activity_template[uv0], {
+			"config_client"
+		}, {
+			"result"
+		}) and _G[slot0] or BossRushEXBattleResultLayer
 	end)
 end
 

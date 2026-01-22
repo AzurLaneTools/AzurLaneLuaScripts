@@ -12877,7 +12877,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「グアム」を確定で入手可能！（最大4隻まで）"
+	tip = "「フランチェスコ・カラッチョロ」など出現率がUP!"
 }
 
 
@@ -41652,6 +41652,11 @@ _G.pg.base.gametip.island_season_charts_out = {
 }
 
 
+_G.pg.base.gametip.island_season_review_lv = {
+	tip = "岛屿开发等级"
+}
+
+
 _G.pg.base.gametip.island_season_review_charnum = {
 	tip = "仲間人数"
 }
@@ -41659,6 +41664,11 @@ _G.pg.base.gametip.island_season_review_charnum = {
 
 _G.pg.base.gametip.island_season_review_projuctnum = {
 	tip = "技術研究"
+}
+
+
+_G.pg.base.gametip.island_season_review_titleone = {
+	tip = "开发季"
 }
 
 
@@ -41699,6 +41709,26 @@ _G.pg.base.gametip.island_season_review_fishnum = {
 
 _G.pg.base.gametip.island_season_review_gamenum = {
 	tip = "イベント参加"
+}
+
+
+_G.pg.base.gametip.island_season_review_achi = {
+	tip = "成就"
+}
+
+
+_G.pg.base.gametip.island_season_review_achinum = {
+	tip = "成就数量"
+}
+
+
+_G.pg.base.gametip.island_season_review_guidenum = {
+	tip = "总收集点"
+}
+
+
+_G.pg.base.gametip.island_season_review_blank = {
+	tip = "未参与该开发季"
 }
 
 
@@ -43680,6 +43710,11 @@ _G.pg.base.gametip.island_cancel_queue = {
 
 _G.pg.base.gametip.island_queue_display = {
 	tip = "離島訪問数が上限になっています。待機リストに入ります\n指揮官の待機番号：$1"
+}
+
+
+_G.pg.base.gametip.island_season_label = {
+	tip = "开发季$1"
 }
 
 
@@ -46570,4 +46605,55 @@ _G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
 
 _G.pg.base.gametip.submarine_support_oil_consume_tip = {
 	tip = "潜水支援艦隊出撃は燃料を$1消費します。続けますか？"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_title = {
+	tip = "イベント"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_1 = {
+	tip = "特集写真"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_2 = {
+	tip = "累計Pt"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_story_reward_count = {
+	tip = "キャラをタップし、<icon name=65812 w=0.4 h=0.4/><color=#10a7a9>(残り：$1)</color>を消費し特集ページ（イベントストーリー）を開放\n全ストーリー開放で限定装備外装を入手可能<color=#10a7a9>($2/8)</color>"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_unlock = {
+	tip = "未開放"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_fleetconfirm = {
+	tip = "艦隊が編成されていません。前のステージの編成を適用させますか？"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
+	tip = {
+		{
+			info = [[
+遊び方：
+<color=#92fc63>1.22-2.5メンテ</color>まで、期間限定イベント「特集写真――撮影進行中！」が開催されます！
+限定任務をこなし、艦隊を編成しイベントステージをクリアすることで、「写真フィルム」を集めて報酬を手に入れましょう！
+
+①画面左下のボタンで「探索物語（ストーリー）」と「特別戦闘」画面を切り替えることができます。
+②「特別戦闘」では、艦隊を編成し特別ステージに挑戦でき、収集Ptアイテム「写真フィルム」を入手できます
+出撃の際に、出撃する艦隊数が異なる<color=#92fc63>「単独出撃」</color>、<color=#92fc63>「協同出撃」</color>を選択できます
+・単独出撃では、1個の艦隊のみで各ステージに連続して挑むことができます（戦闘開始時に艦隊の耐久が全回復します）
+・協同出撃では、ステージに応じてそれぞれ艦隊を編成し出撃させ、戦闘をそれぞれの艦隊で行います。協同出撃でクリアした場合、追加の報酬を入手できます
+③「写真フィルム」は累計入手数報酬でSR艦船<color=#92fc63>「ウゴリーノ・ヴィヴァルディ」</color>、<color=#92fc63>「試作型三連装406mm主砲Model1940」</color>などを入手できます
+④「限定任務」では、イベント開催期間に登場するイベント任務を確認し報酬を受け取ることができます。
+④「探索物語」では、イベント限定任務で入手できる「スタジオ予約票」を消費してイベントストーリーを開放することができます。また、全てのストーリーを読むと限定装備外装「ファッションフルーツ砲弾」を入手できます]]
+		}
+	}
 }

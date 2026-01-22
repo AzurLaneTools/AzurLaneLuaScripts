@@ -28,9 +28,6 @@ slot0.InitUI = function(slot0)
 	slot0.btnClear = slot1:Find("Fleet/BtnClear")
 	slot0.rtCostLimit = slot1:Find("Fleet/CostLimit")
 	slot0.commanderList = slot1:Find("Fleet/Commander")
-	slot0.fleetIndexToggles = _.map(_.range(slot1:Find("Fleet/Indexes").childCount), function (slot0)
-		return uv0:Find("Fleet/Indexes"):GetChild(slot0 - 1)
-	end)
 	slot0.modeToggles = {
 		slot1:Find("Info/Modes/Single"),
 		slot1:Find("Info/Modes/Multiple")
@@ -58,16 +55,9 @@ slot0.InitUI = function(slot0)
 	setText(slot0._tf:Find("Panel/Info/Modes/Single/Off/Text"), i18n("series_enemy_mode_1"))
 	setText(slot0._tf:Find("Panel/Info/Modes/Multiple/On/Text"), i18n("series_enemy_mode_2"))
 	setText(slot0._tf:Find("Panel/Info/Modes/Multiple/Off/Text"), i18n("series_enemy_mode_2"))
-	table.Foreach(slot0.fleetIndexToggles, function (slot0, slot1)
-		if slot0 >= #uv0.fleetIndexToggles then
-			setText(slot1:Find("Text"), i18n("formationScene_use_oil_limit_submarine"))
-		else
-			setText(slot1:Find("Text"), i18n("series_enemy_fleet_prefix", GetRomanDigit(slot0)))
-		end
-	end)
 	setText(slot0._tf:Find("Panel/Fleet/Normal/main/Item/Ship/EnergyWarn/Text"), i18n("series_enemy_mood"))
 	setText(slot0._tf:Find("Panel/Fleet/Normal/vanguard/Item/Ship/EnergyWarn/Text"), i18n("series_enemy_mood"))
-	setText(slot0._tf:Find("Panel/Fleet/Submarine/submarine/Item/Ship/EnergyWarn/Text"), i18n("series_enemy_mood"))
+	setText(slot0._tf:Find("Panel/Fleet/Submarine/main/Item/Ship/EnergyWarn/Text"), i18n("series_enemy_mood"))
 end
 
 slot0.didEnter = function(slot0)
@@ -121,56 +111,39 @@ slot0.didEnter = function(slot0)
 					return
 				end
 
-				slot1 = uv0
-
-				slot1:emit(BossRushFleetSelectMediator.ON_SWITCH_MODE, uv1)
-				table.Foreach(uv0.fleetIndexToggles, function (slot0, slot1)
-					triggerToggle(slot1, slot0 == uv0.contextData.fleetIndex)
-				end)
+				uv0:emit(BossRushFleetSelectMediator.ON_SWITCH_MODE, uv1)
+				uv0:updateToggles()
+				triggerToggle(uv0.fleetIndexToggles[uv0.contextData.fleetIndex], true)
 			end, SFX_PANEL)
 		end)
 	end
 
-	table.Foreach(slot0.fleetIndexToggles, function (slot0, slot1)
-		setActive(slot1, slot0 <= uv0 - 1 or slot0 == #uv1.fleetIndexToggles)
-	end)
+	slot3 = slot0._tf:Find("Panel/Fleet/Indexes")
 
-	for slot7 = #slot0.fleetIndexToggles - 1, #slot0.contextData.fullFleets, -1 do
-		table.remove(slot0.fleetIndexToggles, slot7)
-	end
+	UIItemList.StaticAlign(slot3, slot3:GetChild(0), slot3.childCount, function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
 
-	slot4 = function(slot0, slot1)
-		setActive(slot0:Find("Selected"), slot1)
-
-		slot2, slot3 = uv0:GetTextColor()
-
-		setTextColor(slot0:Find("Text"), slot1 and slot2 or slot3)
-	end
-
-	table.Foreach(slot0.fleetIndexToggles, function (slot0, slot1)
-		onToggle(uv0, slot1, function (slot0)
-			uv0(uv1, slot0)
-		end)
-	end)
-	table.Foreach(slot0.fleetIndexToggles, function (slot0, slot1)
-		triggerToggle(slot1, slot0 == uv0.contextData.fleetIndex)
-	end)
-	table.Foreach(slot0.fleetIndexToggles, function (slot0, slot1)
-		onToggle(uv0, slot1, function (slot0)
-			uv0(uv1, slot0)
-
-			if not slot0 then
-				return
-			end
-
-			if uv2 == #uv3.fleetIndexToggles then
-				uv3.contextData.fleetIndex = #uv3.contextData.fleets
+		if slot0 == UIItemList.EventUpdate then
+			if slot1 < uv0 then
+				setText(slot2:Find("Text"), i18n("series_enemy_fleet_prefix", GetRomanDigit(slot1)))
 			else
-				uv3.contextData.fleetIndex = uv2
+				setText(slot2:Find("Text"), i18n("formationScene_use_oil_limit_submarine"))
 			end
 
-			uv3:updateEliteFleets()
-		end, SFX_PANEL)
+			onToggle(uv1, slot2, function (slot0)
+				setActive(uv0:Find("Selected"), slot0)
+
+				slot1, slot2 = uv1:GetTextColor()
+
+				setTextColor(uv0:Find("Text"), slot0 and slot1 or slot2)
+
+				if slot0 then
+					uv1.contextData.fleetIndex = uv1.contextData.fleets[uv2] and uv2 or #slot3
+
+					uv1:updateEliteFleets()
+				end
+			end, SFX_PANEL)
+		end
 	end)
 	setText(slot0._tf:Find("Panel/Info/Title/Text"), slot1:GetName())
 	setText(slot0._tf:Find("Panel/Info/Title/Text/EN"), slot1:GetSeriesCode())
@@ -243,7 +216,8 @@ slot0.didEnter = function(slot0)
 		setText(slot0._tf:Find("Panel/Reward/EX/Title/Text"), math.floor(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK):GetScore()))
 	end
 
-	slot0:updateEliteFleets()
+	slot0:updateToggles()
+	triggerToggle(slot0.fleetIndexToggles[slot0.contextData.fleetIndex], true)
 end
 
 slot1 = {
@@ -366,6 +340,24 @@ slot0.initAddButton = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
+slot0.updateToggles = function(slot0)
+	slot1 = #slot0.contextData.fleets
+	slot2 = slot0._tf
+	slot2 = slot2:Find("Panel/Fleet/Indexes")
+	slot3 = slot2.childCount
+	slot0.fleetIndexToggles = {}
+
+	eachChild(slot2, function (slot0, slot1)
+		setActive(slot0, slot1 + 1 == uv0 or slot1 < uv1)
+
+		if slot1 == uv0 then
+			uv2.fleetIndexToggles[uv1] = slot0
+		elseif slot1 < uv1 then
+			uv2.fleetIndexToggles[slot1] = slot0
+		end
+	end)
+end
+
 slot0.updateEliteFleets = function(slot0)
 	slot1 = slot0.contextData.seriesData
 	slot2 = slot0.contextData.fleetIndex
@@ -375,35 +367,29 @@ slot0.updateEliteFleets = function(slot0)
 	setActive(slot0._tf:Find("Panel/Fleet/Normal"), not slot4)
 	setActive(slot0._tf:Find("Panel/Fleet/Submarine"), slot4)
 
-	slot5 = #slot0.contextData.fleets
-
-	table.Foreach(slot0.fleetIndexToggles, function (slot0, slot1)
-		setActive(slot1, slot0 <= uv0 - 1 or slot0 == #uv1.fleetIndexToggles)
-	end)
-
-	slot6 = slot0.btnClear
-	slot7 = slot0.btnRecommend
-	slot8 = slot0.commanderList
+	slot5 = slot0.btnClear
+	slot6 = slot0.btnRecommend
+	slot7 = slot0.commanderList
 
 	if not slot4 then
-		slot9 = slot0.tfFleets[FleetType.Normal]
+		slot8 = slot0.tfFleets[FleetType.Normal]
 
-		setText(slot9:Find("bg/name"), Fleet.DEFAULT_NAME[slot2])
-		slot0:initAddButton(slot9:Find(TeamType.Main), TeamType.Main, slot2)
-		slot0:initAddButton(slot9:Find(TeamType.Vanguard), TeamType.Vanguard, slot2)
+		setText(slot8:Find("bg/name"), Fleet.DEFAULT_NAME[slot2])
+		slot0:initAddButton(slot8:Find(TeamType.Main), TeamType.Main, slot2)
+		slot0:initAddButton(slot8:Find(TeamType.Vanguard), TeamType.Vanguard, slot2)
 	else
-		slot9 = slot0.tfFleets[FleetType.Submarine]
+		slot8 = slot0.tfFleets[FleetType.Submarine]
 
-		setText(slot9:Find("bg/name"), Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID])
-		slot0:initAddButton(slot9:Find(TeamType.Main), TeamType.Submarine, #slot0.contextData.fleets)
+		setText(slot8:Find("bg/name"), Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID])
+		slot0:initAddButton(slot8:Find(TeamType.Main), TeamType.Submarine, #slot0.contextData.fleets)
 	end
 
-	slot0:initCommander(slot3, slot8)
+	slot0:initCommander(slot3, slot7)
 	setText(slot0.sonarRangeTexts[1], math.floor(slot3:GetFleetSonarRange()))
 
-	slot10 = #slot3:GetRawShipIds() == (slot4 and 3 or 6)
+	slot9 = #slot3:GetRawShipIds() == (slot4 and 3 or 6)
 
-	onButton(slot0, slot6, function ()
+	onButton(slot0, slot5, function ()
 		if uv0 == 0 then
 			return
 		end
@@ -417,7 +403,7 @@ slot0.updateEliteFleets = function(slot0)
 			end
 		})
 	end)
-	onButton(slot0, slot7, function ()
+	onButton(slot0, slot6, function ()
 		if uv0 then
 			return
 		end
@@ -441,14 +427,14 @@ slot0.updateEliteFleets = function(slot0)
 		})
 	end)
 
-	slot11 = slot1:GetOilLimit()
+	slot10 = slot1:GetOilLimit()
 
-	setActive(slot0.rtCostLimit, _.any(slot11, function (slot0)
+	setActive(slot0.rtCostLimit, _.any(slot10, function (slot0)
 		return slot0 > 0
 	end))
 
-	if #slot11 > 0 then
-		setText(slot0.rtCostLimit:Find("Text"), string.format("%s(%d)", i18n(slot4 and "formationScene_use_oil_limit_submarine" or "formationScene_use_oil_limit_surface"), slot4 and slot11[2] or slot11[1]))
+	if #slot10 > 0 then
+		setText(slot0.rtCostLimit:Find("Text"), string.format("%s(%d)", i18n(slot4 and "formationScene_use_oil_limit_submarine" or "formationScene_use_oil_limit_surface"), slot4 and slot10[2] or slot10[1]))
 	end
 
 	setActive(slot0.extraAwardTF, slot0.contextData.mode == BossRushSeriesData.MODE.MULTIPLE and #(function (slot0)
@@ -459,9 +445,9 @@ slot0.updateEliteFleets = function(slot0)
 		return slot0
 	end)(slot1:GetAdditionalAwards()) > 0)
 
-	slot15 = slot0._tf:Find("Panel/Info/Boss")
+	slot14 = slot0._tf:Find("Panel/Info/Boss")
 
-	UIItemList.StaticAlign(slot15, slot15:GetChild(0), #slot1:GetExpeditionIds(), function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot14, slot14:GetChild(0), #slot1:GetExpeditionIds(), function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end

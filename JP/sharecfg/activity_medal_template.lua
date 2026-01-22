@@ -1140,6 +1140,102 @@ pg.activity_medal_template = {
 		id = 5029508,
 		medal_asset = "ActivityMedal/5029508"
 	},
+	[5035901] = {
+		activity_medal_desc = "一番ナウい子は誰だ？そう、私だ！",
+		next_medal = 0,
+		item = 65803,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "1",
+		task_id = 21884,
+		activity_medal_name = "ステッカー：撮影進行中！",
+		id = 5035901,
+		medal_asset = "ActivityMedal/5035901"
+	},
+	[5035902] = {
+		activity_medal_desc = "3、2、1！チーズ——",
+		next_medal = 0,
+		item = 65804,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "2",
+		task_id = 21885,
+		activity_medal_name = "ステッカー：カメラ",
+		id = 5035902,
+		medal_asset = "ActivityMedal/5035902"
+	},
+	[5035903] = {
+		activity_medal_desc = "ハンガーは、衣装をかけるのに使われるものだ…",
+		next_medal = 0,
+		item = 65805,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "3",
+		task_id = 21886,
+		activity_medal_name = "ステッカー：ハンガー",
+		id = 5035903,
+		medal_asset = "ActivityMedal/5035903"
+	},
+	[5035904] = {
+		activity_medal_desc = "あとちょっと……あとちょっとだけ捕まえる……！",
+		next_medal = 0,
+		item = 65806,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "4",
+		task_id = 21887,
+		activity_medal_name = "ステッカー：クレーンマシン",
+		id = 5035904,
+		medal_asset = "ActivityMedal/5035904"
+	},
+	[5035905] = {
+		activity_medal_desc = "注目の的になる準備はできていて？",
+		next_medal = 0,
+		item = 65807,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "5",
+		task_id = 21888,
+		activity_medal_name = "ステッカー：スポットライト",
+		id = 5035905,
+		medal_asset = "ActivityMedal/5035905"
+	},
+	[5035906] = {
+		activity_medal_desc = "ここからは――ファッションランジェリー特集撮影の時間！",
+		next_medal = 0,
+		item = 65808,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "6",
+		task_id = 21889,
+		activity_medal_name = "ステッカー：ファッション",
+		id = 5035906,
+		medal_asset = "ActivityMedal/5035906"
+	},
+	[5035907] = {
+		activity_medal_desc = "同じ果物でも、撮り方は100通りもある？",
+		next_medal = 0,
+		item = 65809,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "7",
+		task_id = 21890,
+		activity_medal_name = "ステッカー：フルーツアルバム",
+		id = 5035907,
+		medal_asset = "ActivityMedal/5035907"
+	},
+	[5035908] = {
+		activity_medal_desc = "カメラを見ていない瞬間も含めて、全てを記録するよ！",
+		next_medal = 0,
+		item = 65810,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "8",
+		task_id = 21891,
+		activity_medal_name = "ステッカー：フィルム",
+		id = 5035908,
+		medal_asset = "ActivityMedal/5035908"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1259,6 +1355,16 @@ pg.activity_medal_template = {
 			5029506,
 			5029507,
 			5029508
+		},
+		[50359] = {
+			5035901,
+			5035902,
+			5035903,
+			5035904,
+			5035905,
+			5035906,
+			5035907,
+			5035908
 		}
 	},
 	all = {
@@ -1356,6 +1462,14 @@ pg.activity_medal_template = {
 		5029505,
 		5029506,
 		5029507,
-		5029508
+		5029508,
+		5035901,
+		5035902,
+		5035903,
+		5035904,
+		5035905,
+		5035906,
+		5035907,
+		5035908
 	}
 }

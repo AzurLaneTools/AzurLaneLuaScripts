@@ -9,6 +9,8 @@ slot0.OnLoaded = function(slot0)
 
 	slot0.emptyTF = slot0._tf:Find("info_empty")
 	slot0.awardTF = slot0._tf:Find("info_award")
+
+	setText(slot0._tf:Find("confirm/Text"), i18n("word_ok"))
 end
 
 slot0.OnShow = function(slot0)

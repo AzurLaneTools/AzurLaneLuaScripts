@@ -3971,6 +3971,16 @@ pg.memory_template = setmetatable({
 		4955,
 		4956,
 		4957,
+		4961,
+		4962,
+		4963,
+		4964,
+		4965,
+		4966,
+		4967,
+		4968,
+		4969,
+		4970,
 		10000,
 		10001,
 		10002,
@@ -35657,7 +35667,7 @@ pg.base.memory_template = {
 		icon = "memory_yongzhedelvtu",
 		is_open = 0,
 		unlock_pre = {
-			"50003"
+			"51003"
 		}
 	},
 	[2361] = {
@@ -35702,7 +35712,7 @@ pg.base.memory_template = {
 		icon = "memory_weijiaoxiaosipeibojue",
 		is_open = 0,
 		unlock_pre = {
-			"50002"
+			"51002"
 		}
 	},
 	[2371] = {
@@ -63742,6 +63752,156 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"WEINEITUO7"
+		}
+	},
+	[4961] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "撮影、スタート！",
+		condition = "「特集写真――撮影進行中！」イベントに参加",
+		story = "GUANGYINGFENGSHANG1",
+		id = 4961,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG1"
+		}
+	},
+	[4962] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "あなたに捧げる真実",
+		condition = "対応特集ページを解放する",
+		story = "GUANGYINGFENGSHANG2",
+		id = 4962,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG2"
+		}
+	},
+	[4963] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ときめき駆け引き",
+		condition = "対応特集ページを解放する",
+		story = "GUANGYINGFENGSHANG3",
+		id = 4963,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG3"
+		}
+	},
+	[4964] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "サプライズ・ゴージャスプライズ！",
+		condition = "対応特集ページを解放する",
+		story = "GUANGYINGFENGSHANG4",
+		id = 4964,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG4"
+		}
+	},
+	[4965] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "イレギュラーな修行指導",
+		condition = "対応特集ページを解放する",
+		story = "GUANGYINGFENGSHANG5",
+		id = 4965,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG5"
+		}
+	},
+	[4966] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "プライベートショットへの手ほどき",
+		condition = "対応特集ページを解放する",
+		story = "GUANGYINGFENGSHANG6",
+		id = 4966,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG6"
+		}
+	},
+	[4967] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "手取り足取りの個人レッスン",
+		condition = "対応特集ページを解放する",
+		story = "GUANGYINGFENGSHANG7",
+		id = 4967,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG7"
+		}
+	},
+	[4968] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "撮影三十六計",
+		condition = "対応特集ページを解放する",
+		story = "GUANGYINGFENGSHANG8",
+		id = 4968,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG8"
+		}
+	},
+	[4969] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "キメ姿は美しい露出にあり",
+		condition = "対応特集ページを解放する",
+		story = "GUANGYINGFENGSHANG9",
+		id = 4969,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG9"
+		}
+	},
+	[4970] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ファッションの真髄",
+		condition = "写真特集を全て完成する",
+		story = "GUANGYINGFENGSHANG10",
+		id = 4970,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG10"
 		}
 	},
 	[10000] = {

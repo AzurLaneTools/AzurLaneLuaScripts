@@ -495,7 +495,7 @@ slot0.recommendActivityFleet = function(slot0, slot1, slot2)
 		slot7 = uv2
 
 		for slot6, slot7 in ipairs(uv0:getActivityRecommendShips(slot0, uv1.ships, slot6, slot7)) do
-			uv1:insertShip(slot7, nil, teamType)
+			uv1:insertShip(slot7, nil, slot7:getTeamType())
 		end
 	end
 
@@ -554,6 +554,14 @@ slot0.GetBossRushFleets = function(slot0, slot1, slot2)
 	end)
 
 	return {}
+end
+
+slot0.IsBossRushFleetsEmpty = function(slot0, slot1, slot2)
+	slot3 = slot0:getActivityFleets()[slot1]
+
+	return underscore.all(slot2, function (slot0)
+		return not uv0[slot0]
+	end)
 end
 
 slot0.CommanderManualTaskProgressAdd = function(slot0, slot1)

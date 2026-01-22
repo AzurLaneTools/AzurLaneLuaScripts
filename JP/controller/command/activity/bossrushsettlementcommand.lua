@@ -18,6 +18,10 @@ slot0.execute = function(slot0, slot1)
 
 			if getProxy(ActivityProxy):GetBossRushRuntime(uv0.actId).settlementData.win then
 				slot1:AddPassSeries(slot5.seriesId)
+
+				if slot1:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
+					slot1:AddUsedBonus(slot5.seriesId)
+				end
 			end
 
 			for slot9, slot10 in ipairs(slot5) do

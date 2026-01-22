@@ -135,17 +135,12 @@ slot6 = function()
 end
 
 slot7 = function(slot0)
-	slot3 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
+	slot1 = slot0.actId
+	slot3 = getProxy(ActivityProxy):getActivityById(slot1):GetSeriesData()
 
 	assert(slot3)
 
-	slot6 = slot3:GetFleetIds()[slot3:GetStaegLevel()]
-
-	if slot3:GetMode() == BossRushSeriesData.MODE.SINGLE then
-		slot6 = slot5[1]
-	end
-
-	return getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getActivityFleets()[slot1][slot6])
+	return getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getActivityFleets()[slot1][slot3:GetStageFleets(slot3:GetMode(), slot3:GetStaegLevel())])
 end
 
 slot8 = function(slot0)

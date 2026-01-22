@@ -2011,6 +2011,348 @@ pg.activity_series_enemy = {
 			16
 		}
 	},
+	[5001] = {
+		oil = 0,
+		name = "舞蝶の約束",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "簡単",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = [[
+浪漫ある軽やな薄絹が
+甘い逢瀬を描く
+リボンの上の蝶々が
+束縛と自由の間に飄々と舞い踊る]],
+		whether_singlefight = 0,
+		id = 5001,
+		limitation = {},
+		expedition_id = {
+			1999101
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				40
+			},
+			{
+				2,
+				200676,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[5002] = {
+		oil = 0,
+		name = "ふわふわ幻境",
+		type = 1,
+		pre_chapter = 5001,
+		chapter_name = "普通",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+ふわふわが垂れ落ち
+組み合わさり、抱きしめ合う
+温かな幻境の中で
+優しさが新天地を作り出す]],
+		whether_singlefight = 1,
+		id = 5002,
+		limitation = {},
+		expedition_id = {
+			1999201,
+			1999202
+		},
+		boss_icon = {
+			{
+				"alabama_3",
+				5
+			},
+			{
+				"wugelini_2",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				140
+			},
+			{
+				2,
+				200675,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				616,
+				25
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[5003] = {
+		oil = 0,
+		name = "心の窓",
+		type = 1,
+		pre_chapter = 5002,
+		chapter_name = "難しい",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+糸で織りなす約束が
+呼吸する度に起伏する
+流れる線が白い幕を切り
+心の窓に光を差し込ませる]],
+		whether_singlefight = 1,
+		id = 5003,
+		limitation = {},
+		expedition_id = {
+			1999301,
+			1999302,
+			1999303
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			},
+			{
+				"gaoxiong_7",
+				3
+			},
+			{
+				"fulangxisike_2",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				360
+			},
+			{
+				2,
+				200674,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				616,
+				60
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	},
+	[5004] = {
+		oil = 0,
+		name = "純白の心",
+		type = 2,
+		pre_chapter = 5003,
+		chapter_name = "SP",
+		pos_x = "0",
+		pos_y = "0",
+		count = 1,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = [[
+月色のシルクを靡かせ
+真珠の輝きを閃かす
+覗かせる生地の隙間に
+純真と魅惑の調べが聞こえる]],
+		whether_singlefight = 0,
+		id = 5004,
+		limitation = {},
+		expedition_id = {
+			1999401,
+			1999402,
+			1999403,
+			1999404
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			},
+			{
+				"wugelini_2",
+				1
+			},
+			{
+				"fulangxisike_2",
+				5
+			},
+			{
+				"alabama_3",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				800
+			},
+			{
+				2,
+				200673,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54016,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			40,
+			16
+		}
+	},
+	[5005] = {
+		oil = 0,
+		name = "真夜中の囁き",
+		type = 3,
+		pre_chapter = 5004,
+		chapter_name = "EX",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		additional_awards_display = "",
+		profiles = [[
+ヴェールが闇に沈み
+灼熱の模様が絡みつく
+静謐な夜に囁きが揺れる
+自分を抑えるか、全てを委ねるか]],
+		pass_awards_display = "",
+		whether_singlefight = 0,
+		id = 5005,
+		limitation = {},
+		expedition_id = {
+			1999501,
+			1999502,
+			1999503,
+			1999504,
+			1999505
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			},
+			{
+				"wugelini_2",
+				1
+			},
+			{
+				"fulangxisike_2",
+				5
+			},
+			{
+				"alabama_3",
+				5
+			},
+			{
+				"gaoxiong_7",
+				3
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		},
+		ex_count = {
+			8000,
+			20,
+			0.2,
+			1000,
+			0.8
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -2038,6 +2380,11 @@ pg.activity_series_enemy = {
 		4041,
 		4042,
 		4051,
-		4052
+		4052,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005
 	}
 }

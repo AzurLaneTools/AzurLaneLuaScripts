@@ -6675,6 +6675,173 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105202] = {
+		name = "すべては、あなたにだけ",
+		change_skin = "",
+		desc = "んっ……もっと肌を見せれば、もっとドキドキしてくれそう……指揮官？ちょうどいい時に。シャッターを押すの手伝って？",
+		illustrator2 = -1,
+		ship_group = 10520,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "alabama_3",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 20,
+		l2d_ignore_drag = 0,
+		hand_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "319",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		ship_l2d_id = "",
+		id = 105202,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "alabama_3",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 71291,
+		voice_actor = 190,
+		skeleton_default_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-50.5,
+			-842,
+			0,
+			0.918
+		},
+		spine_offset_profile = {
+			17.4,
+			-830.6,
+			0,
+			0.897
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.994,
+					0.824,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.413,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.655,
+					2.211,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.754,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			106.7,
+			-927.4,
+			0,
+			1.02
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					995,
+					-483,
+					2,
+					0,
+					192,
+					2
+				},
+				{
+					139,
+					656,
+					2,
+					-166,
+					0,
+					2
+				},
+				{
+					-519,
+					-373,
+					2,
+					0,
+					-168,
+					2
+				}
+			}
+		}
+	},
 	[106010] = {
 		name = "ロング・アイランド",
 		change_skin = "",
@@ -15996,113 +16163,6 @@ pg.base.ship_skin_template_3 = {
 			plane = {
 				{
 					1.439,
-					0.955,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107250] = {
-		name = "カウペンス",
-		change_skin = "",
-		desc = "インディペンデンス級軽空母-カウペンス",
-		illustrator2 = -1,
-		ship_group = 10725,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "kebensi",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 107250,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "kebensi",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 490,
-		skeleton_default_skin = "",
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.696,
-					2.318,
-					0
-				}
-			},
-			plane = {
-				{
-					1.057,
 					0.955,
 					0
 				}

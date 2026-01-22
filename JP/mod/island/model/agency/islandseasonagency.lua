@@ -13,7 +13,7 @@ slot0.OnInit = function(slot0, slot1)
 end
 
 slot0.NeedReset = function(slot0)
-	return slot0.season.id < uv0.GetCurrentSeason()
+	return slot0.season.id < uv0.GetCurrentSeason() and slot0.season:IsEnd()
 end
 
 slot0.Reset = function(slot0, slot1)
@@ -68,7 +68,7 @@ slot0.IsCurSeasonPtZero = function(slot0)
 end
 
 slot0.GetCurrentSeason = function()
-	slot0 = Clone(pg.island_season.all)
+	slot0 = pg.island_season.all
 
 	return slot0[#slot0]
 end
