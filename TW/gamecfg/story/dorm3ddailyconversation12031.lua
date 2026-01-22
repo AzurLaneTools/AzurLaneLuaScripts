@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "今天{namecode:97}为{dorm3d}准备特别的晚餐，要不要猜猜看，是什么？",
+			say = "今天{namecode:97}為{dorm3d}準備特別的晚餐，要不要猜猜看，是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "难道是新的烹饪手法？",
+			say = "難道是新的烹飪手法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "都不是哦~特别的，是摆放食物的餐具——",
+			say = "都不是哦~特別的，是擺放食物的餐具——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在{namecode:97}亲、手、烧、制的餐盘上用餐，是不是感觉更美味了呢～",
+			say = "在{namecode:97}親、手、燒、製的餐盤上用餐，是不是感覺更美味了呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

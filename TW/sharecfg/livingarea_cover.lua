@@ -14,7 +14,10 @@ pg.livingarea_cover = setmetatable({
 		100303,
 		101101,
 		101102,
-		101103
+		101103,
+		101201,
+		101202,
+		101203
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -174,5 +177,41 @@ pg.base.livingarea_cover = {
 		id = 101103,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101103_icon"
+	},
+	[101201] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "獨享邀請",
+		nighttime_res = "101201_bg_night",
+		daytime_res = "101201_bg_day",
+		rarity = 3,
+		desc = "獲得後可以在生活區封面功能中解鎖獨享邀請封面",
+		unlock_text = "{namecode:97}宿舍契合度2級解鎖",
+		id = 101201,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101201_icon"
+	},
+	[101202] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "相依的思緒",
+		nighttime_res = "101202_bg_night",
+		daytime_res = "101202_bg_day",
+		rarity = 3,
+		desc = "獲得後可以在生活區封面功能中解鎖相依的思緒封面",
+		unlock_text = "{namecode:97}宿舍契合度7級解鎖",
+		id = 101202,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101202_icon"
+	},
+	[101203] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "情動指尖",
+		nighttime_res = "101203_bg_night",
+		daytime_res = "101203_bg_day",
+		rarity = 3,
+		desc = "獲得後可以在生活區封面功能中解鎖情動指尖封面",
+		unlock_text = "{namecode:97}宿舍契合度10級解鎖",
+		id = 101203,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101203_icon"
 	}
 }

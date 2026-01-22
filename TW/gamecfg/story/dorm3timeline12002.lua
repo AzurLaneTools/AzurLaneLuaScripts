@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "是睡着了吗？"
+										content = "是睡著了嗎？"
 									}
 								}
 							},

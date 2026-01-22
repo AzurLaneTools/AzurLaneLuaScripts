@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}的旧肩章找不到了？哼哼~{namecode:97}知道在哪里哦。",
+			say = "{dorm3d}的舊肩章找不到了？哼哼~{namecode:97}知道在哪裡哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，既然被{namecode:97}捡到，那就是独属于{namecode:97}的收藏。",
+			say = "不過，既然被{namecode:97}撿到，那就是獨屬於{namecode:97}的收藏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "至于{dorm3d}想要找回来……私密的收藏当然在私密的地方。",
+			say = "至於{dorm3d}想要找回來……私密的收藏當然在私密的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就是你想到的那里没错~既然猜到了，那就来找找看吧~",
+			say = "就是你想到的那裡沒錯~既然猜到了，那就來找找看吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

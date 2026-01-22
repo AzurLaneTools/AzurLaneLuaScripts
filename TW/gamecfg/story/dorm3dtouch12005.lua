@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_tone11/drom3d_Taiho_ik_tone11",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不可以对{namecode:97}说谎哦……",
+			say = "不可以對大鳳說謊喔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

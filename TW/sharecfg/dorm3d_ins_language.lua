@@ -175,6 +175,56 @@ pg.dorm3d_ins_language = {
 		key = "xinzexi_3_2_1",
 		is_active = "0"
 	},
+	dafeng_1 = {
+		value = "在跟指揮官大人玩捉迷藏~",
+		key = "dafeng_1",
+		is_active = "0"
+	},
+	dafeng_1_1 = {
+		value = "原來妳藏在這裡",
+		key = "dafeng_1_1",
+		is_active = "0"
+	},
+	dafeng_1_1_1 = {
+		value = "沒錯~來抓大鳳吧♡",
+		key = "dafeng_1_1_1",
+		is_active = "0"
+	},
+	dafeng_1_2 = {
+		value = "這是哪裡？",
+		key = "dafeng_1_2",
+		is_active = "0"
+	},
+	dafeng_1_2_1 = {
+		value = "看來您還不夠了解大鳳的房間呢，讓我為您好好介紹吧~",
+		key = "dafeng_1_2_1",
+		is_active = "0"
+	},
+	dafeng_2 = {
+		value = "與指揮官大人在一起的點點滴滴都需要紀錄呢~",
+		key = "dafeng_2",
+		is_active = "0"
+	},
+	dafeng_2_1 = {
+		value = "把家裡拍了個遍嗎？",
+		key = "dafeng_2_1",
+		is_active = "0"
+	},
+	dafeng_2_1_1 = {
+		value = "下次就拍指揮官大人的上班路吧~",
+		key = "dafeng_2_1_1",
+		is_active = "0"
+	},
+	dafeng_2_2 = {
+		value = "紀錄的目的是什麼呢？",
+		key = "dafeng_2_2",
+		is_active = "0"
+	},
+	dafeng_2_2_1 = {
+		value = "「指揮官大人與大鳳卿卿我我的一天」這可是珍貴的素材呢~",
+		key = "dafeng_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -210,6 +260,16 @@ pg.dorm3d_ins_language = {
 		"xinzexi_3_1",
 		"xinzexi_3_1_1",
 		"xinzexi_3_2",
-		"xinzexi_3_2_1"
+		"xinzexi_3_2_1",
+		"dafeng_1",
+		"dafeng_1_1",
+		"dafeng_1_1_1",
+		"dafeng_1_2",
+		"dafeng_1_2_1",
+		"dafeng_2",
+		"dafeng_2_1",
+		"dafeng_2_1_1",
+		"dafeng_2_2",
+		"dafeng_2_2_1"
 	}
 }

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_tone15/drom3d_Taiho_ik_tone15",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "想和{dorm3d}永远在一起。",
+			say = "想和{dorm3d}永遠在一起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

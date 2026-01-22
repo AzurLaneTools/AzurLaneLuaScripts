@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_furniture1_tone6/drom3d_Taiho_ik_furniture1_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "难得{dorm3d}这么主动……",
+			say = "難得{dorm3d}這麼主動……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

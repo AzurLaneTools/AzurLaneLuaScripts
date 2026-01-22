@@ -87,6 +87,8 @@ pg.item_data_frame = setmetatable({
 		1006,
 		1007,
 		1008,
+		1009,
+		1010,
 		10001,
 		10002,
 		10003,
@@ -867,6 +869,24 @@ pg.base.item_data_frame = {
 		id = 1008,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>電子炫光閃爍耀眼，是哪隻兔兔在跟著光芒躍動呢？</color>\n透過提升「宿舍計劃」中紐澤西的契合度等級獲取",
+		scene = {}
+	},
+	[1009] = {
+		name = "櫻華樹語",
+		gain_by = "",
+		time_second = 0,
+		id = 1009,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>櫻花樹上，花瓣隨風舞動，訴說著春日的生機與美好。 </color>\n透過提升「宿舍計劃」中{namecode:97}的契合度等級來獲取",
+		scene = {}
+	},
+	[1010] = {
+		name = "金鳳翎輝",
+		gain_by = "",
+		time_second = 0,
+		id = 1010,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>金色鳳翼展翅，翎羽如光輝般閃爍，神秘而優雅。 </color>\n透過提升「宿舍計劃」中{namecode:97}的契合度等級來獲取",
 		scene = {}
 	},
 	[10001] = {

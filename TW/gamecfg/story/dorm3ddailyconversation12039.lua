@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，今天和{namecode:97}一起来玩一二三木头人的游戏吧！",
+			say = "{dorm3d}，今天就跟{namecode:97}一起來玩一二三木頭人的遊戲吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一二三木头人！{dorm3d}不许动了唷！",
+			say = "一二三木頭人！{dorm3d}不許動了唷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿，终于可以给{dorm3d}搜身了。快让我看看还有什么物品是我没有收集到的~",
+			say = "嘿嘿，終於可以給{dorm3d}搜身了。快讓我看看還有什麼物品是我沒有收集到的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

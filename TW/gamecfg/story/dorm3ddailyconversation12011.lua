@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{namecode:97}的日记终于被{dorm3d}发现了吗？",
+			say = "{namecode:97}的日記終於被{dorm3d}發現了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你不担心我看吗？",
+			say = "你不擔心我看嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "很奇怪的顾虑呢。{namecode:97}的日记里写的都是关于您的事，当然要让{dorm3d}看见了。",
+			say = "很奇怪的顧慮呢。{namecode:97}的日記裡寫的都是關於您的事，當然要讓{dorm3d}看見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样才能让您知道，在没有{dorm3d}的日子里，{namecode:97}每一分每一秒都在想念您❤",
+			say = "這樣才能讓您知道，在沒有{dorm3d}的日子裡，{namecode:97}每一分每一秒都在想念您❤",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

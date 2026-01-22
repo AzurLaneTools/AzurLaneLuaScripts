@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_hello4/drom3d_Taiho_hello4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}不在的时候，{namecode:97}一直在想您哦，{namecode:97}已经迫不及待要和您好好聊聊了~",
+			say = "{dorm3d}不在的時候，大鳳一直在想著您哦，大鳳已經迫不及待要跟你好好聊聊了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

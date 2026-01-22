@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "确实……很意外，怎么做到的？"
+										content = "確實……很意外，怎麼做到的？"
 									}
 								}
 							},

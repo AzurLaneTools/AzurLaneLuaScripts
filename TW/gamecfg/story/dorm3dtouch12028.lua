@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit2_tone5/drom3d_Taiho_ik_gfit2_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "能感受到指挥官的温度……大凤真是太幸福了……",
+			say = "能感受到指揮官的溫度……大鳳真是太幸福了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

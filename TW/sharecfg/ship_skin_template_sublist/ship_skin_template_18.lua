@@ -7331,6 +7331,11 @@ pg.base.ship_skin_template_18 = {
 					2.335,
 					0
 				}
+			},
+			remote = {
+				-20,
+				0,
+				0
 			}
 		},
 		smoke = {

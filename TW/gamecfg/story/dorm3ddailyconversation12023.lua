@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "最近的天气的确有些干燥，{dorm3d}看上去似乎也很不安？",
+			say = "最近的天氣的確有些乾燥，{dorm3d}看起來似乎也很不安？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}听说亲亲可以让人内心平静，{dorm3d}不想要试试看嘛。",
+			say = "{namecode:97}聽說親親可以讓人內心平靜，{dorm3d}不想要試試看嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

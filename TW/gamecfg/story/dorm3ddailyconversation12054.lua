@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "只要和{dorm3d}在一起，{namecode:97}的胸口就会变得暖暖的、满满的♡",
+			say = "只要和{dorm3d}在一起，大鳳的胸口就會變得暖暖的、滿滿的♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您以外的一切，全部消失了也无所谓哦~",
+			say = "您以外的一切，全部消失了也無所謂~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在这个只有你我的二人世界，感受着您的注视……",
+			say = "在這個只有你我的二人世界，感受您的注視……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这份炽热和深邃的感情……就是爱哦~",
+			say = "這份熾熱深邃的感情……就是愛哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

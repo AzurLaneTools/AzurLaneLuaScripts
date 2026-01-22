@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}来得正好，{namecode:97}最近新学了一支舞蹈想要跳给您看。",
+			say = "{dorm3d}來得剛好，{namecode:97}最近新學了一隻舞蹈想要跳給您看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您想看{namecode:97}穿哪件衣服起舞呢~~",
+			say = "您想看{namecode:97}穿哪件衣服起舞呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}你……你喜欢就好，{namecode:97}会努力表现的……！",
+			say = "{dorm3d}您……您喜歡就好，{namecode:97}會努力表現的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

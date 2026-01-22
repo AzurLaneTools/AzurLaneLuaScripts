@@ -23,7 +23,11 @@ pg.dorm3d_shop_template = setmetatable({
 		20,
 		21,
 		23,
-		30
+		27,
+		28,
+		29,
+		30,
+		31
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -485,6 +489,71 @@ pg.base.dorm3d_shop_template = {
 			"banner_furniture1152"
 		}
 	},
+	[27] = {
+		rarity = 4,
+		name = "愛之巢",
+		type = 1,
+		room_id = 30707,
+		unlock = "",
+		item_id = 1221,
+		id = 27,
+		realroom_id = 0,
+		order = "7",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270501
+		},
+		banners = {
+			"banner_furniture1221"
+		}
+	},
+	[28] = {
+		rarity = 4,
+		name = "相連的愛意",
+		type = 2,
+		room_id = 30707,
+		unlock = "",
+		item_id = 3070701,
+		id = 28,
+		realroom_id = 0,
+		order = "7",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260501
+		},
+		banners = {
+			"banner_gift3070701"
+		}
+	},
+	[29] = {
+		rarity = 4,
+		name = "{namecode:97}咖啡館邀請函",
+		type = 3,
+		room_id = 30707,
+		unlock = "",
+		item_id = 16,
+		id = 29,
+		realroom_id = 0,
+		order = "6",
+		panel = {
+			2
+		},
+		shop_id = {
+			270114
+		},
+		banners = {
+			"banner_cafe2"
+		}
+	},
 	[30] = {
 		rarity = 4,
 		name = "天外庇所",
@@ -506,6 +575,29 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_furniture1153"
+		}
+	},
+	[31] = {
+		rarity = 5,
+		name = "花樂留韻",
+		type = 1,
+		room_id = 30707,
+		unlock = "",
+		item_id = 1222,
+		id = 31,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270502
+		},
+		banners = {
+			"banner_furniture1222"
 		}
 	}
 }

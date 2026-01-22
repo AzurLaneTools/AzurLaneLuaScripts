@@ -7,7 +7,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone22/dorm3d_Taiho_telephone22",
 			wait = 1,
-			say = "呜呜呜……{dorm3d}，终于找到您了……！",
+			say = "嗚嗚嗚……{dorm3d}，終於找到您了……！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -40,7 +40,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone23/dorm3d_Taiho_telephone23",
 			wait = 1,
-			say = "{namecode:97}……呜，{namecode:97}做了一个可怕的噩梦……！",
+			say = "大鳳……嗚，大鳳做了一個可怕的惡夢……！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -73,7 +73,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone24/dorm3d_Taiho_telephone24",
 			wait = 1,
-			say = "梦里，{namecode:97}独自走在昏暗的林间小道中……",
+			say = "夢裡，大鳳獨自走在昏暗的林間小徑中……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -106,7 +106,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone25/dorm3d_Taiho_telephone25",
 			wait = 1,
-			say = "偶尔刮过的风摇晃着树影，发出让人害怕的声响……",
+			say = "偶爾刮過的風搖晃著樹影，發出讓人害怕的聲響……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -139,7 +139,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone26/dorm3d_Taiho_telephone26",
 			wait = 1,
-			say = "在那片幽绿的世界中，{namecode:97}看到了无数双猩红的眼睛……！…",
+			say = "在那片幽綠的世界中，大鳳看到了無數雙猩紅的眼睛……！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -172,7 +172,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone27/dorm3d_Taiho_telephone27",
 			wait = 1,
-			say = "{namecode:97}不敢细看，也不敢回头！{namecode:97}知道，它们就紧紧跟在我的身后！",
+			say = "大鳳不敢細看，也不敢回頭！大鳳知道，它們就緊緊跟在我的身後！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -205,7 +205,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone28/dorm3d_Taiho_telephone28",
 			wait = 1,
-			say = "就在黑暗几乎完全吞噬{namecode:97}的前一秒——{dorm3d}，您就像奇迹般出现在我的面前！",
+			say = "就在黑暗幾乎完全吞噬大鳳的前一秒——{dorm3d}，您就像奇蹟般出現在我的面前！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -238,12 +238,12 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone29/dorm3d_Taiho_telephone29",
 			wait = 1,
-			say = "是您击退了那些红眼的怪物，救出了{namecode:97}！"
+			say = "是您擊退了那些紅眼的怪物，救了大鳳！"
 		},
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone30/dorm3d_Taiho_telephone30",
 			wait = 2,
-			say = "果然，{dorm3d}是不会抛下{namecode:97}的……无论何时，您都会陪伴在我身边~",
+			say = "果然，{dorm3d}是不會拋下大鳳的……無論何時，您都會陪伴在我身邊~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -276,10 +276,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone31/dorm3d_Taiho_telephone31",
 			wait = 2,
-			say = "梦中的您，也会让{namecode:97}激动到颤抖~♡",
+			say = "夢中的您，也會讓大鳳興奮到顫抖~♡",
 			options = {
 				{
-					content = "颤抖……有没有被吓醒呢？",
+					content = "顫抖……有沒有被嚇醒呢？",
 					flag = 1
 				}
 			},
@@ -315,17 +315,17 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone32/dorm3d_Taiho_telephone32",
 			wait = 1,
-			say = "才没有呢~梦中的{namecode:97}受到{dorm3d}的保护，还在感谢您的这份怜爱——"
+			say = "才沒有呢~夢中的大鳳受到{dorm3d}的保護，還在感謝您的這份憐憫——"
 		},
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone33/dorm3d_Taiho_telephone33",
 			wait = 1,
-			say = "您带着我在树林里飞驰，还有一滴汗水落在了我的唇边~"
+			say = "您帶著我在樹林裡飛馳，還有一滴汗水落在了我的唇邊~~"
 		},
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone34/dorm3d_Taiho_telephone34",
 			wait = 1,
-			say = "我正要对{dorm3d}倾诉我的爱意，一阵狂风吹了过来！~~",
+			say = "我正要對{dorm3d}傾訴我的愛意，一陣狂風吹了過來！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -358,10 +358,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone35/dorm3d_Taiho_telephone35",
 			wait = 1,
-			say = "啊，真讨厌~！！{namecode:97}就这么醒了过来……",
+			say = "啊，真討厭~！！大鳳就這樣醒了過來……",
 			options = {
 				{
-					content = "是睡觉的时候，没有关窗户……然后下雨了？",
+					content = "是睡覺的時候，沒有關窗戶……然後下雨了？",
 					flag = 1
 				}
 			},
@@ -430,12 +430,12 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone37/dorm3d_Taiho_telephone37",
 			wait = 1,
-			say = "是{namecode:97}特意打开窗，在窗边等{dorm3d}来着~可是您迟迟不到。"
+			say = "是大鳳特意打開窗，在窗邊等{dorm3d}來著~可是您遲遲不到。"
 		},
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone38/dorm3d_Taiho_telephone38",
 			wait = 1,
-			say = "{namecode:97}等啊等啊~等啊~等啊~",
+			say = "大鳳等啊等~等啊~等~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -468,10 +468,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone39/dorm3d_Taiho_telephone39",
 			wait = 2,
-			say = "{dorm3d}……{namecode:97}，现在就想见您……",
+			say = "{dorm3d}……大鳳，現在就想見您……",
 			options = {
 				{
-					content = "身上擦干了吗？别着凉，我现在就过来看看情况。",
+					content = "身上擦乾了嗎？別著涼，我現在就過來看看狀況。",
 					flag = 1
 				}
 			},
@@ -507,7 +507,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone40/dorm3d_Taiho_telephone40",
 			wait = 0.5,
-			say = "{dorm3d}……您总是这样，愿意包容这{namecode:97}的任性和无理取闹……",
+			say = "{dorm3d}……您總是這樣，願意包容這大鳳的任性和無理取鬧……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -540,7 +540,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone41/dorm3d_Taiho_telephone41",
 			wait = 0.5,
-			say = "{namecode:97}会不会就这样，被您纵容成一个过分的人了呢……？",
+			say = "大鳳會不會就這樣，被您縱容成一個過分的人了呢……？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -573,7 +573,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone42/dorm3d_Taiho_telephone42",
 			wait = 0.5,
-			say = "让{namecode:97}变得这样情不自禁……{dorm3d}可不能逃避责任。",
+			say = "讓大鳳變得這樣情不自禁……{dorm3d}可不能逃避責任。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -606,7 +606,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone43/dorm3d_Taiho_telephone43",
 			wait = 0.5,
-			say = "{namecode:97}已经擦干了雨水，等您到来时门窗一定都会锁好。",
+			say = "大鳳已經擦乾了雨水，等到您到來時門窗一定都會鎖好。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -639,7 +639,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone44/dorm3d_Taiho_telephone44",
 			wait = 0.5,
-			say = "之后，就拜托{dorm3d}……好好地疼爱{namecode:97}吧~♡",
+			say = "之後，就拜託{dorm3d}……好好地疼愛大鳳吧~♡",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {

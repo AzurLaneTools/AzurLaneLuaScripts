@@ -7,7 +7,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone1/dorm3d_Taiho_telephone1",
 			wait = 1,
-			say = "{dorm3d}，您终于回来了~！",
+			say = "{dorm3d}，您終於回來了~！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -40,7 +40,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone2/dorm3d_Taiho_telephone2",
 			wait = 1,
-			say = "与您分别的每时每刻，都让{namecode:97}焦虑难耐……",
+			say = "與您分別的每時每刻，都讓大鳳焦慮難耐……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -73,7 +73,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone3/dorm3d_Taiho_telephone3",
 			wait = 1,
-			say = "尤其在入睡时刻，即使贪婪地吮吸着您残留在房间的气息……",
+			say = "尤其在入睡時刻，即使貪婪地吸吮著您殘留在房間的氣息……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -106,10 +106,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone4/dorm3d_Taiho_telephone4",
 			wait = 2,
-			say = "但那孤身一人的夜晚，还是让{namecode:97}难以忍受……！",
+			say = "但那孤單一人的夜晚，還是讓大鳳難以忍受……！",
 			options = {
 				{
-					content = "我也很牵挂你，所以抓紧时间回来了。",
+					content = "我也很牽掛妳，所以抓緊時間回來了。",
 					flag = 1
 				}
 			},
@@ -145,7 +145,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone5/dorm3d_Taiho_telephone5",
 			wait = 1,
-			say = "啊啊，{dorm3d}的怜爱……{namecode:97}还想拥有更多，更多~♡",
+			say = "啊啊，{dorm3d}的憐愛……{namecode:97}還想擁有更多，更多~♡",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -178,7 +178,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone6/dorm3d_Taiho_telephone6",
 			wait = 1,
-			say = "直到{namecode:97}能够满满当当地占据您的心——",
+			say = "直到{namecode:97}能夠滿滿當地佔據您的心——",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -211,7 +211,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone7/dorm3d_Taiho_telephone7",
 			wait = 1,
-			say = "为了{dorm3d}，{namecode:97}还需要更加努力才行呢……",
+			say = "為了{dorm3d}，{namecode:97}還需要更努力才行呢……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -244,10 +244,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone8/dorm3d_Taiho_telephone8",
 			wait = 2,
-			say = "对了……您来找{namecode:97}的路上，没有被什么不长眼的害虫缠上吧~？",
+			say = "對了……您來找大鳳的路上，沒有被什麼不長眼的害蟲纏上吧~？",
 			options = {
 				{
-					content = "没有，绝对没有。",
+					content = "沒有，絕對沒有。",
 					flag = 1
 				}
 			},
@@ -283,7 +283,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone9/dorm3d_Taiho_telephone9",
 			wait = 2,
-			say = "{namecode:97}相信{dorm3d}……呵呵呵，您的一言一行，{namecode:97}都看在眼里~♡",
+			say = "大鳳相信{dorm3d}……呵呵呵，您的一言一行，大鳳都看在眼裡~♡",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -316,7 +316,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone10/dorm3d_Taiho_telephone10",
 			wait = 1,
-			say = "但那些该死的害虫，总是仗着{dorm3d}心软，就贴到您身边……",
+			say = "但那些該死的害蟲，總是仗著{dorm3d}心軟，就貼到您身邊……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -349,17 +349,17 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone11/dorm3d_Taiho_telephone11",
 			wait = 1,
-			say = "呵呵呵呵，果然还是要找时间好好收拾一番……"
+			say = "呵呵呵呵，果然還是要找時間好好收拾一番……"
 		},
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone12/dorm3d_Taiho_telephone12",
 			wait = 1,
-			say = "不过，除虫的杂事，就留到之后再说吧。"
+			say = "不過，除蟲的雜事，就留到之後再說吧。"
 		},
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone13/dorm3d_Taiho_telephone13",
 			wait = 1,
-			say = "我对您的思念，只通过小小一块屏幕是没有办法缓解的……",
+			say = "我對您的思念，只透過小小一塊螢幕是沒有辦法緩解的……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -392,7 +392,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone14/dorm3d_Taiho_telephone14",
 			wait = 1,
-			say = "现在，{namecode:97}只想与{dorm3d}一起，享受独属于彼此的时刻~",
+			say = "現在，大鳳只想與{dorm3d}一起，享受獨屬於彼此的時刻~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -425,7 +425,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone15/dorm3d_Taiho_telephone15",
 			wait = 1,
-			say = "您应该知道的，{namecode:97}从不会对您设防……",
+			say = "您該知道的，大鳳從來不會對您設防……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -458,12 +458,12 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone16/dorm3d_Taiho_telephone16",
 			wait = 1,
-			say = "为了迎接您的到来，我的身体已经……开始提前预热了呢~"
+			say = "為了迎接您的到來，我的身體已經……開始提前預熱了呢~~"
 		},
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone17/dorm3d_Taiho_telephone17",
 			wait = 1,
-			say = "请您到我身边吧，让{namecode:97}为您舒缓身体的疲劳，或者……将疲惫，全部释放出来吧~♡",
+			say = "請您到我身邊吧，讓大鳳為您舒緩身體的疲勞，或者……將疲憊，全部釋放出來吧~♡",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -496,7 +496,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone18/dorm3d_Taiho_telephone18",
 			wait = 1,
-			say = "在{namecode:97}的身边，您可以不用勉强自己呢……",
+			say = "在大鳳的身邊，您可以不用勉強自己呢……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -534,7 +534,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone20/dorm3d_Taiho_telephone20",
 			wait = 1,
-			say = "请您快点来到{namecode:97}身边吧~♡",
+			say = "請您快點來到大鳳身邊吧~♡",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -567,7 +567,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_Taiho_telephone21/dorm3d_Taiho_telephone21",
 			wait = 0.5,
-			say = "{namecode:97}一定，会为{dorm3d}带来幸福的~",
+			say = "大鳳一定，會為{dorm3d}帶來幸福的~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {

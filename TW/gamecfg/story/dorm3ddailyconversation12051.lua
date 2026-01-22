@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "光是念起您的名字，{namecode:97}的身体就兴奋到颤抖了呢~",
+			say = "光是念起您的名字，大鳳的身體就興奮到顫抖了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "每一次回音，都在{namecode:97}体内激荡着……",
+			say = "每一次回音，都在大鳳體內激盪著…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "多希望您会永远永远，只待在{namecode:97}身边呢~",
+			say = "多希望您會永遠永遠，只待在大鳳身邊呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

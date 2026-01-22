@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{namecode:97}想和{dorm3d}一起商量下次去旅行的地方，森林……还是海边？",
+			say = "{namecode:97}想和{dorm3d}一起討論下次去旅行的地方，森林……還是海邊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "总之，要去一个没有人能打扰到我们的地方。",
+			say = "總之，要去一個沒有人能打擾到我們的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样，{namecode:97}就能肆无忌惮地和{dorm3d}在一起，不会被烦人的家伙们打扰了。",
+			say = "這樣，{namecode:97}就能肆無忌憚地和{dorm3d}在一起，不會被煩人的傢伙們打擾了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

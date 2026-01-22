@@ -9,6 +9,10 @@ slot0.DefaultColor = {
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
+	slot0.limitTimeSellTF = findTF(slot0.tf, "limit_time_sell")
+
+	setActive(slot0.limitTimeSellTF, false)
+
 	slot0.limitPassTag = slot0.tf:Find("mask/tag/pass_tag")
 end
 
@@ -61,9 +65,12 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
 	}))
+	setActive(slot0.limitTimeSellTF, false)
 
 	if slot5 then
 		slot9, slot10, slot11 = slot0.goodsVO:CheckTimeLimit()
+
+		setActive(slot0.limitTimeSellTF, slot9 and slot10)
 
 		if slot9 and not slot10 then
 			setActive(slot0.mask, true)
@@ -112,6 +119,7 @@ slot0.updateSelectable = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	removeOnButton(slot0.mask)
+	setActive(slot0.limitTimeSellTF, false)
 	GetSpriteFromAtlasAsync(Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}~今天的沉默，是在酝酿什么只属于{namecode:97}的甜蜜话语吗？",
+			say = "{dorm3d}~今天的沉默，是在醞釀什麼只屬於大鳳的甜蜜話語嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不说出口也没关系哦，我会一直一直……注视着{dorm3d}~",
+			say = "不說出口也沒關係哦，我會一直一直……注視著{dorm3d}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "直到您开口说出我的名字……",
+			say = "直到您開口說出我的名字……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "直到您的眼中，只映出我一个人的身影……",
+			say = "直到您的眼中，只映出我一個人的身影……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

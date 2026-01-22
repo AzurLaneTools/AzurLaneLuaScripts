@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit4_tone4/drom3d_Taiho_ik_gfit4_tone4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "指挥官……想试试看大凤的底线吗……嘻嘻……",
+			say = "指揮官……想試試看大鳳的底線嗎……嘻嘻……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,14 +16,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}~{namecode:97}为您准备了一个小惊喜哦~",
+			say = "{dorm3d}~大鳳為您準備了一個小驚喜哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "似乎已经从{namecode:97}这里得到了太多惊喜……今天能提前透露一下吗？",
+					content = "似乎已經從大鳳這裡得到太多驚喜了……今天可以提前透露嗎？",
 					flag = 1
 				}
 			}
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}的要求，{namecode:97}一定会全力满足的~",
+			say = "{dorm3d}的要求，大鳳一定會全力滿足的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,14 +74,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "现在能说的就是……呵呵~{namecode:97}想要{dorm3d}一直在身边呢~",
+			say = "現在能說的就是……呵呵~大鳳想要{dorm3d}一直在身邊呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "只有……这样？",
+					content = "只有……這樣？",
 					flag = 1
 				}
 			}
@@ -92,7 +92,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呵呵呵呵~{dorm3d}好像并不满足于此嘛。",
+			say = "呵呵呵~{dorm3d}好像不滿足於此嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "但如果我说肯定会让{dorm3d}耳目一新的话~您是不是会超级期待呢？",
+			say = "但如果我說一定會讓{dorm3d}耳目一新的話~您是不是會超級期待呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我去准备一下，呵呵，{dorm3d}等下再来看哦~",
+			say = "我去準備一下，呵呵，{dorm3d}等下再來看~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

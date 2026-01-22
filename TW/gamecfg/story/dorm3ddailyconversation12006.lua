@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}是来兑现作战胜利的奖励？",
+			say = "{dorm3d}是來兌現作戰勝利的獎勵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "让我猜猜……是新的时装还是升级的装备……",
+			say = "讓我猜猜……是新的時裝還是升級的裝備……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "无论是什么，只要是您给予的，{namecode:97}都会将其视为珍宝好好珍藏。",
+			say = "無論是什麼，只要是您給予的，{namecode:97}都會將其視為珍寶好好珍藏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，{namecode:97}更想要拥有一些{dorm3d}的特殊奖励，比如……一个拥抱。",
+			say = "不過，{namecode:97}更想要擁有一些{dorm3d}的特殊獎勵，例如……一個擁抱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

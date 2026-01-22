@@ -1200,15 +1200,15 @@ pg.base.ship_skin_template_10 = {
 		bound_bone = {
 			cannon = {
 				{
-					-1.102,
-					0.429,
+					1.52,
+					0.929,
 					0
 				}
 			},
 			vicegun = {
 				{
-					2.269,
-					0.922,
+					1.541,
+					1.792,
 					0
 				}
 			},
@@ -1221,8 +1221,8 @@ pg.base.ship_skin_template_10 = {
 			},
 			antiaircraft = {
 				{
-					0.601,
-					2.395,
+					0.642,
+					2.442,
 					0
 				}
 			}
@@ -5794,7 +5794,7 @@ pg.base.ship_skin_template_10 = {
 		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 70532,
-		voice_actor = -1,
+		voice_actor = 9,
 		double_char = 0,
 		spine_offset = "",
 		illustrator = 8,
@@ -5911,7 +5911,7 @@ pg.base.ship_skin_template_10 = {
 		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 70660,
-		voice_actor = -1,
+		voice_actor = 9,
 		double_char = 0,
 		spine_offset = "",
 		illustrator = -1,
@@ -6021,7 +6021,7 @@ pg.base.ship_skin_template_10 = {
 		shop_dynamic_hx = 0,
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 9,
 		double_char = 0,
 		spine_offset = "",
 		illustrator = -1,

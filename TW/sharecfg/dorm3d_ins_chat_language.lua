@@ -386,7 +386,142 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		382,
 		383,
 		384,
-		385
+		385,
+		386,
+		387,
+		388,
+		389,
+		390,
+		391,
+		392,
+		393,
+		394,
+		395,
+		396,
+		397,
+		398,
+		399,
+		400,
+		401,
+		402,
+		403,
+		404,
+		405,
+		406,
+		407,
+		408,
+		409,
+		410,
+		411,
+		412,
+		413,
+		414,
+		415,
+		416,
+		417,
+		418,
+		419,
+		420,
+		421,
+		422,
+		423,
+		424,
+		425,
+		426,
+		427,
+		428,
+		429,
+		430,
+		431,
+		432,
+		433,
+		434,
+		435,
+		436,
+		437,
+		438,
+		439,
+		440,
+		441,
+		442,
+		443,
+		444,
+		445,
+		446,
+		447,
+		448,
+		449,
+		450,
+		451,
+		452,
+		453,
+		454,
+		455,
+		456,
+		457,
+		458,
+		459,
+		460,
+		461,
+		462,
+		463,
+		464,
+		465,
+		466,
+		467,
+		468,
+		469,
+		470,
+		471,
+		472,
+		473,
+		474,
+		475,
+		476,
+		477,
+		478,
+		479,
+		480,
+		481,
+		482,
+		483,
+		484,
+		485,
+		486,
+		487,
+		488,
+		489,
+		490,
+		491,
+		492,
+		493,
+		494,
+		495,
+		496,
+		497,
+		498,
+		499,
+		500,
+		501,
+		502,
+		503,
+		504,
+		505,
+		506,
+		507,
+		508,
+		509,
+		510,
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517,
+		518,
+		519,
+		520
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3740,5 +3875,1175 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 385,
 		flag = 3
+	},
+	{
+		param = "指揮官大人，您終於回來了~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 386,
+		flag = 0
+	},
+	{
+		param = "大鳳已經把房間的各個角落都收拾好了~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 387,
+		flag = 0
+	},
+	{
+		param = "終於能和指揮官大人獨享二人世界了呢……",
+		ship_group = 30707,
+		type = 1,
+		id = 388,
+		flag = 0,
+		option = {
+			{
+				1,
+				"佈置很完整啊"
+			}
+		}
+	},
+	{
+		param = "佈置很完整啊，我還蠻喜歡的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 389,
+		flag = 1
+	},
+	{
+		param = "嘻嘻，指揮官大人的喜好，大鳳可是一清二楚哦~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 390,
+		flag = 1
+	},
+	{
+		param = "只要把這裡打造成您最喜歡的，最掛念的地方",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 391,
+		flag = 1
+	},
+	{
+		param = "您就會每時每刻都能想到大鳳了~",
+		ship_group = 30707,
+		type = 1,
+		id = 392,
+		flag = 1,
+		option = {
+			{
+				2,
+				"確實……"
+			}
+		}
+	},
+	{
+		param = "確實會想在這裡多休息一下……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 393,
+		flag = 2
+	},
+	{
+		param = "無論是用沙發，床，還是大鳳的身體來休息都可以~！",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 394,
+		flag = 2
+	},
+	{
+		param = "把房間裡的一切都染上指揮官大人的氣息吧~！",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 395,
+		flag = 2
+	},
+	{
+		param = "呵呵呵呵~♥",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 396,
+		flag = 2
+	},
+	{
+		param = "啊——等待的時間，過得好慢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 397,
+		flag = 0
+	},
+	{
+		param = "大鳳好想快點見到指揮官大人呢~",
+		ship_group = 30707,
+		type = 1,
+		id = 398,
+		flag = 0,
+		option = {
+			{
+				1,
+				"今天的工作還沒完成……"
+			}
+		}
+	},
+	{
+		param = "今天的工作還沒完成，而且我不是剛走沒多久嗎",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 399,
+		flag = 1
+	},
+	{
+		param = "呵呵呵~大鳳每時每刻都想跟指揮官大人待在一起呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 400,
+		flag = 1
+	},
+	{
+		param = "可是您還要去處理那麼多事情……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 401,
+		flag = 1
+	},
+	{
+		param = "所以在家裡休息的時間，才會不夠呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 402,
+		flag = 1
+	},
+	{
+		param = "從您回來到再次出門，時鐘才走了一圈而已……",
+		ship_group = 30707,
+		type = 1,
+		id = 403,
+		flag = 1,
+		option = {
+			{
+				2,
+				"竟然才過去一個小時？"
+			}
+		}
+	},
+	{
+		param = "竟然才過去一個小時？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 404,
+		flag = 2
+	},
+	{
+		param = "和大鳳待在一起的時候，好像體感時間都變長了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 405,
+		flag = 2
+	},
+	{
+		param = "既然如此，那下次就多和大鳳休息一下吧！",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 406,
+		flag = 2
+	},
+	{
+		param = "就等時鐘轉過兩圈如何？",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 407,
+		flag = 2
+	},
+	{
+		param = "大鳳……會讓時間變慢一點、再慢一點~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 408,
+		flag = 2
+	},
+	{
+		param = "這樣，就可以有更多時間跟指揮官大人在一起了~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 409,
+		flag = 2
+	},
+	{
+		param = "指揮官大人~大鳳為您製作了愛心便當哦",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 410,
+		flag = 0
+	},
+	{
+		param = "拎起來沉甸甸的呢……就讓大鳳親自為指揮官送過去吧~",
+		ship_group = 30707,
+		type = 1,
+		id = 411,
+		flag = 0,
+		option = {
+			{
+				1,
+				"妳準備了多少？"
+			}
+		}
+	},
+	{
+		param = "妳準備了多少？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 412,
+		flag = 1
+	},
+	{
+		param = "便當的話，一共有四層哦~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 413,
+		flag = 1
+	},
+	{
+		param = "第一層放的是燉生鱈魚子、鮮蝦鬼殼燒、冷酒……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 414,
+		flag = 1
+	},
+	{
+		param = "第二層是飯糰、蛋捲、魚糕",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 415,
+		flag = 1
+	},
+	{
+		param = "第三層和第四層分別是小菜和味增湯",
+		ship_group = 30707,
+		type = 1,
+		id = 416,
+		flag = 1,
+		option = {
+			{
+				2,
+				"這已經不是愛心便當了……"
+			}
+		}
+	},
+	{
+		param = "這已經不是愛心便當，而是超豪華便當了……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 417,
+		flag = 2
+	},
+	{
+		param = "這個量……我盡力吃完吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 418,
+		flag = 2
+	},
+	{
+		param = "呵呵呵，指揮官大人只要吃飽就夠了，不用擔心量的問題喔~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 419,
+		flag = 2
+	},
+	{
+		param = "這樣……您就不會接受別人的便當了~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 420,
+		flag = 2
+	},
+	{
+		param = "即便有人包攬了外面所有的便當，也無濟於事",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 421,
+		flag = 2
+	},
+	{
+		param = "因為指揮官大人，只能吃、只會吃大鳳做的便當，呵呵呵~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 422,
+		flag = 2
+	},
+	{
+		param = "指揮官大人~您果然又在大鳳的房間裡「探險」了呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 423,
+		flag = 0
+	},
+	{
+		param = "這次，又有更了解大鳳一些嗎~",
+		ship_group = 30707,
+		type = 1,
+		id = 424,
+		flag = 0,
+		option = {
+			{
+				1,
+				"嗯，找到了一些有趣的東西"
+			}
+		}
+	},
+	{
+		param = "嗯，找到了一些有趣的東西",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 425,
+		flag = 1
+	},
+	{
+		param = "指揮官大人，好像玩得很開心呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 426,
+		flag = 1
+	},
+	{
+		param = "不過呢，房間裡的一切東西，都是為您準備的唷",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 427,
+		flag = 1
+	},
+	{
+		param = "您應該知道，大鳳的一切都是屬於您的~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 428,
+		flag = 1
+	},
+	{
+		param = "指揮官大人也要多進入大鳳的生活……才行~",
+		ship_group = 30707,
+		type = 1,
+		id = 429,
+		flag = 1,
+		option = {
+			{
+				2,
+				"那這個……"
+			}
+		}
+	},
+	{
+		param = "那這個看起來像是規劃圖的照片……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 430,
+		flag = 2
+	},
+	{
+		param = "啊……那個只是殺蟲的規劃圖而已，指揮官大人不用在意",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 431,
+		flag = 2
+	},
+	{
+		param = "大鳳會把所有害蟲擋在我們家外面的~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 432,
+		flag = 2
+	},
+	{
+		param = "呵呵呵~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 433,
+		flag = 2
+	},
+	{
+		param = "指揮官大人，原來這麼喜歡大鳳的居家服嗎~",
+		ship_group = 30707,
+		type = 1,
+		id = 434,
+		flag = 0,
+		option = {
+			{
+				1,
+				"這套衣服很適合妳"
+			}
+		}
+	},
+	{
+		param = "這套衣服很適合妳",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 435,
+		flag = 1
+	},
+	{
+		param = "呵呵呵，那指揮官大人想拍幾張都可以~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 436,
+		flag = 1
+	},
+	{
+		param = "您的讚美，讓大鳳的心都躁動起來了呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 437,
+		flag = 1
+	},
+	{
+		param = "不過……只拍大鳳一個人可不夠呢……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 438,
+		flag = 1
+	},
+	{
+		param = "大鳳，更想和指揮官一起合影",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 439,
+		flag = 1
+	},
+	{
+		param = "只有大鳳一個人在相片裡，感覺很孤單呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 440,
+		flag = 1
+	},
+	{
+		param = "啊……或者去專門拍家庭照的照相館也不錯……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 441,
+		flag = 1
+	},
+	{
+		param = "那裡還可以租服裝，大鳳想為指揮官大人換上各式各樣的衣服~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 442,
+		flag = 1
+	},
+	{
+		param = "要把那些合照依照最大尺寸印出來，裝進相框，掛滿客廳……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 443,
+		flag = 1
+	},
+	{
+		param = "呵呵，這樣指揮官就永遠逃不掉大鳳的視線了~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 444,
+		flag = 1
+	},
+	{
+		param = "指揮官大人~大鳳聽說近期可能會下雨降溫",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 445,
+		flag = 0
+	},
+	{
+		param = "雨傘和外套都為您準備好了，可不許忘記帶了哦~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 446,
+		flag = 0
+	},
+	{
+		param = "不然大鳳就只好親自給您送到辦公室，幫指揮官大人暖和起來呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 447,
+		flag = 0
+	},
+	{
+		param = "呵呵呵呵~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 448,
+		flag = 0
+	},
+	{
+		param = "另外，以防萬一，家裡的被爐也已經佈置好了",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 449,
+		flag = 0
+	},
+	{
+		param = "大鳳……已經迫不及待想和指揮官一起在被爐裡……取暖了呢~",
+		ship_group = 30707,
+		type = 1,
+		id = 450,
+		flag = 0,
+		option = {
+			{
+				1,
+				"被爐啊……"
+			}
+		}
+	},
+	{
+		param = "被爐真是好文明啊……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 451,
+		flag = 1
+	},
+	{
+		param = "呵呵呵，沒有人會拒絕溫暖，不是嗎~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 452,
+		flag = 1
+	},
+	{
+		param = "大鳳在抱住指揮官大人的時候，也會因為貪戀溫暖而不想放手呢",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 453,
+		flag = 1
+	},
+	{
+		param = "現在呢~不只被爐暖暖地開著，還有大鳳會幸福地靠在您懷裡呢♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 454,
+		flag = 1
+	},
+	{
+		param = "指揮官大人一定更不想離開了，對吧？",
+		ship_group = 30707,
+		type = 1,
+		id = 455,
+		flag = 1,
+		option = {
+			{
+				2,
+				"但是……"
+			}
+		}
+	},
+	{
+		param = "但是那樣的話，會耽擱工作",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 456,
+		flag = 2
+	},
+	{
+		param = "指揮官大人完全不用擔心，大鳳已經把一切都安排好了~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 457,
+		flag = 2
+	},
+	{
+		param = "只要把指揮官大人要用的辦公文件，全都放到家裡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 458,
+		flag = 2
+	},
+	{
+		param = "這樣……指揮官大人就能直接坐在被爐上工作",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 459,
+		flag = 2
+	},
+	{
+		param = "大鳳也能和指揮官一起在被爐裡待很久很久……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 460,
+		flag = 2
+	},
+	{
+		param = "就這樣，再也不分開……呵呵呵~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 461,
+		flag = 2
+	},
+	{
+		param = "指揮官大人，您的帽子已經洗好晾乾了",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 462,
+		flag = 0
+	},
+	{
+		param = "現在和大衣一起都掛到門口衣架上了哦~",
+		ship_group = 30707,
+		type = 1,
+		id = 463,
+		flag = 0,
+		option = {
+			{
+				1,
+				"帽子好像沒有哪裡弄髒了吧？"
+			}
+		}
+	},
+	{
+		param = "帽子好像沒有哪裡弄髒了吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 464,
+		flag = 0
+	},
+	{
+		param = "啊啊，指揮官沒有注意到嗎……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 465,
+		flag = 1
+	},
+	{
+		param = "沒關係的，這樣就可以了，指揮官就當成是……正常的消毒",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 466,
+		flag = 1
+	},
+	{
+		param = "指揮官身上的任何東西，無論是帽子、衣服或褲子，都只能有我的味道",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 467,
+		flag = 1
+	},
+	{
+		param = "別的味道，全部有害健康~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 468,
+		flag = 1
+	},
+	{
+		param = "所以需要大鳳幫您清理得乾乾淨淨才對~",
+		ship_group = 30707,
+		type = 1,
+		id = 469,
+		flag = 1,
+		option = {
+			{
+				2,
+				"確實……"
+			}
+		}
+	},
+	{
+		param = "確實洗得很乾淨，看起來像新的一樣",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 470,
+		flag = 2
+	},
+	{
+		param = "說起來，之前丟的那件外套找到了嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 471,
+		flag = 2
+	},
+	{
+		param = "啊……很遺憾，大鳳還沒找到呢……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 472,
+		flag = 2
+	},
+	{
+		param = "不過指揮官現在想穿的話，大鳳會努力做一件一模一樣的出來",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 473,
+		flag = 2
+	},
+	{
+		param = "這樣指揮官就不會在意以前弄丟的那件了吧？呵呵呵……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 474,
+		flag = 2
+	},
+	{
+		param = "啊啊……指揮官大人竟然……！",
+		ship_group = 30707,
+		type = 1,
+		id = 475,
+		flag = 0,
+		option = {
+			{
+				1,
+				"竟然？"
+			}
+		}
+	},
+	{
+		param = "竟然？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 476,
+		flag = 1
+	},
+	{
+		param = "竟然跟大鳳聊了這麼久！",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 477,
+		flag = 1
+	},
+	{
+		param = "不知不覺都已經這個時間了呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 478,
+		flag = 1
+	},
+	{
+		param = "果然和指揮官在一起，就有數不清的話題可以聊~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 479,
+		flag = 1
+	},
+	{
+		param = "這就是您特有的魔力吧，呵呵呵~",
+		ship_group = 30707,
+		type = 1,
+		id = 480,
+		flag = 1,
+		option = {
+			{
+				2,
+				"想分享的事情還有很多"
+			}
+		}
+	},
+	{
+		param = "想分享的事情還有很多",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 481,
+		flag = 2
+	},
+	{
+		param = "大鳳這就來找您~請告訴大鳳更多事情吧~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 482,
+		flag = 2
+	},
+	{
+		param = "啊啊，不過要分享更多的話，指揮官大人一定會口渴吧？",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 483,
+		flag = 2
+	},
+	{
+		param = "大鳳去給您沏杯茶吧，等一下可以潤潤口~",
+		ship_group = 30707,
+		type = 1,
+		id = 484,
+		flag = 2,
+		option = {
+			{
+				3,
+				"是上次沏的抹茶嗎？"
+			}
+		}
+	},
+	{
+		param = "是上次沏的抹茶嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 485,
+		flag = 3
+	},
+	{
+		param = "呵呵呵~這次是焙茶哦",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 486,
+		flag = 3
+	},
+	{
+		param = "很適合休息放鬆的茶，也沒有抹茶的苦味",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 487,
+		flag = 3
+	},
+	{
+		param = "不過……如果指揮官想要偏甜口味的話……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 488,
+		flag = 3
+	},
+	{
+		param = "剛好大鳳想吃水果糖了呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 489,
+		flag = 3
+	},
+	{
+		param = "指揮官大人不介意和大鳳一起分享這份甘甜吧~？",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 490,
+		flag = 3
+	},
+	{
+		param = "指揮官大人，果然很中意大鳳的身體呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 491,
+		flag = 0
+	},
+	{
+		param = "是想看大鳳擺出什麼姿勢嗎~？",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 492,
+		flag = 0
+	},
+	{
+		param = "還是想要讓大鳳來幫你按摩身體呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 493,
+		flag = 0
+	},
+	{
+		param = "無論哪一種，指揮官大人都可以再靠近一點……再大膽一點……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 494,
+		flag = 0
+	},
+	{
+		param = "這樣大鳳就能……成為指揮官的依靠了♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 495,
+		flag = 0
+	},
+	{
+		param = "您所知道的，大鳳的內心已經完全被您佔滿、充盈……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 496,
+		flag = 0
+	},
+	{
+		param = "在這種時候不再更進一步，指揮官大人真是壞心眼呢……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 497,
+		flag = 0
+	},
+	{
+		param = "不過……呵呵……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 498,
+		flag = 0
+	},
+	{
+		param = "既然指揮官大人如此依賴大鳳，那麼大風也要做出最好的回應呢",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 499,
+		flag = 0
+	},
+	{
+		param = "指揮官大人聽過安神按摩嗎？",
+		ship_group = 30707,
+		type = 1,
+		id = 500,
+		flag = 0,
+		option = {
+			{
+				1,
+				"是能舒緩疲勞的按摩手法嗎？"
+			}
+		}
+	},
+	{
+		param = "是能舒緩疲勞的按摩手法嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 501,
+		flag = 1
+	},
+	{
+		param = "呵呵呵，是的呢~這是一種既不影響放鬆又能消除疲憊的按摩哦",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 502,
+		flag = 1
+	},
+	{
+		param = "大鳳早就算到會有用上的時候，特地去學習了呢",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 503,
+		flag = 1
+	},
+	{
+		param = "指揮官大人，回來之後請到床上來吧~讓大風為您進行全套的按摩……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 504,
+		flag = 1
+	},
+	{
+		param = "依靠在大鳳的懷裡，將疲憊……全都釋放出來吧~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 505,
+		flag = 1
+	},
+	{
+		param = "指揮官大人~您知道嗎，這已經是您送給大鳳的第10份禮物了",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 506,
+		flag = 0
+	},
+	{
+		param = "每次打開禮物盒，大鳳的心都會撲通撲通跳得很快呢~",
+		ship_group = 30707,
+		type = 1,
+		id = 507,
+		flag = 0,
+		option = {
+			{
+				1,
+				"大鳳記得這麼清楚嗎"
+			}
+		}
+	},
+	{
+		param = "大鳳記得這麼清楚嗎",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 508,
+		flag = 1
+	},
+	{
+		param = "呵呵呵，大鳳其實給每個禮物都做了紀錄呢",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 509,
+		flag = 1
+	},
+	{
+		param = "只要是指揮官大人送的禮物，每一份、每一份……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 510,
+		flag = 1
+	},
+	{
+		param = "都滿滿地裝著您對大鳳的愛呢♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 511,
+		flag = 1
+	},
+	{
+		param = "對大鳳來說這可是全世界最珍貴的寶物了~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 512,
+		flag = 1
+	},
+	{
+		param = "必須要好好保存才行呢~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 513,
+		flag = 1
+	},
+	{
+		param = "指揮官還記得嗎？大鳳第一次收到您送的禮物的時候……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 514,
+		flag = 1
+	},
+	{
+		param = "啊啊~那種心跳加速、口乾舌燥、神情恍惚的感覺",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 515,
+		flag = 1
+	},
+	{
+		param = "每次想起來，都會讓人欲罷不能呢……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 516,
+		flag = 1
+	},
+	{
+		param = "呵呵……呵呵呵……",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 517,
+		flag = 1
+	},
+	{
+		param = "大鳳……想讓指揮官也體驗一次這種感覺呢",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 518,
+		flag = 1
+	},
+	{
+		param = "下次，輪到大鳳給指揮官送禮了",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 519,
+		flag = 1
+	},
+	{
+		param = "絕對是讓您意想不到的大禮，可不許以任何方式拒絕或逃避哦~♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 520,
+		flag = 1
 	}
 }

@@ -12110,7 +12110,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船 列星頓II(最多4次)"
+	tip = "每累計建造200次可獲得海上傳奇艦船 前衛(最多4次)"
 }
 
 
@@ -26842,6 +26842,16 @@ _G.pg.base.gametip.word_chinese = {
 }
 
 
+_G.pg.base.gametip.word_japanese_3 = {
+	tip = "日文1"
+}
+
+
+_G.pg.base.gametip.word_japanese_2 = {
+	tip = "日文2"
+}
+
+
 _G.pg.base.gametip.word_japanese = {
 	tip = "日文"
 }
@@ -39773,6 +39783,26 @@ _G.pg.base.gametip.ninja_game_booktip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_publicroom_unlock = {
+	tip = "請先解鎖公共房間"
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_table = {
+	tip = "廚房"
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_chair = {
+	tip = "客廳"
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_bed = {
+	tip = "臥室"
+}
+
+
 _G.pg.base.gametip.world_inventory_tip = {
 	tip = "重置後可轉換的兌換券 "
 }
@@ -39855,6 +39885,11 @@ _G.pg.base.gametip.dorm3d_touch2 = {
 
 _G.pg.base.gametip.dorm3d_furnitrue_type_special = {
 	tip = "特典"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag8 = {
+	tip = "解鎖絲襪互動"
 }
 
 

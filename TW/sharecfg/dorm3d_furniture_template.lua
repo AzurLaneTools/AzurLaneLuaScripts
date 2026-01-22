@@ -1049,6 +1049,263 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/bedroom"
 		}
 	},
+	[1201] = {
+		rarity = 3,
+		name = "溫馨軟床",
+		unlock_tips = "",
+		type = 4,
+		room_id = 12,
+		desc = "溫馨柔軟的雙人床，床鋪上鋪著舒適的床墊，被褥枕頭齊全，隨時都能鑽進被窩緩解一天積攢下來的疲勞。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture1",
+		scene_hides = "",
+		acesses = "",
+		id = 1201,
+		target_slots = {
+			1120103
+		},
+		touch_id = {
+			{
+				30707,
+				3070710
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1151"
+		}
+	},
+	[1202] = {
+		rarity = 3,
+		name = "木製餐桌",
+		unlock_tips = "",
+		type = 6,
+		room_id = 12,
+		desc = "只有椅面和椅背的簡約座椅，專為榻榻米設計，搭配柔軟坐墊使用舒適，即使久坐也不用擔心肌肉疲勞。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture2",
+		scene_hides = "",
+		acesses = "",
+		id = 1202,
+		target_slots = {
+			1120203
+		},
+		touch_id = {
+			{
+				30707,
+				3070720
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1151"
+		}
+	},
+	[1203] = {
+		rarity = 3,
+		name = "簡約座椅",
+		unlock_tips = "",
+		type = 5,
+		room_id = 12,
+		desc = "由堅固耐用的優質木材製成的桌子，桌面光滑平整便於清理，深色耐髒還原檀木本身質感。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture3",
+		scene_hides = "",
+		acesses = "",
+		id = 1203,
+		target_slots = {
+			1120303
+		},
+		touch_id = {
+			{
+				30707,
+				3070730
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1152"
+		}
+	},
+	[1211] = {
+		rarity = 2,
+		name = "古典掛畫",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "古典掛畫，淡雅節制，禪意自然，色彩與室內風格匹配協調，為宿舍增添一份寧靜與雅緻。",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_wallscrolls01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1211,
+		target_slots = {
+			1120301
+		},
+		shop_id = {}
+	},
+	[1212] = {
+		rarity = 2,
+		name = "黑色比基尼",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "黑色的比基尼泳衣，材質輕盈柔軟，穿上彷若無物十分舒適。",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_cloth01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1212,
+		target_slots = {
+			1120101
+		},
+		shop_id = {}
+	},
+	[1213] = {
+		rarity = 2,
+		name = "落地燈",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "方形高挑的木製燈立在地板上，從內向外散發著柔和的光暈，是她精心挑選的裝飾用光源。",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_floorlamp01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1213,
+		target_slots = {
+			1120302
+		},
+		shop_id = {}
+	},
+	[1214] = {
+		rarity = 2,
+		name = "半透明屏風",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "一扇半透明的屏風，屏風上繪有精緻的花紋，她喜歡將屏風放在床邊，屏風的半透明設計給室內增添了一絲曖昧。",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_frame01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture7",
+		unlock_banners = "",
+		acesses = "",
+		id = 1214,
+		target_slots = {
+			1120102
+		},
+		shop_id = {},
+		scene_hides = {
+			"no_bake_prop_substitute/pre_db_frame32"
+		}
+	},
+	[1215] = {
+		rarity = 2,
+		name = "小夜燈",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "造型可愛的小夜燈，內部有藤木枝條的裝飾，燈光溫暖柔和，為宿舍增添溫馨。",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_desklamp01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1215,
+		target_slots = {
+			1120104
+		},
+		shop_id = {}
+	},
+	[1221] = {
+		rarity = 4,
+		name = "愛之巢",
+		unlock_tips = "",
+		type = 4,
+		room_id = 12,
+		desc = "一張以簡約風格為主的雙人床，選用了高強度材料，堅固的金屬框架可以承擔相當大的拉力而不被折損，搭配精心挑選的記憶棉床墊，保證睡眠安全舒適。",
+		is_exclusive = 1,
+		model = "Pay_Dafenghostel/pre_db_df_bedroom_01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture1",
+		acesses = "",
+		id = 1221,
+		target_slots = {
+			1120103
+		},
+		touch_id = {
+			{
+				30707,
+				3070740
+			}
+		},
+		shop_id = {
+			270501
+		},
+		unlock_banners = {
+			"banner_furniture1221"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
+	[1222] = {
+		rarity = 5,
+		name = "花樂留韻",
+		type = 99,
+		room_id = 12,
+		desc = "淡雅的光暈透出，撫過綻開的花瓣，留下她動人的身影。花影與樂聲交織，彷彿大自然的低語流淌其中。",
+		is_exclusive = 1,
+		model = "Pay_Dafenghostel/pre_db_df_tedian01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture2",
+		acesses = "",
+		id = 1222,
+		target_slots = {
+			1120304
+		},
+		touch_id = {
+			{
+				30707,
+				3070750
+			}
+		},
+		shop_id = {
+			270502
+		},
+		unlock_tips = {
+			8
+		},
+		unlock_banners = {
+			"banner_furniture1222"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/entertainment"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1098,6 +1355,18 @@ pg.dorm3d_furniture_template = {
 			1151,
 			1152,
 			1153
+		},
+		[12] = {
+			1201,
+			1202,
+			1203,
+			1211,
+			1212,
+			1213,
+			1214,
+			1215,
+			1221,
+			1222
 		}
 	},
 	all = {
@@ -1141,6 +1410,16 @@ pg.dorm3d_furniture_template = {
 		1108,
 		1151,
 		1152,
-		1153
+		1153,
+		1201,
+		1202,
+		1203,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1221,
+		1222
 	}
 }

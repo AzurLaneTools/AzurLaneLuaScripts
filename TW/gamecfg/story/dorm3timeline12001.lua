@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "{namecode:97}？门锁怎么了？"
+										content = "{namecode:97}？門鎖怎麼了？"
 									}
 								}
 							},

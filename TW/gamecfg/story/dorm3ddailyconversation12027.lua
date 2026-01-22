@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{namecode:97}把{dorm3d}所有照片、对{namecode:97}说过的每一句话都有保存下来哦。",
+			say = "{namecode:97}把{dorm3d}所有照片、對{namecode:97}說的每一句話都有保存下來喔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在没有{dorm3d}陪伴的夜晚，{namecode:97}也能时时刻刻感受到{dorm3d}的气息呢。",
+			say = "在沒有{dorm3d}陪伴的夜晚，{namecode:97}也能時時刻刻感受到{dorm3d}的氣息呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "把{dorm3d}的照片放在心脏的位置，就好像真的将您拥入怀抱了……",
+			say = "把{dorm3d}的照片放在心臟的位置，就好像真的將您擁入懷抱了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？{dorm3d}这样说，{namecode:97}当然会用尽全力抱住您的！",
+			say = "欸？{dorm3d}這樣說，{namecode:97}當然會用盡全力抱住您的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

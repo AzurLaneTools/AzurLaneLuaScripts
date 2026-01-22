@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "总是会有一些来路不明的食物出现在{dorm3d}身边，还好{namecode:97}及时发现。",
+			say = "總是會有一些來路不明的食物出現在{dorm3d}身邊，還好{namecode:97}及時發現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您千万不可以吃掉那些不健康又危险的东西！",
+			say = "您千萬不可以吃掉那些不健康又危險的東西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果工作时感觉到饿，就请吃{namecode:97}为您制作的便当吧~",
+			say = "如果工作時感覺到餓，就請吃{namecode:97}為您製作的便當吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要是{dorm3d}爱吃的，{namecode:97}都可以做给您。",
+			say = "只要是{dorm3d}愛吃的，{namecode:97}都可以做給您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

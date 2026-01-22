@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "欸？{dorm3d}房间的钥匙弄丢了吗？没有哦，只是{namecode:97}拿走了而已~",
+			say = "欸？{dorm3d}房間的鑰匙弄丟了嗎？沒有哦，只是{namecode:97}拿走了而已~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果您想要拿回去，不如亲自来搜身看看好了——",
+			say = "如果您想要拿回去，不如親自來搜身看看好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不是这里——也不是这里——嗯~啊！{dorm3d}是故意找不到的吧，真狡猾！",
+			say = "不是這裡——也不是這裡——嗯~啊！{dorm3d}是故意找不到的吧，真狡猾！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "最近{namecode:97}发现了创口贴全新的使用方法，不仅可以治愈伤痕，还可以用来充当衣服呢。",
+			say = "最近{namecode:97}發現了OK蹦全新的使用方法，不僅可以治癒傷痕，還可以用來充當衣服呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只需要取三枚，贴在这里、这里还有这里……",
+			say = "只需要取三枚，貼在這裡、這裡還有這裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}很好奇最终效果，不如，{dorm3d}来做这件衣服的试穿人吧？",
+			say = "{namecode:97}很好奇最終效果，不如，{dorm3d}來做這件衣服的試穿人吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

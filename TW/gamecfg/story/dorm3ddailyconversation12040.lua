@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{namecode:97}想要做一件新的裙子，但是身体围度的数据有些忘记了。",
+			say = "{namecode:97}想要做一件新的裙子，但是身體圍度的數據有些忘記了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "真不巧。测量围度软尺又被{namecode:97}弄丢了……可以麻烦{dorm3d}用手帮{namecode:97}测量一下吗？",
+			say = "真不巧。測量圍度皮尺又被{namecode:97}弄丟了……可以麻煩{dorm3d}用手幫{namecode:97}測量一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为了确保数据尽可能的准确，请您紧贴着{namecode:97}的肌肤测量吧。",
+			say = "為了確保數據盡可能的準確，請您緊貼著{namecode:97}的肌膚測量吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

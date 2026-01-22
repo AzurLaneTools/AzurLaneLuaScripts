@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit3_tone7/drom3d_Taiho_ik_gfit3_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "大凤的心跳越来越快了哦……不信请您听听看呢~",
+			say = "大鳳的心跳越來越快了喔……不信請你聽聽看呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

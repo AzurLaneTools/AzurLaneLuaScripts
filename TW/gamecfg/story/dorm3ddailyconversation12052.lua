@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}的手，有些凉了呢……没关系的，我会好好握紧的哦。",
+			say = "{dorm3d}的手，有些涼了呢……沒關係的，我會好好握緊的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我的温度、心跳、呼吸……全部都会传递给您的~",
+			say = "我的溫度、心跳、呼吸…全部都會傳遞給您的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还不够的话，就让我把胸口贴上来吧~",
+			say = "還不夠的話，就讓我把胸口貼上吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "直到{dorm3d}的体温，染上我的味道——",
+			say = "直到{dorm3d}的體溫，染上我的味道——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

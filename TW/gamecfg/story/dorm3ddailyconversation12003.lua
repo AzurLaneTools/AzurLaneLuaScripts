@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼，昨天{namecode:97}看见{dorm3d}和别的孩子聊了很久呢。",
+			say = "哼，昨天{namecode:97}看見{dorm3d}和別的孩子聊了很久呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您已经答应今天要来见{namecode:97}，怎么可以和其他人再会面呢！",
+			say = "您已經答應今天要來見{namecode:97}，怎麼可以和其他人再見面呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样的指挥官，可是要受到{namecode:97}的惩罚哦~",
+			say = "這樣的指揮官，可是要受到{namecode:97}的懲罰哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "什么样的惩罚？",
+			say = "什麼樣的懲罰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然是要让{dorm3d}只能属于{namecode:97}一个人的惩罚呢~",
+			say = "當然是要讓{dorm3d}只能屬於{namecode:97}一個人的懲罰呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

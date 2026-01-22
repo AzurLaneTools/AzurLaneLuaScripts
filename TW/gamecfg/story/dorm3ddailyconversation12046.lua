@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{namecode:97}好像发现了皮带的正确用法：像这样缠绕在{namecode:97}的身体上~",
+			say = "{namecode:97}好像發現了皮帶的正確用法：像這樣纏繞在{namecode:97}的身體上~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "或者……像这样缠绕在{dorm3d}的身上，是不是就能把您永远捆在我身边了……",
+			say = "或者……像這樣纏繞在{dorm3d}的身上，是不是就能把您永遠捆在我身邊了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

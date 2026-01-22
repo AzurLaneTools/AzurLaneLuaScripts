@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "听说，收集所爱之人的物品放在特制的百宝盒里，就能永远不分开。",
+			say = "聽說，收集所愛之人的物品放在特製的百寶盒裡，就能永遠不分開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所以我准备好了关于自己的百宝盒，里面有很多{namecode:97}的私密物品，您要好好珍藏哦。~",
+			say = "所以我準備好了關於自己的百寶盒，裡面有很多{namecode:97}的私人物品，您要好好珍藏哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不用担心，{dorm3d}的物品嘛，{namecode:97}这里有很多呢~",
+			say = "不用擔心，{dorm3d}的物品嘛，{namecode:97}這裡有很多呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

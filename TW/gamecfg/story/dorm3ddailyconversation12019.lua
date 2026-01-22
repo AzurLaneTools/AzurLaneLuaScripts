@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "天干日燥……{dorm3d}的嘴唇似乎也受到了影响，变得干干的。",
+			say = "天乾日燥……{dorm3d}的嘴唇似乎也受到了影響，變得乾乾的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不如，让{namecode:97}来帮您滋润一下吧~",
+			say = "不如，讓{namecode:97}來幫您滋潤一下吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我不太会用润唇膏",
+			say = "我不太會用潤唇膏",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没关系哦，{namecode:97}会亲嘴……啊不，亲自教您的。",
+			say = "沒關係哦，{namecode:97}會親嘴……啊不，親自教您的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

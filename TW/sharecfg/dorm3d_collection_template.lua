@@ -134,6 +134,38 @@ pg.dorm3d_collection_template = setmetatable({
 			1127,
 			1128
 		},
+		[12] = {
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
+			1209,
+			1210,
+			1211,
+			1212,
+			1213,
+			1214,
+			1215,
+			1216,
+			1217,
+			1218,
+			1219,
+			1220,
+			1221,
+			1222,
+			1223,
+			1224,
+			1225,
+			1226,
+			1227,
+			1228,
+			1229,
+			1230
+		},
 		[16] = {
 			1601,
 			1602,
@@ -269,6 +301,36 @@ pg.dorm3d_collection_template = setmetatable({
 		1126,
 		1127,
 		1128,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1209,
+		1210,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1216,
+		1217,
+		1218,
+		1219,
+		1220,
+		1221,
+		1222,
+		1223,
+		1224,
+		1225,
+		1226,
+		1227,
+		1228,
+		1229,
+		1230,
 		1601,
 		1602,
 		1603,
@@ -2846,6 +2908,636 @@ pg.base.dorm3d_collection_template = {
 		},
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_cosmetic17/vfx_wupintishi01"
+		}
+	},
+	[1201] = {
+		name = "瓷器",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "花紋細膩繁複的精緻白瓷，她似乎對其極為愛護，將表面擦拭地光潔如新沒有一絲灰塵。",
+		text = "dorm3d_dafeng_bed",
+		id = 1201,
+		icon = "3Ddrom_dafeng_item1",
+		model = {
+			"fbx/litmap_01/pre_db_ceram23"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram23/vfx_wupintishi01"
+		}
+	},
+	[1202] = {
+		name = "制服裙",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "帶袖章的精緻制服裙，平常見慣了她的紅裙，偶爾換換風格倒也不錯。",
+		text = "dorm3d_dafeng_bed",
+		id = 1202,
+		icon = "3Ddrom_dafeng_item2",
+		model = {
+			"fbx/litmap_01/night/pre_db_cloth11"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_cloth11/vfx_wupintishi01"
+		}
+	},
+	[1203] = {
+		name = "吊帶禮服",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "一條優雅的紅色吊帶裙，材質輕盈柔軟，她在出宴會等場合時會穿著。",
+		text = "dorm3d_dafeng_bed",
+		id = 1203,
+		icon = "3Ddrom_dafeng_item3",
+		model = {
+			"fbx/litmap_01/pre_db_cloth10"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth10/vfx_wupintishi01"
+		}
+	},
+	[1204] = {
+		name = "木製儲物箱",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "她將珍藏品一一放入其中，箱子雖小，卻承載著她與摯愛之人的回憶。",
+		text = "dorm3d_dafeng_bed",
+		id = 1204,
+		icon = "3Ddrom_dafeng_item4",
+		model = {
+			"fbx/litmap_01/pre_db_woodbox03"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_woodbox03/vfx_wupintishi01"
+		}
+	},
+	[1205] = {
+		name = "景觀盆栽",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "小巧的景觀盆栽，葉片油亮，生氣勃勃，枝幹也修剪整齊，看出她花了不少時間精心養護。",
+		text = "dorm3d_dafeng_bed",
+		id = 1205,
+		icon = "3Ddrom_dafeng_item5",
+		model = {
+			"fbx/litmap_01/pre_db_bonsai20"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bonsai20/vfx_wupintishi01"
+		}
+	},
+	[1206] = {
+		name = "鳳頭髮飾",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "放在梳妝台上的鳳頭髮飾，與她常戴在別在鬢角的分毫不差，看得出她很喜歡這個髮飾。",
+		text = "dorm3d_dafeng_table",
+		id = 1206,
+		icon = "3Ddrom_dafeng_item6",
+		model = {
+			"fbx/litmap_01/pre_db_headgear02"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_headgear02/vfx_wupintishi01"
+		}
+	},
+	[1207] = {
+		name = "傳統木屐",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "一雙傳統的木屐，屐底雕刻有花紋，她偶爾會穿著它在外漫步，木屐的聲音清脆悅耳。",
+		text = "dorm3d_dafeng_table",
+		id = 1207,
+		icon = "3Ddrom_dafeng_item7",
+		model = {
+			"fbx/litmap_01/pre_db_shoe02"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_shoe02/vfx_wupintishi01"
+		}
+	},
+	[1208] = {
+		name = "圖書合集",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "一摞精心挑選的書籍，涵蓋了文學、軍事等多類題材……似乎還夾雜著一些不尋常的題材？",
+		text = "dorm3d_dafeng_bed",
+		id = 1208,
+		icon = "3Ddrom_dafeng_item8",
+		model = {
+			"fbx/litmap_01/pre_db_book19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_book19/vfx_wupintishi01"
+		}
+	},
+	[1209] = {
+		name = "清雅香薰",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "淡雅的香薰散發出清新的花香，她會在睡前點燃它，讓整個房間瀰漫著寧靜的氣息。",
+		text = "dorm3d_dafeng_chair",
+		id = 1209,
+		icon = "3Ddrom_dafeng_item9",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration17"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration17/vfx_wupintishi01"
+		}
+	},
+	[1210] = {
+		name = "貓爬架",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "設計可愛的貓咪爬架，頂部還掛著逗貓玩具……或許她正在考慮養隻小貓咪？",
+		text = "dorm3d_dafeng_chair",
+		id = 1210,
+		icon = "3Ddrom_dafeng_item10",
+		model = {
+			"fbx/litmap_01/pre_db_decoration04"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration04/vfx_wupintishi01"
+		}
+	},
+	[1211] = {
+		name = "香氛蠟燭",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "具有照明和裝飾功能的蠟燭，燭光溫暖柔和，她似乎還往裡面添加了香薰精油，可以聞到薰衣草的香氣。",
+		text = "dorm3d_dafeng_bed",
+		id = 1211,
+		icon = "3Ddrom_dafeng_item11",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration19/vfx_wupintishi01"
+		}
+	},
+	[1212] = {
+		name = "新鮮花卉",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "色彩鮮豔的裝飾花卉，放在窗口擺放地很整齊，她每天都會留意更換，讓花卉始終保持著新鮮的狀態。",
+		text = "dorm3d_dafeng_chair",
+		id = 1212,
+		icon = "3Ddrom_dafeng_item12",
+		model = {
+			"fbx/litmap_01/pre_db_flowerpot16"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowerpot16/vfx_wupintishi01"
+		}
+	},
+	[1213] = {
+		name = "黑白貓碗",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "一對嶄新的貓碗，做出了明顯的黑白區分，看來是她刻意為了將用途分開。",
+		text = "dorm3d_dafeng_chair",
+		id = 1213,
+		icon = "3Ddrom_dafeng_item13",
+		model = {
+			"fbx/litmap_01/pre_db_tableware44"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_tableware44/vfx_wupintishi01"
+		}
+	},
+	[1214] = {
+		name = "水果托盤",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "放在餐桌上的水果托盤，托盤上擺放的水果總是新鮮可口，似乎是她特意準備，方便來人隨時品嚐。",
+		text = "dorm3d_dafeng_table",
+		id = 1214,
+		icon = "3Ddrom_dafeng_item14",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_tableware47"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_tableware47/vfx_wupintishi01"
+		}
+	},
+	[1215] = {
+		name = "立櫃冰箱",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "一台大型立櫃冰箱，內部擺放著各種蔬果和點心飲料，她經常會更換種類，隨時換口味。",
+		text = "dorm3d_dafeng_table",
+		id = 1215,
+		icon = "3Ddrom_dafeng_item15",
+		model = {
+			"fbx/litmap_01/pre_db_appliances08"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances08/vfx_wupintishi01"
+		}
+	},
+	[1216] = {
+		name = "廚用陶瓷刀",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "一把廚用陶瓷刀，健康實用高品質，深受大鳳喜愛，在她製作愛心便當時經常用到。",
+		text = "dorm3d_dafeng_table",
+		id = 1216,
+		icon = "3Ddrom_dafeng_item16",
+		model = {
+			"no_bake/pre_db_kitchenware25"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake/pre_db_kitchenware25/vfx_wupintishi01"
+		}
+	},
+	[1217] = {
+		name = "熱水壺",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "簡約傳統熱水壺，她常常會用它來燒水泡茶，剛開始用時還不小心被燙到過。",
+		text = "dorm3d_dafeng_table",
+		id = 1217,
+		icon = "3Ddrom_dafeng_item17",
+		model = {
+			"fbx/litmap_01/pre_db_kitchenware19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_kitchenware19/vfx_wupintishi01"
+		}
+	},
+	[1218] = {
+		name = "手鞠球",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "製作精美的手鞠球，但她似乎只是把它當裝飾，已經很久沒有玩過了……要不要提議讓她教下玩法呢……？",
+		text = "dorm3d_dafeng_chair",
+		id = 1218,
+		icon = "3Ddrom_dafeng_item18",
+		model = {
+			"fbx/litmap_01/night/pre_db_toy15"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_toy15/vfx_wupintishi01"
+		}
+	},
+	[1219] = {
+		name = "圓形坐墊",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "深色的圓形坐墊，坐上去很舒適，但有點矮，估計只適合放在榻榻米上。",
+		text = "dorm3d_dafeng_chair",
+		id = 1219,
+		icon = "3Ddrom_dafeng_item19",
+		model = {
+			"fbx/litmap_01/pre_db_chair28"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair28/vfx_wupintishi01"
+		}
+	},
+	[1220] = {
+		name = "鮪魚壽司",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "新鮮的鮪魚壽司，是她為心愛之人特地準備的晚餐，當然不止這一份，還有一整個壽司拼盤正在製作中呢。",
+		text = "dorm3d_dafeng_table",
+		id = 1220,
+		icon = "3Ddrom_dafeng_item20",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food22"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food22/vfx_wupintishi01"
+		}
+	},
+	[1221] = {
+		name = "愛心便當",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "共有九格的超豪華便當，種類多元營養均衡，保證吃過一次就會讓人念念不忘。",
+		text = "dorm3d_dafeng_table",
+		id = 1221,
+		icon = "3Ddrom_dafeng_item21",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food23"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food23/vfx_wupintishi01"
+		}
+	},
+	[1222] = {
+		name = "木製儲物櫃",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "放在梳妝台上的置物櫃，裡面整齊地擺放著大鳳的首飾和一些化妝用品。",
+		text = "dorm3d_dafeng_table",
+		id = 1222,
+		icon = "3Ddrom_dafeng_item22",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard29"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard29/vfx_wupintishi01"
+		}
+	},
+	[1223] = {
+		name = "廚具套裝",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "一套精緻的廚具，包括平底鍋、湯匙、鍋鏟等，每一件都洗得乾乾淨淨的掛在牆上。",
+		text = "dorm3d_dafeng_table",
+		id = 1223,
+		icon = "3Ddrom_dafeng_item23",
+		model = {
+			"fbx/litmap_01/pre_db_kitchenware21"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_kitchenware21/vfx_wupintishi01"
+		}
+	},
+	[1224] = {
+		name = "和扇",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "傳統的紅色和扇，扇面上繪有大雁與白櫻，據說是她自己製作的手工藝品。",
+		text = "dorm3d_dafeng_bed",
+		id = 1224,
+		icon = "3Ddrom_dafeng_item24",
+		model = {
+			"fbx/litmap_01/pre_db_decoration16b"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration16b/vfx_wupintishi01"
+		}
+	},
+	[1225] = {
+		name = "書法桌",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "簡約的書法桌，桌面上擺放著宣紙，她偶爾會在這裡練習書法和繪畫。",
+		text = "dorm3d_dafeng_bed",
+		id = 1225,
+		icon = "3Ddrom_dafeng_item25",
+		model = {
+			"fbx/litmap_01/pre_db_table19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table19/vfx_wupintishi01"
+		}
+	},
+	[1226] = {
+		name = "裝飾花卉",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "造型別緻的裝飾花卉，色彩淡雅，擺放錯落有致，她每天都會留意修整。",
+		text = "dorm3d_dafeng_chair",
+		id = 1226,
+		icon = "3Ddrom_dafeng_item26",
+		model = {
+			"fbx/litmap_01/pre_db_flowerpot19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowerpot19/vfx_wupintishi01"
+		}
+	},
+	[1227] = {
+		name = "油煙機",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "安在爐台上方的油煙機，實用且高效，運轉時的噪音也很小。",
+		text = "dorm3d_dafeng_table",
+		id = 1227,
+		icon = "3Ddrom_dafeng_item27",
+		model = {
+			"fbx/litmap_01/pre_db_dafeng01_rangehood01"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_dafeng01_rangehood01/vfx_wupintishi01"
+		}
+	},
+	[1228] = {
+		name = "扇形畫框",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "裝飾用扇形畫框，掛在了顯眼的位置一眼就能抓住視線。",
+		text = "dorm3d_dafeng_chair",
+		id = 1228,
+		icon = "3Ddrom_dafeng_item28",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_df_entertainment_01_0/pre_db_billboard27"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_df_entertainment_01_0/pre_db_billboard27/vfx_wupintishi01"
+		}
+	},
+	[1229] = {
+		name = "貓咪掛畫",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "可愛的貓咪掛畫，畫面上的貓咪栩栩如生，掛畫放在很顯眼的位置，可以看出宿舍主人對貓咪的情有獨鍾。",
+		text = "dorm3d_dafeng_chair",
+		id = 1229,
+		icon = "3Ddrom_dafeng_item29",
+		model = {
+			"fbx/litmap_01/pre_db_wallscrolls03"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_wallscrolls03/vfx_wupintishi01"
+		}
+	},
+	[1230] = {
+		name = "精緻瓷器",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "種類繁多的精緻瓷器，瓷器上的花紋細膩繁複，表面光滑乾潔，摸上去手感極好，讓人忍不住放在手裡把玩。",
+		text = "dorm3d_dafeng_table",
+		id = 1230,
+		icon = "3Ddrom_dafeng_item30",
+		model = {
+			"fbx/litmap_01/pre_db_ceram18"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram18/vfx_wupintishi01"
 		}
 	},
 	[1601] = {

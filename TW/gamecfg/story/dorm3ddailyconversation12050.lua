@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，{namecode:97}要在您身上留下专属的烙印才行！",
+			say = "{dorm3d}，{namecode:97}要再您身上留下專屬的烙印才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "专属烙印？",
+			say = "專屬烙印？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "靠近一点——mua~这样就算留下{namecode:97}的专属烙印了！",
+			say = "靠近一點——mua~這樣就算留下{namecode:97}的專屬烙印了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "现在，换{dorm3d}在{namecode:97}身上留下烙印了。任何地方都可以哦。",
+			say = "現在，換{dorm3d}在{namecode:97}身上留下烙印了。任何地方都可以哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

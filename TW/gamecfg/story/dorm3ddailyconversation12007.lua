@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？{dorm3d}是什么时候进来的？难道，思念咒语真的有用！",
+			say = "欸？{dorm3d}是什麼時候進來的？難道，思念咒語真的有用！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.dorm3d_dance = {
 	[10517] = {
 		default_camera = "dance_camera1",
-		song_name = "迷乱奇遇",
+		song_name = "迷亂奇遇",
 		director_name = "[sequence]",
 		timeline_scene = "Dance_10517",
 		id = 10517,
@@ -30,14 +30,14 @@ pg.dorm3d_dance = {
 			"dance_camera3"
 		},
 		camera_names = {
-			"镜头1",
-			"镜头2",
-			"镜头3"
+			"鏡頭1",
+			"鏡頭2",
+			"鏡頭3"
 		}
 	},
 	[30707] = {
 		default_camera = "dance_camera1",
-		song_name = "今日之凤_shade",
+		song_name = "今日之鳳_shade",
 		director_name = "[sequence]",
 		timeline_scene = "Dance_30707",
 		id = 30707,
@@ -65,14 +65,14 @@ pg.dorm3d_dance = {
 			"dance_camera3"
 		},
 		camera_names = {
-			"镜头1",
-			"镜头2",
-			"镜头3"
+			"鏡頭1",
+			"鏡頭2",
+			"鏡頭3"
 		}
 	},
 	[49905] = {
 		default_camera = "dance_camera1",
-		song_name = "深渊的期待",
+		song_name = "深淵的期待",
 		director_name = "[sequence]",
 		timeline_scene = "Dance_49905",
 		id = 49905,
@@ -100,9 +100,9 @@ pg.dorm3d_dance = {
 			"dance_camera3"
 		},
 		camera_names = {
-			"镜头1",
-			"镜头2",
-			"镜头3"
+			"鏡頭1",
+			"鏡頭2",
+			"鏡頭3"
 		}
 	},
 	all = {

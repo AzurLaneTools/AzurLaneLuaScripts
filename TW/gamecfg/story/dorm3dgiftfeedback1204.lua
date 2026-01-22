@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_gift1_voice1/drom3d_Taiho_gift1_voice1",
 			actorName = 30707,
 			nameColor = "#FFFFFF",
-			say = "呵呵~这个礼物……还真是特别呢~",
+			say = "呵呵~這個禮物……還真是特別呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_gift1_voice2/drom3d_Taiho_gift1_voice2",
 			actorName = 30707,
 			nameColor = "#FFFFFF",
-			say = "大凤会心怀感激的收下哦~",
+			say = "大鳳會心懷感激的收下~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

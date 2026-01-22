@@ -5,11 +5,17 @@ pg.dorm3d_ins_telephone_group = setmetatable({
 		[10517] = {
 			10517301,
 			10517302
+		},
+		[30707] = {
+			30707301,
+			30707302
 		}
 	},
 	all = {
 		10517301,
-		10517302
+		10517302,
+		30707301,
+		30707302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -36,6 +42,30 @@ pg.base.dorm3d_ins_telephone_group = {
 		content = {
 			11,
 			110603
+		}
+	},
+	[30707301] = {
+		ship_group = 30707,
+		name = "{namecode:97}視頻通話",
+		background = "voice_placeholder",
+		type = 1,
+		id = 30707301,
+		unlock_desc = "進入{namecode:97}宿舍",
+		content = {
+			12,
+			120601
+		}
+	},
+	[30707302] = {
+		ship_group = 30707,
+		name = "{namecode:97}視頻通話",
+		background = "voice_placeholder",
+		type = 1,
+		id = 30707302,
+		unlock_desc = "{namecode:97}契合度12級",
+		content = {
+			12,
+			120602
 		}
 	}
 }

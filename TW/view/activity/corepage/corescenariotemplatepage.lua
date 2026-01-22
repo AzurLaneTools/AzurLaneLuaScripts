@@ -13,6 +13,7 @@ end
 slot0.OnInit = function(slot0)
 	slot0.storyLayer = slot0._tf:Find("Story")
 	slot0.top = slot0._tf:Find("TopPage")
+	slot0.bg = slot0._tf:Find("bg")
 	slot0.storyHolder = slot0._tf:Find("Story/Nodes")
 	slot0.storyContainer = slot0.storyHolder:Find("Viewport/Content")
 	slot0.nodes = {}
@@ -78,6 +79,10 @@ slot0.OnInit = function(slot0)
 		uv0.event:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
 	setText(slot0._tf:Find("TopPage/Desc/Desc"), i18n("series_enemy_storyreward"))
+
+	slot0.mapGroup = {}
+	slot0.currentBG = nil
+	slot0.loader = AutoLoader.New()
 end
 
 slot0.SetCoreStoryPage = function(slot0, slot1)
@@ -633,9 +638,6 @@ slot0.UpdateStory = function(slot0, slot1)
 			onButton(slot0, slot17:Find("btn_unlock"), function ()
 				PlayerPrefs.SetInt("player_" .. getProxy(PlayerProxy):getRawData().id .. "_activity_spStoryNodeID_" .. uv0 .. "_unlock", 1)
 				uv1:UpdateView(true)
-
-				uv1.needFocusStory = true
-
 				uv1:Move2UnlockStory()
 			end)
 
@@ -698,9 +700,6 @@ slot0.UpdateStory = function(slot0, slot1)
 
 				uv3:PlayStory(uv2:GetStoryName(), function ()
 					uv0:UpdateView(true)
-
-					uv0.needFocusStory = true
-
 					uv0:Move2UnlockStory()
 				end, true)
 			end)
@@ -744,11 +743,6 @@ slot0.DequeItem = function(slot0, slot1, slot2)
 end
 
 slot0.Move2UnlockStory = function(slot0)
-	if not slot0.needFocusStory then
-		return
-	end
-
-	slot0.needFocusStory = nil
 	slot2 = nil
 
 	for slot6 = #slot0.spStoryNodes, 1, -1 do
@@ -786,7 +780,7 @@ slot0.SwitchStoryMapAndBGM = function(slot0)
 	end
 
 	if slot1 ~= nil and slot1 ~= "" then
-		slot0.coreStoryPage:SwitchBG({
+		slot0:SwitchBG({
 			{
 				BG = slot1
 			}
@@ -796,6 +790,33 @@ slot0.SwitchStoryMapAndBGM = function(slot0)
 	if slot2 ~= nil and slot2 ~= "" then
 		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot2)
 	end
+end
+
+slot0.SwitchBG = function(slot0, slot1, slot2, slot3)
+	if not slot1 or #slot1 <= 0 then
+		existCall(slot2)
+
+		return
+	elseif slot3 then
+		-- Nothing
+	elseif table.equal(slot0.currentBG, slot1) then
+		return
+	end
+
+	slot0.currentBG = slot1
+
+	for slot7, slot8 in ipairs(slot0.mapGroup) do
+		slot0.loader:ClearRequest(slot8)
+	end
+
+	table.clear(slot0.mapGroup)
+
+	slot4 = slot0.loader
+
+	table.insert(slot0.mapGroup, slot4:GetSpriteDirect("bg/" .. slot1[1].BG, "", function (slot0)
+		setImageSprite(uv0.bg, slot0)
+		SetActive(uv0.bg, true)
+	end))
 end
 
 slot0.TrySubmitTask = function(slot0)
@@ -834,10 +855,11 @@ slot0.PlayStory = function(slot0, slot1, slot2, slot3)
 
 			if tonumber(uv2) and slot1 > 0 then
 				uv3.coreStoryPage:emit(ActivityMediator.GO_PERFORM_COMBAT, {
-					stageId = slot1
+					stageId = slot1,
+					exitCallback = uv4
 				})
 			else
-				uv4:Play(uv2, slot0, uv1)
+				uv5:Play(uv2, slot0, uv1)
 			end
 		end,
 		function (slot0, ...)

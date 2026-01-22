@@ -53,6 +53,12 @@ pg.dorm3d_gift = {
 				{
 					"banner_xinzexigift"
 				}
+			},
+			{
+				30707,
+				{
+					"banner_dafeng"
+				}
 			}
 		}
 	},
@@ -115,6 +121,12 @@ pg.dorm3d_gift = {
 				{
 					"banner_xinzexigift"
 				}
+			},
+			{
+				30707,
+				{
+					"banner_dafeng"
+				}
 			}
 		}
 	},
@@ -173,6 +185,12 @@ pg.dorm3d_gift = {
 				10517,
 				{
 					"banner_xinzexigift"
+				}
+			},
+			{
+				30707,
+				{
+					"banner_dafeng"
 				}
 			}
 		}
@@ -357,6 +375,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[3070701] = {
+		display = "與心型掛飾相扣的鎖鏈，是簡約卻蘊含深意的設計。輕輕觸摸，那冰涼的金屬觸感傳遞來的，是緊扣相連的愛~",
+		name = "相連的愛意",
+		unlock_dialogue_id = 120541,
+		rarity = 4,
+		ship_group_id = 30707,
+		favor_trigger_id = 1004,
+		id = 3070701,
+		icon = "dorm3dicon/3Ddrom_dafeng_FancyGift1",
+		reply_dialogue_id = {
+			{
+				30707,
+				120304
+			}
+		},
+		shop_id = {
+			260501
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				30707,
+				{
+					"banner_gift3070701"
+				}
+			}
+		}
+	},
 	get_id_list_by_ship_group_id = {
 		[0] = {
 			1021001,
@@ -376,6 +424,9 @@ pg.dorm3d_gift = {
 		},
 		[10517] = {
 			1051701
+		},
+		[30707] = {
+			3070701
 		}
 	},
 	all = {
@@ -387,6 +438,7 @@ pg.dorm3d_gift = {
 		3022101,
 		3022102,
 		1990301,
-		1051701
+		1051701,
+		3070701
 	}
 }
