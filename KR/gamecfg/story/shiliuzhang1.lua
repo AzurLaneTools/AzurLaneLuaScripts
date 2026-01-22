@@ -20,7 +20,7 @@ return {
 					0.2
 				},
 				{
-					"▇ ▇ ▇岛海域",
+					"▇ ▇ ▇ ▇ 섬 해역",
 					0.3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			hidePaintObj = true,
-			say = "\t指挥官，我方水下支援舰队已经发现敌方高威胁目标，开始进行攻击。",
+			say = "아측 잠수 지원함대, 고위협 표적 발견. 공격 개시하겠음.",
 			effects = {
 				{
 					active = true,
