@@ -260,7 +260,7 @@ slot0.GenFleet = function(slot0)
 		ship_list = slot0:GetCacheShips(uv0),
 		fleetType = FleetType.Normal
 	})
-	slot0.fleetForArchives = Fleet.New({
+	slot0.fleetForArchives = TypedFleet.New({
 		id = 1,
 		name = i18n("world_boss_fleet"),
 		ship_list = slot0:GetCacheShips(uv1),
@@ -300,10 +300,10 @@ end
 slot0.GetFleet = function(slot0, slot1)
 	slot3 = nil
 	slot3 = (uv0 ~= slot0:BossId2FleetKey(slot1) or slot0.fleetForArchives) and slot0.fleet or Fleet.New({
-		0,
 		id = 1,
 		name = i18n("world_boss_fleet"),
-		ship_list = {}
+		ship_list = {},
+		fleetType = FleetType.Normal
 	})
 
 	for slot7 = #slot3.ships, 1, -1 do

@@ -84,7 +84,7 @@ slot0.CopyFleetsByOther = function(slot0, slot1)
 	end
 
 	getProxy(FleetProxy):updateActivityFleet(slot0.actId, slot3[#slot3], TypedFleet.New(setmetatable({
-		id = slot3[i]
+		id = slot3[#slot3]
 	}, {
 		__index = slot2[#slot2]:SeparateOut()
 	})))
@@ -124,6 +124,8 @@ slot0.GetModeFleetIDs = function(slot0, slot1)
 		slot4 = {
 			table.remove(underscore.rest(slot2))
 		}
+	else
+		assert(false)
 	end
 
 	return slot3, slot4

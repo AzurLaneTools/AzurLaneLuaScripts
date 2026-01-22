@@ -29,17 +29,15 @@ slot0.execute = function(slot0, slot1)
 
 	slot8 = slot7:GetFleetIds()
 	slot10, slot11 = slot7:GetModeFleetIDs(slot2.mode)
-	slot13 = _.map(slot10, function (slot0)
-		return uv0[slot0]
-	end)
+	slot12 = slot7:GetFleets(slot10)
 
-	if getProxy(FleetProxy):getActivityFleets()[slot4][slot11[1]]:isEmpty() then
+	if slot7:GetFleets(slot11)[1]:isEmpty() then
 		table.remove(slot11)
 	end
 
-	slot18 = getProxy(PlayerProxy)
+	slot17 = getProxy(PlayerProxy)
 
-	if slot18:getRawData().oil < (function ()
+	if slot17:getRawData().oil < (function ()
 		slot0 = 0
 		slot1 = nil
 		slot4 = pg.battle_cost_template[(uv0.__cname ~= "CollabrateBossRushSeriesData" or SYSTEM_BOSS_RUSH_COLLABRATE) and (uv0:GetType() ~= BossRushSeriesData.TYPE.EXTRA or SYSTEM_BOSS_RUSH_EX) and SYSTEM_BOSS_RUSH].oil_cost > 0
@@ -63,16 +61,16 @@ slot0.execute = function(slot0, slot1)
 
 		return slot0
 	end)() + slot7:GetOilCost() then
-		if not ItemTipPanel.ShowOilBuyTip(slot16) then
+		if not ItemTipPanel.ShowOilBuyTip(slot15) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 		end
 
 		return
 	end
 
-	slot18 = pg.ConnectionMgr.GetInstance()
+	slot17 = pg.ConnectionMgr.GetInstance()
 
-	slot18:Send(11202, {
+	slot17:Send(11202, {
 		cmd = 1,
 		activity_id = slot4,
 		arg1 = slot3,

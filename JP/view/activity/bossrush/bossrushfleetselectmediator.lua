@@ -47,10 +47,10 @@ slot0.register = function(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_UPDATE_CUSTOM_FLEET, function (slot0)
-		_.each(uv0.contextData.fleets, function (slot0)
+		_.each(uv0.contextData.fullFleets, function (slot0)
 			getProxy(FleetProxy):updateActivityFleet(uv0.contextData.actId, slot0.id, slot0)
 		end)
-		_.each(uv0.contextData.fleets, function (slot0)
+		_.each(uv0.contextData.fullFleets, function (slot0)
 			uv0[slot0.id] = slot0
 		end)
 		uv0:sendNotification(GAME.EDIT_ACTIVITY_FLEET, {
