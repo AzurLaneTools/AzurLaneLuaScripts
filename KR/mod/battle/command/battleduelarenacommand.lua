@@ -10,10 +10,6 @@ slot3.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-slot3.ConfigBattleData = function(slot0, slot1)
-	slot0._battleInitData = slot1
-end
-
 slot3.Initialize = function(slot0)
 	slot0:Init()
 	uv0.super.Initialize(slot0)
@@ -26,26 +22,31 @@ slot3.Initialize = function(slot0)
 end
 
 slot3.DoPrologue = function(slot0)
-	slot0._dataProxy:InitUserShipsData(slot0._battleInitData.RivalMainUnitList, slot0._battleInitData.RivalVanguardUnitList, uv0.Battle.BattleConfig.FOE_CODE, {})
+	slot1 = slot0._dataProxy:GetInitData()
+
+	slot0._dataProxy:InitUserShipsData(slot1.RivalMainUnitList, slot1.RivalVanguardUnitList, uv0.Battle.BattleConfig.FOE_CODE, {})
 	slot0._userFleet:SnapShot()
 	slot0._rivalFleet:SnapShot()
 
 	slot0._rivalWeaponBot = uv0.Battle.BattleManualWeaponAutoBot.New(slot0._rivalFleet)
 	slot0._rivalJoyStickBot = uv0.Battle.BattleJoyStickAutoBot.New(slot0._dataProxy, slot0._rivalFleet)
-	slot1 = slot0._uiMediator:InitDuelRateBar()
-	slot2 = getProxy(PlayerProxy):getData()
 
-	slot1:SetFleetVO(slot0._userFleet, {
-		name = slot2.name,
-		level = slot2.level
+	slot0._rivalJoyStickBot:SwitchStrategy(slot0._rivalJoyStickBot.RANDOM)
+
+	slot2 = slot0._uiMediator:InitDuelRateBar()
+	slot3 = getProxy(PlayerProxy):getData()
+
+	slot2:SetFleetVO(slot0._userFleet, {
+		name = slot3.name,
+		level = slot3.level
 	})
 
-	slot3 = slot0._dataProxy:GetInitData().RivalVO
-	slot8 = slot3.level
+	slot4 = slot0._dataProxy:GetInitData().RivalVO
+	slot9 = slot4.level
 
-	slot1:SetFleetVO(slot0._rivalFleet, {
-		name = slot3.name,
-		level = slot8
+	slot2:SetFleetVO(slot0._rivalFleet, {
+		name = slot4.name,
+		level = slot9
 	})
 	slot0._dataProxy:AutoStatistics(1)
 	slot0._uiMediator:OpeningEffect(function ()
@@ -60,12 +61,12 @@ slot3.DoPrologue = function(slot0)
 		uv0._uiMediator:EnableWeaponButton(false)
 	end)
 
-	for slot8, slot9 in pairs(slot0._dataProxy:GetFleetList()) do
-		slot9:FleetWarcry()
+	for slot9, slot10 in pairs(slot0._dataProxy:GetFleetList()) do
+		slot10:FleetWarcry()
 
-		for slot14, slot15 in ipairs(slot9:GetUnitList()) do
-			for slot21, slot22 in ipairs(uv0.Battle.BattleDataFunction.GetArenaBuffByShipType(slot15:GetTemplate().type)) do
-				slot15:AddBuff(uv0.Battle.BattleBuffUnit.New(slot22))
+		for slot15, slot16 in ipairs(slot10:GetUnitList()) do
+			for slot22, slot23 in ipairs(uv0.Battle.BattleDataFunction.GetArenaBuffByShipType(slot16:GetTemplate().type)) do
+				slot16:AddBuff(uv0.Battle.BattleBuffUnit.New(slot23))
 			end
 		end
 	end
@@ -74,8 +75,8 @@ slot3.DoPrologue = function(slot0)
 	slot0._dataProxy:InitAllFleetUnitsWeaponCD()
 	slot0._dataProxy:TirggerBattleStartBuffs()
 
-	for slot9, slot10 in ipairs(slot0._userFleet:GetUnitList()) do
-		slot10:AddBuff(uv0.Battle.BattleBuffUnit.New(uv0.Battle.BattleConfig.DULE_BALANCE_BUFF))
+	for slot10, slot11 in ipairs(slot0._userFleet:GetUnitList()) do
+		slot11:AddBuff(uv0.Battle.BattleBuffUnit.New(uv0.Battle.BattleConfig.DULE_BALANCE_BUFF))
 	end
 end
 

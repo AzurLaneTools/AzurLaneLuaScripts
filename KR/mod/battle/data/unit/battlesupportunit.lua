@@ -33,7 +33,7 @@ slot7.setWeapon = function(slot0, slot1)
 			slot12 = slot5[slot9]
 
 			slot13 = function(slot0, slot1, slot2)
-				if uv0.GetWeaponPropertyDataFromID(slot0).type == uv1.EquipmentType.INTERCEPT_AIRCRAFT then
+				if uv0.GetWeaponPropertyDataFromID(slot0).type == uv1.EquipmentType.INTERCEPT_AIRCRAFT or slot3 == uv1.EquipmentType.TORPEDO then
 					for slot8 = 1, uv2[uv3] do
 						slot10 = uv4:AddWeapon(slot0, slot1, slot2, uv5, uv3):GetTemplateData().type
 
@@ -45,14 +45,14 @@ slot7.setWeapon = function(slot0, slot1)
 			end
 
 			if slot10.equipment and #slot10.equipment.weapon_id > 0 then
-				if slot10.equipment.type == EquipType.FighterAircraft then
+				if slot10.equipment.type == EquipType.FighterAircraft or slot10.equipment.type == EquipType.SubmarineTorpedo then
 					for slot18, slot19 in ipairs(slot10.equipment.weapon_id) do
 						if (not uv2.EQUIPMENT_ACTIVE_LIMITED_BY_TYPE[uv0.GetWeaponPropertyDataFromID(slot19).type] or table.contains(slot21, slot0._tmpData.type)) and slot19 and slot19 ~= -1 then
 							slot13(slot19, slot10.equipment.label, slot10.skin)
 						end
 					end
 				end
-			elseif uv0.GetWeaponDataFromID(slot2[slot9]).type == EquipType.FighterAircraft then
+			elseif uv0.GetWeaponDataFromID(slot2[slot9]).type == EquipType.FighterAircraft or slot15.type == EquipType.SubmarineTorpedo then
 				slot13(slot14, slot15.label)
 			end
 		end
@@ -61,7 +61,7 @@ slot7.setWeapon = function(slot0, slot1)
 	slot6 = #slot2
 
 	for slot11, slot12 in ipairs(slot0._tmpData.fix_equip_list) do
-		if slot12 and slot12 ~= -1 and uv0.GetWeaponPropertyDataFromID(slot12).type == uv1.EquipmentType.INTERCEPT_AIRCRAFT then
+		if slot12 and slot12 ~= -1 and (uv0.GetWeaponPropertyDataFromID(slot12).type == uv1.EquipmentType.INTERCEPT_AIRCRAFT or slot13 == uv1.EquipmentType.TORPEDO) then
 			slot0:AddWeapon(slot12, nil, , slot4[slot11 + slot6] or 1, slot11 + slot6):SetFixedFlag()
 		end
 	end
@@ -74,6 +74,7 @@ slot7.AddWeapon = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot7:SetEquipmentLabel(slot2)
 	end
 
+	slot7:SetSupportWeapon()
 	slot0:AddAutoWeapon(slot7)
 
 	if slot3 and slot3 ~= 0 then

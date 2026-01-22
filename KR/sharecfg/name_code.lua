@@ -1911,6 +1911,20 @@ pg.name_code = {
 		code = "특잠형",
 		nation = 0
 	},
+	[309] = {
+		name = "콘고급 양산형",
+		type = 1,
+		id = 309,
+		code = "콘고급 양산형",
+		nation = 0
+	},
+	[310] = {
+		name = "후지나미",
+		type = 1,
+		id = 310,
+		code = "후지나미",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

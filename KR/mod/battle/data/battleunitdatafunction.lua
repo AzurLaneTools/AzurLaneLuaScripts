@@ -174,14 +174,14 @@ slot33.AttachWeather = function(slot0, slot1)
 		if slot0:GetFleetVO() then
 			slot3 = slot0:GetFleetVO()
 
-			if table.contains(TeamType.VanguardShipType, slot2) then
+			if table.contains(ShipType.VanguardShipType, slot2) then
 				slot4 = slot3:GetFleetBias()
 
 				slot4:ConfigMinRange(uv1.AIM_BIAS_MIN_RANGE_SCOUT[slot4:GetCrewCount() + 1])
 				slot4:AppendCrew(slot0)
-			elseif table.contains(TeamType.MainShipType, slot2) then
+			elseif table.contains(ShipType.MainShipType, slot2) then
 				slot3:AttachCloak(slot0)
-			elseif table.contains(TeamType.SubShipType, slot2) then
+			elseif table.contains(ShipType.SubShipType, slot2) then
 				slot4 = uv2.Battle.BattleUnitAimBiasComponent.New()
 
 				slot4:ConfigRangeFormula(uv2.Battle.BattleFormulas.CalculateMaxAimBiasRangeSub, uv2.Battle.BattleFormulas.CalculateBiasDecay)
@@ -192,7 +192,7 @@ slot33.AttachWeather = function(slot0, slot1)
 		elseif slot0:GetUnitType() == uv0.UnitType.ENEMY_UNIT or slot0:GetUnitType() == uv0.UnitType.MINION_UNIT or slot0:GetUnitType() == uv0.UnitType.BOSS_UNIT then
 			uv2.Battle.BattleUnitAimBiasComponent.New():ConfigRangeFormula(uv2.Battle.BattleFormulas.CalculateMaxAimBiasRangeMonster, uv2.Battle.BattleFormulas.CalculateBiasDecayMonster)
 
-			if table.contains(TeamType.SubShipType, slot2) then
+			if table.contains(ShipType.SubShipType, slot2) then
 				slot3:ConfigMinRange(uv1.AIM_BIAS_MIN_RANGE_SUB)
 			else
 				slot3:ConfigMinRange(uv1.AIM_BIAS_MIN_RANGE_MONSTER)
@@ -218,7 +218,7 @@ slot33.AttachSmoke = function(slot0)
 		else
 			uv1.Battle.BattleUnitAimBiasComponent.New():ConfigRangeFormula(uv1.Battle.BattleFormulas.CalculateMaxAimBiasRangeMonster, uv1.Battle.BattleFormulas.CalculateBiasDecayMonsterInSmoke)
 
-			if table.contains(TeamType.SubShipType, shipType) then
+			if table.contains(ShipType.SubShipType, shipType) then
 				slot2:ConfigMinRange(uv2.AIM_BIAS_MIN_RANGE_SUB)
 			else
 				slot2:ConfigMinRange(uv2.AIM_BIAS_MIN_RANGE_MONSTER)

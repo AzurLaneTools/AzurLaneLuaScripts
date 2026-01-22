@@ -3930,6 +3930,13 @@ pg.memory_template = setmetatable({
 		4944,
 		4945,
 		4946,
+		4951,
+		4952,
+		4953,
+		4954,
+		4955,
+		4956,
+		4957,
 		10000,
 		10001,
 		10002,
@@ -35345,7 +35352,7 @@ pg.base.memory_template = {
 		number = 0,
 		title = "5. 챕터42: 승리의 용자",
 		condition = "「용자의 여정」 BOSS 조우",
-		story = "51003",
+		story = "50003",
 		id = 2355,
 		icon = "memory_yongzhedelvtu",
 		is_open = 0,
@@ -35390,7 +35397,7 @@ pg.base.memory_template = {
 		number = 0,
 		title = "3. 이야기의 결말",
 		condition = "「꼬마 그라프 슈피 추격전」 BOSS 조우",
-		story = "51002",
+		story = "50002",
 		id = 2363,
 		icon = "memory_weijiaoxiaosipeibojue",
 		is_open = 0,
@@ -63075,6 +63082,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII6"
+		}
+	},
+	[4951] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "집무실의 「위광」 플랜",
+		condition = "「위광 가이드 투어 1」 시작",
+		story = "WEINEITUO1",
+		id = 4951,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO1"
+		}
+	},
+	[4952] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "정원에서의 우아한 시간",
+		condition = "「위광 가이드 투어 2」 시작",
+		story = "WEINEITUO2",
+		id = 4952,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO2"
+		}
+	},
+	[4953] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "예술적 공명",
+		condition = "「위광 가이드 투어 3」 시작",
+		story = "WEINEITUO3",
+		id = 4953,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO3"
+		}
+	},
+	[4954] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "입욕 전 준비",
+		condition = "「위광 가이드 투어 4」 시작",
+		story = "WEINEITUO4",
+		id = 4954,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO4"
+		}
+	},
+	[4955] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "몸에 스며드는 온기",
+		condition = "「위광 가이드 투어 5」 시작",
+		story = "WEINEITUO5",
+		id = 4955,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO5"
+		}
+	},
+	[4956] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "손끝의 리듬",
+		condition = "「위광 가이드 투어 6」 시작",
+		story = "WEINEITUO6",
+		id = 4956,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO6"
+		}
+	},
+	[4957] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "한 걸음 더",
+		condition = "「위광 가이드 투어 7」 시작",
+		story = "WEINEITUO7",
+		id = 4957,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO7"
 		}
 	},
 	[10000] = {

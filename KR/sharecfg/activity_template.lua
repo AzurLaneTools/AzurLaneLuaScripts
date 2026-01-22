@@ -34925,7 +34925,7 @@ pg.activity_template = {
 		}
 	},
 	[50286] = {
-		mark = 20251218,
+		mark = 20250912,
 		page_info = "",
 		type = 10,
 		login_pop = 0,
@@ -35302,7 +35302,7 @@ pg.activity_template = {
 		}
 	},
 	[50293] = {
-		mark = 251218,
+		mark = 20251218,
 		page_info = "",
 		type = 13,
 		login_pop = 0,
@@ -35554,7 +35554,7 @@ pg.activity_template = {
 		type = 63,
 		login_pop = 0,
 		config_id = 7,
-		is_show = 2,
+		is_show = 3,
 		config_client = "",
 		title_res_tag = "winterwish_20251225",
 		id = 50298,

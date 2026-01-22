@@ -93,6 +93,8 @@ slot0.init = function(slot0)
 	slot0._fxContainerBottom = slot0._tf:Find("FXContainerBottom")
 	slot0._canvasOrder = slot0._tf:GetComponentInParent(typeof(UnityEngine.Canvas)) and slot3.sortingOrder or 0
 	slot0._ratioFitter = GetComponent(slot0._tf, typeof(AspectRatioFitter))
+
+	slot0._go:AddComponent(typeof(RectMask2D))
 end
 
 slot0.initPainting = function(slot0)
@@ -228,7 +230,7 @@ slot0.SkillHrzPop = function(slot0, slot1, slot2, slot3, slot4)
 	if slot3 then
 		slot0:commanderSkillFloat(slot3, slot1, slot8)
 	else
-		slot17 = table.contains(TeamType.SubShipType, slot2:GetTemplate().type)
+		slot17 = table.contains(ShipType.SubShipType, slot2:GetTemplate().type)
 		slot18 = slot2:GetMainUnitIndex()
 
 		if ys.Battle.BattleCameraUtil.GetInstance():GetCharacterArrowBarPosition(uv1.CameraPosToUICamera(slot2:GetPosition():Clone())) == nil or slot16 == nil and slot17 and not slot2:IsMainFleetUnit() then
@@ -544,31 +546,22 @@ slot0.setChapter = function(slot0, slot1)
 	slot0._chapter = slot1
 end
 
-slot0.setFleet = function(slot0, slot1, slot2)
+slot0.setFleet = function(slot0, slot1, slot2, slot3)
 	slot0._mainShipVOs = slot1
 	slot0._vanShipVOs = slot2
+	slot0._subShipVOs = slot3
 end
 
 slot0.initPauseWindow = function(slot0)
-	slot1 = slot0._tf
-	slot0.pauseWindow = slot1:Find("Msgbox")
-	slot1 = slot0.pauseWindow
-	slot0.LeftTimeContainer = slot1:Find("window/LeftTime")
-	slot1 = slot0.pauseWindow
-	slot0.LeftTime = slot1:Find("window/LeftTime/Text")
+	slot0.pauseWindow = slot0._tf:Find("Msgbox")
+	slot0.LeftTimeContainer = slot0.pauseWindow:Find("window/LeftTime")
+	slot0.LeftTime = slot0.pauseWindow:Find("window/LeftTime/Text")
 	slot0.mainTFs = {}
 	slot0.vanTFs = {}
-	slot2 = slot0.LeftTimeContainer
 
-	setText(slot2:Find("label"), i18n("battle_battleMediator_remainTime"))
-
-	slot2 = slot0.pauseWindow
-
-	setText(slot2:Find("window/van/power/title"), i18n("word_vanguard_fleet"))
-
-	slot2 = slot0.pauseWindow
-
-	setText(slot2:Find("window/main/power/title"), i18n("word_main_fleet"))
+	setText(slot0.LeftTimeContainer:Find("label"), i18n("battle_battleMediator_remainTime"))
+	setText(slot0.pauseWindow:Find("window/van/power/title"), i18n("word_vanguard_fleet"))
+	setText(slot0.pauseWindow:Find("window/main/power/title"), i18n("word_main_fleet"))
 
 	slot1 = function(slot0, slot1, slot2)
 		for slot6 = 1, 3 do
@@ -578,7 +571,7 @@ slot0.initPauseWindow = function(slot0)
 				updateShip(slot7, slot2[slot6])
 			end
 
-			table.insert(slot0 and uv0.mainTFs or uv0.vanTFs, slot7)
+			table.insert(slot0, slot7)
 		end
 
 		if slot2 then
@@ -592,49 +585,61 @@ slot0.initPauseWindow = function(slot0)
 		end
 	end
 
+	slot3 = ys.Battle.BattleState.GetInstance():GetBattleType()
+
 	if slot0._mainShipVOs then
-		slot1(true, slot0.pauseWindow:Find("window/main"), slot0._mainShipVOs)
-		slot1(false, slot0.pauseWindow:Find("window/van"), slot0._vanShipVOs)
+		slot1(slot0.mainTFs, slot0.pauseWindow:Find("window/main"), slot0._mainShipVOs)
+		slot1(slot0.vanTFs, slot0.pauseWindow:Find("window/van"), slot0._vanShipVOs)
+	elseif slot3 == SYSTEM_SCENARIO_SUB_STRIKE then
+		slot0.subTFs = {}
+		slot4 = slot0.pauseWindow:Find("window/main")
+
+		setActive(slot0.pauseWindow:Find("window/van"), false)
+		setActive(slot0.pauseWindow:Find("window/bg_fleet/Image (1)"), false)
+		slot1(slot0.subTFs, slot4, slot0._subShipVOs)
+		setText(slot4:Find("power/title"), i18n("index_shipType_qianTing"))
+
+		slot4.localPosition = Vector3(0, slot4.localPosition.y, 0)
 	end
 
-	slot3 = findTF(slot0.pauseWindow, "window/Chapter")
-	slot4 = findTF(slot0.pauseWindow, "window/Chapter/Text")
+	slot4 = findTF(slot0.pauseWindow, "window/Chapter")
+	slot5 = findTF(slot0.pauseWindow, "window/Chapter/Text")
 	slot0.continueBtn = slot0.pauseWindow:Find("window/button_container/continue")
 	slot0.leaveBtn = slot0.pauseWindow:Find("window/button_container/leave")
 
 	setText(slot0.continueBtn:Find("pic"), i18n("battle_battleMediator_goOnFight"))
 	setText(slot0.leaveBtn:Find("pic"), i18n("battle_battleMediator_existFight"))
 
-	if ys.Battle.BattleState.GetInstance():GetBattleType() == SYSTEM_SCENARIO then
+	if slot3 == SYSTEM_SCENARIO or slot3 == SYSTEM_SCENARIO_SUB_STRIKE then
 		slot6 = slot0._chapter:getConfigTable()
 
-		setText(slot3, slot6.chapter_name)
-		setText(slot4, string.split(slot6.name, "|")[1])
-	elseif slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_BOSS_EXPERIMENT or slot5 == SYSTEM_ACT_BOSS or slot5 == SYSTEM_ACT_BOSS_SP or slot5 == SYSTEM_BOSS_RUSH or slot5 == SYSTEM_BOSS_RUSH_EX or slot5 == SYSTEM_BOSS_RUSH_COLLABRATE or slot5 == SYSTEM_LIMIT_CHALLENGE or slot5 == SYSTEM_BOSS_SINGLE or slot5 == SYSTEM_BOSS_SINGLE_VARIABLE then
-		setText(slot3, "SP")
-		setText(slot4, pg.expedition_data_template[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().StageTmpId].name)
-	elseif slot5 == SYSTEM_DEBUG then
-		setText(slot3, "??")
-		setText(slot4, "碧蓝梦境")
-	elseif slot5 == SYSTEM_CHALLENGE then
-		setText(slot3, "SP")
-		setText(slot4, slot0._chapter:getNextExpedition().chapter_name[2])
+		setText(slot4, slot6.chapter_name)
+		setText(slot5, string.split(slot6.name, "|")[1])
+	elseif slot3 == SYSTEM_ROUTINE or slot3 == SYSTEM_DUEL or slot3 == SYSTEM_HP_SHARE_ACT_BOSS or slot3 == SYSTEM_BOSS_EXPERIMENT or slot3 == SYSTEM_ACT_BOSS or slot3 == SYSTEM_ACT_BOSS_SP or slot3 == SYSTEM_BOSS_RUSH or slot3 == SYSTEM_BOSS_RUSH_EX or slot3 == SYSTEM_BOSS_RUSH_COLLABRATE or slot3 == SYSTEM_LIMIT_CHALLENGE or slot3 == SYSTEM_BOSS_SINGLE or slot3 == SYSTEM_BOSS_SINGLE_VARIABLE then
+		setText(slot4, "SP")
+		setText(slot5, pg.expedition_data_template[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().StageTmpId].name)
+	elseif slot3 == SYSTEM_DEBUG then
+		setText(slot4, "??")
+		setText(slot5, "碧蓝梦境")
+	elseif slot3 == SYSTEM_CHALLENGE then
+		setText(slot4, "SP")
+		setText(slot5, slot0._chapter:getNextExpedition().chapter_name[2])
 		setActive(slot0.LeftTimeContainer, true)
-	elseif slot5 == SYSTEM_WORLD_BOSS or slot5 == SYSTEM_WORLD then
-		setText(slot3, i18n("world_battle_pause"))
-		setText(slot4, i18n("world_battle_pause2"))
+	elseif slot3 == SYSTEM_WORLD_BOSS or slot3 == SYSTEM_WORLD then
+		setText(slot4, i18n("world_battle_pause"))
+		setText(slot5, i18n("world_battle_pause2"))
 
-		if slot5 == SYSTEM_WORLD_BOSS then
+		if slot3 == SYSTEM_WORLD_BOSS then
 			setActive(slot0.leaveBtn, false)
 		end
-	elseif slot5 == SYSTEM_GUILD then
-		setText(slot3, "BOSS")
-		setText(slot4, pg.guild_boss_event[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().ActID] and slot7.name or "")
-	elseif slot5 ~= SYSTEM_TEST and slot5 ~= SYSTEM_SUB_ROUTINE and slot5 ~= SYSTEM_PERFORM and slot5 ~= SYSTEM_PROLOGUE and slot5 ~= SYSTEM_DODGEM and slot5 ~= SYSTEM_SIMULATION and slot5 ~= SYSTEM_SUBMARINE_RUN and slot5 ~= SYSTEM_BOSS_EXPERIMENT and slot5 ~= SYSTEM_REWARD_PERFORM then
-		if slot5 == SYSTEM_AIRFIGHT then
+	elseif slot3 == SYSTEM_GUILD then
+		setText(slot4, "BOSS")
+		setText(slot5, pg.guild_boss_event[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().ActID] and slot7.name or "")
+	elseif slot3 ~= SYSTEM_TEST and slot3 ~= SYSTEM_SUB_ROUTINE and slot3 ~= SYSTEM_SCENARIO_SUB_STRIKE and slot3 ~= SYSTEM_PERFORM and slot3 ~= SYSTEM_PROLOGUE and slot3 ~= SYSTEM_DODGEM and slot3 ~= SYSTEM_SIMULATION and slot3 ~= SYSTEM_SUBMARINE_RUN and slot3 ~= SYSTEM_BOSS_EXPERIMENT and slot3 ~= SYSTEM_REWARD_PERFORM then
+		if slot3 == SYSTEM_AIRFIGHT then
 			-- Nothing
-		elseif slot5 ~= SYSTEM_CARDPUZZLE then
-			assert(false, "System not defined " .. (slot5 or "NIL"))
+		elseif slot3 ~= SYSTEM_CARDPUZZLE then
+			assert(false, "System not defined " .. (slot3 or "NIL"))
 		end
 	end
 
@@ -661,14 +666,12 @@ slot0.initPauseWindow = function(slot0)
 				slot2 = slot2:GetComponent(typeof(DftAniEvent))
 
 				slot2:SetEndEvent(function (slot0)
-					setActive(uv0.pauseWindow, false)
-					pg.UIMgr.GetInstance():UnOverlayPanel(uv0.pauseWindow, uv0._tf)
+					uv0:ClosePauseWindow()
 					uv1:Resume()
 				end)
 			end
 		else
-			setActive(uv0.pauseWindow, false)
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.pauseWindow, uv0._tf)
+			uv0:ClosePauseWindow()
 			uv1:Resume()
 		end
 	end)
@@ -677,8 +680,7 @@ slot0.initPauseWindow = function(slot0)
 
 	onButton(slot0, slot8:Find("help"), function ()
 		if BATTLE_DEBUG and PLATFORM == 7 then
-			setActive(uv0.pauseWindow, false)
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.pauseWindow, uv0._tf)
+			uv0:ClosePauseWindow()
 			uv1:Resume()
 			uv1:OpenConsole()
 		else
@@ -711,33 +713,47 @@ slot0.updatePauseWindow = function(slot0)
 	end
 
 	setActive(slot0.pauseWindow, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.pauseWindow)
 
-	slot2 = ys.Battle.BattleState.GetInstance():GetProxyByName(ys.Battle.BattleDataProxy.__name)
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0.pauseWindow)
+
+	slot1 = ys.Battle.BattleState.GetInstance()
+	slot2 = slot1:GetProxyByName(ys.Battle.BattleDataProxy.__name)
 	slot3 = slot2:GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE)
 
-	slot6 = function(slot0, slot1, slot2)
+	slot4 = function(slot0, slot1)
 		if not slot0 then
 			return
 		end
 
-		for slot6 = 1, #slot0 do
-			if uv0:GetFreezeShipByID(slot0[slot6].id) then
-				setSlider(slot2[slot6]:Find("blood"), 0, 1, uv0:GetFreezeShipByID(slot7):GetHPRate())
-				SetActive(slot2[slot6]:Find("mask"), false)
-			elseif uv0:GetShipByID(slot7) then
-				setSlider(slot2[slot6]:Find("blood"), 0, 1, uv0:GetShipByID(slot7):GetHPRate())
-				SetActive(slot2[slot6]:Find("mask"), false)
+		for slot5 = 1, #slot0 do
+			if uv0:GetFreezeShipByID(slot0[slot5].id) then
+				setSlider(slot1[slot5]:Find("blood"), 0, 1, uv0:GetFreezeShipByID(slot6):GetHPRate())
+				SetActive(slot1[slot5]:Find("mask"), false)
+			elseif uv0:GetShipByID(slot6) then
+				setSlider(slot1[slot5]:Find("blood"), 0, 1, uv0:GetShipByID(slot6):GetHPRate())
+				SetActive(slot1[slot5]:Find("mask"), false)
 			else
-				setSlider(slot2[slot6]:Find("blood"), 0, 1, 0)
-				SetActive(slot2[slot6]:Find("mask"), true)
+				setSlider(slot1[slot5]:Find("blood"), 0, 1, 0)
+				SetActive(slot1[slot5]:Find("mask"), true)
 			end
 		end
 	end
 
-	slot6(slot0._mainShipVOs, slot3:GetMainList(), slot0.mainTFs)
-	slot6(slot0._vanShipVOs, slot3:GetScoutList(), slot0.vanTFs)
+	slot4(slot0._mainShipVOs, slot0.mainTFs)
+	slot4(slot0._vanShipVOs, slot0.vanTFs)
+
+	if slot0.subTFs then
+		slot4(slot0._subShipVOs, slot0.subTFs)
+	end
+
 	setText(slot0.LeftTime, ys.Battle.BattleTimerView.formatTime(math.floor(slot2:GetCountDown())))
+end
+
+slot0.ClosePauseWindow = function(slot0)
+	setActive(slot0.pauseWindow, false)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.pauseWindow, slot0._tf)
 end
 
 slot0.AddUIFX = function(slot0, slot1, slot2)

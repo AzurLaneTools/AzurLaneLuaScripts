@@ -386,7 +386,6 @@ slot0.TAG_BLOCK_BACKYARD = {
 slot0.STATE_CHANGE_OK = -1
 slot0.STATE_CHANGE_FAIL = 0
 slot0.STATE_CHANGE_CHECK = 1
-slot0.STATE_CHANGE_TIP = 2
 slot1 = {
 	inFleet = {
 		inSupport = 1,
@@ -531,8 +530,6 @@ slot0.ShipStatusCheck = function(slot0, slot1, slot2, slot3)
 		else
 			return false
 		end
-	elseif slot4 == uv0.STATE_CHANGE_TIP then
-		return uv0.ChangeStatusTipBox(slot5, slot1)
 	elseif slot4 == uv0.STATE_CHANGE_OK then
 		return true
 	else
@@ -553,12 +550,6 @@ slot0.ShipStatusConflict = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(uv1.flagList) do
 		if slot3[slot8] == uv1.STATE_CHANGE_CHECK and slot1:getFlag(slot8, slot2[slot8]) then
 			return uv1.STATE_CHANGE_CHECK, slot8
-		end
-	end
-
-	for slot7, slot8 in ipairs(uv1.flagList) do
-		if slot3[slot8] == uv1.STATE_CHANGE_TIP and slot1:getFlag(slot8, slot2[slot8]) then
-			return uv1.STATE_CHANGE_TIP, slot8
 		end
 	end
 
@@ -591,6 +582,18 @@ slot0.ChangeStatusCheckBox = function(slot0, slot1, slot2)
 				else
 					pg.TipsMgr.GetInstance():ShowTips(i18n("shipmodechange_reject_1stfleet_only"))
 				end
+			end
+		})
+
+		return false, nil
+	elseif slot0 == "inSupport" then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("ship_formationMediator_request_replace_support"),
+			onYes = function ()
+				pg.m02:sendNotification(GAME.REMOVE_ELITE_TARGET_SHIP, {
+					shipId = uv0.id,
+					callback = uv1
+				})
 			end
 		})
 
@@ -699,17 +702,6 @@ slot0.ChangeStatusCheckBox = function(slot0, slot1, slot2)
 
 			return false, nil
 		end
-	end
-
-	return true
-end
-
-slot0.ChangeStatusTipBox = function(slot0, slot1)
-	if slot0 == "inElite" then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			hideNo = true,
-			content = i18n("ship_vo_moveout_hardFormation")
-		})
 	end
 
 	return true

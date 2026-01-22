@@ -363,7 +363,7 @@ slot0.filteMetaByType = function(slot0, slot1)
 	end
 
 	slot3 = function(slot0)
-		return TeamType.GetTeamFromShipType(slot0)
+		return ShipType.GetTeamFromShipType(slot0)
 	end
 
 	for slot7 = 2, #ShipIndexCfg.type do

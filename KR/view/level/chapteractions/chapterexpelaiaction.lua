@@ -49,7 +49,7 @@ slot0.applyTo = function(slot0, slot1, slot2)
 				uv0:updateChapterCell(slot1)
 			end)
 
-			slot3 = bit.bor(slot3, ChapterConst.DirtyCellFlag)
+			slot3 = bit.bor(slot3, ChapterConst.DirtyCellFlag, ChapterConst.DirtyWeather)
 		end
 
 		if #slot0.cellUpdates > 0 then

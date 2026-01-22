@@ -125,40 +125,8 @@ slot2.EnterBattle = function(slot0, slot1, slot2)
 
 	slot0._dataProxy = slot0:AddDataProxy(uv0.Battle.BattleDataProxy.GetInstance())
 	slot0._uiMediator = slot0:AddMediator(uv0.Battle.BattleUIMediator.New())
-
-	if slot1.battleType == SYSTEM_DUEL then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleDuelArenaCommand.New())
-
-		slot0._battleCommand:ConfigBattleData(slot1)
-	elseif slot1.battleType == SYSTEM_CHALLENGE then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSingleChallengeCommand.New())
-
-		slot0._battleCommand:ConfigBattleData(slot1)
-	elseif slot1.battleType == SYSTEM_DODGEM then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleDodgemCommand.New())
-	elseif slot1.battleType == SYSTEM_SUBMARINE_RUN then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSubmarineRunCommand.New())
-	elseif slot1.battleType == SYSTEM_SUB_ROUTINE then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSubRoutineCommand.New())
-	elseif slot1.battleType == SYSTEM_HP_SHARE_ACT_BOSS or slot1.battleType == SYSTEM_BOSS_EXPERIMENT then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleInheritDungeonCommand.New())
-	elseif slot1.battleType == SYSTEM_WORLD_BOSS then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleWorldBossCommand.New())
-	elseif slot1.battleType == SYSTEM_DEBUG then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleDebugCommand.New())
-	elseif slot1.battleType == SYSTEM_AIRFIGHT then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleAirFightCommand.New())
-	elseif slot1.battleType == SYSTEM_GUILD then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleGuildBossCommand.New())
-	elseif slot1.battleType == SYSTEM_CARDPUZZLE then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleCardPuzzleCommand.New())
-	elseif slot1.battleType == SYSTEM_BOSS_RUSH_COLLABRATE then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleDALCollabSingleDungeonCommand.New())
-	else
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSingleDungeonCommand.New())
-	end
-
 	slot0._battleType = slot1.battleType
+	slot0._battleCommand = slot0:AddCommand((uv0.Battle.BattleFacadeGate.CommandGates[slot0._battleType] or uv0.Battle.BattleSingleDungeonCommand).New())
 	slot0._sceneMediator = slot0:AddMediator(uv0.Battle.BattleSceneMediator.New())
 	slot0._weaponCommand = slot0:AddCommand(uv0.Battle.BattleControllerWeaponCommand.New())
 
@@ -348,7 +316,7 @@ slot2.reportDelayTimer = function(slot0, slot1, slot2)
 	slot0:RemoveAllTimer()
 	pg.TimeMgr.GetInstance():ResumeBattleTimer()
 
-	slot3 = pg.TimeMgr.GetInstance():AddBattleTimer("", -1, slot2, function ()
+	slot3 = pg.TimeMgr.GetInstance():AddBattleTimer("reportDelay", -1, slot2, function ()
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(uv0)
 
 		uv0 = nil

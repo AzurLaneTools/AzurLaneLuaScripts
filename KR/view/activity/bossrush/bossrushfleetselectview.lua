@@ -308,12 +308,11 @@ slot0.initAddButton = function(slot0, slot1, slot2, slot3)
 		return uv0.fleetNames[slot0:getTeamType()] < uv0.fleetNames[slot1:getTeamType()] or uv0.fleetNames[slot0:getTeamType()] == uv0.fleetNames[slot1:getTeamType()] and table.indexof(uv1, slot0.id) < table.indexof(uv1, slot1.id)
 	end)
 
-	slot9 = findTF(slot1, slot2)
-	slot9:GetComponent("ContentSizeFitter").enabled = true
-	slot9:GetComponent("HorizontalLayoutGroup").enabled = true
+	slot1:GetComponent("ContentSizeFitter").enabled = true
+	slot1:GetComponent("HorizontalLayoutGroup").enabled = true
 	slot0.isDraging = false
 
-	UIItemList.StaticAlign(slot9, slot9:GetChild(0), 3, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot1, slot1:GetChild(0), 3, function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end
@@ -390,13 +389,13 @@ slot0.updateEliteFleets = function(slot0)
 		slot9 = slot0.tfFleets[FleetType.Normal]
 
 		setText(slot9:Find("bg/name"), Fleet.DEFAULT_NAME[slot2])
-		slot0:initAddButton(slot9, TeamType.Main, slot2)
-		slot0:initAddButton(slot9, TeamType.Vanguard, slot2)
+		slot0:initAddButton(slot9:Find(TeamType.Main), TeamType.Main, slot2)
+		slot0:initAddButton(slot9:Find(TeamType.Vanguard), TeamType.Vanguard, slot2)
 	else
 		slot9 = slot0.tfFleets[FleetType.Submarine]
 
 		setText(slot9:Find("bg/name"), Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID])
-		slot0:initAddButton(slot9, TeamType.Submarine, #slot0.contextData.fleets)
+		slot0:initAddButton(slot9:Find(TeamType.Main), TeamType.Submarine, #slot0.contextData.fleets)
 	end
 
 	slot0:initCommander(slot3, slot8)

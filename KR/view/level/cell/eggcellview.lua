@@ -37,7 +37,13 @@ slot0.StartEggCellView = function(slot0, slot1, slot2)
 
 	uv0.ClearExtraEffects(slot0)
 	uv0.LoadExtraEffects(slot0, slot1.effect_prefab)
-	slot0:GetLoader():GetSprite("enemies/" .. slot1.icon, "", slot0.tfIcon)
+
+	if defaultValue(slot0.visible, true) then
+		slot0:GetLoader():GetSprite("enemies/" .. slot1.icon, "", slot0.tfIcon)
+	else
+		slot0:GetLoader():GetSprite("enemies/fogsrqz", "", slot0.tfIcon)
+	end
+
 	setText(slot0.textLV, slot1.level)
 	existCall(slot2)
 end

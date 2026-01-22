@@ -1783,6 +1783,11 @@ _G.pg.base.gametip.battle_result_max_combo = {
 }
 
 
+_G.pg.base.gametip.battle_result_boss_hp_lower = {
+	tip = "적 보스의 잔여 내구 $1% 이하"
+}
+
+
 _G.pg.base.gametip.battle_levelScene_0Oil = {
 	tip = "연료 포인트가 0이 되었습니다."
 }
@@ -4070,6 +4075,11 @@ _G.pg.base.gametip.ship_formationUI_fleetName11 = {
 
 _G.pg.base.gametip.ship_formationUI_fleetName12 = {
 	tip = "제2 잠수함대"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName13 = {
+	tip = "지원 함대"
 }
 
 
@@ -9106,7 +9116,7 @@ _G.pg.base.gametip.elite_warp_to_latest_map = {
 
 
 _G.pg.base.gametip.elite_fleet_confirm = {
-	tip = "$1이(가) 출격 조건을 <color=#ff0000>만족하고 있지 않기</color> 때문에 전투에 참가할 수 없습니다. 정말 출격하시겠습니까?"
+	tip = "$1(은)는 <color=#ff5c5c>출격 조건을 충족하고 있지 않아</color> 전투에 참여할 수 없습니다."
 }
 
 
@@ -32219,13 +32229,79 @@ _G.pg.base.gametip.help_supportfleet = {
 }
 
 
+_G.pg.base.gametip.help_supportfleet_16 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help_16"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.help_supportfleet_16_submarine = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_submarine_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_submarine_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.word_status_inSupportFleet = {
 	tip = "지원 출격 중"
 }
 
 
 _G.pg.base.gametip.ship_formationMediator_request_replace_support = {
-	tip = "이미 지원 함대에 편성되어 있습니다. 편성을 변경하시겠습니까?"
+	tip = "지원 함대에 편성된 함선이 있습니다. 편성에서 제외할까요?"
 }
 
 
@@ -45614,4 +45690,34 @@ _G.pg.base.gametip.winterwish_20251225_tip1 = {
 
 _G.pg.base.gametip.winterwish_20251225_tip2 = {
 	tip = "소원 빌기 가능 횟수"
+}
+
+
+_G.pg.base.gametip.battle_battleMediator_quest_exist_submarine_support = {
+	tip = "전투를 중단하면 현재 적 보스의 내구에 따라 결과가 집계됩니다. 전투를 중단할까요?"
+}
+
+
+_G.pg.base.gametip.island_survey_ui_1 = {
+	tip = "为了更好地收集指挥官的意见与建议,司令部在此为您准备了一份问卷。"
+}
+
+
+_G.pg.base.gametip.island_survey_ui_2 = {
+	tip = "问卷提交后将无法修改,请指挥官认真填写。"
+}
+
+
+_G.pg.base.gametip.island_survey_ui_award = {
+	tip = "作为感谢，完成问卷后可获得："
+}
+
+
+_G.pg.base.gametip.island_survey_ui_button = {
+	tip = "打开问卷"
+}
+
+
+_G.pg.base.gametip.submarine_support_oil_consume_tip = {
+	tip = "잠수 지원 함대 출격은 연료를 $1 소모합니다. 계속하시겠습니까?"
 }

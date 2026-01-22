@@ -112,6 +112,7 @@ slot0.execute = function(slot0, slot1)
 					})
 				else
 					slot0:sendNotification(GAME.SELECT_ELIT_CHAPTER_COMMANDER, {
+						commanderId = 0,
 						chapterId = slot12,
 						index = slot11,
 						pos = slot20
@@ -128,6 +129,7 @@ slot0.execute = function(slot0, slot1)
 
 			for slot17 = 1, 2 do
 				slot0:sendNotification(GAME.SELECT_ELIT_CHAPTER_COMMANDER, {
+					commanderId = 0,
 					chapterId = slot12,
 					index = slot11,
 					pos = slot17

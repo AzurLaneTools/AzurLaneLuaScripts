@@ -609,7 +609,7 @@ slot0.ToVShip = function(slot0, slot1)
 				return uv0.vship.config.type
 			end,
 			getTeamType = function ()
-				return TeamType.GetTeamFromShipType(uv0.vship.config.type)
+				return ShipType.GetTeamFromShipType(uv0.vship.config.type)
 			end,
 			getRarity = function ()
 				return uv0.vship.config.rarity

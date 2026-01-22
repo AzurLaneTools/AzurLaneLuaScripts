@@ -2,38 +2,12 @@ slot0 = class("TeamType")
 slot0.Vanguard = "vanguard"
 slot0.Main = "main"
 slot0.Submarine = "submarine"
-slot0.Support = "support"
+slot0.FormShips = "ships"
+slot0.FormCommander = "commander"
 slot0.TeamTypeIndex = {
 	slot0.Vanguard,
 	slot0.Main,
 	slot0.Submarine
-}
-slot0.VanguardShipType = {
-	ShipType.QuZhu,
-	ShipType.QingXun,
-	ShipType.ZhongXun,
-	ShipType.HangXun,
-	ShipType.LeiXun,
-	ShipType.ChaoXun,
-	ShipType.Yunshu,
-	ShipType.DaoQuV,
-	ShipType.FengFanV
-}
-slot0.MainShipType = {
-	ShipType.ZhanXun,
-	ShipType.ZhanLie,
-	ShipType.QingHang,
-	ShipType.ZhengHang,
-	ShipType.HangZhan,
-	ShipType.WeiXiu,
-	ShipType.ZhongPao,
-	ShipType.DaoQuM,
-	ShipType.FengFanM
-}
-slot0.SubShipType = {
-	ShipType.QianTing,
-	ShipType.QianMu,
-	ShipType.FengFanS
 }
 slot0.VanguardMax = 3
 slot0.MainMax = 3
@@ -60,25 +34,5 @@ slot0.TeamPos = {
 	UPPER_CONSORT = "UpperConsort",
 	LOWER_CONSORT = "LowerConsort"
 }
-
-slot0.GetShipTypeListFromTeam = function(slot0)
-	return uv0[slot0]
-end
-
-slot2 = {}
-
-for slot6, slot7 in pairs({
-	[slot0.Vanguard] = slot0.VanguardShipType,
-	[slot0.Main] = slot0.MainShipType,
-	[slot0.Submarine] = slot0.SubShipType
-}) do
-	for slot11, slot12 in ipairs(slot7) do
-		slot2[slot12] = slot6
-	end
-end
-
-slot0.GetTeamFromShipType = function(slot0)
-	return uv0[slot0]
-end
 
 return slot0

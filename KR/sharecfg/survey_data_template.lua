@@ -51,6 +51,23 @@ pg.survey_data_template = {
 			}
 		}
 	},
+	[1009] = {
+		ios_url = "https://usersurvey.wjx.cn/vm/e7O30Lm.aspxq1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		uo_url = "https://usersurvey.wjx.cn/vm/YfeZWPA.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		main_url = "https://usersurvey.wjx.cn/vm/tg5pwdS.aspxq1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		id = 1009,
+		name = "岛屿问卷",
+		main_activity = "340188746",
+		ios_activity = "340385728",
+		uo_activity = "340385637",
+		bonus = {
+			{
+				41,
+				100201,
+				30
+			}
+		}
+	},
 	[1005] = {
 		ios_url = "https://usersurvey.wjx.cn/vm/w1ynMPE.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		uo_url = "https://usersurvey.wjx.cn/vm/w1ynMPE.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
@@ -99,6 +116,7 @@ pg.survey_data_template = {
 		1001,
 		1002,
 		1004,
+		1009,
 		1005,
 		1007
 	}

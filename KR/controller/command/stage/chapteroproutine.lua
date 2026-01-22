@@ -1,8 +1,5 @@
 slot0 = class("ChapterOpRoutine", pm.SimpleCommand)
 
-slot0.execute = function(slot0, slot1)
-end
-
 slot0.initData = function(slot0, slot1, slot2, slot3)
 	slot0.op = slot1
 	slot0.data = slot2
@@ -133,13 +130,7 @@ slot0.doRetreat = function(slot0)
 
 	if slot0.op.id then
 		if #slot3.fleets > 0 then
-			slot3.fleets = _.filter(slot3.fleets, function (slot0)
-				return slot0.id ~= uv0.id
-			end)
-
-			if slot3.fleets[slot1.id] and slot4:getFleetType() == FleetType.Normal then
-				slot3.findex = 1
-			end
+			slot3:retreatFleet(slot1.id)
 
 			slot2 = bit.bor(slot2, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy)
 		end
@@ -163,7 +154,7 @@ slot0.doMove = function(slot0)
 			}
 		end)
 		slot3.moveStep = slot3.moveStep + #slot2.move_path
-		slot1 = bit.bor(slot1, ChapterConst.DirtyAutoAction)
+		slot1 = bit.bor(slot1, ChapterConst.DirtyAutoAction, ChapterConst.DirtyWeather)
 	end
 
 	slot0.fullpath = slot4

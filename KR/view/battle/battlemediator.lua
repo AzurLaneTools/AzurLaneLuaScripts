@@ -308,6 +308,27 @@ slot0.warnFunc = function(slot0, slot1)
 	slot3 = slot0.contextData.system
 	slot4, slot5 = nil
 
+	slot6 = function()
+		uv0:Stop()
+	end
+
+	if slot0.contextData.warnMsg and #slot7 > 0 then
+		slot5 = i18n(slot7)
+	elseif slot3 == SYSTEM_CHALLENGE then
+		slot5 = i18n("battle_battleMediator_clear_warning")
+	elseif slot3 == SYSTEM_SIMULATION then
+		slot5 = i18n("tech_simulate_quit")
+	elseif slot3 == SYSTEM_SCENARIO_SUB_STRIKE then
+		slot5 = i18n("battle_battleMediator_quest_exist_submarine_support")
+
+		slot6 = function()
+			uv0:GetCommandByName(ys.Battle.BattleScenarioSubStrikeCommand.__name):CalcBattleEnd()
+			uv1.viewComponent:ClosePauseWindow()
+		end
+	else
+		slot5 = i18n("battle_battleMediator_quest_exist")
+	end
+
 	slot8 = function()
 		if uv0 then
 			uv0()
@@ -322,7 +343,7 @@ slot0.warnFunc = function(slot0, slot1)
 		modal = true,
 		hideYes = true,
 		hideNo = true,
-		content = (not slot0.contextData.warnMsg or #slot7 <= 0 or i18n(slot7)) and (slot3 ~= SYSTEM_CHALLENGE or i18n("battle_battleMediator_clear_warning")) and (slot3 ~= SYSTEM_SIMULATION or i18n("tech_simulate_quit")) and i18n("battle_battleMediator_quest_exist"),
+		content = slot5,
 		onClose = slot8,
 		custom = {
 			{
@@ -333,9 +354,7 @@ slot0.warnFunc = function(slot0, slot1)
 			{
 				text = "text_exit",
 				btnType = pg.MsgboxMgr.BUTTON_RED,
-				onCallback = function ()
-					uv0:Stop()
-				end,
+				onCallback = slot6,
 				sound = SFX_CONFIRM
 			}
 		}
@@ -546,7 +565,7 @@ slot0.GenBattleData = function(slot0)
 		slot0.viewComponent:setChapter(slot7)
 
 		slot8 = slot7.fleet
-		slot1.KizunaJamming = slot7.extraFlagList
+		slot1.KizunaJamming = slot7:getExtraFlags()
 		slot1.DefeatCount = slot8:getDefeatCount()
 		slot1.ChapterBuffIDs, slot1.CommanderList = slot7:getFleetBattleBuffs(slot8)
 		slot1.StageWaveFlags = slot7:GetStageFlags()
@@ -1248,6 +1267,35 @@ slot0.GenBattleData = function(slot0)
 
 			slot0.viewComponent:setFleet(slot10, slot11, slot12)
 		end
+	elseif slot2 == SYSTEM_SCENARIO_SUB_STRIKE then
+		slot6 = {}
+		slot0.mainShips = {}
+		slot8 = getProxy(ChapterProxy)
+		slot9 = slot8:getActiveChapter()
+		slot10 = slot0.viewComponent
+
+		slot10:setChapter(slot9)
+
+		slot10 = slot0.viewComponent
+
+		slot10:setFleet(nil, , slot6)
+
+		slot10 = slot9:getChapterSupportFleet()
+
+		(function (slot0, slot1, slot2)
+			for slot6, slot7 in ipairs(slot0) do
+				if table.contains(uv0, slot7) then
+					BattleVertify.cloneShipVertiry = true
+				end
+
+				uv0[#uv0 + 1] = slot7
+				slot8 = uv1:getShipById(slot7)
+
+				table.insert(slot1, slot8)
+				table.insert(uv4.mainShips, slot8)
+				table.insert(slot2, uv2(uv3, slot8, nil))
+			end
+		end)(slot10:getTeamByName(TeamType.Submarine), slot6, slot1.SubUnitList)
 	elseif slot0.contextData.mainFleetId then
 		slot6 = slot2 == SYSTEM_DUEL
 		slot8, slot9 = nil

@@ -17,13 +17,12 @@ slot0.ON_START = "ON_START"
 slot0.ON_ENTER_MAINLEVEL = "LevelMediator2:ON_ENTER_MAINLEVEL"
 slot0.ON_DIDENTER = "LevelMediator2:ON_DIDENTER"
 slot0.ON_PERFORM_COMBAT = "LevelMediator2.ON_PERFORM_COMBAT"
+slot0.ON_SUPPORT_SUBMARINE = "LevelMediator2.ON_SUPPORT_SUBMARINE"
 slot0.ON_ELITE_OEPN_DECK = "LevelMediator2:ON_ELITE_OEPN_DECK"
 slot0.ON_ELITE_CLEAR = "LevelMediator2:ON_ELITE_CLEAR"
 slot0.ON_ELITE_RECOMMEND = "LevelMediator2:ON_ELITE_RECOMMEND"
 slot0.ON_ELITE_ADJUSTMENT = "LevelMediator2:ON_ELITE_ADJUSTMENT"
 slot0.ON_SUPPORT_OPEN_DECK = "LevelMediator2:ON_SUPPORT_OPEN_DECK"
-slot0.ON_SUPPORT_CLEAR = "LevelMediator2:ON_SUPPORT_CLEAR"
-slot0.ON_SUPPORT_RECOMMEND = "LevelMediator2:ON_SUPPORT_RECOMMEND"
 slot0.ON_ACTIVITY_MAP = "LevelMediator2:ON_ACTIVITY_MAP"
 slot0.GO_ACT_SHOP = "LevelMediator2:GO_ACT_SHOP"
 slot0.ON_SWITCH_NORMAL_MAP = "LevelMediator2:ON_SWITCH_NORMAL_MAP"
@@ -108,6 +107,7 @@ slot0.register = function(slot0)
 			end,
 			onQuit = function (slot0)
 				uv0:sendNotification(GAME.SELECT_ELIT_CHAPTER_COMMANDER, {
+					commanderId = 0,
 					chapterId = uv1,
 					index = uv2,
 					pos = uv3,
@@ -315,26 +315,6 @@ slot0.register = function(slot0)
 
 		uv0.contextData.selectedChapterVO = slot5
 	end)
-	slot0:bind(uv0.ON_SUPPORT_CLEAR, function (slot0, slot1)
-		slot3 = slot1.chapterVO
-
-		slot3:ClearSupportFleetList(slot1.index)
-
-		slot4 = getProxy(ChapterProxy)
-
-		slot4:updateChapter(slot3)
-		slot4:duplicateSupportFleet(slot3)
-		uv0.viewComponent:RefreshFleetSelectView(slot3)
-	end)
-	slot0:bind(uv0.ON_SUPPORT_RECOMMEND, function (slot0, slot1)
-		slot3 = slot1.chapterVO
-		slot4 = getProxy(ChapterProxy)
-
-		slot4:SupportFleetRecommend(slot3, slot1.index)
-		slot4:updateChapter(slot3)
-		slot4:duplicateSupportFleet(slot3)
-		uv0.viewComponent:RefreshFleetSelectView(slot3)
-	end)
 	slot0:bind(uv0.ON_ACTIVITY_MAP, function (slot0, slot1)
 		slot3, slot4 = getProxy(ChapterProxy):getLastMapForActivity(slot1)
 
@@ -470,6 +450,11 @@ slot0.register = function(slot0)
 			stageId = slot1,
 			exitCallback = slot2,
 			memory = slot3
+		})
+	end)
+	slot0:bind(uv0.ON_SUPPORT_SUBMARINE, function (slot0)
+		uv0:sendNotification(GAME.BEGIN_STAGE, {
+			system = SYSTEM_SCENARIO_SUB_STRIKE
 		})
 	end)
 	slot0:bind(uv0.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN, function (slot0)
@@ -743,7 +728,24 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:updateChapterVO(slot3.chapter, slot3.dirty)
 	elseif slot2 == GAME.COMMANDER_ELIT_FORMATION_OP_DONE then
 		if slot0.contextData.commanderOPChapter then
-			slot0.contextData.commanderOPChapter.eliteCommanderList = getProxy(ChapterProxy):getChapterById(slot3.chapterId).eliteCommanderList
+			for slot8, slot9 in pairs(getProxy(ChapterProxy):getChapterById(slot3.chapterId):getEliteFleetCommanders()) do
+				slot0.contextData.commanderOPChapter:setEliteFleetByIndex(slot8, {
+					{
+						TeamType.FormCommander,
+						{
+							pos = 1,
+							id = slot9[1]
+						}
+					},
+					{
+						TeamType.FormCommander,
+						{
+							pos = 2,
+							id = slot9[2]
+						}
+					}
+				})
+			end
 
 			slot0.viewComponent:RefreshFleetSelectView(slot0.contextData.commanderOPChapter)
 		end
@@ -909,8 +911,8 @@ slot0.handleNotification = function(slot0, slot1)
 					seriesAsync({
 						function (slot0)
 							uv0 = uv1.contextData.chapterVO
-							uv0.fleet.line = Clone(uv2.fullpath[#uv2.fullpath])
 
+							uv0.fleet:SetLine(uv2.fullpath[#uv2.fullpath])
 							getProxy(ChapterProxy):updateChapter(uv0)
 							uv1.viewComponent.grid:moveFleet(uv2.path, uv2.fullpath, uv2.oldLine, slot0)
 						end,
@@ -1619,6 +1621,12 @@ slot0.getDockCallbackFuncs = function(slot0, slot1, slot2, slot3, slot4)
 			table.insert(slot1, slot0[1])
 		end
 
+		uv0:setEliteFleetByIndex(uv1, {
+			{
+				TeamType.FormShips,
+				slot1
+			}
+		})
 		uv3:updateChapter(uv0)
 		uv3:duplicateEliteFleet(uv0)
 	end
@@ -1658,8 +1666,14 @@ slot0.getSupportDockCallbackFuncs = function(slot0, slot1, slot2, slot3)
 			table.insert(slot1, slot0[1])
 		end
 
+		uv0:setEliteFleetByIndex(4, {
+			{
+				TeamType.FormShips,
+				slot1
+			}
+		})
 		uv2:updateChapter(uv0)
-		uv2:duplicateSupportFleet(uv0)
+		uv2:duplicateEliteFleet(uv0)
 	end
 end
 

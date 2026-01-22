@@ -10228,6 +10228,37 @@ _G.pg.base.item_data_statistics[13054] = {
 }
 
 
+_G.pg.base.item_data_statistics[13055] = {
+	open_directly = 0,
+	name = "25mm 96식 3연장 기총(폭풍 보호막 장비) T0 설계도",
+	type = 9,
+	display = "25mm 96식 3연장 기총(폭풍 보호막 장비) T0 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/36360",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13055,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[14001] = {
 	open_directly = 0,
 	name = "원형 과학 연구 도면·S-I",

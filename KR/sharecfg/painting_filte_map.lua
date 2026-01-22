@@ -16492,6 +16492,17 @@ pg.painting_filte_map = {
 			"painting/temperance"
 		}
 	},
+	tengbo = {
+		key = "tengbo",
+		res_list = {
+			"painting/tengbo_tex",
+			"painting/tengbo_rw_tex",
+			"painting/tengbo_n_tex",
+			"painting/tengbo_n_rw_tex",
+			"painting/tengbo_n",
+			"painting/tengbo"
+		}
+	},
 	texiusi = {
 		key = "texiusi",
 		res_list = {
