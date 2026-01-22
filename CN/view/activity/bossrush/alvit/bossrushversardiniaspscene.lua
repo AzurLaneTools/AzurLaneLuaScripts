@@ -370,7 +370,6 @@ end
 
 slot0.UpdateTipDisplay = function(slot0)
 	setActive(slot0.rtToggleTip, slot0.contextData.displayMode == uv0.DISPLAY.BATTLE and slot0:IsStoryTip())
-	warning(slot0.tasksActivity, Activity.IsActivityReady(slot0.tasksActivity))
 	setActive(slot0.btnTask:Find("tip"), Activity.IsActivityReady(slot0.tasksActivity))
 end
 
