@@ -19489,6 +19489,48 @@ pg.activity_template = {
 			ui_name = "HaitianSkinPage"
 		}
 	},
+	[5420] = {
+		mark = 20260122,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5420,
+		page_core = "",
+		config_data = {
+			20359
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5421] = {
 		mark = 20260122,
 		page_info = "",
@@ -82142,6 +82184,7 @@ pg.activity_template = {
 			5376,
 			5406,
 			5407,
+			5420,
 			5429,
 			5435,
 			5461,
@@ -84732,6 +84775,7 @@ pg.activity_template = {
 		5409,
 		5410,
 		5415,
+		5420,
 		5421,
 		5422,
 		5423,
