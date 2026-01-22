@@ -5,7 +5,7 @@ return {
 	init_effect = "",
 	id = 28272,
 	picture = "",
-	desc = "主炮每进行8次攻击，触发全弹发射-朱萨诺级II",
+	desc = "主炮每进行8次攻击，触发全弹发射-朱塞诺级II",
 	stack = 1,
 	color = "red",
 	icon = 20100,

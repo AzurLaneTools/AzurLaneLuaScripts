@@ -2678,6 +2678,27 @@ A medal based on the Anchorage National Observatory.
 		explain1 = "A Note Through the Firmament",
 		explain2 = "Event"
 	},
+	[200121] = {
+		target_id = "50359",
+		name = "Fashion Shoot Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "Power up the fashion radar and switch into photo gear! Close the shutter and capture some trendy moments! \n——You are today's fashion chronicler!",
+		next = 0,
+		icon = "9121",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9121",
+		condition = "Collect 8 stickers in the Light & Shadow Fashion Shoot! event.",
+		rank = 1,
+		id = 200121,
+		explain1 = "Light & Shadow Fashion Shoot!",
+		explain2 = "Event"
+	},
 	all = {
 		10011,
 		10012,
@@ -2800,6 +2821,7 @@ A medal based on the Anchorage National Observatory.
 		200081,
 		200091,
 		200101,
-		200111
+		200111,
+		200121
 	}
 }

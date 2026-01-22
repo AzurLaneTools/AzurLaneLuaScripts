@@ -151,7 +151,8 @@ slot1 = {
 	[slot0.PAGE_PT] = 2,
 	[slot0.PAGE_TASK] = 3,
 	[slot0.PAGE_SHOP] = 3,
-	[slot0.PAGE_RANK] = 3
+	[slot0.PAGE_RANK] = 3,
+	[slot0.PAGE_REVIEW] = 4
 }
 
 slot0.SwitchPage = function(slot0)
@@ -162,11 +163,11 @@ slot0.SwitchPage = function(slot0)
 			slot5:ExecuteAction("Hide")
 		end
 
-		SetCompomentEnabled(slot0.blurTF, "Image", uv0[slot0.curPage] == 1 or slot6 == 3)
+		SetCompomentEnabled(slot0.blurTF, "Image", uv0[slot0.curPage] == 1 or slot6 == 3 or slot6 == 4)
 		setActive(slot0.ptTitleTF, slot6 == 2)
 		setActive(slot0.otherTitleTF, slot6 == 3)
 
-		if slot6 == 1 or slot6 == 3 then
+		if slot6 == 1 or slot6 == 3 or slot6 == 4 then
 			slot0:OverlayPanel(slot0.blurTF, {
 				pbList = {
 					slot0.blurTF
@@ -215,6 +216,10 @@ slot0.OnHide = function(slot0)
 	slot0.pages[uv0.PAGE_PT]:OnHide()
 	slot0.pages[uv0.PAGE_ACTIVITY]:Destroy()
 	slot0.pages[uv0.PAGE_ACTIVITY]:Reset()
+
+	if slot0.pages[uv0.PAGE_REVIEW] then
+		slot0.pages[uv0.PAGE_REVIEW]:Hide()
+	end
 end
 
 slot0.OnDisable = function(slot0)

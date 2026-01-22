@@ -11,6 +11,7 @@ pg.soundstory_template = {
 		overview = "You're alone with Chen Hai in the serene tea room. She gives you a lap pillow to ease your fatigue, and something special on top of that...",
 		order = 2,
 		audition_text = "Commander, I've reserved the tearoom for today. Why don't we use this opportunity to take a load off?",
+		time = "always",
 		ship_id = 50601,
 		id = 1,
 		captions_color = "#4a383e",
@@ -24,33 +25,6 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -481,9 +455,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2025,
-					11,
-					13
+					2026,
+					1,
+					22
 				},
 				{
 					0,
@@ -493,9 +467,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					1,
+					28
 				},
 				{
 					23,
@@ -1327,6 +1301,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "Sweetest Slumber",
+		story_resource_JP = "soundStory28_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Saeko Ooki",
+		audition_resource_JP = "ss-40211-1",
+		overview = "You fall asleep face-down on your desk, utterly exhausted. In a daze, you notice Duisburg approaching...\nBefore long, her sweet voice lulls you back into dreams.",
+		order = 2,
+		audition_text = "Let me stay by your side and whisper in your ear…",
+		ship_id = 40211,
+		id = 28,
+		captions_color = "#302c2c",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1354,6 +1381,7 @@ pg.soundstory_template = {
 		24,
 		25,
 		26,
-		27
+		27,
+		28
 	}
 }

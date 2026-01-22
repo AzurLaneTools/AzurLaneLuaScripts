@@ -3912,6 +3912,16 @@ pg.memory_template = setmetatable({
 		4955,
 		4956,
 		4957,
+		4961,
+		4962,
+		4963,
+		4964,
+		4965,
+		4966,
+		4967,
+		4968,
+		4969,
+		4970,
 		10011,
 		10012,
 		10013,
@@ -61218,7 +61228,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "武者亦有心乱时",
-		condition = "参与2025人气投票活动",
+		condition = "Participating in the 2025 Popularity Poll.",
 		story = "RENQIWUZANG",
 		id = 4831,
 		icon = "memory_renqiwuzang",
@@ -61233,7 +61243,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "再次开始的约会",
-		condition = "参与2025人气投票活动",
+		condition = "Participating in the 2025 Popularity Poll.",
 		story = "RENQIYANUSI",
 		id = 4832,
 		icon = "memory_renqiyanusi",
@@ -61248,7 +61258,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "为之束缚的光景",
-		condition = "参与2025人气投票活动",
+		condition = "Participating in the 2025 Popularity Poll.",
 		story = "RENQIYUNXIAN",
 		id = 4833,
 		icon = "memory_renqiyunxian",
@@ -61278,7 +61288,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "茶香萦怀",
-		condition = "参与2025人气投票活动",
+		condition = "Participating in the 2025 Popularity Poll.",
 		story = "RENQIZHENHAI",
 		id = 4835,
 		icon = "memory_renqizhenhai",
@@ -61293,7 +61303,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "亲手拆封",
-		condition = "参与2025人气投票活动",
+		condition = "Participating in the 2025 Popularity Poll.",
 		story = "RENQIDAFENG",
 		id = 4836,
 		icon = "memory_renqidafeng",
@@ -61308,7 +61318,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "风中约定",
-		condition = "参与2025人气投票活动",
+		condition = "Participating in the 2025 Popularity Poll.",
 		story = "RENQIANKELEIQI",
 		id = 4837,
 		icon = "memory_renqiankeleiqi",
@@ -62774,6 +62784,156 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"WEINEITUO7"
+		}
+	},
+	[4961] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Photoshoot in Session!",
+		condition = "Participate in the Light & Shadow Fashion Shoot! Event.",
+		story = "GUANGYINGFENGSHANG1",
+		id = 4961,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG1"
+		}
+	},
+	[4962] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Truth I Offer to You",
+		condition = "Unlock the corresponding feature page.",
+		story = "GUANGYINGFENGSHANG2",
+		id = 4962,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG2"
+		}
+	},
+	[4963] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Heart-Throbbing Wager: Winner Takes All",
+		condition = "Unlock the corresponding feature page.",
+		story = "GUANGYINGFENGSHANG3",
+		id = 4963,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG3"
+		}
+	},
+	[4964] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Lovely Sur-Prize",
+		condition = "Unlock the corresponding feature page.",
+		story = "GUANGYINGFENGSHANG4",
+		id = 4964,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG4"
+		}
+	},
+	[4965] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Unconventional Training Methods",
+		condition = "Unlock the corresponding feature page.",
+		story = "GUANGYINGFENGSHANG5",
+		id = 4965,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG5"
+		}
+	},
+	[4966] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Guide to a Private Shoot",
+		condition = "Unlock the corresponding feature page.",
+		story = "GUANGYINGFENGSHANG6",
+		id = 4966,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG6"
+		}
+	},
+	[4967] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "One-on-One Lesson",
+		condition = "Unlock the corresponding feature page.",
+		story = "GUANGYINGFENGSHANG7",
+		id = 4967,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG7"
+		}
+	},
+	[4968] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Thirty-Six Stratagems of Photography",
+		condition = "Unlock the corresponding feature page.",
+		story = "GUANGYINGFENGSHANG8",
+		id = 4968,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG8"
+		}
+	},
+	[4969] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "That Beautiful Moment of Exposure",
+		condition = "Unlock the corresponding feature page.",
+		story = "GUANGYINGFENGSHANG9",
+		id = 4969,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG9"
+		}
+	},
+	[4970] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The True Essence of Fashion",
+		condition = "Complete all photography features.",
+		story = "GUANGYINGFENGSHANG10",
+		id = 4970,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG10"
 		}
 	},
 	[10011] = {

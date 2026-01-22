@@ -39288,6 +39288,73 @@ _G.pg.base.ship_data_breakout[601114] = {
 }
 
 
+_G.pg.base.ship_data_breakout[601121] = {
+	use_gold = 500,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 60112,
+	breakout_id = 601122,
+	breakout_view = "Unlock All Out Assault/Main gun efficiency +5%",
+	id = 601121,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		75041
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[601122] = {
+	use_gold = 1500,
+	pre_id = 601121,
+	use_char_num = 1,
+	use_char = 60112,
+	breakout_id = 601123,
+	breakout_view = "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+	id = 601122,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		105,
+		105
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[601123] = {
+	use_gold = 2500,
+	pre_id = 601122,
+	use_char_num = 2,
+	use_char = 60112,
+	breakout_id = 601124,
+	breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+	id = 601123,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		75042
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[601124] = {
+	use_gold = 0,
+	pre_id = 601123,
+	use_char_num = 0,
+	use_char = 60112,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 601124,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
 _G.pg.base.ship_data_breakout[602011] = {
 	use_gold = 1000,
 	pre_id = 0,
@@ -39482,6 +39549,73 @@ _G.pg.base.ship_data_breakout[602034] = {
 	breakout_id = 0,
 	breakout_view = "None",
 	id = 602034,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[602041] = {
+	use_gold = 500,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 60204,
+	breakout_id = 602042,
+	breakout_view = "Unlock All Out Assault/Main gun efficiency +5%",
+	id = 602041,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		75111
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[602042] = {
+	use_gold = 1500,
+	pre_id = 602041,
+	use_char_num = 1,
+	use_char = 60204,
+	breakout_id = 602043,
+	breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+	id = 602042,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[602043] = {
+	use_gold = 2500,
+	pre_id = 602042,
+	use_char_num = 2,
+	use_char = 60204,
+	breakout_id = 602044,
+	breakout_view = "Improve All Out Assault/Torpedo efficiency +15%",
+	id = 602043,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		75112
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[602044] = {
+	use_gold = 0,
+	pre_id = 602043,
+	use_char_num = 0,
+	use_char = 60204,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 602044,
 	icon = "10001",
 	level = 0,
 	use_item = {},
@@ -40381,6 +40515,77 @@ _G.pg.base.ship_data_breakout[605084] = {
 	breakout_id = 0,
 	breakout_view = "None",
 	id = 605084,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[605091] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 60509,
+	breakout_id = 605092,
+	breakout_view = "Main gun base +1/Main gun efficiency +5%",
+	id = 605091,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		96160,
+		96160
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[605092] = {
+	use_gold = 3000,
+	pre_id = 605091,
+	use_char_num = 1,
+	use_char = 60509,
+	breakout_id = 605093,
+	breakout_view = "Secondary Gun base +2/Main gun efficiency +10%",
+	id = 605092,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		101,
+		101,
+		101
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[605093] = {
+	use_gold = 10000,
+	pre_id = 605092,
+	use_char_num = 2,
+	use_char = 60509,
+	breakout_id = 605094,
+	breakout_view = "Main gun base +1/Main gun efficiency +15%",
+	id = 605093,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		96160,
+		96160,
+		96160
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[605094] = {
+	use_gold = 0,
+	pre_id = 605093,
+	use_char_num = 0,
+	use_char = 60509,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 605094,
 	icon = "10001",
 	level = 0,
 	use_item = {},

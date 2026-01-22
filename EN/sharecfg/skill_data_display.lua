@@ -1950,6 +1950,14 @@ pg.skill_data_display = setmetatable({
 		151923,
 		151926,
 		151941,
+		152011,
+		152021,
+		152031,
+		152040,
+		152050,
+		152051,
+		152052,
+		152054,
 		151963,
 		151964,
 		151971,
@@ -11700,6 +11708,38 @@ pg.base.skill_data_display = {
 	[151941] = {
 		id = 151941,
 		name = "Inexperienced Patroller"
+	},
+	[152011] = {
+		id = 152011,
+		name = "Binding Verdict"
+	},
+	[152021] = {
+		id = 152021,
+		name = "Pain, Pain, Fly Away"
+	},
+	[152031] = {
+		id = 152031,
+		name = "Towards Glory and Death"
+	},
+	[152040] = {
+		id = 152040,
+		name = "Gunfire Fouetté"
+	},
+	[152050] = {
+		id = 152050,
+		name = "Ti Sfido!"
+	},
+	[152051] = {
+		id = 152051,
+		name = "Ti Sfido!"
+	},
+	[152052] = {
+		id = 152052,
+		name = "Ti Sfido!"
+	},
+	[152054] = {
+		id = 152054,
+		name = "Ti Sfido!"
 	},
 	[151963] = {
 		id = 151963,

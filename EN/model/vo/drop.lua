@@ -232,6 +232,8 @@ slot0.InitSwitch = function()
 			return slot1
 		end,
 		[DROP_TYPE_ITEM] = function (slot0)
+			warning(slot0.id)
+
 			slot1 = Item.getConfigData(slot0.id)
 			slot0.desc = slot1.display
 

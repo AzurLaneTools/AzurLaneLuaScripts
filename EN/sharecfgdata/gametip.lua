@@ -12969,7 +12969,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Guam guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Rate UP for Francesco Caracciolo and more!"
 }
 
 
@@ -37981,7 +37981,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  Note:   While the event is available, tapping the <color=#92fc63>Commemoration button on the event banner or the Commemorative Album tab under Memories</color> will bring you to the commemorative stickers menu.
  Note:   Following the end of the event, <color=#92fc63>you can only access the stickers menu from the Commemorative Album tab under Memories</color>.
  Note:   Commemorative stickers are earned by completing event missions.
- Note:   Rewards may be claimed until 1/14/2026 midnight.]]
+ Note:   Rewards may be claimed for a short period after the event has ended.]]
 		}
 	}
 }
@@ -41473,6 +41473,11 @@ _G.pg.base.gametip.island_season_charts_out = {
 }
 
 
+_G.pg.base.gametip.island_season_review_lv = {
+	tip = "岛屿开发等级"
+}
+
+
 _G.pg.base.gametip.island_season_review_charnum = {
 	tip = "No. of Characters"
 }
@@ -41480,6 +41485,11 @@ _G.pg.base.gametip.island_season_review_charnum = {
 
 _G.pg.base.gametip.island_season_review_projuctnum = {
 	tip = "Research Technology"
+}
+
+
+_G.pg.base.gametip.island_season_review_titleone = {
+	tip = "开发季"
 }
 
 
@@ -41520,6 +41530,26 @@ _G.pg.base.gametip.island_season_review_fishnum = {
 
 _G.pg.base.gametip.island_season_review_gamenum = {
 	tip = "Events Done"
+}
+
+
+_G.pg.base.gametip.island_season_review_achi = {
+	tip = "成就"
+}
+
+
+_G.pg.base.gametip.island_season_review_achinum = {
+	tip = "成就数量"
+}
+
+
+_G.pg.base.gametip.island_season_review_guidenum = {
+	tip = "总收集点"
+}
+
+
+_G.pg.base.gametip.island_season_review_blank = {
+	tip = "未参与该开发季"
 }
 
 
@@ -43511,6 +43541,11 @@ _G.pg.base.gametip.island_cancel_queue = {
 
 _G.pg.base.gametip.island_queue_display = {
 	tip = "The island has reached its visitor limit. You will enter a queue.\nPlace in Queue: $1"
+}
+
+
+_G.pg.base.gametip.island_season_label = {
+	tip = "开发季$1"
 }
 
 
@@ -46473,4 +46508,56 @@ _G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
 
 _G.pg.base.gametip.submarine_support_oil_consume_tip = {
 	tip = "Sending your supporting Submarine Fleet into battle will cost $1 Oil. Continue?"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_title = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_1 = {
+	tip = "Light & Shadow"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_2 = {
+	tip = "Milestone"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_story_reward_count = {
+	tip = "Tap shipgirl, consume <icon name=65812 w=0.4 h=0.4/> <color=#10a7a9>($1 remaining)</color> to enter her feature page (event story chapter).\nComplete all stories to get special event gear skins <color=#10a7a9>($2/8)</color>"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_unlock = {
+	tip = "Locked"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_fleetconfirm = {
+	tip = "Current formation is empty. Do you want to import the formation from the previous stage?"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
+	tip = {
+		{
+			info = [[
+- Overview -
+Light & Shadow Fashion Shoot! is available between <color=#92fc63>January 22nd and February 4th</color>!
+Complete missions, dispatch your fleets, and clear event stages to collect Camera Films and receive rewards!
+
+1. Tap the button in the bottom left corner to switch between Story Mode and Battle Mode.
+2. Battle Mode presents a series of stages which you can challenge with your fleets to earn Camera Films.
+Before going into battle, you can decide whether you\'d like to fight in a joint sortie or a solo sortie.
+· In a solo sortie, you will challenge each stage with only a single fleet. In this mode, all your shipgirls recover all their health at the start of the battle.
+· In a joint sortie, you will instead send out multiple fleets to battle on each stage. Completing the challenge in this mode will grant you additional rewards.
+3. You will receive rewards for collecting enough Camera Films, including <color=#92fc63>Elite DD Ugolino Vivaldi</color> and a <color=#92fc63>Prototype Triple 406mm Model 1940 Main Gun</color>.
+4. There are special missions available during the event. Complete these to receive additional rewards.
+5. There\'s a special story available in Story Mode. Read it in its entirety to receive a commemorative gear skin.
+]]
+		}
+	}
 }

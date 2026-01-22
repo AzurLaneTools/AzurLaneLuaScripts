@@ -47,10 +47,10 @@ slot0.register = function(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_UPDATE_CUSTOM_FLEET, function (slot0)
-		_.each(uv0.contextData.fleets, function (slot0)
+		_.each(uv0.contextData.fullFleets, function (slot0)
 			getProxy(FleetProxy):updateActivityFleet(uv0.contextData.actId, slot0.id, slot0)
 		end)
-		_.each(uv0.contextData.fleets, function (slot0)
+		_.each(uv0.contextData.fullFleets, function (slot0)
 			uv0[slot0.id] = slot0
 		end)
 		uv0:sendNotification(GAME.EDIT_ACTIVITY_FLEET, {
@@ -69,68 +69,32 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.ON_ELITE_RECOMMEND, function (slot0, slot1)
 		slot2 = slot1.index
 		slot4 = slot2 == #uv0.contextData.fleets
-		slot8 = table.shallowCopy(uv0.contextData.fleets[slot2]:GetRawShipIds())
-		slot9 = _.flatten(_.map(uv0.contextData.fleets, function (slot0)
+		slot5 = table.shallowCopy(uv0.contextData.fleets[slot2]:GetRawShipIds())
+		slot6 = underscore(uv0.contextData.fleets):chain():map(function (slot0)
 			return slot0:GetRawShipIds()
-		end))
-		slot10 = {
-			[TeamType.Main] = {
-				0,
-				0,
-				0
-			},
-			[TeamType.Vanguard] = {
-				0,
-				0,
-				0
-			},
-			[TeamType.Submarine] = {
-				0,
-				0,
-				0
-			}
-		}
-		slot11 = getProxy(BayProxy):getRawData()
+		end):flatten():value()
+		slot7 = getProxy(BayProxy):getRawData()
 
-		for slot15, slot16 in ipairs(slot3:GetRawShipIds()) do
-			slot20 = 0
+		slot8 = function(slot0, slot1)
+			slot7 = TeamType.GetTeamShipMax(slot1) - #underscore.filter(uv0:GetRawShipIds(), function (slot0)
+				return uv0[slot0]:getTeamType() == uv1
+			end)
+			slot8 = uv3.contextData.actId
 
-			for slot25, slot26 in ipairs(slot10[ShipType.GetTeamFromShipType(slot11[slot16]:getShipType())]) do
-				if ShipType.ContainInLimitBundle(slot26, slot18) then
-					slot20 = slot26
-
-					break
-				end
-			end
-
-			for slot25, slot26 in ipairs(slot21) do
-				if slot26 == slot20 then
-					table.remove(slot21, slot25)
-
-					break
-				end
+			for slot7, slot8 in ipairs(getProxy(BayProxy):getActivityRecommendShips(slot0, uv2, slot7, slot8)) do
+				uv0:insertShip(slot8, nil, slot8:getTeamType())
+				table.insert(uv4, slot8.id)
+				table.insert(uv2, slot8.id)
 			end
 		end
 
-		slot12 = function(slot0, slot1)
-			slot3 = uv0
-
-			if slot3:getRecommendShip(underscore.filter(slot1, function (slot0)
-				return ShipType.ContainInLimitBundle(uv0, slot0)
-			end), uv1) then
-				uv2:insertShip(slot3, nil, slot3:getTeamType())
-				table.insert(uv3, slot3.id)
-				table.insert(uv1, slot3.id)
-			end
-		end
-
-		slot13 = nil
+		slot9 = nil
 
 		if slot2 == #uv0.contextData.fleets then
-			slot12(slot7, ShipType.SubShipType)
+			slot8(ShipType.SubShipType, TeamType.Submarine)
 		else
-			slot12(slot5, ShipType.MainShipType)
-			slot12(slot6, ShipType.VanguardShipType)
+			slot8(ShipType.MainShipType, TeamType.Main)
+			slot8(ShipType.VanguardShipType, TeamType.Vanguard)
 		end
 
 		uv0.viewComponent:updateEliteFleets()
@@ -237,7 +201,7 @@ slot0.register = function(slot0)
 			slot2[#slot2]
 		}
 	else
-		slot0.contextData.fleets = slot0.contextData.fleets or table.shallowCopy(slot0.contextData.fullFleets)
+		slot0.contextData.fleets = slot0.contextData.fleets or underscore.rest(slot2)
 	end
 
 	slot0.contextData.fleetIndex = slot0.contextData.fleetIndex or 1
@@ -265,86 +229,27 @@ slot0.OnSwitchMode = function(slot0, slot1)
 	slot3 = slot0.contextData.fullFleets
 
 	if slot0.contextData.mode == BossRushSeriesData.MODE.SINGLE then
-		slot0.contextData.fleets = {
-			slot3[1],
-			slot3[#slot3]
-		}
-
 		if slot1 ~= slot2 then
-			if slot0.contextData.fleetIndex < #slot3 then
+			if slot0.contextData.fleetIndex < #slot0.contextData.fleets then
 				slot0.contextData.fleetIndex = 1
 			else
 				slot0.contextData.fleetIndex = 2
 			end
 		end
+
+		slot0.contextData.fleets = {
+			slot3[1],
+			slot3[#slot3]
+		}
 	else
-		slot0.contextData.fleets = table.shallowCopy(slot3)
+		slot0.contextData.fleets = underscore.rest(slot3)
 
-		if slot1 ~= slot2 then
-			if slot0.contextData.fleetIndex == 2 then
-				slot0.contextData.fleetIndex = #slot3
-			end
-
-			slot4 = slot0.contextData.fleets[1]
-			slot4 = slot4:GetRawShipIds()
-
-			_.each(_.slice(slot0.contextData.fleets, 2, #slot0.contextData.fleets - 2), function (slot0)
-				_.each(uv0, function (slot0)
-					uv0:removeShipById(slot0)
-				end)
-			end)
+		if slot1 ~= slot2 and slot0.contextData.fleetIndex == 2 then
+			slot0.contextData.fleetIndex = #slot0.contextData.fleets
 		end
 	end
 
 	PlayerPrefs.SetInt("series_mode_flag" .. slot0.contextData.seriesData.id, slot1)
-end
-
-slot0.getRecommendShip = function(slot0, slot1, slot2)
-	slot3 = slot0.contextData.actId
-	slot6 = {}
-
-	for slot10, slot11 in ipairs(getProxy(BayProxy):getShipsByTypes(slot1)) do
-		slot6[slot11] = slot11:getShipCombatPower()
-	end
-
-	table.sort(slot5, CompareFuncs({
-		function (slot0)
-			return uv0[slot0]
-		end
-	}))
-
-	if getProxy(SettingsProxy):GetRecommendLowEnerySkipEnable() then
-		slot5 = underscore.filter(slot5, function (slot0)
-			return not slot0:isLowEnergy()
-		end)
-	end
-
-	slot7 = {}
-	slot8 = slot4:getRawData()
-
-	for slot12, slot13 in ipairs(slot2) do
-		slot7[#slot7 + 1] = slot8[slot13]:getGroupId()
-	end
-
-	slot9 = #slot5
-	slot10 = nil
-
-	while slot9 > 0 do
-		slot11 = slot5[slot9]
-		slot13 = slot11:getGroupId()
-
-		if not table.contains(slot2, slot11.id) and not table.contains(slot7, slot13) and ShipStatus.ShipStatusCheck("inActivity", slot11, nil, {
-			inActivity = slot3
-		}) then
-			slot10 = slot11
-
-			break
-		else
-			slot9 = slot9 - 1
-		end
-	end
-
-	return slot10
 end
 
 slot0.openCommanderPanel = function(slot0, slot1, slot2)

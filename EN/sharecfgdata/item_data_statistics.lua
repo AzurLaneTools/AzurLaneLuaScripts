@@ -28222,6 +28222,131 @@ _G.pg.base.item_data_statistics[30378] = {
 }
 
 
+_G.pg.base.item_data_statistics[30379] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Photo Vision)",
+	type = 11,
+	display = "Contains a random Photo Vision-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsheyingshijie",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30376",
+	id = 30379,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4276,
+			1
+		},
+		{
+			9,
+			4277,
+			1
+		},
+		{
+			9,
+			4278,
+			1
+		},
+		{
+			9,
+			4279,
+			1
+		},
+		{
+			9,
+			4280,
+			1
+		},
+		{
+			9,
+			4281,
+			1
+		},
+		{
+			9,
+			4282,
+			1
+		},
+		{
+			9,
+			4283,
+			1
+		},
+		{
+			9,
+			4284,
+			1
+		},
+		{
+			9,
+			4285,
+			1
+		},
+		{
+			9,
+			4286,
+			1
+		},
+		{
+			9,
+			4287,
+			1
+		},
+		{
+			9,
+			4288,
+			1
+		},
+		{
+			9,
+			4289,
+			1
+		},
+		{
+			9,
+			4290,
+			1
+		},
+		{
+			9,
+			4291,
+			1
+		},
+		{
+			9,
+			4292,
+			1
+		},
+		{
+			9,
+			4293,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -43091,6 +43216,219 @@ _G.pg.base.item_data_statistics[30562] = {
 		{
 			9,
 			4275,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30563] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Photo Vision)",
+	type = 13,
+	display = "Can be opened to receive 1 Photo Vision-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsheyingshijiezixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30563,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4276,
+			1
+		},
+		{
+			9,
+			4277,
+			1
+		},
+		{
+			9,
+			4278,
+			1
+		},
+		{
+			9,
+			4279,
+			1
+		},
+		{
+			9,
+			4280,
+			1
+		},
+		{
+			9,
+			4281,
+			1
+		},
+		{
+			9,
+			4282,
+			1
+		},
+		{
+			9,
+			4283,
+			1
+		},
+		{
+			9,
+			4284,
+			1
+		},
+		{
+			9,
+			4285,
+			1
+		},
+		{
+			9,
+			4286,
+			1
+		},
+		{
+			9,
+			4287,
+			1
+		},
+		{
+			9,
+			4288,
+			1
+		},
+		{
+			9,
+			4289,
+			1
+		},
+		{
+			9,
+			4290,
+			1
+		},
+		{
+			9,
+			4291,
+			1
+		},
+		{
+			9,
+			4292,
+			1
+		},
+		{
+			9,
+			4293,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4276,
+			1
+		},
+		{
+			9,
+			4277,
+			1
+		},
+		{
+			9,
+			4278,
+			1
+		},
+		{
+			9,
+			4279,
+			1
+		},
+		{
+			9,
+			4280,
+			1
+		},
+		{
+			9,
+			4281,
+			1
+		},
+		{
+			9,
+			4282,
+			1
+		},
+		{
+			9,
+			4283,
+			1
+		},
+		{
+			9,
+			4284,
+			1
+		},
+		{
+			9,
+			4285,
+			1
+		},
+		{
+			9,
+			4286,
+			1
+		},
+		{
+			9,
+			4287,
+			1
+		},
+		{
+			9,
+			4288,
+			1
+		},
+		{
+			9,
+			4289,
+			1
+		},
+		{
+			9,
+			4290,
+			1
+		},
+		{
+			9,
+			4291,
+			1
+		},
+		{
+			9,
+			4292,
+			1
+		},
+		{
+			9,
+			4293,
 			1
 		}
 	},
@@ -111847,6 +112185,73 @@ _G.pg.base.item_data_statistics[81437] = {
 			305102
 		}
 	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81438] = {
+	open_directly = 1,
+	name = "Photoshoot Lucky Bag",
+	type = 17,
+	display = "Contains a random Photoshoot Lucky Bag skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai100",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998570",
+	id = 81438,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86421,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			1,
+			6,
+			100
+		},
+		{
+			2,
+			15003,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
 	limit = {}
 }
 

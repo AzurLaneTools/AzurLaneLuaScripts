@@ -844,9 +844,13 @@ slot0.getActivityRecommendShips = function(slot0, slot1, slot2, slot3, slot4)
 		slot6[slot11] = slot11:getShipCombatPower()
 	end
 
-	table.sort(slot5, function (slot0, slot1)
-		return uv0[slot0] < uv0[slot1]
-	end)
+	slot11 = function(slot0)
+		return uv0[slot0]
+	end
+
+	table.sort(slot5, CompareFuncs({
+		slot11
+	}))
 
 	slot7 = {}
 

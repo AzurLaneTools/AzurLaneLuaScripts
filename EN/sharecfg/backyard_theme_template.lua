@@ -5187,6 +5187,49 @@ pg.backyard_theme_template = {
 			333301
 		}
 	},
+	[134] = {
+		Cfg_1 = 5,
+		name = "Fashion Studio",
+		desc = "Step into the studio, get in frame, and get ready to become a fashion icon!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 134,
+		id = 134,
+		icon = "sypthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			334001,
+			334002,
+			334101,
+			334102,
+			334103,
+			334104,
+			334105,
+			334106,
+			334107,
+			334108,
+			334109,
+			334110,
+			334111,
+			334112,
+			334113,
+			334114,
+			334115,
+			334116,
+			334117,
+			334118,
+			334119,
+			334120,
+			334121,
+			334301,
+			334302
+		}
+	},
 	all = {
 		1,
 		2,
@@ -5307,6 +5350,7 @@ pg.backyard_theme_template = {
 		130,
 		131,
 		132,
-		133
+		133,
+		134
 	}
 }

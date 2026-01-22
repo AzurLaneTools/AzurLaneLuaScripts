@@ -134363,7 +134363,7 @@ _G.pg.base.equip_data_statistics[75042] = {
 
 
 _G.pg.base.equip_data_statistics[75111] = {
-	name = "全弹发射-朱萨诺级I",
+	name = "全弹发射-朱塞诺级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -134407,7 +134407,7 @@ _G.pg.base.equip_data_statistics[75111] = {
 
 
 _G.pg.base.equip_data_statistics[75112] = {
-	name = "全弹发射-朱萨诺级II",
+	name = "全弹发射-朱塞诺级II",
 	base = 75111,
 	id = 75112,
 	weapon_id = {

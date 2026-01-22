@@ -1,4 +1,6 @@
 slot0 = class("MedalDetailPanel")
+slot0.setColorstateText = "#73757f"
+slot0.setColorstate = "#ed4646"
 
 slot0.SetIconScale = function(slot0, slot1)
 	slot0._iconScale = Vector2.New(slot1, slot1)
@@ -99,9 +101,9 @@ slot0.UpdateMedal = function(slot0)
 	end
 
 	if slot0._medalGroup:GetMedalGroupState() == ActivityMedalGroup.STATE_EXPIRE then
-		setText(slot0._stateText, setColorStr(i18n("word_cant_gain_anymore"), "#73757f"))
+		setText(slot0._stateText, setColorStr(i18n("word_cant_gain_anymore"), slot0._parent.setColorstateText or slot0.setColorstateText))
 	elseif slot4 == ActivityMedalGroup.STATE_CLOSE then
-		setText(slot0._stateText, setColorStr(i18n("word_activity_not_open"), "#ed4646"))
+		setText(slot0._stateText, setColorStr(i18n("word_activity_not_open"), slot0._parent.setColorstate or slot0.setColorstate))
 	end
 
 	SetActive(slot0._stateText, slot4 ~= ActivityMedalGroup.STATE_ACTIVE)
