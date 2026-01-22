@@ -1,214 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102054] = {
-		name = "桧木温香，暖意一刻",
-		change_skin = "",
-		desc = "呜呀？！……指、指挥官……？不、不要紧！只是脚滑了下，没事的——调光玻璃的开关怎么关掉了……？！啊，啊呜哇哇哇……///",
-		illustrator2 = -1,
-		ship_group = 10205,
-		group_index = 4,
-		purchase_offset = "",
-		painting = "hailunna_5",
-		bg_sp = "",
-		skin_type = 4,
-		shop_type_id = 22,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		bgm = "",
-		special_effects = "",
-		bg = "109",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		id = 102054,
-		voice_actor_2 = -1,
-		part_scale = "",
-		prefab = "hailunna_5",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 71171,
-		voice_actor = 34,
-		skeleton_default_skin = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			6,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		shop_offset = {
-			-107,
-			-908,
-			0,
-			0.61
-		},
-		spine_offset_profile = {
-			-58,
-			-907,
-			0,
-			0.61
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.06,
-					0.975,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.029,
-					1.029,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.837,
-					2.394,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.627,
-							2.291,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-15,
-				15
-			},
-			ParamAngleY = {
-				-15,
-				15
-			},
-			ParamBodyAngleX = {
-				-8,
-				8
-			},
-			ParamBodyAngleY = {
-				-8,
-				8
-			},
-			ParamEyeBallX = {
-				-0.4,
-				0.2
-			},
-			ParamEyeBallY = {
-				-0.4,
-				0.4
-			}
-		},
-		spine_offset = {
-			-134,
-			-1450,
-			0,
-			0.858
-		},
-		ship_l2d_id = {
-			1020531,
-			1020532,
-			1020533
-		},
-		l2d_drag_rate = {
-			0.5,
-			0.5,
-			0.5
-		},
-		get_showing = {
-			show = 1,
-			data = {
-				{
-					-1932,
-					1460,
-					2,
-					120,
-					0,
-					2
-				},
-				{
-					-592,
-					657,
-					2,
-					0,
-					-100,
-					2
-				},
-				{
-					-242,
-					-434,
-					2,
-					-100,
-					0,
-					2
-				}
-			}
-		}
-	},
 	[102058] = {
 		name = "纯白的奇迹",
 		change_skin = "",
@@ -16370,6 +16162,234 @@ pg.base.ship_skin_template_2 = {
 			-369,
 			0,
 			0.37
+		}
+	},
+	[103248] = {
+		name = "幸福的轨迹",
+		change_skin = "",
+		desc = "3、2、1！嘿咻！指挥官，有抓拍到扔捧花的瞬间吧？嘿嘿~下一条状态就更新这个了，指挥官，要和我同步更新哦，这也是我们俩的另一种……“爱的誓言”哦！",
+		illustrator2 = -1,
+		ship_group = 10324,
+		group_index = 8,
+		purchase_offset = "",
+		painting = "bulaimodun_h",
+		bg_sp = "",
+		skin_type = 1,
+		shop_type_id = 9998,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 103248,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "bulaimodun_h",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 134,
+		skeleton_default_skin = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.716,
+					0.874,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.72,
+					0.875,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.361,
+							2.431,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103250] = {
+		name = "巴尔的摩(μ兵装)",
+		change_skin = "",
+		desc = "我是白鹰重巡巴尔的摩。啊，这次不仅仅作为作战舰船，还有个“偶像”的身份来着。嘿嘿，既然要做，就全力做到最好！就拜托指挥官多给点支持啦~",
+		illustrator2 = -1,
+		ship_group = 10325,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "baerdimo_idol",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "140",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 103250,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "baerdimo_idol",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 191,
+		skeleton_default_skin = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.304,
+					0.894,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.274,
+					0.914,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							2.427,
+							0.14
+						}
+					}
+				}
+			}
 		}
 	}
 }

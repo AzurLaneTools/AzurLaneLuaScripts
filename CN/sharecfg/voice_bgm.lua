@@ -2704,5 +2704,25 @@ pg.voice_bgm = {
 		default_bgm = "theme-ucnf-image",
 		special_bgm = "",
 		bgm = "theme-ucnf-image"
+	},
+	SardiniaSPMainPage = {
+		default_bgm = "theme-richang-fashion",
+		special_bgm = "",
+		bgm = "theme-richang-fashion"
+	},
+	SardiniaSPPtPage = {
+		default_bgm = "story-richang-fashion-pv",
+		special_bgm = "",
+		bgm = "story-richang-fashion-pv"
+	},
+	SardiniaSPMedalAlbumView = {
+		default_bgm = "theme-richang-fashion",
+		special_bgm = "",
+		bgm = "theme-richang-fashion"
+	},
+	BossRushVerSardiniaSPScene = {
+		default_bgm = "story-richang-fashion-pv",
+		special_bgm = "",
+		bgm = "story-richang-fashion-pv"
 	}
 }

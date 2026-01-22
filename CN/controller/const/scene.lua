@@ -822,6 +822,10 @@ slot0 = {
 
 		slot0.mediator = BossRushKurskMediator
 		slot0.viewComponent = slot2
+
+		slot0:extendData({
+			activityID = slot4.id
+		})
 	end,
 	[SCENE.BOSSRUSH_DAL_COLLAB] = function (slot0, slot1)
 		slot0.mediator = BossRushDALCollabMediator

@@ -532,25 +532,31 @@ slot0.GenBattleData = function(slot0)
 	slot1.bossConfigId = slot0.contextData.bossConfigId
 
 	if pg.battle_cost_template[slot0.contextData.system].global_buff_effected > 0 then
-		slot4 = {}
+		slot1.GlobalBuffIDs = underscore.filter(BuffHelper.GetBattleBuffs(slot2), function (slot0)
+			slot1 = nil
+			slot2 = {
+				"dungeon"
+			}
 
-		for slot8, slot9 in ipairs(BuffHelper.GetBattleBuffs(slot2)) do
-			slot11 = false
+			if uv0 == SYSTEM_SCENARIO then
+				table.insert(slot2, "chapter")
 
-			if slot9:getConfig("benefit_condition")[1] == "chapter" then
-				if slot2 == SYSTEM_SCENARIO and table.contains(slot10[2], getProxy(ChapterProxy):getActiveChapter().id) then
-					slot11 = true
-				end
-			else
-				slot11 = true
+				slot1 = getProxy(ChapterProxy):getActiveChapter().id
 			end
 
-			if slot11 then
-				table.insert(slot4, slot9:getConfig("benefit_effect"))
-			end
-		end
-
-		slot1.GlobalBuffIDs = slot4
+			return underscore.all(slot2, function (slot0)
+				return switch(slot0, {
+					chapter = function ()
+						return uv0:checkChaper(uv1)
+					end,
+					dungeon = function ()
+						return uv0:checkDungeon(uv1.contextData.stageId)
+					end
+				}, function ()
+					return false
+				end)
+			end)
+		end)
 	end
 
 	slot3 = pg.battle_cost_template[slot2]
@@ -1011,20 +1017,13 @@ slot0.GenBattleData = function(slot0)
 
 		assert(slot7)
 
-		slot9 = slot7:GetFleetIds()
-		slot10 = slot9[slot7:GetStaegLevel() + 1]
-		slot11 = slot9[#slot9]
-
-		if slot7:GetMode() == BossRushSeriesData.MODE.SINGLE then
-			slot10 = slot9[1]
-		end
-
+		slot10, slot11 = slot7:GetStageFleets(slot7:GetMode(), slot7:GetStaegLevel() + 1)
 		slot0.mainShips = {}
+		slot14 = {}
 		slot15 = {}
 		slot16 = {}
-		slot17 = {}
 
-		slot18 = function(slot0, slot1, slot2, slot3)
+		slot17 = function(slot0, slot1, slot2, slot3)
 			if table.contains(uv0, slot0) then
 				BattleVertify.cloneShipVertiry = true
 			end
@@ -1037,32 +1036,32 @@ slot0.GenBattleData = function(slot0)
 			table.insert(slot2, uv2(uv3, slot4, slot1))
 		end
 
-		slot19 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot10]
-		slot20 = _.values(slot19:getCommanders())
-		slot1.CommanderList = slot19:buildBattleBuffList()
-		slot22 = slot19:getTeamByName(TeamType.Vanguard)
+		slot18 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot10]
+		slot19 = _.values(slot18:getCommanders())
+		slot1.CommanderList = slot18:buildBattleBuffList()
+		slot21 = slot18:getTeamByName(TeamType.Vanguard)
 
-		for slot26, slot27 in ipairs(slot19:getTeamByName(TeamType.Main)) do
-			slot18(slot27, slot20, slot1.MainUnitList, slot15)
+		for slot25, slot26 in ipairs(slot18:getTeamByName(TeamType.Main)) do
+			slot17(slot26, slot19, slot1.MainUnitList, slot14)
 		end
 
-		for slot26, slot27 in ipairs(slot22) do
-			slot18(slot27, slot20, slot1.VanguardUnitList, slot16)
+		for slot25, slot26 in ipairs(slot21) do
+			slot17(slot26, slot19, slot1.VanguardUnitList, slot15)
 		end
 
-		slot23 = slot14[slot11]
-		slot24 = _.values(slot23:getCommanders())
-		slot1.SubCommanderList = slot23:buildBattleBuffList()
+		slot22 = slot13[slot11]
+		slot23 = _.values(slot22:getCommanders())
+		slot1.SubCommanderList = slot22:buildBattleBuffList()
 
-		for slot29, slot30 in ipairs(slot23:getTeamByName(TeamType.Submarine)) do
-			slot18(slot30, slot24, slot1.SubUnitList, slot17)
+		for slot28, slot29 in ipairs(slot22:getTeamByName(TeamType.Submarine)) do
+			slot17(slot29, slot23, slot1.SubUnitList, slot16)
 		end
 
-		slot27 = getProxy(PlayerProxy):getRawData()
-		slot29 = slot7:GetOilLimit()
-		slot30 = slot3.oil_cost > 0
+		slot26 = getProxy(PlayerProxy):getRawData()
+		slot28 = slot7:GetOilLimit()
+		slot29 = slot3.oil_cost > 0
 
-		slot31 = function(slot0, slot1)
+		slot30 = function(slot0, slot1)
 			slot2 = 0
 
 			if uv0 then
@@ -1077,28 +1076,21 @@ slot0.GenBattleData = function(slot0)
 			return slot2
 		end
 
-		slot28 = 0 + slot31(slot19, slot29[1]) + slot31(slot23, slot29[2])
+		slot27 = 0 + slot30(slot18, slot28[1]) + slot30(slot22, slot28[2])
 
-		if slot23:isLegalToFight() == true and slot28 <= slot27.oil then
+		if slot22:isLegalToFight() == true and slot27 <= slot26.oil then
 			slot1.SubFlag = 1
 			slot1.TotalSubAmmo = 1
 		end
 
-		slot0.viewComponent:setFleet(slot15, slot16, slot17)
+		slot0.viewComponent:setFleet(slot14, slot15, slot16)
 
 		if slot2 == SYSTEM_BOSS_RUSH_COLLABRATE then
 			slot1.ChapterBuffIDs = {}
-
-			for slot37, slot38 in ipairs(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF):GetBuildingIds()) do
-				if slot32:GetBuildingConfigTable(slot38).buff[slot32:GetBuildingLevel(slot38)] ~= 0 and ActivityBuff.New(slot32.id, slot40):isActivate() and slot41:getConfig("benefit_type") == ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF then
-					table.insert(slot1.ChapterBuffIDs, slot41:getConfig("benefit_effect"))
-				end
-			end
-
 			slot1.DALAidBuffIDs = {}
 
 			if slot7:GetBossHpRate() <= slot7:getConfig("aid_buff")[1] then
-				table.insert(slot1.DALAidBuffIDs, slot34[2])
+				table.insert(slot1.DALAidBuffIDs, slot31[2])
 			end
 		end
 	elseif slot2 == SYSTEM_LIMIT_CHALLENGE then

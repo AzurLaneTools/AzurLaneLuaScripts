@@ -28686,6 +28686,131 @@ _G.pg.base.item_data_statistics[30378] = {
 }
 
 
+_G.pg.base.item_data_statistics[30379] = {
+	open_directly = 1,
+	name = "外观装备箱(摄影视界)",
+	type = 11,
+	display = "可以获得一件随机的摄影视界风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsheyingshijie",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30376",
+	id = 30379,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4276,
+			1
+		},
+		{
+			9,
+			4277,
+			1
+		},
+		{
+			9,
+			4278,
+			1
+		},
+		{
+			9,
+			4279,
+			1
+		},
+		{
+			9,
+			4280,
+			1
+		},
+		{
+			9,
+			4281,
+			1
+		},
+		{
+			9,
+			4282,
+			1
+		},
+		{
+			9,
+			4283,
+			1
+		},
+		{
+			9,
+			4284,
+			1
+		},
+		{
+			9,
+			4285,
+			1
+		},
+		{
+			9,
+			4286,
+			1
+		},
+		{
+			9,
+			4287,
+			1
+		},
+		{
+			9,
+			4288,
+			1
+		},
+		{
+			9,
+			4289,
+			1
+		},
+		{
+			9,
+			4290,
+			1
+		},
+		{
+			9,
+			4291,
+			1
+		},
+		{
+			9,
+			4292,
+			1
+		},
+		{
+			9,
+			4293,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -43555,6 +43680,219 @@ _G.pg.base.item_data_statistics[30562] = {
 		{
 			9,
 			4275,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30563] = {
+	open_directly = 0,
+	name = "定向外观装备箱(摄影视界)",
+	type = 13,
+	display = "使用后可从「摄影视界」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsheyingshijiezixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30563,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4276,
+			1
+		},
+		{
+			9,
+			4277,
+			1
+		},
+		{
+			9,
+			4278,
+			1
+		},
+		{
+			9,
+			4279,
+			1
+		},
+		{
+			9,
+			4280,
+			1
+		},
+		{
+			9,
+			4281,
+			1
+		},
+		{
+			9,
+			4282,
+			1
+		},
+		{
+			9,
+			4283,
+			1
+		},
+		{
+			9,
+			4284,
+			1
+		},
+		{
+			9,
+			4285,
+			1
+		},
+		{
+			9,
+			4286,
+			1
+		},
+		{
+			9,
+			4287,
+			1
+		},
+		{
+			9,
+			4288,
+			1
+		},
+		{
+			9,
+			4289,
+			1
+		},
+		{
+			9,
+			4290,
+			1
+		},
+		{
+			9,
+			4291,
+			1
+		},
+		{
+			9,
+			4292,
+			1
+		},
+		{
+			9,
+			4293,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4276,
+			1
+		},
+		{
+			9,
+			4277,
+			1
+		},
+		{
+			9,
+			4278,
+			1
+		},
+		{
+			9,
+			4279,
+			1
+		},
+		{
+			9,
+			4280,
+			1
+		},
+		{
+			9,
+			4281,
+			1
+		},
+		{
+			9,
+			4282,
+			1
+		},
+		{
+			9,
+			4283,
+			1
+		},
+		{
+			9,
+			4284,
+			1
+		},
+		{
+			9,
+			4285,
+			1
+		},
+		{
+			9,
+			4286,
+			1
+		},
+		{
+			9,
+			4287,
+			1
+		},
+		{
+			9,
+			4288,
+			1
+		},
+		{
+			9,
+			4289,
+			1
+		},
+		{
+			9,
+			4290,
+			1
+		},
+		{
+			9,
+			4291,
+			1
+		},
+		{
+			9,
+			4292,
+			1
+		},
+		{
+			9,
+			4293,
 			1
 		}
 	},
@@ -124553,6 +124891,357 @@ _G.pg.base.item_data_statistics[68180] = {
 	combination_display = {},
 	usage_arg = {
 		90419
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68181] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(灯光下的自白)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>弗朗西斯科·卡拉乔洛</color>换装<color=#92fc63FF>灯光下的自白</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906586",
+	id = 68181,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68184,
+			1
+		},
+		{
+			2,
+			68187,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68182] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(武者的“内在”修养)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:66}</color>换装<color=#92fc63FF>武者的“内在”修养</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906587",
+	id = 68182,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68185,
+			1
+		},
+		{
+			2,
+			68188,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68183] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(予你的镜头)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>阿拉巴马</color>换装<color=#92fc63FF>予你的镜头</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906588",
+	id = 68183,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68186,
+			1
+		},
+		{
+			2,
+			68189,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68184] = {
+	open_directly = 0,
+	name = "换装抵扣券(灯光下的自白)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>弗朗西斯科·卡拉乔洛</color>换装<color=#92fc63FF>灯光下的自白</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年1月28日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68184,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71285
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68185] = {
+	open_directly = 0,
+	name = "换装抵扣券(武者的“内在”修养)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:66}</color>换装<color=#92fc63FF>武者的“内在”修养</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年1月28日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68185,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71289
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68186] = {
+	open_directly = 0,
+	name = "换装抵扣券(予你的镜头)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>阿拉巴马</color>换装<color=#92fc63FF>予你的镜头</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年1月28日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68186,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71291
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68187] = {
+	open_directly = 0,
+	name = "换装体验券(灯光下的自白)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>弗朗西斯科·卡拉乔洛</color>换装<color=#92fc63FF>灯光下的自白</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年1月28日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68187,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90423
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68188] = {
+	open_directly = 0,
+	name = "换装体验券(武者的“内在”修养)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:66}</color>换装<color=#92fc63FF>武者的“内在”修养</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年1月28日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68188,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90424
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68189] = {
+	open_directly = 0,
+	name = "换装体验券(予你的镜头)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>阿拉巴马</color>换装<color=#92fc63FF>予你的镜头</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年1月28日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68189,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90425
 	},
 	limit = {}
 }

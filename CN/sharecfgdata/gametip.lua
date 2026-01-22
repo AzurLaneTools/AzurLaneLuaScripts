@@ -12505,7 +12505,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 关岛(最多4次)"
+	tip = "弗朗西斯科·卡拉乔洛 等角色建造概率UP！"
 }
 
 
@@ -37665,11 +37665,11 @@ _G.pg.base.gametip.help_starLightAlbum = {
 		{
 			info = [[
 1. 回忆页面内新增「纪念手册」系统入口。
-2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得活动纪念章家具和活动勋章。
+2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得活动勋章。
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至1月14日24时；]]
+ ※ 奖励领取界面将延长至2月11日24时；]]
 		}
 	}
 }
@@ -41052,7 +41052,7 @@ _G.pg.base.gametip.island_season_help = {
 
 
 _G.pg.base.gametip.island_season_title = {
-	tip = "岛屿开发季"
+	tip = "开发季"
 }
 
 
@@ -41161,13 +41161,23 @@ _G.pg.base.gametip.island_season_charts_out = {
 }
 
 
+_G.pg.base.gametip.island_season_review_lv = {
+	tip = "岛屿开发等级"
+}
+
+
 _G.pg.base.gametip.island_season_review_charnum = {
 	tip = "角色数量"
 }
 
 
 _G.pg.base.gametip.island_season_review_projuctnum = {
-	tip = "研发项目"
+	tip = "研发项目数量"
+}
+
+
+_G.pg.base.gametip.island_season_review_titleone = {
+	tip = "开发季"
 }
 
 
@@ -41177,37 +41187,57 @@ _G.pg.base.gametip.island_season_review_ptnum = {
 
 
 _G.pg.base.gametip.island_season_review_ptrank = {
-	tip = "开发排名"
+	tip = "开发排行"
 }
 
 
 _G.pg.base.gametip.island_season_review_produce = {
-	tip = "岛与产出"
+	tip = "产出统计"
 }
 
 
 _G.pg.base.gametip.island_season_review_ordernum = {
-	tip = "资材交付数"
+	tip = "订单数量"
 }
 
 
 _G.pg.base.gametip.island_season_review_formulanum = {
-	tip = "餐品制作数"
+	tip = "生产数量"
 }
 
 
 _G.pg.base.gametip.island_season_review_relax = {
-	tip = "岛屿休闲"
+	tip = "成就"
 }
 
 
 _G.pg.base.gametip.island_season_review_fishnum = {
-	tip = "总渔获数"
+	tip = "成就数量"
 }
 
 
 _G.pg.base.gametip.island_season_review_gamenum = {
-	tip = "活动参与数"
+	tip = "总收集点"
+}
+
+
+_G.pg.base.gametip.island_season_review_achi = {
+	tip = "成就"
+}
+
+
+_G.pg.base.gametip.island_season_review_achinum = {
+	tip = "成就数量"
+}
+
+
+_G.pg.base.gametip.island_season_review_guidenum = {
+	tip = "总收集点"
+}
+
+
+_G.pg.base.gametip.island_season_review_blank = {
+	tip = "未参与该开发季"
 }
 
 
@@ -43193,6 +43223,11 @@ _G.pg.base.gametip.island_cancel_queue = {
 
 _G.pg.base.gametip.island_queue_display = {
 	tip = "当前目标岛屿访客已达上限，进入等候队列中\n您在队列中的位置：$1"
+}
+
+
+_G.pg.base.gametip.island_season_label = {
+	tip = "开发季$1"
 }
 
 
@@ -46171,4 +46206,57 @@ _G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
 
 _G.pg.base.gametip.submarine_support_oil_consume_tip = {
 	tip = "潜艇支援舰队出击消耗$1点石油，是否继续？"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_title = {
+	tip = "活动汇总"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_1 = {
+	tip = "风尚光影"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_2 = {
+	tip = "光影补给站"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_story_reward_count = {
+	tip = "点击角色，消耗<icon name=65812 w=0.4 h=0.4/><color=#10a7a9>(剩余数量$1)</color>进入拍摄剧情\n完成全部剧情后可获得纪念外观<color=#10a7a9>($2/8)</color>"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_unlock = {
+	tip = "可解锁"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_fleetconfirm = {
+	tip = "当前编队为空，是否导入上一关编队？"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
+	tip = {
+		{
+			info = [[
+<b>活动时间：</b>
+·<color=#92fc63>1.22-2.5维护；</color>
+·活动期间开启限时活动「光影风尚——拍摄进行时！」。
+
+<b>活动说明：</b>
+·本次作战分为<color=#92fc63>【作战模式】</color>和<color=#92fc63>【剧情模式】</color>。
+·在【作战模式】中，指挥官可上阵多只队伍按照顺序分别挑战各个关卡，完成关卡内全部挑战后视为关卡通关并获得奖励。
+·同时，部分关卡可切换<color=#92fc63>「单队连战」</color>、<color=#92fc63>「多队出击」</color>两种模式：
+--「单队连战」为单只队伍挑战各个关卡。选择「单队连战」模式时，每个关卡开始前角色耐久值及各类状态均将重置。
+--「多队出击」为不同队伍挑战各个关卡。选择「多队出击」模式时，可获得额外奖励。
+
+·指挥官可以通过作战模式获取「摄影底片」，累计收集「摄影底片」可获得角色<color=#92fc63>「乌戈里诺·维瓦尔迪」</color>、装备<color=#92fc63>「试作型三联装406mm主炮Model1940」</color>在内的大量奖励。
+
+·完成【剧情模式】的全部内容后，可获得限定纪念外观<color=#92fc63>「爱之甜心炮弹」</color>。]]
+		}
+	}
 }

@@ -29,9 +29,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2025,
+					2026,
 					1,
-					23
+					22
 				},
 				{
 					12,
@@ -41,9 +41,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2025,
+					2026,
 					1,
-					30
+					28
 				},
 				{
 					23,
@@ -481,9 +481,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					4,
-					25
+					2026,
+					1,
+					22
 				},
 				{
 					12,
@@ -493,9 +493,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					5,
-					1
+					2026,
+					1,
+					28
 				},
 				{
 					23,
@@ -1327,6 +1327,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "温柔的安眠时分",
+		story_resource_JP = "soundStory28_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "大木咲绘子",
+		audition_resource_JP = "ss-40211-1",
+		overview = "指挥官因为太过疲倦趴在桌上睡着了，恍惚间感受到多琳妮娅来到了身边……\n在她轻柔的抚慰和温柔的声音里，指挥官又一次沉沉睡去……",
+		order = 2,
+		audition_text = "就让我一直这样……陪在您身边说话……",
+		ship_id = 40211,
+		id = 28,
+		captions_color = "#302c2c",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					22
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1354,6 +1407,7 @@ pg.soundstory_template = {
 		24,
 		25,
 		26,
-		27
+		27,
+		28
 	}
 }

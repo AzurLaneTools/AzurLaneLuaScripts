@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					15
+					22
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					21
+					28
 				},
 				{
 					23,
@@ -51,7 +51,7 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					15
+					22
 				},
 				{
 					0,
@@ -62,8 +62,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					22
+					2,
+					5
 				},
 				{
 					12,
@@ -74,16 +74,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50326",
-		type = 3,
+		type = 2,
 		id = 3,
 		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "SardiniaSPCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					1,
-					15
+					22
 				},
 				{
 					0,
@@ -94,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					22
+					2,
+					5
 				},
 				{
 					12,
@@ -120,7 +125,7 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					15
+					22
 				},
 				{
 					0,
@@ -131,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					21
+					2,
+					4
 				},
 				{
 					23,
@@ -157,7 +162,7 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					15
+					22
 				},
 				{
 					0,
@@ -168,8 +173,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					21
+					2,
+					4
 				},
 				{
 					23,
@@ -180,12 +185,37 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
+					1,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -207,16 +237,19 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50323",
-		type = 3,
+		type = 2,
 		id = 9,
 		pic = "temp9",
+		param = {
+			"scene Cryptolalia",
+			{}
+		},
 		time = {
 			{
 				{
 					2026,
 					1,
-					15
+					22
 				},
 				{
 					0,
@@ -228,12 +261,12 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					22
+					28
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -362,14 +395,12 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
 			6,
 			7,
-			8
-		},
-		[3] = {
-			3,
+			8,
 			9
 		},
 		[9] = {

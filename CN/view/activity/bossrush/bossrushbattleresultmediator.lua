@@ -79,18 +79,15 @@ slot0.handleNotification = function(slot0, slot1)
 
 				slot2 = uv0.contextData.seriesData
 				slot3 = uv0.contextData.system
-				slot4 = uv0.contextData.seriesData.mode
-				slot5 = slot2:GetFleets()
-				slot6 = slot5[#slot5]
-				slot7 = _.slice(slot5, 1, #slot5 - 1)
-				slot10 = getProxy(PlayerProxy)
+				slot5, slot6 = slot2:GetModeFleetIDs(uv0.contextData.seriesData.mode)
+				slot7 = slot2:GetFleets(slot6)[1]
+				slot8 = slot2:GetFleets(slot5)
+				slot11 = getProxy(PlayerProxy)
 
-				if slot10:getRawData().oil < (function ()
+				if slot11:getRawData().oil < (function ()
 					slot0 = 0
-					slot2 = uv1:GetOilLimit()
 					slot3 = pg.battle_cost_template[uv0].oil_cost > 0
-
-					slot4 = function(slot0, slot1)
+					slot0 = (function (slot0, slot1)
 						slot2 = 0
 
 						if uv0 then
@@ -102,18 +99,10 @@ slot0.handleNotification = function(slot0, slot1)
 						end
 
 						return slot2
-					end
+					end)(uv2, uv1:GetOilLimit()[2]) * #uv1:GetExpeditionIds()
 
-					slot5 = #uv1:GetExpeditionIds()
-
-					if uv2 == BossRushSeriesData.MODE.SINGLE then
-						slot0 = (slot0 + slot4(uv3[1], slot2[1]) + slot4(uv4, slot2[2])) * slot5
-					else
-						slot0 = slot4(uv4, slot2[2]) * slot5
-
-						_.each(uv3, function (slot0)
-							uv0 = uv0 + uv1(slot0, uv2[1])
-						end)
+					for slot9 = 1, slot5 do
+						slot0 = slot0 + slot4(uv3[slot9] or uv3[1], slot2[1])
 					end
 
 					return slot0
@@ -121,7 +110,9 @@ slot0.handleNotification = function(slot0, slot1)
 					return
 				end
 
-				if slot4 == BossRushSeriesData.MODE.SINGLE and _.any(slot5, function (slot0)
+				if slot4 == BossRushSeriesData.MODE.SINGLE and underscore.any(table.mergeArray(slot8, {
+					slot7
+				}), function (slot0)
 					return _.any(slot0:GetRawShipIds(), function (slot0)
 						return getProxy(BayProxy):RawGetShipById(slot0):getEnergy() <= pg.gameset.series_enemy_mood_limit.key_value
 					end)

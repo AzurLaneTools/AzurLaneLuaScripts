@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50326
+			50351
 		}
 	},
 	[11] = {
@@ -305,17 +305,17 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "ANTTFFCoreActivityUI",
+		param = "SardiniaSPCoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_core2",
+		text_pic = "text_event_core",
 		type = 16,
-		pic = "event_core2",
+		pic = "event_core",
 		id = 109,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			50341
+			50351
 		}
 	},
 	[110] = {

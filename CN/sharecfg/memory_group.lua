@@ -260,6 +260,7 @@ pg.memory_group = setmetatable({
 		351,
 		352,
 		353,
+		354,
 		501,
 		502,
 		503,
@@ -6450,6 +6451,27 @@ pg.base.memory_group = {
 			4944,
 			4945,
 			4946
+		}
+	},
+	[354] = {
+		title = "光影风尚——拍摄进行时！",
+		subtype = 3,
+		link_event = 50360,
+		type = 2,
+		id = 354,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4961,
+			4962,
+			4963,
+			4964,
+			4965,
+			4966,
+			4967,
+			4968,
+			4969,
+			4970
 		}
 	},
 	[501] = {

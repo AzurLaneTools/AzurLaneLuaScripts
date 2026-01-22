@@ -2816,7 +2816,8 @@ pg.fleet_tech_ship_class = {
 		nation = 6,
 		ships = {
 			60106,
-			60109
+			60109,
+			60112
 		}
 	},
 	[60105] = {
@@ -2856,13 +2857,14 @@ pg.fleet_tech_ship_class = {
 	},
 	[60202] = {
 		shiptype = 2,
-		name = "朱萨诺级",
+		name = "朱塞诺级",
 		t_level = 7,
 		id = 60202,
 		t_level_1 = 132,
 		nation = 6,
 		ships = {
-			60203
+			60203,
+			60204
 		}
 	},
 	[60301] = {
@@ -2968,6 +2970,17 @@ pg.fleet_tech_ship_class = {
 		nation = 6,
 		ships = {
 			60508
+		}
+	},
+	[60506] = {
+		shiptype = 5,
+		name = "弗朗西斯科·卡拉乔洛级",
+		t_level = 6,
+		id = 60506,
+		t_level_1 = 133,
+		nation = 6,
+		ships = {
+			60509
 		}
 	},
 	[60701] = {
@@ -4723,6 +4736,7 @@ pg.fleet_tech_ship_class = {
 		60503,
 		60504,
 		60505,
+		60506,
 		60701,
 		60702,
 		60801,

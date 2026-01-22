@@ -67,8 +67,32 @@ slot0.GetEXScores = function(slot0)
 	return slot0.exScores or {}
 end
 
-slot0.GetFleets = function(slot0)
-	return getProxy(FleetProxy):GetBossRushFleets(slot0.actId, slot0:GetFleetIds())
+slot0.GetFleets = function(slot0, slot1)
+	return getProxy(FleetProxy):GetBossRushFleets(slot0.actId, slot1 or slot0:GetFleetIds())
+end
+
+slot0.CopyFleetsByOther = function(slot0, slot1)
+	slot3 = slot0:GetFleetIds()
+
+	for slot7 = 1, #slot1:GetFleets() - 1 do
+		assert(slot3[slot7])
+		getProxy(FleetProxy):updateActivityFleet(slot0.actId, slot3[slot7], TypedFleet.New(setmetatable({
+			id = slot3[slot7]
+		}, {
+			__index = slot2[slot7]:SeparateOut()
+		})))
+	end
+
+	getProxy(FleetProxy):updateActivityFleet(slot0.actId, slot3[#slot3], TypedFleet.New(setmetatable({
+		id = slot3[i]
+	}, {
+		__index = slot2[#slot2]:SeparateOut()
+	})))
+	getProxy(FleetProxy):commitActivityFleet(slot0.actId)
+end
+
+slot0.IsFleetsEmpty = function(slot0)
+	return getProxy(FleetProxy):IsBossRushFleetsEmpty(slot0.actId, slot0:GetFleetIds())
 end
 
 slot0.GetExpeditionIds = function(slot0)
@@ -83,6 +107,32 @@ slot0.GetFleetIds = function(slot0)
 	slot0.fleetIds = slot0.StaticCalculateFleetIds(slot0.id, #slot0:GetExpeditionIds())
 
 	return slot0.fleetIds
+end
+
+slot0.GetModeFleetIDs = function(slot0, slot1)
+	slot2 = slot0:GetFleetIds()
+	slot3, slot4 = nil
+
+	if slot1 == uv0.MODE.SINGLE then
+		slot3 = {
+			slot2[1]
+		}
+		slot4 = {
+			slot2[#slot2]
+		}
+	elseif slot1 == uv0.MODE.MULTIPLE then
+		slot4 = {
+			table.remove(underscore.rest(slot2))
+		}
+	end
+
+	return slot3, slot4
+end
+
+slot0.GetStageFleets = function(slot0, slot1, slot2)
+	slot3, slot4 = slot0:GetModeFleetIDs(slot1)
+
+	return slot3[slot2] or slot3[1], slot4[1]
 end
 
 slot0.GetType = function(slot0)
@@ -156,8 +206,8 @@ end
 slot0.StaticCalculateFleetIds = function(slot0, slot1)
 	assert(slot1 <= 10, "expedition List Too long")
 
-	return _.map(_.range(slot1 + 1), function (slot0)
-		return uv0 * 10 + slot0 - 1
+	return underscore.map(_.range(0, slot1 + 1), function (slot0)
+		return uv0 * 10 + slot0
 	end)
 end
 

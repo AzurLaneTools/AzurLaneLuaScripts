@@ -3,33 +3,25 @@ ys.Battle.BattleGateBossRush = slot0
 slot0.__name = "BattleGateBossRush"
 
 slot0.Entrance = function(slot0, slot1)
+	slot2 = slot0.actId
 	slot3 = getProxy(PlayerProxy)
-	slot4 = getProxy(FleetProxy)
 	slot5 = getProxy(BayProxy)
 	slot7 = pg.battle_cost_template[SYSTEM_BOSS_RUSH].oil_cost > 0
-	slot9 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
+	slot9 = getProxy(ActivityProxy):getActivityById(slot2):GetSeriesData()
 	slot10 = slot9:GetStaegLevel() + 1
 	slot11 = slot9:GetExpeditionIds()[slot10]
-	slot12 = slot9:GetFleetIds()
-	slot13 = slot12[slot10]
-	slot14 = slot12[#slot12]
+	slot13, slot14 = slot9:GetStageFleets(slot9:GetMode(), slot10)
+	slot17 = getProxy(FleetProxy):getActivityFleets()[slot2][slot14]
+	slot18 = {}
 
-	if slot9:GetMode() == BossRushSeriesData.MODE.SINGLE then
-		slot13 = slot12[1]
+	for slot23, slot24 in ipairs(slot5:getSortShipsByFleet(slot15[slot13])) do
+		slot18[#slot18 + 1] = slot24.id
 	end
 
-	slot16 = slot4:getActivityFleets()[slot2]
-	slot18 = slot16[slot14]
-	slot19 = {}
+	slot20 = slot3:getRawData()
+	slot21 = slot16:GetCostSum().oil
 
-	for slot24, slot25 in ipairs(slot5:getSortShipsByFleet(slot16[slot13])) do
-		slot19[#slot19 + 1] = slot25.id
-	end
-
-	slot21 = slot3:getRawData()
-	slot22 = slot17:GetCostSum().oil
-
-	if slot7 and slot21.oil < slot22 then
+	if slot7 and slot20.oil < slot21 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
@@ -37,9 +29,9 @@ slot0.Entrance = function(slot0, slot1)
 
 	slot1.ShipVertify()
 
-	slot23 = slot17:getStartCost().oil
+	slot22 = slot16:getStartCost().oil
 
-	BeginStageCommand.SendRequest(SYSTEM_BOSS_RUSH, slot19, {
+	BeginStageCommand.SendRequest(SYSTEM_BOSS_RUSH, slot18, {
 		slot11
 	}, function (slot0)
 		if uv0 then
@@ -91,25 +83,18 @@ slot0.Exit = function(slot0, slot1)
 			return
 		end
 
-		slot4 = slot2:GetFleetIds()
-		slot5 = slot4[slot2:GetStaegLevel() + 1]
-		slot6 = slot4[#slot4]
-
-		if slot2:GetMode() == BossRushSeriesData.MODE.SINGLE then
-			slot5 = slot4[1]
-		end
-
-		slot8 = uv2
-		slot8 = slot8:getActivityFleets()[slot0]
-		slot10 = slot8[slot6]
+		slot5, slot6 = slot2:GetStageFleets(slot2:GetMode(), slot2:GetStaegLevel() + 1)
+		slot7 = uv2
+		slot7 = slot7:getActivityFleets()[slot0]
+		slot9 = slot7[slot6]
 
 		(function (slot0)
 			table.insertto(uv0, _.values(slot0.commanderIds))
 			table.insertto(uv1, uv2:getSortShipsByFleet(slot0))
-		end)(slot8[slot5])
+		end)(slot7[slot5])
 
 		if uv0.statistics.submarineAid then
-			slot11(slot10)
+			slot10(slot9)
 		end
 	end)()
 

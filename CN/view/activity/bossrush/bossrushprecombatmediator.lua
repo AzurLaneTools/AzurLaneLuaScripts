@@ -221,11 +221,8 @@ slot0.bindEvent = function(slot0)
 		})
 	end)
 	slot0:bind(uv0.SHOW_CONTINUOUS_OPERATION_WINDOW, function (slot0)
-		slot1 = uv0.contextData.fleets
-		slot2 = slot1[#slot1]
-		slot3 = _.slice(slot1, 1, #slot1 - 1)
-		slot4 = uv0.contextData.seriesData
-		slot5 = uv0.contextData.mode
+		slot2 = uv0.contextData.seriesData.mode
+		slot4 = table.remove(underscore.to_array(uv0.contextData.fleets))
 
 		uv0:addSubLayers(Context.New({
 			mediator = BossRushContinuousOperationWindowMediator,
@@ -236,10 +233,8 @@ slot0.bindEvent = function(slot0)
 				oilCost = (function ()
 					slot0 = 0
 					slot1 = nil
-					slot3 = uv0:GetOilLimit()
 					slot4 = pg.battle_cost_template[(uv0.__cname ~= "CollabrateBossRushSeriesData" or SYSTEM_BOSS_RUSH_COLLABRATE) and (uv0:GetType() ~= BossRushSeriesData.TYPE.EXTRA or SYSTEM_BOSS_RUSH_EX) and SYSTEM_BOSS_RUSH].oil_cost > 0
-
-					slot5 = function(slot0, slot1)
+					slot0 = (function (slot0, slot1)
 						slot2 = 0
 
 						if uv0 then
@@ -251,18 +246,10 @@ slot0.bindEvent = function(slot0)
 						end
 
 						return slot2
-					end
+					end)(uv1, uv0:GetOilLimit()[2]) * #uv0:GetExpeditionIds()
 
-					slot6 = #uv0:GetExpeditionIds()
-
-					if uv1 == BossRushSeriesData.MODE.SINGLE then
-						slot0 = (slot0 + slot5(uv2[1], slot3[1]) + slot5(uv3, slot3[2])) * slot6
-					else
-						slot0 = slot5(uv3, slot3[2]) * slot6
-
-						_.each(uv2, function (slot0)
-							uv0 = uv0 + uv1(slot0, uv2[1])
-						end)
+					for slot10 = 1, slot6 do
+						slot0 = slot0 + slot5(uv2[slot10] or uv2[1], slot3[1])
 					end
 
 					return slot0
