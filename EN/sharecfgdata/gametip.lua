@@ -46556,7 +46556,7 @@ Before going into battle, you can decide whether you\'d like to fight in a joint
 · In a joint sortie, you will instead send out multiple fleets to battle on each stage. Completing the challenge in this mode will grant you additional rewards.
 3. You will receive rewards for collecting enough Camera Films, including <color=#92fc63>Elite DD Ugolino Vivaldi</color> and a <color=#92fc63>Prototype Triple 406mm Model 1940 Main Gun</color>.
 4. There are special missions available during the event. Complete these to receive additional rewards.
-5. There\'s a special story available in Story Mode. Read it in its entirety to receive a commemorative gear skin.
+5. There is a special story available in Story Mode. Read it in its entirety to receive a commemorative gear skin.
 ]]
 		}
 	}
