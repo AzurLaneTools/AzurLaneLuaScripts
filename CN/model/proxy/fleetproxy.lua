@@ -380,6 +380,24 @@ slot0.addActivityFleet = function(slot0, slot1, slot2)
 		end
 	end
 
+	if slot8.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+		slot13 = "config_data"
+
+		for slot13, slot14 in ipairs(slot1:getConfig(slot13)) do
+			slot15 = BossRushSeriesData.New({
+				id = slot14,
+				actId = slot1.id
+			})
+			slot16 = slot15:GetFleetIds()[1]
+
+			if not slot15:IsSingleFight() and slot4[slot16] and not slot4[slot16]:isAllEmpty() then
+				slot4[slot16]:allClear()
+
+				slot6 = true
+			end
+		end
+	end
+
 	if slot6 then
 		slot0:commitActivityFleet(slot3)
 	end
