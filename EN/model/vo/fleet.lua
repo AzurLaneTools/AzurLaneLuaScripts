@@ -154,6 +154,12 @@ slot0.outputCommanders = function(slot0)
 	return slot1
 end
 
+slot0.clearCommanders = function(slot0)
+	slot0.commanderIds = {}
+
+	slot0:updateCommanderSkills()
+end
+
 slot0.getCommanders = function(slot0)
 	slot1 = {}
 
@@ -471,6 +477,16 @@ end
 
 slot0.isEmpty = function(slot0)
 	return #slot0.ships == 0
+end
+
+slot0.isCommanderEmpty = function(slot0)
+	for slot4, slot5 in pairs(slot0.commanderIds) do
+		if slot5 and slot5 ~= 0 then
+			return false
+		end
+	end
+
+	return true
 end
 
 slot0.isLegalToFight = function(slot0)
@@ -926,6 +942,15 @@ slot0.ChangeToElite = function(slot0)
 	})
 
 	return slot2, slot1
+end
+
+slot0.allClear = function(slot0)
+	slot0:clearFleet()
+	slot0:clearCommanders()
+end
+
+slot0.isAllEmpty = function(slot0)
+	return slot0:isEmpty() and slot0:isCommanderEmpty()
 end
 
 return slot0
