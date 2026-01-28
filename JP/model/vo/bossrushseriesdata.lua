@@ -76,11 +76,18 @@ slot0.CopyFleetsByOther = function(slot0, slot1)
 
 	for slot7 = 1, #slot1:GetFleets() - 1 do
 		assert(slot3[slot7])
-		getProxy(FleetProxy):updateActivityFleet(slot0.actId, slot3[slot7], TypedFleet.New(setmetatable({
+
+		slot8 = TypedFleet.New(setmetatable({
 			id = slot3[slot7]
 		}, {
 			__index = slot2[slot7]:SeparateOut()
-		})))
+		}))
+
+		if slot7 == 1 and not slot0:IsSingleFight() then
+			slot8:allClear()
+		end
+
+		getProxy(FleetProxy):updateActivityFleet(slot0.actId, slot3[slot7], slot8)
 	end
 
 	getProxy(FleetProxy):updateActivityFleet(slot0.actId, slot3[#slot3], TypedFleet.New(setmetatable({
