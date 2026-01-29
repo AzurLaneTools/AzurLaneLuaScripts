@@ -259,6 +259,7 @@ pg.furniture_data_template = setmetatable({
 			100078,
 			100079,
 			100080,
+			100081,
 			200001,
 			200002,
 			200003,
@@ -6154,6 +6155,7 @@ pg.furniture_data_template = setmetatable({
 			100078,
 			100079,
 			100080,
+			100081,
 			54104,
 			54105
 		},
@@ -7400,7 +7402,8 @@ pg.furniture_data_template = setmetatable({
 			100076,
 			100078,
 			100079,
-			100080
+			100080,
+			100081
 		},
 		[2] = {
 			120,
@@ -10760,6 +10763,7 @@ pg.furniture_data_template = setmetatable({
 		100078,
 		100079,
 		100080,
+		100081,
 		200001,
 		200002,
 		200003,
@@ -28548,6 +28552,77 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100081] = {
+		advice = 0,
+		name = "문명 스튜디오",
+		count = 1,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "xiaosheyingpengicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 100081,
+		comfortable = 0,
+		describe = "사진작가 준비 완료. 모델분들은 순서대로 입장해 주세요. 카메라 난입이나 촬영장 독점 행위는 금지입니다.",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			8,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaosheyingpengB",
+				"normal"
+			},
+			{
+				"xiaosheyingpengT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

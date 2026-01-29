@@ -13814,15 +13814,15 @@ pg.base.ship_skin_template_9 = {
 		bound_bone = {
 			cannon = {
 				{
-					-1.102,
-					0.429,
+					1.52,
+					0.929,
 					0
 				}
 			},
 			vicegun = {
 				{
-					2.269,
-					0.922,
+					1.541,
+					1.792,
 					0
 				}
 			},
@@ -13835,8 +13835,8 @@ pg.base.ship_skin_template_9 = {
 			},
 			antiaircraft = {
 				{
-					0.601,
-					2.395,
+					0.642,
+					2.442,
 					0
 				}
 			}

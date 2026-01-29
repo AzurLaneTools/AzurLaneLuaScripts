@@ -106732,6 +106732,43 @@ _G.pg.base.item_data_statistics[81425] = {
 }
 
 
+_G.pg.base.item_data_statistics[81439] = {
+	open_directly = 1,
+	name = "광휘와 마음의 게디히트",
+	type = 17,
+	display = "수증기 속에서 보이는 이 목걸이의 광채와 질감… 정말 근사해…… 아, 지휘관…… 네가 준 이 풍경을 함께 감상하지 그래?",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/bisimaiz_3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "908110",
+	id = 81439,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			405052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[99952] = {
 	open_directly = 0,
 	name = "SP 해역 드랍 관련 우편",

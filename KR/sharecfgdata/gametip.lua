@@ -12537,7 +12537,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 「렉싱턴Ⅱ」 100% 획득 가능! (최대 4척까지)"
+	tip = "기간 한정 건조를 총 200회 실시하면, \"괌\" 100% 획득 가능! (최대 4척까지)"
 }
 
 
@@ -45715,6 +45715,31 @@ _G.pg.base.gametip.island_survey_ui_award = {
 
 _G.pg.base.gametip.island_survey_ui_button = {
 	tip = "打开问卷"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_subtitle_1 = {
+	tip = "창공에 울리는 소리·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_title = {
+	tip = "창공에 울리는 소리·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_title2 = {
+	tip = "movement"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title = {
+	tip = "창공에 울리는 소리·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
+	tip = "movement"
 }
 
 

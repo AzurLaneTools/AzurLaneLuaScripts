@@ -1914,7 +1914,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 601
+		key_value = 614
 	},
 	order_pt_max = {
 		key_value = 0,

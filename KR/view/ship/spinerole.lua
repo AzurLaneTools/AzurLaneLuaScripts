@@ -154,7 +154,7 @@ slot0.loadOrbitUI = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 				index = uv6,
 				back = uv3.orbit_ui_back
 			}
-			slot7 = slot6:GetComponent("Spine.Unity.BoneFollowerGraphic")
+			slot6:GetComponent("Spine.Unity.BoneFollowerGraphic").followSkeletonFlip = false
 
 			if uv3.orbit_rotate then
 				slot7.followBoneRotation = true

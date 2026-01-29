@@ -2669,5 +2669,40 @@ pg.voice_bgm = {
 		default_bgm = "theme-warmwinter-daily",
 		special_bgm = "",
 		bgm = "theme-warmwinter-daily"
+	},
+	ANTTFFStoryCollectionPage = {
+		default_bgm = "story-weimu-link",
+		special_bgm = "",
+		bgm = "story-weimu-link"
+	},
+	MeixiT2FrameRePage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	StarSeaFacilityRePage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
+	},
+	BuildLoginRePage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	StarSeaMainRePage = {
+		default_bgm = "theme-ucnf-image",
+		special_bgm = "",
+		bgm = "theme-ucnf-image"
+	},
+	StarSeaPtRePage = {
+		default_bgm = "theme-ucnf-image",
+		special_bgm = "",
+		bgm = "theme-ucnf-image"
+	},
+	LaFeiUrExchangeTemplatePage = {
+		default_bgm = "theme-ucnf-image",
+		special_bgm = "",
+		bgm = "theme-ucnf-image"
 	}
 }
