@@ -13,7 +13,7 @@ pg.shop_banner_template = {
 				{
 					2026,
 					1,
-					22
+					29
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					28
+					2,
+					4
 				},
 				{
 					23,

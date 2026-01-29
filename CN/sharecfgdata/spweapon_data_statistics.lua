@@ -32139,7 +32139,7 @@ _G.pg.base.spweapon_data_statistics[14530] = {
 
 _G.pg.base.spweapon_data_statistics[14540] = {
 	attribute_1 = "cannon",
-	name = "君主之誓 ",
+	name = "君主之誓",
 	type = 6,
 	tech = 0,
 	value_1_random = 10,
@@ -32790,7 +32790,7 @@ _G.pg.base.spweapon_data_statistics[14610] = {
 
 _G.pg.base.spweapon_data_statistics[14620] = {
 	attribute_1 = "cannon",
-	name = "暗夜蔷薇 ",
+	name = "暗夜蔷薇",
 	type = 10,
 	tech = 0,
 	value_1_random = 10,

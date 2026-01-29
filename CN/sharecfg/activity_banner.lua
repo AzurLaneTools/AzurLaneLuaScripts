@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					22
+					29
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					28
+					2,
+					4
 				},
 				{
 					23,
@@ -219,37 +219,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 7,
 		pic = "temp7",
 		param = {
-			"dorm 3d select"
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"scene level"
-		}
-	},
-	{
-		type = 2,
-		id = 9,
-		pic = "temp9",
-		param = {
-			"scene Cryptolalia",
-			{}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					1,
-					22
+					2,
+					1
 				},
 				{
 					0,
@@ -260,13 +241,83 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					28
+					2,
+					12
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isEX = true
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		param = "50372",
+		type = 3,
+		id = 9,
+		pic = "temp9",
+		time = {
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -400,7 +451,9 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8,
+			8
+		},
+		[3] = {
 			9
 		},
 		[9] = {

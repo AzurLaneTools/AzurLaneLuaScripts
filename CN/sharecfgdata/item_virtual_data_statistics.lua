@@ -172333,6 +172333,31 @@ _G.pg.base.item_virtual_data_statistics[65112] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65113] = {
+	drop_gold_max = 0,
+	name = "巡游点数",
+	display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失 ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7027,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65113,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65115] = {
 	drop_gold_max = 0,
 	name = "蓝色浮光",
@@ -178397,6 +178422,31 @@ _G.pg.base.item_virtual_data_statistics[65813] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65813,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65821] = {
+	drop_gold_max = 0,
+	name = "军事委托凭证",
+	display = "用于「委托兑换计划V」活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/commission_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65821,
 	display_icon = {},
 	price = {},
 	index = {},

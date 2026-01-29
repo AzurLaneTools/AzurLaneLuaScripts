@@ -2521,6 +2521,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970209] = {
 			30055
+		},
+		[970111] = {
+			30056
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3370,7 +3373,8 @@ pg.ship_data_group = setmetatable({
 			30052,
 			30053,
 			30054,
-			30055
+			30055,
+			30056
 		}
 	},
 	all = {
@@ -4213,7 +4217,8 @@ pg.ship_data_group = setmetatable({
 		30052,
 		30053,
 		30054,
-		30055
+		30055,
+		30056
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -12355,6 +12360,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14006,6 +14021,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15408,6 +15434,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15850,6 +15887,17 @@ pg.base.ship_data_group = {
 				"限时活动：湮烬尘墟",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -16602,6 +16650,28 @@ pg.base.ship_data_group = {
 				"限时活动：湮烬尘墟",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型、特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"常驻UR兑换",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -38785,6 +38855,41 @@ pg.base.ship_data_group = {
 				"限时活动：响彻于天穹之音",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[30056] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970111,
+		index_id = 30056,
+		code = 30056,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701111
+					}
 				},
 				0
 			}
