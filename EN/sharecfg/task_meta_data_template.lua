@@ -342,6 +342,11 @@ pg.task_meta_data_template = setmetatable({
 		100503,
 		100504,
 		100505,
+		100511,
+		100512,
+		100513,
+		100514,
+		100515,
 		200001,
 		200002,
 		200003,
@@ -505,7 +510,11 @@ pg.task_meta_data_template = setmetatable({
 		200411,
 		200412,
 		200413,
-		200414
+		200414,
+		200421,
+		200422,
+		200423,
+		200424
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3230,6 +3239,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Cleveland META in your fleet."
 	},
+	[100511] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100511,
+		target_num = 1,
+		desc = "Win 1 battle with Carabiniere META in your fleet."
+	},
+	[100512] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100512,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Carabiniere META in your fleet."
+	},
+	[100513] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100513,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Carabiniere META in your fleet."
+	},
+	[100514] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100514,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Carabiniere META in your fleet."
+	},
+	[100515] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100515,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Carabiniere META in your fleet."
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4541,5 +4590,37 @@ pg.base.task_meta_data_template = {
 		id = 200414,
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Cleveland META in your fleet."
+	},
+	[200421] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970111",
+		id = 200421,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Carabiniere META in your fleet."
+	},
+	[200422] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970111",
+		id = 200422,
+		target_num = 1,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Carabiniere META in your fleet."
+	},
+	[200423] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970111",
+		id = 200423,
+		target_num = 1,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Carabiniere META in your fleet."
+	},
+	[200424] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970111",
+		id = 200424,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Carabiniere META in your fleet."
 	}
 }

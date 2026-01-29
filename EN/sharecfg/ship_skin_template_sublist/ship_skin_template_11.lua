@@ -3510,6 +3510,127 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[401472] = {
+		name = "Batter ★ Home Run",
+		change_skin = "",
+		desc = "Stand here, raise the bat, and do a full swing when the ball comes flying – that's what Mandy just told me. Eyes open... for my full power.",
+		illustrator2 = -1,
+		ship_group = 40147,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "z47_3",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 13,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "112",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 401472,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "z47_3",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 401,
+		skeleton_default_skin = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.277,
+					1.117,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.59,
+					1.591,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.247,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.82,
+					2.576,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							4.007,
+							2.41,
+							-0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[401520] = {
 		name = "Z52",
 		change_skin = "",
@@ -16966,129 +17087,6 @@ pg.base.ship_skin_template_11 = {
 						{
 							-0.424,
 							2.49,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[405024] = {
-		name = "A Vase for the Frost Flower",
-		change_skin = "",
-		desc = "It's all right, I just got here myself. I will say, it's strangely reassuring to know I'm not the only one nervous on this day.",
-		illustrator2 = -1,
-		ship_group = 40502,
-		group_index = 4,
-		purchase_offset = "",
-		painting = "tierbici_5",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 3,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "157",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 405024,
-		voice_actor_2 = 482,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "tierbici_5",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 70706,
-		voice_actor = 36,
-		skeleton_default_skin = "",
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.03,
-					1.11,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.99,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.111,
-					1.018,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.32,
 							0
 						}
 					}

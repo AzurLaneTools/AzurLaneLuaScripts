@@ -2497,6 +2497,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970209] = {
 			30055
+		},
+		[970111] = {
+			30056
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3338,7 +3341,8 @@ pg.ship_data_group = setmetatable({
 			30052,
 			30053,
 			30054,
-			30055
+			30055,
+			30056
 		}
 	},
 	all = {
@@ -4173,7 +4177,8 @@ pg.ship_data_group = setmetatable({
 		30052,
 		30053,
 		30054,
-		30055
+		30055,
+		30056
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -12379,6 +12384,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14062,6 +14077,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15524,6 +15550,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16005,6 +16042,17 @@ pg.base.ship_data_group = {
 				"Event: Revelations of Dust",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -16828,6 +16876,28 @@ pg.base.ship_data_group = {
 				"Event: Revelations of Dust",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy/Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"UR Exchange",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -38819,6 +38889,41 @@ pg.base.ship_data_group = {
 				"Event: A Note Through the Firmament",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[30056] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970111,
+		index_id = 30056,
+		code = 30056,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Cruise Missions",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701111
+					}
 				},
 				0
 			}

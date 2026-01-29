@@ -169591,6 +169591,31 @@ _G.pg.base.item_virtual_data_statistics[65111] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65113] = {
+	drop_gold_max = 0,
+	name = "Progress Pts",
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign, used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7027,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65113,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65115] = {
 	drop_gold_max = 0,
 	name = "Blue Light",
@@ -175655,6 +175680,31 @@ _G.pg.base.item_virtual_data_statistics[65813] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65813,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65821] = {
+	drop_gold_max = 0,
+	name = "Commission Merits",
+	display = "A currency earned during the \"Commission Exchange Plan V\" event. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/commission_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65821,
 	display_icon = {},
 	price = {},
 	index = {},

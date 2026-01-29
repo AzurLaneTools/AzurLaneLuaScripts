@@ -244,6 +244,7 @@ pg.furniture_data_template = setmetatable({
 			100067,
 			100068,
 			100070,
+			100071,
 			100072,
 			100073,
 			100074,
@@ -6231,6 +6232,7 @@ pg.furniture_data_template = setmetatable({
 			100067,
 			100068,
 			100070,
+			100071,
 			100072,
 			100073,
 			100074,
@@ -9716,6 +9718,7 @@ pg.furniture_data_template = setmetatable({
 			100063,
 			100064,
 			100066,
+			100071,
 			100073,
 			30123,
 			35128,
@@ -10889,6 +10892,7 @@ pg.furniture_data_template = setmetatable({
 		100067,
 		100068,
 		100070,
+		100071,
 		100072,
 		100073,
 		100074,
@@ -27645,6 +27649,87 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[100071] = {
+		advice = 0,
+		name = "Manjuu Sickbed",
+		count = 1,
+		type = 11,
+		dir = 0,
+		rarity = 4,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 0,
+		icon = "jiuhucheicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100071,
+		comfortable = 0,
+		describe = "Get well soon!",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiuhucheB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"jiuhucheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

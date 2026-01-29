@@ -1,6 +1,287 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[11500031] = {
+		name = "Waterside Goddess",
+		change_skin = "",
+		desc = "So, I got changed into my swimsuit and... What? If you have something to say, make sure I can hear it. ...Eh? It's cute and looks good on me and you want to see even more? ...D-don't say embarrassing stuff like that!",
+		illustrator2 = -1,
+		ship_group = 1150003,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "qinli_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "dal-az-theme",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		ship_l2d_id = "",
+		id = 11500031,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "qinli_2",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 71239,
+		voice_actor = 484,
+		skeleton_default_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			6.3,
+			-628.1,
+			0,
+			0.39
+		},
+		spine_offset_profile = {
+			67,
+			-619,
+			0,
+			0.38
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.162,
+					1.023,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.713,
+					2.49,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.681,
+							2.382,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			147.3,
+			-745,
+			0,
+			0.44
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1007,
+					-483.75,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					-1206,
+					671,
+					2,
+					150,
+					0,
+					2
+				},
+				{
+					124,
+					-195,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
+		}
+	},
+	[11500040] = {
+		name = "Yoshino",
+		change_skin = "",
+		desc = "Eh... ah... umm... \"Wooow, what a spectacle. What the heck even happened to us? Where even IS this?\" E-Excuse me...I, I'm Yoshino...and this is...Yoshinon. C-Can we...chat for a bit?",
+		illustrator2 = -1,
+		ship_group = 1150004,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "sisinai",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11500040,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "sisinai",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 485,
+		skeleton_default_skin = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.261,
+					2.157,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.998,
+					1.881,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.158,
+					3.609,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.824,
+							2.438,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[11500041] = {
 		name = "Secret Base",
 		change_skin = "",

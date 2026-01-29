@@ -15952,6 +15952,37 @@ _G.pg.base.item_data_statistics[21055] = {
 }
 
 
+_G.pg.base.item_data_statistics[21056] = {
+	open_directly = 0,
+	name = "META Crystal – Carabiniere META",
+	type = 4,
+	display = "An item that increases the potential of Carabiniere META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21056",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21056,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -30020,6 +30051,58 @@ _G.pg.base.item_data_statistics[30432] = {
 		{
 			9,
 			2112,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30433] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Cruise Missions)",
+	type = 11,
+	display = "Contains 1 random Cruise Mission gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111227",
+	id = 30433,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2113,
+			1
+		},
+		{
+			9,
+			2114,
+			1
+		},
+		{
+			9,
+			2115,
+			1
+		},
+		{
+			9,
+			2116,
 			1
 		}
 	},
@@ -112246,6 +112329,43 @@ _G.pg.base.item_data_statistics[81438] = {
 			2,
 			15003,
 			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81439] = {
+	open_directly = 1,
+	name = "Bathed in Brightness and Spirit",
+	type = 17,
+	display = "This necklace's glimmer and texture in the steam is truly splendid... Oh, Commander. Would you care to come in and share in this scene you've gifted me?",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/bisimaiz_3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "908110",
+	id = 81439,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			405052,
+			1
 		}
 	},
 	price = {},

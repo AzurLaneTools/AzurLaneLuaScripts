@@ -3427,6 +3427,11 @@ pg.skill_data_display = setmetatable({
 		802042,
 		802045,
 		802047,
+		802051,
+		802071,
+		802072,
+		802075,
+		802077,
 		902201,
 		1010140,
 		1010143,
@@ -17616,6 +17621,26 @@ pg.base.skill_data_display = {
 	[802047] = {
 		id = 802047,
 		name = "Ashen Might - Cleveland II"
+	},
+	[802051] = {
+		id = 802051,
+		name = "Ricarica fiammeggiante"
+	},
+	[802071] = {
+		id = 802071,
+		name = "Cinders of Hope - Carabiniere I"
+	},
+	[802072] = {
+		id = 802072,
+		name = "Cinders of Hope - Carabiniere II"
+	},
+	[802075] = {
+		id = 802075,
+		name = "Cinders of Hope - Carabiniere I"
+	},
+	[802077] = {
+		id = 802077,
+		name = "Cinders of Hope - Carabiniere II"
 	},
 	[902201] = {
 		id = 902201,

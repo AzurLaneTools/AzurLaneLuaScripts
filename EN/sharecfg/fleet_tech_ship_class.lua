@@ -3998,6 +3998,17 @@ pg.fleet_tech_ship_class = {
 			970110
 		}
 	},
+	[970111] = {
+		shiptype = 1,
+		name = "Carabiniere META",
+		t_level = 3,
+		id = 970111,
+		t_level_1 = 19,
+		nation = 97,
+		ships = {
+			970111
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "Helena META",
@@ -4827,6 +4838,7 @@ pg.fleet_tech_ship_class = {
 		970108,
 		970109,
 		970110,
+		970111,
 		970201,
 		970202,
 		970203,

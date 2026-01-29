@@ -143552,6 +143552,61 @@ _G.pg.base.equip_data_statistics[80572] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80581] = {
+	name = "专属弹幕-龙骑兵META I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "Barrage",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80581,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170951
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80582] = {
+	name = "专属弹幕-龙骑兵META II",
+	base = 80571,
+	id = 80582,
+	weapon_id = {
+		170952
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 Twin 130mm B-2LM Main Gun",
 	speciality = "Lock",
@@ -175778,7 +175833,7 @@ _G.pg.base.equip_data_statistics[150240] = {
 	attribute_2 = "cannon",
 	rarity = 4,
 	nationality = 5,
-	descrip = "",
+	descrip = "Be patient and prepare for the changes bound to come. Bear in mind this key principle: Never rush.",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",

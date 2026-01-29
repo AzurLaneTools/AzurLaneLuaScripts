@@ -1876,6 +1876,16 @@ pg.equip_skin_theme_template = {
 			2112
 		}
 	},
+	[109] = {
+		id = 109,
+		name = "Lost Ruins",
+		ids = {
+			2113,
+			2114,
+			2115,
+			2116
+		}
+	},
 	[199] = {
 		id = 199,
 		name = "Misc",
@@ -2041,6 +2051,7 @@ pg.equip_skin_theme_template = {
 		106,
 		107,
 		108,
+		109,
 		199
 	}
 }

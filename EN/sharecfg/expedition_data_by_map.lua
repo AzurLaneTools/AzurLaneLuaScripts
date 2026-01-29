@@ -548,6 +548,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100542,
 		2100551,
 		2100552,
+		2100561,
+		2100562,
+		2100571,
+		2100572,
 		2200000,
 		2200010,
 		2200020,
@@ -31953,6 +31957,206 @@ pg.base.expedition_data_by_map = {
 					},
 					"map_1700004_zhuanzhi"
 				}
+			}
+		}
+	},
+	[2100561] = {
+		map = 2100561,
+		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
+		bgm = "theme-vichy-church",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "YANJINCHENXU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1710001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1710001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100571,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100562] = {
+		map = 2100562,
+		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
+		bgm = "theme-vichy-revelation",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "YANJINCHENXU15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1710002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1710002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100572,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100571] = {
+		map = 2100571,
+		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
+		bgm = "theme-vichy-church",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "YANJINCHENXU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1710003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1710003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100561,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100572] = {
+		map = 2100572,
+		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
+		bgm = "theme-vichy-revelation",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "YANJINCHENXU15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1710004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1710004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100562,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
 			}
 		}
 	},
