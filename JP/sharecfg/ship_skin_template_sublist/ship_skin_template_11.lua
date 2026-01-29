@@ -3632,6 +3632,127 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[401472] = {
+		name = "バッター★ホームラン",
+		change_skin = "",
+		desc = "ここに立って、バットを構えて、ボールが飛んできたらフルスイング。シッキーがさっき言ってた。……あたしの全力を…見てて",
+		illustrator2 = -1,
+		ship_group = 40147,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "z47_3",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 13,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "112",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 401472,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "z47_3",
+		l2d_se = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 401,
+		skeleton_default_skin = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.277,
+					1.117,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.59,
+					1.591,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.247,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.82,
+					2.576,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							4.007,
+							2.41,
+							-0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[401520] = {
 		name = "Z52",
 		change_skin = "",
@@ -16972,129 +17093,6 @@ pg.base.ship_skin_template_11 = {
 						"smoke",
 						{
 							-0.32,
-							2.49,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[405023] = {
-		name = "松の節句と白き氷華",
-		change_skin = "",
-		desc = "重桜では新年に「あけましておめでとう」と言うのか。しきたりに倣って服も変えてみたけど、変じゃ…ないかしら………似合ってる？そう…指揮官がそう言うなら、暫くこのままでもいいか",
-		illustrator2 = -1,
-		ship_group = 40502,
-		group_index = 3,
-		purchase_offset = "",
-		painting = "tierbici_4",
-		bg_sp = "1102",
-		skin_type = 0,
-		shop_type_id = 2,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "143",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 405023,
-		voice_actor_2 = 482,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "tierbici_4",
-		l2d_se = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		main_UI_FX = "",
-		shop_id = 70463,
-		voice_actor = 36,
-		skeleton_default_skin = "",
-		spine_offset = "",
-		illustrator = 8,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			-27.7,
-			-97.3,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.075,
-					1.006,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.089,
-					1.004,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.111,
-					1.018,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.424,
 							2.49,
 							0
 						}

@@ -2515,6 +2515,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970209] = {
 			30055
+		},
+		[970111] = {
+			30056
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3362,7 +3365,8 @@ pg.ship_data_group = setmetatable({
 			30052,
 			30053,
 			30054,
-			30055
+			30055,
+			30056
 		}
 	},
 	all = {
@@ -4203,7 +4207,8 @@ pg.ship_data_group = setmetatable({
 		30052,
 		30053,
 		30054,
-		30055
+		30055,
+		30056
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -12368,6 +12373,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"演習ショップ(ランダム出現)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14051,6 +14066,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15513,6 +15539,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15987,6 +16024,17 @@ pg.base.ship_data_group = {
 				"イベント：黙示の遺構",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -16803,6 +16851,28 @@ pg.base.ship_data_group = {
 				"イベント：黙示の遺構",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造、特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"常設UR交換",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -39056,6 +39126,41 @@ pg.base.ship_data_group = {
 				"イベント：天穹に響く音謡",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[30056] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970111,
+		index_id = 30056,
+		code = 30056,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・情報解析",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701111
+					}
 				},
 				0
 			}

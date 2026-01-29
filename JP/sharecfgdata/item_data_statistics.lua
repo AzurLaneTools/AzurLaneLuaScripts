@@ -15877,6 +15877,37 @@ _G.pg.base.item_data_statistics[21055] = {
 }
 
 
+_G.pg.base.item_data_statistics[21056] = {
+	open_directly = 0,
+	name = "結晶：カラビニエーレ(META)",
+	type = 4,
+	display = "カラビニエーレ(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21056",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21056,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -30065,6 +30096,58 @@ _G.pg.base.item_data_statistics[30432] = {
 		{
 			9,
 			2112,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30433] = {
+	open_directly = 1,
+	name = "ランダム装備外装",
+	type = 11,
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111227",
+	id = 30433,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2113,
+			1
+		},
+		{
+			9,
+			2114,
+			1
+		},
+		{
+			9,
+			2115,
+			1
+		},
+		{
+			9,
+			2116,
 			1
 		}
 	},
@@ -117850,6 +117933,43 @@ _G.pg.base.item_data_statistics[81425] = {
 		{
 			7,
 			237030,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81439] = {
+	open_directly = 1,
+	name = "光輝と心のゲディヒト",
+	type = 17,
+	display = "このネックレスが湯気の中で見せた輝きと質感…本当に素敵だわ。……あ、指揮官……あなたがくれたこの景色を、一緒にどうかしら？",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/bisimaiz_3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "908110",
+	id = 81439,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			405052,
 			1
 		}
 	},

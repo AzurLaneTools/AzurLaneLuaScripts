@@ -2280,6 +2280,11 @@ pg.player_resource = {
 		name = "skinTicket106",
 		itemid = 65813
 	},
+	[621] = {
+		id = 621,
+		name = "commission_pt5",
+		itemid = 65821
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2699,6 +2704,11 @@ pg.player_resource = {
 		id = 4026,
 		name = "Battlepass_26",
 		itemid = 65108
+	},
+	[4027] = {
+		id = 4027,
+		name = "Battlepass_27",
+		itemid = 65113
 	},
 	[4186] = {
 		id = 4186,
@@ -4229,6 +4239,9 @@ pg.player_resource = {
 		skinTicket106 = {
 			620
 		},
+		commission_pt5 = {
+			621
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4480,6 +4493,9 @@ pg.player_resource = {
 		},
 		Battlepass_26 = {
 			4026
+		},
+		Battlepass_27 = {
+			4027
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -5035,6 +5051,7 @@ pg.player_resource = {
 		618,
 		619,
 		620,
+		621,
 		950,
 		951,
 		952,
@@ -5119,6 +5136,7 @@ pg.player_resource = {
 		4102,
 		4025,
 		4026,
+		4027,
 		4186,
 		4276,
 		4599,

@@ -163,6 +163,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[113] = {
+		name = "古代王朝",
+		key = "SkinNormal_20260129",
+		display_icon = "ui_113",
+		unlock = "クルーズパス27期報酬",
+		is_unlock = 1,
+		rare = 3,
+		desc = "画面に聳え立つは古の石柱。まだらな模様が失われし秩序を語り、戦いに時空を越えた荘厳と悲嘆を添えてくれる",
+		id = 113,
+		icon = "113",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "クリスマス",
 		key = "SkinNormal_20241209",
@@ -277,6 +292,7 @@ pg.item_data_battleui = {
 		108,
 		109,
 		111,
+		113,
 		201,
 		202,
 		203,

@@ -289,7 +289,7 @@ slot6.GetReferenceVector = function(slot0, slot1)
 end
 
 slot6.GetInitScale = function(slot0)
-	return slot0._unitData:GetTemplate().scale / 50
+	return slot0._unitData:GetAttrByName("modelScale")
 end
 
 slot6.AddUnitEvent = function(slot0)
@@ -1473,13 +1473,9 @@ slot6.updateSomkeFX = function(slot0)
 end
 
 slot6.doChangeSize = function(slot0, slot1)
-	slot3 = slot1.Data.size
+	slot2 = slot0._unitData:GetAttrByName("modelScale")
 
-	if slot1.Data.size_ratio then
-		slot0:setLocalScale(slot0._tf.localScale * slot2)
-	elseif slot3 then
-		slot0:setLocalScale(Vector3(slot3 * slot0._unitData:GetDirection(), slot3, slot3))
-	end
+	slot0:setLocalScale(Vector3(slot2 * slot0._unitData:GetDirection(), slot2, slot2))
 end
 
 slot6.InitEffectView = function(slot0)
