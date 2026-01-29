@@ -3,6 +3,7 @@ pg.island_season = {
 	{
 		id = 1,
 		name = "岛屿开发季I——启动时刻！",
+		name_short = "开发季I",
 		show = 100,
 		time = {
 			{

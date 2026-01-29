@@ -2678,6 +2678,27 @@ pg.medal_template = {
 		explain1 = "「響徹於天穹之音」",
 		explain2 = "活動紀念"
 	},
+	[200121] = {
+		target_id = "50359",
+		name = "光影風尚紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "時尚雷達全開，進入拍攝狀態！按下快門，捕捉時尚的每一面吧！ \n——你就是今日的時尚紀錄官！",
+		next = 0,
+		icon = "9121",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9121",
+		condition = "收集8個「光影風尚——拍攝進行時！」紀念貼紙。",
+		rank = 1,
+		id = 200121,
+		explain1 = "「光影風尚，拍攝進行時！」",
+		explain2 = "活動紀念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2800,6 +2821,7 @@ pg.medal_template = {
 		200081,
 		200091,
 		200101,
-		200111
+		200111,
+		200121
 	}
 }

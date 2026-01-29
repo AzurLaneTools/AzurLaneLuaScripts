@@ -27,33 +27,21 @@ slot0.execute = function(slot0, slot1)
 		})
 	end
 
-	slot11 = {
-		table.remove(Clone(slot7:GetFleetIds()))
-	}
+	slot8 = slot7:GetFleetIds()
+	slot10, slot11 = slot7:GetModeFleetIDs(slot2.mode)
+	slot12 = slot7:GetFleets(slot10)
 
-	if slot2.mode == BossRushSeriesData.MODE.SINGLE then
-		slot10 = {
-			table.remove(slot10, 1)
-		}
-	end
-
-	slot13 = _.map(slot10, function (slot0)
-		return uv0[slot0]
-	end)
-
-	if getProxy(FleetProxy):getActivityFleets()[slot4][slot11[1]]:isEmpty() then
+	if slot7:GetFleets(slot11)[1]:isEmpty() then
 		table.remove(slot11)
 	end
 
-	slot18 = getProxy(PlayerProxy)
+	slot17 = getProxy(PlayerProxy)
 
-	if slot18:getRawData().oil < (function ()
+	if slot17:getRawData().oil < (function ()
 		slot0 = 0
 		slot1 = nil
-		slot3 = uv0:GetOilLimit()
 		slot4 = pg.battle_cost_template[(uv0.__cname ~= "CollabrateBossRushSeriesData" or SYSTEM_BOSS_RUSH_COLLABRATE) and (uv0:GetType() ~= BossRushSeriesData.TYPE.EXTRA or SYSTEM_BOSS_RUSH_EX) and SYSTEM_BOSS_RUSH].oil_cost > 0
-
-		slot5 = function(slot0, slot1)
+		slot0 = (function (slot0, slot1)
 			slot2 = 0
 
 			if uv0 then
@@ -65,32 +53,24 @@ slot0.execute = function(slot0, slot1)
 			end
 
 			return slot2
-		end
+		end)(uv1, uv0:GetOilLimit()[2]) * #uv0:GetExpeditionIds()
 
-		slot6 = #uv0:GetExpeditionIds()
-
-		if uv1 == BossRushSeriesData.MODE.SINGLE then
-			slot0 = (slot0 + slot5(uv2[1], slot3[1]) + slot5(uv3, slot3[2])) * slot6
-		else
-			slot0 = slot5(uv3, slot3[2]) * slot6
-
-			_.each(uv2, function (slot0)
-				uv0 = uv0 + uv1(slot0, uv2[1])
-			end)
+		for slot10 = 1, slot6 do
+			slot0 = slot0 + slot5(uv2[slot10] or uv2[1], slot3[1])
 		end
 
 		return slot0
 	end)() + slot7:GetOilCost() then
-		if not ItemTipPanel.ShowOilBuyTip(slot16) then
+		if not ItemTipPanel.ShowOilBuyTip(slot15) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 		end
 
 		return
 	end
 
-	slot18 = pg.ConnectionMgr.GetInstance()
+	slot17 = pg.ConnectionMgr.GetInstance()
 
-	slot18:Send(11202, {
+	slot17:Send(11202, {
 		cmd = 1,
 		activity_id = slot4,
 		arg1 = slot3,

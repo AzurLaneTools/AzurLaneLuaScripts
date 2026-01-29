@@ -3452,7 +3452,36 @@ pg.furniture_data_template = setmetatable({
 			333117,
 			333118,
 			333119,
-			333301
+			333301,
+			334001,
+			334002
+		},
+		[134] = {
+			334101,
+			334102,
+			334103,
+			334104,
+			334105,
+			334106,
+			334107,
+			334108,
+			334109,
+			334110,
+			334111,
+			334112,
+			334113,
+			334114,
+			334115,
+			334116,
+			334117,
+			334118,
+			334119,
+			334120,
+			334121,
+			334122,
+			334123,
+			334301,
+			334302
 		}
 	},
 	get_id_list_by_tag = {
@@ -5541,7 +5570,29 @@ pg.furniture_data_template = setmetatable({
 			333115,
 			333116,
 			333117,
-			333118
+			333118,
+			334101,
+			334102,
+			334103,
+			334104,
+			334105,
+			334106,
+			334107,
+			334108,
+			334109,
+			334110,
+			334111,
+			334112,
+			334113,
+			334114,
+			334115,
+			334116,
+			334117,
+			334118,
+			334119,
+			334120,
+			334121,
+			334122
 		},
 		{
 			1108,
@@ -6102,7 +6153,8 @@ pg.furniture_data_template = setmetatable({
 			329120,
 			332113,
 			331309,
-			333119
+			333119,
+			334123
 		},
 		[4] = {
 			1001,
@@ -6218,7 +6270,8 @@ pg.furniture_data_template = setmetatable({
 			329001,
 			332001,
 			331001,
-			333001
+			333001,
+			334001
 		},
 		[3] = {
 			1002,
@@ -6335,7 +6388,8 @@ pg.furniture_data_template = setmetatable({
 			329002,
 			332002,
 			331002,
-			333002
+			333002,
+			334002
 		},
 		[5] = {
 			1301,
@@ -6694,7 +6748,9 @@ pg.furniture_data_template = setmetatable({
 			331306,
 			331307,
 			331308,
-			333301
+			333301,
+			334301,
+			334302
 		}
 	},
 	get_id_list_by_type = {
@@ -6813,7 +6869,8 @@ pg.furniture_data_template = setmetatable({
 			329002,
 			332002,
 			331002,
-			333002
+			333002,
+			334002
 		},
 		[7] = {
 			1,
@@ -9087,7 +9144,29 @@ pg.furniture_data_template = setmetatable({
 			333116,
 			333117,
 			333118,
-			333119
+			333119,
+			334101,
+			334102,
+			334103,
+			334105,
+			334106,
+			334107,
+			334108,
+			334109,
+			334110,
+			334111,
+			334112,
+			334113,
+			334114,
+			334115,
+			334116,
+			334117,
+			334118,
+			334119,
+			334120,
+			334121,
+			334122,
+			334123
 		},
 		[11] = {
 			131,
@@ -9275,7 +9354,8 @@ pg.furniture_data_template = setmetatable({
 			329001,
 			332001,
 			331001,
-			333001
+			333001,
+			334001
 		},
 		[5] = {
 			1101,
@@ -9429,7 +9509,8 @@ pg.furniture_data_template = setmetatable({
 			332102,
 			331109,
 			331110,
-			333106
+			333106,
+			334104
 		},
 		[3] = {
 			1108,
@@ -9908,7 +9989,9 @@ pg.furniture_data_template = setmetatable({
 			331302,
 			331303,
 			331307,
-			333301
+			333301,
+			334301,
+			334302
 		},
 		[8] = {
 			17121
@@ -13177,7 +13260,34 @@ pg.furniture_data_template = setmetatable({
 		333117,
 		333118,
 		333119,
-		333301
+		333301,
+		334001,
+		334002,
+		334101,
+		334102,
+		334103,
+		334104,
+		334105,
+		334106,
+		334107,
+		334108,
+		334109,
+		334110,
+		334111,
+		334112,
+		334113,
+		334114,
+		334115,
+		334116,
+		334117,
+		334118,
+		334119,
+		334120,
+		334121,
+		334122,
+		334123,
+		334301,
+		334302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -160958,6 +161068,1358 @@ pg.base.furniture_data_template = {
 		comfortable = 2,
 		size = {
 			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334001] = {
+		can_rotate = 0,
+		describe = "走進攝影棚，成為鏡頭下的潮流焦點吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/dibansyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "時尚攝影棚地板",
+		advice = 0,
+		tag = 4,
+		id = 334001,
+		icon = "dibansypicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334002] = {
+		can_rotate = 0,
+		describe = "走進攝影棚，成為鏡頭下的潮流焦點吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/qiangbisyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "時尚攝影棚壁紙",
+		advice = 0,
+		tag = 3,
+		id = 334002,
+		icon = "qiangbisypicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334101] = {
+		can_rotate = 0,
+		describe = "局部補光小能手，讓細節更突出~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚補光棒",
+		advice = 0,
+		id = 334101,
+		tag = 1,
+		comfortable = 1,
+		icon = "daguangbangsypicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daguangbangsyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334102] = {
+		can_rotate = 0,
+		describe = "常見的環形補光燈，讓每位直播的播主都光彩照人~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚補光架",
+		advice = 0,
+		id = 334102,
+		tag = 1,
+		comfortable = 2,
+		icon = "daguangdengjiasypicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daguangdengjiasyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334103] = {
+		can_rotate = 0,
+		describe = "佈景用道具，但每台電視機都能正常啟動~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "電視機佈景",
+		advice = 0,
+		id = 334103,
+		tag = 1,
+		comfortable = 2,
+		icon = "dianshijisypicon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dianshijisyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334104] = {
+		can_rotate = 0,
+		describe = "鋪在攝影區的大地毯，觸感舒適的同時也能有效吸收腳步聲",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/ditansyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚大地毯",
+		advice = 0,
+		tag = 1,
+		id = 334104,
+		icon = "ditansypicon",
+		comfortable = 2,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334105] = {
+		advice = 0,
+		name = "攝影棚畫框",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "huakuangsypicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 134,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 334105,
+		comfortable = 4,
+		describe = "畫框樣式的大型雕塑，是攝影棚的代表性標誌",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			11,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huakuangsypB",
+				"normal"
+			},
+			{
+				"huakuangsypT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				},
+				{
+					{
+						"action1",
+						"action2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[334106] = {
+		advice = 0,
+		name = "啾啾抓物機",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "huangjiwawajisypicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 134,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 334106,
+		comfortable = 4,
+		describe = "工作之餘的放鬆神器，目標是抓到那隻幸運玩偶！",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huangjiwawajisypB",
+				"normal"
+			},
+			{
+				"huangjiwawajisypT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[334107] = {
+		can_rotate = 0,
+		describe = "小巧實用，柔軟坐墊保持化妝舒適~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/huazhuangyisyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚化妝椅",
+		advice = 0,
+		id = 334107,
+		tag = 1,
+		comfortable = 1,
+		icon = "huazhuangyisypicon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5.8,
+					52.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334108] = {
+		can_rotate = 0,
+		describe = "設有多個收納格與插槽的化妝桌，方便分類收納各類化妝品",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚化妝桌",
+		advice = 0,
+		id = 334108,
+		tag = 1,
+		comfortable = 2,
+		icon = "huazhuangzhuosypicon",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuosyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334109] = {
+		can_rotate = 0,
+		describe = "精心搭建的夢幻場景，每個角度都能拍出好效果~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/mubusyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "夢幻佈景",
+		advice = 0,
+		id = 334109,
+		tag = 1,
+		comfortable = 3,
+		icon = "mubusypicon",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					9,
+					-48.3
+				},
+				{
+					1,
+					1
+				},
+				"syp/mubusyp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334110] = {
+		can_rotate = 0,
+		describe = "便利式拍照板，能夠快速切換角色輕鬆打卡~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/paizhaobansyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚拍照板",
+		advice = 0,
+		id = 334110,
+		tag = 1,
+		comfortable = 2,
+		icon = "paizhaobansypicon",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-54.7,
+					7.8
+				},
+				{
+					-1,
+					1
+				},
+				"syp/paizhaobansyp_using"
+			},
+			{
+				"sit",
+				{
+					54.9,
+					-32.8
+				},
+				{
+					-1,
+					1
+				},
+				"syp/paizhaobansyp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334111] = {
+		can_rotate = 0,
+		describe = "攝影用服裝支架，為每次拍攝做好準備~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/rentai1syp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚服裝架1",
+		advice = 0,
+		tag = 1,
+		id = 334111,
+		icon = "rentai1sypicon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334112] = {
+		can_rotate = 0,
+		describe = "攝影用服裝支架，為每次拍攝做好準備~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/rentai2syp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚服裝架2",
+		advice = 0,
+		tag = 1,
+		id = 334112,
+		icon = "rentai2sypicon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334113] = {
+		can_rotate = 0,
+		describe = "印有華麗舞台的移動板，多在拍攝某種特定主題時使用",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/sheyingbansyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "華麗舞台佈景",
+		advice = 0,
+		tag = 1,
+		id = 334113,
+		icon = "sheyingbansypicon",
+		comfortable = 2,
+		size = {
+			11,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334114] = {
+		advice = 0,
+		name = "攝影棚沙發",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "shafasypicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 134,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		id = 334114,
+		comfortable = 2,
+		describe = "工作疲憊了嗎？在拍攝間隙休息一下吧~",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shafasyp",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[334115] = {
+		can_rotate = 0,
+		describe = "紀錄美好的關鍵道具，要對著鏡頭微笑~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "攝影棚攝影機",
+		advice = 0,
+		id = 334115,
+		tag = 1,
+		comfortable = 1,
+		icon = "sheyingjisypicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sheyingjisyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334116] = {
+		can_rotate = 0,
+		describe = "經驗豐富的專業攝影師，認真抓拍每個精彩時刻~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "啾啾攝影師",
+		advice = 0,
+		id = 334116,
+		tag = 1,
+		comfortable = 2,
+		icon = "sheyingjiusypicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sheyingjiusyp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[334117] = {
+		can_rotate = 0,
+		describe = "緊湊型移動掛衣架，配備有多層掛桿與儲物筐",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/yijiajingzisyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚小衣櫃",
+		advice = 0,
+		tag = 1,
+		id = 334117,
+		icon = "yijiajingzisypicon",
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334118] = {
+		can_rotate = 0,
+		describe = "妝髮造型就交給這隻可靠的啾啾吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "啾啾造型師",
+		advice = 0,
+		id = 334118,
+		tag = 1,
+		comfortable = 2,
+		icon = "zaoxingjiusypicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zaoxingjiusyp",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334119] = {
+		can_rotate = 0,
+		describe = "攝影雜物就放心交給推車吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚雜物車",
+		advice = 0,
+		id = 334119,
+		tag = 1,
+		comfortable = 2,
+		icon = "zawuchesypicon",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zawuchesyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334120] = {
+		can_rotate = 0,
+		describe = "堆滿攝影零碎物件的紙箱，似乎還有些奇怪的雜物混進去了？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/zawuxiangsyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚雜物箱",
+		advice = 0,
+		tag = 1,
+		id = 334120,
+		icon = "zawuxiangsypicon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334121] = {
+		can_rotate = 0,
+		describe = "遮光性強的捲簾，能為拍攝創造出理想的光線環境",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚遮光簾",
+		advice = 0,
+		id = 334121,
+		tag = 1,
+		comfortable = 1,
+		icon = "zheguangliansypicon",
+		size = {
+			1,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zheguangliansyp",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334122] = {
+		can_rotate = 0,
+		describe = "內含多種玩偶的取物機，雖是佈景用道具但可以正常使用哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "取物機佈景",
+		advice = 0,
+		id = 334122,
+		tag = 1,
+		comfortable = 3,
+		icon = "zisewawajisypicon",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zisewawajisyp",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334123] = {
+		advice = 0,
+		name = "大頭貼自拍機",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "paizhaojisypicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 134,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 334123,
+		comfortable = 4,
+		describe = "拉上夥伴，擺好姿勢，歡樂的瞬間就此定格~",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paizhaojisypB",
+				"normal"
+			},
+			{
+				"paizhaojisypT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						nil,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"walk1",
+						"walk2",
+						"walk3"
+					}
+				}
+			},
+			{
+				{
+					-21.9,
+					112.7
+				},
+				{
+					306,
+					352
+				},
+				"syp/paizhaojisyp_mask"
+			},
+			{
+				22.1,
+				-119
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[334301] = {
+		can_rotate = 0,
+		describe = "標準攝影用布幕，為拍攝提供平整、無瑕的純色背景",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/qiangmubusyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚布幕",
+		advice = 0,
+		tag = 5,
+		id = 334301,
+		icon = "qiangmubusypicon",
+		comfortable = 1,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334302] = {
+		can_rotate = 0,
+		describe = "印有超人氣明星巨幅寫真的海報",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/haibaosyp",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "攝影棚海報",
+		advice = 0,
+		tag = 5,
+		id = 334302,
+		icon = "haibaosypicon",
+		comfortable = 2,
+		size = {
+			4,
 			0
 		},
 		offset = {},

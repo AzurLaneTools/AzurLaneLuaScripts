@@ -2816,7 +2816,8 @@ pg.fleet_tech_ship_class = {
 		nation = 6,
 		ships = {
 			60106,
-			60109
+			60109,
+			60112
 		}
 	},
 	[60105] = {
@@ -2862,7 +2863,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		nation = 6,
 		ships = {
-			60203
+			60203,
+			60204
 		}
 	},
 	[60301] = {
@@ -2968,6 +2970,17 @@ pg.fleet_tech_ship_class = {
 		nation = 6,
 		ships = {
 			60508
+		}
+	},
+	[60506] = {
+		shiptype = 5,
+		name = "弗朗切斯科·卡拉喬洛級",
+		t_level = 6,
+		id = 60506,
+		t_level_1 = 133,
+		nation = 6,
+		ships = {
+			60509
 		}
 	},
 	[60701] = {
@@ -3952,6 +3965,17 @@ pg.fleet_tech_ship_class = {
 			970107
 		}
 	},
+	[970110] = {
+		shiptype = 1,
+		name = "杜威·META",
+		t_level = 1,
+		id = 970110,
+		t_level_1 = 16,
+		nation = 97,
+		ships = {
+			970110
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "海倫娜·META",
@@ -4668,6 +4692,7 @@ pg.fleet_tech_ship_class = {
 		60503,
 		60504,
 		60505,
+		60506,
 		60701,
 		60702,
 		60801,
@@ -4755,6 +4780,7 @@ pg.fleet_tech_ship_class = {
 		970105,
 		970106,
 		970107,
+		970110,
 		970201,
 		970202,
 		970203,

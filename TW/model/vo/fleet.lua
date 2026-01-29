@@ -99,8 +99,20 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.skills = {}
 
 	slot0:updateCommanderSkills()
+end
 
-	slot0.fleetType = slot1.fleetType
+slot0.SeparateOut = function(slot0)
+	return {
+		id = slot0.id,
+		name = slot0.name,
+		ship_list = underscore.to_array(slot0.ships),
+		commanders = underscore(slot0.commanderIds):chain():keys():map(function (slot0)
+			return {
+				pos = slot0,
+				id = uv0.commanderIds[slot0]
+			}
+		end):value()
+	}
 end
 
 slot0.isUnlock = function(slot0)
@@ -140,6 +152,12 @@ slot0.outputCommanders = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.clearCommanders = function(slot0)
+	slot0.commanderIds = {}
+
+	slot0:updateCommanderSkills()
 end
 
 slot0.getCommanders = function(slot0)
@@ -406,15 +424,7 @@ slot0.isPVPFleet = function(slot0)
 end
 
 slot0.getFleetType = function(slot0)
-	if slot0.fleetType then
-		return slot0.fleetType
-	end
-
-	if slot0.id and uv0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < uv0.SUBMARINE_FLEET_ID + uv0.SUBMARINE_FLEET_NUMS then
-		return FleetType.Submarine
-	end
-
-	return FleetType.Normal
+	assert(false)
 end
 
 slot0.removeShip = function(slot0, slot1)
@@ -453,9 +463,13 @@ end
 
 slot0.isFull = function(slot0)
 	if slot0:getFleetType() == FleetType.Normal then
-		return #slot0.vanguardShips + #slot0.mainShips >= TeamType.VanguardMax + TeamType.MainMax
+		assert(#slot0.vanguardShips <= TeamType.VanguardMax and #slot0.mainShips <= TeamType.MainMax)
+
+		return #slot0.vanguardShips == TeamType.VanguardMax and #slot0.mainShips == TeamType.MainMax
 	elseif slot1 == FleetType.Submarine then
-		return TeamType.SubmarineMax <= #slot0.subShips
+		assert(#slot0.subShips <= TeamType.SubmarineMax)
+
+		return #slot0.subShips == TeamType.SubmarineMax
 	end
 
 	return false
@@ -463,6 +477,16 @@ end
 
 slot0.isEmpty = function(slot0)
 	return #slot0.ships == 0
+end
+
+slot0.isCommanderEmpty = function(slot0)
+	for slot4, slot5 in pairs(slot0.commanderIds) do
+		if slot5 and slot5 ~= 0 then
+			return false
+		end
+	end
+
+	return true
 end
 
 slot0.isLegalToFight = function(slot0)
@@ -918,6 +942,15 @@ slot0.ChangeToElite = function(slot0)
 	})
 
 	return slot2, slot1
+end
+
+slot0.allClear = function(slot0)
+	slot0:clearFleet()
+	slot0:clearCommanders()
+end
+
+slot0.isAllEmpty = function(slot0)
+	return slot0:isEmpty() and slot0:isCommanderEmpty()
 end
 
 return slot0

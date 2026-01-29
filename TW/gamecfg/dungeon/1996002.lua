@@ -560,12 +560,7 @@ return {
 					armor = 0,
 					hit = 9999
 				},
-				skills = {
-					{
-						id = 201681,
-						level = 10
-					}
-				}
+				skills = {}
 			},
 			{
 				configId = 9707084,

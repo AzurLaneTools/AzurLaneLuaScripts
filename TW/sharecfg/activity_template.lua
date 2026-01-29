@@ -40669,6 +40669,507 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50350] = {
+		mark = 20260129,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50350,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50351] = {
+		mark = 20260129,
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "SardiniaSPCoreActivityUI_subtitle_1",
+		id = 50351,
+		page_core = "SardiniaSPCoreActivityUI",
+		config_data = {
+			5001,
+			5002,
+			5003,
+			5004,
+			5005
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SardiniaSPMainPage",
+			ui_name = "SardiniaSPMainPage"
+		},
+		config_client = {
+			openStory = "GUANGYINGFENGSHANG1",
+			shopItemID = 71289,
+			mediator = "BossRushVerSardiniaSPMediator",
+			scene = "BossRushVerSardiniaSPScene",
+			passed = "BossRushSardiniaPassedLayer",
+			result = "BossRushSardiniaEXBattleResultLayer",
+			endStory = "GUANGYINGFENGSHANG10",
+			entrance_bg = "activitybanner/temp10",
+			tasks = {
+				24963
+			},
+			activity_ids = {
+				tasks = 50355,
+				pt = 50353,
+				story = 50360
+			}
+		}
+	},
+	[50352] = {
+		mark = 20260129,
+		page_info = "",
+		type = 94,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "",
+		id = 50352,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50353] = {
+		mark = 20260129,
+		type = 74,
+		login_pop = 0,
+		config_id = 50353,
+		is_show = 2,
+		title_res_tag = "SardiniaSPCoreActivityUI_subtitle_2",
+		id = 50353,
+		page_core = "SardiniaSPCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SardiniaSPPtPage",
+			ui_name = "SardiniaSPPtPage"
+		},
+		config_client = {
+			highValueItemSort = {
+				11,
+				23,
+				29,
+				33,
+				37
+			}
+		}
+	},
+	[50355] = {
+		mark = 20260129,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50355,
+		page_core = "",
+		config_data = {
+			24963,
+			24964,
+			24965,
+			24966,
+			24967,
+			24968,
+			24969,
+			24970,
+			24971,
+			24973,
+			24974,
+			24975,
+			24976,
+			24977,
+			24978,
+			24979,
+			24981,
+			24982,
+			24983
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50357] = {
+		mark = 20260129,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 616,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 50357,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50358] = {
+		mark = 20260129,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50358,
+		page_core = "",
+		config_data = {
+			{
+				31927,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50359] = {
+		mark = 20260129,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50359,
+		page_core = "",
+		config_data = {
+			21883,
+			21884,
+			21885,
+			21886,
+			21887,
+			21888,
+			21889,
+			21890,
+			21891
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50360] = {
+		mark = 20260129,
+		page_info = "",
+		type = 117,
+		login_pop = 0,
+		config_id = 65812,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50360,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			story = {
+				{
+					"GUANGYINGFENGSHANG2"
+				},
+				{
+					"GUANGYINGFENGSHANG3"
+				},
+				{
+					"GUANGYINGFENGSHANG9"
+				},
+				{
+					"GUANGYINGFENGSHANG8"
+				},
+				{
+					"GUANGYINGFENGSHANG5"
+				},
+				{
+					"GUANGYINGFENGSHANG6"
+				},
+				{
+					"GUANGYINGFENGSHANG7"
+				},
+				{
+					"GUANGYINGFENGSHANG4"
+				}
+			}
+		}
+	},
+	[50361] = {
+		mark = 20260129,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50361,
+		page_core = "",
+		config_data = {
+			24972
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7104] = {
 		mark = 20240926,
 		page_info = "",
@@ -40695,7 +41196,8 @@ pg.activity_template = {
 			12030,
 			12031,
 			12034,
-			12035
+			12035,
+			12040
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -81868,6 +82370,59 @@ pg.activity_template = {
 			ui_name = "CrusingDisplayActPage24"
 		}
 	},
+	[45924] = {
+		mark = 20260129,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 45924,
+		page_core = "",
+		config_data = {
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage25"
+		}
+	},
 	get_id_list_by_type = {
 		[0] = {
 			40030,
@@ -81920,6 +82475,7 @@ pg.activity_template = {
 			50211,
 			50250,
 			50294,
+			50350,
 			40189,
 			40214,
 			40230,
@@ -82277,6 +82833,9 @@ pg.activity_template = {
 			50295,
 			50297,
 			50299,
+			50355,
+			50359,
+			50361,
 			1103,
 			1104,
 			1105,
@@ -82891,6 +83450,7 @@ pg.activity_template = {
 			50253,
 			50261,
 			50288,
+			50353,
 			1110,
 			6006,
 			6010,
@@ -83208,6 +83768,7 @@ pg.activity_template = {
 			50212,
 			50247,
 			50283,
+			50358,
 			40190,
 			40215,
 			40221,
@@ -83368,6 +83929,7 @@ pg.activity_template = {
 			50183,
 			50258,
 			50289,
+			50357,
 			40175,
 			40184,
 			40207,
@@ -84014,11 +84576,13 @@ pg.activity_template = {
 		[93] = {
 			5402,
 			50013,
+			50351,
 			41301
 		},
 		[94] = {
 			5403,
 			50014,
+			50352,
 			41302
 		},
 		[51] = {
@@ -84037,7 +84601,8 @@ pg.activity_template = {
 		[117] = {
 			5535,
 			5623,
-			50202
+			50202,
+			50360
 		},
 		[118] = {
 			5560
@@ -84225,7 +84790,8 @@ pg.activity_template = {
 			45920,
 			45921,
 			45922,
-			45923
+			45923,
+			45924
 		}
 	},
 	all = {
@@ -85193,6 +85759,16 @@ pg.activity_template = {
 		50299,
 		50300,
 		50301,
+		50350,
+		50351,
+		50352,
+		50353,
+		50355,
+		50357,
+		50358,
+		50359,
+		50360,
+		50361,
 		7104,
 		7501,
 		7502,
@@ -86368,6 +86944,7 @@ pg.activity_template = {
 		45920,
 		45921,
 		45922,
-		45923
+		45923,
+		45924
 	}
 }

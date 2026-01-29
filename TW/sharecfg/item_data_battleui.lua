@@ -133,6 +133,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[109] = {
+		name = "墨影竹形",
+		key = "SkinNormal_20250925",
+		display_icon = "ui_109",
+		unlock = "世界巡遊二十五期獲取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "以水墨勾勒而出的介面，墨跡於黑白間暈染，襯得竹影婆娑，共同營造出清冷雅緻的氛圍。",
+		id = 109,
+		icon = "109",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "聖誕雪境",
 		key = "SkinNormal_20241209",
@@ -245,6 +260,7 @@ pg.item_data_battleui = {
 		106,
 		107,
 		108,
+		109,
 		201,
 		202,
 		203,

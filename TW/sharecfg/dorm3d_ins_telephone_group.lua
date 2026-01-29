@@ -46,7 +46,7 @@ pg.base.dorm3d_ins_telephone_group = {
 	},
 	[30707301] = {
 		ship_group = 30707,
-		name = "{namecode:97}視頻通話",
+		name = "{namecode:97}視訊通話",
 		background = "voice_placeholder",
 		type = 1,
 		id = 30707301,
@@ -58,7 +58,7 @@ pg.base.dorm3d_ins_telephone_group = {
 	},
 	[30707302] = {
 		ship_group = 30707,
-		name = "{namecode:97}視頻通話",
+		name = "{namecode:97}視訊通話",
 		background = "voice_placeholder",
 		type = 1,
 		id = 30707302,

@@ -62,7 +62,7 @@ slot0.UpdateStoryView = function(slot0)
 					return
 				end
 
-				pg.m02:sendNotification(GAME.ACTIVITY_UNLOCKSTORYT, {
+				pg.m02:sendNotification(GAME.ACTIVITY_UNLOCKSTORY, {
 					cmd = 1,
 					activity_id = uv0.activity.id,
 					arg1 = uv1
@@ -127,7 +127,7 @@ slot0.UpdataStoryState = function(slot0, slot1)
 						return
 					end
 
-					pg.m02:sendNotification(GAME.ACTIVITY_UNLOCKSTORYT, {
+					pg.m02:sendNotification(GAME.ACTIVITY_UNLOCKSTORY, {
 						cmd = 1,
 						activity_id = uv0.activity.id,
 						arg1 = uv1

@@ -3711,6 +3711,16 @@ pg.memory_template = setmetatable({
 		4955,
 		4956,
 		4957,
+		4961,
+		4962,
+		4963,
+		4964,
+		4965,
+		4966,
+		4967,
+		4968,
+		4969,
+		4970,
 		10011,
 		10012,
 		10013,
@@ -59539,6 +59549,156 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"WEINEITUO7"
+		}
+	},
+	[4961] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "拍攝進行時！",
+		condition = "開始「光影風尚——拍攝進行時！」活動",
+		story = "GUANGYINGFENGSHANG1",
+		id = 4961,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG1"
+		}
+	},
+	[4962] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "為您獻上的真實",
+		condition = "解鎖對應雜誌頁",
+		story = "GUANGYINGFENGSHANG2",
+		id = 4962,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG2"
+		}
+	},
+	[4963] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "心跳賭約：贏家通吃的夜",
+		condition = "解鎖對應雜誌頁",
+		story = "GUANGYINGFENGSHANG3",
+		id = 4963,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG3"
+		}
+	},
+	[4964] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "診療室內的甜蜜捕獲",
+		condition = "解鎖對應雜誌頁",
+		story = "GUANGYINGFENGSHANG4",
+		id = 4964,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG4"
+		}
+	},
+	[4965] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "非常規修行指導課",
+		condition = "解鎖對應雜誌頁",
+		story = "GUANGYINGFENGSHANG5",
+		id = 4965,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG5"
+		}
+	},
+	[4966] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "柔光深處：私密的引導線",
+		condition = "解鎖對應雜誌頁",
+		story = "GUANGYINGFENGSHANG6",
+		id = 4966,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG6"
+		}
+	},
+	[4967] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "設計師的觸感教學",
+		condition = "解鎖對應雜誌頁",
+		story = "GUANGYINGFENGSHANG7",
+		id = 4967,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG7"
+		}
+	},
+	[4968] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "鏡下36計",
+		condition = "解鎖對應雜誌頁",
+		story = "GUANGYINGFENGSHANG8",
+		id = 4968,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG8"
+		}
+	},
+	[4969] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "決定性瞬間：美的曝光",
+		condition = "解鎖對應雜誌頁",
+		story = "GUANGYINGFENGSHANG9",
+		id = 4969,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG9"
+		}
+	},
+	[4970] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "時尚的真諦",
+		condition = "完成雜誌全部內容",
+		story = "GUANGYINGFENGSHANG10",
+		id = 4970,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG10"
 		}
 	},
 	[10011] = {

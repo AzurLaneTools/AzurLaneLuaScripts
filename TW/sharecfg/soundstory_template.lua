@@ -11,7 +11,7 @@ pg.soundstory_template = {
 		overview = "受到鎮海的邀請 \n與她一起共赴茶室度過愉快的閒暇時光 \n茶香陣陣，她遞上茶盞，心中的話語只對你傾訴",
 		order = 2,
 		audition_text = "指揮官，今日的茶室已經由鎮海預定了，藉著這個機會一起休息一下吧。",
-		time = "stop",
+		time = "always",
 		ship_id = 50601,
 		id = 1,
 		captions_color = "#4a383e",
@@ -429,9 +429,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2025,
-					12,
-					11
+					2026,
+					1,
+					29
 				},
 				{
 					0,
@@ -441,9 +441,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					17
+					2026,
+					2,
+					4
 				},
 				{
 					23,
@@ -1090,7 +1090,60 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[26] = {
+	{
+		story_pic = "",
+		name = "下次也一起約會吧！",
+		story_resource_JP = "soundStory25_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "新井里美",
+		audition_resource_JP = "ss-40152-1",
+		overview = "Z52與指揮官在外玩了一天，終於到了要輕鬆一下的時候。\n躺到床上的Z52舒展著身體，並邀請指揮官一起躺下……",
+		order = 2,
+		audition_text = "好舒服啊，指揮官也別站著了，快來一起躺下吧！",
+		ship_id = 40152,
+		id = 25,
+		captions_color = "#4c4240",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		story_pic = "",
 		name = "「深海魔物」進食觀察",
 		story_resource_JP = "soundStory26_JP",
@@ -1143,6 +1196,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "令人著迷的休憩之處",
+		story_resource_JP = "soundStory27_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Lynn",
+		audition_resource_JP = "ss-30510-1",
+		overview = "令人感到著迷、安心、舒適、可以盡情入睡之處，究竟在哪裡呢？ \n武藏的尾巴輕輕擺動，似乎已經完美回答了這個問題……",
+		order = 2,
+		audition_text = "那麼就把這裡，交給指揮官吧……",
+		ship_id = 30510,
+		id = 27,
+		captions_color = "#3a343a",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "溫柔的安眠時分",
+		story_resource_JP = "soundStory28_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "大木咲繪子",
+		audition_resource_JP = "ss-40211-1",
+		overview = "指揮官因為太過疲倦趴在桌上睡著了，恍惚間感受到杜伊斯堡來到了身邊……\n在她輕柔的撫慰和溫柔的聲音裡，指揮官又一次沉沉睡去……",
+		order = 2,
+		audition_text = "就讓我一直這樣……陪在您身邊說話……",
+		ship_id = 40211,
+		id = 28,
+		captions_color = "#302c2c",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1168,6 +1327,9 @@ pg.soundstory_template = {
 		22,
 		23,
 		24,
-		26
+		25,
+		26,
+		27,
+		28
 	}
 }

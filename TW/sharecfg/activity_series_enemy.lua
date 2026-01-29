@@ -2011,6 +2011,348 @@ pg.activity_series_enemy = {
 			16
 		}
 	},
+	[5001] = {
+		oil = 0,
+		name = "蝶舞之約",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "簡單",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = [[
+薄紗的輕盈浪漫，
+勾勒甜蜜的邀約。
+緞帶上的蝴蝶，
+在束縛與自由間翩躚。]],
+		whether_singlefight = 0,
+		id = 5001,
+		limitation = {},
+		expedition_id = {
+			1999101
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				40
+			},
+			{
+				2,
+				200676,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[5002] = {
+		oil = 0,
+		name = "暖絨奇境",
+		type = 1,
+		pre_chapter = 5001,
+		chapter_name = "普通",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+絲絨垂落，
+與拼接的稜角相擁。
+溫暖的奇境中，
+一段柔美自成天地。]],
+		whether_singlefight = 1,
+		id = 5002,
+		limitation = {},
+		expedition_id = {
+			1999201,
+			1999202
+		},
+		boss_icon = {
+			{
+				"alabama_3",
+				5
+			},
+			{
+				"wugelini_2",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				140
+			},
+			{
+				2,
+				200675,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				616,
+				25
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[5003] = {
+		oil = 0,
+		name = "心之窗",
+		type = 1,
+		pre_chapter = 5002,
+		chapter_name = "困難",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+針織的誓言，
+在每一次呼吸間沉浮。
+黑色的流線剪開白幕，
+成為透見光的窗。]],
+		whether_singlefight = 1,
+		id = 5003,
+		limitation = {},
+		expedition_id = {
+			1999301,
+			1999302,
+			1999303
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			},
+			{
+				"gaoxiong_7",
+				3
+			},
+			{
+				"fulangxisike_2",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				360
+			},
+			{
+				2,
+				200674,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				616,
+				60
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	},
+	[5004] = {
+		oil = 0,
+		name = "純白之心",
+		type = 2,
+		pre_chapter = 5003,
+		chapter_name = "S.P",
+		pos_x = "0",
+		pos_y = "0",
+		count = 1,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = [[
+蕩開月白的絲綢，
+浮著珍珠的碎光。
+遮與露的間隙裡，
+有純潔與魅惑的弦歌。]],
+		whether_singlefight = 0,
+		id = 5004,
+		limitation = {},
+		expedition_id = {
+			1999401,
+			1999402,
+			1999403,
+			1999404
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			},
+			{
+				"wugelini_2",
+				1
+			},
+			{
+				"fulangxisike_2",
+				5
+			},
+			{
+				"alabama_3",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				800
+			},
+			{
+				2,
+				200673,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54016,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			40,
+			16
+		}
+	},
+	[5005] = {
+		oil = 0,
+		name = "夜闌私語",
+		type = 3,
+		pre_chapter = 5004,
+		chapter_name = "E.X",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		additional_awards_display = "",
+		profiles = [[
+緞面沉入黑暗，
+灼熱的紋理相互糾纏。
+靜夜的私語，
+在克制與放縱間搖曳。]],
+		pass_awards_display = "",
+		whether_singlefight = 0,
+		id = 5005,
+		limitation = {},
+		expedition_id = {
+			1999501,
+			1999502,
+			1999503,
+			1999504,
+			1999505
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			},
+			{
+				"wugelini_2",
+				1
+			},
+			{
+				"fulangxisike_2",
+				5
+			},
+			{
+				"alabama_3",
+				5
+			},
+			{
+				"gaoxiong_7",
+				3
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		},
+		ex_count = {
+			8000,
+			20,
+			0.2,
+			1000,
+			0.8
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -2038,6 +2380,11 @@ pg.activity_series_enemy = {
 		4041,
 		4042,
 		4051,
-		4052
+		4052,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005
 	}
 }

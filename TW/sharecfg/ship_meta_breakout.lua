@@ -652,7 +652,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701101] = {
-		breakout_view = "习得技能【破敌之炬·杜威】/全武器效率提高2%",
+		breakout_view = "習得技能【破敵之炬·杜威】/全武器效率提高2%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -668,7 +668,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701102] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 		item2 = 21001,
 		pre_id = 9701101,
 		repair = 0,
@@ -685,7 +685,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701103] = {
-		breakout_view = "【破敌之炬·杜威】升级/全武器效率提高5%",
+		breakout_view = "【破敵之炬·杜威】陞級/全武器效率提高5%",
 		item2 = 21001,
 		pre_id = 9701102,
 		repair = 0,
@@ -701,7 +701,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701104] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		item2 = 21001,
 		pre_id = 9701103,
 		repair = 0,

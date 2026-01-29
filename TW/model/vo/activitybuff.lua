@@ -38,7 +38,7 @@ slot0.isActivate = function(slot0)
 		return false
 	end
 
-	if not noEmptyStr(slot0:getConfig("benefit_condition")) then
+	if not uv0.GetBenefitCondition(slot0:getConfig("benefit_condition")) then
 		return true
 	end
 
@@ -69,6 +69,9 @@ slot0.isActivate = function(slot0)
 		end,
 		chapter = function (slot0)
 			return true
+		end,
+		dungeon = function (slot0)
+			return true
 		end
 	}, function ()
 		return false
@@ -76,7 +79,15 @@ slot0.isActivate = function(slot0)
 end
 
 slot0.checkChaper = function(slot0, slot1)
-	if not noEmptyStr(slot0:getConfig("benefit_condition")) or slot2[1] ~= "chapter" then
+	if not uv0.GetBenefitCondition(slot0:getConfig("benefit_condition")) or slot2[1] ~= "chapter" then
+		return true
+	else
+		return table.contains(slot2[2], slot1)
+	end
+end
+
+slot0.checkDungeon = function(slot0, slot1)
+	if not uv0.GetBenefitCondition(slot0:getConfig("benefit_condition")) or slot2[1] ~= "dungeon" then
 		return true
 	else
 		return table.contains(slot2[2], slot1)
@@ -87,6 +98,21 @@ slot0.getLeftTime = function(slot0)
 	print("activityid is " .. slot0.activityId)
 
 	return getProxy(ActivityProxy):getActivityById(slot0.activityId).stopTime - pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+slot0.GetBenefitCondition = function(slot0)
+	if not noEmptyStr(slot0) then
+		return nil
+	elseif type(slot1) == "string" then
+		return {
+			"item",
+			tonumber(slot1)
+		}
+	elseif type(slot1) == "table" then
+		return slot1
+	else
+		assert(false)
+	end
 end
 
 return slot0

@@ -36603,7 +36603,7 @@ pg.activity_shop_template = {
 		resource_category = 2,
 		resource_num = 80,
 		num_limit = 4,
-		activity = 0,
+		activity = 7104,
 		num = 1,
 		commodity_id = 21055,
 		commodity_type = 2,
@@ -36623,7 +36623,7 @@ pg.activity_shop_template = {
 					{
 						2026,
 						1,
-						15
+						29
 					},
 					{
 						0,

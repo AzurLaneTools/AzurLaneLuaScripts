@@ -173,6 +173,7 @@ pg.pay_data_display = setmetatable({
 		4921,
 		4922,
 		4923,
+		4924,
 		5001,
 		5002,
 		5003,
@@ -17612,6 +17613,91 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			45923,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[4924] = {
+		picture = "battlepass_1",
+		name = "特許巡遊憑證（二十五期）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·江風限定換裝和其他獎勵",
+		subject = "特許巡遊憑證",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 330,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass25",
+		extra_gem = 0,
+		id = 4924,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass25",
+		name_display = "特許巡遊憑證",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4025,
+				1500
+			},
+			{
+				8,
+				65106,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			45924,
 			1500
 		},
 		ignorePlatform = {},

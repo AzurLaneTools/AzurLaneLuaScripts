@@ -317,6 +317,11 @@ pg.task_meta_data_template = setmetatable({
 		100453,
 		100454,
 		100455,
+		100471,
+		100472,
+		100473,
+		100474,
+		100475,
 		100501,
 		100502,
 		100503,
@@ -462,6 +467,10 @@ pg.task_meta_data_template = setmetatable({
 		200362,
 		200363,
 		200364,
+		200381,
+		200382,
+		200383,
+		200384,
 		200411,
 		200412,
 		200413,
@@ -2990,6 +2999,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用敦克爾克·META擊破等級＞100的敵方1次"
 	},
+	[100471] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100471,
+		target_num = 1,
+		desc = "使用杜威·META獲得1次勝利"
+	},
+	[100472] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100472,
+		target_num = 1,
+		desc = "使用杜威·META擊破等級＞30的敵方1次"
+	},
+	[100473] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100473,
+		target_num = 1,
+		desc = "使用杜威·META擊破等級＞55的敵方1次"
+	},
+	[100474] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100474,
+		target_num = 1,
+		desc = "使用杜威·META擊破等級＞80的敵方1次"
+	},
+	[100475] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100475,
+		target_num = 1,
+		desc = "使用杜威·META擊破等級＞100的敵方1次"
+	},
 	[100501] = {
 		target_id = "0",
 		sub_type = 180,
@@ -4149,6 +4198,38 @@ pg.base.task_meta_data_template = {
 		id = 200364,
 		target_num = 1,
 		desc = "大型作戰內使用敦克爾克·META擊破等級＞100的敵方1次"
+	},
+	[200381] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200381,
+		target_num = 1,
+		desc = "大型作戰內使用杜威·META獲得1次勝利"
+	},
+	[200382] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200382,
+		target_num = 1,
+		desc = "大型作戰內使用杜威·META擊破等級＞70的敵方1次"
+	},
+	[200383] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200383,
+		target_num = 1,
+		desc = "大型作戰內使用杜威·META擊破等級＞90的敵方1次"
+	},
+	[200384] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200384,
+		target_num = 1,
+		desc = "大型作戰內使用杜威·META擊破等級＞100的敵方1次"
 	},
 	[200411] = {
 		target_id = "0",

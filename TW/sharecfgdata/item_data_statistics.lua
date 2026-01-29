@@ -15684,6 +15684,37 @@ _G.pg.base.item_data_statistics[21050] = {
 }
 
 
+_G.pg.base.item_data_statistics[21052] = {
+	open_directly = 0,
+	name = "結晶：杜威·META",
+	type = 4,
+	display = "杜威·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21052",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21052,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21055] = {
 	open_directly = 0,
 	name = "結晶：克里夫蘭·META",
@@ -27501,6 +27532,131 @@ _G.pg.base.item_data_statistics[30378] = {
 }
 
 
+_G.pg.base.item_data_statistics[30379] = {
+	open_directly = 1,
+	name = "外觀裝備箱(攝影視界)",
+	type = 11,
+	display = "可以獲得一件隨機的攝影視界風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsheyingshijie",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30376",
+	id = 30379,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4276,
+			1
+		},
+		{
+			9,
+			4277,
+			1
+		},
+		{
+			9,
+			4278,
+			1
+		},
+		{
+			9,
+			4279,
+			1
+		},
+		{
+			9,
+			4280,
+			1
+		},
+		{
+			9,
+			4281,
+			1
+		},
+		{
+			9,
+			4282,
+			1
+		},
+		{
+			9,
+			4283,
+			1
+		},
+		{
+			9,
+			4284,
+			1
+		},
+		{
+			9,
+			4285,
+			1
+		},
+		{
+			9,
+			4286,
+			1
+		},
+		{
+			9,
+			4287,
+			1
+		},
+		{
+			9,
+			4288,
+			1
+		},
+		{
+			9,
+			4289,
+			1
+		},
+		{
+			9,
+			4290,
+			1
+		},
+		{
+			9,
+			4291,
+			1
+		},
+		{
+			9,
+			4292,
+			1
+		},
+		{
+			9,
+			4293,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外觀裝備箱(世界巡遊)",
@@ -29070,6 +29226,58 @@ _G.pg.base.item_data_statistics[30430] = {
 		{
 			9,
 			2104,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30431] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	type = 11,
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111225",
+	id = 30431,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2105,
+			1
+		},
+		{
+			9,
+			2106,
+			1
+		},
+		{
+			9,
+			2107,
+			1
+		},
+		{
+			9,
+			2108,
 			1
 		}
 	},
@@ -42037,6 +42245,219 @@ _G.pg.base.item_data_statistics[30562] = {
 		{
 			9,
 			4275,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30563] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(攝影視界)",
+	type = 13,
+	display = "使用後可從「攝影視界」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsheyingshijiezixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30563,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4276,
+			1
+		},
+		{
+			9,
+			4277,
+			1
+		},
+		{
+			9,
+			4278,
+			1
+		},
+		{
+			9,
+			4279,
+			1
+		},
+		{
+			9,
+			4280,
+			1
+		},
+		{
+			9,
+			4281,
+			1
+		},
+		{
+			9,
+			4282,
+			1
+		},
+		{
+			9,
+			4283,
+			1
+		},
+		{
+			9,
+			4284,
+			1
+		},
+		{
+			9,
+			4285,
+			1
+		},
+		{
+			9,
+			4286,
+			1
+		},
+		{
+			9,
+			4287,
+			1
+		},
+		{
+			9,
+			4288,
+			1
+		},
+		{
+			9,
+			4289,
+			1
+		},
+		{
+			9,
+			4290,
+			1
+		},
+		{
+			9,
+			4291,
+			1
+		},
+		{
+			9,
+			4292,
+			1
+		},
+		{
+			9,
+			4293,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4276,
+			1
+		},
+		{
+			9,
+			4277,
+			1
+		},
+		{
+			9,
+			4278,
+			1
+		},
+		{
+			9,
+			4279,
+			1
+		},
+		{
+			9,
+			4280,
+			1
+		},
+		{
+			9,
+			4281,
+			1
+		},
+		{
+			9,
+			4282,
+			1
+		},
+		{
+			9,
+			4283,
+			1
+		},
+		{
+			9,
+			4284,
+			1
+		},
+		{
+			9,
+			4285,
+			1
+		},
+		{
+			9,
+			4286,
+			1
+		},
+		{
+			9,
+			4287,
+			1
+		},
+		{
+			9,
+			4288,
+			1
+		},
+		{
+			9,
+			4289,
+			1
+		},
+		{
+			9,
+			4290,
+			1
+		},
+		{
+			9,
+			4291,
+			1
+		},
+		{
+			9,
+			4292,
+			1
+		},
+		{
+			9,
+			4293,
 			1
 		}
 	},
@@ -92855,6 +93276,43 @@ _G.pg.base.item_data_statistics[81425] = {
 		{
 			7,
 			237030,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81439] = {
+	open_directly = 1,
+	name = "沐光綴心",
+	type = 17,
+	display = "項鍊在水霧中呈現的光芒與質感，真是絕品……啊，指揮官……你要進來一同欣賞這幅由你贈予的美麗風景嗎？",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/bisimaiz_3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "908110",
+	id = 81439,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			405052,
 			1
 		}
 	},

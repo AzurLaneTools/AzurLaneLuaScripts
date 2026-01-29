@@ -462,6 +462,41 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50359] = {
+		id = 50359,
+		entrance_picture = "medalAlbum/50359",
+		group_name = "光影風尚——拍攝進行時！",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50359,
+				{
+					21883,
+					21884,
+					21885,
+					21886,
+					21887,
+					21888,
+					21889,
+					21890,
+					21891
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "SardiniaSPMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{},
+			{
+				8,
+				65802,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -474,6 +509,7 @@ pg.activity_medal_group = {
 		50087,
 		50136,
 		50209,
-		50295
+		50295,
+		50359
 	}
 }
