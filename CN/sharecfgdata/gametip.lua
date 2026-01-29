@@ -12505,7 +12505,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 关岛(最多4次)"
+	tip = "弗朗西斯科·卡拉乔洛 等角色建造概率UP！"
 }
 
 
