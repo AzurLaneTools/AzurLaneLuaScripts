@@ -291,7 +291,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50372",
+		param = "50363",
 		type = 3,
 		id = 9,
 		pic = "temp9",

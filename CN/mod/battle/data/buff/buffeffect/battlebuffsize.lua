@@ -45,7 +45,7 @@ slot1.onStack = function(slot0, slot1, slot2)
 end
 
 slot1.onRemove = function(slot0, slot1, slot2)
-	slot0._number = 0
+	slot0._number = 1
 
 	slot0:UpdateScale(slot1)
 end
