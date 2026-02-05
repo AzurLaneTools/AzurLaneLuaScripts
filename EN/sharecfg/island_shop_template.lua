@@ -991,7 +991,7 @@ pg.island_shop_template = {
 		id = 10036,
 		tag_type = 2,
 		tag_icon = {
-			"Fish Lures"
+			"Fish Fry"
 		}
 	},
 	[10037] = {
@@ -1009,7 +1009,7 @@ pg.island_shop_template = {
 			"Fish Lure Shop"
 		},
 		tag_icon = {
-			"Fish Lures"
+			"Fish Fry"
 		},
 		top_resource = {
 			{

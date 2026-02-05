@@ -177,7 +177,6 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.ISLAND_SELECT_GIFT_DONE,
 		GAME.ISLAND_CORE_STATE_CHANGED,
 		GAME.ISLAND_TRADE_DONE,
-		GAME.ISLAND_SELECT_GIFT_DONE,
 		IslandTradegency.WEEK_NUM_UPDATE,
 		IslandTradegency.INVITE_LIST_UPDATE
 	}

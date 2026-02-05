@@ -490,11 +490,13 @@ slot0.EnableInput = function(slot0)
 	slot0.playerInputManager:EnableInput()
 end
 
-slot0.ChangeTakePhotoModel = function(slot0, slot1)
+slot0.ChangeTakePhotoModel = function(slot0, slot1, slot2)
 	if slot1 == IslandConst.TakePhotoModel.None then
-		slot0:ShowOrHideMoveBtn(false)
-		slot0.playerInputManager:DisableInput()
-		slot0:GetView().player:ActiveOrDisactive(false)
+		if not slot2 then
+			slot0:ShowOrHideMoveBtn(false)
+			slot0.playerInputManager:DisableInput()
+			slot0:GetView().player:ActiveOrDisactive(false)
+		end
 	elseif slot1 == IslandConst.TakePhotoModel.First then
 		slot0:ShowOrHideMoveBtn(true)
 		slot0.playerInputManager:EnableInput()
