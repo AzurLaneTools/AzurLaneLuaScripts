@@ -41,15 +41,9 @@ slot0.DoInvitation = function(slot0, slot1)
 end
 
 slot0.GetInfo = function(slot0)
-	slot3, slot4 = slot0:GetSelfIsland():GetActivityNpcAgency():ExistTradeNpc()
+	slot2 = IslandConst.AGORA_MAP_ID
 
-	if not slot3 then
-		return
-	end
-
-	slot5 = pg.island_world_objects[slot4]
-
-	return slot5.mapId, pg.island_map[slot5.mapId].name, slot1:GetTradeAgency():GetTodaySellPrice()
+	return slot2, pg.island_map[slot2].name, slot0:GetSelfIsland():GetTradeAgency():GetTodaySellPrice()
 end
 
 slot0.DoShare = function(slot0)

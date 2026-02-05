@@ -334,14 +334,18 @@ slot0.HandleSignInData = function(slot0, slot1)
 end
 
 slot0.HandleTradeNotify = function(slot0, slot1)
-	pg.IslandVisitorNotificationMgr.GetInstance():Enqueue(IslandVisitorLog.New({
+	if not IslandVisitorLog.New({
 		id = slot1.island_id,
 		cmd = IslandConst.VISITOR_LOG_CMD_TRADE,
 		name = getProxy(FriendProxy):getFriend(slot1.island_id) and slot2:GetName() or "",
 		time = pg.TimeMgr.GetInstance():GetServerTime(),
 		mapId = slot1.map_id,
 		extraInfo = slot1.price
-	}))
+	}):BuildWhitoutTime() or slot5 == "" then
+		return
+	end
+
+	pg.IslandVisitorNotificationMgr.GetInstance():Enqueue(slot4)
 end
 
 slot0.HandleSignInNotify = function(slot0, slot1)
