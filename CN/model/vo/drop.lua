@@ -1339,6 +1339,21 @@ slot0.InitSwitch = function()
 				slot1:addVitemNumber(slot0.id, slot0.count)
 				getProxy(ActivityProxy):updateActivity(slot1)
 			end
+		elseif DROP_TYPE_ISLAND_ITEM <= slot0.type and slot0.type <= DROP_TYPE_ISLAND_CARD_DIY then
+			if not getProxy(IslandProxy):GetIsland() then
+				return
+			end
+
+			slot2 = {}
+
+			table.insert(slot2, {
+				type = slot0.type,
+				id = slot0.id,
+				count = slot0.count
+			})
+			IslandDropHelper.AddItems({
+				drop_list = slot2
+			})
 		else
 			print("can not handle this type>>" .. slot0.type)
 		end

@@ -321,6 +321,10 @@ slot0.OnAllPageClose = function(slot0)
 	slot0.scene:TryVisible()
 end
 
+slot0.IsAllPageClose = function(slot0)
+	return #slot0.stack == 0
+end
+
 slot0.IsSceneType = function(slot0, slot1)
 	return slot1.__cname == slot0.scene.__cname
 end
