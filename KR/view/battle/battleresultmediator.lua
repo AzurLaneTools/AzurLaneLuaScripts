@@ -154,17 +154,12 @@ slot0.register = function(slot0)
 			table.insert(slot8, slot18.ship)
 		end
 	elseif slot7 == SYSTEM_BOSS_RUSH or slot7 == SYSTEM_BOSS_RUSH_EX or slot7 == SYSTEM_BOSS_RUSH_COLLABRATE then
-		slot11 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()
+		slot9 = slot0.contextData.actId
+		slot11 = getProxy(ActivityProxy):getActivityById(slot9):GetSeriesData()
 
 		assert(slot11)
 
-		slot14 = slot11:GetFleetIds()[slot11:GetStaegLevel()]
-
-		if slot11:GetMode() == BossRushSeriesData.MODE.SINGLE then
-			slot14 = slot13[1]
-		end
-
-		slot8 = slot4:getShipsByFleet(slot3:getActivityFleets()[slot9][slot14])
+		slot8 = slot4:getShipsByFleet(slot3:getActivityFleets()[slot9][slot11:GetStageFleets(slot11:GetMode(), slot11:GetStaegLevel())])
 	else
 		slot8 = slot4:getShipsByFleet(slot3:getFleetById(slot0.contextData.mainFleetId))
 	end

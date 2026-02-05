@@ -1,13 +1,38 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -25,8 +50,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -38,7 +63,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					5
+					19
 				},
 				{
 					12,
@@ -49,16 +74,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50326",
-		type = 3,
+		type = 2,
 		id = 3,
 		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "SardiniaSPCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -70,7 +100,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					5
+					19
 				},
 				{
 					12,
@@ -94,8 +124,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -107,7 +137,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					4
+					18
 				},
 				{
 					23,
@@ -131,8 +161,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -144,7 +174,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					4
+					18
 				},
 				{
 					23,
@@ -165,8 +195,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -178,7 +208,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					4
+					18
 				},
 				{
 					23,
@@ -198,16 +228,19 @@ pg.activity_banner = {
 		}
 	},
 	[9] = {
-		param = "50323",
-		type = 3,
+		type = 2,
 		id = 9,
 		pic = "temp9",
+		param = {
+			"scene Cryptolalia",
+			{}
+		},
 		time = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -219,12 +252,12 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					5
+					11
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -259,8 +292,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -272,7 +305,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					4
+					18
 				},
 				{
 					23,
@@ -290,11 +323,36 @@ pg.activity_banner = {
 		pic = "dumpling"
 	},
 	[101] = {
-		param = "경병|열어야 먹을 수 있다구? <color=#6dd329>(경험치 보너스 5% 증가, 60분간 지속)</color>",
-		time = "stop",
+		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		type = 10,
 		id = 101,
-		pic = "jingbing"
+		pic = "jingbing",
+		time = {
+			{
+				{
+					2025,
+					12,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					8
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
 	},
 	[102] = {
 		param = "拐杖糖|据说最原始的拐杖糖是白色的呢。<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -360,13 +418,11 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
 			6,
-			8
-		},
-		[3] = {
-			3,
+			8,
 			9
 		},
 		[9] = {

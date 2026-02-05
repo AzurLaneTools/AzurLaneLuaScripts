@@ -5,47 +5,67 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.titleToggle = slot0._tf:Find("toggle")
-	slot0.titleTF = slot0.titleToggle:Find("Text")
-	slot0.uiList = UIItemList.New(slot0._tf:Find("list"), slot0._tf:Find("list/tpl"))
+	slot0.frame = slot0._tf:Find("frame")
+	slot0.uiList = UIItemList.New(slot0._tf:Find("frame/filter_panel/list/content"), slot0._tf:Find("frame/filter_panel/list/content/tpl"))
+	slot0.selectorPanel = slot0._tf:Find("frame/filter_panel")
+	slot0.fliterBtn = slot0._tf:Find("frame/filter")
+	slot0.filterTxt = slot0.fliterBtn:Find("Text"):GetComponent(typeof(Text))
 end
 
 slot0.OnInit = function(slot0)
-	slot0.uiList:make(function (slot0, slot1, slot2)
+	onButton(slot0, slot0.fliterBtn, function ()
+		uv0.isOpen = not uv0.isOpen
+
+		uv0:UpdateSelector()
+	end, SFX_PANEL)
+
+	slot1 = slot0.uiList
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			uv0:UpdateItem(slot1, slot2)
 		end
 	end)
-	slot0.uiList:align(slot0.contextData.count or 0)
 end
 
-slot0.Show = function(slot0)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
-	slot0.selectedIdx = slot0.contextData.defaultSelId or 1
+	slot0.callback = slot2
+	slot0.isOpen = false
 
-	triggerToggle(slot0.uiList.container:Find(tostring(slot0.selectedIdx)), true)
+	slot0:UpdateSelector()
+
+	slot0.filterTxt.text = pg.island_season[slot1].name_short
+end
+
+slot0.UpdateSelector = function(slot0)
+	if slot0.isOpen then
+		slot0.uiList:align(IslandSeasonAgency.GetCurrentSeason() - 1 or 0)
+	end
+
+	setActive(slot0.selectorPanel, slot0.isOpen)
+end
+
+slot0.Hide = function(slot0)
+	uv0.super.Hide(slot0)
+
+	if slot0.isOpen then
+		slot0.isOpen = false
+
+		slot0:UpdateSelector()
+	end
 end
 
 slot0.UpdateItem = function(slot0, slot1, slot2)
-	slot3 = slot1 + 1
-	slot2.name = slot3
+	setText(slot2, pg.island_season[slot1 + 1].name_short)
+	onButton(slot0, slot2, function ()
+		uv0.filterTxt.text = uv1
 
-	setText(slot2:Find("content/Text"), slot3)
-	onToggle(slot0, slot2, function (slot0)
-		if slot0 then
-			uv0.selectedIdx = uv1
-
-			uv0:UpdateTitle()
-			existCall(uv0.contextData.onSelected, uv1)
+		if uv0.callback then
+			uv0.callback(uv2)
 		end
-
-		triggerToggle(uv0.titleToggle, false)
 	end, SFX_PANEL)
-end
-
-slot0.UpdateTitle = function(slot0)
-	setText(slot0.titleTF, string.format("第%d赛季", slot0.selectedIdx))
 end
 
 return slot0

@@ -726,6 +726,99 @@ slot0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	alabama_3 = {
+		click_trigger = true,
+		multiple_face = {
+			name = {
+				"alabama_3"
+			},
+			data = {
+				{
+					"normal",
+					0
+				},
+				{
+					"ex",
+					9
+				}
+			}
+		},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					is_default = true,
+					action = "drag",
+					idle = "normal",
+					change_idle = "ex"
+				},
+				{
+					is_default = false,
+					action = "drag_ex",
+					idle = "ex",
+					change_idle = "normal"
+				}
+			}
+		}
+	},
+	fulangxisike_2 = {
+		click_trigger = true,
+		multiple_face = {
+			name = {
+				"fulangxisike_2"
+			},
+			data = {
+				{
+					"normal",
+					0
+				},
+				{
+					"ex",
+					4
+				}
+			}
+		},
+		hit_area = {
+			"drag",
+			"touch_head"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					is_default = true,
+					action = "drag",
+					idle = "normal",
+					change_idle = "ex"
+				},
+				{
+					is_default = false,
+					action = "drag_ex",
+					idle = "ex",
+					change_idle = "normal"
+				},
+				{
+					change_idle = "normal",
+					action = "touch_head",
+					idle = "normal",
+					event = "TouchHead",
+					is_default = true,
+					hit = "touch_head"
+				},
+				{
+					change_idle = "ex",
+					action = "touch_head",
+					idle = "ex",
+					event = "TouchHead",
+					is_default = false,
+					hit = "touch_head"
+				}
+			}
+		}
 	}
 }
 slot0.ship_effect_action_able = {

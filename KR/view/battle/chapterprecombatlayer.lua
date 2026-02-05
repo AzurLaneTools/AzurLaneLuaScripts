@@ -478,13 +478,14 @@ slot0.displayFleetInfo = function(slot0)
 			setText(slot0._extraCostBuffIcon:Find("text_reward"), tonumber(slot14.benefit_effect) * 0.01 + 1)
 		elseif slot14.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC then
 			onButton(slot0, slot0._extraCostBuffIcon, function ()
+				assert(ActivityBuff.GetBenefitCondition(uv0.benefit_condition)[1] == "item")
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = true,
 					type = MSGBOX_TYPE_SINGLE_ITEM,
 					drop = {
 						count = 1,
 						type = DROP_TYPE_ITEM,
-						id = tonumber(uv0.benefit_condition)
+						id = slot0[2]
 					},
 					intro = pg.strategy_data_template[uv0.id].desc
 				})

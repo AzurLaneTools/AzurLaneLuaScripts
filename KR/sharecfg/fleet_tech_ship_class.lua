@@ -2816,7 +2816,8 @@ pg.fleet_tech_ship_class = {
 		nation = 6,
 		ships = {
 			60106,
-			60109
+			60109,
+			60112
 		}
 	},
 	[60105] = {
@@ -2862,7 +2863,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		nation = 6,
 		ships = {
-			60203
+			60203,
+			60204
 		}
 	},
 	[60301] = {
@@ -2968,6 +2970,17 @@ pg.fleet_tech_ship_class = {
 		nation = 6,
 		ships = {
 			60508
+		}
+	},
+	[60506] = {
+		shiptype = 5,
+		name = "프란체스코 카라치올로급",
+		t_level = 6,
+		id = 60506,
+		t_level_1 = 133,
+		nation = 6,
+		ships = {
+			60509
 		}
 	},
 	[60701] = {
@@ -3985,6 +3998,17 @@ pg.fleet_tech_ship_class = {
 			970110
 		}
 	},
+	[970111] = {
+		shiptype = 1,
+		name = "카라비니에레·META",
+		t_level = 3,
+		id = 970111,
+		t_level_1 = 19,
+		nation = 97,
+		ships = {
+			970111
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "헬레나·META",
@@ -4723,6 +4747,7 @@ pg.fleet_tech_ship_class = {
 		60503,
 		60504,
 		60505,
+		60506,
 		60701,
 		60702,
 		60801,
@@ -4813,6 +4838,7 @@ pg.fleet_tech_ship_class = {
 		970108,
 		970109,
 		970110,
+		970111,
 		970201,
 		970202,
 		970203,

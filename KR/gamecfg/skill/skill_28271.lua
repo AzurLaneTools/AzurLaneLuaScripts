@@ -14,10 +14,10 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "全弹发射-朱萨诺级I",
+	name = "全弹发射-朱塞诺级I",
 	cd = 0,
 	picture = "0",
-	desc = "全弹发射-朱萨诺级I",
+	desc = "全弹发射-朱塞诺级I",
 	painting = 1,
 	id = 28271,
 	aniEffect = {

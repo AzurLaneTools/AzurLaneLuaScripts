@@ -2678,6 +2678,27 @@ pg.medal_template = {
 		explain1 = "「창공에 울리는 소리」",
 		explain2 = "이벤트 기념"
 	},
+	[200121] = {
+		target_id = "50359",
+		name = "명암과 패션 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "패션 레이더 출력 전개! 촬영 모드로 전환! 셔터를 눌러 핫한 순간을 기록해 보자! \n——오늘 패션 레코더는 바로 당신!",
+		next = 0,
+		icon = "9121",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9121",
+		condition = "「명암과 패션, 촬영 진행 중! 」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200121,
+		explain1 = "「명암과 패션, 촬영 진행 중! 」",
+		explain2 = "이벤트"
+	},
 	all = {
 		10011,
 		10012,
@@ -2800,6 +2821,7 @@ pg.medal_template = {
 		200081,
 		200091,
 		200101,
-		200111
+		200111,
+		200121
 	}
 }

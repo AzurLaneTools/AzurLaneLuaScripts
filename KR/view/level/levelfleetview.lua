@@ -48,7 +48,7 @@ slot0.Show = function(slot0)
 
 	slot0:initSPOPView()
 
-	if type(slot0.chapter:getConfig("special_operation_list")) == "table" and #slot1 > 0 and not slot2 then
+	if noEmptyStr(slot0.chapter:getConfig("special_operation_list")) and #slot1 > 0 and not slot2 then
 		setActive(slot0.btnSp, true)
 	else
 		setActive(slot0.btnSp, false)
@@ -1823,12 +1823,11 @@ slot0.initSPOPView = function(slot0)
 	if #slot0:getLegalSPBuffList() == 0 then
 		slot0:clearSPBuff()
 	elseif #slot1 == 1 then
-		slot4 = pg.benefit_buff_template[slot1[1]]
-
-		slot0:setTicketInfo(slot0.btnSp, slot4.benefit_condition)
+		assert(ActivityBuff.GetBenefitCondition(pg.benefit_buff_template[slot1[1]].benefit_condition)[1] == "item")
+		slot0:setTicketInfo(slot0.btnSp, slot5[2])
 		setText(slot0.spDesc, slot4.desc)
 		onButton(slot0, slot0.btnSp:Find("item"), function ()
-			uv0:emit(BaseUI.ON_ITEM, tonumber(uv1.benefit_condition))
+			uv0:emit(BaseUI.ON_ITEM, uv1)
 		end)
 		onButton(slot0, slot0.btnSp, function ()
 			slot0 = Chapter.GetSPOperationItemCacheKey(uv0.chapter.id)
@@ -1837,7 +1836,7 @@ slot0.initSPOPView = function(slot0)
 				PlayerPrefs.SetInt(slot0, 0)
 				uv0:clearSPBuff()
 			else
-				uv0.spItemID = tonumber(uv1.benefit_condition)
+				uv0.spItemID = uv1
 
 				PlayerPrefs.SetInt(slot0, uv0.spItemID)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_select_sp"))
@@ -1852,12 +1851,14 @@ slot0.initSPOPView = function(slot0)
 		setText(slot0.spDesc, i18n(slot6))
 
 		for slot6, slot7 in ipairs(slot1) do
-			slot8 = cloneTplTo(slot0.spTpl, slot0.spContainer)
+			assert(ActivityBuff.GetBenefitCondition(slot7.benefit_condition)[1] == "item")
 
-			setText(slot8:Find("desc"), slot7.desc)
-			slot0:setTicketInfo(slot8, slot7.benefit_condition)
-			setActive(slot8:Find("block"), false)
-			onButton(slot0, slot8, function ()
+			slot10 = cloneTplTo(slot0.spTpl, slot0.spContainer)
+
+			setText(slot10:Find("desc"), slot7.desc)
+			slot0:setTicketInfo(slot10, slot8[2])
+			setActive(slot10:Find("block"), false)
+			onButton(slot0, slot10, function ()
 				uv0:setSPBuffSelected(uv1.id)
 				setActive(uv0.spPanel, false)
 			end)
@@ -1900,8 +1901,9 @@ slot0.initSPOPView = function(slot0)
 end
 
 slot0.setSPBuffSelected = function(slot0, slot1)
-	slot2 = pg.benefit_buff_template[slot1]
-	slot0.spItemID = tonumber(slot2.benefit_condition)
+	assert(ActivityBuff.GetBenefitCondition(pg.benefit_buff_template[slot1].benefit_condition)[1] == "item")
+
+	slot0.spItemID = slot3[2]
 
 	slot0:setTicketInfo(slot0.btnSp, slot0.spItemID)
 	setText(slot0.spDesc, slot2.desc)

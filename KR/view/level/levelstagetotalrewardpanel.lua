@@ -238,15 +238,13 @@ end
 
 slot0.UpdateSPItem = function(slot0)
 	slot2 = getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET)
-
-	if slot0.contextData.chapter:getConfig("special_operation_list") == "" then
-		slot3 = {} or slot3
-	end
-
+	slot3 = noEmptyStr(slot0.contextData.chapter:getConfig("special_operation_list")) or {}
 	slot4 = {}
 
-	for slot8, slot9 in ipairs(pg.benefit_buff_template.all) do
-		if pg.benefit_buff_template[slot9].benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot3, slot9) then
+	for slot8, slot9 in ipairs(pg.benefit_buff_template.get_id_list_by_benefit_type[Chapter.OPERATION_BUFF_TYPE_DESC]) do
+		slot10 = pg.benefit_buff_template[slot9]
+
+		if table.contains(slot3, slot9) then
 			table.insert(slot4, slot10)
 		end
 	end
@@ -266,19 +264,20 @@ slot0.UpdateSPItem = function(slot0)
 			return
 		end
 
-		slot3 = uv0[slot1 + 1]
-		slot4 = tonumber(slot3.benefit_condition)
+		assert(ActivityBuff.GetBenefitCondition(uv0[slot1 + 1].benefit_condition)[1] == "item")
+
+		slot5 = slot4[2]
 
 		setText(slot2:Find("Active/Desc"), slot3.desc)
 
-		slot6 = _.detect(uv1, function (slot0)
+		slot7 = _.detect(uv1, function (slot0)
 			return slot0.configId == uv0
-		end) and slot5.count > 0
+		end) and slot6.count > 0
 
-		setActive(slot2:Find("Active"), slot6)
-		setActive(slot2:Find("Block"), not slot6)
+		setActive(slot2:Find("Active"), slot7)
+		setActive(slot2:Find("Block"), not slot7)
 
-		if not slot6 then
+		if not slot7 then
 			setText(slot2:Find("Block"):Find("Desc"), i18n("levelScene_select_noitem"))
 
 			return
@@ -286,9 +285,9 @@ slot0.UpdateSPItem = function(slot0)
 
 		setActive(slot2:Find("Active/Item"), true)
 		updateDrop(slot2:Find("Active/Item/Icon"), Drop.New({
-			id = slot4,
+			id = slot5,
 			type = DROP_TYPE_ITEM,
-			count = slot5 and slot5.count or 0
+			count = slot6 and slot6.count or 0
 		}))
 		onButton(uv2, slot2, function ()
 			uv0.contextData.spItemID = not uv0.contextData.spItemID and uv1 or nil

@@ -41,18 +41,6 @@ slot0.OnInit = function(slot0)
 
 	slot0.playerCard = IslandRankCard.New(slot0.playerRankTF, IslandRankCard.TYPE_SELF, slot0)
 	slot0.newestId = IslandSeasonAgency.GetCurrentSeason()
-
-	if slot0.newestId > 1 then
-		slot0.switchPanel = IslandSeasonSwitchPanel.New(slot0._tf, slot0.event, setmetatable({
-			count = slot0.newestId,
-			onSelected = function (slot0)
-				uv0:Flush(slot0)
-			end,
-			defaultSelId = slot0.newestId
-		}, {
-			__index = slot0.contextData
-		}))
-	end
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -71,13 +59,7 @@ end
 
 slot0.Show = function(slot0)
 	slot0.super.Show(slot0)
-
-	if slot0.newestId == 1 then
-		slot0:Flush(slot0.newestId)
-	else
-		slot0.switchPanel:ExecuteAction("Show")
-	end
-
+	slot0:Flush(slot0.newestId)
 	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_17")
 end
 
@@ -99,8 +81,10 @@ end
 slot0.UpdataRankView = function(slot0)
 	slot0.displayRankVOs = {}
 	slot1 = slot0.rankVOs[slot0.seasonId]
+	slot2 = ipairs
+	slot3 = slot0.rankVOs[slot0.seasonId] or {}
 
-	for slot5, slot6 in ipairs(slot0.rankVOs[slot0.seasonId]) do
+	for slot5, slot6 in slot2(slot3) do
 		table.insert(slot0.displayRankVOs, slot6)
 	end
 

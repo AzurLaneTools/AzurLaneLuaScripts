@@ -224,6 +224,15 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 28,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SardiniaSPCoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -251,6 +260,7 @@ pg.activity_banner_notice = {
 		24,
 		25,
 		26,
-		27
+		27,
+		28
 	}
 }

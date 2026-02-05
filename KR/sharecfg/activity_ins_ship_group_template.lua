@@ -5688,6 +5688,51 @@ pg.activity_ins_ship_group_template = {
 		type = 1,
 		sculpture_ii = ""
 	},
+	[60509] = {
+		ship_group = 60509,
+		name = "Francesco Caracciolo",
+		background = "",
+		sculpture = "fulangxisike",
+		nationality = 6,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[60204] = {
+		ship_group = 60204,
+		name = "Alberto di Giussano",
+		background = "",
+		sculpture = "aerbeituo",
+		nationality = 6,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[60112] = {
+		ship_group = 60112,
+		name = "Ugolino Vivaldi",
+		background = "",
+		sculpture = "wugelini",
+		nationality = 6,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[10520] = {
+		ship_group = 10520,
+		name = "Alabama",
+		background = "",
+		sculpture = "alabama",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[30194] = {
+		ship_group = 30194,
+		name = "Fujinami",
+		background = "",
+		sculpture = "tengbo",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	},
 	all = {
 		30701,
 		30702,
@@ -6320,6 +6365,11 @@ pg.activity_ins_ship_group_template = {
 		49910,
 		79903,
 		30161,
-		19906
+		19906,
+		60509,
+		60204,
+		60112,
+		10520,
+		30194
 	}
 }

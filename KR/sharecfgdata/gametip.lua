@@ -12537,7 +12537,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, \"괌\" 100% 획득 가능! (최대 4척까지)"
+	tip = "「프란체스코 카라치올로」 등의 등장 확률 UP!"
 }
 
 
@@ -40821,6 +40821,11 @@ _G.pg.base.gametip.island_season_charts_out = {
 }
 
 
+_G.pg.base.gametip.island_season_review_lv = {
+	tip = "아일랜드 개발 등급"
+}
+
+
 _G.pg.base.gametip.island_season_review_charnum = {
 	tip = "동료 수"
 }
@@ -40828,6 +40833,11 @@ _G.pg.base.gametip.island_season_review_charnum = {
 
 _G.pg.base.gametip.island_season_review_projuctnum = {
 	tip = "기술 연구"
+}
+
+
+_G.pg.base.gametip.island_season_review_titleone = {
+	tip = "시즌"
 }
 
 
@@ -40868,6 +40878,26 @@ _G.pg.base.gametip.island_season_review_fishnum = {
 
 _G.pg.base.gametip.island_season_review_gamenum = {
 	tip = "이벤트 참여"
+}
+
+
+_G.pg.base.gametip.island_season_review_achi = {
+	tip = "미니 게임"
+}
+
+
+_G.pg.base.gametip.island_season_review_achinum = {
+	tip = "낚시 성과"
+}
+
+
+_G.pg.base.gametip.island_season_review_guidenum = {
+	tip = "이벤트 참여"
+}
+
+
+_G.pg.base.gametip.island_season_review_blank = {
+	tip = "未参与该开发季"
 }
 
 
@@ -42845,6 +42875,11 @@ _G.pg.base.gametip.island_cancel_queue = {
 
 _G.pg.base.gametip.island_queue_display = {
 	tip = "아일랜드 방문 수가 한도에 달했습니다. 대기 목록에 들어갑니다.\n지휘관의 대기 번호: $1"
+}
+
+
+_G.pg.base.gametip.island_season_label = {
+	tip = "开发季$1"
 }
 
 
@@ -45693,6 +45728,80 @@ _G.pg.base.gametip.winterwish_20251225_tip2 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2602 = {
+	tip = "2026/2/8 ~ 2026/4/7 이벤트 기간 중에 월드 투어 <icon name=pt w=0.5 h=0.5/>획득 합계 보상으로<color=#854747> 「카라비니에레·META」</color> 등 획득 가능"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2602 = {
+	tip = {
+		{
+			info = [[
+■ 이벤트 진행 기간
+ 2026.2.8 0:00 ~ 2026.4.7 23:59
+
+■ 개요
+「월드 투어」란, 이벤트 진행 중 임무를 클리어하여 「투어 Pt」를 모아, 획득한 투어 Pt 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
+또한, 기본 투어 보상에는 추가적으로 「특허 투어 보상」이 존재하며, 상점 아이템 「특허 투어 패스」를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
+기본 투어 보상으로는 함선 「카라비니에레·META」, 특허 투어 보상으로는 구축함 「Z47」의 한정 스킨인 「타자★홈런」을 획득할 수 있습니다. 
+
+■플레이 방법
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+・상기 「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 Pt」를 자동으로 획득할 수 있습니다. 
+ 또한 「특허 투어 패스」를 구매하면, 15단계 분량의 보상(투어 Pt 1,500)을 획득할 수 있습니다. 
+・「투어 Pt」의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
+ ①기본 투어 보상
+ 「투어 Pt」의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
+ ②특허 투어 보상
+ 「특허 투어 패스」를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
+・이벤트가 종료되면 획득한 투어 Pt는 초기화됩니다. 
+
+■Tips
+・플레이 스타일
+　월드 투어에는 총 100단계가 있으며, 단숨에 마지막 단계까지 클리어할 수 없도록 만들어져 있습니다. 평소대로 퀘스트를 클리어하면서 임무를 처리하거나, 원하는 보상을 정해 신속하게 클리어하는 등, 자신의 플레이 스타일에 따라 즐기는 것을 추천합니다. 
+
+・특허 투어 패스
+ 상점에서 「특허 투어 패스」를 구매하면, 특별한 아이템과 함께 「투어 PT」를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 「특허 투어 패스」 구매로 오픈되는 「특허 투어 보상」으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
+
+・임무 스킵(권장하지 않습니다)
+ 「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다. 
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2602 = {
+	tip = {
+		{
+			info = [[
+■ 월드 투어에 대해
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+
+・「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+
+・「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다……
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2602 = {
+	tip = "월드 투어·27기"
+}
+
+
 _G.pg.base.gametip.battle_battleMediator_quest_exist_submarine_support = {
 	tip = "전투를 중단하면 현재 적 보스의 내구에 따라 결과가 집계됩니다. 전투를 중단할까요?"
 }
@@ -45745,4 +45854,56 @@ _G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
 
 _G.pg.base.gametip.submarine_support_oil_consume_tip = {
 	tip = "잠수 지원 함대 출격은 연료를 $1 소모합니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_title = {
+	tip = "이벤트"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_1 = {
+	tip = "명암과 패션"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_2 = {
+	tip = "누적 Pt"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_story_reward_count = {
+	tip = "캐릭터를 탭하여 <icon name=65812 w=0.4 h=0.4/><color=#10a7a9>(남은 수량: $1)</color>(을)를 사용해 특집 페이지(이벤트 스토리) 오픈\n모든 스토리를 오픈하면 한정 장비 스킨 획득 가능<color=#10a7a9>($2/8)</color>"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_unlock = {
+	tip = "미오픈"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_fleetconfirm = {
+	tip = "함대가 편성되지 않았습니다. 이전 스테이지 편성을 적용하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
+	tip = {
+		{
+			info = [[
+플레이 방법:
+<color=#92fc63>2.5 ~ 2.19 23:59</color>까지 기간 한정 이벤트 '명암과 패션, 촬영 진행 중! 」이 진행됩니다! 
+한정 임무를 완수하고, 함대를 편성해 이벤트 스테이지를 클리어하여 「사진 필름」을 모으면, 보상을 획득할 수 있습니다! 
+
+① 화면 좌측 하단의 버튼으로 「탐색 이야기(스토리)와 「특별 전투」 화면을 전환할 수 있습니다. 
+② 「특별 전투」에서는 함대를 편성하여 SP 스테이지에 도전할 수 있으며, 수집 Pt 아이템인 「사진 필름」을 획득할 수 있습니다.
+출격 시에 출격하는 함대 수가 다른 <color=#92fc63>「단독 출격」</color>, <color=#92fc63>「협동 출격」</color>을 선택할 수 있습니다.
+・단독 출격에서는 함대 하나로 각 스테이지에 연속으로 도전할 수 있습니다(전투 시작 시에 함대 내구가 모두 회복됨).
+・협동 출격에서는 스테이지에 따라 각각 함대를 편성하여 출격시키며, 전투를 각 함대로 실시합니다. 협동 출격으로 클리어하면 추가 보상을 획득할 수 있습니다.
+
+③ 「사진 필름」은 총 획득 수 보상으로 SR 함선 <color=#92fc63>「우골리노 비발디」</color>, <color=#92fc63>「시제형 3연장 406mm 주포 Model 1940」</color> 등을 획득할 수 있습니다.
+④ 「한정 임무」에서는 이벤트 진행 기간에 등장하는 이벤트 임무를 확인하거나, 보상을 수령할 수 있습니다. 
+④ 「탐색 이야기」에서는 이벤트 한정 임무로 획득할 수 있는 「스튜디오 예약표」를 사용하여 이벤트 스토리를 오픈할 수 있습니다. 또한 모든 스토리를 감상하면 한정 장비 스킨 「패션프루트 포탄」을 획득할 수 있습니다.]]
+		}
+	}
 }

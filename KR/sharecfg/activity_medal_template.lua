@@ -1140,6 +1140,102 @@ pg.activity_medal_template = {
 		id = 5029508,
 		medal_asset = "ActivityMedal/5029508"
 	},
+	[5035901] = {
+		activity_medal_desc = "지금 가장 핫한 건 누구? 그래, 바로 나야!",
+		next_medal = 0,
+		item = 65803,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "1",
+		task_id = 21884,
+		activity_medal_name = "스티커: 촬영 진행 중!",
+		id = 5035901,
+		medal_asset = "ActivityMedal/5035901"
+	},
+	[5035902] = {
+		activity_medal_desc = "3, 2, 1! 치즈~",
+		next_medal = 0,
+		item = 65804,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "2",
+		task_id = 21885,
+		activity_medal_name = "스티커: 카메라",
+		id = 5035902,
+		medal_asset = "ActivityMedal/5035902"
+	},
+	[5035903] = {
+		activity_medal_desc = "행거는 의상을 걸 때 쓰는 것…",
+		next_medal = 0,
+		item = 65805,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "3",
+		task_id = 21886,
+		activity_medal_name = "스티커: 행거",
+		id = 5035903,
+		medal_asset = "ActivityMedal/5035903"
+	},
+	[5035904] = {
+		activity_medal_desc = "조금만 더…… 조금만 더하면 잡을 수 있어……!",
+		next_medal = 0,
+		item = 65806,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "4",
+		task_id = 21887,
+		activity_medal_name = "스티커: 뽑기 기계",
+		id = 5035904,
+		medal_asset = "ActivityMedal/5035904"
+	},
+	[5035905] = {
+		activity_medal_desc = "주목을 한몸에 받을 준비는 됐어?",
+		next_medal = 0,
+		item = 65807,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "5",
+		task_id = 21888,
+		activity_medal_name = "스티커: 스포트라이트",
+		id = 5035905,
+		medal_asset = "ActivityMedal/5035905"
+	},
+	[5035906] = {
+		activity_medal_desc = "지금부터… 패션 란제리 특집 촬영 시간!",
+		next_medal = 0,
+		item = 65808,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "6",
+		task_id = 21889,
+		activity_medal_name = "스티커: 패션",
+		id = 5035906,
+		medal_asset = "ActivityMedal/5035906"
+	},
+	[5035907] = {
+		activity_medal_desc = "같은 과일이라도 촬영할 방법은 100가지나 있거든?",
+		next_medal = 0,
+		item = 65809,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "7",
+		task_id = 21890,
+		activity_medal_name = "스티커: 프루트 앨범",
+		id = 5035907,
+		medal_asset = "ActivityMedal/5035907"
+	},
+	[5035908] = {
+		activity_medal_desc = "카메라를 안 보는 순간도 포함해 모든 걸 기록할 거야!",
+		next_medal = 0,
+		item = 65810,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "8",
+		task_id = 21891,
+		activity_medal_name = "스티커: 필름",
+		id = 5035908,
+		medal_asset = "ActivityMedal/5035908"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1259,6 +1355,16 @@ pg.activity_medal_template = {
 			5029506,
 			5029507,
 			5029508
+		},
+		[50359] = {
+			5035901,
+			5035902,
+			5035903,
+			5035904,
+			5035905,
+			5035906,
+			5035907,
+			5035908
 		}
 	},
 	all = {
@@ -1356,6 +1462,14 @@ pg.activity_medal_template = {
 		5029505,
 		5029506,
 		5029507,
-		5029508
+		5029508,
+		5035901,
+		5035902,
+		5035903,
+		5035904,
+		5035905,
+		5035906,
+		5035907,
+		5035908
 	}
 }

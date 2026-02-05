@@ -57,30 +57,26 @@ slot0.didEnter = function(slot0)
 	slot1 = slot0.contextData.seriesData
 	slot2 = slot1:GetBattleStatistics()
 	slot3 = slot1:GetFinalResults()
-	slot4 = slot1:GetFleets()
-	slot6 = slot4[#slot4]
-	slot7 = slot6:getTeamByName(TeamType.Submarine)
-	slot8 = slot6:GetRawCommanderIds()
-	slot9 = {}
-	slot10 = {}
+	slot5, slot6 = slot1:GetModeFleetIDs(slot1:GetMode())
+	slot7 = slot1:GetFleets(slot5)
+	slot8 = slot1:GetFleets(slot6)[1]
+	slot9 = slot8:getTeamByName(TeamType.Submarine)
+	slot10 = slot8:GetRawCommanderIds()
+	slot11 = {}
+	slot12 = {}
 
-	for slot14 = 1, #slot1:GetExpeditionIds() do
-		slot15 = slot4[slot14]
-
-		if slot1:GetMode() == BossRushSeriesData.MODE.SINGLE then
-			slot15 = slot4[1]
-		end
-
-		slot17 = {
-			index = slot14,
+	for slot16 = 1, #slot1:GetExpeditionIds() do
+		slot17 = slot7[slot16] or slot7[1]
+		slot19 = {
+			index = slot16,
 			oldShips = {},
 			ships = {},
 			oldCmds = {},
 			cmds = {},
-			mvp = slot3[slot14] and slot16.mvp or 0
+			mvp = slot3[slot16] and slot18.mvp or 0
 		}
 
-		table.Foreach(slot15:getShipIds(), function (slot0, slot1)
+		table.Foreach(slot17:getShipIds(), function (slot0, slot1)
 			if uv0 <= #uv1 then
 				if uv2.newShips[slot1] then
 					table.insert(uv3.ships, slot2)
@@ -95,7 +91,7 @@ slot0.didEnter = function(slot0)
 				uv3.oldShips[slot1] = slot2
 			end
 		end)
-		table.Foreach(slot7, function (slot0, slot1)
+		table.Foreach(slot9, function (slot0, slot1)
 			if uv0 <= #uv1 and uv2.newShips[slot1] then
 				table.insert(uv3.ships, slot2)
 
@@ -103,7 +99,7 @@ slot0.didEnter = function(slot0)
 			end
 		end)
 
-		slot19 = slot15:GetRawCommanderIds()
+		slot21 = slot17:GetRawCommanderIds()
 
 		_.each({
 			1,
@@ -148,17 +144,17 @@ slot0.didEnter = function(slot0)
 			end
 		end)
 
-		slot9[slot14] = slot17
+		slot11[slot16] = slot19
 
-		if next(Clone(slot17).ships) then
-			table.insert(slot10, slot18)
+		if next(Clone(slot19).ships) then
+			table.insert(slot12, slot20)
 		end
 	end
 
-	slot11 = 0
-	slot12 = 0
+	slot13 = 0
+	slot14 = 0
 
-	slot13 = function(slot0, slot1, slot2)
+	slot15 = function(slot0, slot1, slot2)
 		UIItemList.StaticAlign(slot0, slot0:GetChild(0), 2, function (slot0, slot1, slot2)
 			if slot0 ~= UIItemList.EventUpdate then
 				return
@@ -183,11 +179,11 @@ slot0.didEnter = function(slot0)
 		end)
 	end
 
-	slot14 = function(slot0, slot1, slot2)
+	slot16 = function(slot0, slot1, slot2)
 		setActive(slot0:Find("result/mvpBG"), slot1 == slot2)
 	end
 
-	slot15 = function(slot0, slot1, slot2, slot3)
+	slot17 = function(slot0, slot1, slot2, slot3)
 		UIItemList.StaticAlign(slot0, slot0:GetChild(0), #slot1, function (slot0, slot1, slot2)
 			if slot0 ~= UIItemList.EventUpdate then
 				return
@@ -234,7 +230,7 @@ slot0.didEnter = function(slot0)
 		end)
 	end
 
-	slot16 = function(slot0, slot1, slot2, slot3, slot4)
+	slot18 = function(slot0, slot1, slot2, slot3, slot4)
 		slot5 = 0
 
 		if not (slot4 and slot4.statistics) then
@@ -291,7 +287,7 @@ slot0.didEnter = function(slot0)
 		end)
 	end
 
-	slot17 = function(slot0, slot1, slot2, slot3)
+	slot19 = function(slot0, slot1, slot2, slot3)
 		slot4 = slot0:Find("Title/Label")
 		slot5 = slot0:Find("Title/Letter")
 		slot6 = {
@@ -345,7 +341,7 @@ slot0.didEnter = function(slot0)
 		uv4(slot0:Find("BG/commanderExp/commander_container"), slot1.oldCmds, slot1.cmds)
 	end
 
-	slot18 = function()
+	slot20 = function()
 		UIItemList.StaticAlign(uv3.resultList, uv3.resultList:GetChild(0), #(uv0 == 1 and uv1 or uv2), function (slot0, slot1, slot2)
 			if slot0 ~= UIItemList.EventUpdate then
 				return
@@ -358,7 +354,7 @@ slot0.didEnter = function(slot0)
 		end)
 	end
 
-	slot19 = function()
+	slot21 = function()
 		UIItemList.StaticAlign(uv3.resultList, uv3.resultList:GetChild(0), #(uv0 == 1 and uv1 or uv2), function (slot0, slot1, slot2)
 			if slot0 ~= UIItemList.EventUpdate then
 				return
@@ -372,7 +368,7 @@ slot0.didEnter = function(slot0)
 		end)
 	end
 
-	setActive(slot0.rightBottomPanel:Find("submarine"), #slot10 > 0)
+	setActive(slot0.rightBottomPanel:Find("submarine"), #slot12 > 0)
 	(function ()
 		setActive(uv0, uv1 == 1)
 		setActive(uv2, uv1 == 0 and #uv3 > 0)
@@ -399,7 +395,7 @@ slot0.didEnter = function(slot0)
 
 		uv1()
 	end, SFX_PANEL)
-	onButton(slot0, slot20, function ()
+	onButton(slot0, slot22, function ()
 		uv0 = 1
 
 		uv1()
@@ -413,17 +409,17 @@ slot0.didEnter = function(slot0)
 		uv0:emit(BossRushBattleResultMediator.ON_SETTLE)
 	end, SFX_PANEL)
 
-	slot24 = slot0._tf:Find("main/Series/ArrowLeft")
-	slot25 = slot0._tf:Find("main/Series/ArrowRight")
+	slot26 = slot0._tf:Find("main/Series/ArrowLeft")
+	slot27 = slot0._tf:Find("main/Series/ArrowRight")
 
 	Canvas.ForceUpdateCanvases()
 
 	if slot0.resultList.rect.width <= slot0.resultScroll.rect.width then
-		setActive(slot24, false)
-		setActive(slot25, false)
+		setActive(slot26, false)
+		setActive(slot27, false)
 	else
-		setActive(slot24, false)
-		setActive(slot25, true)
+		setActive(slot26, false)
+		setActive(slot27, true)
 		onScroll(slot0, slot0.resultScroll, function (slot0)
 			setActive(uv0, slot0.x > 0.01)
 			setActive(uv1, slot0.x < 0.99)

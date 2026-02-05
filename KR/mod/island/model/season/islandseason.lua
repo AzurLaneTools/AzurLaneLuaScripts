@@ -18,6 +18,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.localTipKey = uv0.RESET_TIP_KEY .. "_" .. getProxy(PlayerProxy):getRawData().id .. "_" .. slot0.id
 end
 
+slot0.IsEnd = function(slot0)
+	return slot0.endTime <= pg.TimeMgr.GetInstance():GetServerTime()
+end
+
 slot0.bindConfigTable = function(slot0)
 	return pg.island_season
 end

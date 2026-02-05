@@ -928,16 +928,18 @@ slot0.GetSpItems = function(slot0)
 	slot1 = {}
 	slot2 = getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET)
 
-	if slot0:getConfig("special_operation_list") and #slot3 == 0 then
+	if not noEmptyStr(slot0:getConfig("special_operation_list")) or not next(slot3) then
 		return slot1
 	end
 
-	for slot7, slot8 in ipairs(pg.benefit_buff_template.all) do
-		if pg.benefit_buff_template[slot8].benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot3, slot9.id) then
-			slot10 = tonumber(slot9.benefit_condition)
+	for slot7, slot8 in ipairs(slot3) do
+		if pg.benefit_buff_template[slot8] and slot9.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC then
+			slot10 = ActivityBuff.GetBenefitCondition(slot9.benefit_condition)
 
 			for slot14, slot15 in ipairs(slot2) do
-				if slot10 == slot15.configId then
+				assert(slot10[1] == "item")
+
+				if slot10[2] == slot15.configId then
 					table.insert(slot1, slot15)
 
 					break
@@ -950,8 +952,10 @@ slot0.GetSpItems = function(slot0)
 end
 
 slot0.GetSPBuffByItem = function(slot0)
-	for slot4, slot5 in ipairs(pg.benefit_buff_template.all) do
-		if pg.benefit_buff_template[slot5].benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and tonumber(slot6.benefit_condition) == slot0 then
+	for slot4, slot5 in ipairs(pg.benefit_buff_template.get_id_list_by_benefit_type[Chapter.OPERATION_BUFF_TYPE_DESC]) do
+		assert(ActivityBuff.GetBenefitCondition(pg.benefit_buff_template[slot5].benefit_condition)[1] == "item")
+
+		if slot7[2] == slot0 then
 			return slot6.id
 		end
 	end

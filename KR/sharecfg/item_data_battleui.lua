@@ -163,6 +163,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[113] = {
+		name = "古代王朝",
+		key = "SkinNormal_20260129",
+		display_icon = "ui_113",
+		unlock = "특허 투어 패스 27기 보상",
+		is_unlock = 1,
+		rare = 3,
+		desc = "古老的石柱在界面中矗立，斑驳的纹路诉说着失落的秩序，让战斗也染上穿越时空的肃穆与苍凉。",
+		id = 113,
+		icon = "113",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "크리스마스",
 		key = "SkinNormal_20241209",
@@ -277,6 +292,7 @@ pg.item_data_battleui = {
 		108,
 		109,
 		111,
+		113,
 		201,
 		202,
 		203,

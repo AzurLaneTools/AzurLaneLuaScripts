@@ -4800,7 +4800,8 @@ pg.base.island_interaction = {
 		id = 5801,
 		icon = 5,
 		param = {
-			"IslandSeasonPage"
+			"IslandSeasonPage",
+			{}
 		},
 		show_condition = {
 			{

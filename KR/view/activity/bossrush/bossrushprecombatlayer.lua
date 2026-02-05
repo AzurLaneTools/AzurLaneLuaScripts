@@ -556,16 +556,12 @@ slot0.displayFleetInfo = function(slot0)
 		setActive(slot2:Find("Image"), slot3)
 	end)
 
-	slot9 = slot0.contextData.fleets
-	slot10 = slot9[#slot9]
-	slot11 = _.slice(slot9, 1, #slot9 - 1)
-	slot12 = slot0.contextData.mode
-	slot15 = (function ()
+	slot9 = slot0.contextData.seriesData.mode
+	slot11 = table.remove(underscore.to_array(slot0.contextData.fleets))
+	slot14 = (function ()
 		slot0 = 0
-		slot2 = uv1:GetOilLimit()
 		slot3 = pg.battle_cost_template[uv0].oil_cost > 0
-
-		slot4 = function(slot0, slot1)
+		slot0 = (function (slot0, slot1)
 			slot2 = 0
 
 			if uv0 then
@@ -577,29 +573,19 @@ slot0.displayFleetInfo = function(slot0)
 			end
 
 			return slot2
-		end
+		end)(uv3, uv1:GetOilLimit()[2]) * #uv1:GetExpeditionIds()
 
-		slot5 = #uv1:GetExpeditionIds()
-
-		if uv3 == BossRushSeriesData.MODE.SINGLE then
-			slot0 = (slot0 + slot4(uv4[1], slot2[1]) + slot4(uv5, slot2[2])) * slot5
-		else
-			slot0 = slot4(uv5, slot2[2]) * slot5
-
-			_.each(uv4, function (slot0)
-				uv0 = uv0 + uv1(slot0, uv2[1])
-			end)
+		for slot9 = 1, slot5 do
+			slot0 = slot0 + slot4(uv4[slot9] or uv4[1], slot2[1])
 		end
 
 		return slot0
 	end)()
 
-	slot16 = function()
+	slot15 = function()
 		slot0 = 0
-		slot2 = uv1:GetOilLimit()
 		slot3 = pg.battle_cost_template[uv0].oil_cost > 0
-
-		slot4 = function(slot0, slot1)
+		slot0 = (function (slot0, slot1)
 			slot2 = 0
 
 			if uv0 then
@@ -607,33 +593,25 @@ slot0.displayFleetInfo = function(slot0)
 			end
 
 			return slot2
-		end
+		end)(uv2, uv1:GetOilLimit()[2]) * #uv1:GetExpeditionIds()
 
-		slot5 = #uv1:GetExpeditionIds()
-
-		if uv2 == BossRushSeriesData.MODE.SINGLE then
-			slot0 = (slot0 + slot4(uv3[1], slot2[1]) + slot4(uv4, slot2[2])) * slot5
-		else
-			slot0 = slot4(uv4, slot2[2]) * slot5
-
-			_.each(uv3, function (slot0)
-				uv0 = uv0 + uv1(slot0, uv2[1])
-			end)
+		for slot9 = 1, slot5 do
+			slot0 = slot0 + slot4(uv3[slot9] or uv3[1], slot2[1])
 		end
 
 		return slot0
 	end
 
-	slot17 = 0
+	slot16 = 0
 
 	if false then
-		slot17 = slot16()
+		slot16 = slot15()
 	end
 
-	uv0.tweenNumText(slot0._costText, slot15)
-	setActive(slot0._costTip, slot13)
+	uv0.tweenNumText(slot0._costText, slot14)
+	setActive(slot0._costTip, slot12)
 
-	if slot13 then
+	if slot12 then
 		onButton(slot0, slot0._costTip, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,

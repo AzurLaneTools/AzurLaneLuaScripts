@@ -704,6 +704,15 @@ slot0.readyToAchieve = function(slot0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_PT_HEI5] = function (slot0)
 			return #slot0:GetHei5UnreceiveAward() > 0
+		end,
+		[ActivityConst.ACTIVITY_TYPE_TownSkinStory] = function (slot0)
+			slot1 = pg.NewStoryMgr.GetInstance()
+
+			if slot0.data1 > 0 and underscore.any(slot0:GetConfigClientSetting("story"), function (slot0)
+				return not uv0:IsPlayed(slot0[1])
+			end) then
+				return true
+			end
 		end
 	}
 

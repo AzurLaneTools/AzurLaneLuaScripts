@@ -8,9 +8,10 @@ pg.soundstory_template = {
 		audition_resource_CN = "ss-50601-1",
 		CV_JP = "이와미 마나카",
 		audition_resource_JP = "ss-50601-2",
-		overview = "두 사람만의 평온한 다실. 평소에 피로를 풀어주는 무릎배게뿐만 아니라, 조금 특별한 방법도…",
+		overview = "두 사람만의 평온한 다실. 평소에 피로를 풀어주는 무릎베개뿐만 아니라, 조금 특별한 방법도…",
 		order = 2,
 		audition_text = "오늘은 통째로 빌렸답니다. 모처럼이니, 천천히 쉬다가 가시는 건 어떠신지요?",
+		time = "always",
 		ship_id = 50601,
 		id = 1,
 		captions_color = "#4a383e",
@@ -24,33 +25,6 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -454,15 +428,15 @@ pg.soundstory_template = {
 	},
 	{
 		story_pic = "",
-		name = "심취여음",
+		name = "행간의 여운에 취해",
 		story_resource_JP = "soundStory11_JP",
 		story_resource_CN = "",
 		audition_resource_CN = "",
 		CV_JP = "미모리 스즈코",
 		audition_resource_JP = "ss-30319-1",
-		overview = "도서관에서 우연히 독서 중인 운젠과 만난 당신. 함께 책을 음미하던 중, 운젠의 낭독소리로 분위기는 점점 이상해지는데――",
+		overview = "도서관에서 우연히 독서 중이던 운젠과 마주친 당신. 함께 독서를 음미하며 시간을 보내는 사이, 운젠이 읽어주는 목소리에 분위기는 점점 묘하게 변해 가는데――",
 		order = 1,
-		audition_text = "네? 운젠의 목소리에… 취할 것 같다…? 마치… 달콤한 이슬과도 같다니…",
+		audition_text = "운젠의 목소리에… 취할 것 같다…고요? 마치… 달콤한 이슬 같다니……",
 		ship_id = 30319,
 		id = 11,
 		captions_color = "#544196",
@@ -481,21 +455,21 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					5,
-					9
+					2026,
+					2,
+					5
 				},
 				{
-					0,
+					12,
 					0,
 					0
 				}
 			},
 			{
 				{
-					2024,
-					5,
-					15
+					2026,
+					2,
+					11
 				},
 				{
 					23,
@@ -1327,6 +1301,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "다정한 숙면 시간",
+		story_resource_JP = "soundStory28_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "오오키 사에코",
+		audition_resource_JP = "ss-40211-1",
+		overview = "그간 쌓인 피로로 책상에 엎드린 채 잠들어 버린 지휘관. 희미한 의식 속에서, 뒤스부르크가 다가왔다는 걸 알아차리고…\n부드러운 목소리에 이끌려, 다시 꿈속으로 여행을 떠난다……",
+		order = 2,
+		audition_text = "이대로… 계속 곁에서 속삭여 줘…",
+		ship_id = 40211,
+		id = 28,
+		captions_color = "#302c2c",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1354,6 +1381,7 @@ pg.soundstory_template = {
 		24,
 		25,
 		26,
-		27
+		27,
+		28
 	}
 }

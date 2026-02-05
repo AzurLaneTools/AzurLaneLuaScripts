@@ -2011,6 +2011,348 @@ pg.activity_series_enemy = {
 			16
 		}
 	},
+	[5001] = {
+		oil = 0,
+		name = "나비춤의 약속",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "이지",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = [[
+낭만적이고 가벼운 비단이
+달콤한 밀회를 그려내고
+리본 위의 나비는
+속박과 자유 사이를 유유히 날아오른다.]],
+		whether_singlefight = 0,
+		id = 5001,
+		limitation = {},
+		expedition_id = {
+			1999101
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				40
+			},
+			{
+				2,
+				200676,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[5002] = {
+		oil = 0,
+		name = "포근한 벨벳 판타지",
+		type = 1,
+		pre_chapter = 5001,
+		chapter_name = "노멀",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+포근함이 흘러내려
+서로 얽히고 끌어안으며
+따뜻한 환경 속에서
+다정함으로 새로운 세상을 만들어 낸다.]],
+		whether_singlefight = 1,
+		id = 5002,
+		limitation = {},
+		expedition_id = {
+			1999201,
+			1999202
+		},
+		boss_icon = {
+			{
+				"alabama_3",
+				5
+			},
+			{
+				"wugelini_2",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				140
+			},
+			{
+				2,
+				200675,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				616,
+				25
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[5003] = {
+		oil = 0,
+		name = "마음의 창",
+		type = 1,
+		pre_chapter = 5002,
+		chapter_name = "하드",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+실로 엮은 약속이
+숨결마다 잔잔히 물결치고
+흐르는 선들이 흰 장막을 가르며
+마음의 창으로 빛을 스며들게 한다.]],
+		whether_singlefight = 1,
+		id = 5003,
+		limitation = {},
+		expedition_id = {
+			1999301,
+			1999302,
+			1999303
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			},
+			{
+				"gaoxiong_7",
+				3
+			},
+			{
+				"fulangxisike_2",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				360
+			},
+			{
+				2,
+				200674,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				616,
+				60
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	},
+	[5004] = {
+		oil = 0,
+		name = "순백의 마음",
+		type = 2,
+		pre_chapter = 5003,
+		chapter_name = "S.P",
+		pos_x = "0",
+		pos_y = "0",
+		count = 1,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = [[
+달빛 어린 비단이 나부끼고
+진주의 광채가 반짝인다.
+살짝 드러난 천의 틈새로
+순수와 유혹의 선율이 흘러나온다.]],
+		whether_singlefight = 0,
+		id = 5004,
+		limitation = {},
+		expedition_id = {
+			1999401,
+			1999402,
+			1999403,
+			1999404
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			},
+			{
+				"wugelini_2",
+				1
+			},
+			{
+				"fulangxisike_2",
+				5
+			},
+			{
+				"alabama_3",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				616,
+				800
+			},
+			{
+				2,
+				200673,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54016,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			40,
+			16
+		}
+	},
+	[5005] = {
+		oil = 0,
+		name = "깊은 밤의 속삭임",
+		type = 3,
+		pre_chapter = 5004,
+		chapter_name = "E.X",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		additional_awards_display = "",
+		profiles = [[
+베일이 어둠 속에 잠기고
+이글거리는 무늬가 얽혀든다.
+고요한 밤, 속삭임이 흔들린다.
+스스로를 억누를까? 모든 것을 맡길까?]],
+		pass_awards_display = "",
+		whether_singlefight = 0,
+		id = 5005,
+		limitation = {},
+		expedition_id = {
+			1999501,
+			1999502,
+			1999503,
+			1999504,
+			1999505
+		},
+		boss_icon = {
+			{
+				"aerbeituo_2",
+				2
+			},
+			{
+				"wugelini_2",
+				1
+			},
+			{
+				"fulangxisike_2",
+				5
+			},
+			{
+				"alabama_3",
+				5
+			},
+			{
+				"gaoxiong_7",
+				3
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		},
+		ex_count = {
+			8000,
+			20,
+			0.2,
+			1000,
+			0.8
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -2038,6 +2380,11 @@ pg.activity_series_enemy = {
 		4041,
 		4042,
 		4051,
-		4052
+		4052,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005
 	}
 }

@@ -715,6 +715,10 @@ slot20 = function(slot0, slot1)
 		slot0:changeParamaterValue("Paramring", 0)
 	end
 
+	if HXSet.isHx() then
+		slot0:changeParamaterValue("l2d_hx", 1)
+	end
+
 	if not slot0._physics then
 		slot0._physics = GetComponent(slot0._tf, "CubismPhysicsController")
 	end

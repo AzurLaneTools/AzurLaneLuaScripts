@@ -1895,5 +1895,17 @@ pg.voice_actor_CN = {
 	[493] = {
 		actor_name = "우메자와 메구",
 		code = 493
+	},
+	[494] = {
+		actor_name = "히가시우치 마리코",
+		code = 494
+	},
+	[495] = {
+		actor_name = "마츠나가 아카네",
+		code = 495
+	},
+	[496] = {
+		actor_name = "나가무타 모에",
+		code = 496
 	}
 }

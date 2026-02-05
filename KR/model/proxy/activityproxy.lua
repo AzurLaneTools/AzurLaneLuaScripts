@@ -411,7 +411,19 @@ slot0.getPanelActivities = function(slot0)
 			if slot1 == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
 				slot2 = slot0.data2 == 0
 			elseif slot1 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
-				slot2 = slot0.data1 < 7 or not slot0.achieved
+				if slot0.data1 >= 7 then
+					slot2 = not slot0.achieved
+
+					if not slot0.achieved then
+						slot2 = false
+
+						if false then
+							slot2 = true
+						end
+					end
+				end
+			elseif slot1 == ActivityConst.ACTIVITY_TYPE_SURVEY then
+				slot2 = PLATFORM ~= PLATFORM_OPENHARMONY
 			end
 		end
 
