@@ -381,10 +381,58 @@ slot0.OnTaskAdd = function(slot0)
 	slot0:NotifiyCore(ISLAND_EVT.REFRESH_TASK_HUD_INFO)
 end
 
-slot0.OnFinishTask = function(slot0)
+slot0.OnFinishTask = function(slot0, slot1)
 	slot0.visibilityAllocator:Flush()
 	slot0:NotifiyCore(ISLAND_EVT.REFRESH_INTERACTION)
 	slot0:NotifiyCore(ISLAND_EVT.REFRESH_TASK_HUD_INFO)
+	slot0:CheckFinishTask(slot1, IslandTaskType.DAILY, "daily_task_follow_action")
+	slot0:CheckFinishTask(slot1, IslandTaskType.WEEKLY, "weekly_task_follow_action")
+end
+
+slot1 = function(slot0)
+	if #slot0 == 0 then
+		return nil
+	end
+
+	return slot0[math.random(1, #slot0)]
+end
+
+slot0.CheckFinishTask = function(slot0, slot1, slot2, slot3)
+	if IslandTask.New({
+		id = slot1,
+		process_list = {}
+	}):GetType() ~= slot2 then
+		return
+	end
+
+	if not pg.island_set[slot3] then
+		return
+	end
+
+	slot6 = slot5 and (slot5.key_value_varchar or {}) or {}
+
+	for slot12, slot13 in ipairs(slot0:GetSelfIsland():GetTaskAgency():GetTasks()) do
+		if slot13:GetType() == slot2 then
+			return
+		end
+	end
+
+	slot9 = false
+
+	for slot14, slot15 in ipairs(slot7:GetFinishedIds()) do
+		if IslandTask.New({
+			id = slot15,
+			process_list = {}
+		}):GetType() == slot2 then
+			slot9 = true
+
+			break
+		end
+	end
+
+	if slot9 then
+		slot0:NotifiyCore(ISLAND_EVT.ALL_DAILY_OR_WEEKLY_FINISH, uv0(slot6))
+	end
 end
 
 slot0.OnUpdateTask = function(slot0)

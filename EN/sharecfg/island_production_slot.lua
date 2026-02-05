@@ -811,15 +811,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1102] = {
 		unlock_type = 0,
@@ -840,15 +832,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1103] = {
 		unlock_type = 0,
@@ -869,15 +853,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1104] = {
 		unlock_type = 0,
@@ -898,15 +874,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1105] = {
 		unlock_type = 1,
@@ -927,15 +895,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1106] = {
 		unlock_type = 1,
@@ -956,15 +916,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1107] = {
 		unlock_type = 1,
@@ -985,15 +937,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1108] = {
 		unlock_type = 1,
@@ -1014,15 +958,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1109] = {
 		unlock_type = 1,
@@ -1043,15 +979,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1110] = {
 		unlock_type = 1,
@@ -1072,15 +1000,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1111] = {
 		unlock_type = 1,
@@ -1101,15 +1021,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1112] = {
 		unlock_type = 1,
@@ -1130,15 +1042,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1113] = {
 		unlock_type = 1,
@@ -1159,15 +1063,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1114] = {
 		unlock_type = 1,
@@ -1188,15 +1084,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1115] = {
 		unlock_type = 1,
@@ -1217,15 +1105,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1116] = {
 		unlock_type = 1,
@@ -1246,15 +1126,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[1201] = {
 		unlock_type = 0,
@@ -1275,7 +1147,15 @@ pg.island_production_slot = {
 			502006,
 			502007
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990008,
+				{
+					9900009,
+					9900010
+				}
+			}
+		}
 	},
 	[1202] = {
 		unlock_type = 0,
@@ -1296,7 +1176,15 @@ pg.island_production_slot = {
 			502006,
 			502007
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990008,
+				{
+					9900009,
+					9900010
+				}
+			}
+		}
 	},
 	[1203] = {
 		unlock_type = 1,
@@ -1317,7 +1205,15 @@ pg.island_production_slot = {
 			502006,
 			502007
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990008,
+				{
+					9900009,
+					9900010
+				}
+			}
+		}
 	},
 	[1204] = {
 		unlock_type = 1,
@@ -1338,7 +1234,15 @@ pg.island_production_slot = {
 			502006,
 			502007
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990008,
+				{
+					9900009,
+					9900010
+				}
+			}
+		}
 	},
 	[1205] = {
 		unlock_type = 1,
@@ -1359,7 +1263,15 @@ pg.island_production_slot = {
 			502006,
 			502007
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990008,
+				{
+					9900009,
+					9900010
+				}
+			}
+		}
 	},
 	[1206] = {
 		unlock_type = 1,
@@ -1380,7 +1292,15 @@ pg.island_production_slot = {
 			502006,
 			502007
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990008,
+				{
+					9900009,
+					9900010
+				}
+			}
+		}
 	},
 	[2001] = {
 		exclusion_slot = "",
@@ -2046,15 +1966,18 @@ pg.island_production_slot = {
 			601003,
 			601004,
 			601005,
+			601006,
+			601007,
+			601008,
 			601101,
 			601102
 		},
 		activity_formula = {
 			{
-				990004,
+				990008,
 				{
-					9900003,
-					9900004
+					9900013,
+					9900014
 				}
 			}
 		}
@@ -2073,15 +1996,18 @@ pg.island_production_slot = {
 			601003,
 			601004,
 			601005,
+			601006,
+			601007,
+			601008,
 			601101,
 			601102
 		},
 		activity_formula = {
 			{
-				990004,
+				990008,
 				{
-					9900003,
-					9900004
+					9900013,
+					9900014
 				}
 			}
 		}
@@ -2107,10 +2033,10 @@ pg.island_production_slot = {
 		},
 		activity_formula = {
 			{
-				990004,
+				990008,
 				{
-					9900007,
-					9900008
+					9900011,
+					9900012
 				}
 			}
 		}
@@ -2136,10 +2062,10 @@ pg.island_production_slot = {
 		},
 		activity_formula = {
 			{
-				990004,
+				990008,
 				{
-					9900007,
-					9900008
+					9900011,
+					9900012
 				}
 			}
 		}
@@ -2159,6 +2085,7 @@ pg.island_production_slot = {
 			603004,
 			603005,
 			603006,
+			603007,
 			603101,
 			603102,
 			603103
@@ -2180,6 +2107,7 @@ pg.island_production_slot = {
 			603004,
 			603005,
 			603006,
+			603007,
 			603101,
 			603102,
 			603103
@@ -2200,6 +2128,8 @@ pg.island_production_slot = {
 			604004,
 			604005,
 			604006,
+			604007,
+			604008,
 			604101,
 			604102
 		},
@@ -2219,6 +2149,8 @@ pg.island_production_slot = {
 			604004,
 			604005,
 			604006,
+			604007,
+			604008,
 			604101,
 			604102
 		},
@@ -2246,15 +2178,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[9102] = {
 		unlock_type = 1,
@@ -2278,15 +2202,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[9103] = {
 		unlock_type = 1,
@@ -2310,15 +2226,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[9104] = {
 		unlock_type = 1,
@@ -2342,15 +2250,7 @@ pg.island_production_slot = {
 			501006,
 			501007
 		},
-		activity_formula = {
-			{
-				990004,
-				{
-					9900001,
-					9900002
-				}
-			}
-		}
+		activity_formula = {}
 	},
 	[9111] = {
 		unlock_type = 1,
@@ -2373,7 +2273,15 @@ pg.island_production_slot = {
 			502006,
 			502007
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990008,
+				{
+					9900009,
+					9900010
+				}
+			}
+		}
 	},
 	[9112] = {
 		unlock_type = 1,
@@ -2396,7 +2304,15 @@ pg.island_production_slot = {
 			502006,
 			502007
 		},
-		activity_formula = {}
+		activity_formula = {
+			{
+				990008,
+				{
+					9900009,
+					9900010
+				}
+			}
+		}
 	},
 	[9201] = {
 		exclusion_slot = "",
@@ -2411,7 +2327,8 @@ pg.island_production_slot = {
 			701015,
 			701016,
 			701017,
-			701018
+			701018,
+			701023
 		},
 		activity_formula = {}
 	},
@@ -2428,7 +2345,8 @@ pg.island_production_slot = {
 			701015,
 			701016,
 			701017,
-			701018
+			701018,
+			701023
 		},
 		activity_formula = {}
 	},
@@ -2519,10 +2437,10 @@ pg.island_production_slot = {
 		},
 		activity_formula = {
 			{
-				990004,
+				990008,
 				{
-					9900005,
-					9900006
+					9900015,
+					9900016
 				}
 			}
 		}
@@ -2546,13 +2464,97 @@ pg.island_production_slot = {
 		},
 		activity_formula = {
 			{
-				990004,
+				990008,
 				{
-					9900005,
-					9900006
+					9900015,
+					9900016
 				}
 			}
 		}
+	},
+	[9211] = {
+		exclusion_slot = "",
+		unlock_type = 0,
+		type = 9,
+		place = 201,
+		animal = "",
+		id = 9211,
+		attribute = 3,
+		formula = {
+			201001,
+			201002,
+			201003,
+			201004,
+			201005,
+			201006,
+			201007,
+			201008,
+			201101,
+			201102,
+			201103,
+			201104,
+			201105,
+			201106,
+			201107,
+			201108
+		},
+		activity_formula = {}
+	},
+	[9212] = {
+		exclusion_slot = "",
+		unlock_type = 1,
+		type = 9,
+		place = 201,
+		animal = "",
+		id = 9212,
+		attribute = 3,
+		formula = {
+			201001,
+			201002,
+			201003,
+			201004,
+			201005,
+			201006,
+			201007,
+			201008,
+			201101,
+			201102,
+			201103,
+			201104,
+			201105,
+			201106,
+			201107,
+			201108
+		},
+		activity_formula = {}
+	},
+	[9213] = {
+		exclusion_slot = "",
+		unlock_type = 1,
+		type = 9,
+		place = 201,
+		animal = "",
+		id = 9213,
+		attribute = 3,
+		formula = {
+			201001,
+			201002,
+			201003,
+			201004,
+			201005,
+			201006,
+			201007,
+			201008,
+			201101,
+			201102,
+			201103,
+			201104,
+			201105,
+			201106,
+			201107,
+			201108
+		},
+		activity_formula = {}
 	},
 	[70201] = {
 		exclusion_slot = "",
@@ -2588,6 +2590,7 @@ pg.island_production_slot = {
 			7120004,
 			7120005,
 			7120006,
+			7120007,
 			7100301,
 			7100302,
 			7100303,
@@ -2679,6 +2682,18 @@ pg.island_production_slot = {
 			7440304,
 			7450301,
 			7450302,
+			7460001,
+			7460002,
+			7460101,
+			7460301,
+			7460102,
+			7460302,
+			7460201,
+			7460202,
+			7460203,
+			7460204,
+			7460205,
+			7460206,
 			7500211,
 			7500212,
 			7500213,
@@ -2733,6 +2748,7 @@ pg.island_production_slot = {
 			7630202,
 			7630203,
 			7630204,
+			7630205,
 			7640001,
 			7640101,
 			7640201,
@@ -2790,6 +2806,7 @@ pg.island_production_slot = {
 			7120004,
 			7120005,
 			7120006,
+			7120007,
 			7100301,
 			7100302,
 			7100303,
@@ -2881,6 +2898,18 @@ pg.island_production_slot = {
 			7440304,
 			7450301,
 			7450302,
+			7460001,
+			7460002,
+			7460101,
+			7460301,
+			7460102,
+			7460302,
+			7460201,
+			7460202,
+			7460203,
+			7460204,
+			7460205,
+			7460206,
 			7500211,
 			7500212,
 			7500213,
@@ -2935,6 +2964,7 @@ pg.island_production_slot = {
 			7630202,
 			7630203,
 			7630204,
+			7630205,
 			7640001,
 			7640101,
 			7640201,
@@ -3107,6 +3137,11 @@ pg.island_production_slot = {
 			9207,
 			9208
 		},
+		[201] = {
+			9211,
+			9212,
+			9213
+		},
 		[702] = {
 			70201,
 			70202
@@ -3231,6 +3266,9 @@ pg.island_production_slot = {
 		9206,
 		9207,
 		9208,
+		9211,
+		9212,
+		9213,
 		70201,
 		70202
 	}

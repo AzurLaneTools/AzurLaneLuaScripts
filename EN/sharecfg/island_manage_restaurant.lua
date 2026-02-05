@@ -3,11 +3,12 @@ pg.island_manage_restaurant = {
 	[601] = {
 		name_en = "Golden Koi Restaurant",
 		opening_time = 28800,
-		name = "Golden Koi Restaurant",
+		aera_group = 1,
 		opening_number = 1,
 		performance_param = "island/item/01/10014/prefab/pre_item_01_10014",
 		ability_id = 17003,
 		map_id = 1006,
+		name = "Golden Koi Restaurant",
 		id = 601,
 		icon = "liaolidian",
 		item_id = {
@@ -32,12 +33,32 @@ pg.island_manage_restaurant = {
 				601005
 			},
 			{
+				3114,
+				601006
+			},
+			{
+				3116,
+				601007
+			},
+			{
+				3120,
+				601008
+			},
+			{
 				3101,
 				601101
 			},
 			{
 				3102,
 				601102
+			},
+			{
+				4025,
+				9900013
+			},
+			{
+				4026,
+				9900014
 			}
 		},
 		assistant_slot = {
@@ -58,11 +79,12 @@ pg.island_manage_restaurant = {
 	[602] = {
 		name_en = "Polar Bear Teahouse",
 		opening_time = 28800,
-		name = "Polar Bear Teahouse",
+		aera_group = 1,
 		opening_number = 1,
 		performance_param = "island/item/01/10014/prefab/pre_item_01_10014",
 		ability_id = 17004,
 		map_id = 1006,
+		name = "Polar Bear Teahouse",
 		id = 602,
 		icon = "naichadian",
 		item_id = {
@@ -101,6 +123,14 @@ pg.island_manage_restaurant = {
 			{
 				3105,
 				602103
+			},
+			{
+				4023,
+				9900011
+			},
+			{
+				4024,
+				9900012
 			}
 		},
 		assistant_slot = {
@@ -121,11 +151,12 @@ pg.island_manage_restaurant = {
 	[603] = {
 		name_en = "Manjuu Eatery",
 		opening_time = 28800,
-		name = "Manjuu Eatery",
+		aera_group = 1,
 		opening_number = 1,
 		performance_param = "island/item/01/10014/prefab/pre_item_01_10014",
 		ability_id = 17005,
 		map_id = 1006,
+		name = "Manjuu Eatery",
 		id = 603,
 		icon = "naichadian",
 		item_id = {
@@ -164,6 +195,10 @@ pg.island_manage_restaurant = {
 			{
 				3108,
 				603103
+			},
+			{
+				3118,
+				603007
 			}
 		},
 		assistant_slot = {
@@ -184,11 +219,12 @@ pg.island_manage_restaurant = {
 	[604] = {
 		name_en = "Fin-'n'-Feather Grill",
 		opening_time = 28800,
-		name = "Fin-'n'-Feather Grill",
+		aera_group = 1,
 		opening_number = 1,
 		performance_param = "island/item/01/10014/prefab/pre_item_01_10014",
 		ability_id = 17006,
 		map_id = 1006,
+		name = "Fin-'n'-Feather Grill",
 		id = 604,
 		icon = "naichadian",
 		item_id = {
@@ -219,6 +255,14 @@ pg.island_manage_restaurant = {
 			{
 				3110,
 				604102
+			},
+			{
+				3115,
+				604007
+			},
+			{
+				3119,
+				604008
 			}
 		},
 		assistant_slot = {
@@ -239,11 +283,12 @@ pg.island_manage_restaurant = {
 	[901] = {
 		name_en = "Café Manjuu",
 		opening_time = 28800,
-		name = "Café Manjuu",
+		aera_group = 2,
 		opening_number = 1,
 		performance_param = "island/item/01/10014/prefab/pre_item_01_10014",
 		ability_id = 17002,
 		map_id = 1009,
+		name = "Café Manjuu",
 		id = 901,
 		icon = "kafeiguan",
 		item_id = {

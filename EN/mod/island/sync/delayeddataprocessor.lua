@@ -31,7 +31,11 @@ slot0.Update = function(slot0)
 
 	for slot5, slot6 in pairs(slot0.delayedDataDic) do
 		if #slot6 > 0 and slot6[1].timeStamp <= slot1 then
-			slot0.func(slot6[1].data)
+			xpcall(function ()
+				uv0.func(uv1[1].data)
+			end, function (...)
+				errorMsg(debug.traceback(...))
+			end)
 			table.remove(slot6, 1)
 		end
 	end

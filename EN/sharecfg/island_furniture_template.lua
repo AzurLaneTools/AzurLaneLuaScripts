@@ -517,7 +517,38 @@ pg.island_furniture_template = {
 			2,
 			2
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"秋季特产经营",
+				{}
+			}
+		}
+	},
+	[101] = {
+		setNum = 1,
+		describe = "The three hyacinths bloom together in a bunch, their petals transparent almost like they were sculpted from glass. You can smell a pure fragrance emitting from the trophy.",
+		name = "Spring Development Trophy",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_101",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50281/prefab/pre_item_05_50281",
+		bt = "",
+		id = 101,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Spring Specialties",
+				{}
+			}
+		}
 	},
 	[10101] = {
 		setNum = 1,
@@ -2020,6 +2051,938 @@ pg.island_furniture_template = {
 			}
 		}
 	},
+	[30001] = {
+		setNum = 999,
+		describe = "A traditional stone courtyard lamp that casts warm light across garden paths, creating calmness and tranquility that melts into the evening.",
+		name = "Warm-Hue Stone Pole Lamp",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30001",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50218/prefab/pre_item_05_50218",
+		bt = "",
+		id = 30001,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	},
+	[30002] = {
+		setNum = 999,
+		describe = "A traditional stone courtyard lamp that casts warm light across garden paths, creating calmness and tranquility that melts into the evening.",
+		name = "Warm-Hue Stone Pole Lamp (Medium)",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30002",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50222/prefab/pre_item_05_50222",
+		bt = "",
+		id = 30002,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30003] = {
+		setNum = 999,
+		describe = "This adorable rabbit-themed night light is good for more than just decoration; it also emits a gentle light.",
+		name = "Bunnyrific Night Light",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30003",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50220/prefab/pre_item_05_50220",
+		bt = "",
+		id = 30003,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	},
+	[30004] = {
+		setNum = 999,
+		describe = "A traditional decoration that provides soft area lighting, accenting the tranquility of the night.",
+		name = "Courtyard Paper Lantern",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30004",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50219/prefab/pre_item_05_50219",
+		bt = "",
+		id = 30004,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30005] = {
+		setNum = 999,
+		describe = "A simple arched wooden bridge spanning a pond in the courtyard.",
+		name = "Autumn-Leaf Bridge",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30005",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50213/prefab/pre_item_05_50213",
+		bt = "",
+		id = 30005,
+		tech_id = 0,
+		size = {
+			5,
+			4
+		},
+		jump_page = {}
+	},
+	[30006] = {
+		setNum = 999,
+		describe = "Garden railing made of sturdy stone. It is cool to the touch.",
+		name = "Stone Railing",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30006",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50268/prefab/pre_item_05_50268",
+		bt = "",
+		id = 30006,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Island Milestone Points",
+				{}
+			}
+		}
+	},
+	[30007] = {
+		setNum = 999,
+		describe = "An iron fence decorated with a floral pattern, providing safety with style.",
+		name = "Iron Fence",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30007",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50269/prefab/pre_item_05_50269",
+		bt = "",
+		id = 30007,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Island Milestone Points",
+				{}
+			}
+		}
+	},
+	[30008] = {
+		setNum = 999,
+		describe = "Trees provide the atmosphere for the garden, always verdant even through the changing seasons.",
+		name = "Spruce Tree",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30008",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50272/prefab/pre_item_05_50272",
+		bt = "",
+		id = 30008,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Island Milestone Points",
+				{}
+			}
+		}
+	},
+	[30009] = {
+		setNum = 999,
+		describe = "A variety of landscape trees carefully pruned into sophisticated shapes.",
+		name = "Ambient Tree",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30009",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50274/prefab/pre_item_05_50274",
+		bt = "",
+		id = 30009,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Island Milestone Points",
+				{}
+			}
+		}
+	},
+	[30010] = {
+		setNum = 999,
+		describe = "Lovely light-blue, star-shaped flowers, perfect for adding a splash of color to a flowerbed's edge or for accenting the garden's perimeters.",
+		name = "Bluestar Flower",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30010",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50275/prefab/pre_item_05_50275",
+		bt = "",
+		id = 30010,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Island Milestone Points",
+				{}
+			}
+		}
+	},
+	[30101] = {
+		setNum = 1,
+		describe = "A courtyard-style building that blends seamlessly with the garden, providing a space perfect for relaxation and enjoying the flowers.",
+		name = "Tranquil Garden",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_30101",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50252/prefab/pre_item_05_50252",
+		bt = "",
+		id = 30101,
+		tech_id = 0,
+		size = {
+			22,
+			22
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30201] = {
+		setNum = 1,
+		describe = "Sunlight streams through the glass roof, and the colors of the seasons quietly bloom.",
+		name = "Glass Conservatory",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_30201",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50251/prefab/pre_item_05_50251",
+		bt = "island/nodecanvas/agora/agora_hide",
+		id = 30201,
+		tech_id = 0,
+		size = {
+			20,
+			20
+		},
+		interact_point = {
+			14,
+			15
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30301] = {
+		setNum = 999,
+		describe = "Tea set at the ready. Let us welcome our afternoon teatime!",
+		name = "Afternoon Gazebo",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30301",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50277/prefab/pre_item_05_50277",
+		bt = "",
+		id = 30301,
+		tech_id = 0,
+		size = {
+			6,
+			6
+		},
+		interact_point = {
+			16
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30302] = {
+		setNum = 999,
+		describe = "Legend has it that a shooting star will appear if you stand atop the bridge and make a wish!",
+		name = "Starwisher Bridge",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30302",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50256/prefab/pre_item_05_50256",
+		bt = "",
+		id = 30302,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30303] = {
+		setNum = 999,
+		describe = "An archway, trimmed from verdant greenery, topped with a classical chandelier to illuminate the garden entrance.",
+		name = "Flower Garden Arch",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30303",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50265/prefab/pre_item_05_50265",
+		bt = "",
+		id = 30303,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30304] = {
+		setNum = 999,
+		describe = "A beautiful world open to all!",
+		name = "Flower Garden Gate",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30304",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50266/prefab/pre_item_05_50266",
+		bt = "",
+		id = 30304,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30305] = {
+		setNum = 999,
+		describe = "Enjoy a relaxing afternoon teatime surrounded by the fragrance of sweets.",
+		name = "Flower Garden Table Set",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30305",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50263/prefab/pre_item_05_50263",
+		bt = "",
+		id = 30305,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30401] = {
+		setNum = 999,
+		describe = "Bathe in the sunshine and sway along with the sunflowers in the gentle breeze.",
+		name = "Flower Garden Swing",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30401",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50253/prefab/pre_item_05_50253",
+		bt = "",
+		id = 30401,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		interact_point = {
+			17
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30402] = {
+		setNum = 999,
+		describe = "Toss in a coin and listen to the sound of the water reverberate with the lingering echoes of your wishes.",
+		name = "Wishing Fountain",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30402",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50254/prefab/pre_item_05_50254",
+		bt = "",
+		id = 30402,
+		tech_id = 0,
+		size = {
+			7,
+			6
+		},
+		interact_point = {
+			18
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30403] = {
+		setNum = 999,
+		describe = "One pat on the head to make your day!",
+		name = "Lucky Manjuu Statue",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30403",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50257/prefab/pre_item_05_50257",
+		bt = "",
+		id = 30403,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		interact_point = {
+			19
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30404] = {
+		setNum = 999,
+		describe = "Shh... Guests often come by the water basin, so be careful not to disturb them.",
+		name = "Bird Bath",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30404",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50267/prefab/pre_item_05_50267",
+		bt = "",
+		id = 30404,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30405] = {
+		setNum = 999,
+		describe = "An old-fashioned bathtub, perfect for relaxation. Want to try the temperature?",
+		name = "Classical Bathtub",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30405",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50271/prefab/pre_item_05_50271",
+		bt = "",
+		id = 30405,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30406] = {
+		setNum = 999,
+		describe = "A flowerbed beloved by butterflies, perfectly snapshotting the fleeting beauty of spring.",
+		name = "Butterfly Flowerbed",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30406",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50255/prefab/pre_item_05_50255",
+		bt = "",
+		id = 30406,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30407] = {
+		setNum = 999,
+		describe = "Collect these golden sunflowers, and the sun's warm blessings will come home with you as well!",
+		name = "Sunflower Bouquet",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30407",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50273/prefab/pre_item_05_50273",
+		bt = "",
+		id = 30407,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30408] = {
+		setNum = 999,
+		describe = "Classical patterns are engraved upon these patterns, telling the story of an era bygone.",
+		name = "Classical Stone Column",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30408",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50258/prefab/pre_item_05_50258",
+		bt = "",
+		id = 30408,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30409] = {
+		setNum = 999,
+		describe = "These almost completely-broken ruins stand as yet another silent witness.",
+		name = "Stone Pillar Ruins (Small)",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30409",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50260/prefab/pre_item_05_50260",
+		bt = "",
+		id = 30409,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30410] = {
+		setNum = 999,
+		describe = "A broken stone pillar, only half intact at this point. Only some traces of its former carvings remain.",
+		name = "Stone Pillar Ruins (Medium)",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30410",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50259/prefab/pre_item_05_50259",
+		bt = "",
+		id = 30410,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30411] = {
+		setNum = 999,
+		describe = "These ruined pillars now serve as a makeshift habitat for small animals.",
+		name = "Stone Pillar Ruins (Fallen)",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30411",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50261/prefab/pre_item_05_50261",
+		bt = "",
+		id = 30411,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30412] = {
+		setNum = 999,
+		describe = "Only the frame of this ancient stone gateway remains. It seems to lead to a lost, unexplored realm.",
+		name = "Stone Gate Ruins",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30412",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50262/prefab/pre_item_05_50262",
+		bt = "",
+		id = 30412,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30413] = {
+		setNum = 999,
+		describe = "A mega-sized vase! The most eye-catching sight in the garden!",
+		name = "Decorative Vase",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30413",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50264/prefab/pre_item_05_50264",
+		bt = "",
+		id = 30413,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30414] = {
+		setNum = 999,
+		describe = "Old-fashioned streetlights illuminate the cobblestone path, providing a warm glow for a peaceful night.",
+		name = "Old-Fashioned Garden Lamp",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30414",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50270/prefab/pre_item_05_50270",
+		bt = "",
+		id = 30414,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30415] = {
+		setNum = 999,
+		describe = "Ornamental flowers planted neatly along the garden path.",
+		name = "Ambient Flowers",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30415",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50276/prefab/pre_item_05_50276",
+		bt = "",
+		id = 30415,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30416] = {
+		setNum = 999,
+		describe = "Neat and well-maintained flowerbeds display the beautiful aesthetic garden for your viewing pleasure.",
+		name = "Ambient Flowerbed",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30416",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50278/prefab/pre_item_05_50278",
+		bt = "",
+		id = 30416,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30801] = {
+		setNum = 999,
+		describe = "Garden stone paving made from natural rocks of all shapes and sizes. Strong and durable.",
+		name = "Cobblestone (Small)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30801",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50279/prefab/pre_item_05_50279",
+		bt = "",
+		id = 30801,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30802] = {
+		setNum = 999,
+		describe = "Garden stone paving made from natural rocks of all shapes and sizes. Strong and durable.",
+		name = "Cobblestone (Medium)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30802",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50280/prefab/pre_item_05_50280",
+		bt = "",
+		id = 30802,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[30803] = {
+		setNum = 999,
+		describe = "Garden stone paving made from natural rocks of all shapes and sizes. Strong and durable.",
+		name = "Cobblestone (Large)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30803",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50282/prefab/pre_item_05_50282",
+		bt = "",
+		id = 30803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2045,6 +3008,7 @@ pg.island_furniture_template = {
 		22,
 		23,
 		100,
+		101,
 		10101,
 		10201,
 		10301,
@@ -2102,6 +3066,42 @@ pg.island_furniture_template = {
 		20415,
 		20801,
 		20802,
-		20803
+		20803,
+		30001,
+		30002,
+		30003,
+		30004,
+		30005,
+		30006,
+		30007,
+		30008,
+		30009,
+		30010,
+		30101,
+		30201,
+		30301,
+		30302,
+		30303,
+		30304,
+		30305,
+		30401,
+		30402,
+		30403,
+		30404,
+		30405,
+		30406,
+		30407,
+		30408,
+		30409,
+		30410,
+		30411,
+		30412,
+		30413,
+		30414,
+		30415,
+		30416,
+		30801,
+		30802,
+		30803
 	}
 }

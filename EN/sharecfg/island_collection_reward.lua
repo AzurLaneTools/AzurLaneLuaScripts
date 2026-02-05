@@ -79,6 +79,20 @@ pg.island_collection_reward = setmetatable({
 			3010,
 			3011,
 			3012
+		},
+		{
+			4001,
+			4002,
+			4003,
+			4004,
+			4005,
+			4006,
+			4007,
+			4008,
+			4009,
+			4010,
+			4011,
+			4012
 		}
 	},
 	all = {
@@ -153,7 +167,19 @@ pg.island_collection_reward = setmetatable({
 		3009,
 		3010,
 		3011,
-		3012
+		3012,
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007,
+		4008,
+		4009,
+		4010,
+		4011,
+		4012
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1015,6 +1041,150 @@ pg.base.island_collection_reward = {
 		type = 3,
 		id = 3012,
 		need_exp = 4000,
+		level = 12,
+		award_display = {
+			2,
+			180001,
+			1
+		}
+	},
+	[4001] = {
+		describe = "10 Collection Pt. Total: 2000 Development Funds",
+		type = 4,
+		id = 4001,
+		need_exp = 10,
+		level = 1,
+		award_display = {
+			41,
+			1,
+			2000
+		}
+	},
+	[4002] = {
+		describe = "20 Collection Pt. Total: 10 T1 Island EXP Textbooks",
+		type = 4,
+		id = 4002,
+		need_exp = 20,
+		level = 2,
+		award_display = {
+			41,
+			100001,
+			10
+		}
+	},
+	[4003] = {
+		describe = "30 Collection Pt. Total: 2000 Development Funds",
+		type = 4,
+		id = 4003,
+		need_exp = 30,
+		level = 3,
+		award_display = {
+			41,
+			1,
+			2000
+		}
+	},
+	[4004] = {
+		describe = "40 Collection Pt. Total: 10 T1 Island EXP Textbooks",
+		type = 4,
+		id = 4004,
+		need_exp = 40,
+		level = 4,
+		award_display = {
+			41,
+			100001,
+			10
+		}
+	},
+	[4005] = {
+		describe = "60 Collection Pt. Total: 5000 Development Funds",
+		type = 4,
+		id = 4005,
+		need_exp = 60,
+		level = 5,
+		award_display = {
+			41,
+			1,
+			5000
+		}
+	},
+	[4006] = {
+		describe = "80 Collection Pt. Total: 10 T2 Island EXP Textbooks",
+		type = 4,
+		id = 4006,
+		need_exp = 80,
+		level = 6,
+		award_display = {
+			41,
+			100002,
+			10
+		}
+	},
+	[4007] = {
+		describe = "100 Collection Pt. Total: 5000 Development Funds",
+		type = 4,
+		id = 4007,
+		need_exp = 100,
+		level = 7,
+		award_display = {
+			41,
+			1,
+			5000
+		}
+	},
+	[4008] = {
+		describe = "120 Collection Pt. Total: 1 Island Development Gem",
+		type = 4,
+		id = 4008,
+		need_exp = 120,
+		level = 8,
+		award_display = {
+			41,
+			100201,
+			1
+		}
+	},
+	[4009] = {
+		describe = "160 Collection Pt. Total: 10,000 Development Funds",
+		type = 4,
+		id = 4009,
+		need_exp = 160,
+		level = 9,
+		award_display = {
+			41,
+			1,
+			10000
+		}
+	},
+	[4010] = {
+		describe = "200 Collection Pt. Total: Outfit Colors",
+		type = 4,
+		id = 4010,
+		need_exp = 200,
+		level = 10,
+		award_display = {
+			41,
+			3,
+			1
+		}
+	},
+	[4011] = {
+		describe = "250 Collection Pt. Total: 10,000 Development Funds",
+		type = 4,
+		id = 4011,
+		need_exp = 250,
+		level = 11,
+		award_display = {
+			41,
+			1,
+			10000
+		}
+	},
+	[4012] = {
+		describe = "300 Collection Pt. Total: 1 Limited-Edition Coin",
+		type = 4,
+		id = 4012,
+		need_exp = 300,
 		level = 12,
 		award_display = {
 			2,

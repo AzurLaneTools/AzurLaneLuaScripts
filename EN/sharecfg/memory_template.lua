@@ -3922,6 +3922,13 @@ pg.memory_template = setmetatable({
 		4968,
 		4969,
 		4970,
+		4971,
+		4972,
+		4973,
+		4974,
+		4975,
+		4976,
+		4977,
 		10011,
 		10012,
 		10013,
@@ -62934,6 +62941,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"GUANGYINGFENGSHANG10"
+		}
+	},
+	[4971] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Crisis Looms",
+		condition = "Begin \"A Disastrous Investment\" Chapter 1",
+		story = "DINGAN1",
+		id = 4971,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN1"
+		}
+	},
+	[4972] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Who to Investigate?",
+		condition = "Begin \"A Disastrous Investment\" Chapter 2",
+		story = "DINGAN2",
+		id = 4972,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN2"
+		}
+	},
+	[4973] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Guaranteed Loss!",
+		condition = "Begin \"A Disastrous Investment\" Chapter 3",
+		story = "DINGAN3",
+		id = 4973,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN3"
+		}
+	},
+	[4974] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Secret to Profit",
+		condition = "Begin \"A Disastrous Investment\" Chapter 4",
+		story = "DINGAN4",
+		id = 4974,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN4"
+		}
+	},
+	[4975] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Big Loss Plan 2.0",
+		condition = "Begin \"A Disastrous Investment\" Chapter 5",
+		story = "DINGAN5",
+		id = 4975,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN5"
+		}
+	},
+	[4976] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "What Did We Sell?",
+		condition = "Begin \"A Disastrous Investment\" Chapter 6",
+		story = "DINGAN6",
+		id = 4976,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN6"
+		}
+	},
+	[4977] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "True Profit",
+		condition = "Begin \"A Disastrous Investment\" Chapter 7",
+		story = "DINGAN7",
+		id = 4977,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN7"
 		}
 	},
 	[10011] = {

@@ -444,7 +444,7 @@ pg.island_set = {
 	season_now = {
 		key_value_varchar = "",
 		key = "season_now",
-		key_value_int = 1
+		key_value_int = 2
 	},
 	island_manage_price_coefficient = {
 		key_value_varchar = "",
@@ -789,6 +789,7 @@ pg.island_set = {
 		key_value_varchar = {
 			101,
 			102,
+			201,
 			401,
 			402,
 			501,
@@ -887,6 +888,11 @@ pg.island_set = {
 	max_follower_cnt = {
 		key_value_varchar = "",
 		key = "max_follower_cnt",
+		key_value_int = 4
+	},
+	single_action_respon_check_range = {
+		key_value_varchar = "",
+		key = "single_action_respon_check_range",
 		key_value_int = 4
 	},
 	default_action = {
@@ -995,6 +1001,127 @@ pg.island_set = {
 		key = "island_guide_itemlimit",
 		key_value_int = 99999
 	},
+	treasure_week_limit = {
+		key = "treasure_week_limit",
+		key_value_int = 0,
+		key_value_varchar = {
+			200,
+			200
+		}
+	},
+	treasure_unlock = {
+		key_value_varchar = "",
+		key = "treasure_unlock",
+		key_value_int = 20
+	},
+	treasure_return_random = {
+		key = "treasure_return_random",
+		key_value_int = 0,
+		key_value_varchar = {
+			3000,
+			11000
+		}
+	},
+	treasure_price_limit = {
+		key = "treasure_price_limit",
+		key_value_int = 0,
+		key_value_varchar = {
+			200,
+			1000
+		}
+	},
+	treasure_price_initial = {
+		key = "treasure_price_initial",
+		key_value_int = 0,
+		key_value_varchar = {
+			200,
+			850
+		}
+	},
+	treasure_price_parameter = {
+		key = "treasure_price_parameter",
+		key_value_int = 0,
+		key_value_varchar = {
+			0.5,
+			{
+				40,
+				60
+			},
+			0.01
+		}
+	},
+	treasure_price_weight_group = {
+		key = "treasure_price_weight_group",
+		key_value_int = 0,
+		key_value_varchar = {
+			{
+				0,
+				400
+			},
+			{
+				401,
+				800
+			},
+			{
+				801,
+				1000
+			}
+		}
+	},
+	treasure_price_buy = {
+		key_value_varchar = "",
+		key = "treasure_price_buy",
+		key_value_int = 110
+	},
+	treasure_price_scale_y = {
+		key = "treasure_price_scale_y",
+		key_value_int = 0,
+		key_value_varchar = {
+			0,
+			200,
+			400,
+			600,
+			800,
+			1000
+		}
+	},
+	island_fishing_success_exit_time = {
+		key_value_varchar = "",
+		key = "island_fishing_success_exit_time",
+		key_value_int = 3
+	},
+	island_fishery_bubble_vfx = {
+		key = "island_fishery_bubble_vfx",
+		key_value_int = 0,
+		key_value_varchar = {
+			{
+				20101,
+				10020079
+			},
+			{
+				20102,
+				10020080
+			},
+			{
+				20103,
+				10020081
+			}
+		}
+	},
+	daily_task_follow_action = {
+		key = "daily_task_follow_action",
+		key_value_int = 0,
+		key_value_varchar = {
+			"clap"
+		}
+	},
+	weekly_task_follow_action = {
+		key = "weekly_task_follow_action",
+		key_value_int = 0,
+		key_value_varchar = {
+			"clap"
+		}
+	},
 	all = {
 		"order_complete_refresh_time",
 		"order_change_time",
@@ -1085,6 +1212,7 @@ pg.island_set = {
 		"island_message_bubble_range",
 		"delegate_role_transparency",
 		"max_follower_cnt",
+		"single_action_respon_check_range",
 		"default_action",
 		"island_photohight_FPS",
 		"island_photohight_TPS",
@@ -1098,6 +1226,19 @@ pg.island_set = {
 		"island_shiporder_refresh",
 		"island_shiporder_list_quantity",
 		"island_shiporder_limit",
-		"island_guide_itemlimit"
+		"island_guide_itemlimit",
+		"treasure_week_limit",
+		"treasure_unlock",
+		"treasure_return_random",
+		"treasure_price_limit",
+		"treasure_price_initial",
+		"treasure_price_parameter",
+		"treasure_price_weight_group",
+		"treasure_price_buy",
+		"treasure_price_scale_y",
+		"island_fishing_success_exit_time",
+		"island_fishery_bubble_vfx",
+		"daily_task_follow_action",
+		"weekly_task_follow_action"
 	}
 }

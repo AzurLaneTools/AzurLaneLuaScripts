@@ -4,7 +4,7 @@ slot0.LoadUI = function(slot0, slot1)
 	slot2 = slot0:GetPoolMgr()
 
 	slot2:GetUI(slot0:GetUIName(), function (slot0)
-		setParent(slot0, uv0:SetUIParent())
+		setParent(slot0, uv0:GetUIParent())
 		uv1(slot0)
 	end)
 end

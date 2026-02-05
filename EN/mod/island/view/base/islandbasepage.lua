@@ -36,6 +36,14 @@ slot0.GetIsland = function(slot0)
 	return slot0.islandScene:GetIsland()
 end
 
+slot0.GetSelfIsland = function(slot0)
+	return getProxy(IslandProxy):GetIsland()
+end
+
+slot0.IsSelfIsland = function(slot0)
+	return slot0:GetIsland().id == slot0:GetSelfIsland().id
+end
+
 slot0.GetPoolMgr = function(slot0)
 	return slot0.islandScene.poolMgr
 end

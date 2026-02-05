@@ -5,7 +5,7 @@ pg.island_manage_event = {
 		influence_bonus = 10,
 		id = 1,
 		banner = 0,
-		desc = "A Manjuu Tour Group is visiting the island.",
+		desc = "A Manjuu Tour Group is visiting the island. They're staying at $1.",
 		event_effect = {
 			{
 				10,
@@ -18,7 +18,7 @@ pg.island_manage_event = {
 		influence_bonus = 20,
 		id = 2,
 		banner = 0,
-		desc = "The island's development team is starting to gather.",
+		desc = "An Island Development Team is staying at $1.",
 		event_effect = {
 			{
 				20,
@@ -31,7 +31,7 @@ pg.island_manage_event = {
 		influence_bonus = 30,
 		id = 3,
 		banner = 0,
-		desc = "The island's finest food is on offer. Go and have a tasting experience!",
+		desc = "Today's best island food has been chosen! Head to $1 and try it.",
 		event_effect = {
 			{
 				30,

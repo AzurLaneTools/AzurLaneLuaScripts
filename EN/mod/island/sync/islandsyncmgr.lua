@@ -35,12 +35,8 @@ slot0.Init = function(slot0, slot1, slot2)
 end
 
 slot0.Update = function(slot0)
-	xpcall(function ()
-		uv0.syncDataDelayedProcessor:Update()
-		uv0.syncObjDelayedProcessor:Update()
-	end, function (...)
-		errorMsg(debug.traceback(...))
-	end)
+	slot0.syncDataDelayedProcessor:Update()
+	slot0.syncObjDelayedProcessor:Update()
 end
 
 slot0.IsPlayerInTimeline = function(slot0)
@@ -61,7 +57,7 @@ slot0.OnVisitorExit = function(slot0, slot1)
 			slot0:GetUnit(slot3.type, slot3.id):RemoveOwner(slot1)
 
 			if slot3.type == IslandConst.SYNC_TYPE_AGORA then
-				slot0:Op("InterActionEndSync", slot3.id, slot1)
+				slot0:Op("AgoraVirtualInterActionEndSync", slot3.id, slot1)
 			elseif slot3.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
 				slot0:Op("WorldObjectInterActionEndSync", slot3.id, slot1)
 			end
@@ -131,7 +127,7 @@ slot0.CancelAgoraInteract = function(slot0)
 	for slot5, slot6 in pairs(slot1) do
 		if slot6:OwnerCount() > 0 then
 			for slot10, slot11 in pairs(slot6.owners) do
-				slot0:Op("InterActionEndSync", slot5, slot11)
+				slot0:Op("AgoraVirtualInterActionEndSync", slot5, slot11)
 
 				if slot11 == slot0.playerId then
 					slot0.player:SetInTimeline(false)
@@ -149,7 +145,7 @@ slot0.ResumeAgoraInteract = function(slot0)
 	for slot5, slot6 in pairs(slot1) do
 		if slot6:OwnerCount() > 0 then
 			for slot10, slot11 in pairs(slot6.owners) do
-				slot0:Op("InterActionSync", slot5, slot11, slot10)
+				slot0:Op("AgoraVirtualInterActionSync", slot5, slot11, slot6.status, slot10)
 			end
 		end
 	end
@@ -176,23 +172,23 @@ slot0.InitSyncObj = function(slot0)
 		if slot0:GetUnit(slot6.type, slot6.id) then
 			slot7:InitOwner(slot6.slots)
 
-			if slot6.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
-				if slot7:OwnerCount() > 0 then
-					for slot11, slot12 in pairs(slot7.owners) do
-						if slot12 ~= slot0.playerId and slot0.visitorDic[slot12] then
-							slot0.visitorDic[slot12]:RecordLastInteract(slot6.id, slot6.type)
-							slot0:Op("WorldObjectInterActionSync", slot6.id, slot12, slot6.status, slot11)
-						end
-					end
-				elseif slot6.status > 0 then
-					slot0:Op("WorldObjectInitStatus", slot6.id, slot6.status)
-				end
-			elseif slot6.type == IslandConst.SYNC_TYPE_AGORA and slot7:OwnerCount() > 0 then
+			if slot7:OwnerCount() > 0 then
 				for slot11, slot12 in pairs(slot7.owners) do
 					if slot12 ~= slot0.playerId and slot0.visitorDic[slot12] then
 						slot0.visitorDic[slot12]:RecordLastInteract(slot6.id, slot6.type)
-						slot0:Op("InterActionSync", slot6.id, slot12, slot11)
+
+						if slot6.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
+							slot0:Op("WorldObjectInterActionSync", slot6.id, slot12, slot6.status, slot11)
+						elseif slot6.type == IslandConst.SYNC_TYPE_AGORA then
+							slot0:Op("AgoraVirtualInterActionSync", slot6.id, slot12, slot6.status, slot11)
+						end
 					end
+				end
+			elseif slot6.status > 0 then
+				if slot6.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
+					slot0:Op("WorldObjectInitStatus", slot6.id, slot6.status)
+				elseif slot6.type == IslandConst.SYNC_TYPE_AGORA then
+					slot0:Op("AgoraVirtualInitStatus", slot6.id, slot6.status)
 				end
 			end
 		end
@@ -214,33 +210,29 @@ slot0.HandleSyncObj = function(slot0, slot1)
 end
 
 slot0.UpdateSyncObj = function(slot0, slot1)
-	if slot1.type == IslandConst.SYNC_TYPE_AGORA then
-		slot0:OnVisitorInteract(slot1, function (slot0, slot1)
-			if not uv0:SyncVisitorExist(slot0) then
-				return
-			end
+	slot0:OnVisitorInteract(slot1, function (slot0, slot1)
+		if not uv0:GetUnit(uv1.type, uv1.id) then
+			return
+		end
 
-			uv0:Op("InterActionSync", uv1.id, slot0, slot1)
-		end, function (slot0)
-			uv0:Op("InterActionEndSync", uv1.id, slot0)
-		end)
-	elseif slot1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
-		slot0:OnVisitorInteract(slot1, function (slot0, slot1)
-			if not uv0:GetUnit(uv1.type, uv1.id) then
-				return
-			end
+		slot2:SetStatus(uv1.status)
 
-			slot2:SetStatus(uv1.status)
+		if not uv0:SyncVisitorExist(slot0) then
+			return
+		end
 
-			if not uv0:SyncVisitorExist(slot0) then
-				return
-			end
-
+		if uv1.type == IslandConst.SYNC_TYPE_AGORA then
+			uv0:Op("AgoraVirtualInterActionSync", uv1.id, slot0, uv1.status, slot1)
+		elseif uv1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
 			uv0:Op("WorldObjectInterActionSync", uv1.id, slot0, uv1.status, slot1)
-		end, function (slot0)
-			uv0:Op("WorldObjectInterActionEndSync", uv1.id, slot0)
-		end)
-	end
+		end
+	end, function (slot0)
+		if uv0.type == IslandConst.SYNC_TYPE_AGORA then
+			uv1:Op("AgoraVirtualInterActionEndSync", uv0.id, slot0)
+		elseif uv0.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
+			uv1:Op("WorldObjectInterActionEndSync", uv0.id, slot0)
+		end
+	end)
 end
 
 slot0.OnVisitorInteract = function(slot0, slot1, slot2, slot3)
@@ -255,7 +247,7 @@ slot0.OnVisitorInteract = function(slot0, slot1, slot2, slot3)
 	end
 
 	if not slot0.visitorDic[slot6] then
-		Debugger.LogWarning(string.format("访客不存在 id=%d", slot6))
+		warning("访客不存在 id=", slot6)
 
 		return
 	end

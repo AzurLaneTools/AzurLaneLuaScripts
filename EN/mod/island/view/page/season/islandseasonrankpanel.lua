@@ -41,6 +41,10 @@ slot0.OnInit = function(slot0)
 
 	slot0.playerCard = IslandRankCard.New(slot0.playerRankTF, IslandRankCard.TYPE_SELF, slot0)
 	slot0.newestId = IslandSeasonAgency.GetCurrentSeason()
+
+	if slot0.newestId > 1 then
+		-- Nothing
+	end
 end
 
 slot0.OnInitItem = function(slot0, slot1)

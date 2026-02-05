@@ -686,6 +686,742 @@ pg.island_formula = {
 		second_product_display = {},
 		second_product = {}
 	},
+	[201001] = {
+		workload = 54000,
+		name = "Shellfish",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 18,
+		item_id = 5001,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201003,
+		affected_vfx = "",
+		ship_exp = 90,
+		pt_award = 0,
+		id = 201001,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1101,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5001,
+				10
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				302500
+			},
+			{
+				5,
+				10,
+				0.2
+			}
+		}
+	},
+	[201002] = {
+		workload = 72000,
+		name = "Catfish",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 24,
+		item_id = 5002,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201012,
+		affected_vfx = "",
+		ship_exp = 120,
+		pt_award = 0,
+		id = 201002,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1102,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5002,
+				2
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				303300
+			},
+			{
+				5,
+				10,
+				0.4
+			}
+		}
+	},
+	[201003] = {
+		workload = 72000,
+		name = "Koi Carp",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 24,
+		item_id = 5003,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201002,
+		affected_vfx = "",
+		ship_exp = 120,
+		pt_award = 0,
+		id = 201003,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1103,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5003,
+				4
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				302400
+			},
+			{
+				5,
+				10,
+				0.5
+			}
+		}
+	},
+	[201004] = {
+		workload = 72000,
+		name = "Common Carp",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 24,
+		item_id = 5004,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201013,
+		affected_vfx = "",
+		ship_exp = 120,
+		pt_award = 0,
+		id = 201004,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1104,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5004,
+				6
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				303400
+			},
+			{
+				5,
+				10,
+				0.4
+			}
+		}
+	},
+	[201005] = {
+		workload = 36000,
+		name = "Freshwater Shrimp",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 12,
+		item_id = 5005,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 8,
+		unlock_type = 3201001,
+		affected_vfx = "",
+		ship_exp = 60,
+		pt_award = 0,
+		id = 201005,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1105,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5005,
+				12
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				302300
+			},
+			{
+				5,
+				10,
+				0.3
+			}
+		}
+	},
+	[201006] = {
+		workload = 90000,
+		name = "Crayfish",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 30,
+		item_id = 5006,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201004,
+		affected_vfx = "",
+		ship_exp = 150,
+		pt_award = 0,
+		id = 201006,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1106,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5006,
+				8
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				302600
+			},
+			{
+				5,
+				10,
+				0.35
+			}
+		}
+	},
+	[201007] = {
+		workload = 72000,
+		name = "Sea Bass",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 24,
+		item_id = 5007,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201014,
+		affected_vfx = "",
+		ship_exp = 120,
+		pt_award = 0,
+		id = 201007,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1107,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5007,
+				6
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				303800
+			},
+			{
+				5,
+				10,
+				0.6
+			}
+		}
+	},
+	[201008] = {
+		workload = 144000,
+		name = "Crab",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 48,
+		item_id = 5008,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201008,
+		affected_vfx = "",
+		ship_exp = 240,
+		pt_award = 0,
+		id = 201008,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1108,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5008,
+				4
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				303100
+			},
+			{
+				5,
+				10,
+				0.2
+			}
+		}
+	},
+	[201101] = {
+		workload = 54000,
+		name = "Squid",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 18,
+		item_id = 5101,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201007,
+		affected_vfx = "",
+		ship_exp = 90,
+		pt_award = 0,
+		id = 201101,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1201,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5101,
+				4
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				302900
+			},
+			{
+				5,
+				10,
+				0.7
+			}
+		}
+	},
+	[201102] = {
+		workload = 144000,
+		name = "Mackerel",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 48,
+		item_id = 5102,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201009,
+		affected_vfx = "",
+		ship_exp = 240,
+		pt_award = 0,
+		id = 201102,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1202,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5102,
+				4
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				303500
+			},
+			{
+				5,
+				10,
+				1
+			}
+		}
+	},
+	[201103] = {
+		workload = 216000,
+		name = "Tuna",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 72,
+		item_id = 5103,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201010,
+		affected_vfx = "",
+		ship_exp = 360,
+		pt_award = 0,
+		id = 201103,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1203,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5103,
+				2
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				303000
+			},
+			{
+				5,
+				10,
+				1.2
+			}
+		}
+	},
+	[201104] = {
+		workload = 180000,
+		name = "Salmon",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 60,
+		item_id = 5104,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201005,
+		affected_vfx = "",
+		ship_exp = 300,
+		pt_award = 0,
+		id = 201104,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1204,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5104,
+				4
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				302700
+			},
+			{
+				5,
+				10,
+				0.8
+			}
+		}
+	},
+	[201105] = {
+		workload = 108000,
+		name = "Red Sea Bream",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 36,
+		item_id = 5105,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201015,
+		affected_vfx = "",
+		ship_exp = 180,
+		pt_award = 0,
+		id = 201105,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1205,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5105,
+				4
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				303600
+			},
+			{
+				5,
+				10,
+				0.5
+			}
+		}
+	},
+	[201106] = {
+		workload = 126000,
+		name = "Black Porgy",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 42,
+		item_id = 5106,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201016,
+		affected_vfx = "",
+		ship_exp = 210,
+		pt_award = 0,
+		id = 201106,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1206,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5106,
+				4
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				303900
+			},
+			{
+				5,
+				10,
+				0.5
+			}
+		}
+	},
+	[201107] = {
+		workload = 288000,
+		name = "Yellowfin Tuna",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 96,
+		item_id = 5107,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201011,
+		affected_vfx = "",
+		ship_exp = 480,
+		pt_award = 0,
+		id = 201107,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1207,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5107,
+				2
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				303700
+			},
+			{
+				5,
+				10,
+				1.2
+			}
+		}
+	},
+	[201108] = {
+		workload = 216000,
+		name = "Sea Cucumber",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 72,
+		item_id = 5108,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 3201006,
+		affected_vfx = "",
+		ship_exp = 360,
+		pt_award = 0,
+		id = 201108,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				1208,
+				1
+			}
+		},
+		commission_product = {
+			{
+				5108,
+				2
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				302800
+			},
+			{
+				5,
+				10,
+				0.05
+			}
+		}
+	},
 	[401001] = {
 		workload = 12000,
 		name = "Coal",
@@ -2027,21 +2763,21 @@ pg.island_formula = {
 		}
 	},
 	[601001] = {
-		workload = 72000,
+		workload = 24000,
 		name = "Tofu",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 24,
+		stamina_cost = 8,
 		item_id = 3011,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 120,
+		ship_exp = 40,
 		pt_award = 0,
 		id = 601001,
 		collectable_vfx = 0,
@@ -2064,21 +2800,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[601002] = {
-		workload = 48000,
+		workload = 18000,
 		name = "Tofu with Minced Meat",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 16,
+		stamina_cost = 6,
 		item_id = 3012,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 6,
+		production_limit = 12,
 		unlock_type = 3601002,
 		affected_vfx = "",
-		ship_exp = 80,
+		ship_exp = 30,
 		pt_award = 0,
 		id = 601002,
 		collectable_vfx = 0,
@@ -2105,13 +2841,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[601003] = {
-		workload = 24000,
+		workload = 12000,
 		name = "Omurice",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 8,
+		stamina_cost = 4,
 		item_id = 3013,
 		hitpoint = 0,
 		is_condition = 1,
@@ -2119,7 +2855,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3601003,
 		affected_vfx = "",
-		ship_exp = 40,
+		ship_exp = 20,
 		pt_award = 0,
 		id = 601003,
 		collectable_vfx = 0,
@@ -2146,21 +2882,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[601004] = {
-		workload = 36000,
+		workload = 18000,
 		name = "Cabbage and Tofu Soup",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 12,
+		stamina_cost = 6,
 		item_id = 3014,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 8,
+		production_limit = 12,
 		unlock_type = 3601004,
 		affected_vfx = "",
-		ship_exp = 60,
+		ship_exp = 30,
 		pt_award = 0,
 		id = 601004,
 		collectable_vfx = 0,
@@ -2187,13 +2923,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[601005] = {
-		workload = 12000,
+		workload = 6000,
 		name = "Vegetable Salad",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 4,
+		stamina_cost = 2,
 		item_id = 3015,
 		hitpoint = 0,
 		is_condition = 1,
@@ -2201,7 +2937,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3601005,
 		affected_vfx = "",
-		ship_exp = 20,
+		ship_exp = 10,
 		pt_award = 0,
 		id = 601005,
 		collectable_vfx = 0,
@@ -2225,6 +2961,133 @@ pg.island_formula = {
 		commission_product = {
 			{
 				3015,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[601006] = {
+		workload = 3000,
+		name = "Fish & Chips",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 1,
+		item_id = 3114,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 3601006,
+		affected_vfx = "",
+		ship_exp = 5,
+		pt_award = 0,
+		id = 601006,
+		collectable_vfx = 0,
+		attribute = 4,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				2522,
+				1
+			},
+			{
+				2005,
+				2
+			}
+		},
+		commission_product = {
+			{
+				3114,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[601007] = {
+		workload = 18000,
+		name = "Steamed Fish with Onions",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 6,
+		item_id = 3116,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 3601007,
+		affected_vfx = "",
+		ship_exp = 30,
+		pt_award = 0,
+		id = 601007,
+		collectable_vfx = 0,
+		attribute = 4,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				2521,
+				3
+			},
+			{
+				2007,
+				1
+			}
+		},
+		commission_product = {
+			{
+				3116,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[601008] = {
+		workload = 36000,
+		name = "Buddha's Temptation",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 12,
+		item_id = 3120,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 8,
+		unlock_type = 3601008,
+		affected_vfx = "",
+		ship_exp = 60,
+		pt_award = 0,
+		id = 601008,
+		collectable_vfx = 0,
+		attribute = 4,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				5108,
+				1
+			},
+			{
+				2602,
+				3
+			},
+			{
+				2522,
+				2
+			}
+		},
+		commission_product = {
+			{
+				3120,
 				1
 			}
 		},
@@ -2314,13 +3177,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[602001] = {
-		workload = 12000,
+		workload = 6000,
 		name = "Apple Juice",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 4,
+		stamina_cost = 2,
 		item_id = 3017,
 		hitpoint = 0,
 		is_condition = 1,
@@ -2328,7 +3191,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 20,
+		ship_exp = 10,
 		pt_award = 0,
 		id = 602001,
 		collectable_vfx = 0,
@@ -2351,13 +3214,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[602002] = {
-		workload = 18000,
+		workload = 9000,
 		name = "Banana and Mango Juice",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 6,
+		stamina_cost = 3,
 		item_id = 3018,
 		hitpoint = 0,
 		is_condition = 1,
@@ -2365,7 +3228,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3602002,
 		affected_vfx = "",
-		ship_exp = 30,
+		ship_exp = 15,
 		pt_award = 0,
 		id = 602002,
 		collectable_vfx = 0,
@@ -2392,13 +3255,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[602003] = {
-		workload = 12000,
+		workload = 6000,
 		name = "Honey and Lemon Water",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 4,
+		stamina_cost = 2,
 		item_id = 3019,
 		hitpoint = 0,
 		is_condition = 1,
@@ -2406,7 +3269,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3602003,
 		affected_vfx = "",
-		ship_exp = 20,
+		ship_exp = 10,
 		pt_award = 0,
 		id = 602003,
 		collectable_vfx = 0,
@@ -2433,13 +3296,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[602004] = {
-		workload = 24000,
+		workload = 12000,
 		name = "Strawberry Lemon Drink",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 8,
+		stamina_cost = 4,
 		item_id = 3020,
 		hitpoint = 0,
 		is_condition = 1,
@@ -2447,7 +3310,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3602004,
 		affected_vfx = "",
-		ship_exp = 40,
+		ship_exp = 20,
 		pt_award = 0,
 		id = 602004,
 		collectable_vfx = 0,
@@ -2474,21 +3337,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[602005] = {
-		workload = 48000,
+		workload = 24000,
 		name = "Lavender Tea",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 16,
+		stamina_cost = 8,
 		item_id = 3021,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 6,
+		production_limit = 12,
 		unlock_type = 3602005,
 		affected_vfx = "",
-		ship_exp = 80,
+		ship_exp = 40,
 		pt_award = 0,
 		id = 602005,
 		collectable_vfx = 0,
@@ -2515,21 +3378,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[602006] = {
-		workload = 36000,
+		workload = 18000,
 		name = "Strawberry Honey Frappé",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 12,
+		stamina_cost = 6,
 		item_id = 3022,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 8,
+		production_limit = 12,
 		unlock_type = 3602006,
 		affected_vfx = "",
-		ship_exp = 60,
+		ship_exp = 30,
 		pt_award = 0,
 		id = 602006,
 		collectable_vfx = 0,
@@ -2556,13 +3419,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[602101] = {
-		workload = 6000,
+		workload = 3000,
 		name = "Floral and Fruity",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 2,
+		stamina_cost = 1,
 		item_id = 3103,
 		hitpoint = 0,
 		is_condition = 0,
@@ -2570,7 +3433,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 5,
 		pt_award = 0,
 		id = 602101,
 		collectable_vfx = 0,
@@ -2597,13 +3460,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[602102] = {
-		workload = 6000,
+		workload = 3000,
 		name = "Colorful Fruit Paradise",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 2,
+		stamina_cost = 1,
 		item_id = 3104,
 		hitpoint = 0,
 		is_condition = 0,
@@ -2611,7 +3474,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 5,
 		pt_award = 0,
 		id = 602102,
 		collectable_vfx = 0,
@@ -2638,13 +3501,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[602103] = {
-		workload = 6000,
+		workload = 3000,
 		name = "Sunny Honey",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 2,
+		stamina_cost = 1,
 		item_id = 3105,
 		hitpoint = 0,
 		is_condition = 0,
@@ -2652,7 +3515,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 5,
 		pt_award = 0,
 		id = 602103,
 		collectable_vfx = 0,
@@ -2679,13 +3542,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[603001] = {
-		workload = 6000,
+		workload = 3000,
 		name = "Corn Cup",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 2,
+		stamina_cost = 1,
 		item_id = 3023,
 		hitpoint = 0,
 		is_condition = 1,
@@ -2693,7 +3556,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 5,
 		pt_award = 0,
 		id = 603001,
 		collectable_vfx = 0,
@@ -2720,21 +3583,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[603002] = {
-		workload = 36000,
+		workload = 18000,
 		name = "Apple Pie",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 12,
+		stamina_cost = 6,
 		item_id = 3009,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 8,
+		production_limit = 12,
 		unlock_type = 3603002,
 		affected_vfx = "",
-		ship_exp = 60,
+		ship_exp = 30,
 		pt_award = 0,
 		id = 603002,
 		collectable_vfx = 0,
@@ -2761,21 +3624,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[603003] = {
-		workload = 36000,
+		workload = 18000,
 		name = "Orange Pie",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 12,
+		stamina_cost = 6,
 		item_id = 3024,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 8,
+		production_limit = 12,
 		unlock_type = 3603003,
 		affected_vfx = "",
-		ship_exp = 60,
+		ship_exp = 30,
 		pt_award = 0,
 		id = 603003,
 		collectable_vfx = 0,
@@ -2802,13 +3665,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[603004] = {
-		workload = 24000,
+		workload = 12000,
 		name = "Sticky Rice with Mango",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 8,
+		stamina_cost = 4,
 		item_id = 3025,
 		hitpoint = 0,
 		is_condition = 1,
@@ -2816,7 +3679,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3603004,
 		affected_vfx = "",
-		ship_exp = 40,
+		ship_exp = 20,
 		pt_award = 0,
 		id = 603004,
 		collectable_vfx = 0,
@@ -2843,13 +3706,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[603005] = {
-		workload = 18000,
+		workload = 9000,
 		name = "Banana Crêpe",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 6,
+		stamina_cost = 3,
 		item_id = 3026,
 		hitpoint = 0,
 		is_condition = 1,
@@ -2857,7 +3720,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3603005,
 		affected_vfx = "",
-		ship_exp = 30,
+		ship_exp = 15,
 		pt_award = 0,
 		id = 603005,
 		collectable_vfx = 0,
@@ -2884,21 +3747,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[603006] = {
-		workload = 42000,
+		workload = 21000,
 		name = "Strawberry Charlotte",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 14,
+		stamina_cost = 7,
 		item_id = 3028,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 6,
+		production_limit = 12,
 		unlock_type = 3603006,
 		affected_vfx = "",
-		ship_exp = 70,
+		ship_exp = 35,
 		pt_award = 0,
 		id = 603006,
 		collectable_vfx = 0,
@@ -2928,14 +3791,59 @@ pg.island_formula = {
 		second_product_display = {},
 		second_product = {}
 	},
+	[603007] = {
+		workload = 18000,
+		name = "Paella",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 6,
+		item_id = 3118,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 3603007,
+		affected_vfx = "",
+		ship_exp = 30,
+		pt_award = 0,
+		id = 603007,
+		collectable_vfx = 0,
+		attribute = 4,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				5008,
+				1
+			},
+			{
+				5101,
+				2
+			},
+			{
+				2002,
+				5
+			}
+		},
+		commission_product = {
+			{
+				3118,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
 	[603101] = {
-		workload = 6000,
+		workload = 3000,
 		name = "Succulently Sweet",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 2,
+		stamina_cost = 1,
 		item_id = 3106,
 		hitpoint = 0,
 		is_condition = 0,
@@ -2943,7 +3851,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 5,
 		pt_award = 0,
 		id = 603101,
 		collectable_vfx = 0,
@@ -2970,13 +3878,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[603102] = {
-		workload = 6000,
+		workload = 3000,
 		name = "Orchard Duo",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 2,
+		stamina_cost = 1,
 		item_id = 3107,
 		hitpoint = 0,
 		is_condition = 0,
@@ -2984,7 +3892,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 5,
 		pt_award = 0,
 		id = 603102,
 		collectable_vfx = 0,
@@ -3011,13 +3919,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[603103] = {
-		workload = 6000,
+		workload = 3000,
 		name = "Berry and Orange Dessert",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 2,
+		stamina_cost = 1,
 		item_id = 3108,
 		hitpoint = 0,
 		is_condition = 0,
@@ -3025,7 +3933,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 5,
 		pt_award = 0,
 		id = 603103,
 		collectable_vfx = 0,
@@ -3052,13 +3960,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[604001] = {
-		workload = 24000,
+		workload = 12000,
 		name = "Coal-Roasted Skewer",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 8,
+		stamina_cost = 4,
 		item_id = 3029,
 		hitpoint = 0,
 		is_condition = 1,
@@ -3066,7 +3974,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 40,
+		ship_exp = 20,
 		pt_award = 0,
 		id = 604001,
 		collectable_vfx = 0,
@@ -3089,21 +3997,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[604002] = {
-		workload = 36000,
+		workload = 18000,
 		name = "Chicken and Potato Hors d'Oeuvre",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 12,
+		stamina_cost = 6,
 		item_id = 3030,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 8,
+		production_limit = 12,
 		unlock_type = 3604002,
 		affected_vfx = "",
-		ship_exp = 60,
+		ship_exp = 30,
 		pt_award = 0,
 		id = 604002,
 		collectable_vfx = 0,
@@ -3130,21 +4038,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[604004] = {
-		workload = 30000,
+		workload = 15000,
 		name = "Stir-Fried Chicken",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 10,
+		stamina_cost = 5,
 		item_id = 3032,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 9,
+		production_limit = 12,
 		unlock_type = 3604004,
 		affected_vfx = "",
-		ship_exp = 50,
+		ship_exp = 25,
 		pt_award = 0,
 		id = 604004,
 		collectable_vfx = 0,
@@ -3171,13 +4079,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[604005] = {
-		workload = 12000,
+		workload = 6000,
 		name = "Rolled Carrot Omelette",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 4,
+		stamina_cost = 2,
 		item_id = 3033,
 		hitpoint = 0,
 		is_condition = 1,
@@ -3185,7 +4093,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3604005,
 		affected_vfx = "",
-		ship_exp = 20,
+		ship_exp = 10,
 		pt_award = 0,
 		id = 604005,
 		collectable_vfx = 0,
@@ -3212,21 +4120,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[604006] = {
-		workload = 30000,
+		workload = 15000,
 		name = "Steak Bowl",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 10,
+		stamina_cost = 5,
 		item_id = 3034,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 9,
+		production_limit = 12,
 		unlock_type = 3604006,
 		affected_vfx = "",
-		ship_exp = 50,
+		ship_exp = 25,
 		pt_award = 0,
 		id = 604006,
 		collectable_vfx = 0,
@@ -3250,6 +4158,84 @@ pg.island_formula = {
 		commission_product = {
 			{
 				3034,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[604007] = {
+		workload = 6000,
+		name = "Lemon Shrimp",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 2,
+		item_id = 3115,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 3604007,
+		affected_vfx = "",
+		ship_exp = 10,
+		pt_award = 0,
+		id = 604007,
+		collectable_vfx = 0,
+		attribute = 4,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				5005,
+				4
+			},
+			{
+				2020,
+				1
+			}
+		},
+		commission_product = {
+			{
+				3115,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[604008] = {
+		workload = 9000,
+		name = "Crayfish Stir-Fry",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 3,
+		item_id = 3119,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 3604008,
+		affected_vfx = "",
+		ship_exp = 15,
+		pt_award = 0,
+		id = 604008,
+		collectable_vfx = 0,
+		attribute = 4,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				5006,
+				5
+			}
+		},
+		commission_product = {
+			{
+				3119,
 				1
 			}
 		},
@@ -4236,14 +5222,55 @@ pg.island_formula = {
 		second_product_display = {},
 		second_product = {}
 	},
+	[701023] = {
+		workload = 36000,
+		name = "Ornamental Painting",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 12,
+		item_id = 3117,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 8,
+		unlock_type = 3701023,
+		affected_vfx = "",
+		ship_exp = 60,
+		pt_award = 0,
+		id = 701023,
+		collectable_vfx = 0,
+		attribute = 6,
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				5001,
+				3
+			},
+			{
+				3048,
+				3
+			}
+		},
+		commission_product = {
+			{
+				3117,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
 	[901001] = {
-		workload = 6000,
+		workload = 3000,
 		name = "Omelette",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 2,
+		stamina_cost = 1,
 		item_id = 3059,
 		hitpoint = 0,
 		is_condition = 1,
@@ -4251,7 +5278,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 5,
 		pt_award = 0,
 		id = 901001,
 		collectable_vfx = 0,
@@ -4274,13 +5301,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[901002] = {
-		workload = 18000,
+		workload = 9000,
 		name = "Iced Coffee",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 6,
+		stamina_cost = 3,
 		item_id = 3005,
 		hitpoint = 0,
 		is_condition = 1,
@@ -4288,7 +5315,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 30,
+		ship_exp = 15,
 		pt_award = 0,
 		id = 901002,
 		collectable_vfx = 0,
@@ -4311,21 +5338,21 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[901003] = {
-		workload = 54000,
+		workload = 24000,
 		name = "Cheese",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 18,
+		stamina_cost = 8,
 		item_id = 3006,
 		hitpoint = 0,
 		is_condition = 1,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3901003,
 		affected_vfx = "",
-		ship_exp = 90,
+		ship_exp = 40,
 		pt_award = 0,
 		id = 901003,
 		collectable_vfx = 0,
@@ -4348,13 +5375,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[901004] = {
-		workload = 24000,
+		workload = 12000,
 		name = "Latte",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 8,
+		stamina_cost = 4,
 		item_id = 3007,
 		hitpoint = 0,
 		is_condition = 1,
@@ -4362,7 +5389,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3901004,
 		affected_vfx = "",
-		ship_exp = 40,
+		ship_exp = 20,
 		pt_award = 0,
 		id = 901004,
 		collectable_vfx = 0,
@@ -4389,13 +5416,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[901005] = {
-		workload = 18000,
+		workload = 9000,
 		name = "Citrus Coffee",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 6,
+		stamina_cost = 3,
 		item_id = 3008,
 		hitpoint = 0,
 		is_condition = 1,
@@ -4403,7 +5430,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3901005,
 		affected_vfx = "",
-		ship_exp = 30,
+		ship_exp = 15,
 		pt_award = 0,
 		id = 901005,
 		collectable_vfx = 0,
@@ -4430,13 +5457,13 @@ pg.island_formula = {
 		second_product = {}
 	},
 	[901006] = {
-		workload = 24000,
+		workload = 12000,
 		name = "Strawberry Milkshake",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
 		task_filiter = "",
-		stamina_cost = 8,
+		stamina_cost = 4,
 		item_id = 3010,
 		hitpoint = 0,
 		is_condition = 1,
@@ -4444,7 +5471,7 @@ pg.island_formula = {
 		production_limit = 12,
 		unlock_type = 3901006,
 		affected_vfx = "",
-		ship_exp = 40,
+		ship_exp = 20,
 		pt_award = 0,
 		id = 901006,
 		collectable_vfx = 0,
@@ -5493,6 +6520,43 @@ pg.island_formula = {
 		ship_exp = 720,
 		pt_award = 0,
 		id = 7120006,
+		collectable_vfx = 0,
+		attribute = 6,
+		cost = {
+			{
+				1,
+				400000
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				400000
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7120007] = {
+		workload = 432000,
+		name = "Additional Permit",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 144,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37120007,
+		affected_vfx = "",
+		ship_exp = 720,
+		pt_award = 0,
+		id = 7120007,
 		collectable_vfx = 0,
 		attribute = 6,
 		cost = {
@@ -9349,6 +10413,546 @@ pg.island_formula = {
 		second_product_display = {},
 		second_product = {}
 	},
+	[7460001] = {
+		workload = 36000,
+		name = "Fishing Rod Upgrade+",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 12,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460001,
+		affected_vfx = "",
+		ship_exp = 60,
+		pt_award = 0,
+		id = 7460001,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				7500
+			},
+			{
+				2801,
+				10
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				7500
+			},
+			{
+				2801,
+				10
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460002] = {
+		workload = 180000,
+		name = "Fishing Rod Upgrade+",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 60,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460002,
+		affected_vfx = "",
+		ship_exp = 300,
+		pt_award = 0,
+		id = 7460002,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				30000
+			},
+			{
+				2703,
+				20
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				30000
+			},
+			{
+				2703,
+				20
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460101] = {
+		workload = 72000,
+		name = "Cultivation Slots+",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 24,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460101,
+		affected_vfx = "",
+		ship_exp = 120,
+		pt_award = 0,
+		id = 7460101,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				10000
+			},
+			{
+				2000,
+				125
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				10000
+			},
+			{
+				2000,
+				125
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460301] = {
+		workload = 180000,
+		name = "Cultivation Speed+",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 60,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460301,
+		affected_vfx = "",
+		ship_exp = 300,
+		pt_award = 0,
+		id = 7460301,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				40000
+			},
+			{
+				2001,
+				500
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				40000
+			},
+			{
+				2001,
+				500
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460102] = {
+		workload = 216000,
+		name = "Cultivation Slots+",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 72,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460102,
+		affected_vfx = "",
+		ship_exp = 360,
+		pt_award = 0,
+		id = 7460102,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				50000
+			},
+			{
+				2802,
+				14
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				50000
+			},
+			{
+				2802,
+				14
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460302] = {
+		workload = 216000,
+		name = "Cultivation Speed+",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 72,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460302,
+		affected_vfx = "",
+		ship_exp = 360,
+		pt_award = 0,
+		id = 7460302,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				100000
+			},
+			{
+				2004,
+				300
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				100000
+			},
+			{
+				2004,
+				300
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460201] = {
+		workload = 18000,
+		name = "Fish & Chips",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 6,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460201,
+		affected_vfx = "",
+		ship_exp = 30,
+		pt_award = 0,
+		id = 7460201,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				3000
+			},
+			{
+				2521,
+				5
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				3000
+			},
+			{
+				2521,
+				5
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460202] = {
+		workload = 36000,
+		name = "Steamed Fish with Onions",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 12,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460202,
+		affected_vfx = "",
+		ship_exp = 60,
+		pt_award = 0,
+		id = 7460202,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				7500
+			},
+			{
+				2522,
+				5
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				7500
+			},
+			{
+				2522,
+				5
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460203] = {
+		workload = 180000,
+		name = "Paella",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 60,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460205,
+		affected_vfx = "",
+		ship_exp = 300,
+		pt_award = 0,
+		id = 7460203,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				40000
+			},
+			{
+				5101,
+				11
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				40000
+			},
+			{
+				5101,
+				11
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460204] = {
+		workload = 288000,
+		name = "Buddha's Temptation",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 96,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460206,
+		affected_vfx = "",
+		ship_exp = 480,
+		pt_award = 0,
+		id = 7460204,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				120000
+			},
+			{
+				5108,
+				24
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				120000
+			},
+			{
+				5108,
+				24
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460205] = {
+		workload = 144000,
+		name = "Crayfish Stir-Fry",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 48,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460204,
+		affected_vfx = "",
+		ship_exp = 240,
+		pt_award = 0,
+		id = 7460205,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				20000
+			},
+			{
+				5006,
+				22
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				20000
+			},
+			{
+				5006,
+				22
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
+	[7460206] = {
+		workload = 72000,
+		name = "Lemon Shrimp",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 24,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37460203,
+		affected_vfx = "",
+		ship_exp = 120,
+		pt_award = 0,
+		id = 7460206,
+		collectable_vfx = 0,
+		attribute = 3,
+		cost = {
+			{
+				1,
+				10000
+			},
+			{
+				5005,
+				10
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				10000
+			},
+			{
+				5005,
+				10
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
 	[7500211] = {
 		workload = 600,
 		name = "Coffee Tree Cultivation Techniques",
@@ -11662,6 +13266,51 @@ pg.island_formula = {
 		second_product_display = {},
 		second_product = {}
 	},
+	[7630205] = {
+		workload = 144000,
+		name = "Ornamental Painting",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 12,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37630205,
+		affected_vfx = "",
+		ship_exp = 60,
+		pt_award = 0,
+		id = 7630205,
+		collectable_vfx = 0,
+		attribute = 6,
+		cost = {
+			{
+				1,
+				20000
+			},
+			{
+				5001,
+				50
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				20000
+			},
+			{
+				5001,
+				50
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	},
 	[7640001] = {
 		workload = 36000,
 		name = "Unlock: Manufactured Items",
@@ -12948,6 +14597,396 @@ pg.island_formula = {
 		second_product_display = {},
 		second_product = {}
 	},
+	[9900009] = {
+		workload = 96000,
+		name = "Asparagus",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 60021,
+		stamina_cost = 32,
+		item_id = 4019,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 160,
+		pt_award = 0,
+		id = 9900009,
+		collectable_vfx = 60002,
+		attribute = 1,
+		task_filiter = {
+			1,
+			2
+		},
+		cost = {
+			{
+				4020,
+				1
+			}
+		},
+		drop_display = {
+			{
+				4019,
+				6
+			}
+		},
+		commission_cost = {
+			{
+				4020,
+				3
+			}
+		},
+		commission_product = {
+			{
+				4019,
+				18
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				0,
+				20100
+			},
+			{
+				0.7,
+				20101
+			},
+			{
+				0.9,
+				20161
+			},
+			{
+				1,
+				20162
+			}
+		}
+	},
+	[9900010] = {
+		workload = 54000,
+		name = "Pineapple",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 60021,
+		stamina_cost = 18,
+		item_id = 4021,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 90,
+		pt_award = 0,
+		id = 9900010,
+		collectable_vfx = 60002,
+		attribute = 1,
+		task_filiter = {
+			1,
+			2
+		},
+		cost = {
+			{
+				4022,
+				1
+			}
+		},
+		drop_display = {
+			{
+				4021,
+				4
+			}
+		},
+		commission_cost = {
+			{
+				4022,
+				3
+			}
+		},
+		commission_product = {
+			{
+				4021,
+				12
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				0,
+				20100
+			},
+			{
+				0.7,
+				20101
+			},
+			{
+				0.9,
+				20163
+			},
+			{
+				1,
+				20164
+			}
+		}
+	},
+	[9900011] = {
+		workload = 6000,
+		name = "Fresh Pineapple Juice",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 2,
+		item_id = 4023,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 5,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 10,
+		pt_award = 0,
+		id = 9900011,
+		collectable_vfx = 0,
+		attribute = 4,
+		task_filiter = {
+			1,
+			5
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4021,
+				2
+			}
+		},
+		commission_product = {
+			{
+				4023,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[9900012] = {
+		workload = 24000,
+		name = "Winter Jasmine Tea",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 8,
+		item_id = 4024,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 5,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 40,
+		pt_award = 0,
+		id = 9900012,
+		collectable_vfx = 0,
+		attribute = 4,
+		task_filiter = {
+			1,
+			5
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4017,
+				3
+			},
+			{
+				2014,
+				1
+			}
+		},
+		commission_product = {
+			{
+				4024,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[9900013] = {
+		workload = 9000,
+		name = "Cold Mixed Bamboo Shoots and Asparagus",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 3,
+		item_id = 4025,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 5,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 15,
+		pt_award = 0,
+		id = 9900013,
+		collectable_vfx = 0,
+		attribute = 4,
+		task_filiter = {
+			1,
+			3
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4015,
+				2
+			},
+			{
+				4019,
+				1
+			}
+		},
+		commission_product = {
+			{
+				4025,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[9900014] = {
+		workload = 12000,
+		name = "Shrimp and Asparagus Stir-Fry",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 4,
+		item_id = 4026,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 5,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 20,
+		pt_award = 0,
+		id = 9900014,
+		collectable_vfx = 0,
+		attribute = 4,
+		task_filiter = {
+			1,
+			3
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4019,
+				3
+			},
+			{
+				5005,
+				6
+			}
+		},
+		commission_product = {
+			{
+				4026,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[9900015] = {
+		workload = 48000,
+		name = "Dried Shepherd's Purse",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 16,
+		item_id = 4027,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 5,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 80,
+		pt_award = 0,
+		id = 9900015,
+		collectable_vfx = 0,
+		attribute = 6,
+		task_filiter = {
+			1,
+			4
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4016,
+				2
+			}
+		},
+		commission_product = {
+			{
+				4027,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
+	[9900016] = {
+		workload = 18000,
+		name = "Spring Bouquet",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 6,
+		item_id = 4028,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 5,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 30,
+		pt_award = 0,
+		id = 9900016,
+		collectable_vfx = 0,
+		attribute = 6,
+		task_filiter = {
+			1,
+			4
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4017,
+				2
+			},
+			{
+				4018,
+				1
+			}
+		},
+		commission_product = {
+			{
+				4028,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	},
 	all = {
 		101001,
 		101002,
@@ -12961,6 +15000,22 @@ pg.island_formula = {
 		101015,
 		101016,
 		101018,
+		201001,
+		201002,
+		201003,
+		201004,
+		201005,
+		201006,
+		201007,
+		201008,
+		201101,
+		201102,
+		201103,
+		201104,
+		201105,
+		201106,
+		201107,
+		201108,
 		401001,
 		401002,
 		401004,
@@ -12990,6 +15045,9 @@ pg.island_formula = {
 		601003,
 		601004,
 		601005,
+		601006,
+		601007,
+		601008,
 		601101,
 		601102,
 		602001,
@@ -13007,6 +15065,7 @@ pg.island_formula = {
 		603004,
 		603005,
 		603006,
+		603007,
 		603101,
 		603102,
 		603103,
@@ -13015,6 +15074,8 @@ pg.island_formula = {
 		604004,
 		604005,
 		604006,
+		604007,
+		604008,
 		604101,
 		604102,
 		701001,
@@ -13039,6 +15100,7 @@ pg.island_formula = {
 		701020,
 		701021,
 		701022,
+		701023,
 		901001,
 		901002,
 		901003,
@@ -13073,6 +15135,7 @@ pg.island_formula = {
 		7120004,
 		7120005,
 		7120006,
+		7120007,
 		7100301,
 		7100302,
 		7100303,
@@ -13164,6 +15227,18 @@ pg.island_formula = {
 		7440304,
 		7450301,
 		7450302,
+		7460001,
+		7460002,
+		7460101,
+		7460301,
+		7460102,
+		7460302,
+		7460201,
+		7460202,
+		7460203,
+		7460204,
+		7460205,
+		7460206,
 		7500211,
 		7500212,
 		7500213,
@@ -13217,6 +15292,7 @@ pg.island_formula = {
 		7630202,
 		7630203,
 		7630204,
+		7630205,
 		7640001,
 		7640101,
 		7640201,
@@ -13244,6 +15320,14 @@ pg.island_formula = {
 		9900005,
 		9900006,
 		9900007,
-		9900008
+		9900008,
+		9900009,
+		9900010,
+		9900011,
+		9900012,
+		9900013,
+		9900014,
+		9900015,
+		9900016
 	}
 }

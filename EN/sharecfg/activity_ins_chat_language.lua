@@ -7891,7 +7891,78 @@ pg.activity_ins_chat_language = setmetatable({
 		7888,
 		7889,
 		7890,
-		7891
+		7891,
+		7892,
+		7893,
+		7894,
+		7895,
+		7896,
+		7897,
+		7898,
+		7899,
+		7900,
+		7901,
+		7902,
+		7903,
+		7904,
+		7905,
+		7906,
+		7907,
+		7908,
+		7909,
+		7910,
+		7911,
+		7912,
+		7913,
+		7914,
+		7915,
+		7916,
+		7917,
+		7918,
+		7919,
+		7920,
+		7921,
+		7922,
+		7923,
+		7924,
+		7925,
+		7926,
+		7927,
+		7928,
+		7929,
+		7930,
+		7931,
+		7932,
+		7933,
+		7934,
+		7935,
+		7936,
+		7937,
+		7938,
+		7939,
+		7940,
+		7941,
+		7942,
+		7943,
+		7944,
+		7945,
+		7946,
+		7947,
+		7948,
+		7949,
+		7950,
+		7951,
+		7952,
+		7953,
+		7954,
+		7955,
+		7956,
+		7957,
+		7958,
+		7959,
+		7960,
+		7961,
+		7962
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -77843,5 +77914,656 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 7891,
 		flag = 3
+	},
+	[7892] = {
+		param = "Commander, I wanted to ask you about the port's logistics system.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7892,
+		flag = 0
+	},
+	[7893] = {
+		param = "Do you see any room for improvement?",
+		ship_group = 51901,
+		type = 1,
+		id = 7893,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Didn't we just upgrade the warehouse management system last week?"
+			}
+		}
+	},
+	[7894] = {
+		param = "Didn't we just upgrade the warehouse management system last week?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7894,
+		flag = 1
+	},
+	[7895] = {
+		param = "That's right. Given the amount of money we paid, we need to see an improvement in the user experience.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7895,
+		flag = 1
+	},
+	[7896] = {
+		param = "I worry that focusing only on numbers could make me overlook what really matters.",
+		ship_group = 51901,
+		type = 1,
+		id = 7896,
+		flag = 1,
+		option = {
+			{
+				2,
+				"We could add some recreational facilities?"
+			}
+		}
+	},
+	[7897] = {
+		param = "We could add some recreational facilities?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7897,
+		flag = 2
+	},
+	[7898] = {
+		param = "Good idea! I wouldn't have come up with that on my own.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7898,
+		flag = 2
+	},
+	[7899] = {
+		param = "Mahjong, Go, chess, puzzles, arithmetic exercises... What do you think?",
+		ship_group = 51901,
+		type = 1,
+		id = 7899,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Oh, no... You have no idea how to have fun, do you?"
+			}
+		}
+	},
+	[7900] = {
+		param = "Oh, no... You have no idea how to have fun, do you?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7900,
+		flag = 3
+	},
+	[7901] = {
+		param = "366",
+		ship_group = 51901,
+		option = "",
+		type = 4,
+		id = 7901,
+		flag = 3
+	},
+	[7902] = {
+		param = "Okay... What about movies, games, and bowling?",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7902,
+		flag = 3
+	},
+	[7903] = {
+		param = "Hmm. Darts, board games, and billiards might be nice, too...",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7903,
+		flag = 3
+	},
+	[7904] = {
+		param = "I think I have my thoughts organized now. What are your opinions on the aforementioned?",
+		ship_group = 51901,
+		type = 1,
+		id = 7904,
+		flag = 3,
+		option = {
+			{
+				4,
+				"You want my opinion?"
+			},
+			{
+				5,
+				"Is there anything you want to do?"
+			}
+		}
+	},
+	[7905] = {
+		param = "You want my opinion?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7905,
+		flag = 4
+	},
+	[7906] = {
+		param = "Of course I do.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7906,
+		flag = 4
+	},
+	[7907] = {
+		param = "Is there anything you want to do?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7907,
+		flag = 5
+	},
+	[7908] = {
+		param = "I consider your opinion more important.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7908,
+		flag = 5
+	},
+	[7909] = {
+		param = "You have so many things you need to worry about on a daily basis.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7909,
+		flag = 0
+	},
+	[7910] = {
+		param = "If you could at least kick back and have some fun during your breaks, that would make me feel a little better.",
+		ship_group = 51901,
+		type = 1,
+		id = 7910,
+		flag = 0,
+		option = {
+			{
+				6,
+				"Knowing you feel that way..."
+			}
+		}
+	},
+	[7911] = {
+		param = "Knowing you feel that way makes me feel relaxed already.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7911,
+		flag = 6
+	},
+	[7912] = {
+		param = "Thanks, Ting An.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7912,
+		flag = 6
+	},
+	[7913] = {
+		param = "No problem. I was just doing my job.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7913,
+		flag = 6
+	},
+	[7914] = {
+		param = "Your feelings are always my top priority, Commander.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7914,
+		flag = 6
+	},
+	[7915] = {
+		param = "Tea or coffee",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7915,
+		flag = 0
+	},
+	[7916] = {
+		param = "Which one do you think suits today's weather better?",
+		ship_group = 51901,
+		type = 1,
+		id = 7916,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Hot tea, maybe?"
+			},
+			{
+				2,
+				"How about iced coffee?"
+			}
+		}
+	},
+	[7917] = {
+		param = "It's chilly out. I'm in the mood for a cup of tea.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7917,
+		flag = 1
+	},
+	[7918] = {
+		param = "Good choice.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7918,
+		flag = 1
+	},
+	[7919] = {
+		param = "Hot tea would go perfectly with delicious, melty red velvet cake.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7919,
+		flag = 1
+	},
+	[7920] = {
+		param = "It's hot out. I'm in the mood for iced coffee.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7920,
+		flag = 2
+	},
+	[7921] = {
+		param = "Good choice.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7921,
+		flag = 2
+	},
+	[7922] = {
+		param = "Iced coffee would go perfectly with rich, sweet chocolate cookies.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7922,
+		flag = 2
+	},
+	[7923] = {
+		param = "Duly noted. Now, for another question.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7923,
+		flag = 0
+	},
+	[7924] = {
+		param = "How do you like to spend your days off?",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7924,
+		flag = 0
+	},
+	[7925] = {
+		param = "Do you prefer to relax at home? Or are you the kind of person to go out in your free time?",
+		ship_group = 51901,
+		type = 1,
+		id = 7925,
+		flag = 0,
+		option = {
+			{
+				3,
+				"What's with all the questions?"
+			}
+		}
+	},
+	[7926] = {
+		param = "What's with all the questions?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7926,
+		flag = 3
+	},
+	[7927] = {
+		param = "Any investor worth her salt knows that up-to-date information is essential.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7927,
+		flag = 3
+	},
+	[7928] = {
+		param = "Besides, this is about you, Commander. That makes it precious knowledge.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7928,
+		flag = 3
+	},
+	[7929] = {
+		param = "I can use it to plan future dates, and it has real commercial value.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7929,
+		flag = 3
+	},
+	[7930] = {
+		param = "If used well, it could even impact the entire port's markets!",
+		ship_group = 51901,
+		type = 1,
+		id = 7930,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Dates?"
+			}
+		}
+	},
+	[7931] = {
+		param = "Did you just say \"dates\"?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7931,
+		flag = 4
+	},
+	[7932] = {
+		param = "Oh? Did I say that? Surely not.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7932,
+		flag = 4
+	},
+	[7933] = {
+		param = "I wouldn't give away my intentions that easily.",
+		ship_group = 51901,
+		type = 1,
+		id = 7933,
+		flag = 4,
+		option = {
+			{
+				5,
+				"It's right there..."
+			}
+		}
+	},
+	[7934] = {
+		param = "It's right there in our chat log.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7934,
+		flag = 5
+	},
+	[7935] = {
+		param = "Oh, no... I typed out what I was really thinking.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7935,
+		flag = 5
+	},
+	[7936] = {
+		param = "Well... Umm, as you can see...",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7936,
+		flag = 5
+	},
+	[7937] = {
+		param = "What I really want to ask is... would you like to stay in and drink tea with me, or should we go out together?",
+		ship_group = 51901,
+		type = 1,
+		id = 7937,
+		flag = 5,
+		option = {
+			{
+				6,
+				"Why not both?"
+			}
+		}
+	},
+	[7938] = {
+		param = "Why not both?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7938,
+		flag = 6
+	},
+	[7939] = {
+		param = "You're a greedy one, Commander.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7939,
+		flag = 6
+	},
+	[7940] = {
+		param = "But okay. If that's what you want, then I'd be happy to accompany you.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7940,
+		flag = 6
+	},
+	[7941] = {
+		param = "Good morning, Commander. Did you sleep well last night?",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7941,
+		flag = 0
+	},
+	[7942] = {
+		param = "Is the mattress I got you nice and comfy?",
+		ship_group = 51901,
+		type = 1,
+		id = 7942,
+		flag = 0,
+		option = {
+			{
+				1,
+				"It's very comfy."
+			}
+		}
+	},
+	[7943] = {
+		param = "It's very comfy. I slept better than ever.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7943,
+		flag = 1
+	},
+	[7944] = {
+		param = "370",
+		ship_group = 51901,
+		option = "",
+		type = 4,
+		id = 7944,
+		flag = 1
+	},
+	[7945] = {
+		param = "Wonderful! I'll have a new mattress delivered to you every two days over the next fortnight.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7945,
+		flag = 1
+	},
+	[7946] = {
+		param = "If you'll take the time, I want you to try each one out.",
+		ship_group = 51901,
+		type = 1,
+		id = 7946,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Why am I a mattress tester now?"
+			}
+		}
+	},
+	[7947] = {
+		param = "Why am I a mattress tester now?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7947,
+		flag = 2
+	},
+	[7948] = {
+		param = "It's all part of my Sleep Improvement Project.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7948,
+		flag = 2
+	},
+	[7949] = {
+		param = "Many bedding brands have been seeking investors lately, and I think this field has a lot of potential.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7949,
+		flag = 2
+	},
+	[7950] = {
+		param = "Investment can't just be based on financial reports. I want to know the real quality of each product.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7950,
+		flag = 2
+	},
+	[7951] = {
+		param = "And if I do invest in one of them, you'll get to use plenty of nice mattresses in the future!",
+		ship_group = 51901,
+		type = 1,
+		id = 7951,
+		flag = 2,
+		option = {
+			{
+				3,
+				"So that makes me..."
+			}
+		}
+	},
+	[7952] = {
+		param = "So that makes me the Chief Experience Officer now?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7952,
+		flag = 3
+	},
+	[7953] = {
+		param = "You could say so. Don't feel pressured, though – just share which ones you like.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7953,
+		flag = 3
+	},
+	[7954] = {
+		param = "I'll handle the nitty-gritty of evaluation and data analysis.",
+		ship_group = 51901,
+		type = 1,
+		id = 7954,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Why don't you try them?"
+			}
+		}
+	},
+	[7955] = {
+		param = "Why don't you try them?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7955,
+		flag = 4
+	},
+	[7956] = {
+		param = "I'm testing the basic models myself. Investment demands caution, and cash flow management is no small part of the process.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7956,
+		flag = 4
+	},
+	[7957] = {
+		param = "Your job is to use the ones that require the most careful evaluation.",
+		ship_group = 51901,
+		type = 1,
+		id = 7957,
+		flag = 4,
+		option = {
+			{
+				5,
+				"If you're doing research..."
+			}
+		}
+	},
+	[7958] = {
+		param = "If you're doing research, then shouldn't we use the same ones? That would let you compare the data.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7958,
+		flag = 5
+	},
+	[7959] = {
+		param = "You're not wrong, Commander.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7959,
+		flag = 5
+	},
+	[7960] = {
+		param = "Hehe. In that case, I'll have to trouble you for even longer.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7960,
+		flag = 5
+	},
+	[7961] = {
+		param = "Once your next mattresses arrive, we'll start \"testing them out\" together every night.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7961,
+		flag = 5
+	},
+	[7962] = {
+		param = "For the sake of future investments... and our sweet dreams!",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7962,
+		flag = 5
 	}
 }

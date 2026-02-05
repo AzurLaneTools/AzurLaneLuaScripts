@@ -27,10 +27,8 @@ slot0.Update = function(slot0, slot1, slot2)
 		slot0.offlineTxt.text = getOfflineTimeStamp(slot1.preOnLineTime)
 	end
 
-	slot5 = slot2:GetSignInAgency():IsInvited(slot1.id)
-
-	setActive(slot0.btn, not slot5)
-	setActive(slot0.btn1, slot5)
+	setActive(slot0.btn, not slot2)
+	setActive(slot0.btn1, slot2)
 end
 
 return slot0

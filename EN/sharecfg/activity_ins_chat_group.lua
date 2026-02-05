@@ -10884,6 +10884,110 @@ pg.activity_ins_chat_group = {
 			7891
 		}
 	},
+	{
+		ship_group = 51901,
+		name = "Logistical Support",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
+		id = 259,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			7892,
+			7893,
+			7894,
+			7895,
+			7896,
+			7897,
+			7898,
+			7899,
+			7900,
+			7901,
+			7902,
+			7903,
+			7904,
+			7905,
+			7906,
+			7907,
+			7908,
+			7909,
+			7910,
+			7911,
+			7912,
+			7913,
+			7914
+		}
+	},
+	{
+		ship_group = 51901,
+		name = "Precious Knowledge",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
+		id = 260,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			7915,
+			7916,
+			7917,
+			7918,
+			7919,
+			7920,
+			7921,
+			7922,
+			7923,
+			7924,
+			7925,
+			7926,
+			7927,
+			7928,
+			7929,
+			7930,
+			7931,
+			7932,
+			7933,
+			7934,
+			7935,
+			7936,
+			7937,
+			7938,
+			7939,
+			7940
+		}
+	},
+	{
+		ship_group = 51901,
+		name = "Comfy Night",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
+		id = 261,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			7941,
+			7942,
+			7943,
+			7944,
+			7945,
+			7946,
+			7947,
+			7948,
+			7949,
+			7950,
+			7951,
+			7952,
+			7953,
+			7954,
+			7955,
+			7956,
+			7957,
+			7958,
+			7959,
+			7960,
+			7961,
+			7962
+		}
+	},
 	get_id_list_by_ship_group = {
 		[960007] = {
 			1,
@@ -11326,6 +11430,11 @@ pg.activity_ins_chat_group = {
 			256,
 			257,
 			258
+		},
+		[51901] = {
+			259,
+			260,
+			261
 		}
 	},
 	all = {
@@ -11586,6 +11695,9 @@ pg.activity_ins_chat_group = {
 		255,
 		256,
 		257,
-		258
+		258,
+		259,
+		260,
+		261
 	}
 }

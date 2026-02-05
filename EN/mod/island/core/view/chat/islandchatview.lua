@@ -245,6 +245,18 @@ slot0.OnInitItem = function(slot0, slot1)
 		uv1:NotifiyMeditor(IslandBaseMediator.OPEN_FRIEND_INFO, uv0.sender.id, uv0.otherBubble.circle.position, uv0.data.content)
 	end)
 
+	slot5 = slot2.otherBubble.tf
+
+	onButton(slot0, slot5:Find("chat_fram"), function ()
+		slot0 = uv0.sender.id
+
+		if uv0:IsTradeLink() then
+			uv1:NotifiyMeditor(IslandMediator.ENTER_ISLAND, slot0)
+		else
+			triggerButton(uv0.otherBubble.tf)
+		end
+	end)
+
 	slot0.cards[slot1] = slot2
 end
 

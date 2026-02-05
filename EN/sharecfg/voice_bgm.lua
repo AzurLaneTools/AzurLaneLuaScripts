@@ -2724,5 +2724,10 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-fashion-pv",
 		special_bgm = "",
 		bgm = "story-richang-fashion-pv"
+	},
+	LightLoginTemplatePage = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
 	}
 }

@@ -94,7 +94,7 @@ slot0.didEnter = function(slot0)
 		slot1 = uv1.PAGE_ADVENTURE
 	end
 
-	triggerToggle(slot0._tf:Find(tostring(slot1), slot0.togglesTF), true)
+	triggerToggle(slot0.togglesTF:Find(tostring(slot1)), true)
 	slot0:UpdateAdventureTip()
 end
 

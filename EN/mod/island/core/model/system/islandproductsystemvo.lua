@@ -36,10 +36,8 @@ slot0.InitCfgData = function(slot0)
 end
 
 slot0.InitCommissionEffectCfg = function(slot0)
-	slot2 = pg.island_set.island_fishery_bubble_vfx and slot1.key_value_varchar or {}
-
-	for slot6, slot7 in ipairs(slot2) do
-		slot0.commissionEffectDic[slot7[1]] = slot7[2]
+	for slot5, slot6 in ipairs(pg.island_set.island_fishery_bubble_vfx.key_value_varchar) do
+		slot0.commissionEffectDic[slot6[1]] = slot6[2]
 	end
 end
 
@@ -84,6 +82,7 @@ slot0.GetUnitDatas = function(slot0)
 	slot0:GenHandCollectSlot(slot1)
 	slot0:GenHandPlantSlot(slot1)
 	slot0:GenAnimalBySlot(slot1)
+	slot0:GenPlaceModelUnit(slot1)
 	slot0:GenPlaceSlotModelUnit(slot1)
 
 	return slot1

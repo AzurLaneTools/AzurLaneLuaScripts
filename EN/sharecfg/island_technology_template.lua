@@ -37,7 +37,8 @@ pg.island_technology_template = setmetatable({
 			110309,
 			120005,
 			110310,
-			120006
+			120006,
+			120007
 		},
 		{
 			210101,
@@ -118,7 +119,19 @@ pg.island_technology_template = setmetatable({
 			430304,
 			450301,
 			440304,
-			450302
+			450302,
+			460001,
+			460002,
+			460101,
+			460301,
+			460102,
+			460302,
+			460201,
+			460202,
+			460203,
+			460204,
+			460205,
+			460206
 		},
 		{
 			500211,
@@ -188,6 +201,7 @@ pg.island_technology_template = setmetatable({
 			660202,
 			660203,
 			650001,
+			630205,
 			630204,
 			660204,
 			640204,
@@ -237,6 +251,7 @@ pg.island_technology_template = setmetatable({
 		120005,
 		110310,
 		120006,
+		120007,
 		210101,
 		220101,
 		220501,
@@ -312,6 +327,18 @@ pg.island_technology_template = setmetatable({
 		450301,
 		440304,
 		450302,
+		460001,
+		460002,
+		460101,
+		460301,
+		460102,
+		460302,
+		460201,
+		460202,
+		460203,
+		460204,
+		460205,
+		460206,
 		500211,
 		500212,
 		500231,
@@ -377,6 +404,7 @@ pg.island_technology_template = setmetatable({
 		660202,
 		660203,
 		650001,
+		630205,
 		630204,
 		660204,
 		640204,
@@ -1529,6 +1557,40 @@ pg.base.island_technology_template = {
 		axis = {
 			28,
 			1
+		}
+	},
+	[120007] = {
+		complete_title = "You can now activate an <color=#1E8FFE>Island Authority Permit</color> at the <color=#1E8FFE>Island Base</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "You can now activate an <color=#1E8FFE>Island Authority Permit</color> at the <color=#1E8FFE>Island Base</color>.",
+		island_level = 50,
+		tech_desc = "Produces an Island Authority Authenticator for Prinz Eugen. Go and recruit some new friends!",
+		tech_icon = "tech_120001",
+		tech_belong = 1,
+		tech_name = "Additional Permit",
+		formula_id = 7120007,
+		id = 120007,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				110310
+			},
+			{
+				3,
+				120006
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			2
 		}
 	},
 	[210101] = {
@@ -3408,7 +3470,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			1,
-			7
+			6
 		}
 	},
 	[430301] = {
@@ -3439,8 +3501,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			4,
-			5
+			6,
+			4.5
 		}
 	},
 	[430302] = {
@@ -3471,8 +3533,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			7,
-			5
+			9,
+			4.5
 		}
 	},
 	[440301] = {
@@ -3503,8 +3565,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			7,
-			7
+			4,
+			6
 		}
 	},
 	[440302] = {
@@ -3535,8 +3597,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
-			7
+			7,
+			6
 		}
 	},
 	[420303] = {
@@ -3567,7 +3629,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
+			11,
 			3
 		}
 	},
@@ -3599,7 +3661,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
+			11,
 			1
 		}
 	},
@@ -3632,7 +3694,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			13,
-			5
+			4.5
 		}
 	},
 	[410304] = {
@@ -3663,7 +3725,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			13,
+			14,
 			1
 		}
 	},
@@ -3695,8 +3757,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			13,
-			7
+			10,
+			6
 		}
 	},
 	[410305] = {
@@ -3727,7 +3789,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
+			17,
 			1
 		}
 	},
@@ -3759,7 +3821,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
+			17,
 			3
 		}
 	},
@@ -3791,8 +3853,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
-			5
+			19,
+			4.5
 		}
 	},
 	[450301] = {
@@ -3817,7 +3879,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			16,
-			9
+			6
 		}
 	},
 	[440304] = {
@@ -3848,8 +3910,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
-			7
+			13,
+			6
 		}
 	},
 	[450302] = {
@@ -3879,7 +3941,415 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			19,
-			9
+			6
+		}
+	},
+	[460001] = {
+		complete_title = "Can be viewed at <color=#1E8FFE>fishing spots</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "Can be viewed at <color=#1E8FFE>fishing spots</color>.",
+		island_level = 18,
+		tech_desc = "Upgrades your fishing rod so you can catch even rarer fish!",
+		tech_icon = "tech_460001",
+		tech_belong = 4,
+		tech_name = "Fishing Rod Upgrade I",
+		formula_id = 7460001,
+		id = 460001,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				1,
+				20016001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			1,
+			8
+		}
+	},
+	[460002] = {
+		complete_title = "Can be viewed at <color=#1E8FFE>fishing spots</color>.",
+		tech_level = "2",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "Can be viewed at <color=#1E8FFE>fishing spots</color>.",
+		island_level = 27,
+		tech_desc = "Upgrades your fishing rod so you can catch even rarer fish!",
+		tech_icon = "tech_460002",
+		tech_belong = 4,
+		tech_name = "Fishing Rod Upgrade II",
+		formula_id = 7460002,
+		id = 460002,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			4,
+			8
+		}
+	},
+	[460101] = {
+		complete_title = "You can assign characters to <color=#1E8FFE>cultivate fish</color> at the fish hatchery by speaking to <color=#1E8FFE>Britain</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "You can assign characters to <color=#1E8FFE>cultivate fish</color> at the fish hatchery by speaking to <color=#1E8FFE>Britain</color>.",
+		island_level = 20,
+		tech_desc = "Increases the number of fish hatchery slots, raising the production output of marine products.",
+		tech_icon = "tech_460101",
+		tech_belong = 4,
+		tech_name = "Fish Hatchery Slot+ I",
+		formula_id = 7460101,
+		id = 460101,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			7,
+			8
+		}
+	},
+	[460301] = {
+		complete_title = "You can assign characters to <color=#1E8FFE>cultivate fish</color> at the fish hatchery by speaking to <color=#1E8FFE>Britain</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "You can assign characters to <color=#1E8FFE>cultivate fish</color> at the fish hatchery by speaking to <color=#1E8FFE>Britain</color>.",
+		island_level = 29,
+		tech_desc = "Increases the cultivation efficiency of the fish hatchery, making resource acquisition quicker.",
+		tech_icon = "tech_460301",
+		tech_belong = 4,
+		tech_name = "Fish Cultivation Efficiency+ I",
+		formula_id = 7460301,
+		id = 460301,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460101
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			10,
+			8
+		}
+	},
+	[460102] = {
+		complete_title = "You can assign characters to <color=#1E8FFE>cultivate fish</color> at the fish hatchery by speaking to <color=#1E8FFE>Britain</color>.",
+		tech_level = "2",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "You can assign characters to <color=#1E8FFE>cultivate fish</color> at the fish hatchery by speaking to <color=#1E8FFE>Britain</color>.",
+		island_level = 31,
+		tech_desc = "Increases the number of fish hatchery slots, raising the production output of marine products.",
+		tech_icon = "tech_460102",
+		tech_belong = 4,
+		tech_name = "Fish Hatchery Slot+ II",
+		formula_id = 7460102,
+		id = 460102,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460301
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			13,
+			8
+		}
+	},
+	[460302] = {
+		complete_title = "You can assign characters to <color=#1E8FFE>cultivate fish</color> at the fish hatchery by speaking to <color=#1E8FFE>Britain</color>.",
+		tech_level = "2",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "You can assign characters to <color=#1E8FFE>cultivate fish</color> at the fish hatchery by speaking to <color=#1E8FFE>Britain</color>.",
+		island_level = 34,
+		tech_desc = "Increases the cultivation efficiency of the fish hatchery, making resource acquisition quicker.",
+		tech_icon = "tech_460302",
+		tech_belong = 4,
+		tech_name = "Fish Cultivation Efficiency+ II",
+		formula_id = 7460302,
+		id = 460302,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460102
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			16,
+			8
+		}
+	},
+	[460201] = {
+		complete_title = "Can be viewed at the <color=#1E8FFE>Golden Koi Restaurant</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Golden Koi Restaurant</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		island_level = 12,
+		tech_desc = "Fish & Chips Recipe",
+		tech_icon = "tech_460201",
+		tech_belong = 4,
+		tech_name = "Fish & Chips",
+		formula_id = 7460201,
+		id = 460201,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			1,
+			9.5
+		}
+	},
+	[460202] = {
+		complete_title = "Can be viewed at the <color=#1E8FFE>Golden Koi Restaurant</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Golden Koi Restaurant</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		island_level = 18,
+		tech_desc = "Steamed Fish with Onions Recipe",
+		tech_icon = "tech_460202",
+		tech_belong = 4,
+		tech_name = "Steamed Fish with Onions",
+		formula_id = 7460202,
+		id = 460202,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			4,
+			9.5
+		}
+	},
+	[460203] = {
+		complete_title = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		island_level = 21,
+		tech_desc = "Lemon Shrimp Recipe",
+		tech_icon = "tech_460206",
+		tech_belong = 4,
+		tech_name = "Lemon Shrimp",
+		formula_id = 7460206,
+		id = 460203,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				540001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			7,
+			9.5
+		}
+	},
+	[460204] = {
+		complete_title = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		island_level = 25,
+		tech_desc = "Crayfish Stir-Fry Recipe",
+		tech_icon = "tech_460205",
+		tech_belong = 4,
+		tech_name = "Crayfish Stir-Fry",
+		formula_id = 7460205,
+		id = 460204,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				540001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			10,
+			9.5
+		}
+	},
+	[460205] = {
+		complete_title = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		island_level = 29,
+		tech_desc = "Paella Recipe",
+		tech_icon = "tech_460203",
+		tech_belong = 4,
+		tech_name = "Paella",
+		formula_id = 7460203,
+		id = 460205,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				530001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			13,
+			9.5
+		}
+	},
+	[460206] = {
+		complete_title = "Can be viewed at the <color=#1E8FFE>Golden Koi Restaurant</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Golden Koi Restaurant</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
+		island_level = 36,
+		tech_desc = "Buddha's Temptation Recipe",
+		tech_icon = "tech_460204",
+		tech_belong = 4,
+		tech_name = "Buddha's Temptation",
+		formula_id = 7460204,
+		id = 460206,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			16,
+			9.5
 		}
 	},
 	[500211] = {
@@ -4765,11 +5235,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530205] = {
-		complete_title = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 18,
 		tech_desc = "Allows for the production of aromatic, crunchy, and sweet Apple Pie.",
 		tech_icon = "tech_530201",
@@ -4829,11 +5299,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530206] = {
-		complete_title = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 19,
 		tech_desc = "Allows for the production of sweet, sour, and crunchy Orange Pie.",
 		tech_icon = "tech_530201",
@@ -4861,11 +5331,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530202] = {
-		complete_title = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 20,
 		tech_desc = "Allows for the production of sweet and doughy Sticky Rice with Mango.",
 		tech_icon = "tech_530201",
@@ -4961,11 +5431,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540001] = {
-		complete_title = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 22,
 		tech_desc = "Oh yeah, it's barbecue time!",
 		tech_icon = "tech_540001",
@@ -4997,11 +5467,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540201] = {
-		complete_title = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 23,
 		tech_desc = "Allows for the production of simple and tasty Chicken and Potato Hors d'Oeuvres.",
 		tech_icon = "tech_540201",
@@ -5065,11 +5535,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530203] = {
-		complete_title = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 24,
 		tech_desc = "Allows for the production of soft and sweet Banana Crêpes.",
 		tech_icon = "tech_530201",
@@ -5133,11 +5603,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540202] = {
-		complete_title = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 27,
 		tech_desc = "Allows for the production of abundantly fragrant Stir-Fried Chicken.",
 		tech_icon = "tech_540201",
@@ -5165,11 +5635,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530204] = {
-		complete_title = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Manjuu Eatery</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 28,
 		tech_desc = "Allows for the production of mildly flavored Strawberry Charlottes.",
 		tech_icon = "tech_530201",
@@ -5197,11 +5667,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540204] = {
-		complete_title = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 29,
 		tech_desc = "Allows for the production of texture-rich Rolled Carrot Omelettes.",
 		tech_icon = "tech_540201",
@@ -5265,11 +5735,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540205] = {
-		complete_title = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_title = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "You can now check <color=#1E8FFE>the Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar in the commercial area</color>.",
+		complete_tips = "Can be viewed at the <color=#1E8FFE>Fin-'n'-Feather Grill</color> with <color=#1E8FFE>Am-Mer-Mar at the commercial area</color>.",
 		island_level = 32,
 		tech_desc = "Allows for the production of delicious and convenient Steak Bowls.",
 		tech_icon = "tech_540201",
@@ -6032,6 +6502,38 @@ pg.base.island_technology_template = {
 			9
 		}
 	},
+	[630205] = {
+		complete_title = "You can now perform <color=#1E8FFE>lumber production</color> with <color=#1E8FFE>Russell in the Base Factory by the harbor</color>.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "Can be made with <color=#1E8FFE>lumber production equipment</color> by speaking to Russell at the <color=#1E8FFE>Base Factory</color>.",
+		island_level = 24,
+		tech_desc = "Allows you to make an ornamental painting that adds an artistic vibe.",
+		tech_icon = "tech_630201",
+		tech_belong = 6,
+		tech_name = "Ornamental Painting",
+		formula_id = 7630205,
+		id = 630205,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				630203
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100900
+		},
+		axis = {
+			19,
+			3
+		}
+	},
 	[630204] = {
 		complete_title = "You can now perform <color=#1E8FFE>lumber production</color> with <color=#1E8FFE>Russell in the Base Factory by the harbor</color>.",
 		tech_level = "1",
@@ -6049,7 +6551,7 @@ pg.base.island_technology_template = {
 		sys_unlock = {
 			{
 				3,
-				630203
+				630205
 			}
 		},
 		tech_repeat = {
@@ -6060,7 +6562,7 @@ pg.base.island_technology_template = {
 			100900
 		},
 		axis = {
-			19,
+			22,
 			3
 		}
 	},

@@ -149,6 +149,16 @@ slot0.register = function(slot0)
 
 		uv0:HandFishingStateChange(slot0)
 	end)
+	slot0:on(21242, function (slot0)
+		if not uv0:IsCurrentIsland(slot0.island_id) then
+			return
+		end
+
+		uv0:UpdateTradePrice(slot0)
+	end)
+	slot0:on(21247, function (slot0)
+		uv0:HandleTradeNotify(slot0)
+	end)
 end
 
 slot0.HandFishingStart = function(slot0, slot1)
@@ -166,6 +176,10 @@ slot0.HandFishingStateChange = function(slot0, slot1)
 		fishPointId = slot1.point_id,
 		op = slot1.type
 	})
+end
+
+slot0.UpdateTradePrice = function(slot0, slot1)
+	slot0:GetIsland():GetTradeAgency():UpdateTodayPrice(slot1.today_price.timestamp, slot1.today_price.price)
 end
 
 slot0.HandleAgoraData = function(slot0, slot1)
@@ -317,6 +331,21 @@ slot0.HandleSignInData = function(slot0, slot1)
 	slot2:UpdateGiftEndTime(slot1.gift_timestamp)
 	slot2:UpdateFetchedList(slot1.gift_visitor)
 	slot2:SetGiftCnt(slot1.gift_count)
+end
+
+slot0.HandleTradeNotify = function(slot0, slot1)
+	if not IslandVisitorLog.New({
+		id = slot1.island_id,
+		cmd = IslandConst.VISITOR_LOG_CMD_TRADE,
+		name = getProxy(FriendProxy):getFriend(slot1.island_id) and slot2:GetName() or "",
+		time = pg.TimeMgr.GetInstance():GetServerTime(),
+		mapId = slot1.map_id,
+		extraInfo = slot1.price
+	}):BuildWhitoutTime() or slot5 == "" then
+		return
+	end
+
+	pg.IslandVisitorNotificationMgr.GetInstance():Enqueue(slot4)
 end
 
 slot0.HandleSignInNotify = function(slot0, slot1)

@@ -293,7 +293,7 @@ slot0.AddFinishId = function(slot0, slot1)
 		slot0.finishedDailyCntInWeek = slot0.finishedDailyCntInWeek + 1
 	end
 
-	slot0:DispatchEvent(uv0.TASK_FINISH)
+	slot0:DispatchEvent(uv0.TASK_FINISH, slot1)
 end
 
 slot0.RemoveTask = function(slot0, slot1)

@@ -5,6 +5,8 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.name = slot1.name or ""
 	slot0.time = slot1.time or 0
 	slot0.cmd = slot1.cmd or 1
+	slot0.mapId = slot1.mapId
+	slot0.extraInfo = slot1.extraInfo
 end
 
 slot0.IsSelf = function(slot0)
@@ -34,6 +36,8 @@ slot0.GetOpDesc = function(slot0)
 		return i18n("island_log_exit")
 	elseif slot0.cmd == IslandConst.VISITOR_LOG_CMD_GIFT then
 		return i18n("island_log_gift")
+	elseif slot0.cmd == IslandConst.VISITOR_LOG_CMD_TRADE then
+		return i18n("island_log_trade")
 	end
 
 	return ""
@@ -48,6 +52,8 @@ slot0._Build = function(slot0, slot1)
 		slot2 = slot1 .. " " .. slot0.name .. i18n("island_log_exit")
 	elseif slot0.cmd == IslandConst.VISITOR_LOG_CMD_GIFT then
 		slot2 = slot1 .. " " .. slot0.name .. i18n("island_log_gift")
+	elseif slot0.cmd == IslandConst.VISITOR_LOG_CMD_TRADE then
+		slot2 = slot1 .. " " .. i18n("island_trade_msg_pop", slot0.name, pg.island_map[slot0.mapId].name, slot0.extraInfo)
 	end
 
 	return slot2

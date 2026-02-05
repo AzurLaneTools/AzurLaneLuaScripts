@@ -3833,9 +3833,13 @@ pg.skill_data_display = setmetatable({
 		1012570,
 		1012571,
 		1012572,
+		1014660,
+		1014661,
+		1014662,
 		1012580,
 		1012581,
 		1012582,
+		1019160,
 		1014990,
 		1014991,
 		1014992,
@@ -19246,6 +19250,18 @@ pg.base.skill_data_display = {
 		id = 1012572,
 		name = "Supporting Wings+"
 	},
+	[1014660] = {
+		id = 1014660,
+		name = "Strike Orders Received!+"
+	},
+	[1014661] = {
+		id = 1014661,
+		name = "Strike Orders Received!+"
+	},
+	[1014662] = {
+		id = 1014662,
+		name = "Strike Orders Received!+"
+	},
 	[1012580] = {
 		id = 1012580,
 		name = "Don't Move An Inch!"
@@ -19257,6 +19273,10 @@ pg.base.skill_data_display = {
 	[1012582] = {
 		id = 1012582,
 		name = "Don't Move An Inch!"
+	},
+	[1019160] = {
+		id = 1019160,
+		name = "Heavy Barrel Blaster +"
 	},
 	[1014990] = {
 		id = 1014990,

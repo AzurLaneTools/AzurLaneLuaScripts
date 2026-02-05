@@ -1,6 +1,7 @@
 slot0 = class("IslandPostManagePage", import("...base.IslandBasePage"))
 slot0.PAGE_PROD = "prod"
 slot0.PAGE_REST = "rest"
+slot0.EVENT_SHOW_SP_EVENT_TIP = "IslandPostManagePage:EVENT_SHOW_SP_EVENT_TIP"
 
 slot0.getUIName = function(slot0)
 	return "IslandPostManageUI"
@@ -32,6 +33,21 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	slot0:bind(uv0.EVENT_SHOW_SP_EVENT_TIP, function (slot0, slot1, slot2)
+		setParent(uv0._tf, pg.UIMgr.GetInstance().UIMain)
+		uv0:ShowMsgBox({
+			type = IslandMsgBox.TYPE_ISLAND_POST_EVENT,
+			rest = slot1,
+			isNew = slot2,
+			onHide = function ()
+				setParent(uv0._tf, pg.UIMgr.GetInstance().OverlayMain)
+			end,
+			onYes = function ()
+				uv0.pages[uv1.PAGE_REST]:TriggerEvent(uv2.id)
+			end
+		})
+	end)
+
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("top/title/help"), function ()
