@@ -3,17 +3,17 @@ slot0 = class("GetIslandDataCommand", pm.SimpleCommand)
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
-	slot0:GetIslandData(slot2.id, slot2.list, slot2.isCardRequest, slot2.callback, slot2.reconnect)
+	slot0:GetIslandData(slot2.id, slot2.list, slot2.isCardRequest, slot2.callback, slot2.reconnect, slot2.checkCanEnterMap)
 end
 
-slot0.GetIslandData = function(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.GetIslandData = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if LOCK_ISLAND_DISPLAY then
 		return
 	end
 
-	slot6 = pg.ConnectionMgr.GetInstance()
+	slot7 = pg.ConnectionMgr.GetInstance()
 
-	slot6:Send(21200, {
+	slot7:Send(21200, {
 		island_id = slot1
 	}, 21201, function (slot0)
 		slot3 = (uv0:IsSelf(uv1) and Island or SharedIsland).New(slot0.island)
@@ -53,6 +53,13 @@ slot0.GetIslandData = function(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 
 		uv0:AfterIslandInit()
+
+		if uv6 then
+			existCall(uv6)
+
+			return
+		end
+
 		uv0:sendNotification(GAME.ISLAND_ENTER_MAP, {
 			islandId = uv1,
 			mapId = slot3:GetMapId(),

@@ -7,6 +7,16 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.activityNpcs = {}
 end
 
+slot0.ExistTradeNpc = function(slot0)
+	for slot4, slot5 in pairs(slot0.activityNpcs) do
+		if pg.island_world_objects[slot5] and slot6.type == 1 and slot6.unitId == 101500 then
+			return true, slot5
+		end
+	end
+
+	return false
+end
+
 slot0.InitNpcList = function(slot0, slot1)
 	slot0.activityNpcs = {}
 

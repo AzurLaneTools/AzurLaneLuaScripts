@@ -186,7 +186,14 @@ pg.island_task = setmetatable({
 			20014002,
 			20014003,
 			20015001,
-			20015002
+			20015002,
+			20016001,
+			20016002,
+			20016003,
+			20016004,
+			20017001,
+			20017002,
+			20017003
 		},
 		{
 			30000001,
@@ -247,6 +254,7 @@ pg.island_task = setmetatable({
 		},
 		[5] = {
 			50000001,
+			50000002,
 			50001001,
 			50001002,
 			50001003,
@@ -254,6 +262,13 @@ pg.island_task = setmetatable({
 			50001005,
 			50001006,
 			50001007,
+			50001008,
+			50001009,
+			50001010,
+			50001011,
+			50001012,
+			50001013,
+			50001014,
 			50002001,
 			50002002,
 			50002003,
@@ -261,10 +276,21 @@ pg.island_task = setmetatable({
 			50002005,
 			50002006,
 			50002007,
+			50002008,
+			50002009,
+			50002010,
+			50002011,
+			50002012,
+			50002013,
+			50002014,
 			50003001,
 			50003002,
 			50003003,
-			50003004
+			50003004,
+			50003005,
+			50003006,
+			50003007,
+			50003008
 		},
 		[8] = {
 			80001001,
@@ -326,7 +352,37 @@ pg.island_task = setmetatable({
 			80001127,
 			80001128,
 			80001129,
-			80001130
+			80001130,
+			80001201,
+			80001202,
+			80001203,
+			80001204,
+			80001205,
+			80001206,
+			80001207,
+			80001208,
+			80001209,
+			80001210,
+			80001211,
+			80001212,
+			80001213,
+			80001214,
+			80001215,
+			80001216,
+			80001217,
+			80001218,
+			80001219,
+			80001220,
+			80001221,
+			80001222,
+			80001223,
+			80001224,
+			80001225,
+			80001226,
+			80001227,
+			80001228,
+			80001229,
+			80001230
 		},
 		[9] = {
 			20013000
@@ -421,6 +477,7 @@ pg.island_task = setmetatable({
 		10004030,
 		10019999,
 		50000001,
+		50000002,
 		50001001,
 		50001002,
 		50001003,
@@ -428,6 +485,13 @@ pg.island_task = setmetatable({
 		50001005,
 		50001006,
 		50001007,
+		50001008,
+		50001009,
+		50001010,
+		50001011,
+		50001012,
+		50001013,
+		50001014,
 		50002001,
 		50002002,
 		50002003,
@@ -435,10 +499,21 @@ pg.island_task = setmetatable({
 		50002005,
 		50002006,
 		50002007,
+		50002008,
+		50002009,
+		50002010,
+		50002011,
+		50002012,
+		50002013,
+		50002014,
 		50003001,
 		50003002,
 		50003003,
 		50003004,
+		50003005,
+		50003006,
+		50003007,
+		50003008,
 		80001001,
 		80001002,
 		80001003,
@@ -499,6 +574,36 @@ pg.island_task = setmetatable({
 		80001128,
 		80001129,
 		80001130,
+		80001201,
+		80001202,
+		80001203,
+		80001204,
+		80001205,
+		80001206,
+		80001207,
+		80001208,
+		80001209,
+		80001210,
+		80001211,
+		80001212,
+		80001213,
+		80001214,
+		80001215,
+		80001216,
+		80001217,
+		80001218,
+		80001219,
+		80001220,
+		80001221,
+		80001222,
+		80001223,
+		80001224,
+		80001225,
+		80001226,
+		80001227,
+		80001228,
+		80001229,
+		80001230,
 		20001001,
 		20001002,
 		20001003,
@@ -595,6 +700,13 @@ pg.island_task = setmetatable({
 		20014003,
 		20015001,
 		20015002,
+		20016001,
+		20016002,
+		20016003,
+		20016004,
+		20017001,
+		20017002,
+		20017003,
 		30000001,
 		30000002,
 		30000003,
@@ -4372,6 +4484,72 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[50000002] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "新季度，新气象！",
+		type = 5,
+		task_desc = "佩芮正在做新季度的开发计划，去看看都计划了什么吧！ ",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "岛屿开发季",
+		id = 50000002,
+		unlock_condition = {
+			{
+				2,
+				20015002
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			500000021
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				2000
+			}
+		}
+	},
 	[50001001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -4877,6 +5055,530 @@ pg.base.island_task = {
 		},
 		target_id = {
 			50001007
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				3
+			},
+			{
+				41,
+				100031,
+				2
+			}
+		}
+	},
+	[50001008] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产采集（1/7）",
+		type = 5,
+		task_desc = "春天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>荠菜</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>迎春花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>风信子</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时采集",
+		id = 50001008,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50001008
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				5
+			},
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	},
+	[50001009] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产采集（2/7）",
+		type = 5,
+		task_desc = "春天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>荠菜</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>迎春花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>风信子</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时采集",
+		id = 50001009,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001008
+		},
+		target_id = {
+			50001009
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100101,
+				2
+			}
+		}
+	},
+	[50001010] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产采集（3/7）",
+		type = 5,
+		task_desc = "春天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>荠菜</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>迎春花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>风信子</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时采集",
+		id = 50001010,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001009
+		},
+		target_id = {
+			50001010
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	},
+	[50001011] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产采集（4/7）",
+		type = 5,
+		task_desc = "春天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>荠菜</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>迎春花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>风信子</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时采集",
+		id = 50001011,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001010
+		},
+		target_id = {
+			50001011
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	},
+	[50001012] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产采集（5/7）",
+		type = 5,
+		task_desc = "春天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>荠菜</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>迎春花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>风信子</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时采集",
+		id = 50001012,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001011
+		},
+		target_id = {
+			50001012
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100011,
+				2
+			}
+		}
+	},
+	[50001013] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产采集（6/7）",
+		type = 5,
+		task_desc = "春天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>荠菜</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>迎春花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>风信子</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时采集",
+		id = 50001013,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001012
+		},
+		target_id = {
+			50001013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100021,
+				2
+			}
+		}
+	},
+	[50001014] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产采集（7/7）",
+		type = 5,
+		task_desc = "春天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>春笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>荠菜</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>迎春花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>风信子</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时采集",
+		id = 50001014,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001013
+		},
+		target_id = {
+			50001014
 		},
 		reward_show = {
 			{
@@ -5420,6 +6122,530 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[50002008] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产制作（1/7）",
+		type = 5,
+		task_desc = "这些春季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>芦笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>凤梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>鲜榨菠萝汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>迎春花茶</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>凉拌双笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>芦笋炒虾仁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>袋装荠菜干</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>春季花束</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时配方",
+		id = 50002008,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50002008
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				5
+			},
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	},
+	[50002009] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产制作（2/7）",
+		type = 5,
+		task_desc = "这些春季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>芦笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>凤梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>鲜榨菠萝汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>迎春花茶</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>凉拌双笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>芦笋炒虾仁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>袋装荠菜干</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>春季花束</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时配方",
+		id = 50002009,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002008
+		},
+		target_id = {
+			50002009
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100101,
+				2
+			}
+		}
+	},
+	[50002010] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产制作（3/7）",
+		type = 5,
+		task_desc = "这些春季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>芦笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>凤梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>鲜榨菠萝汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>迎春花茶</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>凉拌双笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>芦笋炒虾仁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>袋装荠菜干</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>春季花束</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时配方",
+		id = 50002010,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002009
+		},
+		target_id = {
+			50002010
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	},
+	[50002011] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产制作（4/7）",
+		type = 5,
+		task_desc = "这些春季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>芦笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>凤梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>鲜榨菠萝汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>迎春花茶</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>凉拌双笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>芦笋炒虾仁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>袋装荠菜干</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>春季花束</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时配方",
+		id = 50002011,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002010
+		},
+		target_id = {
+			50002011
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	},
+	[50002012] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产制作（5/7）",
+		type = 5,
+		task_desc = "这些春季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>芦笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>凤梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>鲜榨菠萝汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>迎春花茶</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>凉拌双笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>芦笋炒虾仁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>袋装荠菜干</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>春季花束</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时配方",
+		id = 50002012,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002011
+		},
+		target_id = {
+			50002012
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100041,
+				2
+			}
+		}
+	},
+	[50002013] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产制作（6/7）",
+		type = 5,
+		task_desc = "这些春季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>芦笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>凤梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>鲜榨菠萝汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>迎春花茶</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>凉拌双笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>芦笋炒虾仁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>袋装荠菜干</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>春季花束</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时配方",
+		id = 50002013,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002012
+		},
+		target_id = {
+			50002013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100051,
+				2
+			}
+		}
+	},
+	[50002014] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产制作（7/7）",
+		type = 5,
+		task_desc = "这些春季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>芦笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>凤梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>鲜榨菠萝汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>迎春花茶</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>凉拌双笋</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>芦笋炒虾仁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>袋装荠菜干</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>春季花束</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时配方",
+		id = 50002014,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002013
+		},
+		target_id = {
+			50002014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				3
+			},
+			{
+				41,
+				100061,
+				2
+			}
+		}
+	},
 	[50003001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -5706,6 +6932,296 @@ pg.base.island_task = {
 			{
 				45,
 				100,
+				1
+			}
+		}
+	},
+	[50003005] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产订单（1/4）",
+		type = 5,
+		task_desc = "指挥官带来的春季特产，我都会好好用在岛屿建设上的~让我们继续稳步推进开发计划吧！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时订单",
+		id = 50003005,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50003005
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[50003006] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产订单（2/4）",
+		type = 5,
+		task_desc = "指挥官带来的春季特产，我都会好好用在岛屿建设上的~让我们继续稳步推进开发计划吧！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时订单",
+		id = 50003006,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003005
+		},
+		target_id = {
+			50003006
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[50003007] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产订单（3/4）",
+		type = 5,
+		task_desc = "指挥官带来的春季特产，我都会好好用在岛屿建设上的~让我们继续稳步推进开发计划吧！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时订单",
+		id = 50003007,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003006
+		},
+		target_id = {
+			50003007
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100201,
+				3
+			}
+		}
+	},
+	[50003008] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "春季特产订单（4/4）",
+		type = 5,
+		task_desc = "指挥官带来的春季特产，我都会好好用在岛屿建设上的~让我们继续稳步推进开发计划吧！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【春季特产经营】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限时订单",
+		id = 50003008,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003007
+		},
+		target_id = {
+			50003008
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				45,
+				101,
 				1
 			}
 		}
@@ -8336,6 +9852,1321 @@ pg.base.island_task = {
 			{
 				8,
 				170000,
+				1
+			}
+		}
+	},
+	[80001201] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "田野坚盾",
+		type = 8,
+		task_desc = "储备可靠的主食来源，为岛屿开发提供扎实的能量基础。\n提交土豆*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001201,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012001
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001202] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "提神饮品",
+		type = 8,
+		task_desc = "供应美味咖啡，确保开发团队的专注与效率。\n提交咖啡豆*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001202,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012002
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001203] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "蔬菜供给",
+		type = 8,
+		task_desc = "供给大量耐储存的蔬菜，保障维生素的稳定供应。\n提交白菜*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001203,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012003
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001204] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "甜蜜果味",
+		type = 8,
+		task_desc = "提供鲜甜草莓，为岛屿餐盘增添一抹亮色与风味。\n提交草莓*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001204,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012004
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001205] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "纺织原料",
+		type = 8,
+		task_desc = "输送优质棉花，是保障后勤与生活舒适的重要物资。\n提交棉花*500",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001205,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012005
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001206] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "水果补给",
+		type = 8,
+		task_desc = "供应脆爽苹果，满足日常健康水果需求。\n提交苹果*250",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001206,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012006
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001207] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "清爽活力",
+		type = 8,
+		task_desc = "提供新鲜柠檬，清爽风味能有效提振工作状态。\n提交柠檬*250",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001207,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012007
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001208] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "便携快餐",
+		type = 8,
+		task_desc = "提供便捷的经典餐食，快速补充能量，支持高强度作业。\n提交炸鱼薯条*100",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001208,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012008
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001209] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "清淡风味",
+		type = 8,
+		task_desc = "供应清淡鲜美的蒸鱼，提供优质蛋白与均衡营养。\n提交洋葱蒸鱼*100",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001209,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012009
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001210] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "甜味动力",
+		type = 8,
+		task_desc = "交付甜蜜的草莓饮品，带来瞬间的幸福感与活力。\n提交草莓蜜沁*100",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001210,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012010
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001211] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "果香醒神",
+		type = 8,
+		task_desc = "供应风味特调咖啡，以独特果香唤醒工作的灵感。\n提交柑橘咖啡*100",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001211,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012011
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001212] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "清新菜式",
+		type = 8,
+		task_desc = "提供酸爽开胃的柠檬虾，激发味蕾，驱散疲惫。\n提交柠檬虾*50",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001212,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012012
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001213] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "海鲜美味",
+		type = 8,
+		task_desc = "交付丰盛的海鲜饭，是慰劳团队、提升士气的美味奖赏。\n提交海鲜饭*25",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001213,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001214] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "麻辣激情",
+		type = 8,
+		task_desc = "供应刺激味蕾的爆炒小龙虾，点燃深夜开发的干劲。\n提交爆炒小龙虾*25",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001214,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001215] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "艺术点缀",
+		type = 8,
+		task_desc = "提供艺术装饰品，美化居住环境，提升岛屿文化氛围。\n提交装饰画*25",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001215,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012015
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001216] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "珍馐汇聚",
+		type = 8,
+		task_desc = "交付顶级佳肴佛跳墙，用于款待大家或庆祝重大进展。\n提交佛跳墙*10",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001216,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012016
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001217] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "首次接收",
+		type = 8,
+		task_desc = "成功领取第一份日常补给。\n接收1次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001217,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012017
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001218] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "稳定入库",
+		type = 8,
+		task_desc = "稳定接收三批日常补给，仓库渐丰。\n接收5次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001218,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001219] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "定期补给",
+		type = 8,
+		task_desc = "规律性地接收补给已成习惯。\n接收10次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001219,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001220] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "高效接收",
+		type = 8,
+		task_desc = "补给的接收工作高效顺畅！\n接收20次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001220,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012020
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001221] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "补给充足",
+		type = 8,
+		task_desc = "储备丰厚，底气十足！\n接收30次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001221,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012021
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	},
+	[80001222] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "永续储备",
+		type = 8,
+		task_desc = "源源不断的补给已成为开发区重要的物资来源。\n接收45次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001222,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012022
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				3
+			}
+		}
+	},
+	[80001223] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "发展根基",
+		type = 8,
+		task_desc = "日复一日的积累，已成为开发区发展的根基。\n接收60次日常补给",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001223,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012023
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001224] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "初识订单",
+		type = 8,
+		task_desc = "对岛屿订单有了初步认知。\n交付10次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001224,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012024
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001225] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "稳定交付",
+		type = 8,
+		task_desc = "稳定且持续地交付岛屿订单。\n交付30次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001225,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012025
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001226] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "坚实后盾",
+		type = 8,
+		task_desc = "岛屿开发建设不可或缺的可靠力量。\n交付50次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001226,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012026
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001227] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "订单专家",
+		type = 8,
+		task_desc = "对大家的需求了如指掌，总能精准高效地满足。\n交付100次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001227,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012027
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001228] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "发展支柱",
+		type = 8,
+		task_desc = "持续的支援是岛屿发展的关键动力。\n交付150次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001228,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012028
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				5
+			}
+		}
+	},
+	[80001229] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "开发核心",
+		type = 8,
+		task_desc = "大家心中最重要、最值得依赖的人。\n交付200次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001229,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012029
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001230] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "繁荣之基",
+		type = 8,
+		task_desc = "承载开发的重任，托起繁荣的未来。\n交付300次岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001230,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012030
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170002,
 				1
 			}
 		}
@@ -12201,7 +15032,7 @@ pg.base.island_task = {
 		unlock_time = "always",
 		series = "",
 		navigation = 0,
-		map_complete_tips = 1003,
+		map_complete_tips = 1002,
 		rec_perform = "",
 		series_name = "岛屿开发季",
 		id = 20015002,
@@ -12229,6 +15060,277 @@ pg.base.island_task = {
 				50,
 				20002,
 				10
+			}
+		}
+	},
+	[20016001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "布莉缇的渔场",
+		type = 2,
+		task_desc = "布莉缇的渔场开放了，去找她了解情况吧。",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 1002,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "渔场开放啦！",
+		id = 20016001,
+		unlock_condition = {
+			{
+				2,
+				10001170
+			}
+		},
+		link_task = {},
+		target_id = {
+			200160011
+		},
+		reward_show = {
+			{
+				41,
+				1501,
+				1
+			}
+		}
+	},
+	[20016002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "钓鱼！钓鱼！",
+		type = 2,
+		task_desc = "去钓一条大鱼给布莉缇看看吧！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020071,
+		reward_exp = 0,
+		complete_tips = "去找布莉缇吧",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 1002,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		series_name = "渔场开放啦！",
+		id = 20016002,
+		unlock_condition = {
+			{
+				2,
+				20016001
+			}
+		},
+		link_task = {},
+		com_perform = {
+			1,
+			"ISLANDSIDE01605"
+		},
+		target_id = {
+			200160012
+		},
+		reward_show = {}
+	},
+	[20016003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "钓鱼！钓鱼！",
+		type = 2,
+		task_desc = "去钓一条大鱼给布莉缇看看吧！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020068,
+		reward_exp = 0,
+		complete_tips = "解锁渔场",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 1002,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "渔场开放啦！",
+		id = 20016003,
+		unlock_condition = {
+			{
+				2,
+				20016002
+			}
+		},
+		link_task = {},
+		target_id = {
+			200160013
+		},
+		reward_show = {}
+	},
+	[20016004] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "布莉缇的渔场",
+		type = 2,
+		task_desc = "布莉缇的渔场开放了，去找她了解情况吧。",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 1002,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "渔场开放啦！",
+		id = 20016004,
+		unlock_condition = {
+			{
+				2,
+				20016003
+			}
+		},
+		link_task = {},
+		target_id = {
+			200160041,
+			200160042,
+			200160043
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				5000
+			}
+		}
+	},
+	[20017001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "珍珠大调研！",
+		type = 2,
+		task_desc = "听说佩芮最近在研究珍珠交易，去找她看看情况吧。",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 1002,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "珍珠交易？",
+		id = 20017001,
+		unlock_condition = {
+			{
+				2,
+				10003100
+			}
+		},
+		link_task = {},
+		target_id = {
+			200170011
+		},
+		reward_show = {}
+	},
+	[20017002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "珍珠大调研！",
+		type = 2,
+		task_desc = "佩芮的珍珠投资还在继续，去看看她的亏损情况吧。",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "去找佩芮吧",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 1002,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		series_name = "一起来投资！",
+		id = 20017002,
+		unlock_condition = {
+			{
+				2,
+				20017001
+			}
+		},
+		link_task = {},
+		com_perform = {
+			1,
+			"ISLANDSIDE01608"
+		},
+		target_id = {
+			200170021
+		},
+		reward_show = {}
+	},
+	[20017003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "珍珠大调研！",
+		type = 2,
+		task_desc = "似乎有人正在收购珍珠，去找她了解情况吧。 ",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 1003,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "神秘商人？",
+		id = 20017003,
+		unlock_condition = {
+			{
+				2,
+				20017002
+			}
+		},
+		link_task = {},
+		target_id = {
+			200170031
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				10000
 			}
 		}
 	},
@@ -12968,10 +16070,8 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
 			},
 			{
 				3,
@@ -13060,10 +16160,8 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
 			},
 			{
 				3,
@@ -13152,10 +16250,8 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
 			},
 			{
 				3,
@@ -13244,10 +16340,8 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
 			},
 			{
 				3,
@@ -13336,10 +16430,8 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
 			},
 			{
 				3,
@@ -13428,10 +16520,8 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
 			},
 			{
 				3,

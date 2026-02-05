@@ -26,6 +26,8 @@ slot0.TYPE_DRAW_AWARD_ALL = 24
 slot0.TYPE_TICKET_EXPIRED = 25
 slot0.TYPE_DRESS_WEAR_CONFIRE = 26
 slot0.TYPE_COMMON_DROP_DESCRIBE = 27
+slot0.TYPE_ISLAND_POST_EVENT = 28
+slot0.TYPE_TRADE_CONFRIM = 29
 
 slot0.getUIName = function(slot0)
 	return "IslandMsgboxUI"
@@ -62,7 +64,9 @@ slot0.OnLoaded = function(slot0)
 		[uv0.TYPE_DRAW_AWARD_ALL] = IslandDrawAwardAllWindow,
 		[uv0.TYPE_TICKET_EXPIRED] = IslandTicketExpiredMsgBoxWindow,
 		[uv0.TYPE_DRESS_WEAR_CONFIRE] = IslandDressWearMsgboxWindow,
-		[uv0.TYPE_COMMON_DROP_DESCRIBE] = IslandMsgBoxSingleDropWindow
+		[uv0.TYPE_COMMON_DROP_DESCRIBE] = IslandMsgBoxSingleDropWindow,
+		[uv0.TYPE_ISLAND_POST_EVENT] = IslandPostEventWindow,
+		[uv0.TYPE_TRADE_CONFRIM] = IslandTradeConfirmWindow
 	}
 end
 
@@ -141,8 +145,8 @@ slot0.FindOrCreateWindow = function(slot0, slot1, slot2)
 end
 
 slot0.CheckPoolCnt = function(slot0, slot1)
-	if slot0.cacheCnt < #slot1 and table.remove(slot1, #slot1):GetLoaded() then
-		slot2:Destroy()
+	if slot0.cacheCnt < #slot1 and table.remove(slot1, #slot1).window and slot3:GetLoaded() then
+		slot3:Destroy()
 	end
 end
 

@@ -37,7 +37,8 @@ pg.island_technology_template = setmetatable({
 			110309,
 			120005,
 			110310,
-			120006
+			120006,
+			120007
 		},
 		{
 			210101,
@@ -118,7 +119,19 @@ pg.island_technology_template = setmetatable({
 			430304,
 			450301,
 			440304,
-			450302
+			450302,
+			460001,
+			460002,
+			460101,
+			460301,
+			460102,
+			460302,
+			460201,
+			460202,
+			460203,
+			460204,
+			460205,
+			460206
 		},
 		{
 			500211,
@@ -188,6 +201,7 @@ pg.island_technology_template = setmetatable({
 			660202,
 			660203,
 			650001,
+			630205,
 			630204,
 			660204,
 			640204,
@@ -237,6 +251,7 @@ pg.island_technology_template = setmetatable({
 		120005,
 		110310,
 		120006,
+		120007,
 		210101,
 		220101,
 		220501,
@@ -312,6 +327,18 @@ pg.island_technology_template = setmetatable({
 		450301,
 		440304,
 		450302,
+		460001,
+		460002,
+		460101,
+		460301,
+		460102,
+		460302,
+		460201,
+		460202,
+		460203,
+		460204,
+		460205,
+		460206,
 		500211,
 		500212,
 		500231,
@@ -377,6 +404,7 @@ pg.island_technology_template = setmetatable({
 		660202,
 		660203,
 		650001,
+		630205,
 		630204,
 		660204,
 		640204,
@@ -1529,6 +1557,40 @@ pg.base.island_technology_template = {
 		axis = {
 			28,
 			1
+		}
+	},
+	[120007] = {
+		complete_title = "可前往<color=#1E8FFE>岛屿基地</color>中<color=#1E8FFE>岛屿权限认证装置</color>处激活权限",
+		tech_level = "1",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>岛屿基地</color>中<color=#1E8FFE>岛屿权限认证装置</color>处激活权限",
+		island_level = 50,
+		tech_desc = "生产{namecode:427}的岛屿权限认证函，邀请更多同伴吧！",
+		tech_icon = "tech_120001",
+		tech_belong = 1,
+		tech_name = "认证函生产",
+		formula_id = 7120007,
+		id = 120007,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				110310
+			},
+			{
+				3,
+				120006
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			2
 		}
 	},
 	[210101] = {
@@ -3408,7 +3470,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			1,
-			7
+			6
 		}
 	},
 	[430301] = {
@@ -3439,8 +3501,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			4,
-			5
+			6,
+			4.5
 		}
 	},
 	[430302] = {
@@ -3471,8 +3533,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			7,
-			5
+			9,
+			4.5
 		}
 	},
 	[440301] = {
@@ -3503,8 +3565,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			7,
-			7
+			4,
+			6
 		}
 	},
 	[440302] = {
@@ -3535,8 +3597,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
-			7
+			7,
+			6
 		}
 	},
 	[420303] = {
@@ -3567,7 +3629,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
+			11,
 			3
 		}
 	},
@@ -3599,7 +3661,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
+			11,
 			1
 		}
 	},
@@ -3632,7 +3694,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			13,
-			5
+			4.5
 		}
 	},
 	[410304] = {
@@ -3663,7 +3725,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			13,
+			14,
 			1
 		}
 	},
@@ -3695,8 +3757,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			13,
-			7
+			10,
+			6
 		}
 	},
 	[410305] = {
@@ -3727,7 +3789,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
+			17,
 			1
 		}
 	},
@@ -3759,7 +3821,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
+			17,
 			3
 		}
 	},
@@ -3791,8 +3853,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
-			5
+			19,
+			4.5
 		}
 	},
 	[450301] = {
@@ -3817,7 +3879,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			16,
-			9
+			6
 		}
 	},
 	[440304] = {
@@ -3848,8 +3910,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
-			7
+			13,
+			6
 		}
 	},
 	[450302] = {
@@ -3879,7 +3941,415 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			19,
-			9
+			6
+		}
+	},
+	[460001] = {
+		complete_title = "可前往<color=#1E8FFE>钓鱼点</color>查看",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>钓鱼点</color>查看",
+		island_level = 18,
+		tech_desc = "升级高级钓竿，可以钓到更稀有的鱼了！",
+		tech_icon = "tech_460001",
+		tech_belong = 4,
+		tech_name = "钓竿升级I",
+		formula_id = 7460001,
+		id = 460001,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				1,
+				20016001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			1,
+			8
+		}
+	},
+	[460002] = {
+		complete_title = "可前往<color=#1E8FFE>钓鱼点</color>查看",
+		tech_level = "2",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>钓鱼点</color>查看",
+		island_level = 27,
+		tech_desc = "升级专业钓竿，可以钓到更稀有的鱼了！",
+		tech_icon = "tech_460002",
+		tech_belong = 4,
+		tech_name = "钓竿升级II",
+		formula_id = 7460002,
+		id = 460002,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			4,
+			8
+		}
+	},
+	[460101] = {
+		complete_title = "可前往<color=#1E8FFE>渔场布莉缇</color>处委派角色进行<color=#1E8FFE>水产养殖</color>",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>渔场布莉缇</color>处委派角色进行<color=#1E8FFE>水产养殖</color>",
+		island_level = 20,
+		tech_desc = "增加鱼池的管理岗位，能简单有效地提高水产的产量。",
+		tech_icon = "tech_460101",
+		tech_belong = 4,
+		tech_name = "鱼池管理岗位增加I",
+		formula_id = 7460101,
+		id = 460101,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			7,
+			8
+		}
+	},
+	[460301] = {
+		complete_title = "可前往<color=#1E8FFE>渔场布莉缇</color>处委派角色进行<color=#1E8FFE>水产养殖</color>",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>渔场布莉缇</color>处委派角色进行<color=#1E8FFE>水产养殖</color>",
+		island_level = 29,
+		tech_desc = "提升鱼池管理岗位的养鱼效率，让资源的获取更快速。",
+		tech_icon = "tech_460301",
+		tech_belong = 4,
+		tech_name = "养鱼效率提升I",
+		formula_id = 7460301,
+		id = 460301,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460101
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			10,
+			8
+		}
+	},
+	[460102] = {
+		complete_title = "可前往<color=#1E8FFE>渔场布莉缇</color>处委派角色进行<color=#1E8FFE>水产养殖</color>",
+		tech_level = "2",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>渔场布莉缇</color>处委派角色进行<color=#1E8FFE>水产养殖</color>",
+		island_level = 31,
+		tech_desc = "增加鱼池的管理岗位，能简单有效地提高水产的产量。",
+		tech_icon = "tech_460102",
+		tech_belong = 4,
+		tech_name = "鱼池管理岗位增加II",
+		formula_id = 7460102,
+		id = 460102,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460301
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			13,
+			8
+		}
+	},
+	[460302] = {
+		complete_title = "可前往<color=#1E8FFE>渔场布莉缇</color>处委派角色进行<color=#1E8FFE>水产养殖</color>",
+		tech_level = "2",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>渔场布莉缇</color>处委派角色进行<color=#1E8FFE>水产养殖</color>",
+		island_level = 34,
+		tech_desc = "提升鱼池管理岗位的养鱼效率，让资源的获取更快速。",
+		tech_icon = "tech_460302",
+		tech_belong = 4,
+		tech_name = "养鱼效率提升II",
+		formula_id = 7460302,
+		id = 460302,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460102
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			16,
+			8
+		}
+	},
+	[460201] = {
+		complete_title = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>有鱼餐馆</color>中查看",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>有鱼餐馆</color>中查看",
+		island_level = 12,
+		tech_desc = "能够制作出外酥里嫩的炸鱼薯条",
+		tech_icon = "tech_460201",
+		tech_belong = 4,
+		tech_name = "炸鱼薯条食谱",
+		formula_id = 7460201,
+		id = 460201,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			1,
+			9.5
+		}
+	},
+	[460202] = {
+		complete_title = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>有鱼餐馆</color>中查看",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>有鱼餐馆</color>中查看",
+		island_level = 18,
+		tech_desc = "能够制作出鲜美软嫩的洋葱蒸鱼",
+		tech_icon = "tech_460202",
+		tech_belong = 4,
+		tech_name = "洋葱蒸鱼食谱",
+		formula_id = 7460202,
+		id = 460202,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			4,
+			9.5
+		}
+	},
+	[460203] = {
+		complete_title = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>乌鱼烤肉</color>中查看",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>乌鱼烤肉</color>中查看",
+		island_level = 21,
+		tech_desc = "能够制作出清新爽口的柠檬虾",
+		tech_icon = "tech_460206",
+		tech_belong = 4,
+		tech_name = "柠檬虾食谱",
+		formula_id = 7460206,
+		id = 460203,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				540001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			7,
+			9.5
+		}
+	},
+	[460204] = {
+		complete_title = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>乌鱼烤肉</color>中查看",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>乌鱼烤肉</color>中查看",
+		island_level = 25,
+		tech_desc = "能够制作出香气扑鼻的爆炒小龙虾",
+		tech_icon = "tech_460205",
+		tech_belong = 4,
+		tech_name = "爆炒小龙虾食谱",
+		formula_id = 7460205,
+		id = 460204,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				540001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			10,
+			9.5
+		}
+	},
+	[460205] = {
+		complete_title = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>啾啾简餐</color>中查看",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>啾啾简餐</color>中查看",
+		island_level = 29,
+		tech_desc = "能够制作出食材丰盛的海鲜饭",
+		tech_icon = "tech_460203",
+		tech_belong = 4,
+		tech_name = "海鲜饭食谱",
+		formula_id = 7460203,
+		id = 460205,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				530001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			13,
+			9.5
+		}
+	},
+	[460206] = {
+		complete_title = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>有鱼餐馆</color>中查看",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>有鱼餐馆</color>中查看",
+		island_level = 36,
+		tech_desc = "能够制作出汤浓味鲜的佛跳墙",
+		tech_icon = "tech_460204",
+		tech_belong = 4,
+		tech_name = "佛跳墙食谱",
+		formula_id = 7460204,
+		id = 460206,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			16,
+			9.5
 		}
 	},
 	[500211] = {
@@ -6032,6 +6502,38 @@ pg.base.island_technology_template = {
 			9
 		}
 	},
+	[630205] = {
+		complete_title = "可前往<color=#1E8FFE>港口基地工厂萝莎</color>处在<color=#1E8FFE>木料加工设备</color>中制作",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>港口基地工厂萝莎</color>处在<color=#1E8FFE>木料加工设备</color>中制作",
+		island_level = 24,
+		tech_desc = "能够制作出增添艺术氛围的装饰画。",
+		tech_icon = "tech_630201",
+		tech_belong = 6,
+		tech_name = "装饰画生产工艺",
+		formula_id = 7630205,
+		id = 630205,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				630203
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100900
+		},
+		axis = {
+			19,
+			3
+		}
+	},
 	[630204] = {
 		complete_title = "可前往<color=#1E8FFE>港口基地工厂萝莎</color>处在<color=#1E8FFE>木料加工设备</color>中制作",
 		tech_level = "1",
@@ -6049,7 +6551,7 @@ pg.base.island_technology_template = {
 		sys_unlock = {
 			{
 				3,
-				630203
+				630205
 			}
 		},
 		tech_repeat = {
@@ -6060,7 +6562,7 @@ pg.base.island_technology_template = {
 			100900
 		},
 		axis = {
-			19,
+			22,
 			3
 		}
 	},

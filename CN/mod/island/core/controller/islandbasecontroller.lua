@@ -12,6 +12,10 @@ slot0.GetIsland = function(slot0)
 	return slot0.island
 end
 
+slot0.GetSelfIsland = function(slot0)
+	return getProxy(IslandProxy):GetIsland()
+end
+
 slot0.IsSelfIsland = function(slot0)
 	return getProxy(IslandProxy):GetIsland().id == slot0.island.id
 end

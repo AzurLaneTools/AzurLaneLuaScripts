@@ -494,10 +494,10 @@ slot0.RefreshShip = function(slot0)
 end
 
 slot0.RefreshShipEnergy = function(slot0)
-	slot2 = slot0.formulaCfg.stamina_cost * (slot0.addDelegateFormulaTimes and slot0.curSelectCount - slot0.addDelegateFormulaTimes or slot0.curSelectCount)
+	slot3 = math.floor(slot0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot0.selectedShipId, slot0.placeId))) * (slot0.addDelegateFormulaTimes and slot0.curSelectCount - slot0.addDelegateFormulaTimes or slot0.curSelectCount)
 
 	if slot0.selectedShipId == 1 then
-		slot2 = 0
+		slot3 = 0
 	else
 		slot0.animationPlayer:Play("anim_IslandFormulaSelectNewUI_bar_Loop")
 	end
@@ -643,7 +643,6 @@ slot0.RefreshExtraProduct = function(slot0)
 	end
 
 	setText(slot0.extraProductNum, slot6 .. i18n("island_production_tip"))
-	setText(slot0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), curCountStr)
 
 	slot13 = slot0.formulaCfg.second_product[1]
 	slot18 = (getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(pg.island_production_slot[slot0.slotId].place):GetDelegationSlotData(slot0.slotId):GetFromulaTatalCount(slot0.formulaCfg.id) + (slot0.canRewardTime or 0)) % slot13 + (slot0.addDelegateFormulaTimes and slot0.curSelectCount - slot0.addDelegateFormulaTimes or slot0.curSelectCount)

@@ -39,6 +39,10 @@ slot0.Update = function(slot0, slot1)
 	end
 end
 
+slot0.IsTradeLink = function(slot0)
+	return slot0.otherBubble.isTradeLink or slot0.selfBubble.isTradeLink
+end
+
 slot0.Dispose = function(slot0)
 	slot0.selfBubble:dispose()
 	slot0.otherBubble:dispose()

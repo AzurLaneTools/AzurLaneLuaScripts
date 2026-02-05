@@ -63,10 +63,6 @@ slot0.SystemData2IslandUnits = function(slot0, slot1, slot2, slot3, slot4, slot5
 end
 
 slot0.CollectFishPointUnits = function(slot0, slot1, slot2)
-	if not pg.island_fish_point then
-		return
-	end
-
 	for slot6, slot7 in ipairs(pg.island_fish_point.all) do
 		if pg.island_world_objects[pg.island_fish_point[slot7].objId].mapId == slot2 then
 			table.insert(slot0, IslandFishPointVO.New(slot7, slot8.objId))

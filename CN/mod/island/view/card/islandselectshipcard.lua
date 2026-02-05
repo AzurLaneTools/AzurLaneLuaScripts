@@ -62,7 +62,7 @@ slot0.Update = function(slot0, slot1, slot2, slot3, slot4)
 
 	slot9 = slot0.ship:GetName()
 
-	setText(slot0.nameTF, slot0.ship:GetName())
+	setText(slot0.nameTF, shortenString(slot0.ship:GetName(), 5))
 
 	slot10 = slot0.ship:GetCurrentEnergy()
 	slot11 = slot0.ship:GetMaxEnergy()

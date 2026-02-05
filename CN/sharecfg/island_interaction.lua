@@ -405,7 +405,29 @@ pg.island_interaction = setmetatable({
 			5819,
 			5820,
 			5821,
-			5822
+			5822,
+			5823,
+			5824,
+			5825,
+			5826,
+			5827,
+			5828,
+			5829,
+			5830,
+			5831,
+			5832,
+			5833,
+			5834,
+			5835,
+			5836,
+			5837,
+			5838,
+			5839,
+			5840,
+			5841,
+			5842,
+			5843,
+			5844
 		},
 		[59] = {
 			5901,
@@ -501,6 +523,30 @@ pg.island_interaction = setmetatable({
 			7902,
 			7903,
 			7904
+		},
+		[80] = {
+			8001,
+			8002,
+			8003,
+			8004,
+			8005,
+			8006
+		},
+		[81] = {
+			8101
+		},
+		[82] = {
+			8201,
+			8202
+		},
+		[83] = {
+			8301
+		},
+		[84] = {
+			8401
+		},
+		[85] = {
+			8501
 		}
 	},
 	all = {
@@ -791,6 +837,28 @@ pg.island_interaction = setmetatable({
 		5820,
 		5821,
 		5822,
+		5823,
+		5824,
+		5825,
+		5826,
+		5827,
+		5828,
+		5829,
+		5830,
+		5831,
+		5832,
+		5833,
+		5834,
+		5835,
+		5836,
+		5837,
+		5838,
+		5839,
+		5840,
+		5841,
+		5842,
+		5843,
+		5844,
 		5901,
 		5902,
 		6001,
@@ -843,7 +911,19 @@ pg.island_interaction = setmetatable({
 		7901,
 		7902,
 		7903,
-		7904
+		7904,
+		8001,
+		8002,
+		8003,
+		8004,
+		8005,
+		8006,
+		8101,
+		8201,
+		8202,
+		8301,
+		8401,
+		8501
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -905,7 +985,7 @@ pg.base.island_interaction = {
 		type = 4,
 		id = 401,
 		icon = 5,
-		param = "",
+		param = "1",
 		show_condition = {}
 	},
 	[501] = {
@@ -5185,6 +5265,399 @@ pg.base.island_interaction = {
 			}
 		}
 	},
+	[5823] = {
+		text = "珍珠采购",
+		groupId = 58,
+		only_self = 1,
+		type = 6,
+		id = 5823,
+		icon = 15,
+		param = {
+			"IslandTradePage",
+			2
+		},
+		show_condition = {
+			{
+				13,
+				50
+			}
+		}
+	},
+	[5824] = {
+		text = "佩芮——",
+		groupId = 58,
+		only_self = 0,
+		type = 1,
+		id = 5824,
+		icon = 9,
+		param = "ISLANDSIDE01607",
+		show_condition = {
+			{
+				2,
+				20017001
+			}
+		}
+	},
+	[5825] = {
+		text = "佩芮——",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5825,
+		icon = 9,
+		param = "20017002",
+		show_condition = {
+			{
+				3,
+				20017002
+			}
+		}
+	},
+	[5826] = {
+		text = "新季度的开发… ",
+		groupId = 58,
+		only_self = 0,
+		type = 1,
+		id = 5826,
+		icon = 9,
+		param = "ISLANDSIDE01606",
+		show_condition = {
+			{
+				2,
+				50000002
+			}
+		}
+	},
+	[5827] = {
+		text = "春季特产采集（1/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5827,
+		icon = 12,
+		param = "50001008",
+		show_condition = {
+			{
+				3,
+				50001008
+			}
+		}
+	},
+	[5828] = {
+		text = "春季特产采集（2/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5828,
+		icon = 12,
+		param = "50001009",
+		show_condition = {
+			{
+				3,
+				50001009
+			},
+			{
+				4,
+				50001008
+			}
+		}
+	},
+	[5829] = {
+		text = "春季特产采集（3/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5829,
+		icon = 12,
+		param = "50001010",
+		show_condition = {
+			{
+				3,
+				50001010
+			},
+			{
+				4,
+				50001009
+			}
+		}
+	},
+	[5830] = {
+		text = "春季特产采集（4/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5830,
+		icon = 12,
+		param = "50001011",
+		show_condition = {
+			{
+				3,
+				50001011
+			},
+			{
+				4,
+				50001010
+			}
+		}
+	},
+	[5831] = {
+		text = "春季特产采集（5/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5831,
+		icon = 12,
+		param = "50001012",
+		show_condition = {
+			{
+				3,
+				50001012
+			},
+			{
+				4,
+				50001011
+			}
+		}
+	},
+	[5832] = {
+		text = "春季特产采集（6/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5832,
+		icon = 12,
+		param = "50001013",
+		show_condition = {
+			{
+				3,
+				50001013
+			},
+			{
+				4,
+				50001012
+			}
+		}
+	},
+	[5833] = {
+		text = "春季特产采集（7/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5833,
+		icon = 12,
+		param = "50001014",
+		show_condition = {
+			{
+				3,
+				50001014
+			},
+			{
+				4,
+				50001013
+			}
+		}
+	},
+	[5834] = {
+		text = "春季特产制作（1/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5834,
+		icon = 12,
+		param = "50002008",
+		show_condition = {
+			{
+				3,
+				50002008
+			}
+		}
+	},
+	[5835] = {
+		text = "春季特产制作（2/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5835,
+		icon = 12,
+		param = "50002009",
+		show_condition = {
+			{
+				3,
+				50002009
+			},
+			{
+				4,
+				50002008
+			}
+		}
+	},
+	[5836] = {
+		text = "春季特产制作（3/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5836,
+		icon = 12,
+		param = "50002010",
+		show_condition = {
+			{
+				3,
+				50002010
+			},
+			{
+				4,
+				50002009
+			}
+		}
+	},
+	[5837] = {
+		text = "春季特产制作（4/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5837,
+		icon = 12,
+		param = "50002011",
+		show_condition = {
+			{
+				3,
+				50002011
+			},
+			{
+				4,
+				50002010
+			}
+		}
+	},
+	[5838] = {
+		text = "春季特产制作（5/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5838,
+		icon = 12,
+		param = "50002012",
+		show_condition = {
+			{
+				3,
+				50002012
+			},
+			{
+				4,
+				50002011
+			}
+		}
+	},
+	[5839] = {
+		text = "春季特产制作（6/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5839,
+		icon = 12,
+		param = "50002013",
+		show_condition = {
+			{
+				3,
+				50002013
+			},
+			{
+				4,
+				50002012
+			}
+		}
+	},
+	[5840] = {
+		text = "春季特产制作（7/7）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5840,
+		icon = 12,
+		param = "50002014",
+		show_condition = {
+			{
+				3,
+				50002014
+			},
+			{
+				4,
+				50002013
+			}
+		}
+	},
+	[5841] = {
+		text = "春季特产订单（1/4）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5841,
+		icon = 12,
+		param = "50003005",
+		show_condition = {
+			{
+				3,
+				50003005
+			}
+		}
+	},
+	[5842] = {
+		text = "春季特产订单（2/4）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5842,
+		icon = 12,
+		param = "50003006",
+		show_condition = {
+			{
+				3,
+				50003006
+			},
+			{
+				4,
+				50003005
+			}
+		}
+	},
+	[5843] = {
+		text = "春季特产订单（3/4）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5843,
+		icon = 12,
+		param = "50003007",
+		show_condition = {
+			{
+				3,
+				50003007
+			},
+			{
+				4,
+				50003006
+			}
+		}
+	},
+	[5844] = {
+		text = "春季特产订单（4/4）",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5844,
+		icon = 12,
+		param = "50003008",
+		show_condition = {
+			{
+				3,
+				50003008
+			},
+			{
+				4,
+				50003007
+			}
+		}
+	},
 	[5901] = {
 		text = "你又有什么鬼点子？",
 		groupId = 59,
@@ -6013,5 +6486,183 @@ pg.base.island_interaction = {
 				10002290
 			}
 		}
+	},
+	[8001] = {
+		text = "交谈",
+		groupId = 80,
+		only_self = 0,
+		type = 1,
+		id = 8001,
+		icon = 1,
+		param = "ISLANDTALK10181",
+		show_condition = {}
+	},
+	[8002] = {
+		text = "管理渔场",
+		groupId = 80,
+		only_self = 0,
+		type = 6,
+		id = 8002,
+		icon = 15,
+		param = {
+			"IslandRoleDelegationPage",
+			201
+		},
+		show_condition = {
+			{
+				4,
+				20016003
+			}
+		}
+	},
+	[8003] = {
+		text = "鱼肉加工",
+		groupId = 80,
+		only_self = 0,
+		type = 6,
+		id = 8003,
+		icon = 15,
+		param = {
+			"IslandExchangePage",
+			{
+				1
+			}
+		},
+		show_condition = {
+			{
+				4,
+				20016003
+			}
+		}
+	},
+	[8004] = {
+		text = "查看渔具商店",
+		groupId = 80,
+		only_self = 0,
+		type = 6,
+		id = 8004,
+		icon = 15,
+		param = {
+			"IslandShopPage",
+			{
+				1,
+				2,
+				3,
+				4,
+				5
+			},
+			{
+				10031
+			}
+		},
+		show_condition = {
+			{
+				4,
+				20016003
+			}
+		}
+	},
+	[8005] = {
+		text = "布莉缇？",
+		groupId = 80,
+		only_self = 0,
+		type = 1,
+		id = 8005,
+		icon = 9,
+		param = "ISLANDSIDE01604",
+		show_condition = {
+			{
+				2,
+				20016001
+			}
+		}
+	},
+	[8006] = {
+		text = "布莉缇！",
+		groupId = 80,
+		only_self = 0,
+		type = 12,
+		id = 8006,
+		icon = 9,
+		param = "20016002",
+		show_condition = {
+			{
+				3,
+				20016002
+			}
+		}
+	},
+	[8101] = {
+		text = "解锁渔场",
+		groupId = 81,
+		only_self = 0,
+		type = 12,
+		id = 8101,
+		icon = 9,
+		param = "20016003",
+		show_condition = {
+			{
+				3,
+				20016003
+			}
+		}
+	},
+	[8201] = {
+		text = "交谈",
+		groupId = 82,
+		only_self = 0,
+		type = 1,
+		id = 8201,
+		icon = 1,
+		param = "ISLANDTALK10151",
+		show_condition = {}
+	},
+	[8202] = {
+		text = "珍珠售卖",
+		groupId = 82,
+		only_self = 1,
+		type = 6,
+		id = 8202,
+		icon = 15,
+		param = {
+			"IslandTradePage",
+			1
+		},
+		show_condition = {
+			{
+				13,
+				50
+			}
+		}
+	},
+	[8301] = {
+		text = "交互",
+		groupId = 83,
+		only_self = 1,
+		type = 4,
+		id = 8301,
+		icon = 5,
+		param = "1",
+		show_condition = {}
+	},
+	[8401] = {
+		text = "交互",
+		groupId = 84,
+		only_self = 1,
+		type = 4,
+		id = 8401,
+		icon = 5,
+		param = "2",
+		show_condition = {}
+	},
+	[8501] = {
+		text = "交互",
+		groupId = 85,
+		only_self = 1,
+		type = 4,
+		id = 8501,
+		icon = 5,
+		param = "3",
+		show_condition = {}
 	}
 }

@@ -51,9 +51,11 @@ pg.island_main_btns = {
 				5
 			},
 			{
+				10019,
 				10109,
-				50111,
-				10130
+				10130,
+				10031,
+				50111
 			},
 			1
 		}
@@ -223,6 +225,17 @@ pg.island_main_btns = {
 		order = 13,
 		page_param = {}
 	},
+	{
+		ability_id = 47,
+		name = "钓鱼图鉴",
+		main_type = 3,
+		btn_name = "book_fish",
+		open_page = "IslandBookFishPage",
+		id = 20,
+		icon = "book_fish",
+		order = 14,
+		page_param = {}
+	},
 	get_id_list_by_main_type = {
 		{
 			2,
@@ -246,6 +259,9 @@ pg.island_main_btns = {
 			17,
 			18,
 			19
+		},
+		[3] = {
+			20
 		}
 	},
 	all = {
@@ -267,6 +283,7 @@ pg.island_main_btns = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20
 	}
 }

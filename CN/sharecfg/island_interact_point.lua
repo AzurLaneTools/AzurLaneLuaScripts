@@ -221,6 +221,121 @@ pg.island_interact_point = {
 			0
 		}
 	},
+	{
+		bt = "island/nodecanvas/agora/agora_50251",
+		attach = "pre_item_05_50251(Clone)",
+		id = 14,
+		slot_cnt = 1,
+		timeline = {
+			17
+		},
+		param = {
+			{}
+		},
+		offset = {
+			1.4,
+			0,
+			-0.088
+		}
+	},
+	{
+		bt = "island/nodecanvas/agora/agora_50251",
+		attach = "pre_item_05_50251(Clone)",
+		id = 15,
+		slot_cnt = 1,
+		timeline = {
+			18
+		},
+		param = {
+			{}
+		},
+		offset = {
+			4.635,
+			0,
+			0.839
+		}
+	},
+	{
+		bt = "island/nodecanvas/agora/agora_common",
+		attach = "pre_item_05_50277(Clone)",
+		id = 16,
+		slot_cnt = 4,
+		timeline = {
+			19
+		},
+		param = {
+			{}
+		},
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	{
+		bt = "island/nodecanvas/agora/agora_common",
+		attach = "pre_item_05_50253(Clone)",
+		id = 17,
+		slot_cnt = 1,
+		timeline = {
+			20
+		},
+		param = {
+			{}
+		},
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	{
+		bt = "island/nodecanvas/agora/agora_50254",
+		attach = "pre_item_05_50254(Clone)",
+		id = 18,
+		slot_cnt = 1,
+		timeline = {
+			21
+		},
+		param = {
+			{}
+		},
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	{
+		bt = "island/nodecanvas/agora/agora_switch_model",
+		attach = "pre_item_05_50257(Clone)",
+		id = 19,
+		slot_cnt = 1,
+		timeline = {
+			22,
+			23,
+			24
+		},
+		param = {
+			{
+				"interactionGroup",
+				"84"
+			},
+			{
+				"interactionGroup",
+				"85"
+			},
+			{
+				"interactionGroup",
+				"83"
+			}
+		},
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
 	all = {
 		1,
 		2,
@@ -234,6 +349,12 @@ pg.island_interact_point = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19
 	}
 }

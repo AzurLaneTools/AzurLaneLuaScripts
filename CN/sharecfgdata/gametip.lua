@@ -34379,7 +34379,7 @@ _G.pg.base.gametip.adventure_record_grade_title = {
 
 
 _G.pg.base.gametip.adventure_award_end_tip = {
-	tip = "※领取时间截止至4.17 24时"
+	tip = "※领取时间截止至2.18 24时"
 }
 
 
@@ -41838,6 +41838,45 @@ _G.pg.base.gametip.island_help_character_info = {
 }
 
 
+_G.pg.base.gametip.island_help_fish = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_fish1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_fish2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_fish3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.island_skin_original_desc = {
 	tip = "默认"
 }
@@ -42150,6 +42189,11 @@ _G.pg.base.gametip.island_log_exit = {
 
 _G.pg.base.gametip.island_log_gift = {
 	tip = " 邀请你领取补给"
+}
+
+
+_G.pg.base.gametip.island_log_trade = {
+	tip = " 邀请你交易珍珠"
 }
 
 
@@ -43966,6 +44010,56 @@ _G.pg.base.gametip.island_spoperation_item_2509_4 = {
 }
 
 
+_G.pg.base.gametip.island_spoperation_tip_2602_1 = {
+	tip = "活动期间，佩芮会连续发布特产订单，完成特产订单可获得开发季PT等奖励。\n*特产订单不占用岛屿订单完成上限、也不提升好评等级"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2602_2 = {
+	tip = "活动期间，岛屿特定区域中每天都会生长出新的活动采集物，快去寻找吧！"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2602_3 = {
+	tip = "活动期间，在【青芽苗圃】【白熊饮品】【有鱼餐馆】【手工制作设备】中可生产对应特产"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2602_1 = {
+	tip = "特产采集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2602_2 = {
+	tip = "特产制作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2602_3 = {
+	tip = "活动管理员"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_1 = {
+	tip = "春笋"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_2 = {
+	tip = "荠菜"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_3 = {
+	tip = "迎春花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_4 = {
+	tip = "风信子"
+}
+
+
 _G.pg.base.gametip.island_follow_success = {
 	tip = "跟随成功"
 }
@@ -44277,6 +44371,16 @@ _G.pg.base.gametip.island_guide_help_item = {
 }
 
 
+_G.pg.base.gametip.island_guide_help_fish = {
+	tip = [[
+积累收集点可以提升收藏等级，并解锁对应的收藏奖励。
+达成以下条件可以领取钓鱼收集点：
+
+1.<color=#39bfff>获取</color>鱼类：每种鱼类解锁后可领取<color=#39bfff>10</color>收集点
+2.<color=#39bfff>获取鱼类的大小皇冠</color>：获取某种鱼类的重量纪录满足大小皇冠的条件后可领取收集点，每种鱼类的大小皇冠重量条件各不相同，满足条件后会在重量纪录前显示皇冠]]
+}
+
+
 _G.pg.base.gametip.island_guide_character_help = {
 	tip = "信息"
 }
@@ -44319,6 +44423,16 @@ _G.pg.base.gametip.island_guide_item_en = {
 
 _G.pg.base.gametip.island_guide_collectionpoint = {
 	tip = "领取收集点"
+}
+
+
+_G.pg.base.gametip.island_guide_fish_min_weight = {
+	tip = "最小重量"
+}
+
+
+_G.pg.base.gametip.island_guide_fish_max_weight = {
+	tip = "最大重量"
 }
 
 
@@ -44484,6 +44598,36 @@ _G.pg.base.gametip.island_3Dshop_lack_res = {
 
 _G.pg.base.gametip.island_photo_fur_lock = {
 	tip = "当前无法使用相机"
+}
+
+
+_G.pg.base.gametip.island_exchange_title = {
+	tip = "加工"
+}
+
+
+_G.pg.base.gametip.island_exchange_title_en = {
+	tip = "Processing"
+}
+
+
+_G.pg.base.gametip.island_exchange_own_count = {
+	tip = "持有数量"
+}
+
+
+_G.pg.base.gametip.island_exchange_btn_text = {
+	tip = "加工"
+}
+
+
+_G.pg.base.gametip.island_exchange_sure_tip = {
+	tip = "是否确认进行加工？"
+}
+
+
+_G.pg.base.gametip.island_bag_max_tip = {
+	tip = "岛屿仓库已满"
 }
 
 
@@ -45414,8 +45558,33 @@ _G.pg.base.gametip.island_order_ship_btn_replace = {
 }
 
 
+_G.pg.base.gametip.island_fishing_tip_hooked = {
+	tip = "鱼儿咬钩了"
+}
+
+
+_G.pg.base.gametip.island_fishing_tip_escape = {
+	tip = "鱼儿逃脱了"
+}
+
+
+_G.pg.base.gametip.island_fishing_exit = {
+	tip = "是否停止钓鱼？"
+}
+
+
+_G.pg.base.gametip.island_fishing_lure_empty = {
+	tip = "鱼饵不能是空"
+}
+
+
 _G.pg.base.gametip.island_order_ship_exchange_tip_2 = {
 	tip = "无可运输次数"
+}
+
+
+_G.pg.base.gametip.island_follower_exiting_tip = {
+	tip = "该角色正在离开..."
 }
 
 
@@ -46344,4 +46513,265 @@ _G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
 ·完成【剧情模式】的全部内容后，可获得限定纪念外观<color=#92fc63>「爱之甜心炮弹」</color>。]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.island_post_event_label = {
+	tip = "经营事件"
+}
+
+
+_G.pg.base.gametip.island_post_event_close_label = {
+	tip = "关闭"
+}
+
+
+_G.pg.base.gametip.island_post_event_open_label = {
+	tip = "查看"
+}
+
+
+_G.pg.base.gametip.island_post_event_addition_label = {
+	tip = "下列餐品获得加成"
+}
+
+
+_G.pg.base.gametip.island_addition_influence = {
+	tip = "吸引力"
+}
+
+
+_G.pg.base.gametip.island_addition_sale = {
+	tip = "售价"
+}
+
+
+_G.pg.base.gametip.island_trade_title = {
+	tip = "珍珠采购点"
+}
+
+
+_G.pg.base.gametip.island_trade_title2 = {
+	tip = "珍珠售卖点"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_label = {
+	tip = "珍珠售卖"
+}
+
+
+_G.pg.base.gametip.island_trade_trend_label = {
+	tip = "价格曲线"
+}
+
+
+_G.pg.base.gametip.island_trade_purchase_label = {
+	tip = "珍珠采购"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_label = {
+	tip = "好友排名"
+}
+
+
+_G.pg.base.gametip.island_trade_purchase_sub_label = {
+	tip = "采购"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_sub_label = {
+	tip = "售卖"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_num_label = {
+	tip = "开发排名"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_info_label = {
+	tip = "岛屿信息"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_price_label = {
+	tip = "今日价格"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_level_label = {
+	tip = "岛屿等级"
+}
+
+
+_G.pg.base.gametip.island_trade_invite_label = {
+	tip = "邀请玩家"
+}
+
+
+_G.pg.base.gametip.island_trade_tip_label = {
+	tip = "每日03：00刷新采购价格"
+}
+
+
+_G.pg.base.gametip.island_trade_tip_label2 = {
+	tip = "每日03：00刷新售卖价格"
+}
+
+
+_G.pg.base.gametip.island_trade_limit_label = {
+	tip = "本周可采购数量$1"
+}
+
+
+_G.pg.base.gametip.island_trade_send_msg_label = {
+	tip = "<material=underline c=#006400 ><color=#006400>今日珍珠售价$2</color></material>"
+}
+
+
+_G.pg.base.gametip.island_trade_send_msg_match_label = {
+	tip = "神秘商人"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_tip_label = {
+	tip = "今日可在该岛售卖数量$1"
+}
+
+
+_G.pg.base.gametip.island_trade_purchase_failed_label = {
+	tip = "本周珍珠采购数量已达上限"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_failed_label = {
+	tip = "持有珍珠数量不足无法售卖"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_failed_label2 = {
+	tip = "本日该岛珍珠可售卖数量已达上限"
+}
+
+
+_G.pg.base.gametip.island_trade_bag_full_label = {
+	tip = "仓库容量不足无法采购"
+}
+
+
+_G.pg.base.gametip.island_trade_reset_label = {
+	tip = "今日价格已重置"
+}
+
+
+_G.pg.base.gametip.island_trade_help_1 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_trade_help_2 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_trade_price_unrefresh = {
+	tip = "岛主尚未更新价格无法交易"
+}
+
+
+_G.pg.base.gametip.island_trade_msg_pop = {
+	tip = "$1邀请你前往他的岛屿，该岛屿今日珍珠售价$3"
+}
+
+
+_G.pg.base.gametip.island_trade_invite_success = {
+	tip = "邀请成功"
+}
+
+
+_G.pg.base.gametip.island_trade_share_success = {
+	tip = "邀请成功"
+}
+
+
+_G.pg.base.gametip.island_trade_activity_desc_1 = {
+	tip = "　活动期间，神秘商人会出现在集会岛，在神秘商人处可进行珍珠售卖。"
+}
+
+
+_G.pg.base.gametip.island_trade_activity_desc_2 = {
+	tip = "　珍珠可从开发季管理员佩芮处采购，每日采购和售卖的价格会出现波动。"
+}
+
+
+_G.pg.base.gametip.island_trade_activity_unlock = {
+	tip = "开放等级：岛屿LV.22"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_game = {
+	tip = "快速游戏"
+}
+
+
+_G.pg.base.gametip.island_trade_cnt_inadequate = {
+	tip = "数量不足"
 }

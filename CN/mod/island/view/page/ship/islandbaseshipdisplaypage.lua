@@ -1,5 +1,11 @@
 slot0 = class("IslandBaseShipDisplayPage", import("...base.IslandBasePage"))
 
+slot0.Ctor = function(slot0, ...)
+	uv0.super.Ctor(slot0, ...)
+
+	slot0.displayUnit = IslandDisplayShipUnit.New()
+end
+
 slot0.Preload = function(slot0, slot1)
 	slot0:PrepareCharacterScene(slot1)
 end
@@ -10,6 +16,7 @@ slot0.PrepareCharacterScene = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0:CreateCharacterContainer()
+			uv0:CreateToolContainer()
 			uv0:LoadCharacterScene(slot0)
 		end,
 		function (slot0)
@@ -66,6 +73,7 @@ slot0.ClearCharacterScene = function(slot0, slot1)
 	if slot0.isLoadCharacterScene then
 		slot0:UnLoadCharacterScene(slot1)
 		slot0:ClearCharacterContainer()
+		slot0:ClearToolContainer()
 		slot0:ResetCameraMask()
 		slot0:ActivityPlayerCamera()
 		slot0:emitCore(ISLAND_EVT.REFRESH_WEATHER_SYSTEM)
@@ -115,6 +123,8 @@ slot0.LoadCharacter = function(slot0, slot1, slot2)
 
 		slot5.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
 
+		uv1.displayUnit:OnAttach(slot0, uv1.toolContainer)
+
 		if slot1 and slot1 ~= "" then
 			for slot11 = 1, GetOrAddComponent(uv1.role.transform:GetChild(0), typeof(Animator)).layerCount do
 				slot7:CrossFadeInFixedTime(slot1, 0, slot11 - 1)
@@ -162,6 +172,7 @@ slot0.UnloadCharacter = function(slot0, slot1)
 	end
 
 	if slot0.role then
+		slot0.displayUnit:OnDetach()
 		pg.ViewUtils.SetLayer(slot0.role.transform, Layer.Default)
 
 		if slot0.isCommander then
@@ -208,6 +219,24 @@ slot0.ActivityPlayerCamera = function(slot0)
 	end
 
 	IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME)
+end
+
+slot0.CreateToolContainer = function(slot0)
+	slot0.toolContainer = GameObject.New("toolContainer").transform
+
+	pg.ViewUtils.SetLayer(slot0.roleContainer, Layer.Default)
+end
+
+slot0.ClearToolContainer = function(slot0)
+	if not IsNil(slot0.toolContainer) then
+		Object.Destroy(slot0.toolContainer.gameObject)
+
+		slot0.toolContainer = nil
+	end
+end
+
+slot0.OnClearItemAnimator = function(slot0)
+	slot0.displayUnit:OnClearItemAnimator()
 end
 
 slot0.Hide = function(slot0)

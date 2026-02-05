@@ -7891,7 +7891,78 @@ pg.activity_ins_chat_language = setmetatable({
 		7888,
 		7889,
 		7890,
-		7891
+		7891,
+		7892,
+		7893,
+		7894,
+		7895,
+		7896,
+		7897,
+		7898,
+		7899,
+		7900,
+		7901,
+		7902,
+		7903,
+		7904,
+		7905,
+		7906,
+		7907,
+		7908,
+		7909,
+		7910,
+		7911,
+		7912,
+		7913,
+		7914,
+		7915,
+		7916,
+		7917,
+		7918,
+		7919,
+		7920,
+		7921,
+		7922,
+		7923,
+		7924,
+		7925,
+		7926,
+		7927,
+		7928,
+		7929,
+		7930,
+		7931,
+		7932,
+		7933,
+		7934,
+		7935,
+		7936,
+		7937,
+		7938,
+		7939,
+		7940,
+		7941,
+		7942,
+		7943,
+		7944,
+		7945,
+		7946,
+		7947,
+		7948,
+		7949,
+		7950,
+		7951,
+		7952,
+		7953,
+		7954,
+		7955,
+		7956,
+		7957,
+		7958,
+		7959,
+		7960,
+		7961,
+		7962
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -77853,5 +77924,656 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 7891,
 		flag = 3
+	},
+	[7892] = {
+		param = "指挥官，关于港区最近的后勤保障体系……",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7892,
+		flag = 0
+	},
+	[7893] = {
+		param = "您觉得还有哪里可以改善的吗？",
+		ship_group = 51901,
+		type = 1,
+		id = 7893,
+		flag = 0,
+		option = {
+			{
+				1,
+				"不是上周才升级过仓库管理系统？"
+			}
+		}
+	},
+	[7894] = {
+		param = "不是上周才升级过仓库管理系统？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7894,
+		flag = 1
+	},
+	[7895] = {
+		param = "就是因为花了不少经费去升级，所以才需要带动体验上的提升呢",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7895,
+		flag = 1
+	},
+	[7896] = {
+		param = "我担心自己总盯着数字看，会忽略大家的实际体验",
+		ship_group = 51901,
+		type = 1,
+		id = 7896,
+		flag = 1,
+		option = {
+			{
+				2,
+				"也许可以加一些娱乐设施"
+			}
+		}
+	},
+	[7897] = {
+		param = "也许可以加一些娱乐设施",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7897,
+		flag = 2
+	},
+	[7898] = {
+		param = "啊！有道理！指挥官不提醒的话，我完全没想到这一点",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7898,
+		flag = 2
+	},
+	[7899] = {
+		param = "麻将围棋、象棋、拼图、算术练习……指挥官还能想到哪些娱乐方式？",
+		ship_group = 51901,
+		type = 1,
+		id = 7899,
+		flag = 2,
+		option = {
+			{
+				3,
+				"……定安，你平时不太擅长玩乐吧？"
+			}
+		}
+	},
+	[7900] = {
+		param = "……定安，你平时不太擅长玩乐吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7900,
+		flag = 3
+	},
+	[7901] = {
+		param = "366",
+		ship_group = 51901,
+		option = "",
+		type = 4,
+		id = 7901,
+		flag = 3
+	},
+	[7902] = {
+		param = "那……电影、游戏、保龄球？",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7902,
+		flag = 3
+	},
+	[7903] = {
+		param = "嗯……飞镖、桌游、台球也是不错的选择",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7903,
+		flag = 3
+	},
+	[7904] = {
+		param = "太好了，思路终于清晰了，指挥官觉得这些活动如何？",
+		ship_group = 51901,
+		type = 1,
+		id = 7904,
+		flag = 3,
+		option = {
+			{
+				4,
+				"很在乎我的感受？"
+			},
+			{
+				5,
+				"定安自己没有想要的么？"
+			}
+		}
+	},
+	[7905] = {
+		param = "定安好像很在乎我的感受？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7905,
+		flag = 4
+	},
+	[7906] = {
+		param = "没错",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7906,
+		flag = 4
+	},
+	[7907] = {
+		param = "定安自己没有想要的么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7907,
+		flag = 5
+	},
+	[7908] = {
+		param = "我只是更在乎指挥官的感受哦",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7908,
+		flag = 5
+	},
+	[7909] = {
+		param = "指挥官平时要操心的事太多了……",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7909,
+		flag = 0
+	},
+	[7910] = {
+		param = "要是能在休息时，能觉得放松一点、开心一点……我也就放心了~",
+		ship_group = 51901,
+		type = 1,
+		id = 7910,
+		flag = 0,
+		option = {
+			{
+				6,
+				"听你这么说……"
+			}
+		}
+	},
+	[7911] = {
+		param = "听你这么说……突然就不觉得累了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7911,
+		flag = 6
+	},
+	[7912] = {
+		param = "谢谢你，定安",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7912,
+		flag = 6
+	},
+	[7913] = {
+		param = "不用谢~这本就是我该做的……",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7913,
+		flag = 6
+	},
+	[7914] = {
+		param = "对我来说，指挥官的感受永远是第一优先级~",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7914,
+		flag = 6
+	},
+	[7915] = {
+		param = "红茶和咖啡",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7915,
+		flag = 0
+	},
+	[7916] = {
+		param = "指挥官觉得哪个更适合今天的天气？",
+		ship_group = 51901,
+		type = 1,
+		id = 7916,
+		flag = 0,
+		option = {
+			{
+				1,
+				"红茶吧"
+			},
+			{
+				2,
+				"咖啡吧"
+			}
+		}
+	},
+	[7917] = {
+		param = "天气有点凉，热热的红茶好一点",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7917,
+		flag = 1
+	},
+	[7918] = {
+		param = "不错的选择",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7918,
+		flag = 1
+	},
+	[7919] = {
+		param = "热热的红茶配上入口即化的红丝绒蛋糕",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7919,
+		flag = 1
+	},
+	[7920] = {
+		param = "天气有点热，冰美式好一点",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7920,
+		flag = 2
+	},
+	[7921] = {
+		param = "不错的选择",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7921,
+		flag = 2
+	},
+	[7922] = {
+		param = "冰冰的咖啡配上浓郁香甜的巧克力曲奇",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7922,
+		flag = 2
+	},
+	[7923] = {
+		param = "嗯嗯，记下来了，那下一个问题",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7923,
+		flag = 0
+	},
+	[7924] = {
+		param = "指挥官休息日喜欢做什么？",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7924,
+		flag = 0
+	},
+	[7925] = {
+		param = "是喜欢在家放松，还是更喜欢出门走走？",
+		ship_group = 51901,
+		type = 1,
+		id = 7925,
+		flag = 0,
+		option = {
+			{
+				3,
+				"怎么突然问这些？"
+			}
+		}
+	},
+	[7926] = {
+		param = "怎么突然问这些？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7926,
+		flag = 3
+	},
+	[7927] = {
+		param = "对于合格的投资人来说，获取第一手情报是很有必要的",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7927,
+		flag = 3
+	},
+	[7928] = {
+		param = "何况这还是和您相关的重要情报",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7928,
+		flag = 3
+	},
+	[7929] = {
+		param = "不仅可以据此进行后续约会的规划，还有很高的商业价值",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7929,
+		flag = 3
+	},
+	[7930] = {
+		param = "运作好的话，甚至可以直接影响整个港区的市场哦~",
+		ship_group = 51901,
+		type = 1,
+		id = 7930,
+		flag = 3,
+		option = {
+			{
+				4,
+				"约会……？"
+			}
+		}
+	},
+	[7931] = {
+		param = "刚才你说的约会是……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7931,
+		flag = 4
+	},
+	[7932] = {
+		param = "欸，什么约会？我有说过吗？",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7932,
+		flag = 4
+	},
+	[7933] = {
+		param = "我怎么会这么快就把今天的目的说出来呢",
+		ship_group = 51901,
+		type = 1,
+		id = 7933,
+		flag = 4,
+		option = {
+			{
+				5,
+				"你看看上面……"
+			}
+		}
+	},
+	[7934] = {
+		param = "你看看上面的记录……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7934,
+		flag = 5
+	},
+	[7935] = {
+		param = "糟糕……我怎么把心里话也打出来了……",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7935,
+		flag = 5
+	},
+	[7936] = {
+		param = "算了……所以……其实我更想知道的是",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7936,
+		flag = 5
+	},
+	[7937] = {
+		param = "你更喜欢我们一起静静地品茶，还是在周末一起出门呢？",
+		ship_group = 51901,
+		type = 1,
+		id = 7937,
+		flag = 5,
+		option = {
+			{
+				6,
+				"我全都要"
+			}
+		}
+	},
+	[7938] = {
+		param = "为什么不能全要呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7938,
+		flag = 6
+	},
+	[7939] = {
+		param = "指挥官还真是贪心呢~",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7939,
+		flag = 6
+	},
+	[7940] = {
+		param = "不过……可以哦，只要您想，陪您多久都可以",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7940,
+		flag = 6
+	},
+	[7941] = {
+		param = "早安，指挥官。昨晚休息得怎么样？",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7941,
+		flag = 0
+	},
+	[7942] = {
+		param = "给您新换的床垫，使用时有没有觉得不满意？",
+		ship_group = 51901,
+		type = 1,
+		id = 7942,
+		flag = 0,
+		option = {
+			{
+				1,
+				"非常舒服"
+			}
+		}
+	},
+	[7943] = {
+		param = "很久没有睡得这么沉了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7943,
+		flag = 1
+	},
+	[7944] = {
+		param = "370",
+		ship_group = 51901,
+		option = "",
+		type = 4,
+		id = 7944,
+		flag = 1
+	},
+	[7945] = {
+		param = "太好了，那接下来两周，每隔两天就会有一款新的床垫送来",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7945,
+		flag = 1
+	},
+	[7946] = {
+		param = "要麻烦指挥官都试一试了",
+		ship_group = 51901,
+		type = 1,
+		id = 7946,
+		flag = 1,
+		option = {
+			{
+				2,
+				"为什么要测试床垫？"
+			}
+		}
+	},
+	[7947] = {
+		param = "为什么要测试床垫？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7947,
+		flag = 2
+	},
+	[7948] = {
+		param = "是为了睡眠质量提升计划哦",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7948,
+		flag = 2
+	},
+	[7949] = {
+		param = "最近有几个寝具品牌在寻求投资，我觉得这个方向很有潜力",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7949,
+		flag = 2
+	},
+	[7950] = {
+		param = "但投资不能只凭报告——我想知道，真实的使用感受到底是什么样的",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7950,
+		flag = 2
+	},
+	[7951] = {
+		param = "而且，如果将来真的投了这个领域……你就能用上真正好用的产品！",
+		ship_group = 51901,
+		type = 1,
+		id = 7951,
+		flag = 2,
+		option = {
+			{
+				3,
+				"所以我是你的首席体验官？"
+			}
+		}
+	},
+	[7952] = {
+		param = "所以我是你的首席体验官？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7952,
+		flag = 3
+	},
+	[7953] = {
+		param = "可以这么说，不过别担心，您只需要告诉我喜欢或不喜欢就好",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7953,
+		flag = 3
+	},
+	[7954] = {
+		param = "具体的评估和数据分析，我会负责的",
+		ship_group = 51901,
+		type = 1,
+		id = 7954,
+		flag = 3,
+		option = {
+			{
+				4,
+				"定安不试试么？"
+			}
+		}
+	},
+	[7955] = {
+		param = "定安不试试么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7955,
+		flag = 4
+	},
+	[7956] = {
+		param = "我试的是基础款，投资要谨慎，成本也要控制嘛",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7956,
+		flag = 4
+	},
+	[7957] = {
+		param = "指挥官用的产品，才是需要重点评估的",
+		ship_group = 51901,
+		type = 1,
+		id = 7957,
+		flag = 4,
+		option = {
+			{
+				5,
+				"既然是调研……"
+			}
+		}
+	},
+	[7958] = {
+		param = "既然是调研，要试就试一样的，这样有对照的数据才更有参考价值",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7958,
+		flag = 5
+	},
+	[7959] = {
+		param = "指挥官……你说得对",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7959,
+		flag = 5
+	},
+	[7960] = {
+		param = "呵呵，那这段时间，我就要打扰你了哦~",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7960,
+		flag = 5
+	},
+	[7961] = {
+		param = "等新的床垫到了……我们就一起，好好感受每一个夜晚",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7961,
+		flag = 5
+	},
+	[7962] = {
+		param = "既是为了未来的投资，也是为了我们安稳的梦~",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7962,
+		flag = 5
 	}
 }

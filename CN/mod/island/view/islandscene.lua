@@ -455,11 +455,7 @@ slot0.SequenceCheck = function(slot0)
 			end
 		end,
 		function (slot0)
-			if uv0:GetIsland():GetSeasonAgency():NeedReset() then
-				uv0:emit(IslandMediator.ON_RESET_SEASON, slot0)
-			else
-				slot0()
-			end
+			uv0:SeasonResetCheck(slot0)
 		end,
 		function (slot0)
 			slot1, slot2, slot3 = uv0:GetIsland():GetSeasonAgency():IsShowResetTip()
@@ -513,6 +509,31 @@ slot0.SequenceCheck = function(slot0)
 	}, function ()
 		IslandGuideChecker.CheckOnLoaded(uv0:GetIsland():GetMapId())
 	end)
+end
+
+slot0.SeasonResetCheck = function(slot0, slot1)
+	slot2, slot3 = IslandSeasonAgency.CheckReset()
+
+	if slot2 then
+		seriesAsync({
+			function (slot0)
+				uv0:ShowMsgbox({
+					hideNo = true,
+					type = IslandMsgBox.TYPE_COMMON,
+					content = i18n("island_season_reset"),
+					onHide = slot0
+				})
+			end
+		}, function ()
+			uv0:ShowMsgbox({
+				type = IslandMsgBox.TYPE_SEASON_RESET,
+				body = uv1,
+				onHide = uv2
+			})
+		end)
+	else
+		slot1()
+	end
 end
 
 slot0.UpdateVisitorBtn = function(slot0)

@@ -69,8 +69,8 @@ slot0.AddAgoraListeners = function(slot0)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM, slot0.OnDragItem)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM_END, slot0.OnEndDragItem)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.MAP_SIZE_UPDATE, slot0.OnBoardUpdate)
-	slot0:AddAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, slot0.OnStartInteraction)
-	slot0:AddAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, slot0.OnEndInteraction)
+	slot0:AddAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, slot0.OnAgoraVirtualStartInteraction)
+	slot0:AddAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, slot0.OnAgoraVirtualEndInteraction)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.ITEM_OCCUPIED, slot0.OnPositionOccupied)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.ITEM_CLEAR_OCCUPIED, slot0.OnClearPositionOccupied)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.SIGN_IN_CNT_UPDATE, slot0.OnSignCntUpdate)
@@ -110,8 +110,8 @@ slot0.RemoveAgoraListeners = function(slot0)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM, slot0.OnDragItem)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM_END, slot0.OnEndDragItem)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.MAP_SIZE_UPDATE, slot0.OnBoardUpdate)
-	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, slot0.OnStartInteraction)
-	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, slot0.OnEndInteraction)
+	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, slot0.OnAgoraVirtualStartInteraction)
+	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, slot0.OnAgoraVirtualEndInteraction)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.ITEM_OCCUPIED, slot0.OnPositionOccupied)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.ITEM_CLEAR_OCCUPIED, slot0.OnClearPositionOccupied)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.SIGN_IN_CNT_UPDATE, slot0.OnSignCntUpdate)
@@ -352,7 +352,7 @@ slot0.OnClearPositionOccupied = function(slot0, slot1)
 	end
 end
 
-slot0.OnStartInteraction = function(slot0, slot1, slot2, slot3)
+slot0.OnAgoraVirtualStartInteraction = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2:GetHostId()
 	slot5 = slot2:GetUserId()
 
@@ -364,10 +364,10 @@ slot0.OnStartInteraction = function(slot0, slot1, slot2, slot3)
 		slot0:GetSubView(AgoraOpView):StartInteraction()
 	end
 
-	slot6:StartInteract(slot7, slot2.id, slot3, slot1:GetTimeline()[slot3], nil, slot1:AnySlotUsing(), slot8)
+	slot6:StartInteract(slot7, slot2.id, slot3, slot1:GetTimeline()[slot3], slot1:GetBlackboardParam()[slot3], slot1:AnySlotUsing(), slot8)
 end
 
-slot0.OnEndInteraction = function(slot0, slot1, slot2)
+slot0.OnAgoraVirtualEndInteraction = function(slot0, slot1, slot2)
 	slot3 = slot2:GetHostId()
 	slot4 = slot2:GetUserId()
 

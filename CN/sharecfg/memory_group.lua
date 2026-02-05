@@ -377,6 +377,7 @@ pg.memory_group = setmetatable({
 		616,
 		617,
 		618,
+		619,
 		1000,
 		1001,
 		1002,
@@ -8800,6 +8801,26 @@ pg.base.memory_group = {
 			4955,
 			4956,
 			4957
+		},
+		group_id = {
+			10000
+		}
+	},
+	[619] = {
+		title = "投资，然后失败吧！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 619,
+		icon = "title_chara_dingan",
+		memories = {
+			4971,
+			4972,
+			4973,
+			4974,
+			4975,
+			4976,
+			4977
 		},
 		group_id = {
 			10000

@@ -136,6 +136,19 @@ slot0.timeCall = function(slot0)
 
 			uv0.sharedIsland:UpdatePerSecond()
 		end,
+		[ProxyRegister.HourCall] = function (slot0)
+			if not uv0.island then
+				return
+			end
+
+			uv0.island:UpdatePerHour(slot0)
+
+			if not uv0.sharedIsland then
+				return
+			end
+
+			uv0.sharedIsland:UpdatePerHour(slot0)
+		end,
 		[ProxyRegister.DayCall] = function (slot0)
 			if not uv0.island then
 				return

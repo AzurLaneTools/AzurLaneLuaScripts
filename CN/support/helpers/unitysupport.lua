@@ -471,7 +471,11 @@ onNextTick = function(slot0)
 end
 
 onDelayTick = function(slot0, slot1)
-	Timer.New(slot0, slot1, 1):Start()
+	slot2 = Timer.New(slot0, slot1, 1)
+
+	slot2:Start()
+
+	return slot2
 end
 
 seriesAsync = function(slot0, slot1, ...)

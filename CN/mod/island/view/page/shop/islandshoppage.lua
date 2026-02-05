@@ -102,7 +102,7 @@ slot0.SetShopList = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			if uv0.firstShopConfigs[slot1] then
 				setActive(slot2:Find("shop2List"), false)
-				LoadImageSpriteAsync(slot3.tag_icon[3], slot2:Find("shop1Tg/selected/icon"), false)
+				GetImageSpriteFromAtlasAsync("island/islandshopicon", slot3.tag_icon[3], slot2:Find("shop1Tg/selected/icon"), false)
 				setText(slot2:Find("shop1Tg/name"), slot3.tag_icon[1])
 				setText(slot2:Find("shop1Tg/name/en"), slot3.tag_icon[2])
 				onToggle(uv0, slot2:Find("shop1Tg"), function (slot0)
@@ -1183,6 +1183,8 @@ slot0.LoadCharacter = function(slot0, slot1, slot2)
 
 		slot4.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
 
+		uv0.displayUnit:OnAttach(slot0, uv0.toolContainer)
+
 		if uv0.modelData and uv0.modelData.personal_ani and slot6 ~= "" then
 			for slot11 = 1, GetOrAddComponent(uv0.role.transform:GetChild(0), typeof(Animator)).layerCount do
 				slot7:CrossFadeInFixedTime(slot6, 0, slot11 - 1)
@@ -1211,6 +1213,7 @@ slot0.UnloadCharacter = function(slot0)
 	slot0.islandShipDressHelper:Destroy()
 
 	if slot0.role then
+		slot0.displayUnit:OnDetach()
 		pg.ViewUtils.SetLayer(slot0.role.transform, Layer.Default)
 
 		if slot0.isCommander then

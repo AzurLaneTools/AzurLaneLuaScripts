@@ -133,24 +133,30 @@ end
 slot0.onUILoaded = function(slot0, slot1)
 	uv0.super.onUILoaded(slot0, slot1)
 
+	slot6 = slot0.event
 	slot0.subViews = {
 		IslandMsgBox.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event),
 		IslandToast.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event),
 		IslandStoryMgr.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event),
 		IslandAwardDisplayPage.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event),
 		IslandQueueUpMsgBox.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event),
-		IslandTimelineMgr.New(slot0:GetPoolMgr(), pg.UIMgr.GetInstance().OverlayToast, slot0.event),
+		IslandTimelineMgr.New(slot0:GetPoolMgr(), pg.UIMgr.GetInstance().OverlayToast, slot6),
 		Island3dTaskAcceptPage.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event),
 		IslandSystemUnlockPage.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event)
 	}
+	slot5 = slot0
 	slot0.monitors = {
 		IslandPlayerDataMonitor.New(slot0:GetIsland()),
-		IslandSyncDataMonitor.New(slot0:GetIsland())
+		IslandSyncDataMonitor.New(slot0.GetIsland(slot5))
 	}
 	slot0.poppingQueue = IslandPoppingQueue.New(slot0)
 
 	slot0:AddCommonListeners()
 	slot0:AddListeners()
+
+	for slot5, slot6 in pairs(slot0.subViews) do
+		slot6:RegisterView(slot0)
+	end
 end
 
 slot0.AddCommonListeners = function(slot0)

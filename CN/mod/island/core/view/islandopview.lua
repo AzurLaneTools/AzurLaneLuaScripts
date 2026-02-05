@@ -148,7 +148,7 @@ slot0.ShowFollowerList = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. IslandShip.StaticGetPrefab(uv1:GetShipById(uv0[slot1 + 1]).configId), "", slot2:Find("icon"))
 			onButton(uv2, slot2, function ()
-				uv0:NotifiyMeditor(IslandMediator.DEL_FOLLOWER, uv1.id)
+				uv0:NotifiyCore(ISLAND_EVT.WILL_DEL_FOLLOWER, uv1.id)
 			end, SFX_PANEL)
 		end
 	end)
@@ -374,6 +374,11 @@ slot0.UpdateOperationButtonDisplay = function(slot0)
 			uv0()
 		end,
 		[uv0.OperationType.Fishing] = function ()
+			IslandGuideChecker.CheckGuide("ISLAND_GUIDE_33")
+
+			slot0 = uv0
+
+			slot0:UpdateLureBtn()
 			OptionBtnDisplay(uv0.operationType)
 			setActive(uv0.lureBtn, true)
 			onButton(uv0, uv0.opBtn, function ()

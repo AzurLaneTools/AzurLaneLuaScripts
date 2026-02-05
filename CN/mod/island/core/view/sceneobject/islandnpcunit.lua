@@ -33,6 +33,13 @@ slot0.OnAttach = function(slot0, slot1)
 	end)
 
 	slot0.objTfList = {}
+
+	if slot0.behaviourTreeOwner then
+		slot2, slot3 = slot0:GetDataVO():GetPersonality()
+
+		LuaHelper.NodeCanvasSetIntVariableValue(slot0.behaviourTreeOwner, "personality", slot2)
+		LuaHelper.NodeCanvasSetIntVariableValue(slot0.behaviourTreeOwner, "proactive", slot3)
+	end
 end
 
 slot0.StateEnterHandle = function(slot0, slot1, slot2)

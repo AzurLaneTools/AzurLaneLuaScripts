@@ -24,6 +24,9 @@ slot0.COMBP_ABILITY_ID = 29001
 slot0.DAILY_TASK_ABILITY_ID = 30001
 slot0.SIGNIN_STORY_NAME = "ISLAND1001032_1"
 slot0.TECH_FIRST_ID = 100001
+slot0.FISHING_TASK_ID = 20016003
+slot0.PURCHASE_TRADE_TASK_ID = 20017002
+slot0.SELL_TRADE_TASK_ID = 20017003
 slot0.FINISH_TYPE = {
 	ON_GUIDE = 2,
 	ON_END = 3,
@@ -55,6 +58,14 @@ slot0.interactionConfig = {
 			return true
 		end,
 		type = slot0.FINISH_TYPE.ON_BEGIN
+	},
+	{
+		id = "ISLAND_GUIDE_34",
+		interactionId = 10020071,
+		condition = function ()
+			return getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(uv0.FISHING_TASK_ID)
+		end,
+		type = slot0.FINISH_TYPE.ON_END
 	}
 }
 slot0.pageConfig = {
@@ -148,6 +159,22 @@ slot0.pageConfig = {
 			return true
 		end,
 		type = slot0.FINISH_TYPE.ON_END
+	},
+	{
+		id = "ISLAND_GUIDE_41",
+		page = "IslandTradePage",
+		condition = function ()
+			return getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(uv0.PURCHASE_TRADE_TASK_ID)
+		end,
+		type = slot0.FINISH_TYPE.ON_END
+	},
+	{
+		id = "ISLAND_GUIDE_42",
+		page = "IslandTradePage",
+		condition = function ()
+			return getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(uv0.SELL_TRADE_TASK_ID)
+		end,
+		type = slot0.FINISH_TYPE.ON_END
 	}
 }
 
@@ -181,11 +208,7 @@ end
 
 slot0.CheckOnOpenPage = function(slot0, slot1)
 	if not _.detect(uv0.pageConfig, function (slot0)
-		slot1 = slot0.id
-
-		print("GUIDECHECK:..................." .. slot1 .. "::" .. slot0.page)
-
-		return not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) and slot2 == uv0 and slot0.condition()
+		return not pg.NewStoryMgr.GetInstance():IsPlayed(slot0.id) and slot0.page == uv0 and slot0.condition()
 	end) then
 		existCall(slot1)
 

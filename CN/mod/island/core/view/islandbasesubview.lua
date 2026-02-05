@@ -53,6 +53,8 @@ slot0.UnloadUI = function(slot0)
 
 		slot0.insId = nil
 	end
+
+	slot0.exited = true
 end
 
 slot0.ShowMsgbox = function(slot0, slot1)

@@ -125330,6 +125330,357 @@ _G.pg.base.item_data_statistics[68189] = {
 }
 
 
+_G.pg.base.item_data_statistics[68190] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(红月下的恶魔)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>德文郡</color>换装<color=#92fc63FF>红月下的恶魔</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906590",
+	id = 68190,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68193,
+			1
+		},
+		{
+			2,
+			68196,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68191] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(沉溺于爱的游戏)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:531}</color>换装<color=#92fc63FF>沉溺于爱的游戏</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906591",
+	id = 68191,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68194,
+			1
+		},
+		{
+			2,
+			68197,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68192] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(与魔女同行)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>阿尔汉格尔斯克</color>换装<color=#92fc63FF>与魔女同行</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906592",
+	id = 68192,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68195,
+			1
+		},
+		{
+			2,
+			68198,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68193] = {
+	open_directly = 0,
+	name = "换装抵扣券(红月下的恶魔)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>德文郡</color>换装<color=#92fc63FF>红月下的恶魔</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年2月11日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68193,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70989
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68194] = {
+	open_directly = 0,
+	name = "换装抵扣券(沉溺于爱的游戏)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:531}</color>换装<color=#92fc63FF>沉溺于爱的游戏</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年2月11日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68194,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70994
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68195] = {
+	open_directly = 0,
+	name = "换装抵扣券(与魔女同行)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>阿尔汉格尔斯克</color>换装<color=#92fc63FF>与魔女同行</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年2月11日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68195,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70991
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68196] = {
+	open_directly = 0,
+	name = "换装体验券(红月下的恶魔)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>德文郡</color>换装<color=#92fc63FF>红月下的恶魔</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年2月11日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68196,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90429
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68197] = {
+	open_directly = 0,
+	name = "换装体验券(沉溺于爱的游戏)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:531}</color>换装<color=#92fc63FF>沉溺于爱的游戏</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年2月11日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68197,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90430
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68198] = {
+	open_directly = 0,
+	name = "换装体验券(与魔女同行)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>阿尔汉格尔斯克</color>换装<color=#92fc63FF>与魔女同行</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年2月11日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68198,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90431
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "绚烂缤纷夜福袋·I",

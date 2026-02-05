@@ -144,6 +144,18 @@ pg.island_farm_seed = {
 		itemid = 1007,
 		formulaid = 502007
 	},
+	[1208] = {
+		id = 1208,
+		name = "芦笋种子",
+		itemid = 4020,
+		formulaid = 9900009
+	},
+	[1209] = {
+		id = 1209,
+		name = "凤梨种子",
+		itemid = 4022,
+		formulaid = 9900010
+	},
 	all = {
 		1001,
 		1002,
@@ -168,6 +180,8 @@ pg.island_farm_seed = {
 		1204,
 		1205,
 		1206,
-		1207
+		1207,
+		1208,
+		1209
 	}
 }

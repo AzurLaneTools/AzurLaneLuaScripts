@@ -36049,3 +36049,329 @@ _G.pg.base.spweapon_data_statistics[15010] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[15020] = {
+	attribute_1 = "cannon",
+	name = "佐治亚光线！",
+	type = 6,
+	tech = 0,
+	value_1_random = 5,
+	rarity = 4,
+	effect_id_display = 902030,
+	value_2_random = 5,
+	effect_id = 902030,
+	attribute_2 = "hit",
+	next = 15021,
+	upgrade_id = 101,
+	value_2 = 5,
+	icon = "15020",
+	value_1 = 20,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 19902,
+	important = 2,
+	prev = 0,
+	id = 15020,
+	usability = {
+		5
+	},
+	skill_upgrade = {
+		{
+			0,
+			1019160
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15021] = {
+	upgrade_id = 102,
+	prev = 15020,
+	next = 15022,
+	base = 15020,
+	id = 15021,
+	value_2 = 6,
+	value_1 = 21,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15022] = {
+	upgrade_id = 103,
+	prev = 15021,
+	next = 15023,
+	base = 15020,
+	id = 15022,
+	value_2 = 7,
+	value_1 = 22,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15023] = {
+	upgrade_id = 104,
+	prev = 15022,
+	next = 15024,
+	base = 15020,
+	id = 15023,
+	value_2 = 8,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15024] = {
+	upgrade_id = 105,
+	prev = 15023,
+	next = 15025,
+	base = 15020,
+	id = 15024,
+	value_2 = 9,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15025] = {
+	upgrade_id = 106,
+	prev = 15024,
+	next = 15026,
+	base = 15020,
+	id = 15025,
+	value_2 = 10,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15026] = {
+	upgrade_id = 107,
+	prev = 15025,
+	next = 15027,
+	base = 15020,
+	id = 15026,
+	value_2 = 11,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15027] = {
+	upgrade_id = 108,
+	prev = 15026,
+	next = 15028,
+	base = 15020,
+	id = 15027,
+	value_2 = 12,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15028] = {
+	upgrade_id = 109,
+	prev = 15027,
+	next = 15029,
+	base = 15020,
+	id = 15028,
+	value_2 = 13,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15029] = {
+	upgrade_id = 110,
+	prev = 15028,
+	next = 15030,
+	base = 15020,
+	id = 15029,
+	value_2 = 14,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15030] = {
+	id = 15030,
+	upgrade_id = 111,
+	base = 15020,
+	next = 0,
+	prev = 15029,
+	value_2 = 15,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			19160,
+			1019160
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15040] = {
+	attribute_1 = "torpedo",
+	name = "纯白的雪见兔",
+	type = 1,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 902300,
+	value_2_random = 5,
+	effect_id = 902300,
+	attribute_2 = "dodge",
+	next = 15041,
+	upgrade_id = 101,
+	value_2 = 1,
+	icon = "15040",
+	value_1 = 13,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 30102,
+	important = 2,
+	prev = 0,
+	id = 15040,
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1014660
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15041] = {
+	upgrade_id = 102,
+	prev = 15040,
+	next = 15042,
+	base = 15040,
+	id = 15041,
+	value_2 = 1,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15042] = {
+	upgrade_id = 103,
+	prev = 15041,
+	next = 15043,
+	base = 15040,
+	id = 15042,
+	value_2 = 2,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15043] = {
+	upgrade_id = 104,
+	prev = 15042,
+	next = 15044,
+	base = 15040,
+	id = 15043,
+	value_2 = 3,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15044] = {
+	upgrade_id = 105,
+	prev = 15043,
+	next = 15045,
+	base = 15040,
+	id = 15044,
+	value_2 = 4,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15045] = {
+	upgrade_id = 106,
+	prev = 15044,
+	next = 15046,
+	base = 15040,
+	id = 15045,
+	value_2 = 5,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15046] = {
+	upgrade_id = 107,
+	prev = 15045,
+	next = 15047,
+	base = 15040,
+	id = 15046,
+	value_2 = 6,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15047] = {
+	upgrade_id = 108,
+	prev = 15046,
+	next = 15048,
+	base = 15040,
+	id = 15047,
+	value_2 = 7,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15048] = {
+	upgrade_id = 109,
+	prev = 15047,
+	next = 15049,
+	base = 15040,
+	id = 15048,
+	value_2 = 8,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15049] = {
+	upgrade_id = 110,
+	prev = 15048,
+	next = 15050,
+	base = 15040,
+	id = 15049,
+	value_2 = 9,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15050] = {
+	id = 15050,
+	upgrade_id = 111,
+	base = 15040,
+	next = 0,
+	prev = 15049,
+	value_2 = 10,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			14660,
+			1014660
+		}
+	}
+}
