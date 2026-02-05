@@ -1303,7 +1303,7 @@ pg.soundstory_template = {
 	},
 	{
 		story_pic = "",
-		name = "다정한 숙면 시간",
+		name = "포근한 잠자리",
 		story_resource_JP = "soundStory28_JP",
 		story_resource_CN = "",
 		audition_resource_CN = "",

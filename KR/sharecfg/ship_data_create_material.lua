@@ -83,7 +83,9 @@ pg.ship_data_create_material = {
 			"N: 30%",
 			"<color=#ffde38>프란체스코 카라치올로</color>: 2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#d797ff>알베르토 디 주사노</color>: 2.5%<color=#92FC63>(up!)</color>"
+			"<color=#d797ff>알베르토 디 주사노</color>: 2.5%<color=#92FC63>(up!)</color>",
+			"",
+			"※같은 레어도의 건조 획득 확률은 동일합니다."
 		}
 	},
 	{
