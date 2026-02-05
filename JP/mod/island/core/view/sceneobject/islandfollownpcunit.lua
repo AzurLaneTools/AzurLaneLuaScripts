@@ -35,6 +35,7 @@ end
 slot0.OnAttach = function(slot0, slot1)
 	uv0.super.OnAttach(slot0, slot1)
 	slot0:UpdateBtRandomizer()
+	slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("following", true)
 end
 
 slot0.UpdateBtRandomizer = function(slot0)
@@ -48,6 +49,16 @@ slot0.SetBtRandomizer = function(slot0)
 
 	slot0:UpdateBtRandomizer()
 	slot0:RestartBt()
+end
+
+slot0.DoExitHandle = function(slot0)
+	slot0.isExiting = true
+
+	slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("following", false)
+end
+
+slot0.IsExitState = function(slot0)
+	return slot0.isExiting
 end
 
 return slot0

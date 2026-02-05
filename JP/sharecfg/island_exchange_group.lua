@@ -1,0 +1,24 @@
+pg = pg or {}
+pg.island_exchange_group = {
+	{
+		id = 1,
+		exchange_group = {
+			{
+				"淡水魚",
+				1
+			},
+			{
+				"海水魚",
+				2
+			}
+		},
+		text = {
+			"魚肉加工",
+			"Fish processing",
+			"daoju"
+		}
+	},
+	all = {
+		1
+	}
+}

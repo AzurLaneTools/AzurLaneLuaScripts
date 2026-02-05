@@ -1111,6 +1111,17 @@ slot0.GetRecommendLowEnerySkipEnable = function(slot0)
 	return PlayerPrefs.GetInt(_G[slot1.name], slot1.default) == 1
 end
 
+slot1 = "ISLAND_REST_EVENT"
+
+slot0.ShouldTipIslandRestEvet = function(slot0)
+	return PlayerPrefs.GetInt(uv0 .. getProxy(PlayerProxy):getRawData().id, 0) < pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+slot0.RecordIslandRestEvet = function(slot0)
+	PlayerPrefs.SetInt(uv0 .. getProxy(PlayerProxy):getRawData().id, GetZeroTime())
+	PlayerPrefs.Save()
+end
+
 slot0.Reset = function(slot0)
 	slot0:resetEquipSceneIndex()
 	slot0:resetActivityLayerIndex()

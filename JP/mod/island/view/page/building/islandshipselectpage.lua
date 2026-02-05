@@ -112,7 +112,7 @@ slot0.OnInit = function(slot0)
 				content = i18n("island_cancel_follow_tip"),
 				onYes = function ()
 					for slot3, slot4 in ipairs(uv0) do
-						uv1:emit(IslandMediator.DEL_FOLLOWER, slot4)
+						uv1:emitCore(ISLAND_EVT.WILL_DEL_FOLLOWER, slot4)
 					end
 
 					uv1:Hide()

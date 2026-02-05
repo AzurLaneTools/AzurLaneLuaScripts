@@ -18,6 +18,7 @@ pg.island_task_target = setmetatable({
 		903,
 		40005,
 		500000011,
+		500000021,
 		50001001,
 		50001002,
 		50001003,
@@ -25,6 +26,13 @@ pg.island_task_target = setmetatable({
 		50001005,
 		50001006,
 		50001007,
+		50001008,
+		50001009,
+		50001010,
+		50001011,
+		50001012,
+		50001013,
+		50001014,
 		50002001,
 		50002002,
 		50002003,
@@ -32,10 +40,21 @@ pg.island_task_target = setmetatable({
 		50002005,
 		50002006,
 		50002007,
+		50002008,
+		50002009,
+		50002010,
+		50002011,
+		50002012,
+		50002013,
+		50002014,
 		50003001,
 		50003002,
 		50003003,
 		50003004,
+		50003005,
+		50003006,
+		50003007,
+		50003008,
 		80010001,
 		80010002,
 		80010003,
@@ -96,6 +115,36 @@ pg.island_task_target = setmetatable({
 		80011028,
 		80011029,
 		80011030,
+		80012001,
+		80012002,
+		80012003,
+		80012004,
+		80012005,
+		80012006,
+		80012007,
+		80012008,
+		80012009,
+		80012010,
+		80012011,
+		80012012,
+		80012013,
+		80012014,
+		80012015,
+		80012016,
+		80012017,
+		80012018,
+		80012019,
+		80012020,
+		80012021,
+		80012022,
+		80012023,
+		80012024,
+		80012025,
+		80012026,
+		80012027,
+		80012028,
+		80012029,
+		80012030,
 		100010001,
 		100010101,
 		100010201,
@@ -297,6 +346,15 @@ pg.island_task_target = setmetatable({
 		200140031,
 		200150011,
 		200150021,
+		200160011,
+		200160012,
+		200160013,
+		200160041,
+		200160042,
+		200160043,
+		200170011,
+		200170021,
+		200170031,
 		301010011,
 		302010011,
 		303010011,
@@ -534,6 +592,17 @@ pg.base.island_task_target = {
 			5822
 		}
 	},
+	[500000021] = {
+		tips = "10020025",
+		jump_ui = "",
+		name = "ピアリに話を聞いてみる",
+		type = 1,
+		id = 500000021,
+		target_num = 1,
+		target_param = {
+			5826
+		}
+	},
 	[50001001] = {
 		tips = "",
 		jump_ui = "",
@@ -609,6 +678,83 @@ pg.base.island_task_target = {
 		target_num = 240,
 		target_param = {
 			990003
+		}
+	},
+	[50001008] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を採集",
+		type = 40,
+		id = 50001008,
+		target_num = 8,
+		target_param = {
+			990007
+		}
+	},
+	[50001009] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を採集",
+		type = 40,
+		id = 50001009,
+		target_num = 24,
+		target_param = {
+			990007
+		}
+	},
+	[50001010] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を採集",
+		type = 40,
+		id = 50001010,
+		target_num = 48,
+		target_param = {
+			990007
+		}
+	},
+	[50001011] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を採集",
+		type = 40,
+		id = 50001011,
+		target_num = 96,
+		target_param = {
+			990007
+		}
+	},
+	[50001012] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を採集",
+		type = 40,
+		id = 50001012,
+		target_num = 120,
+		target_param = {
+			990007
+		}
+	},
+	[50001013] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を採集",
+		type = 40,
+		id = 50001013,
+		target_num = 160,
+		target_param = {
+			990007
+		}
+	},
+	[50001014] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を採集",
+		type = 40,
+		id = 50001014,
+		target_num = 240,
+		target_param = {
+			990007
 		}
 	},
 	[50002001] = {
@@ -737,6 +883,132 @@ pg.base.island_task_target = {
 			4014
 		}
 	},
+	[50002008] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を制作",
+		type = 26,
+		id = 50002008,
+		target_num = 40,
+		target_param = {
+			4019,
+			4021,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028
+		}
+	},
+	[50002009] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を制作",
+		type = 26,
+		id = 50002009,
+		target_num = 80,
+		target_param = {
+			4019,
+			4021,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028
+		}
+	},
+	[50002010] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を制作",
+		type = 26,
+		id = 50002010,
+		target_num = 100,
+		target_param = {
+			4019,
+			4021,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028
+		}
+	},
+	[50002011] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を制作",
+		type = 26,
+		id = 50002011,
+		target_num = 200,
+		target_param = {
+			4019,
+			4021,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028
+		}
+	},
+	[50002012] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を制作",
+		type = 26,
+		id = 50002012,
+		target_num = 400,
+		target_param = {
+			4019,
+			4021,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028
+		}
+	},
+	[50002013] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を制作",
+		type = 26,
+		id = 50002013,
+		target_num = 600,
+		target_param = {
+			4019,
+			4021,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028
+		}
+	},
+	[50002014] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計で春のお土産を制作",
+		type = 26,
+		id = 50002014,
+		target_num = 800,
+		target_param = {
+			4019,
+			4021,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028
+		}
+	},
 	[50003001] = {
 		tips = "",
 		jump_ui = "",
@@ -779,6 +1051,50 @@ pg.base.island_task_target = {
 		target_num = 15,
 		target_param = {
 			990002
+		}
+	},
+	[50003005] = {
+		tips = "",
+		jump_ui = "",
+		name = "春の土産依頼をこなす",
+		type = 39,
+		id = 50003005,
+		target_num = 1,
+		target_param = {
+			990006
+		}
+	},
+	[50003006] = {
+		tips = "",
+		jump_ui = "",
+		name = "春の土産依頼をこなす",
+		type = 39,
+		id = 50003006,
+		target_num = 5,
+		target_param = {
+			990006
+		}
+	},
+	[50003007] = {
+		tips = "",
+		jump_ui = "",
+		name = "春の土産依頼をこなす",
+		type = 39,
+		id = 50003007,
+		target_num = 10,
+		target_param = {
+			990006
+		}
+	},
+	[50003008] = {
+		tips = "",
+		jump_ui = "",
+		name = "春の土産依頼をこなす",
+		type = 39,
+		id = 50003008,
+		target_num = 15,
+		target_param = {
+			990006
 		}
 	},
 	[80010001] = {
@@ -1382,6 +1698,308 @@ pg.base.island_task_target = {
 		name = "離島依頼を300個完了する",
 		type = 3,
 		id = 80011030,
+		target_num = 300,
+		target_param = ""
+	},
+	[80012001] = {
+		tips = "",
+		jump_ui = "",
+		name = "じゃがいも×500を提出",
+		type = 4,
+		id = 80012001,
+		target_num = 500,
+		target_param = {
+			2005
+		}
+	},
+	[80012002] = {
+		tips = "",
+		jump_ui = "",
+		name = "コーヒー豆×500を提出",
+		type = 4,
+		id = 80012002,
+		target_num = 500,
+		target_param = {
+			2009
+		}
+	},
+	[80012003] = {
+		tips = "",
+		jump_ui = "",
+		name = "白菜×500を提出",
+		type = 4,
+		id = 80012003,
+		target_num = 500,
+		target_param = {
+			2003
+		}
+	},
+	[80012004] = {
+		tips = "",
+		jump_ui = "",
+		name = "いちご×500を提出",
+		type = 4,
+		id = 80012004,
+		target_num = 500,
+		target_param = {
+			2011
+		}
+	},
+	[80012005] = {
+		tips = "",
+		jump_ui = "",
+		name = "綿×500を提出",
+		type = 4,
+		id = 80012005,
+		target_num = 500,
+		target_param = {
+			2012
+		}
+	},
+	[80012006] = {
+		tips = "",
+		jump_ui = "",
+		name = "りんご×250を提出",
+		type = 4,
+		id = 80012006,
+		target_num = 250,
+		target_param = {
+			2016
+		}
+	},
+	[80012007] = {
+		tips = "",
+		jump_ui = "",
+		name = "レモン×250を提出",
+		type = 4,
+		id = 80012007,
+		target_num = 250,
+		target_param = {
+			2020
+		}
+	},
+	[80012008] = {
+		tips = "",
+		jump_ui = "",
+		name = "フィッシュ&チップス×100を提出",
+		type = 4,
+		id = 80012008,
+		target_num = 100,
+		target_param = {
+			3114
+		}
+	},
+	[80012009] = {
+		tips = "",
+		jump_ui = "",
+		name = "魚の玉ねぎ蒸し×100を提出",
+		type = 4,
+		id = 80012009,
+		target_num = 100,
+		target_param = {
+			3116
+		}
+	},
+	[80012010] = {
+		tips = "",
+		jump_ui = "",
+		name = "いちごのハニーフラッペ×100を提出",
+		type = 4,
+		id = 80012010,
+		target_num = 100,
+		target_param = {
+			3020
+		}
+	},
+	[80012011] = {
+		tips = "",
+		jump_ui = "",
+		name = "シトラスコーヒー×100を提出",
+		type = 4,
+		id = 80012011,
+		target_num = 100,
+		target_param = {
+			3008
+		}
+	},
+	[80012012] = {
+		tips = "",
+		jump_ui = "",
+		name = "レモンシュリンプ×50を提出",
+		type = 4,
+		id = 80012012,
+		target_num = 50,
+		target_param = {
+			3115
+		}
+	},
+	[80012013] = {
+		tips = "",
+		jump_ui = "",
+		name = "パエリア×25を提出",
+		type = 4,
+		id = 80012013,
+		target_num = 25,
+		target_param = {
+			3118
+		}
+	},
+	[80012014] = {
+		tips = "",
+		jump_ui = "",
+		name = "ザリガニ炒め×25を提出",
+		type = 4,
+		id = 80012014,
+		target_num = 25,
+		target_param = {
+			3119
+		}
+	},
+	[80012015] = {
+		tips = "",
+		jump_ui = "",
+		name = "装飾画×25を提出",
+		type = 4,
+		id = 80012015,
+		target_num = 25,
+		target_param = {
+			3117
+		}
+	},
+	[80012016] = {
+		tips = "",
+		jump_ui = "",
+		name = "佛跳牆×10を提出",
+		type = 4,
+		id = 80012016,
+		target_num = 10,
+		target_param = {
+			3120
+		}
+	},
+	[80012017] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を1回受け取る",
+		type = 13,
+		id = 80012017,
+		target_num = 1,
+		target_param = ""
+	},
+	[80012018] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を5回受け取る",
+		type = 13,
+		id = 80012018,
+		target_num = 5,
+		target_param = ""
+	},
+	[80012019] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を10回受け取る",
+		type = 13,
+		id = 80012019,
+		target_num = 10,
+		target_param = ""
+	},
+	[80012020] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を20回受け取る",
+		type = 13,
+		id = 80012020,
+		target_num = 20,
+		target_param = ""
+	},
+	[80012021] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を30回受け取る",
+		type = 13,
+		id = 80012021,
+		target_num = 30,
+		target_param = ""
+	},
+	[80012022] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を45回受け取る",
+		type = 13,
+		id = 80012022,
+		target_num = 45,
+		target_param = ""
+	},
+	[80012023] = {
+		tips = "",
+		jump_ui = "",
+		name = "定期補給を60回受け取る",
+		type = 13,
+		id = 80012023,
+		target_num = 60,
+		target_param = ""
+	},
+	[80012024] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を10個こなす",
+		type = 3,
+		id = 80012024,
+		target_num = 10,
+		target_param = ""
+	},
+	[80012025] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を30個こなす",
+		type = 3,
+		id = 80012025,
+		target_num = 30,
+		target_param = ""
+	},
+	[80012026] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を50個こなす",
+		type = 3,
+		id = 80012026,
+		target_num = 50,
+		target_param = ""
+	},
+	[80012027] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を100個こなす",
+		type = 3,
+		id = 80012027,
+		target_num = 100,
+		target_param = ""
+	},
+	[80012028] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を150個こなす",
+		type = 3,
+		id = 80012028,
+		target_num = 150,
+		target_param = ""
+	},
+	[80012029] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を200個こなす",
+		type = 3,
+		id = 80012029,
+		target_num = 200,
+		target_param = ""
+	},
+	[80012030] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島依頼を300個こなす",
+		type = 3,
+		id = 80012030,
 		target_num = 300,
 		target_param = ""
 	},
@@ -3576,6 +4194,101 @@ pg.base.island_task_target = {
 		target_num = 5,
 		target_param = {
 			8
+		}
+	},
+	[200160011] = {
+		tips = "10020071",
+		jump_ui = "",
+		name = "ブリテンに話を聞いてみる",
+		type = 1,
+		id = 200160011,
+		target_num = 1,
+		target_param = {
+			8005
+		}
+	},
+	[200160012] = {
+		tips = "10020078",
+		jump_ui = "",
+		name = "魚を吊り上げる",
+		type = 58,
+		id = 200160012,
+		target_num = 1,
+		target_param = ""
+	},
+	[200160013] = {
+		tips = "",
+		jump_ui = "18",
+		name = "釣果図鑑を確認する",
+		type = 34,
+		id = 200160013,
+		target_num = 1,
+		target_param = {
+			3000032
+		}
+	},
+	[200160041] = {
+		tips = "10020071",
+		jump_ui = "",
+		name = "饅頭いけすを確認",
+		type = 1,
+		id = 200160041,
+		target_num = 1,
+		target_param = {
+			8002
+		}
+	},
+	[200160042] = {
+		tips = "10020071",
+		jump_ui = "",
+		name = "魚肉加工を確認",
+		type = 1,
+		id = 200160042,
+		target_num = 1,
+		target_param = {
+			8003
+		}
+	},
+	[200160043] = {
+		tips = "10020071",
+		jump_ui = "",
+		name = "釣具ショップ",
+		type = 1,
+		id = 200160043,
+		target_num = 1,
+		target_param = {
+			8004
+		}
+	},
+	[200170011] = {
+		tips = "10020025",
+		jump_ui = "",
+		name = "ピアリに話を聞いてみる",
+		type = 1,
+		id = 200170011,
+		target_num = 1,
+		target_param = {
+			5824
+		}
+	},
+	[200170021] = {
+		tips = "",
+		jump_ui = "",
+		name = "離島開発レベルを上げよう",
+		type = 9,
+		id = 200170021,
+		target_num = 22,
+		target_param = ""
+	},
+	[200170031] = {
+		tips = "10030018",
+		jump_ui = "",
+		name = "謎の商人キャティンを見つける",
+		type = 2,
+		id = 200170031,
+		target_num = 1,
+		target_param = {
+			10030018
 		}
 	},
 	[301010011] = {

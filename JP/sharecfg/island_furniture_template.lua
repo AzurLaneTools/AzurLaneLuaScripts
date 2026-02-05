@@ -84,7 +84,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -194,7 +194,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -241,7 +241,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -517,7 +517,38 @@ pg.island_furniture_template = {
 			2,
 			2
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"秋の特産経営",
+				{}
+			}
+		}
+	},
+	[101] = {
+		setNum = 1,
+		describe = "ヒヤシンスが寄り添い合って咲き誇る。瑠璃で彫刻したかのように透き通るトロフィーから清らかな香りが漂う",
+		name = "春の離島開発トロフィー",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_101",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50281/prefab/pre_item_05_50281",
+		bt = "",
+		id = 101,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"春の特産経営",
+				{}
+			}
+		}
 	},
 	[10101] = {
 		setNum = 1,
@@ -540,7 +571,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"图鉴",
+				"図鑑",
 				{}
 			}
 		}
@@ -593,7 +624,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -642,7 +673,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -668,7 +699,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -694,7 +725,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -720,7 +751,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -748,7 +779,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -774,7 +805,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -802,7 +833,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -828,7 +859,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -854,7 +885,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"图鉴",
+				"図鑑",
 				{}
 			}
 		}
@@ -880,7 +911,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -906,7 +937,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -934,7 +965,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"累計Pt",
 				{}
 			}
 		}
@@ -960,7 +991,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -986,7 +1017,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1012,7 +1043,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1038,7 +1069,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1064,7 +1095,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1090,7 +1121,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1116,7 +1147,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1142,7 +1173,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1168,7 +1199,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"图鉴",
+				"図鑑",
 				{}
 			}
 		}
@@ -1194,7 +1225,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1241,7 +1272,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1267,7 +1298,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"成就",
+				"実績",
 				{}
 			}
 		}
@@ -1275,7 +1306,7 @@ pg.island_furniture_template = {
 	[10801] = {
 		setNum = 999,
 		describe = "木板で作った簡易路面、その上を歩くひとときは悠々と。",
-		name = "#N/A",
+		name = "木製路面(小)",
 		type = 8,
 		hierarchy = 6,
 		rarity = 2,
@@ -1356,7 +1387,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1385,7 +1416,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1413,7 +1444,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1439,7 +1470,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1465,7 +1496,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1491,7 +1522,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1517,7 +1548,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1543,7 +1574,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1571,7 +1602,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1597,7 +1628,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1623,7 +1654,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1649,7 +1680,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1675,7 +1706,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1701,7 +1732,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1729,7 +1760,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1755,7 +1786,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1781,7 +1812,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1807,7 +1838,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1833,7 +1864,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1859,7 +1890,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1885,7 +1916,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1911,7 +1942,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1937,7 +1968,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1963,7 +1994,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1989,7 +2020,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -2015,7 +2046,939 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30001] = {
+		setNum = 999,
+		describe = "伝統的な石製庭園灯。庭園の道を照らし、穏やかで静かな夜の雰囲気を演出する。",
+		name = "暖色光の石灯籠（小）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30001",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50218/prefab/pre_item_05_50218",
+		bt = "",
+		id = 30001,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	},
+	[30002] = {
+		setNum = 999,
+		describe = "伝統的な石製庭園灯。庭園の道を照らし、穏やかで静かな夜の雰囲気を演出する。",
+		name = "暖色光の石灯籠（中）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30002",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50222/prefab/pre_item_05_50222",
+		bt = "",
+		id = 30002,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30003] = {
+		setNum = 999,
+		describe = "ウサギがモチーフの可愛らしいナイトライト。柔らかな光で装飾だけでなく、照明機能も果たしてくれる。",
+		name = "ウサウサライト",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30003",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50220/prefab/pre_item_05_50220",
+		bt = "",
+		id = 30003,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	},
+	[30004] = {
+		setNum = 999,
+		describe = "伝統的な紙製の灯籠。柔らかな範囲照明を提供し、夜の静けさを演出する定番の装飾。",
+		name = "庭園の紙灯籠",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30004",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50219/prefab/pre_item_05_50219",
+		bt = "",
+		id = 30004,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30005] = {
+		setNum = 999,
+		describe = "庭園の池を渡るために架けられた、簡素なアーチ形の小さな木橋。",
+		name = "紅葉渡りの橋",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30005",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50213/prefab/pre_item_05_50213",
+		bt = "",
+		id = 30005,
+		tech_id = 0,
+		size = {
+			5,
+			4
+		},
+		jump_page = {}
+	},
+	[30006] = {
+		setNum = 999,
+		describe = "頑丈な石材で作られた庭園用の手すり。触れるとひんやりしている。",
+		name = "石製の手すり",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30006",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50268/prefab/pre_item_05_50268",
+		bt = "",
+		id = 30006,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	},
+	[30007] = {
+		setNum = 999,
+		describe = "花の意匠をあしらった鉄製フェンス。安全性と装飾性を兼ね備える。",
+		name = "鉄製のフェンス",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30007",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50269/prefab/pre_item_05_50269",
+		bt = "",
+		id = 30007,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	},
+	[30008] = {
+		setNum = 999,
+		describe = "庭園の景色を構成する木。四季を通して変わらぬ緑を楽しめる。",
+		name = "トウヒの木",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30008",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50272/prefab/pre_item_05_50272",
+		bt = "",
+		id = 30008,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	},
+	[30009] = {
+		setNum = 999,
+		describe = "丁寧に剪定され、さまざまな洗練された形に整えられた景観用の木。",
+		name = "景観用の木",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30009",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50274/prefab/pre_item_05_50274",
+		bt = "",
+		id = 30009,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	},
+	[30010] = {
+		setNum = 999,
+		describe = "淡い青色で星の形をした可愛らしい花。花壇の隅を飾ったり、植え込んで庭園を彩ったりできる。",
+		name = "ブルースターフラワー",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30010",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50275/prefab/pre_item_05_50275",
+		bt = "",
+		id = 30010,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	},
+	[30101] = {
+		setNum = 1,
+		describe = "庭園の景色の一部になっている建物。花を眺めながらパーティーや休憩を楽しめる。",
+		name = "静謐な庭園",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_30101",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50252/prefab/pre_item_05_50252",
+		bt = "",
+		id = 30101,
+		tech_id = 0,
+		size = {
+			22,
+			22
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30201] = {
+		setNum = 1,
+		describe = "ガラス屋根から太陽の光が差し込み、四季折々の花が静かに咲き誇る。",
+		name = "琉璃の花温室",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_30201",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50251/prefab/pre_item_05_50251",
+		bt = "island/nodecanvas/agora/agora_hide",
+		id = 30201,
+		tech_id = 0,
+		size = {
+			20,
+			20
+		},
+		interact_point = {
+			14,
+			15
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30301] = {
+		setNum = 999,
+		describe = "ティーセットを用意して、ここで本日のアフタヌーンティータイムを迎えよう。",
+		name = "午後の東屋",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30301",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50277/prefab/pre_item_05_50277",
+		bt = "",
+		id = 30301,
+		tech_id = 0,
+		size = {
+			6,
+			6
+		},
+		interact_point = {
+			16
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30302] = {
+		setNum = 999,
+		describe = "橋の上で願い事をすると、流れ星を見ることができるらしいよ！",
+		name = "星願いの橋",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30302",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50256/prefab/pre_item_05_50256",
+		bt = "",
+		id = 30302,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30303] = {
+		setNum = 999,
+		describe = "刈り込まれ豊かな緑で出来たアーチゲート。頂部にはクラシックなシャンデリアが吊り下げられていて、庭園の入口を明るく美しくしてくれる。",
+		name = "花園のアーチ",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30303",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50265/prefab/pre_item_05_50265",
+		bt = "",
+		id = 30303,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30304] = {
+		setNum = 999,
+		describe = "華麗な世界が、すべての人に開かれている！",
+		name = "花園のゲート",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30304",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50266/prefab/pre_item_05_50266",
+		bt = "",
+		id = 30304,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30305] = {
+		setNum = 999,
+		describe = "お菓子の香りに包まれた、穏やかな午後のティータイムを楽しもう。",
+		name = "花園のテーブルセット",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30305",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50263/prefab/pre_item_05_50263",
+		bt = "",
+		id = 30305,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30401] = {
+		setNum = 999,
+		describe = "陽だまりの中で、ひまわりと共に風に揺られてみよう。",
+		name = "花畑のブランコ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30401",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50253/prefab/pre_item_05_50253",
+		bt = "",
+		id = 30401,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		interact_point = {
+			17
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30402] = {
+		setNum = 999,
+		describe = "コインを一枚投げ入れて、水音と願いの余韻に耳を澄ませてみよう。",
+		name = "祈願の噴水",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30402",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50254/prefab/pre_item_05_50254",
+		bt = "",
+		id = 30402,
+		tech_id = 0,
+		size = {
+			7,
+			6
+		},
+		interact_point = {
+			18
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30403] = {
+		setNum = 999,
+		describe = "頭をなでれば、一日中いい気分に！",
+		name = "ラッキー饅頭像",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30403",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50257/prefab/pre_item_05_50257",
+		bt = "",
+		id = 30403,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		interact_point = {
+			19
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30404] = {
+		setNum = 999,
+		describe = "しーっ……水辺にお客さまがよく訪れるから、驚かせないように気をつけて。",
+		name = "羽休めの池",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30404",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50267/prefab/pre_item_05_50267",
+		bt = "",
+		id = 30404,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30405] = {
+		setNum = 999,
+		describe = "身も心も癒やしてくれるレトロな露天風呂。湯加減を試してみる？",
+		name = "ノスタルジックの池",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30405",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50271/prefab/pre_item_05_50271",
+		bt = "",
+		id = 30405,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30406] = {
+		setNum = 999,
+		describe = "蝶々に愛された花壇。春の一瞬の表情を、いつでも切り取ってくれる。",
+		name = "蝶憩いの花壇",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30406",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50255/prefab/pre_item_05_50255",
+		bt = "",
+		id = 30406,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30407] = {
+		setNum = 999,
+		describe = "金色に輝くひまわりを集めて、太陽の恵みを部屋に持ち帰ろう。",
+		name = "ひまわりの花束",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30407",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50273/prefab/pre_item_05_50273",
+		bt = "",
+		id = 30407,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30408] = {
+		setNum = 999,
+		describe = "柱に古典的な文様が刻まれ、静かに過ぎし時を語っている。",
+		name = "古典石柱",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30408",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50258/prefab/pre_item_05_50258",
+		bt = "",
+		id = 30408,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30409] = {
+		setNum = 999,
+		describe = "ほぼ完全に崩れた残骸。一つの沈黙を見届けていた。",
+		name = "石柱の残骸（小）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30409",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50260/prefab/pre_item_05_50260",
+		bt = "",
+		id = 30409,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30410] = {
+		setNum = 999,
+		describe = "半分になった破損した石柱。去りし日の彫刻の痕跡がわずかに残っている。",
+		name = "石柱の残骸（中）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30410",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50259/prefab/pre_item_05_50259",
+		bt = "",
+		id = 30410,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30411] = {
+		setNum = 999,
+		describe = "廃墟になった柱は、今では小動物たちの仮の住処となっている。",
+		name = "石柱の残骸（倒）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30411",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50261/prefab/pre_item_05_50261",
+		bt = "",
+		id = 30411,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30412] = {
+		setNum = 999,
+		describe = "枠組みだけが残った石扉の残骸。失われし秘境へと続いているようだ。",
+		name = "石門の残骸",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30412",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50262/prefab/pre_item_05_50262",
+		bt = "",
+		id = 30412,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30413] = {
+		setNum = 999,
+		describe = "メガサイズの花瓶！庭園で一番存在感を放つ景色！",
+		name = "装飾用の花瓶",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30413",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50264/prefab/pre_item_05_50264",
+		bt = "",
+		id = 30413,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30414] = {
+		setNum = 999,
+		describe = "レトロな街灯が石畳の道を照らし、温かな光で夜の安らぎを守ってくれる。",
+		name = "レトロ庭園灯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30414",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50270/prefab/pre_item_05_50270",
+		bt = "",
+		id = 30414,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30415] = {
+		setNum = 999,
+		describe = "庭園の小道沿いに整然と植えられた観賞用の花。",
+		name = "景観用の花々",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30415",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50276/prefab/pre_item_05_50276",
+		bt = "",
+		id = 30415,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30416] = {
+		setNum = 999,
+		describe = "丁寧に設計・管理された花壇で、整った庭園の美を楽しめる。",
+		name = "景観用の花壇",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30416",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50278/prefab/pre_item_05_50278",
+		bt = "",
+		id = 30416,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30801] = {
+		setNum = 999,
+		describe = "大小さまざまな天然石を敷き詰めた庭園の石畳。丈夫で耐久性が高い。",
+		name = "石畳（小）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30801",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50279/prefab/pre_item_05_50279",
+		bt = "",
+		id = 30801,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30802] = {
+		setNum = 999,
+		describe = "大小さまざまな天然石を敷き詰めた庭園の石畳。丈夫で耐久性が高い。",
+		name = "石畳（中）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30802",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50280/prefab/pre_item_05_50280",
+		bt = "",
+		id = 30802,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[30803] = {
+		setNum = 999,
+		describe = "大小さまざまな天然石を敷き詰めた庭園の石畳。丈夫で耐久性が高い。",
+		name = "石畳（大）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30803",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50282/prefab/pre_item_05_50282",
+		bt = "",
+		id = 30803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"星彩賞",
 				{}
 			}
 		}
@@ -2045,6 +3008,7 @@ pg.island_furniture_template = {
 		22,
 		23,
 		100,
+		101,
 		10101,
 		10201,
 		10301,
@@ -2102,6 +3066,42 @@ pg.island_furniture_template = {
 		20415,
 		20801,
 		20802,
-		20803
+		20803,
+		30001,
+		30002,
+		30003,
+		30004,
+		30005,
+		30006,
+		30007,
+		30008,
+		30009,
+		30010,
+		30101,
+		30201,
+		30301,
+		30302,
+		30303,
+		30304,
+		30305,
+		30401,
+		30402,
+		30403,
+		30404,
+		30405,
+		30406,
+		30407,
+		30408,
+		30409,
+		30410,
+		30411,
+		30412,
+		30413,
+		30414,
+		30415,
+		30416,
+		30801,
+		30802,
+		30803
 	}
 }

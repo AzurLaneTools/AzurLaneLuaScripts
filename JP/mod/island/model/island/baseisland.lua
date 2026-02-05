@@ -29,6 +29,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.buildingAgency = IslandBuildingAgency.New(slot0, slot1)
 	slot0.followerAgency = IslandFollowerAgency.New(slot0)
 	slot0.activityNpcAgency = IslandActivityNpcAgency.New(slot0)
+	slot0.tradeAgency = IslandTradegency.New(slot0, slot1)
 	slot0.agoraAgency = IslandAgoraAgency.New(slot0, slot1)
 	slot0.manageAgency = IslandManageAgecny.New(slot0, slot1)
 	slot0.mapID = pg.island_set.initial_scene.key_value_int
@@ -41,6 +42,10 @@ slot0.Ctor = function(slot0, slot1)
 	if not slot0.taskAgency:IsFinishTask(IslandGuideChecker.MOVE_TASK_ID) then
 		slot0:SetSpawnPointId(pg.island_set.initial_spawn_point.key_value_int)
 	end
+end
+
+slot0.GetTradeAgency = function(slot0)
+	return slot0.tradeAgency
 end
 
 slot0.GetActivityNpcAgency = function(slot0)
@@ -360,6 +365,10 @@ slot0.UpdatePerSecond = function(slot0)
 	if slot0.buildingAgency then
 		slot0.buildingAgency:UpdatePerSecond()
 	end
+end
+
+slot0.UpdatePerHour = function(slot0, slot1)
+	slot0:GetTradeAgency():UpdatePerHour(slot1)
 end
 
 return slot0

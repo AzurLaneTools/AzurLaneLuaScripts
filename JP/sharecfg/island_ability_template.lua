@@ -370,6 +370,36 @@ pg.island_ability_template = {
 		show_pop_text = "",
 		show_type = 1
 	},
+	[46] = {
+		unlock_text = "",
+		effect = 25,
+		show_pop = 1,
+		type = 1,
+		id = 46,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "釣り|マップ各所の<color=#7EBEFF>釣りスポット</color>で<color=#7EBEFF>釣り</color>を行える",
+		show_type = 1
+	},
+	[47] = {
+		unlock_text = "",
+		effect = 26,
+		show_pop = 1,
+		type = 1,
+		id = 47,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "釣果図鑑|可在<color=#7EBEFF>メイン画面-図鑑</color>の<color=#7EBEFF>釣果図鑑</color>で確認可能",
+		show_type = 1
+	},
+	[50] = {
+		unlock_text = "",
+		effect = 1,
+		show_pop = 1,
+		type = 43,
+		id = 50,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "真珠取引|<color=#7EBEFF>埠頭</color>の<color=#7EBEFF>ピアリ</color>のところで真珠取引を行える",
+		show_type = 1
+	},
 	[401] = {
 		unlock_text = "",
 		effect = 10111,
@@ -648,6 +678,16 @@ pg.island_ability_template = {
 		id = 2016,
 		cmd_icon = "IslandProps/gold",
 		show_pop_text = "饅頭カフェ| <color=#7EBEFF>港口‐饅頭カフェ</color>の<color=#7EBEFF>ブレーメン</color>で確認可能",
+		show_type = 1
+	},
+	[2017] = {
+		unlock_text = "饅頭いけす",
+		effect = 201,
+		show_pop = 1,
+		type = 2,
+		id = 2017,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "饅頭いけす|<color=#7EBEFF>埠頭-饅頭いけす</color>の<color=#7EBEFF>ブリテン</color>のところで確認可能",
 		show_type = 1
 	},
 	[5001] = {
@@ -1619,6 +1659,46 @@ pg.island_ability_template = {
 		cmd_icon = "IslandProps/buff",
 		show_pop_text = "",
 		show_type = 0
+	},
+	[41001] = {
+		unlock_text = "",
+		effect = 2,
+		show_pop = 0,
+		type = 41,
+		id = 41001,
+		cmd_icon = "IslandProps/buff",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[41002] = {
+		unlock_text = "",
+		effect = 3,
+		show_pop = 0,
+		type = 41,
+		id = 41002,
+		cmd_icon = "IslandProps/buff",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[42001] = {
+		unlock_text = "",
+		effect = 5,
+		show_pop = 0,
+		type = 42,
+		id = 42001,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[42002] = {
+		unlock_text = "",
+		effect = 5,
+		show_pop = 0,
+		type = 42,
+		id = 42002,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
 	},
 	[91001] = {
 		unlock_text = "",
@@ -2690,6 +2770,36 @@ pg.island_ability_template = {
 		show_pop_text = "",
 		show_type = 1
 	},
+	[99211] = {
+		unlock_text = "",
+		effect = 9211,
+		show_pop = 0,
+		type = 9,
+		id = 99211,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[99212] = {
+		unlock_text = "",
+		effect = 9212,
+		show_pop = 0,
+		type = 9,
+		id = 99212,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[99213] = {
+		unlock_text = "",
+		effect = 9213,
+		show_pop = 0,
+		type = 9,
+		id = 99213,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
 	[3101001] = {
 		unlock_text = "",
 		effect = 101001,
@@ -2806,6 +2916,166 @@ pg.island_ability_template = {
 		show_pop = 0,
 		type = 3,
 		id = 3101018,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201001] = {
+		unlock_text = "",
+		effect = 201005,
+		show_pop = 0,
+		type = 3,
+		id = 3201001,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201002] = {
+		unlock_text = "",
+		effect = 201003,
+		show_pop = 0,
+		type = 3,
+		id = 3201002,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201003] = {
+		unlock_text = "",
+		effect = 201001,
+		show_pop = 0,
+		type = 3,
+		id = 3201003,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201004] = {
+		unlock_text = "",
+		effect = 201006,
+		show_pop = 0,
+		type = 3,
+		id = 3201004,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201005] = {
+		unlock_text = "",
+		effect = 201104,
+		show_pop = 0,
+		type = 3,
+		id = 3201005,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201006] = {
+		unlock_text = "",
+		effect = 201108,
+		show_pop = 0,
+		type = 3,
+		id = 3201006,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201007] = {
+		unlock_text = "",
+		effect = 201101,
+		show_pop = 0,
+		type = 3,
+		id = 3201007,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201008] = {
+		unlock_text = "",
+		effect = 201008,
+		show_pop = 0,
+		type = 3,
+		id = 3201008,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201009] = {
+		unlock_text = "",
+		effect = 201102,
+		show_pop = 0,
+		type = 3,
+		id = 3201009,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201010] = {
+		unlock_text = "",
+		effect = 201103,
+		show_pop = 0,
+		type = 3,
+		id = 3201010,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201011] = {
+		unlock_text = "",
+		effect = 201107,
+		show_pop = 0,
+		type = 3,
+		id = 3201011,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201012] = {
+		unlock_text = "",
+		effect = 201002,
+		show_pop = 0,
+		type = 3,
+		id = 3201012,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201013] = {
+		unlock_text = "",
+		effect = 201004,
+		show_pop = 0,
+		type = 3,
+		id = 3201013,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201014] = {
+		unlock_text = "",
+		effect = 201007,
+		show_pop = 0,
+		type = 3,
+		id = 3201014,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201015] = {
+		unlock_text = "",
+		effect = 201105,
+		show_pop = 0,
+		type = 3,
+		id = 3201015,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3201016] = {
+		unlock_text = "",
+		effect = 201106,
+		show_pop = 0,
+		type = 3,
+		id = 3201016,
 		cmd_icon = "IslandProps/gold",
 		show_pop_text = "",
 		show_type = 1
@@ -3100,6 +3370,36 @@ pg.island_ability_template = {
 		show_pop_text = "",
 		show_type = 1
 	},
+	[3601006] = {
+		unlock_text = "",
+		effect = 601006,
+		show_pop = 0,
+		type = 3,
+		id = 3601006,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3601007] = {
+		unlock_text = "",
+		effect = 601007,
+		show_pop = 0,
+		type = 3,
+		id = 3601007,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3601008] = {
+		unlock_text = "",
+		effect = 601008,
+		show_pop = 0,
+		type = 3,
+		id = 3601008,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
 	[3601101] = {
 		unlock_text = "",
 		effect = 601101,
@@ -3270,6 +3570,16 @@ pg.island_ability_template = {
 		show_pop_text = "",
 		show_type = 1
 	},
+	[3603007] = {
+		unlock_text = "",
+		effect = 603007,
+		show_pop = 0,
+		type = 3,
+		id = 3603007,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
 	[3603101] = {
 		unlock_text = "",
 		effect = 603101,
@@ -3320,6 +3630,16 @@ pg.island_ability_template = {
 		show_pop_text = "",
 		show_type = 1
 	},
+	[3604003] = {
+		unlock_text = "",
+		effect = 604003,
+		show_pop = 0,
+		type = 3,
+		id = 3604003,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
 	[3604004] = {
 		unlock_text = "",
 		effect = 604004,
@@ -3346,6 +3666,26 @@ pg.island_ability_template = {
 		show_pop = 0,
 		type = 3,
 		id = 3604006,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3604007] = {
+		unlock_text = "",
+		effect = 604007,
+		show_pop = 0,
+		type = 3,
+		id = 3604007,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3604008] = {
+		unlock_text = "",
+		effect = 604008,
+		show_pop = 0,
+		type = 3,
+		id = 3604008,
 		cmd_icon = "IslandProps/gold",
 		show_pop_text = "",
 		show_type = 1
@@ -3586,6 +3926,16 @@ pg.island_ability_template = {
 		show_pop = 0,
 		type = 3,
 		id = 3701022,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	},
+	[3701023] = {
+		unlock_text = "",
+		effect = 701023,
+		show_pop = 0,
+		type = 3,
+		id = 3701023,
 		cmd_icon = "IslandProps/gold",
 		show_pop_text = "",
 		show_type = 1
@@ -3926,6 +4276,16 @@ pg.island_ability_template = {
 		show_pop = 0,
 		type = 3,
 		id = 37120006,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37120007] = {
+		unlock_text = "",
+		effect = 7120007,
+		show_pop = 0,
+		type = 3,
+		id = 37120007,
 		cmd_icon = "IslandProps/gold",
 		show_pop_text = "",
 		show_type = 3
@@ -4830,6 +5190,126 @@ pg.island_ability_template = {
 		show_pop_text = "",
 		show_type = 3
 	},
+	[37460001] = {
+		unlock_text = "",
+		effect = 7460001,
+		show_pop = 0,
+		type = 3,
+		id = 37460001,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460101] = {
+		unlock_text = "",
+		effect = 7460101,
+		show_pop = 0,
+		type = 3,
+		id = 37460101,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460002] = {
+		unlock_text = "",
+		effect = 7460002,
+		show_pop = 0,
+		type = 3,
+		id = 37460002,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460102] = {
+		unlock_text = "",
+		effect = 7460102,
+		show_pop = 0,
+		type = 3,
+		id = 37460102,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460301] = {
+		unlock_text = "",
+		effect = 7460301,
+		show_pop = 0,
+		type = 3,
+		id = 37460301,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460302] = {
+		unlock_text = "",
+		effect = 7460302,
+		show_pop = 0,
+		type = 3,
+		id = 37460302,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460201] = {
+		unlock_text = "",
+		effect = 7460201,
+		show_pop = 0,
+		type = 3,
+		id = 37460201,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460202] = {
+		unlock_text = "",
+		effect = 7460202,
+		show_pop = 0,
+		type = 3,
+		id = 37460202,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460203] = {
+		unlock_text = "",
+		effect = 7460203,
+		show_pop = 0,
+		type = 3,
+		id = 37460203,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460204] = {
+		unlock_text = "",
+		effect = 7460204,
+		show_pop = 0,
+		type = 3,
+		id = 37460204,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460205] = {
+		unlock_text = "",
+		effect = 7460205,
+		show_pop = 0,
+		type = 3,
+		id = 37460205,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
+	[37460206] = {
+		unlock_text = "",
+		effect = 7460206,
+		show_pop = 0,
+		type = 3,
+		id = 37460206,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
 	[37500211] = {
 		unlock_text = "",
 		effect = 7500211,
@@ -5370,6 +5850,16 @@ pg.island_ability_template = {
 		show_pop_text = "",
 		show_type = 3
 	},
+	[37630205] = {
+		unlock_text = "",
+		effect = 7630205,
+		show_pop = 0,
+		type = 3,
+		id = 37630205,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	},
 	[37640001] = {
 		unlock_text = "",
 		effect = 7640001,
@@ -5599,7 +6089,9 @@ pg.island_ability_template = {
 			42,
 			43,
 			44,
-			45
+			45,
+			46,
+			47
 		},
 		{
 			2001,
@@ -5616,7 +6108,8 @@ pg.island_ability_template = {
 			2013,
 			2014,
 			2015,
-			2016
+			2016,
+			2017
 		},
 		{
 			3101001,
@@ -5631,6 +6124,22 @@ pg.island_ability_template = {
 			3101015,
 			3101016,
 			3101018,
+			3201001,
+			3201002,
+			3201003,
+			3201004,
+			3201005,
+			3201006,
+			3201007,
+			3201008,
+			3201009,
+			3201010,
+			3201011,
+			3201012,
+			3201013,
+			3201014,
+			3201015,
+			3201016,
 			3401001,
 			3401002,
 			3401004,
@@ -5660,6 +6169,9 @@ pg.island_ability_template = {
 			3601003,
 			3601004,
 			3601005,
+			3601006,
+			3601007,
+			3601008,
 			3601101,
 			3601102,
 			3602001,
@@ -5677,14 +6189,18 @@ pg.island_ability_template = {
 			3603004,
 			3603005,
 			3603006,
+			3603007,
 			3603101,
 			3603102,
 			3603103,
 			3604001,
 			3604002,
+			3604003,
 			3604004,
 			3604005,
 			3604006,
+			3604007,
+			3604008,
 			3604101,
 			3604102,
 			3701001,
@@ -5709,6 +6225,7 @@ pg.island_ability_template = {
 			3701020,
 			3701021,
 			3701022,
+			3701023,
 			3901001,
 			3901002,
 			3901003,
@@ -5743,6 +6260,7 @@ pg.island_ability_template = {
 			37120004,
 			37120005,
 			37120006,
+			37120007,
 			37100301,
 			37100302,
 			37100303,
@@ -5833,6 +6351,18 @@ pg.island_ability_template = {
 			37440304,
 			37450301,
 			37450302,
+			37460001,
+			37460101,
+			37460002,
+			37460102,
+			37460301,
+			37460302,
+			37460201,
+			37460202,
+			37460203,
+			37460204,
+			37460205,
+			37460206,
 			37500211,
 			37500212,
 			37500213,
@@ -5887,6 +6417,7 @@ pg.island_ability_template = {
 			37630202,
 			37630203,
 			37630204,
+			37630205,
 			37640001,
 			37640101,
 			37640201,
@@ -5918,6 +6449,9 @@ pg.island_ability_template = {
 			22,
 			23,
 			24
+		},
+		[43] = {
+			50
 		},
 		[4] = {
 			401,
@@ -6091,6 +6625,14 @@ pg.island_ability_template = {
 			40001,
 			40002
 		},
+		[41] = {
+			41001,
+			41002
+		},
+		[42] = {
+			42001,
+			42002
+		},
 		[9] = {
 			91001,
 			91002,
@@ -6198,7 +6740,10 @@ pg.island_ability_template = {
 			99205,
 			99206,
 			99207,
-			99208
+			99208,
+			99211,
+			99212,
+			99213
 		}
 	},
 	all = {
@@ -6239,6 +6784,9 @@ pg.island_ability_template = {
 		43,
 		44,
 		45,
+		46,
+		47,
+		50,
 		401,
 		402,
 		403,
@@ -6267,6 +6815,7 @@ pg.island_ability_template = {
 		2014,
 		2015,
 		2016,
+		2017,
 		5001,
 		5002,
 		5003,
@@ -6364,6 +6913,10 @@ pg.island_ability_template = {
 		39002,
 		40001,
 		40002,
+		41001,
+		41002,
+		42001,
+		42002,
 		91001,
 		91002,
 		91003,
@@ -6471,6 +7024,9 @@ pg.island_ability_template = {
 		99206,
 		99207,
 		99208,
+		99211,
+		99212,
+		99213,
 		3101001,
 		3101002,
 		3101003,
@@ -6483,6 +7039,22 @@ pg.island_ability_template = {
 		3101015,
 		3101016,
 		3101018,
+		3201001,
+		3201002,
+		3201003,
+		3201004,
+		3201005,
+		3201006,
+		3201007,
+		3201008,
+		3201009,
+		3201010,
+		3201011,
+		3201012,
+		3201013,
+		3201014,
+		3201015,
+		3201016,
 		3401001,
 		3401002,
 		3401004,
@@ -6512,6 +7084,9 @@ pg.island_ability_template = {
 		3601003,
 		3601004,
 		3601005,
+		3601006,
+		3601007,
+		3601008,
 		3601101,
 		3601102,
 		3602001,
@@ -6529,14 +7104,18 @@ pg.island_ability_template = {
 		3603004,
 		3603005,
 		3603006,
+		3603007,
 		3603101,
 		3603102,
 		3603103,
 		3604001,
 		3604002,
+		3604003,
 		3604004,
 		3604005,
 		3604006,
+		3604007,
+		3604008,
 		3604101,
 		3604102,
 		3701001,
@@ -6561,6 +7140,7 @@ pg.island_ability_template = {
 		3701020,
 		3701021,
 		3701022,
+		3701023,
 		3901001,
 		3901002,
 		3901003,
@@ -6595,6 +7175,7 @@ pg.island_ability_template = {
 		37120004,
 		37120005,
 		37120006,
+		37120007,
 		37100301,
 		37100302,
 		37100303,
@@ -6685,6 +7266,18 @@ pg.island_ability_template = {
 		37440304,
 		37450301,
 		37450302,
+		37460001,
+		37460101,
+		37460002,
+		37460102,
+		37460301,
+		37460302,
+		37460201,
+		37460202,
+		37460203,
+		37460204,
+		37460205,
+		37460206,
 		37500211,
 		37500212,
 		37500213,
@@ -6739,6 +7332,7 @@ pg.island_ability_template = {
 		37630202,
 		37630203,
 		37630204,
+		37630205,
 		37640001,
 		37640101,
 		37640201,

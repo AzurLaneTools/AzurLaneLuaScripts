@@ -21,8 +21,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.eventTitleTF = slot0.eventContainer:Find("event/title")
 	slot0.eventDescTF = slot0.eventContainer:Find("event/desc/Text")
 
-	setText(slot0.eventContainer:Find("event/desc/effect"), i18n("island_manage_produce_tip"))
+	setText(slot0.eventContainer:Find("event/desc/effect"), "")
 
+	slot0.itemsList = UIItemList.New(slot0._tf:Find("content/event_container/event/items"), slot0._tf:Find("content/event_container/event/items/tpl"))
+	slot0.additionList = UIItemList.New(slot0._tf:Find("content/event_container/event/addition"), slot0._tf:Find("content/event_container/event/addition/tpl"))
 	slot0.windowContainer = slot0._tf:Find("content/window_container")
 	slot1 = slot0.windowContainer:Find("window")
 	slot0.nameTF = slot1:Find("name/Text")
@@ -84,6 +86,7 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.btnsTF:Find("opening/Text"), i18n("island_manage_working"))
 	setText(slot0.btnsTF:Find("close/Text"), i18n("island_manage_result"))
 	setText(slot0.btnsTF:Find("end/Text"), i18n("island_manage_end_daily_work"))
+	setText(slot0._tf:Find("content/event_container/event/title/Text"), i18n("island_post_event_addition_label"))
 
 	slot0.ticketBtn = slot0.btnsTF:Find("opening/ticket")
 end
@@ -344,8 +347,61 @@ slot0.FlushEvent = function(slot0)
 		slot1 = pg.island_manage_event[slot0.eventId]
 
 		setText(slot0.eventTitleTF, slot1.name)
-		setText(slot0.eventDescTF, slot1.desc)
+		setText(slot0.eventDescTF, string.gsub(slot1.desc, "$1", slot0.rest:getConfig("name")))
+		slot0:UpdateAddition(slot0.rest)
 	end
+end
+
+slot0.UpdateAddition = function(slot0, slot1)
+	slot0.itemsList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			updateCustomDrop(slot2, Drop.New({
+				count = 0,
+				type = DROP_TYPE_ISLAND_ITEM,
+				id = uv0[slot1 + 1].id
+			}))
+		end
+	end)
+	slot0.itemsList:align(#slot0:WarpItemInfo(slot1))
+	slot0.additionList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			setText(slot2:Find("Text"), uv0[slot1 + 1][1])
+			setText(slot2:Find("value"), "+" .. uv0[slot1 + 1][2] .. "%")
+		end
+	end)
+	slot0.additionList:align(#slot0:WarpAdditionInfo(pg.island_manage_event[slot1:GetEventInfo()]))
+end
+
+slot0.WarpItemInfo = function(slot0, slot1)
+	slot2 = {}
+	slot3, slot4 = slot1:GetEventInfo()
+	slot5 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
+	slot9 = "item_id"
+
+	for slot9, slot10 in ipairs(slot1:getConfig(slot9)) do
+		if (slot5:GetItemById(slot10[1]) or IslandItem.New({
+			id = slot10[1]
+		})) and slot4[slot11.id] then
+			table.insert(slot2, slot11)
+		end
+	end
+
+	return slot2
+end
+
+slot0.WarpAdditionInfo = function(slot0, slot1)
+	slot2 = {}
+
+	table.insert(slot2, {
+		i18n("island_addition_influence"),
+		slot1.influence_bonus
+	})
+	table.insert(slot2, {
+		i18n("island_addition_sale"),
+		slot1.event_effect[1][1]
+	})
+
+	return slot2
 end
 
 slot0.FlushAssistants = function(slot0)

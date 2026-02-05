@@ -80,6 +80,36 @@ pg.island_production_commission = {
 		performanceObjid = 0,
 		attribute = 3
 	},
+	[20101] = {
+		behavior_tree = "",
+		slot = 9211,
+		name = "配置A",
+		birthplace = 10020062,
+		id = 20101,
+		unlockObjid = 10020068,
+		performanceObjid = 10020072,
+		attribute = 3
+	},
+	[20102] = {
+		behavior_tree = "",
+		slot = 9212,
+		name = "配置B",
+		birthplace = 10020063,
+		id = 20102,
+		unlockObjid = 10020069,
+		performanceObjid = 10020073,
+		attribute = 3
+	},
+	[20103] = {
+		behavior_tree = "",
+		slot = 9213,
+		name = "配置C",
+		birthplace = 10020064,
+		id = 20103,
+		unlockObjid = 10020070,
+		performanceObjid = 10020074,
+		attribute = 3
+	},
 	[40101] = {
 		behavior_tree = "",
 		slot = 9011,
@@ -429,6 +459,9 @@ pg.island_production_commission = {
 		10202,
 		10203,
 		10204,
+		20101,
+		20102,
+		20103,
 		40101,
 		40102,
 		40103,

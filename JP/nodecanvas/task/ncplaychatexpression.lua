@@ -7,6 +7,10 @@ slot0.OnExecute = function(slot0)
 end
 
 slot0.DoAction = function(slot0, slot1, slot2, slot3, slot4)
+	if slot1 == "0" then
+		return
+	end
+
 	if not _IslandCore then
 		return
 	end

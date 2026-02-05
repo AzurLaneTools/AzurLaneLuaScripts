@@ -48,10 +48,7 @@ slot0.UpdateActivity = function(slot0, slot1)
 				})
 
 				IslandShopDrawAwardPage.ShowDropInfo(slot6, slot2:Find("mask/Image"))
-				setText(slot2:Find("name/Text"), slot6:getName())
-				onNextTick(function ()
-					changeToScrollText(uv0:Find("name/Text"), uv1:getName())
-				end)
+				setScrollText(slot2:Find("name/Text"), slot6:getName())
 				setText(slot2:Find("got/got/Text"), i18n("island_draw_get"))
 				setActive(slot2:Find("got"), not slot4)
 			end

@@ -79,6 +79,20 @@ pg.island_collection_reward = setmetatable({
 			3010,
 			3011,
 			3012
+		},
+		{
+			4001,
+			4002,
+			4003,
+			4004,
+			4005,
+			4006,
+			4007,
+			4008,
+			4009,
+			4010,
+			4011,
+			4012
 		}
 	},
 	all = {
@@ -153,7 +167,19 @@ pg.island_collection_reward = setmetatable({
 		3009,
 		3010,
 		3011,
-		3012
+		3012,
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007,
+		4008,
+		4009,
+		4010,
+		4011,
+		4012
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1015,6 +1041,150 @@ pg.base.island_collection_reward = {
 		type = 3,
 		id = 3012,
 		need_exp = 4000,
+		level = 12,
+		award_display = {
+			2,
+			180001,
+			1
+		}
+	},
+	[4001] = {
+		describe = "図鑑Pt累計獲得10：開発資金*2000",
+		type = 4,
+		id = 4001,
+		need_exp = 10,
+		level = 1,
+		award_display = {
+			41,
+			1,
+			2000
+		}
+	},
+	[4002] = {
+		describe = "図鑑Pt累計獲得20：離島EXP教科書T1*10",
+		type = 4,
+		id = 4002,
+		need_exp = 20,
+		level = 2,
+		award_display = {
+			41,
+			100001,
+			10
+		}
+	},
+	[4003] = {
+		describe = "図鑑Pt累計獲得30：開発資金*2000",
+		type = 4,
+		id = 4003,
+		need_exp = 30,
+		level = 3,
+		award_display = {
+			41,
+			1,
+			2000
+		}
+	},
+	[4004] = {
+		describe = "図鑑Pt累計獲得40：離島EXP教科書T1*10",
+		type = 4,
+		id = 4004,
+		need_exp = 40,
+		level = 4,
+		award_display = {
+			41,
+			100001,
+			10
+		}
+	},
+	[4005] = {
+		describe = "図鑑Pt累計獲得60：開発資金*5000",
+		type = 4,
+		id = 4005,
+		need_exp = 60,
+		level = 5,
+		award_display = {
+			41,
+			1,
+			5000
+		}
+	},
+	[4006] = {
+		describe = "図鑑Pt累計獲得80：離島EXP教科書T2*10",
+		type = 4,
+		id = 4006,
+		need_exp = 80,
+		level = 6,
+		award_display = {
+			41,
+			100002,
+			10
+		}
+	},
+	[4007] = {
+		describe = "図鑑Pt累計獲得100：開発資金*5000",
+		type = 4,
+		id = 4007,
+		need_exp = 100,
+		level = 7,
+		award_display = {
+			41,
+			1,
+			5000
+		}
+	},
+	[4008] = {
+		describe = "図鑑Pt累計獲得120：離島開発結晶*1",
+		type = 4,
+		id = 4008,
+		need_exp = 120,
+		level = 8,
+		award_display = {
+			41,
+			100201,
+			1
+		}
+	},
+	[4009] = {
+		describe = "図鑑Pt累計獲得160：開発資金*10000",
+		type = 4,
+		id = 4009,
+		need_exp = 160,
+		level = 9,
+		award_display = {
+			41,
+			1,
+			10000
+		}
+	},
+	[4010] = {
+		describe = "図鑑Pt累計獲得200：着せ替えカラー",
+		type = 4,
+		id = 4010,
+		need_exp = 200,
+		level = 10,
+		award_display = {
+			41,
+			3,
+			1
+		}
+	},
+	[4011] = {
+		describe = "図鑑Pt累計獲得250：開発資金*10000",
+		type = 4,
+		id = 4011,
+		need_exp = 250,
+		level = 11,
+		award_display = {
+			41,
+			1,
+			10000
+		}
+	},
+	[4012] = {
+		describe = "図鑑Pt累計獲得300：限定記念コイン*1",
+		type = 4,
+		id = 4012,
+		need_exp = 300,
 		level = 12,
 		award_display = {
 			2,

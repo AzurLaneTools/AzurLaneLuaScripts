@@ -5,7 +5,7 @@ pg.island_manage_event = {
 		influence_bonus = 10,
 		id = 1,
 		banner = 0,
-		desc = "饅頭のツアー団体客が離島にやってきた……",
+		desc = "饅頭の団体ツアー客が離島にやってきた。$1に滞在中",
 		event_effect = {
 			{
 				10,
@@ -18,7 +18,7 @@ pg.island_manage_event = {
 		influence_bonus = 20,
 		id = 2,
 		banner = 0,
-		desc = "鉄血のグルメ探偵が島にやってきた……",
+		desc = "離島開発チームが$1に滞在中",
 		event_effect = {
 			{
 				20,
@@ -31,7 +31,7 @@ pg.island_manage_event = {
 		influence_bonus = 30,
 		id = 3,
 		banner = 0,
-		desc = "鉄血のグルメ探偵が島にやってきた……",
+		desc = "本日の離島トップグルメが決定した！早く$1で確認しよう",
 		event_effect = {
 			{
 				30,

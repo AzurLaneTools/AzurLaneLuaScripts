@@ -73,27 +73,50 @@ slot3 = function(slot0, slot1, slot2)
 	end
 end
 
-slot4 = function(slot0, slot1)
-	slot1:Op("InterAction", slot0, slot1.view.player.id)
+slot4 = function(slot0, slot1, slot2)
+	slot1:Op("AgoraVirtualInterAction", slot0, slot1.view.player.id, tonumber(slot2))
 end
 
 slot5 = function(slot0, slot1)
-	slot1:Op("InterActionEnd", slot0, slot1.view.player.id)
+	slot1:Op("AgoraVirtualInterActionEnd", slot0, slot1.view.player.id)
 end
 
-slot6 = function(slot0, slot1, slot2)
+slot6 = function(slot0, slot1)
+	if not getProxy(SettingsProxy):ShouldTipIslandRestEvet() then
+		return false
+	end
+
+	return slot0:GetManageAgency():GetRestaurant(slot1):GetEventInfo() ~= 0
+end
+
+slot7 = function(slot0, slot1, slot2)
 	slot3 = Clone(slot0)
 
 	table.remove(slot3, 1)
 	table.insert(slot3, slot2)
-	slot1:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE, _G[slot3[1]], unpack(slot3))
+
+	slot6 = slot1:GetView():GetIsland()
+
+	if slot3[1] == "IslandRestaurantPage" and uv0(slot6, unpack(slot3)) then
+		slot5:ShowMsgbox({
+			blur = true,
+			isNew = true,
+			type = IslandMsgBox.TYPE_ISLAND_POST_EVENT,
+			rest = slot6:GetManageAgency():GetRestaurant(unpack(slot3)),
+			onHide = function ()
+				uv0:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE, _G[uv1], unpack(uv2))
+			end
+		})
+	else
+		slot1:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE, _G[slot4], unpack(slot3))
+	end
 end
 
-slot7 = function(slot0, slot1)
+slot8 = function(slot0, slot1)
 	slot1:NotifiyIsland(ISLAND_EX_EVT.SWITCH_MAP, tonumber(slot0))
 end
 
-slot8 = function(slot0, slot1, slot2)
+slot9 = function(slot0, slot1, slot2)
 	if slot2:GetView():GetUnitModule(slot1).behaviourTreeOwner then
 		if tonumber(slot0[2]) then
 			LuaHelper.NodeCanvasSetIntVariableValue(slot3.behaviourTreeOwner, slot0[1], slot0[2])
@@ -103,27 +126,27 @@ slot8 = function(slot0, slot1, slot2)
 	end
 end
 
-slot9 = function(slot0, slot1, slot2)
+slot10 = function(slot0, slot1, slot2)
 	slot1:Op("WorldObjectInterAction", slot0, slot1.view.player.id, tonumber(slot2))
 end
 
-slot10 = function(slot0, slot1)
+slot11 = function(slot0, slot1)
 	slot1:Op("WorldObjectInterActionEnd", slot0, slot1.view.player.id)
 end
 
-slot11 = function(slot0, slot1)
+slot12 = function(slot0, slot1)
 	slot1:NotifiyIsland(ISLAND_EX_EVT.TRIGGER_TASK, tonumber(slot0))
 end
 
-slot12 = function(slot0, slot1)
+slot13 = function(slot0, slot1)
 	slot1:NotifiyIsland(ISLAND_EX_EVT.SUBMIT_TASK, tonumber(slot0))
 end
 
-slot13 = function(slot0)
+slot14 = function(slot0)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SIGNIN)
 end
 
-slot14 = function(slot0)
+slot15 = function(slot0)
 	slot1 = slot0:GetView()
 
 	if not slot1:GetUnitModule(slot1.selectedUnitId) then
@@ -133,7 +156,7 @@ slot14 = function(slot0)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SELECT_GIFT, slot1:GetIsland().id, slot2.data.index)
 end
 
-slot15 = function(slot0)
+slot16 = function(slot0)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE)
 end
 
@@ -141,13 +164,13 @@ slot0.AddInteractionTaskProgress = function(slot0, slot1)
 	slot0:Op("NotifiyIsland", ISLAND_EX_EVT.ADD_TASK_PROGRESS, IslandTaskTargetType.INTERACTION, slot1)
 end
 
-slot16 = function(slot0)
+slot17 = function(slot0)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.GET_THEMES, function ()
 		uv0:Op("EnterEditMode")
 	end)
 end
 
-slot17 = function(slot0)
+slot18 = function(slot0)
 	if not slot0:GetView():GetIsland():GetAgoraAgency():CanUpgrade() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_max_level"))
 
@@ -163,17 +186,17 @@ slot17 = function(slot0)
 	})
 end
 
-slot18 = function(slot0, slot1)
+slot19 = function(slot0, slot1)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.PLAY_PERFORMANCE, {
 		name = slot1
 	})
 end
 
-slot19 = function(slot0, slot1)
+slot20 = function(slot0, slot1)
 	slot0:GetView():GetSubView(IslandInteractionView):ShowNextInteractionBtns(slot1)
 end
 
-slot20 = function(slot0, slot1)
+slot21 = function(slot0, slot1)
 	slot2 = pg.island_strollnpc[slot1]
 	slot3 = nil
 
@@ -198,7 +221,7 @@ slot0.Response = function(slot0, slot1, slot2)
 	elseif slot3.type == uv0.TYPE_ACTION then
 		uv3(slot3.param[1], slot3.param[2], slot0)
 	elseif slot3.type == uv0.TYPE_AGORA then
-		uv4(slot1, slot0)
+		uv4(slot1, slot0, slot3.param)
 	elseif slot3.type == uv0.TYPE_AGORA_CANCEL then
 		uv5(slot1, slot0)
 	elseif slot3.type == uv0.TYPE_OPEN_PAGE then

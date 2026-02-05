@@ -151,7 +151,7 @@ slot0.ResultDraw = function(slot0, slot1)
 			if #slot0.data1_list == 0 or slot0.data1_list[1] == slot6 then
 				table.remove(slot0.data1_list, 1)
 			else
-				assert(false, string.format("error SList drop %d in {%s}", slot6, table.concat(slot0.data1_list)))
+				assert(false, string.format("error SList drop %d in %s", slot6, PrintTable(slot0.data1_list)))
 			end
 		end
 	end

@@ -13,6 +13,7 @@ slot0.OnLoaded = function(slot0)
 	setText(slot2:Find("btns/opening/Text"), i18n("island_manage_view"))
 	setText(slot2:Find("btns/close/Text"), i18n("island_manage_result"))
 	setText(slot2:Find("btns/lock/Text"), i18n("word_lock"))
+	setText(slot2:Find("name/event/Text"), i18n("island_post_event_label"))
 
 	slot0.uiList = UIItemList.New(slot1, slot2)
 end
@@ -26,6 +27,30 @@ slot0.OnInit = function(slot0)
 			uv0:InitItem(slot1, slot2)
 		elseif slot0 == UIItemList.EventUpdate then
 			uv0:UpdateItem(slot1, slot2)
+		end
+	end)
+end
+
+slot0.TriggerEvent = function(slot0, slot1)
+	slot2 = -1
+
+	for slot6, slot7 in ipairs(slot0.restIds) do
+		if slot7 == slot1 then
+			slot2 = slot6
+
+			break
+		end
+	end
+
+	if slot2 < 0 then
+		return
+	end
+
+	slot3 = slot0.uiList
+
+	slot3:eachActive(function (slot0, slot1)
+		if slot0 + 1 == uv0 then
+			triggerButton(slot1:Find("btns/opening"))
 		end
 	end)
 end
@@ -69,6 +94,10 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 	else
 		setActive(slot2:Find("name/event"), false)
 	end
+
+	onButton(slot0, slot2:Find("name/event"), function ()
+		uv0:emit(IslandPostManagePage.EVENT_SHOW_SP_EVENT_TIP, uv1, false)
+	end, SFX_PANEL)
 
 	slot6 = slot5 and slot5:GetAssistants() or {}
 
@@ -134,6 +163,29 @@ end
 slot0.Show = function(slot0)
 	slot0.super.Show(slot0)
 	slot0:Flush()
+	slot0:CheckEventTip()
+end
+
+slot0.CheckEventTip = function(slot0)
+	if not getProxy(SettingsProxy):ShouldTipIslandRestEvet() then
+		return
+	end
+
+	slot2 = nil
+
+	for slot6, slot7 in pairs(slot0.rests) do
+		slot8 = slot7:GetEventInfo()
+
+		if slot7:GetEventInfo() ~= 0 then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if slot2 then
+		slot0:emit(IslandPostManagePage.EVENT_SHOW_SP_EVENT_TIP, slot2, true)
+	end
 end
 
 slot0.Flush = function(slot0)

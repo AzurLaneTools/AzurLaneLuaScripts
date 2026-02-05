@@ -3560,7 +3560,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Ting An",
 		background = "",
 		sculpture = "dingan_2",
-		nationality = 0,
+		nationality = 5,
 		type = 1,
 		sculpture_ii = ""
 	},

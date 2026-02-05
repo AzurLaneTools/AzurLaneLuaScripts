@@ -1,99 +1,143 @@
 pg = pg or {}
 pg.island_action = {
 	[1000] = {
-		resource = "hi",
 		name = "あいさつ",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "hi",
 		desc = "キャラクターアクションあいさつ。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1000,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			101,
+			102,
+			104
+		},
 		jump_page = {}
 	},
 	[1001] = {
-		resource = "bye",
 		name = "別れ",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "bye",
 		desc = "キャラクターアクション別れ。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1001,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			101
+		},
 		jump_page = {}
 	},
 	[1002] = {
-		resource = "nod",
 		name = "頷く",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "nod",
 		desc = "キャラクターアクション頷く。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1002,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			105
+		},
 		jump_page = {}
 	},
 	[1003] = {
-		resource = "shakehead",
 		name = "頭を振る",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "shakehead",
 		desc = "キャラクターアクション頭を振る。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1003,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			202,
+			207
+		},
 		jump_page = {}
 	},
 	[1004] = {
-		resource = "clap",
 		name = "拍手",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "clap",
 		desc = "キャラクターアクション拍手。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1004,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			105
+		},
 		jump_page = {}
 	},
 	[1005] = {
-		resource = "handsup",
 		name = "太陽ポーズ",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "handsup",
 		desc = "キャラクターアクション太陽ポーズ。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1005,
 		responder_feedback = "",
-		jump_page = {}
+		chara_sigle_action_reply = {
+			204,
+			207
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
 	},
 	[1006] = {
-		resource = "akimbo",
 		name = "両手を腰に",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "akimbo",
 		desc = "キャラクターアクション両手を腰に。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1006,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106
+		},
 		jump_page = {}
 	},
 	[1007] = {
-		resource = "bow",
 		name = "お辞儀",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "bow",
 		desc = "キャラクターアクションお辞儀。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1007,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			105,
+			204
+		},
 		jump_page = {
 			{
 				"図鑑",
@@ -102,15 +146,20 @@ pg.island_action = {
 		}
 	},
 	[1008] = {
-		resource = "vjump",
 		name = "元気ジャンプ",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "vjump",
 		desc = "キャラクターアクション元気ジャンプ。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1008,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			204
+		},
 		jump_page = {
 			{
 				"ショップ",
@@ -119,27 +168,37 @@ pg.island_action = {
 		}
 	},
 	[1009] = {
-		resource = "stomp",
 		name = "地団駄踏む",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "stomp",
 		desc = "キャラクターアクション地団駄踏む。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1009,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			201,
+			207
+		},
 		jump_page = {}
 	},
 	[1011] = {
-		resource = "muscle",
 		name = "筋肉自慢",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "muscle",
 		desc = "キャラクターアクション筋肉自慢。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1011,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			204
+		},
 		jump_page = {
 			{
 				"ショップ",
@@ -148,27 +207,42 @@ pg.island_action = {
 		}
 	},
 	[1012] = {
-		resource = "dance",
 		name = "踊る",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "dance",
 		desc = "キャラクターアクション踊る。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1012,
 		responder_feedback = "",
-		jump_page = {}
+		chara_sigle_action_reply = {
+			106,
+			204
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
 	},
 	[1013] = {
-		resource = "herocoming",
 		name = "ヒーロー登場",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
-		tech_id = 0,
+		sigle_action_reply_type = 2,
+		resource = "herocoming",
 		desc = "キャラクターアクションヒーロー登場。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 1013,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			204,
+			207
+		},
 		jump_page = {
 			{
 				"ショップ",
@@ -176,13 +250,124 @@ pg.island_action = {
 			}
 		}
 	},
+	[1014] = {
+		name = "伸び",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "stretch",
+		desc = "インタラクトアクション「伸び」",
+		tech_id = 0,
+		id = 1014,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			207
+		},
+		jump_page = {
+			{
+				"開発ショップ",
+				{}
+			}
+		}
+	},
+	[1015] = {
+		name = "怯える",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "fearshake",
+		desc = "インタラクトアクション「怯える」",
+		tech_id = 0,
+		id = 1015,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			201,
+			207
+		},
+		jump_page = {
+			{
+				"開発ショップ",
+				{}
+			}
+		}
+	},
+	[1016] = {
+		name = "抱拳",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "holdfist",
+		desc = "インタラクトアクション「抱拳」",
+		tech_id = 0,
+		id = 1016,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			107
+		},
+		jump_page = {
+			{
+				"開発ショップ",
+				{}
+			}
+		}
+	},
+	[1017] = {
+		name = "ドヤる",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "vouch",
+		desc = "インタラクトアクション「ドヤる」",
+		tech_id = 0,
+		id = 1017,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			108
+		},
+		jump_page = {
+			{
+				"開発ショップ",
+				{}
+			}
+		}
+	},
+	[1018] = {
+		name = "坐禅",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "float",
+		desc = "インタラクトアクション「坐禅」",
+		tech_id = 0,
+		id = 1018,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			108
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
 	[2000] = {
-		resource = "givemefive",
+		chara_sigle_action_reply = "",
 		name = "ハイタッチ",
 		type = 2,
 		feedback_type = 0,
-		tech_id = 0,
+		sigle_action_reply_type = 0,
+		resource = "givemefive",
 		desc = "キャラクターアクションハイタッチ。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 2000,
 		responder_feedback = "givemefive_end",
 		respond_point = {
@@ -193,12 +378,14 @@ pg.island_action = {
 		jump_page = {}
 	},
 	[2001] = {
-		resource = "handshake",
+		chara_sigle_action_reply = "",
 		name = "握手",
 		type = 2,
 		feedback_type = 0,
-		tech_id = 0,
+		sigle_action_reply_type = 0,
+		resource = "handshake",
 		desc = "キャラクターアクション握手。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 2001,
 		responder_feedback = "handshake_end",
 		respond_point = {
@@ -214,12 +401,14 @@ pg.island_action = {
 		}
 	},
 	[2002] = {
-		resource = "hug",
+		chara_sigle_action_reply = "",
 		name = "ハグ",
 		type = 2,
 		feedback_type = 0,
-		tech_id = 0,
+		sigle_action_reply_type = 0,
+		resource = "hug",
 		desc = "キャラクターアクションハグ。自分の感情をアピールしましょう！",
+		tech_id = 0,
 		id = 2002,
 		responder_feedback = "hug_end",
 		respond_point = {
@@ -227,7 +416,58 @@ pg.island_action = {
 			0,
 			0.62654
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[2003] = {
+		chara_sigle_action_reply = "",
+		name = "祝う",
+		type = 2,
+		feedback_type = 0,
+		sigle_action_reply_type = 0,
+		resource = "claphands",
+		desc = "インタラクトアクション「祝う」",
+		tech_id = 0,
+		id = 2003,
+		responder_feedback = "claphands_end",
+		respond_point = {
+			0,
+			0,
+			1.5276
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[2004] = {
+		chara_sigle_action_reply = "",
+		name = "手ハート",
+		type = 2,
+		feedback_type = 0,
+		sigle_action_reply_type = 0,
+		resource = "handheart",
+		desc = "インタラクトアクション「手ハート」",
+		tech_id = 0,
+		id = 2004,
+		responder_feedback = "handheart_end",
+		respond_point = {
+			0,
+			0,
+			1.35224
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
 	},
 	get_id_list_by_type = {
 		{
@@ -243,12 +483,19 @@ pg.island_action = {
 			1009,
 			1011,
 			1012,
-			1013
+			1013,
+			1014,
+			1015,
+			1016,
+			1017,
+			1018
 		},
 		{
 			2000,
 			2001,
-			2002
+			2002,
+			2003,
+			2004
 		}
 	},
 	all = {
@@ -265,8 +512,15 @@ pg.island_action = {
 		1011,
 		1012,
 		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
 		2000,
 		2001,
-		2002
+		2002,
+		2003,
+		2004
 	}
 }

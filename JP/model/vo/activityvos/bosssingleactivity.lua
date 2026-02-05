@@ -175,4 +175,20 @@ slot0.GetBuffIdsByStageId = function(slot0, slot1)
 	end)
 end
 
+slot0.IsShowExpTagDaily = function(slot0, slot1)
+	if not slot0:IsUnlockByEnemyId(slot1.id) then
+		return false
+	end
+
+	if not slot1:InTime() then
+		return false
+	end
+
+	if (slot0:GetDailyCounts()[slot1:GetFleetIdx()] or 0) >= 1 then
+		return false
+	end
+
+	return true
+end
+
 return slot0

@@ -8,7 +8,7 @@ pg.island_shop_template = {
 		show_type = 2,
 		dress_type = 0,
 		shop_icon = "",
-		order = 1,
+		order = 3,
 		goods_id = "",
 		shop_type = 0,
 		id = 10109,
@@ -16,7 +16,7 @@ pg.island_shop_template = {
 		tag_icon = {
 			"種",
 			"Seeds",
-			"IslandShopIcon/daoju"
+			"daoju"
 		}
 	},
 	[10110] = {
@@ -102,9 +102,7 @@ pg.island_shop_template = {
 			411019,
 			411020,
 			411021,
-			411022,
-			411023,
-			411024
+			411022
 		}
 	},
 	[10113] = {
@@ -138,7 +136,9 @@ pg.island_shop_template = {
 			411011,
 			411012,
 			411014,
-			411015
+			411015,
+			411025,
+			411026
 		}
 	},
 	[10130] = {
@@ -157,7 +157,7 @@ pg.island_shop_template = {
 		tag_icon = {
 			"アイテム",
 			"Items",
-			"IslandShopIcon/daoju"
+			"daoju"
 		}
 	},
 	[10131] = {
@@ -208,9 +208,10 @@ pg.island_shop_template = {
 		},
 		goods_id = {
 			412000,
-			5010001,
-			5020001,
-			5030001
+			412001,
+			5010002,
+			5020002,
+			5030002
 		}
 	},
 	[10010] = {
@@ -229,7 +230,7 @@ pg.island_shop_template = {
 		tag_icon = {
 			"シーズン",
 			"Season",
-			"IslandShopIcon/tuijian"
+			"tuijian"
 		}
 	},
 	[10011] = {
@@ -422,35 +423,44 @@ pg.island_shop_template = {
 			{}
 		},
 		goods_id = {
-			10102,
 			10000,
-			10103,
-			10001,
-			10002,
-			10003,
-			10104,
-			10105,
-			10106,
-			10107,
-			10108,
-			10109,
-			10110,
-			10111,
-			10112,
-			10113,
-			10114,
-			10115,
-			10116,
-			10117,
-			10118,
-			10119,
-			10120,
-			10121,
-			10122,
-			10123,
-			10124,
-			10125,
-			10126
+			10201,
+			10202,
+			10203,
+			10204,
+			10205,
+			10206,
+			10207,
+			10208,
+			10209,
+			10210,
+			10211,
+			10212,
+			10213,
+			10214,
+			10215,
+			10216,
+			10217,
+			10218,
+			10219,
+			10220,
+			10221,
+			10222,
+			10223,
+			10224,
+			10225,
+			10226,
+			10227,
+			10228,
+			10229,
+			10230,
+			10231,
+			10232,
+			10233,
+			10234,
+			10235,
+			10236,
+			10269
 		}
 	},
 	[10016] = {
@@ -480,22 +490,22 @@ pg.island_shop_template = {
 			{}
 		},
 		goods_id = {
-			10127,
-			10128,
-			10129,
-			10130,
-			10131,
-			10132,
-			10133,
-			10134,
-			10135,
-			10136,
-			10137,
-			10138,
-			10139,
-			10140,
-			10141,
-			10142
+			10237,
+			10238,
+			10239,
+			10240,
+			10241,
+			10242,
+			10243,
+			10244,
+			10245,
+			10246,
+			10247,
+			10248,
+			10249,
+			10250,
+			10251,
+			10252
 		}
 	},
 	[10017] = {
@@ -525,22 +535,22 @@ pg.island_shop_template = {
 			{}
 		},
 		goods_id = {
-			10143,
-			10144,
-			10145,
-			10146,
-			10147,
-			10148,
-			10149,
-			10150,
-			10151,
-			10152,
-			10153,
-			10154,
-			10155,
-			10156,
-			10157,
-			10158
+			10253,
+			10254,
+			10255,
+			10256,
+			10257,
+			10258,
+			10259,
+			10260,
+			10261,
+			10262,
+			10263,
+			10264,
+			10265,
+			10266,
+			10267,
+			10268
 		}
 	},
 	[10019] = {
@@ -551,7 +561,7 @@ pg.island_shop_template = {
 		show_type = 2,
 		dress_type = 0,
 		shop_icon = "",
-		order = 10,
+		order = 4,
 		goods_id = "",
 		shop_type = 0,
 		id = 10019,
@@ -559,7 +569,7 @@ pg.island_shop_template = {
 		tag_icon = {
 			"製粉所",
 			"Mill",
-			"IslandShopIcon/daoju"
+			"daoju"
 		}
 	},
 	[10020] = {
@@ -637,7 +647,7 @@ pg.island_shop_template = {
 		tag_icon = {
 			"種",
 			"Seeds",
-			"IslandShopIcon/daoju"
+			"daoju"
 		}
 	},
 	[10023] = {
@@ -708,7 +718,7 @@ pg.island_shop_template = {
 		tag_icon = {
 			"種",
 			"Seeds",
-			"IslandShopIcon/daoju"
+			"daoju"
 		}
 	},
 	[10026] = {
@@ -759,9 +769,7 @@ pg.island_shop_template = {
 			411019,
 			411020,
 			411021,
-			411022,
-			411023,
-			411024
+			411022
 		}
 	},
 	[10028] = {
@@ -780,7 +788,7 @@ pg.island_shop_template = {
 		tag_icon = {
 			"種",
 			"Seeds",
-			"IslandShopIcon/daoju"
+			"daoju"
 		}
 	},
 	[10029] = {
@@ -831,7 +839,189 @@ pg.island_shop_template = {
 			411011,
 			411012,
 			411014,
-			411015
+			411015,
+			411025,
+			411026
+		}
+	},
+	[10031] = {
+		first_shop = 0,
+		top_jump = "",
+		top_resource = "",
+		second_shop = 0,
+		show_type = 2,
+		dress_type = 0,
+		shop_icon = "",
+		order = 5,
+		goods_id = "",
+		shop_type = 0,
+		id = 10031,
+		tag_type = 1,
+		tag_icon = {
+			"釣具",
+			"Gear",
+			"daoju"
+		}
+	},
+	[10032] = {
+		first_shop = 10031,
+		top_jump = "",
+		top_resource = "",
+		second_shop = 0,
+		show_type = 2,
+		dress_type = 0,
+		shop_icon = "",
+		order = 1,
+		goods_id = "",
+		shop_type = 0,
+		id = 10032,
+		tag_type = 2,
+		tag_icon = {
+			"稚魚"
+		}
+	},
+	[10033] = {
+		first_shop = 10031,
+		top_jump = "",
+		second_shop = 10032,
+		show_type = 2,
+		dress_type = 0,
+		order = 1,
+		shop_type = 1,
+		id = 10033,
+		tag_type = 3,
+		shop_icon = {
+			"稚魚ショップ",
+			"Fish Fry Shop"
+		},
+		tag_icon = {
+			"淡水魚"
+		},
+		top_resource = {
+			{
+				0,
+				41,
+				1
+			}
+		},
+		goods_id = {
+			111102,
+			111103,
+			111104,
+			111107
+		}
+	},
+	[10034] = {
+		first_shop = 10031,
+		top_jump = "",
+		second_shop = 10032,
+		show_type = 2,
+		dress_type = 0,
+		order = 2,
+		shop_type = 1,
+		id = 10034,
+		tag_type = 3,
+		shop_icon = {
+			"稚魚ショップ",
+			"Fish Fry Shop"
+		},
+		tag_icon = {
+			"海水魚"
+		},
+		top_resource = {
+			{
+				0,
+				41,
+				1
+			}
+		},
+		goods_id = {
+			111202,
+			111203,
+			111204,
+			111207,
+			111205,
+			111206
+		}
+	},
+	[10035] = {
+		first_shop = 10031,
+		top_jump = "",
+		second_shop = 10032,
+		show_type = 2,
+		dress_type = 0,
+		order = 3,
+		shop_type = 1,
+		id = 10035,
+		tag_type = 3,
+		shop_icon = {
+			"稚魚ショップ",
+			"Fish Fry Shop"
+		},
+		tag_icon = {
+			"その他"
+		},
+		top_resource = {
+			{
+				0,
+				41,
+				1
+			}
+		},
+		goods_id = {
+			111101,
+			111105,
+			111106,
+			111108,
+			111201,
+			111208
+		}
+	},
+	[10036] = {
+		first_shop = 10031,
+		top_jump = "",
+		top_resource = "",
+		second_shop = 0,
+		show_type = 2,
+		dress_type = 0,
+		shop_icon = "",
+		order = 2,
+		goods_id = "",
+		shop_type = 0,
+		id = 10036,
+		tag_type = 2,
+		tag_icon = {
+			"ルアー"
+		}
+	},
+	[10037] = {
+		first_shop = 10031,
+		top_jump = "",
+		second_shop = 10036,
+		show_type = 2,
+		dress_type = 0,
+		order = 3,
+		shop_type = 1,
+		id = 10037,
+		tag_type = 3,
+		shop_icon = {
+			"ルアーショップ",
+			"Fish Lure Shop"
+		},
+		tag_icon = {
+			"ルアー"
+		},
+		top_resource = {
+			{
+				0,
+				41,
+				1
+			}
+		},
+		goods_id = {
+			111500,
+			111502,
+			111503
 		}
 	},
 	[50111] = {
@@ -842,7 +1032,7 @@ pg.island_shop_template = {
 		show_type = 5,
 		dress_type = 0,
 		shop_icon = "",
-		order = 3,
+		order = 2,
 		goods_id = "",
 		shop_type = 0,
 		id = 50111,
@@ -850,7 +1040,7 @@ pg.island_shop_template = {
 		tag_icon = {
 			"着せ替え",
 			"Appearance",
-			"IslandShopIcon/shizhuang"
+			"shizhuang"
 		}
 	},
 	[50121] = {
@@ -895,7 +1085,8 @@ pg.island_shop_template = {
 			}
 		},
 		goods_id = {
-			4600002
+			4600002,
+			4630005
 		}
 	},
 	[50132] = {
@@ -923,7 +1114,8 @@ pg.island_shop_template = {
 			}
 		},
 		goods_id = {
-			4600003
+			4600003,
+			4610003
 		}
 	},
 	[50133] = {
@@ -951,7 +1143,8 @@ pg.island_shop_template = {
 			}
 		},
 		goods_id = {
-			4600001
+			4600001,
+			4620004
 		}
 	},
 	[50122] = {
@@ -996,6 +1189,9 @@ pg.island_shop_template = {
 			}
 		},
 		goods_id = {
+			471011001,
+			475060101,
+			474030301,
 			473120101,
 			471051701
 		}
@@ -1009,6 +1205,7 @@ pg.island_shop_template = {
 			10022,
 			10025,
 			10028,
+			10031,
 			50111
 		},
 		[10109] = {
@@ -1046,6 +1243,14 @@ pg.island_shop_template = {
 			10029,
 			10030
 		},
+		[10031] = {
+			10032,
+			10033,
+			10034,
+			10035,
+			10036,
+			10037
+		},
 		[50111] = {
 			50121,
 			50131,
@@ -1071,6 +1276,9 @@ pg.island_shop_template = {
 			10026,
 			10028,
 			10029,
+			10031,
+			10032,
+			10036,
 			50111,
 			50121,
 			50122
@@ -1102,6 +1310,14 @@ pg.island_shop_template = {
 		},
 		[10029] = {
 			10030
+		},
+		[10032] = {
+			10033,
+			10034,
+			10035
+		},
+		[10036] = {
+			10037
 		},
 		[50121] = {
 			50131,
@@ -1141,6 +1357,13 @@ pg.island_shop_template = {
 		10028,
 		10029,
 		10030,
+		10031,
+		10032,
+		10033,
+		10034,
+		10035,
+		10036,
+		10037,
 		50111,
 		50121,
 		50131,

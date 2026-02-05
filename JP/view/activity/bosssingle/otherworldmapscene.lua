@@ -546,8 +546,8 @@ slot0.UpdateMapArea = function(slot0)
 	for slot6 = uv0.MAP_AREA_START, uv0.MAP_AREA_CNT do
 		slot7 = table.contains(slot2, slot6)
 
-		setActive(slot0._tf:Find(tostring(slot6), slot0.locationsTF), not slot1 or not slot7)
-		setActive(slot0._tf:Find(tostring(slot6), slot0.bgTF), slot7 and slot1)
+		setActive(slot0.locationsTF:Find(tostring(slot6)), not slot1 or not slot7)
+		setActive(slot0.bgTF:Find(tostring(slot6)), slot7 and slot1)
 	end
 end
 
@@ -590,25 +590,52 @@ slot0.UpdateWangduBtn = function(slot0)
 end
 
 slot0.UpdateEntrances = function(slot0)
-	for slot5, slot6 in pairs(slot0.contextData.bossActivity:GetEnemyDatas()) do
-		slot7 = slot1:IsUnlockByEnemyId(slot6.id)
+	slot1 = slot0.contextData.bossActivity
 
-		if slot0.strongholdsTF:Find(uv0.TYPE2NAME[slot6:GetType()]):Find("lock") then
-			setActive(slot10, not slot7)
+	if not slot0.lastUnlockEntrances then
+		slot0.lastUnlockEntrances = {}
+
+		for slot5, slot6 in pairs(slot1:GetEnemyDatas()) do
+			slot0.lastUnlockEntrances[slot6.id] = slot1:IsUnlockByEnemyId(slot6.id)
+		end
+	end
+
+	for slot5, slot6 in pairs(slot1:GetEnemyDatas()) do
+		slot8 = slot0.lastUnlockEntrances[slot6.id] or false
+		slot11 = slot0.strongholdsTF:Find(uv0.TYPE2NAME[slot6:GetType()]):Find("lock")
+
+		if slot1:IsUnlockByEnemyId(slot6.id) and not slot8 then
+			if slot10:GetComponent(typeof(DftAniEvent)) then
+				slot12:SetEndEvent(function (slot0)
+					if uv0 then
+						setActive(uv0, not uv1)
+					end
+				end)
+			end
+
+			if slot10:GetComponent(typeof(Animation)) and slot13.clip then
+				slot13:Play()
+			end
+		elseif slot11 then
+			setActive(slot11, not slot7)
 		end
 
-		if slot8 == BossSingleEnemyData.TYPE.SP then
-			setActive(slot9:Find("count"), slot7 and slot6:InTime())
+		if slot9 == BossSingleEnemyData.TYPE.SP then
+			setActive(slot10:Find("count"), slot7 and slot6:InTime())
 
-			slot11, slot12 = slot1:GetCounts(slot6.id)
+			slot12, slot13 = slot1:GetCounts(slot6.id)
 
-			setText(slot9:Find("count/Text"), i18n("levelScene_chapter_count_tip") .. slot11 .. "/" .. slot12)
+			setText(slot10:Find("count/Text"), i18n("levelScene_chapter_count_tip") .. slot12 .. "/" .. slot13)
 
-			slot13 = slot7 and slot11 > 0 and slot6:InTime()
+			slot14 = slot7 and slot12 > 0 and slot6:InTime()
 
-			setActive(slot9:Find("name/tip"), slot13)
-			setActive(slot0.rightArrow:Find("tip"), slot13 and slot0.contextData.mode == uv0.MODE_BATTLE)
+			setActive(slot10:Find("name/tip"), slot14)
+			setActive(slot0.rightArrow:Find("tip"), slot14 and slot0.contextData.mode == uv0.MODE_BATTLE)
 		end
+
+		setActive(slot10:Find("exp"), false)
+
+		slot0.lastUnlockEntrances[slot6.id] = slot7
 	end
 end
 

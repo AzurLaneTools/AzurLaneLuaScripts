@@ -55,6 +55,28 @@ pg.island_production_place = {
 			10204
 		}
 	},
+	[201] = {
+		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_fish",
+		name = "饅頭いけす",
+		map_id = 1002,
+		delegationCamera = "RoleDelegationCamera201",
+		seed_list = "",
+		behaviourTree = "island/nodecanvas/system/system_fish_place",
+		npcbehaviourTree = "island/nodecanvas/system/system_npc_fish",
+		id = 201,
+		tool_list = "",
+		locked_obj = 0,
+		npc_birthplace = 0,
+		interactionType = 0,
+		unlocked_obj = 0,
+		unlock_type = 1,
+		gathering_slot = {},
+		commission_slot = {
+			20101,
+			20102,
+			20103
+		}
+	},
 	[401] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_mine",
 		name = "積岩鉱山",
@@ -178,7 +200,9 @@ pg.island_production_place = {
 			1204,
 			1205,
 			1206,
-			1207
+			1207,
+			1208,
+			1209
 		}
 	},
 	[601] = {
@@ -396,6 +420,9 @@ pg.island_production_place = {
 			101,
 			102
 		},
+		[1002] = {
+			201
+		},
 		[1004] = {
 			401,
 			402
@@ -424,6 +451,7 @@ pg.island_production_place = {
 	all = {
 		101,
 		102,
+		201,
 		401,
 		402,
 		501,

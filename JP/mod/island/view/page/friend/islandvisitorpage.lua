@@ -1,4 +1,4 @@
-slot0 = class("IslandSignInInvitationPage", import("...base.IslandBasePage"))
+slot0 = class("IslandVisitorPage", import("...base.IslandBasePage"))
 slot1 = 1
 slot2 = 2
 

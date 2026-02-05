@@ -63,7 +63,9 @@ slot0.ProcessNextOne = function(slot0)
 		table.remove(uv1.schedule, 1)
 
 		if #uv1.schedule > 0 then
-			uv1:ProcessNextOne()
+			onNextTick(function ()
+				uv0:ProcessNextOne()
+			end)
 		end
 	end
 

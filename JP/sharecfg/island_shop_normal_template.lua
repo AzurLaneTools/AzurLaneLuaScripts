@@ -37,24 +37,24 @@ pg.island_shop_normal_template = {
 		exist_time = {
 			{
 				{
-					2025,
-					11,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
 					2026,
 					2,
 					5
 				},
 				{
-					12,
+					16,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
 					0,
 					0
 				}
@@ -71,9 +71,9 @@ pg.island_shop_normal_template = {
 		exist_time = {
 			{
 				{
-					2025,
-					12,
-					4
+					2026,
+					3,
+					12
 				},
 				{
 					0,
@@ -84,11 +84,11 @@ pg.island_shop_normal_template = {
 			{
 				{
 					2026,
-					2,
-					5
+					5,
+					7
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -106,8 +106,8 @@ pg.island_shop_normal_template = {
 			{
 				{
 					2026,
-					1,
-					8
+					4,
+					9
 				},
 				{
 					0,
@@ -118,11 +118,11 @@ pg.island_shop_normal_template = {
 			{
 				{
 					2026,
-					2,
-					5
+					5,
+					7
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -241,6 +241,42 @@ pg.island_shop_normal_template = {
 		refresh_time = 0,
 		unlock = ""
 	},
+	[10033] = {
+		refresh_player = "",
+		exist_time = "always",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10033,
+		refresh_time = 0,
+		unlock = ""
+	},
+	[10034] = {
+		refresh_player = "",
+		exist_time = "always",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10034,
+		refresh_time = 0,
+		unlock = ""
+	},
+	[10035] = {
+		refresh_player = "",
+		exist_time = "always",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10035,
+		refresh_time = 0,
+		unlock = ""
+	},
+	[10037] = {
+		refresh_player = "",
+		exist_time = "always",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10037,
+		refresh_time = 0,
+		unlock = ""
+	},
 	all = {
 		10012,
 		10013,
@@ -259,6 +295,10 @@ pg.island_shop_normal_template = {
 		50123,
 		10024,
 		10027,
-		10030
+		10030,
+		10033,
+		10034,
+		10035,
+		10037
 	}
 }

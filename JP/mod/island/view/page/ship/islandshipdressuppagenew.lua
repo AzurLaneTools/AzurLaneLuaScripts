@@ -168,7 +168,7 @@ slot0.ClickDressCardItem = function(slot0, slot1)
 			colorId = 0,
 			id = slot4.dress_id or 0
 		})
-		slot0.dressRect:SetTotalCount(#slot0.dressList, 0)
+		slot0.dressRect:SetTotalCount(#slot0.dressList)
 
 		return
 	end
@@ -206,7 +206,7 @@ slot0.ClickDressCardItem = function(slot0, slot1)
 			return slot0
 		end)()
 	})
-	slot0.dressRect:SetTotalCount(#slot0.dressList, 0)
+	slot0.dressRect:SetTotalCount(#slot0.dressList)
 	slot0:UpdateHatDisplay()
 	slot0:UpdateColorList(true)
 end
@@ -347,13 +347,13 @@ slot0.ChangeModelBySkinAndSkinColor = function(slot0)
 	slot1 = slot0.characterAgency:GetShipById(slot0.shipId)
 	slot2 = {}
 
-	if slot0.curSkinId ~= 0 then
-		for slot7, slot8 in ipairs({
-			IslandShipDressHelperNew.DressType.BackDecorate,
-			IslandShipDressHelperNew.DressType.Flotage,
-			IslandShipDressHelperNew.DressType.Footprint
-		}) do
-			if slot0.curShipDressTypeDataDic[slot8] and slot9.dress_id and slot9.dress_id ~= 0 then
+	for slot7, slot8 in ipairs({
+		IslandShipDressHelperNew.DressType.BackDecorate,
+		IslandShipDressHelperNew.DressType.Flotage,
+		IslandShipDressHelperNew.DressType.Footprint
+	}) do
+		if slot0.curShipDressTypeDataDic[slot8] and slot9.dress_id and slot9.dress_id ~= 0 then
+			if slot0.curSkinId ~= 0 then
 				slot11 = pg.island_dress_template[slot9.dress_id].exclusive_skin == "" and {} or slot10
 
 				for slot15, slot16 in ipairs(slot11) do
@@ -362,32 +362,43 @@ slot0.ChangeModelBySkinAndSkinColor = function(slot0)
 						slot9:SetShipAndDressId(nil, )
 					end
 				end
-			end
-		end
+			else
+				slot11 = pg.island_dress_template[slot9.dress_id].exclusive_default_skin == "" and {} or slot10
 
-		if #slot2 > 0 then
-			slot4 = ""
-
-			for slot8, slot9 in ipairs(slot2) do
-				slot10 = pg.island_dress_template[slot9].name
-
-				if slot8 > 1 then
-					slot10 = "," .. slot10
+				for slot15, slot16 in ipairs(slot11) do
+					if slot16 == slot0.shipId then
+						table.insert(slot2, slot9.dress_id)
+						slot9:SetShipAndDressId(nil, )
+					end
 				end
-
-				slot4 = slot4 .. slot10
 			end
-
-			pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_mutually_exclusive", slot4))
 		end
 	end
 
-	slot3 = slot1:GetModelBySkinAndColorId(slot0.curSkinId, slot0.curskinColorId)
+	if #slot2 > 0 then
+		slot4 = ""
+
+		for slot8, slot9 in ipairs(slot2) do
+			slot10 = pg.island_dress_template[slot9].name
+
+			if slot8 > 1 then
+				slot10 = "," .. slot10
+			end
+
+			slot4 = slot4 .. slot10
+		end
+
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_mutually_exclusive", slot4))
+	end
+
+	slot0:emit(IslandShipMainPage.CLEAR_ITEM_ANIMATOR)
+
+	slot4 = slot1:GetModelBySkinAndColorId(slot0.curSkinId, slot0.curskinColorId)
 
 	if #slot2 > 0 then
-		slot0.shipDressHelper:ChangeModelTransfromByUnitIdAndChangeDress(slot3, slot2, nil, , true)
+		slot0.shipDressHelper:ChangeModelTransfromByUnitIdAndChangeDress(slot4, slot2, nil, , true)
 	else
-		slot0.shipDressHelper:ChangeModelTransfromByUnitId(slot3, nil, true)
+		slot0.shipDressHelper:ChangeModelTransfromByUnitId(slot4, nil, true)
 	end
 end
 
@@ -614,13 +625,17 @@ slot0.UpdateSkinList = function(slot0)
 end
 
 slot0.UpdateDressUpList = function(slot0)
+	if slot0.currentToggleIndex == 4 then
+		return
+	end
+
 	setActive(slot0.dressRectTF, #slot0.dressList ~= 0)
 	setActive(slot0.dressEmpty, slot1 == 0)
 	setText(slot0.dressEmptyTips, i18n("island_dress_no_item"))
 	setActive(slot0.sortBtn, false)
 
 	if slot1 ~= 0 then
-		slot0.dressRect:SetTotalCount(slot1, 0)
+		slot0.dressRect:SetTotalCount(slot1)
 	end
 end
 

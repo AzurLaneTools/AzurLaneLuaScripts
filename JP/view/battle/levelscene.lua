@@ -1396,12 +1396,18 @@ slot0.registerActBtn = function(slot0)
 		end
 
 		if uv0.activityBtnLinkAct then
+			slot1 = uv0.activityBtnLinkAct.id
+
 			if uv0.activityBtnLinkAct:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
 
 				return
 			elseif slot0 == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_DAL_COLLAB)
+
+				return
+			elseif slot1 == ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID then
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.OTHERWORLD_MAP)
 
 				return
 			end
