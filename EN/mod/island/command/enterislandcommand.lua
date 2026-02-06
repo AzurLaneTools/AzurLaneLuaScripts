@@ -75,13 +75,13 @@ slot0.Send = function(slot0, slot1, slot2, slot3)
 			end)
 			seriesAsync(slot1, function ()
 				uv1:sendNotification(GAME.ISLAND_ENTER_MAP, {
-					islandId = uv2,
+					islandId = uv2.island_id,
 					mapId = (uv0 and getProxy(IslandProxy):GetIsland() or getProxy(IslandProxy):GetSharedIsland()):GetMapId(),
 					callback = function ()
-						uv0:GoScene(uv1)
+						uv0:GoScene(uv1.island_id)
 					end
 				})
-				getProxy(IslandProxy):EnterIsland(uv3.island_id)
+				getProxy(IslandProxy):EnterIsland(uv2.island_id)
 			end)
 
 			return
