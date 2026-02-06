@@ -17744,7 +17744,7 @@ pg.base.skill_data_display = {
 	},
 	[802051] = {
 		id = 802051,
-		name = "炽热装弹"
+		name = "작열의 Ricarica"
 	},
 	[802071] = {
 		id = 802071,

@@ -1926,7 +1926,7 @@ pg.equip_skin_theme_template = {
 	},
 	[109] = {
 		id = 109,
-		name = "失落遗迹",
+		name = "잃어버린 유적",
 		ids = {
 			2113,
 			2114,
