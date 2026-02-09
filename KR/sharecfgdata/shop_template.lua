@@ -54209,8 +54209,9 @@ _G.pg.base.shop_template[70713] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 300,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -54223,32 +54224,6 @@ _G.pg.base.shop_template[70713] = {
 	limit_args = {},
 	effect_args = {
 		301292
-	},
-	time = {
-		{
-			{
-				2025,
-				3,
-				13
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				4,
-				2
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

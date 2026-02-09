@@ -45004,7 +45004,7 @@ _G.pg.base.gametip.equip_enhancement_required = {
 
 
 _G.pg.base.gametip.shop_sell_ended = {
-	tip = "不可购买"
+	tip = "구매 불가"
 }
 
 
