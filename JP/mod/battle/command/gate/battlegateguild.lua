@@ -236,7 +236,7 @@ slot0.GetPreloadList = function(slot0)
 		end
 	end
 
-	slot2 = slot8:buildBattleBuffList()
+	slot2 = slot8:BuildBattleBuffList()
 
 	for slot15, slot16 in ipairs(slot7:GetSubFleet():GetShips()) do
 		if slot16 and slot16.ship then
@@ -253,6 +253,8 @@ slot0.GetPreloadList = function(slot0)
 	for slot17, slot18 in ipairs(slot4.GetCommanderBuffRes(slot2)) do
 		table.insert(slot12, slot18)
 	end
+
+	return slot12, slot13
 end
 
 return slot0

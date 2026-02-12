@@ -1,4 +1,5 @@
 slot0 = class("PacGameMapController")
+slot1 = 3
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._sceneMask = slot1
@@ -47,12 +48,12 @@ slot0.Step = function(slot0, slot1)
 	slot0._deltaTime = slot1
 
 	slot0:udateScoreGrid()
-	slot0:updateReflashTime()
 	slot0:updateRoleLayer()
+	slot0:updateReflashTime()
 end
 
 slot0.updateReflashTime = function(slot0)
-	if slot0._delayReflashScoreTime and slot0._delayReflashScoreTime > 0 then
+	if slot0._delayReflashScoreTime and slot0._delayReflashScoreTime >= 0 then
 		slot0._delayReflashScoreTime = slot0._delayReflashScoreTime - slot0._deltaTime
 
 		if slot0._delayReflashScoreTime <= 0 then
@@ -124,38 +125,62 @@ slot0.reflashGridScore = function(slot0)
 	end
 
 	slot0._activeScoreCount = 0
-	slot1 = slot0._player:GetGridIndex()
 
-	for slot5 = 1, #slot0._grids do
-		slot6 = slot0._grids[slot5]
-		slot7 = slot6:GetIndex()
+	for slot4 = 1, #slot0._grids do
+		slot5 = slot0._grids[slot4]
+		slot6 = slot5:GetIndex()
 
-		if slot6:HasScore() then
-			if not table.contains(slot0._ignoreScore, slot7) then
-				slot6:SetScoreFlag(true)
-
+		if slot5:HasScore() then
+			if not table.contains(slot0._ignoreScore, slot6) then
 				slot0._activeScoreCount = slot0._activeScoreCount + 1
+
+				slot5:SetScoreFlag(true)
 			else
-				slot6:SetScoreFlag(false)
+				slot5:SetScoreFlag(false)
 			end
 		end
 	end
 end
 
 slot0.udateScoreGrid = function(slot0)
-	if slot0._activeScoreCount <= 0 then
-		if not slot0._delayReflashScoreTime then
-			slot0._delayReflashScoreTime = 2
-		end
+	if slot0._activeScoreCount <= 0 and not slot0._delayReflashScoreTime then
+		slot0._delayReflashScoreTime = 2
+	end
 
-		return
+	if slot0._delayCheckReflashCount == nil then
+		slot0._delayCheckReflashCount = 10
+	end
+
+	if slot0._delayCheckReflashCount and not slot0._delayReflashScoreTime then
+		slot0._delayCheckReflashCount = slot0._delayCheckReflashCount - slot0._deltaTime
+
+		if slot0._delayCheckReflashCount <= 0 then
+			slot0._delayCheckReflashCount = nil
+
+			if slot0._gridDic then
+				slot1 = 0
+
+				for slot5, slot6 in pairs(slot0._gridDic) do
+					if slot6 and slot6:GetScoreFlag() then
+						slot1 = slot1 + 1
+					end
+				end
+
+				if slot1 == 0 then
+					warning("吃完所有珠子，准备刷新")
+
+					slot0._delayReflashScoreTime = 2
+				end
+			end
+		end
 	end
 
 	if slot0._gridDic[slot0._player:GetGridIndex()] and slot2:GetScoreFlag() then
-		slot0._event(PacGameScene.GET_SCORE, slot2:GetScore(), nil)
 		slot2:SetScoreFlag(false)
 
 		slot0._activeScoreCount = slot0._activeScoreCount - 1
+
+		slot0._event(PacGameScene.GET_SCORE, slot2:GetScore(), nil)
 	end
 end
 

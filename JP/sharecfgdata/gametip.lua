@@ -47317,7 +47317,7 @@ _G.pg.base.gametip.loveactivity_ui_12 = {
 
 
 _G.pg.base.gametip.loveactivity_ui_13 = {
-	tip = "バレンタインメッセージが開放されました"
+	tip = "バレンタインメッセージ開放"
 }
 
 
@@ -47352,7 +47352,7 @@ _G.pg.base.gametip.loveactivity_ui_19 = {
 
 
 _G.pg.base.gametip.loveactivity_ui_20 = {
-	tip = "累计幸福共鸣等级奖励"
+	tip = "累計思い出Lv報酬"
 }
 
 

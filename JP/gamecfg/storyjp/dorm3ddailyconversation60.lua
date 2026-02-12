@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我骄傲的{dorm3d}，天狼星为您准备好了茶点……唔，是拜托厨房准备。",
+			say = "ご主人様、シリアスがお茶菓子をご用意……いいえ、キッチンで作って参りました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "请趁热享用吧，刚烤出来的饼干是最美味的呢~",
+			say = "どうぞ温かいうちにお召し上がりください。クッキーは焼き立てが一番美味しいですよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星也吃一点？",
+			say = "――シリアスも食べないか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "可、可以吗？要是能品尝到{dorm3d}亲手喂……啊！",
+			say = "い、いいのですか？もしご主人様が手ずから食べさせてくださるなら……あ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "抱、抱歉，我说了失礼的话！",
+			say = "た、大変申し訳ございません！シリアス、僭越なことを……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……非常感谢，我骄傲的{dorm3d}。",
+			say = "……心より感謝いたします、誇らしきご主人様",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
