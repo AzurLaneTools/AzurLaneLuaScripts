@@ -36865,7 +36865,7 @@ pg.activity_template = {
 			passed = "BossRushSardiniaPassedLayer",
 			result = "BossRushSardiniaEXBattleResultLayer",
 			endStory = "GUANGYINGFENGSHANG10",
-			entrance_bg = "activitybanner/temp10",
+			entrance_bg = "activitybanner/temp18",
 			tasks = {
 				24963
 			},
