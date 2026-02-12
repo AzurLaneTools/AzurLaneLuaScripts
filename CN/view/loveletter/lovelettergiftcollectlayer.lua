@@ -132,7 +132,7 @@ slot0.InitGift = function(slot0)
 	end)
 	slot0.tempList = underscore(slot0.yearDic):chain():keys():sort():value()
 
-	assert(#slot0.giftItemList == #slot0.tempList)
+	assert(#slot0.giftItemList <= #slot0.tempList)
 end
 
 slot0.ConfirmItem = function(slot0, slot1, slot2)

@@ -202,6 +202,12 @@ slot0.OnDestroy = function(slot0)
 		slot0.changeView = nil
 	end
 
+	if slot0.asmrChatView then
+		slot0.asmrChatView:Dispose()
+
+		slot0.asmrChatView = nil
+	end
+
 	pg.redDotHelper:Clear()
 end
 

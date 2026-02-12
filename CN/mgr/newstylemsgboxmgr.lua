@@ -488,14 +488,14 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 			slot6:setDefaultNum(slot0.defaultNum or 1)
 		end,
 		[uv0.TYPE_LOVE_LETTER_LEVEL_REWARD] = function (slot0)
+			setText(uv0._tf:Find("window/top/title"), i18n("loveactivity_ui_20"))
+
 			slot1 = getProxy(LoveLetterProxy)
 			slot2 = slot1:GetAllLevel()
-			slot4 = uv0.lover_reward.all
-			slot5 = slot1:GetAllLevelNextAwardIndex() or #uv0.lover_reward.all
 			slot4 = slot1:GetAllLevelRewardMarkDic()
-			slot5 = uv1._tf:Find("window/middle/view/content")
+			slot5 = uv0._tf:Find("window/middle/view/content")
 
-			UIItemList.StaticAlign(slot5, slot5:Find("tpl"), math.max(#underscore.first(slot4, slot5), 3), function (slot0, slot1, slot2)
+			UIItemList.StaticAlign(slot5, slot5:Find("tpl"), math.max(#underscore.first(uv1.lover_reward.all, slot1:GetAllLevelAwardDisplayIndex()), 3), function (slot0, slot1, slot2)
 				slot1 = slot1 + 1
 
 				if slot0 == UIItemList.EventUpdate then

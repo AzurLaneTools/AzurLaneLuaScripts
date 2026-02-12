@@ -21,7 +21,6 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		end
 
 		setActive(uv0._tf, true)
-		print("start Time" .. slot1 + slot2)
 
 		uv0._chatTimer = Timer.New(function ()
 			if uv0._chatTimer then
@@ -62,6 +61,10 @@ slot0.SetVisible = function(slot0, slot1)
 		setText(slot0._textTF, "")
 		setActive(slot0._tf, slot1)
 	end
+end
+
+slot0.Dispose = function(slot0)
+	uv0.super.Dispose(slot0)
 end
 
 return slot0
