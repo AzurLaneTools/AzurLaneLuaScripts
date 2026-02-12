@@ -1958,9 +1958,16 @@ pg.skill_data_display = setmetatable({
 		152051,
 		152052,
 		152054,
+		152092,
+		152121,
+		152122,
+		152130,
+		152131,
+		152132,
 		151963,
 		151964,
 		151971,
+		151981,
 		18010,
 		18040,
 		18041,
@@ -11750,6 +11757,30 @@ pg.base.skill_data_display = {
 		id = 152054,
 		name = "Ti Sfido!"
 	},
+	[152092] = {
+		id = 152092,
+		name = "Brilliance Through Refinement"
+	},
+	[152121] = {
+		id = 152121,
+		name = "Dazzling Fan Dance"
+	},
+	[152122] = {
+		id = 152122,
+		name = "Dazzling Fan Dance"
+	},
+	[152130] = {
+		id = 152130,
+		name = "Serpentine Brushstrokes"
+	},
+	[152131] = {
+		id = 152131,
+		name = "Serpentine Brushstrokes"
+	},
+	[152132] = {
+		id = 152132,
+		name = "Serpentine Brushstrokes"
+	},
 	[151963] = {
 		id = 151963,
 		name = "Trend Setter"
@@ -11761,6 +11792,10 @@ pg.base.skill_data_display = {
 	[151971] = {
 		id = 151971,
 		name = "Attention Getter"
+	},
+	[151981] = {
+		id = 151981,
+		name = "Stoic Nepenthe"
 	},
 	[18010] = {
 		id = 18010,

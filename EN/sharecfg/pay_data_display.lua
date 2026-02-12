@@ -83,6 +83,8 @@ pg.pay_data_display = setmetatable({
 		9008,
 		9009,
 		9010,
+		9011,
+		9012,
 		100,
 		101,
 		102,
@@ -10099,6 +10101,274 @@ pg.base.pay_data_display = {
 			{
 				2,
 				86209,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[9011] = {
+		picture = "fudai32",
+		name = "Spring Lucky Box 2026 A",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains 1 random skin, 2026 Gems, and supplies.",
+		subject = "Spring Lucky Box 2026 A",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag79",
+		extra_gem = 0,
+		id = 9011,
+		airijp_id = "com.yostaren.azurlane.luckybag79",
+		name_display = "Spring Lucky Box 2026 A",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86224,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86224,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81232,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86224,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9012] = {
+		picture = "fudai21",
+		name = "Spring Lucky Bag 2025 A Rerun",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains 1 random skin, 2025 Gems, and supplies.",
+		subject = "Spring Lucky Bag 2025 A Rerun",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag80",
+		extra_gem = 0,
+		id = 9012,
+		airijp_id = "com.yostaren.azurlane.luckybag80",
+		name_display = "Spring Lucky Bag 2025 A Rerun",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86210,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81210,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86210,
 				1
 			},
 			{

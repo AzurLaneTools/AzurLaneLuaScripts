@@ -31,8 +31,8 @@ slot0.Ctor = function(slot0, slot1)
 		[uv10] = IslandObjectPoolSet.New(slot1, 3, 1),
 		[uv11] = IslandObjectPoolSet.New(slot1, 4, 1),
 		[uv12] = IslandObjectPoolSet.New(slot1, 6, 2),
-		[uv13] = IslandAssetPoolSet.New(slot1, 5, 2),
-		[uv14] = IslandAssetPoolSet.New(slot1, 5, 2),
+		[uv13] = IslandPublicAssetPoolSet.New(slot1, 5, 2),
+		[uv14] = IslandPublicAssetPoolSet.New(slot1, 5, 2),
 		[uv15] = IslandBtAssetPoolSet.New(slot1, 5, 2)
 	}
 	slot0.loadingIdList = {}
@@ -400,10 +400,10 @@ slot0.LoadAnimator = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = IslandAssetLoadDispatcher.Instance
 
 	table.insert(slot0.loadingIdList, slot5:Enqueue(slot3, "", typeof(RuntimeAnimatorController), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		GetOrAddComponent(uv0.transform, typeof(Animator)).runtimeAnimatorController = Object.Instantiate(slot0)
+		GetOrAddComponent(uv0.transform, typeof(Animator)).runtimeAnimatorController = slot0
 		uv1 = uv1 or "idle"
 
-		slot2:Play(uv1, 4)
+		slot1:Play(uv1, 4)
 		uv2()
 	end), true, true))
 end

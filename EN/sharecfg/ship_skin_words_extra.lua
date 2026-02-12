@@ -386,7 +386,12 @@ pg.ship_skin_words_extra = setmetatable({
 		601120,
 		602040,
 		303110,
-		105200
+		105200,
+		503020,
+		502120,
+		499020,
+		307080,
+		407010
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4125,7 +4130,6 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[502050] = {
-		touch = "",
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -4138,13 +4142,18 @@ pg.base.ship_skin_words_extra = {
 		feeling4 = "",
 		hp_warning = "",
 		profile = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
 		login = {
 			{
 				1100,
 				"What took you so long?! Are you trying to make me worry on purpose, you dolt..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hmph. Fine, I'll let you touch me, but you better be grateful."
 			}
 		},
 		detail = {
@@ -4163,6 +4172,12 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Mm, fish and chips~♪ Even the Royal Navy has some pretty good food~"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hyah?! I-I know you and I do this stuff all the time, but it's still so embarrassing!"
 			}
 		},
 		mission = {
@@ -27228,6 +27243,326 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Your hug is warmer than a bedsheet left to dry in the sun... Just keep holdin' me like this. You like it too, don't you?"
+			}
+		}
+	},
+	[503020] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 503020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Beautiful jade has spiritual properties because of the care given to it by its keeper. Commander, by watching you each day... one could say that I'm nurturing jade, too."
+			}
+		},
+		home = {
+			{
+				1100,
+				"So you've returned. My fingertips felt cold before, but your embrace has warmed me..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Your warmth... is more reassuring than the finest jade."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, the most important part of learning jade carving is to calm the mind. Follow my guidance and feel the rhythm in your body... Yes, very good..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I carved a new piece of warm jade. Would you like to see? Good... You can take a closer look, you know...|I don't mind if you just sit there. That alone... is the most beautiful view of all, in my eyes.|Jade must be touched to be truly transformed... Commander, will you give me the same attention?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Won't you... stay by me just a little longer?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Mm... You won't find any jade there..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, look at the pendant I made for you... When carving it, I could think of nothing but your face. I traced every curve with my palm over and over, poring over every last detail... Do you think I'm, um... shameless... For being so honest with you?"
+			}
+		}
+	},
+	[502120] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 502120,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Trying to decipher your scent is unexpectedly fun. When you're strong, you're as steadfast and alluring as a cedar, and when you're gentle, you're like a vetiver... Even though I know you so intimately, you still surprise me with these new scents."
+			}
+		},
+		home = {
+			{
+				1100,
+				"*sniff sniff*... The smell of gunpowder smoke, the sea, and fatigue... Relax. Soon you will only smell my scent."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"I've mixed a new aroma that makes one crave a hug. Care to try it?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Even through my silken mask, I can clearly discern the smell of your breath. It's a piercingly clear smell, like hoarfrost...|Come closer, Commander. Your emotions emit different scents... For instance, this sense of confusion – it's utterly delectable.|I used ambergris saved for a special occasion in my latest perfume. Come close and smell it for yourself. I'm curious to see how long its lingering smell will stay on you...♡"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You can't be without me anymore, Commander♥"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Mmh... It's getting sweeter and deeper... Heehee – the scent on your fingertips, I mean♡"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I've at last obtained the scent I've been dreaming of... This perfume, based on the theme of love, was made with your odor as the foundation♪"
+			}
+		}
+	},
+	[499020] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 499020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Let's begin the prelude to this new day together."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Flowers, music, and an embrace... Does this triumph satisfy you, my child?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"In great music, logic and passion must complement one another... Which part do you prefer, my sweet child?|Be more self-indulgent with me, if you'd like. I save rage for my enemies alone.|Wealth and youth are both enticing, yes, but they are both fleeting, if elegant, illusions... My child, you are my one and only priceless treasure."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"What troubles you, my child? Do you need some love?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Heehee... You're getting better at this. You pluck exactly the right strings to bring me pleasure..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Is this enough to satisfy you? Heehee, I thought not... Share with me all of your little whims and desires. My bosom welcomes all of them..."
+			}
+		}
+	},
+	[307080] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 307080,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Only by experiencing love can one know its sorrows... This one misses you so."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Warmth rests on this one's palm... Have you returned? This one is delighted..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Th-that spot is... sensitive... Mmmnh..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"All good things are fleeting... However, every moment spent with you is as a thousand autumns...|If you grow weary, rest in this one's arms, and we may drift off to dreams together...|This one is becoming proficient at the tasks you've assigned... With you, I can overcome any difficulty."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Mm... May this one hold you and sleep a while longer? Zzzz..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Nnh... May this sweet, gentle dream never end..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Now that we have come so far, even fate cannot part us... This one can truly walk hand in hand with you. One could not ask for more..."
+			}
+		}
+	},
+	[407010] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 407010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Listen – the bell's peal heralds the coming of the End. If you wish to close your eyes and hide in my arms, then I will allow it."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Though we're ever beneath the shadow of the End, never forget... that all you do has meaning."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Are you trying to offer me comfort? Very well... It is better than nothing."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"If you, too, harbor the ambition to slay gods... then let me accompany you. Divine though they may be, they're no match for us."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You and I both occupy high stations. Do you enjoy looking down at things from above like I do? Heh, that's another thing we agree on.|Sometimes, what's lost is gone forever. We must treasure what we still have.|This world is only another chessboard waiting for the end of its game. But if you're the one moving the pieces, then I will gladly face the End alongside you."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"The darkest night comes before the brightest dawn."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Your audaciousness always exceeds my expectations... not that I mind that."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You once told me that the End would lead to new beginnings. To be honest, I still don't understand what these new beginnings may be. But if you are by my side, then I am ready to witness them... and to lend a hand."
 			}
 		}
 	}

@@ -1720,6 +1720,30 @@ pg.equip_skin_theme_template = {
 			4293
 		}
 	},
+	[80] = {
+		id = 80,
+		name = "Spring Festival Auction",
+		ids = {
+			4294,
+			4295,
+			4296,
+			4297,
+			4298,
+			4299,
+			4300,
+			4301,
+			4302,
+			4303,
+			4304,
+			4305,
+			4306,
+			4307,
+			4308,
+			4309,
+			4310,
+			4311
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -1963,7 +1987,8 @@ pg.equip_skin_theme_template = {
 			3065,
 			3066,
 			3067,
-			3068
+			3068,
+			3069
 		}
 	},
 	all = {
@@ -2043,6 +2068,7 @@ pg.equip_skin_theme_template = {
 		77,
 		78,
 		79,
+		80,
 		101,
 		102,
 		103,

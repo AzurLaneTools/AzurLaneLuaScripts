@@ -224,4 +224,37 @@ slot0.GeneralPackage = function(slot0, slot1)
 	}
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = nil
+	slot4 = ys.Battle.BattleResourceManager.GetInstance()
+
+	for slot13, slot14 in ipairs(getProxy(GuildProxy):getRawData():GetActiveEvent():GetBossMission():GetMainFleet():GetShips()) do
+		if slot14 and slot14.ship then
+			table.insert(slot1, slot14.ship)
+		end
+	end
+
+	slot2 = slot8:BuildBattleBuffList()
+
+	for slot15, slot16 in ipairs(slot7:GetSubFleet():GetShips()) do
+		if slot16 and slot16.ship then
+			table.insert(slot1, slot16.ship)
+		end
+	end
+
+	for slot15, slot16 in ipairs(slot10:BuildBattleBuffList()) do
+		table.insert(slot2, slot16)
+	end
+
+	slot12, slot13 = slot4.GetPlayerShipResource(slot1, slot0.system)
+
+	for slot17, slot18 in ipairs(slot4.GetCommanderBuffRes(slot2)) do
+		table.insert(slot12, slot18)
+	end
+
+	return slot12, slot13
+end
+
 return slot0

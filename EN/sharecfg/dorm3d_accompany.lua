@@ -44,6 +44,30 @@ pg.dorm3d_accompany = {
 			20220
 		}
 	},
+	{
+		sceneInfo = "map_publiccafe_01|Publiccafe",
+		name = "休闲相伴",
+		performance_time = 20,
+		image = "cafe_accompany",
+		ship_id = 20220,
+		resource_room = 16,
+		timeline = "Xiangban_cafe_20220",
+		id = 3,
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {
+			5,
+			16,
+			20220
+		}
+	},
 	[21] = {
 		sceneInfo = "map_noshirohostel_01|Nengdai_DB/NoshiroHostel",
 		name = "日常相伴",
@@ -267,7 +291,8 @@ pg.dorm3d_accompany = {
 	get_id_list_by_ship_id = {
 		[20220] = {
 			1,
-			2
+			2,
+			3
 		},
 		[30221] = {
 			21,
@@ -293,6 +318,7 @@ pg.dorm3d_accompany = {
 	all = {
 		1,
 		2,
+		3,
 		21,
 		22,
 		31,

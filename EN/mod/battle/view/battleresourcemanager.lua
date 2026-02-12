@@ -846,6 +846,95 @@ slot5.GetShipResource = function(slot0, slot1, slot2)
 	return slot3
 end
 
+slot5.GetPlayerShipResource = function(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+	slot4 = nil
+
+	for slot8, slot9 in ipairs(slot0) do
+		table.insert(slot3, slot9.skinId)
+
+		slot14 = true
+
+		for slot14, slot15 in pairs(uv0.GetShipResource(slot9.configId, slot9.skinId, slot14)) do
+			table.insert(slot2, slot15)
+		end
+
+		slot11 = uv1.GetPlayerShipTmpDataFromID(slot10)
+
+		for slot15, slot16 in ipairs(slot9:getActiveEquipments()) do
+			slot17, slot18 = nil
+			slot19 = 0
+
+			if not slot16 then
+				slot17 = slot11.default_equip_list[slot15]
+			else
+				slot17 = slot16.configId
+				slot19 = slot16.skinId
+			end
+
+			if slot17 then
+				if #uv1.GetWeaponDataFromID(slot17).weapon_id > 0 then
+					for slot24, slot25 in ipairs(slot20) do
+						for slot29, slot30 in pairs(uv0.GetWeaponResource(slot25, slot19)) do
+							table.insert(slot2, slot30)
+						end
+					end
+				else
+					slot24 = slot1
+
+					for slot24, slot25 in pairs(uv0.GetEquipResource(slot17, slot19, slot24)) do
+						table.insert(slot2, slot25)
+					end
+				end
+			end
+		end
+
+		slot12 = {}
+
+		for slot16, slot17 in ipairs(slot11.depth_charge_list) do
+			for slot22, slot23 in ipairs(uv1.GetWeaponDataFromID(slot17).weapon_id) do
+				table.insert(slot12, slot23)
+			end
+		end
+
+		for slot16, slot17 in ipairs(slot11.fix_equip_list) do
+			for slot22, slot23 in ipairs(uv1.GetWeaponDataFromID(slot17).weapon_id) do
+				table.insert(slot12, slot23)
+			end
+		end
+
+		for slot16, slot17 in ipairs(slot12) do
+			for slot21, slot22 in pairs(uv0.GetWeaponResource(slot17)) do
+				table.insert(slot2, slot22)
+			end
+		end
+
+		if slot9.GetSpWeapon and slot9:GetSpWeapon() then
+			for slot17, slot18 in pairs(uv0.GetSpWeaponResource(slot13:GetConfigID(), slot1)) do
+				table.insert(slot2, slot18)
+			end
+		end
+
+		slot17 = slot1
+		slot18 = slot9.skinId
+
+		for slot17, slot18 in pairs(uv1.GetBuffBulletRes(slot10, slot9.skills, slot17, slot18)) do
+			table.insert(slot2, slot18)
+		end
+
+		if slot9.buffs then
+			slot17 = slot9.skinId
+
+			for slot17, slot18 in pairs(uv1.GetBuffListRes(slot9.buffs, slot1, slot17)) do
+				table.insert(slot2, slot18)
+			end
+		end
+	end
+
+	return slot2, slot3
+end
+
 slot5.GetEnemyResource = function(slot0)
 	slot1 = {}
 	slot3 = slot0.bossData ~= nil
@@ -1102,6 +1191,18 @@ slot5.GetAircraftResource = function(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
+slot5.GetCommanderBuffRes = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0) do
+		for slot11, slot12 in ipairs(uv0.GetCommanderResource(slot6)) do
+			table.insert(slot1, slot12)
+		end
+	end
+
+	return slot1
+end
+
 slot5.GetCommanderResource = function(slot0)
 	slot1 = {}
 	slot2 = slot0[1]
@@ -1112,6 +1213,30 @@ slot5.GetCommanderResource = function(slot0)
 	for slot7, slot8 in ipairs(slot0[2]) do
 		for slot13, slot14 in ipairs(uv1.Battle.BattleDataFunction.GetResFromBuff(slot8, slot3, {})) do
 			slot1[#slot1 + 1] = slot14
+		end
+	end
+
+	return slot1
+end
+
+slot5.GetResFromBuffIDList = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0) do
+		for slot11, slot12 in ipairs(uv0.GetResFromBuff(slot6, 1, {})) do
+			table.insert(slot1, slot12)
+		end
+	end
+
+	return slot1
+end
+
+slot5.GetResFromBuffList = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0) do
+		for slot11, slot12 in ipairs(uv0.GetResFromBuff(slot6.id, slot6.level, {})) do
+			table.insert(slot1, slot12)
 		end
 	end
 

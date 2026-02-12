@@ -6,6 +6,7 @@ slot0.TEC_PAGE_CATCHUP_TARGET3 = 4
 slot0.TEC_PAGE_CATCHUP_TARGET4 = 5
 slot0.TEC_PAGE_CATCHUP_TARGET5 = 6
 slot0.TEC_PAGE_CATCHUP_TARGET6 = 7
+slot0.TEC_PAGE_CATCHUP_TARGET7 = 8
 slot0.TEC_PAGE_CATCHUP_ACT = 99
 slot0.PANEL_INTO_TIME = 0.15
 slot0.SELECT_TENDENCY_FADE_TIME = 0.3
@@ -16,9 +17,10 @@ slot0.CATCHUP_CLASSES = {
 	import("view.technology.TargetCatchup.TargetCatchupPanel3"),
 	import("view.technology.TargetCatchup.TargetCatchupPanel4"),
 	import("view.technology.TargetCatchup.TargetCatchupPanel5"),
-	import("view.technology.TargetCatchup.TargetCatchupPanel6")
+	import("view.technology.TargetCatchup.TargetCatchupPanel6"),
+	import("view.technology.TargetCatchup.TargetCatchupPanel7")
 }
-slot0.CATCHUP_VERSION = 6
+slot0.CATCHUP_VERSION = 7
 
 slot0.getUIName = function(slot0)
 	return "TechnologySettingsUI"

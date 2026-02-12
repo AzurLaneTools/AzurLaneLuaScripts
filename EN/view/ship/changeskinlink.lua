@@ -33,6 +33,35 @@ slot0.GetSaveL2dData = function(slot0, slot1)
 end
 
 slot0.CHANGE_SKIN_LINK_DATA = {
+	[499024] = {
+		link_id = 499023,
+		type = slot0.SPINE_TYPE,
+		link_type = slot0.L2D_TYPE,
+		relations = {
+			{
+				skeleton_skin = "1",
+				type = slot0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						num = 0,
+						name = "touch_drag1",
+						match = true
+					}
+				}
+			},
+			{
+				skeleton_skin = "2",
+				type = slot0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						num = 1,
+						name = "touch_drag1",
+						match = true
+					}
+				}
+			}
+		}
+	},
 	[107103] = {
 		link_id = 107102,
 		type = slot0.SPINE_TYPE,

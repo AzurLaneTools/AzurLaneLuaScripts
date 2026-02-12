@@ -1169,5 +1169,20 @@ pg.activity_const = {
 	},
 	HelenaPT_ACT_ID = {
 		act_id = 50261
+	},
+	HorseYearSpringFestival2026_ID_1 = {
+		act_id = 50419
+	},
+	HorseYearSpringFestival2026_ID_2 = {
+		act_id = 50420
+	},
+	HorseYearSpringFestival2026_ID_3 = {
+		act_id = 50421
+	},
+	HorseYearSpringFestival2026_ID_4 = {
+		act_id = 50422
+	},
+	LOVE_LETTER_LOGIN_ID = {
+		act_id = 50401
 	}
 }

@@ -1,5 +1,355 @@
 pg = pg or {}
 pg.enemy_data_statistics_392 = {
+	[295271] = {
+		cannon = 78,
+		name = "Kawakaze META (Tier.1)",
+		torpedo = 121,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 25,
+		id = 295271,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91099,
+		durability = 54000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 101,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2981000,
+			2981001,
+			2981005
+		},
+		buff_list = {
+			{
+				ID = 201420,
+				LV = 1
+			},
+			{
+				ID = 201425,
+				LV = 1
+			},
+			{
+				ID = 201428,
+				LV = 1
+			}
+		}
+	},
+	[295272] = {
+		cannon = 89,
+		name = "Kawakaze META (Tier.2)",
+		torpedo = 139,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 28,
+		id = 295272,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91099,
+		durability = 58000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 116,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2981000,
+			2981001,
+			2981005
+		},
+		buff_list = {
+			{
+				ID = 201420,
+				LV = 1
+			},
+			{
+				ID = 201425,
+				LV = 1
+			},
+			{
+				ID = 201429,
+				LV = 1
+			}
+		}
+	},
+	[295273] = {
+		cannon = 100,
+		name = "Kawakaze META (Tier.3)",
+		torpedo = 156,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 32,
+		id = 295273,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91099,
+		durability = 62000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 130,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2981000,
+			2981001,
+			2981005
+		},
+		buff_list = {
+			{
+				ID = 201420,
+				LV = 1
+			},
+			{
+				ID = 201425,
+				LV = 1
+			},
+			{
+				ID = 201430,
+				LV = 1
+			}
+		}
+	},
+	[295274] = {
+		cannon = 111,
+		name = "Kawakaze META (Tier.4)",
+		torpedo = 173,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 35,
+		id = 295274,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91099,
+		durability = 75000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 145,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2981000,
+			2981001,
+			2981006
+		},
+		buff_list = {
+			{
+				ID = 201420,
+				LV = 1
+			},
+			{
+				ID = 201425,
+				LV = 1
+			},
+			{
+				ID = 201431,
+				LV = 1
+			}
+		}
+	},
+	[295275] = {
+		cannon = 123,
+		name = "Kawakaze META (Tier.5)",
+		torpedo = 191,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 39,
+		id = 295275,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91099,
+		durability = 118000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 159,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2981000,
+			2981001,
+			2981006
+		},
+		buff_list = {
+			{
+				ID = 201420,
+				LV = 1
+			},
+			{
+				ID = 201425,
+				LV = 1
+			},
+			{
+				ID = 201432,
+				LV = 1
+			}
+		}
+	},
+	[295276] = {
+		cannon = 134,
+		name = "Kawakaze META (Tier.6)",
+		torpedo = 208,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 42,
+		id = 295276,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91099,
+		durability = 162000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 174,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2981000,
+			2981001,
+			2981006
+		},
+		buff_list = {
+			{
+				ID = 201420,
+				LV = 1
+			},
+			{
+				ID = 201425,
+				LV = 1
+			},
+			{
+				ID = 201433,
+				LV = 1
+			}
+		}
+	},
+	[295277] = {
+		cannon = 145,
+		name = "Kawakaze META (Tier.7)",
+		torpedo = 225,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 46,
+		id = 295277,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91099,
+		durability = 248000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 188,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2981000,
+			2981001,
+			2981007
+		},
+		buff_list = {
+			{
+				ID = 201420,
+				LV = 1
+			},
+			{
+				ID = 201425,
+				LV = 1
+			},
+			{
+				ID = 201434,
+				LV = 1
+			}
+		}
+	},
 	[295278] = {
 		cannon = 156,
 		name = "Kawakaze META (Tier.8)",
@@ -1106,349 +1456,6 @@ pg.enemy_data_statistics_392 = {
 			{
 				ID = 201634,
 				LV = 3
-			},
-			{
-				ID = 200280,
-				LV = 1
-			},
-			{
-				ID = 201637,
-				LV = 1
-			}
-		}
-	},
-	[295304] = {
-		cannon = 111,
-		name = "Yorktown META (Tier.4)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 234,
-		reload = 150,
-		armor = 0,
-		dodge = 35,
-		id = 295304,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 50,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91177,
-		durability = 70000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 166,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2983001,
-			2983006
-		},
-		buff_list = {
-			{
-				ID = 201634,
-				LV = 4
-			},
-			{
-				ID = 200280,
-				LV = 1
-			},
-			{
-				ID = 201637,
-				LV = 1
-			}
-		}
-	},
-	[295305] = {
-		cannon = 123,
-		name = "Yorktown META (Tier.5)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 257,
-		reload = 150,
-		armor = 0,
-		dodge = 39,
-		id = 295305,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 55,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91177,
-		durability = 111000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 183,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2983001,
-			2983006
-		},
-		buff_list = {
-			{
-				ID = 201634,
-				LV = 5
-			},
-			{
-				ID = 200280,
-				LV = 1
-			},
-			{
-				ID = 201637,
-				LV = 1
-			}
-		}
-	},
-	[295306] = {
-		cannon = 134,
-		name = "Yorktown META (Tier.6)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 281,
-		reload = 150,
-		armor = 0,
-		dodge = 42,
-		id = 295306,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 60,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91177,
-		durability = 152000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 200,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2983001,
-			2983006
-		},
-		buff_list = {
-			{
-				ID = 201634,
-				LV = 6
-			},
-			{
-				ID = 200280,
-				LV = 1
-			},
-			{
-				ID = 201637,
-				LV = 1
-			}
-		}
-	},
-	[295307] = {
-		cannon = 145,
-		name = "Yorktown META (Tier.7)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 304,
-		reload = 150,
-		armor = 0,
-		dodge = 46,
-		id = 295307,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 65,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91177,
-		durability = 233000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 216,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2983002,
-			2983007
-		},
-		buff_list = {
-			{
-				ID = 201634,
-				LV = 7
-			},
-			{
-				ID = 200280,
-				LV = 1
-			},
-			{
-				ID = 201637,
-				LV = 1
-			}
-		}
-	},
-	[295308] = {
-		cannon = 156,
-		name = "Yorktown META (Tier.8)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 328,
-		reload = 150,
-		armor = 0,
-		dodge = 50,
-		id = 295308,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91177,
-		durability = 314000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 233,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2983002,
-			2983007
-		},
-		buff_list = {
-			{
-				ID = 201634,
-				LV = 8
-			},
-			{
-				ID = 200280,
-				LV = 1
-			},
-			{
-				ID = 201637,
-				LV = 1
-			}
-		}
-	},
-	[295309] = {
-		cannon = 167,
-		name = "Yorktown META (Tier.9)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 351,
-		reload = 150,
-		armor = 0,
-		dodge = 53,
-		id = 295309,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 75,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91177,
-		durability = 395000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 250,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2983002,
-			2983007
-		},
-		buff_list = {
-			{
-				ID = 201634,
-				LV = 9
-			},
-			{
-				ID = 200280,
-				LV = 1
-			},
-			{
-				ID = 201637,
-				LV = 1
-			}
-		}
-	},
-	[295310] = {
-		cannon = 179,
-		name = "Yorktown META (Tier.10)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 374,
-		reload = 150,
-		armor = 0,
-		dodge = 57,
-		id = 295310,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 80,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91177,
-		durability = 486000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 266,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2983003,
-			2983008
-		},
-		buff_list = {
-			{
-				ID = 201634,
-				LV = 10
 			},
 			{
 				ID = 200280,

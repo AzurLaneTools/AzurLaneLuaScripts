@@ -674,7 +674,8 @@ pg.dorm3d_rooms = {
 		character_pay = {
 			10517,
 			30707,
-			49905
+			49905,
+			20220
 		},
 		character_welcome = {
 			{
@@ -687,6 +688,10 @@ pg.dorm3d_rooms = {
 			},
 			{
 				49905,
+				0
+			},
+			{
+				20220,
 				0
 			}
 		},
@@ -713,6 +718,10 @@ pg.dorm3d_rooms = {
 			{
 				49905,
 				"aijier"
+			},
+			{
+				20220,
+				"tianlangxing"
 			}
 		},
 		furniture_zones = {},
@@ -729,6 +738,10 @@ pg.dorm3d_rooms = {
 			{
 				49905,
 				270115
+			},
+			{
+				20220,
+				270116
 			}
 		},
 		invite_banner = {
@@ -749,6 +762,12 @@ pg.dorm3d_rooms = {
 				{
 					"banner_cafe3"
 				}
+			},
+			{
+				20220,
+				{
+					"banner_cafe4"
+				}
 			}
 		},
 		invite_icon = {
@@ -762,6 +781,10 @@ pg.dorm3d_rooms = {
 			},
 			{
 				49905,
+				"dorm3dicon/3Ddrom_invitation"
+			},
+			{
+				20220,
 				"dorm3dicon/3Ddrom_invitation"
 			}
 		},
@@ -784,6 +807,14 @@ pg.dorm3d_rooms = {
 			},
 			{
 				49905,
+				{
+					1,
+					5,
+					6
+				}
+			},
+			{
+				20220,
 				{
 					1,
 					5,
@@ -820,6 +851,16 @@ pg.dorm3d_rooms = {
 					16013,
 					16014,
 					16015
+				}
+			},
+			{
+				20220,
+				{
+					16016,
+					16017,
+					16018,
+					16019,
+					16020
 				}
 			}
 		}

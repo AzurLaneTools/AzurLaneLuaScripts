@@ -106,8 +106,8 @@ slot0.SetAction = function(slot0, slot1, slot2)
 end
 
 slot0.SetActionOnce = function(slot0, slot1, slot2, slot3, slot4)
-	slot0:SetActionCallback(nil)
-	slot0:SetActionCallback(function (slot0)
+	slot0:SetActionCallBack(nil)
+	slot0:SetActionCallBack(function (slot0)
 		if slot0 == "action" then
 			if uv0 then
 				uv0()

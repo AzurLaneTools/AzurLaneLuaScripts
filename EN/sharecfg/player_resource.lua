@@ -2285,6 +2285,16 @@ pg.player_resource = {
 		name = "commission_pt5",
 		itemid = 65821
 	},
+	[622] = {
+		id = 622,
+		name = "spring_fes_firework20260212",
+		itemid = 65846
+	},
+	[623] = {
+		id = 623,
+		name = "chunjie_pt6",
+		itemid = 65830
+	},
 	[624] = {
 		id = 624,
 		name = "skinTicket107",
@@ -2303,17 +2313,27 @@ pg.player_resource = {
 	[627] = {
 		id = 627,
 		name = "limit_skinticket64",
-		itemid = 68196
+		itemid = 68205
 	},
 	[628] = {
 		id = 628,
 		name = "limit_skinticket65",
-		itemid = 68197
+		itemid = 68206
 	},
 	[629] = {
 		id = 629,
 		name = "limit_skinticket66",
-		itemid = 68198
+		itemid = 68207
+	},
+	[630] = {
+		id = 630,
+		name = "skinTicket108",
+		itemid = 65825
+	},
+	[631] = {
+		id = 631,
+		name = "activity_xunzhang14",
+		itemid = 65848
 	},
 	[950] = {
 		id = 950,
@@ -2469,6 +2489,16 @@ pg.player_resource = {
 		id = 2023,
 		name = "worldboss250116_ticket",
 		itemid = 60488
+	},
+	[2024] = {
+		id = 2024,
+		name = "contribution_worldboss260212",
+		itemid = 65831
+	},
+	[2025] = {
+		id = 2025,
+		name = "worldboss260212_ticket",
+		itemid = 65832
 	},
 	[3000] = {
 		id = 3000,
@@ -4272,6 +4302,12 @@ pg.player_resource = {
 		commission_pt5 = {
 			621
 		},
+		spring_fes_firework20260212 = {
+			622
+		},
+		chunjie_pt6 = {
+			623
+		},
 		skinTicket107 = {
 			624
 		},
@@ -4289,6 +4325,12 @@ pg.player_resource = {
 		},
 		limit_skinticket66 = {
 			629
+		},
+		skinTicket108 = {
+			630
+		},
+		activity_xunzhang14 = {
+			631
 		},
 		yisegefuke_pt1 = {
 			950
@@ -4382,6 +4424,12 @@ pg.player_resource = {
 		},
 		worldboss250116_ticket = {
 			2023
+		},
+		contribution_worldboss260212 = {
+			2024
+		},
+		worldboss260212_ticket = {
+			2025
 		},
 		guild_boss_damage = {
 			3000
@@ -5100,12 +5148,16 @@ pg.player_resource = {
 		619,
 		620,
 		621,
+		622,
+		623,
 		624,
 		625,
 		626,
 		627,
 		628,
 		629,
+		630,
+		631,
 		950,
 		951,
 		952,
@@ -5137,6 +5189,8 @@ pg.player_resource = {
 		2021,
 		2022,
 		2023,
+		2024,
+		2025,
 		3000,
 		3001,
 		3002,

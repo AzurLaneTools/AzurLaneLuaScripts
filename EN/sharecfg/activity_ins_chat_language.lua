@@ -7962,7 +7962,203 @@ pg.activity_ins_chat_language = setmetatable({
 		7959,
 		7960,
 		7961,
-		7962
+		7962,
+		7963,
+		7964,
+		7965,
+		7966,
+		7967,
+		7968,
+		7969,
+		7970,
+		7971,
+		7972,
+		7973,
+		7974,
+		7975,
+		7976,
+		7977,
+		7978,
+		7979,
+		7980,
+		7981,
+		7982,
+		7983,
+		7984,
+		7985,
+		7986,
+		7987,
+		7988,
+		7989,
+		7990,
+		7991,
+		7992,
+		7993,
+		7994,
+		7995,
+		7996,
+		7997,
+		7998,
+		7999,
+		8000,
+		8001,
+		8002,
+		8003,
+		8004,
+		8005,
+		8006,
+		8007,
+		8008,
+		8009,
+		8010,
+		8011,
+		8012,
+		8013,
+		8014,
+		8015,
+		8016,
+		8017,
+		8018,
+		8019,
+		8020,
+		8021,
+		8022,
+		8023,
+		8024,
+		8025,
+		8026,
+		8027,
+		8028,
+		8029,
+		8030,
+		8031,
+		8032,
+		8033,
+		8034,
+		8035,
+		8036,
+		8037,
+		8038,
+		8039,
+		8040,
+		8041,
+		8042,
+		8043,
+		8044,
+		8045,
+		8046,
+		8047,
+		8048,
+		8049,
+		8050,
+		8051,
+		8052,
+		8053,
+		8054,
+		8055,
+		8056,
+		8057,
+		8058,
+		8059,
+		8060,
+		8061,
+		8062,
+		8063,
+		8064,
+		8065,
+		8066,
+		8067,
+		8068,
+		8069,
+		8070,
+		8071,
+		8072,
+		8073,
+		8074,
+		8075,
+		8076,
+		8077,
+		8078,
+		8079,
+		8080,
+		8081,
+		8082,
+		8083,
+		8084,
+		8085,
+		8086,
+		8087,
+		8088,
+		8089,
+		8090,
+		8091,
+		8092,
+		8093,
+		8094,
+		8095,
+		8096,
+		8097,
+		8098,
+		8099,
+		8100,
+		8101,
+		8102,
+		8103,
+		8104,
+		8105,
+		8106,
+		8107,
+		8108,
+		8109,
+		8110,
+		8111,
+		8112,
+		8113,
+		8114,
+		8115,
+		8116,
+		8117,
+		8118,
+		8119,
+		8120,
+		8121,
+		8122,
+		8123,
+		8124,
+		8125,
+		8126,
+		8127,
+		8128,
+		8129,
+		8130,
+		8131,
+		8132,
+		8133,
+		8134,
+		8135,
+		8136,
+		8137,
+		8138,
+		8139,
+		8140,
+		8141,
+		8142,
+		8143,
+		8144,
+		8145,
+		8146,
+		8147,
+		8148,
+		8149,
+		8150,
+		8151,
+		8152,
+		8153,
+		8154,
+		8155,
+		8156,
+		8157,
+		8158
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -78564,6 +78760,1717 @@ pg.base.activity_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 7962,
+		flag = 5
+	},
+	[7963] = {
+		param = "Happy New Year, everybody! Wishing you a peaceful, joyful, and successful new year.",
+		ship_group = 50210,
+		option = "",
+		type = 1,
+		id = 7963,
+		flag = 0
+	},
+	[7964] = {
+		param = "HNY! I want a red envelope!",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 7964,
+		flag = 0
+	},
+	[7965] = {
+		param = "44",
+		ship_group = 50107,
+		option = "",
+		type = 4,
+		id = 7965,
+		flag = 0
+	},
+	[7966] = {
+		param = "1004",
+		ship_group = 59901,
+		option = "1004",
+		type = 3,
+		id = 7966,
+		flag = 0
+	},
+	[7967] = {
+		param = "Happy new year haha! Here's a little money for you all to share and enjoy!",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 7967,
+		flag = 0
+	},
+	[7968] = {
+		param = "370",
+		ship_group = 50109,
+		type = 4,
+		id = 7968,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Happy New Year, everyone."
+			}
+		}
+	},
+	[7969] = {
+		param = "Happy New Year, everyone.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7969,
+		flag = 1
+	},
+	[7970] = {
+		param = "Here's hoping everything goes the way you want this year.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7970,
+		flag = 1
+	},
+	[7971] = {
+		param = "Oh, you're here, Commander! Happy New Year!",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7971,
+		flag = 1
+	},
+	[7972] = {
+		param = "May your days in the coming year be calm and perfect, just like this jade.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 7972,
+		flag = 1
+	},
+	[7973] = {
+		param = "Commander, I've mixed a new fragrance as a blessing for you. I hope you enjoy.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 7973,
+		flag = 1
+	},
+	[7974] = {
+		param = "Oh right! @Ting_An @Lung_Wu how's the New Year's food coming along? If you need a hand, just say it.",
+		ship_group = 50210,
+		option = "",
+		type = 1,
+		id = 7974,
+		flag = 1
+	},
+	[7975] = {
+		param = "We've procured all the ingredients. There'll be lots of fancy dishes since our budget is huge this year.",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7975,
+		flag = 1
+	},
+	[7976] = {
+		param = "I need help in the kitchen. We have multiple stoves running at the same time, so everyone has their hands full...",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 7976,
+		flag = 1
+	},
+	[7977] = {
+		param = "I'll be there in a bit. Just about finished here.",
+		ship_group = 50210,
+		option = "",
+		type = 1,
+		id = 7977,
+		flag = 1
+	},
+	[7978] = {
+		param = "Sounds like it's gonna be a while until the food reaches the table. Anyone down to prep some impromptu entertainment?",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 7978,
+		flag = 1
+	},
+	[7979] = {
+		param = "Do you have anything particular in mind?",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 7979,
+		flag = 1
+	},
+	[7980] = {
+		param = "How about a new year's party in the dining hall? We'll be our own performers and audience!",
+		ship_group = 59901,
+		type = 1,
+		id = 7980,
+		flag = 1,
+		option = {
+			{
+				2,
+				"It's a good idea, but..."
+			},
+			{
+				3,
+				"Right now?"
+			}
+		}
+	},
+	[7981] = {
+		param = "It's a good idea, but do you really have enough time?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7981,
+		flag = 2
+	},
+	[7982] = {
+		param = "Right now? Do you have the time to come up with and rehearse a performance?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7982,
+		flag = 3
+	},
+	[7983] = {
+		param = "Improvisation and energy are key! I'll be the coordinator and host. We got any volunteer performers?",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 7983,
+		flag = 0
+	},
+	[7984] = {
+		param = "ping and i will do a martial arts showcase to start us off!",
+		ship_group = 50202,
+		option = "",
+		type = 1,
+		id = 7984,
+		flag = 0
+	},
+	[7985] = {
+		param = "That's a good start... What do we actually do for the showcase though?",
+		ship_group = 50203,
+		option = "",
+		type = 1,
+		id = 7985,
+		flag = 0
+	},
+	[7986] = {
+		param = "i'll be the villain here to steal meat buns, you'll be the hero who stops me! let's head to the kitchen to find some baozi!",
+		ship_group = 50202,
+		option = "",
+		type = 1,
+		id = 7986,
+		flag = 0
+	},
+	[7987] = {
+		param = "Hooray! Baozi!",
+		ship_group = 50202,
+		option = "",
+		type = 1,
+		id = 7987,
+		flag = 0
+	},
+	[7988] = {
+		param = "The stage and background might need some festive furnishings. Let me handle the decorations.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 7988,
+		flag = 0
+	},
+	[7989] = {
+		param = "Then I shall take it upon myself to set the mood.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 7989,
+		flag = 0
+	},
+	[7990] = {
+		param = "A fragrance that is both refined and bold should suit the festive occasion.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 7990,
+		flag = 0
+	},
+	[7991] = {
+		param = "My sister and I would like to assist however we can. Perhaps we could write some spring couplets on the spot?",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 7991,
+		flag = 0
+	},
+	[7992] = {
+		param = "On the spot?! How do you expect us to do that?",
+		ship_group = 50205,
+		option = "",
+		type = 1,
+		id = 7992,
+		flag = 0
+	},
+	[7993] = {
+		param = "It's simple. We ask the guests to give us a theme, then we write a couplet based on the said theme. All you have to do is think of the first half, then I'll do the second half and write it all down.",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 7993,
+		flag = 0
+	},
+	[7994] = {
+		param = "Given your sharp wit, it should be a simple task, no?",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 7994,
+		flag = 0
+	},
+	[7995] = {
+		param = "Duh! Your big sister's got this!",
+		ship_group = 50205,
+		option = "",
+		type = 1,
+		id = 7995,
+		flag = 0
+	},
+	[7996] = {
+		param = "Where there's a party, there's a place for my traditional opera performances!",
+		ship_group = 50208,
+		option = "",
+		type = 1,
+		id = 7996,
+		flag = 0
+	},
+	[7997] = {
+		param = "Although just a solo performance might be a little lackluster...",
+		ship_group = 50208,
+		option = "",
+		type = 1,
+		id = 7997,
+		flag = 0
+	},
+	[7998] = {
+		param = "I can play the tiger! RAAAWR!",
+		ship_group = 50106,
+		option = "",
+		type = 1,
+		id = 7998,
+		flag = 0
+	},
+	[7999] = {
+		param = "Then we've got a double act! Just gotta read through our scripts!",
+		ship_group = 50208,
+		option = "",
+		type = 1,
+		id = 7999,
+		flag = 0
+	},
+	[8000] = {
+		param = "Aha! It's finally time to show the fruits of my training!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8000,
+		flag = 0
+	},
+	[8001] = {
+		param = "Tai Yuan, I choose you! We're gonna do a bare-chested boulder crush!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8001,
+		flag = 0
+	},
+	[8002] = {
+		param = "Huh?! With a hammer? But I don't know how to use it...",
+		ship_group = 50104,
+		option = "",
+		type = 1,
+		id = 8002,
+		flag = 0
+	},
+	[8003] = {
+		param = "Don't sweat it! All you gotta do is hold the boulder and lie down!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8003,
+		flag = 0
+	},
+	[8004] = {
+		param = "It won't hurt! Just one whack and it'll be over!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8004,
+		flag = 0
+	},
+	[8005] = {
+		param = "There's no way I can do that! If I get hit by a hammer that big...",
+		ship_group = 50104,
+		option = "",
+		type = 1,
+		id = 8005,
+		flag = 0
+	},
+	[8006] = {
+		param = "Like I said, don't worry! I've never messed up even once during my training.",
+		ship_group = 50102,
+		type = 1,
+		id = 8006,
+		flag = 0,
+		option = {
+			{
+				4,
+				"Since you're scared..."
+			}
+		}
+	},
+	[8007] = {
+		param = "Since you're scared, why don't I do it in your place?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8007,
+		flag = 4
+	},
+	[8008] = {
+		param = "You mean it?! Count Lady Yuen in then!",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 8008,
+		flag = 4
+	},
+	[8009] = {
+		param = "Only someone strong would volunteer to get smacked. I'll do it!",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 8009,
+		flag = 4
+	},
+	[8010] = {
+		param = "Fei Yuen, Fu Po, don't you go causing trouble for the Commander now.",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 8010,
+		flag = 4
+	},
+	[8011] = {
+		param = "I've prepared a new garment for you. Come see me when you have a spare moment @Commander",
+		ship_group = 50301,
+		type = 1,
+		id = 8011,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Will do."
+			}
+		}
+	},
+	[8012] = {
+		param = "Will do. I'll be there soon.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8012,
+		flag = 5
+	},
+	[8013] = {
+		param = "Looks like we've all got something to do. Being busy's good. Hope you'll have a busy and good time during the party.",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 8013,
+		flag = 5
+	},
+	[8014] = {
+		param = "1005",
+		ship_group = 59901,
+		option = "1005",
+		type = 3,
+		id = 8014,
+		flag = 5
+	},
+	[8015] = {
+		param = "Wishing everybody a happy new year!",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 8015,
+		flag = 5
+	},
+	[8016] = {
+		param = "Commander",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8016,
+		flag = 0
+	},
+	[8017] = {
+		param = "At the market just now, I found a stone of jade. Its texture was as beautiful and delicate as water in spring...",
+		ship_group = 50302,
+		type = 1,
+		id = 8017,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Did you buy it?"
+			}
+		}
+	},
+	[8018] = {
+		param = "Did you buy it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8018,
+		flag = 1
+	},
+	[8019] = {
+		param = "I'm afraid not.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8019,
+		flag = 1
+	},
+	[8020] = {
+		param = "Lately, I haven't had much spending money.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8020,
+		flag = 1
+	},
+	[8021] = {
+		param = "But I think that gazing upon something until it's stored in your heart is its own form of ownership.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8021,
+		flag = 1
+	},
+	[8022] = {
+		param = "Incidentally, do you prefer the simple purity of white jade, or the profound darkness of black jade?",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8022,
+		flag = 1
+	},
+	[8023] = {
+		param = "Pick one, and I'll keep it in mind. When my purse is a bit heavier, I'll buy one and carve it for you.",
+		ship_group = 50302,
+		type = 1,
+		id = 8023,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I don't know much about jade."
+			}
+		}
+	},
+	[8024] = {
+		param = "I don't know much about jade.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8024,
+		flag = 2
+	},
+	[8025] = {
+		param = "All the better!",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8025,
+		flag = 2
+	},
+	[8026] = {
+		param = "You're unconstrained by preconceived notions. You can pick based on pure instinct.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8026,
+		flag = 2
+	},
+	[8027] = {
+		param = "Jade often reveals its truest form to the innocent eye.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8027,
+		flag = 2
+	},
+	[8028] = {
+		param = "It's like when I first met you...",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8028,
+		flag = 2
+	},
+	[8029] = {
+		param = "I realized that you were the finest gem of all.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8029,
+		flag = 2
+	},
+	[8030] = {
+		param = "Still, if you can't pick based on color alone...",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8030,
+		flag = 2
+	},
+	[8031] = {
+		param = "Then you should come to my place next time you're free so you can appreciate and try carving jade for yourself.",
+		ship_group = 50302,
+		type = 1,
+		id = 8031,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Appreciating is one thing, but..."
+			}
+		}
+	},
+	[8032] = {
+		param = "Appreciating is one thing, but I don't know if I should be carving.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8032,
+		flag = 3
+	},
+	[8033] = {
+		param = "I'd just ruin your nice gemstones.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8033,
+		flag = 3
+	},
+	[8034] = {
+		param = "That's fine by me.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8034,
+		flag = 3
+	},
+	[8035] = {
+		param = "If you're willing to learn, then I'll teach you, starting from the basics of gauging their temperature.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8035,
+		flag = 3
+	},
+	[8036] = {
+		param = "Jade has a soul. Only by heartfelt communion can you find its essence and truly shape its form.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8036,
+		flag = 3
+	},
+	[8037] = {
+		param = "Besides, I have leftover stones. They're far from valuable, but they're good enough for practice.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8037,
+		flag = 3
+	},
+	[8038] = {
+		param = "I happen to have tea ready, too...",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8038,
+		flag = 3
+	},
+	[8039] = {
+		param = "If you come right now, I'll keep it warm for you.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8039,
+		flag = 3
+	},
+	[8040] = {
+		param = "Commander, I've been trying to live a simpler lifestyle.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8040,
+		flag = 0
+	},
+	[8041] = {
+		param = "Reducing unnecessary expenses, returning to a more natural way of life.",
+		ship_group = 50302,
+		type = 1,
+		id = 8041,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Simpler?"
+			}
+		}
+	},
+	[8042] = {
+		param = "Simpler? How so?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8042,
+		flag = 1
+	},
+	[8043] = {
+		param = "Mainly my diet. I have a bowl of plain porridge in the morning and simple rice and veggies for lunch.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8043,
+		flag = 1
+	},
+	[8044] = {
+		param = "At night... I just drink plain tea and sit quietly, alone with my thoughts.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8044,
+		flag = 1
+	},
+	[8045] = {
+		param = "Having fewer external distractions has made my mind clearer.",
+		ship_group = 50302,
+		type = 1,
+		id = 8045,
+		flag = 1,
+		option = {
+			{
+				2,
+				"You're really disciplined."
+			}
+		}
+	},
+	[8046] = {
+		param = "You're really disciplined. What got you doing this all of a sudden?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8046,
+		flag = 2
+	},
+	[8047] = {
+		param = "Just last month, you were gorging yourself on walnut cookies and osmanthus cakes.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8047,
+		flag = 2
+	},
+	[8048] = {
+		param = "Walnut cookies... Osmanthus cakes... I admit, they're my favorites.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8048,
+		flag = 2
+	},
+	[8049] = {
+		param = "NO",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8049,
+		flag = 2
+	},
+	[8050] = {
+		param = "Pleasing the palate provides only fleeting joy. Spiritual fulfillment lasts forever.",
+		ship_group = 50302,
+		type = 1,
+		id = 8050,
+		flag = 2,
+		option = {
+			{
+				3,
+				"You bought more jade recently, didn't you?"
+			}
+		}
+	},
+	[8051] = {
+		param = "You bought more jade recently, didn't you?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8051,
+		flag = 3
+	},
+	[8052] = {
+		param = "A bond with a precious stone is not something you can seek out. But when that chance encounter blesses you, you mustn't let it slip away.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8052,
+		flag = 3
+	},
+	[8053] = {
+		param = "Compared to that, food is an insignificant thing.",
+		ship_group = 50302,
+		type = 1,
+		id = 8053,
+		flag = 3,
+		option = {
+			{
+				4,
+				"That's a shame."
+			}
+		}
+	},
+	[8054] = {
+		param = "That's a shame. I just bought some osmanthus cakes today.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8054,
+		flag = 4
+	},
+	[8055] = {
+		param = "Guess I'll have to eat them alone...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8055,
+		flag = 4
+	},
+	[8056] = {
+		param = "Huh? Osmanthus cakes?",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8056,
+		flag = 4
+	},
+	[8057] = {
+		param = "As I said before, I am trying to live a simpler life...",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8057,
+		flag = 4
+	},
+	[8058] = {
+		param = "But upon further reflection... Maybe it's important to maintain a fine balance.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8058,
+		flag = 4
+	},
+	[8059] = {
+		param = "What do you think?",
+		ship_group = 50302,
+		type = 1,
+		id = 8059,
+		flag = 4,
+		option = {
+			{
+				5,
+				"You wanna come eat them with me?"
+			}
+		}
+	},
+	[8060] = {
+		param = "You wanna come eat them with me?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8060,
+		flag = 5
+	},
+	[8061] = {
+		param = "I can't refuse an invitation from you.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8061,
+		flag = 5
+	},
+	[8062] = {
+		param = "Just as fine jade is meant to be appreciated, perhaps fine snacks are best enjoyed in good company...",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8062,
+		flag = 5
+	},
+	[8063] = {
+		param = "I'm on my way, Commander.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8063,
+		flag = 5
+	},
+	[8064] = {
+		param = "354",
+		ship_group = 50302,
+		option = "",
+		type = 4,
+		id = 8064,
+		flag = 5
+	},
+	[8065] = {
+		param = "Commander, the weather tomorrow should be lovely.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8065,
+		flag = 0
+	},
+	[8066] = {
+		param = "I've arranged a few diversions that I think you'll enjoy.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8066,
+		flag = 0
+	},
+	[8067] = {
+		param = "May I walk you through the itinerary now?",
+		ship_group = 50302,
+		type = 1,
+		id = 8067,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Oh? Be my guest."
+			}
+		}
+	},
+	[8068] = {
+		param = "Oh? Be my guest.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8068,
+		flag = 1
+	},
+	[8069] = {
+		param = "Thank you. In the morning, we can admire and carve jade together.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8069,
+		flag = 1
+	},
+	[8070] = {
+		param = "We'll see every subtle change as the stone is transformed from rough to smooth.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8070,
+		flag = 1
+	},
+	[8071] = {
+		param = "In the afternoon, we'll watch the one-act play being held at the theater. I've reserved two seats together...",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8071,
+		flag = 1
+	},
+	[8072] = {
+		param = "They're excellent seats. Quiet, with a clear view of all the lights and shadows onstage.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8072,
+		flag = 1
+	},
+	[8073] = {
+		param = "At night... If we have the time and energy, there's a small restaurant in the alleyway serving osmanthus rice balls that are simply to die for.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8073,
+		flag = 1
+	},
+	[8074] = {
+		param = "Those are my plans. What do you think?",
+		ship_group = 50302,
+		type = 1,
+		id = 8074,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Sounds really fun."
+			}
+		}
+	},
+	[8075] = {
+		param = "Sounds really fun. Won't it be expensive, though?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8075,
+		flag = 2
+	},
+	[8076] = {
+		param = "You have no need to worry.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8076,
+		flag = 2
+	},
+	[8077] = {
+		param = "I've been saving up for this day for a long time now.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8077,
+		flag = 2
+	},
+	[8078] = {
+		param = "I booked the theater seats last month, and I carefully selected the stones after a lot of thought.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8078,
+		flag = 2
+	},
+	[8079] = {
+		param = "Only by sharing the experience with you can I truly make it special.",
+		ship_group = 50302,
+		type = 1,
+		id = 8079,
+		flag = 2,
+		option = {
+			{
+				3,
+				"So that's why you haven't bought any jade lately."
+			}
+		}
+	},
+	[8080] = {
+		param = "So that's why you haven't bought any jade lately.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8080,
+		flag = 3
+	},
+	[8081] = {
+		param = "That's right. Since I planned to invite you, I wanted to make it a day to remember.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8081,
+		flag = 3
+	},
+	[8082] = {
+		param = "Buying jade is indeed a hobby of mine, but a date with you is a heartfelt gesture of love.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8082,
+		flag = 3
+	},
+	[8083] = {
+		param = "Fine jade will cross my path again if I wait. When it comes to our dates, I'll spare no expense.",
+		ship_group = 50302,
+		type = 1,
+		id = 8083,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Then I'll have to return the favor somehow."
+			}
+		}
+	},
+	[8084] = {
+		param = "Then I'll have to return the favor somehow. You just handle the plans for tomorrow, and leave everything else to me.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8084,
+		flag = 4
+	},
+	[8085] = {
+		param = "I want you to be able to relax and enjoy the day, too.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8085,
+		flag = 4
+	},
+	[8086] = {
+		param = "Commander...",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8086,
+		flag = 4
+	},
+	[8087] = {
+		param = "Okay. I'll see you tomorrow morning.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8087,
+		flag = 4
+	},
+	[8088] = {
+		param = "I can't wait to spend an entire day with you, from dawn's light to the dark of night.",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8088,
+		flag = 4
+	},
+	[8089] = {
+		param = "Commander, do you have a moment?",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8089,
+		flag = 0
+	},
+	[8090] = {
+		param = "I will host a fragrance exhibition next month and I'm currently preparing the exhibits.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8090,
+		flag = 0
+	},
+	[8091] = {
+		param = "You'll find one of them placed atop your desk.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8091,
+		flag = 0
+	},
+	[8092] = {
+		param = "Test it for me and let me know what you think.",
+		ship_group = 50212,
+		type = 1,
+		id = 8092,
+		flag = 0,
+		option = {
+			{
+				1,
+				"So that was yours?"
+			}
+		}
+	},
+	[8093] = {
+		param = "So the smell in my office came from your fragrance?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8093,
+		flag = 1
+	},
+	[8094] = {
+		param = "You must have quite a sensitive nose to have picked it up.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8094,
+		flag = 1
+	},
+	[8095] = {
+		param = "What do you think? I'd say it's quite a distinctive smell.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8095,
+		flag = 1
+	},
+	[8096] = {
+		param = "Its main notes are vetiver and morning dew, with undertones of white tea that gently seep out.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8096,
+		flag = 1
+	},
+	[8097] = {
+		param = "Perhaps you feel more relaxed than you usually do?",
+		ship_group = 50212,
+		type = 1,
+		id = 8097,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I do..."
+			}
+		}
+	},
+	[8098] = {
+		param = "I do, now that you mention it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8098,
+		flag = 2
+	},
+	[8099] = {
+		param = "Heheh. That's the wonder of a scent: it can move hearts and stir emotions.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8099,
+		flag = 2
+	},
+	[8100] = {
+		param = "As thanks for your aid, I'm going to make a fragrance just for you.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8100,
+		flag = 2
+	},
+	[8101] = {
+		param = "Its aroma will surely put you in the desired mood whenever you need it.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8101,
+		flag = 2
+	},
+	[8102] = {
+		param = "What manner of effect do you want it to have?",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8102,
+		flag = 2
+	},
+	[8103] = {
+		param = "218",
+		ship_group = 50212,
+		type = 4,
+		id = 8103,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Something that helps me focus."
+			},
+			{
+				4,
+				"Something that lifts my mood."
+			}
+		}
+	},
+	[8104] = {
+		param = "I'd love something that helps me focus and makes me more productive.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8104,
+		flag = 3
+	},
+	[8105] = {
+		param = "Then I'll use cedarwood, bitter orange, and just a dash of mint.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8105,
+		flag = 3
+	},
+	[8106] = {
+		param = "It'll be like a clean breeze that clears your mind and calms your spirit...",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8106,
+		flag = 3
+	},
+	[8107] = {
+		param = "I'd love something that eases my mood and helps me relax.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8107,
+		flag = 4
+	},
+	[8108] = {
+		param = "Then I suppose I should add sandalwood, iris, as well as a few supporting aromas.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8108,
+		flag = 4
+	},
+	[8109] = {
+		param = "It'll be like a tranquil afternoon gently caressed by the sun...",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8109,
+		flag = 4
+	},
+	[8110] = {
+		param = "I'll let you know once the fragrance is finished.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8110,
+		flag = 0
+	},
+	[8111] = {
+		param = "The task of awakening its soul will fall upon you.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8111,
+		flag = 0
+	},
+	[8112] = {
+		param = "I imagine you'd be happy to oblige.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8112,
+		flag = 0
+	},
+	[8113] = {
+		param = "Soon, you will have a one of a kind fragrance that you can call your own.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8113,
+		flag = 0
+	},
+	[8114] = {
+		param = "Thanks to your help promoting it, my fragrance exhibition enjoyed a wonderful response.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8114,
+		flag = 0
+	},
+	[8115] = {
+		param = "Some of the most highly rated fragrances were inspired by you in a significant way.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8115,
+		flag = 0
+	},
+	[8116] = {
+		param = "As thanks for this, would you like to accompany me on a several-day journey to some unique places?",
+		ship_group = 50212,
+		type = 1,
+		id = 8116,
+		flag = 0,
+		option = {
+			{
+				1,
+				"\"Unique places\"?"
+			}
+		}
+	},
+	[8117] = {
+		param = "\"Unique places\"? Are you in a traveling mood all of a sudden?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8117,
+		flag = 1
+	},
+	[8118] = {
+		param = "Haha. It's not truly traveling, per se.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8118,
+		flag = 1
+	},
+	[8119] = {
+		param = "I've been to all sorts of places, collecting local and unique scents.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8119,
+		flag = 1
+	},
+	[8120] = {
+		param = "For instance, the first whiff of the sweet and briny smell given off by moss deep in the forest after rainfall.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8120,
+		flag = 1
+	},
+	[8121] = {
+		param = "Or the scent of pine that bursts from a lit fireplace on a winter night in the snowy plains.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8121,
+		flag = 1
+	},
+	[8122] = {
+		param = "Or... the faint scent of ink that's seeped into a certain someone's sleeves after many years of hard work.",
+		ship_group = 50212,
+		type = 1,
+		id = 8122,
+		flag = 1,
+		option = {
+			{
+				2,
+				"What a profound thing..."
+			}
+		}
+	},
+	[8123] = {
+		param = "What a profound thing it is. The world of smells, I mean.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8123,
+		flag = 2
+	},
+	[8124] = {
+		param = "If you'd like, I can guide you through the whole process of how to enjoy a scent.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8124,
+		flag = 2
+	},
+	[8125] = {
+		param = "It goes like this: clean breath, clear mind, appreciation.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8125,
+		flag = 2
+	},
+	[8126] = {
+		param = "I'll teach you each of these steps.",
+		ship_group = 50212,
+		type = 1,
+		id = 8126,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Do I need to bring anything?"
+			}
+		}
+	},
+	[8127] = {
+		param = "Do I need to bring anything?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8127,
+		flag = 3
+	},
+	[8128] = {
+		param = "You need only set some time aside. I'll arrange for the scented water and a quiet room for us to share.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8128,
+		flag = 3
+	},
+	[8129] = {
+		param = "The lights will be dim, and the volume will be low.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8129,
+		flag = 3
+	},
+	[8130] = {
+		param = "When your other senses are restricted, that is when your sense of smell fully awakens.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8130,
+		flag = 3
+	},
+	[8131] = {
+		param = "Rest assured, it's not difficult. I will lead you to appreciate all the scents that I treasure.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8131,
+		flag = 3
+	},
+	[8132] = {
+		param = "As I said, it will just be us two.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8132,
+		flag = 3
+	},
+	[8133] = {
+		param = "This is an invitation for you to see the rest of me.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8133,
+		flag = 3
+	},
+	[8134] = {
+		param = "My more genuine, more graceful self.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8134,
+		flag = 3
+	},
+	[8135] = {
+		param = "It will be a long... long... long process.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8135,
+		flag = 3
+	},
+	[8136] = {
+		param = "Have you received the item I sent?",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8136,
+		flag = 0
+	},
+	[8137] = {
+		param = "It's a small, very thin envelope.",
+		ship_group = 50212,
+		type = 1,
+		id = 8137,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Yeah, I got it."
+			}
+		}
+	},
+	[8138] = {
+		param = "Yeah, I got it. I just haven't opened it yet because I've been really busy today.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8138,
+		flag = 1
+	},
+	[8139] = {
+		param = "Could you open it now?",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8139,
+		flag = 1
+	},
+	[8140] = {
+		param = "Inside, you'll find... me.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8140,
+		flag = 1
+	},
+	[8141] = {
+		param = "Look forward to it.",
+		ship_group = 50212,
+		type = 1,
+		id = 8141,
+		flag = 1,
+		option = {
+			{
+				2,
+				"You?"
+			}
+		}
+	},
+	[8142] = {
+		param = "You? Inside the envelope? Alright, I'll open it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8142,
+		flag = 2
+	},
+	[8143] = {
+		param = "Did you find it? The bookmark? Well, it's not just any ordinary bookmark.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8143,
+		flag = 2
+	},
+	[8144] = {
+		param = "It's paper that I've scented many times. This allows it to retain its fragrance for a long time.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8144,
+		flag = 2
+	},
+	[8145] = {
+		param = "Bring it to your nose and smell it. It's familiar, no?",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8145,
+		flag = 2
+	},
+	[8146] = {
+		param = "Those are the scents of the air in my perfume booth, essential oils, aromatics... and just a dash of my own scent.",
+		ship_group = 50212,
+		type = 1,
+		id = 8146,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Why'd you make this?"
+			}
+		}
+	},
+	[8147] = {
+		param = "Why'd you make this?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8147,
+		flag = 3
+	},
+	[8148] = {
+		param = "I made it hoping that you'd use it, and every time you do, you think of me.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8148,
+		flag = 3
+	},
+	[8149] = {
+		param = "This way, you can always feel like I'm by your side from the fragrance in the air.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8149,
+		flag = 3
+	},
+	[8150] = {
+		param = "Do you like it?",
+		ship_group = 50212,
+		type = 1,
+		id = 8150,
+		flag = 3,
+		option = {
+			{
+				4,
+				"I do. It's a really unique gift."
+			}
+		}
+	},
+	[8151] = {
+		param = "I do. Thank you. It's a really unique gift.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8151,
+		flag = 4
+	},
+	[8152] = {
+		param = "Not quite. It's not a gift.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8152,
+		flag = 4
+	},
+	[8153] = {
+		param = "I'm merely entrusting you with this bookmark for a while so that it will slowly absorb other scents.",
+		ship_group = 50212,
+		type = 1,
+		id = 8153,
+		flag = 4,
+		option = {
+			{
+				5,
+				"What other scents?"
+			}
+		}
+	},
+	[8154] = {
+		param = "What other scents?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8154,
+		flag = 5
+	},
+	[8155] = {
+		param = "Your scents. The warmth of your body, the traces of ink on your sleeves...",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8155,
+		flag = 5
+	},
+	[8156] = {
+		param = "And the quiet, unwavering atmosphere around you when you're pondering alone...",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8156,
+		flag = 5
+	},
+	[8157] = {
+		param = "Once your scents have fully seeped into the bookmark, I will retrieve it and keep it close on my person.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8157,
+		flag = 5
+	},
+	[8158] = {
+		param = "It will be, perhaps, the most wonderful scent in the whole wide world.",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8158,
 		flag = 5
 	}
 }

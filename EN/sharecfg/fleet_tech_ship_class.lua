@@ -2713,7 +2713,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		nation = 5,
 		ships = {
-			50210
+			50210,
+			50212
 		}
 	},
 	[50301] = {
@@ -2725,6 +2726,17 @@ pg.fleet_tech_ship_class = {
 		nation = 5,
 		ships = {
 			50301
+		}
+	},
+	[50302] = {
+		shiptype = 3,
+		name = "Chang Wu",
+		t_level = 4,
+		id = 50302,
+		t_level_1 = 130,
+		nation = 5,
+		ships = {
+			50302
 		}
 	},
 	[50401] = {
@@ -4726,6 +4738,7 @@ pg.fleet_tech_ship_class = {
 		50206,
 		50207,
 		50301,
+		50302,
 		50401,
 		50601,
 		50602,

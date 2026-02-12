@@ -172,4 +172,40 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = nil
+	slot4 = ys.Battle.BattleResourceManager.GetInstance()
+	slot6 = getProxy(BayProxy)
+
+	if getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId] then
+		for slot13, slot14 in ipairs(slot8.ships) do
+			table.insert(slot1, slot6:getShipById(slot14))
+		end
+
+		for slot13, slot14 in ipairs(slot8:buildBattleBuffList()) do
+			table.insert(slot2, slot14)
+		end
+	end
+
+	if slot7[slot0.mainFleetId + 10] then
+		for slot14, slot15 in ipairs(slot9:getTeamByName(TeamType.Submarine)) do
+			table.insert(slot1, slot6:getShipById(slot15))
+		end
+
+		for slot14, slot15 in ipairs(slot9:buildBattleBuffList()) do
+			table.insert(slot2, slot15)
+		end
+	end
+
+	slot10, slot11 = slot4.GetPlayerShipResource(slot1, slot0.system)
+
+	for slot15, slot16 in ipairs(slot4.GetCommanderBuffRes(slot2)) do
+		table.insert(slot10, slot16)
+	end
+
+	return slot10, slot11
+end
+
 return slot0

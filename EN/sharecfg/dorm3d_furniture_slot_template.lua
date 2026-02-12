@@ -252,6 +252,15 @@ pg.dorm3d_furniture_slot_template = {
 		furniture_name = "pre_db_appliances04",
 		zone_id = 11002
 	},
+	[1110204] = {
+		default_furniture = 0,
+		name = "Full-Size Fridge",
+		type = 6,
+		id = 1110204,
+		room_id = 11,
+		furniture_name = "pre_db_njh_kitchen01",
+		zone_id = 11002
+	},
 	[1110301] = {
 		default_furniture = 0,
 		name = "客厅画框",
@@ -470,6 +479,7 @@ pg.dorm3d_furniture_slot_template = {
 			1110201,
 			1110202,
 			1110203,
+			1110204,
 			1110301,
 			1110302,
 			1110303
@@ -549,7 +559,8 @@ pg.dorm3d_furniture_slot_template = {
 		[11002] = {
 			1110201,
 			1110202,
-			1110203
+			1110203,
+			1110204
 		},
 		[11003] = {
 			1110301,
@@ -615,6 +626,7 @@ pg.dorm3d_furniture_slot_template = {
 		1110201,
 		1110202,
 		1110203,
+		1110204,
 		1110301,
 		1110302,
 		1110303,

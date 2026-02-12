@@ -6,7 +6,7 @@ return {
 	hideAuto = true,
 	hideRecord = true,
 	mode = 2,
-	id = "DORM3DTOUCH3072",
+	id = "DORM3DTOUCH3078",
 	placeholder = {
 		"dorm3d"
 	},

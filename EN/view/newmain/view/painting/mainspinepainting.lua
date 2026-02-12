@@ -7,6 +7,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.spTF = findTF(slot1, "spinePainting")
 	slot0.spBg = findTF(slot3, "spinePainting")
 	slot0.uiCam = GameObject.Find("UICamera"):GetComponent("Camera")
+	slot0._initCallback = {}
 end
 
 slot0.GetCenterPos = function(slot0)
@@ -26,11 +27,13 @@ slot0.OnLoad = function(slot0, slot1)
 		uv0:InitSpecialTouch()
 		uv1()
 
-		if uv0._initTriggerEvent then
-			uv0:TriggerEvent(uv0._initTriggerEvent)
+		for slot4, slot5 in ipairs(uv0._initCallback) do
+			slot5()
+		end
 
-			uv0._initTriggerEvent = nil
-		elseif getProxy(PlayerProxy):getFlag("login") then
+		uv0._initCallback = {}
+
+		if getProxy(PlayerProxy):getFlag("login") then
 			getProxy(PlayerProxy):setFlag("login", nil)
 			uv0:TriggerEvent("event_login")
 		end
@@ -203,20 +206,32 @@ slot0.PrepareTriggerAction = function(slot0, slot1)
 
 	slot2 = nil
 	slot3 = false
+	slot4 = ""
 
 	if pg.AssistantInfo.assistantEvents[slot1] then
 		slot3 = slot0.spinePainting:getAnimationExist(pg.AssistantInfo.assistantEvents[slot1].action)
+		slot4 = slot0.spinePainting:getIdleName()
 	end
 
-	if slot3 then
-		slot4 = slot0.spinePainting
+	if slot3 and slot4 == "normal" then
+		slot5 = slot0.spinePainting
 
-		slot4:SetOnceAction(slot2, nil, function ()
+		slot5:SetOnceAction(slot2, nil, function ()
 			uv0:TryToTriggerEvent(uv1)
 		end, true)
 	else
 		slot0:TryToTriggerEvent(slot1)
 	end
+end
+
+slot0.GetEventExit = function(slot0, slot1)
+	slot2 = false
+
+	if pg.AssistantInfo.assistantEvents[slot1] then
+		slot2 = slot0.spinePainting:getAnimationExist(pg.AssistantInfo.assistantEvents[slot1].action)
+	end
+
+	return slot2
 end
 
 slot0.TryToTriggerEvent = function(slot0, slot1)
@@ -284,17 +299,39 @@ slot0.OnLongPress = function(slot0)
 end
 
 slot0.PlayChangeSkinActionIn = function(slot0, slot1)
-	if slot0.spinePainting and slot0.spinePainting:getInitFlag() then
-		slot0:TriggerEvent("event_login")
-	else
-		slot0._initTriggerEvent = "event_login"
-	end
+	if slot0.spinePainting then
+		slot2 = function()
+			if uv0 and uv0.callback then
+				uv0.callback({
+					flag = true
+				})
+			end
+		end
 
-	if slot1 and slot1.callback then
-		slot1.callback({
-			flag = true
-		})
+		slot3 = function()
+			if uv0.spinePainting:GetDragDataConfig("change_in_hit") and #slot0 > 0 then
+				uv0.spinePainting:readyDragAction(slot0)
+				uv1()
+			elseif uv0.spinePainting:getAnimationExist("change_in") and uv0.spinePainting:ablePlayAction("change_in", false, 0) then
+				uv0.spinePainting:SetOnceAction("change_in", nil, function ()
+					uv0()
+				end, true)
+			else
+				uv0:TriggerEvent("event_login")
+				uv1()
+			end
+		end
+
+		if slot0.spinePainting:getInitFlag() then
+			slot3()
+		else
+			slot0:pullInitCallback(slot3)
+		end
 	end
+end
+
+slot0.pullInitCallback = function(slot0, slot1)
+	table.insert(slot0._initCallback, slot1)
 end
 
 slot0.PlayChangeSkinActionOut = function(slot0, slot1)

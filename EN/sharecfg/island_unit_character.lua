@@ -410,7 +410,7 @@ Be sure to give me a call the next time you come to the harbor!]],
 	},
 	[101800] = {
 		describe_illustrated_guid = "",
-		english_name = "",
+		english_name = "RMS Empress of Britain",
 		name = "Britain",
 		rendering = "101800",
 		group = 1018,

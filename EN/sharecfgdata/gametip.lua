@@ -3809,26 +3809,26 @@ _G.pg.base.gametip.coloring_wait_open = {
 _G.pg.base.gametip.coloring_help_tip = {
 	tip = {
 		{
-			info = "Game Rules:\n"
+			info = "- Overview -\n"
 		},
 		{
 			info = [[
-1. Each cell of the Drawing Book is marked with a number that corresponds to the paint color of the same number. Select the paint color from the palette on the right and click on the cell to color it. 
+1. Each cell of the Drawing Book is marked with a number that corresponds to a paint color. Select the paint color from the palette on the right and click on the cell to color it. 
 2. The drawing area can be zoomed in and out by stretching or pinching with two fingers. 
 3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no paint of that color left. 
-4. Coloring each cell will consume paint. If no paint is left, no more cells may be colored. 
-5. Paint can be obtained by completing event missions to consume a total amount of Oil. 
+4. Coloring each cell will consume paint. If no paint is left, no more cells can be colored. 
+5. Paint can be obtained by completing event missions which require you to consume a certain total amount of Oil. 
 6. Completing pages in the Drawing Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
 · Page 1: Random Skill Book T3 x2
-· Page 2: Red Envelope x2
-· Page 3: The limited furniture "Bamboo Bubble-Blower"
-· Page 4: Red Envelope x2
-· Page 5: The limited furniture "Bamboo Bubble-Blower"
-· Page 6: Red Envelope x2
-· Page 7: Dragon Empery DD An Shan & Red Envelope x1
+· Page 2: Red Envelope x1
+· Page 3: Dragon Empery CL Ying Swei
+· Page 4: Red Envelope x1
+· Page 5: Red Envelope x2
+· Page 6: Red Envelope x1
+· Page 7: Dragon Empery CL Chao Ho & Red Envelope x2
 8. After the event ends, all unused paint will be removed.
-9. A new page will be unlocked every day until January 22nd.]]
+9. A new page will be unlocked every day until February 18th.]]
 		}
 	}
 }
@@ -12974,12 +12974,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Implacable and Royal Oak added to standard build pool!"
+	tip = "Chien Wu added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Scylla added to standard build pool!"
+	tip = "Hai Yung and Chang Feng added to standard build pool!"
 }
 
 
@@ -13157,6 +13157,11 @@ _G.pg.base.gametip.tec_catchup_5 = {
 
 _G.pg.base.gametip.tec_catchup_6 = {
 	tip = "Series 6"
+}
+
+
+_G.pg.base.gametip.tec_catchup_7 = {
+	tip = "Series 7"
 }
 
 
@@ -14062,14 +14067,14 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>- Overview -</color>"
 		},
 		{
-			info = "During the Spring Fashion Festa event, your goal is to accumulate <color=#92fc63>Contribution Points (CPts)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
+			info = "During the Spring Auction Adventure event, your goal is to accumulate <color=#92fc63>Contribution Points (CPts)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 		},
 		{
 			info = [[
 During the event period, you will play on a special stage and face off against an opposing exercise fleet.
 All Commanders on the same server will need to work together by gathering CPts and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
 Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
-Be aware that you will not be able to claim this reward if your Mailbox is completely full.
+Please be aware that you will not be able to claim this reward if your Mailbox is completely full.
 <color=#92fc63>Note that you can still earn CPts through the event stage even once the progress gauge has hit 0%.</color>
 ]]
 		},
@@ -14079,7 +14084,7 @@ Be aware that you will not be able to claim this reward if your Mailbox is compl
 1. You earn Contribution Points by clearing the Special Stage.
 2. The progress gauge is affected by the total number of CPts earned by all Commanders on your server.
 3. Once the progress bar hits <color=#92fc63>0%</color>, the mission is complete. Note that each server's progress bar is independent of the others.
-4. You can claim nice rewards from the event banner by collecting a lot of CPts.
+4. You can claim rewards from the event banner by collecting a lot of CPts.
 ]]
 		},
 		{
@@ -14108,7 +14113,7 @@ Be aware that you will not be able to claim this reward if your Mailbox is compl
 			info = [[
 <color=#ff5c5c>- Miscellaneous Info -</color>
 1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed, <color=#ff5c5c>but you will not receive any rewards or CPts</color>.
-2. We recommend you play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.
+2. It is recommended to play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.
 3. You can do practice runs of EX mode from the Formation screen. Practice runs do not cost Bonus Tickets or Oil, and do not affect your shipgirls' Morale, but they do not award EXP or rewards either. 
 4. A Reward Sortie will <color=#92fc63>not be deducted from your daily 15</color> if you choose to abort a run partway through on Easy, Normal, or Hard difficulty.
 5. We urge you to keep an eye on your shipgirls' Morale and Affinity and to not sortie too much. <color=#92fc63>Please be considerate!</color>
@@ -15407,7 +15412,7 @@ _G.pg.base.gametip.limit_skin_time_overtime = {
 
 
 _G.pg.base.gametip.limit_skin_time_before_maintenance = {
-	tip = "Until $1/$2 "
+	tip = "Until Maint. on $1/$2"
 }
 
 
@@ -46799,6 +46804,95 @@ Before going into battle, you can decide whether you\'d like to fight in a joint
 }
 
 
+_G.pg.base.gametip.pac_game_high_score_tip = {
+	tip = "High Score: $1"
+}
+
+
+_G.pg.base.gametip.pac_game_rule_btn = {
+	tip = "How to Play"
+}
+
+
+_G.pg.base.gametip.pac_game_start_btn = {
+	tip = "Start"
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_time_desc = {
+	tip = "Time:"
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_score = {
+	tip = "Score:"
+}
+
+
+_G.pg.base.gametip.mini_game_continue = {
+	tip = "Return"
+}
+
+
+_G.pg.base.gametip.mini_game_over_game = {
+	tip = "Quit"
+}
+
+
+_G.pg.base.gametip.pac_minigame_help = {
+	tip = {
+		{
+			info = [[
+- Overview -
+Take control of Fei Yuen, run away from other characters, and collect Dragon Empery food to earn points.
+A new stage will be unlocked every day until February 26th. Complete the minigame over 7 days to receive various rewards, including the DD Fei Yuen.
+
+How to Play:
+1. Control Fei Yuen and help her escape the clutches of incoming characters!
+2. Pick up items to gain different effects:
+· Gold Drops - Increases your score
+· Hawthorn Tanghulu - Increases your movement speed, and when you bump into other characters, banishes them to the starting point with the sourness of the tanghulu.
+3. The game ends either when you're caught by another character or when you quit the game.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_1 = {
+	tip = "Spring Auction Adventure"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_2 = {
+	tip = "Fu Po's Flawless Plan"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_3 = {
+	tip = "Manjuu Resort"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_4 = {
+	tip = "Happy Spring Festival"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_5 = {
+	tip = "Spring Fireworks Party"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_6 = {
+	tip = "Fei Yuen's Great Adventure"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_7 = {
+	tip = "Port Fashion Collection"
+}
+
+
 _G.pg.base.gametip.island_post_event_label = {
 	tip = "Business Event"
 }
@@ -46949,6 +47043,11 @@ _G.pg.base.gametip.island_trade_reset_label = {
 }
 
 
+_G.pg.base.gametip.island_trade_help = {
+	tip = "Tip"
+}
+
+
 _G.pg.base.gametip.island_trade_help_1 = {
 	tip = {
 		{
@@ -47055,6 +47154,126 @@ _G.pg.base.gametip.island_bar_quick_game = {
 }
 
 
+_G.pg.base.gametip.loveactivity_ui_1 = {
+	tip = "Sweet Memories"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_2 = {
+	tip = "Daily Rewards"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_3 = {
+	tip = "Messages"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4 = {
+	tip = "Give Sweet Memories to $1?"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_5 = {
+	tip = "Unlock Message"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_6 = {
+	tip = "Unlocked"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_7 = {
+	tip = "* Unlocking the message does not remove any presents"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_8 = {
+	tip = "Unlock"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_9 = {
+	tip = "$1's Valentine's Gift"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_10 = {
+	tip = "Sweet Memories Lv."
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_11 = {
+	tip = "Do you want to choose $1?"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_12 = {
+	tip = "* You can switch your character during the event ($1/$2 remaining switches today)"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_13 = {
+	tip = "Valentine's Day message has been unlocked"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_14 = {
+	tip = "$1's Sweet Memories Medal"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_15 = {
+	tip = "You have scrolled to the end"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_16 = {
+	tip = "No claimable rewards"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_17 = {
+	tip = "No claimable rewards"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_18 = {
+	tip = "This character is currently selected"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_19 = {
+	tip = "There are presents you haven't chosen yet"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_20 = {
+	tip = "Accumulated Sweet Memories Lv. Rewards"
+}
+
+
+_G.pg.base.gametip.help_chunjie_jiulou_2026 = {
+	tip = {
+		{
+			info = [[
+- Manjuu Resort Info -
+· You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames and get rewards.
+· Red Envelopes can be gotten from playing <color=#92fc63>Fei Yuen's Great Adventure</color>,<color=#92fc63>Drawing Book</color>, <color=#92fc63>Fu Po's Flawless Plan</color>, and <color=#92fc63>Spring Fireworks Party</color>.
+· Opening envelopes will grant you a number of randomly chosen rewards, potentially including Gems.
+· Your first 15 envelopes are Special Red Envelopes and will yield better rewards than regular Red Envelopes. These will be prioritized when opening Red Envelopes.
+· After opening 15 envelopes in total, you will receive <color=#92fc63>a rerun skin for Fu Shun</color>, and after 25 envelopes you'll also receive <color=#92fc63>a new skin for Long Island</color>.]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.island_trade_cnt_inadequate = {
 	tip = "Insufficient Amount"
+}
+
+
+_G.pg.base.gametip.drawdiary_ui_2026 = {
+	tip = "Drawing Book"
 }

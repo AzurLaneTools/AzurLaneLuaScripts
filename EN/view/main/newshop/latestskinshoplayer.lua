@@ -746,17 +746,20 @@ end
 slot0.FlushChangeSkin = function(slot0, slot1)
 	slot2 = ShipSkin.GetChangeSkinGroupId(slot0.skinId)
 	slot3 = ShipSkin.GetChangeSkinCustomDataId(slot0.skinId, "hide_shop")
+	slot5 = false
+	slot6 = false
+	slot7 = slot0.changeSkinToggle:IsAsmrSkin() and true or false
 
 	if pg.gameset.changeskin_switch_block and slot4.description and table.contains(slot4.description, slot2) then
-		slot6 = HXSet.isHx()
+		slot9 = HXSet.isHx()
 
-		if slot1.buyCount <= 0 and slot6 then
-			setActive(slot0.changeSkin, false)
+		if slot1.buyCount <= 0 and slot9 then
+			slot6 = true
 		end
 	end
 
 	if slot3 and slot3 == 1 then
-		setActive(slot0.changeSkin, false)
+		slot5 = true
 	end
 
 	if not slot0.changeSkinId then
@@ -768,7 +771,12 @@ slot0.FlushChangeSkin = function(slot0, slot1)
 	end
 
 	slot0.changeSkinToggle:setSkinData(slot0.skinId)
-	setActive(slot0.changeSkin, not slot0.changeSkinToggle:IsAsmrSkin())
+
+	if slot5 or slot6 or slot7 then
+		setActive(slot0.changeSkin, false)
+	else
+		setActive(slot0.changeSkin, true)
+	end
 end
 
 slot0.GCHandle = function(slot0)

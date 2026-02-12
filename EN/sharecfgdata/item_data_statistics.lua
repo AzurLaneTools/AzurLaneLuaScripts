@@ -10708,6 +10708,95 @@ Prototype Twin 410mm mod.A Main Gun Mount T0 Design]],
 }
 
 
+_G.pg.base.item_data_statistics[14008] = {
+	open_directly = 0,
+	name = "Prototype Weapon Blueprint - Series 8",
+	type = 13,
+	display = [[
+Can be converted to one of the following SR gear blueprints:
+Prototype Triple 283mm/54.5 Main Gun Mount T0 Design
+Prototype Triple 406mm/45 MK7 Main Gun Mount T0 Design
+Prototype Sextuple 20mm Scotti Model 1941 Anti-Air Gun T0 Design
+Prototype Quadruple 533mm Si 270 Torpedo Mount T0 Design
+Prototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount T0 Design]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/14008",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 14008,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			13050,
+			1
+		},
+		{
+			2,
+			13051,
+			1
+		},
+		{
+			2,
+			13052,
+			1
+		},
+		{
+			2,
+			13053,
+			1
+		},
+		{
+			2,
+			13054,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			13050,
+			1
+		},
+		{
+			2,
+			13051,
+			1
+		},
+		{
+			2,
+			13052,
+			1
+		},
+		{
+			2,
+			13053,
+			1
+		},
+		{
+			2,
+			13054,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[15001] = {
 	open_directly = 0,
 	name = "Medal of Honor",
@@ -14202,6 +14291,40 @@ _G.pg.base.item_data_statistics[20106] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 20106,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20107] = {
+	open_directly = 0,
+	name = "Combat Data Pack - Series 7",
+	type = 18,
+	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 7 Combat Data Collection missions. <color=#ff5c5c>￼(Can be converted into Prototype Cores).￼</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20107",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20107,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -28364,6 +28487,131 @@ _G.pg.base.item_data_statistics[30379] = {
 		{
 			9,
 			4293,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30380] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Spring Festival Auction)",
+	type = 11,
+	display = "Contains a random Spring Festival Auction-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxxinchunpaimaihui",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30377",
+	id = 30380,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4294,
+			1
+		},
+		{
+			9,
+			4295,
+			1
+		},
+		{
+			9,
+			4296,
+			1
+		},
+		{
+			9,
+			4297,
+			1
+		},
+		{
+			9,
+			4298,
+			1
+		},
+		{
+			9,
+			4299,
+			1
+		},
+		{
+			9,
+			4300,
+			1
+		},
+		{
+			9,
+			4301,
+			1
+		},
+		{
+			9,
+			4302,
+			1
+		},
+		{
+			9,
+			4303,
+			1
+		},
+		{
+			9,
+			4304,
+			1
+		},
+		{
+			9,
+			4305,
+			1
+		},
+		{
+			9,
+			4306,
+			1
+		},
+		{
+			9,
+			4307,
+			1
+		},
+		{
+			9,
+			4308,
+			1
+		},
+		{
+			9,
+			4309,
+			1
+		},
+		{
+			9,
+			4310,
+			1
+		},
+		{
+			9,
+			4311,
 			1
 		}
 	},
@@ -43512,6 +43760,219 @@ _G.pg.base.item_data_statistics[30563] = {
 		{
 			9,
 			4293,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30564] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Spring Festival Auction)",
+	type = 13,
+	display = "Can be opened to receive 1 Spring Festival Auction-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxxinchunpaimaihuizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30564,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4294,
+			1
+		},
+		{
+			9,
+			4295,
+			1
+		},
+		{
+			9,
+			4296,
+			1
+		},
+		{
+			9,
+			4297,
+			1
+		},
+		{
+			9,
+			4298,
+			1
+		},
+		{
+			9,
+			4299,
+			1
+		},
+		{
+			9,
+			4300,
+			1
+		},
+		{
+			9,
+			4301,
+			1
+		},
+		{
+			9,
+			4302,
+			1
+		},
+		{
+			9,
+			4303,
+			1
+		},
+		{
+			9,
+			4304,
+			1
+		},
+		{
+			9,
+			4305,
+			1
+		},
+		{
+			9,
+			4306,
+			1
+		},
+		{
+			9,
+			4307,
+			1
+		},
+		{
+			9,
+			4308,
+			1
+		},
+		{
+			9,
+			4309,
+			1
+		},
+		{
+			9,
+			4310,
+			1
+		},
+		{
+			9,
+			4311,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4294,
+			1
+		},
+		{
+			9,
+			4295,
+			1
+		},
+		{
+			9,
+			4296,
+			1
+		},
+		{
+			9,
+			4297,
+			1
+		},
+		{
+			9,
+			4298,
+			1
+		},
+		{
+			9,
+			4299,
+			1
+		},
+		{
+			9,
+			4300,
+			1
+		},
+		{
+			9,
+			4301,
+			1
+		},
+		{
+			9,
+			4302,
+			1
+		},
+		{
+			9,
+			4303,
+			1
+		},
+		{
+			9,
+			4304,
+			1
+		},
+		{
+			9,
+			4305,
+			1
+		},
+		{
+			9,
+			4306,
+			1
+		},
+		{
+			9,
+			4307,
+			1
+		},
+		{
+			9,
+			4308,
+			1
+		},
+		{
+			9,
+			4309,
+			1
+		},
+		{
+			9,
+			4310,
+			1
+		},
+		{
+			9,
+			4311,
 			1
 		}
 	},
@@ -92531,6 +92992,130 @@ _G.pg.base.item_data_statistics[44017] = {
 }
 
 
+_G.pg.base.item_data_statistics[44018] = {
+	open_directly = 0,
+	name = "中式信封",
+	type = 23,
+	display = "中式信封",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/loveletter_cn",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44018,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[44019] = {
+	open_directly = 0,
+	name = "日式信封",
+	type = 23,
+	display = "日式信封",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/loveletter_jp",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44019,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[44020] = {
+	open_directly = 0,
+	name = "西式信封",
+	type = 23,
+	display = "西式信封",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/loveletter_en",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44020,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[44021] = {
+	open_directly = 0,
+	name = "META信封",
+	type = 23,
+	display = "META信封",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/loveletter_meta",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44021,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[50001] = {
 	open_directly = 0,
 	name = "Oxy-cola",
@@ -107412,6 +107997,266 @@ _G.pg.base.item_data_statistics[60572] = {
 }
 
 
+_G.pg.base.item_data_statistics[60573] = {
+	open_directly = 0,
+	name = "Spring Festival's Card (2026)",
+	type = 21,
+	display = "May the New Year's fortunes be yours. Use to receive an SR shipgirl of your choosing and a commemorative item.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60573,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3201,
+		3202,
+		3203,
+		3204,
+		3205,
+		3206,
+		3207
+	},
+	limit = {},
+	open_ui = {
+		"greeting_year",
+		"t_greeting"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60574] = {
+	open_directly = 0,
+	name = "Taihou's Spring Festival's Card",
+	type = 1,
+	display = "New Year's greetings (LNY '25) given to you by Taihou.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60574,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60575] = {
+	open_directly = 0,
+	name = "Hu Pen's Spring Festival's Card",
+	type = 1,
+	display = "A Spring Festival's card from Hu Pen.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60575,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60576] = {
+	open_directly = 0,
+	name = "Lung Wu's Spring Festival's Card",
+	type = 1,
+	display = "A Spring Festival's card from Lung Wu.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60576,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60577] = {
+	open_directly = 0,
+	name = "Fu Shun's Spring Festival's Card",
+	type = 1,
+	display = "A Spring Festival's card from Fu Shun.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60577,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60578] = {
+	open_directly = 0,
+	name = "Jeanne d'Arc's Spring Festival's Card",
+	type = 1,
+	display = "A Spring Festival's card from Jeanne d'Arc.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60578,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60579] = {
+	open_directly = 0,
+	name = "Centaur's Spring Festival's Card",
+	type = 1,
+	display = "A Spring Festival's card from Centaur.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60579,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60580] = {
+	open_directly = 0,
+	name = "Chi An's Spring Festival's Card",
+	type = 1,
+	display = "A Spring Festival's card from Chi An.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60580,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68133] = {
 	open_directly = 0,
 	name = "换装体验券(隐秘之拥的呼唤)",
@@ -109356,6 +110201,73 @@ _G.pg.base.item_data_statistics[81231] = {
 		{
 			2,
 			86223,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81232] = {
+	open_directly = 1,
+	name = "Spring Lucky Box 2026 A",
+	type = 17,
+	display = "Contains a random Spring Lucky Box 2026 A skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai32",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998328",
+	id = 81232,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86224,
 			1
 		},
 		{
@@ -113707,5 +114619,36 @@ _G.pg.base.item_data_statistics[180009] = {
 		180009,
 		100
 	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180010] = {
+	open_directly = 0,
+	name = "Lovely Mystery Box",
+	type = 1,
+	display = "A present packed to the seams with love. Open to receive a random Affinity-increasing gift (excluding rare gifts).",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox01",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 180010,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
 	limit = {}
 }

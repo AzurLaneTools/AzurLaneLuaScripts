@@ -44,6 +44,14 @@ slot0.GetRemarks = function(slot0)
 	return slot0:getConfig("remarks")
 end
 
+slot0.GetGroupId = function(slot0)
+	return slot0:getConfig("ship_group")
+end
+
+slot0.ShouldApplyHiddenPartInTimeline = function(slot0)
+	return slot0:getConfig("hidden_part_apply_in_timeline") == 1
+end
+
 slot0.GetHiddenPartIcons = function(slot0, slot1)
 	slot2 = slot0:getConfig("hidden_part")
 	slot3 = {}
