@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					12
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					11
+					25
 				},
 				{
 					23,
@@ -36,9 +36,19 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
+		param = {
+			"scene skinshop",
+			{}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp3",
 		param = {
 			"scene get boat",
 			{
@@ -50,8 +60,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					12
 				},
 				{
 					0,
@@ -63,44 +73,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 3,
-		pic = "temp3",
-		param = {
-			"scene core activity",
-			{
-				coreName = "SardiniaSPCoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					1,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					12
+					26
 				},
 				{
 					14,
@@ -115,17 +88,17 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene charge",
+			"scene core activity",
 			{
-				wrap = 4
+				coreName = "SpringFestival2026CoreActivityUI"
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					12
 				},
 				{
 					0,
@@ -137,10 +110,10 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					11
+					26
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -152,17 +125,17 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp5",
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
+				wrap = 4
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					12
 				},
 				{
 					0,
@@ -174,7 +147,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					11
+					25
 				},
 				{
 					23,
@@ -189,14 +162,17 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene court yard"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					12
 				},
 				{
 					0,
@@ -208,7 +184,75 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					11
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					18
 				},
 				{
 					23,
@@ -221,82 +265,11 @@ pg.activity_banner = {
 	{
 		time = "stop",
 		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"crusing"
-		},
-		time = {
-			{
-				{
-					2026,
-					2,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
 			"scene Cryptolalia",
 			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					1,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -348,8 +321,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					12
 				},
 				{
 					0,
@@ -361,7 +334,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					11
+					25
 				},
 				{
 					23,
@@ -373,10 +346,35 @@ pg.activity_banner = {
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
-		time = "stop",
 		type = 10,
 		id = 100,
-		pic = "dumpling"
+		pic = "dumpling",
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[101] = {
 		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -401,35 +399,10 @@ pg.activity_banner = {
 	},
 	[104] = {
 		param = "拐杖糖|據說最原始的拐杖糖是白色的呢。<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
+		time = "stop",
 		type = 10,
 		id = 104,
-		pic = "christmas",
-		time = {
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "christmas"
 	},
 	[105] = {
 		param = "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
@@ -440,35 +413,10 @@ pg.activity_banner = {
 	},
 	[198] = {
 		param = "",
+		time = "stop",
 		type = 13,
 		id = 198,
-		pic = "christmas",
-		time = {
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "christmas"
 	},
 	[199] = {
 		param = "",
@@ -479,7 +427,7 @@ pg.activity_banner = {
 	},
 	[200] = {
 		param = "",
-		time = "stop",
+		time = "always",
 		type = 13,
 		id = 200,
 		pic = "springfes"
@@ -493,7 +441,7 @@ pg.activity_banner = {
 	},
 	[202] = {
 		param = "",
-		time = "always",
+		time = "stop",
 		type = 13,
 		id = 202,
 		pic = "winter"

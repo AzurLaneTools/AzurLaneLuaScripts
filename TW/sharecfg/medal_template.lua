@@ -2699,6 +2699,27 @@ pg.medal_template = {
 		explain1 = "「光影風尚，拍攝進行時！」",
 		explain2 = "活動紀念"
 	},
+	[200131] = {
+		target_id = "50405",
+		name = "春宴懷玉紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "溫潤美玉靜陳，滿庭暗香浮動，一切因緣邂逅，皆待君來。\n步入此間的你，是否就是那位識玉的知音？",
+		next = 0,
+		icon = "9131",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9131",
+		condition = "收集8個「春宴懷玉香滿庭」紀念貼紙。",
+		rank = 1,
+		id = 200131,
+		explain1 = "「春宴懷玉香滿庭」",
+		explain2 = "活動紀念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2822,6 +2843,7 @@ pg.medal_template = {
 		200091,
 		200101,
 		200111,
-		200121
+		200121,
+		200131
 	}
 }

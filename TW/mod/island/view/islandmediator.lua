@@ -652,7 +652,6 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_REMOVE_EXPIRED_TICKET_DONE,
 		GAME.ISLAND_USE_TICKET_DONE,
 		GAME.ISLAND_EXCHANGE_ITEM_DONE,
-		GAME.ISLAND_RESET_SEASON_DONE,
 		GAME.ISLAND_GET_SEASON_PT_AWARD_DONE,
 		GAME.ISLAND_CONVERT_SEASON_PT_DONE,
 		GAME.ISLAND_GET_SEASON_RANK_DONE,
@@ -691,6 +690,9 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_EXCHANGE_SHIP_ORDER_DONE,
 		GAME.ISLAND_RESET_SHIP_ORDER_DONE,
 		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE,
+		NotificationProxy.FRIEND_REQUEST_REMOVED,
+		NotificationProxy.FRIEND_REQUEST_ADDED,
+		PlayerProxy.UPDATED,
 		GAME.ISLAND_SHOP_OP_DONE,
 		GAME.ISLAND_DROPMAIN_AWARD,
 		GAME.ISLAND_CHANGE_COMMANDER_DRESS_DONE,
@@ -787,23 +789,6 @@ slot0._handleNotification = function(slot0, slot1)
 		end)
 	elseif slot2 == GAME.ISLAND_SET_TRACE_TASK_DONE then
 		slot0.viewComponent:OnUpdateTrackTask(slot3.traceId, slot3.type)
-	elseif slot2 == GAME.ISLAND_RESET_SEASON_DONE then
-		seriesAsync({
-			function (slot0)
-				uv0.viewComponent:ShowMsgbox({
-					hideNo = true,
-					type = IslandMsgBox.TYPE_COMMON,
-					content = i18n("island_season_reset"),
-					onHide = slot0
-				})
-			end
-		}, function ()
-			uv0.viewComponent:ShowMsgbox({
-				type = IslandMsgBox.TYPE_SEASON_RESET,
-				body = uv1,
-				onHide = uv1.callback
-			})
-		end)
 	elseif slot2 == GAME.ISLAND_REMOVE_EXPIRED_TICKET_DONE then
 		slot0.viewComponent:ShowMsgbox({
 			hideNo = true,
@@ -824,7 +809,11 @@ slot0._handleNotification = function(slot0, slot1)
 				end
 			end,
 			function (slot0)
-				uv0.viewComponent:OpenPage(IslandRestaurantSettlePage, uv1, slot0)
+				if uv0.isSpEvent then
+					uv1.viewComponent:OpenPage(IslandRestaurantSettlePage4Event, uv0, slot0)
+				else
+					uv1.viewComponent:OpenPage(IslandRestaurantSettlePage, uv0, slot0)
+				end
 			end
 		}, function ()
 			uv0.viewComponent:HandleAwardDisplay(uv1.dropData)

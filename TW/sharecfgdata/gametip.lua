@@ -3161,18 +3161,18 @@ _G.pg.base.gametip.coloring_help_tip = {
 2.繪圖區域可以透過雙指拉伸或縮小。
 3.上色會對同色單元格自動上色，直到顏料耗盡或塗滿。
 4.上色會消耗顏料，剩餘顏料為0時不可以上色。
-5.顏料可透過活動任務累計消耗石油取得。
-6.完成上色可以獲得獎勵。
+5.顏料可透過活動任務累積消耗石油獲得。
+6.完成上色可獲得獎勵。
 7.各圖完成獎勵明細如下：
 	完成圖1獲得T3隨機教材 x2；
-	完成圖2獲得紅包 x2；
-	完成圖3獲得玉竹泡泡機*1；
-	完成圖4獲得紅包 x2；
-	完成圖5獲得玉竹泡泡機*1；
-	完成圖6獲得紅包 x2；
-	完成圖7獲得鞍山x1、紅包  x1。
+	完成圖2獲得紅包 x1；
+	完成圖3獲得應瑞 x1；
+	完成圖4獲得紅包 x1；
+	完成圖5獲得紅包 x2；
+	完成圖6獲得紅包 x1；
+	完成圖7獲得肇和 x1、 紅包 x2。
 8.活動結束後，未消耗的顏料會被清除。
-9.<color=#92fc63>1月29日</color>為止每天解鎖一個可完成的繪圖。]]
+9.<color=#92fc63>2月18日</color>為止每天解鎖一個可完成的繪圖。]]
 		}
 	}
 }
@@ -12115,12 +12115,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "島風、阿達爾貝特親王、築摩 建造追加！"
+	tip = "建武 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "清波、南安普敦 建造追加！"
+	tip = "海容、長風 建造追加"
 }
 
 
@@ -14534,7 +14534,7 @@ _G.pg.base.gametip.limit_skin_time_overtime = {
 
 
 _G.pg.base.gametip.limit_skin_time_before_maintenance = {
-	tip = "$1月$2日維護前"
+	tip = "$1月$2日維修前"
 }
 
 
@@ -39465,6 +39465,46 @@ _G.pg.base.gametip.island_word_go = {
 }
 
 
+_G.pg.base.gametip.ship_gift = {
+	tip = "禮物贈送"
+}
+
+
+_G.pg.base.gametip.ship_gift_cnt = {
+	tip = "數量："
+}
+
+
+_G.pg.base.gametip.ship_gift2 = {
+	tip = "贈送"
+}
+
+
+_G.pg.base.gametip.shipyard_gift_exceed = {
+	tip = "禮物兌換券超過持有上限時，無法獲得。"
+}
+
+
+_G.pg.base.gametip.shipyard_gift_non_existent = {
+	tip = "沒有可贈送的禮物。"
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_exceed = {
+	tip = "好感度將溢出，確認繼續嗎？"
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_threshold = {
+	tip = "好感度已達目前上限，誓約後可突破目前上限。"
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_max = {
+	tip = "好感度已達目前上限。"
+}
+
+
 _G.pg.base.gametip.graphi_api_switch_opengl = {
 	tip = "部分機型使用預設模式會出現黑畫面的問題，切換模式後需要重新進入遊戲，是否立即切換？"
 }
@@ -39865,6 +39905,16 @@ _G.pg.base.gametip.ninja_game_cant_pickup = {
 
 _G.pg.base.gametip.ninja_game_booktip = {
 	tip = "*在「城主手冊」中招募援軍、修復建築可推動城市修復階段。"
+}
+
+
+_G.pg.base.gametip.gift_giving_prefer = {
+	tip = "看起來很喜歡你的禮物。"
+}
+
+
+_G.pg.base.gametip.gift_giving_dislike = {
+	tip = "對你送的禮物表示疑惑。"
 }
 
 
@@ -40671,4 +40721,203 @@ _G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
 ·完成【劇情模式】的全部內容後，可獲得限定紀念外觀<color=#92fc63>「愛之甜心炮彈」</color>。]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.pac_game_high_score_tip = {
+	tip = "最佳成績：$1"
+}
+
+
+_G.pg.base.gametip.pac_game_rule_btn = {
+	tip = "遊戲規則"
+}
+
+
+_G.pg.base.gametip.pac_game_start_btn = {
+	tip = "開始遊戲"
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_time_desc = {
+	tip = "用時："
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_score = {
+	tip = "得分："
+}
+
+
+_G.pg.base.gametip.mini_game_continue = {
+	tip = "繼續"
+}
+
+
+_G.pg.base.gametip.mini_game_over_game = {
+	tip = "結束遊戲"
+}
+
+
+_G.pg.base.gametip.pac_minigame_help = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.<color=#92fc63>2月26日</color>為止每日0點開放<color=#92fc63>1</color>回新遊戲，總計<color=#92fc63>7</color>回，可累計。完成7回遊戲可以獲得包括飛雲在內的豐富獎勵。
+遊戲規則：
+1.每局遊戲不限時間，被鞍山、長風、彰武、海籌抓住後遊戲結束
+2.吃到金豆獲得積分
+3.吃到糖葫蘆獲得飛奔效果，被飛雲碰到的角色將返回起點
+4.完成遊戲或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_1 = {
+	tip = "春宴懷玉香滿庭"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_2 = {
+	tip = "伏波的完美計劃"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_3 = {
+	tip = "啾啾大酒樓"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_4 = {
+	tip = "新歲祝福"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_5 = {
+	tip = "新春煙火會"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_6 = {
+	tip = "飛雲大冒險"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_7 = {
+	tip = "港區時尚特刊"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_1 = {
+	tip = "出擊可獲得經驗"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_2 = {
+	tip = "每日領取"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_3 = {
+	tip = "情書收藏"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4 = {
+	tip = "是否給予$1額外甜蜜回憶"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_5 = {
+	tip = "珍藏回憶"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_6 = {
+	tip = "啟用"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_7 = {
+	tip = "※用於回憶的禮物不會被消耗"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_8 = {
+	tip = "回憶"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_9 = {
+	tip = "$1年情人節禮物"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_10 = {
+	tip = "累計幸福共鳴"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_11 = {
+	tip = "確定選擇$1作為心動邀約？"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_12 = {
+	tip = "※活動中可隨時更換邀約對象（剩餘$1/$2）"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_13 = {
+	tip = "新的情人節信件已解鎖"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_14 = {
+	tip = "$1幸福共鳴勳章"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_15 = {
+	tip = "已滑動至最頂端"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_16 = {
+	tip = "暫無獎勵可領取"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_17 = {
+	tip = "禮物啟動成功"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_18 = {
+	tip = "目前角色已被選擇"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_19 = {
+	tip = "有禮物尚未被選擇"
+}
+
+
+_G.pg.base.gametip.help_chunjie_jiulou_2026 = {
+	tip = {
+		{
+			info = [[
+活動說明：
+1.活動期間可以透過<color=#92fc63>「飛雲大冒險」</color>、<color=#92fc63>「繪圖日記」</color>、<color=#92fc63>「伏波的完美計畫」</color>、<color=#92fc63>「新春煙火會」</color>獲得紅包，開啟紅包可以獲得鑽石及其他豐厚獎勵
+2.紅包分為bonus和普通紅包，其中有<color=#92fc 63>15</color>個bonus紅包，其餘為普通紅包，開啟紅包時優先開啟bonus紅包，bonus紅包開完後開啟普通紅包
+3.累計打開<color=#92fc63>15</color>個紅包，可獲得<color=#92fc63>「撫順」限定換裝</color>，累計開啟<color=#92fc63>25</color>個紅包，可取得<color=#92fc63>「長島」限定換裝</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.drawdiary_ui_2026 = {
+	tip = "繪圖日記"
 }

@@ -3482,6 +3482,31 @@ pg.furniture_data_template = setmetatable({
 			334123,
 			334301,
 			334302
+		},
+		[135] = {
+			335001,
+			335002,
+			335101,
+			335102,
+			335103,
+			335104,
+			335105,
+			335106,
+			335107,
+			335108,
+			335109,
+			335110,
+			335111,
+			335112,
+			335113,
+			335114,
+			335115,
+			335116,
+			335117,
+			335118,
+			335119,
+			335301,
+			335302
 		}
 	},
 	get_id_list_by_tag = {
@@ -5592,7 +5617,25 @@ pg.furniture_data_template = setmetatable({
 			334119,
 			334120,
 			334121,
-			334122
+			334122,
+			335101,
+			335102,
+			335103,
+			335104,
+			335105,
+			335106,
+			335107,
+			335108,
+			335109,
+			335110,
+			335111,
+			335112,
+			335113,
+			335114,
+			335115,
+			335116,
+			335117,
+			335118
 		},
 		{
 			1108,
@@ -6154,7 +6197,8 @@ pg.furniture_data_template = setmetatable({
 			332113,
 			331309,
 			333119,
-			334123
+			334123,
+			335119
 		},
 		[4] = {
 			1001,
@@ -6271,7 +6315,8 @@ pg.furniture_data_template = setmetatable({
 			332001,
 			331001,
 			333001,
-			334001
+			334001,
+			335001
 		},
 		[3] = {
 			1002,
@@ -6389,7 +6434,8 @@ pg.furniture_data_template = setmetatable({
 			332002,
 			331002,
 			333002,
-			334002
+			334002,
+			335002
 		},
 		[5] = {
 			1301,
@@ -6750,7 +6796,9 @@ pg.furniture_data_template = setmetatable({
 			331308,
 			333301,
 			334301,
-			334302
+			334302,
+			335301,
+			335302
 		}
 	},
 	get_id_list_by_type = {
@@ -6870,7 +6918,8 @@ pg.furniture_data_template = setmetatable({
 			332002,
 			331002,
 			333002,
-			334002
+			334002,
+			335002
 		},
 		[7] = {
 			1,
@@ -9166,7 +9215,24 @@ pg.furniture_data_template = setmetatable({
 			334120,
 			334121,
 			334122,
-			334123
+			334123,
+			335101,
+			335102,
+			335104,
+			335105,
+			335106,
+			335107,
+			335108,
+			335109,
+			335110,
+			335111,
+			335112,
+			335114,
+			335115,
+			335116,
+			335117,
+			335118,
+			335119
 		},
 		[11] = {
 			131,
@@ -9223,7 +9289,8 @@ pg.furniture_data_template = setmetatable({
 			100037,
 			303103,
 			303113,
-			321116
+			321116,
+			335113
 		},
 		[15] = {
 			251
@@ -9355,7 +9422,8 @@ pg.furniture_data_template = setmetatable({
 			332001,
 			331001,
 			333001,
-			334001
+			334001,
+			335001
 		},
 		[5] = {
 			1101,
@@ -9510,7 +9578,8 @@ pg.furniture_data_template = setmetatable({
 			331109,
 			331110,
 			333106,
-			334104
+			334104,
+			335103
 		},
 		[3] = {
 			1108,
@@ -9991,7 +10060,9 @@ pg.furniture_data_template = setmetatable({
 			331307,
 			333301,
 			334301,
-			334302
+			334302,
+			335301,
+			335302
 		},
 		[8] = {
 			17121
@@ -13287,7 +13358,30 @@ pg.furniture_data_template = setmetatable({
 		334122,
 		334123,
 		334301,
-		334302
+		334302,
+		335001,
+		335002,
+		335101,
+		335102,
+		335103,
+		335104,
+		335105,
+		335106,
+		335107,
+		335108,
+		335109,
+		335110,
+		335111,
+		335112,
+		335113,
+		335114,
+		335115,
+		335116,
+		335117,
+		335118,
+		335119,
+		335301,
+		335302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -162426,6 +162520,1083 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[335001] = {
+		can_rotate = 0,
+		describe = "踏入拍賣會，享受舉牌競價的喜悅與心跳吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/dibancj8",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "新春拍賣會地板",
+		advice = 0,
+		tag = 4,
+		id = 335001,
+		icon = "dibancj8icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335002] = {
+		can_rotate = 0,
+		describe = "踏入拍賣會，享受舉牌競價的喜悅與心跳吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "新春拍賣會壁紙",
+		advice = 0,
+		id = 335002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbicj8icon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335101] = {
+		can_rotate = 0,
+		describe = "競拍啾啾，線上出價",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會競拍啾1",
+		advice = 0,
+		id = 335101,
+		tag = 1,
+		comfortable = 3,
+		icon = "changyicj8icon",
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changyicj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335102] = {
+		can_rotate = 0,
+		describe = "整齊排列的席案，承載對珍寶的熱情與期待",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/dengzicj8",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "拍賣會普通椅",
+		advice = 0,
+		id = 335102,
+		tag = 1,
+		comfortable = 1,
+		icon = "dengzicj8icon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-10.5,
+					43.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335103] = {
+		can_rotate = 0,
+		describe = "踩著錦紋地毯，走向你心儀的寶貝吧~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/ditancj8",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會地毯",
+		advice = 0,
+		tag = 1,
+		id = 335103,
+		icon = "ditancj8icon",
+		comfortable = 3,
+		size = {
+			6,
+			24
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335104] = {
+		can_rotate = 0,
+		describe = "搖一搖，新的一年財運亨通~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會發財樹",
+		advice = 0,
+		id = 335104,
+		tag = 1,
+		comfortable = 2,
+		icon = "facaishucj8icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"facaishucj8",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335105] = {
+		can_rotate = 0,
+		describe = "競拍啾啾，線上跟價",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會競拍啾2",
+		advice = 0,
+		id = 335105,
+		tag = 1,
+		comfortable = 2,
+		icon = "houpaijiucj8icon",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"houpaijiucj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335106] = {
+		can_rotate = 0,
+		describe = "客官這邊請，樓上競價視野比較好哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/louticj8",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會樓梯",
+		advice = 0,
+		tag = 1,
+		id = 335106,
+		icon = "louticj8icon",
+		comfortable = 2,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335107] = {
+		can_rotate = 0,
+		describe = "晃一晃，收下你的開年紅包~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會梅花樹",
+		advice = 0,
+		id = 335107,
+		tag = 1,
+		comfortable = 2,
+		icon = "meihuashucj8icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"meihuashucj8",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335108] = {
+		can_rotate = 0,
+		describe = "一萬鑽石一次，兩次，三次——成交！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會拍賣台",
+		advice = 0,
+		id = 335108,
+		tag = 1,
+		comfortable = 4,
+		icon = "paimaitaicj8icon",
+		size = {
+			11,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paimaitaicj8",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335109] = {
+		can_rotate = 0,
+		describe = "整齊排列的席案，承載對珍寶的熱情與期待",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/putongzhuocj8",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "拍賣會普通桌",
+		advice = 0,
+		tag = 1,
+		id = 335109,
+		icon = "putongzhuocj8icon",
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335110] = {
+		can_rotate = 0,
+		describe = "燈籠高高掛起，新年的福氣也隨之節節高升~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "拍賣會掛燈1",
+		advice = 0,
+		id = 335110,
+		tag = 1,
+		comfortable = 3,
+		icon = "tiandengcj8icon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tiandengcj8",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335111] = {
+		can_rotate = 0,
+		describe = "置於上賓之位的席案，於喧囂中獨享從容與尊崇",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/yizi1cj8",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "拍賣會貴賓椅1",
+		advice = 0,
+		tag = 1,
+		id = 335111,
+		icon = "yizi1cj8icon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335112] = {
+		can_rotate = 0,
+		describe = "置於上賓之位的席案，於喧囂中獨享從容與尊崇",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/yizi2cj8",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "拍賣會貴賓椅2",
+		advice = 0,
+		id = 335112,
+		tag = 1,
+		comfortable = 1,
+		icon = "yizi2cj8icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13.8,
+					9.9
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335113] = {
+		can_rotate = 0,
+		describe = "專業啾啾，線上呈寶",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會呈寶啾",
+		advice = 0,
+		id = 335113,
+		tag = 1,
+		comfortable = 2,
+		icon = "zhanshijiucj8icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshijiucj8",
+				"normal"
+			},
+			[3] = {
+				{
+					159.72,
+					42
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[335114] = {
+		can_rotate = 0,
+		describe = "每件珍品，都獨一無二",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會展示台1",
+		advice = 0,
+		id = 335114,
+		tag = 1,
+		comfortable = 2,
+		icon = "zhanshitai1cj8icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshitai1cj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335115] = {
+		can_rotate = 0,
+		describe = "每件珍品，都獨一無二",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會展示台2",
+		advice = 0,
+		id = 335115,
+		tag = 1,
+		comfortable = 2,
+		icon = "zhanshitai2cj8icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshitai2cj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335116] = {
+		can_rotate = 0,
+		describe = "上賓的席案，於喧囂中獨享從容與尊崇",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "拍賣會貴賓桌",
+		advice = 0,
+		id = 335116,
+		tag = 1,
+		comfortable = 3,
+		icon = "zhuozicj8icon",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhuozicj8",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335117] = {
+		can_rotate = 0,
+		describe = "時間不等人，珍寶也一樣！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會座鐘",
+		advice = 0,
+		id = 335117,
+		tag = 1,
+		comfortable = 3,
+		icon = "zuozhongcj8icon",
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zuozhongcj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335118] = {
+		can_rotate = 0,
+		describe = "燈籠高高掛起，新年的福氣也隨之節節高升~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "拍賣會掛燈2",
+		advice = 0,
+		id = 335118,
+		tag = 1,
+		comfortable = 2,
+		icon = "tiandeng2cj8icon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tiandeng2cj8",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335119] = {
+		advice = 0,
+		name = "百寶錦囊",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "baibaodaicj8icon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 135,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 335119,
+		comfortable = 4,
+		describe = "內藏乾坤的百寶錦囊，開啟時只見一片璀璨光華，恍若清泉漱心，不染塵埃~",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baibaodaicj8B",
+				"normal"
+			},
+			{
+				"baibaodaicj8T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					6.8,
+					88.1
+				},
+				{
+					250,
+					220
+				},
+				"cj8/baibaodaicj8_mask"
+			},
+			{
+				7,
+				-90
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[335301] = {
+		can_rotate = 0,
+		describe = "暖暖的燈光，為會場增添幾分溫馨與熱鬧",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "拍賣會壁燈",
+		advice = 0,
+		id = 335301,
+		tag = 5,
+		comfortable = 2,
+		icon = "bidengcj8icon",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bidengcj8",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335302] = {
+		can_rotate = 0,
+		describe = "一起沾沾新春的福氣吧~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "拍賣會牆飾",
+		advice = 0,
+		id = 335302,
+		tag = 5,
+		comfortable = 1,
+		icon = "qiangshicj8icon",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangshicj8",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	}

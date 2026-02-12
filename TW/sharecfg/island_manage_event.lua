@@ -5,7 +5,7 @@ pg.island_manage_event = {
 		influence_bonus = 10,
 		id = 1,
 		banner = 0,
-		desc = "大批啾啾旅行团访问岛屿开发区……",
+		desc = "啾啾旅行团拜访岛屿开发区，在$1订餐",
 		event_effect = {
 			{
 				10,
@@ -18,7 +18,7 @@ pg.island_manage_event = {
 		influence_bonus = 20,
 		id = 2,
 		banner = 0,
-		desc = "岛屿开发团队准备一起聚会……",
+		desc = "岛屿开发团队准备一起在$1聚餐",
 		event_effect = {
 			{
 				20,
@@ -31,7 +31,7 @@ pg.island_manage_event = {
 		influence_bonus = 30,
 		id = 3,
 		banner = 0,
-		desc = "今日的岛屿最佳美食已经选出，快去尝尝吧！",
+		desc = "今日的岛屿最佳美食已经选出，快去$1尝尝吧",
 		event_effect = {
 			{
 				30,

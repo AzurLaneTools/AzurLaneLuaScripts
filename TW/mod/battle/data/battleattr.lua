@@ -281,6 +281,8 @@ slot0.SetPlayerAttrFromOutBattle = function(slot0, slot1, slot2)
 	slot3.aimBiasDecaySpeed = 0
 	slot3.aimBiasDecaySpeedRatio = 0
 	slot3.aimBiasExtraACC = 0
+	slot3.baseScale = slot1.scale / 50
+	slot3.modelScale = slot3.baseScale
 	slot3.healingRate = 1
 	slot3.DMG_TAG_EHC_N_99 = slot1[AttributeType.AntiSiren] or 0
 	slot3.comboTag = "combo_" .. slot3.battleUID
@@ -346,6 +348,8 @@ slot0.SetEnemyAttr = function(slot0, slot1)
 	slot4.repressReduce = 1
 	slot4.healingRate = 1
 	slot4.comboTag = "combo_" .. slot4.battleUID
+	slot4.baseScale = slot2.scale / 50
+	slot4.modelScale = slot4.baseScale
 	slot4.labelTag = {}
 	slot4.TargetChoise = {}
 	slot4.guardian = {}
@@ -403,6 +407,8 @@ slot0.SetMinionAttr = function(slot0, slot1)
 	slot6.id = slot3.id
 	slot6.level = slot5
 	slot6.formulaLevel = slot5
+	slot6.baseScale = slot4.scale / 50
+	slot6.modelScale = slot6.baseScale
 
 	slot7 = function(slot0, slot1)
 		if uv0[slot0 .. "_growth"] == 0 then

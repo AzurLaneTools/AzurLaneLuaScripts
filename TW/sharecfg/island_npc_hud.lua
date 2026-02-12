@@ -17,7 +17,8 @@ pg.island_npc_hud = setmetatable({
 		1013,
 		1014,
 		1015,
-		1016
+		1016,
+		1018
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -124,7 +125,7 @@ pg.base.island_npc_hud = {
 		title = "神秘商人",
 		name = "珂汀 ",
 		id = 1015,
-		icon = "1015",
+		icon = "",
 		show_condition = {}
 	},
 	[1016] = {
@@ -132,6 +133,13 @@ pg.base.island_npc_hud = {
 		name = "佩芮 ",
 		id = 1016,
 		icon = "",
+		show_condition = {}
+	},
+	[1018] = {
+		title = "渔场管理员",
+		name = "布莉缇",
+		id = 1018,
+		icon = "1018",
 		show_condition = {}
 	}
 }

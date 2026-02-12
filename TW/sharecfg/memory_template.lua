@@ -3721,6 +3721,20 @@ pg.memory_template = setmetatable({
 		4968,
 		4969,
 		4970,
+		4981,
+		4982,
+		4983,
+		4984,
+		4985,
+		4986,
+		4987,
+		4991,
+		4992,
+		4993,
+		5001,
+		5002,
+		5003,
+		5004,
 		10011,
 		10012,
 		10013,
@@ -59699,6 +59713,216 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"GUANGYINGFENGSHANG10"
+		}
+	},
+	[4981] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新春拍賣會",
+		condition = "首次進入活動頁",
+		story = "CHUNYANHUAIYUXIANGMANTING1",
+		id = 4981,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING1"
+		}
+	},
+	[4982] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "千載難逢",
+		condition = "「春宴懷玉香滿庭」活動進度達到15%",
+		story = "CHUNYANHUAIYUXIANGMANTING2",
+		id = 4982,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING2"
+		}
+	},
+	[4983] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "行動開始！",
+		condition = "「春宴懷玉香滿庭」活動進度達到30%",
+		story = "CHUNYANHUAIYUXIANGMANTING3",
+		id = 4983,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING3"
+		}
+	},
+	[4984] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "天降意外",
+		condition = "「春宴懷玉香滿庭」活動進度達到45%",
+		story = "CHUNYANHUAIYUXIANGMANTING4",
+		id = 4984,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING4"
+		}
+	},
+	[4985] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "競拍時間！",
+		condition = "「春宴懷玉香滿庭」活動進度達到60%",
+		story = "CHUNYANHUAIYUXIANGMANTING5",
+		id = 4985,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING5"
+		}
+	},
+	[4986] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "聞香識美玉",
+		condition = "「春宴懷玉香滿庭」活動進度達到75%",
+		story = "CHUNYANHUAIYUXIANGMANTING6",
+		id = 4986,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING6"
+		}
+	},
+	[4987] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "酸酸甜甜的懲罰時間",
+		condition = "「春宴懷玉香滿庭」活動進度達到100%",
+		story = "CHUNYANHUAIYUXIANGMANTING7",
+		id = 4987,
+		icon = "memory_chunyanhuaiyuxiangmanting2",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING7"
+		}
+	},
+	[4991] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "巧克力大危機！",
+		condition = "參與「情人節——甜蜜大作戰！」活動",
+		story = "QINGRENJIE1",
+		id = 4991,
+		icon = "memory_qingrenjie",
+		is_open = 0,
+		unlock_pre = {
+			"QINGRENJIE1"
+		}
+	},
+	[4992] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "2月13日",
+		condition = "參與「情人節——甜蜜大作戰！」活動",
+		story = "QINGRENJIE2",
+		id = 4992,
+		icon = "memory_qingrenjie",
+		is_open = 0,
+		unlock_pre = {
+			"QINGRENJIE2"
+		}
+	},
+	[4993] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "甜蜜的煩惱",
+		condition = "參與「情人節——甜蜜大作戰！」活動",
+		story = "QINGRENJIE3",
+		id = 4993,
+		icon = "memory_qingrenjie",
+		is_open = 0,
+		unlock_pre = {
+			"QINGRENJIE3"
+		}
+	},
+	[5001] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "交融的春宵",
+		condition = "完成「港區時尚特刊：紅綃帳暖」彰武的簽到",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN1",
+		id = 5001,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN1"
+		}
+	},
+	[5002] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "沉溺於理性之夜",
+		condition = "完成「港區時尚特刊：紅綃帳暖」{namecode:440}的簽到",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN2",
+		id = 5002,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN2"
+		}
+	},
+	[5003] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "醒夢芳醇",
+		condition = "完成「港區時尚特刊：紅綃帳暖」海籌的簽到",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN3",
+		id = 5003,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN3"
+		}
+	},
+	[5004] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "醉夢同舟",
+		condition = "完成「港區時尚特刊：紅綃帳暖」{namecode:182}的簽到",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN4",
+		id = 5004,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN4"
 		}
 	},
 	[10011] = {

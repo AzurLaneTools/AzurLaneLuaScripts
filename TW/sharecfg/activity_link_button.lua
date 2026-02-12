@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5427",
+		param = "0",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5427
+			50371
 		}
 	},
 	{
@@ -37,17 +37,19 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
-		param = "0",
 		name = "event_map",
 		text_pic = "text_event_map",
-		type = 0,
+		type = 2,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
 		order = 1,
 		time = {
 			"default",
-			50351
+			50408
+		},
+		param = {
+			"act boss battle"
 		}
 	},
 	[11] = {
@@ -60,6 +62,22 @@ pg.activity_link_button = {
 		id = 11,
 		group_id = 3,
 		order = 1
+	},
+	[12] = {
+		name = "event_sub_act",
+		text_pic = "text_event_map_sub",
+		type = 2,
+		pic = "event_map_sub",
+		id = 12,
+		group_id = 3,
+		order = 1,
+		time = {
+			"default",
+			50400
+		},
+		param = {
+			"love letter activity"
+		}
 	},
 	[20] = {
 		name = "event_minigame",
@@ -319,7 +337,7 @@ pg.activity_link_button = {
 		}
 	},
 	[110] = {
-		param = "HelenaCoreActivityUI",
+		param = "SpringFestival2026CoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core2",
 		type = 16,
@@ -329,7 +347,7 @@ pg.activity_link_button = {
 		order = 2,
 		time = {
 			"default",
-			50261
+			50404
 		}
 	},
 	[111] = {
@@ -399,6 +417,9 @@ pg.activity_link_button = {
 		},
 		event_map_sub = {
 			11
+		},
+		event_sub_act = {
+			12
 		},
 		event_minigame = {
 			20,
@@ -470,6 +491,7 @@ pg.activity_link_button = {
 		9,
 		10,
 		11,
+		12,
 		20,
 		21,
 		30,

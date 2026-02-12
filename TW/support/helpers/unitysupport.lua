@@ -352,11 +352,27 @@ removeAllChildren = function(slot0)
 	end)
 end
 
+scrollToIndex = function(slot0, slot1)
+	Canvas.ForceUpdateCanvases()
+
+	slot2 = GetComponent(slot0, typeof(ScrollRect))
+	slot3 = slot2.viewport.rect
+	slot4 = slot2.content.rect
+
+	if Vector2(math.max(slot4.width - slot3.width, 0), math.max(slot4.height - slot3.height, 0)) == Vector2.zero then
+		scrollTo(slot0, 0, 0)
+	else
+		slot6 = slot2.content:GetChild(slot1 - 1)
+		slot7 = slot6.rect
+
+		scrollTo(slot0, math.clamp((slot7.x + slot6.localPosition.x) / slot5.x, 0, 1), math.clamp(1 + (slot7.y + slot7.height + slot6.localPosition.y - (slot4.y + slot4.height)) / slot5.y, 0, 1))
+	end
+end
+
 scrollTo = function(slot0, slot1, slot2)
 	Canvas.ForceUpdateCanvases()
 
-	slot3 = GetComponent(slot0, typeof(ScrollRect))
-	slot4 = Vector2(slot1 or slot3.normalizedPosition.x, slot2 or slot3.normalizedPosition.y)
+	slot4 = Vector2(GetComponent(slot0, typeof(ScrollRect)).horizontal and slot1 or slot3.normalizedPosition.x, slot3.vertical and slot2 or slot3.normalizedPosition.y)
 
 	onNextTick(function ()
 		if not IsNil(uv0) then
@@ -471,7 +487,11 @@ onNextTick = function(slot0)
 end
 
 onDelayTick = function(slot0, slot1)
-	Timer.New(slot0, slot1, 1):Start()
+	slot2 = Timer.New(slot0, slot1, 1)
+
+	slot2:Start()
+
+	return slot2
 end
 
 seriesAsync = function(slot0, slot1, ...)

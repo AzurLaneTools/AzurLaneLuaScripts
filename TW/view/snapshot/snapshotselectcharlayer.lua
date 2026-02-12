@@ -77,8 +77,6 @@ slot0.back = function(slot0)
 	end
 
 	slot0:emit(uv0.ON_CLOSE)
-
-	slot0.scrollValue = 0
 end
 
 slot0.init = function(slot0)
@@ -245,7 +243,6 @@ slot0.updateCardList = function(slot0)
 	slot0.cardInfos = slot1
 
 	slot0.cardList:SetTotalCount(#slot0.cardInfos, -1)
-	slot0.cardList:ScrollTo(slot0.scrollValue or 0)
 end
 
 slot2 = function(slot0)

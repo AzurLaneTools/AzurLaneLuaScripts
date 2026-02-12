@@ -116,4 +116,31 @@ slot0.GetHolyLightScreenShotInfo = function(slot0)
 	return slot2, slot1
 end
 
+slot0.HideCharacterPart = function(slot0, slot1, slot2)
+	slot3 = uv0.GetSkinIdByModelName(slot0.name)
+
+	warning("HideCharacterPart skinId", slot3)
+
+	if not slot3 then
+		return
+	end
+
+	slot4 = Dorm3dSkin.New({
+		configId = slot3
+	})
+
+	if slot2 and not slot4:ShouldApplyHiddenPartInTimeline() then
+		return
+	end
+
+	slot6, slot7 = slot4:GetActiveAndHiddenPartNames(slot1 or getProxy(ApartmentProxy):getApartment(slot4:GetGroupId()):GetHiddenParts(slot3))
+
+	_.each(slot6, function (slot0)
+		setActive(uv0:Find(slot0), true)
+	end)
+	_.each(slot7, function (slot0)
+		setActive(uv0:Find(slot0), false)
+	end)
+end
+
 return slot0

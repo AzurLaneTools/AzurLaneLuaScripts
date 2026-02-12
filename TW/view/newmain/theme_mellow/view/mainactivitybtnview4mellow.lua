@@ -9,6 +9,8 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.mapSubBtn = MainActivityBtnMellowAdapt.New(MainActSubMapBtn.New(slot0.mapSubEventTr, slot0.event, true, true))
 	slot0.voteEventTr = slot1:Find("right/1/act/act_vote")
 	slot0.voteBtn = MainActivityBtnMellowAdapt.New(NewMainVoteEntranceBtn.New(slot0.voteEventTr, slot0.event))
+	slot0.subActEventTr = slot1:Find("right/1/act/act_sub")
+	slot0.subActBtn = MainActivityBtnMellowAdapt.New(MainSubActBtn.New(slot0.subActEventTr, slot0.event, true, true))
 end
 
 slot0.InitBtns = function(slot0)
@@ -83,6 +85,12 @@ slot0.Flush = function(slot0)
 	else
 		slot0.voteBtn:Hide()
 	end
+
+	if slot0.subActBtn:InShowTime() then
+		slot0.subActBtn:Init()
+	else
+		slot0.subActBtn:Clear()
+	end
 end
 
 slot0.GetDirection = function(slot0)
@@ -102,6 +110,10 @@ slot0.Dispose = function(slot0)
 	slot0.voteBtn:Dispose()
 
 	slot0.voteBtn = nil
+
+	slot0.subActBtn:Dispose()
+
+	slot0.subActBtn = nil
 end
 
 return slot0

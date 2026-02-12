@@ -21,6 +21,13 @@ pg.island_animation_attachments = {
 		animator = "island/animator/ani_item_1_10007",
 		unlock = 0
 	},
+	[10008] = {
+		id = 10008,
+		model = "island/item/01/10008/prefab/pre_item_01_10008",
+		attack = 0,
+		animator = "island/animator/ani_item_1_10008",
+		unlock = 0
+	},
 	[10009] = {
 		id = 10009,
 		model = "island/item/01/10009/prefab/pre_item_01_10009",
@@ -55,6 +62,27 @@ pg.island_animation_attachments = {
 		attack = 100,
 		animator = "island/animator/ani_item_1_10007",
 		unlock = 20005
+	},
+	[10014] = {
+		id = 10014,
+		model = "island/item/01/10029/prefab/pre_item_01_10029",
+		attack = 0,
+		animator = "island/animator/ani_item_1_10008",
+		unlock = 0
+	},
+	[10015] = {
+		id = 10015,
+		model = "island/item/01/10030/prefab/pre_item_01_10030",
+		attack = 0,
+		animator = "island/animator/ani_item_1_10008",
+		unlock = 0
+	},
+	[10027] = {
+		id = 10027,
+		model = "island/item/01/10027/prefab/pre_item_01_10027",
+		attack = 0,
+		animator = "island/animator/ani_item_1_10027",
+		unlock = 0
 	},
 	[20001] = {
 		id = 20001,
@@ -103,6 +131,27 @@ pg.island_animation_attachments = {
 		model = "island/item/04/40005/prefab/pre_item_02_40005",
 		attack = 0,
 		animator = "island/animator/ani_item_4_40005",
+		unlock = 0
+	},
+	[40008] = {
+		id = 40008,
+		model = "island/item/04/40008/prefab/pre_item_04_40008",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40008",
+		unlock = 0
+	},
+	[40009] = {
+		id = 40009,
+		model = "island/item/04/40009/prefab/pre_item_04_40009",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40009",
+		unlock = 0
+	},
+	[40010] = {
+		id = 40010,
+		model = "island/item/04/40010/prefab/pre_item_04_40010",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40010",
 		unlock = 0
 	},
 	[100011] = {
@@ -165,11 +214,15 @@ pg.island_animation_attachments = {
 		10004,
 		10006,
 		10007,
+		10008,
 		10009,
 		10010,
 		10011,
 		10012,
 		10013,
+		10014,
+		10015,
+		10027,
 		20001,
 		20002,
 		20003,
@@ -177,6 +230,9 @@ pg.island_animation_attachments = {
 		20005,
 		20006,
 		40005,
+		40008,
+		40009,
+		40010,
 		100011,
 		100012,
 		100013,

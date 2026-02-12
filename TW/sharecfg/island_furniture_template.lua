@@ -517,7 +517,38 @@ pg.island_furniture_template = {
 			2,
 			2
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"秋季特产经营",
+				{}
+			}
+		}
+	},
+	[101] = {
+		setNum = 1,
+		describe = "奖杯上，三支风信子依偎绽放，花瓣如琉璃雕琢，隐逸着一缕清雅的芬芳。",
+		name = "春季开发奖杯",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_101",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50281/prefab/pre_item_05_50281",
+		bt = "",
+		id = 101,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"春季特产经营",
+				{}
+			}
+		}
 	},
 	[10101] = {
 		setNum = 1,
@@ -593,7 +624,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -642,7 +673,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -668,7 +699,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -694,7 +725,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -720,7 +751,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -748,7 +779,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -774,7 +805,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -828,7 +859,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -880,7 +911,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -906,7 +937,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -934,7 +965,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -1356,7 +1387,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1385,7 +1416,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1413,7 +1444,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1439,7 +1470,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1465,7 +1496,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1491,7 +1522,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1517,7 +1548,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1543,7 +1574,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1571,7 +1602,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1597,7 +1628,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1623,7 +1654,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1649,7 +1680,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1675,7 +1706,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1701,7 +1732,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1729,7 +1760,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1755,7 +1786,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1781,7 +1812,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1807,7 +1838,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1833,7 +1864,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1859,7 +1890,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1885,7 +1916,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1911,7 +1942,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1937,7 +1968,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1963,7 +1994,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -1989,7 +2020,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
 				{}
 			}
 		}
@@ -2015,7 +2046,939 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30001] = {
+		setNum = 999,
+		describe = "传统石制庭院灯，常用于照亮庭园小径，营造宁静平和的夜间氛围。",
+		name = "暖色石灯（小）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30001",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50218/prefab/pre_item_05_50218",
+		bt = "",
+		id = 30001,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	},
+	[30002] = {
+		setNum = 999,
+		describe = "传统石制庭院灯，常用于照亮庭园小径，营造宁静平和的夜间氛围。 ",
+		name = "暖色石灯（中）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30002",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50222/prefab/pre_item_05_50222",
+		bt = "",
+		id = 30002,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30003] = {
+		setNum = 999,
+		describe = "以兔子为造型的可爱夜灯，灯光柔和，兼具装饰与微弱的照明功能。",
+		name = "兔兔夜灯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30003",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50220/prefab/pre_item_05_50220",
+		bt = "",
+		id = 30003,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	},
+	[30004] = {
+		setNum = 999,
+		describe = "传统纸制灯笼，提供柔和的范围照明，是营造夜间宁静氛围的经典元素。 ",
+		name = "庭院纸灯 ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30004",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50219/prefab/pre_item_05_50219",
+		bt = "",
+		id = 30004,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30005] = {
+		setNum = 999,
+		describe = "一座简洁的拱形小木桥，用于跨越庭院中的池塘。",
+		name = "枫渡小桥",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30005",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50213/prefab/pre_item_05_50213",
+		bt = "",
+		id = 30005,
+		tech_id = 0,
+		size = {
+			5,
+			4
+		},
+		jump_page = {}
+	},
+	[30006] = {
+		setNum = 999,
+		describe = "由坚固石材制成的庭院护栏，手摸上去凉丝丝的~",
+		name = "石制护栏",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30006",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50268/prefab/pre_item_05_50268",
+		bt = "",
+		id = 30006,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"开发季II-累积PT",
+				{}
+			}
+		}
+	},
+	[30007] = {
+		setNum = 999,
+		describe = "花朵样式的铁制围栏，兼具防护与装饰功能。",
+		name = "铁制围栏",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30007",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50269/prefab/pre_item_05_50269",
+		bt = "",
+		id = 30007,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"开发季II-累积PT",
+				{}
+			}
+		}
+	},
+	[30008] = {
+		setNum = 999,
+		describe = "庭院中的骨干景观树，提供四季不变的苍翠视野。",
+		name = "云杉树",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30008",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50272/prefab/pre_item_05_50272",
+		bt = "",
+		id = 30008,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"开发季II-累积PT",
+				{}
+			}
+		}
+	},
+	[30009] = {
+		setNum = 999,
+		describe = "经过精心修剪，呈现各类时髦造型的景观树木。",
+		name = "景观绿树",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30009",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50274/prefab/pre_item_05_50274",
+		bt = "",
+		id = 30009,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"开发季II-累积PT",
+				{}
+			}
+		}
+	},
+	[30010] = {
+		setNum = 999,
+		describe = "色泽淡蓝呈五角星形的可爱花卉，适合装点花坛边缘或作为庭院的地被植物。",
+		name = "蓝星花",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30010",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50275/prefab/pre_item_05_50275",
+		bt = "",
+		id = 30010,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"开发季II-累积PT",
+				{}
+			}
+		}
+	},
+	[30101] = {
+		setNum = 1,
+		describe = "一座与花园融为一体的庭院式建筑，可在赏花之余进行聚会与休憩。",
+		name = "谧静庭院",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_30101",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50252/prefab/pre_item_05_50252",
+		bt = "",
+		id = 30101,
+		tech_id = 0,
+		size = {
+			22,
+			22
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30201] = {
+		setNum = 1,
+		describe = "阳光透过玻璃顶洒落，四季鲜花在此静谧盛放。",
+		name = "琉璃花房",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_30201",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50251/prefab/pre_item_05_50251",
+		bt = "island/nodecanvas/agora/agora_hide",
+		id = 30201,
+		tech_id = 0,
+		size = {
+			20,
+			20
+		},
+		interact_point = {
+			14,
+			15
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30301] = {
+		setNum = 999,
+		describe = "备好茶具，在此迎接今日的下午茶时间~",
+		name = "午后凉亭",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30301",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50277/prefab/pre_item_05_50277",
+		bt = "",
+		id = 30301,
+		tech_id = 0,
+		size = {
+			6,
+			6
+		},
+		interact_point = {
+			16
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30302] = {
+		setNum = 999,
+		describe = "听说站在桥上许愿会有流星哦！",
+		name = "星愿桥",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30302",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50256/prefab/pre_item_05_50256",
+		bt = "",
+		id = 30302,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30303] = {
+		setNum = 999,
+		describe = "由茂密绿植修剪而成的拱门，顶部悬挂一盏古典吊灯，用于照亮并装饰花园的入口。",
+		name = "花园拱门",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30303",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50265/prefab/pre_item_05_50265",
+		bt = "",
+		id = 30303,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30304] = {
+		setNum = 999,
+		describe = "华丽的世界正向着所有人敞开！",
+		name = "庭院大门",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30304",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50266/prefab/pre_item_05_50266",
+		bt = "",
+		id = 30304,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30305] = {
+		setNum = 999,
+		describe = "等待一场充满点心香气的午后茶话~",
+		name = "庭院桌椅 ",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30305",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50263/prefab/pre_item_05_50263",
+		bt = "",
+		id = 30305,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30401] = {
+		setNum = 999,
+		describe = "沐浴阳光，在向日葵丛中随风轻轻摇摆吧~",
+		name = "花田秋千",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30401",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50253/prefab/pre_item_05_50253",
+		bt = "",
+		id = 30401,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		interact_point = {
+			17
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30402] = {
+		setNum = 999,
+		describe = "投下一枚硬币，聆听水声与心愿的轻轻回响~",
+		name = "祈愿喷泉",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30402",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50254/prefab/pre_item_05_50254",
+		bt = "",
+		id = 30402,
+		tech_id = 0,
+		size = {
+			7,
+			6
+		},
+		interact_point = {
+			18
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30403] = {
+		setNum = 999,
+		describe = "摸摸头，一天都会好心情！",
+		name = "幸运啾啾雕塑",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30403",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50257/prefab/pre_item_05_50257",
+		bt = "",
+		id = 30403,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		interact_point = {
+			19
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30404] = {
+		setNum = 999,
+		describe = "嘘——水盘边常有客来访，小心别惊扰它们~",
+		name = "鸟浴浅池",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30404",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50267/prefab/pre_item_05_50267",
+		bt = "",
+		id = 30404,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30405] = {
+		setNum = 999,
+		describe = "适合放松身心的古典浴池，要过来试试水温吗~",
+		name = "古典浴池",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30405",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50271/prefab/pre_item_05_50271",
+		bt = "",
+		id = 30405,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30406] = {
+		setNum = 999,
+		describe = "被蝴蝶眷恋的花丛，随时定格春日一瞬~",
+		name = "蝶栖花坛",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30406",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50255/prefab/pre_item_05_50255",
+		bt = "",
+		id = 30406,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30407] = {
+		setNum = 999,
+		describe = "摘一捧金灿灿的向日葵，把阳光带进屋里吧~",
+		name = "向日葵花束",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30407",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50273/prefab/pre_item_05_50273",
+		bt = "",
+		id = 30407,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30408] = {
+		setNum = 999,
+		describe = "柱身刻满古典纹样，静静诉说往昔时光",
+		name = "古典石柱",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30408",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50258/prefab/pre_item_05_50258",
+		bt = "",
+		id = 30408,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30409] = {
+		setNum = 999,
+		describe = "几乎完全破损的块状残骸，另一段沉默的见证者。",
+		name = "石柱残骸（小）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30409",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50260/prefab/pre_item_05_50260",
+		bt = "",
+		id = 30409,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30410] = {
+		setNum = 999,
+		describe = "仅剩半截的破损石柱，残留些许昔日的雕痕。",
+		name = "石柱残骸（中）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30410",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50259/prefab/pre_item_05_50259",
+		bt = "",
+		id = 30410,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30411] = {
+		setNum = 999,
+		describe = "昔日损毁的柱身，如今已成为小动物的临时居所。",
+		name = "石柱残骸（倒）",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30411",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50261/prefab/pre_item_05_50261",
+		bt = "",
+		id = 30411,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30412] = {
+		setNum = 999,
+		describe = "仅剩框架的石门残骸，仿佛仍通向某个失落的秘境。",
+		name = "石门残骸",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30412",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50262/prefab/pre_item_05_50262",
+		bt = "",
+		id = 30412,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30413] = {
+		setNum = 999,
+		describe = "超大号花瓶！庭院最气派的风景！",
+		name = "装饰花瓶",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30413",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50264/prefab/pre_item_05_50264",
+		bt = "",
+		id = 30413,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30414] = {
+		setNum = 999,
+		describe = "复古街灯照亮石板小径，温暖光芒守护每夜安宁。",
+		name = "复古庭院灯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30414",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50270/prefab/pre_item_05_50270",
+		bt = "",
+		id = 30414,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30415] = {
+		setNum = 999,
+		describe = "整齐栽种于庭院道路两侧的观赏花丛。",
+		name = "景观花丛",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30415",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50276/prefab/pre_item_05_50276",
+		bt = "",
+		id = 30415,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30416] = {
+		setNum = 999,
+		describe = "经过精心设计与打理的花圃，展现出规整的园艺美感。",
+		name = "景观花圃",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30416",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50278/prefab/pre_item_05_50278",
+		bt = "",
+		id = 30416,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30801] = {
+		setNum = 999,
+		describe = "由大小不一的天然石材铺砌而成的庭院路面，坚固耐磨~",
+		name = "石制路面（小）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30801",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50279/prefab/pre_item_05_50279",
+		bt = "",
+		id = 30801,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30802] = {
+		setNum = 999,
+		describe = "由大小不一的天然石材铺砌而成的庭院路面，坚固耐磨~",
+		name = "石制路面（中）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30802",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50280/prefab/pre_item_05_50280",
+		bt = "",
+		id = 30802,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[30803] = {
+		setNum = 999,
+		describe = "由大小不一的天然石材铺砌而成的庭院路面，坚固耐磨~",
+		name = "石制路面（大）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30803",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50282/prefab/pre_item_05_50282",
+		bt = "",
+		id = 30803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"星彩奖",
 				{}
 			}
 		}
@@ -2045,6 +3008,7 @@ pg.island_furniture_template = {
 		22,
 		23,
 		100,
+		101,
 		10101,
 		10201,
 		10301,
@@ -2102,6 +3066,42 @@ pg.island_furniture_template = {
 		20415,
 		20801,
 		20802,
-		20803
+		20803,
+		30001,
+		30002,
+		30003,
+		30004,
+		30005,
+		30006,
+		30007,
+		30008,
+		30009,
+		30010,
+		30101,
+		30201,
+		30301,
+		30302,
+		30303,
+		30304,
+		30305,
+		30401,
+		30402,
+		30403,
+		30404,
+		30405,
+		30406,
+		30407,
+		30408,
+		30409,
+		30410,
+		30411,
+		30412,
+		30413,
+		30414,
+		30415,
+		30416,
+		30801,
+		30802,
+		30803
 	}
 }

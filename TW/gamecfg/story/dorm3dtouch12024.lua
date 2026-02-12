@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit1_tone7/drom3d_Taiho_ik_gfit1_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "指揮官要是敢對別人這樣溫柔的話……後果可是很可怕的哦？",
+			say = "{dorm3d}要是敢對別人這樣溫柔的話……後果可是很可怕的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

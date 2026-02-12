@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit2_tone7",
 			nameColor = "#FFFFFF",
-			say = "欸？要保持這樣的距離嗎？",
+			hidePaintObj = true,
+			say = "唔唔……看在Honey這麼努力的份上，或許該給你一個獎勵呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,20 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_dining02_idle01_fb02",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							id = 2018,
+							name = "IK_dining02_idle01_fb02_BX",
+							type = "item_action"
+						},
+						{
+							skip = true,
+							name = "face_smile_start",
+							type = "action"
 						},
 						{
 							skip = false,

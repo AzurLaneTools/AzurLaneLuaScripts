@@ -310,6 +310,21 @@ pg.dorm3d_zone_template = {
 			}
 		}
 	},
+	[16004] = {
+		is_global = 0,
+		name = "休息區",
+		type_prioritys = "",
+		id = 16004,
+		room_id = 16,
+		watch_camera = "tianlangxing",
+		special_action = "",
+		touch_id = {
+			{
+				20220,
+				10100401
+			}
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1000,
@@ -346,7 +361,8 @@ pg.dorm3d_zone_template = {
 		},
 		[16] = {
 			16001,
-			16002
+			16002,
+			16004
 		}
 	},
 	all = {
@@ -372,6 +388,7 @@ pg.dorm3d_zone_template = {
 		12002,
 		12003,
 		16001,
-		16002
+		16002,
+		16004
 	}
 }

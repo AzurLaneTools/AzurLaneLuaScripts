@@ -13,7 +13,11 @@ slot0.OnClick = function(slot0)
 end
 
 slot0.IsTip = function(slot0)
-	return getProxy(CollectionProxy):unclaimTrophyCount() > 0
+	if getProxy(CollectionProxy):unclaimTrophyCount() > 0 then
+		return true
+	else
+		return getProxy(LoveLetterProxy):IsTipLevelUp() or slot1:IsTipAllLevelReward()
+	end
 end
 
 return slot0

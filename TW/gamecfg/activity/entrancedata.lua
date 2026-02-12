@@ -6,7 +6,6 @@ return {
 			SCENE.SUMMARY
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY) and not slot0:isEnd()
 		end
 	},
 	{
@@ -28,47 +27,6 @@ return {
 		},
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.BUILD_BISMARCK_ID) and not slot0:isEnd()
-		end
-	},
-	{
-		banner = "activity_boss",
-		event = ActivityMediator.EVENT_GO_SCENE,
-		data = {
-			SCENE.ACT_BOSS_BATTLE,
-			{
-				showAni = true
-			}
-		},
-		isShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot0:isEnd()
-		end,
-		isTip = function ()
-			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) then
-				return
-			end
-
-			slot1 = false
-
-			if slot0.checkBattleTimeInBossAct(slot0) then
-				slot1 = slot0.data2 ~= 1
-			elseif getProxy(ActivityProxy):getActivityById(slot0:GetBindPtActID()) then
-				slot1 = ActivityBossPtData.New(slot4):CanGetAward()
-			end
-
-			return slot1
-		end
-	},
-	{
-		banner = "ming_paint",
-		event = ActivityMediator.EVENT_GO_SCENE,
-		data = {
-			SCENE.COLORING
-		},
-		isShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot0:isEnd()
-		end,
-		isTip = function ()
-			return getProxy(ColoringProxy):CheckTodayTip()
 		end
 	},
 	{
@@ -211,17 +169,6 @@ return {
 		end
 	},
 	{
-		banner = "activity_redpacket",
-		event = ActivityMediator.OPEN_RED_PACKET_LAYER,
-		data = {},
-		isShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS) and not slot0:isEnd()
-		end,
-		isTip = function ()
-			return RedPacketLayer.isShowRedPoint()
-		end
-	},
-	{
 		banner = "LanternFestival",
 		event = ActivityMediator.GO_MINI_GAME,
 		data = setmetatable({}, {
@@ -305,19 +252,19 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970705",
+		banner = "meta_entrance_970108",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 970705
+				autoOpenShipConfigID = 970108
 			}
 		},
 		isShow = function ()
-			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970705) and slot1:isInAct()
+			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970108) and slot1:isInAct()
 		end,
 		isTip = function ()
-			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970705):isPassType() then
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970108):isPassType() then
 				return false
 			end
 
@@ -361,6 +308,19 @@ return {
 		end
 	},
 	{
+		banner = "doa_medal",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.OTHERWORLD_BACKHILL
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID))
+		end
+	},
+	{
 		banner = "activity_boss",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
@@ -371,6 +331,20 @@ return {
 		},
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(50205) and not slot0:isEnd()
+		end
+	},
+	{
+		banner = "activity_miniprogram",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.VOTEENTRANCE,
+			{}
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(1092) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return false
 		end
 	}
 }

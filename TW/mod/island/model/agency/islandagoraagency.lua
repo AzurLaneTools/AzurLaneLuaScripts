@@ -104,7 +104,7 @@ slot0.AddFurniture = function(slot0, slot1, slot2)
 	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandFurnitureAdd(slot1.id, slot2 or ""))
 
 	if slot3 then
-		slot3.count = slot3.count + 1
+		slot3.count = slot3.count + (slot1.count or 1)
 
 		slot0:DispatchEvent(uv0.ADD_FURNITURE, slot3)
 	else

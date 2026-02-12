@@ -285,6 +285,10 @@ slot0.execute = function(slot0, slot1)
 		{
 			CityRebuildProxy,
 			true
+		},
+		{
+			LoveLetterProxy,
+			true
 		}
 	})
 

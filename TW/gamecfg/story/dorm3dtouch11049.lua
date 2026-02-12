@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit4_tone1",
 			nameColor = "#FFFFFF",
-			say = "唔……！被你找到弱點了，真是糟糕~！",
+			hidePaintObj = true,
+			say = "要、要是一直這樣繼續下去的話……真是的！Honey壞心眼喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,20 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_dining02_idle02_fb02",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							id = 2018,
+							name = "IK_dining02_idle02_fb02_BX",
+							type = "item_action"
+						},
+						{
+							skip = true,
+							name = "face_smile_start",
+							type = "action"
 						},
 						{
 							skip = false,

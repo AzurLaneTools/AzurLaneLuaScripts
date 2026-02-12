@@ -463,6 +463,10 @@ pg.task_meta_data_template = setmetatable({
 		200342,
 		200343,
 		200344,
+		200351,
+		200352,
+		200353,
+		200354,
 		200361,
 		200362,
 		200363,
@@ -2925,7 +2929,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100441,
 		target_num = 1,
-		desc = "使用{namecode:300}·META获得1次胜利"
+		desc = "使用{namecode:300}獲得1次勝利"
 	},
 	[100442] = {
 		target_id = "30",
@@ -2933,7 +2937,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100442,
 		target_num = 1,
-		desc = "使用{namecode:300}·META击破等级＞30的敌方1次"
+		desc = "使用{namecode:300}擊破等級＞30的敵方1次"
 	},
 	[100443] = {
 		target_id = "55",
@@ -2941,7 +2945,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100443,
 		target_num = 1,
-		desc = "使用{namecode:300}·META击破等级＞55的敌方1次"
+		desc = "使用{namecode:300}擊破等級＞55的敵方1次"
 	},
 	[100444] = {
 		target_id = "80",
@@ -2949,7 +2953,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100444,
 		target_num = 1,
-		desc = "使用{namecode:300}·META击破等级＞80的敌方1次"
+		desc = "使用{namecode:300}擊破等級＞80的敵方1次"
 	},
 	[100445] = {
 		target_id = "100",
@@ -2957,7 +2961,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100445,
 		target_num = 1,
-		desc = "使用{namecode:300}·META击破等级＞100的敌方1次"
+		desc = "使用{namecode:300}擊破等級＞100的敵方1次"
 	},
 	[100451] = {
 		target_id = "0",
@@ -4166,6 +4170,38 @@ pg.base.task_meta_data_template = {
 		id = 200344,
 		target_num = 1,
 		desc = "大型作戰內使用光榮·META擊破等級＞100的敵方1次"
+	},
+	[200351] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970108",
+		id = 200351,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:300}·META獲得1次勝利"
+	},
+	[200352] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970108",
+		id = 200352,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:300}·META擊破等級＞70的敵方1次"
+	},
+	[200353] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970108",
+		id = 200353,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:300}·META擊破等級＞90的敵方1次"
+	},
+	[200354] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970108",
+		id = 200354,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:300}·META擊破等級＞100的敵方1次"
 	},
 	[200361] = {
 		target_id = "0",

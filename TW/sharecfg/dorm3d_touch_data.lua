@@ -313,6 +313,30 @@ pg.dorm3d_touch_data = {
 			100310
 		}
 	},
+	[10100401] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 10100401,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			120810
+		}
+	},
 	[2200110] = {
 		default_favor = 1001,
 		finish_action = "Idle",
@@ -602,6 +626,30 @@ pg.dorm3d_touch_data = {
 			300510
 		}
 	},
+	[1990370] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1990370,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			300710
+		}
+	},
 	[1990390] = {
 		default_favor = 1001,
 		finish_action = "Idle",
@@ -770,6 +818,30 @@ pg.dorm3d_touch_data = {
 			400510
 		}
 	},
+	[1051780] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1051780,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400810
+		}
+	},
 	[1051790] = {
 		default_favor = 1001,
 		finish_action = "Idle",
@@ -914,6 +986,30 @@ pg.dorm3d_touch_data = {
 			500510
 		}
 	},
+	[3070760] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 3070760,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			500610
+		}
+	},
 	[3070790] = {
 		default_favor = 1001,
 		finish_action = "Idle",
@@ -952,6 +1048,7 @@ pg.dorm3d_touch_data = {
 		10100202,
 		10100203,
 		10100303,
+		10100401,
 		2200110,
 		2200210,
 		2200310,
@@ -964,6 +1061,7 @@ pg.dorm3d_touch_data = {
 		1990330,
 		1990340,
 		1990350,
+		1990370,
 		1990390,
 		1051710,
 		1051720,
@@ -971,12 +1069,14 @@ pg.dorm3d_touch_data = {
 		1051740,
 		1051750,
 		1051760,
+		1051780,
 		1051790,
 		3070710,
 		3070720,
 		3070730,
 		3070740,
 		3070750,
+		3070760,
 		3070790
 	}
 }

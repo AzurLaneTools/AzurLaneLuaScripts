@@ -9,6 +9,10 @@ slot0.OPEN_FRIEND_INFO = "IslandBaseMediator:OPEN_FRIEND_INFO"
 slot0.GO_FISHING = "IslandBaseMediator:GO_FISHING"
 slot0.FISHING_RESULT = "IslandBaseMediator:FISHING_RESULT"
 slot0.EXCHANGE_LURE = "IslandBaseMediator:EXCHANGE_LURE"
+slot0.TRADE_OP = "IslandBaseMediator:TRADE_OP"
+slot0.REQ_TRADE_RANK = "IslandBaseMediator:REQ_TRADE_RANK"
+slot0.TRADE_INVITATION = "IslandBaseMediator:TRADE_INVITATION"
+slot0.ENTER_ISLAND = "IslandBaseMediator:ENTER_ISLAND"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.EXCHANGE_LURE, function (slot0, slot1, slot2, slot3)
@@ -35,6 +39,37 @@ slot0.register = function(slot0)
 			baitId = slot2,
 			islandId = uv0.viewComponent:GetIsland().id,
 			callback = slot3
+		})
+	end)
+	slot0:bind(uv0.ENTER_ISLAND, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_ENTER, {
+			id = slot1
+		})
+	end)
+	slot0:bind(uv0.TRADE_INVITATION, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.ISLAND_INVITE_TRADE, {
+			list = slot1,
+			mapId = slot2,
+			price = slot3
+		})
+	end)
+	slot0:bind(uv0.REQ_TRADE_RANK, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_GET_FRIEND_TRADE_RANK, {
+			callback = slot1
+		})
+	end)
+	slot0:bind(uv0.TRADE_OP, function (slot0, slot1, slot2, slot3)
+		if not uv0.viewComponent:GetIsland():GetTradeAgency():CanPurchase() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_trade_price_unrefresh"))
+
+			return
+		end
+
+		uv0:sendNotification(GAME.ISLAND_TRADE, {
+			islandId = slot4.id,
+			op = slot1,
+			num = slot2,
+			price = slot3
 		})
 	end)
 	slot0:bind(uv0.OPEN_FRIEND_INFO, function (slot0, slot1, slot2, slot3)
@@ -140,7 +175,10 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.ISLAND_ON_HOME,
 		GAME.ISLAND_ON_RECONNECT,
 		GAME.ISLAND_SELECT_GIFT_DONE,
-		GAME.ISLAND_CORE_STATE_CHANGED
+		GAME.ISLAND_CORE_STATE_CHANGED,
+		GAME.ISLAND_TRADE_DONE,
+		IslandTradegency.WEEK_NUM_UPDATE,
+		IslandTradegency.INVITE_LIST_UPDATE
 	}
 
 	for slot6, slot7 in ipairs(slot0:_listNotificationInterests()) do
@@ -207,10 +245,14 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)
-	elseif slot2 == GAME.ISLAND_CORE_STATE_CHANGED and slot3 == IslandCore.STATE_INIT_FINISH and slot0.coreInitCallback then
-		slot0.coreInitCallback()
+	elseif slot2 == GAME.ISLAND_CORE_STATE_CHANGED then
+		if slot3 == IslandCore.STATE_INIT_FINISH and slot0.coreInitCallback then
+			slot0.coreInitCallback()
 
-		slot0.coreInitCallback = nil
+			slot0.coreInitCallback = nil
+		end
+	elseif slot2 == GAME.ISLAND_TRADE_DONE then
+		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
 	end
 
 	slot0:_handleNotification(slot1)

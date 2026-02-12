@@ -22,7 +22,7 @@ slot0.Init = function(slot0, slot1)
 end
 
 slot0.InShowTime = function(slot0)
-	return getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) and not slot1:isEnd()
+	return false
 end
 
 slot0.AnyVoteActIsOpening = function(slot0)

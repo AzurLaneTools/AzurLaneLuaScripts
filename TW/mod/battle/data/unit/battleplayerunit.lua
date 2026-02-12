@@ -76,6 +76,7 @@ slot7.SetTemplate = function(slot0, slot1, slot2, slot3)
 	slot0:InitCldComponent()
 
 	slot2.armorType = slot0._tmpData.armor_type
+	slot2.scale = slot0._tmpData.scale
 	slot7 = slot3
 
 	slot0:setAttrFromOutBattle(slot2, slot7)

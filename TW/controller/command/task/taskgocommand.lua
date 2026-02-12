@@ -68,6 +68,8 @@ slot0.execute = function(slot0, slot1)
 			seriesAsync(slot6, function ()
 				uv0:sendNotification(GAME.GO_SCENE, SCENE[uv1[1]], uv1[2])
 			end)
+		elseif slot5[1] == "MINI_GAME" and slot5[2] then
+			slot0:sendNotification(GAME.GO_MINI_GAME, slot5[2])
 		else
 			slot0:sendNotification(GAME.GO_SCENE, SCENE[slot5[1]], slot5[2])
 		end

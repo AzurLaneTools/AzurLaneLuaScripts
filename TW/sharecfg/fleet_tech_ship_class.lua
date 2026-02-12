@@ -2713,7 +2713,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		nation = 5,
 		ships = {
-			50210
+			50210,
+			50212
 		}
 	},
 	[50301] = {
@@ -2725,6 +2726,17 @@ pg.fleet_tech_ship_class = {
 		nation = 5,
 		ships = {
 			50301
+		}
+	},
+	[50302] = {
+		shiptype = 3,
+		name = "彰武",
+		t_level = 4,
+		id = 50302,
+		t_level_1 = 130,
+		nation = 5,
+		ships = {
+			50302
 		}
 	},
 	[50401] = {
@@ -3965,6 +3977,17 @@ pg.fleet_tech_ship_class = {
 			970107
 		}
 	},
+	[970108] = {
+		shiptype = 1,
+		name = "江風·META",
+		t_level = 5,
+		id = 970108,
+		t_level_1 = 4,
+		nation = 97,
+		ships = {
+			970108
+		}
+	},
 	[970110] = {
 		shiptype = 1,
 		name = "杜威·META",
@@ -4671,6 +4694,7 @@ pg.fleet_tech_ship_class = {
 		50206,
 		50207,
 		50301,
+		50302,
 		50401,
 		50601,
 		50602,
@@ -4780,6 +4804,7 @@ pg.fleet_tech_ship_class = {
 		970105,
 		970106,
 		970107,
+		970108,
 		970110,
 		970201,
 		970202,

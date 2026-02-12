@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_furniture2_tone8",
 			nameColor = "#FFFFFF",
-			say = "原來Honey也有這麼壞心眼的時候呢！",
+			hidePaintObj = true,
+			say = "呀！Honey……太狡猾了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,20 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_dining02_idle01_fb03",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							id = 2018,
+							name = "IK_dining02_idle01_fb03_BX",
+							type = "item_action"
+						},
+						{
+							skip = true,
+							name = "face_amazed_start",
+							type = "action"
 						},
 						{
 							skip = false,

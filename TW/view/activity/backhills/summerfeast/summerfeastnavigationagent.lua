@@ -38,8 +38,8 @@ slot0.updateStudent = function(slot0, slot1)
 	setActive(slot0._go, true)
 
 	if slot0.prefabName ~= slot1 then
-		if not IsNil(slot0.model) then
-			PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab, slot0.model)
+		if slot0.model then
+			slot0.model:Dispose()
 		end
 
 		slot0.prefab = slot1
@@ -52,24 +52,24 @@ slot0.updateStudent = function(slot0, slot1)
 			slot0:onTransEdge(slot2, slot2)
 		end
 
-		slot4 = PoolMgr.GetInstance()
+		slot0.model = SpineAnimChar.New()
+		slot4 = slot0.model
 
-		slot4:GetSpineChar(slot0.prefab, true, function (slot0)
+		slot4:SetPaint(slot0.prefab)
+
+		slot4 = slot0.model
+
+		slot4:Load(true, function (slot0)
 			if uv0 ~= uv1.prefab then
-				PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0)
+				slot0:Dispose()
 
 				return
 			end
 
-			uv1.model = slot0
-			uv1.model.transform.localScale = Vector3.one
-			uv1.model.transform.localPosition = Vector3.zero
-
-			uv1.model.transform:SetParent(uv1._tf, false)
-
-			uv1.anim = uv1.model:GetComponent(typeof(SpineAnimUI))
-
-			uv1:updateState(uv2.ShipState.Walk)
+			uv1.model:SetLocalScale(Vector3(0.5, 0.5, 1))
+			uv1.model:SetLocalPosition(Vector3.zero)
+			uv1.model:SetParent(uv1._tf)
+			uv1:updateState(uv2.ShipState.Idle)
 		end)
 	end
 

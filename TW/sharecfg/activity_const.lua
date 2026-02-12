@@ -1027,22 +1027,22 @@ pg.activity_const = {
 		act_id = 4667
 	},
 	OTHER_WORLD_TASK_ID = {
-		act_id = 5261
+		act_id = 50372
 	},
 	OTHER_WORLD_TERMINAL_EVENT_ID = {
-		act_id = 5265
+		act_id = 50375
 	},
 	OTHER_WORLD_TERMINAL_LOTTERY_ID = {
-		act_id = 5264
+		act_id = 50374
 	},
 	OTHER_WORLD_TERMINAL_TASK_ID = {
-		act_id = 5269
+		act_id = 50377
 	},
 	OTHER_WORLD_TERMINAL_PT_ID = {
-		act_id = 5270
+		act_id = 50378
 	},
 	OTHER_WORLD_TERMINAL_BATTLE_ID = {
-		act_id = 5260
+		act_id = 50371
 	},
 	MUSIC_FESTIVAL_ID_3 = {
 		act_id = 5310
@@ -1181,5 +1181,20 @@ pg.activity_const = {
 	},
 	HelenaPT_ACT_ID = {
 		act_id = 50261
+	},
+	HorseYearSpringFestival2026_ID_1 = {
+		act_id = 50419
+	},
+	HorseYearSpringFestival2026_ID_2 = {
+		act_id = 50420
+	},
+	HorseYearSpringFestival2026_ID_3 = {
+		act_id = 50421
+	},
+	HorseYearSpringFestival2026_ID_4 = {
+		act_id = 50422
+	},
+	LOVE_LETTER_LOGIN_ID = {
+		act_id = 50401
 	}
 }

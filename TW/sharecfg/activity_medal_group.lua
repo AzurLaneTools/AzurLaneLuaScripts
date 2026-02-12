@@ -497,6 +497,41 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50405] = {
+		id = 50405,
+		entrance_picture = "medalAlbum/50405",
+		group_name = "春宴懷玉香滿庭",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50405,
+				{
+					21892,
+					21893,
+					21894,
+					21895,
+					21896,
+					21897,
+					21898,
+					21899,
+					21900
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "DonghuangMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{},
+			{
+				8,
+				65848,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -510,6 +545,7 @@ pg.activity_medal_group = {
 		50136,
 		50209,
 		50295,
-		50359
+		50359,
+		50405
 	}
 }

@@ -117,4 +117,32 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = nil
+	slot3 = ys.Battle.BattleResourceManager.GetInstance()
+
+	for slot11, slot12 in ipairs(getProxy(ChallengeProxy):getUserChallengeInfo(slot0.mode):getRegularFleet():getShips(false)) do
+		table.insert(slot1, slot12)
+	end
+
+	slot8 = slot6:buildBattleBuffList()
+
+	for slot12, slot13 in ipairs(slot5:getSubmarineFleet():getShips(false)) do
+		table.insert(slot1, slot13)
+	end
+
+	for slot12, slot13 in ipairs(slot6:buildBattleBuffList()) do
+		table.insert(slot8, slot13)
+	end
+
+	slot9, slot10 = slot3.GetPlayerShipResource(slot1, slot0.system)
+
+	for slot14, slot15 in ipairs(slot3.GetCommanderBuffRes(slot8)) do
+		table.insert(slot9, slot15)
+	end
+
+	return slot9, slot10
+end
+
 return slot0

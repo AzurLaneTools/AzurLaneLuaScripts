@@ -166,4 +166,56 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = nil
+	slot4 = ys.Battle.BattleResourceManager.GetInstance()
+	slot6 = getProxy(BayProxy)
+
+	if getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId] then
+		for slot13, slot14 in ipairs(slot8.ships) do
+			table.insert(slot1, slot6:getShipById(slot14))
+		end
+
+		for slot13, slot14 in ipairs(slot8:buildBattleBuffList()) do
+			table.insert(slot2, slot14)
+		end
+	end
+
+	if slot7[slot0.mainFleetId + Fleet.MEGA_SUBMARINE_FLEET_OFFSET] then
+		for slot14, slot15 in ipairs(slot9:getTeamByName(TeamType.Submarine)) do
+			table.insert(slot1, slot6:getShipById(slot15))
+		end
+
+		for slot14, slot15 in ipairs(slot9:buildBattleBuffList()) do
+			table.insert(slot2, slot15)
+		end
+	end
+
+	slot10, slot11 = slot4.GetPlayerShipResource(slot1, slot0.system)
+	slot16 = slot0.stageId
+
+	for slot16, slot17 in ipairs(slot4.GetResFromBuffIDList(getProxy(ActivityProxy):getActivityById(slot0.actId):GetBuffIdsByStageId(slot16))) do
+		table.insert(slot10, slot17)
+	end
+
+	slot13 = pg.strategy_data_template
+	slot14 = {}
+
+	for slot18, slot19 in ipairs(slot0.variableBuffList) do
+		table.insert(slot14, slot13[slot19].buff_id)
+	end
+
+	for slot18, slot19 in ipairs(slot4.GetResFromBuffIDList(slot14)) do
+		table.insert(slot10, slot19)
+	end
+
+	for slot18, slot19 in ipairs(slot4.GetCommanderBuffRes(slot2)) do
+		table.insert(slot10, slot19)
+	end
+
+	return slot10, slot11
+end
+
 return slot0

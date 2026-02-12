@@ -124,4 +124,10 @@ slot0.Exit = function(slot0, slot1)
 	})
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1, slot2 = ys.Battle.BattleGateBossRush.GetPreloadList(slot0)
+
+	return slot1, slot2
+end
+
 return slot0

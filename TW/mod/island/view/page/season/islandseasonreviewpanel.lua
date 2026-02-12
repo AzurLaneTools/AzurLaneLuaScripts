@@ -36,13 +36,14 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	slot0.newestId = IslandSeasonAgency.GetCurrentSeason() - 1
 	slot0.rankType = PowerRank.TYPE_ISLAND_SEASON_PT
 	slot0.playerRankVOs = {}
 end
 
 slot0.Show = function(slot0)
-	uv0.super.Show(slot0)
-	slot0:Flush(IslandSeasonAgency.GetCurrentSeason() - 1)
+	slot0.super.Show(slot0)
+	slot0:Flush(slot0.newestId)
 end
 
 slot0.Hide = function(slot0)

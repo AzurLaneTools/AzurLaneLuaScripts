@@ -30,10 +30,18 @@ pg.ship_meta_breakout = setmetatable({
 		9701072,
 		9701073,
 		9701074,
+		9701081,
+		9701082,
+		9701083,
+		9701084,
 		9701101,
 		9701102,
 		9701103,
 		9701104,
+		9701111,
+		9701112,
+		9701113,
+		9701114,
 		9702011,
 		9702012,
 		9702013,
@@ -651,6 +659,69 @@ pg.base.ship_meta_breakout = {
 		level = 0,
 		weapon_ids = {}
 	},
+	[9701081] = {
+		breakout_view = "習得技能【湮燼之核·{namecode:158}】/魚雷效率提高5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9701082,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701081,
+		item1 = 21049,
+		level = 10,
+		weapon_ids = {
+			170791
+		}
+	},
+	[9701082] = {
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提提高10%",
+		item2 = 21001,
+		pre_id = 9701081,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9701083,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701082,
+		item1 = 21049,
+		level = 30,
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[9701083] = {
+		breakout_view = "【湮燼之核·{namecode:158}】升級/全武器效率提高5%",
+		item2 = 21001,
+		pre_id = 9701082,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9701084,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9701083,
+		item1 = 21049,
+		level = 70,
+		weapon_ids = {
+			170792
+		}
+	},
+	[9701084] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9701083,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9701084,
+		item1 = 21049,
+		level = 0,
+		weapon_ids = {}
+	},
 	[9701101] = {
 		breakout_view = "習得技能【破敵之炬·杜威】/全武器效率提高2%",
 		item2 = 21001,
@@ -711,6 +782,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9701104,
 		item1 = 21052,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9701111] = {
+		breakout_view = "習得技能【逐光之焰·龍騎兵】/主炮效率提升5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9701112,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701111,
+		item1 = 21056,
+		level = 10,
+		weapon_ids = {
+			80581
+		}
+	},
+	[9701112] = {
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提升10%",
+		item2 = 21001,
+		pre_id = 9701111,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9701113,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701112,
+		item1 = 21056,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9701113] = {
+		breakout_view = "【逐光之焰·龍騎兵】升級/全武器效率提高5%",
+		item2 = 21001,
+		pre_id = 9701112,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9701114,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9701113,
+		item1 = 21056,
+		level = 70,
+		weapon_ids = {
+			80582
+		}
+	},
+	[9701114] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9701113,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9701114,
+		item1 = 21056,
 		level = 0,
 		weapon_ids = {}
 	},

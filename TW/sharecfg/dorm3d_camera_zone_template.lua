@@ -414,6 +414,10 @@ pg.dorm3d_camera_zone_template = {
 			{
 				301,
 				120103
+			},
+			{
+				324,
+				120103
 			}
 		},
 		anim_speeds = {
@@ -875,6 +879,10 @@ pg.dorm3d_camera_zone_template = {
 			{
 				1102,
 				1110203
+			},
+			{
+				1154,
+				1110204
 			}
 		},
 		anim_speeds = {
@@ -1150,6 +1158,10 @@ pg.dorm3d_camera_zone_template = {
 			{
 				1222,
 				1120304
+			},
+			{
+				1223,
+				1120303
 			}
 		},
 		anim_speeds = {
@@ -1216,6 +1228,93 @@ pg.dorm3d_camera_zone_template = {
 					16014,
 					16015
 				}
+			},
+			{
+				20220,
+				{
+					16016,
+					16017,
+					16018,
+					16019,
+					16020
+				}
+			}
+		},
+		special_furniture = {},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	},
+	[16004] = {
+		name = "休息區",
+		record_time = 60,
+		room_id = 16,
+		id = 16004,
+		watch_camera = "tianlangxing",
+		regular_anim = {
+			{
+				10517,
+				{
+					16001,
+					16001,
+					16003,
+					16004,
+					16005
+				}
+			},
+			{
+				30707,
+				{
+					16006,
+					16007,
+					16008,
+					16009,
+					16010
+				}
+			},
+			{
+				49905,
+				{
+					16011,
+					16012,
+					16013,
+					16014,
+					16015
+				}
+			},
+			{
+				20220,
+				{
+					16016,
+					16017,
+					16018,
+					16019,
+					16020
+				}
 			}
 		},
 		special_furniture = {},
@@ -1279,7 +1378,8 @@ pg.dorm3d_camera_zone_template = {
 			12003
 		},
 		[16] = {
-			16001
+			16001,
+			16004
 		}
 	},
 	all = {
@@ -1301,6 +1401,7 @@ pg.dorm3d_camera_zone_template = {
 		12001,
 		12002,
 		12003,
-		16001
+		16001,
+		16004
 	}
 }

@@ -452,6 +452,11 @@ slot0.ShowDrawAwardWindow = function(slot0, slot1)
 		quickPlayAnimation(uv1.rtDisplayPanel:Find("page"), "anim_IslandDrawAwardPage_page_in")
 		parallelAsync(slot1, slot0)
 	end)
+	table.insert(slot5, function (slot0)
+		LeanTween.delayedCall(0.5, System.Action(function ()
+			uv0()
+		end))
+	end)
 	seriesAsync(slot5, function ()
 		if uv0._state == uv1.STATES.DESTROY then
 			return

@@ -16,8 +16,8 @@ end
 slot0.OnDataSetting = function(slot0)
 end
 
-slot0.OnFirstFlush = function(slot0)
-	UIItemList.StaticAlign(slot0.rtTabs, slot0.rtTabTpl, #{
+slot0.getTabTipMapList = function(slot0)
+	return {
 		{
 			"island_spoperation_btn_2509_1",
 			"island_spoperation_tip_2509_3"
@@ -30,7 +30,15 @@ slot0.OnFirstFlush = function(slot0)
 			"island_spoperation_btn_2509_3",
 			"island_spoperation_tip_2509_1"
 		}
-	}, function (slot0, slot1, slot2)
+	}
+end
+
+slot0.getItemTipPrefix = function(slot0)
+	return "island_spoperation_item_2509_"
+end
+
+slot0.OnFirstFlush = function(slot0)
+	UIItemList.StaticAlign(slot0.rtTabs, slot0.rtTabTpl, #slot0:getTabTipMapList(), function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -78,7 +86,7 @@ slot0.OnFirstFlush = function(slot0)
 	slot3 = slot0.rtPages
 
 	eachChild(slot3:Find("page_2/content"), function (slot0, slot1)
-		setText(slot0:Find("tpl/name"), i18n("island_spoperation_item_2509_" .. slot1 + 1))
+		setText(slot0:Find("tpl/name"), i18n(uv0:getItemTipPrefix() .. slot1 + 1))
 	end)
 end
 

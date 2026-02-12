@@ -165,11 +165,15 @@ slot0.update = function(slot0, slot1)
 					slot5 = SwitchSpecialChar(uv1.content)
 				end
 
-				slot1.text = string.gsub(slot5, ChatConst.EmojiIconCodeMatch, function (slot0)
+				slot6 = string.gsub(slot5, ChatConst.EmojiIconCodeMatch, function (slot0)
 					if table.contains(pg.emoji_small_template.all, tonumber(slot0)) then
 						return string.format("<icon name=%s w=1 h=1/>", slot0)
 					end
 				end)
+				slot1.text = slot6
+
+				uv0:UpdateContent(slot1, slot6)
+
 				uv0.isLoadChatBg = true
 				slot0:GetComponent(typeof(LayoutElement)).preferredWidth = uv0.chatBgWidth
 				slot0.name = uv2
@@ -187,6 +191,10 @@ slot0.update = function(slot0, slot1)
 	end
 
 	setActive(slot0.face.parent, slot1.emojiId)
+end
+
+slot0.UpdateContent = function(slot0, slot1, slot2)
+	slot1.text = slot2
 end
 
 slot0.GetAttireFrameRes = function(slot0, slot1, slot2, slot3)
