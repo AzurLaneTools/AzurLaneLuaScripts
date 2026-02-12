@@ -21,11 +21,18 @@ slot0.LoadBg = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 			setActive(uv2, false)
 			setParent(slot0, uv3, false)
+			setActive(slot0, false)
+			setActive(slot0, true)
 
 			if slot0:GetComponent(typeof(CriManaEffectUI)) then
 				slot1.renderMode = CriWare.CriManaMovieMaterialBase.RenderMode.Always
 
 				slot1:Pause(false)
+			else
+				tf(slot0).anchorMin = Vector2(0, 0)
+				tf(slot0).anchorMax = Vector2(1, 1)
+				tf(slot0).offsetMin = Vector2(0, 0)
+				tf(slot0).offsetMax = Vector2(0, 0)
 			end
 
 			uv4.cache[uv5] = {

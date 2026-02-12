@@ -13,7 +13,7 @@ pg.shop_banner_template = {
 				{
 					2026,
 					2,
-					5
+					12
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.shop_banner_template = {
 				{
 					2026,
 					2,
-					11
+					18
 				},
 				{
 					23,
@@ -50,9 +50,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					31
+					2026,
+					2,
+					20
 				},
 				{
 					0,
@@ -63,8 +63,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					21
+					2,
+					25
 				},
 				{
 					23,

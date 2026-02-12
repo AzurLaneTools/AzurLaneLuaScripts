@@ -4,7 +4,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 1,
-		expedition_id = 1799001,
+		expedition_id = 0,
 		activity_type = 1,
 		name = "",
 		guardian_limit = 0,
@@ -53,7 +53,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 1001,
 		count = 0,
 		type = 2,
-		expedition_id = 1799002,
+		expedition_id = 0,
 		activity_type = 1,
 		name = "",
 		guardian_limit = 0,
@@ -102,7 +102,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 1002,
 		count = 0,
 		type = 3,
-		expedition_id = 1799003,
+		expedition_id = 0,
 		activity_type = 1,
 		name = "",
 		guardian_limit = 0,
@@ -151,7 +151,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 1003,
 		count = 1,
 		type = 4,
-		expedition_id = 1799004,
+		expedition_id = 0,
 		activity_type = 1,
 		name = "",
 		guardian_limit = 0,
@@ -206,7 +206,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 1003,
 		count = 0,
 		type = 5,
-		expedition_id = 1799005,
+		expedition_id = 0,
 		activity_type = 1,
 		name = "",
 		guardian_limit = 1,
@@ -918,6 +918,138 @@ pg.activity_single_enemy = {
 		limitation = {},
 		property_limitation = {}
 	},
+	[1000001] = {
+		pre_chapter = 0,
+		count = 0,
+		type = 1,
+		expedition_id = 1799001,
+		activity_type = 1,
+		name = "",
+		guardian_limit = 0,
+		enter_cost_drop = 0,
+		strategy_id = "",
+		strategy_num = 0,
+		icon = "",
+		level = "",
+		time = "always",
+		enter_cost = 0,
+		extra_drop = "",
+		id = 1000001,
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	},
+	[1000002] = {
+		pre_chapter = 1000001,
+		count = 0,
+		type = 2,
+		expedition_id = 1799002,
+		activity_type = 1,
+		name = "",
+		guardian_limit = 0,
+		enter_cost_drop = 0,
+		strategy_id = "",
+		strategy_num = 0,
+		icon = "",
+		level = "",
+		time = "always",
+		enter_cost = 0,
+		extra_drop = "",
+		id = 1000002,
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	},
+	[1000003] = {
+		pre_chapter = 1000002,
+		count = 0,
+		type = 3,
+		expedition_id = 1799003,
+		activity_type = 1,
+		name = "",
+		guardian_limit = 0,
+		enter_cost_drop = 0,
+		strategy_id = "",
+		strategy_num = 0,
+		icon = "",
+		level = "",
+		time = "always",
+		enter_cost = 0,
+		extra_drop = "",
+		id = 1000003,
+		use_oil_limit = {
+			25,
+			15
+		},
+		limitation = {},
+		property_limitation = {}
+	},
+	[1000004] = {
+		pre_chapter = 1000003,
+		count = 1,
+		type = 4,
+		expedition_id = 1799004,
+		activity_type = 1,
+		name = "",
+		guardian_limit = 0,
+		enter_cost_drop = 0,
+		strategy_id = "",
+		strategy_num = 0,
+		icon = "",
+		level = "",
+		time = "always",
+		enter_cost = 0,
+		extra_drop = "",
+		id = 1000004,
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		}
+	},
+	[1000005] = {
+		pre_chapter = 1000003,
+		count = 0,
+		type = 5,
+		expedition_id = 1799005,
+		activity_type = 1,
+		name = "",
+		guardian_limit = 1,
+		enter_cost_drop = 0,
+		strategy_id = "",
+		strategy_num = 0,
+		icon = "",
+		level = "",
+		time = "always",
+		enter_cost = 0,
+		extra_drop = "",
+		id = 1000005,
+		use_oil_limit = {
+			40,
+			16
+		},
+		limitation = {},
+		property_limitation = {
+			{
+				"level",
+				1,
+				105
+			}
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -939,6 +1071,11 @@ pg.activity_single_enemy = {
 		2013,
 		3001,
 		3002,
-		3003
+		3003,
+		1000001,
+		1000002,
+		1000003,
+		1000004,
+		1000005
 	}
 }

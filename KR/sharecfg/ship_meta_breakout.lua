@@ -861,7 +861,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701111] = {
-		breakout_view = "스킬 [염추의 재·카라비니에레] 습득/주포 효율 5% 향상",
+		breakout_view = "[염추의 재 - 카라비니에레] 습득 / 주포 보정 +5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -877,7 +877,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701112] = {
-		breakout_view = "어뢰 장전 수+1 / 시작 시 어뢰 +1 / 주포 효율 10% 증가",
+		breakout_view = "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 주포 보정 +10%",
 		item2 = 21001,
 		pre_id = 9701111,
 		repair = 0,
@@ -894,7 +894,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701113] = {
-		breakout_view = "[염추의 재·카라비니에레] 강화 / 무기 보정 +5%",
+		breakout_view = "[염추의 재 - 카라비니에레] 강화 / 무기 보정 +5%",
 		item2 = 21001,
 		pre_id = 9701112,
 		repair = 0,

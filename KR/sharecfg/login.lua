@@ -2063,39 +2063,14 @@ pg.login = {
 		}
 	},
 	[81] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		id = 81,
 		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2026,
-					1,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2026,

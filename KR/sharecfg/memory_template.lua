@@ -3966,6 +3966,13 @@ pg.memory_template = setmetatable({
 		4968,
 		4969,
 		4970,
+		4971,
+		4972,
+		4973,
+		4974,
+		4975,
+		4976,
+		4977,
 		10000,
 		10001,
 		10002,
@@ -63651,6 +63658,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"GUANGYINGFENGSHANG10"
+		}
+	},
+	[4971] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "위기 의식",
+		condition = "「투자하고 파산하라 1」 시작",
+		story = "DINGAN1",
+		id = 4971,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN1"
+		}
+	},
+	[4972] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "분석 대상은……?",
+		condition = "「투자하고 파산하라 2」 시작",
+		story = "DINGAN2",
+		id = 4972,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN2"
+		}
+	},
+	[4973] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "적자 확정!",
+		condition = "「투자하고 파산하라 3」 시작",
+		story = "DINGAN3",
+		id = 4973,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN3"
+		}
+	},
+	[4974] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "흑자의 비밀……?",
+		condition = "「투자하고 파산하라 4」 시작",
+		story = "DINGAN4",
+		id = 4974,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN4"
+		}
+	},
+	[4975] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "쪽박 계획 2.0",
+		condition = "「투자하고 파산하라 5」 시작",
+		story = "DINGAN5",
+		id = 4975,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN5"
+		}
+	},
+	[4976] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "팔린 상품은……?",
+		condition = "「투자하고 파산하라 6」 시작",
+		story = "DINGAN6",
+		id = 4976,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN6"
+		}
+	},
+	[4977] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "진정한 「이익」",
+		condition = "「투자하고 파산하라 7」 시작",
+		story = "DINGAN7",
+		id = 4977,
+		icon = "memory_dingan",
+		is_open = 0,
+		unlock_pre = {
+			"DINGAN7"
 		}
 	},
 	[10000] = {

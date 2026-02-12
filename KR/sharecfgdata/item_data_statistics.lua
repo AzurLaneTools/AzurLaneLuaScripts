@@ -30370,7 +30370,7 @@ _G.pg.base.item_data_statistics[30432] = {
 
 _G.pg.base.item_data_statistics[30433] = {
 	open_directly = 1,
-	name = "랜덤 장비스킨",
+	name = "무작위 장비 스킨",
 	type = 11,
 	display = "크루즈 보상 장비 스킨을 무작위로 하나 획득 가능",
 	other_resource_cost = "[]",
@@ -107155,7 +107155,7 @@ _G.pg.base.item_data_statistics[81425] = {
 
 _G.pg.base.item_data_statistics[81439] = {
 	open_directly = 1,
-	name = "광휘와 마음의 게디히트",
+	name = "빛을 머금은 마음",
 	type = 17,
 	display = "수증기 속에서 보이는 이 목걸이의 광채와 질감… 정말 근사해…… 아, 지휘관…… 네가 준 이 풍경을 함께 감상하지 그래?",
 	other_resource_cost = "[]",

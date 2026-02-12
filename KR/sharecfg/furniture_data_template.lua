@@ -27965,7 +27965,7 @@ pg.base.furniture_data_template = {
 	},
 	[100071] = {
 		advice = 0,
-		name = "쥬쥬 간호 침대",
+		name = "만쥬 병상",
 		count = 1,
 		type = 11,
 		dir = 0,
@@ -27985,7 +27985,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		id = 100071,
 		comfortable = 0,
-		describe = "빨리 쾌차하세요쥬~!",
+		describe = "빨리 나아라쥬쥬!",
 		dorm_id = 0,
 		tag = 6,
 		spine_extra = "",

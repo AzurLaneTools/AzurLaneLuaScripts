@@ -68,9 +68,7 @@ slot0.IsCurSeasonPtZero = function(slot0)
 end
 
 slot0.GetCurrentSeason = function()
-	slot0 = pg.island_season.all
-
-	return slot0[#slot0]
+	return pg.island_set.season_now.key_value_int
 end
 
 return slot0

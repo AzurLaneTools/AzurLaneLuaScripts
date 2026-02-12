@@ -4293,6 +4293,7 @@ pg.painting_filte_map = {
 		key = "dewenjun_2",
 		res_list = {
 			"painting/dewenjun_2_tex",
+			"painting/dewenjun_2_shophx_tex",
 			"painting/dewenjun_2"
 		}
 	},
