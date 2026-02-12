@@ -2235,6 +2235,321 @@ pg.dorm3d_camera_anim_template = {
 			}
 		}
 	},
+	[3701] = {
+		anim_time = 2,
+		finish_anim = 3701,
+		pre_anim = 0,
+		state = "ab_TD_bed_idle01",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 324,
+		desc = "横になる",
+		zone = "3001",
+		staypoint = "Pos300710",
+		room = 3,
+		enter_extra_item = "",
+		id = 3701,
+		icon = "camera_action25",
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle01_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle01_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle01_3caiqiu"
+			}
+		},
+		hide_scene_item = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
+	[3702] = {
+		anim_time = 13.967,
+		finish_anim = 3701,
+		pre_anim = 3701,
+		state = "ab_TD_bed_idle01_fb01",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 324,
+		desc = "ワクワク",
+		zone = "3001",
+		staypoint = "Pos300710",
+		room = 3,
+		enter_extra_item = "",
+		id = 3702,
+		icon = "camera_action27",
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle01_fb01_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle01_fb01_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle01_fb01_3caiqiu"
+			}
+		},
+		hide_scene_item = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
+	[3703] = {
+		anim_time = 22.5,
+		finish_anim = 3701,
+		pre_anim = 3701,
+		state = "ab_TD_bed_idle01_fb02",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 324,
+		desc = "タッチ",
+		zone = "3001",
+		staypoint = "Pos300710",
+		room = 3,
+		enter_extra_item = "",
+		id = 3703,
+		icon = "camera_action28",
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle01_fb02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle01_fb02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle01_fb02_3caiqiu"
+			}
+		},
+		hide_scene_item = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
+	[3704] = {
+		anim_time = 2,
+		finish_anim = 3704,
+		pre_anim = 0,
+		state = "ab_TD_bed_idle02",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 324,
+		desc = "座る",
+		zone = "3001",
+		staypoint = "Pos300720",
+		room = 3,
+		enter_extra_item = "",
+		id = 3704,
+		icon = "camera_action13",
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle02_3caiqiu"
+			}
+		},
+		hide_scene_item = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
+	[3705] = {
+		anim_time = 18.933,
+		finish_anim = 3704,
+		pre_anim = 3704,
+		state = "ab_TD_bed_idle02_fb02",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 324,
+		desc = "のんびり",
+		zone = "3001",
+		staypoint = "Pos300720",
+		room = 3,
+		enter_extra_item = "",
+		id = 3705,
+		icon = "camera_action19",
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle02_fb02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle02_fb02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle02_fb02_3caiqiu"
+			}
+		},
+		hide_scene_item = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
+	[3706] = {
+		anim_time = 20,
+		finish_anim = 3704,
+		pre_anim = 3704,
+		state = "ab_TD_bed_idle02_fb03",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 324,
+		desc = "猫ストレッチ",
+		zone = "3001",
+		staypoint = "Pos300720",
+		room = 3,
+		enter_extra_item = "",
+		id = 3706,
+		icon = "camera_action34",
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle02_fb03_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle02_fb03_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle02_fb03_3caiqiu"
+			}
+		},
+		hide_scene_item = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
+	[3707] = {
+		anim_time = 2,
+		finish_anim = 3707,
+		pre_anim = 0,
+		state = "ab_TD_bed_idle03",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 324,
+		desc = "膝を抱える",
+		zone = "3001",
+		staypoint = "Pos300740",
+		room = 3,
+		enter_extra_item = "",
+		id = 3707,
+		icon = "camera_action32",
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle03_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle03_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle03_3caiqiu"
+			}
+		},
+		hide_scene_item = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
+	[3708] = {
+		anim_time = 18.667,
+		finish_anim = 3707,
+		pre_anim = 3707,
+		state = "ab_TD_bed_idle03_fb01",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 324,
+		desc = "アヒル座り",
+		zone = "3001",
+		staypoint = "Pos300740",
+		room = 3,
+		enter_extra_item = "",
+		id = 3708,
+		icon = "camera_action25",
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle03_fb01_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle03_fb01_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle03_fb01_3caiqiu"
+			}
+		},
+		hide_scene_item = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
+	[3709] = {
+		anim_time = 19.167,
+		finish_anim = 3707,
+		pre_anim = 3707,
+		state = "ab_TD_bed_idle03_fb02",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 324,
+		desc = "甘える",
+		zone = "3001",
+		staypoint = "Pos300740",
+		room = 3,
+		enter_extra_item = "",
+		id = 3709,
+		icon = "camera_action33",
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle03_fb02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle03_fb02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle03_fb02_3caiqiu"
+			}
+		},
+		hide_scene_item = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
 	[4001] = {
 		anim_time = 0,
 		finish_anim = 4001,
@@ -3368,6 +3683,167 @@ pg.dorm3d_camera_anim_template = {
 		icon = "camera_action8",
 		hide_scene_item = "",
 		enter_scene_anim = ""
+	},
+	[11701] = {
+		anim_time = 2,
+		finish_anim = 11701,
+		pre_anim = 0,
+		state = "IK_dining02_idle01",
+		unlock = "",
+		ship_group = 10517,
+		furniture_id = 1154,
+		desc = "座る",
+		zone = "11002",
+		staypoint = "Pos400810",
+		room = 11,
+		enter_extra_item = "",
+		id = 11701,
+		icon = "camera_action13",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle01_BX"
+			}
+		}
+	},
+	[11702] = {
+		anim_time = 16.767,
+		finish_anim = 11701,
+		pre_anim = 11701,
+		state = "IK_dining02_idle01_fb01",
+		unlock = "",
+		ship_group = 10517,
+		furniture_id = 1154,
+		desc = "アヒル座り",
+		zone = "11002",
+		staypoint = "Pos400810",
+		room = 11,
+		enter_extra_item = "",
+		id = 11702,
+		icon = "camera_action25",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle01_fb01_BX"
+			}
+		}
+	},
+	[11703] = {
+		anim_time = 15.667,
+		finish_anim = 11701,
+		pre_anim = 11701,
+		state = "IK_dining02_idle01_fb03",
+		unlock = "",
+		ship_group = 10517,
+		furniture_id = 1154,
+		desc = "体を起す",
+		zone = "11002",
+		staypoint = "Pos400810",
+		room = 11,
+		enter_extra_item = "",
+		id = 11703,
+		icon = "camera_action28",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle01_fb03_BX"
+			}
+		}
+	},
+	[11704] = {
+		anim_time = 2,
+		finish_anim = 11704,
+		pre_anim = 0,
+		state = "IK_dining02_idle02",
+		unlock = "",
+		ship_group = 10517,
+		furniture_id = 1154,
+		desc = "まったり",
+		zone = "11002",
+		staypoint = "Pos400840",
+		room = 11,
+		enter_extra_item = "",
+		id = 11704,
+		icon = "camera_action32",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle02_BX"
+			}
+		}
+	},
+	[11705] = {
+		anim_time = 15.333,
+		finish_anim = 11704,
+		pre_anim = 11704,
+		state = "IK_dining02_idle02_fb01",
+		unlock = "",
+		ship_group = 10517,
+		furniture_id = 1154,
+		desc = "水を飲む",
+		zone = "11002",
+		staypoint = "Pos400840",
+		room = 11,
+		enter_extra_item = "",
+		id = 11705,
+		icon = "camera_action36",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle02_fb01_BX"
+			}
+		}
+	},
+	[11706] = {
+		anim_time = 14.333,
+		finish_anim = 11704,
+		pre_anim = 11704,
+		state = "IK_dining02_idle02_fb02",
+		unlock = "",
+		ship_group = 10517,
+		furniture_id = 1154,
+		desc = "食べる",
+		zone = "11002",
+		staypoint = "Pos400840",
+		room = 11,
+		enter_extra_item = "",
+		id = 11706,
+		icon = "camera_action17",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle02_fb02_BX"
+			}
+		}
+	},
+	[11707] = {
+		anim_time = 14.667,
+		finish_anim = 11704,
+		pre_anim = 11704,
+		state = "IK_dining02_idle02_fb03",
+		unlock = "",
+		ship_group = 10517,
+		furniture_id = 1154,
+		desc = "伸び",
+		zone = "11002",
+		staypoint = "Pos400840",
+		room = 11,
+		enter_extra_item = "",
+		id = 11707,
+		icon = "camera_action34",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle02_fb03_BX"
+			}
+		}
 	},
 	[12001] = {
 		anim_time = 0,
@@ -4605,6 +5081,167 @@ pg.dorm3d_camera_anim_template = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
 		}
 	},
+	[12601] = {
+		anim_time = 2,
+		finish_anim = 12601,
+		pre_anim = 0,
+		state = "IK_living02_idle01",
+		unlock = "",
+		ship_group = 30707,
+		furniture_id = 1223,
+		desc = "立つ",
+		zone = "12003",
+		staypoint = "Pos500610",
+		room = 12,
+		enter_extra_item = "",
+		id = 12601,
+		icon = "camera_action13",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle01_CJ"
+			}
+		}
+	},
+	[12602] = {
+		anim_time = 14.8,
+		finish_anim = 12601,
+		pre_anim = 12601,
+		state = "IK_living02_idle01_fb01",
+		unlock = "",
+		ship_group = 30707,
+		furniture_id = 1223,
+		desc = "足上げ",
+		zone = "12003",
+		staypoint = "Pos500610",
+		room = 12,
+		enter_extra_item = "",
+		id = 12602,
+		icon = "camera_action32",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle01_fb01_CJ"
+			}
+		}
+	},
+	[12603] = {
+		anim_time = 14.133,
+		finish_anim = 12601,
+		pre_anim = 12601,
+		state = "IK_living02_idle01_fb02",
+		unlock = "",
+		ship_group = 30707,
+		furniture_id = 1223,
+		desc = "食べる",
+		zone = "12003",
+		staypoint = "Pos500610",
+		room = 12,
+		enter_extra_item = "",
+		id = 12603,
+		icon = "camera_action15",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle01_fb02_CJ"
+			}
+		}
+	},
+	[12604] = {
+		anim_time = 13.5,
+		finish_anim = 12601,
+		pre_anim = 12601,
+		state = "IK_living02_idle01_fb03",
+		unlock = "",
+		ship_group = 30707,
+		furniture_id = 1223,
+		desc = "甘える",
+		zone = "12003",
+		staypoint = "Pos500610",
+		room = 12,
+		enter_extra_item = "",
+		id = 12604,
+		icon = "camera_action32",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle01_fb03_CJ"
+			}
+		}
+	},
+	[12605] = {
+		anim_time = 2,
+		finish_anim = 12605,
+		pre_anim = 0,
+		state = "IK_living02_idle02",
+		unlock = "",
+		ship_group = 30707,
+		furniture_id = 1223,
+		desc = "立つ",
+		zone = "12003",
+		staypoint = "Pos500630",
+		room = 12,
+		enter_extra_item = "",
+		id = 12605,
+		icon = "camera_action18",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle02_CJ"
+			}
+		}
+	},
+	[12606] = {
+		anim_time = 11.867,
+		finish_anim = 12605,
+		pre_anim = 12605,
+		state = "IK_living02_idle02_fb01",
+		unlock = "",
+		ship_group = 30707,
+		furniture_id = 1223,
+		desc = "ストレッチ",
+		zone = "12003",
+		staypoint = "Pos500630",
+		room = 12,
+		enter_extra_item = "",
+		id = 12606,
+		icon = "camera_action34",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle02_fb01_CJ"
+			}
+		}
+	},
+	[12607] = {
+		anim_time = 10.033,
+		finish_anim = 12605,
+		pre_anim = 12605,
+		state = "IK_living02_idle02_fb02",
+		unlock = "",
+		ship_group = 30707,
+		furniture_id = 1223,
+		desc = "招待",
+		zone = "12003",
+		staypoint = "Pos500630",
+		room = 12,
+		enter_extra_item = "",
+		id = 12607,
+		icon = "camera_action14",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle02_fb02_CJ"
+			}
+		}
+	},
 	[14001] = {
 		anim_time = 0,
 		finish_anim = 0,
@@ -5475,6 +6112,96 @@ pg.dorm3d_camera_anim_template = {
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
+	[16016] = {
+		anim_time = 0,
+		finish_anim = 16016,
+		pre_anim = 0,
+		state = "Idle",
+		unlock = "",
+		ship_group = 20220,
+		furniture_id = 0,
+		desc = "立つ",
+		zone = "",
+		staypoint = "",
+		room = 1,
+		enter_extra_item = "",
+		id = 16016,
+		icon = "camera_action1",
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[16017] = {
+		anim_time = 1.533,
+		finish_anim = 16016,
+		pre_anim = 16016,
+		state = "diantou",
+		unlock = "",
+		ship_group = 20220,
+		furniture_id = 0,
+		desc = "頷く",
+		zone = "",
+		staypoint = "",
+		room = 1,
+		enter_extra_item = "",
+		id = 16017,
+		icon = "camera_action2",
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[16018] = {
+		anim_time = 5.267,
+		finish_anim = 16016,
+		pre_anim = 16016,
+		state = "yaotou",
+		unlock = "",
+		ship_group = 20220,
+		furniture_id = 0,
+		desc = "頭を振る",
+		zone = "",
+		staypoint = "",
+		room = 1,
+		enter_extra_item = "",
+		id = 16018,
+		icon = "camera_action8",
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[16019] = {
+		anim_time = 9,
+		finish_anim = 16016,
+		pre_anim = 16016,
+		state = "sikao1",
+		unlock = "",
+		ship_group = 20220,
+		furniture_id = 0,
+		desc = "疑問",
+		zone = "",
+		staypoint = "",
+		room = 1,
+		enter_extra_item = "",
+		id = 16019,
+		icon = "camera_action10",
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[16020] = {
+		anim_time = 5.7,
+		finish_anim = 16016,
+		pre_anim = 16016,
+		state = "shy",
+		unlock = "",
+		ship_group = 20220,
+		furniture_id = 0,
+		desc = "恥ずかしい",
+		zone = "",
+		staypoint = "",
+		room = 1,
+		enter_extra_item = "",
+		id = 16020,
+		icon = "camera_action11",
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
 	get_id_list_by_furniture_id = {
 		[0] = {
 			1001,
@@ -5595,7 +6322,12 @@ pg.dorm3d_camera_anim_template = {
 			16012,
 			16013,
 			16014,
-			16015
+			16015,
+			16016,
+			16017,
+			16018,
+			16019,
+			16020
 		},
 		{
 			1201,
@@ -5713,6 +6445,17 @@ pg.dorm3d_camera_anim_template = {
 			3604,
 			3605
 		},
+		[324] = {
+			3701,
+			3702,
+			3703,
+			3704,
+			3705,
+			3706,
+			3707,
+			3708,
+			3709
+		},
 		[222] = {
 			4301,
 			4302,
@@ -5758,6 +6501,15 @@ pg.dorm3d_camera_anim_template = {
 			11508,
 			11509,
 			11510
+		},
+		[1154] = {
+			11701,
+			11702,
+			11703,
+			11704,
+			11705,
+			11706,
+			11707
 		},
 		[1201] = {
 			12101,
@@ -5806,6 +6558,15 @@ pg.dorm3d_camera_anim_template = {
 			12507,
 			12508,
 			12509
+		},
+		[1223] = {
+			12601,
+			12602,
+			12603,
+			12604,
+			12605,
+			12606,
+			12607
 		},
 		[1401] = {
 			14101,
@@ -5956,6 +6717,15 @@ pg.dorm3d_camera_anim_template = {
 		3603,
 		3604,
 		3605,
+		3701,
+		3702,
+		3703,
+		3704,
+		3705,
+		3706,
+		3707,
+		3708,
+		3709,
 		4001,
 		4002,
 		4003,
@@ -6019,6 +6789,13 @@ pg.dorm3d_camera_anim_template = {
 		11508,
 		11509,
 		11510,
+		11701,
+		11702,
+		11703,
+		11704,
+		11705,
+		11706,
+		11707,
 		12001,
 		12002,
 		12003,
@@ -6074,6 +6851,13 @@ pg.dorm3d_camera_anim_template = {
 		12507,
 		12508,
 		12509,
+		12601,
+		12602,
+		12603,
+		12604,
+		12605,
+		12606,
+		12607,
 		14001,
 		14002,
 		14003,
@@ -6121,6 +6905,11 @@ pg.dorm3d_camera_anim_template = {
 		16012,
 		16013,
 		16014,
-		16015
+		16015,
+		16016,
+		16017,
+		16018,
+		16019,
+		16020
 	}
 }

@@ -582,6 +582,43 @@ pg.extraenemy_template = {
 			24715
 		}
 	},
+	{
+		mail_title = "world_boss_title_14",
+		name = "彰武",
+		hp = 10000,
+		replace_task = "",
+		background = "",
+		mail_content = "world_boss_content_1",
+		id = 19,
+		reward = {
+			86525,
+			86526,
+			86527,
+			86528
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				13004,
+				5
+			},
+			{
+				3,
+				96020,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -600,6 +637,7 @@ pg.extraenemy_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19
 	}
 }

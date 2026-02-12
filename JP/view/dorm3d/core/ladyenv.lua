@@ -225,23 +225,6 @@ slot0.GetBlackboardValue = function(slot0, slot1)
 	return slot0.blackboard[slot1]
 end
 
-slot0.HideCharacterPart = function(slot0, slot1, slot2)
-	slot4, slot5 = Dorm3dSkin.New({
-		configId = slot1
-	}):GetActiveAndHiddenPartNames(slot2)
-
-	if slot0.lady == nil then
-		slot0.lady = slot0.ladyGameObject.transform
-	end
-
-	_.each(slot4, function (slot0)
-		setActive(uv0.lady:Find(slot0), true)
-	end)
-	_.each(slot5, function (slot0)
-		setActive(uv0.lady:Find(slot0), false)
-	end)
-end
-
 slot0.GetCurrentAnim = function(slot0)
 	return slot0.ladyAnimator:GetCurrentAnimatorStateInfo(slot0.ladyAnimBaseLayerIndex).shortNameHash
 end

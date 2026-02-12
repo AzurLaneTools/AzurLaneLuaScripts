@@ -1887,5 +1887,13 @@ pg.voice_actor_CN = {
 	[496] = {
 		actor_name = "永牟田萌",
 		code = 496
+	},
+	[497] = {
+		actor_name = "奈波果林",
+		code = 497
+	},
+	[498] = {
+		actor_name = "熊谷海麗",
+		code = 498
 	}
 }

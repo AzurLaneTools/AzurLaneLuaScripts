@@ -85,6 +85,31 @@ pg.dorm3d_scene_animator = {
 		room_id = 16,
 		item_name = "fbx/litmap_03/pre_db_chair23_6/fbx_db_chair23a"
 	},
+	[2018] = {
+		id = 2018,
+		room_id = 11,
+		item_name = "FurnitureSlots/1110204/pre_db_njh_kitchen01(Clone)/pre_db_njh_refrigerator01"
+	},
+	[2019] = {
+		id = 2019,
+		room_id = 12,
+		item_name = "FurnitureSlots/1120303/pre_db_df_livingroom_01(Clone)"
+	},
+	[2020] = {
+		id = 2020,
+		room_id = 3,
+		item_name = "FurnitureSlots/130103/pre_db_aklq_sp_vd01(Clone)/pre_db_aklq_bed01"
+	},
+	[2021] = {
+		id = 2021,
+		room_id = 3,
+		item_name = "FurnitureSlots/130103/pre_db_aklq_sp_vd01(Clone)/pre_db_aklq_decoration01"
+	},
+	[2022] = {
+		id = 2022,
+		room_id = 3,
+		item_name = "FurnitureSlots/130103/pre_db_aklq_sp_vd01(Clone)/pre_db_aklq_chandelier01"
+	},
 	get_id_list_by_room_id = {
 		{
 			2001
@@ -96,7 +121,10 @@ pg.dorm3d_scene_animator = {
 		},
 		{
 			2003,
-			2012
+			2012,
+			2020,
+			2021,
+			2022
 		},
 		{
 			2004
@@ -106,10 +134,12 @@ pg.dorm3d_scene_animator = {
 			2006,
 			2007,
 			2010,
-			2011
+			2011,
+			2018
 		},
 		[12] = {
-			2013
+			2013,
+			2019
 		},
 		[16] = {
 			2014,
@@ -137,6 +167,11 @@ pg.dorm3d_scene_animator = {
 		2014,
 		2015,
 		2016,
-		2017
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022
 	}
 }

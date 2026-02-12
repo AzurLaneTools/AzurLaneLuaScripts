@@ -135,6 +135,7 @@ slot0.getDataAndTrophys = function(slot0, slot1)
 	end
 
 	slot2.trophys = getProxy(CollectionProxy):getTrophys()
+	slot2.loveTrophys = getProxy(LoveLetterProxy):GetTrophyList()
 
 	return slot2
 end

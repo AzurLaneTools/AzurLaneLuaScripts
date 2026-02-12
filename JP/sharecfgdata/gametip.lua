@@ -3823,11 +3823,11 @@ _G.pg.base.gametip.coloring_help_tip = {
 			info = [[
 ※遊び方※
 ・「おえかき」では、着色枠に指定された番号の絵の具
-を選択して、タップすると、枠に色を塗ることが出来ま
+を選択して、タップすると、枠に色を塗ることができま
 す；
 ・塗エリアはピンチ操作で拡大・縮小できます
 ・色塗りは、同じ色の枠が完全に着色されるか、絵の具
-が全て消費されるかまで自動で行われます；
+が全て消費されるまで自動で行われます；
 ・色塗りは「絵の具」を消費します。絵の具の残量が0
 になると、該当する色の枠を色塗りすることができませ
 ん；
@@ -3837,14 +3837,14 @@ _G.pg.base.gametip.coloring_help_tip = {
 ると、報酬を入手することができます。
 ・おえかき完成の報酬一覧：
 No.1 ランダム教科書T3×2
-No.2 年玉×2
-No.3 限定家具「玉竹バブルマシン」
-No.4 年玉×2
-No.5 限定家具「玉竹バブルマシン」
-No.6 年玉×2
-No.7 艦船「鞍山」、年玉×1
+No.2 年玉×1
+No.3 艦船「応瑞」
+No.4 年玉×1
+No.5 年玉×2
+No.6 年玉×1
+No.7 艦船「肇和」、年玉×2
 ・イベント終了後、未使用の絵の具はリセットされます
-・1月22日(水)まで毎日新しい絵が一枚ずつ解放され
+・2月18日(水)まで毎日新しい絵が一枚ずつ解放され
 ます。]]
 		}
 	}
@@ -12882,12 +12882,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「インプラカブル」「ロイヤル・オーク」常設実装！"
+	tip = "「建武」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「シラ」常設実装！"
+	tip = "「海容」「長風」常設実装！"
 }
 
 
@@ -13057,6 +13057,11 @@ _G.pg.base.gametip.tec_catchup_5 = {
 
 _G.pg.base.gametip.tec_catchup_6 = {
 	tip = "Ⅵ期"
+}
+
+
+_G.pg.base.gametip.tec_catchup_7 = {
+	tip = "Ⅶ期"
 }
 
 
@@ -13966,35 +13971,35 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>★遊び方</color>"
 		},
 		{
-			info = "イベント「新春華裳協奏曲」とは、<color=#92fc63>「演習Pt」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
+			info = "イベント「新春珠玉逸品会」とは、<color=#92fc63>「Ptアイテム」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
 		},
 		{
 			info = [[
-イベント期間中、敵艦隊を相手に戦う「演習作戦」特別ステージが登場します。
-作戦を完遂するには指揮官同士で協力し、「演習Pt」を集め、作戦進捗を進める<color=#92fc63>（演習ゲージを0%まで削る）</color>必要があります。
+イベント期間中、敵艦隊を相手に戦う「共闘」特別ステージが登場します。
+作戦を完遂するには指揮官同士で協力し、「Ptアイテム」を集め、作戦進捗を進める<color=#92fc63>（耐久ゲージを0%まで削る）</color>必要があります。
 作戦に成功した場合、作戦に参加した指揮官に報酬として特別兵装をメールで配布します。
 ※メール数が1000を超えると報酬メールを受け取れない場合がありますので、ご注意ください。
-（演習ゲージが<color=#92fc63>0%</color>になっても、引き続き特別ステージに挑戦することで「演習Pt」を獲得できます）]]
+（耐久ゲージが<color=#92fc63>0%</color>になっても、引き続き特別ステージに挑戦することで「Ptアイテム」を獲得できます）]]
 		},
 		{
 			info = [[
-<color=#92fc63>-演習Ptについて-</color>
-1 特別ステージをクリアすると「演習Pt」を獲得できます。
-2 同じサーバーのすべての指揮官が獲得した「演習Pt」の合計数が作戦の進捗を左右します。
-3 演習ゲージが0%になると、作戦が成功になります。各サーバーの作戦進捗はそれぞれで計算されます。
-4 イベント期間中に獲得した「演習Pt」の累計数に応じて、イベントバナーより「Pt累計報酬」を入手できます。]]
+<color=#92fc63>-Ptアイテムについて-</color>
+1 特別ステージをクリアすると「Ptアイテム」を獲得できます。
+2 同じサーバーのすべての指揮官が獲得した「Ptアイテム」の合計数が作戦の進捗を左右します。
+3 耐久ゲージが0%になると、作戦が成功になります。各サーバーの作戦進捗はそれぞれで計算されます。
+4 イベント期間中に獲得した「Ptアイテム」の累計数に応じて、イベントバナーより「Pt累計報酬」を入手できます。]]
 		},
 		{
 			info = [[
 <color=#92fc63>-特別ステージについて-</color>
 1 特別ステージは難易度に応じて、「簡単」「普通」「難しい」「EX」の四種類があります。
-2 「EX」以外の難易度で得られる演習Ptは固定で、「EX」では戦闘中に与えたダメージ総量によって演習Pt
+2 「EX」以外の難易度で得られるPtアイテムは固定で、「EX」では戦闘中に与えたダメージ総量によってPtアイテム
 •報酬が変化します。
 3 特別ステージは通常の艦隊とは違う<color=#92fc63>「特別演習編成」</color>を使用します(ステージ出撃時に編成可能)。
 4 特別ステージは出撃/勝利時には通常海域の出撃と同じく燃料•コンディションを消費します。また、勝利時に経験値•通常クリア報酬の獲得と、コンディションが増減します。
-　•特別ステージの「EX」では作戦制限時間は<color=#92fc63>【60秒】</color>になります。60秒経過•敵を撃破•味方旗艦大破するとクリア扱いになります
-　•特別ステージでは艦船が戦闘不能になっても、コンディションは低下しません
-　•「EX」ステージの「模擬戦」に出撃する場合、燃料•コンディション•特別戦闘券（後述）は増減せず、経験値•報酬も入手できません
+ •特別ステージの「EX」では作戦制限時間は<color=#92fc63>【60秒】</color>になります。60秒経過•敵を撃破•味方旗艦大破するとクリア扱いになります
+ •特別ステージでは艦船が戦闘不能になっても、コンディションは低下しません
+ •「EX」ステージの「模擬戦」に出撃する場合、燃料•コンディション•特別戦闘券（後述）は増減せず、経験値•報酬も入手できません
 5 特別演習編成では潜水艦•オフニャを配置できます。
 戦闘中に潜水支援を行う場合、燃料を消費します。
 6 特別ステージの「簡単」「普通」「難しい」は回数無制限に出撃できます。「EX」は「特別戦闘券」を<color=#92fc63>1枚</color>消費しなければ出撃することができません。]]
@@ -14011,7 +14016,7 @@ _G.pg.base.gametip.world_boss_help = {
 		{
 			info = [[
 <color=#ff5c5c>※注意点</color>
-1 「EX」での戦闘を中止した場合、特別戦闘券のみが消費され、報酬•演習Ptを得ることができません。
+1 「EX」での戦闘を中止した場合、特別戦闘券のみが消費され、報酬•Ptアイテムを得ることができません。
 2 「EX」での戦闘は<color=#92fc63>マニュアル（手動）</color>操作でのチャレンジをおすすめします。
 3 「EX」の出撃編成画面では「模擬戦」に出撃できます。
 4 「簡単」「普通」「難しい」の戦闘を中止した場合、「ボーナス出撃回数」が減ることはありません。
@@ -14028,9 +14033,9 @@ _G.pg.base.gametip.world_boss_help = {
 5.「連続挑戦」は随時中止することができます。中止すると、戦闘終了後の結果画面で自動で前の画面に戻ります。
 6.「連続挑戦」は戦闘中に中止すると、手動戦闘に切り替えることが可能です。また「連続挑戦」を再開した場合、自動で「オート戦闘」に切り替わります。
 6.「連続挑戦」は下記の場合自動で中止します：
-　	·所持燃料が出撃消費分を下回った場合
-　	·出撃艦船のコンディション値が一定値を下回った場合
-　	·戦闘で敗北した場合]]
+ 	·所持燃料が出撃消費分を下回った場合
+ 	·出撃艦船のコンディション値が一定値を下回った場合
+ 	·戦闘で敗北した場合]]
 		}
 	}
 }
@@ -46901,6 +46906,95 @@ _G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
 }
 
 
+_G.pg.base.gametip.pac_game_high_score_tip = {
+	tip = "最高記録：$1"
+}
+
+
+_G.pg.base.gametip.pac_game_rule_btn = {
+	tip = "遊び方"
+}
+
+
+_G.pg.base.gametip.pac_game_start_btn = {
+	tip = "スタート"
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_time_desc = {
+	tip = "時間："
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_score = {
+	tip = "スコア："
+}
+
+
+_G.pg.base.gametip.mini_game_continue = {
+	tip = "戻る"
+}
+
+
+_G.pg.base.gametip.mini_game_over_game = {
+	tip = "ゲーム終了"
+}
+
+
+_G.pg.base.gametip.pac_minigame_help = {
+	tip = {
+		{
+			info = [[
+遊び方：
+「飛雲の大冒険」とは、飛雲を操作し仲間から逃げつつ東煌グルメを集めてスコアを稼ぐゲームになります。
+2/26（木）まで毎日ステージが開放され、7日間ゲームをクリアすると、艦船「飛雲」などの報酬を入手できます。
+
+遊び方：
+1.飛雲を操作し、迫ってくる仲間たちから上手く逃げましょう！
+2.拾ったアイテムによって異なる効果が発揮されます
+　金豆：スコア入手
+　サンザシのタンフールー：移動速度がアップし、仲間にぶつかると酸っぱいサンザシでその仲間を開始地点に飛ばす事ができる。
+3.仲間に捕まるか、ゲーム終了ボタンをタップするとゲームがクリアになります。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_1 = {
+	tip = "新春珠玉逸品会"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_2 = {
+	tip = "伏波の完全作戦"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_3 = {
+	tip = "饅頭の年玉"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_4 = {
+	tip = "新春祝福"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_5 = {
+	tip = "母港花火大会"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_6 = {
+	tip = "飛雲の大冒険"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_7 = {
+	tip = "着せ替え特集"
+}
+
+
 _G.pg.base.gametip.island_post_event_label = {
 	tip = "経営イベント"
 }
@@ -47051,6 +47145,11 @@ _G.pg.base.gametip.island_trade_reset_label = {
 }
 
 
+_G.pg.base.gametip.island_trade_help = {
+	tip = "大头菜帮助"
+}
+
+
 _G.pg.base.gametip.island_trade_help_1 = {
 	tip = {
 		{
@@ -47157,6 +47256,127 @@ _G.pg.base.gametip.island_bar_quick_game = {
 }
 
 
+_G.pg.base.gametip.loveactivity_ui_1 = {
+	tip = "出撃で思い出Ptを入手"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_2 = {
+	tip = "毎日報酬"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_3 = {
+	tip = "メッセージ"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4 = {
+	tip = "$1に思い出Ptをあげますか？"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_5 = {
+	tip = "メッセージ解放"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_6 = {
+	tip = "解放済み"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_7 = {
+	tip = "※メッセージを解放してもプレゼントはなくなりません"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_8 = {
+	tip = "解放"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_9 = {
+	tip = "$1バレンタインプレゼント"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_10 = {
+	tip = "思い出LV累計"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_11 = {
+	tip = "$1を選択しますか？"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_12 = {
+	tip = "※イベント期間中キャラを変更する事ができます（残り変更回数$1/$2）"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_13 = {
+	tip = "バレンタインメッセージが開放されました"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_14 = {
+	tip = "$1思い出勲章"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_15 = {
+	tip = "これ以上スライドできません"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_16 = {
+	tip = "受け取れる報酬はありません"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_17 = {
+	tip = "受け取れる報酬はありません"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_18 = {
+	tip = "選択中のキャラです"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_19 = {
+	tip = "選んでいないプレゼントがあります"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_20 = {
+	tip = "累计幸福共鸣等级奖励"
+}
+
+
+_G.pg.base.gametip.help_chunjie_jiulou_2026 = {
+	tip = {
+		{
+			info = [[
+饅頭年玉について：
+「饅頭の年玉」では、ミニゲームなどのコンテンツで手に入れた「年玉」を開封し、入手を入手できます。
+・「年玉」は<color=#92fc63>「飛雲の大冒険」</color>、<color=#92fc63>「おえかき」</color>、<color=#92fc63>「伏浪の完全作戦」</color>、<color=#92fc63>「母港花火大会」</color>を遊ぶことで入手できます。
+・入手した「年玉」は15個目までは「年玉・大」になります。
+・入手した「年玉」を開封する際は「年玉・大」から優先的に開封されます。
+開封すると、ダイヤなどの報酬をランダムで獲得できます。
+また、「年玉」を累計15個開封すると、<color=#92fc63>「撫順」の着せ替え（復刻）</color>を入手できます。「年玉」を累計25個開封すると、<color=#92fc63>「ロング・アイランド」の着せ替えを入手できます</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.island_trade_cnt_inadequate = {
 	tip = "数量が不足しています"
+}
+
+
+_G.pg.base.gametip.drawdiary_ui_2026 = {
+	tip = "おえかき"
 }

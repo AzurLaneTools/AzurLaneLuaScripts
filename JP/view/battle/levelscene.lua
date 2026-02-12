@@ -1410,6 +1410,10 @@ slot0.registerActBtn = function(slot0)
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.OTHERWORLD_MAP)
 
 				return
+			elseif slot0 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ZHANG_WU_BOSS)
+
+				return
 			end
 		end
 

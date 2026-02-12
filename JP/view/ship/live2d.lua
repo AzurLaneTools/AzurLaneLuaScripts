@@ -709,16 +709,6 @@ slot20 = function(slot0, slot1)
 	end)
 	slot0.liveCom:SetTouchParts(uv0.assistantTouchParts)
 
-	if slot0.live2dData and slot0.live2dData.ship and slot0.live2dData.ship.propose then
-		slot0:changeParamaterValue("Paramring", 1)
-	else
-		slot0:changeParamaterValue("Paramring", 0)
-	end
-
-	if HXSet.isHx() then
-		slot0:changeParamaterValue("l2d_hx", 1)
-	end
-
 	if not slot0._physics then
 		slot0._physics = GetComponent(slot0._tf, "CubismPhysicsController")
 	end
@@ -754,6 +744,18 @@ slot20 = function(slot0, slot1)
 	end
 
 	slot0.state = uv12.STATE_INITED
+
+	if slot0.live2dData and slot0.live2dData.ship and slot0.live2dData.ship.propose then
+		slot0:changeParamaterValue("Paramring", 1)
+	else
+		slot0:changeParamaterValue("Paramring", 0)
+	end
+
+	if HXSet.isHx() then
+		slot0:changeParamaterValue("l2d_hx", 1)
+	else
+		slot0:changeParamaterValue("l2d_hx", 0)
+	end
 
 	if slot0.delayChangeParamater and #slot0.delayChangeParamater > 0 then
 		for slot6 = 1, #slot0.delayChangeParamater do

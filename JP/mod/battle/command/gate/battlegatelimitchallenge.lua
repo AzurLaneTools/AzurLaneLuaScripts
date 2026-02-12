@@ -121,4 +121,50 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = nil
+	slot4 = ys.Battle.BattleResourceManager.GetInstance()
+	slot7 = getProxy(FleetProxy)
+	slot9 = slot7:getFleetById(FleetProxy.CHALLENGE_SUB_FLEET_ID)
+	slot10 = getProxy(BayProxy)
+
+	if slot7:getFleetById(FleetProxy.CHALLENGE_FLEET_ID) then
+		for slot15, slot16 in ipairs(slot8:GetRawShipIds()) do
+			table.insert(slot1, slot10:getShipById(slot16))
+		end
+
+		slot2 = slot8:buildBattleBuffList()
+	end
+
+	if slot9 then
+		for slot15, slot16 in ipairs(slot9:GetRawShipIds()) do
+			table.insert(slot1, slot10:getShipById(slot16))
+		end
+
+		for slot15, slot16 in ipairs(slot9:buildBattleBuffList()) do
+			table.insert(slot2, slot16)
+		end
+	end
+
+	slot11, slot12 = slot4.GetPlayerShipResource(slot1, slot0.system)
+
+	for slot16, slot17 in ipairs(slot4.GetCommanderBuffRes(slot2)) do
+		table.insert(slot11, slot17)
+	end
+
+	if AcessWithinNull(pg.expedition_constellation_challenge_template[LimitChallengeConst.GetChallengeIDByStageID(slot0.stageId)], "buff_id") then
+		for slot18, slot19 in ipairs(slot14) do
+			slot23 = {}
+
+			for slot23, slot24 in ipairs(ys.Battle.BattleDataFunction.GetResFromBuff(slot19.ID, slot19.LV, slot23)) do
+				table.insert(slot11, slot24)
+			end
+		end
+	end
+
+	return slot11, slot12
+end
+
 return slot0

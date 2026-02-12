@@ -123,4 +123,21 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1, slot2 = ys.Battle.BattleGateBossRush.GetPreloadList(slot0)
+	slot4 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
+
+	if slot4:GetBossHpRate() <= slot4:getConfig("aid_buff")[1] then
+		t = resMgr.GetResFromBuffIDList({
+			slot5[2]
+		})
+
+		for slot9, slot10 in ipairs(t) do
+			table.insert(slot1, slot10)
+		end
+	end
+
+	return slot1, slot2
+end
+
 return slot0

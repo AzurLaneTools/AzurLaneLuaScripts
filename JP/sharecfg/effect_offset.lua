@@ -2287,5 +2287,16 @@ pg.effect_offset = {
 			3,
 			0
 		}
+	},
+	zhangwu_yuhuanguanghuan = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
 	}
 }

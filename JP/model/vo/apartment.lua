@@ -152,13 +152,27 @@ slot0.GetHiddenParts = function(slot0, slot1)
 	if not underscore.detect(slot0.hiddenInfo, function (slot0)
 		return slot0.skin_id == uv0
 	end) then
+		if PlayerPrefs.GetInt(uv0.GetSetSkinKey(slot1), 0) == 0 then
+			return slot0:GetDefaultHiddenParts(slot1)
+		end
+
 		return {}
 	end
 
 	return slot2.hidden_parts or {}
 end
 
+slot0.GetSetSkinKey = function(slot0)
+	return "dorm3d_apartment_set_skin_" .. slot0 .. "_" .. getProxy(PlayerProxy):getRawData().id
+end
+
+slot0.GetDefaultHiddenParts = function(slot0, slot1)
+	return pg.dorm3d_default_hidden_part.get_id_list_by_skin_id[slot1] or {}
+end
+
 slot0.SetHiddenParts = function(slot0, slot1, slot2)
+	PlayerPrefs.SetInt(uv0.GetSetSkinKey(slot1), 1)
+
 	if not underscore.detect(slot0.hiddenInfo, function (slot0)
 		return slot0.skin_id == uv0
 	end) then

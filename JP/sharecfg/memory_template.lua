@@ -3988,6 +3988,20 @@ pg.memory_template = setmetatable({
 		4975,
 		4976,
 		4977,
+		4981,
+		4982,
+		4983,
+		4984,
+		4985,
+		4986,
+		4987,
+		4991,
+		4992,
+		4993,
+		5001,
+		5002,
+		5003,
+		5004,
 		10000,
 		10001,
 		10002,
@@ -64014,6 +64028,216 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"DINGAN7"
+		}
+	},
+	[4981] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新春オークション",
+		condition = "イベントページに移動する",
+		story = "CHUNYANHUAIYUXIANGMANTING1",
+		id = 4981,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING1"
+		}
+	},
+	[4982] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "千載一遇",
+		condition = "「新春珠玉逸品会」作戦進捗15％",
+		story = "CHUNYANHUAIYUXIANGMANTING2",
+		id = 4982,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING2"
+		}
+	},
+	[4983] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "作戦開始！",
+		condition = "「新春珠玉逸品会」作戦進捗30％",
+		story = "CHUNYANHUAIYUXIANGMANTING3",
+		id = 4983,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING3"
+		}
+	},
+	[4984] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "舞い降りるトラブル",
+		condition = "「新春珠玉逸品会」作戦進捗45％",
+		story = "CHUNYANHUAIYUXIANGMANTING4",
+		id = 4984,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING4"
+		}
+	},
+	[4985] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "オークションの時間！",
+		condition = "「新春珠玉逸品会」作戦進捗60％",
+		story = "CHUNYANHUAIYUXIANGMANTING5",
+		id = 4985,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING5"
+		}
+	},
+	[4986] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "香りで美玉を",
+		condition = "「新春珠玉逸品会」作戦進捗75％",
+		story = "CHUNYANHUAIYUXIANGMANTING6",
+		id = 4986,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING6"
+		}
+	},
+	[4987] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "甘酸っぱいオシオキタイム",
+		condition = "「新春珠玉逸品会」作戦進捗100％",
+		story = "CHUNYANHUAIYUXIANGMANTING7",
+		id = 4987,
+		icon = "memory_chunyanhuaiyuxiangmanting2",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING7"
+		}
+	},
+	[4991] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "チョコピンチ！",
+		condition = "「大作戦バレンタイン」に参加する",
+		story = "QINGRENJIE1",
+		id = 4991,
+		icon = "memory_qingrenjie",
+		is_open = 0,
+		unlock_pre = {
+			"QINGRENJIE1"
+		}
+	},
+	[4992] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "チョコショップを救え！",
+		condition = "「大作戦バレンタイン」に参加する",
+		story = "QINGRENJIE2",
+		id = 4992,
+		icon = "memory_qingrenjie",
+		is_open = 0,
+		unlock_pre = {
+			"QINGRENJIE2"
+		}
+	},
+	[4993] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "甘い悩み",
+		condition = "「大作戦バレンタイン」に参加する",
+		story = "QINGRENJIE3",
+		id = 4993,
+		icon = "memory_qingrenjie",
+		is_open = 0,
+		unlock_pre = {
+			"QINGRENJIE3"
+		}
+	},
+	[5001] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "交わる春宵",
+		condition = "「着せ替え特集　紅帳衣裳」彰武のストーリーを解放する",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN1",
+		id = 5001,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN1"
+		}
+	},
+	[5002] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "理性の夜に溺れて",
+		condition = "「着せ替え特集　紅帳衣裳」フリードリヒ・デア・グローセのストーリーを解放する",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN2",
+		id = 5002,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN2"
+		}
+	},
+	[5003] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "目覚めの醇香",
+		condition = "「着せ替え特集　紅帳衣裳」海籌のストーリーを解放する",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN3",
+		id = 5003,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN3"
+		}
+	},
+	[5004] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "溶け合う夢に相擁す",
+		condition = "「着せ替え特集　紅帳衣裳」信濃のストーリーを解放する",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN4",
+		id = 5004,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN4"
 		}
 	},
 	[10000] = {

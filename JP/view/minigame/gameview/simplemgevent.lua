@@ -10,9 +10,11 @@ slot0.SHOW_RULE = "SimpleMGEvent: show rule"
 slot0.READY_START = "SimpleMGEvent: ready start"
 slot0.COUNT_DOWN = "SimpleMGEvent: count down"
 slot0.STORE_SERVER = "SimpleMGEvent: store server"
+slot0.ON_HOME = "SimpleMGEvent: on home"
 slot0.SUBMIT_GAME_SUCCESS = "SimpleMGEvent: submit game success"
 slot0.ADD_SCORE = "SimpleMGEvent: add score"
 slot0.GAME_OVER = "SimpleMGEvent: game over"
 slot0.USE_SKILL = "SimpleMGEvent: use skill"
+slot0.SHOW_RANK = "SimpleMGEvent: show rank"
 
 return slot0

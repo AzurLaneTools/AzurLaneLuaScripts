@@ -70,9 +70,7 @@ slot0.GetCanGetAwardIndexList = function(slot0)
 		return {}
 	end
 
-	table.sort(slot0.data2_list, function (slot0, slot1)
-		return slot0 < slot1
-	end)
+	table.sort(slot0.data2_list)
 
 	slot3 = slot1 == 0 and 0 or slot0.data2_list[slot1]
 	slot6 = {}

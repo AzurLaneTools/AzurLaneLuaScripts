@@ -162,6 +162,60 @@ pg.dorm3d_dance_cucoloris = {
 		time = 49.78,
 		target_camera = "dance_camera3"
 	},
+	[401] = {
+		id = 401,
+		icon = "tianlangxing_cucoloros1",
+		time = 2.25,
+		target_camera = "dance_camera1"
+	},
+	[402] = {
+		id = 402,
+		icon = "tianlangxing_cucoloros2",
+		time = 35.28,
+		target_camera = "dance_camera1"
+	},
+	[403] = {
+		id = 403,
+		icon = "tianlangxing_cucoloros3",
+		time = 47.65,
+		target_camera = "dance_camera1"
+	},
+	[404] = {
+		id = 404,
+		icon = "tianlangxing_cucoloros4",
+		time = 11.23,
+		target_camera = "dance_camera2"
+	},
+	[405] = {
+		id = 405,
+		icon = "tianlangxing_cucoloros5",
+		time = 35.95,
+		target_camera = "dance_camera2"
+	},
+	[406] = {
+		id = 406,
+		icon = "tianlangxing_cucoloros6",
+		time = 46.02,
+		target_camera = "dance_camera2"
+	},
+	[407] = {
+		id = 407,
+		icon = "tianlangxing_cucoloros7",
+		time = 6.15,
+		target_camera = "dance_camera3"
+	},
+	[408] = {
+		id = 408,
+		icon = "tianlangxing_cucoloros8",
+		time = 28.67,
+		target_camera = "dance_camera3"
+	},
+	[409] = {
+		id = 409,
+		icon = "tianlangxing_cucoloros9",
+		time = 47.08,
+		target_camera = "dance_camera3"
+	},
 	all = {
 		101,
 		102,
@@ -189,6 +243,15 @@ pg.dorm3d_dance_cucoloris = {
 		306,
 		307,
 		308,
-		309
+		309,
+		401,
+		402,
+		403,
+		404,
+		405,
+		406,
+		407,
+		408,
+		409
 	}
 }

@@ -119,4 +119,21 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = nil
+
+	for slot10, slot11 in ipairs(getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.mainFleetId))) do
+		table.insert(slot1, slot11)
+	end
+
+	for slot13, slot14 in ipairs(getProxy(MilitaryExerciseProxy):getRivalById(slot0.rivalId):getShips()) do
+		table.insert(slot1, slot14)
+	end
+
+	slot11, slot12 = ys.Battle.BattleResourceManager.GetInstance().GetPlayerShipResource(slot1, slot0.system)
+
+	return slot11, slot12
+end
+
 return slot0

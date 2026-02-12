@@ -73,7 +73,7 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.attireBtn, function ()
 		uv0:emit(PlayerVitaeMediator.ON_ATTIRE)
 	end, SFX_PANEL)
-	setActive(slot0.attireBtnTip, _.any(getProxy(AttireProxy):needTip(), function (slot0)
+	setActive(slot0.attireBtnTip, underscore.any(getProxy(AttireProxy):needTip(), function (slot0)
 		return slot0 == true
 	end))
 	onInputEndEdit(slot0, slot0.inputField, function (slot0)
@@ -123,24 +123,28 @@ slot0.UpdateMedals = function(slot0)
 	slot3 = 353
 	slot4 = 30
 
-	for slot8 = 1, math.min(5, #slot0.player.displayTrophyList) do
-		slot9 = slot8 == 1 and slot0.medalTpl or cloneTplTo(slot0.medalTpl, slot0.medalTpl.parent)
+	UIItemList.StaticAlign(slot0.medalTpl.parent, slot0.medalTpl, math.min(5, #slot0.player.displayTrophyList), function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
 
-		LoadSpriteAsync("medal/s_" .. pg.medal_template[slot1[slot2 - slot8 + 1]].icon, function (slot0)
-			if uv0.exited then
-				return
+		if slot0 == UIItemList.EventUpdate then
+			slot7 = (uv0[slot1] > 1000000000 and LoveLetterTrophy.New({
+				id = slot3
+			}) or Trophy.New({
+				id = slot3
+			})):isLoverLetter()
+
+			setActive(slot2:Find("icon"), not slot7)
+			setActive(slot2:Find("now"), slot7)
+
+			if slot7 then
+				setLoveLetterMedal(slot6:Find("medal"), slot4)
+			else
+				LoadImageSpriteAsync("medal/s_" .. slot4:getConfig("icon"), slot5, true)
 			end
 
-			slot1 = uv1:Find("icon"):GetComponent(typeof(Image))
-			slot1.sprite = slot0
-
-			slot1:SetNativeSize()
-		end)
-
-		slot9.anchoredPosition = Vector2(slot3 - (slot8 - 1) * (slot4 + slot9.sizeDelta.x), slot9.anchoredPosition.y)
-	end
-
-	setActive(slot0.medalTpl, slot2 ~= 0)
+			slot2.anchoredPosition = Vector2(uv1 - (slot1 - 1) * (uv2 + slot2.sizeDelta.x), slot2.anchoredPosition.y)
+		end
+	end)
 end
 
 slot0.UpdatePower = function(slot0)
@@ -241,6 +245,12 @@ slot0.OnDestroy = function(slot0)
 			LeanTween.cancel(slot5.gameObject)
 		end
 	end
+
+	eachChild(slot0.medalTpl.parent, function (slot0, slot1)
+		if slot0:Find("now/medal").childCount > 0 then
+			returnLoveLetterMedal(slot0:Find("now/medal"):GetChild(0))
+		end
+	end)
 
 	slot0.exited = true
 end

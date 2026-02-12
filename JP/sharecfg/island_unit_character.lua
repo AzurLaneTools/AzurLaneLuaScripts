@@ -410,7 +410,7 @@ pg.base.island_unit_character = {
 	},
 	[101800] = {
 		describe_illustrated_guid = "",
-		english_name = "",
+		english_name = "RMS Empress of Britain",
 		name = "ブリテン",
 		rendering = "101800",
 		group = 1018,

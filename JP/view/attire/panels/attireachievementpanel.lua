@@ -6,8 +6,19 @@ slot1 = function(slot0)
 			slot0.trophy = slot1
 
 			if slot0.trophy then
-				LoadImageSpriteAsync("medal/" .. slot1:getConfig("icon"), slot0.icon, true)
-				setText(slot0.nameTxt, slot1:getConfig("name"))
+				slot4 = slot0.trophy:isLoverLetter()
+
+				setActive(slot0.icon, not slot4)
+				setActive(slot0.now, slot4)
+
+				if slot4 then
+					setLoveLetterMedal(slot0.now:Find("medal"), slot0.trophy)
+					setText(slot0.nameTxt, slot1:getName())
+				else
+					LoadImageSpriteAsync("medal/" .. slot1:getConfig("icon"), slot0.icon, true)
+					setText(slot0.nameTxt, slot1:getConfig("name"))
+				end
+
 				setActive(slot0.tags[1], slot1:isNew())
 				slot0:UpdateSelected(slot2)
 			end
@@ -20,22 +31,30 @@ slot1 = function(slot0)
 		UpdateSelected = function (slot0, slot1)
 			setActive(slot0.selected, slot1)
 			setActive(slot0.tags[2], slot1)
+		end,
+		Dispose = function (slot0)
+			if slot0.now:Find("medal").childCount > 0 then
+				returnLoveLetterMedal(slot0.now:Find("medal"):GetChild(0))
+			end
 		end
 	}
 
 	(function (slot0)
 		slot0._go = uv0
-		slot0.info = findTF(slot0._go, "info")
-		slot0.empty = findTF(slot0._go, "empty")
-		slot0.icon = findTF(slot0._go, "info/icon")
-		slot0.selected = findTF(slot0._go, "info/selected")
-		slot0.nameTxt = findTF(slot0._go, "info/label/Text")
+		slot0._tf = slot0._go.transform
+		slot0.info = slot0._tf:Find("info")
+		slot0.empty = slot0._tf:Find("empty")
+		slot0.icon = slot0._tf:Find("info/icon")
+		slot0.now = slot0._tf:Find("info/now")
+		slot0.selected = slot0._tf:Find("info/selected")
+		slot1 = slot0._tf
+		slot0.nameTxt = slot1:Find("info/label/Text")
 		slot0.tags = {
-			findTF(slot0._go, "info/tags/new"),
-			findTF(slot0._go, "info/tags/e")
+			slot0._tf:Find("info/tags/new"),
+			slot0._tf:Find("info/tags/e")
 		}
-		slot0.print5 = findTF(slot0._go, "prints/line5")
-		slot0.print6 = findTF(slot0._go, "prints/line6")
+		slot0.print5 = slot0._tf:Find("prints/line5")
+		slot0.print6 = slot0._tf:Find("prints/line6")
 	end)(slot1)
 
 	return slot1
@@ -46,14 +65,32 @@ slot2 = function(slot0)
 		Update = function (slot0, slot1)
 			slot0.uiList:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
-					LoadImageSpriteAsync("medal/s_" .. Trophy.New({
-						id = uv0[slot1 + 1]
-					}):getConfig("icon"), findTF(slot2, "icon"), true)
+					slot7 = (uv0[slot1 + 1] > 1000000000 and LoveLetterTrophy.New({
+						id = slot3
+					}) or Trophy.New({
+						id = slot3
+					})):isLoverLetter()
+
+					setActive(findTF(slot2, "icon"), not slot7)
+					setActive(slot2:Find("now"), slot7)
+
+					if slot7 then
+						setLoveLetterMedal(slot6:Find("medal"), slot4)
+					else
+						LoadImageSpriteAsync("medal/s_" .. slot4:getConfig("icon"), slot5, true)
+					end
 				end
 			end)
 			slot0.uiList:align(#slot1)
 		end,
 		Dispose = function (slot0)
+			slot1 = slot0.uiList
+
+			slot1:each(function (slot0, slot1)
+				if slot1:Find("now/medal").childCount > 0 then
+					returnLoveLetterMedal(slot1:Find("now/medal"):GetChild(0))
+				end
+			end)
 		end
 	}
 
@@ -73,7 +110,7 @@ slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.listPanel = slot1:Find("list_panel")
 	slot1 = slot0.listPanel
-	slot1 = slot1:Find("scrollrect")
+	slot1 = slot1:Find("scrollrect/content")
 	slot0.scolrect = slot1:GetComponent("LScrollRect")
 	slot1 = slot0._tf
 	slot1 = slot1:Find("total_count/Text")
@@ -96,12 +133,8 @@ slot0.OnInit = function(slot0)
 	slot0.confirmBtn = slot1:Find("list_panel/confirm")
 
 	onButton(slot0, slot0.confirmBtn, function ()
-		if #uv0.contextData.selectedMedalList == 0 and #uv0.playerVO.displayTrophyList == 0 then
-			return
-		end
-
-		if #uv0.contextData.selectedMedalList == #uv0.playerVO.displayTrophyList and _.all(uv0.contextData.selectedMedalList, function (slot0)
-			return table.contains(uv0.playerVO.displayTrophyList, slot0)
+		if #uv0.contextData.selectedMedalList == #uv0.playerVO.displayTrophyList and underscore.all(underscore.keys(uv0.contextData.selectedMedalList), function (slot0)
+			return uv0.contextData.selectedMedalList[slot0] == uv0.playerVO.displayTrophyList[slot0]
 		end) then
 			return
 		end
@@ -136,18 +169,14 @@ slot0.OnInitItem = function(slot0, slot1)
 			return
 		end
 
-		if #(uv1.contextData.selectedMedalList or {}) < 5 and not table.contains(slot0, uv0.trophy.id) then
-			table.insert(slot0, uv0.trophy.id)
-			uv0:UpdateSelected(true)
+		if table.contains(uv1.contextData.selectedMedalList or {}, uv0.trophy.id) then
+			table.removebyvalue(slot0, slot1)
+			uv0:UpdateSelected(false)
+		elseif #slot0 >= 5 then
+			return
 		else
-			for slot4, slot5 in ipairs(slot0) do
-				if slot5 == uv0.trophy.id then
-					table.remove(slot0, slot4)
-					uv0:UpdateSelected(false)
-
-					break
-				end
-			end
+			table.insert(slot0, slot1)
+			uv0:UpdateSelected(true)
 		end
 
 		uv1.contextData.selectedMedalList = slot0
@@ -176,6 +205,11 @@ end
 slot0.Update = function(slot0, slot1, slot2)
 	slot0.playerVO = slot2
 	slot0.trophys = slot1.trophys
+
+	for slot6, slot7 in ipairs(slot1.loveTrophys) do
+		slot0.trophys[slot7.id] = slot7
+	end
+
 	slot0.contextData.selectedMedalList = Clone(slot0.playerVO.displayTrophyList) or {}
 
 	slot0.descPanel:Update(slot0.contextData.selectedMedalList)
@@ -218,14 +252,16 @@ slot0.Filter = function(slot0)
 	end
 
 	for slot5, slot6 in pairs(slot0.trophys) do
-		if slot6:isClaimed() and not slot6:isHide() and (not slot0.selectMaxLevel or slot0.selectMaxLevel and not slot1(slot6)) then
+		if slot6:isClaimed() and not slot6:isHide() and (not slot0.selectMaxLevel or not slot1(slot6)) then
 			table.insert(slot0.displayVOs, slot6)
 		end
 	end
 
-	table.sort(slot0.displayVOs, function (slot0, slot1)
-		return slot0.id < slot1.id
-	end)
+	table.sort(slot0.displayVOs, CompareFuncs({
+		function (slot0)
+			return slot0.id
+		end
+	}))
 
 	slot3 = slot0.scolrect.content:GetComponent(typeof(GridLayoutGroup)).constraintCount
 
@@ -255,6 +291,14 @@ slot0.OnDestroy = function(slot0)
 		slot0.emptyPage:Destroy()
 
 		slot0.emptyPage = nil
+	end
+
+	if slot0.cards then
+		for slot4, slot5 in pairs(slot0.cards) do
+			slot5:Dispose()
+		end
+
+		slot0.cards = nil
 	end
 end
 

@@ -5733,6 +5733,33 @@ pg.activity_ins_ship_group_template = {
 		type = 1,
 		sculpture_ii = ""
 	},
+	[50302] = {
+		ship_group = 50302,
+		name = "Chang Wu",
+		background = "",
+		sculpture = "zhangwu",
+		nationality = 5,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[50212] = {
+		ship_group = 50212,
+		name = "Hai Chou",
+		background = "",
+		sculpture = "haichou",
+		nationality = 5,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[40125] = {
+		ship_group = 40125,
+		name = "Zerstörer.25",
+		background = "",
+		sculpture = "Z25",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
 	all = {
 		30701,
 		30702,
@@ -6370,6 +6397,9 @@ pg.activity_ins_ship_group_template = {
 		60204,
 		60112,
 		10520,
-		30194
+		30194,
+		50302,
+		50212,
+		40125
 	}
 }

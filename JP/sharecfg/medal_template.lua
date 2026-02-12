@@ -2699,6 +2699,27 @@ pg.medal_template = {
 		explain1 = "「特集写真――撮影進行中！」",
 		explain2 = "イベント"
 	},
+	[200131] = {
+		target_id = "50405",
+		name = "珠玉逸品記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "温かな美玉は静かに佇み、ほのかな香が庭いっぱいに漂う。すべての邂逅は、ただ君の来訪を待つだけ。\nこの場に足を踏み入れた君こそ、玉を識る知音なのだろうか。",
+		next = 0,
+		icon = "9131",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9131",
+		condition = "「新春珠玉逸品会」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200131,
+		explain1 = "「新春珠玉逸品会」",
+		explain2 = "イベント"
+	},
 	all = {
 		10011,
 		10012,
@@ -2822,6 +2843,7 @@ pg.medal_template = {
 		200091,
 		200101,
 		200111,
-		200121
+		200121,
+		200131
 	}
 }

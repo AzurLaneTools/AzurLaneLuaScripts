@@ -2936,7 +2936,6 @@ pg.ship_skin_expression_ex = {
 		}
 	},
 	zhaohe = {
-		touch = "",
 		feeling3 = "",
 		expedition = "",
 		win_mvp = "",
@@ -2951,13 +2950,18 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		skill = "",
 		profile = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
 		login = {
 			{
 				1100,
 				"6"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				""
 			}
 		},
 		detail = {
@@ -2976,6 +2980,12 @@ pg.ship_skin_expression_ex = {
 			{
 				1100,
 				"3"
+			}
+		},
+		touch = {
+			{
+				1100,
+				""
 			}
 		},
 		mission = {
@@ -25303,6 +25313,326 @@ pg.ship_skin_expression_ex = {
 			{
 				1100,
 				"1"
+			}
+		}
+	},
+	zhangwu = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "zhangwu",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"7"
+			}
+		},
+		home = {
+			{
+				1100,
+				"5"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"7"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"8|5|1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"7"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"8"
+			}
+		}
+	},
+	haichou = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "haichou",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"6"
+			}
+		},
+		home = {
+			{
+				1100,
+				"5"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"2|6|4"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"6"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"7"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"7"
+			}
+		}
+	},
+	feiteliedadi = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "feiteliedadi",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				""
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3|2|1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				""
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"2"
+			}
+		}
+	},
+	xinnong = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "xinnong",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"4"
+			}
+		},
+		home = {
+			{
+				1100,
+				"6"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"4|7|4"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"6"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"4"
+			}
+		}
+	},
+	qibolin = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "qibolin",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				""
+			}
+		},
+		home = {
+			{
+				1100,
+				""
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				""
+			}
+		},
+		detail = {
+			{
+				1100,
+				""
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"||"
+			}
+		},
+		touch = {
+			{
+				1100,
+				""
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				""
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				""
 			}
 		}
 	}

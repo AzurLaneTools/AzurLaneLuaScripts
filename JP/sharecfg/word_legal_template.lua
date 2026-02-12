@@ -6835,6 +6835,9 @@ temp = function()
 		["容"] = {
 			this = true
 		},
+		["籌"] = {
+			this = true
+		},
 		["伦"] = {
 			["娜"] = {
 				this = true
@@ -8382,7 +8385,10 @@ temp()
 temp = function()
 	uv0["応"] = {
 		["瑞"] = {
-			this = true
+			this = true,
+			["改"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -8392,7 +8398,10 @@ temp()
 temp = function()
 	uv0["肇"] = {
 		["和"] = {
-			this = true
+			this = true,
+			["改"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -8411,6 +8420,16 @@ temp()
 
 temp = function()
 	uv0["建"] = {
+		["武"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["彰"] = {
 		["武"] = {
 			this = true
 		}

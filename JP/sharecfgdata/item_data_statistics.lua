@@ -10617,6 +10617,96 @@ _G.pg.base.item_data_statistics[14007] = {
 }
 
 
+_G.pg.base.item_data_statistics[14008] = {
+	open_directly = 0,
+	name = "プロト設計図・S-Ⅷ",
+	type = 13,
+	display = [[
+使用すると下記SSR装備（Ⅷ期）の設計図を1枚選んで入手可能：
+「試作型283mm／54.5三連装砲T0設計図」
+「試作型406mm／45三連装砲MK7T0設計図」
+「試作型20mm六連装Scotti機関砲Model1941T0設計図」
+「試作型533mm四連装魚雷Si 270T0設計図」
+「試作型180mm三連装砲B-1-P Model1932改T0设计图」
+]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/14008",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 14008,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			13050,
+			1
+		},
+		{
+			2,
+			13051,
+			1
+		},
+		{
+			2,
+			13052,
+			1
+		},
+		{
+			2,
+			13053,
+			1
+		},
+		{
+			2,
+			13054,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			13050,
+			1
+		},
+		{
+			2,
+			13051,
+			1
+		},
+		{
+			2,
+			13052,
+			1
+		},
+		{
+			2,
+			13053,
+			1
+		},
+		{
+			2,
+			13054,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[15001] = {
 	open_directly = 0,
 	name = "勲章",
@@ -14127,6 +14217,40 @@ _G.pg.base.item_data_statistics[20106] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 20106,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20107] = {
+	open_directly = 0,
+	name = "戦術データパック・Ⅶ期",
+	type = 18,
+	display = "科学部が作成した戦術データベース。特別計画Ⅶ期の開発任務経験値を10000蓄積させることができる<color=#ff5c5c>（倉庫でプロトコアに分解可能）</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20107",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20107,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -28409,6 +28533,131 @@ _G.pg.base.item_data_statistics[30379] = {
 		{
 			9,
 			4293,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30380] = {
+	open_directly = 1,
+	name = "装備外装箱(新春オークション)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxxinchunpaimaihui",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30377",
+	id = 30380,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4294,
+			1
+		},
+		{
+			9,
+			4295,
+			1
+		},
+		{
+			9,
+			4296,
+			1
+		},
+		{
+			9,
+			4297,
+			1
+		},
+		{
+			9,
+			4298,
+			1
+		},
+		{
+			9,
+			4299,
+			1
+		},
+		{
+			9,
+			4300,
+			1
+		},
+		{
+			9,
+			4301,
+			1
+		},
+		{
+			9,
+			4302,
+			1
+		},
+		{
+			9,
+			4303,
+			1
+		},
+		{
+			9,
+			4304,
+			1
+		},
+		{
+			9,
+			4305,
+			1
+		},
+		{
+			9,
+			4306,
+			1
+		},
+		{
+			9,
+			4307,
+			1
+		},
+		{
+			9,
+			4308,
+			1
+		},
+		{
+			9,
+			4309,
+			1
+		},
+		{
+			9,
+			4310,
+			1
+		},
+		{
+			9,
+			4311,
 			1
 		}
 	},
@@ -43557,6 +43806,219 @@ _G.pg.base.item_data_statistics[30563] = {
 		{
 			9,
 			4293,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30564] = {
+	open_directly = 0,
+	name = "選択装備外装箱（新春オークション）",
+	type = 13,
+	display = "使用すると、装備外装（新春オークション）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxxinchunpaimaihuizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30564,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4294,
+			1
+		},
+		{
+			9,
+			4295,
+			1
+		},
+		{
+			9,
+			4296,
+			1
+		},
+		{
+			9,
+			4297,
+			1
+		},
+		{
+			9,
+			4298,
+			1
+		},
+		{
+			9,
+			4299,
+			1
+		},
+		{
+			9,
+			4300,
+			1
+		},
+		{
+			9,
+			4301,
+			1
+		},
+		{
+			9,
+			4302,
+			1
+		},
+		{
+			9,
+			4303,
+			1
+		},
+		{
+			9,
+			4304,
+			1
+		},
+		{
+			9,
+			4305,
+			1
+		},
+		{
+			9,
+			4306,
+			1
+		},
+		{
+			9,
+			4307,
+			1
+		},
+		{
+			9,
+			4308,
+			1
+		},
+		{
+			9,
+			4309,
+			1
+		},
+		{
+			9,
+			4310,
+			1
+		},
+		{
+			9,
+			4311,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4294,
+			1
+		},
+		{
+			9,
+			4295,
+			1
+		},
+		{
+			9,
+			4296,
+			1
+		},
+		{
+			9,
+			4297,
+			1
+		},
+		{
+			9,
+			4298,
+			1
+		},
+		{
+			9,
+			4299,
+			1
+		},
+		{
+			9,
+			4300,
+			1
+		},
+		{
+			9,
+			4301,
+			1
+		},
+		{
+			9,
+			4302,
+			1
+		},
+		{
+			9,
+			4303,
+			1
+		},
+		{
+			9,
+			4304,
+			1
+		},
+		{
+			9,
+			4305,
+			1
+		},
+		{
+			9,
+			4306,
+			1
+		},
+		{
+			9,
+			4307,
+			1
+		},
+		{
+			9,
+			4308,
+			1
+		},
+		{
+			9,
+			4309,
+			1
+		},
+		{
+			9,
+			4310,
+			1
+		},
+		{
+			9,
+			4311,
 			1
 		}
 	},
@@ -100835,6 +101297,130 @@ _G.pg.base.item_data_statistics[44017] = {
 }
 
 
+_G.pg.base.item_data_statistics[44018] = {
+	open_directly = 0,
+	name = "中式信封",
+	type = 23,
+	display = "中式信封",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/loveletter_cn",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44018,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[44019] = {
+	open_directly = 0,
+	name = "日式信封",
+	type = 23,
+	display = "日式信封",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/loveletter_jp",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44019,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[44020] = {
+	open_directly = 0,
+	name = "西式信封",
+	type = 23,
+	display = "西式信封",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/loveletter_en",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44020,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[44021] = {
+	open_directly = 0,
+	name = "META信封",
+	type = 23,
+	display = "META信封",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/loveletter_meta",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44021,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[50001] = {
 	open_directly = 0,
 	name = "酸素コーラ",
@@ -115674,6 +116260,266 @@ _G.pg.base.item_data_statistics[60572] = {
 }
 
 
+_G.pg.base.item_data_statistics[60573] = {
+	open_directly = 0,
+	name = "年賀状（丙午）",
+	type = 21,
+	display = "祝福が込められた年賀状。使用するとキャラと交換可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60573,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3201,
+		3202,
+		3203,
+		3204,
+		3205,
+		3206,
+		3207
+	},
+	limit = {},
+	open_ui = {
+		"greeting_year",
+		"t_greeting"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60574] = {
+	open_directly = 0,
+	name = "大鳳の年賀状",
+	type = 1,
+	display = "大鳳からもらった新春の年賀状",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60574,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60575] = {
+	open_directly = 0,
+	name = "虎賁の年賀状",
+	type = 1,
+	display = "虎賁からもらった、新春の年賀状",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60575,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60576] = {
+	open_directly = 0,
+	name = "龍武の年賀状",
+	type = 1,
+	display = "龍武からもらった、新春の年賀状",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60576,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60577] = {
+	open_directly = 0,
+	name = "撫順の年賀状",
+	type = 1,
+	display = "撫順からもらった、新春の年賀状",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60577,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60578] = {
+	open_directly = 0,
+	name = "ジャンヌ・ダルクの年賀状",
+	type = 1,
+	display = "ジャンヌ・ダルクからもらった、新春の年賀状",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60578,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60579] = {
+	open_directly = 0,
+	name = "セントーの年賀状",
+	type = 1,
+	display = "セントーからもらった、新春の年賀状",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60579,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60580] = {
+	open_directly = 0,
+	name = "済安の年賀状",
+	type = 1,
+	display = "済安からもらった、新春の年賀状",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2026",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60580,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "新年福袋2024①",
@@ -117228,6 +118074,73 @@ _G.pg.base.item_data_statistics[81231] = {
 		{
 			2,
 			86223,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81232] = {
+	open_directly = 1,
+	name = "春節福袋2026A",
+	type = 17,
+	display = "ランダムな（春節福袋2026Aの）着せ替え衣装、上級指向型強化ユニット・八期目×2、ダイヤ×2026、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai32",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998328",
+	id = 81232,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86224,
 			1
 		},
 		{
@@ -119025,5 +119938,36 @@ _G.pg.base.item_data_statistics[180009] = {
 		180009,
 		100
 	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180010] = {
+	open_directly = 0,
+	name = "ドキドキボックス",
+	type = 1,
+	display = "気持ちが込もった謎のプレゼント。開けると好感度アップ用プレゼントをランダムに入手可能（レアプレゼントを除く）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox01",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 180010,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
 	limit = {}
 }

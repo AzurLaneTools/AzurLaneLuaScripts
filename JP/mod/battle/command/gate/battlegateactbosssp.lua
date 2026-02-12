@@ -131,4 +131,19 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1, slot2 = ys.Battle.BattleGateActBoss.GetPreloadList(slot0)
+	slot4 = getProxy(ActivityProxy)
+
+	for slot9, slot10 in ipairs(ys.Battle.BattleResourceManager.GetInstance().GetResFromBuffIDList(_.map(slot4:GetActivityBossRuntime(slot0.actId).buffIds, function (slot0)
+		return ActivityBossBuff.New({
+			configId = slot0
+		}):GetBuffID()
+	end))) do
+		table.insert(slot1, slot10)
+	end
+
+	return slot1, slot2
+end
+
 return slot0

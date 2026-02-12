@@ -48,6 +48,7 @@ slot0.init = function(slot0)
 	slot1 = Dorm3dHxHelper.GetTimelineMainCharacter()
 
 	Dorm3dHxHelper.ReplaceCharacterParts(slot1)
+	Dorm3dHxHelper.HideCharacterPart(slot1, nil, true)
 	Dorm3dHxHelper.ShowHolyLight({
 		slot1
 	}, slot0.holyLightRoot)

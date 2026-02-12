@@ -527,7 +527,7 @@ slot0.ReturnPrefab = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1
 
 	if IsNil(slot3) then
-		Debugger.LogError(debug.traceback("empty go: " .. slot2))
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot5] then
 		if string.find(slot1, "emoji/") == 1 and slot3:GetComponent(typeof(CriManaEffectUI)) then
 			slot6:Pause(true)

@@ -56,6 +56,7 @@ slot0.ON_BOSSRUSH_MAP = "ActivityMediator.ON_BOSSRUSH_MAP"
 slot0.SKIP_ACTIVITY_MAP = "ActivityMediator.SKIP_ACTIVITY_MAP"
 slot0.OPEN_MINI_PROGRAM = "ActivityMediator.OPEN_MINI_PROGRAM"
 slot0.ON_COLLAB_BOSSRUSH_MAP = "ActivityMediator.ON_COLLAB_BOSSRUSH_MAP"
+slot0.ACTIVITY_OPERATION = "ActivityMediator:event activity op"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_MONOPOLY2024, function (slot0, slot1, slot2)
@@ -176,6 +177,13 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.EVENT_OPERATION, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
+	end)
+	slot0:bind(uv0.ACTIVITY_OPERATION, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
+			activity_id = slot1,
+			cmd = slot2,
+			arg1 = slot3
+		})
 	end)
 	slot0:bind(uv0.EVENT_GO_SCENE, function (slot0, slot1, slot2)
 		if slot1 == SCENE.SUMMER_FEAST then
@@ -452,7 +460,13 @@ end
 slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[ActivityProxy.ACTIVITY_ADDED] = function (slot0, slot1)
-			if slot1:getBody():getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
+			if slot1:getBody():getConfig("type") == ActivityConst.ACTIVITY_TYPE_PUZZLA then
+				slot0.viewComponent:updateTaskLayers()
+			elseif slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HOTSPRING_2 then
+				slot0.viewComponent:updateTaskLayers()
+			end
+
+			if slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
 				return
 			end
 
@@ -469,11 +483,13 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot0.viewComponent:removeActivity(slot1:getBody())
 		end,
 		[ActivityProxy.ACTIVITY_OPERATION_DONE] = function (slot0, slot1)
-			if ActivityConst.AOERLIANG_TASK_ID == slot1:getBody() then
-				return
+			if getProxy(ActivityProxy):getActivityById(slot1:getBody()):getConfig("type") == ActivityConst.ACTIVITY_TYPE_HOTSPRING_2 then
+				slot0.viewComponent:updateTaskLayers()
 			end
 
-			slot0:showNextActivity(getProxy(ActivityProxy):getActivityById(slot2):getConfig("page_core"))
+			if ActivityConst.AOERLIANG_TASK_ID == slot2 then
+				return
+			end
 		end,
 		[ActivityProxy.ACTIVITY_SHOW_AWARDS] = function (slot0, slot1)
 			slot3 = slot1:getBody().awards
@@ -499,18 +515,6 @@ slot0.initNotificationHandleDic = function(slot0)
 		[ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT] = function (slot0, slot1)
 			slot0.viewComponent:emit(ActivityMediator.ON_SHAKE_BEADS_RESULT, slot1:getBody())
 		end,
-		[GAME.COLORING_ACHIEVE_DONE] = function (slot0, slot1)
-			slot2 = slot0.viewComponent
-
-			slot2:playBonusAnim(function ()
-				slot0 = uv0
-				slot1 = uv1.viewComponent
-
-				slot1:emit(BaseUI.ON_ACHIEVE, slot0:getBody().drops, function ()
-					uv0.viewComponent:flush_coloring()
-				end)
-			end)
-		end,
 		[GAME.SUBMIT_TASK_DONE] = function (slot0, slot1)
 			slot3 = slot0.viewComponent
 
@@ -528,9 +532,12 @@ slot0.initNotificationHandleDic = function(slot0)
 			end)
 		end,
 		[GAME.ACT_NEW_PT_DONE] = function (slot0, slot1)
-			slot2 = slot1:getBody()
+			slot3 = slot0.viewComponent
 
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2.awards, slot2.callback)
+			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()
+				uv0.viewComponent:updateTaskLayers()
+				existCall(uv1.callback)
+			end)
 		end,
 		[GAME.BEGIN_STAGE_DONE] = function (slot0, slot1)
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot1:getBody())
