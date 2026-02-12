@@ -7962,7 +7962,203 @@ pg.activity_ins_chat_language = setmetatable({
 		7959,
 		7960,
 		7961,
-		7962
+		7962,
+		7963,
+		7964,
+		7965,
+		7966,
+		7967,
+		7968,
+		7969,
+		7970,
+		7971,
+		7972,
+		7973,
+		7974,
+		7975,
+		7976,
+		7977,
+		7978,
+		7979,
+		7980,
+		7981,
+		7982,
+		7983,
+		7984,
+		7985,
+		7986,
+		7987,
+		7988,
+		7989,
+		7990,
+		7991,
+		7992,
+		7993,
+		7994,
+		7995,
+		7996,
+		7997,
+		7998,
+		7999,
+		8000,
+		8001,
+		8002,
+		8003,
+		8004,
+		8005,
+		8006,
+		8007,
+		8008,
+		8009,
+		8010,
+		8011,
+		8012,
+		8013,
+		8014,
+		8015,
+		8016,
+		8017,
+		8018,
+		8019,
+		8020,
+		8021,
+		8022,
+		8023,
+		8024,
+		8025,
+		8026,
+		8027,
+		8028,
+		8029,
+		8030,
+		8031,
+		8032,
+		8033,
+		8034,
+		8035,
+		8036,
+		8037,
+		8038,
+		8039,
+		8040,
+		8041,
+		8042,
+		8043,
+		8044,
+		8045,
+		8046,
+		8047,
+		8048,
+		8049,
+		8050,
+		8051,
+		8052,
+		8053,
+		8054,
+		8055,
+		8056,
+		8057,
+		8058,
+		8059,
+		8060,
+		8061,
+		8062,
+		8063,
+		8064,
+		8065,
+		8066,
+		8067,
+		8068,
+		8069,
+		8070,
+		8071,
+		8072,
+		8073,
+		8074,
+		8075,
+		8076,
+		8077,
+		8078,
+		8079,
+		8080,
+		8081,
+		8082,
+		8083,
+		8084,
+		8085,
+		8086,
+		8087,
+		8088,
+		8089,
+		8090,
+		8091,
+		8092,
+		8093,
+		8094,
+		8095,
+		8096,
+		8097,
+		8098,
+		8099,
+		8100,
+		8101,
+		8102,
+		8103,
+		8104,
+		8105,
+		8106,
+		8107,
+		8108,
+		8109,
+		8110,
+		8111,
+		8112,
+		8113,
+		8114,
+		8115,
+		8116,
+		8117,
+		8118,
+		8119,
+		8120,
+		8121,
+		8122,
+		8123,
+		8124,
+		8125,
+		8126,
+		8127,
+		8128,
+		8129,
+		8130,
+		8131,
+		8132,
+		8133,
+		8134,
+		8135,
+		8136,
+		8137,
+		8138,
+		8139,
+		8140,
+		8141,
+		8142,
+		8143,
+		8144,
+		8145,
+		8146,
+		8147,
+		8148,
+		8149,
+		8150,
+		8151,
+		8152,
+		8153,
+		8154,
+		8155,
+		8156,
+		8157,
+		8158
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -78574,6 +78770,1717 @@ pg.base.activity_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 7962,
+		flag = 5
+	},
+	[7963] = {
+		param = "大家，新年好呀！祝各位新的一年平安喜乐，万事顺遂~",
+		ship_group = 50210,
+		option = "",
+		type = 1,
+		id = 7963,
+		flag = 0
+	},
+	[7964] = {
+		param = "新~年~快~乐！红包拿来！",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 7964,
+		flag = 0
+	},
+	[7965] = {
+		param = "44",
+		ship_group = 50107,
+		option = "",
+		type = 4,
+		id = 7965,
+		flag = 0
+	},
+	[7966] = {
+		param = "1004",
+		ship_group = 59901,
+		option = "1004",
+		type = 3,
+		id = 7966,
+		flag = 0
+	},
+	[7967] = {
+		param = "哈哈，新年快乐！一点小彩头，大家抢着玩！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 7967,
+		flag = 0
+	},
+	[7968] = {
+		param = "370",
+		ship_group = 50109,
+		type = 4,
+		id = 7968,
+		flag = 0,
+		option = {
+			{
+				1,
+				"新年好，各位"
+			}
+		}
+	},
+	[7969] = {
+		param = "新年好，各位",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7969,
+		flag = 1
+	},
+	[7970] = {
+		param = "祝大家新的一年，心想事成",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7970,
+		flag = 1
+	},
+	[7971] = {
+		param = "指挥官也来了！新年好呀！",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7971,
+		flag = 1
+	},
+	[7972] = {
+		param = "愿新年的光景，也如我手中的玉石般温润无瑕",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 7972,
+		flag = 1
+	},
+	[7973] = {
+		param = "指挥官，我把送你的祝福调配成了一缕新香，要好好感受",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 7973,
+		flag = 1
+	},
+	[7974] = {
+		param = "对了！<color=#93e9ff>@Ting An@Lung Wu</color> 年夜饭准备得还顺利吗？需要帮忙的话尽管说",
+		ship_group = 50210,
+		option = "",
+		type = 1,
+		id = 7974,
+		flag = 1
+	},
+	[7975] = {
+		param = "清单上的食材已经就位了，今年预算充足，好东西可不少哦~",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 7975,
+		flag = 1
+	},
+	[7976] = {
+		param = "厨房这边正缺人手，几口锅同时开着，忙得不可开交……",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 7976,
+		flag = 1
+	},
+	[7977] = {
+		param = "我手头的事快收尾了，这就过去帮忙",
+		ship_group = 50210,
+		option = "",
+		type = 1,
+		id = 7977,
+		flag = 1
+	},
+	[7978] = {
+		param = "看来离年夜饭上桌还有段时间，要不要……来准备点即兴节目？",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 7978,
+		flag = 1
+	},
+	[7979] = {
+		param = "有什么好主意吗？",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 7979,
+		flag = 1
+	},
+	[7980] = {
+		param = "来办一场新春晚会如何？就在食堂大厅，我们自己演，自己看！",
+		ship_group = 59901,
+		type = 1,
+		id = 7980,
+		flag = 1,
+		option = {
+			{
+				2,
+				"不错的提议"
+			},
+			{
+				3,
+				"现在？"
+			}
+		}
+	},
+	[7981] = {
+		param = "不错的提议，不过现在才开始筹备……来得及么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7981,
+		flag = 2
+	},
+	[7982] = {
+		param = "现在？那节目设计和彩排……来得及么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 7982,
+		flag = 3
+	},
+	[7983] = {
+		param = "要的就是即兴和热闹！统筹和主持交给我——谁第一个来报名节目？",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 7983,
+		flag = 0
+	},
+	[7984] = {
+		param = "那就先由我和平海，用武术表演来“打”开场面吧！",
+		ship_group = 50202,
+		option = "",
+		type = 1,
+		id = 7984,
+		flag = 0
+	},
+	[7985] = {
+		param = "开场是好……可、具体要表演什么呢？",
+		ship_group = 50203,
+		option = "",
+		type = 1,
+		id = 7985,
+		flag = 0
+	},
+	[7986] = {
+		param = "我来演抢包子的坏蛋，平海演守护包子的英雄！走了，我们去厨房找包子吃！",
+		ship_group = 50202,
+		option = "",
+		type = 1,
+		id = 7986,
+		flag = 0
+	},
+	[7987] = {
+		param = "找包子吃！找包子吃！",
+		ship_group = 50202,
+		option = "",
+		type = 1,
+		id = 7987,
+		flag = 0
+	},
+	[7988] = {
+		param = "舞台的背景与陈设，或许需要一些清雅的物件作点缀。这部分布置，请交给我",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 7988,
+		flag = 0
+	},
+	[7989] = {
+		param = "那晚会的氛围营造，便由我来配合吧",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 7989,
+		flag = 0
+	},
+	[7990] = {
+		param = "喜庆又不失雅致的香氛，应该没有问题",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 7990,
+		flag = 0
+	},
+	[7991] = {
+		param = "我与姐姐也想略尽绵力，不如……来个现场写春联的环节？",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 7991,
+		flag = 0
+	},
+	[7992] = {
+		param = "现场写？！这……这要怎么做啊……",
+		ship_group = 50205,
+		option = "",
+		type = 1,
+		id = 7992,
+		flag = 0
+	},
+	[7993] = {
+		param = "很简单，大家出题，我们当场对句，姐姐负责即兴构思上联，我来执笔书写下联",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 7993,
+		flag = 0
+	},
+	[7994] = {
+		param = "以姐姐的才思，这种小事应该不在话下吧？",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 7994,
+		flag = 0
+	},
+	[7995] = {
+		param = "那当然！尽管交给身为姐姐的我吧！",
+		ship_group = 50205,
+		option = "",
+		type = 1,
+		id = 7995,
+		flag = 0
+	},
+	[7996] = {
+		param = "既然是晚会，又怎么能少得了我的戏曲呢？",
+		ship_group = 50208,
+		option = "",
+		type = 1,
+		id = 7996,
+		flag = 0
+	},
+	[7997] = {
+		param = "不过独角戏总归不够热闹……",
+		ship_group = 50208,
+		option = "",
+		type = 1,
+		id = 7997,
+		flag = 0
+	},
+	[7998] = {
+		param = "虎贲可以演老虎！嗷呜~！",
+		ship_group = 50106,
+		option = "",
+		type = 1,
+		id = 7998,
+		flag = 0
+	},
+	[7999] = {
+		param = "那就这么定了，我们现在就去对词~",
+		ship_group = 50208,
+		option = "",
+		type = 1,
+		id = 7999,
+		flag = 0
+	},
+	[8000] = {
+		param = "哼哼哼！是时候展示我苦练的绝技了！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8000,
+		flag = 0
+	},
+	[8001] = {
+		param = "太原，来配合我表演“胸口碎大石”吧！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8001,
+		flag = 0
+	},
+	[8002] = {
+		param = "欸！？我吗……？我不会用锤子的……",
+		ship_group = 50104,
+		option = "",
+		type = 1,
+		id = 8002,
+		flag = 0
+	},
+	[8003] = {
+		param = "没事啦~你抱着石头躺好就行。",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8003,
+		flag = 0
+	},
+	[8004] = {
+		param = "“哐当！”一下就结束了，很快的！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8004,
+		flag = 0
+	},
+	[8005] = {
+		param = "我不行，怎么想都不行吧……那么大的锤子砸下来……！",
+		ship_group = 50104,
+		option = "",
+		type = 1,
+		id = 8005,
+		flag = 0
+	},
+	[8006] = {
+		param = "放心啦！我练习的时候一次都没失手过",
+		ship_group = 50102,
+		type = 1,
+		id = 8006,
+		flag = 0,
+		option = {
+			{
+				4,
+				"太原害怕的话……"
+			}
+		}
+	},
+	[8007] = {
+		param = "太原害怕的话，不如换我来当助手？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8007,
+		flag = 4
+	},
+	[8008] = {
+		param = "真的吗？！那飞云大人也要玩——",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 8008,
+		flag = 4
+	},
+	[8009] = {
+		param = "只有强者才会抢着挨锤，我也参加",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 8009,
+		flag = 4
+	},
+	[8010] = {
+		param = "飞云、伏波——不能给指挥官添麻烦~",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 8010,
+		flag = 4
+	},
+	[8011] = {
+		param = "我也给你准备了身新衣服，等忙完记得来找我换上 <color=#93e9ff>@我</color>",
+		ship_group = 50301,
+		type = 1,
+		id = 8011,
+		flag = 4,
+		option = {
+			{
+				5,
+				"好"
+			}
+		}
+	},
+	[8012] = {
+		param = "好，我忙完就来",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8012,
+		flag = 5
+	},
+	[8013] = {
+		param = "都忙起来了呢，忙点好啊，指挥官可以期待一下新春晚会了",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 8013,
+		flag = 5
+	},
+	[8014] = {
+		param = "1005",
+		ship_group = 59901,
+		option = "1005",
+		type = 3,
+		id = 8014,
+		flag = 5
+	},
+	[8015] = {
+		param = "那就趁此祝大家——新年快乐！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 8015,
+		flag = 5
+	},
+	[8016] = {
+		param = "指挥官",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8016,
+		flag = 0
+	},
+	[8017] = {
+		param = "刚才我在集市看到一块青玉，质地如春水般翠嫩……",
+		ship_group = 50302,
+		type = 1,
+		id = 8017,
+		flag = 0,
+		option = {
+			{
+				1,
+				"你买下来了？"
+			}
+		}
+	},
+	[8018] = {
+		param = "你买下来了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8018,
+		flag = 1
+	},
+	[8019] = {
+		param = "……没有",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8019,
+		flag = 1
+	},
+	[8020] = {
+		param = "最近手中并不宽裕",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8020,
+		flag = 1
+	},
+	[8021] = {
+		param = "不过多看几眼、记在心里，也算是另一种拥有",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8021,
+		flag = 1
+	},
+	[8022] = {
+		param = "说来，指挥官是更喜欢白玉的素净，还是墨玉的深沉？",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8022,
+		flag = 1
+	},
+	[8023] = {
+		param = "你选一种，我记着——等宽裕些，寻一块相似的胚料，为你雕琢",
+		ship_group = 50302,
+		type = 1,
+		id = 8023,
+		flag = 1,
+		option = {
+			{
+				2,
+				"我不太懂玉"
+			}
+		}
+	},
+	[8024] = {
+		param = "我不太懂玉",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8024,
+		flag = 2
+	},
+	[8025] = {
+		param = "这样反而更好",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8025,
+		flag = 2
+	},
+	[8026] = {
+		param = "不必受成见所困，只凭直觉去选",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8026,
+		flag = 2
+	},
+	[8027] = {
+		param = "玉石最真实的模样，往往最先映入这样的眼睛里",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8027,
+		flag = 2
+	},
+	[8028] = {
+		param = "就像我初次见你时，会觉得……",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8028,
+		flag = 2
+	},
+	[8029] = {
+		param = "你是一块让人移不开眼的美玉",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8029,
+		flag = 2
+	},
+	[8030] = {
+		param = "不过，如果指挥官觉得仅凭颜色无法下判断",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8030,
+		flag = 2
+	},
+	[8031] = {
+		param = "不如等你闲暇时，亲自来我这里赏玩、雕琢不同品相的玉石",
+		ship_group = 50302,
+		type = 1,
+		id = 8031,
+		flag = 2,
+		option = {
+			{
+				3,
+				"赏玩是可以，雕琢就……"
+			}
+		}
+	},
+	[8032] = {
+		param = "赏玩是可以，雕琢就有些难上手了吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8032,
+		flag = 3
+	},
+	[8033] = {
+		param = "那么好的玉就浪费了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8033,
+		flag = 3
+	},
+	[8034] = {
+		param = "无妨",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8034,
+		flag = 3
+	},
+	[8035] = {
+		param = "只要你愿意，我会一步步教会你，如何感受它们的温度",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8035,
+		flag = 3
+	},
+	[8036] = {
+		param = "玉石有灵，唯有用真心去对话，才能塑造它的形意",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8036,
+		flag = 3
+	},
+	[8037] = {
+		param = "再者，我这儿还有些余料，不贵，但足够练习用了",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8037,
+		flag = 3
+	},
+	[8038] = {
+		param = "茶已沏好……",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8038,
+		flag = 3
+	},
+	[8039] = {
+		param = "你若要来，我便一直替你暖着它",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8039,
+		flag = 3
+	},
+	[8040] = {
+		param = "指挥官，最近我在尝试一种更清简的生活方式",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8040,
+		flag = 0
+	},
+	[8041] = {
+		param = "旨在减少无谓的耗费，回归自然朴素之道",
+		ship_group = 50302,
+		type = 1,
+		id = 8041,
+		flag = 0,
+		option = {
+			{
+				1,
+				"清简？"
+			}
+		}
+	},
+	[8042] = {
+		param = "清简？具体是指哪方面？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8042,
+		flag = 1
+	},
+	[8043] = {
+		param = "主要是饮食。如今晨起一碗清粥，午间一饭一蔬",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8043,
+		flag = 1
+	},
+	[8044] = {
+		param = "入夜后……只饮清茶，静坐观心",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8044,
+		flag = 1
+	},
+	[8045] = {
+		param = "如此，外物干扰少了，心神也更清明",
+		ship_group = 50302,
+		type = 1,
+		id = 8045,
+		flag = 1,
+		option = {
+			{
+				2,
+				"听起来很自律"
+			}
+		}
+	},
+	[8046] = {
+		param = "听起来很自律，不过怎么突然这么严格？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8046,
+		flag = 2
+	},
+	[8047] = {
+		param = "我记得你上个月还经常买核桃酥和桂花糕来吃",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8047,
+		flag = 2
+	},
+	[8048] = {
+		param = "核桃酥……桂花糕……确实很对口味",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8048,
+		flag = 2
+	},
+	[8049] = {
+		param = "不行",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8049,
+		flag = 2
+	},
+	[8050] = {
+		param = "口腹之欲终究是过眼云烟，能够充盈精神，才是长久之计",
+		ship_group = 50302,
+		type = 1,
+		id = 8050,
+		flag = 2,
+		option = {
+			{
+				3,
+				"……你最近是不是又买玉石了？"
+			}
+		}
+	},
+	[8051] = {
+		param = "……你最近是不是又买玉石了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8051,
+		flag = 3
+	},
+	[8052] = {
+		param = "美玉之缘，可遇不可求。遇到了，自然应当珍惜",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8052,
+		flag = 3
+	},
+	[8053] = {
+		param = "与之相比，口腹之欲确实……微不足道",
+		ship_group = 50302,
+		type = 1,
+		id = 8053,
+		flag = 3,
+		option = {
+			{
+				4,
+				"那可惜了……"
+			}
+		}
+	},
+	[8054] = {
+		param = "那可惜了，我今天特意备了些新出的桂花糕",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8054,
+		flag = 4
+	},
+	[8055] = {
+		param = "现在看来，只能自己独享了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8055,
+		flag = 4
+	},
+	[8056] = {
+		param = "欸？桂花糕……",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8056,
+		flag = 4
+	},
+	[8057] = {
+		param = "指挥官，我方才是说了，正在践行清简之道……",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8057,
+		flag = 4
+	},
+	[8058] = {
+		param = "但细想之下，清简之道，或许也贵在……张弛有度",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8058,
+		flag = 4
+	},
+	[8059] = {
+		param = "对吧？",
+		ship_group = 50302,
+		type = 1,
+		id = 8059,
+		flag = 4,
+		option = {
+			{
+				5,
+				"所以……要来么？"
+			}
+		}
+	},
+	[8060] = {
+		param = "所以……要来么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8060,
+		flag = 5
+	},
+	[8061] = {
+		param = "唔……既然指挥官诚心相邀……",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8061,
+		flag = 5
+	},
+	[8062] = {
+		param = "美玉需品，茶点……或许也要和知音共赏",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8062,
+		flag = 5
+	},
+	[8063] = {
+		param = "指挥官，我这就过来……",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8063,
+		flag = 5
+	},
+	[8064] = {
+		param = "354",
+		ship_group = 50302,
+		option = "",
+		type = 4,
+		id = 8064,
+		flag = 5
+	},
+	[8065] = {
+		param = "指挥官，明日天气应当很好……",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8065,
+		flag = 0
+	},
+	[8066] = {
+		param = "我安排了一些……你应该会喜欢的事",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8066,
+		flag = 0
+	},
+	[8067] = {
+		param = "你若愿意……我现在就把行程发给你看看？",
+		ship_group = 50302,
+		type = 1,
+		id = 8067,
+		flag = 0,
+		option = {
+			{
+				1,
+				"哦？说说看"
+			}
+		}
+	},
+	[8068] = {
+		param = "哦？说说看",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8068,
+		flag = 1
+	},
+	[8069] = {
+		param = "嗯……上午，我们可以一同赏玉、琢玉",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8069,
+		flag = 1
+	},
+	[8070] = {
+		param = "感受石料从粗粝到温润的每一点变化",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8070,
+		flag = 1
+	},
+	[8071] = {
+		param = "下午，剧场里有新排的折子戏，我留了两张相邻的票……",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8071,
+		flag = 1
+	},
+	[8072] = {
+		param = "座位很不错，既清静，又能清楚地看见戏台上流转的光影",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8072,
+		flag = 1
+	},
+	[8073] = {
+		param = "晚上……若是还有余力，巷口那间小茶铺的桂花圆子，口感不错",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8073,
+		flag = 1
+	},
+	[8074] = {
+		param = "如此安排……指挥官觉得怎样？",
+		ship_group = 50302,
+		type = 1,
+		id = 8074,
+		flag = 1,
+		option = {
+			{
+				2,
+				"安排得很好……"
+			}
+		}
+	},
+	[8075] = {
+		param = "安排得很好，但这样会不会让你破费？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8075,
+		flag = 2
+	},
+	[8076] = {
+		param = "指挥官不用担心这个",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8076,
+		flag = 2
+	},
+	[8077] = {
+		param = "其实……为这一天，我悄悄攒了很久的经费",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8077,
+		flag = 2
+	},
+	[8078] = {
+		param = "戏票是月前就订下的了，玉石也甄选过许多次",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8078,
+		flag = 2
+	},
+	[8079] = {
+		param = "能和你一起观赏，它们才算真正被赋予了特殊的意义……",
+		ship_group = 50302,
+		type = 1,
+		id = 8079,
+		flag = 2,
+		option = {
+			{
+				3,
+				"难怪你最近都没买玉石了"
+			}
+		}
+	},
+	[8080] = {
+		param = "难怪你最近都没买玉石了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8080,
+		flag = 3
+	},
+	[8081] = {
+		param = "我只是觉得，既然邀你同行，便该让你尽兴才行",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8081,
+		flag = 3
+	},
+	[8082] = {
+		param = "买玉是爱好，约会是心意",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8082,
+		flag = 3
+	},
+	[8083] = {
+		param = "前者可以等，后者……我不想省",
+		ship_group = 50302,
+		type = 1,
+		id = 8083,
+		flag = 3,
+		option = {
+			{
+				4,
+				"那我也该表示一下才好"
+			}
+		}
+	},
+	[8084] = {
+		param = "那我也该表示一下才好，明日你只管带我看玉、听戏，其余的事交给我就好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8084,
+		flag = 4
+	},
+	[8085] = {
+		param = "我也想让你能安心享受这一天",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8085,
+		flag = 4
+	},
+	[8086] = {
+		param = "指挥官……",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8086,
+		flag = 4
+	},
+	[8087] = {
+		param = "好……那明日清晨，我等你",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8087,
+		flag = 4
+	},
+	[8088] = {
+		param = "期待着与你一起……从晨光走入夜色",
+		ship_group = 50302,
+		option = "",
+		type = 1,
+		id = 8088,
+		flag = 4
+	},
+	[8089] = {
+		param = "指挥官，现在方便吗？",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8089,
+		flag = 0
+	},
+	[8090] = {
+		param = "下个月我要办一场私人香氛展，正在筹备展品。",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8090,
+		flag = 0
+	},
+	[8091] = {
+		param = "要展出的香氛，已经放在指挥官你的桌上了",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8091,
+		flag = 0
+	},
+	[8092] = {
+		param = "用过之后，记得告诉我试用感想哦？",
+		ship_group = 50212,
+		type = 1,
+		id = 8092,
+		flag = 0,
+		option = {
+			{
+				1,
+				"办公室里的味道……"
+			}
+		}
+	},
+	[8093] = {
+		param = "办公室里的味道，原来是来自你的香氛",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8093,
+		flag = 1
+	},
+	[8094] = {
+		param = "指挥官的嗅觉很敏锐呢~",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8094,
+		flag = 1
+	},
+	[8095] = {
+		param = "如何？是很特别的香气吧",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8095,
+		flag = 1
+	},
+	[8096] = {
+		param = "前调是岩兰草与晨露，尾调会慢慢渗出白毫银针的茶韵",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8096,
+		flag = 1
+	},
+	[8097] = {
+		param = "是否能让现在的你感觉……比平时更放松呢？",
+		ship_group = 50212,
+		type = 1,
+		id = 8097,
+		flag = 1,
+		option = {
+			{
+				2,
+				"确实有效……"
+			}
+		}
+	},
+	[8098] = {
+		param = "嗯，确实有效",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8098,
+		flag = 2
+	},
+	[8099] = {
+		param = "呵呵……这便是气味的奇妙之处，能拨动心弦，撩动情绪",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8099,
+		flag = 2
+	},
+	[8100] = {
+		param = "作为试香的报酬，我可以为你单独定制一款香氛",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8100,
+		flag = 2
+	},
+	[8101] = {
+		param = "在你需要的时候，可以通过嗅闻香氛来进入对应的状态",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8101,
+		flag = 2
+	},
+	[8102] = {
+		param = "指挥官，你想要什么功效的香氛呢？",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8102,
+		flag = 2
+	},
+	[8103] = {
+		param = "218",
+		ship_group = 50212,
+		type = 4,
+		id = 8103,
+		flag = 2,
+		option = {
+			{
+				3,
+				"集中精神的"
+			},
+			{
+				4,
+				"舒缓一点的"
+			}
+		}
+	},
+	[8104] = {
+		param = "我想要集中精神的，能提高工作效率的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8104,
+		flag = 3
+	},
+	[8105] = {
+		param = "那就用雪松、苦橙……加上极少量的薄荷",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8105,
+		flag = 3
+	},
+	[8106] = {
+		param = "调配静心镇神的清风……",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8106,
+		flag = 3
+	},
+	[8107] = {
+		param = "我想要舒缓一点的，能让人放松下来的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8107,
+		flag = 4
+	},
+	[8108] = {
+		param = "那么檀木、鸢尾……再添几味辅料",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8108,
+		flag = 4
+	},
+	[8109] = {
+		param = "要像被阳光轻抚的午后……",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8109,
+		flag = 4
+	},
+	[8110] = {
+		param = "定制香氛调配好之后，我会告诉你的",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8110,
+		flag = 0
+	},
+	[8111] = {
+		param = "就由你来，唤醒这款香氛的灵魂吧",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8111,
+		flag = 0
+	},
+	[8112] = {
+		param = "想来你也是愿意的",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8112,
+		flag = 0
+	},
+	[8113] = {
+		param = "届时，我会为你备好那支独一无二的香",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8113,
+		flag = 0
+	},
+	[8114] = {
+		param = "多亏有指挥官帮忙宣传，前几日的香水展，反响很不错",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8114,
+		flag = 0
+	},
+	[8115] = {
+		param = "其中评价最高的几款香……灵感多少都与你有关",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8115,
+		flag = 0
+	},
+	[8116] = {
+		param = "作为回礼，指挥官想不想陪我一同去几个特别的地方，好好旅游几天？",
+		ship_group = 50212,
+		type = 1,
+		id = 8116,
+		flag = 0,
+		option = {
+			{
+				1,
+				"特别的地方？"
+			}
+		}
+	},
+	[8117] = {
+		param = "怎么突然想到出去旅游了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8117,
+		flag = 1
+	},
+	[8118] = {
+		param = "呵呵，也不是真的“旅游”",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8118,
+		flag = 1
+	},
+	[8119] = {
+		param = "我曾经收集过来自不同地方的特殊气味印象",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8119,
+		flag = 1
+	},
+	[8120] = {
+		param = "比如在密林深处，从雨后青苔中钻出的第一缕腥甜",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8120,
+		flag = 1
+	},
+	[8121] = {
+		param = "比如在冬夜冰原，壁炉里随着火星迸裂而出的松香",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8121,
+		flag = 1
+	},
+	[8122] = {
+		param = "还有……某人衣袖上，常年辛劳笔耕而沾染的淡淡墨香",
+		ship_group = 50212,
+		type = 1,
+		id = 8122,
+		flag = 1,
+		option = {
+			{
+				2,
+				"气味的世界……"
+			}
+		}
+	},
+	[8123] = {
+		param = "气味的世界，确实值得探寻",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8123,
+		flag = 2
+	},
+	[8124] = {
+		param = "如果指挥官愿意，我可以带你走完一套完整的闻香流程——",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8124,
+		flag = 2
+	},
+	[8125] = {
+		param = "净息、静心、赏味",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8125,
+		flag = 2
+	},
+	[8126] = {
+		param = "每一步，我都会在身边引导你",
+		ship_group = 50212,
+		type = 1,
+		id = 8126,
+		flag = 2,
+		option = {
+			{
+				3,
+				"需要准备什么？"
+			}
+		}
+	},
+	[8127] = {
+		param = "需要准备什么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8127,
+		flag = 3
+	},
+	[8128] = {
+		param = "只需空出一段不被打扰的时间，我会准备好香汤、静室，以及只有你我两人的空间",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8128,
+		flag = 3
+	},
+	[8129] = {
+		param = "灯光会很暗，声音也会很轻",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8129,
+		flag = 3
+	},
+	[8130] = {
+		param = "只有其它感官被限制的时候，你的嗅觉才会彻底醒来",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8130,
+		flag = 3
+	},
+	[8131] = {
+		param = "不用担心步骤复杂，我会带着你，品析我珍藏的所有气味",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8131,
+		flag = 3
+	},
+	[8132] = {
+		param = "当然，房间内只会有我们两个人~",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8132,
+		flag = 3
+	},
+	[8133] = {
+		param = "这是在邀请你进入认识，完整的我~",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8133,
+		flag = 3
+	},
+	[8134] = {
+		param = "更真实，也更隐秘的我",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8134,
+		flag = 3
+	},
+	[8135] = {
+		param = "整个过程会很长……很长~",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8135,
+		flag = 3
+	},
+	[8136] = {
+		param = "指挥官，我寄给你的东西，有收到吗？",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8136,
+		flag = 0
+	},
+	[8137] = {
+		param = "一个小小的，很薄的信封",
+		ship_group = 50212,
+		type = 1,
+		id = 8137,
+		flag = 0,
+		option = {
+			{
+				1,
+				"收到了"
+			}
+		}
+	},
+	[8138] = {
+		param = "收到了，今天一直在忙，还没来得及拆",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8138,
+		flag = 1
+	},
+	[8139] = {
+		param = "现在拆开看看？",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8139,
+		flag = 1
+	},
+	[8140] = {
+		param = "装在里面的……是“我”哦~",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8140,
+		flag = 1
+	},
+	[8141] = {
+		param = "期待一下吧~",
+		ship_group = 50212,
+		type = 1,
+		id = 8141,
+		flag = 1,
+		option = {
+			{
+				2,
+				"“你”……？"
+			}
+		}
+	},
+	[8142] = {
+		param = "“你”……在信封里？我去拆开看看",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8142,
+		flag = 2
+	},
+	[8143] = {
+		param = "看到了吗？里面放着一张书签，同时，也不只是一张普通的书签呢~",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8143,
+		flag = 2
+	},
+	[8144] = {
+		param = "我用浸香纸反复熏制过，让它能长久留住一种气息",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8144,
+		flag = 2
+	},
+	[8145] = {
+		param = "你凑近闻闻——熟悉吗？",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8145,
+		flag = 2
+	},
+	[8146] = {
+		param = "调香室里的感觉，精油、香氛，还有一点……我的味道",
+		ship_group = 50212,
+		type = 1,
+		id = 8146,
+		flag = 2,
+		option = {
+			{
+				3,
+				"为什么要特意做这个？"
+			}
+		}
+	},
+	[8147] = {
+		param = "为什么要特意做这个？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8147,
+		flag = 3
+	},
+	[8148] = {
+		param = "当然是为了，让你能在使用它的时候，常常想起我哦",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8148,
+		flag = 3
+	},
+	[8149] = {
+		param = "这样，你就能在这气息里，感受到我的陪伴",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8149,
+		flag = 3
+	},
+	[8150] = {
+		param = "喜欢吗？",
+		ship_group = 50212,
+		type = 1,
+		id = 8150,
+		flag = 3,
+		option = {
+			{
+				4,
+				"谢谢，是很特别的礼物"
+			}
+		}
+	},
+	[8151] = {
+		param = "谢谢，是很特别的礼物",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8151,
+		flag = 4
+	},
+	[8152] = {
+		param = "这可不是礼物哦~",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8152,
+		flag = 4
+	},
+	[8153] = {
+		param = "我只是寄放在你那里，等它慢慢熏染上别的气息",
+		ship_group = 50212,
+		type = 1,
+		id = 8153,
+		flag = 4,
+		option = {
+			{
+				5,
+				"什么气息？"
+			}
+		}
+	},
+	[8154] = {
+		param = "什么气息？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8154,
+		flag = 5
+	},
+	[8155] = {
+		param = "当然是你的气息~等它染上你皮肤的温度、衣袖间的墨味……",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8155,
+		flag = 5
+	},
+	[8156] = {
+		param = "还有你独自思考时……那种安静又笃定的氛围",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8156,
+		flag = 5
+	},
+	[8157] = {
+		param = "等它被你完全填满，我就会把它收回身边，贴身存放",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8157,
+		flag = 5
+	},
+	[8158] = {
+		param = "或许这会是人间……最美好的气味~",
+		ship_group = 50212,
+		option = "",
+		type = 1,
+		id = 8158,
 		flag = 5
 	}
 }

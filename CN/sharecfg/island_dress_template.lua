@@ -233,7 +233,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"开发商店",
+				"开发季I-开发商店",
 				{}
 			}
 		}
@@ -1749,7 +1749,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"开发商店",
+				"商店购买",
 				{}
 			}
 		}
@@ -1792,7 +1792,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"开发商店",
+				"开发季II-开发商店",
 				{}
 			}
 		}
@@ -1906,7 +1906,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"开发商店",
+				"商店购买",
 				{}
 			}
 		}
@@ -1941,7 +1941,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"开发商店",
+				"开发季II-开发商店",
 				{}
 			}
 		}
@@ -2056,7 +2056,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"开发商店",
+				"商店购买",
 				{}
 			}
 		}
@@ -2083,7 +2083,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"开发商店",
+				"开发季II-开发商店",
 				{}
 			}
 		}

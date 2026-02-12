@@ -54,9 +54,10 @@ slot0.Exit = function(slot0, slot1)
 		})
 	else
 		slot1:SendRequest(slot1.GeneralPackage(slot0, {}), function (slot0)
-			uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
+			print(uv0.exitCallback)
+			uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
 				system = SYSTEM_PERFORM,
-				exitCallback = uv1.exitCallback
+				exitCallback = uv0.exitCallback
 			})
 		end, function (slot0)
 			uv0:RequestFailStandardProcess(slot0)

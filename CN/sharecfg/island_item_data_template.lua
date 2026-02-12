@@ -936,7 +936,7 @@ pg.base.island_item_data_template = {
 				{}
 			},
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			}
 		}
@@ -6578,7 +6578,7 @@ pg.base.island_item_data_template = {
 		desc = "炸鱼外酥里嫩，薯条香脆可口，深受大众喜爱！",
 		type = 1,
 		manage_influence = 280,
-		pt_num = 0,
+		pt_num = 30,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -6613,7 +6613,7 @@ pg.base.island_item_data_template = {
 		desc = "虾肉的鲜嫩与柠檬的酸甜相结合，清爽开胃。",
 		type = 1,
 		manage_influence = 220,
-		pt_num = 0,
+		pt_num = 60,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -6841,7 +6841,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"秋季特产经营 地图采集",
 				{}
 			}
 		}
@@ -6872,7 +6872,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"秋季特产经营 地图采集",
 				{}
 			}
 		}
@@ -6903,7 +6903,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"秋季特产经营 地图采集",
 				{}
 			}
 		}
@@ -6934,7 +6934,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"秋季特产经营 地图采集",
 				{}
 			}
 		}
@@ -6966,7 +6966,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"秋季特产经营 坠香果园",
 				{}
 			}
 		}
@@ -6997,7 +6997,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"秋季特产经营 商店购买",
 				{
 					"IslandShopPage",
 					{
@@ -7041,7 +7041,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"秋季特产经营 坠香果园",
 				{}
 			}
 		}
@@ -7072,7 +7072,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"秋季特产经营 商店购买",
 				{
 					"IslandShopPage",
 					{
@@ -7119,7 +7119,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"秋季特产经营 有鱼餐馆",
 				{}
 			}
 		}
@@ -7154,7 +7154,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"秋季特产经营 有鱼餐馆",
 				{}
 			}
 		}
@@ -7189,7 +7189,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"手工制作设备",
+				"秋季特产经营 手工制作设备",
 				{}
 			}
 		}
@@ -7224,7 +7224,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"手工制作设备",
+				"秋季特产经营 手工制作设备",
 				{}
 			}
 		}
@@ -7259,7 +7259,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"秋季特产经营 白熊饮品",
 				{}
 			}
 		}
@@ -7294,7 +7294,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"秋季特产经营 白熊饮品",
 				{}
 			}
 		}
@@ -7325,7 +7325,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"春季特产经营 地图采集",
 				{}
 			}
 		}
@@ -7356,7 +7356,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"春季特产经营 地图采集",
 				{}
 			}
 		}
@@ -7387,7 +7387,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"春季特产经营 地图采集",
 				{}
 			}
 		}
@@ -7418,7 +7418,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"春季特产经营 地图采集",
 				{}
 			}
 		}
@@ -7450,7 +7450,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"青芽苗圃",
+				"春季特产经营 青芽苗圃",
 				{}
 			}
 		}
@@ -7481,7 +7481,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"春季特产经营 商店购买",
 				{
 					"IslandShopPage",
 					{
@@ -7525,7 +7525,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"青芽苗圃",
+				"春季特产经营 青芽苗圃",
 				{}
 			}
 		}
@@ -7556,7 +7556,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"春季特产经营 商店购买",
 				{
 					"IslandShopPage",
 					{
@@ -7603,7 +7603,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"春季特产经营 白熊饮品",
 				{}
 			}
 		}
@@ -7638,7 +7638,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"春季特产经营 白熊饮品",
 				{}
 			}
 		}
@@ -7673,7 +7673,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"春季特产经营 有鱼餐馆",
 				{}
 			}
 		}
@@ -7708,7 +7708,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"春季特产经营 有鱼餐馆",
 				{}
 			}
 		}
@@ -7740,7 +7740,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"春季特产经营 手工制作设备",
 				{}
 			}
 		}
@@ -7772,7 +7772,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"春季特产经营 手工制作设备",
 				{}
 			}
 		}
@@ -7782,7 +7782,7 @@ pg.base.island_item_data_template = {
 		desc = "其外壳常用于装饰品或精致工艺品。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 12,
+		pt_num = 1,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -7814,7 +7814,7 @@ pg.base.island_item_data_template = {
 		desc = "肥美的鲶鱼，口感丰腴，适合各种重口味的烹调。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 16,
+		pt_num = 2,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -7846,7 +7846,7 @@ pg.base.island_item_data_template = {
 		desc = "淡水中的美味代表，餐馆里的招牌美食。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 16,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -7878,7 +7878,7 @@ pg.base.island_item_data_template = {
 		desc = "常见食用鱼类之一，肉质细嫩肉味甜美，营养价值很高。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 13,
+		pt_num = 11,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -7910,7 +7910,7 @@ pg.base.island_item_data_template = {
 		desc = "高蛋白，低脂肪、低热量，优质水产美食之一。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 45,
+		pt_num = 12,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -7942,7 +7942,7 @@ pg.base.island_item_data_template = {
 		desc = "常居水下的小家伙，虽然是海产，却是最接地气的美味。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 162,
+		pt_num = 13,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -7974,7 +7974,7 @@ pg.base.island_item_data_template = {
 		desc = "鲜美的鲈鱼，肉质白嫩，适合清蒸或煎制。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 16,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8038,7 +8038,7 @@ pg.base.island_item_data_template = {
 		desc = "弹滑可口的鱿鱼，是各类烧烤的明星食材。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 27,
+		pt_num = 1,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8070,7 +8070,7 @@ pg.base.island_item_data_template = {
 		desc = "流线型的海中速度健将，肉质紧实，非常适合香煎。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 104,
+		pt_num = 27,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8102,7 +8102,7 @@ pg.base.island_item_data_template = {
 		desc = "有着高蛋白低脂肪的优质鱼肉，是海钓的终极目标之一。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 198,
+		pt_num = 104,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8134,7 +8134,7 @@ pg.base.island_item_data_template = {
 		desc = "珍贵渔获，拥有漂亮的纹理与丰腴的口感。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 2,
+		pt_num = 45,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8166,7 +8166,7 @@ pg.base.island_item_data_template = {
 		desc = "杂食性鱼类，喜结群游速快，因其较高的营养价值广受欢迎。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 11,
+		pt_num = 1,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8198,7 +8198,7 @@ pg.base.island_item_data_template = {
 		desc = "灵活且狡猾的对手，成功钓起它需要不错的技巧。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 16,
+		pt_num = 24,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8230,7 +8230,7 @@ pg.base.island_item_data_template = {
 		desc = "品质上乘的金枪鱼，脂肪分布均匀，是制作高级料理的绝佳原料。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 1,
+		pt_num = 198,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8262,7 +8262,7 @@ pg.base.island_item_data_template = {
 		desc = "滋补珍品，需要一点耐心和运气才能获得。",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 24,
+		pt_num = 162,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8346,7 +8346,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -8385,7 +8385,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -8424,7 +8424,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -8463,7 +8463,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -8502,7 +8502,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			}
 		}
@@ -8559,7 +8559,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -8598,7 +8598,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			}
 		}
@@ -8655,7 +8655,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -8694,7 +8694,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			}
 		}
@@ -8751,7 +8751,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -8790,7 +8790,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			}
 		}
@@ -8847,7 +8847,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -8886,7 +8886,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			}
 		}
@@ -8943,7 +8943,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -8982,7 +8982,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			}
 		}
@@ -9039,7 +9039,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -9078,7 +9078,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -9117,7 +9117,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季-累积PT",
 				{}
 			},
 			{
@@ -9896,7 +9896,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发商店",
+				"开发季II-开发商店",
 				{}
 			}
 		}

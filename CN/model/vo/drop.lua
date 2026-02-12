@@ -1178,6 +1178,21 @@ slot0.InitSwitch = function()
 						slot0:updateActivity(slot1)
 					end
 				end,
+				[30] = function ()
+					if not getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) or slot1:isEnd() then
+						return
+					end
+
+					slot2 = uv0.count
+
+					if slot1:IsLimitExpItem(uv0.id) then
+						slot1:AddDailyProgress(getProxy(LoveLetterProxy):AddLoveLetterExp(slot1:GetTargetGroupId(), slot1:FilterExp(slot2)))
+					else
+						slot2 = getProxy(LoveLetterProxy):AddLoveLetterExp(slot1:GetTargetGroupId(), slot2)
+					end
+
+					getProxy(ActivityProxy):updateActivity(slot1)
+				end,
 				[99] = function ()
 				end,
 				[100] = function ()
@@ -1349,7 +1364,7 @@ slot0.InitSwitch = function()
 			table.insert(slot2, {
 				type = slot0.type,
 				id = slot0.id,
-				count = slot0.count
+				number = slot0.count
 			})
 			IslandDropHelper.AddItems({
 				drop_list = slot2

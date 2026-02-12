@@ -119,15 +119,17 @@ slot0.BindConditions = function(slot0)
 		return slot1 or slot3
 	end)
 	slot0:BindCondition(uv0.TYPES.MEMORY_REVIEW, function ()
-		if getProxy(PlayerProxy):getRawData() then
-			slot1 = slot0.id
-
-			return _.any(pg.memory_group.all, function (slot0)
-				return PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. uv0 .. " " .. slot0, 0) == 1
-			end)
-		else
-			return false
+		if getProxy(PlayerProxy):getRawData() and _.any(pg.memory_group.all, function (slot0)
+			return PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. uv0.id .. " " .. slot0, 0) == 1
+		end) then
+			return true
 		end
+
+		if getProxy(LoveLetterProxy):getRawData() and getProxy(LoveLetterProxy):IsTipUnlockLetter() then
+			return true
+		end
+
+		return false
 	end)
 	slot0:BindCondition(uv0.TYPES.NEW_SERVER, function ()
 		return NewServerCarnivalScene.isTip()

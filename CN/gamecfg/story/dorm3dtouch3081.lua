@@ -6,7 +6,7 @@ return {
 	hideAuto = true,
 	hideRecord = true,
 	mode = 2,
-	id = "DORM3DTOUCH3072",
+	id = "DORM3DTOUCH3081",
 	placeholder = {
 		"dorm3d"
 	},
@@ -15,10 +15,10 @@ return {
 			actorName = 19903,
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_furniture1_tone2",
+			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_gift4_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "安克雷奇……喜欢，{dorm3d}……！",
+			say = "被{dorm3d}……抓住了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,14 +29,24 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "ab_FF_shafa_idle02_fb02",
+							name = "ab_TD_bed_idle01_fb01",
 							time = 0,
 							type = "action",
 							skip = true
 						},
 						{
-							id = 2012,
-							name = "ab_FF_shafa_idle02_fb02_SF",
+							id = 2020,
+							name = "ab_TD_bed_idle01_fb01_1chuang",
+							type = "item_action"
+						},
+						{
+							id = 2021,
+							name = "ab_TD_bed_idle01_fb01_2xiong",
+							type = "item_action"
+						},
+						{
+							id = 2022,
+							name = "ab_TD_bed_idle01_fb01_3caiqiu",
 							type = "item_action"
 						},
 						{

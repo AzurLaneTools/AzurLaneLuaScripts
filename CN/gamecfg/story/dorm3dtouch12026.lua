@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit1_tone8/drom3d_Taiho_ik_gfit1_tone8",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今晚就让大凤留在指挥官身边……偿还这份温柔吧……",
+			say = "今晚就让{namecode:97}留在{dorm3d}身边……偿还这份温柔吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

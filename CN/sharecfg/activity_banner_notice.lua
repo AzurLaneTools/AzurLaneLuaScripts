@@ -233,6 +233,15 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 29,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SpringFestival2026MainPage"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -261,6 +270,7 @@ pg.activity_banner_notice = {
 		25,
 		26,
 		27,
-		28
+		28,
+		29
 	}
 }

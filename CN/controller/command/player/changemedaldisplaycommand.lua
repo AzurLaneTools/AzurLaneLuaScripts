@@ -27,12 +27,14 @@ slot0.execute = function(slot0, slot1)
 
 	slot9:Send(17401, {
 		fixed_const = 1,
-		medal_id = slot8
+		medal_id = slot3
 	}, 17402, function (slot0)
 		if slot0.result == 0 then
 			uv0:updatePlayerMedalDisplay(uv1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("change_display_medal_success"))
 			uv2:sendNotification(GAME.CHANGE_PLAYER_MEDAL_DISPLAY_DONE)
+		else
+			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end
 	end)
 end

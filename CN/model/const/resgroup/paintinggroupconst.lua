@@ -32,6 +32,17 @@ return {
 
 		return true
 	end,
+	FiltePaintingRes = function (slot0)
+		slot1 = {}
+
+		for slot5, slot6 in ipairs(slot0) do
+			if string.match(string.lower(slot6), "^painting/") then
+				table.insert(slot1, slot6)
+			end
+		end
+
+		return slot1
+	end,
 	AddPaintingNameWithFilteMap = function (slot0, slot1)
 		slot1 = string.lower(slot1)
 

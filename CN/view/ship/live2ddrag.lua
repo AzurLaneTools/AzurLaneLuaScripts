@@ -201,7 +201,11 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 end
 
 slot0.onListenerTrigger = function(slot0, slot1, slot2)
-	if slot0.actionTrigger.click_cd and slot1 == Live2D.ON_ACTION_DRAG_CLICK and table.contains(slot0.actionTrigger.click_cd, slot2.draw_able_name) then
+	if slot1 == Live2D.ON_ACTION_DRAG_CLICK then
+		if slot0.actionTrigger.click_cd and table.contains(slot0.actionTrigger.click_cd, slot2.draw_able_name) then
+			slot0.nextTriggerTime = slot0.limitTime
+		end
+	elseif slot1 == Live2D.ON_ACTION_PLAY then
 		slot0.nextTriggerTime = slot0.limitTime
 	end
 end

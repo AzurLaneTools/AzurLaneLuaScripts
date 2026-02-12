@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit1_tone7",
 			nameColor = "#FFFFFF",
-			say = "Honey这样做……是在邀请我吗~？",
+			hidePaintObj = true,
+			say = "欸？要试试别的地方吗？也、也不是不可以啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,20 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_dining02_idle02_fb03",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							id = 2018,
+							name = "IK_dining02_idle02_fb03_BX",
+							type = "item_action"
+						},
+						{
+							skip = true,
+							name = "face_smile_start",
+							type = "action"
 						},
 						{
 							skip = false,

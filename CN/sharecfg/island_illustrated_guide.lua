@@ -37,6 +37,7 @@ pg.island_illustrated_guide = setmetatable({
 		28,
 		29,
 		30,
+		2031,
 		31,
 		32,
 		33,
@@ -1428,6 +1429,16 @@ pg.base.island_illustrated_guide = {
 				40
 			}
 		},
+		award_unlock = {}
+	},
+	[2031] = {
+		collect_add = 20,
+		type = 2,
+		id = 2031,
+		order = 16,
+		unlock_id = 101800,
+		collect_upgrade = {},
+		collect_star = {},
 		award_unlock = {}
 	},
 	[57] = {

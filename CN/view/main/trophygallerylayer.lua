@@ -33,23 +33,35 @@ slot0.init = function(slot0)
 	slot0._trophyDetailPanel = TrophyDetailPanel.New(slot0._tf:Find("trophyPanel"), slot0._tf)
 	slot0._filterBtn = slot0._topPanel:Find("filter/toggle")
 	slot0._trophyCounter = slot0._topPanel:Find("filter/counter/Text")
-	slot1 = slot0._tf
-	slot0._reminderRes = slot1:Find("bg/resource")
+	slot0._reminderRes = slot0._tf:Find("bg/resource")
 	slot0._pageToggle = {
 		slot0._tf:Find("blur_panel/adapt/left_length/frame/root/common_toggle"),
-		slot0._tf:Find("blur_panel/adapt/left_length/frame/root/limited_toggle")
+		slot0._tf:Find("blur_panel/adapt/left_length/frame/root/limited_toggle"),
+		slot0.toggleLoveLetter
 	}
 	slot0._hideExpireBtn = slot0._tf:Find("blur_panel/adapt/top/expireCheckBox")
 	slot0._hideExpireCheck = slot0._hideExpireBtn:Find("check")
-	slot0._pageIndex = 1
+	slot0._pageIndex = slot0.contextData.index or 1
 	slot0._hideExpire = false
 	slot0._trophyTFList = {}
+	slot0.cardItems = {}
+	slot0.cardList = slot0.rtScrollContent:GetComponent("LScrollRect")
+
+	slot0.cardList.onInitItem = function(slot0)
+		uv0:onInitCard(slot0)
+	end
+
+	slot0.cardList.onUpdateItem = function(slot0, slot1)
+		uv0:onUpdateCard(slot0, slot1)
+	end
+
+	slot0.cardList.onReturnItem = function(slot0, slot1)
+		uv0:onReturnCard(slot0, slot1)
+	end
 end
 
 slot0.didEnter = function(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:OverlayPanel(slot0._tf)
+	slot0:OverlayPanel(slot0._tf)
 	onButton(slot0, slot0._backBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
@@ -70,14 +82,28 @@ slot0.didEnter = function(slot0)
 		uv0:updateTrophyList()
 	end
 
-	onButton(slot0, slot0._hideExpireBtn, slot4, SFX_PANEL)
+	slot5 = SFX_PANEL
+
+	onButton(slot0, slot0._hideExpireBtn, slot4, slot5)
 	triggerButton(slot0._hideExpireBtn)
 
-	for slot4 = 1, 2 do
-		onButton(slot0, slot0._pageToggle[slot4], function ()
+	for slot4, slot5 in ipairs(slot0._pageToggle) do
+		onButton(slot0, slot5, function ()
 			uv0:updatePage(uv1)
 		end, SFX_PANEL)
 	end
+
+	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(slot0.toggleLoveLetter:Find("tip"), {
+		"love_letter_level_up",
+		"love_letter_level_reward"
+	}, function (slot0)
+		setActive(slot0, getProxy(LoveLetterProxy):IsTipLevelUp() or slot1:IsTipAllLevelReward())
+	end)
+	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(slot0.rtCountLevelPanel:Find("info/icon/tip"), {
+		"love_letter_level_reward"
+	}, function (slot0)
+		setActive(slot0, getProxy(LoveLetterProxy):IsTipAllLevelReward())
+	end)
 
 	slot0._filterIndex = 0
 
@@ -87,14 +113,26 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.updatePage = function(slot0, slot1)
-	for slot5 = 1, #slot0._pageToggle do
-		setActive(slot0._pageToggle[slot5]:Find("selected"), slot5 == slot1)
+	for slot5, slot6 in ipairs(slot0._pageToggle) do
+		setActive(slot6:Find("selected"), slot5 == slot1)
 		setActive(slot6:Find("Image"), slot5 ~= slot1)
 	end
 
 	slot0._pageIndex = slot1
+	slot2 = slot1 == 3
 
-	slot0:updateTrophyList()
+	setActive(slot0._center, not slot2)
+	setActive(slot0._topPanel:Find("filter"), not slot2)
+	setActive(slot0.rtLoveLetterPanel, slot2)
+	setActive(slot0.rtCountLevelPanel, slot2)
+	setActive(slot0.rtCountLevelBg, slot2)
+
+	if slot2 then
+		slot0:updateLoveLetterPage()
+	else
+		slot0:updateTrophyList()
+	end
+
 	setActive(slot0._hideExpireBtn, slot1 == uv0.PAGE_LIMITED)
 end
 
@@ -201,6 +239,105 @@ slot0.onFilter = function(slot0)
 	slot0:updateTrophyList()
 end
 
+slot0.updateLoveLetterPage = function(slot0)
+	if not slot0.contextData.checkRalizeGift then
+		slot0.contextData.checkRalizeGift = true
+
+		if getProxy(LoveLetterProxy):IsTipRealizeGift() then
+			slot0:emit(TrophyGalleryMediator.OPEN_REALIZE_GIFT_LAYER)
+		end
+	end
+
+	slot0.cardInfos = getProxy(LoveLetterProxy):GetDisplayGroupList()
+
+	slot0.cardList:SetTotalCount(#slot0.cardInfos, -1)
+
+	slot1 = getProxy(LoveLetterProxy)
+	slot2 = slot0.rtCountLevelPanel:Find("info")
+
+	setText(slot2:Find("word"), i18n("loveactivity_ui_10"))
+	setText(slot2:Find("count"), slot1:GetAllLevel())
+
+	slot4, slot5 = slot1:GetAllLevelProgress()
+
+	if slot5 == 0 then
+		setSlider(slot2:Find("Slider"), 0, 1, 1)
+	else
+		setSlider(slot2:Find("Slider"), 0, slot5, slot4)
+	end
+
+	setText(slot2:Find("Slider/Text"), slot4 .. "/" .. slot5)
+	updateDrop(slot2:Find("icon/mask/IconTpl"), slot1:GetAllLevelNextAward()[1])
+	onButton(slot0, slot2:Find("icon/mask/IconTpl"), function ()
+		uv0:emit(BaseUI.ON_DROP, drop[1])
+	end, SFX_PANEL)
+	setActive(slot2:Find("icon/got"), slot5 == 0)
+	onButton(slot0, slot2:Find("click"), function ()
+		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_LOVE_LETTER_LEVEL_REWARD, {
+			btnList = #getProxy(LoveLetterProxy):GetAllLevelReadyReward() > 0 and {
+				{
+					type = pg.NewStyleMsgboxMgr.BUTTON_TYPE.cancel,
+					name = i18n("msgbox_text_cancel"),
+					sound = SFX_CANCEL
+				},
+				{
+					type = pg.NewStyleMsgboxMgr.BUTTON_TYPE.confirm,
+					name = i18n("mail_get_oneclick"),
+					func = function ()
+						uv0:emit(TrophyGalleryMediator.ON_GET_ALL_LOVE_LETTER_REWARD, uv1)
+					end,
+					sound = SFX_CONFIRM
+				}
+			} or nil
+		})
+	end, SFX_PANEL)
+end
+
+slot0.onInitCard = function(slot0, slot1)
+	slot2 = LoveLetterShipCard.New(slot1)
+
+	onButton(slot0, slot2.go, function ()
+		if uv0.shipGroup then
+			uv1:emit(TrophyGalleryMediator.OPEN_DISPLAY_WINDOW, uv0.shipGroup.id)
+		end
+	end)
+
+	slot0.cardItems[slot1] = slot2
+end
+
+slot0.onUpdateCard = function(slot0, slot1, slot2)
+	if not slot0.cardItems[slot2] then
+		slot0:onInitCard(slot2)
+
+		slot3 = slot0.cardItems[slot2]
+	end
+
+	slot3:update(slot0.cardInfos[slot1 + 1])
+
+	slot6 = pg.EasyRedDotMgr.GetInstance()
+	slot8 = slot2.transform
+
+	slot6:RegisterRedDot(slot8:Find("content/pick_up"), {
+		"love_letter_level_up"
+	}, function (slot0)
+		slot1 = getProxy(LoveLetterProxy):GetGroupData(uv0.id)
+
+		setActive(slot0, slot1:GetDisplayLevel() < slot1:GetMaxLevel() and slot1:CanLevelUp())
+	end)
+end
+
+slot0.onReturnCard = function(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.cardItems[slot2] then
+		slot3:clear()
+	end
+
+	slot0.cardItems[slot2] = nil
+end
+
 slot0.onBackPressed = function(slot0)
 	if slot0._trophyDetailPanel:IsActive() then
 		slot0._trophyDetailPanel:SetActive(false)
@@ -210,7 +347,19 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._blurPanel, slot0._tf)
+	pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot0.toggleLoveLetter:Find("tip"))
+
+	slot3 = slot0.rtCountLevelPanel
+	slot4 = slot3
+	slot5 = "info/icon/tip"
+
+	pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot3.Find(slot4, slot5))
+
+	for slot4, slot5 in pairs(slot0.cardItems) do
+		pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot4.transform:Find("content/pick_up"))
+	end
+
+	slot0:UnOverlayPanel(slot0._blurPanel, slot0._tf)
 	slot0._trophyDetailPanel:Dispose()
 end
 

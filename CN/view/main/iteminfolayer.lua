@@ -307,15 +307,7 @@ slot0.setItem = function(slot0, slot1)
 		slot0:setItemInfo(slot1, slot0.operatePanel:Find("item"))
 		setActive(slot0.okBtn, true)
 	elseif slot3 == Item.LOVE_LETTER_TYPE then
-		setActive(slot0.loveRepairBtn, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER) and not slot4:isEnd() and slot4.data1 > 0 and slot0.itemVO.extra == 31201)
-		onButton(slot0, slot0.loveRepairBtn, function ()
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("loveletter_exchange_confirm"),
-				onYes = function ()
-					uv0:emit(ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM, uv1.id)
-				end
-			})
-		end, SFX_PANEL)
+		setActive(slot0.loveRepairBtn, false)
 		setActive(slot0.okBtn, true)
 	elseif slot3 == Item.METALESSON_TYPE then
 		setActive(slot0.metaskillBtn, true)

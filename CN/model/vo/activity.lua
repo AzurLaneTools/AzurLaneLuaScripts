@@ -35,7 +35,8 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_NOT_TRACEABLE] = NotTraceableTaskActivity,
 		[ActivityConst.ACTIVITY_TYPE_HOLIDAY_VILLA] = VirtualBagActivity,
 		[ActivityConst.ACTIVITY_TYPE_CITY_REBUILD] = VirtualBagActivity,
-		[ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD] = DrawAwardActivity
+		[ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD] = DrawAwardActivity,
+		[ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_UP] = LoveLetterActivity
 	}
 
 	return uv0
@@ -713,6 +714,9 @@ slot0.readyToAchieve = function(slot0)
 			end) then
 				return true
 			end
+		end,
+		[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = function (slot0)
+			return slot0:CanGetAward()
 		end
 	}
 
@@ -727,32 +731,32 @@ end
 
 slot0.IsShowTipById = function(slot0)
 	uv0.ShowTipTableById = uv0.ShowTipTableById or {
-		[ActivityConst.ACTIVITY_ID_US_SKIRMISH_RE] = function ()
-			slot0 = getProxy(SkirmishProxy)
+		[ActivityConst.ACTIVITY_ID_US_SKIRMISH_RE] = function (slot0)
+			slot1 = getProxy(SkirmishProxy)
 
-			slot0:UpdateSkirmishProgress()
+			slot1:UpdateSkirmishProgress()
 
-			slot2 = 0
 			slot3 = 0
+			slot4 = 0
 
-			for slot7, slot8 in ipairs(slot0:getRawData()) do
-				if SkirmishVO.StateInactive < slot8:GetState() then
-					slot2 = slot2 + 1
+			for slot8, slot9 in ipairs(slot1:getRawData()) do
+				if SkirmishVO.StateInactive < slot9:GetState() then
+					slot3 = slot3 + 1
 				end
 
-				if slot9 == SkirmishVO.StateClear then
-					slot3 = slot3 + 1
+				if slot10 == SkirmishVO.StateClear then
+					slot4 = slot4 + 1
 				end
 			end
 
-			return slot3 < slot2
+			return slot4 < slot3
 		end,
-		[ActivityConst.POCKY_SKIN_LOGIN] = function ()
-			slot0 = uv0:getConfig("config_client").linkids
-			slot1 = getProxy(TaskProxy)
-			slot2 = getProxy(ActivityProxy)
+		[ActivityConst.POCKY_SKIN_LOGIN] = function (slot0)
+			slot1 = slot0:getConfig("config_client").linkids
+			slot2 = getProxy(TaskProxy)
+			slot3 = getProxy(ActivityProxy)
 
-			assert(slot2:getActivityById(slot0[1]) and slot2:getActivityById(slot0[2]) and slot2:getActivityById(slot0[3]))
+			assert(slot3:getActivityById(slot1[1]) and slot3:getActivityById(slot1[2]) and slot3:getActivityById(slot1[3]))
 
 			return (function ()
 				slot4 = uv1.data3
@@ -776,10 +780,10 @@ slot0.IsShowTipById = function(slot0)
 				return slot1.level >= #slot1.targets
 			end)()
 		end,
-		[ActivityConst.TOWERCLIMBING_SIGN] = function ()
-			slot1 = getProxy(MiniGameProxy):GetHubByHubId(9)
+		[ActivityConst.TOWERCLIMBING_SIGN] = function (slot0)
+			slot2 = getProxy(MiniGameProxy):GetHubByHubId(9)
 
-			return slot1.ultimate == 0 and slot1:getConfig("reward_need") <= slot1.usedtime
+			return slot2.ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime
 		end,
 		[pg.activity_const.NEWYEAR_SNACK_PAGE_ID.act_id] = NewYearSnackPage.IsTip,
 		[ActivityConst.WWF_TASK_ID] = WWFPtPage.IsShowRed,
@@ -791,7 +795,7 @@ slot0.IsShowTipById = function(slot0)
 		[ActivityConst.ISLAND_SIGN_ID] = IslandSignPage.IsShowRed,
 		[ActivityConst.GOASTSTORYACTIVITY_ID] = GhostSkinPageLayer.IsShowRed,
 		[ActivityConst.YUMIA_BASE_ACT_ID] = YoumiyaStrongholdLayer.ShouldShowTip,
-		[ActivityConst.NINJA_CITY_MAIN_ACTIVITY_ID] = function ()
+		[ActivityConst.NINJA_CITY_MAIN_ACTIVITY_ID] = function (slot0)
 			if CityRebuildBookLayer.ShouldShowTip() or CityRebuildTasksLayer.ShouldShowTip() then
 				return true
 			end
@@ -799,13 +803,18 @@ slot0.IsShowTipById = function(slot0)
 			return false
 		end,
 		[ActivityConst.SAILING_SHIP_3_SKIN_ACT_ID] = SailingShip3SkinLayer.ShouldShowTip,
-		[ActivityConst.HelenaPT_ACT_ID] = function ()
-			return HelenaScenarioPage:IsShowRed(getProxy(ActivityProxy):getActivityById(ActivityConst.HelenaPT_ACT_ID))
+		[ActivityConst.HelenaPT_ACT_ID] = function (slot0)
+			return HelenaScenarioPage:IsShowRed(slot0)
+		end,
+		[ActivityConst.LOVE_LETTER_LOGIN_ID] = function (slot0)
+			slot2 = slot0:getConfig("config_data")[slot0:getNDay()] and getProxy(TaskProxy):getTaskVO(slot1) or nil
+
+			return slot2 and slot2:getTaskStatus() == 1
 		end
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
 
-	return tobool(slot1), slot1 and slot1()
+	return tobool(slot1), slot1 and slot1(slot0)
 end
 
 slot0.isShow = function(slot0)

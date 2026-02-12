@@ -1960,20 +1960,36 @@ pg.voice_actor_CN = {
 		actor_name = "深川芹亚 ",
 		code = 490
 	},
-	[493] = {
+	{
+		actor_name = "萧清源 ",
+		code = 491
+	},
+	{
+		actor_name = "曾彤 ",
+		code = 492
+	},
+	{
 		actor_name = "梅泽惠",
 		code = 493
 	},
-	[494] = {
+	{
 		actor_name = "东内麻里子",
 		code = 494
 	},
-	[495] = {
+	{
 		actor_name = "松永茜",
 		code = 495
 	},
-	[496] = {
+	{
 		actor_name = "永牟田萌",
 		code = 496
+	},
+	{
+		actor_name = "奈波果林",
+		code = 497
+	},
+	{
+		actor_name = "熊谷海丽",
+		code = 498
 	}
 }

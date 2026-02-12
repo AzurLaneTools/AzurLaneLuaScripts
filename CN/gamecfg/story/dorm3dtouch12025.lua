@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit1_tone4/drom3d_Taiho_ik_gfit1_tone4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这样可不行哦……大凤会忍耐不住的……",
+			say = "这样可不行哦……{namecode:97}会忍耐不住的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -3150,14 +3150,14 @@ _G.pg.base.gametip.coloring_help_tip = {
 6.完成上色可以获得奖励。
 7.各图完成奖励明细如下：
 	完成图1获得T3随机教材 x2；
-	完成图2获得红包 x2；
-	完成图3获得玉竹泡泡机*1；
-	完成图4获得红包 x2；
-	完成图5获得玉竹泡泡机*1；
-	完成图6获得红包 x2；
-	完成图7获得鞍山 x1、 红包 x1。
+	完成图2获得红包 x1；
+	完成图3获得应瑞 x1；
+	完成图4获得红包 x1；
+	完成图5获得红包 x2；
+	完成图6获得红包 x1；
+	完成图7获得肇和 x1、 红包 x2。
 8.活动结束后，未消耗的颜料会被清除。
-9.<color=#92fc63>1月22日</color>为止每天解锁一个可完成的绘图。]]
+9.<color=#92fc63>2月18日</color>为止每天解锁一个可完成的绘图。]]
 		}
 	}
 }
@@ -12510,12 +12510,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "怨仇、皇家橡树 建造追加！"
+	tip = "建武 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "斯库拉 建造追加！"
+	tip = "海容、长风 建造追加！"
 }
 
 
@@ -12692,6 +12692,11 @@ _G.pg.base.gametip.tec_catchup_5 = {
 
 _G.pg.base.gametip.tec_catchup_6 = {
 	tip = "六期"
+}
+
+
+_G.pg.base.gametip.tec_catchup_7 = {
+	tip = "七期"
 }
 
 
@@ -13618,7 +13623,7 @@ _G.pg.base.gametip.world_boss_help = {
 8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中获得过「贡献值」的玩家可以获得相应奖励
 9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如果活动结束时耐久未被耗尽，则会根据据点推进进度，为在演习中获得过「贡献值」的玩家发放对应进度的奖励
 10.活动期间，可以领取个人贡献奖励，个人贡献奖励需要当据点攻略进度和拥有的「贡献值」达到指定要求后才能领取
-11.1月16日维护后-2月6日维护前可以参与演习战斗，奖励领取的截止时间为2月12日24时]]
+11.2月12日维护后-2月26日维护前可以参与演习战斗，奖励领取的截止时间为3月4日24时]]
 		},
 		{
 			info = [[
@@ -34379,7 +34384,7 @@ _G.pg.base.gametip.adventure_record_grade_title = {
 
 
 _G.pg.base.gametip.adventure_award_end_tip = {
-	tip = "※领取时间截止至2.18 24时"
+	tip = "※领取时间截止至4.17 24时"
 }
 
 
@@ -37669,7 +37674,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至2月11日24时；]]
+ ※ 奖励领取界面将延长至3月4日24时；]]
 		}
 	}
 }
@@ -46516,6 +46521,92 @@ _G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
 }
 
 
+_G.pg.base.gametip.pac_game_high_score_tip = {
+	tip = "最佳成绩：$1"
+}
+
+
+_G.pg.base.gametip.pac_game_rule_btn = {
+	tip = "游戏规则"
+}
+
+
+_G.pg.base.gametip.pac_game_start_btn = {
+	tip = "开始游戏"
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_time_desc = {
+	tip = "用时："
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_score = {
+	tip = "得分："
+}
+
+
+_G.pg.base.gametip.mini_game_continue = {
+	tip = "继续"
+}
+
+
+_G.pg.base.gametip.mini_game_over_game = {
+	tip = "结束游戏"
+}
+
+
+_G.pg.base.gametip.pac_minigame_help = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.<color=#92fc63>2月26日</color>为止每日0点开放<color=#92fc63>1</color>回新游戏，总计<color=#92fc63>7</color>回，可累计。完成7回游戏可以获得包括飞云在内的丰富奖励。
+游戏规则：
+1.每局游戏不限时间，被鞍山、长风、彰武、海筹抓住后游戏结束
+2.吃到金豆获得积分
+3.吃到糖葫芦获得飞奔效果，被飞云碰到的角色将返回起点
+4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_1 = {
+	tip = "春宴怀玉香满庭 "
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_2 = {
+	tip = "伏波的完美计划"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_3 = {
+	tip = "啾啾大酒楼"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_4 = {
+	tip = "新岁祝福"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_5 = {
+	tip = "新春烟花会"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_6 = {
+	tip = "飞云大冒险"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_7 = {
+	tip = "港区时尚特刊"
+}
+
+
 _G.pg.base.gametip.island_post_event_label = {
 	tip = "经营事件"
 }
@@ -46666,6 +46757,11 @@ _G.pg.base.gametip.island_trade_reset_label = {
 }
 
 
+_G.pg.base.gametip.island_trade_help = {
+	tip = "大头菜帮助"
+}
+
+
 _G.pg.base.gametip.island_trade_help_1 = {
 	tip = {
 		{
@@ -46772,6 +46868,124 @@ _G.pg.base.gametip.island_bar_quick_game = {
 }
 
 
+_G.pg.base.gametip.loveactivity_ui_1 = {
+	tip = "出击可获得甜蜜回忆"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_2 = {
+	tip = "每日签到"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_3 = {
+	tip = "心跳回廊"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4 = {
+	tip = "是否给予$1额外甜蜜回忆"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_5 = {
+	tip = "珍藏回忆 "
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_6 = {
+	tip = "激活 "
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_7 = {
+	tip = "※用于回忆的情人节礼物不会被消耗"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_8 = {
+	tip = "回忆 "
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_9 = {
+	tip = "$1年情人节礼物"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_10 = {
+	tip = "累计幸福共鸣等级"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_11 = {
+	tip = "确定选择$1作为心动邀约角色？"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_12 = {
+	tip = "※活动中可随时更换邀约对象（剩余$1/$2）"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_13 = {
+	tip = "新的情人节信件已解锁"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_14 = {
+	tip = "$1幸福共鸣勋章"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_15 = {
+	tip = "已滑动至最顶端"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_16 = {
+	tip = "暂无奖励可领取"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_17 = {
+	tip = "礼物激活成功 "
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_18 = {
+	tip = "当前角色已被选择"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_19 = {
+	tip = "具有礼物尚未被选择"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_20 = {
+	tip = "累计幸福共鸣等级奖励"
+}
+
+
+_G.pg.base.gametip.help_chunjie_jiulou_2026 = {
+	tip = {
+		{
+			info = [[
+活动说明：
+1.活动期间可以通过<color=#92fc63>「飞云大冒险」</color>、<color=#92fc63>「绘图日记」</color>、<color=#92fc63>「伏波的完美计划」</color>、<color=#92fc63>「新春烟花会」</color>获得红包，开启红包可以获得钻石及其他丰厚奖励
+2.红包分为bonus和普通红包，其中有<color=#92fc63>15</color>个bonus红包，其余为普通红包，开启红包时优先开启bonus红包，bonus红包开完后开启普通红包
+3.累计打开<color=#92fc63>15</color>个红包，可获得<color=#92fc63>「抚顺」限定换装</color>，累计打开<color=#92fc63>25</color>个红包，可获得<color=#92fc63>「长岛」限定换装</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.island_trade_cnt_inadequate = {
 	tip = "数量不足"
+}
+
+
+_G.pg.base.gametip.drawdiary_ui_2026 = {
+	tip = "绘图日记"
 }

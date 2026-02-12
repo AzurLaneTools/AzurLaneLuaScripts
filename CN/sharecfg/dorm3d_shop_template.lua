@@ -36,7 +36,11 @@ pg.dorm3d_shop_template = setmetatable({
 		32,
 		33,
 		34,
-		35
+		35,
+		36,
+		37,
+		38,
+		39
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -618,7 +622,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1221,
 		id = 27,
 		realroom_id = 0,
-		order = "7",
+		order = "8",
 		panel = {
 			1,
 			2,
@@ -641,7 +645,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 3070701,
 		id = 28,
 		realroom_id = 0,
-		order = "7",
+		order = "8",
 		panel = {
 			2,
 			3,
@@ -663,7 +667,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 16,
 		id = 29,
 		realroom_id = 0,
-		order = "6",
+		order = "7",
 		panel = {
 			2
 		},
@@ -683,7 +687,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1153,
 		id = 30,
 		realroom_id = 0,
-		order = "6",
+		order = "7",
 		panel = {
 			1,
 			2,
@@ -706,7 +710,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1222,
 		id = 31,
 		realroom_id = 0,
-		order = "1",
+		order = "7",
 		panel = {
 			1,
 			2,
@@ -729,7 +733,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 2022003,
 		id = 32,
 		realroom_id = 0,
-		order = "3",
+		order = "8",
 		panel = {
 			2,
 			3,
@@ -751,7 +755,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1461,
 		id = 33,
 		realroom_id = 0,
-		order = "3",
+		order = "6",
 		panel = {
 			1,
 			2,
@@ -774,7 +778,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 4990501,
 		id = 34,
 		realroom_id = 0,
-		order = "3",
+		order = "6",
 		panel = {
 			2,
 			3,
@@ -796,7 +800,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 16,
 		id = 35,
 		realroom_id = 0,
-		order = "3",
+		order = "6",
 		panel = {
 			2
 		},
@@ -805,6 +809,95 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_cafe3"
+		}
+	},
+	{
+		rarity = 4,
+		name = "天狼星咖啡馆邀请函",
+		type = 3,
+		room_id = 20220,
+		unlock = "",
+		item_id = 16,
+		id = 36,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			2
+		},
+		shop_id = {
+			270116
+		},
+		banners = {
+			"banner_cafe4"
+		}
+	},
+	{
+		rarity = 4,
+		name = "智能冰箱IB-7",
+		type = 1,
+		room_id = 10517,
+		unlock = "",
+		item_id = 1154,
+		id = 37,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270206
+		},
+		banners = {
+			"banner_furniture1154"
+		}
+	},
+	{
+		rarity = 4,
+		name = "绯樱雅席",
+		type = 1,
+		room_id = 30707,
+		unlock = "",
+		item_id = 1223,
+		id = 38,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270503
+		},
+		banners = {
+			"banner_furniture1223"
+		}
+	},
+	{
+		rarity = 4,
+		name = "童心乐园 ",
+		type = 1,
+		room_id = 19903,
+		unlock = "",
+		item_id = 324,
+		id = 39,
+		realroom_id = 0,
+		order = "2",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270304
+		},
+		banners = {
+			"banner_furniture324"
 		}
 	}
 }

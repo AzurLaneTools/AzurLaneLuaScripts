@@ -81,9 +81,9 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "theme-china-zhangwu",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "theme-china-zhangwu"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -1851,9 +1851,9 @@ pg.voice_bgm = {
 		bgm = "story-newsakura"
 	},
 	NavalAcademyScene = {
-		default_bgm = "main",
+		default_bgm = "theme-china-zhangwu",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "theme-china-zhangwu"
 	},
 	SkinMagazinePage7 = {
 		default_bgm = "story-richang-partynight",
@@ -2724,6 +2724,61 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-fashion-pv",
 		special_bgm = "",
 		bgm = "story-richang-fashion-pv"
+	},
+	SpringFestival2026MainPage = {
+		default_bgm = "story-zhangwu-china",
+		special_bgm = "",
+		bgm = "story-zhangwu-china"
+	},
+	SpringFestival2026FuboLoginPage = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
+	},
+	SpringFestival2026SkinMagazinePage = {
+		default_bgm = "story-zhangwu-china",
+		special_bgm = "",
+		bgm = "story-zhangwu-china"
+	},
+	SpringFestival2026RedPacketPage = {
+		default_bgm = "main-chunjie2",
+		special_bgm = "",
+		bgm = "main-chunjie2"
+	},
+	SpringFestival2026FireworkAndSpringPage = {
+		default_bgm = "main-chunjie4-2",
+		special_bgm = "",
+		bgm = "main-chunjie4-2"
+	},
+	SpringFestival2026NewYearWishesPtPage = {
+		default_bgm = "main-chunjie",
+		special_bgm = "",
+		bgm = "main-chunjie"
+	},
+	SpringFestival2026PacGamePage = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
+	},
+	DonghuangMedalAlbumView = {
+		default_bgm = "theme-china-zhangwu",
+		special_bgm = "",
+		bgm = "theme-china-zhangwu"
+	},
+	ActivityBossZhangwuUI = {
+		default_bgm = "story-zhangwu-china",
+		special_bgm = "",
+		bgm = "story-zhangwu-china"
+	},
+	SpringFestival2026ColoringAnshanscene = {
+		default_bgm = "story-china",
+		special_bgm = "",
+		bgm = "story-china"
+	},
+	LoveLetterActivityScene = {
+		default_bgm = "story-richang-rosy-short",
+		special_bgm = "",
+		bgm = "story-richang-rosy-short"
 	},
 	LightLoginTemplatePage = {
 		default_bgm = "theme-fushun-adventure",

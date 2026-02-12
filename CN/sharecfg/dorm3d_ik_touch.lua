@@ -178,6 +178,58 @@ pg.dorm3d_ik_touch = {
 			0
 		}
 	},
+	[3004000] = {
+		ik_move = "",
+		char_id = 19903,
+		body = "Back",
+		action_emote = "",
+		id = 3004000,
+		scene_item = "",
+		vibrate = "",
+		tip_offset = {
+			0,
+			0
+		}
+	},
+	[3004001] = {
+		ik_move = "",
+		char_id = 19903,
+		body = "",
+		action_emote = "",
+		id = 3004001,
+		scene_item = "FurnitureSlots/130103/pre_db_aklq_sp_vd01(Clone)/pre_db_aklq_decoration01/all/xiong",
+		vibrate = "",
+		tip_offset = {
+			0,
+			0
+		}
+	},
+	[4000001] = {
+		ik_move = "",
+		char_id = 10517,
+		body = "",
+		action_emote = "",
+		id = 4000001,
+		scene_item = "FurnitureSlots/1110204/pre_db_njh_kitchen01(Clone)/pre_db_njh_refrigerator01/all/fbx_db_food03",
+		vibrate = "",
+		tip_offset = {
+			0,
+			0
+		}
+	},
+	[4000002] = {
+		ik_move = "",
+		char_id = 10517,
+		body = "",
+		action_emote = "",
+		id = 4000002,
+		scene_item = "FurnitureSlots/1110204/pre_db_njh_kitchen01(Clone)/pre_db_njh_refrigerator01/all/BX/BX_men",
+		vibrate = "",
+		tip_offset = {
+			-100,
+			0
+		}
+	},
 	[5004001] = {
 		ik_move = "",
 		char_id = 30707,
@@ -249,6 +301,19 @@ pg.dorm3d_ik_touch = {
 			}
 		}
 	},
+	[5005004] = {
+		ik_move = "",
+		char_id = 30707,
+		body = "",
+		action_emote = "",
+		id = 5005004,
+		scene_item = "FurnitureSlots/1120303/pre_db_df_livingroom_01(Clone)/all/ZZ/1/fbx_db_df_food01",
+		vibrate = "",
+		tip_offset = {
+			0,
+			0
+		}
+	},
 	[6004001] = {
 		ik_move = "",
 		char_id = 49905,
@@ -288,11 +353,16 @@ pg.dorm3d_ik_touch = {
 		3003322,
 		3003323,
 		3003324,
+		3004000,
+		3004001,
+		4000001,
+		4000002,
 		5004001,
 		5004002,
 		5005001,
 		5005002,
 		5005003,
+		5005004,
 		6004001,
 		6004002
 	}

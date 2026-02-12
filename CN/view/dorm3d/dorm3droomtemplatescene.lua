@@ -132,8 +132,7 @@ slot0.init = function(slot0)
 
 	if slot0.room:isPersonalRoom() then
 		slot1 = slot0.contextData.groupIds[1]
-		slot2 = getProxy(ApartmentProxy):getApartment(slot1)
-		slot3 = slot2:GetCurSkinId()
+		slot3 = getProxy(ApartmentProxy):getApartment(slot1):GetCurSkinId()
 		slot4 = slot0.ladyDict[slot1]
 
 		setActive(slot4.ladyGameObject, false)
@@ -142,7 +141,6 @@ slot0.init = function(slot0)
 		slot4.ladyGameObject = slot0.skinDict[slot3].ladyGameObject
 
 		setActive(slot4.ladyGameObject, true)
-		slot4:HideCharacterPart(slot3, slot2:GetHiddenParts(slot3))
 	end
 
 	for slot4, slot5 in pairs(slot0.ladyDict) do
@@ -853,6 +851,7 @@ end
 
 slot0.InitCharacter = function(slot0, slot1, slot2)
 	slot1:InitCharacter(slot2)
+	Dorm3dHxHelper.HideCharacterPart(slot1.lady)
 	slot0:HXCharacter(slot1.lady)
 	slot1:SetZone(slot0.contextData.ladyZone[slot2])
 	slot0:ChangeCharacterPosition(slot1)
@@ -3373,7 +3372,10 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3, slot4)
 		isCache = slot2,
 		waitForTimeline = slot3,
 		loadSceneFunc = function (slot0, slot1)
-			uv0:HXCharacter(Dorm3dHxHelper.GetTimelineMainCharacter())
+			slot2 = Dorm3dHxHelper.GetTimelineMainCharacter()
+
+			Dorm3dHxHelper.HideCharacterPart(slot2)
+			uv0:HXCharacter(slot2)
 		end
 	}, slot4)
 end

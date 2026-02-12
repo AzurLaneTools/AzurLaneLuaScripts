@@ -624,7 +624,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -673,7 +673,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -699,7 +699,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -725,7 +725,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -751,7 +751,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -779,7 +779,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -805,7 +805,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -859,7 +859,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -911,7 +911,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -937,7 +937,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -965,7 +965,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季I-累积PT",
 				{}
 			}
 		}
@@ -2187,7 +2187,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季II-累积PT",
 				{}
 			}
 		}
@@ -2213,7 +2213,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季II-累积PT",
 				{}
 			}
 		}
@@ -2239,7 +2239,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季II-累积PT",
 				{}
 			}
 		}
@@ -2265,7 +2265,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季II-累积PT",
 				{}
 			}
 		}
@@ -2291,7 +2291,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"累计PT",
+				"开发季II-累积PT",
 				{}
 			}
 		}

@@ -46,10 +46,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50371
+			50408
 		},
 		param = {
-			"OTHERWORLD_MAP"
+			"act boss battle"
 		}
 	},
 	[11] = {
@@ -62,6 +62,22 @@ pg.activity_link_button = {
 		id = 11,
 		group_id = 3,
 		order = 1
+	},
+	[12] = {
+		name = "event_sub_act",
+		text_pic = "text_event_map_sub",
+		type = 2,
+		pic = "event_map_sub",
+		id = 12,
+		group_id = 3,
+		order = 1,
+		time = {
+			"default",
+			50400
+		},
+		param = {
+			"love letter activity"
+		}
 	},
 	[20] = {
 		name = "event_minigame",
@@ -321,7 +337,7 @@ pg.activity_link_button = {
 		}
 	},
 	[110] = {
-		param = "HelenaCoreActivityUI",
+		param = "SpringFestival2026CoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core2",
 		type = 16,
@@ -331,7 +347,7 @@ pg.activity_link_button = {
 		order = 2,
 		time = {
 			"default",
-			50288
+			50404
 		}
 	},
 	[111] = {
@@ -401,6 +417,9 @@ pg.activity_link_button = {
 		},
 		event_map_sub = {
 			11
+		},
+		event_sub_act = {
+			12
 		},
 		event_minigame = {
 			20,
@@ -472,6 +491,7 @@ pg.activity_link_button = {
 		9,
 		10,
 		11,
+		12,
 		20,
 		21,
 		30,

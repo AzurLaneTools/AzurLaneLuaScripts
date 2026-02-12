@@ -13,7 +13,7 @@ pg.shop_banner_template = {
 				{
 					2026,
 					2,
-					5
+					12
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.shop_banner_template = {
 				{
 					2026,
 					2,
-					11
+					15
 				},
 				{
 					23,
@@ -50,9 +50,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					2,
+					23
 				},
 				{
 					0,
@@ -62,9 +62,9 @@ pg.shop_banner_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					31
+					2026,
+					2,
+					25
 				},
 				{
 					23,
@@ -90,20 +90,20 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					3
+					2,
+					12
 				},
 				{
-					23,
-					59,
-					59
+					0,
+					0,
+					0
 				}
 			},
 			{
 				{
 					2026,
-					1,
-					5
+					2,
+					15
 				},
 				{
 					23,
@@ -180,9 +180,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -193,8 +193,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					3,
+					4
 				},
 				{
 					23,
@@ -211,7 +211,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9007
+			9011
 		}
 	},
 	[21] = {
@@ -224,9 +224,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -237,8 +237,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					3,
+					4
 				},
 				{
 					23,
@@ -255,7 +255,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9008
+			9012
 		}
 	},
 	[22] = {

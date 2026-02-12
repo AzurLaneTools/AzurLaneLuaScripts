@@ -123,4 +123,48 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = nil
+	slot4 = ys.Battle.BattleResourceManager.GetInstance()
+	slot5 = getProxy(FleetProxy)
+	slot6 = getProxy(BayProxy)
+	slot8 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
+	slot10 = slot8:GetFleetIds()
+	slot11 = slot10[slot8:GetStaegLevel() + 1]
+	slot12 = slot10[#slot10]
+
+	if slot8:GetMode() == BossRushSeriesData.MODE.SINGLE then
+		slot11 = slot10[1]
+	end
+
+	slot14 = slot5:getActivityFleets()[slot0.actId]
+	slot16 = slot14[slot12]
+
+	if slot14[slot11] then
+		for slot21, slot22 in ipairs(slot15:GetRawShipIds()) do
+			table.insert(slot1, slot6:getShipById(slot22))
+		end
+
+		slot2 = slot15:buildBattleBuffList()
+	end
+
+	if slot16 then
+		for slot21, slot22 in ipairs(slot16:GetRawShipIds()) do
+			table.insert(slot1, slot6:getShipById(slot22))
+		end
+
+		for slot21, slot22 in ipairs(slot16:buildBattleBuffList()) do
+			table.insert(slot2, slot22)
+		end
+	end
+
+	slot17, slot18 = slot4.GetPlayerShipResource(slot1, slot0.system)
+
+	for slot22, slot23 in ipairs(slot4.GetCommanderBuffRes(slot2)) do
+		table.insert(slot17, slot23)
+	end
+end
+
 return slot0

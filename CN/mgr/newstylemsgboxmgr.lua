@@ -10,6 +10,7 @@ slot1.TYPE_COMMON_DROP = 6
 slot1.TYPE_COMMON_ITEMS = 7
 slot1.TYPE_SHIP_PREVIEW = 8
 slot1.TYPE_COMMON_SHOPPING = 9
+slot1.TYPE_LOVE_LETTER_LEVEL_REWARD = 10
 slot1.UI_NAME_DIC = {
 	[slot1.TYPE_MSGBOX] = "DormStyleMsgboxUI",
 	[slot1.TYPE_DROP] = "DormStyleDropMsgboxUI",
@@ -19,7 +20,8 @@ slot1.UI_NAME_DIC = {
 	[slot1.TYPE_COMMON_DROP] = "NewStyleDropMsgboxUI",
 	[slot1.TYPE_COMMON_ITEMS] = "NewStyleItemsMsgboxUI",
 	[slot1.TYPE_SHIP_PREVIEW] = "ShipPreviewUI",
-	[slot1.TYPE_COMMON_SHOPPING] = "NewStyleShoppingMsgboxUI"
+	[slot1.TYPE_COMMON_SHOPPING] = "NewStyleShoppingMsgboxUI",
+	[slot1.TYPE_LOVE_LETTER_LEVEL_REWARD] = "NewStyleLoveLetterRewardMsgboxUI"
 }
 slot1.BUTTON_TYPE = {
 	blue = "btn_confirm",
@@ -484,6 +486,54 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 			slot6:setAddNum(slot0.addNum or 1)
 			slot6:setMaxNum(slot0.maxNum or -1)
 			slot6:setDefaultNum(slot0.defaultNum or 1)
+		end,
+		[uv0.TYPE_LOVE_LETTER_LEVEL_REWARD] = function (slot0)
+			slot1 = getProxy(LoveLetterProxy)
+			slot2 = slot1:GetAllLevel()
+			slot4 = uv0.lover_reward.all
+			slot5 = slot1:GetAllLevelNextAwardIndex() or #uv0.lover_reward.all
+			slot4 = slot1:GetAllLevelRewardMarkDic()
+			slot5 = uv1._tf:Find("window/middle/view/content")
+
+			UIItemList.StaticAlign(slot5, slot5:Find("tpl"), math.max(#underscore.first(slot4, slot5), 3), function (slot0, slot1, slot2)
+				slot1 = slot1 + 1
+
+				if slot0 == UIItemList.EventUpdate then
+					slot3 = uv0[slot1]
+
+					setActive(slot2:Find("on"), slot3)
+					setActive(slot2:Find("empty"), not slot3)
+
+					if not slot3 then
+						return
+					end
+
+					slot4 = uv1.lover_reward[slot3]
+
+					setActive(slot2:Find("on"):Find("active_bg"), not uv2[slot3] and slot4.total_level <= uv3)
+					setActive(slot2:Find("lock"), uv3 < slot4.total_level)
+					setText(slot2:Find("mark/Text"), slot4.total_level)
+					UIItemList.StaticAlign(slot2:Find("awards"), slot2:Find("awards/tpl"), #underscore.map(slot4.show_reward, function (slot0)
+						return Drop.Create(slot0)
+					end), function (slot0, slot1, slot2)
+						slot1 = slot1 + 1
+
+						if uv0 == UIItemList.EventUpdate then
+							updateDrop(slot2:Find("mask/IconTpl"), uv1[slot1])
+							onButton(uv2, slot2, function ()
+								uv0:emit(BaseUI.ON_DROP, uv1)
+							end, SFX_PANEL)
+							setActive(slot2:Find("got"), uv3[uv4])
+						end
+					end)
+				end
+			end)
+
+			if slot1:GetAllLevelNextAwardIndex() then
+				scrollToIndex(slot5, slot6)
+			else
+				scrollToBottom(slot5)
+			end
 		end
 	}, nil, slot2)
 end
