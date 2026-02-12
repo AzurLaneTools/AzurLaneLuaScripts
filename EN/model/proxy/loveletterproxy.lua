@@ -149,10 +149,10 @@ slot0.CanRealizeGift = function(slot0)
 			assert(#slot2 >= #slot0.giftRecord)
 
 			return slot2
-		else
-			return nil
 		end
 	end
+
+	return nil
 end
 
 slot0.UpdateRealizeGift = function(slot0, slot1)
@@ -168,15 +168,25 @@ slot0.UpdateRealizeGift = function(slot0, slot1)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot0.giftRecord) do
-		slot11 = nil
-		slot13 = ipairs
-		slot14 = slot4[underscore.values(slot2[slot10.item_id .. "_" .. slot10.group_id])[1]] or {}
+		slot11, slot12 = nil
 
-		for slot16, slot17 in slot13(slot14) do
-			if slot17.item_id == slot10.item_id and slot17.year == slot10.year then
-				slot11 = slot16
+		if not slot2[slot10.item_id .. "_" .. slot10.group_id] then
+			slot11 = nil
+			slot12 = pg.lover_character_template[slot10.group_id] and slot10.group_id or underscore.detect(pg.lover_character_template.all, function (slot0)
+				return underscore.any(pg.lover_character_template[slot0].relate_group_id, function (slot0)
+					return uv0.group_id == slot0
+				end)
+			end)
+		else
+			slot13 = ipairs
+			slot14 = slot4[underscore.values(slot2[slot10.item_id .. "_" .. slot10.group_id])[1]] or {}
 
-				break
+			for slot16, slot17 in slot13(slot14) do
+				if slot17.item_id == slot10.item_id and slot17.year == slot10.year then
+					slot11 = slot16
+
+					break
+				end
 			end
 		end
 
@@ -189,26 +199,25 @@ slot0.UpdateRealizeGift = function(slot0, slot1)
 		end
 	end
 
-	for slot9, slot10 in pairs(slot4) do
-		assert(#slot10 >= #(slot5[slot9] or {}))
+	for slot9, slot10 in pairs(slot5) do
+		slot0.levelAll = slot0.levelAll - #slot10
 
-		slot11 = slot0:GetGroupData(slot9)
-		slot0.levelAll = slot0.levelAll - slot11:GetDisplayLevel()
+		slot0:GetGroupData(slot9):AddGiftExp(-(#slot10))
 
-		slot11:AddGiftExp(#slot10 - #(slot5[slot9] or {}))
-
-		slot0.levelAll = slot0.levelAll + slot11:GetDisplayLevel()
-		slot12 = ipairs
-		slot13 = slot5[slot9] or {}
-
-		for slot15, slot16 in slot12(slot13) do
+		for slot15, slot16 in ipairs(slot10) do
 			slot17 = slot3[slot9 .. "_" .. slot16.year]
 			slot11.unlockLetterDic[slot17] = slot11.unlockLetterDic[slot17] - 1
 		end
+	end
+
+	for slot9, slot10 in pairs(slot4) do
+		slot0.levelAll = slot0.levelAll + #slot10
+
+		slot0:GetGroupData(slot9):AddGiftExp(#slot10)
 
 		for slot15, slot16 in ipairs(slot10) do
-			slot18 = slot3[underscore.values(slot2[slot16.item_id .. "_" .. slot16.group_id])[1] .. "_" .. slot16.year]
-			slot11.unlockLetterDic[slot18] = defaultValue(slot11.unlockLetterDic[slot18], 0) + 1
+			slot17 = slot3[slot9 .. "_" .. slot16.year]
+			slot11.unlockLetterDic[slot17] = defaultValue(slot11.unlockLetterDic[slot17], 0) + 1
 		end
 	end
 
