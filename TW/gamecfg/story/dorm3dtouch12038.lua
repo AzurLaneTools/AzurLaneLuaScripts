@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_furniture2_tone3/drom3d_Taiho_ik_furniture2_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这份独占的时光……真想永远继续下去呢……",
+			say = "這份獨佔的時光……真想永遠繼續下去呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -267,6 +267,20 @@ slot0.GetAllLevelNextAwardIndex = function(slot0)
 	return nil
 end
 
+slot0.GetAllLevelAwardDisplayIndex = function(slot0)
+	slot1 = nil
+
+	for slot5, slot6 in ipairs(pg.lover_reward.all) do
+		slot1 = slot5
+
+		if slot0.levelAll < pg.lover_reward[slot6].total_level then
+			break
+		end
+	end
+
+	return slot1
+end
+
 slot0.GetAllLevelProgress = function(slot0)
 	if not slot0:GetAllLevelNextAwardIndex() then
 		return 0, 0

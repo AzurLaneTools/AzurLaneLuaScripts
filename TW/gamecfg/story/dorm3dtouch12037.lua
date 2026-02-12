@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_furniture3_tone5/drom3d_Taiho_ik_furniture3_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "要是能把这一刻永远保存下来就好了呢……就算用绳子绑住您也……",
+			say = "要是能把這一刻永遠保存下來就好了呢……就算用繩子綁住您也……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -33768,7 +33768,7 @@ _G.pg.base.shop_template[60750] = {
 			{
 				2026,
 				2,
-				25
+				18
 			},
 			{
 				23,
@@ -91028,7 +91028,7 @@ _G.pg.base.shop_template[71293] = {
 	first_icon = "",
 	desc = "购买皮肤:260212腓特烈大帝双面",
 	group_limit = 0,
-	resource_num = 1700,
+	resource_num = 1680,
 	first_text = "",
 	group_buy_count = 0,
 	tag = 2,

@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再醒過來，看到的就是指揮官妳們。",
+			say = "再醒過來，看到的就是指揮官你們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

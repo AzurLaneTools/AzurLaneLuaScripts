@@ -345,7 +345,7 @@ pg.activity_banner = {
 		}
 	},
 	[100] = {
-		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		type = 10,
 		id = 100,
 		pic = "dumpling",
@@ -365,8 +365,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					19
 				},
 				{
 					14,

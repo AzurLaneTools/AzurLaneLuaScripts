@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit1_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "和Honey在一起的每一刻都很珍贵……所以……///",
+			say = "和Honey在一起的每一刻都很珍貴……所以……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

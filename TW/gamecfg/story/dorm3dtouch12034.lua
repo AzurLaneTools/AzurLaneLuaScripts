@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_furniture3_tone1/drom3d_Taiho_ik_furniture3_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "真是的……{dorm3d}的手让{namecode:97}全身都燥热起来了呢……",
+			say = "真是的……{dorm3d}手讓大鳳全身都燥熱起來了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

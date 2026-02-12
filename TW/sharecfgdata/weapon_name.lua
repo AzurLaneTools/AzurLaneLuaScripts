@@ -925,7 +925,7 @@ _G.pg.base.weapon_name[50253] = {
 
 _G.pg.base.weapon_name[50260] = {
 	id = 50260,
-	name = "2 x 7.5mm机枪"
+	name = "2 x  7.5mm機槍"
 }
 
 

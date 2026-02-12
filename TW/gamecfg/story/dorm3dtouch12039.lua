@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit1_tone5/drom3d_Taiho_ik_gfit1_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "要是被别人看到{dorm3d}这么温柔的样子可不行呢……嘻嘻。",
+			say = "要是被別人看到{dorm3d}這麼溫柔的樣子可不行呢……嘻嘻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -630,7 +630,7 @@ pg.world_joint_boss_template = {
 		state = {
 			{
 				{
-					2025,
+					2026,
 					2,
 					12
 				},

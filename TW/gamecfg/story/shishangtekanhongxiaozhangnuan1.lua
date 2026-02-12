@@ -302,7 +302,7 @@ return {
 			actor = 503021,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "那不如，我來修剪，你幫我找需要下手的位置？",
+			say = "那不如，我來修剪，妳幫我找需要下手的位置？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

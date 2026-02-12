@@ -7,6 +7,8 @@ end
 slot0.optionsPath = {}
 
 slot0.init = function(slot0)
+	setText(slot0.btnCancel:Find("cancel"), i18n("text_cancel"))
+	setText(slot0.btnConfirm:Find("confirm"), i18n("text_confirm"))
 	onButton(slot0, slot0.btnCancel, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)

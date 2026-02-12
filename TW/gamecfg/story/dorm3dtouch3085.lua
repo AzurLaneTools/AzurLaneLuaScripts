@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_furniture3_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "外套，脱掉……方便点？",
+			say = "外套，脫掉……方便點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_furniture2_tone8/drom3d_Taiho_ik_furniture2_tone8",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "想要更多的话……{namecode:97}随时可以配合您哦~",
+			say = "想要更多的話……大鳳隨時可以配合您哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

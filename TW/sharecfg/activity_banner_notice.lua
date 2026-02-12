@@ -238,7 +238,7 @@ pg.activity_banner_notice = {
 		param = {
 			"scene core activity",
 			{
-				coreName = "SpringFestival2026MainPage"
+				coreName = "SpringFestival2026CoreActivityUI"
 			}
 		}
 	},

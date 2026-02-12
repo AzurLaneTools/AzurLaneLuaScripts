@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit1_tone6/drom3d_Taiho_ik_gfit1_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}……{namecode:97}还想要更多……",
+			say = "{dorm3d}……大鳳還想要更多……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

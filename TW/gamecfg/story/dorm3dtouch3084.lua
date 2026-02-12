@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_gift2_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "每天……都要这样……",
+			say = "每天……都要這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
