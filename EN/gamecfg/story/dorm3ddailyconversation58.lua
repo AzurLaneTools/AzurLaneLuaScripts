@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "您好，我骄傲的{dorm3d}。",
+			say = "Greetings, my honourable Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯？您似乎有些疲惫……请交给天狼星吧。",
+			say = "Hm? You look tired... Allow me to remedy this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我其实早就为您磨好了醒神的咖啡，就等您——",
+			say = "I've already brewed a pot of coffee to help refresh you. I was simply waiting for you to say the word...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊，您想先和我休息一下？",
+			say = "Eh? You want to rest with me for a moment first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "好的{dorm3d}，您还需要我为我们的休息……准备什么……都可以……",
+			say = "Understood, Master. Is there anything I can do to help make it more restful for you? Anything at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "请您吩咐，我骄傲的{dorm3d}！",
+			say = "I humbly await your orders, my honourable Master!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

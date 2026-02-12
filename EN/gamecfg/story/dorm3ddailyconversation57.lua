@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，要享用咖啡吗？我立刻为您准备。",
+			say = "My honourable Master, would you like coffee? I'll prepare a cup at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯，我记得储备的咖啡豆就放在……诶？！柜子里怎么是空的？",
+			say = "Hmm. My spare coffee beans were over here... Oh? The pantry is empty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "非常抱歉！咖啡豆已经用完了！",
+			say = "I'm so sorry! I must be out of coffee beans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……如、如果您不介意的话，这里还有罐装的……",
+			say = "Master... I-if it does not offend, may I offer you canned coffee...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我会仔细加热，绝不会让您品尝到一丝凉意！",
+			say = "I'll heat it carefully so that you don't have to suffer the cold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

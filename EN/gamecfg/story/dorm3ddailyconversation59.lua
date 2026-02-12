@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}想听什么样的音乐呢？",
+			say = "What music would you like to listen to, Master?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "古典乐或流行曲都有哦，唱片都是最新购入的。",
+			say = "I have everything from classical to top hits. All of my records are brand-new, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "奇怪……为什么没有声音？唔，偏偏在此时故障了么……",
+			say = "That's odd... Why isn't it making any sound? Oh, no... Malfunctioning now, of all times?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如、如果您不嫌弃……由天狼星来为您唱一曲如何？",
+			say = "I-if it would please you... I could sing you a song, perhaps?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？您要一起来？我、我会加油不拖后腿的，我骄傲的{dorm3d}！",
+			say = "Huh? You'd like to join me? I-I will do my best not to hold you back, my honourable Master!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

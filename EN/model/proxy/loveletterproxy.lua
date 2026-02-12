@@ -90,137 +90,125 @@ slot0.GetLoveLetterItemDic = function(slot0)
 		uv0.letterIdMap = {}
 
 		for slot4, slot5 in ipairs(pg.lover_letter_content.all) do
-			slot6 = pg.lover_letter_content[slot5]
-			slot10 = slot6.year
-			uv0.letterIdMap[slot6.ship_group .. "_" .. slot10] = slot5
+			if pg.lover_character_template[pg.lover_letter_content[slot5].ship_group] then
+				slot10 = slot6.year
+				uv0.letterIdMap[slot6.ship_group .. "_" .. slot10] = slot5
 
-			for slot10, slot11 in ipairs(slot6.love_item) do
-				for slot15, slot16 in ipairs({
-					0,
-					slot6.ship_group
-				}) do
-					uv0.letterItemDic[slot17] = uv0.letterItemDic[slot11 .. "_" .. slot16] or {}
-					uv0.letterItemDic[slot17][slot6.year] = slot6.ship_group
+				for slot10, slot11 in ipairs(slot6.love_item) do
+					slot16 = slot6.ship_group
+					slot15 = pg.lover_character_template[slot16].relate_group_id
+
+					for slot15, slot16 in ipairs(table.insertto({
+						slot6.ship_group
+					}, slot15)) do
+						for slot20, slot21 in ipairs({
+							0,
+							slot16
+						}) do
+							uv0.letterItemDic[slot22] = uv0.letterItemDic[slot11 .. "_" .. slot21] or {}
+							uv0.letterItemDic[slot22][slot6.year] = slot6.ship_group
+						end
+					end
 				end
-			end
-		end
-
-		uv0.groupChangeDic = {}
-
-		for slot4, slot5 in ipairs(pg.lover_character_template.all) do
-			for slot10, slot11 in ipairs(pg.lover_character_template[slot5].relate_group_id) do
-				uv0.groupChangeDic[slot11] = slot5
 			end
 		end
 	end
 
-	return uv0.letterItemDic, uv0.letterIdMap, uv0.groupChangeDic
+	return uv0.letterItemDic, uv0.letterIdMap
 end
 
 slot0.CanRealizeGift = function(slot0)
-	slot1 = getProxy(BagProxy):GetAllLoveLetterItem()
-	slot2, slot3, slot4 = slot0:GetLoveLetterItemDic()
-	slot5 = {}
+	slot1 = slot0:GetLoveLetterItemDic()
+	slot3 = {}
 
-	for slot9, slot10 in ipairs(slot0.giftRecord) do
-		slot11 = slot4[slot10.group_id] or slot10.group_id
-		slot5[slot11] = slot5[slot11] or {}
-
-		table.insert(slot5[slot11], slot10)
+	for slot7, slot8 in ipairs(getProxy(BagProxy):GetAllLoveLetterItem()) do
+		slot12, slot10 = unpack(slot8)
+		slot12 = slot9 .. "_" .. underscore.values(slot1[slot12 .. "_" .. (slot10 or 0)])[1]
+		slot3[slot12] = defaultValue(slot3[slot12], 0) + 1
 	end
 
-	for slot9, slot10 in pairs(slot5) do
-		if not underscore.any(slot1, function (slot0)
-			slot1, slot2 = unpack(slot0)
-			slot7 = "_"
-			slot8 = slot2 and uv0[slot2] or slot2 or 0
+	slot4 = false
 
-			for slot7, slot8 in pairs(uv1[slot1 .. slot7 .. slot8]) do
-				if slot8 == uv2 then
-					return true
-				end
-			end
+	for slot8, slot9 in ipairs(slot0.giftRecord) do
+		if not slot1[slot9.item_id .. "_" .. slot9.group_id] then
+			slot4 = true
 
-			return false
-		end) then
-			table.insertto(slot1, underscore.map(slot10, function (slot0)
-				if pg.item_data_statistics[slot0.item_id].type == Item.LOVE_LETTER_TYPE then
-					return {
-						slot0.item_id,
-						slot0.group_id
-					}
-				else
-					return {
-						slot0.item_id,
-						0
-					}
-				end
-			end))
+			break
 		end
+
+		slot11 = slot9.item_id .. "_" .. underscore.values(slot1[slot9.item_id .. "_" .. slot9.group_id])[1]
+		slot3[slot11] = defaultValue(slot3[slot11], 0) - 1
 	end
 
-	if #slot1 > #slot0.giftRecord then
-		return slot1
-	else
-		return false
+	if slot4 and #slot2 > 0 then
+		return slot2
+	end
+
+	for slot8, slot9 in pairs(slot3) do
+		if slot9 ~= 0 then
+			assert(#slot2 >= #slot0.giftRecord)
+
+			return slot2
+		else
+			return nil
+		end
 	end
 end
 
 slot0.UpdateRealizeGift = function(slot0, slot1)
-	slot2, slot3, slot4 = slot0:GetLoveLetterItemDic()
-	slot5 = {}
+	slot2, slot3 = slot0:GetLoveLetterItemDic()
+	slot4 = {}
 
-	for slot9, slot10 in ipairs(slot1) do
-		slot11 = slot4[slot10.group_id] or slot10.group_id
-		slot5[slot11] = slot5[slot11] or {}
+	for slot8, slot9 in ipairs(slot1) do
+		slot4[slot10] = slot4[underscore.values(slot2[slot9.item_id .. "_" .. slot9.group_id])[1]] or {}
 
-		table.insert(slot5[slot11], slot10)
+		table.insert(slot4[slot10], slot9)
 	end
 
-	slot6 = {}
+	slot5 = {}
 
-	for slot10, slot11 in ipairs(slot0.giftRecord) do
-		slot12 = nil
-		slot14 = ipairs
-		slot15 = slot5[slot4[slot11.group_id] or slot11.group_id] or {}
+	for slot9, slot10 in ipairs(slot0.giftRecord) do
+		slot11 = nil
+		slot13 = ipairs
+		slot14 = slot4[underscore.values(slot2[slot10.item_id .. "_" .. slot10.group_id])[1]] or {}
 
-		for slot17, slot18 in slot14(slot15) do
-			if slot18.item_id == slot11.item_id and slot18.year == slot11.year then
-				slot12 = slot17
+		for slot16, slot17 in slot13(slot14) do
+			if slot17.item_id == slot10.item_id and slot17.year == slot10.year then
+				slot11 = slot16
 
 				break
 			end
 		end
 
-		if slot12 then
-			table.remove(slot5[slot13], slot12)
+		if slot11 then
+			table.remove(slot4[slot12], slot11)
 		else
-			slot6[slot13] = slot6[slot13] or {}
+			slot5[slot12] = slot5[slot12] or {}
 
-			table.insert(slot6[slot13], slot11)
+			table.insert(slot5[slot12], slot10)
 		end
 	end
 
-	for slot10, slot11 in pairs(slot5) do
-		assert(#slot11 >= #(slot6[slot10] or {}))
+	for slot9, slot10 in pairs(slot4) do
+		assert(#slot10 >= #(slot5[slot9] or {}))
 
-		slot12 = slot0:GetGroupData(slot10)
-		slot0.levelAll = slot0.levelAll - slot12:GetDisplayLevel()
+		slot11 = slot0:GetGroupData(slot9)
+		slot0.levelAll = slot0.levelAll - slot11:GetDisplayLevel()
 
-		slot12:AddGiftExp(#slot11 - #(slot6[slot10] or {}))
+		slot11:AddGiftExp(#slot10 - #(slot5[slot9] or {}))
 
-		slot0.levelAll = slot0.levelAll + slot12:GetDisplayLevel()
-		slot13 = ipairs
-		slot14 = slot6[slot10] or {}
+		slot0.levelAll = slot0.levelAll + slot11:GetDisplayLevel()
+		slot12 = ipairs
+		slot13 = slot5[slot9] or {}
 
-		for slot16, slot17 in slot13(slot14) do
-			slot18 = slot3[slot10 .. "_" .. slot17.year]
-			slot12.unlockLetterDic[slot18] = slot12.unlockLetterDic[slot18] - 1
+		for slot15, slot16 in slot12(slot13) do
+			slot17 = slot3[slot9 .. "_" .. slot16.year]
+			slot11.unlockLetterDic[slot17] = slot11.unlockLetterDic[slot17] - 1
 		end
 
-		for slot16, slot17 in ipairs(slot11) do
-			slot19 = slot3[(slot4[slot17.group_id] or slot17.group_id) .. "_" .. slot17.year]
-			slot12.unlockLetterDic[slot19] = defaultValue(slot12.unlockLetterDic[slot19], 0) + 1
+		for slot15, slot16 in ipairs(slot10) do
+			slot18 = slot3[underscore.values(slot2[slot16.item_id .. "_" .. slot16.group_id])[1] .. "_" .. slot16.year]
+			slot11.unlockLetterDic[slot18] = defaultValue(slot11.unlockLetterDic[slot18], 0) + 1
 		end
 	end
 
@@ -382,11 +370,13 @@ end
 
 slot0.GetRecordGiftLetters = function(slot0, slot1)
 	slot2 = {}
-	slot3, slot4, slot5 = slot0:GetLoveLetterItemDic()
+	slot3, slot4 = slot0:GetLoveLetterItemDic()
 
-	for slot9, slot10 in ipairs(slot0.giftRecord) do
-		if (slot5[slot10.group_id] or slot10.group_id) == slot1 then
-			table.insert(slot2, slot4[slot1 .. "_" .. slot10.year])
+	for slot8, slot9 in ipairs(slot0.giftRecord) do
+		if not slot3[slot9.item_id .. "_" .. slot9.group_id] then
+			-- Nothing
+		elseif underscore.values(slot3[slot9.item_id .. "_" .. slot9.group_id])[1] == slot1 then
+			table.insert(slot2, slot4[slot1 .. "_" .. slot9.year])
 		end
 	end
 
