@@ -30,6 +30,19 @@ return {
 		end
 	},
 	{
+		banner = "ming_paint",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.COLORING
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return getProxy(ColoringProxy):CheckTodayTip()
+		end
+	},
+	{
 		banner = "limit_skin",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {

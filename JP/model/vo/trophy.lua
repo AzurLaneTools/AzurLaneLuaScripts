@@ -124,4 +124,8 @@ slot0.isLoverLetter = function(slot0)
 	return slot0.id > 1000000000
 end
 
+slot0.IsLoveLetterID = function(slot0)
+	return slot0 > 1000000000
+end
+
 return slot0

@@ -24,6 +24,12 @@ slot0.init = function(slot0)
 	slot2 = slot0.btnDailyConfirm
 
 	setText(slot2:Find("Text"), i18n("mail_box_confirm"))
+	onButton(slot0, findTF(slot0._tf, "adapt/TopPage/top/deco/btn_help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.loveactivity_help_tips.tip
+		})
+	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -46,7 +52,13 @@ slot0.init = function(slot0)
 		uv0:ShowDailyPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnDailyConfirm, function ()
-		uv0:emit(LoveLetterActivityMediator.ON_DAILY_LOGIN_REWARD, uv0.dailyActivity:getConfig("config_data")[uv0.dailyActivity:getNDay()])
+		for slot4 = 1, uv0.dailyActivity:getNDay() do
+			if (uv0.dailyActivity:getConfig("config_data")[slot4] and getProxy(TaskProxy):getTaskVO(slot5) or nil) and slot6:getTaskStatus() == 1 then
+				uv0:emit(LoveLetterActivityMediator.ON_DAILY_LOGIN_REWARD, slot5)
+
+				return
+			end
+		end
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnDailyClose, function ()
 		uv0:HideDailyPanel()
@@ -104,6 +116,8 @@ slot0.didEnter = function(slot0)
 				uv0:emit(LoveLetterActivityMediator.ON_REALIZE_GIFT)
 			end
 		end
+
+		checkFirstHelpShow("loveactivity_help_tips")
 	end)
 end
 
@@ -166,8 +180,21 @@ slot0.ShowDailyPanel = function(slot0)
 		setSlider(slot0.rtDailyNow:Find("Slider"), 0, slot2, slot1)
 	end
 
-	setText(slot0.rtDailyNow:Find("Text"), string.format(setColorStr("%d", "#CF90A8") .. "/%d", slot1, slot2))
-	setText(slot0.textDailyContent, i18n("loveactivity_ui_4", slot0.ll:GetName(), slot0.dailyActivity:GetConfigClientSetting("exp")))
+	slot8 = slot2
+
+	setText(slot0.rtDailyNow:Find("Text"), string.format(setColorStr("%d", "#CF90A8") .. "/%d", slot1, slot8))
+
+	slot4 = 1
+
+	for slot8 = 1, slot0.dailyActivity:getNDay() do
+		if (slot0.dailyActivity:getConfig("config_data")[slot8] and getProxy(TaskProxy):getTaskVO(slot9) or nil) and slot10:getTaskStatus() == 1 then
+			slot4 = slot8
+
+			break
+		end
+	end
+
+	setText(slot0.textDailyContent, i18n("loveactivity_ui_4_" .. slot4, slot0.ll:GetName(), slot0.dailyActivity:GetConfigClientSetting("exp")))
 	slot0:BlurPanel(slot0.rtDailyPanel)
 end
 

@@ -13,7 +13,8 @@ pg.dorm3d_resource = setmetatable({
 		},
 		[19903] = {
 			199031,
-			199032
+			199032,
+			199033
 		},
 		[10517] = {
 			105171,
@@ -36,6 +37,7 @@ pg.dorm3d_resource = setmetatable({
 		302212,
 		199031,
 		199032,
+		199033,
 		105171,
 		105173,
 		307071,
@@ -233,6 +235,29 @@ pg.base.dorm3d_resource = {
 			4,
 			19903
 		},
+		hidden_part = {}
+	},
+	[199033] = {
+		ship_group = 19903,
+		name = "アンカレッジ部屋着",
+		model_id = "ankeleiqi_stock",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 0,
+		unlock = "",
+		unlock_text = "",
+		picture = "regular",
+		type = 1,
+		origin_model = "pre_char_ankeleiqi_stock_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		animator = "",
+		wear_anim = "",
+		switch_anim = "",
+		id = 199033,
+		head_Icon = "dorm3Dchar/ankeleiqi",
+		tags = {},
 		hidden_part = {}
 	},
 	[105171] = {

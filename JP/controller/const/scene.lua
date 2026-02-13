@@ -461,8 +461,8 @@ slot0 = {
 		slot0.viewComponent = CommanderCatScene
 	end,
 	[SCENE.COLORING] = function (slot0, slot1)
-		slot0.mediator = ColoringMediator
-		slot0.viewComponent = ColoringScene
+		slot0.mediator = SpringFestival2026ColoringAnshanMediator
+		slot0.viewComponent = SpringFestival2026ColoringAnshanscene
 	end,
 	[SCENE.CARD_PAIRS] = function (slot0, slot1)
 		slot0.mediator = CardPairsMediator

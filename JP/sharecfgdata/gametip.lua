@@ -47276,6 +47276,21 @@ _G.pg.base.gametip.loveactivity_ui_4 = {
 }
 
 
+_G.pg.base.gametip.loveactivity_ui_4_1 = {
+	tip = "毎日報酬の<color=#3DC6FFFF>500</color>思い出Ptを<color=#3DC6FFFF>$1</color>に付与しますか? 付与後は<color=#FF5C5CFF>変更できません。ご注意ください。</color>"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4_2 = {
+	tip = "毎日報酬の<color=#3DC6FFFF>800</color>思い出Ptを<color=#3DC6FFFF>$1</color>に付与しますか? 付与後は<color=#FF5C5CFF>変更できません。ご注意ください。</color>"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4_3 = {
+	tip = "毎日報酬の<color=#3DC6FFFF>1500</color>思い出Ptを<color=#3DC6FFFF>$1</color>に付与しますか? 付与後は<color=#FF5C5CFF>変更できません。ご注意ください。</color>"
+}
+
+
 _G.pg.base.gametip.loveactivity_ui_5 = {
 	tip = "メッセージ解放"
 }
@@ -47379,4 +47394,49 @@ _G.pg.base.gametip.island_trade_cnt_inadequate = {
 
 _G.pg.base.gametip.drawdiary_ui_2026 = {
 	tip = "おえかき"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

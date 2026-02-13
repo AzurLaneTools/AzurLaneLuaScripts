@@ -104,30 +104,33 @@ end
 slot0.InitGift = function(slot0)
 	slot0.giftItemList = underscore.to_array(slot0.contextData.items)
 	slot0.giftGroupList = {}
-	slot1, slot2, slot3 = getProxy(LoveLetterProxy):GetLoveLetterItemDic()
-	slot4 = {}
+	slot1 = getProxy(LoveLetterProxy):GetLoveLetterItemDic()
+	slot2 = {}
 
-	for slot8, slot9 in ipairs(slot0.giftItemList) do
-		slot10, slot11 = unpack(slot9)
+	for slot6, slot7 in ipairs(slot0.giftItemList) do
+		slot8, slot9 = unpack(slot7)
 
-		assert(tobool(slot11) == (pg.item_data_statistics[slot10].type == Item.LOVE_LETTER_TYPE))
+		assert(tobool(slot9) == (pg.item_data_statistics[slot8].type == Item.LOVE_LETTER_TYPE))
 
-		slot16 = slot11 and slot3[slot11] or slot11 or 0
+		slot10 = pairs
+		slot11 = slot8
+		slot12 = "_"
+		slot13 = slot9 or 0
 
-		for slot16, slot17 in pairs(slot1[slot10 .. "_" .. slot16]) do
-			assert(not slot0.giftGroupList[slot8] or slot0.giftGroupList[slot8] == slot17)
+		for slot13, slot14 in slot10(slot1[slot11 .. slot12 .. slot13]) do
+			assert(not slot0.giftGroupList[slot6] or slot0.giftGroupList[slot6] == slot14)
 
-			slot0.giftGroupList[slot8] = slot17
-			slot4[slot16] = slot4[slot16] or {}
+			slot0.giftGroupList[slot6] = slot14
+			slot2[slot13] = slot2[slot13] or {}
 
-			table.insert(slot4[slot16], slot8)
+			table.insert(slot2[slot13], slot6)
 		end
 	end
 
 	slot0.itemDic = slot1
-	slot0.yearDic = slot4
+	slot0.yearDic = slot2
 	slot0.confirmDic = {}
-	slot0.heap = Heap.New(underscore.keys(slot4), function (slot0)
+	slot0.heap = Heap.New(underscore.keys(slot2), function (slot0)
 		return #uv0[slot0]
 	end)
 	slot0.tempList = underscore(slot0.yearDic):chain():keys():sort():value()
