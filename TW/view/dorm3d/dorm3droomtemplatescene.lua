@@ -2054,6 +2054,12 @@ end
 slot0.ExitIKStatus = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.enableIKTip = false
 
+	if slot0.ikSwitchSkinId then
+		slot1:SwitchCharacterSkin(slot0.apartment:GetConfigID(), slot0.ikSwitchSkinId)
+
+		slot0.ikSwitchSkinId = nil
+	end
+
 	setActive(slot1.ladyCollider, true)
 	_.each(slot1.ladyTouchColliders, function (slot0)
 		setActive(slot0, false)

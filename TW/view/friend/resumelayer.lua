@@ -139,7 +139,16 @@ slot0.display = function(slot0, slot1)
 
 		if slot12 <= #slot1.displayTrophyList then
 			setActive(slot13:Find("icon"), true)
-			LoadImageSpriteAsync("medal/" .. pg.medal_template[slot1.displayTrophyList[slot12]].icon, slot13:Find("icon"), true)
+
+			if Trophy.IsLoveLetterID(slot1.displayTrophyList[slot12]) then
+				setLoveLetterMedal(slot13, LoveLetterTrophy.New({
+					id = slot14
+				}), {
+					hideMark = true
+				})
+			else
+				LoadImageSpriteAsync("medal/" .. pg.medal_template[slot1.displayTrophyList[slot12]].icon, slot13:Find("icon"), true)
+			end
 		end
 	end
 

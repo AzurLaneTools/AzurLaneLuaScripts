@@ -137,7 +137,9 @@ slot0.UpdateMedals = function(slot0)
 			setActive(slot2:Find("now"), slot7)
 
 			if slot7 then
-				setLoveLetterMedal(slot6:Find("medal"), slot4)
+				setLoveLetterMedal(slot6:Find("medal"), slot4, {
+					hideMark = true
+				})
 			else
 				LoadImageSpriteAsync("medal/s_" .. slot4:getConfig("icon"), slot5, true)
 			end

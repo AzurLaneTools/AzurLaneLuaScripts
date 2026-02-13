@@ -12,7 +12,9 @@ slot1 = function(slot0)
 				setActive(slot0.now, slot4)
 
 				if slot4 then
-					setLoveLetterMedal(slot0.now:Find("medal"), slot0.trophy)
+					setLoveLetterMedal(slot0.now:Find("medal"), slot0.trophy, {
+						hideMark = true
+					})
 					setText(slot0.nameTxt, slot1:getName())
 				else
 					LoadImageSpriteAsync("medal/" .. slot1:getConfig("icon"), slot0.icon, true)
@@ -75,7 +77,9 @@ slot2 = function(slot0)
 					setActive(slot2:Find("now"), slot7)
 
 					if slot7 then
-						setLoveLetterMedal(slot6:Find("medal"), slot4)
+						setLoveLetterMedal(slot6:Find("medal"), slot4, {
+							hideMark = true
+						})
 					else
 						LoadImageSpriteAsync("medal/s_" .. slot4:getConfig("icon"), slot5, true)
 					end
