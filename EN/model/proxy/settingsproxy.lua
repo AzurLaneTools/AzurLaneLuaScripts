@@ -407,6 +407,7 @@ slot0.clearAllReadHelp = function(slot0)
 	PlayerPrefs.DeleteKey("help_commander_info")
 	PlayerPrefs.DeleteKey("help_commander_play")
 	PlayerPrefs.DeleteKey("help_commander_ability")
+	PlayerPrefs.DeleteKey("loveactivity_help_tips")
 end
 
 slot0.setAutoBattleTip = function(slot0)

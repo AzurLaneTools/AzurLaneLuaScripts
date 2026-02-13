@@ -204,6 +204,66 @@ pg.dorm3d_ik_touch = {
 			0
 		}
 	},
+	[3999991] = {
+		ik_move = "",
+		char_id = 19903,
+		body = "LeftFoot",
+		action_emote = "",
+		id = 3999991,
+		scene_item = "",
+		tip_offset = "",
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
+	},
+	[3999992] = {
+		ik_move = "",
+		char_id = 19903,
+		body = "RightThigh",
+		action_emote = "",
+		id = 3999992,
+		scene_item = "",
+		tip_offset = "",
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
+	},
+	[3999993] = {
+		ik_move = "",
+		char_id = 19903,
+		body = "RightThigh",
+		action_emote = "",
+		id = 3999993,
+		scene_item = "",
+		tip_offset = "",
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
+	},
+	[3999994] = {
+		ik_move = "",
+		char_id = 19903,
+		body = "LeftThigh",
+		action_emote = "",
+		id = 3999994,
+		scene_item = "",
+		tip_offset = "",
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
+	},
 	[4000001] = {
 		ik_move = "",
 		char_id = 10517,
@@ -355,6 +415,10 @@ pg.dorm3d_ik_touch = {
 		3003324,
 		3004000,
 		3004001,
+		3999991,
+		3999992,
+		3999993,
+		3999994,
 		4000001,
 		4000002,
 		5004001,

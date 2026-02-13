@@ -807,9 +807,13 @@ slot0.IsShowTipById = function(slot0)
 			return HelenaScenarioPage:IsShowRed(slot0)
 		end,
 		[ActivityConst.LOVE_LETTER_LOGIN_ID] = function (slot0)
-			slot2 = slot0:getConfig("config_data")[slot0:getNDay()] and getProxy(TaskProxy):getTaskVO(slot1) or nil
+			for slot5 = 1, slot0:getNDay() do
+				if (slot0:getConfig("config_data")[slot5] and getProxy(TaskProxy):getTaskVO(slot6) or nil) and slot7:getTaskStatus() == 1 then
+					return true
+				end
+			end
 
-			return slot2 and slot2:getTaskStatus() == 1
+			return false
 		end
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]

@@ -36673,102 +36673,122 @@ cs.gametip = {
 	},
 	loveactivity_ui_4 = {
 		1322965,
-		107,
+		144,
+		true
+	},
+	loveactivity_ui_4_1 = {
+		1323109,
+		285,
+		true
+	},
+	loveactivity_ui_4_2 = {
+		1323394,
+		285,
+		true
+	},
+	loveactivity_ui_4_3 = {
+		1323679,
+		286,
 		true
 	},
 	loveactivity_ui_5 = {
-		1323072,
+		1323965,
 		95,
 		true
 	},
 	loveactivity_ui_6 = {
-		1323167,
+		1324060,
 		89,
 		true
 	},
 	loveactivity_ui_7 = {
-		1323256,
+		1324149,
 		134,
 		true
 	},
 	loveactivity_ui_8 = {
-		1323390,
+		1324283,
 		87,
 		true
 	},
 	loveactivity_ui_9 = {
-		1323477,
+		1324370,
 		102,
 		true
 	},
 	loveactivity_ui_10 = {
-		1323579,
+		1324472,
 		100,
 		true
 	},
 	loveactivity_ui_11 = {
-		1323679,
+		1324572,
 		107,
 		true
 	},
 	loveactivity_ui_12 = {
-		1323786,
+		1324679,
 		164,
 		true
 	},
 	loveactivity_ui_13 = {
-		1323950,
+		1324843,
 		123,
 		true
 	},
 	loveactivity_ui_14 = {
-		1324073,
+		1324966,
 		107,
 		true
 	},
 	loveactivity_ui_15 = {
-		1324180,
+		1325073,
 		110,
 		true
 	},
 	loveactivity_ui_16 = {
-		1324290,
+		1325183,
 		102,
 		true
 	},
 	loveactivity_ui_17 = {
-		1324392,
+		1325285,
 		102,
 		true
 	},
 	loveactivity_ui_18 = {
-		1324494,
+		1325387,
 		118,
 		true
 	},
 	loveactivity_ui_19 = {
-		1324612,
+		1325505,
 		123,
 		true
 	},
 	loveactivity_ui_20 = {
-		1324735,
+		1325628,
 		120,
 		true
 	},
 	help_chunjie_jiulou_2026 = {
-		1324855,
+		1325748,
 		951,
 		true
 	},
 	island_trade_cnt_inadequate = {
-		1325806,
+		1326699,
 		110,
 		true
 	},
 	drawdiary_ui_2026 = {
-		1325916,
+		1326809,
 		93,
+		true
+	},
+	loveactivity_help_tips = {
+		1326902,
+		455,
 		true
 	}
 }

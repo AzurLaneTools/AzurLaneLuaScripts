@@ -107,11 +107,7 @@ slot0.Mark = {
 }
 
 slot0.GetDisplayLevelMark = function(slot0)
-	if slot0:GetDisplayLevel() < 1 then
-		return "0"
-	else
-		return uv0.Mark[(slot1 - 1) % 10 + 1]
-	end
+	return slot0:GetDisplayLevel()
 end
 
 slot0.GetDisplayExp = function(slot0)
