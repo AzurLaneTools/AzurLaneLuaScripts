@@ -41157,7 +41157,7 @@ pg.activity_template = {
 		config_data = {
 			120001,
 			400,
-			10
+			20
 		},
 		time = {
 			"timer",

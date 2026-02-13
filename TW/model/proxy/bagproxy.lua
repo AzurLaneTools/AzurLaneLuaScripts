@@ -325,21 +325,19 @@ end
 
 slot0.GetAllLoveLetterItem = function(slot0)
 	slot1 = {}
-	slot2, slot3, slot4 = getProxy(LoveLetterProxy):GetLoveLetterItemDic()
+	slot2 = getProxy(LoveLetterProxy):GetLoveLetterItemDic()
 
-	for slot8, slot9 in pairs(slot0.data) do
-		assert(not slot0.extraItemData[slot8] or slot9.count == #slot0.extraItemData[slot8])
+	for slot6, slot7 in pairs(slot0.data) do
+		assert(not slot0.extraItemData[slot6] or slot7.count == #slot0.extraItemData[slot6])
 
-		for slot13 = 1, slot9.count do
-			slot14 = slot0.extraItemData[slot8] and slot0.extraItemData[slot8][slot13] or nil
-
-			if not slot2[slot8 .. "_" .. (slot14 and slot4[slot14] or slot14 or 0)] then
+		for slot11 = 1, slot7.count do
+			if not slot2[slot6 .. "_" .. (slot0.extraItemData[slot6] and slot0.extraItemData[slot6][slot11] or nil or 0)] then
 				break
 			end
 
 			table.insert(slot1, {
-				slot8,
-				slot14
+				slot6,
+				slot12
 			})
 		end
 	end
