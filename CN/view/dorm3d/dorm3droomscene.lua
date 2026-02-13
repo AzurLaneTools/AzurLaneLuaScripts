@@ -1481,6 +1481,15 @@ slot0.TouchModeAction = function(slot0, slot1, slot2, slot3, ...)
 			return function (slot0)
 				uv0:emit(Dorm3dStockingMgr.SET_STOCKING_STATUS, uv1)
 			end
+		end,
+		function (slot0, slot1)
+			return function ()
+				uv0.ikSwitchSkinId = uv0.apartment:GetCurSkinId()
+
+				uv1:SwitchCharacterSkin(uv0.apartment:GetConfigID(), uv2)
+				uv0:SwitchIKConfig(uv1, uv3)
+				uv0:SetIKState(true)
+			end
 		end
 	}, function ()
 		return function ()

@@ -46884,7 +46884,22 @@ _G.pg.base.gametip.loveactivity_ui_3 = {
 
 
 _G.pg.base.gametip.loveactivity_ui_4 = {
-	tip = "是否给予$1额外甜蜜回忆"
+	tip = "是否给予$1额外甜蜜回忆。\n 甜蜜回忆给予后无法进行更改。"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4_1 = {
+	tip = "是否给予<color=#3DC6FFFF>$1</color>额外<color=#3DC6FFFF>500</color>甜蜜回忆？\n 给予后<color=#FF5C5CFF>无法更改</color>，注意选定邀约角色哦。"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4_2 = {
+	tip = "是否给予<color=#3DC6FFFF>$1</color>额外<color=#3DC6FFFF>800</color>甜蜜回忆？\n 给予后<color=#FF5C5CFF>无法更改</color>，注意选定邀约角色哦。"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4_3 = {
+	tip = "是否给予<color=#3DC6FFFF>$1</color>额外<color=#3DC6FFFF>1500</color>甜蜜回忆？\n 给予后<color=#FF5C5CFF>无法更改</color>，注意选定邀约角色哦。"
 }
 
 
@@ -46914,7 +46929,7 @@ _G.pg.base.gametip.loveactivity_ui_9 = {
 
 
 _G.pg.base.gametip.loveactivity_ui_10 = {
-	tip = "累计幸福共鸣等级"
+	tip = "累计幸福共鸣勋章等级"
 }
 
 
@@ -46924,7 +46939,7 @@ _G.pg.base.gametip.loveactivity_ui_11 = {
 
 
 _G.pg.base.gametip.loveactivity_ui_12 = {
-	tip = "※活动中可随时更换邀约对象（剩余$1/$2）"
+	tip = "※只有邀约对象可获得关卡及签到产出的甜蜜回忆（切换次数$1/$2）"
 }
 
 
@@ -46964,7 +46979,7 @@ _G.pg.base.gametip.loveactivity_ui_19 = {
 
 
 _G.pg.base.gametip.loveactivity_ui_20 = {
-	tip = "累计幸福共鸣等级奖励"
+	tip = "累计幸福共鸣勋章等级奖励"
 }
 
 
@@ -46988,4 +47003,49 @@ _G.pg.base.gametip.island_trade_cnt_inadequate = {
 
 _G.pg.base.gametip.drawdiary_ui_2026 = {
 	tip = "绘图日记"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }
