@@ -47440,3 +47440,33 @@ _G.pg.base.gametip.loveactivity_help_tips = {
 		}
 	}
 }
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "新春の想い"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "開催期間:2.17 0時～3.3 23:59"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "ランダム秘書艦機能をオフにしてからもう一度お試しください"
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "一番左の秘書艦枠に配置されている艦船の新春のお礼がメールボックスに送られます。続けますか？"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "配置中の艦船から新春のお礼を受け取れません。秘書艦を変更して再度お試しください"
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "プレゼントがメールボックスに送られました！"
+}

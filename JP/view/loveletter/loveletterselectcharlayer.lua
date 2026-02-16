@@ -171,7 +171,9 @@ slot0.updateCardList = function(slot0)
 			slot10 = false
 
 			if pg.ship_data_group[slot7] then
-				slot9 = slot0.shipGroups[slot8.group_type]
+				slot9 = slot0.shipGroups[slot8.group_type] or ShipGroup.New({
+					id = slot8.group_type
+				})
 				slot10 = Nation.IsLinkType(ShipGroup.getDefaultShipConfig(slot8.group_type).nationality)
 			end
 
