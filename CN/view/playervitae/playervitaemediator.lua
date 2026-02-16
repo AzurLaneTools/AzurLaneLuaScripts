@@ -10,6 +10,7 @@ slot0.GO_SCENE = "PlayerVitaeMediator:GO_SCENE"
 slot0.ON_SWITCH_RANDOM_FLAG_SHIP_BTN = "PlayerVitaeMediator:ON_SWITCH_RANDOM_FLAG_SHIP_BTN"
 slot0.OPEN_CRYPTOLALIA = "PlayerVitaeMediator:OPEN_CRYPTOLALIA"
 slot0.ON_SEL_EDUCATE_CHAR = "PlayerVitaeMediator:ON_SEL_EDUCATE_CHAR"
+slot0.ON_GET_LOVE_LETTER_MAIL = "PlayerVitaeMediator.ON_GET_LOVE_LETTER_MAIL"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_SEL_EDUCATE_CHAR, function (slot0)
@@ -24,6 +25,11 @@ slot0.register = function(slot0)
 				end
 			}
 		}))
+	end)
+	slot0:bind(uv0.ON_GET_LOVE_LETTER_MAIL, function (slot0, slot1)
+		uv0:sendNotification(GAME.ACCEPT_LOVE_LETTER_MAIL, {
+			activity_id = slot1
+		})
 	end)
 	slot0:bind(uv0.OPEN_CRYPTOLALIA, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.CRYPTOLALIA, {
@@ -161,7 +167,8 @@ slot0.listNotificationInterests = function(slot0)
 		PaintingGroupConst.NotifyPaintingDownloadFinish,
 		GAME.CHANGE_EDUCATE_DONE,
 		GAME.CLEAR_EDUCATE_TIP,
-		GAME.CHANGE_SKIN_UPDATE
+		GAME.CHANGE_SKIN_UPDATE,
+		GAME.ACCEPT_LOVE_LETTER_MAIL_DONE
 	}
 end
 
@@ -196,6 +203,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:OnShipSkinChanged(slot3)
 		slot0.viewComponent:RefreshShips()
 		slot0.viewComponent:UpdatePainting(true)
+	elseif slot2 == GAME.ACCEPT_LOVE_LETTER_MAIL_DONE and slot0.viewComponent.shipsPage and slot0.viewComponent.shipsPage:GetLoaded() then
+		slot0.viewComponent.shipsPage:UpdateGetMailBtn()
 	end
 end
 

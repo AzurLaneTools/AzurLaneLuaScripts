@@ -47049,3 +47049,33 @@ _G.pg.base.gametip.loveactivity_help_tips = {
 		}
 	}
 }
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "春日同心"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "活动时间: 2.17 0时~3.3 24时"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "当前为随机秘书组，请关闭随机秘书组后再进行尝试哦"
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "指挥官，您将通过邮件收到第一栏位秘书舰的春日同心之礼，是否确认?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "当前秘书舰无法收取春日同心之礼，请指挥官更换秘书舰再进行尝试哦～"
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "邮件收取成功，请指挥官前往邮箱查看并收取她为您准备的礼物。"
+}

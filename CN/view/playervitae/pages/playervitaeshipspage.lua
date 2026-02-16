@@ -82,6 +82,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.nativeBtn = slot0._tf:Find("native_setting_btn")
 	slot0.nativeBtnOn = slot0.nativeBtn:Find("on")
 	slot0.nativeBtnOff = slot0.nativeBtn:Find("off")
+	slot0.getMailBtn = slot0._tf:Find("get_mail")
 	slot0.educateCharTr = slot0._tf:Find("educate_char")
 	slot0.educateCharSettingList = UIItemList.New(slot0._tf:Find("educate_char/shipCard/settings/panel"), slot0._tf:Find("educate_char/shipCard/settings/panel/tpl"))
 	slot0.educateCharSettingBtn = slot0._tf:Find("educate_char/shipCard/settings/tpl")
@@ -125,6 +126,8 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.settingBtn:Find("Text"), i18n("player_vitae_skin_setting"))
 	setText(slot0.randomBtn:Find("Text"), i18n("random_ship_label"))
 	setText(slot0.settingSeceneBtn:Find("Text"), i18n("playervtae_setting_btn_label"))
+	setText(slot0.getMailBtn:Find("Text"), i18n("spring_present_tips_btn"))
+	setText(slot0.getMailBtn:Find("time"), i18n("spring_present_tips_time"))
 
 	slot0.cardContainerCG = GetOrAddComponent(slot0.cardContainer, typeof(CanvasGroup))
 end
@@ -295,6 +298,28 @@ slot0.OnInit = function(slot0)
 			triggerButton(uv0.settingBtn)
 		end
 	end)()
+	onButton(slot0, slot0.getMailBtn, function ()
+		if uv0.randomFlag then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("spring_present_tips0"))
+
+			return
+		end
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("spring_present_tips1"),
+			onYes = function ()
+				if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_MAIL) then
+					setActive(uv0.getMailBtn, false)
+					pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+
+					return
+				end
+
+				uv0:emit(PlayerVitaeMediator.ON_GET_LOVE_LETTER_MAIL, slot0.id)
+			end
+		})
+	end)
+	slot0:UpdateGetMailBtn()
 	onButton(slot0, slot0.educateCharSettingBtn, function ()
 		setActive(uv0.educateCharSettingList.container, not isActive(uv0.educateCharSettingList.container))
 	end, SFX_PANEL)
@@ -318,11 +343,16 @@ slot0.OnInit = function(slot0)
 	table.insert(slot0.cards[uv4], PlayerVitaeLockCard.New(slot0.lockTpl, slot0.event))
 end
 
+slot0.UpdateGetMailBtn = function(slot0)
+	setActive(slot0.getMailBtn, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_MAIL) and not slot1:isEnd() and slot1:readyToAchieve())
+end
+
 slot0.Update = function(slot0)
 	slot2 = nil
 
 	slot0:SwitchToPage(slot0.randomFlag and slot0.nativeFlag and uv0 or getProxy(SettingsProxy):IsOpenRandomFlagShip() and uv1 or uv0)
 	slot0:UpdateEducateChar()
+	slot0:UpdateGetMailBtn()
 	slot0:Show()
 end
 

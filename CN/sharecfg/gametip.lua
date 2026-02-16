@@ -35935,5 +35935,35 @@ cs.gametip = {
 		1240862,
 		455,
 		true
+	},
+	spring_present_tips_btn = {
+		1241317,
+		99,
+		true
+	},
+	spring_present_tips_time = {
+		1241416,
+		121,
+		true
+	},
+	spring_present_tips0 = {
+		1241537,
+		157,
+		true
+	},
+	spring_present_tips1 = {
+		1241694,
+		179,
+		true
+	},
+	spring_present_tips2 = {
+		1241873,
+		181,
+		true
+	},
+	spring_present_tips3 = {
+		1242054,
+		172,
+		true
 	}
 }

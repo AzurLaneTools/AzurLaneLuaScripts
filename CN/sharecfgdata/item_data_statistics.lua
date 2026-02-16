@@ -102715,6 +102715,37 @@ _G.pg.base.item_data_statistics[44003] = {
 }
 
 
+_G.pg.base.item_data_statistics[44004] = {
+	open_directly = 0,
+	name = "春日同心之礼",
+	type = 23,
+	display = "$1为您准备的春日同心之礼。新的一年也请指挥官多多指教，想一直在您身边，与您共度岁岁年年。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44004,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[44011] = {
 	open_directly = 0,
 	name = "情人节礼物",
