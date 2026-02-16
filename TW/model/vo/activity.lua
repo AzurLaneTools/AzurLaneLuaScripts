@@ -717,6 +717,9 @@ slot0.readyToAchieve = function(slot0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = function (slot0)
 			return slot0:CanGetAward()
+		end,
+		[ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_MAIL] = function (slot0)
+			return slot0:getConfig("config_id") <= getProxy(PlayerProxy):getRawData().level and slot0.data1 == 0
 		end
 	}
 

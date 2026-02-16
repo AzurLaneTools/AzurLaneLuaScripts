@@ -172,7 +172,7 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.UpdateReplaceTip = function(slot0)
-	setActive(slot0.replaceBtnTip, getProxy(SettingsProxy):ShouldEducateCharTip())
+	setActive(slot0.replaceBtnTip, getProxy(SettingsProxy):ShouldEducateCharTip() or getProxy(ActivityProxy):IsTipLoveLetterMail())
 end
 
 slot0.DoEnterAnimation = function(slot0)

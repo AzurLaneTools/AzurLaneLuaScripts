@@ -287,6 +287,7 @@ ServerInterconnectionCommand = import("controller.command.login.ServerInterconne
 ServerLoginCommand = import("controller.command.login.ServerLoginCommand")
 UserLoginCommand = import("controller.command.login.UserLoginCommand")
 UserRegisterCommand = import("controller.command.login.UserRegisterCommand")
+AcceptLoveLetterMailCommand = import("controller.command.loveLetter.AcceptLoveLetterMailCommand")
 GetAllLoveLetterLevelDataCommand = import("controller.command.loveLetter.GetAllLoveLetterLevelDataCommand")
 GetLoveLetterLevelRewardCommand = import("controller.command.loveLetter.GetLoveLetterLevelRewardCommand")
 LoveLetterLevelUpCommand = import("controller.command.loveLetter.LoveLetterLevelUpCommand")
