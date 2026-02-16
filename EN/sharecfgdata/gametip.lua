@@ -47337,3 +47337,33 @@ _G.pg.base.gametip.loveactivity_help_tips = {
 		}
 	}
 }
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "New Year's Warmth"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "Event Period: 00:00, February 17 - 23:59, March 3"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "Please disable the Random Secretary feature and try again."
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "The leftmost secretary shipgirl in your list will send a message to your mailbox. Continue?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "This shipgirl cannot send you a New Year gift. Please change your Secretary shipgirl and try again."
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "A gift has been sent to your mailbox!"
+}

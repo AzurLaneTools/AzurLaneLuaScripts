@@ -668,6 +668,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.GET_LOVE_LETTER_REWARD, GetLoveLetterLevelRewardCommand)
 	slot0.facade:registerCommand(GAME.REALIZE_LOVE_LETTER_GIFT, RealizeLoveLetterGiftCommand)
 	slot0.facade:registerCommand(GAME.REQUEST_LOVE_LETTER_TEXT, RequestLoveLetterContentCommand)
+	slot0.facade:registerCommand(GAME.ACCEPT_LOVE_LETTER_MAIL, AcceptLoveLetterMailCommand)
 end
 
 return slot0

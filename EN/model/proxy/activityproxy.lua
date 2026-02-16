@@ -1085,4 +1085,8 @@ slot0.CheckDailyEventRequest = function(slot0, slot1)
 	end
 end
 
+slot0.IsTipLoveLetterMail = function(slot0)
+	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_MAIL) and not slot1:isEnd() and slot1:readyToAchieve()
+end
+
 return slot0

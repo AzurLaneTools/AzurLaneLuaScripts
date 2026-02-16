@@ -92775,6 +92775,37 @@ _G.pg.base.item_data_statistics[44003] = {
 }
 
 
+_G.pg.base.item_data_statistics[44004] = {
+	open_directly = 0,
+	name = "New Year's Warmth",
+	type = 23,
+	display = "A holiday gift from $1. Stay by my side, Commander, and I look forward to spending more time with you in the future.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44004,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[44011] = {
 	open_directly = 0,
 	name = "Valentine Gift",
