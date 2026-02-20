@@ -38119,7 +38119,7 @@ pg.activity_template = {
 		id = 50384,
 		page_core = "",
 		config_data = {
-			4
+			5
 		},
 		time = {
 			"timer",
