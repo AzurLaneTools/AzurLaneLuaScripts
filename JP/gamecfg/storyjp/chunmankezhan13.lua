@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actorName = "虎贲",
+			actorName = "虎賁",
 			side = 2,
 			bgName = "star_level_bg_144",
 			dir = 1,

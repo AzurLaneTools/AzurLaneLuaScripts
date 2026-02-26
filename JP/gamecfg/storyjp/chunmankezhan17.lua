@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "オゾルノイ",
 			side = 2,
 			dir = 1,
 			bgName = "bg_kezhan_cg_5",
@@ -395,7 +395,7 @@ return {
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "オゾルノイ",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			dir = 1,
@@ -439,7 +439,7 @@ return {
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "オゾルノイ",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "オゾルノイ",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			dir = 1,
@@ -540,7 +540,7 @@ return {
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "オゾルノイ",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			dir = 1,
@@ -558,7 +558,7 @@ return {
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "オゾルノイ",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			dir = 1,

@@ -467,7 +467,7 @@ return {
 			}
 		},
 		{
-			actorName = "博加特里",
+			actorName = "ボガトィーリ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -483,7 +483,7 @@ return {
 			portrait = 501021,
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
-			actorName = "抚顺",
+			actorName = "撫順",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -497,7 +497,7 @@ return {
 			portrait = 501021,
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
-			actorName = "抚顺",
+			actorName = "撫順",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -508,7 +508,7 @@ return {
 			}
 		},
 		{
-			actorName = "博加特里",
+			actorName = "ボガトィーリ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -524,7 +524,7 @@ return {
 			portrait = 501021,
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
-			actorName = "抚顺",
+			actorName = "撫順",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -535,7 +535,7 @@ return {
 			}
 		},
 		{
-			actorName = "博加特里",
+			actorName = "ボガトィーリ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -570,7 +570,7 @@ return {
 			}
 		},
 		{
-			actorName = "博加特里",
+			actorName = "ボガトィーリ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -596,7 +596,7 @@ return {
 			}
 		},
 		{
-			actorName = "博加特里",
+			actorName = "ボガトィーリ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -609,7 +609,7 @@ return {
 			}
 		},
 		{
-			actorName = "博加特里",
+			actorName = "ボガトィーリ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -649,7 +649,7 @@ return {
 			}
 		},
 		{
-			actorName = "博加特里",
+			actorName = "ボガトィーリ",
 			side = 2,
 			bgName = "bg_kezhan_cg_2",
 			hidePaintObj = true,
@@ -662,7 +662,7 @@ return {
 			}
 		},
 		{
-			actorName = "博加特里",
+			actorName = "ボガトィーリ",
 			side = 2,
 			bgName = "bg_kezhan_cg_2",
 			hidePaintObj = true,

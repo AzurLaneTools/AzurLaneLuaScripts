@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actorName = "兴登堡",
+			actorName = "ヒンデンブルク",
 			side = 2,
 			bgName = "bg_kezhan_cg_3",
 			hidePaintObj = true,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actorName = "兴登堡",
+			actorName = "ヒンデンブルク",
 			side = 2,
 			bgName = "bg_kezhan_cg_3",
 			hidePaintObj = true,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actorName = "兴登堡",
+			actorName = "ヒンデンブルク",
 			side = 2,
 			bgName = "bg_kezhan_cg_3",
 			hidePaintObj = true,
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actorName = "兴登堡",
+			actorName = "ヒンデンブルク",
 			side = 2,
 			bgName = "bg_kezhan_cg_3",
 			hidePaintObj = true,

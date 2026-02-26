@@ -37778,11 +37778,10 @@ pg.activity_template = {
 			sub_act_id = 50444,
 			gift_tip = {
 				[9005] = {
-					""
+					"winter_luckybag_9005"
 				},
 				[9006] = {
-					"winter_luckybag_9006",
-					81229
+					"winter_luckybag_9006"
 				}
 			}
 		}
