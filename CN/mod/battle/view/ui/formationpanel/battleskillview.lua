@@ -357,7 +357,7 @@ slot2.SetSkillButtonPreferences = function(slot0, slot1)
 	slot4 = PlayerPrefs.GetFloat("skill_" .. slot1 .. "_anchorX", slot2.x)
 	slot5 = PlayerPrefs.GetFloat("skill_" .. slot1 .. "_anchorY", slot2.y)
 	slot6 = slot0.transform
-	slot6.localScale = Vector3(slot3, slot3, 0)
+	slot6.localScale = Vector3(slot3, slot3, 1)
 	slot6.anchorMin = Vector2(slot4, slot5)
 	slot6.anchorMax = Vector2(slot4, slot5)
 end

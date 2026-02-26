@@ -803,7 +803,7 @@ slot0.GetAutoShipIds = function(slot0)
 	end
 
 	table.sort(underscore.select(slot2:GetShips(), function (slot0)
-		return slot0:GetState() == IslandShip.STATE_NORMAL
+		return slot0:IsDelegable()
 	end), CompareFuncs({
 		function (slot0)
 			return uv0:GetEffectiveManangeUnlockSkill(slot0) and 0 or 1

@@ -7567,7 +7567,54 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_629_1_1",
 		"op_reply_629_1_1",
 		"ins_op_629_1_2",
-		"op_reply_629_1_2"
+		"op_reply_629_1_2",
+		"ins_630",
+		"ins_discuss_630_1",
+		"ins_reply_630_1_1",
+		"ins_reply_630_1_2",
+		"ins_reply_630_1_3",
+		"ins_discuss_630_2",
+		"ins_reply_630_2_1",
+		"ins_op_630_1_1",
+		"op_reply_630_1_1",
+		"ins_op_630_1_2",
+		"op_reply_630_1_2",
+		"ins_631",
+		"ins_discuss_631_1",
+		"ins_reply_631_1_1",
+		"ins_reply_631_1_2",
+		"ins_reply_631_1_3",
+		"ins_discuss_631_2",
+		"ins_reply_631_2_1",
+		"ins_reply_631_2_2",
+		"ins_reply_631_2_3",
+		"ins_op_631_1_1",
+		"op_reply_631_1_1",
+		"ins_op_631_1_2",
+		"op_reply_631_1_2",
+		"ins_632",
+		"ins_discuss_632_1",
+		"ins_reply_632_1_1",
+		"ins_discuss_632_2",
+		"ins_reply_632_2_1",
+		"ins_reply_632_2_2",
+		"ins_op_632_1_1",
+		"op_reply_632_1_1",
+		"ins_op_632_1_2",
+		"op_reply_632_1_2",
+		"ins_633",
+		"ins_discuss_633_1",
+		"ins_reply_633_1_1",
+		"ins_reply_633_1_2",
+		"ins_reply_633_1_3",
+		"ins_discuss_633_2",
+		"ins_reply_633_2_1",
+		"ins_reply_633_2_2",
+		"ins_reply_633_2_3",
+		"ins_op_633_1_1",
+		"op_reply_633_1_1",
+		"ins_op_633_1_2",
+		"op_reply_633_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -29869,190 +29916,190 @@ pg.base.activity_ins_language = {
 		value = "好玩……不！不好玩！"
 	},
 	ins_620 = {
-		value = ""
+		value = "模特的工作，也是严酷的修行呢……"
 	},
 	ins_discuss_620_1 = {
-		value = ""
+		value = "无论是女仆修行还是模特修行，都必须严阵以待"
 	},
 	ins_reply_620_1_1 = {
-		value = ""
+		value = "严阵以待严阵以待~"
 	},
 	ins_reply_620_1_2 = {
-		value = ""
+		value = "那下次开始修行前，大伙先一起拍个照玩吧！"
 	},
 	ins_discuss_620_2 = {
-		value = ""
+		value = "难道这是最新的时尚流行趋势？！"
 	},
 	ins_reply_620_2_1 = {
-		value = ""
+		value = "这几件不适合你，需要的话，我能帮你设计几套"
 	},
 	ins_reply_620_2_2 = {
-		value = ""
+		value = "那就太感谢了~！"
 	},
 	ins_discuss_620_3 = {
-		value = ""
+		value = "这些衣服……都透露着危险的味道呢~"
 	},
 	ins_reply_620_3_1 = {
-		value = ""
+		value = "危险的味道……？"
 	},
 	ins_reply_620_3_2 = {
-		value = ""
+		value = "嗯嗯，很危险哦~"
 	},
 	ins_op_620_1_1 = {
-		value = ""
+		value = "我陪你一起修行"
 	},
 	op_reply_620_1_1 = {
-		value = ""
+		value = "有指挥官在，难度再高的修行都不成问题！"
 	},
 	ins_op_620_1_2 = {
-		value = ""
+		value = "劳逸结合，注意休息"
 	},
 	op_reply_620_1_2 = {
-		value = ""
+		value = "感谢关心，指挥官。那……能陪我一起放松会儿吗？"
 	},
 	ins_621 = {
-		value = ""
+		value = "大概是，思念某人时的模样……"
 	},
 	ins_discuss_621_1 = {
-		value = ""
+		value = "好逼真的雕像！是拉斐尔的新作吗？"
 	},
 	ins_reply_621_1_1 = {
-		value = ""
+		value = "如此富有忧郁气质的雕像……简直是奇迹呢"
 	},
 	ins_reply_621_1_2 = {
-		value = ""
+		value = "这么逼真又动人的作品，不是我的风格"
 	},
 	ins_discuss_621_2 = {
-		value = ""
+		value = "等待的滋味的确不好受，我懂"
 	},
 	ins_reply_621_2_1 = {
-		value = ""
+		value = "一天的时光，居然有如此漫长……"
 	},
 	ins_reply_621_2_2 = {
-		value = ""
+		value = "……只是休息了一下……一天就这么过去了……"
 	},
 	ins_op_621_1_1 = {
-		value = ""
+		value = "这真的是雕像么？"
 	},
 	op_reply_621_1_1 = {
-		value = ""
+		value = "您要是想知道答案的话，欢迎亲自来参观"
 	},
 	ins_op_621_1_2 = {
-		value = ""
+		value = "我来找你"
 	},
 	op_reply_621_1_2 = {
-		value = ""
+		value = "得到您的回复后……我感觉平静多了……"
 	},
 	ins_622 = {
-		value = ""
+		value = "24小时不间断原地转圈圈大挑战……即将成功！"
 	},
 	ins_discuss_622_1 = {
-		value = ""
+		value = "转啊转啊转啊转啊转啊转啊转啊转啊转啊"
 	},
 	ins_reply_622_1_1 = {
-		value = ""
+		value = "文字……转起来了……好晕"
 	},
 	ins_reply_622_1_2 = {
-		value = ""
+		value = "正在计数，现在是第104567圈"
 	},
 	ins_discuss_622_2 = {
-		value = ""
+		value = "有点意思，我也来挑战试试吧~"
 	},
 	ins_reply_622_2_1 = {
-		value = ""
+		value = "嗨嗨嗨？你还在吗？"
 	},
 	ins_reply_622_2_2 = {
-		value = ""
+		value = "她晕倒了"
 	},
 	ins_op_622_1_1 = {
-		value = ""
+		value = "转啊转啊转啊转啊转啊"
 	},
 	op_reply_622_1_1 = {
-		value = ""
+		value = "本来晕倒了……一看到指挥官的消息，突然就充满了决心！继续！"
 	},
 	ins_op_622_1_2 = {
-		value = ""
+		value = "挑战成功，辛苦了！"
 	},
 	op_reply_622_1_2 = {
-		value = ""
+		value = "太……好……了……"
 	},
 	ins_623 = {
-		value = ""
+		value = "资料好像受伤了呢……别害怕，让我来医治吧~"
 	},
 	ins_discuss_623_1 = {
-		value = ""
+		value = "需要帮忙的话，请呼唤雅努斯哦……"
 	},
 	ins_reply_623_1_1 = {
-		value = ""
+		value = "谢谢你，雅努斯小姐~"
 	},
 	ins_discuss_623_2 = {
-		value = ""
+		value = "好可怜，为什么会受伤呢……？"
 	},
 	ins_reply_623_2_1 = {
-		value = ""
+		value = "事情还得从很久很久以前说起——"
 	},
 	ins_reply_623_2_2 = {
-		value = ""
+		value = "一个小时前，我们在地下室大冒险中成功解救了这些资料！"
 	},
 	ins_reply_623_2_3 = {
-		value = ""
+		value = "它们当时被垫在桌脚下面，情况十分危急！"
 	},
 	ins_reply_623_2_4 = {
-		value = ""
+		value = "只能勉强看清封面上写着……《绝密！港区八卦新闻汇编资料》？"
 	},
 	ins_reply_623_2_5 = {
-		value = ""
+		value = "原来是这么重要的资料？！康复的时候请务必通知我！"
 	},
 	ins_op_623_1_1 = {
-		value = ""
+		value = "资料痊愈了么？"
 	},
 	op_reply_623_1_1 = {
-		value = ""
+		value = "嗯嗯！等下来就该给指挥官说明资料的病情~"
 	},
 	ins_op_623_1_2 = {
-		value = ""
+		value = "我昨晚处理的文件也需要你看看"
 	},
 	op_reply_623_1_2 = {
-		value = ""
+		value = "可以哦~不过，还是应该先看看指挥官呢？我这就过来~"
 	},
 	ins_624 = {
-		value = ""
+		value = "拍累了，好饿"
 	},
 	ins_discuss_624_1 = {
-		value = ""
+		value = "看起来好诱人！下次我也开个美食直播吧~"
 	},
 	ins_reply_624_1_1 = {
-		value = ""
+		value = "我可以推荐几家好吃的汉堡店"
 	},
 	ins_reply_624_1_2 = {
-		value = ""
+		value = "太好了，现在就安排！"
 	},
 	ins_reply_624_1_3 = {
-		value = ""
+		value = "带我一个……"
 	},
 	ins_discuss_624_2 = {
-		value = ""
+		value = "确实该补充能量了呢。正好我的摄影棚里还有几瓶汽水……"
 	},
 	ins_reply_624_2_1 = {
-		value = ""
+		value = "正好我多买了一个汉堡。那不如……"
 	},
 	ins_reply_624_2_2 = {
-		value = ""
+		value = "成交？"
 	},
 	ins_reply_624_2_3 = {
-		value = ""
+		value = "成交"
 	},
 	ins_op_624_1_1 = {
-		value = ""
+		value = "汉堡看起来不错"
 	},
 	op_reply_624_1_1 = {
-		value = ""
+		value = "我最多……分给指挥官一半哦"
 	},
 	ins_op_624_1_2 = {
-		value = ""
+		value = "道具好喝么？"
 	},
 	op_reply_624_1_2 = {
-		value = ""
+		value = "好喝，指挥官也来一起吧？"
 	},
 	ins_625 = {
 		value = ""
@@ -30268,6 +30315,147 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_629_1_2 = {
+		value = ""
+	},
+	ins_630 = {
+		value = ""
+	},
+	ins_discuss_630_1 = {
+		value = ""
+	},
+	ins_reply_630_1_1 = {
+		value = ""
+	},
+	ins_reply_630_1_2 = {
+		value = ""
+	},
+	ins_reply_630_1_3 = {
+		value = ""
+	},
+	ins_discuss_630_2 = {
+		value = ""
+	},
+	ins_reply_630_2_1 = {
+		value = ""
+	},
+	ins_op_630_1_1 = {
+		value = ""
+	},
+	op_reply_630_1_1 = {
+		value = ""
+	},
+	ins_op_630_1_2 = {
+		value = ""
+	},
+	op_reply_630_1_2 = {
+		value = ""
+	},
+	ins_631 = {
+		value = ""
+	},
+	ins_discuss_631_1 = {
+		value = ""
+	},
+	ins_reply_631_1_1 = {
+		value = ""
+	},
+	ins_reply_631_1_2 = {
+		value = ""
+	},
+	ins_reply_631_1_3 = {
+		value = ""
+	},
+	ins_discuss_631_2 = {
+		value = ""
+	},
+	ins_reply_631_2_1 = {
+		value = ""
+	},
+	ins_reply_631_2_2 = {
+		value = ""
+	},
+	ins_reply_631_2_3 = {
+		value = ""
+	},
+	ins_op_631_1_1 = {
+		value = ""
+	},
+	op_reply_631_1_1 = {
+		value = ""
+	},
+	ins_op_631_1_2 = {
+		value = ""
+	},
+	op_reply_631_1_2 = {
+		value = ""
+	},
+	ins_632 = {
+		value = ""
+	},
+	ins_discuss_632_1 = {
+		value = ""
+	},
+	ins_reply_632_1_1 = {
+		value = ""
+	},
+	ins_discuss_632_2 = {
+		value = ""
+	},
+	ins_reply_632_2_1 = {
+		value = ""
+	},
+	ins_reply_632_2_2 = {
+		value = ""
+	},
+	ins_op_632_1_1 = {
+		value = ""
+	},
+	op_reply_632_1_1 = {
+		value = ""
+	},
+	ins_op_632_1_2 = {
+		value = ""
+	},
+	op_reply_632_1_2 = {
+		value = ""
+	},
+	ins_633 = {
+		value = ""
+	},
+	ins_discuss_633_1 = {
+		value = ""
+	},
+	ins_reply_633_1_1 = {
+		value = ""
+	},
+	ins_reply_633_1_2 = {
+		value = ""
+	},
+	ins_reply_633_1_3 = {
+		value = ""
+	},
+	ins_discuss_633_2 = {
+		value = ""
+	},
+	ins_reply_633_2_1 = {
+		value = ""
+	},
+	ins_reply_633_2_2 = {
+		value = ""
+	},
+	ins_reply_633_2_3 = {
+		value = ""
+	},
+	ins_op_633_1_1 = {
+		value = ""
+	},
+	op_reply_633_1_1 = {
+		value = ""
+	},
+	ins_op_633_1_2 = {
+		value = ""
+	},
+	op_reply_633_1_2 = {
 		value = ""
 	}
 }

@@ -1332,6 +1332,102 @@ pg.activity_medal_template = {
 		id = 5040508,
 		medal_asset = "ActivityMedal/5040508"
 	},
+	[5044101] = {
+		activity_medal_desc = "客官里边请，春日的热闹都在院里啦！",
+		next_medal = 0,
+		item = 65861,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "1",
+		task_id = 21902,
+		activity_medal_name = "纪念贴：春满客栈",
+		id = 5044101,
+		medal_asset = "ActivityMedal/5044101"
+	},
+	[5044102] = {
+		activity_medal_desc = "地图数据读取中……",
+		next_medal = 0,
+		item = 65862,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "2",
+		task_id = 21903,
+		activity_medal_name = "纪念贴：Loading……",
+		id = 5044102,
+		medal_asset = "ActivityMedal/5044102"
+	},
+	[5044103] = {
+		activity_medal_desc = "只负责可爱，不负责干活！",
+		next_medal = 0,
+		item = 65863,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "3",
+		task_id = 21904,
+		activity_medal_name = "纪念贴：大宝二宝！",
+		id = 5044103,
+		medal_asset = "ActivityMedal/5044103"
+	},
+	[5044104] = {
+		activity_medal_desc = "随时随地开始QA，你值得拥有！",
+		next_medal = 0,
+		item = 65864,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "4",
+		task_id = 21905,
+		activity_medal_name = "纪念贴：质量监控",
+		id = 5044104,
+		medal_asset = "ActivityMedal/5044104"
+	},
+	[5044105] = {
+		activity_medal_desc = "哗啦啦啦——钱从四面八方来~",
+		next_medal = 0,
+		item = 65865,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "5",
+		task_id = 21906,
+		activity_medal_name = "纪念贴：镇海的算盘",
+		id = 5044105,
+		medal_asset = "ActivityMedal/5044105"
+	},
+	[5044106] = {
+		activity_medal_desc = "热气腾腾，小心烫口！",
+		next_medal = 0,
+		item = 65866,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "6",
+		task_id = 21907,
+		activity_medal_name = "纪念贴：招牌汤包",
+		id = 5044106,
+		medal_asset = "ActivityMedal/5044106"
+	},
+	[5044107] = {
+		activity_medal_desc = "折扇一摇，春风解意~",
+		next_medal = 0,
+		item = 65867,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "7",
+		task_id = 21908,
+		activity_medal_name = "纪念贴：迎春折扇",
+		id = 5044107,
+		medal_asset = "ActivityMedal/5044107"
+	},
+	[5044108] = {
+		activity_medal_desc = "灯笼一点，福气满院~",
+		next_medal = 0,
+		item = 65868,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "8",
+		task_id = 21909,
+		activity_medal_name = "纪念贴：如意灯笼",
+		id = 5044108,
+		medal_asset = "ActivityMedal/5044108"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1471,6 +1567,16 @@ pg.activity_medal_template = {
 			5040506,
 			5040507,
 			5040508
+		},
+		[50441] = {
+			5044101,
+			5044102,
+			5044103,
+			5044104,
+			5044105,
+			5044106,
+			5044107,
+			5044108
 		}
 	},
 	all = {
@@ -1584,6 +1690,14 @@ pg.activity_medal_template = {
 		5040505,
 		5040506,
 		5040507,
-		5040508
+		5040508,
+		5044101,
+		5044102,
+		5044103,
+		5044104,
+		5044105,
+		5044106,
+		5044107,
+		5044108
 	}
 }

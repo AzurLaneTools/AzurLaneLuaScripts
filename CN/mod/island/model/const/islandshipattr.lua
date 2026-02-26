@@ -1,5 +1,6 @@
 slot0 = class("IslandShipAttr")
 slot0.MANAGE_KEY = 5
+slot0.COLLECT_KEY = 2
 slot0.ATTRS = {
 	"plant",
 	"collect",

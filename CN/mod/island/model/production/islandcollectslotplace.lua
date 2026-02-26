@@ -74,6 +74,10 @@ slot0.UpdateGetCollectNum = function(slot0, slot1)
 	end
 end
 
+slot0.SetAllTakeColelct = function(slot0)
+	slot0.get_num = #slot0.recoverQueue
+end
+
 slot0.UpdateCollectDataBySlotId = function(slot0, slot1, slot2)
 	if not slot0.collectionSlotData[slot1.id] then
 		return

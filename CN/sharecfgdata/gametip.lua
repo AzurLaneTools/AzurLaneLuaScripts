@@ -12505,7 +12505,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "弗朗西斯科·卡拉乔洛 等角色建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 莫斯科(最多4次)"
 }
 
 
@@ -17246,7 +17246,7 @@ _G.pg.base.gametip.lanternRiddles_gametip = {
 第四次答对：T3防御教材*2，100石油 
 第五次答对：T3通用改造部件*3，300物资 
 第六次答对：T3攻击教材*2，100石油 
-第七次答对：<color=#92fc63>高级定向蓝图七期*2</color>，300物资]]
+第七次答对：<color=#92fc63>高级定向蓝图八期*2</color>，300物资]]
 		}
 	}
 }
@@ -46868,6 +46868,16 @@ _G.pg.base.gametip.island_bar_quick_game = {
 }
 
 
+_G.pg.base.gametip.island_trade_cnt_inadequate = {
+	tip = "数量不足"
+}
+
+
+_G.pg.base.gametip.drawdiary_ui_2026 = {
+	tip = "绘图日记"
+}
+
+
 _G.pg.base.gametip.loveactivity_ui_1 = {
 	tip = "出击可获得甜蜜回忆"
 }
@@ -46996,13 +47006,235 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
-_G.pg.base.gametip.island_trade_cnt_inadequate = {
-	tip = "数量不足"
+_G.pg.base.gametip.island_gift_tip_title = {
+	tip = "体力"
 }
 
 
-_G.pg.base.gametip.drawdiary_ui_2026 = {
-	tip = "绘图日记"
+_G.pg.base.gametip.island_gift_tip = {
+	tip = "继续赠送该礼物将会超出体力上限，是否继续赠送"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_tip = {
+	tip = "采集"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_power = {
+	tip = "消耗体力"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_money = {
+	tip = "消耗资金"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_range = {
+	tip = "选择采集目标"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_start = {
+	tip = "出发"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_tag_1 = {
+	tip = "野外采集物"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_tag_2 = {
+	tip = "矿物及木材"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_skill_effect = {
+	tip = "体力消耗"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_done = {
+	tip = "采集完成"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_no_target = {
+	tip = "无剩余可采集目标"
+}
+
+
+_G.pg.base.gametip.island_quick_delegation = {
+	tip = "再次委派"
+}
+
+
+_G.pg.base.gametip.island_quick_delegation_notenough_encourage = {
+	tip = "$1体力不足，无法委派"
+}
+
+
+_G.pg.base.gametip.island_quick_delegation_notenough_onduty = {
+	tip = "$1正在进行其他工作，无法委派"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_title = {
+	tip = "春满客栈Online"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_title_en = {
+	tip = "Springtide"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_level = {
+	tip = "客栈等级"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title = {
+	tip = "客栈故事"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title_1 = {
+	tip = "经营日记"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title_2 = {
+	tip = "檐下趣闻"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title_3 = {
+	tip = "神秘邂逅"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title_4 = {
+	tip = [[
+客
+栈
+故
+事]]
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_get = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_got = {
+	tip = "已领取"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_character_num = {
+	tip = "角色容量"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_character_unlock = {
+	tip = "等级达到$1后解锁"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_character_tip = {
+	tip = "角色入住，每隔一段时间可以获得额外的金币，同时入住角色出击获得的好感度提升"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_num = {
+	tip = "金币容量"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold = {
+	tip = "每秒产量"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_update = {
+	tip = "升级"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_update_unlock = {
+	tip = "客栈等级达到$1"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_update_max = {
+	tip = "已达满级"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_max_tip = {
+	tip = "金币容量已达上限"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_tip = {
+	tip = {
+		{
+			info = [[
+活动简介：
+「春满客栈Online」：经营客栈，获得活动限定奖励
+1.酒楼、水榭楼台、花园、池塘提供金币产出，升级这四个建筑可以提高金币产出效率，每个建筑产出的金币最多留存6小时
+2.神秘仓库可以用来存放金币，升级建筑可以提升金币容量上限
+3.旅舍可以被用来邀请角色入住，角色入住期间每隔一段时间就会提供额外的金币产出，同时携带这些角色出击也将获得好感度提升。升级建筑后，可以邀请更多角色入住
+4.建筑达到一定等级时，继续升级需要消耗元宝。元宝可以通过完成经营要务中的通关活动关卡来获得
+5.客栈等级的提升，需要累积获得一定数量的金币
+6.客栈故事将在客栈等级或指定建筑升级至对应等级后解锁
+7.完成经营要务可以获得头像框、限定家具等活动奖励]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "经营要务"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "已领取"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "收取金币"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "春满客栈Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "客栈补给站"
 }
 
 

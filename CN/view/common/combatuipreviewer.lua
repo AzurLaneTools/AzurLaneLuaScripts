@@ -3,10 +3,10 @@ slot1 = Vector3(0, 1, 40)
 slot2 = Vector3(35, 1, 40)
 slot3 = Vector3(30, 0, 0)
 slot4 = Vector3(330, 0, 0)
-slot5 = Vector3(-532, 157, -675)
+slot5 = Vector3(-532, 157, 0)
 slot6 = Vector3(-665, 70, -675)
-slot7 = Vector3(473, 157, -675)
-slot8 = Vector3(-791, 70, -675)
+slot7 = Vector3(473, 157, 0)
+slot8 = Vector3(-791, 70, 0)
 slot9 = Vector3(464, 70, -675)
 
 slot0.Ctor = function(slot0, slot1)
@@ -61,6 +61,10 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 		slot10:SwitchIconEffect(slot9, slot4)
 		slot10:SetTextActive(true)
 		slot10:SetToCombatUIPreview(slot9 > 1)
+
+		if slot9 == 3 and GetOrAddComponent(go(slot11), typeof(UnityEngine.Playables.PlayableDirector)) then
+			slot13.enabled = true
+		end
 	end
 
 	slot0.heroBar = slot2.transform

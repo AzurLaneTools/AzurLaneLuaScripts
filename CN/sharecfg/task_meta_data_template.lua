@@ -347,6 +347,11 @@ pg.task_meta_data_template = setmetatable({
 		100513,
 		100514,
 		100515,
+		100521,
+		100522,
+		100523,
+		100524,
+		100525,
 		200001,
 		200002,
 		200003,
@@ -514,7 +519,11 @@ pg.task_meta_data_template = setmetatable({
 		200421,
 		200422,
 		200423,
-		200424
+		200424,
+		200431,
+		200432,
+		200433,
+		200434
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3279,6 +3288,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用龙骑兵·META击破等级＞100的敌方1次"
 	},
+	[100521] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100521,
+		target_num = 1,
+		desc = "使用甘古特·META获得1次胜利"
+	},
+	[100522] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100522,
+		target_num = 1,
+		desc = "使用甘古特·META击破等级＞30的敌方1次"
+	},
+	[100523] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100523,
+		target_num = 1,
+		desc = "使用甘古特·META击破等级＞55的敌方1次"
+	},
+	[100524] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100524,
+		target_num = 1,
+		desc = "使用甘古特·META击破等级＞80的敌方1次"
+	},
+	[100525] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100525,
+		target_num = 1,
+		desc = "使用甘古特·META击破等级＞100的敌方1次"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4622,5 +4671,37 @@ pg.base.task_meta_data_template = {
 		id = 200424,
 		target_num = 1,
 		desc = "大型作战内使用龙骑兵·META击破等级＞100的敌方1次"
+	},
+	[200431] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200431,
+		target_num = 1,
+		desc = "大型作战内使用甘古特·META获得1次胜利"
+	},
+	[200432] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200432,
+		target_num = 1,
+		desc = "大型作战内使用甘古特·META击破等级＞70的敌方1次"
+	},
+	[200433] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200433,
+		target_num = 1,
+		desc = "大型作战内使用甘古特·META击破等级＞90的敌方1次"
+	},
+	[200434] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200434,
+		target_num = 1,
+		desc = "大型作战内使用甘古特·META击破等级＞100的敌方1次"
 	}
 }

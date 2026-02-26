@@ -12,7 +12,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.unlockSlot = slot1:Find("unlock")
 	slot0.lockSlot = slot1:Find("lock")
 	slot0.emptyAddShipTF = slot0.unlockSlot:Find("empty")
-	slot0.emptyBtn = slot0.unlockSlot:Find("emptyBtn")
+	slot0.quickBtn = slot0.unlockSlot:Find("emptyBtn")
 	slot0.contentTF = slot0.unlockSlot:Find("content")
 	slot0.processTF = slot0.contentTF:Find("process")
 	slot0.selectShipTF = slot0.processTF:Find("ship/selectShip")
@@ -68,6 +68,7 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.getBtn:Find("Text"), i18n("island_production_collect"))
 	setText(slot0.addBtn:Find("num"), i18n("island_additional_production_tip1"))
 	setText(slot0.currentFormula:Find("tips"), i18n("island_production_count"))
+	setText(slot0.quickBtn:Find("Text"), i18n("island_quick_delegation"))
 	slot0:ApplyDiff()
 
 	slot0.extraProductList = UIItemList.New(slot0.extraProduct:Find("process"), slot0.extraProduct:Find("process/item"))
@@ -135,6 +136,26 @@ slot0.OnInit = function(slot0)
 			setActive(slot2:Find("inprocess"), slot1 < uv0.extraProcess)
 		end
 	end)
+	onButton(slot0, slot0.quickBtn, function ()
+		slot1, slot2 = (function ()
+			return UnpackIntFromString(PlayerPrefs.GetString(IslandStartDelegationCommand.GetLocalKeyForLastData(uv0.slotId), ""))
+		end)()
+		slot4 = math.floor(pg.island_formula[slot2].stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot1, uv0.placeId)))
+
+		if not getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1):IsDelegable() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_quick_delegation_notenough_onduty", slot6:GetName()))
+
+			uv0.selectedShipId = 1
+		elseif slot6:GetCurrentEnergy() < slot4 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_quick_delegation_notenough_encourage", slot6:GetName()))
+
+			uv0.selectedShipId = 1
+		else
+			uv0.selectedShipId = slot1
+		end
+
+		uv0:OpenFormulaSelectPage(nil, , , , slot2)
+	end, SFX_PANEL)
 end
 
 slot0.ShowDetailPanel = function(slot0)
@@ -200,7 +221,13 @@ slot0.FlushInfos = function(slot0)
 		setActive(slot0.finishTF, false)
 		setActive(slot0.emptyAddShipTF, not slot0.selectedShipId)
 		setActive(slot0.contentTF, slot0.selectedShipId)
-		setActive(slot0.emptyBtn, not slot0.selectedShipId)
+
+		if PlayerPrefs.GetString(IslandStartDelegationCommand.GetLocalKeyForLastData(slot0.slotId), "") ~= "" then
+			setActive(slot0.quickBtn, true)
+		else
+			setActive(slot0.quickBtn, false)
+		end
+
 		setActive(slot0.processTF, slot0.selectedShipId)
 		setActive(slot0.selectShipBtn, slot0.selectedShipId)
 		setActive(slot0.selectFormulaBtn, slot0.selectedShipId)
@@ -208,11 +235,11 @@ slot0.FlushInfos = function(slot0)
 
 		if slot0.selectedShipId then
 			slot0.showShip = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0.selectedShipId)
-			slot4 = slot0.showShip:GetCurrentEnergy()
-			slot5 = slot0.showShip:GetMaxEnergy()
+			slot6 = slot0.showShip:GetCurrentEnergy()
+			slot7 = slot0.showShip:GetMaxEnergy()
 
-			setText(slot0.energyTFText, slot4 .. "/" .. slot5)
-			setSlider(slot0.energySliderTF, 0, 1, slot4 / slot5)
+			setText(slot0.energyTFText, slot6 .. "/" .. slot7)
+			setSlider(slot0.energySliderTF, 0, 1, slot6 / slot7)
 			setText(slot0.seletShipName, slot0.showShip:GetName())
 			GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. IslandShip.StaticGetPrefab(slot0.selectedShipId), "", slot0.shipIconTF)
 		end
@@ -222,7 +249,7 @@ slot0.FlushInfos = function(slot0)
 	else
 		setActive(slot0.contentTF, true)
 		setActive(slot0.emptyAddShipTF, false)
-		setActive(slot0.emptyBtn, false)
+		setActive(slot0.quickBtn, false)
 		setActive(slot0.selectShipBtn, false)
 		setActive(slot0.selectFormulaBtn, false)
 
@@ -364,7 +391,7 @@ slot0.OpenShipSelectPage = function(slot0)
 	})
 end
 
-slot0.OpenFormulaSelectPage = function(slot0, slot1, slot2, slot3, slot4)
+slot0.OpenFormulaSelectPage = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:emit(IslandMediator.OPEN_PAGE, "IslandFormulaSelectPage", {
 		{
 			commissionId = slot0.commissionId,
@@ -373,6 +400,7 @@ slot0.OpenFormulaSelectPage = function(slot0, slot1, slot2, slot3, slot4)
 			addDelegateFormula = slot1,
 			addDelegateFormulaTimes = slot2,
 			canRewardTime = slot3,
+			selectFormulaId = slot5,
 			confirmFunc = function ()
 				if uv0.contextData and uv0.contextData.isPermanent then
 					return

@@ -1,6 +1,143 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
+	[303080] = {
+		name = "{namecode:64}",
+		change_skin = "",
+		desc = "{namecode:63}级重巡洋舰二番舰—{namecode:64}",
+		illustrator2 = -1,
+		ship_group = 30308,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "nazhi",
+		lover_hand = "hand_1_02",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 303080,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "nazhi",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 63,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = 20,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.781,
+					0.548,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.781,
+					0.548,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.161,
+					0.189,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.781,
+					0.548,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							0.298,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.15,
+							-0.34
+						}
+					}
+				}
+			}
+		}
+	},
 	[303089] = {
 		name = "{namecode:64}.改",
 		change_skin = "",
@@ -17059,15 +17196,15 @@ pg.base.ship_skin_template_9 = {
 		bound_bone = {
 			antiaircraft = {
 				{
-					1.52,
-					1.17,
+					0.85,
+					2.239,
 					0
 				}
 			},
 			plane = {
 				{
-					1.5,
-					1.12,
+					1.101,
+					0.967,
 					0
 				}
 			}
@@ -17079,8 +17216,8 @@ pg.base.ship_skin_template_9 = {
 					{
 						"smoke",
 						{
-							-0.55,
-							2.32,
+							-0.872,
+							2.396,
 							0
 						}
 					}
@@ -17088,23 +17225,23 @@ pg.base.ship_skin_template_9 = {
 			}
 		}
 	},
-	[306090] = {
-		name = "{namecode:104}",
+	[306083] = {
+		name = "莲池茶香",
 		change_skin = "",
-		desc = "{namecode:88}级轻型航空母舰—{namecode:104}",
+		desc = "空闲的时候，我就会来莲池放松身心……指挥官，你要不要和我一起坐下，感受这清茶净身的趣味？",
 		illustrator2 = -1,
-		ship_group = 30609,
-		group_index = 0,
+		ship_group = 30608,
+		group_index = 3,
 		purchase_offset = "",
-		painting = "qiandaitian",
-		lover_hand = "hand_2_02",
-		skin_type = -1,
-		shop_type_id = 0,
+		painting = "qiansui_4",
+		lover_hand = "",
+		skin_type = 4,
+		shop_type_id = 3,
 		l2d_ignore_drag = 0,
 		hand_id = 14,
 		lip_smoothing = 0,
 		l2d_animations = "",
-		lover_kiss = "lip02",
+		lover_kiss = "",
 		bg_sp = "",
 		bg = "",
 		bgm = "",
@@ -17113,17 +17250,16 @@ pg.base.ship_skin_template_9 = {
 		spine_offset_profile = "",
 		shop_offset = "",
 		special_effects = "",
-		id = 306090,
+		id = 306083,
 		voice_actor_2 = -1,
 		gyro = 0,
 		ship_l2d_id = "",
 		l2d_drag_rate = "",
-		prefab = "qiandaitian",
+		prefab = "qiansui_4",
 		l2d_se = "",
 		part_scale = "",
-		get_showing = "",
 		main_UI_FX = "",
-		shop_id = 0,
+		shop_id = 71313,
 		voice_actor = 244,
 		shop_dynamic_hx = 0,
 		spine_offset = "",
@@ -17169,15 +17305,15 @@ pg.base.ship_skin_template_9 = {
 		bound_bone = {
 			antiaircraft = {
 				{
-					1.513,
-					1.148,
+					0.935,
+					2.044,
 					0
 				}
 			},
 			plane = {
 				{
-					1.572,
-					1.175,
+					1.127,
+					1.035,
 					0
 				}
 			}
@@ -17189,123 +17325,40 @@ pg.base.ship_skin_template_9 = {
 					{
 						"smoke",
 						{
-							-0.52,
-							2.27,
+							-0.55,
+							2.32,
 							0
 						}
 					}
 				}
 			}
-		}
-	},
-	[306091] = {
-		name = "碧波灿烂之日",
-		change_skin = "",
-		desc = "哼哼哼~今天没有别的安排，唯一的任务就是——尽情享受海边的假日！指挥官，切换到假期模式了吗？",
-		illustrator2 = -1,
-		ship_group = 30609,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "qiandaitian_2",
-		lover_hand = "hand_2_02",
-		skin_type = 4,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "106",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 306091,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "qiandaitian_2",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 70409,
-		voice_actor = 244,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
 		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
+		get_showing = {
+			show = 1,
+			data = {
 				{
-					1.679,
-					1.103,
-					0
-				}
-			},
-			plane = {
+					-2356,
+					-558,
+					2,
+					0,
+					148,
+					2
+				},
 				{
-					1.488,
-					1.128,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
+					-1191,
+					528,
+					2,
+					113,
+					0,
+					2
+				},
 				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.27,
-							0
-						}
-					}
+					-283,
+					-361,
+					2,
+					0,
+					-151,
+					2
 				}
 			}
 		}

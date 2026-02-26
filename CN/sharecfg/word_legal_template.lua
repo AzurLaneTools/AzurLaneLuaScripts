@@ -2347,6 +2347,13 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["加"] = {
+			["特"] = {
+				["里"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -7894,6 +7901,16 @@ end
 temp()
 
 temp = function()
+	uv0["顽"] = {
+		["皮"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["水"] = {
 		["星"] = {
 			["纪"] = {
@@ -7982,10 +7999,35 @@ end
 temp()
 
 temp = function()
+	uv0["红"] = {
+		["色"] = {
+			["山"] = {
+				["脉"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["甘"] = {
 		["古"] = {
 			["特"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

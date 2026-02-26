@@ -85,7 +85,7 @@ slot0.OnInit = function(slot0)
 	slot0:bind(LevelUIConst.SWITCH_SPCHAPTER_DIFFICULTY, function (slot0, slot1)
 		uv0:SwitchChapter(slot1)
 	end)
-	onButton(slot0, slot0.battleLayer:Find("Story/Switch"), function ()
+	onButton(slot0, slot0.battleLayer:Find("Mask/Story/Switch"), function ()
 		uv0:SetDisplayMode(uv1.DISPLAY.STORY)
 
 		uv0.needFocusStory = true
@@ -256,8 +256,15 @@ slot0.UpdateView = function(slot0)
 
 	setActive(slot0._tf:Find("Battle"), slot3)
 	setActive(slot0._tf:Find("Story"), not slot3)
-	setActive(slot0.battleLayer:Find("Story/BattleTip"), false)
+	setActive(slot0.battleLayer:Find("Mask/Story/BattleTip"), false)
 	setActive(slot0.storyLayer:Find("Battle/BattleTip"), getProxy(ChapterProxy):IsActivitySPChapterActive(slot0.contextData.map:getConfig("on_activity")) and SettingsProxy.IsShowActivityMapSPTip())
+
+	slot5 = slot0.battleLayer:Find("Mask"):GetComponent(typeof(RectMask2D))
+
+	if type(slot0.spStoryIDs) ~= "table" or #slot0.spStoryIDs == 0 then
+		slot5.enabled = true
+	end
+
 	slot0:UpdateStoryTask()
 
 	if slot3 then
@@ -1122,7 +1129,11 @@ slot0.PlayStory = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.UpdateStoryTask = function(slot0)
-	if not getProxy(TaskProxy):getTaskVO(slot0.activity:getConfig("config_client").task_id) then
+	if not slot0.activity:getConfig("config_client").task_id then
+		return
+	end
+
+	if not getProxy(TaskProxy):getTaskVO(slot1) then
 		errorMsg("Missing Activity Task ID : " .. slot1)
 	end
 

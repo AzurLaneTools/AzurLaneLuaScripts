@@ -43,19 +43,20 @@ slot0.execute = function(slot0, slot1)
 				slot1:UpdateDeleationRewardDataBySlotId(uv2, slot0.award[1])
 			end
 
-			slot3 = uv3:GetShipById(slot0.ship_id)
-
-			slot3:UpdateEnergy(slot0.cur_energy)
-			slot3:UpdateEnergyBeginRecoverTime(slot0.recover_time)
-			slot3:AddExp(slot0.add_exp)
+			uv3:GetShipById(slot0.ship_id):AddExp(slot0.add_exp)
 
 			slot4 = nil
 
-			if #slot0.award == 0 and slot0.add_exp > 0 then
-				slot4 = {
-					addShipId = slot0.ship_id,
-					addExp = slot0.add_exp
-				}
+			if #slot0.award == 0 then
+				if slot0.add_exp > 0 then
+					slot4 = {
+						addShipId = slot0.ship_id,
+						addExp = slot0.add_exp
+					}
+				end
+
+				slot3:UpdateEnergy(slot0.cur_energy)
+				slot3:UpdateEnergyBeginRecoverTime(slot0.recover_time)
 			end
 
 			uv4:DispatchEvent(uv5.END_DELEGATION, {

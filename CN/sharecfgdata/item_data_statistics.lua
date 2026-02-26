@@ -16414,6 +16414,37 @@ _G.pg.base.item_data_statistics[21056] = {
 }
 
 
+_G.pg.base.item_data_statistics[21057] = {
+	open_directly = 0,
+	name = "结晶：甘古特·META",
+	type = 4,
+	display = "甘古特·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21057",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -29078,6 +29109,131 @@ _G.pg.base.item_data_statistics[30380] = {
 		{
 			9,
 			4311,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30381] = {
+	open_directly = 1,
+	name = "外观装备箱(春满客栈)",
+	type = 11,
+	display = "可以获得一件随机的春满客栈风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunmankezhan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30378",
+	id = 30381,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4312,
+			1
+		},
+		{
+			9,
+			4313,
+			1
+		},
+		{
+			9,
+			4314,
+			1
+		},
+		{
+			9,
+			4315,
+			1
+		},
+		{
+			9,
+			4316,
+			1
+		},
+		{
+			9,
+			4317,
+			1
+		},
+		{
+			9,
+			4318,
+			1
+		},
+		{
+			9,
+			4319,
+			1
+		},
+		{
+			9,
+			4320,
+			1
+		},
+		{
+			9,
+			4321,
+			1
+		},
+		{
+			9,
+			4322,
+			1
+		},
+		{
+			9,
+			4323,
+			1
+		},
+		{
+			9,
+			4324,
+			1
+		},
+		{
+			9,
+			4325,
+			1
+		},
+		{
+			9,
+			4326,
+			1
+		},
+		{
+			9,
+			4327,
+			1
+		},
+		{
+			9,
+			4328,
+			1
+		},
+		{
+			9,
+			4329,
 			1
 		}
 	},
@@ -44446,6 +44602,219 @@ _G.pg.base.item_data_statistics[30564] = {
 }
 
 
+_G.pg.base.item_data_statistics[30565] = {
+	open_directly = 0,
+	name = "定向外观装备箱(春满客栈)",
+	type = 13,
+	display = "使用后可从「春满客栈」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunmankezhanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30565,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4312,
+			1
+		},
+		{
+			9,
+			4313,
+			1
+		},
+		{
+			9,
+			4314,
+			1
+		},
+		{
+			9,
+			4315,
+			1
+		},
+		{
+			9,
+			4316,
+			1
+		},
+		{
+			9,
+			4317,
+			1
+		},
+		{
+			9,
+			4318,
+			1
+		},
+		{
+			9,
+			4319,
+			1
+		},
+		{
+			9,
+			4320,
+			1
+		},
+		{
+			9,
+			4321,
+			1
+		},
+		{
+			9,
+			4322,
+			1
+		},
+		{
+			9,
+			4323,
+			1
+		},
+		{
+			9,
+			4324,
+			1
+		},
+		{
+			9,
+			4325,
+			1
+		},
+		{
+			9,
+			4326,
+			1
+		},
+		{
+			9,
+			4327,
+			1
+		},
+		{
+			9,
+			4328,
+			1
+		},
+		{
+			9,
+			4329,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4312,
+			1
+		},
+		{
+			9,
+			4313,
+			1
+		},
+		{
+			9,
+			4314,
+			1
+		},
+		{
+			9,
+			4315,
+			1
+		},
+		{
+			9,
+			4316,
+			1
+		},
+		{
+			9,
+			4317,
+			1
+		},
+		{
+			9,
+			4318,
+			1
+		},
+		{
+			9,
+			4319,
+			1
+		},
+		{
+			9,
+			4320,
+			1
+		},
+		{
+			9,
+			4321,
+			1
+		},
+		{
+			9,
+			4322,
+			1
+		},
+		{
+			9,
+			4323,
+			1
+		},
+		{
+			9,
+			4324,
+			1
+		},
+		{
+			9,
+			4325,
+			1
+		},
+		{
+			9,
+			4326,
+			1
+		},
+		{
+			9,
+			4327,
+			1
+		},
+		{
+			9,
+			4328,
+			1
+		},
+		{
+			9,
+			4329,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "定向部件T4",
@@ -49229,6 +49598,90 @@ _G.pg.base.item_data_statistics[40076] = {
 			2,
 			30113,
 			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40077] = {
+	open_directly = 1,
+	name = "春满客栈主题礼包(基础版)",
+	type = 17,
+	display = "购买礼包可获得战斗界面主题 春满客栈*1,1000物资",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui8",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4077",
+	id = 40077,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			207,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40078] = {
+	open_directly = 1,
+	name = "春满客栈主题礼包(豪华版)",
+	type = 17,
+	display = "购买礼包可获得战斗界面主题 春满客栈*1,3060钻石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui8",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4078",
+	id = 40078,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			207,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},
@@ -126982,6 +127435,357 @@ _G.pg.base.item_data_statistics[68207] = {
 }
 
 
+_G.pg.base.item_data_statistics[68208] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(情感数据维护中)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>博加特里</color>换装<color=#92fc63FF>情感数据维护中</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906598",
+	id = 68208,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68211,
+			1
+		},
+		{
+			2,
+			68214,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68209] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(杯盏盈芳华)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>怨仇</color>换装<color=#92fc63FF>杯盏盈芳华</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906599",
+	id = 68209,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68212,
+			1
+		},
+		{
+			2,
+			68215,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68210] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(深阁舞戏)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:521}</color>换装<color=#92fc63FF>深阁舞戏</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906600",
+	id = 68210,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68213,
+			1
+		},
+		{
+			2,
+			68216,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68211] = {
+	open_directly = 0,
+	name = "换装抵扣券(情感数据维护中)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>博加特里</color>换装<color=#92fc63FF>情感数据维护中</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年3月4日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68211,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71310
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68212] = {
+	open_directly = 0,
+	name = "换装抵扣券(杯盏盈芳华)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>怨仇</color>换装<color=#92fc63FF>杯盏盈芳华</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年3月4日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68212,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71311
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68213] = {
+	open_directly = 0,
+	name = "换装抵扣券(深阁舞戏)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:521}</color>换装<color=#92fc63FF>深阁舞戏</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年3月4日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68213,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71312
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68214] = {
+	open_directly = 0,
+	name = "换装体验券(情感数据维护中)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>博加特里</color>换装<color=#92fc63FF>情感数据维护中</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年3月4日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68214,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90441
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68215] = {
+	open_directly = 0,
+	name = "换装体验券(杯盏盈芳华)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>怨仇</color>换装<color=#92fc63FF>杯盏盈芳华</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年3月4日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68215,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90442
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68216] = {
+	open_directly = 0,
+	name = "换装体验券(深阁舞戏)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:521}</color>换装<color=#92fc63FF>深阁舞戏</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年3月4日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68216,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90443
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "绚烂缤纷夜福袋·I",
@@ -129609,6 +130413,73 @@ _G.pg.base.item_data_statistics[81232] = {
 		{
 			2,
 			86224,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81233] = {
+	open_directly = 1,
+	name = "2026年春节福袋·II",
+	type = 17,
+	display = "购买礼包可获得随机换装*1，钻石*2026，心智单元*50，心智魔方*20，高级定向蓝图·八期*2，快速完成工具*10，家具币*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai33",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998329",
+	id = 81233,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86225,
 			1
 		},
 		{

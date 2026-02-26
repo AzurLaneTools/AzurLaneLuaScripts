@@ -295,6 +295,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[207] = {
+		name = "春满客栈",
+		key = "SkinElite_20260226",
+		display_icon = "ui_207",
+		unlock = "春满客栈战斗主题礼包获取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "将客栈的喧闹与暖意融入界面，在烟花灯笼与爆竹声中，进行一场别开生面的新春对决吧。",
+		id = 207,
+		icon = "207",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -314,6 +331,7 @@ pg.item_data_battleui = {
 		203,
 		204,
 		205,
-		206
+		206,
+		207
 	}
 }

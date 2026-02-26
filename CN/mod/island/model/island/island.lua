@@ -131,7 +131,7 @@ slot0.UpdatePerDay = function(slot0)
 	slot0:GetOrderAgency():UpdatePerDay()
 	slot0:GetTaskAgency():UpdatePerDay()
 	slot0:GetNpcFeedbackAgency():UpdatePerDay()
-	slot0:GetTicketAgency():UpdatePerDay()
+	slot0:GetSignInAgency():UpdatePerDay()
 end
 
 slot0.UpdatePerSecond = function(slot0)

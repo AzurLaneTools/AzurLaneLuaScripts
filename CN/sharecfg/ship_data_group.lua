@@ -1730,17 +1730,26 @@ pg.ship_data_group = setmetatable({
 		[70111] = {
 			626
 		},
+		[70113] = {
+			728
+		},
 		[70112] = {
 			627
 		},
 		[70201] = {
 			262
 		},
+		[70210] = {
+			730
+		},
 		[70202] = {
 			434
 		},
 		[70208] = {
 			688
+		},
+		[70209] = {
+			729
 		},
 		[70206] = {
 			498
@@ -1762,6 +1771,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[70302] = {
 			586
+		},
+		[70303] = {
+			727
 		},
 		[70501] = {
 			437
@@ -2530,6 +2542,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970111] = {
 			30056
+		},
+		[970510] = {
+			30057
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3110,10 +3125,13 @@ pg.ship_data_group = setmetatable({
 			475,
 			535,
 			626,
+			728,
 			627,
 			262,
+			730,
 			434,
 			688,
+			729,
 			498,
 			435,
 			588,
@@ -3121,6 +3139,7 @@ pg.ship_data_group = setmetatable({
 			577,
 			496,
 			586,
+			727,
 			437,
 			438,
 			440,
@@ -3382,7 +3401,8 @@ pg.ship_data_group = setmetatable({
 			30053,
 			30054,
 			30055,
-			30056
+			30056,
+			30057
 		}
 	},
 	all = {
@@ -3962,10 +3982,13 @@ pg.ship_data_group = setmetatable({
 		475,
 		535,
 		626,
+		728,
 		627,
 		262,
+		730,
 		434,
 		688,
+		729,
 		498,
 		435,
 		588,
@@ -3973,6 +3996,7 @@ pg.ship_data_group = setmetatable({
 		577,
 		496,
 		586,
+		727,
 		437,
 		438,
 		440,
@@ -4228,7 +4252,8 @@ pg.ship_data_group = setmetatable({
 		30053,
 		30054,
 		30055,
-		30056
+		30056,
+		30057
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -29635,6 +29660,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[728] = {
+		nationality = 7,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70113,
+		index_id = 579,
+		code = 728,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：春满客栈Online",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[627] = {
 		nationality = 7,
 		type = 1,
@@ -29644,7 +29701,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70112,
-		index_id = 579,
+		index_id = 580,
 		code = 627,
 		share_group_id = {},
 		property_hexagon = {
@@ -29676,7 +29733,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70201,
-		index_id = 580,
+		index_id = 581,
 		code = 262,
 		share_group_id = {},
 		property_hexagon = {
@@ -29717,6 +29774,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[730] = {
+		nationality = 7,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70210,
+		index_id = 582,
+		code = 730,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：春满客栈Online",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[434] = {
 		nationality = 7,
 		type = 2,
@@ -29726,7 +29815,7 @@ pg.base.ship_data_group = {
 		trans_skin = 702029,
 		hide = 0,
 		group_type = 70202,
-		index_id = 581,
+		index_id = 583,
 		code = 434,
 		share_group_id = {},
 		property_hexagon = {
@@ -29778,7 +29867,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70208,
-		index_id = 582,
+		index_id = 584,
 		code = 688,
 		share_group_id = {},
 		property_hexagon = {
@@ -29801,6 +29890,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[729] = {
+		nationality = 7,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70209,
+		index_id = 585,
+		code = 729,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：春满客栈Online",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[498] = {
 		nationality = 7,
 		type = 2,
@@ -29810,7 +29931,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70206,
-		index_id = 583,
+		index_id = 586,
 		code = 498,
 		share_group_id = {},
 		property_hexagon = {
@@ -29853,7 +29974,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70204,
-		index_id = 584,
+		index_id = 587,
 		code = 435,
 		share_group_id = {},
 		property_hexagon = {
@@ -29896,7 +30017,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70207,
-		index_id = 585,
+		index_id = 588,
 		code = 588,
 		share_group_id = {},
 		property_hexagon = {
@@ -29928,7 +30049,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70203,
-		index_id = 586,
+		index_id = 589,
 		code = 436,
 		share_group_id = {},
 		property_hexagon = {
@@ -29971,7 +30092,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70205,
-		index_id = 587,
+		index_id = 590,
 		code = 577,
 		share_group_id = {},
 		property_hexagon = {
@@ -30014,7 +30135,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70301,
-		index_id = 588,
+		index_id = 591,
 		code = 496,
 		share_group_id = {},
 		property_hexagon = {
@@ -30057,7 +30178,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70302,
-		index_id = 589,
+		index_id = 592,
 		code = 586,
 		share_group_id = {},
 		property_hexagon = {
@@ -30080,6 +30201,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[727] = {
+		nationality = 3,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70303,
+		index_id = 593,
+		code = 727,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"B",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：春满客栈Online",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[437] = {
 		nationality = 7,
 		type = 5,
@@ -30089,7 +30242,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70501,
-		index_id = 590,
+		index_id = 594,
 		code = 437,
 		share_group_id = {},
 		property_hexagon = {
@@ -30131,7 +30284,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70502,
-		index_id = 591,
+		index_id = 595,
 		code = 438,
 		share_group_id = {},
 		property_hexagon = {
@@ -30163,7 +30316,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70504,
-		index_id = 592,
+		index_id = 596,
 		code = 440,
 		share_group_id = {},
 		property_hexagon = {
@@ -30206,7 +30359,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70505,
-		index_id = 593,
+		index_id = 597,
 		code = 441,
 		share_group_id = {},
 		property_hexagon = {
@@ -30249,7 +30402,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70506,
-		index_id = 594,
+		index_id = 598,
 		code = 536,
 		share_group_id = {},
 		property_hexagon = {
@@ -30292,7 +30445,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70507,
-		index_id = 595,
+		index_id = 599,
 		code = 587,
 		share_group_id = {},
 		property_hexagon = {
@@ -30324,7 +30477,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70508,
-		index_id = 596,
+		index_id = 600,
 		code = 628,
 		share_group_id = {},
 		property_hexagon = {
@@ -30356,7 +30509,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70509,
-		index_id = 597,
+		index_id = 601,
 		code = 685,
 		share_group_id = {},
 		property_hexagon = {
@@ -30388,7 +30541,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 70701,
-		index_id = 598,
+		index_id = 602,
 		code = 538,
 		share_group_id = {},
 		property_hexagon = {
@@ -30431,7 +30584,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 71801,
-		index_id = 599,
+		index_id = 603,
 		code = 539,
 		share_group_id = {},
 		property_hexagon = {
@@ -30485,7 +30638,7 @@ pg.base.ship_data_group = {
 		trans_skin = 801029,
 		hide = 0,
 		group_type = 80102,
-		index_id = 600,
+		index_id = 604,
 		code = 348,
 		share_group_id = {},
 		property_hexagon = {
@@ -30537,7 +30690,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80103,
-		index_id = 601,
+		index_id = 605,
 		code = 359,
 		share_group_id = {
 			80109
@@ -30574,7 +30727,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80104,
-		index_id = 602,
+		index_id = 606,
 		code = 395,
 		share_group_id = {},
 		property_hexagon = {
@@ -30626,7 +30779,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80105,
-		index_id = 603,
+		index_id = 607,
 		code = 701,
 		share_group_id = {},
 		property_hexagon = {
@@ -30658,7 +30811,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80109,
-		index_id = 604,
+		index_id = 608,
 		code = 637,
 		share_group_id = {
 			80103
@@ -30692,7 +30845,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80101,
-		index_id = 605,
+		index_id = 609,
 		code = 347,
 		share_group_id = {},
 		property_hexagon = {
@@ -30744,7 +30897,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80107,
-		index_id = 606,
+		index_id = 610,
 		code = 522,
 		share_group_id = {},
 		property_hexagon = {
@@ -30787,7 +30940,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80108,
-		index_id = 607,
+		index_id = 611,
 		code = 523,
 		share_group_id = {},
 		property_hexagon = {
@@ -30830,7 +30983,7 @@ pg.base.ship_data_group = {
 		trans_skin = 802019,
 		hide = 0,
 		group_type = 80201,
-		index_id = 608,
+		index_id = 612,
 		code = 349,
 		share_group_id = {},
 		property_hexagon = {
@@ -30881,7 +31034,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80202,
-		index_id = 609,
+		index_id = 613,
 		code = 454,
 		share_group_id = {},
 		property_hexagon = {
@@ -30924,7 +31077,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80203,
-		index_id = 610,
+		index_id = 614,
 		code = 603,
 		share_group_id = {},
 		property_hexagon = {
@@ -30956,7 +31109,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80204,
-		index_id = 611,
+		index_id = 615,
 		code = 702,
 		share_group_id = {},
 		property_hexagon = {
@@ -30988,7 +31141,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80301,
-		index_id = 612,
+		index_id = 616,
 		code = 600,
 		share_group_id = {},
 		property_hexagon = {
@@ -31020,7 +31173,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80302,
-		index_id = 613,
+		index_id = 617,
 		code = 643,
 		share_group_id = {},
 		property_hexagon = {
@@ -31052,7 +31205,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80303,
-		index_id = 614,
+		index_id = 618,
 		code = 700,
 		share_group_id = {},
 		property_hexagon = {
@@ -31084,7 +31237,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80401,
-		index_id = 615,
+		index_id = 619,
 		code = 698,
 		share_group_id = {},
 		property_hexagon = {
@@ -31116,7 +31269,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80501,
-		index_id = 616,
+		index_id = 620,
 		code = 453,
 		share_group_id = {},
 		property_hexagon = {
@@ -31159,7 +31312,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80502,
-		index_id = 617,
+		index_id = 621,
 		code = 602,
 		share_group_id = {},
 		property_hexagon = {
@@ -31191,7 +31344,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80503,
-		index_id = 618,
+		index_id = 622,
 		code = 641,
 		share_group_id = {},
 		property_hexagon = {
@@ -31223,7 +31376,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80601,
-		index_id = 619,
+		index_id = 623,
 		code = 699,
 		share_group_id = {},
 		property_hexagon = {
@@ -31255,7 +31408,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80701,
-		index_id = 620,
+		index_id = 624,
 		code = 458,
 		share_group_id = {},
 		property_hexagon = {
@@ -31297,7 +31450,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80702,
-		index_id = 621,
+		index_id = 625,
 		code = 599,
 		share_group_id = {},
 		property_hexagon = {
@@ -31329,7 +31482,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 80801,
-		index_id = 622,
+		index_id = 626,
 		code = 350,
 		share_group_id = {},
 		property_hexagon = {
@@ -31372,7 +31525,7 @@ pg.base.ship_data_group = {
 		trans_skin = 901019,
 		hide = 0,
 		group_type = 90101,
-		index_id = 623,
+		index_id = 627,
 		code = 351,
 		share_group_id = {},
 		property_hexagon = {
@@ -31434,7 +31587,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90102,
-		index_id = 624,
+		index_id = 628,
 		code = 452,
 		share_group_id = {},
 		property_hexagon = {
@@ -31477,7 +31630,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90103,
-		index_id = 625,
+		index_id = 629,
 		code = 457,
 		share_group_id = {},
 		property_hexagon = {
@@ -31520,7 +31673,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90104,
-		index_id = 626,
+		index_id = 630,
 		code = 601,
 		share_group_id = {},
 		property_hexagon = {
@@ -31552,7 +31705,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90105,
-		index_id = 627,
+		index_id = 631,
 		code = 645,
 		share_group_id = {},
 		property_hexagon = {
@@ -31584,7 +31737,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90106,
-		index_id = 628,
+		index_id = 632,
 		code = 646,
 		share_group_id = {},
 		property_hexagon = {
@@ -31616,7 +31769,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90107,
-		index_id = 629,
+		index_id = 633,
 		code = 642,
 		share_group_id = {},
 		property_hexagon = {
@@ -31648,7 +31801,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90111,
-		index_id = 630,
+		index_id = 634,
 		code = 394,
 		share_group_id = {
 			90112
@@ -31702,7 +31855,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90113,
-		index_id = 631,
+		index_id = 635,
 		code = 556,
 		share_group_id = {},
 		property_hexagon = {
@@ -31745,7 +31898,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90112,
-		index_id = 632,
+		index_id = 636,
 		code = 481,
 		share_group_id = {
 			90111
@@ -31789,7 +31942,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90114,
-		index_id = 633,
+		index_id = 637,
 		code = 653,
 		share_group_id = {},
 		property_hexagon = {
@@ -31821,7 +31974,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90201,
-		index_id = 634,
+		index_id = 638,
 		code = 456,
 		share_group_id = {},
 		property_hexagon = {
@@ -31863,7 +32016,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90202,
-		index_id = 635,
+		index_id = 639,
 		code = 598,
 		share_group_id = {},
 		property_hexagon = {
@@ -31895,7 +32048,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90301,
-		index_id = 636,
+		index_id = 640,
 		code = 524,
 		share_group_id = {},
 		property_hexagon = {
@@ -31938,7 +32091,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90302,
-		index_id = 637,
+		index_id = 641,
 		code = 455,
 		share_group_id = {},
 		property_hexagon = {
@@ -31981,7 +32134,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90303,
-		index_id = 638,
+		index_id = 642,
 		code = 654,
 		share_group_id = {},
 		property_hexagon = {
@@ -32013,7 +32166,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90401,
-		index_id = 639,
+		index_id = 643,
 		code = 352,
 		share_group_id = {},
 		property_hexagon = {
@@ -32056,7 +32209,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90402,
-		index_id = 640,
+		index_id = 644,
 		code = 652,
 		share_group_id = {},
 		property_hexagon = {
@@ -32088,7 +32241,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90501,
-		index_id = 641,
+		index_id = 645,
 		code = 353,
 		share_group_id = {},
 		property_hexagon = {
@@ -32140,7 +32293,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90502,
-		index_id = 642,
+		index_id = 646,
 		code = 604,
 		share_group_id = {},
 		property_hexagon = {
@@ -32172,7 +32325,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90503,
-		index_id = 643,
+		index_id = 647,
 		code = 418,
 		share_group_id = {
 			99901
@@ -32226,7 +32379,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90701,
-		index_id = 644,
+		index_id = 648,
 		code = 555,
 		share_group_id = {},
 		property_hexagon = {
@@ -32269,7 +32422,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 110101,
-		index_id = 645,
+		index_id = 649,
 		code = 687,
 		share_group_id = {},
 		property_hexagon = {
@@ -32301,7 +32454,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 110201,
-		index_id = 646,
+		index_id = 650,
 		code = 686,
 		share_group_id = {},
 		property_hexagon = {
@@ -32333,7 +32486,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960001,
-		index_id = 647,
+		index_id = 651,
 		code = 571,
 		share_group_id = {},
 		property_hexagon = {
@@ -32375,7 +32528,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960002,
-		index_id = 648,
+		index_id = 652,
 		code = 613,
 		share_group_id = {},
 		property_hexagon = {
@@ -32418,7 +32571,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960003,
-		index_id = 649,
+		index_id = 653,
 		code = 610,
 		share_group_id = {},
 		property_hexagon = {
@@ -32461,7 +32614,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960004,
-		index_id = 650,
+		index_id = 654,
 		code = 611,
 		share_group_id = {},
 		property_hexagon = {
@@ -32504,7 +32657,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960005,
-		index_id = 651,
+		index_id = 655,
 		code = 614,
 		share_group_id = {},
 		property_hexagon = {
@@ -32547,7 +32700,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960006,
-		index_id = 652,
+		index_id = 656,
 		code = 612,
 		share_group_id = {},
 		property_hexagon = {
@@ -32589,7 +32742,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960007,
-		index_id = 653,
+		index_id = 657,
 		code = 664,
 		share_group_id = {},
 		property_hexagon = {
@@ -32621,7 +32774,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960008,
-		index_id = 654,
+		index_id = 658,
 		code = 665,
 		share_group_id = {},
 		property_hexagon = {
@@ -32653,7 +32806,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960009,
-		index_id = 655,
+		index_id = 659,
 		code = 666,
 		share_group_id = {},
 		property_hexagon = {
@@ -32685,7 +32838,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960010,
-		index_id = 656,
+		index_id = 660,
 		code = 667,
 		share_group_id = {},
 		property_hexagon = {
@@ -32717,7 +32870,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960011,
-		index_id = 657,
+		index_id = 661,
 		code = 668,
 		share_group_id = {},
 		property_hexagon = {
@@ -32749,7 +32902,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960012,
-		index_id = 658,
+		index_id = 662,
 		code = 709,
 		share_group_id = {},
 		property_hexagon = {
@@ -32781,7 +32934,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960013,
-		index_id = 659,
+		index_id = 663,
 		code = 710,
 		share_group_id = {},
 		property_hexagon = {
@@ -32813,7 +32966,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960014,
-		index_id = 660,
+		index_id = 664,
 		code = 711,
 		share_group_id = {},
 		property_hexagon = {
@@ -32845,7 +32998,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960015,
-		index_id = 661,
+		index_id = 665,
 		code = 712,
 		share_group_id = {},
 		property_hexagon = {
@@ -32877,7 +33030,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960016,
-		index_id = 662,
+		index_id = 666,
 		code = 713,
 		share_group_id = {},
 		property_hexagon = {
@@ -39025,6 +39178,38 @@ pg.base.ship_data_group = {
 					{
 						autoOpenShipConfigID = 9701111
 					}
+				},
+				0
+			}
+		}
+	},
+	[30057] = {
+		nationality = 97,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970510,
+		index_id = 30057,
+		code = 30057,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：春满客栈Online",
+				{
+					""
 				},
 				0
 			}

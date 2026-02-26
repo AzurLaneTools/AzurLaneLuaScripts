@@ -21,6 +21,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.statusPanel = IslandShipStatusPanel.New(slot0._tf:Find("adapt/attr_panel/status"), slot0._tf:Find("adapt/attr_panel/status_empty"))
 
 	setText(slot0.emptyTr:Find("Text"), i18n("island_select_ship_gift"))
+
+	slot0.powerTr = slot0._tf:Find("adapt/attr_panel/power")
+
+	setText(slot0.powerTr:Find("Text"), i18n("island_gift_tip_title"))
 end
 
 slot0.OnInit = function(slot0)
@@ -32,6 +36,16 @@ slot0.OnInit = function(slot0)
 		end
 
 		slot0 = {}
+
+		if uv0.maxPower < uv0.addPower + uv0.curPower then
+			table.insert(slot0, function (slot0)
+				uv0:ShowMsgBox({
+					type = IslandMsgBox.TYPE_COMMON,
+					content = i18n("island_gift_tip"),
+					onYes = slot0
+				})
+			end)
+		end
 
 		for slot5, slot6 in ipairs(uv0:CollectGiftBuffs(uv0.selectedId)) do
 			table.insert(slot0, function (slot0)
@@ -58,6 +72,7 @@ slot0.OnUseItem = function(slot0)
 
 	slot0:FlushStatus(slot0.ship)
 	slot0:FlushGifts()
+	slot0:FlushPower()
 end
 
 slot0.OnShow = function(slot0, slot1)
@@ -72,6 +87,7 @@ slot0.OnShow = function(slot0, slot1)
 
 	slot0:FlushStatus(slot2)
 	slot0:FlushGifts()
+	slot0:FlushPower()
 	slot0:UpdateSelected(slot0.selectedId)
 end
 
@@ -156,6 +172,8 @@ slot0.UpdateSelected = function(slot0, slot1)
 		end)
 		slot0.giftEffectList:align(#slot0:CollectGiftEffect(slot1))
 	end
+
+	slot0:FlushPower()
 end
 
 slot0.CollectGiftBuffs = function(slot0, slot1)
@@ -188,6 +206,31 @@ slot0.CollectGiftEffect = function(slot0, slot1)
 	end
 
 	return slot2
+end
+
+slot0.GetGiftAddPower = function(slot0, slot1)
+	if not slot1 then
+		return 0
+	end
+
+	slot2 = IslandItem.StaticGetUsageArg(slot1)
+	slot3 = IslandConst.GIFT_INDEX_COMMON
+
+	if (slot0.ship:IsFavoriteGift(slot1) and slot2[IslandConst.GIFT_INDEX_FAVORITE] or slot2[slot3])[slot3] > 0 then
+		return slot5[slot3]
+	end
+
+	return 0
+end
+
+slot0.FlushPower = function(slot0)
+	slot0.maxPower = slot0.ship:GetMaxEnergy()
+	slot0.curPower = slot0.ship:GetCurrentEnergy()
+	slot0.addPower = slot0:GetGiftAddPower(slot0.selectedId)
+
+	setText(slot0.powerTr:Find("value"), slot0.curPower .. setColorStr(math.min(slot0.addPower, slot0.maxPower - slot0.curPower) > 0 and "+" .. slot1 or "", "#4FD775") .. "/" .. slot0.maxPower)
+	setSlider(slot0.powerTr:Find("progress"), 0, 1, slot0.curPower / slot0.maxPower)
+	setSlider(slot0.powerTr:Find("progress/add"), 0, 1, slot0.addPower > 0 and (slot0.curPower + slot0.addPower) / slot0.maxPower or 0)
 end
 
 slot0.OnDestroy = function(slot0)

@@ -44,7 +44,7 @@ slot0.FormatContent = function(slot0, slot1)
 	for slot7, slot8 in ipairs({
 		"<size=%d+>",
 		"</size>",
-		"<color=%w+>",
+		"<color=#%w+>",
 		"</color>"
 	}) do
 		slot3 = string.gsub(slot3, slot8, "")

@@ -37,7 +37,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.skillUnuse = slot0.iconsTF:Find("skill/skill_dark")
 end
 
-slot0.Update = function(slot0, slot1, slot2, slot3, slot4)
+slot0.Update = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.ship = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1)
 	slot0.id = slot1
 	slot0.attrType = slot2
@@ -46,35 +46,49 @@ slot0.Update = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:UpdateSelected(slot4)
 	GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. IslandShip.StaticGetPrefab(slot0.id), "", slot0.iconTF)
 
-	slot6 = slot0.ship:GetAttr(IslandShipAttr.ATTRS[slot0.attrType])
+	slot7 = slot0.ship:GetAttr(IslandShipAttr.ATTRS[slot0.attrType])
 
 	if IslandProductTimeHelper.GetAttributeAddPercentByAttribute(slot1, slot0.attrType) ~= 0 then
-		slot6 = math.floor(slot6 * (1 + 0.01 * slot7)) or slot6
+		slot7 = math.floor(slot7 * (1 + 0.01 * slot8)) or slot7
 	end
 
-	slot8 = slot0.ship:GetAttrGradeByValue(slot6)
+	slot9 = slot0.ship:GetAttrGradeByValue(slot7)
 
-	for slot12, slot13 in ipairs(slot0.attrTfList) do
-		if slot13 ~= "" then
-			setActive(slot13, slot8 == slot12)
+	for slot13, slot14 in ipairs(slot0.attrTfList) do
+		if slot14 ~= "" then
+			setActive(slot14, slot9 == slot13)
 		end
 	end
 
-	slot9 = slot0.ship:GetName()
+	slot10 = slot0.ship:GetName()
 
 	setText(slot0.nameTF, shortenString(slot0.ship:GetName(), 5))
 
-	slot10 = slot0.ship:GetCurrentEnergy()
-	slot11 = slot0.ship:GetMaxEnergy()
+	slot11 = slot0.ship:GetCurrentEnergy()
+	slot12 = slot0.ship:GetMaxEnergy()
 
-	setSlider(slot0.energySliderTF, 0, 1, slot10 / slot11)
-	setText(slot0.energyTF, slot10 .. "/" .. slot11)
-	setActive(slot0.workingMaskTF, slot0.ship:GetState() ~= IslandShip.STATE_NORMAL)
+	setSlider(slot0.energySliderTF, 0, 1, slot11 / slot12)
+	setText(slot0.energyTF, slot11 .. "/" .. slot12)
+	setActive(slot0.workingMaskTF, not slot0.ship:IsDelegable())
 
-	slot13 = slot0.ship:GetSkill():IsEffectiveInPlace(slot0.buildingId)
+	if slot5 then
+		slot13 = false
 
-	setActive(slot0.skillInuse, slot13)
-	setActive(slot0.skillUnuse, not slot13)
+		for slot17, slot18 in pairs(slot5) do
+			if slot0.id == slot18 then
+				slot13 = true
+			end
+		end
+
+		if slot13 then
+			setActive(slot0.workingMaskTF, true)
+		end
+	end
+
+	slot14 = slot0.ship:GetSkill():IsEffectiveInPlace(slot0.buildingId)
+
+	setActive(slot0.skillInuse, slot14)
+	setActive(slot0.skillUnuse, not slot14)
 end
 
 slot0.UpdateSelected = function(slot0, slot1)

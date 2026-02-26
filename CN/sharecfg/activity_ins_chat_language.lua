@@ -8158,7 +8158,301 @@ pg.activity_ins_chat_language = setmetatable({
 		8155,
 		8156,
 		8157,
-		8158
+		8158,
+		8239,
+		8240,
+		8241,
+		8242,
+		8243,
+		8244,
+		8245,
+		8246,
+		8247,
+		8248,
+		8249,
+		8250,
+		8251,
+		8252,
+		8253,
+		8254,
+		8255,
+		8256,
+		8257,
+		8258,
+		8259,
+		8260,
+		8261,
+		8262,
+		8263,
+		8264,
+		8265,
+		8266,
+		8267,
+		8268,
+		8269,
+		8270,
+		8271,
+		8272,
+		8273,
+		8274,
+		8275,
+		8276,
+		8277,
+		8278,
+		8279,
+		8280,
+		8281,
+		8282,
+		8283,
+		8284,
+		8285,
+		8286,
+		8287,
+		8288,
+		8289,
+		8290,
+		8291,
+		8292,
+		8293,
+		8294,
+		8295,
+		8296,
+		8297,
+		8298,
+		8299,
+		8300,
+		8301,
+		8302,
+		8303,
+		8304,
+		8305,
+		8306,
+		8307,
+		8308,
+		8309,
+		8310,
+		8311,
+		8312,
+		8313,
+		8314,
+		8315,
+		8316,
+		8317,
+		8318,
+		8319,
+		8320,
+		8321,
+		8322,
+		8323,
+		8324,
+		8325,
+		8326,
+		8327,
+		8328,
+		8329,
+		8330,
+		8331,
+		8332,
+		8333,
+		8334,
+		8335,
+		8336,
+		8337,
+		8338,
+		8339,
+		8340,
+		8341,
+		8342,
+		8343,
+		8344,
+		8345,
+		8346,
+		8347,
+		8348,
+		8349,
+		8350,
+		8351,
+		8352,
+		8353,
+		8354,
+		8355,
+		8356,
+		8357,
+		8358,
+		8359,
+		8360,
+		8361,
+		8362,
+		8363,
+		8364,
+		8365,
+		8366,
+		8367,
+		8368,
+		8369,
+		8370,
+		8371,
+		8372,
+		8373,
+		8374,
+		8375,
+		8376,
+		8377,
+		8378,
+		8379,
+		8380,
+		8381,
+		8382,
+		8383,
+		8384,
+		8385,
+		8386,
+		8387,
+		8388,
+		8389,
+		8390,
+		8391,
+		8392,
+		8393,
+		8394,
+		8395,
+		8396,
+		8397,
+		8398,
+		8399,
+		8400,
+		8401,
+		8402,
+		8403,
+		8404,
+		8405,
+		8406,
+		8407,
+		8408,
+		8409,
+		8410,
+		8411,
+		8412,
+		8413,
+		8414,
+		8415,
+		8416,
+		8417,
+		8418,
+		8419,
+		8420,
+		8421,
+		8422,
+		8423,
+		8424,
+		8425,
+		8426,
+		8427,
+		8428,
+		8429,
+		8430,
+		8431,
+		8432,
+		8433,
+		8434,
+		8435,
+		8436,
+		8437,
+		8438,
+		8439,
+		8440,
+		8441,
+		8442,
+		8443,
+		8444,
+		8445,
+		8446,
+		8447,
+		8448,
+		8449,
+		8450,
+		8451,
+		8452,
+		8453,
+		8454,
+		8455,
+		8456,
+		8457,
+		8458,
+		8459,
+		8460,
+		8461,
+		8462,
+		8463,
+		8464,
+		8465,
+		8466,
+		8467,
+		8468,
+		8469,
+		8470,
+		8471,
+		8472,
+		8473,
+		8474,
+		8475,
+		8476,
+		8477,
+		8478,
+		8479,
+		8480,
+		8481,
+		8482,
+		8483,
+		8484,
+		8485,
+		8486,
+		8487,
+		8488,
+		8489,
+		8490,
+		8491,
+		8492,
+		8493,
+		8494,
+		8495,
+		8496,
+		8497,
+		8498,
+		8499,
+		8500,
+		8501,
+		8502,
+		8503,
+		8504,
+		8505,
+		8506,
+		8507,
+		8508,
+		8509,
+		8510,
+		8511,
+		8512,
+		8513,
+		8514,
+		8515,
+		8516,
+		8517,
+		8518,
+		8519,
+		8520,
+		8521,
+		8522,
+		8523,
+		8524,
+		8525,
+		8526,
+		8527,
+		8528,
+		8529,
+		8530,
+		8531,
+		8532
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -80482,5 +80776,2587 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 8158,
 		flag = 5
+	},
+	[8239] = {
+		param = "指挥官同志，我认为冬日的下雪天，最适合锤炼意志",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8239,
+		flag = 0
+	},
+	[8240] = {
+		param = "这里的雪虽不及我故乡凛冽，但持续的低温，依然是对身心韧性的考验",
+		ship_group = 70303,
+		type = 1,
+		id = 8240,
+		flag = 0,
+		option = {
+			{
+				1,
+				"你似乎从不畏惧严寒……"
+			}
+		}
+	},
+	[8241] = {
+		param = "你似乎从不畏惧严寒，有什么诀窍么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8241,
+		flag = 1
+	},
+	[8242] = {
+		param = "诀窍倒是说不上，主要是习惯了",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8242,
+		flag = 1
+	},
+	[8243] = {
+		param = "锻炼意志力的方式有很多，每个人适合的方式也不尽相同",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8243,
+		flag = 1
+	},
+	[8244] = {
+		param = "以我自己来说，冬泳就很好",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8244,
+		flag = 1
+	},
+	[8245] = {
+		param = "在冰水中保持冷静和节奏，是对自我掌控力的绝佳训练",
+		ship_group = 70303,
+		type = 1,
+		id = 8245,
+		flag = 1,
+		option = {
+			{
+				2,
+				"冬泳……听起来有些极限"
+			}
+		}
+	},
+	[8246] = {
+		param = "冬泳……听起来有些极限",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8246,
+		flag = 2
+	},
+	[8247] = {
+		param = "是的，因此必须遵循科学的方法",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8247,
+		flag = 2
+	},
+	[8248] = {
+		param = "热身要充分，入水时长也要严格控制",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8248,
+		flag = 2
+	},
+	[8249] = {
+		param = "个人体质以及当前水温，都可能会影响训练结果",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8249,
+		flag = 2
+	},
+	[8250] = {
+		param = "一旦感觉不适，就要立刻上岸",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8250,
+		flag = 2
+	},
+	[8251] = {
+		param = "简而言之，只要把握好“节奏”，严寒就会成为盟友",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8251,
+		flag = 2
+	},
+	[8252] = {
+		param = "你明白我的意思吗，指挥官同志？",
+		ship_group = 70303,
+		type = 1,
+		id = 8252,
+		flag = 2,
+		option = {
+			{
+				3,
+				"已经完全理解了"
+			}
+		}
+	},
+	[8253] = {
+		param = "已经完全理解了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8253,
+		flag = 3
+	},
+	[8254] = {
+		param = "很好，很有精神！",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8254,
+		flag = 3
+	},
+	[8255] = {
+		param = "我已经在冻湖上开辟出了新的冬泳场地",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8255,
+		flag = 3
+	},
+	[8256] = {
+		param = "就等你过来了，指挥官同志！",
+		ship_group = 70303,
+		type = 1,
+		id = 8256,
+		flag = 3,
+		option = {
+			{
+				4,
+				"我……可能需要一点准备"
+			},
+			{
+				5,
+				"你经常一个人去冬泳么？"
+			}
+		}
+	},
+	[8257] = {
+		param = "我……可能需要一点准备",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8257,
+		flag = 4
+	},
+	[8258] = {
+		param = "理解",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8258,
+		flag = 4
+	},
+	[8259] = {
+		param = "我会提前为你备好热饮与毛毯，全程在旁边确保你的安全",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8259,
+		flag = 4
+	},
+	[8260] = {
+		param = "你经常一个人去冬泳么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8260,
+		flag = 5
+	},
+	[8261] = {
+		param = "多数时候是",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8261,
+		flag = 5
+	},
+	[8262] = {
+		param = "但今天，我想邀请你一起",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8262,
+		flag = 5
+	},
+	[8263] = {
+		param = "冬泳结束后，我们还可以一起喝点伏特加暖暖身子！",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8263,
+		flag = 5
+	},
+	[8264] = {
+		param = "指挥官同志",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8264,
+		flag = 0
+	},
+	[8265] = {
+		param = "我注意到你办公室的灯光，常常亮至到深夜",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8265,
+		flag = 0
+	},
+	[8266] = {
+		param = "我记得，我们还是要提倡节约能源的",
+		ship_group = 70303,
+		type = 1,
+		id = 8266,
+		flag = 0,
+		option = {
+			{
+				1,
+				"其实我是在加班"
+			}
+		}
+	},
+	[8267] = {
+		param = "其实我是在加班",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8267,
+		flag = 1
+	},
+	[8268] = {
+		param = "……只是走得比较晚，但每天都有关灯的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8268,
+		flag = 1
+	},
+	[8269] = {
+		param = "指挥官的工作竟然这么辛苦？",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8269,
+		flag = 1
+	},
+	[8270] = {
+		param = "是我判断失误，向你致歉，指挥官同志",
+		ship_group = 70303,
+		type = 1,
+		id = 8270,
+		flag = 1,
+		option = {
+			{
+				2,
+				"不必在意"
+			}
+		}
+	},
+	[8271] = {
+		param = "不必在意，这只是阶段性忙碌，过一阵就好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8271,
+		flag = 2
+	},
+	[8272] = {
+		param = "不，必须在意",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8272,
+		flag = 2
+	},
+	[8273] = {
+		param = "作为你的同志和战友，为你分担压力也是我的责任",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8273,
+		flag = 2
+	},
+	[8274] = {
+		param = "因此我决定——从明日起，我会把自己的办公室临时调整到指挥室",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8274,
+		flag = 2
+	},
+	[8275] = {
+		param = "我们可以同步工作，同步休息",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8275,
+		flag = 2
+	},
+	[8276] = {
+		param = "在你熄灯之前，我会一直陪同",
+		ship_group = 70303,
+		type = 1,
+		id = 8276,
+		flag = 2,
+		option = {
+			{
+				3,
+				"这样你会很辛苦"
+			}
+		}
+	},
+	[8277] = {
+		param = "这样你会很辛苦",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8277,
+		flag = 3
+	},
+	[8278] = {
+		param = "与同志并肩是本分，我不觉得辛苦",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8278,
+		flag = 3
+	},
+	[8279] = {
+		param = "我会准备好配套的后勤方案",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8279,
+		flag = 3
+	},
+	[8280] = {
+		param = "工作结束后，你可以来我房间补充能量……如果你愿意的话",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8280,
+		flag = 3
+	},
+	[8281] = {
+		param = "我会准备好夜宵与热饮",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8281,
+		flag = 3
+	},
+	[8282] = {
+		param = "简单来说就是——吃肉，喝酒，和朋友聊天",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8282,
+		flag = 3
+	},
+	[8283] = {
+		param = "当然，如果你很疲倦，也可以在我这里直接休息",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8283,
+		flag = 3
+	},
+	[8284] = {
+		param = "我这里空间足够",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8284,
+		flag = 3
+	},
+	[8285] = {
+		param = "指挥官同志，我有一个重要发现！",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8285,
+		flag = 0
+	},
+	[8286] = {
+		param = "关于如何让我们的关系，从朋友正式晋升为挚友",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8286,
+		flag = 0
+	},
+	[8287] = {
+		param = "我参考了一本权威出版物《人际关系推进指南》，并对照了我们的所有互动记录",
+		ship_group = 70303,
+		type = 1,
+		id = 8287,
+		flag = 0,
+		option = {
+			{
+				1,
+				"书上怎么说？"
+			}
+		}
+	},
+	[8288] = {
+		param = "书上怎么说？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8288,
+		flag = 1
+	},
+	[8289] = {
+		param = "它列出了一个清晰的关系晋升阶梯",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8289,
+		flag = 1
+	},
+	[8290] = {
+		param = "第一阶段，日常交谈——我们早已达成",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8290,
+		flag = 1
+	},
+	[8291] = {
+		param = "第二阶段，一起活动——我们曾一起冬泳，符合条件",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8291,
+		flag = 1
+	},
+	[8292] = {
+		param = "第三阶段，相互扶持——近期我们协同工作，解决了不少港区事务，完全吻合",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8292,
+		flag = 1
+	},
+	[8293] = {
+		param = "综上所述，我们当前的关系进度，和指南描述高度一致",
+		ship_group = 70303,
+		type = 1,
+		id = 8293,
+		flag = 1,
+		option = {
+			{
+				2,
+				"全对上了"
+			}
+		}
+	},
+	[8294] = {
+		param = "全对上了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8294,
+		flag = 2
+	},
+	[8295] = {
+		param = "这样还不算是挚友么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8295,
+		flag = 2
+	},
+	[8296] = {
+		param = "我又深入研究了一下……",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8296,
+		flag = 2
+	},
+	[8297] = {
+		param = "想要晋升为挚友，我们还缺少最重要，也是最关键的一步",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8297,
+		flag = 2
+	},
+	[8298] = {
+		param = "“这一步要做的事情是：坦诚相见。”",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8298,
+		flag = 2
+	},
+	[8299] = {
+		param = "“坦诚相见”！书里是这么说的！",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8299,
+		flag = 2
+	},
+	[8300] = {
+		param = "嗯……既然它前面都这么准了，那这一步应该也没错！",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8300,
+		flag = 2
+	},
+	[8301] = {
+		param = "我建议，今晚指挥官可以来我房间，我们可以像书中建议的那样——",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8301,
+		flag = 2
+	},
+	[8302] = {
+		param = "换上舒适的便服，分享一些有趣的故事",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8302,
+		flag = 2
+	},
+	[8303] = {
+		param = "或者只是安静地待着，让沉默本身成为一种交流",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8303,
+		flag = 2
+	},
+	[8304] = {
+		param = "我认为，这就是“坦诚相见”的真正含义",
+		ship_group = 70303,
+		type = 1,
+		id = 8304,
+		flag = 2,
+		option = {
+			{
+				3,
+				"……听起来还不错"
+			}
+		}
+	},
+	[8305] = {
+		param = "……听起来还不错",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8305,
+		flag = 3
+	},
+	[8306] = {
+		param = "那就这么说定了！",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8306,
+		flag = 3
+	},
+	[8307] = {
+		param = "指挥官同志，我会一直在房间里等你",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8307,
+		flag = 3
+	},
+	[8308] = {
+		param = "我已经……准备好与你成为真正的挚友了！",
+		ship_group = 70303,
+		option = "",
+		type = 1,
+		id = 8308,
+		flag = 3
+	},
+	[8309] = {
+		param = "指！挥！官！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8309,
+		flag = 0
+	},
+	[8310] = {
+		param = "你昨晚偷偷干什么了，如实招来！",
+		ship_group = 70113,
+		type = 1,
+		id = 8310,
+		flag = 0,
+		option = {
+			{
+				1,
+				"昨晚……"
+			}
+		}
+	},
+	[8311] = {
+		param = "昨晚……我应该一直待在指挥室里，没离开过",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8311,
+		flag = 1
+	},
+	[8312] = {
+		param = "也就是说……你偷偷加班了对吧！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8312,
+		flag = 1
+	},
+	[8313] = {
+		param = "我就知道！本来该我处理的文件莫名其妙被处理完了",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8313,
+		flag = 1
+	},
+	[8314] = {
+		param = "我一猜就是你偷偷加班搞定的！果然！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8314,
+		flag = 1
+	},
+	[8315] = {
+		param = "204",
+		ship_group = 70113,
+		option = "",
+		type = 4,
+		id = 8315,
+		flag = 1
+	},
+	[8316] = {
+		param = "需要帮忙不来找我就算了，竟然还把我的那份干了",
+		ship_group = 70113,
+		type = 1,
+		id = 8316,
+		flag = 1,
+		option = {
+			{
+				2,
+				"其实……"
+			}
+		}
+	},
+	[8317] = {
+		param = "其实只是刚好看到那些文件，顺手就处理了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8317,
+		flag = 2
+	},
+	[8318] = {
+		param = "“顺手”的事情，才不需要加班解决呢！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8318,
+		flag = 2
+	},
+	[8319] = {
+		param = "怪不得刚才看你有些疲倦，明明就是在逞强，还不承认！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8319,
+		flag = 2
+	},
+	[8320] = {
+		param = "哼，你今天就去好好休息吧，不加急的工作文件都由我来处理！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8320,
+		flag = 2
+	},
+	[8321] = {
+		param = "以后也禁止加班，工作做不完找我帮忙不就好了嘛！",
+		ship_group = 70113,
+		type = 1,
+		id = 8321,
+		flag = 2,
+		option = {
+			{
+				3,
+				"原来……"
+			}
+		}
+	},
+	[8322] = {
+		param = "原来顽皮这么关心我",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8322,
+		flag = 3
+	},
+	[8323] = {
+		param = "啊？！怎么突然说到这个的啊！！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8323,
+		flag = 3
+	},
+	[8324] = {
+		param = "还有谁关心你了！我是看不下去了才这么说的！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8324,
+		flag = 3
+	},
+	[8325] = {
+		param = "不许想太多，再说这种话我就要揍你了！",
+		ship_group = 70113,
+		type = 1,
+		id = 8325,
+		flag = 3,
+		option = {
+			{
+				4,
+				"现在隔着屏幕……"
+			}
+		}
+	},
+	[8326] = {
+		param = "现在隔着屏幕，你揍不到我",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8326,
+		flag = 4
+	},
+	[8327] = {
+		param = "……",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8327,
+		flag = 4
+	},
+	[8328] = {
+		param = "你等着，我马上就到指挥室了！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8328,
+		flag = 4
+	},
+	[8329] = {
+		param = "我要一边干活一边揍你！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8329,
+		flag = 4
+	},
+	[8330] = {
+		param = "指挥官……",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8330,
+		flag = 0
+	},
+	[8331] = {
+		param = "你现在在做什么？",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8331,
+		flag = 0
+	},
+	[8332] = {
+		param = "有没有空？",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8332,
+		flag = 0
+	},
+	[8333] = {
+		param = "可以来陪我吗？",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8333,
+		flag = 0
+	},
+	[8334] = {
+		param = "我好想见指挥官，现在就想",
+		ship_group = 70113,
+		type = 1,
+		id = 8334,
+		flag = 0,
+		option = {
+			{
+				1,
+				"可以是可以……"
+			},
+			{
+				2,
+				"你不是顽皮，你是谁？"
+			}
+		}
+	},
+	[8335] = {
+		param = "可以是可以，但你语气怎么怪怪的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8335,
+		flag = 1
+	},
+	[8336] = {
+		param = "你不是顽皮，你是谁？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8336,
+		flag = 2
+	},
+	[8337] = {
+		param = "？？？",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8337,
+		flag = 0
+	},
+	[8338] = {
+		param = "你在说什么啊",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8338,
+		flag = 0
+	},
+	[8339] = {
+		param = "我怎么了说这些话不是很正常吗",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8339,
+		flag = 0
+	},
+	[8340] = {
+		param = "我一直都是这么想的",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8340,
+		flag = 0
+	},
+	[8341] = {
+		param = "指挥官不知道？",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8341,
+		flag = 0
+	},
+	[8342] = {
+		param = "你！你怎么能不知道！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8342,
+		flag = 0
+	},
+	[8343] = {
+		param = "笨蛋！呆瓜！我真要揍你了！",
+		ship_group = 70113,
+		type = 1,
+		id = 8343,
+		flag = 0,
+		option = {
+			{
+				3,
+				"这下熟悉了"
+			}
+		}
+	},
+	[8344] = {
+		param = "这下熟悉了，我这就去陪你……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8344,
+		flag = 3
+	},
+	[8345] = {
+		param = "不过还是觉得很奇怪？你怎么突然说那些？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8345,
+		flag = 3
+	},
+	[8346] = {
+		param = "不知道",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8346,
+		flag = 3
+	},
+	[8347] = {
+		param = "就是喝饮料，越喝越想你",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8347,
+		flag = 3
+	},
+	[8348] = {
+		param = "想和你一起喝",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8348,
+		flag = 3
+	},
+	[8349] = {
+		param = "有问题吗？",
+		ship_group = 70113,
+		type = 1,
+		id = 8349,
+		flag = 3,
+		option = {
+			{
+				4,
+				"没问题，就是这饮料……"
+			}
+		}
+	},
+	[8350] = {
+		param = "没问题，就是这饮料……不会是带酒精的饮料吧。",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8350,
+		flag = 4
+	},
+	[8351] = {
+		param = "酒精又怎么了",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8351,
+		flag = 4
+	},
+	[8352] = {
+		param = "我伏特加都能喝会怕酒精？",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8352,
+		flag = 4
+	},
+	[8353] = {
+		param = "你不许扯开话题",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8353,
+		flag = 4
+	},
+	[8354] = {
+		param = "既然答应了就快来陪我",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8354,
+		flag = 4
+	},
+	[8355] = {
+		param = "我现在就要见你一刻都不想等！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8355,
+		flag = 4
+	},
+	[8356] = {
+		param = "快来",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8356,
+		flag = 4
+	},
+	[8357] = {
+		param = "快来快来",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8357,
+		flag = 4
+	},
+	[8358] = {
+		param = "快来快来快来",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8358,
+		flag = 4
+	},
+	[8359] = {
+		param = "指挥官！现在有一个好消息和另一个好消息",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8359,
+		flag = 0
+	},
+	[8360] = {
+		param = "你要先听哪个？",
+		ship_group = 70113,
+		type = 1,
+		id = 8360,
+		flag = 0,
+		option = {
+			{
+				1,
+				"……？"
+			}
+		}
+	},
+	[8361] = {
+		param = "……都是好消息还有必要分先后？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8361,
+		flag = 1
+	},
+	[8362] = {
+		param = "当然！都是跟指挥官有关的事，指挥官要一一回应才是",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8362,
+		flag = 1
+	},
+	[8363] = {
+		param = "不然光我一个人这么激动……不是显得很尴尬嘛！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8363,
+		flag = 1
+	},
+	[8364] = {
+		param = "哼，你不选我就不说了",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8364,
+		flag = 1
+	},
+	[8365] = {
+		param = "既不说我已经完全掌握了指挥官的喜好！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8365,
+		flag = 1
+	},
+	[8366] = {
+		param = "也不说我根据指挥官的喜好找到了一处好地方！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8366,
+		flag = 1
+	},
+	[8367] = {
+		param = "更不会说想陪你一起去哪里放松放松了！",
+		ship_group = 70113,
+		type = 1,
+		id = 8367,
+		flag = 1,
+		option = {
+			{
+				2,
+				"这难道是……"
+			}
+		}
+	},
+	[8368] = {
+		param = "这难道是约会地点通知？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8368,
+		flag = 2
+	},
+	[8369] = {
+		param = "原来如此……果然顽皮不可能那么坦率",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8369,
+		flag = 2
+	},
+	[8370] = {
+		param = "哈？？？",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8370,
+		flag = 2
+	},
+	[8371] = {
+		param = "你你你在说什么啊！！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8371,
+		flag = 2
+	},
+	[8372] = {
+		param = "你是不是又想起了上次……我喝饮料的时候跟你说的话了！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8372,
+		flag = 2
+	},
+	[8373] = {
+		param = "我不说了要忘掉吗，你还提！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8373,
+		flag = 2
+	},
+	[8374] = {
+		param = "56",
+		ship_group = 70113,
+		option = "",
+		type = 4,
+		id = 8374,
+		flag = 2
+	},
+	[8375] = {
+		param = "还有什么，什么约会地点！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8375,
+		flag = 2
+	},
+	[8376] = {
+		param = "我只是好不容易找了个能放松的去处",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8376,
+		flag = 2
+	},
+	[8377] = {
+		param = "是陪指挥官去放松的！才没有想着要约会呢！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8377,
+		flag = 2
+	},
+	[8378] = {
+		param = "这是对你的犒劳！对，是犒劳和奖赏！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8378,
+		flag = 2
+	},
+	[8379] = {
+		param = "你不感激我温柔体贴就算了，还说我不坦率",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8379,
+		flag = 2
+	},
+	[8380] = {
+		param = "我哪里不坦率了！就算有，也是指挥官的错！",
+		ship_group = 70113,
+		type = 1,
+		id = 8380,
+		flag = 2,
+		option = {
+			{
+				3,
+				"你说得对"
+			}
+		}
+	},
+	[8381] = {
+		param = "你说得对，你确实已经完全掌握我的喜好了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8381,
+		flag = 3
+	},
+	[8382] = {
+		param = "等等……你不会是故意那么说的吧？！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8382,
+		flag = 3
+	},
+	[8383] = {
+		param = "就是为了看我的反应？！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8383,
+		flag = 3
+	},
+	[8384] = {
+		param = "你你你！！！我懂了！我不说了！我就该直接绑你去约会的地点！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8384,
+		flag = 3
+	},
+	[8385] = {
+		param = "就现在！你乖乖等着我不许跑啊！",
+		ship_group = 70113,
+		option = "",
+		type = 1,
+		id = 8385,
+		flag = 3
+	},
+	[8386] = {
+		param = "指挥官……我最近的精神训练不太顺利……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8386,
+		flag = 0
+	},
+	[8387] = {
+		param = "好像陷入瓶颈了……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8387,
+		flag = 0
+	},
+	[8388] = {
+		param = "明明集中了精神，身体也维持着训练状态……感知力却没有提升",
+		ship_group = 70209,
+		type = 1,
+		id = 8388,
+		flag = 0,
+		option = {
+			{
+				1,
+				"你平时是怎么训练的？"
+			}
+		}
+	},
+	[8389] = {
+		param = "你平时是怎么训练的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8389,
+		flag = 1
+	},
+	[8390] = {
+		param = "呜哇，要具体描述吗……？",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8390,
+		flag = 1
+	},
+	[8391] = {
+		param = "通常是用眼罩遮蔽视觉，让其它感官更灵敏",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8391,
+		flag = 1
+	},
+	[8392] = {
+		param = "有时还会塞住耳朵，连听觉也屏蔽掉",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8392,
+		flag = 1
+	},
+	[8393] = {
+		param = "然后保持着深蹲的姿势，直到肌肉颤抖，汗水一滴滴滑落……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8393,
+		flag = 1
+	},
+	[8394] = {
+		param = "这时候，汗滴的轨迹……空气的流动……甚至自己的心跳，都会变得异常清晰……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8394,
+		flag = 1
+	},
+	[8395] = {
+		param = "本应该这样才对，可最近却……",
+		ship_group = 70209,
+		type = 1,
+		id = 8395,
+		flag = 1,
+		option = {
+			{
+				2,
+				"和之前相比……"
+			}
+		}
+	},
+	[8396] = {
+		param = "和之前相比，最近还有什么变化？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8396,
+		flag = 2
+	},
+	[8397] = {
+		param = "唔……我想想……好像是从常去指挥室之后开始的……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8397,
+		flag = 2
+	},
+	[8398] = {
+		param = "在你身边时，我的感知就会变得很迟钝……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8398,
+		flag = 2
+	},
+	[8399] = {
+		param = "不、不对，也不是变迟钝，明明能清晰感知到你的位置、呼吸、甚至笔尖划过纸张的沙沙声……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8399,
+		flag = 2
+	},
+	[8400] = {
+		param = "让我不知不觉放松下来，然后……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8400,
+		flag = 2
+	},
+	[8401] = {
+		param = "就这么挨着你睡着了",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8401,
+		flag = 2
+	},
+	[8402] = {
+		param = "这在训练记录里，还从未出现过的状况",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8402,
+		flag = 2
+	},
+	[8403] = {
+		param = "所以我想，是不是因为待在指挥官身边，太令人安心了",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8403,
+		flag = 2
+	},
+	[8404] = {
+		param = "身处安逸的氛围，我的感知力也会随之变弱",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8404,
+		flag = 2
+	},
+	[8405] = {
+		param = "所以精神训练才没有效果",
+		ship_group = 70209,
+		type = 1,
+		id = 8405,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我应该怎么帮你？"
+			}
+		}
+	},
+	[8406] = {
+		param = "我应该怎么帮你？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8406,
+		flag = 3
+	},
+	[8407] = {
+		param = "那个……虽然很不好意思，但我必须要说了……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8407,
+		flag = 3
+	},
+	[8408] = {
+		param = "如果看到我睡着……能不能……轻轻挠一下我的脚心？",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8408,
+		flag = 3
+	},
+	[8409] = {
+		param = "那是我最敏感的部位，被挠几下就会痒得跳起来的",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8409,
+		flag = 3
+	},
+	[8410] = {
+		param = "这是惩罚，也是让我保持清醒的手段",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8410,
+		flag = 3
+	},
+	[8411] = {
+		param = "指挥官，请务必用这种方式帮帮我哦……！",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8411,
+		flag = 3
+	},
+	[8412] = {
+		param = "指挥官……你知道该怎么拒绝别人吗？",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8412,
+		flag = 0
+	},
+	[8413] = {
+		param = "最近总有人来找我帮忙，说的都是些让我难以拒绝的理由",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8413,
+		flag = 0
+	},
+	[8414] = {
+		param = "还有哭着求我的……把我吓了一大跳",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8414,
+		flag = 0
+	},
+	[8415] = {
+		param = "真是令人困扰……",
+		ship_group = 70209,
+		type = 1,
+		id = 8415,
+		flag = 0,
+		option = {
+			{
+				1,
+				"都是些什么请求？"
+			}
+		}
+	},
+	[8416] = {
+		param = "都是些什么请求？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8416,
+		flag = 1
+	},
+	[8417] = {
+		param = "各种各样的……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8417,
+		flag = 1
+	},
+	[8418] = {
+		param = "有手机找不到了，让我帮忙听震动声定位的",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8418,
+		flag = 1
+	},
+	[8419] = {
+		param = "有说我味觉灵敏，让我帮忙试吃新菜的",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8419,
+		flag = 1
+	},
+	[8420] = {
+		param = "甚至还有说我音感好，让我帮忙调音的",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8420,
+		flag = 1
+	},
+	[8421] = {
+		param = "明明除了找手机，其它我都不擅长的……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8421,
+		flag = 1
+	},
+	[8422] = {
+		param = "14",
+		ship_group = 70209,
+		option = "",
+		type = 4,
+		id = 8422,
+		flag = 1
+	},
+	[8423] = {
+		param = "虽然很高兴能帮到大家，但再这样下去，我连自己的精神训练都没时间做了",
+		ship_group = 70209,
+		type = 1,
+		id = 8423,
+		flag = 1,
+		option = {
+			{
+				2,
+				"或许你需要的是……"
+			}
+		}
+	},
+	[8424] = {
+		param = "或许你需要进行“学会拒绝“专项训练",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8424,
+		flag = 2
+	},
+	[8425] = {
+		param = "专项训练吗……？我该怎么做呢？",
+		ship_group = 70209,
+		type = 1,
+		id = 8425,
+		flag = 2,
+		option = {
+			{
+				3,
+				"从简单的开始"
+			},
+			{
+				4,
+				"锻炼话术也不错"
+			},
+			{
+				5,
+				"带着画叉的牌子"
+			}
+		}
+	},
+	[8426] = {
+		param = "可以从拒绝很不擅长的请求开始练习",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8426,
+		flag = 3
+	},
+	[8427] = {
+		param = "可以事先想好一些婉拒的话术，遇到时直接说出来",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8427,
+		flag = 4
+	},
+	[8428] = {
+		param = "随身带着画叉的牌子，遇事不决就举起来",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8428,
+		flag = 5
+	},
+	[8429] = {
+		param = "原来还有这种办法吗……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8429,
+		flag = 0
+	},
+	[8430] = {
+		param = "虽然能感觉到难度",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8430,
+		flag = 0
+	},
+	[8431] = {
+		param = "但既然是指挥官的要求，我一定不会拒绝的",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8431,
+		flag = 0
+	},
+	[8432] = {
+		param = "不对，不是不会拒绝！只是……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8432,
+		flag = 0
+	},
+	[8433] = {
+		param = "指挥官是不一样的",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8433,
+		flag = 0
+	},
+	[8434] = {
+		param = "对……只有你，是我无论如何都不想拒绝的人",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8434,
+		flag = 0
+	},
+	[8435] = {
+		param = "指挥官，我新研究了几种精神训练的方法",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8435,
+		flag = 0
+	},
+	[8436] = {
+		param = "急需你帮忙测试，不然就推进不下去了——",
+		ship_group = 70209,
+		type = 1,
+		id = 8436,
+		flag = 1,
+		option = {
+			{
+				1,
+				"需要我做什么？"
+			}
+		}
+	},
+	[8437] = {
+		param = "需要我做什么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8437,
+		flag = 1
+	},
+	[8438] = {
+		param = "第一种是……触觉专注训练",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8438,
+		flag = 1
+	},
+	[8439] = {
+		param = "需要你用手指，在我背上……慢慢写字",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8439,
+		flag = 1
+	},
+	[8440] = {
+		param = "一笔一划地写完……让我再猜是什么字",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8440,
+		flag = 1
+	},
+	[8441] = {
+		param = "根据书写的速度和笔画的复杂程度来调整难度，猜得越准，训练效果就越好。",
+		ship_group = 70209,
+		type = 1,
+		id = 8441,
+		flag = 1,
+		option = {
+			{
+				2,
+				"每天都要训练么？"
+			}
+		}
+	},
+	[8442] = {
+		param = "每天都要训练么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8442,
+		flag = 2
+	},
+	[8443] = {
+		param = "嗯，最好每天坚持……但也不能一直占用你的时间",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8443,
+		flag = 2
+	},
+	[8444] = {
+		param = "所以我还准备了第二种方案——远程听觉辨位训练",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8444,
+		flag = 2
+	},
+	[8445] = {
+		param = "完全不需要指挥官亲自到场",
+		ship_group = 70209,
+		type = 1,
+		id = 8445,
+		flag = 2,
+		option = {
+			{
+				3,
+				"听声辩位"
+			}
+		}
+	},
+	[8446] = {
+		param = "听声辩位……需要我参与，但不需要我到场？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8446,
+		flag = 3
+	},
+	[8447] = {
+		param = "没错，我布置了12枚震动装置，环绕在房间各个方位",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8447,
+		flag = 3
+	},
+	[8448] = {
+		param = "你可以通过这个特制的遥控器随机触发其中几枚",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8448,
+		flag = 3
+	},
+	[8449] = {
+		param = "我会在房间内闭眼辨认方位和顺序",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8449,
+		flag = 3
+	},
+	[8450] = {
+		param = "这样就算你在工作……也能陪我一起训练",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8450,
+		flag = 3
+	},
+	[8451] = {
+		param = "不过，一定要等到我告诉你“开始训练”之后再启动哦",
+		ship_group = 70209,
+		type = 1,
+		id = 8451,
+		flag = 3,
+		option = {
+			{
+				4,
+				"听声辩位"
+			}
+		}
+	},
+	[8452] = {
+		param = "听起来很专业，设备是你自己调制的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8452,
+		flag = 4
+	},
+	[8453] = {
+		param = "嗯……为了能随时和你保持连接，花了不少心思……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8453,
+		flag = 4
+	},
+	[8454] = {
+		param = "遥控器上有强度档位，如果你想……可以提高训练难度……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8454,
+		flag = 4
+	},
+	[8455] = {
+		param = "不过，请一定要在我准备好开始训练后再启动……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8455,
+		flag = 4
+	},
+	[8456] = {
+		param = "否则突然被触发的话……可能会让我的训练……",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8456,
+		flag = 4
+	},
+	[8457] = {
+		param = "不太像训练",
+		ship_group = 70209,
+		option = "",
+		type = 1,
+		id = 8457,
+		flag = 4
+	},
+	[8458] = {
+		param = "即时通讯应用程序接入成功，通讯对象确认：指挥官",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8458,
+		flag = 0
+	},
+	[8459] = {
+		param = "指挥官，你好",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8459,
+		flag = 0
+	},
+	[8460] = {
+		param = "我对咖啡的分类，产生了一个逻辑方面的疑问",
+		ship_group = 70210,
+		type = 1,
+		id = 8460,
+		flag = 0,
+		option = {
+			{
+				1,
+				"逻辑疑问……"
+			}
+		}
+	},
+	[8461] = {
+		param = "逻辑疑问是什么？难道是关于咖啡豆品种？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8461,
+		flag = 1
+	},
+	[8462] = {
+		param = "不，是研磨方式的分类问题",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8462,
+		flag = 1
+	},
+	[8463] = {
+		param = "我的咖啡，一直是由家务机器人用手摇式研磨机制作的",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8463,
+		flag = 1
+	},
+	[8464] = {
+		param = "但在知道咖啡分为手磨和机磨之后，我就产生了这样的疑问",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8464,
+		flag = 1
+	},
+	[8465] = {
+		param = "由机器人操作的手磨咖啡，应当归属于哪一类？",
+		ship_group = 70210,
+		type = 1,
+		id = 8465,
+		flag = 1,
+		option = {
+			{
+				2,
+				"机磨咖啡"
+			},
+			{
+				3,
+				"手磨咖啡"
+			}
+		}
+	},
+	[8466] = {
+		param = "既然完全是由机器研磨的，那应该算机磨咖啡？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8466,
+		flag = 2
+	},
+	[8467] = {
+		param = "已收到指挥官的结论",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8467,
+		flag = 2
+	},
+	[8468] = {
+		param = "正在进行逻辑验证……",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8468,
+		flag = 2
+	},
+	[8469] = {
+		param = "存在矛盾点。研磨主体为机器，但执行动作为“手磨”",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8469,
+		flag = 2
+	},
+	[8470] = {
+		param = "既然是亲手磨的，那应该算是手磨咖啡？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8470,
+		flag = 3
+	},
+	[8471] = {
+		param = "已收到指挥官的结论",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8471,
+		flag = 3
+	},
+	[8472] = {
+		param = "正在进行逻辑验证……",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8472,
+		flag = 3
+	},
+	[8473] = {
+		param = "存在矛盾点。动作由机器执行，不符合手磨定义",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8473,
+		flag = 3
+	},
+	[8474] = {
+		param = "判定模糊，重新分析——",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8474,
+		flag = 0
+	},
+	[8475] = {
+		param = "错误：逻辑循环次数超限，系统即将过载……",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8475,
+		flag = 0
+	},
+	[8476] = {
+		param = "…………",
+		ship_group = 70210,
+		type = 1,
+		id = 8476,
+		flag = 0,
+		option = {
+			{
+				4,
+				"博加特里？"
+			}
+		}
+	},
+	[8477] = {
+		param = "博加特里？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8477,
+		flag = 4
+	},
+	[8478] = {
+		param = "…………",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8478,
+		flag = 4
+	},
+	[8479] = {
+		param = "重启完成……检测到刚开启的对话进程",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8479,
+		flag = 4
+	},
+	[8480] = {
+		param = "指挥官，你好",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8480,
+		flag = 4
+	},
+	[8481] = {
+		param = "我对咖啡的分类，产生了一个逻辑方面的疑问",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8481,
+		flag = 4
+	},
+	[8482] = {
+		param = "指挥官",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8482,
+		flag = 0
+	},
+	[8483] = {
+		param = "近期，系统过载频率有所上升",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8483,
+		flag = 0
+	},
+	[8484] = {
+		param = "给你添麻烦了",
+		ship_group = 70210,
+		type = 1,
+		id = 8484,
+		flag = 1,
+		option = {
+			{
+				1,
+				"不用在意"
+			}
+		}
+	},
+	[8485] = {
+		param = "不用在意",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8485,
+		flag = 1
+	},
+	[8486] = {
+		param = "矛盾的是，我前段时间明明已经升级了加载系统，过载现象却未能改善",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8486,
+		flag = 1
+	},
+	[8487] = {
+		param = "目前正在通过情景模拟，进行诱因分析",
+		ship_group = 70210,
+		type = 1,
+		id = 8487,
+		flag = 1,
+		option = {
+			{
+				2,
+				"情景模拟……"
+			}
+		}
+	},
+	[8488] = {
+		param = "情景模拟……具体是怎么模拟的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8488,
+		flag = 2
+	},
+	[8489] = {
+		param = "指派战斗机器人扮演指挥官，家务机器人扮演我",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8489,
+		flag = 2
+	},
+	[8490] = {
+		param = "还原我和指挥官共处时，容易过载的环境与交互",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8490,
+		flag = 2
+	},
+	[8491] = {
+		param = "但数据采集失败——家务机器人并未出现任何过载征兆",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8491,
+		flag = 2
+	},
+	[8492] = {
+		param = "推测模拟精度不足",
+		ship_group = 70210,
+		type = 1,
+		id = 8492,
+		flag = 2,
+		option = {
+			{
+				3,
+				"要不……"
+			}
+		}
+	},
+	[8493] = {
+		param = "既然模拟的不行，要不试试真实的场景与交互？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8493,
+		flag = 3
+	},
+	[8494] = {
+		param = "正在搜索，双人长时间近距离可共同进行的活动检索中——",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8494,
+		flag = 3
+	},
+	[8495] = {
+		param = "匹配到行为标签：约会",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8495,
+		flag = 3
+	},
+	[8496] = {
+		param = "据资料显示，该行为满足数据采集需求，且有长时间高强度的近距离交互行为",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8496,
+		flag = 3
+	},
+	[8497] = {
+		param = "指挥官，申请本周末的约会行程，以收集过载诱因数据",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8497,
+		flag = 3
+	},
+	[8498] = {
+		param = "是否批准？",
+		ship_group = 70210,
+		type = 1,
+		id = 8498,
+		flag = 3,
+		option = {
+			{
+				4,
+				"值得一试"
+			}
+		}
+	},
+	[8499] = {
+		param = "值得一试，你来安排就好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8499,
+		flag = 4
+	},
+	[8500] = {
+		param = "要和指挥官约会了吗，好开心……",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8500,
+		flag = 4
+	},
+	[8501] = {
+		param = "约会行程已记录",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8501,
+		flag = 4
+	},
+	[8502] = {
+		param = "开始生成行程列表——",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8502,
+		flag = 4
+	},
+	[8503] = {
+		param = "一同逛街、吃饭、看电影、睡觉……睡觉……睡……",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8503,
+		flag = 4
+	},
+	[8504] = {
+		param = "指令重复……系统即将过载——",
+		ship_group = 70210,
+		type = 1,
+		id = 8504,
+		flag = 4,
+		option = {
+			{
+				5,
+				"博加特里？"
+			}
+		}
+	},
+	[8505] = {
+		param = "博加特里？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8505,
+		flag = 5
+	},
+	[8506] = {
+		param = "重启完成……检测到刚开启的对话进程",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8506,
+		flag = 5
+	},
+	[8507] = {
+		param = "指挥官",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8507,
+		flag = 5
+	},
+	[8508] = {
+		param = "近期，系统过载频率有所上升",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8508,
+		flag = 5
+	},
+	[8509] = {
+		param = "因此申请本周末的约会行程，以收集过载诱因数据",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8509,
+		flag = 5
+	},
+	[8510] = {
+		param = "行程包含一同逛街、吃饭、看电影、睡觉——此行为需要和指挥官共同进行。",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8510,
+		flag = 5
+	},
+	[8511] = {
+		param = "《观察报告：指挥官连续工作时长与效率之间的线性关系》",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8511,
+		flag = 0
+	},
+	[8512] = {
+		param = "指挥官，这份报告即将送至你的终端，请查收",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8512,
+		flag = 0
+	},
+	[8513] = {
+		param = "'70210'已上传文件",
+		ship_group = 1,
+		type = 5,
+		id = 8513,
+		flag = 0,
+		option = {
+			{
+				1,
+				"接收文件"
+			}
+		}
+	},
+	[8514] = {
+		param = "文件已接收",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 8514,
+		flag = 1
+	},
+	[8515] = {
+		param = "报告有点长，先简要说明下吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8515,
+		flag = 1
+	},
+	[8516] = {
+		param = "好的，结论概要：指挥官的工作效率，会随着连续工作时间的增长而降低",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8516,
+		flag = 1
+	},
+	[8517] = {
+		param = "在连续工作5小时后，工作效率出现明显降低",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8517,
+		flag = 1
+	},
+	[8518] = {
+		param = "在连续工作8小时后，工作效率会迅速衰减",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8518,
+		flag = 1
+	},
+	[8519] = {
+		param = "建议指挥官每工作4小时进行一次充能，以维持最佳的工作状态",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8519,
+		flag = 1
+	},
+	[8520] = {
+		param = "对我而言，连接电源是最优充能方案，对指挥官应该也有效果",
+		ship_group = 70210,
+		type = 1,
+		id = 8520,
+		flag = 1,
+		option = {
+			{
+				2,
+				"通电疗法？"
+			}
+		}
+	},
+	[8521] = {
+		param = "通电疗法？对我来说还是有点太超前了……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8521,
+		flag = 2
+	},
+	[8522] = {
+		param = "指挥官无法充电吗？理解了，指挥官的躯体接口与现有电源无法兼容",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8522,
+		flag = 2
+	},
+	[8523] = {
+		param = "正在列举备用方案……",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8523,
+		flag = 2
+	},
+	[8524] = {
+		param = "根据对指挥官生理数据的监测，可使用物理性再激活方案",
+		ship_group = 70210,
+		type = 1,
+		id = 8524,
+		flag = 2,
+		option = {
+			{
+				3,
+				"物理性激活……"
+			}
+		}
+	},
+	[8525] = {
+		param = "物理性激活……那是什么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8525,
+		flag = 3
+	},
+	[8526] = {
+		param = "一种通过特定节律的接触式刺激，促使肌肉与神经迅速恢复状态的技术",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8526,
+		flag = 3
+	},
+	[8527] = {
+		param = "通俗类比——高效能按摩",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8527,
+		flag = 3
+	},
+	[8528] = {
+		param = "但有一定的副作用，激活期结束后，可能伴随一定的疲劳感，建议仅作为应急手段使用",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8528,
+		flag = 3
+	},
+	[8529] = {
+		param = "不过，如果是指挥官的话……说不定会与我的预期不同",
+		ship_group = 70210,
+		type = 1,
+		id = 8529,
+		flag = 3,
+		option = {
+			{
+				4,
+				"听起来……"
+			}
+		}
+	},
+	[8530] = {
+		param = "听起来……可以试试？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8530,
+		flag = 4
+	},
+	[8531] = {
+		param = "协议已确认，应急再充能程序——启动",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8531,
+		flag = 4
+	},
+	[8532] = {
+		param = "指挥官，请开门",
+		ship_group = 70210,
+		option = "",
+		type = 1,
+		id = 8532,
+		flag = 4
 	}
 }
