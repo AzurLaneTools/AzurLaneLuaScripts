@@ -13,6 +13,45 @@ pg.shop_banner_template = {
 				{
 					2026,
 					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		param = {
+			"scene skinshop",
+			{}
+		}
+	},
+	[11] = {
+		name = "banner_big",
+		type = 2,
+		time_lable = 1,
+		pic = "shopbanner/shop_skin2",
+		id = 11,
+		relation_param = "",
+		order = 9,
+		time = {
+			{
+				{
+					2026,
+					2,
 					12
 				},
 				{
@@ -34,20 +73,6 @@ pg.shop_banner_template = {
 				}
 			}
 		},
-		param = {
-			"scene skinshop",
-			{}
-		}
-	},
-	[11] = {
-		name = "banner_big",
-		time = "stop",
-		type = 2,
-		time_lable = 1,
-		pic = "shopbanner/shop_skin2",
-		id = 11,
-		relation_param = "",
-		order = 9,
 		param = {
 			"scene skinshop",
 			{}
@@ -77,8 +102,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					2,
-					25
+					3,
+					4
 				},
 				{
 					23,
@@ -234,9 +259,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					11,
-					13
+					2026,
+					2,
+					26
 				},
 				{
 					0,
@@ -246,9 +271,9 @@ pg.shop_banner_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					3,
+					11
 				},
 				{
 					23,
@@ -265,7 +290,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			1301
+			9013
 		}
 	},
 	[24] = {
@@ -278,9 +303,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					9,
-					19
+					2026,
+					2,
+					26
 				},
 				{
 					0,
@@ -290,9 +315,9 @@ pg.shop_banner_template = {
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					3,
+					11
 				},
 				{
 					23,
@@ -309,7 +334,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9010
+			9014
 		}
 	},
 	[25] = {
@@ -405,8 +430,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					15
+					2,
+					26
 				},
 				{
 					0,
@@ -417,8 +442,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					28
+					3,
+					11
 				},
 				{
 					23,

@@ -1968,6 +1968,17 @@ pg.skill_data_display = setmetatable({
 		151964,
 		151971,
 		151981,
+		152064,
+		152065,
+		152072,
+		152102,
+		152111,
+		152112,
+		152113,
+		152152,
+		152166,
+		152171,
+		152182,
 		18010,
 		18040,
 		18041,
@@ -2654,6 +2665,9 @@ pg.skill_data_display = setmetatable({
 		30512,
 		30571,
 		30572,
+		30581,
+		30582,
+		30583,
 		39000,
 		39001,
 		39002,
@@ -3687,6 +3701,8 @@ pg.skill_data_display = setmetatable({
 		201687,
 		201688,
 		201689,
+		201709,
+		201710,
 		1011540,
 		1011541,
 		1090010,
@@ -11797,6 +11813,50 @@ pg.base.skill_data_display = {
 		id = 151981,
 		name = "Stoic Nepenthe"
 	},
+	[152064] = {
+		id = 152064,
+		name = "I'll Handle This!"
+	},
+	[152065] = {
+		id = 152065,
+		name = "I'll Handle This!"
+	},
+	[152072] = {
+		id = 152072,
+		name = "I'll Whoop You!"
+	},
+	[152102] = {
+		id = 152102,
+		name = "Atomic Core"
+	},
+	[152111] = {
+		id = 152111,
+		name = "Numbers Must Go Up"
+	},
+	[152112] = {
+		id = 152112,
+		name = "Numbers Must Go Up"
+	},
+	[152113] = {
+		id = 152113,
+		name = "Numbers Must Go Up"
+	},
+	[152152] = {
+		id = 152152,
+		name = "Unyielding Valor"
+	},
+	[152166] = {
+		id = 152166,
+		name = "Frozen Fortress"
+	},
+	[152171] = {
+		id = 152171,
+		name = "Retribution by Cannonfire"
+	},
+	[152182] = {
+		id = 152182,
+		name = "Unfeeling Protector"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -14540,6 +14600,18 @@ pg.base.skill_data_display = {
 	[30572] = {
 		id = 30572,
 		name = "All Out Assault II"
+	},
+	[30581] = {
+		id = 30581,
+		name = "All Out Assault I"
+	},
+	[30582] = {
+		id = 30582,
+		name = "All Out Assault II"
+	},
+	[30583] = {
+		id = 30583,
+		name = "Firepower UP!"
 	},
 	[39000] = {
 		id = 39000,
@@ -18672,6 +18744,14 @@ pg.base.skill_data_display = {
 	[201689] = {
 		id = 201689,
 		name = "Target Down"
+	},
+	[201709] = {
+		id = 201709,
+		name = "Riches Abound"
+	},
+	[201710] = {
+		id = 201710,
+		name = "Glowing Dishes!"
 	},
 	[1011540] = {
 		id = 1011540,

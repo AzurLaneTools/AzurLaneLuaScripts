@@ -391,7 +391,11 @@ pg.ship_skin_words_extra = setmetatable({
 		502120,
 		499020,
 		307080,
-		407010
+		407010,
+		703030,
+		701130,
+		702090,
+		702100
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -27563,6 +27567,268 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"You once told me that the End would lead to new beginnings. To be honest, I still don't understand what these new beginnings may be. But if you are by my side, then I am ready to witness them... and to lend a hand."
+			}
+		}
+	},
+	[703030] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		id = 703030,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"I've been waiting for you. So, shall we start the day with some work? Or would you rather do something only close friends can do?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Relax. As long as you're behind me, my defense will never falter."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Comrade Commander, can I have some of your break time later? Since we're best friends, don't you think it's perfectly natural for us to go on a date?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Yeah. This is probably right. It feels pretty intimate..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Before you stands your best friend, your very own Moskva. My strength, my rigging, my everything is yours to use as you please. You can come closer if you so want. It's your exclusive privilege to do so."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Comrade Commander, if you ever feel hot, come close to me. My body temperature should make you a bit more comfortable.|I read in a book today that close friends memorize each other's little habits. For instance, how you look at me when you think of me. You do, don't you?|A traveler who hesitates in the Northern Parliament's snowy plains will freeze. That's why I'm always at the front, charging forward to clear the path for those behind me. Now, I will rid your path of all the obstacles in its way.|Comrade Commander, here's a report awaiting review. Oh, if you'd like to rest, I'll sit here with you for a bit."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Need something to calm you down? Alright, I have you covered."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"New missions have come in. Let's get them done together. It's more efficient that way."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I want to learn more from you..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"What do I think of you? I like you. A lot. That's how we became best friends, isn't it? I will fight for everything you desire and wish to protect. Of course, I do look forward to other things that you want as well..."
+			}
+		}
+	},
+	[701130] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 701130,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"I made some honey water for you. Drink it while it's warm. What? Why are you just staring at me?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Check it out! I cleaned the office while you were gone! ...Don't you have anything to say?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Take a nap? Only little kids take naps. I mean, if you wanna take a break... I-I guess I could rest with you for a little bit...|I've studied all of it. Your favorite foods, favorite sleeping posture, the places you often go to on breaks... Oh! I-I'm not saying I've been stalking you! I just... I just wanted to learn about you to the fullest extent!|Been treating you nicer, you say? Y-you're just imagining it! Even if I had been, it'd be solely because of you... Wait, don't tell me you LIKE it when I scold you!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ran into trouble again? Alright, I'm on it!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You... are such a stupid idiot..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You've been really proving yourself reliable lately... but don't get cocky! You should rely on me a bit more instead of trying to do everything yourself! I won't take \"no\" for an answer!"
+			}
+		}
+	},
+	[702090] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 702090,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Hyah?! Commander, you came at me out of nowhere... I feel my knees getting weak... Huh? N-no, I'm not saying you should get away!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"You finally came back to me... I told you I can tell just from your sound, didn't I? Maybe it's time... we covered my ears, too?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hehe... Hehehe... My hair is touching my ears... Commander, it tickles... Hehehe."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Ahh... The room is bursting with your musk. I want to do mental training here forever..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Cover my ears, Commander... Yeah, just like that... I can't hear, and I can't see. All I feel is the touch of your fingers... Ah, I could get used to this...|*pant*... I can't... live without you anymore, Commander... Help me finish my training, would you? Ah...|Hmm... I'm still no good at debate. Help me practice, Commander. For example... some verbal humiliation could help train my tolerance... Hehe, that's a good idea..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ah, ahh... D-don't take your hands off of me. Anywhere you want, any amount of pressure you want... Do exactly as you please."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ooh! J-just like that... You found my weakness, Commander... Very, very nice..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Staying focused and withstanding external distractions is the hardest part of mental training. Pull my collar for me... Harder, please... *pant*... Now I can start!"
+			}
+		}
+	},
+	[702100] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 702100,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"I've been waiting, Commander. My robot development is going well, so I don't need help... I just wanted to see you."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Abnormal data detected. Reason unknown. Risk of overload... Mm, mmm..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"My time perception module seems to be malfunctioning. I was just trying to glance at you, but before I knew it, so much time had passed...|I've confirmed a lack of energy on your part. Where is your charging port, exactly...?|My current experiment is to see how long I can stay near you without overloading and restarting... Hm? My current experiment is to see how long I can stay near you without..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I'll record and archive all of your actions in real time."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Today's experimental data... Mmm... *pant*..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I can't help that my eyes are drawn to you... because I want to record and preserve all of our time spent together."
 			}
 		}
 	}

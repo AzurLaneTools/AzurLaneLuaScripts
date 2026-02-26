@@ -37,31 +37,31 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
+		param = "",
 		name = "event_map",
 		text_pic = "text_event_map",
-		type = 2,
+		type = 0,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
 		order = 1,
 		time = {
 			"default",
-			50408
-		},
-		param = {
-			"act boss battle"
+			50426
 		}
 	},
 	[11] = {
-		param = "0",
 		name = "event_map_sub",
 		time = "stop",
 		text_pic = "text_event_map_sub",
-		type = 0,
+		type = 2,
 		pic = "event_map_sub",
 		id = 11,
 		group_id = 3,
-		order = 1
+		order = 1,
+		param = {
+			"LiquorFloor"
+		}
 	},
 	[12] = {
 		name = "event_sub_act",
@@ -73,10 +73,26 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50400
+			50434
 		},
 		param = {
-			"love letter activity"
+			"LiquorFloor"
+		}
+	},
+	[13] = {
+		name = "event_old_act",
+		text_pic = "",
+		type = 2,
+		pic = "",
+		id = 13,
+		group_id = 3,
+		order = 1,
+		time = {
+			"default",
+			50434
+		},
+		param = {
+			"LiquorFloor"
 		}
 	},
 	[20] = {
@@ -307,7 +323,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "SardiniaSPCoreActivityUI",
+		param = "MoscowURCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -317,22 +333,19 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50353
+			50426
 		}
 	},
 	[110] = {
 		param = "SpringFestival2026CoreActivityUI",
 		name = "event_core_2",
+		time = "stop",
 		text_pic = "text_event_core2",
 		type = 16,
 		pic = "event_core2",
 		id = 110,
 		group_id = 2,
-		order = 2,
-		time = {
-			"default",
-			50404
-		}
+		order = 2
 	},
 	[111] = {
 		param = "ALYCoreActivityUI",
@@ -405,6 +418,9 @@ pg.activity_link_button = {
 		event_sub_act = {
 			12
 		},
+		event_old_act = {
+			13
+		},
 		event_minigame = {
 			20,
 			108
@@ -473,6 +489,7 @@ pg.activity_link_button = {
 		10,
 		11,
 		12,
+		13,
 		20,
 		21,
 		30,

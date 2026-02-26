@@ -1919,5 +1919,17 @@ pg.voice_actor_CN = {
 	[498] = {
 		actor_name = "Mirei Kumagai",
 		code = 498
+	},
+	[499] = {
+		actor_name = "Azusa Tadokoro",
+		code = 499
+	},
+	[500] = {
+		actor_name = "Cocoro Omori",
+		code = 500
+	},
+	[501] = {
+		actor_name = "Yu-ri Yoshida",
+		code = 501
 	}
 }

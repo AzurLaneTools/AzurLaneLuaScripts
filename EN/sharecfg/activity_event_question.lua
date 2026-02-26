@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[71] = {
-		question = "In the southern hemisphere, where the North Star can't be seen, what constellation do sailors use to gauge their position?",
-		answer_right = "The Southern Cross",
-		answer_false1 = "The South Pole Stars",
+	[85] = {
+		question = "Officers and soldiers would often throw celebrations when crossing what during ocean voyages?",
+		answer_right = "The equator",
+		answer_false1 = "The international date line",
 		type = 1,
-		id = 71,
+		id = 85,
 		wrong_time = 30,
-		answer_false3 = "Centaurus Alpha",
-		answer_false2 = "Sagittarius"
+		answer_false3 = "The muscle line",
+		answer_false2 = "The prime meridian"
 	},
-	[72] = {
-		question = "Which ingredient had a role in anti-submarine warfare?",
-		answer_right = "Potatoes",
-		answer_false1 = "Turkey",
+	[86] = {
+		question = "What is the most effective way to protect a fleet against submarine attacks?",
+		answer_right = "Increase aerial patrols",
+		answer_false1 = "Play noise on shortwave frequencies",
 		type = 1,
-		id = 72,
+		id = 86,
 		wrong_time = 30,
-		answer_false3 = "Bell peppers",
-		answer_false2 = "Spinach"
+		answer_false3 = "Periodically fire into the sea",
+		answer_false2 = "Bribe dolphins en route"
 	},
-	[73] = {
-		question = "What is outside the scope of damage control?",
-		answer_right = "Seasickness",
-		answer_false1 = "Fires",
+	[87] = {
+		question = "What is the steam produced by engines on warships mainly used for?",
+		answer_right = "Providing propulsion",
+		answer_false1 = "Heating the floors onboard",
 		type = 1,
-		id = 73,
+		id = 87,
 		wrong_time = 30,
-		answer_false3 = "Machine failure",
-		answer_false2 = "Flooding"
+		answer_false3 = "Teakettles and cooking",
+		answer_false2 = "Pneumatically powering the turrets"
 	},
-	[74] = {
-		question = "When out at sea, what is the most reliable means of communicating with people on land?",
-		answer_right = "Long-range radio waves",
-		answer_false1 = "Carrier pigeons",
+	[88] = {
+		question = "Other than to hunt rats, what is a cat's job aboard a warship?",
+		answer_right = "Raising morale",
+		answer_false1 = "Keeping watch at night",
 		type = 1,
-		id = 74,
+		id = 88,
 		wrong_time = 30,
-		answer_false3 = "A professional swimmer",
-		answer_false2 = "Shells loaded with letters"
+		answer_false3 = "Catching fish",
+		answer_false2 = "Sensing approaching storms"
 	},
-	[75] = {
-		question = "What should absolutely never be used as fuel in a steam boiler?",
-		answer_right = "Shell propellant",
-		answer_false1 = "Uniforms with the buttons removed",
+	[89] = {
+		question = "Which of the following is NOT a reason why \"intermediate batteries\" were phased out on capital ships?",
+		answer_right = "Aircraft joined the fray",
+		answer_false1 = "The range of main batteries improved",
 		type = 1,
-		id = 75,
+		id = 89,
 		wrong_time = 30,
-		answer_false3 = "Fat that the cooks saved",
-		answer_false2 = "A door with the handle removed"
+		answer_false3 = "Escort ships assumed their role",
+		answer_false2 = "Volley accuracy got better"
 	},
-	[76] = {
-		question = "What is ineffective in protecting merchant ships from submarine attacks?",
-		answer_right = "Sailing with paravanes",
-		answer_false1 = "Using omnidirectional sonar",
+	[90] = {
+		question = "What is the name of the cat known as \"Unsinkable Sam\"?",
+		answer_right = "Oscar",
+		answer_false1 = "Ginger",
 		type = 1,
-		id = 76,
+		id = 90,
 		wrong_time = 30,
-		answer_false3 = "Intermittently adjusting the course",
-		answer_false2 = "Airborne surveillance"
+		answer_false3 = "Sam",
+		answer_false2 = "Fishcakes"
 	},
-	[77] = {
-		question = "In what arrangement are navigation lights placed on a ship?",
-		answer_right = "Red on port, green on starboard, white on aft",
-		answer_false1 = "Red on starboard, yellow on port",
+	[91] = {
+		question = "Why is a bottle broken against a ship's bow during its launching ceremony?",
+		answer_right = "It's an old tradition",
+		answer_false1 = "To test its hull integrity",
 		type = 1,
-		id = 77,
+		id = 91,
 		wrong_time = 30,
-		answer_false3 = "Red on bow, blue on aft",
-		answer_false2 = "Green on bow, orange on aft, pink on mast"
+		answer_false3 = "To boost the ship's spirit",
+		answer_false2 = "Poseidon doesn't speak English"
 	},
-	[78] = {
-		question = "Which character was recently added to Project Identity?",
-		answer_right = "Oceana",
-		answer_false1 = "TB",
+	[92] = {
+		question = "What is the most recent main campaign chapter to be added?",
+		answer_right = "Chapter 16",
+		answer_false1 = "Chapter 15",
 		type = 2,
-		id = 78,
+		id = 92,
 		wrong_time = 30,
-		answer_false3 = "Lurker",
-		answer_false2 = "Explorer"
+		answer_false3 = "Chapter 17",
+		answer_false2 = "Chapter 14"
 	},
-	[79] = {
-		question = "How much damage does your fleet deal while affected by the Out of Ammo debuff?",
-		answer_right = "50%",
-		answer_false1 = "30%",
+	[93] = {
+		question = "Which of the following gear can an aircraft carrier NOT equip?",
+		answer_right = "Advanced Sonar",
+		answer_false1 = "Hydraulic Steering Gear",
 		type = 2,
-		id = 79,
+		id = 93,
 		wrong_time = 30,
-		answer_false3 = "70%",
-		answer_false2 = "60%"
+		answer_false3 = "Anti-Torpedo Bulge",
+		answer_false2 = "Air Radar"
 	},
-	[80] = {
-		question = "What is the max number of Data Keys that can be held in the War Archives?",
-		answer_right = "60",
-		answer_false1 = "50",
+	[94] = {
+		question = "Who was the first shipgirl added to the Private Quarters?",
+		answer_right = "Sirius",
+		answer_false1 = "Cheshire",
 		type = 2,
-		id = 80,
+		id = 94,
 		wrong_time = 30,
-		answer_false3 = "70",
-		answer_false2 = "40"
+		answer_false3 = "Anchorage",
+		answer_false2 = "Saratoga"
 	},
-	[81] = {
-		question = "Which one of the following consumes Oil?",
-		answer_right = "Sorties in the main campaign ",
-		answer_false1 = "Playing a minigame",
+	[95] = {
+		question = "Which of the following shipgirls is NOT from the Kingdom of Tulipa?",
+		answer_right = "Masséna",
+		answer_false1 = "Evertsen",
 		type = 2,
-		id = 81,
+		id = 95,
 		wrong_time = 30,
-		answer_false3 = "Participating in Exercises",
-		answer_false2 = "Fighting in an Extreme Challenge"
+		answer_false3 = "De Zeven Provinciën",
+		answer_false2 = "Gouden Leeuw"
 	},
-	[82] = {
-		question = "What is the currently highest reachable Commander Level? ",
-		answer_right = "200",
-		answer_false1 = "100",
+	[96] = {
+		question = "Which shipgirl can equip the gear \"Star Blaster\"?",
+		answer_right = "San Diego",
+		answer_false1 = "Comet",
 		type = 2,
-		id = 82,
+		id = 96,
 		wrong_time = 30,
-		answer_false3 = "180",
-		answer_false2 = "150"
+		answer_false3 = "Pamiat' Merkuria",
+		answer_false2 = "Neptune"
 	},
-	[83] = {
-		question = "How many times can the Dormitory be expanded? ",
-		answer_right = "3",
-		answer_false1 = "1",
+	[97] = {
+		question = "Which of the following aircraft is classified as a torpedo bomber?",
+		answer_right = "Fairey Albacore",
+		answer_false1 = "F6F Hellcat",
 		type = 2,
-		id = 83,
+		id = 97,
 		wrong_time = 30,
-		answer_false3 = "5",
-		answer_false2 = "2"
+		answer_false3 = "F4F Wildcat",
+		answer_false2 = "Firefly"
 	},
-	[84] = {
-		question = "Which stat is decreased when you use the Single Line Assault formation? ",
-		answer_right = "EVA",
-		answer_false1 = "FP",
+	[98] = {
+		question = "What can be used to raise a shipgirl's skill level in the Tactical Class?",
+		answer_right = "T4 Offensive Skill Book",
+		answer_false1 = "Cognitive Chips",
 		type = 2,
-		id = 84,
+		id = 98,
 		wrong_time = 30,
-		answer_false3 = "AA",
-		answer_false2 = "TRP"
+		answer_false3 = "Wisdom Cubes",
+		answer_false2 = "T2 Destroyer Retrofit Blueprint"
 	},
 	all = {
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84
+		85,
+		86,
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98
 	}
 }

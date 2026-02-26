@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					4
+					11
 				},
 				{
 					23,
@@ -36,19 +36,9 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene skinshop",
-			{}
-		}
-	},
-	{
-		type = 2,
-		id = 3,
-		pic = "temp3",
 		param = {
 			"scene get boat",
 			{
@@ -61,7 +51,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -72,8 +62,45 @@ pg.activity_banner = {
 			{
 				{
 					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "MoscowURCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
 					2,
-					25
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
 				},
 				{
 					23,
@@ -88,9 +115,9 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene core activity",
+			"scene charge",
 			{
-				coreName = "SpringFestival2026CoreActivityUI"
+				wrap = 4
 			}
 		},
 		time = {
@@ -98,7 +125,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -109,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					25
+					3,
+					11
 				},
 				{
 					23,
@@ -125,9 +152,9 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp5",
 		param = {
-			"scene charge",
+			"scene shop",
 			{
-				wrap = 4
+				warp = "shopstreet"
 			}
 		},
 		time = {
@@ -135,7 +162,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -146,8 +173,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					25
+					3,
+					11
 				},
 				{
 					23,
@@ -160,6 +187,40 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 6,
+		pic = "temp7",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
 		pic = "temp6",
 		param = {
 			"scene shop",
@@ -183,40 +244,6 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
 					3,
 					4
 				},
@@ -229,18 +256,25 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "50372",
+		time = "stop",
 		type = 2,
 		id = 8,
-		pic = "temp8",
+		pic = "temp8"
+	},
+	{
+		type = 2,
+		id = 9,
+		pic = "temp9",
 		param = {
-			"dorm 3d select"
+			"LiquorFloor"
 		},
 		time = {
 			{
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -251,8 +285,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					16
+					3,
+					11
 				},
 				{
 					23,
@@ -261,13 +295,6 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
-		param = "50372",
-		time = "stop",
-		type = 3,
-		id = 9,
-		pic = "temp9"
 	},
 	[90] = {
 		param = "",
@@ -300,39 +327,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[100] = {
-		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
-		type = 10,
-		id = 100,
-		pic = "dumpling",
-		time = {
-			{
-				{
-					2026,
-					2,
-					12
+					26
 				},
 				{
 					0,
@@ -353,6 +348,13 @@ pg.activity_banner = {
 				}
 			}
 		}
+	},
+	[100] = {
+		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
+		time = "stop",
+		type = 10,
+		id = 100,
+		pic = "dumpling"
 	},
 	[101] = {
 		param = "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
@@ -377,42 +379,17 @@ pg.activity_banner = {
 	},
 	[201] = {
 		param = "",
+		time = "stop",
 		type = 13,
 		id = 201,
-		pic = "springfes",
-		time = {
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "springfes"
 	},
 	[202] = {
 		param = "",
-		time = "stop",
+		time = "always",
 		type = 13,
 		id = 202,
-		pic = "winter"
+		pic = "spring"
 	},
 	get_id_list_by_type = {
 		[2] = {
@@ -423,9 +400,7 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8
-		},
-		[3] = {
+			8,
 			9
 		},
 		[9] = {

@@ -6712,7 +6712,7 @@ pg.base.island_item_data_template = {
 	},
 	[3118] = {
 		name = "Paella",
-		desc = "A dish made with the ocean's bounties. The flavors of the sea are mixed in with every grain of ice.",
+		desc = "A dish made with the ocean's bounties. The flavors of the sea are mixed in with every grain of rice.",
 		type = 1,
 		manage_influence = 200,
 		pt_num = 187,

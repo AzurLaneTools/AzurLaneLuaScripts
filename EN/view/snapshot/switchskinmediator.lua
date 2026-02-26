@@ -38,18 +38,14 @@ slot0.register = function(slot0)
 			skinId = slot1
 		})
 	end)
-	slot0:bind(GAME.CHANGE_SKIN_UPDATE, function (slot0, slot1)
-		uv0.viewComponent:setShip(uv0.contextData.shipVO)
-		uv0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
-		uv0.viewComponent:openSelectSkinPanel()
-	end)
 end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
 		ShipSkinProxy.SHIP_SKINS_UPDATE,
 		GAME.SKIN_SHOPPIGN_DONE,
-		GAME.SKIN_COUPON_SHOPPING_DONE
+		GAME.SKIN_COUPON_SHOPPING_DONE,
+		GAME.CHANGE_SKIN_UPDATE
 	}
 end
 
@@ -67,6 +63,10 @@ slot0.handleNotification = function(slot0, slot1)
 			}))
 		end
 	elseif slot2 == ShipSkinProxy.SHIP_SKINS_UPDATE then
+		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
+		slot0.viewComponent:openSelectSkinPanel()
+	elseif slot2 == GAME.CHANGE_SKIN_UPDATE then
+		slot0.viewComponent:setShip(slot0.contextData.shipVO)
 		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
 		slot0.viewComponent:openSelectSkinPanel()
 	end

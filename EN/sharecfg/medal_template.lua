@@ -2720,6 +2720,27 @@ A medal based on the Anchorage National Observatory.
 		explain1 = "Spring Auction Adventure",
 		explain2 = "Event"
 	},
+	[200141] = {
+		target_id = "50441",
+		name = "Springtide Inn Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "Golden cups overflow, the spring breeze intoxicating. Auspicious days beckoning good fortune are ahead.\nThe inn is now yours to manage. Relish the excitement and joy of the moment.",
+		next = 0,
+		icon = "9141",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9141",
+		condition = "Collect 8 stickers in the Springtide Inn Online event.",
+		rank = 1,
+		id = 200141,
+		explain1 = "Springtide Inn Online",
+		explain2 = "Event"
+	},
 	all = {
 		10011,
 		10012,
@@ -2844,6 +2865,7 @@ A medal based on the Anchorage National Observatory.
 		200101,
 		200111,
 		200121,
-		200131
+		200131,
+		200141
 	}
 }

@@ -54,6 +54,8 @@ slot0.initSelectSkinPanel = function(slot0)
 		else
 			uv0:Flush(uv0.skins)
 		end
+
+		uv0.shareOn = slot0
 	end, SFX_PANEL)
 
 	slot0.skinScroll = slot0.skinPanel:Find("select_skin/style_scroll")
@@ -66,7 +68,11 @@ slot0.initSelectSkinPanel = function(slot0)
 end
 
 slot0.openSelectSkinPanel = function(slot0)
-	slot0:Flush(slot0.skins)
+	if slot0.shareOn then
+		slot0:Flush(slot0.shareSkins)
+	else
+		slot0:Flush(slot0.skins)
+	end
 end
 
 slot0.Flush = function(slot0, slot1)
@@ -105,10 +111,9 @@ slot0.Flush = function(slot0, slot1)
 			ShipSkin.SetStoreChangeSkinId(ShipSkin.GetChangeSkinNextId(uv0.id), uv1.shipVO:GetShipPhantomMark())
 
 			if uv2 then
+				uv1:emit(SwitchSkinMediator.CHANGE_SKIN, uv1.shipVO:GetShipPhantomMark(), slot1)
 				pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, uv1.shipVO:GetShipPhantomMark())
 			end
-
-			uv1:emit(GAME.CHANGE_SKIN_UPDATE)
 		end, SFX_PANEL)
 		onButton(slot0, slot9, function ()
 			if uv0 then

@@ -170,6 +170,23 @@ pg.survey_data_template = {
 			}
 		}
 	},
+	[1011] = {
+		ios_url = "https://usersurvey.wjx.cn/vm/wFx2bAQ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		uo_url = "https://usersurvey.wjx.cn/vm/twi78ax.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		main_url = "https://survey.yostar.net/vm/OYvNIxd.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		id = 1011,
+		name = "26226问卷",
+		main_activity = "350052922",
+		ios_activity = "252629969",
+		uo_activity = "252629896",
+		bonus = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -180,6 +197,7 @@ pg.survey_data_template = {
 		1007,
 		1008,
 		1009,
-		1010
+		1010,
+		1011
 	}
 }

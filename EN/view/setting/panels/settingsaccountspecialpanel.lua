@@ -44,7 +44,7 @@ slot0.addListener = function(slot0)
 			x = 1558,
 			y = 515
 		})
-		scrollToBottom(uv0._tf.parent.parent)
+		scrollToBottom(uv0._tf.parent)
 		setActive(uv0.panel, true)
 		setActive(uv0.expandBtn, false)
 	end, SFX_PANEL)

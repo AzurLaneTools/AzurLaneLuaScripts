@@ -3,6 +3,7 @@ pg.island_chara_att = {
 	{
 		effect = 25,
 		name = "SSS",
+		gather_effect = 7,
 		id = 1,
 		manage_effect = 10000,
 		range = {
@@ -13,6 +14,7 @@ pg.island_chara_att = {
 	{
 		effect = 23,
 		name = "SS",
+		gather_effect = 6,
 		id = 2,
 		manage_effect = 8400,
 		range = {
@@ -23,6 +25,7 @@ pg.island_chara_att = {
 	{
 		effect = 20,
 		name = "S",
+		gather_effect = 5,
 		id = 3,
 		manage_effect = 7200,
 		range = {
@@ -33,6 +36,7 @@ pg.island_chara_att = {
 	{
 		effect = 15,
 		name = "A",
+		gather_effect = 4,
 		id = 4,
 		manage_effect = 5600,
 		range = {
@@ -43,6 +47,7 @@ pg.island_chara_att = {
 	{
 		effect = 10,
 		name = "B",
+		gather_effect = 3,
 		id = 5,
 		manage_effect = 4200,
 		range = {
@@ -53,6 +58,7 @@ pg.island_chara_att = {
 	{
 		effect = 5,
 		name = "C",
+		gather_effect = 2,
 		id = 6,
 		manage_effect = 3000,
 		range = {
@@ -63,6 +69,7 @@ pg.island_chara_att = {
 	{
 		effect = 2,
 		name = "D",
+		gather_effect = 1,
 		id = 7,
 		manage_effect = 1600,
 		range = {
@@ -73,6 +80,7 @@ pg.island_chara_att = {
 	{
 		effect = 0,
 		name = "E",
+		gather_effect = 0,
 		id = 8,
 		manage_effect = 500,
 		range = {

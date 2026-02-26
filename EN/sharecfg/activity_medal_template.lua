@@ -1332,6 +1332,102 @@ pg.activity_medal_template = {
 		id = 5040508,
 		medal_asset = "ActivityMedal/5040508"
 	},
+	[5044101] = {
+		activity_medal_desc = "Welcome, welcome, one and all! Experience the most exciting point of spring inside!",
+		next_medal = 0,
+		item = 65861,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "1",
+		task_id = 21902,
+		activity_medal_name = "Sticker: Springtide Inn",
+		id = 5044101,
+		medal_asset = "ActivityMedal/5044101"
+	},
+	[5044102] = {
+		activity_medal_desc = "Reading map data...",
+		next_medal = 0,
+		item = 65862,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "2",
+		task_id = 21903,
+		activity_medal_name = "Sticker: Loading...",
+		id = 5044102,
+		medal_asset = "ActivityMedal/5044102"
+	},
+	[5044103] = {
+		activity_medal_desc = "Their only job is to look cute!",
+		next_medal = 0,
+		item = 65863,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "3",
+		task_id = 21904,
+		activity_medal_name = "Sticker: Da Bao and Baobao",
+		id = 5044103,
+		medal_asset = "ActivityMedal/5044103"
+	},
+	[5044104] = {
+		activity_medal_desc = "Ready to commence QC. Everyone needs it, you included!",
+		next_medal = 0,
+		item = 65864,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "4",
+		task_id = 21905,
+		activity_medal_name = "Sticker: Quality Monitoring",
+		id = 5044104,
+		medal_asset = "ActivityMedal/5044104"
+	},
+	[5044105] = {
+		activity_medal_desc = "Ka-ching, ka-aching! Money's pouring in from every direction!",
+		next_medal = 0,
+		item = 65865,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "5",
+		task_id = 21906,
+		activity_medal_name = "Sticker: Chen Hai's Abacus",
+		id = 5044105,
+		medal_asset = "ActivityMedal/5044105"
+	},
+	[5044106] = {
+		activity_medal_desc = "Careful! They're piping hot.",
+		next_medal = 0,
+		item = 65866,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "6",
+		task_id = 21907,
+		activity_medal_name = "Sticker: Signature Xiaolongbao",
+		id = 5044106,
+		medal_asset = "ActivityMedal/5044106"
+	},
+	[5044107] = {
+		activity_medal_desc = "Give it a modest wave and the spring mood will blow your way.",
+		next_medal = 0,
+		item = 65867,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "7",
+		task_id = 21908,
+		activity_medal_name = "Sticker: Spring Folding Fan",
+		id = 5044107,
+		medal_asset = "ActivityMedal/5044107"
+	},
+	[5044108] = {
+		activity_medal_desc = "Light a lantern and abundant blessings shall grace your garden.",
+		next_medal = 0,
+		item = 65868,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "8",
+		task_id = 21909,
+		activity_medal_name = "Sticker: Paper Lantern",
+		id = 5044108,
+		medal_asset = "ActivityMedal/5044108"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1471,6 +1567,16 @@ pg.activity_medal_template = {
 			5040506,
 			5040507,
 			5040508
+		},
+		[50441] = {
+			5044101,
+			5044102,
+			5044103,
+			5044104,
+			5044105,
+			5044106,
+			5044107,
+			5044108
 		}
 	},
 	all = {
@@ -1584,6 +1690,14 @@ pg.activity_medal_template = {
 		5040505,
 		5040506,
 		5040507,
-		5040508
+		5040508,
+		5044101,
+		5044102,
+		5044103,
+		5044104,
+		5044105,
+		5044106,
+		5044107,
+		5044108
 	}
 }

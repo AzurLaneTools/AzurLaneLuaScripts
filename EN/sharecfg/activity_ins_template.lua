@@ -23452,9 +23452,9 @@ pg.activity_ins_template = {
 		ship_group = 30311,
 		name = "Takao",
 		sculpture = "gaoxiong",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260122_gaoxiongUpOIqgkG4aLDNhof.png",
+		is_active = 0,
+		message_persist = "ins_620",
 		id = 620,
 		group_id = 620,
 		time = {
@@ -23469,16 +23469,31 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				1,
+				22
+			},
+			{
+				13,
+				53,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			6769,
+			6772,
+			6775
+		}
 	},
 	[621] = {
 		ship_group = 60509,
 		name = "Francesco Caracciolo",
 		sculpture = "fulangxisike",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260122_fulangxisikevCid4PrTkWhwiKOm.png",
+		is_active = 0,
+		message_persist = "ins_621",
 		id = 621,
 		group_id = 621,
 		time = {
@@ -23493,16 +23508,30 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				1,
+				23
+			},
+			{
+				10,
+				45,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			6783,
+			6786
+		}
 	},
 	[622] = {
 		ship_group = 60204,
 		name = "Alberto di Giussano",
 		sculpture = "aerbeituo",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260122_aerbeituocu9FOhN9ovPuCbsd.png",
+		is_active = 0,
+		message_persist = "ins_622",
 		id = 622,
 		group_id = 622,
 		time = {
@@ -23517,16 +23546,30 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				1,
+				24
+			},
+			{
+				13,
+				29,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			6794,
+			6797
+		}
 	},
 	[623] = {
 		ship_group = 60112,
 		name = "Ugolino Vivaldi",
 		sculpture = "wugelini",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260122_wugelini8xVFOH1XUvlNWg7Q.png",
+		is_active = 0,
+		message_persist = "ins_623",
 		id = 623,
 		group_id = 623,
 		time = {
@@ -23541,16 +23584,30 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				1,
+				25
+			},
+			{
+				14,
+				27,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			6805,
+			6807
+		}
 	},
 	[624] = {
 		ship_group = 10520,
 		name = "Alabama",
 		sculpture = "alabama",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260122_alabama7kziH7sMh44kShTP.png",
+		is_active = 0,
+		message_persist = "ins_624",
 		id = 624,
 		group_id = 624,
 		time = {
@@ -23565,8 +23622,22 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				1,
+				26
+			},
+			{
+				12,
+				5,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			6818,
+			6822
+		}
 	},
 	[625] = {
 		ship_group = 50302,
@@ -23682,6 +23753,102 @@ pg.activity_ins_template = {
 			{
 				9,
 				30,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[630] = {
+		ship_group = 70303,
+		name = "Moskva",
+		sculpture = "mosike",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 630,
+		group_id = 630,
+		time = {
+			{
+				2026,
+				2,
+				26
+			},
+			{
+				10,
+				41,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[631] = {
+		ship_group = 70113,
+		name = "Ozornoy",
+		sculpture = "wanpi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 631,
+		group_id = 631,
+		time = {
+			{
+				2026,
+				2,
+				27
+			},
+			{
+				13,
+				5,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[632] = {
+		ship_group = 70209,
+		name = "Krasny Kavkaz",
+		sculpture = "hongseshanmai",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 632,
+		group_id = 632,
+		time = {
+			{
+				2026,
+				2,
+				28
+			},
+			{
+				20,
+				10,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[633] = {
+		ship_group = 70210,
+		name = "Bogatyr",
+		sculpture = "bojiateli",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 633,
+		group_id = 633,
+		time = {
+			{
+				2026,
+				3,
+				1
+			},
+			{
+				7,
+				0,
 				0
 			}
 		},
@@ -24308,6 +24475,10 @@ pg.activity_ins_template = {
 		626,
 		627,
 		628,
-		629
+		629,
+		630,
+		631,
+		632,
+		633
 	}
 }

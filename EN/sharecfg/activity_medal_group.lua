@@ -532,6 +532,46 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50441] = {
+		id = 50441,
+		entrance_picture = "medalAlbum/50441",
+		group_name = "Springtide Inn Online",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50441,
+				{
+					21901,
+					21902,
+					21903,
+					21904,
+					21905,
+					21906,
+					21907,
+					21908,
+					21909,
+					21910
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "MedalAlbumMoskvaView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				331,
+				1
+			},
+			{
+				8,
+				65860,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -546,6 +586,7 @@ pg.activity_medal_group = {
 		50209,
 		50295,
 		50359,
-		50405
+		50405,
+		50441
 	}
 }

@@ -469,10 +469,10 @@ slot0.GetShareSkinsForShip = function(slot0, slot1)
 					table.remove(slot3, slot7)
 				end
 			elseif not slot0:hasSkin(slot8.id) then
-				if slot10 ~= slot8.id then
+				if slot11 and slot11 ~= "" and slot11.index ~= 1 then
 					table.remove(slot3, slot7)
 				end
-			elseif slot11 and slot11 ~= "" and slot11.index ~= 1 then
+			elseif slot10 ~= slot8.id then
 				table.remove(slot3, slot7)
 			end
 		end

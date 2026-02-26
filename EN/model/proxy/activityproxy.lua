@@ -328,6 +328,9 @@ slot0.timeCall = function(slot0)
 					switch(slot5:getConfig("type"), {
 						[ActivityConst.ACTIVITY_TYPE_TOWN] = function ()
 							uv0:UpdateTime()
+						end,
+						[ActivityConst.ACTIVITY_TYPE_TOWN2] = function ()
+							uv0:UpdateTime()
 						end
 					})
 				end

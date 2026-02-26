@@ -32,7 +32,7 @@ end
 
 slot1.OnCountChange = function(slot0)
 	uv0.super.OnCountChange(slot0)
-	SetActive(slot0._chargeEff, slot0._progressInfo:GetCount() > 0)
+	SetActive(slot0._gizmos1, slot0._progressInfo:GetCount() > 0)
 end
 
 slot1.OnOverLoadChange = function(slot0, slot1)

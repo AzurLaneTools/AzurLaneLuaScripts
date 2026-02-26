@@ -19,11 +19,18 @@ slot0.OnInit = function(slot0)
 	slot1 = pg.island_npc_hud[slot0.npcId]
 	slot0.hudImageIcon = slot1.icon
 	slot0.hudTitle = slot0._tf:Find("title")
-	slot0.hudName = slot0._tf:Find("name")
+	slot2 = slot0._tf
+	slot0.hudName = slot2:Find("name")
 
 	setText(slot0.hudTitle, slot1.title)
 	setText(slot0.hudName, slot1.name)
 
+	slot0.tfDic = {
+		hudImage = slot0.hudImageBg,
+		title = slot0.hudTitle,
+		name = slot0.hudName
+	}
+	slot0.activeTFDic = {}
 	slot0.playerTF = slot0:GetPlayer()
 
 	slot0:CheckPlayer()
@@ -83,8 +90,47 @@ slot0.OnUpdate = function(slot0)
 
 		slot0.isNear = slot1
 
-		setActive(slot0.hudTitle, slot0.isNear)
-		setActive(slot0.hudName, slot0.isNear)
+		for slot6, slot7 in ipairs({
+			"title",
+			"name"
+		}) do
+			slot0:SetTFActive(slot7, slot0.isNear)
+		end
+	end
+end
+
+slot0.SetTFActive = function(slot0, slot1, slot2)
+	if IsNil(slot0.tfDic[slot1]) then
+		return
+	end
+
+	if slot0.activeTFDic[slot1] == slot2 then
+		return
+	end
+
+	slot0.activeTFDic[slot1] = slot2
+	slot4 = slot3:GetComponent(typeof(Animation))
+
+	if slot2 then
+		slot4:Play("anim_IslandNormalNpcHud_in")
+
+		if slot1 == "hudImage" then
+			slot0:UpdateTaskDisplay()
+		else
+			setActive(slot3, true)
+		end
+	else
+		slot4:Play("anim_IslandNormalNpcHud_out")
+
+		slot5 = slot3:GetComponent("DftAniEvent")
+
+		slot5:SetEndEvent(function (slot0)
+			if uv0 == "hudImage" then
+				uv1:UpdateTaskDisplay()
+			else
+				setActive(uv2, false)
+			end
+		end)
 	end
 end
 
@@ -124,6 +170,40 @@ slot0.UpdateTaskDisplay = function(slot0)
 		if slot3 ~= "" then
 			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", slot3, slot0.hudImageTF)
 		end
+	end
+end
+
+slot0.Show = function(slot0)
+	if not slot0._tf or slot0.active == true then
+		return
+	end
+
+	slot0.active = true
+
+	setActive(slot0._tf, true)
+
+	for slot5, slot6 in ipairs({
+		"hudImage",
+		"title",
+		"name"
+	}) do
+		slot0:SetTFActive(slot6, true)
+	end
+end
+
+slot0.Hide = function(slot0)
+	if not slot0._tf then
+		return
+	end
+
+	slot0.active = false
+
+	for slot5, slot6 in ipairs({
+		"hudImage",
+		"title",
+		"name"
+	}) do
+		slot0:SetTFActive(slot6, false)
 	end
 end
 

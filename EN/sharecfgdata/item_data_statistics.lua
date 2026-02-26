@@ -16106,6 +16106,37 @@ _G.pg.base.item_data_statistics[21056] = {
 }
 
 
+_G.pg.base.item_data_statistics[21057] = {
+	open_directly = 0,
+	name = "META Crystal – Gangut META",
+	type = 4,
+	display = "An item that increases the potential of Gangut META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21057",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -28612,6 +28643,131 @@ _G.pg.base.item_data_statistics[30380] = {
 		{
 			9,
 			4311,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30381] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Springtide Inn)",
+	type = 11,
+	display = "Contains a random Springtide Inn-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunmankezhan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30378",
+	id = 30381,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4312,
+			1
+		},
+		{
+			9,
+			4313,
+			1
+		},
+		{
+			9,
+			4314,
+			1
+		},
+		{
+			9,
+			4315,
+			1
+		},
+		{
+			9,
+			4316,
+			1
+		},
+		{
+			9,
+			4317,
+			1
+		},
+		{
+			9,
+			4318,
+			1
+		},
+		{
+			9,
+			4319,
+			1
+		},
+		{
+			9,
+			4320,
+			1
+		},
+		{
+			9,
+			4321,
+			1
+		},
+		{
+			9,
+			4322,
+			1
+		},
+		{
+			9,
+			4323,
+			1
+		},
+		{
+			9,
+			4324,
+			1
+		},
+		{
+			9,
+			4325,
+			1
+		},
+		{
+			9,
+			4326,
+			1
+		},
+		{
+			9,
+			4327,
+			1
+		},
+		{
+			9,
+			4328,
+			1
+		},
+		{
+			9,
+			4329,
 			1
 		}
 	},
@@ -43980,6 +44136,219 @@ _G.pg.base.item_data_statistics[30564] = {
 }
 
 
+_G.pg.base.item_data_statistics[30565] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Springtide Inn)",
+	type = 13,
+	display = "Can be opened to receive 1 Springtide Inn-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunmankezhanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30565,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4312,
+			1
+		},
+		{
+			9,
+			4313,
+			1
+		},
+		{
+			9,
+			4314,
+			1
+		},
+		{
+			9,
+			4315,
+			1
+		},
+		{
+			9,
+			4316,
+			1
+		},
+		{
+			9,
+			4317,
+			1
+		},
+		{
+			9,
+			4318,
+			1
+		},
+		{
+			9,
+			4319,
+			1
+		},
+		{
+			9,
+			4320,
+			1
+		},
+		{
+			9,
+			4321,
+			1
+		},
+		{
+			9,
+			4322,
+			1
+		},
+		{
+			9,
+			4323,
+			1
+		},
+		{
+			9,
+			4324,
+			1
+		},
+		{
+			9,
+			4325,
+			1
+		},
+		{
+			9,
+			4326,
+			1
+		},
+		{
+			9,
+			4327,
+			1
+		},
+		{
+			9,
+			4328,
+			1
+		},
+		{
+			9,
+			4329,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4312,
+			1
+		},
+		{
+			9,
+			4313,
+			1
+		},
+		{
+			9,
+			4314,
+			1
+		},
+		{
+			9,
+			4315,
+			1
+		},
+		{
+			9,
+			4316,
+			1
+		},
+		{
+			9,
+			4317,
+			1
+		},
+		{
+			9,
+			4318,
+			1
+		},
+		{
+			9,
+			4319,
+			1
+		},
+		{
+			9,
+			4320,
+			1
+		},
+		{
+			9,
+			4321,
+			1
+		},
+		{
+			9,
+			4322,
+			1
+		},
+		{
+			9,
+			4323,
+			1
+		},
+		{
+			9,
+			4324,
+			1
+		},
+		{
+			9,
+			4325,
+			1
+		},
+		{
+			9,
+			4326,
+			1
+		},
+		{
+			9,
+			4327,
+			1
+		},
+		{
+			9,
+			4328,
+			1
+		},
+		{
+			9,
+			4329,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -47929,6 +48298,90 @@ _G.pg.base.item_data_statistics[40076] = {
 			2,
 			30113,
 			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40077] = {
+	open_directly = 1,
+	name = "Battle UI Pack - Springtide Inn (Basic)",
+	type = 17,
+	display = "Contains the Battle UI - Springtide Inn theme and 1,000 Coins.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui8",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4077",
+	id = 40077,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			207,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40078] = {
+	open_directly = 1,
+	name = "Battle UI Pack - Springtide Inn (Premium)",
+	type = 17,
+	display = "Contains the Battle UI - Springtide Inn theme and 3,060 Gems.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui8",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4078",
+	id = 40078,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			207,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},
@@ -110277,7 +110730,7 @@ _G.pg.base.item_data_statistics[81232] = {
 	open_directly = 1,
 	name = "Spring Lucky Box 2026 A",
 	type = 17,
-	display = "Contains a random Spring Lucky Box 2026 A skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+	display = "Buy to receive one random Spring Lucky Box 2026 A skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -110299,6 +110752,73 @@ _G.pg.base.item_data_statistics[81232] = {
 		{
 			2,
 			86224,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81233] = {
+	open_directly = 1,
+	name = "Spring Lucky Box 2026 B",
+	type = 17,
+	display = "Buy to receive one random Spring Lucky Box 2026 B skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Token x100, and Quick Finisher x10.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai33",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998329",
+	id = 81233,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86225,
 			1
 		},
 		{

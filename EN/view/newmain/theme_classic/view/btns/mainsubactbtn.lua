@@ -21,15 +21,14 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.IsShowTip = function(slot0)
-	slot1 = slot0:GetActivityID()
-	slot2 = slot0:GetActivity()
+	slot1 = slot0:GetActivity()
 
-	return switch(slot2:getConfig("type"), {
-		[ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID] = function ()
-			return uv0:rereadyToAchieve()
+	return switch(slot1:getConfig("type"), {
+		[ActivityConst.ACTIVITY_TYPE_TOWN2] = function ()
+			return LiquorFloorMapScene.ShouldShowTaskTip()
 		end
 	}, function ()
-		return false
+		return uv0:readyToAchieve()
 	end)
 end
 

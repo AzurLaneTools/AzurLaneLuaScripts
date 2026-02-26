@@ -295,6 +295,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[207] = {
+		name = "Springtide Inn",
+		key = "SkinElite_20260226",
+		display_icon = "ui_207",
+		unlock = "Buy the Battle UI Pack – Springtide Inn",
+		is_unlock = 1,
+		rare = 4,
+		desc = "Bask in the lively atmosphere at Springtide Inn, see the fireworks and the lanterns, and listen to the pop-pop-pop of firecrackers. Welcome spring with a bang!",
+		id = 207,
+		icon = "207",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -314,6 +331,7 @@ pg.item_data_battleui = {
 		203,
 		204,
 		205,
-		206
+		206,
+		207
 	}
 }

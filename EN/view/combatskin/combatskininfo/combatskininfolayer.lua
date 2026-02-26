@@ -11,6 +11,9 @@ slot0.init = function(slot0)
 	slot0.confirm = slot0._tf:Find("display/actions/confirm")
 	slot0.skinViewTF = slot0._tf:Find("display")
 	slot0.toggleList = UIItemList.New(slot0._tf:Find("display/info/display_panel/combat_skin/elementList"), slot0._tf:Find("display/info/display_panel/combat_skin/elementList/main"))
+
+	setText(slot0.confirm:Find("upgrade"), i18n("text_consume"))
+	setText(slot0._tf:Find("display/top/bg/infomation/title"), i18n("words_information"))
 end
 
 slot0.didEnter = function(slot0)

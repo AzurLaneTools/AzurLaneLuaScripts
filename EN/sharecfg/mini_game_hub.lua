@@ -883,6 +883,20 @@ pg.mini_game_hub = {
 		act_id = 50423,
 		signet_reward = {}
 	},
+	{
+		reward = 909257,
+		reward_need = 7,
+		reborn_times = 1,
+		reward_target = 0,
+		id = 69,
+		act_id = 50443,
+		signet_reward = {},
+		reward_display = {
+			3,
+			2,
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -951,6 +965,7 @@ pg.mini_game_hub = {
 		65,
 		66,
 		67,
-		68
+		68,
+		69
 	}
 }

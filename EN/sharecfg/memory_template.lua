@@ -3943,6 +3943,26 @@ pg.memory_template = setmetatable({
 		5002,
 		5003,
 		5004,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
+		5016,
+		5017,
+		5018,
+		5019,
+		5020,
+		5021,
+		5022,
+		5023,
+		5024,
+		5025,
+		5026,
+		5027,
+		5028,
+		5029,
+		5030,
 		10011,
 		10012,
 		10013,
@@ -63270,6 +63290,306 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANHONGXIAOZHANGNUAN4"
+		}
+	},
+	[5011] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Peak of Spring",
+		condition = "Begin the event.",
+		story = "CHUNMANKEZHAN1",
+		id = 5011,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN1"
+		}
+	},
+	[5012] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Operation Inn-Filtration",
+		condition = "Raise the Inn to Lv. 3.",
+		story = "CHUNMANKEZHAN2",
+		id = 5012,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN2"
+		}
+	},
+	[5013] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "It's Called Testing for a Reason",
+		condition = "Raise the Inn to Lv. 6.",
+		story = "CHUNMANKEZHAN3",
+		id = 5013,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN3"
+		}
+	},
+	[5014] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Base-Function Repair Log",
+		condition = "Raise the Inn to Lv. 9.",
+		story = "CHUNMANKEZHAN4",
+		id = 5014,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN4"
+		}
+	},
+	[5015] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Epilogue",
+		condition = "Raise the Inn to Lv. 12.",
+		story = "CHUNMANKEZHAN5",
+		id = 5015,
+		icon = "memory_chunmankezhan2",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN5"
+		}
+	},
+	[5016] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Our Game Has Just Begun",
+		condition = "Raise the Parlor to Lv. 3.",
+		story = "CHUNMANKEZHAN6",
+		id = 5016,
+		icon = "memory_chunmankezhan3",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN6"
+		}
+	},
+	[5017] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Dancer of the Deep Chamber",
+		condition = "Raise the Parlor to Lv. 6.",
+		story = "CHUNMANKEZHAN7",
+		id = 5017,
+		icon = "memory_chunmankezhan4",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN7"
+		}
+	},
+	[5018] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Her Beauty Runneth Over",
+		condition = "Raise the Parlor to Lv. 9.",
+		story = "CHUNMANKEZHAN8",
+		id = 5018,
+		icon = "memory_chunmankezhan5",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN8"
+		}
+	},
+	[5019] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Playing Blind ♥",
+		condition = "Raise the Gazebo to Lv. 6.",
+		story = "CHUNMANKEZHAN9",
+		id = 5019,
+		icon = "memory_chunmankezhan6",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN9"
+		}
+	},
+	[5020] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Spring's Lackadaisical Leisure",
+		condition = "Raise the Garden to Lv. 8.",
+		story = "CHUNMANKEZHAN10",
+		id = 5020,
+		icon = "memory_chunmankezhan7",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN10"
+		}
+	},
+	[5021] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ozornoy's Self-Defense Training",
+		condition = "Raise the Restaurant to Lv. 4.",
+		story = "CHUNMANKEZHAN11",
+		id = 5021,
+		icon = "memory_chunmankezhan8",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN11"
+		}
+	},
+	[5022] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Server Under Maintenance",
+		condition = "Raise the Warehouse to Lv. 8.",
+		story = "CHUNMANKEZHAN12",
+		id = 5022,
+		icon = "memory_chunmankezhan9",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN12"
+		}
+	},
+	[5023] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Chef's Day Off",
+		condition = "Raise the Restaurant to Lv. 8.",
+		story = "CHUNMANKEZHAN13",
+		id = 5023,
+		icon = "memory_chunmankezhan10",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN13"
+		}
+	},
+	[5024] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "New Year's White Plumage",
+		condition = "Raise the Restaurant to Lv. 12.",
+		story = "CHUNMANKEZHAN14",
+		id = 5024,
+		icon = "memory_chunmankezhan11",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN14"
+		}
+	},
+	[5025] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Lanternlight Parade",
+		condition = "Raise the Pond to Lv. 8.",
+		story = "CHUNMANKEZHAN15",
+		id = 5025,
+		icon = "memory_chunmankezhan12",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN15"
+		}
+	},
+	[5026] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Cooking Battle",
+		condition = "Raise the Restaurant to Lv. 6.",
+		story = "CHUNMANKEZHAN16",
+		id = 5026,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN16"
+		}
+	},
+	[5027] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Game of Wits",
+		condition = "Raise the Gazebo to Lv. 10.",
+		story = "CHUNMANKEZHAN17",
+		id = 5027,
+		icon = "memory_chunmankezhan14",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN17"
+		}
+	},
+	[5028] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Room Renovations",
+		condition = "Raise the Parlor to Lv. 5.",
+		story = "CHUNMANKEZHAN18",
+		id = 5028,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN18"
+		}
+	},
+	[5029] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Lucky One and the Lucky Koi",
+		condition = "Raise the Pond to Lv. 6.",
+		story = "CHUNMANKEZHAN19",
+		id = 5029,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN19"
+		}
+	},
+	[5030] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Sketchy Encounter",
+		condition = "Raise the Garden to Lv. 6.",
+		story = "CHUNMANKEZHAN20",
+		id = 5030,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN20"
 		}
 	},
 	[10011] = {
