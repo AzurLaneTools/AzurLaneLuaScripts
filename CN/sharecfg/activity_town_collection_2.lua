@@ -17,7 +17,7 @@ pg.activity_town_collection_2 = {
 		name = "客栈潜入大作战",
 		type = 1,
 		unlock_desc = "客栈达到3级",
-		icon = "bg_kezhan_cg_3",
+		icon = "bg_kezhan_cg_2",
 		luaID = "CHUNMANKEZHAN2",
 		unlock = {
 			0,
@@ -29,7 +29,7 @@ pg.activity_town_collection_2 = {
 		name = "测试环节需测试",
 		type = 1,
 		unlock_desc = "客栈达到6级",
-		icon = "bg_kezhan_cg_3",
+		icon = "bg_kezhan_cg_2",
 		luaID = "CHUNMANKEZHAN3",
 		unlock = {
 			0,
@@ -41,7 +41,7 @@ pg.activity_town_collection_2 = {
 		name = "底层修复日志",
 		type = 1,
 		unlock_desc = "客栈达到9级",
-		icon = "bg_kezhan_cg_3",
+		icon = "bg_kezhan_cg_2",
 		luaID = "CHUNMANKEZHAN4",
 		unlock = {
 			0,

@@ -10990,7 +10990,7 @@ _G.pg.base.gametip.help_activitypool_3 = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "*活动期间(<color=#539b2c>$1</COLOR>)每次刷新必定出现<color=#539b2c>外观装备箱</color>"
+	tip = "*活动期间(<color=#539b2c>02.12-03.04</COLOR>)每次刷新必定出现<color=#539b2c>外观装备箱(新春拍卖会)/外观装备箱(瑞光迎岁)</color>\n*活动期间(<color=#539b2c>02.26-03.11</COLOR>)每次刷新必定出现<color=#539b2c>外观装备箱(春满客栈)</color>"
 }
 
 

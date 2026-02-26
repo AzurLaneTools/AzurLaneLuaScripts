@@ -355,16 +355,13 @@ pg.activity_link_button = {
 	[110] = {
 		param = "SpringFestival2026CoreActivityUI",
 		name = "event_core_2",
+		time = "stop",
 		text_pic = "text_event_core2",
 		type = 16,
 		pic = "event_core2",
 		id = 110,
 		group_id = 2,
-		order = 2,
-		time = {
-			"default",
-			50404
-		}
+		order = 2
 	},
 	[111] = {
 		param = "ALYCoreActivityUI",

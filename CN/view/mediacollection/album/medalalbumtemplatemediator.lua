@@ -30,10 +30,14 @@ slot0.BindEvent = function(slot0)
 					act_id = slot5:getActId(),
 					task_ids = {
 						uv1.id
-					}
-				}, uv2)
+					},
+					callback = slot0
+				})
 			end
 		}, function ()
+			uv0.viewComponent:SetMedalGroupData(getProxy(PlayerProxy):getRawData():getActivityMedalGroup())
+			uv0.viewComponent:UpdateView()
+			existCall(uv1)
 		end)
 	end)
 end

@@ -195,6 +195,7 @@ slot0.handleNotification = function(slot0, slot1)
 				uv0.placeData = uv0.activity:GetPlaceList()
 
 				uv0.viewComponent:OnBox(uv0.placeData[uv0.indexplaceData], uv0.indexplaceData, uv0.activity)
+				uv0.viewComponent:OnBox(uv0.placeData[uv0.indexplaceData], uv0.indexplaceData, uv0.activity)
 
 				uv0.upgradeplaceData = nil
 				uv0.indexplaceData = nil

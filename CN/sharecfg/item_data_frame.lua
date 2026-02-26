@@ -120,7 +120,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 0,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>不设置任何头像框</color>\n该状态下将誓约角色设置为秘书舰，可显示誓约头像框",
+		desc = "不设置任何头像框\n<color=#A7A7AA>该状态下将誓约角色设置为秘书舰，可显示誓约头像框</color>",
 		scene = {}
 	},
 	[101] = {
@@ -129,7 +129,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 101,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有一年间持续奋斗在港区的指挥官们</color>\n开启「再诞·曙光」纪念币获取",
+		desc = "献给所有一年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>开启「再诞·曙光」纪念币获取</color>",
 		scene = {}
 	},
 	[102] = {
@@ -138,7 +138,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 102,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有两年间持续奋斗在港区的指挥官们</color>\n通过参与二周年限定活动获取",
+		desc = "献给所有两年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与二周年限定活动获取</color>",
 		scene = {}
 	},
 	[103] = {
@@ -147,7 +147,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 103,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>愿能一起走过下一个、再下一个，再下无数个的千日~啾！</color>\n碧蓝航线港区开设1000天奖励",
+		desc = "愿能一起走过下一个、再下一个，再下无数个的千日~啾！\n<color=#A7A7AA>碧蓝航线港区开设1000天奖励</color>",
 		scene = {}
 	},
 	[104] = {
@@ -156,7 +156,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 104,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有三年间持续奋斗在港区的指挥官们</color>\n通过参与三周年限定活动获取",
+		desc = "献给所有三年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与三周年限定活动获取</color>",
 		scene = {}
 	},
 	[105] = {
@@ -165,7 +165,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 105,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有四年间持续奋斗在港区的指挥官们</color>\n通过参与四周年限定活动获取",
+		desc = "献给所有四年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与四周年限定活动获取</color>",
 		scene = {}
 	},
 	[107] = {
@@ -174,7 +174,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 107,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有五年间持续奋斗在港区的指挥官们</color>\n通过参与五周年限定活动获取",
+		desc = "献给所有五年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与五周年限定活动获取</color>",
 		scene = {}
 	},
 	[108] = {
@@ -183,7 +183,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 108,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有六年间持续奋斗在港区的指挥官们</color>\n通过参与六周年限定活动获取",
+		desc = "献给所有六年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与六周年限定活动获取</color>",
 		scene = {}
 	},
 	[109] = {
@@ -192,7 +192,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 109,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有七年间持续奋斗在港区的指挥官们</color>\n通过参与七周年限定活动获取",
+		desc = "献给所有七年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与七周年限定活动获取</color>",
 		scene = {}
 	},
 	[110] = {
@@ -201,7 +201,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 110,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有八年间持续奋斗在港区的指挥官们</color>\n通过参与八周年限定活动获取",
+		desc = "献给所有八年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与八周年限定活动获取</color>",
 		scene = {}
 	},
 	[201] = {
@@ -210,7 +210,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 201,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （19.06.06-19.07.28）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （19.06.06-19.07.28）</color>",
 		scene = {}
 	},
 	[202] = {
@@ -219,7 +219,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 202,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （19.08.07-19.09.29）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （19.08.07-19.09.29）</color>",
 		scene = {}
 	},
 	[203] = {
@@ -228,7 +228,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 203,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （19.10.10-19.12.08）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （19.10.10-19.12.08）</color>",
 		scene = {}
 	},
 	[204] = {
@@ -237,7 +237,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 204,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （19.12.19-20.03.29）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （19.12.19-20.03.29）</color>",
 		scene = {}
 	},
 	[205] = {
@@ -246,7 +246,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 205,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （20.04.09-20.07.05）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （20.04.09-20.07.05）</color>",
 		scene = {}
 	},
 	[206] = {
@@ -255,7 +255,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 206,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （20.07.09-20.10.04）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （20.07.09-20.10.04）</color>",
 		scene = {}
 	},
 	[207] = {
@@ -264,7 +264,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 207,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （20.10.12-21.01.17）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （20.10.12-21.01.17）</color>",
 		scene = {}
 	},
 	[208] = {
@@ -273,7 +273,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 208,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （21.01.21-21.04.18）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （21.01.21-21.04.18）</color>",
 		scene = {}
 	},
 	[209] = {
@@ -282,7 +282,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 209,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （21.04.22-21.07.18）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （21.04.22-21.07.18）</color>",
 		scene = {}
 	},
 	[210] = {
@@ -291,7 +291,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 210,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （21.07.22-21.10.17）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （21.07.22-21.10.17）</color>",
 		scene = {}
 	},
 	[211] = {
@@ -300,7 +300,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 211,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （21.10.21-22.01.16）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （21.10.21-22.01.16）</color>",
 		scene = {}
 	},
 	[212] = {
@@ -309,7 +309,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 212,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （22.01.27-22.04.24）",
+		desc = "献给所有勇于挑战极限的指挥官们\n<color=#A7A7AA>通过参与「限界挑战」获取 （22.01.27-22.04.24）</color>",
 		scene = {}
 	},
 	[300] = {
@@ -318,7 +318,7 @@ pg.base.item_data_frame = {
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
-		desc = "<color=#ffffff>感谢您对于动员指令的响应，指挥官</color>\n有效期30天",
+		desc = "感谢您对于动员指令的响应，指挥官\n<color=#A7A7AA>有效期30天</color>",
 		scene = {}
 	},
 	[301] = {
@@ -327,7 +327,7 @@ pg.base.item_data_frame = {
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
-		desc = "<color=#ffffff>指挥部欢迎您的归来，期待您今后的活跃</color>\n有效期30天",
+		desc = "指挥部欢迎您的归来，期待您今后的活跃\n<color=#A7A7AA>有效期30天</color>",
 		scene = {}
 	},
 	[302] = {
@@ -336,7 +336,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 302,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>以赤红的血、和冷彻的铁，铸就坚定的意志</color>\n「铁血、音符与誓言」活动获取",
+		desc = "以赤红的血、和冷彻的铁，铸就坚定的意志\n<color=#A7A7AA>「铁血、音符与誓言」活动获取</color>",
 		scene = {}
 	},
 	[303] = {
@@ -345,7 +345,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 303,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「——为了碧蓝色的自由意志，天佑白鹰」</color>\n「箱庭疗法」活动获取",
+		desc = "「——为了碧蓝色的自由意志，天佑白鹰」\n<color=#A7A7AA>「箱庭疗法」活动获取</color>",
 		scene = {}
 	},
 	[304] = {
@@ -354,7 +354,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 304,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「让世界知晓撒丁帝国的荣耀与尊严吧！」</color>\n「神圣的悲喜剧」活动获取",
+		desc = "「让世界知晓撒丁帝国的荣耀与尊严吧！」\n<color=#A7A7AA>「神圣的悲喜剧」活动获取</color>",
 		scene = {}
 	},
 	[305] = {
@@ -363,7 +363,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 305,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「奉纳信仰，为重樱之未来祈愿光明」</color>\n「浮樱影华」活动获取",
+		desc = "「奉纳信仰，为重樱之未来祈愿光明」\n<color=#A7A7AA>「浮樱影华」活动获取</color>",
 		scene = {}
 	},
 	[306] = {
@@ -372,7 +372,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 306,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「同志们，团结起来吧！世界将在我们手中改变！」</color>\n「北境序曲」活动获取",
+		desc = "「同志们，团结起来吧！世界将在我们手中改变！」\n<color=#A7A7AA>「北境序曲」活动获取</color>",
 		scene = {}
 	},
 	[307] = {
@@ -381,7 +381,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 307,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「无畏的闪电划破黑暗，照亮我们前进的方向」</color>\n「微层混合」活动获取",
+		desc = "「无畏的闪电划破黑暗，照亮我们前进的方向」\n<color=#A7A7AA>「微层混合」活动获取</color>",
 		scene = {}
 	},
 	[308] = {
@@ -390,7 +390,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 308,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「愿昔日的颂歌再次响彻天空，Vive la Iris！」</color>\n「穹顶下的圣咏曲」活动获取",
+		desc = "「愿昔日的颂歌再次响彻天空，Vive la Iris！」\n<color=#A7A7AA>「穹顶下的圣咏曲」活动获取</color>",
 		scene = {}
 	},
 	[309] = {
@@ -399,7 +399,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 309,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为皇家的荣耀而战，天佑女王</color>\n「永夜幻光」活动获取",
+		desc = "为皇家的荣耀而战，天佑女王\n<color=#A7A7AA>「永夜幻光」活动获取</color>",
 		scene = {}
 	},
 	[311] = {
@@ -408,7 +408,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 311,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「无论现世亦或梦境，皆愿希望之光长存。」</color>\n「蝶海梦花」活动获取",
+		desc = "「无论现世亦或梦境，皆愿希望之光长存。」\n<color=#A7A7AA>「蝶海梦花」活动获取</color>",
 		scene = {}
 	},
 	[312] = {
@@ -417,7 +417,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 312,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「以冷彻之器，重铸赤红的铁血意志。」</color>\n「负象限作战」活动获取",
+		desc = "「以冷彻之器，重铸赤红的铁血意志。」\n<color=#A7A7AA>「负象限作战」活动获取</color>",
 		scene = {}
 	},
 	[313] = {
@@ -426,7 +426,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 313,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「让我们一同探寻隐藏在“密室”之中的秘密吧！」</color>\n「破晓冰华」活动获取",
+		desc = "「让我们一同探寻隐藏在“密室”之中的秘密吧！」\n<color=#A7A7AA>「破晓冰华」活动获取</color>",
 		scene = {}
 	},
 	[314] = {
@@ -435,7 +435,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 314,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「坚固的立柱撑起了崭新的帝国，一起为光荣而战吧！」</color>\n「复兴的赞美诗」活动获取",
+		desc = "「坚固的立柱撑起了崭新的帝国，一起为光荣而战吧！」\n<color=#A7A7AA>「复兴的赞美诗」活动获取</color>",
 		scene = {}
 	},
 	[315] = {
@@ -444,7 +444,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 315,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「白鹰最大最强的Black Dragon登场！一起去撼动世界吧！」</color>\n「镜位螺旋」活动获取",
+		desc = "「白鹰最大最强的Black Dragon登场！一起去撼动世界吧！」\n<color=#A7A7AA>「镜位螺旋」活动获取</color>",
 		scene = {}
 	},
 	[316] = {
@@ -453,7 +453,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 316,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「愿汝等揭开龙宫城中谜题，寻获真正的宝藏」</color>\n「碧海光粼」活动获取",
+		desc = "「愿汝等揭开龙宫城中谜题，寻获真正的宝藏」\n<color=#A7A7AA>「碧海光粼」活动获取</color>",
 		scene = {}
 	},
 	[317] = {
@@ -462,7 +462,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 317,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「向上为神国，向下为冥府。穿越逆转之虹，向着未知进发吧」</color>\n「逆转彩虹之塔」活动获取",
+		desc = "「向上为神国，向下为冥府。穿越逆转之虹，向着未知进发吧」\n<color=#A7A7AA>「逆转彩虹之塔」活动获取</color>",
 		scene = {}
 	},
 	[318] = {
@@ -471,7 +471,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 318,
 		time_limit_type = 0,
-		desc = "<color=#ffffff><size=24>「对在极地任务中做出卓越贡献的同志致以最崇高的敬意，欢迎回家！」</size></color>\n「深度回音」活动获取",
+		desc = "<size=24>「对在极地任务中做出卓越贡献的同志致以最崇高的敬意，欢迎回家！」</size>\n<color=#A7A7AA>「深度回音」活动获取</color>",
 		scene = {}
 	},
 	[319] = {
@@ -480,7 +480,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 319,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「此为终结，亦为开端」</color>\n「虹彩的终幕曲」活动获取",
+		desc = "「此为终结，亦为开端」\n<color=#A7A7AA>「虹彩的终幕曲」活动获取</color>",
 		scene = {}
 	},
 	[320] = {
@@ -489,7 +489,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 320,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「即使历经时间与战火的磨损，曾经的誓言依旧如恒星般闪耀」</color>\n「泠誓光庭」活动获取",
+		desc = "「即使历经时间与战火的磨损，曾经的誓言依旧如恒星般闪耀」\n<color=#A7A7AA>「泠誓光庭」活动获取</color>",
 		scene = {}
 	},
 	[321] = {
@@ -498,7 +498,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 321,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「纵使未来荆棘密布，七丘之上的雄鹰也将继续翱翔。」</color>\n「雄鹰的叙事歌」活动获取",
+		desc = "「纵使未来荆棘密布，七丘之上的雄鹰也将继续翱翔。」\n<color=#A7A7AA>「雄鹰的叙事歌」活动获取</color>",
 		scene = {}
 	},
 	[322] = {
@@ -507,7 +507,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 322,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「宁如镜湖，缥若云岚，天剑出鞘，万钧雷霆。」</color>\n「紫绛槿岚」活动获取",
+		desc = "「宁如镜湖，缥若云岚，天剑出鞘，万钧雷霆。」\n<color=#A7A7AA>「紫绛槿岚」活动获取</color>",
 		scene = {}
 	},
 	[323] = {
@@ -516,7 +516,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 323,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「时空在飞转的轮盘中折叠，命运于闪烁的光芒中交汇。」</color>\n「定向折叠」活动获取",
+		desc = "「时空在飞转的轮盘中折叠，命运于闪烁的光芒中交汇。」\n<color=#A7A7AA>「定向折叠」活动获取</color>",
 		scene = {}
 	},
 	[324] = {
@@ -525,7 +525,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 324,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「以女王陛下之名，愿祝福之光照耀世间——」</color>\n「湮烬尘墟」活动获取",
+		desc = "「以女王陛下之名，愿祝福之光照耀世间——」\n<color=#A7A7AA>「湮烬尘墟」活动获取</color>",
 		scene = {}
 	},
 	[325] = {
@@ -534,7 +534,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 325,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「在那预言之日，中庭将坠于烈焰与怒涛——」</color>\n「空相交汇点」活动获取",
+		desc = "「在那预言之日，中庭将坠于烈焰与怒涛——」\n<color=#A7A7AA>「空相交汇点」活动获取</color>",
 		scene = {}
 	},
 	[326] = {
@@ -543,7 +543,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 326,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「公义无需加冕，自有胜利的桂冠为其留存。」</color>\n「愚者的天平」活动获取",
+		desc = "「公义无需加冕，自有胜利的桂冠为其留存。」\n<color=#A7A7AA>「愚者的天平」活动获取</color>",
 		scene = {}
 	},
 	[327] = {
@@ -552,7 +552,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 327,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「人生须臾，不可辜负。」</color>\n「须臾望月抄」活动获取",
+		desc = "「人生须臾，不可辜负。」\n<color=#A7A7AA>「须臾望月抄」活动获取</color>",
 		scene = {}
 	},
 	[328] = {
@@ -561,7 +561,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 328,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「事件之穹界，因果之尽头。禁地不可逾越，跨过即为永恒。」</color>\n「星海逐光」活动获取",
+		desc = "「事件之穹界，因果之尽头。禁地不可逾越，跨过即为永恒。」\n<color=#A7A7AA>「星海逐光」活动获取</color>",
 		scene = {}
 	},
 	[329] = {
@@ -570,7 +570,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 329,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「跨越冰山，穿越雪原，定义自我，见证未来。」</color>\n「雪境迷踪」活动获取",
+		desc = "「跨越冰山，穿越雪原，定义自我，见证未来。」\n<color=#A7A7AA>「雪境迷踪」活动获取</color>",
 		scene = {}
 	},
 	[330] = {
@@ -579,7 +579,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 330,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「纵使身处幻梦之中，我将依然选择守护。」</color>\n「绽放于辉光之城」活动获取",
+		desc = "「纵使身处幻梦之中，我将依然选择守护。」\n<color=#A7A7AA>「绽放于辉光之城」活动获取</color>",
 		scene = {}
 	},
 	[331] = {
@@ -588,7 +588,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 331,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「澎湃之心，永不停歇。劈风斩浪，一往无前。」</color>\n「铁翼擎风」活动获取",
+		desc = "「澎湃之心，永不停歇。劈风斩浪，一往无前。」\n<color=#A7A7AA>「铁翼擎风」活动获取</color>",
 		scene = {}
 	},
 	[332] = {
@@ -597,7 +597,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 332,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「狐鸣凤影，烈火浴心。虽为新生，亦续前缘。」</color>\n「唤醒苍红之炎」活动获取",
+		desc = "「狐鸣凤影，烈火浴心。虽为新生，亦续前缘。」\n<color=#A7A7AA>「唤醒苍红之炎」活动获取</color>",
 		scene = {}
 	},
 	[333] = {
@@ -606,7 +606,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 333,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「天地万物，皆在星光的注视之下」</color>\n「星光下的余晖」活动获取",
+		desc = "「天地万物，皆在星光的注视之下」\n<color=#A7A7AA>「星光下的余晖」活动获取</color>",
 		scene = {}
 	},
 	[334] = {
@@ -615,7 +615,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 334,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「拿起画笔，绘制那抹独属于自己的神光吧～」</color>\n「樊笼内的神光」活动获取",
+		desc = "「拿起画笔，绘制那抹独属于自己的神光吧～」\n<color=#A7A7AA>「樊笼内的神光」活动获取</color>",
 		scene = {}
 	},
 	[335] = {
@@ -624,7 +624,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 335,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「停驻在高塔上的蔷薇，守护着皇家最后的荣光」</color>\n「高塔上的蔷薇」活动获取",
+		desc = "「停驻在高塔上的蔷薇，守护着皇家最后的荣光」\n<color=#A7A7AA>「高塔上的蔷薇」活动获取</color>",
 		scene = {}
 	},
 	[336] = {
@@ -633,7 +633,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 336,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「初至天域，忽闻凤鸣。翩然而过，响彻天原」</color>\n「起舞于天原之上」活动获取",
+		desc = "「初至天域，忽闻凤鸣。翩然而过，响彻天原」\n<color=#A7A7AA>「起舞于天原之上」活动获取</color>",
 		scene = {}
 	},
 	[337] = {
@@ -642,7 +642,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 337,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「久疏问候，指挥官——我回来了」</color>\n「响彻于天穹之音」活动获取",
+		desc = "「久疏问候，指挥官——我回来了」\n<color=#A7A7AA>「响彻于天穹之音」活动获取</color>",
 		scene = {}
 	},
 	[401] = {
@@ -651,7 +651,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 401,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为企业特别制作的角色专属头像框</color>\n「Azurlane人气投票2019」活动获取",
+		desc = "为企业特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2019」活动获取</color>",
 		scene = {}
 	},
 	[402] = {
@@ -660,7 +660,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 402,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为贝尔法斯特特别制作的角色专属头像框</color>\n「Azurlane人气投票2019」活动获取",
+		desc = "为贝尔法斯特特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2019」活动获取</color>",
 		scene = {}
 	},
 	[404] = {
@@ -669,7 +669,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 404,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为椿特别制作的角色专属头像框</color>\n「Azurlane人气投票2019」活动获取",
+		desc = "为椿特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2019」活动获取</color>",
 		scene = {}
 	},
 	[405] = {
@@ -678,7 +678,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 405,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为逸仙特别制作的角色专属头像框</color>\n「Azurlane人气投票2021」活动获取",
+		desc = "为逸仙特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2021」活动获取</color>",
 		scene = {}
 	},
 	[406] = {
@@ -687,7 +687,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 406,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为拉菲特别制作的角色专属头像框</color>\n「Azurlane人气投票2021」活动获取",
+		desc = "为拉菲特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2021」活动获取</color>",
 		scene = {}
 	},
 	[407] = {
@@ -696,7 +696,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 407,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为独角兽特别制作的角色专属头像框</color>\n「Azurlane人气投票2021」活动获取",
+		desc = "为独角兽特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2021」活动获取</color>",
 		scene = {}
 	},
 	[415] = {
@@ -705,7 +705,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 415,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为应瑞特别制作的角色专属头像框</color>\n「Azurlane人气投票2023」活动获取",
+		desc = "为应瑞特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2023」活动获取</color>",
 		scene = {}
 	},
 	[416] = {
@@ -714,7 +714,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 416,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为柴郡特别制作的角色专属头像框</color>\n「Azurlane人气投票2023」活动获取",
+		desc = "为柴郡特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2023」活动获取</color>",
 		scene = {}
 	},
 	[417] = {
@@ -723,7 +723,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 417,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为{namecode:199:新泽西}特别制作的角色专属头像框</color>\n「Azurlane人气投票2023」活动获取",
+		desc = "为{namecode:199:新泽西}特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2023」活动获取</color>",
 		scene = {}
 	},
 	[418] = {
@@ -732,7 +732,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 418,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为{namecode:182}特别制作的角色专属头像框</color>\n「Azurlane人气投票2025」活动获取",
+		desc = "为{namecode:182}特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2025」活动获取</color>",
 		scene = {}
 	},
 	[422] = {
@@ -741,7 +741,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 422,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为{namecode:480}特别制作的角色专属头像框</color>\n「Azurlane人气投票2025」活动获取",
+		desc = "为{namecode:480}特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2025」活动获取</color>",
 		scene = {}
 	},
 	[423] = {
@@ -750,7 +750,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 423,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>为镇海特别制作的角色专属头像框</color>\n「Azurlane人气投票2025」活动获取",
+		desc = "为镇海特别制作的角色专属头像框\n<color=#A7A7AA>「Azurlane人气投票2025」活动获取</color>",
 		scene = {}
 	},
 	[501] = {
@@ -759,7 +759,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 501,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有对美味比萨有爱的指挥官们</color>\n通过参与「啾啾欢乐餐厅」活动获取",
+		desc = "献给所有对美味比萨有爱的指挥官们\n<color=#A7A7AA>通过参与「啾啾欢乐餐厅」活动获取</color>",
 		scene = {}
 	},
 	[601] = {
@@ -768,7 +768,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 601,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>在炎炎夏日中感受片刻的清凉！</color>\n通过参与「啾啾冰淇淋」活动获取",
+		desc = "在炎炎夏日中感受片刻的清凉！\n<color=#A7A7AA>通过参与「啾啾冰淇淋」活动获取</color>",
 		scene = {}
 	},
 	[602] = {
@@ -777,7 +777,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 602,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>尽情享受无人岛上的美好风光吧~！</color>\n通过参与六周年限定活动获取",
+		desc = "尽情享受无人岛上的美好风光吧~！\n<color=#A7A7AA>通过参与六周年限定活动获取</color>",
 		scene = {}
 	},
 	[603] = {
@@ -786,7 +786,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 603,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>参与盛大宴会的纪念，向所有与会者送上最美好的祝愿！</color>\n通过参与「宴会邀约」活动获取",
+		desc = "参与盛大宴会的纪念，向所有与会者送上最美好的祝愿！\n<color=#A7A7AA>通过参与「宴会邀约」活动获取</color>",
 		scene = {}
 	},
 	[604] = {
@@ -795,7 +795,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 604,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>在炎炎夏日中，一起挥洒汗水的证明</color>",
+		desc = "在炎炎夏日中，一起挥洒汗水的证明",
 		scene = {}
 	},
 	[605] = {
@@ -804,7 +804,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 605,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>以极速越过终点，取得比赛胜利的证明</color>\n通过参与「疾速赛道」活动获取",
+		desc = "以极速越过终点，取得比赛胜利的证明\n<color=#A7A7AA>通过参与「疾速赛道」活动获取</color>",
 		scene = {}
 	},
 	[606] = {
@@ -813,7 +813,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 606,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>扬帆起航！豪华邮轮与心跳之旅！</color>通过参与七周年限定活动获取",
+		desc = "扬帆起航！豪华邮轮与心跳之旅！通过参与七周年限定活动获取</color>",
 		scene = {}
 	},
 	[607] = {
@@ -822,7 +822,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 607,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>没人能逃出自己的故事，自由的牛仔也不例外。</color>通过参与「荒野假日开拓记」活动获取",
+		desc = "没人能逃出自己的故事，自由的牛仔也不例外。\n<color=#A7A7AA>通过参与「荒野假日开拓记」活动获取</color>",
 		scene = {}
 	},
 	[609] = {
@@ -831,7 +831,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 609,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「指挥官，感谢您参与促销活动，请收好赠品喵~！」</color>通过参与「2024冬至茗的大促销」活动获取",
+		desc = "「指挥官，感谢您参与促销活动，请收好赠品喵~！」\n<color=#A7A7AA>通过参与「2024冬至茗的大促销」活动获取</color>",
 		scene = {}
 	},
 	[610] = {
@@ -840,7 +840,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 610,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>在别墅岛上度过一个完美假期吧！</color>通过参与「夏日重建！海岛别墅度假计划！」活动获取",
+		desc = "在别墅岛上度过一个完美假期吧！\n<color=#A7A7AA>通过参与「夏日重建！海岛别墅度假计划！」活动获取</color>",
 		scene = {}
 	},
 	[611] = {
@@ -849,7 +849,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 611,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>感受着林间的清风，来一场别样的度假体验吧~</color>通过参与「林间度假准备」活动获取",
+		desc = "感受着林间的清风，来一场别样的度假体验吧~\n<color=#A7A7AA>通过参与「林间度假准备」活动获取</color>",
 		scene = {}
 	},
 	[613] = {
@@ -858,7 +858,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 613,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>指挥官，感谢您参与促销活动，请收好赠品喵~！</color>通过参与「特别巡游 冬日赠礼」获取",
+		desc = "指挥官，感谢您参与促销活动，请收好赠品喵~！\n<color=#A7A7AA>通过参与「特别巡游 冬日赠礼」获取</color>",
 		scene = {}
 	},
 	[614] = {
@@ -867,7 +867,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 614,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>吉庆盈门福运转，灯笼高挂照财来~</color>通过参与「春满客栈Online」获取",
+		desc = "吉庆盈门福运转，灯笼高挂照财来~\n<color=#A7A7AA>通过参与「春满客栈Online」获取</color>",
 		scene = {}
 	},
 	[1001] = {
@@ -876,7 +876,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1001,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>每一口都充满甜蜜的回忆。</color>\n通过提升「宿舍计划」中天狼星的契合度等级获取",
+		desc = "每一口都充满甜蜜的回忆。\n<color=#A7A7AA>通过提升「宿舍计划」中天狼星的契合度等级获取</color>",
 		scene = {}
 	},
 	[1002] = {
@@ -885,7 +885,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1002,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>不论何时，总有一杯冒着热气的红茶在静静等候。</color>\n通过提升「宿舍计划」中天狼星的契合度等级获取",
+		desc = "不论何时，总有一杯冒着热气的红茶在静静等候。\n<color=#A7A7AA>通过提升「宿舍计划」中天狼星的契合度等级获取</color>",
 		scene = {}
 	},
 	[1003] = {
@@ -894,7 +894,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1003,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>金色的落樱，诉说着高洁与凛然。</color>\n通过提升「宿舍计划」中{namecode:50}的契合度等级获取",
+		desc = "金色的落樱，诉说着高洁与凛然。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:50}的契合度等级获取</color>",
 		scene = {}
 	},
 	[1004] = {
@@ -903,7 +903,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1004,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>浪漫的纸伞下，是谁的思绪悄悄飞远？</color>\n通过提升「宿舍计划」中{namecode:50}的契合度等级获取",
+		desc = "浪漫的纸伞下，是谁的思绪悄悄飞远？\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:50}的契合度等级获取</color>",
 		scene = {}
 	},
 	[1005] = {
@@ -912,7 +912,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1005,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>天使的光环上是星芒在闪闪发亮，散发着纯洁的光。</color>\n通过提升「宿舍计划」中安克雷奇的契合度等级获取",
+		desc = "天使的光环上是星芒在闪闪发亮，散发着纯洁的光。\n<color=#A7A7AA>通过提升「宿舍计划」中安克雷奇的契合度等级获取</color>",
 		scene = {}
 	},
 	[1006] = {
@@ -921,7 +921,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1006,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>追逐这跳跃的浪花，开启一段充满欢乐与惊喜的奇遇。</color>\n通过提升「宿舍计划」中安克雷奇的契合度等级获取",
+		desc = "追逐这跳跃的浪花，开启一段充满欢乐与惊喜的奇遇。\n<color=#A7A7AA>通过提升「宿舍计划」中安克雷奇的契合度等级获取</color>",
 		scene = {}
 	},
 	[1007] = {
@@ -930,7 +930,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1007,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>纯洁的星雪之下，两只兔兔相互依偎，守护着彼此的温暖。</color>\n通过提升「宿舍计划」中{namecode:199}的契合度等级获取",
+		desc = "纯洁的星雪之下，两只兔兔相互依偎，守护着彼此的温暖。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:199}的契合度等级获取</color>",
 		scene = {}
 	},
 	[1008] = {
@@ -939,7 +939,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1008,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>电子炫光闪烁耀眼，是哪只兔兔在跟随光芒跃动呢？</color>\n通过提升「宿舍计划」中{namecode:199}的契合度等级获取",
+		desc = "电子炫光闪烁耀眼，是哪只兔兔在跟随光芒跃动呢？\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:199}的契合度等级获取</color>",
 		scene = {}
 	},
 	[1009] = {
@@ -948,7 +948,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1009,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>樱花树上，花瓣随风舞动，诉说着春日的生机与美好。</color>\n通过提升「宿舍计划」中{namecode:97}的契合度等级获取",
+		desc = "樱花树上，花瓣随风舞动，诉说着春日的生机与美好。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:97}的契合度等级获取</color>",
 		scene = {}
 	},
 	[1010] = {
@@ -957,7 +957,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1010,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>金色凤翼展翅，翎羽如光辉般闪烁，神秘而优雅。</color>\n通过提升「宿舍计划」中{namecode:97}的契合度等级获取",
+		desc = "金色凤翼展翅，翎羽如光辉般闪烁，神秘而优雅。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:97}的契合度等级获取</color>",
 		scene = {}
 	},
 	[1011] = {
@@ -966,7 +966,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1011,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>炽龙自深渊而来，漆黑的锁链上缠绕着不灭的怒雷。</color>\n通过提升「宿舍计划」中{namecode:480}的契合度等级获取",
+		desc = "炽龙自深渊而来，漆黑的锁链上缠绕着不灭的怒雷。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:480}的契合度等级获取</color>",
 		scene = {}
 	},
 	[1012] = {
@@ -975,7 +975,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 1012,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>铁色的旗帜在浪潮间翻涌，一顶金冠于此加冕，象征着海洋的无上权柄。</color>\n通过提升「宿舍计划」中{namecode:480}的契合度等级获取",
+		desc = "铁色的旗帜在浪潮间翻涌，一顶金冠于此加冕，象征着海洋的无上权柄。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:480}的契合度等级获取</color>",
 		scene = {}
 	},
 	[10001] = {
@@ -984,7 +984,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10001,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着双子座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.06.15-23.06.30）",
+		desc = "结晶之中闪烁着双子座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.06.15-23.06.30）</color>",
 		scene = {}
 	},
 	[10002] = {
@@ -993,7 +993,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10002,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着巨蟹座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.07.01-23.07.31）",
+		desc = "结晶之中闪烁着巨蟹座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.07.01-23.07.31）</color>",
 		scene = {}
 	},
 	[10003] = {
@@ -1002,7 +1002,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10003,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着狮子座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.08.01-23.08.31）",
+		desc = "结晶之中闪烁着狮子座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.08.01-23.08.31）</color>",
 		scene = {}
 	},
 	[10004] = {
@@ -1011,7 +1011,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10004,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着处女座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.09.01-23.09.30）",
+		desc = "结晶之中闪烁着处女座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.09.01-23.09.30）</color>",
 		scene = {}
 	},
 	[10005] = {
@@ -1020,7 +1020,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10005,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着天秤座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.10.01-23.10.31）",
+		desc = "结晶之中闪烁着天秤座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.10.01-23.10.31）</color>",
 		scene = {}
 	},
 	[10006] = {
@@ -1029,7 +1029,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10006,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着天蝎座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.11.01-23.11.30）",
+		desc = "结晶之中闪烁着天蝎座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.11.01-23.11.30）</color>",
 		scene = {}
 	},
 	[10007] = {
@@ -1038,7 +1038,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10007,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着射手座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.12.01-23.12.31）",
+		desc = "结晶之中闪烁着射手座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.12.01-23.12.31）</color>",
 		scene = {}
 	},
 	[10008] = {
@@ -1047,7 +1047,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10008,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着摩羯座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （24.01.01-24.01.31）",
+		desc = "结晶之中闪烁着摩羯座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （24.01.01-24.01.31）</color>",
 		scene = {}
 	},
 	[10009] = {
@@ -1056,7 +1056,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10009,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着水瓶座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （24.02.01-24.02.29）",
+		desc = "结晶之中闪烁着水瓶座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （24.02.01-24.02.29）</color>",
 		scene = {}
 	},
 	[10010] = {
@@ -1065,7 +1065,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10010,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着双鱼座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （24.03.01-24.03.31）",
+		desc = "结晶之中闪烁着双鱼座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （24.03.01-24.03.31）</color>",
 		scene = {}
 	},
 	[10011] = {
@@ -1074,7 +1074,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10011,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着白羊座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （24.04.01-24.04.30）",
+		desc = "结晶之中闪烁着白羊座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （24.04.01-24.04.30）</color>",
 		scene = {}
 	},
 	[10012] = {
@@ -1083,7 +1083,7 @@ pg.base.item_data_frame = {
 		time_second = 0,
 		id = 10012,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着金牛座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （24.05.01-24.05.31）",
+		desc = "结晶之中闪烁着金牛座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （24.05.01-24.05.31）</color>",
 		scene = {}
 	}
 }

@@ -111,20 +111,17 @@ end
 slot0.selectTag = function(slot0, slot1, slot2)
 	slot0.selectTagIndex = slot1
 
+	slot0:updateTag()
 	slot0:updatePage()
 	slot0:updateAwardPanel()
 end
 
 slot0.updateTag = function(slot0)
-	for slot4 = 1, #slot0.tags do
-		slot5 = slot0.tags[slot4]
-
-		setActive(slot5.bg, slot5.index == slot0.selectTagIndex)
-
-		if getProxy(TaskProxy):getTaskById(slot0.pageCollectSiteIds[slot4]) and slot7:getTaskStatus() == 1 then
-			setActive(findTF(slot5.btn, "ad/tip"), true)
+	for slot4 = 1, #slot0.taskIds do
+		if getProxy(TaskProxy):getTaskById(slot0.taskIds[slot4]) and slot6:getTaskStatus() == 1 then
+			setActive(slot0._ad:Find("tag/" .. slot4 .. "/tip"), true)
 		else
-			setActive(findTF(slot5.btn, "ad/tip"), false)
+			setActive(slot0._ad:Find("tag/" .. slot4 .. "/tip"), false)
 		end
 	end
 end
@@ -334,7 +331,7 @@ slot0.updateAwardPanel = function(slot0)
 	slot11 = findTF(slot0.awardPanelTf, "btnGo")
 
 	setText(findTF(slot9, "text"), i18n("LiquorFloor_story_get"))
-	setText(findTF(slot10, "text"), i18n("LiquorFloor_story_go"))
+	setText(findTF(slot10, "text"), i18n("LiquorFloor_story_got"))
 	setText(findTF(slot11, "text"), i18n("LiquorFloor_story_go"))
 	setActive(slot9, false)
 	setActive(slot10, false)

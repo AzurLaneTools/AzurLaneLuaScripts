@@ -22,6 +22,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot4:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
 			uv0.viewComponent:updateAwardPanel()
+			uv0.viewComponent:updateTag()
 		end)
 	end
 end

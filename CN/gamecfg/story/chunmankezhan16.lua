@@ -7,9 +7,10 @@ return {
 	},
 	scripts = {
 		{
-			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
+			side = 2,
+			bgm = "story-kezhan-china",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "正午时分，酒楼大堂里坐满了来客，不时传来几句赞美菜样丰富、厨艺出众的点评。",
 			typewriter = {
