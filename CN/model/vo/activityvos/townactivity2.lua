@@ -29,6 +29,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.totalGold = 0
 	slot0.settleGold = 0
 	slot0.totalGold2 = 0
+	slot0.AllGold = 0
 
 	for slot5, slot6 in ipairs(slot1.date1_key_value_list) do
 		if slot6.key == 1 then
@@ -70,6 +71,22 @@ slot0.Ctor = function(slot0, slot1)
 				end
 			end
 		end
+
+		if slot6.key == 5 then
+			for slot10, slot11 in ipairs(slot6.value_list) do
+				if slot11.key == 1 then
+					slot0.AllGold = slot0.AllGold + slot11.value
+				end
+
+				if slot11.key == 2 then
+					slot0.AllGold = slot0.AllGold + slot11.value * uv0.Million
+				end
+
+				if slot11.key == 3 then
+					slot0.AllGold = slot0.AllGold + slot11.value * uv0.Billion
+				end
+			end
+		end
 	end
 
 	slot0:UpdateTotalGold()
@@ -77,11 +94,11 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.GetPtAllGold = function(slot0)
-	return slot0.data1
+	return slot0.AllGold or 0
 end
 
 slot0.AddAllGold = function(slot0, slot1)
-	slot0.data1 = slot0.data1 + slot1
+	slot0.AllGold = slot0.AllGold + slot1
 end
 
 slot0.GetTownLevel = function(slot0)

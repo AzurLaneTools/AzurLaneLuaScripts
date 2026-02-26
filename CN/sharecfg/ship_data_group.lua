@@ -30202,7 +30202,7 @@ pg.base.ship_data_group = {
 		}
 	},
 	[727] = {
-		nationality = 3,
+		nationality = 7,
 		type = 3,
 		trans_type = 0,
 		handbook_type = 0,

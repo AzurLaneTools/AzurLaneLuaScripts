@@ -156,7 +156,7 @@ slot0.updatePage2 = function(slot0, slot1, slot2)
 			setParent(slot10, slot4)
 			setActive(slot10, true)
 			setImageSprite(slot10:Find("bg/icon"), LoadSprite("ui/LiquorFloorUI_atlas", slot9.icon), true)
-			setText(slot10:Find("bg/name"), slot9.name)
+			setScrollText(slot10:Find("bg/GameObject/name"), slot9.name)
 			setText(slot10:Find("bg/lock/name"), "???????")
 			setText(slot10:Find("bg/lock/Text"), slot9.unlock_desc)
 			table.insert(slot0.page2Items, {
@@ -173,7 +173,7 @@ slot0.updatePage2 = function(slot0, slot1, slot2)
 
 		setActive(slot7:Find("bg/icon"), slot9)
 		setActive(slot7:Find("bg/lock"), not slot9)
-		setActive(slot7:Find("bg/name"), slot9)
+		setActive(slot7:Find("bg/GameObject/name"), slot9)
 		setActive(slot7:Find("bg/lock"), not slot9)
 	end
 end
