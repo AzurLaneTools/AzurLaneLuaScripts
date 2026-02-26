@@ -820,6 +820,30 @@ slot0.ship_drag_datas = {
 			}
 		}
 	},
+	hongseshanmai_2 = {
+		click_trigger = true,
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					is_default = true,
+					action = "drag",
+					idle = "normal",
+					change_idle = "ex"
+				},
+				{
+					is_default = false,
+					action = "drag_ex",
+					idle = "ex",
+					change_idle = "normal"
+				}
+			}
+		}
+	},
 	haichou_2 = {
 		click_trigger = true,
 		multiple_face = {
@@ -1046,6 +1070,30 @@ slot0.ship_drag_datas = {
 					fold = true,
 					is_default = false,
 					hit = "touch_special_2"
+				}
+			}
+		}
+	},
+	bojiateli_2 = {
+		click_trigger = true,
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					is_default = true,
+					action = "drag",
+					idle = "normal",
+					change_idle = "ex"
+				},
+				{
+					is_default = false,
+					action = "drag_ex",
+					idle = "ex",
+					change_idle = "normal"
 				}
 			}
 		}

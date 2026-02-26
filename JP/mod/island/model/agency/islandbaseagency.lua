@@ -41,4 +41,7 @@ end
 slot0.OnInit = function(slot0, slot1)
 end
 
+slot0.UpdatePerDay = function(slot0)
+end
+
 return slot0

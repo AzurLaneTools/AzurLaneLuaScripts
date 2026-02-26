@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[71] = {
-		question = "北極星が見えない南半球で、船乗りが位置測定に利用する星座は？",
-		answer_right = "<size=26>南十字星</size>",
-		answer_false1 = "<size=26>南極星</size>",
+	[85] = {
+		question = "外洋航海で（）を越えるとパーティーがよく開かれる",
+		answer_right = "赤道",
+		answer_false1 = "国際日付変更線",
 		type = 1,
-		id = 71,
+		id = 85,
 		wrong_time = 30,
-		answer_false3 = "<size=24>ケンタウルス座α星</size>",
-		answer_false2 = "<size=26>いて座</size>"
+		answer_false3 = "腹筋のライン",
+		answer_false2 = "本初子午線"
 	},
-	[72] = {
-		question = "対潜水艦攻撃に役に立った食材は？",
-		answer_right = "じゃがいも",
-		answer_false1 = "七面鳥",
+	[86] = {
+		question = "船団が潜水艦の攻撃を防ぐのに最も有効な方法は",
+		answer_right = "援護航空機を増やす",
+		answer_false1 = "短波無線でノイズを流す",
 		type = 1,
-		id = 72,
+		id = 86,
 		wrong_time = 30,
-		answer_false3 = "ピーマン",
-		answer_false2 = "ほうれん草"
+		answer_false3 = "周期的に海に射撃",
+		answer_false2 = "道中のイルカを買収"
 	},
-	[73] = {
-		question = "ダメージコントロールの担当範囲外なのは？",
-		answer_right = "船酔い",
-		answer_false1 = "火災",
+	[87] = {
+		question = "軍艦の機関が出した水蒸気の主な使い方は",
+		answer_right = "推進力を提供する",
+		answer_false1 = "艦内区画の床暖房",
 		type = 1,
-		id = 73,
+		id = 87,
 		wrong_time = 30,
-		answer_false3 = "機械の故障",
-		answer_false2 = "浸水"
+		answer_false3 = "料理や湯沸かし",
+		answer_false2 = "圧縮空気で砲塔を動かす"
 	},
-	[74] = {
-		question = "海上航行中、陸地との通信で最も信頼できる手段は？",
-		answer_right = "長波無線通信",
-		answer_false1 = "伝書鳩",
+	[88] = {
+		question = "ネズミ退治以外の軍艦での猫の役割は",
+		answer_right = "メンタルケア",
+		answer_false1 = "夜間当直の見張り",
 		type = 1,
-		id = 74,
+		id = 88,
 		wrong_time = 30,
-		answer_false3 = "泳ぎの達人",
-		answer_false2 = "伝書入り砲弾"
+		answer_false3 = "魚獲り",
+		answer_false2 = "低気圧の接近を察知"
 	},
-	[75] = {
-		question = "いかなる時でも蒸気ボイラーに燃料として投入してはいけないのは？",
-		answer_right = "<size=24>砲弾の発射薬</size>",
-		answer_false1 = "<size=24>ボタンを外した制服</size>",
+	[89] = {
+		question = "主力艦の「中間砲」がフェードアウトした理由は",
+		answer_right = "航空機による実戦配備",
+		answer_false1 = "主砲の射程が伸びた",
 		type = 1,
-		id = 75,
+		id = 89,
 		wrong_time = 30,
-		answer_false3 = "<size=22>料理人が持ってきた脂身</size>",
-		answer_false2 = "<size=24>取っ手を外したドア板</size>"
+		answer_false3 = "護衛艦の役割分担",
+		answer_false2 = "斉射の命中精度が向上"
 	},
-	[76] = {
-		question = "潜水艦の攻撃から商船を守るのにあまり有効的でないのは？",
-		answer_right = "<size=24>パラベーン曳航航行</size>",
-		answer_false1 = "<size=26>全方位ソナー探知</size>",
+	[90] = {
+		question = "「不沈のサム」と呼ばれる猫の名前は",
+		answer_right = "Oscar",
+		answer_false1 = "Oscar",
 		type = 1,
-		id = 76,
+		id = 90,
 		wrong_time = 30,
-		answer_false3 = "<size=26>断続的な針路変更</size>",
-		answer_false2 = "<size=26>偵察機による索敵</size>"
+		answer_false3 = "Sam",
+		answer_false2 = "Fishcakes"
 	},
-	[77] = {
-		question = "船舶の航海灯の配置方法は？",
-		answer_right = "<size=24>左赤右緑マスト白</size>",
-		answer_false1 = "<size=24>左赤右黄</size>",
+	[91] = {
+		question = "進水式で船に瓶を割る慣習の由来は",
+		answer_right = "伝統的な儀礼",
+		answer_false1 = "船体強度を試すため",
 		type = 1,
-		id = 77,
+		id = 91,
 		wrong_time = 30,
-		answer_false3 = "<size=24>前赤後青</size>",
-		answer_false2 = "<size=22>前緑後オレンジ上ピンク</size>"
+		answer_false3 = "万機神を讃える",
+		answer_false2 = "ポセイドンに英語は分からない"
 	},
-	[78] = {
-		question = "「TB育成」に最近追加された育成キャラクターは？",
-		answer_right = "<size=26>ナビゲーター</size>",
-		answer_false1 = "<size=26>インストラクター</size>",
+	[92] = {
+		question = "メイン海域で最後に実装されたのは",
+		answer_right = "16章",
+		answer_false1 = "15章",
 		type = 2,
-		id = 78,
+		id = 92,
 		wrong_time = 30,
-		answer_false3 = "<size=26>サブマリーナー</size>",
-		answer_false2 = "<size=26>エクスプローラー</size>"
+		answer_false3 = "17章",
+		answer_false2 = "14章"
 	},
-	[79] = {
-		question = "弾薬切れ状態では艦隊が与えるダメージは通常時の何割になりますか？",
-		answer_right = "50%",
-		answer_false1 = "30%",
+	[93] = {
+		question = "下記装備の中で空母が装備できないのは",
+		answer_right = "改良型ソナー ",
+		answer_false1 = "油圧舵",
 		type = 2,
-		id = 79,
+		id = 93,
 		wrong_time = 30,
-		answer_false3 = "70%",
-		answer_false2 = "60%"
+		answer_false3 = "バルジ",
+		answer_false2 = "対空レーダー"
 	},
-	[80] = {
-		question = "作戦履歴の常設イベントを解放するためのデータキーの最大所持数は？",
-		answer_right = "60",
-		answer_false1 = "50",
+	[94] = {
+		question = "交流宿舎で最初に実装した艦船は",
+		answer_right = "シリアス",
+		answer_false1 = "チェシャー",
 		type = 2,
-		id = 80,
+		id = 94,
 		wrong_time = 30,
-		answer_false3 = "70",
-		answer_false2 = "40"
+		answer_false3 = "アンカレッジ",
+		answer_false2 = "サラトガ"
 	},
-	[81] = {
-		question = "下記の行動で燃料を消費するのは？",
-		answer_right = "<size=26>メイン海域に出撃</size>",
-		answer_false1 = "<size=24>ミニゲームをプレイ</size>",
+	[95] = {
+		question = "チュリッパ所属の艦船でないのは",
+		answer_right = "マッセナ",
+		answer_false1 = "エヴァーツェン",
 		type = 2,
-		id = 81,
+		id = 95,
 		wrong_time = 30,
-		answer_false3 = "<size=26>演習に参加</size>",
-		answer_false2 = "<size=24>限界チャレンジに出撃</size>"
+		answer_false3 = "デ・ゼーヴェン・プロヴィンシェン",
+		answer_false2 = "ハウデン・リーウ"
 	},
-	[82] = {
-		question = "現在の指揮官レベルの上限は？",
-		answer_right = "200",
-		answer_false1 = "100",
+	[96] = {
+		question = "装備「スター・ブラスター」を装備できるのは",
+		answer_right = "サンディエゴ",
+		answer_false1 = "彗星",
 		type = 2,
-		id = 82,
+		id = 96,
 		wrong_time = 30,
-		answer_false3 = "180",
-		answer_false2 = "150"
+		answer_false3 = "パーミャチ・メルクーリヤ",
+		answer_false2 = "ネプチューン"
 	},
-	[83] = {
-		question = "寮舎の拡張可能回数は？",
-		answer_right = "3",
-		answer_false1 = "1",
+	[97] = {
+		question = "下記装備で攻撃機として分類されるのは",
+		answer_right = "フェアリーアルバコア",
+		answer_false1 = "F6Fヘルキャット",
 		type = 2,
-		id = 83,
+		id = 97,
 		wrong_time = 30,
-		answer_false3 = "5",
-		answer_false2 = "2"
+		answer_false3 = "F4Fワイルドキャット",
+		answer_false2 = "ファイアフライ"
 	},
-	[84] = {
-		question = "単縦陣で戦闘を行う場合、下記ステータスでダウンするのは？",
-		answer_right = "回避",
-		answer_false1 = "火力",
+	[98] = {
+		question = "戦術学院でスキルレベルを上昇させられるのは",
+		answer_right = "攻撃教科書T4",
+		answer_false1 = "メンタルユニット",
 		type = 2,
-		id = 84,
+		id = 98,
 		wrong_time = 30,
-		answer_false3 = "対空",
-		answer_false2 = "雷装"
+		answer_false3 = "メンタルキューブ",
+		answer_false2 = "駆逐艦改造図T2"
 	},
 	all = {
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84
+		85,
+		86,
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98
 	}
 }

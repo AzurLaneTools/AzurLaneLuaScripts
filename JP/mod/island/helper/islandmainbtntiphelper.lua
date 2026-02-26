@@ -101,6 +101,14 @@ slot0.IsPostRestTip = function()
 	end)
 end
 
+slot0.IsPostCollectionTip = function()
+	if PlayerPrefs.GetInt("IslandSignAutoCollectTime" .. tostring(getProxy(PlayerProxy):getPlayerId()), 0) == 0 then
+		return true
+	end
+
+	return not pg.TimeMgr.GetInstance():IsSameDay(pg.TimeMgr.GetInstance():GetServerTime(), slot2)
+end
+
 slot0.IsBookTip = function()
 	return getProxy(IslandProxy):GetIsland():GetBookAgency():IsTipFromTypes({
 		IslandIllustration.TYPES.CHAR,

@@ -2720,6 +2720,27 @@ pg.medal_template = {
 		explain1 = "「新春珠玉逸品会」",
 		explain2 = "イベント"
 	},
+	[200141] = {
+		target_id = "50441",
+		name = "春色旅籠記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "金の杯が満ちて、酔わせるは春の風。財を招き宝をもたらし、佳き日は万事如意。 ——\n今日は旅籠をあなたに任せるわ。賑わいと楽しさを、心ゆくまで味わって",
+		next = 0,
+		icon = "9141",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9141",
+		condition = "「春色旅籠Online」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200141,
+		explain1 = "「春色旅籠Online」",
+		explain2 = "イベント"
+	},
 	all = {
 		10011,
 		10012,
@@ -2844,6 +2865,7 @@ pg.medal_template = {
 		200101,
 		200111,
 		200121,
-		200131
+		200131,
+		200141
 	}
 }

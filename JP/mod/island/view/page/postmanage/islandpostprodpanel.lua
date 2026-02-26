@@ -1,4 +1,5 @@
 slot0 = class("IslandPostProdPanel", import("view.base.BaseSubView"))
+slot0.ScrollValue = 0
 
 slot0.getUIName = function(slot0)
 	return "IslandPostProdPanel"
@@ -35,6 +36,13 @@ slot0.OnInit = function(slot0)
 	slot0.placeIds = pg.island_set.post_manage_produce.key_value_varchar
 	slot0.cards = {}
 	slot0.flushAll = true
+	slot1 = slot0.scrollRect.onValueChanged
+
+	slot1:RemoveAllListeners()
+	pg.DelegateInfo.Add(slot0, slot1)
+	slot1:AddListener(function (slot0)
+		uv0.ScrollValue = slot0.y
+	end)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -63,6 +71,8 @@ slot0.Show = function(slot0)
 	end
 
 	slot0.flushAll = false
+
+	slot0.scrollRect:ScrollTo(uv0.ScrollValue)
 end
 
 slot0.Flush = function(slot0)

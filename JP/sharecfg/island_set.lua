@@ -268,6 +268,26 @@ pg.island_set = {
 			}
 		}
 	},
+	mining_auto_parameters = {
+		key = "mining_auto_parameters",
+		key_value_int = 0,
+		key_value_varchar = {
+			{
+				401,
+				50,
+				5,
+				25,
+				1030
+			},
+			{
+				402,
+				50,
+				5,
+				25,
+				1031
+			}
+		}
+	},
 	base_efficiency = {
 		key_value_varchar = "",
 		key = "base_efficiency",
@@ -1149,6 +1169,7 @@ pg.island_set = {
 		"collection_point_recovery_time",
 		"mission_gather_point",
 		"mining_default_slot",
+		"mining_auto_parameters",
 		"base_efficiency",
 		"stamina_cost",
 		"detection_parameters",

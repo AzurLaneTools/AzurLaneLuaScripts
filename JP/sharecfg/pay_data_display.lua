@@ -74,6 +74,9 @@ pg.pay_data_display = setmetatable({
 		74,
 		75,
 		76,
+		77,
+		78,
+		79,
 		82,
 		83,
 		84,
@@ -93,12 +96,19 @@ pg.pay_data_display = setmetatable({
 		98,
 		99,
 		9001,
+		9002,
+		9003,
+		9004,
+		9005,
+		9006,
 		9007,
 		9008,
 		9009,
 		9010,
 		9011,
 		9012,
+		9013,
+		9014,
 		1000,
 		1001,
 		1002,
@@ -126,6 +136,7 @@ pg.pay_data_display = setmetatable({
 		1024,
 		1025,
 		1026,
+		1303,
 		2001,
 		2002,
 		2003,
@@ -189,6 +200,9 @@ pg.pay_data_display = setmetatable({
 		2069,
 		2070,
 		2071,
+		2074,
+		2075,
+		2076,
 		5001,
 		5002,
 		5003,
@@ -8762,6 +8776,355 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[77] = {
+		picture = "pack_2024_98",
+		name = "選べる迎春パック2025A",
+		type = 0,
+		second_text = "",
+		descrip = "「ダイヤ」×980、「選べる迎春アイテムボックス2025A」×1などのアイテムを入手できます",
+		subject = "選べる迎春パック2025A",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2280,
+		descrip_extra = "※購入すると、アイテムはメールボックスに送られます ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi177",
+		extra_gem = 0,
+		id = 77,
+		airijp_id = "com.yostarjp.azurlane.diamond165",
+		name_display = "選べる迎春パック2025A",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81407,
+				1
+			}
+		}
+	},
+	[78] = {
+		picture = "pack_2024_198",
+		name = "選べる迎春パック2025B",
+		type = 0,
+		second_text = "",
+		descrip = "「ダイヤ」×1980、「選べる迎春アイテムボックス2025B」×1などのアイテムを入手できます",
+		subject = "選べる迎春パック2025B",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※購入すると、アイテムはメールボックスに送られます ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi178",
+		extra_gem = 0,
+		id = 78,
+		airijp_id = "com.yostarjp.azurlane.diamond166",
+		name_display = "選べる迎春パック2025B",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81408,
+				1
+			}
+		}
+	},
+	[79] = {
+		picture = "pack_2024_328",
+		name = "選べる迎春パック2025C",
+		type = 0,
+		second_text = "",
+		descrip = "「ダイヤ」×3280、「選べる迎春アイテムボックス2025C」×1などのアイテムを入手できます",
+		subject = "選べる迎春パック2025C",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 6800,
+		descrip_extra = "※購入すると、アイテムはメールボックスに送られます ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi179",
+		extra_gem = 0,
+		id = 79,
+		airijp_id = "com.yostarjp.azurlane.diamond167",
+		name_display = "選べる迎春パック2025C",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				59563,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59563,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81421,
+				1
+			}
+		}
+	},
 	[82] = {
 		picture = "fudai19",
 		name = "新年福袋2025A",
@@ -11248,6 +11611,603 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9002] = {
+		picture = "pack_2024_98",
+		name = "選べる迎春パック2026A",
+		type = 0,
+		second_text = "大量な報酬",
+		descrip = "「ダイヤ」×980、「選べる迎春アイテムボックス2026A」×1などのアイテムを入手できます",
+		subject = "選べる迎春パック2026A",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2280,
+		descrip_extra = "※購入すると、アイテムはメールボックスに送られます ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi201",
+		extra_gem = 0,
+		id = 9002,
+		airijp_id = "com.yostarjp.azurlane.diamond197",
+		name_display = "選べる迎春パック2026A",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81221,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81221,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81225,
+				1
+			}
+		}
+	},
+	[9003] = {
+		picture = "pack_2024_198",
+		name = "選べる迎春パック2026B",
+		type = 0,
+		second_text = "大量な報酬",
+		descrip = "「ダイヤ」×1980、「選べる迎春アイテムボックス2026B」×1などのアイテムを入手できます",
+		subject = "選べる迎春パック2026B",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※購入すると、アイテムはメールボックスに送られます ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi202",
+		extra_gem = 0,
+		id = 9003,
+		airijp_id = "com.yostarjp.azurlane.diamond198",
+		name_display = "選べる迎春パック2026B",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81222,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81222,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81226,
+				1
+			}
+		}
+	},
+	[9004] = {
+		picture = "pack_2024_328",
+		name = "選べる迎春パック2026C",
+		type = 0,
+		second_text = "大量な報酬",
+		descrip = "「ダイヤ」×3280、「選べる迎春アイテムボックス2026C」×1などのアイテムを入手できます",
+		subject = "選べる迎春パック2026C",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 6800,
+		descrip_extra = "※購入すると、アイテムはメールボックスに送られます ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi203",
+		extra_gem = 0,
+		id = 9004,
+		airijp_id = "com.yostarjp.azurlane.diamond199",
+		name_display = "選べる迎春パック2026C",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81223,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81223,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81227,
+				1
+			}
+		}
+	},
+	[9005] = {
+		picture = "fudai99",
+		name = "復刻L2D着せ替え福袋2026B",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "艦船着せ替え1着、「ダイヤ」×2026などのアイテムを入手できます",
+		subject = "復刻L2D着せ替え福袋2026B",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi204",
+		extra_gem = 0,
+		id = 9005,
+		airijp_id = "com.yostarjp.azurlane.diamond200",
+		name_display = "復刻L2D着せ替え福袋2026B",
+		first_text = "ランダム着せ替え",
+		akashi_pick = 1,
+		skin_inquire_relation = 86220,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86220,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81228,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86220,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9006] = {
+		picture = "fudai_L2d_new",
+		name = "復刻L2D着せ替え福袋2026A",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "下記L2D着せ替え中の未所持着せ替えをランダムで1着（全部所持している場合自動でダイヤに変換されます）とその他アイテムを入手できます",
+		subject = "復刻L2D着せ替え福袋2026A",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1200,
+		descrip_extra = "※福袋はメールボックスに贈られます\n※全部所持している場合自動でダイヤ×1080に変換されます",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi205",
+		extra_gem = 0,
+		id = 9006,
+		airijp_id = "com.yostarjp.azurlane.diamond201",
+		name_display = "復刻L2D着せ替え福袋2026A",
+		first_text = "ランダム着せ替え",
+		akashi_pick = 1,
+		skin_inquire_relation = 86221,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86221,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81229,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86221,
+				1
+			}
+		}
+	},
 	[9007] = {
 		picture = "fudai30",
 		name = "新年福袋2026A",
@@ -12043,6 +13003,274 @@ pg.base.pay_data_display = {
 			{
 				2,
 				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[9013] = {
+		picture = "fudai33",
+		name = "春節福袋2026B",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "艦船着せ替え1着、「ダイヤ」×2026などのアイテムを入手できます",
+		subject = "春節福袋2026B",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi212",
+		extra_gem = 0,
+		id = 9013,
+		airijp_id = "com.yostarjp.azurlane.diamond195",
+		name_display = "春節福袋2026B",
+		first_text = "ランダム着せ替え",
+		akashi_pick = 1,
+		skin_inquire_relation = 86225,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86225,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81233,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86225,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9014] = {
+		picture = "fudai22",
+		name = "春節福袋2025B(復刻)",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "艦船着せ替え1着、「ダイヤ」×2025などのアイテムを入手できます",
+		subject = "春節福袋2025B(復刻)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi213",
+		extra_gem = 0,
+		id = 9014,
+		airijp_id = "com.yostarjp.azurlane.diamond196",
+		name_display = "春節福袋2025B(復刻)",
+		first_text = "ランダム着せ替え",
+		akashi_pick = 1,
+		skin_inquire_relation = 86211,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81211,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86211,
 				1
 			},
 			{
@@ -14342,6 +15570,91 @@ pg.base.pay_data_display = {
 		sub_display = {
 			7027,
 			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1303] = {
+		picture = "battlepass_winter_1",
+		name = "迎春特売パス2026",
+		type = 0,
+		second_text = "",
+		descrip = "特売任務Pt200を入手でき、さらにダイヤ・キューブ・戦闘UIなどの追加報酬が開放されます",
+		subject = "迎春特売パス2026",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1100,
+		descrip_extra = "※パス任務クリア時に追加の報酬を入手可能",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.battlepass303",
+		extra_gem = 0,
+		id = 1303,
+		airijp_id = "com.yostarjp.azurlane.seasonpass302",
+		name_display = "迎春特売パス2026",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4102,
+				200
+			},
+			{
+				8,
+				65112,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					18
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				65112,
+				200
+			}
+		},
+		sub_display = {
+			7303,
+			200
 		},
 		ignorePlatform = {},
 		limit_args = {},
@@ -19836,6 +21149,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40076,
+				1
+			}
+		}
+	},
+	[2074] = {
+		picture = "ui8",
+		name = "戦闘UI・春色旅籠",
+		type = 0,
+		second_text = "",
+		descrip = "戦闘UI・春色旅籠を入手できます",
+		subject = "戦闘UI・春色旅籠",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1600,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 108,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui21",
+		extra_gem = 0,
+		id = 2074,
+		airijp_id = "com.yostarjp.azurlane.ui21",
+		name_display = "戦闘UI・春色旅籠",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2075] = {
+		picture = "ui8",
+		name = "戦闘UI・春色旅籠（単品）",
+		type = 0,
+		second_text = "",
+		descrip = "戦闘UI・春色旅籠を入手できます",
+		subject = "戦闘UI・春色旅籠（単品）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1600,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 108,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui22",
+		extra_gem = 0,
+		id = 2075,
+		airijp_id = "com.yostarjp.azurlane.ui22",
+		name_display = "戦闘UI・春色旅籠（単品）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40077,
+				1
+			}
+		}
+	},
+	[2076] = {
+		picture = "ui8",
+		name = "戦闘UI・春色旅籠（セット）",
+		type = 0,
+		second_text = "",
+		descrip = "戦闘UI・春色旅籠,ダイヤ×3060を入手できます",
+		subject = "戦闘UI・春色旅籠（セット）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 4700,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 108,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui23",
+		extra_gem = 0,
+		id = 2076,
+		airijp_id = "com.yostarjp.azurlane.ui23",
+		name_display = "戦闘UI・春色旅籠（セット）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40078,
 				1
 			}
 		}

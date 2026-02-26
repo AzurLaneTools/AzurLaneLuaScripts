@@ -60,6 +60,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.shipContent = slot0.frameTF:Find("ships")
 	slot0.shipEmpty = slot0.frameTF:Find("empShip")
 	slot0.addStutasTF = slot0._tf:Find("addStutas")
+	slot0.energyStutasTF = slot0._tf:Find("energyStutas")
+	slot0.energyStutasTFNum = slot0._tf:Find("energyStutas/num")
 	slot0.addStutasNum = slot0._tf:Find("addStutas/num")
 	slot0.addStutasBtn = slot0._tf:Find("addStutas/num/tipbtn")
 	slot0.addStutasInfoPanel = slot0._tf:Find("addinfo_panel")
@@ -262,6 +264,7 @@ slot0.OnShow = function(slot0, slot1)
 	slot0.placeId = slot1.placeId
 	slot0.showBenefits = slot1.showBenefits
 	slot0.needWorkSpeed = slot1.needWorkSpeed or false
+	slot0.autoCollectionSelectShip = slot1.autoCollectionSelectShip
 
 	setText(slot0.infoEmptyTitleTF, slot1.emptyInfoTitle or "")
 
@@ -275,6 +278,22 @@ slot0.OnShow = function(slot0, slot1)
 
 	slot0:UpdateSortBtn()
 	slot0:FlushShips(#slot0.selectedIds == 0 and slot0.selectNum == 1)
+end
+
+slot0.CheckHasSelected = function(slot0, slot1)
+	if not slot0.autoCollectionSelectShip then
+		return false
+	end
+
+	slot2 = false
+
+	for slot6, slot7 in pairs(slot0.autoCollectionSelectShip) do
+		if slot1 == slot7 then
+			slot2 = true
+		end
+	end
+
+	return slot2
 end
 
 slot0.OnInitShip = function(slot0, slot1)
@@ -292,28 +311,28 @@ slot0.OnUpdateShip = function(slot0, slot1, slot2)
 	slot5 = slot0.characterAgency:GetShipById(slot4)
 
 	onButton(slot0, slot3.go, function ()
-		if uv0:GetState() ~= IslandShip.STATE_NORMAL then
+		if not uv0:IsDelegable() or uv1:CheckHasSelected(uv2) then
 			return
 		end
 
-		if uv1.showId == uv2.id then
+		if uv1.showId == uv3.id then
 			uv1.showId = nil
 		else
-			uv1.showId = uv2.id
+			uv1.showId = uv3.id
 		end
 
-		if table.contains(uv1.selectedIds, uv2.id) then
-			table.removebyvalue(uv1.selectedIds, uv2.id)
+		if table.contains(uv1.selectedIds, uv3.id) then
+			table.removebyvalue(uv1.selectedIds, uv3.id)
 		elseif uv1.selectNum == 1 then
 			uv1.selectedIds = {
-				uv2.id
+				uv3.id
 			}
 		else
 			if uv1.selectNum <= #uv1.selectedIds then
 				return
 			end
 
-			table.insert(uv1.selectedIds, uv2.id)
+			table.insert(uv1.selectedIds, uv3.id)
 		end
 
 		for slot3, slot4 in pairs(uv1.cards) do
@@ -322,7 +341,7 @@ slot0.OnUpdateShip = function(slot0, slot1, slot2)
 
 		uv1:FlushInfo()
 	end, SFX_PANEL)
-	slot3:Update(slot4, slot0.attrType, slot0.placeId, slot0.selectedIds)
+	slot3:Update(slot4, slot0.attrType, slot0.placeId, slot0.selectedIds, slot0.autoCollectionSelectShip)
 end
 
 slot0.FlushShips = function(slot0, slot1)
@@ -344,7 +363,7 @@ end
 
 slot0.GetFristSelectableShipId = function(slot0)
 	for slot4, slot5 in ipairs(slot0.showShips) do
-		if slot0.characterAgency:GetShipById(slot5):GetState() == IslandShip.STATE_NORMAL then
+		if slot0.characterAgency:GetShipById(slot5):GetState() == IslandShip.STATE_NORMAL and not slot0:CheckHasSelected(slot5) then
 			return slot5
 		end
 	end
@@ -372,6 +391,7 @@ slot0.FlushInfo = function(slot0)
 	setActive(slot0.infoPanel, slot0.showId)
 	setActive(slot0.infoEmptyTF, not slot0.showId)
 	slot0:FlushAddPercent()
+	slot0:FlushEnergyPercent()
 
 	if not slot0.showId then
 		return
@@ -423,6 +443,18 @@ slot0.FlushInfo = function(slot0)
 	slot0.skillDes.text = slot5:GetEffectDesc()
 
 	slot0:FlushAddPercent()
+	slot0:FlushEnergyPercent()
+end
+
+slot0.FlushEnergyPercent = function(slot0)
+	if not slot0.showId or not slot0.autoCollectionSelectShip then
+		setActive(slot0.energyStutasTF, false)
+
+		return
+	end
+
+	setActive(slot0.energyStutasTF, true)
+	setText(slot0.energyStutasTFNum, i18n("island_chara_gather_skill_effect") .. string.format("<color=#39bfff> -%d%%</color>", IslandAutoCollectHelper.GetAttributeReducePercent(slot0.showId)))
 end
 
 slot0.FlushAddPercent = function(slot0)
@@ -550,6 +582,10 @@ slot0.GetShips = function(slot0)
 				}, {
 					__index = slot8
 				}))
+			elseif slot0.autoCollectionSelectShip then
+				if slot8.id ~= 1 then
+					table.insert(slot2, slot8)
+				end
 			else
 				table.insert(slot2, slot8)
 			end

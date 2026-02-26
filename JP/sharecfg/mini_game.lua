@@ -2986,6 +2986,21 @@ pg.mini_game = {
 		},
 		config_data = {}
 	},
+	{
+		is_ranking = 0,
+		view_name = "LanternFestivalView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		simple_config_data = "",
+		config_data = "",
+		name = "元宵答题2026",
+		config_csv = "activity_event_question",
+		id = 82,
+		hub_id = 69,
+		request_data = 1
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3641,6 +3656,7 @@ pg.mini_game = {
 		79,
 		80,
 		81,
+		82,
 		1001,
 		1002,
 		1003,

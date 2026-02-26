@@ -163,6 +163,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[112] = {
+		name = "迎春特売",
+		key = "SkinNormal_20251211",
+		display_icon = "ui_112",
+		unlock = "特别巡游茗的赠礼获取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "ショッピング好きの指揮官のためのUI。買い物を満喫しながら、圧倒的なプレゼントの波で相手を飲み込め！ ",
+		id = 112,
+		icon = "112",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[113] = {
 		name = "古代王朝",
 		key = "SkinNormal_20260129",
@@ -280,6 +295,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[207] = {
+		name = "春色旅籠",
+		key = "SkinElite_20260226",
+		display_icon = "ui_207",
+		unlock = "ショップ購入（戦闘UI・春色旅籠）",
+		is_unlock = 1,
+		rare = 4,
+		desc = "旅籠の賑わいとぬくもり、花火や提灯、爆竹の音に包まれながら、ひと味違う新春対決を楽しもう。 ",
+		id = 207,
+		icon = "207",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -292,12 +324,14 @@ pg.item_data_battleui = {
 		108,
 		109,
 		111,
+		112,
 		113,
 		201,
 		202,
 		203,
 		204,
 		205,
-		206
+		206,
+		207
 	}
 }

@@ -84,6 +84,8 @@ pg.item_data_frame = setmetatable({
 		609,
 		610,
 		611,
+		613,
+		614,
 		1001,
 		1002,
 		1003,
@@ -848,6 +850,24 @@ pg.base.item_data_frame = {
 		id = 611,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>森を吹き抜ける清き風を感じながら、いつもと違う休暇を楽しもう♪</color>「林間休暇準備」参加で入手可能",
+		scene = {}
+	},
+	[613] = {
+		name = "迎春特売（2026）",
+		gain_by = "",
+		time_second = 0,
+		id = 613,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>指揮官、特売キャンペーンへのご参加ありがとうにゃ。特典を受け取ってほしいにゃ～！</color>「迎春特売2026」参加で入手",
+		scene = {}
+	},
+	[614] = {
+		name = "天下一ノ旅籠",
+		gain_by = "",
+		time_second = 0,
+		id = 614,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>大吉満載、福が巡って運が上がる。提灯高々、巡る財は我が家に～</color>「春色旅籠Online」参加で入手",
 		scene = {}
 	},
 	[1001] = {

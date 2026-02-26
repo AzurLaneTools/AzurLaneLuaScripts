@@ -1,1033 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
-	[11500011] = {
-		name = "ブレイク・タイム",
-		change_skin = "",
-		desc = "む、どうした？ ああ、これか。「おやつにどうぞ」ともらったのだ！ もちろん独り占めするつもりはないぞ？ おまえにもちゃんと分けてやろう！ 何がいい？ バニラか？ チョコか？ それともストロベリーか？ ――む、これはダメだぞ。このきなこアイスは私のものだ！ ……どうしても？ むう……少しだけだぞ……？",
-		illustrator2 = -1,
-		ship_group = 1150001,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "shixiang_2",
-		lover_hand = "hand_2_02",
-		skin_type = 0,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "168",
-		bgm = "dal-az-theme",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		special_effects = "",
-		id = 11500011,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "shixiang_2",
-		l2d_se = "",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 71237,
-		voice_actor = 148,
-		shop_dynamic_hx = 0,
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		shop_offset = {
-			-138,
-			-617,
-			0,
-			0.65
-		},
-		spine_offset_profile = {
-			-72.5,
-			-612.1,
-			0,
-			0.64
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.182,
-					1.036,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.882,
-					2.436,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.681,
-							2.382,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			35,
-			-917,
-			0,
-			0.84
-		},
-		get_showing = {
-			show = 1,
-			data = {
-				{
-					261,
-					240,
-					2,
-					0,
-					120,
-					2
-				},
-				{
-					-1075,
-					804,
-					2,
-					-120,
-					0,
-					2
-				},
-				{
-					-936,
-					-148,
-					2,
-					0,
-					-120,
-					2
-				}
-			}
-		}
-	},
-	[11500020] = {
-		name = "鳶一折紙",
-		change_skin = "",
-		desc = "ここは……私のいた場所とは別の世界？ ――理解した。狼狽えていても始まらない。事態の解決に尽力する。私は鳶一折紙。元AST一等陸曹。あなたの所属と階級は？",
-		illustrator2 = -1,
-		ship_group = 1150002,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "zhezhi",
-		lover_hand = "hand_2_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 11500020,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "zhezhi",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 483,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.405,
-					0.776,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.346,
-					1.013,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.725,
-					2.498,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.83,
-							2.402,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11500021] = {
-		name = "魅惑を司る精霊",
-		change_skin = "",
-		desc = "私の水着はどう？ 気に入ってくれたならそれでいい。様々な艦船からの意見を取り入れた逸品。なおその際、＊＊＊で＊＊＊な方がいいとの助言も受けたけれど、高度な状況判断により泣く泣く除外した。",
-		illustrator2 = -1,
-		ship_group = 1150002,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "zhezhi_2",
-		lover_hand = "hand_2_02",
-		skin_type = 0,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "106",
-		bgm = "dal-az-theme",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		special_effects = "",
-		id = 11500021,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "zhezhi_2",
-		l2d_se = "",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 71238,
-		voice_actor = 483,
-		shop_dynamic_hx = 0,
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		shop_offset = {
-			-200.1,
-			-542.8,
-			0,
-			0.457
-		},
-		spine_offset_profile = {
-			-127.1,
-			-527.2,
-			0,
-			0.445
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.344,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.578,
-					2.483,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.681,
-							2.382,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			-124.8,
-			-745,
-			0,
-			0.62
-		},
-		get_showing = {
-			show = 1,
-			data = {
-				{
-					111,
-					-735,
-					2,
-					0,
-					120,
-					2
-				},
-				{
-					-204,
-					267,
-					2,
-					-160,
-					0,
-					2
-				},
-				{
-					-1401,
-					-267,
-					2,
-					0,
-					-120,
-					2
-				}
-			}
-		}
-	},
-	[11500030] = {
-		name = "五河琴里",
-		change_skin = "",
-		desc = "ここは一体…〈フラクシナス〉との通信も途絶え…まさか、次元の壁でも越えたっていうの？とにかく現状を把握しないと――あ、ちょっといい？私は琴里。五河琴里。学生…で通じるかしら？悪いんだけど、ちょっと話を聞かせてくれない？",
-		illustrator2 = -1,
-		ship_group = 1150003,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "qinli",
-		lover_hand = "hand_2_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 11500030,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "qinli",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 484,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.965,
-					1.002,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.661,
-					1.165,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.788,
-					2.34,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.669,
-							2.472,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11500031] = {
-		name = "水辺の女神",
-		change_skin = "",
-		desc = "というわけで、水着に着替えてみたのだけど……何よ。言いたいことがあるならはっきり言いなさいよ。……え？ 可愛いし似合ってるから、もっとちゃんと見せてほしい？ ちょ……っ、そういう恥ずかしいことはっきり言わないでくれる！？",
-		illustrator2 = -1,
-		ship_group = 1150003,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "qinli_2",
-		lover_hand = "hand_2_02",
-		skin_type = 0,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "dal-az-theme",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		special_effects = "",
-		id = 11500031,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "qinli_2",
-		l2d_se = "",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 71239,
-		voice_actor = 484,
-		shop_dynamic_hx = 0,
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		shop_offset = {
-			6.3,
-			-628.1,
-			0,
-			0.39
-		},
-		spine_offset_profile = {
-			67,
-			-619,
-			0,
-			0.38
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.162,
-					1.023,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.713,
-					2.49,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.681,
-							2.382,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			147.3,
-			-745,
-			0,
-			0.44
-		},
-		get_showing = {
-			show = 1,
-			data = {
-				{
-					-1007,
-					-483.75,
-					2,
-					0,
-					120,
-					2
-				},
-				{
-					-1206,
-					671,
-					2,
-					150,
-					0,
-					2
-				},
-				{
-					124,
-					-195,
-					2,
-					0,
-					-120,
-					2
-				}
-			}
-		}
-	},
-	[11500040] = {
-		name = "四糸乃",
-		change_skin = "",
-		desc = "え…あ…あの…「わーお、スペクタクル。一体全体何がおきちゃったのかな？ ここはドコ？」あの…わ、私は…四糸乃……この子は…よしのんです。少しお話…してくれますか？",
-		illustrator2 = -1,
-		ship_group = 1150004,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "sisinai",
-		lover_hand = "hand_3_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip01",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 11500040,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "sisinai",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 485,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.261,
-					2.157,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.998,
-					1.881,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.158,
-					3.609,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.824,
-							2.438,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11500041] = {
-		name = "シークレットベース",
-		change_skin = "",
-		desc = "えっと…しらないところは…まだちょっと恥ずかしいです。だから…もう少しここにいても…いいですか…？「準備は終わってるんだけど、あと少し、勇気が足りないみたいなんだよねー。指揮官くーん、手伝ってあげてよー」",
-		illustrator2 = -1,
-		ship_group = 1150004,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "sisinai_2",
-		lover_hand = "hand_3_02",
-		skin_type = 0,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip01",
-		bg_sp = "",
-		bg = "106",
-		bgm = "dal-az-theme",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		special_effects = "",
-		id = 11500041,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "sisinai_2",
-		l2d_se = "",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 71240,
-		voice_actor = 485,
-		shop_dynamic_hx = 0,
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		shop_offset = {
-			-191.3,
-			-241,
-			0,
-			0.29
-		},
-		spine_offset_profile = {
-			-112.9,
-			-231.2,
-			0,
-			0.285
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.08,
-					1.549,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.198,
-					3.522,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.87,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			-58.6,
-			-447.1,
-			0,
-			0.4
-		},
-		get_showing = {
-			show = 1,
-			data = {
-				{
-					-1517,
-					585,
-					2,
-					0,
-					100,
-					2
-				},
-				{
-					-34,
-					903.75,
-					2,
-					120,
-					0,
-					2
-				},
-				{
-					-147,
-					-400,
-					2,
-					0,
-					-120,
-					2
-				}
-			}
-		}
-	},
 	[11500050] = {
 		name = "時崎狂三",
 		change_skin = "",
@@ -17444,6 +16417,212 @@ pg.base.ship_skin_template_20 = {
 			49909111,
 			49909112,
 			49909113
+		}
+	},
+	[499092] = {
+		name = "深閨の魅舞",
+		change_skin = "",
+		desc = "契約者、「支配の舞」って聞いたことはあるかしら？ふふふ、そう。あなたと私だけの「勝負」を楽しみましょう？負けた方は……全てを失うことになるわ",
+		illustrator2 = -1,
+		ship_group = 49909,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "xingdengbao_3",
+		lover_hand = "",
+		skin_type = 0,
+		shop_type_id = 3,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		lover_kiss = "",
+		bg_sp = "",
+		bg = "157",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 499092,
+		voice_actor_2 = -1,
+		gyro = 0,
+		l2d_drag_rate = "",
+		prefab = "xingdengbao_3",
+		l2d_se = "",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71312,
+		voice_actor = 372,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0,
+			60
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.466,
+					1.441,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.383,
+					1.705,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.059,
+					2.163,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.835,
+					4.428,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.757,
+							2.449,
+							-0.18
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			49909201,
+			49909202,
+			49909203,
+			49909204,
+			49909205,
+			49909206,
+			49909207,
+			49909208,
+			49909209,
+			49909210,
+			49909211,
+			49909212,
+			49909213,
+			49909214,
+			49909215,
+			49909216,
+			49909217,
+			49909218,
+			49909219,
+			49909220,
+			49909221,
+			49909222,
+			49909223,
+			49909224,
+			49909225,
+			49909226,
+			49909227,
+			49909228,
+			49909229,
+			49909230,
+			49909231,
+			49909232,
+			49909233,
+			49909234
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1490,
+					-311,
+					2.5,
+					0,
+					182,
+					2
+				},
+				{
+					224,
+					420,
+					2,
+					146,
+					0,
+					2
+				},
+				{
+					-265,
+					-551,
+					2.5,
+					-35,
+					-78,
+					2
+				}
+			}
 		}
 	},
 	[999020] = {

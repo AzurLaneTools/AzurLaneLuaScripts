@@ -239,7 +239,7 @@ pg.base.dorm3d_resource = {
 	},
 	[199033] = {
 		ship_group = 19903,
-		name = "アンカレッジ部屋着",
+		name = "安克雷奇丝袜常服",
 		model_id = "ankeleiqi_stock",
 		remarks = "",
 		stocking_pos = "",

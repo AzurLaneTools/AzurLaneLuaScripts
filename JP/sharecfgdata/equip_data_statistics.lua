@@ -132702,6 +132702,61 @@ _G.pg.base.equip_data_statistics[76112] = {
 }
 
 
+_G.pg.base.equip_data_statistics[76121] = {
+	name = "全弹发射-纳希莫夫海军上将级I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 76121,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		76121
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[76122] = {
+	name = "全弹发射-纳希莫夫海军上将级II",
+	base = 76121,
+	id = 76122,
+	weapon_id = {
+		76122
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[78011] = {
 	name = "0",
 	tech = 1,
@@ -141260,7 +141315,7 @@ _G.pg.base.equip_data_statistics[80572] = {
 
 
 _G.pg.base.equip_data_statistics[80581] = {
-	name = "专属弹幕-龙骑兵META I",
+	name = "专属弹幕-顽皮I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -141273,6 +141328,61 @@ _G.pg.base.equip_data_statistics[80581] = {
 	ammo = 10,
 	value_3 = 0,
 	id = 80581,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170941
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80582] = {
+	name = "专属弹幕-顽皮II",
+	base = 80581,
+	id = 80582,
+	weapon_id = {
+		170942
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80583] = {
+	name = "专属弹幕-龙骑兵META I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80583,
 	torpedo_ammo = 0,
 	property_rate = {},
 	ammo_icon = {},
@@ -141303,12 +141413,67 @@ _G.pg.base.equip_data_statistics[80581] = {
 }
 
 
-_G.pg.base.equip_data_statistics[80582] = {
+_G.pg.base.equip_data_statistics[80584] = {
 	name = "专属弹幕-龙骑兵META II",
-	base = 80571,
-	id = 80582,
+	base = 80583,
+	id = 80584,
 	weapon_id = {
 		170952
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80601] = {
+	name = "专属弹幕-莫斯科I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80601,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61821
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80602] = {
+	name = "专属弹幕-莫斯科II",
+	base = 80601,
+	id = 80602,
+	weapon_id = {
+		61822
 	},
 	hidden_skill_id = {}
 }
@@ -148011,6 +148176,214 @@ _G.pg.base.equip_data_statistics[85791] = {
 	},
 	weapon_id = {
 		85791
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85800] = {
+	name = "SM-40 試作型220mm三連装砲",
+	speciality = "<[LOCK]>",
+	type = 3,
+	tech = 0,
+	value_2 = 65,
+	icon = "85800",
+	attribute_2 = "cannon",
+	descrip = "プロジェクト66重巡に搭載予定の試作型220mm三連装主砲",
+	rarity = 6,
+	damage = "34 x 6",
+	nationality = 7,
+	ammo = 1,
+	value_3 = 0,
+	id = 85800,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1432
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1432
+		},
+		{
+			4,
+			1215
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		85800
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CA",
+		"MG",
+		"AP"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[85801] = {
+	damage = "36 x 6",
+	base = 85800,
+	id = 85801,
+	weapon_id = {
+		85801
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85802] = {
+	damage = "38 x 6",
+	base = 85800,
+	id = 85802,
+	weapon_id = {
+		85802
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85803] = {
+	damage = "40 x 6",
+	base = 85800,
+	id = 85803,
+	weapon_id = {
+		85803
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85804] = {
+	damage = "42 x 6",
+	base = 85800,
+	id = 85804,
+	weapon_id = {
+		85804
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85805] = {
+	damage = "44 x 6",
+	base = 85800,
+	id = 85805,
+	weapon_id = {
+		85805
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85806] = {
+	damage = "46 x 6",
+	base = 85800,
+	id = 85806,
+	weapon_id = {
+		85806
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85807] = {
+	damage = "48 x 6",
+	base = 85800,
+	id = 85807,
+	weapon_id = {
+		85807
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85808] = {
+	damage = "50 x 6",
+	base = 85800,
+	id = 85808,
+	weapon_id = {
+		85808
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85809] = {
+	damage = "52 x 6",
+	base = 85800,
+	id = 85809,
+	weapon_id = {
+		85809
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85810] = {
+	damage = "54 x 6",
+	base = 85800,
+	id = 85810,
+	weapon_id = {
+		85810
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85811] = {
+	anti_siren = 100,
+	damage = "54 x 6",
+	base = 85800,
+	id = 85811,
+	weapon_id = {
+		85811
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85812] = {
+	anti_siren = 200,
+	damage = "54 x 6",
+	base = 85800,
+	id = 85812,
+	weapon_id = {
+		85812
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[85813] = {
+	anti_siren = 300,
+	damage = "54 x 6",
+	base = 85800,
+	id = 85813,
+	weapon_id = {
+		85813
 	},
 	hidden_skill_id = {}
 }

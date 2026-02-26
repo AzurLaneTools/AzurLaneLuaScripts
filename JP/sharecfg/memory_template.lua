@@ -4002,6 +4002,26 @@ pg.memory_template = setmetatable({
 		5002,
 		5003,
 		5004,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
+		5016,
+		5017,
+		5018,
+		5019,
+		5020,
+		5021,
+		5022,
+		5023,
+		5024,
+		5025,
+		5026,
+		5027,
+		5028,
+		5029,
+		5030,
 		10000,
 		10001,
 		10002,
@@ -64238,6 +64258,306 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANHONGXIAOZHANGNUAN4"
+		}
+	},
+	[5011] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "春色が満ちて",
+		condition = "「春色旅籠Online」を始める",
+		story = "CHUNMANKEZHAN1",
+		id = 5011,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN1"
+		}
+	},
+	[5012] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "旅籠潜入作戦",
+		condition = "旅籠Lvが3到達",
+		story = "CHUNMANKEZHAN2",
+		id = 5012,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN2"
+		}
+	},
+	[5013] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "テストセクションはテストすべし",
+		condition = "旅籠Lvが6到達",
+		story = "CHUNMANKEZHAN3",
+		id = 5013,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN3"
+		}
+	},
+	[5014] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "根底機能修正ログ",
+		condition = "旅籠Lvが9到達",
+		story = "CHUNMANKEZHAN4",
+		id = 5014,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN4"
+		}
+	},
+	[5015] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "エピローグ",
+		condition = "旅籠Lvが12到達",
+		story = "CHUNMANKEZHAN5",
+		id = 5015,
+		icon = "memory_chunmankezhan2",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN5"
+		}
+	},
+	[5016] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "棋局は終わらぬ",
+		condition = "客間がLv3に到達",
+		story = "CHUNMANKEZHAN6",
+		id = 5016,
+		icon = "memory_chunmankezhan3",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN6"
+		}
+	},
+	[5017] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "深閨の魅舞",
+		condition = "客間がLv6に到達",
+		story = "CHUNMANKEZHAN7",
+		id = 5017,
+		icon = "memory_chunmankezhan4",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN7"
+		}
+	},
+	[5018] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "馨香靡く盃",
+		condition = "客間がLv9に到達",
+		story = "CHUNMANKEZHAN8",
+		id = 5018,
+		icon = "memory_chunmankezhan5",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN8"
+		}
+	},
+	[5019] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ブラインド♥触り打ち",
+		condition = "水辺の東屋がLv6に到達",
+		story = "CHUNMANKEZHAN9",
+		id = 5019,
+		icon = "memory_chunmankezhan6",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN9"
+		}
+	},
+	[5020] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "春光のリラクゼーション",
+		condition = "庭園がLv8に到達",
+		story = "CHUNMANKEZHAN10",
+		id = 5020,
+		icon = "memory_chunmankezhan7",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN10"
+		}
+	},
+	[5021] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "オゾルノイの護身術訓練",
+		condition = "レストランがLv4に到達",
+		story = "CHUNMANKEZHAN11",
+		id = 5021,
+		icon = "memory_chunmankezhan8",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN11"
+		}
+	},
+	[5022] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "サーバーメンテ中",
+		condition = "謎の倉庫Lvが8到達",
+		story = "CHUNMANKEZHAN12",
+		id = 5022,
+		icon = "memory_chunmankezhan9",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN12"
+		}
+	},
+	[5023] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "料理人の休日",
+		condition = "レストランがLv8に到達",
+		story = "CHUNMANKEZHAN13",
+		id = 5023,
+		icon = "memory_chunmankezhan10",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN13"
+		}
+	},
+	[5024] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "春告鳥の羽根は白く",
+		condition = "レストランがLv12に到達",
+		story = "CHUNMANKEZHAN14",
+		id = 5024,
+		icon = "memory_chunmankezhan11",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN14"
+		}
+	},
+	[5025] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "華灯遊宵",
+		condition = "池Lvが8到達",
+		story = "CHUNMANKEZHAN15",
+		id = 5025,
+		icon = "memory_chunmankezhan12",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN15"
+		}
+	},
+	[5026] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "道場破り！？料理対決！",
+		condition = "レストランがLv6に到達",
+		story = "CHUNMANKEZHAN16",
+		id = 5026,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN16"
+		}
+	},
+	[5027] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "狙いの対局",
+		condition = "水辺の東屋がLv10に到達",
+		story = "CHUNMANKEZHAN17",
+		id = 5027,
+		icon = "memory_chunmankezhan14",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN17"
+		}
+	},
+	[5028] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "個室トキメキ",
+		condition = "客間がLv5に到達",
+		story = "CHUNMANKEZHAN18",
+		id = 5028,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN18"
+		}
+	},
+	[5029] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幸運の人と幸運のコイ",
+		condition = "池Lvが6到達",
+		story = "CHUNMANKEZHAN19",
+		id = 5029,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN19"
+		}
+	},
+	[5030] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "スケッチハプニング",
+		condition = "庭園がLv6に到達",
+		story = "CHUNMANKEZHAN20",
+		id = 5030,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN20"
 		}
 	},
 	[10000] = {

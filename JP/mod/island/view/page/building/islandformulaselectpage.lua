@@ -442,6 +442,7 @@ slot0.OnShow = function(slot0, slot1)
 	slot0.addDelegateFormula = slot1.addDelegateFormula
 	slot0.addDelegateFormulaTimes = slot1.addDelegateFormulaTimes
 	slot0.canRewardTime = slot1.canRewardTime
+	slot0.selectFormulaId = slot1.selectFormulaId
 
 	setActive(slot0.addExpTF, slot0.selectedShipId ~= 1)
 
@@ -465,10 +466,26 @@ slot0.OnShow = function(slot0, slot1)
 	slot0:InitUnlockedFormulaList()
 
 	if #slot0.formulaList > 0 then
-		slot0.uiList:align(#slot0.formulaList)
-		setActive(slot0.rightInfo, true)
-		setActive(slot0.rightInfoEmpty, false)
-		slot0:OnSelectFormulaIndex(1)
+		slot5 = 1
+
+		if slot0.selectFormulaId then
+			for slot9, slot10 in ipairs(slot0.formulaList) do
+				if slot10 == slot0.selectFormulaId then
+					slot5 = slot9
+
+					break
+				end
+			end
+		end
+
+		slot0:OnSelectFormulaIndex(slot5)
+		onNextTick(function ()
+			slot0 = uv0._tf:Find("formulaView/content")
+
+			setAnchoredPosition(slot0, {
+				y = math.min((uv1 - 1) * uv0._tf:Find("formulaView/content/tpl").rect.height, slot0.sizeDelta.y)
+			})
+		end)
 	else
 		slot0.uiList:align(#slot0.formulaList)
 		setActive(slot0.rightInfo, false)

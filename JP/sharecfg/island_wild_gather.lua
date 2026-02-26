@@ -14,6 +14,11 @@ pg.island_wild_gather = {
 			10010055,
 			10010056,
 			10010057
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	{
@@ -29,6 +34,11 @@ pg.island_wild_gather = {
 		object_list = {
 			10010065,
 			10010066
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	{
@@ -45,6 +55,11 @@ pg.island_wild_gather = {
 			10040026,
 			10040027,
 			10040052
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	{
@@ -59,6 +74,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10050032
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	{
@@ -73,6 +93,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10010067
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	{
@@ -87,6 +112,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10040055
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1001] = {
@@ -101,6 +131,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10040064
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1002] = {
@@ -115,6 +150,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10040065
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1003] = {
@@ -129,6 +169,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10040062
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1004] = {
@@ -143,6 +188,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10040063
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1005] = {
@@ -157,6 +207,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10010083
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1006] = {
@@ -171,6 +226,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10010084
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1007] = {
@@ -185,6 +245,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10010085
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1008] = {
@@ -199,6 +264,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10010086
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1009] = {
@@ -213,6 +283,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10040088
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1010] = {
@@ -227,6 +302,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10040089
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1011] = {
@@ -241,6 +321,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10010093
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1012] = {
@@ -255,6 +340,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10010094
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1013] = {
@@ -269,6 +359,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10010091
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1014] = {
@@ -283,6 +378,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10010092
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1015] = {
@@ -297,6 +397,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10040090
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	[1016] = {
@@ -311,6 +416,11 @@ pg.island_wild_gather = {
 		show = 1,
 		object_list = {
 			10040091
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
 		}
 	},
 	all = {
