@@ -142,9 +142,10 @@ slot0.didEnter = function(slot0)
 			helps = pg.gametip.LiquorFloor_tip.tip
 		})
 	end, SFX_CANCEL)
-	SetActive(slot0.ui:Find("Allgold/Text/tip"), LiquorFloorMapScene.GetCollectionBookTip())
 	setText(slot0.ui:Find("Allgold/Text"), i18n("LiquorFloor_gold_get"))
 	onButton(slot0, slot0.ui:Find("Allgold"), function ()
+		SetActive(uv0.box, false)
+
 		if uv0.activity:HasMaxGold() then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("LiquorFloor_gold_max_tip")
@@ -482,6 +483,9 @@ slot0.OnBox = function(slot0, slot1, slot2, slot3)
 	end
 
 	if slot1:GetNeedTownLv() <= slot3:TownLevel() and #slot1:GetUpgrade() ~= 0 then
+		SetActive(slot0.box:Find("box_bg/num"), true)
+		SetActive(slot0.box:Find("box_bg/decorate2"), true)
+		SetActive(slot0.box:Find("box_bg/num_1"), true)
 		SetActive(slot0.box:Find("box_bg/btn_lock"), false)
 		SetActive(slot0.box:Find("box_bg/upgrade"), true)
 
@@ -605,6 +609,7 @@ end
 
 slot0.RefreshRedPoint = function(slot0)
 	setActive(slot0.taskTip, uv0.ShouldShowTaskTip())
+	SetActive(slot0.storyBtn:Find("tip"), uv0.GetCollectionBookTip())
 end
 
 slot0.ShouldShowTaskTip = function()
@@ -630,9 +635,25 @@ slot0.getCollectDataBySiteId = function(slot0, slot1)
 end
 
 slot0.GetCollectionBookTip = function()
-	for slot5 = 1, #getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN2):GetPlaceList() do
-		if slot1[slot5]:GetType() == 1 and slot1[slot5]:GetLevel() > 0 and slot1[slot5]:OnStartTime() > slot1[slot5]:GetTypeParam() * 14400 then
+	slot1 = getProxy(TaskProxy)
+
+	for slot7 = 1, #getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN2):getConfig("config_client").BookData do
+		if getProxy(TaskProxy):getTaskVO(slot3[slot7].task) and slot8:getTaskStatus() == 1 then
 			return true
+		end
+	end
+
+	return false
+end
+
+slot0.GetLiquorFloorMapTip = function()
+	for slot5 = 1, #getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN2):GetPlaceList() do
+		if slot1[slot5]:GetType() == 1 and slot1[slot5]:GetLevel() > 0 then
+			warning("       placeData[i]   ", slot1[slot5]:OnStartTime(), slot1[slot5]:GetName(), slot1[slot5]:GetTypeParam() * 14400)
+
+			if slot1[slot5]:OnStartTime() > slot1[slot5]:GetTypeParam() * 14400 then
+				return true
+			end
 		end
 	end
 

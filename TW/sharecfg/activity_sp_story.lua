@@ -6541,7 +6541,7 @@ pg.activity_sp_story = {
 	[371] = {
 		story_type = 1,
 		pre_event = "",
-		name = "EP5-2 实验场θ",
+		name = "EP5-2 實驗場θ",
 		change_prefab = "",
 		unlock_conditions = "",
 		change_background = "star_level_bg_596",
@@ -6552,7 +6552,7 @@ pg.activity_sp_story = {
 	},
 	[372] = {
 		story_type = 1,
-		name = "EP6-1 群英荟萃",
+		name = "EP6-1 群英薈萃",
 		change_prefab = "",
 		unlock_conditions = "完成EP5-2",
 		change_background = "star_level_bg_306",
@@ -6579,7 +6579,7 @@ pg.activity_sp_story = {
 	},
 	[373] = {
 		story_type = 1,
-		name = "EP6-2 火线救援",
+		name = "EP6-2 火線救援",
 		change_prefab = "",
 		unlock_conditions = "完成EP6-1",
 		change_background = "star_level_bg_306",
@@ -6606,7 +6606,7 @@ pg.activity_sp_story = {
 	},
 	[374] = {
 		story_type = 1,
-		name = "EP6-3 各显神通",
+		name = "EP6-3 各顯神通",
 		change_prefab = "juqing_heisewuqi",
 		unlock_conditions = "完成EP6-2",
 		change_background = "bg_tianqiong_cg5",
@@ -6633,7 +6633,7 @@ pg.activity_sp_story = {
 	},
 	[375] = {
 		story_type = 1,
-		name = "EP6-4 神秘来援",
+		name = "EP6-4 神秘來援",
 		change_prefab = "",
 		unlock_conditions = "完成EP6-3",
 		change_background = "bg_tianqiong_5",
@@ -6660,7 +6660,7 @@ pg.activity_sp_story = {
 	},
 	[376] = {
 		story_type = 1,
-		name = "EP6-5 清理协议",
+		name = "EP6-5 清理協議",
 		change_prefab = "",
 		unlock_conditions = "完成EP6-4",
 		change_background = "bg_tianqiong_cg7",
@@ -6687,7 +6687,7 @@ pg.activity_sp_story = {
 	},
 	[377] = {
 		story_type = 1,
-		name = "EP7-1 部署开战",
+		name = "EP7-1 部署開戰",
 		change_prefab = "juqing_heisewuqi",
 		unlock_conditions = "完成EP6-5",
 		change_background = "bg_tianqiong_cg8",
@@ -6715,7 +6715,7 @@ pg.activity_sp_story = {
 	},
 	[378] = {
 		story_type = 2,
-		name = "EP7-2 约克城级的战斗",
+		name = "EP7-2 約克鎮級的戰鬥",
 		change_prefab = "",
 		unlock_conditions = "完成EP7-1",
 		change_background = "star_level_bg_596",
@@ -6742,7 +6742,7 @@ pg.activity_sp_story = {
 	},
 	[379] = {
 		story_type = 2,
-		name = "EP7-3 如今的余烬",
+		name = "EP7-3 如今的餘燼",
 		change_prefab = "",
 		unlock_conditions = "完成EP7-2",
 		change_background = "star_level_bg_596",
@@ -6769,7 +6769,7 @@ pg.activity_sp_story = {
 	},
 	[380] = {
 		story_type = 2,
-		name = "EP7-4 计划舰的乐章",
+		name = "EP7-4 計劃艦的樂章",
 		change_prefab = "",
 		unlock_conditions = "完成EP7-3",
 		change_background = "star_level_bg_596",
@@ -6796,7 +6796,7 @@ pg.activity_sp_story = {
 	},
 	[381] = {
 		story_type = 2,
-		name = "EP7-5 交错的思绪",
+		name = "EP7-5 交錯的思緒",
 		change_prefab = "juqing_heisewuqi",
 		unlock_conditions = "完成EP7-4",
 		change_background = "star_level_bg_596",
@@ -6852,7 +6852,7 @@ pg.activity_sp_story = {
 	},
 	[383] = {
 		story_type = 2,
-		name = "EP7-7 帷幕内的战斗",
+		name = "EP7-7 帷幕內的戰鬥",
 		change_prefab = "",
 		unlock_conditions = "完成EP7-6",
 		change_background = "bg_tianqiong_cg11",
@@ -6879,7 +6879,7 @@ pg.activity_sp_story = {
 	},
 	[384] = {
 		story_type = 1,
-		name = "EP8-1 赠予苍穹之歌",
+		name = "EP8-1 贈予蒼穹之歌",
 		change_prefab = "juqing_heisewuqi",
 		unlock_conditions = "完成EP7-7",
 		change_background = "star_level_bg_594",
@@ -6907,7 +6907,7 @@ pg.activity_sp_story = {
 	},
 	[385] = {
 		story_type = 1,
-		name = "EP8-2 第二次离别",
+		name = "EP8-2 第二次離別",
 		change_prefab = "",
 		unlock_conditions = "完成EP8-1",
 		change_background = "bg_tianqiong_1",
@@ -6934,7 +6934,7 @@ pg.activity_sp_story = {
 	},
 	[386] = {
 		story_type = 1,
-		name = "EP8-3 现在，过去，未来",
+		name = "EP8-3 現在，過去，未來",
 		change_prefab = "",
 		unlock_conditions = "完成EP8-2",
 		change_background = "bg_tianqiong_cg13",
@@ -6988,7 +6988,7 @@ pg.activity_sp_story = {
 	},
 	[388] = {
 		story_type = 1,
-		name = "EX-2 新的时代",
+		name = "EX-2 新的時代",
 		change_prefab = "",
 		unlock_conditions = "完成EX-1",
 		change_background = "star_level_bg_544",
@@ -7015,7 +7015,7 @@ pg.activity_sp_story = {
 	},
 	[389] = {
 		story_type = 1,
-		name = "EX-3 涟漪",
+		name = "EX-3 漣漪",
 		change_prefab = "",
 		unlock_conditions = "完成EX-2",
 		change_background = "bg_tianqiong_1",

@@ -39,18 +39,6 @@ slot0.init = function(slot0)
 	end
 end
 
-slot0.GetCollectionBookTip = function()
-	for slot5 = 1, #getProxy(ActivityProxy):getActivityById(ActivityConst.LiquorFloor_ACT_ID):getConfig("config_client").BookData do
-		slot6 = slot1[slot5].task
-
-		if getProxy(TaskProxy):getTaskById(slot1[slot5]) and slot7:getTaskStatus() == 1 then
-			return true
-		end
-	end
-
-	return false
-end
-
 slot0.didEnter = function(slot0)
 	slot1 = slot0._tf
 	slot0._ad = slot1:Find("ad")
@@ -123,20 +111,17 @@ end
 slot0.selectTag = function(slot0, slot1, slot2)
 	slot0.selectTagIndex = slot1
 
+	slot0:updateTag()
 	slot0:updatePage()
 	slot0:updateAwardPanel()
 end
 
 slot0.updateTag = function(slot0)
-	for slot4 = 1, #slot0.tags do
-		slot5 = slot0.tags[slot4]
-
-		setActive(slot5.bg, slot5.index == slot0.selectTagIndex)
-
-		if getProxy(TaskProxy):getTaskById(slot0.pageCollectSiteIds[slot4]) and slot7:getTaskStatus() == 1 then
-			setActive(findTF(slot5.btn, "ad/tip"), true)
+	for slot4 = 1, #slot0.taskIds do
+		if getProxy(TaskProxy):getTaskById(slot0.taskIds[slot4]) and slot6:getTaskStatus() == 1 then
+			setActive(slot0._ad:Find("tag/" .. slot4 .. "/tip"), true)
 		else
-			setActive(findTF(slot5.btn, "ad/tip"), false)
+			setActive(slot0._ad:Find("tag/" .. slot4 .. "/tip"), false)
 		end
 	end
 end

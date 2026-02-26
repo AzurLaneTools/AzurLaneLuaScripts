@@ -362,8 +362,9 @@ return {
 			bgName = "star_level_bg_520",
 			hideOther = true,
 			dir = 1,
-			actor = 501090,
 			nameColor = "#A9F548FF",
+			actor = 501090,
+			actorName = "伏波&抚顺",
 			hidePaintObj = true,
 			say = "绝对会被教训的吧？！",
 			typewriter = {
@@ -407,8 +408,9 @@ return {
 			bgName = "star_level_bg_520",
 			hideOther = true,
 			dir = 1,
-			actor = 501090,
 			nameColor = "#A9F548FF",
+			actor = 501090,
+			actorName = "伏波&抚顺",
 			hidePaintObj = true,
 			say = "哇啊啊——？！我们错了——",
 			typewriter = {
