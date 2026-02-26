@@ -58,6 +58,89 @@ pg.item_lack = {
 				{
 					"scene dailylevel",
 					{
+						dailyLevelId = 301
+					}
+				},
+				0
+			},
+			{
+				"購買部でランダム出現",
+				{
+					"scene shop",
+					{
+						warp = 2
+					}
+				},
+				0
+			},
+			{
+				"一部の軍事委託で入手",
+				{
+					"scene event"
+				},
+				0
+			},
+			{
+				"勋章商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"scene shop",
+					{
+						warp = 7
+					}
+				},
+				0
+			}
+		}
+	},
+	{
+		config_client = "",
+		id = 4,
+		drop_type = 2,
+		itemids = {
+			16004,
+			16014,
+			16024
+		},
+		description = {
+			{
+				"デイリーチャレンジ「商船護衛」をクリア",
+				{
+					"scene dailylevel",
+					{
+						dailyLevelId = 301
+					}
+				},
+				0
+			}
+		}
+	},
+	{
+		config_client = "",
+		id = 5,
+		drop_type = 2,
+		itemids = {
+			17001,
+			17011,
+			17021,
+			17031,
+			17041
+		},
+		description = {
+			{
+				"デイリーチャレンジ「商船護衛」をクリア",
+				{
+					"scene dailylevel",
+					{
 						dailyLevelId = 201
 					}
 				},
@@ -91,12 +174,14 @@ pg.item_lack = {
 	},
 	{
 		config_client = "",
-		id = 4,
+		id = 6,
 		drop_type = 2,
 		itemids = {
-			16004,
-			16014,
-			16024
+			17002,
+			17012,
+			17022,
+			17032,
+			17042
 		},
 		description = {
 			{
@@ -136,19 +221,29 @@ pg.item_lack = {
 					"scene event"
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"scene shop",
+					{
+						warp = 7
+					}
+				},
+				0
 			}
 		}
 	},
 	{
 		config_client = "",
-		id = 5,
+		id = 7,
 		drop_type = 2,
 		itemids = {
-			17001,
-			17011,
-			17021,
-			17031,
-			17041
+			17003,
+			17013,
+			17023,
+			17033,
+			17043
 		},
 		description = {
 			{
@@ -188,75 +283,13 @@ pg.item_lack = {
 					"scene event"
 				},
 				0
-			}
-		}
-	},
-	{
-		config_client = "",
-		id = 6,
-		drop_type = 2,
-		itemids = {
-			17002,
-			17012,
-			17022,
-			17032,
-			17042
-		},
-		description = {
-			{
-				"一部の科学研究項目で入手",
-				{
-					"technology"
-				},
-				0
 			},
 			{
-				"ショップ勲章交換",
+				"ショップの大艦隊補給にて入手可能",
 				{
 					"scene shop",
 					{
-						warp = 8
-					}
-				},
-				0
-			},
-			{
-				"プロトショップで入手",
-				{
-					"scene shop",
-					{
-						warp = 5
-					}
-				},
-				0
-			}
-		}
-	},
-	{
-		config_client = "",
-		id = 7,
-		drop_type = 2,
-		itemids = {
-			17003,
-			17013,
-			17023,
-			17033,
-			17043
-		},
-		description = {
-			{
-				"一部の科学研究項目で入手",
-				{
-					"technology"
-				},
-				0
-			},
-			{
-				"プロトショップで入手",
-				{
-					"scene shop",
-					{
-						warp = 5
+						warp = 7
 					}
 				},
 				0
@@ -276,38 +309,21 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"ハード海域各章第1節をクリア",
+				"デイリーチャレンジ「商船護衛」をクリア",
 				{
-					"scene level",
-					{},
+					"scene dailylevel",
 					{
-						mapType = 2,
-						lastDigit = 1,
-						leastChapterId = 10101
+						dailyLevelId = 201
 					}
 				},
 				0
 			},
 			{
-				"一部の軍事委託で入手",
-				{
-					"scene event"
-				},
-				0
-			},
-			{
-				"一部の科学研究項目で入手",
-				{
-					"technology"
-				},
-				0
-			},
-			{
-				"ショップ勲章交換",
+				"ショップの大艦隊補給にて入手可能",
 				{
 					"scene shop",
 					{
-						warp = 8
+						warp = 7
 					}
 				},
 				0

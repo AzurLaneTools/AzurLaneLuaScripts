@@ -2871,7 +2871,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705101] = {
-		breakout_view = "【焔追いの灰-ガングート】習得/主砲砲座+1/主砲補正+5%",
+		breakout_view = "【焔追の灰-ガングート】習得/主砲砲座+1/主砲補正+5％",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2888,7 +2888,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705102] = {
-		breakout_view = "副砲砲座+2/主砲補正+10%",
+		breakout_view = "副砲砲座+2/主砲補正+10％",
 		item2 = 21001,
 		pre_id = 9705101,
 		repair = 0,
@@ -2906,7 +2906,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705103] = {
-		breakout_view = "【焔追いの灰-ガングート】強化/主砲砲座+1/主砲補正+15%",
+		breakout_view = "【焔追の灰-ガングート】強化/主砲砲座+1/主砲補正+15％",
 		item2 = 21001,
 		pre_id = 9705102,
 		repair = 0,

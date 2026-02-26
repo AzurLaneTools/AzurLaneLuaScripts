@@ -362,8 +362,9 @@ return {
 			bgName = "star_level_bg_520",
 			hideOther = true,
 			dir = 1,
-			actor = 501090,
 			nameColor = "#A9F548FF",
+			actor = 501090,
+			actorName = "伏波＆撫順",
 			hidePaintObj = true,
 			say = "絶対に説教されるよ！？",
 			typewriter = {
@@ -407,8 +408,9 @@ return {
 			bgName = "star_level_bg_520",
 			hideOther = true,
 			dir = 1,
-			actor = 501090,
 			nameColor = "#A9F548FF",
+			actor = 501090,
+			actorName = "伏波＆撫順",
 			hidePaintObj = true,
 			say = "うわぁぁ——！？ごめんなさい——",
 			typewriter = {
@@ -651,7 +653,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			actorName = "众人",
+			actorName = "みんな",
 			hidePaintObj = true,
 			say = "うわぁぁぁ——幽霊が出た——！！",
 			typewriter = {

@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actorName = "怨仇",
+			actorName = "インプラカブル",
 			side = 2,
 			bgName = "bg_kezhan_cg_3",
 			hidePaintObj = true,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actorName = "怨仇",
+			actorName = "インプラカブル",
 			side = 2,
 			bgName = "bg_kezhan_cg_3",
 			hidePaintObj = true,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actorName = "怨仇",
+			actorName = "インプラカブル",
 			side = 2,
 			bgName = "bg_kezhan_cg_3",
 			hidePaintObj = true,
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actorName = "怨仇",
+			actorName = "インプラカブル",
 			side = 2,
 			bgName = "bg_kezhan_cg_3",
 			hidePaintObj = true,
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actorName = "怨仇",
+			actorName = "インプラカブル",
 			side = 2,
 			bgName = "bg_kezhan_cg_3",
 			hidePaintObj = true,
@@ -280,7 +280,7 @@ return {
 			actor = 502037,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三線春巻きだ……ぐぇ、辛い…",
+			say = "三絲春巻だ……ぐぇ、辛い…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

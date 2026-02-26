@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "クラースヌィイ・クルィーム",
 			side = 2,
 			bgName = "bg_kezhan_cg_4",
 			hidePaintObj = true,
@@ -325,7 +325,7 @@ return {
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "クラースヌィイ・クルィーム",
 			side = 2,
 			bgName = "bg_kezhan_cg_4",
 			hidePaintObj = true,
@@ -413,7 +413,7 @@ return {
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "クラースヌィイ・クルィーム",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
@@ -426,7 +426,7 @@ return {
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "クラースヌィイ・クルィーム",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "クラースヌィイ・クルィーム",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
@@ -498,7 +498,7 @@ return {
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "クラースヌィイ・クルィーム",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,

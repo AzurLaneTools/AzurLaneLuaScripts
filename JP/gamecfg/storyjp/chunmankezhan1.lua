@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			actorName = "莫斯科",
+			actorName = "モスクワ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -403,7 +403,7 @@ return {
 			}
 		},
 		{
-			actorName = "莫斯科",
+			actorName = "モスクワ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actorName = "莫斯科",
+			actorName = "モスクワ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -429,7 +429,7 @@ return {
 			}
 		},
 		{
-			actorName = "莫斯科",
+			actorName = "モスクワ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -445,7 +445,7 @@ return {
 			portrait = 506011,
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
-			actorName = "镇海",
+			actorName = "鎮海",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -583,7 +583,7 @@ return {
 			}
 		},
 		{
-			actorName = "莫斯科",
+			actorName = "モスクワ",
 			side = 2,
 			bgName = "bg_kezhan_cg_1",
 			hidePaintObj = true,
@@ -675,7 +675,7 @@ return {
 			}
 		},
 		{
-			actorName = "莫斯科",
+			actorName = "モスクワ",
 			side = 2,
 			bgName = "bg_kezhan_cg_2",
 			hidePaintObj = true,

@@ -2405,98 +2405,21 @@ pg.login = {
 	},
 	[82] = {
 		op_play = 1,
+		op_time = "stop",
+		date = "stop",
 		id = 82,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	[83] = {
 		op_play = 0,
-		op_time = "",
+		op_time = "stop",
+		date = "stop",
 		id = 83,
 		login_static = "login_qiye",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2026,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	[84] = {
 		op_play = 1,
@@ -2548,7 +2471,7 @@ pg.login = {
 				{
 					2026,
 					3,
-					2
+					11
 				},
 				{
 					23,
@@ -2560,7 +2483,7 @@ pg.login = {
 	},
 	[85] = {
 		op_play = 0,
-		op_time = "",
+		op_time = "stop",
 		date = "stop",
 		id = 85,
 		login_static = "login_qiye",
