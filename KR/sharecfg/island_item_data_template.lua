@@ -35,6 +35,22 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
 			2000,
 			2001,
 			2002,
@@ -57,6 +73,8 @@ pg.island_item_data_template = setmetatable({
 			2020,
 			2021,
 			2022,
+			2521,
+			2522,
 			2600,
 			2601,
 			2602,
@@ -142,6 +160,13 @@ pg.island_item_data_template = setmetatable({
 			3111,
 			3112,
 			3113,
+			3114,
+			3115,
+			3116,
+			3117,
+			3118,
+			3119,
+			3120,
 			4001,
 			4002,
 			4003,
@@ -156,6 +181,37 @@ pg.island_item_data_template = setmetatable({
 			4012,
 			4013,
 			4014,
+			4015,
+			4016,
+			4017,
+			4018,
+			4019,
+			4020,
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			5001,
+			5002,
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5101,
+			5102,
+			5103,
+			5104,
+			5105,
+			5106,
+			5107,
+			5108,
+			9900,
 			100001,
 			100002,
 			100003,
@@ -196,12 +252,23 @@ pg.island_item_data_template = setmetatable({
 			200013,
 			200014,
 			200015,
+			200016,
+			200017,
+			200018,
+			200019,
+			200020,
 			300001,
 			300002,
 			300003,
 			300004,
 			300005,
 			300006
+		},
+		usage_fish = {
+			1500,
+			1501,
+			1502,
+			1503
 		},
 		usage_island_gift = {
 			110001,
@@ -237,6 +304,22 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
 			2000,
 			2001,
 			2002,
@@ -259,6 +342,8 @@ pg.island_item_data_template = setmetatable({
 			2020,
 			2021,
 			2022,
+			2521,
+			2522,
 			2600,
 			2601,
 			2602,
@@ -344,6 +429,13 @@ pg.island_item_data_template = setmetatable({
 			3111,
 			3112,
 			3113,
+			3114,
+			3115,
+			3116,
+			3117,
+			3118,
+			3119,
+			3120,
 			4001,
 			4002,
 			4003,
@@ -357,7 +449,38 @@ pg.island_item_data_template = setmetatable({
 			4011,
 			4012,
 			4013,
-			4014
+			4014,
+			4015,
+			4016,
+			4017,
+			4018,
+			4019,
+			4020,
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			5001,
+			5002,
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5101,
+			5102,
+			5103,
+			5104,
+			5105,
+			5106,
+			5107,
+			5108,
+			9900
 		},
 		[3] = {
 			1,
@@ -365,7 +488,11 @@ pg.island_item_data_template = setmetatable({
 			6,
 			7,
 			8,
-			9
+			9,
+			1500,
+			1501,
+			1502,
+			1503
 		},
 		[4] = {
 			2
@@ -416,6 +543,11 @@ pg.island_item_data_template = setmetatable({
 			200013,
 			200014,
 			200015,
+			200016,
+			200017,
+			200018,
+			200019,
+			200020,
 			300001,
 			300002,
 			300003,
@@ -462,6 +594,26 @@ pg.island_item_data_template = setmetatable({
 		1020,
 		1021,
 		1022,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1500,
+		1501,
+		1502,
+		1503,
 		2000,
 		2001,
 		2002,
@@ -484,6 +636,8 @@ pg.island_item_data_template = setmetatable({
 		2020,
 		2021,
 		2022,
+		2521,
+		2522,
 		2600,
 		2601,
 		2602,
@@ -569,6 +723,13 @@ pg.island_item_data_template = setmetatable({
 		3111,
 		3112,
 		3113,
+		3114,
+		3115,
+		3116,
+		3117,
+		3118,
+		3119,
+		3120,
 		4001,
 		4002,
 		4003,
@@ -583,6 +744,37 @@ pg.island_item_data_template = setmetatable({
 		4012,
 		4013,
 		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
+		5108,
+		9900,
 		100001,
 		100002,
 		100003,
@@ -629,6 +821,11 @@ pg.island_item_data_template = setmetatable({
 		200013,
 		200014,
 		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
 		300001,
 		300002,
 		300003,
@@ -1663,7 +1860,7 @@ pg.base.island_item_data_template = {
 	},
 	[1022] = {
 		name = "고무나무 씨앗",
-		desc = "언제든 재배, 채집이 가능하다. 휴식기가 없다!",
+		desc = "모항에서 엄선된 고무나무의 씨앗. 좋은 품질의 고무를 획득할 수 있다.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1690,9 +1887,841 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
+			}
+		}
+	},
+	[1101] = {
+		name = "치패",
+		desc = "이매패류의 어린 개체. 안정적으로 성장하며, 양식 기술도 확립되어 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1101",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1101,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1102] = {
+		name = "메기 치어",
+		desc = "저서성 담수어의 치어. 저산소 환경에 강해 진흙 바닥 가두리에서의 고밀도 양식에 적합하다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1102",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1102,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1103] = {
+		name = "잉어 치어",
+		desc = "담수성 잡식어의 치어. 환경 적응력이 뛰어나 다양한 수질 조건에서도 안정적으로 성장한다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1103",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1103,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1104] = {
+		name = "붕어 치어",
+		desc = "소형 담수어의 치어. 주로 조류나 유기물을 먹으며 생태계 유지에 기여한다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1104",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1104,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1105] = {
+		name = "새끼 새우",
+		desc = "민물 새우류의 유생. 남은 먹이나 일부 조류를 섭취해 수역을 정화하는 역할을 한다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1105",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1105,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1106] = {
+		name = "새끼 가재",
+		desc = "갑각류의 유생. 성장하면서 껍질이 붉고 단단해지며, 성체는 인기 있는 수산물로 거래된다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1106",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1106,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1107] = {
+		name = "농어 치어",
+		desc = "육식성 어류의 치어. 살이 부드러워 고급 식재료로 평가받는다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1107",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1107,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1108] = {
+		name = "새끼 게",
+		desc = "잦은 탈피를 반복하는 게의 유생. 깨끗하고 수질이 좋은 환경에서 양식해야 한다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1108",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1108,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1201] = {
+		name = "오징어 치어",
+		desc = "두족류의 치어. 성장 과정에서 여러 차례 형태 변화를 거쳐 탱탱한 육질로 자란다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1201",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1201,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1202] = {
+		name = "삼치 치어",
+		desc = "육식성 어류의 치어. 중층부터 표층 수역에서 자주 관찰되며 성장 속도가 빠르다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1202",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1202,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1203] = {
+		name = "참치 치어",
+		desc = "대형 원해성 어류의 치어. 성장 속도가 빠르며 충분한 산소 공급이 가능한 환경이 요구된다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1203",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1203,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1204] = {
+		name = "연어 치어",
+		desc = "회유성 어류의 치어. 낮은 수온을 선호하며 정성껏 키우면 질 좋은 어육을 얻을 수 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1204",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1204,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1205] = {
+		name = "참돔 치어",
+		desc = "온수성 해수어의 치어. 성장 후에는 선명한 빛깔을 띠어 관상 가치도 높다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1205",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1205,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1206] = {
+		name = "감성돔 치어",
+		desc = "암초 지대에 서식하는 어류의 치어. 체질이 강인해 양식 성공률이 높은 편이다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1206",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1206,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1207] = {
+		name = "황다랑어 치어",
+		desc = "황다랑어의 치어. 유영 속도가 매우 빨라, 양식 시 수중 산소량을 높은 수준으로 유지해야 한다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1207",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1207,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1208] = {
+		name = "새끼 해삼",
+		desc = "저서성 극피동물의 유생. 침전된 유기물을 먹어 가두리 바닥을 효과적으로 정화해준다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1208",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 1208,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"치어 상점",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1500] = {
+		name = "지렁이",
+		desc = "지렁이를 본뜬 루어. 실물과 비슷한 외형 덕분에 물고기가 잘 문다.",
+		type = 3,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_fish",
+		usage_arg = "[[{{5003,300},{5004,300},{5002,200},{5007,200},{5106,200},{5108,-300}}],[]]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1500",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		convert = 0,
+		resource_type = 0,
+		id = 1500,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"상점 구매",
+				{}
+			}
+		}
+	},
+	[1501] = {
+		name = "옥수수",
+		desc = "특별한 매력을 더한 옥수수 모양 루어. 황금빛 색상으로 잡식성 어류를 강하게 유혹한다.",
+		type = 3,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_fish",
+		usage_arg = "[[{{5005,-400},{5006,-400},{5008,-200},{5103,-500},{5104,-500},{5107,-500}}],[]]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1501",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		convert = 0,
+		resource_type = 0,
+		id = 1501,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {}
+	},
+	[1502] = {
+		name = "깐 새우",
+		desc = "정성껏 제작한 깐 새우 형태의 루어. 자연스러운 움직임으로 많은 육식 어종을 끌어당긴다.",
+		type = 3,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_fish",
+		usage_arg = "[[{{5003,-500},{5004,-500},{5101,200},{5102,300},{5104,300},{5108,-200}}],[]]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1502",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		convert = 0,
+		resource_type = 0,
+		id = 1502,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"상점 구매",
+				{}
+			}
+		}
+	},
+	[1503] = {
+		name = "문어 다리",
+		desc = "독특한 형태의 루어. 수중에서의 역동적인 움직임이 대형 어종에게 치명적인 매력을 발산한다.",
+		type = 3,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_fish",
+		usage_arg = "[[{{5003,-500},{5004,-500},{5101,-200},{5103,500},{5107,500},{5108,-200}}],[]]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_1503",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		convert = 0,
+		resource_type = 0,
+		id = 1503,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"상점 구매",
+				{}
 			}
 		}
 	},
@@ -2396,6 +3425,70 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"향기로운 과수원",
+				{}
+			}
+		}
+	},
+	[2521] = {
+		name = "담수어 살코기",
+		desc = "가공된 담수어 살코기. 가정 요리에 두루 쓰이는 만능 식재료.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 18,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 180,
+		tech_id = 0,
+		icon = "IslandProps/item_2521",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 2521,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"어육 가공",
+				{}
+			}
+		}
+	},
+	[2522] = {
+		name = "해수어 살코기",
+		desc = "가공된 해수어 살코기. 은은한 바다 향이 느껴진다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 48,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 400,
+		tech_id = 0,
+		icon = "IslandProps/item_2522",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 2522,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"어육 가공",
 				{}
 			}
 		}
@@ -5243,6 +6336,248 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[3114] = {
+		name = "피시 앤 칩스",
+		desc = "겉은 바삭하고 속은 촉촉한 생선 튀김과 고소한 감자튀김의 조합. 누구나 좋아하는 메뉴.",
+		type = 1,
+		manage_influence = 280,
+		pt_num = 30,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 300,
+		tech_id = 0,
+		icon = "IslandProps/item_3114",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 3114,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"유어 레스토랑",
+				{}
+			}
+		}
+	},
+	[3115] = {
+		name = "레몬 새우",
+		desc = "탱글한 새우의 단맛과 레몬의 상큼한 산미가 어우러져 식욕을 돋운다.",
+		type = 1,
+		manage_influence = 220,
+		pt_num = 60,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 500,
+		tech_id = 0,
+		icon = "IslandProps/item_3115",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 3115,
+		have_max = 0,
+		filter = {
+			10113,
+			10130
+		},
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"오징어 구이",
+				{}
+			}
+		}
+	},
+	[3116] = {
+		name = "생선 양파찜",
+		desc = "달콤한 양파 채를 곁들인 생선찜. 생선 본연의 풍미를 최대한으로 살려준다.",
+		type = 1,
+		manage_influence = 180,
+		pt_num = 57,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 420,
+		tech_id = 0,
+		icon = "IslandProps/item_3116",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 3116,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"유어 레스토랑",
+				{}
+			}
+		}
+	},
+	[3117] = {
+		name = "장식용 그림",
+		desc = "벽을 장식하는 섬세한 그림. 공간에 은은하게 예술적 분위기를 더해준다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 82,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 820,
+		tech_id = 0,
+		icon = "IslandProps/item_3117",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 3117,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"목재 가공 설비",
+				{}
+			}
+		}
+	},
+	[3118] = {
+		name = "파에야",
+		desc = "바다의 재료를 아낌없이 사용한 파에야. 밥 한 톨 한 톨에 바다의 풍미가 스며 있다.",
+		type = 1,
+		manage_influence = 200,
+		pt_num = 187,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 900,
+		tech_id = 0,
+		icon = "IslandProps/item_3118",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 3118,
+		have_max = 0,
+		filter = {
+			10113,
+			10129
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"츄츄 간편식",
+				{}
+			}
+		}
+	},
+	[3119] = {
+		name = "가재 볶음",
+		desc = "센 불로 빠르게 볶아낸 가재 요리. 선명한 붉은빛이 식욕을 자극해 밥이 술술 넘어간다.",
+		type = 1,
+		manage_influence = 240,
+		pt_num = 152,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 720,
+		tech_id = 0,
+		icon = "IslandProps/item_3119",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 3119,
+		have_max = 0,
+		filter = {
+			10113,
+			10130
+		},
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"오징어 구이",
+				{}
+			}
+		}
+	},
+	[3120] = {
+		name = "불도장",
+		desc = "여러 시간 정성껏 끓여낸 최고급 요리. 연회의 마무리를 장식하는 진귀한 별미로 제공된다.",
+		type = 1,
+		manage_influence = 150,
+		pt_num = 381,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 2000,
+		tech_id = 0,
+		icon = "IslandProps/item_3120",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 3120,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			5,
+			60
+		},
+		jump_page = {
+			{
+				"유어 레스토랑",
+				{}
+			}
+		}
+	},
 	[4001] = {
 		name = "가을 국화",
 		desc = "바람에 흔들리는 황금빛 가을 국화. 감상용으로도, 차로 우려 마시기에도 좋다.",
@@ -5705,6 +7040,1027 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"백곰 음료",
+				{}
+			}
+		}
+	},
+	[4015] = {
+		name = "봄 죽순",
+		desc = "봄을 맞은 땅에서 자라난 신선한 죽순. 아삭한 식감으로 사랑받는 대표적인 제철 식재료다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 75,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 600,
+		tech_id = 0,
+		icon = "IslandProps/item_4015",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4015,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"지도 채집",
+				{}
+			}
+		}
+	},
+	[4016] = {
+		name = "냉이",
+		desc = "상쾌한 봄나물. 특유의 향이 있어 무침이나 일부 요리에 자주 사용된다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 2,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 225,
+		tech_id = 0,
+		icon = "IslandProps/item_4016",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4016,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"지도 채집",
+				{}
+			}
+		}
+	},
+	[4017] = {
+		name = "영춘화",
+		desc = "초봄에 피는 선명한 노란 꽃. 관상용은 물론 말려서 차로도 즐길 수 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 18,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 180,
+		tech_id = 0,
+		icon = "IslandProps/item_4017",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4017,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"지도 채집",
+				{}
+			}
+		}
+	},
+	[4018] = {
+		name = "히아신스",
+		desc = "향이 짙은 초봄의 관상식물. 화단이나 정원에 자주 심는다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 54,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 540,
+		tech_id = 0,
+		icon = "IslandProps/item_4018",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4018,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"지도 채집",
+				{}
+			}
+		}
+	},
+	[4019] = {
+		name = "아스파라거스",
+		desc = "봄에 수확하는 싱그러운 채소. 아삭한 식감으로 간단한 조리나 곁들이는 용도에 적합하다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 5,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 50,
+		tech_id = 0,
+		icon = "IslandProps/item_4019",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4019,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"초록색 모밭",
+				{}
+			}
+		}
+	},
+	[4020] = {
+		name = "아스파라거스 씨앗",
+		desc = "땅에 심어두면 아스파라거스 새순이 빠르게 올라온다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_4020",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4020,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"상점 구매",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	},
+	[4021] = {
+		name = "파인애플",
+		desc = "새콤달콤하고 과즙이 풍부한 열대 과일. 그대로 먹어도 좋지만, 가공해도 먹어도 맛있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 11,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 70,
+		tech_id = 0,
+		icon = "IslandProps/item_4021",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4021,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"초록색 모밭",
+				{}
+			}
+		}
+	},
+	[4022] = {
+		name = "파인애플 씨앗",
+		desc = "열대 지방의 햇살을 듬뿍 머금은 씨앗. 심으면 맛있는 파인애플을 수확할 수 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_4022",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4022,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"상점 구매",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	},
+	[4023] = {
+		name = "갓 짜낸 파인애플 주스",
+		desc = "신선한 파인애플을 즉석에서 짜낸 주스. 상큼한 열대 지방의 풍미가 가득하다.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 18,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 200,
+		tech_id = 0,
+		icon = "IslandProps/item_4023",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4023,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"백곰 음료",
+				{}
+			}
+		}
+	},
+	[4024] = {
+		name = "영춘화차",
+		desc = "말린 영춘화 꽃봉오리로 만든 허브티. 은은한 향으로 마음을 편안하게 해준다.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 112,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 800,
+		tech_id = 0,
+		icon = "IslandProps/item_4024",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 4024,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"백곰 음료",
+				{}
+			}
+		}
+	},
+	[4025] = {
+		name = "죽순과 아스파라거스 냉채",
+		desc = "아스파라거스와 죽순을 산뜻하게 버무린 봄철 반찬. 식감이 좋고 풍미의 조화 또한 뛰어나다.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 72,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 800,
+		tech_id = 0,
+		icon = "IslandProps/item_4025",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4025,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"유어 레스토랑",
+				{}
+			}
+		}
+	},
+	[4026] = {
+		name = "새우 아스파라거스 볶음",
+		desc = "아스파라거스와 신선한 새우를 빠르게 볶아낸 요리. 새우의 감칠맛과 아삭한 식감을 즐길 수 있는 대표적인 가정식.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 180,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 600,
+		tech_id = 0,
+		icon = "IslandProps/item_4026",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4026,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"유어 레스토랑",
+				{}
+			}
+		}
+	},
+	[4027] = {
+		name = "말린 냉이",
+		desc = "햇볕에 말려 보관한 냉이. 저장성이 뛰어나 국물 요리에 쓰거나, 불려서 소로 사용한다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 72,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 720,
+		tech_id = 0,
+		icon = "IslandProps/item_4027",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4027,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"수공제작 설비",
+				{}
+			}
+		}
+	},
+	[4028] = {
+		name = "봄의 꽃다발",
+		desc = "영춘화와 히아신스를 엮은 꽃다발. 밝은 색감이 공간에 봄기운을 불어넣는다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 108,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1080,
+		tech_id = 0,
+		icon = "IslandProps/item_4028",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4028,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"수공제작 설비",
+				{}
+			}
+		}
+	},
+	[5001] = {
+		name = "조개",
+		desc = "조개껍질은 장식품이나 정교한 공예품의 재료로 자주 사용된다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 42,
+		tech_id = 0,
+		icon = "IslandProps/item_5001",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 5001,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5002] = {
+		name = "메기",
+		desc = "살이 오른 메기. 진한 양념 요리에 잘 어울린다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 2,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 250,
+		tech_id = 0,
+		icon = "IslandProps/item_5002",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 5002,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5003] = {
+		name = "잉어",
+		desc = "민물고기의 맛을 대표하는 존재. 일부 식당에서는 간판 메뉴로 쓰인다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 16,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 165,
+		tech_id = 0,
+		icon = "IslandProps/item_5003",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 5003,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5004] = {
+		name = "붕어",
+		desc = "식용 어종의 하나. 살결이 고우며 영양가도 높다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 11,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 110,
+		tech_id = 0,
+		icon = "IslandProps/item_5004",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 5004,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5005] = {
+		name = "민물 새우",
+		desc = "고단백·저지방·저칼로리의 특징을 가진 우수한 수산 식재료의 대명사.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 12,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 100,
+		tech_id = 0,
+		icon = "IslandProps/item_5005",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 5005,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5006] = {
+		name = "가재",
+		desc = "하천에서 흔히 볼 수 있는 가재. 정겨운 식감을 지녔다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 13,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 115,
+		tech_id = 0,
+		icon = "IslandProps/item_5006",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 5006,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5007] = {
+		name = "농어",
+		desc = "신선한 농어. 희고 부드러운 살이 찜이나 소테에 안성맞춤이다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 16,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 136,
+		tech_id = 0,
+		icon = "IslandProps/item_5007",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 5007,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5008] = {
+		name = "게",
+		desc = "신선하고 맛있는 게. 감칠맛이 풍부하고 영양도 가득하다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 58,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 390,
+		tech_id = 0,
+		icon = "IslandProps/item_5008",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 5008,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5101] = {
+		name = "오징어",
+		desc = "탱글한 식감의 오징어. 구워도 좋고 살짝 익혀도 맛있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 116,
+		tech_id = 0,
+		icon = "IslandProps/item_5101",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 5101,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5102] = {
+		name = "삼치",
+		desc = "유선형 몸매를 가진 바다의 스피드스타. 살이 단단해 구이 요리로 만들면 풍미가 좋다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 27,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 270,
+		tech_id = 0,
+		icon = "IslandProps/item_5102",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 5102,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5103] = {
+		name = "참치",
+		desc = "고단백·저지방의 참치. 바다낚시의 최고 목표 중 하나로 꼽힌다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 104,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 870,
+		tech_id = 0,
+		icon = "IslandProps/item_5103",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 5103,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5104] = {
+		name = "연어",
+		desc = "인기 있는 해산물. 아름다운 살결과 깊은 감칠맛이 특징이다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 45,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 380,
+		tech_id = 0,
+		icon = "IslandProps/item_5104",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 5104,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5105] = {
+		name = "참돔",
+		desc = "잡식성 어류. 떼를 지어 빠르게 헤엄치는 습성이 있으며, 영양가가 높아 널리 사랑받는다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 172,
+		tech_id = 0,
+		icon = "IslandProps/item_5105",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 5105,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5106] = {
+		name = "감성돔",
+		desc = "민첩하고 교활한 어종으로 낚아 올리려면 상당한 실력이 필요하다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 24,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 245,
+		tech_id = 0,
+		icon = "IslandProps/item_5106",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 5106,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5107] = {
+		name = "황다랑어",
+		desc = "고급 황다랑어. 지방이 적어 통조림 재료로도 자주 사용된다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 198,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1320,
+		tech_id = 0,
+		icon = "IslandProps/item_5107",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 5107,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[5108] = {
+		name = "해삼",
+		desc = "자양강장 효과가 있는 해삼. 얻기 위해서는 어느 정도의 인내와 운이 필요하다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 162,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1080,
+		tech_id = 0,
+		icon = "IslandProps/item_5108",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 5108,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"츄츄 가두리",
+				{}
+			}
+		}
+	},
+	[9900] = {
+		name = "진주",
+		desc = "색감이 따뜻한 천연 보석. 시장에서 거래가 활발하게 이루어지고 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_9900",
+		price = 400,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 9900,
+		have_max = 0,
+		filter = {
+			10312
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"피어리에게 구매",
 				{}
 			}
 		}
@@ -7226,6 +9582,161 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"실적",
+				{}
+			}
+		}
+	},
+	[200016] = {
+		name = "윌리엄 D 포터 - 아일랜드 권한 인증",
+		desc = "윌리엄 D 포터의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200016",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200016,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"개발 상점",
+				{}
+			}
+		}
+	},
+	[200017] = {
+		name = "젠하이 - 아일랜드 권한 인증",
+		desc = "젠하이의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200017",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200017,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"상점",
+				{}
+			}
+		}
+	},
+	[200018] = {
+		name = "아타고 - 아일랜드 권한 인증",
+		desc = "아타고의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200018",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200018,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[200019] = {
+		name = "헬레나 - 아일랜드 권한 인증",
+		desc = "헬레나의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200019",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200019,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[200020] = {
+		name = "프리드리히 데어 그로세 - 아일랜드 권한 인증",
+		desc = "프리드리히 데어 그로세의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200020",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200020,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
 				{}
 			}
 		}

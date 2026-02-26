@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_furniture2_tone8",
 			nameColor = "#FFFFFF",
-			say = "설마 허니한테도 이런 짓궂은 면이 있다니!",
+			hidePaintObj = true,
+			say = "꺅! 허니… 약았어, 정말…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,20 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_dining02_idle01_fb03",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							id = 2018,
+							name = "IK_dining02_idle01_fb03_BX",
+							type = "item_action"
+						},
+						{
+							skip = true,
+							name = "face_amazed_start",
+							type = "action"
 						},
 						{
 							skip = false,

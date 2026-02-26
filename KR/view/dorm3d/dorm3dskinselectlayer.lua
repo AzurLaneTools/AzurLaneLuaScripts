@@ -116,10 +116,12 @@ end
 
 slot0.FlushSkinList = function(slot0)
 	_.each(slot0.contextData.ladyEnv.skinIdList, function (slot0)
-		if ApartmentProxy.CheckUnlockConfig(uv0.skinDic[slot0]:GetUnlock()) then
-			table.insert(uv1, slot0)
-		else
-			table.insert(uv2, slot0)
+		if slot0 ~= 199033 then
+			if ApartmentProxy.CheckUnlockConfig(uv0.skinDic[slot0]:GetUnlock()) then
+				table.insert(uv1, slot0)
+			else
+				table.insert(uv2, slot0)
+			end
 		end
 	end)
 
@@ -168,7 +170,7 @@ slot0.OnclickSkin = function(slot0, slot1, slot2)
 			slot0.contextData.onSwitchSkin(slot3, slot4, slot0.selectedSkinId)
 		else
 			slot3:SwitchCharacterSkin(slot4, slot0.selectedSkinId, function ()
-				uv0:HideCharacterPart(uv1.selectedSkinId, uv1.hiddenList)
+				Dorm3dHxHelper.HideCharacterPart(uv0.lady, uv1.hiddenList)
 
 				if uv1.skinDic[uv1.selectedSkinId]:GetSwitchAnim() and slot0 ~= "" then
 					uv0:PlaySingleAction(slot0)
@@ -251,7 +253,7 @@ slot0.FlushSkinPartOptions = function(slot0)
 
 				setActive(uv2:Find("open"), not slot0)
 				setActive(uv2:Find("close"), slot0)
-				uv0.contextData.ladyEnv:HideCharacterPart(uv0.selectedSkinId, uv0.hiddenList)
+				Dorm3dHxHelper.HideCharacterPart(uv0.contextData.ladyEnv.lady, uv0.hiddenList)
 				uv0:FlushBtns()
 			end, SFX_PANEL)
 		end
@@ -287,10 +289,10 @@ slot0.willExit = function(slot0)
 		slot2 = slot0.contextData.ladyEnv
 
 		slot2:SwitchCharacterSkin(slot0.contextData.groupId, slot1, function ()
-			uv0.contextData.ladyEnv:HideCharacterPart(uv1, uv0.apartment:GetHiddenParts(uv1))
+			Dorm3dHxHelper.HideCharacterPart(uv0.contextData.ladyEnv.lady, uv0.apartment:GetHiddenParts(uv1))
 		end)
 	else
-		slot0.contextData.ladyEnv:HideCharacterPart(slot1, slot0.apartment:GetHiddenParts(slot1))
+		Dorm3dHxHelper.HideCharacterPart(slot0.contextData.ladyEnv.lady, slot0.apartment:GetHiddenParts(slot1))
 	end
 end
 

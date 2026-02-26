@@ -492,8 +492,8 @@ slot0.RotationItem = function(slot0)
 	slot0.agora:GetPlaceableItem(slot0.selectedData.id):Rotation()
 end
 
-slot0.InterAction = function(slot0, slot1, slot2)
-	slot3 = 1
+slot0.AgoraVirtualInterAction = function(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or 1
 
 	if not slot0.agora:GetVirtualInteractUnitData(slot1):GetEmptySlot() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_no_interact_point"))
@@ -515,19 +515,19 @@ slot0.InterAction = function(slot0, slot1, slot2)
 	end)
 end
 
-slot0.InterActionSync = function(slot0, slot1, slot2, slot3)
+slot0.AgoraVirtualInterActionSync = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0.isEditing then
 		return
 	end
 
 	slot5 = slot0.agora:GetVirtualInteractUnitData(slot1)
-	slot6 = slot5:GetSlotById(slot3)
+	slot6 = slot5:GetSlotById(slot4)
 
 	slot6:Lock(slot2)
-	slot0:NotifiyAgora(ISLAND_AGORA_EVT.START_INTERACTION, slot5, slot6, 1)
+	slot0:NotifiyAgora(ISLAND_AGORA_EVT.START_INTERACTION, slot5, slot6, slot3 or 1)
 end
 
-slot0.InterActionEnd = function(slot0, slot1, slot2)
+slot0.AgoraVirtualInterActionEnd = function(slot0, slot1, slot2)
 	slot3 = slot0.agora
 	slot3 = slot3:GetVirtualInteractUnitData(slot1)
 
@@ -545,7 +545,7 @@ slot0.InterActionEnd = function(slot0, slot1, slot2)
 	end)
 end
 
-slot0.InterActionEndSync = function(slot0, slot1, slot2)
+slot0.AgoraVirtualInterActionEndSync = function(slot0, slot1, slot2)
 	if slot0.isEditing then
 		return
 	end
@@ -555,6 +555,14 @@ slot0.InterActionEndSync = function(slot0, slot1, slot2)
 
 	slot4:Release()
 	slot0:NotifiyAgora(ISLAND_AGORA_EVT.END_INTERACTION, slot3, Clone(slot4))
+end
+
+slot0.AgoraVirtualInitStatus = function(slot0, slot1, slot2)
+	if not slot0.agora:GetVirtualInteractUnitData(slot1) then
+		return
+	end
+
+	slot0:NotifiyCore(ISLAND_EVT.WORLD_OBJECT_INIT_STATUS, slot3, slot2)
 end
 
 slot0.PlaceItemRandonPosition = function(slot0, slot1)

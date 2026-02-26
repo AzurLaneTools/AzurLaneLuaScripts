@@ -37,11 +37,7 @@ slot0.Entrance = function(slot0, slot1)
 end
 
 slot0.Exit = function(slot0, slot1)
-	slot2 = slot0.statistics._battleScore
-
-	print(slot2)
-
-	if ys.Battle.BattleConst.BattleScore.S <= slot2 then
+	if ys.Battle.BattleConst.BattleScore.S <= slot0.statistics._battleScore then
 		slot1:sendNotification(GAME.ACT_CARD_PUZZLE, {
 			cmd = 1,
 			activity_id = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CARD_PUZZLE) and slot3.id,
@@ -53,6 +49,30 @@ slot0.Exit = function(slot0, slot1)
 		system = SYSTEM_CARDPUZZLE,
 		score = slot2
 	})
+end
+
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = ys.Battle.BattleResourceManager.GetInstance()
+
+	for slot8, slot9 in ipairs(slot0.cards) do
+		for slot15, slot16 in ipairs(ys.Battle.BattleDataFunction.GetCardRes(ys.Battle.BattleDataFunction.GetPuzzleCardDataTemplate(slot9).effect[1])) do
+			table.insert(slot11, slot16)
+		end
+	end
+
+	for slot8, slot9 in ipairs(slot0.cardPuzzleFleet) do
+		slot11 = ys.Battle.BattleDataFunction.GetPuzzleShipDataTemplate(slot9:getConfig("id"))
+
+		table.insert(slot2, slot11.skin_id)
+		table.insert(slot1, slot3.GetShipResource(slot11.id, slot11.skin_id, true))
+	end
+
+	table.insert(slot1, slot3.GetUIPath("CardTowerCardCombat"))
+	table.insert(slot1, slot3.GetFXPath("kapai_weizhi"))
+
+	return slot1, slot2
 end
 
 return slot0

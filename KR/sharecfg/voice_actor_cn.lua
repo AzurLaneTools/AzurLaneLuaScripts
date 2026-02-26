@@ -1907,5 +1907,13 @@ pg.voice_actor_CN = {
 	[496] = {
 		actor_name = "나가무타 모에",
 		code = 496
+	},
+	[497] = {
+		actor_name = "나나미 카린",
+		code = 497
+	},
+	[498] = {
+		actor_name = "쿠마가이 미레이",
+		code = 498
 	}
 }

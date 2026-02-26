@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit4_tone4",
 			nameColor = "#FFFFFF",
-			say = "허니랑 함께하는 시간, 매 순간이 정말 소중해… 그러니까… ///",
+			hidePaintObj = true,
+			say = "허니? 갑자기 그렇게 페이스를 올리면 어떻게 해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,20 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_dining02_idle02_fb01",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							id = 2018,
+							name = "IK_dining02_idle02_fb01_BX",
+							type = "item_action"
+						},
+						{
+							skip = true,
+							name = "face_helpless_start",
+							type = "action"
 						},
 						{
 							skip = false,

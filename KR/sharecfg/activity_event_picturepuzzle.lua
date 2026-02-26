@@ -853,6 +853,30 @@ pg.activity_event_picturepuzzle = {
 		awards = {},
 		auto_finish_args = {}
 	},
+	[50422] = {
+		id = 50422,
+		cd = 0,
+		pickup_views = "",
+		chapter = 0,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			65833,
+			65834,
+			65835,
+			65836,
+			65837,
+			65838,
+			65839,
+			65840,
+			65841,
+			65842,
+			65843,
+			65844
+		},
+		story = {},
+		awards = {},
+		auto_finish_args = {}
+	},
 	[20433] = {
 		id = 20433,
 		cd = 1200,
@@ -1101,6 +1125,7 @@ pg.activity_event_picturepuzzle = {
 		40393,
 		40714,
 		41270,
+		50422,
 		20433,
 		20586,
 		20610,

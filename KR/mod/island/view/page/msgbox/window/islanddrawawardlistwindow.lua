@@ -43,7 +43,7 @@ slot0.OnInit = function(slot0)
 			})
 
 			IslandShopDrawAwardPage.ShowDropInfo(slot6, slot2:Find("mask/Image"))
-			setText(slot2:Find("name/Text"), slot6:getName())
+			setScrollText(slot2:Find("name/Text"), slot6:getName())
 			setText(slot2:Find("got/got/Text"), i18n("island_draw_get"))
 			setActive(slot2:Find("got"), not slot4)
 			uv0:detachOnCardButton(slot2)

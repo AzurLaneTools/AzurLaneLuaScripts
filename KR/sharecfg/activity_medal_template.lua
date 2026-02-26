@@ -1236,6 +1236,102 @@ pg.activity_medal_template = {
 		id = 5035908,
 		medal_asset = "ActivityMedal/5035908"
 	},
+	[5040501] = {
+		activity_medal_desc = "군자의 옥패에 담긴 그 마음은 누구와 이어질까?",
+		next_medal = 0,
+		item = 65849,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "1",
+		task_id = 21893,
+		activity_medal_name = "스티커: 봄의 회옥",
+		id = 5040501,
+		medal_asset = "ActivityMedal/5040501"
+	},
+	[5040502] = {
+		activity_medal_desc = "자, 행사장에 모인 모든 이의 시선이 내게 쏟아진다.",
+		next_medal = 0,
+		item = 65850,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "2",
+		task_id = 21894,
+		activity_medal_name = "스티커: 날아오르는 등롱",
+		id = 5040502,
+		medal_asset = "ActivityMedal/5040502"
+	},
+	[5040503] = {
+		activity_medal_desc = "산자락을 감싼 달빛의 은은한 향기가 마음의 현을 울린다.",
+		next_medal = 0,
+		item = 65851,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "3",
+		task_id = 21895,
+		activity_medal_name = "스티커: 달의 향기",
+		id = 5040503,
+		medal_asset = "ActivityMedal/5040503"
+	},
+	[5040504] = {
+		activity_medal_desc = "쾅! 낙찰!",
+		next_medal = 0,
+		item = 65852,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "4",
+		task_id = 21896,
+		activity_medal_name = "스티커: 경매 망치",
+		id = 5040504,
+		medal_asset = "ActivityMedal/5040504"
+	},
+	[5040505] = {
+		activity_medal_desc = "한 줄기 잔향이 조용히 답을 속삭인다.",
+		next_medal = 0,
+		item = 65853,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "5",
+		task_id = 21897,
+		activity_medal_name = "스티커: 향로",
+		id = 5040505,
+		medal_asset = "ActivityMedal/5040505"
+	},
+	[5040506] = {
+		activity_medal_desc = "자, 함께 대모험을 떠나자!",
+		next_medal = 0,
+		item = 65854,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "6",
+		task_id = 21898,
+		activity_medal_name = "스티커: 트리오",
+		id = 5040506,
+		medal_asset = "ActivityMedal/5040506"
+	},
+	[5040507] = {
+		activity_medal_desc = "새콤달콤한 맛이 먹고 난 다음에도 계속 생각나게 한다.",
+		next_medal = 0,
+		item = 65855,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "7",
+		task_id = 21899,
+		activity_medal_name = "스티커: 탕후루",
+		id = 5040507,
+		medal_asset = "ActivityMedal/5040507"
+	},
+	[5040508] = {
+		activity_medal_desc = "군자가 품은 옥의 빛은 온화하면서도 윤기롭다.",
+		next_medal = 0,
+		item = 65856,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "8",
+		task_id = 21900,
+		activity_medal_name = "스티커: 영롱한 옥패",
+		id = 5040508,
+		medal_asset = "ActivityMedal/5040508"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1365,6 +1461,16 @@ pg.activity_medal_template = {
 			5035906,
 			5035907,
 			5035908
+		},
+		[50405] = {
+			5040501,
+			5040502,
+			5040503,
+			5040504,
+			5040505,
+			5040506,
+			5040507,
+			5040508
 		}
 	},
 	all = {
@@ -1470,6 +1576,14 @@ pg.activity_medal_template = {
 		5035905,
 		5035906,
 		5035907,
-		5035908
+		5035908,
+		5040501,
+		5040502,
+		5040503,
+		5040504,
+		5040505,
+		5040506,
+		5040507,
+		5040508
 	}
 }

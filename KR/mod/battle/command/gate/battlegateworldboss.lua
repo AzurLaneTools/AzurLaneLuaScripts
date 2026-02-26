@@ -164,4 +164,30 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = nil
+	slot3 = ys.Battle.BattleResourceManager.GetInstance()
+
+	for slot11, slot12 in ipairs(getProxy(BayProxy):getSortShipsByFleet(nowWorld():GetBossProxy():GetFleet(slot0.bossId))) do
+		table.insert(slot1, slot12)
+	end
+
+	slot8, slot9 = slot3.GetPlayerShipResource(slot1, slot0.system)
+
+	if slot5:GetBossById(slot0.bossId) and slot10:IsSelf() then
+		slot11, slot12, slot13 = slot5.GetSupportValue()
+
+		if slot11 then
+			for slot18, slot19 in ipairs(slot3.GetResFromBuffIDList({
+				slot13
+			})) do
+				table.insert(slot8, slot19)
+			end
+		end
+	end
+
+	return slot8, slot9
+end
+
 return slot0

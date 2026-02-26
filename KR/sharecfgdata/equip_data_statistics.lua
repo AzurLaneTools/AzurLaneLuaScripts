@@ -143593,6 +143593,61 @@ _G.pg.base.equip_data_statistics[80582] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80591] = {
+	name = "특수 탄막-장우I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "스킬 탄막",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80591,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170961
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80592] = {
+	name = "특수 탄막-장우II",
+	base = 80591,
+	id = 80592,
+	weapon_id = {
+		170962
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 연장 130mm 주포 B-2LM",
 	speciality = "추적",
@@ -180737,6 +180792,405 @@ _G.pg.base.equip_data_statistics[150951] = {
 	base = 150940,
 	value_2 = 3,
 	value_1 = "475",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150960] = {
+	name = "옥션 초대장",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 150960,
+	value_2 = 100,
+	icon = "150960",
+	value_1 = "10",
+	attribute_2 = "durability",
+	rarity = 4,
+	nationality = 5,
+	descrip = "",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "cannon",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			61010,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"PRAN",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150961] = {
+	id = 150961,
+	base = 150960,
+	value_2 = 105,
+	value_1 = "11",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150962] = {
+	id = 150962,
+	base = 150960,
+	value_2 = 110,
+	value_1 = "12",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150963] = {
+	id = 150963,
+	base = 150960,
+	value_2 = 115,
+	value_1 = "13",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150964] = {
+	id = 150964,
+	base = 150960,
+	value_2 = 120,
+	value_1 = "14",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150965] = {
+	id = 150965,
+	base = 150960,
+	value_2 = 125,
+	value_1 = "15",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150966] = {
+	id = 150966,
+	base = 150960,
+	value_2 = 135,
+	value_1 = "16",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150967] = {
+	id = 150967,
+	base = 150960,
+	value_2 = 150,
+	value_1 = "17",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150968] = {
+	id = 150968,
+	base = 150960,
+	value_2 = 160,
+	value_1 = "18",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150969] = {
+	id = 150969,
+	base = 150960,
+	value_2 = 170,
+	value_1 = "19",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150970] = {
+	id = 150970,
+	base = 150960,
+	value_2 = 180,
+	value_1 = "20",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150971] = {
+	id = 150971,
+	anti_siren = 100,
+	base = 150960,
+	value_2 = 190,
+	value_1 = "21",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150980] = {
+	name = "나비와 대나무의 유희",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "150980",
+	value_1 = "200",
+	rarity = 4,
+	descrip = "",
+	nationality = 5,
+	ammo = 10,
+	value_3 = 0,
+	id = 150980,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			61020,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"PRAN",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150981] = {
+	id = 150981,
+	value_1 = "230",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150982] = {
+	id = 150982,
+	value_1 = "260",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150983] = {
+	id = 150983,
+	value_1 = "290",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150984] = {
+	id = 150984,
+	value_1 = "320",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150985] = {
+	id = 150985,
+	value_1 = "350",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150986] = {
+	id = 150986,
+	value_1 = "380",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150987] = {
+	id = 150987,
+	value_1 = "410",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150988] = {
+	id = 150988,
+	value_1 = "440",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150989] = {
+	id = 150989,
+	value_1 = "470",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150990] = {
+	id = 150990,
+	value_1 = "500",
+	base = 150980,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150991] = {
+	anti_siren = 100,
+	base = 150980,
+	id = 150991,
+	value_1 = "530",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151000] = {
+	name = "나비와 매화의 유희",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "151000",
+	value_1 = "200",
+	rarity = 4,
+	descrip = "",
+	nationality = 5,
+	ammo = 10,
+	value_3 = 0,
+	id = 151000,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			61030,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"PRAN",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[151001] = {
+	id = 151001,
+	value_1 = "230",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151002] = {
+	id = 151002,
+	value_1 = "260",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151003] = {
+	id = 151003,
+	value_1 = "290",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151004] = {
+	id = 151004,
+	value_1 = "320",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151005] = {
+	id = 151005,
+	value_1 = "350",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151006] = {
+	id = 151006,
+	value_1 = "380",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151007] = {
+	id = 151007,
+	value_1 = "410",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151008] = {
+	id = 151008,
+	value_1 = "440",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151009] = {
+	id = 151009,
+	value_1 = "470",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151010] = {
+	id = 151010,
+	value_1 = "500",
+	base = 151000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151011] = {
+	anti_siren = 100,
+	base = 151000,
+	id = 151011,
+	value_1 = "530",
 	hidden_skill_id = {}
 }
 

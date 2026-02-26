@@ -133,6 +133,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._spinePaintingData = slot1
 	slot0._loadSpineDic = {}
 	slot0._loadUIDic = {}
+	slot0._initCallback = {}
 
 	parallelAsync({
 		function (slot0)
@@ -170,6 +171,12 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		uv0._initFlag = true
 
 		uv0:updateLink()
+
+		for slot3, slot4 in ipairs(uv0._initCallback) do
+			slot4()
+		end
+
+		uv0._initCallback = {}
 
 		if uv1 then
 			uv1(uv0)
@@ -393,6 +400,14 @@ slot0.startDragAction = function(slot0, slot1)
 	return false
 end
 
+slot0.GetDragDataConfig = function(slot0, slot1)
+	if slot0.shipDragData then
+		return slot0.shipDragData[slot1]
+	end
+
+	return nil
+end
+
 slot0.setEventTriggerCallback = function(slot0, slot1)
 	slot0._eventTriggerCall = slot1
 end
@@ -423,6 +438,7 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3)
 	slot6 = slot3.event
 	slot7 = slot3.fold
 	slot8 = slot3.effect_hide
+	slot9 = slot3.cv
 
 	if slot1 == SpinePaintingConst.drag_type_normal then
 		if slot5 and slot5 ~= "" and slot0:ablePlayAction(slot5, false, 0) then
@@ -439,8 +455,25 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3)
 				uv1:changePaintingIdle(uv2)
 				uv1:setEffectVisible(uv3, true)
 			end, false, function ()
-				if uv0 and uv0 ~= "" and uv1._eventTriggerCall then
-					uv1._eventTriggerCall(uv0)
+				if uv0 and uv0 ~= "" then
+					slot0 = uv1._spinePaintingData.ship
+					slot0 = slot0:getSkinId()
+					slot1 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0))
+					slot3 = uv0 .. "_" .. pg.ship_skin_template[slot0].group_index
+
+					print("try playing cv" .. slot1 .. ":" .. slot3)
+
+					slot4 = pg.CriMgr.GetInstance()
+
+					slot4:playCueSheetVoice(slot1, slot3, true, function (slot0)
+						if slot0 then
+							print("播放的语音长度为 = " .. slot0:GetLength())
+						end
+					end)
+				end
+
+				if uv2 and uv2 ~= "" and uv1._eventTriggerCall then
+					uv1._eventTriggerCall(uv2)
 				end
 			end)
 		else
@@ -455,13 +488,13 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3)
 			return false
 		end
 	elseif slot1 == SpinePaintingConst.drag_type_rgb then
-		slot9 = slot2.material
+		slot10 = slot2.material
 
 		if LeanTween.isTweening(go(slot0._tf)) then
 			return false
 		end
 
-		slot0:getSpineMaterial(slot9, function (slot0)
+		slot0:getSpineMaterial(slot10, function (slot0)
 			uv0._skeletonGraphic.material = slot0
 
 			LeanTween.delayedCall(go(uv0._tf), 0.5, System.Action(function ()
@@ -543,17 +576,41 @@ slot0.SetAction = function(slot0, slot1, slot2, slot3)
 		slot1 = slot0:getMultipFaceAction(slot1)
 	end
 
+	slot5 = pg.ship_skin_template[slot0._spinePaintingData.ship:getSkinId()].voice_lang
+
+	if slot2 == 0 and slot5 and #slot5 > 0 then
+		if ShipWordHelper.GetLanguageSetting(slot4) <= 0 then
+			slot6 = 1
+		end
+
+		if slot0:getAnimationExist(slot0:GetVoiceLandAction(slot1, slot5[slot6])) then
+			slot1 = slot8
+		end
+	end
+
 	slot0:updateEffectVisible(slot1)
 
-	for slot7, slot8 in ipairs(slot0.spineAnimList) do
-		slot8:SetAction(slot1, slot2)
+	for slot9, slot10 in ipairs(slot0.spineAnimList) do
+		slot10:SetAction(slot1, slot2)
 
-		if slot8:GetAnimationState() then
-			GetComponent(slot8.transform, "SkeletonGraphic"):Update(Time.deltaTime)
+		if slot10:GetAnimationState() then
+			GetComponent(slot10.transform, "SkeletonGraphic"):Update(Time.deltaTime)
 		end
 	end
 
 	return true
+end
+
+slot0.GetVoiceLandAction = function(slot0, slot1, slot2)
+	slot3 = ""
+
+	if slot2 == ShipSkin.VOICE_LANG_JP then
+		slot3 = "_jp"
+	elseif slot2 == ShipSkin.VOICE_LANG_CN then
+		slot3 = "_cn"
+	end
+
+	return slot1 .. slot3
 end
 
 slot0.ablePlayAction = function(slot0, slot1, slot2, slot3)
@@ -647,6 +704,10 @@ slot0.SetOnceAction = function(slot0, slot1, slot2, slot3, slot4)
 			uv0 = nil
 		end
 	end)
+end
+
+slot0.pullInitCallback = function(slot0, slot1)
+	table.insert(slot0._initCallback, slot1)
 end
 
 slot0.getAnimationExist = function(slot0, slot1)

@@ -1,5 +1,31 @@
 pg = pg or {}
 pg.island_skin_template = {
+	[1011001] = {
+		ship_group = 10110,
+		name = "원기 왕성!",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "아무리 간단한 청소 일이라도 200%의 에너지로 해낼 거야!",
+		shop_goods_id = 0,
+		model = 1011001,
+		id = 1011001,
+		icon = "skin_1011001",
+		icon_normal = ""
+	},
+	[1020501] = {
+		ship_group = 10205,
+		name = "푸른 마음",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "부드러운 기품을 돋보이게 하는 맑은 푸른빛. 세심한 보살핌과 잔잔한 미소 너머에는 바다처럼 깊은 배려가 깃들어 있다.",
+		shop_goods_id = 0,
+		model = 1020501,
+		id = 1020501,
+		icon = "skin_1020501",
+		icon_normal = ""
+	},
 	[1051701] = {
 		ship_group = 10517,
 		name = "가벼운 일상",
@@ -52,6 +78,19 @@ pg.island_skin_template = {
 		icon_normal = "props/skin_2990301",
 		jump_page = {}
 	},
+	[3031201] = {
+		ship_group = 30312,
+		name = "티타임도 달콤하게",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "지금 따른 건 차만이 아니야. 미소 속에 숨겨진 인사와… 달콤한 배려도 함께 담겨 있어♪",
+		shop_goods_id = 0,
+		model = 3031201,
+		id = 3031201,
+		icon = "skin_3031201",
+		icon_normal = ""
+	},
 	[3040701] = {
 		ship_group = 30407,
 		name = "동화 속 병아리",
@@ -78,7 +117,52 @@ pg.island_skin_template = {
 		icon_normal = "props/skin_3120101",
 		jump_page = {}
 	},
+	[4030301] = {
+		ship_group = 40303,
+		name = "나른한 서비스",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "조금 장난스러운 마음에서 시작된 우아하고도 「특별한 보살핌」. 가슴을 두근거리게 만드는 여흥이란……?",
+		shop_goods_id = 0,
+		model = 4030301,
+		id = 4030301,
+		icon = "skin_4030301",
+		icon_normal = ""
+	},
+	[4990201] = {
+		ship_group = 49902,
+		name = "우아한 보살핌",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "위엄과 상냥함이 완벽히 하나가 되어, 우아한 자태로 「봉사」라는 이름의 최고의 약속을 지킨다.",
+		shop_goods_id = 0,
+		model = 4990201,
+		id = 4990201,
+		icon = "skin_4990201",
+		icon_normal = ""
+	},
+	[5060101] = {
+		ship_group = 50601,
+		name = "모략은 나중에",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "잠시 바둑판을 떠나 찻주전자를 손에 든다. 피어오르는 김 속에서 사람의 마음을 꿰뚫는 따뜻한 지혜를 전해 준다.",
+		shop_goods_id = 0,
+		model = 5060101,
+		id = 5060101,
+		icon = "skin_5060101",
+		icon_normal = ""
+	},
 	get_id_list_by_ship_group = {
+		[10110] = {
+			1011001
+		},
+		[10205] = {
+			1020501
+		},
 		[10517] = {
 			1051701
 		},
@@ -91,19 +175,37 @@ pg.island_skin_template = {
 		[29903] = {
 			2990301
 		},
+		[30312] = {
+			3031201
+		},
 		[30407] = {
 			3040701
 		},
 		[31201] = {
 			3120101
+		},
+		[40303] = {
+			4030301
+		},
+		[49902] = {
+			4990201
+		},
+		[50601] = {
+			5060101
 		}
 	},
 	all = {
+		1011001,
+		1020501,
 		1051701,
 		1070301,
 		2060301,
 		2990301,
+		3031201,
 		3040701,
-		3120101
+		3120101,
+		4030301,
+		4990201,
+		5060101
 	}
 }

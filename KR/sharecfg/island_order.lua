@@ -368,6 +368,348 @@ pg.island_order = {
 			32000
 		}
 	},
+	[100016] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100017,
+		npc_id = 101600,
+		desc = "지휘관… 시즌 자재를 조금만 더 도와줄 수 있을까? 정말 신중하게 쓸게…",
+		is_head = 1,
+		id = 100016,
+		group_id = 990006,
+		season_pt_num = 1000,
+		request = {
+			{
+				4015,
+				4
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	},
+	[100017] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100018,
+		npc_id = 101600,
+		desc = "다음 단계 계획으로 넘어가려면…… 자원이 더 필요해. 부탁이야!",
+		is_head = 0,
+		id = 100017,
+		group_id = 990006,
+		season_pt_num = 1000,
+		request = {
+			{
+				4016,
+				4
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	},
+	[100018] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100019,
+		npc_id = 101600,
+		desc = "지휘관… 이번 특수 자재는 양이 좀 많아서… 낭비하지 않을 테니까… 제발 도와줘!",
+		is_head = 0,
+		id = 100018,
+		group_id = 990006,
+		season_pt_num = 1000,
+		request = {
+			{
+				4017,
+				4
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	},
+	[100019] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100020,
+		npc_id = 101600,
+		desc = "귀찮게 해서 미안해…… 이게 정말 필요해서 그래……",
+		is_head = 0,
+		id = 100019,
+		group_id = 990006,
+		season_pt_num = 1000,
+		request = {
+			{
+				4018,
+				4
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	},
+	[100020] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100021,
+		npc_id = 101600,
+		desc = "항상 도와줘서 고마워… 이번에도 잘 부탁해……",
+		is_head = 0,
+		id = 100020,
+		group_id = 990006,
+		season_pt_num = 1000,
+		request = {
+			{
+				4019,
+				10
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	},
+	[100021] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100022,
+		npc_id = 101600,
+		desc = "지휘관… 시즌 자재를 조금만 더 도와줄 수 있을까? 정말 신중하게 쓸게…",
+		is_head = 0,
+		id = 100021,
+		group_id = 990006,
+		season_pt_num = 1000,
+		request = {
+			{
+				4021,
+				10
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	},
+	[100022] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100023,
+		npc_id = 101600,
+		desc = "다음 단계 계획으로 넘어가려면…… 자원이 더 필요해. 부탁이야!",
+		is_head = 0,
+		id = 100022,
+		group_id = 990006,
+		season_pt_num = 2500,
+		request = {
+			{
+				4023,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	},
+	[100023] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100024,
+		npc_id = 101600,
+		desc = "지휘관… 이 특수 자재는 정말 중요한 거야! 낭비하지 않을 테니까… 제발 도와줘!",
+		is_head = 0,
+		id = 100023,
+		group_id = 990006,
+		season_pt_num = 2500,
+		request = {
+			{
+				4024,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	},
+	[100024] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100025,
+		npc_id = 101600,
+		desc = "귀찮게 해서 미안해…… 이게 정말 필요해서 그래……",
+		is_head = 0,
+		id = 100024,
+		group_id = 990006,
+		season_pt_num = 2500,
+		request = {
+			{
+				4025,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	},
+	[100025] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100026,
+		npc_id = 101600,
+		desc = "항상 도와줘서 고마워… 이번에도 잘 부탁해……",
+		is_head = 0,
+		id = 100025,
+		group_id = 990006,
+		season_pt_num = 2500,
+		request = {
+			{
+				4026,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	},
+	[100026] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100027,
+		npc_id = 101600,
+		desc = "지휘관… 시즌 자재를 조금만 더 도와줄 수 있을까? 정말 신중하게 쓸게…",
+		is_head = 0,
+		id = 100026,
+		group_id = 990006,
+		season_pt_num = 2500,
+		request = {
+			{
+				4027,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	},
+	[100027] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100028,
+		npc_id = 101600,
+		desc = "다음 단계 계획으로 넘어가려면…… 자원이 더 필요해. 부탁이야!",
+		is_head = 0,
+		id = 100027,
+		group_id = 990006,
+		season_pt_num = 2500,
+		request = {
+			{
+				4028,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	},
+	[100028] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100029,
+		npc_id = 101600,
+		desc = "지휘관… 이 특수 자재는 정말 중요한 거야! 낭비하지 않을 테니까… 제발 도와줘!",
+		is_head = 0,
+		id = 100028,
+		group_id = 990006,
+		season_pt_num = 8000,
+		request = {
+			{
+				4027,
+				5
+			},
+			{
+				4025,
+				5
+			}
+		},
+		award = {
+			0,
+			32000
+		}
+	},
+	[100029] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 100030,
+		npc_id = 101600,
+		desc = "귀찮게 해서 미안해…… 이게 정말 필요해서 그래……",
+		is_head = 0,
+		id = 100029,
+		group_id = 990006,
+		season_pt_num = 8000,
+		request = {
+			{
+				4026,
+				5
+			},
+			{
+				4024,
+				5
+			}
+		},
+		award = {
+			0,
+			32000
+		}
+	},
+	[100030] = {
+		activity_id = 990006,
+		type = 3,
+		effective_time = 0,
+		next_order = 0,
+		npc_id = 101600,
+		desc = "항상 도와줘서 고마워… 이번에도 잘 부탁해……",
+		is_head = 0,
+		id = 100030,
+		group_id = 990006,
+		season_pt_num = 8000,
+		request = {
+			{
+				4023,
+				5
+			},
+			{
+				4028,
+				5
+			}
+		},
+		award = {
+			0,
+			32000
+		}
+	},
 	get_id_list_by_activity_id = {
 		[0] = {
 			2
@@ -388,6 +730,23 @@ pg.island_order = {
 			100013,
 			100014,
 			100015
+		},
+		[990006] = {
+			100016,
+			100017,
+			100018,
+			100019,
+			100020,
+			100021,
+			100022,
+			100023,
+			100024,
+			100025,
+			100026,
+			100027,
+			100028,
+			100029,
+			100030
 		}
 	},
 	all = {
@@ -406,6 +765,21 @@ pg.island_order = {
 		100012,
 		100013,
 		100014,
-		100015
+		100015,
+		100016,
+		100017,
+		100018,
+		100019,
+		100020,
+		100021,
+		100022,
+		100023,
+		100024,
+		100025,
+		100026,
+		100027,
+		100028,
+		100029,
+		100030
 	}
 }

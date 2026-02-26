@@ -3522,15 +3522,15 @@ _G.pg.base.gametip.coloring_help_tip = {
 ・「물감」은 이벤트 기간 한정 임무 「총 연료 소비 수」 보상으로 획득할 수 있습니다.
 ・그림이 완성(색칠 영역 모두 채색 완료, 「공백 그림」은 제외)되면 보상을 획득할 수 있습니다. 
 ・그림일기 완성 보상 목록:
-No.1 무작위 교본 T3 ×2
-No.2 세뱃돈 ×2
-No.3 한정 가구 「옥제 대나무 버블 머신」
-No.4 세뱃돈 ×2
-No.5 한정 가구 「옥제 대나무 버블 머신」
-No.6 세뱃돈 ×2
-No.7 함선 「안샨」, 세뱃돈 ×1
+No.1 무작위 교본 T3×2
+No.2 세뱃돈×1
+No.3 함선 「잉 루이」
+No.4 세뱃돈×1
+No.5 세뱃돈×2
+No.6 세뱃돈×1
+No.7 함선 「차오 호」, 세뱃돈×2
 ・이벤트 종료 후, 사용하지 않은 물감은 초기화됩니다.
-・2월 5일(수)까지 매일 새로운 그림이 한 장씩 오픈됩니다. ]]
+・3월 4일(수)까지 매일 새로운 그림이 한 장씩 오픈됩니다. ]]
 		}
 	}
 }
@@ -12542,12 +12542,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「임플래커블」, 「로열 오크」 상시 건조 추가!"
+	tip = "「지엔우」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「스킬라」 상설 건조 추가!"
+	tip = "「하이롱」, 「창펑」 상시 건조 추가!"
 }
 
 
@@ -12717,6 +12717,11 @@ _G.pg.base.gametip.tec_catchup_5 = {
 
 _G.pg.base.gametip.tec_catchup_6 = {
 	tip = "6기"
+}
+
+
+_G.pg.base.gametip.tec_catchup_7 = {
+	tip = "7기"
 }
 
 
@@ -13645,35 +13650,35 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>★ 플레이 방법</color>"
 		},
 		{
-			info = "이벤트 「봄맞이 패션 협주곡」은 <color=#92fc63>「연습 포인트」</color>를 모아 작전을 진척시키면, 개인 합계 포인트 보상 및 작전 진척 보상을 얻을 수 있는 이벤트입니다. "
+			info = "이벤트 「신춘 주옥 명품회」는 <color=#92fc63>「Pt 아이템」</color>을 모아 작전을 진척시키면, 개인 합계 포인트 보상 및 작전 진척 보상을 얻을 수 있는 이벤트입니다. "
 		},
 		{
 			info = [[
-이벤트 기간 중에는 적 함대를 상대로 싸우는 「연습 작전」 특별 스테이지가 등장합니다. 
-작전을 완수하려면 지휘관끼리 서로 협력하여 「연습 포인트」를 모아서 작전을 진척시켜야<color=#92fc63>(연습 게이지가 0%에 도달)</color> 합니다. 
+이벤트 기간 중에는 적 함대를 상대로 싸우는 「공투」 특별 스테이지가 등장합니다. 
+작전을 완수하려면 지휘관끼리 서로 협력하여 「Pt 아이템」을 모아서 작전을 진척시켜야<color=#92fc63>(내구 게이지가 0%에 도달)</color> 합니다. 
 작전이 성공한 경우, 작전에 참가한 지휘관에게는 보상으로 특별 장비가 우편으로 지급됩니다. 
 ※ 우편 수가 1,000통을 초과하면 보상 우편을 받지 못할 우려가 있으므로 주의하시기 바랍니다. 
-(연습 게이지가 <color=#92fc63>0%</color>에 도달하더라도 계속해서 특별 스테이지에 도전하면 「연습 포인트」를 획득할 수 있습니다.)]]
+(내구 게이지가 <color=#92fc63>0%</color>에 도달하더라도 계속해서 특별 스테이지에 도전하면 「Pt 아이템」을 획득할 수 있습니다.)]]
 		},
 		{
 			info = [[
-<color=#92fc63>- 연습 포인트에 대해 -</color>
-1. 특별 스테이지를 클리어하면 「연습 포인트」를 획득할 수 있습니다. 
-2. 작전의 진척도는 동일 서버 내 모든 지휘관이 획득한 「연습 포인트」의 합계에 의해 좌우됩니다. 
-3. 연습 게이지가 0%에 도달하면 작전 성공으로 간주됩니다. 작전 진척도는 서버마다 별개로 계산됩니다. 
-4. 이벤트 기간 중에 획득한 「연습 포인트」의 합계에 따라 이벤트 배너에서 「포인트 합계 보상」을 획득할 수 있습니다. ]]
+<color=#92fc63>- Pt 아이템에 대해 -</color>
+1. 특별 스테이지를 클리어하면 「Pt 아이템」을 획득할 수 있습니다. 
+2. 작전의 진척도는 동일 서버 내 모든 지휘관이 획득한 「Pt 아이템」의 합계에 의해 좌우됩니다. 
+3. 내구 게이지가 0%에 도달하면 작전 성공으로 간주됩니다. 작전 진척도는 서버마다 별개로 계산됩니다. 
+4. 이벤트 기간 중에 획득한 「Pt 아이템」의 합계에 따라 이벤트 배너에서 「포인트 합계 보상」을 획득할 수 있습니다. ]]
 		},
 		{
 			info = [[
 <color=#92fc63>- 특별 스테이지에 대해 -</color>
 1. 특별 스테이지는 난이도에 따라 「이지」, 「노멀」, 「하드」, 「EX」의 4종류가 있습니다. 
-2. 「EX」 이외의 난이도에서 얻을 수 있는 연습 포인트는 고정되어 있고, 「EX」에서는 전투 중에 가한 총 피해량에 따라 연습 포인트
+2. 「EX」 이외의 난이도에서 얻을 수 있는 Pt 아이템은 고정되어 있고, 「EX」에서는 전투 중에 가한 총 피해량에 따라 Pt 아이템
 및 보상이 달라집니다. 
 3. 특별 스테이지는 일반적인 함대와는 다른 <color=#92fc63>「특별 연습 편성」</color>을 사용합니다(스테이지 출격 시에 편성 가능). 
 4. 특별 스테이지의 출격 및 승리 시에는 일반 해역 출격 시와 마찬가지로 연료 및 컨디션을 소모합니다. 또한, 승리 시에는 경험치 및 일반 클리어 보상 획득과 함께, 컨디션이 증감합니다. 
-　• 특별 스테이지의 「EX」에서는 작전 제한 시간이 <color=#92fc63>[60초]</color>가 됩니다. 60초가 경과되거나, 적 격파 시 혹은 아군 기함 패배 시에는 클리어로 처리됩니다.
-　• 특별 스테이지에서는 함선이 전투 불능 상태에 빠져도 컨디션이 저하하지 않습니다.
-　• 「EX」 스테이지의 「모의전」에 출격하는 경우, 연료 및 컨디션, 특별 전투권(후술)은 증감하지 않으며, 경험치 및 보상 또한 획득할 수 없습니다.
+ • 특별 스테이지의 「EX」에서는 작전 제한 시간이 <color=#92fc63>[60초]</color>가 됩니다. 60초가 경과되거나, 적 격파 시 혹은 아군 기함 패배 시에는 클리어로 처리됩니다.
+ • 특별 스테이지에서는 함선이 전투 불능 상태에 빠져도 컨디션이 저하하지 않습니다.
+ • 「EX」 스테이지의 「모의전」에 출격하는 경우, 연료 및 컨디션, 특별 전투권(후술)은 증감하지 않으며, 경험치 및 보상 또한 획득할 수 없습니다.
 5. 특별 연습 편성에는 잠수함 및 지휘냥을 배치할 수 있습니다. 
 전투 중에 잠수 지원을 실시하는 경우에는 연료를 소모합니다. 
 6. 특별 스테이지의 「이지」, 「노멀」, 「하드」에는 횟수 제한 없이 출격할 수 있습니다. 「EX」는 특별 전투권을 <color=#92fc63>1장</color> 소모하여 출격할 수 있습니다. ]]
@@ -13707,9 +13712,9 @@ _G.pg.base.gametip.world_boss_help = {
 5. 「연속 도전」은 언제든 중단할 수 있습니다. 중단하면 전투 종료 후의 결과 화면에서 자동으로 이전 화면으로 돌아갑니다. 
 6. 「연속 도전」를 전투 중에 중단하면 수동 전투로 전환할 수 있습니다. 또한, 「연속 도전」을 재개하면 자동으로 "자동 전투"로 전환됩니다. 
 7. 「연속 도전」은 다음 경우에 자동으로 중단됩니다.
-　	・소지 중인 연료가 출격 소모량을 밑도는 경우
-　	・출격 함선의 컨디션 수치가 일정 수치를 밑도는 경우
-　	・전투에서 패배한 경우]]
+ 	·소지 중인 연료가 출격 소모량을 밑도는 경우
+ 	·출격 함선의 컨디션 수치가 일정 수치를 밑도는 경우
+ 	·전투에서 패배한 경우]]
 		}
 	}
 }
@@ -15030,7 +15035,7 @@ _G.pg.base.gametip.limit_skin_time_overtime = {
 
 
 _G.pg.base.gametip.limit_skin_time_before_maintenance = {
-	tip = "$1월 $2일 업데이트 전"
+	tip = "$1월 $2일 점검까지"
 }
 
 
@@ -24066,6 +24071,11 @@ _G.pg.base.gametip.setting_resdownload_title_dorm = {
 
 _G.pg.base.gametip.setting_resdownload_title_main_group = {
 	tip = "풀 리소스 업데이트"
+}
+
+
+_G.pg.base.gametip.setting_resdownload_title_map = {
+	tip = "아일랜드 리소스 업데이트 "
 }
 
 
@@ -40867,47 +40877,47 @@ _G.pg.base.gametip.island_season_review_produce = {
 
 
 _G.pg.base.gametip.island_season_review_ordernum = {
-	tip = "운송 자원 수"
+	tip = "의뢰 완료 수"
 }
 
 
 _G.pg.base.gametip.island_season_review_formulanum = {
-	tip = "메뉴 제작 수"
+	tip = "자원 제작 수"
 }
 
 
 _G.pg.base.gametip.island_season_review_relax = {
-	tip = "미니 게임"
+	tip = "실적"
 }
 
 
 _G.pg.base.gametip.island_season_review_fishnum = {
-	tip = "낚시 성과"
+	tip = "달성 실적"
 }
 
 
 _G.pg.base.gametip.island_season_review_gamenum = {
-	tip = "이벤트 참여"
+	tip = "도감 Pt"
 }
 
 
 _G.pg.base.gametip.island_season_review_achi = {
-	tip = "미니 게임"
+	tip = "실적"
 }
 
 
 _G.pg.base.gametip.island_season_review_achinum = {
-	tip = "낚시 성과"
+	tip = "달성 실적"
 }
 
 
 _G.pg.base.gametip.island_season_review_guidenum = {
-	tip = "이벤트 참여"
+	tip = "도감 Pt"
 }
 
 
 _G.pg.base.gametip.island_season_review_blank = {
-	tip = "未参与该开发季"
+	tip = "시즌 미참여"
 }
 
 
@@ -41504,6 +41514,45 @@ _G.pg.base.gametip.island_help_character_info = {
 }
 
 
+_G.pg.base.gametip.island_help_fish = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_fish1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_fish2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_fish3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.island_skin_original_desc = {
 	tip = "기본"
 }
@@ -41816,6 +41865,11 @@ _G.pg.base.gametip.island_log_exit = {
 
 _G.pg.base.gametip.island_log_gift = {
 	tip = "(이)가 보급 수령 요청을 보냈습니다."
+}
+
+
+_G.pg.base.gametip.island_log_trade = {
+	tip = "(이)가 진주 거래를 요청하고 있습니다."
 }
 
 
@@ -42889,7 +42943,7 @@ _G.pg.base.gametip.island_queue_display = {
 
 
 _G.pg.base.gametip.island_season_label = {
-	tip = "开发季$1"
+	tip = "시즌$1"
 }
 
 
@@ -43628,6 +43682,56 @@ _G.pg.base.gametip.island_spoperation_item_2509_4 = {
 }
 
 
+_G.pg.base.gametip.island_spoperation_tip_2602_1 = {
+	tip = "이벤트 기간 중에 피어리의 특산품 의뢰가 등장합니다. 특산품 의뢰를 처리하면 시즌 PT를 비롯한 보상을 획득할 수 있습니다. \n*특산품 의뢰는 의뢰 완성 한도에 영향을 주지 않으며, 평가 레벨을 상승시킬 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2602_2 = {
+	tip = "이벤트 기간 중 특정 구역 내에 매일 이벤트 채집 아이템이 등장합니다. 어서 찾으러 가보세요!"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2602_3 = {
+	tip = "이벤트 기간 내 [초록색 모밭], [유어 레스토랑], [백곰 음료], [기지 공장]에서 대응하는 특산품 생산 가능"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2602_1 = {
+	tip = "특산품 채집"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2602_2 = {
+	tip = "특산품 제작"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2602_3 = {
+	tip = "이벤트 관리자"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_1 = {
+	tip = "봄 죽순"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_2 = {
+	tip = "냉이"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_3 = {
+	tip = "영춘화"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_4 = {
+	tip = "히아신스"
+}
+
+
 _G.pg.base.gametip.island_follow_success = {
 	tip = "동반 성공"
 }
@@ -43937,6 +44041,15 @@ _G.pg.base.gametip.island_guide_help_item = {
 }
 
 
+_G.pg.base.gametip.island_guide_help_fish = {
+	tip = [[
+낚시 콘텐츠를 오픈하면 도감 Pt를 모을 수 있습니다. 도감 Pt가 모이면 도감 Lv이 상승하며, 해당하는 도감 보상을 오픈할 수 있습니다.
+
+1. 물고기 도감 항목을 <color=#39bfff>오픈</color>하면, 1항목당 도감 Pt를 <color=#39bfff>10</color> 획득할 수 있습니다.
+2. 물고기의 종류별 <color=#39bfff>중량 실적</color> 모으기: 중량 조건을 충족하는 중량의 물고기를 낚으면, 해당 물고기의 중량 실적을 달성할 수 있으며, 도감 Pt를 획득할 수 있습니다. 중량 조건은 물고기의 종류에 따라 다릅니다.]]
+}
+
+
 _G.pg.base.gametip.island_guide_character_help = {
 	tip = "정보"
 }
@@ -43979,6 +44092,16 @@ _G.pg.base.gametip.island_guide_item_en = {
 
 _G.pg.base.gametip.island_guide_collectionpoint = {
 	tip = "도감 Pt 획득"
+}
+
+
+_G.pg.base.gametip.island_guide_fish_min_weight = {
+	tip = "최소 중량"
+}
+
+
+_G.pg.base.gametip.island_guide_fish_max_weight = {
+	tip = "최대 중량"
 }
 
 
@@ -44144,6 +44267,36 @@ _G.pg.base.gametip.island_3Dshop_lack_res = {
 
 _G.pg.base.gametip.island_photo_fur_lock = {
 	tip = "지금은 카메라를 사용할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_exchange_title = {
+	tip = "가공"
+}
+
+
+_G.pg.base.gametip.island_exchange_title_en = {
+	tip = "Processing"
+}
+
+
+_G.pg.base.gametip.island_exchange_own_count = {
+	tip = "보유 수"
+}
+
+
+_G.pg.base.gametip.island_exchange_btn_text = {
+	tip = "가공"
+}
+
+
+_G.pg.base.gametip.island_exchange_sure_tip = {
+	tip = "가공을 실시하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_bag_max_tip = {
+	tip = "아일랜드 창고가 가득 찼습니다."
 }
 
 
@@ -45078,8 +45231,33 @@ _G.pg.base.gametip.island_order_ship_btn_replace = {
 }
 
 
+_G.pg.base.gametip.island_fishing_tip_hooked = {
+	tip = "물고기가 걸려들었다!"
+}
+
+
+_G.pg.base.gametip.island_fishing_tip_escape = {
+	tip = "물고기를 놓치고 말았다…"
+}
+
+
+_G.pg.base.gametip.island_fishing_exit = {
+	tip = "낚시를 그만두시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_fishing_lure_empty = {
+	tip = "미끼를 선택하세요."
+}
+
+
 _G.pg.base.gametip.island_order_ship_exchange_tip_2 = {
 	tip = "운송 횟수가 부족합니다."
+}
+
+
+_G.pg.base.gametip.island_follower_exiting_tip = {
+	tip = "캐릭터가 이미 퇴장한 상태입니다…"
 }
 
 
@@ -45916,4 +46094,570 @@ _G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
 ④ 「탐색 이야기」에서는 이벤트 한정 임무로 획득할 수 있는 「스튜디오 예약표」를 사용하여 이벤트 스토리를 오픈할 수 있습니다. 또한 모든 스토리를 감상하면 한정 장비 스킨 「패션프루트 포탄」을 획득할 수 있습니다.]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.pac_game_high_score_tip = {
+	tip = "최고 기록: $1"
+}
+
+
+_G.pg.base.gametip.pac_game_rule_btn = {
+	tip = "플레이 방법"
+}
+
+
+_G.pg.base.gametip.pac_game_start_btn = {
+	tip = "시작"
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_time_desc = {
+	tip = "시간:"
+}
+
+
+_G.pg.base.gametip.pac_game_gaming_score = {
+	tip = "점수:"
+}
+
+
+_G.pg.base.gametip.mini_game_continue = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.mini_game_over_game = {
+	tip = "게임 종료"
+}
+
+
+_G.pg.base.gametip.pac_minigame_help = {
+	tip = {
+		{
+			info = [[
+플레이 방법:
+「페이윈의 대모험」은 페이윈을 조작하여 동료에게서 도망치며 이스트 글림의 요리를 모아 점수를 얻는 미니 게임입니다. 
+3/12(목)까지 매일 스테이지가 오픈되며, 7일 동안 게임을 클리어하면 함선 「페이윈」 등의 보상을 획득할 수 있습니다. 
+
+플레이 방법:
+1. 페이윈을 조작하여 다가오는 동료들로부터 도망치세요! 
+2. 습득한 아이템에 따라 다른 효과가 발휘됩니다.
+　황금콩: 점수 획득
+　산사나무 열매 탕후루: 이동 속도가 빨라지며, 동료와 부딪히면 새콤한 산사나무 열매의 힘으로 해당 동료를 시작 지점으로 날려 보냅니다. 
+3. 동료에게 잡히거나 게임 종료 버튼을 탭하면 게임이 종료됩니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_1 = {
+	tip = "신춘 주옥 명품회"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_2 = {
+	tip = "푸보의 완벽한 계획"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_3 = {
+	tip = "쥬쥬 레스토랑"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_4 = {
+	tip = "신춘의 축복"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_5 = {
+	tip = "신춘 불꽃회"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_6 = {
+	tip = "페이윈의 대모험"
+}
+
+
+_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_7 = {
+	tip = "스킨 특집"
+}
+
+
+_G.pg.base.gametip.island_post_event_label = {
+	tip = "경영 이벤트"
+}
+
+
+_G.pg.base.gametip.island_post_event_close_label = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.island_post_event_open_label = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.island_post_event_addition_label = {
+	tip = "다음 메뉴에 버프 효과 적용"
+}
+
+
+_G.pg.base.gametip.island_addition_influence = {
+	tip = "고객 유치력"
+}
+
+
+_G.pg.base.gametip.island_addition_sale = {
+	tip = "가격"
+}
+
+
+_G.pg.base.gametip.island_trade_title = {
+	tip = "진주 거래상"
+}
+
+
+_G.pg.base.gametip.island_trade_title2 = {
+	tip = "진주 거래상"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_label = {
+	tip = "진주 거래"
+}
+
+
+_G.pg.base.gametip.island_trade_trend_label = {
+	tip = "가격 변동"
+}
+
+
+_G.pg.base.gametip.island_trade_purchase_label = {
+	tip = "진주 구매"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_label = {
+	tip = "친구 순위"
+}
+
+
+_G.pg.base.gametip.island_trade_purchase_sub_label = {
+	tip = "구매"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_sub_label = {
+	tip = "매각"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_num_label = {
+	tip = "개발 순위"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_info_label = {
+	tip = "아일랜드 정보"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_price_label = {
+	tip = "현재 가격"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_level_label = {
+	tip = "아일랜드 Lv"
+}
+
+
+_G.pg.base.gametip.island_trade_invite_label = {
+	tip = "방문 초대"
+}
+
+
+_G.pg.base.gametip.island_trade_tip_label = {
+	tip = "매일 03:00에 구매 가격이 업데이트됩니다."
+}
+
+
+_G.pg.base.gametip.island_trade_tip_label2 = {
+	tip = "매일 03:00에 매각 가격이 업데이트됩니다."
+}
+
+
+_G.pg.base.gametip.island_trade_limit_label = {
+	tip = "이번 주의 잔여 구매 가능 수 $1"
+}
+
+
+_G.pg.base.gametip.island_trade_send_msg_label = {
+	tip = "<material=underline c=#006400 ><color=#006400>금일 가격 $2</color></material>"
+}
+
+
+_G.pg.base.gametip.island_trade_send_msg_match_label = {
+	tip = "수수께끼의 상인"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_tip_label = {
+	tip = "이 아일랜드의 금일 잔여 매각 가능 수 $1"
+}
+
+
+_G.pg.base.gametip.island_trade_purchase_failed_label = {
+	tip = "이번 주의 구매 가능 수가 한도에 도달했습니다."
+}
+
+
+_G.pg.base.gametip.island_trade_sell_failed_label = {
+	tip = "보유 수가 모자라 매각할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_trade_sell_failed_label2 = {
+	tip = "오늘은 이 아일랜드에서 더 이상 진주를 판매할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_trade_bag_full_label = {
+	tip = "창고 용량이 부족하여 구매할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_trade_reset_label = {
+	tip = "가격이 업데이트되었습니다."
+}
+
+
+_G.pg.base.gametip.island_trade_help = {
+	tip = "大头菜帮助"
+}
+
+
+_G.pg.base.gametip.island_trade_help_1 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_trade_help_2 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_trade_price_unrefresh = {
+	tip = "이 아일랜드의 가격이 아직 업데이트되지 않아 구매할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_trade_msg_pop = {
+	tip = "$1의 방문 초대가 도착했습니다. 해당 아일랜드의 진주 매각 가격 $3"
+}
+
+
+_G.pg.base.gametip.island_trade_invite_success = {
+	tip = "초대에 성공했습니다."
+}
+
+
+_G.pg.base.gametip.island_trade_share_success = {
+	tip = "초대에 성공했습니다."
+}
+
+
+_G.pg.base.gametip.island_trade_activity_desc_1 = {
+	tip = "이벤트 기간 중 하모니섬에 나타나는 수수께끼의 상인에게 진주 매각 가능"
+}
+
+
+_G.pg.base.gametip.island_trade_activity_desc_2 = {
+	tip = "진주는 시즌 관리자 피어리에게 구매할 수 있으며, 진주의 구매/매각 가격은 매일 변동됩니다."
+}
+
+
+_G.pg.base.gametip.island_trade_activity_unlock = {
+	tip = "오픈 조건: 아일랜드 개발 등급 22"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_game = {
+	tip = "퀵 게임"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_1 = {
+	tip = "출격 시 달콤한 추억 획득"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_2 = {
+	tip = "데일리 보상"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_3 = {
+	tip = "메시지"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4 = {
+	tip = "$1에게 「달콤한 추억」을 선물하시겠습니까?\n취소할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4_1 = {
+	tip = "<color=#3DC6FFFF>$1</color>에게 「달콤한 추억」 <color=#3DC6FFFF>500</color>개를 선물하시겠습니까?\n선물한 뒤에는 <color=#FF5C5CFF>취소할 수 없습니다.</color>"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4_2 = {
+	tip = "<color=#3DC6FFFF>$1</color>에게 「달콤한 추억」 <color=#3DC6FFFF>800</color>개를 선물하시겠습니까?\n선물한 뒤에는 <color=#FF5C5CFF>취소할 수 없습니다.</color>"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_4_3 = {
+	tip = "<color=#3DC6FFFF>$1</color>에게 「달콤한 추억」 <color=#3DC6FFFF>1500</color>개를 선물하시겠습니까?\n선물한 뒤에는 <color=#FF5C5CFF>취소할 수 없습니다.</color>"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_5 = {
+	tip = "메시지 오픈"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_6 = {
+	tip = "오픈 완료"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_7 = {
+	tip = "※메시지를 오픈해도 선물은 사라지지 않습니다."
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_8 = {
+	tip = "오픈"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_9 = {
+	tip = "$1 발렌타인 선물"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_10 = {
+	tip = "행복 공명 레벨 누적"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_11 = {
+	tip = "$1(을)를 선택할까요?"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_12 = {
+	tip = "※이벤트 기간 중에 캐릭터를 변경할 수 있습니다. (남은 변경 횟수 $1/$2)"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_13 = {
+	tip = "발렌타인 메시지가 오픈되었습니다."
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_14 = {
+	tip = "$1 행복 공명 훈장"
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_15 = {
+	tip = "더 이상 슬라이드할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_16 = {
+	tip = "수령할 보상이 없습니다."
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_17 = {
+	tip = "수령할 보상이 없습니다."
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_18 = {
+	tip = "선택 중인 캐릭터입니다."
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_19 = {
+	tip = "선택하지 않은 선물이 있습니다."
+}
+
+
+_G.pg.base.gametip.loveactivity_ui_20 = {
+	tip = "누적 행복 공명 레벨 보상"
+}
+
+
+_G.pg.base.gametip.help_chunjie_jiulou_2026 = {
+	tip = {
+		{
+			info = [[
+쥬쥬 레스토랑에 대해
+・「쥬쥬 레스토랑」에서는 미니 게임으로 획득한 「세뱃돈」을 개봉하여 보상을 얻을 수 있습니다. 
+・「세뱃돈」은 <color=#92fc63>「페이윈의 대모험」</color>, <color=#92fc63>「그림일기」</color>, <color=#92fc63>「푸보의 완전 작전」</color>, <color=#92fc63>「신춘 불꽃회」</color>를 플레이하면 획득할 수 있습니다. 
+・획득한 「세뱃돈」은 15개째까지는 「세뱃돈(대)」가 됩니다. 
+・획득한 「세뱃돈」을 개봉할 때는「세뱃돈(대)」부터 우선적으로 개봉됩니다. 
+개봉하면, 다이아 등의 보상을 무작위로 획득할 수 있습니다. 
+또한 「세뱃돈」을 총 15개 개봉하면, <color=#92fc63>「푸슌」의 스킨(복각)</color>을 획득할 수 있습니다. 「세뱃돈」을 총 25개 개봉하면, <color=#92fc63>「롱 아일랜드」의 스킨을 획득할 수 있습니다.</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_trade_cnt_inadequate = {
+	tip = "수량이 부족합니다."
+}
+
+
+_G.pg.base.gametip.drawdiary_ui_2026 = {
+	tip = "그림 일기"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "새봄의 마음"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "이벤트 기간: 2월 17일 00:00 ~ 3월 3일 23:59"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "랜덤 비서함 기능을 OFF하고 재시도해 주세요"
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "비서함 슬롯 가장 왼쪽에 있는 함선이 신춘 선물을 주게 됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "배치한 함선에게서 신춘 선물을 받을 수 없습니다. 비서함을 변경 후 재시도해 주세요"
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "우편함에 선물이 도착했습니다!"
 }

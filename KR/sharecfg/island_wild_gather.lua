@@ -201,6 +201,118 @@ pg.island_wild_gather = {
 			10010086
 		}
 	},
+	[1009] = {
+		name = "봄 죽순",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990007,
+		id = 1009,
+		icon = "IslandProps/item_4015",
+		show = 1,
+		object_list = {
+			10040088
+		}
+	},
+	[1010] = {
+		name = "봄 죽순",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990007,
+		id = 1010,
+		icon = "IslandProps/item_4015",
+		show = 1,
+		object_list = {
+			10040089
+		}
+	},
+	[1011] = {
+		name = "냉이",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990007,
+		id = 1011,
+		icon = "IslandProps/item_4016",
+		show = 1,
+		object_list = {
+			10010093
+		}
+	},
+	[1012] = {
+		name = "냉이",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990007,
+		id = 1012,
+		icon = "IslandProps/item_4016",
+		show = 1,
+		object_list = {
+			10010094
+		}
+	},
+	[1013] = {
+		name = "영춘화",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990007,
+		id = 1013,
+		icon = "IslandProps/item_4017",
+		show = 1,
+		object_list = {
+			10010091
+		}
+	},
+	[1014] = {
+		name = "영춘화",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990007,
+		id = 1014,
+		icon = "IslandProps/item_4017",
+		show = 1,
+		object_list = {
+			10010092
+		}
+	},
+	[1015] = {
+		name = "히아신스",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990007,
+		id = 1015,
+		icon = "IslandProps/item_4018",
+		show = 1,
+		object_list = {
+			10040090
+		}
+	},
+	[1016] = {
+		name = "히아신스",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990007,
+		id = 1016,
+		icon = "IslandProps/item_4018",
+		show = 1,
+		object_list = {
+			10040091
+		}
+	},
 	all = {
 		1,
 		2,
@@ -215,6 +327,14 @@ pg.island_wild_gather = {
 		1005,
 		1006,
 		1007,
-		1008
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016
 	}
 }

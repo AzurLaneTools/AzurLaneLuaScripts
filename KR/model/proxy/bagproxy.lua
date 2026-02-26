@@ -34,6 +34,10 @@ slot0.register = function(slot0)
 end
 
 slot0.addExtraData = function(slot0, slot1, slot2)
+	if slot2 == nil then
+		return
+	end
+
 	slot0.extraItemData[slot1] = slot0.extraItemData[slot1] or {}
 
 	table.insert(slot0.extraItemData[slot1], slot2)
@@ -313,6 +317,28 @@ slot0.GetSkinExperienceItems = function(slot0)
 	for slot7, slot8 in pairs(getProxy(BagProxy):getRawData()) do
 		if slot8.count > 0 and slot8:IsSkinExperienceType() then
 			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
+end
+
+slot0.GetAllLoveLetterItem = function(slot0)
+	slot1 = {}
+	slot2 = getProxy(LoveLetterProxy):GetLoveLetterItemDic()
+
+	for slot6, slot7 in pairs(slot0.data) do
+		assert(not slot0.extraItemData[slot6] or slot7.count == #slot0.extraItemData[slot6])
+
+		for slot11 = 1, slot7.count do
+			if not slot2[slot6 .. "_" .. (slot0.extraItemData[slot6] and slot0.extraItemData[slot6][slot11] or nil or 0)] then
+				break
+			end
+
+			table.insert(slot1, {
+				slot6,
+				slot12
+			})
 		end
 	end
 

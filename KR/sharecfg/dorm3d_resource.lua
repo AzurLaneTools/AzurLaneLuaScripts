@@ -4,7 +4,8 @@ pg.dorm3d_resource = setmetatable({
 	get_id_list_by_ship_group = {
 		[20220] = {
 			202201,
-			202202
+			202202,
+			202203
 		},
 		[30221] = {
 			302211,
@@ -12,7 +13,8 @@ pg.dorm3d_resource = setmetatable({
 		},
 		[19903] = {
 			199031,
-			199032
+			199032,
+			199033
 		},
 		[10517] = {
 			105171,
@@ -30,10 +32,12 @@ pg.dorm3d_resource = setmetatable({
 	all = {
 		202201,
 		202202,
+		202203,
 		302211,
 		302212,
 		199031,
 		199032,
+		199033,
 		105171,
 		105173,
 		307071,
@@ -57,6 +61,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 1,
 		origin_model = "pre_char_tianlangxing_db_noshoes_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",
@@ -78,6 +83,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 2,
 		origin_model = "pre_char_tianlangxing_swim_noshoes_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "diantou",
@@ -95,6 +101,36 @@ pg.base.dorm3d_resource = {
 		},
 		hidden_part = {}
 	},
+	[202203] = {
+		ship_group = 20220,
+		name = "바니",
+		model_id = "tianlangxing_bunny",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 270116,
+		unlock_text = "카페에서 스킨 오픈",
+		picture = "regular",
+		type = 2,
+		origin_model = "pre_char_tianlangxing_bunny_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		animator = "",
+		wear_anim = "",
+		switch_anim = "",
+		id = 202203,
+		head_Icon = "dorm3Dchar/tianlangxing",
+		tags = {
+			"cafe",
+			"touch"
+		},
+		unlock = {
+			5,
+			16,
+			20220
+		},
+		hidden_part = {}
+	},
 	[302211] = {
 		ship_group = 30221,
 		name = "노시로·일반",
@@ -108,6 +144,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 1,
 		origin_model = "pre_char_nengdai_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",
@@ -129,6 +166,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 2,
 		origin_model = "pre_char_nengdai_swim_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "shuohua_sikao",
@@ -159,6 +197,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 1,
 		origin_model = "pre_char_ankeleiqi_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",
@@ -180,6 +219,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 2,
 		origin_model = "pre_char_ankeleiqi_swim_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",
@@ -197,6 +237,29 @@ pg.base.dorm3d_resource = {
 		},
 		hidden_part = {}
 	},
+	[199033] = {
+		ship_group = 19903,
+		name = "앵커리지 스타킹 평상복",
+		model_id = "ankeleiqi_stock",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 0,
+		unlock = "",
+		unlock_text = "",
+		picture = "regular",
+		type = 1,
+		origin_model = "pre_char_ankeleiqi_stock_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		animator = "",
+		wear_anim = "",
+		switch_anim = "",
+		id = 199033,
+		head_Icon = "dorm3Dchar/ankeleiqi",
+		tags = {},
+		hidden_part = {}
+	},
 	[105171] = {
 		ship_group = 10517,
 		name = "홈웨어",
@@ -210,6 +273,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 1,
 		origin_model = "pre_char_xinzexi_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",
@@ -237,6 +301,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 2,
 		origin_model = "pre_char_xinzexi_bunny_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",
@@ -265,6 +330,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 1,
 		origin_model = "pre_char_dafeng_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",
@@ -300,6 +366,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 2,
 		origin_model = "pre_char_dafeng_bunny_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",
@@ -330,6 +397,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 1,
 		origin_model = "pre_char_aijier_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",
@@ -351,6 +419,7 @@ pg.base.dorm3d_resource = {
 		picture = "regular",
 		type = 2,
 		origin_model = "pre_char_aijier_bunny_mod",
+		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
 		animator = "",
 		wear_anim = "",

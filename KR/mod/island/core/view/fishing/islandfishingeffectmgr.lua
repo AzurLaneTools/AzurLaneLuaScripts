@@ -61,7 +61,7 @@ slot0.Play = function(slot0, slot1)
 	end
 
 	if slot1 == uv0.EFFECT_ENTER then
-		slot0:UpdatePositions()
+		-- Nothing
 	end
 end
 

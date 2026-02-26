@@ -17,7 +17,8 @@ pg.island_npc_hud = setmetatable({
 		1013,
 		1014,
 		1015,
-		1016
+		1016,
+		1018
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -124,7 +125,7 @@ pg.base.island_npc_hud = {
 		title = "수수께끼의 상인",
 		name = "캐틴",
 		id = 1015,
-		icon = "1015",
+		icon = "",
 		show_condition = {}
 	},
 	[1016] = {
@@ -132,6 +133,13 @@ pg.base.island_npc_hud = {
 		name = "피어리",
 		id = 1016,
 		icon = "",
+		show_condition = {}
+	},
+	[1018] = {
+		title = "가두리 관리자",
+		name = "브리튼",
+		id = 1018,
+		icon = "1018",
 		show_condition = {}
 	}
 }

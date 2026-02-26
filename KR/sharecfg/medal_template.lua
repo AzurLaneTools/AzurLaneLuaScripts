@@ -2699,6 +2699,27 @@ pg.medal_template = {
 		explain1 = "「명암과 패션, 촬영 진행 중! 」",
 		explain2 = "이벤트"
 	},
+	[200131] = {
+		target_id = "50405",
+		name = "주옥 명품 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "따뜻하고도 아름다운 옥이 은은한 향기를 정원 가득 잠잠히 채우네. 모든 만남은 그저 그대의 방문을 기다릴 뿐. \n이곳에 발을 들인 그대야말로 옥을 알아주는 벗이려나.",
+		next = 0,
+		icon = "9131",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9131",
+		condition = "「신춘 주옥 명품회」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200131,
+		explain1 = "「신춘 주옥 명품회」",
+		explain2 = "이벤트"
+	},
 	all = {
 		10011,
 		10012,
@@ -2822,6 +2843,7 @@ pg.medal_template = {
 		200091,
 		200101,
 		200111,
-		200121
+		200121,
+		200131
 	}
 }

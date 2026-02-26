@@ -1914,7 +1914,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 620
+		key_value = 630
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -1989,6 +1989,10 @@ pg.gameset = {
 			},
 			{
 				20106,
+				10000
+			},
+			{
+				20107,
 				10000
 			}
 		}
@@ -4039,5 +4043,9 @@ pg.gameset = {
 	submarine_support_oil_consume = {
 		description = "",
 		key_value = 10
+	},
+	love_base_id = {
+		description = "",
+		key_value = 31201
 	}
 }

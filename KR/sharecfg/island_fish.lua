@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.island_fish = {
 	[5001] = {
-		name = "贝壳",
+		name = "조개",
 		item_id = 5001,
 		id = 5001,
 		qte_effect = "fish_1",
@@ -14,7 +14,7 @@ pg.island_fish = {
 		}
 	},
 	[5002] = {
-		name = "鲶鱼",
+		name = "메기",
 		item_id = 5002,
 		id = 5002,
 		qte_effect = "fish_1",
@@ -27,7 +27,7 @@ pg.island_fish = {
 		}
 	},
 	[5003] = {
-		name = "鲤鱼",
+		name = "잉어",
 		item_id = 5003,
 		id = 5003,
 		qte_effect = "fish_2",
@@ -40,7 +40,7 @@ pg.island_fish = {
 		}
 	},
 	[5004] = {
-		name = "鲫鱼",
+		name = "붕어",
 		item_id = 5004,
 		id = 5004,
 		qte_effect = "fish_2",
@@ -53,7 +53,7 @@ pg.island_fish = {
 		}
 	},
 	[5005] = {
-		name = "小河虾",
+		name = "민물 새우",
 		item_id = 5005,
 		id = 5005,
 		qte_effect = "fish_3",
@@ -66,7 +66,7 @@ pg.island_fish = {
 		}
 	},
 	[5006] = {
-		name = "小龙虾",
+		name = "가재",
 		item_id = 5006,
 		id = 5006,
 		qte_effect = "fish_3",
@@ -79,7 +79,7 @@ pg.island_fish = {
 		}
 	},
 	[5007] = {
-		name = "鲈鱼",
+		name = "농어",
 		item_id = 5007,
 		id = 5007,
 		qte_effect = "fish_4",
@@ -92,7 +92,7 @@ pg.island_fish = {
 		}
 	},
 	[5008] = {
-		name = "螃蟹",
+		name = "게",
 		item_id = 5008,
 		id = 5008,
 		qte_effect = "fish_4",
@@ -105,7 +105,7 @@ pg.island_fish = {
 		}
 	},
 	[5101] = {
-		name = "鱿鱼",
+		name = "오징어",
 		item_id = 5101,
 		id = 5101,
 		qte_effect = "fish_2",
@@ -118,7 +118,7 @@ pg.island_fish = {
 		}
 	},
 	[5102] = {
-		name = "马鲛鱼",
+		name = "삼치",
 		item_id = 5102,
 		id = 5102,
 		qte_effect = "fish_2",
@@ -131,7 +131,7 @@ pg.island_fish = {
 		}
 	},
 	[5103] = {
-		name = "金枪鱼",
+		name = "참치",
 		item_id = 5103,
 		id = 5103,
 		qte_effect = "fish_2",
@@ -144,7 +144,7 @@ pg.island_fish = {
 		}
 	},
 	[5104] = {
-		name = "三文鱼",
+		name = "연어",
 		item_id = 5104,
 		id = 5104,
 		qte_effect = "fish_3",
@@ -157,7 +157,7 @@ pg.island_fish = {
 		}
 	},
 	[5105] = {
-		name = "红鲷鱼",
+		name = "참돔",
 		item_id = 5105,
 		id = 5105,
 		qte_effect = "fish_3",
@@ -170,7 +170,7 @@ pg.island_fish = {
 		}
 	},
 	[5106] = {
-		name = "黑鲷鱼",
+		name = "감성돔",
 		item_id = 5106,
 		id = 5106,
 		qte_effect = "fish_4",
@@ -183,7 +183,7 @@ pg.island_fish = {
 		}
 	},
 	[5107] = {
-		name = "黄鳍金枪鱼",
+		name = "황다랑어",
 		item_id = 5107,
 		id = 5107,
 		qte_effect = "fish_4",
@@ -196,7 +196,7 @@ pg.island_fish = {
 		}
 	},
 	[5108] = {
-		name = "海参",
+		name = "해삼",
 		item_id = 5108,
 		id = 5108,
 		qte_effect = "fish_4",

@@ -6,8 +6,6 @@ slot0.OnAttach = function(slot0, slot1)
 
 	slot0.signalReceiver:SetCommonEvent(function (slot0)
 		if uv0.ignoreSignal then
-			uv0.ignoreSignal = false
-
 			return
 		end
 
@@ -26,7 +24,8 @@ slot0.SetTimelineDic = function(slot0, slot1)
 	slot0.timelineDic = slot1
 end
 
-slot0.OnUpdate = function(slot0)
+slot0.GetTargetRoot = function(slot0)
+	return slot0._go.transform
 end
 
 slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
@@ -38,16 +37,20 @@ slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 
 	if slot7 then
 		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", true)
+
+		slot0.ignoreSignal = false
+	else
+		slot0.ignoreSignal = true
 	end
 
-	slot0:SetPlayerTransform(slot1, slot0._go.transform)
+	slot0:SetPlayerTransform(slot1, slot0:GetTargetRoot())
 
 	if slot5 and #slot5 > 1 then
 		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue(slot5[1], slot5[2])
 	end
 
 	slot0.director.playableAsset = slot0.timelineDic[slot3]
-	slot0.director.extrapolationMode = slot4.is_loop and UnityEngine.Playables.DirectorWrapMode.Loop or UnityEngine.Playables.DirectorWrapMode.None
+	slot0.director.extrapolationMode = slot4.is_loop == 1 and UnityEngine.Playables.DirectorWrapMode.Loop or UnityEngine.Playables.DirectorWrapMode.None
 
 	slot0:BindPlayer(slot2, slot1)
 	slot0:BindSelf(slot4)
@@ -59,16 +62,19 @@ end
 
 slot0.EndInteract = function(slot0, slot1, slot2, slot3, slot4)
 	if slot3 then
-		slot0.director.time = 0
+		slot0.director.time = slot0.director.extrapolationMode == UnityEngine.Playables.DirectorWrapMode.None and slot0.director.duration or 0
 
 		slot0.director:Evaluate()
 		slot0.director:Stop()
 
-		slot0.director.enabled = true
+		slot0.director.enabled = false
 	end
 
 	slot0:BindPlayer(slot2, nil)
-	slot1:ActiveOrDisactive(true)
+
+	if slot1 then
+		slot1:ActiveOrDisactive(true)
+	end
 
 	if slot4 then
 		slot5 = slot0.behaviourTreeOwner.graph.blackboard
@@ -109,7 +115,7 @@ slot0.BindSelf = function(slot0, slot1)
 				return slot1 == uv0
 			end)
 
-			if slot10 ~= nil and slot0._go.transform:Find(slot1.binding_path[slot10]) then
+			if slot10 ~= nil and (slot1.binding_path[slot10] == "" and slot0:GetTargetRoot() or slot0:GetTargetRoot():Find(slot11)) then
 				TimelineHelper.SetAutoBinding(slot0.director, slot8, go(slot12))
 			end
 		end
@@ -145,7 +151,7 @@ slot0.SetPlayerTransform = function(slot0, slot1, slot2)
 end
 
 slot0.RevertPlayerTransform = function(slot0, slot1)
-	if not slot0.cachePlayerTransformInfoDic[slot1.id] then
+	if not slot1 or not slot0.cachePlayerTransformInfoDic[slot1.id] then
 		return
 	end
 

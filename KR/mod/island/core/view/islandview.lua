@@ -288,6 +288,8 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.SHOW_CHAT_MSG, slot0.OnShowChatMsg)
 	slot0:AddListener(ISLAND_EVT.RESET_FOLLOW_RANDOMIZER, slot0.OnResetFollowRandomizer)
 	slot0:AddListener(ISLAND_EVT.ADD_FOLLOWER, slot0.OnFollowerAdd)
+	slot0:AddListener(ISLAND_EVT.WILL_DEL_FOLLOWER, slot0.OnFollowerWillDelStep1)
+	slot0:AddListener(ISLAND_EVT.DO_DEL_FOLLOWER, slot0.OnFollowerWillDelStep2)
 	slot0:AddListener(ISLAND_EVT.DEL_FOLLOWER, slot0.OnFollowerDel)
 	slot0:AddListener(ISLAND_EVT.COUPLE_ACTION_WITH_FOLLOWER, slot0.OnCoupleActionWithFollower)
 	slot0:AddListener(ISLAND_EVT.LOCK_PLAYER_INPUT, slot0.OnLockPlayerInput)
@@ -301,6 +303,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.BAIT_UPDATE, slot0.OnBaitUpdate)
 	slot0:AddListener(ISLAND_EVT.START_FISHING, slot0.OnStartFishing)
 	slot0:AddListener(ISLAND_EVT.FISHING_STATE_CHANGE, slot0.OnFishingStateChange)
+	slot0:AddListener(ISLAND_EVT.ALL_DAILY_OR_WEEKLY_FINISH, slot0.OnAllDailyOrWeeklyFinish)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -390,6 +393,8 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.SHOW_CHAT_MSG, slot0.OnShowChatMsg)
 	slot0:RemoveListener(ISLAND_EVT.RESET_FOLLOW_RANDOMIZER, slot0.OnResetFollowRandomizer)
 	slot0:RemoveListener(ISLAND_EVT.ADD_FOLLOWER, slot0.OnFollowerAdd)
+	slot0:RemoveListener(ISLAND_EVT.WILL_DEL_FOLLOWER, slot0.OnFollowerWillDelStep1)
+	slot0:RemoveListener(ISLAND_EVT.DO_DEL_FOLLOWER, slot0.OnFollowerWillDelStep2)
 	slot0:RemoveListener(ISLAND_EVT.DEL_FOLLOWER, slot0.OnFollowerDel)
 	slot0:RemoveListener(ISLAND_EVT.COUPLE_ACTION_WITH_FOLLOWER, slot0.OnCoupleActionWithFollower)
 	slot0:RemoveListener(ISLAND_EVT.LOCK_PLAYER_INPUT, slot0.OnLockPlayerInput)
@@ -403,6 +408,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.BAIT_UPDATE, slot0.OnBaitUpdate)
 	slot0:RemoveListener(ISLAND_EVT.START_FISHING, slot0.OnStartFishing)
 	slot0:RemoveListener(ISLAND_EVT.FISHING_STATE_CHANGE, slot0.OnFishingStateChange)
+	slot0:RemoveListener(ISLAND_EVT.ALL_DAILY_OR_WEEKLY_FINISH, slot0.OnAllDailyOrWeeklyFinish)
 end
 
 slot0.OnBaitUpdate = function(slot0, slot1)
@@ -422,6 +428,31 @@ slot0.OnFishPointSelected = function(slot0, slot1)
 		if slot0:GetUnitModuleWithType(slot4, slot5) then
 			slot0:SelectedFishPoint(slot6)
 		end
+	end
+end
+
+slot0.OnAllDailyOrWeeklyFinish = function(slot0, slot1)
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0:GetUnitListByKey(IslandConst.UNIT_LIST_FOLLOW)) do
+		if not slot8:IsExitState() then
+			table.insert(slot3, slot8)
+		end
+	end
+
+	if #slot3 <= 0 then
+		return
+	end
+
+	for slot7, slot8 in ipairs(slot3) do
+		slot8:StopMove()
+		slot8:PlayAnimation(slot1)
+	end
+end
+
+slot0.OnSystemUnlock = function(slot0, slot1)
+	if slot1 == IslandAblityAgency.ANIMATION_OP_ID then
+		slot0:GetSubView(IslandOpView):UpdateAnimationOpBtn()
 	end
 end
 
@@ -519,7 +550,7 @@ slot0.OnCoupleActionWithFollower = function(slot0, slot1)
 	slot4 = pg.island_set.action_bubble_range.key_value_int
 
 	if #_.select(slot0:GetUnitListByKey(IslandConst.UNIT_LIST_FOLLOW), function (slot0)
-		return Vector3.Distance(slot0:GetPosition(), uv0) <= uv1
+		return not slot0:IsExitState() and Vector3.Distance(slot0:GetPosition(), uv0) <= uv1
 	end) <= 0 then
 		return
 	end
@@ -528,8 +559,85 @@ slot0.OnCoupleActionWithFollower = function(slot0, slot1)
 	slot0:GetSubView(IslandAniamtionOpView):RemoveWaitTimer(false)
 end
 
+slot0.OnFollowerAdd = function(slot0, slot1)
+	if slot0:GetSelectedNpcId() then
+		slot2, slot3 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot0:GetSelectedNpcId())
+
+		if slot3 == slot1 then
+			slot0.selectedNpcId = nil
+		end
+	end
+
+	slot0:GetSubView(IslandOpView):FlushFollowerList()
+	slot0.coupleNpcWordPlayer:Play(slot1)
+end
+
+slot0.OnFollowerWillDelStep1 = function(slot0, slot1)
+	slot3 = nil
+
+	for slot7, slot8 in ipairs(slot0:GetUnitListByKey(IslandConst.UNIT_LIST_FOLLOW)) do
+		if slot8:GetDataVO():IsSameShip(slot1) then
+			slot3 = slot8
+
+			break
+		end
+	end
+
+	if not slot3 or slot3:IsExitState() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_follower_exiting_tip"))
+
+		return
+	end
+
+	slot3:DoExitHandle()
+end
+
+slot0.OnFollowerWillDelStep2 = function(slot0, slot1)
+	if not slot1.node then
+		return
+	end
+
+	slot5, slot6 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot2:GetComponent(typeof(WorldObjectItem)).uniqueId)
+
+	if not slot0:GetUnitModuleWithType(slot5, slot6) then
+		return
+	end
+
+	slot0:NotifiyMeditor(IslandMediator.DEL_FOLLOWER, slot7:GetDataVO():GetShipId())
+end
+
+slot0.OnFollowerDel = function(slot0, slot1)
+	slot0:GetSubView(IslandOpView):FlushFollowerList()
+	slot0.coupleNpcWordPlayer:Stop(slot1)
+end
+
+slot0.OnResetFollowRandomizer = function(slot0, slot1)
+	if not slot0:GetFollowerModule(slot1) then
+		return
+	end
+
+	slot2:SetBtRandomizer()
+end
+
+slot0.OnShowChatMsg = function(slot0, slot1)
+	if not slot0:GetPlayerUnitModule(slot1.player.id) then
+		return
+	end
+
+	slot0:GetSubView(IslandTopHeadHudView):PlayChat(slot3, slot1.emojiId, slot1.content, nil)
+end
+
+slot0.OnChatRoomChange = function(slot0)
+	slot0:GetSubView(IslandAniamtionOpView):UpdateChatRoom()
+end
+
+slot0.OnChatMsgUpdate = function(slot0)
+	slot0:GetSubView(IslandAniamtionOpView):UpdateMsgList()
+end
+
 slot0.OnPlaySingleAnimationEnd = function(slot0, slot1)
 	if not slot0:GetSelectedNpcId() then
+		slot0.npcActionPlayer:ResoponByRandom(slot0.player, slot1)
 		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildActionOp(1, slot1, 0, 0, 0, 0))
 
 		return
@@ -537,7 +645,11 @@ slot0.OnPlaySingleAnimationEnd = function(slot0, slot1)
 
 	slot3, slot4 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot0:GetSelectedNpcId())
 
-	slot0.npcActionPlayer:Play(slot0:GetUnitModuleWithType(slot3, slot4), slot0.player, slot1)
+	if isa(slot0:GetUnitModuleWithType(slot3, slot4), IslandStrollNpcUnit) and slot5:GetDataVO():ExistActionFeedback() then
+		slot0.npcActionPlayer:Resopon(slot5, slot0.player, slot1)
+	else
+		slot0.npcActionPlayer:ResoponByRandom(slot0.player, slot1)
+	end
 end
 
 slot0.OnShowNpcAniamtionBubble = function(slot0, slot1)
@@ -938,7 +1050,7 @@ slot0.OnChange_Photo_Height = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.OnChangeTakePhotoModel = function(slot0, slot1)
+slot0.OnChangeTakePhotoModel = function(slot0, slot1, slot2)
 	slot0.takePhotoModel = slot1
 
 	if slot0.takePhotoModel == IslandConst.TakePhotoModel.First then
@@ -979,7 +1091,7 @@ slot0.OnChangeTakePhotoModel = function(slot0, slot1)
 		IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME).gameObject:GetComponent(typeof(CameraLook)):ResetCameraPos()
 	end
 
-	slot0:GetSubView(IslandOpView):ChangeTakePhotoModel(slot1)
+	slot0:GetSubView(IslandOpView):ChangeTakePhotoModel(slot1, slot2)
 end
 
 slot0.OnNpcDetectorSelected = function(slot0, slot1)

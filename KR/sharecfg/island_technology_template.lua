@@ -37,7 +37,8 @@ pg.island_technology_template = setmetatable({
 			110309,
 			120005,
 			110310,
-			120006
+			120006,
+			120007
 		},
 		{
 			210101,
@@ -118,7 +119,19 @@ pg.island_technology_template = setmetatable({
 			430304,
 			450301,
 			440304,
-			450302
+			450302,
+			460001,
+			460002,
+			460101,
+			460301,
+			460102,
+			460302,
+			460201,
+			460202,
+			460203,
+			460204,
+			460205,
+			460206
 		},
 		{
 			500211,
@@ -188,6 +201,7 @@ pg.island_technology_template = setmetatable({
 			660202,
 			660203,
 			650001,
+			630205,
 			630204,
 			660204,
 			640204,
@@ -237,6 +251,7 @@ pg.island_technology_template = setmetatable({
 		120005,
 		110310,
 		120006,
+		120007,
 		210101,
 		220101,
 		220501,
@@ -312,6 +327,18 @@ pg.island_technology_template = setmetatable({
 		450301,
 		440304,
 		450302,
+		460001,
+		460002,
+		460101,
+		460301,
+		460102,
+		460302,
+		460201,
+		460202,
+		460203,
+		460204,
+		460205,
+		460206,
 		500211,
 		500212,
 		500231,
@@ -377,6 +404,7 @@ pg.island_technology_template = setmetatable({
 		660202,
 		660203,
 		650001,
+		630205,
 		630204,
 		660204,
 		640204,
@@ -1529,6 +1557,40 @@ pg.base.island_technology_template = {
 		axis = {
 			28,
 			1
+		}
+	},
+	[120007] = {
+		complete_title = "<color=#1E8FFE>아일랜드 권한 인증 장치</color>로 동료를 가입시킬 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>아일랜드 권한 인증 장치</color>로 동료를 가입시킬 수 있습니다.",
+		island_level = 50,
+		tech_desc = "프린츠 오이겐의 아일랜드 권한 인증 장치를 생산한다. 더 많은 동료를 초대하자!",
+		tech_icon = "tech_120001",
+		tech_belong = 1,
+		tech_name = "인증 추가",
+		formula_id = 7120007,
+		id = 120007,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				110310
+			},
+			{
+				3,
+				120006
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			2
 		}
 	},
 	[210101] = {
@@ -3408,7 +3470,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			1,
-			7
+			6
 		}
 	},
 	[430301] = {
@@ -3439,8 +3501,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			4,
-			5
+			6,
+			4.5
 		}
 	},
 	[430302] = {
@@ -3471,8 +3533,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			7,
-			5
+			9,
+			4.5
 		}
 	},
 	[440301] = {
@@ -3503,8 +3565,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			7,
-			7
+			4,
+			6
 		}
 	},
 	[440302] = {
@@ -3535,8 +3597,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
-			7
+			7,
+			6
 		}
 	},
 	[420303] = {
@@ -3567,7 +3629,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
+			11,
 			3
 		}
 	},
@@ -3599,7 +3661,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
+			11,
 			1
 		}
 	},
@@ -3632,7 +3694,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			13,
-			5
+			4.5
 		}
 	},
 	[410304] = {
@@ -3663,7 +3725,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			13,
+			14,
 			1
 		}
 	},
@@ -3695,8 +3757,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			13,
-			7
+			10,
+			6
 		}
 	},
 	[410305] = {
@@ -3727,7 +3789,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
+			17,
 			1
 		}
 	},
@@ -3759,7 +3821,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
+			17,
 			3
 		}
 	},
@@ -3791,8 +3853,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
-			5
+			19,
+			4.5
 		}
 	},
 	[450301] = {
@@ -3817,7 +3879,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			16,
-			9
+			6
 		}
 	},
 	[440304] = {
@@ -3848,8 +3910,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
-			7
+			13,
+			6
 		}
 	},
 	[450302] = {
@@ -3879,7 +3941,415 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			19,
-			9
+			6
+		}
+	},
+	[460001] = {
+		complete_title = "<color=#1E8FFE>낚시 지점</color>에서 확인할 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>낚시 지점</color>에서 확인할 수 있습니다.",
+		island_level = 18,
+		tech_desc = "낚싯대 레벨 상승! 이제부터는 더 희귀한 물고기를 낚을 수 있다!",
+		tech_icon = "tech_460001",
+		tech_belong = 4,
+		tech_name = "낚싯대 강화Ⅰ",
+		formula_id = 7460001,
+		id = 460001,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				1,
+				20016001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			1,
+			8
+		}
+	},
+	[460002] = {
+		complete_title = "<color=#1E8FFE>낚시 지점</color>에서 확인할 수 있습니다.",
+		tech_level = "2",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>낚시 지점</color>에서 확인할 수 있습니다.",
+		island_level = 27,
+		tech_desc = "낚싯대 레벨 상승! 이제부터는 더 희귀한 물고기를 낚을 수 있다!",
+		tech_icon = "tech_460002",
+		tech_belong = 4,
+		tech_name = "낚싯대 강화Ⅱ",
+		formula_id = 7460002,
+		id = 460002,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			4,
+			8
+		}
+	},
+	[460101] = {
+		complete_title = "<color=#1E8FFE>가두리의 브리튼</color>에게 가면 동료를 <color=#1E8FFE>어패류 양식</color>에 배치할 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>가두리의 브리튼</color>에게 가면 동료를 <color=#1E8FFE>어패류 양식</color>에 배치할 수 있습니다.",
+		island_level = 20,
+		tech_desc = "가두리의 배치 슬롯을 늘려 어패류의 생산량 늘리기",
+		tech_icon = "tech_460101",
+		tech_belong = 4,
+		tech_name = "가두리 관리 슬롯 +Ⅰ",
+		formula_id = 7460101,
+		id = 460101,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			7,
+			8
+		}
+	},
+	[460301] = {
+		complete_title = "<color=#1E8FFE>가두리의 브리튼</color>에게 가면 동료를 <color=#1E8FFE>어패류 양식</color>에 배치할 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>가두리의 브리튼</color>에게 가면 동료를 <color=#1E8FFE>어패류 양식</color>에 배치할 수 있습니다.",
+		island_level = 29,
+		tech_desc = "가두리의 양식 효율을 향상시켜 자원 획득을 더 편리하게 하기",
+		tech_icon = "tech_460301",
+		tech_belong = 4,
+		tech_name = "물고기 양식 효율 +Ⅰ",
+		formula_id = 7460301,
+		id = 460301,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460101
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			10,
+			8
+		}
+	},
+	[460102] = {
+		complete_title = "<color=#1E8FFE>가두리의 브리튼</color>에게 가면 동료를 <color=#1E8FFE>어패류 양식</color>에 배치할 수 있습니다.",
+		tech_level = "2",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>가두리의 브리튼</color>에게 가면 동료를 <color=#1E8FFE>어패류 양식</color>에 배치할 수 있습니다.",
+		island_level = 31,
+		tech_desc = "가두리의 배치 슬롯을 늘려 어패류의 생산량 늘리기",
+		tech_icon = "tech_460102",
+		tech_belong = 4,
+		tech_name = "가두리 관리 슬롯 +Ⅱ",
+		formula_id = 7460102,
+		id = 460102,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460301
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			13,
+			8
+		}
+	},
+	[460302] = {
+		complete_title = "<color=#1E8FFE>가두리의 브리튼</color>에게 가면 동료를 <color=#1E8FFE>어패류 양식</color>에 배치할 수 있습니다.",
+		tech_level = "2",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>가두리의 브리튼</color>에게 가면 동료를 <color=#1E8FFE>어패류 양식</color>에 배치할 수 있습니다.",
+		island_level = 34,
+		tech_desc = "가두리의 양식 효율을 향상시켜 자원 획득을 더 편리하게 하기",
+		tech_icon = "tech_460302",
+		tech_belong = 4,
+		tech_name = "물고기 양식 효율 +Ⅱ",
+		formula_id = 7460302,
+		id = 460302,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460102
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			16,
+			8
+		}
+	},
+	[460201] = {
+		complete_title = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		island_level = 12,
+		tech_desc = "피시 앤 칩스 레시피",
+		tech_icon = "tech_460201",
+		tech_belong = 4,
+		tech_name = "피시 앤 칩스",
+		formula_id = 7460201,
+		id = 460201,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			1,
+			9.5
+		}
+	},
+	[460202] = {
+		complete_title = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		island_level = 18,
+		tech_desc = "생선 양파찜 레시피",
+		tech_icon = "tech_460202",
+		tech_belong = 4,
+		tech_name = "생선 양파찜",
+		formula_id = 7460202,
+		id = 460202,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			4,
+			9.5
+		}
+	},
+	[460203] = {
+		complete_title = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		island_level = 21,
+		tech_desc = "상큼한 레몬 새우 레시피",
+		tech_icon = "tech_460206",
+		tech_belong = 4,
+		tech_name = "레몬 새우",
+		formula_id = 7460206,
+		id = 460203,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				540001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			7,
+			9.5
+		}
+	},
+	[460204] = {
+		complete_title = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		island_level = 25,
+		tech_desc = "향긋한 가재 볶음 레시피",
+		tech_icon = "tech_460205",
+		tech_belong = 4,
+		tech_name = "가재 볶음",
+		formula_id = 7460205,
+		id = 460204,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				540001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			10,
+			9.5
+		}
+	},
+	[460205] = {
+		complete_title = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		island_level = 29,
+		tech_desc = "식재료 듬뿍 파에야 레시피",
+		tech_icon = "tech_460203",
+		tech_belong = 4,
+		tech_name = "파에야",
+		formula_id = 7460203,
+		id = 460205,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				530001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			13,
+			9.5
+		}
+	},
+	[460206] = {
+		complete_title = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>상업 지구의 아모마</color>가 있는 <color=#1E8FFE>유어 레스토랑</color>에서 확인할 수 있습니다.",
+		island_level = 36,
+		tech_desc = "진한 국물의 불도장 레시피",
+		tech_icon = "tech_460204",
+		tech_belong = 4,
+		tech_name = "불도장",
+		formula_id = 7460204,
+		id = 460206,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			16,
+			9.5
 		}
 	},
 	[500211] = {
@@ -4765,11 +5235,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530205] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 18,
 		tech_desc = "향기롭고 바삭바삭하고도 달콤한 애플파이 제작 가능.",
 		tech_icon = "tech_530201",
@@ -4829,11 +5299,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530206] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 19,
 		tech_desc = "새콤하고 바삭바삭한 오렌지 파이 제작 가능.",
 		tech_icon = "tech_530201",
@@ -4861,11 +5331,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530202] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 20,
 		tech_desc = "달콤하고 쫄깃한 망고 찹쌀밥 제작 가능.",
 		tech_icon = "tech_530201",
@@ -4961,11 +5431,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540001] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 22,
 		tech_desc = "모두 같이 고기 먹으러 가자!",
 		tech_icon = "tech_540001",
@@ -4997,13 +5467,13 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540201] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 23,
-		tech_desc = "단순하면서도 맛있는 닭고기와 감자 모둠 제작 가능.",
+		tech_desc = "단순하면서도 맛있는 닭고기와 감자 모듬 제작 가능.",
 		tech_icon = "tech_540201",
 		tech_belong = 5,
 		tech_name = "닭고기 감자 플래터",
@@ -5065,11 +5535,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530203] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 24,
 		tech_desc = "부드럽고 달콤한 바나나 크레페 제작 가능.",
 		tech_icon = "tech_530201",
@@ -5133,11 +5603,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540202] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 27,
 		tech_desc = "맛있는 냄새가 사방으로 퍼지는 닭고기 볶음 제작 가능.",
 		tech_icon = "tech_540201",
@@ -5165,11 +5635,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[530204] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>쥬쥬 간편식</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>츄츄 간편식</color>에서 확인할 수 있습니다.",
 		island_level = 28,
 		tech_desc = "섬세한 맛이 매력인 디저트 딸기 샬럿 제작 가능.",
 		tech_icon = "tech_530201",
@@ -5197,11 +5667,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540204] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 29,
 		tech_desc = "식감이 풍부한 두꺼운 당근 계란말이 제작 가능.",
 		tech_icon = "tech_540201",
@@ -5265,11 +5735,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[540205] = {
-		complete_title = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_title = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "<color=#1E8FFE>모항 상점가의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
+		complete_tips = "<color=#1E8FFE>항구 상업 지구의 아모마</color>가 있는 <color=#1E8FFE>오징어 구이</color>에서 확인할 수 있습니다.",
 		island_level = 32,
 		tech_desc = "맛있고 편리한 햄버그 덮밥 제작 가능.",
 		tech_icon = "tech_540201",
@@ -6032,6 +6502,38 @@ pg.base.island_technology_template = {
 			9
 		}
 	},
+	[630205] = {
+		complete_title = "<color=#1E8FFE>기지 공장</color>의 로사와 이야기를 나누어 <color=#1E8FFE>목재 가공 설비</color>에서 제작 가능",
+		tech_level = "1",
+		tech_chara = 1,
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>기지 공장</color>의 로사와 이야기를 나누어 <color=#1E8FFE>목재 가공 설비</color>에서 제작 가능",
+		island_level = 24,
+		tech_desc = "예술적인 분위기를 더해주는 장식용 그림 제작 가능",
+		tech_icon = "tech_630201",
+		tech_belong = 6,
+		tech_name = "장식용 그림 제작",
+		formula_id = 7630205,
+		id = 630205,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				630203
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100900
+		},
+		axis = {
+			19,
+			3
+		}
+	},
 	[630204] = {
 		complete_title = "<color=#1E8FFE>항구 기지 공장의 로사</color>가 있는 곳에서 <color=#1E8FFE>목재 가공</color>으로 제작할 수 있습니다.",
 		tech_level = "1",
@@ -6049,7 +6551,7 @@ pg.base.island_technology_template = {
 		sys_unlock = {
 			{
 				3,
-				630203
+				630205
 			}
 		},
 		tech_repeat = {
@@ -6060,7 +6562,7 @@ pg.base.island_technology_template = {
 			100900
 		},
 		axis = {
-			19,
+			22,
 			3
 		}
 	},

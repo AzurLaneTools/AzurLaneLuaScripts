@@ -998,6 +998,40 @@ pg.honormedal_goods_list = {
 			30208
 		}
 	},
+	{
+		goods_rarity = 4,
+		goods_purchase_limit = 15,
+		price = 20,
+		type = 2,
+		group = 10039,
+		num = 1,
+		goods_name = "지향형 강화 유닛·8기",
+		goods_type = 1,
+		id = 54,
+		is_ship = 0,
+		goods_icon = "Props/42070",
+		order = 7,
+		goods = {
+			42070
+		}
+	},
+	{
+		goods_rarity = 5,
+		goods_purchase_limit = 5,
+		price = 20,
+		type = 2,
+		group = 10040,
+		num = 1,
+		goods_name = "상급 지향형 강화 유닛·8기",
+		goods_type = 1,
+		id = 55,
+		is_ship = 0,
+		goods_icon = "Props/42076",
+		order = 6,
+		goods = {
+			42076
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1051,6 +1085,8 @@ pg.honormedal_goods_list = {
 		50,
 		51,
 		52,
-		53
+		53,
+		54,
+		55
 	}
 }

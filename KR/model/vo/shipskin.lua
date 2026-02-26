@@ -18,6 +18,8 @@ slot0.WITH_CHANGE = 8
 slot0.WITH_LIVE2D_PLUS = 9
 slot0.WITH_DOUBLE_VIOCE = 10
 slot0.WITH_ASMR = 11
+slot0.VOICE_LANG_JP = 1
+slot0.VOICE_LANG_CN = 2
 
 slot0.Tag2Name = function(slot0)
 	if not uv0.Tag2NameTab then

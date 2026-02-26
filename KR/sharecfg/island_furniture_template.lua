@@ -504,6 +504,32 @@ pg.island_furniture_template = {
 		},
 		jump_page = {}
 	},
+	[101] = {
+		setNum = 1,
+		describe = "히아신스가 서로 기대어 잔뜩 꽃을 피운다. 마치 유리로 조각한 듯 투명한 트로피에서 청아한 향기가 은은히 퍼진다.",
+		name = "봄 아일랜드 개발 트로피",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_101",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50281/prefab/pre_item_05_50281",
+		bt = "",
+		id = 101,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"봄 특산품 경영",
+				{}
+			}
+		}
+	},
 	[10101] = {
 		setNum = 1,
 		describe = "정성스럽게 지어진 숲 속의 작은 별장. 여유로운 전원 생활을 만끽하자.",
@@ -1745,6 +1771,938 @@ pg.island_furniture_template = {
 			5
 		}
 	},
+	[30001] = {
+		setNum = 999,
+		describe = "전통적인 석재 정원등. 정원 길을 은은하게 비추며, 차분하고 고요한 밤 분위기를 연출한다.",
+		name = "따뜻한 빛의 석등 (소)",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30001",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50218/prefab/pre_item_05_50218",
+		bt = "",
+		id = 30001,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	},
+	[30002] = {
+		setNum = 999,
+		describe = "전통적인 석재 정원등. 정원 길을 은은하게 비추며, 차분하고 고요한 밤 분위기를 연출한다.",
+		name = "따뜻한 빛의 석등 (중)",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30002",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50222/prefab/pre_item_05_50222",
+		bt = "",
+		id = 30002,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30003] = {
+		setNum = 999,
+		describe = "토끼를 모티브로 한 귀여운 야간 조명. 부드러운 빛으로 장식과 조명 역할을 동시에 해준다.",
+		name = "토끼토끼 라이트",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30003",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50220/prefab/pre_item_05_50220",
+		bt = "",
+		id = 30003,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	},
+	[30004] = {
+		setNum = 999,
+		describe = "전통적인 종이 등롱. 넓은 범위를 은은하게 비추어, 밤의 고요함을 더해주는 정원 장식.",
+		name = "정원용 종이등",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30004",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50219/prefab/pre_item_05_50219",
+		bt = "",
+		id = 30004,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30005] = {
+		setNum = 999,
+		describe = "정원 연못을 건너기 위해 놓은 소박한 아치형의 작은 나무 다리.",
+		name = "단풍 건너는 다리",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30005",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50213/prefab/pre_item_05_50213",
+		bt = "",
+		id = 30005,
+		tech_id = 0,
+		size = {
+			5,
+			4
+		},
+		jump_page = {}
+	},
+	[30006] = {
+		setNum = 999,
+		describe = "튼튼한 석재로 만든 정원용 난간. 손을 대면 서늘한 감촉이 전해진다.",
+		name = "석재 난간",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30006",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50268/prefab/pre_item_05_50268",
+		bt = "",
+		id = 30006,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"합계 PT",
+				{}
+			}
+		}
+	},
+	[30007] = {
+		setNum = 999,
+		describe = "꽃무늬 장식이 더해진 철제 펜스. 안전성과 장식성을 모두 갖췄다.",
+		name = "철제 펜스",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30007",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50269/prefab/pre_item_05_50269",
+		bt = "",
+		id = 30007,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"합계 PT",
+				{}
+			}
+		}
+	},
+	[30008] = {
+		setNum = 999,
+		describe = "정원의 풍경을 이루는 나무. 사계절 내내 변함없는 푸르름을 즐길 수 있다.",
+		name = "가문비나무",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30008",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50272/prefab/pre_item_05_50272",
+		bt = "",
+		id = 30008,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"합계 PT",
+				{}
+			}
+		}
+	},
+	[30009] = {
+		setNum = 999,
+		describe = "정성스럽게 가지치기되어 여러 세련된 형태로 다듬어진 조경수.",
+		name = "조경용 나무",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30009",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50274/prefab/pre_item_05_50274",
+		bt = "",
+		id = 30009,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"합계 PT",
+				{}
+			}
+		}
+	},
+	[30010] = {
+		setNum = 999,
+		describe = "연한 푸른빛의 별 모양을 한 사랑스러운 꽃. 화단 가장자리를 꾸미거나 정원을 화사하게 장식할 수 있다.",
+		name = "블루스타 꽃",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30010",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50275/prefab/pre_item_05_50275",
+		bt = "",
+		id = 30010,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"합계 PT",
+				{}
+			}
+		}
+	},
+	[30101] = {
+		setNum = 1,
+		describe = "정원 풍경의 일부를 이루는 건축물. 꽃을 감상하며 파티나 휴식을 즐길 수 있다.",
+		name = "고요한 정원",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_30101",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50252/prefab/pre_item_05_50252",
+		bt = "",
+		id = 30101,
+		tech_id = 0,
+		size = {
+			22,
+			22
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30201] = {
+		setNum = 1,
+		describe = "유리 지붕 사이로 햇살이 스며들어 사계절의 꽃들이 조용히 피어나는 온실.",
+		name = "유리꽃 온실",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_30201",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50251/prefab/pre_item_05_50251",
+		bt = "island/nodecanvas/agora/agora_hide",
+		id = 30201,
+		tech_id = 0,
+		size = {
+			20,
+			20
+		},
+		interact_point = {
+			14,
+			15
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30301] = {
+		setNum = 999,
+		describe = "티 세트를 준비해 이곳에서 여유로운 애프터눈 티 타임을 즐겨보자.",
+		name = "오후의 정자",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30301",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50277/prefab/pre_item_05_50277",
+		bt = "",
+		id = 30301,
+		tech_id = 0,
+		size = {
+			6,
+			6
+		},
+		interact_point = {
+			16
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30302] = {
+		setNum = 999,
+		describe = "이 다리 위에서 소원을 빌면 별똥별을 볼 수 있대!",
+		name = "별과 소원의 다리",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30302",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50256/prefab/pre_item_05_50256",
+		bt = "",
+		id = 30302,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30303] = {
+		setNum = 999,
+		describe = "잘 다듬어진 풍부한 녹음으로 꾸며진 아치형 게이트. 위에는 클래식 샹들리에가 달려 있어 정원 입구를 화사하게 밝혀준다.",
+		name = "화원의 아치",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30303",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50265/prefab/pre_item_05_50265",
+		bt = "",
+		id = 30303,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30304] = {
+		setNum = 999,
+		describe = "아름다운 세계는 모든 이에게 열려 있다!",
+		name = "화원 게이트",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30304",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50266/prefab/pre_item_05_50266",
+		bt = "",
+		id = 30304,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30305] = {
+		setNum = 999,
+		describe = "달콤한 디저트 향에 둘러싸여 평온한 오후의 티타임을 즐길 수 있다.",
+		name = "화원 테이블 세트",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30305",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50263/prefab/pre_item_05_50263",
+		bt = "",
+		id = 30305,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30401] = {
+		setNum = 999,
+		describe = "햇살 아래서 해바라기와 함께 바람에 몸을 맡기며 흔들려 보자.",
+		name = "꽃밭의 그네",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30401",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50253/prefab/pre_item_05_50253",
+		bt = "",
+		id = 30401,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		interact_point = {
+			17
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30402] = {
+		setNum = 999,
+		describe = "동전을 하나 던지고 물소리와 소원의 여운에 귀 기울여 보자.",
+		name = "기원의 분수",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30402",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50254/prefab/pre_item_05_50254",
+		bt = "",
+		id = 30402,
+		tech_id = 0,
+		size = {
+			7,
+			6
+		},
+		interact_point = {
+			18
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30403] = {
+		setNum = 999,
+		describe = "머리를 쓰다듬으면 하루 종일 기분 최고!",
+		name = "럭키 만쥬상",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_30403",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50257/prefab/pre_item_05_50257",
+		bt = "",
+		id = 30403,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		interact_point = {
+			19
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30404] = {
+		setNum = 999,
+		describe = "쉿…… 물가에는 손님이 자주 오니 놀라게 하지 않도록 주의하자.",
+		name = "휴식의 연못",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30404",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50267/prefab/pre_item_05_50267",
+		bt = "",
+		id = 30404,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30405] = {
+		setNum = 999,
+		describe = "몸과 마음을 치유해 주는 그리운 느낌의 노천탕. 물 온도는 어떤지 한번 볼까?",
+		name = "노스탤지어 연못",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30405",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50271/prefab/pre_item_05_50271",
+		bt = "",
+		id = 30405,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30406] = {
+		setNum = 999,
+		describe = "나비에게 사랑받는 화단. 봄의 한순간을 언제든 간직할 수 있다.",
+		name = "나비가 쉬는 화단",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30406",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50255/prefab/pre_item_05_50255",
+		bt = "",
+		id = 30406,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30407] = {
+		setNum = 999,
+		describe = "황금빛 해바라기를 모아 태양의 기운을 방 안으로 가져오자.",
+		name = "해바라기 꽃다발",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30407",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50273/prefab/pre_item_05_50273",
+		bt = "",
+		id = 30407,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30408] = {
+		setNum = 999,
+		describe = "기둥에 새겨진 고전적인 문양이 조용히 흘러간 시간을 이야기하고 있다.",
+		name = "고전적인 돌기둥",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30408",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50258/prefab/pre_item_05_50258",
+		bt = "",
+		id = 30408,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30409] = {
+		setNum = 999,
+		describe = "거의 무너진 것이나 다름 없는 잔해. 침묵을 잠잠히 지켜보고 있다.",
+		name = "돌기둥의 잔해 (소)",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30409",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50260/prefab/pre_item_05_50260",
+		bt = "",
+		id = 30409,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30410] = {
+		setNum = 999,
+		describe = "반쯤 부서진 돌기둥. 지나간 나날의 흔적이 희미하게 남아 있다.",
+		name = "돌기둥의 잔해 (중)",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30410",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50259/prefab/pre_item_05_50259",
+		bt = "",
+		id = 30410,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30411] = {
+		setNum = 999,
+		describe = "폐허가 된 기둥은 이제는 작은 동물들의 임시 거처가 되었다.",
+		name = "돌기둥의 잔해 (무너짐)",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30411",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50261/prefab/pre_item_05_50261",
+		bt = "",
+		id = 30411,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30412] = {
+		setNum = 999,
+		describe = "틀만 남은 석문의 잔해. 잃어버린 비경으로 이어지는 듯하다.",
+		name = "석문의 잔해",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30412",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50262/prefab/pre_item_05_50262",
+		bt = "",
+		id = 30412,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30413] = {
+		setNum = 999,
+		describe = "특대 사이즈 화병! 정원에서 가장 강렬한 존재감을 뿜어낸다.",
+		name = "장식용 화병",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30413",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50264/prefab/pre_item_05_50264",
+		bt = "",
+		id = 30413,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30414] = {
+		setNum = 999,
+		describe = "레트로풍 가로등이 석판길을 비추며 따뜻한 빛으로 밤의 평온을 지켜준다.",
+		name = "레트로 정원등",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30414",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50270/prefab/pre_item_05_50270",
+		bt = "",
+		id = 30414,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30415] = {
+		setNum = 999,
+		describe = "정원 산책로를 따라 정갈하게 심어진 관상용 꽃들.",
+		name = "조경용 꽃들",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30415",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50276/prefab/pre_item_05_50276",
+		bt = "",
+		id = 30415,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30416] = {
+		setNum = 999,
+		describe = "정성껏 설계되고 관리된 화단으로 단정한 정원의 미를 즐길 수 있다.",
+		name = "조경용 화단",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_30416",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50278/prefab/pre_item_05_50278",
+		bt = "",
+		id = 30416,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30801] = {
+		setNum = 999,
+		describe = "다양한 크기의 천연석을 깔아 만든 정원 돌길. 튼튼하고 내구성이 뛰어나다.",
+		name = "돌길 (소)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30801",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50279/prefab/pre_item_05_50279",
+		bt = "",
+		id = 30801,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30802] = {
+		setNum = 999,
+		describe = "다양한 크기의 천연석을 깔아 만든 정원 돌길. 튼튼하고 내구성이 뛰어나다.",
+		name = "돌길 (중)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30802",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50280/prefab/pre_item_05_50280",
+		bt = "",
+		id = 30802,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
+	[30803] = {
+		setNum = 999,
+		describe = "다양한 크기의 천연석을 깔아 만든 정원 돌길. 튼튼하고 내구성이 뛰어나다.",
+		name = "돌길 (대)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_30803",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50282/prefab/pre_item_05_50282",
+		bt = "",
+		id = 30803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1770,6 +2728,7 @@ pg.island_furniture_template = {
 		22,
 		23,
 		100,
+		101,
 		10101,
 		10201,
 		10301,
@@ -1827,6 +2786,42 @@ pg.island_furniture_template = {
 		20415,
 		20801,
 		20802,
-		20803
+		20803,
+		30001,
+		30002,
+		30003,
+		30004,
+		30005,
+		30006,
+		30007,
+		30008,
+		30009,
+		30010,
+		30101,
+		30201,
+		30301,
+		30302,
+		30303,
+		30304,
+		30305,
+		30401,
+		30402,
+		30403,
+		30404,
+		30405,
+		30406,
+		30407,
+		30408,
+		30409,
+		30410,
+		30411,
+		30412,
+		30413,
+		30414,
+		30415,
+		30416,
+		30801,
+		30802,
+		30803
 	}
 }

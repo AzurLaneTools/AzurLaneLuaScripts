@@ -129,4 +129,64 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = nil
+	slot3 = ys.Battle.BattleResourceManager.GetInstance()
+	slot10 = true
+
+	for slot10, slot11 in ipairs(nowWorld():GetActiveMap():GetFleet():GetShipVOs(slot10)) do
+		table.insert(slot1, slot11)
+	end
+
+	slot7, slot8 = slot5:getFleetBattleBuffs(slot6)
+
+	if slot4:GetSubAidFlag() == true then
+		for slot15, slot16 in ipairs(slot5:GetSubmarineFleet():GetTeamShipVOs(TeamType.Submarine, false)) do
+			table.insert(slot1, slot16)
+		end
+
+		slot12, slot13 = slot5:getFleetBattleBuffs(slot10)
+
+		for slot17, slot18 in ipairs(slot12) do
+			table.insert(slot7, slot18)
+		end
+
+		for slot17, slot18 in ipairs(slot13) do
+			table.insert(slot8, slot18)
+		end
+	end
+
+	slot10, slot11 = slot3.GetPlayerShipResource(slot1, slot0.system)
+	slot12 = slot5:GetChapterAuraBuffs()
+
+	for slot17, slot18 in pairs(slot5:GetChapterAidBuffs()) do
+		for slot22, slot23 in ipairs(slot18) do
+			table.insert(slot12, slot23)
+		end
+	end
+
+	for slot17, slot18 in ipairs(slot3.GetResFromBuffList(slot12)) do
+		table.insert(slot10, slot18)
+	end
+
+	slot15 = slot5:GetCell(slot6.row, slot6.column):GetStageEnemy()
+	slot19 = slot5
+	slot20 = WorldMap.FactionEnemy
+
+	for slot19, slot20 in ipairs(table.mergeArray(slot15:GetBattleLuaBuffs(), slot5.GetBattleLuaBuffs(slot19, slot20, slot15))) do
+		table.insert(slot7, slot20)
+	end
+
+	for slot19, slot20 in ipairs(slot3.GetResFromBuffIDList(slot7)) do
+		table.insert(slot10, slot20)
+	end
+
+	for slot19, slot20 in ipairs(slot3.GetCommanderBuffRes(slot8)) do
+		table.insert(slot10, slot20)
+	end
+
+	return slot10, slot11
+end
+
 return slot0

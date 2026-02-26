@@ -1045,6 +1045,11 @@ temp = function()
 			},
 			["롱"] = {
 				this = true
+			},
+			["처"] = {
+				["우"] = {
+					this = true
+				}
 			}
 		},
 		["얼"] = {
@@ -1613,7 +1618,12 @@ temp = function()
 		[" "] = {
 			["루"] = {
 				["이"] = {
-					this = true
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}
@@ -6644,7 +6654,12 @@ temp = function()
 		["오"] = {
 			[" "] = {
 				["호"] = {
-					this = true
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -6671,6 +6686,23 @@ temp = function()
 		["엔"] = {
 			["우"] = {
 				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["장"] = {
+		["우"] = {
+			this = true
+		},
+		[" "] = {
+			["바"] = {
+				["르"] = {
+					this = true
+				}
 			}
 		}
 	}
@@ -7140,20 +7172,6 @@ temp = function()
 		["케"] = {
 			["르"] = {
 				["크"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["장"] = {
-		[" "] = {
-			["바"] = {
-				["르"] = {
 					this = true
 				}
 			}

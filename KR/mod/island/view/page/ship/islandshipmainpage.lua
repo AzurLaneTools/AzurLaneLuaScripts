@@ -2,6 +2,7 @@ slot0 = class("IslandShipMainPage", import(".IslandBaseShipDisplayPage"))
 slot0.OPEN_PAGE = "IslandShipMainPage:OPEN_PAGE"
 slot0.SELECT_SHIP = "IslandShipMainPage:SELECT_SHIP"
 slot0.CLOSE_DOCK = "IslandShipMainPage:CLOSE_DOCK"
+slot0.CLEAR_ITEM_ANIMATOR = "IslandShipMainPage:CLEAR_ITEM_ANIMATOR"
 slot0.PAGE_DRESS = 1
 slot0.PAGE_INFO = 2
 slot0.PAGE_STATUS = 3
@@ -58,6 +59,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(IslandShipMainPage.SELECT_SHIP, slot0.OnSelectShip)
 	slot0:AddListener(IslandCharacterAgency.ADD_SHIP, slot0.OnAddShip)
 	slot0:AddListener(GAME.ISLAND_UPGRADE_SKILL_DONE, slot0.OnSkillUpgrade)
+	slot0:AddListener(uv0.CLEAR_ITEM_ANIMATOR, slot0.OnClearItemAnimator)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -66,6 +68,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(IslandShipMainPage.SELECT_SHIP, slot0.OnSelectShip)
 	slot0:RemoveListener(IslandCharacterAgency.ADD_SHIP, slot0.OnAddShip)
 	slot0:RemoveListener(GAME.ISLAND_UPGRADE_SKILL_DONE, slot0.OnSkillUpgrade)
+	slot0:RemoveListener(uv0.CLEAR_ITEM_ANIMATOR, slot0.OnClearItemAnimator)
 end
 
 slot0.OnCloseDock = function(slot0)

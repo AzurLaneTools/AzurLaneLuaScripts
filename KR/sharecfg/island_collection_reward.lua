@@ -79,6 +79,20 @@ pg.island_collection_reward = setmetatable({
 			3010,
 			3011,
 			3012
+		},
+		{
+			4001,
+			4002,
+			4003,
+			4004,
+			4005,
+			4006,
+			4007,
+			4008,
+			4009,
+			4010,
+			4011,
+			4012
 		}
 	},
 	all = {
@@ -153,7 +167,19 @@ pg.island_collection_reward = setmetatable({
 		3009,
 		3010,
 		3011,
-		3012
+		3012,
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007,
+		4008,
+		4009,
+		4010,
+		4011,
+		4012
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1015,6 +1041,150 @@ pg.base.island_collection_reward = {
 		type = 3,
 		id = 3012,
 		need_exp = 4000,
+		level = 12,
+		award_display = {
+			2,
+			180001,
+			1
+		}
+	},
+	[4001] = {
+		describe = "도감 Pt 총 10 획득 시: 개발 자금×2000",
+		type = 4,
+		id = 4001,
+		need_exp = 10,
+		level = 1,
+		award_display = {
+			41,
+			1,
+			2000
+		}
+	},
+	[4002] = {
+		describe = "도감 Pt 총 20 획득 시: 아일랜드 EXP 교본 T1×10",
+		type = 4,
+		id = 4002,
+		need_exp = 20,
+		level = 2,
+		award_display = {
+			41,
+			100001,
+			10
+		}
+	},
+	[4003] = {
+		describe = "도감 Pt 총 30 획득 시: 개발 자금×2000",
+		type = 4,
+		id = 4003,
+		need_exp = 30,
+		level = 3,
+		award_display = {
+			41,
+			1,
+			2000
+		}
+	},
+	[4004] = {
+		describe = "도감 Pt 총 40 획득 시: 아일랜드 EXP 교본 T1×10",
+		type = 4,
+		id = 4004,
+		need_exp = 40,
+		level = 4,
+		award_display = {
+			41,
+			100001,
+			10
+		}
+	},
+	[4005] = {
+		describe = "도감 Pt 총 60 획득 시: 개발 자금×5000",
+		type = 4,
+		id = 4005,
+		need_exp = 60,
+		level = 5,
+		award_display = {
+			41,
+			1,
+			5000
+		}
+	},
+	[4006] = {
+		describe = "도감 Pt 총 80 획득 시: 아일랜드 EXP 교본 T2×10",
+		type = 4,
+		id = 4006,
+		need_exp = 80,
+		level = 6,
+		award_display = {
+			41,
+			100002,
+			10
+		}
+	},
+	[4007] = {
+		describe = "도감 Pt 총 100 획득 시: 개발 자금×5000",
+		type = 4,
+		id = 4007,
+		need_exp = 100,
+		level = 7,
+		award_display = {
+			41,
+			1,
+			5000
+		}
+	},
+	[4008] = {
+		describe = "도감 Pt 총 120 획득 시: 아일랜드 개발 결정×1",
+		type = 4,
+		id = 4008,
+		need_exp = 120,
+		level = 8,
+		award_display = {
+			41,
+			100201,
+			1
+		}
+	},
+	[4009] = {
+		describe = "도감 Pt 총 160 획득 시: 개발 자금×10000",
+		type = 4,
+		id = 4009,
+		need_exp = 160,
+		level = 9,
+		award_display = {
+			41,
+			1,
+			10000
+		}
+	},
+	[4010] = {
+		describe = "도감 Pt 총 200 획득 시: 스킨 색상",
+		type = 4,
+		id = 4010,
+		need_exp = 200,
+		level = 10,
+		award_display = {
+			41,
+			3,
+			1
+		}
+	},
+	[4011] = {
+		describe = "도감 Pt 총 250 획득 시: 개발 자금×10000",
+		type = 4,
+		id = 4011,
+		need_exp = 250,
+		level = 11,
+		award_display = {
+			41,
+			1,
+			10000
+		}
+	},
+	[4012] = {
+		describe = "도감 Pt 총 300 획득 시: 한정 기념 코인×1",
+		type = 4,
+		id = 4012,
+		need_exp = 300,
 		level = 12,
 		award_display = {
 			2,

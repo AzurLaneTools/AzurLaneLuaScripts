@@ -7141,7 +7141,8 @@ pg.aircraft_template = setmetatable({
 		3343005,
 		3343201,
 		3343210,
-		3347001
+		3347001,
+		3359205
 	}
 }, confMT)
 pg.base = pg.base or {}
@@ -42846,6 +42847,11 @@ cs.aircraft_template = {
 	[3347001] = {
 		2784879,
 		704,
+		true
+	},
+	[3359205] = {
+		2785583,
+		687,
 		true
 	}
 }

@@ -154,6 +154,8 @@ slot0.SetNavAgentStopDistance = function(slot0, slot1)
 end
 
 slot0.SetNavAgentDestination = function(slot0, slot1)
+	slot0:CheckMovement()
+
 	slot0.agent.isStopped = false
 	slot0.agent.destination = slot1
 end

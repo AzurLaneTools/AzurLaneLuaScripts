@@ -76,7 +76,7 @@ slot0.OnInit = function(slot0)
 			uv0:ShowMsgBox({
 				content = i18n("island_cancel_follow_tip"),
 				onYes = function ()
-					uv0:emit(IslandMediator.DEL_FOLLOWER, uv0.ship.id)
+					uv0:emitCore(ISLAND_EVT.WILL_DEL_FOLLOWER, uv0.ship.id)
 				end
 			})
 		else

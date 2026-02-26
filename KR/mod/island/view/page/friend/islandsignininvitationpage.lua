@@ -45,23 +45,11 @@ slot0.OnInit = function(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.shareBtn, function ()
-		if uv0:GetIsland():GetAccessAgency():HasOpenFlag(IslandConst.OPEN_SIGNIN) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("island_public_invitation_1"))
-
-			return
-		end
-
-		uv0:emit(IslandMediator.SHARE_SIGNIN)
+		uv0:DoShare()
 	end, SFX_PANEL)
 
 	slot4 = function()
-		slot0 = {}
-
-		for slot4, slot5 in ipairs(uv0.displays) do
-			table.insert(slot0, slot5.id)
-		end
-
-		uv0:emit(IslandMediator.SIGN_IN_INVITATION, slot0)
+		uv0:OnOneKey()
 	end
 
 	slot5 = SFX_PANEL
@@ -81,6 +69,26 @@ slot0.OnInit = function(slot0)
 
 		slot0.texts[slot4].text = setColorStr(slot0.names[slot4], "#6B6E75")
 	end
+end
+
+slot0.DoShare = function(slot0)
+	if slot0:GetIsland():GetAccessAgency():HasOpenFlag(IslandConst.OPEN_SIGNIN) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_public_invitation_1"))
+
+		return
+	end
+
+	slot0:emit(IslandMediator.SHARE_SIGNIN)
+end
+
+slot0.OnOneKey = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.displays) do
+		table.insert(slot1, slot6.id)
+	end
+
+	slot0:emit(IslandMediator.SIGN_IN_INVITATION, slot1)
 end
 
 slot0.AddListeners = function(slot0)
@@ -122,12 +130,16 @@ slot0.OnInitItem = function(slot0, slot1)
 	slot2 = IslandSignInInvitationCard.New(slot1)
 
 	onButton(slot0, slot2.btn, function ()
-		uv0:emit(IslandMediator.SIGN_IN_INVITATION, {
-			uv1.player.id
-		})
+		uv0:DoInvitation(uv1)
 	end, SFX_PANEL)
 
 	slot0.cards[slot1] = slot2
+end
+
+slot0.DoInvitation = function(slot0, slot1)
+	slot0:emit(IslandMediator.SIGN_IN_INVITATION, {
+		slot1.player.id
+	})
 end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
@@ -137,7 +149,9 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 		slot3 = slot0.cards[slot2]
 	end
 
-	slot3:Update(slot0.displays[slot1 + 1], slot0:GetIsland())
+	slot5 = slot0.displays[slot1 + 1]
+
+	slot3:Update(slot5, slot0:GetIsland():GetSignInAgency():IsInvited(slot5.id))
 end
 
 slot0.Show = function(slot0)

@@ -63,6 +63,30 @@ pg.island_speedup_ticket = {
 		icon = "islandprops/item_speedup_ticket1",
 		icon_normal = "props/item_speedup_ticket1"
 	},
+	[10005] = {
+		name = "가속권 (1분)",
+		rarity = 2,
+		type = 1,
+		duration = 0,
+		speedup_time = 60,
+		desc = "진행 중인 작업 시간을 1분 단축한다. 이를 이용하여 진행 속도를 올릴 수 있다.",
+		expiration_type = 2,
+		id = 10005,
+		icon = "islandprops/item_speedup_ticket1",
+		icon_normal = "props/item_speedup_ticket1",
+		expiration_time = {
+			{
+				2026,
+				5,
+				7
+			},
+			{
+				12,
+				0,
+				0
+			}
+		}
+	},
 	[20001] = {
 		name = "가속권 (10분)",
 		rarity = 3,
@@ -125,6 +149,30 @@ pg.island_speedup_ticket = {
 		id = 20004,
 		icon = "islandprops/item_speedup_ticket2",
 		icon_normal = "props/item_speedup_ticket2"
+	},
+	[20005] = {
+		name = "가속권 (10분)",
+		rarity = 3,
+		type = 2,
+		duration = 0,
+		speedup_time = 600,
+		desc = "진행 중인 작업 시간을 10분 단축한다. 이를 이용하여 진행 속도를 올릴 수 있다.",
+		expiration_type = 2,
+		id = 20005,
+		icon = "islandprops/item_speedup_ticket2",
+		icon_normal = "props/item_speedup_ticket2",
+		expiration_time = {
+			{
+				2026,
+				5,
+				7
+			},
+			{
+				12,
+				0,
+				0
+			}
+		}
 	},
 	[30001] = {
 		name = "가속권 (60분)",
@@ -189,24 +237,51 @@ pg.island_speedup_ticket = {
 		icon = "islandprops/item_speedup_ticket3",
 		icon_normal = "props/item_speedup_ticket3"
 	},
+	[30005] = {
+		name = "가속권 (60분)",
+		rarity = 4,
+		type = 3,
+		duration = 0,
+		speedup_time = 3600,
+		desc = "진행 중인 작업 시간을 60분 단축한다. 이를 이용하여 진행 속도를 올릴 수 있다.",
+		expiration_type = 2,
+		id = 30005,
+		icon = "islandprops/item_speedup_ticket3",
+		icon_normal = "props/item_speedup_ticket3",
+		expiration_time = {
+			{
+				2026,
+				5,
+				7
+			},
+			{
+				12,
+				0,
+				0
+			}
+		}
+	},
 	get_id_list_by_speedup_time = {
 		[60] = {
 			10001,
 			10002,
 			10003,
-			10004
+			10004,
+			10005
 		},
 		[600] = {
 			20001,
 			20002,
 			20003,
-			20004
+			20004,
+			20005
 		},
 		[3600] = {
 			30001,
 			30002,
 			30003,
-			30004
+			30004,
+			30005
 		}
 	},
 	all = {
@@ -214,13 +289,16 @@ pg.island_speedup_ticket = {
 		10002,
 		10003,
 		10004,
+		10005,
 		20001,
 		20002,
 		20003,
 		20004,
+		20005,
 		30001,
 		30002,
 		30003,
-		30004
+		30004,
+		30005
 	}
 }

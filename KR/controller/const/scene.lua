@@ -157,8 +157,10 @@ SCENE = {
 	NEWYEAR_BACKHILL_2024 = "NEWYEAR_BACKHILL_2024",
 	NEWYEAR_SQUARE = "newyear square",
 	CORE_ACTIVITY = "scene core activity",
+	LOVE_LETTER_ACTIVITY = "love letter activity",
 	ATELIER_COMPOSITE = "ATELIER_COMPOSITE",
 	RYZA_TASK = "ryza task scene",
+	ZHANG_WU_BOSS = "zhang wu boss",
 	DORM3DSELECT = "dorm 3d select",
 	TRAININGCAMP = "trainingcamp",
 	LINK_LINK = "link link",
@@ -459,8 +461,8 @@ slot0 = {
 		slot0.viewComponent = CommanderCatScene
 	end,
 	[SCENE.COLORING] = function (slot0, slot1)
-		slot0.mediator = ColoringMediator
-		slot0.viewComponent = ColoringScene
+		slot0.mediator = SpringFestival2026ColoringAnshanMediator
+		slot0.viewComponent = SpringFestival2026ColoringAnshanscene
 	end,
 	[SCENE.CARD_PAIRS] = function (slot0, slot1)
 		slot0.mediator = CardPairsMediator
@@ -1094,6 +1096,14 @@ slot0 = {
 	[SCENE.EIGHTH_HOTSPRING] = function (slot0, slot1)
 		slot0.mediator = EighthHotSpringMediator
 		slot0.viewComponent = EighthHotSpringScene
+	end,
+	[SCENE.LOVE_LETTER_ACTIVITY] = function (slot0, slot1)
+		slot0.mediator = LoveLetterActivityMediator
+		slot0.viewComponent = LoveLetterActivityScene
+	end,
+	[SCENE.ZHANG_WU_BOSS] = function (slot0, slot1)
+		slot0.mediator = ActivityBossMediatorTemplate
+		slot0.viewComponent = ActivityBossZhangwuScene
 	end
 }
 
@@ -1572,6 +1582,64 @@ slot1 = {
 		GraphicSettingConst.InitDefautQuality(true)
 		GraphicSettingConst.SettingQuality(true)
 		slot1()
+	end,
+	LoveLetterGiftCollectMediator = function (slot0, slot1)
+		if not getProxy(LoveLetterProxy):CanRealizeGift() then
+			pg.TipsMgr.GetInstance():ShowTips("your gifts record without change pattern !")
+		else
+			slot0.context.data.items = slot2
+
+			slot1()
+		end
+	end,
+	LoveLetterGiftLevelDisplayMediator = function (slot0, slot1)
+		slot3 = {}
+
+		if getProxy(LoveLetterProxy):GetGroupData(slot0.context.data.groupId):CanLevelUp() then
+			slot5 = slot4:GetDisplayLevel()
+
+			table.insert(slot3, function (slot0)
+				pg.m02:sendNotification(GAME.LOVE_LETTER_LEVEL_UP, {
+					groupId = uv0.groupId,
+					callback = slot0
+				})
+			end)
+			table.insert(slot3, function (slot0)
+				uv0 = getProxy(LoveLetterProxy):GetGroupData(uv1.groupId)
+				uv1.isLevelUp = uv2 < uv0:GetDisplayLevel()
+
+				slot0()
+			end)
+		end
+
+		seriesAsync(slot3, slot1)
+	end,
+	LoveLetterDisplayMediator = function (slot0, slot1)
+		slot2 = slot0.context.data
+		slot3 = {}
+		slot7 = slot0.context.data.groupId
+
+		for slot7, slot8 in ipairs(getProxy(LoveLetterProxy):GetGroupData(slot7):GetDisplayLetterList()) do
+			if not getProxy(LoveLetterProxy):GetLoveLetterContent(slot8) then
+				table.insert(slot3, function (slot0)
+					pg.m02:sendNotification(GAME.REQUEST_LOVE_LETTER_TEXT, {
+						id = uv0,
+						callback = slot0
+					})
+				end)
+			end
+		end
+
+		seriesAsync(slot3, slot1)
+	end,
+	CombatLoadMediator = function (slot0, slot1)
+		slot2, slot3 = CombatLoadUI.GetTotalResourceList(slot0.context.data)
+
+		PaintingGroupConst.PaintingDownload({
+			isShowBox = true,
+			paintingNameList = PaintingGroupConst.FiltePaintingRes(slot2),
+			finishFunc = slot1
+		})
 	end
 }
 

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_furniture1_tone2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "앵커리지…… 선생님，{dorm3d}……！",
+			say = "선생님한테…… 잡혔다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 						},
 						{
 							skip = false,
-							time = 1.5,
+							time = 3,
 							type = "wait"
 						}
 					}

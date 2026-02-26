@@ -27,6 +27,12 @@ slot0.IsShowTip = function(slot0)
 		return OtherworldMapScene.IsShowTip()
 	elseif slot3 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH or slot3 == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
 		return false
+	elseif slot3 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+		if not getProxy(ActivityProxy):getActivityById(slot2:GetBindPtActID()) then
+			return false
+		end
+
+		return ActivityBossPtData.New(slot4):CanGetAward()
 	end
 
 	return getProxy(ChapterProxy):IsActivitySPChapterActive(slot1) and SettingsProxy.IsShowActivityMapSPTip()

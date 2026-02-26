@@ -16,15 +16,8 @@ end
 
 slot0.Execute = function(slot0, slot1, slot2)
 	slot0.stopping = false
-
-	if #slot0:GetView():GetUnitListByKey(IslandConst.UNIT_LIST_FOLLOW) <= 1 then
-		onNextTick(slot2)
-
-		return
-	end
-
 	slot0.callback = slot2
-	slot4 = slot0:CollectWords(slot1, slot3)
+	slot4 = slot0:CollectWords(slot1, slot0:GetView():GetUnitListByKey(IslandConst.UNIT_LIST_FOLLOW))
 
 	shuffle(slot4)
 
@@ -53,8 +46,8 @@ slot0.CollectWords = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(pg.island_couple_word.all) do
 		if pg.island_couple_word[slot8].type == 1 and slot0:CheckShipCouple(slot9.param, slot1) and slot0:IsHappen(slot9.weight) and slot0:CoupleShipInTeam(slot9.param, slot2) then
 			table.insert(slot3, slot9.story)
-		elseif slot9.type ~= 1 then
-			assert(false, "type not support")
+		elseif slot9.type == 2 and table.contains(slot9.param, slot1) and slot0:IsHappen(slot9.weight) then
+			table.insert(slot3, slot9.story)
 		end
 	end
 
@@ -119,11 +112,8 @@ end
 slot0.IsVaildStory = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1.steps) do
 		slot7 = slot6:GetUnitData()
-		slot8 = slot0:GetView():GetUnitModuleWithType(slot7.type, slot7.id)
 
-		assert(slot8, slot7.type .. " - " .. slot7.id)
-
-		if not slot8 then
+		if not slot0:GetView():GetUnitModuleWithType(slot7.type, slot7.id) then
 			return false
 		end
 	end

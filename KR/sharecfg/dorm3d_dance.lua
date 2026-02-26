@@ -105,9 +105,45 @@ pg.dorm3d_dance = {
 			"컷3"
 		}
 	},
+	[20220] = {
+		default_camera = "dance_camera1",
+		song_name = "풀 리듬",
+		director_name = "[sequence]",
+		timeline_scene = "Dance_20220",
+		id = 20220,
+		finish_anim = "weixiao",
+		cucoloris_group = {
+			{
+				401,
+				404,
+				407
+			},
+			{
+				402,
+				405,
+				408
+			},
+			{
+				403,
+				406,
+				409
+			}
+		},
+		camera_tracks = {
+			"dance_camera1",
+			"dance_camera2",
+			"dance_camera3"
+		},
+		camera_names = {
+			"컷1",
+			"컷2",
+			"컷3"
+		}
+	},
 	all = {
 		10517,
 		30707,
-		49905
+		49905,
+		20220
 	}
 }

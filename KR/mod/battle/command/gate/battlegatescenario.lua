@@ -199,4 +199,57 @@ slot0.Exit = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPreloadList = function(slot0)
+	slot1 = {}
+	slot2 = nil
+	slot5 = ys.Battle.BattleResourceManager.GetInstance()
+
+	for slot11, slot12 in ipairs(getProxy(ChapterProxy):getActiveChapter().fleet:getShips(false)) do
+		table.insert(slot1, slot12)
+	end
+
+	slot8, slot9 = slot4:getFleetBattleBuffs(slot6)
+	slot10 = slot3.GetChapterAuraBuffs(slot4)
+
+	for slot15, slot16 in pairs(slot3.GetChapterAidBuffs(slot4)) do
+		for slot20, slot21 in ipairs(slot16) do
+			table.insert(slot10, slot21)
+		end
+	end
+
+	slot12, slot13 = slot3.getSubAidFlag(slot4, slot0.stageId)
+
+	if slot12 == true or slot12 > 0 then
+		for slot18, slot19 in ipairs(slot13:getShipsByTeam(TeamType.Submarine, false)) do
+			table.insert(slot1, slot19)
+		end
+
+		slot15, slot16 = slot4:getFleetBattleBuffs(slot13)
+
+		for slot20, slot21 in ipairs(slot15) do
+			table.insert(slot8, slot21)
+		end
+
+		for slot20, slot21 in ipairs(slot16) do
+			table.insert(slot9, slot21)
+		end
+	end
+
+	slot14, slot15 = slot5.GetPlayerShipResource(slot1, slot0.system)
+
+	for slot19, slot20 in ipairs(slot5.GetCommanderBuffRes(slot9)) do
+		table.insert(slot14, slot20)
+	end
+
+	for slot19, slot20 in ipairs(slot5.GetResFromBuffIDList(slot8)) do
+		table.insert(slot14, slot20)
+	end
+
+	for slot19, slot20 in ipairs(slot5.GetResFromBuffList(slot10)) do
+		table.insert(slot14, slot20)
+	end
+
+	return slot14, slot15
+end
+
 return slot0

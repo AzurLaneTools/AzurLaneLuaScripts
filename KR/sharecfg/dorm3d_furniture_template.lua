@@ -893,6 +893,42 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/livingroom"
 		}
 	},
+	[324] = {
+		rarity = 5,
+		name = "동심 낙원",
+		type = 4,
+		room_id = 3,
+		desc = "폭신폭신한 하트 쿠션과 반짝이는 장난감 램프. 오션 블루빛 꿈으로 물든 동심 낙원에 오신 것을 환영합니다.",
+		is_exclusive = 1,
+		model = "Pay_Anchoragehostel/Ah_Sp_ValentinesDay/pre_db_aklq_sp_vd01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture9",
+		acesses = "",
+		id = 324,
+		target_slots = {
+			130103
+		},
+		touch_id = {
+			{
+				19903,
+				1990370
+			}
+		},
+		shop_id = {
+			270304
+		},
+		unlock_tips = {
+			8
+		},
+		unlock_banners = {
+			"banner_furniture324"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
 	[1101] = {
 		rarity = 3,
 		name = "토끼 요람",
@@ -1178,6 +1214,38 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/bedroom"
 		}
 	},
+	[1154] = {
+		rarity = 4,
+		name = "스마트 냉장고 IB-7",
+		type = 6,
+		room_id = 11,
+		desc = "안녕하세요. 스마트 냉장고 IB-7에 오신 것을 환영합니다. \n주문하신 딸기 아이스크림이 완성되었습니다. 당신이 가장 좋아하는 맛입니다. \n…………추가 맞춤 제안을 원하시나요? 해당 기능은 현재 개발 중입니다. 기대해 주세요!",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_kitchen01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture3",
+		scene_hides = "",
+		acesses = "",
+		id = 1154,
+		target_slots = {
+			1110204
+		},
+		touch_id = {
+			{
+				10517,
+				1051780
+			}
+		},
+		shop_id = {
+			270206
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1154"
+		}
+	},
 	[1201] = {
 		rarity = 3,
 		name = "폭신한 침대",
@@ -1435,6 +1503,40 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/entertainment"
 		}
 	},
+	[1223] = {
+		rarity = 4,
+		name = "벚꽃이 있는 자리",
+		type = 5,
+		room_id = 12,
+		desc = "고풍스러운 종이 등의 붉은 빛과 은은한 차 향이 피어오르는 가운데, 정교한 다기가 놓여 있다. 벚꽃 장식이 더해진 방석과 어우러져, 품격 있는 손님맞이 풍경을 자아낸다.",
+		is_exclusive = 1,
+		model = "Pay_Dafenghostel/pre_db_df_livingroom_01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture3",
+		acesses = "",
+		id = 1223,
+		target_slots = {
+			1120303
+		},
+		touch_id = {
+			{
+				30707,
+				3070760
+			}
+		},
+		shop_id = {
+			270503
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1223"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	[1401] = {
 		rarity = 3,
 		name = "푹신한 실크 침대",
@@ -1690,7 +1792,8 @@ pg.dorm3d_furniture_template = {
 			307,
 			321,
 			322,
-			323
+			323,
+			324
 		},
 		{
 			401
@@ -1706,7 +1809,8 @@ pg.dorm3d_furniture_template = {
 			1108,
 			1151,
 			1152,
-			1153
+			1153,
+			1154
 		},
 		[12] = {
 			1201,
@@ -1718,7 +1822,8 @@ pg.dorm3d_furniture_template = {
 			1214,
 			1215,
 			1221,
-			1222
+			1222,
+			1223
 		},
 		[14] = {
 			1401,
@@ -1767,6 +1872,7 @@ pg.dorm3d_furniture_template = {
 		322,
 		401,
 		323,
+		324,
 		1101,
 		1102,
 		1103,
@@ -1778,6 +1884,7 @@ pg.dorm3d_furniture_template = {
 		1151,
 		1152,
 		1153,
+		1154,
 		1201,
 		1202,
 		1203,
@@ -1788,6 +1895,7 @@ pg.dorm3d_furniture_template = {
 		1215,
 		1221,
 		1222,
+		1223,
 		1401,
 		1402,
 		1403,

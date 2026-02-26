@@ -1,13 +1,10 @@
 slot0 = class("IslandFishingOPView", import("Mod.Island.Core.View.IslandASynLoadAndCacheSubView"))
-slot1 = 1
-slot2 = 2
-slot3 = 3
-slot4 = 0
-slot5 = 1
-slot6 = 2
-slot7 = 3
-slot8 = 4
-slot9 = 5
+slot1 = 0
+slot2 = 1
+slot3 = 2
+slot4 = 3
+slot5 = 4
+slot6 = 5
 
 slot0.GetUIName = function(slot0)
 	return "IslandFishingOpUI"
@@ -599,8 +596,8 @@ slot0.DisplayResult = function(slot0)
 	slot0.resultTxt.text = slot0.fishName .. "   " .. slot0.fishWeight / 1000 .. "KG"
 
 	setActive(slot0.resultNewTr, slot0.isNew)
-	setActive(slot0.resultCupMaxTr, slot0.cupType == uv0)
-	setActive(slot0.resultCupMinTr, slot0.cupType == uv1)
+	setActive(slot0.resultCupMaxTr, slot0.cupType == IslandFish.CUP_STATE_MAX)
+	setActive(slot0.resultCupMinTr, slot0.cupType == IslandFish.CUP_STATE_MIN)
 	setActive(slot0.resultRecordTr, slot0.isNewRecord)
 	slot0:ShowTip(slot0.resultTr)
 end

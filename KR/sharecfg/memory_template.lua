@@ -3973,6 +3973,20 @@ pg.memory_template = setmetatable({
 		4975,
 		4976,
 		4977,
+		4981,
+		4982,
+		4983,
+		4984,
+		4985,
+		4986,
+		4987,
+		4991,
+		4992,
+		4993,
+		5001,
+		5002,
+		5003,
+		5004,
 		10000,
 		10001,
 		10002,
@@ -63763,6 +63777,216 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"DINGAN7"
+		}
+	},
+	[4981] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "신춘 옥션",
+		condition = "이벤트 페이지로 이동",
+		story = "CHUNYANHUAIYUXIANGMANTING1",
+		id = 4981,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING1"
+		}
+	},
+	[4982] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "천재일우",
+		condition = "「신춘 주옥 명품회」 작전 진척 15%",
+		story = "CHUNYANHUAIYUXIANGMANTING2",
+		id = 4982,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING2"
+		}
+	},
+	[4983] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "작전 개시!",
+		condition = "「신춘 주옥 명품회」 작전 진척 30%",
+		story = "CHUNYANHUAIYUXIANGMANTING3",
+		id = 4983,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING3"
+		}
+	},
+	[4984] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "하늘에서 내려온 트러블",
+		condition = "「신춘 주옥 명품회」 작전 진척 45%",
+		story = "CHUNYANHUAIYUXIANGMANTING4",
+		id = 4984,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING4"
+		}
+	},
+	[4985] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "옥션 시간!",
+		condition = "「신춘 주옥 명품회」 작전 진척 60%",
+		story = "CHUNYANHUAIYUXIANGMANTING5",
+		id = 4985,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING5"
+		}
+	},
+	[4986] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "향기로 찾은 미옥",
+		condition = "「신춘 주옥 명품회」 작전 진척 75%",
+		story = "CHUNYANHUAIYUXIANGMANTING6",
+		id = 4986,
+		icon = "memory_chunyanhuaiyuxiangmanting1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING6"
+		}
+	},
+	[4987] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "새콤달콤한 벌칙 타임",
+		condition = "「신춘 주옥 명품회」 작전 진척 100%",
+		story = "CHUNYANHUAIYUXIANGMANTING7",
+		id = 4987,
+		icon = "memory_chunyanhuaiyuxiangmanting2",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNYANHUAIYUXIANGMANTING7"
+		}
+	},
+	[4991] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "초콜릿 핀치!",
+		condition = "「발렌타인-스윗 대작전!」에 참여",
+		story = "QINGRENJIE1",
+		id = 4991,
+		icon = "memory_qingrenjie",
+		is_open = 0,
+		unlock_pre = {
+			"QINGRENJIE1"
+		}
+	},
+	[4992] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "초콜릿 가게를 구하라!",
+		condition = "「발렌타인-스윗 대작전!」에 참여",
+		story = "QINGRENJIE2",
+		id = 4992,
+		icon = "memory_qingrenjie",
+		is_open = 0,
+		unlock_pre = {
+			"QINGRENJIE2"
+		}
+	},
+	[4993] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "달콤한 고민",
+		condition = "「발렌타인-스윗 대작전!」에 참여",
+		story = "QINGRENJIE3",
+		id = 4993,
+		icon = "memory_qingrenjie",
+		is_open = 0,
+		unlock_pre = {
+			"QINGRENJIE3"
+		}
+	},
+	[5001] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "어우러지는 봄밤",
+		condition = "「스킨 특집 홍장 의상」의 장우 스토리 오픈",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN1",
+		id = 5001,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN1"
+		}
+	},
+	[5002] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "이성의 밤에 탐닉하며",
+		condition = "「스킨 특집 홍장 의상」의 프리드리히 데어 그로세 스토리 오픈",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN2",
+		id = 5002,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN2"
+		}
+	},
+	[5003] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "잠을 깨우는 진한 향기",
+		condition = "「스킨 특집 홍장 의상」의 하이처우 스토리 오픈",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN3",
+		id = 5003,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN3"
+		}
+	},
+	[5004] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "녹아드는 꿈속의 포옹",
+		condition = "「스킨 특집 홍장 의상」의 시나노 스토리 오픈",
+		story = "SHISHANGTEKANHONGXIAOZHANGNUAN4",
+		id = 5004,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANHONGXIAOZHANGNUAN4"
 		}
 	},
 	[10000] = {

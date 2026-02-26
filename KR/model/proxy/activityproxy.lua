@@ -313,6 +313,10 @@ slot0.timeCall = function(slot0)
 							uv0:sendNotification(GAME.SINGLE_EVENT_REFRESH, {
 								actId = uv1.id
 							})
+						end,
+						[ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_UP] = function ()
+							uv0:DayReset()
+							uv1:updateActivity(uv0)
 						end
 					})
 				end
@@ -936,7 +940,7 @@ slot0.getEnterReadyActivity = function(slot0)
 	for slot6, slot7 in pairs(slot0.data) do
 		if switch(slot7:getConfig("type"), slot1, function (slot0)
 			return false
-		end) and not slot7:isEnd() and tobool(slot7:getConfig("config_client").entrance_bg) then
+		end, slot7) and not slot7:isEnd() and tobool(slot7:getConfig("config_client").entrance_bg) then
 			table.insert(slot2, slot7)
 		end
 	end
@@ -1079,6 +1083,10 @@ slot0.CheckDailyEventRequest = function(slot0, slot1)
 			actId = slot1.id
 		})
 	end
+end
+
+slot0.IsTipLoveLetterMail = function(slot0)
+	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_MAIL) and not slot1:isEnd() and slot1:readyToAchieve()
 end
 
 return slot0
