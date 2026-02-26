@@ -9,7 +9,7 @@ return {
 			hidePaintObj = true,
 			bgName = "bg_tianqiong_1",
 			bgm = "story-weimu-link",
-			say = "前往安克雷奇都市防御司令部的途中，我突然收到了孟菲斯·META发来的一条奇怪联络。",
+			say = "前往安克拉治都市防禦司令部的途中，我突然收到了曼非斯·META發來的一條奇怪聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			actor = 900390,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "指挥官，沉睡中的马可波罗从构建之庭中消失了！",
+			say = "指揮官，沉睡中的馬可波羅從構建之庭中消失了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			actor = 900390,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "定位显示，她似乎来到了你的身边……？",
+			say = "定位顯示，她似乎來到了你的身邊……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 107250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……大家快看，前面的路灯上是不是站了个人？",
+			say = "……大家快看，前面的路燈上是不是站了個人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 				}
 			},
 			location = {
-				"安克雷奇·都市区",
+				"安克拉治·都會區",
 				3
 			}
 		},
@@ -110,7 +110,7 @@ return {
 			actor = 9707060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呃……还真是，为什么有人要站在路灯上？",
+			say = "呃……還真是，為什麼有人要站在路燈上？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……路灯？",
+			say = "……路燈？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,11 +160,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈哈哈……终于——本圣座终于回来了！",
+			say = "啊哈哈哈哈……終於——本聖座終於回來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +179,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "渺小的凡人们，在这绝对的力量面前颤抖吧~！",
+			say = "渺小的凡人們，在這絕對的力量面前顫抖吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg4",
 			hidePaintObj = true,
-			say = "不远处的路灯上，一个身披斗篷的人形身影正在叫嚣着如同经典反派般的宣言。",
+			say = "在不遠處的路燈上，一個身披斗篷的人形身影正在叫囂著如同經典反派般的宣言。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,18 +205,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg4",
 			hidePaintObj = true,
-			say = "——不是马可波罗又是何人。",
+			say = "——不是馬可波羅又是何人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……怎么是你？！",
+					content = "……怎麼是妳？！",
 					flag = 1
 				},
 				{
-					content = "……这个登场方式你是跟谁学的。",
+					content = "……這個登場方式妳是跟誰學的。",
 					flag = 2
 				}
 			}
@@ -225,12 +225,12 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵~怎么就不能是我了？",
+			say = "呵~怎麼就不能是我了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,12 +240,12 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本圣座自己悟出来的，如何~霸气外露吧？",
+			say = "本聖座自己悟出來的，如何~霸氣外露吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,11 +255,11 @@ return {
 			portrait = 101550,
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
-			actorName = "克拉伦斯·K·布朗森",
+			actorName = "克拉倫斯·K·布朗森",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你居然跟这个怪人认识吗……？",
+			say = "指揮官，你居然跟這個怪人認識嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,11 +269,11 @@ return {
 			portrait = 101550,
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
-			actorName = "克拉伦斯·K·布朗森",
+			actorName = "克拉倫斯·K·布朗森",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说……这位竟然也是我们的援军？",
+			say = "也就是說……這位竟然也是我們的援軍？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我已经有点想说不认识了……",
+			say = "我已經有點想說不認識了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……至于是不是援军，也先暂时存疑。",
+			say = "……至於是不是援軍，也先暫時存疑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇——好帅好帅！我也要学这个登场方式！",
+			say = "哇——好帥好帥！我也要學這個登場方式！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actorName = "帕萨迪纳",
+			actorName = "帕沙第納",
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我也想学……简直一眼就能抓住所有人的目光呢！",
+			say = "我也想學……簡直一眼就能抓住所有人的目光呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,11 +344,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼~指挥官，你看，还是有人是识货的呢~",
+			say = "哼~指揮官，你看，還是有人是識貨的呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,11 +358,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无须担心，本圣座自然是来帮忙的。",
+			say = "無須擔心，本聖座自然是來幫忙的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,11 +372,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg4",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位且看——",
+			say = "諸位且看——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg5",
 			hidePaintObj = true,
-			say = "伴随着空间的抖动，一个巨大的银白色虚影在马可波罗的身后缓缓出现了。",
+			say = "伴隨著空間的抖動，一個巨大的銀白色虛影在馬可波羅的身後緩緩出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg5",
 			hidePaintObj = true,
-			say = "与其一同出现的还有一柄同样半透明的银白色法杖。",
+			say = "與其一同出現的還有一柄同樣半透明的銀白色法杖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇啊——这是什么呀？！",
+			say = "哇啊——這是什麼呀？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,13 +439,13 @@ return {
 			}
 		},
 		{
-			actorName = "克拉伦斯·K·布朗森",
+			actorName = "克拉倫斯·K·布朗森",
 			side = 2,
 			bgName = "bg_tianqiong_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……立体投影么？",
+			say = "……立體投影嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,11 +455,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg5",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "错——！",
+			say = "錯——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,11 +469,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg5",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是力量！！",
+			say = "這是力量！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,11 +488,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg5",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是本圣座如今力量的象征啊！",
+			say = "這是本聖座如今力量的象徵啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,11 +502,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg5",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼哼~还没完呢！",
+			say = "哼哼哼~還沒完呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg6",
 			hidePaintObj = true,
-			say = "伴随着更大面积的空间抖动起来，一架又一架外表狰狞的舰载机出现了。",
+			say = "伴隨著更大面積的空間抖動起來，一架又一架外表猙獰的艦載機出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,11 +543,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg6",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "桀桀桀……尽情仰视本座如今获得的力量吧！",
+			say = "桀桀桀……盡情仰視本座如今獲得的力量吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg6",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -581,7 +581,7 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg6",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -606,7 +606,7 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg6",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -631,11 +631,11 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_tianqiong_cg6",
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……本圣座该怎么从路灯上下来着……？",
+			say = "呃……本聖座該怎麼從路燈上下來著……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg6",
 			hidePaintObj = true,
-			say = "很显然，出现在马可波罗身边的是海洛芬特的虚影和迪贝路的舰载机。",
+			say = "很顯然，出現在馬可波羅身邊的是海洛芬特的虛影和迪貝路的艦載機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg6",
 			hidePaintObj = true,
-			say = "我就觉得之前的海洛芬特有些问题……难道说，她想办法窥探到了完美未来中的一角？",
+			say = "我就覺得之前的海洛芬特有些問題……難道說，她想辦法窺探到了完美未來中的一角？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg6",
 			hidePaintObj = true,
-			say = "也罢，现在多一个人就多一份胜算。",
+			say = "也罷，現在多一個人就多一份勝算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg6",
 			hidePaintObj = true,
-			say = "就算来支援的是马可波罗，也应该算一件好事……吧？",
+			say = "就算來支援的是馬可波羅，也應該算一件好事……吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

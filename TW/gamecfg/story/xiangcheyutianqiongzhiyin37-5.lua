@@ -13,7 +13,7 @@ return {
 			bgm = "story-antix-past",
 			actor = 900191,
 			nameColor = "#A9F548FF",
-			say = "——很好，帷幕的承载压力正在迅速下降。",
+			say = "——很好，帷幕的承載壓力正在迅速下降。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 				}
 			},
 			location = {
-				"实验场θ·星空帷幕",
+				"實驗場θ·星空帷幕",
 				3
 			}
 		},
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_tianqiong_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "天帕岚斯，赫米忒，准备协助司答重置星空帷幕。",
+			say = "天帕嵐斯，赫米忒，準備協助司答重置星空帷幕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hideOther = true,
-			actorName = "仲裁者·天帕岚斯·XIV&仲裁者·赫米忒·IX",
-			say = "是。\n收到。",
+			actorName = "仲裁者·天帕嵐斯·XIV&仲裁者·赫米忒·IX",
+			say = "是。 收到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_tianqiong_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "麦纪莎，你那边也开始准备吧。",
+			say = "麥紀莎，妳那邊也開始準備吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_tianqiong_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "然后……",
+			say = "然後……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_tianqiong_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "沐恩，用玉轮型机体通知{playername}，可以转移去安克雷奇国立天文台了。",
+			say = "沐恩，用玉輪型機體通知{playername}，可以轉移去安克拉治國立天文台了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_tianqiong_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果要去再见一下海伦娜的话——就去做好准备吧。",
+			say = "如果要去再見一下海倫娜的話——就去做好準備吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			bgm = "theme-brokenworld-sad",
 			actor = 9701070,
 			nameColor = "#FFC960",
-			say = "猎人……今天这里聚集了不少仲裁机关么……",
+			say = "獵人……今天這裡聚集了不少仲裁機關嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 				}
 			},
 			location = {
-				"阿拉斯加湾·27号作战海域",
+				"阿拉斯加灣·27號作戰海域",
 				3
 			}
 		},
@@ -36,7 +36,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "怎么样……有找到当年救你那个么？",
+			say = "怎麼樣，有找到當年救妳那個嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "我不确定，或许没有……或许是它把我的记忆消除得太彻底了……",
+			say = "我不確定，或許沒有……或許是它把我的記憶消除得太徹底了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9701010,
-			say = "我没有感受到任何熟悉感……",
+			say = "我沒有感受到任何熟悉感……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "没有“熟悉感”……大概就没有呢。",
+			say = "沒有「熟悉感」……大概就沒有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9701070,
-			say = "唔……没关系，至少一下子排除了不少嘛~",
+			say = "嗯……沒關係，至少一下子排除了不少啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9707070,
-			say = "……天外之兽又要出现了。",
+			say = "……天外之獸又要出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "此处的世界是如此美好……决不允许它们肆意践踏……",
+			say = "這裡的世界是如此美好……絕不允許它們肆意踐踏……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9707070,
-			say = "必须要保护下来……",
+			say = "必須要保護下來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "原本是被{namecode:529:苏维埃同盟}郑重其事地拜托了，所以才决定过来帮帮忙的……",
+			say = "原本是被蘇維埃聯盟鄭重其事地拜託了，所以才決定過來幫忙的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702060,
-			say = "没想到来了之后才发现……此处真是非同一般。",
+			say = "沒想到來了之後才發現……這裡真是非同一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702060,
-			say = "……世界是如此广阔。",
+			say = "……世界是如此廣闊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702060,
-			say = "或许……是时候再向前踏出一步了……",
+			say = "或許……是時候再向前走一步了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_596",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			soundeffect = "event:/ui/didi",
 			bgm = "story-startravel",
 			nameColor = "#A9F548FF",
@@ -289,7 +289,7 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			say = "陛下，我们在26号战区遭遇敌人，现在开始迎击。",
+			say = "陛下，我們在26號戰區遭遇敵人，現在開始迎擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "本王知道了，列车随时可支援，你们放心打。",
+			say = "本王知道了，列車隨時可支援，妳們放心打。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "啊——还有一点，所有人都要注意。",
+			say = "啊——還有一點，所有人都要注意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "这一次，我们面对的不仅是一场场局部的歼灭战，更是一场整体性的防御战。",
+			say = "這一次，我們面對的不僅是一場局部的殲滅戰，更是一場整體性的防禦戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "你们要注意监控相邻海域的情况，与周边友军舰队保持紧密联系，随时准备协作，共同歼敌！",
+			say = "你們要注意監控鄰近海域的狀況，與週邊友軍艦隊保持緊密聯繫，隨時準備協作，共同殲敵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "呼……本王也发现敌人了。",
+			say = "呼……本王也發現敵人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			actor = 9705040,
 			nameColor = "#FFC960",
-			say = "全员就位，跟本王出发——！",
+			say = "全員就位，跟著本王出發－！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

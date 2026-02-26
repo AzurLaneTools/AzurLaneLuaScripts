@@ -36292,6 +36292,290 @@ pg.activity_shop_template = {
 			}
 		}
 	},
+	[12017] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 60,
+		num_limit = 1,
+		activity = 7104,
+		num = 1,
+		commodity_id = 9705011,
+		commodity_type = 4,
+		resource_type = 21000,
+		id = 12017,
+		commodity_id_list_show = 0,
+		order = 3,
+		limit_args = {
+			{
+				"uniqueship",
+				970501
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						3,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12018] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 60,
+		num_limit = 1,
+		activity = 7104,
+		num = 1,
+		commodity_id = 9706011,
+		commodity_type = 4,
+		resource_type = 21000,
+		id = 12018,
+		commodity_id_list_show = 0,
+		order = 3,
+		limit_args = {
+			{
+				"uniqueship",
+				970601
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						3,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12019] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 60,
+		num_limit = 1,
+		activity = 7104,
+		num = 1,
+		commodity_id = 9706021,
+		commodity_type = 4,
+		resource_type = 21000,
+		id = 12019,
+		commodity_id_list_show = 0,
+		order = 3,
+		limit_args = {
+			{
+				"uniqueship",
+				970602
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						3,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12020] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 30,
+		num_limit = 4,
+		activity = 7104,
+		num = 1,
+		commodity_id = 21005,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12020,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				1,
+				970501,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						3,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12021] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 30,
+		num_limit = 4,
+		activity = 7104,
+		num = 1,
+		commodity_id = 21006,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12021,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				1,
+				970601,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						3,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12022] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 30,
+		num_limit = 4,
+		activity = 7104,
+		num = 1,
+		commodity_id = 21008,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12022,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				1,
+				970602,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						3,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12023] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 60,
+		num_limit = 1,
+		activity = 7104,
+		num = 1,
+		commodity_id = 9705021,
+		commodity_type = 4,
+		resource_type = 21000,
+		id = 12023,
+		commodity_id_list_show = 0,
+		order = 3,
+		limit_args = {
+			{
+				"uniqueship",
+				970502
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						3,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12024] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 30,
+		num_limit = 4,
+		activity = 7104,
+		num = 1,
+		commodity_id = 21010,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12024,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				1,
+				970502,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						3,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
 	[12025] = {
 		commodity_id_list = "",
 		resource_category = 2,
@@ -39850,6 +40134,10 @@ pg.activity_shop_template = {
 			10093,
 			10099,
 			11006,
+			12017,
+			12018,
+			12019,
+			12023,
 			12026,
 			12029,
 			12034,
@@ -41886,6 +42174,10 @@ pg.activity_shop_template = {
 			12014,
 			12015,
 			12016,
+			12020,
+			12021,
+			12022,
+			12024,
 			12025,
 			12027,
 			12028,
@@ -44496,6 +44788,14 @@ pg.activity_shop_template = {
 		12014,
 		12015,
 		12016,
+		12017,
+		12018,
+		12019,
+		12020,
+		12021,
+		12022,
+		12023,
+		12024,
 		12025,
 		12026,
 		12027,

@@ -12,7 +12,7 @@ return {
 			bgm = "story-weimu-link",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "X的入侵下，世界陷入了战火之中。",
+			say = "X的入侵下，世界陷入了戰火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 				}
 			},
 			location = {
-				"库克湾·某处",
+				"庫克灣·某處",
 				3
 			}
 		},
@@ -36,7 +36,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg9",
 			hidePaintObj = true,
-			say = "所幸，由于以逸待劳般的部署，绝大多数敌人都被消灭在了阿卡斯加湾内。",
+			say = "所幸，由於以逸待勞般的部署，絕大多數敵人都被消滅在了阿拉斯加灣內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg9",
 			hidePaintObj = true,
-			say = "少数漏网之鱼，也被理事会浮空舰队歼灭在了库克湾入口与沿岸防线上。",
+			say = "少數漏網之魚，也被理事會浮空艦隊殲滅在了庫克灣入口與沿岸防線上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg9",
 			hidePaintObj = true,
-			say = "但是总有幸运儿，侥幸穿过了千难万险，来到了一片平静的水面。",
+			say = "但總有幸運兒，僥倖穿過了千難萬險，來到了一片平靜的水面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg9",
 			hidePaintObj = true,
-			say = "在这里，它们仿佛看到了这场战役的指挥中枢，看到了安克雷奇市的灯火。",
+			say = "在這裡，它們彷彿看到了這場戰役的指揮中樞，看到了安克拉治市的燈火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,14 +80,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg9",
 			hidePaintObj = true,
-			say = "斩首式的成功，似乎唾手可得——",
+			say = "斬首式的成功，似乎唾手可得——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "█ █ █ █",
+			actorName = "█ █ ██",
 			side = 2,
 			bgName = "bg_tianqiong_cg10",
 			nameColor = "#BDBDBD",
@@ -120,7 +120,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg10",
 			hidePaintObj = true,
-			say = "怪物扭动着身躯，发出了怪异的嘶吼。",
+			say = "怪物扭動著身軀，發出了怪異的嘶吼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg10",
 			hidePaintObj = true,
-			say = "或许是见到了触手可及的胜利，又或许是被烈焰焚身的痛苦。",
+			say = "或許是見到了觸手可及的勝利，又或許是被烈焰焚身的痛苦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg10",
 			hidePaintObj = true,
-			say = "不知何时，远方的景色如蜃楼般消失了。",
+			say = "不知何時，遠方的景色如蜃樓般消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,14 +153,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg10",
 			hidePaintObj = true,
-			say = "留下的只有火焰，肆意蔓延的，仿佛能够燃尽一切的幽蓝色火焰——",
+			say = "留下的只有火焰，肆意蔓延的，彷彿能夠燃盡一切的幽藍色火焰——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			dir = 1,
 			bgName = "bg_tianqiong_cg11",
@@ -194,7 +194,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg11",
 			hidePaintObj = true,
-			say = "华丽、优雅，又悄无声息。",
+			say = "華麗、優雅，又悄無聲息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg11",
 			hidePaintObj = true,
-			say = "这身由海伦娜耗尽心血设计出的特殊装备，让列克星敦拥有了和「帷幕」相同的免疫性和伪装性。",
+			say = "這身由海倫娜耗盡心血設計出的特殊裝備，讓列星頓擁有了和「帷幕」相同的免疫性和偽裝性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,33 +216,33 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg11",
 			hidePaintObj = true,
-			say = "她正如同一个真正的幽灵般，在附着区中自由穿梭，焚烧着一片又一片敌人。",
+			say = "她正如同一個真正的幽靈般，在附著區中自由穿梭，焚燒著一片又一片敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦II",
-			side = 2,
-			bgName = "bg_tianqiong_cg11",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指挥部，C-1029号威胁清除完毕。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			bgName = "bg_tianqiong_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等待后续命令——",
+			say = "指揮部，C-1029號威脅清除完畢。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "列星頓II",
+			side = 2,
+			bgName = "bg_tianqiong_cg11",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "等待後續命令——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgm = "battle-ucnf",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与此同时，作为指挥舰的「卡拉布里亚之骄傲」号上——",
+			say = "同時，作為指揮艦的「卡拉布里亞之驕傲」號上——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "列克星敦女士，指挥部已收到。",
+			say = "列星頓女士，指揮部已收到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来请前往处理C-1107号威胁，正在为您规划航线——",
+			say = "接下來請前往處理C-1107號威脅，正在為您規劃航線——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……是，摧毁已确认，16号作战海域已确认安全，现在请转向18号作战海域。",
+			say = "……是，摧毀已確認，16號作戰海域已確認安全，現在請轉向18號作戰海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 9701100,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "第7特遣舰队，敌人的攻势已经确认瓦解，各舰停止追击，返回沿海防线——",
+			say = "第7特遣艦隊，敵人的攻勢已確認瓦解，各艦停止追擊，返回沿海防線——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "在秘书组的帮助下，在各部门的通力配合中，我协调着从未配合过的舰队，梳理着纷乱的战局。",
+			say = "在秘書組的幫助下，在各部門的通力配合中，我協調著從未配合過的艦隊，梳理著紛亂的戰局。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "在这由无数局部冲突构成的动态全局战场中寻找着一个又一个最优解。",
+			say = "在這由無數局部衝突構成的動態全域戰場中尋找著一個又一個最優解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{playername}指挥官，玉轮发来消息，询问是否要将指挥舰调动至安克雷奇国立天文台。",
+			say = "{playername}指揮官，玉輪發出訊息，詢問是否要將指揮艦調動至安克拉治國立天文台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "一个突如其来的消息打乱了我的节奏。",
+			say = "一個突如其來的消息打亂了我的節奏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "库克湾并没有失守，指挥舰没有移动的必要啊？",
+			say = "庫克灣並沒有失守，指揮艦沒有移動的必要啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "玉轮转述了来自仲裁者·恩普雷斯·III的留言：“如果要去再见一下海伦娜的话——就去做好准备吧”",
+			say = "玉輪轉述了來自仲裁者·恩普雷斯·III的留言：「如果要去再見一下海倫娜的話——就去做好準備吧」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这是，什么意思？",
+			say = "……這是，什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "脑海中似乎闪过了什么，但是这一次，我不想抓住它。",
+			say = "腦海中似乎閃過了什麼，但這一次，我不想抓住它。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "……果然是瞒不住的。",
+			say = "……果然是瞞不住的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……要“瞒住”什么？",
+			say = "……要「瞞住」什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "指挥官……",
+			say = "指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "为了执行「完美未来」计划，海伦娜将自己的层次提升得太高了。",
+			say = "為了執行「完美未來」計劃，海倫娜將自己的層次提升得太高了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "她是基于实验场θ的锚定，才暂时存在于此的。",
+			say = "她是基於實驗場θ的錨定，才暫時存在於此的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "一旦实验场θ转移了，这个锚就会消失。",
+			say = "一旦實驗場θ轉移了，這個錨就會消失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "届时，海伦娜虽然安全了，但也会由于失去锚而离开……",
+			say = "屆時，海倫娜雖然安全了，但也會因為失去錨而離開……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不是只要救下实验场θ，就能救下海伦娜吗？！",
+			say = "不是只要救下實驗場θ，就能救下海倫娜嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "失去锚而离开是什么意思……？",
+			say = "失去錨而離開是什麼意思……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们……一开始说的时候可不是这样的？！",
+			say = "妳們……一開始說的時候可不是這樣的？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一定、一定还有别的办法！",
+			say = "一定、一定還有別的辦法！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "指挥官，没时间了。",
+			say = "指揮官，沒時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "要不要再见海伦娜一面，你只需要回答这个问题就好。",
+			say = "要不要再見海倫娜一面，你只要回答這個問題就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "要见、当然要见！",
+			say = "要見、當然要見！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "「银狐」女士，拜托了，请您将「卡拉布里亚之骄傲」号驶至安克雷奇国立天文台下方。",
+			say = "「銀狐」女士，拜託了，請您將「卡拉布里亞之驕傲」號駛至安克拉治國立天文台下方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "罗德尼·META已经在那里待机了，她会把指挥官送入「帷幕」中的。",
+			say = "羅德尼·META已經在那裡待機了，她會把指揮官送入「帷幕」中的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……既然如此，我们出发吧。",
+			say = "……既然如此，我們出發吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

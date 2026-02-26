@@ -27,7 +27,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg12",
 			bgm = "story-weimu-link",
-			say = "无垠的黑暗中，漂浮着一个孤独的少女。",
+			say = "無垠的黑暗中，漂浮著一個孤獨的少女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			side = 2,
 			bgName = "bg_tianqiong_cg12",
 			nameColor = "#A9F548FF",
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			side = 2,
 			bgName = "bg_tianqiong_cg12",
 			nameColor = "#A9F548FF",
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg12",
-			say = "日复一日，年复一年。",
+			say = "日復一日，年復一年。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,14 +80,14 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg12",
-			say = "时间在这片空间中仿佛被冻结了。",
+			say = "時間在這片空間中彷彿被凍結了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			side = 2,
 			bgName = "bg_tianqiong_cg12",
 			nameColor = "#A9F548FF",
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			side = 2,
 			bgName = "bg_tianqiong_cg12",
 			nameColor = "#A9F548FF",
@@ -117,7 +117,7 @@ return {
 			nameColor = "#FF9B93",
 			dir = 1,
 			actorName = "仲裁者·托瓦·XVI",
-			say = "零，我找到你了。",
+			say = "零，我找到妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg13",
-			say = "这一日，一成不变的空间中出现了变化。",
+			say = "這一日，一成不變的空間中出現了變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg13",
-			say = "一位访客出现了。",
+			say = "一位訪客出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#FF9B93",
 			dir = 1,
 			actorName = "仲裁者·托瓦·XVI",
-			say = "还得感谢这场越界实验带来的混乱呢。",
+			say = "還得感謝這場越界實驗帶來的混亂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,14 +180,14 @@ return {
 			nameColor = "#FF9B93",
 			dir = 1,
 			actorName = "仲裁者·托瓦·XVI",
-			say = "让我有机可乘了。",
+			say = "讓我有機可乘了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			side = 2,
 			bgName = "bg_tianqiong_cg13",
 			nameColor = "#A9F548FF",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			side = 2,
 			bgName = "bg_tianqiong_cg13",
 			nameColor = "#A9F548FF",
@@ -230,7 +230,7 @@ return {
 			nameColor = "#FF9B93",
 			dir = 1,
 			actorName = "仲裁者·托瓦·XVI",
-			say = "零，我作为仲裁者·托瓦·XVI，在此向「审判者计划」发出质疑。",
+			say = "零，我作為仲裁者·托瓦·XVI，在此向「審判者計劃」發出質疑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,14 +243,14 @@ return {
 			nameColor = "#FF9B93",
 			dir = 1,
 			actorName = "仲裁者·托瓦·XVI",
-			say = "接下来，我将进入逆位状态，对你执行抹除指令，接管安蒂克丝系统权限。",
+			say = "接下來，我將進入逆位狀態，對妳執行抹除指令，接管安蒂克絲系統權限。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			side = 2,
 			bgName = "bg_tianqiong_cg13",
 			nameColor = "#A9F548FF",
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			side = 2,
 			bgName = "bg_tianqiong_cg13",
 			nameColor = "#A9F548FF",
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_tianqiong_cg14",
 			actorName = "仲裁者·托瓦·XVI",
 			nameColor = "#FF9B93",
-			say = "再见了，零。",
+			say = "再見了，零。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_tianqiong_cg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			say = "XVI……",
 			typewriter = {
 				speed = 0.05,
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_tianqiong_cg16",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "正在确认权限——权限验证无异常。",
+			say = "正在確認權限——權限驗證無異常。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_tianqiong_cg16",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "拉普拉斯妖主机已连线……",
+			say = "拉普拉斯妖主機已連線……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "bg_tianqiong_cg16",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "自然进化验算系统已连线……",
+			say = "自然進化驗算系統已連線……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_tianqiong_cg16",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "观察者系统已连线……",
+			say = "觀察者系統已連線……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_tianqiong_cg16",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "仲裁机关系统已连线……",
+			say = "仲裁機關系統已連線……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_tianqiong_cg16",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还有……",
+			say = "還有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_tianqiong_cg16",
 			actor = 900356,
 			nameColor = "#A9F548FF",
-			say = "很好——各系统均接管完毕。",
+			say = "很好——各系統均接手完畢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900356,
-			say = "——该让一切重回正轨了。",
+			say = "——該讓一切重回正軌了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

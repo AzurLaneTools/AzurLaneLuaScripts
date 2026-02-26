@@ -16,6 +16,7 @@ pg.activity_task_permanent = setmetatable({
 		6011,
 		6012,
 		6013,
+		6014,
 		6015,
 		6016,
 		6018,
@@ -356,6 +357,32 @@ pg.base.activity_task_permanent = {
 			35165,
 			35166,
 			35167
+		}
+	},
+	[6014] = {
+		gametip = "可獲得吹雪限定換裝「特型偶像Fubuki」",
+		banner_route = "permanent_chuixue",
+		gametip_extra = "最快7日獲得",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "激奏的Polaris",
+		id = 6014,
+		over_task_id = "",
+		eliminate_task_id = {
+			35168,
+			35169,
+			35170,
+			35171,
+			35172,
+			35173,
+			35174,
+			35175,
+			35176,
+			35177,
+			35178,
+			35179,
+			35180,
+			35181
 		}
 	},
 	[6015] = {

@@ -30,35 +30,25 @@ slot0.AnyVoteActIsOpening = function(slot0)
 end
 
 slot0.IsShowTip = function(slot0)
-	return slot0:ShouldTipNewRace() or slot0:ShouldTipVotes() or slot0:ShouldTipAward() or slot0:ShouldTipFinalAward()
+	return NewMainVoteEntranceBtn.ShouldTipNewRace() or NewMainVoteEntranceBtn.ShouldTipVotes() or NewMainVoteEntranceBtn.ShouldTipAward() or NewMainVoteEntranceBtn.ShouldTipFinalAward()
 end
 
-slot0.ShouldTipFinalAward = function(slot0)
-	if not getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) or slot1:isEnd() then
+slot0.ShouldTipFinalAward = function()
+	if not getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) or slot0:isEnd() then
 		return false
 	end
 
-	slot2 = slot1:getConfig("config_client")[2] or -1
-	slot3 = getProxy(TaskProxy):getTaskById(slot2) or getProxy(TaskProxy):getFinishTaskById(slot2)
+	slot1 = slot0:getConfig("config_client")[2] or -1
+	slot2 = getProxy(TaskProxy):getTaskById(slot1) or getProxy(TaskProxy):getFinishTaskById(slot1)
 
-	return slot3 and slot3:isFinish() and not slot3:isReceive()
+	return slot2 and slot2:isFinish() and not slot2:isReceive()
 end
 
-slot0.ShouldTipNewRace = function(slot0)
-	slot2 = getProxy(PlayerProxy):getRawData().id
+slot0.ShouldTipNewRace = function()
+	slot1 = getProxy(PlayerProxy):getRawData().id
 
-	for slot6, slot7 in ipairs(getProxy(VoteProxy):GetVoteGroupList()) do
-		if slot7 and slot7:IsOpening() and getProxy(VoteProxy):IsNewRace(slot7) then
-			return true
-		end
-	end
-
-	return false
-end
-
-slot0.ShouldTipVotes = function(slot0)
 	for slot5, slot6 in ipairs(getProxy(VoteProxy):GetVoteGroupList()) do
-		if getProxy(VoteProxy):GetVotesByConfigId(slot6.configId) > 0 then
+		if slot6 and slot6:IsOpening() and getProxy(VoteProxy):IsNewRace(slot6) then
 			return true
 		end
 	end
@@ -66,7 +56,17 @@ slot0.ShouldTipVotes = function(slot0)
 	return false
 end
 
-slot0.ShouldTipAward = function(slot0)
+slot0.ShouldTipVotes = function()
+	for slot4, slot5 in ipairs(getProxy(VoteProxy):GetVoteGroupList()) do
+		if getProxy(VoteProxy):GetVotesByConfigId(slot5.configId) > 0 then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot0.ShouldTipAward = function()
 	return getProxy(VoteProxy):ExistPastVoteAward()
 end
 
@@ -74,6 +74,10 @@ slot0.Hide = function(slot0)
 	if slot0._tf then
 		setActive(slot0._tf, false)
 	end
+end
+
+slot0.IsShowTip = function()
+	return NewMainVoteEntranceBtn.ShouldTipNewRace() or NewMainVoteEntranceBtn.ShouldTipVotes() or NewMainVoteEntranceBtn.ShouldTipAward() or NewMainVoteEntranceBtn.ShouldTipFinalAward()
 end
 
 slot0.Dispose = function(slot0)

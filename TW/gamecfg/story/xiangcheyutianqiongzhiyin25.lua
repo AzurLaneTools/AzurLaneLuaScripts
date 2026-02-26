@@ -18,15 +18,15 @@ return {
 			},
 			sequence = {
 				{
-					"白鹰·「星海」基地",
+					"白鷹「星海」基地",
 					1
 				},
 				{
-					"医疗湾-「海豚座」-U1M区",
+					"醫療灣-「海豚座」-U1M區",
 					2
 				},
 				{
-					"一段时间后——",
+					"一段時間後——",
 					3
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_503",
-			say = "病床上，聆听着一台台机器运转的声音，我的思路逐渐冷却下来。",
+			say = "病床上，聽著一台台機器運轉的聲音，我的思緒逐漸冷卻下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "果然，有哪里不太对……",
+			say = "果然，有哪裡不太對……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "「完美未来」结束了，那海伦娜呢……",
+			say = "「完美未來」結束了，那海倫娜呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "她为什么还没发来联络……",
+			say = "她為什麼還沒發來聯絡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还有伊丽莎白·META也是……",
+			say = "還有伊莉莎白·META也是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "她没有和我们一起返回星海……之前也不在完美未来中。",
+			say = "她沒有和我們一起返回星海……之前也不在完美未來中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……她去了哪里？",
+			say = "……她去了哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "在离开后，我去实验场θ干扰了安蒂克丝的越界实验，夺取了她们的实验成果。",
+			say = "在離開後，我去實驗場θ干擾了安蒂克絲的越界實驗，奪取了她們的實驗成果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……实验场θ？又一个单字编号实验场……",
+			say = "……實驗場θ？又一個單字編號實驗場……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "难道说……",
+			say = "難道說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "心中一股不好的预感油然而生。",
+			say = "心中一股不好的預感油然而生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "我紧急联系了伊丽莎白，目前D小姐或许是唯一一个能够联络到伊丽莎白·META的人了。",
+			say = "我緊急聯絡了伊莉莎白，目前D小姐或許是唯一能夠聯絡到伊莉莎白·META的人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么……你那边居然出了这种事？",
+			say = "什麼……你那邊居然出了這種事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怪不得她走之前会让本王安排卡美洛之庭做好出击准备……",
+			say = "怪不得她走之前會讓本王安排卡美洛之庭做好出擊準備……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就对上了，我让D小姐打过去问问情况。",
+			say = "這就對上了，我讓D小姐打過去問問狀況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "D小姐，你听到了么？",
+			say = "D小姐，妳聽到了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来啦来啦~我来啦~！",
+			say = "來啦來啦~我來啦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奇怪……我能找到伊丽莎白的位置，但是联系不上她！",
+			say = "奇怪……我能找到伊莉莎白的位置，但是聯絡不上她！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好像有东西在干扰我……可恶可恶！",
+			say = "好像有東西在干擾我……可惡可惡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能找到位置卡美洛之庭就能过去。",
+			say = "能找到位置卡美洛之庭就能過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过去新的实验场支援的话，现在集结的人可能不太够……",
+			say = "不過去新的實驗場支援的話，現在集結的人可能不太夠……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不要本王联系一下其他阵营召集一支大舰队？",
+			say = "要不要本王聯絡其他陣營召集一隻大艦隊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不行！那边的实验强度恐怕非常高……不能调用常规舰队。",
+			say = "不行！那邊的實驗強度恐怕非常高……不能呼叫常規艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "II型舰和计划舰或许可以，但是我们也不能把自己家里的防御力量抽光……",
+			say = "II型艦和計畫艦或許可以，但是我們也不能把自己家裡的防禦力量抽光……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "只集结META舰队吧，你们在阿瓦隆之门内的人……还有北方联合的基洛夫·META和铁血的{namecode:477:格奈森瑙·META}。",
+			say = "只集結META艦隊吧，妳們在阿瓦隆之門內的人……還有北方聯合的基洛夫·META和鐵血的格奈森瑙·META。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题，那你呢？",
+			say = "沒問題，那你呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我立刻坐飞机去阿瓦隆之门找你，之后我们一起出发。",
+			say = "我立刻坐飛機去阿瓦隆之門找妳，之後我們一起出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，本王集结好舰队等你。",
+			say = "好，本王集結好艦隊等你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_503",
-			say = "我并没有刻意隐瞒与伊丽莎白的通讯内容。",
+			say = "我並沒有刻意隱瞞與伊莉莎白的通訊內容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "因此，在通讯结束后，病房中内立刻爆发了激烈的讨论。",
+			say = "因此，在通訊結束後，病房中內立刻爆發了激烈的討論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就像我说的那样，常规舰队不能参与，II型舰和计划舰要留下保护我们自己世界的安全。",
+			say = "就像我說的那樣，常規艦隊不能參與，II型艦和計劃艦要留下保護我們自己世界的安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我已经决定了，没有例外，大家也无需讨论了。",
+			say = "我已經決定了，沒有例外，大家也不需要討論了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，带我一起去吧。",
+			say = "指揮官，帶我一起去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			actor = 107160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在梦中了解了很多关于这身新装备的事……我一定能帮上你的忙的。",
+			say = "我在夢中了解了很多關於這套新裝備的事……我一定能幫上你的忙的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……那就唯一例外，等你的检查结束，我们就一起坐飞机出发。",
+			say = "……那就唯一例外，等妳的檢查結束，我們就一起坐飛機出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我也应该去。",
+			say = "指揮官，我也應該去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也要去！这次无论如何都不能抛下我了哦！",
+			say = "我也要去！這次無論如何都不能拋下我了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算我和海伦娜在作战上帮不上太大的忙，至少也可以做辅助工作。",
+			say = "就算我和海倫娜在作戰上幫不上太大的忙，至少也可以做輔助工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再怎么说，指挥官总是需要秘书舰的吧！",
+			say = "再怎麼說，指揮官總是需要秘書艦的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……那孟菲斯和海伦娜也和我们一起。",
+			say = "……那曼非斯和海倫娜也和我們一起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那，指挥官——",
+			say = "那，指揮官——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好了！可一，呃……或许也可二可三，但是不可四了！",
+			say = "好了！可一，呃……或許也可二可三，但是不可四了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就这么决定了……",
+			say = "就這麼決定了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "萨拉托加，帮我们安排飞机，准备前往阿瓦隆之门！",
+			say = "薩拉托加，幫我們安排飛機，準備前往阿瓦隆之門！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

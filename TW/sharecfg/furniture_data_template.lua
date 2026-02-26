@@ -231,6 +231,7 @@ pg.furniture_data_template = setmetatable({
 			100053,
 			100054,
 			100055,
+			100056,
 			200001,
 			200002,
 			200003,
@@ -5927,6 +5928,7 @@ pg.furniture_data_template = setmetatable({
 			100053,
 			100054,
 			100055,
+			100056,
 			54104,
 			54105
 		},
@@ -7115,7 +7117,8 @@ pg.furniture_data_template = setmetatable({
 			100052,
 			100053,
 			100054,
-			100055
+			100055,
+			100056
 		},
 		[2] = {
 			120,
@@ -10338,6 +10341,7 @@ pg.furniture_data_template = setmetatable({
 		100053,
 		100054,
 		100055,
+		100056,
 		200001,
 		200002,
 		200003,
@@ -26161,6 +26165,81 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100056] = {
+		advice = 0,
+		name = "艦橋模擬器",
+		count = 1,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "zhandouzhihuixitongicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 100056,
+		comfortable = 0,
+		describe = "全員注意，敵方大門所在的方向，就是下方！",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhandouzhihuixitongB",
+				"normal"
+			},
+			{
+				"zhandouzhihuixitongT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

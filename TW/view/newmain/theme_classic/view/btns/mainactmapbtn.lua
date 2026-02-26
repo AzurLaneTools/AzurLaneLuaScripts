@@ -33,6 +33,8 @@ slot0.IsShowTip = function(slot0)
 		end
 
 		return ActivityBossPtData.New(slot4):CanGetAward()
+	elseif slot3 == ActivityConst.ACTIVITY_TYPE_TOWN2 then
+		return false
 	end
 
 	return getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip()

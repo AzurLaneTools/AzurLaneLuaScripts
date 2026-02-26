@@ -9,7 +9,7 @@ return {
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
 			bgm = "battle-thechariotVII",
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_tianqiong_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个型号……启动VII=VI连协——",
+			say = "這個型號……啟動VII=VI連協——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_tianqiong_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "开始清理！",
+			say = "開始清理！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

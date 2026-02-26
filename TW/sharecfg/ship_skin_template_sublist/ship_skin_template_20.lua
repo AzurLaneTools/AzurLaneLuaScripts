@@ -1,6 +1,750 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[11500031] = {
+		name = "水邊的女神",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "總之，我試著換上了泳裝……怎麼了，有話想說的話就說清楚嘛。……欸？因為很可愛很合身，所以想讓我多給你看？等等……等等，別那麼直白地說這種讓人害羞的話好嗎！？",
+		group_index = 1,
+		purchase_offset = "",
+		painting = "qinli_2",
+		lover_hand = "hand_2_02",
+		bg_sp = "",
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip02",
+		ship_group = 1150003,
+		bg = "",
+		bgm = "dal-az-theme",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		special_effects = "",
+		id = 11500031,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "qinli_2",
+		l2d_se = "",
+		no_showing = "0",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71239,
+		voice_actor = 484,
+		illustrator = -1,
+		rarity_bg = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			6.3,
+			-628.1,
+			0,
+			0.39
+		},
+		spine_offset_profile = {
+			67,
+			-619,
+			0,
+			0.38
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.162,
+					1.023,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.713,
+					2.49,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.681,
+							2.382,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			147.3,
+			-745,
+			0,
+			0.44
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1007,
+					-483.75,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					-1206,
+					671,
+					2,
+					150,
+					0,
+					2
+				},
+				{
+					124,
+					-195,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
+		}
+	},
+	[11500040] = {
+		name = "四糸乃",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "欸……啊……那個……「哇哦，真壯觀。到底發生了什麼事呢？這裡是什麼地方？」那個……我、我是……四糸乃……這孩子是……四糸奈。能稍微聊聊……嗎？",
+		group_index = 0,
+		purchase_offset = "",
+		painting = "sisinai",
+		lover_hand = "hand_3_02",
+		bg_sp = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip01",
+		ship_group = 1150004,
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		special_effects = "",
+		id = 11500040,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "sisinai",
+		l2d_se = "",
+		no_showing = "0",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 485,
+		get_showing = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.261,
+					2.157,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.998,
+					1.881,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.158,
+					3.609,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.824,
+							2.438,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[11500041] = {
+		name = "Secret Base",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "那個……在陌生的地方……還是有些害羞。所以……可以讓我……再在這裡多待一陣子嗎……？「準備是做好了啦，但是還差一點勇氣！指揮官，來幫個忙吧——」",
+		group_index = 1,
+		purchase_offset = "",
+		painting = "sisinai_2",
+		lover_hand = "hand_3_02",
+		bg_sp = "",
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip01",
+		ship_group = 1150004,
+		bg = "106",
+		bgm = "dal-az-theme",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		special_effects = "",
+		id = 11500041,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "sisinai_2",
+		l2d_se = "",
+		no_showing = "0",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71240,
+		voice_actor = 485,
+		illustrator = -1,
+		rarity_bg = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-191.3,
+			-241,
+			0,
+			0.29
+		},
+		spine_offset_profile = {
+			-112.9,
+			-231.2,
+			0,
+			0.285
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.08,
+					1.549,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.198,
+					3.522,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.87,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-58.6,
+			-447.1,
+			0,
+			0.4
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1517,
+					585,
+					2,
+					0,
+					100,
+					2
+				},
+				{
+					-34,
+					903.75,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					-147,
+					-400,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
+		}
+	},
+	[11500050] = {
+		name = "時崎狂三",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "哎呀，哎呀……這裡到底是什麼地方呢？嗯……不知不覺間穿越了世界……原來如此。——嘻嘻嘻，看起來會變成有趣的事情呢。不不，沒什麼。總之請容許我自我介紹。初次見面，我叫時崎狂三。那麼，您的名字是？",
+		group_index = 0,
+		purchase_offset = "",
+		painting = "kuangsan",
+		lover_hand = "hand_2_02",
+		bg_sp = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip02",
+		ship_group = 1150005,
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		special_effects = "",
+		id = 11500050,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "kuangsan",
+		l2d_se = "",
+		no_showing = "0",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 486,
+		get_showing = "",
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.289,
+					0.938,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.198,
+					0.974,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.831,
+					2.433,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.609,
+							2.334,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[11500051] = {
+		name = "Twin Rose",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "哎呀哎呀，被發現了呢，我。「是啊。被這樣熱情地看著，身體會自然發熱呢，我。」……那麼，您打算在那裡看到什麼時候呢？",
+		group_index = 1,
+		purchase_offset = "",
+		painting = "kuangsan_2",
+		lover_hand = "hand_2_02",
+		bg_sp = "",
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip02",
+		ship_group = 1150005,
+		bg = "109",
+		bgm = "dal-az-theme",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		special_effects = "",
+		id = 11500051,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "kuangsan_2",
+		l2d_se = "",
+		no_showing = "0",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71241,
+		voice_actor = 486,
+		illustrator = -1,
+		rarity_bg = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-31.1,
+			-1040.9,
+			0,
+			0.57
+		},
+		spine_offset_profile = {
+			36.5,
+			-1026.8,
+			0,
+			0.56
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.052,
+					1.076,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.636,
+					2.288,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.681,
+							2.382,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			29.9,
+			-872.7,
+			0,
+			0.525
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					1176.5,
+					-533.75,
+					2.2,
+					0,
+					120,
+					2
+				},
+				{
+					841,
+					998.98,
+					2,
+					-120,
+					0,
+					2
+				},
+				{
+					-373,
+					-433.75,
+					2.5,
+					0,
+					-150,
+					2
+				}
+			}
+		}
+	},
 	[11500060] = {
 		name = "八舞耶俱矢・八舞夕弦",
 		shop_offset = "",

@@ -21,9 +21,11 @@ slot0.GetLinkConfig = function(slot0)
 			return pg.TimeMgr.GetInstance():inTime(slot1)
 		end
 	end) > 0 then
-		table.sort(slot4, function (slot0, slot1)
-			return uv0[slot0].order < uv0[slot1].order
-		end)
+		table.sort(slot4, CompareFuncs({
+			function (slot0)
+				return uv0[slot0].order
+			end
+		}))
 
 		return slot2[slot4[1]]
 	end

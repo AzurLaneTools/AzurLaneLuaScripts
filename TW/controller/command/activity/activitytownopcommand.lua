@@ -23,23 +23,46 @@ slot0.execute = function(slot0, slot1)
 			slot1 = PlayerConst.addTranDrop(slot0.award_list)
 			uv0 = uv1:getActivityById(uv2.activity_id)
 
-			switch(uv2.cmd, {
-				[TownActivity.OPERATION.UPGRADE_TOWN] = function ()
-					uv0:OnUpgradeTown(uv1.number[1])
-				end,
-				[TownActivity.OPERATION.UPGRADE_PLACE] = function ()
-					uv0:OnUpgradePlace(uv1.arg1, uv2.number[1])
-				end,
-				[TownActivity.OPERATION.CHANGE_SHIPS] = function ()
-					uv0:OnChangeShips(uv1.kvargs1)
-				end,
-				[TownActivity.OPERATION.CLICK_BUBBLE] = function ()
-					uv0:OnGetBubbleAward(uv1.arg_list, uv2.number)
-				end,
-				[TownActivity.OPERATION.SETTLE_GOLD] = function ()
-					uv0:OnSettleGold(uv1.number[1])
-				end
-			})
+			if uv0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TOWN2 then
+				switch(uv2.cmd, {
+					[TownActivity2.OPERATION.UPGRADE_TOWN] = function ()
+					end,
+					[TownActivity2.OPERATION.UPGRADE_PLACE] = function ()
+						uv0:OnUpgradePlace(uv1.arg1, uv2.number[1])
+					end,
+					[TownActivity2.OPERATION.CHANGE_SHIPS] = function ()
+						uv0:OnChangeShips(uv1.kvargs1)
+					end,
+					[TownActivity2.OPERATION.CLICK_BUBBLE] = function ()
+						uv0:OnGetBubbleAward(uv1.arg_list, uv2.number)
+					end,
+					[TownActivity2.OPERATION.SETTLE_GOLD] = function ()
+						uv0:OnGatherPlaceGold(uv1.arg1, uv2.number[2])
+					end,
+					[TownActivity2.OPERATION.ALL_GOLD] = function ()
+						uv0:OnAllGatherPlaceGold(uv1.number)
+					end
+				})
+			else
+				switch(uv2.cmd, {
+					[TownActivity.OPERATION.UPGRADE_TOWN] = function ()
+						uv0:OnUpgradeTown(uv1.number[1])
+					end,
+					[TownActivity.OPERATION.UPGRADE_PLACE] = function ()
+						uv0:OnUpgradePlace(uv1.arg1, uv2.number[1])
+					end,
+					[TownActivity.OPERATION.CHANGE_SHIPS] = function ()
+						uv0:OnChangeShips(uv1.kvargs1)
+					end,
+					[TownActivity.OPERATION.CLICK_BUBBLE] = function ()
+						uv0:OnGetBubbleAward(uv1.arg_list, uv2.number)
+					end,
+					[TownActivity.OPERATION.SETTLE_GOLD] = function ()
+						uv0:OnSettleGold(uv1.number[2])
+					end
+				})
+			end
+
 			uv1:updateActivity(uv0)
 
 			if uv3 then

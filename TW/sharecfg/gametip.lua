@@ -31086,278 +31086,303 @@ cs.gametip = {
 		204,
 		true
 	},
-	submarine_support_oil_consume_tip = {
+	ANTTFFCoreActivity_subtitle_1 = {
 		1090374,
+		117,
+		true
+	},
+	ANTTFFCoreActivity_title = {
+		1090491,
+		112,
+		true
+	},
+	ANTTFFCoreActivity_title2 = {
+		1090603,
+		97,
+		true
+	},
+	ANTTFFCoreActivityPtpage_title = {
+		1090700,
+		118,
+		true
+	},
+	ANTTFFCoreActivityPtpage_title2 = {
+		1090818,
+		103,
+		true
+	},
+	submarine_support_oil_consume_tip = {
+		1090921,
 		157,
 		true
 	},
 	SardiniaSPCoreActivityUI_title = {
-		1090531,
+		1091078,
 		106,
 		true
 	},
 	SardiniaSPCoreActivityUI_subtitle_1 = {
-		1090637,
+		1091184,
 		111,
 		true
 	},
 	SardiniaSPCoreActivityUI_subtitle_2 = {
-		1090748,
+		1091295,
 		114,
 		true
 	},
 	SardiniaSPCoreActivityUI_story_reward_count = {
-		1090862,
+		1091409,
 		289,
 		true
 	},
 	SardiniaSPCoreActivityUI_unlock = {
-		1091151,
+		1091698,
 		104,
 		true
 	},
 	SardiniaSPCoreActivityUI_fleetconfirm = {
-		1091255,
+		1091802,
 		153,
 		true
 	},
 	SardiniaSPCoreActivityUI_help = {
-		1091408,
+		1091955,
 		1360,
 		true
 	},
 	pac_game_high_score_tip = {
-		1092768,
+		1093315,
 		104,
 		true
 	},
 	pac_game_rule_btn = {
-		1092872,
+		1093419,
 		93,
 		true
 	},
 	pac_game_start_btn = {
-		1092965,
+		1093512,
 		94,
 		true
 	},
 	pac_game_gaming_time_desc = {
-		1093059,
+		1093606,
 		98,
 		true
 	},
 	pac_game_gaming_score = {
-		1093157,
+		1093704,
 		94,
 		true
 	},
 	mini_game_continue = {
-		1093251,
+		1093798,
 		88,
 		true
 	},
 	mini_game_over_game = {
-		1093339,
+		1093886,
 		95,
 		true
 	},
 	pac_minigame_help = {
-		1093434,
+		1093981,
 		664,
 		true
 	},
 	SpringFestival2026CoreActivity_subtitle_1 = {
-		1094098,
+		1094645,
 		126,
 		true
 	},
 	SpringFestival2026CoreActivity_subtitle_2 = {
-		1094224,
+		1094771,
 		126,
 		true
 	},
 	SpringFestival2026CoreActivity_subtitle_3 = {
-		1094350,
+		1094897,
 		120,
 		true
 	},
 	SpringFestival2026CoreActivity_subtitle_4 = {
-		1094470,
+		1095017,
 		117,
 		true
 	},
 	SpringFestival2026CoreActivity_subtitle_5 = {
-		1094587,
+		1095134,
 		120,
 		true
 	},
 	SpringFestival2026CoreActivity_subtitle_6 = {
-		1094707,
+		1095254,
 		120,
 		true
 	},
 	SpringFestival2026CoreActivity_subtitle_7 = {
-		1094827,
+		1095374,
 		123,
 		true
 	},
+	drawdiary_ui_2026 = {
+		1095497,
+		93,
+		true
+	},
 	loveactivity_ui_1 = {
-		1094950,
+		1095590,
 		102,
 		true
 	},
 	loveactivity_ui_2 = {
-		1095052,
+		1095692,
 		93,
 		true
 	},
 	loveactivity_ui_3 = {
-		1095145,
+		1095785,
 		93,
 		true
 	},
 	loveactivity_ui_4 = {
-		1095238,
+		1095878,
 		161,
 		true
 	},
 	loveactivity_ui_4_1 = {
-		1095399,
+		1096039,
 		254,
 		true
 	},
 	loveactivity_ui_4_2 = {
-		1095653,
+		1096293,
 		254,
 		true
 	},
 	loveactivity_ui_4_3 = {
-		1095907,
+		1096547,
 		255,
 		true
 	},
 	loveactivity_ui_5 = {
-		1096162,
+		1096802,
 		93,
 		true
 	},
 	loveactivity_ui_6 = {
-		1096255,
+		1096895,
 		87,
 		true
 	},
 	loveactivity_ui_7 = {
-		1096342,
+		1096982,
 		120,
 		true
 	},
 	loveactivity_ui_8 = {
-		1096462,
+		1097102,
 		87,
 		true
 	},
 	loveactivity_ui_9 = {
-		1096549,
+		1097189,
 		101,
 		true
 	},
 	loveactivity_ui_10 = {
-		1096650,
+		1097290,
 		112,
 		true
 	},
 	loveactivity_ui_11 = {
-		1096762,
+		1097402,
 		117,
 		true
 	},
 	loveactivity_ui_12 = {
-		1096879,
+		1097519,
 		172,
 		true
 	},
 	loveactivity_ui_13 = {
-		1097051,
+		1097691,
 		112,
 		true
 	},
 	loveactivity_ui_14 = {
-		1097163,
+		1097803,
 		102,
 		true
 	},
 	loveactivity_ui_15 = {
-		1097265,
+		1097905,
 		103,
 		true
 	},
 	loveactivity_ui_16 = {
-		1097368,
+		1098008,
 		103,
 		true
 	},
 	loveactivity_ui_17 = {
-		1097471,
+		1098111,
 		100,
 		true
 	},
 	loveactivity_ui_18 = {
-		1097571,
+		1098211,
 		106,
 		true
 	},
 	loveactivity_ui_19 = {
-		1097677,
+		1098317,
 		106,
 		true
 	},
 	loveactivity_ui_20 = {
-		1097783,
+		1098423,
 		118,
 		true
 	},
 	help_chunjie_jiulou_2026 = {
-		1097901,
+		1098541,
 		819,
 		true
 	},
-	drawdiary_ui_2026 = {
-		1098720,
-		93,
-		true
-	},
 	loveactivity_help_tips = {
-		1098813,
+		1099360,
 		455,
 		true
 	},
 	spring_present_tips_btn = {
-		1099268,
+		1099815,
 		99,
 		true
 	},
 	spring_present_tips_time = {
-		1099367,
+		1099914,
 		121,
 		true
 	},
 	spring_present_tips0 = {
-		1099488,
+		1100035,
 		169,
 		true
 	},
 	spring_present_tips1 = {
-		1099657,
+		1100204,
 		179,
 		true
 	},
 	spring_present_tips2 = {
-		1099836,
+		1100383,
 		181,
 		true
 	},
 	spring_present_tips3 = {
-		1100017,
+		1100564,
 		172,
 		true
 	}

@@ -10,7 +10,7 @@ return {
 			bgm = "theme-frederick",
 			actor = 699010,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "嗯…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 				}
 			},
 			location = {
-				"阿拉斯加湾·12号作战海域",
+				"阿拉斯加灣·12號作戰海域",
 				3
 			}
 		},
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呃，气氛好沉重啊……",
+			say = "呃，氣氛好沉重……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 699010,
-			say = "{namecode:441:腓特烈}，你……",
+			say = "腓特烈，妳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 499020,
-			say = "我听说了，「陆上神国」的事。",
+			say = "我聽說了，「陸上神國」的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
-			say = "咳……哼！听说了就听说了！",
+			say = "咳……哼！聽說了就聽說了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 699010,
-			say = "怎么啦？事是我做的，我敢做敢当！。",
+			say = "怎麼啦？事是我做的，我敢做敢當！。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 699010,
-			say = "你看本圣座现在获得的力量，如何啊~？！",
+			say = "妳看本聖座現在獲得的力量，如何啊~？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
-			say = "伴随着空间的抖动，一个巨大的银白色虚影和无数狰狞的无人机在马可波罗的身后缓缓出现了。",
+			say = "伴隨著空間的抖動，一個巨大的銀白色虛影和無數猙獰的無人機在馬可波羅的身後緩緩出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 499020,
-			say = "还不错，然后呢？",
+			say = "還不錯，然後呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……然后？",
+			say = "……然後？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
-			say = "不知为何，马可波罗从{namecode:440:腓特烈大帝}平静的身影中感受到一股恐怖的压力。",
+			say = "不知為何，馬可波羅從腓特烈大帝平靜的身影中感受到一股恐怖的壓力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
-			say = "——仿佛稍有不慎，就要万劫不复一般。",
+			say = "——彷彿稍有不慎，就要萬劫不復一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "然后嘛……啊哈哈哈，自然是给你当先锋开路咯！",
+			say = "然後嘛……啊哈哈哈，自然是給妳當先鋒開路囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 699010,
-			say = "看好吧，{namecode:441:腓特烈}~如今的我已经今非昔比了，那些敌人都到不了你面前，就得被我全部消灭咯~",
+			say = "看好吧，腓特烈~如今的我已經今非昔比了，那些敵人都到不了妳面前，就得被我全部消滅了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405050,
-			say = "{namecode:441:腓特烈}，你的这股力量……",
+			say = "腓特烈，妳的這股力量……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 499020,
-			say = "无须诧异，我只是在计划舰的方向上更近了一步罢了。",
+			say = "無須詫異，我只是在計劃艦的方向上更近了一步罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "倒是你，{namecode:435:俾斯麦}……熬过来了呢。",
+			say = "倒是妳，俾斯麥……熬過來了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405050,
-			say = "是啊……总算熬过那段黑暗的时光了。",
+			say = "是啊……總算撐過那段黑暗的時光了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405050,
-			say = "如今，让我们为了更加美好的未来，一同战斗吧！",
+			say = "如今，讓我們為了更加美好的未來，一同戰鬥吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 499020,
-			say = "那是自然，就让我们的乐章开始吧——",
+			say = "那是自然，就讓我們的樂章開始吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

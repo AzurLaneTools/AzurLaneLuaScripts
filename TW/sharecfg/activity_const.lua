@@ -583,7 +583,7 @@ pg.activity_const = {
 		act_id = 40120
 	},
 	LANTERNFESTIVAL = {
-		act_id = 5803
+		act_id = 50443
 	},
 	VALENTINE = {
 		act_id = 491
@@ -1196,5 +1196,8 @@ pg.activity_const = {
 	},
 	LOVE_LETTER_LOGIN_ID = {
 		act_id = 50401
+	},
+	LiquorFloor_ACT_ID = {
+		act_id = 50434
 	}
 }

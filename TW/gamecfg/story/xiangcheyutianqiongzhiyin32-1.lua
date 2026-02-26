@@ -10,7 +10,7 @@ return {
 			bgm = "theme-starbeast",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 				}
 			},
 			location = {
-				"阿拉斯加湾·12号作战海域",
+				"阿拉斯加灣·12號作戰海域",
 				3
 			},
 			flashN = {
@@ -73,7 +73,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg8",
 			hidePaintObj = true,
-			say = "水银般的海面上，怪异的巨兽正在肆虐着。",
+			say = "水銀般的海面上，怪異的巨獸正在肆虐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			bgName = "bg_tianqiong_cg8",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "大黄蜂·META",
+			actorName = "大黃蜂·META",
 			hidePaintObj = true,
-			say = "企业姐、约克城姐，这个怪异的敌人……也是拟态兽么？",
+			say = "企業姐、約克鎮姐，這個怪異的敵人……也是擬態獸嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,34 +99,34 @@ return {
 			bgName = "bg_tianqiong_cg8",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			actorName = "约克城·META",
+			actorName = "約克鎮·META",
 			hidePaintObj = true,
-			say = "未成形的VI级……或许是VII级。",
+			say = "未成形的VI級……或許是VII級。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "企业·META",
+			actorName = "企業·META",
 			side = 2,
 			bgName = "bg_tianqiong_cg8",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "大黄蜂，注意反重力设备的运作情况，不要被困住了。",
+			say = "大黃蜂，注意反重力設備的運作情況，不要被困住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "大黄蜂·META",
+			actorName = "大黃蜂·META",
 			side = 2,
 			bgName = "bg_tianqiong_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯，我会注意的！",
+			say = "嗯，我會注意的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,22 +138,22 @@ return {
 			bgName = "bg_tianqiong_cg8",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "大黄蜂·META",
+			actorName = "大黃蜂·META",
 			hidePaintObj = true,
-			say = "我从没想过……真的会有和你们并肩战斗的一天……",
+			say = "我從沒想過……真的會有和妳們並肩戰鬥的一天……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "大黄蜂·META",
+			actorName = "大黃蜂·META",
 			side = 2,
 			bgName = "bg_tianqiong_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "VI级也好、VIII级也好……我都不怕！",
+			say = "VI級也好、VIII級也好……我不怕！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,9 +165,9 @@ return {
 			bgName = "bg_tianqiong_cg8",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "大黄蜂·META",
+			actorName = "大黃蜂·META",
 			hidePaintObj = true,
-			say = "我会全力以赴的！",
+			say = "我會全力以赴的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actorName = "企业·META",
+			actorName = "企業·META",
 			side = 2,
 			bgName = "bg_tianqiong_cg8",
 			hidePaintObj = true,
@@ -191,24 +191,24 @@ return {
 			}
 		},
 		{
-			actorName = "企业·META",
+			actorName = "企業·META",
 			side = 2,
 			bgName = "bg_tianqiong_cg8",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "约克城，你要克制一点。",
+			say = "約克鎮，妳要克制一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "企业·META",
+			actorName = "企業·META",
 			side = 2,
 			bgName = "bg_tianqiong_cg8",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "你现在的状态很不稳定，本不应该出来战斗的。",
+			say = "妳現在的狀態很不穩定，本來不該出來戰鬥的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,9 +220,9 @@ return {
 			bgName = "bg_tianqiong_cg8",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			actorName = "约克城·META",
+			actorName = "約克鎮·META",
 			hidePaintObj = true,
-			say = "今天的环境下，我维持自身存在的证明条件极其稳固。",
+			say = "在今天的環境下，我維持自身存在的證明條件極為穩固。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,9 +234,9 @@ return {
 			bgName = "bg_tianqiong_cg8",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			actorName = "约克城·META",
+			actorName = "約克鎮·META",
 			hidePaintObj = true,
-			say = "你们都在努力，我又怎么能独善其身呢。",
+			say = "妳們都在努力，我又怎麼能獨善其身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,9 +248,9 @@ return {
 			bgName = "bg_tianqiong_cg8",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			actorName = "约克城·META",
+			actorName = "約克鎮·META",
 			hidePaintObj = true,
-			say = "放心吧，不全力以赴就没问题。",
+			say = "放心吧，不全力以赴就沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,16 +262,16 @@ return {
 			bgName = "bg_tianqiong_cg8",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			actorName = "约克城·META",
+			actorName = "約克鎮·META",
 			hidePaintObj = true,
-			say = "倒是你才要克制一点……别把空间的稳定性打坏了，干扰沐恩的支援工作。",
+			say = "倒是妳才要克制一點……別把空間的穩定性打壞了，干擾沐恩的支援工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "企业·META",
+			actorName = "企業·META",
 			side = 2,
 			bgName = "bg_tianqiong_cg8",
 			hidePaintObj = true,
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_tianqiong_cg8",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "大黄蜂·META",
+			actorName = "大黃蜂·META",
 			hidePaintObj = true,
 			say = "……啊？？？",
 			typewriter = {

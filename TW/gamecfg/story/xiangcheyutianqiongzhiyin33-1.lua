@@ -10,7 +10,7 @@ return {
 			bgm = "theme-weimu",
 			actor = 900326,
 			nameColor = "#FFC960",
-			say = "诸位，好久不见了。",
+			say = "諸位，好久不見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 				}
 			},
 			location = {
-				"阿拉斯加湾·7号作战海域",
+				"阿拉斯加灣·7號作戰海域",
 				3
 			}
 		},
@@ -35,7 +35,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "呵呵，我们在那个完美的梦里不是才见过么？",
+			say = "呵呵，我們在那個完美的夢裡不是才見過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900326,
-			say = "梦……到底只是梦罢了。",
+			say = "夢……到底只是夢罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900326,
-			say = "余烬，现在的人数少了不少啊？",
+			say = "餘燼，現在的人數少了不少啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "还好吧……主要是太过分散了。",
+			say = "還好吧……主要是太過分散了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_596",
 			side = 2,
 			actorName = "高雄·META",
-			say = "是啊，仓促间我们只召集到这么多人。",
+			say = "是啊，倉促間我們只召集到這麼多人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "这一点倒是和以前差不多呢……",
+			say = "這一點倒是跟以前差不多呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705090,
-			say = "哈哈哈，还是有些新变化的~我们有新的总部了。",
+			say = "哈哈哈，還是有些新變化的~我們有新的總部了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705090,
-			say = "以后抽空过去看看如何？",
+			say = "以後抽空過去看看如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "……新的总部？好，有机会的话一定去。",
+			say = "……新的總部？好，有機會的話一定要去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "呼……那边有个本地的克利夫兰，天上有个海伦娜，如果能再见到光辉的话。",
+			say = "呼……那邊有個本地的克里夫蘭，天上有個海倫娜，如果能再見到光輝的話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9703040,
-			say = "咱们曾经的王牌组合就要凑齐了呢~",
+			say = "咱們曾經的王牌組合就要湊齊了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,20 +172,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "曾经的王牌组合……那一定很厉害吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#FFC960",
-			bgName = "star_level_bg_596",
-			side = 2,
-			dir = 1,
-			actor = 9701090,
-			say = "呼呼呼……今天来了好多厉害的人，说明敌人也超级无敌厉害……",
+			say = "曾經的王牌組合……那一定很厲害吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,12 +180,25 @@ return {
 		},
 		{
 			expression = 1,
+			nameColor = "#FFC960",
+			bgName = "star_level_bg_596",
+			side = 2,
+			dir = 1,
+			actor = 9701090,
+			say = "呼呼呼……今天來了很多厲害的人，表示敵人也超級無敵厲害……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_596",
 			dir = 1,
 			actor = 9701090,
 			nameColor = "#FFC960",
-			say = "也就是说……打赢了敌人之后的报酬也会超级无敌多！",
+			say = "也就是說……打贏了敵人之後的報酬也會超級無敵多！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9701090,
-			say = "那座大城市里不知道有多少好吃的……等打完之后我要大吃一顿~啊呜！",
+			say = "那座大城市裡不知道有多少好吃的……等打完之後我要大吃一頓~啊嗚！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900327,
-			say = "噗……不被过去所束缚，无忧无虑也挺好的。",
+			say = "噗……不被過去束縛，無憂無慮也挺好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9701040,
-			say = "大家注意……附着区出现了。",
+			say = "大家注意……附著區出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_596",
 			side = 2,
 			actorName = "高雄·META",
-			say = "此刻，是我们余烬舰队展现力量的时候了！",
+			say = "此刻，是我們餘燼艦隊展現力量的時候了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_596",
 			side = 2,
 			actorName = "高雄·META",
-			say = "——准备战斗！",
+			say = "——準備戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

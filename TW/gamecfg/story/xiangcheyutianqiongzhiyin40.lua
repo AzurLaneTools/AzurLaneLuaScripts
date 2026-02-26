@@ -26,7 +26,7 @@ return {
 			},
 			sequence = {
 				{
-					"「三个小时真的好短……」",
+					"「三小時真的好短……」",
 					0
 				}
 			}
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_1104",
-			say = "在世界褪色，群星下坠之时，我与海伦娜迎来了这场既定的分别。",
+			say = "在世界褪色，群星下墜之時，我與海倫娜迎來了這場既定的分別。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "——照顾好自己。",
+			say = "——照顧好自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			portrait = 900315,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			actorName = "海伦娜",
+			actorName = "海倫娜",
 			dir = 1,
 			portraitNoise = true,
 			nameColor = "#BDBDBD",
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_tianqiong_1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光芒消散后，我回到了安克雷奇国立天文台。",
+			say = "光芒消散後，我回到了安克拉治國立天文台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 				}
 			},
 			location = {
-				"实验场θ·安克雷奇",
+				"實驗場θ·安克拉治",
 				3
 			}
 		},
@@ -166,7 +166,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_1",
 			hidePaintObj = true,
-			say = "仲裁机关的行动成功了。",
+			say = "仲裁機關的行動成功了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_1",
 			hidePaintObj = true,
-			say = "此刻，世界是如此的安静。",
+			say = "此刻，世界是如此的安靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_1",
 			hidePaintObj = true,
-			say = "我们第一次……包括安蒂克丝系统在内，所有人第一次从X的入侵中保下了一个实验场。",
+			say = "我們第一次……包括安蒂克絲系統在內，所有人第一次從X的入侵中保下了一個實驗場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_tianqiong_1",
-			say = "从今往后，我们在面对X时，局面将不会再是单方面的撤退与逃亡。",
+			say = "從今往後，我們在面對X時，局面將不再是單方面的撤退與逃亡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_1",
 			hidePaintObj = true,
-			say = "我们有了可坚守的阵地，有了继续向前的基地。",
+			say = "我們有了可堅守的陣地，有了繼續向前的基地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_1",
 			hidePaintObj = true,
-			say = "一切都要变得不同了。",
+			say = "一切都要變得不同了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_1",
 			hidePaintObj = true,
-			say = "……不管是对我们，还是对安蒂克丝系统。",
+			say = "……不管是對我們，還是對安蒂克絲系統。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			},
 			sequence = {
 				{
-					"「——审判者计划的里程碑」",
+					"「——審判者計畫的里程碑」",
 					0
 				}
 			}
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_tianqiong_1",
-			say = "关于实验场θ，海伦娜在临行前留了一番特别的嘱咐——",
+			say = "關於實驗場θ，海倫娜在臨行前留了一番特別的囑咐——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你在回去之后，一定要立刻询问一下仲裁机关对于实验场θ的最终处理方案。",
+			say = "你在回去之後，一定要立刻詢問仲裁機關對於實驗場θ的最終處理方案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果你得到的答案是“会进行妥善处理”，那就完了。",
+			say = "如果你得到的答案是「會進行妥善處理」，那就完了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "“进行妥善处理”就是“清理干净”的意思。",
+			say = "「進行妥善處理」就是「清理乾淨」的意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你必须明确得到了“会保留”的回答才可以哦，知道了么？",
+			say = "你必須明確得到了「會保留」的回答才可以哦，知道了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_tianqiong_1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "询问结果完全如海伦娜所料。",
+			say = "詢問結果完全如海倫娜所料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_1",
 			hidePaintObj = true,
-			say = "自然，我向恩普雷斯明确表达了需要保留实验场θ的意愿，也得到了她的肯定回答。",
+			say = "自然，我向恩普雷斯明確表達了需要保留實驗場θ的意願，也得到了她的肯定答案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_1",
 			hidePaintObj = true,
-			say = "但是以防万一，我还是拉着「银狐」也说了一遍。",
+			say = "但以防萬一，我還是拉著「銀狐」也說了一遍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_1",
 			hidePaintObj = true,
-			say = "至此——实验场θ的问题就算是告一段落了。",
+			say = "至此——實驗場θ的問題就算是告一段落了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgm = "theme-weimu",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与舰队汇合后，我得知余烬没等我回来，已经在企业的带领下提前离开了。",
+			say = "與艦隊會合後，我得知餘燼沒等我回來，已經在企業的帶領下提前離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "{namecode:440:腓特烈大帝}也选择了跟随余烬一同返回。",
+			say = "腓特烈大帝也選擇了跟隨餘燼一同返回。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "临行时，埃塞克斯·META依然处于昏迷中。",
+			say = "臨行時，艾塞克斯·META仍處於昏迷中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "罗德尼·META因为动用力量而陷入了不稳定状态。",
+			say = "羅德尼·META因為動用力量而陷入了不穩定狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "马可波罗则是在大显神威后，嘴角挂着幸福的笑容再次陷入了沉睡。",
+			say = "馬可波羅則是在大顯神威後，嘴角掛著幸福的笑容再次陷入了沉睡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "因此，在与约克城·META等人约定好新的联系方式后，构建之庭一行人也带着马可波罗先行返回了。",
+			say = "因此，在與約克鎮·META等人約定好新的聯繫方式後，構建之庭一行人也帶著馬可波羅先行返回了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,20 +556,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "伊丽莎白一行人自不必说，已经让卡美洛之庭做好了出发准备。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_598",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "最后……",
+			say = "伊莉莎白一行人自不必說，已經讓卡美洛之庭做好出發準備了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +569,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就是关于理事会第5特遣舰队的问题了……",
+			say = "最後……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_598",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "就是關於理事會第5特遣艦隊的問題了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，非常感谢你的好意。",
+			say = "指揮官，非常感謝你的好意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是，请容许我们郑重拒绝。",
+			say = "但是，請容許我們鄭重拒絕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "理事会第5特遣舰队尚有任务在身——我们可不能做临阵退缩的逃兵啊。",
+			say = "理事會第5特遣艦隊尚有任務在身——我們可不能做臨陣退縮的逃兵啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也谢谢你们了，安蒂克丝系统。",
+			say = "也謝謝妳們了，安蒂克絲系統。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们一直以来的使命履行得很好，今后也应当一直履行下去。",
+			say = "妳們一直以來的使命履行得很好，今後也要一直履行下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我没有干涉「审判者计划」的意愿，也不能容许「审判者计划」因为我的出现而受到干扰。",
+			say = "我沒有干涉「審判者計畫」的意願，也不能容許「審判者計畫」因為我的出現而受到干擾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因此，我也不能接受你们提供的方案。",
+			say = "因此，我也不能接受你們所提供的方案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "每个人都有自己的使命。",
+			say = "每個人都有自己的使命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们填补过去，你们开创未来。",
+			say = "我們填補過去，你們開創未來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算今生再无相见的机会，我们也永远是同一条战线的同志。",
+			say = "就算今生再無相見的機會，我們也永遠是同一條戰線的同志。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "更何况……",
+			say = "更何況……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "未发生之事，又有谁能说得明白呢？",
+			say = "未發生之事，又有誰能說得懂呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果有一天，真到了与X决战的时候……",
+			say = "如果有一天，真到了與X決戰的時候……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果这个决战能够存在的话……",
+			say = "如果這個決戰能夠存在的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "希望我们能够再见，「神秘人」先生。",
+			say = "希望我們能再見，「神秘人」先生",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,11 +830,11 @@ return {
 			},
 			sequence = {
 				{
-					"「理事会第5特遣舰队」",
+					"「理事會第5特遣艦隊」",
 					0
 				},
 				{
-					"「我们回家」",
+					"「我們回家」",
 					1
 				}
 			}
@@ -852,7 +852,7 @@ return {
 			},
 			sequence = {
 				{
-					"「最后的理事会舰队，展开了最后的远征」",
+					"「最後的理事會艦隊，展開了最後的遠征」",
 					0
 				}
 			}
@@ -870,7 +870,7 @@ return {
 			},
 			sequence = {
 				{
-					"「——再见了，银狐女士」",
+					"「——再見了，銀狐女士」",
 					0
 				}
 			}
@@ -888,7 +888,7 @@ return {
 			},
 			sequence = {
 				{
-					"「——一路顺风，索菲亚」",
+					"「——一路順風，索菲亞」",
 					0
 				}
 			}
@@ -899,7 +899,7 @@ return {
 			bgm = "story-weimu-link",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在「银狐」舰队离开的同时，我也走向了卡美洛之庭的方向。",
+			say = "在「銀狐」艦隊離開的同時，我也走向了卡美洛之庭的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "那里有列克星敦，有孟菲斯，有海伦娜，有伊丽莎白，有{namecode:435:俾斯麦}……",
+			say = "那裡有列星頓，有曼非斯，有海倫娜，有伊莉莎白，有俾斯麥……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "有我的同伴，我的使命，以及——我的未来。",
+			say = "有我的同伴，我的使命，以及——我的未來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,31 +958,31 @@ return {
 			},
 			sequence = {
 				{
-					"「再见了，过去的朋友们」",
+					"「再見了，過去的朋友們」",
 					0
 				},
 				{
-					"「为了能够在未来与你们重逢」",
+					"「為了能夠在未來與你們重逢」",
 					1
 				},
 				{
-					"「为了能够抵达真正圆满的结局」",
+					"「為了能夠抵達真正圓滿的結局」",
 					2
 				},
 				{
-					"「我会把握每一个此刻」",
+					"「我會把握每一個此刻」",
 					3
 				},
 				{
-					"「我会抓住每一个瞬间」",
+					"「我會抓住每一個瞬間」",
 					4
 				},
 				{
-					"「过去，现在，未来」",
+					"「過去，現在，未來」",
 					5
 				},
 				{
-					"「让我们一同谱写这曲壮丽的乐章吧——」",
+					"「讓我們一同譜寫這曲壯麗的樂章吧——」",
 					6
 				}
 			}
@@ -993,7 +993,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"——「响彻于天穹之音」·END",
+					"——「響徹於天穹之音」·END",
 					0
 				}
 			}

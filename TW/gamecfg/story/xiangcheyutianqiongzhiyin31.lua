@@ -18,15 +18,15 @@ return {
 			},
 			sequence = {
 				{
-					"实验场θ",
+					"實驗場θ",
 					1
 				},
 				{
-					"旗舰「卡拉布里亚之骄傲」号",
+					"旗艦「卡拉布里亞之驕傲」號",
 					2
 				},
 				{
-					"一段时间后——",
+					"一段時間後——",
 					3
 				}
 			}
@@ -40,7 +40,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，余烬舰队的主力已经到了。",
+			say = "指揮官，餘燼艦隊的主力已經到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来的人里除了天天蹭饭的{namecode:191:飞龙·META}，居然还有{namecode:440:腓特烈大帝}哦。",
+			say = "來的人裡除了天天蹭飯的飛龍·META，居然還有腓特烈大帝哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:440:腓特烈大帝}居然也来了么……可惜现在来不及和她见一面了。",
+			say = "腓特烈大帝居然也來了嗎……可惜現在來不及和她見一面了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海伦娜，先安排她们去阿拉斯加湾自选部署区域吧。",
+			say = "海倫娜，先安排她們去阿拉斯加灣自選部署區域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "对了——在{namecode:440:腓特烈大帝}选好区域后，把马可波罗也调过去。",
+			say = "對了——在腓特烈大帝選好區域後，把馬可波羅也調過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_tianqiong_cg7",
-			say = "至此，本次防御战的各方力量均已到齐了。",
+			say = "至此，本次防禦戰的各方力量均已到齊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
-			say = "包括以大黄蜂·META、杜威·META、克利夫兰·META、威廉·D·波特为代表的本地理事会第7特遣舰队。",
+			say = "包括以大黃蜂·META、杜威·META、克里夫蘭·META、威廉·D·波特為代表的本地理事會第7特遣艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
-			say = "战争协议-堡垒、普林斯顿·META、「银狐」女士带领的正牌理事会第5特遣舰队。",
+			say = "戰爭協議-堡壘、普林斯頓·META、「銀狐」女士帶領的正牌理事會第5特遣艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
-			say = "企业·META、{namecode:66:高雄}·META、{namecode:440:腓特烈大帝}带领的余烬舰队。",
+			say = "由企業·META、高雄·META、腓特烈大帝帶領的餘燼艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
-			say = "约克城·META、孟菲斯·META带领的构建之庭舰队。",
+			say = "約克鎮·META、曼非斯·META帶領的構建之庭艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
-			say = "伊丽莎白·META带领的其个人所属的皇家META舰队。",
+			say = "伊莉莎白·META帶領的其個人所屬的皇家META艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
-			say = "由我所带领的实验场β舰队，以及神秘来援的马可波罗。",
+			say = "由我所帶領的實驗場β艦隊，以及神秘來援的馬可波羅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
-			say = "由于各舰队仓促合作，以及不同META舰在能力和作战习惯上的巨大差异，我没有选择重新编制舰队。",
+			say = "由於各艦隊倉促合作，以及不同META艦在能力和作戰習慣上的巨大差異，我沒有選擇重新編制艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
-			say = "而是将整个阿拉斯加湾划分为数十处作战海域，各舰可以以自己习惯的方式组队在海域中巡逻歼敌。",
+			say = "而是將整個阿拉斯加灣劃分為數十處作戰海域，各艦可以以自己習慣的方式組隊在海域中巡邏殲敵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,46 +256,46 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
-			say = "我则与「银狐」女士带领预备舰队停留在库克湾居中协调。",
+			say = "我則與「銀狐」女士帶領預備艦隊停留在庫克灣居中協調。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "克拉伦斯·K·布朗森",
-			side = 2,
-			bgName = "bg_tianqiong_cg7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指挥官，前线舰队汇报，观察到噩兆天象，拟态物与第二类拟态物一同出现了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "战争协议-堡垒",
+			actorName = "克拉倫斯·K·布朗森",
 			side = 2,
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也发现了多处空间异常区域，推测为仲裁者·沐恩·XVIII正在按照计划将敌人转移至阿拉斯加湾中。",
+			say = "指揮官，前線艦隊報告，觀察到噩兆天象，擬態物與第二類擬態物一同出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "战争协议-堡垒",
+			actorName = "戰爭協議-堡壘",
 			side = 2,
 			bgName = "bg_tianqiong_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是敌人力量预估与舰队调配建议，请过目。",
+			say = "我也發現了多個空間異常區域，推測為仲裁者·沐恩·XVIII正在按照計劃將敵人轉移至阿拉斯加灣。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "戰爭協議-堡壘",
+			side = 2,
+			bgName = "bg_tianqiong_cg7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "這是敵人力量預估與艦隊調配建議，請過目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们虽然有局部兵力优势，但是不要掉以轻心，尤其不要忽略水面下的部分。",
+			say = "指揮官，我們雖然有局部兵力優勢，但不要掉以輕心，尤其不要忽略水面下的部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "务必全歼敌人，不能有一丝一毫的漏网之鱼。",
+			say = "務必全殲敵人，不能有一絲一毫的漏網之魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "放心，「银狐」女士。事关海伦娜的安危，我会加倍谨慎的。",
+			say = "放心，「銀狐」女士。事關海倫娜的安危，我會加倍謹慎的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——各舰注意，准备战斗！",
+			say = "——各艦注意，準備戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

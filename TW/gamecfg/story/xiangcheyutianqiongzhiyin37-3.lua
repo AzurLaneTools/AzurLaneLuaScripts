@@ -9,7 +9,7 @@ return {
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
 			bgm = "battle-thechariotVII",
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900478,
-			say = "这次是……",
+			say = "這次是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900478,
-			say = "VII=XIV连协，启动——",
+			say = "VII=XIV連協，啟動——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

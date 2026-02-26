@@ -2335,6 +2335,16 @@ pg.player_resource = {
 		name = "activity_xunzhang14",
 		itemid = 65848
 	},
+	[632] = {
+		id = 632,
+		name = "260226_pt",
+		itemid = 65822
+	},
+	[633] = {
+		id = 633,
+		name = "activity_xunzhang15",
+		itemid = 65860
+	},
 	[634] = {
 		id = 634,
 		name = "limit_skinticket67",
@@ -4347,6 +4357,12 @@ pg.player_resource = {
 		activity_xunzhang14 = {
 			631
 		},
+		["260226_pt"] = {
+			632
+		},
+		activity_xunzhang15 = {
+			633
+		},
 		limit_skinticket67 = {
 			634
 		},
@@ -5182,6 +5198,8 @@ pg.player_resource = {
 		629,
 		630,
 		631,
+		632,
+		633,
 		634,
 		635,
 		636,

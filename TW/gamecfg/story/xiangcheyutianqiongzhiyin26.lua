@@ -17,11 +17,11 @@ return {
 			},
 			sequence = {
 				{
-					"实验场θ",
+					"實驗場θ",
 					1
 				},
 				{
-					"安克雷奇·近海",
+					"安克拉治·近海",
 					2
 				}
 			}
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
 			bgm = "battle-boss-ucnf",
-			say = "伴随着一阵自域外而来巨大冲击，一支舰队出现在伊丽莎白·META的面前。",
+			say = "伴隨著一陣自域外而來巨大衝擊，一隻艦隊出現在伊莉莎白·META的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "浮空战舰……？",
+			say = "浮空戰艦……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "而且和之前见到的那些不一样……不是无人战斗群。",
+			say = "而且和之前見到的那些不一樣……不是無人戰鬥群。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "历经时光的沧桑，历经绝境的肃杀……这支舰队，难道是真正的理事会舰队？",
+			say = "歷經時光的滄桑，歷經絕境的肅殺……這隻艦隊，難道是真正的理事會艦隊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
-			say = "——伊丽莎白·META的脑中冒出了这样一个想法。",
+			say = "——伊莉莎白·META的腦海中冒出了這樣一個想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 101100,
 			nameColor = "#A9F548FF",
-			say = "咦？！！！有、有一支我们的舰队冒出来了？！",
+			say = "咦？！！！有、有一隻我們的艦隊冒出來了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101100,
-			say = "但是我们有这样型号的战舰吗……？",
+			say = "但是我們有這樣型號的戰艦嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……没有，玉轮，能够识别对面的编码么？",
+			say = "……沒有，玉輪，能夠辨識對面的編碼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101550,
-			say = "……嗯？玉轮，你离线了么？",
+			say = "……嗯？玉輪，妳離線了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,8 +161,8 @@ return {
 			nameColor = "#FFC960",
 			bgName = "star_level_bg_596",
 			side = 2,
-			actorName = "企业·META",
-			say = "它回答不了你们问题了，现在整个仲裁机关系统都忙着呢。",
+			actorName = "企業·META",
+			say = "它回答不了妳們問題了，現在整個仲裁機關系統都忙著呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "star_level_bg_596",
 			side = 2,
 			actor = 102350,
-			say = "……你这是什么意思？",
+			say = "……妳這是什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 9705040,
 			nameColor = "#FFC960",
-			say = "你知道了些什么……不对！",
+			say = "妳知道了什麼……不對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "刚刚那一瞬间发生了些什么！",
+			say = "剛剛那一瞬間發生了什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "等本王「审视」一下……",
+			say = "等本王「審視」一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,8 +229,8 @@ return {
 			nameColor = "#FFC960",
 			bgName = "star_level_bg_596",
 			side = 2,
-			actorName = "企业·META",
-			say = "不用审视了，这就是理事会第5特遣舰队——真正的第5特遣舰队。",
+			actorName = "企業·META",
+			say = "不用審視了，這就是理事會第5特遣艦隊——真正的第5特遣艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 9705040,
 			nameColor = "#FFC960",
-			say = "你说什么……？！",
+			say = "妳說什麼……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9707060,
-			say = "“真正的”第5特遣舰队……？",
+			say = "「真正的」第5特遣艦隊……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,8 +272,8 @@ return {
 			nameColor = "#FFC960",
 			bgName = "star_level_bg_596",
 			side = 2,
-			actorName = "企业·META",
-			say = "注意……又有人要来了。",
+			actorName = "企業·META",
+			say = "注意……又有人要來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_596",
 			bgm = "beverly_short_inst",
 			side = 2,
-			say = "一阵蓝色的洪流消散后，天空的一角出现了一个小巧的庭院。",
+			say = "一陣藍色的洪流消散後，天空的一角出現了一個小巧的庭院。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			nameColor = "#FFC960",
 			bgName = "star_level_bg_596",
 			side = 2,
-			actorName = "企业·META",
-			say = "孟菲斯、女灶神，还有约克城……",
+			actorName = "企業·META",
+			say = "曼非斯、女灶神，還有約克鎮……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,8 +313,8 @@ return {
 			nameColor = "#FFC960",
 			bgName = "star_level_bg_596",
 			side = 2,
-			actorName = "企业·META",
-			say = "你们也来了。",
+			actorName = "企業·META",
+			say = "妳們也來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900390,
-			say = "好久不见，或者说……又见面了，企业。",
+			say = "好久不見，或者說……又見面了，企業。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "我没想到你会退让……",
+			say = "我沒想到妳會退讓……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,8 +350,8 @@ return {
 			nameColor = "#FFC960",
 			bgName = "star_level_bg_596",
 			side = 2,
-			actorName = "企业·META",
-			say = "那你拦住了么？",
+			actorName = "企業·META",
+			say = "那妳攔住了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "……埃塞克斯还好么？",
+			say = "……艾塞克斯還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,8 +374,8 @@ return {
 			nameColor = "#FFC960",
 			bgName = "star_level_bg_596",
 			side = 2,
-			actorName = "企业·META",
-			say = "还在昏迷，不过没事，有我在。",
+			actorName = "企業·META",
+			say = "還在昏迷，不過沒事，有我在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "埃塞克斯……咦？",
+			say = "艾塞克斯……咦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			actor = 9705040,
 			nameColor = "#FFC960",
-			say = "埃塞克斯真的昏过去了？！她上一秒还好好的啊……",
+			say = "艾塞克斯真的昏過去了？！她上一秒還好好的啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "不对不对……刚刚一定发生了什么事，本王直接「洞察」一下吧……",
+			say = "不對不對……剛剛一定發生了什麼事，本王直接「洞察」一下吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +430,8 @@ return {
 			nameColor = "#FFC960",
 			bgName = "star_level_bg_596",
 			side = 2,
-			actorName = "企业·META",
-			say = "……又有人来了。",
+			actorName = "企業·META",
+			say = "……又有人來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			actor = 9705040,
 			nameColor = "#FFC960",
-			say = "还有？！",
+			say = "還有？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "呃……这次来的好像是……",
+			say = "呃……這次來的好像是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "star_level_bg_596",
 			bgm = "theme-camelot-up",
 			side = 2,
-			say = "一阵耀眼的光芒褪去，这一次，天空中出现了三道圆环包裹中的城堡庭院。",
+			say = "一陣耀眼的光芒褪去，這次，天空中出現了三道圓環包裹中的城堡庭院。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "得……卡美洛之庭也来了。",
+			say = "好吧……卡美洛之庭也來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107250,
-			say = "这些都是……什么跟什么啊……",
+			say = "這些都是……什麼跟什麼啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			actor = 101100,
 			nameColor = "#A9F548FF",
-			say = "呜啊……我的脑子已经完全乱掉了！",
+			say = "嗚啊……我的腦子已經完全亂掉了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
-			say = "不久前，在我从星海抵达阿瓦隆之门时，伊丽莎白已经整装待发了。",
+			say = "不久前，在我從星海抵達阿瓦隆之門時，伊莉莎白已經整裝待發了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
-			say = "声望·META、反击·META、光荣·META，谢菲尔德·META一行人。",
+			say = "聲望·META、反擊·META、光榮·META，謝菲爾德·META一行人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
-			say = "还有从北方联合赶来的基洛夫·META和从铁血赶来的{namecode:477:格奈森瑙·META}。",
+			say = "還有從北方聯合趕來的基洛夫·META和從鐵血趕來的格奈森瑙·META。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
-			say = "出乎意料的是，{namecode:435:俾斯麦}也来了。",
+			say = "出乎意料的是，俾斯麥也來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
-			say = "对此{namecode:435:俾斯麦}表示，她的革律翁也算是META，自然要来支援——她只是跟着革律翁一起来的。",
+			say = "對此俾斯麥表示，她的革律翁也算是META，自然要來支援——她只是跟著革律翁一起來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
-			say = "面对这个漏洞，我竟无话可说。",
+			say = "面對這個漏洞，我竟無話可說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
-			say = "总而言之，在点齐人马后，伊丽莎白立刻启动了卡美洛之庭，将我们带到了伊丽莎白·META所在的，疑似实验场θ的区域。",
+			say = "總而言之，在點齊人馬後，伊莉莎白立刻啟動了卡美洛之庭，將我們帶到了伊莉莎白·META所在的，疑似實驗場θ的區域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
-			say = "在出发之前，我们姑且做了几个应对不同情况的预案。",
+			say = "在出發之前，我們姑且做了幾個應對不同情況的預案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
-			say = "不过眼前情况的复杂程度还是彻底超出了我的想象……",
+			say = "不過眼前情況的複雜程度還是徹底超越了我的想像……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			bgm = "story-commander-up",
 			actor = 0,
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白·META、企业·META……孟菲斯一行人，还有……两支理事会舰队？",
+			say = "伊莉莎白·META、企業·META……曼非斯一行人，還有……兩隻理事會艦隊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			bgName = "star_level_bg_596",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "眼下是什么情况……？",
+			say = "眼下是什麼情況……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "本王也不知道。但不过看气氛，到了你出去说两句的时候了。",
+			say = "本王也不知道。但不過看氣氛，到了你出去說兩句的時候了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			bgName = "star_level_bg_596",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "伊丽莎白·META在这里，孟菲斯·META她们也在这里……情况应该还处于可控阶段。",
+			say = "伊莉莎白·META在這裡，曼非斯·META她們也在這裡……情況應該還處於可控階段。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			bgName = "star_level_bg_596",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也好……召集一下我们的新老朋友，大家开个会，交换一下情报吧。",
+			say = "也好……召集一下我們的新老朋友，大家開個會，交換一下情報吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

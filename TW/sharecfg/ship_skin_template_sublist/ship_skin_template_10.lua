@@ -2750,15 +2750,15 @@ pg.base.ship_skin_template_10 = {
 		bound_bone = {
 			antiaircraft = {
 				{
-					1.52,
-					1.17,
+					0.85,
+					2.239,
 					0
 				}
 			},
 			plane = {
 				{
-					1.5,
-					1.12,
+					1.101,
+					0.967,
 					0
 				}
 			}
@@ -2770,8 +2770,8 @@ pg.base.ship_skin_template_10 = {
 					{
 						"smoke",
 						{
-							-0.55,
-							2.32,
+							-0.872,
+							2.396,
 							0
 						}
 					}

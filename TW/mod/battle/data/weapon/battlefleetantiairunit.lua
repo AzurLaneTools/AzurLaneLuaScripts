@@ -77,20 +77,23 @@ slot8.flush = function(slot0)
 	slot0._SFXID = nil
 	slot1 = {}
 	slot2 = 0
+	slot3 = 0
 
-	for slot6, slot7 in pairs(slot0._crewUnitList) do
-		for slot11, slot12 in ipairs(slot7) do
+	for slot7, slot8 in pairs(slot0._crewUnitList) do
+		slot3 = slot3 + slot7:GetAttrByName("extraAntiAirRange")
+
+		for slot12, slot13 in ipairs(slot8) do
 			slot2 = slot2 + 1
-			slot0._interval = slot0._interval + slot12:GetReloadTime()
-			slot13 = slot12:GetTemplateData()
-			slot0._range = slot0._range + slot13.range
-			slot0._hitFXResIDList[slot12] = uv0.Battle.BattleDataFunction.GetBulletTmpDataFromID(slot13.bullet_ID[1]).hit_fx
-			slot0._SFXID = slot13.fire_sfx
+			slot0._interval = slot0._interval + slot13:GetReloadTime()
+			slot14 = slot13:GetTemplateData()
+			slot0._range = slot0._range + slot14.range
+			slot0._hitFXResIDList[slot13] = uv0.Battle.BattleDataFunction.GetBulletTmpDataFromID(slot14.bullet_ID[1]).hit_fx
+			slot0._SFXID = slot14.fire_sfx
 		end
 
 		slot1[#slot1 + 1] = {
-			weight = uv1.AntiAirPowerWeight(slot6:GetAttrByName("antiAirPower")),
-			rst = slot6
+			weight = uv1.AntiAirPowerWeight(slot7:GetAttrByName("antiAirPower")),
+			rst = slot7
 		}
 	end
 
@@ -101,7 +104,7 @@ slot8.flush = function(slot0)
 			slot0:RemovePrecastTimer()
 		end
 	else
-		slot0._range = slot0._range / slot2
+		slot0._range = slot0._range / slot2 + slot3
 		slot0._interval = slot0._interval / slot2 + 0.5
 		slot0._weightList, slot0._totalWeight = uv1.GenerateWeightList(slot1)
 	end

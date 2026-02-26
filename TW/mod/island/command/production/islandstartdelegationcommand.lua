@@ -39,10 +39,15 @@ slot0.execute = function(slot0, slot1)
 				slotId = uv8
 			})
 			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandStartDelegation(uv3, uv1, uv8, uv9, uv6))
+			PlayerPrefs.SetString(uv7.GetLocalKeyForLastData(uv8), PackIntToString(uv3, uv9))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end
 	end)
+end
+
+slot0.GetLocalKeyForLastData = function(slot0)
+	return "LAST_DELEGATE" .. tostring(slot0) .. "_" .. getProxy(PlayerProxy):getData().id
 end
 
 return slot0

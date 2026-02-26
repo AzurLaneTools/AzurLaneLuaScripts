@@ -16769,7 +16769,7 @@ _G.pg.base.gametip.lanternRiddles_gametip = {
 第四次答對：T3防禦教材*2，100石油 
 第五次答對：T3通用改造部件*3，300物資 
 第六次答對：T3攻擊教材*2，100石油 
-第七次答對：<color=#92fc63>高級定向藍圖七期*2</color>，300物資]]
+第七次答對：<color=#92fc63>高級定向藍圖八期*2</color>，300物資]]
 		}
 	}
 }
@@ -40666,6 +40666,31 @@ _G.pg.base.gametip.battle_battleMediator_quest_exist_submarine_support = {
 }
 
 
+_G.pg.base.gametip.ANTTFFCoreActivity_subtitle_1 = {
+	tip = "響徹於天穹之音·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_title = {
+	tip = "響徹於天穹之音·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivity_title2 = {
+	tip = "movement"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title = {
+	tip = "響徹於天穹之音·F"
+}
+
+
+_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
+	tip = "movement"
+}
+
+
 _G.pg.base.gametip.submarine_support_oil_consume_tip = {
 	tip = "潛艇支援艦隊出擊消耗$1點石油，是否繼續？"
 }
@@ -40810,6 +40835,11 @@ _G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_7 = {
 }
 
 
+_G.pg.base.gametip.drawdiary_ui_2026 = {
+	tip = "繪圖日記"
+}
+
+
 _G.pg.base.gametip.loveactivity_ui_1 = {
 	tip = "出擊可獲得經驗"
 }
@@ -40935,11 +40965,6 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 3.累計打開<color=#92fc63>15</color>個紅包，可獲得<color=#92fc63>「撫順」限定換裝</color>，累計開啟<color=#92fc63>25</color>個紅包，可取得<color=#92fc63>「長島」限定換裝</color>]]
 		}
 	}
-}
-
-
-_G.pg.base.gametip.drawdiary_ui_2026 = {
-	tip = "繪圖日記"
 }
 
 

@@ -10,7 +10,7 @@ return {
 			bgm = "story-dailyfuture-soft",
 			actor = 9707010,
 			nameColor = "#FFC960",
-			say = "哟~孟菲斯，我们又见面了~",
+			say = "喲~曼非斯，我們又見面了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 				}
 			},
 			location = {
-				"阿拉斯加湾·33号作战海域",
+				"阿拉斯加灣·33號作戰海域",
 				3
 			}
 		},
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9707010,
-			say = "看你的表情，似乎是想起来一些事了？",
+			say = "看妳的表情，似乎想起來一些事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "好久不见，{namecode:94:飞龙}。",
+			say = "好久不見，飛龍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900390,
-			say = "嗯……算是吧，之前我为了维持重塑状态，让海伦娜帮我封锁了一些记忆，以免干扰重塑状态的稳定性。",
+			say = "嗯……算是吧，之前我為了維持重塑狀態，讓海倫娜幫我封鎖了一些記憶，以免干擾重塑狀態的穩定性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "现在么……由于局势的变化，倒是可以放开一些了。",
+			say = "現在麼……由於局勢的變化，倒是可以放開一些了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "原来是这样，我之前还以为……算了~",
+			say = "原來是這樣，我之前還以為……算了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "那这个“局势的变化”……是不是和帷幕里发生的事有关？",
+			say = "那這個「情況的變化」……是不是跟帷幕裡發生的事有關？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9707010,
-			say = "我是说……你知道的，那个只有我们经历了的“梦”……",
+			say = "我是說……妳知道的，那個只有我們經歷了的「夢」……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900390,
-			say = "嗯……有一些关系吧。",
+			say = "嗯……有一些關係吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "所以……你确实是孟菲斯，那“她”是海伦娜么？",
+			say = "所以……妳確實是曼非斯，那「她」是海倫娜嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9707010,
-			say = "其他人呢？都是……还是只是因为停留在重塑状态所以……",
+			say = "其他人呢？都是……還是只是因為停留在重塑狀態所以……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "意识决定存在，认知决定自我，其他的事……重要么？",
+			say = "意識決定存在，認知決定自我，其他的事……重要嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9707010,
-			say = "……也是，海伦娜在不知不觉间已经走了这么远了啊。",
+			say = "……也是，海倫娜在不知不覺間已經走了這麼遠了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900390,
-			say = "是啊……她是为了我们，为了所有逝去之人才做到这一步的。",
+			say = "是啊……她是為了我們，為了所有逝去之人才做到這一步的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "我们一定要救她回来。",
+			say = "我們一定要救她回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9707010,
-			say = "一定能救回来的，放心吧~",
+			say = "一定能救回來的，放心吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 9702080,
 			nameColor = "#C3ABFF",
-			say = "呼……{namecode:197:博伊西}，加油……一定要把海伦娜救回来……",
+			say = "呼……波夕，加油……一定要把海倫娜救回來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702090,
-			say = "放心吧，{namecode:197:博伊西}小姐，我们一定能取得胜利~！",
+			say = "放心吧，波夕小姐，我們一定能取得勝利~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "咦？克利夫兰小姐……？你怎么没在理事会舰队那边……？",
+			say = "咦？克里夫蘭小姐……？妳怎麼沒在理事會艦隊那邊……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "原本是被{namecode:94:飞龙}拽过来的，她说看你们这边士气低落，让我来鼓励一下你们什么的……",
+			say = "原本是被飛龍拉過來的，她說看妳們這邊士氣低落，讓我來鼓勵一下妳們什麼的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702090,
-			say = "但我发现，你们只是因为太在意，有些患得患失了。",
+			say = "但我發現，妳們只是因為太在意，有些患得患失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702090,
-			say = "还未尽情一战，可不能满脑子想着失败之后该怎么办啊~",
+			say = "還未盡情一戰，可不能滿腦子想著失敗之後該怎麼辦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_596",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "……嗯，你说得对……克利夫兰小姐，我们一起加油吧。",
+			say = "……嗯，妳說得對……克里夫蘭小姐，我們一起加油吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			actor = 9702090,
 			nameColor = "#FFC960",
-			say = "海上骑士~出发咯！",
+			say = "海上騎士~出發了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

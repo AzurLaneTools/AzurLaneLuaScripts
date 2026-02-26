@@ -18,7 +18,7 @@ return {
 			},
 			sequence = {
 				{
-					"实验场θ",
+					"實驗場θ",
 					1
 				},
 				{
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_tianqiong_5",
-			say = "帷幕内，仲裁机关正在尝试稳定住濒临崩溃的局势。",
+			say = "帷幕內，仲裁機關正試圖穩定住瀕臨崩潰的局勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "映射紊乱、帷幕破裂……",
+			say = "映射紊亂、帷幕破裂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伪装系统过载、免疫系统失能……",
+			say = "偽裝系統過載、免疫系統失能……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "X污染正在外溢，实验场θ已被标记，应当立刻废弃……",
+			say = "X污染正在外溢，實驗場θ已被標記，應立刻廢棄……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……可惜这次走不了了。",
+			say = "……可惜這次走不了了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，零已经下达了任务执行许可，现在开始针对实验场θ的救援工作。",
+			say = "諸位，零已經下達了任務執行許可，現在開始針對實驗場θ的救援工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "司答，现在停止一切其他工作，将全部性能集中到修复「星空帷幕」上。",
+			say = "司答，現在停止一切其他工作，將全部性能集中到修復“星空帷幕”上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "仲裁者·司答·XVII",
-			say = "——žÍĐ÷/*就绪*/",
+			say = "——žÍĐ÷/*就緒*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "麦纪莎、拉沃斯、提尔瑞特、司特莲库斯、赫米忒、天帕岚斯、沐恩，各自接入帷幕中层，执行受体转换程序。",
+			say = "麥紀莎、拉沃斯、提爾瑞特、司特蓮庫斯、赫米忒、天帕嵐斯、沐恩，各自接入帷幕中層，執行受體轉換程序。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正在接入——各处区域已接入完成。",
+			say = "正在接入——各處區域已接取完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 900490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "受体已建立完成，正在转换第二类拟态物。",
+			say = "受體已建立完成，正在轉換第二類擬態物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "压制效应已确认，正在展开压制。",
+			say = "壓制效應已確認，正在展開壓制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不得不说，这种感觉有点恶心……",
+			say = "不得不說，這種感覺有點噁心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "习惯一下吧。",
+			say = "習慣一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "执行I=VI=VII=VIII=IX=XIV连协，封锁帷幕。",
+			say = "執行I=VI=VII=VIII=IX=XIV連協，封鎖帷幕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同时分别执行I=VII、VI=VII、VIII=VII、IX=VI、XIV=VII连协，以「战车」为核心，清理敌人。",
+			say = "同時分別執行I=VII、VI=VII、VIII=VII、IX=VI、XIV=VII連協，以「戰車」為核心，清理敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "连协均已构建完成，清理军团已派出~",
+			say = "連協均已構建完成，清理軍團已派出~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "沐恩，你在转换完成后，断开与帷幕的连接。",
+			say = "沐恩，妳在轉換完成後，斷開與帷幕的連結。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "将全部性能集中至外部，协助理事会维持实验场θ的局势。",
+			say = "將全部性能集中至外部，協助理事會維持實驗場θ的局勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，让我们恪尽职守，一同处理这场危机吧——",
+			say = "那麼，就讓我們恪盡職守，一同處理這場危機吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			bgm = "battle-thechariotVII",
 			actor = 900478,
 			nameColor = "#A9F548FF",
-			say = "豁……密密麻麻的还真不少。",
+			say = "豁……密密麻麻的還真不少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 				}
 			},
 			location = {
-				"实验场θ·星空帷幕",
+				"實驗場θ·星空帷幕",
 				3
 			}
 		},
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900478,
-			say = "代行者军团——开工！",
+			say = "代行者軍團——開工！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

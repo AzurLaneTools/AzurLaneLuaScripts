@@ -18,11 +18,11 @@ return {
 			},
 			sequence = {
 				{
-					"实验场β",
+					"實驗場β",
 					1
 				},
 				{
-					"鸢尾教国·大会堂",
+					"鳶尾教國·大會堂",
 					2
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_guild_blue_n",
-			say = "「天穹帷幕」事件结束后，我立刻返回了鸢尾教国。",
+			say = "「天穹帷幕」事件結束後，我立刻回到了鳶尾教國。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "由于之前在「美好世界」中得到的情报优势，加之各阵营再次对X的威胁有了直观认识。",
+			say = "由於先前在「美好世界」中得到的情報優勢，加之各陣營再次對X的威脅有了直覺認知。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "新一轮联盟合并会议的协商出奇的顺利。",
+			say = "新一輪聯盟合併會議的協商出奇的順利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "终于——在三个月后，无尽的会议迎来了终结。",
+			say = "終於——三個月後，無盡的會議迎來了終點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,21 +85,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "分裂的联盟，于今日再次统一——",
+			say = "分裂的聯盟，今日再次統一—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			dir = 1,
 			bgName = "bg_tianqiong_cg17",
 			bgm = "battle-newwind",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "两条道路，合二为一",
+			say = "兩條道路，合而為一",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,59 +123,59 @@ return {
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			bgName = "bg_tianqiong_cg17",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "破碎的联盟，再次统一",
+			say = "破碎的聯盟，再次統一",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			bgName = "bg_tianqiong_cg17",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们战胜了塞壬，不代表为了战胜其而建立的碧蓝航线从此失去了意义。",
+			say = "我們戰勝了塞壬，不代表為了戰勝其而建立的碧藍航線從此失去了意義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			bgName = "bg_tianqiong_cg17",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恰恰相反，它将在未来发挥出更加重要的作用。",
+			say = "恰恰相反，它將在未來發揮出更重要的作用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			bgName = "bg_tianqiong_cg17",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟，这一次入侵的是塞壬，这一次我们胜利了。",
+			say = "畢竟，這次入侵的是塞壬，這次我們勝利了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			bgName = "bg_tianqiong_cg17",
 			hidePaintObj = true,
@@ -188,39 +188,39 @@ return {
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			bgName = "bg_tianqiong_cg17",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像大家所看到的，世界之外并不安全。",
+			say = "就像大家所看到的，世界之外並不安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			bgName = "bg_tianqiong_cg17",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们能做的只有团结与联合，以一个整体的姿态，同进同退。",
+			say = "我們能做的只有團結與聯合，以一個整體的姿態，同進同退。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "列克星敦II",
+			actorName = "列星頓II",
 			side = 2,
 			bgName = "bg_tianqiong_cg17",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在碧蓝航线的旗帜下，一同走向那不确定的未来——",
+			say = "在碧藍航線的旗幟下，一同走向那不確定的未來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_guild_blue_n",
-			say = "主席台上传来了似曾相识的演讲。",
+			say = "主席台上傳來了似曾相識的演講。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "但是与记忆中不同的演讲人，已经略有不同的演讲词都在证明着，眼前的景象不是又一个被编织的美好世界。",
+			say = "但是與記憶中不同的演講人，已經略有不同的演講詞都在證明著，眼前的景像不是另一個被編織的美好世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "而是现实——一个所有人凭借自己的力量抵达的现实。",
+			say = "而是現實——一個所有人憑藉自己的力量抵達的現實。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "所以这一次，我选择登上了主席台。",
+			say = "所以這次，我選擇登上了主席台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "以，且只以碧蓝航线的指挥官的身份总结过去，展望未来，为这场会议画上一个圆满的句号。",
+			say = "以，且只以碧藍航線的指揮官的身份總結過去，展望未來，為這場會議畫上一個圓滿的句號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,27 +328,27 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>「过去虽不完美，未来仍有挑战」</size>",
+					"「過去雖不完美，未來仍有挑戰」",
 					0
 				},
 				{
-					"<size=45>「但是此刻」</size>",
+					"響徹於天穹之音\n\n<size=45>42 42.新的時代</size>",
 					1
 				},
 				{
-					"<size=45>「我们团结一致，我们共同向前」</size>",
+					"「我們團結一致，我們共同向前」",
 					2
 				},
 				{
-					"<size=45>「自今日起」</size>",
+					"響徹於天穹之音\n\n<size=45>42 42.新的時代</size>",
 					3
 				},
 				{
-					"<size=45>「赤色中轴彻底成为历史」</size>",
+					"「赤色中軸徹底成為歷史」",
 					4
 				},
 				{
-					"<size=45>「碧蓝航线亦迎来了新生」</size>",
+					"「碧藍航線亦迎來了新生」",
 					5
 				}
 			}
@@ -366,7 +366,7 @@ return {
 			},
 			sequence = {
 				{
-					"「——新的时代到来了」",
+					"「——新的時代來臨了」",
 					0
 				}
 			}

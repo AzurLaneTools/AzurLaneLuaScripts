@@ -3,6 +3,7 @@ slot0.TYPE_COMMON = 1
 slot0.TYPE_SHIP_SKILL = 2
 slot0.TYPE_SHIP_BREAK = 3
 slot0.TYPE_SIGN_GIFT = 4
+slot0.AUTO_COLLECT = 5
 
 slot0.getUIName = function(slot0)
 	return "IslandAwardDisplayConatiner"
@@ -13,7 +14,8 @@ slot0.OnLoaded = function(slot0)
 		[uv0.TYPE_COMMON] = IslandAwardDisplayWindow.New(slot0._tf),
 		[uv0.TYPE_SHIP_SKILL] = IslandAwardDisplay4ShipSkillWindow.New(slot0._tf),
 		[uv0.TYPE_SHIP_BREAK] = IslandAwardDisplay4ShipBreakWindow.New(slot0._tf),
-		[uv0.TYPE_SIGN_GIFT] = IslandAwardDisplay4SignGiftWindow.New(slot0._tf)
+		[uv0.TYPE_SIGN_GIFT] = IslandAwardDisplay4SignGiftWindow.New(slot0._tf),
+		[uv0.AUTO_COLLECT] = IslandAutoCollectAwardDisplayWindow.New(slot0._tf)
 	}
 end
 

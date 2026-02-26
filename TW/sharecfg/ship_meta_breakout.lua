@@ -798,7 +798,7 @@ pg.base.ship_meta_breakout = {
 		item1 = 21056,
 		level = 10,
 		weapon_ids = {
-			80581
+			80583
 		}
 	},
 	[9701112] = {
@@ -831,7 +831,7 @@ pg.base.ship_meta_breakout = {
 		item1 = 21056,
 		level = 70,
 		weapon_ids = {
-			80582
+			80584
 		}
 	},
 	[9701114] = {

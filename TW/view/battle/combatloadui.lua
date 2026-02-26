@@ -54,36 +54,6 @@ slot0.Preload = function(slot0)
 		setImageSprite(slot0.bg, LoadSprite("bg/star_level_bg_211"))
 	end
 
-	if slot0.contextData.system == SYSTEM_DEBUG and BATTLE_DEBUG_CUSTOM_WEAPON then
-		for slot6, slot7 in pairs(ys.Battle.BattleUnitDetailView.BulletForger) do
-			pg.TipsMgr.GetInstance():ShowTips("触发自定义子弹替换>>>" .. slot6 .. "<<<，检查是否测试需要，否则联系程序")
-
-			pg.bullet_template[slot6] = slot7
-		end
-
-		for slot6, slot7 in pairs(ys.Battle.BattleUnitDetailView.BarrageForger) do
-			pg.TipsMgr.GetInstance():ShowTips("触发自定义弹幕替换>>>" .. slot6 .. "<<<，检查是否测试需要，否则联系程序")
-
-			pg.barrage_template[slot6] = slot7
-		end
-
-		for slot6, slot7 in pairs(ys.Battle.BattleUnitDetailView.AircraftForger) do
-			pg.TipsMgr.GetInstance():ShowTips("触发自定义飞机替换>>>" .. slot6 .. "<<<，检查是否测试需要，否则联系程序")
-
-			pg.aircraft_template[slot6] = slot7
-		end
-
-		for slot6, slot7 in pairs(ys.Battle.BattleUnitDetailView.WeaponForger) do
-			pg.TipsMgr.GetInstance():ShowTips("触发自定义武器替换>>>" .. slot6 .. "<<<，检查是否测试需要，否则联系程序")
-
-			pg.weapon_property[slot6] = slot7
-
-			for slot13, slot14 in ipairs(slot1.GetWeaponResource(slot6)) do
-				slot1:AddPreloadResource(slot14)
-			end
-		end
-	end
-
 	slot3, slot4 = uv0.GetTotalResourceList(slot0.contextData)
 
 	for slot8, slot9 in ipairs(slot3) do
@@ -94,12 +64,54 @@ slot0.Preload = function(slot0)
 		slot1:AddPreloadCV(slot9)
 	end
 
-	if BATTLE_DEBUG and BATTLE_FREE_SUBMARINE then
-		for slot11, slot12 in ipairs(getProxy(FleetProxy):getFleetById(11):getTeamByName(TeamType.Submarine)) do
-			table.insert(loadShip, slot2:getShipById(slot12))
+	if slot0.contextData.system == SYSTEM_DEBUG and BATTLE_DEBUG_CUSTOM_WEAPON then
+		for slot8, slot9 in pairs(ys.Battle.BattleUnitDetailView.BulletForger) do
+			pg.TipsMgr.GetInstance():ShowTips("触发自定义子弹替换>>>" .. slot8 .. "<<<，检查是否测试需要，否则联系程序")
+
+			pg.bullet_template[slot8] = slot9
 		end
 
-		uv0.addCommanderBuffRes(slot6:buildBattleBuffList())
+		for slot8, slot9 in pairs(ys.Battle.BattleUnitDetailView.BarrageForger) do
+			pg.TipsMgr.GetInstance():ShowTips("触发自定义弹幕替换>>>" .. slot8 .. "<<<，检查是否测试需要，否则联系程序")
+
+			pg.barrage_template[slot8] = slot9
+		end
+
+		for slot8, slot9 in pairs(ys.Battle.BattleUnitDetailView.AircraftForger) do
+			pg.TipsMgr.GetInstance():ShowTips("触发自定义飞机替换>>>" .. slot8 .. "<<<，检查是否测试需要，否则联系程序")
+
+			pg.aircraft_template[slot8] = slot9
+		end
+
+		for slot8, slot9 in pairs(ys.Battle.BattleUnitDetailView.WeaponForger) do
+			pg.TipsMgr.GetInstance():ShowTips("触发自定义武器替换>>>" .. slot8 .. "<<<，检查是否测试需要，否则联系程序")
+
+			pg.weapon_property[slot8] = slot9
+
+			for slot15, slot16 in ipairs(slot1.GetWeaponResource(slot8)) do
+				slot1:AddPreloadResource(slot16)
+			end
+		end
+	end
+
+	if BATTLE_DEBUG and BATTLE_FREE_SUBMARINE then
+		slot5 = {}
+
+		for slot12, slot13 in ipairs(getProxy(FleetProxy):getFleetById(11):getTeamByName(TeamType.Submarine)) do
+			table.insert(slot5, slot2:getShipById(slot13))
+		end
+
+		slot9, slot10 = slot1.GetPlayerShipResource(slot5, contextData.system)
+
+		for slot14, slot15 in ipairs(slot9) do
+			slot1:AddPreloadResource(slot15)
+		end
+
+		for slot14, slot15 in ipairs(slot10) do
+			slot1:AddPreloadCV(slot15)
+		end
+
+		uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 	end
 
 	slot6 = 0
