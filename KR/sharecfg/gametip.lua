@@ -35983,26 +35983,26 @@ cs.gametip = {
 	},
 	spring_present_tips_time = {
 		1388664,
-		141,
+		142,
 		true
 	},
 	spring_present_tips0 = {
-		1388805,
+		1388806,
 		144,
 		true
 	},
 	spring_present_tips1 = {
-		1388949,
+		1388950,
 		196,
 		true
 	},
 	spring_present_tips2 = {
-		1389145,
+		1389146,
 		199,
 		true
 	},
 	spring_present_tips3 = {
-		1389344,
+		1389345,
 		126,
 		true
 	}

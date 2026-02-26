@@ -46639,7 +46639,7 @@ _G.pg.base.gametip.spring_present_tips_btn = {
 
 
 _G.pg.base.gametip.spring_present_tips_time = {
-	tip = "이벤트 기간: 2월 17일 00:00 ~ 3월 3일 23:59"
+	tip = "이벤트 기간: 2월 26일 00:00 ~ 3월 12일 23:59"
 }
 
 

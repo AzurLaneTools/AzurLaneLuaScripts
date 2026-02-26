@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "在渔场管理员布莉缇处可以管理渔场、加工鱼肉以及查看渔具商店。",
+				text = "가두리 관리자 브리튼을 통해 가두리 관리, 어육 가공 및 낚시 도구 상점을 이용할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "请点击管理渔场。",
+				text = "먼저 '가두리 관리'를 클릭해 보세요.",
 				mode = 2,
 				char = 1,
 				posY = -50,
@@ -35,7 +35,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "可在啾啾渔场委派角色进行水产养殖，养殖需要消耗对应的鱼苗。",
+				text = "츄츄 가두리에 캐릭터를 배치하여 수산물 양식을 진행할 수 있으며, 양식에는 해당 치어가 소모됩니다.",
 				mode = 2,
 				char = 1,
 				posY = 100,
@@ -48,7 +48,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "鱼苗可在渔具商店中进行购买，产出的水产可加工成鱼肉。",
+				text = "치어는 낚시 도구 상점에서 구매할 수 있으며, 생산된 수산물은 어육으로 가공할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 100,
@@ -61,7 +61,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "现在请先退出渔场，查看商店和加工。",
+				text = "이제 가두리 관리를 종료하고 상점과 가공 메뉴를 확인해 보겠습니다.",
 				mode = 2,
 				char = 1,
 				posY = 300,
@@ -78,7 +78,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "请点击鱼肉加工。",
+				text = "'어육 가공'을 클릭해 보세요.",
 				mode = 2,
 				char = 1,
 				posY = -150,
@@ -95,7 +95,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "渔场产出的部分水产可以在此处加工成鱼肉，用作烹饪等生产配方的材料。",
+				text = "가두리에서 생산된 일부 수산물은 이곳에서 어육으로 가공하여, 요리 등 생산 레시피의 재료로 사용할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -108,7 +108,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "部分水产也可能直接作为生产配方的材料，请在后续游戏过程中自由探索。",
+				text = "일부 수산물은 가공 없이 직접 레시피 재료로 쓰이기도 하니, 이후 게임을 플레이하며 자유롭게 탐색해 보세요.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -121,7 +121,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "现在请先退出鱼肉加工，查看商店",
+				text = "이제 가공 메뉴를 종료하고 상점을 확인해 보겠습니다.",
 				mode = 2,
 				char = 1,
 				posY = 300,
@@ -138,7 +138,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "请点击渔具商店。",
+				text = "'낚시 도구 상점'을 클릭해 보세요.",
 				mode = 2,
 				char = 1,
 				posY = -250,
@@ -155,7 +155,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "渔具商店可以购买养殖用的鱼苗，以及钓鱼用的鱼饵。",
+				text = "낚시 도구 상점에서는 양식용 치어와 낚시용 미끼를 구매할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -168,7 +168,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "更多游玩内容可在后续游戏过程中进一步探索~",
+				text = "더욱 다양한 콘텐츠가 준비되어 있으니 앞으로의 여정을 마음껏 즐겨보세요!",
 				mode = 2,
 				char = 1,
 				posY = 0,
