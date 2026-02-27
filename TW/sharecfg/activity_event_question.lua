@@ -72,13 +72,13 @@ pg.activity_event_question = {
 	},
 	[92] = {
 		question = "主線最新章節是第幾章",
-		answer_right = "第十四章",
-		answer_false1 = "第十五章",
+		answer_right = "第十六章",
+		answer_false1 = "第十四章",
 		type = 2,
 		id = 92,
 		wrong_time = 30,
 		answer_false3 = "第十七章",
-		answer_false2 = "第十六章"
+		answer_false2 = "第十五章"
 	},
 	[93] = {
 		question = "下列哪一件裝備航空母艦艦種不適用",

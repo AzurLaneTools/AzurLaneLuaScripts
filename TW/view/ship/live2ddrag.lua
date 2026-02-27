@@ -875,10 +875,13 @@ slot0.updateRelationValue = function(slot0)
 
 		if slot9 then
 			slot12 = slot9
+		elseif math.abs(slot0:fixRelationParameter(slot10, slot6) - (slot5.value or slot0.startValue)) <= 0.01 then
+			slot12 = slot14
 		else
-			slot12, slot13 = Mathf.SmoothDamp(slot5.value or slot0.startValue, slot0:fixRelationParameter(slot10, slot6), slot5.parameterSmooth or 0, slot6.smooth and slot6.smooth / 1000 or slot0.smooth)
+			slot12, slot13 = Mathf.SmoothDamp(slot15, slot14, slot5.parameterSmooth or 0, slot6.smooth and slot6.smooth / 1000 or slot0.smooth)
 		end
 
+		slot5.target = slot10
 		slot5.value = slot12
 		slot5.parameterSmooth = slot13
 		slot5.enable = slot11
@@ -1399,13 +1402,13 @@ slot0.checkClickAction = function(slot0)
 	elseif slot0.clickTriggerTime and slot0.clickTriggerTime > 0 and slot0.clickTriggerTime <= Time.realtimeSinceStartup then
 		slot0:setAbleWithFlag(false)
 
-		if Time.realtimeSinceStartup - slot0.clickTriggerTime <= 0.5 then
+		if Time.realtimeSinceStartup - slot0.clickTriggerTime <= 0.1 then
 			print("点击成功" .. slot0.id)
+
+			slot0.clickTriggerTime = nil
 
 			return true
 		end
-
-		slot0.clickTriggerTime = nil
 	end
 
 	return false

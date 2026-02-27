@@ -329,6 +329,8 @@ slot0.InitData = function(slot0)
 	slot0:UpdateGold()
 
 	slot2 = slot0.activity:getConfig("config_client")
+
+	SetActive(slot0.ui:Find("Allgold/tip"), LiquorFloorMapScene.GetLiquorFloorMapTip())
 end
 
 slot0.OnPlaceDes = function(slot0)
@@ -347,11 +349,14 @@ slot0.UpdatePlace = function(slot0, slot1, slot2, slot3)
 	slot0._subTime = pg.TimeMgr.GetInstance():GetServerTime()
 
 	if slot3[i]:GetType() == 1 then
+		SetActive(slot0.architectureData[i]:Find("tip"), false)
+
 		if slot3[i]:OnStartTime() < slot3[i]:GetTypeParam() * 7200 or slot3[i]:GetTypeParam() == 0 then
 			setImageSprite(slot0.architectureData[i]:Find("numbg/icon1"), LoadSprite("ui/LiquorFloorUI_atlas", "settleGold_1"), true)
 		elseif slot3[i]:OnStartTime() > slot3[i]:GetTypeParam() * 7200 and slot3[i]:OnStartTime() < slot3[i]:GetTypeParam() * 14400 then
 			setImageSprite(slot0.architectureData[i]:Find("numbg/icon1"), LoadSprite("ui/LiquorFloorUI_atlas", "settleGold_2"), true)
 		elseif slot3[i]:OnStartTime() > slot3[i]:GetTypeParam() * 14400 then
+			SetActive(slot0.architectureData[i]:Find("tip"), true)
 			setImageSprite(slot0.architectureData[i]:Find("numbg/icon1"), LoadSprite("ui/LiquorFloorUI_atlas", "settleGold_3"), true)
 		end
 	end
@@ -648,12 +653,8 @@ end
 
 slot0.GetLiquorFloorMapTip = function()
 	for slot5 = 1, #getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN2):GetPlaceList() do
-		if slot1[slot5]:GetType() == 1 and slot1[slot5]:GetLevel() > 0 then
-			warning("       placeData[i]   ", slot1[slot5]:OnStartTime(), slot1[slot5]:GetName(), slot1[slot5]:GetTypeParam() * 14400)
-
-			if slot1[slot5]:OnStartTime() > slot1[slot5]:GetTypeParam() * 14400 then
-				return true
-			end
+		if slot1[slot5]:GetType() == 1 and slot1[slot5]:GetLevel() > 0 and slot1[slot5]:OnStartTime() >= slot1[slot5]:GetTypeParam() * pg.activity_town_2[ActivityConst.LiquorFloor_ACT_ID].gold_time_limit then
+			return true
 		end
 	end
 
