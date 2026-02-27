@@ -471,7 +471,7 @@ pg.activity_banner = {
 		}
 	},
 	[100] = {
-		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "교자|모두가 좋아하는 전통 요리! <color=#6dd329>(경험치 +5%, 60분 지속)</color>",
 		type = 10,
 		id = 100,
 		pic = "dumpling",
