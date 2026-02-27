@@ -11381,7 +11381,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "※<color=#539b2c>$1</COLOR>では<color=#539b2c>装備外装箱</color>が100%出現します"
+	tip = "※<color=#539b2c>02.12-03.04</COLOR>では<color=#539b2c>装備外装箱(新春オークション)/装備外装箱(瑞光迎春)</color>が100%出現します\n※<color=#539b2c>02.26-03.11</COLOR>では<color=#539b2c>装備外装箱(春色旅籠)</color>が100%出現します"
 }
 
 

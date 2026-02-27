@@ -62,7 +62,7 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 6,
-		name = "道場破り！？料理対決！",
+		name = "道場破り!?料理対決!",
 		type = 2,
 		unlock_desc = "レストランがLv6に到達",
 		icon = "jiulou_da",
