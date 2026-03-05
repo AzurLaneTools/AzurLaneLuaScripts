@@ -43465,7 +43465,7 @@ pg.activity_template = {
 		}
 	},
 	[50443] = {
-		mark = 20260305,
+		mark = 20260226,
 		page_info = "",
 		type = 57,
 		login_pop = 0,
