@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			bgm = "story-china",
-			say = "夜深了，莫斯科的房间还亮着灯。",
+			say = "夜深了，莫斯科的房間還亮著燈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "我推门进去，熟悉的木质棋盘前，她正撑着侧脸，指尖夹着一枚棋子，悬在半空。",
+			say = "我推門進去，熟悉的木質棋盤前，她正撐著側臉，指尖夾著一枚棋子，懸在半空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "我一直在等你……我的挚友。陪我一会儿吧？",
+			say = "我一直在等你……我的摯友。陪我一下子吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "她没有抬头，目光锁在棋盘上，灯光勾勒出专注的侧影。",
+			say = "她沒有抬頭，目光鎖在棋盤上，燈光勾勒出專注的側影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "这么晚还在研究棋局？",
+			say = "這麼晚還在研究棋局？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "嗯。我推演了你白天那手“飞镇”，看似有多种应对，但好像都没能走出你的计算。",
+			say = "嗯。我推演了你白天那手「飛鎮」，看似有多種應對，但好像都沒能走出你的計算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "所以，再陪我对弈一局。这次我不会再分神片刻！",
+			say = "所以，再陪我對弈一局。這次我不會再分神！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "她抬眼看我，冰蓝色的眸子里带着清晰的锐气。",
+			say = "她抬眼看我，冰藍色的眼眸裡帶著清晰的銳氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "棋子落盘，清脆有声。她起初落子很快，随后节奏渐渐缓了下来。",
+			say = "棋子落盤，清脆有聲。她起初落子很快，隨後節奏漸漸緩了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "我让博加特里复核了客栈近期的营收。",
+			say = "我讓博加特里重新審核了客棧近期的營收。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "有她协助并行处理事务，经营策略迭代效率提升了12.7%。",
+			say = "有她協助併行處理事務，經營策略迭代效率提升了12.7%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "看来测试很顺利。",
+			say = "看來測試很順利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "数据只是表象。系统推算出的最优解，往往会忽略“人”的变量，就像这盘棋……",
+			say = "數據只是表象。系統推算出的最佳解，往往忽略「人」的變量，就像這盤棋……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "她指尖的白子无意识地轻点着棋盘边缘。",
+			say = "她指尖的白子無意識地輕點著棋盤邊緣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "我能算出你下一步的所有常规解法，但“你”最终会走向哪条路，仅凭计算，无法预知。",
+			say = "我能算出你下一步的所有常規解法，但「你」最終會走向哪條路，僅憑計算，無法預知。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "看来，即便是挚友之间，也需要为对方保留一些惊喜呢。",
+			say = "看來，即便是摯友之間，也需要為對方保留一些驚喜呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "惊喜吗……我倒是看到了你在棋局里，特意为我设下的陷阱。",
+			say = "驚喜嗎……我倒是看到妳在棋局裡，特意為我設下的陷阱了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵，原来已经被你看穿了吗。",
+			say = "呵呵，原來已經被你看穿了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "看来，你对我的了解，比我想象中还要更深呢……",
+			say = "看來，你對我的了解，比我想像中還要更深……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "我们继续落子，棋局悄然蔓延，无形的压力在格线间弥漫。",
+			say = "我們繼續落子，棋局悄悄蔓延，無形的壓力在格線間瀰漫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "我拈起一枚黑子，在一处能巩固优势、却会令她中腹陷入苦战的位置，有了片刻迟疑。",
+			say = "我拈起一枚黑子，在一處能鞏固優勢、卻會令她中腹陷入苦戰的位置，有了片刻遲疑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "这时，她的手忽然覆上我执子的手。那双手谈不上温暖，却如同拂面而来的微凉春风。",
+			say = "這時，她的手忽然覆上我執子的手。那雙手談不上溫暖，卻如同拂面而來的微涼春風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "你看起来，需要冷静一下。",
+			say = "你看起來，需要冷靜一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "让我猜猜……你刚才犹豫的原因，是不想让我那片棋陷入绝境？",
+			say = "讓我猜猜……你剛才猶豫的原因，不想讓我那片棋陷入絕境？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "她引着我的手，将棋子稳稳落在另一个点上——那才是胜率最高的一手。",
+			say = "她引著我的手，將棋子穩穩落在另一個點上——那才是勝率最高的一手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "随后，她没有立即抽回手，而是微微张开手指，滑入我的指间，与我十指相扣。",
+			say = "隨後，她沒有立即抽回手，而是微微張開手指，滑入我的指間，與我十指相扣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "你的温柔，不该成为棋盘上的破绽。",
+			say = "你的溫柔，不該成為棋盤上的破綻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "请在这棋盘上，心无旁骛地与我相见。",
+			say = "請在這棋盤上，心無旁騖地與我相見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "而在这棋盘之外……",
+			say = "而在這棋盤之外……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "她手指微微收拢，掌心的温度与我悄然交融。",
+			say = "她手指微微收攏，掌心的溫度與我悄悄交融。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "我会为你打理好一切，我的挚友。",
+			say = "我會為你打理好一切，我的摯友。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "见我点头之后，她重新将目光投向棋盘，嘴角扬起一抹极淡却真实的弧度。",
+			say = "她見我點頭之後，重新將目光投向棋盤，嘴角揚起一抹極淡卻真實的弧度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			hideRecordIco = true,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "灯火摇曳，将我与她的影子投在棋盘上，紧密地叠在了一起。",
+			say = "燈火搖曳，將我與她的影子投在棋盤上，緊密地疊在了一起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			actor = 703031,
 			nameColor = "#A9F548FF",
-			say = "这局棋，还没完。我们继续。",
+			say = "這局棋，還沒完。我們繼續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

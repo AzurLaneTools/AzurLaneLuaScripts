@@ -15,7 +15,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "收到红色山脉神秘的训练邀请之后，我推开了名为“雀吟”的雅间门扉。",
+			say = "收到紅色高加索神秘的訓練邀請之後，我推開了名為「雀吟」的雅間門扉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "红色山脉正坐在麻将桌上，听到门响，她迅速转向我，脸颊上浮起一层与灯光相映的绯红。",
+			say = "紅色高加索坐在麻將桌上，聽到門響，她迅速轉向我，臉頰上浮起一層與燈光相映的緋紅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "您来了……训练开始前，需要先隔绝视觉。",
+			say = "您來了……訓練開始前，需要先隔絕視覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "能请您……亲自帮我戴上吗？",
+			say = "能請您……親自幫我戴上嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "她配合地仰起脸，睫毛因兴奋快速颤动，呼吸也略微屏住。",
+			say = "她配合地仰起臉，睫毛因興奮快速顫動，呼吸也略微屏住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "我将眼罩轻轻覆上她的眼睛，指尖穿过发丝擦过耳廓，触碰到她发烫的耳后皮肤。",
+			say = "我將眼罩輕輕覆上她的眼睛，指尖穿過髮絲擦過耳廓，碰到她發燙的耳後皮膚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "她立刻轻颤了一下，整个人都绷紧了，随后唇瓣无意识地张开，喉间溢出短促的吸气声……直至眼罩系好。",
+			say = "她立刻輕顫了一下，整個人都繃緊了，隨後唇瓣無意識地張開，喉間溢出短促的吸氣聲……直至眼罩係好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "那、那么，第一项训练……请您随意挑选麻将牌，贴在我身体的不同部位。",
+			say = "那、那麼，第一項訓練……請您隨意挑選麻將牌，貼在我身體的不同部位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "我会在一分钟之内，通过摩擦的触觉去判断……您想让我猜的牌面。",
+			say = "我會在一分鐘之內，透過摩擦的觸覺去判斷……您想讓我猜的牌面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "我依言取过第一枚牌，贴在了她裸露的颈侧。",
+			say = "我依言取過第一把牌，貼在了她裸露的頸側。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "冰凉的牌身触及温热的肌肤，她猛地缩了下脖子，发出一声短促的急呼。",
+			say = "冰涼的牌身觸及溫熱的肌膚，她猛地縮了下脖子，發出一聲短促的急呼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "好冰……！不、不过……这个纹路是……",
+			say = "好冰……！不、不過……這個紋路是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "在她柔软的嘤咛声中，一分钟很快过去。该继续第二回合了。",
+			say = "在她柔軟的嚶嚀聲中，一分鐘很快過去。該繼續第二回合了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "我的视线落在她微微收紧的小腹，随即将第二张牌贴了上去。",
+			say = "我的視線落在她微微收緊的小腹，隨即將第二張牌貼了上去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "麻将牌摩擦着她贴身的衣物，能隐约感受到其下的温热与柔软。",
+			say = "麻將牌摩擦著她貼身的衣物，能隱約感受到其下的溫熱與柔軟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "呜？！",
+			say = "嗚？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "她整个腹部猛然向内收缩，随后又弓起背，让腹部压向我的手掌。",
+			say = "她整個腹部突然向內收縮，隨後又弓起背，讓腹部壓向我的手掌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "哈……这、这个凹凸不平的牌面，在肚子上摩擦的感觉……又凉又麻的……",
+			say = "哈……這、這個凹凸不平的牌面，在肚子上摩擦的感覺……又涼又麻的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "她的声音带着难耐的扭捏，身体下意识小幅度地左右轻摆，却使得紧贴肌肤的面料与牌面摩擦得更为剧烈。",
+			say = "她的聲音帶著難耐的扭捏，身體下意識小幅度地左右輕擺，卻使得緊貼肌膚的布料與牌面摩擦得更為劇烈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "嗯啊~~♡",
+			say = "嗯啊~~♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "star_level_bg_128",
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "哈啊……第一项训练虽然失败了……但不用担心，我还准备了第二项……",
+			say = "哈啊……第一項訓練雖然失敗了……但不用擔心，我還準備了第二項……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "请……把牌放在我的脚趾间夹住。",
+			say = "請……把牌放在我的腳趾間夾住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "然后……在、在我的脚底，用手指写下牌的名字，让我通过笔划来猜……",
+			say = "然後……在、在我的腳底，用手指寫下牌的名字，讓我透過筆劃來猜測……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "她宣称这是更高阶的训练，但在我的指尖刚触碰到她足底丝袜的瞬间，她整条腿就像触电般猛地一弹。",
+			say = "她宣稱這是更高階的訓練，但在我的指尖剛觸碰到她足底絲襪的瞬間，她整條腿就像觸電般猛地一彈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "不、不小心没夹住麻将……那里比想象中还要敏感，所以……我们重来吧……！",
+			say = "不、不小心沒夾住麻將……那裡比想像中還要敏感，所以……我們重來吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "嗯……横……是横划……诶？等等……好痒……嘿……♡",
+			say = "嗯……橫……是橫劃……欸？等等……好癢……嘿……♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "第二次尝试仍以麻将掉落告终。",
+			say = "第二次嘗試仍以麻將掉落告終。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "于是第三次，为了避免再次掉落，我用手扳住了她的脚趾，开始在光滑的足底迅速书写着。",
+			say = "於是第三次，為了避免再次掉落，我用手扳住了她的腳趾，開始在光滑的足底迅速書寫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "呜噫……等……太快了……噗……噗哈哈哈——不行了，在那里刮根本忍不住啊哈哈哈，请松手呜——！！",
+			say = "嗚噫……等……太快了……噗……噗哈哈哈——不行了，在那裡刮根本忍不住啊哈哈哈，請鬆手嗚——！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "又经过几轮的训练，直到我以最轻最慢的速度写完，她才猜出来是什么字。",
+			say = "又經過幾輪的訓練，直到我以最輕、最慢的速度寫完，她才猜出來是什麼字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "她像是耗尽所有力气般剧烈喘息着，好一会儿才将眼罩摘下。",
+			say = "她像是耗盡所有力氣般劇烈喘息著，好一會兒才將眼罩摘下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			hideRecordIco = true,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "那双湿润的眼眸望过来，嘴角勾起一个慵懒又满足的弧度。",
+			say = "那雙濕潤的眼眸望過來，嘴角勾起一個慵懶又滿足的弧度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			actor = 702091,
 			nameColor = "#A9F548FF",
-			say = "今天的精神训练，效果好得出奇呢……所有的感官，都记得清清楚楚了哦~♡",
+			say = "今天的精神訓練，效果好得出奇呢……所有的感官，都記得清清楚楚了哦~♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

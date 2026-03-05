@@ -79,6 +79,7 @@ pg.item_data_frame = setmetatable({
 		609,
 		610,
 		611,
+		614,
 		1001,
 		1002,
 		1003,
@@ -797,6 +798,15 @@ pg.base.item_data_frame = {
 		id = 611,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>感受著林間的清風，來一場別樣的渡假體驗吧~</color>透過參與「林間渡假準備」活動獲取",
+		scene = {}
+	},
+	[614] = {
+		name = "天下第一客棧",
+		gain_by = "",
+		time_second = 0,
+		id = 614,
+		time_limit_type = 0,
+		desc = "吉慶盈門福運轉，燈籠高掛照財來~\n<color=#A7A7AA>透過參與「春滿客棧Online」獲得</color>",
 		scene = {}
 	},
 	[1001] = {

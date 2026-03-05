@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_town_collection_2 = {
 	{
 		id = 1,
-		name = "春满之日",
+		name = "春滿之日",
 		type = 1,
 		unlock_desc = "看不到",
 		icon = "bg_kezhan_cg_2",
@@ -14,9 +14,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 2,
-		name = "客栈潜入大作战",
+		name = "客棧潛入大作戰",
 		type = 1,
-		unlock_desc = "客栈达到3级",
+		unlock_desc = "客棧達到3級",
 		icon = "bg_kezhan_cg_2",
 		luaID = "CHUNMANKEZHAN2",
 		unlock = {
@@ -26,9 +26,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 3,
-		name = "测试环节需测试",
+		name = "測試環節需測試",
 		type = 1,
-		unlock_desc = "客栈达到6级",
+		unlock_desc = "客棧達到6級",
 		icon = "bg_kezhan_cg_2",
 		luaID = "CHUNMANKEZHAN3",
 		unlock = {
@@ -38,9 +38,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 4,
-		name = "底层修复日志",
+		name = "底層修復日誌",
 		type = 1,
-		unlock_desc = "客栈达到9级",
+		unlock_desc = "客棧達到9級",
 		icon = "bg_kezhan_cg_2",
 		luaID = "CHUNMANKEZHAN4",
 		unlock = {
@@ -50,9 +50,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 5,
-		name = "喜气洋洋的庆典时光",
+		name = "喜氣洋洋的慶典時光",
 		type = 1,
-		unlock_desc = "客栈达到12级",
+		unlock_desc = "客棧達到12級",
 		icon = "bg_kezhan_cg_3",
 		luaID = "CHUNMANKEZHAN5",
 		unlock = {
@@ -62,9 +62,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 6,
-		name = "踢馆！厨艺切磋赛！",
+		name = "踢館！廚藝切磋賽！",
 		type = 2,
-		unlock_desc = "酒楼达到6级",
+		unlock_desc = "酒樓達到6級",
 		icon = "jiulou_da",
 		luaID = "CHUNMANKEZHAN16",
 		unlock = {
@@ -74,9 +74,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 7,
-		name = "各怀心思的牌局",
+		name = "各懷心思的牌局",
 		type = 2,
-		unlock_desc = "水榭楼台达到10级",
+		unlock_desc = "水榭樓臺達到10級",
 		icon = "loutai_da",
 		luaID = "CHUNMANKEZHAN17",
 		unlock = {
@@ -86,9 +86,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 8,
-		name = "争厢斗艳",
+		name = "爭廂鬥艷",
 		type = 2,
-		unlock_desc = "旅舍达到5级",
+		unlock_desc = "旅舍達到5級",
 		icon = "lvshe_da",
 		luaID = "CHUNMANKEZHAN18",
 		unlock = {
@@ -98,9 +98,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 9,
-		name = "幸运之人与幸运锦鲤",
+		name = "幸運之人與幸運錦鯉",
 		type = 2,
-		unlock_desc = "池塘达到6级",
+		unlock_desc = "池塘達到6級",
 		icon = "chitang_da",
 		luaID = "CHUNMANKEZHAN19",
 		unlock = {
@@ -110,9 +110,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 10,
-		name = "写生奇遇",
+		name = "寫生奇遇",
 		type = 2,
-		unlock_desc = "花园达到6级",
+		unlock_desc = "花園達到6級",
 		icon = "shulin_da",
 		luaID = "CHUNMANKEZHAN20",
 		unlock = {
@@ -124,7 +124,7 @@ pg.activity_town_collection_2 = {
 		id = 11,
 		name = "棋局未了",
 		type = 3,
-		unlock_desc = "旅舍达到3级",
+		unlock_desc = "旅舍達到3級",
 		icon = "703031",
 		luaID = "CHUNMANKEZHAN6",
 		unlock = {
@@ -134,9 +134,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 12,
-		name = "深阁舞戏",
+		name = "深閨舞戲",
 		type = 3,
-		unlock_desc = "旅舍达到6级",
+		unlock_desc = "旅舍達到6級",
 		icon = "499092",
 		luaID = "CHUNMANKEZHAN7",
 		unlock = {
@@ -148,7 +148,7 @@ pg.activity_town_collection_2 = {
 		id = 13,
 		name = "共醉之夜",
 		type = 3,
-		unlock_desc = "旅舍达到9级",
+		unlock_desc = "旅舍達到9級",
 		icon = "207072",
 		luaID = "CHUNMANKEZHAN8",
 		unlock = {
@@ -158,9 +158,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 14,
-		name = "盲打联系~触觉麻将",
+		name = "盲打♥觸覺麻將",
 		type = 3,
-		unlock_desc = "水榭楼台达到6级",
+		unlock_desc = "水榭樓臺達到6級",
 		icon = "702091",
 		luaID = "CHUNMANKEZHAN9",
 		unlock = {
@@ -170,10 +170,10 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 15,
-		name = "锦瑟如春",
+		name = "今夜，你哪裡也不准去",
 		type = 3,
-		unlock_desc = "花园达到8级",
-		icon = "506013",
+		unlock_desc = "花園達到8級",
+		icon = "206062",
 		luaID = "CHUNMANKEZHAN10",
 		unlock = {
 			6,
@@ -182,9 +182,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 16,
-		name = "顽皮的实用防身教学",
+		name = "頑皮的實用防身教學",
 		type = 3,
-		unlock_desc = "酒楼达到4级",
+		unlock_desc = "酒樓達到4級",
 		icon = "701131",
 		luaID = "CHUNMANKEZHAN11",
 		unlock = {
@@ -194,9 +194,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 17,
-		name = "服务器维护中",
+		name = "伺服器維護中",
 		type = 3,
-		unlock_desc = "神秘仓库达到8级",
+		unlock_desc = "神秘倉庫達到8級",
 		icon = "702101",
 		luaID = "CHUNMANKEZHAN12",
 		unlock = {
@@ -206,9 +206,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 18,
-		name = "厨娘的休假日",
+		name = "廚娘的休假日",
 		type = 3,
-		unlock_desc = "酒楼达到8级",
+		unlock_desc = "酒樓達到8級",
 		icon = "501051",
 		luaID = "CHUNMANKEZHAN13",
 		unlock = {
@@ -218,9 +218,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 19,
-		name = "宵夜的正确食用方式",
+		name = "宵夜的正確食用方法",
 		type = 3,
-		unlock_desc = "酒楼达到12级",
+		unlock_desc = "酒樓達到12級",
 		icon = "206081",
 		luaID = "CHUNMANKEZHAN14",
 		unlock = {
@@ -230,9 +230,9 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 20,
-		name = "满园灯火",
+		name = "滿園燈火",
 		type = 3,
-		unlock_desc = "池塘达到8级",
+		unlock_desc = "池塘達到8級",
 		icon = "502091",
 		luaID = "CHUNMANKEZHAN15",
 		unlock = {

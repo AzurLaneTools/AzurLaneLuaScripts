@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
 			bgm = "story-kezhan-china",
-			say = "有了宁海和平海的协助之后，客栈的生意愈发蒸蒸日上。",
+			say = "有了寧海和平海的協助之後，客棧的生意愈發蒸蒸日上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "而这一派热闹平和的氛围，正因为克拉伦斯的到来，悄悄地出现了一些变化……",
+			say = "而這一派熱鬧平和的氛圍，正因為克拉倫斯的到來，悄悄地出現了一些變化……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然是测试环节，就更应该好好测试一番了。",
+			say = "既然是測試環節，就更該好好測試一番了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……纸张质量合格，印刷牢固，没有掉色。装订也够结实……合格。",
+			say = "嗯……紙張品質合格，印刷牢固，沒有掉色。裝訂也夠結實……合格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 502027,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "客、客人何故掂这菜单？想好要吃什么了嘛？",
+			say = "客、客人何故掂這菜單？想好要吃什麼了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一份炒饭。",
+			say = "一份炒飯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 502027,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好的，一份炒饭。需要配菜或者汤吗？鲜肉包子也很值得一试的。",
+			say = "好的，一份炒飯。需要配菜或湯嗎？鮮肉包子也很值得一試的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用，只要炒饭。测试——咳，我是说，简单吃点就好。",
+			say = "不用，只要炒飯。測試——咳，我是說，簡單吃點就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "不一会，平海端来了一碗热气腾腾、粒粒分明的炒饭。",
+			say = "不一會，平海端來了一碗熱氣騰騰、粒粒分明的炒飯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你的炒饭，请慢用。",
+			say = "妳的炒飯，請慢用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……卖相合格，香气正常，没有焦糊味。",
+			say = "嗯……賣相合格，香氣正常，沒有焦糊味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不错。你好，我还要继续点餐。",
+			say = "不錯。妳好，我還要繼續點餐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 502027,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？是想再加点别的菜吗？",
+			say = "欸？是想再加點別的菜嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，我要“负一份”炒饭。",
+			say = "不，我要「負一份」炒飯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "负一份……？",
+			say = "負一份……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "平海，宁海，出什么事了么？",
+			say = "平海，寧海，出什麼事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，掌柜的你来得正好！快帮我听听客人这是什么意思？",
+			say = "啊，掌櫃的你來得正好！快幫我聽聽客人這是什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "于是，宁海向我复述了克拉伦斯和她的对话。",
+			say = "於是，寧海向我複述了克拉倫斯和她的對話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 502027,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "客人的意思好像是要退掉这份炒饭……",
+			say = "客人的意思好像是要退掉這份炒飯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，我的需求就是字面意思，“负一份”炒饭。",
+			say = "不，我的需求就是字面意思，「負一份」炒飯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "我看着克拉伦斯认真的表情，把她面前那盘炒饭端了回来。",
+			say = "我看著克拉倫斯認真的表情，把她面前那盤炒飯端了回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你的“负一份”炒饭，请慢用。",
+			say = "妳的「負一份」炒飯，請慢用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "反应正确。那么……我要“负一杯”米酒。",
+			say = "反應正確。那麼……我要「負一杯」米酒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我要2^32份炒饭。",
+			say = "我要2^32份炒飯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我要3杯鸡米饭。",
+			say = "我要3杯雞肉飯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我要Q@HWN份炒饭。",
+			say = "我要Q@HWN份炒飯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_197",
-			say = "就这样轮番测试结束后，克拉伦斯终于露出了满意的微笑。",
+			say = "就這樣輪番測試結束後，克拉倫斯終於露出了滿意的微笑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……合格。不，优秀。",
+			say = "……合格。不，優秀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那现在，专业测试员克拉伦斯，可以安心享用一份炒饭了吗？我请客。",
+			say = "那現在，專業測試員克拉倫斯，可以安心享用一份炒飯了嗎？我請客。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actor = 101550,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，麻烦你们了。",
+			say = "嗯，麻煩你們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "铃声轻轻响起，又有客人推门而入。",
+			say = "鈴聲輕輕響起，又有客人推門而入。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "客栈的日常，在这段小插曲后，继续温暖地流转着。",
+			say = "客棧的日常，在這段插曲後，繼續溫暖地流轉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

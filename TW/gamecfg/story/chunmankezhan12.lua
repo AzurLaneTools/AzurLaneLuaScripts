@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			bgm = "story-china",
-			say = "这间平时用于存储物资的仓库，其真实用途并非仅此一条。",
+			say = "這間平時用於存放物資的倉庫，其真實用途並非僅此一條。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "这里，其实就是本次测试的心脏，也是博加特里的机房。",
+			say = "這裡，其實就是這次測試的心臟，也是博加特里的機房。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "此时的她，正以一个极为松弛的姿态倚坐着，一动不动的身体轻轻靠在一处连接了大量电缆的中央服务器上。",
+			say = "此時的她，正以一個極為鬆弛的姿態倚坐著，一動不動的身體輕輕靠在一處連接了大量電纜的中央伺服器上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "是在进行服务器检修的时候睡着了么……",
+			say = "是在進行伺服器檢修的時候睡著了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "我的询问落进一片沉寂，只能听见风扇的嗡鸣在空旷的仓库中回响。",
+			say = "我的詢問落進一片沉寂，只能聽見風扇的嗡鳴在空曠的倉庫中迴響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "我准备抱起博加特里，将她送回客栈休息。",
+			say = "我準備抱起博加特里，將她送回客棧休息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "可就在触碰到她的瞬间——博加特里身体一软，轻轻向我倒来。",
+			say = "但就在觸碰到她的瞬間——博加特里身體一軟，輕輕向我倒來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "博加特里的头靠在我颈侧，温热的呼吸拂过皮肤，整个身体的重量毫无保留地交付过来。",
+			say = "博加特里的頭靠在我頸側，溫熱的呼吸拂過皮膚，整個身體的重量毫無保留地交付過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "指……指挥官……？",
+			say = "指……指揮官……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "怀中传来一声含糊的呢喃。",
+			say = "懷中傳來一聲含糊的呢喃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "低头看去，博加特里那双水蓝色的眼眸正在缓缓睁开。",
+			say = "低頭看去，博加特里那雙水藍色的眼眸正在緩緩睜開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "长长的睫毛颤动了几下，瞳孔深处的光圈微微缩放，最终聚焦在我的脸上。",
+			say = "長長的睫毛顫抖了幾下，瞳孔深處的光圈微微縮放，最後聚焦在我的臉上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "出什么事了么？",
+			say = "出什麼事了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "不必担心，指挥官……",
+			say = "不必擔心，指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "正在进行游戏《春满客栈Online》的……例行服务器维护工作……",
+			say = "正在進行遊戲《春滿客棧Online》的……例行伺服器維護工作……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "服务器数据更新进度：75%……",
+			say = "伺服器資料更新進度：75%……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "维护过程中，我的大量算力被占用……需要降低其它系统的功耗。",
+			say = "維護過程中，我的大量算力被佔用……需要降低其它系統的功耗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "警告：若在该阶段强行移动机体，可能导致数据损坏。",
+			say = "警告：若在該階段強行移動機體，可能導致資料損壞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "指挥官，请继续保持当前状态……不要移动。",
+			say = "指揮官，請繼續保持當前狀態……不要移動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "没有给我继续提问的机会，她更深地依偎进我怀里，仿佛在寻找一个安稳的支点。",
+			say = "沒有給我繼續提問的機會，她更深地依偎進我懷裡，彷彿在尋找一個安穩的支點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "仓库再次恢复了寂静，唯一能感受到的，是她衣料下的柔软轮廓和愈发滚烫的体温。",
+			say = "倉庫再次恢復了寂靜，唯一能感受到的，是她衣料下的柔軟輪廓和愈發滾燙的體溫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "不知过了多久，也许只有几十秒，也许有几分钟……",
+			say = "不知過了多久，也許只有幾十秒，也許有幾分鐘……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "她没有回应，只有交织的呼吸与心跳声在耳边轻轻回响。",
+			say = "她沒有回應，只有交織的呼吸與心跳聲在耳邊輕輕迴響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "忽然，怀中传来一阵细微的颤动。",
+			say = "忽然，懷中傳來一陣細微的顫動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "服务器数据更新进度：100%——更新完成。",
+			say = "伺服器資料更新進度：100%——更新完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "指挥官……",
+			say = "指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "还好有你协助我稳定参数，才能顺利结束更新。",
+			say = "還好有你協助我穩定參數，才能順利結束更新。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "不过，更新虽然结束了，但我的系统内……",
+			say = "不過，更新雖然結束了，但我的系統內部……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "博加特里再次睁开了眼睛，但她的身躯却并未移动分毫。",
+			say = "博加特里再次睜開了眼睛，但她的身體卻並未移動分毫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "唔……系统内，突然出现了大量无法解读，且在持续增长的异常数据……",
+			say = "唔……系統內，突然出現了大量無法解讀，且在持續成長的異常數據……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "过载——过载警告——指、指挥官……",
+			say = "過載——過載警告——指、指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "她的脸颊掠过一丝淡淡的红晕，目光微微游移，最终又落回我脸上。",
+			say = "她的臉頰掠過一絲淡淡的紅暈，目光微微游移，最後又落回我臉上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "接下来，我需要进一步解析这些异常数据……",
+			say = "接下來，我需要進一步解析這些異常數據…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "指挥官，请再陪我一会儿……我们一起，查明异常数据产生的原因吧……",
+			say = "指揮官，請再陪我一陣子……我們一起，查明異常數據產生的原因吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

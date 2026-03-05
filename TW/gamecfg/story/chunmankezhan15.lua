@@ -15,7 +15,7 @@ return {
 			actor = 502091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和济安一起漫步廊前，周围一如既往的静谧。不是说安静不好，只是感觉……",
+			say = "和濟安一起漫步廊前，周圍一如既往的靜謐。不是說安靜不好，只是感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "掌柜……掌柜~？",
+			say = "掌櫃……掌櫃~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			portrait = "zhihuiguan",
 			side = 2,
-			say = "啊，抱歉，刚有点走神。",
+			say = "啊，抱歉，剛好有點走神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 502091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您看起来似乎有心事呢？不介意的话，可以跟我说说哦~",
+			say = "您看起來似乎有心事呢？不介意的話，可以跟我說說哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我刚刚在想，池塘边的环境虽好，但有些一成不变了。",
+			say = "我剛剛在想，池塘邊的環境雖好，但有些一成不變了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？这件事就请交给我吧，请您……拭目以待~",
+			say = "哦？這件事就請交給我吧，請您……拭目以待~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hideRecordIco = true,
 			actor = 502091,
 			nameColor = "#A9F548FF",
-			say = "几天后的夜晚，刚结束当日的经营工作，走出客栈的我忽然看到了一片璀璨的池上灯海。",
+			say = "幾天後的夜晚，剛結束當天的經營工作，走出客棧的我忽然看到了一片璀璨的池上燈海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "star_level_bg_102",
 			side = 2,
 			withoutActorName = true,
-			say = "各式彩灯化作飞禽走兽的模样，栩栩如生，光华流转。",
+			say = "各式彩燈化為飛禽走獸的模樣，栩栩如生，光華流轉。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "您来了~这是我为您准备的灯会，您喜欢吗？",
+			say = "您來了~這是我為您準備的燈會，您喜歡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "看您的表情，似乎很喜欢呢~我还在池边备下了花船，请您随我来吧~",
+			say = "看您的表情，似乎很喜歡呢~我還在池邊備下了花船，請您隨我來吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "star_level_bg_102",
 			side = 2,
 			withoutActorName = true,
-			say = "我们并肩站在船头，济安牵起我的手，小船慢慢驶向灯火灿烂处。",
+			say = "我們並肩站在船頭，濟安牽起我的手，小船慢慢駛向燈火燦爛處。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -185,7 +185,7 @@ return {
 			bgName = "star_level_bg_102",
 			side = 2,
 			withoutActorName = true,
-			say = "在这略带凉意的夜里，她的掌心却如眼前的灯火一般温暖。",
+			say = "在這略帶涼意的夜裡，她的掌心卻如眼前的燈火一般溫暖。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -200,7 +200,7 @@ return {
 			hideRecordIco = true,
 			actor = 502091,
 			nameColor = "#A9F548FF",
-			say = "布置这么多，很费功夫吧？",
+			say = "佈置這麼多，很費功夫吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "只要您喜欢，这些辛苦就不算白费。",
+			say = "只要您喜歡，這些辛苦就不算白費。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "啊，前方水面上是大家放的花灯，都汇成了一条光河呢，真好看。",
+			say = "啊，前方水面上是大家放的花燈，都匯成了一條光河呢，真好看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "都说将心愿寄于花灯，来年便会如愿……",
+			say = "都說將心願寄於花燈，來年便會如願……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "船上也有花灯，我们也写下心愿，送进花灯里吧？",
+			say = "船上也有花燈，我們也寫下心願，送進花燈裡吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_102",
 			side = 2,
 			withoutActorName = true,
-			say = "济安取来纸笔，带着盈盈笑意自然地坐入我怀中，将纸铺展在腿上。",
+			say = "濟安拿來紙筆，帶著盈盈笑意自然地坐入我懷中，將紙鋪展在腿上。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "我想和您一起写下愿望呢……可以吗？",
+			say = "我想和您一起寫下願望呢……好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_102",
 			side = 2,
 			withoutActorName = true,
-			say = "见我点头同意，济安便对着纸张神情认真地思考了起来。",
+			say = "見我點頭同意，濟安便對著紙張神情認真地思考了起來。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_102",
 			side = 2,
 			withoutActorName = true,
-			say = "盛装之下的她更显温顺，温软地占据了我整个怀抱。",
+			say = "盛裝之下的她更顯溫順，溫軟地佔據了我整個懷抱。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "写什么好呢……感觉自己的愿望已经接近实现了呢，呵呵~",
+			say = "寫什麼好呢……感覺自己的願望已經接近實現了呢，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,20 +328,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "您有什么愿望吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_102",
-			side = 2,
-			dir = 1,
-			actor = 502091,
-			say = "啊，不如这样——我闭上眼睛，让您握着我的手，把愿望写下来……",
+			say = "您有什麼願望嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +341,20 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "然后，我来猜您写了什么……呵呵，就这样办吧~",
+			say = "啊，不如這樣——我閉上眼睛，讓您握著我的手，把願望寫下來……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_102",
+			side = 2,
+			dir = 1,
+			actor = 502091,
+			say = "然後，我來猜猜您寫了什麼……呵呵，就這樣辦吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hideRecordIco = true,
 			actor = 502091,
 			nameColor = "#A9F548FF",
-			say = "我轻轻握住她的手与笔，笔尖在她腿上的纸面上缓缓移动。",
+			say = "我輕輕握住她的手與筆，筆尖在她腿上的紙上緩緩移動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			hideRecordIco = true,
 			actor = 502091,
 			nameColor = "#A9F548FF",
-			say = "两人心跳交错，我落笔时或许给她带来了些许痒意，让她有些不自禁地轻笑出声。",
+			say = "兩人心跳交錯，我落筆時或許給她帶來了些許癢意，讓她有些不自禁地輕笑出聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "嗯~您的愿望，我知道了哦。",
+			say = "嗯~您的願望，我知道了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "济安也会来帮忙……一定，会让愿望实现的~",
+			say = "濟安也會來幫忙……一定，會讓願望實現的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hideRecordIco = true,
 			actor = 502091,
 			nameColor = "#A9F548FF",
-			say = "点燃花灯，推入水中，小小的烛光随着水波摇曳，汇入光河。",
+			say = "點燃花燈，推入水中，小小的燭光隨著水波搖曳，匯入光河。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "真是梦幻般的光景呢……",
+			say = "真是夢幻般的光景呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "我还有最后一件特地为您准备的礼物……就在身后的船舱之中。",
+			say = "我還有最後一件特地為您準備的禮物……就在身後的船艙之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 502091,
-			say = "就请您……随我进来看看吧~",
+			say = "就請您……隨我進來看看吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hideRecordIco = true,
 			actor = 502091,
 			nameColor = "#A9F548FF",
-			say = "灯火摇曳，船舱的纸窗上，映出两道朦胧相依的身影。",
+			say = "燈火搖曳，船艙的紙窗上，映出兩道朦朧相依的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

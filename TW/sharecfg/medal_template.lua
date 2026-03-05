@@ -2720,6 +2720,27 @@ pg.medal_template = {
 		explain1 = "「春宴懷玉香滿庭」",
 		explain2 = "活動紀念"
 	},
+	[200141] = {
+		target_id = "50441",
+		name = "春滿客棧紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "金樽滿，春風醉，招財進寶如意日。\n——今日的客棧就交由您來打點了，盡情享受經營的熱鬧與樂趣吧~",
+		next = 0,
+		icon = "9141",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9141",
+		condition = "收集8個「春滿客棧online」紀念貼紙。",
+		rank = 1,
+		id = 200141,
+		explain1 = "「春滿客棧online」",
+		explain2 = "活動紀念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2844,6 +2865,7 @@ pg.medal_template = {
 		200101,
 		200111,
 		200121,
-		200131
+		200131,
+		200141
 	}
 }

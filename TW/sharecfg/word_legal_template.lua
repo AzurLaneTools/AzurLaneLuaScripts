@@ -1316,6 +1316,9 @@ temp = function()
 		["容"] = {
 			this = true
 		},
+		["籌"] = {
+			this = true
+		},
 		["王"] = {
 			["星"] = {
 				this = true
@@ -1327,9 +1330,6 @@ temp = function()
 			}
 		},
 		["咲"] = {
-			this = true
-		},
-		["籌"] = {
 			this = true
 		}
 	}
@@ -1998,6 +1998,17 @@ temp = function()
 					["兵"] = {
 						["裝"] = {
 							[")"] = {
+								this = true
+							}
+						}
+					}
+				}
+			},
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
 								this = true
 							}
 						}
@@ -2759,6 +2770,13 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["加"] = {
+			["特"] = {
+				["里"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -2837,6 +2855,17 @@ temp = function()
 				I = {
 					I = {
 						this = true
+					}
+				},
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
 					}
 				}
 			},
@@ -4657,7 +4686,18 @@ temp()
 temp = function()
 	uv0["江"] = {
 		["風"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -6264,6 +6304,16 @@ end
 temp()
 
 temp = function()
+	uv0["彰"] = {
+		["武"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["寰"] = {
 		["昌"] = {
 			this = true
@@ -6567,7 +6617,16 @@ temp = function()
 						E = {
 							T = {
 								A = {
-									this = true
+									this = true,
+									["（"] = {
+										["后"] = {
+											["排"] = {
+												["）"] = {
+													this = true
+												}
+											}
+										}
+									}
 								}
 							}
 						}
@@ -6583,6 +6642,16 @@ temp()
 temp = function()
 	uv0["兇"] = {
 		["猛"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["頑"] = {
+		["皮"] = {
 			this = true
 		}
 	}
@@ -6615,10 +6684,35 @@ end
 temp()
 
 temp = function()
+	uv0["紅"] = {
+		["色"] = {
+			["高"] = {
+				["加"] = {
+					["索"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["甘"] = {
 		["古"] = {
 			["特"] = {
-				this = true
+				this = true,
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -7289,6 +7383,34 @@ end
 temp()
 
 temp = function()
+	uv0["马"] = {
+		["可"] = {
+			["波"] = {
+				["罗"] = {
+					["（"] = {
+						["圣"] = {
+							["座"] = {
+								[" "] = {
+									["前"] = {
+										["排"] = {
+											["）"] = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["興"] = {
 		["登"] = {
 			["堡"] = {
@@ -7745,16 +7867,6 @@ temp = function()
 					this = true
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["彰"] = {
-		["武"] = {
-			this = true
 		}
 	}
 end

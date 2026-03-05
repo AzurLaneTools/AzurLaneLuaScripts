@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_197",
 			bgm = "story-kezhan-china",
-			say = "晌午时间，大堂内桌桌满客，谈笑声、碗碟轻碰声交织成一片暖洋洋的喧闹。",
+			say = "晌午時間，大廳內桌桌滿客，談笑聲、碗碟輕碰聲交織成一片暖洋洋的喧鬧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "柜台旁，宁海与平海正一边核对着流水，一边望着眼前的景象出神。",
+			say = "櫃檯旁，寧海與平海正一邊核對著流水，一邊望著眼前的景像出神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 502027,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "曾经的“倒霉客栈”……还真是大变样了啊。",
+			say = "曾經的「倒楣客棧」……還真是大變樣了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，记得不久前，姐姐还总对着空荡荡的堂厅和账本叹气，说连点灯笼的油钱都快付不起了。",
+			say = "嗯，記得不久前，姊姊還總對著空蕩蕩的堂廳和帳簿嘆氣，說連點燈籠的油錢都快付不起了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,20 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "正将奇尔沙治迎进店的我，恰好听到了两人的对话。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_197",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "说起来，这家客栈的位置还算不错，周围的风景也很好。",
+			say = "正將奇爾沙治迎進店的我，剛好聽到了兩人的對話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +83,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "之前为什么没有客人呢？",
+			say = "說起來，這間客棧的位置還不錯，周圍的風景也很好。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_197",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "之前為什麼沒有客人呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 502037,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说来话长——",
+			say = "說來話長——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 502027,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "故事还得从我们呱呱落地开始……",
+			say = "故事還得從我們呱呱落地開始……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……好的，我在听。",
+			say = "……好的，我在聽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奇尔沙治，帮我检查一下后台记录文本。",
+			say = "奇爾沙治，幫我檢查一下後台紀錄文字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,21 +162,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "奇尔沙治点了点头，然后抬起手指在空中虚划，像是在查看什么。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_197",
-			dir = 1,
-			fontsize = 24,
-			actor = 199042,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "正在分析游戏后台事件日志……",
+			say = "奇爾沙治點了點頭，然後抬起手指在空中虛劃，像是在查看什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +176,7 @@ return {
 			actor = 199042,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "日志分析完成。客栈系统启动后，各运行模块均无异常反馈。",
+			say = "正在分析遊戲後台事件日誌……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +190,21 @@ return {
 			actor = 199042,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但若对比深层历史数据……可以发现一段被标记为“全选忽略忽略”的异常状态记录。",
+			say = "日誌分析完成。客棧系統啟動後，各運轉模組均無異常回饋。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_197",
+			dir = 1,
+			fontsize = 24,
+			actor = 199042,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "但若對比深層歷史資料……可以發現一段被標記為「全選忽略忽略」的異常狀態紀錄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 502027,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——呼，就这样，我们终于摆脱了破产掌柜的身份，正式加入了这家前途无量的新客栈~",
+			say = "——呼，就這樣，我們終於擺脫了破產掌櫃的身份，正式加入了這家前途無量的新客棧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好的，我在听。",
+			say = "好的，我在聽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 502037,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们已经说完啦——",
+			say = "我們已經說完啦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "平海，宁海，你们帮我去厨房给龙武传个话。",
+			say = "平海，寧海，妳們幫我去廚房向龍武傳個話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,21 +271,21 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就说你们今天吃的所有包子都由我请了。",
+			say = "就說妳們今天吃的所有包子都由我請了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "哇，掌柜的最好了——！！",
+			say = "哇，掌櫃的最好了——！！",
 			side = 0,
 			bgName = "star_level_bg_197",
 			hideOther = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502037,
-			actorName = "平海&宁海",
+			actorName = "平海&寧海",
 			hidePaintObj = true,
 			actorPosition = {
 				x = 100,
@@ -314,7 +314,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "目送平海和宁海离开后，我看向身旁的奇尔沙治。",
+			say = "目送平海和寧海離開後，我看向身旁的奇爾沙治。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "走吧，喊上莫斯科，我们一起去请教下游戏的“设计师”。",
+			say = "走吧，喊上莫斯科，我們一起去請教下遊戲的「設計師」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_197",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "仓库内，桌椅摆放整齐，倒像间整洁的客房。",
+			say = "倉庫內，桌椅擺放整齊，倒像間整潔的客房。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 				}
 			},
 			location = {
-				"客栈·神秘仓库",
+				"客棧·神秘倉庫",
 				3
 			}
 		},
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
-			say = "最里面的角落，一个身影静静坐在和环境有些格格不入的线路和机箱中间。",
+			say = "最裡面的角落，一個身影靜靜坐在和環境中有些格格不入的線路和機箱中間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以说……这确实是一个隐藏bug？",
+			say = "所以說……這確實是個隱藏bug？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			actor = 702101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正确。若客栈资金长期处于最低点，将触发“经营无望”状态，所有交互接口锁死。",
+			say = "正確。若客棧資金長期處於最低點，將觸發「經營無望」狀態，所有互動介面都鎖死。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 702101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "平海和宁海之所以破产，很可能与此有关。",
+			say = "平海和寧海之所以破產，很可能與此有關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……非常出色的判断力和效率，掌柜同志，博加特里同志。",
+			say = "嗯……非常出色的判斷力和效率，掌櫃同志，博加特里同志。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			actor = 703031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来该怎么处理？",
+			say = "接下來該怎麼處理？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 702101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我可以现在开始着手进行修复，请各位稍等片刻……好，解决了。",
+			say = "我可以現在開始著手進行修復，請各位稍等片刻……好，解決了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这么快？",
+			say = "這麼快？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 702101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "实际上，比我理想的处理速度慢了0.1秒。",
+			say = "實際上，比我理想的處理速度慢了0.1秒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12110,7 +12110,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "弗朗切斯科·卡拉喬洛 等角色建造機率UP！"
+	tip = "每累計建造200次可獲得海上傳奇艦船 莫斯科（最多4次）"
 }
 
 
@@ -40965,6 +40965,163 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 3.累計打開<color=#92fc63>15</color>個紅包，可獲得<color=#92fc63>「撫順」限定換裝</color>，累計開啟<color=#92fc63>25</color>個紅包，可取得<color=#92fc63>「長島」限定換裝</color>]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.LiquorFloor_title = {
+	tip = "春滿客棧Online"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_title_en = {
+	tip = "Springtide"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_level = {
+	tip = "客棧等級"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title = {
+	tip = "客棧故事"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title_1 = {
+	tip = "經營日記"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title_2 = {
+	tip = "簷下趣聞"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title_3 = {
+	tip = "神秘邂逅"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_title_4 = {
+	tip = [[
+客
+棧
+故
+事]]
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_get = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_story_got = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_character_num = {
+	tip = "角色容量"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_character_unlock = {
+	tip = "等級達到$1後解鎖"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_character_tip = {
+	tip = "角色入住，每隔一段時間可以獲得額外的金幣，同時入住角色出擊獲得的好感度提升"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_num = {
+	tip = "金幣容量"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold = {
+	tip = "每秒產量"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_update = {
+	tip = "升級"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_update_unlock = {
+	tip = "客棧等級達$1"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_update_max = {
+	tip = "已達滿級"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_max_tip = {
+	tip = "金幣容量已達上限"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_tip = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+「春滿客棧Online」：經營客棧，獲得活動限定獎勵
+1.酒樓、水榭樓台、花園、池塘提供金幣產出，升級這四個建築可以提高金幣產出效率，每個建築產出的金幣最多留存6小時
+2.神秘倉庫可以用來存放金幣，升級建築可以提升金幣容量上限
+3.旅舍可以被用來邀請角色入住，角色入住期間每隔一段時間就會提供額外的金幣產出，同時攜帶這些角色出擊也將獲得好感度提升。升級建築後，可以邀請更多角色入住
+4.建築達到一定等級時，繼續升級需要消耗元寶。元寶可以透過完成經營要務中的通關活動關卡來獲得
+5.客棧等級的提升，需要累積獲得一定數量的金幣
+6.客棧故事將在客棧等級或指定建築升級至對應等級後解鎖
+7.完成經營要務可以獲得頭像框、限定傢俱等活動獎勵]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "經營要務"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "收取金幣"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "春滿客棧Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "客棧補給站"
 }
 
 

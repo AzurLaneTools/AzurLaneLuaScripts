@@ -5,18 +5,53 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene equip",
+			"scene skinshop",
+			{}
+		},
+		time = {
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				{
+					2026,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
+		pic = "temp2",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					5
 				},
 				{
 					0,
@@ -28,7 +63,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					5
+					19
 				},
 				{
 					14,
@@ -39,51 +74,43 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4749",
-		type = 3,
-		id = 2,
-		pic = "temp2",
-		time = {
-			{
-				{
-					2026,
-					2,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					5
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		time = "stop",
 		type = 2,
 		id = 3,
 		pic = "temp3",
 		param = {
 			"scene core activity",
 			{
-				coreName = "SpringFestival2026CoreActivityUI"
+				coreName = "MoscowURCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					19
+				},
+				{
+					14,
+					59,
+					59
+				}
 			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -92,10 +119,35 @@ pg.activity_banner = {
 			{
 				wrap = 4
 			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -103,6 +155,32 @@ pg.activity_banner = {
 			"scene shop",
 			{
 				warp = "shopstreet"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -132,12 +210,37 @@ pg.activity_banner = {
 		pic = "temp8"
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
 			"LiquorFloor"
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					19
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -182,10 +285,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2026,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
@@ -574,6 +702,7 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
+			2,
 			3,
 			4,
 			5,
@@ -607,7 +736,6 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
-			2,
 			10,
 			1003
 		},

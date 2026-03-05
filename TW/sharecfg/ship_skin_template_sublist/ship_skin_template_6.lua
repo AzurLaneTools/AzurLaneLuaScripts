@@ -15990,6 +15990,222 @@ pg.base.ship_skin_template_6 = {
 			1.7
 		}
 	},
+	[207072] = {
+		name = "杯盞盈芳華",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "指揮官，您灼熱的眼神……是在渴望品嚐這壺中的美酒還是終於按捺不住——想要細細品味更醉人的芬芳呢？",
+		group_index = 2,
+		painting = "yuanchou_3",
+		lover_hand = "",
+		bg_sp = "",
+		shop_type_id = 3,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		lover_kiss = "",
+		ship_group = 20707,
+		bg = "152",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		special_effects = "",
+		id = 207072,
+		voice_actor_2 = -1,
+		gyro = 0,
+		prefab = "yuanchou_3",
+		l2d_se = "",
+		no_showing = "0",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71311,
+		voice_actor = 356,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			-35,
+			0,
+			82
+		},
+		shop_offset = {
+			0,
+			-35,
+			0,
+			82
+		},
+		purchase_offset = {
+			0,
+			0,
+			0,
+			82
+		},
+		live2d_offset_profile = {
+			0,
+			-35,
+			0,
+			82
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.732,
+					2.262,
+					0
+				}
+			},
+			plane = {
+				{
+					0.85,
+					0.77,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.704,
+							2.376,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			20707201,
+			20707202,
+			20707203,
+			20707204,
+			20707205,
+			20707206,
+			20707207,
+			20707208,
+			20707209,
+			20707210,
+			20707211,
+			20707212,
+			20707213,
+			20707214,
+			20707215,
+			20707216,
+			20707217,
+			20707218,
+			20707219,
+			20707220,
+			20707221,
+			20707222,
+			20707223,
+			20707224,
+			20707225,
+			20707226,
+			20707227,
+			20707228,
+			20707229,
+			20707230,
+			20707231,
+			20707232,
+			20707233,
+			20707234,
+			20707235,
+			20707236,
+			20707237,
+			20707238
+		},
+		l2d_drag_rate = {
+			0.7,
+			0.7,
+			1
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1449,
+					102,
+					2.3,
+					0,
+					143,
+					2
+				},
+				{
+					-292,
+					806,
+					2.3,
+					125,
+					0,
+					2
+				},
+				{
+					30,
+					-375,
+					2.3,
+					0,
+					-159,
+					2
+				}
+			}
+		}
+	},
 	[207090] = {
 		name = "小光輝",
 		shop_offset = "",
@@ -16651,137 +16867,6 @@ pg.base.ship_skin_template_6 = {
 						{
 							-0.46,
 							2.406,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[213010] = {
-		name = "黑暗界",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "黑暗界級淺水重炮艦—黑暗界，舷號I02",
-		group_index = 0,
-		purchase_offset = "",
-		painting = "heianjie",
-		lover_hand = "hand_2_02",
-		bg_sp = "",
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		ship_group = 21301,
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		special_effects = "",
-		id = 213010,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "heianjie",
-		l2d_se = "",
-		no_showing = "0",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 40,
-		get_showing = "",
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.226,
-					1.3,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.52,
-					0.954,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.84,
-					0.445,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.06,
-							-0.173,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.162,
-							0.936,
 							0
 						}
 					}

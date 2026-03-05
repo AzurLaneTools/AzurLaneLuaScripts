@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "story-kezhan-china",
 			nameColor = "#A9F548FF",
-			say = "掌柜，快给我温一碗酒，切两斤肉！",
+			say = "掌櫃，快給我溫一碗酒，切兩斤肉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_197",
 			side = 2,
 			withoutActorName = true,
-			say = "一声故意拔高的嗓音从头顶传来，我循声走去，看到了正站在酒楼屋檐上的顽皮。",
+			say = "一聲故意拔高的嗓音從頭頂傳來，我循聲走去，看到了正站在酒樓屋簷上的頑皮。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			bgName = "star_level_bg_197",
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "掌柜，你的动作也太慢了！",
+			say = "掌櫃，你的動作也太慢了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "徐徐晚风拂过屋顶，檐角的几盏灯笼随之晃动，顽皮此时正抱着手臂站在屋脊旁，眉头微蹙。",
+			say = "徐徐晚風吹過屋頂，簷角的幾盞燈籠隨之晃動，頑皮此時正抱著手臂站在屋脊旁，眉頭微蹙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "要是遇到真正的恶霸客人，就你这个速度，人家早就掀桌子顺势赖账了！",
+			say = "要是遇到真正的惡霸客人，就你這個速度，人家早就掀桌子順勢賴帳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "万一那时候我没当班的话，你该怎么办？",
+			say = "萬一那時候我沒值班的話，你該怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "作为客栈的护卫，顽皮正在为我培训遭遇意外状况时的应对方法，现在她正在扮演吃霸王餐的恶霸。",
+			say = "身為客棧的護衛，頑皮正在為我訓練遭遇意外狀況時的應對方法，現在她正在扮演吃霸王餐的惡霸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "据她所说，这种情景模拟教学的效果似乎很好。",
+			say = "據她所說，這種情境模擬教學的效果似乎很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "但一般来说，恶霸客人应该不会专门飞檐走壁，跑到屋顶上来点菜……？",
+			say = "但一般來說，惡霸客人應該不會專門飛簷走壁，跑到屋頂上來點菜……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "这不正说明恶霸武功高强嘛！更危险了！",
+			say = "這不正說明惡霸武功高強嘛！更危險了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "所以，你必须要好好看，好好学才行！我只示范一遍哦！",
+			say = "所以，你必須要好好看，好好學才行！我只示範一遍哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "还没等我回应，她就突然上前一步，抓住我的手腕，脚下巧妙一绊——",
+			say = "還沒等我回應，她突然上前一步，抓住我的手腕，腳下巧妙一絆——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "我被她突然的动作带得失去平衡，惊呼一声，随后被顺势压在了地上，我几乎能感受到她整个人的重量。",
+			say = "我被她突然的動作帶得失去平衡，驚呼一聲，隨後被順勢壓在了地上，我幾乎能感受到她整個人的重量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "喂！你……你这是什么表情！",
+			say = "喂！你……你這是什麼表情啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "她先是脸红了一下，但马上又鼓起气势。",
+			say = "她先是臉紅了一下，但馬上又鼓起氣勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "别误会！我只是在扮演不讲理的客人哦！是教学的一部分！我们继续！",
+			say = "別誤會！我只是在扮演不講理的客人哦！是教學的一部分！我們繼續！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_197",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "仔细看看，你这掌柜的，长得倒挺俊俏的嘛~",
+			say = "仔細看看，你這掌櫃的，長得倒挺俊俏的嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "决定了，我要把你抓回去！",
+			say = "決定了，我要把你抓回去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "这剧情发展，已经从吃霸王餐的恶霸，升级成强抢掌柜的山大王了吧？",
+			say = "這劇情發展，已經從吃霸王餐的惡霸，升級成強搶掌櫃的山大王了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "坏人当然是想到什么就做什么啊！你的安全意识也太薄弱了！",
+			say = "壞人當然是想到什麼就做什麼啊！你的安全意識也太薄弱了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "总之，你现在该出手反抗了！难道打算就这样乖乖让人抓走吗？",
+			say = "總之，你現在該出手反抗了！難道打算就這樣乖乖讓人抓走嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "至于该怎么反抗，我来手把手教你！",
+			say = "至於該怎麼反抗，我來手把手教你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "说着，她引导着我的手，借力发力。在屋顶上滚了两圈后，我们的位置瞬间调转。",
+			say = "說著，她引導我的手，借力發力。在屋頂上滾了兩圈後，我們的位置瞬間調轉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "对……对！就是这样！",
+			say = "對……對！就是這樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "顽皮躺在屋顶上，呼吸因为刚才的动作有点急促，脸颊微红。",
+			say = "頑皮躺在屋頂上，呼吸因為剛才的動作有點急促，臉頰微紅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "接下来，就是要彻底压制住坏人，比如这样——",
+			say = "接下來，就是要徹底壓制住壞人，比如這樣——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "说着，她的双手环上了我的腰，稍微用力，我们之间的距离就瞬间缩短。",
+			say = "說著，她的雙手環上了我的腰，稍微用力，我們之間的距離瞬間縮短。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "近得能清晰看到她眼中我的倒影，温热的呼吸从耳畔轻轻拂过。",
+			say = "近得能清晰看到她眼中我的倒影，溫熱的呼吸從耳畔輕輕拂過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "……呃，好像……有点太近了啦……",
+			say = "……呃，好像……有點太近了啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "顽皮小声嘟囔了一句，视线飘向一边。",
+			say = "頑皮小聲嘟囔了一句，視線飄向一邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "好了，我的演示到此为止……接下来，换你来做一次试试！",
+			say = "好了，我的示範到此為止……接下來，換你來做一次試試！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "要是不能让我满意的话，我可不会心慈手软，得好好教训教训你才行……！",
+			say = "要是不能讓我滿意的話，我可不會心慈手軟，得好好教訓教訓你才行……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "哇……？你的动作怎么这么标准……学得这么快？！",
+			say = "哇……？你的動作怎麼這麼標準……學得這麼快？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701131,
-			say = "看来刚才真的有在好好听课……欸？！",
+			say = "看來剛才真的有在好好聽課……欸？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "顽皮下意识地想挣扎，却发现自己此刻受制的姿态，竟比刚才亲自演示的版本还要标准、还要难以挣脱。",
+			say = "頑皮下意識地想掙扎，卻發現自己此刻受制的姿態，竟比剛才親自示範的版本還要標準、還要難以掙脫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "等、等一下……这个方向不对……那边不可以……！",
+			say = "等、等一下……這個方向不對……那邊不行……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "这和我教你的不一样哇哇哇——！",
+			say = "這和我教你的不一樣哇哇哇——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			hideRecordIco = true,
 			actor = 701131,
 			nameColor = "#A9F548FF",
-			say = "一对一的防身教学，进入了全新的阶段——",
+			say = "一對一的防身教學，進入了全新的階段——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

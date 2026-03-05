@@ -327,6 +327,11 @@ pg.task_meta_data_template = setmetatable({
 		100503,
 		100504,
 		100505,
+		100521,
+		100522,
+		100523,
+		100524,
+		100525,
 		200001,
 		200002,
 		200003,
@@ -478,7 +483,11 @@ pg.task_meta_data_template = setmetatable({
 		200411,
 		200412,
 		200413,
-		200414
+		200414,
+		200431,
+		200432,
+		200433,
+		200434
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3083,6 +3092,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用克里夫蘭·META擊破等級＞100的敵方1次"
 	},
+	[100521] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100521,
+		target_num = 1,
+		desc = "使用甘古特·META獲得1次勝利"
+	},
+	[100522] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100522,
+		target_num = 1,
+		desc = "使用甘古特·META擊破等級＞30的敵方1次"
+	},
+	[100523] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100523,
+		target_num = 1,
+		desc = "使用甘古特·META擊破等級＞55的敵方1次"
+	},
+	[100524] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100524,
+		target_num = 1,
+		desc = "使用甘古特·META擊破等級＞80的敵方1次"
+	},
+	[100525] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100525,
+		target_num = 1,
+		desc = "使用甘古特·META擊破等級＞100的敵方1次"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4298,5 +4347,37 @@ pg.base.task_meta_data_template = {
 		id = 200414,
 		target_num = 1,
 		desc = "大型作戰內使用克里夫蘭·META擊破等級＞100的敵方1次"
+	},
+	[200431] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200431,
+		target_num = 1,
+		desc = "大型作戰內使用甘古特·META獲得1次勝利"
+	},
+	[200432] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200432,
+		target_num = 1,
+		desc = "大型作戰內使用甘古特·META擊破等級＞70的敵方1次"
+	},
+	[200433] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200433,
+		target_num = 1,
+		desc = "大型作戰內使用甘古特·META擊破等級＞90的敵方1次"
+	},
+	[200434] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200434,
+		target_num = 1,
+		desc = "大型作戰內使用甘古特·META擊破等級＞100的敵方1次"
 	}
 }

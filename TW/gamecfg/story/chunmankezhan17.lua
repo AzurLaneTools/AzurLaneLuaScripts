@@ -14,7 +14,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……到我出牌了么？那么——",
+			say = "……到我出牌了嗎？那麼——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "一万。",
+			say = "一萬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "我刚将摸到的牌打出，位于下家的顽皮眯起了眼睛，目光迅速扫过牌河。",
+			say = "我剛將摸到的牌打出，位於下家的頑皮瞇起了眼睛，目光迅速掃過牌河。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 701131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不妙啊……掌柜的似乎都没怎么打过筒子牌呢……",
+			say = "不妙……掌櫃的似乎都沒怎麼打過筒子牌呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 701131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "红色山脉，你要是想打筒子牌的话，可千万得小心一点。",
+			say = "紅色高加索，妳要是想打筒子牌的話，可千萬得小心一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "坐在我对面的红色山脉轻应了一声，她偏过头，指尖摩挲着一枚麻将牌。",
+			say = "坐在我對面的紅色高加索輕應了一聲，她偏過頭，指尖摩挲著一枚麻將牌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,18 +99,18 @@ return {
 			actor = 702091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "掌柜的……莫非缺的，就是这张七筒？",
+			say = "掌櫃的……莫非缺的，就是這張七筒？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没错，我就差这张七筒",
+					content = "沒錯，我就差這張七筒",
 					flag = 1
 				},
 				{
-					content = "是别的牌也说不定",
+					content = "是別的牌也說不定",
 					flag = 2
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			actor = 702091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我听说，东煌兵法讲究“虚则实之，实则虚之”……",
+			say = "我聽說，東煌兵法講究「虛則實之，實則虛之」……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 702091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这真真假假、欲擒故纵的兵法，我已经看穿了~",
+			say = "這真真假假、欲擒故縱的兵法，我已經看穿了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 702091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还真是谨慎呢……倒是让我确信了自己的判断。",
+			say = "還真是謹慎呢……倒是讓我確信了自己的判斷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 702091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，就让我用这张七筒来探探虚实吧~",
+			say = "那麼，就讓我用這張七筒來探探虛實吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "在红色山脉推出那张七筒的下一刻，我推倒了自己的手牌。",
+			say = "在紅色高加索推出那張七筒的下一刻，我推倒了自己的手牌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "顽皮像是泄了气的皮球般，整个人趴在了桌沿，脸颊气鼓鼓地压着桌面。",
+			say = "頑皮像是洩了氣的球般，整個人趴在了桌沿，臉頰氣鼓鼓地壓著桌面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只能愿赌服输了呢……",
+			say = "只能願賭服輸了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在……就请你按照我们事先的约定，好好地惩罚我吧~",
+			say = "現在……就請你按照我們事先的約定，好好地懲罰我吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "红色山脉轻盈地坐到了麻将桌上，随即仰倒向我的方向，手中正捏着那枚七筒。",
+			say = "紅色高加索輕盈地坐到了麻將桌上，隨即仰倒朝向我的方向，手中正捏著那枚七筒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,13 +290,13 @@ return {
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "紅色高加索",
 			side = 2,
 			bgName = "bg_kezhan_cg_4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来吧……",
+			say = "來吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kezhan_cg_4",
 			hidePaintObj = true,
-			say = "话音未落，她将那枚微凉的麻将，轻轻贴着自己颈下的肌肤，缓缓滑入衣领的缝隙。",
+			say = "話音未落，她將那枚微涼的麻將，輕輕貼著自己頸下的肌膚，緩緩滑入衣領的縫隙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,14 +318,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kezhan_cg_4",
 			hidePaintObj = true,
-			say = "冰凉的触感让她浑身猛地一颤，从喉咙里溢出一声压抑的、酥麻的抽气。",
+			say = "冰冷的觸感讓她渾身猛地一顫，從喉嚨溢出一聲壓抑的、酥麻的抽氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "紅色高加索",
 			side = 2,
 			bgName = "bg_kezhan_cg_4",
 			hidePaintObj = true,
@@ -338,13 +338,13 @@ return {
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "頑皮",
 			side = 2,
 			dir = 1,
 			bgName = "bg_kezhan_cg_5",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你、你在干什么啊！快下来！这里可是在大庭广众之下啊！",
+			say = "妳、妳在做什麼啊！快下來！這裡可是在大庭廣眾之下啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
-			say = "顽皮的脸瞬间涨得通红，她像只受惊的猫般瞬间跳了起来。",
+			say = "頑皮的臉瞬間漲得通紅，她像只受驚的貓般瞬間跳了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,20 +388,20 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
-			say = "左顾右盼一番后，她连忙从旁边扯来一张桌布，哗啦一声盖到了红色山脉的身上。",
+			say = "左顧右盼一番後，她連忙從旁邊扯來一張桌布，嘩啦一聲蓋到了紅色高加索的身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "頑皮",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至、至少给我遮一下啊！",
+			say = "至、至少給我遮一下啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,33 +413,33 @@ return {
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "紅色高加索",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……确实，遮住的话也不是不行呢。",
+			say = "嗯……確實，遮住的話也不是不行呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "红色山脉",
+			actorName = "紅色高加索",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "顽皮，谢谢你啦~",
+			say = "頑皮，謝謝啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "頑皮",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
@@ -456,7 +456,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
-			say = "还没等顽皮反应过来，那团盖着红色山脉的桌布便猛地朝我扑来，抓住了我的手腕。",
+			say = "還沒等頑皮反應過來，那團蓋著紅色高加索的桌布便猛地朝我撲來，抓住了我的手腕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
-			say = "我被一股巧劲拉得向前倾去，厚重的桌布如同幕布般将我和红色山脉一同笼罩。",
+			say = "我被一股巧勁拉得向前傾去，厚重的桌布如同布幕般將我和紅色高加索一同籠罩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,46 +478,46 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
-			say = "狭窄、黑暗、密闭的空间里，瞬间充斥着她身上温暖馥郁的香气，以及那近在咫尺、带着炙热湿意的呼吸。",
+			say = "狹窄、黑暗、密閉的空間裡，瞬間充斥著她身上溫暖馥鬱的香氣，以及那近在咫尺、帶著炙熱濕意的呼吸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "红色山脉",
-			side = 2,
-			bgName = "bg_kezhan_cg_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "在大庭广众之下……在大家面前……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "红色山脉",
+			actorName = "紅色高加索",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被桌布包裹着，偷偷地惩罚我……哈啊……一定很棒吧？",
+			say = "在大庭廣眾之下……在大家面前……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "紅色高加索",
+			side = 2,
+			bgName = "bg_kezhan_cg_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "被桌布包裹著，偷偷地懲罰我……哈啊……一定很棒吧？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "頑皮",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你你你你这家伙说什么胡话啊？！",
+			say = "妳妳妳這傢伙說什麼胡話啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,20 +533,20 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kezhan_cg_5",
 			hidePaintObj = true,
-			say = "伴随顽皮着急的话语，她的手臂从布料的缝隙中伸了进来，胡乱摸索一番后，同样握住了我的手腕。",
+			say = "伴隨頑皮著急的話語，她的手臂從布料的縫隙中伸了進來，胡亂摸索一番後，同樣握住了我的手腕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "頑皮",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快出来！笨蛋掌柜快出来！还有你！红色山脉，快松手啊！",
+			say = "快出來！笨蛋掌櫃快出來！還有妳！紅色高加索，快放手啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,13 +558,13 @@ return {
 			}
 		},
 		{
-			actorName = "顽皮",
+			actorName = "頑皮",
 			side = 2,
 			bgName = "bg_kezhan_cg_5",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，你们俩在搞什么啊？！",
+			say = "真是的，你們兩個在搞什麼啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_175",
-			say = "与此同时，仅仅屏风之隔的另一张牌桌上，吸血鬼终于将最后一张牌稳稳地放在桌面上。",
+			say = "同時，僅僅屏風之隔的另一張牌桌上，吸血鬼終於將最後一張牌穩穩地放在桌面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~门前清自摸和，一色四同顺！看来，这场牌局的胜利属于——",
+			say = "哼哼~門清自摸和，一色四順！看來，這場牌局的勝利屬於——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "然而下一刻，吸血鬼那洋洋自得的神情瞬间定格住了——",
+			say = "然而下一刻，吸血鬼那洋洋自得的神情瞬間定格住了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "因为她发现，桌边的另外三人此时正瞪大眼睛望着她身后。",
+			say = "因為她發現，桌邊的另外三人此時正瞪大眼睛望向她身後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "掌、掌柜呢？刚才还在那边的……",
+			say = "掌、掌櫃呢？剛才還在那邊的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			actor = 308042,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那边好像有团奇怪的东西在动……难道是什么新型机械吗？",
+			say = "那邊好像有團奇怪的東西在動……難道是什麼新型機械嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但那个形状……看起来像是两个人裹在布里呢……",
+			say = "但那個形狀……看起來像是兩個人裹在布裡呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "四人看向了那团正在地上扭动的深色绒布，而它旁边的顽皮则似乎是试图从里面扯出什么东西来。",
+			say = "四人看向了那團正在地上扭動的深色絨布，而它旁邊的頑皮則似乎是試圖從裡面扯出什麼東西來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "随后，一枚九筒从布里滑出，“啪嗒”一声落在了地上。",
+			say = "隨後，一枚九筒從布裡滑出，「啪嗒」一聲落在了地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等、等一下……难道说，掌柜被这团东西给……",
+			say = "等、等一下……難道說，掌櫃被這團東西給……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "此时，顽皮也终于注意到了正看向这个方向的虎贲等人。",
+			say = "此時，頑皮也終於注意到了正看向這個方向的虎賁等人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			actor = 701131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们几个，还愣着干什么？赶紧帮我把掌柜给救出来啊——！",
+			say = "妳們幾個，還愣著幹嘛？趕緊幫我把掌櫃救出來啊——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

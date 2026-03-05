@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			bgm = "story-china",
-			say = "按照{namecode:521:兴登堡}留下的神秘讯息，我来到客栈深处的一处阁楼里，推开了吱呀作响的门。",
+			say = "按照興登堡留下的神祕訊息，我來到客棧深處的一處妝樓裡，推開了吱呀作響的門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "屋内，{namecode:521:兴登堡}正在台子上做着拉伸，听到门响，她朝我看了过来，嘴角勾起了一个危险的弧度。",
+			say = "屋內，興登堡在台子上做著拉伸，聽到門響，她朝我看了過來，嘴角勾起了一個危險的弧度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "热身……刚好完成，亲爱的掌柜。",
+			say = "暖身……剛好完成，親愛的掌櫃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "不过，你还是更喜欢被叫“契约者”吧？呵呵~",
+			say = "不過，你還是比較喜歡被叫「契約者」吧？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她朝我挥了挥手，示意我靠近，而她则蹲在台子上，居高临下地发号施令。",
+			say = "她朝我揮了揮手，示意我靠近，而她則蹲在台子上，居高臨下地發號施令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			live2d = "mission",
 			dir = 1,
 			side = 2,
-			say = "契约者，你听说过支配之舞吗？",
+			say = "契約者，你聽過支配之舞嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那是一段……能让观者心甘情愿拥抱欲望、献上全部的舞蹈。",
+			say = "那是一段……能讓觀者心甘情願擁抱慾望、獻上全部的舞蹈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "幸运的是，你将有机会品味这段舞蹈……",
+			say = "幸運的是，你將有機會品味這段舞蹈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她俯下身，在离我极近处停下，带着运动后热意的气息拂过我的整个面部。",
+			say = "她俯下身，在離我極近處停下，帶著運動後熱意的氣息拂過我的整個臉部。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "今天的邀请也是考验，我亲爱的契约者，考验你意志力究竟有多坚定~",
+			say = "今天的邀請也是考驗，我親愛的契約者，考驗你意志力究竟有多堅定~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "规则很简单——看着我，只许看着我。",
+			say = "規則很簡單——看著我，只許看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "如果在我跳完之前，你的目光主动移开，或者……你控制不住自己靠近我……",
+			say = "如果在我跳完之前，你的目光主動移開，或者……你控制不住自己靠近我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的指尖轻轻点在我的胸口，在上面画了个叉，随即轻笑一声退回到了台上。",
+			say = "她的指尖輕輕點在我的胸口，在上面畫了個叉，隨即輕笑一聲退回到了台上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "输了的人……会失去一切，陷入我的绝对支配状态哦~",
+			say = "輸了的人……會失去一切，陷入我的絕對支配狀態喔~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "如果赢了呢？",
+			say = "如果贏了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "赢？呵呵~如果你能赢……我也任你处置，如何，很公平吧？那么……",
+			say = "贏？呵呵~如果你能贏……我也任你處置，如何，很公平吧？那麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没有音乐，她只是轻轻打了个响指，某种无形的氛围便骤然绷紧。",
+			say = "沒有音樂，她只是輕輕打了個響指，某種無形的氛圍便驟然繃緊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她缓慢地仰头，脖颈拉出优美的弧线，指尖掠过弧线而下，向我展示着她的手指是如何灵巧。",
+			say = "她緩慢地仰頭，脖頸拉出優美的弧線，指尖掠過弧線而下，向我展示她的手指是如何靈巧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "舞蹈逐渐展开。旋转时，薄纱飞扬，掠过我的手臂，留下若有若无的香气和触感。",
+			say = "舞蹈逐漸展開。旋轉時，薄紗飛揚，掠過我的手臂，留下若有若無的香氣和觸感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她时而贴近，近到我能看清她睫毛的颤动和锁骨下的细汗；时而退远，在斑驳光影下伸展着身体，腰肢柔软得不可思议。",
+			say = "她時而貼近，近到我能看清她睫毛的顫動和鎖骨下的細汗；時而退遠，在斑駁光影下伸展著身體，腰肢柔軟得不可思議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的目光始终锁着我，带着审视猎物般的兴致。",
+			say = "她的目光始終鎖著我，帶著審視獵物般的興致。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "目光很专注嘛……你的心跳声，我都听见了哦。",
+			say = "目光很專注嘛……你的心跳聲，我都聽見了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的动作越来越大胆，一个下腰后，借着起身的惯性几乎要贴入我怀中，在我忍不住想要后退时又停了下来。",
+			say = "她的動作越來越大膽，一個下腰後，藉著起身的慣性幾乎要貼入我懷中，在我忍不住想要後退時又停了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "别忘了，站在这里……不许动哦~",
+			say = "別忘了，站在這裡……不許動哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她用手指抵住了我的肩膀，维持着咫尺的距离，用戏谑的眼神打量着我。",
+			say = "她用手指抵住了我的肩膀，維持著咫尺的距離，用戲謔的眼神打量著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "看得口干舌燥了？呵呵……这才刚刚开始呢~",
+			say = "看得口乾舌燥了？呵呵……這才剛開始呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:521:兴登堡}的舞蹈风格开始变化，从诱惑的绵柔转为充满力量感的控制，并开始以我为轴心旋转、绕行。",
+			say = "興登堡的舞蹈風格開始變化，從誘惑的綿柔轉為充滿力量感的控制，並開始以我為軸心旋轉、繞行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的手指划过我的衣领，拽动我的袖口，她的足尖掠过我的小腿，踩过我的鞋面。",
+			say = "她的手指劃過我的衣領，拉著我的袖口，她的腳尖掠過我的小腿，踩過我的鞋面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "腰间垂落的半透明薄纱随着她的动作轻晃，浑圆而饱满的优美曲线被勾勒出来。",
+			say = "腰間垂落的半透明薄紗隨著她的動作輕晃，渾圓而飽滿的優美曲線被勾勒出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "现在……让我看看，你的身体是否像你的目光一样听话呢？",
+			say = "現在……讓我看看，你的身體是否像你的目光一樣聽話呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她忽然贴近，引导着我的手抬起，手掌虚悬在她的腰侧，仅隔毫厘。",
+			say = "她忽然貼近，引導我的手抬起，手掌虛懸在她的腰側，僅隔毫釐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "保持住，如果碰到……就算你输哦~",
+			say = "保持住，如果碰到……就算你輸哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她就在这危险的间距中继续舞动，黑薄纱下的腰腹软肉时不时闪过眼前，温热与淡香也随之传来。",
+			say = "她就在這危險的間距中繼續舞動，黑薄紗下的腰腹軟肉時不時閃過眼前，溫熱與淡香也隨之傳來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的舞步附和着我的心跳，一拍两拍，在我意识到之前，我已不自觉地迈步伸手……",
+			say = "她的舞步附著在我的心跳，一拍兩拍，在我意識到之前，我已不自覺地邁步伸手……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就在这个瞬间——她的足尖精准地停在我的脚前。我猛然回神，但已太迟。",
+			say = "就在這個瞬間——她的足尖精準地停在我的腳前。我猛然回神，但已太遲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "移动脚步，主动靠近……输得很彻底呢，我亲爱的契约者~",
+			say = "移動腳步，主動靠近……輸得很徹底呢，我親愛的契約者~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她露出了胜利者从容的笑容，抬手用指尖抹过自己下颌的汗珠，将那抹晶莹轻轻点在了我的唇上。",
+			say = "她露出了勝利者從容的笑容，抬手用指尖抹過自己下顎的汗珠，將那抹晶瑩輕輕點在了我的唇上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "按照规则，你失去了一切……包括今晚反抗的权利。那么接下来……",
+			say = "按照規則，你失去了一切……包括今晚反抗的權利。那麼接下來…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的唇几乎贴着我的耳廓，气息滚烫，一字一句地宣告——",
+			say = "她的唇幾乎貼著我的耳廓，氣息滾燙，一字一句地宣告——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			actor = 499092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就让我来支配你，去做些更有趣的事情吧~♡",
+			say = "就讓我來支配你，去做更有趣的事吧~♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

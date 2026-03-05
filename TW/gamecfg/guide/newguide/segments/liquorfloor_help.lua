@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "指挥官，欢迎进入春满客栈活动！活动期间，可以收集建筑产出的金币，升级客栈，解锁更多内容~",
+				text = "指揮官，歡迎進入春滿客棧活動！活動期間，可以收集建築產出的金幣，升級客棧，解鎖更多內容~",
 				mode = 1,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在让我们领取初始资金",
+				text = "現在讓我們領取初始資金",
 				mode = 1,
 				char = 1,
 				posY = -124.65,
@@ -35,7 +35,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = " 点击获取金币",
+				text = " 點擊獲取金幣",
 				mode = 1,
 				char = 1,
 				posY = 0,
@@ -52,7 +52,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "活动期间完成经营要务可以获得活动限定奖励",
+				text = "活動期間完成經營任務可以獲得活動限定獎勵",
 				mode = 1,
 				char = 1,
 				posY = -345.1,
@@ -69,7 +69,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = " 现在让我们回到客栈界面",
+				text = " 現在讓我們回到客棧介面",
 				mode = 1,
 				char = 1,
 				posY = 160.3,
@@ -86,7 +86,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "接下来请指挥官升级一次酒楼建筑",
+				text = "接下來請指揮官升級一次酒樓建築",
 				mode = 1,
 				char = 1,
 				posY = 0,
@@ -103,7 +103,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = " 点击升级按钮",
+				text = " 點擊升級按鈕",
 				mode = 1,
 				char = 1,
 				posY = -50.15,
@@ -120,7 +120,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "建筑升级后，每秒都会有金币自动进账~",
+				text = "建築升級後，每秒都會有金幣自動進帳~",
 				mode = 1,
 				char = 1,
 				posY = -20.48,
@@ -139,7 +139,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = " 建筑等级提升需要消耗金币，积累金币即可完成升级",
+				text = " 建築等級提升需要消耗金幣，累積金幣即可完成升級",
 				mode = 1,
 				char = 1,
 				posY = 0,
@@ -163,7 +163,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = " 更多细节内容，请指挥官点击帮助按钮进行查看",
+				text = " 更多細節內容，請指揮官點擊幫助按鈕查看",
 				mode = 1,
 				char = 1,
 				posY = 198.68,

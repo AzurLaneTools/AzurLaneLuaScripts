@@ -1730,17 +1730,26 @@ pg.ship_data_group = setmetatable({
 		[70111] = {
 			626
 		},
+		[70113] = {
+			728
+		},
 		[70112] = {
 			627
 		},
 		[70201] = {
 			262
 		},
+		[70210] = {
+			730
+		},
 		[70202] = {
 			434
 		},
 		[70208] = {
 			688
+		},
+		[70209] = {
+			729
 		},
 		[70206] = {
 			498
@@ -1762,6 +1771,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[70302] = {
 			586
+		},
+		[70303] = {
+			727
 		},
 		[70501] = {
 			437
@@ -2437,6 +2449,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970209] = {
 			30055
+		},
+		[970510] = {
+			30057
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3017,10 +3032,13 @@ pg.ship_data_group = setmetatable({
 			475,
 			535,
 			626,
+			728,
 			627,
 			262,
+			730,
 			434,
 			688,
+			729,
 			498,
 			435,
 			588,
@@ -3028,6 +3046,7 @@ pg.ship_data_group = setmetatable({
 			577,
 			496,
 			586,
+			727,
 			437,
 			438,
 			440,
@@ -3258,7 +3277,8 @@ pg.ship_data_group = setmetatable({
 			30049,
 			30050,
 			30052,
-			30055
+			30055,
+			30057
 		}
 	},
 	all = {
@@ -3838,10 +3858,13 @@ pg.ship_data_group = setmetatable({
 		475,
 		535,
 		626,
+		728,
 		627,
 		262,
+		730,
 		434,
 		688,
+		729,
 		498,
 		435,
 		588,
@@ -3849,6 +3872,7 @@ pg.ship_data_group = setmetatable({
 		577,
 		496,
 		586,
+		727,
 		437,
 		438,
 		440,
@@ -4073,7 +4097,8 @@ pg.ship_data_group = setmetatable({
 		30049,
 		30050,
 		30052,
-		30055
+		30055,
+		30057
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -28517,6 +28542,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[728] = {
+		nationality = 7,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70113,
+		index_id = 579,
+		code = 728,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：春滿客棧Online",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[627] = {
 		nationality = 7,
 		type = 1,
@@ -28599,6 +28656,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[730] = {
+		nationality = 7,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70210,
+		index_id = 582,
+		code = 730,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：春滿客棧Online",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[434] = {
 		nationality = 7,
 		type = 2,
@@ -28676,6 +28765,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：揚起鬱金之旗",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[729] = {
+		nationality = 7,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70209,
+		index_id = 585,
+		code = 729,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：春滿客棧Online",
 				{
 					""
 				},
@@ -28955,6 +29076,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：極地風暴",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[727] = {
+		nationality = 7,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70303,
+		index_id = 593,
+		code = 727,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"B",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：春滿客棧Online",
 				{
 					""
 				},
@@ -36711,6 +36864,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：響徹於天穹之音",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[30057] = {
+		nationality = 97,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970510,
+		index_id = 30057,
+		code = 30057,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：春滿客棧Online",
 				{
 					""
 				},

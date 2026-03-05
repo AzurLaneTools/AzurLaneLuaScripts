@@ -5756,12 +5756,6 @@ pg.painting_filte_map = {
 		key = "gangute",
 		res_list = {
 			"painting/gangute_tex",
-			"painting/gangute_alter_tex",
-			"painting/gangute_alter_rw_tex",
-			"painting/gangute_alter_n_tex",
-			"painting/gangute_alter_n_rw_tex",
-			"painting/gangute_alter_n",
-			"painting/gangute_alter",
 			"painting/gangute"
 		}
 	},
@@ -14112,10 +14106,6 @@ pg.painting_filte_map = {
 		key = "qiandaitian",
 		res_list = {
 			"painting/qiandaitian_tex",
-			"painting/qiandaitian_3_tex",
-			"painting/qiandaitian_3_rw_tex",
-			"painting/qiandaitian_3_bj_tex",
-			"painting/qiandaitian_3",
 			"painting/qiandaitian"
 		}
 	},
@@ -14202,12 +14192,6 @@ pg.painting_filte_map = {
 		key = "qiansui",
 		res_list = {
 			"painting/qiansui_tex",
-			"painting/qiansui_4_tex",
-			"painting/qiansui_4_rw_tex",
-			"painting/qiansui_4_rw_hx_tex",
-			"painting/qiansui_4_hx_tex",
-			"painting/qiansui_4_hx",
-			"painting/qiansui_4",
 			"painting/qiansui"
 		}
 	},
@@ -18904,11 +18888,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/xingdengbao_tex",
 			"painting/xingdengbao_rw_tex",
-			"painting/xingdengbao_3_tex",
-			"painting/xingdengbao_3_rw_tex",
-			"painting/xingdengbao_3_n_rw_tex",
-			"painting/xingdengbao_3_n",
-			"painting/xingdengbao_3",
 			"painting/xingdengbao"
 		}
 	},
@@ -20361,11 +20340,6 @@ pg.painting_filte_map = {
 			"painting/yuanchou_rw_tex",
 			"painting/yuanchou_rw_hx_tex",
 			"painting/yuanchou_hx",
-			"painting/yuanchou_3_tex",
-			"painting/yuanchou_3_rw_tex",
-			"painting/yuanchou_3_n_rw_tex",
-			"painting/yuanchou_3_n",
-			"painting/yuanchou_3",
 			"painting/yuanchou"
 		}
 	},

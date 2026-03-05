@@ -250,6 +250,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[207] = {
+		name = "春滿客棧",
+		key = "SkinElite_20260226",
+		display_icon = "ui_207",
+		unlock = "春滿客棧戰鬥主題禮包獲取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "將客棧的喧鬧與暖意融入介面，在煙火燈籠與爆竹聲中，進行一場別開生面的新春對決吧。",
+		id = 207,
+		icon = "207",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -266,6 +283,7 @@ pg.item_data_battleui = {
 		203,
 		204,
 		205,
-		206
+		206,
+		207
 	}
 }

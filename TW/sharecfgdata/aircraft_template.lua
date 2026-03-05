@@ -291067,6 +291067,1572 @@ _G.pg.base.aircraft_template[3359205] = {
 }
 
 
+_G.pg.base.aircraft_template[3361206] = {
+	name = "【2026莫斯科活动B3】BOSS 奇尔沙治 第二波 轰炸机",
+	max_hp = 110,
+	accuracy = 23,
+	model_ID = "tianxizhe",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "tianxizhe",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3361206,
+	scale = 0.75,
+	weapon_ID = {
+		3361208
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3361207] = {
+	name = "【2026莫斯科活动B3】BOSS 奇尔沙治 第二波 战斗机",
+	max_hp = 88,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3361207,
+	scale = 0.75,
+	weapon_ID = {
+		3361209,
+		3361210
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3363206] = {
+	name = "【2026莫斯科活动D3】BOSS 奇尔沙治 第二波 轰炸机",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "tianxizhe",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "tianxizhe",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3363206,
+	scale = 0.75,
+	weapon_ID = {
+		3363208
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3363207] = {
+	name = "【2026莫斯科活动D3】BOSS 奇尔沙治 第二波 战斗机",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3363207,
+	scale = 0.75,
+	weapon_ID = {
+		3363209,
+		3363210
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366065] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母战斗机 Lv1",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	nationality = 3,
+	type = 1,
+	dodge_limit = 0,
+	max_hp = 64,
+	icon = "kezhan_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086065,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3366065,
+	scale = 0.75,
+	weapon_ID = {
+		3366075,
+		1100750
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366066] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母战斗机 Lv2",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	nationality = 3,
+	type = 1,
+	dodge_limit = 0,
+	max_hp = 88,
+	icon = "kezhan_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086066,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3366066,
+	scale = 0.75,
+	weapon_ID = {
+		3366076,
+		1100751
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366067] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母战斗机 Lv3",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	nationality = 3,
+	type = 1,
+	dodge_limit = 0,
+	max_hp = 112,
+	icon = "kezhan_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086067,
+	hp_growth = 2240,
+	speed = 33,
+	id = 3366067,
+	scale = 0.75,
+	weapon_ID = {
+		3366077,
+		1100752
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366068] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母战斗机 Lv4",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	type = 1,
+	dodge_limit = 0,
+	max_hp = 136,
+	icon = "kezhan_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086068,
+	hp_growth = 2520,
+	speed = 33,
+	id = 3366068,
+	scale = 0.75,
+	weapon_ID = {
+		3366078,
+		1100753
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366069] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母战斗机 Lv5",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	nationality = 3,
+	type = 1,
+	dodge_limit = 0,
+	max_hp = 160,
+	icon = "kezhan_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086069,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3366069,
+	scale = 0.75,
+	weapon_ID = {
+		3366079,
+		1100754
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366070] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母轰炸机 Lv1",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	nationality = 3,
+	type = 3,
+	dodge_limit = 0,
+	max_hp = 80,
+	icon = "kezhan_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086070,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3366070,
+	scale = 0.75,
+	weapon_ID = {
+		3366080
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366071] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母轰炸机 Lv2",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	nationality = 3,
+	type = 3,
+	dodge_limit = 0,
+	max_hp = 110,
+	icon = "kezhan_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086071,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3366071,
+	scale = 0.75,
+	weapon_ID = {
+		3366081
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366072] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母轰炸机 Lv3",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	nationality = 3,
+	type = 3,
+	dodge_limit = 0,
+	max_hp = 140,
+	icon = "kezhan_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086072,
+	hp_growth = 3040,
+	speed = 30,
+	id = 3366072,
+	scale = 0.75,
+	weapon_ID = {
+		3366082
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366073] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母轰炸机 Lv4",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	nationality = 3,
+	type = 3,
+	dodge_limit = 0,
+	max_hp = 170,
+	icon = "kezhan_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086073,
+	hp_growth = 3420,
+	speed = 30,
+	id = 3366073,
+	scale = 0.75,
+	weapon_ID = {
+		3366083
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366074] = {
+	name = "【2026莫斯科UR活动】东煌风味 航母轰炸机 Lv5",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	nationality = 3,
+	type = 3,
+	dodge_limit = 0,
+	max_hp = 200,
+	icon = "kezhan_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3086074,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3366074,
+	scale = 0.75,
+	weapon_ID = {
+		3366084
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366411] = {
+	name = "【2026莫斯科UR活动B】精英蛋船 东煌风味航母 战斗机",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	nationality = 3,
+	type = 1,
+	dodge_limit = 0,
+	max_hp = 88,
+	icon = "kezhan_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3087325,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3366411,
+	scale = 0.75,
+	weapon_ID = {
+		3366076,
+		1100751
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366412] = {
+	name = "【2026莫斯科UR活动B】精英蛋船 东煌风味航母 轰炸机",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	nationality = 3,
+	type = 3,
+	dodge_limit = 0,
+	max_hp = 110,
+	icon = "kezhan_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3087326,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3366412,
+	scale = 0.75,
+	weapon_ID = {
+		3366081
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366611] = {
+	name = "【2026莫斯科UR活动D】精英蛋船 东煌风味航母 战斗机",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	type = 1,
+	dodge_limit = 0,
+	max_hp = 136,
+	icon = "kezhan_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3087325,
+	hp_growth = 2520,
+	speed = 33,
+	id = 3366611,
+	scale = 0.75,
+	weapon_ID = {
+		3366078,
+		1100753
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366612] = {
+	name = "【2026莫斯科UR活动D】精英蛋船 东煌风味航母 轰炸机",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	nationality = 3,
+	type = 3,
+	dodge_limit = 0,
+	max_hp = 170,
+	icon = "kezhan_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3087326,
+	hp_growth = 3420,
+	speed = 30,
+	id = 3366612,
+	scale = 0.75,
+	weapon_ID = {
+		3366083
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366711] = {
+	name = "【2026莫斯科UR活动SP】精英蛋船 东煌风味航母 战斗机",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	nationality = 3,
+	type = 1,
+	dodge_limit = 0,
+	max_hp = 160,
+	icon = "kezhan_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3087325,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3366711,
+	scale = 0.75,
+	weapon_ID = {
+		3366079,
+		1100754
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3366712] = {
+	name = "【2026莫斯科UR活动SP】精英蛋船 东煌风味航母 轰炸机",
+	attack_power = 2,
+	accuracy = 23,
+	model_ID = "kezhan_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	nationality = 3,
+	type = 3,
+	dodge_limit = 0,
+	max_hp = 200,
+	icon = "kezhan_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	AP_growth = 2000,
+	base = 3087326,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3366712,
+	scale = 0.75,
+	weapon_ID = {
+		3366084
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
 if rawget(uv0[slot1], "base") ~= nil then
 	rawset(slot2, "base", nil)
 	setmetatable(slot2, {
