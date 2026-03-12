@@ -573,13 +573,14 @@ return {
 			}
 		},
 		{
-			actorName = "???",
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_170",
-			oldPhoto = true,
-			dir = 1,
-			actor = 900407,
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actor = 900407,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "He's not the only wild one. You're using your private jet to implement said plan, Dr. Anzeel.",
 			painting = {
@@ -728,9 +729,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_170",
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actor = 900407,
 			actorName = "???",

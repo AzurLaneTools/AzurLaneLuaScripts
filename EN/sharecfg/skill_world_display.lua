@@ -3943,14 +3943,14 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 	[802141] = {
 		desc_get = "",
 		id = 802141,
-		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[802142] = {
 		desc_get = "",
 		id = 802142,
-		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高8%",
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_397 = {
 	[295321] = {
 		cannon = 172,
-		name = "Regensburg META(Tier.6)",
+		name = "Regensburg META (Tier.6)",
 		torpedo = 178,
 		cannon_growth = 0,
 		air = 0,
@@ -48,7 +48,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295322] = {
 		cannon = 186,
-		name = "Regensburg META(Tier.7)",
+		name = "Regensburg META (Tier.7)",
 		torpedo = 193,
 		cannon_growth = 0,
 		air = 0,
@@ -94,7 +94,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295323] = {
 		cannon = 201,
-		name = "Regensburg META(Tier.8)",
+		name = "Regensburg META (Tier.8)",
 		torpedo = 208,
 		cannon_growth = 0,
 		air = 0,
@@ -140,7 +140,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295324] = {
 		cannon = 215,
-		name = "Regensburg META(Tier.9)",
+		name = "Regensburg META (Tier.9)",
 		torpedo = 222,
 		cannon_growth = 0,
 		air = 0,
@@ -186,7 +186,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295325] = {
 		cannon = 230,
-		name = "Regensburg META(Tier.10)",
+		name = "Regensburg META (Tier.10)",
 		torpedo = 237,
 		cannon_growth = 0,
 		air = 0,
@@ -232,7 +232,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295326] = {
 		cannon = 244,
-		name = "Regensburg META(Tier.11)",
+		name = "Regensburg META (Tier.11)",
 		torpedo = 252,
 		cannon_growth = 0,
 		air = 0,
@@ -278,7 +278,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295327] = {
 		cannon = 258,
-		name = "Regensburg META(Tier.12)",
+		name = "Regensburg META (Tier.12)",
 		torpedo = 267,
 		cannon_growth = 0,
 		air = 0,
@@ -324,7 +324,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295328] = {
 		cannon = 273,
-		name = "Regensburg META(Tier.13)",
+		name = "Regensburg META (Tier.13)",
 		torpedo = 282,
 		cannon_growth = 0,
 		air = 0,
@@ -370,7 +370,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295329] = {
 		cannon = 287,
-		name = "Regensburg META(Tier.14)",
+		name = "Regensburg META (Tier.14)",
 		torpedo = 297,
 		cannon_growth = 0,
 		air = 0,
@@ -416,7 +416,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295330] = {
 		cannon = 302,
-		name = "Regensburg META(Tier.15)",
+		name = "Regensburg META (Tier.15)",
 		torpedo = 312,
 		cannon_growth = 0,
 		air = 0,

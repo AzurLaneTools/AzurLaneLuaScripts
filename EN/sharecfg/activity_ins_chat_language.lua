@@ -81277,7 +81277,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8194] = {
-		param = "At any rate…",
+		param = "At any rate...",
 		ship_group = 20607,
 		option = "",
 		type = 1,

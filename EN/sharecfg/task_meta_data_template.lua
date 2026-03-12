@@ -3343,7 +3343,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 100531,
 		target_num = 1,
-		desc = "Win 1 battle with Gangut META in your fleet."
+		desc = "Win 1 battle with Regensburg META in your fleet."
 	},
 	[100532] = {
 		target_id = "30",

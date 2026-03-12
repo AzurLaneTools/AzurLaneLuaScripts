@@ -1231,7 +1231,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295316] = {
 		cannon = 100,
-		name = "Regensburg META(Tier.1)",
+		name = "Regensburg META (Tier.1)",
 		torpedo = 104,
 		cannon_growth = 0,
 		air = 0,
@@ -1277,7 +1277,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295317] = {
 		cannon = 115,
-		name = "Regensburg META(Tier.2)",
+		name = "Regensburg META (Tier.2)",
 		torpedo = 118,
 		cannon_growth = 0,
 		air = 0,
@@ -1323,7 +1323,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295318] = {
 		cannon = 129,
-		name = "Regensburg META(Tier.3)",
+		name = "Regensburg META (Tier.3)",
 		torpedo = 133,
 		cannon_growth = 0,
 		air = 0,
@@ -1369,7 +1369,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295319] = {
 		cannon = 143,
-		name = "Regensburg META(Tier.4)",
+		name = "Regensburg META (Tier.4)",
 		torpedo = 148,
 		cannon_growth = 0,
 		air = 0,
@@ -1415,7 +1415,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295320] = {
 		cannon = 158,
-		name = "Regensburg META(Tier.5)",
+		name = "Regensburg META (Tier.5)",
 		torpedo = 163,
 		cannon_growth = 0,
 		air = 0,
