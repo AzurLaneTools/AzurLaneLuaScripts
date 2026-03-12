@@ -5979,8 +5979,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2025.12.11-2026.3.12</color>
-META戦・ヨークタウン(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2026.3.12-2026.6.5</color>
+META戦・レーゲンスブルク(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -11381,7 +11381,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "※<color=#539b2c>02.12-03.04</COLOR>では<color=#539b2c>装備外装箱(新春オークション)/装備外装箱(瑞光迎春)</color>が100%出現します\n※<color=#539b2c>02.26-03.11</COLOR>では<color=#539b2c>装備外装箱(春色旅籠)</color>が100%出現します"
+	tip = "※<color=#539b2c>$1</COLOR>では<color=#539b2c>装備外装箱</color>が100%出現します"
 }
 
 
@@ -12877,7 +12877,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「モスクワ」を確定で入手可能！（最大4隻まで）"
+	tip = "期間限定建造を累計200回行うと「ソビエツキー・ソユーズ」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -21456,6 +21456,11 @@ _G.pg.base.gametip.query_role_fail = {
 }
 
 
+_G.pg.base.gametip.query_role_fail_and_retry = {
+	tip = "一部のサーバーで情報の取得に失敗しました。もう一度お試しください。"
+}
+
+
 _G.pg.base.gametip.cumulative_victory_target_tip = {
 	tip = "目標勝利回数："
 }
@@ -21925,7 +21930,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することができます。
 
-※<color=#92fc63>2025.12.11-2026.3.12</color>ヨークタウン(META) META戦開放期間は「ヨークタウン(META)」の解析Ptを入手できます。
+※<color=#92fc63>2026.3.12-2026.6.5</color>レーゲンスブルク(META) META戦開放期間は「レーゲンスブルク(META)」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -47550,6 +47555,116 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "経営任務"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "一括入手 "
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "春色旅籠Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "旅籠補給地"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "新春の想い"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "開催期間:2.17 0時～3.3 23:59"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "ランダム秘書艦機能をオフにしてからもう一度お試しください"
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "一番左の秘書艦枠に配置されている艦船の新春のお礼がメールボックスに送られます。続けますか？"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "配置中の艦船から新春のお礼を受け取れません。秘書艦を変更して再度お試しください"
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "プレゼントがメールボックスに送られました！"
+}
+
+
 _G.pg.base.gametip.island_gift_tip_title = {
 	tip = "体力"
 }
@@ -47622,6 +47737,16 @@ _G.pg.base.gametip.island_quick_delegation_notenough_encourage = {
 
 _G.pg.base.gametip.island_quick_delegation_notenough_onduty = {
 	tip = "$1は他の作業を行っているため、配置できません"
+}
+
+
+_G.pg.base.gametip.loveletter2018_ui_4 = {
+	tip = "$1のプレゼントを$2のプレゼントに変換しますか？"
+}
+
+
+_G.pg.base.gametip.loveletter2018_ui_5 = {
+	tip = "※一度だけ変換できます。すでに入手した思い出Ptも変換先の艦船のものに変更されます"
 }
 
 
@@ -47748,111 +47873,21 @@ _G.pg.base.gametip.LiquorFloor_tip = {
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_title = {
-	tip = "経営任務"
+_G.pg.base.gametip.loveletter2018_ui_1 = {
+	tip = "艦船のバレンタインプレゼント（2018）に変換しますか？\n 一度だけ変換できます。変換されたプレゼントはメールに送られます"
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_go = {
-	tip = "確認"
+_G.pg.base.gametip.loveletter2018_ui_2 = {
+	tip = "$1のプレゼントに変換しますか？"
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_get = {
-	tip = "受取"
+_G.pg.base.gametip.loveletter2018_ui_3 = {
+	tip = "注意：プレゼントを1度変換すると再度変更できません"
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_got = {
-	tip = "受取済"
-}
-
-
-_G.pg.base.gametip.LiquorFloor_gold_get = {
-	tip = "一括入手 "
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
-	tip = "春色旅籠Online"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
-	tip = "旅籠補給地"
-}
-
-
-_G.pg.base.gametip.loveactivity_help_tips = {
-	tip = {
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_2"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_3"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_4"
-			}
-		},
-		disableScroll = true,
-		pageMode = true,
-		defaultpage = 1,
-		ImageMode = true,
-		windowSize = {
-			x = 1263,
-			y = 873
-		},
-		windowPos = {
-			y = -70
-		},
-		helpSize = {
-			x = 1176,
-			y = 1024
-		}
-	}
-}
-
-
-_G.pg.base.gametip.spring_present_tips_btn = {
-	tip = "新春の想い"
-}
-
-
-_G.pg.base.gametip.spring_present_tips_time = {
-	tip = "開催期間:2.17 0時～3.3 23:59"
-}
-
-
-_G.pg.base.gametip.spring_present_tips0 = {
-	tip = "ランダム秘書艦機能をオフにしてからもう一度お試しください"
-}
-
-
-_G.pg.base.gametip.spring_present_tips1 = {
-	tip = "一番左の秘書艦枠に配置されている艦船の新春のお礼がメールボックスに送られます。続けますか？"
-}
-
-
-_G.pg.base.gametip.spring_present_tips2 = {
-	tip = "配置中の艦船から新春のお礼を受け取れません。秘書艦を変更して再度お試しください"
-}
-
-
-_G.pg.base.gametip.spring_present_tips3 = {
-	tip = "プレゼントがメールボックスに送られました！"
+_G.pg.base.gametip.loveletter2018_ui_tips = {
+	tip = "バレンタインプレゼント（2018）を変換しました"
 }

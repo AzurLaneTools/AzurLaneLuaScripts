@@ -7768,6 +7768,7 @@ pg.painting_filte_map = {
 		key = "huoli_2",
 		res_list = {
 			"painting/huoli_2_tex",
+			"painting/huoli_2_shophx_tex",
 			"painting/huoli_2_n_tex",
 			"painting/huoli_2_n",
 			"painting/huoli_2"
@@ -10297,6 +10298,18 @@ pg.painting_filte_map = {
 			"painting/leigensibao_3_n_tex",
 			"painting/leigensibao_3_n",
 			"painting/leigensibao_3"
+		}
+	},
+	leigensibao_alter = {
+		key = "leigensibao_alter",
+		res_list = {
+			"painting/leigensibao_alter_tex",
+			"painting/leigensibao_alter_rw_tex",
+			"painting/leigensibao_alter_n_tex",
+			"painting/leigensibao_alter_n_rw_tex",
+			"painting/leigensibao_alter_n",
+			"painting/leigensibao_alter_bj_tex",
+			"painting/leigensibao_alter"
 		}
 	},
 	leiming = {

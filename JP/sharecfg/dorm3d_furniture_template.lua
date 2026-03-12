@@ -1754,6 +1754,40 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/bedroom"
 		}
 	},
+	[1462] = {
+		rarity = 4,
+		name = "知的な思案",
+		type = 6,
+		room_id = 14,
+		desc = "滑らかで平らな天板の古典的なデザインのデスク。頑丈で収納機能もあり、学習や仕事にピッタリ。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aijier_study01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture2",
+		acesses = "",
+		id = 1462,
+		target_slots = {
+			1140201
+		},
+		touch_id = {
+			{
+				49905,
+				4990550
+			}
+		},
+		shop_id = {
+			270602
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1461"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/study"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1834,7 +1868,8 @@ pg.dorm3d_furniture_template = {
 			1413,
 			1414,
 			1415,
-			1461
+			1461,
+			1462
 		}
 	},
 	all = {
@@ -1904,6 +1939,7 @@ pg.dorm3d_furniture_template = {
 		1413,
 		1414,
 		1415,
-		1461
+		1461,
+		1462
 	}
 }

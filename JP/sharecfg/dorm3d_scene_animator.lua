@@ -110,6 +110,11 @@ pg.dorm3d_scene_animator = {
 		room_id = 3,
 		item_name = "FurnitureSlots/130103/pre_db_aklq_sp_vd01(Clone)/pre_db_aklq_chandelier01"
 	},
+	[2023] = {
+		id = 2023,
+		room_id = 14,
+		item_name = "FurnitureSlots/1140201/pre_db_aijier_study01(Clone)/pre_db_aje_chair01"
+	},
 	get_id_list_by_room_id = {
 		{
 			2001
@@ -147,7 +152,8 @@ pg.dorm3d_scene_animator = {
 		},
 		[14] = {
 			2015,
-			2016
+			2016,
+			2023
 		}
 	},
 	all = {
@@ -172,6 +178,7 @@ pg.dorm3d_scene_animator = {
 		2019,
 		2020,
 		2021,
-		2022
+		2022,
+		2023
 	}
 }

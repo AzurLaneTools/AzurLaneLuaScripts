@@ -409,7 +409,7 @@ pg.base.island_unit_character = {
 		personality = 1
 	},
 	[101800] = {
-		describe_illustrated_guid = "",
+		describe_illustrated_guid = "你好呀指挥官，我是这片渔场的管理员布莉缇！\n这片海域的潮汐流向和鱼群脾气我都一清二楚，只听水流的动静我就知道有没有大家伙在！\n呜喵~偷偷告诉指挥官，我还掌握着独家钓技哦，想学的话随时都可以来找我~",
 		english_name = "RMS Empress of Britain",
 		name = "ブリテン",
 		rendering = "101800",

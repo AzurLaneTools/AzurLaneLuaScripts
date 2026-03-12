@@ -2989,6 +2989,13 @@ pg.name_code = {
 		code = "ボイシ(META)",
 		nation = 0
 	},
+	[552] = {
+		name = "レーゲンスブルク(META)",
+		type = 1,
+		id = 552,
+		code = "レーゲンスブルク(META)",
+		nation = 0
+	},
 	[10000] = {
 		name = "零戦五二型",
 		type = 2,

@@ -16063,6 +16063,37 @@ _G.pg.base.item_data_statistics[21057] = {
 }
 
 
+_G.pg.base.item_data_statistics[21058] = {
+	open_directly = 0,
+	name = "結晶：レーゲンスブルク(META)",
+	type = 4,
+	display = "レーゲンスブルク(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21058",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -16827,6 +16858,37 @@ _G.pg.base.item_data_statistics[21921] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21921,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21922] = {
+	open_directly = 0,
+	name = "レーゲンスブルク(META)解析Pt",
+	type = 0,
+	display = "レーゲンスブルク(META)の解析ポイント",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21922",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21922,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -54127,7 +54189,7 @@ _G.pg.base.item_data_statistics[41001] = {
 	display = "明石からのバレンタインプレゼント",
 	other_resource_cost = "[]",
 	replace_item = 0,
-	usage = "usage_undefined",
+	usage = "usage_loveitem_change_2018",
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
@@ -101905,6 +101967,37 @@ _G.pg.base.item_data_statistics[44021] = {
 }
 
 
+_G.pg.base.item_data_statistics[44022] = {
+	open_directly = 0,
+	name = "バレンタインプレゼント（2018）",
+	type = 1,
+	display = "好きな艦船のバレンタインプレゼント（2018）に変換できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_loveitem_change_2018",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/head",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44022,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[50001] = {
 	open_directly = 0,
 	name = "酸素コーラ",
@@ -121822,5 +121915,118 @@ _G.pg.base.item_data_statistics[180010] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180099] = {
+	open_directly = 0,
+	name = "選べるプレゼント",
+	type = 13,
+	display = "開けると任意の好感度アップ用プレゼントを選んで入手できます（レアプレゼントを除く）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox02",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180099,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			180002,
+			1
+		},
+		{
+			2,
+			180003,
+			1
+		},
+		{
+			2,
+			180004,
+			1
+		},
+		{
+			2,
+			180005,
+			1
+		},
+		{
+			2,
+			180006,
+			1
+		},
+		{
+			2,
+			180007,
+			1
+		},
+		{
+			2,
+			180008,
+			1
+		},
+		{
+			2,
+			180009,
+			1
+		}
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			180002,
+			1
+		},
+		{
+			2,
+			180003,
+			1
+		},
+		{
+			2,
+			180004,
+			1
+		},
+		{
+			2,
+			180005,
+			1
+		},
+		{
+			2,
+			180006,
+			1
+		},
+		{
+			2,
+			180007,
+			1
+		},
+		{
+			2,
+			180008,
+			1
+		},
+		{
+			2,
+			180009,
+			1
+		}
+	},
 	limit = {}
 }

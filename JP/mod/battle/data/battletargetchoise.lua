@@ -288,6 +288,42 @@ slot3.TargetAttrCompare = function(slot0, slot1, slot2)
 	return slot3
 end
 
+slot3.TargetAttrCeil = function(slot0, slot1, slot2)
+	slot3 = slot2 or uv0.TargetEntityUnit()
+	slot4 = slot1.ceilAttr
+	slot5 = 0
+	slot6 = nil
+
+	for slot10, slot11 in ipairs(slot3) do
+		if slot5 <= slot11:GetAttrByName(slot4) then
+			slot5 = slot12
+			slot6 = slot11
+		end
+	end
+
+	return {
+		slot6
+	}
+end
+
+slot3.TargetAttrFloor = function(slot0, slot1, slot2)
+	slot3 = slot2 or uv0.TargetEntityUnit()
+	slot4 = slot1.floorAttr
+	slot5 = Mathf.Infinity
+	slot6 = nil
+
+	for slot10, slot11 in ipairs(slot3) do
+		if slot11:GetAttrByName(slot4) <= slot5 then
+			slot5 = slot12
+			slot6 = slot11
+		end
+	end
+
+	return {
+		slot6
+	}
+end
+
 slot3.TargetTempCompare = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot2 or uv0.TargetEntityUnit()

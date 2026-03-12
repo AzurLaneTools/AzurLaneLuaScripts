@@ -9,174 +9,6 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.01,
-					attr = "damageRatioBullet"
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = -0.035,
-					attr = "injureRatio"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = 0.014,
-					attr = "damageRatioBullet"
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = -0.04,
-					attr = "injureRatio"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = 0.018,
-					attr = "damageRatioBullet"
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = -0.045,
-					attr = "injureRatio"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = 0.022,
-					attr = "damageRatioBullet"
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = -0.05,
-					attr = "injureRatio"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = 0.026,
-					attr = "damageRatioBullet"
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = -0.055,
-					attr = "injureRatio"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = 0.03,
-					attr = "damageRatioBullet"
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
-					number = -0.06,
-					attr = "injureRatio"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack",
-					"onRemove"
-				},
-				arg_list = {
 					number = 0.035,
 					attr = "damageRatioBullet"
 				}
@@ -189,7 +21,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = -0.065,
+					number = -0.01,
 					attr = "injureRatio"
 				}
 			}
@@ -217,7 +49,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = -0.07,
+					number = -0.014,
 					attr = "injureRatio"
 				}
 			}
@@ -245,7 +77,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = -0.075,
+					number = -0.018,
 					attr = "injureRatio"
 				}
 			}
@@ -273,7 +105,175 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = -0.08,
+					number = -0.022,
+					attr = "injureRatio"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 0.055,
+					attr = "damageRatioBullet"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = -0.026,
+					attr = "injureRatio"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 0.06,
+					attr = "damageRatioBullet"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = -0.03,
+					attr = "injureRatio"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 0.065,
+					attr = "damageRatioBullet"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = -0.035,
+					attr = "injureRatio"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 0.07,
+					attr = "damageRatioBullet"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = -0.04,
+					attr = "injureRatio"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 0.075,
+					attr = "damageRatioBullet"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = -0.045,
+					attr = "injureRatio"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 0.08,
+					attr = "damageRatioBullet"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = -0.05,
 					attr = "injureRatio"
 				}
 			}
@@ -303,7 +303,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				number = 0.01,
+				number = 0.035,
 				attr = "damageRatioBullet"
 			}
 		},
@@ -315,7 +315,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				number = -0.035,
+				number = -0.01,
 				attr = "injureRatio"
 			}
 		}

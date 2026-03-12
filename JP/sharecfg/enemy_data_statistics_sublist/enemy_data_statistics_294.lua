@@ -1,5 +1,39 @@
 pg = pg or {}
 pg.enemy_data_statistics_294 = {
+	[16594202] = {
+		cannon = 174,
+		air = 0,
+		torpedo = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 15,
+		base = 90873,
+		durability = 6428,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 0,
+		speed = 25,
+		luck = 0,
+		antiaircraft_growth = 0,
+		id = 16594202,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			2975024
+		}
+	},
 	[16594301] = {
 		cannon = 330,
 		name = "パーミャチ・メルクーリヤ~Incarnation Of Pamiat' Merkuria~",
@@ -128,7 +162,7 @@ pg.enemy_data_statistics_294 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		base = 90887,
-		durability = 1500000,
+		durability = 1280000,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		speed = 25,
@@ -175,7 +209,7 @@ pg.enemy_data_statistics_294 = {
 		air_growth = 0,
 		battle_unit_type = 95,
 		base = 90887,
-		durability = 2000000,
+		durability = 1600000,
 		armor_growth = 0,
 		durability_growth = 0,
 		antiaircraft = 600,
@@ -1172,43 +1206,6 @@ pg.enemy_data_statistics_294 = {
 				ID = 50510,
 				LV = 3
 			}
-		}
-	},
-	[16599205] = {
-		cannon = 0,
-		air = 48,
-		torpedo = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 2000,
-		battle_unit_type = 65,
-		base = 90903,
-		durability = 4420,
-		armor_growth = 0,
-		durability_growth = 65600,
-		antiaircraft = 115,
-		speed = 15,
-		luck = 0,
-		antiaircraft_growth = 1800,
-		id = 16599205,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			3139072,
-			3139077,
-			3139082,
-			3139087
 		}
 	}
 }

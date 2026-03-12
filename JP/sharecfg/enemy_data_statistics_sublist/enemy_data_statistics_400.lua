@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_400 = {
+	[295198] = {
+		cannon = 176,
+		name = "ロドニー(META)-Tier.3",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 32,
+		id = 295198,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90888,
+		durability = 491000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 155,
+		speed = 50,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 1
+			}
+		}
+	},
 	[295199] = {
 		cannon = 196,
 		name = "ロドニー(META)-Tier.4",
@@ -4643,6 +4684,696 @@ pg.enemy_data_statistics_400 = {
 			},
 			{
 				ID = 201637,
+				LV = 1
+			}
+		}
+	},
+	[295316] = {
+		cannon = 100,
+		name = "レーゲンスブルク(META)-Tier.1",
+		torpedo = 104,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 25,
+		id = 295316,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 60000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 116,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 1
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295317] = {
+		cannon = 115,
+		name = "レーゲンスブルク(META)-Tier.2",
+		torpedo = 118,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 28,
+		id = 295317,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 64000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 133,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 2
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295318] = {
+		cannon = 129,
+		name = "レーゲンスブルク(META)-Tier.3",
+		torpedo = 133,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 32,
+		id = 295318,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 69000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 150,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 3
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295319] = {
+		cannon = 143,
+		name = "レーゲンスブルク(META)-Tier.4",
+		torpedo = 148,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 35,
+		id = 295319,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 84000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 166,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 4
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295320] = {
+		cannon = 158,
+		name = "レーゲンスブルク(META)-Tier.5",
+		torpedo = 163,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 39,
+		id = 295320,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 132000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 183,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 5
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295321] = {
+		cannon = 172,
+		name = "レーゲンスブルク(META)-Tier.6",
+		torpedo = 178,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 42,
+		id = 295321,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 180000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 200,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 6
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295322] = {
+		cannon = 186,
+		name = "レーゲンスブルク(META)-Tier.7",
+		torpedo = 193,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 46,
+		id = 295322,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 276000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 216,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 7
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295323] = {
+		cannon = 201,
+		name = "レーゲンスブルク(META)-Tier.8",
+		torpedo = 208,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 50,
+		id = 295323,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 372000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 233,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 8
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295324] = {
+		cannon = 215,
+		name = "レーゲンスブルク(META)-Tier.9",
+		torpedo = 222,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 53,
+		id = 295324,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 75,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 469000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 250,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 9
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295325] = {
+		cannon = 230,
+		name = "レーゲンスブルク(META)-Tier.10",
+		torpedo = 237,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 57,
+		id = 295325,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 80,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 577000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 266,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 10
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295326] = {
+		cannon = 244,
+		name = "レーゲンスブルク(META)-Tier.11",
+		torpedo = 252,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 60,
+		id = 295326,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 85,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 721000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 283,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 11
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295327] = {
+		cannon = 258,
+		name = "レーゲンスブルク(META)-Tier.12",
+		torpedo = 267,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 64,
+		id = 295327,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 938000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 300,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 12
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295328] = {
+		cannon = 273,
+		name = "レーゲンスブルク(META)-Tier.13",
+		torpedo = 282,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 67,
+		id = 295328,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 1202000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 316,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 13
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295329] = {
+		cannon = 287,
+		name = "レーゲンスブルク(META)-Tier.14",
+		torpedo = 297,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 71,
+		id = 295329,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 100,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 1491000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 333,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 14
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
+				LV = 1
+			}
+		}
+	},
+	[295330] = {
+		cannon = 302,
+		name = "レーゲンスブルク(META)-Tier.15",
+		torpedo = 312,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 75,
+		id = 295330,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 110,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91217,
+		durability = 1780000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 350,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		torpedo_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201721,
+				LV = 15
+			},
+			{
+				ID = 200280,
+				LV = 1
+			},
+			{
+				ID = 201735,
 				LV = 1
 			}
 		}

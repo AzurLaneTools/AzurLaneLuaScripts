@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_174 = {
+	[14002206] = {
+		cannon = 98,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 1700,
+		armor = 0,
+		reload = 150,
+		base = 90467,
+		dodge = 12,
+		torpedo_growth = 1500,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 170,
+		speed_growth = 0,
+		star = 4,
+		hit = 16,
+		antisub_growth = 0,
+		rarity = 3,
+		luck_growth = 0,
+		torpedo = 75,
+		durability = 13040,
+		armor_growth = 0,
+		durability_growth = 270400,
+		antiaircraft = 155,
+		speed = 20,
+		luck = 15,
+		hit_growth = 210,
+		battle_unit_type = 90,
+		id = 14002206,
+		antiaircraft_growth = 3200,
+		fog_fx = "",
+		equipment_list = {
+			1003138,
+			1003143,
+			1003148,
+			1003153,
+			1003198,
+			1003213,
+			1003253
+		}
+	},
 	[14002301] = {
 		cannon = 242,
 		name = "テスター",
@@ -1298,41 +1339,6 @@ pg.enemy_data_statistics_174 = {
 				ID = 50500,
 				LV = 4
 			}
-		}
-	},
-	[14003202] = {
-		cannon = 13,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 600,
-		armor = 0,
-		reload = 150,
-		base = 90470,
-		dodge = 14,
-		torpedo_growth = 3000,
-		antiaircraft_growth = 2800,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 250,
-		speed_growth = 0,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 4,
-		luck_growth = 0,
-		torpedo = 162,
-		durability = 1130,
-		armor_growth = 0,
-		durability_growth = 72000,
-		antiaircraft = 65,
-		speed = 16,
-		luck = 18,
-		hit_growth = 210,
-		battle_unit_type = 90,
-		id = 14003202,
-		fog_fx = "",
-		appear_fx = {
-			"appearQ"
 		}
 	}
 }

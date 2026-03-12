@@ -2539,6 +2539,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970510] = {
 			30057
+		},
+		[970211] = {
+			30058
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3394,7 +3397,8 @@ pg.ship_data_group = setmetatable({
 			30054,
 			30055,
 			30056,
-			30057
+			30057,
+			30058
 		}
 	},
 	all = {
@@ -4243,7 +4247,8 @@ pg.ship_data_group = setmetatable({
 		30054,
 		30055,
 		30056,
-		30057
+		30057,
+		30058
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -27112,6 +27117,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -27156,6 +27171,16 @@ pg.base.ship_data_group = {
 				"イベント：四天王の大冒険・撫順編Ⅱ",
 				{
 					""
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			}
@@ -39481,6 +39506,41 @@ pg.base.ship_data_group = {
 				"イベント：銀界遊廻",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[30058] = {
+		nationality = 97,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970211,
+		index_id = 30058,
+		code = 30058,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・情報解析",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702111
+					}
 				},
 				0
 			}
