@@ -29667,7 +29667,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 설경미종",
+				"이벤트: 봄빛 여관 Online",
 				{
 					""
 				},
@@ -29783,7 +29783,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 설경미종",
+				"이벤트: 봄빛 여관 Online",
 				{
 					""
 				},
@@ -30083,7 +30083,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 설경미종",
+				"이벤트: 봄빛 여관 Online",
 				{
 					""
 				},
@@ -38898,7 +38898,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 설경미종",
+				"이벤트: 봄빛 여관 Online",
 				{
 					""
 				},
