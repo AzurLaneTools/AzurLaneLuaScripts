@@ -26782,6 +26782,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -26826,6 +26836,16 @@ pg.base.ship_data_group = {
 				"限时活动：抚顺的大冒险II",
 				{
 					""
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			}

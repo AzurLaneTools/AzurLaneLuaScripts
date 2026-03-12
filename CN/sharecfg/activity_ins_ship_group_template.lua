@@ -443,7 +443,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[39904] = {
 		ship_group = 39904,
-		name = "",
+		name = "AzumaB65",
 		background = "",
 		sculpture = "wuqi",
 		nationality = 0,
