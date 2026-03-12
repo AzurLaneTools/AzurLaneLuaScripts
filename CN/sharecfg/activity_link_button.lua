@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50371
+			50461
 		}
 	},
 	{
@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50426
+			50461
 		}
 	},
 	[11] = {
@@ -349,7 +349,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50426
+			50429
 		}
 	},
 	[110] = {

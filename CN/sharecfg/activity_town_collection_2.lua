@@ -158,7 +158,7 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 14,
-		name = "盲打联系~触觉麻将",
+		name = "盲打练习~触觉麻将",
 		type = 3,
 		unlock_desc = "水榭楼台达到6级",
 		icon = "702091",
@@ -170,10 +170,10 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 15,
-		name = "锦瑟如春",
+		name = "今夜，你哪也不许去",
 		type = 3,
 		unlock_desc = "花园达到8级",
-		icon = "506013",
+		icon = "206062",
 		luaID = "CHUNMANKEZHAN10",
 		unlock = {
 			6,

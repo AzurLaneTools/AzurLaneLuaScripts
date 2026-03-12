@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.enemy_data_statistics_392 = {
+	[295165] = {
+		cannon = 336,
+		name = "阿尔及利亚·META(Tier.15)",
+		torpedo = 252,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 75,
+		id = 295165,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 110,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90765,
+		durability = 1500000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 315,
+		speed = 30,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 200462,
+				LV = 8
+			},
+			{
+				ID = 200463,
+				LV = 15
+			},
+			{
+				ID = 200466,
+				LV = 5
+			}
+		}
+	},
 	[295166] = {
 		cannon = 109,
 		name = "貎·META(Tier.1)",
@@ -1296,47 +1341,6 @@ pg.enemy_data_statistics_392 = {
 		armor_growth = 0,
 		durability_growth = 0,
 		antiaircraft = 137,
-		speed = 50,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 200786,
-				LV = 1
-			},
-			{
-				ID = 50510,
-				LV = 1
-			}
-		}
-	},
-	[295198] = {
-		cannon = 176,
-		name = "罗德尼·META(Tier.3)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 32,
-		id = 295198,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 45,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90888,
-		durability = 491000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 155,
 		speed = 50,
 		luck = 50,
 		battle_unit_type = 90,

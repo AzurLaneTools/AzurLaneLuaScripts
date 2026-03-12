@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_253 = {
+	[16502007] = {
+		cannon = 5,
+		air = 0,
+		torpedo = 24,
+		cannon_growth = 300,
+		pilot_ai_template_id = 10002,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 2200,
+		hit_growth = 120,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 8,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 65,
+		base = 90129,
+		durability = 220,
+		armor_growth = 0,
+		durability_growth = 4400,
+		antiaircraft = 0,
+		speed = 14,
+		luck = 0,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		id = 16502007,
+		fog_fx = "",
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			1100697,
+			1100712
+		}
+	},
 	[16502011] = {
 		cannon = 7,
 		air = 0,
@@ -1432,59 +1470,6 @@ pg.enemy_data_statistics_253 = {
 			1101097,
 			1101102,
 			1101107
-		}
-	},
-	[16502204] = {
-		cannon = 140,
-		name = "勒马尔统御武装-「毁灭」",
-		hit_growth = 210,
-		speed_growth = 0,
-		armor = 0,
-		air = 0,
-		icon_type = 5,
-		type = 5,
-		id = 16502204,
-		antiaircraft = 175,
-		antiaircraft_growth = 3600,
-		dodge_growth = 156,
-		fog_fx = "",
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90279,
-		durability = 17340,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 15,
-		antisub = 0,
-		cannon_growth = 2500,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 16,
-		torpedo = 0,
-		durability_growth = 346800,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1101092,
-			1101112,
-			1101117,
-			1101122
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 3
-			}
 		}
 	}
 }

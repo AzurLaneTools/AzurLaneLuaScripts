@@ -1,5 +1,64 @@
 pg = pg or {}
 pg.enemy_data_statistics_190 = {
+	[14602303] = {
+		cannon = 190,
+		luck_growth = 0,
+		air_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 225,
+		armor = 0,
+		antisub = 0,
+		hit_growth = 210,
+		bubble_fx = "",
+		fog_fx = "",
+		dodge_growth = 256,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90252,
+		durability = 46800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 18,
+		id = 14602303,
+		scale = 144,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 20,
+		reload_growth = 0,
+		hit = 22,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 265,
+		battle_unit_type = 95,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			772201,
+			772202,
+			772203,
+			772204,
+			772209,
+			772210,
+			772211
+		},
+		buff_list = {}
+	},
 	[14603001] = {
 		cannon = 7,
 		hit_growth = 144,
@@ -1733,58 +1792,6 @@ pg.enemy_data_statistics_190 = {
 			1003065,
 			1003070,
 			1003075
-		},
-		buff_list = {}
-	},
-	[14604006] = {
-		cannon = 100,
-		luck_growth = 0,
-		air_growth = 0,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		hit_growth = 1200,
-		bubble_fx = "",
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 1,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90464,
-		durability = 90,
-		armor_growth = 0,
-		torpedo_growth = 900,
-		speed = 30,
-		luck = 0,
-		id = 14604006,
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 81,
-		torpedo = 180,
-		durability_growth = 2550,
-		antiaircraft = 0,
-		battle_unit_type = 15,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			1000869,
-			1000904
 		},
 		buff_list = {}
 	}

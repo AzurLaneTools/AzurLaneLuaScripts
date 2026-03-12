@@ -24,9 +24,14 @@ end
 
 slot0.SetActivity = function(slot0, slot1)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(slot1)
-	slot2, slot3 = slot0.activity:GetChangeCount()
 
-	setText(slot0.textHelp, i18n("loveactivity_ui_12", slot3 - slot2, slot3))
+	if slot0.contextData.isRepair then
+		setText(slot0.textHelp, i18n("loveletter2018_ui_3"))
+	else
+		slot2, slot3 = slot0.activity:GetChangeCount()
+
+		setText(slot0.textHelp, i18n("loveactivity_ui_12", slot3 - slot2, slot3))
+	end
 end
 
 slot0.didEnter = function(slot0)
@@ -35,7 +40,12 @@ end
 
 slot0.UpdateDisplay = function(slot0)
 	slot0:UpdatePainting()
-	setText(slot0.textInfo, i18n("loveactivity_ui_11", setColorStr(slot0.ll:GetName(), "#f3709e")))
+
+	if slot0.contextData.isRepair then
+		setText(slot0.textInfo, i18n("loveletter2018_ui_2", slot0.ll:GetName()))
+	else
+		setText(slot0.textInfo, i18n("loveactivity_ui_11", setColorStr(slot0.ll:GetName(), "#f3709e")))
+	end
 end
 
 slot0.UpdatePainting = function(slot0)

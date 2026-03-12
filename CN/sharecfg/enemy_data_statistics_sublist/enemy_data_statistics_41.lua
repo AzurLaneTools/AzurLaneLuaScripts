@@ -1,5 +1,28 @@
 pg = pg or {}
 pg.enemy_data_statistics_41 = {
+	[903] = {
+		cannon = 20,
+		speed = 15,
+		air = 0,
+		torpedo = 20,
+		id = 903,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		fog_fx = "",
+		hit = 0,
+		base = 90125,
+		durability = 4000,
+		antiaircraft = 150,
+		battle_unit_type = 3,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			473021,
+			473022,
+			473023
+		}
+	},
 	[904] = {
 		cannon = 30,
 		speed = 15,
@@ -1164,46 +1187,6 @@ pg.enemy_data_statistics_41 = {
 			311025,
 			311026,
 			311027
-		}
-	},
-	[1012] = {
-		cannon = 11,
-		hit_growth = 210,
-		luck = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		air_growth = 0,
-		antisub = 0,
-		battle_unit_type = 55,
-		fog_fx = "",
-		dodge_growth = 162,
-		star = 3,
-		antisub_growth = 0,
-		rarity = 2,
-		base = 90188,
-		durability = 200,
-		armor_growth = 0,
-		torpedo_growth = 3366,
-		speed = 20,
-		armor = 0,
-		id = 1012,
-		cannon_growth = 936,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 41,
-		durability_growth = 8800,
-		antiaircraft = 35,
-		antiaircraft_growth = 2500,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
-			100411
 		}
 	}
 }

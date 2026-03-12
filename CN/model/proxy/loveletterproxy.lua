@@ -145,9 +145,7 @@ slot0.CanRealizeGift = function(slot0)
 	end
 
 	for slot8, slot9 in pairs(slot3) do
-		if slot9 ~= 0 then
-			assert(#slot2 >= #slot0.giftRecord)
-
+		if slot9 > 0 then
 			return slot2
 		end
 	end
@@ -242,11 +240,10 @@ slot0.GetDisplayGroupList = function(slot0)
 
 	table.sort(slot1)
 
-	slot2 = getProxy(CollectionProxy)
-	slot2 = slot2:RawgetGroups()
-
 	return underscore.map(slot1, function (slot0)
-		return uv0[slot0]
+		return ShipGroup.New({
+			id = slot0
+		})
 	end)
 end
 

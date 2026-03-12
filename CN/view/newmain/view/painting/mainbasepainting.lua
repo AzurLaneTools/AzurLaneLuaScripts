@@ -280,6 +280,7 @@ slot0.DisplayWord = function(slot0, slot1)
 
 	if not slot4 or slot4 == nil or slot4 == "" or slot4 == "nil" then
 		slot0:OnEndChatting()
+		slot0:OnDisplayWordEnd()
 
 		return
 	end

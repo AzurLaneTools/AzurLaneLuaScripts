@@ -179937,6 +179937,131 @@ _G.pg.base.item_virtual_data_statistics[65870] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65871] = {
+	drop_gold_max = 0,
+	name = "换装体验券",
+	display = "用于「限时体验商店」兑换角色限时换装",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65871,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65872] = {
+	drop_gold_max = 0,
+	name = "“融雪区”结晶",
+	display = "用于「雪境迷踪」复刻活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/tongmeng_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65872,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65873] = {
+	drop_gold_max = 0,
+	name = "单次建造券",
+	display = "于「雪境迷踪」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50474,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65873,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65874] = {
+	drop_gold_max = 0,
+	name = "训练点数",
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_rv3",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65874,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65875] = {
+	drop_gold_max = 0,
+	name = "换装体验券",
+	display = "用于「限时体验商店」兑换角色限时换装",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65875,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "木料",

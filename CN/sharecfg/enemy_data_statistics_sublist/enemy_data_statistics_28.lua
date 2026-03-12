@@ -984,7 +984,7 @@ pg.enemy_data_statistics_28 = {
 		durability_growth = 0,
 		luck_growth = 0,
 		hit_growth = 0,
-		armor_type = 1,
+		armor_type = 2,
 		world_enhancement = {
 			0,
 			0,
@@ -1141,7 +1141,7 @@ pg.enemy_data_statistics_28 = {
 		durability_growth = 0,
 		luck_growth = 0,
 		hit_growth = 0,
-		armor_type = 1,
+		armor_type = 2,
 		world_enhancement = {
 			0,
 			0,
@@ -1298,7 +1298,7 @@ pg.enemy_data_statistics_28 = {
 		durability_growth = 0,
 		luck_growth = 0,
 		hit_growth = 0,
-		armor_type = 1,
+		armor_type = 2,
 		world_enhancement = {
 			0,
 			0,

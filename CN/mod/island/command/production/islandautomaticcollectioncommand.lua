@@ -56,14 +56,16 @@ slot0.execute = function(slot0, slot1)
 			slot2 = slot0.build_refresh or {}
 
 			for slot4, slot5 in slot1(slot2) do
-				for slot11, slot12 in pairs(uv2:GetBuilding(slot5.build_id):GetBuildingCollectData():GetCollectSlotDatasDic()) do
-					uv0:DispatchEvent(IslandBuildingAgency.COLLECT_SLOT_UNIT_REMOVE, {
-						slotId = slot12.id
-					})
-				end
+				slot7 = uv2:GetBuilding(slot5.build_id):GetBuildingCollectData()
 
 				slot7:SetAllTakeColelct()
 				slot7:UpdateCollectRefreshtTime(slot5.refresh_time)
+
+				for slot11, slot12 in pairs(slot7:GetCollectSlotDatasDic()) do
+					slot6:UpdateCollectDataBySlotId({
+						id = slot12.id
+					}, 1)
+				end
 			end
 
 			uv3:sendNotification(GAME.ISLAND_TAKE_AUTO_COLLECTION_DONE, {

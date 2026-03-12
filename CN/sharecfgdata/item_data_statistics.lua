@@ -16445,6 +16445,37 @@ _G.pg.base.item_data_statistics[21057] = {
 }
 
 
+_G.pg.base.item_data_statistics[21058] = {
+	open_directly = 0,
+	name = "结晶：{namecode:552}",
+	type = 4,
+	display = "{namecode:552}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21058",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -17209,6 +17240,37 @@ _G.pg.base.item_data_statistics[21921] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21921,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21922] = {
+	open_directly = 0,
+	name = "同步值：{namecode:552}",
+	type = 0,
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:552}同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21922",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21922,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -55762,7 +55824,7 @@ _G.pg.base.item_data_statistics[41001] = {
 	display = "{namecode:98}赠送的情人节礼物",
 	other_resource_cost = "[]",
 	replace_item = 0,
-	usage = "usage_undefined",
+	usage = "usage_loveitem_change_2018",
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
@@ -103540,6 +103602,37 @@ _G.pg.base.item_data_statistics[44021] = {
 }
 
 
+_G.pg.base.item_data_statistics[44022] = {
+	open_directly = 0,
+	name = "2018年情人节礼物",
+	type = 1,
+	display = "可以自选一位角色，赠送您的专属情人节礼物。 ",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_loveitem_change_2018",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/head",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44022,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[50001] = {
 	open_directly = 0,
 	name = "酸素可乐",
@@ -127786,6 +127879,357 @@ _G.pg.base.item_data_statistics[68216] = {
 }
 
 
+_G.pg.base.item_data_statistics[68217] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(天幕危机)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:529}</color>换装<color=#92fc63FF>天幕危机</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88002",
+	id = 68217,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68220,
+			1
+		},
+		{
+			2,
+			68223,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68218] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(双面侠盗)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>艾伦·萨姆纳</color>换装<color=#92fc63FF>双面侠盗</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88003",
+	id = 68218,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68221,
+			1
+		},
+		{
+			2,
+			68224,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68219] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(正义新星)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>火力</color>换装<color=#92fc63FF>正义新星</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88004",
+	id = 68219,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68222,
+			1
+		},
+		{
+			2,
+			68225,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68220] = {
+	open_directly = 0,
+	name = "换装抵扣券(天幕危机)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:529}</color>换装<color=#92fc63FF>天幕危机</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年3月18日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68220,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70979
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68221] = {
+	open_directly = 0,
+	name = "换装抵扣券(双面侠盗)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>艾伦·萨姆纳</color>换装<color=#92fc63FF>双面侠盗</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年3月18日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68221,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70984
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68222] = {
+	open_directly = 0,
+	name = "换装抵扣券(正义新星)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>火力</color>换装<color=#92fc63FF>正义新星</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年3月18日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68222,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70980
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68223] = {
+	open_directly = 0,
+	name = "换装体验券(天幕危机)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:529}</color>换装<color=#92fc63FF>天幕危机</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年3月18日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68223,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90447
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68224] = {
+	open_directly = 0,
+	name = "换装体验券(双面侠盗)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>艾伦·萨姆纳</color>换装<color=#92fc63FF>双面侠盗</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年3月18日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68224,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90448
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68225] = {
+	open_directly = 0,
+	name = "换装体验券(正义新星)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>火力</color>换装<color=#92fc63FF>正义新星</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年3月18日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68225,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90449
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "绚烂缤纷夜福袋·I",
@@ -132290,5 +132734,118 @@ _G.pg.base.item_data_statistics[180010] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180099] = {
+	open_directly = 0,
+	name = "甜蜜自选礼盒",
+	type = 13,
+	display = "一份寄托心意的神秘赠礼，开启后可以自行选择一个角色好感度礼物（超稀有礼物除外）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox02",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180099,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			180002,
+			1
+		},
+		{
+			2,
+			180003,
+			1
+		},
+		{
+			2,
+			180004,
+			1
+		},
+		{
+			2,
+			180005,
+			1
+		},
+		{
+			2,
+			180006,
+			1
+		},
+		{
+			2,
+			180007,
+			1
+		},
+		{
+			2,
+			180008,
+			1
+		},
+		{
+			2,
+			180009,
+			1
+		}
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			180002,
+			1
+		},
+		{
+			2,
+			180003,
+			1
+		},
+		{
+			2,
+			180004,
+			1
+		},
+		{
+			2,
+			180005,
+			1
+		},
+		{
+			2,
+			180006,
+			1
+		},
+		{
+			2,
+			180007,
+			1
+		},
+		{
+			2,
+			180008,
+			1
+		},
+		{
+			2,
+			180009,
+			1
+		}
+	},
 	limit = {}
 }

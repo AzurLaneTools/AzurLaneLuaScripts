@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_278 = {
+	[16565202] = {
+		cannon = 130,
+		air = 206,
+		torpedo = 0,
+		cannon_growth = 0,
+		id = 16565202,
+		reload = 150,
+		armor = 0,
+		dodge = 11,
+		torpedo_growth = 0,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 156,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 20,
+		antisub_growth = 0,
+		air_growth = 3500,
+		battle_unit_type = 90,
+		base = 90252,
+		durability = 17020,
+		armor_growth = 0,
+		durability_growth = 308000,
+		antiaircraft = 251,
+		speed = 20,
+		luck = 18,
+		antiaircraft_growth = 3200,
+		fog_fx = "",
+		antisub = 0,
+		equipment_list = {
+			1000802,
+			1000807,
+			1000812,
+			1000817,
+			1000822
+		}
+	},
 	[16565301] = {
 		name = "提斯塔-ErrObj",
 		hit_growth = 330,
@@ -1238,48 +1275,6 @@ pg.enemy_data_statistics_278 = {
 			3109140,
 			3109145,
 			3109150
-		}
-	},
-	[16570104] = {
-		cannon = 31,
-		air = 0,
-		torpedo = 0,
-		cannon_growth = 2592,
-		id = 16570104,
-		reload = 150,
-		armor = 0,
-		dodge = 3,
-		torpedo_growth = 0,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 48,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 18,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 65,
-		base = 90861,
-		durability = 1020,
-		armor_growth = 0,
-		durability_growth = 49600,
-		antiaircraft = 45,
-		speed = 18,
-		luck = 0,
-		antiaircraft_growth = 3744,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			3109155,
-			3109160,
-			3109165,
-			3109170
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 1
-			}
 		}
 	}
 }

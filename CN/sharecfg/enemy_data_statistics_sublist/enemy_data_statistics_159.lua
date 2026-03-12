@@ -1,5 +1,163 @@
 pg = pg or {}
 pg.enemy_data_statistics_159 = {
+	[13400012] = {
+		cannon = 500,
+		name = "试作型布里MKII",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 98,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "kin_2",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 0,
+		id = 13400012,
+		scale = 100,
+		prefab = "kin_2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "movewave",
+		bubble_fx = "",
+		hit = 999,
+		fog_fx = "",
+		torpedo = 500,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.23,
+					0.74,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.52,
+					0.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.23,
+							0.55,
+							-0.07
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.4,
+							2.39,
+							1.02
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {
+			630083
+		},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[13400013] = {
 		cannon = 500,
 		name = "泛用型布里",
@@ -1441,50 +1599,6 @@ pg.enemy_data_statistics_159 = {
 		},
 		equipment_list = {
 			1000868
-		}
-	},
-	[13500350] = {
-		cannon = 212,
-		air = 0,
-		torpedo = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 17,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 34,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 90440,
-		durability = 45680,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 292,
-		speed = 18,
-		luck = 25,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		id = 13500350,
-		fog_fx = "",
-		equipment_list = {
-			640201,
-			640202,
-			640203,
-			640204,
-			640205
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 3
-			}
 		}
 	}
 }

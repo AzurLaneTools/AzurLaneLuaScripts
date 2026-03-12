@@ -382,6 +382,7 @@ pg.memory_group = setmetatable({
 		617,
 		618,
 		619,
+		620,
 		1000,
 		1001,
 		1002,
@@ -8903,6 +8904,26 @@ pg.base.memory_group = {
 			4975,
 			4976,
 			4977
+		},
+		group_id = {
+			10000
+		}
+	},
+	[620] = {
+		title = "林间风与心之罗盘",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 620,
+		icon = "title_chara_aerbien",
+		memories = {
+			5031,
+			5032,
+			5033,
+			5034,
+			5035,
+			5036,
+			5037
 		},
 		group_id = {
 			10000

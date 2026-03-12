@@ -833,6 +833,153 @@ pg.enemy_data_statistics_38 = {
 		random_nub = {},
 		buff_list = {}
 	},
+	[91217] = {
+		cannon = 0,
+		name = "雷根斯堡·META",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 97,
+		icon_type = 2,
+		type = 2,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "leigensibao_alter",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 0,
+		id = 91217,
+		scale = 180,
+		prefab = "leigensibao_alter",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "movewave",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.7,
+					0.792,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.164,
+					0.073,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.682,
+					0.764,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.48,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[611] = {
 		cannon = 22,
 		hit_growth = 210,
@@ -2171,47 +2318,6 @@ pg.enemy_data_statistics_38 = {
 		},
 		equipment_list = {
 			300010
-		}
-	},
-	[703] = {
-		cannon = 0,
-		name = "精锐型鱼雷艇",
-		hit_growth = 120,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 0,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90070,
-		durability = 20510,
-		armor_growth = 0,
-		torpedo_growth = 12000,
-		speed = 15,
-		luck = 0,
-		id = 703,
-		wave_fx = "danchuanlanghuaxiao2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 8,
-		torpedo = 700,
-		durability_growth = 710000,
-		luck_growth = 0,
-		battle_unit_type = 35,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			300006
 		}
 	}
 }

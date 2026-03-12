@@ -5288,7 +5288,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2025.12.11-2026.3.12</color>期间限时开放「约克城·META」的挑战，在此期间指挥官可挑战「约克城·META」累计其同步值获取<color=#92fc63>「约克城·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2026.3.12-2026.6.5</color>期间限时开放「{namecode:552}」的挑战，在此期间指挥官可挑战「{namecode:552}」累计其同步值获取<color=#92fc63>「{namecode:552}」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -5309,7 +5309,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标约克城·META暂不可使用指挥喵与潜艇
+·挑战信标{namecode:552}暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -5317,8 +5317,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标约克城·META挑战的进行，从第31天开始，即2026.1.11~2026.3.12期间，舰队挑战「约克城·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标约克城·META开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标约克城·META战斗中出现，每次挑战均会触发。]]
+随着信标{namecode:552}挑战的进行，从第31天开始，即2026.4.12~2026.6.5期间，舰队挑战「{namecode:552}」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标{namecode:552}开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标{namecode:552}战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -10990,7 +10990,7 @@ _G.pg.base.gametip.help_activitypool_3 = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "*活动期间(<color=#539b2c>02.12-03.04</COLOR>)每次刷新必定出现<color=#539b2c>外观装备箱(新春拍卖会)/外观装备箱(瑞光迎岁)</color>\n*活动期间(<color=#539b2c>02.26-03.11</COLOR>)每次刷新必定出现<color=#539b2c>外观装备箱(春满客栈)</color>"
+	tip = "*活动期间(<color=#539b2c>$1</COLOR>)每次刷新必定出现<color=#539b2c>外观装备箱</color>"
 }
 
 
@@ -12505,7 +12505,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 莫斯科(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:529}(最多4次)"
 }
 
 
@@ -21105,6 +21105,11 @@ _G.pg.base.gametip.query_role_fail = {
 }
 
 
+_G.pg.base.gametip.query_role_fail_and_retry = {
+	tip = "存在服务器查询失败，请重试..."
+}
+
+
 _G.pg.base.gametip.cumulative_victory_target_tip = {
 	tip = "目标胜利次数："
 }
@@ -21574,9 +21579,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2025.12.11-2026.3.12</color>期间限时开放「约克城·META」的「资讯同步」，通过「信标约克城·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「约克城·META」角色</color>
+·<color=#92fc63>2026.3.12-2026.6.5</color>期间限时开放「{namecode:552}」的「资讯同步」，通过「信标{namecode:552}」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「{namecode:552}」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「约克城·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「{namecode:552}」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -47006,6 +47011,116 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "经营要务"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "已领取"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "收取金币"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "春满客栈Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "客栈补给站"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "春日同心"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "活动时间: 2.17 0时~3.3 24时"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "当前为随机秘书组，请关闭随机秘书组后再进行尝试哦"
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "指挥官，您将通过邮件收到第一栏位秘书舰的春日同心之礼，是否确认?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "当前秘书舰无法收取春日同心之礼，请指挥官更换秘书舰再进行尝试哦～"
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "邮件收取成功，请指挥官前往邮箱查看并收取她为您准备的礼物。"
+}
+
+
 _G.pg.base.gametip.island_gift_tip_title = {
 	tip = "体力"
 }
@@ -47078,6 +47193,16 @@ _G.pg.base.gametip.island_quick_delegation_notenough_encourage = {
 
 _G.pg.base.gametip.island_quick_delegation_notenough_onduty = {
 	tip = "$1正在进行其他工作，无法委派"
+}
+
+
+_G.pg.base.gametip.loveletter2018_ui_4 = {
+	tip = "确认将$1礼物切换$2礼物么？"
+}
+
+
+_G.pg.base.gametip.loveletter2018_ui_5 = {
+	tip = "※切换次数仅一次,2018礼物已兑换勋章等级同时切换。"
 }
 
 
@@ -47203,111 +47328,21 @@ _G.pg.base.gametip.LiquorFloor_tip = {
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_title = {
-	tip = "经营要务"
+_G.pg.base.gametip.loveletter2018_ui_1 = {
+	tip = "是否切换为其他角色的情人节礼物？\n切换次数仅一次，已兑换勋章等级将与2018年情人节礼物同时切换"
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_go = {
-	tip = "前往"
+_G.pg.base.gametip.loveletter2018_ui_2 = {
+	tip = "确认要切换为<color=#92fc63>$1</color>的礼物么？"
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_get = {
-	tip = "领取"
+_G.pg.base.gametip.loveletter2018_ui_3 = {
+	tip = "注意：切换次数仅一次，切换后不可更改"
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_got = {
-	tip = "已领取"
-}
-
-
-_G.pg.base.gametip.LiquorFloor_gold_get = {
-	tip = "收取金币"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
-	tip = "春满客栈Online"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
-	tip = "客栈补给站"
-}
-
-
-_G.pg.base.gametip.loveactivity_help_tips = {
-	tip = {
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_2"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_3"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_4"
-			}
-		},
-		disableScroll = true,
-		pageMode = true,
-		defaultpage = 1,
-		ImageMode = true,
-		windowSize = {
-			x = 1263,
-			y = 873
-		},
-		windowPos = {
-			y = -70
-		},
-		helpSize = {
-			x = 1176,
-			y = 1024
-		}
-	}
-}
-
-
-_G.pg.base.gametip.spring_present_tips_btn = {
-	tip = "春日同心"
-}
-
-
-_G.pg.base.gametip.spring_present_tips_time = {
-	tip = "活动时间: 2.17 0时~3.3 24时"
-}
-
-
-_G.pg.base.gametip.spring_present_tips0 = {
-	tip = "当前为随机秘书组，请关闭随机秘书组后再进行尝试哦"
-}
-
-
-_G.pg.base.gametip.spring_present_tips1 = {
-	tip = "指挥官，您将通过邮件收到第一栏位秘书舰的春日同心之礼，是否确认?"
-}
-
-
-_G.pg.base.gametip.spring_present_tips2 = {
-	tip = "当前秘书舰无法收取春日同心之礼，请指挥官更换秘书舰再进行尝试哦～"
-}
-
-
-_G.pg.base.gametip.spring_present_tips3 = {
-	tip = "邮件收取成功，请指挥官前往邮箱查看并收取她为您准备的礼物。"
+_G.pg.base.gametip.loveletter2018_ui_tips = {
+	tip = "情人节礼物切换成功"
 }

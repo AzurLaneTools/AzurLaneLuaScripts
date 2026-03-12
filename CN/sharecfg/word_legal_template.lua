@@ -6799,7 +6799,18 @@ temp = function()
 		["根"] = {
 			["斯"] = {
 				["堡"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -6815,7 +6826,18 @@ temp = function()
 	uv0["瑞"] = {
 		["吉"] = {
 			["娜"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

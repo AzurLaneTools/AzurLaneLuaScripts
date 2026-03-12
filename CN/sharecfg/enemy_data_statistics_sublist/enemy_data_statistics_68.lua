@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_68 = {
+	[107012] = {
+		cannon = 150,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 50,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90160,
+		durability = 4200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 36,
+		armor = 0,
+		id = 107012,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 44,
+		reload_growth = 0,
+		hit = 38,
+		torpedo = 770,
+		durability_growth = 27500,
+		antiaircraft = 425,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			317027,
+			100432
+		}
+	},
 	[107014] = {
 		hit_growth = 0,
 		luck_growth = 0,
@@ -1555,103 +1595,6 @@ pg.enemy_data_statistics_68 = {
 		},
 		equipment_list = {
 			300013
-		}
-	},
-	[10805100] = {
-		battle_unit_type = 95,
-		hit_growth = 210,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		dodge = 115,
-		armor = 0,
-		air_growth = 0,
-		antisub = 0,
-		cannon = 400,
-		fog_fx = "",
-		dodge_growth = 1020,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 3,
-		base = 90164,
-		durability = 56000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 36,
-		luck = 0,
-		id = 10805100,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 750,
-		durability_growth = 0,
-		antiaircraft = 320,
-		antiaircraft_growth = 0,
-		bound_bone = {
-			cannon = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.31,
-					0.17,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.23,
-							0.486,
-							-0.481
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.56,
-							2.91,
-							-0.14
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			100223,
-			100432,
-			317004,
-			317012,
-			318102
 		}
 	}
 }

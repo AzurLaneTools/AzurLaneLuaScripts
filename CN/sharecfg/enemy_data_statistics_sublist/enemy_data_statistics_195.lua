@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_195 = {
+	[14703302] = {
+		cannon = 163,
+		hit_growth = 210,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 310,
+		armor = 0,
+		antisub = 0,
+		battle_unit_type = 95,
+		fog_fx = "",
+		dodge_growth = 312,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90368,
+		durability = 96820,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		luck = 25,
+		id = 14703302,
+		scale = 180,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 22,
+		reload_growth = 0,
+		hit = 22,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 390,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			783101
+		}
+	},
 	[14703303] = {
 		cannon = 340,
 		name = "测试者-？？？",
@@ -1575,88 +1615,6 @@ pg.enemy_data_statistics_195 = {
 		equipment_list = {
 			1100425,
 			1100230
-		}
-	},
-	[14900010] = {
-		cannon = 12,
-		hit_growth = 144,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		armor = 0,
-		dodge = 0,
-		antisub = 0,
-		battle_unit_type = 35,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 3,
-		antisub_growth = 0,
-		rarity = 2,
-		base = 90113,
-		durability = 270,
-		armor_growth = 0,
-		torpedo_growth = 1200,
-		speed = 15,
-		luck = 0,
-		id = 14900010,
-		cannon_growth = 1500,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		reload_growth = 0,
-		hit = 10,
-		torpedo = 15,
-		durability_growth = 16000,
-		antiaircraft = 35,
-		antiaircraft_growth = 1000,
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-1.35,
-							1.17,
-							0.51
-						}
-					}
-				}
-			},
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							1.39,
-							1.41,
-							0.54
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.02,
-							1.82,
-							0.76
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			1101025,
-			1101030,
-			1100490
 		}
 	}
 }

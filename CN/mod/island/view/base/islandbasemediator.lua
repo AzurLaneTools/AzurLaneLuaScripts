@@ -246,10 +246,14 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)
 	elseif slot2 == GAME.ISLAND_CORE_STATE_CHANGED then
-		if slot3 == IslandCore.STATE_INIT_FINISH and slot0.coreInitCallback then
-			slot0.coreInitCallback()
+		if slot3 == IslandCore.STATE_INIT_FINISH then
+			getProxy(IslandProxy):SetReconnectProcessing(false)
 
-			slot0.coreInitCallback = nil
+			if slot0.coreInitCallback then
+				slot0.coreInitCallback()
+
+				slot0.coreInitCallback = nil
+			end
 		end
 	elseif slot2 == GAME.ISLAND_TRADE_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)

@@ -334,10 +334,8 @@ slot0.OnSkinUpdateItem = function(slot0, slot1, slot2)
 		slot3 = slot0.skinCards[slot2]
 	end
 
-	slot5 = tf(slot2)
-
-	setActive(slot5:Find("changeColor"), (#pg.island_skin_colordiff_template.get_id_list_by_skin_group[slot0.skinList[slot1 + 1]] or {}) > 0)
-	slot3:Update(slot4, slot0.curSkinId ~= 0 and slot7 or nil)
+	setActive(tf(slot2):Find("changeColor"), true)
+	slot3:Update(slot0.skinList[slot1 + 1], slot0.curSkinId ~= 0 and slot6 or nil)
 	onButton(slot0, slot5, function ()
 		uv0:ClickSkinCardItem(uv1)
 	end)
@@ -1177,7 +1175,9 @@ slot0.UpdateColorItemList = function(slot0)
 					})
 				end
 			end
-		elseif #(pg.island_skin_colordiff_template.get_id_list_by_skin_group[uv0.curSkinId] or {}) > 0 then
+		else
+			slot0 = pg.island_skin_colordiff_template.get_id_list_by_skin_group[uv0.curSkinId] or {}
+
 			table.insert(uv0.colorItemList, {
 				itemId = 0,
 				selected = uv0.curskinColorId == 0,

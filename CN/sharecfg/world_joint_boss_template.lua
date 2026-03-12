@@ -512,7 +512,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "鲨·META",
 		boss_level_id = 226,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "changmen",
 		meta_id = 970506,
@@ -677,6 +677,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "约克城·META",
 		boss_level_id = 301,
+		state = "stop",
 		item_id = 100000,
 		painting = "yuekecheng",
 		meta_id = 970708,
@@ -698,12 +699,44 @@ pg.world_joint_boss_template = {
 				"战斗中释放某种影响整个海域状态的的特殊领域，同时提升3%敌我双方受到的伤害。"
 			}
 		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			190,
+			467,
+			0.65,
+			0.65
+		}
+	},
+	{
+		name = "瑞吉娜·META",
+		boss_level_id = 316,
+		item_id = 100000,
+		painting = "leigensibao",
+		meta_id = 970211,
+		id = 22,
+		description = {
+			{
+				"强者狩猎",
+				2,
+				"进入战斗后，瑞吉娜·META将分别向<color=#92fc63>我方角色炮击、雷击、航空、机动、命中</color>五项数值中，各自<color=#92fc63>数值最高者</color>释放一枚强者印记，若我方所有角色该项数值均为0，则不会释放对应的印记。\n多枚强者印记可叠加在同一角色身上，拥有强者印记会<color=#92fc63>使持有者受到来自瑞吉娜·META的伤害增加</color>，第一枚增加10%，第二枚及之后每一枚额外增加200%；若持有者位于主力舰队，还会持续受到火焰造成的点燃效果（点燃效果与印记数量无关）\n无论是一开始就未释放，还是持有者被击败时所携带的印记都会回到瑞吉娜·META手中，<color=#92fc63>每一枚为其提升20%的减伤效果</color>。"
+			},
+			{
+				"阶段式胜利",
+				1,
+				"我方单位每次<color=#92fc63>被击败或消失</color>离开战斗海域，都会使瑞吉娜·META的士气增加，提升其15%炮击与雷击。"
+			}
+		},
 		state = {
 			{
 				{
-					2025,
-					12,
-					11
+					2026,
+					3,
+					12
 				},
 				{
 					0,
@@ -714,8 +747,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2026,
-					3,
-					12
+					6,
+					5
 				},
 				{
 					23,
@@ -725,14 +758,14 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			-392,
-			457,
+			-330,
+			470,
 			0.7,
 			0.7
 		},
 		p_offset_other = {
-			190,
-			467,
+			330,
+			470,
 			0.65,
 			0.65
 		}
@@ -758,6 +791,7 @@ pg.world_joint_boss_template = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	}
 }

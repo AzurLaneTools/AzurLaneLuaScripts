@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.enemy_data_statistics_196 = {
+	[14900010] = {
+		cannon = 12,
+		hit_growth = 144,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		armor = 0,
+		dodge = 0,
+		antisub = 0,
+		battle_unit_type = 35,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 90113,
+		durability = 270,
+		armor_growth = 0,
+		torpedo_growth = 1200,
+		speed = 15,
+		luck = 0,
+		id = 14900010,
+		cannon_growth = 1500,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 15,
+		durability_growth = 16000,
+		antiaircraft = 35,
+		antiaircraft_growth = 1000,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.35,
+							1.17,
+							0.51
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.39,
+							1.41,
+							0.54
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.02,
+							1.82,
+							0.76
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			1101025,
+			1101030,
+			1100490
+		}
+	},
 	[14900011] = {
 		cannon = 35,
 		hit_growth = 144,
@@ -1510,48 +1592,6 @@ pg.enemy_data_statistics_196 = {
 			1100221,
 			1100276,
 			1100466,
-			1100021
-		}
-	},
-	[14901105] = {
-		cannon = 24,
-		hit_growth = 210,
-		luck = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		air_growth = 0,
-		antisub = 0,
-		battle_unit_type = 60,
-		fog_fx = "",
-		dodge_growth = 102,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 4,
-		base = 90210,
-		durability = 890,
-		armor_growth = 0,
-		torpedo_growth = 2763,
-		speed = 18,
-		armor = 0,
-		id = 14901105,
-		cannon_growth = 2016,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 7,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 33,
-		durability_growth = 41600,
-		antiaircraft = 35,
-		antiaircraft_growth = 2880,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1100376,
-			1100246,
-			1100471,
 			1100021
 		}
 	}
