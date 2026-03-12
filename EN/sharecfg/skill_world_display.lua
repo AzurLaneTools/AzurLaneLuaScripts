@@ -3098,6 +3098,195 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 			}
 		}
 	},
+	[1019260] = {
+		desc_get = "",
+		id = 1019260,
+		desc = "[Operation Siren]\nIncreases this ship's FP and ACC by $1 and Crit Rate by $2. Each Main Gun reload gives this ship 2 Salvoes that can be fired independently, with each Salvo consisting of 1 Volley (this effect is not affected by the Tolls of War debuff). This ship's DMG bonus with manually aimed Salvoes becomes $4. When the battle starts, and every 15s: $3 chance to fire a powerful special barrage (DMG is based on the skill's level).",
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"25.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"25.0%",
+					"+1.6%"
+				},
+				{
+					"26.6%",
+					"+1.6%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%",
+					"+1.6%"
+				},
+				{
+					"31.6%",
+					"+1.6%"
+				},
+				{
+					"33.2%",
+					"+1.8%"
+				},
+				{
+					"35.0%",
+					"+1.6%"
+				},
+				{
+					"36.6%",
+					"+1.6%"
+				},
+				{
+					"38.2%",
+					"+1.8%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
 	[800790] = {
 		desc_get = "",
 		id = 800790,
@@ -3751,6 +3940,20 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[802141] = {
+		desc_get = "",
+		id = 802141,
+		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802142] = {
+		desc_get = "",
+		id = 802142,
+		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高8%",
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		3631,
 		4161,
@@ -3781,6 +3984,7 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		19980,
 		105010,
 		105020,
+		1019260,
 		800790,
 		800121,
 		800122,
@@ -3836,6 +4040,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		802041,
 		802042,
 		802071,
-		802072
+		802072,
+		802141,
+		802142
 	}
 }

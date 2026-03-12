@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_349 = {
+	[16773105] = {
+		cannon = 36,
+		speed = 16,
+		battle_unit_type = 65,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 86,
+		armor = 0,
+		hit_growth = 280,
+		antisub = 0,
+		fog_fx = "",
+		dodge_growth = 96,
+		antisub_growth = 0,
+		air_growth = 4127,
+		base = 91147,
+		durability = 5780,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck = 0,
+		id = 16773105,
+		scale = 300,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		dodge = 9,
+		reload_growth = 0,
+		hit = 25,
+		torpedo = 0,
+		durability_growth = 58880,
+		antiaircraft = 134,
+		antiaircraft_growth = 5280,
+		appear_fx = {
+			"appearsmall",
+			"nuofukedanchuan_buff_01"
+		},
+		hp_bar = {
+			200,
+			7.5
+		},
+		equipment_list = {
+			3316023,
+			3316033,
+			3194068,
+			3194073,
+			3316218
+		}
+	},
 	[16773201] = {
 		cannon = 150,
 		air = 0,
@@ -1289,43 +1336,6 @@ pg.enemy_data_statistics_349 = {
 			{
 				ID = 50500,
 				LV = 5
-			}
-		}
-	},
-	[16777001] = {
-		cannon = 80,
-		air = 0,
-		torpedo = 0,
-		cannon_growth = 0,
-		id = 16777001,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		hit_growth = 120,
-		reload_growth = 0,
-		dodge_growth = 0,
-		icon = "sairenboss11",
-		speed_growth = 0,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		luck_growth = 0,
-		base = 90535,
-		durability = 99999,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 10,
-		luck = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {},
-		buff_list = {
-			{
-				ID = 201516,
-				LV = 1
 			}
 		}
 	}

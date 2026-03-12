@@ -1322,11 +1322,6 @@ slot0.OnExitChapter = function(slot0, slot1, slot2, slot3)
 					end)
 
 					if #slot8 > 0 then
-						_.each(slot7, function (slot0)
-							slot2, slot3 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(pg.memory_template[slot0].unlock_pre)
-
-							pg.NewStoryMgr.GetInstance():SetPlayedFlag(slot2)
-						end)
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							yesText = "text_go",
 							content = i18n("levelScene_remaster_story_tip", pg.memory_group[slot6].title),

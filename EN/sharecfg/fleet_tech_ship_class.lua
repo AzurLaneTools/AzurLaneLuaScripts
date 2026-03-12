@@ -4144,6 +4144,17 @@ pg.fleet_tech_ship_class = {
 			970209
 		}
 	},
+	[970211] = {
+		shiptype = 2,
+		name = "Regensburg META",
+		t_level = 3,
+		id = 970211,
+		t_level_1 = 20,
+		nation = 97,
+		ships = {
+			970211
+		}
+	},
 	[970301] = {
 		shiptype = 3,
 		name = "Trento META",
@@ -4898,6 +4909,7 @@ pg.fleet_tech_ship_class = {
 		970207,
 		970208,
 		970209,
+		970211,
 		970301,
 		970302,
 		970303,

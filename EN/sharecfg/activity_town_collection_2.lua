@@ -170,10 +170,10 @@ pg.activity_town_collection_2 = {
 	},
 	{
 		id = 15,
-		name = "Spring's Lackadaisical Leisure",
+		name = "Spring's Lackadaisical Leisure ",
 		type = 3,
 		unlock_desc = "Raise the Garden to Lv. 8.",
-		icon = "506013",
+		icon = "206062",
 		luaID = "CHUNMANKEZHAN10",
 		unlock = {
 			6,

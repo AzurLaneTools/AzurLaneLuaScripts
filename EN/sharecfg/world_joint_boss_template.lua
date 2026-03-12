@@ -512,7 +512,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "Nagato META",
 		boss_level_id = 226,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "changmen",
 		meta_id = 970506,
@@ -812,6 +812,64 @@ pg.world_joint_boss_template = {
 			0.65
 		}
 	},
+	{
+		name = "Regensburg META",
+		boss_level_id = 316,
+		item_id = 100000,
+		painting = "leigensibao",
+		meta_id = 970211,
+		id = 22,
+		description = {
+			{
+				"Hunt of the Mighty",
+				2,
+				"When the battle starts, Regensburg META <color=#92fc63>inflicts 1 stack of Hunt of the Mighty</color> against the allied units with the highest <color=#92fc63>FP, TRP, AVI, EVA, and ACC.</color> Hunt of the Mighty is not applied if the stats in question are all 0. If one shipgirl possesses multiple of the highest stats, she gets inflicted with multiple stacks.\nShipgirls marked with Hunt of the Mighty <color=#92fc63>take more DMG from Regensburg META for every stack possessed</color> (1 stack = 10%; at 2 stacks or above, each stack increases the DMG taken by an extra 200%). If the shipgirl with Hunt of the Mighty is in your Main Fleet, she gets inflicted with Burn and takes DMG over time (Burn DMG is not affected by Hunt of the Mighty).\nIf any stacks of Hunt of the Mighty do not get applied, or if a shipgirl marked with Hunt of the Mighty stacks sinks, those stacks get transferred to Regensburg META. For every stack of Hunt of the Mighty Regensburg META possesses, <color=#92fc63>her DMG taken decreases by 20%.</color>"
+			},
+			{
+				"Incremental Victory",
+				1,
+				"When an allied unit <color=#92fc63>sinks or leaves the screen,</color> Regensburg META's FP and TRP increases by 15%."
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-330,
+			470,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			330,
+			470,
+			0.65,
+			0.65
+		}
+	},
 	all = {
 		1,
 		2,
@@ -833,6 +891,7 @@ pg.world_joint_boss_template = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	}
 }

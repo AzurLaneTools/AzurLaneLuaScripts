@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_318 = {
+	[16672203] = {
+		cannon = 60,
+		name = "Skelebeasts",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		antisub = 0,
+		rarity = 2,
+		antiaircraft = 0,
+		fog_fx = "",
+		dodge_growth = 0,
+		icon = "fengfan_haigu_quzhu",
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90535,
+		durability = 10000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 16672203,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201141,
+				LV = 2
+			}
+		}
+	},
 	[16672301] = {
 		cannon = 160,
 		name = "Light of Old - Ship of the Line",
@@ -1313,60 +1353,6 @@ pg.enemy_data_statistics_318 = {
 			3211207,
 			3211208,
 			3211209
-		}
-	},
-	[16678003] = {
-		cannon = 150,
-		air = 0,
-		torpedo = 250,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		hit_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		base = 91002,
-		durability = 30000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 20,
-		luck = 0,
-		id = 16678003,
-		antisub = 0,
-		fog_fx = "",
-		scale = 100,
-		buff_list = {
-			{
-				ID = 150530,
-				LV = 10
-			},
-			{
-				ID = 150540,
-				LV = 10
-			},
-			{
-				ID = 30352,
-				LV = 10
-			},
-			{
-				ID = 150550,
-				LV = 10
-			},
-			{
-				ID = 60450,
-				LV = 10
-			}
 		}
 	}
 }

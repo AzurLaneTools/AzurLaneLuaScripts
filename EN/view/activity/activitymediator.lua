@@ -56,7 +56,6 @@ slot0.ON_BOSSRUSH_MAP = "ActivityMediator.ON_BOSSRUSH_MAP"
 slot0.SKIP_ACTIVITY_MAP = "ActivityMediator.SKIP_ACTIVITY_MAP"
 slot0.OPEN_MINI_PROGRAM = "ActivityMediator.OPEN_MINI_PROGRAM"
 slot0.ON_COLLAB_BOSSRUSH_MAP = "ActivityMediator.ON_COLLAB_BOSSRUSH_MAP"
-slot0.ACTIVITY_OPERATION = "ActivityMediator:event activity op"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_MONOPOLY2024, function (slot0, slot1, slot2)
@@ -177,13 +176,6 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.EVENT_OPERATION, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
-	end)
-	slot0:bind(uv0.ACTIVITY_OPERATION, function (slot0, slot1, slot2, slot3)
-		uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
-			activity_id = slot1,
-			cmd = slot2,
-			arg1 = slot3
-		})
 	end)
 	slot0:bind(uv0.EVENT_GO_SCENE, function (slot0, slot1, slot2)
 		if slot1 == SCENE.SUMMER_FEAST then
@@ -460,13 +452,7 @@ end
 slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[ActivityProxy.ACTIVITY_ADDED] = function (slot0, slot1)
-			if slot1:getBody():getConfig("type") == ActivityConst.ACTIVITY_TYPE_PUZZLA then
-				slot0.viewComponent:updateTaskLayers()
-			elseif slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HOTSPRING_2 then
-				slot0.viewComponent:updateTaskLayers()
-			end
-
-			if slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
+			if slot1:getBody():getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
 				return
 			end
 
@@ -484,12 +470,14 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[ActivityProxy.ACTIVITY_OPERATION_DONE] = function (slot0, slot1)
 			if getProxy(ActivityProxy):getActivityById(slot1:getBody()):getConfig("type") == ActivityConst.ACTIVITY_TYPE_HOTSPRING_2 then
-				slot0.viewComponent:updateTaskLayers()
+				slot0.viewComponent:updateActivity()
 			end
 
 			if ActivityConst.AOERLIANG_TASK_ID == slot2 then
 				return
 			end
+
+			slot0:showNextActivity(getProxy(ActivityProxy):getActivityById(slot2):getConfig("page_core"))
 		end,
 		[ActivityProxy.ACTIVITY_SHOW_AWARDS] = function (slot0, slot1)
 			slot3 = slot1:getBody().awards

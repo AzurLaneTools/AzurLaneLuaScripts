@@ -352,6 +352,11 @@ pg.task_meta_data_template = setmetatable({
 		100523,
 		100524,
 		100525,
+		100531,
+		100532,
+		100533,
+		100534,
+		100535,
 		200001,
 		200002,
 		200003,
@@ -523,7 +528,11 @@ pg.task_meta_data_template = setmetatable({
 		200431,
 		200432,
 		200433,
-		200434
+		200434,
+		200441,
+		200442,
+		200443,
+		200444
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3328,6 +3337,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Gangut META in your fleet."
 	},
+	[100531] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100531,
+		target_num = 1,
+		desc = "Win 1 battle with Gangut META in your fleet."
+	},
+	[100532] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100532,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Regensburg META in your fleet."
+	},
+	[100533] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100533,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Regensburg META in your fleet."
+	},
+	[100534] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100534,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Regensburg META in your fleet."
+	},
+	[100535] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100535,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Regensburg META in your fleet."
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4703,5 +4752,37 @@ pg.base.task_meta_data_template = {
 		id = 200434,
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Gangut META in your fleet."
+	},
+	[200441] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200441,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Regensburg META in your fleet."
+	},
+	[200442] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200442,
+		target_num = 1,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Regensburg META in your fleet."
+	},
+	[200443] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200443,
+		target_num = 1,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Regensburg META in your fleet."
+	},
+	[200444] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200444,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Regensburg META in your fleet."
 	}
 }

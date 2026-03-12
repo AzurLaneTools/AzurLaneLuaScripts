@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_40 = {
+	[803] = {
+		cannon = 0,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90140,
+		durability = 35,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 25,
+		armor = 0,
+		id = 803,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 40,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300104
+		}
+	},
 	[810] = {
 		cannon = 35,
 		name = "Adept Corvette",
@@ -1699,28 +1738,6 @@ pg.enemy_data_statistics_40 = {
 			473001,
 			473002,
 			473003
-		}
-	},
-	[902] = {
-		cannon = 10,
-		speed = 15,
-		air = 0,
-		torpedo = 20,
-		id = 902,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		fog_fx = "",
-		hit = 0,
-		base = 90124,
-		durability = 3000,
-		antiaircraft = 150,
-		battle_unit_type = 2,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			473011,
-			473012
 		}
 	}
 }

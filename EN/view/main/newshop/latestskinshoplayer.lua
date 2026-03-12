@@ -1627,7 +1627,23 @@ slot0.FlushGifgPackBtn = function(slot0, slot1)
 
 		setText(slot7:Find("title"), i18n("skinshop_on_sale_tip_2"))
 		onButton(slot0, slot0.giftPackBtn, function ()
-			uv0:emit(LatestSkinShopMediator.OPEN_GIFT_PACK_LAYER, uv1, uv2, uv3)
+			if not uv0:isChargeType() then
+				return
+			end
+
+			slot0 = uv0:GetSkinProbability()
+			slot1 = getProxy(ShipSkinProxy):GetProbabilitySkins(slot0)
+
+			if #slot0 <= 0 or #slot0 ~= #slot1 then
+				uv1:emit(LatestSkinShopMediator.OPEN_SCENE, {
+					SCENE.CHARGE,
+					{
+						wrap = ChargeScene.TYPE_PICK
+					}
+				})
+			else
+				uv1:emit(LatestSkinShopMediator.OPEN_GIFT_PACK_LAYER, uv0, uv2, uv3)
+			end
 		end, SFX_PANEL)
 	else
 		slot9 = ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE

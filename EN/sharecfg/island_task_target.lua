@@ -4294,21 +4294,13 @@ pg.base.island_task_target = {
 	[301010011] = {
 		tips = "",
 		jump_ui = "",
-		name = "Collect lumber or minerals manually.",
-		type = 6,
+		name = "Gather lumber or minerals.",
+		type = 53,
 		id = 301010011,
 		target_num = 4,
 		target_param = {
-			401001,
-			401002,
-			401004,
-			401005,
-			401006,
-			401007,
-			402001,
-			402002,
-			402003,
-			402004
+			10123,
+			10124
 		}
 	},
 	[302010011] = {

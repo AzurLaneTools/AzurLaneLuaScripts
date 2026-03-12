@@ -1,11 +1,12 @@
 pg = pg or {}
 pg.child_ending = {
 	{
-		id = 1,
 		name = "Busy Fashion Model",
-		group = 1,
 		polaroid_condition = 201,
+		group = 1,
 		pic = "bg_project_tb_cg26",
+		id = 1,
+		pic_preview = "tb_ending1",
 		level = 1,
 		condition = {
 			{
@@ -33,11 +34,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 2,
 		name = "Skilled Painter",
-		group = 2,
 		polaroid_condition = 201,
+		group = 2,
 		pic = "bg_project_tb_cg27",
+		id = 2,
+		pic_preview = "tb_ending2",
 		level = 1,
 		condition = {
 			{
@@ -70,11 +72,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 3,
 		name = "Popular Musician",
-		group = 3,
 		polaroid_condition = 201,
+		group = 3,
 		pic = "bg_project_tb_cg28",
+		id = 3,
+		pic_preview = "tb_ending3",
 		level = 1,
 		condition = {
 			{
@@ -97,11 +100,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 4,
 		name = "Stellar Actor",
-		group = 4,
 		polaroid_condition = 203,
+		group = 4,
 		pic = "bg_project_tb_cg29",
+		id = 4,
+		pic_preview = "tb_ending4",
 		level = 1,
 		condition = {
 			{
@@ -134,11 +138,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 5,
 		name = "Talented Cook",
-		group = 5,
 		polaroid_condition = 203,
+		group = 5,
 		pic = "bg_project_tb_cg30",
+		id = 5,
+		pic_preview = "tb_ending5",
 		level = 1,
 		condition = {
 			{
@@ -166,11 +171,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 6,
 		name = "Up-and-Coming Writer",
-		group = 6,
 		polaroid_condition = 203,
+		group = 6,
 		pic = "bg_project_tb_cg31",
+		id = 6,
+		pic_preview = "tb_ending6",
 		level = 1,
 		condition = {
 			{
@@ -198,11 +204,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 7,
 		name = "Amazing Athlete",
-		group = 7,
 		polaroid_condition = 202,
+		group = 7,
 		pic = "bg_project_tb_cg32",
+		id = 7,
+		pic_preview = "tb_ending7",
 		level = 1,
 		condition = {
 			{
@@ -225,11 +232,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 8,
 		name = "Big Shot Businesswoman",
-		group = 8,
 		polaroid_condition = 202,
+		group = 8,
 		pic = "bg_project_tb_cg33",
+		id = 8,
+		pic_preview = "tb_ending8",
 		level = 1,
 		condition = {
 			{
@@ -257,11 +265,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 9,
 		name = "Lively Farm Owner",
-		group = 9,
 		polaroid_condition = 202,
+		group = 9,
 		pic = "bg_project_tb_cg34",
+		id = 9,
+		pic_preview = "tb_ending9",
 		level = 1,
 		condition = {
 			{
@@ -294,11 +303,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 10,
 		name = "Repetitive Everyday",
-		group = 10,
 		polaroid_condition = 0,
+		group = 10,
 		pic = "bg_project_tb_cg35",
+		id = 10,
+		pic_preview = "tb_ending10",
 		level = 1,
 		condition = {
 			{
@@ -327,11 +337,12 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 11,
 		name = "Shut-In Life",
-		group = 11,
 		polaroid_condition = 0,
+		group = 11,
 		pic = "bg_project_tb_cg36",
+		id = 11,
+		pic_preview = "tb_ending11",
 		level = 1,
 		condition = {},
 		performance = {

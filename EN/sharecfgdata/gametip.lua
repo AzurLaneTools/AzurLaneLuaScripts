@@ -5982,7 +5982,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yorktown META</color> as well as other great rewards.
+From <color=#92fc63>3/12/26 to 6/5/26</color>, challenge Regensburg META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Regensburg META</color> as well as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
 - Acquiring and Analyzing META Coordinates -
@@ -5991,7 +5991,7 @@ From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to 
 · You need <color=#92fc63>100</color> META Coordinates to begin a META Showdown.
 
 - Fighting Your Bosses -
-· Your first time challenging a META boss that you spawned will not require Oil. From the second attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil. (Will not consume a challenge attempt).
+· Your first time challenging a META boss that you spawned will not require Oil. From the second attempt onwards, the cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil. (Will not consume a challenge attempt).
 · When a META Showdown boss reaches 0 HP, they will be defeated. Participants will be able to collect rewards, including a large amount of Sync Points.
 · Each META Showdown will only last for <color=#92fc63>24 hours</color>, after which it will disappear. Use Request Support if you need help.
 · After defeating a META boss, the difficulty of subsequent META Showdowns will increase by 1 level, up to a maximum of 15.
@@ -5999,7 +5999,7 @@ From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to 
 - Fighting Others' Bosses -
 · In the Boss List menu, you can see requests that other Commanders have sent. When fighting another Commander's boss, you will immediately gain Sync Points based upon the <color=#92fc63>amount of DMG</color> you dealt.
 · Each attempt uses 1 Challenge Attempt, but uses no Oil.
-· You can have up to <color=#92fc63>3</color> Challenge attempts, resetting each day at midnight.
+· You can have up to <color=#92fc63>3</color> Challenge Attempts, resetting each day at midnight.
 Each META Showdown can have up to 30 participants.
 
 - Combat Instructions -
@@ -12969,7 +12969,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Moskva guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Sovetsky Soyuz guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
@@ -21373,6 +21373,11 @@ _G.pg.base.gametip.query_role_fail = {
 }
 
 
+_G.pg.base.gametip.query_role_fail_and_retry = {
+	tip = "Failed to fetch data from some servers. Please try again."
+}
+
+
 _G.pg.base.gametip.cumulative_victory_target_tip = {
 	tip = "Total Victories:"
 }
@@ -21850,7 +21855,7 @@ _G.pg.base.gametip.meta_help = {
 			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship's tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you'll be able to recruit a META ship.\n\n"
 		},
 		{
-			info = "From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yorktown META</color> as well as other great rewards.\n\n"
+			info = "From <color=#92fc63>3/12/26 to 6/5/26</color>, challenge Regensburg META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Regensburg META</color> as well as other great rewards.\n\n"
 		},
 		{
 			info = "2. About Rigging Fortification:"
@@ -47294,6 +47299,116 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "Business Missions"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "Accept"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "Claimed"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "Collect Old Coins"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "Springtide Inn Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "Supply Station"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "New Year's Warmth"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "Event Period: 00:00, February 17 - 23:59, March 3"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "Please disable the Random Secretary feature and try again."
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "The leftmost secretary shipgirl in your list will send a message to your mailbox. Continue?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "This shipgirl cannot send you a New Year gift. Please change your Secretary shipgirl and try again."
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "A gift has been sent to your mailbox!"
+}
+
+
 _G.pg.base.gametip.island_gift_tip_title = {
 	tip = "Stamina"
 }
@@ -47485,114 +47600,4 @@ During the Springtide Inn Online event, manage your inn facilities, host guests,
 7. You can complete Business Missions to earn various rewards, including more Old Coins, a portrait frame, event-exclusive furniture, and more.]]
 		}
 	}
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_title = {
-	tip = "Business Missions"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_go = {
-	tip = "Confirm"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_get = {
-	tip = "Accept"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_got = {
-	tip = "Claimed"
-}
-
-
-_G.pg.base.gametip.LiquorFloor_gold_get = {
-	tip = "Collect Old Coins"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
-	tip = "Springtide Inn Online"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
-	tip = "Supply Station"
-}
-
-
-_G.pg.base.gametip.loveactivity_help_tips = {
-	tip = {
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_2"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_3"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_4"
-			}
-		},
-		disableScroll = true,
-		pageMode = true,
-		defaultpage = 1,
-		ImageMode = true,
-		windowSize = {
-			x = 1263,
-			y = 873
-		},
-		windowPos = {
-			y = -70
-		},
-		helpSize = {
-			x = 1176,
-			y = 1024
-		}
-	}
-}
-
-
-_G.pg.base.gametip.spring_present_tips_btn = {
-	tip = "New Year's Warmth"
-}
-
-
-_G.pg.base.gametip.spring_present_tips_time = {
-	tip = "Event Period: 00:00, February 17 - 23:59, March 3"
-}
-
-
-_G.pg.base.gametip.spring_present_tips0 = {
-	tip = "Please disable the Random Secretary feature and try again."
-}
-
-
-_G.pg.base.gametip.spring_present_tips1 = {
-	tip = "The leftmost secretary shipgirl in your list will send a message to your mailbox. Continue?"
-}
-
-
-_G.pg.base.gametip.spring_present_tips2 = {
-	tip = "This shipgirl cannot send you a New Year gift. Please change your Secretary shipgirl and try again."
-}
-
-
-_G.pg.base.gametip.spring_present_tips3 = {
-	tip = "A gift has been sent to your mailbox!"
 }

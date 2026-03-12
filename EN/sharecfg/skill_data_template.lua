@@ -2776,6 +2776,13 @@ pg.skill_data_template = setmetatable({
 		802102,
 		802105,
 		802107,
+		802110,
+		802120,
+		802130,
+		802141,
+		802142,
+		802145,
+		802147,
 		901010,
 		901020,
 		902010,
@@ -2815,6 +2822,7 @@ pg.skill_data_template = setmetatable({
 		902350,
 		902360,
 		902370,
+		902380,
 		1010140,
 		1010270,
 		1010390,
@@ -2920,9 +2928,13 @@ pg.skill_data_template = setmetatable({
 		1011470,
 		1013910,
 		1012570,
+		1013470,
 		1014660,
 		1019160,
 		1014990,
+		1012910,
+		1014140,
+		1019260,
 		1090010,
 		1090020,
 		1090030,
@@ -2962,7 +2974,8 @@ pg.skill_data_template = setmetatable({
 		1090390,
 		1090400,
 		1090420,
-		1090430
+		1090430,
+		1090440
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -185763,6 +185776,460 @@ Additionally, once per battle each, the following effects activate based on the 
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[802110] = {
+		desc_get = "",
+		name = "The Hunt Begins",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and TRP by $1. Every 5s: increases this ship's ACC by $2 (can be stacked up to 5 times). Every 15s: fires a $3 special barrage (DMG is based on the skill's level).",
+		id = 802110,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.0%"
+				},
+				{
+					"16.0%",
+					"+1.0%"
+				},
+				{
+					"17.0%",
+					"+2.0%"
+				},
+				{
+					"19.0%",
+					"+1.0%"
+				},
+				{
+					"20.0%",
+					"+1.0%"
+				},
+				{
+					"21.0%",
+					"+2.0%"
+				},
+				{
+					"23.0%",
+					"+2.0%"
+				},
+				{
+					"25.0%",
+					"+2.0%"
+				},
+				{
+					"27.0%",
+					"+3.0%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[802120] = {
+		desc_get = "",
+		name = "The Hunters Gather",
+		type = 3,
+		max_level = 10,
+		desc = "Every 15s: inflict Gamehunter's Mark on a random enemy for 10s (prioritizes humanoid enemies); that enemy's SPD is decreased by $1 while your Vanguard gains the Gamehunter status. The Gamehunter status lasts for 10s and increases each unit's DMG dealt by $2 against the target with Gamehunter's Mark. While an enemy with Gamehunter's Mark exists: increases this ship's Crit Rate and Crit DMG by $1.",
+		id = 802120,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[802130] = {
+		desc_get = "",
+		name = "The Hunter's Vigilance",
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's EVA by $1. Every instance of DMG this ship takes during battle is tallied; when the tally reaches 10: resets the tally to 0 and deploys a shield (lasting 8s) that can negate up to $2 enemy shells (while the shield is active, DMG sustained with this skill effect is not counted toward the tally). Once per battle, when this ship's HP falls below 30.0% as a result of DMG taken: restores $3 of this ship's max HP.",
+		id = 802130,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"3",
+				"8"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"4"
+				},
+				{
+					"4"
+				},
+				{
+					"5"
+				},
+				{
+					"5"
+				},
+				{
+					"6"
+				},
+				{
+					"6"
+				},
+				{
+					"7"
+				},
+				{
+					"8"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[802141] = {
+		desc_get = "",
+		name = "Cinders of Hope - Regensburg I",
+		type = 1,
+		max_level = 1,
+		desc = "Every 12 times this ship fires her Main Guns: fires a special barrage.",
+		id = 802141,
+		system_transform = {
+			[51.0] = 802145
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802142] = {
+		desc_get = "",
+		name = "Cinders of Hope - Regensburg II",
+		type = 1,
+		max_level = 1,
+		desc = "Every 8 times this ship fires her Main Guns: fires a special barrage.",
+		id = 802142,
+		system_transform = {
+			[51.0] = 802147
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802145] = {
+		desc_get = "",
+		name = "Cinders of Hope - Regensburg I",
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		id = 802145,
+		system_transform = {
+			[51.0] = 802145
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802147] = {
+		desc_get = "",
+		name = "Cinders of Hope - Regensburg II",
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 802147,
+		system_transform = {
+			[51.0] = 802147
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -186302,6 +186769,20 @@ Additionally, once per battle each, the following effects activate based on the 
 		max_level = 1,
 		desc = "During battle, every time this ship sinks an enemy: decreases the reload time of this ship's currently reloading torpedoes by 2s.",
 		id = 902370,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[902380] = {
+		desc_get = "",
+		name = "Anti-Air Focus Training",
+		type = 3,
+		max_level = 1,
+		desc = "Increases this ship's AA by 20.0%.",
+		id = 902380,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -200499,6 +200980,148 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	},
+	[1013470] = {
+		desc_get = "",
+		name = "Supporting Role+",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's FP, TRP, AA, and RLD by $1. If there is another Royal Navy ship in your fleet: increases this ship's DMG dealt by $2. Every 10s: fires a $3 special barrage (DMG is based on the skill's level).",
+		id = 1013470,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[1014660] = {
 		desc_get = "",
 		name = "Strike Orders Received!+",
@@ -200977,6 +201600,452 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 				},
 				{
 					"10.0%"
+				}
+			}
+		}
+	},
+	[1012910] = {
+		desc_get = "",
+		name = "Destroyer Division 6: Hibiki+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP, TRP, and RLD by $1. When sortied with Akatsuki, Ikazuchi, or Inazuma: increases this ship's FP, TRP, and RLD by $1 (does not stack with Destroyer Division 6 skills). The healing effect of the skill Phoenix's Plumage can now activate up to 2 times per battle, and starting from its 2nd activation, there is a 6.0% chance to increase Phoenix's Plumage's activation limit by 1.",
+		id = 1012910,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[1014140] = {
+		desc_get = "",
+		name = "Scalawaggish Little Snowball+",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship is attacked: $1 chance to fire a $2 special barrage that slows enemies hit (DMG is based on the skill's level; 10s cooldown between activations) and increase this ship's FP and TRP by $3 until the battle ends (can be stacked up to 3 times); enemies hit by this barrage take $4 increased DMG from Stremitelny for 6s (does not stack).",
+		id = 1014140,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[1019260] = {
+		desc_get = "",
+		name = "Precision Salvo Protocol+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1 and Crit Rate by $2. Each Main Gun reload gives this ship 2 Salvoes that can be fired independently, with each Salvo consisting of 1 Volley. This ship's DMG bonus with manually aimed Salvoes becomes $4. When the battle starts, and every 15s: $3 chance to fire a powerful special barrage (DMG is based on the skill's level).",
+		id = 1019260,
+		system_transform = {
+			[3.0] = 1019261
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"25.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"25.0%",
+					"+1.6%"
+				},
+				{
+					"26.6%",
+					"+1.6%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%",
+					"+1.6%"
+				},
+				{
+					"31.6%",
+					"+1.6%"
+				},
+				{
+					"33.2%",
+					"+1.8%"
+				},
+				{
+					"35.0%",
+					"+1.6%"
+				},
+				{
+					"36.6%",
+					"+1.6%"
+				},
+				{
+					"38.2%",
+					"+1.8%"
+				},
+				{
+					"40.0%"
 				}
 			}
 		}
@@ -206104,6 +207173,193 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 				},
 				{
 					"80%"
+				}
+			}
+		}
+	},
+	[1090440] = {
+		desc_get = "",
+		name = "Piercing Shells - Z19",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's Crit Rate by $1 and DMG dealt with AP shells by $2. Every 15s: fires a $3 special barrage (DMG is based on the skill's level). Once per battle, when this ship's HP falls below 20.0% as a result of DMG taken: restores $4 of this ship's max HP.",
+		id = 1090440,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1%",
+				"10%"
+			},
+			{
+				"15.0%",
+				"35.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"15%",
+				"25%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
 				}
 			}
 		}

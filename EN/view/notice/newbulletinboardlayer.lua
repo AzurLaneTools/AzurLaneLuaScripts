@@ -335,9 +335,8 @@ slot0.setNoticeDetail = function(slot0, slot1)
 		setText(slot0._detailTimeTxt, slot1.timeDes)
 
 		slot0._detailTitleImgLayoutElement.preferredHeight = uv0.TITLE_IMAGE_HEIGHT_DEFAULT
-		slot9 = slot0._detailTitleImg
 
-		slot0:setImage(slot1.id, slot1.version, slot1.titleImage, slot9)
+		slot0:setImage(slot1.id, slot1.version, slot1.titleImage, slot0._detailTitleImg)
 		removeOnButton(slot0._detailTitleImg)
 
 		slot4 = function(slot0)
@@ -352,42 +351,47 @@ slot0.setNoticeDetail = function(slot0, slot1)
 			return string.sub(slot0, (slot3 or 0) + 1, (string.find(slot0, "\n[ ]*$") or slot1 + 1) - 1)
 		end
 
+		slot5 = function(slot0)
+			_.each(string.split(slot0, "<segment/>"), function (slot0)
+				if #uv0(slot0) > 0 then
+					table.insert(uv1._contentInfo, {
+						type = uv2.CONTENT_TYPE.RICHTEXT,
+						text = slot1
+					})
+				end
+			end)
+		end
+
 		slot0._contentInfo = {}
-		slot5 = 1
+		slot6 = 1
 
-		for slot9 in string.gmatch(slot1.content, "<banner>%S-</banner>") do
-			slot10, slot11 = string.find(slot9, "<banner>")
-			slot12, slot13 = string.find(slot9, "</banner>")
-			slot14 = string.sub(slot9, slot11 + 1, slot12 - 1)
-			slot15, slot16 = string.find(slot1.content, slot9, slot5, true)
+		for slot10 in string.gmatch(slot1.content, "<banner>%S-</banner>") do
+			slot11, slot12 = string.find(slot10, "<banner>")
+			slot13, slot14 = string.find(slot10, "</banner>")
+			slot15 = string.sub(slot10, slot12 + 1, slot13 - 1)
+			slot16, slot17 = string.find(slot1.content, slot10, slot6, true)
 
-			if slot15 ~= nil and #slot4(string.sub(slot1.content, slot5, slot15 - 1)) > 0 then
-				table.insert(slot0._contentInfo, {
-					type = uv0.CONTENT_TYPE.RICHTEXT,
-					text = slot17
-				})
+			if slot16 ~= nil and #slot4(string.sub(slot1.content, slot6, slot16 - 1)) > 0 then
+				slot5(slot18)
 			end
 
 			table.insert(slot0._contentInfo, {
 				type = uv0.CONTENT_TYPE.BANNER,
-				text = slot14
+				text = slot15
 			})
 
-			slot5 = slot16 + 1
+			slot6 = slot17 + 1
 		end
 
-		if slot5 < #slot1.content then
-			table.insert(slot0._contentInfo, {
-				type = uv0.CONTENT_TYPE.RICHTEXT,
-				text = slot4(string.sub(slot1.content, slot5, #slot1.content))
-			})
+		if slot6 < #slot1.content then
+			slot5(string.sub(slot1.content, slot6, #slot1.content))
 		end
 
-		for slot9, slot10 in pairs(slot0._contentInfo) do
-			if slot10.type == uv0.CONTENT_TYPE.RICHTEXT then
-				slot3(slot10.text)
-			elseif slot10.type == uv0.CONTENT_TYPE.BANNER then
-				slot2(slot10.text)
+		for slot10, slot11 in pairs(slot0._contentInfo) do
+			if slot11.type == uv0.CONTENT_TYPE.RICHTEXT then
+				slot3(slot11.text)
+			elseif slot11.type == uv0.CONTENT_TYPE.BANNER then
+				slot2(slot11.text)
 			end
 		end
 

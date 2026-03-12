@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_339 = {
+	[16739107] = {
+		cannon = 150,
+		name = "Abandoned Tester Model?",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 16739107,
+		air = 0,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		fog_fx = "",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90693,
+		durability = 50000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		scale = 120,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 40,
+		torpedo = 150,
+		durability_growth = 0,
+		antiaircraft = 150,
+		battle_unit_type = 95,
+		specific_fx_scale = {
+			heisewuqi_stg = 1.5
+		},
+		appear_fx = {
+			"heisewuqi_stg",
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
 	[16739108] = {
 		name = "Abandoned Tester Model?",
 		luck_growth = 0,
@@ -1303,45 +1351,6 @@ pg.enemy_data_statistics_339 = {
 			3289042,
 			3289047,
 			3289052
-		}
-	},
-	[16742005] = {
-		cannon = 0,
-		air = 48,
-		torpedo = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 2000,
-		battle_unit_type = 65,
-		base = 91107,
-		durability = 4420,
-		armor_growth = 0,
-		durability_growth = 65600,
-		antiaircraft = 115,
-		speed = 15,
-		luck = 0,
-		antiaircraft_growth = 1800,
-		antisub = 0,
-		id = 16742005,
-		scale = 205,
-		fog_fx = "",
-		specific_fx_scale = {},
-		equipment_list = {
-			3289057,
-			3289062,
-			3289067,
-			3289072
 		}
 	}
 }

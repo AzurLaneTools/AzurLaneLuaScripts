@@ -1,6 +1,123 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
+	[10100080] = {
+		name = "Green Heart",
+		change_skin = "",
+		desc = "I am the CPU of Leanbox, Green Heart. No matter who the enemy is, I will not hold back. Are you ready?",
+		illustrator2 = -1,
+		ship_group = 1010008,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "HDN402_1",
+		lover_hand = "hand_1_02",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 10100080,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "HDN402_1",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 65,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "nepgreen",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					1.08,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.8,
+					0.99,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100081] = {
 		name = "Goddesses' Moment",
 		change_skin = "",
@@ -16442,170 +16559,6 @@ pg.base.ship_skin_template_19 = {
 							0
 						}
 					}
-				}
-			}
-		}
-	},
-	[11400021] = {
-		name = "Night at the Pub",
-		change_skin = "",
-		desc = "W-welcome... Don't stare at me, please. This pub's uniforms are a little revealing, so I'm nervous. I-if you insist, though, I can make time to chat after closing time.",
-		illustrator2 = -1,
-		ship_group = 1140002,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "liuliang_2",
-		lover_hand = "hand_2_02",
-		skin_type = 0,
-		shop_type_id = 17,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "163",
-		bgm = "danmachi-az-story",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		special_effects = "",
-		id = 11400021,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "liuliang_2",
-		l2d_se = "",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 71225,
-		voice_actor = 284,
-		shop_dynamic_hx = 0,
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		shop_offset = {
-			-139.3,
-			-627.4,
-			0,
-			0.38
-		},
-		spine_offset_profile = {
-			-65.2,
-			-614.4,
-			0,
-			0.37
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.808,
-					0.87,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.897,
-					2.299,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.681,
-							2.382,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			-28.1,
-			-748.74,
-			0,
-			0.43
-		},
-		get_showing = {
-			show = 1,
-			data = {
-				{
-					-1376,
-					533.75,
-					2,
-					120,
-					0,
-					2
-				},
-				{
-					858,
-					56,
-					2,
-					0,
-					-120,
-					2
-				},
-				{
-					-467,
-					-395,
-					2,
-					-100,
-					0,
-					2
 				}
 			}
 		}

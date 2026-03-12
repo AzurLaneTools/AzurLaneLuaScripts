@@ -40,7 +40,8 @@ pg.dorm3d_shop_template = setmetatable({
 		36,
 		37,
 		38,
-		39
+		39,
+		40
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -840,7 +841,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1154,
 		id = 37,
 		realroom_id = 0,
-		order = "3",
+		order = "5",
 		panel = {
 			1,
 			2,
@@ -863,7 +864,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1223,
 		id = 38,
 		realroom_id = 0,
-		order = "3",
+		order = "5",
 		panel = {
 			1,
 			2,
@@ -886,7 +887,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 324,
 		id = 39,
 		realroom_id = 0,
-		order = "2",
+		order = "5",
 		panel = {
 			1,
 			2,
@@ -898,6 +899,29 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_furniture324"
+		}
+	},
+	{
+		rarity = 4,
+		name = "Quiet Contemplation",
+		type = 1,
+		room_id = 49905,
+		unlock = "",
+		item_id = 1462,
+		id = 40,
+		realroom_id = 0,
+		order = "2",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270602
+		},
+		banners = {
+			"banner_furniture1462"
 		}
 	}
 }

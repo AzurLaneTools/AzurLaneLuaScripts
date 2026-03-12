@@ -3453,6 +3453,15 @@ pg.skill_data_display = setmetatable({
 		802072,
 		802075,
 		802077,
+		802111,
+		802112,
+		802121,
+		802131,
+		802132,
+		802141,
+		802142,
+		802145,
+		802147,
 		902201,
 		1010140,
 		1010143,
@@ -3863,12 +3872,25 @@ pg.skill_data_display = setmetatable({
 		1012581,
 		1012582,
 		1019160,
+		1013471,
+		1013473,
+		1013474,
+		1013476,
+		1013477,
 		1014990,
 		1014991,
 		1014992,
 		1014993,
 		1014995,
 		1014996,
+		1012912,
+		1012913,
+		1012914,
+		1012915,
+		1014140,
+		1019261,
+		1019262,
+		1019263,
 		1090020,
 		1090042,
 		1090043,
@@ -3944,7 +3966,9 @@ pg.skill_data_display = setmetatable({
 		1090420,
 		1090421,
 		1090422,
-		1090432
+		1090432,
+		1090441,
+		1090442
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17753,6 +17777,42 @@ pg.base.skill_data_display = {
 		id = 802077,
 		name = "Cinders of Hope - Carabiniere II"
 	},
+	[802111] = {
+		id = 802111,
+		name = "The Hunt Begins"
+	},
+	[802112] = {
+		id = 802112,
+		name = "The Hunt Begins"
+	},
+	[802121] = {
+		id = 802121,
+		name = "The Hunters Gather"
+	},
+	[802131] = {
+		id = 802131,
+		name = "The Hunter's Vigilance"
+	},
+	[802132] = {
+		id = 802132,
+		name = "The Hunter's Vigilance"
+	},
+	[802141] = {
+		id = 802141,
+		name = "Cinders of Hope - Regensburg I"
+	},
+	[802142] = {
+		id = 802142,
+		name = "Cinders of Hope - Regensburg II"
+	},
+	[802145] = {
+		id = 802145,
+		name = "Cinders of Hope - Regensburg I"
+	},
+	[802147] = {
+		id = 802147,
+		name = "Cinders of Hope - Regensburg II"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -19393,6 +19453,26 @@ pg.base.skill_data_display = {
 		id = 1019160,
 		name = "Heavy Barrel Blaster +"
 	},
+	[1013471] = {
+		id = 1013471,
+		name = "Supporting Role+"
+	},
+	[1013473] = {
+		id = 1013473,
+		name = "Star Expecto Patronum"
+	},
+	[1013474] = {
+		id = 1013474,
+		name = "Blade Sectumsempra"
+	},
+	[1013476] = {
+		id = 1013476,
+		name = "Plume Leviosa"
+	},
+	[1013477] = {
+		id = 1013477,
+		name = "Redbell Flames"
+	},
 	[1014990] = {
 		id = 1014990,
 		name = "Scorching Combo+"
@@ -19416,6 +19496,38 @@ pg.base.skill_data_display = {
 	[1014996] = {
 		id = 1014996,
 		name = "Scorching Combo+"
+	},
+	[1012912] = {
+		id = 1012912,
+		name = "Phoenix's Plumage!"
+	},
+	[1012913] = {
+		id = 1012913,
+		name = "Undying Demon"
+	},
+	[1012914] = {
+		id = 1012914,
+		name = "Phoenix's Plumage!"
+	},
+	[1012915] = {
+		id = 1012915,
+		name = "Undying Demon"
+	},
+	[1014140] = {
+		id = 1014140,
+		name = "Scalawaggish Little Snowball+"
+	},
+	[1019261] = {
+		id = 1019261,
+		name = "Precision Salvo Protocol+"
+	},
+	[1019262] = {
+		id = 1019262,
+		name = "Precision Salvo Protocol+"
+	},
+	[1019263] = {
+		id = 1019263,
+		name = "Precision Salvo Protocol+"
 	},
 	[1090020] = {
 		id = 1090020,
@@ -19720,5 +19832,13 @@ pg.base.skill_data_display = {
 	[1090432] = {
 		id = 1090432,
 		name = "Draw Fire - Myoukou"
+	},
+	[1090441] = {
+		id = 1090441,
+		name = "Piercing Shells – Z19"
+	},
+	[1090442] = {
+		id = 1090442,
+		name = "Piercing Shells – Z19"
 	}
 }
