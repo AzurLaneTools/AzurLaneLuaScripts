@@ -350,7 +350,7 @@ slot0.UpdateState = function(slot0, slot1, slot2)
 end
 
 slot0.GetState = function(slot0)
-	if slot0.recorverTime < pg.TimeMgr.GetInstance():GetServerTime() then
+	if slot0.recorverTime <= pg.TimeMgr.GetInstance():GetServerTime() then
 		return uv0.STATE_NORMAL
 	end
 
@@ -375,6 +375,10 @@ slot0.GetStatePlaceName = function(slot0)
 	}, function ()
 		return ""
 	end)
+end
+
+slot0.IsDelegable = function(slot0)
+	return slot0:GetState() == uv0.STATE_NORMAL and not getProxy(IslandProxy):GetIsland():GetFollowerAgency():Following(slot0.id)
 end
 
 slot0.GetBreakLevel = function(slot0)

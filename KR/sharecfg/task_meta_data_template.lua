@@ -347,6 +347,11 @@ pg.task_meta_data_template = setmetatable({
 		100513,
 		100514,
 		100515,
+		100521,
+		100522,
+		100523,
+		100524,
+		100525,
 		200001,
 		200002,
 		200003,
@@ -514,7 +519,11 @@ pg.task_meta_data_template = setmetatable({
 		200421,
 		200422,
 		200423,
-		200424
+		200424,
+		200431,
+		200432,
+		200433,
+		200434
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3279,6 +3288,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "카라비니에레·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100521] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100521,
+		target_num = 1,
+		desc = "강구트·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100522] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100522,
+		target_num = 1,
+		desc = "강구트·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100523] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100523,
+		target_num = 1,
+		desc = "강구트·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100524] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100524,
+		target_num = 1,
+		desc = "강구트·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100525] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970510",
+		id = 100525,
+		target_num = 1,
+		desc = "강구트·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4622,5 +4671,37 @@ pg.base.task_meta_data_template = {
 		id = 200424,
 		target_num = 1,
 		desc = "대형작전에서 카라비니에레·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200431] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200431,
+		target_num = 1,
+		desc = "대형작전에서 강구트·META를 포함한 함대로 1회 승리"
+	},
+	[200432] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200432,
+		target_num = 1,
+		desc = "대형작전에서 강구트·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200433] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200433,
+		target_num = 1,
+		desc = "대형작전에서 강구트·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200434] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970510",
+		id = 200434,
+		target_num = 1,
+		desc = "대형작전에서 강구트·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

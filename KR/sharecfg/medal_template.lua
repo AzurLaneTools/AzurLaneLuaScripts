@@ -2720,6 +2720,27 @@ pg.medal_template = {
 		explain1 = "「신춘 주옥 명품회」",
 		explain2 = "이벤트"
 	},
+	[200141] = {
+		target_id = "50441",
+		name = "봄빛 여관 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "금빛 잔이 넘실거리며, 봄바람에 취하네. 재물을 부르고 복을 가져오리니, 모든 일이 뜻대로 이루어지기를. ——\n오늘은 여관을 당신에게 맡길게. 이 활기와 즐거움, 마음껏 맛보도록 해.",
+		next = 0,
+		icon = "9141",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9141",
+		condition = "「봄빛 여관 Online」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200141,
+		explain1 = "「봄빛 여관 Online」",
+		explain2 = "이벤트"
+	},
 	all = {
 		10011,
 		10012,
@@ -2844,6 +2865,7 @@ pg.medal_template = {
 		200101,
 		200111,
 		200121,
-		200131
+		200131,
+		200141
 	}
 }

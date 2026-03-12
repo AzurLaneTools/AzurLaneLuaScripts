@@ -841,3 +841,7 @@ end
 slot11.SetImmuneCLS = function(slot0, slot1)
 	slot0._immuneCLS = slot1
 end
+
+slot11.IsSpectreBullet = function(slot0)
+	return slot0:GetTemplate().extra_param.spectre
+end

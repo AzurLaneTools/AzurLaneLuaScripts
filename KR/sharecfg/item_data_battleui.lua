@@ -280,6 +280,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[207] = {
+		name = "봄빛 여관",
+		key = "SkinElite_20260226",
+		display_icon = "ui_207",
+		unlock = "상점 구매 (전투 UI·봄빛 여관)",
+		is_unlock = 1,
+		rare = 4,
+		desc = "여관의 활기와 온기, 불꽃놀이와 초롱불, 폭죽 소리에 휩싸여 평소와는 다른 새해맞이 대결을 즐겨보자. ",
+		id = 207,
+		icon = "207",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -298,6 +315,7 @@ pg.item_data_battleui = {
 		203,
 		204,
 		205,
-		206
+		206,
+		207
 	}
 }

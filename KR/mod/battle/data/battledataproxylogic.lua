@@ -56,7 +56,7 @@ slot0.HandleBulletHit = function(slot0, slot1, slot2)
 		bulletTag = slot1:GetExtraTag()
 	})
 
-	if slot2:GetUnitType() == uv1.UnitType.PLAYER_UNIT and slot2:GetIFF() == uv2.FRIENDLY_CODE then
+	if slot2:GetUnitType() == uv1.UnitType.PLAYER_UNIT and slot2:GetIFF() == uv2.FRIENDLY_CODE and not slot1:IsSpectreBullet() then
 		ys.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[uv1.ShakeType.HIT])
 	end
 
@@ -81,57 +81,68 @@ slot0.HandleDamage = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot11, slot12, slot13 = slot0._calculateDamage(slot1, slot2, slot3, slot4)
+	slot14 = slot12.isMiss
+	slot15 = slot12.isCri
+	slot16 = slot12.damageAttr
 
 	slot1:AppendDamageUnit(slot2:GetUniqueID())
 
-	slot19 = {
+	slot17 = slot9.type
+	slot18 = slot6:GetEquipmentIndex()
+
+	if slot1:IsSpectreBullet() then
+		slot11 = 0
+	end
+
+	slot20 = {
 		target = slot2,
 		damage = slot11,
-		weaponType = slot9.type,
-		equipIndex = slot6:GetEquipmentIndex(),
+		weaponType = slot17,
+		equipIndex = slot18,
 		bulletTag = slot8
 	}
 
 	slot1:GetWeapon():WeaponStatistics(slot11, slot15, slot14)
 	slot0:DamageStatistics(slot7.id, slot2:GetAttrByName("id"), -slot2:UpdateHP(slot11 * -1, {
 		isHeal = false,
-		isMiss = slot12.isMiss,
-		isCri = slot12.isCri,
-		attr = slot12.damageAttr,
+		isMiss = slot14,
+		isCri = slot15,
+		attr = slot16,
 		font = slot13,
 		cldPos = slot1:GetPosition(),
-		srcID = slot7.hostUID or slot7.battleUID
+		srcID = slot7.hostUID or slot7.battleUID,
+		spectreBullet = slot19
 	}))
 
 	if not slot14 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then
-		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot19)
+		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot20)
 
-		if slot1:GetHost() and slot23:IsAlive() and slot23:GetUnitType() ~= ys.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
-			if table.contains(uv2.AircraftUnitType, slot23:GetUnitType()) then
-				slot23 = slot23:GetMotherUnit()
+		if slot1:GetHost() and slot24:IsAlive() and slot24:GetUnitType() ~= ys.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
+			if table.contains(uv2.AircraftUnitType, slot24:GetUnitType()) then
+				slot24 = slot24:GetMotherUnit()
 			end
 
-			slot24 = slot23:GetIFF()
+			slot25 = slot24:GetIFF()
 
-			for slot28, slot29 in pairs(slot0._unitList) do
-				if slot29:GetIFF() == slot24 and slot29 ~= slot23 then
-					slot29:TriggerBuff(ys.Battle.BattleConst.BuffEffectType.ON_TEAMMATE_BULLET_HIT, slot19)
+			for slot29, slot30 in pairs(slot0._unitList) do
+				if slot30:GetIFF() == slot25 and slot30 ~= slot24 then
+					slot30:TriggerBuff(ys.Battle.BattleConst.BuffEffectType.ON_TEAMMATE_BULLET_HIT, slot20)
 				end
 			end
 		end
 	end
 
-	slot24 = true
+	slot25 = true
 
-	if slot2:GetUnitType() ~= uv2.UnitType.AIRCRAFT_UNIT and slot23 ~= uv2.UnitType.AIRFIGHTER_UNIT and slot23 ~= uv2.UnitType.FUNNEL_UNIT and slot23 ~= uv2.UnitType.UAV_UNIT then
-		slot24 = false
+	if slot2:GetUnitType() ~= uv2.UnitType.AIRCRAFT_UNIT and slot24 ~= uv2.UnitType.AIRFIGHTER_UNIT and slot24 ~= uv2.UnitType.FUNNEL_UNIT and slot24 ~= uv2.UnitType.UAV_UNIT then
+		slot25 = false
 	end
 
 	if slot2:IsAlive() then
-		if not slot24 then
-			for slot28, slot29 in ipairs(slot1:GetAttachBuff()) do
-				if slot29.hit_ignore or not slot14 then
-					uv4.HandleBuffPlacer(slot29, slot1, slot2)
+		if not slot25 then
+			for slot29, slot30 in ipairs(slot1:GetAttachBuff()) do
+				if slot30.hit_ignore or not slot14 then
+					uv4.HandleBuffPlacer(slot30, slot1, slot2)
 				end
 			end
 		end
@@ -144,7 +155,7 @@ slot0.HandleDamage = function(slot0, slot1, slot2, slot3, slot4)
 			unit = slot2,
 			killer = slot1
 		})
-		slot0:obituary(slot2, slot24, slot1)
+		slot0:obituary(slot2, slot25, slot1)
 		slot0:KillCountStatistics(slot7.id, slot2:GetAttrByName("id"))
 	end
 

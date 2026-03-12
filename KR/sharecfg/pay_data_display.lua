@@ -100,6 +100,8 @@ pg.pay_data_display = setmetatable({
 		9010,
 		9011,
 		9012,
+		9013,
+		9014,
 		1000,
 		1001,
 		1002,
@@ -189,6 +191,9 @@ pg.pay_data_display = setmetatable({
 		2068,
 		2069,
 		2070,
+		2074,
+		2075,
+		2076,
 		5011,
 		5012,
 		5013,
@@ -12129,6 +12134,274 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9013] = {
+		picture = "fudai33",
+		name = "2026 춘절 복주머니·II",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "함선 스킨 1개, 「다이아」×2026 등의 아이템을 획득할 수 있습니다.",
+		subject = "2026 춘절 복주머니·II",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift174",
+		extra_gem = 0,
+		id = 9013,
+		airijp_id = "com.yostarjp.azurlane.diamond195",
+		name_display = "2026 춘절 복주머니·II",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86225,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86225,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81233,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86225,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9014] = {
+		picture = "fudai22",
+		name = "2025 춘절 복주머니·II 복각",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "함선 스킨 1개, 「다이아」×2025 등의 아이템을 획득할 수 있습니다.",
+		subject = "2025 춘절 복주머니·II 복각",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift175",
+		extra_gem = 0,
+		id = 9014,
+		airijp_id = "com.yostarjp.azurlane.diamond196",
+		name_display = "2025 춘절 복주머니·II 복각",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86211,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81211,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
 	[1000] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스",
@@ -19795,6 +20068,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40075,
+				1
+			}
+		}
+	},
+	[2074] = {
+		picture = "ui8",
+		name = "전투 UI·봄빛 여관",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·봄빛 여관을 획득할 수 있습니다.",
+		subject = "전투 UI·봄빛 여관",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 15000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 108,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift176",
+		extra_gem = 0,
+		id = 2074,
+		airijp_id = "com.yostarjp.azurlane.ui21",
+		name_display = "전투 UI·봄빛 여관",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2075] = {
+		picture = "ui8",
+		name = "전투 UI·봄빛 여관 (기초)",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·봄빛 여관을 획득할 수 있습니다.",
+		subject = "전투 UI·봄빛 여관 (기초)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 15000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 108,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift176",
+		extra_gem = 0,
+		id = 2075,
+		airijp_id = "com.yostarjp.azurlane.ui22",
+		name_display = "전투 UI·봄빛 여관 (기초)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40077,
+				1
+			}
+		}
+	},
+	[2076] = {
+		picture = "ui8",
+		name = "전투 UI·봄빛 여관 (럭셔리)",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·봄빛 여관, 다이아×3060을 획득할 수 있습니다.",
+		subject = "전투 UI·봄빛 여관 (럭셔리)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 52000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 108,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift177",
+		extra_gem = 0,
+		id = 2076,
+		airijp_id = "com.yostarjp.azurlane.ui23",
+		name_display = "전투 UI·봄빛 여관 (럭셔리)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40078,
 				1
 			}
 		}

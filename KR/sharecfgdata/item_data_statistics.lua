@@ -16311,6 +16311,37 @@ _G.pg.base.item_data_statistics[21056] = {
 }
 
 
+_G.pg.base.item_data_statistics[21057] = {
+	open_directly = 0,
+	name = "결정: 강구트·META",
+	type = 4,
+	display = "강구트·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21057",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -28919,6 +28950,131 @@ _G.pg.base.item_data_statistics[30380] = {
 		{
 			9,
 			4311,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30381] = {
+	open_directly = 1,
+	name = "장비 스킨 상자 (봄빛 여관)",
+	type = 11,
+	display = "무작위로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunmankezhan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30378",
+	id = 30381,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4312,
+			1
+		},
+		{
+			9,
+			4313,
+			1
+		},
+		{
+			9,
+			4314,
+			1
+		},
+		{
+			9,
+			4315,
+			1
+		},
+		{
+			9,
+			4316,
+			1
+		},
+		{
+			9,
+			4317,
+			1
+		},
+		{
+			9,
+			4318,
+			1
+		},
+		{
+			9,
+			4319,
+			1
+		},
+		{
+			9,
+			4320,
+			1
+		},
+		{
+			9,
+			4321,
+			1
+		},
+		{
+			9,
+			4322,
+			1
+		},
+		{
+			9,
+			4323,
+			1
+		},
+		{
+			9,
+			4324,
+			1
+		},
+		{
+			9,
+			4325,
+			1
+		},
+		{
+			9,
+			4326,
+			1
+		},
+		{
+			9,
+			4327,
+			1
+		},
+		{
+			9,
+			4328,
+			1
+		},
+		{
+			9,
+			4329,
 			1
 		}
 	},
@@ -44058,6 +44214,219 @@ _G.pg.base.item_data_statistics[30564] = {
 }
 
 
+_G.pg.base.item_data_statistics[30565] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자 (봄빛 여관)",
+	type = 13,
+	display = "사용하면 장비 스킨(봄빛 여관) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunmankezhanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30565,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4312,
+			1
+		},
+		{
+			9,
+			4313,
+			1
+		},
+		{
+			9,
+			4314,
+			1
+		},
+		{
+			9,
+			4315,
+			1
+		},
+		{
+			9,
+			4316,
+			1
+		},
+		{
+			9,
+			4317,
+			1
+		},
+		{
+			9,
+			4318,
+			1
+		},
+		{
+			9,
+			4319,
+			1
+		},
+		{
+			9,
+			4320,
+			1
+		},
+		{
+			9,
+			4321,
+			1
+		},
+		{
+			9,
+			4322,
+			1
+		},
+		{
+			9,
+			4323,
+			1
+		},
+		{
+			9,
+			4324,
+			1
+		},
+		{
+			9,
+			4325,
+			1
+		},
+		{
+			9,
+			4326,
+			1
+		},
+		{
+			9,
+			4327,
+			1
+		},
+		{
+			9,
+			4328,
+			1
+		},
+		{
+			9,
+			4329,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4312,
+			1
+		},
+		{
+			9,
+			4313,
+			1
+		},
+		{
+			9,
+			4314,
+			1
+		},
+		{
+			9,
+			4315,
+			1
+		},
+		{
+			9,
+			4316,
+			1
+		},
+		{
+			9,
+			4317,
+			1
+		},
+		{
+			9,
+			4318,
+			1
+		},
+		{
+			9,
+			4319,
+			1
+		},
+		{
+			9,
+			4320,
+			1
+		},
+		{
+			9,
+			4321,
+			1
+		},
+		{
+			9,
+			4322,
+			1
+		},
+		{
+			9,
+			4323,
+			1
+		},
+		{
+			9,
+			4324,
+			1
+		},
+		{
+			9,
+			4325,
+			1
+		},
+		{
+			9,
+			4326,
+			1
+		},
+		{
+			9,
+			4327,
+			1
+		},
+		{
+			9,
+			4328,
+			1
+		},
+		{
+			9,
+			4329,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "지향형 부속T4",
@@ -47991,6 +48360,90 @@ _G.pg.base.item_data_statistics[40075] = {
 		{
 			31,
 			206,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40077] = {
+	open_directly = 1,
+	name = "전투 UI·봄빛 여관 (기초)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·봄빛 여관, 물자×1000 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui8",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4077",
+	id = 40077,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			207,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40078] = {
+	open_directly = 1,
+	name = "전투 UI·봄빛 여관 (럭셔리)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·봄빛 여관, 다이아×3060 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui8",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4078",
+	id = 40078,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			207,
 			1
 		},
 		{
@@ -90376,9 +90829,9 @@ _G.pg.base.item_data_statistics[44003] = {
 
 _G.pg.base.item_data_statistics[44004] = {
 	open_directly = 0,
-	name = "새봄의 마음",
+	name = "새해의 소망",
 	type = 23,
-	display = "$1의 마음이 담긴 신춘 선물. 새로운 한 해도 지휘관과 함께. 그리고 앞으로도 쭉 함께할 수 있기를.",
+	display = "$1의 새해 선물. 새로운 해도 지휘관과 같이 보낼 수 있기를. 그리고 앞으로도 늘 함께 할 수 있기를.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -107392,6 +107845,73 @@ _G.pg.base.item_data_statistics[81232] = {
 		{
 			2,
 			86224,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81233] = {
+	open_directly = 1,
+	name = "2026 춘절 복주머니·II",
+	type = 17,
+	display = "랜덤(2026 춘절 복주머니·II의) 스킨, 상급 지향형 강화 유닛·8기×2, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai33",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998329",
+	id = 81233,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86225,
 			1
 		},
 		{

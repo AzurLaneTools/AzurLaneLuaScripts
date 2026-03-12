@@ -92,6 +92,7 @@ slot0.DRAW_AWARD_OPERATION = "IslandMediator.DRAW_AWARD_OPERATION"
 slot0.REFRESH_SHIP_ORDER = "IslandMediator:REFRESH_SHIP_ORDER"
 slot0.EXCHANGE_SHIP_ORDER = "IslandMediator:EXCHANGE_SHIP_ORDER"
 slot0.RESET_SHIP_ORDER = "IslandMediator:RESET_SHIP_ORDER"
+slot0.GET_AUTO_COLLECTION_DATA = "IslandMediator:GET_AUTO_COLLECTION_DATA"
 
 slot0._register = function(slot0)
 	slot0:bind(uv0.RESET_SHIP_ORDER, function (slot0)
@@ -625,6 +626,11 @@ slot0._register = function(slot0)
 			count = slot2
 		})
 	end)
+	slot0:bind(uv0.GET_AUTO_COLLECTION_DATA, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_GET_AUTO_COLLECTION_DATA, {
+			type = slot1
+		})
+	end)
 end
 
 slot0._listNotificationInterests = function(slot0)
@@ -701,6 +707,8 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_SEND_COMMANDER_DRESS_READ_DONE,
 		GAME.ISLAND_BUY_ROLE_SKIN_COLOR_DONE,
 		GAME.ISLAND_BUY_ROLE_DRESS_COLOR_DONE,
+		GAME.ISLAND_GET_AUTO_COLLECTION_DATA_DONE,
+		GAME.ISLAND_TAKE_AUTO_COLLECTION_DONE,
 		PlayerProxy.UPDATED,
 		IslandSettingsPage.SELECTCUSTOMGRAPHICSETTING,
 		IslandSettingsPage.SELECTGRAPHICSETTINGLEVEL,
@@ -718,6 +726,8 @@ slot0._handleNotification = function(slot0, slot1)
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
 	elseif slot2 == GAME.ISLAND_INVITE_SHIP_DONE then
 		slot0:HandleShipDisplay(slot3.ship)
+	elseif slot2 == GAME.ISLAND_TAKE_AUTO_COLLECTION_DONE then
+		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.AUTO_COLLECT)
 	elseif slot2 == GAME.ISLAND_SHIP_BREAKOUT_DONE then
 		slot0:HandleShipBreakOutAwardDisplay(slot3)
 	elseif slot2 == GAME.ISLAND_GET_ORDER_EXP_AWARD_DONE then

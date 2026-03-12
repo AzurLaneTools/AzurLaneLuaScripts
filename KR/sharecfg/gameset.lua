@@ -3719,7 +3719,7 @@ pg.gameset = {
 				65011
 			},
 			1000000,
-			5
+			4
 		}
 	},
 	activity_town_special_work = {

@@ -6,6 +6,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.pos = slot1.pos
 	slot0.state = slot1.state
 	slot0.mark = slot1.mark
+	slot0.refresh_time = slot1.refresh_time
 	slot0.isSelfIsLand = slot2
 end
 

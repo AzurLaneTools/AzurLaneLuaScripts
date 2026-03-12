@@ -93,8 +93,8 @@ slot1.ConfigSkin = function(slot0, slot1)
 
 	slot0._animtor = slot1:GetComponent(typeof(Animator))
 	slot0._bgEff = slot1:Find("ActCtl/bg_eff")
-	slot0._chargeEff = slot1:Find("ActCtl/gizmos_1")
-	slot0._fullChargeEff = slot1:Find("ActCtl/gizmos_xue")
+	slot0._gizmos1 = slot1:Find("ActCtl/gizmos_1")
+	slot0._gizmosXue = slot1:Find("ActCtl/gizmos_xue")
 end
 
 slot1.GetSkin = function(slot0)
@@ -198,9 +198,9 @@ slot1.OnCountChange = function(slot0)
 		slot0:SwitchIconEffect(slot3)
 	end
 
-	if slot0._chargeEff then
-		SetActive(slot0._chargeEff, slot1 > 0)
-		SetActive(slot0._fullChargeEff, slot1 == slot2)
+	if slot0._gizmos1 then
+		SetActive(slot0._gizmos1, slot1 > 0)
+		SetActive(slot0._gizmosXue, slot1 == slot2)
 	end
 end
 
@@ -314,9 +314,9 @@ slot1.SetToCombatUIPreview = function(slot0, slot1)
 
 		slot0._countTxt.text = "1/1"
 
-		if slot0._chargeEff then
-			SetActive(slot0._chargeEff, true)
-			SetActive(slot0._fullChargeEff, true)
+		if slot0._gizmos1 then
+			SetActive(slot0._gizmos1, true)
+			SetActive(slot0._gizmosXue, true)
 		end
 	else
 		SetActive(slot0._unfill, true)
@@ -330,9 +330,9 @@ slot1.SetToCombatUIPreview = function(slot0, slot1)
 
 		slot0._countTxt.text = "0/0"
 
-		if slot0._chargeEff then
-			SetActive(slot0._chargeEff, false)
-			SetActive(slot0._fullChargeEff, false)
+		if slot0._gizmos1 then
+			SetActive(slot0._gizmos1, false)
+			SetActive(slot0._gizmosXue, false)
 		end
 	end
 end

@@ -1215,6 +1215,26 @@ slot0.InitSwitch = function()
 							getProxy(CityRebuildProxy):AddPt(uv0, uv1.count)
 						end
 					})
+				end,
+				[103] = function ()
+					if not getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) or slot1:isEnd() then
+						return
+					end
+
+					switch(slot1:getConfig("type"), {
+						[ActivityConst.ACTIVITY_TYPE_TOWN2] = function ()
+							if uv0:getConfig("id") == pg.activity_town_2[Clone(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN2)).id].bubble_drop[1][2] then
+								slot1:AddGold(uv0.count)
+								slot1:AddAllGold(uv0.count)
+							else
+								slot1:AddGold2(uv0.count)
+							end
+
+							slot0:updateActivity(slot1)
+						end
+					}, function ()
+						assert(uv0 .. "对应" .. type .. "错误")
+					end)
 				end
 			})
 		end,

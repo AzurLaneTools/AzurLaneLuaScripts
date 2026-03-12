@@ -27,6 +27,7 @@ pg.furniture_data_template = setmetatable({
 			27,
 			28,
 			31,
+			33,
 			102,
 			104,
 			105,
@@ -180,6 +181,12 @@ pg.furniture_data_template = setmetatable({
 			321,
 			322,
 			323,
+			326,
+			327,
+			328,
+			329,
+			330,
+			331,
 			100002,
 			100003,
 			100004,
@@ -260,6 +267,7 @@ pg.furniture_data_template = setmetatable({
 			100079,
 			100080,
 			100081,
+			100082,
 			200001,
 			200002,
 			200003,
@@ -6090,6 +6098,7 @@ pg.furniture_data_template = setmetatable({
 			27,
 			28,
 			31,
+			33,
 			102,
 			104,
 			105,
@@ -6170,6 +6179,11 @@ pg.furniture_data_template = setmetatable({
 			313,
 			317,
 			322,
+			326,
+			327,
+			328,
+			329,
+			330,
 			100002,
 			100003,
 			100004,
@@ -6250,6 +6264,7 @@ pg.furniture_data_template = setmetatable({
 			100079,
 			100080,
 			100081,
+			100082,
 			54104,
 			54105
 		},
@@ -6325,7 +6340,8 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
-			323
+			323,
+			331
 		},
 		[7] = {
 			213,
@@ -7320,6 +7336,7 @@ pg.furniture_data_template = setmetatable({
 			27,
 			28,
 			31,
+			33,
 			102,
 			104,
 			105,
@@ -7450,6 +7467,12 @@ pg.furniture_data_template = setmetatable({
 			321,
 			322,
 			323,
+			326,
+			327,
+			328,
+			329,
+			330,
+			331,
 			100002,
 			100004,
 			100005,
@@ -7509,7 +7532,8 @@ pg.furniture_data_template = setmetatable({
 			100078,
 			100079,
 			100080,
-			100081
+			100081,
+			100082
 		},
 		[2] = {
 			120,
@@ -10683,6 +10707,7 @@ pg.furniture_data_template = setmetatable({
 		27,
 		28,
 		31,
+		33,
 		102,
 		104,
 		105,
@@ -10838,6 +10863,12 @@ pg.furniture_data_template = setmetatable({
 		321,
 		322,
 		323,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
 		100002,
 		100003,
 		100004,
@@ -10918,6 +10949,7 @@ pg.furniture_data_template = setmetatable({
 		100079,
 		100080,
 		100081,
+		100082,
 		200001,
 		200002,
 		200003,
@@ -15019,6 +15051,44 @@ pg.base.furniture_data_template = {
 		id = 31,
 		icon = "mayebuleizeicon",
 		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[33] = {
+		can_rotate = 0,
+		describe = "특수 가구: 타이위안 구축함 1:100 함선 모형",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/taiyuan",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "타이위안",
+		advice = 0,
+		tag = 6,
+		id = 33,
+		icon = "taiyuanicon",
+		comfortable = 3,
 		size = {
 			1,
 			4
@@ -23151,6 +23221,240 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[326] = {
+		can_rotate = 0,
+		describe = "봄빛 여관 수수께끼의 창고의 미니어처.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/jiuloucangku",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "수수께끼의 창고의 미니어처",
+		advice = 0,
+		tag = 6,
+		id = 326,
+		icon = "jiuloucangkuicon",
+		comfortable = 0,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[327] = {
+		can_rotate = 0,
+		describe = "봄빛 여관 연못의 미니어처.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/jiulouchitang",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "연못의 미니어처",
+		advice = 0,
+		tag = 6,
+		id = 327,
+		icon = "jiulouchitangicon",
+		comfortable = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328] = {
+		can_rotate = 0,
+		describe = "봄빛 여관 물가의 정자의 미니어처.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/jiulouloutai",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "물가의 정자의 미니어처",
+		advice = 0,
+		tag = 6,
+		id = 328,
+		icon = "jiulouloutaiicon",
+		comfortable = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329] = {
+		can_rotate = 0,
+		describe = "봄빛 여관 객실의 미니어처.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/jiuloulvshe",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "객실의 미니어처",
+		advice = 0,
+		tag = 6,
+		id = 329,
+		icon = "jiuloulvsheicon",
+		comfortable = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[330] = {
+		can_rotate = 0,
+		describe = "봄빛 여관 정원의 미니어처.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/jiuloushulin",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "정원의 미니어처",
+		advice = 0,
+		tag = 6,
+		id = 330,
+		icon = "jiuloushulinicon",
+		comfortable = 0,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331] = {
+		can_rotate = 0,
+		describe = "봄빛 여관 식당을 모방하여 만든 미니어처. 세심한 부분까지 정밀하게 재현되어 있어, 안에서 동료들의 활기찬 목소리가 들릴 것만 같다.",
+		gain_by = "봄빛 여관 Online",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "봄빛 여관의 미니어처.",
+		advice = 0,
+		id = 331,
+		tag = 8,
+		comfortable = 0,
+		icon = "jiulouxunzhangicon",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"jiulouxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		name = "우정의 공기 펌프",
@@ -28191,7 +28495,7 @@ pg.base.furniture_data_template = {
 	},
 	[100073] = {
 		advice = 0,
-		name = "슈슝 서핑보드",
+		name = "만쥬 서핑 보드",
 		count = 1,
 		type = 11,
 		dir = 0,
@@ -28211,7 +28515,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		id = 100073,
 		comfortable = 0,
-		describe = "아무리 무거워도 문제없지! 안정적인 균형으로 파도를 향해 달려가자!",
+		describe = "아무리 무거워도 OK! 안정적인 구조! 파도를 향해 돌진하쥬쥬!",
 		dorm_id = 0,
 		tag = 6,
 		spine_extra = "",
@@ -28811,6 +29115,77 @@ pg.base.furniture_data_template = {
 				{
 					{
 						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[100082] = {
+		advice = 0,
+		name = "변신 장치·말 ",
+		count = 1,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "bianmaicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 100082,
+		comfortable = 0,
+		describe = "하시는 일 모두 말 탄 듯 빠르게 잘 풀리길~ 히히힝~~ ",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bianmaB",
+				"normal"
+			},
+			{
+				"bianmaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
 					}
 				},
 				{},

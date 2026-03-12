@@ -206,7 +206,7 @@ slot0.onListenerTrigger = function(slot0, slot1, slot2)
 			slot0.nextTriggerTime = slot0.limitTime
 		end
 	elseif slot1 == Live2D.ON_ACTION_PLAY then
-		slot0.nextTriggerTime = slot0.limitTime
+		slot0.nextTriggerTime = slot0.limitTime <= 1 and slot0.limitTime or 1
 	end
 end
 
@@ -875,10 +875,13 @@ slot0.updateRelationValue = function(slot0)
 
 		if slot9 then
 			slot12 = slot9
+		elseif math.abs(slot0:fixRelationParameter(slot10, slot6) - (slot5.value or slot0.startValue)) <= 0.01 then
+			slot12 = slot14
 		else
-			slot12, slot13 = Mathf.SmoothDamp(slot5.value or slot0.startValue, slot0:fixRelationParameter(slot10, slot6), slot5.parameterSmooth or 0, slot6.smooth and slot6.smooth / 1000 or slot0.smooth)
+			slot12, slot13 = Mathf.SmoothDamp(slot15, slot14, slot5.parameterSmooth or 0, slot6.smooth and slot6.smooth / 1000 or slot0.smooth)
 		end
 
+		slot5.target = slot10
 		slot5.value = slot12
 		slot5.parameterSmooth = slot13
 		slot5.enable = slot11
@@ -1021,7 +1024,7 @@ slot0.updateTrigger = function(slot0)
 				print("获取到数值 " .. uv0 .. " = " .. slot0)
 
 				if uv1[1] <= slot0 and slot0 < uv1[2] then
-					print("数值范围内，开始触发")
+					print("数值范围内，开始触发动作  = " .. tostring(uv2.id))
 					uv2:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
 						uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
 					end)
@@ -1388,29 +1391,23 @@ slot0.checkClickAction = function(slot0)
 		if not slot0.actionTrigger.down and slot1 and slot2 then
 			if slot0.actionTrigger.focus == 1 and slot0.l2dIsPlaying then
 				if slot0.l2dPlayActionName == slot0.actionTrigger.action then
-					slot0.clickTriggerTime = 0.01
-					slot0.clickApplyFlag = true
+					slot0.clickTriggerTime = Time.realtimeSinceStartup + 0.1
 				end
 			elseif not slot0.l2dIsPlaying then
-				slot0.clickTriggerTime = 0.01
-				slot0.clickApplyFlag = true
+				slot0.clickTriggerTime = Time.realtimeSinceStartup + 0.1
 			end
 		else
 			slot0:setAbleWithFlag(false)
 		end
-	elseif slot0.clickTriggerTime and slot0.clickTriggerTime > 0 then
-		slot0.clickTriggerTime = slot0.clickTriggerTime - Time.deltaTime
+	elseif slot0.clickTriggerTime and slot0.clickTriggerTime > 0 and slot0.clickTriggerTime <= Time.realtimeSinceStartup then
+		slot0:setAbleWithFlag(false)
 
-		if slot0.clickTriggerTime <= 0 then
+		if Time.realtimeSinceStartup - slot0.clickTriggerTime <= 0.1 then
+			print("点击成功" .. slot0.id)
+
 			slot0.clickTriggerTime = nil
 
-			slot0:setAbleWithFlag(false)
-
-			if slot0.clickApplyFlag then
-				slot0.clickApplyFlag = false
-
-				return true
-			end
+			return true
 		end
 	end
 

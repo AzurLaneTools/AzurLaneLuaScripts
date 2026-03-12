@@ -13681,6 +13681,221 @@ pg.base.ship_skin_template_6 = {
 			1.7
 		}
 	},
+	[207072] = {
+		name = "유향 머무는 잔",
+		change_skin = "",
+		desc = "지휘관, 그 뜨거운 시선은…… 이 맛있는 술을 맛보고 싶어서 그런 걸까, 아니면―― 훨씬 더 향긋한 향기에 취하고 싶어서 그러는 걸까?",
+		illustrator2 = -1,
+		ship_group = 20707,
+		group_index = 2,
+		painting = "yuanchou_3",
+		lover_hand = "",
+		skin_type = 0,
+		shop_type_id = 3,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		lover_kiss = "",
+		bg_sp = "",
+		bg = "152",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		special_effects = "",
+		id = 207072,
+		voice_actor_2 = -1,
+		gyro = 0,
+		prefab = "yuanchou_3",
+		l2d_se = "",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71311,
+		voice_actor = 356,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			-35,
+			0,
+			82
+		},
+		shop_offset = {
+			0,
+			-35,
+			0,
+			82
+		},
+		purchase_offset = {
+			0,
+			0,
+			0,
+			82
+		},
+		live2d_offset_profile = {
+			0,
+			-35,
+			0,
+			82
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.732,
+					2.262,
+					0
+				}
+			},
+			plane = {
+				{
+					0.85,
+					0.77,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.704,
+							2.376,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			20707201,
+			20707202,
+			20707203,
+			20707204,
+			20707205,
+			20707206,
+			20707207,
+			20707208,
+			20707209,
+			20707210,
+			20707211,
+			20707212,
+			20707213,
+			20707214,
+			20707215,
+			20707216,
+			20707217,
+			20707218,
+			20707219,
+			20707220,
+			20707221,
+			20707222,
+			20707223,
+			20707224,
+			20707225,
+			20707226,
+			20707227,
+			20707228,
+			20707229,
+			20707230,
+			20707231,
+			20707232,
+			20707233,
+			20707234,
+			20707235,
+			20707236,
+			20707237,
+			20707238
+		},
+		l2d_drag_rate = {
+			0.7,
+			0.7,
+			1
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1449,
+					102,
+					2.3,
+					0,
+					143,
+					2
+				},
+				{
+					-292,
+					806,
+					2.3,
+					125,
+					0,
+					2
+				},
+				{
+					30,
+					-375,
+					2.3,
+					0,
+					-159,
+					2
+				}
+			}
+		}
+	},
 	[207090] = {
 		name = "꼬마 일러스트리어스 ",
 		change_skin = "",
@@ -17074,132 +17289,6 @@ pg.base.ship_skin_template_6 = {
 						{
 							-0.479,
 							2.515,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301021] = {
-		name = "토끼 사육사",
-		change_skin = "",
-		desc = "으앗...?! 모두 먹을 수 있으니까 뺏지 마—— 아, 지휘관? 온 김에 구경만 하지 말고 도와줘.",
-		illustrator2 = -1,
-		ship_group = 30102,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "baixue_2",
-		lover_hand = "hand_2_02",
-		skin_type = 0,
-		shop_type_id = 4,
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "103",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 301021,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "baixue_2",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 70562,
-		voice_actor = 278,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = 2,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.012,
-					1.356,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.999,
-					1.371,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.015,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.995,
-					1.413,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.442,
 							0
 						}
 					}

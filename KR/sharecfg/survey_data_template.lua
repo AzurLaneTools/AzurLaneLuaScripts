@@ -129,6 +129,23 @@ pg.survey_data_template = {
 			}
 		}
 	},
+	[1012] = {
+		ios_url = "https://haoplay.wjx.cn/vm/rAmTAGJ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		uo_url = "https://haoplay.wjx.cn/vm/rAmTAGJ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		main_url = "https://haoplay.wjx.cn/vm/rAmTAGJ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		id = 1012,
+		name = "韩服260312问卷",
+		main_activity = "350778614",
+		ios_activity = "350778614",
+		uo_activity = "350778614",
+		bonus = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -136,6 +153,7 @@ pg.survey_data_template = {
 		1009,
 		1010,
 		1005,
-		1007
+		1007,
+		1012
 	}
 }

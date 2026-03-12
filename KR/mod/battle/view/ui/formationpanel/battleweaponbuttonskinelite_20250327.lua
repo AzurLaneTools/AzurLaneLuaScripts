@@ -50,9 +50,9 @@ slot1.SetToCombatUIPreview = function(slot0, slot1)
 		slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 0
 		slot0._countTxt.text = "1/1"
 
-		if slot0._chargeEff then
-			SetActive(slot0._chargeEff, true)
-			SetActive(slot0._fullChargeEff, true)
+		if slot0._gizmos1 then
+			SetActive(slot0._gizmos1, true)
+			SetActive(slot0._gizmosXue, true)
 		end
 
 		SetActive(slot0._glowEff, true)
@@ -67,9 +67,9 @@ slot1.SetToCombatUIPreview = function(slot0, slot1)
 
 		SetActive(slot0._glowEff, false)
 
-		if slot0._chargeEff then
-			SetActive(slot0._chargeEff, false)
-			SetActive(slot0._fullChargeEff, false)
+		if slot0._gizmos1 then
+			SetActive(slot0._gizmos1, false)
+			SetActive(slot0._gizmosXue, false)
 		end
 	end
 end

@@ -30,16 +30,44 @@ return {
 		end
 	},
 	{
+		banner = "activity_boss",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.ACT_BOSS_BATTLE,
+			{
+				showAni = true
+			}
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) then
+				return
+			end
+
+			slot1 = false
+
+			if slot0.checkBattleTimeInBossAct(slot0) then
+				slot1 = slot0.data2 ~= 1
+			elseif getProxy(ActivityProxy):getActivityById(slot0:GetBindPtActID()) then
+				slot1 = ActivityBossPtData.New(slot4):CanGetAward()
+			end
+
+			return slot1
+		end
+	},
+	{
 		banner = "ming_paint",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
-			SCENE.VOTEENTRANCE
+			SCENE.COLORING
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot0:isEnd()
 		end,
 		isTip = function ()
-			return NewMainVoteEntranceBtn.IsShowTip()
+			return getProxy(ColoringProxy):CheckTodayTip()
 		end
 	},
 	{

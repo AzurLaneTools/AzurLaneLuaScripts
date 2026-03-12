@@ -1,6 +1,7 @@
 slot0 = class("IslandPostManagePage", import("...base.IslandBasePage"))
 slot0.PAGE_PROD = "prod"
 slot0.PAGE_REST = "rest"
+slot0.PAGE_COLLECTION = "collection"
 slot0.EVENT_SHOW_SP_EVENT_TIP = "IslandPostManagePage:EVENT_SHOW_SP_EVENT_TIP"
 
 slot0.getUIName = function(slot0)
@@ -19,7 +20,14 @@ slot0.OnLoaded = function(slot0)
 		}, {
 			__index = slot0.contextData
 		})),
-		[uv0.PAGE_REST] = IslandPostRestPanel.New(slot1, slot0.event)
+		[uv0.PAGE_REST] = IslandPostRestPanel.New(slot1, slot0.event),
+		[uv0.PAGE_COLLECTION] = IslandCollectionPanel.New(slot1, slot0.event, setmetatable({
+			ShowMsgBox = function (slot0, slot1)
+				uv0:ShowMsgBox(slot1)
+			end
+		}, {
+			__index = slot0.contextData
+		}))
 	}
 	slot0.togglesTF = slot0._tf:Find("Adapt/types/content")
 
@@ -27,6 +35,8 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.togglesTF:Find("prod/sel/content/Text"), i18n("island_post_produce"))
 	setText(slot0.togglesTF:Find("rest/unsel"), i18n("island_post_operate"))
 	setText(slot0.togglesTF:Find("rest/sel/content/Text"), i18n("island_post_operate"))
+	setText(slot0.togglesTF:Find("collection/unsel"), i18n("island_chara_gather_tip"))
+	setText(slot0.togglesTF:Find("collection/sel/content/Text"), i18n("island_chara_gather_tip"))
 
 	slot0.signInNoticeTF = slot0._tf:Find("Adapt/signInBtn/notice")
 	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event)
@@ -99,6 +109,8 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(IslandManageAgecny.ADD_RESTAURANT, slot0.FlushRestPage)
 	slot0:AddListener(IslandManageAgecny.ADD_ASSISTANT, slot0.FlushRestPage)
 	slot0:AddListener(IslandManageAgecny.ON_DAILY_REFRESH, slot0.FlushRestPage)
+	slot0:AddListener(GAME.ISLAND_GET_AUTO_COLLECTION_DATA_DONE, slot0.OnGetCollctionData)
+	slot0:AddListener(GAME.ISLAND_TAKE_AUTO_COLLECTION_DONE, slot0.OnGetCollctionDone)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -110,16 +122,34 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(IslandManageAgecny.ADD_RESTAURANT, slot0.FlushRestPage)
 	slot0:RemoveListener(IslandManageAgecny.ADD_ASSISTANT, slot0.FlushRestPage)
 	slot0:RemoveListener(IslandManageAgecny.ON_DAILY_REFRESH, slot0.FlushRestPage)
+	slot0:RemoveListener(GAME.ISLAND_GET_AUTO_COLLECTION_DATA_DONE, slot0.OnGetCollctionData)
+	slot0:RemoveListener(GAME.ISLAND_TAKE_AUTO_COLLECTION_DONE, slot0.OnGetCollctionDone)
 end
 
 slot0.SwitchPage = function(slot0)
 	for slot4, slot5 in pairs(slot0.pages) do
 		if slot4 == slot0.curPage then
-			slot5:ExecuteAction("Show")
+			if slot0.curPage == uv0.PAGE_COLLECTION then
+				pg.UIMgr.GetInstance():LoadingOn()
+				slot0:emit(IslandMediator.GET_AUTO_COLLECTION_DATA, 1)
+			else
+				slot5:ExecuteAction("Show")
+			end
 		else
 			slot5:ExecuteAction("Hide")
 		end
 	end
+end
+
+slot0.OnGetCollctionData = function(slot0, slot1)
+	slot0.pages[uv0.PAGE_COLLECTION]:ExecuteAction("Show", slot1.data)
+	PlayerPrefs.SetInt("IslandSignAutoCollectTime" .. tostring(getProxy(PlayerProxy):getPlayerId()), pg.TimeMgr.GetInstance():GetServerTime())
+	slot0:FlushCollectionTip()
+	pg.UIMgr.GetInstance():LoadingOff()
+end
+
+slot0.OnGetCollctionDone = function(slot0, slot1)
+	slot0.pages[uv0.PAGE_COLLECTION]:ExecuteAction("OnGetCollctionDone", slot1)
 end
 
 slot0.OnShow = function(slot0)
@@ -132,6 +162,7 @@ end
 slot0.FlushTips = function(slot0)
 	slot0:FlushProdTip()
 	slot0:FlushRestTip()
+	slot0:FlushCollectionTip()
 end
 
 slot0.FlushProdTip = function(slot0)
@@ -146,6 +177,13 @@ slot0.FlushRestTip = function(slot0)
 
 	setActive(slot0.togglesTF:Find("rest/unsel/tip"), slot1)
 	setActive(slot0.togglesTF:Find("rest/sel/tip"), slot1)
+end
+
+slot0.FlushCollectionTip = function(slot0)
+	slot1 = IslandMainBtnTipHelper.IsPostCollectionTip()
+
+	setActive(slot0.togglesTF:Find("collection/unsel/tip"), slot1)
+	setActive(slot0.togglesTF:Find("collection/sel/tip"), slot1)
 end
 
 slot0.OnFlushProdPageAndShipExpDone = function(slot0, slot1)

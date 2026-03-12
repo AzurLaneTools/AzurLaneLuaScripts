@@ -1,12 +1,14 @@
 slot0 = class("IslandPostRestPanel", import("view.base.BaseSubView"))
 slot0.MAX_ASSISTANT_CNT = 2
 slot0.MAX_SHELF_CNT = 5
+slot0.ScrollValue = 0
 
 slot0.getUIName = function(slot0)
 	return "IslandPostRestPanel"
 end
 
 slot0.OnLoaded = function(slot0)
+	slot0.scrollTF = slot0._tf:Find("view")
 	slot1 = slot0._tf:Find("view/content")
 	slot2 = slot1:Find("tpl")
 
@@ -28,6 +30,9 @@ slot0.OnInit = function(slot0)
 		elseif slot0 == UIItemList.EventUpdate then
 			uv0:UpdateItem(slot1, slot2)
 		end
+	end)
+	onScroll(slot0, slot0.scrollTF, function (slot0)
+		uv0.ScrollValue = slot0.x
 	end)
 end
 
@@ -164,6 +169,7 @@ slot0.Show = function(slot0)
 	slot0.super.Show(slot0)
 	slot0:Flush()
 	slot0:CheckEventTip()
+	scrollTo(slot0.scrollTF, uv0.ScrollValue)
 end
 
 slot0.CheckEventTip = function(slot0)

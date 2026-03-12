@@ -242,6 +242,21 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 30,
+		param = {
+			"LiquorFloor"
+		}
+	},
+	{
+		id = 31,
+		param = {
+			"scene core activity",
+			{
+				coreName = "MoscowURCoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -271,6 +286,8 @@ pg.activity_banner_notice = {
 		26,
 		27,
 		28,
-		29
+		29,
+		30,
+		31
 	}
 }

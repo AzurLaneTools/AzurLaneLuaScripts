@@ -83,6 +83,7 @@ pg.item_data_frame = setmetatable({
 		609,
 		610,
 		611,
+		614,
 		1001,
 		1002,
 		1003,
@@ -838,6 +839,15 @@ pg.base.item_data_frame = {
 		id = 611,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>숲에 부는 맑은 바람을 느끼며, 평소와 다른 휴가를 즐기자♪</color>「임간 휴가 준비」 참여 시 획득 가능",
+		scene = {}
+	},
+	[614] = {
+		name = "천하제일 여관",
+		gain_by = "",
+		time_second = 0,
+		id = 614,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>대길만재, 복이 돌아 운이 트이리라. 초롱을 높이 걸고, 도는 재물을 집으로 불러들이자.</color>「봄빛 여관 Online」 참여 시 획득",
 		scene = {}
 	},
 	[1001] = {

@@ -6503,7 +6503,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"츄츄 간편식",
+				"쥬쥬 간편식",
 				{}
 			}
 		}
