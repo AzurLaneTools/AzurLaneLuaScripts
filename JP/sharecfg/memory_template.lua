@@ -4029,6 +4029,23 @@ pg.memory_template = setmetatable({
 		5035,
 		5036,
 		5037,
+		5041,
+		5042,
+		5043,
+		5044,
+		5045,
+		5046,
+		5047,
+		5048,
+		5049,
+		5050,
+		5051,
+		5052,
+		5053,
+		5054,
+		5055,
+		5056,
+		5057,
 		10000,
 		10001,
 		10002,
@@ -4311,7 +4328,6 @@ pg.memory_template = setmetatable({
 		20199,
 		20200,
 		20201,
-		20202,
 		20203,
 		20204,
 		20205,
@@ -64740,6 +64756,261 @@ pg.base.memory_template = {
 			"AERBIEN7"
 		}
 	},
+	[5041] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "プロローグ：すべては墜落より",
+		condition = "VR-0開始",
+		story = "MANYOUZHEZHAOMUJIHUA1",
+		id = 5041,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA1"
+		}
+	},
+	[5042] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夜陰影儀",
+		condition = "VR-1開始",
+		story = "MANYOUZHEZHAOMUJIHUA2",
+		id = 5042,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA2"
+		}
+	},
+	[5043] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "逆流",
+		condition = "VR-2開始",
+		story = "MANYOUZHEZHAOMUJIHUA3",
+		id = 5043,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA3"
+		}
+	},
+	[5044] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "失効した配役",
+		condition = "VR-3開始",
+		story = "MANYOUZHEZHAOMUJIHUA4",
+		id = 5044,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA4"
+		}
+	},
+	[5045] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "カモフラージュとアクシデント",
+		condition = "VR-4開始",
+		story = "MANYOUZHEZHAOMUJIHUA5",
+		id = 5045,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA5"
+		}
+	},
+	[5046] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "空を切り裂く決意",
+		condition = "VR-5開始",
+		story = "MANYOUZHEZHAOMUJIHUA6",
+		id = 5046,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA6"
+		}
+	},
+	[5047] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "しくじり怪盗と赤糸の檻",
+		condition = "VR-6開始",
+		story = "MANYOUZHEZHAOMUJIHUA7",
+		id = 5047,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA7"
+		}
+	},
+	[5048] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "信頼のゆくえ",
+		condition = "VR-7開始",
+		story = "MANYOUZHEZHAOMUJIHUA8",
+		id = 5048,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA8"
+		}
+	},
+	[5049] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ドジを踏むエージェント",
+		condition = "VR-8開始",
+		story = "MANYOUZHEZHAOMUJIHUA9",
+		id = 5049,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA9"
+		}
+	},
+	[5050] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "運命の分かれ道",
+		condition = "VR-9開始",
+		story = "MANYOUZHEZHAOMUJIHUA10",
+		id = 5050,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA10"
+		}
+	},
+	[5051] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END1：序章は最終章",
+		condition = "「ワンダラー募集計画」エンディングを開放",
+		story = "MANYOUZHEZHAOMUJIHUA11",
+		id = 5051,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA11"
+		}
+	},
+	[5052] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END2：零号協議",
+		condition = "「ワンダラー募集計画」エンディングを開放",
+		story = "MANYOUZHEZHAOMUJIHUA12",
+		id = 5052,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA12"
+		}
+	},
+	[5053] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END3：終わりなき愛執",
+		condition = "「ワンダラー募集計画」エンディングを開放",
+		story = "MANYOUZHEZHAOMUJIHUA13",
+		id = 5053,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA13"
+		}
+	},
+	[5054] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END4：自由への呼びかけ",
+		condition = "「ワンダラー募集計画」エンディングを開放",
+		story = "MANYOUZHEZHAOMUJIHUA14",
+		id = 5054,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA14"
+		}
+	},
+	[5055] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END5：音なき裏切り",
+		condition = "「ワンダラー募集計画」エンディングを開放",
+		story = "MANYOUZHEZHAOMUJIHUA15",
+		id = 5055,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA15"
+		}
+	},
+	[5056] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END6：甘美なる包囲網",
+		condition = "「ワンダラー募集計画」エンディングを開放",
+		story = "MANYOUZHEZHAOMUJIHUA16",
+		id = 5056,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA16"
+		}
+	},
+	[5057] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "不完全な集結",
+		condition = "「ワンダラー募集計画」エンディングを開放",
+		story = "MANYOUZHEZHAOMUJIHUA17",
+		id = 5057,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA17"
+		}
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -68968,21 +69239,6 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"TANSUOZHEXINZHIXUYU6"
-		}
-	},
-	[20202] = {
-		mask = "bg/bg_memory",
-		subtitle = "",
-		type = 1,
-		number = 0,
-		title = "遊園地への誘い",
-		condition = "「TB育成」-スカベンジャーと会話をする",
-		story = "TANSUOZHEXINZHIXUYU7",
-		id = 20202,
-		icon = "oceana_tanxin",
-		is_open = 0,
-		unlock_pre = {
-			"TANSUOZHEXINZHIXUYU7"
 		}
 	},
 	[20203] = {

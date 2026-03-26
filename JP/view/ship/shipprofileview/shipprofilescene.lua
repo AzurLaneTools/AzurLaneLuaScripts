@@ -728,10 +728,44 @@ slot0.UpdatePaintingFace = function(slot0, slot1)
 	end
 
 	if slot0.spinePainting then
+		slot5 = nil
+
+		for slot9, slot10 in pairs(pg.AssistantInfo.assistantEvents) do
+			if slot10.dialog == slot4 then
+				slot5 = slot10.action
+
+				break
+			end
+		end
+
 		if ShipExpressionHelper.GetExpression(slot0.paintingName, slot4, slot2.maxfavor, slot1.skin.id) ~= "" then
-			slot0.spinePainting:SetAction(slot5, 1)
+			slot0.spinePainting:SetAction(slot6, 1)
+
+			if slot5 and slot0.spinePainting:getAnimationExist(slot5) then
+				slot7 = slot0.spinePainting
+
+				slot7:SetEmptyAction(1)
+
+				slot7 = slot0.spinePainting
+
+				slot7:SetOnceAction(slot5, nil, function ()
+				end, true)
+			elseif slot0.spinePainting:isInAction() then
+				slot0.spinePainting:SetAction(slot0.spinePainting:getIdleName(), 0, true)
+				slot0.spinePainting:ClearAction()
+			end
 		else
 			slot0.spinePainting:SetEmptyAction(1)
+
+			if slot5 and slot0.spinePainting:getAnimationExist(slot5) then
+				slot7 = slot0.spinePainting
+
+				slot7:SetOnceAction(slot5, nil, function ()
+				end, true)
+			elseif slot0.spinePainting:isInAction() then
+				slot0.spinePainting:SetAction(slot0.spinePainting:getIdleName(), 0, true)
+				slot0.spinePainting:ClearAction()
+			end
 		end
 	end
 end

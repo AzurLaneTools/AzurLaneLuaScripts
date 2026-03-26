@@ -43,6 +43,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 	if #slot3.cache_eval > 0 then
 		slot0.states[uv0.SYSTEM.ASSESS] = NewEducateAssessState.New(slot3.cache_eval[1])
+	elseif slot0.systemNo == uv0.SYSTEM.ASSESS and #slot3.cache_eval == 0 then
+		slot0.states[uv0.SYSTEM.ASSESS] = NewEducateAssessState.New({
+			is_finished = 0
+		})
 	end
 
 	slot0.states[uv0.SYSTEM.PHASE] = NewEducateStateBase.New()
@@ -85,6 +89,8 @@ slot0.GetCurState = function(slot0)
 end
 
 slot0.CheckStystem = function(slot0)
+	warning(slot0.curNode, slot0.systemNo)
+
 	if slot0.curNode ~= 0 then
 		return slot0.systemNo
 	end

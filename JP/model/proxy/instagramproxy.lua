@@ -4,6 +4,7 @@ slot2 = pg.activity_ins_npc_template
 
 slot0.register = function(slot0)
 	slot0.messages = {}
+	slot0.officialAccounts = {}
 	slot0.isReqNewInstagramData = false
 	slot0.isReqOldInstagramData = false
 	slot0.allReply = {}
@@ -55,7 +56,11 @@ slot0.MarkNewInstagramData = function(slot0)
 end
 
 slot0.AddInstagram = function(slot0, slot1)
-	slot0.messages[slot1.id] = slot1
+	if slot1:getConfig("type") == InstagramConst.INSTAGRAM_TYPE.OFFICIAL_ACCOUNT then
+		slot0:AddOfficialAccounts(slot1)
+	else
+		slot0.messages[slot1.id] = slot1
+	end
 end
 
 slot0.GetAllReply = function(slot0)
@@ -84,15 +89,37 @@ slot0.GetMessageById = function(slot0, slot1)
 	return slot0.messages[slot1]
 end
 
-slot0.AddMessage = function(slot0, slot1)
-	slot0.messages[slot1.id] = slot1
-end
-
 slot0.UpdateMessage = function(slot0, slot1)
-	if not slot0.messages[slot1.id] then
-		slot0:AddMessage(slot1)
+	if slot1:getConfig("type") == InstagramConst.INSTAGRAM_TYPE.OFFICIAL_ACCOUNT then
+		slot0:UpdateOfficialAccounts(slot1)
+	elseif not slot0.messages[slot1.id] then
+		slot0:AddInstagram(slot1)
 	else
 		slot0.messages[slot1.id] = slot1
+	end
+end
+
+slot0.AddOfficialAccounts = function(slot0, slot1)
+	slot0.officialAccounts[slot1.id] = slot1
+end
+
+slot0.UpdateOfficialAccounts = function(slot0, slot1)
+	if not slot0.officialAccounts[slot1.id] then
+		slot0:AddOfficialAccounts(slot1)
+	else
+		slot0.officialAccounts[slot1.id] = slot1
+	end
+end
+
+slot0.GetOfficialAccounts = function(slot0)
+	return slot0.officialAccounts
+end
+
+slot0.ShouldShowOfficialAccountsTip = function(slot0)
+	for slot4, slot5 in pairs(slot0.officialAccounts) do
+		if slot5:ShouldShowTip() then
+			return true
+		end
 	end
 end
 
@@ -102,23 +129,16 @@ slot0.ShouldShowTip = function(slot0)
 	end)
 end
 
-slot0.GetNewInstagramBeginIdAndEndId = function()
-	slot0 = Mathf.Infinity
-	slot1 = Mathf.NegativeInfinity
+slot0.GetNewInstagramIds = function()
+	slot0 = {}
 
-	for slot5, slot6 in ipairs(pg.activity_ins_template.all) do
-		if pg.activity_ins_template[slot6].is_active == 1 then
-			if slot6 < slot0 then
-				slot0 = slot6
-			end
-
-			if slot1 < slot6 then
-				slot1 = slot6
-			end
+	for slot4, slot5 in ipairs(pg.activity_ins_template.all) do
+		if pg.activity_ins_template[slot5].is_active == 1 or pg.activity_ins_template[slot5].type == InstagramConst.INSTAGRAM_TYPE.OFFICIAL_ACCOUNT then
+			table.insert(slot0, slot5)
 		end
 	end
 
-	return slot0, slot1
+	return slot0
 end
 
 slot0.GetOldInstagramIds = function()
@@ -134,41 +154,67 @@ slot0.GetOldInstagramIds = function()
 end
 
 slot0.GetNextPushTime = function(slot0)
-	for slot5, slot6 in ipairs(pg.activity_ins_template.all) do
-		if pg.activity_ins_template[slot6].is_active == 1 and slot0:GetMessageById(slot6) == nil then
-			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7.time), slot6
+	slot2, slot3 = nil
+
+	for slot7, slot8 in ipairs(pg.activity_ins_template.all) do
+		if pg.activity_ins_template[slot8].type == InstagramConst.INSTAGRAM_TYPE.OFFICIAL_ACCOUNT then
+			if slot0.officialAccounts[slot8] == nil then
+				slot10 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot9.time)
+
+				if slot2 == nil then
+					slot2 = slot10
+					slot3 = slot8
+				elseif slot10 < slot2 then
+					slot2 = slot10
+					slot3 = slot8
+				end
+			end
+		elseif slot9.is_active == 1 and slot0:GetMessageById(slot8) == nil then
+			slot10 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot9.time)
+
+			if slot2 == nil then
+				slot2 = slot10
+				slot3 = slot8
+			elseif slot10 < slot2 then
+				slot2 = slot10
+				slot3 = slot8
+			end
 		end
 	end
+
+	return slot2, slot3
 end
 
-slot0.AddInstagramTimer = function(slot0, slot1)
+slot0.AddInstagramTimer = function(slot0)
 	slot0:RemoveInstagramTimer()
 
-	slot2, slot3 = slot0:GetNextPushTime()
+	slot1, slot2 = slot0:GetNextPushTime()
 
-	if not slot2 then
+	if not slot1 then
 		return
 	end
 
-	slot4 = pg.TimeMgr.GetInstance()
+	slot3 = pg.TimeMgr.GetInstance()
 
-	slot5 = function()
+	slot4 = function()
 		pg.m02:sendNotification(GAME.ACT_INSTAGRAM_OP, {
 			cmd = ActivityConst.INSTAGRAM_OP_ACTIVE,
 			arg1 = uv0
 		})
 	end
 
-	if slot2 - slot4:GetServerTime() + math.Random(1, 3) <= 0 then
-		slot5()
+	if slot1 - slot3:GetServerTime() + math.Random(1, 3) <= 0 then
+		slot4()
 
 		return
 	end
 
+	slot0:RemoveInstagramTimer()
+
 	slot0.timer = Timer.New(function ()
 		uv0:RemoveInstagramTimer()
 		uv1()
-	end, slot4, 1)
+	end, slot3, 1)
 
 	slot0.timer:Start()
 end

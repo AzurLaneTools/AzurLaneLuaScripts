@@ -25,6 +25,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.options = slot1.options
 	slot0.important = slot1.important
 	slot0.branchCode = slot1.optionFlag
+	slot0.globalBranchCode = slot1.globalOptionFlag
 	slot0.recallOption = slot1.recallOption
 	slot0.nextScriptName = slot1.jumpto
 	slot0.eventDelay = slot1.eventDelay or 0
@@ -340,6 +341,29 @@ slot0.IsSameBranch = function(slot0, slot1)
 	return not slot0.branchCode or slot0.branchCode == slot1
 end
 
+slot0.IsGlobalFlagHit = function(slot0)
+	slot1 = uv0.GetGlobalFlagKey(slot0.globalBranchCode.id)
+	slot2 = 1
+	slot3 = 0
+
+	while PlayerPrefs.HasKey(slot1 .. slot2) do
+		slot3 = slot3 + PlayerPrefs.GetInt(slot1 .. slot2)
+		slot2 = slot2 + 1
+	end
+
+	for slot8, slot9 in ipairs(slot0.globalBranchCode.section) do
+		if slot9[1] <= slot3 and slot3 <= slot9[2] then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot0.GetGlobalFlagKey = function(slot0)
+	return getProxy(PlayerProxy):getRawData().id .. "GlobalStoryFlag_" .. slot0 .. "_"
+end
+
 slot0.GetMode = function(slot0)
 	assert(false, "should override this function")
 end
@@ -506,7 +530,8 @@ slot0.GetOptions = function(slot0)
 		return {
 			HXSet.hxLan(slot1),
 			slot0.flag,
-			slot0.type
+			slot0.type,
+			slot0.globalFlag
 		}
 	end)
 end

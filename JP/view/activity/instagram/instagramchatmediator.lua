@@ -6,6 +6,8 @@ slot0.SET_CURRENT_TOPIC = "InstagramChatMediator:SET_CURRENT_TOPIC"
 slot0.SET_CURRENT_BACKGROUND = "InstagramChatMediator:SET_CURRENT_BACKGROUND"
 slot0.SET_READED = "InstagramChatMediator:SET_READED"
 slot0.CLOSE_ALL = "InstagramChatMediator:CLOSE_ALL"
+slot0.ON_OFFICIAL_ACCOUNTS_OPERATE = "InstagramChatMediator:ON_OFFICIAL_ACCOUNTS_OPERATE"
+slot0.BACK_PRESSED = "InstagramChatMediator:BACK_PRESSED"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.CHANGE_CARE, function (slot0, slot1, slot2)
@@ -55,11 +57,21 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.CLOSE_ALL, function (slot0)
 		uv0:sendNotification(InstagramMainMediator.CLOSE_ALL)
 	end)
+	slot0:bind(uv0.ON_OFFICIAL_ACCOUNTS_OPERATE, function (slot0, slot1, slot2, slot3, slot4)
+		uv0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
+			cmd = slot1 or 0,
+			arg1 = slot2 or 0,
+			arg2 = slot3 or 0,
+			arg3 = slot4 or 0
+		})
+	end)
 end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		GAME.ACT_INSTAGRAM_CHAT_DONE
+		GAME.ACT_INSTAGRAM_CHAT_DONE,
+		GAME.ACT_INSTAGRAM_OP_DONE,
+		uv0.BACK_PRESSED
 	}
 end
 
@@ -104,6 +116,35 @@ slot0.handleNotification = function(slot0, slot1)
 		else
 			slot0.viewComponent:UpdateCharaList(slot5, slot6)
 		end
+
+		return
+	end
+
+	if slot2 == GAME.ACT_INSTAGRAM_OP_DONE then
+		if slot3.cmd == ActivityConst.INSTAGRAM_OP_SHARE then
+			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeInstagram)
+		elseif slot3.cmd == ActivityConst.INSTAGRAM_OP_LIKE then
+			slot0.viewComponent:UpdateLinkBtn(slot3.id)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ins_click_like_success"))
+		elseif slot3.cmd == ActivityConst.INSTAGRAM_OP_COMMENT then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ins_push_comment_success"))
+			slot0.viewComponent:UpdateCommentList(slot3.id)
+			slot0.viewComponent:AddOfficialAccountsTimer()
+			slot0.viewComponent:ReadOfficialAccountComment()
+			slot0.viewComponent:RefreshOfficialAccountTips()
+			slot0:sendNotification(InstagramMainMediator.CHANGE_CHAT_TIP)
+		elseif slot3.cmd == ActivityConst.INSTAGRAM_OP_ACTIVE or slot3.cmd == ActivityConst.INSTAGRAM_OP_UPDATE then
+			slot0.viewComponent:UpdateCommentList(slot3.id)
+			slot0.viewComponent:AddOfficialAccountsTimer()
+			slot0.viewComponent:ReadOfficialAccountComment()
+			slot0.viewComponent:RefreshOfficialAccountTips()
+			slot0:sendNotification(InstagramMainMediator.CHANGE_CHAT_TIP)
+		elseif slot3.cmd == ActivityConst.INSTAGRAM_OP_MARK_READ then
+			slot0.viewComponent:RefreshOfficialAccountTips()
+			slot0:sendNotification(InstagramMainMediator.CHANGE_CHAT_TIP)
+		end
+	elseif slot2 == uv0.BACK_PRESSED then
+		slot0.viewComponent:onBackPressed()
 	end
 end
 

@@ -47,6 +47,10 @@ slot0.OnLoad = function(slot0, slot1)
 	}), function (slot0)
 		uv0:AdJustOrderInLayer(slot0)
 
+		if Live2dConst.l2d_bound_open then
+			uv0:CreateL2dDragBound(slot0)
+		end
+
 		if uv0._initTriggerAction then
 			for slot4, slot5 in ipairs(uv0._initTriggerAction) do
 				if uv0.live2dChar:checkActionExist(pg.AssistantInfo.assistantEvents[slot5].action) then
@@ -100,6 +104,32 @@ slot0.ResetOrderInLayer = function(slot0)
 	end
 
 	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0.live2dChar._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), 0)
+end
+
+slot0.CreateL2dDragBound = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	if not slot0._dragBoundsUI then
+		slot0._dragBoundsUI = L2dBoundsUI.New()
+	end
+
+	slot1:SetLive2dPlayingCallback(function ()
+		if uv0 then
+			uv1._dragBoundsUI:ActionChange(uv0)
+		end
+	end)
+
+	slot2 = slot0._dragBoundsUI
+
+	slot2:InitUI(nil, function ()
+		if uv0._dragBoundsUI and uv1 then
+			uv0._dragBoundsUI:SetData(uv1:GetDragBounds(), uv0.ship:getSkinId())
+			uv0._dragBoundsUI:SetParent(uv0.container)
+			uv0._dragBoundsUI:ActionChange(uv1:GetLive2DStateData())
+		end
+	end)
 end
 
 slot0.AddScreenChangeTimer = function(slot0)
@@ -174,6 +204,12 @@ slot0.OnUnload = function(slot0)
 		slot0.live2dChar:Dispose()
 
 		slot0.live2dChar = nil
+	end
+
+	if slot0._dragBoundsUI then
+		slot0._dragBoundsUI:Dispose()
+
+		slot0._dragBoundsUI = nil
 	end
 end
 
@@ -308,6 +344,15 @@ slot0.PlayChangeSkinActionOut = function(slot0, slot1)
 	end
 end
 
+slot0.UpdateBound = function(slot0)
+	if not slot0._dragBoundsUI and slot0.live2dChar then
+		slot0:CreateL2dDragBound(slot0.live2dChar)
+		slot0._dragBoundsUI:SetVisible(Live2dConst.l2d_bound_open)
+	elseif slot0._dragBoundsUI then
+		slot0._dragBoundsUI:SetVisible(Live2dConst.l2d_bound_open)
+	end
+end
+
 slot0.playSkinOut = function(slot0, slot1)
 	slot2 = function()
 		if uv0 and uv0.callback then
@@ -378,6 +423,12 @@ slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 	slot0:RemoveSeTimer()
 	slot0:RemoveScreenChangeTimer()
+
+	if slot0._dragBoundsUI then
+		slot0._dragBoundsUI:Dispose()
+
+		slot0._dragBoundsUI = nil
+	end
 
 	if slot0.eventTrigger then
 		ClearEventTrigger(slot0.eventTrigger)

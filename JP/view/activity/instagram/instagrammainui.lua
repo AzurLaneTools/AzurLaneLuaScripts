@@ -4,6 +4,14 @@ slot0.getUIName = function(slot0)
 	return "InstagramMainUI"
 end
 
+slot0.preload = function(slot0, slot1)
+	pg.m02:sendNotification(GAME.REQ_OLD_INSTAGRAM_DATA, {
+		callback = function ()
+			uv0()
+		end
+	})
+end
+
 slot0.init = function(slot0)
 	slot0.bg = slot0._tf:Find("bg")
 	slot0.helpBtn = slot0._tf:Find("mainPanel/helpBtn")
@@ -74,9 +82,9 @@ end
 
 slot0.OnClose = function(slot0)
 	if isActive(slot0.juusBtn:Find("choose")) then
-		slot0:emit(InstagramMainMediator.JUUS_BACK_PRESSED)
+		slot0:emit(InstagramMainMediator.INS_BACK_PRESSED)
 	else
-		slot0:closeView()
+		slot0:emit(InstagramMainMediator.JUUS_BACK_PRESSED)
 	end
 end
 
@@ -85,7 +93,7 @@ slot0.ChangeJuusTip = function(slot0)
 end
 
 slot0.ChangeChatTip = function(slot0)
-	SetActive(slot0.chatBtn:Find("tip"), getProxy(InstagramChatProxy):ShouldShowTip())
+	SetActive(slot0.chatBtn:Find("tip"), getProxy(InstagramChatProxy):ShouldShowTip() and getProxy(InstagramProxy):ShouldShowOfficialAccountsTip())
 end
 
 slot0.willExit = function(slot0)

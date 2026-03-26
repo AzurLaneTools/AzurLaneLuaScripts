@@ -16094,6 +16094,37 @@ _G.pg.base.item_data_statistics[21058] = {
 }
 
 
+_G.pg.base.item_data_statistics[21059] = {
+	open_directly = 0,
+	name = "結晶：ケルン(META)",
+	type = 4,
+	display = "ケルン(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21059",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -28890,6 +28921,131 @@ _G.pg.base.item_data_statistics[30381] = {
 }
 
 
+_G.pg.base.item_data_statistics[30382] = {
+	open_directly = 1,
+	name = "装備外装箱(ナイトエージェント)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxnihongtegong",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30379",
+	id = 30382,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -30615,6 +30771,58 @@ _G.pg.base.item_data_statistics[30433] = {
 		{
 			9,
 			2116,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30434] = {
+	open_directly = 1,
+	name = "ランダム装備外装",
+	type = 11,
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111228",
+	id = 30434,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2117,
+			1
+		},
+		{
+			9,
+			2118,
+			1
+		},
+		{
+			9,
+			2119,
+			1
+		},
+		{
+			9,
+			2120,
 			1
 		}
 	},
@@ -44450,6 +44658,219 @@ _G.pg.base.item_data_statistics[30565] = {
 		{
 			9,
 			4329,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30566] = {
+	open_directly = 0,
+	name = "選択装備外装箱（ナイトエージェント）",
+	type = 13,
+	display = "使用すると、装備外装（ナイトエージェント）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxnihongtegongzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30566,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
 			1
 		}
 	},

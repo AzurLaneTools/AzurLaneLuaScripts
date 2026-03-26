@@ -989,12 +989,26 @@ slot0.UpdateStory = function(slot0)
 		end
 
 		setActive(slot25:Find("circle/progress"), slot24 == uv1)
+
+		if slot22:IsRecrew() == nil then
+			setActive(slot25:Find("recrew"), false)
+		else
+			setActive(slot25:Find("recrew"), true)
+			setActive(slot25:Find("recrew/recrewed"), slot29)
+			setActive(slot25:Find("recrew/not_recrew"), not slot29)
+			setText(slot25:Find("recrew/recrewed/label"), i18n("story_recrewed"))
+			setText(slot25:Find("recrew/not_recrew/label"), i18n("story_not_recrew"))
+		end
+
 		onButton(slot0, slot25, function ()
 			if uv0 == uv1 then
 				return
 			end
 
-			uv3:PlayStory(uv2:GetStoryName(), function ()
+			slot0 = uv2
+			slot1 = uv3
+
+			slot1:PlayStory(slot0:GetStoryName(), function ()
 				uv0:UpdateView()
 
 				uv0.needFocusStory = true

@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -24,19 +24,18 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					8
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -46,6 +45,32 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
 		}
 	},
 	{
@@ -53,10 +78,9 @@ pg.activity_banner = {
 		id = 3,
 		pic = "temp3",
 		param = {
-			"scene activity",
+			"scene core activity",
 			{
-				event = "ActivityMediator.OPEN_CULTIVATING_PLANT",
-				data = {}
+				coreName = "YunLongSPCoreActivityUI"
 			}
 		},
 		time = {
@@ -64,7 +88,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -75,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					9
 				},
 				{
 					16,
@@ -87,16 +111,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50479",
-		type = 3,
+		type = 2,
 		id = 4,
 		pic = "temp4",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -107,19 +136,18 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					8
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -128,35 +156,13 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
-		}
-	},
-	{
-		param = "50448",
-		time = "stop",
-		type = 3,
-		id = 6,
-		pic = "temp6"
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"dorm 3d select"
-		}
-	},
-	{
-		param = "50501",
-		type = 3,
-		id = 8,
-		pic = "temp8",
+		},
 		time = {
 			{
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -167,8 +173,110 @@ pg.activity_banner = {
 			{
 				{
 					2026,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
 					3,
 					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
+			"crusing"
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
 				},
 				{
 					16,
@@ -180,15 +288,11 @@ pg.activity_banner = {
 	},
 	{
 		time = "stop",
-		type = 3,
+		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = true
-			}
+			"LiquorFloor"
 		}
 	},
 	[90] = {
@@ -214,10 +318,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "水餃子|東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
@@ -266,12 +395,10 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
-			5,
-			7
-		},
-		[3] = {
 			4,
+			5,
 			6,
+			7,
 			8,
 			9
 		},

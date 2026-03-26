@@ -1,4 +1,5 @@
 slot0 = class("Live2dConst")
+slot0.l2d_bound_open = false
 slot0.l2d_arm_32 = false
 slot0.UnLoadL2dPating = nil
 

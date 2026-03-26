@@ -2663,7 +2663,7 @@ pg.child2_round = {
 			},
 			{
 				"tag2",
-				3300701
+				3300401
 			}
 		},
 		tarot_select = {

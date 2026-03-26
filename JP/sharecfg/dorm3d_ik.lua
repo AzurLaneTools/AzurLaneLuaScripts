@@ -36111,6 +36111,238 @@ pg.dorm3d_ik = {
 			777
 		}
 	},
+	[40099010] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 10517,
+		back_time = 0.6,
+		head_track = "",
+		controller = "PayBikeRightFootIK",
+		action_emote = "face_smile_start",
+		id = 40099010,
+		trigger_param = {
+			2,
+			"RightThigh"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"RightThigh"
+			},
+			{
+				"RightFoot"
+			}
+		},
+		rect = {
+			-550,
+			-30,
+			1200,
+			800
+		},
+		trigger_rect = {
+			-650,
+			-30,
+			1600,
+			1000
+		},
+		plane_rotation = {
+			{
+				0.108287,
+				-0.8532434,
+				0.2645511,
+				-0.4361907
+			},
+			{
+				-0.02251505,
+				0.3808557,
+				0.03198234,
+				0.9238068
+			}
+		},
+		plane_scale = {
+			{
+				0.1591991,
+				0.1629937,
+				0.3936299
+			},
+			{
+				0.58,
+				0.5,
+				1
+			}
+		},
+		timeline_action = {
+			"TimelineSelect",
+			777
+		}
+	},
+	[40099011] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 10517,
+		back_time = 0.4,
+		head_track = "",
+		controller = "PaySofaChestIK",
+		action_emote = "",
+		id = 40099011,
+		trigger_param = {
+			2,
+			"Chest"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-600,
+			-400,
+			1200,
+			800
+		},
+		trigger_rect = {
+			-700,
+			-500,
+			1400,
+			1000
+		},
+		plane_rotation = {
+			{
+				-0.2970835,
+				-0.750815,
+				0.3825343,
+				-0.4490944
+			},
+			{
+				-0.01540851,
+				0.9370964,
+				0.001428319,
+				0.3487276
+			},
+			{
+				0.03931627,
+				-0.9566563,
+				-0.1026707,
+				-0.2696697
+			}
+		},
+		plane_scale = {
+			{
+				0.1591991,
+				0.1629937,
+				0.3936299
+			},
+			{
+				0.1816713,
+				0.2236452,
+				1
+			},
+			{
+				0.1821147,
+				0.2645224,
+				1
+			}
+		},
+		timeline_action = {
+			"TimelineSelect",
+			777
+		}
+	},
+	[40099012] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 10517,
+		back_time = 0.4,
+		head_track = "",
+		controller = "PaySofaChestIK",
+		action_emote = "",
+		id = 40099012,
+		trigger_param = {
+			2,
+			"Chest"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-600,
+			-400,
+			1200,
+			800
+		},
+		trigger_rect = {
+			-700,
+			-500,
+			1400,
+			1000
+		},
+		plane_rotation = {
+			{
+				-0.2970835,
+				-0.750815,
+				0.3825343,
+				-0.4490944
+			},
+			{
+				-0.01540851,
+				0.9370964,
+				0.001428319,
+				0.3487276
+			},
+			{
+				0.03931627,
+				-0.9566563,
+				-0.1026707,
+				-0.2696697
+			}
+		},
+		plane_scale = {
+			{
+				0.1591991,
+				0.1629937,
+				0.3936299
+			},
+			{
+				0.1816713,
+				0.2236452,
+				1
+			},
+			{
+				0.1821147,
+				0.2645224,
+				1
+			}
+		},
+		timeline_action = {
+			"TimelineSelect",
+			777
+		}
+	},
 	[41071000] = {
 		action_back_time = 0,
 		tip_offset = "",
@@ -46829,6 +47061,9 @@ pg.dorm3d_ik = {
 		40099000,
 		40099001,
 		40099002,
+		40099010,
+		40099011,
+		40099012,
 		41071000,
 		41071001,
 		41072000,

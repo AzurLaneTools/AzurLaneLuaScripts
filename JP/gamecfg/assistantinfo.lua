@@ -129,6 +129,10 @@ slot1.assistantEvents = {
 	asmr_010 = {
 		action = "asmr_010",
 		dialog = "asmr_010"
+	},
+	feeling5 = {
+		action = "feeling5",
+		dialog = "feeling5"
 	}
 }
 slot1.assistantTouchParts = {

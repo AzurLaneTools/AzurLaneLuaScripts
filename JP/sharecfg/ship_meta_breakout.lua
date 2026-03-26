@@ -82,6 +82,10 @@ pg.ship_meta_breakout = setmetatable({
 		9702092,
 		9702093,
 		9702094,
+		9702101,
+		9702102,
+		9702103,
+		9702104,
 		9702111,
 		9702112,
 		9702113,
@@ -1495,6 +1499,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9702094,
 		item1 = 21055,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9702101] = {
+		breakout_view = "【焔追の灰-ケルン】習得/武器補正+2%",
+		item2 = 21059,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9702102,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702101,
+		item1 = 21059,
+		level = 10,
+		weapon_ids = {
+			80621
+		}
+	},
+	[9702102] = {
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
+		item2 = 21059,
+		pre_id = 9702101,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9702103,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702102,
+		item1 = 21059,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9702103] = {
+		breakout_view = "【焔追の灰-ケルン】習得/武器補正+5%",
+		item2 = 21059,
+		pre_id = 9702102,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9702104,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702103,
+		item1 = 21059,
+		level = 70,
+		weapon_ids = {
+			80622
+		}
+	},
+	[9702104] = {
+		breakout_view = "なし",
+		item2 = 21059,
+		pre_id = 9702103,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702104,
+		item1 = 21059,
 		level = 0,
 		weapon_ids = {}
 	},

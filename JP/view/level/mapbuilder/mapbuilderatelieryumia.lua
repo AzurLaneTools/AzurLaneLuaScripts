@@ -39,7 +39,7 @@ slot0.UpdateStory = function(slot0)
 	slot4 = 0
 
 	for slot8, slot9 in pairs(slot0.storyNodesDict) do
-		slot11 = slot9:IsActive(slot0.activity, slot0.ptActivity)
+		slot11 = slot9:IsActive(slot0.activity, slot0.sceneParent.ptActivity)
 		slot12 = slot9:IsReaded()
 
 		if not _G.isActive(slot0.storyHolder:Find(tostring(slot9.id))) and slot11 then

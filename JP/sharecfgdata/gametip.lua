@@ -37198,6 +37198,16 @@ _G.pg.base.gametip.child2_site_drop_item = {
 }
 
 
+_G.pg.base.gametip.child2_personal_tag1 = {
+	tip = "大人しい"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag2 = {
+	tip = "ワガママ"
+}
+
+
 _G.pg.base.gametip.child2_personal_id1_tag1 = {
 	tip = "大人しい"
 }
@@ -47570,116 +47580,6 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_title = {
-	tip = "経営任務"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_go = {
-	tip = "確認"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_get = {
-	tip = "受取"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_got = {
-	tip = "受取済"
-}
-
-
-_G.pg.base.gametip.LiquorFloor_gold_get = {
-	tip = "一括入手 "
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
-	tip = "春色旅籠Online"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
-	tip = "旅籠補給地"
-}
-
-
-_G.pg.base.gametip.loveactivity_help_tips = {
-	tip = {
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_2"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_3"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_4"
-			}
-		},
-		disableScroll = true,
-		pageMode = true,
-		defaultpage = 1,
-		ImageMode = true,
-		windowSize = {
-			x = 1263,
-			y = 873
-		},
-		windowPos = {
-			y = -70
-		},
-		helpSize = {
-			x = 1176,
-			y = 1024
-		}
-	}
-}
-
-
-_G.pg.base.gametip.spring_present_tips_btn = {
-	tip = "新春の想い"
-}
-
-
-_G.pg.base.gametip.spring_present_tips_time = {
-	tip = "開催期間:2.17 0時～3.3 23:59"
-}
-
-
-_G.pg.base.gametip.spring_present_tips0 = {
-	tip = "ランダム秘書艦機能をオフにしてからもう一度お試しください"
-}
-
-
-_G.pg.base.gametip.spring_present_tips1 = {
-	tip = "一番左の秘書艦枠に配置されている艦船の新春のお礼がメールボックスに送られます。続けますか？"
-}
-
-
-_G.pg.base.gametip.spring_present_tips2 = {
-	tip = "配置中の艦船から新春のお礼を受け取れません。秘書艦を変更して再度お試しください"
-}
-
-
-_G.pg.base.gametip.spring_present_tips3 = {
-	tip = "プレゼントがメールボックスに送られました！"
-}
-
-
 _G.pg.base.gametip.island_gift_tip_title = {
 	tip = "体力"
 }
@@ -48423,4 +48323,237 @@ _G.pg.base.gametip.child2_explorer_main_help = {
 			y = 1024
 		}
 	}
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "経営任務"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "一括入手 "
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "春色旅籠Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "旅籠補給地"
+}
+
+
+_G.pg.base.gametip.YunLongSPCoreActivity_subtitle_1 = {
+	tip = "ワンダラー募集計画"
+}
+
+
+_G.pg.base.gametip.YunLongSPCoreActivity_subtitle_2 = {
+	tip = "ワンダラー補給地"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "新春の想い"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "開催期間:2.17 0時～3.3 23:59"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "ランダム秘書艦機能をオフにしてからもう一度お試しください"
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "一番左の秘書艦枠に配置されている艦船の新春のお礼がメールボックスに送られます。続けますか？"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "配置中の艦船から新春のお礼を受け取れません。秘書艦を変更して再度お試しください"
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "プレゼントがメールボックスに送られました！"
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2604 = {
+	tip = "2026/4/1-2026/5/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ケルン(META)」</color>などを入手可能"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2604 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2026.4.1（水）0:00～2026.5.31（日）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「ケルン(META)」、SP報酬からは軽巡洋艦「アヴローラ」の限定着せ替え「微酔の潮風」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+ さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+ ①通常報酬
+ 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+ ②SP報酬
+ 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+ シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+ ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+ 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません。
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2604 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません……
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2604 = {
+	tip = "シーズン任務・28期"
+}
+
+
+_G.pg.base.gametip.add_friend_fail_tip9 = {
+	tip = "フレンド申請に失敗しました"
+}
+
+
+_G.pg.base.gametip.juusoa_title = {
+	tip = "饅頭ニュース"
+}
+
+
+_G.pg.base.gametip.story_recrewed = {
+	tip = "募集済"
+}
+
+
+_G.pg.base.gametip.story_not_recrew = {
+	tip = "未募集"
+}
+
+
+_G.pg.base.gametip.multiple_endings_tip = {
+	tip = {
+		{
+			info = "エンディング開放：\nストーリー中の一部箇所に<color=#92fc63>「重要選択」</color>が出現します。<color=#92fc63>「重要選択」</color>は到達できるエンディングに影響します。ストーリーを読み直し<color=#92fc63>「重要選択」</color>を選び直すことで、違うエンディングを解放できます。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.l2d_tip_on = {
+	tip = "L2D演出tips機能がオンになりました"
+}
+
+
+_G.pg.base.gametip.l2d_tip_off = {
+	tip = "L2D演出tips機能がオフになりました"
 }

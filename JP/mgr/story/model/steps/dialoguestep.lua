@@ -54,6 +54,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.subActorNameColor = slot1.factiontagColor or "#FFFFFF"
 	slot0.withoutActorName = slot1.withoutActorName
 	slot0.say = slot1.say
+	slot0.sayColor = slot1.sayColor or COLOR_WHITE
 	slot0.dynamicBgType = slot1.dynamicBgType
 	slot0.fontSize = slot1.fontsize
 	slot0.side = slot1.side
@@ -385,6 +386,10 @@ slot0.GetContent = function(slot0)
 	end
 
 	return (PLATFORM_CODE == PLATFORM_US or SwitchSpecialChar(HXSet.hxLan(slot1), true)) and HXSet.hxLan(slot1)
+end
+
+slot0.GetContentColor = function(slot0)
+	return slot0.sayColor or COLOR_WHITE
 end
 
 slot0.GetNameWithColor = function(slot0)

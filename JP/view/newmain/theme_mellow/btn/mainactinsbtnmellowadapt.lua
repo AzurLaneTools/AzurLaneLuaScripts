@@ -5,7 +5,7 @@ slot0.GetContainer = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot1 = getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramChatProxy):ShouldShowTip()
+	slot1 = getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramChatProxy):ShouldShowTip()
 
 	setActive(slot0._tf:Find("tip"), slot1)
 

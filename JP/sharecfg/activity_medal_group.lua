@@ -572,6 +572,46 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50482] = {
+		id = 50482,
+		entrance_picture = "medalAlbum/50482",
+		group_name = "漫游者招募计划",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50482,
+				{
+					21914,
+					21915,
+					21916,
+					21917,
+					21918,
+					21919,
+					21920,
+					21921,
+					21922,
+					21923
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "YunLongSPMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				332,
+				1
+			},
+			{
+				8,
+				65886,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -587,6 +627,7 @@ pg.activity_medal_group = {
 		50295,
 		50359,
 		50405,
-		50441
+		50441,
+		50482
 	}
 }

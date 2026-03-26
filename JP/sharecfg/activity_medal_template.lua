@@ -1428,6 +1428,102 @@ pg.activity_medal_template = {
 		id = 5044108,
 		medal_asset = "ActivityMedal/5044108"
 	},
+	[5048201] = {
+		activity_medal_desc = "ネオンライトシティは眠らない",
+		next_medal = 0,
+		item = 65876,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "1",
+		task_id = 21915,
+		activity_medal_name = "ステッカー：ネオンシティ",
+		id = 5048201,
+		medal_asset = "ActivityMedal/5048201"
+	},
+	[5048202] = {
+		activity_medal_desc = "Catch 'er By Surprise！",
+		next_medal = 0,
+		item = 65877,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "2",
+		task_id = 21916,
+		activity_medal_name = "ステッカー：エスケープ",
+		id = 5048202,
+		medal_asset = "ActivityMedal/5048202"
+	},
+	[5048203] = {
+		activity_medal_desc = "膨大なデータをリアルタイムで分析する",
+		next_medal = 0,
+		item = 65878,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "3",
+		task_id = 21917,
+		activity_medal_name = "ステッカー：プロジェクション",
+		id = 5048203,
+		medal_asset = "ActivityMedal/5048203"
+	},
+	[5048204] = {
+		activity_medal_desc = "捕まっているように装って、それから……あれ？解けない……！？",
+		next_medal = 0,
+		item = 65879,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "4",
+		task_id = 21918,
+		activity_medal_name = "ステッカー：セルフ拘束",
+		id = 5048204,
+		medal_asset = "ActivityMedal/5048204"
+	},
+	[5048205] = {
+		activity_medal_desc = "顔はもう割れている。逃げられないぞ",
+		next_medal = 0,
+		item = 65880,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "5",
+		task_id = 21919,
+		activity_medal_name = "ステッカー：全域指名手配",
+		id = 5048205,
+		medal_asset = "ActivityMedal/5048205"
+	},
+	[5048206] = {
+		activity_medal_desc = "捕まえられないなら……お宝は私のものよ",
+		next_medal = 0,
+		item = 65881,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "6",
+		task_id = 21920,
+		activity_medal_name = "ステッカー：予告状",
+		id = 5048206,
+		medal_asset = "ActivityMedal/5048206"
+	},
+	[5048207] = {
+		activity_medal_desc = "ヘッドホンをつけて、自分の世界にダイブ",
+		next_medal = 0,
+		item = 65882,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "7",
+		task_id = 21921,
+		activity_medal_name = "ステッカー：ディープダイブ",
+		id = 5048207,
+		medal_asset = "ActivityMedal/5048207"
+	},
+	[5048208] = {
+		activity_medal_desc = "ワンダラー、アセンブル！",
+		next_medal = 0,
+		item = 65883,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "8",
+		task_id = 21922,
+		activity_medal_name = "ステッカー：エンブレム",
+		id = 5048208,
+		medal_asset = "ActivityMedal/5048208"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1577,6 +1673,16 @@ pg.activity_medal_template = {
 			5044106,
 			5044107,
 			5044108
+		},
+		[50482] = {
+			5048201,
+			5048202,
+			5048203,
+			5048204,
+			5048205,
+			5048206,
+			5048207,
+			5048208
 		}
 	},
 	all = {
@@ -1698,6 +1804,14 @@ pg.activity_medal_template = {
 		5044105,
 		5044106,
 		5044107,
-		5044108
+		5044108,
+		5048201,
+		5048202,
+		5048203,
+		5048204,
+		5048205,
+		5048206,
+		5048207,
+		5048208
 	}
 }

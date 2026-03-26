@@ -2,13 +2,38 @@ pg = pg or {}
 pg.shop_banner_template = {
 	[10] = {
 		name = "banner_big",
-		time = "stop",
 		type = 2,
 		time_lable = 1,
 		pic = "shopbanner/shop_skin",
 		id = 10,
 		relation_param = "",
 		order = 10,
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		param = {
 			"scene skinshop",
 			{}
@@ -26,8 +51,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					3,
-					19
+					2,
+					23
 				},
 				{
 					0,
@@ -38,8 +63,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					4,
-					1
+					2,
+					25
 				},
 				{
 					23,
@@ -500,7 +525,7 @@ pg.shop_banner_template = {
 				{
 					2026,
 					3,
-					12
+					26
 				},
 				{
 					0,
@@ -511,8 +536,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					3,
-					25
+					4,
+					15
 				},
 				{
 					23,

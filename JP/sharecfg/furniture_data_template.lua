@@ -195,6 +195,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100002,
 			100003,
 			100004,
@@ -276,6 +277,7 @@ pg.furniture_data_template = setmetatable({
 			100080,
 			100081,
 			100082,
+			100083,
 			200001,
 			200002,
 			200003,
@@ -3721,6 +3723,27 @@ pg.furniture_data_template = setmetatable({
 			335119,
 			335301,
 			335302
+		},
+		[136] = {
+			336001,
+			336002,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_tag = {
@@ -5932,7 +5955,21 @@ pg.furniture_data_template = setmetatable({
 			335115,
 			335116,
 			335117,
-			335118
+			335118,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114
 		},
 		{
 			1108,
@@ -6290,6 +6327,7 @@ pg.furniture_data_template = setmetatable({
 			100080,
 			100081,
 			100082,
+			100083,
 			31101,
 			54104,
 			54105
@@ -6368,7 +6406,8 @@ pg.furniture_data_template = setmetatable({
 			319,
 			321,
 			323,
-			331
+			331,
+			332
 		},
 		[7] = {
 			223,
@@ -6582,7 +6621,8 @@ pg.furniture_data_template = setmetatable({
 			331309,
 			333119,
 			334123,
-			335119
+			335119,
+			336115
 		},
 		[4] = {
 			1001,
@@ -6704,7 +6744,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		[3] = {
 			1002,
@@ -6827,7 +6868,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		[5] = {
 			1301,
@@ -7216,7 +7258,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_type = {
@@ -7341,7 +7385,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		[7] = {
 			1,
@@ -7512,6 +7557,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100002,
 			100004,
 			100005,
@@ -9773,7 +9819,22 @@ pg.furniture_data_template = setmetatable({
 			335116,
 			335117,
 			335118,
-			335119
+			335119,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115
 		},
 		[11] = {
 			143,
@@ -9796,6 +9857,7 @@ pg.furniture_data_template = setmetatable({
 			100071,
 			100073,
 			100077,
+			100083,
 			30123,
 			35128,
 			36125,
@@ -10222,7 +10284,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		},
 		[13] = {
 			100015,
@@ -10356,7 +10420,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		[5] = {
 			1101,
@@ -10924,6 +10989,7 @@ pg.furniture_data_template = setmetatable({
 		329,
 		330,
 		331,
+		332,
 		100002,
 		100003,
 		100004,
@@ -11005,6 +11071,7 @@ pg.furniture_data_template = setmetatable({
 		100080,
 		100081,
 		100082,
+		100083,
 		200001,
 		200002,
 		200003,
@@ -14207,7 +14274,26 @@ pg.furniture_data_template = setmetatable({
 		335118,
 		335119,
 		335301,
-		335302
+		335302,
+		336001,
+		336002,
+		336101,
+		336102,
+		336103,
+		336104,
+		336105,
+		336106,
+		336107,
+		336108,
+		336109,
+		336110,
+		336111,
+		336112,
+		336113,
+		336114,
+		336115,
+		336301,
+		336302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23969,6 +24055,50 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[332] = {
+		can_rotate = 0,
+		describe = "ソーン・シティの市政管理ビル。ルールと指令の中枢たるそれは、夜闇に静かに佇んでいる",
+		gain_by = "ワンダラー募集計画",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "市政管理ビル",
+		advice = 0,
+		id = 332,
+		tag = 8,
+		comfortable = 0,
+		icon = "tegongdushixunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tegongdushixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		name = "友情の空気ポンプ",
@@ -29716,6 +29846,91 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100083] = {
+		advice = 0,
+		name = "ファンタズム・フライヤー",
+		count = 1,
+		type = 11,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "chaojitegongfengzhengicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 100083,
+		comfortable = 0,
+		describe = "ネオンの輝きの中で、あなただけの軌跡を描こう",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chaojitegongfengzhengB",
+				"normal"
+			},
+			{
+				"chaojitegongfengzhengT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action4",
+						nil,
+						"tuozhuai2"
+					}
+				},
+				{
+					[3] = {
+						"action1",
+						"tuozhuai2",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -174577,6 +174792,959 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"qiangshicj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336001] = {
+		can_rotate = 0,
+		describe = "コマンドセンターでデータストリームに包まれながら都市を見下ろそう",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/dibantg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "指揮室の床",
+		advice = 0,
+		tag = 4,
+		id = 336001,
+		icon = "dibantgicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336002] = {
+		can_rotate = 0,
+		describe = "コマンドセンターでデータストリームに包まれながら都市を見下ろそう",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "指揮室の壁",
+		advice = 0,
+		id = 336002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbitgicon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336101] = {
+		advice = 0,
+		name = "指揮室操作台",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "caozuotaitgicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 136,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 336101,
+		comfortable = 4,
+		describe = "複数の操作パネルを組み合わせたコンソール。ボタンの押し間違いに注意！",
+		dorm_id = 0,
+		tag = 1,
+		spine_action_replace = "",
+		size = {
+			14,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caozuotaitgB",
+				"normal"
+			},
+			{
+				"caozuotaitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				-1
+			}
+		},
+		interAction_group = {}
+	},
+	[336102] = {
+		can_rotate = 0,
+		describe = "生体認証クリア、アクセスを許可します",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮室安全扉",
+		advice = 0,
+		id = 336102,
+		tag = 1,
+		comfortable = 4,
+		icon = "damentgicon",
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"damentg",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336103] = {
+		can_rotate = 0,
+		describe = "標準の物資収納ボックス。各種装備やパーツを保管している",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/daxiangzitg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮室収納箱",
+		advice = 0,
+		tag = 1,
+		id = 336103,
+		icon = "daxiangzitgicon",
+		comfortable = 1,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336104] = {
+		can_rotate = 0,
+		describe = "高精度3D空間イメージング装置。都市の全体像をリアルタイムで投影する",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "都市プロジェクション",
+		advice = 0,
+		id = 336104,
+		tag = 1,
+		comfortable = 2,
+		icon = "ditutgicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ditutg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336105] = {
+		can_rotate = 0,
+		describe = "高密度データ演算センター。オペレーションに演算リソースを提供してくれる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮室サーバー",
+		advice = 0,
+		id = 336105,
+		tag = 1,
+		comfortable = 2,
+		icon = "fuwuqitgicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fuwuqitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336106] = {
+		can_rotate = 0,
+		describe = "液冷放熱と静音エアフロー設計を採用した筐体。高効率で動作音も静か",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/jixiangtg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮室筐体",
+		advice = 0,
+		tag = 1,
+		id = 336106,
+		icon = "jixiangtgicon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336107] = {
+		can_rotate = 0,
+		describe = "軸調整が可能なモニター。多角的な情報分析ニーズに対応している",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮室モニター図",
+		advice = 0,
+		id = 336107,
+		tag = 1,
+		comfortable = 3,
+		icon = "pingmuzutgicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pingmuzutg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336108] = {
+		can_rotate = 0,
+		describe = "ホログラムで出撃中！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ホログラム",
+		advice = 0,
+		id = 336108,
+		tag = 1,
+		comfortable = 2,
+		icon = "quanxitgicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"quanxitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336109] = {
+		advice = 0,
+		name = "指揮室ワークデスク",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "shuzhuotgicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 136,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		id = 336109,
+		comfortable = 3,
+		describe = "デスクのハードウェアがアップグレードしたことで作業効率もぐんと上昇！",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuzhuotgB",
+				"normal"
+			},
+			{
+				"shuzhuotgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336110] = {
+		can_rotate = 0,
+		describe = "腰を屈めて体を捻らせ、レーザーに触れないように！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "レーザー発生装置",
+		advice = 0,
+		id = 336110,
+		tag = 1,
+		comfortable = 2,
+		icon = "tanceqitgicon",
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tanceqitg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336111] = {
+		can_rotate = 0,
+		describe = "ターゲット確認、直ちに出発するピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "エージェント饅頭",
+		advice = 0,
+		id = 336111,
+		tag = 1,
+		comfortable = 3,
+		icon = "tegongjiutgicon",
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tegongjiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336112] = {
+		can_rotate = 0,
+		describe = "雑貨は収納ボックスにお任せ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/xiangzikaitg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮室雑貨箱",
+		advice = 0,
+		tag = 1,
+		id = 336112,
+		icon = "xiangzikaitgicon",
+		comfortable = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336113] = {
+		can_rotate = 0,
+		describe = "今日も指揮室は平和ピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "パトロール饅頭",
+		advice = 0,
+		id = 336113,
+		tag = 1,
+		comfortable = 2,
+		icon = "xunluojiutgicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xunluojiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336114] = {
+		can_rotate = 0,
+		describe = "ピッ——ピッ——ピヨ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮室スピーカー",
+		advice = 0,
+		id = 336114,
+		tag = 1,
+		comfortable = 1,
+		icon = "yinxiangtgicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinxiangtg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336115] = {
+		advice = 0,
+		name = "指揮室スキャナー",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "saomiaoyitgicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 136,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 336115,
+		comfortable = 4,
+		describe = "マルチスペクトルスキャンとリアルタイム3Dレンダリングに対応。身元特定や装備分析などに利用可能",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"saomiaoyitgB",
+				"normal"
+			},
+			{
+				"saomiaoyitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336301] = {
+		can_rotate = 1,
+		describe = "監視映像をリアルタイム投影し、全体の動向が一目瞭然",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		count = 1,
+		name = "指揮室モニター",
+		advice = 0,
+		id = 336301,
+		tag = 5,
+		comfortable = 4,
+		icon = "dapingtgicon",
+		size = {
+			18,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dapingtg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336302] = {
+		can_rotate = 1,
+		describe = "容疑者リスト更新完了、直ちに逮捕状を発行する！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "指揮室指名手配書",
+		advice = 0,
+		id = 336302,
+		tag = 5,
+		comfortable = 3,
+		icon = "tongjilingtgicon",
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tongjilingtg",
 				"normal"
 			}
 		},

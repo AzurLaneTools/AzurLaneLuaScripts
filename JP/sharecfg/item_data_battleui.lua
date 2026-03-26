@@ -193,6 +193,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[114] = {
+		name = "アイビー",
+		key = "SkinNormal_20260326",
+		display_icon = "ui_114",
+		unlock = "クルーズパス28期報酬",
+		is_unlock = 1,
+		rare = 3,
+		desc = "画面端から生え茂るアイビーの隙間に幻想的な光が輝く。全ての戦いに、古の森のミステリアスさと生命力を添えてくれる",
+		id = 114,
+		icon = "114",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "クリスマス",
 		key = "SkinNormal_20241209",
@@ -326,6 +341,7 @@ pg.item_data_battleui = {
 		111,
 		112,
 		113,
+		114,
 		201,
 		202,
 		203,

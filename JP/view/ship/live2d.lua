@@ -1047,6 +1047,14 @@ slot0.ResetL2dData = function(slot0)
 	slot0.ableFlag = nil
 end
 
+slot0.IsPlaying = function(slot0)
+	return slot0.isPlaying
+end
+
+slot0.SetLive2dPlayingCallback = function(slot0, slot1)
+	slot0.live2dPlayingCallback = slot1
+end
+
 slot0.setPurchaseOffset = function(slot0, slot1)
 	if not slot0.live2dData.ship:GetSkinConfig().purchase_offset or #slot2 < 3 then
 		return
@@ -1219,6 +1227,10 @@ slot0.live2dActionChange = function(slot0, slot1)
 	slot0.isPlaying = slot1
 
 	slot0:updateDragsSateData()
+
+	if slot0.live2dPlayingCallback then
+		slot0.live2dPlayingCallback(slot1)
+	end
 end
 
 slot0.setPosition = function(slot0, slot1)
@@ -1242,6 +1254,15 @@ slot0.updateDragsSateData = function(slot0)
 			slot0.drags[slot5]:updateStateData(slot1)
 		end
 	end
+end
+
+slot0.GetLive2DStateData = function(slot0)
+	return {
+		idleIndex = slot0.idleIndex,
+		isPlaying = slot0.isPlaying,
+		ignoreReact = slot0.ignoreReact,
+		actionName = slot0.playActionName
+	}
 end
 
 slot0.CheckStopDrag = function(slot0)
@@ -1282,6 +1303,23 @@ slot0.changeDragParameter = function(slot0, slot1, slot2)
 			end
 		end
 	end
+end
+
+slot0.GetDragBounds = function(slot0)
+	if not slot0.dragRenders or #slot0.dragRenders == 0 then
+		slot0.dragRenders = {}
+
+		if slot0.drags then
+			for slot4 = 1, #slot0.drags do
+				if slot0.liveCom:GetDrawablePart(slot0.drags[slot4].drawAbleName) then
+					slot0.drags[slot4]:IsTouchAble()
+					table.insert(slot0.dragRenders, GetComponent(slot5, typeof(MeshRenderer)))
+				end
+			end
+		end
+	end
+
+	return slot0.dragRenders
 end
 
 slot0.setSortingLayer = function(slot0, slot1)
@@ -1370,6 +1408,7 @@ slot0.Dispose = function(slot0)
 		slot0._go = nil
 	end
 
+	slot0.live2dPlayingCallback = nil
 	slot0.state = uv0.STATE_DISPOSE
 end
 
