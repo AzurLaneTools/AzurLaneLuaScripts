@@ -315,7 +315,7 @@ slot0.ShowNodeDetail = function(slot0, slot1)
 
 	slot4 = slot0.detailView
 
-	setText(slot4:Find("info/desc"), slot2:GetDesc())
+	setText(slot4:Find("info/desc/content"), slot2:GetDesc())
 
 	slot5 = slot0.detailView
 

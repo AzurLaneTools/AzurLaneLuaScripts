@@ -373,7 +373,18 @@ temp = function()
 		["劳"] = {
 			["迪"] = {
 				["亚"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -1308,6 +1319,17 @@ temp = function()
 			["."] = {
 				["改"] = {
 					this = true
+				}
+			},
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
 				}
 			}
 		},
@@ -5589,6 +5611,26 @@ end
 temp()
 
 temp = function()
+	uv0["貘"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["貀"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["豼"] = {
 		this = {
 			this = true
@@ -6360,6 +6402,16 @@ temp()
 
 temp = function()
 	uv0["䳆"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["靇"] = {
 		this = {
 			this = true
 		}

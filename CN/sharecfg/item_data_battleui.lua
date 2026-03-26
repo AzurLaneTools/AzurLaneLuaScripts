@@ -193,6 +193,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[114] = {
+		name = "精灵古藤",
+		key = "SkinNormal_20260326",
+		display_icon = "ui_114",
+		unlock = "世界巡游二十八期获取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "翠绿藤蔓在界面边生长，精灵微光于叶片间明灭，让每一次交锋都染上古老森林的神秘与生机。",
+		id = 114,
+		icon = "114",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "圣诞雪境",
 		key = "SkinNormal_20241209",
@@ -326,6 +341,7 @@ pg.item_data_battleui = {
 		111,
 		112,
 		113,
+		114,
 		201,
 		202,
 		203,

@@ -2003,5 +2003,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "吉田有里",
 		code = 501
+	},
+	{
+		actor_name = "野村香菜子 ",
+		code = 502
 	}
 }

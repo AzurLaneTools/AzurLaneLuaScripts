@@ -202,6 +202,12 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 				end
 			end
 
+			if slot0:getAnimationExist("get") then
+				slot0:SetOnceAction("get", nil, function ()
+					uv0:SetAction(uv0:getIdleName(), 0)
+				end, true)
+			end
+
 			uv0.loading = false
 
 			uv1()

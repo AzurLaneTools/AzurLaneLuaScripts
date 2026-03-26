@@ -16539,5 +16539,131 @@ pg.base.ship_skin_template_12 = {
 				}
 			}
 		}
+	},
+	[502073] = {
+		name = "秋夜漫游",
+		change_skin = "",
+		desc = "让您久等了。准备衣服和灯笼花了一些时间……嗯，您说要“夜游”，我便仿照着古人做了一点点准备。我们出发吧？",
+		illustrator2 = -1,
+		ship_group = 50207,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "haitian_4",
+		lover_hand = "hand_2_02",
+		skin_type = 4,
+		shop_type_id = 8,
+		l2d_ignore_drag = 0,
+		hand_id = 15,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip02",
+		bg_sp = "",
+		bg = "174",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 502073,
+		voice_actor_2 = 323,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "haitian_4",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 70925,
+		voice_actor = 301,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.195,
+					1.038,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.094,
+					1.023,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.091,
+					1.1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2.392,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

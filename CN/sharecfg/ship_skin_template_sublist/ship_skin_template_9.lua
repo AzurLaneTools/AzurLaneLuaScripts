@@ -1,391 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
-	[303080] = {
-		name = "{namecode:64}",
-		change_skin = "",
-		desc = "{namecode:63}级重巡洋舰二番舰—{namecode:64}",
-		illustrator2 = -1,
-		ship_group = 30308,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "nazhi",
-		lover_hand = "hand_1_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip03",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 303080,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "nazhi",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 63,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = 20,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.781,
-					0.548,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.781,
-					0.548,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.161,
-					0.189,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.781,
-					0.548,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.498,
-							0.298,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.44,
-							2.15,
-							-0.34
-						}
-					}
-				}
-			}
-		}
-	},
-	[303089] = {
-		name = "{namecode:64}.改",
-		change_skin = "",
-		desc = "怎么样？这可是经过改造后更加完美的{namecode:64}！这下指挥官就算再怎么不坦率，也会老老实实的认同我的实力了吧？为了适应新舰装最近都熬到很晚？……才，才没那回事！",
-		illustrator2 = -1,
-		ship_group = 30308,
-		group_index = 9,
-		purchase_offset = "",
-		painting = "nazhi_g",
-		lover_hand = "hand_1_02",
-		skin_type = 2,
-		shop_type_id = 9997,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip03",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 303089,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "nazhi_g",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 63,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = 20,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.021,
-					1.622,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.951,
-					1.604,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.879,
-					1.807,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.572,
-							2.29,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[303090] = {
-		name = "{namecode:144}",
-		change_skin = "",
-		desc = "{namecode:63}级重巡洋舰三番舰—{namecode:144}",
-		illustrator2 = -1,
-		ship_group = 30309,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "zubing",
-		lover_hand = "hand_2_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 303090,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "zubing",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 138,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.21,
-					0.93,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					0.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.161,
-					0.189,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.23,
-					0.95,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.47,
-							-0.34
-						}
-					}
-				}
-			}
-		}
-	},
 	[303091] = {
 		name = "幕间小憩",
 		change_skin = "",
@@ -3257,6 +2872,160 @@ pg.base.ship_skin_template_9 = {
 			}
 		}
 	},
+	[303131] = {
+		name = "凛然的猎心杀手",
+		change_skin = "",
+		desc = "{namecode:68}，正在搜寻任务目标——嗯……？为什么会和目标正面撞上……啧，既然被发现了，那就直接决胜负吧，指挥官！",
+		illustrator2 = -1,
+		ship_group = 30313,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "moye_2",
+		lover_hand = "hand_1_02",
+		skin_type = 4,
+		shop_type_id = 12,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "154",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 303131,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "moye_2",
+		l2d_se = "",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71321,
+		voice_actor = 87,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.967,
+					0.731,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.066,
+					0.735,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.037,
+					0.053,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.901,
+					2.199,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.763,
+							2.428,
+							0
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1609,
+					-778,
+					2,
+					0,
+					128,
+					2
+				},
+				{
+					-645,
+					497,
+					2,
+					155,
+					0,
+					2
+				},
+				{
+					-167,
+					-345,
+					2,
+					0,
+					-127,
+					2
+				}
+			}
+		}
+	},
 	[303140] = {
 		name = "{namecode:69}",
 		change_skin = "",
@@ -3503,6 +3272,176 @@ pg.base.ship_skin_template_9 = {
 							0
 						}
 					}
+				}
+			}
+		}
+	},
+	[303142] = {
+		name = "偷心怪盗",
+		change_skin = "",
+		desc = "呜欸？！好密集的红外线，总算是惊险躲过啦……但、但是下一步该怎么做才好呢……？",
+		illustrator2 = -1,
+		ship_group = 30314,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "niaohai_3",
+		lover_hand = "hand_1_02",
+		skin_type = 4,
+		shop_type_id = 12,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "494",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		special_effects = "",
+		id = 303142,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "niaohai_3",
+		l2d_se = "",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71320,
+		voice_actor = 123,
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-87.8,
+			-1033,
+			0,
+			1.33
+		},
+		spine_offset_profile = {
+			-18.6,
+			-986.1,
+			0,
+			1.278
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.006,
+					0.84,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.121,
+					0.993,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.107,
+					0.045,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.799,
+					2.324,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.763,
+							2.514,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-44.8,
+			-736.9,
+			0,
+			0.985
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1662,
+					-584,
+					2,
+					0,
+					119,
+					2
+				},
+				{
+					-661,
+					903.75,
+					2,
+					126,
+					0,
+					2
+				},
+				{
+					-255,
+					-201.52,
+					2,
+					0,
+					-113,
+					2
 				}
 			}
 		}
@@ -17359,6 +17298,228 @@ pg.base.ship_skin_template_9 = {
 					0,
 					-151,
 					2
+				}
+			}
+		}
+	},
+	[306090] = {
+		name = "{namecode:104}",
+		change_skin = "",
+		desc = "{namecode:88}级轻型航空母舰—{namecode:104}",
+		illustrator2 = -1,
+		ship_group = 30609,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "qiandaitian",
+		lover_hand = "hand_2_02",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip02",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 306090,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "qiandaitian",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 244,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.513,
+					1.148,
+					0
+				}
+			},
+			plane = {
+				{
+					1.572,
+					1.175,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.27,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[306091] = {
+		name = "碧波灿烂之日",
+		change_skin = "",
+		desc = "哼哼哼~今天没有别的安排，唯一的任务就是——尽情享受海边的假日！指挥官，切换到假期模式了吗？",
+		illustrator2 = -1,
+		ship_group = 30609,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "qiandaitian_2",
+		lover_hand = "hand_2_02",
+		skin_type = 4,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip02",
+		bg_sp = "",
+		bg = "106",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 306091,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "qiandaitian_2",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 70409,
+		voice_actor = 244,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.679,
+					1.103,
+					0
+				}
+			},
+			plane = {
+				{
+					1.488,
+					1.128,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.27,
+							0
+						}
+					}
 				}
 			}
 		}

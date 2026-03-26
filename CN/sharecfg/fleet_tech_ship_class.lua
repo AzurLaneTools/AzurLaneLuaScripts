@@ -1537,7 +1537,9 @@ pg.fleet_tech_ship_class = {
 			30213,
 			30214,
 			30226,
-			30227
+			30227,
+			30228,
+			30229
 		}
 	},
 	[30205] = {
@@ -1948,6 +1950,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 104,
 		nation = 3,
 		ships = {
+			30717,
 			30712
 		}
 	},
@@ -4144,6 +4147,17 @@ pg.fleet_tech_ship_class = {
 			970209
 		}
 	},
+	[970210] = {
+		shiptype = 2,
+		name = "科隆·META",
+		t_level = 3,
+		id = 970210,
+		t_level_1 = 20,
+		nation = 97,
+		ships = {
+			970210
+		}
+	},
 	[970211] = {
 		shiptype = 2,
 		name = "雷根斯堡·META",
@@ -4909,6 +4923,7 @@ pg.fleet_tech_ship_class = {
 		970207,
 		970208,
 		970209,
+		970210,
 		970211,
 		970301,
 		970302,

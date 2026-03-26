@@ -1,228 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_10 = {
-	[306090] = {
-		name = "{namecode:104}",
-		change_skin = "",
-		desc = "{namecode:88}级轻型航空母舰—{namecode:104}",
-		illustrator2 = -1,
-		ship_group = 30609,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "qiandaitian",
-		lover_hand = "hand_2_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 306090,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "qiandaitian",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 244,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.513,
-					1.148,
-					0
-				}
-			},
-			plane = {
-				{
-					1.572,
-					1.175,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.27,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[306091] = {
-		name = "碧波灿烂之日",
-		change_skin = "",
-		desc = "哼哼哼~今天没有别的安排，唯一的任务就是——尽情享受海边的假日！指挥官，切换到假期模式了吗？",
-		illustrator2 = -1,
-		ship_group = 30609,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "qiandaitian_2",
-		lover_hand = "hand_2_02",
-		skin_type = 4,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "106",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 306091,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "qiandaitian_2",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 70409,
-		voice_actor = 244,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.679,
-					1.103,
-					0
-				}
-			},
-			plane = {
-				{
-					1.488,
-					1.128,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.27,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[306092] = {
 		name = "荷畔酒香",
 		change_skin = "",
@@ -7498,6 +7276,385 @@ pg.base.ship_skin_template_10 = {
 					2
 				}
 			}
+		}
+	},
+	[307170] = {
+		name = "{namecode:209}",
+		change_skin = "",
+		desc = "{namecode:209}级航空母舰一一{namecode:209}",
+		illustrator2 = -1,
+		ship_group = 30717,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "yunlong",
+		lover_hand = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 307170,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "yunlong",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 286,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.786,
+					2.312,
+					0
+				}
+			},
+			plane = {
+				{
+					1.532,
+					1.029,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307171] = {
+		name = "溶于重重夜色",
+		desc = "这种程度的任务，只是小菜一碟。这世上，没有水无法侵入的墙缝，也没有水击不穿的石。指挥官就好好看着，姐姐大人如何渗入这密不透风的防御网吧~",
+		illustrator2 = -1,
+		ship_group = 30717,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "yunlong_2",
+		lover_hand = "hand_1_02",
+		skin_type = 4,
+		shop_type_id = 12,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "154",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		special_effects = "",
+		id = 307171,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "yunlong_2",
+		l2d_se = "",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71317,
+		voice_actor = 286,
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			10,
+			7,
+			2
+		},
+		change_skin = {
+			group = 30717,
+			action = "changeBlack",
+			next = 307172,
+			state = 4,
+			index = 1,
+			hide_shop = 1
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-38.6,
+			-892.9,
+			0,
+			0.83
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.745,
+					2.34,
+					0
+				}
+			},
+			plane = {
+				{
+					1.531,
+					1.098,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-10.6,
+			-917.32,
+			0,
+			0.825
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-148,
+					54,
+					0.93,
+					0,
+					0,
+					15
+				}
+			}
+		}
+	},
+	[307172] = {
+		name = "溶于重重夜色",
+		desc = "这种程度的任务，只是小菜一碟。这世上，没有水无法侵入的墙缝，也没有水击不穿的石。指挥官就好好看着，姐姐大人如何渗入这密不透风的防御网吧~",
+		illustrator2 = -1,
+		ship_group = 30717,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "yunlong_3",
+		lover_hand = "hand_1_02",
+		skin_type = 4,
+		shop_type_id = 12,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "154",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 307172,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "yunlong_2",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 286,
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			10,
+			7,
+			2
+		},
+		change_skin = {
+			group = 30717,
+			action = "changeBlack",
+			next = 307171,
+			state = 4,
+			index = 2,
+			hide_shop = 1
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.745,
+					2.34,
+					0
+				}
+			},
+			plane = {
+				{
+					1.531,
+					1.098,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			162.9,
+			-727.7,
+			0,
+			0.64
 		}
 	},
 	[308010] = {

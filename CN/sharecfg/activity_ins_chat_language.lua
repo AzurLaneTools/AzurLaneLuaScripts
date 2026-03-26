@@ -8533,6 +8533,228 @@ pg.activity_ins_chat_language = setmetatable({
 		8530,
 		8531,
 		8532,
+		8667,
+		8668,
+		8669,
+		8670,
+		8671,
+		8672,
+		8673,
+		8674,
+		8675,
+		8676,
+		8677,
+		8678,
+		8679,
+		8680,
+		8681,
+		8682,
+		8683,
+		8684,
+		8685,
+		8686,
+		8687,
+		8688,
+		8689,
+		8690,
+		8691,
+		8692,
+		8693,
+		8694,
+		8695,
+		8696,
+		8697,
+		8698,
+		8699,
+		8700,
+		8701,
+		8702,
+		8703,
+		8704,
+		8705,
+		8706,
+		8707,
+		8708,
+		8709,
+		8710,
+		8711,
+		8712,
+		8713,
+		8714,
+		8715,
+		8716,
+		8717,
+		8718,
+		8719,
+		8720,
+		8721,
+		8722,
+		8723,
+		8724,
+		8725,
+		8726,
+		8727,
+		8728,
+		8729,
+		8730,
+		8731,
+		8732,
+		8733,
+		8734,
+		8735,
+		8736,
+		8737,
+		8738,
+		8739,
+		8740,
+		8741,
+		8742,
+		8743,
+		8744,
+		8745,
+		8746,
+		8747,
+		8748,
+		8749,
+		8750,
+		8751,
+		8752,
+		8753,
+		8754,
+		8755,
+		8756,
+		8757,
+		8758,
+		8759,
+		8760,
+		8761,
+		8762,
+		8763,
+		8764,
+		8765,
+		8766,
+		8767,
+		8768,
+		8769,
+		8770,
+		8771,
+		8772,
+		8773,
+		8774,
+		8775,
+		8776,
+		8777,
+		8778,
+		8779,
+		8780,
+		8781,
+		8782,
+		8783,
+		8784,
+		8785,
+		8786,
+		8787,
+		8788,
+		8789,
+		8790,
+		8791,
+		8792,
+		8793,
+		8794,
+		8795,
+		8796,
+		8797,
+		8798,
+		8799,
+		8800,
+		8801,
+		8802,
+		8803,
+		8804,
+		8805,
+		8806,
+		8807,
+		8808,
+		8809,
+		8810,
+		8811,
+		8812,
+		8813,
+		8814,
+		8815,
+		8816,
+		8817,
+		8818,
+		8819,
+		8820,
+		8821,
+		8822,
+		8823,
+		8824,
+		8825,
+		8826,
+		8827,
+		8828,
+		8829,
+		8830,
+		8831,
+		8832,
+		8833,
+		8834,
+		8835,
+		8836,
+		8837,
+		8838,
+		8839,
+		8840,
+		8841,
+		8842,
+		8843,
+		8844,
+		8845,
+		8846,
+		8847,
+		8848,
+		8849,
+		8850,
+		8851,
+		8852,
+		8853,
+		8854,
+		8855,
+		8856,
+		8857,
+		8858,
+		8859,
+		8860,
+		8861,
+		8862,
+		8863,
+		8864,
+		8865,
+		8866,
+		8867,
+		8868,
+		8869,
+		8870,
+		8871,
+		8872,
+		8873,
+		8874,
+		8875,
+		8876,
+		8877,
+		8878,
+		8879,
+		8880,
+		8881,
+		8882,
+		8883,
+		8884,
+		8885,
+		8886,
+		8887,
+		8888,
 		8533,
 		8534,
 		8535,
@@ -84251,6 +84473,1940 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 8532,
 		flag = 4
+	},
+	[8667] = {
+		param = "指挥官，听到我摇响铃铛了吗？",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8667,
+		flag = 0
+	},
+	[8668] = {
+		param = "姐姐大人现在遇到了难以抉择的问题",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8668,
+		flag = 0
+	},
+	[8669] = {
+		param = "需要你来帮我参谋一下呢",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8669,
+		flag = 0
+	},
+	[8670] = {
+		param = "我正在家具城挑选沙发，看中了两套高级货",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8670,
+		flag = 0
+	},
+	[8671] = {
+		param = "第一套镶嵌着宝石，雕花精致，非常气派",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8671,
+		flag = 0
+	},
+	[8672] = {
+		param = "第二套用料顶级，使用体验舒适，但看起来朴素",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8672,
+		flag = 0
+	},
+	[8673] = {
+		param = "我一眼就喜欢上了第一套，可试过第二套之后，又有些犹豫……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8673,
+		flag = 0
+	},
+	[8674] = {
+		param = "你的话，会选哪一套？",
+		ship_group = 30717,
+		type = 1,
+		id = 8674,
+		flag = 0,
+		option = {
+			{
+				1,
+				"第一套"
+			},
+			{
+				2,
+				"第二套"
+			}
+		}
+	},
+	[8675] = {
+		param = "第一套更漂亮，能提供更多情绪价值",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8675,
+		flag = 1
+	},
+	[8676] = {
+		param = "第二套更舒服，能提供更多使用价值",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8676,
+		flag = 2
+	},
+	[8677] = {
+		param = "嗯……让我考虑一下",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8677,
+		flag = 0
+	},
+	[8678] = {
+		param = "啊！好纠结！",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8678,
+		flag = 0
+	},
+	[8679] = {
+		param = "为什么没有既华丽又舒服的沙发呢？",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8679,
+		flag = 0
+	},
+	[8680] = {
+		param = "到底该选哪个……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8680,
+		flag = 0
+	},
+	[8681] = {
+		param = "或者……要么……干脆……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8681,
+		flag = 0
+	},
+	[8682] = {
+		param = "……指挥官，我想到了一个完美的解决办法！",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8682,
+		flag = 0
+	},
+	[8683] = {
+		param = "姐姐大人才不做选择，姐姐大人全都要！",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8683,
+		flag = 0
+	},
+	[8684] = {
+		param = "303",
+		ship_group = 30717,
+		option = "",
+		type = 4,
+		id = 8684,
+		flag = 0
+	},
+	[8685] = {
+		param = "第一套沙发放在客厅，完美符合姐姐大人的排场",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8685,
+		flag = 0
+	},
+	[8686] = {
+		param = "第二套沙发放卧室，休息时刻也不能敷衍",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8686,
+		flag = 0
+	},
+	[8687] = {
+		param = "果然，能用钱解决的问题都不是问题~呵呵呵呵~",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8687,
+		flag = 0
+	},
+	[8688] = {
+		param = "咳咳！",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8688,
+		flag = 0
+	},
+	[8689] = {
+		param = "姐姐大人现在缺个饭搭子，有主动报名的吗？",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8689,
+		flag = 0
+	},
+	[8690] = {
+		param = "附近有一家新开的高级餐厅，我有点感兴趣",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8690,
+		flag = 0
+	},
+	[8691] = {
+		param = "但菜单里的一些食材，我吃不习惯……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8691,
+		flag = 0
+	},
+	[8692] = {
+		param = "不是挑食！只是不符合我的风格而已，可别误解了！",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8692,
+		flag = 0
+	},
+	[8693] = {
+		param = "总之，为了不浪费食物，我需要一个饭搭子",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8693,
+		flag = 0
+	},
+	[8694] = {
+		param = "就决定是你了，指挥官",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8694,
+		flag = 0
+	},
+	[8695] = {
+		param = "车费餐费我全包了，如何？",
+		ship_group = 30717,
+		type = 1,
+		id = 8695,
+		flag = 0,
+		option = {
+			{
+				1,
+				"有这种好事？"
+			}
+		}
+	},
+	[8696] = {
+		param = "有这种好事？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8696,
+		flag = 1
+	},
+	[8697] = {
+		param = "先说好哦，这家店是非常注重整体用餐体验",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8697,
+		flag = 1
+	},
+	[8698] = {
+		param = "每道菜都很精致，还有配套的讲解",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8698,
+		flag = 1
+	},
+	[8699] = {
+		param = "整个用餐过程会比较长",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8699,
+		flag = 1
+	},
+	[8700] = {
+		param = "我们周末去，你可得留足时间",
+		ship_group = 30717,
+		type = 1,
+		id = 8700,
+		flag = 1,
+		option = {
+			{
+				2,
+				"好啊。那吃完饭之后……"
+			}
+		}
+	},
+	[8701] = {
+		param = "好啊。那吃完饭之后什么安排？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8701,
+		flag = 2
+	},
+	[8702] = {
+		param = "倒是想去看个电影",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8702,
+		flag = 2
+	},
+	[8703] = {
+		param = "等等……这样……是不是太像约会了？！",
+		ship_group = 30717,
+		type = 1,
+		id = 8703,
+		flag = 2,
+		option = {
+			{
+				3,
+				"原来不是？"
+			}
+		}
+	},
+	[8704] = {
+		param = "原来不是？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8704,
+		flag = 3
+	},
+	[8705] = {
+		param = "啊？！说得好像姐姐大人在主动邀请你约会一样！",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8705,
+		flag = 3
+	},
+	[8706] = {
+		param = "只是缺个饭搭子而已……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8706,
+		flag = 3
+	},
+	[8707] = {
+		param = "要好好感谢免费请你吃大餐的姐姐大人！",
+		ship_group = 30717,
+		type = 1,
+		id = 8707,
+		flag = 3,
+		option = {
+			{
+				4,
+				"谢谢……"
+			}
+		}
+	},
+	[8708] = {
+		param = "谢谢姐姐大人！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8708,
+		flag = 4
+	},
+	[8709] = {
+		param = "嗯哼~这才对嘛",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8709,
+		flag = 4
+	},
+	[8710] = {
+		param = "姐姐大人不会亏待你的",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8710,
+		flag = 4
+	},
+	[8711] = {
+		param = "以后有什么好吃的，还叫你哦~",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8711,
+		flag = 4
+	},
+	[8712] = {
+		param = "叮铃铃~",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8712,
+		flag = 0
+	},
+	[8713] = {
+		param = "姐姐大人摇铃铛了哦，指挥官在吗？",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8713,
+		flag = 0
+	},
+	[8714] = {
+		param = "我又遇到了难以抉择的问题",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8714,
+		flag = 0
+	},
+	[8715] = {
+		param = "再来帮我出出主意吧",
+		ship_group = 30717,
+		type = 1,
+		id = 8715,
+		flag = 0,
+		option = {
+			{
+				1,
+				"“又”？"
+			}
+		}
+	},
+	[8716] = {
+		param = "“又”？是上次那个挑选沙发问题的后续么",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8716,
+		flag = 1
+	},
+	[8717] = {
+		param = "对",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8717,
+		flag = 1
+	},
+	[8718] = {
+		param = "我上次把两套沙发都买回去以后，才发现了一个问题",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8718,
+		flag = 1
+	},
+	[8719] = {
+		param = "——空间不够",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8719,
+		flag = 1
+	},
+	[8720] = {
+		param = "在卧室里摆上那套沙发之后，过道变得好拥挤",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8720,
+		flag = 1
+	},
+	[8721] = {
+		param = "就连走路都得侧着身",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8721,
+		flag = 1
+	},
+	[8722] = {
+		param = "所以我在想，要不要把正在用的豪华大床换成小一号的……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8722,
+		flag = 1
+	},
+	[8723] = {
+		param = "顺便也问问你喜欢什么样的床，我做个……参考",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8723,
+		flag = 1
+	},
+	[8724] = {
+		param = "对，参考，就是这样",
+		ship_group = 30717,
+		type = 1,
+		id = 8724,
+		flag = 1,
+		option = {
+			{
+				2,
+				"把床换小的话……"
+			}
+		}
+	},
+	[8725] = {
+		param = "把床换小的话，就不够有排场了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8725,
+		flag = 2
+	},
+	[8726] = {
+		param = "嗯……有道理啊！",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8726,
+		flag = 2
+	},
+	[8727] = {
+		param = "这床当初我可是挑了好久才买下的",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8727,
+		flag = 2
+	},
+	[8728] = {
+		param = "万一换掉了后悔，就麻烦了……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8728,
+		flag = 2
+	},
+	[8729] = {
+		param = "居然忽略了这一点，真是失策",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8729,
+		flag = 2
+	},
+	[8730] = {
+		param = "我想想该怎么办……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8730,
+		flag = 2
+	},
+	[8731] = {
+		param = "既想放下沙发，又舍不得这张床……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8731,
+		flag = 2
+	},
+	[8732] = {
+		param = "有了！只要换个更大的房间，不就可以全部放下了吗？",
+		ship_group = 30717,
+		type = 1,
+		id = 8732,
+		flag = 2,
+		option = {
+			{
+				3,
+				"不愧是你！"
+			}
+		}
+	},
+	[8733] = {
+		param = "不愧是姐姐大人，立刻就想到解决办法了呢",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8733,
+		flag = 3
+	},
+	[8734] = {
+		param = "那是~",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8734,
+		flag = 3
+	},
+	[8735] = {
+		param = "不过想换房间的话，还是得实地去看了才好选择呢",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8735,
+		flag = 3
+	},
+	[8736] = {
+		param = "指挥官有空一起来吗？",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8736,
+		flag = 3
+	},
+	[8737] = {
+		param = "选个合你心意的……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8737,
+		flag = 3
+	},
+	[8738] = {
+		param = "总之有没有空都来一趟吧！就这么说定了！",
+		ship_group = 30717,
+		type = 1,
+		id = 8738,
+		flag = 3,
+		option = {
+			{
+				4,
+				"这就来"
+			}
+		}
+	},
+	[8739] = {
+		param = "这就来",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8739,
+		flag = 4
+	},
+	[8740] = {
+		param = "我等你",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8740,
+		flag = 4
+	},
+	[8741] = {
+		param = "毕竟是要一起生活很久的地方，可要好好挑选呢",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8741,
+		flag = 4
+	},
+	[8742] = {
+		param = "命定之人啊，吾已寻得自己身为神使的证明了~",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8742,
+		flag = 0
+	},
+	[8743] = {
+		param = "想见识一下吗？",
+		ship_group = 30228,
+		type = 1,
+		id = 8743,
+		flag = 0,
+		option = {
+			{
+				1,
+				"神使的证明？"
+			}
+		}
+	},
+	[8744] = {
+		param = "神使的证明？那是什么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8744,
+		flag = 1
+	},
+	[8745] = {
+		param = "嗯哼哼~听了可不要吓一跳！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8745,
+		flag = 1
+	},
+	[8746] = {
+		param = "刚发现，本神使在通灵时……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8746,
+		flag = 1
+	},
+	[8747] = {
+		param = "头发会自己飘起来！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8747,
+		flag = 1
+	},
+	[8748] = {
+		param = "不是风吹的，是真的飘起来了！可帅了！",
+		ship_group = 30228,
+		type = 1,
+		id = 8748,
+		flag = 1,
+		option = {
+			{
+				2,
+				"听起来是有点神奇"
+			}
+		}
+	},
+	[8749] = {
+		param = "听起来是有点神奇",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8749,
+		flag = 2
+	},
+	[8750] = {
+		param = "有照片不？让我也见识一下",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8750,
+		flag = 2
+	},
+	[8751] = {
+		param = "哼哼，这就拍给你看……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8751,
+		flag = 2
+	},
+	[8752] = {
+		param = "等等……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8752,
+		flag = 2
+	},
+	[8753] = {
+		param = "头发为什么不飘了？",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8753,
+		flag = 2
+	},
+	[8754] = {
+		param = "命定之人你稍等一下",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8754,
+		flag = 2
+	},
+	[8755] = {
+		param = "等我重新进入通灵状态！",
+		ship_group = 30228,
+		type = 1,
+		id = 8755,
+		flag = 2,
+		option = {
+			{
+				3,
+				"难道是静电现象？"
+			}
+		}
+	},
+	[8756] = {
+		param = "难道是静电现象？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8756,
+		flag = 3
+	},
+	[8757] = {
+		param = "乱讲……！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8757,
+		flag = 3
+	},
+	[8758] = {
+		param = "跟那种简单的自然现象完全不一样！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8758,
+		flag = 3
+	},
+	[8759] = {
+		param = "我马上证明给你看！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8759,
+		flag = 3
+	},
+	[8760] = {
+		param = "只要加大电流，快速进入通灵状态……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8760,
+		flag = 3
+	},
+	[8761] = {
+		param = "嘤……灯怎么突然全灭了？",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8761,
+		flag = 3
+	},
+	[8762] = {
+		param = "打不开……是停电了吗？",
+		ship_group = 30228,
+		type = 1,
+		id = 8762,
+		flag = 3,
+		option = {
+			{
+				4,
+				"没事吧？"
+			}
+		}
+	},
+	[8763] = {
+		param = "没事吧？我过去帮你看看？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8763,
+		flag = 4
+	},
+	[8764] = {
+		param = "只是停电而已……我很好，我一点事都没有！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8764,
+		flag = 4
+	},
+	[8765] = {
+		param = "一点都不怕，对，一点都不怕！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8765,
+		flag = 4
+	},
+	[8766] = {
+		param = "54",
+		ship_group = 30228,
+		option = "",
+		type = 4,
+		id = 8766,
+		flag = 4
+	},
+	[8767] = {
+		param = "你……你走到哪儿了？",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8767,
+		flag = 4
+	},
+	[8768] = {
+		param = "命定之人啊",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8768,
+		flag = 0
+	},
+	[8769] = {
+		param = "你可听见暴雨来临之前的风声？",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8769,
+		flag = 0
+	},
+	[8770] = {
+		param = "是时候收衣服了",
+		ship_group = 30228,
+		type = 1,
+		id = 8770,
+		flag = 1,
+		option = {
+			{
+				1,
+				"谢谢提醒"
+			}
+		}
+	},
+	[8771] = {
+		param = "谢谢提醒，你是怎么提前知道天气会变的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8771,
+		flag = 1
+	},
+	[8772] = {
+		param = "吾能短暂地窥见天意……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8772,
+		flag = 1
+	},
+	[8773] = {
+		param = "刚才的风中，夹杂着云雨的怒意",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8773,
+		flag = 1
+	},
+	[8774] = {
+		param = "狂风将裹挟雷霆",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8774,
+		flag = 1
+	},
+	[8775] = {
+		param = "以万钧之势降下倾天暴雨",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8775,
+		flag = 1
+	},
+	[8776] = {
+		param = "而我正以神使之名，与伟大的自然意志沟通",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8776,
+		flag = 1
+	},
+	[8777] = {
+		param = "让这雷云平息怒火，速速退去！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8777,
+		flag = 1
+	},
+	[8778] = {
+		param = "命定之人，你就看着我如何驯服这狂暴的天象吧~！",
+		ship_group = 30228,
+		type = 1,
+		id = 8778,
+		flag = 1,
+		option = {
+			{
+				2,
+				"很厉害的样子……"
+			}
+		}
+	},
+	[8779] = {
+		param = "很厉害的样子……虽然没太看懂你的话",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8779,
+		flag = 2
+	},
+	[8780] = {
+		param = "但现在确实下大暴雨了，你那边没事么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8780,
+		flag = 2
+	},
+	[8781] = {
+		param = "吾很好！吾当然很好！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8781,
+		flag = 2
+	},
+	[8782] = {
+		param = "只要再给我一点点时间……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8782,
+		flag = 2
+	},
+	[8783] = {
+		param = "我马上就能控制住雨势了！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8783,
+		flag = 2
+	},
+	[8784] = {
+		param = "等等……这风也太大了吧！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8784,
+		flag = 2
+	},
+	[8785] = {
+		param = "把雨水全吹进亭子里来了！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8785,
+		flag = 2
+	},
+	[8786] = {
+		param = "何等无理的风，快给我停下，停下啊！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8786,
+		flag = 2
+	},
+	[8787] = {
+		param = "366",
+		ship_group = 30228,
+		option = "",
+		type = 4,
+		id = 8787,
+		flag = 2
+	},
+	[8788] = {
+		param = "命定之人……救救……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8788,
+		flag = 2
+	},
+	[8789] = {
+		param = "我失败了……被暴雨困住了……",
+		ship_group = 30228,
+		type = 1,
+		id = 8789,
+		flag = 2,
+		option = {
+			{
+				3,
+				"你在哪？"
+			}
+		}
+	},
+	[8790] = {
+		param = "你在哪？我马上来",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8790,
+		flag = 3
+	},
+	[8791] = {
+		param = "我在指挥室附近的小亭子里，快要被淋透了……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8791,
+		flag = 3
+	},
+	[8792] = {
+		param = "救救……嘤……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8792,
+		flag = 3
+	},
+	[8793] = {
+		param = "我的命定之人哟",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8793,
+		flag = 0
+	},
+	[8794] = {
+		param = "我已经能清晰感觉到……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8794,
+		flag = 0
+	},
+	[8795] = {
+		param = "与你之间，那不可磨灭的羁绊",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8795,
+		flag = 0
+	},
+	[8796] = {
+		param = "它让我们心意相通",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8796,
+		flag = 0
+	},
+	[8797] = {
+		param = "也让我可以在任何情况下，领悟你的意图！",
+		ship_group = 30228,
+		type = 1,
+		id = 8797,
+		flag = 0,
+		option = {
+			{
+				1,
+				"听起来很厉害啊……"
+			}
+		}
+	},
+	[8798] = {
+		param = "听起来很厉害啊。要不现在就来试试？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8798,
+		flag = 1
+	},
+	[8799] = {
+		param = "嗯哼哼……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8799,
+		flag = 1
+	},
+	[8800] = {
+		param = "命定之人正在烦恼工作应该怎么处理！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8800,
+		flag = 1
+	},
+	[8801] = {
+		param = "怎么样，被我说中了吧？",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8801,
+		flag = 1
+	},
+	[8802] = {
+		param = "我马上就过来帮你，呵呵，感激涕零吧！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8802,
+		flag = 1
+	},
+	[8803] = {
+		param = "231",
+		ship_group = 30228,
+		type = 4,
+		id = 8803,
+		flag = 1,
+		option = {
+			{
+				2,
+				"很不巧……"
+			}
+		}
+	},
+	[8804] = {
+		param = "很不巧，我刚刚把工作处理完了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8804,
+		flag = 2
+	},
+	[8805] = {
+		param = "你来晚一步",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8805,
+		flag = 2
+	},
+	[8806] = {
+		param = "320",
+		ship_group = 30228,
+		option = "",
+		type = 4,
+		id = 8806,
+		flag = 2
+	},
+	[8807] = {
+		param = "原来命定之人自己就能轻松搞定",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8807,
+		flag = 2
+	},
+	[8808] = {
+		param = "我没能帮上忙……没能帮上忙",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8808,
+		flag = 2
+	},
+	[8809] = {
+		param = "我帮不上忙……帮不上忙",
+		ship_group = 30228,
+		type = 1,
+		id = 8809,
+		flag = 2,
+		option = {
+			{
+				3,
+				"其实，我确实有一个烦恼"
+			}
+		}
+	},
+	[8810] = {
+		param = "其实，我确实有一个烦恼",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8810,
+		flag = 3
+	},
+	[8811] = {
+		param = "今晚难得不用加班，但还不知道该做些什么",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8811,
+		flag = 3
+	},
+	[8812] = {
+		param = "哦？！哼哼，怎么会有这样的烦恼呢~",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8812,
+		flag = 3
+	},
+	[8813] = {
+		param = "这样吧~我正巧知道一个好地方",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8813,
+		flag = 3
+	},
+	[8814] = {
+		param = "就让好心的我来陪你去吧，一定不会让你失望的！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8814,
+		flag = 3
+	},
+	[8815] = {
+		param = "至于要去哪里……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8815,
+		flag = 3
+	},
+	[8816] = {
+		param = "命定之人就好好期待吧，我现在马上过来！",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8816,
+		flag = 3
+	},
+	[8817] = {
+		param = "指挥官~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8817,
+		flag = 0
+	},
+	[8818] = {
+		param = "有看到我今天努力工作的样子吗？",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8818,
+		flag = 0
+	},
+	[8819] = {
+		param = "我可是特别认真努力地处理了好多工作哦",
+		ship_group = 30229,
+		type = 1,
+		id = 8819,
+		flag = 0,
+		option = {
+			{
+				1,
+				"辛苦了……"
+			},
+			{
+				2,
+				"再接再厉！"
+			}
+		}
+	},
+	[8820] = {
+		param = "辛苦了，今天的工作轻松了不少",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8820,
+		flag = 1
+	},
+	[8821] = {
+		param = "我表现得很不错吧",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8821,
+		flag = 1
+	},
+	[8822] = {
+		param = "那要一点犒赏也是合情合理咯~",
+		ship_group = 30229,
+		type = 1,
+		id = 8822,
+		flag = 1,
+		option = {
+			{
+				3,
+				"想要什么样的犒赏？"
+			}
+		}
+	},
+	[8823] = {
+		param = "做的不错呢，再接再厉！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8823,
+		flag = 2
+	},
+	[8824] = {
+		param = "欸~“再接再厉”什么的",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8824,
+		flag = 2
+	},
+	[8825] = {
+		param = "要是没有指挥官的犒赏，可没法一直维持下去呢",
+		ship_group = 30229,
+		type = 1,
+		id = 8825,
+		flag = 2,
+		option = {
+			{
+				3,
+				"想要什么样的犒赏？"
+			}
+		}
+	},
+	[8826] = {
+		param = "想要什么样的犒赏？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8826,
+		flag = 3
+	},
+	[8827] = {
+		param = "嗯哼~我想想……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8827,
+		flag = 3
+	},
+	[8828] = {
+		param = "就让指挥官帮我护理尾巴吧~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8828,
+		flag = 3
+	},
+	[8829] = {
+		param = "【文件《尾巴护理指南》】",
+		ship_group = 1,
+		type = 5,
+		id = 8829,
+		flag = 3,
+		option = {
+			{
+				4,
+				"接收"
+			}
+		}
+	},
+	[8830] = {
+		param = "文件《尾巴护理指南》已接收",
+		ship_group = 0,
+		option = "",
+		type = 5,
+		id = 8830,
+		flag = 4
+	},
+	[8831] = {
+		param = "我尾巴的护理工序很讲究的，指挥官要抽空好好学习哦~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8831,
+		flag = 4
+	},
+	[8832] = {
+		param = "需要用心护理，尾巴才会变得漂亮又顺滑哦",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8832,
+		flag = 4
+	},
+	[8833] = {
+		param = "不过护理尾巴要花不少时间，不如一起来看个电影吧！",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8833,
+		flag = 4
+	},
+	[8834] = {
+		param = "既然电影都看了，不如一起吃个饭吧！",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8834,
+		flag = 4
+	},
+	[8835] = {
+		param = "饭都吃完了，不如一起泡个澡吧！",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8835,
+		flag = 4
+	},
+	[8836] = {
+		param = "澡也泡了，不如一起……嘿嘿~",
+		ship_group = 30229,
+		type = 1,
+		id = 8836,
+		flag = 4,
+		option = {
+			{
+				5,
+				"停停，我说停停"
+			}
+		}
+	},
+	[8837] = {
+		param = "停停，我说停停",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8837,
+		flag = 5
+	},
+	[8838] = {
+		param = "一次可不能要这么多，这些得算作以后的奖励",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8838,
+		flag = 5
+	},
+	[8839] = {
+		param = "欸~怎么这样嘛",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8839,
+		flag = 5
+	},
+	[8840] = {
+		param = "没办法，那就先只让指挥官来帮忙护理尾巴好了~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8840,
+		flag = 5
+	},
+	[8841] = {
+		param = "到时候只要把门反锁再拔掉钥匙……呵呵~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8841,
+		flag = 5
+	},
+	[8842] = {
+		param = "指挥官~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8842,
+		flag = 0
+	},
+	[8843] = {
+		param = "我在温泉，为你准备了一些特·别·惊·喜~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8843,
+		flag = 0
+	},
+	[8844] = {
+		param = "记得一定要来看看哦",
+		ship_group = 30229,
+		type = 1,
+		id = 8844,
+		flag = 0,
+		option = {
+			{
+				1,
+				"今天也不特别吧"
+			}
+		}
+	},
+	[8845] = {
+		param = "今天也不是什么特别的日子吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8845,
+		flag = 1
+	},
+	[8846] = {
+		param = "你是不是另有打算？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8846,
+		flag = 1
+	},
+	[8847] = {
+		param = "225",
+		ship_group = 30229,
+		option = "",
+		type = 4,
+		id = 8847,
+		flag = 1
+	},
+	[8848] = {
+		param = "怎么会呢，只是因为……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8848,
+		flag = 1
+	},
+	[8849] = {
+		param = "因为……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8849,
+		flag = 1
+	},
+	[8850] = {
+		param = "对了！因为指挥官昨天工作特别认真努力",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8850,
+		flag = 1
+	},
+	[8851] = {
+		param = "前天工作也特别认真努力",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8851,
+		flag = 1
+	},
+	[8852] = {
+		param = "还有大前天、大大前天……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8852,
+		flag = 1
+	},
+	[8853] = {
+		param = "指挥官这——么辛苦，不好好犒赏一番可不行呢~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8853,
+		flag = 1
+	},
+	[8854] = {
+		param = "真拿你没办法，既然你这么好奇，就提前告诉你特别惊喜的内容吧~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8854,
+		flag = 1
+	},
+	[8855] = {
+		param = "我挑选了新的泳衣哦，尾巴部分也有特别设计的……那种款式~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8855,
+		flag = 1
+	},
+	[8856] = {
+		param = "怎么样，就不想知道我的新泳衣是什么样子的吗？",
+		ship_group = 30229,
+		type = 1,
+		id = 8856,
+		flag = 1,
+		option = {
+			{
+				2,
+				"泳衣、温泉、尾巴……"
+			}
+		}
+	},
+	[8857] = {
+		param = "泳衣、温泉、尾巴……我知道了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8857,
+		flag = 2
+	},
+	[8858] = {
+		param = "泳衣只是诱饵，你想看我在泡温泉时被电流捉弄的样子？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8858,
+		flag = 2
+	},
+	[8859] = {
+		param = "居然被看穿了~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8859,
+		flag = 2
+	},
+	[8860] = {
+		param = "想要瞒过指挥官，果然是不可能的吗？",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8860,
+		flag = 2
+	},
+	[8861] = {
+		param = "其实是我最近了解了一种新的疗法哦——“温泉电疗”！",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8861,
+		flag = 2
+	},
+	[8862] = {
+		param = "维持少量电流放出状态的话，不会有漏电的风险",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8862,
+		flag = 2
+	},
+	[8863] = {
+		param = "我自己觉得效果不错哦~指挥官也来试试吧~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8863,
+		flag = 2
+	},
+	[8864] = {
+		param = "拜托啦~就当陪陪我~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8864,
+		flag = 2
+	},
+	[8865] = {
+		param = "好不好嘛~",
+		ship_group = 30229,
+		type = 1,
+		id = 8865,
+		flag = 2,
+		option = {
+			{
+				3,
+				"一次"
+			}
+		}
+	},
+	[8866] = {
+		param = "就试一次吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8866,
+		flag = 3
+	},
+	[8867] = {
+		param = "呼呼~就知道指挥官最好了，等你哟~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8867,
+		flag = 3
+	},
+	[8868] = {
+		param = "欸~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8868,
+		flag = 0
+	},
+	[8869] = {
+		param = "欸~~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8869,
+		flag = 0
+	},
+	[8870] = {
+		param = "欸~~~",
+		ship_group = 30229,
+		type = 1,
+		id = 8870,
+		flag = 0,
+		option = {
+			{
+				1,
+				"为什么叹气？"
+			}
+		}
+	},
+	[8871] = {
+		param = "为什么叹气？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8871,
+		flag = 1
+	},
+	[8872] = {
+		param = "好想用尾巴抱着指挥官啊，一直一直抱着~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8872,
+		flag = 1
+	},
+	[8873] = {
+		param = "但是指挥官每次都会被电，就算是我也会心疼的",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8873,
+		flag = 1
+	},
+	[8874] = {
+		param = "明明已经很注意尾巴的护理了，但还是无法控制地漏电",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8874,
+		flag = 1
+	},
+	[8875] = {
+		param = "57",
+		ship_group = 30229,
+		option = "",
+		type = 4,
+		id = 8875,
+		flag = 1
+	},
+	[8876] = {
+		param = "指挥官，快用你无敌的聪明头脑想想办法嘛~",
+		ship_group = 30229,
+		type = 1,
+		id = 8876,
+		flag = 1,
+		option = {
+			{
+				2,
+				"核心问题是……"
+			}
+		}
+	},
+	[8877] = {
+		param = "核心问题还是漏电吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8877,
+		flag = 2
+	},
+	[8878] = {
+		param = "或许……你有听说过“避雷针”么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8878,
+		flag = 2
+	},
+	[8879] = {
+		param = "是那种竖在楼顶上，用于把雷电导入大地的东西吗？",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8879,
+		flag = 2
+	},
+	[8880] = {
+		param = "利用金属比大楼本身更易导电的特点，将雷电汇聚到避雷针上",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8880,
+		flag = 2
+	},
+	[8881] = {
+		param = "这样就可以将强大的闪电给无害化了，很聪明的设计",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8881,
+		flag = 2
+	},
+	[8882] = {
+		param = "等等，指挥官是想说……把尾巴漏的电引导走就没问题了？",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8882,
+		flag = 2
+	},
+	[8883] = {
+		param = "我想想……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8883,
+		flag = 2
+	},
+	[8884] = {
+		param = "只要给尾巴上系上一根长长的电线，就可以起到避雷针的作用……",
+		ship_group = 30229,
+		type = 1,
+		id = 8884,
+		flag = 2,
+		option = {
+			{
+				3,
+				"理论可行"
+			}
+		}
+	},
+	[8885] = {
+		param = "理论可行，不过把电线换成金属坠饰可能更好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8885,
+		flag = 3
+	},
+	[8886] = {
+		param = "那我这就上街去挑饰品~指挥官也一起来吧~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8886,
+		flag = 3
+	},
+	[8887] = {
+		param = "来嘛~我已经等不及想用尾巴抱紧你了~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8887,
+		flag = 3
+	},
+	[8888] = {
+		param = "就这样说好咯，我先出发，等你来~！",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8888,
+		flag = 3
 	},
 	[8533] = {
 		param = "{namecode:22}大人最近很苦恼呢~",

@@ -561,7 +561,6 @@ slot0.getCommonNoticeData = function(slot0)
 end
 
 slot0.setTargetValue = function(slot0, slot1)
-	slot0.parameterSmooth = 0
 	slot0.parameterTargetValue = slot1
 end
 
@@ -1254,6 +1253,10 @@ slot0.updateTrigger = function(slot0)
 			end
 		end)
 	end
+end
+
+slot0.IsTouchAble = function(slot0)
+	return true
 end
 
 slot0.setCommonData = function(slot0, slot1, slot2)

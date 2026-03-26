@@ -111,7 +111,15 @@ slot2 = function(slot0, slot1)
 	slot0._effectsTf = findTF(slot0._tf, "effects")
 
 	slot0:playPaintingInitIdle()
-	slot0:SetDefaultSkeletonSkin()
+	slot0:playPaintingInitSkin()
+
+	slot0.slotDic = {}
+	slot0.stepSlotAlpha = {}
+	slot0._slotAlphaTimer = Timer.New(function ()
+		uv0:updateSlotAlpha()
+	end, 0.03333333333333333, -1)
+
+	slot0._slotAlphaTimer:Start()
 end
 
 slot0.getNormalIdleName = function(slot0)
@@ -243,7 +251,10 @@ slot0.onUpdateLocal = function(slot0)
 end
 
 slot0.SetVisible = function(slot0, slot1)
-	setActive(slot0._spinePaintingData.effectParent, slot1)
+	if slot0._spinePaintingData.effectParent then
+		setActive(slot0._spinePaintingData.effectParent, slot1)
+	end
+
 	pg.ViewUtils.SetLayer(slot0._tf, slot1 and Layer.UI or Layer.UIHidden)
 	setActiveViaLayer(slot0._spinePaintingData.effectParent, slot1)
 
@@ -275,6 +286,7 @@ slot0.SetVisible = function(slot0, slot1)
 	end
 
 	slot0:playPaintingInitIdle()
+	slot0:playPaintingInitSkin()
 end
 
 slot0.getInitFlag = function(slot0)
@@ -301,6 +313,24 @@ slot0.playPaintingInitIdle = function(slot0)
 		slot0:SetAction(slot0._idleName, 0, true)
 
 		slot0.inAction = false
+	end
+end
+
+slot0.playPaintingInitSkin = function(slot0)
+	slot2 = slot0:GetDefaultSkeletonSkin()
+
+	if SpinePaintingDrag.GetPaintingInitSkin(slot0.mainSpineAnim.name, slot0._spinePaintingData.ship.id) then
+		if PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) == 1 and slot0:GetDefaultSkeletonSkin() ~= slot1 then
+			slot2 = slot1
+		elseif PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 and slot0._skeletonSkin ~= slot0:GetDefaultSkeletonSkin() then
+			slot2 = slot0:GetDefaultSkeletonSkin()
+		end
+	else
+		slot2 = slot0:GetDefaultSkeletonSkin()
+	end
+
+	if slot2 and slot0._skeletonGraphic and slot0._skeletonGraphic.SkeletonData and slot0._skeletonGraphic.SkeletonData:FindSkin(slot2) ~= nil then
+		slot0:SetSkeletonSkin(slot2)
 	end
 end
 
@@ -365,7 +395,7 @@ slot0.readyDragAction = function(slot0, slot1, slot2)
 	end
 
 	if slot0.dragShipFlag then
-		return slot0:startDragAction(slot1)
+		return slot0:startDragAction(slot1, slot2)
 	end
 
 	return false
@@ -374,7 +404,7 @@ end
 slot0.SetSkeletonSkin = function(slot0, slot1)
 	slot0._skeletonSkin = slot1
 
-	slot0._skeletonGraphic.Skeleton:SetSkin(slot1)
+	slot0:SetSkin(slot1)
 	slot0:updateSkeletonGraphicTime()
 end
 
@@ -388,11 +418,19 @@ slot0.SetDefaultSkeletonSkin = function(slot0)
 	end
 end
 
-slot0.startDragAction = function(slot0, slot1)
-	if slot0.shipDragData.drag_data.type == SpinePaintingConst.drag_type_normal or slot3 == SpinePaintingConst.drag_type_rgb then
-		return slot0:changePaintingNormal(slot2, slot1)
-	elseif slot3 == SpinePaintingConst.drag_type_list then
-		slot0.clickActionList = Clone(slot2.config_client)
+slot0.GetDefaultSkeletonSkin = function(slot0)
+	if not slot0._spinePaintingData:GetShipSkinConfig().skeleton_default_skin or slot1 == "" then
+		slot1 = "1"
+	end
+
+	return slot1
+end
+
+slot0.startDragAction = function(slot0, slot1, slot2)
+	if slot0.shipDragData.drag_data.type == SpinePaintingConst.drag_type_normal then
+		return slot0:changePaintingNormal(slot3, slot1, slot2)
+	elseif slot4 == SpinePaintingConst.drag_type_list then
+		slot0.clickActionList = Clone(slot3.config_client)
 
 		return slot0:checkListAction()
 	end
@@ -412,48 +450,113 @@ slot0.setEventTriggerCallback = function(slot0, slot1)
 	slot0._eventTriggerCall = slot1
 end
 
-slot0.changePaintingNormal = function(slot0, slot1, slot2)
-	slot3 = slot0:getIdleName()
+slot0.changePaintingNormal = function(slot0, slot1, slot2, slot3)
 	slot5 = slot1.type
 
 	for slot9, slot10 in ipairs(slot1.config_client) do
-		if slot0:matchDragFlag(slot3, slot2, slot10) then
-			return slot0:doDragAction(slot5, slot1, slot10)
+		if slot0:matchDragFlag(slot2, slot10, slot3) then
+			return slot0:doDragAction(slot5, slot1, slot10, slot3)
 		end
 	end
 
 	return false
 end
 
-slot0.doDragAction = function(slot0, slot1, slot2, slot3)
-	slot4 = slot3.change_idle
-	slot5 = nil
+slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot3.change_idle
+	slot6 = slot3.fold
+	slot7 = slot3.effect_hide
+	slot8 = slot3.cv
+	slot9 = slot3.alpha_data and slot3.alpha_data or nil
+	slot10 = slot3.skin_change and slot3.skin_change or nil
+	slot11 = slot3.clear_track and slot3.clear_track or nil
+	slot12 = nil
 
 	if type(slot3.action) == "string" then
-		slot5 = slot3.action
+		slot12 = slot3.action
 	elseif type(slot3.action) == "table" then
-		slot5 = slot3.action[math.random(1, #slot3.action)]
+		slot12 = slot3.action[math.random(1, #slot3.action)]
 	end
 
-	slot6 = slot3.event
-	slot7 = slot3.fold
-	slot8 = slot3.effect_hide
-	slot9 = slot3.cv
+	slot13 = nil
+
+	if type(slot3.event) == "string" then
+		slot13 = slot3.event
+	elseif type(slot3.event) == "table" then
+		slot13 = slot3.event[math.random(1, #slot3.event)]
+	end
 
 	if slot1 == SpinePaintingConst.drag_type_normal then
-		if slot5 and slot5 ~= "" and slot0:ablePlayAction(slot5, false, 0) then
-			if slot7 then
+		if slot9 and #slot9 > 0 then
+			for slot17, slot18 in ipairs(slot9) do
+				slot19 = slot18[1]
+				slot20 = slot18[2]
+				slot21 = slot18[3]
+				slot22 = slot0:getSlotAlpha(slot19)
+
+				if not slot0:getStepSlotAlha(slot19) and slot22 then
+					slot23, slot24 = nil
+
+					for slot28, slot29 in ipairs(slot20) do
+						if math.abs(slot22 - slot29) <= 0.1 then
+							slot24 = slot28 + 1
+						end
+
+						if slot24 == slot28 then
+							slot23 = slot29
+						end
+					end
+
+					if slot23 or slot20[1] then
+						slot0:setStepSlotAlpha(slot19, slot23, slot21)
+					end
+				end
+			end
+		end
+
+		slot15 = slot3.material_time and slot3.material_time or nil
+
+		if slot3.material and slot3.material or nil then
+			if LeanTween.isTweening(go(slot0._tf)) then
+				return false
+			end
+
+			slot0:getSpineMaterial(slot14, function (slot0)
+				uv0._skeletonGraphic.material = slot0
+
+				if uv1 then
+					LeanTween.delayedCall(go(uv0._tf), uv1, System.Action(function ()
+						uv0._skeletonGraphic.material = uv0._baseMaterial
+
+						uv0:changePaintingIdle(uv1)
+					end))
+				end
+			end)
+		end
+
+		if slot11 and #slot11 > 0 then
+			for slot19, slot20 in ipairs(slot11) do
+				slot0:SetEmptyAction(slot20)
+			end
+		end
+
+		if slot12 and slot12 ~= "" and slot0:checkActionPlayAble(slot12, false, 0) then
+			if slot6 then
 				pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, true)
 			end
 
-			slot0:setEffectVisible(slot8, false)
-			slot0:SetActionWithFinishCallback(slot5, 0, function ()
-				if uv0 then
+			slot0:setEffectVisible(slot7, false)
+			slot0:SetActionWithFinishCallback(slot12, 0, function ()
+				if uv0 and uv0 ~= "" then
+					uv1:changeSkeletonSkin(uv0)
+				end
+
+				if uv2 then
 					pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, false)
 				end
 
-				uv1:changePaintingIdle(uv2)
-				uv1:setEffectVisible(uv3, true)
+				uv1:changePaintingIdle(uv3 and uv3 or uv1:getIdleName())
+				uv1:setEffectVisible(uv4, true)
 			end, false, function ()
 				if uv0 and uv0 ~= "" then
 					slot0 = uv1._spinePaintingData.ship
@@ -472,40 +575,40 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3)
 					end)
 				end
 
-				if uv2 and uv2 ~= "" and uv1._eventTriggerCall then
+				if uv2 and type(uv2) == "string" and uv1._eventTriggerCall then
 					uv1._eventTriggerCall(uv2)
 				end
 			end)
-		else
-			if slot4 and slot4 ~= "" then
-				slot0:changePaintingIdle(slot4)
+		end
+
+		if not slot12 or slot12 == "" then
+			if slot10 and slot10 ~= "" then
+				slot0:changeSkeletonSkin(slot10)
 			end
 
-			if slot6 and slot6 ~= "" and slot0._eventTriggerCall then
-				slot0._eventTriggerCall(slot6)
+			if slot5 and slot5 ~= "" then
+				slot0:changePaintingIdle(slot5)
+			end
+
+			if slot13 and type(slot13) == "string" and slot0._eventTriggerCall then
+				slot0._eventTriggerCall(slot13)
 			end
 
 			return false
 		end
-	elseif slot1 == SpinePaintingConst.drag_type_rgb then
-		slot10 = slot2.material
-
-		if LeanTween.isTweening(go(slot0._tf)) then
-			return false
-		end
-
-		slot0:getSpineMaterial(slot10, function (slot0)
-			uv0._skeletonGraphic.material = slot0
-
-			LeanTween.delayedCall(go(uv0._tf), 0.5, System.Action(function ()
-				uv0._skeletonGraphic.material = uv0._baseMaterial
-
-				uv0:changePaintingIdle(uv1)
-			end))
-		end)
 	end
 
 	return true
+end
+
+slot0.changeSkeletonSkin = function(slot0, slot1)
+	if slot0._skeletonSkin == slot1 then
+		slot0:SetDefaultSkeletonSkin()
+	else
+		slot0:SetSkeletonSkin(slot1)
+	end
+
+	SpinePaintingDrag.SetPaintingInitSkin(slot0.mainSpineAnim.name, slot0._spinePaintingData.ship.id, slot0._skeletonSkin)
 end
 
 slot0.setEffectVisible = function(slot0, slot1, slot2)
@@ -521,20 +624,36 @@ slot0.setEffectVisible = function(slot0, slot1, slot2)
 end
 
 slot0.matchDragFlag = function(slot0, slot1, slot2, slot3)
-	if slot3.hit and slot4 ~= slot2 then
+	if slot2.hit and slot4 ~= slot1 then
 		return false
 	end
 
-	slot5 = slot3.is_default
-	slot6 = slot3.idle
-
-	if not slot1 and slot5 then
-		return true
-	elseif slot1 == slot6 then
-		return true
+	if slot2.skin and slot5 ~= "" and slot0._skeletonSkin ~= slot5 then
+		return false
 	end
 
-	return false
+	if slot2.idle and slot6 ~= "" and slot0:getIdleName() ~= slot6 then
+		return false
+	end
+
+	slot7 = slot2.is_default
+
+	if slot0:getIdleName() ~= slot0:getNormalIdleName() and slot7 and slot7 ~= "" then
+		return false
+	end
+
+	if slot2.favor and slot8 >= 0 and slot0._spinePaintingData.ship:getCVIntimacy() and slot9 < slot8 then
+		return false
+	end
+
+	if slot2.click and slot2.click == tobool(slot3) then
+		return false
+	end
+
+	return true
+end
+
+slot0.OnDragMove = function(slot0, slot1, slot2)
 end
 
 slot0.getSpineMaterial = function(slot0, slot1, slot2)
@@ -559,8 +678,28 @@ slot0.changePaintingIdle = function(slot0, slot1)
 	slot0.inAction = false
 end
 
+slot0.SetShopHx = function(slot0, slot1)
+	if slot1 and HXSet.isHx() then
+		if slot0:getAnimationExist("shop_hx") then
+			slot0:setIdleName("shop_hx")
+			slot0:SetAction(slot0._idleName, 0, true)
+
+			slot2 = slot0._tf.anchoredPosition
+			slot0._tf.anchoredPosition = Vector2(100000, 0)
+
+			slot0:updateSkeletonGraphicTime()
+			onDelayTick(function ()
+				uv0._tf.anchoredPosition = uv1
+			end, 0.05)
+		end
+	else
+		slot0:setIdleName(slot0:getNormalIdleName())
+		slot0:SetAction(slot0._idleName, 0, true)
+	end
+end
+
 slot0.SetAction = function(slot0, slot1, slot2, slot3)
-	if not slot0:ablePlayAction(slot1, slot3, slot2) then
+	if not slot0:checkActionPlayAble(slot1, slot3, slot2) then
 		return false
 	end
 
@@ -613,7 +752,7 @@ slot0.GetVoiceLandAction = function(slot0, slot1, slot2)
 	return slot1 .. slot3
 end
 
-slot0.ablePlayAction = function(slot0, slot1, slot2, slot3)
+slot0.checkActionPlayAble = function(slot0, slot1, slot2, slot3)
 	if slot3 and slot3 == 0 and slot0.inAction and not slot2 then
 		return false
 	end
@@ -641,6 +780,71 @@ slot0.ablePlayAction = function(slot0, slot1, slot2, slot3)
 	return true
 end
 
+slot0.ClearAction = function(slot0)
+	slot0.inAction = false
+end
+
+slot0.getSlotAlpha = function(slot0, slot1)
+	if slot0._skeletonGraphic.Skeleton:FindSlot(slot1) then
+		return ReflectionHelp.RefGetProperty(typeof("Spine.Slot"), "A", slot2)
+	end
+
+	return nil
+end
+
+slot0.setSlotAlpha = function(slot0, slot1, slot2)
+	ReflectionHelp.RefSetProperty(typeof("Spine.Slot"), "A", slot1, slot2)
+end
+
+slot0.setStepSlotAlpha = function(slot0, slot1, slot2, slot3)
+	if not slot0.slotDic[slot1] then
+		slot0.slotDic[slot1] = slot0._skeletonGraphic.Skeleton:FindSlot(slot1)
+	end
+
+	if slot0.slotDic[slot1] then
+		if not slot3 or slot3 <= 0 then
+			print("设置插槽 " .. slot1 .. " alpha = " .. slot2)
+			slot0:setSlotAlpha(slot0.slotDic[slot1], slot2)
+		else
+			table.insert(slot0.stepSlotAlpha, {
+				smooth = 0,
+				name = slot1,
+				slot = slot0.slotDic[slot1],
+				current = slot0:getSlotAlpha(slot1),
+				target = slot2,
+				time = slot3
+			})
+		end
+	end
+end
+
+slot0.getStepSlotAlha = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.stepSlotAlpha) do
+		if slot6.name == slot1 then
+			return slot6
+		end
+	end
+
+	return nil
+end
+
+slot0.updateSlotAlpha = function(slot0)
+	for slot4 = #slot0.stepSlotAlpha, 1, -1 do
+		slot5 = slot0.stepSlotAlpha[slot4]
+		slot5.current, slot5.smooth = Mathf.SmoothDamp(slot5.current, slot5.target, slot5.smooth, slot5.time)
+
+		if math.abs(slot5.target - slot5.current) <= 0.02 then
+			print("设置插槽 " .. slot5.name .. " alpha = " .. slot5.target)
+			slot0:setSlotAlpha(slot5.slot, slot5.target)
+
+			table.remove(slot0.stepSlotAlpha, slot4).slot = nil
+		else
+			print("设置插槽 " .. slot5.name .. " alpha = " .. slot5.current)
+			slot0:setSlotAlpha(slot5.slot, slot5.current)
+		end
+	end
+end
+
 slot0.updateEffectVisible = function(slot0, slot1)
 	if slot0.shipEffectActionAble and slot0._effectsTf then
 		if table.contains(slot0.shipEffectActionAble, slot1) then
@@ -658,7 +862,7 @@ slot0.isInAction = function(slot0)
 end
 
 slot0.SetActionWithFinishCallback = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	if not slot0:ablePlayAction(slot1, slot4, slot2) then
+	if not slot0:checkActionPlayAble(slot1, slot4, slot2) then
 		return
 	end
 
@@ -685,7 +889,7 @@ slot0.SetActionWithFinishCallback = function(slot0, slot1, slot2, slot3, slot4, 
 end
 
 slot0.SetOnceAction = function(slot0, slot1, slot2, slot3, slot4)
-	if not slot0:ablePlayAction(slot1, slot4, 0) then
+	if not slot0:checkActionPlayAble(slot1, slot4, 0) then
 		return
 	end
 
@@ -804,6 +1008,20 @@ slot0.Dispose = function(slot0)
 
 	if slot0.spineAnim then
 		slot0.spineAnim:SetActionCallBack(nil)
+	end
+
+	if slot0._slotAlphaTimer then
+		slot0._slotAlphaTimer:Stop()
+
+		slot0._slotAlphaTimer = nil
+	end
+
+	if slot0.stepSlotAlpha and #slot0.stepSlotAlpha > 0 then
+		for slot4, slot5 in ipairs(slot0._slotAlphaTimer) do
+			slot5.slot = nil
+		end
+
+		slot0._slotAlphaTimer = {}
 	end
 end
 

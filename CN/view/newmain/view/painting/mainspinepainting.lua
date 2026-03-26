@@ -79,7 +79,7 @@ slot0.InitSpecialTouch = function(slot0)
 	end
 
 	eachChild(slot2, function (slot0)
-		if uv0:getDragTouchAble(slot0.name, uv1, false) then
+		if uv0:getDragTouchAble(slot0.name, uv1) then
 			uv0.dragEvent = GetOrAddComponent(slot0, typeof(EventTriggerListener))
 			slot1 = uv0.dragEvent
 
@@ -104,7 +104,7 @@ slot0.InitSpecialTouch = function(slot0)
 
 						slot2 = nil
 
-						if uv0:getDragTouchAble(uv1.name, uv2, true) then
+						if uv0:getDragTouchAble(uv1.name, uv2) then
 							slot2 = uv0.spinePainting:readyDragAction(uv1.name, false)
 						end
 
@@ -142,11 +142,11 @@ slot0.InitSpecialTouch = function(slot0)
 
 					uv0.dragOffset = Vector2(uv0.dragStart.x - slot1.position.x, uv0.dragStart.y - slot1.position.y)
 
-					if math.abs(uv0.dragOffset.x) > 200 or math.abs(uv0.dragOffset.y) > 200 then
+					if (math.abs(uv0.dragOffset.x) > 200 or math.abs(uv0.dragOffset.y) > 200) and uv0.spinePainting:readyDragAction(uv1.name, true) then
 						uv0.dragActive = false
-
-						uv0.spinePainting:readyDragAction(uv1.name, true)
 					end
+
+					uv0.spinePainting:OnDragMove(uv1.name, uv0.dragOffset)
 				end
 			end)
 		else
@@ -166,7 +166,7 @@ slot0.InitSpecialTouch = function(slot0)
 
 				slot0 = uv0:GetSpecialTouchEvent(uv1.name)
 
-				if uv0:getDragTouchAble(uv1.name, uv2, true) then
+				if uv0:getDragTouchAble(uv1.name, uv2) then
 					if uv0.isDragAndZoomState then
 						return
 					end
@@ -259,17 +259,13 @@ slot0.GetPartStateType = function(slot0)
 	return MainPaintingView.STATE_SPINE_PAINTING
 end
 
-slot0.getDragTouchAble = function(slot0, slot1, slot2, slot3)
+slot0.getDragTouchAble = function(slot0, slot1, slot2)
 	if not SpinePaintingConst.ship_drag_datas[slot2] then
 		return false
 	end
 
-	if slot4.drag_data and slot4.click_trigger ~= slot3 then
-		return false
-	end
-
-	if slot4.hit_area then
-		return table.contains(slot4.hit_area, slot1)
+	if slot3.hit_area then
+		return table.contains(slot3.hit_area, slot1)
 	end
 
 	return false
@@ -310,9 +306,9 @@ slot0.PlayChangeSkinActionIn = function(slot0, slot1)
 
 		slot3 = function()
 			if uv0.spinePainting:GetDragDataConfig("change_in_hit") and #slot0 > 0 then
-				uv0.spinePainting:readyDragAction(slot0)
+				uv0.spinePainting:readyDragAction(slot0, false)
 				uv1()
-			elseif uv0.spinePainting:getAnimationExist("change_in") and uv0.spinePainting:ablePlayAction("change_in", false, 0) then
+			elseif uv0.spinePainting:getAnimationExist("change_in") and uv0.spinePainting:checkActionPlayAble("change_in", false, 0) then
 				uv0.spinePainting:SetOnceAction("change_in", nil, function ()
 					uv0()
 				end, true)
@@ -336,7 +332,7 @@ end
 
 slot0.PlayChangeSkinActionOut = function(slot0, slot1)
 	if slot0.spinePainting and slot0.spinePainting:getAnimationExist("change_out") then
-		if slot0.spinePainting:ablePlayAction("change_out", false, 0) then
+		if slot0.spinePainting:checkActionPlayAble("change_out", false, 0) then
 			slot2 = slot0.spinePainting
 
 			slot2:SetOnceAction("change_out", function ()

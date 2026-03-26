@@ -11,6 +11,7 @@ slot0.NODE_TYPE = {
 	NORMAL = 1,
 	EVENT = 2
 }
+slot0.REPEATABLE_KEY = "repeatable"
 
 slot0.bindConfigTable = function(slot0)
 	return pg.activity_series_enemy_story
@@ -124,6 +125,18 @@ slot0.GetParams = function(slot0, slot1)
 	end
 
 	return nil
+end
+
+slot0.IsRecrew = function(slot0)
+	if type(slot0:getConfig("label_key")) ~= "table" then
+		return nil
+	end
+
+	if not PlayerPrefs.HasKey(StoryStep.GetGlobalFlagKey(slot1.flagID) .. slot1.flagIndex) then
+		return nil
+	end
+
+	return PlayerPrefs.GetInt(slot2) > 0
 end
 
 return slot0

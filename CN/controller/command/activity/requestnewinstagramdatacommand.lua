@@ -2,8 +2,6 @@ slot0 = class("RequestNewInstagramDataCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = slot2.beginId
-	slot4 = slot2.endId
 
 	if getProxy(InstagramProxy):IsReqNewInstagramData() then
 		if slot2.callback then
@@ -13,11 +11,10 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
-	slot6 = pg.ConnectionMgr.GetInstance()
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	slot6:Send(11705, {
-		index_begin = slot3,
-		index_end = slot4
+	slot5:Send(11705, {
+		id_list = slot3:GetNewInstagramIds()
 	}, 11706, function (slot0)
 		for slot4, slot5 in ipairs(slot0.ins_message_list) do
 			uv0:AddInstagram(Instagram.New(slot5))

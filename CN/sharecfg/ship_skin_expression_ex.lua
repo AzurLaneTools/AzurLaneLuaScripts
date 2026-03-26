@@ -25897,5 +25897,214 @@ pg.ship_skin_expression_ex = {
 				"3"
 			}
 		}
+	},
+	mingji = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		mail = "",
+		painting = "mingji",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"2"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"9"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"9"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"2|3|7"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"9"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"6"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"9"
+			}
+		}
+	},
+	mujin = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "mujin",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"6"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"4|3|3"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"6"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"6"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"3"
+			}
+		}
+	},
+	yunlong = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "yunlong",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"4"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"7"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"1|4|9"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"4"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"7"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"4"
+			}
+		}
 	}
 }

@@ -1925,6 +1925,20 @@ pg.name_code = {
 		code = "藤",
 		nation = 0
 	},
+	[311] = {
+		name = "名寄",
+		type = 1,
+		id = 311,
+		code = "貀",
+		nation = 0
+	},
+	[312] = {
+		name = "木津",
+		type = 1,
+		id = 312,
+		code = "貘",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,
@@ -2994,6 +3008,13 @@ pg.name_code = {
 		type = 1,
 		id = 552,
 		code = "瑞吉娜·META",
+		nation = 0
+	},
+	[553] = {
+		name = "科隆·META",
+		type = 1,
+		id = 553,
+		code = "克劳迪亚·META",
 		nation = 0
 	},
 	[10000] = {

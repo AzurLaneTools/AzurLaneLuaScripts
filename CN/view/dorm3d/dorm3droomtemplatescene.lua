@@ -3380,7 +3380,7 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3, slot4)
 		loadSceneFunc = function (slot0, slot1)
 			slot2 = Dorm3dHxHelper.GetTimelineMainCharacter()
 
-			Dorm3dHxHelper.HideCharacterPart(slot2)
+			Dorm3dHxHelper.HideCharacterPart(slot2, nil, true)
 			uv0:HXCharacter(slot2)
 		end
 	}, slot4)

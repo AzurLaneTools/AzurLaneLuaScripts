@@ -36636,6 +36636,16 @@ _G.pg.base.gametip.child2_site_drop_item = {
 }
 
 
+_G.pg.base.gametip.child2_personal_tag1 = {
+	tip = "乖巧"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag2 = {
+	tip = "叛逆"
+}
+
+
 _G.pg.base.gametip.child2_personal_id1_tag1 = {
 	tip = "乖巧"
 }
@@ -47026,116 +47036,6 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_title = {
-	tip = "经营要务"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_go = {
-	tip = "前往"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_get = {
-	tip = "领取"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_got = {
-	tip = "已领取"
-}
-
-
-_G.pg.base.gametip.LiquorFloor_gold_get = {
-	tip = "收取金币"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
-	tip = "春满客栈Online"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
-	tip = "客栈补给站"
-}
-
-
-_G.pg.base.gametip.loveactivity_help_tips = {
-	tip = {
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_2"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_3"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_4"
-			}
-		},
-		disableScroll = true,
-		pageMode = true,
-		defaultpage = 1,
-		ImageMode = true,
-		windowSize = {
-			x = 1263,
-			y = 873
-		},
-		windowPos = {
-			y = -70
-		},
-		helpSize = {
-			x = 1176,
-			y = 1024
-		}
-	}
-}
-
-
-_G.pg.base.gametip.spring_present_tips_btn = {
-	tip = "春日同心"
-}
-
-
-_G.pg.base.gametip.spring_present_tips_time = {
-	tip = "活动时间: 2.17 0时~3.3 24时"
-}
-
-
-_G.pg.base.gametip.spring_present_tips0 = {
-	tip = "当前为随机秘书组，请关闭随机秘书组后再进行尝试哦"
-}
-
-
-_G.pg.base.gametip.spring_present_tips1 = {
-	tip = "指挥官，您将通过邮件收到第一栏位秘书舰的春日同心之礼，是否确认?"
-}
-
-
-_G.pg.base.gametip.spring_present_tips2 = {
-	tip = "当前秘书舰无法收取春日同心之礼，请指挥官更换秘书舰再进行尝试哦～"
-}
-
-
-_G.pg.base.gametip.spring_present_tips3 = {
-	tip = "邮件收取成功，请指挥官前往邮箱查看并收取她为您准备的礼物。"
-}
-
-
 _G.pg.base.gametip.island_gift_tip_title = {
 	tip = "体力"
 }
@@ -47886,4 +47786,248 @@ _G.pg.base.gametip.child2_explorer_main_help = {
 			y = 1024
 		}
 	}
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "经营要务"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "已领取"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "收取金币"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "春满客栈Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "客栈补给站"
+}
+
+
+_G.pg.base.gametip.YunLongSPCoreActivity_subtitle_1 = {
+	tip = "漫游者招募计划"
+}
+
+
+_G.pg.base.gametip.YunLongSPCoreActivity_subtitle_2 = {
+	tip = "漫游者补给站"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "春日同心"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "活动时间: 2.17 0时~3.3 24时"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "当前为随机秘书组，请关闭随机秘书组后再进行尝试哦"
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "指挥官，您将通过邮件收到第一栏位秘书舰的春日同心之礼，是否确认?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "当前秘书舰无法收取春日同心之礼，请指挥官更换秘书舰再进行尝试哦～"
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "邮件收取成功，请指挥官前往邮箱查看并收取她为您准备的礼物。"
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2604 = {
+	tip = "2026/4/1-2026/5/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「克劳迪亚·META 」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2604 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2026.4.1-2026.5.31)
+
+·<color=#92fc63>开放时间</color>
+ 2026.4.1 0点 ~ 2026.5.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「克劳迪亚·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·八期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>阿芙乐尔换装「微醺的海风 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即5.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2604 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+ 2026.4.1 0点 ~ 2026.5.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2604 = {
+	tip = "世界巡游·第二十八期"
+}
+
+
+_G.pg.base.gametip.add_friend_fail_tip9 = {
+	tip = "好友申请发送失败，内容包含受限词汇。"
+}
+
+
+_G.pg.base.gametip.juusoa_title = {
+	tip = "啾啾热点频道"
+}
+
+
+_G.pg.base.gametip.story_recrewed = {
+	tip = "已招募"
+}
+
+
+_G.pg.base.gametip.story_not_recrew = {
+	tip = "未招募"
+}
+
+
+_G.pg.base.gametip.multiple_endings_tip = {
+	tip = {
+		{
+			info = "结局解锁：\n剧情中出现的部分选项为<color=#92fc63>「重要选项」</color>，<color=#92fc63>「重要选项」</color>会影响游戏的最终结局。通过重新观看剧情选择不同的<color=#92fc63>「重要选项」</color>可解锁新的结局。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.l2d_tip_on = {
+	tip = "Live2D交互提示已开启"
+}
+
+
+_G.pg.base.gametip.l2d_tip_off = {
+	tip = "Live2D交互提示已关闭"
 }

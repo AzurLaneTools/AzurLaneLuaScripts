@@ -1,130 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
-	[806010] = {
-		name = "贝劳森林",
-		change_skin = "",
-		desc = "独立级轻型航空母舰——贝劳森林",
-		illustrator2 = -1,
-		ship_group = 80601,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "beilaosenlin",
-		lover_hand = "hand_1_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip03",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 806010,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "beilaosenlin",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 469,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.478,
-					0.99,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.747,
-					1.114,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.098,
-					0.131,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.784,
-					2.525,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.835,
-							2.539,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[806011] = {
 		name = "水色疗愈",
 		change_skin = "",
@@ -5141,6 +5017,160 @@ pg.base.ship_skin_template_15 = {
 							0
 						}
 					}
+				}
+			}
+		}
+	},
+	[901133] = {
+		name = "全力以赴的伪装监听！",
+		change_skin = "",
+		desc = "对教廷骑士来说，伪装监视什么的简直易如反掌！看我分分钟掌握目标人物的罪证！",
+		illustrator2 = -1,
+		ship_group = 90113,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "buqu_4",
+		lover_hand = "hand_3_02",
+		skin_type = 4,
+		shop_type_id = 12,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip01",
+		bg_sp = "",
+		bg = "160",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 901133,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "buqu_4",
+		l2d_se = "",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71324,
+		voice_actor = 325,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.379,
+					0.723,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.613,
+					1.006,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.102,
+					-0.004,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.922,
+					2.312,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.827,
+							2.381,
+							0
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					1344.1,
+					77,
+					2,
+					0,
+					156,
+					2
+				},
+				{
+					-448,
+					1098,
+					2,
+					-129,
+					0,
+					2
+				},
+				{
+					-274,
+					-233,
+					2,
+					0,
+					-110,
+					2
 				}
 			}
 		}
@@ -17500,6 +17530,129 @@ pg.base.ship_skin_template_15 = {
 							-0.68,
 							2.55,
 							-0.44
+						}
+					}
+				}
+			}
+		}
+	},
+	[900190] = {
+		name = "企业",
+		change_skin = "",
+		desc = "约克城级航空母舰—企业，舷号CV-6",
+		illustrator2 = -1,
+		ship_group = 900190,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "qiye_dark_shadow",
+		lover_hand = "hand_1_02",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 900190,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "qiye_dark_shadow",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-0.34,
+					0.39,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.37,
+					0.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.967,
+							0.38,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.14,
+							0.832,
+							0
 						}
 					}
 				}
