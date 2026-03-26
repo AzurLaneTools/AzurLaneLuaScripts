@@ -1,132 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
-	[401261] = {
-		name = "友好的分享时间",
-		change_skin = "",
-		desc = "指挥官，欢迎来到我的房间！啊，稍等一下，我把吃的喝的还有玩的都拿出来！",
-		illustrator2 = -1,
-		ship_group = 40126,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "Z26_2",
-		lover_hand = "hand_2_02",
-		skin_type = 4,
-		shop_type_id = 20,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "109",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 401261,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "Z26_2",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 70405,
-		voice_actor = 247,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.644,
-					1.267,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.674,
-					1.274,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.672,
-					1.342,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.58,
-							2.14,
-							-1.05
-						}
-					}
-				}
-			}
-		}
-	},
 	[401280] = {
 		name = "{namecode:445}",
 		change_skin = "",
@@ -17987,6 +17861,148 @@ pg.base.ship_skin_template_11 = {
 			},
 			{
 				3.7
+			}
+		}
+	},
+	[405051] = {
+		name = "清澈假日",
+		change_skin = "",
+		desc = "啊，指挥官，你已经换好泳装了吗？我这边……抱歉。刚下去游了一圈，感觉这头发需要做点什么才行……",
+		illustrator2 = -1,
+		ship_group = 40505,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "bisimaiz_2",
+		lover_hand = "hand_1_02",
+		skin_type = 4,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "133",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = true,
+		spine_offset_profile = "",
+		shop_offset = "",
+		id = 405051,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "bisimaiz_2",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 70843,
+		voice_actor = 38,
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.94,
+					2,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.02,
+					1.07,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.86,
+					2.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							3.05,
+							-0.18
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			71.8,
+			-311.3,
+			0,
+			0.49
+		},
+		special_effects = {
+			"lihui_bisimaiZ_2",
+			{
+				1177,
+				132,
+				0
+			},
+			{
+				0.9
 			}
 		}
 	}

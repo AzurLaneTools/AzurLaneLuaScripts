@@ -5816,7 +5816,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[30228] = {
 		ship_group = 30228,
-		name = "Nayoro",
+		name = "Kizu",
 		background = "",
 		sculpture = "mujin",
 		nationality = 3,
@@ -5825,7 +5825,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[30229] = {
 		ship_group = 30229,
-		name = "Kizu",
+		name = "Nayoro",
 		background = "",
 		sculpture = "mingji",
 		nationality = 3,

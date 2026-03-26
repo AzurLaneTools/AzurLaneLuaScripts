@@ -1,132 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
-	[301611] = {
-		name = "模范优等生",
-		change_skin = "",
-		desc = "学习是件很有趣的事情，掌握新知识的惊喜，解决难题后的成就感…尝试过后你就知道了。所以指挥官，一起来学习吧？",
-		illustrator2 = -1,
-		ship_group = 30161,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "bangfeng_2",
-		lover_hand = "hand_3_02",
-		skin_type = 4,
-		shop_type_id = 4,
-		l2d_ignore_drag = 0,
-		hand_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip01",
-		bg_sp = "",
-		bg = "103",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 301611,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "bangfeng_2",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 70092,
-		voice_actor = 112,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.17,
-					0.62,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.19,
-					0.61,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.2,
-					0.64,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.19,
-					0.61,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[301612] = {
 		name = "美味的关键是爱？！",
 		change_skin = "",
@@ -17514,6 +17388,132 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.49,
 							2.47,
+							-0.34
+						}
+					}
+				}
+			}
+		}
+	},
+	[303091] = {
+		name = "幕间小憩",
+		change_skin = "",
+		desc = "呼…终于弄好了…总觉得不太习惯…指挥官大人觉得如何？不、不会很奇怪吧……？",
+		illustrator2 = -1,
+		ship_group = 30309,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "zubing_2",
+		lover_hand = "hand_2_02",
+		skin_type = 4,
+		shop_type_id = 2,
+		l2d_ignore_drag = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip02",
+		bg_sp = "",
+		bg = "101",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 303091,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "zubing_2",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 70138,
+		voice_actor = 138,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.28,
+					0.84,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.161,
+					0.189,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.26,
+					0.79,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.15,
 							-0.34
 						}
 					}

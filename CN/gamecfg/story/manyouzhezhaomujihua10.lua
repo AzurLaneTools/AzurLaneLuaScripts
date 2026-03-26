@@ -442,12 +442,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-wanderingcity-pv",
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
+			sayColor = "#ff5c5c",
+			bgm = "story-wanderingcity-pv",
 			important = true,
-			say = "<color=#ff5c5c>市政管理系统：您的选择，将确定本次行动的最终结局。</color>",
+			hidePaintObj = true,
+			say = "市政管理系统：您的选择，将确定本次行动的最终结局。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

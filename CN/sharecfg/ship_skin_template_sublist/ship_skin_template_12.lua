@@ -1,148 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_12 = {
-	[405051] = {
-		name = "清澈假日",
-		change_skin = "",
-		desc = "啊，指挥官，你已经换好泳装了吗？我这边……抱歉。刚下去游了一圈，感觉这头发需要做点什么才行……",
-		illustrator2 = -1,
-		ship_group = 40505,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "bisimaiz_2",
-		lover_hand = "hand_1_02",
-		skin_type = 4,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip03",
-		bg_sp = "",
-		bg = "133",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = true,
-		spine_offset_profile = "",
-		shop_offset = "",
-		id = 405051,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "bisimaiz_2",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 70843,
-		voice_actor = 38,
-		shop_dynamic_hx = 0,
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			6
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.94,
-					2,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.02,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.86,
-					2.01,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							3.05,
-							-0.18
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			71.8,
-			-311.3,
-			0,
-			0.49
-		},
-		special_effects = {
-			"lihui_bisimaiZ_2",
-			{
-				1177,
-				132,
-				0
-			},
-			{
-				0.9
-			}
-		}
-	},
 	[405052] = {
 		name = "沐光缀心",
 		change_skin = "",
@@ -16576,6 +16434,132 @@ pg.base.ship_skin_template_12 = {
 		get_showing = "",
 		main_UI_FX = "",
 		shop_id = 70925,
+		voice_actor = 301,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.195,
+					1.038,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.094,
+					1.023,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.091,
+					1.1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2.392,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[502074] = {
+		name = "巧手凝情伴香酥",
+		change_skin = "",
+		desc = "欢迎您回来，指挥官。我特意为您准备了美味的糕饼哦。欸？您想要我怀里这个？这、这个不是可食用版本啦。",
+		illustrator2 = -1,
+		ship_group = 50207,
+		group_index = 4,
+		purchase_offset = "",
+		painting = "haitian_5",
+		lover_hand = "hand_2_02",
+		skin_type = 4,
+		shop_type_id = 3,
+		l2d_ignore_drag = 0,
+		hand_id = 15,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip02",
+		bg_sp = "",
+		bg = "127",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 502074,
+		voice_actor_2 = 323,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "haitian_5",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
 		voice_actor = 301,
 		shop_dynamic_hx = 0,
 		spine_offset = "",
