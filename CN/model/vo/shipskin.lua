@@ -393,9 +393,9 @@ slot0.GetRewardListDesc = function(slot0)
 end
 
 slot0.GetShareGroupIds = function(slot0)
-	slot1 = slot0:getConfig("ship_group")
+	slot3 = pg.ship_data_group.get_id_list_by_group_type[slot0:getConfig("ship_group")] and slot2[1] or nil
 
-	return slot1, underscore.to_array(pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot1][1]].share_group_id)
+	return slot1, underscore.to_array(slot3 and pg.ship_data_group[slot3].share_group_id or {})
 end
 
 slot0.GetAllChangeSkinIds = function(slot0)
