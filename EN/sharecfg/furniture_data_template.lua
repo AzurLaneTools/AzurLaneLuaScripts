@@ -28439,7 +28439,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	},
 	[100075] = {
 		can_rotate = 0,
-		name = "神秘沙漏",
+		name = "Mysterious Hourglass ",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -28458,7 +28458,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		picture = "",
 		canputon = 0,
 		count = 1,
-		describe = "填充有神秘材料的神秘沙漏，倒过来试试看吧~",
+		describe = "A mysterious hourglass filled with mysterious contents – turn it over and see what happens. ",
 		advice = 0,
 		id = 100075,
 		tag = 6,

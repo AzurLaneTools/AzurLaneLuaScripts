@@ -126,27 +126,27 @@ return {
 			},
 			sequence = {
 				{
-					"Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island",
+					"<size=25>Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island</size>",
 					0
 				},
 				{
-					"Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island",
+					"<size=25>Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island</size>",
 					0.5
 				},
 				{
-					"Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island",
+					"<size=25>Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island</size>",
 					1
 				},
 				{
-					"Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island",
+					"<size=25>Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island</size>",
 					1.5
 				},
 				{
-					"Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island",
+					"<size=25>Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island</size>",
 					2
 				},
 				{
-					"Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island",
+					"<size=25>Special Event Announcement: Limited-Time Festival: Caught You, Commander♡ Location: Old Town Safehouse Reward: Autographed Commander-Sized Body Pillow Event Reminder: Please bear safety in mind and capture the target in an orderly manner. Event Planners: Akashi & Long Island</size>",
 					2.5
 				}
 			}

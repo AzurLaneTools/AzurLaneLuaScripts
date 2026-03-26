@@ -37568,16 +37568,16 @@ cs.gametip = {
 	},
 	multiple_endings_tip = {
 		1353480,
-		444,
+		596,
 		true
 	},
 	l2d_tip_on = {
-		1353924,
+		1354076,
 		103,
 		true
 	},
 	l2d_tip_off = {
-		1354027,
+		1354179,
 		105,
 		true
 	}

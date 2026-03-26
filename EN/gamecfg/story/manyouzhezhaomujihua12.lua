@@ -74,27 +74,27 @@ return {
 			},
 			sequence = {
 				{
-					"Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.",
+					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
 					0
 				},
 				{
-					"Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.",
+					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
 					0.5
 				},
 				{
-					"Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.",
+					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
 					1
 				},
 				{
-					"Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.",
+					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
 					1.5
 				},
 				{
-					"Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.",
+					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
 					2
 				},
 				{
-					"Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.",
+					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
 					2.5
 				}
 			}

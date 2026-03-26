@@ -48279,7 +48279,7 @@ _G.pg.base.gametip.story_not_recrew = {
 _G.pg.base.gametip.multiple_endings_tip = {
 	tip = {
 		{
-			info = "Unlocking Endings:\nYou may encounter <color=#92fc63>Important Decisions</color> while playing through a story.<color=#92fc63>Important Decisions</color> affect the ending of the story. By playing through the story again and selecting a different <color=#92fc63>Important Decision</color>, you may be able to unlock a different ending."
+			info = "Unlocking Endings:\nYou may encounter <color=#92fc63>Important Decisions</color> while playing through a story.<color=#92fc63>Important Decisions</color> affect the ending of the story. By playing through the story again and selecting a different <color=#92fc63>Important Decision</color>, you may be able to unlock a different ending.\n※<color=#92fc63>After unlocking any ending</color>, all endings will automatically be unlocked at the end of the event and can be viewed in Memories."
 		}
 	}
 }

@@ -50240,7 +50240,15 @@ pg.activity_template = {
 			bg = "loadingbg/bg_build_4_act",
 			buildship_tip = "Rate UP for Unryuu, L'Indomptable, and Nayoro!",
 			rate_tip = {
-				"<color=#ffde38>Super Rare</color>: 7%','<color=#d797ff>Elite</color>: 12%','<color=#3dc6ff>Rare</color>: 51%','Common: 30%','<color=#ffde38>Unryuu</color>: 2.0%<color=#92FC63>(up!)</color>',' ','<color=#ffde38>L'Indomptable</color>: 2.0%<color=#92FC63>(up!)</color>',' ','<color=#d797ff>Nayoro</color>: 2.5%<color=#92FC63>(up!)</color>"
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Common: 30%",
+				"<color=#ffde38>Unryuu</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>L'Indomptable</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>Nayoro</color>: 2.5%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
