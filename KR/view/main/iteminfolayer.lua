@@ -214,122 +214,135 @@ slot0.setItem = function(slot0, slot1)
 
 	slot3 = slot0.itemVO:getConfig("type")
 
-	if Item.IsLoveLetterCheckItem(slot0.itemVO.id) then
-		slot5 = slot0:getButton("checkMail", slot0.blueBtn)
+	if slot0.itemVO:IsRepairLoveLetterItem() then
+		onButton(slot0, slot0.loveRepairBtn, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("loveletter2018_ui_1"),
+				onYes = function ()
+					uv0:emit(ItemInfoMediator.REPAIR_LOVE_LETTER_ITEM, uv0.itemVO)
+				end
+			})
+		end, SFX_PANEL)
+		setActive(slot0.loveRepairBtn, true)
+		setActive(slot0.okBtn, false)
+	else
+		if Item.IsLoveLetterCheckItem(slot0.itemVO.id) then
+			slot5 = slot0:getButton("checkMail", slot0.blueBtn)
 
-		setText(slot5:Find("pic"), i18n("loveletter_recover_bottom1"))
-		onButton(slot0, slot5, function ()
-			uv0:emit(ItemInfoMediator.CHECK_LOVE_LETTER_MAIL, uv0.itemVO.id, uv1)
-		end, SFX_CONFIRM)
+			setText(slot5:Find("pic"), i18n("loveletter_recover_bottom1"))
+			onButton(slot0, slot5, function ()
+				uv0:emit(ItemInfoMediator.CHECK_LOVE_LETTER_MAIL, uv0.itemVO.id, uv1)
+			end, SFX_CONFIRM)
 
-		slot6 = slot0:getButton("repairMail", slot0.yellowBtn)
+			slot6 = slot0:getButton("repairMail", slot0.yellowBtn)
 
-		setText(slot6:Find("pic"), i18n("loveletter_recover_bottom2"))
-		onButton(slot0, slot6, function ()
-			if not uv0 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_recover_tip1"))
-			elseif #uv0 == 0 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_recover_tip3"))
-			else
-				if #uv0 == 1 then
+			setText(slot6:Find("pic"), i18n("loveletter_recover_bottom2"))
+			onButton(slot0, slot6, function ()
+				if not uv0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_recover_tip1"))
+				elseif #uv0 == 0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_recover_tip3"))
+				else
+					if #uv0 == 1 then
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							delayConfirm = 3,
+							content = i18n("loveletter_recover_text1", uv0[1], ShipGroup.New({
+								id = uv1
+							}):getName()),
+							onYes = function ()
+								uv0:emit(ItemInfoMediator.REPAIR_LOVE_LETTER_MAIL, uv0.itemVO.id, uv1, uv2)
+							end
+						})
+
+						return
+					end
+
+					table.sort(uv0)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						delayConfirm = 3,
-						content = i18n("loveletter_recover_text1", uv0[1], ShipGroup.New({
+						hideYes = true,
+						content = i18n("loveletter_recover_text2", ShipGroup.New({
 							id = uv1
 						}):getName()),
-						onYes = function ()
-							uv0:emit(ItemInfoMediator.REPAIR_LOVE_LETTER_MAIL, uv0.itemVO.id, uv1, uv2)
-						end
+						custom = underscore.map(uv0, function (slot0)
+							return {
+								delayButton = 3,
+								text = i18n("loveletter_recover_bottom3", slot0),
+								sound = SFX_CONFIRM,
+								onCallback = function ()
+									uv0:emit(ItemInfoMediator.REPAIR_LOVE_LETTER_MAIL, uv0.itemVO.id, uv1, uv2)
+								end,
+								btnType = pg.MsgboxMgr.BUTTON_YELLOW
+							}
+						end)
 					})
-
-					return
 				end
+			end, SFX_PANEL)
+			setGray(slot6, not getProxy(BagProxy):GetLoveLetterRepairInfo(slot0.itemVO.id .. "_" .. (slot0.itemVO.extra or pg.loveletter_2018_2021[slot0.itemVO.id].ship_group_id)) or #slot7 == 0)
 
-				table.sort(uv0)
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					hideYes = true,
-					content = i18n("loveletter_recover_text2", ShipGroup.New({
-						id = uv1
-					}):getName()),
-					custom = underscore.map(uv0, function (slot0)
-						return {
-							delayButton = 3,
-							text = i18n("loveletter_recover_bottom3", slot0),
-							sound = SFX_CONFIRM,
-							onCallback = function ()
-								uv0:emit(ItemInfoMediator.REPAIR_LOVE_LETTER_MAIL, uv0.itemVO.id, uv1, uv2)
-							end,
-							btnType = pg.MsgboxMgr.BUTTON_YELLOW
-						}
-					end)
-				})
+			return
+		end
+
+		if slot0.itemVO:getConfig("type") == Item.EQUIPMENT_BOX_TYPE_5 then
+			slot7 = slot0.operatePanel
+
+			slot0:setItemInfo(slot1, slot7:Find("item"))
+			setActive(slot0.useOneBtn, true)
+			onButton(slot0, slot0.useOneBtn, function ()
+				SetActive(uv0.operatePanel, true)
+				SetActive(uv0.window, false)
+
+				uv0.operateMode = uv1.USE
+
+				uv0:SetOperateCount(1)
+			end, SFX_PANEL)
+		elseif slot0.itemVO:CanOpen() then
+			setText(slot0.useBtn:Find("text"), 1)
+			setActive(slot0.useBtn, true)
+
+			if slot0.itemVO.count > 1 then
+				setText(slot0.batchUseBtn:Find("text"), math.min(slot0.itemVO.count, 10))
+				setActive(slot0.batchUseBtn, true)
 			end
-		end, SFX_PANEL)
-		setGray(slot6, not getProxy(BagProxy):GetLoveLetterRepairInfo(slot0.itemVO.id .. "_" .. (slot0.itemVO.extra or pg.loveletter_2018_2021[slot0.itemVO.id].ship_group_id)) or #slot7 == 0)
+		elseif slot3 == Item.BLUEPRINT_TYPE then
+			slot5 = getProxy(TechnologyProxy):GetBlueprint4Item(slot0.itemVO.id)
 
-		return
-	end
+			if not LOCK_FRAGMENT_SHOP and slot5 and slot4:getBluePrintById(slot5):isMaxLevel() then
+				setActive(slot0.resolveBtn, true)
+				slot0:UpdateBlueprintResolveNum()
+			end
 
-	if slot0.itemVO:getConfig("type") == Item.EQUIPMENT_BOX_TYPE_5 then
-		slot7 = slot0.operatePanel
-
-		slot0:setItemInfo(slot1, slot7:Find("item"))
-		setActive(slot0.useOneBtn, true)
-		onButton(slot0, slot0.useOneBtn, function ()
-			SetActive(uv0.operatePanel, true)
-			SetActive(uv0.window, false)
-
-			uv0.operateMode = uv1.USE
-
-			uv0:SetOperateCount(1)
-		end, SFX_PANEL)
-	elseif slot0.itemVO:CanOpen() then
-		setText(slot0.useBtn:Find("text"), 1)
-		setActive(slot0.useBtn, true)
-
-		if slot0.itemVO.count > 1 then
-			setText(slot0.batchUseBtn:Find("text"), math.min(slot0.itemVO.count, 10))
-			setActive(slot0.batchUseBtn, true)
-		end
-	elseif slot3 == Item.BLUEPRINT_TYPE then
-		slot5 = getProxy(TechnologyProxy):GetBlueprint4Item(slot0.itemVO.id)
-
-		if not LOCK_FRAGMENT_SHOP and slot5 and slot4:getBluePrintById(slot5):isMaxLevel() then
+			slot0:setItemInfo(slot1, slot0.operatePanel:Find("item"))
+			setActive(slot0.okBtn, true)
+		elseif slot3 == Item.TEC_SPEEDUP_TYPE then
 			setActive(slot0.resolveBtn, true)
-			slot0:UpdateBlueprintResolveNum()
+			slot0:UpdateSpeedUpResolveNum()
+			slot0:setItemInfo(slot1, slot0.operatePanel:Find("item"))
+			setActive(slot0.okBtn, true)
+		elseif slot3 == Item.LOVE_LETTER_TYPE then
+			setActive(slot0.loveRepairBtn, false)
+			setActive(slot0.okBtn, true)
+		elseif slot3 == Item.METALESSON_TYPE then
+			setActive(slot0.metaskillBtn, true)
+			onButton(slot0, slot0.metaskillBtn, function ()
+				uv0:closeView()
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER)
+			end, SFX_PANEL)
+			setActive(slot0.okBtn, true)
+		elseif slot3 == Item.SKIN_ASSIGNED_TYPE then
+			setActive(slot0.useOneBtn, slot0.contextData.confirmCall)
+			onButton(slot0, slot0.useOneBtn, function ()
+				uv0.contextData.confirmCall()
+				uv0:closeView()
+			end, SFX_PANEL)
+			setActive(slot0.okBtn, true)
+		elseif slot0.itemVO:IsExclusiveDiscountType() then
+			setActive(slot0.recycleBtn, true)
+			setActive(slot0.skinShopBtn, true)
+		elseif slot0.itemVO:IsSkinExperienceType() then
+			setActive(slot0.skinExperienceShopBtn, true)
+		else
+			setActive(slot0.okBtn, true)
 		end
-
-		slot0:setItemInfo(slot1, slot0.operatePanel:Find("item"))
-		setActive(slot0.okBtn, true)
-	elseif slot3 == Item.TEC_SPEEDUP_TYPE then
-		setActive(slot0.resolveBtn, true)
-		slot0:UpdateSpeedUpResolveNum()
-		slot0:setItemInfo(slot1, slot0.operatePanel:Find("item"))
-		setActive(slot0.okBtn, true)
-	elseif slot3 == Item.LOVE_LETTER_TYPE then
-		setActive(slot0.loveRepairBtn, false)
-		setActive(slot0.okBtn, true)
-	elseif slot3 == Item.METALESSON_TYPE then
-		setActive(slot0.metaskillBtn, true)
-		onButton(slot0, slot0.metaskillBtn, function ()
-			uv0:closeView()
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER)
-		end, SFX_PANEL)
-		setActive(slot0.okBtn, true)
-	elseif slot3 == Item.SKIN_ASSIGNED_TYPE then
-		setActive(slot0.useOneBtn, slot0.contextData.confirmCall)
-		onButton(slot0, slot0.useOneBtn, function ()
-			uv0.contextData.confirmCall()
-			uv0:closeView()
-		end, SFX_PANEL)
-		setActive(slot0.okBtn, true)
-	elseif slot0.itemVO:IsExclusiveDiscountType() then
-		setActive(slot0.recycleBtn, true)
-		setActive(slot0.skinShopBtn, true)
-	elseif slot0.itemVO:IsSkinExperienceType() then
-		setActive(slot0.skinExperienceShopBtn, true)
-	else
-		setActive(slot0.okBtn, true)
 	end
 end
 

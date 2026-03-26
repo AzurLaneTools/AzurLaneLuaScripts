@@ -5641,40 +5641,40 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2025.12.25 ~ 2026.3.26</color>
-비콘·META 요크타운·META가 진행 중입니다. 비콘·META에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
+<color=#92fc63>2026.3.26 ~ 2026.6.19</color>
+META전 레겐스부르크·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
 (※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)
 
-■ 비콘·META에 대해
-■ 「비콘·META」이란 「META」 함선에 도전하여 「동기화 수치」 등의 보상을 획득할 수 있는 공투 콘텐츠입니다. 
-「비콘·META」은 다음 두 가지 요소로 구성됩니다. 
+■ META전에 대해
+■ 「META전」이란 「META」 함선에 도전하여 「동기화 수치」 등의 보상을 획득할 수 있는 공투 콘텐츠입니다. 
+「META전」은 다음 두 가지 요소로 구성됩니다. 
 ・META 비콘 동기화 = META 함선의 도전권 개방
 ・META 함선과의 전투
 
-「비콘·META」 시스템은 대형 작전 스토리를 진행하면 개방됩니다. 
+「META전」 시스템은 대형 작전 스토리를 진행하면 개방됩니다. 
 
-■ 비콘·META 비콘 동기화
+■ META전 비콘 동기화
 ・「대형 작전」에서는 전투 등의 방법으로 「META 비콘 데이터」를 획득할 수 있습니다. 
-・「META 비콘 정보」 작전 해역 지도 화면의 우측 상단에 표시되며, META 비콘 정보 수가 소지 가능 최대 한도 수에 도달할 때마다 META 비콘을 모두 소모하여, 「비콘·META」의 「정보 동기화」를 통해 META 함선 도전권을 개방할 수 있습니다. 
+・「META 비콘 정보」 작전 해역 지도 화면의 우측 상단에 표시되며, META 비콘 정보 수가 소지 가능 최대 한도 수에 도달할 때마다 META 비콘을 모두 소모하여, 「META전」의 「정보 동기화」를 통해 META 함선 도전권을 개방할 수 있습니다. 
 ・「정보 동기화」는 하루에 두 번만 실시할 수 있습니다. 또한, 매일 0시마다 정보 동기화 가능 횟수 외에 META 비콘 소지 수도 일정 숫자를 남기고 초기 소지 수로 돌아갑니다. 
 
-■ 비콘·META에 대해
-・「대형 작전」 해역 지도 화면 우측 하단에 있는 「비콘·META」 아이콘을 탭하면, META 함선에게 도전할 수 있습니다. ・비콘·META에서는
+■ META전에 대해
+・「대형 작전」 해역 지도 화면 우측 하단에 있는 「META전」 아이콘을 탭하면, META 함선에게 도전할 수 있습니다. ・META전에서는
  ① 자신이 META 비콘을 동기화함으로써 개방되는 전투
- ② 아군의 「비콘·META 지원 요청」을 수락한 전투
+ ② 아군의 「META전 지원 요청」을 수락한 전투
  ⇨ 이 전투들에 도전하려면 「비콘 목록」을 확인해야 합니다. 
-・비콘·META은 아군 함대로 도전할 수 있습니다. 또한, 잠수함과 지휘냥은 사용할 수 없습니다. 
+・META전은 아군 함대로 도전할 수 있습니다. 또한, 잠수함과 지휘냥은 사용할 수 없습니다. 
 ・자신이 동기화한 META를 격퇴한 경우, 다음에 개방되는 META는 더욱 강해진 상태(레벨 상승)로 등장합니다. 
 ・한 번의 전투로 적을 격퇴하지 못한 경우, 전투 종료 시 「지원 요청」을 통해 다른 플레이어에게 전투를 개방할 수 있습니다. 
-・비콘·META에서는 상기 ①, ② 중 어디에 해당하든 적이 격퇴(내구가 0에 도달)되었다면, 전투에 참가한 지휘관은 모두 「동기화 수치」를 획득할 수 있습니다. 
+・META전에서는 상기 ①, ② 중 어디에 해당하든 적이 격퇴(내구가 0에 도달)되었다면, 전투에 참가한 지휘관은 모두 「동기화 수치」를 획득할 수 있습니다. 
 
 ■ 주의 사항
-・개방된 전투는 24시간 동안만 도전할 수 있습니다. 24시간이 지난 경우, 비콘·META 표시가 사라져 도전이 불가능해집니다. 
+・개방된 전투는 24시간 동안만 도전할 수 있습니다. 24시간이 지난 경우, META전 표시가 사라져 도전이 불가능해집니다. 
 ・자신이 개방한 전투에 도전하려면 [연료]가 필요하며, META의 내구가 0이 될 때까지 몇번이고 도전할 수 있습니다. 
 ・아군으로부터 지원 요청을 받은 전투에 도전하려면 [도전 포인트]가 필요합니다. (도전 포인트는 매일 회복됩니다.)
 ・한 전투에 최대 30명까지 도전할 수 있습니다. 인원 수가 상한에 달한 경우, 표시된 META 비콘에는 도전할 수 없게 됩니다. 
-・비콘·META에서는 경험치를 획득할 수 없으며, 사기 컨디션, 승리 숫자에도 영향을 주지 않습니다. 
-・비콘·META에 등장하는 적 함선이 변경된 후 31일이 경과하면, 지휘관은 자신이 개방한 비콘·META에 도전할 시, 한 전투에 단 한 번 아군 지원 포격으로 META 함선에 피해(직접 피해 또는 지속 피해)를 줄 수 있습니다. 해당 피해는 등장 함선이 변경된 후부터 시간이 흐르면 흐를 수록 상승합니다. ]]
+・META전에서는 경험치를 획득할 수 없으며, 사기 컨디션, 승리 숫자에도 영향을 주지 않습니다. 
+・META전에 등장하는 적 함선이 변경된 후 31일이 경과하면, 지휘관은 자신이 개방한 META전에 도전할 시, 한 전투에 단 한 번 아군 지원 포격으로 META 함선에 피해(직접 피해 또는 지속 피해)를 줄 수 있습니다. 해당 피해는 등장 함선이 변경된 후부터 시간이 흐르면 흐를 수록 상승합니다. ]]
 		}
 	}
 }
@@ -11014,7 +11014,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "*이벤트 기간(<color=#539b2c>02.26-03.18</COLOR>)에는 갱신 시마다 반드시<color=#539b2c>장비스킨 상자 (신춘 옥션)/장비스킨 상자 (서광영춘)</color>가 출현합니다.\n*이벤트 기간(<color=#539b2c>03.12-03.25</COLOR>)에는 갱신 시마다 반드시<color=#539b2c>장비스킨 상자 (봄빛 여관)</color>가 출현합니다."
+	tip = "  *이벤트 기간(<color=#539b2c>02.26-03.18</COLOR>)에는 갱신 시마다 반드시<color=#539b2c>장비스킨 상자 (신춘 옥션)/장비스킨 상자 (서광영춘)</color>가 출현합니다.\n*이벤트 기간(<color=#539b2c>03.12-03.25</COLOR>)에는 갱신 시마다 반드시<color=#539b2c>장비스킨 상자 (봄빛 여관)</color>가 출현합니다."
 }
 
 
@@ -12537,7 +12537,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 「모스크바」 100% 획득 가능! (최대 4척까지)"
+	tip = "기간 한정 건조를 총 200회 실시하면, 「소비에츠키 소유즈」 100% 획득 가능! (최대 4척까지)"
 }
 
 
@@ -20980,6 +20980,11 @@ _G.pg.base.gametip.query_role_fail = {
 }
 
 
+_G.pg.base.gametip.query_role_fail_and_retry = {
+	tip = "일부 서버에서 정보 취득에 실패했습니다. 다시 시도하시기 바랍니다."
+}
+
+
 _G.pg.base.gametip.cumulative_victory_target_tip = {
 	tip = "목표 승리 횟수"
 }
@@ -21448,12 +21453,12 @@ META 연구실에서는 다음 조작을 실시할 수 있습니다.
 ・같은 「META」 함선을 중복으로 획득한 경우, 한계돌파 아이템 「결정」으로 변환됩니다. 
 
 ■동기화 수치
-・「대형 작전」의 「비콘·META」에서는 특정 「META」 함선에 대응되는 「동기화 수치」를 획득할 수 있습니다. 
+・「대형 작전」의 「META전」에서는 특정 「META」 함선에 대응되는 「동기화 수치」를 획득할 수 있습니다. 
 ・META 연구실에서 해당 함선의 탭을 선택하면, 해당 함선의 「동기화 수치」관련 보상을 확인할 수 있습니다. 
 ・동기화 수치가 일정 수준에 도달하면 「META 함선」을 획득할 수 있습니다. 
 ・「META」 함선을 이미 획득한 상태라면, 함선의 조작 화면에서 「정보 동기화」로 동기화 수치 관련 정보를 확인할 수 있습니다. 
 
-※<color=#92fc63>2025.12.25 ~ 2026.3.26</color>요크타운·META 비콘·META 오픈 기간 동안에는 「요크타운·META」의 동기화 수치를 획득할 수 있습니다. 
+※<color=#92fc63>2026.3.26 ~ 2026.6.19</color> 레겐스부르크·META의 META전 오픈 기간 동안에는 「레겐스부르크·META」의 동기화 수치를 획득할 수 있습니다. 
  동기화 수치 및 동기화 수치 총 획득 수 보상은 진행 기간 종료 후에 초기화됩니다. 
 
 ■ 「META」 함선의 의장 강화
@@ -37857,6 +37862,15 @@ _G.pg.base.gametip.SkinDiscountHelp_School = {
 }
 
 
+_G.pg.base.gametip.SkinDiscountHelp_Winter = {
+	tip = {
+		{
+			info = "1. 이벤트 기간 중 <color=#92fc63>정가</color>(쿠폰 미사용)로 봄날 복각 스킨을 구매하거나, 봄날 할인 패키지(2026) ·프리미엄 봄날 할인 패키지(2026)를 구매하면 <color=#92fc63>스킨 쿠폰(봄날 2026)</color>을 획득할 수 있습니다.\n2. <color=#92fc63>스킨 쿠폰(봄날 2026)</color>은 봄날 복각 스킨을 구매할 때 적용하면 스킨 가격이 다이아 300개만큼 할인됩니다. 특별 패키지 구매 시에는 적용할 수 없습니다.\n3. <color=#92fc63>스킨 쿠폰(봄날 2026)</color>은 이벤트 종료 시 2026년 3월 25일 23:59 후에 삭제됩니다."
+		}
+	}
+}
+
+
 _G.pg.base.gametip.SkinDiscount_Hint = {
 	tip = "수령하지 않은 스킨 쿠폰이 있습니다. 쿠폰 수령 페이지로 이동하시겠습니까?"
 }
@@ -45307,6 +45321,16 @@ _G.pg.base.gametip.general_activity_side_bar2 = {
 }
 
 
+_G.pg.base.gametip.general_activity_side_bar3 = {
+	tip = "BF Cruise Missions"
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar4 = {
+	tip = "BF Ltd. Rerun Outfits"
+}
+
+
 _G.pg.base.gametip.black5_bundle_desc = {
 	tip = "지정된 스킨 3개 구매 시 서약 반지*1 획득 가능"
 }
@@ -45811,6 +45835,50 @@ _G.pg.base.gametip.HelenaCoreActivity_subtitle_3 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_help_1211 = {
+	tip = {
+		{
+			info = [[
+봄날 할인 아카시의 선물(2026.3.26 ~ 2026.4.15)
+
+·<color=#92fc63>진행 기간</color>
+ 2026.3.12 점검 후 ~ 2026.4.15 23:59:59
+
+·<color=#92fc63>특매 임무에 대해</color>
+(1) 이벤트 기간 중에 특매 임무를 완수하면 「특매 임무 PT」를 획득할 수 있습니다. 
+(2) 특매 임무는 시간이 경과하면 순차적으로 오픈됩니다. 
+(3) 「특매 임무 PT」를 100 획득할 때마다 특매 진척도가 1 증가합니다. 
+(4) 특매 진척도가 증가하면 해당 특매 임무의 진행 상황에 따라 보상을 획득할 수 있습니다(최대 15까지). 
+
+·<color=#92fc63>보상에 대해</color>
+특매 진척 보상에는 2종류가 있습니다.
+(1) 기본 보상: <color=#ff5c5c>스킨 쿠폰(특매 패스 2026)</color>, <color=#ff5c5c>지향형 강화 유닛·8기</color> 등의 보상을 획득할 수 있습니다.
+ 특매 임무 진척도가 특정 레벨에 도달하면 해당 레벨의 보상을 획득할 수 있습니다. 
+(2) 특매 패스 보상: <color=#ff5c5c>전투 UI: 봄날 할인</color>, <color=#ff5c5c>다이아</color> 등의 보상을 획득할 수 있습니다.
+ 「봄날 할인 패스」를 구매하고 특매 임무 진척도를 특정 레벨까지 도달시키면, 해당 레벨의 특별 보상을 획득할 수 있습니다. 
+ 주의: 「봄날 할인 패스」는 기본 보상 취득에는 영향을 주지 않습니다. 
+
+·<color=#92fc63>「봄날 할인 패스」에 대해</color>
+(1) 「봄날 할인」는 「상점」 - 「특별 패키지」에서 구매할 수 있으며, 구매하면 「특매 임무 PT」 <color=#ff5c5c>200점</color>이 가산되고 특매 패스 보상이 오픈됩니다. 
+(2) 「봄날 할인 패스」는 <color=#ff5c5c>이벤트 종료 1시간 전</color>(4.15 23:59:59)에 판매가 중지됩니다. 
+
+·<color=#92fc63>임무 설명</color>
+특매 임무는 두 가지로 나뉩니다.
+(1) 일일 임무 
+ 일일 특매 임무는 총 12일 분량이 존재합니다. 이벤트 시작 시에 1일차, 그 후부터 매일 오픈됩니다.
+(2) S.P. 임무
+ S.P. 임무는 임무 시작 시에 모두 오픈됩니다. 
+(3) 특매 임무는 오픈된 시점부터 실행할 수 있으며, 임무를 완수하면 보상을 획득할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_1211 = {
+	tip = "월드 투어·봄날 선물"
+}
+
+
 _G.pg.base.gametip.HelenaCoreActivity_subtitle_4 = {
 	tip = "창공에 울리는 소리"
 }
@@ -45828,6 +45896,76 @@ _G.pg.base.gametip.HelenaCoreActivity_subtitle_6 = {
 
 _G.pg.base.gametip.winter_battlepass_proceed = {
 	tip = "前往"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_main_time_title = {
+	tip = "잔여:"
+}
+
+
+_G.pg.base.gametip.winter_cruise_title_1211 = {
+	tip = "월드 투어·봄날 선물"
+}
+
+
+_G.pg.base.gametip.winter_cruise_task_tips = {
+	tip = "완료됨"
+}
+
+
+_G.pg.base.gametip.winter_cruise_task_unlock = {
+	tip = "$1일 $2시간 후에 오픈"
+}
+
+
+_G.pg.base.gametip.winter_cruise_task_day = {
+	tip = "$1일차"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_pay_acquire = {
+	tip = "구매하여 획득:"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_pay_tip = {
+	tip = "구매 시 특별 보상 오픈:"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_mission = {
+	tip = "임무"
+}
+
+
+_G.pg.base.gametip.winter_battlepass_rewards = {
+	tip = "보상"
+}
+
+
+_G.pg.base.gametip.winter_cruise_btn_pay = {
+	tip = "특별 보상 오픈"
+}
+
+
+_G.pg.base.gametip.winter_cruise_pay_reward = {
+	tip = "획득 보상"
+}
+
+
+_G.pg.base.gametip.winter_luckybag_9005 = {
+	tip = "봄날 할인 2026 대상 스킨 ($1/$2)개를 보유하고 있습니다. 대상 스킨을 이미 모두 소지하고 있는 경우에는 해당 스킨 쿠폰을 사용할 수 없습니다. 또한, 특별 패키지로 획득한 스킨을 이미 획득한 경우에는 자동으로 다이아로 변환됩니다. \n특별 패키지를 구매하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.winter_luckybag_9006 = {
+	tip = "봄날 할인 2026 대상 스킨 ($1/$2)개를 보유하고 있습니다. 대상 스킨을 이미 모두 소지하고 있는 경우에는 해당 스킨 쿠폰을 사용할 수 없습니다. 또한, 특별 패키지로 획득한 스킨을 이미 획득한 경우에는 자동으로 다이아×1080로 변환됩니다. \n특별 패키지를 구매하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.winter_cruise_btn_all = {
+	tip = "일괄 수령"
 }
 
 
@@ -46588,6 +46726,116 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "경영 임무"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "수령"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "일괄 획득 "
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "봄빛 여관 Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "여관 보급지"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "새해의 소망"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "진행 기간: 3.3 0시 ~ 3.17 23:59"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "랜덤 비서함 기능을 OFF로 설정한 후에 다시 시도하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "가장 왼쪽 비서함 슬롯에 배치된 함선의 새해 선물이 우편함으로 발송됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "배치된 함선에게서 새해 선물을 수령할 수 없습니다. 비서함을 변경한 후 다시 시도하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "선물이 우편함으로 발송되었습니다!"
+}
+
+
 _G.pg.base.gametip.island_gift_tip_title = {
 	tip = "체력"
 }
@@ -46784,114 +47032,4 @@ _G.pg.base.gametip.LiquorFloor_tip = {
 7. 경영 임무를 수행하면 「보화」 이외에도 한정 채팅 아이콘, 한정 가구 등의 보상을 획득할 수 있습니다.]]
 		}
 	}
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_title = {
-	tip = "경영 임무"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_go = {
-	tip = "확인"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_get = {
-	tip = "수령"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_got = {
-	tip = "수령 완료"
-}
-
-
-_G.pg.base.gametip.LiquorFloor_gold_get = {
-	tip = "일괄 획득 "
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
-	tip = "봄빛 여관 Online"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
-	tip = "여관 보급지"
-}
-
-
-_G.pg.base.gametip.loveactivity_help_tips = {
-	tip = {
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_2"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_3"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_4"
-			}
-		},
-		disableScroll = true,
-		pageMode = true,
-		defaultpage = 1,
-		ImageMode = true,
-		windowSize = {
-			x = 1263,
-			y = 873
-		},
-		windowPos = {
-			y = -70
-		},
-		helpSize = {
-			x = 1176,
-			y = 1024
-		}
-	}
-}
-
-
-_G.pg.base.gametip.spring_present_tips_btn = {
-	tip = "새해의 소망"
-}
-
-
-_G.pg.base.gametip.spring_present_tips_time = {
-	tip = "진행 기간: 2.26 ~ 3.12 점검"
-}
-
-
-_G.pg.base.gametip.spring_present_tips0 = {
-	tip = "랜덤 비서함 기능을 OFF로 설정한 후에 다시 시도하시기 바랍니다."
-}
-
-
-_G.pg.base.gametip.spring_present_tips1 = {
-	tip = "가장 왼쪽 비서함 슬롯에 배치된 함선의 새해 선물이 우편함으로 발송됩니다. 계속하시겠습니까?"
-}
-
-
-_G.pg.base.gametip.spring_present_tips2 = {
-	tip = "배치된 함선에게서 새해 선물을 수령할 수 없습니다. 비서함을 변경한 후 다시 시도하시기 바랍니다."
-}
-
-
-_G.pg.base.gametip.spring_present_tips3 = {
-	tip = "선물이 우편함으로 발송되었습니다!"
 }

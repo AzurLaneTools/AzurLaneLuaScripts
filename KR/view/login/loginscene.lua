@@ -226,6 +226,14 @@ slot0.setServerAccountData = function(slot0, slot1)
 		setText(findTF(slot4, "mark/level"), setColorStr("lv." .. slot1.level, "#ffffffff"))
 
 		slot3.level = slot1.level
+	elseif slot1 and slot1.isFail then
+		setActive(findTF(slot4, "mark/level"), true)
+		setActive(findTF(slot4, "mark/searching"), false)
+		setActive(findTF(slot4, "mark/charactor"), false)
+
+		slot3.level = 0
+
+		setText(findTF(slot4, "mark/level"), setColorStr(i18n("query_role_fail"), "#ff9c00ff"))
 	else
 		setActive(findTF(slot4, "mark/level"), true)
 		setActive(findTF(slot4, "mark/searching"), false)

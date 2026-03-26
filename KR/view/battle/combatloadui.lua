@@ -101,7 +101,7 @@ slot0.Preload = function(slot0)
 			table.insert(slot5, slot2:getShipById(slot13))
 		end
 
-		slot9, slot10 = slot1.GetPlayerShipResource(slot5, contextData.system)
+		slot9, slot10 = slot1.GetPlayerShipResource(slot5, slot0.contextData.system)
 
 		for slot14, slot15 in ipairs(slot9) do
 			slot1:AddPreloadResource(slot15)

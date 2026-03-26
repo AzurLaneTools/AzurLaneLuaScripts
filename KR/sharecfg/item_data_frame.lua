@@ -11,6 +11,7 @@ pg.item_data_frame = setmetatable({
 		107,
 		108,
 		109,
+		110,
 		201,
 		202,
 		203,
@@ -83,6 +84,7 @@ pg.item_data_frame = setmetatable({
 		609,
 		610,
 		611,
+		613,
 		614,
 		1001,
 		1002,
@@ -191,6 +193,15 @@ pg.base.item_data_frame = {
 		id = 109,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>7년 동안 모항에서 분투한 모든 지휘관들에게 바칩니다.</color>\n7주년 한정 이벤트를 통해 획득 가능",
+		scene = {}
+	},
+	[110] = {
+		name = "8주년 기념",
+		gain_by = "",
+		time_second = 0,
+		id = 110,
+		time_limit_type = 0,
+		desc = "8th Anniversary！ \n<color=#A7A7AA>　8주년 기념 이벤트에서 오픈 가능</color>",
 		scene = {}
 	},
 	[201] = {
@@ -839,6 +850,15 @@ pg.base.item_data_frame = {
 		id = 611,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>숲에 부는 맑은 바람을 느끼며, 평소와 다른 휴가를 즐기자♪</color>「임간 휴가 준비」 참여 시 획득 가능",
+		scene = {}
+	},
+	[613] = {
+		name = "봄날 할인 (2026)",
+		gain_by = "",
+		time_second = 0,
+		id = 613,
+		time_limit_type = 0,
+		desc = "지휘관, 특매 이벤트에 참여해 줘서 고맙다냥. 여기, 사은품이다냥~! \n<color=#A7A7AA>「봄날 할인 2026」 참가 시 획득</color>",
 		scene = {}
 	},
 	[614] = {

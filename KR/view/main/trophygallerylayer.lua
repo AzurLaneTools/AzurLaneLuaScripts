@@ -100,6 +100,7 @@ slot0.didEnter = function(slot0)
 		setActive(slot0, getProxy(LoveLetterProxy):IsTipLevelUp() or slot1:IsTipAllLevelReward())
 	end)
 	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(slot0.rtCountLevelPanel:Find("info/icon/tip"), {
+		"love_letter_level_up",
 		"love_letter_level_reward"
 	}, function (slot0)
 		setActive(slot0, getProxy(LoveLetterProxy):IsTipAllLevelReward())

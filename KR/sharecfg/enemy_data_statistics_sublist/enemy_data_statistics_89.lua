@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_89 = {
+	[10042030] = {
+		cannon = 25,
+		hit_growth = 210,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 50,
+		fog_fx = "",
+		dodge_growth = 222,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 5,
+		base = 90167,
+		durability = 2000,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		speed = 33,
+		armor = 0,
+		id = 10042030,
+		cannon_growth = 468,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 120,
+		durability_growth = 31500,
+		antiaircraft = 85,
+		antiaircraft_growth = 1638,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			511037,
+			511038,
+			511039,
+			511040
+		}
+	},
 	[10042031] = {
 		cannon = 80,
 		hit_growth = 210,
@@ -1378,88 +1420,6 @@ pg.enemy_data_statistics_89 = {
 		equipment_list = {
 			100412,
 			510147
-		}
-	},
-	[10042501] = {
-		hit_growth = 210,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		dodge = 15,
-		armor = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		cannon = 150,
-		fog_fx = "",
-		dodge_growth = 222,
-		star = 5,
-		antisub_growth = 0,
-		rarity = 4,
-		base = 90175,
-		durability = 12000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 0,
-		id = 10042501,
-		cannon_growth = 0,
-		pilot_ai_template_id = 70005,
-		reload = 150,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 180,
-		durability_growth = 198000,
-		antiaircraft = 80,
-		battle_unit_type = 95,
-		bound_bone = {
-			cannon = {
-				{
-					0.38,
-					0.95,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.1,
-					-0.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.38,
-					0.95,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.24,
-							2.34,
-							0
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			511121,
-			511122,
-			511123,
-			511124,
-			511125
 		}
 	}
 }

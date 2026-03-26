@@ -268,6 +268,7 @@ pg.furniture_data_template = setmetatable({
 			100080,
 			100081,
 			100082,
+			100083,
 			200001,
 			200002,
 			200003,
@@ -6265,6 +6266,7 @@ pg.furniture_data_template = setmetatable({
 			100080,
 			100081,
 			100082,
+			100083,
 			54104,
 			54105
 		},
@@ -9764,6 +9766,7 @@ pg.furniture_data_template = setmetatable({
 			100071,
 			100073,
 			100077,
+			100083,
 			30123,
 			35128,
 			36125,
@@ -10950,6 +10953,7 @@ pg.furniture_data_template = setmetatable({
 		100080,
 		100081,
 		100082,
+		100083,
 		200001,
 		200002,
 		200003,
@@ -29202,6 +29206,91 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100083] = {
+		advice = 0,
+		name = "미라주 플라이어",
+		count = 1,
+		type = 11,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "chaojitegongfengzhengicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 100083,
+		comfortable = 0,
+		describe = "네온사인 속에서 유일무이한 궤적을 그리자.",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chaojitegongfengzhengB",
+				"normal"
+			},
+			{
+				"chaojitegongfengzhengT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action4",
+						nil,
+						"tuozhuai2"
+					}
+				},
+				{
+					[3] = {
+						"action1",
+						"tuozhuai2",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

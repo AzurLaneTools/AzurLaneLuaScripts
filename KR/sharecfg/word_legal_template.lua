@@ -3831,7 +3831,18 @@ temp = function()
 				["부"] = {
 					["르"] = {
 						["크"] = {
-							this = true
+							this = true,
+							["·"] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}

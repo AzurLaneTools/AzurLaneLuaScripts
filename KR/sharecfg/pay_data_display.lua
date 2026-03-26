@@ -94,6 +94,11 @@ pg.pay_data_display = setmetatable({
 		98,
 		99,
 		9001,
+		9002,
+		9003,
+		9004,
+		9005,
+		9006,
 		9007,
 		9008,
 		9009,
@@ -129,6 +134,7 @@ pg.pay_data_display = setmetatable({
 		1024,
 		1025,
 		1026,
+		1304,
 		2001,
 		2002,
 		2003,
@@ -11330,6 +11336,603 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9002] = {
+		picture = "pack_2024_98",
+		name = "봄날 선택 패키지1(2026)",
+		type = 0,
+		second_text = "",
+		descrip = "「다이아」×980, 「봄날 선택 아이템 박스1(2026)」×1 등의 아이템을 획득할 수 있습니다.",
+		subject = "봄날 선택 패키지1(2026)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 19000,
+		descrip_extra = "※구매 시 아이템이 우편함으로 발송됩니다. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift178",
+		extra_gem = 0,
+		id = 9002,
+		airijp_id = "com.bilibili.blhx.zuanshi201",
+		name_display = "봄날 선택 패키지1(2026)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81221,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81221,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81225,
+				1
+			}
+		}
+	},
+	[9003] = {
+		picture = "pack_2024_198",
+		name = "봄날 선택 패키지2(2026)",
+		type = 0,
+		second_text = "",
+		descrip = "「다이아」×1980, 「봄날 선택 아이템 박스2(2026)」×1 등의 아이템을 획득할 수 있습니다.",
+		subject = "봄날 선택 패키지2(2026)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※구매 시 아이템이 우편함으로 발송됩니다. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift179",
+		extra_gem = 0,
+		id = 9003,
+		airijp_id = "com.bilibili.blhx.zuanshi202",
+		name_display = "봄날 선택 패키지2(2026)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81222,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81222,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81226,
+				1
+			}
+		}
+	},
+	[9004] = {
+		picture = "pack_2024_328",
+		name = "봄날 선택 패키지3(2026)",
+		type = 0,
+		second_text = "",
+		descrip = "「다이아」×3280, 「봄날 선택 아이템 박스3(2026)」×1 등의 아이템을 획득할 수 있습니다.",
+		subject = "봄날 선택 패키지3(2026)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 65000,
+		descrip_extra = "※구매 시 아이템이 우편함으로 발송됩니다. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift180",
+		extra_gem = 0,
+		id = 9004,
+		airijp_id = "com.bilibili.blhx.zuanshi203",
+		name_display = "봄날 선택 패키지3(2026)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81223,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81223,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81227,
+				1
+			}
+		}
+	},
+	[9005] = {
+		picture = "fudai99",
+		name = "봄날 할인 패키지(2026)",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "함선 스킨 1개, 「다이아」×2026 등의 아이템을 획득할 수 있습니다.",
+		subject = "봄날 할인 패키지(2026)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 12000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift181",
+		extra_gem = 0,
+		id = 9005,
+		airijp_id = "com.bilibili.blhx.zuanshi204",
+		name_display = "봄날 할인 패키지(2026)",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86220,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86220,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81228,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86220,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[9006] = {
+		picture = "fudai_L2d_new",
+		name = "프리미엄 봄날 할인 패키지(2026)",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "다음 L2D 스킨 중에서 소지하고 있지 않은 스킨을 무작위로 1개(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아로 변환), 그리고 기타 아이템을 획득할 수 있습니다.",
+		subject = "프리미엄 봄날 할인 패키지(2026)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 우편함으로 발송됩니다.\n※모두 소지하고 있는 경우에는 자동으로 다이아×1080개로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift182",
+		extra_gem = 0,
+		id = 9006,
+		airijp_id = "com.bilibili.blhx.zuanshi205",
+		name_display = "프리미엄 봄날 할인 패키지(2026)",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86221,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86221,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81229,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86221,
+				1
+			}
+		}
+	},
 	[9007] = {
 		picture = "fudai30",
 		name = "축제의 밤 패키지·I",
@@ -14692,6 +15295,91 @@ pg.base.pay_data_display = {
 		sub_display = {
 			7027,
 			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1304] = {
+		picture = "battlepass_winter_1",
+		name = "봄날 특허 투어 패스",
+		type = 0,
+		second_text = "",
+		descrip = "200 투어 포인트를 획득하고 특허 투어 보상 해금 가능.",
+		subject = "봄날 특허 투어 패스(2026.3)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 10000,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift184",
+		extra_gem = 0,
+		id = 1304,
+		airijp_id = "alkrgift184",
+		name_display = "봄날 특허 투어 패스",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4102,
+				200
+			},
+			{
+				8,
+				65112,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				65112,
+				200
+			}
+		},
+		sub_display = {
+			7304,
+			200
 		},
 		ignorePlatform = {},
 		limit_args = {},

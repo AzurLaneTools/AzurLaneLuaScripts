@@ -148,59 +148,63 @@ end
 slot0.updateCardList = function(slot0)
 	slot1 = {}
 	slot2 = {}
+	slot3 = nil
+	slot3 = (not slot0.contextData.isRepair or underscore.map(pg.lover_letter_content.get_id_list_by_year[2018], function (slot0)
+		return pg.lover_letter_content[slot0].ship_group
+	end)) and pg.lover_character_template.all
 
-	for slot6, slot7 in ipairs(pg.lover_character_template.all) do
-		assert(not pg.ship_data_group.get_id_list_by_group_type[slot7] or #slot8 == 1)
+	for slot7, slot8 in ipairs(slot3) do
+		assert(not pg.ship_data_group.get_id_list_by_group_type[slot8] or #slot9 == 1)
 
-		if not slot8 then
-			warning(slot7)
+		if not slot9 then
+			warning(slot8)
 		elseif underscore.any(table.insertto({
-			slot7
-		}, pg.lover_character_template[slot7].relate_group_id), function (slot0)
+			slot8
+		}, pg.lover_character_template[slot8].relate_group_id), function (slot0)
 			return uv0.shipGroups[slot0]
 		end) then
-			table.insert(slot2, slot8[1])
+			table.insert(slot2, slot9[1])
 		end
 	end
 
 	table.sort(slot2)
 
 	if uv0.ShipIndex.typeIndex == ShipIndexConst.TypeAll and uv0.ShipIndex.rarityIndex == ShipIndexConst.RarityAll and uv0.ShipIndex.campIndex == ShipIndexConst.CampAll then
-		for slot6, slot7 in ipairs(slot2) do
-			slot9 = nil
-			slot10 = false
+		for slot7, slot8 in ipairs(slot2) do
+			slot10 = nil
+			slot11 = false
 
-			if pg.ship_data_group[slot7] then
-				slot9 = slot0.shipGroups[slot8.group_type] or ShipGroup.New({
-					id = slot8.group_type
+			if pg.ship_data_group[slot8] then
+				slot10 = slot0.shipGroups[slot9.group_type] or ShipGroup.New({
+					id = slot9.group_type
 				})
-				slot10 = Nation.IsLinkType(ShipGroup.getDefaultShipConfig(slot8.group_type).nationality)
+				slot11 = Nation.IsLinkType(ShipGroup.getDefaultShipConfig(slot9.group_type).nationality)
 			end
 
-			if uv1(slot8.handbook_type, slot10, slot7) ~= -1 then
-				slot1[slot6] = {
+			if uv1(slot9.handbook_type, slot11, slot8) ~= -1 then
+				slot1[slot7] = {
 					showTrans = false,
-					code = slot12,
-					group = slot9
+					code = slot13,
+					group = slot10
 				}
 			end
 		end
 	else
-		for slot6, slot7 in ipairs(slot2) do
-			if pg.ship_data_group[slot7] then
-				slot10 = slot0.shipGroups[slot8.group_type]
+		for slot7, slot8 in ipairs(slot2) do
+			if pg.ship_data_group[slot8] then
+				slot11 = slot0.shipGroups[slot9.group_type]
 
 				if ShipGroup.New({
-					id = slot8.group_type
-				}) and ShipIndexConst.filterByType(slot9, uv0.ShipIndex.typeIndex) and ShipIndexConst.filterByRarity(slot9, uv0.ShipIndex.rarityIndex) then
-					slot11 = Nation.IsLinkType(slot9:getNation())
-					slot12 = slot8.handbook_type
+					id = slot9.group_type
+				}) and ShipIndexConst.filterByType(slot10, uv0.ShipIndex.typeIndex) and ShipIndexConst.filterByRarity(slot10, uv0.ShipIndex.rarityIndex) then
+					slot12 = Nation.IsLinkType(slot10:getNation())
+					slot13 = slot9.handbook_type
 
-					if ShipIndexConst.filterByCamp(slot9, uv0.ShipIndex.campIndex) then
+					if ShipIndexConst.filterByCamp(slot10, uv0.ShipIndex.campIndex) then
 						slot1[#slot1 + 1] = {
 							showTrans = false,
-							code = uv1(slot12, slot11, slot7),
-							group = slot10
+							code = uv1(slot13, slot12, slot8),
+							group = slot11
 						}
 					end
 				end

@@ -171476,6 +171476,31 @@ _G.pg.base.item_virtual_data_statistics[65111] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65112] = {
+	drop_gold_max = 0,
+	name = "봄날 할인 PT",
+	display = "「봄날 할인 2026」의 PT 아이템. 총 획득 수에 따라 보상 획득 가능. 이벤트 종료 시에 삭제됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7303,
+	icon = "props/battlepass_winter_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 29,
+	id = 65112,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65113] = {
 	drop_gold_max = 0,
 	name = "투어 PT",
@@ -172906,6 +172931,56 @@ _G.pg.base.item_virtual_data_statistics[65552] = {
 	drop_oil_max = 0,
 	virtual_type = 13,
 	id = 65552,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65555] = {
+	drop_gold_max = 0,
+	name = "스킨 쿠폰(봄날 2026)",
+	display = "「봄날 할인 2026」 이벤트 복각 스킨 구매 시 다이아×300만큼을 할인 받을 수 있는 쿠폰\n2026/4/9 점검 후 삭제됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 21018,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65555,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65556] = {
+	drop_gold_max = 0,
+	name = "스킨 할인권(월드 투어 봄날 선물)",
+	display = "「봄날 할인 2026」 이벤트 복각 스킨, 상설 스킨 구매 시 다이아×180만큼을 할인 받을 수 있는 쿠폰\n2026/4/15 23:59에 삭제됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 21019,
+	icon = "Props/skin_180_blackfriday",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65556,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178822,6 +178897,131 @@ _G.pg.base.item_virtual_data_statistics[65870] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65870,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65871] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권 (2026.4.1까지)",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료(2026.4.1까지) 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65871,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65872] = {
+	drop_gold_max = 0,
+	name = "남극 결정 샘플",
+	display = "「설경미종」 보상 교환용 아이템. 이벤트 종료 후에는 제거된다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/tongmeng_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65872,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65873] = {
+	drop_gold_max = 0,
+	name = "1회 건조권",
+	display = "이벤트 「설경미종」에서 획득할 수 있는 기간 한정 건조권. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50474,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65873,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65874] = {
+	drop_gold_max = 0,
+	name = "훈련 PT",
+	display = "「작전 준비·남대양」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_rv3",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65874,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65875] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권 (2026.4.1까지)",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료(2026.4.1까지) 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65875,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -187385,6 +187585,148 @@ _G.pg.base.item_virtual_data_statistics[86219] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[86220] = {
+	drop_gold_max = 0,
+	name = "랜덤 스킨",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86220,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307084,
+			830
+		},
+		{
+			499022,
+			830
+		},
+		{
+			699021,
+			830
+		},
+		{
+			205161,
+			830
+		},
+		{
+			499053,
+			830
+		},
+		{
+			307076,
+			830
+		},
+		{
+			202204,
+			870
+		},
+		{
+			904021,
+			830
+		},
+		{
+			407041,
+			830
+		},
+		{
+			799021,
+			830
+		},
+		{
+			901072,
+			830
+		},
+		{
+			405013,
+			830
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86221] = {
+	drop_gold_max = 0,
+	name = "랜덤 스킨",
+	display = [[
+다음 L2D 스킨 중에서 소지하고 있지 않은 스킨을 무작위로 1개(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아×1080로 변환) 획득할 수 있습니다. 
+각 스킨의 등장 확률은 동일하며, 등장하는 스킨은 다음과 같습니다.
+
+호놀룰루 - 둘만의 여름 축제
+뱀파이어 -  밤의 공주 정장
+리노 - Bunny·Rino! ；
+노스캐롤라이나 - 비밀의 환복 연습?
+애버크롬비 - 못된 토끼의 장난!
+브레머튼 - 릴렉스 휴식 타임
+쿠르스크 - 수증기 속의 고독한 늑대
+그로즈니 - 산토끼와 찜질방
+고리치아 - 이루어지지 않는 오피스 러브? 
+울리히 폰 후텐 - 고고한 이그니션 타임
+일러스트리어스 - 두 사람의 공부 시간
+스트라스부르 - 경기장의 서킷 요정
+조프르 - 축복의 시작 스퍼트
+피츠버그 - 걸즈 카운터
+팽르베 - 생크림에 행운 있으라
+프리드리히 데어 그로세 - 한여름 밤의 만남
+마인츠 - 세레니티 블렌드
+장 바르 - 봄의 등불이 비추는 étoiles
+라파엘로 - 사랑과 미의 비밀 소장품
+지안 - 이국의 몽상향
+세인트루이스 - 풀 데크 애프터눈
+모가도르 - 후각 진단 너스콜
+드 제번 프로빈시엔 - 곁에서 느껴지는 온기
+라이온 - 나른한 댄딜라이온
+트라팔가 - 높은 봉우리와 바닷바람
+다이호 - 비단결의 유희
+알자스 - 과열된 한여름의 비적
+모가도르 - 탈의실의 뜨거운 비밀
+모나크 - 비치 아이코닉
+프리드리히 카를 - 사랑의 서머 케어
+포미더블 - 애니버서리 메모리즈
+체셔 - 팬시 나이트 드림
+프린츠 아달베르트 - 욕실에서 일어난 사고
+아드미랄 젠커 - 두근두근 심문 시간
+Z13 - 전략적 데이트 솔루션
+아즈마 - 신랑의 진로 상담
+마세나 - 취한 듯 달콤한 온천
+엔터프라이즈 - 목욕 후의 맑은 하늘
+부아 벨루 - 증기 테라피
+앵커리지 - 맛있는 이브닝 밀크]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86221,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[86222] = {
 	drop_gold_max = 0,
 	name = "랜덤 스킨",
@@ -187923,6 +188265,31 @@ _G.pg.base.item_virtual_data_statistics[99957] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[99958] = {
+	drop_gold_max = 0,
+	name = "동원지령 Pt",
+	display = "「사령부 동원지령」 임무로 획득할 수 있는 이벤트 Pt. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/union_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 99958,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[100000] = {
 	drop_gold_max = 0,
 	name = "비콘 데이터",
@@ -188050,8 +188417,8 @@ _G.pg.base.item_virtual_data_statistics[110002] = {
 
 _G.pg.base.item_virtual_data_statistics[120001] = {
 	drop_gold_max = 0,
-	name = "달콤한 추억",
-	display = "캐릭터의 「달콤한 추억」을 상승시킬 수 있습니다.",
+	name = "추억 Pt",
+	display = "캐릭터의 「추억 Lv」을 상승시킬 수 있습니다.",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -188075,8 +188442,8 @@ _G.pg.base.item_virtual_data_statistics[120001] = {
 
 _G.pg.base.item_virtual_data_statistics[120002] = {
 	drop_gold_max = 0,
-	name = "달콤한 추억",
-	display = "캐릭터의 「달콤한 추억」을 상승시킬 수 있습니다.",
+	name = "추억 Pt",
+	display = "캐릭터의 「추억 Lv」을 상승시킬 수 있습니다.",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,

@@ -4563,6 +4563,114 @@ pg.drop_data_restore = {
 		drop_id = 0,
 		target_id = 327
 	},
+	[582] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 582,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 307084
+	},
+	[583] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 583,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 499022
+	},
+	[584] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 584,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 699021
+	},
+	[585] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 585,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 205161
+	},
+	[586] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 586,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 499053
+	},
+	[587] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 587,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 307076
+	},
+	[588] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 588,
+		resource_num = 1200,
+		drop_id = 998324,
+		target_id = 202204
+	},
+	[589] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 589,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 904021
+	},
+	[590] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 590,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 407041
+	},
+	[591] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 591,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 799021
+	},
+	[592] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 592,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 901072
+	},
+	[593] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 593,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 405013
+	},
 	[594] = {
 		target_type = 7,
 		resource_type = 14,
@@ -4913,6 +5021,15 @@ pg.drop_data_restore = {
 		resource_num = 700,
 		drop_id = 998329,
 		target_id = 306092
+	},
+	[633] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 633,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 329
 	},
 	[998] = {
 		target_type = 7,
@@ -6030,6 +6147,114 @@ pg.drop_data_restore = {
 		drop_id = 998550,
 		target_id = 602031
 	},
+	[20069] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20069,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 307084
+	},
+	[20070] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20070,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 499022
+	},
+	[20071] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20071,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 699021
+	},
+	[20072] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20072,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 205161
+	},
+	[20073] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20073,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 499053
+	},
+	[20074] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20074,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 307076
+	},
+	[20075] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20075,
+		resource_num = 1200,
+		drop_id = 998567,
+		target_id = 202204
+	},
+	[20076] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20076,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 904021
+	},
+	[20077] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20077,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 407041
+	},
+	[20078] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20078,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 799021
+	},
+	[20079] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20079,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 901072
+	},
+	[20080] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 20080,
+		resource_num = 1180,
+		drop_id = 998567,
+		target_id = 405013
+	},
 	all = {
 		1,
 		2,
@@ -6538,6 +6763,18 @@ pg.drop_data_restore = {
 		579,
 		580,
 		581,
+		582,
+		583,
+		584,
+		585,
+		586,
+		587,
+		588,
+		589,
+		590,
+		591,
+		592,
+		593,
 		594,
 		595,
 		596,
@@ -6577,6 +6814,7 @@ pg.drop_data_restore = {
 		630,
 		631,
 		632,
+		633,
 		998,
 		1020,
 		1142,
@@ -6700,6 +6938,18 @@ pg.drop_data_restore = {
 		20046,
 		20047,
 		20048,
-		20049
+		20049,
+		20069,
+		20070,
+		20071,
+		20072,
+		20073,
+		20074,
+		20075,
+		20076,
+		20077,
+		20078,
+		20079,
+		20080
 	}
 }

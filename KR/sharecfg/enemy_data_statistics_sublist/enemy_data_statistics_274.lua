@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_274 = {
+	[16553002] = {
+		cannon = 16,
+		air = 0,
+		torpedo = 26,
+		cannon_growth = 880,
+		id = 16553002,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 2250,
+		hit_growth = 144,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 30,
+		base = 90807,
+		durability = 510,
+		armor_growth = 0,
+		durability_growth = 19200,
+		antiaircraft = 120,
+		speed = 15,
+		luck = 0,
+		antiaircraft_growth = 2250,
+		fog_fx = "",
+		antisub = 0,
+		equipment_list = {
+			3086018,
+			3086023,
+			3086028,
+			3086033
+		}
+	},
 	[16553003] = {
 		cannon = 18,
 		air = 0,
@@ -1450,57 +1486,6 @@ pg.enemy_data_statistics_274 = {
 			1003145,
 			1003150,
 			1003155
-		}
-	},
-	[16554202] = {
-		cannon = 210,
-		name = "\"부정한 그림자 – 여우 \"",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 3600,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 3,
-		antiaircraft = 235,
-		fog_fx = "",
-		dodge_growth = 156,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90230,
-		durability = 23200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 18,
-		id = 16554202,
-		cannon_growth = 2500,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 32,
-		torpedo = 0,
-		durability_growth = 368400,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		appear_fx = {
-			"heisewuqi_stg",
-			"appearQ"
-		},
-		equipment_list = {
-			1003160,
-			1003165,
-			1003170,
-			1003175,
-			1003200
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 5
-			}
 		}
 	}
 }

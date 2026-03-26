@@ -163,6 +163,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[112] = {
+		name = "봄날 할인",
+		key = "SkinNormal_20251211",
+		display_icon = "ui_112",
+		unlock = "봄날 할인 이벤트에서 획득",
+		is_unlock = 1,
+		rare = 3,
+		desc = "쇼핑을 좋아하는 지휘관을 위한 UI. 쇼핑을 만끽하며, 압도적인 선물 공세로 상대를 몰아넣자! ",
+		id = 112,
+		icon = "112",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[113] = {
 		name = "고대 왕조",
 		key = "SkinNormal_20260129",
@@ -309,6 +324,7 @@ pg.item_data_battleui = {
 		108,
 		109,
 		111,
+		112,
 		113,
 		201,
 		202,

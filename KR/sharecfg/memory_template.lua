@@ -4007,6 +4007,13 @@ pg.memory_template = setmetatable({
 		5028,
 		5029,
 		5030,
+		5031,
+		5032,
+		5033,
+		5034,
+		5035,
+		5036,
+		5037,
 		10000,
 		10001,
 		10002,
@@ -64307,6 +64314,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"CHUNMANKEZHAN20"
+		}
+	},
+	[5031] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "숲으로의 초대",
+		condition = "「숲의 바람과 마음의 나침반 1」 시작",
+		story = "AERBIEN1",
+		id = 5031,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN1"
+		}
+	},
+	[5032] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "숲속의 생명체",
+		condition = "「숲의 바람과 마음의 나침반 2」 시작",
+		story = "AERBIEN2",
+		id = 5032,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN2"
+		}
+	},
+	[5033] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "햇살 아래의 티타임",
+		condition = "「숲의 바람과 마음의 나침반 3」 시작",
+		story = "AERBIEN3",
+		id = 5033,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN3"
+		}
+	},
+	[5034] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "망설이는 목소리",
+		condition = "「숲의 바람과 마음의 나침반 4」 시작",
+		story = "AERBIEN4",
+		id = 5034,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN4"
+		}
+	},
+	[5035] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "반딧불이가 있는 곳",
+		condition = "「숲의 바람과 마음의 나침반 5」 시작",
+		story = "AERBIEN5",
+		id = 5035,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN5"
+		}
+	},
+	[5036] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "치유의 바람",
+		condition = "「숲의 바람과 마음의 나침반 6」 시작",
+		story = "AERBIEN6",
+		id = 5036,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN6"
+		}
+	},
+	[5037] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "알비온의 마음",
+		condition = "「숲의 바람과 마음의 나침반 7」 시작",
+		story = "AERBIEN7",
+		id = 5037,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN7"
 		}
 	},
 	[10000] = {

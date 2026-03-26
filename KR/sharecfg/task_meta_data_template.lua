@@ -352,6 +352,11 @@ pg.task_meta_data_template = setmetatable({
 		100523,
 		100524,
 		100525,
+		100531,
+		100532,
+		100533,
+		100534,
+		100535,
 		200001,
 		200002,
 		200003,
@@ -523,7 +528,11 @@ pg.task_meta_data_template = setmetatable({
 		200431,
 		200432,
 		200433,
-		200434
+		200434,
+		200441,
+		200442,
+		200443,
+		200444
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3328,6 +3337,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "강구트·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100531] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100531,
+		target_num = 1,
+		desc = "레겐스부르크·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100532] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100532,
+		target_num = 1,
+		desc = "레겐스부르크·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100533] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100533,
+		target_num = 1,
+		desc = "레겐스부르크·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100534] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100534,
+		target_num = 1,
+		desc = "레겐스부르크·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100535] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100535,
+		target_num = 1,
+		desc = "레겐스부르크·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4703,5 +4752,37 @@ pg.base.task_meta_data_template = {
 		id = 200434,
 		target_num = 1,
 		desc = "대형작전에서 강구트·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200441] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200441,
+		target_num = 1,
+		desc = "대형작전에서 레겐스부르크·META를 포함한 함대로 1회 승리"
+	},
+	[200442] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200442,
+		target_num = 1,
+		desc = "대형작전에서 레겐스부르크·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200443] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200443,
+		target_num = 1,
+		desc = "대형작전에서 레겐스부르크·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200444] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200444,
+		target_num = 1,
+		desc = "대형작전에서 레겐스부르크·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50371
+			50461
 		}
 	},
 	{
@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50426
+			50461
 		}
 	},
 	[11] = {
@@ -349,7 +349,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50426
+			50429
 		}
 	},
 	[110] = {
@@ -402,7 +402,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50118
+			21011
 		}
 	},
 	[114] = {
@@ -419,46 +419,14 @@ pg.activity_link_button = {
 			50298
 		}
 	},
-	[901] = {
-		param = "0",
-		name = "event_all",
-		text_pic = "text_event_all",
-		type = 3,
-		pic = "event_all",
-		id = 901,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			50371
-		}
-	},
-	[910] = {
-		name = "event_map",
-		text_pic = "text_event_map",
-		type = 2,
-		pic = "event_map_yishijie",
-		id = 910,
-		group_id = 2,
-		order = 1,
-		time = {
-			"default",
-			50371
-		},
-		param = {
-			"OTHERWORLD_MAP"
-		}
-	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
 			2,
-			9,
-			901
+			9
 		},
 		event_map = {
-			10,
-			910
+			10
 		},
 		event_map_sub = {
 			11
@@ -563,8 +531,6 @@ pg.activity_link_button = {
 		111,
 		112,
 		113,
-		114,
-		901,
-		910
+		114
 	}
 }

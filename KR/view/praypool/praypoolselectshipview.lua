@@ -97,16 +97,16 @@ slot0.initUI = function(slot0)
 	slot3 = slot0._tf:Find("Ratio")
 
 	for slot7 = 2, 6 do
-		slot0.minRaritySpriteMap[slot7] = getImageSprite(slot0._tf:Find(tostring(slot7), slot1))
-		slot0.maxRaritySpriteMap[slot7] = getImageSprite(slot0._tf:Find(tostring(slot7), slot2))
-		slot0.ratioSpriteMap[slot7] = getImageSprite(slot0._tf:Find(tostring(slot7), slot3))
+		slot0.minRaritySpriteMap[slot7] = getImageSprite(slot1:Find(tostring(slot7)))
+		slot0.maxRaritySpriteMap[slot7] = getImageSprite(slot2:Find(tostring(slot7)))
+		slot0.ratioSpriteMap[slot7] = getImageSprite(slot3:Find(tostring(slot7)))
 	end
 
 	slot0.poolSpriteMap = {}
 	slot4 = slot0._tf:Find("Pool")
 
 	for slot8 = 1, 3 do
-		slot0.poolSpriteMap[slot8] = getImageSprite(slot0._tf:Find(tostring(slot8), slot4))
+		slot0.poolSpriteMap[slot8] = getImageSprite(slot4:Find(tostring(slot8)))
 	end
 
 	slot0.poolNameImg = slot0._tf:Find("PoolNameImg")
@@ -418,6 +418,7 @@ slot0.updateShipList = function(slot0, slot1)
 
 	slot0.shipListSC.onUpdateItem = function(slot0, slot1)
 		slot2 = uv0[slot0 + 1]
+		slot1 = tf(slot1)
 
 		GetImageSpriteFromAtlasAsync("SquareIcon/" .. Ship.getPaintingName(slot2), "", slot1:Find("BG/Icon"))
 

@@ -1202,6 +1202,30 @@ pg.dorm3d_touch_data = {
 			600410
 		}
 	},
+	[4990550] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 4990550,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			600510
+		}
+	},
 	[4990590] = {
 		default_favor = 1001,
 		finish_action = "Idle",
@@ -1277,6 +1301,7 @@ pg.dorm3d_touch_data = {
 		4990520,
 		4990530,
 		4990540,
+		4990550,
 		4990590
 	}
 }

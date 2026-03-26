@@ -1754,6 +1754,40 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/bedroom"
 		}
 	},
+	[1462] = {
+		rarity = 4,
+		name = "지적인 사색",
+		type = 6,
+		room_id = 14,
+		desc = "매끄럽고 평평한 상판을 가진 클래식한 디자인의 책상. 튼튼하고 수납 기능도 갖추고 있어 학습이나 업무에 안성맞춤.",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aijier_study01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture2",
+		acesses = "",
+		id = 1462,
+		target_slots = {
+			1140201
+		},
+		touch_id = {
+			{
+				49905,
+				4990550
+			}
+		},
+		shop_id = {
+			270602
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1461"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/study"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1834,7 +1868,8 @@ pg.dorm3d_furniture_template = {
 			1413,
 			1414,
 			1415,
-			1461
+			1461,
+			1462
 		}
 	},
 	all = {
@@ -1904,6 +1939,7 @@ pg.dorm3d_furniture_template = {
 		1413,
 		1414,
 		1415,
-		1461
+		1461,
+		1462
 	}
 }

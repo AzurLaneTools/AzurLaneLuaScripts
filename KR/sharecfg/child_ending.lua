@@ -34,7 +34,7 @@ pg.child_ending = {
 	},
 	{
 		id = 2,
-		name = "아티스트",
+		name = "실력파 아티스트",
 		group = 2,
 		polaroid_condition = 201,
 		pic = "bg_project_tb_cg27",
@@ -98,7 +98,7 @@ pg.child_ending = {
 	},
 	{
 		id = 4,
-		name = "인기 뉴스타",
+		name = "떠오르는 뉴스타",
 		group = 4,
 		polaroid_condition = 203,
 		pic = "bg_project_tb_cg29",
@@ -135,7 +135,7 @@ pg.child_ending = {
 	},
 	{
 		id = 5,
-		name = "제빵 달인",
+		name = "달인 요리사",
 		group = 5,
 		polaroid_condition = 203,
 		pic = "bg_project_tb_cg30",
@@ -167,7 +167,7 @@ pg.child_ending = {
 	},
 	{
 		id = 6,
-		name = "소설 작가",
+		name = "유망한 작가",
 		group = 6,
 		polaroid_condition = 203,
 		pic = "bg_project_tb_cg31",
@@ -199,7 +199,7 @@ pg.child_ending = {
 	},
 	{
 		id = 7,
-		name = "기대 선수",
+		name = "기대주 선수",
 		group = 7,
 		polaroid_condition = 202,
 		pic = "bg_project_tb_cg32",
@@ -226,7 +226,7 @@ pg.child_ending = {
 	},
 	{
 		id = 8,
-		name = "비즈니스 우먼",
+		name = "천재 비즈니스 우먼",
 		group = 8,
 		polaroid_condition = 202,
 		pic = "bg_project_tb_cg33",
@@ -258,7 +258,7 @@ pg.child_ending = {
 	},
 	{
 		id = 9,
-		name = "농장 주인",
+		name = "활기찬 농부",
 		group = 9,
 		polaroid_condition = 202,
 		pic = "bg_project_tb_cg34",
@@ -295,7 +295,7 @@ pg.child_ending = {
 	},
 	{
 		id = 10,
-		name = "반복 일상",
+		name = "반복되는 일상",
 		group = 10,
 		polaroid_condition = 0,
 		pic = "bg_project_tb_cg35",

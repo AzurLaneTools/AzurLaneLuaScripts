@@ -13,7 +13,7 @@ pg.shop_banner_template = {
 				{
 					2026,
 					3,
-					12
+					26
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					3,
-					25
+					4,
+					1
 				},
 				{
 					23,
@@ -266,7 +266,7 @@ pg.shop_banner_template = {
 				{
 					2026,
 					3,
-					12
+					26
 				},
 				{
 					0,
@@ -277,13 +277,13 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					3,
-					25
+					4,
+					9
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		},
@@ -295,17 +295,42 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9014
+			9005
 		}
 	},
 	[25] = {
 		name = "banner_middle",
-		time = "stop",
 		type = 2,
 		time_lable = 1,
 		pic = "shopbanner/shop_pack_bg",
 		id = 25,
 		order = 46,
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
 		param = {
 			"scene charge",
 			{
@@ -392,7 +417,7 @@ pg.shop_banner_template = {
 				{
 					2026,
 					3,
-					12
+					26
 				},
 				{
 					0,
@@ -403,13 +428,13 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					8
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		},

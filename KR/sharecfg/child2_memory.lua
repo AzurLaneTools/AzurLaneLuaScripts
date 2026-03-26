@@ -33,7 +33,7 @@ pg.child2_memory = {
 		character = 1,
 		id = 105,
 		pic = "bg_project_oceana_cg5",
-		desc = "야외 활동! Ⅰ"
+		desc = "야외 활동! I"
 	},
 	[106] = {
 		lua = "LINGYANGZHEYANGCHENGJIHUA11",
@@ -47,7 +47,7 @@ pg.child2_memory = {
 		character = 1,
 		id = 107,
 		pic = "bg_project_oceana_cg7",
-		desc = "과외 활동? Ⅰ"
+		desc = "과외 활동? I"
 	},
 	[108] = {
 		lua = "LINGYANGZHEYANGCHENGJIHUA13",
@@ -166,14 +166,14 @@ pg.child2_memory = {
 		character = 1,
 		id = 124,
 		pic = "bg_project_oceana_cg22",
-		desc = "함께 하는 미래Ⅰ"
+		desc = "당신과 함께하는 미래Ⅰ"
 	},
 	[125] = {
 		lua = "LINGYANGZHEYANGCHENGJIHUA30",
 		character = 1,
 		id = 125,
 		pic = "bg_project_oceana_cg22",
-		desc = "함께 하는 미래Ⅱ"
+		desc = "당신과 함께하는 미래Ⅱ"
 	},
 	get_id_list_by_character = {
 		{

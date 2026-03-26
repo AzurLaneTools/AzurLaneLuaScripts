@@ -6,8 +6,9 @@ slot0.execute = function(slot0, slot1)
 	slot4 = slot2.update
 	slot6 = getProxy(UserProxy):getData()
 	slot8 = {}
+	slot9 = false
 
-	for slot12, slot13 in pairs(getProxy(ServerProxy).data) do
+	for slot13, slot14 in pairs(getProxy(ServerProxy).data) do
 		table.insert(slot8, function (slot0)
 			slot1 = uv0
 			slot2 = uv0
@@ -20,10 +21,13 @@ slot0.execute = function(slot0, slot1)
 
 			slot4:SetErrorCB(function ()
 				if not uv0 then
-					uv1({
-						id = uv2.id
+					uv1 = true
+
+					uv2({
+						isFail = true,
+						id = uv3.id
 					})
-					uv3()
+					uv4()
 				end
 			end)
 
@@ -57,6 +61,10 @@ slot0.execute = function(slot0, slot1)
 
 	seriesAsync(slot8, function ()
 		uv0()
+
+		if uv1 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("query_role_fail_and_retry"))
+		end
 	end)
 end
 

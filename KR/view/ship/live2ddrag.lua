@@ -561,6 +561,7 @@ slot0.getCommonNoticeData = function(slot0)
 end
 
 slot0.setTargetValue = function(slot0, slot1)
+	slot0.parameterSmooth = 0
 	slot0.parameterTargetValue = slot1
 end
 
@@ -806,7 +807,7 @@ slot0.updateParameterValue = function(slot0)
 	end
 
 	if slot0._parameterUpdateFlag and slot0.parameterValue ~= slot0.parameterTargetValue then
-		if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
+		if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.05 then
 			slot0:setParameterValue(slot0.parameterTargetValue)
 		elseif slot0.parameterSmoothTime and slot0.parameterSmoothTime > 0 then
 			slot1 = slot0.parameterValue
