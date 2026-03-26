@@ -11695,7 +11695,7 @@ pg.base.pay_data_display = {
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
-		money = 12000,
+		money = 37000,
 		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
 		limit_group = 0,
 		package_tag = "",
@@ -11705,13 +11705,14 @@ pg.base.pay_data_display = {
 		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
-		id_str = "alkrgift181",
+		id_str = "alkrgift182",
 		extra_gem = 0,
 		id = 9005,
 		airijp_id = "com.bilibili.blhx.zuanshi204",
 		name_display = "봄날 할인 패키지(2026)",
 		first_text = "랜덤 스킨",
 		akashi_pick = 1,
+		time = "stop",
 		skin_inquire_relation = 86220,
 		extra_service = 3,
 		show_group = "",
@@ -11751,32 +11752,6 @@ pg.base.pay_data_display = {
 				1,
 				6,
 				100
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					9
-				},
-				{
-					12,
-					0,
-					0
-				}
 			}
 		},
 		display = {
@@ -11829,7 +11804,7 @@ pg.base.pay_data_display = {
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
-		money = 37000,
+		money = 12000,
 		descrip_extra = "※복주머니는 우편함으로 발송됩니다.\n※모두 소지하고 있는 경우에는 자동으로 다이아×1080개로 변환됩니다.",
 		limit_group = 0,
 		package_tag = "",
@@ -11839,13 +11814,14 @@ pg.base.pay_data_display = {
 		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
-		id_str = "alkrgift182",
+		id_str = "alkrgift181",
 		extra_gem = 0,
 		id = 9006,
 		airijp_id = "com.bilibili.blhx.zuanshi205",
 		name_display = "프리미엄 봄날 할인 패키지(2026)",
 		first_text = "랜덤 스킨",
 		akashi_pick = 1,
+		time = "stop",
 		skin_inquire_relation = 86221,
 		extra_service = 3,
 		show_group = "",
@@ -11870,32 +11846,6 @@ pg.base.pay_data_display = {
 				2,
 				15008,
 				20
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					9
-				},
-				{
-					12,
-					0,
-					0
-				}
 			}
 		},
 		display = {
