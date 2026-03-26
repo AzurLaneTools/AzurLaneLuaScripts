@@ -3728,6 +3728,12 @@ pg.gameset = {
 			}
 		}
 	},
+	loveletter2018_item = {
+		key_value = 0,
+		description = {
+			41001
+		}
+	},
 	monopoly2024_bubble_time = {
 		description = "",
 		key_value = 5
