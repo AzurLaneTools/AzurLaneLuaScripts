@@ -44575,7 +44575,7 @@ _G.pg.base.gametip.activity_ninjia_main_title_en = {
 
 
 _G.pg.base.gametip.activity_ninjia_main_sheet1 = {
-	tip = "격전! 닌자의 성"
+	tip = "특별 투어 "
 }
 
 
@@ -44585,7 +44585,7 @@ _G.pg.base.gametip.activity_ninjia_main_sheet2 = {
 
 
 _G.pg.base.gametip.activity_ninjia_main_sheet3 = {
-	tip = "특별 축제"
+	tip = "봄날 할인 "
 }
 
 
@@ -45895,7 +45895,7 @@ _G.pg.base.gametip.HelenaCoreActivity_subtitle_6 = {
 
 
 _G.pg.base.gametip.winter_battlepass_proceed = {
-	tip = "前往"
+	tip = "이동"
 }
 
 

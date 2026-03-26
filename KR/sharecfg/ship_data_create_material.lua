@@ -209,7 +209,9 @@ pg.ship_data_create_material = {
 			" ",
 			"<color=#ffde38>파먀티 메르쿠리야·META</color>: 0.5%",
 			" ",
-			"<color=#d797ff>폴타바</color>: 2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>폴타바</color>: 2.5%(<color=#92fc63>up!</color>)",
+			"",
+			"※같은 레어도의 건조 획득 확률은 동일합니다."
 		}
 	},
 	{
