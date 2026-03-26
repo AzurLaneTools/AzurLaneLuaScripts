@@ -3970,6 +3970,23 @@ pg.memory_template = setmetatable({
 		5035,
 		5036,
 		5037,
+		5041,
+		5042,
+		5043,
+		5044,
+		5045,
+		5046,
+		5047,
+		5048,
+		5049,
+		5050,
+		5051,
+		5052,
+		5053,
+		5054,
+		5055,
+		5056,
+		5057,
 		10011,
 		10012,
 		10013,
@@ -4228,7 +4245,6 @@ pg.memory_template = setmetatable({
 		20199,
 		20200,
 		20201,
-		20202,
 		20203,
 		20204,
 		20205,
@@ -63772,6 +63788,261 @@ pg.base.memory_template = {
 			"AERBIEN7"
 		}
 	},
+	[5041] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Prologue: The Fall",
+		condition = "Begin VR-0.",
+		story = "MANYOUZHEZHAOMUJIHUA1",
+		id = 5041,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA1"
+		}
+	},
+	[5042] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Mirage in the Night",
+		condition = "Begin VR-1.",
+		story = "MANYOUZHEZHAOMUJIHUA2",
+		id = 5042,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA2"
+		}
+	},
+	[5043] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Against the Tide",
+		condition = "Begin VR-2.",
+		story = "MANYOUZHEZHAOMUJIHUA3",
+		id = 5043,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA3"
+		}
+	},
+	[5044] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Role Lost",
+		condition = "Begin VR-3.",
+		story = "MANYOUZHEZHAOMUJIHUA4",
+		id = 5044,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA4"
+		}
+	},
+	[5045] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "An Unfortunate Accident",
+		condition = "Begin VR-4.",
+		story = "MANYOUZHEZHAOMUJIHUA5",
+		id = 5045,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA5"
+		}
+	},
+	[5046] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Resolve that Cleaves the Sky",
+		condition = "Begin VR-5.",
+		story = "MANYOUZHEZHAOMUJIHUA6",
+		id = 5046,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA6"
+		}
+	},
+	[5047] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Failed Thief and the Red-Stringed Cage",
+		condition = "Begin VR-6.",
+		story = "MANYOUZHEZHAOMUJIHUA7",
+		id = 5047,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA7"
+		}
+	},
+	[5048] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Where Trust Takes Us",
+		condition = "Begin VR-7.",
+		story = "MANYOUZHEZHAOMUJIHUA8",
+		id = 5048,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA8"
+		}
+	},
+	[5049] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Blundering Agent",
+		condition = "Begin VR-8.",
+		story = "MANYOUZHEZHAOMUJIHUA9",
+		id = 5049,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA9"
+		}
+	},
+	[5050] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Fate Diverges",
+		condition = "Begin VR-9.",
+		story = "MANYOUZHEZHAOMUJIHUA10",
+		id = 5050,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA10"
+		}
+	},
+	[5051] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ending 1: It Ends As It Began",
+		condition = "Unlock an ending of The Vagabond's Recruitment Plan.",
+		story = "MANYOUZHEZHAOMUJIHUA11",
+		id = 5051,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA11"
+		}
+	},
+	[5052] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ending 2: Protocol Zero",
+		condition = "Unlock an ending of The Vagabond's Recruitment Plan.",
+		story = "MANYOUZHEZHAOMUJIHUA12",
+		id = 5052,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA12"
+		}
+	},
+	[5053] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ending 3: Obsession Unbound",
+		condition = "Unlock an ending of The Vagabond's Recruitment Plan.",
+		story = "MANYOUZHEZHAOMUJIHUA13",
+		id = 5053,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA13"
+		}
+	},
+	[5054] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ending 4: A Call for Freedom",
+		condition = "Unlock an ending of The Vagabond's Recruitment Plan.",
+		story = "MANYOUZHEZHAOMUJIHUA14",
+		id = 5054,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA14"
+		}
+	},
+	[5055] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ending 5: Silent Betrayal",
+		condition = "Unlock an ending of The Vagabond's Recruitment Plan.",
+		story = "MANYOUZHEZHAOMUJIHUA15",
+		id = 5055,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA15"
+		}
+	},
+	[5056] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ending 6: A Loving Siege",
+		condition = "Unlock an ending of The Vagabond's Recruitment Plan.",
+		story = "MANYOUZHEZHAOMUJIHUA16",
+		id = 5056,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA16"
+		}
+	},
+	[5057] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ending 7: Insufficient Numbers",
+		condition = "Unlock an ending of The Vagabond's Recruitment Plan.",
+		story = "MANYOUZHEZHAOMUJIHUA17",
+		id = 5057,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA17"
+		}
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -66867,7 +67138,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "Commence Project Identity: Explorer!",
+		title = "Commence Project Identity: Explorer! (Part 1)",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA1",
 		id = 20150,
@@ -66882,7 +67153,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "A Timid First Day of School",
+		title = "Commence Project Identity: Explorer! (Part 2)",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA2",
 		id = 20151,
@@ -66957,7 +67228,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "Beneath the Blooms",
+		title = "Beneath the Blossoms",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA7",
 		id = 20156,
@@ -66987,7 +67258,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "Lighthearted Expectation",
+		title = "Lighthearted Expectation I",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA9",
 		id = 20158,
@@ -67002,7 +67273,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "Lighthearted Expectation",
+		title = "Lighthearted Expectation II",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA10",
 		id = 20159,
@@ -67122,7 +67393,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "Toward the Future with My Dearest",
+		title = "Toward the Future with My Dearest I",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA18",
 		id = 20167,
@@ -67137,7 +67408,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "Toward the Future with My Dearest",
+		title = "Toward the Future with My Dearest II",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA19",
 		id = 20168,
@@ -67152,7 +67423,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "The First Step to Looking Fashionable",
+		title = "The First Step to Looking Fashionable I",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA20",
 		id = 20169,
@@ -67167,7 +67438,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "The First Step to Looking Fashionable",
+		title = "The First Step to Looking Fashionable II",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA21",
 		id = 20170,
@@ -67272,7 +67543,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "A Future Together",
+		title = "A Future Together I",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA28",
 		id = 20177,
@@ -67287,7 +67558,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "A Future Together",
+		title = "A Future Together II",
 		condition = "Complete the main story in Project Identity: Explorer.",
 		story = "TANSUOZHEYANGCHENGJIHUA29",
 		id = 20178,
@@ -67640,21 +67911,6 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"TANSUOZHEXINZHIXUYU6"
-		}
-	},
-	[20202] = {
-		mask = "bg/bg_memory",
-		subtitle = "",
-		type = 1,
-		number = 0,
-		title = "Invitation to the Amusement Park",
-		condition = "Unlock conversations in Project Identity: Explorer.",
-		story = "TANSUOZHEXINZHIXUYU7",
-		id = 20202,
-		icon = "oceana_tanxin",
-		is_open = 0,
-		unlock_pre = {
-			"TANSUOZHEXINZHIXUYU7"
 		}
 	},
 	[20203] = {

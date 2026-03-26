@@ -477,6 +477,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[1051702] = {
+		display = "With RGB lighting and precise haptic feedback, it's the perfect controller for everything – from casual fun to fierce competition!",
+		name = "Gamepad",
+		unlock_dialogue_id = 110551,
+		rarity = 4,
+		ship_group_id = 10517,
+		favor_trigger_id = 1004,
+		id = 1051702,
+		icon = "dorm3dicon/3Ddrom_xinzexi_PremiumGift2",
+		reply_dialogue_id = {
+			{
+				10517,
+				110305
+			}
+		},
+		shop_id = {
+			260402
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				10517,
+				{
+					"banner_gift1051702"
+				}
+			}
+		}
+	},
 	[3070701] = {
 		display = "Handcuffs with a heart charm between them, simple yet profound. The cool touch of metal conveys a loving bond like nothing else.",
 		name = "Love Enshackled",
@@ -557,7 +587,8 @@ pg.dorm3d_gift = {
 			1990302
 		},
 		[10517] = {
-			1051701
+			1051701,
+			1051702
 		},
 		[30707] = {
 			3070701
@@ -578,6 +609,7 @@ pg.dorm3d_gift = {
 		1990301,
 		1990302,
 		1051701,
+		1051702,
 		3070701,
 		4990501
 	}

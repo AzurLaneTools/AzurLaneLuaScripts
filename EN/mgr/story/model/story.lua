@@ -89,6 +89,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = 0
 	slot8 = slot3 or {}
 	slot9 = {}
+	slot0.globalOptionBranchJump = {}
 	slot10 = ipairs
 	slot11 = slot1.scripts or {}
 
@@ -123,6 +124,10 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			end
 
 			table.insert(slot0.steps, slot17)
+		end
+
+		if slot14.globalOptionFlag and slot14.jumpto then
+			table.insert(slot0.globalOptionBranchJump, slot14.jumpto)
 		end
 	end
 
@@ -332,7 +337,7 @@ slot0.GetName = function(slot0)
 end
 
 slot0.GetStepByIndex = function(slot0, slot1)
-	if not slot0.steps[slot1] or slot0.branchCode and not slot2:IsSameBranch(slot0.branchCode) then
+	if not slot0.steps[slot1] or slot0.branchCode and not slot2:IsSameBranch(slot0.branchCode) or slot2.globalBranchCode and not slot2:IsGlobalFlagHit() then
 		return nil
 	end
 
@@ -437,6 +442,10 @@ slot0.GetAllStepDispatcherRecallName = function(slot0)
 	end
 
 	return slot2
+end
+
+slot0.GlobalOptionBranch = function(slot0)
+	return slot0.globalOptionBranchJump
 end
 
 return slot0

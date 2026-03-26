@@ -1782,7 +1782,7 @@ pg.dorm3d_furniture_template = {
 			3
 		},
 		unlock_banners = {
-			"banner_furniture1461"
+			"banner_furniture1462"
 		},
 		scene_hides = {
 			"no_bake_pay_prop/study"

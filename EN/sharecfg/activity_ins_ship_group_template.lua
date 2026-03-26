@@ -5805,6 +5805,42 @@ pg.activity_ins_ship_group_template = {
 		type = 1,
 		sculpture_ii = ""
 	},
+	[30717] = {
+		ship_group = 30717,
+		name = "Unryū",
+		background = "",
+		sculpture = "yunlong",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[30228] = {
+		ship_group = 30228,
+		name = "Kizu",
+		background = "",
+		sculpture = "mujin",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[30229] = {
+		ship_group = 30229,
+		name = "Nayoro",
+		background = "",
+		sculpture = "mingji",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[30806] = {
+		ship_group = 30806,
+		name = "I168",
+		background = "",
+		sculpture = "I168",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
 	[30125] = {
 		ship_group = 30125,
 		name = "Ariake",
@@ -6460,6 +6496,10 @@ pg.activity_ins_ship_group_template = {
 		70209,
 		70210,
 		10704,
+		30717,
+		30228,
+		30229,
+		30806,
 		30125
 	}
 }

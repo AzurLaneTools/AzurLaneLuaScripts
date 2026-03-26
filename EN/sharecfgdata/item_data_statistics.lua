@@ -16168,6 +16168,37 @@ _G.pg.base.item_data_statistics[21058] = {
 }
 
 
+_G.pg.base.item_data_statistics[21059] = {
+	open_directly = 0,
+	name = "META Crystal – Köln META",
+	type = 4,
+	display = "An item that increases the potential of Köln META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21059",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -28844,6 +28875,131 @@ _G.pg.base.item_data_statistics[30381] = {
 }
 
 
+_G.pg.base.item_data_statistics[30382] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Night Agents)",
+	type = 11,
+	display = "Contains a random Night Agents-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxnihongtegong",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30379",
+	id = 30382,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -30569,6 +30725,58 @@ _G.pg.base.item_data_statistics[30433] = {
 		{
 			9,
 			2116,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30434] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Cruise Missions)",
+	type = 11,
+	display = "Contains 1 random Cruise Mission gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111228",
+	id = 30434,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2117,
+			1
+		},
+		{
+			9,
+			2118,
+			1
+		},
+		{
+			9,
+			2119,
+			1
+		},
+		{
+			9,
+			2120,
 			1
 		}
 	},
@@ -44404,6 +44612,219 @@ _G.pg.base.item_data_statistics[30565] = {
 		{
 			9,
 			4329,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30566] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Night Agents)",
+	type = 13,
+	display = "Can be opened to receive 1 Night Agents-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxnihongtegongzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30566,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
 			1
 		}
 	},
@@ -109127,6 +109548,114 @@ _G.pg.base.item_data_statistics[68153] = {
 }
 
 
+_G.pg.base.item_data_statistics[68232] = {
+	open_directly = 0,
+	name = "",
+	type = 1,
+	display = "",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68232,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90453
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68233] = {
+	open_directly = 0,
+	name = "",
+	type = 1,
+	display = "",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68233,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90454
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68234] = {
+	open_directly = 0,
+	name = "",
+	type = 1,
+	display = "",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68234,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90455
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[69959] = {
 	open_directly = 0,
 	name = "Mystery T5 Tech Pack",
@@ -113978,6 +114507,73 @@ _G.pg.base.item_data_statistics[81439] = {
 			7,
 			405052,
 			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81441] = {
+	open_directly = 1,
+	name = "Night City Lucky Box",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 8, 2026x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai101",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998571",
+	id = 81441,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86422,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
 		}
 	},
 	price = {},

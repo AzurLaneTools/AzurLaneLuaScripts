@@ -17,6 +17,7 @@ slot0.SET_SCALE_PART_CONTENT = "NewMainScene:SET_SCALE_PART_CONTENT"
 slot0.ON_ENTER_DONE = "NewMainScene:ON_ENTER_DONE"
 slot0.ENTER_SILENT_VIEW = "NewMainScene:ENTER_SILENT_VIEW"
 slot0.EXIT_SILENT_VIEW = "NewMainScene:EXIT_SILENT_VIEW"
+slot0.L2D_BOUND_CHANGE = "NewMainScene:L2D_BOUND_CHANGE"
 slot0.RESET_L2D = "NewMainScene:RESET_L2D"
 
 slot0.getUIName = function(slot0)
@@ -174,6 +175,9 @@ slot0.didEnter = function(slot0)
 	end)
 	slot0:bind(NewMainScene.OPEN_LIVEAREA, function (slot0)
 		uv0.liveAreaPage:ExecuteAction("Show")
+	end)
+	slot0:bind(NewMainScene.L2D_BOUND_CHANGE, function (slot0)
+		uv0.paintingView:OnBoundChange()
 	end)
 	slot0:SetUp(false, true)
 end

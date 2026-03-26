@@ -256,6 +256,7 @@ pg.memory_group = setmetatable({
 		356,
 		357,
 		358,
+		359,
 		501,
 		502,
 		503,
@@ -388,12 +389,13 @@ pg.memory_group = setmetatable({
 pg.base = pg.base or {}
 pg.base.memory_group = {
 	{
-		title = "Prologue",
-		subtype = 0,
-		link_event = 0,
-		type = 1,
-		id = 1,
 		icon = "title_main",
+		type = 1,
+		link_event = 0,
+		title = "Prologue",
+		auto_unlock = "",
+		subtype = 0,
+		id = 1,
 		group_id = "",
 		memories = {
 			1,
@@ -405,12 +407,13 @@ pg.base.memory_group = {
 		}
 	},
 	{
-		title = "Tora! Tora! Tora!",
-		subtype = 0,
-		link_event = 0,
-		type = 1,
-		id = 2,
 		icon = "title_main",
+		type = 1,
+		link_event = 0,
+		title = "Tora! Tora! Tora!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 2,
 		group_id = "",
 		memories = {
 			7,
@@ -426,12 +429,13 @@ pg.base.memory_group = {
 		}
 	},
 	{
-		title = "Battle of Coral Sea",
-		subtype = 0,
-		link_event = 0,
-		type = 1,
-		id = 3,
 		icon = "title_main",
+		type = 1,
+		link_event = 0,
+		title = "Battle of Coral Sea",
+		auto_unlock = "",
+		subtype = 0,
+		id = 3,
 		group_id = "",
 		memories = {
 			17,
@@ -440,12 +444,13 @@ pg.base.memory_group = {
 		}
 	},
 	{
-		title = "Midway Showdown",
-		subtype = 0,
-		link_event = 0,
-		type = 1,
-		id = 4,
 		icon = "title_main",
+		type = 1,
+		link_event = 0,
+		title = "Midway Showdown",
+		auto_unlock = "",
+		subtype = 0,
+		id = 4,
 		group_id = "",
 		memories = {
 			20,
@@ -460,12 +465,13 @@ pg.base.memory_group = {
 		}
 	},
 	[98] = {
-		title = "Unlock \"Fate Simulation.\" ",
-		subtype = 0,
-		link_event = 0,
-		type = 1,
-		id = 98,
 		icon = "title_main",
+		type = 1,
+		link_event = 0,
+		title = "Unlock \"Fate Simulation.\" ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 98,
 		group_id = "",
 		memories = {
 			716,
@@ -501,12 +507,13 @@ pg.base.memory_group = {
 		}
 	},
 	[99] = {
-		title = "Enter the Meowfficers! ",
-		subtype = 0,
-		link_event = 0,
-		type = 1,
-		id = 99,
 		icon = "title_main",
+		type = 1,
+		link_event = 0,
+		title = "Enter the Meowfficers! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 99,
 		group_id = "",
 		memories = {
 			457,
@@ -516,12 +523,13 @@ pg.base.memory_group = {
 		}
 	},
 	[100] = {
-		title = "Unlock the new Research feature. ",
-		subtype = 0,
-		link_event = 0,
-		type = 1,
-		id = 100,
 		icon = "title_main",
+		type = 1,
+		link_event = 0,
+		title = "Unlock the new Research feature. ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 100,
 		group_id = "",
 		memories = {
 			299,
@@ -529,12 +537,13 @@ pg.base.memory_group = {
 		}
 	},
 	[101] = {
-		title = "Strive, Wish and Strategize ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 101,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Strive, Wish and Strategize ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 101,
 		group_id = "",
 		memories = {
 			29,
@@ -546,12 +555,13 @@ pg.base.memory_group = {
 		}
 	},
 	[102] = {
-		title = "Divergent Chessboard",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 102,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Divergent Chessboard",
+		auto_unlock = "",
+		subtype = 1,
+		id = 102,
 		group_id = "",
 		memories = {
 			35,
@@ -576,12 +586,13 @@ pg.base.memory_group = {
 		}
 	},
 	[107] = {
-		title = "Mid-Autumn Festival",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 107,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Mid-Autumn Festival",
+		auto_unlock = "",
+		subtype = 3,
+		id = 107,
 		group_id = "",
 		memories = {
 			107,
@@ -594,12 +605,13 @@ pg.base.memory_group = {
 		}
 	},
 	[108] = {
-		title = "Visitors Dyed in Red",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 108,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Visitors Dyed in Red",
+		auto_unlock = "",
+		subtype = 1,
+		id = 108,
 		group_id = "",
 		memories = {
 			114,
@@ -623,12 +635,13 @@ pg.base.memory_group = {
 		}
 	},
 	[109] = {
-		title = "Glorious Battle ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 109,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Glorious Battle ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 109,
 		group_id = "",
 		memories = {
 			132,
@@ -644,12 +657,13 @@ pg.base.memory_group = {
 		}
 	},
 	[110] = {
-		title = "Witches' Eve",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 110,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Witches' Eve",
+		auto_unlock = "",
+		subtype = 3,
+		id = 110,
 		group_id = "",
 		memories = {
 			142,
@@ -662,12 +676,13 @@ pg.base.memory_group = {
 		}
 	},
 	[111] = {
-		title = "Bits of Courage",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 111,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Bits of Courage",
+		auto_unlock = "",
+		subtype = 3,
+		id = 111,
 		group_id = "",
 		memories = {
 			149,
@@ -680,12 +695,13 @@ pg.base.memory_group = {
 		}
 	},
 	[112] = {
-		title = "Lively Afternoon Tea Party",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 112,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Lively Afternoon Tea Party",
+		auto_unlock = "",
+		subtype = 3,
+		id = 112,
 		group_id = "",
 		memories = {
 			156,
@@ -698,12 +714,13 @@ pg.base.memory_group = {
 		}
 	},
 	[113] = {
-		title = "Sacred Love and Peace",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 113,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Sacred Love and Peace",
+		auto_unlock = "",
+		subtype = 3,
+		id = 113,
 		group_id = "",
 		memories = {
 			163,
@@ -717,12 +734,13 @@ pg.base.memory_group = {
 		}
 	},
 	[114] = {
-		title = "Lunar New Year Celebration ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 114,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Lunar New Year Celebration ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 114,
 		group_id = "",
 		memories = {
 			171,
@@ -735,12 +753,13 @@ pg.base.memory_group = {
 		}
 	},
 	[115] = {
-		title = "Fallen Wings ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 115,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Fallen Wings ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 115,
 		group_id = "",
 		memories = {
 			178,
@@ -759,12 +778,13 @@ pg.base.memory_group = {
 		}
 	},
 	[116] = {
-		title = "Winter Offensive",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 116,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Winter Offensive",
+		auto_unlock = "",
+		subtype = 3,
+		id = 116,
 		group_id = "",
 		memories = {
 			189,
@@ -777,12 +797,13 @@ pg.base.memory_group = {
 		}
 	},
 	[117] = {
-		title = "The Pursuit of Graf Spee ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 117,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Pursuit of Graf Spee ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 117,
 		group_id = "",
 		memories = {
 			196,
@@ -797,12 +818,13 @@ pg.base.memory_group = {
 		}
 	},
 	[118] = {
-		title = "Visitors From Another Dimension: Mission Cutscenes ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 118,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Visitors From Another Dimension: Mission Cutscenes ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 118,
 		group_id = "",
 		memories = {
 			10036,
@@ -815,12 +837,13 @@ pg.base.memory_group = {
 		}
 	},
 	[119] = {
-		title = "Visitors From Another Dimension: Stage Cutscenes ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 119,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Visitors From Another Dimension: Stage Cutscenes ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 119,
 		group_id = "",
 		memories = {
 			10043,
@@ -834,12 +857,13 @@ pg.base.memory_group = {
 		}
 	},
 	[120] = {
-		title = "An Shan's Coloring Book ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 120,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "An Shan's Coloring Book ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 120,
 		group_id = "",
 		memories = {
 			205,
@@ -850,12 +874,13 @@ pg.base.memory_group = {
 		}
 	},
 	[121] = {
-		title = "Fu Shun's Great Adventure ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 121,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Fu Shun's Great Adventure ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 121,
 		group_id = "",
 		memories = {
 			210,
@@ -865,12 +890,13 @@ pg.base.memory_group = {
 		}
 	},
 	[122] = {
-		title = "Sea Star on Shore",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 122,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Sea Star on Shore",
+		auto_unlock = "",
+		subtype = 3,
+		id = 122,
 		group_id = "",
 		memories = {
 			214,
@@ -883,12 +909,13 @@ pg.base.memory_group = {
 		}
 	},
 	[123] = {
-		title = "Winter's Crown ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 123,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Winter's Crown ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 123,
 		group_id = "",
 		memories = {
 			221,
@@ -912,12 +939,13 @@ pg.base.memory_group = {
 		}
 	},
 	[124] = {
-		title = "Flower Festival",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 124,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Flower Festival",
+		auto_unlock = "",
+		subtype = 3,
+		id = 124,
 		group_id = "",
 		memories = {
 			239,
@@ -930,12 +958,13 @@ pg.base.memory_group = {
 		}
 	},
 	[125] = {
-		title = "School Day Celebrations",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 125,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "School Day Celebrations",
+		auto_unlock = "",
+		subtype = 3,
+		id = 125,
 		group_id = "",
 		memories = {
 			253,
@@ -948,12 +977,13 @@ pg.base.memory_group = {
 		}
 	},
 	[126] = {
-		title = "The War God's Return ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 126,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The War God's Return ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 126,
 		group_id = "",
 		memories = {
 			10018,
@@ -963,12 +993,13 @@ pg.base.memory_group = {
 		}
 	},
 	[128] = {
-		title = "Year 36 Z Class Z23-Sensei",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 128,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Year 36 Z Class Z23-Sensei",
+		auto_unlock = "",
+		subtype = 3,
+		id = 128,
 		group_id = "",
 		memories = {
 			10029,
@@ -981,12 +1012,13 @@ pg.base.memory_group = {
 		}
 	},
 	[129] = {
-		title = "Lady of Tomorrow",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 129,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Lady of Tomorrow",
+		auto_unlock = "",
+		subtype = 3,
+		id = 129,
 		group_id = "",
 		memories = {
 			295,
@@ -996,12 +1028,13 @@ pg.base.memory_group = {
 		}
 	},
 	[131] = {
-		title = "Ink-Stained Steel Sakura ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 131,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Ink-Stained Steel Sakura ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 131,
 		group_id = "",
 		memories = {
 			10051,
@@ -1021,12 +1054,13 @@ pg.base.memory_group = {
 		}
 	},
 	[132] = {
-		title = "Moonlit Overture ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 132,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Moonlit Overture ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 132,
 		group_id = "",
 		memories = {
 			10072,
@@ -1041,12 +1075,13 @@ pg.base.memory_group = {
 		}
 	},
 	[133] = {
-		title = "Iris of Light and Dark ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 133,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Iris of Light and Dark ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 133,
 		group_id = "",
 		memories = {
 			371,
@@ -1063,12 +1098,13 @@ pg.base.memory_group = {
 		}
 	},
 	[134] = {
-		title = "Angel or Devil in White? ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 134,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Angel or Devil in White? ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 134,
 		group_id = "",
 		memories = {
 			382,
@@ -1079,12 +1115,13 @@ pg.base.memory_group = {
 		}
 	},
 	[135] = {
-		title = "Midsummer Sagittarius ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 135,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Midsummer Sagittarius ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 135,
 		group_id = "",
 		memories = {
 			401,
@@ -1096,12 +1133,13 @@ pg.base.memory_group = {
 		}
 	},
 	[136] = {
-		title = "Mikasa's Model Museum ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 136,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Mikasa's Model Museum ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 136,
 		group_id = "",
 		memories = {
 			407,
@@ -1111,12 +1149,13 @@ pg.base.memory_group = {
 		}
 	},
 	[137] = {
-		title = "Ceremonial Gala ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 137,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Ceremonial Gala ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 137,
 		group_id = "",
 		memories = {
 			432,
@@ -1127,12 +1166,13 @@ pg.base.memory_group = {
 		}
 	},
 	[138] = {
-		title = "The Special Banquet",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 138,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Special Banquet",
+		auto_unlock = "",
+		subtype = 3,
+		id = 138,
 		group_id = "",
 		memories = {
 			437,
@@ -1144,12 +1184,13 @@ pg.base.memory_group = {
 		}
 	},
 	[139] = {
-		title = "Sparkling Battle Star!",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 139,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Sparkling Battle Star!",
+		auto_unlock = "",
+		subtype = 3,
+		id = 139,
 		group_id = "",
 		memories = {
 			461,
@@ -1159,12 +1200,13 @@ pg.base.memory_group = {
 		}
 	},
 	[141] = {
-		title = "Trick or Treat Halloween Night! ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 141,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Trick or Treat Halloween Night! ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 141,
 		group_id = "",
 		memories = {
 			494,
@@ -1177,12 +1219,13 @@ pg.base.memory_group = {
 		}
 	},
 	[145] = {
-		title = "The Solomon Ranger",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 145,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Solomon Ranger",
+		auto_unlock = "",
+		subtype = 2,
+		id = 145,
 		group_id = "",
 		memories = {
 			574,
@@ -1199,12 +1242,13 @@ pg.base.memory_group = {
 		}
 	},
 	[146] = {
-		title = "Operation: Christmas! ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 146,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Operation: Christmas! ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 146,
 		group_id = "",
 		memories = {
 			592,
@@ -1217,12 +1261,13 @@ pg.base.memory_group = {
 		}
 	},
 	[147] = {
-		title = "Blessed New Year",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 147,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Blessed New Year",
+		auto_unlock = "",
+		subtype = 3,
+		id = 147,
 		group_id = "",
 		memories = {
 			613,
@@ -1235,12 +1280,13 @@ pg.base.memory_group = {
 		}
 	},
 	[148] = {
-		title = "Crimson Echoes ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 148,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Crimson Echoes ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 148,
 		group_id = "",
 		memories = {
 			620,
@@ -1268,12 +1314,13 @@ pg.base.memory_group = {
 		}
 	},
 	[149] = {
-		title = "Lunar New Yay-Yay-Year! ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 149,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Lunar New Yay-Yay-Year! ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 149,
 		group_id = "",
 		memories = {
 			677,
@@ -1286,12 +1333,13 @@ pg.base.memory_group = {
 		}
 	},
 	[150] = {
-		title = "Air Raid Drills with Essex ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 150,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Air Raid Drills with Essex ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 150,
 		group_id = "",
 		memories = {
 			684,
@@ -1302,12 +1350,13 @@ pg.base.memory_group = {
 		}
 	},
 	[151] = {
-		title = "Stars of the Shimmering Fjord",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 151,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Stars of the Shimmering Fjord",
+		auto_unlock = "",
+		subtype = 2,
+		id = 151,
 		group_id = "",
 		memories = {
 			696,
@@ -1325,12 +1374,13 @@ pg.base.memory_group = {
 		}
 	},
 	[152] = {
-		title = "\"Virtual Connection Synchronicity\" - Daily Memorabilia",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 152,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "\"Virtual Connection Synchronicity\" - Daily Memorabilia",
+		auto_unlock = "",
+		subtype = 2,
+		id = 152,
 		group_id = "",
 		memories = {
 			728,
@@ -1343,12 +1393,13 @@ pg.base.memory_group = {
 		}
 	},
 	[153] = {
-		title = "\"Virtual Connection Synchronicity\" - Purification",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 153,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "\"Virtual Connection Synchronicity\" - Purification",
+		auto_unlock = "",
+		subtype = 2,
+		id = 153,
 		group_id = "",
 		memories = {
 			735,
@@ -1358,12 +1409,13 @@ pg.base.memory_group = {
 		}
 	},
 	[154] = {
-		title = "\"Virtual Connection Synchronicity\" - Task",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 154,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "\"Virtual Connection Synchronicity\" - Task",
+		auto_unlock = "",
+		subtype = 2,
+		id = 154,
 		group_id = "",
 		memories = {
 			739,
@@ -1393,12 +1445,13 @@ pg.base.memory_group = {
 		}
 	},
 	[155] = {
-		title = "Operation: Escape from Port!",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 155,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Operation: Escape from Port!",
+		auto_unlock = "",
+		subtype = 3,
+		id = 155,
 		group_id = "",
 		memories = {
 			763,
@@ -1409,12 +1462,13 @@ pg.base.memory_group = {
 		}
 	},
 	[156] = {
-		title = "\"One Small Promise\" ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 156,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "\"One Small Promise\" ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 156,
 		group_id = "",
 		memories = {
 			775,
@@ -1423,12 +1477,13 @@ pg.base.memory_group = {
 		}
 	},
 	[157] = {
-		title = "Science Rules!",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 157,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Science Rules!",
+		auto_unlock = "",
+		subtype = 3,
+		id = 157,
 		group_id = "",
 		memories = {
 			792,
@@ -1439,12 +1494,13 @@ pg.base.memory_group = {
 		}
 	},
 	[158] = {
-		title = "Scherzo of Iron and Blood",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 158,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Scherzo of Iron and Blood",
+		auto_unlock = "",
+		subtype = 1,
+		id = 158,
 		group_id = "",
 		memories = {
 			797,
@@ -1471,12 +1527,13 @@ pg.base.memory_group = {
 		}
 	},
 	[159] = {
-		title = "A Prayer for Peace ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 159,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "A Prayer for Peace ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 159,
 		group_id = "",
 		memories = {
 			818,
@@ -1489,12 +1546,13 @@ pg.base.memory_group = {
 		}
 	},
 	[160] = {
-		title = "Javelin's Monthly Manga ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 160,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Javelin's Monthly Manga ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 160,
 		group_id = "",
 		memories = {
 			825,
@@ -1505,12 +1563,13 @@ pg.base.memory_group = {
 		}
 	},
 	[161] = {
-		title = "Wallflower in the Corner ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 161,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Wallflower in the Corner ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 161,
 		group_id = "",
 		memories = {
 			840,
@@ -1520,12 +1579,13 @@ pg.base.memory_group = {
 		}
 	},
 	[162] = {
-		title = "Approaching Storm ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 162,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Approaching Storm ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 162,
 		group_id = "",
 		memories = {
 			830,
@@ -1541,12 +1601,13 @@ pg.base.memory_group = {
 		}
 	},
 	[163] = {
-		title = "Ashen Simulacrum ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 163,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Ashen Simulacrum ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 163,
 		group_id = "",
 		memories = {
 			851,
@@ -1585,12 +1646,13 @@ pg.base.memory_group = {
 		}
 	},
 	[164] = {
-		title = "Superstar of the Blue Seas ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 164,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Superstar of the Blue Seas ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 164,
 		group_id = "",
 		memories = {
 			884,
@@ -1601,12 +1663,13 @@ pg.base.memory_group = {
 		}
 	},
 	[165] = {
-		title = "Summer Festival ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 165,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Summer Festival ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 165,
 		group_id = "",
 		memories = {
 			889,
@@ -1614,12 +1677,13 @@ pg.base.memory_group = {
 		}
 	},
 	[166] = {
-		title = "Hall of Fame",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 166,
 		icon = "title_chara_rongyaodiantang",
+		type = 3,
+		link_event = 0,
+		title = "Hall of Fame",
+		auto_unlock = "",
+		subtype = 0,
+		id = 166,
 		group_id = "",
 		memories = {
 			1874,
@@ -1634,12 +1698,13 @@ pg.base.memory_group = {
 		}
 	},
 	[167] = {
-		title = "Empyreal Tragicomedy ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 167,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Empyreal Tragicomedy ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 167,
 		group_id = "",
 		memories = {
 			907,
@@ -1668,12 +1733,13 @@ pg.base.memory_group = {
 		}
 	},
 	[168] = {
-		title = "Swept Away in the Moment ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 168,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Swept Away in the Moment ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 168,
 		group_id = "",
 		memories = {
 			930,
@@ -1683,12 +1749,13 @@ pg.base.memory_group = {
 		}
 	},
 	[169] = {
-		title = "Crosswave ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 169,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Crosswave ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 169,
 		group_id = "",
 		memories = {
 			934,
@@ -1699,12 +1766,13 @@ pg.base.memory_group = {
 		}
 	},
 	[170] = {
-		title = "The Enigma and the Shark ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 170,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Enigma and the Shark ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 170,
 		group_id = "",
 		memories = {
 			940,
@@ -1720,12 +1788,13 @@ pg.base.memory_group = {
 		}
 	},
 	[171] = {
-		title = "Halloween Chaos!",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 171,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Halloween Chaos!",
+		auto_unlock = "",
+		subtype = 3,
+		id = 171,
 		group_id = "",
 		memories = {
 			950,
@@ -1736,12 +1805,13 @@ pg.base.memory_group = {
 		}
 	},
 	[172] = {
-		title = "Passionate Polaris",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 172,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Passionate Polaris",
+		auto_unlock = "",
+		subtype = 2,
+		id = 172,
 		group_id = "",
 		memories = {
 			960,
@@ -1771,12 +1841,13 @@ pg.base.memory_group = {
 		}
 	},
 	[173] = {
-		title = "A Day with Polaris",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 173,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "A Day with Polaris",
+		auto_unlock = "",
+		subtype = 2,
+		id = 173,
 		group_id = "",
 		memories = {
 			990,
@@ -1785,12 +1856,13 @@ pg.base.memory_group = {
 		}
 	},
 	[174] = {
-		title = "Looking Glass of Fact and Fiction",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 174,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Looking Glass of Fact and Fiction",
+		auto_unlock = "",
+		subtype = 2,
+		id = 174,
 		group_id = "",
 		memories = {
 			995,
@@ -1847,12 +1919,13 @@ pg.base.memory_group = {
 		}
 	},
 	[175] = {
-		title = "Looking Glass of Fact and Fiction - Funsies",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 175,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Looking Glass of Fact and Fiction - Funsies",
+		auto_unlock = "",
+		subtype = 2,
+		id = 175,
 		group_id = "",
 		memories = {
 			1046,
@@ -1868,12 +1941,13 @@ pg.base.memory_group = {
 		}
 	},
 	[176] = {
-		title = "Christmas Party! ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 176,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Christmas Party! ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 176,
 		group_id = "",
 		memories = {
 			1056,
@@ -1884,12 +1958,13 @@ pg.base.memory_group = {
 		}
 	},
 	[177] = {
-		title = "Swirling Cherry Blossoms",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 177,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Swirling Cherry Blossoms",
+		auto_unlock = "",
+		subtype = 1,
+		id = 177,
 		group_id = "",
 		memories = {
 			1061,
@@ -1923,12 +1998,13 @@ pg.base.memory_group = {
 		}
 	},
 	[178] = {
-		title = "Blessings and Tidings",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 178,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Blessings and Tidings",
+		auto_unlock = "",
+		subtype = 3,
+		id = 178,
 		group_id = "",
 		memories = {
 			1091,
@@ -1939,12 +2015,13 @@ pg.base.memory_group = {
 		}
 	},
 	[179] = {
-		title = "Fight On, Royal Maids!(part 2)",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 179,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Fight On, Royal Maids!(part 2)",
+		auto_unlock = "",
+		subtype = 2,
+		id = 179,
 		group_id = "",
 		memories = {
 			1096,
@@ -1955,12 +2032,13 @@ pg.base.memory_group = {
 		}
 	},
 	[180] = {
-		title = "Spring Festival Party",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 180,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Spring Festival Party",
+		auto_unlock = "",
+		subtype = 3,
+		id = 180,
 		group_id = "",
 		memories = {
 			1101,
@@ -1970,12 +2048,13 @@ pg.base.memory_group = {
 		}
 	},
 	[181] = {
-		title = "Northern Overture ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 181,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Northern Overture ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 181,
 		group_id = "",
 		memories = {
 			1110,
@@ -2013,12 +2092,13 @@ pg.base.memory_group = {
 		}
 	},
 	[182] = {
-		title = "Under the Mist ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 182,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Under the Mist ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 182,
 		group_id = "",
 		memories = {
 			1149,
@@ -2028,12 +2108,13 @@ pg.base.memory_group = {
 		}
 	},
 	[183] = {
-		title = "Microlayer Medley ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 183,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Microlayer Medley ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 183,
 		group_id = "",
 		memories = {
 			1153,
@@ -2074,12 +2155,13 @@ pg.base.memory_group = {
 		}
 	},
 	[184] = {
-		title = "The Golden Doubulin ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 184,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Golden Doubulin ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 184,
 		group_id = "",
 		memories = {
 			1188,
@@ -2089,12 +2171,13 @@ pg.base.memory_group = {
 		}
 	},
 	[185] = {
-		title = "The Way Home in the Dark ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 185,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Way Home in the Dark ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 185,
 		group_id = "",
 		memories = {
 			1211,
@@ -2109,12 +2192,13 @@ pg.base.memory_group = {
 		}
 	},
 	[186] = {
-		title = "Skybound Oratorio ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 186,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Skybound Oratorio ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 186,
 		group_id = "",
 		memories = {
 			1231,
@@ -2154,12 +2238,13 @@ pg.base.memory_group = {
 		}
 	},
 	[187] = {
-		title = "Counterattack Within the Fjord ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 187,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Counterattack Within the Fjord ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 187,
 		group_id = "",
 		memories = {
 			1265,
@@ -2178,12 +2263,13 @@ pg.base.memory_group = {
 		}
 	},
 	[188] = {
-		title = "Aurora Noctis ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 188,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Aurora Noctis ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 188,
 		group_id = "",
 		memories = {
 			1281,
@@ -2229,12 +2315,13 @@ pg.base.memory_group = {
 		}
 	},
 	[189] = {
-		title = "Dreamwaker's Butterfly ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 189,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Dreamwaker's Butterfly ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 189,
 		group_id = "",
 		memories = {
 			1341,
@@ -2282,12 +2369,13 @@ pg.base.memory_group = {
 		}
 	},
 	[190] = {
-		title = "Sundered Blue ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 190,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Sundered Blue ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 190,
 		group_id = "",
 		memories = {
 			1386,
@@ -2303,12 +2391,13 @@ pg.base.memory_group = {
 		}
 	},
 	[191] = {
-		title = "Universe in Unison ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 191,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Universe in Unison ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 191,
 		group_id = "",
 		memories = {
 			1411,
@@ -2336,12 +2425,13 @@ pg.base.memory_group = {
 		}
 	},
 	[192] = {
-		title = "Vacation Lane - Venus Visitation ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 192,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Vacation Lane - Venus Visitation ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 192,
 		group_id = "",
 		memories = {
 			1436,
@@ -2363,12 +2453,13 @@ pg.base.memory_group = {
 		}
 	},
 	[193] = {
-		title = "Vacation Lane - Cozy Days ",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 193,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Vacation Lane - Cozy Days ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 193,
 		group_id = "",
 		memories = {
 			1452,
@@ -2378,12 +2469,13 @@ pg.base.memory_group = {
 		}
 	},
 	[194] = {
-		title = "Inverted Orthant ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 194,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Inverted Orthant ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 194,
 		group_id = "",
 		memories = {
 			1481,
@@ -2424,12 +2516,13 @@ pg.base.memory_group = {
 		}
 	},
 	[195] = {
-		title = "Khorovod of Dawn's Rime",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 195,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Khorovod of Dawn's Rime",
+		auto_unlock = "",
+		subtype = 1,
+		id = 195,
 		group_id = "",
 		memories = {
 			1530,
@@ -2466,12 +2559,13 @@ pg.base.memory_group = {
 		}
 	},
 	[196] = {
-		title = "Daedalian Hymn ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 196,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Daedalian Hymn ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 196,
 		group_id = "",
 		memories = {
 			1601,
@@ -2512,12 +2606,13 @@ pg.base.memory_group = {
 		}
 	},
 	[197] = {
-		title = "Silver Archives ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 197,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Silver Archives ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 197,
 		group_id = "",
 		memories = {
 			1661,
@@ -2527,12 +2622,13 @@ pg.base.memory_group = {
 		}
 	},
 	[198] = {
-		title = "Mirror Involution ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 198,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Mirror Involution ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 198,
 		group_id = "",
 		memories = {
 			1681,
@@ -2571,12 +2667,13 @@ pg.base.memory_group = {
 		}
 	},
 	[199] = {
-		title = "Azur Anthem - Side Story",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 199,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Azur Anthem - Side Story",
+		auto_unlock = "",
+		subtype = 2,
+		id = 199,
 		group_id = "",
 		memories = {
 			1746,
@@ -2586,12 +2683,13 @@ pg.base.memory_group = {
 		}
 	},
 	[200] = {
-		title = "Azur Anthem",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 200,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Azur Anthem",
+		auto_unlock = "",
+		subtype = 2,
+		id = 200,
 		group_id = "",
 		memories = {
 			1751,
@@ -2613,12 +2711,13 @@ pg.base.memory_group = {
 		}
 	},
 	[202] = {
-		title = "Upon the Shimmering Blue ",
-		subtype = 1,
-		link_event = 5069,
-		type = 2,
-		id = 202,
 		icon = "title_event",
+		type = 2,
+		link_event = 5069,
+		title = "Upon the Shimmering Blue ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 202,
 		group_id = "",
 		memories = {
 			1801,
@@ -2659,12 +2758,13 @@ pg.base.memory_group = {
 		}
 	},
 	[203] = {
-		title = "The Flame-Touched Dagger ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 203,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Flame-Touched Dagger ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 203,
 		group_id = "",
 		memories = {
 			1881,
@@ -2682,12 +2782,13 @@ pg.base.memory_group = {
 		}
 	},
 	[204] = {
-		title = "World-Spanning Arclight",
-		subtype = 2,
-		link_event = 4932,
-		type = 2,
-		id = 204,
 		icon = "title_event",
+		type = 2,
+		link_event = 4932,
+		title = "World-Spanning Arclight",
+		auto_unlock = "",
+		subtype = 2,
+		id = 204,
 		group_id = "",
 		memories = {
 			1896,
@@ -2718,12 +2819,13 @@ pg.base.memory_group = {
 		}
 	},
 	[205] = {
-		title = "Dynamic Days",
-		subtype = 2,
-		link_event = 4933,
-		type = 2,
-		id = 205,
 		icon = "title_event",
+		type = 2,
+		link_event = 4933,
+		title = "Dynamic Days",
+		auto_unlock = "",
+		subtype = 2,
+		id = 205,
 		group_id = "",
 		memories = {
 			1921,
@@ -2733,12 +2835,13 @@ pg.base.memory_group = {
 		}
 	},
 	[206] = {
-		title = "Tonic and Tea",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 206,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Tonic and Tea",
+		auto_unlock = "",
+		subtype = 3,
+		id = 206,
 		group_id = "",
 		memories = {
 			1926,
@@ -2756,12 +2859,13 @@ pg.base.memory_group = {
 		}
 	},
 	[207] = {
-		title = "Tower of Transcendence",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 207,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Tower of Transcendence",
+		auto_unlock = "",
+		subtype = 1,
+		id = 207,
 		group_id = "",
 		memories = {
 			1941,
@@ -2804,12 +2908,13 @@ pg.base.memory_group = {
 		}
 	},
 	[208] = {
-		title = "An Exercise Gone Slightly Wrong",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 208,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "An Exercise Gone Slightly Wrong",
+		auto_unlock = "",
+		subtype = 2,
+		id = 208,
 		group_id = "",
 		memories = {
 			1980,
@@ -2820,12 +2925,13 @@ pg.base.memory_group = {
 		}
 	},
 	[209] = {
-		title = "The Great Lunar New Year Photoshoot",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 209,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Great Lunar New Year Photoshoot",
+		auto_unlock = "",
+		subtype = 3,
+		id = 209,
 		group_id = "",
 		memories = {
 			1985,
@@ -2838,12 +2944,13 @@ pg.base.memory_group = {
 		}
 	},
 	[210] = {
-		title = "Darkness Within Dawn ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 210,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Darkness Within Dawn ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 210,
 		group_id = "",
 		memories = {
 			2002,
@@ -2853,12 +2960,13 @@ pg.base.memory_group = {
 		}
 	},
 	[211] = {
-		title = "Abyssal Refrain",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 211,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Abyssal Refrain",
+		auto_unlock = "",
+		subtype = 1,
+		id = 211,
 		group_id = "",
 		memories = {
 			2006,
@@ -2897,12 +3005,13 @@ pg.base.memory_group = {
 		}
 	},
 	[212] = {
-		title = "Virtual Tower",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 212,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Virtual Tower",
+		auto_unlock = "",
+		subtype = 2,
+		id = 212,
 		group_id = "",
 		memories = {
 			2050,
@@ -2919,12 +3028,13 @@ pg.base.memory_group = {
 		}
 	},
 	[213] = {
-		title = "Band of Bulins",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 213,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Band of Bulins",
+		auto_unlock = "",
+		subtype = 3,
+		id = 213,
 		group_id = "",
 		memories = {
 			2061,
@@ -2932,12 +3042,13 @@ pg.base.memory_group = {
 		}
 	},
 	[214] = {
-		title = "Tales From the Count's Castle ",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 214,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Tales From the Count's Castle ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 214,
 		group_id = "",
 		memories = {
 			2071,
@@ -2950,12 +3061,13 @@ pg.base.memory_group = {
 		}
 	},
 	[215] = {
-		title = "Rondo at Rainbow's End ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 215,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Rondo at Rainbow's End ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 215,
 		group_id = "",
 		memories = {
 			2081,
@@ -2995,12 +3107,13 @@ pg.base.memory_group = {
 		}
 	},
 	[216] = {
-		title = "Letters and Travels",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 216,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Letters and Travels",
+		auto_unlock = "",
+		subtype = 1,
+		id = 216,
 		group_id = "",
 		memories = {
 			2116,
@@ -3010,12 +3123,13 @@ pg.base.memory_group = {
 		}
 	},
 	[217] = {
-		title = "The Many Lives of Maids",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 217,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Many Lives of Maids",
+		auto_unlock = "",
+		subtype = 3,
+		id = 217,
 		group_id = "",
 		memories = {
 			2128,
@@ -3024,12 +3138,13 @@ pg.base.memory_group = {
 		}
 	},
 	[218] = {
-		title = "Pledge of the Radiant Court ",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 218,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Pledge of the Radiant Court ",
+		auto_unlock = "",
+		subtype = 1,
+		id = 218,
 		group_id = "",
 		memories = {
 			2131,
@@ -3071,12 +3186,13 @@ pg.base.memory_group = {
 		}
 	},
 	[219] = {
-		title = "The Graceful Banquet",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 219,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Graceful Banquet",
+		auto_unlock = "",
+		subtype = 3,
+		id = 219,
 		group_id = "",
 		memories = {
 			2167,
@@ -3086,12 +3202,13 @@ pg.base.memory_group = {
 		}
 	},
 	[220] = {
-		title = "Adventures in the Forest of Fables",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 220,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Adventures in the Forest of Fables",
+		auto_unlock = "",
+		subtype = 3,
+		id = 220,
 		group_id = "",
 		memories = {
 			2181,
@@ -3103,12 +3220,13 @@ pg.base.memory_group = {
 		}
 	},
 	[221] = {
-		title = "Angel of the Iris",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 221,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Angel of the Iris",
+		auto_unlock = "",
+		subtype = 1,
+		id = 221,
 		group_id = "",
 		memories = {
 			2191,
@@ -3121,12 +3239,13 @@ pg.base.memory_group = {
 		}
 	},
 	[222] = {
-		title = "Where All Roads Lead",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 222,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Where All Roads Lead",
+		auto_unlock = "",
+		subtype = 1,
+		id = 222,
 		group_id = "",
 		memories = {
 			2211,
@@ -3139,12 +3258,13 @@ pg.base.memory_group = {
 		}
 	},
 	[223] = {
-		title = "Aquilifer's Ballade",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 223,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Aquilifer's Ballade",
+		auto_unlock = "",
+		subtype = 1,
+		id = 223,
 		group_id = "",
 		memories = {
 			2221,
@@ -3187,12 +3307,13 @@ pg.base.memory_group = {
 		}
 	},
 	[224] = {
-		title = "Operation Convergence",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 224,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Operation Convergence",
+		auto_unlock = "",
+		subtype = 1,
+		id = 224,
 		group_id = "",
 		memories = {
 			2271,
@@ -3214,12 +3335,13 @@ pg.base.memory_group = {
 		}
 	},
 	[225] = {
-		title = "Tranquil Sea, Distant Thunder",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 225,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Tranquil Sea, Distant Thunder",
+		auto_unlock = "",
+		subtype = 1,
+		id = 225,
 		group_id = "",
 		memories = {
 			2291,
@@ -3232,12 +3354,13 @@ pg.base.memory_group = {
 		}
 	},
 	[226] = {
-		title = "Violet Tempest, Blooming Lycoris",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 226,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Violet Tempest, Blooming Lycoris",
+		auto_unlock = "",
+		subtype = 1,
+		id = 226,
 		group_id = "",
 		memories = {
 			2301,
@@ -3282,12 +3405,13 @@ pg.base.memory_group = {
 		}
 	},
 	[227] = {
-		title = "Rising of the Ship Heroes!",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 227,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Rising of the Ship Heroes!",
+		auto_unlock = "",
+		subtype = 2,
+		id = 227,
 		group_id = "",
 		memories = {
 			2351,
@@ -3298,12 +3422,13 @@ pg.base.memory_group = {
 		}
 	},
 	[228] = {
-		title = "The Pursuit of Little Spee",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 228,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Pursuit of Little Spee",
+		auto_unlock = "",
+		subtype = 2,
+		id = 228,
 		group_id = "",
 		memories = {
 			2361,
@@ -3312,12 +3437,13 @@ pg.base.memory_group = {
 		}
 	},
 	[229] = {
-		title = "Fight On, Royal Maids! (Part 3)",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 229,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Fight On, Royal Maids! (Part 3)",
+		auto_unlock = "",
+		subtype = 3,
+		id = 229,
 		group_id = "",
 		memories = {
 			2378,
@@ -3328,12 +3454,13 @@ pg.base.memory_group = {
 		}
 	},
 	[230] = {
-		title = "Halloween Hijinks",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 230,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Halloween Hijinks",
+		auto_unlock = "",
+		subtype = 2,
+		id = 230,
 		group_id = "",
 		memories = {
 			2383,
@@ -3345,12 +3472,13 @@ pg.base.memory_group = {
 		}
 	},
 	[231] = {
-		title = "The Alchemist and the Archipelago of Secrets - Peaceful Port Days",
-		subtype = 2,
-		link_event = 4584,
-		type = 2,
-		id = 231,
 		icon = "title_event",
+		type = 2,
+		link_event = 4584,
+		title = "The Alchemist and the Archipelago of Secrets - Peaceful Port Days",
+		auto_unlock = "",
+		subtype = 2,
+		id = 231,
 		group_id = "",
 		memories = {
 			2401,
@@ -3363,12 +3491,13 @@ pg.base.memory_group = {
 		}
 	},
 	[232] = {
-		title = "The Alchemist and the Archipelago of Secrets",
-		subtype = 2,
-		link_event = 4580,
-		type = 2,
-		id = 232,
 		icon = "title_event",
+		type = 2,
+		link_event = 4580,
+		title = "The Alchemist and the Archipelago of Secrets",
+		auto_unlock = "",
+		subtype = 2,
+		id = 232,
 		group_id = "",
 		memories = {
 			2411,
@@ -3400,12 +3529,13 @@ pg.base.memory_group = {
 		}
 	},
 	[233] = {
-		title = "Causality Transposition",
-		subtype = 1,
-		link_event = 4597,
-		type = 2,
-		id = 233,
 		icon = "title_event",
+		type = 2,
+		link_event = 4597,
+		title = "Causality Transposition",
+		auto_unlock = "",
+		subtype = 1,
+		id = 233,
 		group_id = "",
 		memories = {
 			2441,
@@ -3418,12 +3548,13 @@ pg.base.memory_group = {
 		}
 	},
 	[234] = {
-		title = "Beachside Vacation Vignettes",
-		subtype = 3,
-		link_event = 4618,
-		type = 2,
-		id = 234,
 		icon = "title_event",
+		type = 2,
+		link_event = 4618,
+		title = "Beachside Vacation Vignettes",
+		auto_unlock = "",
+		subtype = 3,
+		id = 234,
 		group_id = "",
 		memories = {
 			2461,
@@ -3436,12 +3567,13 @@ pg.base.memory_group = {
 		}
 	},
 	[235] = {
-		title = "Parallel Superimposition",
-		subtype = 1,
-		link_event = 4607,
-		type = 2,
-		id = 235,
 		icon = "title_event",
+		type = 2,
+		link_event = 4607,
+		title = "Parallel Superimposition",
+		auto_unlock = "",
+		subtype = 1,
+		id = 235,
 		group_id = "",
 		memories = {
 			2471,
@@ -3482,12 +3614,13 @@ pg.base.memory_group = {
 		}
 	},
 	[236] = {
-		title = "Winter Pathfinder",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 236,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Winter Pathfinder",
+		auto_unlock = "",
+		subtype = 3,
+		id = 236,
 		group_id = "",
 		memories = {
 			2521,
@@ -3498,12 +3631,13 @@ pg.base.memory_group = {
 		}
 	},
 	[237] = {
-		title = "Myriad Colors of the New Year",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 237,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Myriad Colors of the New Year",
+		auto_unlock = "",
+		subtype = 3,
+		id = 237,
 		group_id = "",
 		memories = {
 			2531,
@@ -3513,12 +3647,13 @@ pg.base.memory_group = {
 		}
 	},
 	[238] = {
-		title = "Spring Blossoms in the Sky",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 238,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Spring Blossoms in the Sky",
+		auto_unlock = "",
+		subtype = 3,
+		id = 238,
 		group_id = "",
 		memories = {
 			2541,
@@ -3527,12 +3662,13 @@ pg.base.memory_group = {
 		}
 	},
 	[239] = {
-		title = "The Queen's Ordinary Day",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 239,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Queen's Ordinary Day",
+		auto_unlock = "",
+		subtype = 1,
+		id = 239,
 		group_id = "",
 		memories = {
 			2551,
@@ -3545,12 +3681,13 @@ pg.base.memory_group = {
 		}
 	},
 	[240] = {
-		title = "Revelations of Dust",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 240,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Revelations of Dust",
+		auto_unlock = "",
+		subtype = 1,
+		id = 240,
 		group_id = "",
 		memories = {
 			2571,
@@ -3586,12 +3723,13 @@ pg.base.memory_group = {
 		}
 	},
 	[241] = {
-		title = "Frostfall",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 241,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Frostfall",
+		auto_unlock = "",
+		subtype = 1,
+		id = 241,
 		group_id = "",
 		memories = {
 			2611,
@@ -3616,12 +3754,13 @@ pg.base.memory_group = {
 		}
 	},
 	[242] = {
-		title = "Invitation of Melting Snow",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 242,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Invitation of Melting Snow",
+		auto_unlock = "",
+		subtype = 3,
+		id = 242,
 		group_id = "",
 		memories = {
 			2631,
@@ -3632,12 +3771,13 @@ pg.base.memory_group = {
 		}
 	},
 	[243] = {
-		title = "One-Punch! Bulin!",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 243,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "One-Punch! Bulin!",
+		auto_unlock = "",
+		subtype = 3,
+		id = 243,
 		group_id = "",
 		memories = {
 			2641,
@@ -3646,12 +3786,13 @@ pg.base.memory_group = {
 		}
 	},
 	[244] = {
-		title = "The Weaver's Omen",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 244,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Weaver's Omen",
+		auto_unlock = "",
+		subtype = 1,
+		id = 244,
 		group_id = "",
 		memories = {
 			2661,
@@ -3664,12 +3805,13 @@ pg.base.memory_group = {
 		}
 	},
 	[245] = {
-		title = "Confluence of Nothingness",
-		subtype = 1,
-		link_event = 0,
-		type = 2,
-		id = 245,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Confluence of Nothingness",
+		auto_unlock = "",
+		subtype = 1,
+		id = 245,
 		group_id = "",
 		memories = {
 			2671,
@@ -3712,12 +3854,13 @@ pg.base.memory_group = {
 		}
 	},
 	[246] = {
-		title = "Uncharted Summer",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 246,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Uncharted Summer",
+		auto_unlock = "",
+		subtype = 2,
+		id = 246,
 		group_id = "",
 		memories = {
 			2711,
@@ -3757,36 +3900,39 @@ pg.base.memory_group = {
 		}
 	},
 	[247] = {
-		title = "Pristine Leaves, Rich Warmth",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 247,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Pristine Leaves, Rich Warmth",
+		auto_unlock = "",
+		subtype = 3,
+		id = 247,
 		group_id = "",
 		memories = {
 			2751
 		}
 	},
 	[248] = {
-		title = "Like a Soaring Apsaras",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 248,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Like a Soaring Apsaras",
+		auto_unlock = "",
+		subtype = 3,
+		id = 248,
 		group_id = "",
 		memories = {
 			2781
 		}
 	},
 	[249] = {
-		title = "Reflections of the Oasis",
-		subtype = 1,
-		link_event = 4915,
-		type = 2,
-		id = 249,
 		icon = "title_event",
+		type = 2,
+		link_event = 4915,
+		title = "Reflections of the Oasis",
+		auto_unlock = "",
+		subtype = 1,
+		id = 249,
 		group_id = "",
 		memories = {
 			2791,
@@ -3797,12 +3943,13 @@ pg.base.memory_group = {
 		}
 	},
 	[250] = {
-		title = "Cubicle Dreamin'",
-		subtype = 3,
-		link_event = 4919,
-		type = 2,
-		id = 250,
 		icon = "title_event",
+		type = 2,
+		link_event = 4919,
+		title = "Cubicle Dreamin'",
+		auto_unlock = "",
+		subtype = 3,
+		id = 250,
 		group_id = "",
 		memories = {
 			2801,
@@ -3811,12 +3958,13 @@ pg.base.memory_group = {
 		}
 	},
 	[251] = {
-		title = "Anthem of Remembrance",
-		subtype = 1,
-		link_event = 4940,
-		type = 2,
-		id = 251,
 		icon = "title_event",
+		type = 2,
+		link_event = 4940,
+		title = "Anthem of Remembrance",
+		auto_unlock = "",
+		subtype = 1,
+		id = 251,
 		group_id = "",
 		memories = {
 			2820,
@@ -3832,12 +3980,13 @@ pg.base.memory_group = {
 		}
 	},
 	[252] = {
-		title = "Eventide's Eve",
-		subtype = 1,
-		link_event = 4951,
-		type = 2,
-		id = 252,
 		icon = "title_event",
+		type = 2,
+		link_event = 4951,
+		title = "Eventide's Eve",
+		auto_unlock = "",
+		subtype = 1,
+		id = 252,
 		group_id = "",
 		memories = {
 			2841,
@@ -3850,12 +3999,13 @@ pg.base.memory_group = {
 		}
 	},
 	[253] = {
-		title = "The Orthodoxy's Banquet",
-		subtype = 2,
-		link_event = 4963,
-		type = 2,
-		id = 253,
 		icon = "title_event",
+		type = 2,
+		link_event = 4963,
+		title = "The Orthodoxy's Banquet",
+		auto_unlock = "",
+		subtype = 2,
+		id = 253,
 		group_id = "",
 		memories = {
 			2851,
@@ -3878,12 +4028,13 @@ pg.base.memory_group = {
 		}
 	},
 	[254] = {
-		title = "The Fool's Scales",
-		subtype = 1,
-		link_event = 4967,
-		type = 2,
-		id = 254,
 		icon = "title_event",
+		type = 2,
+		link_event = 4967,
+		title = "The Fool's Scales",
+		auto_unlock = "",
+		subtype = 1,
+		id = 254,
 		group_id = "",
 		memories = {
 			2871,
@@ -3934,12 +4085,13 @@ pg.base.memory_group = {
 		}
 	},
 	[255] = {
-		title = "Invitation of the Wind",
-		subtype = 3,
-		link_event = 4962,
-		type = 2,
-		id = 255,
 		icon = "title_event",
+		type = 2,
+		link_event = 4962,
+		title = "Invitation of the Wind",
+		auto_unlock = "",
+		subtype = 3,
+		id = 255,
 		group_id = "",
 		memories = {
 			2921,
@@ -3948,12 +4100,13 @@ pg.base.memory_group = {
 		}
 	},
 	[256] = {
-		title = "Waxing Moonlight",
-		subtype = 1,
-		link_event = 4974,
-		type = 2,
-		id = 256,
 		icon = "title_event",
+		type = 2,
+		link_event = 4974,
+		title = "Waxing Moonlight",
+		auto_unlock = "",
+		subtype = 1,
+		id = 256,
 		group_id = "",
 		memories = {
 			2951,
@@ -3966,12 +4119,13 @@ pg.base.memory_group = {
 		}
 	},
 	[257] = {
-		title = "Effulgence Before Eclipse",
-		subtype = 1,
-		link_event = 5001,
-		type = 2,
-		id = 257,
 		icon = "title_event",
+		type = 2,
+		link_event = 5001,
+		title = "Effulgence Before Eclipse",
+		auto_unlock = "",
+		subtype = 1,
+		id = 257,
 		group_id = "",
 		memories = {
 			2961,
@@ -4011,12 +4165,13 @@ pg.base.memory_group = {
 		}
 	},
 	[258] = {
-		title = "Port Fashion Collection! Part 1",
-		subtype = 3,
-		link_event = 5009,
-		type = 2,
-		id = 258,
 		icon = "title_event",
+		type = 2,
+		link_event = 5009,
+		title = "Port Fashion Collection! Part 1",
+		auto_unlock = "",
+		subtype = 3,
+		id = 258,
 		group_id = "",
 		memories = {
 			3001,
@@ -4027,12 +4182,13 @@ pg.base.memory_group = {
 		}
 	},
 	[259] = {
-		title = "The Spiriting-Away Incident?",
-		subtype = 2,
-		link_event = 4990,
-		type = 2,
-		id = 259,
 		icon = "title_event",
+		type = 2,
+		link_event = 4990,
+		title = "The Spiriting-Away Incident?",
+		auto_unlock = "",
+		subtype = 2,
+		id = 259,
 		group_id = "",
 		memories = {
 			3011,
@@ -4050,12 +4206,13 @@ pg.base.memory_group = {
 		}
 	},
 	[260] = {
-		title = "Port Fashion Collection! Part 2",
-		subtype = 3,
-		link_event = 5015,
-		type = 2,
-		id = 260,
 		icon = "title_event",
+		type = 2,
+		link_event = 5015,
+		title = "Port Fashion Collection! Part 2",
+		auto_unlock = "",
+		subtype = 3,
+		id = 260,
 		group_id = "",
 		memories = {
 			3031,
@@ -4064,12 +4221,13 @@ pg.base.memory_group = {
 		}
 	},
 	[261] = {
-		title = "Port Fashion Collection! Racing Special",
-		subtype = 3,
-		link_event = 5019,
-		type = 2,
-		id = 261,
 		icon = "title_event",
+		type = 2,
+		link_event = 5019,
+		title = "Port Fashion Collection! Racing Special",
+		auto_unlock = "",
+		subtype = 3,
+		id = 261,
 		group_id = "",
 		memories = {
 			3041,
@@ -4080,12 +4238,13 @@ pg.base.memory_group = {
 		}
 	},
 	[262] = {
-		title = "Royal Fortune's Secret Shipyard",
-		subtype = 2,
-		link_event = 5023,
-		type = 2,
-		id = 262,
 		icon = "title_event",
+		type = 2,
+		link_event = 5023,
+		title = "Royal Fortune's Secret Shipyard",
+		auto_unlock = "",
+		subtype = 2,
+		id = 262,
 		group_id = "",
 		memories = {
 			3061,
@@ -4099,12 +4258,13 @@ pg.base.memory_group = {
 		}
 	},
 	[263] = {
-		title = "Tempesta and the Fountain of Youth",
-		subtype = 2,
-		link_event = 5051,
-		type = 2,
-		id = 263,
 		icon = "title_event",
+		type = 2,
+		link_event = 5051,
+		title = "Tempesta and the Fountain of Youth",
+		auto_unlock = "",
+		subtype = 2,
+		id = 263,
 		group_id = "",
 		memories = {
 			3071,
@@ -4138,12 +4298,13 @@ pg.base.memory_group = {
 		}
 	},
 	[264] = {
-		title = "A Bump in the Rainy Night",
-		subtype = 3,
-		link_event = 5054,
-		type = 2,
-		id = 264,
 		icon = "title_event",
+		type = 2,
+		link_event = 5054,
+		title = "A Bump in the Rainy Night",
+		auto_unlock = "",
+		subtype = 3,
+		id = 264,
 		group_id = "",
 		memories = {
 			3101,
@@ -4177,12 +4338,13 @@ pg.base.memory_group = {
 		}
 	},
 	[265] = {
-		title = "Today's Featured Product",
-		subtype = 3,
-		link_event = 5082,
-		type = 2,
-		id = 265,
 		icon = "title_event",
+		type = 2,
+		link_event = 5082,
+		title = "Today's Featured Product",
+		auto_unlock = "",
+		subtype = 3,
+		id = 265,
 		group_id = "",
 		memories = {
 			3141,
@@ -4191,12 +4353,13 @@ pg.base.memory_group = {
 		}
 	},
 	[266] = {
-		title = "The Ninja Scrolls: Azur Flash",
-		subtype = 2,
-		link_event = 5101,
-		type = 2,
-		id = 266,
 		icon = "title_event",
+		type = 2,
+		link_event = 5101,
+		title = "The Ninja Scrolls: Azur Flash",
+		auto_unlock = "",
+		subtype = 2,
+		id = 266,
 		group_id = "",
 		memories = {
 			3151,
@@ -4226,12 +4389,13 @@ pg.base.memory_group = {
 		}
 	},
 	[267] = {
-		title = "The Ninja Scrolls: At Your Leisure",
-		subtype = 2,
-		link_event = 5096,
-		type = 2,
-		id = 267,
 		icon = "title_event",
+		type = 2,
+		link_event = 5096,
+		title = "The Ninja Scrolls: At Your Leisure",
+		auto_unlock = "",
+		subtype = 2,
+		id = 267,
 		group_id = "",
 		memories = {
 			3181,
@@ -4244,12 +4408,13 @@ pg.base.memory_group = {
 		}
 	},
 	[268] = {
-		title = "Popularity Poll 2023",
-		subtype = 3,
-		link_event = 1068,
-		type = 2,
-		id = 268,
 		icon = "title_event",
+		type = 2,
+		link_event = 1068,
+		title = "Popularity Poll 2023",
+		auto_unlock = "",
+		subtype = 3,
+		id = 268,
 		group_id = "",
 		memories = {
 			3191,
@@ -4272,12 +4437,13 @@ pg.base.memory_group = {
 		}
 	},
 	[269] = {
-		title = "Beneath Clear, Starry Skies",
-		subtype = 1,
-		link_event = 5105,
-		type = 2,
-		id = 269,
 		icon = "title_event",
+		type = 2,
+		link_event = 5105,
+		title = "Beneath Clear, Starry Skies",
+		auto_unlock = "",
+		subtype = 1,
+		id = 269,
 		group_id = "",
 		memories = {
 			3221,
@@ -4290,12 +4456,13 @@ pg.base.memory_group = {
 		}
 	},
 	[270] = {
-		title = "Light-Chasing Sea of Stars",
-		subtype = 1,
-		link_event = 5131,
-		type = 2,
-		id = 270,
 		icon = "title_event",
+		type = 2,
+		link_event = 5131,
+		title = "Light-Chasing Sea of Stars",
+		auto_unlock = "",
+		subtype = 1,
+		id = 270,
 		group_id = "",
 		memories = {
 			3228,
@@ -4338,12 +4505,13 @@ pg.base.memory_group = {
 		}
 	},
 	[271] = {
-		title = "Port Fashion Collection: Resplendent Night",
-		subtype = 3,
-		link_event = 5143,
-		type = 2,
-		id = 271,
 		icon = "title_event",
+		type = 2,
+		link_event = 5143,
+		title = "Port Fashion Collection: Resplendent Night",
+		auto_unlock = "",
+		subtype = 3,
+		id = 271,
 		group_id = "",
 		memories = {
 			3272,
@@ -4353,12 +4521,13 @@ pg.base.memory_group = {
 		}
 	},
 	[272] = {
-		title = "Port Fashion Collection: Resplendent Night II",
-		subtype = 3,
-		link_event = 5150,
-		type = 2,
-		id = 272,
 		icon = "title_event",
+		type = 2,
+		link_event = 5150,
+		title = "Port Fashion Collection: Resplendent Night II",
+		auto_unlock = "",
+		subtype = 3,
+		id = 272,
 		group_id = "",
 		memories = {
 			3281,
@@ -4367,12 +4536,13 @@ pg.base.memory_group = {
 		}
 	},
 	[273] = {
-		title = "Spring Festive Fiasco",
-		subtype = 3,
-		link_event = 5178,
-		type = 2,
-		id = 273,
 		icon = "title_event",
+		type = 2,
+		link_event = 5178,
+		title = "Spring Festive Fiasco",
+		auto_unlock = "",
+		subtype = 3,
+		id = 273,
 		group_id = "",
 		memories = {
 			3301,
@@ -4383,12 +4553,13 @@ pg.base.memory_group = {
 		}
 	},
 	[274] = {
-		title = "The Queen of Adventure",
-		subtype = 3,
-		link_event = 5178,
-		type = 2,
-		id = 274,
 		icon = "title_event",
+		type = 2,
+		link_event = 5178,
+		title = "The Queen of Adventure",
+		auto_unlock = "",
+		subtype = 3,
+		id = 274,
 		group_id = "",
 		memories = {
 			3311,
@@ -4397,12 +4568,13 @@ pg.base.memory_group = {
 		}
 	},
 	[275] = {
-		title = "Port Fashion Collection: Spring Festival I",
-		subtype = 3,
-		link_event = 5184,
-		type = 2,
-		id = 275,
 		icon = "title_event",
+		type = 2,
+		link_event = 5184,
+		title = "Port Fashion Collection: Spring Festival I",
+		auto_unlock = "",
+		subtype = 3,
+		id = 275,
 		group_id = "",
 		memories = {
 			3331,
@@ -4411,12 +4583,13 @@ pg.base.memory_group = {
 		}
 	},
 	[276] = {
-		title = "Port Fashion Collection: Spring Festival II",
-		subtype = 3,
-		link_event = 5184,
-		type = 2,
-		id = 276,
 		icon = "title_event",
+		type = 2,
+		link_event = 5184,
+		title = "Port Fashion Collection: Spring Festival II",
+		auto_unlock = "",
+		subtype = 3,
+		id = 276,
 		group_id = "",
 		memories = {
 			3341,
@@ -4425,12 +4598,13 @@ pg.base.memory_group = {
 		}
 	},
 	[277] = {
-		title = "Mist Upon Silver Summits",
-		subtype = 1,
-		link_event = 5212,
-		type = 2,
-		id = 277,
 		icon = "title_event",
+		type = 2,
+		link_event = 5212,
+		title = "Mist Upon Silver Summits",
+		auto_unlock = "",
+		subtype = 1,
+		id = 277,
 		group_id = "",
 		memories = {
 			3361,
@@ -4444,12 +4618,13 @@ pg.base.memory_group = {
 		}
 	},
 	[278] = {
-		title = "Snowrealm Peregrination",
-		subtype = 1,
-		link_event = 5221,
-		type = 2,
-		id = 278,
 		icon = "title_event",
+		type = 2,
+		link_event = 5221,
+		title = "Snowrealm Peregrination",
+		auto_unlock = "",
+		subtype = 1,
+		id = 278,
 		group_id = "",
 		memories = {
 			3370,
@@ -4489,12 +4664,13 @@ pg.base.memory_group = {
 		}
 	},
 	[279] = {
-		title = "Endless Drama in the Sleepless City",
-		subtype = 3,
-		link_event = 5224,
-		type = 2,
-		id = 279,
 		icon = "title_event",
+		type = 2,
+		link_event = 5224,
+		title = "Endless Drama in the Sleepless City",
+		auto_unlock = "",
+		subtype = 3,
+		id = 279,
 		group_id = "",
 		memories = {
 			3411,
@@ -4508,12 +4684,13 @@ pg.base.memory_group = {
 		}
 	},
 	[280] = {
-		title = "The Bard's Poem",
-		subtype = 2,
-		link_event = 5243,
-		type = 2,
-		id = 280,
 		icon = "title_event",
+		type = 2,
+		link_event = 5243,
+		title = "The Bard's Poem",
+		auto_unlock = "",
+		subtype = 2,
+		id = 280,
 		group_id = "",
 		memories = {
 			3431,
@@ -4524,12 +4701,13 @@ pg.base.memory_group = {
 		}
 	},
 	[281] = {
-		title = "From Zero to Hero",
-		subtype = 2,
-		link_event = 5265,
-		type = 2,
-		id = 281,
 		icon = "title_event",
+		type = 2,
+		link_event = 5265,
+		title = "From Zero to Hero",
+		auto_unlock = "",
+		subtype = 2,
+		id = 281,
 		group_id = "",
 		memories = {
 			3441,
@@ -4563,12 +4741,13 @@ pg.base.memory_group = {
 		}
 	},
 	[282] = {
-		title = "Rebirth of Gold",
-		subtype = 2,
-		link_event = 5267,
-		type = 2,
-		id = 282,
 		icon = "title_event",
+		type = 2,
+		link_event = 5267,
+		title = "Rebirth of Gold",
+		auto_unlock = "",
+		subtype = 2,
+		id = 282,
 		group_id = "",
 		memories = {
 			3471,
@@ -4577,12 +4756,13 @@ pg.base.memory_group = {
 		}
 	},
 	[283] = {
-		title = "Spider Lily's Redolence",
-		subtype = 1,
-		link_event = 5305,
-		type = 2,
-		id = 283,
 		icon = "title_event",
+		type = 2,
+		link_event = 5305,
+		title = "Spider Lily's Redolence",
+		auto_unlock = "",
+		subtype = 1,
+		id = 283,
 		group_id = "",
 		memories = {
 			3491,
@@ -4595,12 +4775,13 @@ pg.base.memory_group = {
 		}
 	},
 	[284] = {
-		title = "Heart-Linking Harmony",
-		subtype = 2,
-		link_event = 5301,
-		type = 2,
-		id = 284,
 		icon = "title_event",
+		type = 2,
+		link_event = 5301,
+		title = "Heart-Linking Harmony",
+		auto_unlock = "",
+		subtype = 2,
+		id = 284,
 		group_id = "",
 		memories = {
 			3500,
@@ -4623,12 +4804,13 @@ pg.base.memory_group = {
 		}
 	},
 	[285] = {
-		title = "Port Fashion Collection! A Glimpse Into Another Life",
-		subtype = 3,
-		link_event = 5311,
-		type = 2,
-		id = 285,
 		icon = "title_event",
+		type = 2,
+		link_event = 5311,
+		title = "Port Fashion Collection! A Glimpse Into Another Life",
+		auto_unlock = "",
+		subtype = 3,
+		id = 285,
 		group_id = "",
 		memories = {
 			3520,
@@ -4637,12 +4819,13 @@ pg.base.memory_group = {
 		}
 	},
 	[286] = {
-		title = "The Bon Before the Voyage",
-		subtype = 2,
-		link_event = 5324,
-		type = 2,
-		id = 286,
 		icon = "title_event",
+		type = 2,
+		link_event = 5324,
+		title = "The Bon Before the Voyage",
+		auto_unlock = "",
+		subtype = 2,
+		id = 286,
 		group_id = "",
 		memories = {
 			3541,
@@ -4653,12 +4836,13 @@ pg.base.memory_group = {
 		}
 	},
 	[287] = {
-		title = "Echoes From Afar",
-		subtype = 1,
-		link_event = 5341,
-		type = 2,
-		id = 287,
 		icon = "title_event",
+		type = 2,
+		link_event = 5341,
+		title = "Echoes From Afar",
+		auto_unlock = "",
+		subtype = 1,
+		id = 287,
 		group_id = "",
 		memories = {
 			3551,
@@ -4671,12 +4855,13 @@ pg.base.memory_group = {
 		}
 	},
 	[288] = {
-		title = "Pleasure, Leisure, and Treasure",
-		subtype = 3,
-		link_event = 5335,
-		type = 2,
-		id = 288,
 		icon = "title_event",
+		type = 2,
+		link_event = 5335,
+		title = "Pleasure, Leisure, and Treasure",
+		auto_unlock = "",
+		subtype = 3,
+		id = 288,
 		group_id = "",
 		memories = {
 			3561,
@@ -4728,12 +4913,13 @@ pg.base.memory_group = {
 		}
 	},
 	[289] = {
-		title = "Light of the Martyrium",
-		subtype = 1,
-		link_event = 5331,
-		type = 2,
-		id = 289,
 		icon = "title_event",
+		type = 2,
+		link_event = 5331,
+		title = "Light of the Martyrium",
+		auto_unlock = "",
+		subtype = 1,
+		id = 289,
 		group_id = "",
 		memories = {
 			3610,
@@ -4774,36 +4960,39 @@ pg.base.memory_group = {
 		}
 	},
 	[290] = {
-		title = "A Tale From the Sylvan Garden",
-		subtype = 3,
-		link_event = 5360,
-		type = 2,
-		id = 290,
 		icon = "title_event",
+		type = 2,
+		link_event = 5360,
+		title = "A Tale From the Sylvan Garden",
+		auto_unlock = "",
+		subtype = 3,
+		id = 290,
 		group_id = "",
 		memories = {
 			3651
 		}
 	},
 	[291] = {
-		title = "A Leisurely Trip to Jade Seas",
-		subtype = 3,
-		link_event = 5364,
-		type = 2,
-		id = 291,
 		icon = "title_event",
+		type = 2,
+		link_event = 5364,
+		title = "A Leisurely Trip to Jade Seas",
+		auto_unlock = "",
+		subtype = 3,
+		id = 291,
 		group_id = "",
 		memories = {
 			3661
 		}
 	},
 	[292] = {
-		title = "Welcome to Little Academy",
-		subtype = 2,
-		link_event = 5402,
-		type = 2,
-		id = 292,
 		icon = "title_event",
+		type = 2,
+		link_event = 5402,
+		title = "Welcome to Little Academy",
+		auto_unlock = "",
+		subtype = 2,
+		id = 292,
 		group_id = "",
 		memories = {
 			3681,
@@ -4819,12 +5008,13 @@ pg.base.memory_group = {
 		}
 	},
 	[293] = {
-		title = "Interlude of Illusions",
-		subtype = 1,
-		link_event = 5501,
-		type = 2,
-		id = 293,
 		icon = "title_event",
+		type = 2,
+		link_event = 5501,
+		title = "Interlude of Illusions",
+		auto_unlock = "",
+		subtype = 1,
+		id = 293,
 		group_id = "",
 		memories = {
 			3701,
@@ -4840,12 +5030,13 @@ pg.base.memory_group = {
 		}
 	},
 	[294] = {
-		title = "Port Fashion Collection: Summer Racing",
-		subtype = 3,
-		link_event = 5504,
-		type = 2,
-		id = 294,
 		icon = "title_event",
+		type = 2,
+		link_event = 5504,
+		title = "Port Fashion Collection: Summer Racing",
+		auto_unlock = "",
+		subtype = 3,
+		id = 294,
 		group_id = "",
 		memories = {
 			3711,
@@ -4854,12 +5045,13 @@ pg.base.memory_group = {
 		}
 	},
 	[295] = {
-		title = "Crimson Prelusion",
-		subtype = 1,
-		link_event = 5512,
-		type = 2,
-		id = 295,
 		icon = "title_event",
+		type = 2,
+		link_event = 5512,
+		title = "Crimson Prelusion",
+		auto_unlock = "",
+		subtype = 1,
+		id = 295,
 		group_id = "",
 		memories = {
 			3731,
@@ -4872,12 +5064,13 @@ pg.base.memory_group = {
 		}
 	},
 	[296] = {
-		title = "Windborne Steel Wings",
-		subtype = 1,
-		link_event = 5521,
-		type = 2,
-		id = 296,
 		icon = "title_event",
+		type = 2,
+		link_event = 5521,
+		title = "Windborne Steel Wings",
+		auto_unlock = "",
+		subtype = 1,
+		id = 296,
 		group_id = "",
 		memories = {
 			3741,
@@ -4920,12 +5113,13 @@ pg.base.memory_group = {
 		}
 	},
 	[297] = {
-		title = "Wild West Vacation Log",
-		subtype = 3,
-		link_event = 5523,
-		type = 2,
-		id = 297,
 		icon = "title_event",
+		type = 2,
+		link_event = 5523,
+		title = "Wild West Vacation Log",
+		auto_unlock = "",
+		subtype = 3,
+		id = 297,
 		group_id = "",
 		memories = {
 			3781,
@@ -4949,12 +5143,13 @@ pg.base.memory_group = {
 		}
 	},
 	[298] = {
-		title = "Whence Flowers Bear No Fruit",
-		subtype = 1,
-		link_event = 5541,
-		type = 2,
-		id = 298,
 		icon = "title_event",
+		type = 2,
+		link_event = 5541,
+		title = "Whence Flowers Bear No Fruit",
+		auto_unlock = "",
+		subtype = 1,
+		id = 298,
 		group_id = "",
 		memories = {
 			3811,
@@ -4973,12 +5168,13 @@ pg.base.memory_group = {
 		}
 	},
 	[299] = {
-		title = "Whence the Dust Settles",
-		subtype = 1,
-		link_event = 5551,
-		type = 2,
-		id = 299,
 		icon = "title_event",
+		type = 2,
+		link_event = 5551,
+		title = "Whence the Dust Settles",
+		auto_unlock = "",
+		subtype = 1,
+		id = 299,
 		group_id = "",
 		memories = {
 			3831,
@@ -4991,12 +5187,13 @@ pg.base.memory_group = {
 		}
 	},
 	[300] = {
-		title = "Paradise Opens for Business",
-		subtype = 2,
-		link_event = 5548,
-		type = 2,
-		id = 300,
 		icon = "title_event",
+		type = 2,
+		link_event = 5548,
+		title = "Paradise Opens for Business",
+		auto_unlock = "",
+		subtype = 2,
+		id = 300,
 		group_id = "",
 		memories = {
 			3841,
@@ -5007,12 +5204,13 @@ pg.base.memory_group = {
 		}
 	},
 	[301] = {
-		title = "Dreamy Day in Dream Park",
-		subtype = 2,
-		link_event = 5560,
-		type = 2,
-		id = 301,
 		icon = "title_event",
+		type = 2,
+		link_event = 5560,
+		title = "Dreamy Day in Dream Park",
+		auto_unlock = "",
+		subtype = 2,
+		id = 301,
 		group_id = "",
 		memories = {
 			3851,
@@ -5037,12 +5235,13 @@ pg.base.memory_group = {
 		}
 	},
 	[302] = {
-		title = "Ode of Everblooming Crimson",
-		subtype = 1,
-		link_event = 5562,
-		type = 2,
-		id = 302,
 		icon = "title_event",
+		type = 2,
+		link_event = 5562,
+		title = "Ode of Everblooming Crimson",
+		auto_unlock = "",
+		subtype = 1,
+		id = 302,
 		group_id = "",
 		memories = {
 			3871,
@@ -5085,48 +5284,52 @@ pg.base.memory_group = {
 		}
 	},
 	[303] = {
-		title = "Dancing Her Heart Out",
-		subtype = 3,
-		link_event = 5581,
-		type = 2,
-		id = 303,
 		icon = "title_event",
+		type = 2,
+		link_event = 5581,
+		title = "Dancing Her Heart Out",
+		auto_unlock = "",
+		subtype = 3,
+		id = 303,
 		group_id = "",
 		memories = {
 			3908
 		}
 	},
 	[304] = {
-		title = "The Dorm Extension Project",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 304,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "The Dorm Extension Project",
+		auto_unlock = "",
+		subtype = 3,
+		id = 304,
 		group_id = "",
 		memories = {
 			3921
 		}
 	},
 	[305] = {
-		title = "The Newest App on the Block",
-		subtype = 0,
-		link_event = 0,
-		type = 1,
-		id = 305,
 		icon = "title_event",
+		type = 1,
+		link_event = 0,
+		title = "The Newest App on the Block",
+		auto_unlock = "",
+		subtype = 0,
+		id = 305,
 		group_id = "",
 		memories = {
 			3941
 		}
 	},
 	[306] = {
-		title = "Tempesta and the Sleeping Sea",
-		subtype = 2,
-		link_event = 5625,
-		type = 2,
-		id = 306,
 		icon = "title_event",
+		type = 2,
+		link_event = 5625,
+		title = "Tempesta and the Sleeping Sea",
+		auto_unlock = "",
+		subtype = 2,
+		id = 306,
 		group_id = "",
 		memories = {
 			3951,
@@ -5154,12 +5357,13 @@ pg.base.memory_group = {
 		}
 	},
 	[307] = {
-		title = "Sails and Spooks",
-		subtype = 3,
-		link_event = 5623,
-		type = 2,
-		id = 307,
 		icon = "title_event",
+		type = 2,
+		link_event = 5623,
+		title = "Sails and Spooks",
+		auto_unlock = "",
+		subtype = 3,
+		id = 307,
 		group_id = "",
 		memories = {
 			3981,
@@ -5173,24 +5377,26 @@ pg.base.memory_group = {
 		}
 	},
 	[308] = {
-		title = "A Brand New Sales Campaign!",
-		subtype = 3,
-		link_event = 5654,
-		type = 2,
-		id = 308,
 		icon = "title_event",
+		type = 2,
+		link_event = 5654,
+		title = "A Brand New Sales Campaign!",
+		auto_unlock = "",
+		subtype = 3,
+		id = 308,
 		group_id = "",
 		memories = {
 			4011
 		}
 	},
 	[309] = {
-		title = "Dangerous Inventions Incoming!",
-		subtype = 2,
-		link_event = 5679,
-		type = 2,
-		id = 309,
 		icon = "title_event",
+		type = 2,
+		link_event = 5679,
+		title = "Dangerous Inventions Incoming!",
+		auto_unlock = "",
+		subtype = 2,
+		id = 309,
 		group_id = "",
 		memories = {
 			4021,
@@ -5213,12 +5419,13 @@ pg.base.memory_group = {
 		}
 	},
 	[310] = {
-		title = "Dangerous Inventions Incoming - Port Stories",
-		subtype = 2,
-		link_event = 5681,
-		type = 2,
-		id = 310,
 		icon = "title_event",
+		type = 2,
+		link_event = 5681,
+		title = "Dangerous Inventions Incoming - Port Stories",
+		auto_unlock = "",
+		subtype = 2,
+		id = 310,
 		group_id = "",
 		memories = {
 			4041,
@@ -5230,12 +5437,13 @@ pg.base.memory_group = {
 		}
 	},
 	[311] = {
-		title = "Help Me, Miss Lala!",
-		subtype = 2,
-		link_event = 5691,
-		type = 2,
-		id = 311,
 		icon = "title_event",
+		type = 2,
+		link_event = 5691,
+		title = "Help Me, Miss Lala!",
+		auto_unlock = "",
+		subtype = 2,
+		id = 311,
 		group_id = "",
 		memories = {
 			4051,
@@ -5249,12 +5457,13 @@ pg.base.memory_group = {
 		}
 	},
 	[312] = {
-		title = "Return From the Beyond",
-		subtype = 1,
-		link_event = 5699,
-		type = 2,
-		id = 312,
 		icon = "title_event",
+		type = 2,
+		link_event = 5699,
+		title = "Return From the Beyond",
+		auto_unlock = "",
+		subtype = 1,
+		id = 312,
 		group_id = "",
 		memories = {
 			4071,
@@ -5269,12 +5478,13 @@ pg.base.memory_group = {
 		}
 	},
 	[313] = {
-		title = "Substellar Crepuscule",
-		subtype = 1,
-		link_event = 5711,
-		type = 2,
-		id = 313,
 		icon = "title_event",
+		type = 2,
+		link_event = 5711,
+		title = "Substellar Crepuscule",
+		auto_unlock = "",
+		subtype = 1,
+		id = 313,
 		group_id = "",
 		memories = {
 			4081,
@@ -5313,12 +5523,13 @@ pg.base.memory_group = {
 		}
 	},
 	[314] = {
-		title = "Port Fashion Collection: Holiday Special",
-		subtype = 3,
-		link_event = 5721,
-		type = 2,
-		id = 314,
 		icon = "title_event",
+		type = 2,
+		link_event = 5721,
+		title = "Port Fashion Collection: Holiday Special",
+		auto_unlock = "",
+		subtype = 3,
+		id = 314,
 		group_id = "",
 		memories = {
 			4121,
@@ -5330,12 +5541,13 @@ pg.base.memory_group = {
 		}
 	},
 	[315] = {
-		title = "Port Fashion Collection: Holiday Special",
-		subtype = 3,
-		link_event = 5735,
-		type = 2,
-		id = 315,
 		icon = "title_event",
+		type = 2,
+		link_event = 5735,
+		title = "Port Fashion Collection: Holiday Special",
+		auto_unlock = "",
+		subtype = 3,
+		id = 315,
 		group_id = "",
 		memories = {
 			4131,
@@ -5346,12 +5558,13 @@ pg.base.memory_group = {
 		}
 	},
 	[316] = {
-		title = "Port Fashion Collection: Spring Festival III",
-		subtype = 3,
-		link_event = 5777,
-		type = 2,
-		id = 316,
 		icon = "title_event",
+		type = 2,
+		link_event = 5777,
+		title = "Port Fashion Collection: Spring Festival III",
+		auto_unlock = "",
+		subtype = 3,
+		id = 316,
 		group_id = "",
 		memories = {
 			4151,
@@ -5361,12 +5574,13 @@ pg.base.memory_group = {
 		}
 	},
 	[317] = {
-		title = "Spring Fashion Festa",
-		subtype = 3,
-		link_event = 5772,
-		type = 2,
-		id = 317,
 		icon = "title_event",
+		type = 2,
+		link_event = 5772,
+		title = "Spring Fashion Festa",
+		auto_unlock = "",
+		subtype = 3,
+		id = 317,
 		group_id = "",
 		memories = {
 			4161,
@@ -5377,12 +5591,13 @@ pg.base.memory_group = {
 		}
 	},
 	[318] = {
-		title = "Port Fashion Collection: Spring Festival IV",
-		subtype = 3,
-		link_event = 5790,
-		type = 2,
-		id = 318,
 		icon = "title_event",
+		type = 2,
+		link_event = 5790,
+		title = "Port Fashion Collection: Spring Festival IV",
+		auto_unlock = "",
+		subtype = 3,
+		id = 318,
 		group_id = "",
 		memories = {
 			4171,
@@ -5392,12 +5607,13 @@ pg.base.memory_group = {
 		}
 	},
 	[319] = {
-		title = "Path of the Chosen",
-		subtype = 1,
-		link_event = 5809,
-		type = 2,
-		id = 319,
 		icon = "title_event",
+		type = 2,
+		link_event = 5809,
+		title = "Path of the Chosen",
+		auto_unlock = "",
+		subtype = 1,
+		id = 319,
 		group_id = "",
 		memories = {
 			4191,
@@ -5410,12 +5626,13 @@ pg.base.memory_group = {
 		}
 	},
 	[320] = {
-		title = "Paradiso of Shackled Light",
-		subtype = 1,
-		link_event = 5821,
-		type = 2,
-		id = 320,
 		icon = "title_event",
+		type = 2,
+		link_event = 5821,
+		title = "Paradiso of Shackled Light",
+		auto_unlock = "",
+		subtype = 1,
+		id = 320,
 		group_id = "",
 		memories = {
 			4201,
@@ -5457,12 +5674,13 @@ pg.base.memory_group = {
 		}
 	},
 	[321] = {
-		title = "Port Fashion Collection: Colors of the Nile",
-		subtype = 3,
-		link_event = 5830,
-		type = 2,
-		id = 321,
 		icon = "title_event",
+		type = 2,
+		link_event = 5830,
+		title = "Port Fashion Collection: Colors of the Nile",
+		auto_unlock = "",
+		subtype = 3,
+		id = 321,
 		group_id = "",
 		memories = {
 			4241,
@@ -5472,12 +5690,13 @@ pg.base.memory_group = {
 		}
 	},
 	[322] = {
-		title = "Letters from Valley Hospital",
-		subtype = 2,
-		link_event = 5871,
-		type = 2,
-		id = 322,
 		icon = "title_event",
+		type = 2,
+		link_event = 5871,
+		title = "Letters from Valley Hospital",
+		auto_unlock = "",
+		subtype = 2,
+		id = 322,
 		group_id = "",
 		memories = {
 			4261,
@@ -5494,12 +5713,13 @@ pg.base.memory_group = {
 		}
 	},
 	[323] = {
-		title = "The Bulin Brigade in: Down with the Megacorp!",
-		subtype = 2,
-		link_event = 5879,
-		type = 2,
-		id = 323,
 		icon = "title_event",
+		type = 2,
+		link_event = 5879,
+		title = "The Bulin Brigade in: Down with the Megacorp!",
+		auto_unlock = "",
+		subtype = 2,
+		id = 323,
 		group_id = "",
 		memories = {
 			4281,
@@ -5508,12 +5728,13 @@ pg.base.memory_group = {
 		}
 	},
 	[324] = {
-		title = "Port Fashion Collection: Lazy Spring Day",
-		subtype = 3,
-		link_event = 5911,
-		type = 2,
-		id = 324,
 		icon = "title_event",
+		type = 2,
+		link_event = 5911,
+		title = "Port Fashion Collection: Lazy Spring Day",
+		auto_unlock = "",
+		subtype = 3,
+		id = 324,
 		group_id = "",
 		memories = {
 			4301,
@@ -5523,12 +5744,13 @@ pg.base.memory_group = {
 		}
 	},
 	[325] = {
-		title = "Toward Tulipa's Seas",
-		subtype = 1,
-		link_event = 5901,
-		type = 2,
-		id = 325,
 		icon = "title_event",
+		type = 2,
+		link_event = 5901,
+		title = "Toward Tulipa's Seas",
+		auto_unlock = "",
+		subtype = 1,
+		id = 325,
 		group_id = "",
 		memories = {
 			4311,
@@ -5542,12 +5764,13 @@ pg.base.memory_group = {
 		}
 	},
 	[326] = {
-		title = "Planning the Villa Vacation",
-		subtype = 2,
-		link_event = 5924,
-		type = 2,
-		id = 326,
 		icon = "title_event",
+		type = 2,
+		link_event = 5924,
+		title = "Planning the Villa Vacation",
+		auto_unlock = "",
+		subtype = 2,
+		id = 326,
 		group_id = "",
 		memories = {
 			4331,
@@ -5558,12 +5781,13 @@ pg.base.memory_group = {
 		}
 	},
 	[327] = {
-		title = "March of the Neversetting Sun",
-		subtype = 1,
-		link_event = 5924,
-		type = 2,
-		id = 327,
 		icon = "title_event",
+		type = 2,
+		link_event = 5924,
+		title = "March of the Neversetting Sun",
+		auto_unlock = "",
+		subtype = 1,
+		id = 327,
 		group_id = "",
 		memories = {
 			4341,
@@ -5576,12 +5800,13 @@ pg.base.memory_group = {
 		}
 	},
 	[328] = {
-		title = "Midsummer Returns! The Villa Reconstruction",
-		subtype = 2,
-		link_event = 5952,
-		type = 2,
-		id = 328,
 		icon = "title_event",
+		type = 2,
+		link_event = 5952,
+		title = "Midsummer Returns! The Villa Reconstruction",
+		auto_unlock = "",
+		subtype = 2,
+		id = 328,
 		group_id = "",
 		memories = {
 			4351,
@@ -5614,12 +5839,13 @@ pg.base.memory_group = {
 		}
 	},
 	[329] = {
-		title = "A Rose on the High Tower",
-		subtype = 1,
-		link_event = 5941,
-		type = 2,
-		id = 329,
 		icon = "title_event",
+		type = 2,
+		link_event = 5941,
+		title = "A Rose on the High Tower",
+		auto_unlock = "",
+		subtype = 1,
+		id = 329,
 		group_id = "",
 		memories = {
 			4381,
@@ -5661,24 +5887,26 @@ pg.base.memory_group = {
 		}
 	},
 	[330] = {
-		title = "A Sky Blue Eclipsing Jade",
-		subtype = 3,
-		link_event = 5979,
-		type = 2,
-		id = 330,
 		icon = "title_event",
+		type = 2,
+		link_event = 5979,
+		title = "A Sky Blue Eclipsing Jade",
+		auto_unlock = "",
+		subtype = 3,
+		id = 330,
 		group_id = "",
 		memories = {
 			4417
 		}
 	},
 	[331] = {
-		title = "Illusory Drifters",
-		subtype = 2,
-		link_event = 5985,
-		type = 2,
-		id = 331,
 		icon = "title_event",
+		type = 2,
+		link_event = 5985,
+		title = "Illusory Drifters",
+		auto_unlock = "",
+		subtype = 2,
+		id = 331,
 		group_id = "",
 		memories = {
 			4431,
@@ -5689,12 +5917,13 @@ pg.base.memory_group = {
 		}
 	},
 	[332] = {
-		title = "Illusory Drifters - Warm Welcome",
-		subtype = 2,
-		link_event = 5985,
-		type = 2,
-		id = 332,
 		icon = "title_event",
+		type = 2,
+		link_event = 5985,
+		title = "Illusory Drifters - Warm Welcome",
+		auto_unlock = "",
+		subtype = 2,
+		id = 332,
 		group_id = "",
 		memories = {
 			4421,
@@ -5702,12 +5931,13 @@ pg.base.memory_group = {
 		}
 	},
 	[333] = {
-		title = "The Neon City Investigator",
-		subtype = 2,
-		link_event = 50013,
-		type = 2,
-		id = 333,
 		icon = "title_event",
+		type = 2,
+		link_event = 50013,
+		title = "The Neon City Investigator",
+		auto_unlock = "",
+		subtype = 2,
+		id = 333,
 		group_id = "",
 		memories = {
 			4451,
@@ -5723,12 +5953,13 @@ pg.base.memory_group = {
 		}
 	},
 	[334] = {
-		title = "The Alchemist and the Tower of Horizons",
-		subtype = 2,
-		link_event = 50054,
-		type = 2,
-		id = 334,
 		icon = "title_event",
+		type = 2,
+		link_event = 50054,
+		title = "The Alchemist and the Tower of Horizons",
+		auto_unlock = "",
+		subtype = 2,
+		id = 334,
 		group_id = "",
 		memories = {
 			4481,
@@ -5768,12 +5999,13 @@ pg.base.memory_group = {
 		}
 	},
 	[335] = {
-		title = "The Alchemist and the Tower of Horizons - Daily Life",
-		subtype = 2,
-		link_event = 50054,
-		type = 2,
-		id = 335,
 		icon = "title_event",
+		type = 2,
+		link_event = 50054,
+		title = "The Alchemist and the Tower of Horizons - Daily Life",
+		auto_unlock = "",
+		subtype = 2,
+		id = 335,
 		group_id = "",
 		memories = {
 			4521,
@@ -5783,12 +6015,13 @@ pg.base.memory_group = {
 		}
 	},
 	[336] = {
-		title = "Secrets of the Abyss",
-		subtype = 2,
-		link_event = 50081,
-		type = 2,
-		id = 336,
 		icon = "title_event",
+		type = 2,
+		link_event = 50081,
+		title = "Secrets of the Abyss",
+		auto_unlock = "",
+		subtype = 2,
+		id = 336,
 		group_id = "",
 		memories = {
 			4541,
@@ -5823,12 +6056,13 @@ pg.base.memory_group = {
 		}
 	},
 	[337] = {
-		title = "Port Fashion Collection: Lazy Vacation Days",
-		subtype = 3,
-		link_event = 50084,
-		type = 2,
-		id = 337,
 		icon = "title_event",
+		type = 2,
+		link_event = 50084,
+		title = "Port Fashion Collection: Lazy Vacation Days",
+		auto_unlock = "",
+		subtype = 3,
+		id = 337,
 		group_id = "",
 		memories = {
 			4571,
@@ -5841,12 +6075,13 @@ pg.base.memory_group = {
 		}
 	},
 	[338] = {
-		title = "Summons From the Sakura Empire",
-		subtype = 1,
-		link_event = 50104,
-		type = 2,
-		id = 338,
 		icon = "title_event",
+		type = 2,
+		link_event = 50104,
+		title = "Summons From the Sakura Empire",
+		auto_unlock = "",
+		subtype = 1,
+		id = 338,
 		group_id = "",
 		memories = {
 			4591,
@@ -5859,12 +6094,13 @@ pg.base.memory_group = {
 		}
 	},
 	[339] = {
-		title = "A Dance for Amahara Above",
-		subtype = 1,
-		link_event = 50114,
-		type = 2,
-		id = 339,
 		icon = "title_event",
+		type = 2,
+		link_event = 50114,
+		title = "A Dance for Amahara Above",
+		auto_unlock = "",
+		subtype = 1,
+		id = 339,
 		group_id = "",
 		memories = {
 			4601,
@@ -5909,12 +6145,13 @@ pg.base.memory_group = {
 		}
 	},
 	[340] = {
-		title = "Turmoil in the Ninja Castle",
-		subtype = 2,
-		link_event = 50116,
-		type = 2,
-		id = 340,
 		icon = "title_event",
+		type = 2,
+		link_event = 50116,
+		title = "Turmoil in the Ninja Castle",
+		auto_unlock = "",
+		subtype = 2,
+		id = 340,
 		group_id = "",
 		memories = {
 			4641,
@@ -5940,12 +6177,13 @@ pg.base.memory_group = {
 		}
 	},
 	[341] = {
-		title = "An Encounter Beneath Clear Skies",
-		subtype = 2,
-		link_event = 50156,
-		type = 2,
-		id = 341,
 		icon = "title_event",
+		type = 2,
+		link_event = 50156,
+		title = "An Encounter Beneath Clear Skies",
+		auto_unlock = "",
+		subtype = 2,
+		id = 341,
 		group_id = "",
 		memories = {
 			4671,
@@ -5966,12 +6204,13 @@ pg.base.memory_group = {
 		}
 	},
 	[342] = {
-		title = "An Encounter Beneath Clear Skies - Daily Stories",
-		subtype = 2,
-		link_event = 50156,
-		type = 2,
-		id = 342,
 		icon = "title_event",
+		type = 2,
+		link_event = 50156,
+		title = "An Encounter Beneath Clear Skies - Daily Stories",
+		auto_unlock = "",
+		subtype = 2,
+		id = 342,
 		group_id = "",
 		memories = {
 			4691,
@@ -5979,12 +6218,13 @@ pg.base.memory_group = {
 		}
 	},
 	[343] = {
-		title = "Sails and Spooks II",
-		subtype = 3,
-		link_event = 50202,
-		type = 2,
-		id = 343,
 		icon = "title_event",
+		type = 2,
+		link_event = 50202,
+		title = "Sails and Spooks II",
+		auto_unlock = "",
+		subtype = 3,
+		id = 343,
 		group_id = "",
 		memories = {
 			4711,
@@ -5998,12 +6238,13 @@ pg.base.memory_group = {
 		}
 	},
 	[344] = {
-		title = "Tempesta and Islas de Libertád",
-		subtype = 2,
-		link_event = 50181,
-		type = 2,
-		id = 344,
 		icon = "title_event",
+		type = 2,
+		link_event = 50181,
+		title = "Tempesta and Islas de Libertád",
+		auto_unlock = "",
+		subtype = 2,
+		id = 344,
 		group_id = "",
 		memories = {
 			4721,
@@ -6038,12 +6279,13 @@ pg.base.memory_group = {
 		}
 	},
 	[345] = {
-		title = "Port Fashion Collection: Race Track Fever",
-		subtype = 3,
-		link_event = 50235,
-		type = 2,
-		id = 345,
 		icon = "title_event",
+		type = 2,
+		link_event = 50235,
+		title = "Port Fashion Collection: Race Track Fever",
+		auto_unlock = "",
+		subtype = 3,
+		id = 345,
 		group_id = "",
 		memories = {
 			4761,
@@ -6052,24 +6294,26 @@ pg.base.memory_group = {
 		}
 	},
 	[346] = {
-		title = "The New Sales Campaign Just Dropped!",
-		subtype = 3,
-		link_event = 50268,
-		type = 2,
-		id = 346,
 		icon = "title_event",
+		type = 2,
+		link_event = 50268,
+		title = "The New Sales Campaign Just Dropped!",
+		auto_unlock = "",
+		subtype = 3,
+		id = 346,
 		group_id = "",
 		memories = {
 			4771
 		}
 	},
 	[347] = {
-		title = "DATE A LANE",
-		subtype = 2,
-		link_event = 50256,
-		type = 2,
-		id = 347,
 		icon = "title_event",
+		type = 2,
+		link_event = 50256,
+		title = "DATE A LANE",
+		auto_unlock = "",
+		subtype = 2,
+		id = 347,
 		group_id = "",
 		memories = {
 			4781,
@@ -6107,12 +6351,13 @@ pg.base.memory_group = {
 		}
 	},
 	[348] = {
-		title = "DATE A LANE - Side Stories",
-		subtype = 2,
-		link_event = 50256,
-		type = 2,
-		id = 348,
 		icon = "title_event",
+		type = 2,
+		link_event = 50256,
+		title = "DATE A LANE - Side Stories",
+		auto_unlock = "",
+		subtype = 2,
+		id = 348,
 		group_id = "",
 		memories = {
 			4821,
@@ -6124,12 +6369,13 @@ pg.base.memory_group = {
 		}
 	},
 	[349] = {
-		title = "Memories in Echo",
-		subtype = 1,
-		link_event = 50262,
-		type = 2,
-		id = 349,
 		icon = "title_event",
+		type = 2,
+		link_event = 50262,
+		title = "Memories in Echo",
+		auto_unlock = "",
+		subtype = 1,
+		id = 349,
 		group_id = "",
 		memories = {
 			4841,
@@ -6154,12 +6400,13 @@ pg.base.memory_group = {
 		}
 	},
 	[350] = {
-		title = "To a Brighter World",
-		subtype = 1,
-		link_event = 50266,
-		type = 2,
-		id = 350,
 		icon = "title_event",
+		type = 2,
+		link_event = 50266,
+		title = "To a Brighter World",
+		auto_unlock = "",
+		subtype = 1,
+		id = 350,
 		group_id = "",
 		memories = {
 			4871,
@@ -6174,12 +6421,13 @@ pg.base.memory_group = {
 		}
 	},
 	[351] = {
-		title = "A Note Through the Firmament",
-		subtype = 1,
-		link_event = 50281,
-		type = 2,
-		id = 351,
 		icon = "title_event",
+		type = 2,
+		link_event = 50281,
+		title = "A Note Through the Firmament",
+		auto_unlock = "",
+		subtype = 1,
+		id = 351,
 		group_id = "",
 		memories = {
 			4881,
@@ -6229,12 +6477,13 @@ pg.base.memory_group = {
 		}
 	},
 	[352] = {
-		title = "Port Fashion Collection: Heart-Throbbing Moment I",
-		subtype = 3,
-		link_event = 50290,
-		type = 2,
-		id = 352,
 		icon = "title_event",
+		type = 2,
+		link_event = 50290,
+		title = "Port Fashion Collection: Heart-Throbbing Moment I",
+		auto_unlock = "",
+		subtype = 3,
+		id = 352,
 		group_id = "",
 		memories = {
 			4931,
@@ -6245,12 +6494,13 @@ pg.base.memory_group = {
 		}
 	},
 	[353] = {
-		title = "Port Fashion Collection: Heart-Throbbing Moment II",
-		subtype = 3,
-		link_event = 50297,
-		type = 2,
-		id = 353,
 		icon = "title_event",
+		type = 2,
+		link_event = 50297,
+		title = "Port Fashion Collection: Heart-Throbbing Moment II",
+		auto_unlock = "",
+		subtype = 3,
+		id = 353,
 		group_id = "",
 		memories = {
 			4941,
@@ -6262,12 +6512,13 @@ pg.base.memory_group = {
 		}
 	},
 	[354] = {
-		title = "Light & Shadow Fashion Shoot!",
-		subtype = 3,
-		link_event = 50360,
-		type = 2,
-		id = 354,
 		icon = "title_event",
+		type = 2,
+		link_event = 50360,
+		title = "Light & Shadow Fashion Shoot!",
+		auto_unlock = "",
+		subtype = 3,
+		id = 354,
 		group_id = "",
 		memories = {
 			4961,
@@ -6283,12 +6534,13 @@ pg.base.memory_group = {
 		}
 	},
 	[355] = {
-		title = "Spring Auction Adventure",
-		subtype = 3,
-		link_event = 50404,
-		type = 2,
-		id = 355,
 		icon = "title_event",
+		type = 2,
+		link_event = 50404,
+		title = "Spring Auction Adventure",
+		auto_unlock = "",
+		subtype = 3,
+		id = 355,
 		group_id = "",
 		memories = {
 			4981,
@@ -6301,12 +6553,13 @@ pg.base.memory_group = {
 		}
 	},
 	[356] = {
-		title = "Valentine's Day - The Chocolatastrophy!",
-		subtype = 3,
-		link_event = 50401,
-		type = 2,
-		id = 356,
 		icon = "title_event",
+		type = 2,
+		link_event = 50401,
+		title = "Valentine's Day - The Chocolatastrophy!",
+		auto_unlock = "",
+		subtype = 3,
+		id = 356,
 		group_id = "",
 		memories = {
 			4991,
@@ -6315,12 +6568,13 @@ pg.base.memory_group = {
 		}
 	},
 	[357] = {
-		title = "Port Fashion Collection: Silken-Red Embrace",
-		subtype = 3,
-		link_event = 50412,
-		type = 2,
-		id = 357,
 		icon = "title_event",
+		type = 2,
+		link_event = 50412,
+		title = "Port Fashion Collection: Silken-Red Embrace",
+		auto_unlock = "",
+		subtype = 3,
+		id = 357,
 		group_id = "",
 		memories = {
 			5001,
@@ -6330,12 +6584,13 @@ pg.base.memory_group = {
 		}
 	},
 	[358] = {
-		title = "Springtide Inn Online",
-		subtype = 2,
-		link_event = 50402,
-		type = 2,
-		id = 358,
 		icon = "title_event",
+		type = 2,
+		link_event = 50402,
+		title = "Springtide Inn Online",
+		auto_unlock = "",
+		subtype = 2,
+		id = 358,
 		group_id = "",
 		memories = {
 			5011,
@@ -6360,13 +6615,51 @@ pg.base.memory_group = {
 			5030
 		}
 	},
+	[359] = {
+		icon = "title_event",
+		type = 2,
+		link_event = 50481,
+		title = "The Vagabond's Recruitment Plan",
+		subtype = 2,
+		id = 359,
+		group_id = "",
+		memories = {
+			5041,
+			5042,
+			5043,
+			5044,
+			5045,
+			5046,
+			5047,
+			5048,
+			5049,
+			5050,
+			5051,
+			5052,
+			5053,
+			5054,
+			5055,
+			5056,
+			5057
+		},
+		auto_unlock = {
+			5051,
+			5052,
+			5053,
+			5054,
+			5055,
+			5056,
+			5057
+		}
+	},
 	[501] = {
-		title = "{namecode:98}'s Commission",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 501,
 		icon = "title_chara_mingshi",
+		type = 3,
+		link_event = 0,
+		title = "{namecode:98}'s Commission",
+		auto_unlock = "",
+		subtype = 0,
+		id = 501,
 		group_id = "",
 		memories = {
 			62,
@@ -6392,12 +6685,13 @@ pg.base.memory_group = {
 		}
 	},
 	[502] = {
-		title = "Long Island's Inner Peace",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 502,
 		icon = "title_chara_changdao",
+		type = 3,
+		link_event = 0,
+		title = "Long Island's Inner Peace",
+		auto_unlock = "",
+		subtype = 0,
+		id = 502,
 		memories = {
 			10011,
 			10012,
@@ -6412,12 +6706,13 @@ pg.base.memory_group = {
 		}
 	},
 	[503] = {
-		title = "The Lucky Crane ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 503,
 		icon = "title_chara_ruihe",
+		type = 3,
+		link_event = 0,
+		title = "The Lucky Crane ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 503,
 		memories = {
 			246,
 			247,
@@ -6432,12 +6727,13 @@ pg.base.memory_group = {
 		}
 	},
 	[504] = {
-		title = "Call Me Yukikaze the Great! ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 504,
 		icon = "title_chara_xuefeng",
+		type = 3,
+		link_event = 0,
+		title = "Call Me Yukikaze the Great! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 504,
 		memories = {
 			260,
 			261,
@@ -6452,12 +6748,13 @@ pg.base.memory_group = {
 		}
 	},
 	[505] = {
-		title = "My Fond Memories",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 505,
 		icon = "title_chara_ajiakesi",
+		type = 3,
+		link_event = 0,
+		title = "My Fond Memories",
+		auto_unlock = "",
+		subtype = 0,
+		id = 505,
 		memories = {
 			267,
 			268,
@@ -6472,12 +6769,13 @@ pg.base.memory_group = {
 		}
 	},
 	[506] = {
-		title = "Hammann Observation Diary",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 506,
 		icon = "title_chara_haman",
+		type = 3,
+		link_event = 0,
+		title = "Hammann Observation Diary",
+		auto_unlock = "",
+		subtype = 0,
+		id = 506,
 		memories = {
 			274,
 			275,
@@ -6492,12 +6790,13 @@ pg.base.memory_group = {
 		}
 	},
 	[507] = {
-		title = "Red Spider Lily's Love",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 507,
 		icon = "title_chara_chicheng",
+		type = 3,
+		link_event = 0,
+		title = "Red Spider Lily's Love",
+		auto_unlock = "",
+		subtype = 0,
+		id = 507,
 		memories = {
 			281,
 			282,
@@ -6512,12 +6811,13 @@ pg.base.memory_group = {
 		}
 	},
 	[508] = {
-		title = "Knights & Awards",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 508,
 		icon = "title_chara_kelifulan",
+		type = 3,
+		link_event = 0,
+		title = "Knights & Awards",
+		auto_unlock = "",
+		subtype = 0,
+		id = 508,
 		memories = {
 			288,
 			289,
@@ -6532,12 +6832,13 @@ pg.base.memory_group = {
 		}
 	},
 	[509] = {
-		title = "After the Rain Comes the Sun",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 509,
 		icon = "title_chara_shancheng2",
+		type = 3,
+		link_event = 0,
+		title = "After the Rain Comes the Sun",
+		auto_unlock = "",
+		subtype = 0,
+		id = 509,
 		memories = {
 			301,
 			302,
@@ -6552,12 +6853,13 @@ pg.base.memory_group = {
 		}
 	},
 	[510] = {
-		title = "Glorious Interlude",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 510,
 		icon = "title_chara_guangrong",
+		type = 3,
+		link_event = 0,
+		title = "Glorious Interlude",
+		auto_unlock = "",
+		subtype = 0,
+		id = 510,
 		memories = {
 			308,
 			309,
@@ -6572,12 +6874,13 @@ pg.base.memory_group = {
 		}
 	},
 	[511] = {
-		title = "Best Pictures! ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 511,
 		icon = "title_chara_salatuojia",
+		type = 3,
+		link_event = 0,
+		title = "Best Pictures! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 511,
 		memories = {
 			322,
 			323,
@@ -6592,12 +6895,13 @@ pg.base.memory_group = {
 		}
 	},
 	[512] = {
-		title = "A Date With Atago ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 512,
 		icon = "title_chara_aidang",
+		type = 3,
+		link_event = 0,
+		title = "A Date With Atago ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 512,
 		memories = {
 			329,
 			330,
@@ -6612,12 +6916,13 @@ pg.base.memory_group = {
 		}
 	},
 	[513] = {
-		title = "Pure-White Poem ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 513,
 		icon = "title_chara_z46",
+		type = 3,
+		link_event = 0,
+		title = "Pure-White Poem ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 513,
 		memories = {
 			336,
 			337,
@@ -6632,12 +6937,13 @@ pg.base.memory_group = {
 		}
 	},
 	[515] = {
-		title = "The Melancholy of a Princess Chevalier",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 515,
 		icon = "title_chara_kaixuan",
+		type = 3,
+		link_event = 0,
+		title = "The Melancholy of a Princess Chevalier",
+		auto_unlock = "",
+		subtype = 0,
+		id = 515,
 		memories = {
 			350,
 			351,
@@ -6652,12 +6958,13 @@ pg.base.memory_group = {
 		}
 	},
 	[516] = {
-		title = "Émile, the Dancing Angel",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 516,
 		icon = "title_chara_aimier",
+		type = 3,
+		link_event = 0,
+		title = "Émile, the Dancing Angel",
+		auto_unlock = "",
+		subtype = 0,
+		id = 516,
 		memories = {
 			357,
 			358,
@@ -6672,12 +6979,13 @@ pg.base.memory_group = {
 		}
 	},
 	[517] = {
-		title = "Journée Surcouf!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 517,
 		icon = "title_chara_xukufu",
+		type = 3,
+		link_event = 0,
+		title = "Journée Surcouf!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 517,
 		memories = {
 			364,
 			365,
@@ -6692,12 +7000,13 @@ pg.base.memory_group = {
 		}
 	},
 	[518] = {
-		title = "Schmelzen ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 518,
 		icon = "title_chara_tierbici",
+		type = 3,
+		link_event = 0,
+		title = "Schmelzen ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 518,
 		memories = {
 			387,
 			388,
@@ -6712,12 +7021,13 @@ pg.base.memory_group = {
 		}
 	},
 	[519] = {
-		title = "Centaur and the Port \"Elders\" ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 519,
 		icon = "title_chara_banrenma",
+		type = 3,
+		link_event = 0,
+		title = "Centaur and the Port \"Elders\" ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 519,
 		memories = {
 			394,
 			395,
@@ -6732,12 +7042,13 @@ pg.base.memory_group = {
 		}
 	},
 	[520] = {
-		title = "Hiei's Banquet ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 520,
 		icon = "title_chara_birui",
+		type = 3,
+		link_event = 0,
+		title = "Hiei's Banquet ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 520,
 		memories = {
 			411,
 			412,
@@ -6752,12 +7063,13 @@ pg.base.memory_group = {
 		}
 	},
 	[521] = {
-		title = "The Cloudy Mask ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 521,
 		icon = "title_chara_deyizhi",
+		type = 3,
+		link_event = 0,
+		title = "The Cloudy Mask ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 521,
 		memories = {
 			418,
 			419,
@@ -6772,12 +7084,13 @@ pg.base.memory_group = {
 		}
 	},
 	[522] = {
-		title = "Submarine Subterfuge!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 522,
 		icon = "title_chara_daqinghuayu",
+		type = 3,
+		link_event = 0,
+		title = "Submarine Subterfuge!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 522,
 		memories = {
 			425,
 			426,
@@ -6792,12 +7105,13 @@ pg.base.memory_group = {
 		}
 	},
 	[523] = {
-		title = "Taihou, Body and Soul",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 523,
 		icon = "title_chara_dafeng",
+		type = 3,
+		link_event = 0,
+		title = "Taihou, Body and Soul",
+		auto_unlock = "",
+		subtype = 0,
+		id = 523,
 		memories = {
 			443,
 			444,
@@ -6812,12 +7126,13 @@ pg.base.memory_group = {
 		}
 	},
 	[524] = {
-		title = "Enterprise Troubles",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 524,
 		icon = "title_chara_aisaikesi",
+		type = 3,
+		link_event = 0,
+		title = "Enterprise Troubles",
+		auto_unlock = "",
+		subtype = 0,
+		id = 524,
 		memories = {
 			450,
 			451,
@@ -6832,12 +7147,13 @@ pg.base.memory_group = {
 		}
 	},
 	[525] = {
-		title = "Enter: Akatsuki, The Ninja! ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 525,
 		icon = "title_chara_xiao",
+		type = 3,
+		link_event = 0,
+		title = "Enter: Akatsuki, The Ninja! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 525,
 		memories = {
 			471,
 			472,
@@ -6852,12 +7168,13 @@ pg.base.memory_group = {
 		}
 	},
 	[526] = {
-		title = "A Paean for Peace ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 526,
 		icon = "title_chara_niukasier",
+		type = 3,
+		link_event = 0,
+		title = "A Paean for Peace ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 526,
 		memories = {
 			478,
 			479,
@@ -6872,12 +7189,13 @@ pg.base.memory_group = {
 		}
 	},
 	[527] = {
-		title = "An Easily Flustered Girl's Story ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 527,
 		icon = "title_chara_huonululu",
+		type = 3,
+		link_event = 0,
+		title = "An Easily Flustered Girl's Story ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 527,
 		memories = {
 			485,
 			486,
@@ -6892,12 +7210,13 @@ pg.base.memory_group = {
 		}
 	},
 	[528] = {
-		title = "Mysterious Rabbit Alien?! ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 528,
 		icon = "title_chara_beili",
+		type = 3,
+		link_event = 0,
+		title = "Mysterious Rabbit Alien?! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 528,
 		memories = {
 			501,
 			502,
@@ -6912,12 +7231,13 @@ pg.base.memory_group = {
 		}
 	},
 	[529] = {
-		title = "Shiranui, the Do-It-All Shopkeeper ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 529,
 		icon = "title_chara_buzhihuo",
+		type = 3,
+		link_event = 0,
+		title = "Shiranui, the Do-It-All Shopkeeper ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 529,
 		memories = {
 			508,
 			509,
@@ -6932,12 +7252,13 @@ pg.base.memory_group = {
 		}
 	},
 	[530] = {
-		title = "Sugary Concord ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 530,
 		icon = "title_chara_kangkede",
+		type = 3,
+		link_event = 0,
+		title = "Sugary Concord ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 530,
 		memories = {
 			515,
 			516,
@@ -6952,12 +7273,13 @@ pg.base.memory_group = {
 		}
 	},
 	[531] = {
-		title = "Light Carrier Ryuujou, Moving Out!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 531,
 		icon = "title_chara_longxiang",
+		type = 3,
+		link_event = 0,
+		title = "Light Carrier Ryuujou, Moving Out!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 531,
 		memories = {
 			567,
 			568,
@@ -6972,12 +7294,13 @@ pg.base.memory_group = {
 		}
 	},
 	[532] = {
-		title = "Gentle and Sweet Ooshio!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 532,
 		icon = "title_chara_dachao",
+		type = 3,
+		link_event = 0,
+		title = "Gentle and Sweet Ooshio!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 532,
 		memories = {
 			585,
 			586,
@@ -6992,12 +7315,13 @@ pg.base.memory_group = {
 		}
 	},
 	[533] = {
-		title = "Ashigara, Advance! ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 533,
 		icon = "title_chara_zubing",
+		type = 3,
+		link_event = 0,
+		title = "Ashigara, Advance! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 533,
 		memories = {
 			599,
 			600,
@@ -7012,12 +7336,13 @@ pg.base.memory_group = {
 		}
 	},
 	[534] = {
-		title = "Together with Souryuu ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 534,
 		icon = "title_chara_canglong",
+		type = 3,
+		link_event = 0,
+		title = "Together with Souryuu ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 534,
 		memories = {
 			606,
 			607,
@@ -7032,12 +7357,13 @@ pg.base.memory_group = {
 		}
 	},
 	[535] = {
-		title = "The Timid Black Cat ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 535,
 		icon = "title_chara_chuchun",
+		type = 3,
+		link_event = 0,
+		title = "The Timid Black Cat ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 535,
 		memories = {
 			642,
 			643,
@@ -7052,12 +7378,13 @@ pg.base.memory_group = {
 		}
 	},
 	[536] = {
-		title = "My Sister's Growth Spurt?! ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 536,
 		icon = "title_chara_wensensi",
+		type = 3,
+		link_event = 0,
+		title = "My Sister's Growth Spurt?! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 536,
 		memories = {
 			649,
 			650,
@@ -7072,12 +7399,13 @@ pg.base.memory_group = {
 		}
 	},
 	[537] = {
-		title = "Loaded with Lead and Love ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 537,
 		icon = "title_chara_xiefeierde",
+		type = 3,
+		link_event = 0,
+		title = "Loaded with Lead and Love ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 537,
 		memories = {
 			656,
 			657,
@@ -7092,12 +7420,13 @@ pg.base.memory_group = {
 		}
 	},
 	[538] = {
-		title = "Sirius' Improvement Plan ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 538,
 		icon = "title_chara_tianlangxing",
+		type = 3,
+		link_event = 0,
+		title = "Sirius' Improvement Plan ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 538,
 		memories = {
 			663,
 			664,
@@ -7112,12 +7441,13 @@ pg.base.memory_group = {
 		}
 	},
 	[539] = {
-		title = "The Royal Knight ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 539,
 		icon = "title_chara_yanzhan",
+		type = 3,
+		link_event = 0,
+		title = "The Royal Knight ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 539,
 		memories = {
 			670,
 			671,
@@ -7132,12 +7462,13 @@ pg.base.memory_group = {
 		}
 	},
 	[540] = {
-		title = "Saffron Travelogue ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 540,
 		icon = "title_chara_xianggelila",
+		type = 3,
+		link_event = 0,
+		title = "Saffron Travelogue ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 540,
 		memories = {
 			689,
 			690,
@@ -7152,12 +7483,13 @@ pg.base.memory_group = {
 		}
 	},
 	[542] = {
-		title = "One Little Incident ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 542,
 		icon = "title_chara_sipei",
+		type = 3,
+		link_event = 0,
+		title = "One Little Incident ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 542,
 		memories = {
 			768,
 			769,
@@ -7172,12 +7504,13 @@ pg.base.memory_group = {
 		}
 	},
 	[543] = {
-		title = "Another Leader?",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 543,
 		icon = "title_chara_qiaozhiwushi",
+		type = 3,
+		link_event = 0,
+		title = "Another Leader?",
+		auto_unlock = "",
+		subtype = 0,
+		id = 543,
 		memories = {
 			778,
 			779,
@@ -7192,12 +7525,13 @@ pg.base.memory_group = {
 		}
 	},
 	[544] = {
-		title = "A Knight's Promise",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 544,
 		icon = "title_chara_u556story",
+		type = 3,
+		link_event = 0,
+		title = "A Knight's Promise",
+		auto_unlock = "",
+		subtype = 0,
+		id = 544,
 		memories = {
 			785,
 			786,
@@ -7212,12 +7546,13 @@ pg.base.memory_group = {
 		}
 	},
 	[545] = {
-		title = "I'm Not A Baby! ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 545,
 		icon = "title_chara_jiqi",
+		type = 3,
+		link_event = 0,
+		title = "I'm Not A Baby! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 545,
 		memories = {
 			844,
 			845,
@@ -7232,12 +7567,13 @@ pg.base.memory_group = {
 		}
 	},
 	[546] = {
-		title = "Storia di Rosa ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 546,
 		icon = "title_chara_zhala",
+		type = 3,
+		link_event = 0,
+		title = "Storia di Rosa ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 546,
 		memories = {
 			900,
 			901,
@@ -7252,12 +7588,13 @@ pg.base.memory_group = {
 		}
 	},
 	[547] = {
-		title = "Avrora and Her Jovial Friends ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 547,
 		icon = "title_chara_afuleer",
+		type = 3,
+		link_event = 0,
+		title = "Avrora and Her Jovial Friends ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 547,
 		memories = {
 			1142,
 			1143,
@@ -7272,12 +7609,13 @@ pg.base.memory_group = {
 		}
 	},
 	[548] = {
-		title = "A Beaming Smile! ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 548,
 		icon = "title_chara_juanbo",
+		type = 3,
+		link_event = 0,
+		title = "A Beaming Smile! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 548,
 		memories = {
 			1204,
 			1205,
@@ -7292,12 +7630,13 @@ pg.base.memory_group = {
 		}
 	},
 	[549] = {
-		title = "Anything and Everything for Indy! ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 549,
 		icon = "title_chara_botelan",
+		type = 3,
+		link_event = 0,
+		title = "Anything and Everything for Indy! ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 549,
 		memories = {
 			1321,
 			1322,
@@ -7312,12 +7651,13 @@ pg.base.memory_group = {
 		}
 	},
 	[550] = {
-		title = "A Lady's Modest Proposal ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 550,
 		icon = "title_chara_guanghui",
+		type = 3,
+		link_event = 0,
+		title = "A Lady's Modest Proposal ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 550,
 		memories = {
 			1331,
 			1332,
@@ -7332,12 +7672,13 @@ pg.base.memory_group = {
 		}
 	},
 	[551] = {
-		title = "The Heart Beneath the Smile ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 551,
 		icon = "title_chara_fanji",
+		type = 3,
+		link_event = 0,
+		title = "The Heart Beneath the Smile ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 551,
 		memories = {
 			1401,
 			1402,
@@ -7352,12 +7693,13 @@ pg.base.memory_group = {
 		}
 	},
 	[552] = {
-		title = "Paradigm of Happiness ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 552,
 		icon = "title_chara_xipeier",
+		type = 3,
+		link_event = 0,
+		title = "Paradigm of Happiness ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 552,
 		memories = {
 			1461,
 			1462,
@@ -7372,12 +7714,13 @@ pg.base.memory_group = {
 		}
 	},
 	[553] = {
-		title = "Unbridled Positivity ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 553,
 		icon = "title_chara_kente",
+		type = 3,
+		link_event = 0,
+		title = "Unbridled Positivity ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 553,
 		memories = {
 			1471,
 			1472,
@@ -7392,12 +7735,13 @@ pg.base.memory_group = {
 		}
 	},
 	[554] = {
-		title = "Moments with the Young Miss ",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 554,
 		icon = "title_chara_zhuiganzhe",
+		type = 3,
+		link_event = 0,
+		title = "Moments with the Young Miss ",
+		auto_unlock = "",
+		subtype = 0,
+		id = 554,
 		memories = {
 			1521,
 			1522,
@@ -7412,12 +7756,13 @@ pg.base.memory_group = {
 		}
 	},
 	[555] = {
-		title = "Tis the Season of Love!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 555,
 		icon = "title_chara_gelasige",
+		type = 3,
+		link_event = 0,
+		title = "Tis the Season of Love!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 555,
 		memories = {
 			1561,
 			1562,
@@ -7432,12 +7777,13 @@ pg.base.memory_group = {
 		}
 	},
 	[556] = {
-		title = "White Gallantry",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 556,
 		icon = "title_chara_beilaluosi",
+		type = 3,
+		link_event = 0,
+		title = "White Gallantry",
+		auto_unlock = "",
+		subtype = 0,
+		id = 556,
 		memories = {
 			1571,
 			1572,
@@ -7452,12 +7798,13 @@ pg.base.memory_group = {
 		}
 	},
 	[557] = {
-		title = "Denver's Quest!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 557,
 		icon = "title_chara_danfo",
+		type = 3,
+		link_event = 0,
+		title = "Denver's Quest!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 557,
 		memories = {
 			1581,
 			1582,
@@ -7472,12 +7819,13 @@ pg.base.memory_group = {
 		}
 	},
 	[558] = {
-		title = "Three-Star Luxury Romance",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 558,
 		icon = "title_chara_ailunsamuna",
+		type = 3,
+		link_event = 0,
+		title = "Three-Star Luxury Romance",
+		auto_unlock = "",
+		subtype = 0,
+		id = 558,
 		memories = {
 			1591,
 			1592,
@@ -7492,12 +7840,13 @@ pg.base.memory_group = {
 		}
 	},
 	[559] = {
-		title = "Heart in the Right Place",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 559,
 		icon = "title_chara_shiyu",
+		type = 3,
+		link_event = 0,
+		title = "Heart in the Right Place",
+		auto_unlock = "",
+		subtype = 0,
+		id = 559,
 		memories = {
 			1641,
 			1642,
@@ -7512,12 +7861,13 @@ pg.base.memory_group = {
 		}
 	},
 	[560] = {
-		title = "The Growth of a Courtly Lady",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 560,
 		icon = "title_chara_tianying",
+		type = 3,
+		link_event = 0,
+		title = "The Growth of a Courtly Lady",
+		auto_unlock = "",
+		subtype = 0,
+		id = 560,
 		memories = {
 			1651,
 			1652,
@@ -7532,12 +7882,13 @@ pg.base.memory_group = {
 		}
 	},
 	[561] = {
-		title = "Days of Tranquility",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 561,
 		icon = "title_chara_u47",
+		type = 3,
+		link_event = 0,
+		title = "Days of Tranquility",
+		auto_unlock = "",
+		subtype = 0,
+		id = 561,
 		memories = {
 			1671,
 			1672,
@@ -7552,12 +7903,13 @@ pg.base.memory_group = {
 		}
 	},
 	[562] = {
-		title = "The Virtue of Being Earnest",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 562,
 		icon = "title_chara_naerxun",
+		type = 3,
+		link_event = 0,
+		title = "The Virtue of Being Earnest",
+		auto_unlock = "",
+		subtype = 0,
+		id = 562,
 		memories = {
 			1716,
 			1717,
@@ -7572,12 +7924,13 @@ pg.base.memory_group = {
 		}
 	},
 	[563] = {
-		title = "Me and the Boise",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 563,
 		icon = "title_chara_boyixi",
+		type = 3,
+		link_event = 0,
+		title = "Me and the Boise",
+		auto_unlock = "",
+		subtype = 0,
+		id = 563,
 		memories = {
 			1725,
 			1726,
@@ -7592,12 +7945,13 @@ pg.base.memory_group = {
 		}
 	},
 	[564] = {
-		title = "After the Flowers Bloomed",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 564,
 		icon = "title_chara_fusang",
+		type = 3,
+		link_event = 0,
+		title = "After the Flowers Bloomed",
+		auto_unlock = "",
+		subtype = 0,
+		id = 564,
 		memories = {
 			1736,
 			1737,
@@ -7612,12 +7966,13 @@ pg.base.memory_group = {
 		}
 	},
 	[565] = {
-		title = "As Cool As A Demon",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 565,
 		icon = "title_chara_guinu",
+		type = 3,
+		link_event = 0,
+		title = "As Cool As A Demon",
+		auto_unlock = "",
+		subtype = 0,
+		id = 565,
 		memories = {
 			1771,
 			1772,
@@ -7632,12 +7987,13 @@ pg.base.memory_group = {
 		}
 	},
 	[566] = {
-		title = "Duelling Sunshine!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 566,
 		icon = "title_chara_dahuangfeng",
+		type = 3,
+		link_event = 0,
+		title = "Duelling Sunshine!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 566,
 		memories = {
 			1781,
 			1782,
@@ -7652,12 +8008,13 @@ pg.base.memory_group = {
 		}
 	},
 	[567] = {
-		title = "A Whirlwind Romance",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 567,
 		icon = "title_chara_kasabulanka",
+		type = 3,
+		link_event = 0,
+		title = "A Whirlwind Romance",
+		auto_unlock = "",
+		subtype = 0,
+		id = 567,
 		memories = {
 			1791,
 			1792,
@@ -7672,12 +8029,13 @@ pg.base.memory_group = {
 		}
 	},
 	[568] = {
-		title = "Light Up My Day",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 568,
 		icon = "title_chara_mabuerheide",
+		type = 3,
+		link_event = 0,
+		title = "Light Up My Day",
+		auto_unlock = "",
+		subtype = 0,
+		id = 568,
 		memories = {
 			1841,
 			1842,
@@ -7692,12 +8050,13 @@ pg.base.memory_group = {
 		}
 	},
 	[569] = {
-		title = "Full Steam Ahead!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 569,
 		icon = "title_chara_daofeng",
+		type = 3,
+		link_event = 0,
+		title = "Full Steam Ahead!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 569,
 		memories = {
 			1851,
 			1852,
@@ -7712,12 +8071,13 @@ pg.base.memory_group = {
 		}
 	},
 	[570] = {
-		title = "Hidden Charm",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 570,
 		icon = "title_chara_junhe",
+		type = 3,
+		link_event = 0,
+		title = "Hidden Charm",
+		auto_unlock = "",
+		subtype = 0,
+		id = 570,
 		memories = {
 			1861,
 			1862,
@@ -7732,12 +8092,13 @@ pg.base.memory_group = {
 		}
 	},
 	[571] = {
-		title = "Quintessential",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 571,
 		icon = "title_chara_wuerlixi",
+		type = 3,
+		link_event = 0,
+		title = "Quintessential",
+		auto_unlock = "",
+		subtype = 0,
+		id = 571,
 		memories = {
 			1995,
 			1996,
@@ -7752,12 +8113,13 @@ pg.base.memory_group = {
 		}
 	},
 	[572] = {
-		title = "Summer Surprise",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 572,
 		icon = "title_chara_aisijimoren",
+		type = 3,
+		link_event = 0,
+		title = "Summer Surprise",
+		auto_unlock = "",
+		subtype = 0,
+		id = 572,
 		memories = {
 			2041,
 			2042,
@@ -7772,12 +8134,13 @@ pg.base.memory_group = {
 		}
 	},
 	[573] = {
-		title = "Uniquely \"Me\"",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 573,
 		icon = "title_chara_aidingbao",
+		type = 3,
+		link_event = 0,
+		title = "Uniquely \"Me\"",
+		auto_unlock = "",
+		subtype = 0,
+		id = 573,
 		memories = {
 			2063,
 			2064,
@@ -7792,12 +8155,13 @@ pg.base.memory_group = {
 		}
 	},
 	[574] = {
-		title = "Cinnamon Roll on a Rainy Day",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 574,
 		icon = "title_chara_hailunna",
+		type = 3,
+		link_event = 0,
+		title = "Cinnamon Roll on a Rainy Day",
+		auto_unlock = "",
+		subtype = 0,
+		id = 574,
 		memories = {
 			2121,
 			2122,
@@ -7812,12 +8176,13 @@ pg.base.memory_group = {
 		}
 	},
 	[575] = {
-		title = "A Gust of Motivation!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 575,
 		icon = "title_chara_xinanfeng",
+		type = 3,
+		link_event = 0,
+		title = "A Gust of Motivation!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 575,
 		memories = {
 			2171,
 			2172,
@@ -7832,12 +8197,13 @@ pg.base.memory_group = {
 		}
 	},
 	[576] = {
-		title = "Nursing Honesty",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 576,
 		icon = "title_chara_jiaweisi",
+		type = 3,
+		link_event = 0,
+		title = "Nursing Honesty",
+		auto_unlock = "",
+		subtype = 0,
+		id = 576,
 		memories = {
 			2201,
 			2202,
@@ -7852,12 +8218,13 @@ pg.base.memory_group = {
 		}
 	},
 	[577] = {
-		title = "Work Hard, Play Harder!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 577,
 		icon = "title_chara_shuixingjinian",
+		type = 3,
+		link_event = 0,
+		title = "Work Hard, Play Harder!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 577,
 		memories = {
 			2261,
 			2262,
@@ -7872,12 +8239,13 @@ pg.base.memory_group = {
 		}
 	},
 	[578] = {
-		title = "Song of Nevada",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 578,
 		icon = "title_chara_neihuada",
+		type = 3,
+		link_event = 0,
+		title = "Song of Nevada",
+		auto_unlock = "",
+		subtype = 0,
+		id = 578,
 		memories = {
 			2341,
 			2342,
@@ -7892,12 +8260,13 @@ pg.base.memory_group = {
 		}
 	},
 	[579] = {
-		title = "The Language of the Flowers",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 579,
 		icon = "title_chara_huayue",
+		type = 3,
+		link_event = 0,
+		title = "The Language of the Flowers",
+		auto_unlock = "",
+		subtype = 0,
+		id = 579,
 		memories = {
 			2371,
 			2372,
@@ -7912,12 +8281,13 @@ pg.base.memory_group = {
 		}
 	},
 	[580] = {
-		title = "All-Love Assault!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 580,
 		icon = "title_chara_bulvxieer",
+		type = 3,
+		link_event = 0,
+		title = "All-Love Assault!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 580,
 		memories = {
 			2391,
 			2392,
@@ -7932,12 +8302,13 @@ pg.base.memory_group = {
 		}
 	},
 	[581] = {
-		title = "The Sensationalist Sensation",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 581,
 		icon = "title_chara_aerfuleiduo",
+		type = 3,
+		link_event = 0,
+		title = "The Sensationalist Sensation",
+		auto_unlock = "",
+		subtype = 0,
+		id = 581,
 		memories = {
 			2451,
 			2452,
@@ -7952,12 +8323,13 @@ pg.base.memory_group = {
 		}
 	},
 	[582] = {
-		title = "Searching for the Light",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 582,
 		icon = "title_chara_yinggelahan",
+		type = 3,
+		link_event = 0,
+		title = "Searching for the Light",
+		auto_unlock = "",
+		subtype = 0,
+		id = 582,
 		memories = {
 			2511,
 			2512,
@@ -7972,12 +8344,13 @@ pg.base.memory_group = {
 		}
 	},
 	[583] = {
-		title = "A Party for the Ages",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 583,
 		icon = "title_chara_xiyatu",
+		type = 3,
+		link_event = 0,
+		title = "A Party for the Ages",
+		auto_unlock = "",
+		subtype = 0,
+		id = 583,
 		memories = {
 			2561,
 			2562,
@@ -7992,12 +8365,13 @@ pg.base.memory_group = {
 		}
 	},
 	[584] = {
-		title = "Where the Sun Doesn't Shine",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 584,
 		icon = "title_chara_tuolichaili",
+		type = 3,
+		link_event = 0,
+		title = "Where the Sun Doesn't Shine",
+		auto_unlock = "",
+		subtype = 0,
+		id = 584,
 		memories = {
 			2601,
 			2602,
@@ -8012,12 +8386,13 @@ pg.base.memory_group = {
 		}
 	},
 	[585] = {
-		title = "An Ode to the Sea",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 585,
 		icon = "title_chara_liekexingdun",
+		type = 3,
+		link_event = 0,
+		title = "An Ode to the Sea",
+		auto_unlock = "",
+		subtype = 0,
+		id = 585,
 		memories = {
 			2651,
 			2652,
@@ -8032,12 +8407,13 @@ pg.base.memory_group = {
 		}
 	},
 	[586] = {
-		title = "Slacking Off with the \"Good\" Girl",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 586,
 		icon = "title_chara_yade",
+		type = 3,
+		link_event = 0,
+		title = "Slacking Off with the \"Good\" Girl",
+		auto_unlock = "",
+		subtype = 0,
+		id = 586,
 		memories = {
 			2761,
 			2762,
@@ -8052,12 +8428,13 @@ pg.base.memory_group = {
 		}
 	},
 	[587] = {
-		title = "The Iron Rose Blooms",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 587,
 		icon = "title_chara_saidelici",
+		type = 3,
+		link_event = 0,
+		title = "The Iron Rose Blooms",
+		auto_unlock = "",
+		subtype = 0,
+		id = 587,
 		memories = {
 			2771,
 			2772,
@@ -8072,12 +8449,13 @@ pg.base.memory_group = {
 		}
 	},
 	[588] = {
-		title = "Your Dear Inventor",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 588,
 		icon = "title_chara_dafenqi",
+		type = 3,
+		link_event = 0,
+		title = "Your Dear Inventor",
+		auto_unlock = "",
+		subtype = 0,
+		id = 588,
 		memories = {
 			2811,
 			2812,
@@ -8092,12 +8470,13 @@ pg.base.memory_group = {
 		}
 	},
 	[589] = {
-		title = "A View For Two With You",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 589,
 		icon = "title_chara_peisagenuo",
+		type = 3,
+		link_event = 0,
+		title = "A View For Two With You",
+		auto_unlock = "",
+		subtype = 0,
+		id = 589,
 		memories = {
 			2831,
 			2832,
@@ -8112,12 +8491,13 @@ pg.base.memory_group = {
 		}
 	},
 	[590] = {
-		title = "The Protector Needs Protecting",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 590,
 		icon = "title_chara_edu",
+		type = 3,
+		link_event = 0,
+		title = "The Protector Needs Protecting",
+		auto_unlock = "",
+		subtype = 0,
+		id = 590,
 		memories = {
 			2941,
 			2942,
@@ -8132,12 +8512,13 @@ pg.base.memory_group = {
 		}
 	},
 	[591] = {
-		title = "Veiled in White",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 591,
 		icon = "title_chara_kelaimengsuo",
+		type = 3,
+		link_event = 0,
+		title = "Veiled in White",
+		auto_unlock = "",
+		subtype = 0,
+		id = 591,
 		memories = {
 			3051,
 			3052,
@@ -8152,12 +8533,13 @@ pg.base.memory_group = {
 		}
 	},
 	[592] = {
-		title = "Captain Pompey Has You Covered!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 592,
 		icon = "title_chara_pangpei",
+		type = 3,
+		link_event = 0,
+		title = "Captain Pompey Has You Covered!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 592,
 		memories = {
 			3131,
 			3132,
@@ -8172,12 +8554,13 @@ pg.base.memory_group = {
 		}
 	},
 	[593] = {
-		title = "Personality, Presenter, Secretary",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 593,
 		icon = "title_chara_guandao",
+		type = 3,
+		link_event = 0,
+		title = "Personality, Presenter, Secretary",
+		auto_unlock = "",
+		subtype = 0,
+		id = 593,
 		memories = {
 			3265,
 			3266,
@@ -8192,12 +8575,13 @@ pg.base.memory_group = {
 		}
 	},
 	[594] = {
-		title = "Mysteries and Danger!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 594,
 		icon = "title_chara_fushun",
+		type = 3,
+		link_event = 0,
+		title = "Mysteries and Danger!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 594,
 		memories = {
 			3291,
 			3292,
@@ -8212,12 +8596,13 @@ pg.base.memory_group = {
 		}
 	},
 	[595] = {
-		title = "The Go Master and Her Disciple",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 595,
 		icon = "title_chara_zhenhai",
+		type = 3,
+		link_event = 0,
+		title = "The Go Master and Her Disciple",
+		auto_unlock = "",
+		subtype = 0,
+		id = 595,
 		memories = {
 			3351,
 			3352,
@@ -8232,12 +8617,13 @@ pg.base.memory_group = {
 		}
 	},
 	[596] = {
-		title = "The Secret to Curing Exhaustion?!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 596,
 		icon = "title_chara_shenghaxintuo",
+		type = 3,
+		link_event = 0,
+		title = "The Secret to Curing Exhaustion?!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 596,
 		memories = {
 			3421,
 			3422,
@@ -8252,12 +8638,13 @@ pg.base.memory_group = {
 		}
 	},
 	[597] = {
-		title = "Date with an Angel",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 597,
 		icon = "title_chara_xiafei",
+		type = 3,
+		link_event = 0,
+		title = "Date with an Angel",
+		auto_unlock = "",
+		subtype = 0,
+		id = 597,
 		memories = {
 			3481,
 			3482,
@@ -8272,12 +8659,13 @@ pg.base.memory_group = {
 		}
 	},
 	[598] = {
-		title = "Set Sail! An Inspiration-Seeking Journey",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 598,
 		icon = "title_chara_haitian",
+		type = 3,
+		link_event = 0,
+		title = "Set Sail! An Inspiration-Seeking Journey",
+		auto_unlock = "",
+		subtype = 0,
+		id = 598,
 		memories = {
 			3531,
 			3532,
@@ -8292,12 +8680,13 @@ pg.base.memory_group = {
 		}
 	},
 	[599] = {
-		title = "Lord of Raging Seas",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 599,
 		icon = "title_chara_aijier",
+		type = 3,
+		link_event = 0,
+		title = "Lord of Raging Seas",
+		auto_unlock = "",
+		subtype = 0,
+		id = 599,
 		memories = {
 			3671,
 			3672,
@@ -8312,12 +8701,13 @@ pg.base.memory_group = {
 		}
 	},
 	[600] = {
-		title = "Emotional Overload",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 600,
 		icon = "title_chara_aersasi",
+		type = 3,
+		link_event = 0,
+		title = "Emotional Overload",
+		auto_unlock = "",
+		subtype = 0,
+		id = 600,
 		memories = {
 			3691,
 			3692,
@@ -8332,12 +8722,13 @@ pg.base.memory_group = {
 		}
 	},
 	[601] = {
-		title = "Consultation Corner's Day Off",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 601,
 		icon = "title_chara_bulaimodun",
+		type = 3,
+		link_event = 0,
+		title = "Consultation Corner's Day Off",
+		auto_unlock = "",
+		subtype = 0,
+		id = 601,
 		memories = {
 			3721,
 			3722,
@@ -8352,12 +8743,13 @@ pg.base.memory_group = {
 		}
 	},
 	[602] = {
-		title = "A Study in Takao",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 602,
 		icon = "title_chara_gaoxiong",
+		type = 3,
+		link_event = 0,
+		title = "A Study in Takao",
+		auto_unlock = "",
+		subtype = 0,
+		id = 602,
 		memories = {
 			3911,
 			3912,
@@ -8372,12 +8764,13 @@ pg.base.memory_group = {
 		}
 	},
 	[603] = {
-		title = "Set Sail - Treasure Voyage!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 603,
 		icon = "title_chara_weidahao",
+		type = 3,
+		link_event = 0,
+		title = "Set Sail - Treasure Voyage!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 603,
 		memories = {
 			3931,
 			3932,
@@ -8392,12 +8785,13 @@ pg.base.memory_group = {
 		}
 	},
 	[604] = {
-		title = "Our Sweet Cookies",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 604,
 		icon = "title_chara_hao",
+		type = 3,
+		link_event = 0,
+		title = "Our Sweet Cookies",
+		auto_unlock = "",
+		subtype = 0,
+		id = 604,
 		memories = {
 			3991,
 			3992,
@@ -8412,12 +8806,13 @@ pg.base.memory_group = {
 		}
 	},
 	[605] = {
-		title = "Sweet Dreams, Come Back to Me",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 605,
 		icon = "title_chara_lvzuofu",
+		type = 3,
+		link_event = 0,
+		title = "Sweet Dreams, Come Back to Me",
+		auto_unlock = "",
+		subtype = 0,
+		id = 605,
 		memories = {
 			4061,
 			4062,
@@ -8432,12 +8827,13 @@ pg.base.memory_group = {
 		}
 	},
 	[606] = {
-		title = "From Farm to Fork!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 606,
 		icon = "title_chara_longwu",
+		type = 3,
+		link_event = 0,
+		title = "From Farm to Fork!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 606,
 		memories = {
 			4141,
 			4142,
@@ -8452,12 +8848,13 @@ pg.base.memory_group = {
 		}
 	},
 	[607] = {
-		title = "Commander, It's Time to Eat!",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 607,
 		icon = "title_chara_jian",
+		type = 3,
+		link_event = 0,
+		title = "Commander, It's Time to Eat!",
+		auto_unlock = "",
+		subtype = 0,
+		id = 607,
 		memories = {
 			4181,
 			4182,
@@ -8472,12 +8869,13 @@ pg.base.memory_group = {
 		}
 	},
 	[608] = {
-		title = "Warmth in the Storm",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 608,
 		icon = "title_chara_mojiaduoer",
+		type = 3,
+		link_event = 0,
+		title = "Warmth in the Storm",
+		auto_unlock = "",
+		subtype = 0,
+		id = 608,
 		memories = {
 			4251,
 			4252,
@@ -8492,12 +8890,13 @@ pg.base.memory_group = {
 		}
 	},
 	[609] = {
-		title = "Bonded Together",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 609,
 		icon = "title_chara_qiabayefu",
+		type = 3,
+		link_event = 0,
+		title = "Bonded Together",
+		auto_unlock = "",
+		subtype = 0,
+		id = 609,
 		memories = {
 			4291,
 			4292,
@@ -8512,12 +8911,13 @@ pg.base.memory_group = {
 		}
 	},
 	[610] = {
-		title = "Ineffective Energy Saving",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 610,
 		icon = "title_chara_bunao",
+		type = 3,
+		link_event = 0,
+		title = "Ineffective Energy Saving",
+		auto_unlock = "",
+		subtype = 0,
+		id = 610,
 		memories = {
 			4321,
 			4322,
@@ -8532,12 +8932,13 @@ pg.base.memory_group = {
 		}
 	},
 	[611] = {
-		title = "A Night with the Unhulde",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 611,
 		icon = "title_chara_aogusite",
+		type = 3,
+		link_event = 0,
+		title = "A Night with the Unhulde",
+		auto_unlock = "",
+		subtype = 0,
+		id = 611,
 		memories = {
 			4441,
 			4442,
@@ -8552,12 +8953,13 @@ pg.base.memory_group = {
 		}
 	},
 	[612] = {
-		title = "Intoxicating Feelings",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 612,
 		icon = "title_chara_dunkeerke",
+		type = 3,
+		link_event = 0,
+		title = "Intoxicating Feelings",
+		auto_unlock = "",
+		subtype = 0,
+		id = 612,
 		memories = {
 			4471,
 			4472,
@@ -8572,12 +8974,13 @@ pg.base.memory_group = {
 		}
 	},
 	[613] = {
-		title = "Magician of Flowers and Swords",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 613,
 		icon = "title_chara_huajian",
+		type = 3,
+		link_event = 0,
+		title = "Magician of Flowers and Swords",
+		auto_unlock = "",
+		subtype = 0,
+		id = 613,
 		memories = {
 			4531,
 			4532,
@@ -8592,12 +8995,13 @@ pg.base.memory_group = {
 		}
 	},
 	[614] = {
-		title = "A Bond Woven by Thread",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 614,
 		icon = "title_chara_dulianglai",
+		type = 3,
+		link_event = 0,
+		title = "A Bond Woven by Thread",
+		auto_unlock = "",
+		subtype = 0,
+		id = 614,
 		memories = {
 			4661,
 			4662,
@@ -8612,12 +9016,13 @@ pg.base.memory_group = {
 		}
 	},
 	[615] = {
-		title = "Sounds of the Ocean",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 615,
 		icon = "title_chara_zhenzhuhao",
+		type = 3,
+		link_event = 0,
+		title = "Sounds of the Ocean",
+		auto_unlock = "",
+		subtype = 0,
+		id = 615,
 		memories = {
 			4701,
 			4702,
@@ -8632,12 +9037,13 @@ pg.base.memory_group = {
 		}
 	},
 	[616] = {
-		title = "An Electronics Store in Bloom",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 616,
 		icon = "title_chara_qisheng",
+		type = 3,
+		link_event = 0,
+		title = "An Electronics Store in Bloom",
+		auto_unlock = "",
+		subtype = 0,
+		id = 616,
 		memories = {
 			4751,
 			4752,
@@ -8652,12 +9058,13 @@ pg.base.memory_group = {
 		}
 	},
 	[617] = {
-		title = "Happiness Is Incalculable",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 617,
 		icon = "title_chara_fage",
+		type = 3,
+		link_event = 0,
+		title = "Happiness Is Incalculable",
+		auto_unlock = "",
+		subtype = 0,
+		id = 617,
 		memories = {
 			4861,
 			4862,
@@ -8672,12 +9079,13 @@ pg.base.memory_group = {
 		}
 	},
 	[618] = {
-		title = "The Guide to Sardegnian Glory",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 618,
 		icon = "title_chara_weineituo",
+		type = 3,
+		link_event = 0,
+		title = "The Guide to Sardegnian Glory",
+		auto_unlock = "",
+		subtype = 0,
+		id = 618,
 		memories = {
 			4951,
 			4952,
@@ -8692,12 +9100,13 @@ pg.base.memory_group = {
 		}
 	},
 	[619] = {
-		title = "A Disastrous Investment",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 619,
 		icon = "title_chara_dingan",
+		type = 3,
+		link_event = 0,
+		title = "A Disastrous Investment",
+		auto_unlock = "",
+		subtype = 0,
+		id = 619,
 		memories = {
 			4971,
 			4972,
@@ -8712,12 +9121,13 @@ pg.base.memory_group = {
 		}
 	},
 	[620] = {
-		title = "Forest Breeze and the Compass of the Heart",
-		subtype = 0,
-		link_event = 0,
-		type = 3,
-		id = 620,
 		icon = "title_chara_aerbien",
+		type = 3,
+		link_event = 0,
+		title = "Forest Breeze and the Compass of the Heart",
+		auto_unlock = "",
+		subtype = 0,
+		id = 620,
 		memories = {
 			5031,
 			5032,
@@ -8732,12 +9142,13 @@ pg.base.memory_group = {
 		}
 	},
 	[1000] = {
-		title = "Project Identity: TB",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 1000,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Project Identity: TB",
+		auto_unlock = "",
+		subtype = 3,
+		id = 1000,
 		group_id = "",
 		memories = {
 			20000,
@@ -8787,12 +9198,13 @@ pg.base.memory_group = {
 		}
 	},
 	[1001] = {
-		title = "Convergence of Hearts",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 1001,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Convergence of Hearts",
+		auto_unlock = "",
+		subtype = 3,
+		id = 1001,
 		group_id = "",
 		memories = {
 			20044,
@@ -8806,12 +9218,13 @@ pg.base.memory_group = {
 		}
 	},
 	[1002] = {
-		title = "Heartfelt Conversations",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 1002,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Heartfelt Conversations",
+		auto_unlock = "",
+		subtype = 3,
+		id = 1002,
 		group_id = "",
 		memories = {
 			20052,
@@ -8847,12 +9260,13 @@ pg.base.memory_group = {
 		}
 	},
 	[1003] = {
-		title = "Project Identity: Oceana",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 1003,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Project Identity: Oceana",
+		auto_unlock = "",
+		subtype = 3,
+		id = 1003,
 		group_id = "",
 		memories = {
 			20082,
@@ -8904,12 +9318,13 @@ pg.base.memory_group = {
 		}
 	},
 	[1004] = {
-		title = "Navi's Thoughts",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 1004,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Navi's Thoughts",
+		auto_unlock = "",
+		subtype = 3,
+		id = 1004,
 		group_id = "",
 		memories = {
 			20128,
@@ -8924,12 +9339,13 @@ pg.base.memory_group = {
 		}
 	},
 	[1005] = {
-		title = "Shipgirl Interactions",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 1005,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Shipgirl Interactions",
+		auto_unlock = "",
+		subtype = 3,
+		id = 1005,
 		group_id = "",
 		memories = {
 			20138,
@@ -8947,12 +9363,13 @@ pg.base.memory_group = {
 		}
 	},
 	[1006] = {
-		title = "Project Identity: Explorer",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 1006,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Project Identity: Explorer",
+		auto_unlock = "",
+		subtype = 3,
+		id = 1006,
 		group_id = "",
 		memories = {
 			20150,
@@ -9004,12 +9421,13 @@ pg.base.memory_group = {
 		}
 	},
 	[1007] = {
-		title = "Lora's Thoughts",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 1007,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Lora's Thoughts",
+		auto_unlock = "",
+		subtype = 3,
+		id = 1007,
 		group_id = "",
 		memories = {
 			20196,
@@ -9024,12 +9442,13 @@ pg.base.memory_group = {
 		}
 	},
 	[1008] = {
-		title = "Shipgirl Interactions",
-		subtype = 3,
-		link_event = 0,
-		type = 2,
-		id = 1008,
 		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "Shipgirl Interactions",
+		auto_unlock = "",
+		subtype = 3,
+		id = 1008,
 		group_id = "",
 		memories = {
 			20206,

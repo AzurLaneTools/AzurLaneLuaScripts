@@ -186,6 +186,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100002,
 			100003,
 			100004,
@@ -257,6 +258,7 @@ pg.furniture_data_template = setmetatable({
 			100075,
 			100076,
 			100078,
+			100083,
 			200001,
 			200002,
 			200003,
@@ -3725,6 +3727,27 @@ pg.furniture_data_template = setmetatable({
 			335119,
 			335301,
 			335302
+		},
+		[136] = {
+			336001,
+			336002,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_tag = {
@@ -5947,7 +5970,21 @@ pg.furniture_data_template = setmetatable({
 			335115,
 			335116,
 			335117,
-			335118
+			335118,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114
 		},
 		{
 			1108,
@@ -6293,6 +6330,7 @@ pg.furniture_data_template = setmetatable({
 			100075,
 			100076,
 			100078,
+			100083,
 			31101,
 			54104,
 			54105
@@ -6369,7 +6407,8 @@ pg.furniture_data_template = setmetatable({
 			319,
 			321,
 			323,
-			331
+			331,
+			332
 		},
 		[7] = {
 			211,
@@ -6585,7 +6624,8 @@ pg.furniture_data_template = setmetatable({
 			331309,
 			333119,
 			334123,
-			335119
+			335119,
+			336115
 		},
 		[4] = {
 			1001,
@@ -6708,7 +6748,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		[3] = {
 			1002,
@@ -6832,7 +6873,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		[5] = {
 			1301,
@@ -7222,7 +7264,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_type = {
@@ -7348,7 +7392,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		[7] = {
 			1,
@@ -7509,6 +7554,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100002,
 			100004,
 			100005,
@@ -9781,7 +9827,22 @@ pg.furniture_data_template = setmetatable({
 			335116,
 			335117,
 			335118,
-			335119
+			335119,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115
 		},
 		[11] = {
 			131,
@@ -9804,6 +9865,7 @@ pg.furniture_data_template = setmetatable({
 			100066,
 			100071,
 			100073,
+			100083,
 			30123,
 			35128,
 			37121,
@@ -9985,7 +10047,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		[5] = {
 			1101,
@@ -10691,7 +10754,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		},
 		[8] = {
 			17121
@@ -10923,6 +10988,7 @@ pg.furniture_data_template = setmetatable({
 		329,
 		330,
 		331,
+		332,
 		100002,
 		100003,
 		100004,
@@ -10994,6 +11060,7 @@ pg.furniture_data_template = setmetatable({
 		100075,
 		100076,
 		100078,
+		100083,
 		200001,
 		200002,
 		200003,
@@ -14217,7 +14284,26 @@ pg.furniture_data_template = setmetatable({
 		335118,
 		335119,
 		335301,
-		335302
+		335302,
+		336001,
+		336002,
+		336101,
+		336102,
+		336103,
+		336104,
+		336105,
+		336106,
+		336107,
+		336108,
+		336109,
+		336110,
+		336111,
+		336112,
+		336113,
+		336114,
+		336115,
+		336301,
+		336302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23455,6 +23541,50 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[332] = {
+		can_rotate = 0,
+		name = "Municipal Management Building",
+		gain_by = "The Vagabond's Recruitment Plan",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "tegongdushixunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Thorn City's administrative center. The throne of all rules and directives, it stands aloof within the darkness of night.",
+		advice = 0,
+		id = 332,
+		tag = 8,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tegongdushixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		name = "Air Pump of Friendship",
@@ -28456,6 +28586,91 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					}
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100083] = {
+		advice = 0,
+		name = "Phantasmal Flying Object",
+		count = 1,
+		type = 11,
+		dir = 0,
+		rarity = 4,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 0,
+		icon = "chaojitegongfengzhengicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100083,
+		comfortable = 0,
+		describe = "Paint your own unique path amidst the glow of this neon city.",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chaojitegongfengzhengB",
+				"normal"
+			},
+			{
+				"chaojitegongfengzhengT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action4",
+						nil,
+						"tuozhuai2"
+					}
+				},
+				{
+					[3] = {
+						"action1",
+						"tuozhuai2",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -174057,6 +174272,959 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		spine = {
 			{
 				"qiangshicj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336001] = {
+		can_rotate = 0,
+		name = "Command Center Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "dibantgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "tg/dibantg",
+		canputon = 0,
+		count = 1,
+		describe = "Immerse yourself in the command center's data stream as you gaze down on the city.",
+		advice = 0,
+		tag = 4,
+		id = 336001,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336002] = {
+		can_rotate = 0,
+		name = "Command Center Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "qiangbitgicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Immerse yourself in the command center's data stream as you gaze down on the city.",
+		advice = 0,
+		id = 336002,
+		tag = 3,
+		comfortable = 4,
+		deblocking = 1,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336101] = {
+		advice = 0,
+		name = "Command Center Consoles",
+		count = 1,
+		type = 2,
+		dir = 0,
+		rarity = 4,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 136,
+		icon = "caozuotaitgicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 336101,
+		comfortable = 4,
+		describe = "Several consoles with control panels put together. Be careful not to push the wrong button!",
+		dorm_id = 0,
+		tag = 1,
+		spine_action_replace = "",
+		size = {
+			14,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caozuotaitgB",
+				"normal"
+			},
+			{
+				"caozuotaitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				-1
+			}
+		},
+		interAction_group = {}
+	},
+	[336102] = {
+		can_rotate = 0,
+		name = "Command Center Security Door",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "damentgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Verifying biometric data... Access granted.",
+		advice = 0,
+		id = 336102,
+		tag = 1,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"damentg",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336103] = {
+		can_rotate = 0,
+		name = "Command Center Storage Crate",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "daxiangzitgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "tg/daxiangzitg",
+		canputon = 0,
+		count = 1,
+		describe = "A standard storage crate. It contains gear and components, and not much else... or so you think!",
+		advice = 0,
+		tag = 1,
+		id = 336103,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336104] = {
+		can_rotate = 0,
+		name = "City Projection",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "ditutgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "A projector displaying a high-fidelity 3D rendition of the city that updates in real time.",
+		advice = 0,
+		id = 336104,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ditutg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336105] = {
+		can_rotate = 0,
+		name = "Command Center Server",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "fuwuqitgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "A high-density data processor. It performs calculations to the mission's end.",
+		advice = 0,
+		id = 336105,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fuwuqitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336106] = {
+		can_rotate = 0,
+		name = "Command Center Case",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "jixiangtgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "tg/jixiangtg",
+		canputon = 0,
+		count = 1,
+		describe = "A quiet case with liquid cooling and optimized airflow. Highly efficient and produces little noise.",
+		advice = 0,
+		tag = 1,
+		id = 336106,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336107] = {
+		can_rotate = 0,
+		name = "Command Center Monitors",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "pingmuzutgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "A cluster of adjustable monitors for all your complex data analysis needs.",
+		advice = 0,
+		id = 336107,
+		tag = 1,
+		comfortable = 3,
+		deblocking = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pingmuzutg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336108] = {
+		can_rotate = 0,
+		name = "Hologramjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "quanxitgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "They're cyber-attacking us! With holograms!",
+		advice = 0,
+		id = 336108,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"quanxitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336109] = {
+		advice = 0,
+		name = "Command Center Work Setup",
+		count = 1,
+		type = 2,
+		dir = 0,
+		rarity = 3,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 136,
+		icon = "shuzhuotgicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 336109,
+		comfortable = 3,
+		describe = "Looks like someone upgraded their workstation's hardware and got a big productivity boost.",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuzhuotgB",
+				"normal"
+			},
+			{
+				"shuzhuotgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336110] = {
+		can_rotate = 0,
+		name = "Laser Emitters",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "tanceqitgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "You'll need to perform a bit of contortionism to avoid the lasers!",
+		advice = 0,
+		id = 336110,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tanceqitg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336111] = {
+		can_rotate = 0,
+		name = "Agent Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "tegongjiutgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Target sighted! Heading out now!",
+		advice = 0,
+		id = 336111,
+		tag = 1,
+		comfortable = 3,
+		deblocking = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tegongjiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336112] = {
+		can_rotate = 0,
+		name = "Command Center Item Box",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "xiangzikaitgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "tg/xiangzikaitg",
+		canputon = 0,
+		count = 1,
+		describe = "Just leave your miscellaneous items to this thing.",
+		advice = 0,
+		tag = 1,
+		id = 336112,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336113] = {
+		can_rotate = 0,
+		name = "Secjuurity Officer",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "xunluojiutgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Whose footprints are these?",
+		advice = 0,
+		id = 336113,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xunluojiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336114] = {
+		can_rotate = 0,
+		name = "Command Center Speaker",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "yinxiangtgicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "It can say a lot more than just \"chirp.\"",
+		advice = 0,
+		id = 336114,
+		tag = 1,
+		comfortable = 1,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinxiangtg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336115] = {
+		advice = 0,
+		name = "Command Center Scanner",
+		count = 1,
+		type = 2,
+		dir = 0,
+		rarity = 4,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 136,
+		icon = "saomiaoyitgicon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 336115,
+		comfortable = 4,
+		describe = "Capable of multispectral scanning and real-time 3D reconstruction. It can also perform identity checks and gear analysis!",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"saomiaoyitgB",
+				"normal"
+			},
+			{
+				"saomiaoyitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336301] = {
+		can_rotate = 1,
+		name = "Command Center Large Monitor",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 3,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "dapingtgicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "It relays security footage instantaneously, giving you a clear overview with just a glance.",
+		advice = 0,
+		id = 336301,
+		tag = 5,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			18,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dapingtg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336302] = {
+		can_rotate = 1,
+		name = "Command Center Wanted List",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 4,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "tongjilingtgicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Suspect list updated. Issue arrest warrants at once!",
+		advice = 0,
+		id = 336302,
+		tag = 5,
+		comfortable = 3,
+		deblocking = 1,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tongjilingtg",
 				"normal"
 			}
 		},

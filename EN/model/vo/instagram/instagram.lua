@@ -22,10 +22,7 @@ slot0.InitByServer = function(slot0, slot1)
 	slot0.text = slot1.text
 	slot0.picture = slot1.picture
 	slot0.time = slot1.time
-	slot5 = slot0.time
-
-	print(pg.TimeMgr.GetInstance():GetServerTime(), "------------", slot5)
-
+	slot0.oaListPic = slot1.oalist_pic
 	slot0.optionDiscuss = {}
 	slot0.discussList = {}
 	slot0.allReply = {}
@@ -74,6 +71,7 @@ slot0.InitByConfig = function(slot0, slot1)
 	slot6 = slot0
 	slot7 = "time_persist"
 	slot0.time = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.getConfig(slot6, slot7))
+	slot0.oaListPic = slot0:getConfig("oalist_pic_persist")
 	slot0.optionDiscuss = {}
 	slot0.discussList = {}
 	slot0.allReply = getProxy(InstagramProxy):GetAllReply()

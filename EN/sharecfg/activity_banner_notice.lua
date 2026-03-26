@@ -267,6 +267,24 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 33,
+		param = {
+			"scene core activity",
+			{
+				coreName = "YunLongSPCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 34,
+		param = {
+			"scene core activity",
+			{
+				coreName = "AprilFoolDiscovery2026UI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -299,6 +317,8 @@ pg.activity_banner_notice = {
 		29,
 		30,
 		31,
-		32
+		32,
+		33,
+		34
 	}
 }

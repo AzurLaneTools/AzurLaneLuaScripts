@@ -7,7 +7,8 @@ slot0.GetBtns = function(slot0)
 		MainCameraBtn.New(findTF(slot0._tf, "cam"), slot0.event),
 		MainWordBtn.New(findTF(slot0._tf, "word"), slot0.event),
 		MainChangeSkinBtn.New(findTF(slot0._tf, "change"), slot0.event),
-		MainResetL2dBtn.New(findTF(slot0._tf, "l2d"), slot0.event)
+		MainResetL2dBtn.New(findTF(slot0._tf, "l2d"), slot0.event),
+		MainL2dBoundBtn.New(findTF(slot0._tf, "l2d_bound"), slot0.event)
 	}
 end
 

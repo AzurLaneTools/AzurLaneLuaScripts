@@ -1428,6 +1428,102 @@ pg.activity_medal_template = {
 		id = 5044108,
 		medal_asset = "ActivityMedal/5044108"
 	},
+	[5048201] = {
+		activity_medal_desc = "The city of neon lights never sleeps.",
+		next_medal = 0,
+		item = 65876,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "1",
+		task_id = 21915,
+		activity_medal_name = "Sticker: Neon City",
+		id = 5048201,
+		medal_asset = "ActivityMedal/5048201"
+	},
+	[5048202] = {
+		activity_medal_desc = "Catch 'er By Surprise!",
+		next_medal = 0,
+		item = 65877,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "2",
+		task_id = 21916,
+		activity_medal_name = "Sticker: Midnight Getaway",
+		id = 5048202,
+		medal_asset = "ActivityMedal/5048202"
+	},
+	[5048203] = {
+		activity_medal_desc = "Analyzes vast amounts of data in real time.",
+		next_medal = 0,
+		item = 65878,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "3",
+		task_id = 21917,
+		activity_medal_name = "Sticker: Data Projection",
+		id = 5048203,
+		medal_asset = "ActivityMedal/5048203"
+	},
+	[5048204] = {
+		activity_medal_desc = "First, I pretend to get captured. Then, I... huh? Why can't I get out?!",
+		next_medal = 0,
+		item = 65879,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "4",
+		task_id = 21918,
+		activity_medal_name = "Sticker: Own Goal",
+		id = 5048204,
+		medal_asset = "ActivityMedal/5048204"
+	},
+	[5048205] = {
+		activity_medal_desc = "We know your face. There is no escape.",
+		next_medal = 0,
+		item = 65880,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "5",
+		task_id = 21919,
+		activity_medal_name = "Sticker: Citywide Wanted",
+		id = 5048205,
+		medal_asset = "ActivityMedal/5048205"
+	},
+	[5048206] = {
+		activity_medal_desc = "Catch me if you can... or kiss your treasure goodbye.",
+		next_medal = 0,
+		item = 65881,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "6",
+		task_id = 21920,
+		activity_medal_name = "Sticker: Calling Card",
+		id = 5048206,
+		medal_asset = "ActivityMedal/5048206"
+	},
+	[5048207] = {
+		activity_medal_desc = "Once the headset goes on, the rest of the world melts away.",
+		next_medal = 0,
+		item = 65882,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "7",
+		task_id = 21921,
+		activity_medal_name = "Sticker: Deep Dive",
+		id = 5048207,
+		medal_asset = "ActivityMedal/5048207"
+	},
+	[5048208] = {
+		activity_medal_desc = "Vagabonds, assemble!",
+		next_medal = 0,
+		item = 65883,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "8",
+		task_id = 21922,
+		activity_medal_name = "Sticker: Vagabond's Emblem",
+		id = 5048208,
+		medal_asset = "ActivityMedal/5048208"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1577,6 +1673,16 @@ pg.activity_medal_template = {
 			5044106,
 			5044107,
 			5044108
+		},
+		[50482] = {
+			5048201,
+			5048202,
+			5048203,
+			5048204,
+			5048205,
+			5048206,
+			5048207,
+			5048208
 		}
 	},
 	all = {
@@ -1698,6 +1804,14 @@ pg.activity_medal_template = {
 		5044105,
 		5044106,
 		5044107,
-		5044108
+		5044108,
+		5048201,
+		5048202,
+		5048203,
+		5048204,
+		5048205,
+		5048206,
+		5048207,
+		5048208
 	}
 }

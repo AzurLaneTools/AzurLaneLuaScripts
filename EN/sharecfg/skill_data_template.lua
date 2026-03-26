@@ -378,6 +378,9 @@ pg.skill_data_template = setmetatable({
 		61010,
 		61020,
 		61030,
+		61040,
+		61050,
+		61060,
 		7000,
 		9010,
 		9020,
@@ -1403,6 +1406,12 @@ pg.skill_data_template = setmetatable({
 		152160,
 		152170,
 		152180,
+		152190,
+		152200,
+		152210,
+		152220,
+		152230,
+		152240,
 		18010,
 		18040,
 		18050,
@@ -2783,6 +2792,12 @@ pg.skill_data_template = setmetatable({
 		802142,
 		802145,
 		802147,
+		802150,
+		802160,
+		802171,
+		802172,
+		802175,
+		802177,
 		901010,
 		901020,
 		902010,
@@ -13562,6 +13577,48 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		max_level = 0,
 		desc = "When equipped by Chao Ho: creates a backdrop of plum blossoms fluttering in the air.",
 		id = 61030,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[61040] = {
+		desc_get = "",
+		name = "The Vagabond",
+		type = 0,
+		max_level = 0,
+		desc = "5s after the start of battle, if all ships in the fleet are of different factions: reduces the entire fleet's DMG taken by 4.0% until the end of battle.",
+		id = 61040,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[61050] = {
+		desc_get = "",
+		name = "Systemwide Bounty",
+		type = 0,
+		max_level = 0,
+		desc = "Reduces the wearer's Evasion Rate by 1.0%. Once per battle, when the wearer's HP falls beneath 80.0% as a result of DMG taken: negates the Evasion Rate reduction effect of this gear, and increases the entire fleet's ACC by 3.0% until the end of battle.",
+		id = 61050,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[61060] = {
+		desc_get = "",
+		name = "Protocol Zero Key",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer takes DMG: increases the wearer's DMG dealt by 3.0% and DMG taken by 1.0% for 20s (30s cooldown between activations).",
+		id = 61060,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -119462,6 +119519,578 @@ For every ship with the Unyielding Valor status, Moskva's DMG taken (excluding t
 			}
 		}
 	},
+	[152190] = {
+		desc_get = "",
+		name = "Freeflowing Air Raid",
+		type = 1,
+		max_level = 10,
+		desc = [[
+When this ship launches an airstrike, activates the following effects:
+1) Increases this ship's DMG dealt by $1 for 8s;
+2) Decreases the AA of a random enemy by 5.0% (prioritizes humanoid enemies) for 15s;
+3) Launches an additional $2 airstrike (DMG is based on the skill's level).]],
+		id = 152190,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[152200] = {
+		desc_get = "",
+		name = "Cloudhaze Cloak",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's AA and AVI by $1, and max Detection Gauge by 15. Reduces the loading time of this ship's first Airstrike by $2.",
+		id = 152200,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"20.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			}
+		}
+	},
+	[152210] = {
+		desc_get = "",
+		name = "Azure Lightning, Thunderous Roar",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's Torpedo Crit Rate by $1. When this ship fires her Torpedoes: $2 chance to launch another wave of Torpedoes.",
+		id = 152210,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	},
+	[152220] = {
+		desc_get = "",
+		name = "Cloudsplitting Thunderclap",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's TRP and EVA by $1. 15s after the start of battle, and every 20s afterwards: fires a $2 special barrage (DMG is based on the skill's level); enemies hit by this barrage have their SPD reduced by 10.0% for 8s (this effect cannot be stacked).",
+		id = 152220,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[152230] = {
+		desc_get = "",
+		name = "Dragon's Skyward Prayer",
+		type = 3,
+		max_level = 10,
+		desc = [[
+At the start of battle, this ship gains the following effects based on the number of Sakura Empire ships in the Vanguard:
+1) 1 or more: Increases this ship's FP and ACC by $1;
+2) 2 or more: Increases this ship's TRP by $1;
+3) 3 or more: Gains a barrier that can absorb up to $2 of this ship's Max HP, lasting for up to 15s.]],
+		id = 152230,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[152240] = {
+		desc_get = "",
+		name = "O Lurking Thunder, Pierce the Skies",
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: launches a $1 special torpedo barrage (DMG is based on the skill's level); enemies hit by this barrage take 12.0% more Torpedo DMG from allied Vanguard DDs and CLs for 5s.",
+		id = 152240,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells+",
@@ -186223,6 +186852,273 @@ Additionally, once per battle each, the following effects activate based on the 
 		id = 802147,
 		system_transform = {
 			[51.0] = 802147
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802150] = {
+		desc_get = "",
+		name = "Enemy Intel Research",
+		type = 3,
+		max_level = 10,
+		desc = "10s after the battle starts and every 20s: decreases the EVA of all enemies on the field by $1 for 5s; when this effect activates, if this ship has an Fl-282 equipped: launches an Fl-282, revealing all submerged enemies and decreasing their EVA by $1 for 5s. Additionally, increases your SSs' and SSVs' DMG dealt by $2 and your Vanguard's ASW by $1.",
+		id = 802150,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[802160] = {
+		desc_get = "",
+		name = "Firepower Assessment",
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: increases this ship's FP and ACC by $1 for 10s and fires a $2 special barrage (DMG is based on the skill's level); for every enemy hit by this barrage, increases this ship's FP and TRP by 5.0% (only counts 1 hit per enemy; can be stacked up to 3 times). When this barrage hits the same enemy again: increases that enemy's DMG taken from Köln META by 5.0% (can be stacked up to 3 times).",
+		id = 802160,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.0%"
+				},
+				{
+					"16.0%",
+					"+1.0%"
+				},
+				{
+					"17.0%",
+					"+2.0%"
+				},
+				{
+					"19.0%",
+					"+1.0%"
+				},
+				{
+					"20.0%",
+					"+1.0%"
+				},
+				{
+					"21.0%",
+					"+2.0%"
+				},
+				{
+					"23.0%",
+					"+2.0%"
+				},
+				{
+					"25.0%",
+					"+2.0%"
+				},
+				{
+					"27.0%",
+					"+3.0%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[802171] = {
+		desc_get = "",
+		name = "Cinders of Hope - Köln I",
+		type = 3,
+		max_level = 1,
+		desc = "Every 12 times this ship fires her Main Guns: fires a special barrage.",
+		id = 802171,
+		system_transform = {
+			[51.0] = 802175
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802172] = {
+		desc_get = "",
+		name = "Cinders of Hope - Köln II",
+		type = 3,
+		max_level = 1,
+		desc = "Every 8 times this ship fires her Main Guns: fires a special barrage.",
+		id = 802172,
+		system_transform = {
+			[51.0] = 802177
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802175] = {
+		desc_get = "",
+		name = "Cinders of Hope - Köln I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
+		id = 802175,
+		system_transform = {
+			[51.0] = 802175
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[802177] = {
+		desc_get = "",
+		name = "Cinders of Hope - Köln II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
+		id = 802177,
+		system_transform = {
+			[51.0] = 802177
 		},
 		world_death_mark = {
 			1

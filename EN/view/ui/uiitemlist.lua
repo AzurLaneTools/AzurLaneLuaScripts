@@ -49,6 +49,9 @@ slot0.align = function(slot0, slot1, slot2)
 		end
 
 		slot5 = 0
+
+		slot0:StopTimer()
+
 		slot0.timer = Timer.New(function ()
 			setActive(uv0:GetChild(uv1), true)
 

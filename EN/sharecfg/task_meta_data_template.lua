@@ -352,6 +352,11 @@ pg.task_meta_data_template = setmetatable({
 		100523,
 		100524,
 		100525,
+		100541,
+		100542,
+		100543,
+		100544,
+		100545,
 		100531,
 		100532,
 		100533,
@@ -529,6 +534,10 @@ pg.task_meta_data_template = setmetatable({
 		200432,
 		200433,
 		200434,
+		200451,
+		200452,
+		200453,
+		200454,
 		200441,
 		200442,
 		200443,
@@ -3337,6 +3346,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Gangut META in your fleet."
 	},
+	[100541] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100541,
+		target_num = 1,
+		desc = "Sortie and obtain 1 victory with Köln META in the fleet."
+	},
+	[100542] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100542,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ enemy fleet with Köln META in the fleet."
+	},
+	[100543] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100543,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ enemy fleet with Köln META in the fleet."
+	},
+	[100544] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100544,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ enemy fleet with Köln META in the fleet."
+	},
+	[100545] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100545,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ enemy fleet with Köln META in the fleet."
+	},
 	[100531] = {
 		target_id = "0",
 		sub_type = 180,
@@ -4752,6 +4801,38 @@ pg.base.task_meta_data_template = {
 		id = 200434,
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Gangut META in your fleet."
+	},
+	[200451] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200451,
+		target_num = 1,
+		desc = "Sortie in Operation Siren and obtain 1 victory with Köln META in the fleet."
+	},
+	[200452] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200452,
+		target_num = 1,
+		desc = "Sortie in Operation Siren and defeat a Lv. 70+ enemy fleet with Köln META in the fleet."
+	},
+	[200453] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200453,
+		target_num = 1,
+		desc = "Sortie in Operation Siren and defeat a Lv. 90+ enemy fleet with Köln META in the fleet."
+	},
+	[200454] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200454,
+		target_num = 1,
+		desc = "Sortie in Operation Siren and defeat a Lv. 100+ enemy fleet with Köln META in the fleet."
 	},
 	[200441] = {
 		target_id = "0",

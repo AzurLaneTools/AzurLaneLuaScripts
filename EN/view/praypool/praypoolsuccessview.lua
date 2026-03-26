@@ -56,7 +56,7 @@ slot0.initUI = function(slot0)
 	slot1 = slot0._tf:Find("Ratio")
 
 	for slot5 = 2, 6 do
-		slot0.ratioSpriteMap[slot5] = getImageSprite(slot0._tf:Find(tostring(slot5), slot1))
+		slot0.ratioSpriteMap[slot5] = getImageSprite(slot1:Find(tostring(slot5)))
 	end
 
 	slot5 = slot0._tf

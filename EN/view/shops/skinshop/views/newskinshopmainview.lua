@@ -601,6 +601,7 @@ slot0.LoadSpinePainting = function(slot0, slot1)
 
 		uv0:CheckShowShopHx(slot0._tf:Find("shop_hx"), uv1)
 		pg.UIMgr.GetInstance():LoadingOff()
+		slot0:SetShopHx()
 	end)
 end
 

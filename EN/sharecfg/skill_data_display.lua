@@ -1979,6 +1979,9 @@ pg.skill_data_display = setmetatable({
 		152166,
 		152171,
 		152182,
+		152210,
+		152212,
+		152220,
 		18010,
 		18040,
 		18041,
@@ -3462,6 +3465,10 @@ pg.skill_data_display = setmetatable({
 		802142,
 		802145,
 		802147,
+		802171,
+		802172,
+		802175,
+		802177,
 		902201,
 		1010140,
 		1010143,
@@ -11881,6 +11888,18 @@ pg.base.skill_data_display = {
 		id = 152182,
 		name = "Unfeeling Protector"
 	},
+	[152210] = {
+		id = 152210,
+		name = "Azure Lightning, Thunderous Roar"
+	},
+	[152212] = {
+		id = 152212,
+		name = "Azure Lightning, Thunderous Roar"
+	},
+	[152220] = {
+		id = 152220,
+		name = "Cloudsplitting Thunderclap"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -17812,6 +17831,22 @@ pg.base.skill_data_display = {
 	[802147] = {
 		id = 802147,
 		name = "Cinders of Hope - Regensburg II"
+	},
+	[802171] = {
+		id = 802171,
+		name = "Cinders of Hope - Köln I"
+	},
+	[802172] = {
+		id = 802172,
+		name = "Cinders of Hope - Köln II"
+	},
+	[802175] = {
+		id = 802175,
+		name = "Cinders of Hope - Köln I"
+	},
+	[802177] = {
+		id = 802177,
+		name = "Cinders of Hope - Köln II"
 	},
 	[902201] = {
 		id = 902201,

@@ -10520,6 +10520,25 @@ pg.dorm3d_dialogue_group = {
 			1
 		}
 	},
+	[110305] = {
+		reward = 0,
+		room_id = 11,
+		trigger_area = "",
+		type = 402,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DGIFTFEEDBACK1105",
+		char_id = 10517,
+		extend_loading = 0,
+		id = 110305,
+		action_type = "lie",
+		unlock = {
+			1,
+			10517,
+			1
+		}
+	},
 	[110601] = {
 		reward = 0,
 		room_id = 11,
@@ -10751,6 +10770,62 @@ pg.dorm3d_dialogue_group = {
 		unlock = {
 			3,
 			1051701
+		}
+	},
+	[110551] = {
+		reward = 0,
+		room_id = 11,
+		trigger_area = "",
+		type = 700,
+		bgm = "",
+		performance_type = 1,
+		story = "DormLvPerformance1105",
+		char_id = 10517,
+		extend_loading = 1,
+		id = 110551,
+		action_type = "sit",
+		trigger_config = {
+			11
+		},
+		unlock = {
+			3,
+			1051702
+		}
+	},
+	[110552] = {
+		reward = 0,
+		room_id = 11,
+		trigger_area = "",
+		type = 600,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DGIFTAVG11051",
+		char_id = 10517,
+		extend_loading = 0,
+		id = 110552,
+		action_type = "sit",
+		unlock = {
+			3,
+			1051702
+		}
+	},
+	[110553] = {
+		reward = 0,
+		room_id = 11,
+		trigger_area = "",
+		type = 600,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3TIMELINE11005",
+		char_id = 10517,
+		extend_loading = 0,
+		id = 110553,
+		action_type = "sit",
+		unlock = {
+			3,
+			1051702
 		}
 	},
 	[120001] = {
@@ -15901,6 +15976,7 @@ pg.dorm3d_dialogue_group = {
 			110302,
 			110303,
 			110304,
+			110305,
 			110601,
 			110602,
 			110603,
@@ -15912,7 +15988,10 @@ pg.dorm3d_dialogue_group = {
 			110531,
 			110541,
 			110542,
-			110543
+			110543,
+			110551,
+			110552,
+			110553
 		},
 		[30707] = {
 			120001,
@@ -16733,6 +16812,7 @@ pg.dorm3d_dialogue_group = {
 			110302,
 			110303,
 			110304,
+			110305,
 			110601,
 			110602,
 			110603,
@@ -16744,7 +16824,10 @@ pg.dorm3d_dialogue_group = {
 			110531,
 			110541,
 			110542,
-			110543
+			110543,
+			110551,
+			110552,
+			110553
 		},
 		[12] = {
 			120001,
@@ -17534,6 +17617,7 @@ pg.dorm3d_dialogue_group = {
 		110302,
 		110303,
 		110304,
+		110305,
 		110601,
 		110602,
 		110603,
@@ -17546,6 +17630,9 @@ pg.dorm3d_dialogue_group = {
 		110541,
 		110542,
 		110543,
+		110551,
+		110552,
+		110553,
 		120001,
 		120002,
 		120003,

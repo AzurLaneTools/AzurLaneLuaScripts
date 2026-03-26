@@ -193,6 +193,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[114] = {
+		name = "Elderwood Ivy",
+		key = "SkinNormal_20260326",
+		display_icon = "ui_114",
+		unlock = "Cruise Missions S28",
+		is_unlock = 1,
+		rare = 3,
+		desc = "A mystical glow filters through the gaps of the ancient ivy growing around your screen. Grace each battle with the enchantment and vitality of the deep forest.",
+		id = 114,
+		icon = "114",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "Christmas",
 		key = "SkinNormal_20241209",
@@ -326,6 +341,7 @@ pg.item_data_battleui = {
 		110,
 		111,
 		113,
+		114,
 		201,
 		202,
 		203,

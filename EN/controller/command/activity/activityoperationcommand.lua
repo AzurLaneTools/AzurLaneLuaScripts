@@ -1,11 +1,12 @@
 slot0 = class("ActivityOperationCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot3 = getProxy(ActivityProxy):getActivityById(slot2.activity_id)
+	slot3 = getProxy(ActivityProxy)
+	slot3 = slot3:getActivityById(slot1:getBody().activity_id)
 
 	assert(slot3)
-	switch(slot3:getConfig("type"), {
+
+	if switch(slot3:getConfig("type"), {
 		[ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1] = function ()
 			slot0, slot1, slot2 = BuildShip.canBuildShipByBuildId(uv0.buildId, uv0.arg1, uv0.arg2 == 1)
 
@@ -16,7 +17,7 @@ slot0.execute = function(slot0, slot1)
 					pg.TipsMgr.GetInstance():ShowTips(slot1)
 				end
 
-				return
+				return true
 			end
 		end,
 		[ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY] = ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1,
@@ -27,26 +28,26 @@ slot0.execute = function(slot0, slot1)
 			if getProxy(PlayerProxy):getData()[id2res(slot2.resource_type)] < slot2.resource_num * (uv1.arg2 or 1) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
-				return
+				return true
 			end
 
 			if slot2.commodity_type == 1 then
 				if slot2.commodity_id == 1 and slot0:GoldMax(slot2.num * slot3) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
-					return
+					return true
 				end
 
 				if slot2.commodity_id == 2 and slot0:OilMax(slot2.num * slot3) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
-					return
+					return true
 				end
 			end
 		end,
 		[ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2] = function ()
 			if uv0.cmd == 2 and not uv1:CanRequest() then
-				return
+				return true
 			end
 		end,
 		[ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE] = function ()
@@ -55,14 +56,16 @@ slot0.execute = function(slot0, slot1)
 			if slot0:getOwnedCount() < slot0.count then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
-				return
+				return true
 			end
 		end
-	})
+	}) then
+		return
+	end
 
-	slot5 = pg.ConnectionMgr.GetInstance()
+	slot6 = pg.ConnectionMgr.GetInstance()
 
-	slot5:Send(11202, {
+	slot6:Send(11202, {
 		activity_id = slot2.activity_id,
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,

@@ -195,8 +195,15 @@ slot0.didEnter = function(slot0)
 
 	slot0:SetGiftPackLayer()
 	onDelayTick(function ()
-		uv0:SetSkinScroll()
-		uv0:Refresh(true)
+		slot0 = {}
+
+		table.insert(slot0, function (slot0)
+			uv0:CheckDownloadSkinList(slot0)
+		end)
+		seriesAsync(slot0, function ()
+			uv0:SetSkinScroll()
+			uv0:Refresh(true)
+		end)
 	end, 0.001)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
@@ -1157,6 +1164,10 @@ slot0.LoadMeshPainting = function(slot0, slot1, slot2)
 		return
 	end
 
+	if PLATFORM_CODE == PLATFORM_CH and checkABExist("painting/" .. slot5 .. "_shop") then
+		slot5 = slot5 .. "_shop"
+	end
+
 	slot7 = pg.UIMgr.GetInstance()
 
 	slot7:LoadingOn()
@@ -1247,6 +1258,8 @@ slot0.LoadSpinePainting = function(slot0, slot1)
 		effectParent = slot0.spBg,
 		offset = slot4:GetSkinConfig().shop_offset
 	}), function (slot0)
+		slot0:SetShopHx(true)
+
 		if uv0.paintingState and uv0.paintingState.id ~= uv1.id then
 			uv0:ClearSpinePainting()
 		end
@@ -2081,6 +2094,20 @@ slot0.OnFurnitureUpdate = function(slot0, slot1)
 		slot0:GetAllCommodities()
 		slot0:Refresh(true)
 	end
+end
+
+slot0.CheckDownloadSkinList = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0.commodities) do
+		PaintingGroupConst.AddPaintingNameBySkinID(slot2, slot7:getSkinId())
+	end
+
+	PaintingGroupConst.PaintingDownload({
+		isShowBox = true,
+		paintingNameList = slot2,
+		finishFunc = slot1
+	})
 end
 
 slot0.willExit = function(slot0)

@@ -1925,6 +1925,20 @@ pg.name_code = {
 		code = "Fujinami",
 		nation = 0
 	},
+	[311] = {
+		name = "Nayoro",
+		type = 1,
+		id = 311,
+		code = "Nayoro",
+		nation = 0
+	},
+	[312] = {
+		name = "Kizu",
+		type = 1,
+		id = 312,
+		code = "Kizu",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,
@@ -2994,6 +3008,13 @@ pg.name_code = {
 		type = 1,
 		id = 552,
 		code = "Regensburg META",
+		nation = 0
+	},
+	[553] = {
+		name = "Köln META",
+		type = 1,
+		id = 553,
+		code = "Köln META",
 		nation = 0
 	},
 	[10000] = {

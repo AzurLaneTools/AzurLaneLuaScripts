@@ -300,6 +300,19 @@ pg.dorm3d_recall = {
 			1051701
 		}
 	},
+	[105] = {
+		story_id = 110551,
+		name = "Gaming Duel",
+		type = 1,
+		id = 105,
+		image = "recall_115",
+		unlock_text = "Unlocked after obtaining the Gamepad.",
+		desc = "The easiest way to win is to keep your opponent from playing!",
+		unlock = {
+			3,
+			1051702
+		}
+	},
 	[121] = {
 		story_id = 120510,
 		name = "Hearts Under Lock and Key",
@@ -477,6 +490,9 @@ pg.dorm3d_recall = {
 		[110541] = {
 			104
 		},
+		[110551] = {
+			105
+		},
 		[120510] = {
 			121
 		},
@@ -525,6 +541,7 @@ pg.dorm3d_recall = {
 		102,
 		103,
 		104,
+		105,
 		121,
 		122,
 		123,

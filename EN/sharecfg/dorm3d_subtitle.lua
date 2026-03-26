@@ -122,6 +122,23 @@ pg.dorm3d_subtitle = setmetatable({
 		11029,
 		11030,
 		11031,
+		11040,
+		11041,
+		11042,
+		11043,
+		11044,
+		11045,
+		11046,
+		11047,
+		11048,
+		11049,
+		11050,
+		11051,
+		11052,
+		11053,
+		11054,
+		11055,
+		11056,
 		12001,
 		12002,
 		12003,
@@ -676,6 +693,74 @@ pg.base.dorm3d_subtitle = {
 	[11031] = {
 		id = 11031,
 		subtitle = "Honey, that tickles... Ambushes are no fair!"
+	},
+	[11040] = {
+		id = 11040,
+		subtitle = "Aah! You're too good at this!"
+	},
+	[11041] = {
+		id = 11041,
+		subtitle = "I gotta get serious!"
+	},
+	[11042] = {
+		id = 11042,
+		subtitle = "I'm not giving up yet!"
+	},
+	[11043] = {
+		id = 11043,
+		subtitle = "Urk...! Oh no, I'm gonna lose!"
+	},
+	[11044] = {
+		id = 11044,
+		subtitle = "If you wanna win, you'll have to get through me!"
+	},
+	[11045] = {
+		id = 11045,
+		subtitle = "Just you wait! I'm about to catch up!"
+	},
+	[11046] = {
+		id = 11046,
+		subtitle = "Do you really expect me to play fair against you, honey?"
+	},
+	[11047] = {
+		id = 11047,
+		subtitle = "Huh? You're gonna try harder?! N-nooo, but I'm so close to winning!"
+	},
+	[11048] = {
+		id = 11048,
+		subtitle = "Hahaha, don't try so hard, honey."
+	},
+	[11049] = {
+		id = 11049,
+		subtitle = "I wanna win against you at least once!"
+	},
+	[11050] = {
+		id = 11050,
+		subtitle = "Careful, honey."
+	},
+	[11051] = {
+		id = 11051,
+		subtitle = "I'm the only one who gets to break the rules like that..."
+	},
+	[11052] = {
+		id = 11052,
+		subtitle = "Huh? My hair's in...?"
+	},
+	[11053] = {
+		id = 11053,
+		subtitle = "Mm... Heheh, you're trying to distract me. It's not gonna work!"
+	},
+	[11054] = {
+		id = 11054,
+		subtitle = "Huh?! Sneak attacks are no fair!"
+	},
+	[11055] = {
+		id = 11055,
+		subtitle = "Mm... It's okay. I'm fine with you breaking the rules for now, honey..."
+	},
+	[11056] = {
+		id = 11056,
+		subtitle = "I'll have to use my backup plan..."
 	},
 	[12001] = {
 		id = 12001,

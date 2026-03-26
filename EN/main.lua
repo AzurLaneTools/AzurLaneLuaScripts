@@ -17,6 +17,7 @@ require("tolua.reflection")
 tolua.loadassembly("Assembly-CSharp")
 tolua.loadassembly("UnityEngine.UI")
 tolua.loadassembly("Live2D.Cubism")
+tolua.loadassembly("spine-unity")
 math.randomseed(os.time())
 
 CSharpVersion = NetConst.GatewayState

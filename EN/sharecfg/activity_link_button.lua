@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50461
+			50481
 		}
 	},
 	[11] = {
@@ -323,7 +323,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "MoscowURCoreActivityUI",
+		param = "YunLongSPCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -333,7 +333,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50429
+			50483
 		}
 	},
 	[110] = {

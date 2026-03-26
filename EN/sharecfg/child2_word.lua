@@ -7141,7 +7141,7 @@ pg.base.child2_word = {
 	[3000000] = {
 		id = 3000000,
 		main_character_face = 0,
-		word = "3000000+开始是三期的内容，30：主界面台词， 31:主界面聊天和性格验证聊天，32:大地图随机事件，33:心之絮语",
+		word = "",
 		char_type = 0
 	},
 	[3000001] = {
@@ -9259,7 +9259,7 @@ pg.base.child2_word = {
 	[3200408] = {
 		id = 3200408,
 		main_character_face = 0,
-		word = "A pond's mirror surface reflects through a trellis adorned with flowers. Another fork in the road has appeared…",
+		word = "A pond's mirror surface reflects through a trellis adorned with flowers. Another fork in the road has appeared...",
 		char_type = 0
 	},
 	[3200410] = {
@@ -9271,7 +9271,7 @@ pg.base.child2_word = {
 	[3200411] = {
 		id = 3200411,
 		main_character_face = 0,
-		word = "Layers of vines overlap, making it almost impossible to see the way forward…",
+		word = "Layers of vines overlap, making it almost impossible to see the way forward...",
 		char_type = 0
 	},
 	[3200413] = {
@@ -9289,7 +9289,7 @@ pg.base.child2_word = {
 	[3200415] = {
 		id = 3200415,
 		main_character_face = 0,
-		word = "The wind carries a clean fragrance. Once again, the path splits in two…",
+		word = "The wind carries a clean fragrance. Once again, the path splits in two...",
 		char_type = 0
 	},
 	[3200417] = {
@@ -9319,7 +9319,7 @@ pg.base.child2_word = {
 	[3200422] = {
 		id = 3200422,
 		main_character_face = 0,
-		word = "走对路线触发奖励，走错路线会根据分支给到不同惩罚、不同文本。",
+		word = "",
 		char_type = 0
 	},
 	[3200501] = {
@@ -9349,7 +9349,7 @@ pg.base.child2_word = {
 	[3200506] = {
 		id = 3200506,
 		main_character_face = 0,
-		word = "As soon as you decline, you're suddenly ravaged by hunger. Unfortunately, the combo has sold out…",
+		word = "As soon as you decline, you're suddenly ravaged by hunger. Unfortunately, the combo has sold out...",
 		char_type = 0
 	},
 	[3200508] = {
@@ -9565,7 +9565,7 @@ pg.base.child2_word = {
 	[3201005] = {
 		id = 3201005,
 		main_character_face = 0,
-		word = "[Trial-and-Error It] ",
+		word = "[Trial-and-Error It]",
 		char_type = 2
 	},
 	[3201006] = {
@@ -9925,7 +9925,7 @@ pg.base.child2_word = {
 	[3201806] = {
 		id = 3201806,
 		main_character_face = 0,
-		word = "The manual said the magic conch shell \"can answer any and all questions.\" Lora put it to her ear and asked what tomorrow's weather would be, but the only answer she got was the clear sound of the waves…",
+		word = "The manual said the magic conch shell \"can answer any and all questions.\" Lora put it to her ear and asked what tomorrow's weather would be, but the only answer she got was the clear sound of the waves...",
 		char_type = 0
 	},
 	[3201808] = {
@@ -10237,7 +10237,7 @@ pg.base.child2_word = {
 	[3202412] = {
 		id = 3202412,
 		main_character_face = 0,
-		word = "After telling the manager about the situation, they swiftly take a bite of the rotten food. They assert that there is nothing wrong with it, but they can offer a refund. You decide to…",
+		word = "After telling the manager about the situation, they swiftly take a bite of the rotten food. They assert that there is nothing wrong with it, but they can offer a refund. You decide to...",
 		char_type = 0
 	},
 	[3202413] = {
@@ -10585,7 +10585,7 @@ pg.base.child2_word = {
 	[3203302] = {
 		id = 3203302,
 		main_character_face = 0,
-		word = "That said, there is a notice on the side of the machine that says, \"Broken, please don't use\"…",
+		word = "That said, there is a notice on the side of the machine that says, \"Broken, please don't use\"...",
 		char_type = 0
 	},
 	[3203303] = {
@@ -10627,7 +10627,7 @@ pg.base.child2_word = {
 	[3203401] = {
 		id = 3203401,
 		main_character_face = 0,
-		word = "An eye-catching banner hangs from a street stall. \"Buy more, save more!\" it says. They just so happen to sell things that Lora wants…",
+		word = "An eye-catching banner hangs from a street stall. \"Buy more, save more!\" it says. They just so happen to sell things that Lora wants...",
 		char_type = 0
 	},
 	[3203402] = {
@@ -10687,7 +10687,7 @@ pg.base.child2_word = {
 	[3203505] = {
 		id = 3203505,
 		main_character_face = 0,
-		word = "Failure: The roulette wheel spins, and the ball lands on \"nothing.\" If you want to try again, you'll need to buy something else…",
+		word = "Failure: The roulette wheel spins, and the ball lands on \"nothing.\" If you want to try again, you'll need to buy something else...",
 		char_type = 0
 	},
 	[3203507] = {
@@ -10735,7 +10735,7 @@ pg.base.child2_word = {
 	[3203701] = {
 		id = 3203701,
 		main_character_face = 0,
-		word = "As you walk through the aquarium's deep-blue tunnels, fish in all kinds of shapes swim overhead. Lora gazes at them with particular interest. Next, you decide to…",
+		word = "As you walk through the aquarium's deep-blue tunnels, fish in all kinds of shapes swim overhead. Lora gazes at them with particular interest. Next, you decide to...",
 		char_type = 0
 	},
 	[3203702] = {
@@ -10819,7 +10819,7 @@ pg.base.child2_word = {
 	[3203901] = {
 		id = 3203901,
 		main_character_face = 0,
-		word = "A fish you've never seen before was released into the river near the aquarium…",
+		word = "A fish you've never seen before was released into the river near the aquarium...",
 		char_type = 0
 	},
 	[3203902] = {
@@ -10933,7 +10933,7 @@ pg.base.child2_word = {
 	[3204201] = {
 		id = 3204201,
 		main_character_face = 0,
-		word = "As you're training, Lora performs a high-intensity workout without properly warming up first, and she gets muscle pains. You decide to…",
+		word = "As you're training, Lora performs a high-intensity workout without properly warming up first, and she gets muscle pains. You decide to...",
 		char_type = 0
 	},
 	[3204202] = {
@@ -11071,7 +11071,7 @@ pg.base.child2_word = {
 	[3204409] = {
 		id = 3204409,
 		main_character_face = 0,
-		word = "As soon as you enter, you feel like all your sensitivity was sucked out of you. Strange…",
+		word = "As soon as you enter, you feel like all your sensitivity was sucked out of you. Strange...",
 		char_type = 0
 	},
 	[3204501] = {
@@ -11305,7 +11305,7 @@ pg.base.child2_word = {
 	[3205001] = {
 		id = 3205001,
 		main_character_face = 0,
-		word = "While cleaning out the warehouse, a hardware manjuu found an old, rusty, dust-covered multifunctional wrench. The manjuu offers it to Lora…",
+		word = "While cleaning out the warehouse, a hardware manjuu found an old, rusty, dust-covered multifunctional wrench. The manjuu offers it to Lora...",
 		char_type = 0
 	},
 	[3205002] = {
@@ -11389,7 +11389,7 @@ pg.base.child2_word = {
 	[3205201] = {
 		id = 3205201,
 		main_character_face = 0,
-		word = "The 3rd Endless Toolmaking Contest has begun. As a solo entrant, Lora will need to plan rationally and work quickly to assemble the parts into tools. However, looking at the mess on her table, she has no idea where to start. You advise her by telling her to…",
+		word = "The 3rd Endless Toolmaking Contest has begun. As a solo entrant, Lora will need to plan rationally and work quickly to assemble the parts into tools. However, looking at the mess on her table, she has no idea where to start. You advise her by telling her to...",
 		char_type = 0
 	},
 	[3205202] = {
@@ -11515,7 +11515,7 @@ pg.base.child2_word = {
 	[3205501] = {
 		id = 3205501,
 		main_character_face = 0,
-		word = "A latte art machine capable of telling fortunes has appeared. \"Let coffee predict the path of your destiny,\" it says…",
+		word = "A latte art machine capable of telling fortunes has appeared. \"Let coffee predict the path of your destiny,\" it says...",
 		char_type = 0
 	},
 	[3205502] = {
@@ -11665,7 +11665,7 @@ pg.base.child2_word = {
 	[3205801] = {
 		id = 3205801,
 		main_character_face = 0,
-		word = "Lora has been invited to taste and offer feedback on a nonalcoholic drink that's in development. However, since she's bad at expressing herself, she asks you for advice…",
+		word = "Lora has been invited to taste and offer feedback on a nonalcoholic drink that's in development. However, since she's bad at expressing herself, she asks you for advice...",
 		char_type = 0
 	},
 	[3205802] = {
@@ -11803,7 +11803,7 @@ pg.base.child2_word = {
 	[3206101] = {
 		id = 3206101,
 		main_character_face = 0,
-		word = "The library plans to develop a portable hard drive that contains \"unlimited knowledge.\" Supposedly, whoever can read all of its contents will become the smartest person in the world. Lora has been invited for a trial run, and she seems somewhat hesitant. You decide to…",
+		word = "The library plans to develop a portable hard drive that contains \"unlimited knowledge.\" Supposedly, whoever can read all of its contents will become the smartest person in the world. Lora has been invited for a trial run, and she seems somewhat hesitant. You decide to...",
 		char_type = 0
 	},
 	[3206102] = {
@@ -11983,13 +11983,13 @@ pg.base.child2_word = {
 	[3206509] = {
 		id = 3206509,
 		main_character_face = 0,
-		word = "The medium isn't what's important – the knowledge itself is. Hearing you say this, Lora seemed a little disheartened…",
+		word = "The medium isn't what's important – the knowledge itself is. Hearing you say this, Lora seemed a little disheartened...",
 		char_type = 0
 	},
 	[3206601] = {
 		id = 3206601,
 		main_character_face = 0,
-		word = "Lora lost in the school's sports competition. In light of this, you decide to…",
+		word = "Lora lost in the school's sports competition. In light of this, you decide to...",
 		char_type = 0
 	},
 	[3206602] = {
@@ -12265,7 +12265,7 @@ pg.base.child2_word = {
 	[3207201] = {
 		id = 3207201,
 		main_character_face = 0,
-		word = "A musician manjuu you met at the trendy market has asked Lora to come up with a title for a new song…",
+		word = "A musician manjuu you met at the trendy market has asked Lora to come up with a title for a new song...",
 		char_type = 0
 	},
 	[3207202] = {
@@ -12295,7 +12295,7 @@ pg.base.child2_word = {
 	[3207301] = {
 		id = 3207301,
 		main_character_face = 0,
-		word = "A singer manjuu you met at the trendy market has asked Lora to come up with the lyrics for a new song…",
+		word = "A singer manjuu you met at the trendy market has asked Lora to come up with the lyrics for a new song...",
 		char_type = 0
 	},
 	[3207302] = {
@@ -12571,7 +12571,7 @@ pg.base.child2_word = {
 	[3207901] = {
 		id = 3207901,
 		main_character_face = 0,
-		word = "On a tour to the photo studio, Lora expresses a slight interest in filming. Since the music and script are in place, you decide to discuss in-practice cinematography with her…",
+		word = "On a tour to the photo studio, Lora expresses a slight interest in filming. Since the music and script are in place, you decide to discuss in-practice cinematography with her...",
 		char_type = 0
 	},
 	[3207902] = {
@@ -12871,7 +12871,7 @@ pg.base.child2_word = {
 	[3208701] = {
 		id = 3208701,
 		main_character_face = 0,
-		word = "The bookstore is hosting a reading marathon, challenging the limits of concentrated reading. Lora comes to you, asking for advice on participating…",
+		word = "The bookstore is hosting a reading marathon, challenging the limits of concentrated reading. Lora comes to you, asking for advice on participating...",
 		char_type = 0
 	},
 	[3208702] = {
@@ -12913,7 +12913,7 @@ pg.base.child2_word = {
 	[3208801] = {
 		id = 3208801,
 		main_character_face = 0,
-		word = "Lora happened to find a faded book with an old cover. You decide to…",
+		word = "Lora happened to find a faded book with an old cover. You decide to...",
 		char_type = 0
 	},
 	[3208802] = {
@@ -12967,7 +12967,7 @@ pg.base.child2_word = {
 	[3208901] = {
 		id = 3208901,
 		main_character_face = 0,
-		word = "Outside the musical instrument store in the afternoon, a grand piano stands silently in the display window. Like a taciturn lady, it exudes a silent elegance…",
+		word = "Outside the musical instrument store in the afternoon, a grand piano stands silently in the display window. Like a taciturn lady, it exudes a silent elegance...",
 		char_type = 0
 	},
 	[3208902] = {
@@ -13033,7 +13033,7 @@ pg.base.child2_word = {
 	[3209001] = {
 		id = 3209001,
 		main_character_face = 0,
-		word = "Intermittent piano notes escape through the gap in the music room door…",
+		word = "Intermittent piano notes escape through the gap in the music room door...",
 		char_type = 0
 	},
 	[3209002] = {
@@ -13045,7 +13045,7 @@ pg.base.child2_word = {
 	[3209003] = {
 		id = 3209003,
 		main_character_face = 0,
-		word = "The door is slightly ajar, and you can see Lora sitting in front of the digital piano. Her back is straight, and she presses the keys somewhat awkwardly…",
+		word = "The door is slightly ajar, and you can see Lora sitting in front of the digital piano. Her back is straight, and she presses the keys somewhat awkwardly...",
 		char_type = 0
 	},
 	[3209004] = {
@@ -13099,7 +13099,7 @@ pg.base.child2_word = {
 	[3209101] = {
 		id = 3209101,
 		main_character_face = 0,
-		word = "A community cultural festival program has been posted on the bulletin board, and Lora's name is on it…",
+		word = "A community cultural festival program has been posted on the bulletin board, and Lora's name is on it...",
 		char_type = 0
 	},
 	[3209102] = {
@@ -13153,13 +13153,13 @@ pg.base.child2_word = {
 	[3209111] = {
 		id = 3209111,
 		main_character_face = 0,
-		word = "In the end, her debut performance ended in failure. That unspoken dream, too, faded away like dust in the wind…",
+		word = "In the end, her debut performance ended in failure. That unspoken dream, too, faded away like dust in the wind...",
 		char_type = 0
 	},
 	[3209201] = {
 		id = 3209201,
 		main_character_face = 0,
-		word = "On the top shelf of a locker in science class lies a thick science book that is seldom read…",
+		word = "On the top shelf of a locker in science class lies a thick science book that is seldom read...",
 		char_type = 0
 	},
 	[3209202] = {
@@ -13201,7 +13201,7 @@ pg.base.child2_word = {
 	[3209301] = {
 		id = 3209301,
 		main_character_face = 0,
-		word = "The air in the garden is filled with a fresh scent after rainfall…",
+		word = "The air in the garden is filled with a fresh scent after rainfall...",
 		char_type = 0
 	},
 	[3209302] = {
@@ -13219,7 +13219,7 @@ pg.base.child2_word = {
 	[3209304] = {
 		id = 3209304,
 		main_character_face = 0,
-		word = "Her backpack is left on the bench beside her, and from its open compartment, you see a nature encyclopedia peeking out…",
+		word = "Her backpack is left on the bench beside her, and from its open compartment, you see a nature encyclopedia peeking out...",
 		char_type = 0
 	},
 	[3209305] = {
@@ -13255,7 +13255,7 @@ pg.base.child2_word = {
 	[3209401] = {
 		id = 3209401,
 		main_character_face = 0,
-		word = "On the bench in the laboratory lie absorbent paper and tweezers…",
+		word = "On the bench in the laboratory lie absorbent paper and tweezers...",
 		char_type = 0
 	},
 	[3209402] = {

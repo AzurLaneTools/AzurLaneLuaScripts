@@ -8,6 +8,7 @@ slot0.CHANGE_CHAT_TIP = "InstagramMainMediator:CHANGE_CHAT_TIP"
 slot0.CLOSE_ALL = "InstagramMainMediator:CLOSE_ALL"
 slot0.CLOSE_JUUS_DETAIL = "InstagramMainMediator:CLOSE_JUUS_DETAIL"
 slot0.JUUS_BACK_PRESSED = "InstagramMainMediator:JUUS_BACK_PRESSED"
+slot0.INS_BACK_PRESSED = "InstagramMainMediator:INS_BACK_PRESSED"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.OPEN_CHAT, function (slot0)
@@ -38,6 +39,9 @@ slot0.register = function(slot0)
 		uv0:sendNotification(InstagramMediator.CLOSE_DETAIL)
 	end)
 	slot0:bind(uv0.JUUS_BACK_PRESSED, function (slot0)
+		uv0:sendNotification(InstagramChatMediator.BACK_PRESSED)
+	end)
+	slot0:bind(uv0.INS_BACK_PRESSED, function (slot0)
 		uv0:sendNotification(InstagramMediator.BACK_PRESSED)
 	end)
 end

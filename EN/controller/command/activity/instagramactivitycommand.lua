@@ -1,13 +1,9 @@
 slot0 = class("InstagramActivityCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
-	slot2 = slot1:getBody()
-
-	print("cmd:", slot2.cmd, "arg1:", slot2.arg1, "arg2:", slot2.arg2, "activity_id:", slot2.activity_id)
-
 	slot3 = getProxy(InstagramProxy)
 
-	if ActivityConst.INSTAGRAM_OP_ACTIVE == slot2.cmd then
+	if ActivityConst.INSTAGRAM_OP_ACTIVE == slot1:getBody().cmd then
 		slot4 = pg.ConnectionMgr.GetInstance()
 
 		slot4:Send(11701, {
@@ -38,7 +34,8 @@ slot0.execute = function(slot0, slot1)
 		}, 11702, function (slot0)
 			if slot0.result == 0 then
 				if ActivityConst.INSTAGRAM_OP_MARK_READ == uv0.cmd then
-					slot1 = uv1:GetMessageById(uv0.arg1)
+					slot1 = nil
+					slot1 = (pg.activity_ins_template[uv0.arg1].type ~= InstagramConst.INSTAGRAM_TYPE.OFFICIAL_ACCOUNT or uv1:GetOfficialAccounts()[uv0.arg1]) and uv1:GetMessageById(uv0.arg1)
 					slot1.isRead = true
 
 					uv1:UpdateMessage(slot1)

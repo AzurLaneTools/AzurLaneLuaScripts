@@ -31,7 +31,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "More Tarot Cards and Readings apepar on Hard Mode, letting you take Lora to new heights.",
+				text = "More Tarot Cards and Readings appear on Hard Mode, letting you take Lora to new heights.",
 				mode = 2,
 				char = 1,
 				posY = 0,

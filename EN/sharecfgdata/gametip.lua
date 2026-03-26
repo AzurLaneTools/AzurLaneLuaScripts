@@ -37111,6 +37111,16 @@ _G.pg.base.gametip.child2_site_drop_item = {
 }
 
 
+_G.pg.base.gametip.child2_personal_tag1 = {
+	tip = "Mild"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag2 = {
+	tip = "Rebellious"
+}
+
+
 _G.pg.base.gametip.child2_personal_id1_tag1 = {
 	tip = "Mild"
 }
@@ -38416,12 +38426,12 @@ _G.pg.base.gametip.secretary_special_character_buy_unlock = {
 
 
 _G.pg.base.gametip.child2_mood_desc1 = {
-	tip = "Current Mood: Depressed; <color=#ee4a4a>Rewards gained -40%</color>"
+	tip = "Current Mood: Depressed; <color=#ee4a4a>Rewards gained -40%%</color>"
 }
 
 
 _G.pg.base.gametip.child2_mood_desc2 = {
-	tip = "Current Mood: Sad; <color=#ff6767>Rewards gained -20%</color>"
+	tip = "Current Mood: Sad; <color=#ff6767>Rewards gained -20%%</color>"
 }
 
 
@@ -38431,12 +38441,12 @@ _G.pg.base.gametip.child2_mood_desc3 = {
 
 
 _G.pg.base.gametip.child2_mood_desc4 = {
-	tip = "Current Mood: Happy; <color=#00c79b>Rewards gained +40%</color>"
+	tip = "Current Mood: Happy; <color=#00c79b>Rewards gained +40%%</color>"
 }
 
 
 _G.pg.base.gametip.child2_mood_desc5 = {
-	tip = "Current Mood: Happy; <color=#00c79b>Rewards gained +40%</color>"
+	tip = "Current Mood: Happy; <color=#00c79b>Rewards gained +40%%</color>"
 }
 
 
@@ -47314,116 +47324,6 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_title = {
-	tip = "Business Missions"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_go = {
-	tip = "Confirm"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_get = {
-	tip = "Accept"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_got = {
-	tip = "Claimed"
-}
-
-
-_G.pg.base.gametip.LiquorFloor_gold_get = {
-	tip = "Collect Old Coins"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
-	tip = "Springtide Inn Online"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
-	tip = "Supply Station"
-}
-
-
-_G.pg.base.gametip.loveactivity_help_tips = {
-	tip = {
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_2"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_3"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_4"
-			}
-		},
-		disableScroll = true,
-		pageMode = true,
-		defaultpage = 1,
-		ImageMode = true,
-		windowSize = {
-			x = 1263,
-			y = 873
-		},
-		windowPos = {
-			y = -70
-		},
-		helpSize = {
-			x = 1176,
-			y = 1024
-		}
-	}
-}
-
-
-_G.pg.base.gametip.spring_present_tips_btn = {
-	tip = "New Year's Warmth"
-}
-
-
-_G.pg.base.gametip.spring_present_tips_time = {
-	tip = "Event Period: 00:00, February 17 - 23:59, March 3"
-}
-
-
-_G.pg.base.gametip.spring_present_tips0 = {
-	tip = "Please disable the Random Secretary feature and try again."
-}
-
-
-_G.pg.base.gametip.spring_present_tips1 = {
-	tip = "The leftmost secretary shipgirl in your list will send a message to your mailbox. Continue?"
-}
-
-
-_G.pg.base.gametip.spring_present_tips2 = {
-	tip = "This shipgirl cannot send you a New Year gift. Please change your Secretary shipgirl and try again."
-}
-
-
-_G.pg.base.gametip.spring_present_tips3 = {
-	tip = "A gift has been sent to your mailbox!"
-}
-
-
 _G.pg.base.gametip.island_gift_tip_title = {
 	tip = "Stamina"
 }
@@ -48165,4 +48065,231 @@ _G.pg.base.gametip.child2_explorer_main_help = {
 			y = 1024
 		}
 	}
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "Business Missions"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "Accept"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "Claimed"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "Collect Old Coins"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "Springtide Inn Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "Supply Station"
+}
+
+
+_G.pg.base.gametip.YunLongSPCoreActivity_subtitle_1 = {
+	tip = "The Vagabond's Recruitment Plan"
+}
+
+
+_G.pg.base.gametip.YunLongSPCoreActivity_subtitle_2 = {
+	tip = "Vagabond's Supply Station"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "New Year's Warmth"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "Event Period: 00:00, February 17 - 23:59, March 3"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "Please disable the Random Secretary feature and try again."
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "The leftmost secretary shipgirl in your list will send a message to your mailbox. Continue?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "This shipgirl cannot send you a New Year gift. Please change your Secretary shipgirl and try again."
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "A gift has been sent to your mailbox!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2604 = {
+	tip = "Complete Cruise Missions between 4/1/2026 - 5/31/2026, accumulate <icon name=pt w=0.5 h=0.5/>, and receive <color=#854747>Köln META</color> and other rewards!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2604 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+4/1/2026 00:00 – 5/31/2026 23:59
+
+- Overview -
+""Cruise Missions"" is a seasonal campaign where you can complete special missions, collect Progress Pts, and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of ""Fair Winds Cruise"" rewards by purchasing the ""Fair Winds Cruise Pass"" item from Akashi's shop.
+Köln META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Avrora, ""Mellow Seaspray"".
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2604 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2604 = {
+	tip = "Cruise Missions - S28"
+}
+
+
+_G.pg.base.gametip.add_friend_fail_tip9 = {
+	tip = "Friend request failed."
+}
+
+
+_G.pg.base.gametip.juusoa_title = {
+	tip = "Juu Port Updates"
+}
+
+
+_G.pg.base.gametip.story_recrewed = {
+	tip = "Recruited"
+}
+
+
+_G.pg.base.gametip.story_not_recrew = {
+	tip = "Not Yet Recruited"
+}
+
+
+_G.pg.base.gametip.multiple_endings_tip = {
+	tip = {
+		{
+			info = "Unlocking Endings:\nYou may encounter <color=#92fc63>Important Decisions</color> while playing through a story.<color=#92fc63>Important Decisions</color> affect the ending of the story. By playing through the story again and selecting a different <color=#92fc63>Important Decision</color>, you may be able to unlock a different ending."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.l2d_tip_on = {
+	tip = "L2D interaction tips enabled."
+}
+
+
+_G.pg.base.gametip.l2d_tip_off = {
+	tip = "L2D interaction tips disabled."
 }
