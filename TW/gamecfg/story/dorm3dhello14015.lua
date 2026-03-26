@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello15/drom3d_aegir_hello15",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "懒得动了……{dorm3d}，现在立刻过来给我一个拥抱。你不会不敢吧？",
+			say = "懶得動了……{dorm3d}，現在立刻過來給我一個擁抱。你不會不敢吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

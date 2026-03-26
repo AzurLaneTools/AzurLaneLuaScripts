@@ -2447,6 +2447,9 @@ pg.ship_data_group = setmetatable({
 		[970110] = {
 			30052
 		},
+		[970208] = {
+			30053
+		},
 		[970209] = {
 			30055
 		},
@@ -3277,6 +3280,7 @@ pg.ship_data_group = setmetatable({
 			30049,
 			30050,
 			30052,
+			30053,
 			30055,
 			30057
 		}
@@ -4097,6 +4101,7 @@ pg.ship_data_group = setmetatable({
 		30049,
 		30050,
 		30052,
+		30053,
 		30055,
 		30057
 	}
@@ -28419,6 +28424,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -28581,6 +28596,17 @@ pg.base.ship_data_group = {
 				"限時活動：深度回音",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -29380,6 +29406,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -29508,6 +29545,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -29538,6 +29586,28 @@ pg.base.ship_data_group = {
 				"限時活動：深度回音",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行重型、特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"常駐UR兌換",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -36909,6 +36979,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9701101
+					}
+				},
+				0
+			}
+		}
+	},
+	[30053] = {
+		nationality = 97,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970208,
+		index_id = 30050,
+		code = 30053,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702081
 					}
 				},
 				0

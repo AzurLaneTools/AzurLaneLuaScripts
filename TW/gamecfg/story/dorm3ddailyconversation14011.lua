@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "难得有这样风平浪静的闲暇，就这么虚度，不觉得有些浪费吗？",
+			say = "難得有這樣風平浪靜的閒暇，就這麼虛度，不覺得有些浪費嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哈？要我扮女仆？反正上次也扮过？",
+			say = "哈？要我扮女僕？反正上次也扮過？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "说什么蠢话~那不过是公务、对，是公务！公务所需所以才穿的。",
+			say = "說什麼蠢話~那不過是公務、對，是公務！公務所需所以才穿的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "别用那种眼神盯着我啊……真是的……",
+			say = "別用那種眼神盯著我啊……真是的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我知道了……下、下次，你晚上过来的话，或许可以……考虑一下，只是考虑哦。",
+			say = "我知道了……下、下次，你晚上過來的話，或許可以……考慮一下，只是考慮一下哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

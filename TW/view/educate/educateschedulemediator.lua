@@ -7,6 +7,7 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.EDUCATE_GET_PLANS, {
 			plans = EducatePlanProxy.GridData2ProtData(slot1.gridData),
 			isSkip = slot1.isSkip,
+			isSkipEvent = slot1.isSkipEvent,
 			callback = function ()
 			end
 		})

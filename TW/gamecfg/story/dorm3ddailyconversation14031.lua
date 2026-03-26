@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "之前我就想说了，指挥官，你的起床闹铃会不会有点太吵了？海上风暴也差不多就是这个动静吧？",
+			say = "之前我就想說了，指揮官，你的起床鬧鐘會不會有點太吵了？海上風暴也差不多就是這個動靜吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就连这个也快要吵不醒我了。",
+			say = "就連這個也快要吵不醒我了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "真是的……明明说一句“需要我”就好，却偏要跟闹钟较劲~",
+			say = "真是的……明明說一句「需要我」就好，卻偏要跟鬧鐘較勁~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "既然我知道了，那你的“专属唤醒师”这份殊荣，我就勉为其难地收下吧。",
+			say = "既然我知道了，那你的「專屬喚醒師」這份殊榮，我就勉為其難收下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "毕竟能让你睁开眼第一个见到的人是我……这点“噪音”，就当是胜利的礼炮好了。",
+			say = "畢竟能讓你睜開眼第一個見到的人是我……這點「噪音」，就當是勝利的禮炮好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_gfit1_tone6/drom3d_aegir_ik_gfit1_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "居然试图主动挑战我……胆子不小啊~",
+			say = "居然試圖主動挑戰我……膽子不小啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

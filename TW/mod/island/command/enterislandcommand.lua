@@ -87,6 +87,10 @@ slot0.Send = function(slot0, slot1, slot2, slot3)
 			return
 		end
 
+		if uv2 then
+			getProxy(IslandProxy):SetReconnectProcessing(false)
+		end
+
 		if slot0.result == 6 then
 			uv0:sendNotification(GAME.ISLAND_QUEUE_UP, {
 				pos = slot0.pos,

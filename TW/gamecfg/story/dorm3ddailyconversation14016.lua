@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "唔……疼疼疼……",
+			say = "唔……痛痛痛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "今早想翻窗捡一下落在窗外的东西，结果不小心卡在窗框上了，悬在半空。",
+			say = "今早想翻窗撿一下落在窗外的東西，結果不小心卡在窗框上了，懸在半空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "脚只能勉强点地，手也使不上力……好不容易才安全回来。",
+			say = "腳只能勉強點地，手也使不上力……好不容易才安全回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊，谢谢，被你这么一揉确实舒服多了。哼哼，很有眼色嘛？值得夸奖。",
+			say = "啊，謝謝，被你這麼一揉確實舒服多了。哼哼，很有眼力嘛？值得誇獎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你笑什么？喂，你该不会……在想什么很失礼的事情吧？",
+			say = "你笑什麼？喂，你該不會……在想什麼很失禮的事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

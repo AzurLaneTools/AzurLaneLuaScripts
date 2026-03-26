@@ -94,7 +94,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 end
 
 slot0.RefreshView = function(slot0)
-	slot1 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.TALENT)
+	slot1 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.TALENT)
 	slot0.talentList = slot1:GetTalents()
 	slot0.reTalentList = slot1:GetReTalents()
 
@@ -104,14 +104,14 @@ end
 slot0.OnRefreshTalent = function(slot0, slot1, slot2)
 	slot3 = slot0.contextData.char
 	slot3 = slot3:GetFSM()
-	slot3 = slot3:GetState(NewEducateFSM.STYSTEM.TALENT)
+	slot3 = slot3:GetState(NewEducateFSM.SYSTEM.TALENT)
 	slot0.talentList = slot3:GetTalents()
 	slot0.reTalentList = slot3:GetReTalents()
 
 	eachChild(slot0.uiList.container, function (slot0)
 		if tonumber(slot0.name) == uv0 then
 			slot0:GetComponent(typeof(DftAniEvent)):SetTriggerEvent(function ()
-				uv0:SetEndEvent(nil)
+				uv0:SetTriggerEvent(nil)
 
 				uv1.isPlaying = false
 
@@ -125,26 +125,41 @@ slot0.OnRefreshTalent = function(slot0, slot1, slot2)
 end
 
 slot0.OnSelectedDone = function(slot0, slot1)
-	slot2 = slot0.animEvent
-
-	slot2:SetEndEvent(function ()
-		uv0.animEvent:SetEndEvent(nil)
-
-		uv0.isPlaying = false
-
-		uv0:closeView()
-	end)
-
-	slot2 = slot0.animCom
-
-	slot2:Play("Anim_educate_talent_select")
-
-	slot0.isPlaying = true
-
-	eachChild(slot0.uiList.container, function (slot0)
-		if tonumber(slot0.name) ~= uv0 then
-			slot0:GetComponent(typeof(Animation)):Play("Anim_educate_talent_tpl_out")
+	seriesAsync({
+		function (slot0)
+			if #uv0.drops > 0 then
+				uv1:emit(uv2.ON_DROP, {
+					items = uv0.drops,
+					removeFunc = function ()
+						uv0()
+					end
+				})
+			else
+				slot0()
+			end
 		end
+	}, function ()
+		slot0 = uv0.animEvent
+
+		slot0:SetEndEvent(function ()
+			uv0.animEvent:SetEndEvent(nil)
+
+			uv0.isPlaying = false
+
+			uv0:closeView()
+		end)
+
+		slot0 = uv0.animCom
+
+		slot0:Play("Anim_educate_talent_select")
+
+		uv0.isPlaying = true
+
+		eachChild(uv0.uiList.container, function (slot0)
+			if tonumber(slot0.name) ~= uv0.idx then
+				slot0:GetComponent(typeof(Animation)):Play("Anim_educate_talent_tpl_out")
+			end
+		end)
 	end)
 end
 

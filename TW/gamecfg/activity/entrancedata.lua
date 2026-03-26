@@ -362,6 +362,17 @@ return {
 		end
 	},
 	{
+		banner = "cultivating_plant",
+		event = ActivityMediator.OPEN_CULTIVATING_PLANT,
+		data = {},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.CULTIVATING_PLANT_ID) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return CultivatingPlantTools.NeedShowRedPoint()
+		end
+	},
+	{
 		banner = "activity_boss",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {

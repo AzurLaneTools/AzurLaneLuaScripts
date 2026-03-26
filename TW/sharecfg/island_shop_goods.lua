@@ -256,7 +256,13 @@ pg.island_shop_goods = setmetatable({
 		471051701,
 		471011001,
 		475060101,
-		474030301
+		474030301,
+		99000101,
+		99000102,
+		99000201,
+		99000202,
+		99000301,
+		99000302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11034,6 +11040,252 @@ pg.base.island_shop_goods = {
 			{
 				47,
 				4030301,
+				1
+			}
+		}
+	},
+	[99000101] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "元气上学路",
+		desc = "购买可获得领洋者-娜比娅“元气上学路”皮肤装扮",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000101,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000101,
+				1
+			}
+		}
+	},
+	[99000102] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "优等生气场",
+		desc = "购买可获得领洋者-娜比娅“优等生气场”皮肤装扮",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000102,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000102,
+				1
+			}
+		}
+	},
+	[99000201] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "懵懂时光",
+		desc = "购买可获得领航员-TB“懵懂时光”皮肤装扮",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000201,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000201,
+				1
+			}
+		}
+	},
+	[99000202] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "见习观察员",
+		desc = "购买可获得领航员-TB“见习观察员”皮肤装扮",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000202",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000202,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000202,
+				1
+			}
+		}
+	},
+	[99000301] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "纯白低语",
+		desc = "购买可获得探索者-艾普洛“纯白低语”皮肤装扮",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000301",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000301,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000301,
+				1
+			}
+		}
+	},
+	[99000302] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "沉静礼装",
+		desc = "购买可获得探索者-艾普洛“沉静礼装”皮肤装扮",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000302",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000302,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000302,
 				1
 			}
 		}

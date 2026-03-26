@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}~你尝试过在咖啡杯中，搅出一个完美的漩涡吗？",
+			say = "{dorm3d}~你嘗試過在咖啡杯中，攪出一個完美的漩渦嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "怎么样，是不是非常深邃，还带着香醇的气息……",
+			say = "怎麼樣，是不是非常深邃，還帶著香醇的氣息……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……或许这就是你带给我的感觉吧~",
+			say = "嗯……或許這就是你帶給我的感覺吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "现在，我可要好好品尝了哦~",
+			say = "現在，我可要好好品嚐了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

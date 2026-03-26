@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello9/drom3d_aegir_hello9",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你的头发全都翘起来了，怎么能睡成这幅样子？过来，我帮你梳顺些。",
+			say = "你的頭髮全都翹起來了，怎麼能睡成這個樣子？過來，我幫你梳順些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

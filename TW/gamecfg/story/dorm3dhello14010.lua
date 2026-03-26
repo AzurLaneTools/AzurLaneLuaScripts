@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello10/drom3d_aegir_hello10",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "笑成这样……你该不会又在打什么怪主意吧？从实招来吧！",
+			say = "笑成這樣……你該不會又在打什麼怪主意吧？從實招來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

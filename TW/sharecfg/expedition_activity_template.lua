@@ -7847,7 +7847,7 @@ pg.expedition_activity_template = {
 	},
 	[1792013] = {
 		id = 1792013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5221,
@@ -7858,7 +7858,7 @@ pg.expedition_activity_template = {
 	},
 	[1792113] = {
 		id = 1792113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5221,
@@ -7869,7 +7869,7 @@ pg.expedition_activity_template = {
 	},
 	[1792213] = {
 		id = 1792213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5221,
@@ -7880,7 +7880,7 @@ pg.expedition_activity_template = {
 	},
 	[1792233] = {
 		id = 1792233,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5221,
@@ -7891,7 +7891,7 @@ pg.expedition_activity_template = {
 	},
 	[1793013] = {
 		id = 1793013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5222,
@@ -7902,7 +7902,7 @@ pg.expedition_activity_template = {
 	},
 	[1793113] = {
 		id = 1793113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5222,
@@ -7913,7 +7913,7 @@ pg.expedition_activity_template = {
 	},
 	[1793213] = {
 		id = 1793213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5222,
@@ -7924,7 +7924,7 @@ pg.expedition_activity_template = {
 	},
 	[1793214] = {
 		id = 1793214,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5222,
@@ -7935,7 +7935,7 @@ pg.expedition_activity_template = {
 	},
 	[1793215] = {
 		id = 1793215,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5222,
@@ -7946,7 +7946,7 @@ pg.expedition_activity_template = {
 	},
 	[1793233] = {
 		id = 1793233,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5222,
@@ -7957,7 +7957,7 @@ pg.expedition_activity_template = {
 	},
 	[1793234] = {
 		id = 1793234,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5222,
@@ -7968,7 +7968,7 @@ pg.expedition_activity_template = {
 	},
 	[1793235] = {
 		id = 1793235,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
 				5222,

@@ -1441,6 +1441,11 @@ end
 
 slot0.DisplayContinuousWindow = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:getConfig("oil")
+
+	if slot1:IsSupportSubmarineStage() and #slot1:getSupportFleet() > 0 then
+		slot5 = slot5 + getGameset("submarine_support_oil_consume")[1]
+	end
+
 	slot7 = 0
 	slot8 = 0
 

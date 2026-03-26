@@ -15746,6 +15746,37 @@ _G.pg.base.item_data_statistics[21052] = {
 }
 
 
+_G.pg.base.item_data_statistics[21053] = {
+	open_directly = 0,
+	name = "結晶：{namecode:197}·META",
+	type = 4,
+	display = "{namecode:197}·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21053",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21053,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21055] = {
 	open_directly = 0,
 	name = "結晶：克里夫蘭·META",
@@ -29621,6 +29652,58 @@ _G.pg.base.item_data_statistics[30431] = {
 		{
 			9,
 			2108,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30432] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	type = 11,
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111226",
+	id = 30432,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2109,
+			1
+		},
+		{
+			9,
+			2110,
+			1
+		},
+		{
+			9,
+			2111,
+			1
+		},
+		{
+			9,
+			2112,
 			1
 		}
 	},
@@ -46507,6 +46590,58 @@ _G.pg.base.item_data_statistics[40053] = {
 			2,
 			30113,
 			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40054] = {
+	open_directly = 1,
+	name = "海上傳奇支援組合包(喀琅施塔得)",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4055",
+	id = 40054,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59561,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
 		}
 	},
 	price = {},
@@ -78428,6 +78563,51 @@ _G.pg.base.item_data_statistics[59560] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59561] = {
+	open_directly = 0,
+	name = "換裝自選券（喀琅施塔得）",
+	type = 26,
+	display = "在「倉庫」中使用，可以從指定清單中選擇一件換裝兌換\n（<color=#ff5c5c>換裝兌換券僅能兌換指定清單中的換裝。若目前已全部擁有，兌換券將可轉換為換裝抵扣券</color>）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59561,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			718011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			718011
+		},
+		0,
+		59552
+	},
 	limit = {}
 }
 

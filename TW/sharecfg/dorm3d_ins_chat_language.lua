@@ -521,7 +521,198 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		517,
 		518,
 		519,
-		520
+		520,
+		521,
+		522,
+		523,
+		524,
+		525,
+		526,
+		527,
+		528,
+		529,
+		530,
+		531,
+		532,
+		533,
+		534,
+		535,
+		536,
+		537,
+		538,
+		539,
+		540,
+		541,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
+		551,
+		552,
+		553,
+		554,
+		555,
+		556,
+		557,
+		558,
+		559,
+		560,
+		561,
+		562,
+		563,
+		564,
+		565,
+		566,
+		567,
+		568,
+		569,
+		570,
+		571,
+		572,
+		573,
+		574,
+		575,
+		576,
+		577,
+		578,
+		579,
+		580,
+		581,
+		582,
+		583,
+		584,
+		585,
+		586,
+		587,
+		588,
+		589,
+		590,
+		591,
+		592,
+		593,
+		594,
+		595,
+		596,
+		597,
+		598,
+		599,
+		600,
+		601,
+		602,
+		603,
+		604,
+		605,
+		606,
+		607,
+		608,
+		609,
+		610,
+		611,
+		612,
+		613,
+		614,
+		615,
+		616,
+		617,
+		618,
+		619,
+		620,
+		621,
+		622,
+		623,
+		624,
+		625,
+		626,
+		627,
+		628,
+		629,
+		630,
+		631,
+		632,
+		633,
+		634,
+		635,
+		636,
+		637,
+		638,
+		639,
+		640,
+		641,
+		642,
+		643,
+		644,
+		645,
+		646,
+		647,
+		648,
+		649,
+		650,
+		651,
+		652,
+		653,
+		654,
+		655,
+		656,
+		657,
+		658,
+		659,
+		660,
+		661,
+		662,
+		663,
+		664,
+		665,
+		666,
+		667,
+		668,
+		669,
+		670,
+		671,
+		672,
+		673,
+		674,
+		675,
+		676,
+		677,
+		678,
+		679,
+		680,
+		681,
+		682,
+		683,
+		684,
+		685,
+		686,
+		687,
+		688,
+		689,
+		690,
+		691,
+		692,
+		693,
+		694,
+		695,
+		696,
+		697,
+		698,
+		699,
+		700,
+		701,
+		702,
+		703,
+		704,
+		705,
+		706,
+		707,
+		708,
+		709,
+		710,
+		711
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5045,5 +5236,1678 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 520,
 		flag = 1
+	},
+	{
+		param = "指揮官，你睡了嗎？",
+		ship_group = 49905,
+		type = 1,
+		id = 521,
+		flag = 0,
+		option = {
+			{
+				1,
+				"我睡了"
+			}
+		}
+	},
+	{
+		param = "我睡了，睡得很熟，沒有在熬夜",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 522,
+		flag = 1
+	},
+	{
+		param = "哦？是這樣啊……真讓人放心，看來要好好誇誇你才對哦？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 523,
+		flag = 1
+	},
+	{
+		param = "……你以為我會這麼說嗎？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 524,
+		flag = 1
+	},
+	{
+		param = "睡著了的人是怎麼回我消息的……明明就是在熬夜",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 525,
+		flag = 1
+	},
+	{
+		param = "明天早上是不是又想頂著「世界末日」般的臉色出門了？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 526,
+		flag = 1
+	},
+	{
+		param = "給你五分鐘，立刻睡覺！",
+		ship_group = 49905,
+		type = 1,
+		id = 527,
+		flag = 1,
+		option = {
+			{
+				2,
+				"五分鐘……"
+			}
+		}
+	},
+	{
+		param = "五分鐘也太強人所難了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 528,
+		flag = 2
+	},
+	{
+		param = "哦？那就是希望我帶著珍藏的「深淵佳釀」過去找你？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 529,
+		flag = 2
+	},
+	{
+		param = "我倒是不介意……反正明天會因為宿醉頭痛的人不是我",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 530,
+		flag = 2
+	},
+	{
+		param = "事先說好，你明天要是起不來……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 531,
+		flag = 2
+	},
+	{
+		param = "無論是向深淵之神祈求寬恕，還是接受它的贈禮，代價都很沉重哦？",
+		ship_group = 49905,
+		type = 1,
+		id = 532,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我这就睡！"
+			}
+		}
+	},
+	{
+		param = "我這就睡！晚安",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 533,
+		flag = 3
+	},
+	{
+		param = "呵呵，這才對嘛",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 534,
+		flag = 3
+	},
+	{
+		param = "好好期待吧，表現好了……自然會有獎勵",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 535,
+		flag = 3
+	},
+	{
+		param = "晚安，我親愛的指揮官",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 536,
+		flag = 3
+	},
+	{
+		param = "今天你會來找我嗎？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 537,
+		flag = 0
+	},
+	{
+		param = "只是隨口一問，沒什麼特別的意思",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 538,
+		flag = 0
+	},
+	{
+		param = "所以，會來嗎？",
+		ship_group = 49905,
+		type = 1,
+		id = 539,
+		flag = 0,
+		option = {
+			{
+				1,
+				"這就來"
+			}
+		}
+	},
+	{
+		param = "這就來",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 540,
+		flag = 1
+	},
+	{
+		param = "不用特意趕來！我只是隨口確認一下而已！",
+		ship_group = 49905,
+		type = 1,
+		id = 541,
+		flag = 1,
+		option = {
+			{
+				2,
+				"但妳其實是有事找我？"
+			}
+		}
+	},
+	{
+		param = "但妳其實是有事找我？主動發訊息來，總不會只是單純想確認這個？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 542,
+		flag = 2
+	},
+	{
+		param = "稍等，我鑰匙好像不見了……我找一下，很快就過來",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 543,
+		flag = 2
+	},
+	{
+		param = "說了不用特意過來！我只是……有點想見你",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 544,
+		flag = 2
+	},
+	{
+		param = "上面那句不算……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 545,
+		flag = 2
+	},
+	{
+		param = "這要怎麼撤回……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 546,
+		flag = 2
+	},
+	{
+		param = "你說話！你沒看見對吧？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 547,
+		flag = 2
+	},
+	{
+		param = "頂掉吧",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 548,
+		flag = 2
+	},
+	{
+		param = "對了",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 549,
+		flag = 2
+	},
+	{
+		param = "我突然很想做個水族箱",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 550,
+		flag = 2
+	},
+	{
+		param = "你幫我去買",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 551,
+		flag = 2
+	},
+	{
+		param = "買石頭",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 552,
+		flag = 2
+	},
+	{
+		param = "買沙子",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 553,
+		flag = 2
+	},
+	{
+		param = "再買幾條漂亮的魚",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 554,
+		flag = 2
+	},
+	{
+		param = "海草也要",
+		ship_group = 49905,
+		type = 1,
+		id = 555,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我都看見了"
+			}
+		}
+	},
+	{
+		param = "我都看見了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 556,
+		flag = 3
+	},
+	{
+		param = "每一句……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 557,
+		flag = 3
+	},
+	{
+		param = "……我有點想見你",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 558,
+		flag = 3
+	},
+	{
+		param = "說起來，指揮官",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 559,
+		flag = 0
+	},
+	{
+		param = "我在回程的路上看到了打掃煙囪的清潔啾啾",
+		ship_group = 49905,
+		type = 1,
+		id = 560,
+		flag = 0,
+		option = {
+			{
+				1,
+				"一年一度的鍋爐房大檢修？"
+			}
+		}
+	},
+	{
+		param = "今天是一年一度徹底檢修鍋爐房的日子吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 561,
+		flag = 1
+	},
+	{
+		param = "……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 562,
+		flag = 1
+	},
+	{
+		param = "對了，我還撿到了一個馬蹄鐵",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 563,
+		flag = 1
+	},
+	{
+		param = "有三顆釘子的",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 564,
+		flag = 1
+	},
+	{
+		param = "很棒吧？",
+		ship_group = 49905,
+		type = 1,
+		id = 565,
+		flag = 1,
+		option = {
+			{
+				2,
+				"港區還有人養馬？"
+			}
+		}
+	},
+	{
+		param = "港區還有人養馬？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 566,
+		flag = 2
+	},
+	{
+		param = "真稀奇",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 567,
+		flag = 2
+	},
+	{
+		param = "…………",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 568,
+		flag = 2
+	},
+	{
+		param = "你……",
+		ship_group = 49905,
+		type = 1,
+		id = 569,
+		flag = 2,
+		option = {
+			{
+				3,
+				"？"
+			}
+		}
+	},
+	{
+		param = "？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 570,
+		flag = 3
+	},
+	{
+		param = "……還有，我在樓下的花壇裡，找到一片四葉草",
+		ship_group = 49905,
+		type = 1,
+		id = 571,
+		flag = 3,
+		option = {
+			{
+				4,
+				"是幸運物對吧？"
+			}
+		}
+	},
+	{
+		param = "這個我懂，是幸運物對吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 572,
+		flag = 4
+	},
+	{
+		param = "………………",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 573,
+		flag = 4
+	},
+	{
+		param = "我想說的是……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 574,
+		flag = 4
+	},
+	{
+		param = "今天，好像接連不斷地遇到許多有趣的事情",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 575,
+		flag = 4
+	},
+	{
+		param = "你……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 576,
+		flag = 4
+	},
+	{
+		param = "要不要來我這裡坐坐呢？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 577,
+		flag = 4
+	},
+	{
+		param = "這份好運……分你一點也不是完全不行",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 578,
+		flag = 4
+	},
+	{
+		param = "當然不一定能分到！只是說我願意分……賞賜你一點~",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 579,
+		flag = 4
+	},
+	{
+		param = "你……我房間裡的東西都被你看遍了呢",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 580,
+		flag = 0
+	},
+	{
+		param = "眼力不錯嘛",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 581,
+		flag = 0
+	},
+	{
+		param = "值得誇獎",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 582,
+		flag = 0
+	},
+	{
+		param = "說吧，想要什麼獎勵？",
+		ship_group = 49905,
+		type = 1,
+		id = 583,
+		flag = 0,
+		option = {
+			{
+				1,
+				"獎勵先放在一邊"
+			}
+		}
+	},
+	{
+		param = "獎勵先放在一邊",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 584,
+		flag = 1
+	},
+	{
+		param = "好像有什麼東西，剛才不小心掛在我衣服上一併帶出來了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 585,
+		flag = 1
+	},
+	{
+		param = "不小心？呵呵……你就這麼喜歡我用過的東西嗎？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 586,
+		flag = 1
+	},
+	{
+		param = "讓我來看看…",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 587,
+		flag = 1
+	},
+	{
+		param = "你究竟帶走了什麼",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 588,
+		flag = 1
+	},
+	{
+		param = "！！！！！！！！！！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 589,
+		flag = 1
+	},
+	{
+		param = "你……快還給我！那是我的東西…",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 590,
+		flag = 1
+	},
+	{
+		param = "不對！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 591,
+		flag = 1
+	},
+	{
+		param = "不是我的！是……是別人……",
+		ship_group = 49905,
+		type = 1,
+		id = 592,
+		flag = 1,
+		option = {
+			{
+				2,
+				"這裡沒別人"
+			}
+		}
+	},
+	{
+		param = "應該沒別人……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 593,
+		flag = 2
+	},
+	{
+		param = "總之先還我！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 594,
+		flag = 2
+	},
+	{
+		param = "過來的時候不要拿在手上！",
+		ship_group = 49905,
+		type = 1,
+		id = 595,
+		flag = 2,
+		option = {
+			{
+				3,
+				"好"
+			}
+		}
+	},
+	{
+		param = "好，我現在給你送過來",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 596,
+		flag = 3
+	},
+	{
+		param = "只是整理衣服時不小心夾到你身上了……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 597,
+		flag = 3
+	},
+	{
+		param = "還好你發現了",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 598,
+		flag = 3
+	},
+	{
+		param = "我會準備好謝禮的，待會見",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 599,
+		flag = 3
+	},
+	{
+		param = "今天你又一直在摸我的頭髮……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 600,
+		flag = 0
+	},
+	{
+		param = "前前後後碰了不下五次吧？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 601,
+		flag = 0
+	},
+	{
+		param = "有這麼喜歡嗎？",
+		ship_group = 49905,
+		type = 1,
+		id = 602,
+		flag = 0,
+		option = {
+			{
+				1,
+				"喜歡？"
+			}
+		}
+	},
+	{
+		param = "喜歡？如果是指特別喜歡，那好像沒有",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 603,
+		flag = 1
+	},
+	{
+		param = "？！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 604,
+		flag = 1
+	},
+	{
+		param = "沒有你還摸個不停！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 605,
+		flag = 1
+	},
+	{
+		param = "……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 606,
+		flag = 1
+	},
+	{
+		param = "算了……畢竟你還陪我整理了房間對吧？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 607,
+		flag = 1
+	},
+	{
+		param = "多虧有你在，櫃子上面和頂櫥裡的東西也能很方便地整理到",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 608,
+		flag = 1
+	},
+	{
+		param = "我自己來的話，總是很麻煩",
+		ship_group = 49905,
+		type = 1,
+		id = 609,
+		flag = 1,
+		option = {
+			{
+				2,
+				"順手的事"
+			}
+		}
+	},
+	{
+		param = "順手的事",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 610,
+		flag = 2
+	},
+	{
+		param = "……順手？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 611,
+		flag = 2
+	},
+	{
+		param = "那你一直摸我頭髮……也只是順手而已？",
+		ship_group = 49905,
+		type = 1,
+		id = 612,
+		flag = 2,
+		option = {
+			{
+				3,
+				"因為摸著很舒服"
+			}
+		}
+	},
+	{
+		param = "因為摸著很舒服，就忍不住想一直摸下去……也想幫妳多做點什麼",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 613,
+		flag = 3
+	},
+	{
+		param = "你……！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 614,
+		flag = 3
+	},
+	{
+		param = "這種話倒是說得挺順口……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 615,
+		flag = 3
+	},
+	{
+		param = "那明天……你還要過來！今天還有個箱子沒搬完……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 616,
+		flag = 3
+	},
+	{
+		param = "我可沒說是想見你！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 617,
+		flag = 3
+	},
+	{
+		param = "總之你要是敢不來……這一整週，我都不會再讓你碰我的頭髮~",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 618,
+		flag = 3
+	},
+	{
+		param = "唉……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 619,
+		flag = 0
+	},
+	{
+		param = "不知不覺間，房間裡已經堆滿了你送來的東西",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 620,
+		flag = 0
+	},
+	{
+		param = "這些禮物……每一件都讓你費了不少心思吧？",
+		ship_group = 49905,
+		type = 1,
+		id = 621,
+		flag = 0,
+		option = {
+			{
+				1,
+				"看到就買了"
+			}
+		}
+	},
+	{
+		param = "其實沒特別花心思，都是平常看到覺得自己會喜歡就買了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 622,
+		flag = 1
+	},
+	{
+		param = "不過現在看來，我眼光還不錯？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 623,
+		flag = 1
+	},
+	{
+		param = "你……你在得意什麼啊！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 624,
+		flag = 1
+	},
+	{
+		param = "真是的……只有我一個人像個傻瓜一樣，每次收到都偷偷高興……",
+		ship_group = 49905,
+		type = 1,
+		id = 625,
+		flag = 1,
+		option = {
+			{
+				2,
+				"因為常常想到妳"
+			}
+		}
+	},
+	{
+		param = "因為總是會想到妳，所以看到什麼都會想「妳收到這個應該會笑吧」",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 626,
+		flag = 2
+	},
+	{
+		param = "而妳每次笑起來的樣子，我都想好好珍藏",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 627,
+		flag = 2
+	},
+	{
+		param = "……………………",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 628,
+		flag = 2
+	},
+	{
+		param = "太狡猾了……明明連我的心都已經拿走了，還這樣一次次地……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 629,
+		flag = 2
+	},
+	{
+		param = "再這樣下去，我不就真的……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 630,
+		flag = 2
+	},
+	{
+		param = "不……沒什麼！忘掉剛才的話！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 631,
+		flag = 2
+	},
+	{
+		param = "我越想越不對勁……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 632,
+		flag = 0
+	},
+	{
+		param = "怎麼回事啊？！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 633,
+		flag = 0
+	},
+	{
+		param = "只有你！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 634,
+		flag = 0
+	},
+	{
+		param = "為什麼只有你一直在贏！！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 635,
+		flag = 0
+	},
+	{
+		param = "尤其是——",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 636,
+		flag = 0
+	},
+	{
+		param = "我知道你贏得堂堂正正，沒有耍心機，沒有作弊！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 637,
+		flag = 0
+	},
+	{
+		param = "但你別得意……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 638,
+		flag = 0
+	},
+	{
+		param = "下次我一定會贏回來的！",
+		ship_group = 49905,
+		type = 1,
+		id = 639,
+		flag = 0,
+		option = {
+			{
+				1,
+				"這已經是妳第三次說下次了"
+			}
+		}
+	},
+	{
+		param = "這已經是妳第三次說下次了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 640,
+		flag = 1
+	},
+	{
+		param = "我居然還指望你能說出什麼好話……是我太天真了！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 641,
+		flag = 1
+	},
+	{
+		param = "第三次是吧？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 642,
+		flag = 1
+	},
+	{
+		param = "你給我等著",
+		ship_group = 49905,
+		type = 1,
+		id = 643,
+		flag = 1,
+		option = {
+			{
+				2,
+				"有何賜教？"
+			}
+		}
+	},
+	{
+		param = "有何賜教？我親愛的埃吉爾小姐",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 644,
+		flag = 2
+	},
+	{
+		param = "o;pbrupi",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 645,
+		flag = 2
+	},
+	{
+		param = "想用這種肉麻戰術擾亂我的心態？這招對我沒用了！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 646,
+		flag = 2
+	},
+	{
+		param = "不過……「3」可是我今天的幸運數字！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 647,
+		flag = 2
+	},
+	{
+		param = "既然你已經贏滿了三次，根據運氣守恆定律，後面就該輪到我贏了！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 648,
+		flag = 2
+	},
+	{
+		param = "做好被海浪吞噬的準備吧！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 649,
+		flag = 2
+	},
+	{
+		param = "那個……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 650,
+		flag = 0
+	},
+	{
+		param = "指揮官",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 651,
+		flag = 0
+	},
+	{
+		param = "你現在……有沒有特別缺的東西？或者是特別想要的？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 652,
+		flag = 0
+	},
+	{
+		param = "有這樣的東西嗎？",
+		ship_group = 49905,
+		type = 1,
+		id = 653,
+		flag = 0,
+		option = {
+			{
+				1,
+				"好像没有"
+			}
+		}
+	},
+	{
+		param = "好像沒有……暫時想不到缺什麼",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 654,
+		flag = 1
+	},
+	{
+		param = "妳呢，有什麼想要的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 655,
+		flag = 1
+	},
+	{
+		param = "……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 656,
+		flag = 1
+	},
+	{
+		param = "現在是我在問你！你怎麼還反問起來了！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 657,
+		flag = 1
+	},
+	{
+		param = "再仔細想想？",
+		ship_group = 49905,
+		type = 1,
+		id = 658,
+		flag = 1,
+		option = {
+			{
+				2,
+				"確實想不到"
+			}
+		}
+	},
+	{
+		param = "確實想不到，感覺該有的都有了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 659,
+		flag = 2
+	},
+	{
+		param = "唉……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 660,
+		flag = 2
+	},
+	{
+		param = "那我送你一個「深淵之神親自許願」的服務吧",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 661,
+		flag = 2
+	},
+	{
+		param = "雖然不能保證實現，但肯定比你自己來可靠……",
+		ship_group = 49905,
+		type = 1,
+		id = 662,
+		flag = 2,
+		option = {
+			{
+				3,
+				"今晚有流星雨"
+			}
+		}
+	},
+	{
+		param = "今晚有流星雨，我們可以多許幾個願，分散投資",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 663,
+		flag = 3
+	},
+	{
+		param = "免得流星聽了扭頭折返回去",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 664,
+		flag = 3
+	},
+	{
+		param = "有流星雨？！什麼時候的事？是不是已經開始了？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 665,
+		flag = 3
+	},
+	{
+		param = "就該把你留在我身邊一起看的……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 666,
+		flag = 3
+	},
+	{
+		param = "失誤了……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 667,
+		flag = 3
+	},
+	{
+		param = "哎？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 668,
+		flag = 3
+	},
+	{
+		param = "不對啊",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 669,
+		flag = 3
+	},
+	{
+		param = "現在天上看得到哪個星座？",
+		ship_group = 49905,
+		type = 1,
+		id = 670,
+		flag = 3,
+		option = {
+			{
+				4,
+				"啊"
+			}
+		}
+	},
+	{
+		param = "啊……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 671,
+		flag = 4
+	},
+	{
+		param = "我剛發現那是去年的推播……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 672,
+		flag = 4
+	},
+	{
+		param = "……………………",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 673,
+		flag = 4
+	},
+	{
+		param = "你給我記住！！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 674,
+		flag = 4
+	},
+	{
+		param = "指揮官，你今天早上又沒在食堂出現……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 675,
+		flag = 0
+	},
+	{
+		param = "該不會……早餐又打算用咖啡和能量棒隨便應付吧？",
+		ship_group = 49905,
+		type = 1,
+		id = 676,
+		flag = 0,
+		option = {
+			{
+				1,
+				"妳怎麼知道的？"
+			}
+		}
+	},
+	{
+		param = "妳怎麼知道的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 677,
+		flag = 1
+	},
+	{
+		param = "難道一直在食堂等我？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 678,
+		flag = 1
+	},
+	{
+		param = "……怎麼可能！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 679,
+		flag = 1
+	},
+	{
+		param = "只是剛好在窗邊看海鷗，順便瞥見你直接進了指揮室而已~",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 680,
+		flag = 1
+	},
+	{
+		param = "這港區裡，可沒什麼能逃過我的眼睛哦~",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 681,
+		flag = 1
+	},
+	{
+		param = "十分鐘內，到我房間來。",
+		ship_group = 49905,
+		type = 1,
+		id = 682,
+		flag = 1,
+		option = {
+			{
+				2,
+				"現在？"
+			}
+		}
+	},
+	{
+		param = "現在？手邊還有點事情沒處理完……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 683,
+		flag = 2
+	},
+	{
+		param = "等吃完東西後再處理也不遲。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 684,
+		flag = 2
+	},
+	{
+		param = "這次可是我親手做的~當然，不是特地為你做的。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 685,
+		flag = 2
+	},
+	{
+		param = "只是不小心多做了一份三明治，沒人吃的話就浪費了。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 686,
+		flag = 2
+	},
+	{
+		param = "不想來的話也沒關係，窗外的海鷗已經盯著看了好久呢~",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 687,
+		flag = 2
+	},
+	{
+		param = "想必它們不會介意來點薯條以外的食物。",
+		ship_group = 49905,
+		type = 1,
+		id = 688,
+		flag = 2,
+		option = {
+			{
+				3,
+				"好，我這就到"
+			}
+		}
+	},
+	{
+		param = "好，我這就到。",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 689,
+		flag = 3
+	},
+	{
+		param = "妳親手做的早餐，餵海鷗太奢侈了。",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 690,
+		flag = 3
+	},
+	{
+		param = "知道就好。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 691,
+		flag = 3
+	},
+	{
+		param = "要是敢不吃完……明天就讓你嚐嚐真正的「特別款待」。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 692,
+		flag = 3
+	},
+	{
+		param = "指揮官，你傳來的照片我看了。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 693,
+		flag = 0
+	},
+	{
+		param = "取景和光影都還算合格……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 694,
+		flag = 0
+	},
+	{
+		param = "……等等。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 695,
+		flag = 0
+	},
+	{
+		param = "為什麼裡面會有一張我的側臉？",
+		ship_group = 49905,
+		type = 1,
+		id = 696,
+		flag = 0,
+		option = {
+			{
+				1,
+				"是不小心拍到的"
+			}
+		}
+	},
+	{
+		param = "是不小心拍到的。",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 697,
+		flag = 1
+	},
+	{
+		param = "我本來是想拍妳手邊那台留聲機。",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 698,
+		flag = 1
+	},
+	{
+		param = "不小心……？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 699,
+		flag = 1
+	},
+	{
+		param = "所以是我……打擾了你拍收藏品？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 700,
+		flag = 1
+	},
+	{
+		param = "看來我確實不該出現在鏡頭裡，免得打擾到指揮官捕捉真正的主角。",
+		ship_group = 49905,
+		type = 1,
+		id = 701,
+		flag = 1,
+		option = {
+			{
+				2,
+				"因為取景時……"
+			}
+		}
+	},
+	{
+		param = "因為取景時……鏡頭總是不自覺跟著妳移動，就順勢按下了快門。",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 702,
+		flag = 2
+	},
+	{
+		param = "哦~就這麼在意我嗎？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 703,
+		flag = 2
+	},
+	{
+		param = "不過……既然你都坦白了，我就勉強原諒你這次「手滑」吧。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 704,
+		flag = 2
+	},
+	{
+		param = "但下不為例。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 705,
+		flag = 2
+	},
+	{
+		param = "……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 706,
+		flag = 2
+	},
+	{
+		param = "若真想拍我，直接開口不就好了？",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 707,
+		flag = 2
+	},
+	{
+		param = "我又不是……一定不答應。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 708,
+		flag = 2
+	},
+	{
+		param = "當然，還是要看我心情！",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 709,
+		flag = 2
+	},
+	{
+		param = "如果恰好帶著一瓶不錯的紅酒來……",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 710,
+		flag = 2
+	},
+	{
+		param = "我說不定會願意多給你一些時間。",
+		ship_group = 49905,
+		option = "",
+		type = 1,
+		id = 711,
+		flag = 2
 	}
 }

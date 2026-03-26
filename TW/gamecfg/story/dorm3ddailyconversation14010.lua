@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "刚刚的事，你都看到了吧？",
+			say = "剛剛的事，你都看到了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你是指……想摸小猫结果把它吓跑的事？",
+			say = "妳是指……想摸小貓結果把它嚇跑的事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼哼，你看得还真仔细。",
+			say = "哼哼，你看得還真仔細。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……哼~不过是一次小小的失败罢了……",
+			say = "……哼~不過是一次小小的失敗罷了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "再说了，动物会畏惧我，不正说明……我拥有强大的气场吗？",
+			say = "再說了，動物會畏懼我，不正說明……我擁有強大的氣場嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不许回头！我说我没难过就是没难过。在我松手之前不准走开，听明白了吗！",
+			say = "不許回頭！我說我沒難過就是沒難過。在我鬆開手之前不准走開，聽明白了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

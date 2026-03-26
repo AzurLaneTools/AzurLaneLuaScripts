@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}啊——你听说过“侵略”这个词吗？",
+			say = "{dorm3d}啊——你聽過「侵略」這個詞嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "像你这样毫不在意地踏进别人的私人领域任性妄为，就叫做“侵略”哦。",
+			say = "像你這樣毫不在意地踏進別人的私人領域任性妄為，就叫作「侵略」哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "呵呵，既然是“侵略”……",
+			say = "呵呵，既然是「侵略」……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那被我“反击”，也是理所当然的，不是吗？",
+			say = "那被我「反擊」，也是理所當然的，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "好了，乖一点，不要挣扎得那么厉害。我的反击……你就好好感受到最后一刻吧~",
+			say = "好了，乖一點，不要掙扎得那麼厲害。我的反擊……你就好好感受到最後一刻吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

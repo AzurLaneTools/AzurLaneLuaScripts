@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "最近的护肤品包装都好小啊，真不经用。亏我看到是组合装，觉得该有的都有呢。",
+			say = "最近的保養品包裝都好小啊，真不耐用。虧我看到是組合裝，覺得該有的都有呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是旅行装，里面的东西大概只有一周左右的量。",
+			say = "這是旅行裝，裡面的東西大概只有一週左右的量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "旅行装？原来这是旅行装吗！我、我当然知道啊！",
+			say = "旅行裝？原來這是旅行裝嗎！我、我當然知道啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "对……没错，我知道才买的！万一、万一去旅行了呢！",
+			say = "對……沒錯，我知道才買的！萬一、萬一去旅行了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "下次我来买吧。",
+			say = "下次我來買吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "也……也不是不行……我的喜好你应该也都知道……",
+			say = "也……也不是不行……我的喜好你應該也都知道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

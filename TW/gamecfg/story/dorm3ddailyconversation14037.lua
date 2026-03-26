@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "怎么突然就扑上来了？等等……你身上这酒气，这是喝了多少？",
+			say = "這麼突然就撲上來了？等等……你身上這酒氣，這是喝了多少？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "谁——管你？猎物不随时保持警惕，就是这个下场哦。",
+			say = "誰——管你？獵物不隨時保持警惕，就是這個下場哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我说过的吧，我警告过你的吧？要小心别被我吃掉……",
+			say = "我說過的吧，我警告過你的吧？要小心別被我吃掉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "所——以——呵呵……都是你不好。要怪就怪毫无防备的你自己吧。",
+			say = "所——以——呵呵……都是你不好。要怪就怪毫無防備的你自己吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那么，我开动了。我会自上而下地、仔仔细细地，一口、一口地把你吃掉的~",
+			say = "那麼，我開動了。我會自上而下地、仔仔細細地，一口、一口地把你吃掉的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

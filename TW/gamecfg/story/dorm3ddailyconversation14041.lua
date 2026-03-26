@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯？演讲？怎么突然在看这种内容？",
+			say = "嗯？演講？怎麼突然在看這種內容？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "原来如此……是想学习别人演讲时的感染力吗？",
+			say = "原來如此……是想學習別人演講時的感染力嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊哈哈！你啊，真的好可爱……相信我，你只要站在这里，就已经有十足的感染力了。",
+			say = "啊哈哈！你啊，真的好可愛……相信我，你只要站在這裡，就已經有十足的感染力了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "深渊之神不屑撒谎，我说的就是毫无疑问的事实。你可是“我的”{dorm3d}啊，对自己再有自信些吧？",
+			say = "深淵之神不屑說謊，我說的話就是毫無疑問的事實。你可是「我的」指揮官啊，對自己再有自信一點吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

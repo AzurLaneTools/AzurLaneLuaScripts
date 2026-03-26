@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最近……哈啊……睡不太踏实……数羊也没用……",
+			say = "最近……哈啊……睡不太踏實……數羊也沒用……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "数羊？把睡着的希望寄托在这种事情上，不如来找我更实际哦？",
+			say = "數羊？把睡著的希望寄託在這種事情上，不如來找我更實際哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "放任你这样憔悴下去，可不符合我的风格。",
+			say = "放任你這樣憔悴下去，可不符合我的風格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "来，躺下——沙发或是我的膝枕，选一个？",
+			say = "來，躺下——沙發或是我的膝枕，選一個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我啊，可是有连深渊都能安抚的入眠技巧……今天，就让你亲身感受一下。",
+			say = "我啊，可是有連深淵都能安撫的入眠技巧……今天，就讓你親身感受一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这份恩情，可要好好记在心里哦~",
+			say = "這份恩情，可要好好記在心裡哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

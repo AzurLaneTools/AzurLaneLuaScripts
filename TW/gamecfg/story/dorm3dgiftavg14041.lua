@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_gift_timeline01_voice1/drom3d_aegir_gift_timeline01_voice1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，要来陪我喝几杯吗？",
+			say = "{dorm3d}，要來陪我喝幾杯嗎？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -60,7 +60,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_gift_timeline01_voice2/drom3d_aegir_gift_timeline01_voice2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "为了配新的酒杯，我特意拿出了最好的私藏哦。",
+			say = "為了搭配新的酒杯，我特意拿出了最好的私藏哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,14 +74,14 @@ return {
 			voice = "event:/dorm/drom3d_aegir_gift_timeline01_voice3/drom3d_aegir_gift_timeline01_voice3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今天，我一定帮你品尝到这瓶酒最极致的味道~",
+			say = "今天，我一定幫你品嚐到這瓶酒最極致的味道~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "最极致的味道？",
+					content = "最極致的味道？",
 					flag = 1
 				}
 			}
@@ -94,7 +94,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_gift_timeline01_voice4/drom3d_aegir_gift_timeline01_voice4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯哼~没错。为了感谢我，指挥官可要好好享受。",
+			say = "嗯哼~沒錯。為了感謝我，指揮官可要好好享受。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

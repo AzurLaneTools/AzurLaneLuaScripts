@@ -55,7 +55,7 @@ slot0.InitItem = function(slot0, slot1, slot2)
 end
 
 slot0.RefreshView = function(slot0)
-	slot0.endingList = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.ENDING):GetEndings()
+	slot0.endingList = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.ENDING):GetEndings()
 	slot0.completeList = slot0.contextData.char:GetPermanentData():GetFinishedEndings()
 
 	table.sort(slot0.endingList, CompareFuncs({

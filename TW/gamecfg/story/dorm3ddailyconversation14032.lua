@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你说愿望……？真贪心，明明已经得到了深渊的眷爱，居然还有别的愿望吗？",
+			say = "你說願望……？真貪心，明明已經得到了深淵的眷愛，居然還有別的願望嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "也罢。只要你准备好代价，不管是什么愿望我都……",
+			say = "也罷。只要你準備好代價，不管是什麼願望我都……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……嗯？不是这个？你想……实现我的愿望？",
+			say = "……嗯？不是這個？你想……實現我的願望？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哈哈！多贪心的人啊！",
+			say = "哈哈！多貪心的人啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你亲口说出来的话，可别想收回。我的愿望……机会难得，你就亲眼见识一下吧？",
+			say = "你親口說出來的話，可別想收回。我的願望……機會難得，你就親眼見識一下吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

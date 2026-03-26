@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……呃……头好痛……感觉家具都有重影……",
+			say = "……呃……頭好痛……感覺家具都有重影……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这就宿醉了？你的酒量还得再练练哦~{dorm3d}？",
+			say = "這就宿醉了？你的酒量還得再練練哦~{dorm3d}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "昨晚明明是你……一杯接一杯地倒……",
+			say = "昨晚明明是妳……一杯接一杯地倒……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼哼，不顾自己的状况、被人劝了就一直喝，这样可不行呢~",
+			say = "哼哼，不顧自己的狀況、被人勸了就一直喝，這樣可不行呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不过嘛~宽厚的我自然会包容你的失态。看你这晕乎乎的样子，今天的工作计划就先全部作废。",
+			say = "不過嘛~寬厚的我自然會包容你的失態。看你這暈乎乎的樣子，今天的工作計畫就先全部作廢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "好了，来，靠着我。接下来的事情就由我来处理，安心在这膝上休息吧，{dorm3d}~",
+			say = "好了，來，靠著我。接下來的事情就由我來處理，安心在這膝上休息吧，{dorm3d}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

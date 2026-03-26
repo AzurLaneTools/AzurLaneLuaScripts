@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "想听故事？怎么突然说这个……？",
+			say = "想聽故事？怎麼突然說這個……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……唉，别用那种眼神看我！讲就讲！",
+			say = "……唉，別用那種眼神看我！講就講！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那就说一个“海中女妖”的传说吧——",
+			say = "那就說一個「海中女妖」的傳說吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "听说听过她歌声的人，都会心甘情愿沉入深渊，永远陪在她身边哦？",
+			say = "聽說聽過她歌聲的人，都會心甘情願沉入深淵，永遠陪在她身邊喔？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "现在捂耳朵可来不及了，指挥官～",
+			say = "現在摀耳朵可來不及了，指揮官～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

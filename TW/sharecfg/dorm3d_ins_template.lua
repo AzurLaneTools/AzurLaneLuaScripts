@@ -135,6 +135,36 @@ pg.dorm3d_ins_template = {
 			18
 		}
 	},
+	[49905201] = {
+		ship_group = 49905,
+		name = "Ägir ",
+		sculpture = "aijier",
+		picture = "Ins_499051",
+		message = "aijier_1",
+		background = "ins_199032_bg",
+		id = 49905201,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			19,
+			20
+		}
+	},
+	[49905202] = {
+		ship_group = 49905,
+		name = "Ägir ",
+		sculpture = "aijier",
+		picture = "Ins_499052",
+		message = "aijier_2",
+		background = "ins_199032_bg",
+		id = 49905202,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			21,
+			22
+		}
+	},
 	get_id_list_by_ship_group = {
 		[20220] = {
 			20220201
@@ -154,6 +184,10 @@ pg.dorm3d_ins_template = {
 		[30707] = {
 			30707201,
 			30707202
+		},
+		[49905] = {
+			49905201,
+			49905202
 		}
 	},
 	all = {
@@ -165,6 +199,8 @@ pg.dorm3d_ins_template = {
 		10517202,
 		10517203,
 		30707201,
-		30707202
+		30707202,
+		49905201,
+		49905202
 	}
 }

@@ -264,7 +264,35 @@ slot0.Hide = function(slot0)
 end
 
 slot0.Quit = function(slot0)
+	Object.Destroy(slot0._go)
+
+	slot0._go = nil
+	slot0._tf = nil
 	slot0.status = uv0
+
+	if slot0.cpkPlayer then
+		slot0.cpkPlayer:Dispose()
+
+		slot0.cpkPlayer = nil
+	end
+
+	if slot0.dialoguePlayer then
+		slot0.dialoguePlayer:Dispose()
+
+		slot0.dialoguePlayer = nil
+	end
+
+	if slot0.picturePlayer then
+		slot0.picturePlayer:Dispose()
+
+		slot0.picturePlayer = nil
+	end
+
+	if slot0.storyPlayer then
+		slot0.storyPlayer:Dispose()
+
+		slot0.storyPlayer = nil
+	end
 end
 
 slot0.SetParamForUI = function(slot0, slot1)

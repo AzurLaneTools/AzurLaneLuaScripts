@@ -1,5 +1,17 @@
 slot0 = class("SubmitTaskCommand", pm.SimpleCommand)
 
+slot0.GetSubmitActivityTask = function(slot0)
+	return GAME.SUBMIT_ACTIVITY_TASK
+end
+
+slot0.GetSubmitTaskDone = function(slot0)
+	return GAME.SUBMIT_TASK_DONE
+end
+
+slot0.GetSubmitTaskAwardDone = function(slot0)
+	return GAME.SUBMIT_TASK_AWARD_DOWN
+end
+
 slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getType()
 	slot4 = nil
@@ -49,7 +61,7 @@ slot0.execute = function(slot0, slot1)
 	end
 
 	if slot8:isActivityTask() then
-		pg.m02:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
+		pg.m02:sendNotification(slot0:GetSubmitActivityTask(), {
 			act_id = slot8:getActId(),
 			task_ids = {
 				slot4
@@ -111,10 +123,10 @@ slot0.execute = function(slot0, slot1)
 				end
 
 				uv4.OnSubmitSuccess(uv2, uv5)
-				pg.m02:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
+				pg.m02:sendNotification(uv6:GetSubmitTaskDone(), slot1, {
 					uv2.id
 				})
-				pg.m02:sendNotification(GAME.SUBMIT_TASK_AWARD_DOWN, {
+				pg.m02:sendNotification(uv6:GetSubmitTaskAwardDone(), {
 					awards = slot1
 				}, {
 					uv2.id

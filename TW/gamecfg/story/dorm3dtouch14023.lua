@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture2_tone8/drom3d_aegir_ik_furniture2_tone8",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "啊啊，我要让你亲口认输……！",
+			say = "啊啊，我要讓你親口認輸……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

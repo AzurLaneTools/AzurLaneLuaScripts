@@ -573,13 +573,14 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_170",
-			oldPhoto = true,
-			dir = 1,
-			actor = 900407,
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actor = 900407,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "怎麼說呢，願意拿出私人飛機執行這個方案的你也很厲害…",
 			painting = {
@@ -728,9 +729,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_170",
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actor = 900407,
 			actorName = "？？？",

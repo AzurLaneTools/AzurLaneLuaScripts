@@ -27,7 +27,6 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	warning("onloaded")
 	eachChild(slot0._tf, function (slot0)
 		setActive(slot0, false)
 	end)
@@ -44,6 +43,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.dropHandler = NewEducateDropHandler.New(slot0._tf:Find("drop"))
 	slot0.siteHandler = NewEducateSiteHandler.New(slot0._tf:Find("site"))
 	slot0.optionsHandler = NewEducateOptionsHandler.New(slot0._tf:Find("options"))
+	slot0.minigameHandler = NewEducateMinigameHandler.New(slot0._tf:Find("minigame"), slot0.contextData.view)
 	slot0.scheduleTF = slot0._tf:Find("scheduleBg")
 
 	setText(slot0.scheduleTF:Find("root/window/left/title/Text"), i18n("child_plan_perform_title"))
@@ -107,15 +107,14 @@ slot0.StopLoopCpk = function(slot0)
 end
 
 slot0.StartNode = function(slot0, slot1)
-	warning("startnode")
 	slot0:Show()
 
-	slot0.stystemNo = slot0.contextData.char:GetFSM():GetStystemNo()
+	slot0.stystemNo = slot0.contextData.char:GetFSM():GetSystemNo()
 
-	setActive(slot0.scheduleTF, slot0.stystemNo == NewEducateFSM.STYSTEM.PLAN)
+	setActive(slot0.scheduleTF, slot0.stystemNo == NewEducateFSM.SYSTEM.PLAN)
 
-	if slot0.stystemNo == NewEducateFSM.STYSTEM.MAP then
-		slot3 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.MAP):GetCurSiteId()
+	if slot0.stystemNo == NewEducateFSM.SYSTEM.MAP then
+		slot3 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.MAP):GetCurSiteId()
 
 		slot0.siteHandler:SetSite(slot3)
 
@@ -138,14 +137,15 @@ end
 slot0.OnNodeChainEnd = function(slot0)
 	setActive(slot0.loopCpkTF, false)
 
-	if slot0.stystemNo == NewEducateFSM.STYSTEM.MAP then
+	if slot0.stystemNo == NewEducateFSM.SYSTEM.MAP then
 		slot0.cpkHandler:Reset()
 		slot0.pictureHandler:Reset()
 		slot0.wordHandler:Reset()
 		slot0.dropHandler:Reset()
+		slot0.minigameHandler:Reset()
 		slot0.siteHandler:OnEventEnd()
-	elseif slot0.stystemNo == NewEducateFSM.STYSTEM.PLAN then
-		if slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.PLAN):IsFinish() then
+	elseif slot0.stystemNo == NewEducateFSM.SYSTEM.PLAN then
+		if slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.PLAN):IsFinish() then
 			slot0:Hide()
 		end
 	else
@@ -194,8 +194,8 @@ slot0.InitCallback = function(slot0, slot1)
 end
 
 slot0.CheckSchedule = function(slot0)
-	if slot0.stystemNo == NewEducateFSM.STYSTEM.PLAN then
-		slot1 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.PLAN)
+	if slot0.stystemNo == NewEducateFSM.SYSTEM.PLAN then
+		slot1 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.PLAN)
 		slot0.unlockPlanNum = slot0.contextData.char:GetRoundData():getConfig("plan_num")
 		slot0.plans = slot1:GetPlans()
 		slot0.curPlanIdx = slot1:GetCurIdx()
@@ -210,8 +210,8 @@ slot0.CheckLastDrops = function(slot0, slot1, slot2)
 	else
 		switch(pg.child2_node[slot0.curNodeId].drop_type_client, {
 			[uv0.DROP_TYPE.WORD_PERFORMANCE] = function ()
-				if uv0.stystemNo == NewEducateFSM.STYSTEM.PLAN then
-					uv0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.PLAN):AddDrops(uv1)
+				if uv0.stystemNo == NewEducateFSM.SYSTEM.PLAN then
+					uv0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.PLAN):AddDrops(uv1)
 				end
 
 				uv0.wordHandler:Play(uv2.performance_param[1], uv3, uv1, false)
@@ -274,10 +274,14 @@ slot0.CheckLastDrops = function(slot0, slot1, slot2)
 				})
 			end
 		}, function ()
-			assert(false, "node表非法drop_type_client: " .. uv0 .. ",node:" .. uv1.curNodeId)
+			warning("node表非法drop_type_client: " .. uv0 .. ",node:" .. uv1.curNodeId)
+			uv1:emit(NewEducateBaseUI.ON_DROP, {
+				items = uv2,
+				removeFunc = uv3
+			})
 		end)
 
-		if slot0.stystemNo == NewEducateFSM.STYSTEM.MAP and slot4 == uv0.DROP_TYPE.WORD_PERFORMANCE then
+		if slot0.stystemNo == NewEducateFSM.SYSTEM.MAP and slot4 == uv0.DROP_TYPE.WORD_PERFORMANCE then
 			slot0.siteHandler:AddDropRecords(slot1)
 		end
 	end
@@ -307,8 +311,8 @@ slot0._ProceedNode = function(slot0, slot1, slot2, slot3)
 
 	slot4 = pg.child2_node[slot1]
 
-	slot0:InitCallback(slot4.next_type)
 	originalPrint("ProceedNode", slot1)
+	slot0:InitCallback(slot4.next_type)
 	switch(slot4.type, {
 		[uv0.NODE_TYPE.PERFORMANCE] = function ()
 			uv0:PlayPerformances(uv1.performance_type, uv1.performance_param, uv0.callback)
@@ -370,11 +374,11 @@ slot0.PlayPerformances = function(slot0, slot1, slot2, slot3)
 			slot0 = uv0.contextData.char:GetRoundData():getConfig("stage")
 			slot1 = ""
 
-			if uv0.stystemNo == NewEducateFSM.STYSTEM.PLAN then
+			if uv0.stystemNo == NewEducateFSM.SYSTEM.PLAN then
 				slot1 = pg.child2_plan[uv0.plans[uv0.curPlanIdx]].name
 			end
 
-			uv0.cpkHandler:SetUIParam(uv0.stystemNo == NewEducateFSM.STYSTEM.PLAN)
+			uv0.cpkHandler:SetUIParam(uv0.stystemNo == NewEducateFSM.SYSTEM.PLAN)
 			uv0.cpkHandler:Play(uv1[slot0], uv2, slot1)
 		end,
 		[NewEducateConst.PERFORM_TYPE.PICTURE] = function ()
@@ -388,6 +392,14 @@ slot0.PlayPerformances = function(slot0, slot1, slot2, slot3)
 			NewEducateHelper.PlaySpecialStory(uv0, function (slot0, slot1)
 				uv0(slot1)
 			end, true)
+		end,
+		[NewEducateConst.PERFORM_TYPE.MINIGAME] = function ()
+			slot0 = uv0.minigameHandler
+
+			slot0:Play(tonumber(uv1), function (slot0)
+				uv0(slot0)
+				uv1.minigameHandler:Reset()
+			end)
 		end
 	}, function ()
 		assert(false, "node表非法performance_type: " .. uv0)
@@ -427,6 +439,7 @@ slot0.Hide = function(slot0)
 	slot0.dropHandler:Reset()
 	slot0.siteHandler:Reset()
 	slot0.optionsHandler:Reset()
+	slot0.minigameHandler:Reset()
 	slot0.super.Hide(slot0)
 end
 
@@ -435,38 +448,30 @@ slot0.OnDestroy = function(slot0)
 
 	if slot0.cpkHandler then
 		slot0.cpkHandler:Destroy()
-	else
-		warning("not exist self.cpkHandler")
 	end
 
 	if slot0.pictureHandler then
 		slot0.pictureHandler:Destroy()
-	else
-		warning("not exist self.pictureHandler")
 	end
 
 	if slot0.wordHandler then
 		slot0.wordHandler:Destroy()
-	else
-		warning("not exist self.wordHandler")
 	end
 
 	if slot0.dropHandler then
 		slot0.dropHandler:Destroy()
-	else
-		warning("not exist self.dropHandler")
 	end
 
 	if slot0.siteHandler then
 		slot0.siteHandler:Destroy()
-	else
-		warning("not exist self.siteHandler")
 	end
 
 	if slot0.optionsHandler then
 		slot0.optionsHandler:Destroy()
-	else
-		warning("not exist self.optionsHandler")
+	end
+
+	if slot0.minigameHandler then
+		slot0.minigameHandler:Destroy()
 	end
 end
 

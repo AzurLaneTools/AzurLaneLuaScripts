@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello13/drom3d_aegir_hello13",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "咿呀！……谁、谁准你吓我的！下次提前出声啊笨蛋……",
+			say = "咿呀！……誰、誰準你嚇我的！下次提前出聲笨蛋…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

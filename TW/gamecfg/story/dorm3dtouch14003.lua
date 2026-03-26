@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_tone16/drom3d_aegir_ik_tone16",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "还敢乱碰吗？那——",
+			say = "還敢亂碰嗎？那——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

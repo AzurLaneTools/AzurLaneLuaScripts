@@ -54,6 +54,9 @@ slot0.init = function(slot0)
 	slot0.detailPanel = NewEducateSiteDetailPanel.New(slot0.uiTF, slot0.event, setmetatable({
 		onHide = function ()
 			uv0:OnDetailHide()
+		end,
+		onClickUpEntryGood = function (slot0)
+			uv0:onClickUpEntryGood(slot0)
 		end
 	}, {
 		__index = slot0.contextData
@@ -72,7 +75,8 @@ slot0.init = function(slot0)
 		onNormal = function ()
 			uv0.infoPanel:ExecuteAction("HidePanel", true)
 			uv0.topPanel:ExecuteAction("Hide")
-		end
+		end,
+		view = slot0
 	}, {
 		__index = slot0.contextData
 	}))
@@ -97,13 +101,6 @@ slot0.didEnter = function(slot0)
 		uv0.detailPanel:ExecuteAction("Show", uv0.travelSiteId)
 		uv0:ShowInfoUI()
 	end, SFX_PANEL)
-
-	slot1 = pg.child2_site_display[slot0.travelSiteId].position
-
-	setAnchoredPosition(slot0.travelTF, {
-		x = slot1[1],
-		y = slot1[2]
-	})
 	onButton(slot0, slot0.workTF, function ()
 		uv0:FocusTF(uv0.workTF)
 
@@ -112,13 +109,6 @@ slot0.didEnter = function(slot0)
 		uv0.detailPanel:ExecuteAction("Show", uv0.workSiteId)
 		uv0:ShowInfoUI()
 	end, SFX_PANEL)
-
-	slot2 = pg.child2_site_display[slot0.workSiteId].position
-
-	setAnchoredPosition(slot0.workTF, {
-		x = slot2[1],
-		y = slot2[2]
-	})
 	onButton(slot0, slot0.shopTF, function ()
 		uv0:FocusTF(uv0.shopTF)
 
@@ -126,14 +116,8 @@ slot0.didEnter = function(slot0)
 
 		uv0.detailPanel:ExecuteAction("Show", uv0.shopSiteId)
 		uv0:ShowInfoUI()
+		uv0.infoPanel:ExecuteAction("SetShopOpen", true)
 	end, SFX_PANEL)
-
-	slot3 = pg.child2_site_display[slot0.shopSiteId].position
-
-	setAnchoredPosition(slot0.shopTF, {
-		x = slot3[1],
-		y = slot3[2]
-	})
 	slot0.eventUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.eventSiteIds[slot1 + 1]
@@ -164,12 +148,16 @@ slot0.didEnter = function(slot0)
 	slot0:FlushView()
 
 	if slot0.contextData.char:GetFSM():GetCurNode() ~= 0 then
-		slot0.curSiteId = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.MAP):GetCurSiteId()
+		slot0.curSiteId = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.MAP):GetCurSiteId()
 
 		slot0:ShowInfoUI()
 		slot0:OnNodeStart(slot0.contextData.char:GetFSM():GetCurNode())
 	else
 		slot0:CheckEventPerformance()
+
+		if slot0.contextData.openShop then
+			triggerButton(slot0.shopTF)
+		end
 	end
 end
 
@@ -195,7 +183,7 @@ end
 
 slot0.ShowInfoUI = function(slot0, slot1)
 	slot0.infoPanel:ExecuteAction("ShowPanel")
-	slot0.topPanel:ExecuteAction("ShowDetail")
+	slot0.topPanel:ExecuteAction("Flush")
 
 	if slot1 then
 		return
@@ -237,7 +225,9 @@ end
 
 slot0.OnDetailHide = function(slot0)
 	slot0.infoPanel:ExecuteAction("HidePanel")
-	slot0.topPanel:ExecuteAction("ShowBack")
+	slot0.infoPanel:ExecuteAction("SetShopOpen", false)
+	slot0.topPanel:ExecuteAction("Flush")
+	slot0.topPanel:ExecuteAction("Show")
 	slot0:managedTween(LeanTween.value, nil, go(slot0.mapTF), uv0.SCALE, uv0.DEFAULT_SCALE, slot0.duration):setOnUpdate(System.Action_float(function (slot0)
 		setLocalScale(uv0.mapTF, {
 			x = slot0,
@@ -263,8 +253,20 @@ slot0.OnDetailHide = function(slot0)
 	end
 end
 
+slot0.onClickUpEntryGood = function(slot0, slot1)
+	slot0:emit(uv0.GO_SUBLAYER, Context.New({
+		mediator = NewEducateTarotEntryMediator,
+		viewComponent = NewEducateTarotEntryLayer,
+		data = {
+			goodId = slot1.id,
+			type = NewEducateTarotEntryLayer.TYPE.SHOP,
+			cost = slot1:getConfig("resource_num")
+		}
+	}))
+end
+
 slot0.FlushView = function(slot0)
-	slot0.eventSiteIds = underscore.map(slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.MAP):GetEvents(), function (slot0)
+	slot0.eventSiteIds = underscore.map(slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.MAP):GetEvents(), function (slot0)
 		return uv0.contextData.char:GetSiteId(NewEducateConst.SITE_TYPE.EVENT, slot0)
 	end)
 
@@ -282,8 +284,34 @@ slot0.FlushView = function(slot0)
 
 	slot0.eventUIList:align(#slot0.eventSiteIds)
 	slot0.shipUIList:align(#slot0.shipSiteIds)
+	slot0:InitPermanentNodes()
 	setActive(slot0.shopTF, slot0.contextData.char:IsUnlock("shop"))
 	slot0:CheckUpgradeNormalSite()
+end
+
+slot0.InitPermanentNodes = function(slot0)
+	if slot0.travelSiteId then
+		slot0:InitPermanent(slot0.travelSiteId, slot0.travelTF)
+	end
+
+	if slot0.workSiteId then
+		slot0:InitPermanent(slot0.workSiteId, slot0.workTF)
+	end
+
+	if slot0.shopSiteId then
+		slot0:InitPermanent(slot0.shopSiteId, slot0.shopTF)
+	end
+end
+
+slot0.InitPermanent = function(slot0, slot1, slot2)
+	slot3 = pg.child2_site_display[slot1]
+
+	LoadImageSpriteAsync("neweducateicon/" .. slot3.event_icon, slot2, true)
+	LoadImageSpriteAsync("neweducateicon/" .. slot3.event_title, slot2:Find("name"), true)
+	setAnchoredPosition(slot2, {
+		x = slot3.position[1],
+		y = slot3.position[2]
+	})
 end
 
 slot0.IsMaxShip = function(slot0, slot1)
@@ -352,6 +380,12 @@ slot0.UpdateShipSite = function(slot0, slot1, slot2)
 	setActive(slot2:Find("bottom/blue"), slot4.bg == "blue")
 	setActive(slot2:Find("bottom/grey"), false)
 	onButton(slot0, slot2, function ()
+		if uv0.contextData.char:GetFSM():CheckPriorityStystem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_priority_tip"))
+
+			return
+		end
+
 		uv0:FocusTF(uv1)
 
 		uv0.curSiteId = uv2
@@ -375,6 +409,11 @@ end
 
 slot0.OnShoppingDone = function(slot0)
 	slot0.detailPanel:ExecuteAction("FlushShop")
+	slot0:emit(uv0.ON_PRIORITY_STATE)
+end
+
+slot0.OnRefreshShopDone = function(slot0)
+	slot0.detailPanel:ExecuteAction("FlushShop")
 end
 
 slot0.OnResUpdate = function(slot0)
@@ -396,6 +435,10 @@ end
 
 slot0.OnStatusUpdate = function(slot0)
 	slot0.infoPanel:ExecuteAction("FlushStatus")
+end
+
+slot0.OnTarotUpdate = function(slot0)
+	slot0.infoPanel:ExecuteAction("FlushTarot")
 end
 
 slot0.OnNodeStart = function(slot0, slot1)

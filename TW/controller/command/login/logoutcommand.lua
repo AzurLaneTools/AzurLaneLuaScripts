@@ -29,6 +29,7 @@ slot0.execute = function(slot0, slot1)
 
 	slot0:sendNotification(GAME.STOP_BATTLE_LOADING, {})
 	pg.NewStoryMgr.GetInstance():Quit()
+	pg.PerformMgr.GetInstance():Quit()
 
 	if pg.MsgboxMgr.GetInstance()._go.activeSelf then
 		pg.MsgboxMgr.GetInstance():hide()

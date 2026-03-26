@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你说跟我在一起偶尔会有种威压感？",
+			say = "你說跟我在一起偶爾會有種威壓感？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那不是当然的吗，我可是{namecode:480}。不过“偶尔”是什么意思？",
+			say = "那不是當然的嗎，我可是埃吉爾。不過「偶爾」是什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "只有在我穿上鞋的时候才……？你、你是想说我的威压感都是靠鞋跟撑起来的吗？！",
+			say = "只有在我穿上鞋的時候才……？你、你是想說我的威壓感都是靠鞋跟撐起來的嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "喂！不准跑！给我把话说清楚——！！",
+			say = "喂！不准跑！給我把話說清楚——！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

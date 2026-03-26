@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这是什么？咦，纸飞机？",
+			say = "這是什麼？咦，紙飛機？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "什么叫很适合我——你、你果然是在戏弄我吧。",
+			say = "什麼叫很適合我——你、你果然在戲弄我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊，飞得好远……真让人生气，我折的明明更精致，为什么总是飞出去就栽倒啊？",
+			say = "啊，飛得很遠……真讓人生氣，我折的明明更精緻，為什麼總是飛出去就栽倒啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哈~既然你这么擅长——",
+			say = "哈~既然你這麼擅長——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "来，这一摞纸全都是你的，把它们全部折成纸飞机吧！你亲手折，我亲自验收。",
+			say = "來，這一疊紙全都是你的，把它們全部折成紙飛機吧！你親手折，我親自驗收。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "刚刚好不是吗？折不完的话，今天就在这片纸海里陪我到天亮吧？",
+			say = "剛剛好不是嗎？折不完的話，今天就在這紙海裡陪我到天亮吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

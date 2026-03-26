@@ -7,7 +7,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone25/dorm3d_aegir_telephone25",
 			wait = 1,
-			say = "哦~接电话的速度这么快？",
+			say = "喔~接電話的速度這麼快？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -40,7 +40,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone26/dorm3d_aegir_telephone26",
 			wait = 1,
-			say = "你的手指……该不会一直放在接听键上吧？",
+			say = "你的手指……該不會一直放在接聽鍵上吧？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -73,7 +73,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone27/dorm3d_aegir_telephone27",
 			wait = 1,
-			say = "你就承认吧~我也不会因为你在傻笑着等我的电话就嘲笑……",
+			say = "你就承認吧~我也不會因為你在傻笑著等我的電話就嘲笑……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -106,7 +106,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone28/dorm3d_aegir_telephone28",
 			wait = 2,
-			say = "你、你承认得也太干脆了吧！",
+			say = "你、你承認得也太乾脆了吧！",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -139,7 +139,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone29/dorm3d_aegir_telephone29",
 			wait = 1,
-			say = "那我不就没办法捉弄你了嘛。",
+			say = "那我不就沒辦法捉弄你了嘛。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -172,7 +172,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone30/dorm3d_aegir_telephone30",
 			wait = 1,
-			say = "就连提前准备好的调侃都用不上了，真遗憾啊……",
+			say = "就連提前準備好的調侃都用不上了，真遺憾啊……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -205,7 +205,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone31/dorm3d_aegir_telephone31",
 			wait = 1,
-			say = "……啊，至于现在打过来的理由？……唔……",
+			say = "……啊，至於現在打過來的理由？……唔……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -238,7 +238,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone32/dorm3d_aegir_telephone32",
 			wait = 2,
-			say = "现在特别想听听你的声音，比平时更想，就这么简单。",
+			say = "現在特別想聽聽你的聲音，比平常更想，就這麼簡單。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -271,7 +271,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone33/dorm3d_aegir_telephone33",
 			wait = 2,
-			say = "你刚刚在忙些什么？",
+			say = "你剛剛在忙些什麼？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -304,7 +304,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone34/dorm3d_aegir_telephone34",
 			wait = 1,
-			say = "该不会是一边工作一边偷看我们的合照吧？",
+			say = "該不會是一邊工作一邊偷看我們的合照吧？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -337,17 +337,17 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone35/dorm3d_aegir_telephone35",
 			wait = 1,
-			say = "呵呵……没关系，我允许了。"
+			say = "呵呵……沒關係，我允許了。"
 		},
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone36/dorm3d_aegir_telephone36",
 			wait = 1,
-			say = "只不过……比起合照，果然还是本人更加生动吧？"
+			say = "只不過……比起合照，果然還是本人更生動吧？"
 		},
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone37/dorm3d_aegir_telephone37",
 			wait = 1,
-			say = "唔……这一点对我来说也是一样的呢……",
+			say = "嗯……這一點對我來說也是一樣的呢……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -380,7 +380,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone38/dorm3d_aegir_telephone38",
 			wait = 1,
-			say = "所以——我现在就要见到你，立刻，马上。",
+			say = "所以——我現在就要見到你，立刻，馬上。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -413,7 +413,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone39/dorm3d_aegir_telephone39",
 			wait = 1,
-			say = "当然，你也可以选择是你来见我，或者……我去找你。",
+			say = "當然，你也可以選擇是你來見我，或是……我去找你。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -446,12 +446,12 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone40/dorm3d_aegir_telephone40",
 			wait = 1,
-			say = "但在做出选择之前，可得好好想清楚后果哦~"
+			say = "但在做出選擇之前，可得好好想清楚後果哦~"
 		},
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone41/dorm3d_aegir_telephone41",
 			wait = 1,
-			say = "哪个选择有奖励……哪个选择有惩罚……",
+			say = "哪個選擇有獎勵……哪個選擇有懲罰……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -484,10 +484,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone42/dorm3d_aegir_telephone42",
 			wait = 1,
-			say = "我想，你应该是明白的吧？",
+			say = "我想，你應該是明白的吧？",
 			options = {
 				{
-					content = "我这就来见你。",
+					content = "我這就來見妳。",
 					flag = 1
 				}
 			},
@@ -523,12 +523,12 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone43/dorm3d_aegir_telephone43",
 			wait = 1,
-			say = "呵呵……看样子，你对自己的决定很有把握呢……"
+			say = "呵呵……看樣子，你對自己的決定很有把握呢……"
 		},
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone44/dorm3d_aegir_telephone44",
 			wait = 1,
-			say = "既然如此，那就等你来到我身边的时候，再为你揭晓答案吧？",
+			say = "既然如此，那就等你來到我身邊的時候，再為你揭曉答案吧？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -561,7 +561,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone45/dorm3d_aegir_telephone45",
 			wait = 0.5,
-			say = "这种暧昧不清的感觉，最让人心痒难耐了啊~",
+			say = "這種曖昧不清的感覺，最讓人心癢難耐了啊~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -594,7 +594,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone46/dorm3d_aegir_telephone46",
 			wait = 0.5,
-			say = "所以……快来吧。",
+			say = "所以……快來吧。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -627,7 +627,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone47/dorm3d_aegir_telephone47",
 			wait = 0.5,
-			say = "当你知道答案的那一刻，会露出什么样的表情呢？",
+			say = "當你知道答案的那一刻，會露出什麼樣的表情呢？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -660,7 +660,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_aegir_telephone48/dorm3d_aegir_telephone48",
 			wait = 0.5,
-			say = "真是……美味得让人无比期待啊……",
+			say = "真是……美味得讓人無比期待啊……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {

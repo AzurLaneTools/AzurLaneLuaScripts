@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture1_tone5/drom3d_aegir_ik_furniture1_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "就这点本事？……我还以为你能更大胆一点。",
+			say = "就這點本事？……我以為你能更大膽一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

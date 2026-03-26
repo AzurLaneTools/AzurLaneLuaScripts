@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "怎么了？有什么话直接说不就好了。",
+			say = "怎麼了？有什麼話直接說不就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最近你看到我的时候总是笑得很僵硬。是脸不舒服吗？",
+			say = "最近妳看到我的時候總是笑得很僵硬。是臉不舒服嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "说我脸不舒服也太失礼了吧？！我、这个笑容我可是对着镜子练了好久的……",
+			say = "說我臉不舒服也太失禮了吧？！我、這個笑容我可是對著鏡子練了好久的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "说什么最美的弧度……果然不该相信时尚杂志的话。",
+			say = "說什麼最美的弧度……果然不該相信時尚雜誌的話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

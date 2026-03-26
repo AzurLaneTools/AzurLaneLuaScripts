@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_freegift_voice1/drom3d_aegir_freegift_voice1",
 			actorName = 49905,
 			nameColor = "#FFFFFF",
-			say = "还算满意，之后再接再厉吧~",
+			say = "還算滿意，之後再接再厲吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

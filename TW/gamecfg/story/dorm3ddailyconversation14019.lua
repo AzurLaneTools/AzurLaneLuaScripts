@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那是什么……怀表？你……该不会又想做什么奇怪的事吧……？",
+			say = "那是什麼……懷錶？你……該不會又想做什麼奇怪的事吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "催眠？{dorm3d}，你该不会真信这种——唉……算了！我陪你试就是了！",
+			say = "催眠？指揮官，你該不會真信這種——唉……算了！我陪你試就是了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "就、就这样盯着看？这种伎俩怎么可能对我起——",
+			say = "就、就這樣盯著看？這種伎倆怎麼可能對我起——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……{dorm3d}……怎么晃来晃去的……",
+			say = "……{dorm3d}……怎麼晃來晃去的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:480}？还能听见我说话吗？",
+			say = "埃吉爾？還能聽見我說話嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "…………怀表在发光……Zzzz……",
+			say = "…………懷錶在發光……Zzzz……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

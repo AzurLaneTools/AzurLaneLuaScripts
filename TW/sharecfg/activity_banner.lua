@@ -5,15 +5,14 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					3,
-					19
+					4,
+					1
 				},
 				{
 					0,
@@ -24,8 +23,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					25
+					5,
+					31
 				},
 				{
 					23,
@@ -40,10 +39,10 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene get boat",
+			"scene level",
 			{
-				projectName = "new",
-				page = 1
+				open_remaster = true,
+				isSP = false
 			}
 		},
 		time = {
@@ -51,7 +50,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -62,8 +61,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					2
 				},
 				{
 					14,
@@ -74,16 +73,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5597",
-		type = 3,
+		type = 2,
 		id = 3,
 		pic = "temp3",
+		param = {
+			"dorm 3d select"
+		},
 		time = {
 			{
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -94,8 +95,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					2
 				},
 				{
 					14,
@@ -466,7 +467,7 @@ pg.activity_banner = {
 	},
 	[200] = {
 		param = "",
-		time = "always",
+		time = "stop",
 		type = 13,
 		id = 200,
 		pic = "springfes"
@@ -487,7 +488,7 @@ pg.activity_banner = {
 	},
 	[203] = {
 		param = "",
-		time = "stop",
+		time = "always",
 		type = 13,
 		id = 203,
 		pic = "spring"
@@ -771,6 +772,7 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
 			6,
@@ -801,7 +803,6 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
-			3,
 			7,
 			8,
 			10,

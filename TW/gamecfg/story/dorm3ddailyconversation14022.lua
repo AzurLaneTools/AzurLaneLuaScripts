@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……星星？你突然问这个做什么？",
+			say = "……星星？你突然問這個做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我是能在海上根据星星的位置辨别方位……但这种基本功，应该不用我教你吧？",
+			say = "我是能在海上根據星星的位置辨別方位……但這種基本功，應該不用我教你吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "什么啊，星座占卜吗？最近港区好像确实在流行这个……想试试的话，陪陪你也不是不行……",
+			say = "什麼啊，星座占卜嗎？最近港區好像確實在流行這個……想試試的話，陪陪你也不是不行……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，从这个问题跳到这个问题，闭眼占卜……再看结果……呀？！",
+			say = "嗯，從這個問題跳到這個問題，閉眼占卜……再看結果……呀？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "没、没什么，我没占卜出什么——啊，你、你不许看！",
+			say = "沒、沒什麼，我沒占卜出什麼——啊，你、你不許看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

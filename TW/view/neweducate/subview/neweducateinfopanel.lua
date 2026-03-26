@@ -19,37 +19,55 @@ slot0.OnLoaded = function(slot0)
 	slot0.foldBtn = slot0.showPanelTF:Find("fold_btn")
 	slot0.contnetTF = slot0.showPanelTF:Find("content")
 
-	setText(slot0.contnetTF:Find("personality_title/Text"), i18n("child2_personality_title"))
+	setText(slot0.contnetTF:Find("personality/personality_title/Text"), i18n("child2_personality_title"))
 
-	slot0.personalityTF = slot0.contnetTF:Find("personality")
+	slot0.personalityTF = slot0.contnetTF:Find("personality/personality")
 	slot0.personalityValueTF = slot0.personalityTF:Find("slider/handle/Image/bubble/Text")
 
-	setText(slot0.contnetTF:Find("attr_title/Text"), i18n("child2_attr_title"))
+	setText(slot0.contnetTF:Find("attrs/attr_title/Text"), i18n("child2_attr_title"))
 
-	slot1 = slot0.contnetTF:Find("attrs/content")
-	slot0.gradientBgTF = slot0.contnetTF:Find("attrs/bg_gradient")
+	slot1 = slot0.contnetTF:Find("attrs/attrs/content")
+	slot0.gradientBgTF = slot0.contnetTF:Find("attrs/attrs/bg_gradient")
 	slot0.attrUIList = UIItemList.New(slot1, slot1:Find("tpl"))
 
-	setText(slot0.contnetTF:Find("talent_title/Text"), i18n("child2_talent_title"))
+	setText(slot0.contnetTF:Find("talent/talent_title/Text"), i18n("child2_talent_title"))
 
-	slot2 = slot0.contnetTF:Find("talents/content")
+	slot2 = slot0.contnetTF:Find("talent/talents/content")
 	slot0.talentUIList = UIItemList.New(slot2, slot2:Find("tpl"))
+	slot0.statusTF = slot0.contnetTF:Find("status")
 
-	setText(slot0.contnetTF:Find("status_title/Text"), i18n("child2_status_title"))
+	setText(slot0.statusTF:Find("status_title/Text"), i18n("child2_status_title"))
 
-	slot3 = slot0.contnetTF:Find("status/content/content")
+	slot3 = slot0.statusTF:Find("status/content/content")
 	slot0.statusUIList = UIItemList.New(slot3, slot3:Find("tpl"))
+	slot0.tarotTF = slot0.contnetTF:Find("tarot")
+
+	setText(slot0.tarotTF:Find("title/Text"), i18n("child2_tarot_title"))
+
+	slot0.tarotIconTF = slot0.tarotTF:Find("bg/icon")
+	slot0.tarotNameTF = slot0.tarotTF:Find("bg/name")
+	slot0.tarotEntryTF = slot0.tarotTF:Find("bg/entry")
 	slot0.attrIds = slot0.contextData.char:GetAttrIds()
 	slot0.talentRoundIds = slot0.contextData.char:GetRoundData():GetTalentRoundIds()
 end
 
 slot0.OnInit = function(slot0)
 	LoadImageSpriteAsync("neweducateicon/" .. slot0.contextData.char:getConfig("child2_data_personality_icon")[1], slot0.personalityTF:Find("slider/handle/Image"), true)
+	LoadImageSpriteAsync("neweducateicon/" .. slot0.contextData.char:getConfig("personality_bar_icon"), slot0.personalityTF, true)
 	onButton(slot0, slot0.showBtn, function ()
 		uv0:ShowPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.foldBtn, function ()
 		uv0:HidePanel()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.tarotTF:Find("bg"), function ()
+		uv0:emit(NewEducateBaseUI.GO_SUBLAYER, Context.New({
+			mediator = NewEducateTarotEntryMediator,
+			viewComponent = NewEducateTarotEntryLayer,
+			data = {
+				inShop = uv0.inShop
+			}
+		}))
 	end, SFX_PANEL)
 	slot0.attrUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
@@ -90,6 +108,10 @@ slot0.OnInit = function(slot0)
 		slot0:ShowPanel()
 	end
 
+	slot0.isTarotChar = slot0.contextData.char:GetPermanentData():IsTarotType()
+
+	setActive(slot0.tarotTF, slot0.isTarotChar)
+	setActive(slot0.statusTF, not slot0.isTarotChar)
 	slot0:Flush()
 end
 
@@ -127,6 +149,19 @@ slot0.OnUpdateAttrItem = function(slot0, slot1, slot2)
 	setText(slot2:Find("value"), slot7)
 	setImageColor(slot0.gradientBgTF:GetChild(slot1), Color.NewHex(EducateConst.GRADE_2_COLOR[slot6][1]))
 	setImageColor(slot2:Find("rank"), Color.NewHex(EducateConst.GRADE_2_COLOR[slot6][2]))
+	setToggleEnabled(slot2, slot0.isTarotChar)
+
+	if slot0.isTarotChar then
+		setText(slot2:Find("info/content/name"), slot4.name)
+		setText(slot2:Find("info/content/value"), slot7)
+
+		slot12, slot13 = slot0.contextData.char:GetBenefitData():GetDisplayPctByDrop({
+			type = NewEducateConst.DROP_TYPE.ATTR,
+			id = slot3
+		})
+
+		setText(slot2:Find("info/content/desc"), i18n("child2_benefit_summary") .. slot12 .. "%" .. "\n" .. i18n("child2_benefit_summary2") .. slot13 .. "%")
+	end
 end
 
 slot0.OnUpdateTalentItem = function(slot0, slot1, slot2)
@@ -148,7 +183,7 @@ slot0.OnUpdateTalentItem = function(slot0, slot1, slot2)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("child2_talent_unlock_tip", uv0))
 	end, SFX_PANEL)
 
-	slot7 = slot0.contnetTF
+	slot7 = slot0.statusTF
 
 	onScroll(slot0, slot7:Find("status"), function (slot0)
 		eachChild(uv0.statusUIList.container, function (slot0)
@@ -173,6 +208,7 @@ slot0.Flush = function(slot0)
 	slot0:FlushAttrs()
 	slot0:FlushTalents()
 	slot0:FlushStatus()
+	slot0:FlushTarot()
 end
 
 slot0.FlushAttrs = function(slot0)
@@ -195,6 +231,26 @@ slot0.FlushStatus = function(slot0)
 	slot0.status = slot0.contextData.char:GetStatusList()
 
 	slot0.statusUIList:align(#slot0.status)
+end
+
+slot0.FlushTarot = function(slot0)
+	slot0.tarotId = slot0.contextData.char:GetTarotId()
+
+	setActive(slot0.tarotIconTF, slot0.tarotId)
+
+	if slot0.tarotId then
+		LoadImageSpriteAsync("neweducateicon/" .. pg.child2_benefit_list[slot0.tarotId].item_icon_little, slot0.tarotIconTF)
+	end
+
+	setText(slot0.tarotNameTF, slot0.tarotId and pg.child2_benefit_list[slot0.tarotId].name or "EMPTY")
+
+	slot0.entries = slot0.contextData.char:GetBenefitData():GetListByType(NewEducateBuff.TYPE.ENTRY)
+
+	setText(slot0.tarotEntryTF, i18n("child2_entry_summary") .. #slot0.entries)
+end
+
+slot0.SetShopOpen = function(slot0, slot1)
+	slot0.inShop = slot1
 end
 
 slot0.OnDestroy = function(slot0)

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯？有点奇怪……",
+			say = "嗯？有點奇怪……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "为什么听到那种不是很快，但节奏感不错的音乐……我会忍不住……",
+			say = "為什麼聽到那種不是很快，但節奏感不錯的音樂……我會忍不住……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "想要跟你跳舞呢……并、并不是两个人一起跳的那种……",
+			say = "想要跟你跳舞呢……並且不是兩個人一起跳的那種……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "算是……算是能让你看到……节奏的律动感的一种方式。",
+			say = "算是……算是能讓你看到……節奏的律動感的一種方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "想……欣赏一下吗？",
+			say = "想……欣賞一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

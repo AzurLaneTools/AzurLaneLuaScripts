@@ -2160,6 +2160,16 @@ slot0.TryAutoFight = function(slot0)
 				}
 			}
 		else
+			slot6 = underscore.map(slot3, function (slot0)
+				slot1, slot2 = uv0:findPath(ChapterConst.SubjectPlayer, uv1.line, slot0)
+
+				return {
+					target = slot0,
+					priority = slot1,
+					path = slot2
+				}
+			end)
+
 			slot7 = function(slot0)
 				slot1 = slot0.target
 
@@ -2172,25 +2182,37 @@ slot0.TryAutoFight = function(slot0)
 				return ChapterConst.EnemyPreference[slot2.type]
 			end
 
-			table.sort(underscore.map(slot3, function (slot0)
-				slot1, slot2 = uv0:findPath(ChapterConst.SubjectPlayer, uv1.line, slot0)
-
-				return {
-					target = slot0,
-					priority = slot1,
-					path = slot2
-				}
-			end), CompareFuncs({
-				function (slot0)
-					return slot0.priority < PathFinding.PrioObstacle and 0 or 1
-				end,
-				function (slot0)
-					return -uv0(slot0)
-				end,
-				function (slot0)
-					return slot0.priority
-				end
-			}))
+			if slot1.id == 1604 then
+				table.sort(slot6, CompareFuncs({
+					function (slot0)
+						return slot0.priority < PathFinding.PrioObstacle and 0 or 1
+					end,
+					function (slot0)
+						return -uv0(slot0)
+					end,
+					function (slot0)
+						return slot0.priority
+					end,
+					function (slot0)
+						return slot0.target.row
+					end,
+					function (slot0)
+						return -slot0.target.column
+					end
+				}))
+			else
+				table.sort(slot6, CompareFuncs({
+					function (slot0)
+						return slot0.priority < PathFinding.PrioObstacle and 0 or 1
+					end,
+					function (slot0)
+						return -uv0(slot0)
+					end,
+					function (slot0)
+						return slot0.priority
+					end
+				}))
+			end
 		end
 	end
 

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，工作怎么样了？",
+			say = "{dorm3d}，工作怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "是吗，还剩下一些……这样啊……",
+			say = "是嗎，還剩下一些……這樣啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "没什么，不过是觉得……你走出这里以后……那道目光……就不能只为我停留。",
+			say = "沒什麼，不過是覺得……你走出這裡以後……那道目光……就不能只為我停留。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "真讨厌，我怎么也开始说起孩子话来了？你有你的工作，我有我的职责……我明白的……",
+			say = "真討厭，我怎麼也開始說起孩子話來了？你有你的工作，我有我的職責……我明白的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……让我再抱一会儿吧，就一小会儿。不会耽误太久的……现在暂且，就这样吧？",
+			say = "……讓我再抱一下吧，就一下下。不會耽誤太久的……現在暫且，就這樣吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

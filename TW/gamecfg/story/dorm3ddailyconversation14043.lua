@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "为什么叹气？呵呵……还不是因为你……",
+			say = "為什麼嘆氣？呵呵……還不是因為你……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "只要你不在，内心就会升起一股焦躁感，不管做什么都缓解不了……",
+			say = "只要你不在，內心就會升起一股焦躁感，不管做什麼都緩解不了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……最近，就连你在也很难缓解了。你知道原因的吧？你会负起责任来的……对不对？",
+			say = "……最近，就連你在也很難緩解了。你知道原因的吧？你會負起責任來的……對不對？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这份因你而起的焦躁感……你一定要负责到最后哦？",
+			say = "這份因你而起的焦躁感……你一定要負責到最後哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -28,6 +28,7 @@ slot0.initData = function(slot0)
 	slot0.events = slot0.contextData.events
 	slot0.drops = {}
 	slot0.isSkip = slot0.contextData.skip
+	slot0.isSkipEvent = slot0.contextData.skipEvent
 
 	underscore.each(slot0.contextData.plan_results, function (slot0)
 		if not uv0.drops[slot0.day] then
@@ -153,20 +154,23 @@ slot0.playWeek = function(slot0, slot1)
 					setText(uv0.planNameTF, uv3:GetName())
 
 					slot1 = uv3:IsPlan() and uv4.plan_drops or uv4.spec_event_drops
+					slot2 = not uv3:IsPlan() or uv5
 
 					if uv0.isSkip then
-						if not uv3:IsPlan() or uv5 then
+						if slot2 and not uv0.isSkipEvent then
 							pg.PerformMgr.GetInstance():PlayGroupNoHide(uv3:GetPerformance(), slot0, slot1 or {})
 						else
 							slot0()
 						end
+					elseif not uv3:IsPlan() and uv0.isSkipEvent then
+						slot0()
 					else
 						pg.PerformMgr.GetInstance():PlayGroupNoHide(uv3:GetPerformance(), slot0, slot1 or {})
 					end
 				end)
 			end
 
-			if slot12 then
+			if slot12 and not slot0.isSkipEvent then
 				slot13 = slot0.showEventIds[slot6][slot10]
 
 				table.insert(slot2, function (slot0)

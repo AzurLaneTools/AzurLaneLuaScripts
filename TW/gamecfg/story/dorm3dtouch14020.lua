@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_gfit2_tone1/drom3d_aegir_ik_gfit2_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "怎么了？是怀念我的吻了吗？",
+			say = "怎麼了？是懷念我的吻了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

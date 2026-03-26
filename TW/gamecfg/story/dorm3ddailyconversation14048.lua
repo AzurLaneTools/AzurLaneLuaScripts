@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "切片的全麦面包……",
+			say = "切片的全麥麵包……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "在上方涂满口味浓烈的林堡奶酪……",
+			say = "在上方塗滿口味濃烈的林堡起司……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "再堆砌上煎制过的培根条和切好的蔬菜碎……",
+			say = "再堆砌上煎製過的培根條和切好的蔬菜碎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "锵锵，一道营养丰富的铁血早餐就这样新鲜出炉了。",
+			say = "鏘鏘，一道營養豐富的鐵血早餐就這樣新鮮出爐了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}快来尝尝，让深渊之神征服你的味蕾吧！",
+			say = "{dorm3d}快來嚐嚐，讓深淵之神征服你的味蕾吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello5/drom3d_aegir_hello5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "居然主动来找我了？看在你这么有诚意的份上，陪你一会儿也不是不行。",
+			say = "居然主動來找我了？看在你這麼有誠意的份上，陪你一下子也不是不行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

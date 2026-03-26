@@ -14,21 +14,16 @@ slot0.SetData = function(slot0)
 		slot0.moodResId
 	}
 	slot0.unlockPlanNum = slot0.contextData.char:GetRoundData():getConfig("plan_num")
-	slot0.planIds = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.PLAN):GetPlans()
+	slot0.planIds = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.PLAN):GetPlans()
 end
 
 slot0.init = function(slot0)
 	slot0.rootTF = slot0._tf:Find("root")
 	slot0.anim = slot0.rootTF:GetComponent(typeof(Animation))
 	slot0.animEvent = slot0.rootTF:GetComponent(typeof(DftAniEvent))
-	slot0.inAnimPlaying = false
 
 	slot0.animEvent:SetEndEvent(function ()
-		uv0.inAnimPlaying = false
-
-		uv0.animEvent:SetEndEvent(function ()
-			uv0:emit(uv1.ON_CLOSE)
-		end)
+		uv0:emit(uv1.ON_CLOSE)
 	end)
 
 	slot0.plansTF = slot0.rootTF:Find("window/plans/content")
@@ -40,8 +35,11 @@ slot0.init = function(slot0)
 
 	setText(slot0.rootTF:Find("window/tip"), i18n("child_close_tip"))
 
-	slot0.effectTF = slot0.rootTF:Find("window/effect")
+	slot0.moodTF = slot0.rootTF:Find("window/benefit/mood")
+	slot0.moodStageTF = slot0.moodTF:Find("left/Text")
+	slot0.moodEffectTF = slot0.moodTF:Find("right/value")
 
+	setText(slot0.moodTF:Find("right/Text"), i18n("child2_mood_benefit"))
 	slot0:BlurPanel(slot0._tf, {
 		groupDelta = 1
 	})
@@ -50,7 +48,7 @@ end
 slot0.didEnter = function(slot0)
 	slot0:SetData()
 	onButton(slot0, slot0._tf, function ()
-		uv0:closeView()
+		uv0:_close()
 	end, SFX_CANCEL)
 
 	slot0.result = {}
@@ -64,18 +62,22 @@ slot0.didEnter = function(slot0)
 		uv0.result[slot0.id] = uv0.result[slot0.id] + slot0.number
 
 		if slot0.isBenefit then
-			if not uv0.benefit[slot0.id] then
-				uv0.benefit[slot0.id] = 0
+			if not uv0.benefit[slot0.type] then
+				uv0.benefit[slot0.type] = {}
 			end
 
-			uv0.benefit[slot0.id] = uv0.benefit[slot0.id] + slot0.number
+			if not uv0.benefit[slot0.type][slot0.id] then
+				uv0.benefit[slot0.type][slot0.id] = 0
+			end
+
+			uv0.benefit[slot0.type][slot0.id] = uv0.benefit[slot0.type][slot0.id] + slot0.number
 		end
 	end)
 
-	slot0.oldRes = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.PLAN):GetResources() or {}
+	slot0.oldRes = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.PLAN):GetResources() or {}
 	slot0.oldAttrs = slot1:GetAttrs() or {}
 
-	setText(slot0.effectTF, string.gsub("$1", "$1", i18n("child2_mood_desc" .. slot0.contextData.char:GetMoodStage())))
+	slot0:UpdataMood()
 	slot0.attrUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateAttr(slot1, slot2)
@@ -94,6 +96,31 @@ slot0.didEnter = function(slot0)
 		end
 	end)
 	slot0.planUIList:align(slot0.unlockPlanNum)
+end
+
+slot0.UpdataMood = function(slot0)
+	slot1, slot2 = slot0.contextData.char:GetMoodStage()
+
+	setText(slot0.moodStageTF, i18n("child2_mood_stage" .. slot1))
+	setText(slot0.moodEffectTF, slot2 / 100 .. "%")
+	setActive(slot0.moodTF:Find("buff"), slot2 >= 0)
+	setActive(slot0.moodTF:Find("debuff"), slot2 < 0)
+end
+
+slot0.GetExtraStr = function(slot0, slot1, slot2, slot3)
+	slot4 = ""
+
+	if slot3 ~= 0 then
+		slot4 = setColorStr((slot3 > 0 and "+" or "") .. slot3, slot3 > 0 and "#22AFFF" or "#FF6767")
+	end
+
+	slot5 = ""
+
+	if slot2 - slot3 - slot1 ~= 0 then
+		slot5 = setColorStr((slot6 > 0 and "+" or "") .. slot6, slot6 > 0 and "#393A3C" or "#FF6767")
+	end
+
+	return slot5 .. slot4
 end
 
 slot0.UpdateAttr = function(slot0, slot1, slot2)
@@ -117,9 +144,9 @@ slot0.UpdateAttr = function(slot0, slot1, slot2)
 		slot13 = "393A3C"
 	end
 
-	setText(slot2:Find("value_old"), math.max(slot11, 0))
 	setImageColor(slot2:Find("arrow"), Color.NewHex(slot13))
 	setTextColor(slot2:Find("value_new"), Color.NewHex(slot13))
+	setText(slot2:Find("value_old"), math.max(slot11, 0) .. slot0:GetExtraStr(slot11, slot6, slot0.benefit[NewEducateConst.DROP_TYPE.ATTR] and slot14[slot5] or 0))
 	setActive(slot2:Find("VX"), slot11 ~= slot6)
 end
 
@@ -136,10 +163,10 @@ slot0.UpdateRes = function(slot0, slot1, slot2)
 		slot7 = "393A3C"
 	end
 
-	setText(slot2:Find("value_old"), math.max(slot5, 0))
 	setText(slot2:Find("value_new"), slot4)
 	setImageColor(slot2:Find("arrow"), Color.NewHex(slot7))
 	setTextColor(slot2:Find("value_new"), Color.NewHex(slot7))
+	setText(slot2:Find("value_old"), math.max(slot5, 0) .. slot0:GetExtraStr(slot5, slot4, slot0.benefit[NewEducateConst.DROP_TYPE.RES] and slot8[slot3] or 0))
 end
 
 slot0.UpdatePlan = function(slot0, slot1, slot2)
@@ -156,13 +183,7 @@ slot0.UpdatePlan = function(slot0, slot1, slot2)
 end
 
 slot0._close = function(slot0)
-	if slot0.inAnimPlaying then
-		return
-	end
-
 	slot0.anim:Play("anim_educate_result_out")
-
-	slot0.inAnimPlaying = true
 end
 
 slot0.onBackPressed = function(slot0)
@@ -172,6 +193,7 @@ end
 slot0.willExit = function(slot0)
 	slot0:UnOverlayPanel(slot0._tf)
 	existCall(slot0.contextData.onExit)
+	slot0.animEvent:SetEndEvent(nil)
 end
 
 return slot0

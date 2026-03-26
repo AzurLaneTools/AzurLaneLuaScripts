@@ -20,7 +20,8 @@ slot0.execute = function(slot0, slot1)
 						gridData = uv1,
 						plan_results = uv2.plan_results,
 						events = uv2.events,
-						isSkip = uv3.isSkip
+						isSkip = uv3.isSkip,
+						isSkipEvent = uv3.isSkipEvent
 					})
 				end
 			})

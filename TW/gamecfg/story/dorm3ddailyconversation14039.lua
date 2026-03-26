@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，这件不行……这件也……",
+			say = "嗯，這件不行……這件也……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是在挑什么？",
+			say = "這是在挑什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "呀？！吓死我了，不要突然凑过来！",
+			say = "呀？！嚇死我了，不要突然湊過來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那个，就是，泳、泳装……我有好几件中意的，不知道该怎么选……",
+			say = "那個，就是，泳、泳裝……我有好幾件喜歡的，不知道該怎麼選……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这种东西还是到店试穿比较好吧？",
+			say = "這種東西還是到店試穿比較好吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这么说好像也对。好——决定了，明天就去挑吧，当然了，你得跟我一起去。",
+			say = "這麼說好像也對。好——決定了，明天就去挑吧，當然了，你得跟我一起去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不许有反对意见，听明白了吗？",
+			say = "不許有反對意見，聽明白了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello8/drom3d_aegir_hello8",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "用这么温柔的方式打招呼，是想让我也温柔地对待你吗？看透你了，呵呵~",
+			say = "用這麼溫柔的方式打招呼，是想讓我也溫柔地對待你嗎？看透你了，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

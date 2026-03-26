@@ -269,7 +269,7 @@ slot0.GetName = function(slot0)
 end
 
 slot0.GetEnName = function(slot0)
-	return ShipGroup.getDefaultShipConfig(slot0:GetShipGroup()).english_name
+	return pg.island_unit_character[slot0:GetModelUnit()].english_name
 end
 
 slot0.StaticGetName = function(slot0)

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello6/drom3d_aegir_hello6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今天的心情意外很好……所以特别批准你可以多撒娇一会儿，要好好珍惜哦？呵呵~",
+			say = "今天的心情意外很好……所以特別批准你可以多撒嬌一下子，要好好珍惜哦？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

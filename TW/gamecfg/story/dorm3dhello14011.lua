@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello11/drom3d_aegir_hello11",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "突然这么注重形象，是想吸引我的注意吗？先说好，我可不会轻易夸人，这次……例外。",
+			say = "突然這麼注重形象，是想吸引我的注意嗎？先說好，我可不會輕易誇人，這次……例外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

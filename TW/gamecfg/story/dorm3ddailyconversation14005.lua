@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "有没有偏爱的东西？奇怪的问题。",
+			say = "有沒有偏愛的東西？奇怪的問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我可是很贪婪的，被我看上的东西，从来都有进无出。明白我的意思吗？",
+			say = "我可是很貪婪的，被我看上的東西，從來都有進無出。明白我的意思嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "被我偏爱的，不管是什么我都会紧抓不放。比方说美酒，比方说……",
+			say = "被我偏愛的，不管是什麼我都會緊抓不放。比方說美酒，比方說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼哼……还要问下去吗？",
+			say = "哼哼……還要問下去嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

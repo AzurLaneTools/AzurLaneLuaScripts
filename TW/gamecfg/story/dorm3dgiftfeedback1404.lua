@@ -50,7 +50,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_gift1_voice2/drom3d_aegir_gift1_voice2",
 			actorName = 49905,
 			nameColor = "#FFFFFF",
-			say = "既然送我如此精致的酒杯，那今天就用这杯子开怀畅饮吧~",
+			say = "既然送我如此精緻的酒杯，那今天就用這杯子開懷暢飲吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

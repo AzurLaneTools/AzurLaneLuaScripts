@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "来得正好，这些文件我帮你处理完了。",
+			say = "來得正好，這些文件我幫你處理完了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "要好好感谢我哦~我可是为了你，专门牺牲了自己的休息时间呢。",
+			say = "要好好感謝我哦~我可是為了你，專門犧牲了自己的休息時間呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哎？夹着的信？你说……上面还写着「{dorm3d}收」？",
+			say = "哎？夾著的信？你說……上面還寫著「指揮官收」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "还、还给我！那是我不小心夹进去的——不是，那根本不是我的……",
+			say = "還、還給我！那是我不小心夾進去的——不是，那根本不是我的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……还给我啊——！",
+			say = "……還給我啊——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

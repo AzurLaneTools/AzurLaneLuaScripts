@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_tone20/drom3d_aegir_ik_tone20",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "敢继续的话，后果自负哦？",
+			say = "敢繼續的話，後果自負哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

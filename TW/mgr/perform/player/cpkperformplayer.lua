@@ -128,4 +128,8 @@ slot0.Clear = function(slot0)
 	gcAll()
 end
 
+slot0.Dispose = function(slot0)
+	slot0:Clear()
+end
+
 return slot0

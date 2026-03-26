@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "还记得吗？你之前问过，我有没有什么偏爱的。",
+			say = "還記得嗎？你之前問過，我有沒有什麼偏愛的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不记得也无所谓。那个时候我还不太确信，不过现在我已经完全肯定了。",
+			say = "不記得也無所謂。那時候我還不太確信，不過現在我已經完全肯定了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "答案……答案啊。你真的想听那个答案吗？听过了……可就回不去了呦？",
+			say = "答案……答案啊。你真的想聽那個答案嗎？聽過了……可就回不去了唷？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "呵呵……“我可是很贪婪的，被我看上的东西，从来都有进无出”。",
+			say = "呵呵……「我可是很貪婪的，被我看上的東西，從來都有進無出」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我不会放手了，永远都不会~",
+			say = "我不會放手了，永遠都不會~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

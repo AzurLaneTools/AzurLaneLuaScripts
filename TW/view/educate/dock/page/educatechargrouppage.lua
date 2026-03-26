@@ -179,6 +179,33 @@ slot0.InitCard = function(slot0, slot1, slot2, slot3)
 		end
 
 		if uv1:IsLock() then
+			if pg.secretary_special_ship[uv1.id].unlock_type == 4 then
+				if pg.ship_skin_template[slot0.unlock[1]].shop_id ~= 0 and Goods.Create({
+					shop_id = slot2
+				}, Goods.TYPE_SKIN):inTime() then
+					slot4 = {}
+
+					if PLATFORM_CODE ~= PLATFORM_JP then
+						table.insert(slot4, function (slot0)
+							pg.MsgboxMgr.GetInstance():ShowMsgBox({
+								content = i18n("child2_secretary_skin_confirm"),
+								onYes = slot0
+							})
+						end)
+					end
+
+					seriesAsync(slot4, function ()
+						uv0:emit(EducateCharDockMediator.ON_SKIN_SHOP, uv1)
+					end)
+
+					return
+				end
+
+				pg.TipsMgr.GetInstance():ShowTips(i18n("child2_secretary_skin_expire"))
+
+				return
+			end
+
 			pg.TipsMgr.GetInstance():ShowTips(i18n("secretary_special_lock_tip"))
 
 			return

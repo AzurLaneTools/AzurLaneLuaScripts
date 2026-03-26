@@ -5,6 +5,7 @@ pg.child2_data = {
 		name_background = "educate_oceana_1",
 		personality_type = 1,
 		id = 1,
+		personality_bar_icon = "lingyangzhe_personality_bar",
 		head = "lingyangzhe1_1",
 		name2 = "領洋者",
 		favor_level = 5,
@@ -113,6 +114,18 @@ pg.child2_data = {
 			{
 				"shop",
 				8
+			},
+			{
+				"rand_event",
+				3
+			},
+			{
+				"char_event",
+				10
+			},
+			{
+				"lesson_upgrade",
+				6
 			}
 		},
 		bgm = {
@@ -123,6 +136,20 @@ pg.child2_data = {
 			{
 				"tag2",
 				"qe-ova-4"
+			}
+		},
+		event_disclaim_refund = {},
+		shop_disclaim_refund = {},
+		personality_tag_icon = {
+			{
+				"tag1",
+				"lingyangzhe_tag1_bg",
+				"lingyangzhe_option_bg_center_type1"
+			},
+			{
+				"tag2",
+				"lingyangzhe_tag2_bg",
+				"lingyangzhe_option_bg_center_type2"
 			}
 		}
 	},

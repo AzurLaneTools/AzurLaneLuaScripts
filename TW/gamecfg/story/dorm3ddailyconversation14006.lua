@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "晴天的这个时候站在宿舍窗前，能清楚地感觉到港口的海风。",
+			say = "晴天的這個時候站在宿舍窗前，能清楚感覺到港口的海風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "海风会捎来消息，我从风里就能知道很多事情。",
+			say = "海風會捎來消息，我從風裡就能知道很多事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "深渊之神的特权？不是那种东西啦……与其说是我知道，不如说是“我希望如此”吧。",
+			say = "深淵之神的特權？不是那種東西啦……與其說是我知道，不如說是「我希望如此」吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "比如说，某人回来的消息……之类的。",
+			say = "比如說，某人回來的消息……之類的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

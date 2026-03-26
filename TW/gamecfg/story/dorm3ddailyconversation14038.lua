@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这个啊，好像是港区最新刊印的时尚穿搭特辑哦！",
+			say = "這個啊，好像是港區最新刊印的時尚穿搭特輯哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "怎么？感觉不像是我会感兴趣的内容？",
+			say = "怎麼？感覺不像是我會感興趣的內容？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "拜托，就算是我偶尔也会想换个造型嘛~总不能一直一个风格吧？",
+			say = "拜託，就算是我偶爾也會想換個造型嘛~總不能一直一個風格吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

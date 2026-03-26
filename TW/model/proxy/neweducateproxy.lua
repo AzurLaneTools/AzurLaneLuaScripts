@@ -4,6 +4,7 @@ slot0.ATTR_UPDATED = "NewEducateProxy.ATTR_UPDATED"
 slot0.PERSONALITY_UPDATED = "NewEducateProxy.PERSONALITY_UPDATED"
 slot0.TALENT_UPDATED = "NewEducateProxy.TALENT_UPDATED"
 slot0.STATUS_UPDATED = "NewEducateProxy.STATUS_UPDATED"
+slot0.TAROT_UPDATED = "NewEducateProxy.TAROT_UPDATED"
 slot0.POLAROID_UPDATED = "NewEducateProxy.POLAROID_UPDATED"
 slot0.ENDING_UPDATED = "NewEducateProxy.ENDING_UPDATED"
 slot0.NEXT_ROUND = "NewEducateProxy.NEXT_ROUND"
@@ -61,6 +62,7 @@ slot0.RefreshChar = function(slot0, slot1, slot2)
 
 	slot0.data[slot1]:SetPermanent(slot0.data[slot1]:GetPermanentData())
 	slot0.data[slot1]:InitFSM(slot2.fsm)
+	NewEducateHelper.ClearEventPerformance(slot0.data[slot1])
 end
 
 slot0.SetCurChar = function(slot0, slot1)
@@ -69,6 +71,10 @@ end
 
 slot0.GetCurChar = function(slot0)
 	return slot0.data[slot0.curId]
+end
+
+slot0.AddTempRound = function(slot0, slot1)
+	slot0.data[slot0.curId]:GetRoundData():AddTempCnt(slot1)
 end
 
 slot0.AddBuff = function(slot0, slot1, slot2)
@@ -84,6 +90,8 @@ slot0.AddBuff = function(slot0, slot1, slot2)
 		slot0:sendNotification(uv0.TALENT_UPDATED)
 	elseif slot3 == NewEducateBuff.TYPE.STATUS then
 		slot0:sendNotification(uv0.STATUS_UPDATED)
+	else
+		slot0:sendNotification(uv0.TAROT_UPDATED)
 	end
 end
 

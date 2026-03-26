@@ -4048,5 +4048,9 @@ pg.gameset = {
 	love_base_id = {
 		description = "",
 		key_value = 31201
+	},
+	child2_rank_switch = {
+		description = "",
+		key_value = 1
 	}
 }

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这副睡眼惺忪的模样，该不会是在梦里也被我灌醉了吧？",
+			say = "這副睡眼惺忪的模樣，該不會是在夢中被我灌醉了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "需要提神服务吗？",
+			say = "需要提神服務嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "既然被我撞见……这份三明治就当是我的慈悲。",
+			say = "既然被我撞見……這份三明治就當是我的慈悲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "现在你的胃也归我管了。",
+			say = "現在你的胃也歸我管了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

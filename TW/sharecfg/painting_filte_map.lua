@@ -7749,6 +7749,7 @@ pg.painting_filte_map = {
 		key = "huoli_2",
 		res_list = {
 			"painting/huoli_2_tex",
+			"painting/huoli_2_shophx_tex",
 			"painting/huoli_2_n_tex",
 			"painting/huoli_2_n",
 			"painting/huoli_2"
@@ -7816,13 +7817,18 @@ pg.painting_filte_map = {
 		key = "i13",
 		res_list = {
 			"painting/i13_tex",
+			"painting/i13"
+		}
+	},
+	i13_3 = {
+		key = "i13_3",
+		res_list = {
 			"painting/i13_3_tex",
 			"painting/i13_3_rw_tex",
 			"painting/i13_3_n_rw_tex",
 			"painting/i13_3_n",
 			"painting/i13_3_bj_tex",
-			"painting/i13_3",
-			"painting/i13"
+			"painting/i13_3"
 		}
 	},
 	i168 = {
@@ -10276,6 +10282,13 @@ pg.painting_filte_map = {
 			"painting/leigensibao_rw_tex",
 			"painting/leigensibao_n_tex",
 			"painting/leigensibao_n",
+			"painting/leigensibao_alter_tex",
+			"painting/leigensibao_alter_rw_tex",
+			"painting/leigensibao_alter_n_tex",
+			"painting/leigensibao_alter_n_rw_tex",
+			"painting/leigensibao_alter_n",
+			"painting/leigensibao_alter_bj_tex",
+			"painting/leigensibao_alter",
 			"painting/leigensibao"
 		}
 	},

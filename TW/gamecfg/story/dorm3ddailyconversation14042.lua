@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "即使是我，也有做不到的事呢。",
+			say = "即使是我，也有做不到的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "怎么了？一脸惊讶的表情。难道我在你心里是无所不能的吗？",
+			say = "怎麼了？一臉驚訝的表情。難道我在你心裡是無所不能的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "确实是无所不能的。",
+			say = "確實是無所不能的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……！尽会说些让人开心的话……",
+			say = "……！盡會說些讓人開心的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "承认这一点也没什么。你不会因为我做不到的事舍弃我，光是明白这一点，我就已经无比安心了。",
+			say = "承認這一點也沒什麼。你不會因為我做不到的事捨棄我，光是明白這一點，我就已經無比安心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "相对的——我能做到的事，也请你一件一件地好好见证哦？哼哼，我{namecode:480}可是绝对不会让你失望的。",
+			say = "相對的——我能做到的事，也請你一件一件地好好見證哦？哼哼，我埃吉爾可是絕對不會讓你失望的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

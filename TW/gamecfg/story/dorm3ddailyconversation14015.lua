@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "手上的伤……？你眼花了，我可是{namecode:480}，哪有什么能伤到我的？",
+			say = "手上的傷……？你眼花了，我可是埃吉爾，哪有什麼能傷害我的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊，别碰那个，还没做完——",
+			say = "啊，別碰那個，還沒做完——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是……",
+			say = "這是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……只是块没成型的布料而已，快还给我！",
+			say = "……只是塊沒成型的布料而已，快還給我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……你……还不是都因为你迟迟不拿自己的布偶来换……就我自己的布偶孤零零的，多少有点无趣……",
+			say = "……你……還不是都因為你遲遲不拿自己的布偶來換……就我自己的布偶孤零零的，多少有點無趣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……不对，果然还是什么都没有！把你刚刚看到听到的都忘掉！",
+			say = "……不對，果然還是什麼都沒有！把你剛剛看到聽到的都忘掉吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

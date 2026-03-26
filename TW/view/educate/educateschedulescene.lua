@@ -163,6 +163,13 @@ slot0.findUI = function(slot0)
 	setActive(slot0.skipToggle, true)
 	setText(slot0.skipToggle:Find("Text"), i18n("child_plan_skip"))
 
+	slot0.skipEventToggle = slot0.leftPanelTF:Find("skip_toggle_event")
+	slot0.skipEventToggleCom = slot0.skipEventToggle:GetComponent(typeof(Toggle))
+
+	triggerToggle(slot0.skipEventToggle, PlayerPrefs.GetInt(EducateConst.SKIP_PLANS_EVENT_ANIM_KEY .. "_" .. slot0.playerID) == 1)
+	setActive(slot0.skipEventToggle, true)
+	setText(slot0.skipEventToggle:Find("Text"), i18n("child_plan_skip_event"))
+
 	slot0.selectPanelTF = slot0.leftPanelTF:Find("select_panel")
 
 	setActive(slot0.selectPanelTF, false)
@@ -266,11 +273,14 @@ slot0.addListener = function(slot0)
 			end
 		end)
 		seriesAsync(slot0, function ()
-			uv0:executePlans(uv0.skipToggleCom.isOn)
+			uv0:executePlans(uv0.skipToggleCom.isOn, uv0.skipEventToggleCom.isOn)
 		end)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.skipToggle, function (slot0)
 		PlayerPrefs.SetInt(EducateConst.SKIP_PLANS_ANIM_KEY .. "_" .. uv0.playerID, slot0 and 1 or 0)
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.skipEventToggle, function (slot0)
+		PlayerPrefs.SetInt(EducateConst.SKIP_PLANS_EVENT_ANIM_KEY .. "_" .. uv0.playerID, slot0 and 1 or 0)
 	end, SFX_PANEL)
 end
 
@@ -298,10 +308,11 @@ slot0.allEmpty = function(slot0)
 	return true
 end
 
-slot0.executePlans = function(slot0, slot1)
+slot0.executePlans = function(slot0, slot1, slot2)
 	slot0:emit(EducateScheduleMediator.GET_PLANS, {
 		gridData = slot0.gridData,
-		isSkip = slot1
+		isSkip = slot1,
+		isSkipEvent = slot2
 	})
 end
 

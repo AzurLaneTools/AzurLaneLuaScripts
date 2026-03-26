@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture2_tone7/drom3d_aegir_ik_furniture2_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "怎么了？我还没认真呢~",
+			say = "怎麼了？我還沒認真呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

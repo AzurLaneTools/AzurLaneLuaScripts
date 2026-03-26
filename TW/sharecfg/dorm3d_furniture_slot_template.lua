@@ -369,6 +369,78 @@ pg.dorm3d_furniture_slot_template = {
 		furniture_name = "pre_db_df_tedian01",
 		zone_id = 12003
 	},
+	[1140101] = {
+		default_furniture = 1401,
+		name = "臥室床",
+		type = 4,
+		id = 1140101,
+		room_id = 14,
+		furniture_name = "pre_db_aijier_bed01_0",
+		zone_id = 14001
+	},
+	[1140102] = {
+		default_furniture = 0,
+		name = "臥室相機",
+		type = 3,
+		id = 1140102,
+		room_id = 14,
+		furniture_name = "pre_db_aje_camera01",
+		zone_id = 14001
+	},
+	[1140103] = {
+		default_furniture = 0,
+		name = "臥室檯燈",
+		type = 3,
+		id = 1140103,
+		room_id = 14,
+		furniture_name = "pre_db_aje_desklamp01",
+		zone_id = 14001
+	},
+	[1140201] = {
+		default_furniture = 1402,
+		name = "書房書桌",
+		type = 6,
+		id = 1140201,
+		room_id = 14,
+		furniture_name = "pre_db_aijier_study01_0",
+		zone_id = 14002
+	},
+	[1140202] = {
+		default_furniture = 0,
+		name = "書房盆栽",
+		type = 3,
+		id = 1140202,
+		room_id = 14,
+		furniture_name = "pre_db_aje_bonsai01",
+		zone_id = 14002
+	},
+	[1140301] = {
+		default_furniture = 1403,
+		name = "客廳沙發",
+		type = 5,
+		id = 1140301,
+		room_id = 14,
+		furniture_name = "pre_db_aijier_living01_0",
+		zone_id = 14003
+	},
+	[1140302] = {
+		default_furniture = 0,
+		name = "客廳相框",
+		type = 3,
+		id = 1140302,
+		room_id = 14,
+		furniture_name = "pre_db_aje_billboard01",
+		zone_id = 14003
+	},
+	[1140303] = {
+		default_furniture = 0,
+		name = "客廳蠟燭",
+		type = 3,
+		id = 1140303,
+		room_id = 14,
+		furniture_name = "pre_db_aje_decoration01",
+		zone_id = 14003
+	},
 	get_id_list_by_room_id = {
 		{
 			100101,
@@ -422,6 +494,16 @@ pg.dorm3d_furniture_slot_template = {
 			1120302,
 			1120303,
 			1120304
+		},
+		[14] = {
+			1140101,
+			1140102,
+			1140103,
+			1140201,
+			1140202,
+			1140301,
+			1140302,
+			1140303
 		}
 	},
 	get_id_list_by_zone_id = {
@@ -499,6 +581,20 @@ pg.dorm3d_furniture_slot_template = {
 			1120302,
 			1120303,
 			1120304
+		},
+		[14001] = {
+			1140101,
+			1140102,
+			1140103
+		},
+		[14002] = {
+			1140201,
+			1140202
+		},
+		[14003] = {
+			1140301,
+			1140302,
+			1140303
 		}
 	},
 	all = {
@@ -542,6 +638,14 @@ pg.dorm3d_furniture_slot_template = {
 		1120301,
 		1120302,
 		1120303,
-		1120304
+		1120304,
+		1140101,
+		1140102,
+		1140103,
+		1140201,
+		1140202,
+		1140301,
+		1140302,
+		1140303
 	}
 }

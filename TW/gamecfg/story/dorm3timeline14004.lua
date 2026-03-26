@@ -27,12 +27,12 @@ return {
 							options = {
 								{
 									{
-										content = "你看起来已经有点醉了……"
+										content = "妳看起來已經有點醉了……"
 									}
 								},
 								{
 									{
-										content = "似乎有一点……"
+										content = "似乎有一點……"
 									}
 								}
 							},

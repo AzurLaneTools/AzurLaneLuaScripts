@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "要出门吗？来，拿上这个。",
+			say = "要出門嗎？來，拿上這個。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "对啊，这是你的证件。我在里面放了点……“幸运物”？",
+			say = "對啊，這是你的證件。我在裡面放了點……「幸運物」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我不可能总是陪在你身边。最起码，让它给你带来一些好运，让你能够平安无事地回到这里来。",
+			say = "我不可能總是陪在你身邊。最起碼，讓它帶給你一些好運，讓你能夠平安無事地回到這裡來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这枚小铜币可不仅仅代表幸运……",
+			say = "這枚小銅幣可不僅僅代表幸運……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那么，愿我的{dorm3d}……我……我……希望你幸运。",
+			say = "那麼，願我的{dorm3d}……我……我……希望你幸運。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

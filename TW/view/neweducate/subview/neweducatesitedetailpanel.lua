@@ -9,6 +9,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.shopTF = slot0.rootTF:Find("shop")
 	slot1 = slot0.shopTF:Find("goods/content")
 	slot0.goodsUIList = UIItemList.New(slot1, slot1:Find("tpl"))
+	slot0.shopRefreshTF = slot0.shopTF:Find("refresh")
 	slot0.normalTF = slot0.rootTF:Find("normal")
 	slot0.titleTF = slot0.normalTF:Find("title/Text")
 	slot0.picTF = slot0.normalTF:Find("content/icon_bg/icon_mask/icon")
@@ -51,6 +52,9 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot3:Find("options/exit"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
+	onButton(slot0, slot0.shopRefreshTF, function ()
+		uv0:emit(NewEducateMapMediator.ON_REFRESH_SHOP)
+	end, SFX_PANEL)
 
 	slot1 = slot0.goodsUIList
 
@@ -59,6 +63,9 @@ slot0.OnInit = function(slot0)
 			uv0:UpdateGoodsItem(slot1, slot2)
 		end
 	end)
+
+	slot0.shopRefreshCost = pg.gameset.child2_shop_refresh_price.key_value
+	slot0.shopRefreshSellCnt = pg.gameset.child2_shop_refresh_count.key_value
 end
 
 slot0.Show = function(slot0, slot1)
@@ -72,6 +79,7 @@ end
 slot0.Flush = function(slot0)
 	if pg.child2_site_display[slot0.siteId].type == NewEducateConst.SITE_TYPE.SHOP then
 		setText(slot0.shopTF:Find("title"), slot1.title)
+		setText(slot0.shopRefreshTF:Find("cost/Text"), slot0.shopRefreshCost)
 		slot0:ShowShop()
 	else
 		slot0:ShowNormal(slot1)
@@ -161,7 +169,8 @@ end
 
 slot0.ShowShop = function(slot0)
 	slot0.discountInfos = slot0.contextData.char:GetGoodsDiscountInfos()
-	slot0.goods = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.MAP):GetGoodList()
+	slot1 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.MAP)
+	slot0.goods = slot1:GetGoodList()
 
 	table.sort(slot0.goods, CompareFuncs({
 		function (slot0)
@@ -179,6 +188,16 @@ slot0.ShowShop = function(slot0)
 	setActive(slot0.shopTF, true)
 	setActive(slot0.normalTF, false)
 	slot0.goodsUIList:align(#slot0.goods)
+	slot0:UpdateShopRefreshInfos(slot1:GetRefreshShopCnt())
+end
+
+slot0.UpdateShopRefreshInfos = function(slot0, slot1)
+	slot2 = slot0.contextData.char:GetResByType(NewEducateChar.RES_TYPE.REFRESH_SHOP)
+
+	setText(slot0.shopRefreshTF:Find("Text"), slot2)
+	setActive(slot0.shopRefreshTF, slot2 > 0 or slot1 < slot0.shopRefreshSellCnt)
+	setActive(slot0.shopRefreshTF:Find("Text"), slot2 > 0)
+	setActive(slot0.shopRefreshTF:Find("cost"), slot2 <= 0 and slot1 < slot0.shopRefreshSellCnt)
 end
 
 slot0.UpdateGoodsItem = function(slot0, slot1, slot2)
@@ -204,80 +223,70 @@ slot0.UpdateGoodsItem = function(slot0, slot1, slot2)
 	if slot4 then
 		removeOnButton(slot2)
 	else
-		slot8 = slot0.contextData.char
-		slot8 = slot8:IsMatch(slot6)
-
 		onButton(slot0, slot2, function ()
-			if uv0 then
-				uv1:emit(NewEducateBaseUI.ON_SHOP, {
-					shopId = uv2.id,
-					price = uv3.number,
-					onBuy = function ()
-						uv0:OnClickBuy(uv1)
-					end
-				})
-			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
-			end
+			uv0:emit(NewEducateBaseUI.ON_SHOP, {
+				shopId = uv1.id,
+				price = uv2.number,
+				onBuy = function ()
+					uv0:OnClickBuy(uv1)
+				end
+			})
 		end, SFX_PANEL)
 	end
 end
 
-slot0.OnClickBuy = function(slot0, slot1)
-	seriesAsync({
-		function (slot0)
-			slot1, slot2, slot3 = uv0:CheckBenefit(uv1)
+slot0.SendBuyProto = function(slot0, slot1)
+	slot0:emit(NewEducateMapMediator.ON_SHOPPING, slot1.id)
+end
 
-			if slot1 then
-				uv0:emit(NewEducateBaseUI.ON_BOX, {
-					content = i18n(slot3, slot2),
-					onYes = slot0
-				})
-			else
-				slot0()
-			end
-		end,
-		function (slot0)
-			if uv0:CheckPoint(uv1) then
-				uv0:emit(NewEducateBaseUI.ON_BOX, {
-					content = i18n("child2_shop_point_sure"),
-					onYes = slot0
-				})
-			else
-				slot0()
-			end
-		end
-	}, function ()
-		uv0:emit(NewEducateMapMediator.ON_SHOPPING, uv1.id)
+slot0.OnClickBuy = function(slot0, slot1)
+	if slot1:getConfig("goods_type") == NewEducateGoods.TYPE.BENEFIT then
+		slot0:ClickBenefitGood(slot1)
+	elseif slot2 == NewEducateGoods.TYPE.RES then
+		slot0:ClickResGood(slot1)
+	elseif slot2 == NewEducateGoods.TYPE.UP_ENTRY then
+		existCall(slot0.contextData.onClickUpEntryGood, slot1)
+	else
+		slot0:SendBuyProto(slot1)
+	end
+end
+
+slot0.ClickBenefitGood = function(slot0, slot1)
+	slot2 = {}
+	slot3 = slot1:getConfig("goods_id")
+
+	if slot0.contextData.char:GetStatus(slot1:getConfig("goods_id")) and slot4:getConfig("is_tip") == 0 then
+		slot5 = slot4:GetEndRound() - slot0.contextData.char:GetRoundData().round
+		slot6 = slot4:getConfig("during_time") == -1 and "child2_shop_benefit_sure2" or "child2_shop_benefit_sure"
+
+		table.insert(slot2, function (slot0)
+			uv0:emit(NewEducateBaseUI.ON_BOX, {
+				content = i18n(uv1, uv2),
+				onYes = slot0
+			})
+		end)
+	end
+
+	seriesAsync(slot2, function ()
+		uv0:SendBuyProto(uv1)
 	end)
 end
 
-slot0.CheckBenefit = function(slot0, slot1)
-	if slot1:IsBenefitType() then
-		if slot0.contextData.char:GetStatus(slot1:getConfig("goods_id")) and slot2:getConfig("is_tip") == 0 then
-			return true, slot2:GetEndRound() - slot0.contextData.char:GetRoundData().round, slot2:getConfig("during_time") == -1 and "child2_shop_benefit_sure2" or "child2_shop_benefit_sure"
-		else
-			return false
-		end
+slot0.ClickResGood = function(slot0, slot1)
+	slot2 = {}
+
+	if slot1:getConfig("goods_id") == slot0.contextData.char:GetResIdByType(NewEducateChar.RES_TYPE.ACTION) and pg.child2_resource[slot3].max_value < slot0.contextData.char:GetPoint(slot3) + slot1:getConfig("goods_num") then
+		table.insert(slot2, function (slot0)
+			uv0:emit(NewEducateBaseUI.ON_BOX, {
+				content = i18n("child2_shop_point_sure"),
+				onYes = slot0
+			})
+		end)
 	end
 
-	return false
-end
-
-slot0.CheckPoint = function(slot0, slot1)
-	if slot1:IsResType() then
-		if slot1:getConfig("goods_id") == slot0.contextData.char:GetResIdByType(NewEducateChar.RES_TYPE.ACTION) then
-			if pg.child2_resource[slot2].max_value < slot0.contextData.char:GetPoint(slot2) + slot1:getConfig("goods_num") then
-				return true
-			else
-				return false
-			end
-		else
-			return false
-		end
-	end
-
-	return false
+	seriesAsync(slot2, function ()
+		uv0:SendBuyProto(uv1)
+	end)
 end
 
 slot0.FlushShop = function(slot0)

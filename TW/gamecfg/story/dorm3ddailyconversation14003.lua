@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你办公室里的那个盆栽，很不错。叶片是粉色的吧？不常见呢。",
+			say = "你辦公室裡的那個盆栽，很不錯。葉片是粉紅色的吧？不常見呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "叶片美妙的颜色反而是从未见过阳光的证明，惹人怜爱不是吗？",
+			say = "葉片美妙的顏色反而是從未見過陽光的證明，惹人憐愛不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "所以，给它浇个水也就是顺手的事……",
+			say = "所以，給它澆個水也就是順手的事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……只是看它可怜而已。别误会，我没有多喜欢……就只有那么一点在意。",
+			say = "……只是看它可憐而已。別誤會，我沒有多喜歡……就只有那麼一點在意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

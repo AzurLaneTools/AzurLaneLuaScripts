@@ -3,6 +3,7 @@ slot0.USE_ITEM = "ItemInfoMediator:USE_ITEM"
 slot0.COMPOSE_ITEM = "ItemInfoMediator:COMPOSE_ITEM"
 slot0.SELL_BLUEPRINT = "sell blueprint"
 slot0.EXCHANGE_LOVE_LETTER_ITEM = "ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM"
+slot0.REPAIR_LOVE_LETTER_ITEM = "ItemInfoMediator.REPAIR_LOVE_LETTER_ITEM"
 slot0.CHECK_LOVE_LETTER_MAIL = "ItemInfoMediator.CHECK_LOVE_LETTER_MAIL"
 slot0.REPAIR_LOVE_LETTER_MAIL = "ItemInfoMediator.REPAIR_LOVE_LETTER_MAIL"
 
@@ -37,6 +38,16 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.EXCHANGE_LOVE_LETTER_ITEM, {
 			activity_id = slot1
 		})
+	end)
+	slot0:bind(uv0.REPAIR_LOVE_LETTER_ITEM, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = LoveLetterSelectCharMediator,
+			viewComponent = LoveLetterSelectCharLayer,
+			data = {
+				isRepair = true,
+				itemVO = slot1
+			}
+		}))
 	end)
 	slot0:bind(uv0.CHECK_LOVE_LETTER_MAIL, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.LOVE_ITEM_MAIL_CHECK, {

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture3_tone4/drom3d_aegir_ik_furniture3_tone4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……我的心跳变快了？呵，那是你的错觉罢了。",
+			say = "……我的心跳變快了？呵，那是你的錯覺罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "指挥官啊……",
+			say = "指揮官啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你说，我以前怎么就没发现你看上去这么可口呢？",
+			say = "你說，我以前怎麼就沒發現你看起來這麼好吃呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊哈哈哈！真可爱！刚刚那下意识缩一下身体的模样……没有比这个更刺激狩猎欲的了。",
+			say = "啊哈哈哈！真可愛！剛剛那下意識縮一下身體的模樣……沒有比這個更刺激狩獵欲的了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "被深渊青睐是你的荣幸，可要小心……别被我吃掉哦？",
+			say = "被深淵青睞是你的榮幸，可要小心……別被我吃掉哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

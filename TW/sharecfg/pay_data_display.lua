@@ -60,6 +60,7 @@ pg.pay_data_display = setmetatable({
 		2038,
 		2039,
 		2040,
+		2041,
 		2042,
 		2043,
 		2044,
@@ -181,6 +182,7 @@ pg.pay_data_display = setmetatable({
 		4922,
 		4923,
 		4924,
+		4925,
 		5001,
 		5002,
 		5003,
@@ -6352,6 +6354,114 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40053,
+				1
+			}
+		}
+	},
+	[2041] = {
+		picture = "huteng_package",
+		name = "海上傳奇支援組合包（喀琅施塔得）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得換裝自選券、心智魔方、艦艇演習數據T2和物資獎勵！",
+		subject = "海上傳奇支援組合包（喀琅施塔得）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 670,
+		descrip_extra = "*禮包將會寄到郵箱，請注意查收。",
+		limit_group = 0,
+		package_tag = "超值\n推薦",
+		type_order = 5,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.package62",
+		extra_gem = 0,
+		id = 2041,
+		airijp_id = "com.yostarjp.azurlane.package123",
+		name_display = "海上傳奇支援組合包（喀琅施塔得）",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 1,
+		extra_service_item = {
+			{
+				2,
+				59561,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59561,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40050,
 				1
 			}
 		}
@@ -18504,6 +18614,91 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			45924,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[4925] = {
+		picture = "battlepass_1",
+		name = "特許巡遊憑證（二十六期）",
+		type = 0,
+		second_text = "解鎖特許巡遊獎勵",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·伊13限定換裝和其他獎勵",
+		subject = "特許巡遊憑證",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 330,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass26",
+		extra_gem = 0,
+		id = 4925,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass26",
+		name_display = "特許巡遊憑證",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4026,
+				1500
+			},
+			{
+				8,
+				65108,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			45925,
 			1500
 		},
 		ignorePlatform = {},

@@ -62,9 +62,28 @@ slot0.GetDropConfig = function(slot0)
 			assert(slot0, "找不到child2_benefit_list配置, id: " .. uv0.id)
 
 			return slot0
+		end,
+		[NewEducateConst.DROP_TYPE.TAROT] = function ()
+			slot0 = pg.child2_benefit_list[uv0.id]
+
+			assert(slot0, "找不到child2_benefit_list配置, id: " .. uv0.id)
+
+			return slot0
 		end
 	}, function ()
 		assert(false, "养成二期非法掉落类型:" .. uv0.type)
+	end)
+end
+
+slot0.GetDropIcon = function(slot0)
+	slot1 = uv0.GetDropConfig(slot0)
+
+	return switch(slot0.type, {
+		[NewEducateConst.DROP_TYPE.TAROT] = function ()
+			return uv0.item_icon_little
+		end
+	}, function ()
+		return uv0.item_icon
 	end)
 end
 
@@ -89,11 +108,9 @@ slot0.UpdateVectorItem = function(slot0, slot1, slot2)
 end
 
 slot0.UpdateItem = function(slot0, slot1)
-	slot2 = uv0.GetDropConfig(slot1)
-
-	LoadImageSpriteAsync("neweducateicon/" .. slot2.item_icon, slot0:Find("frame/icon"))
-	setText(slot0:Find("frame/count_bg/count"), "x" .. slot1.number)
-	setText(slot0:Find("name_bg/name"), shortenString(slot2.name, 5))
+	LoadImageSpriteAsync("neweducateicon/" .. uv0.GetDropIcon(slot1), slot0:Find("frame/icon"))
+	setText(slot0:Find("frame/count_bg/count"), slot1.number)
+	setText(slot0:Find("name_bg/name"), shortenString(uv0.GetDropConfig(slot1).name, 5))
 
 	if slot0:Find("frame/benefit") then
 		setActive(slot0:Find("frame/benefit"), slot1.isBenefit)
@@ -111,62 +128,36 @@ slot0.NormalType2SiteType = function(slot0)
 	})
 end
 
-slot0.UpdateDropsData = function(slot0)
-	slot1 = {}
-	slot2 = getProxy(NewEducateProxy)
-
-	for slot6, slot7 in ipairs(slot0) do
-		switch(slot7.type, {
-			[NewEducateConst.DROP_TYPE.ATTR] = function ()
-				uv0:UpdateAttr(uv1.id, uv1.number)
-				table.insert(uv2, uv1)
-			end,
-			[NewEducateConst.DROP_TYPE.RES] = function ()
-				if uv0:GetCurChar():GetRes(uv1.id) + uv1.number - pg.child2_resource[uv1.id].max_value > 0 then
-					table.insert(uv2, setmetatable({
-						overflow = slot1
-					}, {
-						__index = uv1
-					}))
-				else
-					table.insert(uv2, uv1)
-				end
-
-				uv0:UpdateRes(uv1.id, uv1.number)
-			end,
-			[NewEducateConst.DROP_TYPE.POLAROID] = function ()
-				uv0:AddPolaroid(uv1.id, uv1.number)
-				table.insert(uv2, uv1)
-			end,
-			[NewEducateConst.DROP_TYPE.BUFF] = function ()
-				uv0:AddBuff(uv1.id, uv1.number)
-				table.insert(uv2, uv1)
-			end
-		})
-	end
-
-	return slot1
-end
-
-slot0.MergeDrops = function(slot0)
-	underscore.each(slot0.base_drop, function (slot0)
-		table.insert(uv0, slot0)
-	end)
-	underscore.each(slot0.benefit_drop, function (slot0)
-		table.insert(uv0, setmetatable({
-			isBenefit = true
-		}, {
-			__index = slot0
-		}))
-	end)
-
-	return {}
-end
-
 slot0.FilterBenefit = function(slot0)
 	return underscore.select(slot0, function (slot0)
 		return slot0.type ~= NewEducateConst.DROP_TYPE.BUFF or slot0.type == NewEducateConst.DROP_TYPE.BUFF and pg.child2_benefit_list[slot0.id].is_show == 1 and slot0.number > 0
 	end)
+end
+
+slot0.MergeDrops = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0) do
+		if not slot1[slot6.type] then
+			slot1[slot6.type] = {}
+		end
+
+		slot1[slot6.type][slot6.id] = (slot1[slot6.type][slot6.id] or 0) + slot6.number
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot1) do
+		for slot11, slot12 in pairs(slot7) do
+			table.insert(slot2, {
+				type = slot6,
+				id = slot11,
+				number = slot12
+			})
+		end
+	end
+
+	return slot2
 end
 
 slot0.GetSiteColors = function(slot0)
@@ -231,6 +222,18 @@ slot0.GetBenefitValue = function(slot0, slot1)
 	return math.max(0, math.floor(slot0 * (1 + slot1.ratio / 10000) + slot1.value))
 end
 
+slot0.GetTarotDetailDescKey = function()
+	return NewEducateConst.NEW_EDUCATE_TAROT_DETAIL_DESC .. "_" .. getProxy(PlayerProxy):getRawData().id .. "_" .. getProxy(NewEducateProxy):GetCurChar().id
+end
+
+slot0.IsShowTarotDeatilDesc = function()
+	return PlayerPrefs.GetInt(uv0.GetTarotDetailDescKey()) == 1
+end
+
+slot0.SetTarotDeatilDescData = function(slot0)
+	PlayerPrefs.SetInt(uv0:GetTarotDetailDescKey(), slot0 and 1 or 0)
+end
+
 slot0.GetNewTipKey = function()
 	return NewEducateConst.NEW_EDUCATE_NEW_CHILD_TIP .. "_" .. getProxy(PlayerProxy):getRawData().id .. "_" .. pg.child2_data.all[#pg.child2_data.all]
 end
@@ -251,11 +254,9 @@ slot0.ClearShowNewChildTip = function()
 	PlayerPrefs.SetInt(uv0.GetNewTipKey(), 1)
 end
 
-slot0.ClearEventPerformance = function()
-	slot0 = getProxy(PlayerProxy)
-	slot1 = getProxy(NewEducateProxy)
-	slot1 = slot1:GetCurChar()
-	slot2 = NewEducateConst.NEW_EDUCATE_EVENT_TIP .. "_" .. slot0:getRawData().id .. "_" .. slot1.id .. "_" .. slot1:GetGameCnt() .. "_"
+slot0.ClearEventPerformance = function(slot0)
+	slot1 = getProxy(PlayerProxy)
+	slot2 = NewEducateConst.NEW_EDUCATE_EVENT_TIP .. "_" .. slot1:getRawData().id .. "_" .. slot0.id .. "_" .. slot0:GetGameCnt() .. "_"
 
 	underscore.each(underscore.select(pg.child2_site_event_group.all, function (slot0)
 		return #pg.child2_site_event_group[slot0].performance > 0

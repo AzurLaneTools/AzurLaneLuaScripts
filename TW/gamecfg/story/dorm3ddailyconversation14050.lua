@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你这副欲言又止的表情是怎么回事？有什么话不能直说？",
+			say = "你這副欲言又止的表情是怎麼回事？有什麼話不能直說？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你身后的椅子有根木刺，你的袜子好像被勾——",
+			say = "你身後的椅子有根木刺，你的襪子好像被勾——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "什么？太小声了，我没听见——",
+			say = "什麼？太小聲了，我沒聽見——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "（布料撕裂声响起）……住了。",
+			say = "（布料撕裂聲響起）……住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "转过去！现在！立刻！闭上眼睛！！",
+			say = "轉過去！現在！立刻！閉上眼睛！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你要是敢把今天的事说出去……我、我就三天不叫你起床了！",
+			say = "你要是敢把今天的事說出去……我、我就三天不叫你起床了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "又是这部喜剧？看来你是真的看不腻呢。",
+			say = "又是這部喜劇？看來你是真的看不膩呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "与其说是我看不腻……不如说……",
+			say = "與其說是我看不膩……不如說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……盯着我做什么？该不会以为我会对这种闹剧感兴趣吧？",
+			say = "……盯著我做什麼？該不會以為我會對這種鬧劇有興趣吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……不过既然都打开了，陪你看一会也不是不行。",
+			say = "……不過既然都打開了，陪你看一下子也不是不行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哈……刚才那个，咻地一声就摔过去了，真的好好笑……！",
+			say = "哈……剛才那個，咻的一聲就摔過去了，真的好好笑……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……咳！我是说，这种缺乏逻辑的桥段实在是糟糕。",
+			say = "……咳！我是說，這種缺乏邏輯的橋段實在是糟糕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

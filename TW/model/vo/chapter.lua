@@ -44,17 +44,19 @@ slot0.Ctor = function(slot0, slot1)
 		[FleetType.Support] = {}
 	}
 	slot0.loopFlag = 0
-	slot0.miscArgDic = {}
-	slot3 = ipairs
-	slot4 = noEmptyStr(slot0:getConfig("misc_arg")) or {}
-
-	for slot6, slot7 in slot3(slot4) do
-		slot8, slot0.miscArgDic[slot8] = unpack(slot7)
-	end
 end
 
 slot0.getConfigMiscArg = function(slot0, slot1)
-	return slot0.miscArgDic[slot1]
+	slot2 = ipairs
+	slot3 = noEmptyStr(slot0:getConfig("misc_arg")) or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		if slot1 == slot6[1] then
+			return slot6[2]
+		end
+	end
+
+	return nil
 end
 
 slot0.BuildEliteFleetInfo = function(slot0)

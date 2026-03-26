@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello2/drom3d_aegir_hello2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你来了，想喝点什么？倒不是想以你的意见为主，只是参考而已，参考！",
+			say = "你來了，想喝點什麼？不是想以你的意見為主，只是參考而已，參考！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

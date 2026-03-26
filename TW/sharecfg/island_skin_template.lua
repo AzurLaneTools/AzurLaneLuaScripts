@@ -156,6 +156,84 @@ pg.island_skin_template = {
 		icon = "skin_5060101",
 		icon_normal = ""
 	},
+	[99000201] = {
+		ship_group = 990002,
+		name = "懵懂时光",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "懵懵懂懂地探索周遭，对每样事物都报以最直接而稚嫩的触碰。",
+		shop_goods_id = 0,
+		model = 99000201,
+		id = 99000201,
+		icon = "skin_99000201",
+		icon_normal = ""
+	},
+	[99000202] = {
+		ship_group = 990002,
+		name = "见习观察员",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "漂亮整洁的连衣裙下，是她安安静静观察世界的专注视线。",
+		shop_goods_id = 0,
+		model = 99000202,
+		id = 99000202,
+		icon = "skin_99000202",
+		icon_normal = ""
+	},
+	[99000101] = {
+		ship_group = 990001,
+		name = "元气上学路",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "全副武装，准备出发！今日又要在上学路中做什么恶作剧呢~",
+		shop_goods_id = 0,
+		model = 99000101,
+		id = 99000101,
+		icon = "skin_99000101",
+		icon_normal = ""
+	},
+	[99000102] = {
+		ship_group = 990001,
+		name = "优等生气场",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "笔挺的学院制服，优等生的气场下，依旧是那带着狡黠与挑衅的神情~",
+		shop_goods_id = 0,
+		model = 99000102,
+		id = 99000102,
+		icon = "skin_99000102",
+		icon_normal = ""
+	},
+	[99000301] = {
+		ship_group = 990003,
+		name = "纯白低语",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "一身毫无杂质的纯白，仿佛是她安静性格最直接的延伸。",
+		shop_goods_id = 0,
+		model = 99000301,
+		id = 99000301,
+		icon = "skin_99000301",
+		icon_normal = ""
+	},
+	[99000302] = {
+		ship_group = 990003,
+		name = "沉静礼装",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "一身正式的背带裙礼装，穿在她身上却依旧透着股怯生生的可爱。",
+		shop_goods_id = 0,
+		model = 99000302,
+		id = 99000302,
+		icon = "skin_99000302",
+		icon_normal = ""
+	},
 	get_id_list_by_ship_group = {
 		[10110] = {
 			1011001
@@ -192,6 +270,18 @@ pg.island_skin_template = {
 		},
 		[50601] = {
 			5060101
+		},
+		[990002] = {
+			99000201,
+			99000202
+		},
+		[990001] = {
+			99000101,
+			99000102
+		},
+		[990003] = {
+			99000301,
+			99000302
 		}
 	},
 	all = {
@@ -206,6 +296,12 @@ pg.island_skin_template = {
 		3120101,
 		4030301,
 		4990201,
-		5060101
+		5060101,
+		99000201,
+		99000202,
+		99000101,
+		99000102,
+		99000301,
+		99000302
 	}
 }

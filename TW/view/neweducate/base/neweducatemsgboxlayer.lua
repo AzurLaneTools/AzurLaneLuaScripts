@@ -1,18 +1,21 @@
 slot0 = class("NewEducateMsgBoxLayer", import("view.newEducate.base.NewEducateBaseUI"))
 slot0.TYPE = {
 	SHOP = 3,
+	RESET = 4,
 	BOX = 1,
 	ITEM = 2
 }
 slot1 = {
 	[slot0.TYPE.BOX] = Vector2(924, 616),
 	[slot0.TYPE.ITEM] = Vector2(1060, 628),
-	[slot0.TYPE.SHOP] = Vector2(1060, 628)
+	[slot0.TYPE.SHOP] = Vector2(1060, 628),
+	[slot0.TYPE.RESET] = Vector2(980, 650)
 }
 slot2 = {
 	[slot0.TYPE.BOX] = i18n("child_msg_title_tip"),
 	[slot0.TYPE.ITEM] = i18n("child_msg_title_detail"),
-	[slot0.TYPE.SHOP] = i18n("child_msg_title_detail")
+	[slot0.TYPE.SHOP] = i18n("child_msg_title_detail"),
+	[slot0.TYPE.RESET] = i18n("child_msg_title_tip")
 }
 
 slot0.getUIName = function(slot0)
@@ -47,6 +50,11 @@ slot0.init = function(slot0)
 	slot0.goodsIcon = slot0._shopPanel:Find("item/frame/icon")
 	slot0.goodsName = slot0._shopPanel:Find("display_panel/name")
 	slot0.goodsDesc = slot0._shopPanel:Find("display_panel/desc/Text")
+	slot0._resetPanel = slot0._window:Find("reset_panel")
+
+	setText(slot0._resetPanel:Find("Text"), i18n("child2_endless_reset_tip"))
+
+	slot0._resetContent = slot0._resetPanel:Find("content")
 	slot0._noBtn = slot0._window:Find("button_container/no")
 
 	setText(slot0._noBtn:Find("pic"), i18n("word_cancel"))
@@ -62,6 +70,8 @@ end
 
 slot0.didEnter = function(slot0)
 	slot0:ShowMsgBox(slot0.contextData)
+
+	slot0.isClosing = false
 end
 
 slot0.ShowMsgBox = function(slot0, slot1)
@@ -78,6 +88,7 @@ slot0.commonSetting = function(slot0, slot1)
 	setActive(slot0._msgPanel, false)
 	setActive(slot0._sigleItemPanel, false)
 	setActive(slot0._shopPanel, false)
+	setActive(slot0._resetPanel, false)
 
 	slot6 = slot0.settings.onYes or function ()
 	end
@@ -92,6 +103,10 @@ slot0.commonSetting = function(slot0, slot1)
 	setText(slot0._yesBtn:Find("pic"), slot0.settings.yesText or i18n("word_ok"))
 	setActive(slot0._noBtn, not (slot0.settings.hideNo or false))
 	onButton(slot0, slot0._noBtn, function ()
+		if uv0.isClosing then
+			return
+		end
+
 		slot0 = uv0.contextData.onExit
 
 		uv0.contextData.onExit = function()
@@ -103,6 +118,10 @@ slot0.commonSetting = function(slot0, slot1)
 	end, SFX_CANCEL)
 	setActive(slot0._yesBtn, not (slot0.settings.hideYes or false))
 	onButton(slot0, slot0._yesBtn, function ()
+		if uv0.isClosing then
+			return
+		end
+
 		slot0 = uv0.contextData.onExit
 
 		uv0.contextData.onExit = function()
@@ -114,6 +133,10 @@ slot0.commonSetting = function(slot0, slot1)
 	end, SFX_CANCEL)
 	setActive(slot0._buyBtn, slot0.settings.type == uv0.TYPE.SHOP)
 	onButton(slot0, slot0._buyBtn, function ()
+		if uv0.isClosing then
+			return
+		end
+
 		slot0 = uv0.contextData.onExit
 
 		uv0.contextData.onExit = function()
@@ -125,6 +148,10 @@ slot0.commonSetting = function(slot0, slot1)
 	end, SFX_CANCEL)
 	setActive(slot0._closeBtn, not (slot0.settings.hideClose or false))
 	onButton(slot0, slot0._closeBtn, function ()
+		if uv0.isClosing then
+			return
+		end
+
 		slot0 = uv0.contextData.onExit
 
 		uv0.contextData.onExit = function()
@@ -135,18 +162,22 @@ slot0.commonSetting = function(slot0, slot1)
 		uv0:_close()
 	end, SFX_CANCEL)
 	onButton(slot0, tf(slot0._go):Find("anim_root/bg"), function ()
-		if uv0 or uv1 then
+		if uv0.isClosing then
 			return
 		end
 
-		slot0 = uv2.contextData.onExit
+		if uv1 or uv2 then
+			return
+		end
 
-		uv2.contextData.onExit = function()
+		slot0 = uv0.contextData.onExit
+
+		uv0.contextData.onExit = function()
 			existCall(uv0)
 			existCall(uv1)
 		end
 
-		uv2:_close()
+		uv0:_close()
 	end, SFX_CANCEL)
 end
 
@@ -160,6 +191,9 @@ slot0.showByType = function(slot0, slot1)
 		end,
 		[uv0.TYPE.SHOP] = function ()
 			uv0:showShopBuyBox()
+		end,
+		[uv0.TYPE.RESET] = function ()
+			uv0:showResetBox()
 		end
 	})
 end
@@ -202,7 +236,21 @@ slot0.showShopBuyBox = function(slot0)
 	end
 end
 
+slot0.showResetBox = function(slot0)
+	setActive(slot0._resetPanel, true)
+
+	slot1 = getProxy(NewEducateProxy):GetCurChar():GetRoundData()
+	slot2 = slot1:GetHeighestWave()
+	slot3 = slot1:GetWave()
+
+	setText(slot0._resetContent:Find("history"), i18n("child2_endless_history_wave", slot2))
+	setText(slot0._resetContent:Find("current"), i18n("child2_endless_current_wave", slot3))
+	setActive(slot0._resetContent:Find("current/new"), slot2 < slot3)
+end
+
 slot0._close = function(slot0)
+	slot0.isClosing = true
+
 	slot0.anim:Play("anim_educate_MsgBox_out")
 end
 

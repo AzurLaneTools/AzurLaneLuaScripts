@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我们来玩个游戏吧？谁先移开视线，谁就输了。",
+			say = "我們來玩個遊戲吧？誰先移開視線，誰就輸了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啧……又来了，你的这双眼睛真是犯规……",
+			say = "嘖……又來了，你的這雙眼睛真是犯規……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你赢了。喏，现在这剩下的半杯酒是你的了。",
+			say = "你贏了。喏，現在這剩下的半杯酒是你的了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "罚你……把它喝完。",
+			say = "罰你……把它喝完。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

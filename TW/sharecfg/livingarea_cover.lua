@@ -17,7 +17,10 @@ pg.livingarea_cover = setmetatable({
 		101103,
 		101201,
 		101202,
-		101203
+		101203,
+		101401,
+		101402,
+		101403
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -213,5 +216,41 @@ pg.base.livingarea_cover = {
 		id = 101203,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101203_icon"
+	},
+	[101401] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "案前密語",
+		nighttime_res = "101401_bg_night",
+		daytime_res = "101401_bg_day",
+		rarity = 3,
+		desc = "獲得後可在生活區封面功能中解鎖案前密語封面",
+		unlock_text = "{namecode:480}宿舍契合度2級解鎖",
+		id = 101401,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101401_icon"
+	},
+	[101402] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "慵懶共憩",
+		nighttime_res = "101402_bg_night",
+		daytime_res = "101402_bg_day",
+		rarity = 3,
+		desc = "獲得後可以在生活區封面功能中解鎖慵懶共憩封面",
+		unlock_text = "{namecode:480}宿舍契合度7級解鎖",
+		id = 101402,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101402_icon"
+	},
+	[101403] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "枕畔邀約",
+		nighttime_res = "101403_bg_night",
+		daytime_res = "101403_bg_day",
+		rarity = 3,
+		desc = "獲得後可在生活區封面功能中解鎖枕畔邀約封面",
+		unlock_text = "{namecode:480}宿舍契合度10級解鎖",
+		id = 101403,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101403_icon"
 	}
 }

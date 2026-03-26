@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "来得正好，要来一杯么？我私藏的精酿可不是每个人都能尝到的。",
+			say = "來得正好，要來一杯嗎？我私藏的精釀可不是每個人都能嚐到的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "很奇妙吧？看似冰冷的液体中竟藏着如此炽烈又甘美的滋味……",
+			say = "很奇妙吧？看似冰冷的液體中竟藏著如此熾熱又甘美的滋味……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "来，喝吧。不必小口品尝，大口大口地喝下去。让它顺着喉咙烧到你的心里，永远也忘不掉——",
+			say = "來，喝吧。不必小口品嚐，大口大口地喝下去。讓它順著喉嚨燒到你的心裡，永遠忘不掉——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊哈哈！真棒，就该这样！别急，还有很多。在你习惯这股味道之前……",
+			say = "啊哈哈！真棒，就該這樣！別急，還有很多。在你習慣這股味道之前……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……我们还有很多时间，可以一直、一直喝下去。",
+			say = "……我們還有很多時間，可以一直、一直喝下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

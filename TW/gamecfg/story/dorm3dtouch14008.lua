@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_tone13/drom3d_aegir_ik_tone13",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "是有什么在意的地方吗？",
+			say = "是有什麼在意的地方嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

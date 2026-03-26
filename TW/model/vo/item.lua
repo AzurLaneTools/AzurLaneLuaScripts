@@ -333,4 +333,14 @@ slot0.IsLoveLetterCheckItem = function(slot0)
 	return uv0[slot0]
 end
 
+slot0.IsRepairLoveLetterItem = function(slot0)
+	for slot4, slot5 in ipairs(getGameset("loveletter2018_item")[2]) do
+		if slot0.id == slot5 then
+			return true
+		end
+	end
+
+	return false
+end
+
 return slot0

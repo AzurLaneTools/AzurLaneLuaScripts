@@ -44469,6 +44469,8 @@ pg.activity_template = {
 			12029,
 			12030,
 			12031,
+			12032,
+			12033,
 			12034,
 			12035,
 			12040,
@@ -85801,6 +85803,59 @@ pg.activity_template = {
 			ui_name = "CrusingDisplayActPage25"
 		}
 	},
+	[45925] = {
+		mark = 20260326,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 45925,
+		page_core = "",
+		config_data = {
+			250,
+			251,
+			252,
+			253,
+			254,
+			255,
+			256,
+			257,
+			258
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage26"
+		}
+	},
 	get_id_list_by_type = {
 		[0] = {
 			40030,
@@ -88239,7 +88294,8 @@ pg.activity_template = {
 			45921,
 			45922,
 			45923,
-			45924
+			45924,
+			45925
 		}
 	},
 	all = {
@@ -90457,6 +90513,7 @@ pg.activity_template = {
 		45921,
 		45922,
 		45923,
-		45924
+		45924,
+		45925
 	}
 }

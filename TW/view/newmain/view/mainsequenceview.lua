@@ -65,6 +65,12 @@ slot0.Execute = function(slot0, slot1)
 		return
 	end
 
+	if getProxy(IslandProxy):IsReconnectProcessing() then
+		slot1()
+
+		return
+	end
+
 	if not slot0.executable then
 		slot0.executable = slot0:MapSequence(slot0.sequence)
 	end

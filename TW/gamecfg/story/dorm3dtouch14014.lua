@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture1_tone6/drom3d_aegir_ik_furniture1_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "敢碰我，就要负责到底……明白吗？",
+			say = "敢碰我，就要負責到底……懂嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

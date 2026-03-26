@@ -32,7 +32,7 @@ slot0.handleNotification = function(slot0, slot1)
 	if slot1:getName() == GAME.NEW_EDUCATE_REFRESH_TALENT_DONE then
 		slot0.viewComponent:OnRefreshTalent(slot3.idx, slot3.newId)
 	elseif slot2 == GAME.NEW_EDUCATE_SEL_TALENT_DONE then
-		slot0.viewComponent:OnSelectedDone(slot3.idx)
+		slot0.viewComponent:OnSelectedDone(slot3)
 	end
 end
 

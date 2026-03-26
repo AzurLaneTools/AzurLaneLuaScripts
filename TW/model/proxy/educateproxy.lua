@@ -83,11 +83,33 @@ slot0.initData = function(slot0, slot1)
 	slot0:initVirtualStage()
 	slot0:initUnlockSecretary(slot2.is_special_secretary_valid == 1)
 
+	slot0.endingBuyCnt = slot2.ending_buy_count
+	slot0.memoryBuyCnt = slot2.memory_buy_count
+	slot0.polaroidBuyCnt = slot2.polaroid_buy_count
 	slot0.requestDataEnd = true
 end
 
 slot0.CheckDataRequestEnd = function(slot0)
 	return slot0.requestDataEnd
+end
+
+slot0.GetSelectInfo = function(slot0)
+	return {
+		bg = slot0.char:GetBGName(),
+		name = slot0.char:GetName(),
+		gameCnt = slot0.gameCount,
+		progressStr = slot0.isUnlockSecretary and EducateHelper.GetShowMonthNumber(slot0.curTime.month) .. i18n("word_month") .. i18n("word_which_week", slot0.curTime.week) or i18n("child2_not_start")
+	}
+end
+
+slot0.CheckGuide = function(slot0, slot1)
+	slot0:sendNotification(uv0.GUIDE_CHECK, {
+		view = slot1
+	})
+end
+
+slot0.MainAddLayer = function(slot0, slot1)
+	slot0:sendNotification(uv0.MAIN_SCENE_ADD_LAYER, slot1)
 end
 
 slot0.initItems = function(slot0, slot1)
@@ -140,23 +162,19 @@ slot0.initPolaroids = function(slot0, slot1)
 	end
 end
 
-slot0.SetEndings = function(slot0, slot1)
-	slot0.endings = slot1
+slot0.SetEndings = function(slot0, slot1, slot2)
+	slot0.endings = slot2
+	slot0.completeEndings = slot1
 
 	slot0:updateSecretaryIDs(false)
 end
 
-slot0.GetSelectInfo = function(slot0)
-	return {
-		bg = slot0.char:GetBGName(),
-		name = slot0.char:GetName(),
-		gameCnt = slot0.gameCount,
-		progressStr = slot0.isUnlockSecretary and EducateHelper.GetShowMonthNumber(slot0.curTime.month) .. i18n("word_month") .. i18n("word_which_week", slot0.curTime.week) or i18n("child2_not_start")
-	}
-end
-
 slot0.IsFirstGame = function(slot0)
 	return slot0.gameCount == 1
+end
+
+slot0.GetGameCnt = function(slot0)
+	return slot0.gameCount
 end
 
 slot0.UpdateGameStatus = function(slot0)
@@ -295,15 +313,48 @@ slot0.GetTaskProxy = function(slot0)
 	return slot0.taskProxy
 end
 
-slot0.GetFinishEndings = function(slot0)
+slot0.GetAllEndings = function(slot0)
 	return slot0.endings
 end
 
-slot0.AddEnding = function(slot0, slot1)
+slot0.GetCompleteEndings = function(slot0)
+	return slot0.completeEndings
+end
+
+slot0.GetEndingBuyCnt = function(slot0)
+	return slot0.endingBuyCnt
+end
+
+slot0.AddEndingBuyCnt = function(slot0)
+	slot0.endingBuyCnt = slot0.endingBuyCnt + 1
+end
+
+slot0.AddEnding = function(slot0, slot1, slot2)
 	slot0.exsitEnding = true
 
 	slot0:UpdateGameStatus()
 
+	if not table.contains(slot0.completeEndings, slot1) then
+		table.insert(slot0.completeEndings, slot1)
+	end
+
+	slot3 = false
+
+	for slot7, slot8 in ipairs(slot2) do
+		if not table.contains(slot0.endings, slot8) then
+			table.insert(slot0.endings, slot8)
+
+			slot3 = true
+		end
+	end
+
+	if slot3 then
+		slot0:updateSecretaryIDs(true)
+		slot0:sendNotification(uv0.ENDING_ADDED)
+	end
+end
+
+slot0.AddEndingFromBuy = function(slot0, slot1)
 	if table.contains(slot0.endings, slot1) then
 		return
 	end
@@ -322,11 +373,9 @@ slot0.IsEndingTime = function(slot0)
 end
 
 slot0.GetEndingResult = function(slot0)
-	slot1 = underscore.detect(pg.child_ending.all, function (slot0)
+	assert(#underscore.select(pg.child_ending.all, function (slot0)
 		return uv0.char:CheckEndCondition(pg.child_ending[slot0].condition)
-	end)
-
-	assert(slot1, "not matching ending")
+	end) > 0, "not matching ending")
 
 	return slot1
 end
@@ -484,6 +533,14 @@ slot0.GetPolaroidData = function(slot0)
 	return slot0.polaroidData
 end
 
+slot0.GetPolaroidBuyCnt = function(slot0)
+	return slot0.polaroidBuyCnt
+end
+
+slot0.AddPolaroidBuyCnt = function(slot0)
+	slot0.polaroidBuyCnt = slot0.polaroidBuyCnt + 1
+end
+
 slot0.GetPolaroidList = function(slot0)
 	slot1 = {}
 
@@ -574,14 +631,19 @@ slot0.AddMemory = function(slot0, slot1)
 	slot0:sendNotification(uv0.MEMORY_ADDED)
 end
 
-slot0.CheckGuide = function(slot0, slot1)
+slot0.GetMemoryBuyCnt = function(slot0)
+	return slot0.memoryBuyCnt
+end
+
+slot0.CheckGuide = function(slot0, slot1, slot2)
 	slot0:sendNotification(uv0.GUIDE_CHECK, {
-		view = slot1
+		view = slot1,
+		popActivityWindow = slot2
 	})
 end
 
-slot0.MainAddLayer = function(slot0, slot1)
-	slot0:sendNotification(uv0.MAIN_SCENE_ADD_LAYER, slot1)
+slot0.AddMemoryBuyCnt = function(slot0)
+	slot0.memoryBuyCnt = slot0.memoryBuyCnt + 1
 end
 
 slot0.initUnlockSecretary = function(slot0, slot1)
@@ -659,12 +721,12 @@ slot0.updateSecretaryIDs = function(slot0, slot1)
 	end
 
 	slot0.unlockSecretaryIds = {}
-	slot3 = #slot0:GetPolaroidIdList()
+	slot3, slot4 = slot0:GetPolaroidGroupCnt()
 
-	for slot7, slot8 in ipairs(pg.secretary_special_ship.get_id_list_by_tb_id[0]) do
-		slot10 = pg.secretary_special_ship[slot8].unlock
+	for slot8, slot9 in ipairs(pg.secretary_special_ship.get_id_list_by_tb_id[0]) do
+		slot11 = pg.secretary_special_ship[slot9].unlock
 
-		switch(pg.secretary_special_ship[slot8].unlock_type, {
+		switch(pg.secretary_special_ship[slot9].unlock_type, {
 			[EducateConst.SECRETARY_UNLCOK_TYPE_DEFAULT] = function ()
 				if uv0:IsUnlockSecretary() then
 					table.insert(uv0.unlockSecretaryIds, uv1)

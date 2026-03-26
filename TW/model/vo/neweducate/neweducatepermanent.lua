@@ -9,6 +9,11 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 	slot0.finishedEndings = slot2.active_endings or {}
 	slot0.activatedEndings = slot2.endings or {}
+	slot0.buffIds = slot2.tarot_archive or {}
+
+	slot0:InitEntryConfig()
+
+	slot0.maxRound = slot2.max_round
 
 	slot0:InitStroyName2Id()
 	slot0:InitSecretary()
@@ -23,8 +28,16 @@ slot0.GetGameCnt = function(slot0)
 	return slot0.gameCnt
 end
 
+slot0.GetMaxRound = function(slot0)
+	return slot0.maxRound
+end
+
+slot0.OnNextRound = function(slot0, slot1)
+	slot0.maxRound = math.max(slot1, slot0.maxRound)
+end
+
 slot0.GetAllMemoryIds = function(slot0)
-	return pg.child2_memory.get_id_list_by_character[slot0.id]
+	return pg.child2_memory.get_id_list_by_character[slot0.id] or {}
 end
 
 slot0.GetUnlockMemoryIds = function(slot0)
@@ -116,6 +129,100 @@ slot0.AddActivatedEndings = function(slot0, slot1)
 	slot0:UpdateSecretaryIDs(true)
 end
 
+slot0.GetAllBuffIds = function(slot0)
+	return pg.child2_benefit_list.get_id_list_by_character[slot0.id] or {}
+end
+
+slot0.GetAllTarotIds = function(slot0)
+	return underscore.select(slot0:GetAllBuffIds(), function (slot0)
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TAROT and NewEducateBuff.IsVisible(slot0)
+	end)
+end
+
+slot0.GetActivatedTarotIds = function(slot0)
+	return underscore.select(slot0.buffIds, function (slot0)
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TAROT and NewEducateBuff.IsVisible(slot0)
+	end)
+end
+
+slot0.GetAllTalentIds = function(slot0)
+	return underscore.select(slot0:GetAllBuffIds(), function (slot0)
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TALENT and NewEducateBuff.IsVisible(slot0)
+	end)
+end
+
+slot0.GetActivatedTalentIds = function(slot0)
+	return underscore.select(slot0.buffIds, function (slot0)
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TALENT and NewEducateBuff.IsVisible(slot0)
+	end)
+end
+
+slot0.GetAllEntryIds = function(slot0)
+	return underscore.select(slot0:GetAllBuffIds(), function (slot0)
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.ENTRY and NewEducateBuff.IsVisible(slot0)
+	end)
+end
+
+slot0.InitEntryConfig = function(slot0)
+	slot0.entryGroup2Ids = {}
+
+	for slot4, slot5 in ipairs(slot0:GetAllEntryIds()) do
+		if not slot0.entryGroup2Ids[pg.child2_benefit_list[slot5].level_tag] then
+			slot0.entryGroup2Ids[slot6] = {}
+		end
+
+		table.insert(slot0.entryGroup2Ids[slot6], slot5)
+	end
+end
+
+slot0.GetEntryGroup2Ids = function(slot0)
+	return slot0.entryGroup2Ids
+end
+
+slot0.GetAllEntryGroups = function(slot0)
+	return underscore.keys(slot0.entryGroup2Ids)
+end
+
+slot0.GetActivatedEntryIds = function(slot0)
+	return underscore.select(slot0.buffIds, function (slot0)
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.ENTRY and NewEducateBuff.IsVisible(slot0)
+	end)
+end
+
+slot0.GetUnlockEntryGroups = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0:GetActivatedEntryIds()) do
+		if not table.contains(slot1, pg.child2_benefit_list[slot6].level_tag) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
+end
+
+slot0.IsTarotType = function(slot0)
+	return #slot0:GetAllTarotIds() > 0
+end
+
+slot0.GetAllBuffCnt = function(slot0)
+	return #slot0:GetAllTarotIds() + #slot0:GetAllTalentIds() + #slot0:GetAllEntryIds()
+end
+
+slot0.GetAllUnlockBuffCnt = function(slot0)
+	return #slot0:GetActivatedTarotIds() + #slot0:GetActivatedTalentIds() + #slot0:GetActivatedEntryIds()
+end
+
+slot0.GetBuffIds = function(slot0)
+	return slot0.buffIds
+end
+
+slot0.CheckBuffRecord = function(slot0, slot1)
+	if not table.contains(slot0.buffIds, slot1) then
+		table.insert(slot0.buffIds, slot1)
+	end
+end
+
 slot0.InitSecretary = function(slot0)
 	slot0.unlcokTipByPolaroidCnt = {}
 
@@ -157,8 +264,10 @@ slot0.UpdateSecretaryIDs = function(slot0, slot1)
 
 	slot0.unlockSecretaryIds = {}
 	slot3 = #slot0.unlockPolaroidGroups
+	slot4 = ipairs
+	slot5 = pg.secretary_special_ship.get_id_list_by_tb_id[slot0.id] or {}
 
-	for slot7, slot8 in ipairs(pg.secretary_special_ship.get_id_list_by_tb_id[slot0.id]) do
+	for slot7, slot8 in slot4(slot5) do
 		slot10 = pg.secretary_special_ship[slot8].unlock
 
 		switch(pg.secretary_special_ship[slot8].unlock_type, {

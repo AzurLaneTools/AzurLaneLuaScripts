@@ -176,6 +176,33 @@ pg.dorm3d_collection_template = setmetatable({
 			1607,
 			1608,
 			1609
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1404,
+			1405,
+			1406,
+			1407,
+			1408,
+			1409,
+			1410,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1416,
+			1417,
+			1418,
+			1419,
+			1420,
+			1421,
+			1422,
+			1423,
+			1424,
+			1425
 		}
 	},
 	all = {
@@ -339,7 +366,32 @@ pg.dorm3d_collection_template = setmetatable({
 		1606,
 		1607,
 		1608,
-		1609
+		1609,
+		1401,
+		1402,
+		1403,
+		1404,
+		1405,
+		1406,
+		1407,
+		1408,
+		1409,
+		1410,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1416,
+		1417,
+		1418,
+		1419,
+		1420,
+		1421,
+		1422,
+		1423,
+		1424,
+		1425
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3691,6 +3743,531 @@ pg.base.dorm3d_collection_template = {
 		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
+		}
+	},
+	[1401] = {
+		name = "復古留聲機",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一台精巧的復古留聲機，音質清晰，適合播放經典唱片。",
+		text = "dorm3d_aijier_chair",
+		id = 1401,
+		icon = "3Ddrom_aijier_item1",
+		model = {
+			"fbx/litmap_01/pre_db_decoration25"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration25/vfx_wupintishi01"
+		}
+	},
+	[1402] = {
+		name = "古典燭台",
+		award = 0,
+		time = 2,
+		room_id = 14,
+		desc = "一盞精心設計的三頭式燭台，黃銅色底座上插著三根長桿蠟燭，散發出溫暖柔和的光線。",
+		text = "dorm3d_aijier_chair",
+		id = 1402,
+		icon = "3Ddrom_aijier_item2",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration26_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration26_on/vfx_wupintishi01"
+		}
+	},
+	[1403] = {
+		name = "唱片集",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "精選唱片集，封面設計精美，音樂內容豐富多樣，適合在留聲機上播放。",
+		text = "dorm3d_aijier_table",
+		id = 1403,
+		icon = "3Ddrom_aijier_item3",
+		model = {
+			"fbx/litmap_05/pre_db_decoration28"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_decoration28/vfx_wupintishi01"
+		}
+	},
+	[1404] = {
+		name = "雙鈴鬧鐘",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "放在床頭的雙鈴鬧鐘，聲音清脆穿透性強，方便驚醒沉睡之人。",
+		text = "dorm3d_aijier_table",
+		id = 1404,
+		icon = "3Ddrom_aijier_item4",
+		model = {
+			"fbx/litmap_05/pre_db_clock04"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_clock04/vfx_wupintishi01"
+		}
+	},
+	[1405] = {
+		name = "銅質酒杯",
+		award = 0,
+		time = 2,
+		room_id = 14,
+		desc = "一隻優雅的銅製酒杯，杯身線條優美，她常用來品嚐紅酒或烈酒。",
+		text = "dorm3d_aijier_chair",
+		id = 1405,
+		icon = "3Ddrom_aijier_item5",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration23"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration23/vfx_wupintishi01"
+		}
+	},
+	[1406] = {
+		name = "陶瓷茶杯",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一隻簡約的陶瓷茶杯，杯身印有精緻的花紋，搭配茶托使用，讓品茶成為一種享受。",
+		text = "dorm3d_aijier_chair",
+		id = 1406,
+		icon = "3Ddrom_aijier_item6",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a/vfx_wupintishi01"
+		}
+	},
+	[1407] = {
+		name = "畫作集",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "裱框精美的畫作集，收錄了多幅經典藝術作品，為屋內增添了藝術氣息。",
+		text = "dorm3d_aijier_chair",
+		id = 1407,
+		icon = "3Ddrom_aijier_item7",
+		model = {
+			"fbx/litmap_01/pre_db_billboard_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard_group/vfx_wupintishi01"
+		}
+	},
+	[1408] = {
+		name = "木質衣櫃",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一個寬敞的木質衣櫃，表面雕刻著花紋，內部空間充足，收納著她的各類衣物。",
+		text = "dorm3d_aijier_bed",
+		id = 1408,
+		icon = "3Ddrom_aijier_item8",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard38"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard38/vfx_wupintishi01"
+		}
+	},
+	[1409] = {
+		name = "梳妝鏡",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "裝飾雕花紋樣的梳妝鏡，鏡面光滑明亮，讓她每天的梳妝打扮更加方便優雅。",
+		text = "dorm3d_aijier_bed",
+		id = 1409,
+		icon = "3Ddrom_aijier_item9",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05/vfx_wupintishi01"
+		}
+	},
+	[1410] = {
+		name = "裝飾掛畫A",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一幅精美的裝飾畫，透過油畫技法呈現的風景真實自然，能感受到作畫者的技藝高超。",
+		text = "dorm3d_aijier_chair",
+		id = 1410,
+		icon = "3Ddrom_aijier_item10",
+		model = {
+			"fbx/litmap_01/pre_db_billboard32"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard32/vfx_wupintishi01"
+		}
+	},
+	[1411] = {
+		name = "裝飾掛畫B",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一幅精美的裝飾畫，透過油畫技法呈現的風景真實自然，能感受到作畫者的技藝高超。",
+		text = "dorm3d_aijier_chair",
+		id = 1411,
+		icon = "3Ddrom_aijier_item11",
+		model = {
+			"fbx/litmap_01/pre_db_billboard31"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard31/vfx_wupintishi01"
+		}
+	},
+	[1412] = {
+		name = "首飾盒",
+		award = 0,
+		time = 1,
+		room_id = 14,
+		desc = "一個精緻的首飾盒，內部分層設計，收納著她的各類珠寶首飾。",
+		text = "dorm3d_aijier_bed",
+		id = 1412,
+		icon = "3Ddrom_aijier_item12",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02/vfx_wupintishi01"
+		}
+	},
+	[1413] = {
+		name = "手提箱",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "實用手提箱，材質柔軟耐用，內部空間寬敞，她常用於日常出遊或短途旅行。",
+		text = "dorm3d_aijier_table",
+		id = 1413,
+		icon = "3Ddrom_aijier_item13",
+		model = {
+			"fbx/litmap_03/pre_db_bag08"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bag08/vfx_wupintishi01"
+		}
+	},
+	[1414] = {
+		name = "小型立櫃",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一個小型的立式櫃，內部設有抽屜和隔層，裡面存放著書籍、文件等物品。",
+		text = "dorm3d_aijier_table",
+		id = 1414,
+		icon = "3Ddrom_aijier_item14",
+		model = {
+			"fbx/litmap_05/pre_db_cupboard39"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_cupboard39/vfx_wupintishi01"
+		}
+	},
+	[1415] = {
+		name = "壁爐",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "大理石材質的黑色壁爐，摸起來光滑涼爽，她已準備好柴火可以隨時點燃。",
+		text = "dorm3d_aijier_chair",
+		id = 1415,
+		icon = "3Ddrom_aijier_item15",
+		model = {
+			"fbx/litmap_01/pre_db_fireplace02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fireplace02/vfx_wupintishi01"
+		}
+	},
+	[1416] = {
+		name = "落地燈",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "高挑的落地燈，燈罩採用透光材質，從內向外散發出柔和的光暈。",
+		text = "dorm3d_aijier_chair",
+		id = 1416,
+		icon = "3Ddrom_aijier_item16",
+		model = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2/vfx_wupintishi01"
+		}
+	},
+	[1417] = {
+		name = "新鮮花卉",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一束精心裝飾的新鮮花卉，裡面插滿了紅白玫瑰，散發著清新的花香。",
+		text = "dorm3d_aijier_bed",
+		id = 1417,
+		icon = "3Ddrom_aijier_item17",
+		model = {
+			"fbx/litmap_01/pre_db_flowers17"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers17/vfx_wupintishi01"
+		}
+	},
+	[1418] = {
+		name = "裝飾花卉",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "色彩暗沉的裝飾花卉，很奇特的品類，似乎是用於特殊物件的裝飾。",
+		text = "dorm3d_aijier_chair",
+		id = 1418,
+		icon = "3Ddrom_aijier_item18",
+		model = {
+			"fbx/litmap_01/pre_db_flowers18"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers18/vfx_wupintishi01"
+		}
+	},
+	[1419] = {
+		name = "香薰蠟燭",
+		award = 0,
+		time = 2,
+		room_id = 14,
+		desc = "同時具有照明和裝飾功能的蠟燭，燭光溫暖柔和，香薰香氣清新。",
+		text = "dorm3d_aijier_bed",
+		id = 1419,
+		icon = "3Ddrom_aijier_item19",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration24_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration24_on/vfx_wupintishi01"
+		}
+	},
+	[1420] = {
+		name = "方櫃",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一個雙層的木質方櫃，表面雕刻花紋，內部空間充足，裡面放著她的各類雜物。",
+		text = "dorm3d_aijier_bed",
+		id = 1420,
+		icon = "3Ddrom_aijier_item20",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard37"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard37/vfx_wupintishi01"
+		}
+	},
+	[1421] = {
+		name = "壁燈",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一盞造型簡約的壁燈，常用於走廊的照明，為空間增添了暖色系。",
+		text = "dorm3d_aijier_table",
+		id = 1421,
+		icon = "3Ddrom_aijier_item21",
+		model = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7/vfx_wupintishi01"
+		}
+	},
+	[1422] = {
+		name = "化妝品套裝",
+		award = 0,
+		time = 1,
+		room_id = 14,
+		desc = "一套精緻的化妝品，包裝優雅，品質上乘，是她的日常首選。",
+		text = "dorm3d_aijier_bed",
+		id = 1422,
+		icon = "3Ddrom_aijier_item22",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19/vfx_wupintishi01"
+		}
+	},
+	[1423] = {
+		name = "休閒讀物？",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "一本裝幀精美的書籍，她會在閒暇時閱讀，聽說是某種休閒讀物？",
+		text = "dorm3d_aijier_bed",
+		id = 1423,
+		icon = "3Ddrom_aijier_item23",
+		model = {
+			"fbx/litmap_01/book_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/book_group/vfx_wupintishi01"
+		}
+	},
+	[1424] = {
+		name = "油畫",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "精美的油畫，出自一位大師之手，是她比較喜歡的畫作。",
+		text = "dorm3d_aijier_table",
+		id = 1424,
+		icon = "3Ddrom_aijier_item24",
+		model = {
+			"fbx/litmap_05/pre_db_billboard29a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_billboard29a/vfx_wupintishi01"
+		}
+	},
+	[1425] = {
+		name = "金色獎杯",
+		award = 0,
+		time = 0,
+		room_id = 14,
+		desc = "達成了某種成就所獲得的金色獎杯，隨意擺放著，她貌似不是很重視。",
+		text = "dorm3d_aijier_chair",
+		id = 1425,
+		icon = "3Ddrom_aijier_item25",
+		model = {
+			"fbx/litmap_01/pre_db_decoration21"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration21/vfx_wupintishi01"
 		}
 	}
 }

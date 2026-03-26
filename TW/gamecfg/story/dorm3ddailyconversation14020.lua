@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你听说过这栋宿舍的传闻吗？",
+			say = "你聽過這棟宿舍的傳聞嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "就是那个……被列为港区七大不可思议之一的「夜半脚步声」。",
+			say = "就是那個……被列為港區七大不可思議之一的「夜半腳步聲」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "据说每当夜深人静时，总会听见——",
+			say = "據說每當夜深人靜時，總會聽見——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "噫啊——！刚、刚刚那是什么动静？！",
+			say = "噫啊——！剛、剛剛那是什麼動靜？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "原来只是掉了啊……我没事！刚才只是……突然觉得有点冷，借你挡一下风而已……",
+			say = "原來只是東西掉了啊……我沒事！剛才只是……突然覺得有點冷，借你擋一下風而已……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

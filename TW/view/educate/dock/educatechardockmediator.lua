@@ -1,6 +1,7 @@
 slot0 = class("EducateCharDockMediator", import("view.base.ContextMediator"))
 slot0.GO_PROFILE = "EducateCharDockMediator:GO_PROFILE"
 slot0.ON_SELECTED = "EducateCharDockMediator:ON_SELECTED"
+slot0.ON_SKIN_SHOP = "EducateCharDockMediator.ON_SKIN_SHOP"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_SELECTED, function (slot0, slot1)
@@ -11,6 +12,11 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.GO_PROFILE, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.EDUCATE_PROFILE, {
 			selectedCharacterId = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_SKIN_SHOP, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP, {
+			skinId = slot0
 		})
 	end)
 end

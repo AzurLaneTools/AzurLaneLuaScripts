@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello12/drom3d_aegir_hello12",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "怎么才想起来找我，不会是被工作折磨得受不了才来的吧？真拿你没办法。",
+			say = "怎麼才想起來找我，不會是被工作折磨得受不了才來的吧？真拿你沒辦法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

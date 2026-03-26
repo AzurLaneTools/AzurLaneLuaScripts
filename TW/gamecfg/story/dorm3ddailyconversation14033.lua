@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "从刚刚开始你的视线就一直飘忽不定呢。有什么在意的事情吗？",
+			say = "從剛剛開始你的視線就一直飄忽不定呢。有什麼在意的事情嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "该不会……是很在意衣柜夹住的那一片黑色布料吧？",
+			say = "該不會……是很在意衣櫃夾住的那一片黑色布料吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你根本就没想过要藏起来吧。",
+			say = "妳根本就沒想過要藏起來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你不想知道吗？都这么介意了，不如直接问出来？",
+			say = "你不想知道嗎？都這麼介意了，不如直接問出來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不管是回答，还是“展示”……我都很乐意呢~",
+			say = "不管是回答，還是「展示」……我都很樂意呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

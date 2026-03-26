@@ -1408,6 +1408,223 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/livingroom"
 		}
 	},
+	[1401] = {
+		rarity = 3,
+		name = "絲絨軟床",
+		unlock_tips = "",
+		type = 4,
+		room_id = 14,
+		desc = "採用經典雙人床設計，黑色床頭搭配紅色絲絨被褥，柔軟的床墊與枕頭為疲憊的身心提供了溫暖的庇護。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1401,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990510
+			}
+		},
+		shop_id = {}
+	},
+	[1402] = {
+		rarity = 3,
+		name = "簡約書桌",
+		unlock_tips = "",
+		type = 6,
+		room_id = 14,
+		desc = "該書桌採用黑色木料製成，搭配簡約的紅色座椅，整體設計既實用又充滿古典氣息。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1402,
+		target_slots = {
+			1140201
+		},
+		touch_id = {
+			{
+				49905,
+				4990520
+			}
+		},
+		shop_id = {}
+	},
+	[1403] = {
+		rarity = 3,
+		name = "真皮沙發",
+		unlock_tips = "",
+		type = 5,
+		room_id = 14,
+		desc = "真皮沙發，柔軟舒適，搭配圓形小茶几，是享受個人時光的理想角落。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1403,
+		target_slots = {
+			1140301
+		},
+		touch_id = {
+			{
+				49905,
+				4990530
+			}
+		},
+		shop_id = {}
+	},
+	[1411] = {
+		rarity = 2,
+		name = "長桿蠟燭",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "經典象牙白長桿蠟燭，燭光溫暖柔和，為夜晚增添一份寧靜與浪漫的氛圍。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1411,
+		target_slots = {
+			1140303
+		},
+		shop_id = {}
+	},
+	[1412] = {
+		rarity = 2,
+		name = "綠意盆栽",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "高大的盆栽植物，葉片寬大碧綠，不僅為房間增添生氣，還能有效淨化空氣。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_bonsai01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1412,
+		target_slots = {
+			1140202
+		},
+		shop_id = {}
+	},
+	[1413] = {
+		rarity = 2,
+		name = "護眼檯燈",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "書桌上的小檯燈，從內向外散發著溫暖的光暈，為夜晚閱讀或工作提供舒適的照明。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_desklamp01_on",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1413,
+		target_slots = {
+			1140103
+		},
+		shop_id = {}
+	},
+	[1414] = {
+		rarity = 2,
+		name = "老式相機",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "一台經典的復古相機，保留了老式相機的獨特設計，適合喜歡攝影的人收藏使用。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_camera01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1414,
+		target_slots = {
+			1140102
+		},
+		shop_id = {}
+	},
+	[1415] = {
+		rarity = 2,
+		name = "肖像畫",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 14,
+		desc = "一幅風格古典的抽象派肖像畫，鮮豔與深邃的色彩相互衝突卻又並存，意外地和房間的氛圍很搭。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aje_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1415,
+		target_slots = {
+			1140302
+		},
+		shop_id = {}
+	},
+	[1461] = {
+		rarity = 4,
+		name = "真紅謐影",
+		type = 4,
+		room_id = 14,
+		desc = "私密與浪漫的避風港，紅色絲絨被褥與可拉床簾組合，在夜色中輕鬆享受靜謐與溫馨。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
+		acesses = "",
+		id = 1461,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990540
+			}
+		},
+		shop_id = {
+			270601
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1461"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1472,6 +1689,17 @@ pg.dorm3d_furniture_template = {
 			1221,
 			1222,
 			1223
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1461
 		}
 	},
 	all = {
@@ -1528,6 +1756,15 @@ pg.dorm3d_furniture_template = {
 		1215,
 		1221,
 		1222,
-		1223
+		1223,
+		1401,
+		1402,
+		1403,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1461
 	}
 }

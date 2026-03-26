@@ -238,38 +238,13 @@ pg.furniture_shop_template = {
 	[200004] = {
 		not_for_sale = 0,
 		gem_price = 100,
+		time = "always",
 		id = 200004,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 0,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	},
 	[200005] = {
 		not_for_sale = 0,

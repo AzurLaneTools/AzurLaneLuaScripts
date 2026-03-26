@@ -173333,6 +173333,31 @@ _G.pg.base.item_virtual_data_statistics[65105] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65108] = {
+	drop_gold_max = 0,
+	name = "巡遊點數",
+	display = "參與「世界巡遊」獲得的點數，累積一定程度可以領取獎勵，活動結束後將會消失",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7026,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65108,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65111] = {
 	drop_gold_max = 0,
 	name = "藍色浮光",

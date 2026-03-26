@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello1/drom3d_aegir_hello1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "哦？今天还算准时嘛。该不会是为了见我，特地提前结束工作了吧？",
+			say = "哦？今天還算準時嘛。該不會是為了見我，特地提前結束工作了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

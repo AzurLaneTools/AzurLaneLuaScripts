@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "之前向我祈求好运的事，你想好要怎么报答了吗？",
+			say = "之前向我祈求好運的事，你想好要怎麼報答了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你那个表情……你该不会是想说你忘记了吧？！",
+			say = "你那個表情……你該不會是想說你忘記了吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "怎么会忘呢！",
+			say = "怎麼會忘呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼哼，向我祈求好运的代价可是很重的。那么……就先从今晚开始吧~",
+			say = "哼哼，向我祈求好運的代價可是很重的。那麼……就先從今晚開始吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

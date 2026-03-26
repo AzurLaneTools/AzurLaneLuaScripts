@@ -2360,6 +2360,41 @@ pg.player_resource = {
 		name = "limit_skinticket69",
 		itemid = 68207
 	},
+	[637] = {
+		id = 637,
+		name = "skinTicket109",
+		itemid = 65871
+	},
+	[638] = {
+		id = 638,
+		name = "tongmeng_pt2",
+		itemid = 65872
+	},
+	[639] = {
+		id = 639,
+		name = "limit_skinticket70",
+		itemid = 68223
+	},
+	[640] = {
+		id = 640,
+		name = "limit_skinticket71",
+		itemid = 68224
+	},
+	[641] = {
+		id = 641,
+		name = "limit_skinticket72",
+		itemid = 68225
+	},
+	[642] = {
+		id = 642,
+		name = "skinTicket110",
+		itemid = 65875
+	},
+	[651] = {
+		id = 651,
+		name = "xiaofeitelie_pt2",
+		itemid = 66013
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2394,6 +2429,11 @@ pg.player_resource = {
 		id = 956,
 		name = "skinTicketkr1",
 		itemid = 99954
+	},
+	[957] = {
+		id = 957,
+		name = "kr_union14_pt",
+		itemid = 99958
 	},
 	[1001] = {
 		id = 1001,
@@ -2639,6 +2679,11 @@ pg.player_resource = {
 		id = 3022,
 		name = "synchronize_yuekecheng",
 		itemid = 21921
+	},
+	[3023] = {
+		id = 3023,
+		name = "synchronize_leigensibao",
+		itemid = 21922
 	},
 	[3106] = {
 		id = 3106,
@@ -4372,6 +4417,27 @@ pg.player_resource = {
 		limit_skinticket69 = {
 			636
 		},
+		skinTicket109 = {
+			637
+		},
+		tongmeng_pt2 = {
+			638
+		},
+		limit_skinticket70 = {
+			639
+		},
+		limit_skinticket71 = {
+			640
+		},
+		limit_skinticket72 = {
+			641
+		},
+		skinTicket110 = {
+			642
+		},
+		xiaofeitelie_pt2 = {
+			651
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4392,6 +4458,9 @@ pg.player_resource = {
 		},
 		skinTicketkr1 = {
 			956
+		},
+		kr_union14_pt = {
+			957
 		},
 		vote2019_pt = {
 			1001
@@ -4539,6 +4608,9 @@ pg.player_resource = {
 		},
 		synchronize_yuekecheng = {
 			3022
+		},
+		synchronize_leigensibao = {
+			3023
 		},
 		twhongran_pt = {
 			3106
@@ -5203,6 +5275,13 @@ pg.player_resource = {
 		634,
 		635,
 		636,
+		637,
+		638,
+		639,
+		640,
+		641,
+		642,
+		651,
 		950,
 		951,
 		952,
@@ -5210,6 +5289,7 @@ pg.player_resource = {
 		954,
 		955,
 		956,
+		957,
 		1001,
 		2001,
 		2002,
@@ -5259,6 +5339,7 @@ pg.player_resource = {
 		3020,
 		3021,
 		3022,
+		3023,
 		3106,
 		3137,
 		4001,

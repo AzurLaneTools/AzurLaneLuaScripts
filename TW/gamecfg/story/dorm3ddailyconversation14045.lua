@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯？我当然也是会打呵欠的……你到底把我当成什么了啊？",
+			say = "嗯？我當然也是會打呵欠的……你到底把我當成什麼了啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "可、可爱……说什么？！你、你该不会很喜欢看别人松懈的样子吧？",
+			say = "可、可愛……說什麼？！你、你該不會很喜歡看別人鬆懈的樣子吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "罢了……反正会在谁面前露出这种表情，你早就心知肚明了吧。",
+			say = "算了……反正會在誰面前露出這種表情，你早就心知肚明了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "都怪你……让我连绷紧的神经都逐渐放松了下来……",
+			say = "都怪你……讓我連繃緊神經都逐漸放鬆了下來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "现在再说“不想负责”，我可不会轻易放过你哦？",
+			say = "現在再說「不想負責」，我可不會輕易放過你哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

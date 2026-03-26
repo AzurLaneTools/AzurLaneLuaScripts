@@ -10,7 +10,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.rootTF = slot0._tf:Find("root")
 	slot0.assessTF = slot0.rootTF:Find("assess")
 	slot0.bgTF = slot0.assessTF:Find("bg")
+	slot0.endlessTF = slot0.assessTF:Find("endless")
 	slot0.damageBlood = slot0.assessTF:Find("content/blood/red")
+	slot0.bloodText = slot0.assessTF:Find("content/blood/Text"):GetComponent(typeof(Text))
 	slot0.bossTF = slot0.assessTF:Find("content/boss")
 	slot0.roleTF = slot0.assessTF:Find("content/role")
 	slot0.damageTF = slot0.assessTF:Find("content/damage")
@@ -21,6 +23,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.rankTF = slot0.resultTF:Find("rank")
 	slot0.tipTF = slot0.rootTF:Find("tip")
 	slot0.assessTextTF = slot0.tipTF:Find("content/assess/Text")
+
+	setText(slot0.assessTextTF, i18n("child2_assess_start_tip"))
+
 	slot0.targetTextTF = slot0.tipTF:Find("content/target/Text")
 end
 
@@ -63,9 +68,11 @@ end
 slot0.InitData = function(slot0)
 	slot0.speed = 1
 	slot1 = slot0.contextData.char:GetRoundData()
+	slot0.isEndless = slot1:IsEndless()
 	slot2 = pg.child2_target[slot1:getConfig("target_id")]
 	slot0.rank = slot2.display[slot0.contextData.char:GetAssessRankIdx()]
-	slot0.totolHP = slot2.attr_sum
+	slot0.totolHP = slot2.attr_sum * slot1:GetExtraFactor()
+	slot0.isFail = slot0.contextData.char:GetAttrSum() < slot0.totolHP
 	slot0.damageHP = 0
 	slot0.attrIds = slot0.contextData.char:GetAttrIds()
 	slot0.curAttrIdx = 1
@@ -86,10 +93,15 @@ slot0.InitData = function(slot0)
 		end
 	}))
 
-	slot4, slot5, slot6 = slot1:GetProgressInfo()
+	if slot0.isEndless then
+		slot4, slot5, slot6 = slot1:GetEndlessProgressInfos()
 
-	setText(slot0.assessTextTF, i18n("child2_assess_start_tip"))
-	setText(slot0.targetTextTF, i18n("child2_assess_tip_target", slot6))
+		setText(slot0.targetTextTF, i18n("child2_assess_tip_target", slot6))
+	else
+		slot4, slot5, slot6 = slot1:GetProgressInfo()
+
+		setText(slot0.targetTextTF, i18n("child2_assess_tip_target", slot6))
+	end
 end
 
 slot0.GetAtkActionName = function(slot0, slot1)
@@ -103,6 +115,17 @@ slot0.GetAtkActionName = function(slot0, slot1)
 end
 
 slot0.InitStaticUI = function(slot0)
+	slot2 = slot0.contextData.char:GetRoundData():IsEndless()
+
+	setActive(slot0.endlessTF, slot2)
+
+	if slot2 then
+		slot3 = slot1:GetWave()
+
+		setText(slot0.endlessTF:Find("Text"), i18n("child2_endless_assest_wave", slot3))
+		setActive(slot0.endlessTF:Find("new"), slot1:GetHeighestWave() < slot3)
+	end
+
 	LoadImageSpriteAtlasAsync("ui/neweducateassesspanel_atlas", "bg_" .. slot0.tag, slot0.bgTF)
 	removeAllChildren(slot0.bossTF)
 	removeAllChildren(slot0.roleTF)
@@ -113,16 +136,16 @@ slot0.InitStaticUI = function(slot0)
 	setActive(slot0.resultTF:Find("title_red"), slot0.rank ~= "S")
 	LoadImageSpriteAtlasAsync("ui/neweducateassesspanel_atlas", slot0.rank, slot0.rankTF)
 	setFillAmount(slot0.damageBlood, 0)
+
+	slot0.bloodText.text = slot0.totolHP - slot0.damageHP .. "/" .. slot0.totolHP
+
 	table.sort(slot0.attrIds)
 	slot0.attrUIList:align(#slot0.attrIds)
 end
 
 slot0.ShowResult = function(slot0)
 	setActive(slot0.resultTF, true)
-
-	slot1 = slot0.contextData.char
-
-	slot0:emit(NewEducateMainMediator.ON_SET_ASSESS_RANK, slot1:GetAssessRankIdx(), function ()
+	slot0:emit(NewEducateMainMediator.ON_SET_ASSESS_RANK, slot0.contextData.char:GetAssessRankIdx(), slot0.isEndless and slot0.isFail, function ()
 		existCall(uv0.callback)
 	end)
 end
@@ -158,12 +181,14 @@ end
 
 slot0.CheckGuide = function(slot0, slot1)
 	if pg.NewStoryMgr.GetInstance():IsPlayed("tb2_12") then
-		slot1(slot1)
+		slot1()
 	else
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
 			storyId = "tb2_12"
 		})
-		pg.NewGuideMgr.GetInstance():Play("tb2_12", {}, slot1, slot1)
+		pg.NewGuideMgr.GetInstance():Play("tb2_12", {
+			slot0.contextData.char.id
+		}, slot1, slot1)
 	end
 end
 
@@ -173,16 +198,14 @@ slot0.LoadChar = function(slot0, slot1)
 	slot2:LoadingOn()
 	seriesAsync({
 		function (slot0)
-			slot1 = PoolMgr.GetInstance()
-
-			slot1:GetSpineChar(uv0.charConfig.boss, true, function (slot0)
-				uv0.bossName = uv0.charConfig.boss
+			PoolMgr.GetInstance():GetSpineChar(uv0.isEndless and uv0.charConfig.endless_boss or uv0.charConfig.boss, true, function (slot0)
+				uv0.bossName = uv1
 				uv0.bossModel = slot0
 				tf(slot0).localScale = Vector3(1, 1, 1)
 
 				slot0:GetComponent("SpineAnimUI"):SetAction("child2_boss_normal", 0)
 				setParent(slot0, uv0.bossTF)
-				uv1()
+				uv2()
 			end)
 		end,
 		function (slot0)
@@ -210,11 +233,7 @@ slot0.PlayOneATK = function(slot0, slot1)
 	slot4 = slot0:GetAtkActionName(slot3)
 
 	setText(slot3 >= slot0.standardValue * uv0.CRIT_PERCENT / 100 and slot0.damageCritTF or slot0.damageTF, "-" .. slot3)
-
-	slot7 = slot0.bossModel:GetComponent(typeof(SpineAnimUI))
-
-	slot7:Resume()
-	slot7:SetAction("child2_boss_normal", 0)
+	slot0.bossModel:GetComponent(typeof(SpineAnimUI)):SetAction("child2_boss_normal", 0)
 	slot0.roleModel:GetComponent(typeof(SpineAnimUI)):SetAction(slot0.roleName .. "_normal", 0)
 	seriesAsync({
 		function (slot0)
@@ -237,6 +256,8 @@ slot0.PlayOneATK = function(slot0, slot1)
 		function (slot0)
 			setActive(uv0, true)
 			setFillAmount(uv1.damageBlood, math.min(uv1.damageHP / uv1.totolHP, 1))
+
+			uv1.bloodText.text = math.max(0, uv1.totolHP - uv1.damageHP) .. "/" .. uv1.totolHP
 
 			if uv1.damageHP < uv1.totolHP then
 				uv2:SetActionCallBack(function (slot0)
@@ -314,6 +335,7 @@ slot0.Hide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:Hide()
 end
 
 return slot0

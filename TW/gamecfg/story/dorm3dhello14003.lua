@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello3/drom3d_aegir_hello3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今天破例给你两个选择——是要陪我去逛街，还是就在家安静地待着？",
+			say = "今天破例給你兩個選擇——是要陪我去逛街，還是就在家安靜地待著？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

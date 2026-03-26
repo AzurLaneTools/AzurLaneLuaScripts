@@ -4,8 +4,10 @@ slot0.ON_SELECT_MIND = "NewEducateMainMediator.ON_SELECT_MIND"
 slot0.ON_UPGRADE_FAVOR = "NewEducateMainMediator.ON_UPGRADE_FAVOR"
 slot0.ON_TRIGGER_MAIN_EVENT = "NewEducateMainMediator.ON_TRIGGER_MAIN_EVENT"
 slot0.ON_REQ_TALENTS = "NewEducateMainMediator.ON_REQ_TALENTS"
+slot0.ON_REQ_CHOOSE = "NewEducateMainMediator.ON_REQ_CHOOSE"
 slot0.ON_REQ_TOPICS = "NewEducateMainMediator.ON_REQ_TOPICS"
 slot0.ON_SELECT_TOPIC = "NewEducateMainMediator.ON_SELECT_TOPIC"
+slot0.ON_ENTER_ASSESS = "NewEducateMainMediator.ON_ENTER_ASSESS"
 slot0.ON_SET_ASSESS_RANK = "NewEducateMainMediator.ON_SET_ASSESS_RANK"
 slot0.ON_STAGE_CHANGE = "NewEducateMainMediator.ON_STAGE_CHANGE"
 slot0.ON_NEXT_PLAN = "NewEducateMainMediator.ON_NEXT_PLAN"
@@ -13,6 +15,7 @@ slot0.ON_REQ_MAP = "NewEducateMainMediator.ON_REQ_MAP"
 slot0.ON_REQ_ENDINGS = "NewEducateMainMediator.ON_REQ_ENDINGS"
 slot0.ON_RESET = "NewEducateMainMediator.ON_RESET"
 slot0.ON_SELECT_ENDING = "NewEducateMainMediator.ON_SELECT_ENDING"
+slot0.ON_START_ENDLESS = "NewEducateMainMediator.ON_START_ENDLESS"
 slot0.ON_CLEAR_NODE_CHAIN = "NewEducateMainMediator.ON_CLEAR_NODE_CHAIN"
 
 slot0.register = function(slot0)
@@ -45,6 +48,12 @@ slot0.register = function(slot0)
 			callback = slot1
 		})
 	end)
+	slot0:bind(uv0.ON_REQ_CHOOSE, function (slot0, slot1)
+		uv0:sendNotification(GAME.NEW_EDUCATE_GET_CHOOSE, {
+			id = uv0.contextData.char.id,
+			callback = slot1
+		})
+	end)
 	slot0:bind(uv0.ON_REQ_TOPICS, function (slot0, slot1)
 		uv0:sendNotification(GAME.NEW_EDUCATE_GET_TOPICS, {
 			id = uv0.contextData.char.id,
@@ -63,11 +72,18 @@ slot0.register = function(slot0)
 			id = uv0.contextData.char.id
 		})
 	end)
-	slot0:bind(uv0.ON_SET_ASSESS_RANK, function (slot0, slot1, slot2)
+	slot0:bind(uv0.ON_ENTER_ASSESS, function (slot0, slot1)
+		uv0:sendNotification(GAME.NEW_EDUCATE_ENTER_ASSESS, {
+			id = uv0.contextData.char.id,
+			callback = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_SET_ASSESS_RANK, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.NEW_EDUCATE_ASSESS, {
 			id = uv0.contextData.char.id,
 			rank = slot1,
-			callback = slot2
+			endlessFail = slot2,
+			callback = slot3
 		})
 	end)
 	slot0:bind(uv0.ON_STAGE_CHANGE, function (slot0)
@@ -89,6 +105,7 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.ON_RESET, function (slot0, slot1)
 		uv0:sendNotification(GAME.NEW_EDUCATE_RESET, {
 			id = uv0.contextData.char.id,
+			difficulty = uv0.contextData.char.difficulty,
 			callback = slot1
 		})
 	end)
@@ -97,6 +114,11 @@ slot0.register = function(slot0)
 			isMain = true,
 			id = uv0.contextData.char.id,
 			endingId = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_START_ENDLESS, function (slot0)
+		uv0:sendNotification(GAME.NEW_EDUCATE_CHANGE_PHASE, {
+			id = uv0.contextData.char.id
 		})
 	end)
 	slot0:bind(uv0.ON_CLEAR_NODE_CHAIN, function (slot0)
@@ -113,14 +135,18 @@ slot0.listNotificationInterests = function(slot0)
 		NewEducateProxy.PERSONALITY_UPDATED,
 		NewEducateProxy.TALENT_UPDATED,
 		NewEducateProxy.STATUS_UPDATED,
+		NewEducateProxy.TAROT_UPDATED,
 		NewEducateProxy.NEXT_ROUND,
 		GAME.NEW_EDUCATE_SEL_TOPIC_DONE,
 		GAME.NEW_EDUCATE_NODE_START,
 		GAME.NEW_EDUCATE_NEXT_NODE,
 		GAME.NEW_EDUCATE_CHECK_FSM,
+		GAME.NEW_EDUCATE_CHECK_PRIORITY_FSM,
 		GAME.NEW_EDUCATE_GET_EXTRA_DROP_DONE,
 		GAME.NEW_EDUCATE_UPGRADE_FAVOR_DONE,
 		GAME.NEW_EDUCATE_REFRESH_DONE,
+		GAME.NEW_EDUCATE_ENTER_ASSESS_DONE,
+		GAME.NEW_EDUCATE_ASSESS_DONE,
 		GAME.NEW_EDUCATE_CHANGE_PHASE_DONE,
 		GAME.NEW_EDUCATE_NEXT_PLAN_DONE,
 		GAME.NEW_EDUCATE_GET_MAP_DONE,
@@ -143,6 +169,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:OnTalentUpdate()
 	elseif slot2 == NewEducateProxy.STATUS_UPDATED then
 		slot0.viewComponent:OnStatusUpdate()
+	elseif slot2 == NewEducateProxy.TAROT_UPDATED then
+		slot0.viewComponent:OnTarotUpdate()
 	elseif slot2 == NewEducateProxy.NEXT_ROUND then
 		slot0.viewComponent:OnNextRound()
 	elseif slot2 == GAME.NEW_EDUCATE_NODE_START then
@@ -151,6 +179,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:OnNextNode(slot3)
 	elseif slot2 == GAME.NEW_EDUCATE_CHECK_FSM then
 		slot0.viewComponent:CheckFSM()
+	elseif slot2 == GAME.NEW_EDUCATE_CHECK_PRIORITY_FSM then
+		slot0:CheckPriorityState()
 	elseif slot2 == GAME.NEW_EDUCATE_GET_EXTRA_DROP_DONE then
 		if #slot3.drops == 0 then
 			slot0:AddResultLayer(slot3)
@@ -175,6 +205,34 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:OnReset()
 	elseif slot2 == GAME.NEW_EDUCATE_SEL_TOPIC_DONE then
 		slot0:StartNodeWithCheckDrops(slot3)
+	elseif slot2 == GAME.NEW_EDUCATE_ENTER_ASSESS_DONE then
+		if #slot3.drops == 0 then
+			existCall(slot3.callback)
+		else
+			slot0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+				items = slot3.drops,
+				removeFunc = slot3.callback
+			})
+		end
+	elseif slot2 == GAME.NEW_EDUCATE_ASSESS_DONE then
+		seriesAsync({
+			function (slot0)
+				if #uv0.drops == 0 then
+					slot0()
+				else
+					uv1.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+						items = uv0.drops,
+						removeFunc = slot0
+					})
+				end
+			end
+		}, function (slot0)
+			if uv0.node ~= 0 then
+				uv1.viewComponent:OnNodeStart(uv0.node)
+			else
+				uv1.viewComponent:SeriesCheck()
+			end
+		end)
 	elseif slot2 == GAME.NEW_EDUCATE_CHANGE_PHASE_DONE then
 		slot0.viewComponent:AddNewRoundDrops(slot3.drops)
 		slot0:CheckFirstNodeExist(slot3.node)

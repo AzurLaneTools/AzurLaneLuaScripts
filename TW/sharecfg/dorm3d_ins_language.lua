@@ -225,6 +225,56 @@ pg.dorm3d_ins_language = {
 		key = "dafeng_2_2_1",
 		is_active = "0"
 	},
+	aijier_1 = {
+		value = "紅酒的醇厚，還是咖啡的芬芳……真讓人難以抉擇呢",
+		key = "aijier_1",
+		is_active = "0"
+	},
+	aijier_1_1 = {
+		value = "妳選一個，我選另一個怎麼樣？",
+		key = "aijier_1_1",
+		is_active = "0"
+	},
+	aijier_1_1_1 = {
+		value = "既然讓我先選……那你的咖啡，我也要分走第一口",
+		key = "aijier_1_1_1",
+		is_active = "0"
+	},
+	aijier_1_2 = {
+		value = "不知道選什麼的話，不如跟我一起去喝點別的？",
+		key = "aijier_1_2",
+		is_active = "0"
+	},
+	aijier_1_2_1 = {
+		value = "既然你都誠心邀請了，那我就陪你去嚐嚐吧~",
+		key = "aijier_1_2_1",
+		is_active = "0"
+	},
+	aijier_2 = {
+		value = "如此靜謐的午後……反倒讓人有些不自在了……",
+		key = "aijier_2",
+		is_active = "0"
+	},
+	aijier_2_1 = {
+		value = "想喝點什麼？我送過來給妳",
+		key = "aijier_2_1",
+		is_active = "0"
+	},
+	aijier_2_1_1 = {
+		value = "嗯……那就帶著咖啡與我共度這段時光吧~",
+		key = "aijier_2_1_1",
+		is_active = "0"
+	},
+	aijier_2_2 = {
+		value = "原來妳也喜歡這種放鬆的氛圍",
+		key = "aijier_2_2",
+		is_active = "0"
+	},
+	aijier_2_2_1 = {
+		value = "那要不要一起……享受這個難得的午後？",
+		key = "aijier_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -270,6 +320,16 @@ pg.dorm3d_ins_language = {
 		"dafeng_2_1",
 		"dafeng_2_1_1",
 		"dafeng_2_2",
-		"dafeng_2_2_1"
+		"dafeng_2_2_1",
+		"aijier_1",
+		"aijier_1_1",
+		"aijier_1_1_1",
+		"aijier_1_2",
+		"aijier_1_2_1",
+		"aijier_2",
+		"aijier_2_1",
+		"aijier_2_1_1",
+		"aijier_2_2",
+		"aijier_2_2_1"
 	}
 }

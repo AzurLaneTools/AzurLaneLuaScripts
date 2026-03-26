@@ -1816,95 +1816,111 @@ pg.voice_actor_CN = {
 		actor_name = "櫻木tsugumi",
 		code = 454
 	},
-	[459] = {
+	{
+		actor_name = "徐慧",
+		code = 455
+	},
+	{
+		actor_name = "阿妄",
+		code = 456
+	},
+	{
+		actor_name = "一口井",
+		code = 457
+	},
+	{
+		actor_name = "葛子瑞",
+		code = 458
+	},
+	{
 		actor_name = "花澤香菜",
 		code = 459
 	},
-	[460] = {
+	{
 		actor_name = "廣瀨有紀",
 		code = 460
 	},
-	[461] = {
+	{
 		actor_name = "葵梓",
 		code = 461
 	},
-	[462] = {
+	{
 		actor_name = "引坂理繪",
 		code = 462
 	},
-	[463] = {
+	{
 		actor_name = "井上喜久子",
 		code = 463
 	},
-	[464] = {
+	{
 		actor_name = "伊瀨茉莉也",
 		code = 464
 	},
-	[465] = {
+	{
 		actor_name = "根本京里",
 		code = 465
 	},
-	[466] = {
+	{
 		actor_name = "松田利冴",
 		code = 466
 	},
-	[467] = {
+	{
 		actor_name = "春咲暖",
 		code = 467
 	},
-	[468] = {
+	{
 		actor_name = "林鼓子",
 		code = 468
 	},
-	[469] = {
+	{
 		actor_name = "和久井優",
 		code = 469
 	},
-	[470] = {
+	{
 		actor_name = "河村梨惠",
 		code = 470
 	},
-	[471] = {
+	{
 		actor_name = "橘茉莉花",
 		code = 471
 	},
-	[472] = {
+	{
 		actor_name = "千菅春香",
 		code = 472
 	},
-	[473] = {
+	{
 		actor_name = "小澤實里",
 		code = 473
 	},
-	[474] = {
+	{
 		actor_name = "高垣彩陽",
 		code = 474
 	},
-	[475] = {
+	{
 		actor_name = "後藤彩佐",
 		code = 475
 	},
-	[476] = {
+	{
 		actor_name = "新崎瑞季",
 		code = 476
 	},
-	[477] = {
+	{
 		actor_name = "天知遙",
 		code = 477
 	},
-	[478] = {
+	{
 		actor_name = "矢野優美華",
 		code = 478
 	},
-	[479] = {
+	{
 		actor_name = "逢坂成美",
 		code = 479
 	},
-	[480] = {
+	{
 		actor_name = "小澤麗那",
 		code = 480
 	},
-	[481] = {
+	{
 		actor_name = "山田美鈴",
 		code = 481
 	},

@@ -1656,7 +1656,8 @@ pg.island_dress_template = {
 			30407
 		},
 		exclusive_skin = {
-			3040701
+			3040701,
+			99000101
 		},
 		jump_page = {}
 	},
@@ -1690,7 +1691,8 @@ pg.island_dress_template = {
 			30407
 		},
 		exclusive_skin = {
-			3040701
+			3040701,
+			99000101
 		},
 		jump_page = {
 			{
@@ -1745,7 +1747,8 @@ pg.island_dress_template = {
 			1020501,
 			3031201,
 			3120101,
-			4030301
+			4030301,
+			99000101
 		},
 		jump_page = {
 			{
@@ -1788,7 +1791,8 @@ pg.island_dress_template = {
 		},
 		exclusive_skin = {
 			3040701,
-			1011001
+			1011001,
+			99000101
 		},
 		jump_page = {
 			{

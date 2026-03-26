@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这满满一桌子的零食是怎么回事……你该不会是想用这个当午饭吧？",
+			say = "這滿滿一桌子的零食是怎麼回事……你該不會是想用這個當午餐吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "想要我帮你抽出隐藏款？你可要想清楚——向我许愿的代价，可不是几包零食能抵的哦~",
+			say = "想要我幫你抽出隱藏款？你可要想清楚——向我許願的代價，可不是幾包零食能抵的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "怕？不过是包零食罢了，让我——",
+			say = "怕？不過是包零食罷了，讓我——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "欸，这个是？",
+			say = "欸，這個是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "传说中的超级隐藏款？",
+			say = "傳說中的超級隱藏款？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼！你以为我是谁？运气也不过是我的……呀啊！你又突然抱过来……",
+			say = "哼！你以為我是誰？運氣也不過是我的……呀啊！你又突然抱過來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我说过了！向我祈求好运的代价可是很重的。",
+			say = "我說過了！向我祈求好運的代價可是很重的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不过……时间还很充裕，你可以慢慢考虑哦？",
+			say = "不過……時間還很充裕，你可以慢慢考慮哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

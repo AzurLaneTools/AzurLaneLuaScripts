@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我说你啊……今天干脆就留在这里，如何？",
+			say = "我說你啊……今天乾脆就留在這裡，如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "——虽然想这么说，但我可是很通情达理的。你的工作还没处理完吧？",
+			say = "——雖然想這麼說，但我可是很通情達理的。你的工作還沒處理完吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "所以，工作完就立刻过来吧，今天特别允许你……待到尽兴为止哦？",
+			say = "所以，工作完就立刻過來吧，今天特別允許你……待到盡興為止哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼哼，偶尔也让我任性一下……怎么样？",
+			say = "哼哼，偶爾也讓我任性一下……怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你平时可没少任性。",
+			say = "妳平時可沒少任性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "什——你、你对我就是这种印象吗？！",
+			say = "什——你、你對我就是這種印象嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "早知如此……就不做这种不符合形象的事了……！",
+			say = "早知如此……就不做這種不符合形象的事了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -22,6 +22,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	end
 
 	slot0.selectedShip = slot2.character_this_round or {}
+	slot0.refreshShopCnt = slot2.refresh_count or 0
 end
 
 slot0.SetSiteState = function(slot0, slot1)
@@ -38,6 +39,8 @@ slot0.SetSiteState = function(slot0, slot1)
 		slot0.curSiteId = slot3:GetSiteId(NewEducateHelper.NormalType2SiteType(pg.child2_site_normal[slot1.value].type))
 	elseif slot1.key == NewEducateConst.SITE_STATE_TYPE.SHIP then
 		slot0.curSiteId = slot3:GetSiteId(NewEducateConst.SITE_TYPE.SHIP, slot1.value)
+	elseif slot1.key == NewEducateConst.SITE_STATE_TYPE.SHOP then
+		slot0.curSiteId = slot3:GetSiteId(NewEducateConst.SITE_TYPE.SHOP)
 	end
 end
 
@@ -83,16 +86,31 @@ slot0.IsSpecial = function(slot0)
 	end)
 end
 
+slot0.GetRefreshShopCnt = function(slot0)
+	return slot0.refreshShopCnt
+end
+
+slot0.OnRefreshShopDone = function(slot0, slot1, slot2)
+	if slot2 then
+		slot0.refreshShopCnt = slot0.refreshShopCnt + 1
+	end
+
+	slot0.goods = {}
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot0.goods[slot7] = NewEducateGoods.New(slot7)
+	end
+end
+
 slot0.IsFinish = function(slot0)
 	return true
 end
 
 slot0.Reset = function(slot0)
 	slot0.events = {}
-	slot0.ships = {}
 	slot0.goods = {}
-	slot0.buyGoods = {}
 	slot0.selectedShip = {}
+	slot0.refreshShopCnt = 0
 end
 
 return slot0

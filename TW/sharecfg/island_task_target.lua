@@ -19,6 +19,21 @@ pg.island_task_target = setmetatable({
 		40005,
 		500000011,
 		500000021,
+		510010001,
+		510010011,
+		510010012,
+		510010013,
+		510010014,
+		510020001,
+		510020011,
+		510020012,
+		510020013,
+		510020014,
+		510030001,
+		510030011,
+		510030012,
+		510030013,
+		510030014,
 		50001001,
 		50001002,
 		50001003,
@@ -602,6 +617,165 @@ pg.base.island_task_target = {
 		target_param = {
 			5826
 		}
+	},
+	[510010001] = {
+		tips = "",
+		jump_ui = "",
+		name = "特殊道具-TB",
+		type = 4,
+		id = 510010001,
+		target_num = 1,
+		target_param = {
+			12
+		}
+	},
+	[510010011] = {
+		tips = "",
+		jump_ui = "",
+		name = "采集任意木材",
+		type = 49,
+		id = 510010011,
+		target_num = 3,
+		target_param = {
+			402
+		}
+	},
+	[510010012] = {
+		tips = "10090008",
+		jump_ui = "",
+		name = "委派制作欧姆蛋",
+		type = 7,
+		id = 510010012,
+		target_num = 3,
+		target_param = {
+			901001
+		}
+	},
+	[510010013] = {
+		tips = "10010003",
+		jump_ui = "",
+		name = "委派生产牛奶",
+		type = 7,
+		id = 510010013,
+		target_num = 3,
+		target_param = {
+			101016
+		}
+	},
+	[510010014] = {
+		tips = "10060002",
+		jump_ui = "",
+		name = "营业收入达到",
+		type = 29,
+		id = 510010014,
+		target_num = 500,
+		target_param = {
+			0
+		}
+	},
+	[510020001] = {
+		tips = "",
+		jump_ui = "",
+		name = "回收特殊道具-娜比娅",
+		type = 4,
+		id = 510020001,
+		target_num = 1,
+		target_param = {
+			11
+		}
+	},
+	[510020011] = {
+		tips = "10010040",
+		jump_ui = "",
+		name = "收获任意农田作物",
+		type = 47,
+		id = 510020011,
+		target_num = 3,
+		target_param = {
+			101
+		}
+	},
+	[510020012] = {
+		tips = "10050003",
+		jump_ui = "",
+		name = "委派生产草莓",
+		type = 7,
+		id = 510020012,
+		target_num = 3,
+		target_param = {
+			502002
+		}
+	},
+	[510020013] = {
+		tips = "",
+		jump_ui = "",
+		name = "抚摸猫咪",
+		type = 1,
+		id = 510020013,
+		target_num = 1,
+		target_param = {
+			6201
+		}
+	},
+	[510020014] = {
+		tips = "",
+		jump_ui = "",
+		name = "研发工业生产设备",
+		type = 8,
+		id = 510020014,
+		target_num = 1,
+		target_param = {
+			640001
+		}
+	},
+	[510030001] = {
+		tips = "",
+		jump_ui = "",
+		name = "道具-艾普洛",
+		type = 4,
+		id = 510030001,
+		target_num = 1,
+		target_param = {
+			13
+		}
+	},
+	[510030011] = {
+		tips = "10020009",
+		jump_ui = "",
+		name = "交付任意岛屿订单",
+		type = 3,
+		id = 510030011,
+		target_num = 3,
+		target_param = ""
+	},
+	[510030012] = {
+		tips = "10010003",
+		jump_ui = "",
+		name = "委派生产任意牧场产品",
+		type = 48,
+		id = 510030012,
+		target_num = 3,
+		target_param = {
+			102
+		}
+	},
+	[510030013] = {
+		tips = "10020085",
+		jump_ui = "",
+		name = "完成钓鱼",
+		type = 58,
+		id = 510030013,
+		target_num = 1,
+		target_param = ""
+	},
+	[510030014] = {
+		tips = "10060002",
+		jump_ui = "",
+		name = "完成营业",
+		type = 31,
+		id = 510030014,
+		target_num = 1,
+		target_param = ""
 	},
 	[50001001] = {
 		tips = "",
@@ -4294,21 +4468,13 @@ pg.base.island_task_target = {
 	[301010011] = {
 		tips = "",
 		jump_ui = "",
-		name = "手动采集任意矿石和木材",
-		type = 6,
+		name = "获得任意矿石和木材",
+		type = 53,
 		id = 301010011,
 		target_num = 4,
 		target_param = {
-			401001,
-			401002,
-			401004,
-			401005,
-			401006,
-			401007,
-			402001,
-			402002,
-			402003,
-			402004
+			10123,
+			10124
 		}
 	},
 	[302010011] = {

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "唯有美酒和强大的对手，不能辜负——",
+			say = "唯有美酒和強大的對手，不能辜負——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，要来尝尝看吗？这杯每年只会短暂上架的羽毛白。",
+			say = "{dorm3d}，要來嚐嚐看嗎？這杯每年只會短暫上架的羽毛白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这是白葡萄酿造过程中未完全发酵的新品。",
+			say = "這是白葡萄釀造過程中未完全發酵的新品。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没有多少酒精的苦涩，却保留了相当浓郁的果香。",
+			say = "沒有多少酒精的苦澀，卻保留了相當濃郁的果香。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "绝对值得细细品味一番~",
+			say = "絕對值得細細品味一番~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

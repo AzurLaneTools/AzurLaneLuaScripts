@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello14/drom3d_aegir_hello14",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "正觉得肩膀有些酸疼，你就出现了……呵，还算有点默契嘛？",
+			say = "正覺得肩膀有些酸疼，你就出現了……呵，還算有點默契嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

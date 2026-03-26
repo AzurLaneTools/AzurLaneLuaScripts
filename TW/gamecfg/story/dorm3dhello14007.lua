@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_hello7/drom3d_aegir_hello7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "累了就不要硬撑，来我这边休息吧，今天的海浪与潮声会很轻柔哦。",
+			say = "累了就不要硬撐，來我這邊休息吧，今天的海浪與潮聲會很輕柔哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

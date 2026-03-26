@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你看到了吗？远方海面上的云柱。",
+			say = "你看到了嗎？遠方海面上的雲柱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "没错……是风暴云哦。你有没有接近看过的经验？",
+			say = "沒錯……是風暴雲哦。你有沒有接近看過的經驗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "哼嗯~“会为了同伴的安全适度更改航线”？是你会说的话呢……",
+			say = "哼嗯~「會為了同伴的安全適度更改航線」？是你會說的話呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "但是，总是谨慎和避让的话……要是真遇上了风暴，说不定会不习惯呢。那可就糟糕了不是吗？",
+			say = "但是，總是謹慎和避讓的話……要是真遇上了風暴，說不定會不習慣呢。那可就糟糕了不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "就让我来教教你吧。这双驱使海浪的手……会让你体会到真正的、连身心都迷失的，比那云柱还要猛烈的风暴哦？",
+			say = "就讓我來教教你吧。這雙驅使海浪的手……會讓你體會到真正的、連身心都迷失的，比那雲柱還要猛烈的風暴哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

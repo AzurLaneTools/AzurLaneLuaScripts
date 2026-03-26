@@ -51,7 +51,11 @@ slot0.GenRank = function(slot0, slot1, slot2)
 	end
 
 	table.sort(slot3, function (slot0, slot1)
-		return slot1.value < slot0.value
+		if uv0.mode == IslandTradePage.MODE_SELL then
+			return slot1.value < slot0.value
+		elseif uv0.mode == IslandTradePage.MODE_PURCHAS then
+			return slot0.value < slot1.value
+		end
 	end)
 
 	slot4 = {}
@@ -79,7 +83,11 @@ slot0.GetDislays = function(slot0)
 	end
 
 	table.sort(slot3, function (slot0, slot1)
-		return slot1.value < slot0.value
+		if uv0.mode == IslandTradePage.MODE_SELL then
+			return slot1.value < slot0.value
+		elseif uv0.mode == IslandTradePage.MODE_PURCHAS then
+			return slot0.value < slot1.value
+		end
 	end)
 
 	return slot2, slot3
@@ -97,9 +105,13 @@ slot0.DisplayResult = function(slot0, slot1)
 	end
 
 	table.sort(slot0.displays, function (slot0, slot1)
-		return slot1.value < slot0.value
+		if uv0.mode == IslandTradePage.MODE_SELL then
+			return slot1.value < slot0.value
+		elseif uv0.mode == IslandTradePage.MODE_PURCHAS then
+			return slot0.value < slot1.value
+		end
 	end)
-	slot0.scrollrect:SetTotalCount(math.min(10, #slot0.displays))
+	slot0.scrollrect:SetTotalCount(#slot0.displays)
 end
 
 slot0.OnInitItem = function(slot0, slot1)

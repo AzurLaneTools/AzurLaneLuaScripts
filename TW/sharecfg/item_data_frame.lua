@@ -90,6 +90,8 @@ pg.item_data_frame = setmetatable({
 		1008,
 		1009,
 		1010,
+		1011,
+		1012,
 		10001,
 		10002,
 		10003,
@@ -897,6 +899,24 @@ pg.base.item_data_frame = {
 		id = 1010,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>金色鳳翼展翅，翎羽如光輝般閃爍，神秘而優雅。 </color>\n透過提升「宿舍計劃」中{namecode:97}的契合度等級來獲取",
+		scene = {}
+	},
+	[1011] = {
+		name = "深淵之鎖",
+		gain_by = "",
+		time_second = 0,
+		id = 1011,
+		time_limit_type = 0,
+		desc = "熾龍自深淵而來，漆黑的鎖鏈上纏繞著不滅的怒雷。\n<color=#A7A7AA>透過提升「宿舍計劃」中{namecode:480}的契合度等級來獲得</color>",
+		scene = {}
+	},
+	[1012] = {
+		name = "碧海金冠",
+		gain_by = "",
+		time_second = 0,
+		id = 1012,
+		time_limit_type = 0,
+		desc = "鐵色的旗幟在浪潮間翻湧，一頂金冠於此加冕，象徵海洋的無上權柄。 \n<color=#A7A7AA>透過提升「宿舍計劃」中{namecode:480}的契合度等級獲得</color>",
 		scene = {}
 	},
 	[10001] = {

@@ -10,7 +10,7 @@ slot0.execute = function(slot0, slot1)
 			getProxy(NewEducateProxy):UpdateChar(slot0.tb, slot0.permanent)
 			existCall(uv0)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(errorTip("NewEducate_Request", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips("NewEducate_Request: " .. slot0.result)
 		end
 	end)
 end

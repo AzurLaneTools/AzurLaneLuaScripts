@@ -35,7 +35,10 @@ slot0.init = function(slot0)
 	slot0.scheduleBtn = slot0.normalBtns:Find("schedule")
 	slot0.mapBtn = slot0.normalBtns:Find("map")
 	slot0.endingBtn = slot0.adaptTF:Find("ending")
-	slot0.resetBtn = slot0.adaptTF:Find("reset")
+	slot0.resetInEndlessBtn = slot0.adaptTF:Find("reset_endless")
+	slot0.resetBtns = slot0.adaptTF:Find("reset")
+	slot0.resetBtn = slot0.resetBtns:Find("reset")
+	slot0.endlessBtn = slot0.resetBtns:Find("endless")
 	slot0.topPanel = NewEducateTopPanel.New(slot0.adaptTF, slot0.event, setmetatable({
 		hideBlurBg = true
 	}, {
@@ -64,7 +67,11 @@ slot0.init = function(slot0)
 
 	slot0.personalityTipPanel:RegisterView(slot0)
 
-	slot0.nodePanel = NewEducateNodePanel.New(slot0.adaptTF, slot0.event, slot0.contextData)
+	slot0.nodePanel = NewEducateNodePanel.New(slot0.adaptTF, slot0.event, setmetatable({
+		view = slot0
+	}, {
+		__index = slot0.contextData
+	}))
 
 	slot0.nodePanel:RegisterView(slot0)
 end
@@ -75,20 +82,44 @@ slot0.didEnter = function(slot0)
 		uv0:ShowDialogue()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.mindBtn, function ()
+		if uv0.contextData.char:GetFSM():CheckPriorityStystem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_priority_tip"))
+
+			return
+		end
+
 		setActive(uv0.mindBtn, false)
 		uv0:emit(NewEducateMainMediator.ON_SELECT_MIND, function ()
 			uv0:SeriesCheck()
 		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.favorTF, function ()
+		if uv0.contextData.char:GetFSM():CheckPriorityStystem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_priority_tip"))
+
+			return
+		end
+
 		uv0.favorPanel:ExecuteAction("Show")
 	end, SFX_PANEL)
 	onButton(slot0, slot0.scheduleBtn, function ()
+		if uv0.contextData.char:GetFSM():CheckPriorityStystem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_priority_tip"))
+
+			return
+		end
+
 		uv0:emit(uv1.GO_SCENE, SCENE.NEW_EDUCATE_SCHEDULE, {
 			scheduleDataTable = uv0.contextData.scheduleDataTable
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.mapBtn, function ()
+		if uv0.contextData.char:GetFSM():CheckPriorityStystem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_priority_tip"))
+
+			return
+		end
+
 		if not uv0.contextData.char:IsUnlock("out") then
 			return
 		end
@@ -101,21 +132,18 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.resetBtn, function ()
 		uv0:OnClickResetBtn()
 	end, SFX_PANEL)
+	onButton(slot0, slot0.resetInEndlessBtn, function ()
+		uv0:OnClickResetInEndlessBtn()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.endlessBtn, function ()
+		uv0:OnClickEndlessBtn()
+	end, SFX_PANEL)
 	onButton(slot0, slot0.topicBtn, function ()
-		seriesAsync({
-			function (slot0)
-				if not uv0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.TOPIC) then
-					uv0:emit(NewEducateMainMediator.ON_REQ_TOPICS, slot0)
-				else
-					slot0()
-				end
-			end
-		}, function ()
-			if #uv0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.TOPIC):GetTopics() > 0 then
-				setActive(uv0.topicBtn, false)
-				uv0:emit(NewEducateMainMediator.ON_SELECT_TOPIC, slot0[1])
-			end
-		end)
+		setActive(uv0.topicBtn, false)
+
+		if uv0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.TOPIC):GetTopics()[1] then
+			uv0:emit(NewEducateMainMediator.ON_SELECT_TOPIC, slot0[1])
+		end
 	end, SFX_PANEL)
 	slot0:UpdatePaintingUI()
 	slot0:UpdateFavorInfo()
@@ -262,14 +290,16 @@ slot0.ShowDialogue = function(slot0)
 end
 
 slot0.UpdataTopicAndMind = function(slot0)
-	if slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.TOPIC) and slot2:IsFinish() then
+	slot3 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.TOPIC)
+
+	if slot0.contextData.char:GetRoundData():IsTemp() or slot3 and slot3:IsFinish() then
 		setActive(slot0.topicBtn, false)
 	else
 		setActive(slot0.topicBtn, true)
 	end
 
-	if slot0.contextData.char:GetRoundData():getConfig("main_event_chat_node_id") ~= "" and #slot3 > 0 then
-		setActive(slot0.mindBtn, not slot1:GetState(NewEducateFSM.STYSTEM.MIND))
+	if slot2:getConfig("main_event_chat_node_id") ~= "" and #slot4 > 0 and not slot2:IsTemp() then
+		setActive(slot0.mindBtn, not slot1:GetState(NewEducateFSM.SYSTEM.MIND))
 	else
 		setActive(slot0.mindBtn, false)
 	end
@@ -329,38 +359,53 @@ slot0.CheckFavorUpgrade = function(slot0, slot1)
 end
 
 slot0.CheckFSM = function(slot0)
+	if slot0.contextData.char:GetFSM():CheckPriorityStystem() then
+		slot0:emit(uv0.ON_PRIORITY_STATE)
+	else
+		slot0:CheckGameFSM()
+	end
+end
+
+slot0.CheckGameFSM = function(slot0)
 	slot1 = slot0.contextData.char
 	slot1 = slot1:GetFSM()
 	slot2 = slot1:CheckStystem()
 
+	warning("CheckGameFSM", slot1:GetSystemNo() .. "->" .. slot2)
 	slot0:UpdateStateUI(slot2)
 	switch(slot2, {
-		[NewEducateFSM.STYSTEM.EVENT] = function ()
+		[NewEducateFSM.SYSTEM.EVENT] = function ()
 			uv0:EventHandler()
 		end,
-		[NewEducateFSM.STYSTEM.TALENT] = function ()
+		[NewEducateFSM.SYSTEM.TALENT] = function ()
 			uv0:TalentHandler()
 		end,
-		[NewEducateFSM.STYSTEM.TOPIC] = function ()
+		[NewEducateFSM.SYSTEM.TOPIC] = function ()
 			uv0:TopicHandler()
 		end,
-		[NewEducateFSM.STYSTEM.MAP] = function ()
+		[NewEducateFSM.SYSTEM.MAP] = function ()
 			uv0:MapHandler()
 		end,
-		[NewEducateFSM.STYSTEM.PLAN] = function ()
+		[NewEducateFSM.SYSTEM.PLAN] = function ()
 			uv0:PlanHandler()
 		end,
-		[NewEducateFSM.STYSTEM.ASSESS] = function ()
+		[NewEducateFSM.SYSTEM.ASSESS] = function ()
 			uv0:AssessHandler()
 		end,
-		[NewEducateFSM.STYSTEM.PHASE] = function ()
+		[NewEducateFSM.SYSTEM.PHASE] = function ()
 			uv0:StageHandler()
 		end,
-		[NewEducateFSM.STYSTEM.ENDING] = function ()
+		[NewEducateFSM.SYSTEM.ENDING] = function ()
 			uv0:EndingHandler()
 		end,
-		[NewEducateFSM.STYSTEM.MIND] = function ()
+		[NewEducateFSM.SYSTEM.MIND] = function ()
 			uv0:MindHandler()
+		end,
+		[NewEducateFSM.SYSTEM.CHOOSE] = function ()
+			uv0:ChooseHandler()
+		end,
+		[NewEducateFSM.SYSTEM.FAIL] = function ()
+			uv0:FailHandler()
 		end
 	}, function ()
 		assert(false, "不合法FSM状态")
@@ -386,7 +431,7 @@ slot0.OnReset = function(slot0)
 
 	slot1 = slot0.topPanel
 
-	slot1:ExecuteAction("Flush", NewEducateFSM.STYSTEM.INIT)
+	slot1:ExecuteAction("Flush", NewEducateFSM.SYSTEM.INIT)
 	slot0:UpdatePaintingUI()
 	slot0:UpdateUnlockUI()
 	seriesAsync({
@@ -407,9 +452,11 @@ end
 
 slot0.UpdateBtns = function(slot0, slot1)
 	setActive(slot0.endingBtn, false)
-	setActive(slot0.resetBtn, false)
-	setActive(slot0.normalBtns, slot1 ~= NewEducateFSM.STYSTEM.ENDING)
-	setActive(slot0.mapBtn:Find("tip"), slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.MAP) and slot2:IsSpecial())
+	setActive(slot0.resetBtns, false)
+	setActive(slot0.endlessBtn, false)
+	setActive(slot0.resetInEndlessBtn, slot0.contextData.char:GetRoundData():IsEndless())
+	setActive(slot0.normalBtns, slot1 ~= NewEducateFSM.SYSTEM.ENDING and not slot2:IsEndlessFail())
+	setActive(slot0.mapBtn:Find("tip"), slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.MAP) and slot3:IsSpecial())
 end
 
 slot0.AddNewRoundDrops = function(slot0, slot1)
@@ -466,7 +513,7 @@ end
 slot0.TalentHandler = function(slot0)
 	slot1 = slot0.contextData.char
 	slot1 = slot1:GetFSM()
-	slot1 = slot1:GetState(NewEducateFSM.STYSTEM.TALENT)
+	slot1 = slot1:GetState(NewEducateFSM.SYSTEM.TALENT)
 
 	seriesAsync({
 		function (slot0)
@@ -495,12 +542,28 @@ slot0.TalentHandler = function(slot0)
 end
 
 slot0.ReqParallelData = function(slot0)
-	if not slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.MAP) then
-		slot0:emit(NewEducateMainMediator.ON_REQ_MAP)
-	else
-		slot0:UpdataTopicAndMind()
-		NewEducateGuideSequence.CheckGuide(slot0.__cname)
-	end
+	slot1 = slot0.contextData.char
+	slot1 = slot1:GetFSM()
+
+	seriesAsync({
+		function (slot0)
+			if not uv0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.TOPIC) then
+				uv0:emit(NewEducateMainMediator.ON_REQ_TOPICS, slot0)
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
+			if not uv0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.MAP) then
+				uv0:emit(NewEducateMainMediator.ON_REQ_MAP)
+			else
+				slot0()
+			end
+		end
+	}, function ()
+		uv0:UpdataTopicAndMind()
+		NewEducateGuideSequence.CheckGuide(uv0.__cname)
+	end)
 end
 
 slot0.TopicHandler = function(slot0)
@@ -568,6 +631,13 @@ slot0.AssessHandler = function(slot0)
 
 	seriesAsync({
 		function (slot0)
+			if not (uv0.contextData.char:GetFSM():GetSystemNo() == NewEducateFSM.SYSTEM.ASSESS) then
+				uv0:emit(NewEducateMainMediator.ON_ENTER_ASSESS, slot0)
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
 			if uv0 and uv0 ~= "" then
 				NewEducateHelper.PlaySpecialStory(uv0, slot0, true)
 			else
@@ -578,7 +648,8 @@ slot0.AssessHandler = function(slot0)
 			if uv0 ~= 0 then
 				uv1.assessPanel:ExecuteAction("Show", slot0)
 			else
-				uv1:emit(NewEducateMainMediator.ON_SET_ASSESS_RANK, uv0, slot0)
+				uv1.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.ASSESS):MarkFinish()
+				slot0()
 			end
 		end
 	}, function (slot0)
@@ -605,14 +676,25 @@ slot0.EndingHandler = function(slot0)
 		slot0.assessPanel:ExecuteAction("Hide")
 	end
 
-	slot2 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.ENDING) and slot1:IsFinish()
+	slot2 = slot0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.ENDING) and slot1:IsFinish()
 
+	setActive(slot0.resetBtns, slot2)
 	setActive(slot0.resetBtn, slot2)
+	setActive(slot0.endlessBtn, slot2 and slot0.contextData.char:GetRoundData():ExistEndless())
 	setActive(slot0.endingBtn, not slot2)
 
 	if slot2 then
 		if not pg.NewStoryMgr.GetInstance():IsPlayed(slot0.contextData.char:getConfig("special_memory").after_ending) then
 			NewEducateHelper.PlaySpecialStory(slot3, function ()
+				if getProxy(EducateProxy):GetSelectInfo().gameCnt == 1 and CultivatingPlantTools.IsPopActivity(uv0.contextData.char.id) then
+					uv0:emit(uv1.GO_SUBLAYER, Context.New({
+						mediator = CultivatingPlantMediator,
+						viewComponent = CultivatingPlantScene,
+						data = {
+							id = uv0.contextData.char.id
+						}
+					}))
+				end
 			end)
 		end
 	elseif slot0.contextData.char:getConfig("special_memory").pre_ending ~= "" then
@@ -624,7 +706,7 @@ end
 slot0.OnEndingClick = function(slot0)
 	slot1 = slot0.contextData.char
 	slot1 = slot1:GetFSM()
-	slot1 = slot1:GetState(NewEducateFSM.STYSTEM.ENDING)
+	slot1 = slot1:GetState(NewEducateFSM.SYSTEM.ENDING)
 
 	seriesAsync({
 		function (slot0)
@@ -635,7 +717,7 @@ slot0.OnEndingClick = function(slot0)
 			end
 		end
 	}, function ()
-		if #uv0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.ENDING):GetEndings() == 1 then
+		if #uv0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.ENDING):GetEndings() == 1 then
 			uv0:emit(NewEducateMainMediator.ON_SELECT_ENDING, slot1[1])
 		else
 			uv0:emit(uv1.GO_SUBLAYER, Context.New({
@@ -649,6 +731,27 @@ slot0.OnEndingClick = function(slot0)
 			}))
 		end
 	end)
+end
+
+slot0.ChooseHandler = function(slot0)
+	seriesAsync({
+		function (slot0)
+			uv0:emit(NewEducateMainMediator.ON_REQ_CHOOSE, slot0)
+		end
+	}, function ()
+		uv0:SeriesCheck()
+	end)
+end
+
+slot0.FailHandler = function(slot0)
+	if slot0.assessPanel:isShowing() then
+		slot0.assessPanel:ExecuteAction("Hide")
+	end
+
+	setActive(slot0.resetBtns, true)
+	setActive(slot0.resetBtn, true)
+	setActive(slot0.endlessBtn, false)
+	setActive(slot0.resetInEndlessBtn, false)
 end
 
 slot0.OnSelDone = function(slot0, slot1)
@@ -670,6 +773,42 @@ slot0.OnClickResetBtn = function(slot0)
 		end
 	}, function ()
 		uv0:OnReset()
+	end)
+end
+
+slot0.OnClickResetInEndlessBtn = function(slot0)
+	seriesAsync({
+		function (slot0)
+			uv0:emit(uv1.GO_SUBLAYER, Context.New({
+				viewComponent = NewEducateMsgBoxLayer,
+				mediator = NewEducateMsgBoxMediator,
+				data = {
+					type = NewEducateMsgBoxLayer.TYPE.RESET,
+					onYes = slot0
+				}
+			}))
+		end,
+		function (slot0)
+			uv0:emit(NewEducateMainMediator.ON_RESET, slot0)
+		end
+	}, function ()
+		uv0:OnReset()
+	end)
+end
+
+slot0.OnClickEndlessBtn = function(slot0)
+	seriesAsync({
+		function (slot0)
+			uv0:emit(uv1.ON_BOX, {
+				content = i18n("child2_endless_sure_tip"),
+				onYes = slot0
+			})
+		end,
+		function (slot0)
+			uv0:emit(NewEducateMainMediator.ON_START_ENDLESS, slot0)
+		end
+	}, function ()
+		uv0:CheckFSM()
 	end)
 end
 
@@ -700,6 +839,10 @@ slot0.OnStatusUpdate = function(slot0)
 	slot0.infoPanel:ExecuteAction("FlushStatus")
 end
 
+slot0.OnTarotUpdate = function(slot0)
+	slot0.infoPanel:ExecuteAction("FlushTarot")
+end
+
 slot0.UpdateUnlockUI = function(slot0)
 	setActive(slot0.mapBtn:Find("lock"), not slot0.contextData.char:IsUnlock("out"))
 end
@@ -728,7 +871,7 @@ end
 slot0.OnNextNode = function(slot0, slot1)
 	slot0.nodePanel:ExecuteAction("ProceedNode", slot1.node, slot1.drop, slot1.noNextCb)
 
-	if slot0.contextData.char:GetFSM():GetStystemNo() ~= NewEducateFSM.STYSTEM.PLAN then
+	if slot0.contextData.char:GetFSM():GetSystemNo() ~= NewEducateFSM.SYSTEM.PLAN then
 		slot0:UpdatePaintingFace(slot1.node)
 	end
 end

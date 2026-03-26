@@ -15,7 +15,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+		groupDelta = 3
+	})
 
 	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
@@ -33,6 +35,9 @@ slot0.init = function(slot0)
 	slot0._closeBtn = slot0._top:Find("btnBack")
 	slot0._msgPanel = slot0._window:Find("msg_panel")
 	slot0.contentText = slot0._msgPanel:Find("content"):GetComponent("RichText")
+
+	slot0.contentText:AddSprite("gold", slot0._tf:Find("res/gold"):GetComponent(typeof(Image)).sprite)
+
 	slot0._sigleItemPanel = slot0._window:Find("single_item_panel")
 	slot0.singleItemTF = slot0._sigleItemPanel:Find("item")
 	slot0.singleItemOwn = slot0._sigleItemPanel:Find("own")

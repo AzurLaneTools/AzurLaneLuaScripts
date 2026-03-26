@@ -397,9 +397,12 @@ slot0.FlushDetail = function(slot0)
 		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "title_bg_" .. slot2, slot0.titleBg)
 		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "title_icon_" .. slot2, slot0.typeIcon)
 		setText(slot0.nameTF, slot0.showVO:GetName())
-		setActive(slot0.timeTF, slot1 == IslandTaskType.SHOW_ACTIVITY)
 
-		if slot1 == IslandTaskType.SHOW_ACTIVITY then
+		slot3 = slot1 == IslandTaskType.SHOW_ACTIVITY and slot0.showVO.endTime ~= 0
+
+		setActive(slot0.timeTF, slot3)
+
+		if slot3 then
 			setText(slot0.timeTF:Find("Text"), slot0.showVO:GetRemainTimeStr())
 		end
 
@@ -423,32 +426,32 @@ slot0.FlushDetail = function(slot0)
 		end)
 
 		slot0.showTargets = slot0.showVO:GetTargetList()
-		slot3 = not slot0.showVO:IsSubmitImmediately() and slot0.showVO:IsFinish()
+		slot4 = not slot0.showVO:IsSubmitImmediately() and slot0.showVO:IsFinish()
 
 		slot0.targetUIList:align(#slot0.showTargets)
-		setActive(slot0.finishedTargetTF, slot3)
+		setActive(slot0.finishedTargetTF, slot4)
 
-		if slot3 then
+		if slot4 then
 			setText(slot0.finishedTargetTextTF, slot0.showVO:GetFinishedDesc())
 			slot0:UpdateLocation(slot0.finishedTargetLocTF, slot0.showVO)
 		end
 
-		slot4 = slot0.targetBtnUIList
+		slot5 = slot0.targetBtnUIList
 
-		slot4:align(#slot0.showTargets + (slot3 and 1 or 0))
+		slot5:align(#slot0.showTargets + (slot4 and 1 or 0))
 
 		slot0.showAwards = slot0.showVO:GetAwards()
 
 		slot0.awardUIList:align(#slot0.showAwards)
 
-		slot4 = slot0.showVO:GetType() == IslandTaskType.MAIN
-		slot5 = slot4 and IslandTaskTrackCard.TYPES.MAIN or IslandTaskTrackCard.TYPES.OTHER
+		slot5 = slot0.showVO:GetType() == IslandTaskType.MAIN
+		slot6 = slot5 and IslandTaskTrackCard.TYPES.MAIN or IslandTaskTrackCard.TYPES.OTHER
 
-		setActive(slot0.traceBtn, not slot4 and slot0.showVO.id ~= slot0.trackTaskId)
+		setActive(slot0.traceBtn, not slot5 and slot0.showVO.id ~= slot0.trackTaskId)
 		onButton(slot0, slot0.traceBtn, function ()
 			uv0:emit(IslandMediator.ON_SET_TRACE_ID, uv0.showVO.id, uv1)
 		end, SFX_PANEL)
-		setActive(slot0.tracedBtn, slot4 or slot0.showVO.id == slot0.trackTaskId)
+		setActive(slot0.tracedBtn, slot5 or slot0.showVO.id == slot0.trackTaskId)
 		onButton(slot0, slot0.tracedBtn, function ()
 			if uv0 then
 				return

@@ -1,321 +1,341 @@
 return {
 	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
 			},
-			arg_list = {
-				tag = "NeverRetreat"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 500,
+					attr = "attackRating"
+				}
 			},
-			arg_list = {
-				number = 500,
-				attr = "attackRating"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152157
-			}
-		}
-	},
-	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
-			},
-			arg_list = {
-				tag = "NeverRetreat"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
-			},
-			arg_list = {
-				number = 610,
-				attr = "attackRating"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152157
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
 			},
-			arg_list = {
-				tag = "NeverRetreat"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 610,
+					attr = "attackRating"
+				}
 			},
-			arg_list = {
-				number = 720,
-				attr = "attackRating"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152157
-			}
-		}
-	},
-	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
-			},
-			arg_list = {
-				tag = "NeverRetreat"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
-			},
-			arg_list = {
-				number = 830,
-				attr = "attackRating"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152157
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
 			},
-			arg_list = {
-				tag = "NeverRetreat"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 720,
+					attr = "attackRating"
+				}
 			},
-			arg_list = {
-				number = 940,
-				attr = "attackRating"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152157
-			}
-		}
-	},
-	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
-			},
-			arg_list = {
-				tag = "NeverRetreat"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
-			},
-			arg_list = {
-				number = 1050,
-				attr = "attackRating"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152157
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
 			},
-			arg_list = {
-				tag = "NeverRetreat"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 830,
+					attr = "attackRating"
+				}
 			},
-			arg_list = {
-				number = 1160,
-				attr = "attackRating"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152157
-			}
-		}
-	},
-	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
-			},
-			arg_list = {
-				tag = "NeverRetreat"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
-			},
-			arg_list = {
-				number = 1270,
-				attr = "attackRating"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152157
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
 			},
-			arg_list = {
-				tag = "NeverRetreat"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 940,
+					attr = "attackRating"
+				}
 			},
-			arg_list = {
-				number = 1380,
-				attr = "attackRating"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152157
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddTag",
-			trigger = {
-				"onAttach",
-				"onRemove"
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
 			},
-			arg_list = {
-				tag = "NeverRetreat"
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1050,
+					attr = "attackRating"
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
 			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach",
-				"onRemove"
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
 			},
-			arg_list = {
-				number = 1500,
-				attr = "attackRating"
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1160,
+					attr = "attackRating"
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
 			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
 			},
-			arg_list = {
-				buff_id = 152157
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1270,
+					attr = "attackRating"
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1380,
+					attr = "attackRating"
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "NeverRetreat"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1500,
+					attr = "attackRating"
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 152157
+				}
 			}
 		}
 	},

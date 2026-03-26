@@ -7,7 +7,7 @@ slot0.execute = function(slot0, slot1)
 		type = 0
 	}, 27011, function (slot0)
 		if slot0.endings then
-			getProxy(EducateProxy):SetEndings(slot0.endings)
+			getProxy(EducateProxy):SetEndings(slot0.endings, slot0.qualifieds)
 			uv0:sendNotification(GAME.EDUCATE_GET_ENDINGS_DONE)
 
 			if uv1 then

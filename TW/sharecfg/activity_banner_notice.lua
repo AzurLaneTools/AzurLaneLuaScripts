@@ -257,6 +257,16 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 32,
+		param = {
+			"scene activity",
+			{
+				event = "ActivityMediator.OPEN_CULTIVATING_PLANT",
+				data = {}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -288,6 +298,7 @@ pg.activity_banner_notice = {
 		28,
 		29,
 		30,
-		31
+		31,
+		32
 	}
 }

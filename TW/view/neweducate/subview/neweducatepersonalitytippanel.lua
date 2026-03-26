@@ -17,6 +17,20 @@ slot0.OnInit = function(slot0)
 			slot0.resTF
 		}
 	})
+
+	slot1 = slot0.contextData.char
+	slot1 = slot1:getConfig("personality_tag_icon")
+	slot5 = slot0.personalityTF
+
+	LoadImageSpriteAsync("neweducateicon/" .. underscore.detect(slot1, function (slot0)
+		return slot0[1] == "tag1"
+	end)[2], slot5:Find("tag1"), true)
+
+	slot6 = slot0.personalityTF
+
+	LoadImageSpriteAsync("neweducateicon/" .. underscore.detect(slot1, function (slot0)
+		return slot0[1] == "tag2"
+	end)[2], slot6:Find("tag2"), true)
 end
 
 slot0.FlushPersonality = function(slot0, slot1, slot2)
@@ -26,13 +40,13 @@ slot0.FlushPersonality = function(slot0, slot1, slot2)
 
 	seriesAsync({
 		function (slot0)
-			setText(uv1:Find("Text"), (uv0 > 0 and i18n("child2_personal_tag2") or i18n("child2_personal_tag1")) .. "+" .. math.abs(uv0))
-			setActive(uv1, true)
-			uv2.animEvent:SetEndEvent(function ()
+			setText(uv2:Find("Text"), (uv0 > 0 and uv1.contextData.char:GetPersonalityTagTip(2) or uv1.contextData.char:GetPersonalityTagTip(1)) .. "+" .. math.abs(uv0))
+			setActive(uv2, true)
+			uv1.animEvent:SetEndEvent(function ()
 				uv0.animEvent:SetEndEvent(nil)
 				uv1()
 			end)
-			uv2.animCom:Play("Anim_educate_personality_show")
+			uv1.animCom:Play("Anim_educate_personality_show")
 		end,
 		function (slot0)
 			if uv0.contextData.char:GetPersonalityTag() ~= uv1 then

@@ -81,7 +81,7 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "theme-china-zhangwu",
+		default_bgm = "main",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -139,6 +139,11 @@ pg.voice_bgm = {
 		default_bgm = "story-china-0226-pv",
 		special_bgm = "",
 		bgm = "story-china-0226-pv"
+	},
+	ActivityShop50464 = {
+		default_bgm = "theme-merkuriameta",
+		special_bgm = "",
+		bgm = "theme-merkuriameta"
 	},
 	ActivityShop50287 = {
 		default_bgm = "theme-weimu",
@@ -1801,9 +1806,9 @@ pg.voice_bgm = {
 		bgm = "bar-soft"
 	},
 	NavalAcademyScene = {
-		default_bgm = "theme-china-zhangwu",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "theme-china-zhangwu"
+		bgm = "main"
 	},
 	HuaShangQiaoPage = {
 		default_bgm = "theme-china-jianwu",
@@ -2534,5 +2539,40 @@ pg.voice_bgm = {
 		default_bgm = "story-kezhan-china",
 		special_bgm = "",
 		bgm = "story-kezhan-china"
+	},
+	XiaoDaDiPtRePage = {
+		default_bgm = "login-orchestral-ver",
+		special_bgm = "",
+		bgm = "login-orchestral-ver"
+	},
+	MaoxiV5MainPage = {
+		default_bgm = "theme-antarctica",
+		special_bgm = "",
+		bgm = "theme-antarctica"
+	},
+	MaoxiV5PtPage = {
+		default_bgm = "story-antarctica-serious",
+		special_bgm = "",
+		bgm = "story-antarctica-serious"
+	},
+	MaoxiV5LoginPage = {
+		default_bgm = "theme-merkuriameta",
+		special_bgm = "",
+		bgm = "theme-merkuriameta"
+	},
+	MaoxiV5TaskPage = {
+		default_bgm = "story-richang-sooth",
+		special_bgm = "",
+		bgm = "story-richang-sooth"
+	},
+	MaoxiV5FramePage = {
+		default_bgm = "battle-eagleunion",
+		special_bgm = "",
+		bgm = "battle-eagleunion"
+	},
+	SleeplessCityRePage = {
+		default_bgm = "story-nonightcity",
+		special_bgm = "",
+		bgm = "story-nonightcity"
 	}
 }
