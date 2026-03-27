@@ -125,7 +125,7 @@ slot0.SetSpecailBg = function(slot0, slot1)
 	slot3:LoadBg(slot0, slot1, slot0._tf.parent, slot0._tf, function (slot0)
 		uv0:SetCommonBg(uv1)
 		setActive(uv0._tf, true)
-		tf(slot0):SetAsFirstSibling()
+		tf(slot0):SetAsLastSibling()
 
 		uv0.isloading = false
 		slot0.transform.localPosition = Vector3(0, 0, 200)
