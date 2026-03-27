@@ -25856,7 +25856,7 @@ pg.activity_ins_template = {
 	},
 	[634] = {
 		ship_group = 30717,
-		name = "Unryū",
+		name = "Unryuu ",
 		type = 1,
 		picture_persist = "",
 		title = "",

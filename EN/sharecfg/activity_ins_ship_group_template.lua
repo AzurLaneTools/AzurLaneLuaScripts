@@ -5807,7 +5807,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[30717] = {
 		ship_group = 30717,
-		name = "Unryū",
+		name = "Unryuu",
 		background = "",
 		sculpture = "yunlong",
 		nationality = 3,
