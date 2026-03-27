@@ -50769,7 +50769,7 @@ pg.activity_template = {
 					0.85
 				}
 			},
-			833
+			870
 		}
 	},
 	[21014] = {
@@ -51139,10 +51139,10 @@ pg.activity_template = {
 			item_id = 65555,
 			sub_act_id = 21017,
 			gift_tip = {
-				[9005] = {
+				[9006] = {
 					""
 				},
-				[9006] = {
+				[9005] = {
 					"winter_luckybag_9006",
 					81229
 				}

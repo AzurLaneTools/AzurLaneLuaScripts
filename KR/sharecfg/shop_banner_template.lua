@@ -295,7 +295,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9005
+			9006
 		}
 	},
 	[25] = {
@@ -339,7 +339,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9006
+			9005
 		}
 	},
 	[30] = {
