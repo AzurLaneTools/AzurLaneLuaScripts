@@ -108952,9 +108952,9 @@ _G.pg.base.item_data_statistics[81227] = {
 
 _G.pg.base.item_data_statistics[81228] = {
 	open_directly = 1,
-	name = "봄날 할인 패키지(2026)",
+	name = "프리미엄 봄날 할인 패키지(2026)",
 	type = 17,
-	display = "구매하면 다음 중 랜덤으로 L2D 스킨×1, 다이아×2025, 성정 유닛×50, 성정 큐브×35, 상급 지향형 강화 유닛·8기×2, 고속건조재×12, 가구 코인×100",
+	display = "구매하면 다음 중 랜덤으로 L2D 스킨×1, 다이아×2025, 성정 유닛×50, 성정 큐브×35, 고급 지향형 강화 유닛·제8기×2, 고속건조재×12, 가구 코인×100",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -109019,7 +109019,7 @@ _G.pg.base.item_data_statistics[81228] = {
 
 _G.pg.base.item_data_statistics[81229] = {
 	open_directly = 1,
-	name = "프리미엄 봄날 할인 패키지(2026)",
+	name = "봄날 할인 패키지(2026)",
 	type = 17,
 	display = "구매하면 다음 중 랜덤으로 소지하고 있지 않은 L2D 스킨×1(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아×1080개로 변환), 자금×2000, 연료×1000, 성정 유닛×20",
 	other_resource_cost = "[]",

@@ -11687,11 +11687,11 @@ pg.base.pay_data_display = {
 	},
 	[9005] = {
 		picture = "fudai_L2d_new",
-		name = "프리미엄 봄날 할인 패키지(2026)",
+		name = "봄날 할인 패키지(2026)",
 		type = 1,
 		second_text = "대량의 보상",
 		descrip = "다음 L2D 스킨 중에서 소지하고 있지 않은 스킨을 무작위로 1개(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아로 변환), 그리고 기타 아이템을 획득할 수 있습니다.",
-		subject = "프리미엄 봄날 할인 패키지(2026)",
+		subject = "봄날 할인 패키지(2026)",
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
@@ -11709,10 +11709,9 @@ pg.base.pay_data_display = {
 		extra_gem = 0,
 		id = 9005,
 		airijp_id = "com.bilibili.blhx.zuanshi204",
-		name_display = "프리미엄 봄날 할인 패키지(2026)",
+		name_display = "봄날 할인 패키지(2026)",
 		first_text = "랜덤 스킨",
 		akashi_pick = 1,
-		time = "stop",
 		skin_inquire_relation = 86221,
 		extra_service = 3,
 		show_group = "",
@@ -11737,6 +11736,32 @@ pg.base.pay_data_display = {
 				2,
 				15008,
 				20
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -11776,11 +11801,11 @@ pg.base.pay_data_display = {
 	},
 	[9006] = {
 		picture = "fudai99",
-		name = "봄날 할인 패키지(2026)",
+		name = "프리미엄 봄날 할인 패키지(2026)",
 		type = 1,
 		second_text = "대량의 보상",
 		descrip = "함선 스킨 1개, 「다이아」×2025 등의 아이템을 획득할 수 있습니다.",
-		subject = "봄날 할인 패키지(2026)",
+		subject = "프리미엄 봄날 할인 패키지(2026)",
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
@@ -11798,10 +11823,9 @@ pg.base.pay_data_display = {
 		extra_gem = 0,
 		id = 9006,
 		airijp_id = "com.bilibili.blhx.zuanshi205",
-		name_display = "봄날 할인 패키지(2026)",
+		name_display = "프리미엄 봄날 할인 패키지(2026)",
 		first_text = "랜덤 스킨",
 		akashi_pick = 1,
-		time = "stop",
 		skin_inquire_relation = 86220,
 		extra_service = 3,
 		show_group = "",
@@ -11841,6 +11865,32 @@ pg.base.pay_data_display = {
 				1,
 				6,
 				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
