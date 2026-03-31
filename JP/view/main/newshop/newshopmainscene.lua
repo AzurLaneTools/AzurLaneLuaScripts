@@ -142,6 +142,28 @@ slot0.init = function(slot0)
 	slot0:jpUIInit()
 	slot0:blurView()
 	slot0:initSubView()
+
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, slot0.pageContainer, Vector2.New(-35, -90))
+
+	if slot0.bulinTip then
+		slot2 = slot0.bulinTip
+
+		slot2:RegisterView(slot0)
+
+		slot2 = slot0.bulinTip
+
+		slot2:CallbackInvoke(function ()
+			uv0:OverlayPanel(uv0.bulinTip._tf, {
+				groupDelta = 1
+			})
+		end)
+
+		slot0.bulinTip.destroyCall = function()
+			if uv0.bulinTip:GetLoaded() then
+				uv0:UnOverlayPanel(uv0.bulinTip._tf)
+			end
+		end
+	end
 end
 
 slot0.setPlayer = function(slot0, slot1)
@@ -578,6 +600,12 @@ slot0.ShowResourceBar = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
+	if slot0.bulinTip then
+		slot0.bulinTip:Destroy()
+
+		slot0.bulinTip = nil
+	end
+
 	pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot0.specialTip)
 	pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot0.giftTip)
 
@@ -618,6 +646,7 @@ slot0.willExit = function(slot0)
 	slot0.contextData.multiWindow = nil
 	slot0.contextData.singleWindowForESkin = nil
 	slot0.contextData.paintingView = nil
+	slot0.bulinTip = nil
 
 	for slot4, slot5 in pairs(slot0.subViewList) do
 		slot5:Destroy()

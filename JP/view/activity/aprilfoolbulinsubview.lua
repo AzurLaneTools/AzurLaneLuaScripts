@@ -84,4 +84,10 @@ slot0.ShowAprilFoolBulin = function(slot0, slot1, slot2)
 	return slot8
 end
 
+slot0.OnDestroy = function(slot0)
+	existCall(slot0.destroyCall)
+
+	slot0.destroyCall = nil
+end
+
 return slot0
