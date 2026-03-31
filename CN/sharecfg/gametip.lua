@@ -36671,58 +36671,68 @@ cs.gametip = {
 		172,
 		true
 	},
-	battlepass_main_tip_2604 = {
+	aprilfool_2026_cd = {
 		1262383,
+		93,
+		true
+	},
+	purplebulin_help_2026 = {
+		1262476,
+		418,
+		true
+	},
+	battlepass_main_tip_2604 = {
+		1262894,
 		246,
 		true
 	},
 	battlepass_main_help_2604 = {
-		1262629,
+		1263140,
 		2917,
 		true
 	},
 	cruise_task_help_2604 = {
-		1265546,
+		1266057,
 		1215,
 		true
 	},
 	cruise_title_2604 = {
-		1266761,
+		1267272,
 		110,
 		true
 	},
 	add_friend_fail_tip9 = {
-		1266871,
+		1267382,
 		139,
 		true
 	},
 	juusoa_title = {
-		1267010,
+		1267521,
 		94,
 		true
 	},
 	story_recrewed = {
-		1267104,
+		1267615,
 		87,
 		true
 	},
 	story_not_recrew = {
-		1267191,
+		1267702,
 		89,
 		true
 	},
 	multiple_endings_tip = {
-		1267280,
+		1267791,
 		499,
 		true
 	},
 	l2d_tip_on = {
-		1267779,
+		1268290,
 		101,
 		true
 	},
 	l2d_tip_off = {
-		1267880,
+		1268391,
 		102,
 		true
 	}
