@@ -341,27 +341,27 @@ pg.activity_link_button = {
 	[109] = {
 		param = "MoscowURCoreActivityUI",
 		name = "event_core",
+		time = "stop",
 		text_pic = "text_event_core",
 		type = 16,
 		pic = "event_core",
 		id = 109,
 		group_id = 1,
+		order = 1
+	},
+	[110] = {
+		param = "AprilFoolDiscovery2026UI",
+		name = "event_core_2",
+		text_pic = "text_event_core3",
+		type = 16,
+		pic = "event_core3",
+		id = 110,
+		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			50429
+			50493
 		}
-	},
-	[110] = {
-		param = "SpringFestival2026CoreActivityUI",
-		name = "event_core_2",
-		time = "stop",
-		text_pic = "text_event_core2",
-		type = 16,
-		pic = "event_core2",
-		id = 110,
-		group_id = 2,
-		order = 2
 	},
 	[111] = {
 		param = "ALYCoreActivityUI",
@@ -393,13 +393,13 @@ pg.activity_link_button = {
 	},
 	[113] = {
 		param = "EighthAnniversaryJpCoreActivityUI",
-		name = "event_core_2",
+		name = "event_core",
 		text_pic = "text_event_special",
 		type = 16,
 		pic = "event_special",
 		id = 113,
-		group_id = 1,
-		order = 1,
+		group_id = 2,
+		order = 2,
 		time = {
 			"default",
 			21011
@@ -488,11 +488,11 @@ pg.activity_link_button = {
 		},
 		event_core = {
 			109,
+			113,
 			114
 		},
 		event_core_2 = {
-			110,
-			113
+			110
 		},
 		event_map_2 = {
 			111

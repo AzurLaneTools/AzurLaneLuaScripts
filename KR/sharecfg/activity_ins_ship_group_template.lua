@@ -41,7 +41,7 @@ pg.activity_ins_ship_group_template = {
 		name = "ShiningS",
 		background = "",
 		sculpture = "xiefeierde_6",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -104,7 +104,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Belfast_inService",
 		background = "",
 		sculpture = "beierfasite",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -176,7 +176,7 @@ pg.activity_ins_ship_group_template = {
 		name = "BarrowYoko",
 		background = "",
 		sculpture = "jingang_idol",
-		nationality = 0,
+		nationality = 3,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -518,7 +518,7 @@ pg.activity_ins_ship_group_template = {
 		name = "CarVesGAL6",
 		background = "",
 		sculpture = "dahuangfeng",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -581,7 +581,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Yi Xian",
 		background = "",
 		sculpture = "yixian_2",
-		nationality = 0,
+		nationality = 5,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -698,7 +698,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Zerstörer.23",
 		background = "",
 		sculpture = "z23",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -770,7 +770,7 @@ pg.activity_ins_ship_group_template = {
 		name = "VivaLaze",
 		background = "",
 		sculpture = "edu",
-		nationality = 0,
+		nationality = 9,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -1049,7 +1049,7 @@ pg.activity_ins_ship_group_template = {
 		name = "QueenEliz",
 		background = "",
 		sculpture = "yilishabai",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -1175,7 +1175,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Dido_Doll",
 		background = "",
 		sculpture = "daiduo",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -1184,7 +1184,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Warspite",
 		background = "",
 		sculpture = "yanzhan_3",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -1778,7 +1778,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Sweet.Concord",
 		background = "",
 		sculpture = "kangkede_3",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -2147,7 +2147,7 @@ pg.activity_ins_ship_group_template = {
 		name = "CaitSith",
 		background = "",
 		sculpture = "chaijun_5",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -2237,7 +2237,7 @@ pg.activity_ins_ship_group_template = {
 		name = "cнежок",
 		background = "",
 		sculpture = "shensu",
-		nationality = 0,
+		nationality = 7,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -2813,7 +2813,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Elbe",
 		background = "",
 		sculpture = "yibei",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -3029,7 +3029,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Mighty_Hood",
 		background = "",
 		sculpture = "hude_2",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -3128,7 +3128,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Juno",
 		background = "",
 		sculpture = "tianhou",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -3587,7 +3587,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Hua Jia",
 		background = "",
 		sculpture = "huajia_g",
-		nationality = 0,
+		nationality = 5,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -3605,7 +3605,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Plymouth",
 		background = "",
 		sculpture = "pulimaosi",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -3641,7 +3641,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Implacable",
 		background = "",
 		sculpture = "yuanchou",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -3659,7 +3659,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Hero",
 		background = "",
 		sculpture = "yingxiong",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -3704,7 +3704,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Hardy",
 		background = "",
 		sculpture = "yonggan",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -4334,7 +4334,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Nubian",
 		background = "",
 		sculpture = "nubiyaren",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -4343,7 +4343,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Liverpool",
 		background = "",
 		sculpture = "liwupu",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -4757,6 +4757,15 @@ pg.activity_ins_ship_group_template = {
 		name = "공용 채팅방",
 		background = "200",
 		sculpture = "200",
+		nationality = 12,
+		type = 2,
+		sculpture_ii = ""
+	},
+	[201] = {
+		ship_group = 201,
+		name = "애프터눈 티 보너스",
+		background = "200",
+		sculpture = "201",
 		nationality = 12,
 		type = 2,
 		sculpture_ii = ""
@@ -5805,6 +5814,24 @@ pg.activity_ins_ship_group_template = {
 		type = 1,
 		sculpture_ii = ""
 	},
+	[20504] = {
+		ship_group = 20504,
+		name = "Rodney",
+		background = "",
+		sculpture = "luodeni",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[30806] = {
+		ship_group = 30806,
+		name = "I168",
+		background = "",
+		sculpture = "I168",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
 	[30125] = {
 		ship_group = 30125,
 		name = "Ariake",
@@ -6344,6 +6371,7 @@ pg.activity_ins_ship_group_template = {
 		109,
 		110,
 		200,
+		201,
 		960007,
 		960008,
 		960009,
@@ -6460,6 +6488,8 @@ pg.activity_ins_ship_group_template = {
 		70209,
 		70210,
 		10704,
+		20504,
+		30806,
 		30125
 	}
 }

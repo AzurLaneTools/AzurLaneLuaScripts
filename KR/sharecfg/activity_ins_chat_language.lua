@@ -8666,7 +8666,66 @@ pg.activity_ins_chat_language = setmetatable({
 		8663,
 		8664,
 		8665,
-		8666
+		8666,
+		8889,
+		8890,
+		8891,
+		8892,
+		8893,
+		8894,
+		8895,
+		8896,
+		8897,
+		8898,
+		8899,
+		8900,
+		8901,
+		8902,
+		8903,
+		8904,
+		8905,
+		8906,
+		8907,
+		8908,
+		8909,
+		8910,
+		8911,
+		8912,
+		8913,
+		8914,
+		8915,
+		8916,
+		8917,
+		8918,
+		8919,
+		8920,
+		8921,
+		8922,
+		8923,
+		8924,
+		8925,
+		8926,
+		8927,
+		8928,
+		8929,
+		8930,
+		8931,
+		8932,
+		8933,
+		8934,
+		8935,
+		8936,
+		8937,
+		8938,
+		8939,
+		8940,
+		8941,
+		8942,
+		8943,
+		8944,
+		8945,
+		8946,
+		8947
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -85387,5 +85446,487 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 8666,
 		flag = 4
+	},
+	[8889] = {
+		param = "애프터눈 티타임 채팅방을 만들었어! 참가 희망을 보낸 아이들도 전부 초대 완료했지",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8889,
+		flag = 0
+	},
+	[8890] = {
+		param = "야호! 애프터눈 티다!",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 8890,
+		flag = 0
+	},
+	[8891] = {
+		param = "301",
+		ship_group = 20122,
+		option = "",
+		type = 4,
+		id = 8891,
+		flag = 0
+	},
+	[8892] = {
+		param = "301",
+		ship_group = 70106,
+		type = 4,
+		id = 8892,
+		flag = 0,
+		option = {
+			{
+				1,
+				"애프터눈 티타임 채팅방?"
+			}
+		}
+	},
+	[8893] = {
+		param = "애프터눈 티타임 채팅방? 로열 채널에도 비슷한 게 있었던 것 같은데……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8893,
+		flag = 1
+	},
+	[8894] = {
+		param = "그거랑은 전혀 다르다고. 이건 이거대로 필요한 거야!",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8894,
+		flag = 1
+	},
+	[8895] = {
+		param = "그래서 오늘의 차 말인데, 티백이야!",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8895,
+		flag = 1
+	},
+	[8896] = {
+		param = "애프터눈 티라는 소양을 널리 알리기 위해, 약간의 어레인지를 더해봤어",
+		ship_group = 20502,
+		option = "",
+		type = 1,
+		id = 8896,
+		flag = 1
+	},
+	[8897] = {
+		param = "미리 이쪽에서 차를 준비해두고, 각자 셀프 서비스로 마시는 형태지. 편안하고 캐주얼한 스타일을 목표로 하고 싶어",
+		ship_group = 20502,
+		option = "",
+		type = 1,
+		id = 8897,
+		flag = 1
+	},
+	[8898] = {
+		param = "티백이긴 합니다만, 정성을 다해 배합한 것이랍니다. 맛은 보장해 드리지요",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 8898,
+		flag = 1
+	},
+	[8899] = {
+		param = "오늘은 로열뿐만 아니라, 다른 진영 분들도 참가하고 계십니다",
+		ship_group = 20212,
+		option = "",
+		type = 1,
+		id = 8899,
+		flag = 1
+	},
+	[8900] = {
+		param = "이스트 글림의 차와는 다른 풍미를 맛보는 것이 기대되네요",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 8900,
+		flag = 1
+	},
+	[8901] = {
+		param = "휴식 시간이 늘어나서 최고",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 8901,
+		flag = 1
+	},
+	[8902] = {
+		param = "이런 이색적인 찻자리는 확실히 기분 전환이 되네요",
+		ship_group = 20504,
+		option = "",
+		type = 1,
+		id = 8902,
+		flag = 1
+	},
+	[8903] = {
+		param = "하고 싶은 말이 있으면 자유롭게 해줘. 감상이든 요청이든 뭐든지 좋으니까!",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8903,
+		flag = 1
+	},
+	[8904] = {
+		param = "홍차 준비가 끝났습니다. 탕비실에 두었으니, 자유롭게 가져가시기 바랍니다",
+		ship_group = 20208,
+		option = "",
+		type = 1,
+		id = 8904,
+		flag = 1
+	},
+	[8905] = {
+		param = "빨리 와! 벌써 모두의 몫을 준비해뒀어~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8905,
+		flag = 1
+	},
+	[8906] = {
+		param = "히어로, 오늘따라 유난히 적극적이네? 무슨 바람이 분 거야?",
+		ship_group = 20116,
+		option = "",
+		type = 1,
+		id = 8906,
+		flag = 1
+	},
+	[8907] = {
+		param = "에에~, 난 언제나 이렇다구~?",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8907,
+		flag = 1
+	},
+	[8908] = {
+		param = "왠지 어디선가 본 적 있는 모습이네요. 나쁜 짓을 저질렀을 때의 우리 푸보랑 똑같아요",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 8908,
+		flag = 1
+	},
+	[8909] = {
+		param = "그런 세세한 건 신경 쓰지 말고, 차를 즐기자구?",
+		ship_group = 20136,
+		type = 1,
+		id = 8909,
+		flag = 1,
+		option = {
+			{
+				2,
+				"수고했어"
+			}
+		}
+	},
+	[8910] = {
+		param = "수고했어. 히어로도 한잔 마시면서 좀 쉬지 그래?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8910,
+		flag = 2
+	},
+	[8911] = {
+		param = "그렇게 말해줄 줄 알고 벌써 마셨지~. 맛있었어~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8911,
+		flag = 2
+	},
+	[8912] = {
+		param = "그럼 더 마시고 가~",
+		ship_group = 20234,
+		option = "",
+		type = 1,
+		id = 8912,
+		flag = 2
+	},
+	[8913] = {
+		param = "벌써 꽤 마셔서 사양할게",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8913,
+		flag = 2
+	},
+	[8914] = {
+		param = "그건 지휘관이랑 모두가, 느~긋하게 즐겨줬으면 해",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8914,
+		flag = 2
+	},
+	[8915] = {
+		param = "뭔가 수상하네요. 잘 생각해보면 오늘은……",
+		ship_group = 20116,
+		option = "",
+		type = 1,
+		id = 8915,
+		flag = 2
+	},
+	[8916] = {
+		param = "밀러는 알아! 만우절이야! 나쁜 아이는 모두 이날 장난을 친다구!",
+		ship_group = 10153,
+		option = "",
+		type = 1,
+		id = 8916,
+		flag = 2
+	},
+	[8917] = {
+		param = "방금 히어로 씨가 병 같은 걸 잔뜩 들고 주방으로 들어가는 걸 봤어요",
+		ship_group = 20204,
+		option = "",
+		type = 1,
+		id = 8917,
+		flag = 2
+	},
+	[8918] = {
+		param = "히어로, 홍차에 뭔가 '조미료'를 넣지 않았나요?",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 8918,
+		flag = 2
+	},
+	[8919] = {
+		param = "난 연유랑 초코 우유랑 딸기 시럽을 듬뿍 넣었을 뿐이지, 이상한 건 아무것도 안 넣었다니까~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8919,
+		flag = 2
+	},
+	[8920] = {
+		param = "66",
+		ship_group = 20136,
+		option = "",
+		type = 4,
+		id = 8920,
+		flag = 2
+	},
+	[8921] = {
+		param = "맛있겠다! 어떤 맛인지 궁금해—!",
+		ship_group = 30132,
+		option = "",
+		type = 1,
+		id = 8921,
+		flag = 2
+	},
+	[8922] = {
+		param = "당분이 듬뿍 든 홍차? 나도 마셔보고 싶어!",
+		ship_group = 10218,
+		option = "",
+		type = 1,
+		id = 8922,
+		flag = 2
+	},
+	[8923] = {
+		param = "너무 많이 마시지 않도록 주의합시다. 단것을 너무 섭취하는 건 치아에 나쁘니까요",
+		ship_group = 29905,
+		option = "",
+		type = 1,
+		id = 8923,
+		flag = 2
+	},
+	[8924] = {
+		param = "그럼 여러분, 우선은 히어로 특제 홍차를 드셔 보세요. 바로 새 차를 우려 오겠습니다",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 8924,
+		flag = 2
+	},
+	[8925] = {
+		param = "괜찮아 괜찮아! 처음부터 누군가 장난을 칠 거라고 짐작하고 있었거든!",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8925,
+		flag = 2
+	},
+	[8926] = {
+		param = "그래서 모두가 가지러 오기 전에, 주방에 있던 예비 홍차랑 바꿔치기해뒀어!",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8926,
+		flag = 2
+	},
+	[8927] = {
+		param = "차에는 아무 문제 없으니까, 안심하고 마셔!",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8927,
+		flag = 2
+	},
+	[8928] = {
+		param = "어머, 누비안은 정말 믿음직스럽구나!",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 8928,
+		flag = 2
+	},
+	[8929] = {
+		param = "체셔도 받아갈게!",
+		ship_group = 29903,
+		option = "",
+		type = 1,
+		id = 8929,
+		flag = 2
+	},
+	[8930] = {
+		param = "58",
+		ship_group = 90401,
+		option = "",
+		type = 4,
+		id = 8930,
+		flag = 2
+	},
+	[8931] = {
+		param = "이상하네. 예비 홍차 같은 걸 준비해뒀던가?",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 8931,
+		flag = 2
+	},
+	[8932] = {
+		param = "준비는 해뒀습니다만……",
+		ship_group = 30401,
+		option = "",
+		type = 1,
+		id = 8932,
+		flag = 2
+	},
+	[8933] = {
+		param = "도와주러 왔을 때, 깜빡하고 전부 마셔버렸답니다",
+		ship_group = 30401,
+		option = "",
+		type = 1,
+		id = 8933,
+		flag = 2
+	},
+	[8934] = {
+		param = "에? 하지만 주방에는 티포트가 두 개 있었는데?",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8934,
+		flag = 2
+	},
+	[8935] = {
+		param = "혹시 내 연습용 티포트 못 봤니?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 8935,
+		flag = 2
+	},
+	[8936] = {
+		param = "새로 개량한 레시피로 우려서, 방금 주방에 뒀을 텐데…",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 8936,
+		flag = 2
+	},
+	[8937] = {
+		param = "217",
+		ship_group = 50602,
+		option = "",
+		type = 4,
+		id = 8937,
+		flag = 2
+	},
+	[8938] = {
+		param = "217",
+		ship_group = 40123,
+		option = "",
+		type = 4,
+		id = 8938,
+		flag = 2
+	},
+	[8939] = {
+		param = "217",
+		ship_group = 29903,
+		option = "",
+		type = 4,
+		id = 8939,
+		flag = 2
+	},
+	[8940] = {
+		param = "에에!?",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8940,
+		flag = 2
+	},
+	[8941] = {
+		param = "뜻밖의 사고네?! 장난보다 훨씬 재밌잖아♪",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8941,
+		flag = 2
+	},
+	[8942] = {
+		param = "이렇게 된 이상, 해피 만우절인 셈 칠까?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 8942,
+		flag = 2
+	},
+	[8943] = {
+		param = "그럼 모두, 해피 만우절",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8943,
+		flag = 2
+	},
+	[8944] = {
+		param = "나쁘지 않은 하루네요♪",
+		ship_group = 40602,
+		option = "",
+		type = 1,
+		id = 8944,
+		flag = 2
+	},
+	[8945] = {
+		param = "푸보, 모두가 방심한 틈을 타서 우리도 장난을 치자!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8945,
+		flag = 2
+	},
+	[8946] = {
+		param = "정말! 채널 잘못 들어왔어!",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 8946,
+		flag = 2
+	},
+	[8947] = {
+		param = "다음번에는 그냥 직접 만나서 티타임을 갖는 게 낫겠어…",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8947,
+		flag = 2
 	}
 }

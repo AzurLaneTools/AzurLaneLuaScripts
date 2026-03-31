@@ -2805,6 +2805,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-kezhan-china"
 	},
+	AprilFoolDiscovery2026Page = {
+		default_bgm = "story-dazy-style",
+		special_bgm = "",
+		bgm = "story-dazy-style"
+	},
 	MaoxiV5MainPage = {
 		default_bgm = "theme-antarctica",
 		special_bgm = "",

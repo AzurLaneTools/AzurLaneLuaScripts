@@ -44594,6 +44594,11 @@ _G.pg.base.gametip.activity_ninjia_main_sheet4 = {
 }
 
 
+_G.pg.base.gametip.activity_ninjia_main_sheet5 = {
+	tip = "여관 보급지"
+}
+
+
 _G.pg.base.gametip.activity_return_reward_pt = {
 	tip = "동원지령 Pt:"
 }
@@ -46726,116 +46731,6 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_title = {
-	tip = "경영 임무"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_go = {
-	tip = "확인"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_get = {
-	tip = "수령"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_got = {
-	tip = "수령 완료"
-}
-
-
-_G.pg.base.gametip.LiquorFloor_gold_get = {
-	tip = "일괄 획득 "
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
-	tip = "봄빛 여관 Online"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
-	tip = "여관 보급지"
-}
-
-
-_G.pg.base.gametip.loveactivity_help_tips = {
-	tip = {
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_2"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_3"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_4"
-			}
-		},
-		disableScroll = true,
-		pageMode = true,
-		defaultpage = 1,
-		ImageMode = true,
-		windowSize = {
-			x = 1263,
-			y = 873
-		},
-		windowPos = {
-			y = -70
-		},
-		helpSize = {
-			x = 1176,
-			y = 1024
-		}
-	}
-}
-
-
-_G.pg.base.gametip.spring_present_tips_btn = {
-	tip = "새해의 소망"
-}
-
-
-_G.pg.base.gametip.spring_present_tips_time = {
-	tip = "진행 기간: 3.3 0시 ~ 3.17 23:59"
-}
-
-
-_G.pg.base.gametip.spring_present_tips0 = {
-	tip = "랜덤 비서함 기능을 OFF로 설정한 후에 다시 시도하시기 바랍니다."
-}
-
-
-_G.pg.base.gametip.spring_present_tips1 = {
-	tip = "가장 왼쪽 비서함 슬롯에 배치된 함선의 새해 선물이 우편함으로 발송됩니다. 계속하시겠습니까?"
-}
-
-
-_G.pg.base.gametip.spring_present_tips2 = {
-	tip = "배치된 함선에게서 새해 선물을 수령할 수 없습니다. 비서함을 변경한 후 다시 시도하시기 바랍니다."
-}
-
-
-_G.pg.base.gametip.spring_present_tips3 = {
-	tip = "선물이 우편함으로 발송되었습니다!"
-}
-
-
 _G.pg.base.gametip.island_gift_tip_title = {
 	tip = "체력"
 }
@@ -47030,6 +46925,135 @@ _G.pg.base.gametip.LiquorFloor_tip = {
 5. 일정 수량의 금화를 모으면 여관 레벨이 상승합니다.
 6. 여관이나 시설의 레벨이 일정 수준에 달하면 스토리를 비롯한 콘텐츠가 오픈됩니다.
 7. 경영 임무를 수행하면 「보화」 이외에도 한정 채팅 아이콘, 한정 가구 등의 보상을 획득할 수 있습니다.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "경영 임무"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "수령"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "일괄 획득 "
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "봄빛 여관 Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "여관 보급지"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "새해의 소망"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "진행 기간: 3.3 0시 ~ 3.17 23:59"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "랜덤 비서함 기능을 OFF로 설정한 후에 다시 시도하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "가장 왼쪽 비서함 슬롯에 배치된 함선의 새해 선물이 우편함으로 발송됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "배치된 함선에게서 새해 선물을 수령할 수 없습니다. 비서함을 변경한 후 다시 시도하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "선물이 우편함으로 발송되었습니다!"
+}
+
+
+_G.pg.base.gametip.aprilfool_2026_cd = {
+	tip = "쿨타임"
+}
+
+
+_G.pg.base.gametip.purplebulin_help_2026 = {
+	tip = {
+		{
+			info = [[
+이벤트 설명:
+1. 이벤트 기간 중, 특정 화면이나 스테이지에서 해당하는 단서를 수집할 수 있습니다.
+2. 단서 수집이 어려울 경우, 단서 칸을 클릭하여 힌트를 해금할 수 있습니다.
+주의: 10분마다 하나의 힌트만 해금할 수 있습니다.
+3. 단서 수집을 완료하면 특별 스테이지가 개방되며, 특별 스테이지 도전에서 승리하면 특수 보상을 획득할 수 있습니다.]]
 		}
 	}
 }

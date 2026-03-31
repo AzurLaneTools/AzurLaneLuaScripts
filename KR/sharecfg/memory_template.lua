@@ -4014,6 +4014,9 @@ pg.memory_template = setmetatable({
 		5035,
 		5036,
 		5037,
+		5061,
+		5062,
+		5063,
 		10000,
 		10001,
 		10002,
@@ -64419,6 +64422,51 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"AERBIEN7"
+		}
+	},
+	[5061] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "만능 큐브",
+		condition = "「빛나는★부린★대작전」 이벤트 아이템",
+		story = "SHANYAOBULIDAZUOZHAN1",
+		id = 5061,
+		icon = "memory_shanyaobulidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOBULIDAZUOZHAN1"
+		}
+	},
+	[5062] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "저스티스 유니온",
+		condition = "암호 전부 수집",
+		story = "SHANYAOBULIDAZUOZHAN2",
+		id = 5062,
+		icon = "memory_shanyaobulidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOBULIDAZUOZHAN2"
+		}
+	},
+	[5063] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "반짝반짝 대작전",
+		condition = "특수 전투 진입",
+		story = "1360007",
+		id = 5063,
+		icon = "memory_shanyaobulidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"1360007"
 		}
 	},
 	[10000] = {

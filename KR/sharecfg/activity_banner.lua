@@ -295,14 +295,17 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"metacharacter"
+			"scene core activity",
+			{
+				coreName = "AprilFoolDiscovery2026UI"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					1
 				},
 				{
 					0,
@@ -314,12 +317,12 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					2
+					7
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}

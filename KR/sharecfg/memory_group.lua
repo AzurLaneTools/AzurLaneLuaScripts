@@ -257,6 +257,7 @@ pg.memory_group = setmetatable({
 		356,
 		357,
 		358,
+		360,
 		501,
 		502,
 		503,
@@ -6414,6 +6415,20 @@ pg.base.memory_group = {
 			5028,
 			5029,
 			5030
+		}
+	},
+	[360] = {
+		title = "빛나는★부린★대작전",
+		subtype = 2,
+		link_event = 50493,
+		type = 2,
+		id = 360,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			5061,
+			5062,
+			5063
 		}
 	},
 	[501] = {
