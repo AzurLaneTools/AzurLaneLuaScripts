@@ -135,6 +135,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
+	ActivityShop50486 = {
+		default_bgm = "story-wanderingcity-future",
+		special_bgm = "",
+		bgm = "story-wanderingcity-future"
+	},
 	ActivityShop50430 = {
 		default_bgm = "story-china-0226-pv",
 		special_bgm = "",
@@ -2539,6 +2544,26 @@ pg.voice_bgm = {
 		default_bgm = "story-kezhan-china",
 		special_bgm = "",
 		bgm = "story-kezhan-china"
+	},
+	AprilFoolDiscovery2026Page = {
+		default_bgm = "story-dazy-style",
+		special_bgm = "",
+		bgm = "story-dazy-style"
+	},
+	YunLongSPMainPage = {
+		default_bgm = "story-wanderingcity-future",
+		special_bgm = "",
+		bgm = "story-wanderingcity-future"
+	},
+	YunLongSPPtPage = {
+		default_bgm = "story-wanderingcity-future",
+		special_bgm = "",
+		bgm = "story-wanderingcity-future"
+	},
+	YunLongSPMedalAlbumView = {
+		default_bgm = "story-wanderingcity-future",
+		special_bgm = "",
+		bgm = "story-wanderingcity-future"
 	},
 	XiaoDaDiPtRePage = {
 		default_bgm = "login-orchestral-ver",

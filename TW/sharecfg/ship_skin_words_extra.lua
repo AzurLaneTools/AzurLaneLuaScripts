@@ -395,7 +395,8 @@ pg.ship_skin_words_extra = setmetatable({
 		703030,
 		701130,
 		702090,
-		702100
+		702100,
+		100000
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -27744,6 +27745,64 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"視線，總會不自覺聚焦在指揮官身上……與你共處的每分每秒，都值得紀錄並永久保存。"
+			}
+		}
+	},
+	[100000] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 100000,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"指揮官快看！辦公室的地板已經被人家修得閃閃發光了buli！現在這裡，是不是更像我們兩個的秘密基地了buli？"
+			}
+		},
+		home = {
+			{
+				1100,
+				"指揮官你回來了——！明明才分開沒多久，卻感覺像過了一百年那麼久！快讓人家抱緊一點，把漏掉的份都補回來buli！"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"要是指揮官再熬夜工作……人家就要用扳手來「修理」你了buli！這都是為了指揮官好！|好想現在就衝到港區廣播站，讓所有人都知道指揮官是人家最——喜歡的寶物buli！|這是人家特製的「愛心咖啡」，嘗起來是不是非常buli？咦，指揮官的臉怎麼bulibuli地皺成一團了……？"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"指揮官的心跳聲…——bulibuli的，讓人家再多聽一下嘛，就一下下～"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"輕、輕一點buli……"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"人家最喜歡指揮官了buli！比對扳手、好吃的和亮晶晶的東西的喜歡加起來還要多一百倍buli！"
 			}
 		}
 	}

@@ -26686,24 +26686,24 @@ cs.gametip = {
 		105,
 		true
 	},
-	child2_personal_id1_tag1 = {
-		973973,
-		94,
-		true
-	},
-	child2_personal_id1_tag2 = {
-		974067,
-		94,
-		true
-	},
 	child2_personal_tag1 = {
-		974161,
+		973973,
 		90,
 		true
 	},
 	child2_personal_tag2 = {
-		974251,
+		974063,
 		90,
+		true
+	},
+	child2_personal_id1_tag1 = {
+		974153,
+		94,
+		true
+	},
+	child2_personal_id1_tag2 = {
+		974247,
+		94,
 		true
 	},
 	child2_personal_change = {
@@ -31396,179 +31396,189 @@ cs.gametip = {
 		819,
 		true
 	},
-	LiquorFloorTaskUI_title = {
+	LiquorFloor_title = {
 		1104419,
 		99,
 		true
 	},
-	LiquorFloorTaskUI_go = {
-		1104518,
-		90,
-		true
-	},
-	LiquorFloorTaskUI_get = {
-		1104608,
-		91,
-		true
-	},
-	LiquorFloorTaskUI_got = {
-		1104699,
-		94,
-		true
-	},
-	LiquorFloor_gold_get = {
-		1104793,
-		96,
-		true
-	},
-	MoscowURCoreActivity_subtitle_1 = {
-		1104889,
-		113,
-		true
-	},
-	MoscowURCoreActivity_subtitle_2 = {
-		1105002,
-		110,
-		true
-	},
-	loveactivity_help_tips = {
-		1105112,
-		455,
-		true
-	},
-	spring_present_tips_btn = {
-		1105567,
-		99,
-		true
-	},
-	spring_present_tips_time = {
-		1105666,
-		121,
-		true
-	},
-	spring_present_tips0 = {
-		1105787,
-		169,
-		true
-	},
-	spring_present_tips1 = {
-		1105956,
-		179,
-		true
-	},
-	spring_present_tips2 = {
-		1106135,
-		181,
-		true
-	},
-	spring_present_tips3 = {
-		1106316,
-		172,
-		true
-	},
-	LiquorFloor_title = {
-		1106488,
-		99,
-		true
-	},
 	LiquorFloor_title_en = {
-		1106587,
+		1104518,
 		94,
 		true
 	},
 	LiquorFloor_level = {
-		1106681,
+		1104612,
 		93,
 		true
 	},
 	LiquorFloor_story_title = {
-		1106774,
+		1104705,
 		99,
 		true
 	},
 	LiquorFloor_story_title_1 = {
-		1106873,
+		1104804,
 		101,
 		true
 	},
 	LiquorFloor_story_title_2 = {
-		1106974,
+		1104905,
 		101,
 		true
 	},
 	LiquorFloor_story_title_3 = {
-		1107075,
+		1105006,
 		101,
 		true
 	},
 	LiquorFloor_story_title_4 = {
-		1107176,
+		1105107,
 		104,
 		true
 	},
 	LiquorFloor_story_go = {
-		1107280,
+		1105211,
 		90,
 		true
 	},
 	LiquorFloor_story_get = {
-		1107370,
+		1105301,
 		91,
 		true
 	},
 	LiquorFloor_story_got = {
-		1107461,
+		1105392,
 		94,
 		true
 	},
 	LiquorFloor_character_num = {
-		1107555,
+		1105486,
 		101,
 		true
 	},
 	LiquorFloor_character_unlock = {
-		1107656,
+		1105587,
 		115,
 		true
 	},
 	LiquorFloor_character_tip = {
-		1107771,
+		1105702,
 		201,
 		true
 	},
 	LiquorFloor_gold_num = {
-		1107972,
+		1105903,
 		96,
 		true
 	},
 	LiquorFloor_gold = {
-		1108068,
+		1105999,
 		92,
 		true
 	},
 	LiquorFloor_update = {
-		1108160,
+		1106091,
 		88,
 		true
 	},
 	LiquorFloor_update_unlock = {
-		1108248,
+		1106179,
 		106,
 		true
 	},
 	LiquorFloor_update_max = {
-		1108354,
+		1106285,
 		98,
 		true
 	},
 	LiquorFloor_gold_max_tip = {
-		1108452,
+		1106383,
 		112,
 		true
 	},
 	LiquorFloor_tip = {
-		1108564,
+		1106495,
 		1010,
+		true
+	},
+	LiquorFloorTaskUI_title = {
+		1107505,
+		99,
+		true
+	},
+	LiquorFloorTaskUI_go = {
+		1107604,
+		90,
+		true
+	},
+	LiquorFloorTaskUI_get = {
+		1107694,
+		91,
+		true
+	},
+	LiquorFloorTaskUI_got = {
+		1107785,
+		94,
+		true
+	},
+	LiquorFloor_gold_get = {
+		1107879,
+		96,
+		true
+	},
+	MoscowURCoreActivity_subtitle_1 = {
+		1107975,
+		113,
+		true
+	},
+	MoscowURCoreActivity_subtitle_2 = {
+		1108088,
+		110,
+		true
+	},
+	loveactivity_help_tips = {
+		1108198,
+		455,
+		true
+	},
+	spring_present_tips_btn = {
+		1108653,
+		99,
+		true
+	},
+	spring_present_tips_time = {
+		1108752,
+		121,
+		true
+	},
+	spring_present_tips0 = {
+		1108873,
+		169,
+		true
+	},
+	spring_present_tips1 = {
+		1109042,
+		179,
+		true
+	},
+	spring_present_tips2 = {
+		1109221,
+		181,
+		true
+	},
+	spring_present_tips3 = {
+		1109402,
+		172,
+		true
+	},
+	aprilfool_2026_cd = {
+		1109574,
+		93,
+		true
+	},
+	purplebulin_help_2026 = {
+		1109667,
+		418,
 		true
 	}
 }

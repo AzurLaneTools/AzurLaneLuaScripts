@@ -6647,7 +6647,66 @@ pg.activity_ins_chat_language = setmetatable({
 		8529,
 		8530,
 		8531,
-		8532
+		8532,
+		8889,
+		8890,
+		8891,
+		8892,
+		8893,
+		8894,
+		8895,
+		8896,
+		8897,
+		8898,
+		8899,
+		8900,
+		8901,
+		8902,
+		8903,
+		8904,
+		8905,
+		8906,
+		8907,
+		8908,
+		8909,
+		8910,
+		8911,
+		8912,
+		8913,
+		8914,
+		8915,
+		8916,
+		8917,
+		8918,
+		8919,
+		8920,
+		8921,
+		8922,
+		8923,
+		8924,
+		8925,
+		8926,
+		8927,
+		8928,
+		8929,
+		8930,
+		8931,
+		8932,
+		8933,
+		8934,
+		8935,
+		8936,
+		8937,
+		8938,
+		8939,
+		8940,
+		8941,
+		8942,
+		8943,
+		8944,
+		8945,
+		8946,
+		8947
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -65378,5 +65437,487 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 8532,
 		flag = 4
+	},
+	[8889] = {
+		param = "下午茶福利群建好了！本王已經把報名的人都拉進來了！",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8889,
+		flag = 0
+	},
+	[8890] = {
+		param = "好耶！喝下午茶啦！",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 8890,
+		flag = 0
+	},
+	[8891] = {
+		param = "301",
+		ship_group = 20122,
+		option = "",
+		type = 4,
+		id = 8891,
+		flag = 0
+	},
+	[8892] = {
+		param = "301",
+		ship_group = 70106,
+		type = 4,
+		id = 8892,
+		flag = 0,
+		option = {
+			{
+				1,
+				"下午茶福利群？"
+			}
+		}
+	},
+	[8893] = {
+		param = "下午茶福利群？總覺得皇家頻道也有類似的功能……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8893,
+		flag = 1
+	},
+	[8894] = {
+		param = "哼哼，和之前的完全不一樣哦，必須要有新的群才行！",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8894,
+		flag = 1
+	},
+	[8895] = {
+		param = "今天的下午茶是——茶包下午茶！",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8895,
+		flag = 1
+	},
+	[8896] = {
+		param = "為了把下午茶文化發揚光大，我們做了適當的調整",
+		ship_group = 20502,
+		option = "",
+		type = 1,
+		id = 8896,
+		flag = 1
+	},
+	[8897] = {
+		param = "簡單來說，就是統一泡好茶水後，大家自取享用，更自由、更隨性的下午茶類型",
+		ship_group = 20502,
+		option = "",
+		type = 1,
+		id = 8897,
+		flag = 1
+	},
+	[8898] = {
+		param = "雖然使用了茶包，但配方是我精心調整過的，大家可以對口感放心",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 8898,
+		flag = 1
+	},
+	[8899] = {
+		param = "而且，今天不光是皇家的同伴，其他陣營的同伴也會來參加",
+		ship_group = 20212,
+		option = "",
+		type = 1,
+		id = 8899,
+		flag = 1
+	},
+	[8900] = {
+		param = "期待品嚐到和東煌茶飲截然不同的風味~",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 8900,
+		flag = 1
+	},
+	[8901] = {
+		param = "是額外的休息時間，開心……",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 8901,
+		flag = 1
+	},
+	[8902] = {
+		param = "呵呵，這樣的新式下午茶，確實更讓人放鬆呢",
+		ship_group = 20504,
+		option = "",
+		type = 1,
+		id = 8902,
+		flag = 1
+	},
+	[8903] = {
+		param = "等會取茶的時候，大家可以在這個群組裡暢所欲言，有什麼建議都可以反應！",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8903,
+		flag = 1
+	},
+	[8904] = {
+		param = "紅茶泡好了，就放在茶水間，大家可以自取",
+		ship_group = 20208,
+		option = "",
+		type = 1,
+		id = 8904,
+		flag = 1
+	},
+	[8905] = {
+		param = "大家快來喝茶吧~我已經幫大家分好茶具，倒好茶了哦~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8905,
+		flag = 1
+	},
+	[8906] = {
+		param = "咦？英雄今天居然認真又積極……太陽從西邊出來了？",
+		ship_group = 20116,
+		option = "",
+		type = 1,
+		id = 8906,
+		flag = 1
+	},
+	[8907] = {
+		param = "欸~有嗎？我一直都很認真~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8907,
+		flag = 1
+	},
+	[8908] = {
+		param = "這個感覺……好熟悉呢。像是伏波作了壞事時的樣子",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 8908,
+		flag = 1
+	},
+	[8909] = {
+		param = "大家別在意這些細節了~快喝茶吧~",
+		ship_group = 20136,
+		type = 1,
+		id = 8909,
+		flag = 1,
+		option = {
+			{
+				2,
+				"幫大家倒茶辛苦了……"
+			}
+		}
+	},
+	[8910] = {
+		param = "幫大家倒茶辛苦了，妳自己先喝杯茶休息休息休息怎麼樣？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8910,
+		flag = 2
+	},
+	[8911] = {
+		param = "就知道指揮官會這麼說~英勇剛剛已經喝過了哦，味道很不錯呢~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8911,
+		flag = 2
+	},
+	[8912] = {
+		param = "既然如此就再多喝點吧~",
+		ship_group = 20234,
+		option = "",
+		type = 1,
+		id = 8912,
+		flag = 2
+	},
+	[8913] = {
+		param = "不不不~我真的喝了很多哦，暫時不想再喝了呢，嘻嘻~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8913,
+		flag = 2
+	},
+	[8914] = {
+		param = "還是留給指揮官大人和大家慢慢享用吧~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8914,
+		flag = 2
+	},
+	[8915] = {
+		param = "果然還是很反常……仔細一想，今天好像是個特別的日子……",
+		ship_group = 20116,
+		option = "",
+		type = 1,
+		id = 8915,
+		flag = 2
+	},
+	[8916] = {
+		param = "米勒大人知道！是愚人節哦！壞孩子都會在這一天惡作劇！",
+		ship_group = 10153,
+		option = "",
+		type = 1,
+		id = 8916,
+		flag = 2
+	},
+	[8917] = {
+		param = "黛朵剛才……有看見英雄帶著好多瓶瓶罐罐，悄悄溜進廚房……",
+		ship_group = 20204,
+		option = "",
+		type = 1,
+		id = 8917,
+		flag = 2
+	},
+	[8918] = {
+		param = "英雄，你是不是往紅茶裡，加了什麼「調味料」？",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 8918,
+		flag = 2
+	},
+	[8919] = {
+		param = "欸~英雄只是在茶裡加了億點點煉乳、巧克力牛奶和草莓糖漿而已~不是什麼壞東西呢~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8919,
+		flag = 2
+	},
+	[8920] = {
+		param = "66",
+		ship_group = 20136,
+		option = "",
+		type = 4,
+		id = 8920,
+		flag = 2
+	},
+	[8921] = {
+		param = "聽起來……好好吃！好好奇是什麼味道~！",
+		ship_group = 30132,
+		option = "",
+		type = 1,
+		id = 8921,
+		flag = 2
+	},
+	[8922] = {
+		param = "全糖紅茶？我也想嚐嚐看！",
+		ship_group = 10218,
+		option = "",
+		type = 1,
+		id = 8922,
+		flag = 2
+	},
+	[8923] = {
+		param = "不要全喝光哦，吃太甜對牙齒不好呢",
+		ship_group = 29905,
+		option = "",
+		type = 1,
+		id = 8923,
+		flag = 2
+	},
+	[8924] = {
+		param = "大家先慢慢享用英雄帶給大家的紅茶，我再去準備一壺新的哦",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 8924,
+		flag = 2
+	},
+	[8925] = {
+		param = "嘿嘿，不用不用！我早就猜到有人要在茶會惡作劇啦！",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8925,
+		flag = 2
+	},
+	[8926] = {
+		param = "下午茶開始前，我就用廚房的備用茶，替換了原本的紅茶~",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8926,
+		flag = 2
+	},
+	[8927] = {
+		param = "茶沒有問題，大家可以放心喝！",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8927,
+		flag = 2
+	},
+	[8928] = {
+		param = "努比亞真是可靠呢！",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 8928,
+		flag = 2
+	},
+	[8929] = {
+		param = "那我就開動啦~！",
+		ship_group = 29903,
+		option = "",
+		type = 1,
+		id = 8929,
+		flag = 2
+	},
+	[8930] = {
+		param = "58",
+		ship_group = 90401,
+		option = "",
+		type = 4,
+		id = 8930,
+		flag = 2
+	},
+	[8931] = {
+		param = "奇怪……我們應該沒有準備備用茶啊？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 8931,
+		flag = 2
+	},
+	[8932] = {
+		param = "咳，其實準備了……",
+		ship_group = 30401,
+		option = "",
+		type = 1,
+		id = 8932,
+		flag = 2
+	},
+	[8933] = {
+		param = "……我過來幫忙的時候，不小心把它喝完了",
+		ship_group = 30401,
+		option = "",
+		type = 1,
+		id = 8933,
+		flag = 2
+	},
+	[8934] = {
+		param = "欸？但廚房裡有兩個茶壺？",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8934,
+		flag = 2
+	},
+	[8935] = {
+		param = "那個，有人看到我練習泡茶的茶壺了嗎？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 8935,
+		flag = 2
+	},
+	[8936] = {
+		param = "之前明明就放在廚房……裡面可是我新改良的配方啊……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 8936,
+		flag = 2
+	},
+	[8937] = {
+		param = "217",
+		ship_group = 50602,
+		option = "",
+		type = 4,
+		id = 8937,
+		flag = 2
+	},
+	[8938] = {
+		param = "217",
+		ship_group = 40123,
+		option = "",
+		type = 4,
+		id = 8938,
+		flag = 2
+	},
+	[8939] = {
+		param = "217",
+		ship_group = 29903,
+		option = "",
+		type = 4,
+		id = 8939,
+		flag = 2
+	},
+	[8940] = {
+		param = "欸欸欸？！",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8940,
+		flag = 2
+	},
+	[8941] = {
+		param = "哈哈哈~這是烏龍嗎？哈哈哈，比惡作劇的效果還要好啊~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8941,
+		flag = 2
+	},
+	[8942] = {
+		param = "既然已經這樣了……那就祝大家愚人節快樂？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 8942,
+		flag = 2
+	},
+	[8943] = {
+		param = "大家，愚人節快樂——",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8943,
+		flag = 2
+	},
+	[8944] = {
+		param = "真是個不錯的節日呢，哼哼~",
+		ship_group = 40602,
+		option = "",
+		type = 1,
+		id = 8944,
+		flag = 2
+	},
+	[8945] = {
+		param = "伏波，等大家都放鬆警惕，就該到我們惡作劇的時候了！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8945,
+		flag = 2
+	},
+	[8946] = {
+		param = "笨蛋！！妳把私聊的內容發到群組裡啦！",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 8946,
+		flag = 2
+	},
+	[8947] = {
+		param = "……下次，還是回歸普通的線下下午茶吧……",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8947,
+		flag = 2
 	}
 }

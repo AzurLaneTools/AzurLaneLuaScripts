@@ -35716,22 +35716,22 @@ _G.pg.base.gametip.child2_site_drop_item = {
 }
 
 
-_G.pg.base.gametip.child2_personal_id1_tag1 = {
-	tip = "乖巧"
-}
-
-
-_G.pg.base.gametip.child2_personal_id1_tag2 = {
-	tip = "叛逆"
-}
-
-
 _G.pg.base.gametip.child2_personal_tag1 = {
 	tip = "乖巧"
 }
 
 
 _G.pg.base.gametip.child2_personal_tag2 = {
+	tip = "叛逆"
+}
+
+
+_G.pg.base.gametip.child2_personal_id1_tag1 = {
+	tip = "乖巧"
+}
+
+
+_G.pg.base.gametip.child2_personal_id1_tag2 = {
 	tip = "叛逆"
 }
 
@@ -41078,116 +41078,6 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
-_G.pg.base.gametip.LiquorFloorTaskUI_title = {
-	tip = "經營要務"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_go = {
-	tip = "前往"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_get = {
-	tip = "領取"
-}
-
-
-_G.pg.base.gametip.LiquorFloorTaskUI_got = {
-	tip = "已領取"
-}
-
-
-_G.pg.base.gametip.LiquorFloor_gold_get = {
-	tip = "收取金幣"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
-	tip = "春滿客棧Online"
-}
-
-
-_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
-	tip = "客棧補給站"
-}
-
-
-_G.pg.base.gametip.loveactivity_help_tips = {
-	tip = {
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_2"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_3"
-			}
-		},
-		{
-			icon = {
-				path = "",
-				atlas = "helpbg/love_help_4"
-			}
-		},
-		disableScroll = true,
-		pageMode = true,
-		defaultpage = 1,
-		ImageMode = true,
-		windowSize = {
-			x = 1263,
-			y = 873
-		},
-		windowPos = {
-			y = -70
-		},
-		helpSize = {
-			x = 1176,
-			y = 1024
-		}
-	}
-}
-
-
-_G.pg.base.gametip.spring_present_tips_btn = {
-	tip = "春日同心"
-}
-
-
-_G.pg.base.gametip.spring_present_tips_time = {
-	tip = "活動時間: 2.17 0時~3.3 24時"
-}
-
-
-_G.pg.base.gametip.spring_present_tips0 = {
-	tip = "目前為隨機秘書組，請指揮官關閉隨機秘書組後再進行嘗試哦～"
-}
-
-
-_G.pg.base.gametip.spring_present_tips1 = {
-	tip = "指揮官，您將透過郵件收到第一欄位秘書艦的春日同心之禮，是否確認?"
-}
-
-
-_G.pg.base.gametip.spring_present_tips2 = {
-	tip = "目前秘書艦無法收取春日同心之禮，請指揮官更換秘書艦再進行嘗試哦～"
-}
-
-
-_G.pg.base.gametip.spring_present_tips3 = {
-	tip = "郵件收取成功，請指揮官前往郵箱查看並收取她為您準備的禮物。"
-}
-
-
 _G.pg.base.gametip.LiquorFloor_title = {
 	tip = "春滿客棧Online"
 }
@@ -41305,6 +41195,136 @@ _G.pg.base.gametip.LiquorFloor_tip = {
 5.客棧等級的提升，需要累積獲得一定數量的金幣
 6.客棧故事將在客棧等級或指定建築升級至對應等級後解鎖
 7.完成經營要務可以獲得頭像框、限定傢俱等活動獎勵]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+	tip = "經營要務"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.LiquorFloor_gold_get = {
+	tip = "收取金幣"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+	tip = "春滿客棧Online"
+}
+
+
+_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+	tip = "客棧補給站"
+}
+
+
+_G.pg.base.gametip.loveactivity_help_tips = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/love_help_4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.spring_present_tips_btn = {
+	tip = "春日同心"
+}
+
+
+_G.pg.base.gametip.spring_present_tips_time = {
+	tip = "活動時間: 2.17 0時~3.3 24時"
+}
+
+
+_G.pg.base.gametip.spring_present_tips0 = {
+	tip = "目前為隨機秘書組，請指揮官關閉隨機秘書組後再進行嘗試哦～"
+}
+
+
+_G.pg.base.gametip.spring_present_tips1 = {
+	tip = "指揮官，您將透過郵件收到第一欄位秘書艦的春日同心之禮，是否確認?"
+}
+
+
+_G.pg.base.gametip.spring_present_tips2 = {
+	tip = "目前秘書艦無法收取春日同心之禮，請指揮官更換秘書艦再進行嘗試哦～"
+}
+
+
+_G.pg.base.gametip.spring_present_tips3 = {
+	tip = "郵件收取成功，請指揮官前往郵箱查看並收取她為您準備的禮物。"
+}
+
+
+_G.pg.base.gametip.aprilfool_2026_cd = {
+	tip = "冷卻時間"
+}
+
+
+_G.pg.base.gametip.purplebulin_help_2026 = {
+	tip = {
+		{
+			info = [[
+活動說明：
+1.活動期間，在特定介面或關卡中可收集對應的線索
+2.當收集線索遇到困難時，可以點擊線索格解鎖提示
+注意：10分鐘內只能解鎖一個提示哦
+3.線索收集完成可以開啟特別關卡，挑戰特別關卡並獲
+得勝利可以獲得特殊獎勵]]
 		}
 	}
 }

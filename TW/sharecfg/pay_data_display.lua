@@ -42,7 +42,6 @@ pg.pay_data_display = setmetatable({
 		9012,
 		9013,
 		9014,
-		2021,
 		2022,
 		2023,
 		2024,
@@ -4823,114 +4822,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				2025
-			}
-		}
-	},
-	[2021] = {
-		picture = "haishangchuanqi",
-		name = "海上傳奇支援組合包",
-		type = 0,
-		second_text = "",
-		descrip = "可獲得換裝自選券、心智魔方、艦艇演習數據T2和物資獎勵！",
-		subject = "海上傳奇支援組合包",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 670,
-		descrip_extra = "*禮包將會寄到郵箱，請注意查收。",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 2,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.hkmanjuu.azurlane.libao115",
-		extra_gem = 0,
-		id = 2021,
-		airijp_id = "com.yostarjp.azurlane.package112",
-		name_display = "海上傳奇支援組合包",
-		first_text = "",
-		akashi_pick = 1,
-		sub_display = "",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				59550,
-				1
-			},
-			{
-				2,
-				20001,
-				40
-			},
-			{
-				1,
-				1,
-				30000
-			},
-			{
-				2,
-				16502,
-				50
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				59550,
-				1
-			},
-			{
-				2,
-				20001,
-				40
-			},
-			{
-				2,
-				16502,
-				50
-			}
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40030,
-				1
 			}
 		}
 	},
