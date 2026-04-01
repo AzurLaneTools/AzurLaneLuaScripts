@@ -1,6 +1,132 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
+	[301611] = {
+		name = "The Honors Student",
+		change_skin = "",
+		desc = "Learning is exciting. The joy of acquiring new knowledge, the sense of achievement from solving difficult problems... you'll understand once you try it. So, shall we study together, Commander?",
+		illustrator2 = -1,
+		ship_group = 30161,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "bangfeng_2",
+		lover_hand = "hand_3_02",
+		skin_type = 0,
+		shop_type_id = 4,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip01",
+		bg_sp = "",
+		bg = "103",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 301611,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "bangfeng_2",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 70092,
+		voice_actor = 112,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.17,
+					0.62,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.19,
+					0.61,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.2,
+					0.64,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.19,
+					0.61,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301612] = {
 		name = "The Secret Ingredient is Love?!",
 		change_skin = "",
@@ -17279,130 +17405,6 @@ pg.base.ship_skin_template_8 = {
 							-0.572,
 							2.29,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[303090] = {
-		name = "Ashigara",
-		change_skin = "",
-		desc = "Myoukou-class heavy cruiser number three - Ashigara",
-		illustrator2 = -1,
-		ship_group = 30309,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "zubing",
-		lover_hand = "hand_2_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 303090,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "zubing",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 138,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.21,
-					0.93,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					0.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.161,
-					0.189,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.23,
-					0.95,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.47,
-							-0.34
 						}
 					}
 				}

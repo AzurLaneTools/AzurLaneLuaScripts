@@ -2815,6 +2815,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-kezhan-china"
 	},
+	AprilFoolDiscovery2026Page = {
+		default_bgm = "story-dazy-style",
+		special_bgm = "",
+		bgm = "story-dazy-style"
+	},
 	YunLongSPMainPage = {
 		default_bgm = "story-wanderingcity-future",
 		special_bgm = "",

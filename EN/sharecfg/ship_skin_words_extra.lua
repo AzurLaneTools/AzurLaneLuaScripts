@@ -396,6 +396,7 @@ pg.ship_skin_words_extra = setmetatable({
 		701130,
 		702090,
 		702100,
+		100000,
 		302290,
 		302280,
 		307170,
@@ -27840,6 +27841,64 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"I can't help that my eyes are drawn to you... because I want to record and preserve all of our time spent together."
+			}
+		}
+	},
+	[100000] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 100000,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, look! I got your office floor all sparkly-clean, buli! It feels even more like a secret base now!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, buli! It hasn't been that long, but it feels like a hundred years to me! Give me a biiig hug to make up for it, buli!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"If you keep working so late, I'll have to fix you up with my wrench, buli! It's for your own good!|I wanna go straight to the port's broadcasting station and tell everyone that you're my most valuable treasure, buli!|I made special, lovey-dovey coffee for you! That buli flavor will knock your socks off! ...Hm? Why is your face all scrunched up, buli?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Your heartbeat is going all bulibuli! Let me hear more, buli! Just a little longer."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"B-be careful, buli..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Bulin loves you more than anyone, Commander! A hundred times more than I love wrenches, food, and shiny things combined!"
 			}
 		}
 	},

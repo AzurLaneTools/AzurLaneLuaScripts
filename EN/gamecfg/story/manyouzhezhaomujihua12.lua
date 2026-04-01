@@ -74,27 +74,27 @@ return {
 			},
 			sequence = {
 				{
-					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
+					"Municipal Management System:",
 					0
 				},
 				{
-					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
+					"Low-level format complete",
 					0.5
 				},
 				{
-					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
+					"Purging all improper control protocols and derivative data.",
 					1
 				},
 				{
-					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
+					"Restarting municipal management system core...",
 					1.5
 				},
 				{
-					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
+					"Initializing citizen profiles and roles...",
 					2
 				},
 				{
-					"<size=35>Municipal Management System: Low-level format complete Purging all improper control protocols and derivative data. Restarting municipal management system core... Initializing citizen profiles and roles... Order restoration protocol complete.</size>",
+					"Order restoration protocol complete.",
 					2.5
 				}
 			}

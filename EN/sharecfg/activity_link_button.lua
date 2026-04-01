@@ -337,15 +337,18 @@ pg.activity_link_button = {
 		}
 	},
 	[110] = {
-		param = "SpringFestival2026CoreActivityUI",
+		param = "AprilFoolDiscovery2026UI",
 		name = "event_core_2",
-		time = "stop",
-		text_pic = "text_event_core2",
+		text_pic = "text_event_core3",
 		type = 16,
-		pic = "event_core2",
+		pic = "event_core3",
 		id = 110,
 		group_id = 2,
-		order = 2
+		order = 2,
+		time = {
+			"default",
+			50493
+		}
 	},
 	[111] = {
 		param = "ALYCoreActivityUI",

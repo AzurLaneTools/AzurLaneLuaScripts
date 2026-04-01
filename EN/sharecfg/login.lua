@@ -2880,9 +2880,9 @@ pg.login = {
 	[88] = {
 		op_play = 1,
 		id = 88,
-		login_static = "login_0401",
-		login_cri = "",
-		bgm = "login_us_0401",
+		login_static = "login_20260401us",
+		login_cri = "login_20260401us",
+		bgm = "login-20260401us",
 		date = {
 			"timer",
 			{

@@ -1,6 +1,123 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
+	[10100080] = {
+		name = "Green Heart",
+		change_skin = "",
+		desc = "I am the CPU of Leanbox, Green Heart. No matter who the enemy is, I will not hold back. Are you ready?",
+		illustrator2 = -1,
+		ship_group = 1010008,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "HDN402_1",
+		lover_hand = "hand_1_02",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 10100080,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "HDN402_1",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 65,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "nepgreen",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					1.08,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.8,
+					0.99,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100081] = {
 		name = "Goddesses' Moment",
 		change_skin = "",
@@ -16606,130 +16723,6 @@ pg.base.ship_skin_template_19 = {
 					-100,
 					0,
 					2
-				}
-			}
-		}
-	},
-	[11500010] = {
-		name = "Tohka Yatogami",
-		change_skin = "",
-		desc = "Identify yourself. Are you my enemy? ...Perhaps not. Hmm... Could this be a different world entirely? No wonder I've seen so many unfamiliar things. Regardless, my name is Tohka Yatogami. It's an important name, so you'd best remember it. I suppose I'll be in your world for the time being. On that note... I'm hungry. Do you have anything to eat?",
-		illustrator2 = -1,
-		ship_group = 1150001,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "shixiang",
-		lover_hand = "hand_2_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 11500010,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "shixiang",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 148,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.59,
-					0.934,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.538,
-					1.064,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.77,
-					2.509,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.683,
-							2.485,
-							0
-						}
-					}
 				}
 			}
 		}

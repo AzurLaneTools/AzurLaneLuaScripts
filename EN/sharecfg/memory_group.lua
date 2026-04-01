@@ -257,6 +257,7 @@ pg.memory_group = setmetatable({
 		357,
 		358,
 		359,
+		360,
 		501,
 		502,
 		503,
@@ -6650,6 +6651,21 @@ pg.base.memory_group = {
 			5055,
 			5056,
 			5057
+		}
+	},
+	[360] = {
+		icon = "title_event",
+		type = 2,
+		link_event = 50493,
+		title = "Operation: Shining Bulin",
+		auto_unlock = "",
+		subtype = 2,
+		id = 360,
+		group_id = "",
+		memories = {
+			5061,
+			5062,
+			5063
 		}
 	},
 	[501] = {

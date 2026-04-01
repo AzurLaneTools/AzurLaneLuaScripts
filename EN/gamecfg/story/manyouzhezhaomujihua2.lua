@@ -304,23 +304,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=35>Automatically issuing municipality-wide wanted notice.</size>",
+					"<size=45>Municipal Management System:</size>",
 					0
 				},
 				{
-					"<size=35>Municipal Management System: Warning! Dangerous attack detected! High probability of severe threat to public security. Freezing all roles in accordance with municipal law. Cease all actions and await investigation.</size>",
+					"<size=45>Warning! Dangerous attack detected!</size>",
 					0.5
 				},
 				{
-					"<size=35>Municipal Management System: Warning! Dangerous attack detected! High probability of severe threat to public security. Freezing all roles in accordance with municipal law. Cease all actions and await investigation.</size>",
+					"<size=45>High probability of severe threat to public security.</size>",
 					1
 				},
 				{
-					"<size=35>Municipal Management System: Warning! Dangerous attack detected! High probability of severe threat to public security. Freezing all roles in accordance with municipal law. Cease all actions and await investigation.</size>",
+					"<size=45>Freezing all roles in accordance with municipal law.</size>",
 					1.5
 				},
 				{
-					"<size=35>Municipal Management System: Warning! Dangerous attack detected! High probability of severe threat to public security. Freezing all roles in accordance with municipal law. Cease all actions and await investigation.</size>",
+					"<size=45>Cease all actions and await investigation.</size>",
 					2
 				}
 			}

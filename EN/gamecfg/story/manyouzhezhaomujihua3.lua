@@ -148,23 +148,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=35>Identifier: Nayoro Affiliation: Thorn City Intelligence Bureau Role: Counterintelligence Chief Status: Role Revoked New Role: Vagabond</size>",
+					"Identifier: Nayoro",
 					0
 				},
 				{
-					"<size=35>Identifier: Nayoro Affiliation: Thorn City Intelligence Bureau Role: Counterintelligence Chief Status: Role Revoked New Role: Vagabond</size>",
+					"Affiliation: Thorn City Intelligence Bureau",
 					0.5
 				},
 				{
-					"<size=35>Identifier: Nayoro Affiliation: Thorn City Intelligence Bureau Role: Counterintelligence Chief Status: Role Revoked New Role: Vagabond</size>",
+					"Role: Counterintelligence Chief",
 					1
 				},
 				{
-					"<size=35>Identifier: Nayoro Affiliation: Thorn City Intelligence Bureau Role: Counterintelligence Chief Status: Role Revoked New Role: Vagabond</size>",
+					"Status: Role Revoked",
 					1.5
 				},
 				{
-					"<size=35>Identifier: Nayoro Affiliation: Thorn City Intelligence Bureau Role: Counterintelligence Chief Status: Role Revoked New Role: Vagabond</size>",
+					"New Role: Vagabond",
 					2
 				}
 			}
@@ -307,27 +307,27 @@ return {
 			},
 			sequence = {
 				{
-					"<size=30>Municipal management system: URGENT municipal security mission Mission type: Capture Objective: Former Commander of the Counterintelligence Team Reward: Ownership of the Commander Recipient: All players</size>",
+					"Municipal management system:",
 					0
 				},
 				{
-					"<size=30>Municipal management system: URGENT municipal security mission Mission type: Capture Objective: Former Commander of the Counterintelligence Team Reward: Ownership of the Commander Recipient: All players</size>",
+					"URGENT municipal security mission",
 					0.5
 				},
 				{
-					"<size=30>Municipal management system: URGENT municipal security mission Mission type: Capture Objective: Former Commander of the Counterintelligence Team Reward: Ownership of the Commander Recipient: All players</size>",
+					"Mission type: Capture",
 					1
 				},
 				{
-					"<size=30>Municipal management system: URGENT municipal security mission Mission type: Capture Objective: Former Commander of the Counterintelligence Team Reward: Ownership of the Commander Recipient: All players</size>",
+					"Objective: Former Commander of the Counterintelligence Team",
 					1.5
 				},
 				{
-					"<size=30>Municipal management system: URGENT municipal security mission Mission type: Capture Objective: Former Commander of the Counterintelligence Team Reward: Ownership of the Commander Recipient: All players</size>",
+					"Reward: Ownership of the Commander",
 					2
 				},
 				{
-					"<size=30>Municipal management system: URGENT municipal security mission Mission type: Capture Objective: Former Commander of the Counterintelligence Team Reward: Ownership of the Commander Recipient: All players</size>",
+					"Recipient: All players",
 					2.5
 				}
 			}

@@ -153162,6 +153162,31 @@ _G.pg.base.item_virtual_data_statistics[59179] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59180] = {
+	drop_gold_max = 0,
+	name = "Training Pt",
+	display = "Used to exchange for the \"Illusory Butterfly\" portrait frame. Will be removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_s",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59180,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59181] = {
 	drop_gold_max = 0,
 	name = "Rental Outfit Voucher (Exp. Date: Oct 11, 2020)",
@@ -153204,31 +153229,6 @@ _G.pg.base.item_virtual_data_statistics[59182] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59182,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59180] = {
-	drop_gold_max = 0,
-	name = "Training Pt",
-	display = "Used to exchange for the \"Illusory Butterfly\" portrait frame. Will be removed after the event ends. ",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_s",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59180,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -153437,6 +153437,31 @@ _G.pg.base.item_virtual_data_statistics[59190] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59191] = {
+	drop_gold_max = 0,
+	name = "Training Pt",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_t",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59191,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59192] = {
 	drop_gold_max = 0,
 	name = "Iron Blood Key ",
@@ -153504,31 +153529,6 @@ _G.pg.base.item_virtual_data_statistics[59194] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59194,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59191] = {
-	drop_gold_max = 0,
-	name = "Training Pt",
-	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_t",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59191,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -158166,6 +158166,56 @@ _G.pg.base.item_virtual_data_statistics[59411] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59412] = {
+	drop_gold_max = 0,
+	name = "Cake Pt",
+	display = "Used in the \"Sugary-Sweet Käsekuchen\" event. Will disappear after the event period ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/little_eugen_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59413] = {
+	drop_gold_max = 0,
+	name = "Training Pt",
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_d",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59413,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59420] = {
 	drop_gold_max = 0,
 	name = "Venus Points",
@@ -158208,56 +158258,6 @@ _G.pg.base.item_virtual_data_statistics[59421] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59421,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59412] = {
-	drop_gold_max = 0,
-	name = "Cake Pts",
-	display = "Used in the \"Sugary-Sweet Käsekuchen\" event. Will disappear after the event period ends.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/little_eugen_pt",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59412,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59413] = {
-	drop_gold_max = 0,
-	name = "Training Points",
-	display = "Used to exchange for a portrait frame. Removed after the event ends.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_d",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59413,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167658,6 +167658,231 @@ _G.pg.base.item_virtual_data_statistics[60488] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 60488,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60600] = {
+	drop_gold_max = 0,
+	name = "Clue M",
+	display = "\"Operation: Shining Bulin\" event item.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50493,
+	icon = "Props/65582",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 60600,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60601] = {
+	drop_gold_max = 0,
+	name = "Clue A",
+	display = "\"Operation: Shining Bulin\" event item.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50493,
+	icon = "Props/65582",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 60601,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60602] = {
+	drop_gold_max = 0,
+	name = "Clue G",
+	display = "\"Operation: Shining Bulin\" event item.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50493,
+	icon = "Props/65582",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 60602,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60603] = {
+	drop_gold_max = 0,
+	name = "Clue I",
+	display = "\"Operation: Shining Bulin\" event item.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50493,
+	icon = "Props/65582",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 60603,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60604] = {
+	drop_gold_max = 0,
+	name = "Clue C",
+	display = "\"Operation: Shining Bulin\" event item.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50493,
+	icon = "Props/65582",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 60604,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60605] = {
+	drop_gold_max = 0,
+	name = "Clue B",
+	display = "\"Operation: Shining Bulin\" event item.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50493,
+	icon = "Props/65582",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 60605,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60606] = {
+	drop_gold_max = 0,
+	name = "Clue U",
+	display = "\"Operation: Shining Bulin\" event item.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50493,
+	icon = "Props/65582",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 60606,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60607] = {
+	drop_gold_max = 0,
+	name = "Clue L",
+	display = "\"Operation: Shining Bulin\" event item.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50493,
+	icon = "Props/65582",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 60607,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60608] = {
+	drop_gold_max = 0,
+	name = "Clue I",
+	display = "\"Operation: Shining Bulin\" event item.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50493,
+	icon = "Props/65582",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 60608,
 	display_icon = {},
 	price = {},
 	index = {},
