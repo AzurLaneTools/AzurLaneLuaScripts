@@ -36688,101 +36688,101 @@ cs.gametip = {
 	},
 	battlepass_main_tip_2604 = {
 		1413342,
-		262,
+		261,
 		true
 	},
 	battlepass_main_help_2604 = {
-		1413604,
-		3314,
+		1413603,
+		3280,
 		true
 	},
 	cruise_task_help_2604 = {
-		1416918,
-		1150,
+		1416883,
+		1139,
 		true
 	},
 	cruise_title_2604 = {
-		1418068,
+		1418022,
 		101,
 		true
 	},
 	LiquorFloorTaskUI_title = {
-		1418169,
+		1418123,
 		100,
 		true
 	},
 	LiquorFloorTaskUI_go = {
-		1418269,
+		1418223,
 		90,
 		true
 	},
 	LiquorFloorTaskUI_get = {
-		1418359,
+		1418313,
 		91,
 		true
 	},
 	LiquorFloorTaskUI_got = {
-		1418450,
+		1418404,
 		98,
 		true
 	},
 	LiquorFloor_gold_get = {
-		1418548,
+		1418502,
 		98,
 		true
 	},
 	MoscowURCoreActivity_subtitle_1 = {
-		1418646,
+		1418600,
 		115,
 		true
 	},
 	MoscowURCoreActivity_subtitle_2 = {
-		1418761,
+		1418715,
 		111,
 		true
 	},
 	loveactivity_help_tips = {
-		1418872,
+		1418826,
 		455,
 		true
 	},
 	spring_present_tips_btn = {
-		1419327,
+		1419281,
 		103,
 		true
 	},
 	spring_present_tips_time = {
-		1419430,
+		1419384,
 		124,
 		true
 	},
 	spring_present_tips0 = {
-		1419554,
+		1419508,
 		172,
 		true
 	},
 	spring_present_tips1 = {
-		1419726,
+		1419680,
 		215,
 		true
 	},
 	spring_present_tips2 = {
-		1419941,
+		1419895,
 		220,
 		true
 	},
 	spring_present_tips3 = {
-		1420161,
+		1420115,
 		133,
 		true
 	},
 	aprilfool_2026_cd = {
-		1420294,
+		1420248,
 		90,
 		true
 	},
 	purplebulin_help_2026 = {
-		1420384,
+		1420338,
 		575,
 		true
 	}
