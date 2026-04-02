@@ -673,6 +673,23 @@ slot0.UpdateOptionBGWithTB = function(slot0, slot1, slot2)
 
 		setActive(slot5, slot6)
 	end
+
+	if slot1:Find("type3") then
+		if slot2 and slot2 == 3 then
+			slot1:Find("Text").localPosition = Vector2(20, 0)
+
+			setActive(slot1:Find("type3"), true)
+		else
+			slot1:Find("Text").localPosition = Vector2.zero
+
+			setActive(slot1:Find("type3"), false)
+		end
+	end
+
+	if slot2 and slot2 == 3 and slot1:Find("icon") then
+		setActive(slot1:Find("icon"), false)
+		setImageSprite(slot1, GetSpriteFromAtlas("ui/story_atlas", "option_bg_left_global"))
+	end
 end
 
 slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
@@ -685,7 +702,9 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 	slot7:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot2
-			slot7 = table.contains(uv1, uv0[slot1 + 1][2])
+			slot4 = uv0[slot1 + 1][1]
+			slot6 = uv0[slot1 + 1][3]
+			slot8 = table.contains(uv1, uv0[slot1 + 1][2])
 
 			onButton(uv2, slot3, function ()
 				if uv0.pause or uv0.stop then
@@ -699,13 +718,18 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 				uv0.selectedBranchID = uv2
 
 				uv0:SetBranchCode(uv3, uv4, uv5)
+
+				if uv6 then
+					uv0:SetGlobalOptionFlag(uv6)
+				end
+
 				pg.NewStoryMgr.GetInstance():TrackingOption(uv4:GetOptionIndex(), uv5)
 
-				if uv6:GetComponent(typeof(Animation)) then
-					uv7.blocksRaycasts = false
+				if uv7:GetComponent(typeof(Animation)) then
+					uv8.blocksRaycasts = false
 
 					slot0:Play(uv0.script:GetAnimPrefix() .. "confirm")
-					uv6:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+					uv7:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 						setActive(uv0.optionsCg.gameObject, false)
 
 						uv1.blocksRaycasts = true
@@ -714,16 +738,20 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 					end)
 				else
 					setActive(uv0.optionsCg.gameObject, false)
-					uv8(uv9)
+					uv9(uv10)
 				end
 
 				uv0:HideBranchesWithoutSelected(uv4)
 			end, SFX_PANEL)
-			setButtonEnabled(slot3, not slot7)
+			setButtonEnabled(slot3, not slot8)
 
-			GetOrAddComponent(slot2, typeof(CanvasGroup)).alpha = slot7 and 0.5 or 1
+			GetOrAddComponent(slot2, typeof(CanvasGroup)).alpha = slot8 and 0.5 or 1
 
-			uv2:UpdateOptionTxt(uv8, slot3, uv0[slot1 + 1][1], uv0[slot1 + 1][3])
+			if uv0[slot1 + 1][4] then
+				slot6 = 3
+			end
+
+			uv2:UpdateOptionTxt(uv8, slot3, slot4, slot6)
 
 			if uv2.script:IsDialogueStyle2() then
 				setActive(slot3, slot1 == 0)
@@ -755,6 +783,10 @@ slot0.SetBranchCode = function(slot0, slot1, slot2, slot3)
 	end
 
 	table.insert(slot0.branchCodeList[slot4], slot3)
+end
+
+slot0.SetGlobalOptionFlag = function(slot0, slot1)
+	PlayerPrefs.SetInt(StoryStep.GetGlobalFlagKey(slot1.flagID) .. slot1.flagIndex, slot1.flagValue)
 end
 
 slot0.ShowBranches = function(slot0, slot1, slot2)

@@ -1428,6 +1428,102 @@ pg.activity_medal_template = {
 		id = 5044108,
 		medal_asset = "ActivityMedal/5044108"
 	},
+	[5048201] = {
+		activity_medal_desc = "霓虹燈不滅，都市永不歇",
+		next_medal = 0,
+		item = 65876,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "1",
+		task_id = 21915,
+		activity_medal_name = "紀念貼紙：霓虹都市",
+		id = 5048201,
+		medal_asset = "ActivityMedal/5048201"
+	},
+	[5048202] = {
+		activity_medal_desc = "全速怕什麼怕~",
+		next_medal = 0,
+		item = 65877,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "2",
+		task_id = 21916,
+		activity_medal_name = "紀念貼紙：午夜脫逃",
+		id = 5048202,
+		medal_asset = "ActivityMedal/5048202"
+	},
+	[5048203] = {
+		activity_medal_desc = "海量資訊，隨時分析",
+		next_medal = 0,
+		item = 65878,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "3",
+		task_id = 21917,
+		activity_medal_name = "紀念貼紙：數據映射",
+		id = 5048203,
+		medal_asset = "ActivityMedal/5048203"
+	},
+	[5048204] = {
+		activity_medal_desc = "計劃是假裝被抓，然後……欸！繩子怎麼解不開了？！",
+		next_medal = 0,
+		item = 65879,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "4",
+		task_id = 21918,
+		activity_medal_name = "紀念貼紙：自投羅網",
+		id = 5048204,
+		medal_asset = "ActivityMedal/5048204"
+	},
+	[5048205] = {
+		activity_medal_desc = "頭像已被鎖定，看你往哪裡跑~",
+		next_medal = 0,
+		item = 65880,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "5",
+		task_id = 21919,
+		activity_medal_name = "紀念貼紙：全頻道通緝",
+		id = 5048205,
+		medal_asset = "ActivityMedal/5048205"
+	},
+	[5048206] = {
+		activity_medal_desc = "抓不住我的話……寶貝就歸我啦~",
+		next_medal = 0,
+		item = 65881,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "6",
+		task_id = 21920,
+		activity_medal_name = "紀念貼紙：貓影預告函",
+		id = 5048206,
+		medal_asset = "ActivityMedal/5048206"
+	},
+	[5048207] = {
+		activity_medal_desc = "耳機一戴，誰也不愛",
+		next_medal = 0,
+		item = 65882,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "7",
+		task_id = 21921,
+		activity_medal_name = "紀念貼紙：沉浸時刻",
+		id = 5048207,
+		medal_asset = "ActivityMedal/5048207"
+	},
+	[5048208] = {
+		activity_medal_desc = "漫遊者－集結！",
+		next_medal = 0,
+		item = 65883,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "8",
+		task_id = 21922,
+		activity_medal_name = "紀念貼紙：漫遊者徽章",
+		id = 5048208,
+		medal_asset = "ActivityMedal/5048208"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1577,6 +1673,16 @@ pg.activity_medal_template = {
 			5044106,
 			5044107,
 			5044108
+		},
+		[50482] = {
+			5048201,
+			5048202,
+			5048203,
+			5048204,
+			5048205,
+			5048206,
+			5048207,
+			5048208
 		}
 	},
 	all = {
@@ -1698,6 +1804,14 @@ pg.activity_medal_template = {
 		5044105,
 		5044106,
 		5044107,
-		5044108
+		5044108,
+		5048201,
+		5048202,
+		5048203,
+		5048204,
+		5048205,
+		5048206,
+		5048207,
+		5048208
 	}
 }

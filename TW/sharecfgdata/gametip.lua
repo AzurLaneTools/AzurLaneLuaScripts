@@ -41235,6 +41235,16 @@ _G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.YunLongSPCoreActivity_subtitle_1 = {
+	tip = "漫遊者招募計劃"
+}
+
+
+_G.pg.base.gametip.YunLongSPCoreActivity_subtitle_2 = {
+	tip = "漫遊者補給站"
+}
+
+
 _G.pg.base.gametip.loveactivity_help_tips = {
 	tip = {
 		{
@@ -41310,21 +41320,40 @@ _G.pg.base.gametip.spring_present_tips3 = {
 }
 
 
-_G.pg.base.gametip.aprilfool_2026_cd = {
-	tip = "冷卻時間"
+_G.pg.base.gametip.add_friend_fail_tip9 = {
+	tip = "好友申請發送失敗，內容包含受限詞彙。"
 }
 
 
-_G.pg.base.gametip.purplebulin_help_2026 = {
+_G.pg.base.gametip.juusoa_title = {
+	tip = "啾啾熱點頻道"
+}
+
+
+_G.pg.base.gametip.story_recrewed = {
+	tip = "已招募"
+}
+
+
+_G.pg.base.gametip.story_not_recrew = {
+	tip = "未招募"
+}
+
+
+_G.pg.base.gametip.multiple_endings_tip = {
 	tip = {
 		{
-			info = [[
-活動說明：
-1.活動期間，在特定介面或關卡中可收集對應的線索
-2.當收集線索遇到困難時，可以點擊線索格解鎖提示
-注意：10分鐘內只能解鎖一個提示哦
-3.線索收集完成可以開啟特別關卡，挑戰特別關卡並獲
-得勝利可以獲得特殊獎勵]]
+			info = "結局解鎖：\n劇情中出現的部分選項為<color=#92fc63>「重要選項」</color>，<color=#92fc63>「重要選項」</color>會影響遊戲的最終結局。透過重新觀看劇情選擇不同的<color=#92fc63>「重要選項」</color>可解鎖新的結局。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.l2d_tip_on = {
+	tip = "ive2D互動提示已開啟"
+}
+
+
+_G.pg.base.gametip.l2d_tip_off = {
+	tip = "Live2D互動提示已關閉"
 }

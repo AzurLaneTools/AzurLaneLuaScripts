@@ -344,7 +344,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 433
+		key_value = 643
 	},
 	activity_lottery_rewards = {
 		key_value = 0,
@@ -1957,7 +1957,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 434
+		key_value = 646
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -4054,6 +4054,10 @@ pg.gameset = {
 	love_base_id = {
 		description = "",
 		key_value = 31201
+	},
+	l2d_tips_default_icon = {
+		description = "L2DUI",
+		key_value = 0
 	},
 	child2_rank_switch = {
 		description = "",

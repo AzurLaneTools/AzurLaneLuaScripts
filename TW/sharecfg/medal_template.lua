@@ -2741,6 +2741,27 @@ pg.medal_template = {
 		explain1 = "「春滿客棧online」",
 		explain2 = "活動紀念"
 	},
+	[200151] = {
+		target_id = "50482",
+		name = "都市漫遊紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "霓虹燈牌在頭頂閃爍，車流在腳下匯成光河。穿梭於不眠的街巷，感受都市的每一次呼吸與脈動。\n——歡迎來到荊棘市~",
+		next = 0,
+		icon = "9151",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9151",
+		condition = "收集8個「漫遊者招募計劃」紀念貼紙。",
+		rank = 1,
+		id = 200151,
+		explain1 = "「漫遊者招募計劃」",
+		explain2 = "活動紀念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2866,6 +2887,7 @@ pg.medal_template = {
 		200111,
 		200121,
 		200131,
-		200141
+		200141,
+		200151
 	}
 }

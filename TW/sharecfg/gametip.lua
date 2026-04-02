@@ -31536,49 +31536,84 @@ cs.gametip = {
 		110,
 		true
 	},
-	loveactivity_help_tips = {
+	YunLongSPCoreActivity_subtitle_1 = {
 		1108198,
+		117,
+		true
+	},
+	YunLongSPCoreActivity_subtitle_2 = {
+		1108315,
+		114,
+		true
+	},
+	loveactivity_help_tips = {
+		1108429,
 		455,
 		true
 	},
 	spring_present_tips_btn = {
-		1108653,
+		1108884,
 		99,
 		true
 	},
 	spring_present_tips_time = {
-		1108752,
+		1108983,
 		121,
 		true
 	},
 	spring_present_tips0 = {
-		1108873,
+		1109104,
 		169,
 		true
 	},
 	spring_present_tips1 = {
-		1109042,
+		1109273,
 		179,
 		true
 	},
 	spring_present_tips2 = {
-		1109221,
+		1109452,
 		181,
 		true
 	},
 	spring_present_tips3 = {
-		1109402,
+		1109633,
 		172,
 		true
 	},
-	aprilfool_2026_cd = {
-		1109574,
-		93,
+	add_friend_fail_tip9 = {
+		1109805,
+		139,
 		true
 	},
-	purplebulin_help_2026 = {
-		1109667,
-		418,
+	juusoa_title = {
+		1109944,
+		94,
+		true
+	},
+	story_recrewed = {
+		1110038,
+		87,
+		true
+	},
+	story_not_recrew = {
+		1110125,
+		89,
+		true
+	},
+	multiple_endings_tip = {
+		1110214,
+		381,
+		true
+	},
+	l2d_tip_on = {
+		1110595,
+		100,
+		true
+	},
+	l2d_tip_off = {
+		1110695,
+		102,
 		true
 	}
 }

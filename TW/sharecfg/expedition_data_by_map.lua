@@ -405,6 +405,9 @@ pg.expedition_data_by_map = setmetatable({
 		2000012,
 		2000025,
 		2000026,
+		2010001,
+		2010002,
+		2010003,
 		2100000,
 		2100001,
 		2100010,
@@ -24697,6 +24700,219 @@ pg.base.expedition_data_by_map = {
 				2000051,
 				2000052
 			}
+		}
+	},
+	[2010001] = {
+		map = 2010001,
+		name = "漫遊者招募計劃|| ||CHAPTER EX||E.X.",
+		bgm = "story-wanderingcity-future",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2010001",
+		ani_controller = "",
+		default_background = "bg_manyouzhe_1",
+		on_activity = 50481,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 15,
+		bg = "Map_2010001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-ironblood-light",
+		uifx = "",
+		bind_map = 2010001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2010001,
+				2010021
+			},
+			{
+				2010002,
+				2010022
+			},
+			{
+				2010003,
+				2010023
+			}
+		},
+		story_id = {
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176
+		}
+	},
+	[2010002] = {
+		map = 2010002,
+		name = "漫遊者招募計劃|| ||CHAPTER EX||E.X.",
+		bgm = "story-wanderingcity-future",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2010001",
+		ani_controller = "",
+		default_background = "bg_manyouzhe_1",
+		on_activity = 50481,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 15,
+		bg = "Map_2010001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-ironblood-light",
+		uifx = "",
+		bind_map = 2010002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2010001,
+				2010021
+			},
+			{
+				2010002,
+				2010022
+			},
+			{
+				2010003,
+				2010023
+			}
+		},
+		story_id = {
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176
+		}
+	},
+	[2010003] = {
+		map = 2010003,
+		name = "漫遊者招募計劃·SP|| ||CHAPTER EX||E.X.",
+		bgm = "story-wanderingcity-future",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2010002",
+		ani_controller = "",
+		default_background = "bg_manyouzhe_2",
+		on_activity = 50481,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 15,
+		bg = "Map_2010002",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-ironblood-light",
+		uifx = "",
+		bind_map = 2010002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2010041
+			}
+		},
+		story_id = {
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176
 		}
 	},
 	[2100000] = {

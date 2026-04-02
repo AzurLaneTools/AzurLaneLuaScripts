@@ -142644,6 +142644,61 @@ _G.pg.base.equip_data_statistics[80592] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80621] = {
+	name = "專屬彈幕-科隆METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80621,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170991
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80622] = {
+	name = "專屬彈幕-科隆METAII",
+	base = 80621,
+	id = 80622,
+	weapon_id = {
+		170992
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 雙聯裝130mm主炮B-2LM",
 	speciality = "<[LOCK]>",
@@ -179295,6 +179350,459 @@ _G.pg.base.equip_data_statistics[151011] = {
 	base = 151000,
 	id = 151011,
 	value_1 = "530",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151020] = {
+	name = "漫遊者",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 151020,
+	value_2 = 6,
+	icon = "151020",
+	value_1 = "15",
+	attribute_2 = "dodge",
+	rarity = 5,
+	nationality = 0,
+	descrip = "不被系統紀錄的身份標識，是漫遊者們彼此確認的唯一信標。",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "hit",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			61040,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[151021] = {
+	id = 151021,
+	value_1 = "17",
+	base = 151020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151022] = {
+	id = 151022,
+	base = 151020,
+	value_2 = 7,
+	value_1 = "19",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151023] = {
+	id = 151023,
+	base = 151020,
+	value_2 = 8,
+	value_1 = "21",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151024] = {
+	id = 151024,
+	base = 151020,
+	value_2 = 9,
+	value_1 = "23",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151025] = {
+	id = 151025,
+	base = 151020,
+	value_2 = 10,
+	value_1 = "25",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151026] = {
+	id = 151026,
+	base = 151020,
+	value_2 = 11,
+	value_1 = "27",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151027] = {
+	id = 151027,
+	base = 151020,
+	value_2 = 12,
+	value_1 = "29",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151028] = {
+	id = 151028,
+	base = 151020,
+	value_2 = 13,
+	value_1 = "31",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151029] = {
+	id = 151029,
+	base = 151020,
+	value_2 = 14,
+	value_1 = "33",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151030] = {
+	id = 151030,
+	base = 151020,
+	value_2 = 15,
+	value_1 = "36",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151031] = {
+	id = 151031,
+	anti_siren = 100,
+	base = 151020,
+	value_2 = 16,
+	value_1 = "39",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151032] = {
+	id = 151032,
+	anti_siren = 200,
+	base = 151020,
+	value_2 = 17,
+	value_1 = "42",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151033] = {
+	id = 151033,
+	anti_siren = 300,
+	base = 151020,
+	value_2 = 18,
+	value_1 = "45",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151040] = {
+	name = "系統通緝者",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 151040,
+	value_2 = 1,
+	icon = "151040",
+	value_1 = "140",
+	attribute_2 = "speed",
+	rarity = 4,
+	nationality = 0,
+	descrip = "被系統標記的通緝者，每一次現身，都在為追捕者點亮座標。",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "durability",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			61050,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[151041] = {
+	id = 151041,
+	value_1 = "161",
+	base = 151040,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151042] = {
+	id = 151042,
+	value_1 = "182",
+	base = 151040,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151043] = {
+	id = 151043,
+	value_1 = "203",
+	base = 151040,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151044] = {
+	id = 151044,
+	base = 151040,
+	value_2 = 2,
+	value_1 = "224",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151045] = {
+	id = 151045,
+	base = 151040,
+	value_2 = 2,
+	value_1 = "245",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151046] = {
+	id = 151046,
+	base = 151040,
+	value_2 = 2,
+	value_1 = "266",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151047] = {
+	id = 151047,
+	base = 151040,
+	value_2 = 3,
+	value_1 = "287",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151048] = {
+	id = 151048,
+	base = 151040,
+	value_2 = 3,
+	value_1 = "308",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151049] = {
+	id = 151049,
+	base = 151040,
+	value_2 = 3,
+	value_1 = "329",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151050] = {
+	id = 151050,
+	base = 151040,
+	value_2 = 3,
+	value_1 = "350",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151051] = {
+	id = 151051,
+	anti_siren = 100,
+	base = 151040,
+	value_2 = 3,
+	value_1 = "371",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151060] = {
+	name = "零號協定密鑰",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 151060,
+	value_2 = 1,
+	icon = "151060",
+	value_1 = "100",
+	attribute_2 = "speed",
+	rarity = 5,
+	nationality = 0,
+	descrip = "足以格式化整個虛擬世界的晶片，是最後的底牌，也是最後的退路。",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "durability",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			61060,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[151061] = {
+	id = 151061,
+	value_1 = "130",
+	base = 151060,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151062] = {
+	id = 151062,
+	value_1 = "160",
+	base = 151060,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151063] = {
+	id = 151063,
+	value_1 = "190",
+	base = 151060,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151064] = {
+	id = 151064,
+	base = 151060,
+	value_2 = 2,
+	value_1 = "220",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151065] = {
+	id = 151065,
+	base = 151060,
+	value_2 = 2,
+	value_1 = "250",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151066] = {
+	id = 151066,
+	base = 151060,
+	value_2 = 2,
+	value_1 = "280",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151067] = {
+	id = 151067,
+	base = 151060,
+	value_2 = 3,
+	value_1 = "310",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151068] = {
+	id = 151068,
+	base = 151060,
+	value_2 = 3,
+	value_1 = "340",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151069] = {
+	id = 151069,
+	base = 151060,
+	value_2 = 3,
+	value_1 = "370",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151070] = {
+	id = 151070,
+	base = 151060,
+	value_2 = 4,
+	value_1 = "400",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151071] = {
+	id = 151071,
+	anti_siren = 100,
+	base = 151060,
+	value_2 = 4,
+	value_1 = "424",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151072] = {
+	id = 151072,
+	anti_siren = 200,
+	base = 151060,
+	value_2 = 4,
+	value_1 = "448",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151073] = {
+	id = 151073,
+	anti_siren = 300,
+	base = 151060,
+	value_2 = 4,
+	value_1 = "472",
 	hidden_skill_id = {}
 }
 

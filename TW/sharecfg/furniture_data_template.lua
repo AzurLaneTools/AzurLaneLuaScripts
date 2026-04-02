@@ -185,6 +185,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100002,
 			100003,
 			100004,
@@ -3515,6 +3516,27 @@ pg.furniture_data_template = setmetatable({
 			335119,
 			335301,
 			335302
+		},
+		[136] = {
+			336001,
+			336002,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_tag = {
@@ -5643,7 +5665,21 @@ pg.furniture_data_template = setmetatable({
 			335115,
 			335116,
 			335117,
-			335118
+			335118,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114
 		},
 		{
 			1108,
@@ -6015,7 +6051,8 @@ pg.furniture_data_template = setmetatable({
 			319,
 			321,
 			323,
-			331
+			331,
+			332
 		},
 		[7] = {
 			223,
@@ -6214,7 +6251,8 @@ pg.furniture_data_template = setmetatable({
 			331309,
 			333119,
 			334123,
-			335119
+			335119,
+			336115
 		},
 		[4] = {
 			1001,
@@ -6332,7 +6370,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		[3] = {
 			1002,
@@ -6451,7 +6490,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		[5] = {
 			1301,
@@ -6814,7 +6854,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_type = {
@@ -6935,7 +6977,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		[7] = {
 			1,
@@ -7097,6 +7140,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100002,
 			100004,
 			100005,
@@ -9256,7 +9300,22 @@ pg.furniture_data_template = setmetatable({
 			335116,
 			335117,
 			335118,
-			335119
+			335119,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115
 		},
 		[11] = {
 			131,
@@ -9447,7 +9506,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		[5] = {
 			1101,
@@ -10086,7 +10146,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		},
 		[8] = {
 			17121
@@ -10316,6 +10378,7 @@ pg.furniture_data_template = setmetatable({
 		329,
 		330,
 		331,
+		332,
 		100002,
 		100003,
 		100004,
@@ -13413,7 +13476,26 @@ pg.furniture_data_template = setmetatable({
 		335118,
 		335119,
 		335301,
-		335302
+		335302,
+		336001,
+		336002,
+		336101,
+		336102,
+		336103,
+		336104,
+		336105,
+		336106,
+		336107,
+		336108,
+		336109,
+		336110,
+		336111,
+		336112,
+		336113,
+		336114,
+		336115,
+		336301,
+		336302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22559,6 +22641,50 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"jiulouxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332] = {
+		can_rotate = 0,
+		describe = "荊棘市市政管理大樓，規則與指令的中樞，寂靜地嘉立在夜色中。",
+		gain_by = "漫遊者招募計劃",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "市政管理大樓",
+		advice = 0,
+		id = 332,
+		tag = 8,
+		comfortable = 0,
+		icon = "tegongdushixunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tegongdushixunzhang",
 				"normal"
 			}
 		},
@@ -164007,6 +164133,959 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"qiangshicj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336001] = {
+		can_rotate = 0,
+		describe = "進入指揮中心，在資料流光中俯瞰都市天際吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/dibantg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心地板",
+		advice = 0,
+		tag = 4,
+		id = 336001,
+		icon = "dibantgicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336002] = {
+		can_rotate = 0,
+		describe = "進入指揮中心，在資料流光中俯瞰都市天際吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心壁紙",
+		advice = 0,
+		id = 336002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbitgicon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336101] = {
+		advice = 0,
+		name = "指揮中心操作台",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "caozuotaitgicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 136,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 336101,
+		comfortable = 4,
+		describe = "多個操作面板組合的控制台，小心別點錯了按鍵~",
+		dorm_id = 0,
+		tag = 1,
+		spine_action_replace = "",
+		size = {
+			14,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caozuotaitgB",
+				"normal"
+			},
+			{
+				"caozuotaitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				-1
+			}
+		},
+		interAction_group = {}
+	},
+	[336102] = {
+		can_rotate = 0,
+		describe = "生物辨識通過，允許訪問~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心安全門",
+		advice = 0,
+		id = 336102,
+		tag = 1,
+		comfortable = 4,
+		icon = "damentgicon",
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"damentg",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336103] = {
+		can_rotate = 0,
+		describe = "標準的物資儲存箱，用來存放各類行動裝備與配件",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/daxiangzitg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心儲物箱",
+		advice = 0,
+		tag = 1,
+		id = 336103,
+		icon = "daxiangzitgicon",
+		comfortable = 1,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336104] = {
+		can_rotate = 0,
+		describe = "高精度立體空間成像設備，即時投影城市全貌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "立體城市投影",
+		advice = 0,
+		id = 336104,
+		tag = 1,
+		comfortable = 2,
+		icon = "ditutgicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ditutg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336105] = {
+		can_rotate = 0,
+		describe = "高密度資料運算中心，為各項行動提供算力支持",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心伺服器",
+		advice = 0,
+		id = 336105,
+		tag = 1,
+		comfortable = 2,
+		icon = "fuwuqitgicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fuwuqitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336106] = {
+		can_rotate = 0,
+		describe = "採用液冷散熱與靜音風道設計，高效率降噪",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/jixiangtg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心機殼",
+		advice = 0,
+		tag = 1,
+		id = 336106,
+		icon = "jixiangtgicon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336107] = {
+		can_rotate = 0,
+		describe = "多軸可調顯示器陣列，滿足情報分析的多維需求",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心螢幕組",
+		advice = 0,
+		id = 336107,
+		tag = 1,
+		comfortable = 3,
+		icon = "pingmuzutgicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pingmuzutg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336108] = {
+		can_rotate = 0,
+		describe = "正在使用全像投影出擊！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "全像投影",
+		advice = 0,
+		id = 336108,
+		tag = 1,
+		comfortable = 2,
+		icon = "quanxitgicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"quanxitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336109] = {
+		advice = 0,
+		name = "指揮中心工作台",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "shuzhuotgicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 136,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		id = 336109,
+		comfortable = 3,
+		describe = "辦公位置喜提硬體升級，幹活更有力氣了~",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuzhuotgB",
+				"normal"
+			},
+			{
+				"shuzhuotgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336110] = {
+		can_rotate = 0,
+		describe = "彎腰，側身，小心別碰到紅線！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "雷射發生器",
+		advice = 0,
+		id = 336110,
+		tag = 1,
+		comfortable = 2,
+		icon = "tanceqitgicon",
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tanceqitg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336111] = {
+		can_rotate = 0,
+		describe = "任務目標出現，即刻出發！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "特務啾",
+		advice = 0,
+		id = 336111,
+		tag = 1,
+		comfortable = 3,
+		icon = "tegongjiutgicon",
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tegongjiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336112] = {
+		can_rotate = 0,
+		describe = "雜物就放心交給儲存箱吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/xiangzikaitg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心雜物箱",
+		advice = 0,
+		tag = 1,
+		id = 336112,
+		icon = "xiangzikaitgicon",
+		comfortable = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336113] = {
+		can_rotate = 0,
+		describe = "今天的指揮中心也很安全呢~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "巡邏啾",
+		advice = 0,
+		id = 336113,
+		tag = 1,
+		comfortable = 2,
+		icon = "xunluojiutgicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xunluojiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336114] = {
+		can_rotate = 0,
+		describe = "滴——滴——啾~~！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心音響",
+		advice = 0,
+		id = 336114,
+		tag = 1,
+		comfortable = 1,
+		icon = "yinxiangtgicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinxiangtg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336115] = {
+		advice = 0,
+		name = "指揮中心掃描儀",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "saomiaoyitgicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 136,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 336115,
+		comfortable = 4,
+		describe = "支援多光譜掃描與即時三維重建，可用於識別身分、分析裝備等……",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"saomiaoyitgB",
+				"normal"
+			},
+			{
+				"saomiaoyitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336301] = {
+		can_rotate = 1,
+		describe = "監視器畫面即時投影，全域動向一目了然",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心監控螢幕",
+		advice = 0,
+		id = 336301,
+		tag = 5,
+		comfortable = 4,
+		icon = "dapingtgicon",
+		size = {
+			18,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dapingtg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336302] = {
+		can_rotate = 1,
+		describe = "嫌犯名單已更新，立即發布逮捕令！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "指揮中心通緝令",
+		advice = 0,
+		id = 336302,
+		tag = 5,
+		comfortable = 3,
+		icon = "tongjilingtgicon",
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tongjilingtg",
 				"normal"
 			}
 		},

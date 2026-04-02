@@ -28031,6 +28031,131 @@ _G.pg.base.item_data_statistics[30381] = {
 }
 
 
+_G.pg.base.item_data_statistics[30382] = {
+	open_directly = 1,
+	name = "外觀裝備箱(夜都漫遊者)",
+	type = 11,
+	display = "可以獲得一件隨機的夜都漫遊者風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxnihongtegong",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30379",
+	id = 30382,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外觀裝備箱(世界巡遊)",
@@ -43310,6 +43435,219 @@ _G.pg.base.item_data_statistics[30565] = {
 		{
 			9,
 			4329,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30566] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(夜都漫遊者)",
+	type = 13,
+	display = "使用後可從「夜都漫遊者」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxnihongtegongzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30566,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
 			1
 		}
 	},

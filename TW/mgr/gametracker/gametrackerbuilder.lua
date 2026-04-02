@@ -584,4 +584,10 @@ slot0.BuildIslandFishingCancel = function(slot0, slot1)
 	}, {})
 end
 
+slot0.BuildJuusOfficialAccountsClick = function(slot0)
+	return uv0(40002, {
+		slot0
+	}, {})
+end
+
 return slot0

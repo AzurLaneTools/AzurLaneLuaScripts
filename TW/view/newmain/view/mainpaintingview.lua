@@ -278,6 +278,12 @@ slot0.GetAssistantStatus = function(slot0)
 	end
 end
 
+slot0.OnBoundChange = function(slot0)
+	if slot0.painting then
+		slot0.painting:UpdateBound()
+	end
+end
+
 slot0.Live2dIsDownload = function(slot0)
 	return GroupHelper.GetGroupMgrByName("L2D"):CheckF(slot0) == DownloadState.None or slot2 == DownloadState.UpdateSuccess
 end

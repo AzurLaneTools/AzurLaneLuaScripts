@@ -370,7 +370,9 @@ slot0.GetDisplayLetterList = function(slot0)
 	slot2 = slot2:RawgetGroups()
 
 	return underscore.map(slot1, function (slot0)
-		return uv0[slot0]
+		return uv0[slot0] or ShipGroup.New({
+			id = slot0
+		})
 	end)
 end
 

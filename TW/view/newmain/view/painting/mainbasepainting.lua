@@ -249,7 +249,7 @@ slot0.OnTimerTriggerEvent = function(slot0)
 		slot1 = slot0:CollectIdleEvents(slot0.lastChatEvent)
 		slot0.lastChatEvent = slot1[math.ceil(math.random(#slot1))]
 
-		slot0:_TriggerEvent(slot0.lastChatEvent)
+		slot0:PrepareTriggerAction(slot0.lastChatEvent)
 		slot0:OnTriggerEventAuto()
 		slot0:RemoveTimer()
 	end
@@ -491,6 +491,9 @@ end
 
 slot0.GetOffset = function(slot0)
 	return 0
+end
+
+slot0.UpdateBound = function(slot0)
 end
 
 slot0.IslimitYPos = function(slot0)

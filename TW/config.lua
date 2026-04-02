@@ -278,6 +278,7 @@ ShareCfg = {
 	["ShareCfg.skill_data_display"] = true,
 	["ShareCfg.shake_template"] = true,
 	["ShareCfg.naval_academy_theme"] = true,
+	["ShareCfg.ship_l2d_tips"] = true,
 	["ShareCfg.ship_level"] = true,
 	["ShareCfg.activity_event_nianshou"] = true,
 	["ShareCfg.island_unit_interactive_item"] = true,

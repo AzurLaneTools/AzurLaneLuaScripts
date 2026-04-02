@@ -5,14 +5,15 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"crusing"
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2026,
 					4,
-					1
+					2
 				},
 				{
 					0,
@@ -23,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					5,
-					31
+					4,
+					15
 				},
 				{
 					23,
@@ -39,18 +40,18 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene level",
+			"scene get boat",
 			{
-				open_remaster = true,
-				isSP = false
+				projectName = "new",
+				page = 1
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					2
 				},
 				{
 					0,
@@ -62,7 +63,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					2
+					16
 				},
 				{
 					14,
@@ -77,14 +78,17 @@ pg.activity_banner = {
 		id = 3,
 		pic = "temp3",
 		param = {
-			"dorm 3d select"
+			"scene core activity",
+			{
+				coreName = "YunLongSPCoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					2
 				},
 				{
 					0,
@@ -96,7 +100,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					2
+					16
 				},
 				{
 					14,
@@ -113,15 +117,15 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 2
+				wrap = 4
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					3,
-					19
+					4,
+					2
 				},
 				{
 					0,
@@ -132,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					25
+					4,
+					15
 				},
 				{
 					23,
@@ -157,8 +161,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					19
+					4,
+					2
 				},
 				{
 					0,
@@ -169,8 +173,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					25
+					4,
+					15
 				},
 				{
 					23,
@@ -191,72 +195,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5604",
-		type = 3,
-		id = 7,
-		pic = "temp7",
-		time = {
-			{
-				{
-					2026,
-					3,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					26
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5297",
-		type = 3,
-		id = 8,
-		pic = "temp8",
-		time = {
-			{
-				{
-					2026,
-					3,
-					19
+					4,
+					2
 				},
 				{
 					0,
@@ -268,10 +208,78 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
 					2
 				},
 				{
-					14,
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
+			"crusing"
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					31
+				},
+				{
+					23,
 					59,
 					59
 				}
@@ -364,8 +372,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					19
+					4,
+					2
 				},
 				{
 					0,
@@ -376,8 +384,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					25
+					4,
+					15
 				},
 				{
 					23,
@@ -779,6 +787,8 @@ pg.activity_banner = {
 			4,
 			5,
 			6,
+			7,
+			8,
 			9,
 			11,
 			1000,
@@ -806,8 +816,6 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
-			7,
-			8,
 			10,
 			1003
 		},

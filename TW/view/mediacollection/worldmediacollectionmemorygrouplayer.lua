@@ -311,13 +311,56 @@ slot0.onUpdateMemoryGroup = function(slot0, slot1, slot2)
 	setText(tf(slot2):Find("title"), slot3.title)
 	slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", tf(slot2):Find("BG"))
 	setActive(tf(slot2):Find("Tip"), PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. getProxy(PlayerProxy):getRawData().id .. " " .. slot3.id, 0) == 1)
-	setText(tf(slot2):Find("count"), _.reduce(slot3.memories, 0, function (slot0, slot1)
+
+	slot6 = #slot3.memories
+	slot7 = _.reduce(slot3.memories, 0, function (slot0, slot1)
 		if pg.memory_template[slot1].is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot2.unlock_pre, true) then
 			slot0 = slot0 + 1
 		end
 
 		return slot0
-	end) .. "/" .. #slot3.memories)
+	end)
+	slot8 = false
+	slot9 = {}
+
+	if type(slot3.auto_unlock) == "table" then
+		slot11 = pg.NewStoryMgr.GetInstance()
+
+		if not getProxy(ActivityProxy):getActivityById(slot3.link_event) or slot10:isEnd() then
+			slot13 = {}
+
+			for slot17, slot18 in ipairs(slot3.auto_unlock) do
+				if slot11:GetPlayedFlag(slot11:StoryName2StoryId(pg.memory_template[slot18].story)) then
+					table.insert(slot13, slot19)
+				else
+					table.insert(slot9, slot19)
+				end
+			end
+
+			if #slot13 > 0 and #slot9 > 0 then
+				slot8 = true
+			end
+		end
+	end
+
+	if slot8 then
+		cb = function()
+			setText(tf(uv1):Find("count"), _.reduce(uv0.memories, 0, function (slot0, slot1)
+				if pg.memory_template[slot1].is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot2.unlock_pre, true) then
+					slot0 = slot0 + 1
+				end
+
+				return slot0
+			end) .. "/" .. uv2)
+		end
+
+		pg.m02:sendNotification(GAME.STORY_UPDATE_LIST, {
+			storyIds = slot9,
+			callback = cb
+		})
+	else
+		setText(tf(slot2):Find("count"), slot7 .. "/" .. slot6)
+	end
 end
 
 slot0.Return2MemoryGroup = function(slot0)

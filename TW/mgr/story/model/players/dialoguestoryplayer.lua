@@ -1209,6 +1209,7 @@ slot0.UpdateContent = function(slot0, slot1, slot2)
 	slot0.conentTxt.fontSize = slot1:GetFontSize() or slot0.defualtFontSize
 	slot4 = slot1:GetContent()
 	slot0.conentTxt.text = slot4
+	slot0.conentTxt.color = Color.NewHex(slot1:GetContentColor())
 	slot5 = 999
 
 	if slot4 and slot4 ~= "" then

@@ -292,6 +292,7 @@ slot0.SetPlayerAttrFromOutBattle = function(slot0, slot1, slot2)
 	slot3.guardian = {}
 	slot3.injureRatioKamikazeAir = 1
 	slot3.injureRatioKamikazeShip = 1
+	slot3.nationality = slot0:GetTemplate().nationality
 
 	uv0.SetBaseAttr(slot0)
 end
@@ -345,6 +346,7 @@ slot0.SetEnemyAttr = function(slot0, slot1)
 	slot4.luck = slot2.luck + slot2.luck_growth * slot5
 	slot4.bulletSpeedRatio = 0
 	slot4.id = "enemy_" .. tostring(slot2.id)
+	slot4.nationality = slot2.nationality
 	slot4.repressReduce = 1
 	slot4.healingRate = 1
 	slot4.comboTag = "combo_" .. slot4.battleUID
@@ -451,6 +453,7 @@ slot0.SetMinionAttr = function(slot0, slot1)
 	slot6.labelTag = {}
 	slot6.TargetChoise = {}
 	slot6.guardian = {}
+	slot6.nationality = slot4.nationality
 
 	uv0.SetBaseAttr(slot0)
 end
