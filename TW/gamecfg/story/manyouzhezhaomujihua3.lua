@@ -148,7 +148,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>[識別：名寄</size>",
+					"<size=45>[識別：名寄]</size>",
 					0
 				},
 				{

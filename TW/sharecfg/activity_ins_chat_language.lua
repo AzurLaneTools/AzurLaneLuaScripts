@@ -65661,7 +65661,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8667] = {
-		param = "指挥官，听到我摇响铃铛了吗？",
+		param = "指揮官，聽到我搖響鈴鐺了嗎？",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65669,7 +65669,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8668] = {
-		param = "姐姐大人现在遇到了难以抉择的问题",
+		param = "姐姐大人現在遇到了難以抉擇的問題",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65677,7 +65677,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8669] = {
-		param = "需要你来帮我参谋一下呢",
+		param = "需要你來幫我參謀一下呢",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65685,7 +65685,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8670] = {
-		param = "我正在家具城挑选沙发，看中了两套高级货",
+		param = "我正在家具城挑選沙發，看中了兩套高級貨",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65693,7 +65693,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8671] = {
-		param = "第一套镶嵌着宝石，雕花精致，非常气派",
+		param = "第一套鑲嵌著寶石，雕花精緻，非常氣派",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65701,7 +65701,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8672] = {
-		param = "第二套用料顶级，使用体验舒适，但看起来朴素",
+		param = "第二套用料頂級，使用體驗舒適，但看起來樸素",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65709,7 +65709,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8673] = {
-		param = "我一眼就喜欢上了第一套，可试过第二套之后，又有些犹豫……",
+		param = "我一眼就喜歡上了第一套，但試過第二套之後，又有些猶豫……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65717,7 +65717,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8674] = {
-		param = "你的话，会选哪一套？",
+		param = "你的話，會選哪一套？",
 		ship_group = 30717,
 		type = 1,
 		id = 8674,
@@ -65734,7 +65734,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[8675] = {
-		param = "第一套更漂亮，能提供更多情绪价值",
+		param = "第一套更漂亮，能提供更多情緒價值",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -65742,7 +65742,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8676] = {
-		param = "第二套更舒服，能提供更多使用价值",
+		param = "第二套比較舒服，能提供更多使用價值",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -65750,7 +65750,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8677] = {
-		param = "嗯……让我考虑一下",
+		param = "嗯……讓我考慮一下",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65758,7 +65758,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8678] = {
-		param = "啊！好纠结！",
+		param = "啊！好糾結！",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65766,7 +65766,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8679] = {
-		param = "为什么没有既华丽又舒服的沙发呢？",
+		param = "為什麼沒有既華麗又舒服的沙發呢？",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65774,7 +65774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8680] = {
-		param = "到底该选哪个……",
+		param = "到底該選哪個……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65782,7 +65782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8681] = {
-		param = "或者……要么……干脆……",
+		param = "或者……要嘛……乾脆……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65790,7 +65790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8682] = {
-		param = "……指挥官，我想到了一个完美的解决办法！",
+		param = "……指揮官，我想到了一個完美的解決辦法！",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65798,7 +65798,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8683] = {
-		param = "姐姐大人才不做选择，姐姐大人全都要！",
+		param = "姐姐大人才不做選擇，姐姐大人全都要！",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65814,7 +65814,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8685] = {
-		param = "第一套沙发放在客厅，完美符合姐姐大人的排场",
+		param = "第一套沙發放在客廳，完美符合姐姐大人的排場",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65822,7 +65822,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8686] = {
-		param = "第二套沙发放卧室，休息时刻也不能敷衍",
+		param = "第二套沙發放臥室，休息時刻也不能敷衍",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65830,7 +65830,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8687] = {
-		param = "果然，能用钱解决的问题都不是问题~呵呵呵呵~",
+		param = "果然，能用錢解決的問題都不是問題~呵呵呵呵~",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65846,7 +65846,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8689] = {
-		param = "姐姐大人现在缺个饭搭子，有主动报名的吗？",
+		param = "姐姐大人現在缺個陪飯的，有主動報名的嗎？",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65854,7 +65854,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8690] = {
-		param = "附近有一家新开的高级餐厅，我有点感兴趣",
+		param = "附近有一家新開的高級餐廳，我有點感興趣",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65862,7 +65862,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8691] = {
-		param = "但菜单里的一些食材，我吃不习惯……",
+		param = "但菜單裡的一些食材，我吃不習慣……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65870,7 +65870,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8692] = {
-		param = "不是挑食！只是不符合我的风格而已，可别误解了！",
+		param = "不是挑食！只是不符合我的風格而已，可別誤會了！",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65878,7 +65878,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8693] = {
-		param = "总之，为了不浪费食物，我需要一个饭搭子",
+		param = "總之，為了不浪費食物，我需要一個陪飯的",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65886,7 +65886,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8694] = {
-		param = "就决定是你了，指挥官",
+		param = "就決定是你了，指揮官",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65894,7 +65894,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8695] = {
-		param = "车费餐费我全包了，如何？",
+		param = "車資餐費我全包了，如何？",
 		ship_group = 30717,
 		type = 1,
 		id = 8695,
@@ -65902,12 +65902,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"有这种好事？"
+				"有這種好事？"
 			}
 		}
 	},
 	[8696] = {
-		param = "有这种好事？",
+		param = "有這種好事？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -65915,7 +65915,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8697] = {
-		param = "先说好哦，这家店是非常注重整体用餐体验",
+		param = "先說好哦，這家店是非常注重整體用餐體驗的",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65923,7 +65923,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8698] = {
-		param = "每道菜都很精致，还有配套的讲解",
+		param = "每道菜都很精緻，還有配套的講解",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65931,7 +65931,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8699] = {
-		param = "整个用餐过程会比较长",
+		param = "整個用餐過程會比較長",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65939,7 +65939,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8700] = {
-		param = "我们周末去，你可得留足时间",
+		param = "我們週末去，你可得留足時間",
 		ship_group = 30717,
 		type = 1,
 		id = 8700,
@@ -65947,12 +65947,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"好啊。那吃完饭之后……"
+				"好啊。那吃完飯之後……"
 			}
 		}
 	},
 	[8701] = {
-		param = "好啊。那吃完饭之后什么安排？",
+		param = "好啊。那吃完飯之後什麼安排？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -65960,7 +65960,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8702] = {
-		param = "倒是想去看个电影",
+		param = "倒是想去看電影",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65968,7 +65968,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8703] = {
-		param = "等等……这样……是不是太像约会了？！",
+		param = "等等……這樣……是不是太像約會了？！",
 		ship_group = 30717,
 		type = 1,
 		id = 8703,
@@ -65976,12 +65976,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"原来不是？"
+				"原來不是？"
 			}
 		}
 	},
 	[8704] = {
-		param = "原来不是？",
+		param = "原來不是？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -65989,7 +65989,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8705] = {
-		param = "啊？！说得好像姐姐大人在主动邀请你约会一样！",
+		param = "啊？！說得好像姐姐大人在主動邀約你約會一樣！",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -65997,7 +65997,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8706] = {
-		param = "只是缺个饭搭子而已……",
+		param = "只是缺個陪飯的而已……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66005,7 +66005,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8707] = {
-		param = "要好好感谢免费请你吃大餐的姐姐大人！",
+		param = "要好好感謝免費請你吃大餐的姐姐大人！",
 		ship_group = 30717,
 		type = 1,
 		id = 8707,
@@ -66013,12 +66013,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"谢谢……"
+				"謝謝……"
 			}
 		}
 	},
 	[8708] = {
-		param = "谢谢姐姐大人！",
+		param = "謝謝姐姐大人！",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66026,7 +66026,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8709] = {
-		param = "嗯哼~这才对嘛",
+		param = "嗯哼~這才對嘛",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66034,7 +66034,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8710] = {
-		param = "姐姐大人不会亏待你的",
+		param = "姐姐大人不會虧待你的",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66042,7 +66042,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8711] = {
-		param = "以后有什么好吃的，还叫你哦~",
+		param = "以後有什麼好吃的，還叫你哦~",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66050,7 +66050,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8712] = {
-		param = "叮铃铃~",
+		param = "叮鈴鈴~",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66058,7 +66058,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8713] = {
-		param = "姐姐大人摇铃铛了哦，指挥官在吗？",
+		param = "姐姐大人搖鈴鐺了哦，指揮官在嗎？",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66066,7 +66066,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8714] = {
-		param = "我又遇到了难以抉择的问题",
+		param = "我又遇到了難以抉擇的問題",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66074,7 +66074,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8715] = {
-		param = "再来帮我出出主意吧",
+		param = "再來幫我出主意吧",
 		ship_group = 30717,
 		type = 1,
 		id = 8715,
@@ -66082,12 +66082,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"“又”？"
+				"「又」？"
 			}
 		}
 	},
 	[8716] = {
-		param = "“又”？是上次那个挑选沙发问题的后续么",
+		param = "「又」？是上次那個挑選沙發問題的後續嗎",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66095,7 +66095,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8717] = {
-		param = "对",
+		param = "對",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66103,7 +66103,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8718] = {
-		param = "我上次把两套沙发都买回去以后，才发现了一个问题",
+		param = "我上次把兩套沙發都買回去以後，才發現了一個問題",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66111,7 +66111,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8719] = {
-		param = "——空间不够",
+		param = "——空間不夠",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66119,7 +66119,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8720] = {
-		param = "在卧室里摆上那套沙发之后，过道变得好拥挤",
+		param = "在臥室裡擺上那套沙發之後，走道變得好擁擠",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66127,7 +66127,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8721] = {
-		param = "就连走路都得侧着身",
+		param = "連走路都得側著身",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66135,7 +66135,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8722] = {
-		param = "所以我在想，要不要把正在用的豪华大床换成小一号的……",
+		param = "所以我在想，要不要把正在使用的豪華大床換成小一號的……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66143,7 +66143,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8723] = {
-		param = "顺便也问问你喜欢什么样的床，我做个……参考",
+		param = "順便也問問你喜歡什麼樣的床，我做個……參考",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66151,7 +66151,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8724] = {
-		param = "对，参考，就是这样",
+		param = "對，參考，就是這樣",
 		ship_group = 30717,
 		type = 1,
 		id = 8724,
@@ -66159,12 +66159,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"把床换小的话……"
+				"把床換小的話……"
 			}
 		}
 	},
 	[8725] = {
-		param = "把床换小的话，就不够有排场了？",
+		param = "把床換小的話，就不夠有排場了？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66180,7 +66180,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8727] = {
-		param = "这床当初我可是挑了好久才买下的",
+		param = "這床當初我可是挑了好久才買下的",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66188,7 +66188,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8728] = {
-		param = "万一换掉了后悔，就麻烦了……",
+		param = "萬一換掉了後悔，就麻煩了……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66196,7 +66196,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8729] = {
-		param = "居然忽略了这一点，真是失策",
+		param = "居然忽略了這一點，真是失策",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66204,7 +66204,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8730] = {
-		param = "我想想该怎么办……",
+		param = "我想想該怎麼辦……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66212,7 +66212,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8731] = {
-		param = "既想放下沙发，又舍不得这张床……",
+		param = "既想放下沙發，又捨不得這張床……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66220,7 +66220,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8732] = {
-		param = "有了！只要换个更大的房间，不就可以全部放下了吗？",
+		param = "有了！只要換個更大的房間，不就可以全部放下了嗎？",
 		ship_group = 30717,
 		type = 1,
 		id = 8732,
@@ -66228,12 +66228,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"不愧是你！"
+				"不愧是妳！"
 			}
 		}
 	},
 	[8733] = {
-		param = "不愧是姐姐大人，立刻就想到解决办法了呢",
+		param = "不愧是姐姐大人，立刻就想到解決辦法了呢",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66249,7 +66249,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8735] = {
-		param = "不过想换房间的话，还是得实地去看了才好选择呢",
+		param = "不過想換房間的話，還是得實地去看了才好選擇呢",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66257,7 +66257,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8736] = {
-		param = "指挥官有空一起来吗？",
+		param = "指揮官有空一起來嗎？",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66265,7 +66265,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8737] = {
-		param = "选个合你心意的……",
+		param = "選個合你心意的……",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66273,7 +66273,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8738] = {
-		param = "总之有没有空都来一趟吧！就这么说定了！",
+		param = "總之有沒有空都來一趟！就這麼說定了！",
 		ship_group = 30717,
 		type = 1,
 		id = 8738,
@@ -66281,12 +66281,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"这就来"
+				"這就來"
 			}
 		}
 	},
 	[8739] = {
-		param = "这就来",
+		param = "這就來",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66302,7 +66302,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8741] = {
-		param = "毕竟是要一起生活很久的地方，可要好好挑选呢",
+		param = "畢竟是要一起生活很久的地方，可要好好挑選呢",
 		ship_group = 30717,
 		option = "",
 		type = 1,
@@ -66310,7 +66310,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8742] = {
-		param = "命定之人啊，吾已寻得自己身为神使的证明了~",
+		param = "命定之人啊，吾已尋得自己身為神使的證明了~",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66318,7 +66318,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8743] = {
-		param = "想见识一下吗？",
+		param = "想見識一下嗎？",
 		ship_group = 30228,
 		type = 1,
 		id = 8743,
@@ -66326,12 +66326,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"神使的证明？"
+				"神使的證明？"
 			}
 		}
 	},
 	[8744] = {
-		param = "神使的证明？那是什么？",
+		param = "神使的證明？那是什麼？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66339,7 +66339,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8745] = {
-		param = "嗯哼哼~听了可不要吓一跳！",
+		param = "嗯哼哼~聽了可不要嚇一跳！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66347,7 +66347,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8746] = {
-		param = "刚发现，本神使在通灵时……",
+		param = "剛發現，本神使在通靈時……",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66355,7 +66355,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8747] = {
-		param = "头发会自己飘起来！",
+		param = "頭髮會自己飄起來！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66363,7 +66363,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8748] = {
-		param = "不是风吹的，是真的飘起来了！可帅了！",
+		param = "不是風吹的，是真的飄起來了！可帥了！",
 		ship_group = 30228,
 		type = 1,
 		id = 8748,
@@ -66371,12 +66371,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"听起来是有点神奇"
+				"聽起來有點神奇"
 			}
 		}
 	},
 	[8749] = {
-		param = "听起来是有点神奇",
+		param = "聽起來是有點神奇",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66384,7 +66384,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8750] = {
-		param = "有照片不？让我也见识一下",
+		param = "有照片嗎？讓我也見識一下",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66392,7 +66392,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8751] = {
-		param = "哼哼，这就拍给你看……",
+		param = "哼哼，這就拍給你看……",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66408,7 +66408,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8753] = {
-		param = "头发为什么不飘了？",
+		param = "頭髮為什麼不飄了？",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66416,7 +66416,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8754] = {
-		param = "命定之人你稍等一下",
+		param = "命定之人你等一下",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66424,7 +66424,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8755] = {
-		param = "等我重新进入通灵状态！",
+		param = "等我重新進入通靈狀態！",
 		ship_group = 30228,
 		type = 1,
 		id = 8755,
@@ -66432,12 +66432,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"难道是静电现象？"
+				"難道是靜電現象？"
 			}
 		}
 	},
 	[8756] = {
-		param = "难道是静电现象？",
+		param = "難道是靜電現象？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66445,7 +66445,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8757] = {
-		param = "乱讲……！",
+		param = "亂講……！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66453,7 +66453,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8758] = {
-		param = "跟那种简单的自然现象完全不一样！",
+		param = "跟那種簡單的自然現象完全不一樣！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66461,7 +66461,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8759] = {
-		param = "我马上证明给你看！",
+		param = "我馬上證明給你看！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66469,7 +66469,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8760] = {
-		param = "只要加大电流，快速进入通灵状态……",
+		param = "只要加大電流，快速進入通靈狀態……",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66477,7 +66477,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8761] = {
-		param = "嘤……灯怎么突然全灭了？",
+		param = "嚶……燈怎麼突然全滅了？",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66485,7 +66485,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8762] = {
-		param = "打不开……是停电了吗？",
+		param = "打不開……是停電了嗎？",
 		ship_group = 30228,
 		type = 1,
 		id = 8762,
@@ -66493,12 +66493,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"没事吧？"
+				"沒事吧？"
 			}
 		}
 	},
 	[8763] = {
-		param = "没事吧？我过去帮你看看？",
+		param = "沒事吧？我過去幫妳看看？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66506,7 +66506,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8764] = {
-		param = "只是停电而已……我很好，我一点事都没有！",
+		param = "只是停電而已……我很好，我一點事都沒有！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66514,7 +66514,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8765] = {
-		param = "一点都不怕，对，一点都不怕！",
+		param = "一點都不怕，對，一點都不怕！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66530,7 +66530,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8767] = {
-		param = "你……你走到哪儿了？",
+		param = "你……你走到哪裡了？",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66546,7 +66546,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8769] = {
-		param = "你可听见暴雨来临之前的风声？",
+		param = "你可聽見暴雨來臨之前的風聲？",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66554,7 +66554,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8770] = {
-		param = "是时候收衣服了",
+		param = "是時候收衣服了",
 		ship_group = 30228,
 		type = 1,
 		id = 8770,
@@ -66562,12 +66562,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"谢谢提醒"
+				"謝謝提醒"
 			}
 		}
 	},
 	[8771] = {
-		param = "谢谢提醒，你是怎么提前知道天气会变的？",
+		param = "謝謝提醒，妳是怎麼提早知道天氣會變的？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66575,7 +66575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8772] = {
-		param = "吾能短暂地窥见天意……",
+		param = "吾能短暫窺見天意……",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66583,7 +66583,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8773] = {
-		param = "刚才的风中，夹杂着云雨的怒意",
+		param = "剛才的風中，夾雜著雲雨的怒意",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66591,7 +66591,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8774] = {
-		param = "狂风将裹挟雷霆",
+		param = "狂風將裹挾雷霆",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66599,7 +66599,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8775] = {
-		param = "以万钧之势降下倾天暴雨",
+		param = "以萬鈞之勢降下傾天暴雨",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66607,7 +66607,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8776] = {
-		param = "而我正以神使之名，与伟大的自然意志沟通",
+		param = "而我正以神使之名，與偉大的自然意志溝通",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66615,7 +66615,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8777] = {
-		param = "让这雷云平息怒火，速速退去！",
+		param = "讓這雷雲平息怒火，速速退去！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66623,7 +66623,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8778] = {
-		param = "命定之人，你就看着我如何驯服这狂暴的天象吧~！",
+		param = "命定之人，你就看著我如何馴服這狂暴的天象吧~！",
 		ship_group = 30228,
 		type = 1,
 		id = 8778,
@@ -66631,12 +66631,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"很厉害的样子……"
+				"很厲害的樣子……"
 			}
 		}
 	},
 	[8779] = {
-		param = "很厉害的样子……虽然没太看懂你的话",
+		param = "很厲害的樣子……雖然沒太看懂妳的話",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66644,7 +66644,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8780] = {
-		param = "但现在确实下大暴雨了，你那边没事么？",
+		param = "但現在確實下大暴雨了，妳那邊沒事嗎？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66652,7 +66652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8781] = {
-		param = "吾很好！吾当然很好！",
+		param = "吾很好！吾當然很好！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66660,7 +66660,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8782] = {
-		param = "只要再给我一点点时间……",
+		param = "只要再給我一點點時間……",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66668,7 +66668,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8783] = {
-		param = "我马上就能控制住雨势了！",
+		param = "我馬上就能控制住雨勢了！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66676,7 +66676,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8784] = {
-		param = "等等……这风也太大了吧！",
+		param = "等等……這風也太大了吧！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66684,7 +66684,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8785] = {
-		param = "把雨水全吹进亭子里来了！",
+		param = "把雨水全吹進亭子裡來了！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66692,7 +66692,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8786] = {
-		param = "何等无理的风，快给我停下，停下啊！",
+		param = "何等無理的風，快給我停下，停下啊！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66716,7 +66716,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8789] = {
-		param = "我失败了……被暴雨困住了……",
+		param = "我失敗了……被暴雨困住了……",
 		ship_group = 30228,
 		type = 1,
 		id = 8789,
@@ -66724,12 +66724,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"你在哪？"
+				"妳在哪裡？"
 			}
 		}
 	},
 	[8790] = {
-		param = "你在哪？我马上来",
+		param = "妳在哪裡？我馬上來",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66737,7 +66737,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8791] = {
-		param = "我在指挥室附近的小亭子里，快要被淋透了……",
+		param = "我在指揮室附近的小亭子裡，快要被淋透了……",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66745,7 +66745,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8792] = {
-		param = "救救……嘤……",
+		param = "救救……嚶……",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66753,7 +66753,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8793] = {
-		param = "我的命定之人哟",
+		param = "我的命定之人喲",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66761,7 +66761,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8794] = {
-		param = "我已经能清晰感觉到……",
+		param = "我已經能清晰感覺到……",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66769,7 +66769,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8795] = {
-		param = "与你之间，那不可磨灭的羁绊",
+		param = "與你之間，那不可磨滅的羈絆",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66777,7 +66777,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8796] = {
-		param = "它让我们心意相通",
+		param = "它讓我們心意相通",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66785,7 +66785,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8797] = {
-		param = "也让我可以在任何情况下，领悟你的意图！",
+		param = "也讓我可以在任何情況下，領悟你的意圖！",
 		ship_group = 30228,
 		type = 1,
 		id = 8797,
@@ -66793,12 +66793,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"听起来很厉害啊……"
+				"聽起來很厲害啊……"
 			}
 		}
 	},
 	[8798] = {
-		param = "听起来很厉害啊。要不现在就来试试？",
+		param = "聽起來很厲害。要不現在就來試試？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66814,7 +66814,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8800] = {
-		param = "命定之人正在烦恼工作应该怎么处理！",
+		param = "命定之人正在煩惱工作該怎麼處理！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66822,7 +66822,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8801] = {
-		param = "怎么样，被我说中了吧？",
+		param = "怎麼樣，被我說中了吧？",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66830,7 +66830,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8802] = {
-		param = "我马上就过来帮你，呵呵，感激涕零吧！",
+		param = "我馬上就過來幫你，呵呵，感激涕零吧！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66851,7 +66851,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[8804] = {
-		param = "很不巧，我刚刚把工作处理完了",
+		param = "很不巧，我剛剛把工作處理完了",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66859,7 +66859,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8805] = {
-		param = "你来晚一步",
+		param = "妳來晚一步",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66875,7 +66875,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8807] = {
-		param = "原来命定之人自己就能轻松搞定",
+		param = "原來命定之人自己就能輕鬆搞定",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66883,7 +66883,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8808] = {
-		param = "我没能帮上忙……没能帮上忙",
+		param = "我沒能幫上忙……沒能幫上忙",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66891,7 +66891,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8809] = {
-		param = "我帮不上忙……帮不上忙",
+		param = "我幫不上忙……幫不上忙",
 		ship_group = 30228,
 		type = 1,
 		id = 8809,
@@ -66899,12 +66899,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"其实，我确实有一个烦恼"
+				"其實，我確實有個煩惱"
 			}
 		}
 	},
 	[8810] = {
-		param = "其实，我确实有一个烦恼",
+		param = "其實，我確實有一個煩惱",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66912,7 +66912,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8811] = {
-		param = "今晚难得不用加班，但还不知道该做些什么",
+		param = "今晚難得不用加班，但還不知道該做些什麼",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -66920,7 +66920,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8812] = {
-		param = "哦？！哼哼，怎么会有这样的烦恼呢~",
+		param = "哦？！哼哼，怎麼會有這樣的煩惱呢~",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66928,7 +66928,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8813] = {
-		param = "这样吧~我正巧知道一个好地方",
+		param = "這樣吧~我剛好知道一個好地方",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66936,7 +66936,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8814] = {
-		param = "就让好心的我来陪你去吧，一定不会让你失望的！",
+		param = "就讓好心的我來陪你去吧，一定不會讓你失望的！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66944,7 +66944,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8815] = {
-		param = "至于要去哪里……",
+		param = "至於要去哪裡……",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66952,7 +66952,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8816] = {
-		param = "命定之人就好好期待吧，我现在马上过来！",
+		param = "命定之人就好好期待吧，我現在馬上過來！",
 		ship_group = 30228,
 		option = "",
 		type = 1,
@@ -66960,7 +66960,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8817] = {
-		param = "指挥官~",
+		param = "指揮官~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -66968,7 +66968,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8818] = {
-		param = "有看到我今天努力工作的样子吗？",
+		param = "有看到我今天努力的樣子嗎？",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -66976,7 +66976,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8819] = {
-		param = "我可是特别认真努力地处理了好多工作哦",
+		param = "我可是特別認真努力地處理了很多工作哦",
 		ship_group = 30229,
 		type = 1,
 		id = 8819,
@@ -66988,12 +66988,12 @@ pg.base.activity_ins_chat_language = {
 			},
 			{
 				2,
-				"再接再厉！"
+				"再接再厲！"
 			}
 		}
 	},
 	[8820] = {
-		param = "辛苦了，今天的工作轻松了不少",
+		param = "辛苦了，今天的工作輕鬆了不少",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67001,7 +67001,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8821] = {
-		param = "我表现得很不错吧",
+		param = "我表現得很不錯吧",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67009,7 +67009,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8822] = {
-		param = "那要一点犒赏也是合情合理咯~",
+		param = "那要一點犒賞也是合情合理咯~",
 		ship_group = 30229,
 		type = 1,
 		id = 8822,
@@ -67017,12 +67017,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"想要什么样的犒赏？"
+				"想要什麼樣的犒賞？"
 			}
 		}
 	},
 	[8823] = {
-		param = "做的不错呢，再接再厉！",
+		param = "做的不錯呢，再接再厲！",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67030,7 +67030,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8824] = {
-		param = "欸~“再接再厉”什么的",
+		param = "欸~「再接再厲」什麼的",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67038,7 +67038,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8825] = {
-		param = "要是没有指挥官的犒赏，可没法一直维持下去呢",
+		param = "要是沒有指揮官的犒賞，可沒辦法一直維持下去呢",
 		ship_group = 30229,
 		type = 1,
 		id = 8825,
@@ -67046,12 +67046,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"想要什么样的犒赏？"
+				"想要什麼樣的犒賞？"
 			}
 		}
 	},
 	[8826] = {
-		param = "想要什么样的犒赏？",
+		param = "想要什麼樣的犒賞？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67067,7 +67067,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8828] = {
-		param = "就让指挥官帮我护理尾巴吧~",
+		param = "就讓指揮官幫我護理尾巴吧~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67075,7 +67075,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8829] = {
-		param = "【文件《尾巴护理指南》】",
+		param = "【文件《尾巴護理指南》】",
 		ship_group = 1,
 		type = 5,
 		id = 8829,
@@ -67088,7 +67088,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[8830] = {
-		param = "文件《尾巴护理指南》已接收",
+		param = "文件《尾巴護理指南》已接收",
 		ship_group = 0,
 		option = "",
 		type = 5,
@@ -67096,7 +67096,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8831] = {
-		param = "我尾巴的护理工序很讲究的，指挥官要抽空好好学习哦~",
+		param = "我尾巴的護理步驟很講究的，指揮官要抽空好好學習哦~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67104,7 +67104,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8832] = {
-		param = "需要用心护理，尾巴才会变得漂亮又顺滑哦",
+		param = "需要用心護理，尾巴才會變得漂亮又順滑哦",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67112,7 +67112,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8833] = {
-		param = "不过护理尾巴要花不少时间，不如一起来看个电影吧！",
+		param = "不過護理尾巴要花不少時間，不如一起來看電影吧！",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67120,7 +67120,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8834] = {
-		param = "既然电影都看了，不如一起吃个饭吧！",
+		param = "既然電影都看了，不如一起吃個飯吧！",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67128,7 +67128,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[8835] = {
-		param = "饭都吃完了，不如一起泡个澡吧！",
+		param = "飯都吃完了，不如一起泡個澡吧！",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67144,12 +67144,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"停停，我说停停"
+				"停停，我說停停"
 			}
 		}
 	},
 	[8837] = {
-		param = "停停，我说停停",
+		param = "停停，我說停停",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67157,7 +67157,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[8838] = {
-		param = "一次可不能要这么多，这些得算作以后的奖励",
+		param = "一次可不能要這麼多，這些得算是以後的獎勵",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67165,7 +67165,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[8839] = {
-		param = "欸~怎么这样嘛",
+		param = "欸~怎麼這樣嘛",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67173,7 +67173,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[8840] = {
-		param = "没办法，那就先只让指挥官来帮忙护理尾巴好了~",
+		param = "沒辦法，那就先只讓指揮官來幫忙照顧尾巴好了~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67181,7 +67181,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[8841] = {
-		param = "到时候只要把门反锁再拔掉钥匙……呵呵~",
+		param = "到時候只要把門反鎖再拔鑰匙……呵呵~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67189,7 +67189,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[8842] = {
-		param = "指挥官~",
+		param = "指揮官~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67197,7 +67197,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8843] = {
-		param = "我在温泉，为你准备了一些特·别·惊·喜~",
+		param = "我在溫泉，為你準備了一些特·別·驚·喜~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67205,7 +67205,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[8844] = {
-		param = "记得一定要来看看哦",
+		param = "記得一定要來看看哦",
 		ship_group = 30229,
 		type = 1,
 		id = 8844,
@@ -67213,12 +67213,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"今天也不特别吧"
+				"今天也不特別吧"
 			}
 		}
 	},
 	[8845] = {
-		param = "今天也不是什么特别的日子吧",
+		param = "今天也不是什麼特別的日子吧",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67226,7 +67226,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8846] = {
-		param = "你是不是另有打算？",
+		param = "妳是不是另有打算？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67242,7 +67242,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8848] = {
-		param = "怎么会呢，只是因为……",
+		param = "怎麼會呢，只是因為……",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67250,7 +67250,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8849] = {
-		param = "因为……",
+		param = "因為……",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67258,7 +67258,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8850] = {
-		param = "对了！因为指挥官昨天工作特别认真努力",
+		param = "對了！因為指揮官昨天工作特別認真努力",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67266,7 +67266,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8851] = {
-		param = "前天工作也特别认真努力",
+		param = "前天工作也特別認真努力",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67274,7 +67274,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8852] = {
-		param = "还有大前天、大大前天……",
+		param = "還有大前天、大前天……",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67282,7 +67282,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8853] = {
-		param = "指挥官这——么辛苦，不好好犒赏一番可不行呢~",
+		param = "指揮官這——麼辛苦，不好好犒賞一番可不行呢~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67290,7 +67290,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8854] = {
-		param = "真拿你没办法，既然你这么好奇，就提前告诉你特别惊喜的内容吧~",
+		param = "真拿你沒辦法，既然你這麼好奇，就提前告訴你特別驚喜的內容吧~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67298,7 +67298,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8855] = {
-		param = "我挑选了新的泳衣哦，尾巴部分也有特别设计的……那种款式~",
+		param = "我挑選了新的泳衣哦，尾巴部分也有特別設計的……那種款式~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67306,7 +67306,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8856] = {
-		param = "怎么样，就不想知道我的新泳衣是什么样子的吗？",
+		param = "怎麼樣，就不想知道我的新泳衣是什麼樣子的嗎？",
 		ship_group = 30229,
 		type = 1,
 		id = 8856,
@@ -67314,12 +67314,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"泳衣、温泉、尾巴……"
+				"泳衣、溫泉、尾巴……"
 			}
 		}
 	},
 	[8857] = {
-		param = "泳衣、温泉、尾巴……我知道了",
+		param = "泳衣、溫泉、尾巴……我知道了",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67327,7 +67327,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8858] = {
-		param = "泳衣只是诱饵，你想看我在泡温泉时被电流捉弄的样子？",
+		param = "泳衣只是誘餌，妳想看我在泡溫泉時被電流捉弄的樣子？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67343,7 +67343,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8860] = {
-		param = "想要瞒过指挥官，果然是不可能的吗？",
+		param = "想要瞞過指揮官，果然是不可能的嗎？",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67351,7 +67351,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8861] = {
-		param = "其实是我最近了解了一种新的疗法哦——“温泉电疗”！",
+		param = "其實是我最近了解了一種新的療法哦——「溫泉電療」！",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67359,7 +67359,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8862] = {
-		param = "维持少量电流放出状态的话，不会有漏电的风险",
+		param = "維持少量電流放出狀態的話，不會有漏電的風險",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67367,7 +67367,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8863] = {
-		param = "我自己觉得效果不错哦~指挥官也来试试吧~",
+		param = "我自己覺得效果不錯~指揮官也來試試吧~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67375,7 +67375,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8864] = {
-		param = "拜托啦~就当陪陪我~",
+		param = "拜託啦~就當陪陪我~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67396,7 +67396,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[8866] = {
-		param = "就试一次吧",
+		param = "就試一次吧",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67404,7 +67404,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8867] = {
-		param = "呼呼~就知道指挥官最好了，等你哟~",
+		param = "呼呼~就知道指揮官最好了，等你喲~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67436,12 +67436,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"为什么叹气？"
+				"為什麼要嘆氣？"
 			}
 		}
 	},
 	[8871] = {
-		param = "为什么叹气？",
+		param = "為什麼要嘆氣？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67449,7 +67449,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8872] = {
-		param = "好想用尾巴抱着指挥官啊，一直一直抱着~",
+		param = "好想用尾巴抱著指揮官啊，一直抱著~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67457,7 +67457,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8873] = {
-		param = "但是指挥官每次都会被电，就算是我也会心疼的",
+		param = "但是指揮官每次都會被電，就算是我也會心疼的",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67465,7 +67465,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8874] = {
-		param = "明明已经很注意尾巴的护理了，但还是无法控制地漏电",
+		param = "明明已經很注意尾巴的護理了，但還是無法控制地漏電",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67481,7 +67481,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8876] = {
-		param = "指挥官，快用你无敌的聪明头脑想想办法嘛~",
+		param = "指揮官，快用你無敵的聰明頭腦想想辦法嘛~",
 		ship_group = 30229,
 		type = 1,
 		id = 8876,
@@ -67489,12 +67489,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"核心问题是……"
+				"核心問題是……"
 			}
 		}
 	},
 	[8877] = {
-		param = "核心问题还是漏电吧？",
+		param = "核心問題還是漏電吧？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67502,7 +67502,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8878] = {
-		param = "或许……你有听说过“避雷针”么？",
+		param = "或許……妳有聽說過「避雷針」嗎？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67510,7 +67510,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8879] = {
-		param = "是那种竖在楼顶上，用于把雷电导入大地的东西吗？",
+		param = "是那種豎在樓頂上，用來把雷電導入大地的東西嗎？",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67518,7 +67518,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8880] = {
-		param = "利用金属比大楼本身更易导电的特点，将雷电汇聚到避雷针上",
+		param = "利用金屬比大樓本身更易導電的特點，將雷電匯聚到避雷針上",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67526,7 +67526,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8881] = {
-		param = "这样就可以将强大的闪电给无害化了，很聪明的设计",
+		param = "這樣就可以將強大的閃電給無害化了，很聰明的設計",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67534,7 +67534,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8882] = {
-		param = "等等，指挥官是想说……把尾巴漏的电引导走就没问题了？",
+		param = "等等，指揮官是想說……把尾巴漏的電引導走就沒問題了？",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67550,7 +67550,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8884] = {
-		param = "只要给尾巴上系上一根长长的电线，就可以起到避雷针的作用……",
+		param = "只要在尾巴上綁上一條長長的電線，就可以起到避雷針的作用……",
 		ship_group = 30229,
 		type = 1,
 		id = 8884,
@@ -67558,12 +67558,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"理论可行"
+				"理論可行"
 			}
 		}
 	},
 	[8885] = {
-		param = "理论可行，不过把电线换成金属坠饰可能更好",
+		param = "理論可行，不過把電線換成金屬吊飾可能更好",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67571,7 +67571,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8886] = {
-		param = "那我这就上街去挑饰品~指挥官也一起来吧~",
+		param = "那我這就上街去挑飾品~指揮官也一起來吧~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67579,7 +67579,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8887] = {
-		param = "来嘛~我已经等不及想用尾巴抱紧你了~",
+		param = "來嘛~我已經等不及想用尾巴抱緊你了~",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67587,7 +67587,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8888] = {
-		param = "就这样说好咯，我先出发，等你来~！",
+		param = "就這樣說好囉，我先出發，等你來~！",
 		ship_group = 30229,
 		option = "",
 		type = 1,
@@ -67595,7 +67595,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[8889] = {
-		param = "下午茶福利群建好了！本王已经把报名的大家都拉进来了！",
+		param = "下午茶福利群建好了！本王已經把報名的人都拉進來了！",
 		ship_group = 20501,
 		option = "",
 		type = 1,
@@ -67632,7 +67632,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[8893] = {
-		param = "下午茶福利群？总感觉皇家频道也有类似的功能……",
+		param = "下午茶福利群？總覺得皇家頻道也有類似的功能……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67640,7 +67640,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8894] = {
-		param = "哼哼，和之前的完全不一样哦，必须要有新的群才行！",
+		param = "哼哼，和之前的完全不一樣哦，必須要有新的群才行！",
 		ship_group = 20501,
 		option = "",
 		type = 1,
@@ -67656,7 +67656,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8896] = {
-		param = "为了把下午茶文化发扬光大，我们做出了适当的调整",
+		param = "為了把下午茶文化發揚光大，我們做了適當的調整",
 		ship_group = 20502,
 		option = "",
 		type = 1,
@@ -67664,7 +67664,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8897] = {
-		param = "简单来说，就是统一泡好茶水后，大家自取享用，更自由、更随性的下午茶类型",
+		param = "簡單來說，就是統一泡好茶水後，大家自取享用，更自由、更隨性的下午茶類型",
 		ship_group = 20502,
 		option = "",
 		type = 1,
@@ -67672,7 +67672,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8898] = {
-		param = "虽然使用了茶包，但配方是我精心调整过的，大家可以对口感放心",
+		param = "雖然使用了茶包，但配方是我精心調整過的，大家可以對口感放心",
 		ship_group = 20403,
 		option = "",
 		type = 1,
@@ -67680,7 +67680,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8899] = {
-		param = "而且，今天不光是皇家的同伴，其他阵营的同伴也都会来参加",
+		param = "而且，今天不光是皇家的同伴，其他陣營的同伴也會來參加",
 		ship_group = 20212,
 		option = "",
 		type = 1,
@@ -67688,7 +67688,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8900] = {
-		param = "期待能品尝到和东煌茶饮截然不同的风味~",
+		param = "期待品嚐到和東煌茶飲截然不同的風味~",
 		ship_group = 50201,
 		option = "",
 		type = 1,
@@ -67696,7 +67696,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8901] = {
-		param = "是额外的休息时间，开心……",
+		param = "是額外的休息時間，開心……",
 		ship_group = 90111,
 		option = "",
 		type = 1,
@@ -67704,7 +67704,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8902] = {
-		param = "呵呵，这样的新式下午茶，确实更让人放松呢",
+		param = "呵呵，這樣的新式下午茶，確實更讓人放鬆呢",
 		ship_group = 20504,
 		option = "",
 		type = 1,
@@ -67712,7 +67712,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8903] = {
-		param = "等会取茶的时候，大家可以在这个群里畅所欲言，有什么建议都可以反馈！",
+		param = "等會取茶的時候，大家可以在這個群組裡暢所欲言，有什麼建議都可以反應！",
 		ship_group = 20501,
 		option = "",
 		type = 1,
@@ -67720,7 +67720,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8904] = {
-		param = "红茶泡好了，就放在茶水间，大家可以自取",
+		param = "紅茶泡好了，就放在茶水間，大家可以自取",
 		ship_group = 20208,
 		option = "",
 		type = 1,
@@ -67728,7 +67728,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8905] = {
-		param = "大家快来喝茶吧~我已经帮大家分好茶具，倒好茶了哦~",
+		param = "大家快來喝茶吧~我已經幫大家分好茶具，倒好茶了哦~",
 		ship_group = 20136,
 		option = "",
 		type = 1,
@@ -67736,7 +67736,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8906] = {
-		param = "咦？英雄今天居然认真又积极……太阳从西边出来了？",
+		param = "咦？英雄今天居然認真又積極……太陽從西邊出來了？",
 		ship_group = 20116,
 		option = "",
 		type = 1,
@@ -67744,7 +67744,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8907] = {
-		param = "欸~有吗？我一直都很认真啦~",
+		param = "欸~有嗎？我一直都很認真~",
 		ship_group = 20136,
 		option = "",
 		type = 1,
@@ -67752,7 +67752,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8908] = {
-		param = "这个感觉……好熟悉呢。像是伏波干了坏事时的样子",
+		param = "這個感覺……好熟悉呢。像是伏波作了壞事時的樣子",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -67760,7 +67760,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[8909] = {
-		param = "大家别在意这些细节了啦~快喝茶吧~",
+		param = "大家別在意這些細節了~快喝茶吧~",
 		ship_group = 20136,
 		type = 1,
 		id = 8909,
@@ -67768,12 +67768,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"帮大家倒茶辛苦了……"
+				"幫大家倒茶辛苦了……"
 			}
 		}
 	},
 	[8910] = {
-		param = "帮大家倒茶辛苦了，你自己先喝杯茶休息休息怎么样？",
+		param = "幫大家倒茶辛苦了，妳自己先喝杯茶休息休息休息怎麼樣？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -67781,7 +67781,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8911] = {
-		param = "就知道指挥官会这么说~英勇刚刚已经喝过了哦，味道很不错呢~",
+		param = "就知道指揮官會這麼說~英勇剛剛已經喝過了哦，味道很不錯呢~",
 		ship_group = 20136,
 		option = "",
 		type = 1,
@@ -67789,7 +67789,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8912] = {
-		param = "既然如此就再多喝点吧~",
+		param = "既然如此就再多喝點吧~",
 		ship_group = 20234,
 		option = "",
 		type = 1,
@@ -67797,7 +67797,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8913] = {
-		param = "不不不~我真的喝了很多哦，暂时不想再喝了呢，嘻嘻~",
+		param = "不不不~我真的喝了很多哦，暫時不想再喝了呢，嘻嘻~",
 		ship_group = 20136,
 		option = "",
 		type = 1,
@@ -67805,7 +67805,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8914] = {
-		param = "还是留给指挥官大人和大家慢慢享用吧~",
+		param = "還是留給指揮官大人和大家慢慢享用吧~",
 		ship_group = 20136,
 		option = "",
 		type = 1,
@@ -67813,7 +67813,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8915] = {
-		param = "果然还是很反常……仔细一想，今天好像是个特殊的日子……",
+		param = "果然還是很反常……仔細一想，今天好像是個特別的日子……",
 		ship_group = 20116,
 		option = "",
 		type = 1,
@@ -67821,7 +67821,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8916] = {
-		param = "米勒大人知道！是愚人节哦！坏孩子都会在这一天恶作剧！",
+		param = "米勒大人知道！是愚人節哦！壞孩子都會在這一天惡作劇！",
 		ship_group = 10153,
 		option = "",
 		type = 1,
@@ -67829,7 +67829,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8917] = {
-		param = "黛朵刚才……有看见英雄带着好多瓶瓶罐罐，悄悄溜进厨房……",
+		param = "黛朵剛才……有看見英雄帶著好多瓶瓶罐罐，悄悄溜進廚房……",
 		ship_group = 20204,
 		option = "",
 		type = 1,
@@ -67837,7 +67837,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8918] = {
-		param = "英雄，你是不是往红茶里，加了什么“调味料”？",
+		param = "英雄，你是不是往紅茶裡，加了什麼「調味料」？",
 		ship_group = 20403,
 		option = "",
 		type = 1,
@@ -67845,7 +67845,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8919] = {
-		param = "欸~英雄只是在茶里加了亿点点炼乳、巧克力牛奶和草莓糖浆而已~不是什么坏东西呢~",
+		param = "欸~英雄只是在茶裡加了億點點煉乳、巧克力牛奶和草莓糖漿而已~不是什麼壞東西呢~",
 		ship_group = 20136,
 		option = "",
 		type = 1,
@@ -67861,7 +67861,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8921] = {
-		param = "听起来……好好吃！好好奇是什么味道~！",
+		param = "聽起來……好好吃！好好奇是什麼味道~！",
 		ship_group = 30132,
 		option = "",
 		type = 1,
@@ -67869,7 +67869,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8922] = {
-		param = "全糖红茶？我也想尝尝看！",
+		param = "全糖紅茶？我也想嚐嚐看！",
 		ship_group = 10218,
 		option = "",
 		type = 1,
@@ -67877,7 +67877,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8923] = {
-		param = "不要全喝光哦，吃太甜对牙齿不好呢",
+		param = "不要全喝光哦，吃太甜對牙齒不好呢",
 		ship_group = 29905,
 		option = "",
 		type = 1,
@@ -67885,7 +67885,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8924] = {
-		param = "大家先慢慢享用英雄带给大家的红茶，我再去准备一壶新的哦",
+		param = "大家先慢慢享用英雄帶給大家的紅茶，我再去準備一壺新的哦",
 		ship_group = 20403,
 		option = "",
 		type = 1,
@@ -67893,7 +67893,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8925] = {
-		param = "嘿嘿，不用不用！我早就猜到有人要在茶会恶作剧啦！",
+		param = "嘿嘿，不用不用！我早就猜到有人要在茶會惡作劇啦！",
 		ship_group = 20137,
 		option = "",
 		type = 1,
@@ -67901,7 +67901,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8926] = {
-		param = "下午茶开始之前，我就用厨房里的备用茶，替换了原本的红茶~",
+		param = "下午茶開始前，我就用廚房的備用茶，替換了原本的紅茶~",
 		ship_group = 20137,
 		option = "",
 		type = 1,
@@ -67909,7 +67909,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8927] = {
-		param = "茶没有问题，大家可以放心喝！",
+		param = "茶沒有問題，大家可以放心喝！",
 		ship_group = 20137,
 		option = "",
 		type = 1,
@@ -67917,7 +67917,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8928] = {
-		param = "努比亚人真是可靠呢！",
+		param = "努比亞真是可靠呢！",
 		ship_group = 20509,
 		option = "",
 		type = 1,
@@ -67925,7 +67925,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8929] = {
-		param = "那我就开动啦~！",
+		param = "那我就開動啦~！",
 		ship_group = 29903,
 		option = "",
 		type = 1,
@@ -67941,7 +67941,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8931] = {
-		param = "奇怪……我们应该没有准备备用茶啊？",
+		param = "奇怪……我們應該沒有準備備用茶啊？",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -67949,7 +67949,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8932] = {
-		param = "咳，其实准备了……",
+		param = "咳，其實準備了……",
 		ship_group = 30401,
 		option = "",
 		type = 1,
@@ -67957,7 +67957,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8933] = {
-		param = "……我过来帮忙的时候，不小心把它喝完了",
+		param = "……我過來幫忙的時候，不小心把它喝完了",
 		ship_group = 30401,
 		option = "",
 		type = 1,
@@ -67965,7 +67965,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8934] = {
-		param = "欸？但厨房里有两个茶壶？",
+		param = "欸？但廚房裡有兩個茶壺？",
 		ship_group = 20137,
 		option = "",
 		type = 1,
@@ -67973,7 +67973,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8935] = {
-		param = "那个，有人看到我练习泡茶用的茶壶了吗？",
+		param = "那個，有人看到我練習泡茶的茶壺了嗎？",
 		ship_group = 20707,
 		option = "",
 		type = 1,
@@ -67981,7 +67981,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8936] = {
-		param = "之前明明就放在厨房里……里面可是我新改良的配方啊……",
+		param = "之前明明就放在廚房……裡面可是我新改良的配方啊……",
 		ship_group = 20707,
 		option = "",
 		type = 1,
@@ -68021,7 +68021,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8941] = {
-		param = "哈哈哈~这是乌龙吗？哈哈哈，比恶作剧的效果还要好嘛~",
+		param = "哈哈哈~這是烏龍嗎？哈哈哈，比惡作劇的效果還要好啊~",
 		ship_group = 20136,
 		option = "",
 		type = 1,
@@ -68029,7 +68029,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8942] = {
-		param = "既然已经这样了……那就祝大家愚人节快乐？",
+		param = "既然已經這樣了……那就祝大家愚人節快樂？",
 		ship_group = 20707,
 		option = "",
 		type = 1,
@@ -68037,7 +68037,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8943] = {
-		param = "大家，愚人节快乐——",
+		param = "大家，愚人節快樂——",
 		ship_group = 50102,
 		option = "",
 		type = 1,
@@ -68045,7 +68045,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8944] = {
-		param = "真是个不错的节日呢，哼哼~",
+		param = "真是個不錯的節日呢，哼哼~",
 		ship_group = 40602,
 		option = "",
 		type = 1,
@@ -68053,7 +68053,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8945] = {
-		param = "伏波，等大家都放松警惕，就该到我们恶作剧的时候了！",
+		param = "伏波，等大家都放鬆警惕，就該到我們惡作劇的時候了！",
 		ship_group = 50102,
 		option = "",
 		type = 1,
@@ -68061,7 +68061,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8946] = {
-		param = "笨蛋！！你把私聊的内容发到群里啦！",
+		param = "笨蛋！！妳把私聊的內容發到群組裡啦！",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -68069,7 +68069,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[8947] = {
-		param = "……下次，还是回归普通的线下下午茶吧……",
+		param = "……下次，還是回歸普通的線下下午茶吧……",
 		ship_group = 20501,
 		option = "",
 		type = 1,
